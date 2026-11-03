@@ -1,0 +1,1756 @@
+# Witnesses that may be one
+
+Written once by tools/witnesses/convert_records.py (Nov. 3, 2026): the same kind and date, the words alike by 0.85 or more. Not joined: a reader joins them (one id kept, the other's edges moved to it, its id left out) or leaves them.
+
+- x.undated.bartlett-interview-by-reeves | x.undated.obrien-interview-by-reeves (0.85)
+  - Bartlett, interview by Reeves
+  - O'Brien, interview by Reeves
+- x.undated.bissell-interview-by-reeves | x.undated.obrien-interview-by-reeves (0.87)
+  - Bissell, interview by Reeves
+  - O'Brien, interview by Reeves
+- x.undated.bissell-oral-history-3 | x.undated.bissell-oral-history-27 (0.93)
+  - Bissell, oral history, 3
+  - Bissell, oral history, 27
+- x.undated.bissell-oral-history-3 | x.undated.bissell-oral-history-4-6 (0.91)
+  - Bissell, oral history, 3
+  - Bissell, oral history, 4, 6
+- x.undated.bissell-oral-history-4-6 | x.undated.bissell-oral-history-27 (0.89)
+  - Bissell, oral history, 4, 6
+  - Bissell, oral history, 27
+- x.undated.bundy-and-hilsman-interviews-by-reeves | x.undated.bundy-and-sorensen-interviews-by-reeves (0.86)
+  - Bundy and Hilsman, interviews by Reeves
+  - Bundy and Sorensen, interviews by Reeves
+- x.undated.bundy-cousins-and-sorensen-interviews-by | x.undated.bundy-and-sorensen-interviews-by-reeves (0.91)
+  - Bundy, Cousins and Sorensen, interviews by Reeves
+  - Bundy and Sorensen, interviews by Reeves
+- x.undated.bundy-interview-by-reeves | x.undated.obrien-interview-by-reeves (0.86)
+  - Bundy, interview by Reeves
+  - O'Brien, interview by Reeves
+- x.undated.bundy-interview-by-reeves | x.undated.rauh-interview-by-reeves (0.86)
+  - Bundy, interview by Reeves
+  - Rauh, interview by Reeves
+- x.undated.bundy-rusk-and-schlesinger-interviews-by | x.undated.chayes-and-schlesinger-interviews-by-reeves (0.87)
+  - Bundy, Rusk and Schlesinger, interviews by Reeves
+  - Chayes and Schlesinger, interviews by Reeves
+- x.undated.burke-marshall-oral-history | x.undated.burke-marshall-oral-history-37 (0.95)
+  - Burke Marshall, oral history
+  - Burke Marshall, oral history, 37
+- x.undated.burke-marshall-oral-history | x.undated.burke-marshall-oral-history-39 (0.95)
+  - Burke Marshall, oral history
+  - Burke Marshall, oral history, 39
+- x.undated.burke-marshall-oral-history | x.undated.burke-marshall-oral-history-39-40 (0.90)
+  - Burke Marshall, oral history
+  - Burke Marshall, oral history, 39–40
+- x.undated.burke-marshall-oral-history | x.undated.burke-marshall-oral-history-84-86 (0.90)
+  - Burke Marshall, oral history
+  - Burke Marshall, oral history, 84–86
+- x.undated.burke-marshall-oral-history | x.undated.burke-marshall-oral-history-lbj (0.93)
+  - Burke Marshall, oral history
+  - Burke Marshall Oral History, LBJ
+- x.undated.burke-marshall-oral-history-37 | x.undated.burke-marshall-oral-history-39 (0.97)
+  - Burke Marshall, oral history, 37
+  - Burke Marshall, oral history, 39
+- x.undated.burke-marshall-oral-history-37 | x.undated.burke-marshall-oral-history-39-40 (0.92)
+  - Burke Marshall, oral history, 37
+  - Burke Marshall, oral history, 39–40
+- x.undated.burke-marshall-oral-history-37 | x.undated.burke-marshall-oral-history-84-86 (0.89)
+  - Burke Marshall, oral history, 37
+  - Burke Marshall, oral history, 84–86
+- x.undated.burke-marshall-oral-history-37 | x.undated.burke-marshall-oral-history-lbj (0.92)
+  - Burke Marshall, oral history, 37
+  - Burke Marshall Oral History, LBJ
+- x.undated.burke-marshall-oral-history-39 | x.undated.burke-marshall-oral-history-39-40 (0.95)
+  - Burke Marshall, oral history, 39
+  - Burke Marshall, oral history, 39–40
+- x.undated.burke-marshall-oral-history-39 | x.undated.burke-marshall-oral-history-84-86 (0.89)
+  - Burke Marshall, oral history, 39
+  - Burke Marshall, oral history, 84–86
+- x.undated.burke-marshall-oral-history-39 | x.undated.burke-marshall-oral-history-lbj (0.92)
+  - Burke Marshall, oral history, 39
+  - Burke Marshall Oral History, LBJ
+- x.undated.burke-marshall-oral-history-39-40 | x.undated.burke-marshall-oral-history-84-86 (0.88)
+  - Burke Marshall, oral history, 39–40
+  - Burke Marshall, oral history, 84–86
+- x.undated.burke-marshall-oral-history-lbj | x.undated.burke-marshall-oral-history-39-40 (0.88)
+  - Burke Marshall Oral History, LBJ
+  - Burke Marshall, oral history, 39–40
+- x.undated.burke-marshall-oral-history-lbj | x.undated.burke-marshall-oral-history-84-86 (0.88)
+  - Burke Marshall Oral History, LBJ
+  - Burke Marshall, oral history, 84–86
+- x.undated.burke-oral-history-21-22 | x.undated.burke-oral-history-24 (0.89)
+  - Burke, oral history, 21–22
+  - Burke, oral history, 24
+- x.undated.elly-m-peterson-elly-confessions-of | x.undated.elly-m-peterson-elly-confessions-of-2 (0.96)
+  - Elly M. Peterson, "Elly!: Confessions of a Woman Who Walked the Streets" (unpublished manuscript, 1997), 113–18, Elly M. Peterson Papers, University of Michigan
+  - Elly M. Peterson, "Elly!: Confessions of a Woman Who Walked the Streets" (unpublished manuscript, 1997), 117, Peterson Papers, University of Michigan
+- x.undated.george-ball-interview-by-reeves | x.undated.george-herman-interview-by-reeves (0.88)
+  - George Ball, interview by Reeves
+  - George Herman, interview by Reeves
+- x.undated.harris-wofford-oral-history | x.undated.harris-wofford-oral-history-103 (0.93)
+  - Harris Wofford, oral history
+  - Harris Wofford, oral history, 103
+- x.undated.henry-cabot-lodge-oral-history | x.undated.henry-cabot-lodge-oral-history-22 (0.95)
+  - Henry Cabot Lodge, oral history
+  - Henry Cabot Lodge, oral history, 22
+- x.undated.henry-cabot-lodge-oral-history | x.undated.henry-cabot-lodge-oral-history-5 (0.97)
+  - Henry Cabot Lodge, oral history
+  - Henry Cabot Lodge, oral history, 5
+- x.undated.henry-cabot-lodge-oral-history-5 | x.undated.henry-cabot-lodge-oral-history-22 (0.95)
+  - Henry Cabot Lodge, oral history, 5
+  - Henry Cabot Lodge, oral history, 22
+- x.undated.interviews-king-bernhard-kennedy-library | x.undated.interviews-martin-luther-king-bernhard-kennedy (0.85)
+  - interviews: King (Bernhard, Kennedy Library)
+  - interviews: Martin Luther King (Bernhard, Kennedy Library)
+- x.undated.j-william-fulbright-oral-history | x.undated.j-william-fulbright-oral-history-61 (0.91)
+  - J. William Fulbright, oral history
+  - J. William Fulbright, oral history, 61–63
+- x.undated.james-e-webb-oral-history-interview | x.undated.james-h-rowe-oral-history-interview (0.91)
+  - James E. Webb, oral history interview
+  - James H. Rowe oral history interview
+- x.undated.james-reston-interview-by-reeves | x.undated.reston-interview-by-reeves (0.90)
+  - James Reston, interview by Reeves
+  - Reston, interview by Reeves
+- x.undated.james-reston-interview-by-reeves | x.undated.samuelson-interview-by-reeves (0.85)
+  - James Reston, interview by Reeves
+  - Samuelson, interview by Reeves
+- x.undated.john-s-monagan-unpublished-personal-recollections | x.undated.john-s-monagan-unpublished-personal-recollections-2 (0.91)
+  - John S. Monagan, unpublished personal recollections
+  - John S. Monagan, unpublished personal recollections (Mansfield)
+- x.undated.john-seigenthaler-oral-history | x.undated.john-seigenthaler-oral-history-301-34 (0.90)
+  - John Seigenthaler, oral history
+  - John Seigenthaler, oral history, 301–34
+- x.undated.joseph-l-rauh-jr-oral-history | x.undated.joseph-rauh-oral-history (0.91)
+  - Joseph L. Rauh Jr., oral history
+  - Joseph Rauh, oral history
+- x.undated.joseph-rauh-interview-by-reeves | x.undated.rauh-interview-by-reeves (0.87)
+  - Joseph Rauh, interview by Reeves
+  - Rauh, interview by Reeves
+- x.undated.joseph-rauh-oral-history-99-104 | x.undated.joseph-rauh-oral-history (0.87)
+  - Joseph Rauh, oral history, 99–104
+  - Joseph Rauh, oral history
+- x.undated.louis-martin-and-sorensen-interviews-by | x.undated.louis-martin-and-rauh-interviews-by (0.89)
+  - Louis Martin and Sorensen, interviews by Reeves
+  - Louis Martin and Rauh, interviews by Reeves
+- x.undated.louis-martin-and-wofford-interviews-by | x.undated.louis-martin-and-rauh-interviews-by (0.90)
+  - Louis Martin and Wofford, interviews by Reeves
+  - Louis Martin and Rauh, interviews by Reeves
+- x.undated.louis-martin-and-wofford-interviews-by | x.undated.louis-martin-and-sorensen-interviews-by (0.88)
+  - Louis Martin and Wofford, interviews by Reeves
+  - Louis Martin and Sorensen, interviews by Reeves
+- x.undated.louis-martin-interview-by-reeves | x.undated.louis-martin-and-rauh-interviews-by (0.86)
+  - Louis Martin, interview by Reeves
+  - Louis Martin and Rauh, interviews by Reeves
+- x.undated.mike-mansfield-oral-history-28 | x.undated.mike-mansfield-oral-history-24 (0.97)
+  - Mike Mansfield, oral history, 28
+  - Mike Mansfield, oral history, 24
+- x.undated.mike-mansfield-oral-history-7 | x.undated.mike-mansfield-oral-history-24 (0.95)
+  - Mike Mansfield, oral history, 7
+  - Mike Mansfield, oral history, 24
+- x.undated.mike-mansfield-oral-history-7 | x.undated.mike-mansfield-oral-history-28 (0.95)
+  - Mike Mansfield, oral history, 7
+  - Mike Mansfield, oral history, 28
+- x.undated.new-york-times-feb-11-65 | x.undated.new-york-times-dec-16-65 (0.88)
+  - New York Times, Feb 11, 65
+  - New York Times, Dec 16, 65
+- x.undated.nicholas-katzenbach-oral-history | x.undated.nicholas-katzenbach-oral-history-104-23 (0.90)
+  - Nicholas Katzenbach, oral history
+  - Nicholas Katzenbach, oral history, 104–23
+- x.undated.nicholas-katzenbach-oral-history | x.undated.nicholas-katzenbach-oral-history-159-69 (0.90)
+  - Nicholas Katzenbach, oral history
+  - Nicholas Katzenbach, oral history, 159–69
+- x.undated.nicholas-katzenbach-oral-history-104-23 | x.undated.nicholas-katzenbach-oral-history-159-69 (0.90)
+  - Nicholas Katzenbach, oral history, 104–23
+  - Nicholas Katzenbach, oral history, 159–69
+- x.undated.nixon-conversation-with-reeves | x.undated.dobrynin-conversation-with-reeves (0.89)
+  - Nixon, conversation with Reeves
+  - Dobrynin, conversation with Reeves
+- x.undated.project-checo-rolling-thunder-p-22 | x.undated.project-checo-rolling-thunder-pp-31 (0.89)
+  - Project CHECO, Rolling Thunder, p 22
+  - Project CHECO, Rolling Thunder, pp 31-35
+- x.undated.robert-f-kennedy-oral-history | x.undated.robert-f-kennedy-oral-history-299 (0.88)
+  - Robert F. Kennedy, oral history
+  - Robert F. Kennedy, oral history, 299–303
+- x.undated.robert-f-kennedy-oral-history | x.undated.robert-f-kennedy-oral-history-815 (0.89)
+  - Robert F. Kennedy, oral history
+  - Robert F. Kennedy, oral history, 815–18
+- x.undated.robert-kennedy-oral-history-1-43 | x.undated.robert-f-kennedy-oral-history (0.89)
+  - Robert Kennedy, oral history, 1, 43
+  - Robert F. Kennedy, oral history
+- x.undated.robert-kennedy-oral-history-1-43 | x.undated.robert-f-kennedy-oral-history-299 (0.87)
+  - Robert Kennedy, oral history, 1, 43
+  - Robert F. Kennedy, oral history, 299–303
+- x.undated.robert-kennedy-oral-history-1-43 | x.undated.robert-f-kennedy-oral-history-815 (0.88)
+  - Robert Kennedy, oral history, 1, 43
+  - Robert F. Kennedy, oral history, 815–18
+- x.undated.robert-kennedy-oral-history-1-44 | x.undated.robert-f-kennedy-oral-history (0.89)
+  - Robert Kennedy, oral history, 1, 44
+  - Robert F. Kennedy, oral history
+- x.undated.robert-kennedy-oral-history-1-44 | x.undated.robert-f-kennedy-oral-history-815 (0.88)
+  - Robert Kennedy, oral history, 1, 44
+  - Robert F. Kennedy, oral history, 815–18
+- x.undated.robert-kennedy-oral-history-1-44 | x.undated.robert-kennedy-oral-history-1-43 (0.97)
+  - Robert Kennedy, oral history, 1, 44
+  - Robert Kennedy, oral history, 1, 43
+- x.undated.robert-mcnamara-interview-by-reeves | x.undated.mcnamara-interview-by-reeves (0.89)
+  - Robert McNamara, interview by Reeves
+  - McNamara, interview by Reeves
+- x.undated.rusher-interview-with-the-author-the-2 | x.undated.rusher-interview-with-the-author-the-3 (0.89)
+  - Rusher, interview with the author (the Minnesota meeting)
+  - Rusher, interview with the author (the Essex Motel meeting)
+- x.undated.rusher-interview-with-the-author-the-2 | x.undated.rusher-interview-with-the-author-the-5 (0.89)
+  - Rusher, interview with the author (the Minnesota meeting)
+  - Rusher, interview with the author (the Chicago meeting)
+- x.undated.rusher-interview-with-the-author-the-3 | x.undated.rusher-interview-with-the-author-the-5 (0.85)
+  - Rusher, interview with the author (the Essex Motel meeting)
+  - Rusher, interview with the author (the Chicago meeting)
+- x.undated.salinger-interview-by-reeves | x.undated.pierre-salinger-interview-by-reeves (0.89)
+  - Salinger, interview by Reeves
+  - Pierre Salinger, interview by Reeves
+- x.undated.samuelson-interview-by-reeves | x.undated.szulc-interview-by-reeves (0.85)
+  - Samuelson, interview by Reeves
+  - Szulc, interview by Reeves
+- x.undated.schlesinger-interview-by-reeves | x.undated.salinger-interview-by-reeves (0.92)
+  - Schlesinger, interview by Reeves
+  - Salinger, interview by Reeves
+- x.undated.seigenthaler-interview-by-reeves | x.undated.john-seigenthaler-interview-by-reeves (0.93)
+  - Seigenthaler, interview by Reeves
+  - John Seigenthaler, interview by Reeves
+- x.undated.sorensen-interview-by-reeves | x.undated.obrien-interview-by-reeves (0.89)
+  - Sorensen, interview by Reeves
+  - O'Brien, interview by Reeves
+- x.undated.sorensen-interview-by-reeves | x.undated.reston-interview-by-reeves (0.89)
+  - Sorensen, interview by Reeves
+  - Reston, interview by Reeves
+- x.undated.szulc-interview-by-reeves | x.undated.rauh-interview-by-reeves (0.86)
+  - Szulc, interview by Reeves
+  - Rauh, interview by Reeves
+- x.undated.theodore-sorensen-oral-history-71-72 | x.undated.theodore-sorensen-oral-history-90 (0.90)
+  - Theodore Sorensen, oral history, 71–72
+  - Theodore Sorensen, oral history, 90
+- x.undated.w-dallek-right-moment-165 | x.undated.w-dallek-right-moment-203 (0.88)
+  - [[w.dallek-right-moment]], 165
+  - [[w.dallek-right-moment]], 203
+- x.undated.w-w-rostow-the-diffusion-of | x.undated.w-w-rostow-the-diffusion-of-2 (0.95)
+  - W. W. Rostow, The Diffusion of Power (1972), 209
+  - W. W. Rostow, The Diffusion of Power (1972), 169
+- x.undated.walter-w-heller-oh-ii | x.undated.walter-w-heller-oh-i (0.98)
+  - Walter W. Heller OH II
+  - Walter W. Heller OH I
+- x.undated.william-p-bundy-manuscript-history-of | x.undated.william-p-bundy-manuscript-history-of-10 (0.89)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 13
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 33, pp. 31–32, 35–38
+- x.undated.william-p-bundy-manuscript-history-of | x.undated.william-p-bundy-manuscript-history-of-2 (0.92)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 13
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 14, pp. 19–22
+- x.undated.william-p-bundy-manuscript-history-of | x.undated.william-p-bundy-manuscript-history-of-3 (0.92)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 13
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 17, pp. 26–28
+- x.undated.william-p-bundy-manuscript-history-of | x.undated.william-p-bundy-manuscript-history-of-4 (0.91)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 13
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 22B, pp. 5–6
+- x.undated.william-p-bundy-manuscript-history-of | x.undated.william-p-bundy-manuscript-history-of-5 (0.93)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 13
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 3–6
+- x.undated.william-p-bundy-manuscript-history-of | x.undated.william-p-bundy-manuscript-history-of-6 (0.92)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 13
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 22–23
+- x.undated.william-p-bundy-manuscript-history-of | x.undated.william-p-bundy-manuscript-history-of-7 (0.92)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 13
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 1–14
+- x.undated.william-p-bundy-manuscript-history-of | x.undated.william-p-bundy-manuscript-history-of-8 (0.92)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 13
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 15–21
+- x.undated.william-p-bundy-manuscript-history-of | x.undated.william-p-bundy-manuscript-history-of-9 (0.92)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 13
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 25–33
+- x.undated.william-p-bundy-manuscript-history-of-2 | x.undated.william-p-bundy-manuscript-history-of-10 (0.90)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 14, pp. 19–22
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 33, pp. 31–32, 35–38
+- x.undated.william-p-bundy-manuscript-history-of-2 | x.undated.william-p-bundy-manuscript-history-of-3 (0.94)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 14, pp. 19–22
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 17, pp. 26–28
+- x.undated.william-p-bundy-manuscript-history-of-2 | x.undated.william-p-bundy-manuscript-history-of-4 (0.92)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 14, pp. 19–22
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 22B, pp. 5–6
+- x.undated.william-p-bundy-manuscript-history-of-2 | x.undated.william-p-bundy-manuscript-history-of-5 (0.93)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 14, pp. 19–22
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 3–6
+- x.undated.william-p-bundy-manuscript-history-of-2 | x.undated.william-p-bundy-manuscript-history-of-6 (0.93)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 14, pp. 19–22
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 22–23
+- x.undated.william-p-bundy-manuscript-history-of-2 | x.undated.william-p-bundy-manuscript-history-of-7 (0.94)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 14, pp. 19–22
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 1–14
+- x.undated.william-p-bundy-manuscript-history-of-2 | x.undated.william-p-bundy-manuscript-history-of-8 (0.94)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 14, pp. 19–22
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 15–21
+- x.undated.william-p-bundy-manuscript-history-of-2 | x.undated.william-p-bundy-manuscript-history-of-9 (0.91)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 14, pp. 19–22
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 25–33
+- x.undated.william-p-bundy-manuscript-history-of-3 | x.undated.william-p-bundy-manuscript-history-of-10 (0.90)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 17, pp. 26–28
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 33, pp. 31–32, 35–38
+- x.undated.william-p-bundy-manuscript-history-of-3 | x.undated.william-p-bundy-manuscript-history-of-4 (0.92)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 17, pp. 26–28
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 22B, pp. 5–6
+- x.undated.william-p-bundy-manuscript-history-of-3 | x.undated.william-p-bundy-manuscript-history-of-5 (0.93)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 17, pp. 26–28
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 3–6
+- x.undated.william-p-bundy-manuscript-history-of-3 | x.undated.william-p-bundy-manuscript-history-of-6 (0.94)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 17, pp. 26–28
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 22–23
+- x.undated.william-p-bundy-manuscript-history-of-3 | x.undated.william-p-bundy-manuscript-history-of-7 (0.94)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 17, pp. 26–28
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 1–14
+- x.undated.william-p-bundy-manuscript-history-of-3 | x.undated.william-p-bundy-manuscript-history-of-8 (0.94)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 17, pp. 26–28
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 15–21
+- x.undated.william-p-bundy-manuscript-history-of-3 | x.undated.william-p-bundy-manuscript-history-of-9 (0.94)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 17, pp. 26–28
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 25–33
+- x.undated.william-p-bundy-manuscript-history-of-4 | x.undated.william-p-bundy-manuscript-history-of-10 (0.90)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 22B, pp. 5–6
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 33, pp. 31–32, 35–38
+- x.undated.william-p-bundy-manuscript-history-of-4 | x.undated.william-p-bundy-manuscript-history-of-5 (0.96)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 22B, pp. 5–6
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 3–6
+- x.undated.william-p-bundy-manuscript-history-of-4 | x.undated.william-p-bundy-manuscript-history-of-6 (0.94)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 22B, pp. 5–6
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 22–23
+- x.undated.william-p-bundy-manuscript-history-of-4 | x.undated.william-p-bundy-manuscript-history-of-7 (0.94)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 22B, pp. 5–6
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 1–14
+- x.undated.william-p-bundy-manuscript-history-of-4 | x.undated.william-p-bundy-manuscript-history-of-8 (0.95)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 22B, pp. 5–6
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 15–21
+- x.undated.william-p-bundy-manuscript-history-of-4 | x.undated.william-p-bundy-manuscript-history-of-9 (0.95)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 22B, pp. 5–6
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 25–33
+- x.undated.william-p-bundy-manuscript-history-of-5 | x.undated.william-p-bundy-manuscript-history-of-10 (0.90)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 3–6
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 33, pp. 31–32, 35–38
+- x.undated.william-p-bundy-manuscript-history-of-5 | x.undated.william-p-bundy-manuscript-history-of-6 (0.96)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 3–6
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 22–23
+- x.undated.william-p-bundy-manuscript-history-of-5 | x.undated.william-p-bundy-manuscript-history-of-7 (0.95)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 3–6
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 1–14
+- x.undated.william-p-bundy-manuscript-history-of-5 | x.undated.william-p-bundy-manuscript-history-of-8 (0.94)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 3–6
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 15–21
+- x.undated.william-p-bundy-manuscript-history-of-5 | x.undated.william-p-bundy-manuscript-history-of-9 (0.94)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 3–6
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 25–33
+- x.undated.william-p-bundy-manuscript-history-of-6 | x.undated.william-p-bundy-manuscript-history-of-10 (0.90)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 22–23
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 33, pp. 31–32, 35–38
+- x.undated.william-p-bundy-manuscript-history-of-6 | x.undated.william-p-bundy-manuscript-history-of-7 (0.94)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 22–23
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 1–14
+- x.undated.william-p-bundy-manuscript-history-of-6 | x.undated.william-p-bundy-manuscript-history-of-8 (0.94)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 22–23
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 15–21
+- x.undated.william-p-bundy-manuscript-history-of-6 | x.undated.william-p-bundy-manuscript-history-of-9 (0.96)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 26, pp. 22–23
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 25–33
+- x.undated.william-p-bundy-manuscript-history-of-7 | x.undated.william-p-bundy-manuscript-history-of-10 (0.90)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 1–14
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 33, pp. 31–32, 35–38
+- x.undated.william-p-bundy-manuscript-history-of-7 | x.undated.william-p-bundy-manuscript-history-of-8 (0.98)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 1–14
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 15–21
+- x.undated.william-p-bundy-manuscript-history-of-7 | x.undated.william-p-bundy-manuscript-history-of-9 (0.95)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 1–14
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 25–33
+- x.undated.william-p-bundy-manuscript-history-of-8 | x.undated.william-p-bundy-manuscript-history-of-10 (0.90)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 15–21
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 33, pp. 31–32, 35–38
+- x.undated.william-p-bundy-manuscript-history-of-8 | x.undated.william-p-bundy-manuscript-history-of-9 (0.96)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 15–21
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 25–33
+- x.undated.william-p-bundy-manuscript-history-of-9 | x.undated.william-p-bundy-manuscript-history-of-10 (0.92)
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 27, pp. 25–33
+  - William P. Bundy, manuscript history of the Vietnam War, chap. 33, pp. 31–32, 35–38
+- x.1959-07-30.situation-in-vietnam-hearings-before-the | x.1959-07-30.situation-in-vietnam-hearings-before-the-2 (0.93)
+  - Situation in Vietnam, Hearings before the Subcommittee on State Department Organization and Public Affairs, Senate Committee on Foreign Relations, July 30–31, 1959; pt. 2, Saigon, Dec. 7–8, 1959
+  - Situation in Vietnam, Hearings before the Subcommittee on State Department Organization and Public Affairs, Senate Committee on Foreign Relations, July 30–31, 1959
+- x.1960-02-14.new-york-times-14-feb-2 | x.1960-02-14.new-york-times-14-feb-60 (0.89)
+  - New York Times, 14 Feb, 2 Apr 60
+  - New York Times, 14 Feb 60
+- x.1960-02-18.new-york-times-feb-18-1960 | x.1960-02-18.new-york-times-feb-18-1960-2 (0.95)
+  - New York Times, Feb. 18, 1960, 14
+  - New York Times, Feb. 18, 1960
+- x.1960-03-20.williams-to-myers-mar-20-1960 | x.1960-03-20.williams-to-myers-mar-20-1960-2 (0.89)
+  - Williams to Myers, Mar. 20, 1960, FRUS 1958–1960, 1:342–344
+  - Williams to Myers, Mar. 20, 1960, FRUS, 1958–1960, vol. 1, 121
+- x.1960-03-26.minutes-of-the-1960-republican-state | x.1960-03-26.minutes-of-the-1960-republican-state-2 (0.90)
+  - Minutes of the 1960 Republican State Convention, Hotel Jefferson, Columbia, S.C., Mar. 26, 1960
+  - Minutes of the 1960 Republican State Convention, Columbia, S.C., Mar. 26, 1960
+- x.1960-04-08.meeting-re-west-virginia-primary-april | x.1960-04-08.minutes-of-meeting-re-west-virginia (0.89)
+  - "Meeting Re West Virginia Primary—April 8, 1960"
+  - Minutes of 'Meeting re West Virginia Primary — April 8, 1960'
+- x.1960-07-26.nixon-says-rights-plank-must-be | x.1960-07-26.nixon-says-rights-plank-must-be-2 (0.92)
+  - "Nixon Says Rights Plank Must Be Made Stronger," New York Times, July 26, 1960
+  - "Nixon Says Rights Plank Must Be Made Stronger," New York Times, July 26, 1960 (the headline)
+- x.1960-09-19.the-speeches-of-vice-president-richard | x.1960-09-19.the-speeches-of-vice-president-richard-2 (0.98)
+  - The Speeches of Vice President Richard M. Nixon, Presidential Campaign of 1960 (1961), 174–75
+  - The Speeches of Vice President Richard M. Nixon, Presidential Campaign of 1960 (1961), 175–78
+- x.1960-10-21.claude-robinson-to-nixon-hall-finch | x.1960-10-21.claude-robinson-to-nixon-hall-finch-2 (0.93)
+  - Claude Robinson to Nixon, Hall, Finch, Oct. 21, 1960, "Campaign Evaluation as of October 14, 1960," p. 12
+  - Claude Robinson to Nixon, Hall, Finch, Oct. 21, 1960, "Campaign Evaluation as of October 14, 1960 (Third Debate)"
+- x.1960-11-12.saigon-to-state-nov-12-1960 | x.1960-11-12.saigon-to-state-nov-12-1960-2 (0.98)
+  - Saigon to State, Nov. 12, 1960, FRUS, 1958–1960, vol. 1, 232
+  - Saigon to State, Nov. 12, 1960, FRUS, 1958–1960, vol. 1, 228
+- x.1960-11-17.memorandum-of-discussion-at-the-467th | x.1960-11-17.memorandum-of-discussion-at-the-467th-2 (0.90)
+  - Memorandum of discussion at the 467th meeting of the National Security Council, Nov. 17, 1960 (Bissell's note: Nov. 21)
+  - Memorandum of Discussion at the 467th Meeting of the National Security Council, Nov. 17, 1960
+- x.1960-12-06.wilton-persons-memorandum-for-the-record | x.1960-12-06.robert-anderson-memorandum-for-the-record (0.85)
+  - Wilton Persons, memorandum for the record, Dec. 6, 1960
+  - Robert Anderson, memorandum for the record, Dec. 6, 1960
+- x.1960-12-27.report-to-the-honorable-john-f | x.1960-12-27.report-to-the-honorable-john-f-2 (0.93)
+  - "Report to the Honorable John F. Kennedy by the Task Force on the Balance of Payments"
+  - "Report to the Honorable John F. Kennedy by the Task Force on the Balance of Payments," Dec. 27, 1960
+- x.1961-01-19.persons-meeting-notes-jan-19-1961 | x.1961-01-19.herter-meeting-notes-jan-19-1961 (0.90)
+  - Persons, meeting notes, Jan. 19, 1961, FRUS, 1961–1963, vol. 24, 8
+  - Herter, meeting notes, Jan. 19, 1961, FRUS, 1961–1963, vol. 24, 9
+- x.1961-02-03.the-joint-chiefs-to-mcnamara-feb | x.1961-02-03.the-joint-chiefs-to-mcnamara-feb-2 (0.88)
+  - The Joint Chiefs to McNamara, Feb. 3, 1961, JCSM-57-61
+  - The Joint Chiefs to McNamara, Feb. 3, 1961
+- x.1961-02-09.bundy-memorandum-of-meeting-with-the | x.1961-02-09.bundy-memorandum-of-a-meeting-with (0.86)
+  - Bundy, memorandum of meeting with the President on Cuba, Feb. 9, 1961 (of Feb. 8)
+  - Bundy, memorandum of a meeting with the President, Feb. 9, 1961
+- x.1961-02-09.robert-f-kennedy-memorandum-on-the | x.1961-02-09.robert-f-kennedy-memorandum-on-the-2 (0.96)
+  - Robert F. Kennedy, memorandum on the cabinet, Feb. 9, 1961, 1-2
+  - Robert F. Kennedy, memorandum on the cabinet, Feb. 9, 1961, 7
+- x.1961-02-09.robert-f-kennedy-memorandum-on-the | x.1961-02-09.robert-f-kennedy-memorandum-on-the-3 (0.96)
+  - Robert F. Kennedy, memorandum on the cabinet, Feb. 9, 1961, 1-2
+  - Robert F. Kennedy, memorandum on the cabinet, Feb. 9, 1961, 9
+- x.1961-02-09.robert-f-kennedy-memorandum-on-the-2 | x.1961-02-09.robert-f-kennedy-memorandum-on-the-3 (0.98)
+  - Robert F. Kennedy, memorandum on the cabinet, Feb. 9, 1961, 7
+  - Robert F. Kennedy, memorandum on the cabinet, Feb. 9, 1961, 9
+- x.1961-02-16.jet-feb-16-1961-9 | x.1961-02-16.jet-feb-16-1961-4 (0.94)
+  - Jet, Feb. 16, 1961, 9
+  - Jet, Feb. 16, 1961, 4
+- x.1961-03.joint-economic-committee-january-1961-economic | x.1961-03.joint-economic-committee-january-1961-economic-2 (0.98)
+  - Joint Economic Committee, January 1961 Economic Report of the President and the Economic Situation and Outlook: Hearings, 87th Cong., 1st sess. (1961), 321-29
+  - Joint Economic Committee, January 1961 Economic Report of the President and the Economic Situation and Outlook: Hearings, 87th Cong., 1st sess. (1961), 331
+- x.1961-03-28.kennedy-public-papers-1961-237 | x.1961-03-28.kennedy-public-papers-1961-229-40 (0.89)
+  - Kennedy Public Papers, 1961, 237
+  - Kennedy Public Papers, 1961, 229-40
+- x.1961-04-06.schlesinger-to-kennedy-follow-up-apr | x.1961-04-06.schlesinger-to-kennedy-apr-6-1961 (0.87)
+  - Schlesinger to Kennedy, follow-up, Apr. 6, 1961
+  - Schlesinger to Kennedy, Apr. 6, 1961
+- x.1961-04-19.burke-to-dennison-apr-19-1961 | x.1961-04-19.clark-to-dennison-apr-19-1961 (0.90)
+  - Burke to Dennison, Apr. 19, 1961
+  - Clark to Dennison, Apr. 19, 1961
+- x.1961-05-04.moscow-to-the-secretary-of-state | x.1961-05-04.thompson-to-the-secretary-of-state (0.89)
+  - Moscow to the Secretary of State, May 4, 1961
+  - Thompson to the Secretary of State, May 4, 1961
+- x.1961-05-05.record-of-actions-of-the-483d | x.1961-05-05.record-of-actions-of-the-national (0.86)
+  - Record of actions of the 483d meeting of the National Security Council, May 5, 1961
+  - Record of Actions of the National Security Council, May 5, 1961
+- x.1961-05-07.new-york-times-may-7-1961 | x.1961-05-07.new-york-times-may-7-1961-2 (0.94)
+  - New York Times, May 7, 1961, 62
+  - New York Times, May 7, 1961
+- x.1961-05-10.new-york-times-may-10-1961 | x.1961-05-10.new-york-times-may-10-1961-2 (0.95)
+  - New York Times, May 10, 1961, 1
+  - New York Times, May 10, 1961, 29
+- x.1961-05-22.new-york-times-may-22-1961-2 | x.1961-05-22.new-york-times-may-22-1961-3 (0.94)
+  - New York Times, May 22, 1961, 26; Montgomery Advertiser, May 22, 1961, 1, 2
+  - New York Times, May 22, 1961; Montgomery Advertiser, May 22, 1961
+- x.1961-05-25.foreign-relations-committee-meeting-with-the | x.1961-05-25.foreign-relations-committee-executive-session-with (0.91)
+  - Foreign Relations Committee, meeting with the Vice President, May 25, 1961
+  - Foreign Relations Committee, executive session with the Vice President, May 25, 1961
+- x.1961-05-25.nyt-may-25-1961 | x.1961-05-25.jdn-may-25-1961 (0.87)
+  - NYT, May 25, 1961
+  - JDN, May 25, 1961
+- x.1961-05-31.memcon-kennedy-and-de-gaulle-31 | x.1961-05-31.memcon-pres-and-de-gaulle-31 (0.88)
+  - Memcon Kennedy and de Gaulle, 31 May 61, 12:30 p.m., FRUS 1961-63, XIV:80-83
+  - Memcon Pres and de Gaulle, 31 May 61, 2:50 p.m., FRUS 1961-63, XIV:84-86
+- x.1961-07-19.bundy-to-kennedy-july-19-1961 | x.1961-07-19.dutton-to-kennedy-july-19-1961 (0.88)
+  - Bundy to Kennedy, July 19, 1961
+  - Dutton to Kennedy, July 19, 1961
+- x.1961-08-13.lightner-to-rusk-2-p-m | x.1961-08-13.lightner-to-rusk-10-p-m (0.96)
+  - Lightner to Rusk, 2 p.m., Aug. 13, 1961
+  - Lightner to Rusk, 10 p.m., Aug. 13, 1961
+- x.1961-10.kirkpatrick-inspector-generals-survey-of-the | x.1961-10.kirkpatrick-inspector-generals-survey-of-the-2 (0.90)
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," Oct. 1961, 92
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," 37
+- x.1961-10.kirkpatrick-inspector-generals-survey-of-the | x.1961-10.kirkpatrick-inspector-generals-survey-of-the-3 (0.97)
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," Oct. 1961, 92
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," Oct. 1961, 40
+- x.1961-10.kirkpatrick-inspector-generals-survey-of-the | x.1961-10.kirkpatrick-inspector-generals-survey-of-the-4 (0.97)
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," Oct. 1961, 92
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," Oct. 1961, 27–28
+- x.1961-10.kirkpatrick-inspector-generals-survey-of-the | x.1961-10.kirkpatrick-inspector-generals-survey-of-the-5 (0.99)
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," Oct. 1961, 92
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," Oct. 1961, 98
+- x.1961-10.kirkpatrick-inspector-generals-survey-of-the-2 | x.1961-10.kirkpatrick-inspector-generals-survey-of-the-3 (0.90)
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," 37
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," Oct. 1961, 40
+- x.1961-10.kirkpatrick-inspector-generals-survey-of-the-2 | x.1961-10.kirkpatrick-inspector-generals-survey-of-the-4 (0.90)
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," 37
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," Oct. 1961, 27–28
+- x.1961-10.kirkpatrick-inspector-generals-survey-of-the-2 | x.1961-10.kirkpatrick-inspector-generals-survey-of-the-5 (0.90)
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," 37
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," Oct. 1961, 98
+- x.1961-10.kirkpatrick-inspector-generals-survey-of-the-3 | x.1961-10.kirkpatrick-inspector-generals-survey-of-the-4 (0.95)
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," Oct. 1961, 40
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," Oct. 1961, 27–28
+- x.1961-10.kirkpatrick-inspector-generals-survey-of-the-3 | x.1961-10.kirkpatrick-inspector-generals-survey-of-the-5 (0.97)
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," Oct. 1961, 40
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," Oct. 1961, 98
+- x.1961-10.kirkpatrick-inspector-generals-survey-of-the-4 | x.1961-10.kirkpatrick-inspector-generals-survey-of-the-5 (0.97)
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," Oct. 1961, 27–28
+  - Kirkpatrick, "Inspector General's Survey of the Cuban Operation," Oct. 1961, 98
+- x.1961-10-11.gilpatric-memorandum-for-the-record-south | x.1961-10-11.gilpatric-memorandum-for-the-record-south-2 (0.85)
+  - Gilpatric, memorandum for the record, "South Vietnam," Oct. 11, 1961
+  - Gilpatric, memorandum for the record, "South Vietnam," Oct. 11, 1961 (the press conference)
+- x.1962.gru-kratkoye-soderzhanye-besed-g-bolshakova | x.1962.gru-kratkoye-soderzhanye-besed-g-bolshakova-2 (0.97)
+  - GRU, "Kratkoye Soderzhanye: Besed G. Bolshakova s R. Kennedi (9 Maya 1961 goda–14 Dekabria 1962 goda)"
+  - GRU, "Kratkoye Soderzhanye: Besed G. Bolshakova s R. Kennedy, 9 Maia 1961 goda–14 Dekabrya 1962 goda"
+- x.1962-01-12.foreign-relations-committee-executive-session-with | x.1962-01-12.foreign-relations-committee-executive-session-with-2 (0.96)
+  - Foreign Relations Committee, executive session with Nolting, Jan. 12, 1962
+  - Foreign Relations Committee, executive session with Nolting, Jan. 12, 1962 (Morse)
+- x.1962-02-20.foreign-relations-committee-executive-session-transcript | x.1962-02-20.foreign-relations-committee-executive-session-transcript-2 (0.95)
+  - Foreign Relations Committee, executive session transcript, Feb. 20, 1962 (Harriman)
+  - Foreign Relations Committee, executive session transcript, Feb. 20, 1962 (Harriman, on Laos)
+- x.1962-02-24.cinclant-to-all-commands-feb-24 | x.1962-02-24.cinclant-to-all-commands-feb-24-2 (0.90)
+  - CINCLANT to All Commands, Feb. 24, 1962
+  - CINCLANT to All Commands, Feb. 24, 1962 (see n.1)
+- x.1962-03-03.gru-resident-to-gru-headquarters-mar | x.1962-03-03.gru-resident-to-gru-headquarters-mar-2 (0.95)
+  - GRU resident to GRU headquarters, Mar. 3, 1962
+  - GRU resident to GRU headquarters, Mar. 3, 1962 (ibid.)
+- x.1962-04-20.rfk-some-notes-on-the-steel | x.1962-04-20.rfk-some-notes-on-the-steel-2 (0.96)
+  - RFK, 'Some Notes on the Steel Increase,' Apr. 20, 1962, 1-2
+  - RFK, 'Some Notes on the Steel Increase,' Apr. 20, 1962, 5-6
+- x.1962-05.defense-department-paper-visit-of-the | x.1962-05.defense-department-paper-visit-of-the-2 (0.97)
+  - Defense Department paper, "Visit of the Secretary of Defense to Southeast Asia, 8–11 May 62," n.d.
+  - Defense Department paper, "Visit of the Secretary of Defense to Southeast Asia, 8–11 May 62" (Ibid.)
+- x.1962-06-04.dobrynin-to-the-foreign-ministry-june | x.1962-06-04.dobrynin-to-the-foreign-ministry-june-2 (0.95)
+  - Dobrynin to the Foreign Ministry, June 4, 1962
+  - Dobrynin to the Foreign Ministry, June 4, 1962 (ibid.)
+- x.1962-07-23.record-of-the-sixth-secretary-of | x.1962-07-23.record-of-the-sixth-secretary-of-2 (0.95)
+  - Record of the Sixth Secretary of Defense Conference, Hawaii, July 23, 1962
+  - Record of the Sixth Secretary of Defense Conference, July 23, 1962
+- x.1962-07-24.ball-to-kennedy-a-fresh-approach | x.1962-07-24.ball-to-kennedy-a-fresh-approach-2 (0.96)
+  - Ball to Kennedy, "A Fresh Approach to the Gold Problem," July 24, 1962
+  - Ball to Kennedy, "A Fresh Approach to the Gold Problem," July 24, 1962, p. 10
+- x.1962-08-06.off-the-record-meeting-with-wilbur | x.1962-08-06.off-the-record-meeting-with-wilbur-2 (0.98)
+  - "Off-The-Record Meeting With Wilbur Mills," Aug. 6, 1962, 7 (transcript)
+  - "Off-The-Record Meeting With Wilbur Mills," Aug. 6, 1962, 11 (transcript)
+- x.1962-08-06.off-the-record-meeting-with-wilbur | x.1962-08-06.off-the-record-meeting-with-wilbur-3 (0.97)
+  - "Off-The-Record Meeting With Wilbur Mills," Aug. 6, 1962, 7 (transcript)
+  - "Off-The-Record Meeting With Wilbur Mills," Aug. 6, 1962, 5-6 (transcript)
+- x.1962-08-06.off-the-record-meeting-with-wilbur-2 | x.1962-08-06.off-the-record-meeting-with-wilbur-3 (0.96)
+  - "Off-The-Record Meeting With Wilbur Mills," Aug. 6, 1962, 11 (transcript)
+  - "Off-The-Record Meeting With Wilbur Mills," Aug. 6, 1962, 5-6 (transcript)
+- x.1962-08-08.trial-transcript-vol-4-1144-kings | x.1962-08-08.trial-transcript-vol-4-1138-71 (0.96)
+  - trial transcript, vol. 4, 1144 (King's testimony, Aug. 8, 1962), Albany's suit against the movement, M.D. Ga.
+  - trial transcript, vol. 4, 1138-71 (King's testimony, Aug. 8, 1962), Albany's suit against the movement, M.D. Ga.
+- x.1962-10-10.semichastny-to-the-central-committee-oct | x.1962-10-10.semichastny-to-the-central-committee-oct-2 (0.95)
+  - Semichastny to the Central Committee, Oct. 10, 1962
+  - Semichastny to the Central Committee, Oct. 10, 1962 (ibid.)
+- x.1962-10-16.transcript-of-audiotape-28-1-oct | x.1962-10-16.transcript-of-audiotapes-28-2-and (0.92)
+  - Transcript of Audiotape 28.1, Oct. 16, 1962, Presidential Recordings
+  - Transcript of Audiotapes 28.2 and 28A.1, Oct. 16, 1962, Presidential Recordings
+- x.1962-10-19.leonard-c-meeker-memorandum-of-oct | x.1962-10-19.leonard-c-meeker-memorandum-of-oct-2 (0.99)
+  - Leonard C. Meeker, memorandum of Oct. 19, 1962, meeting of the ExComm, 5
+  - Leonard C. Meeker, memorandum of Oct. 19, 1962, meeting of the ExComm, 5-6
+- x.1962-10-19.leonard-c-meeker-memorandum-of-oct | x.1962-10-19.leonard-c-meeker-memorandum-of-oct-3 (0.98)
+  - Leonard C. Meeker, memorandum of Oct. 19, 1962, meeting of the ExComm, 5
+  - Leonard C. Meeker, memorandum of Oct. 19, 1962, meeting of the ExComm, 7
+- x.1962-10-19.leonard-c-meeker-memorandum-of-oct-2 | x.1962-10-19.leonard-c-meeker-memorandum-of-oct-3 (0.97)
+  - Leonard C. Meeker, memorandum of Oct. 19, 1962, meeting of the ExComm, 5-6
+  - Leonard C. Meeker, memorandum of Oct. 19, 1962, meeting of the ExComm, 7
+- x.1962-10-27.transcript-of-audiotape-40-3-oct | x.1962-10-27.transcript-of-audiotape-41-1-oct (0.97)
+  - Transcript of Audiotape 40.3, Oct. 27, 1962, Presidential Recordings
+  - Transcript of Audiotape 41.1, Oct. 27, 1962, Presidential Recordings
+- x.1962-11-01.u-s-marine-corps-summary-nov | x.1962-11-01.u-s-marine-corps-summary-nov-2 (0.89)
+  - U.S. Marine Corps summary, Nov. 1, 1962
+  - U.S. Marine Corps summary, Nov. 1, 1962 (see n.36)
+- x.1962-11-09.dobrynin-to-the-foreign-ministry-nov | x.1962-11-09.dobrynin-to-the-foreign-ministry-nov-2 (0.90)
+  - Dobrynin to the Foreign Ministry, Nov. 9, 1962
+  - Dobrynin to the Foreign Ministry, Nov. 9, 1962, p. 78 (ibid.)
+- x.1962-12-17.why-a-tax-cut-is-unlikely | x.1962-12-17.why-a-tax-cut-is-unlikely-2 (0.97)
+  - "Why a Tax Cut is Unlikely in '63," U.S. News & World Report, Dec. 17, 1962, 42-43
+  - "Why a Tax Cut Is Unlikely in '63," U.S. News and World Report, Dec. 17, 1962, pp. 42-45
+- x.1962-12-17.why-a-tax-cut-is-unlikely | x.1962-12-17.why-a-tax-cut-is-unlikely-3 (0.99)
+  - "Why a Tax Cut is Unlikely in '63," U.S. News & World Report, Dec. 17, 1962, 42-43
+  - "Why A Tax Cut Is Unlikely In '63," U.S. News & World Report, Dec. 17, 1962, 42-45
+- x.1962-12-17.why-a-tax-cut-is-unlikely-2 | x.1962-12-17.why-a-tax-cut-is-unlikely-3 (0.98)
+  - "Why a Tax Cut Is Unlikely in '63," U.S. News and World Report, Dec. 17, 1962, pp. 42-45
+  - "Why A Tax Cut Is Unlikely In '63," U.S. News & World Report, Dec. 17, 1962, 42-45
+- x.1962-12-18.mansfield-southeast-asia-vietnam-dec-18 | x.1962-12-18.mansfield-report-southeast-asia-vietnam-dec (0.93)
+  - Mansfield, "Southeast Asia—Vietnam," Dec. 18, 1962
+  - Mansfield report, "Southeast Asia—Vietnam," Dec. 18, 1962
+- x.1963.public-papers-of-the-presidents-kennedy | x.1963.public-papers-of-the-presidents-kennedy-2 (0.91)
+  - Public Papers of the Presidents: Kennedy, 1963, pp 651-52
+  - Public Papers of the Presidents: Kennedy, 1963, pp 759-60
+- x.1963.wiretap-conversation-ofjune-2-1963-flny | x.1963.wiretap-conversation-ofjune-1-1963-flny (0.92)
+  - Wiretap conversation ofJune 2, 1963, FLNY-9-186a, p. 3
+  - Wiretap conversation ofJune 1, 1963, FLNY-9-185a
+- x.1963-01-25.hilsman-and-forrestal-to-kennedy-a | x.1963-01-25.hilsman-and-forrestal-to-kennedy-a-2 (0.97)
+  - Hilsman and Forrestal to Kennedy, "A Report on South Vietnam," Jan. 25, 1963
+  - Hilsman and Forrestal to Kennedy, "A Report on South Vietnam," Jan. 25, 1963 (Ibid.)
+- x.1963-01-25.hilsman-and-forrestal-to-kennedy-report | x.1963-01-25.hilsman-and-forrestal-to-kennedy-a (0.94)
+  - Hilsman and Forrestal to Kennedy, report on Vietnam, Jan. 25, 1963
+  - Hilsman and Forrestal to Kennedy, "A Report on South Vietnam," Jan. 25, 1963
+- x.1963-01-25.hilsman-and-forrestal-to-kennedy-report | x.1963-01-25.hilsman-and-forrestal-to-kennedy-a-2 (0.91)
+  - Hilsman and Forrestal to Kennedy, report on Vietnam, Jan. 25, 1963
+  - Hilsman and Forrestal to Kennedy, "A Report on South Vietnam," Jan. 25, 1963 (Ibid.)
+- x.1963-01-25.hilsman-and-forrestal-to-kennedy-report | x.1963-01-25.hilsman-and-forrestal-to-kennedy-report-2 (0.90)
+  - Hilsman and Forrestal to Kennedy, report on Vietnam, Jan. 25, 1963
+  - Hilsman and Forrestal to Kennedy, report, Jan. 25, 1963
+- x.1963-04-04.memorandum-of-conversation-apr-4-1963 | x.1963-04-04.memorandum-of-a-conversation-apr-4 (0.97)
+  - Memorandum of conversation, Apr. 4, 1963
+  - Memorandum of a conversation, Apr. 4, 1963
+- x.1963-05-06.proceedings-of-eighth-secretary-of-defense | x.1963-05-06.proceedings-of-eighth-secretary-of-defense-2 (0.99)
+  - Proceedings of Eighth Secretary of Defense Conference on Vietnam, 42
+  - Proceedings of Eighth Secretary of Defense Conference on Vietnam, 48
+- x.1963-05-10.hue-to-state-may-10-1963 | x.1963-05-10.hue-to-state-may-10-1963-2 (0.98)
+  - Hue to State, May 10, 1963, FRUS, 1961–1963, vol. 3, 116
+  - Hue to State, May 10, 1963, FRUS, 1961–1963, vol. 3, 117
+- x.1963-05-29.transcript-of-the-may-29-1963 | x.1963-05-29.page-26-transcript-of-the-may (0.97)
+  - Transcript of the May 29, 1963, meeting of the President's Committee on Equal Employment Opportunity, office files of George Reedy, Container 7, LBJ
+  - Page 26, transcript of the May 29, 1963, meeting of the President's Committee on Equal Employment Opportunity, office files of George Reedy, Container 7, LBJ
+- x.1963-06-10.newsweek-june-10-1963-28-29 | x.1963-06-10.newsweek-june-10-1963-29 (0.94)
+  - Newsweek, June 10, 1963, 28–29
+  - Newsweek, June 10, 1963, 29
+- x.1963-06-16.saigon-to-state-june-16-1963 | x.1963-06-16.saigon-to-state-june-16-1963-2 (0.98)
+  - Saigon to State, June 16, 1963, FRUS, 1961–1963, vol. 3, 179
+  - Saigon to State, June 16, 1963, FRUS, 1961–1963, vol. 3, 177
+- x.1963-07-24.transcript-of-dictabelt-23b-6-july | x.1963-07-24.transcript-of-dictabelt-23c-1-july (0.97)
+  - Transcript of Dictabelt 23B.6, July 24, 1963, Presidential Recordings
+  - Transcript of Dictabelt 23C.1, July 24, 1963, Presidential Recordings
+- x.1963-07-29.off-the-record-meeting-with-wilbur | x.1963-07-29.off-the-record-meeting-with-wilbur-2 (0.94)
+  - "Off-The-Record Meeting With Wilbur Mills, Lawrence O'Brien, C. Douglas Dillon," July 29, 1963, 32 ("Ibid., 32")
+  - "Off-The-Record Meeting With Wilbur Mills, Lawrence O'Brien, C. Douglas Dillon," July 29, 1963
+- x.1963-08-24.depstate-to-saigon-aug-24-1963 | x.1963-08-24.state-to-saigon-aug-24-1963 (0.88)
+  - DepState to Saigon, Aug. 24, 1963, FRUS 1961–1963, 3:628–629
+  - State to Saigon, Aug. 24, 1963, FRUS, 1961–1963, vol. 3, 281
+- x.1963-08-24.forrestal-to-kennedy-aug-24-1963 | x.1963-08-24.forrestal-to-kennedy-memorandum-aug-24 (0.85)
+  - Forrestal to Kennedy, Aug. 24, 1963
+  - Forrestal to Kennedy, memorandum, Aug. 24, 1963
+- x.1963-08-24.krulak-memorandum-for-the-record-vietnam | x.1963-08-24.krulak-memorandum-for-the-record-vietnam-2 (0.95)
+  - Krulak, memorandum for the record, "Vietnam," Aug. 24, 1963
+  - Krulak, memorandum for the record, "Vietnam," Aug. 24, 1963 (Ibid.)
+- x.1963-08-29.kennedy-to-lodge-aug-29-1963 | x.1963-08-29.kennedy-to-lodge-message-aug-29 (0.88)
+  - Kennedy to Lodge, Aug. 29, 1963
+  - Kennedy to Lodge, message, Aug. 29, 1963
+- x.1963-08-29.new-york-times-aug-29-1963 | x.1963-08-29.new-york-times-aug-29-1963-2 (0.95)
+  - New York Times, Aug. 29, 1963, 20
+  - New York Times, Aug. 29, 1963, 1
+- x.1963-08-31.hilsman-memorandum-of-conversation-aug-31 | x.1963-08-31.krulak-memorandum-of-conversation-aug-31 (0.90)
+  - Hilsman memorandum of conversation, Aug. 31, 1963
+  - Krulak memorandum of conversation, Aug. 31, 1963
+- x.1963-08-31.meeting-memorandum-vietnam-aug-31-1963 | x.1963-08-31.meeting-memorandum-aug-31-1963 (0.88)
+  - Meeting memorandum, "Vietnam," Aug. 31, 1963
+  - Meeting memorandum, Aug. 31, 1963
+- x.1963-09-02.saigon-to-depstate-sept-2-1963 | x.1963-09-02.saigon-to-state-sept-2-1963 (0.88)
+  - Saigon to DepState, Sept. 2, 1963, FRUS 1961–1963, 4:84–85
+  - Saigon to State, Sept. 2, 1963, FRUS, 1961–1963, vol. 4, 44
+- x.1963-09-06.conversation-with-president-sept-6-1963 | x.1963-09-06.conversation-with-president-sept-6-1963-2 (0.94)
+  - "Conversation with President," Sept. 6, 1963
+  - "Conversation with President," Sept. 6, 1963 (Ibid.)
+- x.1963-09-06.morse-in-the-senate-sept-6 | x.1963-09-06.morse-in-the-senate-mann-sept (0.90)
+  - Morse in the Senate, Sept. 6, 1963
+  - Morse in the Senate (Mann: Sept. 9, 1963)
+- x.1963-09-10.memorandum-of-conference-with-the-president-2 | x.1963-09-10.memorandum-of-conference-with-the-president-3 (0.90)
+  - Memorandum of conference with the President, Sept. 10, 1963 (Hilsman)
+  - Memorandum of conference with the President, Sept. 10, 1963 (Bromley Smith)
+- x.1963-09-11.krulak-memorandum-of-conversation-vietnam-sept | x.1963-09-11.smith-memorandum-of-conversation-vietnam-sept (0.90)
+  - Krulak memorandum of conversation, "Vietnam," Sept. 11, 1963
+  - Smith memorandum of conversation, "Vietnam," Sept. 11, 1963
+- x.1963-09-21.kennedy-to-mcnamara-memorandum-sept-21 | x.1963-09-21.kennedy-to-mcnamara-sept-21-1963 (0.85)
+  - Kennedy to McNamara, memorandum, Sept. 21, 1963
+  - Kennedy to McNamara, Sept. 21, 1963
+- x.1963-10-02.meeting-tape-114-a49-oct-2 | x.1963-10-02.meeting-tape-114-a49-oct-2-2 (0.89)
+  - Meeting Tape 114/A49, Oct. 2, 1963, draft transcript (the morning meeting)
+  - Meeting Tape 114/A49, Oct. 2, 1963, draft transcript (the evening NSC)
+- x.1963-10-02.memo-cjcs-and-secdef-for-pres | x.1963-10-02.memo-cjcs-and-secdef-for-pres-2 (0.96)
+  - Memo CJCS and SecDef for Pres, 2 Oct 63, FRUS 1961-63, IV:337
+  - Memo CJCS and SecDef for Pres, 2 Oct 63, FRUS 1961-63, IV:338-42
+- x.1963-10-02.summary-record-of-the-519th-nsc | x.1963-10-02.summary-record-of-the-519th-meeting (0.86)
+  - Summary record of the 519th NSC meeting, Oct. 2, 1963
+  - Summary record of the 519th meeting of the NSC, Oct. 2, 1963
+- x.1963-10-09.cia-to-lodge-oct-9-1963 | x.1963-10-09.cia-to-lodge-oct-9-1963-2 (0.91)
+  - CIA to Lodge, Oct. 9, 1963, FRUS 1961–1963, 4:393
+  - CIA to Lodge, Oct. 9, 1963, FRUS, 1961–1963, vol. 4, 192
+- x.1963-10-23.contacts-with-vietnamese-generals-23-august | x.1963-10-23.cia-contacts-with-vietnamese-generals-23 (0.87)
+  - Contacts with Vietnamese Generals, 23 August through 23 October 1963, Oct. 23, 1963, CK3100385029
+  - CIA, "Contacts with Vietnamese Generals, 23 August through 23 October 1963," Oct. 23, 1963, DDRS, 1978, 142A
+- x.1963-10-28.saigon-to-depstate-oct-28-1963 | x.1963-10-28.saigon-to-state-oct-28-1963 (0.86)
+  - Saigon to DepState, Oct. 28, 1963, FRUS 1961–1963, 4:442–446
+  - Saigon to State, Oct. 28, 1963, FRUS, 1961–1963, vol. 4, 221
+- x.1963-10-29.lodge-to-depstate-oct-29-1963 | x.1963-10-29.lodge-to-state-oct-29-1963 (0.86)
+  - Lodge to DepState, Oct. 29, 1963, FRUS 1961–1963, 4:450–451
+  - Lodge to State, Oct. 29, 1963, FRUS, 1961–1963, vol. 4, 225
+- x.1963-10-29.smith-memorandum-of-conversation-oct-29 | x.1963-10-29.smith-memorandum-of-conversation-oct-29-2 (0.99)
+  - Smith, memorandum of conversation, Oct. 29, 1963, FRUS, 1961–1963, vol. 4, 234
+  - Smith, memorandum of conversation, Oct. 29, 1963, FRUS, 1961–1963, vol. 4, 235
+- x.1963-11-01.lodge-to-depstate-nov-1-1963 | x.1963-11-01.lodge-to-depstate-nov-1-1963-2 (0.98)
+  - Lodge to DepState, Nov. 1, 1963, FRUS 1961–1963, 4:517
+  - Lodge to DepState, Nov. 1, 1963, FRUS 1961–1963, 4:513
+- x.1963-11-01.saigon-to-state-nov-1-1963 | x.1963-11-01.saigon-to-state-nov-1-1963-2 (0.96)
+  - Saigon to State, Nov. 1, 1963, FRUS, 1961–1963, vol. 4, 262
+  - Saigon to State, Nov. 1, 1963, FRUS, 1961–1963, vol. 4, 259
+- x.1963-11-26.hoover-to-rfk-nov-26-1963 | x.1963-11-26.hoover-to-rfk-nov-26-1963-2 (0.97)
+  - Hoover to RFK, Nov. 26, 1963, FL-NR
+  - Hoover to RFK, Nov. 26, 1963, FK-NR
+- x.1963-11-26.nsam-273-nov-26-1963 | x.1963-11-26.nsam-273-nov-26-1963-638 (0.91)
+  - NSAM 273, Nov. 26, 1963
+  - NSAM 273, Nov. 26, 1963, 638
+- x.1963-11-29.dictabelt-of-telephone-conversation-between-lbj | x.1963-11-29.dictabelt-of-telephone-conversation-between-lbj-2 (0.98)
+  - Dictabelt of telephone conversation between LBJ and Senator Richard Russell, 4:05 p.m., Nov. 29, 1963, LBJ. :
+  - Dictabelt of telephone conversation between LBJ and Senator Richard Russell, 8:55 p.m., Nov. 29, 1963, LBJ
+- x.1963-11-29.recording-johnson-to-kuchel-nov-29 | x.1963-11-29.recording-johnson-to-dirksen-nov-29 (0.87)
+  - Recording, Johnson to Kuchel, Nov. 29, 1963, 8:30 p.m. (TPR, vol. I, p. 355)
+  - Recording, Johnson to Dirksen, Nov. 29, 1963, 5:10 p.m. (TPR, vol. I, p. 313)
+- x.1963-12-24.sullivan-to-belmont-dec-24-1963 | x.1963-12-24.sullivan-to-belmont-dec-24-1963-2 (0.91)
+  - Sullivan to Belmont, Dec. 24, 1963, FK-NR.
+  - Sullivan to Belmont, Dec. 24, 1963
+- x.1964.cincpac-command-history-1964-367-68 | x.1964.cincpac-command-history-1964-376 (0.93)
+  - CINCPAC Command History 1964, 367–68
+  - CINCPAC Command History, 1964, 376
+- x.1964.cincpac-command-history-1964-367-68 | x.1964.cincpac-command-history-1964-p-269 (0.87)
+  - CINCPAC Command History 1964, 367–68
+  - CINCPAC, Command History, 1964, p. 269
+- x.1964.cincpac-command-history-1964-376 | x.1964.cincpac-command-history-1964-p-269 (0.91)
+  - CINCPAC Command History, 1964, 376
+  - CINCPAC, Command History, 1964, p. 269
+- x.1964-01-06.proceedings-of-the-supreme-court-in | x.1964-01-06.proceedings-of-the-supreme-court-in-2 (0.98)
+  - Proceedings of the Supreme Court in Case No. 39, Jan. 6, 1964, p. 10
+  - Proceedings of the Supreme Court in Case No. 39, Jan. 6, 1964, p. 21
+- x.1964-01-08.telephone-conversation-lyndon-johnson-and-harry | x.1964-01-08.telephone-conversation-lyndon-johnson-and-henry (0.92)
+  - Telephone conversation, Lyndon Johnson and Harry Byrd, Jan. 8, 1964, Tape WH6401.08, #1247
+  - Telephone conversation, Lyndon Johnson and Henry Fowler, Jan. 8, 1964, Tape WH6401.08, #1254
+- x.1964-01-08.telephone-conversation-lyndon-johnson-and-henry | x.1964-01-08.telephone-conversation-lyndon-johnson-and-robert (0.86)
+  - Telephone conversation, Lyndon Johnson and Henry Fowler, Jan. 8, 1964, Tape WH6401.08, #1254
+  - Telephone conversation, Lyndon Johnson and Robert Anderson, Jan. 8, 1964, Tape WH6401.10, #1288
+- x.1964-01-29.ball-lbj-telcon-jan-29-1964 | x.1964-01-29.ball-clifton-telcon-jan-29-1964 (0.86)
+  - Ball-LBJ telcon, Jan. 29, 1964
+  - Ball-Clifton telcon [Jan. 29, 1964]
+- x.1964-02-17.house-appropriations-defense-subcommittee-hearing-feb | x.1964-02-17.house-appropriations-defense-subcommittee-hearing-feb-3 (0.98)
+  - House Appropriations, Defense Subcommittee, hearing, Feb. 17, 1964 (Flood)
+  - House Appropriations, Defense Subcommittee, hearing, Feb. 17, 1964 (Ford)
+- x.1964-02-17.house-appropriations-defense-subcommittee-hearing-feb-2 | x.1964-02-17.house-appropriations-defense-subcommittee-hearing-feb-3 (0.86)
+  - House Appropriations, Defense Subcommittee, hearing, Feb. 17, 1964 (McNamara's statement)
+  - House Appropriations, Defense Subcommittee, hearing, Feb. 17, 1964 (Ford)
+- x.1964-03-04.taylor-memorandum-of-conversation-mar-4 | x.1964-03-04.memorandum-of-conversation-mar-4-1964 (0.95)
+  - Taylor, memorandum of conversation, Mar. 4, 1964, FRUS, 1964–1968, vol. 1, 70
+  - memorandum of conversation, Mar. 4, 1964, FRUS, 1964–1968, vol. 1, 70
+- x.1964-03-06.manchester-union-leader-march-6-1964 | x.1964-03-06.manchester-union-leader-march-6-1964-2 (0.99)
+  - Manchester Union Leader, March 6, 1964, p. 1
+  - Manchester Union Leader, March 6, 1964, p. 11
+- x.1964-03-09.senate-mar-9-1964-russell | x.1964-03-09.senate-mar-9-1964-hill (0.85)
+  - Senate, Mar. 9, 1964: Russell
+  - Senate, Mar. 9, 1964: Hill
+- x.1964-03-10.gruening-in-the-senate-mar-10 | x.1964-03-10.morse-in-the-senate-mar-10 (0.86)
+  - Gruening in the Senate, Mar. 10, 1964
+  - Morse in the Senate, Mar. 10, 1964
+- x.1964-04-01.boston-globe-april-1-1964-pp | x.1964-04-01.boston-globe-april-1-1964-p (0.95)
+  - Boston Globe, April 1, 1964, pp. 1-2
+  - Boston Globe, April 1, 1964, p. 2
+- x.1964-04-19.msgs-amemb-vientiane-to-secstate-190222z | x.1964-04-19.msgs-amemb-vientiane-to-secstate-191658z (0.91)
+  - Msgs, AmEmb Vientiane to SECSTATE, 190222Z Apr 64
+  - Msgs, AmEmb Vientiane to SECSTATE, 191658Z Apr 64
+- x.1964-04-30.rfk-recorded-interview-by-john-bartlow | x.1964-04-30.rfk-recorded-interview-by-john-bartlow-2 (0.95)
+  - RFK, recorded interview by John Bartlow Martin, Apr. 30, 1964, I, 38-39
+  - RFK, recorded interview by John Bartlow Martin, Apr. 30, 1964, III, 35
+- x.1964-04-30.rfk-recorded-interview-by-john-bartlow | x.1964-04-30.rfk-recorded-interview-by-john-bartlow-3 (0.94)
+  - RFK, recorded interview by John Bartlow Martin, Apr. 30, 1964, I, 38-39
+  - RFK, recorded interview by John Bartlow Martin, Apr. 30, 1964, III, 39-40
+- x.1964-04-30.rfk-recorded-interview-by-john-bartlow | x.1964-04-30.rfk-recorded-interview-by-john-bartlow-4 (0.95)
+  - RFK, recorded interview by John Bartlow Martin, Apr. 30, 1964, I, 38-39
+  - RFK, recorded interview by John Bartlow Martin, Apr. 30, 1964, II, 34
+- x.1964-04-30.rfk-recorded-interview-by-john-bartlow-2 | x.1964-04-30.rfk-recorded-interview-by-john-bartlow-3 (0.96)
+  - RFK, recorded interview by John Bartlow Martin, Apr. 30, 1964, III, 35
+  - RFK, recorded interview by John Bartlow Martin, Apr. 30, 1964, III, 39-40
+- x.1964-04-30.rfk-recorded-interview-by-john-bartlow-2 | x.1964-04-30.rfk-recorded-interview-by-john-bartlow-4 (0.98)
+  - RFK, recorded interview by John Bartlow Martin, Apr. 30, 1964, III, 35
+  - RFK, recorded interview by John Bartlow Martin, Apr. 30, 1964, II, 34
+- x.1964-04-30.rfk-recorded-interview-by-john-bartlow-3 | x.1964-04-30.rfk-recorded-interview-by-john-bartlow-4 (0.97)
+  - RFK, recorded interview by John Bartlow Martin, Apr. 30, 1964, III, 39-40
+  - RFK, recorded interview by John Bartlow Martin, Apr. 30, 1964, II, 34
+- x.1964-05-14.rfk-recorded-interview-by-john-bartlow | x.1964-05-14.rfk-recorded-interview-by-john-bartlow-2 (0.97)
+  - RFK, recorded interview by John Bartlow Martin, May 14, 1964, I, 10
+  - RFK, recorded interview by John Bartlow Martin, May 14, 1964, I, 24
+- x.1964-05-14.rfk-recorded-interview-by-john-bartlow | x.1964-05-14.rfk-recorded-interview-by-john-bartlow-3 (0.97)
+  - RFK, recorded interview by John Bartlow Martin, May 14, 1964, I, 10
+  - RFK, recorded interview by John Bartlow Martin, May 14, 1964, I, 25
+- x.1964-05-14.rfk-recorded-interview-by-john-bartlow-2 | x.1964-05-14.rfk-recorded-interview-by-john-bartlow-3 (0.98)
+  - RFK, recorded interview by John Bartlow Martin, May 14, 1964, I, 24
+  - RFK, recorded interview by John Bartlow Martin, May 14, 1964, I, 25
+- x.1964-05-16.rfk-interview-by-william-manchester-46 | x.1964-05-16.rfk-interview-by-william-manchester-51 (0.86)
+  - RFK, interview by William Manchester, 46-47, 54-56
+  - RFK, interview by William Manchester, 51-53
+- x.1964-05-16.rfk-interview-by-william-manchester-46 | x.1964-05-16.rfk-interview-by-william-manchester-70 (0.86)
+  - RFK, interview by William Manchester, 46-47, 54-56
+  - RFK, interview by William Manchester, 70-71
+- x.1964-05-16.rfk-interview-by-william-manchester-46 | x.1964-05-16.rfk-interview-by-william-manchester-71 (0.86)
+  - RFK, interview by William Manchester, 46-47, 54-56
+  - RFK, interview by William Manchester, 71-72
+- x.1964-05-16.rfk-interview-by-william-manchester-51 | x.1964-05-16.rfk-interview-by-william-manchester-70 (0.90)
+  - RFK, interview by William Manchester, 51-53
+  - RFK, interview by William Manchester, 70-71
+- x.1964-05-16.rfk-interview-by-william-manchester-51 | x.1964-05-16.rfk-interview-by-william-manchester-71 (0.93)
+  - RFK, interview by William Manchester, 51-53
+  - RFK, interview by William Manchester, 71-72
+- x.1964-05-16.rfk-interview-by-william-manchester-70 | x.1964-05-16.rfk-interview-by-william-manchester-71 (0.95)
+  - RFK, interview by William Manchester, 70-71
+  - RFK, interview by William Manchester, 71-72
+- x.1964-05-19.shriver-in-the-house-remarks-extended | x.1964-05-19.alger-in-the-house-remarks-extended (0.92)
+  - Shriver in the House (remarks extended), May 19, 1964
+  - Alger in the House (remarks extended), May 19, 1964
+- x.1964-06-05.jcs-6676-052237z-jun-64 | x.1964-06-05.jcs-6647-052217z-jun-64 (0.91)
+  - JCS, 6676, 052237Z Jun 64
+  - JCS, 6647, 052217Z Jun 64
+- x.1964-06-09.judge-bryan-simpson-findings-of-fact | x.1964-06-09.judge-bryan-simpson-findings-of-fact-2 (0.98)
+  - Judge Bryan Simpson, "Findings of Fact and Conclusions of Law," in Young v. Davis, No. 64-133-Civ-J, June 9, 1964, in Simpson Papers, pp. 8—9, UF
+  - Judge Bryan Simpson, "Findings of Fact and Conclusions of Law," in Young v. Davis, No. 64-133-Civ-J, June 9, 1964, in Simpson Papers, p. 12, UF
+- x.1964-06-09.judge-bryan-simpson-findings-of-fact | x.1964-06-09.judge-bryan-simpson-findings-of-fact-3 (0.97)
+  - Judge Bryan Simpson, "Findings of Fact and Conclusions of Law," in Young v. Davis, No. 64-133-Civ-J, June 9, 1964, in Simpson Papers, pp. 8—9, UF
+  - Judge Bryan Simpson, "Findings of Fact and Conclusions of Law," in Young v. Davis, No. 64-133-Civ-J, June 9, 1964, in Simpson Papers, UF
+- x.1964-06-09.judge-bryan-simpson-findings-of-fact-2 | x.1964-06-09.judge-bryan-simpson-findings-of-fact-3 (0.98)
+  - Judge Bryan Simpson, "Findings of Fact and Conclusions of Law," in Young v. Davis, No. 64-133-Civ-J, June 9, 1964, in Simpson Papers, p. 12, UF
+  - Judge Bryan Simpson, "Findings of Fact and Conclusions of Law," in Young v. Davis, No. 64-133-Civ-J, June 9, 1964, in Simpson Papers, UF
+- x.1964-06-09.mansfield-to-johnson-june-9-1964 | x.1964-06-09.mansfield-to-johnson-june-9-1964-2 (0.93)
+  - Mansfield to Johnson, June 9, 1964
+  - Mansfield to Johnson, June 9, 1964 (copy)
+- x.1964-06-22.telephone-conversation-lyndon-johnson-and-lawrence | x.1964-06-22.telephone-conversation-lyndon-johnson-and-lawrence-2 (0.97)
+  - Telephone conversation, Lyndon Johnson and Lawrence O'Brien, June 22, 1964, Tape WH6406.12, #3804
+  - Telephone conversation, Lyndon Johnson and Lawrence O'Brien, June 22, 1964, Tape WH6406.12, #3804 ("Ibid.")
+- x.1964-06-23.church-in-the-senate-june-23 | x.1964-06-23.morse-in-the-senate-june-23 (0.86)
+  - Church in the Senate, June 23, 1964
+  - Morse in the Senate, June 23, 1964
+- x.1964-06-23.lbj-phone-call-with-james-eastland | x.1964-06-23.lbj-phone-call-with-james-eastland-2 (0.91)
+  - LBJ phone call with James Eastland, 3:59 p.m., June 23, 1964, Cit. 3836, Audiotape WH6406.14, LBJ. NOTES me
+  - LBJ phone call with James Eastland, 4:25 p.m., June 23, 1964, Cit. 3845, Audiotape WH6406.14, LBJ
+- x.1964-07-29.johnson-clifford-telephone-conversation-july-29 | x.1964-07-29.johnson-clifford-telephone-conversation-july-29-2 (0.93)
+  - Johnson–Clifford telephone conversation, July 29, 1964, 11:45 a.m.
+  - Johnson–Clifford telephone conversation, July 29, 1964, 2:17 p.m.
+- x.1964-08-04.msg-ctg72-1-041727z-aug-1964 | x.1964-08-04.msg-ctg72-1-041754z-aug-1964 (0.93)
+  - Msg, CTG72.1 041727Z Aug 1964
+  - Msg, CTG72.1 041754Z Aug 1964
+- x.1964-08-04.smith-nsc-meeting-notes-aug-4 | x.1964-08-04.jenkins-meeting-notes-aug-4-1964 (0.90)
+  - Smith, NSC meeting notes, Aug. 4, 1964, FRUS, 1964–1968, vol. 1, 278
+  - Jenkins, meeting notes, Aug. 4, 1964, FRUS, 1964–1968, vol. 1, 280
+- x.1964-08-07.070231z | x.1964-08-07.070253z (0.86)
+  - 070231Z
+  - 070253Z
+- x.1964-10-01.john-bartlow-martin-to-moyers-oct | x.1964-10-01.john-bartlow-martin-to-moyers-oct-2 (0.94)
+  - John Bartlow Martin to Moyers, Oct. 1, 1964
+  - John Bartlow Martin to Moyers, Oct. 1, 1964 (ibid.)
+- x.1964-12-06.rfk-recorded-interview-by-anthony-lewis | x.1964-12-06.rfk-recorded-interview-by-anthony-lewis-2 (0.94)
+  - RFK, recorded interview by Anthony Lewis, Dec. 6, 1964, I, 19-20
+  - RFK, recorded interview by Anthony Lewis, Dec. 6, 1964, II, 7-9
+- x.1964-12-07.memorandum-for-the-record-dec-7 | x.1964-12-07.memorandum-for-the-record-dec-7-2 (0.98)
+  - Memorandum for the record, Dec. 7, 1964 (FRUS 1964-1968, XIII, p. 139)
+  - Memorandum for the record, Dec. 7, 1964 (FRUS 1964-1968, XIII, p. 138)
+- x.1964-12-22.rfk-recorded-interview-by-anthony-lewis | x.1964-12-22.rfk-recorded-interview-by-anthony-lewis-2 (0.92)
+  - RFK, recorded interview by Anthony Lewis, Dec. 22, 1964, 5
+  - RFK, recorded interview by Anthony Lewis, Dec. 22, 1964, 24, 26-27
+- x.1965.hist-cincpac-1965-vol-ii-p | x.1965.hist-cincpac-1965-vol-ii-p-2 (0.97)
+  - hist, CINCPAC, 1965, Vol II, p 321
+  - hist, CINCPAC, 1965, Vol II, p 322
+- x.1965.hist-cincpac-1965-vol-ii-p | x.1965.hist-cincpac-1965-vol-ii-p-3 (0.93)
+  - hist, CINCPAC, 1965, Vol II, p 321
+  - Hist, CINCPAC, 1965, Vol II, p 378
+- x.1965.hist-cincpac-1965-vol-ii-p-2 | x.1965.hist-cincpac-1965-vol-ii-p-3 (0.93)
+  - hist, CINCPAC, 1965, Vol II, p 322
+  - Hist, CINCPAC, 1965, Vol II, p 378
+- x.1965.hist-cincpac-1965-vol-ii-pp | x.1965.hist-cincpac-1965-vol-ii-p (0.91)
+  - Hist, CINCPAC, 1965, Vol II, pp 317-18
+  - hist, CINCPAC, 1965, Vol II, p 321
+- x.1965.hist-cincpac-1965-vol-ii-pp | x.1965.hist-cincpac-1965-vol-ii-p-2 (0.88)
+  - Hist, CINCPAC, 1965, Vol II, pp 317-18
+  - hist, CINCPAC, 1965, Vol II, p 322
+- x.1965.hist-cincpac-1965-vol-ii-pp | x.1965.hist-cincpac-1965-vol-ii-p-3 (0.94)
+  - Hist, CINCPAC, 1965, Vol II, pp 317-18
+  - Hist, CINCPAC, 1965, Vol II, p 378
+- x.1965.hist-cincpac-1965-vol-ii-pp | x.1965.hist-cincpac-1965-vol-ii-pp-2 (0.91)
+  - Hist, CINCPAC, 1965, Vol II, pp 317-18
+  - hist, CINCPAC, 1965, Vol II, pp 319-20
+- x.1965.hist-cincpac-1965-vol-ii-pp-2 | x.1965.hist-cincpac-1965-vol-ii-p (0.91)
+  - hist, CINCPAC, 1965, Vol II, pp 319-20
+  - hist, CINCPAC, 1965, Vol II, p 321
+- x.1965.hist-cincpac-1965-vol-ii-pp-2 | x.1965.hist-cincpac-1965-vol-ii-p-2 (0.91)
+  - hist, CINCPAC, 1965, Vol II, pp 319-20
+  - hist, CINCPAC, 1965, Vol II, p 322
+- x.1965.hist-cincpac-1965-vol-ii-pp-2 | x.1965.hist-cincpac-1965-vol-ii-p-3 (0.88)
+  - hist, CINCPAC, 1965, Vol II, pp 319-20
+  - Hist, CINCPAC, 1965, Vol II, p 378
+- x.1965-01-12.church-interview-with-ramparts-put-in | x.1965-01-12.church-interview-with-ramparts-jan-feb (0.87)
+  - Church, interview with Ramparts, put in the Record Jan. 12, 1965
+  - Church, interview with Ramparts, Jan.–Feb. 1965, quoted in the Record, Jan. 12, 1965
+- x.1965-02-07.bundy-to-johnson-feb-7-1965 | x.1965-02-07.bundy-to-johnson-feb-7-1965-2 (0.87)
+  - Bundy to Johnson, Feb. 7, 1965
+  - Bundy to Johnson, Feb. 7, 1965, Annex A
+- x.1965-02-07.vance-memorandum-for-the-record-feb | x.1965-02-07.cyrus-vance-memo-for-the-record (0.86)
+  - Vance, memorandum for the record, Feb. 7, 1965
+  - Cyrus Vance, Memo for the Record, Feb. 7, 1965
+- x.1965-02-11.mcgeorge-bundy-to-mansfield-feb-11 | x.1965-02-11.bundy-to-mansfield-feb-11-1965 (0.87)
+  - McGeorge Bundy to Mansfield, Feb. 11, 1965
+  - Bundy to Mansfield, Feb. 11, 1965
+- x.1965-02-12.new-york-times-feb-12-1965 | x.1965-02-12.new-york-times-feb-12-1965-2 (0.89)
+  - New York Times, Feb. 12, 1965 (Dirksen; Nixon)
+  - New York Times, Feb. 12, 1965 (Nixon)
+- x.1965-02-17.church-in-the-senate-feb-17 | x.1965-02-17.mcgee-in-the-senate-feb-17 (0.86)
+  - Church in the Senate, Feb. 17, 1965
+  - McGee in the Senate, Feb. 17, 1965
+- x.1965-02-17.mcgee-in-the-senate-feb-17 | x.1965-02-17.mcgovern-in-the-senate-feb-17 (0.92)
+  - McGee in the Senate, Feb. 17, 1965
+  - McGovern in the Senate, Feb. 17, 1965
+- x.1965-02-17.mcgovern-in-the-senate-feb-17 | x.1965-02-17.nelson-and-mcgovern-in-the-senate (0.86)
+  - McGovern in the Senate, Feb. 17, 1965
+  - Nelson and McGovern in the Senate, Feb. 17, 1965
+- x.1965-02-17.memorandum-of-conversation-feb-17-1965 | x.1965-02-17.memorandum-of-conversation-feb-17-1965-2 (0.94)
+  - memorandum of conversation, Feb. 17, 1965
+  - memorandum of conversation, Feb. 17, 1965 ("Ibid.")
+- x.1965-02-27.rfk-recorded-interview-by-the-author | x.1965-02-27.rfk-recorded-interview-by-the-author-2 (0.98)
+  - RFK, recorded interview by the author, Feb. 27, 1965
+  - RFK, recorded interview by the author, Feb. 27, 1965, 8
+- x.1965-03-09.sac-mobile-to-director-mar-9 | x.1965-03-09.sac-mobile-to-director-mar-9-2 (0.94)
+  - SAC, Mobile, to Director, Mar. 9, 1965
+  - SAC, Mobile, to Director, Mar. 9, 1965, p. 3
+- x.1965-03-12.mobile-lhm-dated-mar-12-1965 | x.1965-03-12.mobile-lhm-dated-mar-12-1965-2 (0.93)
+  - Mobile LHM dated Mar. 12, 1965, p. 8
+  - Mobile LHM dated Mar. 12, 1965
+- x.1965-03-18.new-york-times-mar-18-1965 | x.1965-03-18.new-york-times-mar-18-1965-2 (0.95)
+  - New York Times, Mar. 18, 1965, 1
+  - New York Times, Mar. 18, 1965, 1, 21
+- x.1965-03-26.hq-usaf-rpt-analysis-of-air | x.1965-03-26.hq-usaf-rpt-analysis-of-air-2 (0.96)
+  - Hq USAF rpt, Analysis of Air Operations, Southeast Asia, 26 Mar 65, Vol I, pp 3-1 to 3-10
+  - Hq USAF rpt, Analysis of Air Operations, Southeast Asia, 26 Mar 65, Vol I, pp 4-1 to 4-2
+- x.1965-03-26.hq-usaf-rpt-analysis-of-air | x.1965-03-26.hq-usaf-rpt-analysis-of-air-3 (0.95)
+  - Hq USAF rpt, Analysis of Air Operations, Southeast Asia, 26 Mar 65, Vol I, pp 3-1 to 3-10
+  - Hq USAF rpt, Analysis of Air Operations, Southeast Asia, 26 Mar 65, Vol I, pp 4-14N to 4-14R
+- x.1965-03-26.hq-usaf-rpt-analysis-of-air-2 | x.1965-03-26.hq-usaf-rpt-analysis-of-air-3 (0.96)
+  - Hq USAF rpt, Analysis of Air Operations, Southeast Asia, 26 Mar 65, Vol I, pp 4-1 to 4-2
+  - Hq USAF rpt, Analysis of Air Operations, Southeast Asia, 26 Mar 65, Vol I, pp 4-14N to 4-14R
+- x.1965-03-26.lbj-phone-call-with-j-edgar | x.1965-03-26.lbj-phone-call-with-j-edgar-2 (0.95)
+  - LBJ phone call with J. Edgar Hoover, 8:10 a.m., Mar. 26, 1965, Cit. 7162, Audiotape WH6503.13
+  - LBJ phone call with J. Edgar Hoover, 9:36 a.m., Mar. 26, 1965, Cit. 7167, Audiotape WH6503.13
+- x.1965-03-28.new-york-times-mar-28-1965 | x.1965-03-28.new-york-times-mar-28-1965-2 (0.95)
+  - New York Times, Mar. 28, 1965, 58
+  - New York Times, Mar. 28, 1965, 1
+- x.1965-04-01.minutes-sclc-board-meeting-apr-1 | x.1965-04-01.minutes-sclc-board-meeting-apr-1-2 (0.95)
+  - Minutes, SCLC board meeting, Apr. 1-2, 1965, p. 1
+  - Minutes, SCLC board meeting, Apr. 1-2, 1965
+- x.1965-04-01.minutes-sclc-board-meeting-apr-1 | x.1965-04-01.minutes-sclc-board-meeting-apr-1-3 (0.98)
+  - Minutes, SCLC board meeting, Apr. 1-2, 1965, p. 1
+  - Minutes, SCLC board meeting, Apr. 1-2, 1965, p. 7
+- x.1965-04-01.minutes-sclc-board-meeting-apr-1-2 | x.1965-04-01.minutes-sclc-board-meeting-apr-1-3 (0.95)
+  - Minutes, SCLC board meeting, Apr. 1-2, 1965
+  - Minutes, SCLC board meeting, Apr. 1-2, 1965, p. 7
+- x.1965-04-04.ofc-asst-secdef-pa-news-release | x.1965-04-04.asst-secdef-pa-news-release-206 (0.92)
+  - Ofc Asst SECDEF (PA) News Release No 206-65, 4 Apr 65
+  - Asst SECDEF (PA), News Release 206-65, 4 Apr 65
+- x.1965-04-07.congressional-record-89th-cong-1st-sess | x.1965-04-07.congressional-record-89th-cong-1st-sess-2 (0.92)
+  - Congressional Record, 89th Cong., 1st sess., Apr. 7, 1965, 7222
+  - Congressional Record, 89th Cong., 1st sess., Apr. 7, 1965, 7223; 7210-7211
+- x.1965-04-28.santo-domingo-to-state-critic-4 | x.1965-04-28.santo-domingo-to-dirnsa-critic-5 (0.90)
+  - Santo Domingo to State, Critic 4, Apr. 28, 1965
+  - Santo Domingo to DIRNSA, Critic 5, Apr. 28, 1965
+- x.1965-04-28.santo-domingo-to-state-msg-1155 | x.1965-04-28.santo-domingo-to-state-msg-1132 (0.95)
+  - Santo Domingo to State, msg 1155, Apr. 28, 1965
+  - Santo Domingo to State, msg 1132, Apr. 28, 1965
+- x.1965-05-05.house-debate-on-the-700-million | x.1965-05-05.senate-debate-on-the-700-million (0.90)
+  - House debate on the $700 million, May 5, 1965
+  - Senate debate on the $700 million, May 5–6, 1965
+- x.1965-05-06.congressional-record-may-6-1965-9760 | x.1965-05-06.congressional-record-may-6-1965-9761 (0.95)
+  - Congressional Record, May 6, 1965, 9760-61
+  - Congressional Record, May 6, 1965, 9761-62
+- x.1965-06-30.aiken-in-the-senate-june-30 | x.1965-06-30.mansfield-in-the-senate-june-30 (0.88)
+  - Aiken in the Senate, June 30, 1965
+  - Mansfield in the Senate, June 30, 1965
+- x.1965-07-20.mcnamara-to-johnson-memorandum-july-20 | x.1965-07-20.mcnamara-to-johnson-july-20-1965 (0.85)
+  - McNamara to Johnson, memorandum, July 20, 1965
+  - McNamara to Johnson, July 20, 1965
+- x.1965-07-27.mcgovern-and-clark-in-the-senate | x.1965-07-27.mcgovern-in-the-senate-july-27 (0.88)
+  - McGovern and Clark in the Senate, July 27, 1965
+  - McGovern in the Senate, July 27, 1965
+- x.1965-07-27.mcgovern-in-the-senate-july-27 | x.1965-07-27.morse-in-the-senate-july-27 (0.90)
+  - McGovern in the Senate, July 27, 1965
+  - Morse in the Senate, July 27, 1965
+- x.1965-08-04.gordon-chase-memorandum-for-the-record | x.1965-08-04.gordon-chase-memorandum-for-the-record-2 (0.86)
+  - Gordon Chase, memorandum for the record, "August 3 Dinner Meeting on Information Problem," Aug. 4, 1965
+  - Gordon Chase, memorandum for the record, "August 4 Luncheon Meeting on the Information Problem"
+- x.1965-08-04.memorandum-for-the-record-august-4 | x.1965-08-04.gordon-chase-memorandum-for-the-record-2 (0.87)
+  - Memorandum for the Record, "August 4 Luncheon Meeting on the Information Problem," Aug. 4, 1965
+  - Gordon Chase, memorandum for the record, "August 4 Luncheon Meeting on the Information Problem"
+- x.1965-08-05.telephone-conversation-between-lbj-and-black | x.1965-08-05.telephone-conversation-between-lbj-and-martin (0.92)
+  - Telephone conversation between LBJ and Black, Aug. 5, 1965, WH6508.01
+  - Telephone conversation between LBJ and Martin, Aug. 5, 1965, WH6508.02
+- x.1965-08-31.new-york-times-aug-31-1965 | x.1965-08-31.new-york-times-aug-31-1965-2 (0.95)
+  - New York Times, Aug. 31, 1965, 1
+  - New York Times, Aug. 31, 1965, 42
+- x.1965-09-09.notes-of-meeting-sept-9-1965 | x.1965-09-09.notes-of-meeting-sept-9-1965-2 (0.92)
+  - Notes of meeting, Sept. 9, 1965
+  - Notes of meeting, Sept. 9, 1965 ("Ibid.")
+- x.1965-09-23.senate-comm-on-foreign-relations-executive | x.1965-09-23.senate-comm-on-foreign-relations-executive-2 (0.99)
+  - Senate Comm. on Foreign Relations, *Executive Sessions of the Senate Foreign Relations Committee (Historical Series)*, XVII: 1965, 1152–53
+  - Senate Comm. on Foreign Relations, *Executive Sessions of the Senate Foreign Relations Committee (Historical Series)*, XVII: 1965, 1155
+- x.1965-10-26.new-york-times-oct-26-1965 | x.1965-10-26.new-york-times-oct-26-1965-2 (0.95)
+  - New York Times, Oct. 26, 1965, 28
+  - New York Times, Oct. 26, 1965, 4
+- x.1965-11-27.mcgeorge-bundy-to-johnson-nov-27 | x.1965-11-27.bundy-to-johnson-nov-27-1965 (0.86)
+  - McGeorge Bundy to Johnson, Nov. 27, 1965
+  - Bundy to Johnson, Nov. 27, 1965
+- x.1965-11-29.harris-wofford-recorded-interview-by-berl | x.1965-11-29.harris-wofford-recorded-interview-by-berl-2 (0.94)
+  - Harris Wofford, recorded interview by Berl Bernhard, Nov. 29, 1965, 24-28
+  - Harris Wofford, recorded interview by Berl Bernhard, Nov. 29, 1965, 10-11
+- x.1965-12-03.mcgeorge-bundy-to-johnson-at-the | x.1965-12-03.mcgeorge-bundy-to-johnson-at-the-2 (0.95)
+  - McGeorge Bundy to Johnson at the Ranch, Dec. 3, 1965
+  - McGeorge Bundy to Johnson at the Ranch, Dec. 3, 1965 ("Ibid.")
+- x.1965-12-16.robert-f-kennedy-press-release-dec | x.1965-12-16.robert-f-kennedy-press-release-dec-2 (0.94)
+  - Robert F. Kennedy, press release, Dec. 16, 1965
+  - Robert F. Kennedy, press release, Dec. 16, 1965 (ibid.)
+- x.1965-12-18.notes-on-meeting-dec-18-1965 | x.1965-12-18.notes-of-meeting-dec-18-1965 (0.96)
+  - Notes on meeting, Dec. 18, 1965
+  - Notes of meeting, Dec. 18, 1965
+- x.1965-12-30.ball-and-johnson-telephone-conversation-dec | x.1965-12-30.ball-and-johnson-the-second-telephone (0.90)
+  - Ball and Johnson, telephone conversation, Dec. 30, 1965
+  - Ball and Johnson, the second telephone conversation, Dec. 30, 1965
+- x.1966.rolling-thunder-proj-checo-1966 | x.1966.rolling-thunder-proj-checo-1966-pp (0.89)
+  - Rolling Thunder (Proj CHECO, 1966)
+  - Rolling Thunder (Proj CHECO, 1966), pp 9-12
+- x.1966-01-01.new-political-group-in-lowndes-to | x.1966-01-01.edward-m-rudd-new-political-group (0.92)
+  - "New Political Group in Lowndes to Name Own Negro Candidates," Southern Courier, Jan. 1-2, 1966, 1
+  - Edward M. Rudd, "New Political Group in Lowndes to Name Own Negro Candidates," Southern Courier, Jan. 1-2, 1966, 2
+- x.1966-01-07.washington-to-saigon-1936-jan-7 | x.1966-01-07.washington-to-saigon-1935-jan-7 (0.97)
+  - Washington to Saigon 1936, Jan. 7, 1966
+  - Washington to Saigon 1935, Jan. 7, 1966
+- x.1966-01-12.ball-and-johnson-telephone-conversation-after | x.1966-01-12.ball-and-johnson-telephone-conversation-jan (0.85)
+  - Ball and Johnson, telephone conversation after the hearing, Jan. 12, 1966
+  - Ball and Johnson, telephone conversation, Jan. 12, 1966
+- x.1966-01-12.ball-and-johnson-telephone-conversation-before | x.1966-01-12.ball-and-johnson-telephone-conversation-after (0.95)
+  - Ball and Johnson, telephone conversation before the hearing, Jan. 12, 1966
+  - Ball and Johnson, telephone conversation after the hearing, Jan. 12, 1966
+- x.1966-01-20.senate-comm-on-armed-services-and | x.1966-01-20.senate-comm-on-armed-services-and-2 (0.98)
+  - Senate Comm. on Armed Services and Subcomm. on Dep't of Defense of the Comm. on Appropriations, *Supplemental Military Procurement and Construction Authorizations, Fiscal Year 1966: Hearings* (1966)
+  - Senate Comm. on Armed Services and Subcomm. on Dep't of Defense of the Comm. on Appropriations, *Supplemental Military Procurement and Construction Authorizations, Fiscal Year 1966: Hearings* (1966), 153–54
+- x.1966-01-24.senate-comm-on-foreign-relations-executive | x.1966-01-24.senate-comm-on-foreign-relations-executive-2 (0.94)
+  - Senate Comm. on Foreign Relations, *Executive Sessions of the Senate Foreign Relations Committee (Historical Series)*, XVIII: 1966, 139, 163, 166, 174, 182
+  - Senate Comm. on Foreign Relations, *Executive Sessions of the Senate Foreign Relations Committee (Historical Series)*, XVIII: 1966, 139–40
+- x.1966-01-27.112-cong-rec-1305 | x.1966-01-27.112-cong-rec-1234 (0.88)
+  - 112 Cong. Rec. 1305
+  - 112 Cong. Rec. 1234
+- x.1966-01-28.senate-comm-on-foreign-relations-supplemental | x.1966-01-28.senate-comm-on-foreign-relations-supplemental-2 (0.99)
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966)
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 2
+- x.1966-01-28.senate-comm-on-foreign-relations-supplemental | x.1966-01-28.senate-comm-on-foreign-relations-supplemental-3 (0.96)
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966)
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 50–51, 61
+- x.1966-01-28.senate-comm-on-foreign-relations-supplemental | x.1966-01-28.senate-comm-on-foreign-relations-supplemental-4 (0.97)
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966)
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 73–75
+- x.1966-01-28.senate-comm-on-foreign-relations-supplemental-2 | x.1966-01-28.senate-comm-on-foreign-relations-supplemental-3 (0.96)
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 2
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 50–51, 61
+- x.1966-01-28.senate-comm-on-foreign-relations-supplemental-2 | x.1966-01-28.senate-comm-on-foreign-relations-supplemental-4 (0.97)
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 2
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 73–75
+- x.1966-01-28.senate-comm-on-foreign-relations-supplemental-3 | x.1966-01-28.senate-comm-on-foreign-relations-supplemental-4 (0.95)
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 50–51, 61
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 73–75
+- x.1966-01-29.valenti-notes-of-the-meeting-of | x.1966-01-29.valenti-notes-of-the-meeting-of-2 (0.92)
+  - Valenti, notes of the meeting of Jan. 29, 1966, 11:35 a.m.
+  - Valenti, notes of the meeting of Jan. 29, 1966, 12:40 p.m.
+- x.1966-02-17.courtney-evans-to-rfk-feb-17 | x.1966-02-17.courtney-evans-to-rfk-feb-17-2 (0.93)
+  - Courtney Evans to RFK, Feb. 17, 1966 (quoted in Toledano, J. Edgar Hoover, 319)
+  - Courtney Evans to RFK, Feb. 17, 1966 (printed in Toledano, J. Edgar Hoover, 318-19)
+- x.1966-02-17.senate-comm-on-foreign-relations-supplemental | x.1966-02-17.senate-comm-on-foreign-relations-supplemental-2 (0.98)
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 438
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 530
+- x.1966-02-17.senate-comm-on-foreign-relations-supplemental | x.1966-02-17.senate-comm-on-foreign-relations-supplemental-3 (0.97)
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 438
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 454–55
+- x.1966-02-17.senate-comm-on-foreign-relations-supplemental-2 | x.1966-02-17.senate-comm-on-foreign-relations-supplemental-3 (0.97)
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 530
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 454–55
+- x.1966-02-18.senate-comm-on-foreign-relations-supplemental | x.1966-02-18.senate-comm-on-foreign-relations-supplemental-2 (0.97)
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 563–76
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 618
+- x.1966-02-18.senate-comm-on-foreign-relations-supplemental | x.1966-02-18.senate-comm-on-foreign-relations-supplemental-3 (0.96)
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 563–76
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 650 ff.
+- x.1966-02-18.senate-comm-on-foreign-relations-supplemental-2 | x.1966-02-18.senate-comm-on-foreign-relations-supplemental-3 (0.97)
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 618
+  - Senate Comm. on Foreign Relations, *Supplemental Foreign Assistance, Fiscal Year 1966—Vietnam: Hearings* (1966), 650 ff.
+- x.1966-02-21.george-ball-to-robert-kennedy-feb | x.1966-02-21.mcgeorge-bundy-to-robert-kennedy-feb (0.89)
+  - George Ball to Robert Kennedy, Feb. 21, 1966
+  - McGeorge Bundy to Robert Kennedy, Feb. 21, 1966
+- x.1966-02-24.robert-kennedy-to-mcgeorge-bundy-feb | x.1966-02-24.robert-kennedy-to-george-ball-feb (0.89)
+  - Robert Kennedy to McGeorge Bundy, Feb. 24, 1966
+  - Robert Kennedy to George Ball, Feb. 24, 1966
+- x.1966-02-26.bromley-smith-notes-of-the-meeting | x.1966-02-26.bromley-smith-notes-of-the-meeting-2 (0.91)
+  - Bromley Smith, notes of the meeting on Vietnam, Feb. 26, 1966
+  - Bromley Smith, notes of the meeting of Feb. 26, 1966
+- x.1966-03-23.saigon-to-washington-3463-mar-23 | x.1966-03-23.saigon-to-washington-3467-mar-23 (0.97)
+  - Saigon to Washington 3463, Mar. 23, 1966
+  - Saigon to Washington 3467, Mar. 23, 1966
+- x.1966-03-30.washington-to-saigon-2884-mar-30 | x.1966-03-30.washington-to-saigon-2893-mar-30 (0.95)
+  - Washington to Saigon 2884, Mar. 30, 1966
+  - Washington to Saigon 2893, Mar. 30, 1966
+- x.1966-04-02.washington-to-saigon-2950-apr-2 | x.1966-04-02.washington-to-saigon-2948-apr-2 (0.94)
+  - Washington to Saigon 2950, Apr. 2, 1966
+  - Washington to Saigon 2948, Apr. 2, 1966
+- x.1966-04-04.saigon-to-washington-3699-apr-4 | x.1966-04-04.saigon-to-washington-3698-apr-4 (0.97)
+  - Saigon to Washington 3699, Apr. 4, 1966
+  - Saigon to Washington 3698, Apr. 4, 1966
+- x.1966-04-06.saigon-to-washington-3761-apr-6 | x.1966-04-06.saigon-to-washington-3756-apr-6 (0.97)
+  - Saigon to Washington 3761, Apr. 6, 1966
+  - Saigon to Washington 3756, Apr. 6, 1966
+- x.1966-05-15.saigon-to-washington-4610-may-15 | x.1966-05-15.saigon-to-washington-4612-may-15 (0.97)
+  - Saigon to Washington 4610, May 15, 1966
+  - Saigon to Washington 4612, May 15, 1966
+- x.1966-05-15.washington-to-saigon-3448-may-15 | x.1966-05-15.washington-to-saigon-3450-may-15 (0.95)
+  - Washington to Saigon 3448, May 15, 1966
+  - Washington to Saigon 3450, May 15, 1966
+- x.1966-05-15.washington-to-saigon-3448-may-15 | x.1966-05-15.washington-to-saigon-3453-may-15 (0.95)
+  - Washington to Saigon 3448, May 15, 1966
+  - Washington to Saigon 3453, May 15, 1966
+- x.1966-05-15.washington-to-saigon-3448-may-15 | x.1966-05-15.washington-to-saigon-3455-may-15 (0.95)
+  - Washington to Saigon 3448, May 15, 1966
+  - Washington to Saigon 3455, May 15, 1966
+- x.1966-05-15.washington-to-saigon-3450-may-15 | x.1966-05-15.washington-to-saigon-3455-may-15 (0.97)
+  - Washington to Saigon 3450, May 15, 1966
+  - Washington to Saigon 3455, May 15, 1966
+- x.1966-05-15.washington-to-saigon-3453-may-15 | x.1966-05-15.washington-to-saigon-3450-may-15 (0.97)
+  - Washington to Saigon 3453, May 15, 1966
+  - Washington to Saigon 3450, May 15, 1966
+- x.1966-05-15.washington-to-saigon-3453-may-15 | x.1966-05-15.washington-to-saigon-3455-may-15 (0.97)
+  - Washington to Saigon 3453, May 15, 1966
+  - Washington to Saigon 3455, May 15, 1966
+- x.1966-05-19.washington-to-saigon-3524-may-19 | x.1966-05-19.washington-to-saigon-3545-may-19 (0.97)
+  - Washington to Saigon 3524, May 19, 1966
+  - Washington to Saigon 3545, May 19, 1966
+- x.1966-05-20.washington-to-saigon-3568-may-20 | x.1966-05-20.washington-to-saigon-3553-may-20 (0.95)
+  - Washington to Saigon 3568, May 20, 1966
+  - Washington to Saigon 3553, May 20, 1966
+- x.1966-05-23.saigon-to-washington-4878-may-23 | x.1966-05-23.saigon-to-washington-4880-may-23 (0.97)
+  - Saigon to Washington 4878, May 23, 1966
+  - Saigon to Washington 4880, May 23, 1966
+- x.1966-05-23.saigon-to-washington-4878-may-23 | x.1966-05-23.saigon-to-washington-4899-may-23 (0.95)
+  - Saigon to Washington 4878, May 23, 1966
+  - Saigon to Washington 4899, May 23, 1966
+- x.1966-05-23.saigon-to-washington-4899-may-23 | x.1966-05-23.saigon-to-washington-4880-may-23 (0.95)
+  - Saigon to Washington 4899, May 23, 1966
+  - Saigon to Washington 4880, May 23, 1966
+- x.1966-06-01.saigon-to-washington-5163-june-1 | x.1966-06-01.saigon-to-washington-5178-june-1 (0.95)
+  - Saigon to Washington 5163, June 1, 1966
+  - Saigon to Washington 5178, June 1, 1966
+- x.1966-06-01.saigon-to-washington-5163-june-1 | x.1966-06-01.saigon-to-washington-5195-june-1 (0.95)
+  - Saigon to Washington 5163, June 1, 1966
+  - Saigon to Washington 5195, June 1, 1966
+- x.1966-06-01.saigon-to-washington-5195-june-1 | x.1966-06-01.saigon-to-washington-5178-june-1 (0.95)
+  - Saigon to Washington 5195, June 1, 1966
+  - Saigon to Washington 5178, June 1, 1966
+- x.1966-08-02.notes-of-meeting-of-the-negotiations | x.1966-08-02.notes-of-meeting-of-negotiations-committee (0.96)
+  - Notes of Meeting of the Negotiations Committee, Aug. 2, 1966
+  - Notes of Meeting of Negotiations Committee, Aug. 2, 1966
+- x.1966-08-10.saigon-to-washington-3130-aug-10 | x.1966-08-10.saigon-to-washington-3129-aug-10 (0.95)
+  - Saigon to Washington 3130, Aug. 10, 1966
+  - Saigon to Washington 3129, Aug. 10, 1966
+- x.1966-08-18.congressional-record-vol-112-p-19858 | x.1966-08-18.congressional-record-vol-112-pp-19834 (0.89)
+  - Congressional Record, vol. 112, p. 19858
+  - Congressional Record, vol. 112, pp. 19834, 19853
+- x.1966-08-29.congressional-record-vol-112-pp-21057 | x.1966-08-29.congressional-record-vol-112-p-21059 (0.89)
+  - Congressional Record, vol. 112, pp. 21057–21060
+  - Congressional Record, vol. 112, p. 21059
+- x.1966-09-01.telephone-conversation-between-johnson-and-russell | x.1966-09-01.telephone-conversation-between-johnson-and-russell-2 (0.95)
+  - Telephone conversation between Johnson and Russell Long, Sept. 1, 1966 (FRUS 1964-1968, XV, pp. 398-399)
+  - Telephone conversation between Johnson and Russell Long, Sept. 1, 1966 (FRUS 1964-1968, XV, p. 403)
+- x.1966-09-15.notes-of-meeting-of-the-negotiations | x.1966-09-15.memorandum-of-the-meeting-of-the (0.87)
+  - Notes of Meeting of the Negotiations Committee, Sept. 15, 1966
+  - Memorandum of the meeting of the Negotiations Committee, Sept. 15, 1966
+- x.1966-09-20.congressional-record-vol-112-pp-23309 | x.1966-09-20.congressional-record-vol-112-pp-23225 (0.89)
+  - Congressional Record, vol. 112, pp. 23309–23318
+  - Congressional Record, vol. 112, pp. 23225–23228, 23318
+- x.1966-09-26.memorandum-of-conversation-johnson-and-erhard | x.1966-09-26.memorandum-of-conversation-johnson-and-erhard-2 (0.98)
+  - Memorandum of conversation, Johnson and Erhard, Sept. 26, 1966 (FRUS 1964-1968, XIII, pp. 472-473)
+  - Memorandum of conversation, Johnson and Erhard, Sept. 26, 1966 (FRUS 1964-1968, XIII, pp. 475-476)
+- x.1966-10-06.memorandum-of-meeting-of-the-negotiations | x.1966-10-06.memorandum-of-meeting-of-negotiations-committee (0.97)
+  - Memorandum of meeting of the Negotiations Committee, Oct. 6, 1966
+  - Memorandum of Meeting of Negotiations Committee, Oct. 6, 1966
+- x.1966-10-13.congressional-record-vol-112-pp-26537 | x.1966-10-13.congressional-record-vol-112-pp-26592 (0.91)
+  - Congressional Record, vol. 112, pp. 26537–26541
+  - Congressional Record, vol. 112, pp. 26592–26593
+- x.1966-12-10.thompson-to-rostow-dec-10-1966 | x.1966-12-10.hornig-to-rostow-dec-10-1966 (0.86)
+  - Thompson to Rostow, Dec. 10, 1966
+  - Hornig to Rostow, Dec. 10, 1966
+- x.1967-02-20.house-committee-on-appropriations-supplemental-defense | x.1967-02-20.house-committee-on-appropriations-supplemental-defense-2 (0.97)
+  - House Committee on Appropriations, Supplemental Defense Appropriations for 1967, Hearings, 90th Cong., 1st sess. (1967), pp. 113–114
+  - House Committee on Appropriations, Supplemental Defense Appropriations for 1967, Hearings, 90th Cong., 1st sess. (1967), p. 61
+- x.1967-02-20.house-committee-on-appropriations-supplemental-defense | x.1967-02-20.house-committee-on-appropriations-supplemental-defense-3 (0.98)
+  - House Committee on Appropriations, Supplemental Defense Appropriations for 1967, Hearings, 90th Cong., 1st sess. (1967), pp. 113–114
+  - House Committee on Appropriations, Supplemental Defense Appropriations for 1967, Hearings, 90th Cong., 1st sess. (1967), pp. 60–62, 113–114
+- x.1967-02-20.house-committee-on-appropriations-supplemental-defense | x.1967-02-20.house-committee-on-appropriations-supplemental-defense-4 (0.97)
+  - House Committee on Appropriations, Supplemental Defense Appropriations for 1967, Hearings, 90th Cong., 1st sess. (1967), pp. 113–114
+  - House Committee on Appropriations, Supplemental Defense Appropriations for 1967, Hearings, 90th Cong., 1st sess. (1967), pp. 40–44
+- x.1967-02-20.house-committee-on-appropriations-supplemental-defense-2 | x.1967-02-20.house-committee-on-appropriations-supplemental-defense-3 (0.95)
+  - House Committee on Appropriations, Supplemental Defense Appropriations for 1967, Hearings, 90th Cong., 1st sess. (1967), p. 61
+  - House Committee on Appropriations, Supplemental Defense Appropriations for 1967, Hearings, 90th Cong., 1st sess. (1967), pp. 60–62, 113–114
+- x.1967-02-20.house-committee-on-appropriations-supplemental-defense-2 | x.1967-02-20.house-committee-on-appropriations-supplemental-defense-4 (0.97)
+  - House Committee on Appropriations, Supplemental Defense Appropriations for 1967, Hearings, 90th Cong., 1st sess. (1967), p. 61
+  - House Committee on Appropriations, Supplemental Defense Appropriations for 1967, Hearings, 90th Cong., 1st sess. (1967), pp. 40–44
+- x.1967-02-20.house-committee-on-appropriations-supplemental-defense-3 | x.1967-02-20.house-committee-on-appropriations-supplemental-defense-4 (0.95)
+  - House Committee on Appropriations, Supplemental Defense Appropriations for 1967, Hearings, 90th Cong., 1st sess. (1967), pp. 60–62, 113–114
+  - House Committee on Appropriations, Supplemental Defense Appropriations for 1967, Hearings, 90th Cong., 1st sess. (1967), pp. 40–44
+- x.1967-02-20.senate-committee-on-foreign-relations-changing | x.1967-02-20.senate-committee-on-foreign-relations-changing-2 (0.98)
+  - Senate Committee on Foreign Relations, Changing American Attitudes Toward Foreign Policy, Hearing, Feb. 20, 1967, 90th Cong., 1st sess. (1967), pp. 3–14
+  - Senate Committee on Foreign Relations, Changing American Attitudes Toward Foreign Policy, Hearing, Feb. 20, 1967, 90th Cong., 1st sess. (1967), p. 18
+- x.1967-02-20.senate-committee-on-foreign-relations-changing | x.1967-02-20.senate-committee-on-foreign-relations-changing-3 (0.98)
+  - Senate Committee on Foreign Relations, Changing American Attitudes Toward Foreign Policy, Hearing, Feb. 20, 1967, 90th Cong., 1st sess. (1967), pp. 3–14
+  - Senate Committee on Foreign Relations, Changing American Attitudes Toward Foreign Policy, Hearing, Feb. 20, 1967, 90th Cong., 1st sess. (1967), pp. 47–48
+- x.1967-02-20.senate-committee-on-foreign-relations-changing-2 | x.1967-02-20.senate-committee-on-foreign-relations-changing-3 (0.98)
+  - Senate Committee on Foreign Relations, Changing American Attitudes Toward Foreign Policy, Hearing, Feb. 20, 1967, 90th Cong., 1st sess. (1967), p. 18
+  - Senate Committee on Foreign Relations, Changing American Attitudes Toward Foreign Policy, Hearing, Feb. 20, 1967, 90th Cong., 1st sess. (1967), pp. 47–48
+- x.1967-02-21.senate-committee-on-foreign-relations-conflicts | x.1967-02-21.senate-committee-on-foreign-relations-conflicts-2 (0.98)
+  - Senate Committee on Foreign Relations, Conflicts Between United States Capabilities and Foreign Commitments, Hearing, Feb. 21, 1967, 90th Cong., 1st sess. (1967), p. 4
+  - Senate Committee on Foreign Relations, Conflicts Between United States Capabilities and Foreign Commitments, Hearing, Feb. 21, 1967, 90th Cong., 1st sess. (1967), pp. 25–26
+- x.1967-02-21.senate-committee-on-foreign-relations-conflicts | x.1967-02-21.senate-committee-on-foreign-relations-conflicts-3 (0.98)
+  - Senate Committee on Foreign Relations, Conflicts Between United States Capabilities and Foreign Commitments, Hearing, Feb. 21, 1967, 90th Cong., 1st sess. (1967), p. 4
+  - Senate Committee on Foreign Relations, Conflicts Between United States Capabilities and Foreign Commitments, Hearing, Feb. 21, 1967, 90th Cong., 1st sess. (1967), pp. 3, 26
+- x.1967-02-21.senate-committee-on-foreign-relations-conflicts-2 | x.1967-02-21.senate-committee-on-foreign-relations-conflicts-3 (0.99)
+  - Senate Committee on Foreign Relations, Conflicts Between United States Capabilities and Foreign Commitments, Hearing, Feb. 21, 1967, 90th Cong., 1st sess. (1967), pp. 25–26
+  - Senate Committee on Foreign Relations, Conflicts Between United States Capabilities and Foreign Commitments, Hearing, Feb. 21, 1967, 90th Cong., 1st sess. (1967), pp. 3, 26
+- x.1967-02-23.clark-amendment-no-1-congressional-record | x.1967-02-23.clarks-second-amendment-congressional-record-vol (0.89)
+  - Clark amendment No. 1, Congressional Record, vol. 113, p. 4295 (Senate, Feb. 23, 1967)
+  - Clark's second amendment, Congressional Record, vol. 113, pp. 4295–96 (Senate, Feb. 23, 1967)
+- x.1967-02-28.congressional-record-vol-113-p-4717 | x.1967-02-28.congressional-record-vol-113-p-4723 (0.87)
+  - Congressional Record, vol. 113, p. 4717 (Senate, Feb. 28, 1967: Russell)
+  - Congressional Record, vol. 113, p. 4723 (Senate, Feb. 28, 1967: Russell and Fulbright)
+- x.1967-02-28.congressional-record-vol-113-p-4717 | x.1967-02-28.congressional-record-vol-113-p-4727 (0.89)
+  - Congressional Record, vol. 113, p. 4717 (Senate, Feb. 28, 1967: Russell)
+  - Congressional Record, vol. 113, p. 4727 (Senate, Feb. 28, 1967: Cooper)
+- x.1967-03-02.congressional-record-vol-113-p-5139 | x.1967-03-02.congressional-record-vol-113-p-5141 (0.86)
+  - Congressional Record, vol. 113, p. 5139 (House, Mar. 2, 1967: Reuss's amendment)
+  - Congressional Record, vol. 113, p. 5141 (House, Mar. 2, 1967: Yates's amendment ruled out)
+- x.1967-03-07.notes-on-the-luncheon-meeting-with | x.1967-03-07.notes-of-the-luncheon-meeting-with (0.86)
+  - Notes on the Luncheon Meeting with the President, Mar. 7, 1967 (probably Rostow's)
+  - Notes of the Luncheon Meeting with the President, Mar. 7, 1967
+- x.1967-03-15.address-to-the-tennessee-legislature-mar | x.1967-03-15.address-to-the-tennessee-legislature-mar-2 (0.94)
+  - Address to the Tennessee legislature, Mar. 15, 1967, Public Papers, 1967, pp. 348–354
+  - Address to the Tennessee legislature, Mar. 15, 1967 (Public Papers, 1967, I, 353-54)
+- x.1967-04-05.new-york-times-apr-5-1967 | x.1967-04-05.new-york-times-apr-5-1967-2 (0.96)
+  - New York Times, Apr. 5, 1967, 1
+  - New York Times, Apr. 5, 1967
+- x.1967-04-16.new-york-times-apr-16-1967-2 | x.1967-04-16.new-york-times-apr-16-1967-3 (0.87)
+  - New York Times, Apr. 16, 1967 (the crowd)
+  - New York Times, Apr. 16, 1967 (the draft cards)
+- x.1967-04-25.congressional-record-vol-113-p-10611 | x.1967-04-25.congressional-record-vol-113-p-10621 (0.90)
+  - Congressional Record, vol. 113, p. 10611 (Senate, Apr. 25, 1967: McGovern)
+  - Congressional Record, vol. 113, p. 10621 (Senate, Apr. 25, 1967: Holland)
+- x.1967-04-27.congressional-record-vol-113-p-11042 | x.1967-04-27.congressional-record-vol-113-p-11049 (0.89)
+  - Congressional Record, vol. 113, p. 11042 (Senate, Apr. 27, 1967: Fulbright)
+  - Congressional Record, vol. 113, p. 11049 (Senate, Apr. 27, 1967: Symington)
+- x.1967-04-27.congressional-record-vol-113-p-11042 | x.1967-04-27.congressional-record-vol-113-p-11051 (0.88)
+  - Congressional Record, vol. 113, p. 11042 (Senate, Apr. 27, 1967: Fulbright)
+  - Congressional Record, vol. 113, p. 11051 (Senate, Apr. 27, 1967: Morton)
+- x.1967-04-27.congressional-record-vol-113-p-11049 | x.1967-04-27.congressional-record-vol-113-p-11051 (0.91)
+  - Congressional Record, vol. 113, p. 11049 (Senate, Apr. 27, 1967: Symington)
+  - Congressional Record, vol. 113, p. 11051 (Senate, Apr. 27, 1967: Morton)
+- x.1967-04-27.mcnaughton-notes-on-discussions-with-the | x.1967-04-27.notes-on-discussion-with-the-president (0.89)
+  - McNaughton, notes on discussions with the President, Apr. 27, 1967
+  - Notes on discussion with the president, Apr. 27, 1967
+- x.1967-05-15.cooper-in-the-senate-may-15 | x.1967-05-15.morse-in-the-senate-may-15 (0.89)
+  - Cooper in the Senate, May 15, 1967
+  - Morse in the Senate, May 15, 1967
+- x.1967-05-15.morse-in-the-senate-may-15 | x.1967-05-15.mansfield-in-the-senate-may-15 (0.88)
+  - Morse in the Senate, May 15, 1967
+  - Mansfield in the Senate, May 15, 1967
+- x.1967-05-19.draft-presidential-memorandum-future-actions-in | x.1967-05-19.mcnamara-draft-presidential-memorandum-future-actions (0.94)
+  - Draft Presidential Memorandum, "Future Actions in Vietnam," May 19, 1967
+  - McNamara, draft presidential memorandum, "Future Actions in Vietnam," May 19, 1967
+- x.1967-05-20.jcsm-286-67-the-joint-chiefs | x.1967-05-20.jcsm-288-67-the-joint-chiefs (0.98)
+  - JCSM-286-67, the Joint Chiefs to McNamara, May 20, 1967
+  - JCSM-288-67, the Joint Chiefs to McNamara, May 20, 1967
+- x.1967-05-20.jcsm-288-67-to-the-secretary | x.1967-05-20.jcsm-286-67-to-the-secretary (0.98)
+  - JCSM-288-67 to the Secretary of Defense, May 20, 1967
+  - JCSM-286-67 to the Secretary of Defense, May 20, 1967
+- x.1967-06-19.memorandum-of-conversation-june-19-1967 | x.1967-06-19.memorandum-of-conversation-june-19-1967-2 (0.98)
+  - Memorandum of conversation, June 19, 1967 (FRUS 1964-1968, VIII, p. 381)
+  - Memorandum of conversation, June 19, 1967 (FRUS 1964-1968, VIII, p. 383)
+- x.1967-06-19.the-reminiscences-of-robert-finch-june | x.1967-06-19.the-reminiscences-of-robert-finch-june-2 (0.94)
+  - The Reminiscences of Robert Finch, June 19, 1967, p. 41
+  - The Reminiscences of Robert Finch, June 19, 1967, pp. 43–44
+- x.1967-06-19.the-reminiscences-of-robert-finch-june | x.1967-06-19.the-reminiscences-of-robert-finch-june-3 (0.96)
+  - The Reminiscences of Robert Finch, June 19, 1967, p. 41
+  - The Reminiscences of Robert Finch, June 19, 1967, p. 67
+- x.1967-06-19.the-reminiscences-of-robert-finch-june-2 | x.1967-06-19.the-reminiscences-of-robert-finch-june-3 (0.92)
+  - The Reminiscences of Robert Finch, June 19, 1967, pp. 43–44
+  - The Reminiscences of Robert Finch, June 19, 1967, p. 67
+- x.1967-07-12.tom-johnsons-notes-of-the-meeting | x.1967-07-12.tom-johnsons-notes-of-the-meeting-2 (0.97)
+  - Tom Johnson's notes of the meeting of July 12, 1967, 1:05 p.m.
+  - Tom Johnson's notes of the meeting of July 12, 1967, 2:50 p.m.
+- x.1967-07-12.tom-johnsons-notes-of-the-meeting | x.1967-07-12.tom-johnsons-notes-of-the-meeting-3 (0.92)
+  - Tom Johnson's notes of the meeting of July 12, 1967, 1:05 p.m.
+  - Tom Johnson's notes of the meeting of July 12, 1967
+- x.1967-07-12.tom-johnsons-notes-of-the-meeting-2 | x.1967-07-12.tom-johnsons-notes-of-the-meeting-3 (0.92)
+  - Tom Johnson's notes of the meeting of July 12, 1967, 2:50 p.m.
+  - Tom Johnson's notes of the meeting of July 12, 1967
+- x.1967-07-13.tom-johnsons-notes-of-the-meeting | x.1967-07-13.tom-johnsons-notes-of-the-meeting-2 (0.96)
+  - Tom Johnson's notes of the meeting of July 13, 1967, 12:40 p.m.
+  - Tom Johnson's notes of the meeting of July 13, 1967, 1:25 p.m.
+- x.1967-08.air-war-against-north-vietnam-hearings-2 | x.1967-08.air-war-against-north-vietnam-hearings-3 (0.90)
+  - Air War against North Vietnam: Hearings, 124–128, 131–132 (Wheeler)
+  - Air War against North Vietnam: Hearings, 130–133 (Wheeler)
+- x.1967-08-11.congressional-record-vol-113-pp-22362 | x.1967-08-11.congressional-record-vol-113-pp-22348 (0.87)
+  - Congressional Record, vol. 113, pp. 22362–22364 (Senate, Aug. 11, 1967: Case)
+  - Congressional Record, vol. 113, pp. 22348 ff. (Senate, Aug. 11, 1967: Javits)
+- x.1967-08-17.senate-committee-on-foreign-relations-u | x.1967-08-17.senate-committee-on-foreign-relations-u-2 (0.98)
+  - Senate Committee on Foreign Relations, U.S. Commitments to Foreign Powers, Hearings on S. Res. 151, 90th Cong., 1st sess. (1967), pp. 76–77
+  - Senate Committee on Foreign Relations, U.S. Commitments to Foreign Powers, Hearings on S. Res. 151, 90th Cong., 1st sess. (1967), pp. 79–81
+- x.1967-08-21.senate-committee-on-foreign-relations-u | x.1967-08-21.senate-committee-on-foreign-relations-u-2 (0.98)
+  - Senate Committee on Foreign Relations, U.S. Commitments to Foreign Powers, Hearings on S. Res. 151, 90th Cong., 1st sess. (1967), p. 129
+  - Senate Committee on Foreign Relations, U.S. Commitments to Foreign Powers, Hearings on S. Res. 151, 90th Cong., 1st sess. (1967), p. 141
+- x.1967-08-21.senate-committee-on-foreign-relations-u | x.1967-08-21.senate-committee-on-foreign-relations-u-3 (0.98)
+  - Senate Committee on Foreign Relations, U.S. Commitments to Foreign Powers, Hearings on S. Res. 151, 90th Cong., 1st sess. (1967), p. 129
+  - Senate Committee on Foreign Relations, U.S. Commitments to Foreign Powers, Hearings on S. Res. 151, 90th Cong., 1st sess. (1967), p. 147
+- x.1967-08-21.senate-committee-on-foreign-relations-u | x.1967-08-21.senate-committee-on-foreign-relations-u-4 (0.96)
+  - Senate Committee on Foreign Relations, U.S. Commitments to Foreign Powers, Hearings on S. Res. 151, 90th Cong., 1st sess. (1967), p. 129
+  - Senate Committee on Foreign Relations, U.S. Commitments to Foreign Powers, Hearings on S. Res. 151, 90th Cong., 1st sess. (1967), pp. 170–171
+- x.1967-08-21.senate-committee-on-foreign-relations-u-2 | x.1967-08-21.senate-committee-on-foreign-relations-u-3 (0.99)
+  - Senate Committee on Foreign Relations, U.S. Commitments to Foreign Powers, Hearings on S. Res. 151, 90th Cong., 1st sess. (1967), p. 141
+  - Senate Committee on Foreign Relations, U.S. Commitments to Foreign Powers, Hearings on S. Res. 151, 90th Cong., 1st sess. (1967), p. 147
+- x.1967-08-21.senate-committee-on-foreign-relations-u-2 | x.1967-08-21.senate-committee-on-foreign-relations-u-4 (0.97)
+  - Senate Committee on Foreign Relations, U.S. Commitments to Foreign Powers, Hearings on S. Res. 151, 90th Cong., 1st sess. (1967), p. 141
+  - Senate Committee on Foreign Relations, U.S. Commitments to Foreign Powers, Hearings on S. Res. 151, 90th Cong., 1st sess. (1967), pp. 170–171
+- x.1967-08-21.senate-committee-on-foreign-relations-u-3 | x.1967-08-21.senate-committee-on-foreign-relations-u-4 (0.97)
+  - Senate Committee on Foreign Relations, U.S. Commitments to Foreign Powers, Hearings on S. Res. 151, 90th Cong., 1st sess. (1967), p. 147
+  - Senate Committee on Foreign Relations, U.S. Commitments to Foreign Powers, Hearings on S. Res. 151, 90th Cong., 1st sess. (1967), pp. 170–171
+- x.1967-10-03.tom-johnsons-notes-of-meeting-oct | x.1967-10-03.tom-johnsons-notes-of-meeting-oct-3 (0.89)
+  - Tom Johnson's notes of meeting, Oct. 3, 1967
+  - Tom Johnson's notes of meeting, Oct. 3, 1967 (the march)
+- x.1967-10-17.tom-johnsons-notes-of-meeting-oct | x.1967-10-17.tom-johnson-notes-on-meeting-oct (0.96)
+  - Tom Johnson's notes of meeting, Oct. 17, 1967
+  - Tom Johnson notes on meeting, Oct. 17, 1967
+- x.1967-10-17.tom-johnsons-notes-of-meeting-oct | x.1967-10-17.tom-johnsons-notes-of-meeting-oct-2 (0.85)
+  - Tom Johnson's notes of meeting, Oct. 17, 1967
+  - Tom Johnson's notes of meeting, Oct. 17, 1967 (the testimony)
+- x.1967-11-04.jim-joness-notes-of-the-luncheon | x.1967-11-04.jim-joness-notes-of-the-meeting (0.88)
+  - Jim Jones's notes of the luncheon meeting, Nov. 4, 1967
+  - Jim Jones's notes of the meeting of Nov. 4, 1967
+- x.1967-11-06.marcy-memorandum-of-telephone-conversation-with | x.1967-11-06.marcy-memorandum-of-conversation-with-macomber (0.92)
+  - Marcy, memorandum of telephone conversation with Macomber, Nov. 6, 1967
+  - Marcy, memorandum of conversation with Macomber, Nov. 6, 1967
+- x.1967-11-16.senate-committee-on-foreign-relations-executive | x.1967-11-16.senate-committee-on-foreign-relations-executive-2 (0.96)
+  - Senate Committee on Foreign Relations, executive session transcript, Nov. 16, 1967
+  - Senate Committee on Foreign Relations, executive session transcript, Nov. 16, 1967 (Bunker)
+- x.1967-11-18.notes-of-meeting-nov-18-1967 | x.1967-11-18.notes-of-meeting-nov-18-1967-2 (0.98)
+  - Notes of meeting, Nov. 18, 1967 (FRUS 1964-1968, VIII, p. 441)
+  - Notes of meeting, Nov. 18, 1967 (FRUS 1964-1968, VIII, p. 442)
+- x.1967-11-28.manatos-to-johnson-12-10-p | x.1967-11-28.manatos-to-johnson-5-46-p (0.91)
+  - Manatos to Johnson, 12:10 p.m., Nov. 28, 1967
+  - Manatos to Johnson, 5:46 p.m., Nov. 28, 1967
+- x.1967-12-05.tom-johnsons-notes-of-meeting-dec | x.1967-12-05.tom-johnsons-notes-of-meeting-dec-2 (0.87)
+  - Tom Johnson's notes of meeting, Dec. 5, 1967
+  - Tom Johnson's notes of meeting, Dec. 5, 1967, at 1:18 p.m.
+- x.1967-12-05.tom-johnsons-notes-of-meeting-dec | x.1967-12-05.tom-johnsons-notes-of-meeting-dec-3 (0.87)
+  - Tom Johnson's notes of meeting, Dec. 5, 1967
+  - Tom Johnson's notes of meeting, Dec. 5, 1967, at 6:02 p.m.
+- x.1967-12-05.tom-johnsons-notes-of-meeting-dec-2 | x.1967-12-05.tom-johnsons-notes-of-meeting-dec-3 (0.94)
+  - Tom Johnson's notes of meeting, Dec. 5, 1967, at 1:18 p.m.
+  - Tom Johnson's notes of meeting, Dec. 5, 1967, at 6:02 p.m.
+- x.1968-02-06.notes-of-meeting-with-democratic-congressional | x.1968-02-06.notes-of-the-presidents-meeting-with (0.85)
+  - Notes of meeting with Democratic congressional leadership, February 6, 1968
+  - Notes of the President's Meeting with the Democratic Congressional Leadership, Feb. 6, 1968
+- x.1968-03.senate-committee-on-foreign-relations-background | x.1968-03.senate-committee-on-foreign-relations-background-2 (0.97)
+  - Senate Committee on Foreign Relations, "Background Information Relating to Southeast Asia and Vietnam," Mar. 1968, 32
+  - Senate Committee on Foreign Relations, "Background Information Relating to Southeast Asia and Vietnam," Mar. 1968, 249–254
+- x.1968-03-04.tom-johnsons-notes-of-the-meeting | x.1968-03-04.tom-johnson-notes-on-meeting-mar (0.88)
+  - Tom Johnson's notes of the meeting of Mar. 4, 1968
+  - Tom Johnson notes on meeting, Mar. 4, 1968
+- x.1968-03-14.clark-clifford-memorandum-of-conference-with | x.1968-03-14.clark-clifford-memorandum-of-conversation-with (0.93)
+  - Clark Clifford, Memorandum of Conference with Senator Robert Kennedy and Theodore C. Sorenson, Mar. 14, 1968
+  - Clark Clifford, memorandum of conversation with Senator Robert F. Kennedy and Theodore C. Sorensen, Mar. 14, 1968
+- x.1968-03-17.statement-of-senator-robert-f-kennedy | x.1968-03-17.statement-by-senator-robert-f-kennedy (0.94)
+  - Statement of Senator Robert F. Kennedy, March 17, 1968
+  - Statement by Senator Robert F. Kennedy, Mar. 17, 1968
+- x.1968-03-20.notes-taken-by-mcpherson-the-meeting | x.1968-03-20.notes-taken-by-tom-johnson-the (0.90)
+  - Notes taken by McPherson (the meeting of Mar. 20, 1968)
+  - Notes taken by Tom Johnson (the meeting of Mar. 20, 1968)
+- x.1968-03-22.for-the-president-barefoot-sanders-mar | x.1968-03-22.for-the-president-barefoot-sanders-mar-2 (0.88)
+  - For the President, Barefoot Sanders, Mar. 22, 1968
+  - For the President, Barefoot Sanders, Mar. 22, 1968 (on the South)
+- x.1968-04-03.rostows-notes-of-johnsons-meeting-with | x.1968-04-03.charles-s-murphys-notes-of-johnsons (0.87)
+  - Rostow's notes of Johnson's meeting with Robert Kennedy, Apr. 3, 1968
+  - Charles S. Murphy's notes of Johnson's meeting with Robert Kennedy, Apr. 3, 1968
+- x.1968-06.editorial-points-ripon-forum-4-6 | x.1968-06.editorial-points-ripon-forum-4-6-2 (0.98)
+  - "Editorial Points," *Ripon Forum* 4:6 (June 1968), 5
+  - "Editorial Points," *Ripon Forum* 4:6 (June 1968), 4
+- x.1968-06-20.congressional-record-house-june-20-1968 | x.1968-06-20.congressional-record-house-june-20-1968-2 (0.98)
+  - Congressional Record, House, June 20, 1968, 18000-18003
+  - Congressional Record, House, June 20, 1968, 18000-18004
+- x.1968-06-25.manatos-to-johnson-june-25-1968 | x.1968-06-25.manatos-to-johnson-june-25-1968-2 (0.93)
+  - Manatos to Johnson, June 25, 1968, 3:00 p.m.
+  - Manatos to Johnson, June 25, 1968, 4:15 p.m.
+- x.1968-06-25.manatos-to-johnson-june-25-1968 | x.1968-06-25.manatos-to-johnson-june-25-1968-3 (0.87)
+  - Manatos to Johnson, June 25, 1968, 3:00 p.m.
+  - Manatos to Johnson, June 25, 1968
+- x.1968-06-25.manatos-to-johnson-june-25-1968-2 | x.1968-06-25.manatos-to-johnson-june-25-1968-3 (0.87)
+  - Manatos to Johnson, June 25, 1968, 4:15 p.m.
+  - Manatos to Johnson, June 25, 1968
+- x.1968-10-30.rostow-to-johnson-oct-30-1968 | x.1968-10-30.rostow-to-johnson-oct-30-and (0.89)
+  - Rostow to Johnson, Oct. 30, 1968
+  - Rostow to Johnson, Oct. 30 and 31, 1968
+- x.1968-10-31.saigon-41586-oct-31-1968 | x.1968-10-31.saigon-41589-oct-31-1968 (0.96)
+  - Saigon 41586, Oct. 31, 1968
+  - Saigon 41589, Oct. 31, 1968
+- x.1968-10-31.saigon-41586-oct-31-1968 | x.1968-10-31.saigon-41618-oct-31-1968 (0.92)
+  - Saigon 41586, Oct. 31, 1968
+  - Saigon 41618, Oct. 31, 1968
+- x.1968-10-31.saigon-41618-oct-31-1968 | x.1968-10-31.saigon-41589-oct-31-1968 (0.92)
+  - Saigon 41618, Oct. 31, 1968
+  - Saigon 41589, Oct. 31, 1968
+- x.1968-12.editorial-ripon-forum-4-12-december | x.1968-12.editorial-ripon-forum-4-12-december-2 (0.93)
+  - "Editorial," *Ripon Forum* 4:12 (December 1968), 3–5
+  - "Editorial," *Ripon Forum* 4:12 (December 1968), 10–11
+- x.1969-03-06.peter-edelman-recorded-interview-by-jean | x.1969-03-06.peter-edelman-recorded-interview-by-jean-2 (0.97)
+  - Peter Edelman, recorded interview by Jean Stein, Mar. 6, 1969, 9
+  - Peter Edelman, recorded interview by Jean Stein, Mar. 6, 1969, 20
+- x.1969-05-01.church-oral-history-may-1-1969 | x.1969-05-01.church-oral-history-may-1-1969-2 (0.92)
+  - Church, oral history, May 1, 1969
+  - Church, oral history, May 1, 1969 (ibid.)
+- x.1969-05-01.frank-church-oral-history-may-1 | x.1969-05-01.church-oral-history-may-1-1969 (0.91)
+  - Frank Church oral history, May 1, 1969
+  - Church, oral history, May 1, 1969
+- x.1969-08-19.reminiscences-of-lyndon-b-johnson-transcript | x.1969-08-19.reminiscences-of-lyndon-b-johnson-transcript-2 (0.97)
+  - "Reminiscences of Lyndon B. Johnson," transcript of tape recording, Aug. 19, 1969
+  - "Reminiscences of Lyndon B. Johnson," transcript of tape recording, Aug. 19, 1969, p. 17
+- x.1970.khrushchev-khrushchev-remembers-1970-p-494 | x.1970.khrushchev-khrushchev-remembers-1970-p-497 (0.98)
+  - Khrushchev, Khrushchev Remembers (1970), p. 494
+  - Khrushchev, Khrushchev Remembers (1970), p. 497
+- x.1970-01.liberation-jan-1970-8 | x.1970-01.liberation-jan-1970-12 (0.93)
+  - Liberation, Jan. 1970, 8
+  - Liberation, Jan. 1970, 12
+- x.1970-07-16.george-mcgovern-recorded-interview-by-l | x.1970-07-16.george-mcgovern-recorded-interview-by-l-2 (0.96)
+  - George McGovern, recorded interview by L. J. Hackman, July 16, 1970, 38, 44-48
+  - George McGovern, recorded interview by L. J. Hackman, July 16, 1970, 44-46
+- x.1975.church-committee-assassination-plots-126-131 | x.1975.church-committee-assassination-plots-129 (0.93)
+  - Church committee, Assassination Plots, 126-131
+  - Church committee, Assassination Plots, 129
+- x.1975.church-committee-assassination-plots-126-131 | x.1975.church-committee-assassination-plots-129-130 (0.95)
+  - Church committee, Assassination Plots, 126-131
+  - Church committee, Assassination Plots, 129-130
+- x.1975.church-committee-assassination-plots-126-131 | x.1975.church-committee-assassination-plots-131-134 (0.93)
+  - Church committee, Assassination Plots, 126-131
+  - Church committee, Assassination Plots, 131-134
+- x.1975.church-committee-assassination-plots-126-131 | x.1975.church-committee-assassination-plots-147 (0.90)
+  - Church committee, Assassination Plots, 126-131
+  - Church committee, Assassination Plots, 147
+- x.1975.church-committee-assassination-plots-126-131 | x.1975.church-committee-assassination-plots-172 (0.93)
+  - Church committee, Assassination Plots, 126-131
+  - Church committee, Assassination Plots, 172
+- x.1975.church-committee-assassination-plots-126-131 | x.1975.church-committee-assassination-plots-172-173 (0.91)
+  - Church committee, Assassination Plots, 126-131
+  - Church committee, Assassination Plots, 172-173, 337
+- x.1975.church-committee-assassination-plots-126-131 | x.1975.church-committee-assassination-plots-173 (0.93)
+  - Church committee, Assassination Plots, 126-131
+  - Church committee, Assassination Plots, 173
+- x.1975.church-committee-assassination-plots-126-131 | x.1975.church-committee-assassination-plots-173-174 (0.91)
+  - Church committee, Assassination Plots, 126-131
+  - Church committee, Assassination Plots, 173-174
+- x.1975.church-committee-assassination-plots-129 | x.1975.church-committee-assassination-plots-129-130 (0.95)
+  - Church committee, Assassination Plots, 129
+  - Church committee, Assassination Plots, 129-130
+- x.1975.church-committee-assassination-plots-129 | x.1975.church-committee-assassination-plots-147 (0.95)
+  - Church committee, Assassination Plots, 129
+  - Church committee, Assassination Plots, 147
+- x.1975.church-committee-assassination-plots-129 | x.1975.church-committee-assassination-plots-172 (0.97)
+  - Church committee, Assassination Plots, 129
+  - Church committee, Assassination Plots, 172
+- x.1975.church-committee-assassination-plots-129 | x.1975.church-committee-assassination-plots-172-173 (0.89)
+  - Church committee, Assassination Plots, 129
+  - Church committee, Assassination Plots, 172-173, 337
+- x.1975.church-committee-assassination-plots-129 | x.1975.church-committee-assassination-plots-173 (0.95)
+  - Church committee, Assassination Plots, 129
+  - Church committee, Assassination Plots, 173
+- x.1975.church-committee-assassination-plots-129 | x.1975.church-committee-assassination-plots-173-174 (0.90)
+  - Church committee, Assassination Plots, 129
+  - Church committee, Assassination Plots, 173-174
+- x.1975.church-committee-assassination-plots-129-130 | x.1975.church-committee-assassination-plots-147 (0.90)
+  - Church committee, Assassination Plots, 129-130
+  - Church committee, Assassination Plots, 147
+- x.1975.church-committee-assassination-plots-129-130 | x.1975.church-committee-assassination-plots-172 (0.93)
+  - Church committee, Assassination Plots, 129-130
+  - Church committee, Assassination Plots, 172
+- x.1975.church-committee-assassination-plots-129-130 | x.1975.church-committee-assassination-plots-172-173 (0.91)
+  - Church committee, Assassination Plots, 129-130
+  - Church committee, Assassination Plots, 172-173, 337
+- x.1975.church-committee-assassination-plots-129-130 | x.1975.church-committee-assassination-plots-173 (0.93)
+  - Church committee, Assassination Plots, 129-130
+  - Church committee, Assassination Plots, 173
+- x.1975.church-committee-assassination-plots-129-130 | x.1975.church-committee-assassination-plots-173-174 (0.91)
+  - Church committee, Assassination Plots, 129-130
+  - Church committee, Assassination Plots, 173-174
+- x.1975.church-committee-assassination-plots-131-134 | x.1975.church-committee-assassination-plots-129 (0.90)
+  - Church committee, Assassination Plots, 131-134
+  - Church committee, Assassination Plots, 129
+- x.1975.church-committee-assassination-plots-131-134 | x.1975.church-committee-assassination-plots-129-130 (0.93)
+  - Church committee, Assassination Plots, 131-134
+  - Church committee, Assassination Plots, 129-130
+- x.1975.church-committee-assassination-plots-131-134 | x.1975.church-committee-assassination-plots-147 (0.93)
+  - Church committee, Assassination Plots, 131-134
+  - Church committee, Assassination Plots, 147
+- x.1975.church-committee-assassination-plots-131-134 | x.1975.church-committee-assassination-plots-172 (0.90)
+  - Church committee, Assassination Plots, 131-134
+  - Church committee, Assassination Plots, 172
+- x.1975.church-committee-assassination-plots-131-134 | x.1975.church-committee-assassination-plots-172-173 (0.89)
+  - Church committee, Assassination Plots, 131-134
+  - Church committee, Assassination Plots, 172-173, 337
+- x.1975.church-committee-assassination-plots-131-134 | x.1975.church-committee-assassination-plots-173 (0.93)
+  - Church committee, Assassination Plots, 131-134
+  - Church committee, Assassination Plots, 173
+- x.1975.church-committee-assassination-plots-131-134 | x.1975.church-committee-assassination-plots-173-174 (0.95)
+  - Church committee, Assassination Plots, 131-134
+  - Church committee, Assassination Plots, 173-174
+- x.1975.church-committee-assassination-plots-141 | x.1975.church-committee-assassination-plots-126-131 (0.93)
+  - Church committee, Assassination Plots, 141
+  - Church committee, Assassination Plots, 126-131
+- x.1975.church-committee-assassination-plots-141 | x.1975.church-committee-assassination-plots-129 (0.95)
+  - Church committee, Assassination Plots, 141
+  - Church committee, Assassination Plots, 129
+- x.1975.church-committee-assassination-plots-141 | x.1975.church-committee-assassination-plots-129-130 (0.93)
+  - Church committee, Assassination Plots, 141
+  - Church committee, Assassination Plots, 129-130
+- x.1975.church-committee-assassination-plots-141 | x.1975.church-committee-assassination-plots-131-134 (0.93)
+  - Church committee, Assassination Plots, 141
+  - Church committee, Assassination Plots, 131-134
+- x.1975.church-committee-assassination-plots-141 | x.1975.church-committee-assassination-plots-142-143 (0.95)
+  - Church committee, Assassination Plots, 141
+  - Church committee, Assassination Plots, 142-143
+- x.1975.church-committee-assassination-plots-141 | x.1975.church-committee-assassination-plots-146-147 (0.95)
+  - Church committee, Assassination Plots, 141
+  - Church committee, Assassination Plots, 146-147
+- x.1975.church-committee-assassination-plots-141 | x.1975.church-committee-assassination-plots-147 (0.97)
+  - Church committee, Assassination Plots, 141
+  - Church committee, Assassination Plots, 147
+- x.1975.church-committee-assassination-plots-141 | x.1975.church-committee-assassination-plots-172 (0.95)
+  - Church committee, Assassination Plots, 141
+  - Church committee, Assassination Plots, 172
+- x.1975.church-committee-assassination-plots-141 | x.1975.church-committee-assassination-plots-172-173 (0.89)
+  - Church committee, Assassination Plots, 141
+  - Church committee, Assassination Plots, 172-173, 337
+- x.1975.church-committee-assassination-plots-141 | x.1975.church-committee-assassination-plots-173 (0.95)
+  - Church committee, Assassination Plots, 141
+  - Church committee, Assassination Plots, 173
+- x.1975.church-committee-assassination-plots-141 | x.1975.church-committee-assassination-plots-173-174 (0.93)
+  - Church committee, Assassination Plots, 141
+  - Church committee, Assassination Plots, 173-174
+- x.1975.church-committee-assassination-plots-142-143 | x.1975.church-committee-assassination-plots-126-131 (0.95)
+  - Church committee, Assassination Plots, 142-143
+  - Church committee, Assassination Plots, 126-131
+- x.1975.church-committee-assassination-plots-142-143 | x.1975.church-committee-assassination-plots-129 (0.93)
+  - Church committee, Assassination Plots, 142-143
+  - Church committee, Assassination Plots, 129
+- x.1975.church-committee-assassination-plots-142-143 | x.1975.church-committee-assassination-plots-129-130 (0.95)
+  - Church committee, Assassination Plots, 142-143
+  - Church committee, Assassination Plots, 129-130
+- x.1975.church-committee-assassination-plots-142-143 | x.1975.church-committee-assassination-plots-131-134 (0.93)
+  - Church committee, Assassination Plots, 142-143
+  - Church committee, Assassination Plots, 131-134
+- x.1975.church-committee-assassination-plots-142-143 | x.1975.church-committee-assassination-plots-146-147 (0.95)
+  - Church committee, Assassination Plots, 142-143
+  - Church committee, Assassination Plots, 146-147
+- x.1975.church-committee-assassination-plots-142-143 | x.1975.church-committee-assassination-plots-147 (0.93)
+  - Church committee, Assassination Plots, 142-143
+  - Church committee, Assassination Plots, 147
+- x.1975.church-committee-assassination-plots-142-143 | x.1975.church-committee-assassination-plots-172 (0.93)
+  - Church committee, Assassination Plots, 142-143
+  - Church committee, Assassination Plots, 172
+- x.1975.church-committee-assassination-plots-142-143 | x.1975.church-committee-assassination-plots-172-173 (0.91)
+  - Church committee, Assassination Plots, 142-143
+  - Church committee, Assassination Plots, 172-173, 337
+- x.1975.church-committee-assassination-plots-142-143 | x.1975.church-committee-assassination-plots-173 (0.93)
+  - Church committee, Assassination Plots, 142-143
+  - Church committee, Assassination Plots, 173
+- x.1975.church-committee-assassination-plots-142-143 | x.1975.church-committee-assassination-plots-173-174 (0.93)
+  - Church committee, Assassination Plots, 142-143
+  - Church committee, Assassination Plots, 173-174
+- x.1975.church-committee-assassination-plots-146-147 | x.1975.church-committee-assassination-plots-126-131 (0.93)
+  - Church committee, Assassination Plots, 146-147
+  - Church committee, Assassination Plots, 126-131
+- x.1975.church-committee-assassination-plots-146-147 | x.1975.church-committee-assassination-plots-129 (0.90)
+  - Church committee, Assassination Plots, 146-147
+  - Church committee, Assassination Plots, 129
+- x.1975.church-committee-assassination-plots-146-147 | x.1975.church-committee-assassination-plots-129-130 (0.91)
+  - Church committee, Assassination Plots, 146-147
+  - Church committee, Assassination Plots, 129-130
+- x.1975.church-committee-assassination-plots-146-147 | x.1975.church-committee-assassination-plots-131-134 (0.93)
+  - Church committee, Assassination Plots, 146-147
+  - Church committee, Assassination Plots, 131-134
+- x.1975.church-committee-assassination-plots-146-147 | x.1975.church-committee-assassination-plots-147 (0.95)
+  - Church committee, Assassination Plots, 146-147
+  - Church committee, Assassination Plots, 147
+- x.1975.church-committee-assassination-plots-146-147 | x.1975.church-committee-assassination-plots-172 (0.93)
+  - Church committee, Assassination Plots, 146-147
+  - Church committee, Assassination Plots, 172
+- x.1975.church-committee-assassination-plots-146-147 | x.1975.church-committee-assassination-plots-172-173 (0.89)
+  - Church committee, Assassination Plots, 146-147
+  - Church committee, Assassination Plots, 172-173, 337
+- x.1975.church-committee-assassination-plots-146-147 | x.1975.church-committee-assassination-plots-173 (0.93)
+  - Church committee, Assassination Plots, 146-147
+  - Church committee, Assassination Plots, 173
+- x.1975.church-committee-assassination-plots-146-147 | x.1975.church-committee-assassination-plots-173-174 (0.93)
+  - Church committee, Assassination Plots, 146-147
+  - Church committee, Assassination Plots, 173-174
+- x.1975.church-committee-assassination-plots-147 | x.1975.church-committee-assassination-plots-172 (0.97)
+  - Church committee, Assassination Plots, 147
+  - Church committee, Assassination Plots, 172
+- x.1975.church-committee-assassination-plots-147 | x.1975.church-committee-assassination-plots-172-173 (0.89)
+  - Church committee, Assassination Plots, 147
+  - Church committee, Assassination Plots, 172-173, 337
+- x.1975.church-committee-assassination-plots-147 | x.1975.church-committee-assassination-plots-173 (0.97)
+  - Church committee, Assassination Plots, 147
+  - Church committee, Assassination Plots, 173
+- x.1975.church-committee-assassination-plots-147 | x.1975.church-committee-assassination-plots-173-174 (0.93)
+  - Church committee, Assassination Plots, 147
+  - Church committee, Assassination Plots, 173-174
+- x.1975.church-committee-assassination-plots-172 | x.1975.church-committee-assassination-plots-172-173 (0.91)
+  - Church committee, Assassination Plots, 172
+  - Church committee, Assassination Plots, 172-173, 337
+- x.1975.church-committee-assassination-plots-172 | x.1975.church-committee-assassination-plots-173-174 (0.93)
+  - Church committee, Assassination Plots, 172
+  - Church committee, Assassination Plots, 173-174
+- x.1975.church-committee-assassination-plots-172-173 | x.1975.church-committee-assassination-plots-173-174 (0.91)
+  - Church committee, Assassination Plots, 172-173, 337
+  - Church committee, Assassination Plots, 173-174
+- x.1975.church-committee-assassination-plots-173 | x.1975.church-committee-assassination-plots-172 (0.97)
+  - Church committee, Assassination Plots, 173
+  - Church committee, Assassination Plots, 172
+- x.1975.church-committee-assassination-plots-173 | x.1975.church-committee-assassination-plots-172-173 (0.91)
+  - Church committee, Assassination Plots, 173
+  - Church committee, Assassination Plots, 172-173, 337
+- x.1975.church-committee-assassination-plots-173 | x.1975.church-committee-assassination-plots-173-174 (0.95)
+  - Church committee, Assassination Plots, 173
+  - Church committee, Assassination Plots, 173-174
+- x.1975-06-09.bissell-testimony-june-9-1975-11 | x.1975-06-09.bissell-testimony-june-9-1975-12 (0.97)
+  - Bissell, testimony, June 9, 1975, 11
+  - Bissell, testimony, June 9, 1975, 12
+- x.1975-06-09.bissell-testimony-june-9-1975-11 | x.1975-06-09.bissell-testimony-june-9-1975-20 (0.86)
+  - Bissell, testimony, June 9, 1975, 11
+  - Bissell, testimony, June 9, 1975, 20, 22, 24
+- x.1975-06-09.bissell-testimony-june-9-1975-20 | x.1975-06-09.bissell-testimony-june-9-1975-12 (0.89)
+  - Bissell, testimony, June 9, 1975, 20, 22, 24
+  - Bissell, testimony, June 9, 1975, 12
+- x.1975-06-24.roselli-testimony-june-24-1975-17 | x.1975-06-24.roselli-testimony-june-24-1975-24 (0.89)
+  - Roselli, testimony, June 24, 1975, 17, 19–25
+  - Roselli, testimony, June 24, 1975, 24
+- x.1975-06-24.roselli-testimony-june-24-1975-9 | x.1975-06-24.roselli-testimony-june-24-1975-17 (0.92)
+  - Roselli, testimony, June 24, 1975, 9, 59
+  - Roselli, testimony, June 24, 1975, 17, 19–25
+- x.1975-06-24.roselli-testimony-june-24-1975-9 | x.1975-06-24.roselli-testimony-june-24-1975-24 (0.91)
+  - Roselli, testimony, June 24, 1975, 9, 59
+  - Roselli, testimony, June 24, 1975, 24
+- x.1975-07-29.maheu-testimony-july-29-1975-40 | x.1975-07-29.maheu-testimony-july-29-1975-42 (0.86)
+  - Maheu, testimony, July 29, 1975, 40–42
+  - Maheu, testimony, July 29, 1975, 42–44, 60–61
+- x.1975-11-20.alleged-assassination-plots-126-27 | x.1975-11-20.alleged-assassination-plots-14-15 (0.90)
+  - Alleged Assassination Plots, 126–27
+  - Alleged Assassination Plots, 14–15
+- x.1975-11-20.alleged-assassination-plots-126-27 | x.1975-11-20.alleged-assassination-plots-141 (0.89)
+  - Alleged Assassination Plots, 126–27
+  - Alleged Assassination Plots, 141
+- x.1975-11-20.alleged-assassination-plots-126-27 | x.1975-11-20.alleged-assassination-plots-183-87 (0.91)
+  - Alleged Assassination Plots, 126–27
+  - Alleged Assassination Plots, 183–87
+- x.1975-11-20.alleged-assassination-plots-126-27 | x.1975-11-20.alleged-assassination-plots-74 (0.91)
+  - Alleged Assassination Plots, 126–27
+  - Alleged Assassination Plots, 74
+- x.1975-11-20.alleged-assassination-plots-126-27 | x.1975-11-20.alleged-assassination-plots-76 (0.91)
+  - Alleged Assassination Plots, 126–27
+  - Alleged Assassination Plots, 76
+- x.1975-11-20.alleged-assassination-plots-126-27 | x.1975-11-20.alleged-assassination-plots-77-79 (0.90)
+  - Alleged Assassination Plots, 126–27
+  - Alleged Assassination Plots, 77–79
+- x.1975-11-20.alleged-assassination-plots-14-15 | x.1975-11-20.alleged-assassination-plots-183-87 (0.90)
+  - Alleged Assassination Plots, 14–15
+  - Alleged Assassination Plots, 183–87
+- x.1975-11-20.alleged-assassination-plots-14-15 | x.1975-11-20.alleged-assassination-plots-74 (0.92)
+  - Alleged Assassination Plots, 14–15
+  - Alleged Assassination Plots, 74
+- x.1975-11-20.alleged-assassination-plots-14-15 | x.1975-11-20.alleged-assassination-plots-76 (0.89)
+  - Alleged Assassination Plots, 14–15
+  - Alleged Assassination Plots, 76
+- x.1975-11-20.alleged-assassination-plots-14-15 | x.1975-11-20.alleged-assassination-plots-77-79 (0.88)
+  - Alleged Assassination Plots, 14–15
+  - Alleged Assassination Plots, 77–79
+- x.1975-11-20.alleged-assassination-plots-141 | x.1975-11-20.alleged-assassination-plots-14-15 (0.97)
+  - Alleged Assassination Plots, 141
+  - Alleged Assassination Plots, 14–15
+- x.1975-11-20.alleged-assassination-plots-141 | x.1975-11-20.alleged-assassination-plots-183-87 (0.89)
+  - Alleged Assassination Plots, 141
+  - Alleged Assassination Plots, 183–87
+- x.1975-11-20.alleged-assassination-plots-141 | x.1975-11-20.alleged-assassination-plots-74 (0.95)
+  - Alleged Assassination Plots, 141
+  - Alleged Assassination Plots, 74
+- x.1975-11-20.alleged-assassination-plots-141 | x.1975-11-20.alleged-assassination-plots-76 (0.92)
+  - Alleged Assassination Plots, 141
+  - Alleged Assassination Plots, 76
+- x.1975-11-20.alleged-assassination-plots-141 | x.1975-11-20.alleged-assassination-plots-77-79 (0.88)
+  - Alleged Assassination Plots, 141
+  - Alleged Assassination Plots, 77–79
+- x.1975-11-20.alleged-assassination-plots-74 | x.1975-11-20.alleged-assassination-plots-183-87 (0.91)
+  - Alleged Assassination Plots, 74
+  - Alleged Assassination Plots, 183–87
+- x.1975-11-20.alleged-assassination-plots-74 | x.1975-11-20.alleged-assassination-plots-76 (0.97)
+  - Alleged Assassination Plots, 74
+  - Alleged Assassination Plots, 76
+- x.1975-11-20.alleged-assassination-plots-74 | x.1975-11-20.alleged-assassination-plots-77-79 (0.92)
+  - Alleged Assassination Plots, 74
+  - Alleged Assassination Plots, 77–79
+- x.1975-11-20.alleged-assassination-plots-76 | x.1975-11-20.alleged-assassination-plots-183-87 (0.91)
+  - Alleged Assassination Plots, 76
+  - Alleged Assassination Plots, 183–87
+- x.1975-11-20.alleged-assassination-plots-76 | x.1975-11-20.alleged-assassination-plots-77-79 (0.92)
+  - Alleged Assassination Plots, 76
+  - Alleged Assassination Plots, 77–79
+- x.1975-11-20.alleged-assassination-plots-77-79 | x.1975-11-20.alleged-assassination-plots-183-87 (0.87)
+  - Alleged Assassination Plots, 77–79
+  - Alleged Assassination Plots, 183–87
+- x.1976.church-committee-final-report-bk-iii-3 | x.1976.church-committee-final-report-bk-iii-6 (0.92)
+  - Church committee, Final Report, bk. III, 88
+  - Church committee, Final Report, bk. III, 163-168
+- x.1976.senate-select-comm-to-study-governmental | x.1976.senate-select-comm-to-study-governmental-2 (0.98)
+  - Senate Select Comm. to Study Governmental Operations with Respect to Intelligence Activities, *Final Report*, Book II, 229
+  - Senate Select Comm. to Study Governmental Operations with Respect to Intelligence Activities, *Final Report*, Book III, 489
+- x.1976-03-31.robert-g-murphy-martin-luther-king | x.1976-03-31.robert-g-murphy-martin-luther-king-2 (0.98)
+  - Robert G. Murphy, "Martin Luther King, Jr.," report to J. Stanley Pottinger, Mar. 31, 1976, 44-45
+  - Robert G. Murphy, "Martin Luther King, Jr.," report to J. Stanley Pottinger, Mar. 31, 1976, 46-47
+- x.1976-03-31.robert-g-murphy-martin-luther-king | x.1976-03-31.robert-g-murphy-martin-luther-king-3 (0.97)
+  - Robert G. Murphy, "Martin Luther King, Jr.," report to J. Stanley Pottinger, Mar. 31, 1976, 44-45
+  - Robert G. Murphy, "Martin Luther King, Jr.," report to J. Stanley Pottinger, Mar. 31, 1976, 43
+- x.1976-03-31.robert-g-murphy-martin-luther-king-2 | x.1976-03-31.robert-g-murphy-martin-luther-king-3 (0.97)
+  - Robert G. Murphy, "Martin Luther King, Jr.," report to J. Stanley Pottinger, Mar. 31, 1976, 46-47
+  - Robert G. Murphy, "Martin Luther King, Jr.," report to J. Stanley Pottinger, Mar. 31, 1976, 43
+- x.1983-11-30.interviews-sargent-shriver-nov-30-1983 | x.1983-11-30.interviews-sargent-shriver-nov-30-1983-2 (0.86)
+  - interviews: Sargent Shriver, Nov. 30, 1983 (Branch; the note's "Ibid.")
+  - interviews: Sargent Shriver, Nov. 30, 1983 (Branch)
+- x.1984-06-26.interviews-harris-wofford-june-26-1984 | x.1984-06-26.interviews-harris-wofford-june-26-1984-2 (0.89)
+  - interviews: Harris Wofford, June 26, 1984 (Branch)
+  - interviews: Harris Wofford, June 26, 1984, Apr. 5, 1985 (Branch)
+- x.1984-06-26.interviews-harris-wofford-june-26-1984-2 | x.1984-06-26.interviews-harris-wofford-june-26-1984-3 (0.88)
+  - interviews: Harris Wofford, June 26, 1984, Apr. 5, 1985 (Branch)
+  - interviews: Harris Wofford, June 26, 1984, Apr. 5, 1985 (Branch; the note's "Ibid.")
+- x.1986-01-23.interviews-charles-sherrod-jan-23-1986 | x.1986-01-23.interviews-charles-sherrod-jan-23-1986-2 (0.86)
+  - interviews: Charles Sherrod, Jan. 23, 1986; Charles Jones, Nov. 23, 1986 (Branch)
+  - interviews: Charles Sherrod, Jan. 23, 1986; McCree Harris, Jan. 24, 1986 (Branch)
+- x.1990.andrei-sakharov-memoirs-1990-pp-205 | x.1990.andrei-sakharov-memoirs-1990-pp-216 (0.95)
+  - Andrei Sakharov, Memoirs (1990), pp. 205–17
+  - Andrei Sakharov, Memoirs (1990), pp. 216–17
+- x.1994.na-krayu-propasti-1994-p-61 | x.1994.na-krayu-propasti-1994 (0.90)
+  - Na Krayu Propasti (1994), p. 61
+  - Na Krayu Propasti (1994)
+- x.1994.na-krayu-propasti-1994-p-61 | x.1994.na-krayu-propasti-1994-p-61-2 (0.92)
+  - Na Krayu Propasti (1994), p. 61
+  - Na Krayu Propasti (1994), p. 61 (ibid.)
+- x.1994-02-16.interview-with-aleksandr-alekseev-feb-16 | x.1994-02-16.interview-with-aleksandr-alekseev-feb-16-2 (0.95)
+  - Interview with Aleksandr Alekseev, Feb. 16, 1994
+  - Interview with Aleksandr Alekseev, Feb. 16, 1994 (ibid.)
+- x.1997-09-10.mcgovern-interview-by-mann-sept-10 | x.1997-09-10.mcgovern-interview-by-mann-sept-10-2 (0.94)
+  - McGovern, interview by Mann, Sept. 10, 1997
+  - McGovern, interview by Mann, Sept. 10, 1997 (ibid.)

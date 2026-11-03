@@ -102,13 +102,18 @@ w.dallek-flawed-giant 70 n.36: B, E', '<a link's address>: all']}`), written by 
 mechanical map to start from, `./bib claims stats` the count. The STYLE: `tools/bib/claims.py`.
 
 What the works rest on (the same day: the agents to log "the materials and records cited for the claims in the
-secondary sources they read", and "identify the ABCD fact, claim, or quotation it sources, along with the entry"): a
-reading run that cites a work's page for an entry describes each record the work's note gives for it once, in
-`sources/cited-records/<card>.yaml` (the schema: `tools/bib/cited_records.py`; check [cited-records]), and ties it to
-the units it grounds by a `via` row of the entry's map (`via w.dallek-flawed-giant 70 n.36: B, E`); several records
-under one note for one passage, each its row, the same letters. The unread record joins "To check:" with the work it
-comes from ("To check: Bundy to Johnson, Feb. 7, 1965, NSF, LBJ Library (cited by [[w.dallek-flawed-giant]], 251
-n.14).").
+secondary sources they read"; Oct. 30: "a trace/map of *all* the *ultimate*, or *root*, materials that bear on a fact or
+event"; "Don't drop the first rule"): the witness registry, `sources/witnesses/<year>.yaml` (a row a witness: a
+document, recording, transcript, print, statement, study, memoir; its upstream edges and, at a root, why it ends) and
+`sources/witnesses/by-work/<card>.yaml` (a work's edges, page and note to the witness its text rests on); schema, STYLE
+and check [witnesses]: `tools/bib/witnesses.py`; the memo, `notes/extensions/memos/witnesses.md`; the readers' rules,
+`notes/briefs/reader.md`, R35-R43. A `via` row of the entry's map ties a witness to the units it grounds (`via
+x.1965-02-07.bundy-to-johnson: B, E`, or through the work's edge, `via w.dallek-flawed-giant 70 n.36: B, E`); `./bib
+stemma ID` prints each unit's tree to its roots, counting roots and agents, never works; `--leads` the open branches.
+The unread record joins "To check:" with the work it comes from ("To check: Bundy to Johnson, Feb. 7, 1965, NSF, LBJ
+Library (cited by [[w.dallek-flawed-giant]], 251 n.14)."). Converted Nov. 3, 2026 from `sources/cited-records/` (the
+rule of Oct. 28, now on the shelf: `tools/witnesses/convert_records.py`, once); witnesses that are one FRUS document
+joined by `tools/witnesses/join_frus.py` (rerunnable); the near matches left for a reader, `notes/witnesses-near-matches.md`.
 
 Calendar entries on the States and the cities take hidden `state:<postal code>` and `city:<slug>` tags (`state:ny`,
 `city:nyc`) and the threads in `notes/threads.md` ("The States and the cities").
@@ -183,8 +188,8 @@ elections/primaries.yaml  Senate primaries from CQ's *Guide*, by race (kept by h
 elections/conventions.yaml  the national conventions: each delegation's votes, how chosen, the roll calls (kept by hand)
 sources/jacobson/         Gary C. Jacobson's district file, 1946-2014, and its codebook (CC0; its README); held against the
                           returns by tools/elections/jacobson.py (notes/jacobson-compare.md, generated)
-sources/cited-records/    the records each secondary work cites for the calendar's claims, described once, a file a work
-                          (kept by agent); the claims each grounds are `via` rows of the entries' maps (tools/bib/claims.py)
+sources/witnesses/        the witness registry: what each claim rests on, to its roots, a file a year, and by-work/, each
+                          work's edges (kept by agent; tools/bib/witnesses.py)
 notes/extensions/         proposals and shelved drafts: memos/ (the research memos before a part was built), shelf/ (drafts
                           set aside, code and data, not read by check or build), README.md (the index, by hand)
 notes/leads.md            leads to check later: events, figures and sources the drafting agents could not place

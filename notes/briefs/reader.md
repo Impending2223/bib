@@ -302,26 +302,32 @@ changes. Read the footnotes `./bib claims show ID --inline` makes of your map, i
 
 ## E. What the sources rest on
 
-Two forms. **R35 is in force now.** R36–R43 replace it once the registry of witnesses is built (queued for Nov. 2,
-2026; `notes/extensions/memos/witnesses.md`); until then they are not in force.
+R35-R43 are in force from Nov. 3, 2026: the registry is built (`tools/bib/witnesses.py`; the memo,
+`notes/extensions/memos/witnesses.md`). The rule of Oct. 28 (`sources/cited-records/`) is retired: its 8,198 records
+were converted that day into 7,509 witnesses and the works' edges, its files and module on the shelf
+(`notes/extensions/shelf/`).
 
-**R35. The records the notes cite (now).** For each page you cite for an entry, each record the work's note gives for
-that passage (a document, recording, interview, file) is described once in `sources/cited-records/<card without
-w.>.yaml` (schema and check: `tools/bib/cited_records.py`, [cited-records]): `record`, `kind`, `date`, `where`,
-`cited_by` (page and note), `found` (a copy the series holds), `read`. It is tied to the units it grounds by a `via`
-row of the entry's map (`via w.card 70 n.36: B, E`); several records under one note for one passage, each its row, the
-same letters. A record the series holds (the daybook's FRUS, the Public Papers, the recordings, the Diary): read it;
-if it bears out its units, cite it first in `n` as the primary record, with its own row, `read: true`. An unread one
-joins "To check:" with the work it comes from ("To check: Bundy to Johnson, Feb. 7, 1965, NSF, LBJ Library (cited by
-[[w.dallek-flawed-giant]], 251 n.14)."). Only what the note gives: no record inferred from the text. A work with no
-notes: say so in the book-check file. Studies, memoirs and documentary collections the note cites are logged too (the
-rule of R37), as records of kind `other` with their pages, until the registry takes them.
+**R35. The registry.** For each page you cite for an entry, each witness the work's note gives for that passage (a
+document, recording, interview, file; and the study, memoir or documentary collection it cites, R37) is a row of
+`sources/witnesses/<year of its date>.yaml` (`undated.yaml` without one): `id` (`x.<date>.<slug>`, permanent), `what`
+(as the note gives it), `kind`, `date`, `where`, `agent`, `made`, `form`, `from` (its upstream edges), `open` (why a
+root ends: closed archive, not found, not held, none known), `copies` (a copy the series holds: the daybook's FRUS
+document, the Papers' item, the recording), `read`; schema and check: `tools/bib/witnesses.py`, [witnesses]. The work's
+edge to it is a row of `sources/witnesses/by-work/<card without w.>.yaml`: `{at: '251 n.14', of: x.…, kind:
+citation}`. Look first (grep the year's file by date and words; a FRUS document by its `copies`): a witness already
+there takes your edge, never a second row. The map ties it to its units by a `via` row: `via
+x.1965-02-07.bundy-to-johnson: B, E`, or as before, `via w.dallek-flawed-giant 251 n.14: B, E` (the work's edge at that
+note leads to it). `./bib stemma ID [--unit B]` prints each unit's tree to its roots, `./bib stemma --leads` the open
+branches. A witness the series holds: read it; if it bears out its units, cite it first in `n` as the primary record,
+`read: true`. An unread one joins "To check:" with the work it comes from ("To check: Bundy to Johnson, Feb. 7, 1965,
+NSF, LBJ Library (cited by [[w.dallek-flawed-giant]], 251 n.14)."). A work with no notes: say so in the book-check file.
+You write the registry's files directly; one witness's row is one reader's at a time (look again before writing).
 
-**R36. Witnesses (from the registry).** A witness is anything that bears on a claim: a document, a recording, a
+**R36. Witnesses.** A witness is anything that bears on a claim: a document, a recording, a
 transcript; a print, edition or translation of any of them; a statement, a press account, a hearing; a study, a
 memoir, an oral history, an interview; a person's testimony. Works are witnesses (their cards); a documentary
 collection (FRUS, JMZW, *Current Documents*) is the print of each document it prints. The registry:
-`sources/witnesses/` (its schema and check, when built: the memo, §4).
+`sources/witnesses/` (R35).
 
 **R37. Edges and roots.** Each witness is tied to what it derives from, and how: copy, print, edition, transcription,
 translation, quotation, citation, recollection, report. A root has nothing identifiable and recoverable upstream, for

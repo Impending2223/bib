@@ -330,10 +330,13 @@ def run(series, only=None):
     from . import state_law
     for where, msg in state_law.problems():
         add(ERROR, where, msg, "state-law")
-    # the records the secondary works cite, and what for (sources/cited-records/; tools/bib/cited_records.py)
-    from . import cited_records
-    for where, msg in cited_records.problems(series):
-        add(ERROR, where, msg, "cited-records")
+    # the witnesses: what each claim rests on, to its roots (sources/witnesses/; tools/bib/witnesses.py)
+    from . import witnesses
+    werrs, wwarns = witnesses.problems(series)
+    for where, msg in werrs:
+        add(ERROR, where, msg, "witnesses")
+    for where, msg in wwarns:
+        add(WARN, where, msg, "witnesses")
     # each calendar entry's claims and the sources for each (src; tools/bib/claims.py)
     from . import claims
     errs, warns = claims.problems(series)

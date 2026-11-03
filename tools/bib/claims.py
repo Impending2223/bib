@@ -16,7 +16,7 @@ or a reader's, stored in the entry as `src` (hidden; tools/bib/store.py keeps it
       - 'https://www.govinfo.gov/...#page=59: all'          # a link the note (or `c`) prints
       - 'w.dallek-flawed-giant 70: A, C-E'                  # a work read, at that page, for those units
       - 'w.caro-passage-of-power 492: A'
-      - 'via w.dallek-flawed-giant 70 n.36: B, E'           # a record the work's note gives (sources/cited-records/)
+      - 'via w.dallek-flawed-giant 70 n.36: B, E'           # a witness the work's note gives (sources/witnesses/)
       - '"Pearson''s column": all'                          # an item of the note without a link, by its first words
 
 STYLE
@@ -123,6 +123,9 @@ def parse_row(row):
     if not m:
         return None
     src, spec = m.group("src"), m.group("units")
+    x = re.match(r"^via (x\.\S+)$", src)                 # a witness of the registry (tools/bib/witnesses.py)
+    if x:
+        return ("witness", x.group(1), None, None, spec)
     v = re.match(r"^via (w\.\S+) ((?:[IVXL]+, )?\S+) n\.(\S+)$", src)   # a part or volume before the page: "IV, 118"
     if v:
         return ("via", v.group(1), v.group(2), v.group(3), spec)
@@ -242,6 +245,10 @@ def resolve(e, cards=None):
             if fit:
                 out.append((r, kind, key, pin, note, u, fit[0]))
                 continue
+        if kind == "witness":                 # reached through the note's works (witnesses.problems holds it)
+            item = next((v for (k, kk), v in by.items() if k == "card"), None) or next(iter(by.values()), None)
+            out.append((r, kind, key, pin, note, u, item))
+            continue
         item = by.get(("card", key)) if kind in ("card", "via") else by.get((kind, key)) if kind == "url" else \
             next((v for (k, kk), v in by.items() if k == "text" and kk.startswith(key[:30])), None)
         if kind == "url" and item is None:
@@ -294,7 +301,7 @@ def problems(series):
                 errors.append((e["id"], f"src row names nothing the note prints: {r!r}"))
                 continue
             if kind == "via" and (key, str(pin), str(note)) not in reg:
-                errors.append((e["id"], f"src row names a record sources/cited-records/ does not hold: {r!r}"))
+                errors.append((e["id"], f"src row names a record sources/witnesses/ does not hold at that note: {r!r}"))
             if kind == "card" and series.works.get(key) is None:
                 errors.append((e["id"], f"src row names no card: {key}"))
             if kind in ("card", "via") and pin:
@@ -358,22 +365,19 @@ def _render_row(series, e, kind, key, pin, note, item, register):
         rec = register.get((key, str(pin), str(note)))
         what = f"{rec.get('record')}, {rec.get('where')}" if rec else "a record"
         return f"{short_form(key, series.works)}, {pin} n.{note} (citing {what})"
+    if kind == "witness":
+        from . import witnesses
+        w = witnesses.load()[0].get(key)
+        return f"{w.get('what')}, {w.get('where')}" if w and w.get("where") else (w or {}).get("what") or key
     if kind == "url":
         return item or key
     return item or key
 
 
 def register(series):
-    """{(card, page, note): record} from sources/cited-records/ (tools/bib/cited_records.py)."""
-    from . import cited_records
-    import os
-    out = {}
-    for path in cited_records.files():
-        card = "w." + os.path.basename(path)[:-5]
-        for r in cited_records.load(path) or []:
-            cb = (r or {}).get("cited_by") or {}
-            out[(card, str(cb.get("page")), str(cb.get("note")))] = r
-    return out
+    """{(card, page, note): witness} through the works' edges in sources/witnesses/ (tools/bib/witnesses.py)."""
+    from . import witnesses
+    return witnesses.register(series)
 
 
 def verbose(series, e, inline=False):
