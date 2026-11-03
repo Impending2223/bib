@@ -43,6 +43,19 @@ entries:
     c: The California Legislature in special session, on Brown's proclamation. His message asks it to abolish the death penalty.
     n: '[*Journal of the Senate*, 1960 Second Extraordinary Session, 2–6](https://archive.org/details/jour1960cali/page/n833) (the proclamation and message). See [[cal.1960-02-19.crime-and-hijacking-ca]]. Names: Brown.'
     tags: [state:ca, name:brown-edmund-g]
+  - id: cal.1960-03-02.alabama
+    when: Mar. 2
+    date: '1960-03-02'
+    thread: alabama
+    also: [sit-ins]
+    c: Montgomery. The State Board of Education, on the recommendation of Patterson, its chairman, expels nine Alabama State College students as "ring leaders" of the sit-in of Feb. 25 and the demonstrations after, Bernard Lee among them; twenty put on probation. No charges, no hearing.
+    n: '*Dixon v. Alabama State Board of Education*, [294 F.2d 150](https://static.case.law/f2d/294/case-pdfs/0150-01.pdf), 154 (5th Cir. 1961), quoting the district court''s findings. [[w.branch-parting-the-waters]], 282 (the nine, Lee). See [[cal.1960-02-25.sit-ins]]. Names: Patterson.'
+    src:
+      c: 65ec5e66
+      rows:
+        - 'https://static.case.law/f2d/294/case-pdfs/0150-01.pdf: all'
+        - 'w.branch-parting-the-waters 282: B'
+    tags: [name:patterson-john]
   - id: cal.1960-03-04.cuba
     when: Mar. 4–5
     date: '1960-03-04'
@@ -123,7 +136,27 @@ entries:
     date: '1960-03-09'
     thread: sit-ins
     c: Atlanta's college students publish "An Appeal for Human Rights" in the city's papers.
-    n: Committee on Appeal for Human Rights, ["An Appeal for Human Rights"](https://www.crmvet.org/docs/aa4hr.htm) (Mar. 9, 1960). See [[cal.1960-02-01.sit-ins]].
+    n: 'Committee on Appeal for Human Rights, ["An Appeal for Human Rights"](https://www.crmvet.org/docs/aa4hr.htm) (Mar. 9, 1960). [[w.branch-parting-the-waters]], 278, 286. To check: Atlanta Daily World, Mar. 9, 1960 (also the Atlanta Constitution, the Atlanta Journal, the New York Times) (cited by [[w.branch-parting-the-waters]], 286 n.7). See [[cal.1960-02-01.sit-ins]].'
+    src:
+      c: 74d1ec1a
+      rows:
+        - 'https://www.crmvet.org/docs/aa4hr.htm: all'
+        - 'w.branch-parting-the-waters 278: A'
+        - 'w.branch-parting-the-waters 286: A'
+        - 'via w.branch-parting-the-waters 286 n.7: A'
+  - id: cal.1960-03-09.king
+    when: Mar. 9
+    date: '1960-03-09'
+    thread: king
+    also: [alabama]
+    c: 'King to Eisenhower by telegram: a "reign of terror" in Montgomery.'
+    n: '[[w.branch-parting-the-waters]], 286. To check: King to Eisenhower, Mar. 9, 1960, Martin Luther King, Jr., Papers, box 1, folder 38, Boston University (cited by [[w.branch-parting-the-waters]], 286 n.6). See [[cal.1960-02-25.sit-ins]]. Names: Martin Luther King, Eisenhower.'
+    src:
+      c: 3d138ca1
+      rows:
+        - 'w.branch-parting-the-waters 286: all'
+        - 'via w.branch-parting-the-waters 286 n.6: all'
+    tags: [name:king-martin-luther-jr, name:eisenhower-dwight-d]
   - id: cal.1960-03-10.crime-and-hijacking-chessman
     when: Mar. 10
     date: '1960-03-10'
@@ -172,7 +205,13 @@ entries:
     date: '1960-03-15'
     thread: sit-ins
     c: 'Atlanta''s students sit in at public cafeterias; arrests. Orangeburg, S.C.: students of Claflin and South Carolina State march from the campuses; fire hoses and tear gas; nearly four hundred arrested, many held in an open stockade.'
-    n: Check the count of arrests. See [[cal.1960-03-09.sit-ins]].
+    n: 'Check the count of arrests. [[w.branch-parting-the-waters]], 283, 286. To check: Atlanta Daily World, Mar. 16, 1960, 1 (cited by [[w.branch-parting-the-waters]], 286 n.8). See [[cal.1960-03-09.sit-ins]]. Check: Branch, 283, puts the Orangeburg march on the day of the Montgomery students'' prayer service at the Capitol, Mar. 1, and counts 388 arrested.'
+    src:
+      c: 7749b5de
+      rows:
+        - 'w.branch-parting-the-waters 286: A-B'
+        - 'w.branch-parting-the-waters 283: C-E'
+        - 'via w.branch-parting-the-waters 286 n.8: A-B'
   - id: cal.1960-03-15.legislatures
     when: Mar. 15
     date: '1960-03-15'
@@ -338,7 +377,15 @@ entries:
     thread: king
     also: [press-and-broadcasting]
     c: '*New York Times*, a full page: "Heed Their Rising Voices," from the Committee to Defend Martin Luther King and the Struggle for Freedom in the South. The students'' protests, Montgomery''s police, King''s arrests. Some details wrong.'
-    n: '*New York Times*, Mar. 29, 1960, p. 25. The suit: *New York Times Co. v. Sullivan*, [376 U.S. 254](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376254/usrep376254.pdf) (1964). To check: [[w.lewis-make-no-law]]; [[w.branch-parting-the-waters]]. Names: Martin Luther King.'
+    n: '*New York Times*, Mar. 29, 1960, p. 25. The suit: *New York Times Co. v. Sullivan*, [376 U.S. 254](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376254/usrep376254.pdf) (1964). [[w.branch-parting-the-waters]], 288–89. To check: [[w.lewis-make-no-law]]; Committee to Defend Martin Luther King, "Statement on the Indictment of Martin Luther King, Jr.," Mar. 3, 1960; minutes of its board, Mar. 7, 21, 28, Apr. 4, 1960; Levison to Randolph, Sept. 2, 1960, A. Philip Randolph Papers, box 23, Library of Congress (cited by [[w.branch-parting-the-waters]], 288 n.2). Names: Martin Luther King.'
+    src:
+      c: 210c4bfd
+      rows:
+        - 'https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376254/usrep376254.pdf: all'
+        - 'w.branch-parting-the-waters 288–89: all'
+        - 'via w.branch-parting-the-waters 288 n.2: A'
+        - 'via w.branch-parting-the-waters 288 n.3: A-B'
+        - 'via w.branch-parting-the-waters 289 n.3: C'
     tags: [name:king-martin-luther-jr]
   - id: cal.1960-03-30.africa
     when: Mar. 30

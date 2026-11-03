@@ -106,13 +106,15 @@ entries:
     thread: elections-1960
     also: [king]
     c: 'New York. King and Randolph announce "massive nonviolent picketing" of both national conventions, the "March on the Conventions Movement for Freedom Now." The Civil Rights Act of 1960 "does not meet the needs of abolishing second-class citizenship." Randolph: "more than 5,000" at each convention.'
-    n: '[[w.garrow-bearing-the-cross]], 138. To check: [[w.branch-parting-the-waters]]; King and Randolph, "Statement," June 9, 1960, A. Philip Randolph Papers, Library of Congress; New York Times, June 10, 1960, 18; New York Herald Tribune, June 10, 1960, 5 (cited by [[w.garrow-bearing-the-cross]], 138 n.9). Names: Martin Luther King, Randolph.'
+    n: '[[w.garrow-bearing-the-cross]], 138. [[w.branch-parting-the-waters]], 313, 316 (the plan to picket the conventions; not the announcement). To check: King and Randolph, "Statement," June 9, 1960, A. Philip Randolph Papers, Library of Congress; New York Times, June 10, 1960, 18; New York Herald Tribune, June 10, 1960, 5 (cited by [[w.garrow-bearing-the-cross]], 138 n.9). Names: Martin Luther King, Randolph.'
     src:
       c: ebcbf0e8
       rows:
         - 'w.garrow-bearing-the-cross 138: all'
         - 'via w.garrow-bearing-the-cross 138 n.9a: B-D'
         - 'via w.garrow-bearing-the-cross 138 n.9b: all'
+        - 'w.branch-parting-the-waters 313: B'
+        - 'w.branch-parting-the-waters 316: B'
     tags: [name:king-martin-luther-jr, name:randolph-a-philip]
   - id: cal.1960-06-09.elections-1960-2
     when: June 9
@@ -317,7 +319,7 @@ entries:
     thread: elections-1960
     also: [king]
     c: 'New York. Kennedy and King meet for the first time, on Belafonte''s advice to Kennedy. Kennedy: he has come to understand the moral force of the movement. King leaves more impressed.'
-    n: 'King to Bowles, [June 24, 1960](https://kinginstitute.stanford.edu/king-papers/documents/chester-bowles-1) (King Papers Project; its note for the first meeting): "a very fruitful and rewarding conversation," an hour and a half over the breakfast table. [[w.kallina-kennedy-v-nixon]], 139. [[w.garrow-bearing-the-cross]], 138–39 (the meeting; King''s impression). To check: [[w.branch-parting-the-waters]], 314; [[w.bryant-bystander]], 133; New York Times, June 25, 1960, 13 (cited by [[w.garrow-bearing-the-cross]], 139 n.10). Names: Kennedy, Martin Luther King.'
+    n: 'King to Bowles, [June 24, 1960](https://kinginstitute.stanford.edu/king-papers/documents/chester-bowles-1) (King Papers Project; its note for the first meeting): "a very fruitful and rewarding conversation," an hour and a half over the breakfast table. [[w.kallina-kennedy-v-nixon]], 139. [[w.garrow-bearing-the-cross]], 138–39 (the meeting; King''s impression). [[w.branch-parting-the-waters]], 307, 314 (the meeting; Belafonte''s advice). To check: [[w.bryant-bystander]], 133; New York Times, June 25, 1960, 13 (cited by [[w.garrow-bearing-the-cross]], 139 n.10); New York Times, June 25, 1960, 13 (cited by [[w.branch-parting-the-waters]], 314 n.1). Names: Kennedy, Martin Luther King. Check: Branch, 314, has the breakfast at Joseph Kennedy''s apartment a hurried introduction, Kennedy telling Wofford he had "made some progress," King that Kennedy lacked a "depthed understanding" of civil rights.'
     src:
       c: f5fdc40e
       rows:
@@ -327,6 +329,9 @@ entries:
         - 'via w.garrow-bearing-the-cross 139 n.10a: A, D'
         - 'via w.garrow-bearing-the-cross 139 n.10b: D'
         - 'via w.garrow-bearing-the-cross 139 n.10c: A'
+        - 'w.branch-parting-the-waters 314: A-B'
+        - 'w.branch-parting-the-waters 307: B'
+        - 'via w.branch-parting-the-waters 314 n.1: A-B'
     tags: [name:kennedy-john-f, name:king-martin-luther-jr, city:nyc]
   - id: cal.1960-06-24.latin-america
     when: June 24
@@ -558,3 +563,18 @@ entries:
         - 'via w.gifford-center-cannot-hold 75 n.57a: all'
         - 'via w.gifford-center-cannot-hold 75 n.57b: all'
     tags: [name:rockefeller-nelson, state:ny, city:buffalo]
+  - id: cal.1960-06.congress-powell
+    when: June
+    date: 1960-06
+    thread: congress-powell
+    also: [king, elections-1960]
+    c: 'King at the Baptist World Alliance in Rio de Janeiro. An emissary of Powell''s: unless King calls off the picketing of the Democratic convention, Powell will tell the press King is having a homosexual affair with Rustin. On Randolph''s instruction, Rustin telephones King that Randolph will go ahead, and if King pulls out will say it was at Powell''s request. King flies on to Los Angeles. By Rustin''s account.'
+    n: '[[w.branch-parting-the-waters]], 314–16. Check: the day; Branch dates it only by King''s stay in Rio, after the breakfast of June 23. See [[cal.1960-06-09.elections-1960]]. Names: Martin Luther King, Powell, Rustin, Randolph.'
+    src:
+      c: c14011fc
+      rows:
+        - 'w.branch-parting-the-waters 314–16: all'
+        - 'via w.branch-parting-the-waters 314 n.3a: all'
+        - 'via w.branch-parting-the-waters 314 n.3b: all'
+        - 'via w.branch-parting-the-waters 314 n.4: B'
+    tags: [name:king-martin-luther-jr, name:powell-adam-clayton-jr, name:rustin-bayard, name:randolph-a-philip]

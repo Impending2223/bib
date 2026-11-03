@@ -32,25 +32,6 @@ ops:
         - 'via w.branch-parting-the-waters 273 n.5: A'
         - 'via w.branch-parting-the-waters 274 n.3: D'
 - edit:
-    id: cal.1960-02-17.king
-    base: 29d6ab5d
-    set:
-      n: '[[w.lewis-make-no-law]], on the advertisement for his defense. [[w.garrow-bearing-the-cross]], 129–30. [[w.branch-parting-the-waters]],
-        276–77. To check: Atlanta Constitution, Feb. 18, 1960, 1; Feb. 19, 1960, 9; Montgomery Advertiser, Feb. 18, 1960,
-        A1; New York Times, Feb. 18, 1960, 14 (cited by [[w.garrow-bearing-the-cross]], 130 n.3); Atlanta Daily World, Feb.
-        18, 1960, 1 (cited by [[w.branch-parting-the-waters]], 276 n.4). Names: Martin Luther King.'
-      src:
-        c: 84a31767
-        rows:
-        - 'w.lewis-make-no-law on the advertisement for his defense: all'
-        - 'w.garrow-bearing-the-cross 129–30: all'
-        - 'via w.garrow-bearing-the-cross 130 n.3a: all'
-        - 'via w.garrow-bearing-the-cross 130 n.3b: all'
-        - 'via w.garrow-bearing-the-cross 130 n.3c: all'
-        - 'via w.garrow-bearing-the-cross 130 n.3d: all'
-        - 'w.branch-parting-the-waters 276–77: all'
-        - 'via w.branch-parting-the-waters 276 n.4: A-B'
-- edit:
     id: cal.1960-02-25.sit-ins
     base: 9562f001
     set:
@@ -299,41 +280,6 @@ ops:
         - 'w.kallina-kennedy-v-nixon 147: all'
         - 'w.branch-parting-the-waters 341: B'
         - 'w.branch-parting-the-waters 344: B'
-- edit:
-    id: cal.1960-10-19.king
-    base: 5ef77ff3
-    set:
-      n: '[[w.kruse-white-flight]], on the Atlanta sit-ins; [[w.schlesinger-robert-kennedy-and-his]], 216 (the arrest at a
-        department store; DeKalb County). [[w.garrow-bearing-the-cross]], 143–48. [[w.branch-parting-the-waters]], 351–57.
-        To check: [[w.levingston-kennedy-and-king]]; [[w.wofford-of-kennedys-and-kings]]; [[w.king-daddy-king]]; [[w.bryant-bystander]];
-        [[w.stern-calculating-visions]]; [[w.brauer-john-f-kennedy-and]]; [[w.thomas-robert-kennedy]]; [[w.white-making-of-the-president]];
-        M. D. Jackson to Roy Wilkins, Oct. 19, 1960, Roy Wilkins Papers, box 6, Library of Congress; Atlanta Constitution,
-        Oct. 20, 1960, 1; Oct. 21, 1960, 1, 10, 12; Oct. 22, 24, 25, 1960; New York Times, Oct. 20, 1960, 39; Oct. 21, 1960,
-        27; Oct. 23, 1960, 77; Oct. 25, 1960, 31; Atlanta Journal, Oct. 20, 1960; William B. Hartsfield to Paul Tillet, Apr.
-        7, 1964, William B. Hartsfield Papers, box 30, folder 1, Emory University (cited by [[w.garrow-bearing-the-cross]],
-        145 n.16); Atlanta Daily World, Oct. 20, 1960, 1 (cited by [[w.branch-parting-the-waters]], 351 n.1); Atlanta Daily
-        World, Oct. 23, 1960, 4 (cited by [[w.branch-parting-the-waters]], 356 n.1); New York Times, Oct. 25, 1960, 31 (cited
-        by [[w.branch-parting-the-waters]], 356 n.4). Check: Garrow, 144–45, has the truce Saturday, Oct. 22, and the students
-        freed Sunday, Oct. 23. Names: Martin Luther King, Hartsfield. Check: Branch, 355–57, has the truce Saturday, Oct.
-        22, the city''s prisoners freed that night, the county''s Monday morning, Oct. 24.'
-      src:
-        c: 12f95b33
-        rows:
-        - 'w.kruse-white-flight on the Atlanta sit-ins: all'
-        - 'w.schlesinger-robert-kennedy-and-his 216: B, F'
-        - 'w.garrow-bearing-the-cross 143–45: all'
-        - 'via w.garrow-bearing-the-cross 145 n.16a: A-C'
-        - 'via w.garrow-bearing-the-cross 145 n.16b: all'
-        - 'via w.garrow-bearing-the-cross 145 n.16c: all'
-        - 'via w.garrow-bearing-the-cross 145 n.16d: A-C'
-        - 'via w.garrow-bearing-the-cross 145 n.16e: D-E'
-        - 'via w.garrow-bearing-the-cross 145 n.16f: all'
-        - 'w.branch-parting-the-waters 351: A-C'
-        - 'w.branch-parting-the-waters 353–56: D-E'
-        - 'w.branch-parting-the-waters 356–57: F'
-        - 'via w.branch-parting-the-waters 351 n.1: C'
-        - 'via w.branch-parting-the-waters 356 n.1: D'
-        - 'via w.branch-parting-the-waters 356 n.4: F'
 - edit:
     id: cal.1960-10-22.elections-1960
     base: aff6978a
@@ -2474,3 +2420,34 @@ ops:
         c: 5f5db41a
         rows:
         - 'w.branch-parting-the-waters 555: all'
+- cite:
+    id: cal.1960-02-17.king
+    item: '[[w.branch-parting-the-waters]], 276–77'
+    units: A-B
+- to-check:
+    id: cal.1960-02-17.king
+    add:
+    - 'Atlanta Daily World, Feb. 18, 1960, 1 (cited by [[w.branch-parting-the-waters]], 276 n.4)'
+- src:
+    id: cal.1960-02-17.king
+    rows:
+    - 'via w.branch-parting-the-waters 276 n.4: A-B'
+- cite:
+    id: cal.1960-10-19.king
+    item: '[[w.branch-parting-the-waters]], 351–57'
+    units: A-F
+- to-check:
+    id: cal.1960-10-19.king
+    add:
+    - 'Atlanta Daily World, Oct. 20, 1960, 1 (cited by [[w.branch-parting-the-waters]], 351 n.1)'
+    - 'Atlanta Daily World, Oct. 23, 1960, 4 (cited by [[w.branch-parting-the-waters]], 356 n.1)'
+    - 'New York Times, Oct. 25, 1960, 31 (cited by [[w.branch-parting-the-waters]], 356 n.4)'
+- check:
+    id: cal.1960-10-19.king
+    text: 'Check: Branch, 355–57, has the truce Saturday, Oct. 22, the city''s prisoners freed that night, the county''s Monday morning, Oct. 24.'
+- src:
+    id: cal.1960-10-19.king
+    rows:
+    - 'via w.branch-parting-the-waters 351 n.1: C'
+    - 'via w.branch-parting-the-waters 356 n.1: D'
+    - 'via w.branch-parting-the-waters 356 n.4: F'

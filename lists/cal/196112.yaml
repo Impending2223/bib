@@ -3,6 +3,20 @@
 list: cal
 section: XXV
 entries:
+  - id: cal.1961-12-01.mississippi
+    when: Dec. 1
+    date: '1961-12-01'
+    thread: mississippi
+    also: [freedom-rides, press-and-broadcasting]
+    c: McComb. Riders from New Orleans at the Greyhound station, forty FBI agents and the police present; three minutes in the waiting room. A white mob of some five hundred beats the reporters. The *New York Times*, Dec. 7, in an editorial, outraged.
+    n: '[[w.branch-parting-the-waters]], 559. To check: Time, Dec. 8, 1961, 25; Newsweek, Dec. 11, 1961, 30-31 (cited by [[w.branch-parting-the-waters]], 559 n.6); New York Times, Dec. 7, 1961, 42 (editorial) (cited by [[w.branch-parting-the-waters]], 559 n.7). See [[cal.1961-10-04.mississippi]].'
+    src:
+      c: f84287b9
+      rows:
+        - 'w.branch-parting-the-waters 559: all'
+        - 'via w.branch-parting-the-waters 559 n.6: A-B'
+        - 'via w.branch-parting-the-waters 559 n.7: C'
+    tags: [state:ms]
   - id: cal.1961-12-02.cuba
     when: Dec. 2
     date: '1961-12-02'
@@ -83,7 +97,7 @@ entries:
     date: '1961-12-10'
     thread: georgia-albany
     c: Freedom riders from Atlanta arrested at the Albany station. Marches; hundreds jailed.
-    n: '[[w.garrow-bearing-the-cross]], 179–81. To check: Albany Herald, Dec. 11, 1961, 1; Burke Marshall to J. Edgar Hoover, Dec. 14, 1961, FBI file 157-492-X; Charles Jones to James Forman, Dec. 7, 1961, SNCC Papers, box 15, King Center (cited by [[w.garrow-bearing-the-cross]], 180 n.7); Albany Herald, Dec. 12, 1961, 1; Dec. 13, 1961, 1; Atlanta Constitution, Dec. 13, 1961, 1; Dec. 14, 1961, 1; New York Times, Dec. 13, 1961, 51; Dec. 14, 1961, 47; Edward P. Morgan, ABC, Dec. 13, 1961, King Center; SNCC press release, Dec. 13, 1961, National Catholic Conference for Interracial Justice Papers, box 20, folder 17, Marquette University (cited by [[w.garrow-bearing-the-cross]], 180 n.8). See [[cal.1961-11-17.albany]].'
+    n: '[[w.garrow-bearing-the-cross]], 179–81. [[w.branch-parting-the-waters]], 533–37. To check: Albany Herald, Dec. 11, 1961, 1; Burke Marshall to J. Edgar Hoover, Dec. 14, 1961, FBI file 157-492-X; Charles Jones to James Forman, Dec. 7, 1961, SNCC Papers, box 15, King Center (cited by [[w.garrow-bearing-the-cross]], 180 n.7); Albany Herald, Dec. 12, 1961, 1; Dec. 13, 1961, 1; Atlanta Constitution, Dec. 13, 1961, 1; Dec. 14, 1961, 1; New York Times, Dec. 13, 1961, 51; Dec. 14, 1961, 47; Edward P. Morgan, ABC, Dec. 13, 1961, King Center; SNCC press release, Dec. 13, 1961, National Catholic Conference for Interracial Justice Papers, box 20, folder 17, Marquette University (cited by [[w.garrow-bearing-the-cross]], 180 n.8); New York Times, Dec. 13, 1961, 51; Atlanta Constitution, Dec. 13, 1961, 1 (cited by [[w.branch-parting-the-waters]], 536 n.1); New York Times, Dec. 14, 1961, 47 (cited by [[w.branch-parting-the-waters]], 537 n.1). See [[cal.1961-11-17.albany]].'
     src:
       c: 9854acd1
       rows:
@@ -98,6 +112,10 @@ entries:
         - 'via w.garrow-bearing-the-cross 180 n.8d: B-C'
         - 'via w.garrow-bearing-the-cross 180 n.8e: B-C'
         - 'via w.garrow-bearing-the-cross 180 n.8f: B-C'
+        - 'w.branch-parting-the-waters 533–37: all'
+        - 'via w.branch-parting-the-waters 536 n.1a: B'
+        - 'via w.branch-parting-the-waters 536 n.1b: B'
+        - 'via w.branch-parting-the-waters 537 n.1: B'
   - id: cal.1961-12-10.opinion
     when: Dec. 10
     date: '1961-12-10'
@@ -194,6 +212,19 @@ entries:
       c: 38d0e76c
       rows:
         - 'w.ball-past-has-another-pattern 234: all'
+  - id: cal.1961-12-14.georgia-albany
+    when: Dec. 14
+    date: '1961-12-14'
+    thread: georgia-albany
+    also: [georgia]
+    c: 'Mayor Kelley rides out to a Baker County plantation to find Vandiver at a bird hunt: the National Guard for Albany, and undercover revenue agents among the white groups in the outlying counties. Vandiver agrees. Kelley and Burke Marshall by telephone: no violence, no federal intervention. That night some 150 Guardsmen wait in the armory. By Kelley''s account.'
+    n: '[[w.branch-parting-the-waters]], 541–42. See [[cal.1961-12-10.albany]]. Names: Vandiver, Burke Marshall.'
+    src:
+      c: c3fbb673
+      rows:
+        - 'w.branch-parting-the-waters 541–42: all'
+        - 'via w.branch-parting-the-waters 541 n.1: all'
+    tags: [name:vandiver-s-ernest-jr, name:marshall-burke, state:ga, city:albany-ga]
   - id: cal.1961-12-15.vietnam
     when: Dec. 15
     date: '1961-12-15'
@@ -214,7 +245,7 @@ entries:
     thread: georgia-albany
     also: [king]
     c: 'King in Albany. Arrested Dec. 16; refuses bail. Dec. 18: a truce; King out.'
-    n: '[[w.garrow-bearing-the-cross]], 183–87. To check: Albany Herald, Dec. 16, 1961, 1; Dec. 17, 1961, 1; Atlanta Journal, Dec. 16, 1961, 20; Atlanta Journal-Constitution, Dec. 17, 1961; Asa Kelley to William G. Anderson, Dec. 16, 1961, Albany City Files, Albany, Ga.; SAC Atlanta to Director, Dec. 17, 1961; McGowan to Rosen, Dec. 17, 1961; Rosen to Belmont, Dec. 18, 1961, FBI file 157-6-2-225, 229, 231; Afro-American, Dec. 23, 1961, 1 (cited by [[w.garrow-bearing-the-cross]], 184 n.10); Atlanta Journal-Constitution, Dec. 17, 1961, 1; Atlanta Constitution, Dec. 18, 1961, 1; SCLC press release, "Abernathy Issues Call . . .," Dec. 17, 1961, King Center; New York Times, Dec. 18, 1961, 1; New York Herald Tribune, Dec. 18, 1961, 1; Albany Herald, Dec. 18, 1961, 1 (cited by [[w.garrow-bearing-the-cross]], 185 n.11); untitled handwritten chronology; memorandum signed "M. S. Page"; draft, "10:30 A.M., 12/18/61", Albany City Files, Albany, Ga.; "Report of Telephone Conversation Between Ruby Hurley, Vernon Jordan & Gloster Current," Dec. 18, 1961, and "Transcript . . .," 3:30 p.m., Dec. 18, 1961, NAACP Papers, Library of Congress; SAC Atlanta to Director, Dec. 19, 1961, FBI file 157-6-2-232X1 (cited by [[w.garrow-bearing-the-cross]], 186 n.12); Atlanta Journal, Dec. 18, 1961, 1; Dec. 19, 1961, 10; SAC Atlanta to Director, Dec. 18, 1961 (two), FBI file 157-6-2-219, 223; New York Times, Dec. 19, 1961, 1; Afro-American, Dec. 30, 1961, 8 (cited by [[w.garrow-bearing-the-cross]], 186 n.13). See [[cal.1961-11-17.albany]]. Names: King.'
+    n: '[[w.garrow-bearing-the-cross]], 183–87. [[w.branch-parting-the-waters]], 544–56. To check: Albany Herald, Dec. 16, 1961, 1; Dec. 17, 1961, 1; Atlanta Journal, Dec. 16, 1961, 20; Atlanta Journal-Constitution, Dec. 17, 1961; Asa Kelley to William G. Anderson, Dec. 16, 1961, Albany City Files, Albany, Ga.; SAC Atlanta to Director, Dec. 17, 1961; McGowan to Rosen, Dec. 17, 1961; Rosen to Belmont, Dec. 18, 1961, FBI file 157-6-2-225, 229, 231; Afro-American, Dec. 23, 1961, 1 (cited by [[w.garrow-bearing-the-cross]], 184 n.10); Atlanta Journal-Constitution, Dec. 17, 1961, 1; Atlanta Constitution, Dec. 18, 1961, 1; SCLC press release, "Abernathy Issues Call . . .," Dec. 17, 1961, King Center; New York Times, Dec. 18, 1961, 1; New York Herald Tribune, Dec. 18, 1961, 1; Albany Herald, Dec. 18, 1961, 1 (cited by [[w.garrow-bearing-the-cross]], 185 n.11); untitled handwritten chronology; memorandum signed "M. S. Page"; draft, "10:30 A.M., 12/18/61", Albany City Files, Albany, Ga.; "Report of Telephone Conversation Between Ruby Hurley, Vernon Jordan & Gloster Current," Dec. 18, 1961, and "Transcript . . .," 3:30 p.m., Dec. 18, 1961, NAACP Papers, Library of Congress; SAC Atlanta to Director, Dec. 19, 1961, FBI file 157-6-2-232X1 (cited by [[w.garrow-bearing-the-cross]], 186 n.12); Atlanta Journal, Dec. 18, 1961, 1; Dec. 19, 1961, 10; SAC Atlanta to Director, Dec. 18, 1961 (two), FBI file 157-6-2-219, 223; New York Times, Dec. 19, 1961, 1; Afro-American, Dec. 30, 1961, 8 (cited by [[w.garrow-bearing-the-cross]], 186 n.13); New York Times, Dec. 17, 1961, 1, 46 (cited by [[w.branch-parting-the-waters]], 548 n.1); The city''s terms, headed "10:30 a.m., December 18, 1961", City Records, Albany, Ga. (cited by [[w.branch-parting-the-waters]], 555 n.4); New York Times, Dec. 19, 1961, 1, 24 (cited by [[w.branch-parting-the-waters]], 556 n.1). See [[cal.1961-11-17.albany]]. Names: King. Check: Branch, 543, misdates the Friday "December 16"; it has King arrested Saturday, Dec. 16, and freed Monday, Dec. 18, on the city''s oral terms.'
     src:
       c: d30419dd
       rows:
@@ -236,6 +267,10 @@ entries:
         - 'via w.garrow-bearing-the-cross 186 n.13b: D-E'
         - 'via w.garrow-bearing-the-cross 186 n.13c: D-E'
         - 'via w.garrow-bearing-the-cross 186 n.13d: D-E'
+        - 'w.branch-parting-the-waters 544–56: all'
+        - 'via w.branch-parting-the-waters 548 n.1: all'
+        - 'via w.branch-parting-the-waters 555 n.4: all'
+        - 'via w.branch-parting-the-waters 556 n.1: all'
     tags: [name:king-martin-luther-jr]
   - id: cal.1961-12-16.latin-america
     when: Dec. 16–17
@@ -282,6 +317,21 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d166: all'
     tags: [name:ball-george-w, name:kennedy-john-f, name:tshombe-moise, name:adoula-cyrille, name:gullion-edmund-a]
+  - id: cal.1961-12-17.democratic-party
+    when: Dec. 17
+    date: '1961-12-17'
+    thread: democratic-party
+    also: [georgia-albany]
+    c: 'James Gray, chairman of the Georgia Democratic Party, owner of the *Albany Herald* and the town''s television station, on television: a "cell of professional agitators" whose rebellion "smacks more of Lenin and Stalin than of George Washington"; King has "learned that martyrdom can be a highly productive practice for the acquisition of a buck." Segregation "peaceful and rewarding": "What we need is tolerance, not tantrum."'
+    n: '[[w.branch-parting-the-waters]], 553–54. To check: New York Times, Dec. 18, 1961, 31 (cited by [[w.branch-parting-the-waters]], 554 n.1); Atlanta Journal, Dec. 18, 1961, 10 (cited by [[w.branch-parting-the-waters]], 554 n.2). See [[cal.1961-12-15.albany]]. Names: Martin Luther King.'
+    src:
+      c: 487b532e
+      rows:
+        - 'w.branch-parting-the-waters 553–54: all'
+        - 'via w.branch-parting-the-waters 553 n.3: all'
+        - 'via w.branch-parting-the-waters 554 n.1: A-B'
+        - 'via w.branch-parting-the-waters 554 n.2: C'
+    tags: [name:king-martin-luther-jr, state:ga, city:albany-ga]
   - id: cal.1961-12-18.india-and-china
     when: Dec. 18
     date: '1961-12-18'
@@ -296,6 +346,31 @@ entries:
     c: Delaware restores the death penalty for first-degree murder, abolished in 1958. The House overrides Carvel's vetoes; the two acts become law without his approval. Hanging the method; a jury may recommend mercy, the court then to impose life imprisonment.
     n: 'Del. Laws 1961, [ch. 309](https://legis.delaware.gov/SessionLaws/Chapter?id=30285), [ch. 310](https://legis.delaware.gov/SessionLaws/Chapter?id=30286) ("became a law on December 18, 1961 without the approval of the Governor"). [*Harrington Journal*, Dec. 22, 1961](https://ghhsociety.org/wp-content/uploads/2022/06/19611222.pdf). To check: [[w.banner-death-penalty]]; [[w.peirce-mid-atlantic-states-of]]. Names: Carvel.'
     tags: [state:de, name:carvel-elbert-n]
+  - id: cal.1961-12-18.robert-kennedy
+    when: Dec. 18
+    date: '1961-12-18'
+    thread: robert-kennedy
+    also: [georgia-albany]
+    c: 'Robert Kennedy, White and Marshall at the Justice Department through the morning: Albany "number one" on his agenda, advice ready if either side asks. Within an hour of the truce Kennedy telephones Mayor Kelley to congratulate the city on preventing violence, by Kelley''s announcement.'
+    n: '[[w.branch-parting-the-waters]], 555–56. To check: New York Times, Dec. 19, 1961, 1, 24 (the note''s "Ibid.") (cited by [[w.branch-parting-the-waters]], 556 n.2). See [[cal.1961-12-15.albany]]. Names: Robert Kennedy, Byron White, Burke Marshall.'
+    src:
+      c: f8c30814
+      rows:
+        - 'w.branch-parting-the-waters 555–56: all'
+        - 'via w.branch-parting-the-waters 556 n.2: B'
+    tags: [name:kennedy-robert-f, name:white-byron-r, name:marshall-burke, city:albany-ga]
+  - id: cal.1961-12-18.king
+    when: Dec. 18
+    date: '1961-12-18'
+    thread: king
+    also: [civil-rights-the-executive]
+    c: 'Before dawn, Wyatt Walker to the White House by telegram in King''s name, King in jail at Americus: the President to "issue at once by Executive Order a Second Emancipation Proclamation to free all Negroes from second-class citizenship."'
+    n: '[[w.branch-parting-the-waters]], 555. See [[cal.1961-10-16.king]]. Names: Martin Luther King, Kennedy.'
+    src:
+      c: 5f5db41a
+      rows:
+        - 'w.branch-parting-the-waters 555: all'
+    tags: [name:king-martin-luther-jr, name:kennedy-john-f]
   - id: cal.1961-12-19.transition-and-staff
     when: Dec. 19
     date: '1961-12-19'
