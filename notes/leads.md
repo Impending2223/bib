@@ -2286,6 +2286,17 @@ CQ Weekly Report, 1968-08-30:
 - The USIB ad hoc committee's "The Military Build-up in Cuba," summer 1961: its date (Bissell; FRUS 1961–63, X). Cuba.
 - Dulles's unpublished paper on the Bay of Pigs (Dulles Papers, boxes 138, 244, Princeton): to read. Cuba: Bay of Pigs.
 
+### The MACV Command Histories, 1964 and 1965 (batch 3, Oct. 29, 2026; notes/book-checks/macv-command-history.md)
+- SEACOORD (the Southeast Asia Coordinating Committee): Taylor's proposal of September 1964 and Rusk's concurrence (History 1964, 166–67, nn.61–63): FRUS 1964–68, I and XXVIII, for the day. Vietnam.
+- The Command History's Annex A (special operations, MACVSOG), 1964, published separately: not in the copy read; Marolda cites it for the raids of July 30–31 (`cal.1964-08-02.vietnam`).
+- When each volume was made public (its declassification): the pages carry regrading stamps ("20 NOV 1975"; "Order Sec Army By TAG per 830624"); the date not settled, so no "Made public:" line was written.
+- The command's organization, 1965: the 1st Logistical Command (Apr. 1), III MAF (May 7), USARV (July 20), Task Force Alpha (Aug. 1) and Field Force, Vietnam (Sept. 25): the History's chronology (479–81) and ch. II; whether the calendar should hold the command's structure as it holds the MACV–MAAG merger of 1964 (`cal.1964-05-15.vietnam-2`).
+- MACV's public confirmation of North Vietnamese units: the 101st Regiment (July 15, 1965), five regiments (Nov. 7): the History's chronology only; the press releases (MACOI) and the *New York Times* of the next days.
+- The Honolulu conferences of Sept. 28 and Dec. 10, 1965 (Sharp and Westmoreland): chronology only; FRUS 1964–68, III.
+- The Marble Mountain and Chu Lai attacks of Oct. 27, 1965: chronology only.
+- The 1966 volume (the DMZ, Attleboro, Masher, Crimp) was not among the copies: to fetch.
+- The war table: figures the Histories print that the table lacks "then" (U.S. strength, casualties, Viet Cong and RVNAF strength, infiltration, 1964): the book-check file, "The war table (for the merger)", for tools/indicators/make_war_forces.py.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
