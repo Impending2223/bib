@@ -1,6 +1,9 @@
 """Fold the readers' pending witnesses into the registry (rerunnable; tools/bib/witnesses.py, its docstring).
 
-    python3 -I tools/witnesses/fold.py [--dry-run]
+    python3 -I tools/witnesses/fold.py [--dry-run] [FILE...]
+
+With FILEs (paths under inbox/witnesses/), only those are folded: a merger folds the pending file of the patch it
+merged while other readers are still writing theirs.
 
 Each new row of inbox/witnesses/*.yaml goes to its year's file (witnesses.file_for), the file kept in id order; a new
 row whose id the registry already holds refuses its whole file (printed; kept for the merger to settle). An amendment
@@ -22,13 +25,17 @@ HEAD = ["The witness registry (tools/bib/witnesses.py, its STYLE; the memo, note
         "Kept by hand or agent."]
 
 
-def main(dry):
+def main(dry, only=None):
     rows = {}
     for p in witnesses.files():
         for r in store.load_yaml(p) or []:
             rows[r["id"]] = r
     refused, done, amends, new = [], [], [], 0
-    for p in witnesses.pending_files():
+    pend = witnesses.pending_files()
+    if only:
+        want = {os.path.abspath(f) for f in only}
+        pend = [p for p in pend if os.path.abspath(p) in want]
+    for p in pend:
         got = store.load_yaml(p) or []
         bad = [r.get("id") for r in got if isinstance(r, dict) and not r.get("amend") and (not r.get("id") or r["id"] in rows)]
         if bad:
@@ -90,4 +97,4 @@ def main(dry):
 
 
 if __name__ == "__main__":
-    main("--dry-run" in sys.argv)
+    main("--dry-run" in sys.argv, [a for a in sys.argv[1:] if not a.startswith("--")])
