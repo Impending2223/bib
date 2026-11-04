@@ -166,8 +166,17 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-03-03 | *Los Angeles Times* |  | Judge Coleman's suspensions in the Stokes case | Branch, *Pillar of Fire*, 604 n.
 1965-03-07 | ABC | 9:30 p.m., a bulletin into *Judgment at Nuremberg* | fifteen minutes of the bridge | Kotz, *Judgment Days*, 285
 1965-03-08 | *New York Times* | front page | Roy Reed's account of the bridge | Kotz, *Judgment Days*, 284
+1965-03-08 | *New York Times* | p. 20 | "Johnson Kept Informed"; King's plan for a new walk (entries) | Kotz, *Judgment Days*, 287
+1965-03-09 | *New York Times* | front page | "Wallace Says Police Saved Negro Lives" (an entry) | Kotz, *Judgment Days*, 291
+1965-03-10 | *New York Times* | front page | the turnaround at the bridge; Reeb; the Washington vigils | Kotz, *Judgment Days*, 294–98
+1965-03-15 | *New York Herald Tribune* | — | Wallace's "frank and friendly discussion" | Kotz, *Judgment Days*, 306
+1965-03-16 | *New York Times* | — | Wicker on the address (an entry) | Kotz, *Judgment Days*, 313–14
+1965-03-29 | *Washington Post*, *Evening Star* | front page (Post) | King's boycott of Alabama | Kotz, *Judgment Days*, 327
+1965-03-30 | *New York Times* | front page | "Washington Is Cool to Alabama Boycott" | Kotz, *Judgment Days*, 327
 1965-07 | *Life* | picture | Ball in tears at Stevenson's memorial service (Check: the issue) | Ball, *The Past Has Another Pattern*, 152
 1965-07-12 | *Newsweek*, Emmet John Hughes | item | "An Untold Tale" | Smith, *On His Own Terms*, 473 n.
+1965-08-15 | *New York Times* | front page | Semple, "Johnson Shocked" (Watts) | Kotz, *Judgment Days*, 341
+1965-09-12 | *New York Times*, *Daily News*, *Washington Post* | — | King and Goldberg; Dodd; Whitney Young | Kotz, *Judgment Days*, 352
 1965-09-24 | Joseph Alsop's column | column | the B-52s in South Vietnam, the press "favorably impressed" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1965 vol., 193
 1965-11 | (a news photograph) | photograph | Rusk at Montevideo, the spit dubbed into the negative | Rusk, *As I Saw It*, 571–72
 1965-11-05 | *World-Telegram and Sun*, Kempton | item | "Lindsay and Rockefeller" (entered) | Smith, *On His Own Terms*, 474
@@ -210,6 +219,8 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1967-03-01 | *New York Times* | front page | the same | Branch, *Pillar of Fire*, 609
 1967-03-01 | *New York Times* | page | Herbers, "Fulbright Backs Vietnam Limit of 500,000 G.I.'s" | Woods, *J. William Fulbright, Vietnam*, 145 n.8
 1967-03-27 | *Newsweek* | p. 29 | Komer "a Guildenstern at the court of Lyndon I" | Berman, *Lyndon Johnson's War*, 32
+1967-04-06/07 | *Washington Post*, *New York Times* | editorials | "A Tragedy"; "Dr. King's Error" (entries) | Kotz, *Judgment Days*, 375
+1967-04-11 | *New York Times* | front page | the NAACP's board against King on Vietnam | Kotz, *Judgment Days*, 375
 1967-04-23 | *New York World Journal Tribune* | article | Thimmesch, "The New New Nixon" | White, *Making of the President 1968*, 53 n.9
 1967-05-05 | *Arkansas Gazette* | page | "RFK-Fulbright Group to Ignore Objections, Run in New Hampshire" | Woods, *J. William Fulbright, Vietnam*, 149 n.21
 1967-07-08 | *New York Times* | front page | "Westmoreland asks M'Namara for more troops" | Berman, *Lyndon Johnson's War*, 54
@@ -281,6 +292,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-03-19 | *New York Times* | front page | Rockefeller to declare | White, *Making of the President 1968*, 231
 1968-03-24 | New York Times |  | "Memphis Protest Avoids Violence," the Southern Regional Council's study | Branch, *At Canaan's Edge*, 730
 1968-03-29 | NBC Huntley-Brinkley | broadcast | King, "Nonviolence can be as contagious as violence"; Coby Smith of the Invaders | Branch, *At Canaan's Edge*, 738, 740
+1968-03-29 | *St. Louis Globe-Democrat*, Memphis *Commercial Appeal* | — | the FBI's lines on King at Memphis; "Chicken a la King" (an entry) | Kotz, *Judgment Days*, 404
 1968-03-30 | New York Times | editorial page | against King's "descent on Washington" | Branch, *At Canaan's Edge*, 744
 1968-03-30/31 | Memphis Commercial Appeal; St. Louis Globe-Democrat | editorials | "King's Credibility Gap," "Chicken a la King"; "The Real Martin Luther King," from the FBI's material | Branch, *At Canaan's Edge*, 745
 1968-04-01 | *Newsweek* | item | the "rumors that periodically haunt Rocky's personal life" | Smith, *On His Own Terms*, 518

@@ -1917,6 +1917,15 @@ Rights in Conflict (Walker Report):
 - Press: Part III entries to propose for Hayes Redmon (Moyers's press office), Fred Panzer, William Connell (Humphrey's aide), Jerry Bruno, Peter Edelman, Jack Newfield (*Village Voice*), Peter Lisagor (*Chicago Daily News*), Richard Harwood (*Washington Post*), Robert Scheer (*Ramparts*), Penn Kimball, Michael Janeway and Elizabeth Drew (*Atlantic*), each with Shesol's pages.
 - Bundled entries, for the owner (R17): `cal.1968-03-14.robert-kennedy` holds the meeting with Clifford (Mar. 14) and the announcement (Mar. 16); `cal.1968-04-24.elections-1968` holds Freeman's endorsement and the next day's.
 
+### Kotz, *Judgment Days* (batch 3, fourth run, Nov. 4, 2026; notes/book-checks/kotz-judgment-days.md)
+
+- The Miller Center's recordings this run's notes cite, not heard: Ellington and Katzenbach, Mar. 8, 1965 (8:29, 8:38); Katzenbach, Mar. 11 (10:35); Dirksen, Mar. 18 and Apr. 5; Ball, Apr. 9; Russell, July 19; Marshall, July 7; Califano, Aug. 14 (6:25, 8:09); Long and Sawyer, Aug. 17; McCone, Aug. 18, 1965; Whitney Young, July 5, 1966. Branigin, Aug. 17, 1965, 6:36 p.m. (WH6508.05, PNO 5) is not in the Miller Center's catalogue.
+- The Church committee's Book III (S. Rep. No. 94-755) on intelligence.senate.gov: refused here ("Access Denied," Nov. 4, 2026). Its pp. 174, 179–82 print the FBI's papers of Mar. 1968 that Kotz cites.
+- The FBI's Levison wiretaps (100-111180) as Kotz cites them (SDLTAP): Feb. 18, Apr. 5, 8, 12, 1967; Mar. 26, 28, 29, Apr. 1, 1968.
+- Studies the notes cite without a card: Fager, *Selma, 1965* (1974); Raines, *My Soul Is Rested* (1977); Harwood and Johnson, *Lyndon* (1973); Leuchtenburg, "The Old Farmhand from Dixie," *Atlantic* (Dec. 1992); Roy Young, "Presidential Leadership and Civil Rights Legislation"; "Pottinger" (the Justice Department's review of 1977); Weiss, *Whitney M. Young Jr.*; Stewart Burns, *To the Mountain Top*; Hampton and Fayer, *Voices of Freedom*; Gerald McKnight, *The Last Crusade* (card `w.mcknight-last-crusade`, to read).
+- Kotz's interviews of this run: Hirsch, Fauntroy, Goodwin, Forman, Greenberg, Brimmer, Roger Wilkins, Bernhard, Gaither, Mondale, Byrne, Cohen, Ramsey Clark, Height, Marian Logan, Juanita Abernathy, James Lawson, Edward Kennedy: not deposited.
+- Press figures for Part III (R13): William S. White (syndicated), Carl Rowan (columnist; his own Part III place as USIA director to check), Renata Adler (*The New Yorker*), Robert Semple Jr. and John Herbers (*New York Times*), Richard L. Lyons and Carroll Kilpatrick (*Washington Post*).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its

@@ -358,7 +358,7 @@ entries:
     thread: war-opposition
     also: [king]
     c: 'New York. King with Goldberg at the UN, over an hour, at the President''s instance: King for a halt to the bombing of the North and talks with the Viet Cong, and for China''s admission to the UN.'
-    n: '[[w.garrow-bearing-the-cross]], 443–45; [[w.branch-at-canaans-edge]], 324–29 (not the President''s instance, which Branch gives as King''s advisers'' belief); [[w.kotz-judgment-days]], 352 (Goldberg''s office in New York; King''s prepared statement after). To check: Chicago Daily News, Sept. 10, 1965, 3; New York Times, Sept. 11, 1965, 9; New York Herald Tribune, Sept. 11, 1965, 4; Washington Post, Sept. 11, 1965, A7; King, press conference, Sept. 10, 1965, King Papers, King Center; Marvin Watson to Johnson, Sept. 14, 1965, King Name File, Johnson Library (cited by [[w.garrow-bearing-the-cross]], 445 n.16); MLK and Goldberg press conferences at the U.N., Sept. 10, 1965, King Library and Archives (cited by [[w.branch-at-canaans-edge]], 328). Check: Branch gives seventy minutes (328). Names: King, Goldberg.'
+    n: '[[w.garrow-bearing-the-cross]], 443–45; [[w.branch-at-canaans-edge]], 324–29 (not the President''s instance, which Branch gives as King''s advisers'' belief); [[w.kotz-judgment-days]], 352 (Goldberg''s office in New York; King''s prepared statement after); [[w.kotz-judgment-days]], 352 (a statement already prepared: the Viet Cong at the talks, the bombing stopped, a seat for Communist China at the UN). To check: Chicago Daily News, Sept. 10, 1965, 3; New York Times, Sept. 11, 1965, 9; New York Herald Tribune, Sept. 11, 1965, 4; Washington Post, Sept. 11, 1965, A7; King, press conference, Sept. 10, 1965, King Papers, King Center; Marvin Watson to Johnson, Sept. 14, 1965, King Name File, Johnson Library (cited by [[w.garrow-bearing-the-cross]], 445 n.16); MLK and Goldberg press conferences at the U.N., Sept. 10, 1965, King Library and Archives (cited by [[w.branch-at-canaans-edge]], 328). Check: Branch gives seventy minutes (328). Names: King, Goldberg.'
     src:
       c: 6b8c9618
       rows:
@@ -369,7 +369,7 @@ entries:
         - 'w.branch-at-canaans-edge 324–29: B'
         - 'via w.branch-at-canaans-edge 328 n.the-session-lasted: B'
         - 'via w.branch-at-canaans-edge 328 n.in-short-he: B'
-        - 'w.kotz-judgment-days 352: A'
+        - 'w.kotz-judgment-days 352: A-B'
     tags: [name:king-martin-luther-jr, name:goldberg-arthur-j, state:ny, city:nyc]
   - id: cal.1965-09-10.war-opposition-2
     when: Sept. 10
@@ -377,12 +377,13 @@ entries:
     thread: war-opposition
     also: [king]
     c: 'Dodd, by press statement, on King''s proposals at the UN: King''s "intemperate alignment with the forces of appeasement"; he has "absolutely no competence to speak about complex matters of foreign policy"; "nothing short of arrogance" to "undermine the policies of the President."'
-    n: '[[w.branch-at-canaans-edge]], 329. To check: Dodd, "Dr. Martin Luther King''s Activities in Connection with U.S. Foreign Policy," statement, reprinted 111 Cong. Rec. 23908 (Sept. 15, 1965) (cited by [[w.branch-at-canaans-edge]], 329). See [[cal.1965-09-10.war-opposition]]. Check: the day; Branch gives Friday, Sept. 10, after the Senate had adjourned; Garrow, Sept. 11 ([[cal.1965-09-12.war-opposition]]). Names: Dodd, Martin Luther King.'
+    n: '[[w.branch-at-canaans-edge]], 329; [[w.kotz-judgment-days]], 352 (the words; the Logan Act). Check: Kotz dates Dodd''s words "a day later," Sept. 11 (352). To check: Dodd, "Dr. Martin Luther King''s Activities in Connection with U.S. Foreign Policy," statement, reprinted 111 Cong. Rec. 23908 (Sept. 15, 1965) (cited by [[w.branch-at-canaans-edge]], 329). See [[cal.1965-09-10.war-opposition]]. Check: the day; Branch gives Friday, Sept. 10, after the Senate had adjourned; Garrow, Sept. 11 ([[cal.1965-09-12.war-opposition]]). Names: Dodd, Martin Luther King.'
     src:
       c: 293a76b5
       rows:
         - 'w.branch-at-canaans-edge 329: all'
         - 'via w.branch-at-canaans-edge 329 n.intemperate-alignment-with: all'
+        - 'w.kotz-judgment-days 352: A-B'
     tags: [name:dodd-thomas-j, name:king-martin-luther-jr]
   - id: cal.1965-09-10.vietnam
     when: Sept. 10
@@ -459,6 +460,19 @@ entries:
       c: 2c63f2e7
       rows:
         - 'w.macv-command-history-1965 238: all'
+  - id: cal.1965-09-11.civil-rights-organizations
+    when: Sept. 11
+    date: '1965-09-11'
+    thread: civil-rights-organizations
+    also: [war-opposition]
+    c: 'Whitney Young of the Urban League: King did "the cause of civil rights a disservice" by joining it to Vietnam.'
+    n: '[[w.kotz-judgment-days]], 352. To check: *Washington Post*, Sept. 12, 1965, p. A3 (cited by [[w.kotz-judgment-days]], 352 n.25). Check: the day (reported Sept. 12). See [[cal.1965-09-10.war-opposition]]. Names: Whitney Young, Martin Luther King.'
+    src:
+      c: 8d6163a5
+      rows:
+        - 'w.kotz-judgment-days 352: all'
+        - 'via x.1965-09-12.washington-post-a3-young: all'
+    tags: [name:young-whitney-m-jr, name:king-martin-luther-jr]
   - id: cal.1965-09-12.opinion
     when: Sept. 12
     date: '1965-09-12'
@@ -546,6 +560,19 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 73: A-C'
         - 'via w.gibbons-u-s-government-and IV, 73 n.84: A-C'
     tags: [name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s, name:bundy-mcgeorge, name:raborn-william-f-jr, name:ball-george-w, name:moyers-bill, name:califano-joseph-a-jr]
+  - id: cal.1965-09-13.king
+    when: Sept. 13
+    date: '1965-09-13'
+    thread: king
+    also: [war-opposition]
+    c: 'Levison to Clarence Jones, on the FBI''s tap, of King''s press conference at the UN: "I think the idea of [King''s] coming out for the admission of Red China at this time is insane, after taking a position on Vietnam."'
+    n: '[[w.kotz-judgment-days]], 353 n. To check: the FBI''s transcript, Sept. 13, 1965 (cited by [[w.kotz-judgment-days]], 353 n.). See [[cal.1965-09-10.war-opposition]]. Names: Levison, Martin Luther King.'
+    src:
+      c: 9f7970d8
+      rows:
+        - 'w.kotz-judgment-days 353: all'
+        - 'via x.1965-09-13.levison-and-jones-fbi-transcript: all'
+    tags: [name:levison-stanley-d, name:king-martin-luther-jr]
   - id: cal.1965-09-14.mayors-nyc
     when: Sept. 14
     date: '1965-09-14'
@@ -716,13 +743,14 @@ entries:
     thread: king
     also: [war-opposition]
     c: 'The FBI''s letterhead memorandum to the White House on King''s conference call of Sept. 12: he cannot fight on Vietnam and keep his civil rights fight going. Watson to Johnson with it, 8:20 p.m.'
-    n: '[[w.branch-at-canaans-edge]], 330. To check: FBI letterhead memorandum, Sept. 15, 1965, FBI file 100-106670-1866; Watson to Johnson, 8:20 p.m., Sept. 15, 1965, Office Files of Mildred Stegall, box 32, LBJ Library (cited by [[w.branch-at-canaans-edge]], 330). Made public: Check. See [[cal.1965-09-12.war-opposition]]. Check: Garrow cites Watson to Johnson, Sept. 14 ([[cal.1965-09-10.war-opposition]]). Names: Martin Luther King, Watson, Johnson.'
+    n: '[[w.branch-at-canaans-edge]], 330; [[w.kotz-judgment-days]], 353 (Watson''s cover sheet: King "convinced that you persuaded Senator Dodd"; "must forget the peace issue and get back to civil rights"). To check: FBI letterhead memorandum, Sept. 15, 1965, FBI file 100-106670-1866; Watson to Johnson, 8:20 p.m., Sept. 15, 1965, Office Files of Mildred Stegall, box 32, LBJ Library (cited by [[w.branch-at-canaans-edge]], 330). Made public: Check. See [[cal.1965-09-12.war-opposition]]. Check: Garrow cites Watson to Johnson, Sept. 14 ([[cal.1965-09-10.war-opposition]]). Names: Martin Luther King, Watson, Johnson.'
     src:
       c: 1d9f9cb8
       rows:
         - 'w.branch-at-canaans-edge 330: all'
         - 'via w.branch-at-canaans-edge 330 n.the-fbi-promptly.a: all'
         - 'via w.branch-at-canaans-edge 330 n.the-fbi-promptly.b: B'
+        - 'w.kotz-judgment-days 353: A-B'
     tags: [name:king-martin-luther-jr, name:watson-w-marvin, name:johnson-lyndon-b]
   - id: cal.1965-09-15.king-2
     when: Sept. 15
@@ -1058,6 +1086,19 @@ entries:
         - 'w.califano-triumph-and-tragedy-of 66: all'
         - 'via w.califano-triumph-and-tragedy-of 66 n.28: all'
     tags: [name:califano-joseph-a-jr, name:katzenbach-nicholas, name:white-lee-c, name:johnson-lyndon-b, name:humphrey-hubert-h]
+  - id: cal.1965-09-20.press-and-broadcasting
+    when: Sept. 20
+    date: '1965-09-20'
+    thread: press-and-broadcasting
+    also: [war-opposition]
+    c: 'The *Washington Evening Star*, an editorial: King a "home-made foreign policy expert"; there are "a hundred fields of human endeavor in which he can do less harm," "the Broadway stage" or "the rising hemline on women''s dresses."'
+    n: '[[w.kotz-judgment-days]], 352–53. To check: *Washington Evening Star*, Sept. 20, 1965 (cited by [[w.kotz-judgment-days]], 353 n.26). See [[cal.1965-09-10.war-opposition]]. Names: Martin Luther King.'
+    src:
+      c: c9d04a91
+      rows:
+        - 'w.kotz-judgment-days 352–53: all'
+        - 'via x.1965-09-20.evening-star-editorial-king: all'
+    tags: [name:king-martin-luther-jr]
   - id: cal.1965-09-21.vietnam
     when: Sept. 21
     date: '1965-09-21'
