@@ -1757,6 +1757,23 @@ Rights in Conflict (Walker Report):
 - Press: Murray Kempton, Victor Riesel, Gene Spagnoli (the *Daily News* at Albany), Jimmy Breslin: Part III entries to propose
   (R13); Kempton's columns of Nov. 5, 1965, and June 16, 1966, entered.
 
+### Nixon, *Six Crises* (batch 3, second run, Nov. 4, 2026; notes/book-checks/nixon-six-crises.md)
+
+- *Six Crises*, xi–xii: April 1961, Adela Rogers St. Johns's call, Ken McCormick of Doubleday in California
+  the next day, the six crises chosen, the book undertaken. Not entered: the pinpoint test (`is_pin` in
+  `tools/bib/claims.py`) takes no roman folio, so "xi–xii" fails [claims]; a ruling or a fix would let the front matter
+  of any book be cited (*Rights in Conflict*'s "xiii–xiv" is in the same case). The entry would go under Republican
+  Party.
+- *Newsweek*'s informal poll of the reporters who covered the campaign, Kennedy 37, Nixon 13 (396): the
+  issue.
+- Willard Edwards's letter to Nixon on the coverage (419–20), and Dewey's counsel against decisions for
+  sixty days (423 n.15): the dates.
+- Press figures for Part III (R13), with the work that treats them (*Six Crises*, 359): David Lawrence, the
+  columnist; Sam Lubell; Ernest K. Lindley of *Newsweek*; Leon Pearson and Elmer Peterson of NBC. And Whittaker
+  Chambers, who has no name entry (cal.1961-02.elections-1962, cal.1961-07-09.conservative-movement).
+- The newsweeklies' forecasts (cal.1960-10-25.elections-1960-6 to -8) and Lubell's election-eve forecast:
+  the issues and the medium.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2832,6 +2849,14 @@ CQ Weekly Report, 1968-08-30:
 ### Branch, *At Canaan's Edge* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-at-canaans-edge.md)
 
 - Tiger Force, 101st Airborne, 1967–68: the dates of its operations in Quảng Ngãi and Quảng Tín and of the Army's inquiry (Toledo *Blade*, Oct. 19–22, 2003; Branch, 713).
+
+### Nixon, *Six Crises* (batch 3, second run, Nov. 4, 2026; notes/book-checks/nixon-six-crises.md)
+
+- Venezuela, December 1961: the newspaper Nixon calls "Clarion" (223 n.3), its name and the day of its
+  suspension; the days of the demonstrations and the deaths.
+- Peru, December 1961: where and how the two students' statement was made (231 n.4).
+- The Kennedy administration's retention of Thompson at Moscow (248): the roster holds his tenure; no date
+  given here.
 
 ## The Executive roster
 

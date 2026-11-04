@@ -14,7 +14,9 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1960-07-23 | *New York Times* | item | "PACT OPENS WAY FOR PARTY AMITY" | Smith, *On His Own Terms*, 346
 1960-08-07 | *New York Times*, p. 9 | story | "Now their hearts belong to Barry" | Goldberg, *Barry Goldwater*, 146
 1960-10 | *New York Times* | front page? | the USIA's prestige surveys, printed without saying how obtained | Sorensen, *Kennedy*, 203–04
+1960-10-20 | the networks and the press | forecasts | the forecasts of a Kennedy victory, Oct. 20–Nov. 7, 1960, entered one by one | Nixon, *Six Crises*, 358–60
 1960-11 | *Wall Street Journal*; *New York Daily News* | item | Rockefeller blamed for Nixon's loss ("Nixon's Lonely Battle," *WSJ*, Oct. 28) | Smith, *On His Own Terms*, 350
+1960-11-10 | the morning papers (unnamed) | stories | Nixon's remarks at Andrews the night before, quoted | Nixon, *Six Crises*, 401
 1961-01-23 | *U.S. News and World Report* | article | "Goldwater's Platform for 'The Forgotten American'" | Goldberg, *Barry Goldwater*, 151 n.11
 1961-01-27 | *Human Events* | article | "The Forgotten American," parts 1 and 2 | Goldberg, *Barry Goldwater*, 151 n.11
 1961-02-06 | *Washington Evening Star* | headlines | McNamara: no missile gap | McNamara, *In Retrospect*, ch. 1
