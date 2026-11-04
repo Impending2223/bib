@@ -2,6 +2,9 @@
 
 Read Oct. 29, 2026, by the batch-3 reading (1960: Nixon, *Six Crises*, then White). Patch:
 `inbox/2026-10-29-b3-white-1960.yaml` (b3-white-1960). Records: `sources/cited-records/white-making-of-the-president.yaml`.
+Read again Nov. 3–4, 2026 (batch 3 resumed): patch `inbox/2026-11-03-b3-white-1960-2.yaml` (b3-white-1960-2; 15
+entries added, 7 cites, checks and map rows, 3 edits), witnesses `inbox/witnesses/2026-11-03-b3-white-1960-2.yaml` (6
+new, 7 amended); "The second reading", below.
 
 ## The copy
 
@@ -129,41 +132,48 @@ Oct. 28 (late), listed under "Entered" below.
 ## Passed over
 
 Under the owner's rulings of Oct. 28 (the papers of government; and, late, the dated stretch, the trip, the private
-meeting and the event's incidents as entries). What they made entries is in the section after this one.
+meeting and the event's incidents as entries), re-ruled Nov. 3–4, 2026, under the reader's brief (R5, R7, R13, R18):
+the rows now entered are in the tables after this one; chapter 15 (366–82), passed over whole before, is read and its
+rows added. Made page by page from the book against the calendar's entries for 1960–61 and the ledger.
 
 | page | date | event | why |
 |---|---|---|---|
-| 30, 36, 37, 43, 49, 53, 58, 68, 74–77 | 1958–Jan. 2, 1960 | Humphrey at Duluth; his announcement; Symington's meetings; Rayburn's announcement for Johnson; the Hyannis Port meeting of Oct. 28, 1959; Kennedy's announcement of Jan. 2; Rockefeller's withdrawal | out of the brief: before Jan. 6, 1960 |
-| 74 | Jan. 28, 1960 | New Hampshire's filing deadline | no act: a date in the law |
-| 83–93 | Mar. 1960 | the Wisconsin days, district by district | already in under cal.1960-03.elections-1960 (pending) |
-| 96 | Apr. 6–10 | the pressure on Humphrey to withdraw | already in under cal.1960-04-05.elections-1960-3 (pending, Humphrey) |
+| 30, 36, 37, 43, 49, 53, 58, 68, 74–77 | 1958–Jan. 2, 1960 | Humphrey at Duluth; his announcement; Symington's meetings; Rayburn's announcement for Johnson; the Hyannis Port meeting of Oct. 28, 1959; Kennedy's announcement of Jan. 2; Rockefeller's withdrawal | out of the brief: before Jan. 6, 1960 (Rockefeller's withdrawal cited, 75–76, on `cal.1960-01-09.elections-1960`) |
+| 74 | Jan. 28, 1960 | New Hampshire's filing deadline | minor: a date in the law, no act |
+| 83–93 | Mar. 1960 | the Wisconsin days, district by district | already in under cal.1960-03.elections-1960 |
+| 96 | Apr. 6–10 | the pressure on Humphrey to withdraw | already in under cal.1960-04-05.elections-1960-3 |
 | 115–17 | May 1–17 | the U-2 and the summit | already in under the Soviet Union's entries |
-| 126 | June 1960 | Novak's column on Symington | a journalist's column, no act |
-| 168–69 | July 13 | Kennedy's swim, Irish stew at his father's villa, his marked tally | family and social |
+| 168–69 | July 13 | Kennedy's swim, Irish stew at his father's villa, his marked tally | minor: private |
 | 173 | July 10 | Kennedy to Philip Graham on Johnson for second place | already in under cal.1960-07-11.elections-1960-2 (Graham's account) |
 | 192 | spring 1960 | Percy's draft platform | already in under cal.1960-07.elections-1960-2 |
-| 250 | Aug. | Salinger's "diffusing" | private remark (the move it speaks of entered) |
-| 254–56 | Sept. 6–9 | the jokes on the expected child | social |
-| 260 | Sept. 10–11 | Kennedy and Sorensen draft the Houston speech at the Ambassador Hotel | a meeting's preparation |
-| 266–67 | Aug.–Oct. | Nixon's theory of pace; the fifty-state pledge | analysis, no act |
+| 250 | Aug. | Salinger's "diffusing" | minor: a private remark (the move it speaks of entered) |
+| 254–56 | Sept. 6–9 | the jokes on the expected child | minor: social |
+| 266–67 | Aug.–Oct. | Nixon's theory of pace; the fifty-state pledge | minor: White's analysis, no act (the pledge in its entries) |
 | 275–78 | Sept. 12, 16–17 | Nixon at Union Square; across Iowa | already in (cal.1960-09-12.elections-1960-2; the Iowa day in b3-six-crises-more) |
-| 283–86 | Sept. 25–26 | the debate preparations at the Knickerbocker and the Pick-Congress | a meeting's preparation |
-| 294–95 | Oct. 13 | Mazeroski's home run; Khrushchev leaves New York | out of the brief; already in |
-| 300–04 | Oct. 24–Nov. 1 | Nixon's last swing: Marietta, Parkersburg, Michigan, Danville, Centralia, Syracuse | entered in b3-six-crises-more (cal.1960-10-24.elections-1960-2, cal.1960-10-31.elections-1960-3), White cited there |
-| 309 | Sept. 26 | Eisenhower to the Catholic Charities, New York | in the daybook (1960–61 Pub. Papers 728); not politics |
-| 309 | Oct. 29 | a White House aide in Chicago learns Nixon will call on the President | a meeting's preparation (the lunch of Oct. 31) |
-| 313 | Nov. 5 | the telethon ordered at 1 p.m. Saturday | already in under cal.1960-11-07.elections-1960 (pending) |
-| 319 | late Oct. | Nixon's speech writers on Galbraith for the Treasury | gossip with a correspondent, no act |
-| 324–25 | Oct. 16 | Kennedy on Meet the Press | in the daybook's Sunday line; nothing of what he said |
+| 294–95 | Oct. 13 | Mazeroski's home run; Khrushchev leaves New York | out of the brief (the Series); already in (Khrushchev) |
+| 300–04 | Oct. 24–Nov. 1 | Nixon's last swing: Marietta, Parkersburg, Michigan, Danville, Centralia, Syracuse | already in (cal.1960-10-24.elections-1960-2, cal.1960-10-31.elections-1960-3), White cited there |
+| 309 | Oct. 29 | a White House aide in Chicago learns Nixon will call on the President | a passed-over paper: a meeting's preparation (the lunch of Oct. 31 is in) |
+| 313 | Nov. 5 | the telethon ordered at 1 p.m. Saturday | already in under cal.1960-11-07.elections-1960 |
+| 319 | late Oct. | Nixon's speech writers on Galbraith for the Treasury | minor: a private remark to a correspondent |
+| 324 | Sept.–Oct. | John Bartlow Martin and Joseph Kraft on the road with Kennedy as "editorial advance" | lead: no date (R13) |
+| 324–25 | Oct. 16 | Goodwin briefs Kennedy for *Meet the Press*; the program | a passed-over paper: a meeting's preparation; the program in the daybook's Sunday line, nothing of what he said |
 | 338–39 | Nov. 6 | Kennedy's arrival in Connecticut, midnight | already in under cal.1960-11-06.elections-1960-4 |
-| 345–49 | Nov. 9 | the walk on the beach, touch football, the movies | family and social |
+| 345–49 | Nov. 9 | the walk on the beach, touch football, the movies | minor: family and social |
 | 349 | Nov. 9 | Khrushchev's congratulations | already in under cal.1960-11-09.soviet-union |
-| 350–86 | Nov. 8 | the vote analyzed | analysis; the figures already in (Elections, 1960) |
-| 250, 264, 295, 319–20 | Aug.–Nov. | Gallup's readings (Nixon 53–47; 47–46; 49–46; 51–45) | the Opinion thread enters Gallup's releases from *The Gallup Poll*; White's figures second-hand |
-| 367–82 | 1961 | ch. 15, the Presidency; a Thursday of early 1961 | no day; out of the book's campaign |
+| 350–86 | Nov. 8 | the vote analyzed | minor: analysis; the figures already in (Elections, 1960) |
+| 250, 264, 295, 319–20 | Aug.–Nov. | Gallup's readings (Nixon 53–47; 47–46; 49–46; 51–45) | minor: a repetition of the figures the Opinion thread enters from Gallup's releases |
+| 366 | before 1950 | Stimson on the best Presidents | out of the brief: before the span |
+| 367–68 | none | a Truman aide on the Presidency | minor: no date, no act |
+| 372 | none | a politician on Wagner and the telephone | minor: no date, no act |
+| 372–73 | end of 1960 | the stockpile, "thirty-five kilomegatons" | lead: a figure with no series to hold it |
+| 374–75 | Mar. 9, 1961 | the National Commander of the Veterans of World War I; the Treasurer, Elizabeth Smith; the album for the African chief of state; a private lunch | minor: ceremonial and social |
+| 375 | Mar. 9, 1961 | the House Committee on Education's "testing" of the education bill | lead: the Daily Digest has no such meeting that day (Leads) |
+| 377 | 1960 | the Congress's hearings on the National Purpose; the *Times*'s front-page dispatch from Moscow, "the greatest power on earth" | lead: no day |
+| 377 | Nov. 16, 1960 | the outgoing President's paper on the National Goals | already in (cal.1960-11-16.program) |
+| 379 | 1960 | the science appropriations: $750 million for basic research, $8 billion for research and development | lead: figures with no series to hold them |
 
-By reason: out of the brief 2; no act or analysis 4; already in 10; family or social 3; a meeting's preparation 3;
-private remark or gossip 2; journalists 1; polls 1; entered in the other patch 1; no day 1.
+By reason: out of the brief 3; already in 11; minor 12 (private or a remark 3, social or family 2, ceremonial 1, no act
+or analysis 4, a date in the law 1, repetitions 1); a passed-over paper 2; leads 5.
 
 ## Entered (the owner's ruling, Oct. 28, late)
 
@@ -203,6 +213,62 @@ In this patch (b3-white-1960), from rows first passed over as undated, private, 
 | 347 | Nov. 9 | Sorensen at 9:30 | cal.1960-11-09.elections-1960-11 |
 | 349 | Nov. 9 | dinner with Walton and the Bradlees | cal.1960-11-09.transition-and-staff-3 |
 
+## The second reading (Nov. 3–4, 2026)
+
+The same copy, fetched again from Drive's public download address (19 MB; `file`: PDF 1.5), text by `pdftotext
+-layout`, deleted when done; printed = PDF − 16 holds, checked on the images of pp. 126 (PDF 142) and 375 (PDF 391).
+Read now: chapter 15 (366–82), the pages the first run passed over (126–27, 259–60, 283–86, 309, 319, 324–25), the
+notes (every footnote naming a source: 90 n.3, 113 n.13, 192 n.2, 198 n.8, 207 n.4, 258 n.4, 261 n.6, 292 n.4, 350
+n.8, 368 n.1, 373 n.3) and the appendices (A, 386; B, 388–90; C, 391–94), and the four entries where the card still
+stood behind "To check:".
+
+### Cites, checks and edits
+
+| Entry | Ruling |
+|---|---|
+| cal.1960-01-09.elections-1960 | pinned in part: 75–76 (Rockefeller's withdrawal: drafted Thursday, Dec. 24, issued "on a Friday afternoon in Albany"), unit C. Check: Dec. 26, 1959, the entry's day, was a Saturday |
+| cal.1960-10-25.elections-1960 | pinned: 311 (the national telecast of the Cincinnati rally, Oct. 25, the first of the last days' television), out of To check ("301, 311–12": 301 is the Ohio and Michigan swing, 312 the election-eve costs) |
+| cal.1961-03-09.laos | pinned: 375 (an hour and a quarter in the Cabinet Room; "the decisive time"), unit A. Check: White has Rusk there; Clifton's memorandum (FRUS 1961–63, XXIV, doc. 25) lists him not |
+| cal.1960-03.economy | cut from To check: White does not treat Burns's warning (no "Burns" in the book) |
+| cal.1960-04-21.elections-1960 | cut from To check: White does not treat the editors' speech of Apr. 21 |
+| cal.1960-10-10.elections-1960 | cut from To check: White does not treat Johnson's train (the first run's ruling, now applied) |
+| cal.1960-10-12.elections-1960-3, cal.1960-09-12.elections-1960 | map rows through the notes' witnesses (292 n.4; 261 n.6) |
+
+### New entries (fifteen)
+
+| page | date | event | entry |
+|---|---|---|---|
+| 126–27 | June 1960 | Novak in the *Wall Street Journal* on Symington's campaign | cal.1960-06.elections-1960-12 |
+| 259–60 | Sept. 10–11 | Kennedy and Sorensen draft the Houston statement at the Ambassador | cal.1960-09-10.elections-1960 |
+| 283–85 | Sept. 25–26 | Kennedy's preparation for the first debate | cal.1960-09-25.elections-1960-4 |
+| 285–86 | Sept. 26 | Nixon's day before the debate; Lodge's call; the knee | cal.1960-09-26.elections-1960-4 |
+| 309 | Sept. 26 | Eisenhower to the Catholic Charities, the debate's evening (1960–61 Pub. Papers 728: 9:52 p.m., the Statler Hilton) | cal.1960-09-26.elections-1960-5 |
+| 374–77 | Mar. 9, 1961 | "a typical Thursday" of "early winter of 1961": the House's feed grain vote (Voteview, roll calls 7 and 8); Truman; Seaborg, Wiesner and Bell; Finletter; Gavin; the cotton growers; the Peace Corps film; the OCDM Director sworn; Bell, Bundy, Wiesner and Sorensen; the housing message (1961 Pub. Papers 162); Kennedy to White at the day's end | cal.1961-03-09.farm, .democratic-party, .economy-2, .europe-and-the-alliance, .europe-and-the-alliance-france, .trade, .peace-corps, .defense, .economy-3, .cities-and-housing, .press-and-broadcasting |
+
+The day: White gives "a typical Thursday" of "early winter of 1961". The records fix it at Thursday, Mar. 9: the
+Laos meeting with Felt, 3:30 to 4:44 p.m. (FRUS 1961–63, XXIV, doc. 25; White's "one and one quarter hours"); the
+House's vote on the feed grain bill, 209 to 202 (White: "by only seven votes"); Nkrumah at the White House the day
+before (cal.1961-03-08.africa); the housing message of Mar. 9; the Executive roster's Frank B. Ellis in office from Mar.
+9. Each entry carries the Check. One variant: White's "House Committee on Education" trying the education bill that
+morning; the Daily Digest has Education and Labor in executive session on the minimum wage (H.R. 3935), nothing on
+education (Leads). The housing message was not in the calendar; it is entered from the Public Papers' text.
+
+### Witnesses (R35-R43)
+
+New: Novak's column (126 n.text); the AP's final tabulation of Dec. 17, 1960 (350 n.8, 386 n.text; it differs from
+the Clerk's figures of `cal.1960-11-08.elections-1960` unit A, so it is a variant there, not a `via` row: left for the
+merger, there being no additive op for `variants`); Percy's committee's *Decisions for a Better America* (192 n.2);
+Kennedy's Quemoy and Matsu speech (292 n.4); his Houston remarks (261 n.6; printed in Appendix C, 391 n.text);
+Kennedy's conversation with White, Mar. 9, 1961 (376 n.text). An edge for Appendix B's print of Rockefeller's
+statement of July 22 (388 n.text). Amended: the seven witnesses the conversion made (agent, made, form, `open`).
+
+## The press
+
+date | outlet | broadcast, front page or cover | items | page
+- June 1960 | *Wall Street Journal* | — | Novak on Symington's campaign (entered) | 126–27
+- Oct. 13, 1960 or after | three newspapers (unnamed) | — | Kennedy's Quemoy and Matsu speech of Oct. 12 in full | 292 n.4
+- Oct. 31–Nov. 7, 1960 | the correspondents with Kennedy | the wire file (Western Union) | 90,000 words a day, from an average of 60,000 | 324 n.2
+
 ## Leads
 
 Entered now with a Check on the day (the owner's ruling, Oct. 28, late): the Stevenson headquarters, Monroney and
@@ -212,3 +278,18 @@ negotiations, Klein's press conference, Nixon's estimate, Goldwater on 1964 (the
 - National: the Oct. 12 Quemoy speech (White, 292 n.4): which of the day's APP documents carries it.
 - National: Gallup's readings White gives (250, 264, 319–20), to be set against *The Gallup Poll*, vol. III.
 - National: Section 315, "June 27th" (White, 282): a vote in Congress that day? The *Record*.
+- (Nov. 3–4.) National: the House Committee on Education's "testing" of the education bill on Mar. 9, 1961 (White,
+  375): the Digest's rows for March 1961 (`daybook/committees/1961-03.yaml`) show the education hearings on other days;
+  which day White meant.
+- (Nov. 3–4.) National: the Congress's hearings on the National Purpose, 1960, and the *Times*'s front-page dispatch
+  from Moscow at the year's opening (White, 377): the days.
+- (Nov. 3–4.) National: John Bartlow Martin and Joseph Kraft as the campaign's "editorial advance" (White, 324): when
+  they joined; Kraft and Martin for Part III (R13).
+- (Nov. 3–4.) National: the figures of chapter 15 with no series to hold them: the stockpile at the end of 1960,
+  "thirty-five kilomegatons" (372–73, after Hadley, *The Nation's Safety and Arms Control*); the science appropriations
+  of 1960 (379).
+- (Nov. 3–4.) The merger: the AP's tabulation of Dec. 17, 1960 (`x.1960-12-17.associated-press-final-tabulation-of-the-presidential`)
+  is a variant of `cal.1960-11-08.elections-1960` unit A (R41).
+- (Nov. 3–4.) The Executive roster: Frank B. Ellis sworn in as Director of the Office of Civil and Defense
+  Mobilization, Mar. 9, 1961 (White, 375, unnamed; the roster's date is Wikipedia's): a record of the oath.
+
