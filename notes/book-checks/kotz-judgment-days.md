@@ -362,3 +362,62 @@ National:
 ### What remains unread (fourth run)
 
 Pp. 77–84 (chapter 4 from the Hoover–King memoranda of fall 1963 on): not read page by page this run. The whole of chapters 11–14 and the Epilogue is now read. The stop: the context of the run.
+
+## The fifth run (b3-kotz-5), Nov. 4, 2026
+
+The same copy, fetched again through Drive's download address (sharing unchanged); the offset as before (printed = PDF − 26), held against the running heads of the text layer on pp. 77–84 and against the page image of p. 83 (PDF 109). The PDF, the page texts and the image deleted at the end of the Kotz part of the run. Read: pp. 77–84 page by page (chapter 4 from Hoover's background to the Willard Hotel, Jan. 6, 1964), with their notes 41–79 (pp. 451–453), the abbreviations (443). With this the whole book is read.
+
+The patch: `inbox/2026-11-04-b3-kotz-5.yaml` (patch `b3-kotz-5`): 5 new entries (each claimed in the ledger first), 11 cites, 4 Checks, 8 `src` ops, 3 `to-check`, 2 `edit`s (33 ops): `cal.1963-11-29.assassination-3` (base 1b9bfbc8: Johnson's words to Hoover and the request for DeLoach as liaison added to `c`, the same call of 1:40 p.m., Tape K6311.04, by Kotz's notes 63 and 68; one event, one entry; `also: transition-and-staff`; Shesol's rows narrowed to A–D) and `cal.1964-01-15.robert-kennedy` (base 5496b534: Jenkins's words on Robert Kennedy from the same DeLoach memorandum, O&C file 92, added as unit D). Witnesses: `inbox/witnesses/2026-11-04-b3-kotz-5.yaml`, 12 rows (the FBI's papers of Oct. 1963–Jan. 1964 the notes give, the Allen–Scott column, Schlesinger's interview of Levison, DeLoach's oral history, the Stokes committee's print of Bland to Sullivan); 39 edges appended to `sources/witnesses/by-work/kotz-judgment-days.yaml`. A witness the registry held took the edge (Bland to Sullivan of Feb. 3, 1962 and Sept. 6, 1963; Evans to Belmont of Oct. 10 and 21; Brennan's monograph of Oct. 16; Hoover to Tolson of Oct. 25; the tape of Nov. 29; the FBI papers of Dec. 19 and 24, 1963 and Jan. 6 and 8, 1964; DeLoach to Hoover of Jan. 15, 1964; the June 10 and 12, 1963 intercepts). Where Kotz cites a copy in another FBI file than the registry's row (FBIMLK sec. 7 against Branch's FK-NR or FSC-NR, Jan. 8, 1964; O&C file 24), the edge went to the registered memorandum of that date, writer and recipient. "Office of Director, 10/28/63" (O&C file 24) is a row of its own: it may be the registry's "Note to Hoover, Oct. 28, 1963" (Reeves), same file; a lead.
+
+### New entries (fifth run)
+
+`cal.1963-08.king` (Robert Kennedy to Marietta Tree on King), `cal.1963-11-25.king-2` (Allen and Scott in the *Long Island Press*), `cal.1963-11-27.king` (Hoover to Robert Kennedy and O'Donnell: the *Herald Tribune* statement written by Jones), `cal.1963-12-02.king` (the FBI learns of the Dec. 3 appointment; Hoover's aide warns Johnson), `cal.1963-12-03.king-2` (Hoover to Jenkins: King at the Statler with Jones and Wachtel).
+
+### Rulings other than "holds" (fifth run)
+
+| Entry | The calendar | Kotz | Ruling |
+|---|---|---|---|
+| `cal.1962-11.antisubversion` | King's criticism, Nov. 1962 | "in January 1962" (78; Church, bk. III, 89–91) | pinned in part (A–B), Check |
+| `cal.1963-01-15.king` | DeLoach to Mohr, Jan. 15, 1963 | the memorandum's words, no date or addressee, after a meeting with Levison near Savannah (78) | pinned with parenthetical |
+| `cal.1963-06-22.civil-rights-bill` | the Rose Garden | Robert Kennedy first: "I have a tape of a conference call" (79) | Check (Kotz's account) |
+| `cal.1963-08-13.king` | Robert Kennedy sends the memorandum on, Aug. 20 | the same words, no date (79) | pinned to B |
+| `cal.1963-10-25.king` | the Army's copy; the recall | the recipients named; the recall (79) | pinned to B |
+| `cal.1963-10-28.baker` | Hoover sees Mansfield and Dirksen | Kennedy persuades Hoover to intervene (80) | pinned to A |
+| `cal.1962-03-22.transition-and-staff` | no record of what passed | Hoover warns the President to break off the liaison, no date (80) | Check |
+| `cal.1963-12.king` | month only | the paper's title, "Conference 12/23/63" (83 n.75) | Check (the day) |
+| `cal.1964-01-15.robert-kennedy` | Corbin | Jenkins: "not yet quite ready to take on Bobby" (83) | edit: unit D added |
+
+### Passed over (fifth run)
+
+Every dated event on pp. 77–84, page by page; those the calendar holds took the cite above.
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 77 | 1895–1950s | Hoover's schooling, Tolson, the Palmer raids, his appointment (1924), the G-men, the war years | out of the brief (before the span) |
+| 77 | 1964-01 | Hoover's notation on *Time*'s Man of the Year for 1963: "really had to reach deep into the garbage for this one" | a lead: the day of the notation (Church, bk. III, 83; O'Reilly, *Racial Matters*, 136; 77 n.47) |
+| 77 | undated | Hoover to a conference of newspaper editors: "The colored people ... are quite ignorant" | a lead: the date ("later"; Powers, *Secrecy and Power*, 411; 77 n.48) |
+| 78 | 1961–63 | The FBI's five black agents, Hoover's drivers and stewards, when the administration looked into federal hiring | a lead: the date (Powers, 324; 78 n.49) |
+| 78 | 1963-01 | King and Levison at a secret SCLC meeting outside Savannah | a lead: the day (Branch, *Pillar of Fire*, 28; 78 n.51) |
+| 78 | 1963 | The Jones tap: King's calls with women | in `cal.1963-08-05.king`, `cal.1963-08-13.king` |
+| 79 | undated | Robert Kennedy irritated by King's chuckle at the Levison question | a lead: the meetings' dates (Robert Kennedy, JFK Library oral history, 447–48; 79 n.56) |
+| 80 | 1962–63 | Hoover's warnings to the President on Campbell and Rometsch | Campbell: a Check on `cal.1962-03-22.transition-and-staff`; Rometsch: cited |
+| 80 | 1963-11-29 | "One of Johnson's first calls after returning from Dallas": Hoover | the call of Nov. 29, edited in |
+| 81 | 1963-11/12 | Johnson absorbing Hoover's reports; King's frightened reaction to the Allen–Scott column overheard | a lead: the day of King's call (the FBI's taps); Kotz's reading otherwise |
+| 82 | 1940s–1950s | Johnson and Hoover neighbors on Thirtieth Place; the beagle | out of the brief (before the span; private) |
+| 82 | 1950s | Tolson sends DeLoach to Johnson for a bill guaranteeing Hoover's full salary in retirement | a lead: the year and the act (DeLoach, LBJ Library oral history, 1–3; 82 n.69) |
+| 82 | 1962 | Estes: DeLoach and Jenkins confront the secret witness, who recants | a lead: the date (DeLoach, oral history, 3–4; Dallek, *Flawed Giant*, 30; 82 n.70) |
+| 83 | undated | Robert Kennedy's joke on FBI informants in the Communist Party | a lead: the date (Navasky, *Kennedy Justice*, 812, as the note prints it; 83 n.71) |
+| 84 | 1964-01-06/07 | The Willard Hotel | in `cal.1964-01-05.king` (cited before) |
+
+### Leads (fifth run)
+
+National:
+- `x.1963-10-28.office-of-director-oct-28-1963` and `x.1963-10-28.note-to-hoover-oct-28-1963` (both O&C file 24, Oct. 28, 1963): perhaps one paper; join them if a reader sees it.
+- The Sullivan to Belmont memorandum of Dec. 24, 1963: two rows (FK-NR, Branch; 100-3-116-684, Garrow); Kotz cites the King main file, sec. 7. Likewise Baumgardner to Sullivan, Jan. 8, 1964 (FSC-NR, Branch; FBIMLK sec. 7, Kotz).
+- The House Select Committee on Assassinations' hearings, vol. 6, print the FBI's King papers Kotz cites (131–32, 159–61): a printed source to find open.
+- The Pottinger Report (1977), its exhibits (Belmont to Tolson, Oct. 17, 1963, exhibit 13).
+- Press figures for Part III (R13): Robert S. Allen and Paul Scott (syndicated column).
+
+### What remains unread (fifth run)
+
+Nothing of the text: pp. 1–434 are now read, and the notes for every passage cited. Kotz's interview list (475–479) was not registered row by row beyond the interviews his notes cite.
