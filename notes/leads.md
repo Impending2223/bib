@@ -1550,6 +1550,11 @@ Rights in Conflict (Walker Report):
 - Califano's own records (DG, TL, SP, 69N) at the LBJ Library (345), the witnesses' roots for some 150 entries: their finding aid, to read the dates where the book and the Daily Diary differ.
 - the *Times*'s editorial on Demonstration Cities, May 15, 1966 (131), to enter it read.
 
+### McPherson, *A Political Education* (batch 3, second run, Nov. 4, 2026; notes/book-checks/mcpherson-political-education.md)
+- The Senate debate of Aug. 1960 on the Kennedy Foundation's airlift of African students, now an entry (`cal.1960-08.elections-1960-7`): the day and the Record's page (McPherson, 179–80).
+- Johnson and Luce on the press (McPherson 266–67) and Rowland Evans's talk with McPherson on the bombing, 1967 (401–02): the days (the Daily Diary; Evans and Novak's columns of 1967).
+- McPherson's memoranda, the LBJ Library's files (McPherson's office files), to read the witnesses now registered unread.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2643,3 +2648,6 @@ CQ Weekly Report, 1968-08-30:
 
 ### Califano, *The Triumph and Tragedy of Lyndon Johnson* (batch 3, second run, Nov. 4, 2026; notes/book-checks/califano-triumph-and-tragedy-of.md)
 - Lee White to the Federal Power Commission, Mar. 1966 (140); Kerner to the Seventh Circuit, Mar. 1968 (220); Fowler's departure, Dec. 1968 (332).
+
+### McPherson, *A Political Education* (batch 3, second run, Nov. 4, 2026; notes/book-checks/mcpherson-political-education.md)
+- McPherson's swearing-in as Assistant Secretary of State (the book: his birthday, the night of Humphrey's selection, Aug. 26, 1964; the roster Aug. 23) and his move to the White House (the book: March 1965; the roster's special assistant from Aug. 1965).

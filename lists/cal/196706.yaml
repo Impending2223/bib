@@ -151,6 +151,19 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v19/d158: A-B, E'
         - 'w.mcpherson-political-education 413–15: all'
     tags: [name:mcpherson-harry, name:johnson-lyndon-b, name:eshkol-levi, name:barbour-walworth]
+  - id: cal.1967-06-05.middle-east-six-day-war-3
+    when: June 5
+    date: '1967-06-05'
+    thread: middle-east-six-day-war
+    follows:
+      - cal.1967-06-05.middle-east-six-day-war
+    c: 'Tel Aviv, in the blackout. Barbour and McPherson complain to an Israeli official of no word before or since the attack; he: Israel has spared the United States embarrassment by acting alone. By McPherson''s account.'
+    n: '[[w.mcpherson-political-education]], 415. Check: the day; McPherson dates his arrival June 6 (414). See [[cal.1967-06-05.middle-east-six-day-war]]. Names: Barbour, McPherson.'
+    src:
+      c: 26b145df
+      rows:
+        - 'w.mcpherson-political-education 415: all'
+    tags: [name:barbour-walworth, name:mcpherson-harry]
   - id: cal.1967-06-06.middle-east
     when: June 6
     date: '1967-06-06'
@@ -185,6 +198,17 @@ entries:
       rows:
         - 'w.califano-triumph-and-tragedy-of 205: all'
     tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr]
+  - id: cal.1967-06-06.middle-east-six-day-war
+    when: June 6
+    date: '1967-06-06'
+    thread: middle-east-six-day-war
+    c: 'McPherson south with an Israeli officer: the trucks at the Gaza border, smoke over Gaza, turned back; by Sde Boker; north of Beersheba a search for two fedayeen. By McPherson''s account.'
+    n: '[[w.mcpherson-political-education]], 415–16. Check: the day, "next day." See [[cal.1967-06-05.middle-east-six-day-war]]. Names: McPherson.'
+    src:
+      c: 4816cbc7
+      rows:
+        - 'w.mcpherson-political-education 415–16: all'
+    tags: [name:mcpherson-harry]
   - id: cal.1967-06-07.middle-east
     when: June 7
     date: '1967-06-07'
@@ -247,6 +271,17 @@ entries:
       rows:
         - 'w.califano-triumph-and-tragedy-of 205: all'
     tags: [name:levinson-lawrence-e, name:wattenberg-ben-j, name:johnson-lyndon-b]
+  - id: cal.1967-06-07.middle-east-six-day-war
+    when: June 7
+    date: '1967-06-07'
+    thread: middle-east-six-day-war
+    c: 'Rehovot, the Weizmann Institute''s party for the Wailing Wall''s capture. Weisgal: "To the Jews in Jerusalem!" McPherson: "you''ll have to give it back if you want peace." A physicist: "Never!" By McPherson''s account.'
+    n: '[[w.mcpherson-political-education]], 417. Check: the day. See [[cal.1967-06-07.middle-east]]. Names: McPherson.'
+    src:
+      c: fa462071
+      rows:
+        - 'w.mcpherson-political-education 417: all'
+    tags: [name:mcpherson-harry]
   - id: cal.1967-06-08.middle-east
     when: June 8–10
     date: '1967-06-08'
@@ -519,6 +554,7 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d197: all'
         - 'w.mcpherson-political-education 404–13: all'
+        - 'via x.1967-06-13.mcpherson-to-johnson-vietnam-report: all'
     tags: [name:mcpherson-harry, name:johnson-lyndon-b, name:nguyen-cao-ky]
   - id: cal.1967-06-14.vietnam-congress
     when: June 14
@@ -1167,3 +1203,15 @@ entries:
       rows:
         - 'w.califano-triumph-and-tragedy-of 231–32: all'
     tags: [name:mcmillan-john-l, city:dc]
+  - id: cal.1967-06.vietnam-elections
+    when: June
+    date: 1967-06
+    thread: vietnam-elections
+    c: 'A few days before McPherson leaves Saigon. Kỳ: a civilian President "might try to negotiate with the North ... That would bring on a coup"; his problem keeping his vote down. Thiệu: "Mr. Huong ... would make an excellent President. I would be glad to serve him." The embassy cables it to Washington.'
+    n: '[[w.mcpherson-political-education]], 410–11. Check: the day, late May or early June. Names: Nguyễn Cao Kỳ, Nguyễn Văn Thiệu, Trần Văn Hương, McPherson.'
+    src:
+      c: '81271727'
+      rows:
+        - 'w.mcpherson-political-education 410–11: all'
+        - 'via x.1967-06.mcpherson-thieu-conversation: all'
+    tags: [name:nguyen-cao-ky, name:nguyen-van-thieu, name:tran-van-huong, name:mcpherson-harry]
