@@ -217,6 +217,31 @@ entries:
         - 'w.reeves-president-kennedy 330: all'
         - 'via w.reeves-president-kennedy 330 n.a-tax-cut-is-a-massive: all'
     tags: [name:sorensen-theodore-c, name:eisenhower-dwight-d, name:kennedy-john-f]
+  - id: cal.1962-07-12.vietnam
+    when: July 12
+    date: '1962-07-12'
+    thread: vietnam
+    also: [laos]
+    c: 'Bowles to Rusk, on the mission to Southeast Asia Rusk proposed the day before: worth doing soon, but not as "vague discussions"; he would test the neutrality of the region. The trip cancelled.'
+    n: '[FRUS 1961–63, II, doc. 241](https://history.state.gov/historicaldocuments/frus1961-63v02/d241). [[w.preston-war-council]], 112. Names: Bowles, Rusk. Check: the day the trip was dropped.'
+    src:
+      c: 63277fa4
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v02/d241: A'
+        - 'w.preston-war-council 112: all'
+    tags: [name:bowles-chester, name:rusk-dean]
+  - id: cal.1962-07-12.intelligence
+    when: July 12
+    date: '1962-07-12'
+    thread: intelligence
+    also: [vietnam]
+    c: 'A CIA intelligence summary on defoliation: Saigon not able to run its own program.'
+    n: '[[w.preston-war-council]], 108. To check: CIA intelligence summary, July 12, 1962, and Desmond FitzGerald to Bundy, July 12, 1962, NSF, Country File, Vietnam, box 196A, Kennedy Library (cited by [[w.preston-war-council]], 108 n.19; the summary also 109 n.22, for the hamlets'' progress). Names: Bundy.'
+    src:
+      c: 9066b1f5
+      rows:
+        - 'w.preston-war-council 108: all'
+    tags: [name:bundy-mcgeorge]
   - id: cal.1962-07-13.laos
     when: July 13
     date: '1962-07-13'
@@ -230,6 +255,17 @@ entries:
         - 'w.gibbons-u-s-government-and II, 117: all'
         - 'via w.gibbons-u-s-government-and II, 117 n.112: all'
     tags: [name:rusk-dean, name:chayes-abram, name:morse-wayne]
+  - id: cal.1962-07-13.vietnam
+    when: July 13
+    date: '1962-07-13'
+    thread: vietnam
+    c: 'Komer to Bundy, on Bowles''s trip: he would "love to go if he can reassure them along lines he favors," but there "is a bit too much of his ''neutral Southeast Asia'' concept."'
+    n: '[[w.preston-war-council]], 112. To check: Komer to Bundy, July 13, 1962, NSF, Regional Security, Southeast Asia, box 231A, Kennedy Library (cited by [[w.preston-war-council]], 112 n.33). See [[cal.1962-07-12.vietnam]]. Names: Komer, Bundy, Bowles.'
+    src:
+      c: 062e9fac
+      rows:
+        - 'w.preston-war-council 112: all'
+    tags: [name:komer-robert-w, name:bundy-mcgeorge, name:bowles-chester]
   - id: cal.1962-07-14.transition-and-staff-cleveland
     when: July 14
     date: '1962-07-14'
@@ -379,6 +415,19 @@ entries:
         - 'via w.gavin-gold-dollars-and-power 78 n.70: A'
         - 'via w.gavin-gold-dollars-and-power 79 n.71b: all'
     tags: [name:giscard-destaing-valery, name:kennedy-john-f, name:ball-george-w]
+  - id: cal.1962-07-20.berlin-and-vienna
+    when: July 20
+    date: '1962-07-20'
+    thread: berlin-and-vienna
+    also: [defense]
+    c: 'Bundy to Kennedy, on NATO''s contingency plans for Berlin: General Gray of the Joint Staff had spoken of a "pause" of some 60 days before a military response; the time between a blockage of access and hostilities, Phase II of NSAM 109, is "not a pause at all," but for diplomacy, backed by military and economic moves.'
+    n: '[FRUS 1961–63, XV, doc. 80](https://history.state.gov/historicaldocuments/frus1961-63v15/d80). [[w.preston-war-council]], 70. Names: Bundy, Kennedy.'
+    src:
+      c: 97a18137
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v15/d80: all'
+        - 'w.preston-war-council 70: all'
+    tags: [name:bundy-mcgeorge, name:kennedy-john-f]
   - id: cal.1962-07-21.alabama-al
     when: July 21
     date: '1962-07-21'
@@ -729,3 +778,27 @@ entries:
         - 'w.white-suite-3505 71–72: all'
         - 'w.kabaservice-rule-and-ruin 59: all'
     tags: [name:goldwater-barry-m, name:miller-william-e, name:eisenhower-dwight-d]
+  - id: cal.1962-07-31.vietnam
+    when: July 31
+    date: '1962-07-31'
+    thread: vietnam
+    also: [laos]
+    c: 'Forrestal to Bundy, notes on his trip to Geneva and the Far East: "while the Soviets were happy with the agreement on Laos, they have little or no interest in being helpful in South Vietnam."'
+    n: '[FRUS 1961–63, XXIV, doc. 416](https://history.state.gov/historicaldocuments/frus1961-63v24/d416). [[w.preston-war-council]], 114. Names: Forrestal, Bundy.'
+    src:
+      c: 87bd90af
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v24/d416: all'
+        - 'w.preston-war-council 114: all'
+    tags: [name:forrestal-michael-v, name:bundy-mcgeorge]
+  - id: cal.1962-07.vietnam
+    when: July
+    date: 1962-07
+    thread: vietnam
+    c: Bowles in *Foreign Affairs*, "Is Communist Ideology Becoming Irrelevant?"
+    n: '[[w.preston-war-council]], 112. To check: Chester Bowles, "Is Communist Ideology Becoming Irrelevant?," 40 Foreign Aff. 553 (1962), 561 (cited by [[w.preston-war-council]], 112 n.32). Names: Bowles. Check: the day of the issue.'
+    src:
+      c: d2a8646f
+      rows:
+        - 'w.preston-war-council 112: all'
+    tags: [name:bowles-chester]
