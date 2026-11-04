@@ -1698,7 +1698,11 @@ and unit in its title line, its sources linked under it; a column only where the
 - The entry tagged `debt-limits` (the Debt limit thread's first, June 8, 1960) carries the table of the thirteen acts
   (OMB Table 7.3, each act read in the Statutes); every act has its signing entry, the House and Senate roll calls
   entries of their own (thread `economy-debt-limit`).
-- A signing entry tagged `bill:<key>` carries the bill's course (`congress/bills.yaml`): each step dated by the bound
+- The entries tagged `bill:<key>` carry the bill's course (`congress/bills.yaml`): the entry of its first introduction
+  in either chamber (one made where none told it), and on each later year's page its course runs into, that year's
+  first entry concerning the bill; never twice on a page (the owner, Nov. 4, 2026; `check` holds them; bills.py STYLE
+  6-7). The small-caps title alone, the bill and Congress muted under it; the chamber "H" or "S", unheaded; the year
+  and the Record's volume a row, the page alone linked; it fits 400px. Each step dated by the bound
   Record's daily parts (the History of Bills prints pages, not dates), its page linked to that chamber's day on
   govinfo, its roll calls linked to Voteview. Now the Revenue Acts of 1962 and 1964, the Trade Expansion Act, the
   Civil Rights Acts of 1964 and 1968, the Economic Opportunity Act, the Southeast Asia (Gulf of Tonkin) resolution, the

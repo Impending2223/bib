@@ -1,8 +1,9 @@
 # A bill's course, step by step, from its introduction to its approval: kept by hand from the bound Congressional
 # Record's History of Bills and Resolutions (the year's Index part on govinfo), each page turned to its day by the bound
-# Record's daily granules, and the roll calls from Voteview. Rendered by tools/bib/bills.py under the calendar entry
-# tagged `bill:<key>` (the signing); `check` fails on a step out of order, a malformed roll call or granule, an entry or
-# a bill key that answers nothing.
+# Record's daily granules, and the roll calls from Voteview. Rendered by tools/bib/bills.py under the calendar entries
+# tagged `bill:<key>`: the bill's first introduction's, and each later year's first concerning the bill (its STYLE 7);
+# `check` fails on a step out of order, a malformed roll call or granule, an entry or a bill key that answers nothing,
+# a table not under the introduction, or a page of the calendar the course runs into with no table or two.
 #
 #   history   where the History of Bills prints the bill: [year, Record part, granule]
 #   steps     date (the day the Record bears), chamber (House, Senate, or none for the President), what (the step, in
@@ -21,7 +22,7 @@ bills:
     steps:
       - {date: '1963-01-24', what: Tax message, entry: cal.1963-01-24.economy}
       - {date: '1963-02-06', until: '1963-03-27', chamber: House, what: Ways and Means hearings on the message, entry: cal.1963-02-06.economy}
-      - {date: '1963-09-10', chamber: House, what: Introduced by Mills; referred to Ways and Means, page: 16728, rec: GPO-CRECB-1963-pt12-13-2}
+      - {date: '1963-09-10', chamber: House, what: Introduced by Mills; referred to Ways and Means, page: 16728, rec: GPO-CRECB-1963-pt12-13-2, entry: cal.1963-09-10.economy}
       - {date: '1963-09-16', chamber: House, what: 'Reported, H. Rept. 749', page: 17014, rec: GPO-CRECB-1963-pt13-2-1}
       - {date: '1963-09-24', chamber: House, what: 'Closed rule, H. Res. 527, adopted; debate opens', page: 17900, rec: GPO-CRECB-1963-pt13-8-2,
          votes: [[H, 88, 67, 324, 67, rule]]}
@@ -49,7 +50,7 @@ bills:
     granule: STATUTE-82-Pg251
     history: [[1968, 25, GPO-CRECB-1968-pt25-2]]
     steps:
-      - {date: '1968-02-20', chamber: House, what: 'Introduced by Mills and Byrnes, the excise rates continued; referred to Ways and Means', page: 3575, rec: GPO-CRECB-1968-pt3-7-2}
+      - {date: '1968-02-20', chamber: House, what: 'Introduced by Mills and Byrnes, the excise rates continued; referred to Ways and Means', page: 3575, rec: GPO-CRECB-1968-pt3-7-2, entry: cal.1968-02-20.economy-surcharge-2}
       - {date: '1968-02-26', chamber: House, what: 'Reported, H. Rept. 1104', page: 4039, rec: GPO-CRECB-1968-pt4-1-1}
       - {date: '1968-02-28', chamber: House, what: 'Rule, H. Res. 1074', page: 4461, rec: GPO-CRECB-1968-pt4-3-1}
       - {date: '1968-02-29', chamber: House, what: Passed without a roll call, page: 4704, rec: GPO-CRECB-1968-pt4-4-2}
@@ -79,8 +80,8 @@ bills:
     granule: STATUTE-76-Pg960
     history: [[1962, 18, GPO-CRECB-1962-pt18-2]]
     steps:
-      - {date: '1961-04-20', what: Tax message, entry: cal.1961-04-20.cuba}
-      - {date: '1962-03-12', chamber: House, what: Introduced by Mills; referred to Ways and Means, page: 3823, rec: GPO-CRECB-1962-pt3-9-1}
+      - {date: '1961-04-20', what: Tax message, entry: cal.1961-04-20.economy}
+      - {date: '1962-03-12', chamber: House, what: Introduced by Mills; referred to Ways and Means, page: 3823, rec: GPO-CRECB-1962-pt3-9-1, entry: cal.1962-03-12.economy}
       - {date: '1962-03-19', chamber: House, what: 'Reported, H. Rept. 1447', page: 4475, rec: GPO-CRECB-1962-pt4-2-1}
       - {date: '1962-03-28', chamber: House, what: 'Closed rule, H. Res. 576, adopted; debate opens', page: 5295, rec: GPO-CRECB-1962-pt4-10-2, votes: [[H, 87, 134, 224, 185, previous question], [H, 87, 135, 234, 172, rule]]}
       - {date: '1962-03-29', chamber: House, what: 'Byrnes''s motion to recommit refused; amended and passed', page: 5433, rec: GPO-CRECB-1962-pt4-11-1, votes: [[H, 87, 136, 190, 225, recommittal], [H, 87, 137, 219, 196, passage]]}
@@ -103,7 +104,7 @@ bills:
     history: [[1962, 18, GPO-CRECB-1962-pt18-2]]
     steps:
       - {date: '1962-01-25', what: Trade message, entry: cal.1962-01-25.trade}
-      - {date: '1962-06-04', chamber: House, what: Introduced by Mills; referred to Ways and Means, page: 9620, rec: GPO-CRECB-1962-pt7-11-1}
+      - {date: '1962-06-04', chamber: House, what: Introduced by Mills; referred to Ways and Means, page: 9620, rec: GPO-CRECB-1962-pt7-11-1, entry: cal.1962-06-04.trade}
       - {date: '1962-06-12', chamber: House, what: 'Reported with an amendment, H. Rept. 1818', page: 10195, rec: GPO-CRECB-1962-pt8-2-1}
       - {date: '1962-06-27', chamber: House, what: 'Rule, H. Res. 712, adopted; debate opens', page: 11910, rec: GPO-CRECB-1962-pt9-4-2}
       - {date: '1962-06-28', chamber: House, what: 'Mason''s motion to recommit refused; amended and passed', page: 12090, rec: GPO-CRECB-1962-pt9-5-1, votes: [[H, 87, 165, 171, 253, recommittal], [H, 87, 166, 298, 125, passage]], entry: cal.1962-06-28.trade}
@@ -126,7 +127,7 @@ bills:
     history: [[1963, 20, GPO-CRECB-1963-pt20-2], [1964, 19, GPO-CRECB-1964-pt19-2]]
     steps:
       - {date: '1963-06-19', what: Civil rights message, entry: cal.1963-06-19.civil-rights-bill}
-      - {date: '1963-06-20', chamber: House, what: Introduced by Celler; referred to the Judiciary Committee, page: 11252, rec: GPO-CRECB-1963-pt9-1-1, note: 'The History prints p. 11227, a page of June 19; the bill is introduced in the House''s proceedings of June 20, p. 11252.'}
+      - {date: '1963-06-20', chamber: House, what: Introduced by Celler; referred to the Judiciary Committee, page: 11252, rec: GPO-CRECB-1963-pt9-1-1, note: 'The History prints p. 11227, a page of June 19; the bill is introduced in the House''s proceedings of June 20, p. 11252.', entry: cal.1963-06-20.civil-rights-bill-2}
       - {date: '1963-11-20', chamber: House, what: 'Reported with an amendment, H. Rept. 914', page: 22550, rec: GPO-CRECB-1963-pt17-3-2}
       - {date: '1963-12-02', chamber: House, what: 'Additional views, H. Rept. 914, pt. 2', page: 23027, rec: GPO-CRECB-1963-pt17-10-1}
       - {date: '1964-01-31', chamber: House, what: 'Rule, H. Res. 616; debate opens', page: 1511, rec: GPO-CRECB-1964-pt2-2-2, entry: cal.1964-01-31.civil-rights-bill}
@@ -154,7 +155,7 @@ bills:
     history: [[1964, 19, GPO-CRECB-1964-pt19-2]]
     steps:
       - {date: '1964-03-16', what: Message on poverty, entry: cal.1964-03-16.poverty}
-      - {date: '1964-03-16', chamber: Senate, what: Introduced by McNamara and others; referred to Labor and Public Welfare, page: 5317, rec: GPO-CRECB-1964-pt4-10-2}
+      - {date: '1964-03-16', chamber: Senate, what: Introduced by McNamara and others; referred to Labor and Public Welfare, page: 5317, rec: GPO-CRECB-1964-pt4-10-2, entry: cal.1964-03-16.poverty}
       - {date: '1964-05-26', chamber: House, what: H.R. 11377 introduced by Landrum; referred to Education and Labor, page: 11991, rec: GPO-CRECB-1964-pt9-6-2}
       - {date: '1964-06-03', chamber: House, what: 'H.R. 11377 reported, H. Rept. 1458', page: 12534, rec: GPO-CRECB-1964-pt9-11-1}
       - {date: '1964-07-08', chamber: Senate, what: 'Reported with an amendment, S. Rept. 1218', page: 16053, rec: GPO-CRECB-1964-pt12-6-1}
@@ -177,8 +178,8 @@ bills:
     history: [[1964, 19, GPO-CRECB-1964-pt19-2]]
     steps:
       - {date: '1964-08-05', what: Message asking for a resolution, entry: cal.1964-08-05.vietnam}
-      - {date: '1964-08-05', chamber: Senate, what: 'S.J. Res. 189 introduced by Fulbright, Hickenlooper, Russell and Saltonstall; referred to Foreign Relations and Armed Services jointly', page: 18075, rec: GPO-CRECB-1964-pt14-2-1}
-      - {date: '1964-08-05', chamber: House, what: Introduced by Morgan; referred to Foreign Affairs, page: 18252, rec: GPO-CRECB-1964-pt14-2-2}
+      - {date: '1964-08-05', chamber: Senate, what: 'S.J. Res. 189 introduced by Fulbright, Hickenlooper, Russell and Saltonstall; referred to Foreign Relations and Armed Services jointly', page: 18075, rec: GPO-CRECB-1964-pt14-2-1, entry: cal.1964-08-05.vietnam-7}
+      - {date: '1964-08-05', chamber: House, what: Introduced by Morgan; referred to Foreign Affairs, page: 18252, rec: GPO-CRECB-1964-pt14-2-2, entry: cal.1964-08-05.vietnam-7}
       - {date: '1964-08-06', chamber: House, what: 'Reported, H. Rept. 1708', page: 18338, rec: GPO-CRECB-1964-pt14-3-1}
       - {date: '1964-08-06', until: '1964-08-07', chamber: Senate, what: 'S.J. Res. 189 reported, S. Rept. 1329; debated', page: 18341, rec: GPO-CRECB-1964-pt14-3-2, entry: cal.1964-08-06.vietnam}
       - {date: '1964-08-07', chamber: House, what: Passed under suspension of the rules, page: 18538, rec: GPO-CRECB-1964-pt14-4-2, votes: [[H, 88, 197, 416, 0, passage]], entry: cal.1964-08-07.vietnam}
@@ -219,7 +220,7 @@ bills:
     history: [[1965, 22, GPO-CRECB-1965-pt22-2]]
     steps:
       - {date: '1965-01-07', what: Health message, entry: cal.1965-01-07.medicare}
-      - {date: '1965-03-24', chamber: House, what: Introduced by Mills; referred to Ways and Means, page: 5798, rec: GPO-CRECB-1965-pt5-1-1}
+      - {date: '1965-03-24', chamber: House, what: Introduced by Mills; referred to Ways and Means, page: 5798, rec: GPO-CRECB-1965-pt5-1-1, entry: cal.1965-03-24.medicare}
       - {date: '1965-03-29', chamber: House, what: 'Reported, H. Rept. 213', page: 6282, rec: GPO-CRECB-1965-pt5-4-2}
       - {date: '1965-04-07', chamber: House, what: 'Rule, H. Res. 322; debate opens', page: 7201, rec: GPO-CRECB-1965-pt6-1-1}
       - {date: '1965-04-08', chamber: House, what: 'Byrnes''s motion to recommit refused; passed', page: 7444, rec: GPO-CRECB-1965-pt6-2-1, votes: [[H, 89, 34, 191, 236, recommittal], [H, 89, 35, 313, 115, passage]], entry: cal.1965-04-08.medicare}
@@ -243,7 +244,7 @@ bills:
     history: [[1965, 22, GPO-CRECB-1965-pt22-2]]
     steps:
       - {date: '1965-01-12', what: Education message, entry: cal.1965-01-12.school-aid}
-      - {date: '1965-01-12', chamber: House, what: Introduced by Perkins; referred to Education and Labor, page: 627, rec: GPO-CRECB-1965-pt1-7-2}
+      - {date: '1965-01-12', chamber: House, what: Introduced by Perkins; referred to Education and Labor, page: 627, rec: GPO-CRECB-1965-pt1-7-2, entry: cal.1965-01-12.school-aid}
       - {date: '1965-03-08', chamber: House, what: 'Reported with an amendment, H. Rept. 143', page: 4393, rec: GPO-CRECB-1965-pt4-2-2}
       - {date: '1965-03-24', chamber: House, what: 'Rule, H. Res. 285; debate opens', page: 5727, rec: GPO-CRECB-1965-pt5-1-1}
       - {date: '1965-03-26', chamber: House, what: Motion to recommit refused; amended and passed, page: 6152, rec: GPO-CRECB-1965-pt5-3-1, votes: [[H, 89, 25, 149, 267, recommittal], [H, 89, 26, 263, 153, passage]], entry: cal.1965-03-26.school-aid}
@@ -263,7 +264,7 @@ bills:
     history: [[1965, 22, GPO-CRECB-1965-pt22-2]]
     steps:
       - {date: '1965-01-13', what: Immigration message, entry: cal.1965-01-13.immigration}
-      - {date: '1965-01-13', chamber: House, what: Introduced by Celler; referred to the Judiciary Committee, page: 650, rec: GPO-CRECB-1965-pt1-8-1}
+      - {date: '1965-01-13', chamber: House, what: Introduced by Celler; referred to the Judiciary Committee, page: 650, rec: GPO-CRECB-1965-pt1-8-1, entry: cal.1965-01-13.immigration-2}
       - {date: '1965-08-09', chamber: House, what: 'Reported with an amendment, H. Rept. 745', page: 19739, rec: GPO-CRECB-1965-pt14-9-1}
       - {date: '1965-08-24', chamber: House, what: 'Rule, H. Res. 533; debate opens', page: 21571, rec: GPO-CRECB-1965-pt16-4-2}
       - {date: '1965-08-25', chamber: House, what: Amended and passed, page: 21821, rec: GPO-CRECB-1965-pt16-5-2, votes: [[H, 89, 125, 318, 95, passage]], entry: cal.1965-08-25.immigration}
@@ -285,7 +286,7 @@ bills:
     history: [[1966, 22, GPO-CRECB-1966-pt22-2]]
     steps:
       - {date: '1966-01-19', what: 'Johnson to Mills, the bill asked', entry: cal.1966-01-19.economy}
-      - {date: '1966-02-10', chamber: House, what: Introduced by Mills; referred to Ways and Means, page: 2847, rec: GPO-CRECB-1966-pt3-1-1}
+      - {date: '1966-02-10', chamber: House, what: Introduced by Mills; referred to Ways and Means, page: 2847, rec: GPO-CRECB-1966-pt3-1-1, entry: cal.1966-02-10.economy-tax-adjustment}
       - {date: '1966-02-15', chamber: House, what: 'Reported, H. Rept. 1285', page: 3017, rec: GPO-CRECB-1966-pt3-3-1}
       - {date: '1966-02-23', chamber: House, what: 'Closed rule, H. Res. 736, adopted; motion to recommit refused; amended and passed', page: 3676, rec: GPO-CRECB-1966-pt3-9-1, votes: [[H, 89, 210, 327, 50, rule], [H, 89, 211, 187, 207, recommittal], [H, 89, 212, 246, 146, passage]], entry: cal.1966-02-23.economy-tax-adjustment}
       - {date: '1966-02-24', chamber: Senate, what: Referred to Finance, page: 3925, rec: GPO-CRECB-1966-pt3-10-1}
@@ -307,7 +308,7 @@ bills:
     granule: STATUTE-82-Pg73
     history: [[1967, 28, GPO-CRECB-1967-pt28-2], [1968, 25, GPO-CRECB-1968-pt25-2]]
     steps:
-      - {date: '1967-01-17', chamber: House, what: Introduced by Celler; referred to the Judiciary Committee, page: 713, rec: GPO-CRECB-1967-pt1-5-2}
+      - {date: '1967-01-17', chamber: House, what: Introduced by Celler; referred to the Judiciary Committee, page: 713, rec: GPO-CRECB-1967-pt1-5-2, entry: cal.1967-01-17.open-housing}
       - {date: '1967-02-15', what: Message on equal justice, entry: cal.1967-02-15.open-housing}
       - {date: '1967-06-29', chamber: House, what: 'Reported with an amendment, H. Rept. 473', page: 17975, rec: GPO-CRECB-1967-pt14-1-1}
       - {date: '1967-08-15', chamber: House, what: 'Rule, H. Res. 856, adopted; debate opens', page: 22670, rec: GPO-CRECB-1967-pt17-4-2, votes: [[H, 90, 112, 330, 77, rule]]}
