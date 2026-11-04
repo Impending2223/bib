@@ -102,13 +102,19 @@ w.dallek-flawed-giant 70 n.36: B, E', '<a link's address>: all']}`), written by 
 mechanical map to start from, `./bib claims stats` the count. The STYLE: `tools/bib/claims.py`.
 
 What the works rest on (the same day: the agents to log "the materials and records cited for the claims in the
-secondary sources they read", and "identify the ABCD fact, claim, or quotation it sources, along with the entry"): a
-reading run that cites a work's page for an entry describes each record the work's note gives for it once, in
-`sources/cited-records/<card>.yaml` (the schema: `tools/bib/cited_records.py`; check [cited-records]), and ties it to
-the units it grounds by a `via` row of the entry's map (`via w.dallek-flawed-giant 70 n.36: B, E`); several records
-under one note for one passage, each its row, the same letters. The unread record joins "To check:" with the work it
-comes from ("To check: Bundy to Johnson, Feb. 7, 1965, NSF, LBJ Library (cited by [[w.dallek-flawed-giant]], 251
-n.14).").
+secondary sources they read"; Oct. 30: "a trace/map of *all* the *ultimate*, or *root*, materials that bear on a fact or
+event"; "Don't drop the first rule"): the witness registry, `sources/witnesses/<year>.yaml` (a row a witness: a
+document, recording, transcript, print, statement, study, memoir; its upstream edges and, at a root, why it ends) and
+`sources/witnesses/by-work/<card>.yaml` (a work's edges, page and note to the witness its text rests on); schema, STYLE
+and check [witnesses]: `tools/bib/witnesses.py`; the memo, `notes/extensions/memos/witnesses.md`; the readers' rules,
+`notes/briefs/reader.md`, R35-R43. A `via` row of the entry's map ties a witness to the units it grounds (`via
+x.1965-02-07.bundy-to-johnson: B, E`, or through the work's edge, `via w.dallek-flawed-giant 70 n.36: B, E`); `./bib
+stemma ID` prints each unit's tree to its roots, counting roots and agents, never works; `--leads` the open branches.
+The unread record joins "To check:" with the work it comes from ("To check: Bundy to Johnson, Feb. 7, 1965, NSF, LBJ
+Library (cited by [[w.dallek-flawed-giant]], 251 n.14)."). Converted Nov. 3, 2026 from `sources/cited-records/` (the
+rule of Oct. 28, now on the shelf: `tools/witnesses/convert_records.py`, once); witnesses that are one FRUS document
+joined by `tools/witnesses/join_frus.py` (rerunnable); the near matches left for a reader, `notes/witnesses-near-matches.md`. Readers at work together write new
+witnesses to `inbox/witnesses/<patch>.yaml`, never the shared year files; the merger folds them in (`tools/witnesses/fold.py`).
 
 Calendar entries on the States and the cities take hidden `state:<postal code>` and `city:<slug>` tags (`state:ny`,
 `city:nyc`) and the threads in `notes/threads.md` ("The States and the cities").
@@ -183,8 +189,8 @@ elections/primaries.yaml  Senate primaries from CQ's *Guide*, by race (kept by h
 elections/conventions.yaml  the national conventions: each delegation's votes, how chosen, the roll calls (kept by hand)
 sources/jacobson/         Gary C. Jacobson's district file, 1946-2014, and its codebook (CC0; its README); held against the
                           returns by tools/elections/jacobson.py (notes/jacobson-compare.md, generated)
-sources/cited-records/    the records each secondary work cites for the calendar's claims, described once, a file a work
-                          (kept by agent); the claims each grounds are `via` rows of the entries' maps (tools/bib/claims.py)
+sources/witnesses/        the witness registry: what each claim rests on, to its roots, a file a year, and by-work/, each
+                          work's edges (kept by agent; tools/bib/witnesses.py)
 notes/extensions/         proposals and shelved drafts: memos/ (the research memos before a part was built), shelf/ (drafts
                           set aside, code and data, not read by check or build), README.md (the index, by hand)
 notes/leads.md            leads to check later: events, figures and sources the drafting agents could not place
@@ -1631,8 +1637,8 @@ the series index, the README and the top bar (数; at first kept out of the bar,
 The owner's request (Oct. 20–22, 2026): the forces and the machines a year, apart from the economic tables, under Armed
 Forces Day (`tools/bib/afday.py` calls `forces.afd_block(y)`: the figures of the year before; `forces.block(year)` renders
 a year). `forces/us.yaml` and `forces/world.yaml`, kept by hand, every figure read off a page (the headers are the
-schema); `tools/bib/forces.py` renders and checks them (STYLE notes at the top). A table a kind, each folded, its date
-and unit in the summary, its sources linked under it; a column only where the year has it ("Printed then" beside
+schema); `tools/bib/forces.py` renders and checks them (STYLE notes at the top). A table a kind, each open, its date
+and unit in its title line, its sources linked under it; a column only where the year has it ("Printed then" beside
 "DMDC today", never empty); wide tables split to fit 400px.
 
 - The United States: men on active duty by service, June 30 (the *Statistical Abstract*, 1965 and 1969 eds., beside
@@ -1780,7 +1786,7 @@ logic, abbr, title and span. A dated section goes to the part its first day fall
 
 ## The calendar's contents, and its tables and maps
 
-Nothing folded by default (the owner's rule, Oct. 30, 2026: "I'm not a fan of the collapsed military tables, for example. I want that reversed and not followed as a norm"): a table or map in the calendar is shown open; a fold only where the owner asked for one (the day's materials, Oct. 22); the forces tables' folds to be reversed; the other folds now in the build kept (the same day: "Keep the other folds for now") (`notes/extensions/memos/volume.md`, §1). Two standing rules (the owner's rules, Oct. 21, 2026; `tools/bib/contents.py`, its STYLE notes):
+Nothing folded by default (the owner's rule, Oct. 30, 2026: "I'm not a fan of the collapsed military tables, for example. I want that reversed and not followed as a norm"): a table or map in the calendar is shown open; a fold only where the owner asked for one (the day's materials, Oct. 22); the forces tables' folds reversed (Nov. 3, 2026); the other folds now in the build kept (the same day: "Keep the other folds for now") (`notes/extensions/memos/volume.md`, §1). Two standing rules (the owner's rules, Oct. 21, 2026; `tools/bib/contents.py`, its STYLE notes):
 
 - The contents at the head of each calendar page (and the Outline drawer, a copy of them): the Threads line, then the
   months in a grid, a year cell spanning the year's rows and six months a row (Jan–Jun, Jul–Dec), each month in its
@@ -1845,6 +1851,15 @@ list's own blocks), or a link to an anchor inside one (the page's `lzmap` names 
 `lazydays.split` runs on the finished page, after the injects and the routing, and curls the contents as `smart.py`
 curls the page; `./bib links` reads each page with its month files. Opened as files (not through a server), the blocks
 stay empty.
+
+The day's order (the owner's ruling, Oct. 29, 2026: "Alphabetic sort, first by the name of the entry's (primary)
+thread, then by the text of the entry"): at build, the day's entries and the month's undated block by the primary
+thread's key in the thread index (th.yaml's `sort:`; a subthread under its parent), then `c` as plain text, both folded;
+no file is reordered, so where an entry sits in its month's file no longer matters. Optional, hidden: `follows: [<id>]`
+(the entry follows those named, the same day; a topological sort, the alphabetical key breaking ties; its basis in the
+note), `time:` (a UTC instant, '1961-10-17T00:30Z', the local time turned by the place's IANA zone; checked, not yet
+shown) and `time_approx: true` (the source's time is loose: "that evening", "about 7"); never a made-up hour. STYLE and
+check [day-order]: `tools/bib/dayorder.py`.
 
 ```
 tools/daybook/make_daybook.py   writes daybook/<YYYY-MM>.yaml (needs the network; the build does not)
@@ -2050,6 +2065,18 @@ lists both, by year (the series index's Pages, README).
 - `./bib build ebooks` (the books, the feeds, the page), `./bib build feeds` (the feeds and the page); the full build
   does both. `check` fails on a file in `sources/frus-text/` that is not a daybook month's xz, and warns on a daybook
   month without one [ebooks].
+
+## The owner's desk
+
+The owner edits the calendar from a phone at the desk, https://claude.ai/artifact/G7GDP7qa9yYsfqJ2wGPcCq (the owner's
+request, Oct. 29, 2026: find, edit `c` and `n` with a preview, add an entry, the thread statements, a notebook; every
+keystroke saved as a draft in the artifact's store, "Ready" the one conscious step). Its data is the calendar exported a
+month a file beside the page (`python3 -I tools/desk/export.py DIR`, each entry with its rev). At each 5 p.m. resume, or
+on "merge my edits": the Ready edits read from the store (ArtifactData list, `edits`, out_dir), turned into
+`inbox/<date>-owner-desk.yaml` by `tools/desk/bridge.py patch`, merged (`./bib merge --auto`), checked, their outcomes
+written back (`bridge.py after`: merged, or needs-you with the series' text and the reason), and the desk's data
+republished so the next base is current (the steps: its docstring). A conflict keeps the series' text and hands the
+owner's back; nothing of the owner's is dropped.
 
 ## Working hours
 

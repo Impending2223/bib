@@ -17,7 +17,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 LISTS = os.path.join(ROOT, "lists")
 
 # Field order inside an entry. Anything else is kept, after these.
-ENTRY_FIELDS = ["id", "when", "date", "thread", "also", "s", "work", "card_note", "byline", "ditto", "c", "c2", "c3", "r", "n", "src", "gloss", "tags",
+ENTRY_FIELDS = ["id", "when", "date", "time", "time_approx", "thread", "also", "follows", "s", "work", "card_note", "byline", "ditto", "c", "c2", "c3", "r", "n", "src", "gloss", "tags",
                 "aliases", "conflict"]
 
 

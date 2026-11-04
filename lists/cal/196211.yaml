@@ -3,18 +3,32 @@
 list: cal
 section: XXXVI
 entries:
+  - id: cal.1962-11-01.missile-crisis
+    when: Nov. 1
+    date: '1962-11-01'
+    thread: missile-crisis
+    also: [defense, cuba]
+    c: 'The Joint Chiefs'' estimate for the White House of an invasion of Cuba: 18,484 casualties, killed, missing and wounded, 4,462 the first day; no Soviet units nor tactical nuclear weapons assumed. The Atlantic command: estimates if the enemy uses tactical atomic weapons "cannot be meaningful."'
+    n: '[[w.fursenko-one-hell-of-a]], 298–99. To check: Marine Corps summary, Nov. 1, 1962, Cuban Missile Crisis collection, National Security Archive (cited by [[w.fursenko-one-hell-of-a]], 298 n.36, 299 n.39). See [[cal.1962-10-28.missile-crisis]].'
+    src:
+      c: f3421c37
+      rows:
+        - 'w.fursenko-one-hell-of-a 298–99: all'
+        - 'via w.fursenko-one-hell-of-a 298 n.36: all'
+        - 'via w.fursenko-one-hell-of-a 299 n.39: C'
   - id: cal.1962-11-02.missile-crisis
     when: Nov. 2
     date: '1962-11-02'
     thread: missile-crisis
     c: 'Kennedy reports the bases being dismantled. Mikoyan in Havana three weeks: inspection, the IL-28s.'
-    n: 'Radio and Television Remarks on the Dismantling of Soviet Missile Bases in Cuba, [1962 Pub. Papers 821](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=881) (Nov. 2, 1962). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 215–17 (Mikoyan''s November visit; inspection; the IL-28s). To check: [[w.mikoyan-anatomiya-karibskogo-krizisa]]; Senate Foreign Relations Committee, *Executive Sessions* (Historical Series), XV, Jan. 11, 1963, 15–16 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 215 n.86). See [[cal.1962-05-24.missile-crisis]]. Names: Mikoyan.'
+    n: 'Radio and Television Remarks on the Dismantling of Soviet Missile Bases in Cuba, [1962 Pub. Papers 821](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=881) (Nov. 2, 1962). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 215–17 (Mikoyan''s November visit; inspection; the IL-28s). [[w.fursenko-one-hell-of-a]], 290–315 (Mikoyan''s mission). To check: [[w.mikoyan-anatomiya-karibskogo-krizisa]]; Senate Foreign Relations Committee, *Executive Sessions* (Historical Series), XV, Jan. 11, 1963, 15–16 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 215 n.86). See [[cal.1962-05-24.missile-crisis]]. Names: Mikoyan.'
     src:
       c: 7e49123a
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=881: A'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 215–17: B'
         - 'via w.kaplan-mcnamara-ascendancy-1961-1965 215 n.86: B'
+        - 'w.fursenko-one-hell-of-a 290–315: B'
     tags: [name:kennedy-john-f, name:mikoyan-anastas]
   - id: cal.1962-11-02.middle-east
     when: Nov. 2
@@ -35,14 +49,24 @@ entries:
     date: '1962-11-04'
     thread: missile-crisis
     c: 'Khrushchev, on the list of offensive weapons Stevenson handed Kuznetsov: arms always called defensive put among them. Received Nov. 5.'
-    n: 'FRUS 1961–63, VI, doc. [73](https://history.state.gov/historicaldocuments/frus1961-63v06/d73). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Khrushchev, Stevenson, Kuznetsov.'
+    n: 'FRUS 1961–63, VI, doc. [73](https://history.state.gov/historicaldocuments/frus1961-63v06/d73). [[w.fursenko-one-hell-of-a]], 298. See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Khrushchev, Stevenson, Kuznetsov.'
+    src:
+      c: 4121b702
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v06/d73: all'
+        - 'w.fursenko-one-hell-of-a 298: A'
     tags: [name:khrushchev-nikita-s, name:stevenson-adlai-e, name:kuznetsov-vasily-v]
   - id: cal.1962-11-06.elections-1962
     when: Nov. 6
     date: '1962-11-06'
     thread: elections-1962
     c: Midterms. Democrats lose a few House seats, gain in the Senate. Brown beats Nixon. Romney, Scranton, Rockefeller elected governor; Edward Kennedy, McGovern, Bayh to the Senate.
-    n: '[*Statistics of the Congressional Election of November 6, 1962*](https://clerk.house.gov/member_info/electionInfo/1962election.pdf) (Clerk of the House, 1963). See [[cal.1962-05-05.elections-1962]]. Names: Brown, Nixon, Romney, Scranton, Rockefeller, Edward M. Kennedy, McGovern, Bayh.'
+    n: '[*Statistics of the Congressional Election of November 6, 1962*](https://clerk.house.gov/member_info/electionInfo/1962election.pdf) (Clerk of the House, 1963). [[w.sorensen-kennedy]], 354 (the House and Senate results). See [[cal.1962-05-05.elections-1962]]. Names: Brown, Nixon, Romney, Scranton, Rockefeller, Edward M. Kennedy, McGovern, Bayh.'
+    src:
+      c: 7eadd919
+      rows:
+        - 'https://clerk.house.gov/member_info/electionInfo/1962election.pdf: all'
+        - 'w.sorensen-kennedy 354: A-B'
     tags: [election:1962, name:nixon-richard-m, name:scranton-william-w, name:rockefeller-nelson, name:kennedy-edward-m, name:mcgovern-george, name:bayh-birch, name:brown-edmund-g, name:romney-george-w]
   - id: cal.1962-11-06.governors
     when: Nov. 6
@@ -391,13 +415,66 @@ entries:
     thread: vietnam
     also: [robert-kennedy]
     c: 'Forrestal to Robert Kennedy, after a meeting of the Special Group (Counterinsurgency): he and Harriman think the war not going as well as Kennedy is told; the political problem growing worse; Diệm not following the military operations with social and economic programs.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 713. To check: Forrestal to Robert Kennedy, Nov. 7, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 713 n.56). Names: Forrestal, Robert Kennedy, Harriman, Ngô Đình Diệm.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 713. [[w.preston-war-council]], 115. To check: Forrestal to Robert Kennedy, Nov. 7, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 713 n.56). Names: Forrestal, Robert Kennedy, Harriman, Ngô Đình Diệm.'
     src:
       c: 83cdd872
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 713: all'
         - 'via w.schlesinger-robert-kennedy-and-his 713 n.56: all'
+        - 'w.preston-war-council 115: all'
     tags: [name:forrestal-michael-v, name:kennedy-robert-f, name:harriman-w-averell, name:ngo-dinh-diem]
+  - id: cal.1962-11-07.court
+    when: Nov. 7
+    date: '1962-11-07'
+    thread: court
+    also: [desegregation-public-places]
+    c: 'The Glen Echo sit-in case argued. Cox for the United States: the Court need not reach the broad question; the park''s guard a deputized sheriff, so the expulsion was state action.'
+    n: '[[w.navasky-kennedy-justice]], 290 (the argument; Marshall and Greenberg''s visit to Cox in September; his memorandum to Robert Kennedy, "undetermined"). Names: Cox, Marshall, Robert Kennedy. Check: the case (*Griffin v. Maryland*) and the day of argument (the Court''s journal).'
+    src:
+      c: 57ad12ed
+      rows:
+        - 'w.navasky-kennedy-justice 290: all'
+    tags: [name:cox-archibald, name:marshall-burke, name:kennedy-robert-f, state:md]
+  - id: cal.1962-11-08.testing
+    when: Nov. 8
+    date: '1962-11-08'
+    thread: testing
+    also: [china]
+    c: 'Bundy to Kennedy, "Test Ban: Black Boxes, Khrushchev, and China": the British to say the black boxes reduce but do not end on-site inspection; Kuznetsov''s offer of three on Soviet soil. Raise with Khrushchev the Chinese and a test ban: "A Red China nuclear presence is the greatest single threat to the status quo over the next few years."'
+    n: '[FRUS 1961–63, VII, doc. 243](https://history.state.gov/historicaldocuments/frus1961-63v07/d243). [[w.preston-war-council]], 60 (China). Names: Bundy, Kennedy, Khrushchev, Kuznetsov.'
+    src:
+      c: 49b32cc9
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v07/d243: all'
+        - 'w.preston-war-council 60: C'
+    tags: [name:bundy-mcgeorge, name:kennedy-john-f, name:khrushchev-nikita-s, name:kuznetsov-vasily-v]
+  - id: cal.1962-11-09.intelligence
+    when: Nov. 9
+    date: '1962-11-09'
+    thread: intelligence
+    also: [missile-crisis]
+    c: 'The Foreign Intelligence Advisory Board reviews the intelligence on Cuba, by Clifford''s account: no flights over Cuba from Aug. 29 to Oct. 14; the delay "dangerously and inexcusably long."'
+    n: '[[w.clifford-counsel-to-the-president-2]], 357–58. See [[cal.1962-09-28.missile-crisis]]. Names: Clifford.'
+    src:
+      c: b0659eaf
+      rows:
+        - 'w.clifford-counsel-to-the-president-2 357–58: all'
+    tags: [name:clifford-clark]
+  - id: cal.1962-11-09.missile-crisis
+    when: Nov. 9
+    date: '1962-11-09'
+    thread: missile-crisis
+    also: [robert-kennedy]
+    c: 'At his home, Robert Kennedy to Bolshakov, by Dobrynin''s report, as his "personal opinion": the Il-28s to go "as soon as possible," no date named, or to be flown only by Soviet pilots. An hour later, after telling the President at the dinner for Gavin, he calls to take it back: "the rapid removal of the Il-28s from Cuba."'
+    n: '[[w.fursenko-one-hell-of-a]], 299–300. To check: Dobrynin to the Foreign Ministry, Nov. 9, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 300 n.45, n.47); Robert Kennedy''s desk diary, 1962, JFK Library (cited by [[w.fursenko-one-hell-of-a]], 300 n.46, the dinner). See [[cal.1962-11-06.missile-crisis]]. Names: Robert Kennedy, Bolshakov, Dobrynin, Gavin.'
+    src:
+      c: ef5d159e
+      rows:
+        - 'w.fursenko-one-hell-of-a 299–300: all'
+        - 'via w.fursenko-one-hell-of-a 300 n.45: A'
+        - 'via w.fursenko-one-hell-of-a 300 n.46: B'
+        - 'via w.fursenko-one-hell-of-a 300 n.47: B'
+    tags: [name:kennedy-robert-f, name:bolshakov-georgi, name:dobrynin-anatoly, name:gavin-james-m]
   - id: cal.1962-11-10.middle-east-yemen
     when: Nov. 10
     date: '1962-11-10'
@@ -415,6 +492,20 @@ entries:
       rows:
         - 'w.reeves-president-kennedy 433–34: all'
     tags: [name:gore-albert-sr, name:kennedy-john-f]
+  - id: cal.1962-11-10.soviet-union
+    when: Nov. 10
+    date: '1962-11-10'
+    thread: soviet-union
+    also: [missile-crisis]
+    c: 'The Presidium on Robert Kennedy''s two statements: take the first, the Il-28s flown by Soviet pilots only; failing that, a promise to remove them when "the time was ripe," without a date. Castro to be consulted. Kuznetsov in New York not to agree to the withdrawal yet.'
+    n: '[[w.fursenko-one-hell-of-a]], 300–301. To check: Khrushchev to Mikoyan, extract from Protocol 65, Presidium, Nov. 10, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 300 n.50); instructions to V. Kuznetsov, extract from Protocol 65, Nov. 11, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 301 n.53). Reply: [[cal.1962-11-11.missile-crisis]]. See [[cal.1962-11-09.missile-crisis]]. Names: Robert Kennedy, Castro, Vasily Kuznetsov.'
+    src:
+      c: 47d3a1e3
+      rows:
+        - 'w.fursenko-one-hell-of-a 300–301: all'
+        - 'via w.fursenko-one-hell-of-a 300 n.50: A-C'
+        - 'via w.fursenko-one-hell-of-a 301 n.53: D'
+    tags: [name:kennedy-robert-f, name:castro-fidel, name:kuznetsov-vasily-v]
   - id: cal.1962-11-11.missile-crisis
     when: Nov. 11
     date: '1962-11-11'
@@ -440,14 +531,40 @@ entries:
     thread: missile-crisis
     also: [robert-kennedy]
     c: '8:30 p.m., the Soviet Embassy''s reception for the Bolshoi Ballet. Robert Kennedy, by the President''s instruction, to Dobrynin: if the IL-28s start out at once and are gone in thirty days, the quarantine lifted at once.'
-    n: '[FRUS 1961–63, XI, doc. 173](https://history.state.gov/historicaldocuments/frus1961-63v11/d173) (editorial note: Bromley Smith''s note of the message; the Soviet Foreign Ministry''s version). [[w.schlesinger-robert-kennedy-and-his]], 526. To check: Robert Kennedy, memorandum dictated Nov. 14, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 526 n.125). See [[cal.1962-10-16.missile-crisis]]. Names: Robert Kennedy, Kennedy, Dobrynin.'
+    n: '[FRUS 1961–63, XI, doc. 173](https://history.state.gov/historicaldocuments/frus1961-63v11/d173) (editorial note: Bromley Smith''s note of the message; the Soviet Foreign Ministry''s version). [[w.schlesinger-robert-kennedy-and-his]], 526. [[w.fursenko-one-hell-of-a]], 303. To check: Robert Kennedy, memorandum dictated Nov. 14, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 526 n.125). See [[cal.1962-10-16.missile-crisis]]. Names: Robert Kennedy, Kennedy, Dobrynin.'
     src:
       c: 62e711f3
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d173: all'
         - 'w.schlesinger-robert-kennedy-and-his 526: B'
         - 'via w.schlesinger-robert-kennedy-and-his 526 n.125: A-B'
+        - 'w.fursenko-one-hell-of-a 303: B'
+        - 'via w.fursenko-one-hell-of-a 303 n.60: B'
     tags: [name:kennedy-robert-f, name:kennedy-john-f, name:dobrynin-anatoly]
+  - id: cal.1962-11-12.missile-crisis-2
+    when: Nov. 12
+    date: '1962-11-12'
+    thread: missile-crisis
+    c: '5 p.m., the Executive Committee on Khrushchev''s reply: the missiles and warheads out; the Il-28s "at some point." McCloy''s offer discussed, the quarantine lifted for a promise to take the bombers out. Rusk: the quarantine against the bombers; Kennedy: the Il-28s against the quarantine, the assurances against invasion against safeguards.'
+    n: '[FRUS 1961–63, XI, doc. 172](https://history.state.gov/historicaldocuments/frus1961-63v11/d172). [[w.fursenko-one-hell-of-a]], 303 (the offer). See [[cal.1962-11-11.missile-crisis]]. Names: McCloy, Rusk, Kennedy, Khrushchev.'
+    src:
+      c: ab92c5fe
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d172: all'
+        - 'w.fursenko-one-hell-of-a 303: C'
+    tags: [name:mccloy-john-j, name:rusk-dean, name:kennedy-john-f, name:khrushchev-nikita-s]
+  - id: cal.1962-11-12.goldwater
+    when: Nov. 12
+    date: '1962-11-12'
+    thread: goldwater
+    also: [elections-1964]
+    c: 'New York, the Americana, the Presidential suite. White shows Goldwater the program for the group''s December meeting: a State-by-State organization, a budget, the dates of the conventions and primaries of 1964, his count of delegates. Goldwater: "This looks good. It''s fine." He agrees with Rockefeller on "a lot of things"; nothing said of running. By White''s account.'
+    n: '[[w.white-suite-3505]], 88–91. See [[cal.1961-10-08.goldwater]]. Names: White, Goldwater, Rockefeller.'
+    src:
+      c: e79bb140
+      rows:
+        - 'w.white-suite-3505 88–91: all'
+    tags: [name:white-f-clifton, name:goldwater-barry-m, name:rockefeller-nelson, city:nyc]
   - id: cal.1962-11-14.opinion
     when: Nov. 14
     date: '1962-11-14'
@@ -469,7 +586,12 @@ entries:
     date: '1962-11-14'
     thread: missile-crisis
     c: 'Khrushchev: the IL-28s to go, in two or three months; the quarantine to be lifted and the overflights stopped.'
-    n: 'FRUS 1961–63, VI, doc. [77](https://history.state.gov/historicaldocuments/frus1961-63v06/d77). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Khrushchev.'
+    n: 'FRUS 1961–63, VI, doc. [77](https://history.state.gov/historicaldocuments/frus1961-63v06/d77). [[w.fursenko-one-hell-of-a]], 307. See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Khrushchev.'
+    src:
+      c: 31eee6b8
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v06/d77: all'
+        - 'w.fursenko-one-hell-of-a 307: A'
     tags: [name:khrushchev-nikita-s]
   - id: cal.1962-11-15.missile-crisis
     when: Nov. 15
@@ -491,6 +613,45 @@ entries:
         - 'w.zelizer-taxing-america 196: all'
         - 'via w.zelizer-taxing-america 196 n.66: all'
     tags: [name:kennedy-john-f, name:dillon-c-douglas, name:fowler-henry-h, name:bell-david-e, name:wirtz-w-willard, name:heller-walter-w, name:gordon-kermit, name:gudeman-edward, name:schultze-charles-l, name:samuelson-paul-a, name:tobin-james, name:ackley-gardner, name:mills-wilbur-d]
+  - id: cal.1962-11-16.soviet-union
+    when: Nov. 16
+    date: '1962-11-16'
+    thread: soviet-union
+    also: [missile-crisis, cuba]
+    c: 'The Presidium, on Castro''s letter to U Thant and his order to fire on American planes. Khrushchev: Castro''s position "just shouting and unreasonable"; "Either they will cooperate or we will recall our personnel." Agreement to remove the Il-28s to go to Kennedy orally; then held a few days, Mikoyan to offer Castro three plans of inspection.'
+    n: '[[w.fursenko-one-hell-of-a]], 306–307. To check: Malin''s notes, Nov. 16, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 306 n.73); Presidium resolution, "Regarding Instructions to Mikoyan," Nov. 16, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 306 n.74, n.75, 307 n.76). See [[cal.1962-11-10.soviet-union]]. Names: Castro, U Thant, Khrushchev, Kennedy, Mikoyan.'
+    src:
+      c: 1db077a8
+      rows:
+        - 'w.fursenko-one-hell-of-a 306–307: all'
+        - 'via w.fursenko-one-hell-of-a 306 n.73: A-C'
+        - 'via w.fursenko-one-hell-of-a 306 n.74: D-E'
+    tags: [name:castro-fidel, name:u-thant, name:khrushchev-nikita-s, name:mikoyan-anastas, name:kennedy-john-f]
+  - id: cal.1962-11-18.missile-crisis
+    when: Nov. 18
+    date: '1962-11-18'
+    thread: missile-crisis
+    also: [robert-kennedy]
+    c: 'Breakfast at Robert Kennedy''s for the artists of the Bolshoi. To Dobrynin, by Dobrynin''s report: an answer from Moscow wanted before the President''s press conference, in two days, after six days'' wait.'
+    n: '[[w.fursenko-one-hell-of-a]], 307. To check: Dobrynin to the Foreign Ministry, Nov. 18, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 307 n.77). See [[cal.1962-11-12.missile-crisis]]. Names: Robert Kennedy, Dobrynin.'
+    src:
+      c: 34d10481
+      rows:
+        - 'w.fursenko-one-hell-of-a 307: all'
+        - 'via w.fursenko-one-hell-of-a 307 n.77: all'
+    tags: [name:kennedy-robert-f, name:dobrynin-anatoly]
+  - id: cal.1962-11-18.missile-crisis-2
+    when: Nov. 18
+    date: '1962-11-18'
+    thread: missile-crisis
+    c: 'Glen Cove, McCloy with Kuznetsov, by Kuznetsov''s report: the press conference on the 20th; if the bombers go, no on-site inspection insisted on, the pledge against invasion restated at the Security Council, orally; the missiles and Il-28s to be counted at sea. "That would be a deal."'
+    n: '[[w.fursenko-one-hell-of-a]], 307–308. To check: Kuznetsov to the Central Committee, Nov. 18, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 308 n.79). Names: McCloy, Vasily Kuznetsov.'
+    src:
+      c: d19c290d
+      rows:
+        - 'w.fursenko-one-hell-of-a 307–308: all'
+        - 'via w.fursenko-one-hell-of-a 308 n.79: all'
+    tags: [name:mccloy-john-j, name:kuznetsov-vasily-v]
   - id: cal.1962-11-19.india-and-china
     when: Nov. 19–21
     date: '1962-11-19'
@@ -527,41 +688,79 @@ entries:
     thread: missile-crisis
     also: [robert-kennedy]
     c: 'Afternoon. Robert Kennedy to Bolshakov: unless the IL-28s go, low-level reconnaissance of Cuba resumes; the President wants an answer before his press conference the next day.'
-    n: '[FRUS 1961–63, XI, doc. 194](https://history.state.gov/historicaldocuments/frus1961-63v11/d194) (editorial note, from Schlesinger). [[w.schlesinger-robert-kennedy-and-his]], 526. To check: Robert Kennedy, memorandum dictated Nov. 30, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 526 n.128). See [[cal.1962-10-16.missile-crisis]]. Names: Robert Kennedy, Bolshakov, Kennedy.'
+    n: '[FRUS 1961–63, XI, doc. 194](https://history.state.gov/historicaldocuments/frus1961-63v11/d194) (editorial note, from Schlesinger). [[w.schlesinger-robert-kennedy-and-his]], 526. [[w.fursenko-one-hell-of-a]], 307. To check: Robert Kennedy, memorandum dictated Nov. 30, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 526 n.128). See [[cal.1962-10-16.missile-crisis]]. Names: Robert Kennedy, Bolshakov, Kennedy. Check: Fursenko and Naftali have Robert Kennedy put it to Bolshakov at the ballet the evening of Nov. 18, after asking Dobrynin at breakfast (307).'
     src:
       c: 1ff09d6b
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d194: all'
         - 'w.schlesinger-robert-kennedy-and-his 526: all'
         - 'via w.schlesinger-robert-kennedy-and-his 526 n.128: all'
+        - 'w.fursenko-one-hell-of-a 307: B-C'
     tags: [name:kennedy-robert-f, name:bolshakov-georgi, name:kennedy-john-f]
+  - id: cal.1962-11-19.civil-rights-the-executive
+    when: Nov. 19
+    date: '1962-11-19'
+    thread: civil-rights-the-executive
+    c: 'The White House, at night. Kennedy with Justice and White House aides settles the housing order''s terms: voluntary for housing already built and for conventional mortgages; a committee in the Executive Office under Lawrence, Pennsylvania''s retiring governor.'
+    n: '[[w.sorensen-kennedy]], 482. The order: [[cal.1962-11-20.civil-rights-the-executive]]. See [[cal.1961-11-24.civil-rights-the-executive]]. Names: Kennedy, Lawrence.'
+    src:
+      c: c667a7cc
+      rows:
+        - 'w.sorensen-kennedy 482: all'
+    tags: [name:kennedy-john-f, name:lawrence-david-l]
   - id: cal.1962-11-20.missile-crisis-2
     when: Nov. 20
     date: '1962-11-20'
     thread: missile-crisis
     c: 'Khrushchev: the IL-28s out within a month, with the Soviet personnel who serve them.'
-    n: 'FRUS 1961–63, VI, doc. [79](https://history.state.gov/historicaldocuments/frus1961-63v06/d79). [[w.schlesinger-robert-kennedy-and-his]], 526–27 (the letter, handed by Dobrynin to Robert Kennedy that morning). To check: Robert Kennedy, memorandum dictated Nov. 30, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 527 n.129). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Khrushchev.'
+    n: 'FRUS 1961–63, VI, doc. [79](https://history.state.gov/historicaldocuments/frus1961-63v06/d79). [[w.schlesinger-robert-kennedy-and-his]], 526–27 (the letter, handed by Dobrynin to Robert Kennedy that morning); [[w.sorensen-kennedy]], 721. [[w.fursenko-one-hell-of-a]], 309–10 (delivered by Bolshakov, Nov. 20). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Khrushchev.'
     src:
       c: 898f4844
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v06/d79: all'
         - 'w.schlesinger-robert-kennedy-and-his 526–27: A'
         - 'via w.schlesinger-robert-kennedy-and-his 527 n.129: A'
+        - 'w.fursenko-one-hell-of-a 309–10: all'
+        - 'w.sorensen-kennedy 721: all'
     tags: [name:khrushchev-nikita-s]
   - id: cal.1962-11-20.missile-crisis
     when: Nov. 20
     date: '1962-11-20'
     thread: missile-crisis
     c: Quarantine lifted, at the press conference.
-    n: News Conference, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962). See [[cal.1962-05-24.missile-crisis]].
+    n: News Conference, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962). [[w.fursenko-one-hell-of-a]], 310. See [[cal.1962-05-24.missile-crisis]].
+    src:
+      c: ff80548d
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890: all'
+        - 'w.fursenko-one-hell-of-a 310: all'
     tags: [name:kennedy-john-f]
   - id: cal.1962-11-20.civil-rights-the-executive
     when: Nov. 20
     date: '1962-11-20'
     thread: civil-rights-the-executive
     c: 'Same press conference: the housing order. No discrimination in federally aided housing, prospectively.'
-    n: '[Exec. Order No. 11,063](https://www.presidency.ucsb.edu/documents/executive-order-11063-equal-opportunity-housing) (K–J Adm. II.H.2). To check: [[w.graham-civil-rights-era]]; [[w.brauer-john-f-kennedy-and]]; [[w.pritchett-robert-clifton-weaver-and]]. See [[cal.1961-03-06.civil-rights-the-executive]]. Names: Weaver.'
+    n: '[Exec. Order No. 11,063](https://www.presidency.ucsb.edu/documents/executive-order-11063-equal-opportunity-housing) (K–J Adm. II.H.2). [[w.sorensen-kennedy]], 482; [[w.mann-walls-of-jericho]], 334–36 (the delay and its reasons; the order''s reach). To check: [[w.graham-civil-rights-era]]; [[w.brauer-john-f-kennedy-and]]; [[w.pritchett-robert-clifton-weaver-and]]. See [[cal.1961-03-06.civil-rights-the-executive]]. Names: Weaver.'
+    src:
+      c: 670b394e
+      rows:
+        - 'https://www.presidency.ucsb.edu/documents/executive-order-11063-equal-opportunity-housing: all'
+        - 'w.sorensen-kennedy 482: all'
+        - 'w.mann-walls-of-jericho 335: all'
     tags: [name:kennedy-john-f, name:weaver-robert-c]
+  - id: cal.1962-11-20.missile-crisis-3
+    when: Nov. 20
+    date: '1962-11-20'
+    thread: missile-crisis
+    also: [robert-kennedy]
+    c: 'Four hours before the press conference, Robert Kennedy to Dobrynin: "according to our reports not all of the warheads had left Cuba." Dobrynin, on his instructions, denies it. The tactical warheads and the six bombs still in Cuba.'
+    n: '[[w.fursenko-one-hell-of-a]], 311. To check: Dobrynin to the Foreign Ministry, Nov. 20, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 311 n.93). See [[cal.1962-11-20.missile-crisis]]. Names: Robert Kennedy, Dobrynin.'
+    src:
+      c: 9f8eab6b
+      rows:
+        - 'w.fursenko-one-hell-of-a 311: all'
+        - 'via w.fursenko-one-hell-of-a 311 n.93: A-B'
+    tags: [name:kennedy-robert-f, name:dobrynin-anatoly]
   - id: cal.1962-11-21.space
     when: Nov. 21
     date: '1962-11-21'
@@ -590,6 +789,19 @@ entries:
     c: 'Kennedy''s reply: the quarantine lifted on Khrushchev''s assurance; the negotiators in New York to settle the rest. Castro not persuaded to accept verification, so the United States to rely on its own means of information.'
     n: 'FRUS 1961–63, VI, doc. [81](https://history.state.gov/historicaldocuments/frus1961-63v06/d81). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Kennedy, Khrushchev, Castro.'
     tags: [name:kennedy-john-f, name:khrushchev-nikita-s, name:castro-fidel]
+  - id: cal.1962-11-21.laos
+    when: Nov. 21
+    date: '1962-11-21'
+    thread: laos
+    also: [soviet-union]
+    c: 'The Presidium, on the Pathet Lao''s request for arms: Khrushchev ends the Soviet airlift. "What is most important now is peace"; "If they want a war, it will be their own affair."'
+    n: '[[w.fursenko-one-hell-of-a]], 323. To check: Malin''s notes, "Regarding Instructions to the Soviet Ambassador in Laos," Protocol 68, Nov. 21, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 323 n.19). Names: Khrushchev.'
+    src:
+      c: 153f0f72
+      rows:
+        - 'w.fursenko-one-hell-of-a 323: all'
+        - 'via w.fursenko-one-hell-of-a 323 n.19: all'
+    tags: [name:khrushchev-nikita-s]
   - id: cal.1962-11-22.missile-crisis
     when: Nov. 22
     date: '1962-11-22'
@@ -597,6 +809,20 @@ entries:
     c: Khrushchev trusts the pledge against invasion. On his failure to persuade Castro, Kennedy "partly right."
     n: 'FRUS 1961–63, VI, doc. [82](https://history.state.gov/historicaldocuments/frus1961-63v06/d82). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Khrushchev, Kennedy, Castro.'
     tags: [name:kennedy-john-f, name:khrushchev-nikita-s, name:castro-fidel]
+  - id: cal.1962-11-22.soviet-union
+    when: Nov. 22
+    date: '1962-11-22'
+    thread: soviet-union
+    also: [missile-crisis]
+    c: 'On Mikoyan''s report of the Cuban Foreign Ministry''s cable to Lechuga, "we still have tactical atomic weapons," the Presidium: every nuclear weapon to come out of Cuba; "The weapons are ours, they remain in our hands"; the Cubans, as the Americans, to be told all are gone.'
+    n: '[[w.fursenko-one-hell-of-a]], 311–13. To check: Mikoyan to Khrushchev, Nov. 22, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 312 n.95); Gromyko''s notes, Protocol 68, Presidium, Nov. 22, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 313 n.99). See [[cal.1962-11-20.missile-crisis-3]]. Names: Mikoyan, Lechuga.'
+    src:
+      c: 4448f601
+      rows:
+        - 'w.fursenko-one-hell-of-a 311–13: all'
+        - 'via w.fursenko-one-hell-of-a 312 n.95: A'
+        - 'via w.fursenko-one-hell-of-a 313 n.99: A-C'
+    tags: [name:mikoyan-anastas, name:lechuga-carlos]
   - id: cal.1962-11-24.defense
     when: Nov. 24
     date: '1962-11-24'
@@ -663,6 +889,18 @@ entries:
         - 'w.zelizer-taxing-america 197: all'
         - 'via w.zelizer-taxing-america 197 n.68: all'
     tags: [name:mills-wilbur-d]
+  - id: cal.1962-11-29.missile-crisis
+    when: Nov. 29
+    date: '1962-11-29'
+    thread: missile-crisis
+    c: 'Kennedy with Mikoyan, Rusk, Thompson and Dobrynin present, 4:40 to 7:55 p.m., on Cuba: the declarations to close the affair; failing them, the President would state the American position at a press conference. By Sorensen''s account, Mikoyan reports that Khrushchev liked the spirit of the President''s statements.'
+    n: '[FRUS 1961–63, XI, doc. 218](https://history.state.gov/historicaldocuments/frus1961-63v11/d218). [[w.sorensen-kennedy]], 725. See [[cal.1962-10-16.missile-crisis]]. Names: Kennedy, Mikoyan, Rusk, Thompson, Dobrynin, Khrushchev.'
+    src:
+      c: be26acaa
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d218: A, B'
+        - 'w.sorensen-kennedy 725: C'
+    tags: [name:kennedy-john-f, name:mikoyan-anastas, name:rusk-dean, name:thompson-llewellyn-e, name:dobrynin-anatoly, name:khrushchev-nikita-s]
   - id: cal.1962-11-30.governors-nm
     when: Nov. 30
     date: '1962-11-30'
@@ -684,12 +922,14 @@ entries:
     thread: republican-party
     also: [elections-1964]
     c: Case convenes Rockefeller, Romney, Scranton, Javits, Cooper and Hugh Scott, by the *Herald Tribune*'s report.
-    n: '[[w.perlstein-before-the-storm]], 186. To check: *New York Herald Tribune*, Nov. 16, 1962 (cited by [[w.perlstein-before-the-storm]], 186 n.3). Names: Case, Rockefeller, Romney, Scranton, Javits, Cooper, Scott.'
+    n: '[[w.perlstein-before-the-storm]], 186. [[w.white-suite-3505]], 92–93 (Mazo''s report, the *Herald Tribune*, Nov. 16). To check: *New York Herald Tribune*, Nov. 16, 1962 (cited by [[w.perlstein-before-the-storm]], 186 n.3); *New York Herald Tribune*, Nov. 16, 1962 (cited by [[w.white-suite-3505]], 92 n.1). Names: Case, Rockefeller, Romney, Scranton, Javits, Cooper, Scott.'
     src:
       c: 35f3ca72
       rows:
         - 'w.perlstein-before-the-storm 186: all'
         - 'via w.perlstein-before-the-storm 186 n.3: all'
+        - 'w.white-suite-3505 92–93: A'
+        - 'via w.white-suite-3505 92 n.1: A'
     tags: [name:case-clifford-p, name:rockefeller-nelson, name:romney-george-w, name:scranton-william-w, name:javits-jacob-k, name:cooper-john-sherman, name:scott-hugh-d-jr]
   - id: cal.1962-11.goldwater
     when: Nov.
@@ -797,3 +1037,50 @@ entries:
         - 'w.reeves-president-kennedy 440: all'
         - 'via w.reeves-president-kennedy 440 n.i-dont-know-if-the-matter: all'
     tags: [name:cousins-norman, name:khrushchev-nikita-s, name:kennedy-john-f]
+  - id: cal.1962-11.mississippi-ole-miss
+    when: Nov.
+    date: 1962-11
+    thread: mississippi-ole-miss
+    also: [robert-kennedy]
+    c: 'The Department''s position, by memorandum to Robert Kennedy: Barnett and Johnson, charged with contempt, not entitled to a jury. Kennedy in the margin: "Can''t we remain silent on this unless asked by the court?"'
+    n: '[[w.navasky-kennedy-justice]], 238. Names: Robert Kennedy, Barnett, Paul Johnson. Check: the day and the memorandum''s author.'
+    src:
+      c: ec65f836
+      rows:
+        - 'w.navasky-kennedy-justice 238: all'
+    tags: [name:kennedy-robert-f, name:barnett-ross-r, name:johnson-paul-b-jr]
+  - id: cal.1962-11.republican-party-2
+    when: Nov.
+    date: 1962-11
+    thread: republican-party
+    also: [goldwater, elections-1964]
+    c: 'After the election. Miller, the national chairman, to newsmen: Goldwater "certainly would be a contender"; "There are many areas of agreement between Rockefeller and Goldwater."'
+    n: '[[w.white-suite-3505]], 84. Names: Miller, Goldwater, Rockefeller. Check: the day.'
+    src:
+      c: ac0e8a47
+      rows:
+        - 'w.white-suite-3505 84: all'
+    tags: [name:miller-william-e, name:goldwater-barry-m, name:rockefeller-nelson]
+  - id: cal.1962-11.goldwater-2
+    when: Nov.
+    date: 1962-11
+    thread: goldwater
+    also: [republican-party]
+    c: Washington, Rockefeller's house on Foxhall Road. Goldwater and Rockefeller meet privately from time to time, Hinman and Vic Johnson of the Senate campaign committee at times with them. By White's account.
+    n: '[[w.white-suite-3505]], 86. Names: Goldwater, Rockefeller, Hinman. Check: the dates; by November 1962. Check: the month; White gives "by Nov.".'
+    src:
+      c: f71d5c86
+      rows:
+        - 'w.white-suite-3505 86: all'
+    tags: [name:goldwater-barry-m, name:rockefeller-nelson, name:hinman-george-l, city:washington]
+  - id: cal.1962-11.vietnam
+    when: Nov.
+    date: 1962-11
+    thread: vietnam
+    c: At McNamara's request, the crop destruction program much enlarged.
+    n: '[[w.preston-war-council]], 108. To check: [[w.jones-death-of-a-generation]], 241 (cited by [[w.preston-war-council]], 108 n.19). See [[cal.1962-10.vietnam]]. Names: McNamara. Check: the day.'
+    src:
+      c: e93c2476
+      rows:
+        - 'w.preston-war-council 108: all'
+    tags: [name:mcnamara-robert-s]

@@ -108,3 +108,38 @@ page | date | event | why
 
 Entries mapped (a `src` row for every source): all 101 touched. Cited records: 174 (123 found and read; 11 found, not
 read; 40 not found).
+
+## The second run (Nov. 3–4, 2026)
+
+The owner's copy fetched again (4 MB, Drive's download link), offset unchanged (PDF = printed + 19), deleted when
+done. Read again: the epilogue's pages after the Bay of Pigs (153–71) and the notes to them (207–12), for what the Oct.
+29 run passed over or left as leads, ruled under R5, R14–R16 and R18. Patch: `inbox/2026-11-03-b3-jones-2.yaml`
+(`b3-jones-2`, 9 ops: 8 new entries, 1 edit). Witnesses: `inbox/witnesses/2026-11-03-b3-jones-2.yaml` (19 rows);
+edges appended to `sources/witnesses/by-work/jones-bay-of-pigs.yaml` (20: notes 38, 39, 43, 44, the studies among them,
+Higgins, Bohning, Dallek, Woods, as card edges).
+
+Entered, the record read first: June 2, 1965 (Raborn at the 303 Committee, by Jessup's memorandum, FRUS 1964–68,
+XXXII, doc. 307); Aug. 30, 1965 (Rusk to Bundy, doc. 306); Sept. 22, 1965 (Jessup to Johnson, doc. 307); Sept. 29, 1965
+(Johnson drops the matter, Bundy's note, doc. 307 n. 1); Mar. 7, 1967 (Pearson's column, dated by FRUS's editorial note,
+doc. 315); Mar. 1967 (Johnson directs Helms; Earman); Apr. 24, 1967 (the Inspector General's report, sent from that day
+in installments, doc. 315; Check: Jones has it two months after the order). On Jones alone: Mar. 1966, Cubela's trial
+and sentence (168 n.38; the days, the press of Mar. 8–11, Check). Edited: `cal.1960-09.cuba`, its "Made public" line,
+the column's day now from doc. 315, the Check kept for Anderson's part.
+
+Passed over of Oct. 29, ruled again (page | date | event | ruling):
+- 41 | Jan. 1961 | the pilots training at night at Opa-Locka | minor (a unit's routine Jones does not treat as an event).
+- 98–122 | Apr. 17–19, 1961 | the fighting on the beaches | entered by `b3-jones-more` (Apr. 16-4 to Apr. 19-10).
+- 135–48 | Apr. 22–June 13, 1961 | the Taylor board's sessions | entered by `b3-jones-more` (Apr. 24 to June 13); Jones dates no other session.
+- 157–58 | spring 1962 | Shackley's directives from Harvey | a lead: undated.
+- 158 | late Feb., late Mar. 1962 | not Varona's meetings with Roselli (Oct. 29 misread the page): his two visits to State | entered by `b3-jones-more` (`cal.1962-02-27.cuba`, `cal.1962-03-29.cuba`).
+- 168 | 1966 | Cubela's trial | entered (Mar. 1966): within the brief (a counterpart's acts, R10, R18).
+- 168 | autumn 1965 | the attempts to overthrow Castro called off | entered (Aug. 30–Sept. 29, 1965, from FRUS).
+- 168 | 1974 | Szulc in *Esquire* | out of the span; the article registered.
+- 170 | early 1967 | Pearson's column; Johnson's order; the IG report | entered (Mar. 7, Mar., Apr. 24, 1967).
+- 170 | undated | Johnson to Califano: "Kennedy tried to kill Castro, but Castro got Kennedy first" | a lead: no date (Califano, *Inside*, 126).
+
+Leads (add to `notes/leads.md`):
+- Foreign: Cubela's trial, Mar. 1966: the days of the trial, the sentence and the commutation (*Washington Post*, Mar. 8, 11, 1966; Reuters, Mar. 8; FRUS 1964–68, XXXII, the editorial note at p. 743, not placed in the daybook).
+- Foreign: the 303 Committee's record of June 2, 1965 (Raborn's request): FRUS 1964–68, XXXII, doc. 302 n. 2 names it.
+- National: Johnson's remark to Califano on Castro and Kennedy (Califano, *Inside* (2004), 126): its date.
+- National: the Church Committee's testimony Jones cites by page (Helms, June 13, 1975; Sullivan, Apr. 21, 1976; Morgan, Mar. 19, 1976): the JFK Collection's copies at the National Archives (Mary Ferrell Foundation's scans), not reached.

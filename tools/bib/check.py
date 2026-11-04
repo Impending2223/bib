@@ -205,6 +205,10 @@ def run(series, only=None):
                             add(WARN, e["id"], f"*{m.group(1)}* cited as {plain(tail)[a:b]} but found in {', '.join(where[:3])}", "cited-section")
                         break
 
+    # the day's order and the time of day (tools/bib/dayorder.py)
+    from . import dayorder
+    for where, msg in dayorder.problems(series):
+        add(ERROR, where, msg, "day-order")
     # the works catalogue (works/*.yaml)
     from . import works
     for level, where, msg in works.problems(series):
@@ -326,10 +330,13 @@ def run(series, only=None):
     from . import state_law
     for where, msg in state_law.problems():
         add(ERROR, where, msg, "state-law")
-    # the records the secondary works cite, and what for (sources/cited-records/; tools/bib/cited_records.py)
-    from . import cited_records
-    for where, msg in cited_records.problems(series):
-        add(ERROR, where, msg, "cited-records")
+    # the witnesses: what each claim rests on, to its roots (sources/witnesses/; tools/bib/witnesses.py)
+    from . import witnesses
+    werrs, wwarns = witnesses.problems(series)
+    for where, msg in werrs:
+        add(ERROR, where, msg, "witnesses")
+    for where, msg in wwarns:
+        add(WARN, where, msg, "witnesses")
     # each calendar entry's claims and the sources for each (src; tools/bib/claims.py)
     from . import claims
     errs, warns = claims.problems(series)

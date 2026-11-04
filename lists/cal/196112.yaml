@@ -3,6 +3,20 @@
 list: cal
 section: XXV
 entries:
+  - id: cal.1961-12-01.mississippi
+    when: Dec. 1
+    date: '1961-12-01'
+    thread: mississippi
+    also: [freedom-rides, press-and-broadcasting]
+    c: McComb. Riders from New Orleans at the Greyhound station, forty FBI agents and the police present; three minutes in the waiting room. A white mob of some five hundred beats the reporters. The *New York Times*, Dec. 7, in an editorial, outraged.
+    n: '[[w.branch-parting-the-waters]], 559. To check: Time, Dec. 8, 1961, 25; Newsweek, Dec. 11, 1961, 30-31 (cited by [[w.branch-parting-the-waters]], 559 n.6); New York Times, Dec. 7, 1961, 42 (editorial) (cited by [[w.branch-parting-the-waters]], 559 n.7). See [[cal.1961-10-04.mississippi]].'
+    src:
+      c: f84287b9
+      rows:
+        - 'w.branch-parting-the-waters 559: all'
+        - 'via w.branch-parting-the-waters 559 n.6: A-B'
+        - 'via w.branch-parting-the-waters 559 n.7: C'
+    tags: [state:ms]
   - id: cal.1961-12-02.cuba
     when: Dec. 2
     date: '1961-12-02'
@@ -30,13 +44,39 @@ entries:
     date: '1961-12-05'
     thread: africa
     c: 'The NSC on the Volta dam. Rusk: the United States committed by the letter of June 29. Kennedy: no support to be had in Congress; decide, then explain; how to justify help to Nkrumah, given his course at home and abroad? The decision deferred for a legal report.'
-    n: 'FRUS 1961–63, XXI, docs. [239](https://history.state.gov/historicaldocuments/frus1961-63v21/d239) (Bundy, Dec. 1), [240](https://history.state.gov/historicaldocuments/frus1961-63v21/d240), [241](https://history.state.gov/historicaldocuments/frus1961-63v21/d241). Made public: FRUS 1961–63, XXI (1995). [[w.schlesinger-thousand-days-1965]], 572–73. Schlesinger, 573, has the decision to go ahead made in November and the NSC told of it; the record of action, the decision deferred (doc. 241). See [[cal.1961-06-29.africa]]. Names: Rusk, Kennedy, Nkrumah.'
+    n: 'FRUS 1961–63, XXI, docs. [239](https://history.state.gov/historicaldocuments/frus1961-63v21/d239) (Bundy, Dec. 1), [240](https://history.state.gov/historicaldocuments/frus1961-63v21/d240), [241](https://history.state.gov/historicaldocuments/frus1961-63v21/d241). [[w.ball-past-has-another-pattern]], 186 (Randall''s report; the NSC); [[w.rusk-as-i-saw-it-1990]], 275 (Rusk for keeping the pledge). Made public: FRUS 1961–63, XXI (1995). [[w.schlesinger-thousand-days-1965]], 572–73. Schlesinger, 573, has the decision to go ahead made in November and the NSC told of it; the record of action, the decision deferred (doc. 241). See [[cal.1961-06-29.africa]]. Names: Rusk, Kennedy, Nkrumah. Check: Ball (186) has the NSC of Nov. 28; FRUS''s record of action is of Dec. 5. Check: Rusk has Robert Kennedy against the dam at the meeting (275); his memorandum: [[cal.1961-12-07.africa]].'
     src:
       c: 32672fce
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v21/d239: all'
         - 'w.schlesinger-thousand-days-1965 573: A'
+        - 'w.ball-past-has-another-pattern 186: A'
+        - 'w.rusk-as-i-saw-it-1990 275: A-B'
     tags: [name:kennedy-john-f, name:rusk-dean, name:nkrumah-kwame]
+  - id: cal.1961-12-05.crime-and-hijacking
+    when: Dec. 5
+    date: '1961-12-05'
+    thread: crime-and-hijacking
+    also: [robert-kennedy]
+    c: Robert Kennedy tells the Criminal Division to ask the indictment of Justice Keogh. The FBI's lie-detector test, given at his order in October, inconclusive.
+    n: '[[w.navasky-kennedy-justice]], 370. See [[cal.1961-10-09.crime-and-hijacking]]. Names: Robert Kennedy.'
+    src:
+      c: 622f2748
+      rows:
+        - 'w.navasky-kennedy-justice 370: all'
+    tags: [name:kennedy-robert-f]
+  - id: cal.1961-12-06.economy
+    when: Dec. 6
+    date: '1961-12-06'
+    thread: economy
+    c: 'New York. Kennedy to the National Association of Manufacturers: the balance of payments, trade, prices and wages.'
+    n: 'Address in New York City to the National Association of Manufacturers, [1961 Pub. Papers 773](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=831) (Dec. 6, 1961). [[w.sorensen-kennedy]], 439, 465. Names: Kennedy. Check: the address''s matter, read only in part.'
+    src:
+      c: b2576412
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=831: all'
+        - 'w.sorensen-kennedy 439, 465: all'
+    tags: [name:kennedy-john-f]
   - id: cal.1961-12-07.states-and-cities-nh
     when: Dec. 7
     date: '1961-12-07'
@@ -58,6 +98,29 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 560–61: all'
         - 'via w.schlesinger-robert-kennedy-and-his 561 n.6: all'
     tags: [name:kennedy-robert-f, name:kennedy-john-f, name:nkrumah-kwame]
+  - id: cal.1961-12-07.crime-and-hijacking
+    when: Dec. 7
+    date: '1961-12-07'
+    thread: crime-and-hijacking
+    c: Brooklyn. A federal grand jury indicts Justice Vincent Keogh, Elliott Kahaner, an assistant United States attorney, and Antonio Corallo for conspiring to win Sanford Moore a light sentence in a bankruptcy fraud case for $35,000.
+    n: '[[w.navasky-kennedy-justice]], 366–67, 370 (the indictment, Dec. 7; trial in May 1962; Keogh two years, eighteen months served). See [[cal.1961-10-09.crime-and-hijacking]]. Check: the court''s record; Robert Erdman named a co-defendant, tried apart (366).'
+    src:
+      c: f5258241
+      rows:
+        - 'w.navasky-kennedy-justice 366–67, 370: all'
+    tags: [state:ny, city:nyc]
+  - id: cal.1961-12-07.economy
+    when: Dec. 7
+    date: '1961-12-07'
+    thread: economy
+    c: 'Miami. Kennedy opens the AFL-CIO convention: "It''s warmer here today than it was yesterday." Labor''s part in keeping American goods competitive; those in wage negotiations to recognize "the desirability of ... maintaining stable prices."'
+    n: 'Address in Miami at the Opening of the AFL-CIO Convention, [1961 Pub. Papers 786](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=844) (Dec. 7, 1961). [[w.sorensen-kennedy]], 438–39. Names: Kennedy.'
+    src:
+      c: 3d6ddab7
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=844: all'
+        - 'w.sorensen-kennedy 438–39: all'
+    tags: [name:kennedy-john-f]
   - id: cal.1961-12-08.vietnam
     when: Dec. 8
     date: '1961-12-08'
@@ -82,7 +145,7 @@ entries:
     date: '1961-12-10'
     thread: georgia-albany
     c: Freedom riders from Atlanta arrested at the Albany station. Marches; hundreds jailed.
-    n: '[[w.garrow-bearing-the-cross]], 179–81. To check: Albany Herald, Dec. 11, 1961, 1; Burke Marshall to J. Edgar Hoover, Dec. 14, 1961, FBI file 157-492-X; Charles Jones to James Forman, Dec. 7, 1961, SNCC Papers, box 15, King Center (cited by [[w.garrow-bearing-the-cross]], 180 n.7); Albany Herald, Dec. 12, 1961, 1; Dec. 13, 1961, 1; Atlanta Constitution, Dec. 13, 1961, 1; Dec. 14, 1961, 1; New York Times, Dec. 13, 1961, 51; Dec. 14, 1961, 47; Edward P. Morgan, ABC, Dec. 13, 1961, King Center; SNCC press release, Dec. 13, 1961, National Catholic Conference for Interracial Justice Papers, box 20, folder 17, Marquette University (cited by [[w.garrow-bearing-the-cross]], 180 n.8). See [[cal.1961-11-17.albany]].'
+    n: '[[w.garrow-bearing-the-cross]], 179–81. [[w.branch-parting-the-waters]], 533–37. To check: Albany Herald, Dec. 11, 1961, 1; Burke Marshall to J. Edgar Hoover, Dec. 14, 1961, FBI file 157-492-X; Charles Jones to James Forman, Dec. 7, 1961, SNCC Papers, box 15, King Center (cited by [[w.garrow-bearing-the-cross]], 180 n.7); Albany Herald, Dec. 12, 1961, 1; Dec. 13, 1961, 1; Atlanta Constitution, Dec. 13, 1961, 1; Dec. 14, 1961, 1; New York Times, Dec. 13, 1961, 51; Dec. 14, 1961, 47; Edward P. Morgan, ABC, Dec. 13, 1961, King Center; SNCC press release, Dec. 13, 1961, National Catholic Conference for Interracial Justice Papers, box 20, folder 17, Marquette University (cited by [[w.garrow-bearing-the-cross]], 180 n.8); New York Times, Dec. 13, 1961, 51; Atlanta Constitution, Dec. 13, 1961, 1 (cited by [[w.branch-parting-the-waters]], 536 n.1); New York Times, Dec. 14, 1961, 47 (cited by [[w.branch-parting-the-waters]], 537 n.1). See [[cal.1961-11-17.albany]].'
     src:
       c: 9854acd1
       rows:
@@ -97,6 +160,10 @@ entries:
         - 'via w.garrow-bearing-the-cross 180 n.8d: B-C'
         - 'via w.garrow-bearing-the-cross 180 n.8e: B-C'
         - 'via w.garrow-bearing-the-cross 180 n.8f: B-C'
+        - 'w.branch-parting-the-waters 533–37: all'
+        - 'via w.branch-parting-the-waters 536 n.1a: B'
+        - 'via w.branch-parting-the-waters 536 n.1b: B'
+        - 'via w.branch-parting-the-waters 537 n.1: B'
   - id: cal.1961-12-10.opinion
     when: Dec. 10
     date: '1961-12-10'
@@ -104,6 +171,18 @@ entries:
     also: [defense]
     c: 'Gallup, Nov. 17–22: would work a day or two to build a community fallout shelter, 62 percent; give a day''s pay, 19; neither, 19. More emphasis on community shelters, 58; on home shelters, 22.'
     n: '[[w.gallup-poll]], III, 1745.'
+  - id: cal.1961-12-10.goldwater
+    when: Dec. 10
+    date: '1961-12-10'
+    thread: goldwater
+    also: [elections-1964]
+    c: Chicago, the Avenue Motel. White's group, its second meeting, twenty-eight present; new among them Governor Nutter of Montana, Tad Smith, the Texas chairman, and Fay of the national committee. A budget of $65,000 for the year approved; Roger Milliken finance chairman, to raise the first $30,000. The country in nine regions, a director each; delegates to be sought in every State, from the precinct caucuses of 1962 and 1963 up. Among themselves, "the Clif White group."
+    n: '[[w.white-suite-3505]], 46–51. See [[cal.1961-10-08.goldwater]]. Names: White, Nutter.'
+    src:
+      c: 0f8dc9b1
+      rows:
+        - 'w.white-suite-3505 46–51: all'
+    tags: [name:white-f-clifton, name:nutter-donald-g, city:chicago]
   - id: cal.1961-12-11.vietnam
     when: Dec. 11
     date: '1961-12-11'
@@ -132,6 +211,18 @@ entries:
     c: 'Iraq. Law 80: Qassim''s government takes from the Iraq Petroleum Company and its affiliates, Mosul Petroleum and Basra Petroleum, their rights in all their concession areas but the fields in production.'
     n: 'FRUS 1961–63, XVII, docs. [150](https://history.state.gov/historicaldocuments/frus1961-63v17/d150), [156](https://history.state.gov/historicaldocuments/frus1961-63v17/d156). To check: [[w.brown-nationalization-of-the-iraqi]]; [[w.yergin-prize]]; [[w.tripp-history-of-iraq]]. Names: Qassim.'
     tags: [name:qassim-abdul-karim]
+  - id: cal.1961-12-12.berlin-and-vienna
+    when: Dec. 12
+    date: '1961-12-12'
+    thread: berlin-and-vienna
+    also: [europe-and-the-alliance-france]
+    c: 'Kennedy telephones de Gaulle, on Rusk''s recommendation from Paris, for the text the four Foreign Ministers had agreed: the NATO Council to approve diplomatic contacts with the Soviet Union, to find on what basis formal negotiation might be possible. De Gaulle objects: contacts by whom, and no agreed Western positions.'
+    n: '[FRUS 1961–63, XIV, doc. 239](https://history.state.gov/historicaldocuments/frus1961-63v14/d239). See [[cal.1961-06-03.berlin-and-vienna]]. Names: Kennedy, de Gaulle, Rusk.'
+    src:
+      c: b9efd054
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v14/d239: all'
+    tags: [name:kennedy-john-f, name:de-gaulle-charles, name:rusk-dean]
   - id: cal.1961-12-13.opinion
     when: Dec. 13
     date: '1961-12-13'
@@ -139,6 +230,19 @@ entries:
     also: [defense]
     c: 'Gallup, Nov. 17–22: 60 percent have thought about living in a fallout shelter; 12 plan changes in their homes against a nuclear attack.'
     n: '[[w.gallup-poll]], III, 1745.'
+  - id: cal.1961-12-13.europe-and-the-alliance
+    when: Dec. 13–15
+    date: '1961-12-13'
+    thread: europe-and-the-alliance
+    also: [berlin-and-vienna]
+    c: 'Paris, the NATO ministers. Rusk and McNamara brief the allies on intelligence and strategy, by Rusk''s report to Kennedy "unprecedented in NATO experience." Couve de Murville, by Rusk''s account, holds out against "negotiations" in the communiqué: "One does not telephone President de Gaulle."'
+    n: '[FRUS 1961–63, XIII, doc. 117](https://history.state.gov/historicaldocuments/frus1961-63v13/d117) (Rusk to Kennedy, eyes only, Dec. 15). [[w.rusk-as-i-saw-it-1990]], 226 (the communiqué). Names: Rusk, McNamara, Couve de Murville, de Gaulle.'
+    src:
+      c: f6447211
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v13/d117: A-B'
+        - 'w.rusk-as-i-saw-it-1990 226: C'
+    tags: [name:rusk-dean, name:mcnamara-robert-s, name:couve-de-murville-maurice, name:de-gaulle-charles]
   - id: cal.1961-12-14.program
     when: Dec. 14
     date: '1961-12-14'
@@ -151,14 +255,68 @@ entries:
     date: '1961-12-14'
     thread: africa
     c: 'Kennedy to Nkrumah: the United States will help finance the Volta dam, on his assurances of non-alignment.'
-    n: 'FRUS 1961–63, XXI, doc. [242](https://history.state.gov/historicaldocuments/frus1961-63v21/d242). See [[cal.1961-12-05.africa]]. Names: Kennedy, Nkrumah.'
+    n: 'FRUS 1961–63, XXI, doc. [242](https://history.state.gov/historicaldocuments/frus1961-63v21/d242). [[w.ball-past-has-another-pattern]], 187 (the decision); [[w.rusk-as-i-saw-it-1990]], 275. See [[cal.1961-12-05.africa]]. Names: Kennedy, Nkrumah. Check: Ball (187) has Randall leaving again for Ghana Dec. 15 to press the conditions, and Kennedy announcing the decision Saturday, Dec. 16.'
+    src:
+      c: 20b85ff0
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v21/d242: all'
+        - 'w.ball-past-has-another-pattern 187: A'
+        - 'w.rusk-as-i-saw-it-1990 275: A'
     tags: [name:kennedy-john-f, name:nkrumah-kwame]
+  - id: cal.1961-12-14.congo
+    when: Dec. 14
+    date: '1961-12-14'
+    thread: congo
+    c: 'Tshombe to Kennedy by telegram: for ten days the UN''s troops "exerting pressure against Katanga"; "Force alone can never resolve the Congolese problem"; his "desire to negotiate" with Adoula. He asks Kennedy "as a free man and as a Christian to designate a suitable negotiator."'
+    n: '"President Kennedy Asked To Facilitate Negotiations Between Congo Leaders," Department statement, Dec. 15, [[w.department-of-state-bulletin]], [Jan. 1, 1962, 10](https://archive.org/details/departmentofstat461962unit/page/10/mode/1up). [[w.ball-past-has-another-pattern]], 256–57. See [[cal.1961-12-21.congo]]. Names: Tshombe, Kennedy, Adoula.'
+    src:
+      c: f8753db0
+      rows:
+        - 'https://archive.org/details/departmentofstat461962unit/page/10/mode/1up: all'
+        - 'w.ball-past-has-another-pattern 256–57: all'
+    tags: [name:tshombe-moise, name:kennedy-john-f, name:adoula-cyrille]
+  - id: cal.1961-12-14.congo-2
+    when: Dec. 14
+    date: '1961-12-14'
+    thread: congo
+    c: 'Ball to Gullion, 9:23 p.m.: Kennedy''s message to Tshombe, for Hoffacker to deliver once Adoula concurs; Adoula has told Bunche he would meet Tshombe at Kitona. Gullion to be Kennedy''s man to bring the two together, by Ball''s account, a cease-fire left unpromised in writing; Hoffacker to say one would be in effect.'
+    n: '[FRUS 1961–63, XX, doc. 162](https://history.state.gov/historicaldocuments/frus1961-63v20/d162). [[w.ball-past-has-another-pattern]], 257 (Gullion; the cease-fire). See [[cal.1961-12-14.congo]]. Names: Ball, Gullion, Kennedy, Tshombe, Hoffacker, Adoula, Bunche.'
+    src:
+      c: d4456828
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d162: A-B'
+        - 'w.ball-past-has-another-pattern 257: C-D'
+    tags: [name:ball-george-w, name:gullion-edmund-a, name:kennedy-john-f, name:tshombe-moise, name:hoffacker-lewis, name:adoula-cyrille, name:bunche-ralph-j]
+  - id: cal.1961-12-14.congo-3
+    when: Dec. 14
+    date: '1961-12-14'
+    thread: congo
+    also: [conservative-movement]
+    c: 'The American Committee for Aid to Katanga Freedom Fighters, Max Yergan chairman, in a full-page advertisement in the *New York Times* and seventeen other papers: "Katanga is the Hungary of 1961." The United States to stop paying for the UN''s operation in Katanga.'
+    n: '[[w.ball-past-has-another-pattern]], 234. Check: the advertisement not read. See [[cal.1961-12-21.congo]].'
+    src:
+      c: 38d0e76c
+      rows:
+        - 'w.ball-past-has-another-pattern 234: all'
+  - id: cal.1961-12-14.georgia-albany
+    when: Dec. 14
+    date: '1961-12-14'
+    thread: georgia-albany
+    also: [georgia]
+    c: 'Mayor Kelley rides out to a Baker County plantation to find Vandiver at a bird hunt: the National Guard for Albany, and undercover revenue agents among the white groups in the outlying counties. Vandiver agrees. Kelley and Burke Marshall by telephone: no violence, no federal intervention. That night some 150 Guardsmen wait in the armory. By Kelley''s account.'
+    n: '[[w.branch-parting-the-waters]], 541–42. See [[cal.1961-12-10.albany]]. Names: Vandiver, Burke Marshall.'
+    src:
+      c: c3fbb673
+      rows:
+        - 'w.branch-parting-the-waters 541–42: all'
+        - 'via w.branch-parting-the-waters 541 n.1: all'
+    tags: [name:vandiver-s-ernest-jr, name:marshall-burke, state:ga, city:albany-ga]
   - id: cal.1961-12-15.vietnam
     when: Dec. 15
     date: '1961-12-15'
     thread: vietnam
     c: Diệm's request and Kennedy's pledge of more aid published.
-    n: '[FRUS 1961–63, I, doc. 322](https://history.state.gov/historicaldocuments/frus1961-63v01/d322). [[w.gibbons-u-s-government-and]], II, 103 (the letters; Kennedy''s dated Dec. 14). To check: State to Saigon 635, Nov. 17, 1961, the draft of Diệm''s letter, NSF, Country File, Vietnam, Kennedy Library (cited by [[w.gibbons-u-s-government-and]], II, 103 n.67). See [[cal.1961-01-28.vietnam]]. Names: Diệm.'
+    n: '[FRUS 1961–63, I, doc. 322](https://history.state.gov/historicaldocuments/frus1961-63v01/d322). [[w.gibbons-u-s-government-and]], II, 103 (the letters; Kennedy''s dated Dec. 14). [[w.sorensen-kennedy]], 655. To check: State to Saigon 635, Nov. 17, 1961, the draft of Diệm''s letter, NSF, Country File, Vietnam, Kennedy Library (cited by [[w.gibbons-u-s-government-and]], II, 103 n.67). See [[cal.1961-01-28.vietnam]]. Names: Diệm.'
     src:
       c: 9616bad2
       rows:
@@ -166,6 +324,7 @@ entries:
         - 'w.gibbons-u-s-government-and II, 103: A'
         - 'via w.gibbons-u-s-government-and II, 103 n.67a: A'
         - 'via w.gibbons-u-s-government-and II, 103 n.67b: A'
+        - 'w.sorensen-kennedy 655: all'
     tags: [name:kennedy-john-f, name:ngo-dinh-diem]
   - id: cal.1961-12-15.albany
     when: Dec. 15–18
@@ -173,7 +332,7 @@ entries:
     thread: georgia-albany
     also: [king]
     c: 'King in Albany. Arrested Dec. 16; refuses bail. Dec. 18: a truce; King out.'
-    n: '[[w.garrow-bearing-the-cross]], 183–87. To check: Albany Herald, Dec. 16, 1961, 1; Dec. 17, 1961, 1; Atlanta Journal, Dec. 16, 1961, 20; Atlanta Journal-Constitution, Dec. 17, 1961; Asa Kelley to William G. Anderson, Dec. 16, 1961, Albany City Files, Albany, Ga.; SAC Atlanta to Director, Dec. 17, 1961; McGowan to Rosen, Dec. 17, 1961; Rosen to Belmont, Dec. 18, 1961, FBI file 157-6-2-225, 229, 231; Afro-American, Dec. 23, 1961, 1 (cited by [[w.garrow-bearing-the-cross]], 184 n.10); Atlanta Journal-Constitution, Dec. 17, 1961, 1; Atlanta Constitution, Dec. 18, 1961, 1; SCLC press release, "Abernathy Issues Call . . .," Dec. 17, 1961, King Center; New York Times, Dec. 18, 1961, 1; New York Herald Tribune, Dec. 18, 1961, 1; Albany Herald, Dec. 18, 1961, 1 (cited by [[w.garrow-bearing-the-cross]], 185 n.11); untitled handwritten chronology; memorandum signed "M. S. Page"; draft, "10:30 A.M., 12/18/61", Albany City Files, Albany, Ga.; "Report of Telephone Conversation Between Ruby Hurley, Vernon Jordan & Gloster Current," Dec. 18, 1961, and "Transcript . . .," 3:30 p.m., Dec. 18, 1961, NAACP Papers, Library of Congress; SAC Atlanta to Director, Dec. 19, 1961, FBI file 157-6-2-232X1 (cited by [[w.garrow-bearing-the-cross]], 186 n.12); Atlanta Journal, Dec. 18, 1961, 1; Dec. 19, 1961, 10; SAC Atlanta to Director, Dec. 18, 1961 (two), FBI file 157-6-2-219, 223; New York Times, Dec. 19, 1961, 1; Afro-American, Dec. 30, 1961, 8 (cited by [[w.garrow-bearing-the-cross]], 186 n.13). See [[cal.1961-11-17.albany]]. Names: King.'
+    n: '[[w.garrow-bearing-the-cross]], 183–87. [[w.branch-parting-the-waters]], 544–56. To check: Albany Herald, Dec. 16, 1961, 1; Dec. 17, 1961, 1; Atlanta Journal, Dec. 16, 1961, 20; Atlanta Journal-Constitution, Dec. 17, 1961; Asa Kelley to William G. Anderson, Dec. 16, 1961, Albany City Files, Albany, Ga.; SAC Atlanta to Director, Dec. 17, 1961; McGowan to Rosen, Dec. 17, 1961; Rosen to Belmont, Dec. 18, 1961, FBI file 157-6-2-225, 229, 231; Afro-American, Dec. 23, 1961, 1 (cited by [[w.garrow-bearing-the-cross]], 184 n.10); Atlanta Journal-Constitution, Dec. 17, 1961, 1; Atlanta Constitution, Dec. 18, 1961, 1; SCLC press release, "Abernathy Issues Call . . .," Dec. 17, 1961, King Center; New York Times, Dec. 18, 1961, 1; New York Herald Tribune, Dec. 18, 1961, 1; Albany Herald, Dec. 18, 1961, 1 (cited by [[w.garrow-bearing-the-cross]], 185 n.11); untitled handwritten chronology; memorandum signed "M. S. Page"; draft, "10:30 A.M., 12/18/61", Albany City Files, Albany, Ga.; "Report of Telephone Conversation Between Ruby Hurley, Vernon Jordan & Gloster Current," Dec. 18, 1961, and "Transcript . . .," 3:30 p.m., Dec. 18, 1961, NAACP Papers, Library of Congress; SAC Atlanta to Director, Dec. 19, 1961, FBI file 157-6-2-232X1 (cited by [[w.garrow-bearing-the-cross]], 186 n.12); Atlanta Journal, Dec. 18, 1961, 1; Dec. 19, 1961, 10; SAC Atlanta to Director, Dec. 18, 1961 (two), FBI file 157-6-2-219, 223; New York Times, Dec. 19, 1961, 1; Afro-American, Dec. 30, 1961, 8 (cited by [[w.garrow-bearing-the-cross]], 186 n.13); New York Times, Dec. 17, 1961, 1, 46 (cited by [[w.branch-parting-the-waters]], 548 n.1); The city''s terms, headed "10:30 a.m., December 18, 1961", City Records, Albany, Ga. (cited by [[w.branch-parting-the-waters]], 555 n.4); New York Times, Dec. 19, 1961, 1, 24 (cited by [[w.branch-parting-the-waters]], 556 n.1). See [[cal.1961-11-17.albany]]. Names: King. Check: Branch, 543, misdates the Friday "December 16"; it has King arrested Saturday, Dec. 16, and freed Monday, Dec. 18, on the city''s oral terms.'
     src:
       c: d30419dd
       rows:
@@ -195,18 +354,23 @@ entries:
         - 'via w.garrow-bearing-the-cross 186 n.13b: D-E'
         - 'via w.garrow-bearing-the-cross 186 n.13c: D-E'
         - 'via w.garrow-bearing-the-cross 186 n.13d: D-E'
+        - 'w.branch-parting-the-waters 544–56: all'
+        - 'via w.branch-parting-the-waters 548 n.1: all'
+        - 'via w.branch-parting-the-waters 555 n.4: all'
+        - 'via w.branch-parting-the-waters 556 n.1: all'
     tags: [name:king-martin-luther-jr]
   - id: cal.1961-12-16.latin-america
     when: Dec. 16–17
     date: '1961-12-16'
     thread: latin-america
     c: Kennedy in Caracas and Bogotá.
-    n: '[FRUS vol. 12](https://history.state.gov/historicaldocuments/frus1961-63v12). [[w.reeves-president-kennedy]], 267–68. See [[cal.1961-03-13.latin-america]].'
+    n: '[FRUS vol. 12](https://history.state.gov/historicaldocuments/frus1961-63v12). [[w.reeves-president-kennedy]], 267–68. [[w.nixon-six-crises]], 223 n.3 (Caracas: Communists rounded up and their offices shut beforehand; 35,000 troops on the route). See [[cal.1961-03-13.latin-america]].'
     src:
       c: b6365cd7
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v12: all'
         - 'w.reeves-president-kennedy 267–68: all'
+        - 'w.nixon-six-crises 223: A'
     tags: [name:kennedy-john-f]
   - id: cal.1961-12-16.vietnam
     when: Dec. 16
@@ -230,6 +394,32 @@ entries:
     also: [trade, european-community]
     c: 'Gallup, Nov. 17–22: 22 percent have heard of the European Common Market; 13 can tell its purposes.'
     n: '[[w.gallup-poll]], III, 1746.'
+  - id: cal.1961-12-17.congo
+    when: Dec. 17
+    date: '1961-12-17'
+    thread: congo
+    c: 'Ball to Kennedy in Bogotá: the UN''s limited military objectives at Elisabethville substantially reached; a de facto suspension of hostilities, not a formal cease-fire, the British and French having made the difference plain to Tshombe; Tshombe to meet Adoula, apparently without conditions. Gullion to fly him to Kitona.'
+    n: '[FRUS 1961–63, XX, doc. 166](https://history.state.gov/historicaldocuments/frus1961-63v20/d166). See [[cal.1961-12-14.congo-2]]. Names: Ball, Kennedy, Tshombe, Adoula, Gullion.'
+    src:
+      c: a1b3b5a9
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d166: all'
+    tags: [name:ball-george-w, name:kennedy-john-f, name:tshombe-moise, name:adoula-cyrille, name:gullion-edmund-a]
+  - id: cal.1961-12-17.democratic-party
+    when: Dec. 17
+    date: '1961-12-17'
+    thread: democratic-party
+    also: [georgia-albany]
+    c: 'James Gray, chairman of the Georgia Democratic Party, owner of the *Albany Herald* and the town''s television station, on television: a "cell of professional agitators" whose rebellion "smacks more of Lenin and Stalin than of George Washington"; King has "learned that martyrdom can be a highly productive practice for the acquisition of a buck." Segregation "peaceful and rewarding": "What we need is tolerance, not tantrum."'
+    n: '[[w.branch-parting-the-waters]], 553–54. To check: New York Times, Dec. 18, 1961, 31 (cited by [[w.branch-parting-the-waters]], 554 n.1); Atlanta Journal, Dec. 18, 1961, 10 (cited by [[w.branch-parting-the-waters]], 554 n.2). See [[cal.1961-12-15.albany]]. Names: Martin Luther King.'
+    src:
+      c: 487b532e
+      rows:
+        - 'w.branch-parting-the-waters 553–54: all'
+        - 'via w.branch-parting-the-waters 553 n.3: all'
+        - 'via w.branch-parting-the-waters 554 n.1: A-B'
+        - 'via w.branch-parting-the-waters 554 n.2: C'
+    tags: [name:king-martin-luther-jr, state:ga, city:albany-ga]
   - id: cal.1961-12-18.india-and-china
     when: Dec. 18
     date: '1961-12-18'
@@ -244,6 +434,44 @@ entries:
     c: Delaware restores the death penalty for first-degree murder, abolished in 1958. The House overrides Carvel's vetoes; the two acts become law without his approval. Hanging the method; a jury may recommend mercy, the court then to impose life imprisonment.
     n: 'Del. Laws 1961, [ch. 309](https://legis.delaware.gov/SessionLaws/Chapter?id=30285), [ch. 310](https://legis.delaware.gov/SessionLaws/Chapter?id=30286) ("became a law on December 18, 1961 without the approval of the Governor"). [*Harrington Journal*, Dec. 22, 1961](https://ghhsociety.org/wp-content/uploads/2022/06/19611222.pdf). To check: [[w.banner-death-penalty]]; [[w.peirce-mid-atlantic-states-of]]. Names: Carvel.'
     tags: [state:de, name:carvel-elbert-n]
+  - id: cal.1961-12-18.robert-kennedy
+    when: Dec. 18
+    date: '1961-12-18'
+    thread: robert-kennedy
+    also: [georgia-albany]
+    c: 'Robert Kennedy, White and Marshall at the Justice Department through the morning: Albany "number one" on his agenda, advice ready if either side asks. Within an hour of the truce Kennedy telephones Mayor Kelley to congratulate the city on preventing violence, by Kelley''s announcement.'
+    n: '[[w.branch-parting-the-waters]], 555–56. To check: New York Times, Dec. 19, 1961, 1, 24 (the note''s "Ibid.") (cited by [[w.branch-parting-the-waters]], 556 n.2). See [[cal.1961-12-15.albany]]. Names: Robert Kennedy, Byron White, Burke Marshall.'
+    src:
+      c: f8c30814
+      rows:
+        - 'w.branch-parting-the-waters 555–56: all'
+        - 'via w.branch-parting-the-waters 556 n.2: B'
+    tags: [name:kennedy-robert-f, name:white-byron-r, name:marshall-burke, city:albany-ga]
+  - id: cal.1961-12-18.king
+    when: Dec. 18
+    date: '1961-12-18'
+    thread: king
+    also: [civil-rights-the-executive]
+    c: 'Before dawn, Wyatt Walker to the White House by telegram in King''s name, King in jail at Americus: the President to "issue at once by Executive Order a Second Emancipation Proclamation to free all Negroes from second-class citizenship."'
+    n: '[[w.branch-parting-the-waters]], 555. See [[cal.1961-10-16.king]]. Names: Martin Luther King, Kennedy.'
+    src:
+      c: 5f5db41a
+      rows:
+        - 'w.branch-parting-the-waters 555: all'
+    tags: [name:king-martin-luther-jr, name:kennedy-john-f]
+  - id: cal.1961-12-18.defense
+    when: Dec. 18
+    date: '1961-12-18'
+    thread: defense
+    also: [foreign-aid]
+    c: 'NSAM 119, "Civic Action," Bundy to Rusk and McNamara: the President wants methods "for supporting whatever contribution military forces can make to economic and social development in less-developed countries": training, public works, agriculture, transport, health.'
+    n: '[FRUS 1961–63, VIII, doc. 65](https://history.state.gov/historicaldocuments/frus1961-63v08/d65). [[w.preston-war-council]], 104–05. Names: Bundy, Rusk, McNamara, Kennedy.'
+    src:
+      c: e531c0bb
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v08/d65: all'
+        - 'w.preston-war-council 104–05: all'
+    tags: [name:bundy-mcgeorge, name:rusk-dean, name:mcnamara-robert-s, name:kennedy-john-f]
   - id: cal.1961-12-19.transition-and-staff
     when: Dec. 19
     date: '1961-12-19'
@@ -273,6 +501,31 @@ entries:
         - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf#page=896: all'
         - 'w.schlesinger-robert-kennedy-and-his 451: A'
     tags: [name:kennedy-robert-f, name:reuther-walter, name:reuther-victor-g, name:rauh-joseph-l-jr, name:goldwater-barry-m, name:welch-robert, name:kennedy-john-f]
+  - id: cal.1961-12-19.congo
+    when: Dec. 19
+    date: '1961-12-19'
+    thread: congo
+    c: 'Ball before the Town Hall at Los Angeles, "The Elements in Our Congo Policy": Congolese unity "perhaps the only really ''modern'' issue"; should Adoula fail to deal with Katanga''s secession, Gizenga would bid for the central government, and "our main objectives in central Africa would be drowned in blood." "There simply is no legal case, no political case, no economic case, and no moral case for Balkanizing the heart of Africa."'
+    n: 'Ball, "The Elements in Our Congo Policy," [[w.department-of-state-bulletin]], [Jan. 8, 1962, 43](https://archive.org/details/departmentofstat461962unit/page/43/mode/1up). [[w.ball-past-has-another-pattern]], 232–33. See [[cal.1961-12-14.congo]]. Names: Ball, Adoula, Gizenga.'
+    src:
+      c: 4c42a73d
+      rows:
+        - 'https://archive.org/details/departmentofstat461962unit/page/43/mode/1up: all'
+        - 'w.ball-past-has-another-pattern 232–33: all'
+        - 'via w.ball-past-has-another-pattern 233 n.8: all'
+    tags: [name:ball-george-w, name:adoula-cyrille, name:gizenga-antoine]
+  - id: cal.1961-12-19.congo-2
+    when: Dec. 19
+    date: '1961-12-19'
+    thread: congo
+    also: [republican-party]
+    c: 'Nixon, in a syndicated article in the *New York Herald Tribune*: the administration''s Congo policy has failed and leads toward a Communist Congo; Tshombe "a dedicated anti-Communist."'
+    n: '[[w.ball-past-has-another-pattern]], 234. Check: the article not read. See [[cal.1961-12-14.congo]]. Names: Nixon, Tshombe.'
+    src:
+      c: 28b745c3
+      rows:
+        - 'w.ball-past-has-another-pattern 234: all'
+    tags: [name:nixon-richard-m, name:tshombe-moise]
   - id: cal.1961-12-20.middle-east-johnson-plan
     when: Dec. 20
     date: '1961-12-20'
@@ -284,7 +537,14 @@ entries:
     date: '1961-12-21'
     thread: congo
     c: Kitona. Tshombe accepts the central government, Gullion mediating. Repudiated within weeks. Check the repudiation.
-    n: 'FRUS 1961–63, XX, docs. [166](https://history.state.gov/historicaldocuments/frus1961-63v20/d166), [174](https://history.state.gov/historicaldocuments/frus1961-63v20/d174), [176](https://history.state.gov/historicaldocuments/frus1961-63v20/d176), [181](https://history.state.gov/historicaldocuments/frus1961-63v20/d181). To check: [[w.kalb-congo-cables]]. See [[cal.1961-02-13.congo]]. Names: Tshombe, Gullion.'
+    n: '[FRUS 1961–63, XX, doc. 176](https://history.state.gov/historicaldocuments/frus1961-63v20/d176) (Ball to Kennedy and Rusk at Bermuda: the terms; Tshombe''s escape, his cabinet and assembly). [[w.ball-past-has-another-pattern]], 257–58 (seventeen hours; the terms; Tshombe to the press at Kitona); [[w.rusk-as-i-saw-it-1990]], 278 (Tshombe accepts the central government). [FRUS 1961–63, XX, doc. 166](https://history.state.gov/historicaldocuments/frus1961-63v20/d166); [doc. 174](https://history.state.gov/historicaldocuments/frus1961-63v20/d174); [doc. 176](https://history.state.gov/historicaldocuments/frus1961-63v20/d176); [doc. 181](https://history.state.gov/historicaldocuments/frus1961-63v20/d181). To check: [[w.kalb-congo-cables]]. See [[cal.1961-02-13.congo]]. Names: Tshombe, Gullion.'
+    src:
+      c: 234b4f1b
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d166: all'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d176: A-B'
+        - 'w.ball-past-has-another-pattern 257–58: A-B, D'
+        - 'w.rusk-as-i-saw-it-1990 278: A-B'
     tags: [name:gullion-edmund-a, name:tshombe-moise]
   - id: cal.1961-12-21.europe-and-the-alliance
     when: Dec. 21–22
@@ -308,6 +568,29 @@ entries:
     c: Specialist James T. Davis killed in an ambush west of Saigon. Later counted the first American battle death.
     n: 'See [[cal.1961-01-28.vietnam]]. Names: Davis.'
     tags: [name:davis-james-t, place:saigon]
+  - id: cal.1961-12-22.congo
+    when: Dec. 22
+    date: '1961-12-22'
+    thread: congo
+    c: 'Ball to McGeorge Bundy at Bermuda by telephone, by Ball''s account: Tshombe''s cabinet, after three hours the night before, has denounced the Kitona agreement as not binding. State''s program of economic pressure on Katanga, in three stages, to Leopoldville: Tshombe''s financial backers to be put in jeopardy, the Congo''s tax and customs offices in Belgium reopened; the United States, Belgium, Britain and the UN to consult first.'
+    n: '[FRUS 1961–63, XX, doc. 179](https://history.state.gov/historicaldocuments/frus1961-63v20/d179). [[w.ball-past-has-another-pattern]], 258 (the call). See [[cal.1961-12-21.congo]]. Names: Ball, McGeorge Bundy, Tshombe.'
+    src:
+      c: 3f6dd552
+      rows:
+        - 'w.ball-past-has-another-pattern 258: A'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d179: B-C'
+    tags: [name:ball-george-w, name:bundy-mcgeorge, name:tshombe-moise]
+  - id: cal.1961-12-22.berlin-and-vienna
+    when: Dec. 22
+    date: '1961-12-22'
+    thread: berlin-and-vienna
+    c: 'The Canadian embassy in Washington to Ottawa: Bundy, with wary Canadian diplomats, for serious military preparations over Berlin, as he had advised Kennedy in June and July.'
+    n: '[[w.preston-war-council]], 67. To check: Embassy in Washington, D.C., to Ottawa, Dec. 22, 1961, RG 25, vol. 5088, file 4901–4940, pt. 15, National Archives of Canada (cited by [[w.preston-war-council]], 67 n.38). See [[cal.1961-06-10.berlin-and-vienna-2]]. Names: Bundy, Kennedy. Check: the day of the meeting.'
+    src:
+      c: cf4e615e
+      rows:
+        - 'w.preston-war-council 67: all'
+    tags: [name:bundy-mcgeorge, name:kennedy-john-f]
   - id: cal.1961-12-24.latin-america
     when: Dec. 24
     date: '1961-12-24'
@@ -329,6 +612,18 @@ entries:
     c: 'On reports of Iraqi moves against Kuwait, Britain sends an aircraft carrier and smaller ships toward the Gulf; Iraq protests to the Security Council. Jernegan from Baghdad: Kuwait''s safety to be made the concern of the Arab states, Nasser''s above all.'
     n: 'FRUS 1961–63, XVII, docs. [154](https://history.state.gov/historicaldocuments/frus1961-63v17/d154), [155](https://history.state.gov/historicaldocuments/frus1961-63v17/d155), [156](https://history.state.gov/historicaldocuments/frus1961-63v17/d156) (Dec. 29). Made public: FRUS 1961–63, XVII (1994). See [[cal.1961-06-25.middle-east]]. Names: Jernegan, Nasser.'
     tags: [name:nasser-gamal-abdel, name:jernegan-john-d]
+  - id: cal.1961-12-30.congo
+    when: Dec. 30
+    date: '1961-12-30'
+    thread: congo
+    also: [republican-party]
+    c: Herbert Hoover endorses Dodd's call for a Senate investigation of the UN's action in Katanga, its "naked aggression" and "atrocities."
+    n: '[[w.ball-past-has-another-pattern]], 234. Check: Dodd''s statement not dated; neither read. See [[cal.1961-12-14.congo]]. Names: Dodd.'
+    src:
+      c: 9d5b88ad
+      rows:
+        - 'w.ball-past-has-another-pattern 234: all'
+    tags: [name:dodd-thomas-j]
   - id: cal.1961-12-31.opinion-5
     when: Dec. 31
     date: '1961-12-31'
@@ -364,3 +659,60 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 262: all'
         - 'via w.schlesinger-robert-kennedy-and-his 262 n.4: all'
     tags: [name:kennedy-robert-f]
+  - id: cal.1961-12.cuba
+    when: Dec.
+    date: 1961-12
+    thread: cuba
+    also: [cuba-bay-of-pigs]
+    c: 'The Philippines, a meeting of the CIA''s chiefs of station in the Far East, Bissell presiding, McCone come along: Bissell''s first account of the Bay of Pigs to them. Not that the air strikes alone would have won it. By Bissell''s account.'
+    n: '[[w.bissell-reflections-of-a-cold]], 199. See [[cal.1961-11-28.transition-and-staff]]. Names: Bissell, McCone. Check: the month: Bissell gives "late autumn 1961."'
+    src:
+      c: 5ebada76
+      rows:
+        - 'w.bissell-reflections-of-a-cold 199: all'
+    tags: [name:bissell-richard-m-jr, name:mccone-john-a]
+  - id: cal.1961-12.transition-and-staff
+    when: Dec.
+    date: 1961-12
+    thread: transition-and-staff
+    c: 'Bissell and McCone agree he will resign at the end of December. McCone''s wife dies; he calls from California: no move, he is unsure he can go on. Back in Washington in early January. By Bissell''s account.'
+    n: '[[w.bissell-reflections-of-a-cold]], 203. See [[cal.1961-11-28.transition-and-staff]]. Names: Bissell, McCone. Check: the days.'
+    src:
+      c: f3ac3dfb
+      rows:
+        - 'w.bissell-reflections-of-a-cold 203: all'
+    tags: [name:bissell-richard-m-jr, name:mccone-john-a]
+  - id: cal.1961-12.intelligence
+    when: Dec.
+    date: 1961-12
+    thread: intelligence
+    c: McCone, new at the CIA, proposes to Kennedy that the Foreign Intelligence Advisory Board become his own advisory group, by Clifford's account; the board refuses. The board urges him to name a professional deputy to run the CIA.
+    n: '[[w.clifford-counsel-to-the-president-2]], 354–55. See [[cal.1961-05-15.intelligence]]. Names: McCone, Kennedy. Check: the month, from "From the beginning."'
+    src:
+      c: 682ca85d
+      rows:
+        - 'w.clifford-counsel-to-the-president-2 354–55: all'
+    tags: [name:mccone-john-a, name:kennedy-john-f]
+  - id: cal.1961-12.elections-1962
+    when: Dec.
+    date: 1961-12
+    thread: elections-1962
+    c: Early December. Edward Kennedy to seek the nomination for the Senate seat; Edward McCormack his opponent in the primary, by Clifford's account.
+    n: '[[w.clifford-counsel-to-the-president-2]], 370. See [[cal.1961-09.elections-1962]]. Names: Edward Kennedy. Check: the day.'
+    src:
+      c: f2e46f4b
+      rows:
+        - 'w.clifford-counsel-to-the-president-2 370: all'
+    tags: [name:kennedy-edward-m]
+  - id: cal.1961-12.goldwater
+    when: Dec.
+    date: 1961-12
+    thread: goldwater
+    also: [conservative-movement]
+    c: New York. White takes a two-room suite, 3505, on the thirty-fifth floor of the Chanin Building, the group's headquarters, no name on the door; Rita Bree joins him, for the women. By White's account.
+    n: '[[w.white-suite-3505]], 52–54. See [[cal.1961-12-10.goldwater]]. Names: White. Check: the day.'
+    src:
+      c: 89bc2ec0
+      rows:
+        - 'w.white-suite-3505 52–54: all'
+    tags: [name:white-f-clifton, city:nyc]

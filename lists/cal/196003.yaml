@@ -8,7 +8,7 @@ entries:
     date: 1960-03
     thread: economy
     c: Arthur F. Burns warns Nixon of a dip before the election, its low in October, unless credit is eased and defense spending raised soon. Nixon takes it to the cabinet. No action.
-    n: '[[w.stein-fiscal-revolution-in-america]], 366–67, 370 (the warning, the Cabinet, the low in October; Stein has spending and tax reduction urged, not credit). [[w.kallina-kennedy-v-nixon]], 89–90 (the warning; Nixon for Burns''s remedy, the administration against). Made public: Nixon, *Six Crises* (1962). To check: [[w.nixon-six-crises]]; [[w.morgan-eisenhower-versus-the-spenders]]; [[w.white-making-of-the-president]]. Check: Stein, 366, has Burns come to his view in February 1960. Names: Burns, Nixon.'
+    n: '[[w.stein-fiscal-revolution-in-america]], 366–67, 370 (the warning, the Cabinet, the low in October; Stein has spending and tax reduction urged, not credit). [[w.kallina-kennedy-v-nixon]], 89–90 (the warning; Nixon for Burns''s remedy, the administration against). [[w.nixon-six-crises]], 309–10 (early March, Burns to Nixon in his Capitol office; Nixon to the President, who puts it before the Cabinet; no action). Made public: Nixon, *Six Crises* (1962). To check: [[w.morgan-eisenhower-versus-the-spenders]]; [[w.white-making-of-the-president]]. Check: Stein, 366, has Burns come to his view in February 1960. Names: Burns, Nixon.'
     src:
       c: d3d57471
       rows:
@@ -16,17 +16,22 @@ entries:
         - 'w.stein-fiscal-revolution-in-america 366: A'
         - 'w.stein-fiscal-revolution-in-america 367: B-C'
         - 'w.stein-fiscal-revolution-in-america 370: A'
+        - 'w.nixon-six-crises 309–10: all'
     tags: [name:burns-arthur-f, name:nixon-richard-m]
   - id: cal.1960-03.elections-1960
     when: Mar.
     date: 1960-03
     thread: elections-1960
     c: The Wisconsin campaign. Kennedy and Humphrey across the State to Apr. 5; Kennedy's family and staff in every district, Humphrey by bus. Drew and Leacock film both.
-    n: '[[w.kallina-kennedy-v-nixon]], 56 (Kennedy''s family and his plane; Humphrey''s bus). To check: [[w.primary]]; [[w.white-making-of-the-president]]; [[w.humphrey-education-of-a-public-1976]]; [[w.solberg-hubert-humphrey]]; [[w.odonnell-johnny-we-hardly-knew]]; [[w.sorensen-kennedy]]; [[w.dallek-unfinished-life]]; [[w.pietrusza-1960]]; [[w.casey-making-of-a-catholic]]; [[w.carty-catholic-in-the-white]]; [[w.rorabaugh-real-making-of-the]]. Names: Kennedy, Humphrey, Drew, Leacock.'
+    n: '[[w.kallina-kennedy-v-nixon]], 56 (Kennedy''s family and his plane; Humphrey''s bus); [[w.solberg-hubert-humphrey]], 204–07 (the campaign; Humphrey''s bus; the Kennedys everywhere); [[w.sorensen-kennedy]], 135 (Kennedy''s family and staff across the State); [[w.white-making-of-the-president]], 80–93 (the Wisconsin campaign; Kennedy''s family and organizers; Humphrey''s bus). [[w.humphrey-education-of-a-public-1976]], 206–09 (the campaign; Kennedy''s family and his plane, Humphrey''s bus). To check: [[w.primary]]; [[w.odonnell-johnny-we-hardly-knew]]; [[w.dallek-unfinished-life]]; [[w.pietrusza-1960]]; [[w.casey-making-of-a-catholic]]; [[w.carty-catholic-in-the-white]]; [[w.rorabaugh-real-making-of-the]]. Names: Kennedy, Humphrey, Drew, Leacock.'
     src:
       c: 4aef1c2c
       rows:
         - 'w.kallina-kennedy-v-nixon 56: C'
+        - 'w.humphrey-education-of-a-public-1976 206–09: A-C'
+        - 'w.solberg-hubert-humphrey 204–07: A-B'
+        - 'w.sorensen-kennedy 135: C'
+        - 'w.white-making-of-the-president 80–93: A-C'
     tags: [name:kennedy-john-f, name:humphrey-hubert-h, name:drew-robert, name:leacock-richard]
   - id: cal.1960-03-02.latin-america-trip
     when: Mar. 2–3
@@ -43,17 +48,58 @@ entries:
     c: The California Legislature in special session, on Brown's proclamation. His message asks it to abolish the death penalty.
     n: '[*Journal of the Senate*, 1960 Second Extraordinary Session, 2–6](https://archive.org/details/jour1960cali/page/n833) (the proclamation and message). See [[cal.1960-02-19.crime-and-hijacking-ca]]. Names: Brown.'
     tags: [state:ca, name:brown-edmund-g]
+  - id: cal.1960-03-02.alabama
+    when: Mar. 2
+    date: '1960-03-02'
+    thread: alabama
+    also: [sit-ins]
+    c: Montgomery. The State Board of Education, on the recommendation of Patterson, its chairman, expels nine Alabama State College students as "ring leaders" of the sit-in of Feb. 25 and the demonstrations after, Bernard Lee among them; twenty put on probation. No charges, no hearing.
+    n: '*Dixon v. Alabama State Board of Education*, [294 F.2d 150](https://static.case.law/f2d/294/case-pdfs/0150-01.pdf), 154 (5th Cir. 1961), quoting the district court''s findings. [[w.branch-parting-the-waters]], 282 (the nine, Lee). See [[cal.1960-02-25.sit-ins]]. Names: Patterson.'
+    src:
+      c: 65ec5e66
+      rows:
+        - 'https://static.case.law/f2d/294/case-pdfs/0150-01.pdf: all'
+        - 'w.branch-parting-the-waters 282: B'
+    tags: [name:patterson-john]
+  - id: cal.1960-03-02.cuba
+    when: Mar. 2
+    date: '1960-03-02'
+    thread: cuba
+    c: 'The Joint Chiefs to Gates, JCSM-72-60, Burke signing: a government in Cuba controlled by international Communism a direct threat; "a program of positive action to re-establish a stable, friendly, non-communist government in Cuba"; the study to go to the NSC.'
+    n: '[FRUS 1958–60, VI, doc. 468](https://history.state.gov/historicaldocuments/frus1958-60v06/d468). Made public: FRUS 1958–60, VI (1991). [[w.jones-bay-of-pigs]], 17. See [[cal.1960-02-26.cuba]]. Names: Gates, Burke.'
+    src:
+      c: 7f31cc8d
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v06/d468: all'
+        - 'w.jones-bay-of-pigs 17: all'
+        - 'via w.jones-bay-of-pigs 17 n.18e: all'
+    tags: [name:gates-thomas-s-jr, name:burke-arleigh-a]
   - id: cal.1960-03-04.cuba
     when: Mar. 4–5
     date: '1960-03-04'
     thread: cuba
     c: 'The French freighter *La Coubre*, unloading Belgian munitions in Havana harbor, explodes; a second blast among the rescuers. At least 75 dead. Castro at the funeral, Mar. 5: the United States to blame; "Patria o muerte."'
-    n: '[FRUS 1958–60, VI: Cuba, doc. 469](https://history.state.gov/historicaldocuments/frus1958-60v06/d469) (Herter to the Cuban chargé, Mar. 7: the protest of Castro''s charge of Mar. 5; the explosion of Mar. 4 and the dead, 75 Cuban dockworkers and French crewmen, in the note). Check: the second blast, and the count of the dead (FRUS''s note: a number of French crewmen and 75 Cuban dockworkers). To check: [[w.paterson-contesting-castro]]; [[w.schoultz-that-infernal-little-cuban]]; [[w.rabe-eisenhower-and-latin-america]]. Names: Castro.'
+    n: '[FRUS 1958–60, VI: Cuba, doc. 469](https://history.state.gov/historicaldocuments/frus1958-60v06/d469) (Herter to the Cuban chargé, Mar. 7: the protest of Castro''s charge of Mar. 5; the explosion of Mar. 4 and the dead, 75 Cuban dockworkers and French crewmen, in the note). Check: the second blast, and the count of the dead (FRUS''s note: a number of French crewmen and 75 Cuban dockworkers). [[w.fursenko-one-hell-of-a]], 40 (the explosion; Castro at the funeral). To check: [[w.paterson-contesting-castro]]; [[w.schoultz-that-infernal-little-cuban]]; [[w.rabe-eisenhower-and-latin-america]]. Names: Castro. Check: Fursenko and Naftali give more than one hundred dead (40).'
     src:
       c: 07259553
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1958-60v06/d469: A, C, D'
+        - 'w.fursenko-one-hell-of-a 40: A, C-E'
     tags: [name:castro-fidel]
+  - id: cal.1960-03-04.voting-rights
+    when: Mar. 4
+    date: '1960-03-04'
+    thread: voting-rights
+    c: 'Morse in the Senate with a cloture petition; Hill objects to its lying on a table for signatures. Morse leaves it at the desk; Morton tears it up: "Censure me if you will."'
+    n: '[106 Cong. Rec. 4437–39](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt4/pdf/GPO-CRECB-1960-pt4-3-1.pdf#page=11) (Mar. 4, 1960). [[w.mann-walls-of-jericho]], 257. To check: New York Times, Mar. 5, 1960; Atlanta Journal, Mar. 4, 1960 (cited by [[w.mann-walls-of-jericho]], 257). See [[cal.1960-02-05.voting-rights]]. Names: Morse, Lister Hill, Morton.'
+    src:
+      c: 10adecf6
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt4/pdf/GPO-CRECB-1960-pt4-3-1.pdf#page=11: all'
+        - 'w.mann-walls-of-jericho 257: all'
+        - 'via w.mann-walls-of-jericho 257 n.some-tense-moments.a: all'
+        - 'via w.mann-walls-of-jericho 257 n.some-tense-moments.b: all'
+    tags: [name:morse-wayne, name:hill-lister, name:morton-thruston-b]
   - id: cal.1960-03-07.court
     when: Mar. 7
     date: '1960-03-07'
@@ -98,18 +144,32 @@ entries:
     date: '1960-03-08'
     thread: voting-rights
     c: 'Johnson ends the Senate''s round-the-clock sessions, Mar. 8. Mar. 10: cloture on the Douglas–Javits motion refused, [42–53](https://voteview.com/rollcall/RS0860249). Case''s amendment, letting the Attorney General sue to protect any civil right, tabled, [55–38](https://voteview.com/rollcall/RS0860250). The House takes up its bill, H.R. 8601, under an open rule, [314–93](https://voteview.com/rollcall/RH0860098).'
-    n: 'See [[cal.1960-02-15.voting-rights]]. Names: Johnson, Douglas, Javits, Francis Case.'
+    n: '[[w.sundquist-politics-and-policy]], 248–49 (cloture refused, 42–53; Part III beaten, 55–38); [[w.mann-walls-of-jericho]], 257–58 (the session''s end; cloture refused; Case''s amendment tabled). See [[cal.1960-02-15.voting-rights]]. Names: Johnson, Douglas, Javits, Francis Case.'
+    src:
+      c: 37f8ac21
+      rows:
+        - 'https://voteview.com/rollcall/RS0860249: B'
+        - 'https://voteview.com/rollcall/RS0860250: C'
+        - 'https://voteview.com/rollcall/RH0860098: D'
+        - 'w.sundquist-politics-and-policy 248–49: B-C'
+        - 'w.mann-walls-of-jericho 257–58: A-C'
+        - 'via w.mann-walls-of-jericho 257 n.a-partial-southern-victory-seemed-assured.a: A'
+        - 'via w.mann-walls-of-jericho 257 n.a-partial-southern-victory-seemed-assured.b: B-C'
+        - 'via w.mann-walls-of-jericho 258 n.the-first-on-cloture-since-1954.a: B'
+        - 'via w.mann-walls-of-jericho 258 n.the-first-on-cloture-since-1954.b: B'
     tags: [name:johnson-lyndon-b, name:douglas-paul-h, name:javits-jacob-k, name:case-francis-h]
   - id: cal.1960-03-08.elections-1960
     when: Mar. 8
     date: '1960-03-08'
     thread: elections-1960
     c: 'New Hampshire primary. Republican: Nixon over Rockefeller (write-in), 65,204 to 2,745, 89.3 percent. Democratic: Kennedy over others, 43,372 to 7,527, 85.2 percent.'
-    n: 'N.H. *Manual for the General Court*, no. 37 (1961), pp. [284](https://archive.org/details/manualforgeneral37newh/page/n313), [382](https://archive.org/details/manualforgeneral37newh/page/n413). CQ Guide 6th (2010) 404. To check: [[w.white-making-of-the-president]]. Names: Kennedy, Nixon, Nelson Rockefeller. Check: Gifford, [[w.gifford-center-cannot-hold]], 43, gives Nixon 65,077 to Rockefeller''s 2,890 write-ins.'
+    n: 'N.H. *Manual for the General Court*, no. 37 (1961), pp. [284](https://archive.org/details/manualforgeneral37newh/page/n313), [382](https://archive.org/details/manualforgeneral37newh/page/n413). CQ Guide 6th (2010) 404. [[w.sorensen-kennedy]], 132–33 (Kennedy''s record vote); [[w.white-making-of-the-president]], 80 n.1, 118. Names: Kennedy, Nixon, Nelson Rockefeller. Check: Gifford, [[w.gifford-center-cannot-hold]], 43, gives Nixon 65,077 to Rockefeller''s 2,890 write-ins.'
     src:
       c: 329a88ed
       rows:
         - 'https://archive.org/details/manualforgeneral37newh/page/n313: all'
+        - 'w.sorensen-kennedy 132–33: A, C'
+        - 'w.white-making-of-the-president 80 n.1, 118: A, C'
     tags: [primary:1960-03-08, name:kennedy-john-f, name:nixon-richard-m, name:rockefeller-nelson]
   - id: cal.1960-03-08.specials
     when: Mar. 8
@@ -123,7 +183,40 @@ entries:
     date: '1960-03-09'
     thread: sit-ins
     c: Atlanta's college students publish "An Appeal for Human Rights" in the city's papers.
-    n: Committee on Appeal for Human Rights, ["An Appeal for Human Rights"](https://www.crmvet.org/docs/aa4hr.htm) (Mar. 9, 1960). See [[cal.1960-02-01.sit-ins]].
+    n: 'Committee on Appeal for Human Rights, ["An Appeal for Human Rights"](https://www.crmvet.org/docs/aa4hr.htm) (Mar. 9, 1960). [[w.branch-parting-the-waters]], 278, 286. To check: Atlanta Daily World, Mar. 9, 1960 (also the Atlanta Constitution, the Atlanta Journal, the New York Times) (cited by [[w.branch-parting-the-waters]], 286 n.7). See [[cal.1960-02-01.sit-ins]].'
+    src:
+      c: 74d1ec1a
+      rows:
+        - 'https://www.crmvet.org/docs/aa4hr.htm: all'
+        - 'w.branch-parting-the-waters 278: A'
+        - 'w.branch-parting-the-waters 286: A'
+        - 'via w.branch-parting-the-waters 286 n.7: A'
+  - id: cal.1960-03-09.king
+    when: Mar. 9
+    date: '1960-03-09'
+    thread: king
+    also: [alabama]
+    c: 'King to Eisenhower by telegram: a "reign of terror" in Montgomery.'
+    n: '[[w.branch-parting-the-waters]], 286. To check: King to Eisenhower, Mar. 9, 1960, Martin Luther King, Jr., Papers, box 1, folder 38, Boston University (cited by [[w.branch-parting-the-waters]], 286 n.6). See [[cal.1960-02-25.sit-ins]]. Names: Martin Luther King, Eisenhower.'
+    src:
+      c: 3d138ca1
+      rows:
+        - 'w.branch-parting-the-waters 286: all'
+        - 'via w.branch-parting-the-waters 286 n.6: all'
+    tags: [name:king-martin-luther-jr, name:eisenhower-dwight-d]
+  - id: cal.1960-03-09.cuba
+    when: Mar. 9
+    date: '1960-03-09'
+    thread: cuba-bay-of-pigs
+    c: 'J. C. King to the CIA''s task force on Cuba: some of the regime''s heads pushing for an attack on Guantanamo, an attack possible. Unless Fidel and Raúl Castro and Guevara "could be eliminated in one package," highly unlikely, a long affair, the government overthrown only by force.'
+    n: '[S. Rep. No. 94-465, 93 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=104) (a memorandum for the record, Mar. 9). Made public: the Church Committee''s interim report, Nov. 20, 1975. [[w.jones-bay-of-pigs]], 18. See [[cal.1960-01-13.cuba-bay-of-pigs]]. Names: King, Castro, Raúl Castro, Guevara.'
+    src:
+      c: 59ad8d9f
+      rows:
+        - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=104: all'
+        - 'w.jones-bay-of-pigs 18: all'
+        - 'via w.jones-bay-of-pigs 18 n.22a: all'
+    tags: [name:king-j-c, name:castro-fidel, name:castro-raul, name:guevara-ernesto]
   - id: cal.1960-03-10.crime-and-hijacking-chessman
     when: Mar. 10
     date: '1960-03-10'
@@ -139,6 +232,31 @@ entries:
     c: 'Ben Gurion in Washington, Mar. 9–13; with Eisenhower, Mar. 10. He asks for anti-aircraft missiles and early-warning equipment. Eisenhower: the United States stays out of the region''s arms race; France, Britain and West Germany can better supply Israel.'
     n: 'FRUS 1958–60, XIII, docs. [131](https://history.state.gov/historicaldocuments/frus1958-60v13/d131), [132](https://history.state.gov/historicaldocuments/frus1958-60v13/d132), [137](https://history.state.gov/historicaldocuments/frus1958-60v13/d137). To check: [[w.alteras-eisenhower-and-israel]]; [[w.ben-zvi-decade-of-transition]]; [[w.little-american-orientalism]]; [[w.hahn-caught-in-the-middle]]. Names: Ben Gurion, Eisenhower.'
     tags: [name:ben-gurion-david, name:eisenhower-dwight-d]
+  - id: cal.1960-03-12.cuba
+    when: Mar. 12
+    date: '1960-03-12'
+    thread: cuba
+    also: [soviet-union]
+    c: 'The Presidium''s first message from Khrushchev to Castro, by word of mouth, Alekseev of the KGB to deliver it: Soviet sympathy with the revolutionary government; the United States "will under no circumstances cross the line to undertake an open intervention against Cuba"; arms through the Czechs, "if necessary, then directly from the Soviet Union"; an invitation to visit.'
+    n: '[[w.fursenko-one-hell-of-a]], 44–45. To check: Protocol 270, Mar. 12, 1960; Central Committee to Alekseev, Mar. 12, 1960, APRF (cited by [[w.fursenko-one-hell-of-a]], 44 n.36). Check: the day; Fursenko and Naftali have the Presidium decide Mar. 15 (44) and call it "the March 12 message" (45), the protocol dated Mar. 12. Names: Khrushchev, Castro.'
+    src:
+      c: 3c20a728
+      rows:
+        - 'w.fursenko-one-hell-of-a 44–45: all'
+        - 'via w.fursenko-one-hell-of-a 44 n.36a: all'
+        - 'via w.fursenko-one-hell-of-a 44 n.36b: all'
+    tags: [name:khrushchev-nikita-s, name:castro-fidel]
+  - id: cal.1960-03-14.cuba
+    when: Mar. 14
+    date: '1960-03-14'
+    thread: cuba-bay-of-pigs
+    c: 'The Special Group at the White House, Dulles and King attending: what if Fidel and Raúl Castro and Guevara "should disappear simultaneously." Burke: the Communists the only organized group in Cuba, they might take control. Dulles: that might ease a multilateral action by the OAS.'
+    n: '[S. Rep. No. 94-465, 93–94 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=104) (the minutes). Made public: the Church Committee''s interim report, Nov. 20, 1975. See [[cal.1960-03-09.cuba]]. Names: Dulles, King, Burke, Castro, Raúl Castro, Guevara.'
+    src:
+      c: 7797c826
+      rows:
+        - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=104: all'
+    tags: [name:dulles-allen-w, name:king-j-c, name:burke-arleigh-a, name:castro-fidel, name:castro-raul, name:guevara-ernesto]
   - id: cal.1960-03-15.berlin-and-vienna
     when: Mar. 15
     date: '1960-03-15'
@@ -172,7 +290,13 @@ entries:
     date: '1960-03-15'
     thread: sit-ins
     c: 'Atlanta''s students sit in at public cafeterias; arrests. Orangeburg, S.C.: students of Claflin and South Carolina State march from the campuses; fire hoses and tear gas; nearly four hundred arrested, many held in an open stockade.'
-    n: Check the count of arrests. See [[cal.1960-03-09.sit-ins]].
+    n: 'Check the count of arrests. [[w.branch-parting-the-waters]], 283, 286. To check: Atlanta Daily World, Mar. 16, 1960, 1 (cited by [[w.branch-parting-the-waters]], 286 n.8). See [[cal.1960-03-09.sit-ins]]. Check: Branch, 283, puts the Orangeburg march on the day of the Montgomery students'' prayer service at the Capitol, Mar. 1, and counts 388 arrested.'
+    src:
+      c: 7749b5de
+      rows:
+        - 'w.branch-parting-the-waters 286: A-B'
+        - 'w.branch-parting-the-waters 283: C-E'
+        - 'via w.branch-parting-the-waters 286 n.8: A-B'
   - id: cal.1960-03-15.legislatures
     when: Mar. 15
     date: '1960-03-15'
@@ -192,7 +316,7 @@ entries:
     date: '1960-03-17'
     thread: cuba-bay-of-pigs
     c: Eisenhower approves "A Program of Covert Action Against the Castro Regime," from the 5412 Committee. An exile opposition; radio from Swan Island; a network inside Cuba; a paramilitary force trained outside, eight months to form. No more than two or three Americans in touch with the groups. Nixon, Herter, Dulles, Bissell present. Bonsal to return to Havana.
-    n: 'FRUS 1958–60, VI, docs. [481](https://history.state.gov/historicaldocuments/frus1958-60v06/d481) (the paper), [483](https://history.state.gov/historicaldocuments/frus1958-60v06/d483) (the NSC), [484](https://history.state.gov/historicaldocuments/frus1958-60v06/d484) (Bonsal), [486](https://history.state.gov/historicaldocuments/frus1958-60v06/d486) (the meeting, 2:30 p.m.); [474](https://history.state.gov/historicaldocuments/frus1958-60v06/d474) (the NSC, Mar. 10); [FRUS 1961–63, X, doc. 231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), pars. 3–4 (Taylor''s Memorandum No. 1, June 13, 1961: the paper approved Mar. 17, its four parts). Made public: in part, *Declassified Documents*, 1985 (FRUS''s source notes); in full, FRUS 1958–60, VI (1991). [[w.watson-into-the-missile-age]], 764 (the plan''s four parts; the President''s approval in principle); [[w.nixon-rn]], 203 (Nixon present at the meeting that authorized the training of exiles; no date). To check: [[w.paterson-contesting-castro]]; [[w.rabe-eisenhower-and-latin-america]]; [[w.bissell-reflections-of-a-cold]]; [[w.bohning-castro-obsession]]; [[w.operation-zapata]]; [[w.rasenberger-brilliant-disaster]]; [[w.schoultz-that-infernal-little-cuban]]; [[w.ambrose-eisenhower]]; [[w.wyden-bay-of-pigs]]; [[w.higgins-perfect-failure]]; [[w.gleijeses-ships-in-the-night]]; [[w.bay-of-pigs-declassified]]; [[w.pfeiffer-official-history-of-the]]; [[w.jones-bay-of-pigs]]; [[w.bay-of-pigs-invasion-playa-giron-chronology]]; Burke''s memorandum for the record, Mar. 18, 1960, Burke papers, Naval Historical Center (cited by [[w.watson-into-the-missile-age]], 764 n.147); Lansdale''s memorandum for the record, Mar. 25, 1960, ATSD(SO) files (cited by [[w.watson-into-the-missile-age]], 764 n.147). Names: Eisenhower, Nixon, Herter, Bonsal, Dulles, Bissell, Castro.'
+    n: 'FRUS 1958–60, VI, docs. [481](https://history.state.gov/historicaldocuments/frus1958-60v06/d481) (the paper), [483](https://history.state.gov/historicaldocuments/frus1958-60v06/d483) (the NSC), [484](https://history.state.gov/historicaldocuments/frus1958-60v06/d484) (Bonsal), [486](https://history.state.gov/historicaldocuments/frus1958-60v06/d486) (the meeting, 2:30 p.m.); [474](https://history.state.gov/historicaldocuments/frus1958-60v06/d474) (the NSC, Mar. 10); [FRUS 1961–63, X, doc. 231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), pars. 3–4 (Taylor''s Memorandum No. 1, June 13, 1961: the paper approved Mar. 17, its four parts). Made public: in part, *Declassified Documents*, 1985 (FRUS''s source notes); in full, FRUS 1958–60, VI (1991). [[w.watson-into-the-missile-age]], 764 (the plan''s four parts; the President''s approval in principle); [[w.nixon-rn]], 203 (Nixon present at the meeting that authorized the training of exiles; no date); [[w.jones-bay-of-pigs]], 19 (the approval; the program''s four parts); [[w.bissell-reflections-of-a-cold]], 153 (the program presented; "only two or three governmental people"); [[w.nixon-six-crises]], 352 (early in 1960, by Nixon''s account at his urging: arms, ammunition and training for Cuban exiles). [[w.fursenko-one-hell-of-a]], 43–44 (the approval; "Everyone must be prepared to swear that he has not heard of it"). To check: [[w.paterson-contesting-castro]]; [[w.rabe-eisenhower-and-latin-america]]; [[w.bohning-castro-obsession]]; [[w.operation-zapata]]; [[w.rasenberger-brilliant-disaster]]; [[w.schoultz-that-infernal-little-cuban]]; [[w.ambrose-eisenhower]]; [[w.wyden-bay-of-pigs]]; [[w.higgins-perfect-failure]]; [[w.gleijeses-ships-in-the-night]]; [[w.bay-of-pigs-declassified]]; [[w.pfeiffer-official-history-of-the]]; [[w.bay-of-pigs-invasion-playa-giron-chronology]]. Names: Eisenhower, Nixon, Herter, Bonsal, Dulles, Bissell, Castro.'
     src:
       c: 6a7aa82c
       rows:
@@ -205,6 +329,15 @@ entries:
         - 'via w.watson-into-the-missile-age 764 n.147c: A'
         - 'via w.watson-into-the-missile-age 764 n.147d: A'
         - 'w.nixon-rn 203: A, E, G'
+        - 'w.fursenko-one-hell-of-a 43–44: A, E-F'
+        - 'via w.fursenko-one-hell-of-a 44 n.35: A, E-F'
+        - 'w.jones-bay-of-pigs 19: A-E'
+        - 'via w.jones-bay-of-pigs 19 n.24a: A-E'
+        - 'via w.jones-bay-of-pigs 19 n.24b: A-E'
+        - 'via w.jones-bay-of-pigs 19 n.24c: A-E'
+        - 'via w.jones-bay-of-pigs 19 n.24d: A-E'
+        - 'w.bissell-reflections-of-a-cold 153: A, F-G'
+        - 'w.nixon-six-crises 352: A, E'
     tags: [name:eisenhower-dwight-d, name:nixon-richard-m, name:herter-christian-a, name:dulles-allen-w, name:bissell-richard-m-jr, name:bonsal-philip-w, name:castro-fidel]
   - id: cal.1960-03-17.vietnam
     when: Mar. 17
@@ -219,6 +352,18 @@ entries:
     c: Special message on immigration. Double the 154,000 quota immigrants a year; base the quotas on the 1960 census, not 1920's, and the increase on actual immigration since 1924; lift the Asia-Pacific ceiling; parole for refugees.
     n: 'Special Message to the Congress on Immigration, [1960–61 Pub. Papers 308](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=360) (Mar. 17, 1960). To check: [[w.tichenor-dividing-lines]]. Names: Eisenhower.'
     tags: [name:eisenhower-dwight-d]
+  - id: cal.1960-03-18.voting-rights
+    when: Mar. 18
+    date: '1960-03-18'
+    thread: voting-rights
+    c: Senate tables the Douglas–Javits amendment, enrollment officers named by the President to register Negroes, on Dirksen's motion, [53–24](https://voteview.com/rollcall/RS0860257).
+    n: '[[w.mann-walls-of-jericho]], 258–59 (the registrars'' amendments tabled; the idea Russell Long''s, by Douglas''s account). See [[cal.1960-02-05.voting-rights]]. Names: Douglas, Javits, Dirksen.'
+    src:
+      c: 053b61ee
+      rows:
+        - 'https://voteview.com/rollcall/RS0860257: all'
+        - 'w.mann-walls-of-jericho 259: all'
+    tags: [name:douglas-paul-h, name:javits-jacob-k, name:dirksen-everett]
   - id: cal.1960-03-19.testing
     when: Mar. 19
     date: '1960-03-19'
@@ -247,12 +392,35 @@ entries:
     thread: court
     c: '*Thompson v. City of Louisville*, [362 U.S. 199](https://tile.loc.gov/storage-services/service/ll/usrep/usrep362/usrep362199/usrep362199.pdf). Convictions for loitering and disorderly conduct on no evidence deny due process. Unanimous.'
     n: See [[cal.1960-03-07.court]].
+  - id: cal.1960-03-22.medicare
+    when: Mar. 22
+    date: '1960-03-22'
+    thread: medicare
+    also: [republican-party-congress]
+    c: 'The Republican leaders at the White House, by the notes of the meeting. Flemming outlines a voluntary plan of medical care for the aged, the States to run it with federal and State money. Dirksen: "This will be a small hole through which all will be driven"; Halleck: "If people were dying right and left for lack of medical care you''d read about it in the papers." Eisenhower defers the decision; Flemming''s testimony to Ways and Means put off.'
+    n: '[[w.sundquist-politics-and-policy]], 302–03. To check: notes on the leadership meeting, Mar. 22, 1960, McPhee Files, Eisenhower Papers, Eisenhower Library (cited by [[w.sundquist-politics-and-policy]], 302 n.45). Names: Flemming, Dirksen, Halleck, Eisenhower.'
+    src:
+      c: 1398259f
+      rows:
+        - 'w.sundquist-politics-and-policy 302–03: all'
+        - 'via w.sundquist-politics-and-policy 302 n.45: all'
+    tags: [name:flemming-arthur-s, name:dirksen-everett, name:halleck-charles-a, name:eisenhower-dwight-d]
   - id: cal.1960-03-24.voting-rights
     when: Mar. 23–24
     date: '1960-03-23'
     thread: voting-rights
     c: House adopts the McCulloch–Celler amendment, court-appointed voting referees, the administration's plan, [295–124](https://voteview.com/rollcall/RH0860100), Mar. 23; passes H.R. 8601, [311–109](https://voteview.com/rollcall/RH0860102), Mar. 24. The Senate sends it to Judiciary with orders to report by Mar. 29, [86–5](https://voteview.com/rollcall/RS0860261); Eastland's motion without a time limit refused, [19–72](https://voteview.com/rollcall/RS0860260).
-    n: 'See [[cal.1960-02-15.voting-rights]]. Names: McCulloch, Celler, Eastland.'
+    n: '[[w.sundquist-politics-and-policy]], 247–48 (the referees; the House''s vote, 311–109); [[w.mann-walls-of-jericho]], 259 (the House''s vote; the Senate''s, 86–5). See [[cal.1960-02-15.voting-rights]]. Names: McCulloch, Celler, Eastland.'
+    src:
+      c: a9e6a592
+      rows:
+        - 'https://voteview.com/rollcall/RH0860100: A'
+        - 'https://voteview.com/rollcall/RH0860102: B'
+        - 'https://voteview.com/rollcall/RS0860261: C'
+        - 'https://voteview.com/rollcall/RS0860260: D'
+        - 'w.sundquist-politics-and-policy 247–48: A-B'
+        - 'w.mann-walls-of-jericho 259: B-C'
+        - 'via w.mann-walls-of-jericho 259 n.johnson-moved-to-abandon-the-senate-legislation: C'
     tags: [name:mcculloch-william-m, name:celler-emanuel, name:eastland-james-o]
   - id: cal.1960-03-24.africa
     when: Mar. 24
@@ -266,7 +434,12 @@ entries:
     date: '1960-03-24'
     thread: elections-1960
     c: Symington announces for the Democratic nomination. He enters no primaries.
-    n: 'Check the date. See [[cal.1960-03-08.elections-1960]]. Names: Symington.'
+    n: '[[w.white-making-of-the-president]], 39, 42 (the case against the primaries, argued in 1959, 39; the day, 42). See [[cal.1960-03-08.elections-1960]]. Names: Symington.'
+    src:
+      c: 9f5ff645
+      rows:
+        - 'w.white-making-of-the-president 42: A'
+        - 'w.white-making-of-the-president 39: B'
     tags: [name:symington-william-s]
   - id: cal.1960-03-24.elections-1960-2
     when: Mar. 24
@@ -294,7 +467,7 @@ entries:
     thread: elections-1960
     also: [goldwater, conservative-movement]
     c: South Carolina's Republican convention. Goldwater speaks, against Nixon's "complacent attitude" toward the South; the Democrats on "the road to socialism"; a platform to be no "dime store New Deal." The convention pledges its thirteen delegates to him by acclamation; by Manion's arrangement, to Goldwater's surprise. Wannamaker elected national committeeman.
-    n: '[[w.perlstein-before-the-storm]], 76. [[w.gifford-center-cannot-hold]], 150–53. To check: Brophy to Manion, Mar. 26, 1959 [as printed], Manion Papers (cited by [[w.perlstein-before-the-storm]], 76 n.1); Columbia State, Mar. 27, 1960, 1 (cited by [[w.gifford-center-cannot-hold]], 152 n.27); Columbia State, Mar. 27, 1960, 1 (cited by [[w.gifford-center-cannot-hold]], 152 n.30); Minutes of the 1960 Republican State Convention, Hotel Jefferson, Columbia, S.C., Mar. 26, 1960, William D. Workman Jr. Papers, South Caroliniana Library (cited by [[w.gifford-center-cannot-hold]], 153 n.32). Names: Goldwater, Nixon, Manion. Check: Gifford, 151, has the nomination the State party''s plan, "designed to call attention of GOP bigwigs and Nixon personally to conservative sentiment," by Milliken''s account to Waring of the *News and Courier*, Mar. 21; Gifford does not name Manion.'
+    n: '[[w.perlstein-before-the-storm]], 76. [[w.gifford-center-cannot-hold]], 150–53. [[w.white-suite-3505]], 20 (the convention, the delegation pledged). To check: Brophy to Manion, Mar. 26, 1959 [as printed], Manion Papers (cited by [[w.perlstein-before-the-storm]], 76 n.1); Columbia State, Mar. 27, 1960, 1 (cited by [[w.gifford-center-cannot-hold]], 152 n.27); Columbia State, Mar. 27, 1960, 1 (cited by [[w.gifford-center-cannot-hold]], 152 n.30); Minutes of the 1960 Republican State Convention, Hotel Jefferson, Columbia, S.C., Mar. 26, 1960, William D. Workman Jr. Papers, South Caroliniana Library (cited by [[w.gifford-center-cannot-hold]], 153 n.32). Names: Goldwater, Nixon, Manion. Check: Gifford, 151, has the nomination the State party''s plan, "designed to call attention of GOP bigwigs and Nixon personally to conservative sentiment," by Milliken''s account to Waring of the *News and Courier*, Mar. 21; Gifford does not name Manion.'
     src:
       c: d3f8cc61
       rows:
@@ -304,6 +477,7 @@ entries:
         - 'via w.gifford-center-cannot-hold 152 n.27: C, E'
         - 'via w.gifford-center-cannot-hold 152 n.30: D'
         - 'via w.gifford-center-cannot-hold 153 n.32: G'
+        - 'w.white-suite-3505 20: A, E'
     tags: [name:goldwater-barry-m, name:nixon-richard-m, name:manion-clarence, state:sc]
   - id: cal.1960-03-28.testing
     when: Mar. 28–30
@@ -338,7 +512,15 @@ entries:
     thread: king
     also: [press-and-broadcasting]
     c: '*New York Times*, a full page: "Heed Their Rising Voices," from the Committee to Defend Martin Luther King and the Struggle for Freedom in the South. The students'' protests, Montgomery''s police, King''s arrests. Some details wrong.'
-    n: '*New York Times*, Mar. 29, 1960, p. 25. The suit: *New York Times Co. v. Sullivan*, [376 U.S. 254](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376254/usrep376254.pdf) (1964). To check: [[w.lewis-make-no-law]]; [[w.branch-parting-the-waters]]. Names: Martin Luther King.'
+    n: '*New York Times*, Mar. 29, 1960, p. 25. The suit: *New York Times Co. v. Sullivan*, [376 U.S. 254](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376254/usrep376254.pdf) (1964). [[w.branch-parting-the-waters]], 288–89. To check: [[w.lewis-make-no-law]]; Committee to Defend Martin Luther King, "Statement on the Indictment of Martin Luther King, Jr.," Mar. 3, 1960; minutes of its board, Mar. 7, 21, 28, Apr. 4, 1960; Levison to Randolph, Sept. 2, 1960, A. Philip Randolph Papers, box 23, Library of Congress (cited by [[w.branch-parting-the-waters]], 288 n.2). Names: Martin Luther King.'
+    src:
+      c: 210c4bfd
+      rows:
+        - 'https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376254/usrep376254.pdf: all'
+        - 'w.branch-parting-the-waters 288–89: all'
+        - 'via w.branch-parting-the-waters 288 n.2: A'
+        - 'via w.branch-parting-the-waters 288 n.3: A-B'
+        - 'via w.branch-parting-the-waters 289 n.3: C'
     tags: [name:king-martin-luther-jr]
   - id: cal.1960-03-30.africa
     when: Mar. 30
@@ -352,5 +534,38 @@ entries:
     date: '1960-03-31'
     thread: medicare
     c: 'Mills''s Ways and Means Committee sets the Forand bill aside, 17–8: hospital, nursing-home and surgical benefits for the aged through Social Security. A plan of hospital benefits alone also rejected. Eisenhower, the day before: against compulsory insurance, "a very definite step in socialized medicine."'
-    n: 'H.R. 4700, 86th Cong. Social Security Administration, [chronology, 1960](https://www.ssa.gov/history/1960.html). [The President''s News Conference](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-232) (Mar. 30, 1960). [[w.corning-evolution-of-medicare]], ch. 4. To check: [[w.marmor-politics-of-medicare]]; [[w.harris-sacred-trust]]; [[w.david-with-dignity]]; [[w.berkowitz-mr-social-security]]. Names: Mills, Eisenhower, Forand.'
+    n: 'H.R. 4700, 86th Cong. Social Security Administration, [chronology, 1960](https://www.ssa.gov/history/1960.html). [The President''s News Conference](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-232) (Mar. 30, 1960). [[w.corning-evolution-of-medicare]], ch. 4. [[w.sundquist-politics-and-policy]], 303, 306 (Eisenhower against compulsory insurance, 303; the committee''s test vote, eight for the Forand bill, 306). To check: [[w.marmor-politics-of-medicare]]; [[w.harris-sacred-trust]]; [[w.david-with-dignity]]; [[w.berkowitz-mr-social-security]]. Names: Mills, Eisenhower, Forand.'
+    src:
+      c: 438e0a04
+      rows:
+        - 'https://www.ssa.gov/history/1960.html: all'
+        - 'https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-232: all'
+        - 'w.corning-evolution-of-medicare ch. 4: all'
+        - 'w.sundquist-politics-and-policy 303: C'
+        - 'w.sundquist-politics-and-policy 306: A'
     tags: [name:mills-wilbur-d, name:eisenhower-dwight-d, name:forand-aime-j]
+  - id: cal.1960-03-31.elections-1960
+    when: Mar. 31
+    date: '1960-03-31'
+    thread: elections-1960
+    c: 'Wisconsin, the Thursday before the primary: an advertisement in the State''s country weeklies, signed "Square Deal for Humphrey Committee." "Protestants": five of six Catholics, many of them Republicans, for Kennedy; "Let''s give Humphrey a square deal."'
+    n: '[[w.solberg-hubert-humphrey]], 207. To check: the *West Salem (Wis.) Journal*, Mar. 31, 1960; the *New York Times* and the *Milwaukee Sentinel*, Apr. 1, 1960 (cited by [[w.solberg-hubert-humphrey]], 207, its note). Names: Kennedy, Humphrey.'
+    src:
+      c: ade5c0fa
+      rows:
+        - 'w.solberg-hubert-humphrey 207: all'
+        - 'via w.solberg-hubert-humphrey 207 n.square-deal: all'
+    tags: [name:kennedy-john-f, name:humphrey-hubert-h]
+  - id: cal.1960-03.jobs-and-wages
+    when: Mar.
+    date: 1960-03
+    thread: jobs-and-wages
+    also: [republican-party-congress]
+    c: 'The Senate''s Special Committee on Unemployment Problems, McCarthy''s, reports: area redevelopment its "highest priority"; the Youth Conservation Corps; federal grants for vocational training; standby public works and housing, to start as unemployment rises. Cooper, Prouty and Scott for the Republicans, sixty-three pages: area redevelopment "a matter of prime importance."'
+    n: '[[w.sundquist-politics-and-policy]], 82. To check: *Report of the Special Committee on Unemployment Problems*, S. Rept. 1206, 122–26 (cited by [[w.sundquist-politics-and-policy]], 82 n.55). Names: McCarthy, Cooper, Prouty, Scott.'
+    src:
+      c: 3e19196d
+      rows:
+        - 'w.sundquist-politics-and-policy 82: all'
+        - 'via w.sundquist-politics-and-policy 82 n.55: A'
+    tags: [name:mccarthy-eugene-j, name:cooper-john-sherman, name:prouty-winston-l, name:scott-hugh-d-jr]

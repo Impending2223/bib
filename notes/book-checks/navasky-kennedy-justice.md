@@ -162,3 +162,79 @@ page | date | event | why
   Kennedy's testimony to Edward Long's committee on Baron and *Life* (undated, 428).
 - States and cities: Marshall's Huntsville meeting (1962) and Ramsey Clark's at Mobile (August 1963, 222); Kennedy's
   telegram to Pritchett (Albany, 1961, 207); the Taconic meetings on the Voter Education Project (spring 1961, 207).
+
+## Second run (Nov. 3, 2026, batch 3 resumed): the Passed over rows re-ruled
+
+Patch `inbox/2026-11-03-b3-navasky-2.yaml` (b3-navasky-2): 39 new entries, 8 cites, 2 Checks, one `src` row; witnesses
+`inbox/witnesses/2026-11-03-b3-navasky-2.yaml` (two new, one amended) and three edges in
+`sources/witnesses/by-work/navasky-kennedy-justice.yaml`. The same copy (offset 24 throughout; p. 42 checked again
+against its image, n.17 the press statement of Mar. 19, 1961). The first run's rows above were ruled under the old
+reasons ("below the level", "undated" for a month, "private" for a call on public business, "a defendant's
+interview"); R18 no longer admits them, and each row was read again on its page. Two passages the first list lacked
+were found on the way (the *Daily News* editorial of July 31, 1961, and Hoover's reply, 42; the FBI's last request
+to Clark on King, 147).
+
+Rulings, row by row (page | first run's reason | now):
+- 17 | below the level | entries: the *Bulletin* editorial (Jan. 1961), June 1961, the CYO convention (Nov. 1963,
+  "a year later": Check). Nov. 1962, "beastly punks": passed over, minor (a repetition of the position of Jan. 1961,
+  nothing new). Prettyman's courtroom question on Hoover's betting (Feb. 1967) and Hoover's letter: minor (private
+  trivia).
+- 37 | undated | stays a lead: Navasky gives only "in 1961"; the Record dates Lausche's speech.
+- 41 | journalists' columns | entries (R13): the Hearst papers (Feb. 27), Sokolsky (Mar. 3), Lyle Wilson of UPI (Mar.
+  4); and Kennedy's statement of Mar. 19 (42, n.17), the first run's "a couple of weeks later".
+- 49 | undated | entry, month only: the meeting of the twenty-seven agencies (Feb. 1961); the IRS order (Feb. 24, 49
+  and 78, one paper or two: Check).
+- 49 | 1967 House Republicans' report | stays a lead: the year only.
+- 50 | below the level | entry: the IRS school (Apr. 13, 1962). The FBI National Academy's 67th class: undated, a lead.
+- 56 | to leads | entries: Caplin with Kennedy (Dec. 1960), the appointment announced (Jan. 24, 1961).
+- 78 | to leads | entry (above).
+- 136 | undated in the book | cited under 1968-05-24 (b3-thomas-rfk-2's entry for Pearson's column, dated by Thomas, 378
+  n.): Kennedy's answer and Salinger at Portland.
+- 142 | private | passed over: undated (the FBI's items in Wofford's file, no year beyond 1961 given).
+- 147 | undated (month only) | entries: June, November, December 1965; and Apr. 2, 1968 (Clark's refusal).
+- 151 | to leads | not a new entry: the letter is in under 1963-07-24 (its text cited, 150–51, with a Check on
+  Navasky's Thurmond and its place after the March).
+- 153 | not checked against the page | cited under 1964-11-18 (153).
+- 182 | undated | passed over as a lead: Douglas's liaison to the March, no month in the text.
+- 207 | undated; to leads | the Taconic meetings cited under 1961-06.voting-rights (207: spring, after the rides; the
+  $339,000). The telegram to Pritchett: "In 1961", a lead (the calendar's Albany entries, Dec. 1961).
+- 217 | in the calendar | cited under 1963-02-28, 03-30, 04-04 (Mississippi).
+- 218–19 | (not listed) | cited under 1963-05-14 (the editors), its note n.6 joined to the briefing's witness.
+- 222 | undated | entry: the Mobile letter to Clark (Aug. 1963). Huntsville (1962) and Clark's Mobile meeting (1963):
+  the year only, leads.
+- 238 | private remarks | stays: private remarks (R18, a passed-over paper).
+- 239, 247, 262, 263, 273 | undated | stay: the year only or none; leads where named before.
+- 258 | to leads | stays a lead: "the summer of 1961" for two acts (nomination, confirmation) the Record dates.
+- 268 | to leads | entry: Ainsworth confirmed, Sept. 21, 1961 (Check: the Record).
+- 290 | folded | entry: Marshall and Greenberg with Cox on Glen Echo (Sept. 1962).
+- 314–15 | to leads | entry: the meeting on Cox's memorandum (Aug. 1963, after Aug. 21: Check).
+- 319 | to leads | entry: the Colorado meeting (Feb. 1964, between Feb. 4 and 11: Check).
+- 327 | to leads | entry: the Cuban Families Committee (July 1961). Navasky gives no June 25 for the tractors
+  committee's end; the first run's day is not on the page (dropped).
+- 329 | private | entry (R7): Katzenbach's call, Dec. 24, 1962, 11 p.m.
+- 338 | undated | entry: the baby-food makers, a Sunday in December 1962.
+- 344–45 | below the level | entries (R16): the CAB exemption (Dec. 1962), the Navy's plane (Dec. 18), the narcotics
+  memorandum (Dec. 19).
+- 365 | undated | entry: Representative Green's call (Oct. 1963). Thomas F. Johnson's indictment: undated in the
+  text, a lead.
+- 367 | below the level | entry: Moore's plea (Mar. 30, 1961).
+- 369 | below the level | entries: Shaffer and Lally at McLean (July 1961, Check), Shaffer recalled (Aug. 1961).
+- 383 | to leads | entry: Landis's resignation accepted (Sept. 1961).
+- 410 | undated | stays a lead: Hoffa at the Miami convention, "in 1961".
+- 411 | private | entry (R7): Kennedy to Navasky, May 15, 1968 (Navasky: April; Check).
+- 418–19 | below the level | entries (R16): Tippens (Oct. 24, 1962), Ewing King and Paschal (Nov. 17, 1962).
+- 424 | undated | stays a lead.
+- 430 | a defendant's interview | entry (R12): Hoffa to Mudd, CBS, Jan. 28, 1963.
+- 433 | below the level | entry: Sheridan's loan to Vick (Dec. 1964), made public August 1968.
+- 441 | folded | stays folded; the committee a lead.
+
+Witnesses: chapter one n.4 (the *Bulletin*) and n.17 (the press statement of Mar. 19, 1961) registered; chapter four
+n.6 (the briefing transcript, on file at Justice's Public Information Office) is the "Background Briefing" Garrow cites
+in Navasky's papers: the edge joins it, its `where` amended. The other chapter notes (460–65) are to studies, articles
+and the press, none at a passage an entry cites.
+
+Leads added Nov. 3 (National unless named): Robert Kennedy to the FBI National Academy's 67th graduating class (50,
+undated; the Academy's records); John Douglas named the Department's liaison to the March on Washington (182, no
+month); Representative Thomas F. Johnson's indictment by a Baltimore grand jury before the 1962 election, by
+Katzenbach's account (365; the court's docket); Hoover's "beastly punks," November 1962 (17), if the owner wants
+repetitions; States and cities: Marshall's Huntsville meeting (1962) and Ramsey Clark's Mobile meeting (1963) (222).

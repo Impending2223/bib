@@ -103,103 +103,145 @@ keep`.
 
 ## Passed over
 
-| Page | Date | Event | Why |
+Made by reading every page of the book within the span (Oct. 29, 2026), each dated event set against the calendar;
+re-ruled Nov. 4, 2026 under R5, R7, R13, R15 and R18 (the first run's "undated" and "private remark" reasons gone over
+row by row: an event dated to a month or a season is entered; one dated only to a year, or not at all, is a lead).
+Rows that became entries or cites now say so.
+
+| Page | Date | Event | Ruling |
 |---|---|---|---|
 | 205 | Jan. 1961 | Rusk confirmed by voice vote | already in, `cal.1961-01-20.transition-and-staff` |
-| 212–13, 296 | summer 1963 | Rusk offers Kennedy his resignation; "I like your guts" | undated; lead |
+| 212–13, 296 | summer 1963 | Rusk offers Kennedy his resignation; "I like your guts" | entered, `cal.1963-06.transition-and-staff` (Nov. 4) |
+| 213 | 1962 | Macmillan at Chequers to Rusk on the Bay of Pigs | minor: a private remark, no public business (and no month) |
 | 213 | 1961 | the Taylor–Robert Kennedy inquiry | already in |
-| 216 | 1962 | the CIA's plan to contaminate Cuban sugar, vetoed; Thompson's joke on assassination at the 303 Committee | undated; private remark |
-| 220 | mid-May 1961 | the Vienna meeting arranged | undated (already in, Vienna) |
-| 221 | June 1961 | Acheson's, Stevenson's and Rusk's positions on Berlin | undated; repetition of entries of June–July 1961 |
-| 222 | June–July 1961 | the draft reply lost at the White House, redrafted by Sorensen (Hillenbrand's later account to Rusk) | undated; cited for the delay, `cal.1961-07-17.berlin-and-vienna` |
-| 223 | Aug. 13, 1961 | Rusk at a baseball game when the wall went up | private trivia |
-| 225 | late Sept.–Oct. 1961 | Rusk to Gromyko: "if you want war, you can have it in five minutes" | undated |
-| 227 | June 26, 1963 | Adenauer to Rusk in Berlin: "could Germany have another Hitler?" | private remark |
-| 229 | summer 1962 | Keating's charges | undated; already in |
-| 245 | Nov. 1962 | Mikoyan in Cuba | undated; already in |
-| 246–47 | 1961 | the briefing on nuclear war's effects; Kennedy: "And we call ourselves the human race" | undated |
-| 253 | Sept. 20, 1961 | the McCloy–Zorin joint statement of principles | lead: no FRUS document of the day; the *Bulletin*, Oct. 9, 1961, 589, not read |
-| 255 | summer 1962 | Rusk proposes an atmospheric ban to the Committee of Principals | undated |
-| 256 | June 1963 | Rusk and Dobrynin on the Potomac, an evening on the yacht | undated; lead |
-| 258 | Aug. 1963 | Leningrad | social |
-| 263 | Dec. 1960 | Herter's MRBM proposal to NATO | lead: day not given |
-| 265–67 | Dec. 1962 | Nassau: Rusk stays for a diplomatic dinner, Ball goes | private |
-| 267 | Apr. 1961 | Macmillan tells Kennedy Britain will seek to join the EEC | undated |
-| 269 | July 1961 | de Gaulle angry when Rusk raises Bizerte | undated; private remark |
-| 271 | 1966 | Rusk asks de Gaulle, for Johnson, about the American cemeteries | undated; private remark |
+| 216 | after Apr. 1961 | the CIA's plan to contaminate Cuban sugar, vetoed by Rusk | lead: no year or month given |
+| 216 | 1961–63 | Thompson's report of a junior's remark on assassination at the 303 Committee | lead: no date given |
+| 220 | mid-May 1961 | the Vienna meeting arranged | already in (Vienna) |
+| 221 | June 1961 | Acheson's, Stevenson's and Rusk's positions on Berlin | minor: repetition of entries of June–July 1961 |
+| 222 | June–July 1961 | the draft reply lost at the White House, redrafted by Sorensen | already cited, `cal.1961-07-17.berlin-and-vienna` |
+| 223 | Aug. 13, 1961 | Rusk at a baseball game when the wall went up | minor: private trivia |
+| 225 | late Sept.–Oct. 1961 | Rusk to Gromyko: "if you want war, you can have it in five minutes" | already cited, `cal.1961-09-21.berlin-and-vienna` (225) |
+| 227 | June 26, 1963 | Adenauer to Rusk in Berlin: "could Germany have another Hitler?" | cited, `cal.1963-06-26.berlin-and-vienna` (Nov. 4) |
+| 229 | summer 1962 | Keating's charges | already in |
+| 245 | Nov. 1962 | Mikoyan in Cuba | already in |
+| 246–47 | 1961 | the briefing on nuclear war's effects; Kennedy: "And we call ourselves the human race" | lead: the year only |
+| 253 | Sept. 20, 1961 | the McCloy–Zorin statement of principles | entered, `cal.1961-09-20.testing` (Nov. 4), the *Bulletin* read |
+| 255 | summer 1962 | Rusk proposes an atmospheric ban to the Committee of Principals | entered, `cal.1962-06.testing` (Nov. 4) |
+| 256 | June 1963 | Rusk and Dobrynin on the Potomac | entered, `cal.1963-06.testing` (Nov. 4) |
+| 258 | Aug. 1963 | Leningrad | minor: social |
+| 263 | Dec. 1960 | Herter's MLF proposal to NATO | cited, `cal.1960-12-16.europe-and-the-alliance` (Nov. 4) |
+| 265–67 | Dec. 1962 | Nassau: Rusk stays for a diplomatic dinner, Ball goes | minor: social |
+| 267 | Apr. 1961 | Macmillan tells Kennedy Britain will seek to join the EEC | cited, `cal.1961-04-05.european-community` (Nov. 4) |
+| 269 | July 1961 | de Gaulle angry when Rusk raises Bizerte | lead: the meeting's day (Rusk in Paris, Aug. 1961?) |
+| 271 | 1966 | Rusk asks de Gaulle, for Johnson, about the American cemeteries | lead: the year only |
 | 272 | Apr. 1961; Nov. 1968 | Kennedy's message to de Gaulle in the putsch; Johnson's in the franc crisis | leads: the messages not read |
-| 274–75 | Mar. 1961 | the Security Council's vote on Angola; Rusk sent to see Salazar | lead (the vote's day); the visit undated |
-| 275 | late June 1961 | the pledge to Ghana on the Volta | undated |
-| 278 | 1961 | Rusk's reservations to Hammarskjöld on Katanga; his sharp reply | undated |
-| 279–80 | Jan. 1963; Nov. 1965 | Katanga's end; Mobutu's coup | undated in the book; already in or a lead |
-| 287 | 1961 | Gromyko: "Then take it up with Chiang Kai-shek!" | undated; private remark |
-| 288 | 1968 | Rusk's last call on Chiang | undated |
-| 289 | May 10, 1966 | Zhou Enlai's statement: China will not provoke war | lead: the text not read |
-| 295 | 1961–63 | Sukarno's invitation to Mrs. Kennedy, vetoed by Rusk | undated |
-| 321–22 | Nov. 24–25, 1963 | Rusk meets de Gaulle at Dulles; de Gaulle walks in the procession | private; Check added to `cal.1963-11-25.assassination` |
-| 323, 635 | May 14, 1965 | Runnymede: Rusk accepts the Kennedy acre from the Queen | ceremony; for the owner to rule |
-| 337 | 1968 | Johnson tells Rusk Robert Kennedy offered not to run if Moyers were made Secretary | undated; lead |
-| 337 | 1964 | Robert Kennedy offers to go to Saigon; Rusk against | undated |
-| 341 | Aug. 1965 | the American draft nonproliferation treaty tabled | lead: the day |
-| 343 | 1960s | Eban: "we won't be the second" | undated; private remark |
-| 343–44 | 1967 | the American peaceful facilities under IAEA safeguards | lead: the day of the offer |
-| 344 | June–Dec. 1966 | the Outer Space Treaty proposed and signed | undated in the book; lead |
-| 345 | Oct. 1963 | the General Assembly's resolution against weapons in orbit | lead: the day |
-| 346 | July 1962 | Starfish Prime | undated in the book |
-| 347 | spring 1968 | the seabed talks; the Chiefs' objections | undated |
-| 351 | Oct.–Nov. 1968 | Johnson tries to restart the missile talks | undated |
-| 353 | Feb. 1967; 1968 | Tlatelolco; the civil air agreement | undated in the book; lead |
-| 358 | May 1965 | Rusk and Gromyko at Vienna, the treaty's tenth year | nothing of substance given |
-| 360 | Jan. 1969 | Gromyko at a party before the inauguration | social |
-| 361 | July 1968 | Rusk to Dobrynin: the war of words a pretext; Dobrynin denies an invasion | undated; lead (FRUS XVII) |
-| 361–62 | Oct. 1968 | Rusk at the General Assembly: questions for Gromyko on the Brezhnev doctrine | lead: the day; the *Bulletin* vol. 59 has no open copy |
-| 369 | Dec. 1962–Jan. 1963 | Bosch elected; brought to Washington | undated in the book; already in or a lead |
+| 274–75 | Mar. 1961 | the Security Council's vote on Angola; Rusk sent to see Salazar | lead: the vote's day; the visit undated |
+| 275 | late June 1961 | the pledge to Ghana on the Volta | cited, `cal.1961-06-29.africa` (Nov. 4) |
+| 278 | 1961 | Rusk's reservations to Hammarskjöld on Katanga | lead: the year only |
+| 279–80 | Jan. 1963; Nov. 1965 | Katanga's end; Mobutu's coup | already in |
+| 287 | 1961 | Gromyko: "Then take it up with Chiang Kai-shek!" | lead: the year only |
+| 288 | 1968 | Rusk's last call on Chiang | lead: the year only |
+| 289 | May 10, 1966 | Zhou Enlai's statement: China will not provoke war | entered, `cal.1966-05-10.china` (Nov. 4) |
+| 295 | 1961–63 | Sukarno's invitation to Mrs. Kennedy, vetoed by Rusk | lead: no date |
+| 321–22 | Nov. 24–25, 1963 | Rusk meets de Gaulle at Dulles; de Gaulle walks in the procession | Check added to `cal.1963-11-25.assassination` |
+| 323, 635 | May 14, 1965 | Runnymede: Rusk accepts the Kennedy acre | entered, `cal.1965-05-14.europe-and-the-alliance` (Nov. 4), the *Bulletin* read |
+| 337 | 1968 | Johnson tells Rusk Robert Kennedy offered not to run if Moyers were made Secretary | lead: the year only |
+| 337 | 1964 | Robert Kennedy offers to go to Saigon; Rusk against | lead: the year only |
+| 341, 343 | Aug. 1965 | the American draft nonproliferation treaty tabled | entered, `cal.1965-08.testing-npt` (Nov. 4) |
+| 343 | 1960s | Eban: "we won't be the second" | lead: no date |
+| 343–44 | 1967 | the American peaceful facilities under IAEA safeguards | lead: the year only |
+| 344 | June–Dec. 1966 | the Outer Space Treaty proposed and signed | lead: the months only for a proposal and a signing the calendar should hold by their days |
+| 345 | Oct. 1963 | the General Assembly's resolution against weapons in orbit | entered, `cal.1963-10.space` (Nov. 4) |
+| 346 | July 1962 | Starfish Prime | lead: check the calendar's testing entries of July 1962 |
+| 347 | spring 1968 | the seabed talks begin; the Chiefs' objections | lead: the season only, no act dated |
+| 351 | Oct.–Nov. 1968 | Johnson tries to restart the missile talks | already in (`cal.1968-10-02.testing-missile-talks`, `cal.1968-11-26.testing-missile-talks`) |
+| 353 | Feb. 1967; 1968 | Tlatelolco; the civil air agreement | leads: the days |
+| 358 | May 1965 | Rusk and Gromyko at Vienna, the treaty's tenth year | lead: the meeting's record (FRUS 1964–68, XIV) |
+| 360 | Jan. 1969 | Gromyko at a party before the inauguration | minor: social |
+| 361 | July 1968 | Rusk to Dobrynin: the war of words a pretext; Dobrynin denies an invasion | cited, `cal.1968-07-22.soviet-union-czechoslovakia` (Nov. 4) |
+| 361–62 | fall 1968 | Rusk at the General Assembly: questions for Gromyko on the Brezhnev doctrine | lead: the day (the *Bulletin* vol. 59 has no open copy) |
+| 369 | Dec. 1962–Jan. 1963 | Bosch elected; brought to Washington | already in |
 | 370 | Dec. 1963 | Johnson recognizes the junta, names Bennett | lead: the day (no FRUS row found) |
-| 373–74 | Apr.–May 1965 | Johnson to Bennett: "find some headless bodies" | undated; in a Check on `cal.1965-05-02.latin-america` |
-| 375–76 | 1965–66 | the OAS commission; the peace force | undated; already in |
-| 383 | 1967 | Rusk's eight points to Egypt's foreign minister | undated |
-| 385 | late May 1967 | Rusk and McNamara with eighty or ninety members of Congress: none for forcing the Strait alone; Robert Kennedy's remark | undated; lead |
-| 388 | summer 1967 | Eban: "We've changed our minds" | private remark; undated |
-| 396 | 1960s | the submarine mission to retrieve Soviet missile parts, vetoed | undated |
-| 403 | Nov. 1963 | Johnson asks Rusk about the Alliance for Progress | private; undated |
-| 404 | 1965–66 | Freeman sent to India; the grain ships held | undated |
-| 418 | 1964 | Bundy to Johnson: Rusk's nightmares; send him away ten days | undated in the book (a staff paper: lead, its date) |
-| 430 | 1961 | Kennedy: "If we have to fight for Southeast Asia, we'll fight in South Vietnam" | private remark; undated |
+| 373–74 | Apr.–May 1965 | Johnson to Bennett: "find some headless bodies" | in a Check on `cal.1965-05-02.latin-america` |
+| 375–76 | 1965–66 | the OAS commission; the peace force | already in |
+| 383 | 1967 | Rusk's eight points to Egypt's foreign minister | lead: the year only |
+| 385 | late May 1967 | Rusk and McNamara with eighty or ninety members of Congress | entered, `cal.1967-05.middle-east-six-day-war` (Nov. 4) |
+| 388 | summer 1967 | Eban: "We've changed our minds" | lead: no month |
+| 396 | 1960s | the submarine mission to retrieve Soviet missile parts, vetoed | lead: no date |
+| 403 | Nov. 1963 | Johnson asks Rusk about the Alliance for Progress | lead: the day; a conversation on public business (R7) |
+| 404 | 1965–66 | Freeman sent to India; the grain ships held | lead: no month |
+| 418 | 1964 | Bundy to Johnson: Rusk's nightmares; send him away ten days | lead: a staff paper, its date |
+| 430 | 1961 | Kennedy: "If we have to fight for Southeast Asia, we'll fight in South Vietnam" | lead: the year only |
 | 431 | May 1961 | 500 Special Forces | already in |
 | 442 | Sept. 1963 | Kennedy's television interviews | already in |
-| 445 | Aug. 6, 1964 | Fulbright to Rusk: "the best resolution of its sort" | private remark |
-| 446–47 | Aug.–Dec. 1964 | Rusk against reprisals for Bien Hoa and the Brinks | undated (his position); the attacks already in |
-| 447 | Feb. 7, 1965 | Rusk ill, at Ball's place in Florida, absent from the Pleiku meetings | private |
-| 452 | 1965–68 | Rusk for mixed American and Vietnamese units; Westmoreland refuses | undated |
-| 455 | 1960s | at NATO: "a virgin in the Atlantic and a whore in the Pacific" | undated; private remark |
-| 462–63 | fall 1964; Feb. 24, 1965 | U Thant's Rangoon initiative; his press conference | already in or a lead |
+| 445 | Aug. 6, 1964 | Fulbright to Rusk: "the best resolution of its sort" | already cited, `cal.1964-08-06.vietnam` (445) |
+| 446–47 | Nov. 1, Dec. 24, 1964 | Rusk against reprisals for Bien Hoa and the Brinks | cited, `cal.1964-11-01.vietnam`, `cal.1964-12-24.vietnam` (Nov. 4) |
+| 447 | Jan. 27, 1965 | Bundy's memorandum quoted on Rusk's position | cited, `cal.1965-01-27.vietnam-2` (Nov. 4) |
+| 447 | Feb. 7, 1965 | Rusk ill, at Ball's place in Florida, absent from the Pleiku decision | Check added to `cal.1965-02-07.vietnam-2` (Nov. 4) |
+| 452 | 1965–68 | Rusk for mixed American and Vietnamese units; Westmoreland refuses | lead: no date |
+| 455 | 1960s | at NATO: "a virgin in the Atlantic and a whore in the Pacific" | lead: no date |
+| 462–63 | fall 1964; Feb. 24, 1965 | U Thant's Rangoon initiative; his press conference | already in |
 | 466 | Jan. 28, 1966 | Hồ Chí Minh's broadcast | already in (`cal.1966-01-31.vietnam`, E) |
 | 467 | 1966 | Rusk in Saigon during Marigold, the airfield attacked the day before | lead: the day |
 | 468 | mid-Dec. 1966 | Rusk's eyes-only cable to Johnson from the Far East: "grievous harm" | lead: not found in the FRUS text (Dec. 1966) |
-| 473 | 1965–66 | Rusk insists Johnson hear Ball himself | undated |
-| 477 | Feb. 1968 | Rusk to Scali at a backgrounder: "Whose side are you on?" | undated |
-| 478 | 1967 | Johnson forbids Rusk a public session before Foreign Relations | undated |
-| 482–83 | Mar. 30–Apr. 1, 1968 | the cable to the embassies; Rusk to Wellington; Katzenbach's change of wording; the strikes near the 20th | already in (`cal.1968-04-03.vietnam-2`) or minor |
-| 483 | 1967 | Johnson talks with Rusk about not running, for his health | undated |
-| 485 | Apr. 1968 | Rusk leaves Paris off the list of sites | undated |
-| 488 | Nov. 1968 | Rusk advises Johnson not to make the Chennault affair public | undated; private advice |
-| 490 | summer 1968 | Harriman's proposal of a phased withdrawal | undated |
-| 501, 546 | 1966 | Rusk to Case at a hearing: "put your views in a resolution" | undated |
-| 535 | 1965 | Rusk's ten days' rest | private |
-| 569 | 1961 | Lippmann and Reston on Rusk | undated |
-| 571 | Nov. 1965 | Montevideo: Rusk spat upon at a wreath-laying | lead: the day |
-| 576 | 1967 | McNamara asks Rusk to let his staff use State's files (the Pentagon Papers) | undated; lead |
-| 581 | Sept. 1967 | Peggy Rusk's marriage; Rusk tells Johnson, who asks Russell ("Forget it"); Rusk did not offer to resign | private; the day not given; lead |
-| 586 | Aug. 1963 | Kennedy decides not to speak at the March | undated; private |
-| 588, 596, 605 | 1961, 1968 | Atlanta's bar; the University of Georgia; Wallace's campaign in Georgia | undated or out of the brief |
+| 473 | 1965–66 | Rusk insists Johnson hear Ball himself | lead: no month |
+| 477 | Feb. 1968 | Rusk to Scali at a backgrounder: "Whose side are you on?" | entered, `cal.1968-02.press-and-broadcasting` (Nov. 4) |
+| 478 | 1967 | Johnson forbids Rusk a public session before Foreign Relations | lead: the year only |
+| 482–83 | Mar. 30–Apr. 1, 1968 | the cable to the embassies; Rusk to Wellington; Katzenbach's change of wording | already in (`cal.1968-04-03.vietnam-2`) |
+| 483 | 1967 | Johnson talks with Rusk about not running, for his health | lead: the year only |
+| 485 | Apr. 1968 | Rusk leaves Paris off the list of sites | lead: the day (the site talks of April 1968 are in) |
+| 488 | Nov. 1968 | Rusk advises Johnson not to make the Chennault affair public | Check added to `cal.1968-11-04.elections-1968-chennault` (Nov. 4) |
+| 490 | summer 1968 | Harriman's proposal of a phased withdrawal | already in (`cal.1968-07-29.vietnam`) |
+| 501, 546 | 1966 | Rusk to Case at a hearing: "put your views in a resolution" | lead: the hearing's day |
+| 535 | 1965 | Rusk's ten days' rest | minor: private |
+| 569 | 1961 | Lippmann and Reston on Rusk | lead: the columns' days |
+| 571–72 | Nov. 1965 | Montevideo: a man runs at Rusk to spit; the photographer's negative | entered, `cal.1965-11.latin-america` (Nov. 4) |
+| 576 | 1967 | McNamara asks Rusk to let his staff use State's files (the Pentagon Papers) | lead: the year only |
+| 581 | Sept. 1967 | Peggy Rusk's marriage; Rusk tells Johnson, who asks Russell | entered, `cal.1967-09.transition-and-staff` (Nov. 4) |
+| 586 | Aug. 1963 | Kennedy decides not to speak at the March | lead: the day |
+| 588, 596, 605 | 1961, 1968 | Atlanta's bar; the University of Georgia; Wallace's campaign in Georgia | out of the brief (Rusk's private life) or no date |
+
+## Nov. 4, 2026: batch 3 resumed
+
+Read again from the owner's copy (Drive, the same file; downloaded through Drive's public download address, the
+connector refusing files over 10 MB): 680 PDF pages, the text layer; offset as above, checked on the page image at PDF
+481 (p. 477). Patch: `inbox/2026-11-03-b3-rusk-2.yaml` (169 ops: 12 new entries, 8 cites, 2 Checks, 147 `src` rows).
+
+- New entries (12), each claimed in the ledger: the McCloy–Zorin letter, Sept. 20, 1961 (the *Bulletin*, Oct. 9, 1961,
+  595, read); the Principals, summer 1962; Rusk's offer to step aside, summer 1963; Rusk and Dobrynin on the Potomac,
+  June 1963; the General Assembly's resolution on weapons in orbit, Oct. 1963; Runnymede, May 14, 1965 (the *Bulletin*,
+  June 7, 1965, 897, read); the draft NPT, Aug. 1965; Zhou's statement, May 10, 1966; Rusk and McNamara with the
+  members, late May 1967; Peggy Rusk's wedding, Sept. 1967; Montevideo, Nov. 1965; the Scali backgrounder, Feb. 1968.
+- Cites on entries in the tree: Dec. 16, 1960; Apr. 5, 1961; June 29, 1961; June 26, 1963; Nov. 1 and Dec. 24, 1964;
+  Jan. 27, 1965; July 22, 1968. Checks: Feb. 7, 1965 (Rusk away, ill); Nov. 4, 1968 (Rusk's advice on Chennault).
+- Witnesses (R35): the book has no notes. Its text is "derived" from the taped interviews with Richard Rusk, 1984 on,
+  at the University of Georgia (pp. 12, 639): registered (`x.1984.rusk-interviews-with-richard-rusk`, open: not held),
+  the edge in `sources/witnesses/by-work/rusk-as-i-saw-it-1990.yaml`, and a `via` row to it on every entry whose map
+  gives Rusk's page letters (139 in the tree, by `src` ops, and the new entries). Also registered: McCloy to Zorin,
+  Sept. 20, 1961, and Rusk's remarks at Runnymede (both read, in the *Bulletin*); the quoted Bundy memorandum of
+  Jan. 27, 1965 is an edge to its witness already registered. `inbox/witnesses/2026-11-03-b3-rusk-2.yaml`.
+- For the merger: no new entry repeats an event of its day (each compared with the tree and the ledger).
+
+## The press (R13)
+
+| Date | Outlet | Kind | Items | Page |
+|---|---|---|---|---|
+| 1967-09 | *Time* | cover | Peggy Rusk's wedding to Guy Smith (Check: the issue) | 581 |
+| 1968-02 | the papers, nationally | front pages (by Rusk's account) | Rusk to Scali at a backgrounder: "Whose side are you on?" | 477 |
+| 1965-11 | (a news photograph) | | Rusk at Montevideo, the spit dubbed into the negative | 571–72 |
 
 ## Leads (for `notes/leads.md`)
 
-- National: the McCloy–Zorin statement, Sept. 20, 1961 (*Bulletin*, Oct. 9, 1961, 589; entry wanted, thread
-  testing); the Rusk–Dobrynin evening on the Potomac, June 1963 (Rusk 256; FRUS 1961–63, VII?); Bundy to Johnson on
+- National: (the McCloy–Zorin statement entered Nov. 4); the Rusk–Dobrynin evening on the Potomac, June 1963, entered (Rusk 256; its day: FRUS 1961–63, VII?); Bundy to Johnson on
   Rusk's rest, 1964 (Rusk 418; a staff memorandum: date it); the 1965 draft NPT and the 1967 safeguards offer (Rusk
   341–44; dates); Peggy Rusk's wedding, Sept. 1967 (Rusk 581; the day, the press).
 - Foreign: Herter's MRBM offer, Dec. 1960 (Rusk 263); the Angola vote, Mar. 1961 (Rusk 274); Zhou's statement, May 10,
   1966 (Rusk 289); Rusk to Dobrynin before the invasion, July 1968 (Rusk 361; FRUS 1964–68, XVII); Rusk at the General
   Assembly, Oct. 1968 (Rusk 361–62); Rusk's eyes-only cable, mid-Dec. 1966 (Rusk 468); Rusk at Montevideo, Nov. 1965
   (Rusk 571); Johnson's recognition of the Dominican junta, Dec. 1963 (Rusk 370).
+- Added Nov. 4. National: the Dean Rusk Collection's taped interviews (University of Georgia, Russell Library): whether
+  open online, and the tape for each passage the calendar cites (Rusk, 12, 639); the General Assembly resolution on weapons in orbit, Oct. 1963 (Rusk 345: the day and number);
+  the draft NPT tabled, Aug. 1965 (Rusk 341: the day; FRUS 1964–68, XI); Rusk's address to the General Assembly on the
+  Brezhnev doctrine, fall 1968 (Rusk 361–62); Peggy Rusk's wedding (*Time*, Sept. 1967: the issue). Foreign: Rusk and
+  Gromyko at Vienna, May 1965 (Rusk 358; FRUS 1964–68, XIV); Zhou Enlai's statement of May 10, 1966 (Rusk 289; its text);
+  the Montevideo incident, Nov. 1965 (Rusk 571; the day, the photograph).

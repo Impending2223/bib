@@ -387,6 +387,19 @@ CQ Weekly Report, 1968-08-16:
   strikes threatened for convention week (2183).
 - Arkansas: the State's canvass for the 1st District's runoff of Aug. 13 (CQ's count partial).
 
+### Kabaservice, *Rule and Ruin* (batch 3, Oct. 29, 2026; notes/book-checks/kabaservice-rule-and-ruin.md)
+- Louisville's mayoral election, Nov. 2, 1965 (Kabaservice, 158): the names and figures (`cal.1965-11-02.mayors`).
+- Hubbard against Dawson, the Democratic primary of 1966 (Kabaservice, 179): the day and the figures (`cal.1966-03.elections-1966-2`).
+- The Maryland 6th District's primary, May 19, 1964 (Mathias's): the count.
+- Specter's margin, Nov. 2, 1965 (about 36,000, by Kabaservice): the count (`cal.1965-11-02.mayors-philadelphia`).
+- Ohio's and Pennsylvania's House primaries of 1966 (May 3, May 17): the counts.
+
+### Navasky, *Kennedy Justice* (batch 3, Oct. 29, 2026; notes/book-checks/navasky-kennedy-justice.md)
+- Marshall's Huntsville meeting (1962) and Ramsey Clark's at Mobile (August 1963, 222); Kennedy's telegram to Pritchett (Albany, 1961, 207); the Taconic meetings on the Voter Education Project (spring 1961, 207).
+
+### Sorensen, *Kennedy* (batch 3, Oct. 29, 2026; notes/book-checks/sorensen-kennedy.md)
+- The Haywood and Fayette counties evictions, Tennessee (Sorensen, 479): the days.
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -1317,13 +1330,84 @@ Rights in Conflict (Walker Report):
   (1962) not found open.
 - Name entries wanted (CQ readers, Aug. 16, 1968): Jim Wright (the roster's "Wright, James C., Jr.": no key answers),
   Blair Clark, John M. Bailey.
-- The Chester patch (`inbox/2026-10-29-b3-chester.yaml`, unmerged): the Aug. 2 reader's cite on
-  cal.1968-07-31.elections-1968-miami (Reagan before the Platform Committee) waits for Chester's entry to land
-  (notes/book-checks/cq-weekly-report-1968-08-02.md).
 - PRDE's transcripts: readable on its site by registered users only. For the owner: the 48-hour trial, a library's
   Rotunda subscription, or individual purchase; and the printed volumes (Norton, *The Presidential Recordings*:
   Kennedy's July-Oct. 1962, Johnson's from Nov. 1963 into 1964; check the volumes' spans), for Drive like the other
   books. Its search API returns the text too; the series has not used it.
+
+### Bissell, *Reflections of a Cold Warrior* (batch 3, Oct. 29, 2026; notes/book-checks/bissell-reflections-of-a-cold.md)
+- Discoverer XI and XII, early 1960: the months (Bissell; the Air Force's and NRO's histories). Space.
+- Kennedy's word to Bissell that he must resign as Deputy Director for Plans: the month (`cal.1961-04.cuba-bay-of-pigs`). Cuba: Bay of Pigs.
+
+### McPherson, *A Political Education* (batch 3, Oct. 29, 2026; notes/book-checks/mcpherson-political-education.md)
+- The Senate debate of Aug. 1960 on the Kennedy Foundation's airlift of African students (Scott's attack, Kennedy's reply): the day and the Record's page (McPherson, 179–80).
+- Mansfield's speech on Rule XXII, Sept. 1961: the day and page in the Record (`cal.1961-09.rules`).
+- The closing of eleven veterans hospitals, Jan. 1965, and the Prettyman committee's report (McPherson 281–82; 1965 Pub. Papers 379).
+- The escape-clause tariffs on watches and sheet glass rolled back, Jan. 1967 (the proclamations; McPherson 291–92 against the Papers' statement of Oct. 12, 1967).
+- The Corps of Engineers' order against discrimination at its recreation facilities, summer 1964 (McPherson 225–26).
+- The Child Development Group of Mississippi, 1966: Shriver's cutoff and the compromise (McPherson 353–55).
+- Roche's memoranda on the ARVN and the M-16 (1967), "Riot Lessons" (May 1, 1968, now an entry), McPherson's Harlem memorandum (1968): the LBJ Library's files.
+- The days of the entries the book dates by month or season (each its "Check: the day"); the Senate speeches of Tydings, Bayh, Harris, Muskie and Hart against the war (McPherson 420, undated).
+
+### Chester, Hodgson and Page, *An American Melodrama* (batch 3, Oct. 29, 2026; notes/book-checks/chester-american-melodrama.md)
+- Pennsylvania's Democratic primary, Apr. 23, 1968: Chester prints the McCarthy and Humphrey–Johnson figures two ways (153, 548). Check: the Pennsylvania *Manual* or the State's canvass. 1968 elections.
+- The Democratic convention's presidential roll call, Aug. 28, 1968: Chester gives Humphrey 1,760¼ (585). Check: the *Official Proceedings*, not found open (the conventions, above).
+- New York's Senate primary, June 18, 1968 (O'Dwyer): CQ's *Guide* for the count.
+
+### Clifford, *Counsel to the President* (batch 3, Oct. 29, 2026; notes/book-checks/clifford-counsel-to-the-president-2.md)
+- Kennedy's answer to Truman (July 1960, "fourteen years in major elective office"): its day (Clifford, 321; `cal.1960-07.elections-1960-11`).
+- The Symington Committee on the Defense Establishment's report, December 1960 (Clifford, 330).
+- The Blauvelt story, 1962: *Parade*, Sept. 2; *Newsweek*'s piece, at Kennedy's request (Clifford, 371–74).
+- Lady Bird Johnson's memorandum urging Johnson to run in 1964 (Clifford, 394; her diary).
+- Some fifty FRUS papers from or to Clifford as Secretary (1964–68: VI, VII, X, XI, XII, XIX, XX, XXII, XXVIII, XXIX, XXXIII) are in the daybook and in no calendar entry: Hoopes's memorandum of Mar. 14, 1968 (VI, doc. 126), Clifford's of Mar. 15 (VI, doc. 129), Wheeler's of Mar. 20 (VI, doc. 144), Clifford's staff meeting of May 20 (VI, doc. 238), the telephone call of Nov. 23 (VII, doc. 231), the PFIAB papers of 1964 (XXXIII, docs. 188, 200, 201, 207) among them. Under the owner's ruling they are entries; the reading entered only those the book treats.
+
+### Kabaservice, *Rule and Ruin* (batch 3, Oct. 29, 2026; notes/book-checks/kabaservice-rule-and-ruin.md)
+- Kuchel's speech against the Birch Society (Kabaservice, 137): 107 Cong. Rec. 5003 (Mar. 30, 1961), or May 2, 1963. Republican Party: In Congress.
+- Percy's "New Dawn for Our Cities" (1966); the Mondale–Percy housing negotiation (1968); the Community Self-Determination Act (Taft, Goodell, Curtis; *Ripon Forum*, Sept. 1968): their months, the act's introduction.
+- Kuchel's libel suit (1965): the affidavit's and the suit's days.
+- The Republican Governors Association's meeting of summer 1967 (Kabaservice, 207–8, 211): the date and place (`cal.1967-07.elections-1968-3`).
+- Persons named without a name entry: Bruce Chapman, George Gilder, Emil Frankel, Josiah Lee Auspitz, Tanya Melich, Robert D. Behn, Edward Failor, William Prendergast, John R. Price (of Ripon), Michael C. Smith, Saul Alinsky, Newt Gingrich.
+
+### Navasky, *Kennedy Justice* (batch 3, Oct. 29, 2026; notes/book-checks/navasky-kennedy-justice.md)
+- Lausche's speech in the Senate on Hoover (1961; the Record); the meeting of the intelligence agencies on organized crime (February 1961, Navasky 49); the IRS order of Feb. 24, 1961 (Navasky 78; Pearson's column of 1966); the House Republicans' report on organized crime and the urban poor (1967, Navasky 49 n.); Pearson's column on the King tap and Salinger's Portland statement (May 1968, Navasky 136); the microphones on King, June, November and December 1965 (147); Robert Kennedy to Thurmond on Communists in the movement (July 1963, 151); the Chacharis indictment's year ("February 21," 375) and plea; the Chicago Hoffa verdict's day (424); the Barnett contempt case dropped (1965, 239); Kennedy's meeting on Cox's apportionment memorandum (late summer 1963, 314–15) and on the Colorado case (February 1964, 319); the Attorney General's committee on poverty and the administration of federal criminal justice (April 1961, 441); Lewis R. Morgan's, Ainsworth's and Garza's nominations (the Record); the Tractors for Freedom committee's end (June 25, 1961, 327); Kennedy's testimony to Edward Long's committee on Baron and *Life* (undated, 428).
+
+### Rusk, *As I Saw It* (batch 3, Oct. 29, 2026; notes/book-checks/rusk-as-i-saw-it-1990.md)
+- The McCloy–Zorin statement, Sept. 20, 1961 (*Bulletin*, Oct. 9, 1961, 589): an entry wanted, thread Testing.
+- The Rusk–Dobrynin evening on the Potomac, June 1963 (Rusk 256; FRUS 1961–63, VII?); Bundy to Johnson on Rusk's rest, 1964 (Rusk 418; a staff memorandum: date it); the 1965 draft NPT and the 1967 safeguards offer (Rusk 341–44: the dates); Peggy Rusk's wedding, Sept. 1967 (Rusk 581; the day, the press).
+
+### Nixon, *Six Crises* (batch 3, Oct. 29, 2026; notes/book-checks/nixon-six-crises.md)
+- Morton on television, before the conventions, that the Republican nominee would debate (323); and the Senate's passage of the Section 315 joint resolution, which Nixon puts before the conventions (74 Stat. 554 is of Aug. 24). Entered with a Check, `cal.1960-07.elections-1960-7`.
+- The Democrats on religion, autumn 1960 (365–66): Hodges at Charlottesville; Jackson's charge of "conniving"; Diggs; Powell; COPE's pamphlet; the Kennedy-Johnson Labor Committee's leaflet; Stevenson on Nixon's Quaker faith: the days (`cal.1960-10.elections-1960-7`, with a Check).
+- Kennedy on Cuba: the television interview of May 1960 (351; `cal.1960-05.elections-1960-6`, with a Check); the place and text of Sept. 15 and the program of Sept. 30 (entered with Checks); the Scripps-Howard statement of Sept. 23 and the statement of Oct. 23.
+- Nixon's nightly telecasts of the last week, at Dewey's suggestion (364): the days, from APP's list (`cal.1960-10-31.elections-1960-2`, with a Check).
+- Which Toledo text of Oct. 26, 1960 carries the testing pledge (APP lists two).
+- *Six Crises*: the day of publication (March 1962) and the first printing's p. 354, set before the White House's statement of Mar. 20, 1962.
+
+### Sorensen, *Kennedy* (batch 3, Oct. 29, 2026; notes/book-checks/sorensen-kennedy.md)
+- Undated or not verified in the book: Powell on Kennedy "soft" on Communism before the New Hampshire primary, Mar. 1960 (133); the Kennedy–Humphrey television debate in West Virginia, May 1960 (140; its day); Byrd's endorsement of Humphrey, May 1960 (141); Mrs. Roosevelt and Humphrey's switch to Stevenson, convention week (155); Kennedy at Hyde Park and Independence, summer 1960 (170); the SAC briefing at Omaha, late Aug. 1960 (187, 612); the networks' offer of debates and the acceptances (196); the USIA's prestige polls given the *Times* (203); the New York speech on Quemoy and Matsu (204); the Puerto Rican bishops' pastoral letter (209); Sorensen at the Norris Centennial, 1961 (262); Baring's demand for dismissals (260); the Kennedy–Johnson disability agreement (267); the directive on the ambassadors' authority, perhaps the letter of May 29, 1961 (278); Burke's speech toned down, Jan. 1961 (286); the television interview before the Bay of Pigs (296); Byrd's birthday picnic (345); Schlesinger's memorandum on midterm campaigning, 1962 (353); the press conference on the clergy, 1961 (360); Criswell, the POAU and Cushing on the school bill (363); the veto of the District's obscene-publications bill (364); the *Times* story on eastern Kentucky and the relief program, Oct. 1963 (404); the margin requirements cut, July 1962 (424); the Communications Workers in the Rose Garden, Feb. 1962 (438); Kennedy with Blough, Sept. 1961 (445).
+
+### White, *Suite 3505* (batch 3, Oct. 29, 2026; notes/book-checks/white-suite-3505.md)
+- The plane crash of spring 1962 with $70,000 in a candidate's man's baggage (62–63; White names neither the flight nor the candidate).
+- Romney and White at Lansing on Durant, between Oct. 1963 and May 1964 (212–13).
+- Arkansas's deadline for requesting a presidential primary, 1964, passed without Goldwater's request (261 n.3).
+- The Billie Sol Estes affair is not in the calendar at all (63: only Dirksen and Halleck's demand entered, May 1962).
+- The acceptance of July 16, 1964, is bundled in `cal.1964-07-15.elections-1964` with the nomination and Miller's (the spans rule: three events).
+
+### Mann, *The Walls of Jericho* (batch 3, Oct. 29, 2026; notes/book-checks/mann-walls-of-jericho.md)
+- Reedy to Johnson, "dry tinder," undated (1963), Civil Rights, Confidential Memos—Reedy, Vice Presidential Papers, LBJ Library (Mann, 339): the date.
+- The *CBS Reports* debate of Thurmond and Humphrey on the bill, March 1964, printed in the Record of Mar. 26 (110 Cong. Rec. 6428–29): the day of the broadcast.
+- Katzenbach before House Judiciary on the voting bill, Mar. 18, 1965 (Mann, 467): an entry from the Digest's committee meeting.
+- Johnson's words on the poll tax, spring 1965 (Mann, 471), and King's on the Senate's vote of May 11, 1965 (472): their days.
+- Johnson to Russell by telephone on Russell's letter of July 1, 1968 (Mann, 497, from Temple's oral history): no recording found July 1–10; the day.
+- Alexander Lawrence's nomination and confirmation, 1968: the days (the Senate's Executive Journal).
+- Hickenlooper and Simpson against the Dirksen agreement, May 1964 (CQ, May 22, 1964, 987, cited by Mann, 423).
+- Findlay, *Church People in the Struggle*, cited by Mann, 412, for the vigil and the Georgetown convocation: no card.
+- Van Dyk's memorandum to Humphrey on the Vice Presidency, 1964 (Eisele, 197–98, cited by Mann, 433): the date.
+
+### White, *The Making of the President 1960* (batch 3, Oct. 29, 2026; notes/book-checks/white-making-of-the-president.md)
+- The Oct. 12 Quemoy speech (White, 292 n.4): which of the day's APP documents carries it.
+- Gallup's readings White gives (250, 264, 319–20), to be set against *The Gallup Poll*, vol. III.
+- Section 315, "June 27th" (White, 282): a vote in Congress that day? The *Record*.
 
 ## Foreign
 
@@ -2278,6 +2362,52 @@ CQ Weekly Report, 1968-08-30:
 - The shelling of Saigon and Biên Hòa, Aug. 22, 1968 (CQ, 2337): MACV's or the papers' account, the casualties.
 - Nguyễn Thanh Lê's news conference, Aug. 26, 1968: the delegation's own text (CQ quotes a translation).
 
+### Bissell, *Reflections of a Cold Warrior* (batch 3, Oct. 29, 2026; notes/book-checks/bissell-reflections-of-a-cold.md)
+- The USIB ad hoc committee's "The Military Build-up in Cuba," summer 1961: its date (Bissell; FRUS 1961–63, X). Cuba.
+- Dulles's unpublished paper on the Bay of Pigs (Dulles Papers, boxes 138, 244, Princeton): to read. Cuba: Bay of Pigs.
+
+### The MACV Command Histories, 1964 and 1965 (batch 3, Oct. 29, 2026; notes/book-checks/macv-command-history.md)
+- SEACOORD (the Southeast Asia Coordinating Committee): Taylor's proposal of September 1964 and Rusk's concurrence (History 1964, 166–67, nn.61–63): FRUS 1964–68, I and XXVIII, for the day. Vietnam.
+- The Command History's Annex A (special operations, MACVSOG), 1964, published separately: not in the copy read; Marolda cites it for the raids of July 30–31 (`cal.1964-08-02.vietnam`).
+- When each volume was made public (its declassification): the pages carry regrading stamps ("20 NOV 1975"; "Order Sec Army By TAG per 830624"); the date not settled, so no "Made public:" line was written.
+- The command's organization, 1965: the 1st Logistical Command (Apr. 1), III MAF (May 7), USARV (July 20), Task Force Alpha (Aug. 1) and Field Force, Vietnam (Sept. 25): the History's chronology (479–81) and ch. II; whether the calendar should hold the command's structure as it holds the MACV–MAAG merger of 1964 (`cal.1964-05-15.vietnam-2`).
+- MACV's public confirmation of North Vietnamese units: the 101st Regiment (July 15, 1965), five regiments (Nov. 7): the History's chronology only; the press releases (MACOI) and the *New York Times* of the next days.
+- The Honolulu conferences of Sept. 28 and Dec. 10, 1965 (Sharp and Westmoreland): chronology only; FRUS 1964–68, III.
+- The Marble Mountain and Chu Lai attacks of Oct. 27, 1965: chronology only.
+- The 1966 volume (the DMZ, Attleboro, Masher, Crimp) was not among the copies: to fetch.
+- The war table: figures the Histories print that the table lacks "then" (U.S. strength, casualties, Viet Cong and RVNAF strength, infiltration, 1964): the book-check file, "The war table (for the merger)", for tools/indicators/make_war_forces.py.
+
+### McPherson, *A Political Education* (batch 3, Oct. 29, 2026; notes/book-checks/mcpherson-political-education.md)
+- Panama, Jan. 1964: Fleming's call on the flags, the day; the International Commission of Jurists' hearing of the Army's case (McPherson 216–17, 221–22).
+
+### Clifford, *Counsel to the President* (batch 3, Oct. 29, 2026; notes/book-checks/clifford-counsel-to-the-president-2.md)
+- Bunker's personal message of May 23, 1968, on regression in the hamlets (Clifford, 540): FRUS 1964–68, VI.
+- Kỳ to Bunker, Nov. 6, 1968, two months to settle the format (Clifford, 599; `cal.1968-11-06.vietnam-paris-2`); Bunker's report on Thiệu's objections, Oct. 17, 1968 (578; `cal.1968-10-17.vietnam-paris-2`): the telegrams, FRUS 1964–68, VII.
+
+### Jones, *The Bay of Pigs* (batch 3, Oct. 29, 2026; notes/book-checks/jones-bay-of-pigs.md)
+- The intercepted Soviet cable of early April 1961 Jones mentions (undated). Cuba: Bay of Pigs.
+- Bowles's memorandum against the operation, as Higgins gives it (undated in Jones).
+- Dulles's "even better than Guatemala" remark (undated).
+- Bender's assurance to the brigade's officers (an operation's level, undated).
+- Cubela, Sept. 5 and Sept. 25, 1963; Johnson's coup meeting, Apr. 7–8, 1964; AMLASH's end, June 1965: the Inspector General's report of 1967 and the 303 Committee's minutes. Cuba.
+
+### Rusk, *As I Saw It* (batch 3, Oct. 29, 2026; notes/book-checks/rusk-as-i-saw-it-1990.md)
+- Herter's MRBM offer, Dec. 1960 (Rusk 263); the Angola vote, Mar. 1961 (Rusk 274); Zhou's statement, May 10, 1966 (Rusk 289); Rusk to Dobrynin before the invasion, July 1968 (Rusk 361; FRUS 1964–68, XVII); Rusk at the General Assembly, Oct. 1968 (Rusk 361–62); Rusk's eyes-only cable, mid-Dec. 1966 (Rusk 468); Rusk at Montevideo, Nov. 1965 (Rusk 571); Johnson's recognition of the Dominican junta, Dec. 1963 (Rusk 370).
+
+### Sorensen, *Kennedy* (batch 3, Oct. 29, 2026; notes/book-checks/sorensen-kennedy.md)
+- The General Assembly's resolution on weapons in orbit, Oct. 17, 1963 (Sorensen, 743): an entry.
+
+### Westmoreland, *A Soldier Reports* (batch 3, Oct. 29, 2026; notes/book-checks/westmoreland-soldier-reports.md)
+- Nixon in South Vietnam, February 1964 (`cal.1964-02.republican-party-2`): the month; Nixon's own statements of the trip.
+- Westmoreland against the Joint Chiefs' proposal on the dependents and the Marines (112), late 1964: the message.
+- The White House's statement of June 1965 that the mission had not changed (135): its day; the Public Papers or the press secretary's briefing.
+- The congressional committee on the M-16 in Saigon, mid-June 1967 (158): Ichord's subcommittee of House Armed Services, its report and dates.
+- Mayborn and Bruce Clarke on the M-16 for Johnson, 1967 (202): the report.
+- Schlesinger's letter to the *Washington Post*, Mar. 22, 1968 (335), for the owner's ruling.
+- Johnson's answer on nuclear weapons, news conference of Feb. 16, 1968, 1968–69 Pub. Papers 230, at 234: the entry is `cal.1968-02-16.transition-and-staff` (one entry, the news conference); the answer to be added to its `c`, with `also: [vietnam-khe-sanh]`.
+- The single manager for air, March 1968 (`cal.1968-03.vietnam-khe-sanh`): the day of the order (Momyer's) and of the cables to Wheeler and Sharp.
+- Westmoreland's off-record briefing of August 1967 ("momentous decision") and his late-December interview (237–39, 312).
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
@@ -2306,3 +2436,5 @@ CQ Weekly Report, 1968-08-30:
 - Interior: the order creating the Alaska Power Administration (narrowed to June 1967); the authority for the High Commissioner's nomination, 1969.
 - The days of the ICC's rotations, 1953–55, and the National Mediation Board's; the recess commissions of Walsh, Mitchell, Wood and Bicks.
 - Plum Book offices not settled: the Pay Board's and the Price Commission's members and executive directors (OCR garbled); GSA's service commissioners and Griffin; the Board of Parole; the Postal Rate Commissioners (no Senate record); Egeberg, HEW special assistant.
+- McPherson (batch 3, Oct. 29, 2026; notes/book-checks/mcpherson-political-education.md): his swearing-in as Assistant Secretary of State (the book: his birthday, the night of Humphrey's selection, Aug. 26, 1964; the roster Aug. 23) and his move to the White House (the book: March 1965; the roster's special assistant from Aug. 1965).
+- Navasky (batch 3, Oct. 29, 2026; notes/book-checks/navasky-kennedy-justice.md): Caplin's appointment as IRS Commissioner (Jan. 24, 1961) and Landis's resignation (September 1961), to place in the roster.

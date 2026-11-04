@@ -3,13 +3,39 @@
 list: cal
 section: LXXII
 entries:
+  - id: cal.1965-11-01.vietnam-operations
+    when: Nov. 1
+    date: '1965-11-01'
+    thread: vietnam-operations
+    c: 'Silver Bayonet, the 1st Cavalry Division''s first offensive mission: its 1st Brigade, in contact with a large force, pursues the enemy west of Plei Me along the Cambodian border. In the pursuit, 216 of the enemy killed, 117 captured; 55 Americans killed, 194 wounded.'
+    n: '[[w.macv-command-history-1965]], 168, 481. See [[cal.1965-10-26.vietnam]].'
+    src:
+      c: d45b69b4
+      rows:
+        - 'w.macv-command-history-1965 168, 481: all'
+    tags: [place:plei-me]
+  - id: cal.1965-11-01.vietnam-force-levels
+    when: Nov. 1
+    date: '1965-11-01'
+    thread: vietnam-force-levels
+    c: The commander of the 1st Infantry Division takes operational control of all Army units and allied attachments in III Corps.
+    n: '[[w.macv-command-history-1965]], 481.'
+    src:
+      c: c419ea13
+      rows:
+        - 'w.macv-command-history-1965 481: all'
   - id: cal.1965-11-02.states-and-cities
     when: Nov. 2
     date: '1965-11-02'
     thread: mayors
     also: [elections-1965, conservative-movement]
     c: New York City. Lindsay, Republican and Liberal, elected mayor over Beame, Democrat, 1,149,106 to 1,046,699, 45.0 percent; Buckley, Conservative, 341,226, 13.4 percent. The first Republican elected mayor since 1941.
-    n: 'Figures: Wikipedia; check against the Board of Elections'' canvass. To check: [[w.cannato-ungovernable-city]]; [[w.buckley-unmaking-of-a-mayor]]. See [[cal.1965-06-10.states-and-cities]]. Names: Lindsay, Beame, Buckley.'
+    n: 'Figures: Wikipedia; check against the Board of Elections'' canvass. [[w.kabaservice-rule-and-ruin]], 154–56 (Lindsay over Beame and Buckley; 42 percent of the Negro vote, 43 of the Jewish; Buckley''s 341,000). Check: Kabaservice, 155, gives Lindsay 43.3 percent, Beame 39.5, Buckley 12.9 (*Newsweek*). To check: [[w.cannato-ungovernable-city]]; [[w.buckley-unmaking-of-a-mayor]]; "Mayor John Lindsay: New GOP Hope?," *Newsweek*, Nov. 15, 1965 (cited by [[w.kabaservice-rule-and-ruin]], 155 n.143). See [[cal.1965-06-10.states-and-cities]]. Names: Lindsay, Beame, Buckley.'
+    src:
+      c: 7c21c2ea
+      rows:
+        - 'w.kabaservice-rule-and-ruin 154–56: B-C'
+        - 'via w.kabaservice-rule-and-ruin 155 n.143: B-C'
     tags: [name:lindsay-john-v, name:beame-abraham-d, name:buckley-william-f-jr, state:ny, city:nyc]
   - id: cal.1965-11-02.states-and-cities-2
     when: Nov. 2
@@ -17,7 +43,13 @@ entries:
     thread: elections-1965
     also: [governors]
     c: 'Governors. Virginia: Godwin (D), the lieutenant governor, over Holton (R), 269,526 to 212,207, 47.9 percent; Story, of a new Conservative party, 75,307, 13.4 percent. New Jersey: Hughes (D) re-elected over Dumont (R), 1,279,568 to 915,996, 57.4 percent.'
-    n: 'New Jersey: [*Results of the General Election Held November 2, 1965*](https://nj.gov/state/elections/assets/pdf/election-results/1920-1970//1965-general-election.pdf) (Secretary of State). Virginia: Wikipedia, from Hunter''s thesis (1972); Godwin printed there as 296,526, the total requiring 269,526; check against the State Board''s *Statement of the Vote*. To check: [[w.bass-transformation-of-southern-politics-1976]]; [[w.kabaservice-rule-and-ruin]]. See [[cal.1964-11-03.elections-1964-2]]. Names: Godwin, Story, Dumont, Holton, Hughes.'
+    n: 'New Jersey: [*Results of the General Election Held November 2, 1965*](https://nj.gov/state/elections/assets/pdf/election-results/1920-1970//1965-general-election.pdf) (Secretary of State). Virginia: Wikipedia, from Hunter''s thesis (1972); Godwin printed there as 296,526, the total requiring 269,526; check against the State Board''s *Statement of the Vote*. [[w.kabaservice-rule-and-ruin]], 158–60 (Holton''s defeat by Godwin; Story''s "approximately 13 percent"; Dumont''s, "by a record margin"). To check: [[w.bass-transformation-of-southern-politics-1976]]; "New Look in Virginia," *Washington Star*, Nov. 5, 1965, A12 (cited by [[w.kabaservice-rule-and-ruin]], 159 n.160). See [[cal.1964-11-03.elections-1964-2]]. Names: Godwin, Story, Dumont, Holton, Hughes.'
+    src:
+      c: 404db8e8
+      rows:
+        - 'https://nj.gov/state/elections/assets/pdf/election-results/1920-1970//1965-general-election.pdf: all'
+        - 'w.kabaservice-rule-and-ruin 158–60: B-D'
+        - 'via w.kabaservice-rule-and-ruin 159 n.160: C'
     tags: [name:godwin-mills-e-jr, name:holton-linwood, name:hughes-richard-j, name:dumont-wayne-jr, state:va, state:nj, name:story-william-j-jr]
   - id: cal.1965-11-02.specials
     when: Nov. 2
@@ -32,12 +64,13 @@ entries:
     thread: students
     also: [vietnam]
     c: 'Norman Morrison, a Quaker, 31, burns himself to death at the Pentagon, below McNamara''s office, his year-old daughter with him. Nov. 6, Union Square: five men burn their draft cards. Nov. 9, Roger LaPorte, 22, of the Catholic Worker, sets himself afire before the United Nations; dead the next day.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 92–93 (Morrison; LaPorte). To check: [[w.wells-war-within]]; [[w.debenedetti-american-ordeal]]; [[w.zaroulis-who-spoke-up]]; [[w.mcnamara-in-retrospect]]; *New York Times*, Nov. 3, 7, 10 and 11, 1965 (cited by [[w.gibbons-u-s-government-and]], IV, 93 n.47). See [[cal.1965-03-24.students]]; [[cal.1965-08-30.students]]. Check: Gibbons gives Morrison''s age as 32, and "Robert Allen La Porte," dead Nov. 10. Names: Morrison, LaPorte, McNamara.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 92–93 (Morrison; LaPorte); [[w.branch-at-canaans-edge]], 358–62. To check: [[w.wells-war-within]]; [[w.debenedetti-american-ordeal]]; [[w.zaroulis-who-spoke-up]]; [[w.mcnamara-in-retrospect]]; *New York Times*, Nov. 3, 7, 10 and 11, 1965 (cited by [[w.gibbons-u-s-government-and]], IV, 93 n.47). See [[cal.1965-03-24.students]]; [[cal.1965-08-30.students]]. Check: Gibbons gives Morrison''s age as 32, and "Robert Allen La Porte," dead Nov. 10. Names: Morrison, LaPorte, McNamara.'
     src:
       c: 5fab9f62
       rows:
         - 'w.gibbons-u-s-government-and IV, 92–93: A, C-D'
         - 'via w.gibbons-u-s-government-and IV, 93 n.47: A, C-D'
+        - 'w.branch-at-canaans-edge 358–62: A-D'
     tags: [name:morrison-norman-r, name:laporte-roger-allen, name:mcnamara-robert-s]
   - id: cal.1965-11-02.legislatures-ny
     when: Nov. 2
@@ -93,7 +126,14 @@ entries:
     thread: governors
     also: [elections-1965]
     c: New Jersey. Hughes (D) re-elected over Dumont (R), 1,279,568 to 915,996, 57.4 percent; Dumont had campaigned on Genovese's teach-in remarks. Democrats win both houses of the Legislature (Check).
-    n: '[*Results of the General Election Held November 2, 1965*](https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/1965-general-election.pdf) (Secretary of State). [Wikipedia, "1965 New Jersey gubernatorial election"](https://en.wikipedia.org/wiki/1965_New_Jersey_gubernatorial_election). See [[cal.1965-06-01.governors-nj]]; [[cal.1965-04-23.students-nj]]. Names: Hughes, Dumont, Genovese.'
+    n: '[*Results of the General Election Held November 2, 1965*](https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/1965-general-election.pdf) (Secretary of State). [Wikipedia, "1965 New Jersey gubernatorial election"](https://en.wikipedia.org/wiki/1965_New_Jersey_gubernatorial_election). [[w.kabaservice-rule-and-ruin]], 159–60 (Dumont''s campaign on Genovese; his defeat, "by a record margin"; both houses lost, the first time since 1912). To check: "New Jersey: Getting the Garden Growing," *Time*, Nov. 12, 1965, 33 (cited by [[w.kabaservice-rule-and-ruin]], 160 n.167). See [[cal.1965-06-01.governors-nj]]; [[cal.1965-04-23.students-nj]]. Names: Hughes, Dumont, Genovese.'
+    src:
+      c: e20202e3
+      rows:
+        - 'https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/1965-general-election.pdf: all'
+        - 'https://en.wikipedia.org/wiki/1965_New_Jersey_gubernatorial_election: all'
+        - 'w.kabaservice-rule-and-ruin 159–60: B-D'
+        - 'via w.kabaservice-rule-and-ruin 160 n.167: B, D'
     tags: [state:nj, name:hughes-richard-j, name:dumont-wayne-jr, name:genovese-eugene-d]
   - id: cal.1965-11-02.mayors-pittsburgh
     when: Nov. 2
@@ -103,6 +143,78 @@ entries:
     c: Pittsburgh. Barr (D) re-elected over the Republican, an attorney, 109,947 to 65,969, 62.5 percent.
     n: '[Wikipedia, "1965 Pittsburgh mayoral election"](https://en.wikipedia.org/wiki/1965_Pittsburgh_mayoral_election); check against the Allegheny County returns. See [[cal.1961-11-07.mayors-pittsburgh]]. Names: Barr.'
     tags: [state:pa, city:pittsburgh, name:barr-joseph-m]
+  - id: cal.1965-11-02.vietnam-force-levels
+    when: Nov. 2
+    date: '1965-11-02'
+    thread: vietnam-force-levels
+    c: The air base at Cam Ranh Bay operational for tactical jets.
+    n: '[[w.macv-command-history-1965]], 481.'
+    src:
+      c: 03d55033
+      rows:
+        - 'w.macv-command-history-1965 481: all'
+    tags: [place:cam-ranh-bay]
+  - id: cal.1965-11-02.vietnam-2
+    when: Nov. 2
+    date: '1965-11-02'
+    thread: vietnam
+    c: Lt. Gen. John L. Throckmorton, Westmoreland's deputy, leaves Vietnam.
+    n: '[[w.macv-command-history-1965]], 481. Names: Throckmorton.'
+    src:
+      c: 9ed1c3d2
+      rows:
+        - 'w.macv-command-history-1965 481: all'
+    tags: [name:throckmorton-john-l]
+  - id: cal.1965-11-02.civil-rights-the-executive
+    when: Nov. 2
+    date: '1965-11-02'
+    thread: civil-rights-the-executive
+    c: 'Lee White to Johnson on the FBI''s objection to Rustin, a "confirmed Marxist," as a delegate to the White House planning session: Rustin a responsible ally since the March on Washington; a blacklist, Wachtel on it too, would risk the leaders'' withdrawing their support.'
+    n: '[[w.branch-at-canaans-edge]], 369. To check: Lee White to Johnson, Nov. 2, 1965, Name File, "Bayard Rustin," LBJ Library (cited by [[w.branch-at-canaans-edge]], 369). See [[cal.1965-11-16.civil-rights-the-executive]]. Names: Lee White, Johnson, Rustin.'
+    src:
+      c: 1871a9bc
+      rows:
+        - 'w.branch-at-canaans-edge 369: all'
+        - 'via w.branch-at-canaans-edge 369 n.lee-white-reminded: all'
+    tags: [name:white-lee-c, name:johnson-lyndon-b, name:rustin-bayard]
+  - id: cal.1965-11-02.vietnam
+    when: Nov. 2
+    date: '1965-11-02'
+    thread: vietnam
+    also: [press-and-broadcasting]
+    c: 'The *Washington Post*, Foisie from Saigon: Kissinger''s and Clifford''s findings, "an almost total lack of political maturity or unselfish political motivation" among South Vietnam''s leaders. Moyers to Clifford: the President "off the wall."'
+    n: '[[w.clifford-counsel-to-the-president-2]], 429. See [[cal.1965-10-26.vietnam-3]]. Names: Kissinger, Clifford, Moyers. Check: Foisie later named Kissinger the source (Clifford, 432).'
+    src:
+      c: 98b0b7af
+      rows:
+        - 'w.clifford-counsel-to-the-president-2 429: all'
+    tags: [name:kissinger-henry-a, name:clifford-clark, name:moyers-bill]
+  - id: cal.1965-11-02.mayors-philadelphia
+    when: Nov. 2
+    date: '1965-11-02'
+    thread: mayors
+    also: [elections-1965, republican-party]
+    c: 'Philadelphia. Specter, an assistant district attorney and a Democrat, the Republicans'' candidate at Scranton''s and Hugh Scott''s urging, elected district attorney over Crumlish, his superior; a Republican worker: "Hooray, we''ve elected a Democrat."'
+    n: '[[w.kabaservice-rule-and-ruin]], 156–58. To check: "Parallel Pattern," *Newsweek*, Nov. 15, 1965, 36 (cited by [[w.kabaservice-rule-and-ruin]], 157 n.152). Check: the count; Kabaservice gives a margin of about 36,000. Names: Specter, Scranton, Scott.'
+    src:
+      c: a0c72e13
+      rows:
+        - 'w.kabaservice-rule-and-ruin 156–58: A-C'
+        - 'via w.kabaservice-rule-and-ruin 157 n.152: B-C'
+    tags: [name:specter-arlen, name:scranton-william-w, name:scott-hugh-d-jr, state:pa, city:philadelphia]
+  - id: cal.1965-11-02.mayors
+    when: Nov. 2
+    date: '1965-11-02'
+    thread: mayors
+    also: [elections-1965, republican-party]
+    c: Louisville, Ky. With the Negro vote, the Republicans elect a moderate mayor, and the first Negro to serve as prosecutor of the city police court.
+    n: '[[w.kabaservice-rule-and-ruin]], 158. Check: the names and the counts. To check: "Cities: The Negro''s New Force," *Time*, Nov. 12, 1965, 34 (cited by [[w.kabaservice-rule-and-ruin]], 158 n.157).'
+    src:
+      c: 03e4aff5
+      rows:
+        - 'w.kabaservice-rule-and-ruin 158: all'
+        - 'via w.kabaservice-rule-and-ruin 158 n.157: all'
+    tags: [state:ky, city:louisville]
   - id: cal.1965-11-03.transition-and-staff
     when: Nov. 3
     date: '1965-11-03'
@@ -143,14 +255,38 @@ entries:
     thread: vietnam
     also: [vietnam-pause, vietnam-force-levels]
     c: 'McNamara''s draft memorandum for Johnson, from McNaughton''s office, "Courses of Action in Vietnam": the bombing and Phase I "make sense only if" in support of a long-run policy to contain China. Course C recommended: a "hard-line" pause, then evolving Rolling Thunder with Phase II. The odds "even" that early 1967 brings "stagnation at a higher level."'
-    n: '[FRUS 1964–68, III, doc. 189](https://history.state.gov/historicaldocuments/frus1964-68v03/d189). [[w.gibbons-u-s-government-and]], IV, 84–85. Made public: FRUS 1964–68, III (1996). See [[cal.1965-10-23.vietnam-2]]. Names: McNamara, McNaughton, Johnson.'
+    n: '[FRUS 1964–68, III, doc. 189](https://history.state.gov/historicaldocuments/frus1964-68v03/d189). [[w.gibbons-u-s-government-and]], IV, 84–85. [[w.ball-past-has-another-pattern]], 404 (a pause of six to eight weeks recommended). Made public: FRUS 1964–68, III (1996). See [[cal.1965-10-23.vietnam-2]]. Names: McNamara, McNaughton, Johnson.'
     src:
       c: ec11c431
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d189: all'
         - 'w.gibbons-u-s-government-and IV, 84–85: all'
         - 'via w.gibbons-u-s-government-and IV, 84 n.20: all'
+        - 'w.ball-past-has-another-pattern 404: A-B'
     tags: [name:mcnamara-robert-s, name:mcnaughton-john-t, name:johnson-lyndon-b]
+  - id: cal.1965-11-03.vietnam-3
+    when: Nov. 3
+    date: '1965-11-03'
+    thread: vietnam
+    also: [press-and-broadcasting]
+    c: 'Moyers to the press on Foisie''s story: "Those views are not Mr. Clifford''s views. Whatever Professor Kissinger''s views are, his views are not those of the government''s." Clifford''s trip not made at the President''s request.'
+    n: '[[w.clifford-counsel-to-the-president-2]], 430. See [[cal.1965-11-02.vietnam]]. Names: Moyers, Clifford, Kissinger. Check: the day, from Clifford''s "the next day"; Clifford calls the last statement untrue.'
+    src:
+      c: 865a5954
+      rows:
+        - 'w.clifford-counsel-to-the-president-2 430: all'
+    tags: [name:moyers-bill, name:clifford-clark, name:kissinger-henry-a]
+  - id: cal.1965-11-04.vietnam
+    when: Nov. 4
+    date: '1965-11-04'
+    thread: vietnam
+    c: 'Clifford to Johnson, by letter, drafted with Moyers: a flat denial of Foisie''s article "insofar as the references to me are concerned." Released by the White House Nov. 6.'
+    n: '[[w.clifford-counsel-to-the-president-2]], 430. See [[cal.1965-11-02.vietnam]]. Names: Clifford, Johnson, Moyers.'
+    src:
+      c: ae1c2e22
+      rows:
+        - 'w.clifford-counsel-to-the-president-2 430: all'
+    tags: [name:clifford-clark, name:johnson-lyndon-b, name:moyers-bill]
   - id: cal.1965-11-05.robert-kennedy
     when: Nov. 5
     date: '1965-11-05'
@@ -178,6 +314,17 @@ entries:
         - 'w.mann-grand-delusion 461: all'
         - 'via w.mann-grand-delusion 461 n.3: all'
     tags: [name:russell-richard-b, name:johnson-lyndon-b, name:mcnamara-robert-s]
+  - id: cal.1965-11-05.vietnam-pause
+    when: Nov. 5
+    date: '1965-11-05'
+    thread: vietnam-pause
+    c: 'Bundy to Johnson, of the pause: "I think McNamara will turn out to be right, but I also agree with Rusk." "If we are going to have major additional reinforcements in January, we almost surely need to take some political steps in December. One such step may be a pause in bombing."'
+    n: '[[w.preston-war-council]], 220. To check: Bundy to Johnson, Nov. 5, 1965, NSF, Files of McGeorge Bundy, Chron., box 12, LBJ Library (cited by [[w.preston-war-council]], 220 n.29). Names: Bundy, Johnson, McNamara, Rusk.'
+    src:
+      c: 37df0d9f
+      rows:
+        - 'w.preston-war-council 220: all'
+    tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:mcnamara-robert-s, name:rusk-dean]
   - id: cal.1965-11-06.cuba
     when: Nov. 6
     date: '1965-11-06'
@@ -226,6 +373,38 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 85–86: all'
         - 'via w.gibbons-u-s-government-and IV, 86 n.26: C-F'
     tags: [name:johnson-lyndon-b, name:mcnamara-robert-s, name:ball-george-w, name:bundy-mcgeorge, name:bundy-william, name:thompson-llewellyn-e, name:raborn-william-f-jr, name:wheeler-earle, name:clifford-clark, name:rusk-dean]
+  - id: cal.1965-11-06.vietnam
+    when: Nov. 6
+    date: '1965-11-06'
+    thread: vietnam
+    c: Lt. Gen. J. A. Heintges replaces Throckmorton as deputy commander, MACV.
+    n: '[[w.macv-command-history-1965]], 481. Names: Throckmorton.'
+    src:
+      c: a13e1e5e
+      rows:
+        - 'w.macv-command-history-1965 481: all'
+    tags: [name:throckmorton-john-l]
+  - id: cal.1965-11-07.vietnam-order-of-battle
+    when: Nov. 7
+    date: '1965-11-07'
+    thread: vietnam-order-of-battle
+    c: MACV publicly confirms five North Vietnamese regiments in South Vietnam.
+    n: '[[w.macv-command-history-1965]], 481.'
+    src:
+      c: e996317e
+      rows:
+        - 'w.macv-command-history-1965 481: all'
+  - id: cal.1965-11-07.transition-and-staff
+    when: Nov. 7
+    date: '1965-11-07'
+    thread: transition-and-staff
+    c: McCloy, chairman of the Ford Foundation's board, offers Bundy its presidency. Nov. 8, Bundy tells Johnson; with Johnson, Rusk and McNamara he stays until the end of February, a successor to be readied.
+    n: '[[w.preston-war-council]], 231–32. To check: Bundy to Johnson, Dec. 4, 1965, NSF, Memos to the President, Bundy, box 5, LBJ Library; [[w.bird-chairman]], 520, 581–82 (cited by [[w.preston-war-council]], 232 n.56). Names: McCloy, Bundy, Johnson, Rusk, McNamara. Check: the day of the arrangement.'
+    src:
+      c: a47d1e4c
+      rows:
+        - 'w.preston-war-council 231–32: all'
+    tags: [name:mccloy-john-j, name:bundy-mcgeorge, name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s]
   - id: cal.1965-11-08.school-aid
     when: Nov. 8
     date: '1965-11-08'
@@ -250,6 +429,58 @@ entries:
       rows:
         - 'w.hess-republican-establishment 320–21: all'
     tags: [name:hendricks-charles-o, name:lindsay-john-v]
+  - id: cal.1965-11-08.vietnam-operations
+    when: Nov. 8
+    date: '1965-11-08'
+    thread: vietnam-operations
+    c: 'War Zone D, Hump, the 173d Airborne Brigade''s fifth operation there. The 1st Battalion, 503d Infantry, closes with a Viet Cong battalion, fighting too close for supporting fire; the assaults beaten off. Out Nov. 9: 403 of the enemy counted killed; Americans and Australians, 51 killed, 89 wounded.'
+    n: '[[w.macv-command-history-1965]], 170–71. To check: CO, 173d Abn Bde, Combat Operations After Action Report, Dec. 19, 1965 (cited by [[w.macv-command-history-1965]], 171 n.26).'
+    src:
+      c: 4f84c875
+      rows:
+        - 'w.macv-command-history-1965 170–71: all'
+        - 'via w.macv-command-history-1965 171 n.26: all'
+  - id: cal.1965-11-08.war-opposition
+    when: Nov. 8
+    date: '1965-11-08'
+    thread: war-opposition
+    also: [vietnam-congress, king]
+    c: 'King to Fulbright, a letter of "personal encouragement": "I trust that you will not let any pressure silence you." Fulbright''s reply, Dec. 13: "my influence is not sufficiently strong ... to do much about the policy which is now being followed."'
+    n: '[[w.branch-at-canaans-edge]], 365. To check: King to Fulbright, Nov. 8, 1965; Fulbright to King, Dec. 13, 1965, King Papers, King Library and Archives (cited by [[w.branch-at-canaans-edge]], 365). Names: Martin Luther King, Fulbright.'
+    src:
+      c: ef38ba1d
+      rows:
+        - 'w.branch-at-canaans-edge 365: all'
+        - 'via w.branch-at-canaans-edge 365 n.i-trust-that: A'
+        - 'via w.branch-at-canaans-edge 365 n.my-influence-is: B'
+    tags: [name:king-martin-luther-jr, name:fulbright-j-william]
+  - id: cal.1965-11-08.europe-and-the-alliance
+    when: Nov. 8
+    date: '1965-11-08'
+    thread: europe-and-the-alliance
+    also: [vietnam]
+    c: 'Humphrey to Johnson, after a weekend with Erlander of Sweden at the Greenbrier, W. Va.: his case for Johnson''s policy in Vietnam, made to the government most critical of it in Europe.'
+    n: '[[w.solberg-hubert-humphrey]], 283. To check: Humphrey to Johnson, Nov. 8, 1965, Humphrey Papers (cited by [[w.solberg-hubert-humphrey]], 283, its note). Names: Humphrey, Johnson, Erlander.'
+    src:
+      c: c175e3b2
+      rows:
+        - 'w.solberg-hubert-humphrey 283: all'
+        - 'via w.solberg-hubert-humphrey 283 n.erlander: all'
+    tags: [name:humphrey-hubert-h, name:johnson-lyndon-b, name:erlander-tage]
+  - id: cal.1965-11-08.vietnam
+    when: Nov. 8
+    date: '1965-11-08'
+    thread: vietnam-pause
+    also: [vietnam-force-levels]
+    c: 'Bundy to Johnson in Texas, 11:42 a.m.: he, Rusk and McNamara must see him before Rusk goes to Latin America; more than 100,000 more men recommended for 1966, pressure to bomb harder; divided on whether a substantial pause should come first. McNamara "tends to favor a pause"; "Rusk and I tend to be opposed." "Are we seeking a negotiated solution ... Or are we determined to do all that is necessary to establish and sustain a genuinely non-Communist South Vietnam?" Bundy inclines to the latter.'
+    n: '[FRUS 1964–68, III, doc. 192](https://history.state.gov/historicaldocuments/frus1964-68v03/d192). [[w.preston-war-council]], 209, 218. See [[cal.1965-11-11.vietnam-pause]]. Names: Bundy, Johnson, Rusk, McNamara.'
+    src:
+      c: fc6ef0e0
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d192: A'
+        - 'w.preston-war-council 209: D'
+        - 'w.preston-war-council 218: B'
+    tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s]
   - id: cal.1965-11-09.states-and-cities
     when: Nov. 9
     date: '1965-11-09'
@@ -277,14 +508,27 @@ entries:
     thread: vietnam
     also: [vietnam-pause]
     c: 'McNaughton to McNamara on State''s paper: "not substantially different." For a pause: "I hate to miss the small chance it offers to turn this thing around." Both papers "set the goals unrealistically high"; the odds of a Phase III and IV "50-70%."'
-    n: '[FRUS 1964–68, III, doc. 195](https://history.state.gov/historicaldocuments/frus1964-68v03/d195). [[w.gibbons-u-s-government-and]], IV, 87–88. Made public: FRUS 1964–68, III (1996). See [[cal.1965-11-09.vietnam]]. Names: McNaughton, McNamara.'
+    n: '[FRUS 1964–68, III, doc. 195](https://history.state.gov/historicaldocuments/frus1964-68v03/d195). [[w.gibbons-u-s-government-and]], IV, 87–88. Made public: FRUS 1964–68, III (1996). [[w.preston-war-council]], 219 (McNaughton''s paper sent on to Bundy: "State is wrong with respect to the Pause"). See [[cal.1965-11-09.vietnam]]. Names: McNaughton, McNamara.'
     src:
       c: 354ed15c
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d195: all'
         - 'w.gibbons-u-s-government-and IV, 87–88: all'
         - 'via w.gibbons-u-s-government-and IV, 87 n.30: all'
+        - 'w.preston-war-council 219: all'
     tags: [name:mcnaughton-john-t, name:mcnamara-robert-s]
+  - id: cal.1965-11-09.war-opposition
+    when: Nov. 9
+    date: '1965-11-09'
+    thread: war-opposition
+    c: 'Humphrey to Johnson, with a declaration of support signed by 1,200 of West Virginia State College''s 2,000 students: "There is a rising tide of support for your policy on Vietnam among the college students."'
+    n: '[[w.solberg-hubert-humphrey]], 283. To check: Humphrey to Johnson, Nov. 9, 1965, WHCF CF, Exec, Box 347, LBJ Library (cited by [[w.solberg-hubert-humphrey]], 283, its note). Names: Humphrey, Johnson.'
+    src:
+      c: 44cde172
+      rows:
+        - 'w.solberg-hubert-humphrey 283: all'
+        - 'via w.solberg-hubert-humphrey 283 n.tide-1965: all'
+    tags: [name:humphrey-hubert-h, name:johnson-lyndon-b]
   - id: cal.1965-11-10.congress
     when: Nov. 10
     date: '1965-11-10'
@@ -339,6 +583,40 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 104 n.80: A'
         - 'via w.gibbons-u-s-government-and IV, 104 n.81: C'
     tags: [name:mcnamara-robert-s]
+  - id: cal.1965-11-10.vietnam-operations
+    when: Nov. 10
+    date: '1965-11-10'
+    thread: vietnam-operations
+    c: 'Blue Marlin: American and South Vietnamese Marines, the first combined amphibious landing in the South.'
+    n: '[[w.macv-command-history-1965]], 481.'
+    src:
+      c: ba737f0f
+      rows:
+        - 'w.macv-command-history-1965 481: all'
+  - id: cal.1965-11-10.king
+    when: Nov. 10
+    date: '1965-11-10'
+    thread: king
+    c: Hoover to the Atlanta office, commending its "thought and imagination ... looking toward the possible exploitation of highly sensitive information recently obtained concerning the personal life of subject [King]." James Harrison, SCLC's bookkeeper, the FBI's informant inside it.
+    n: '[[w.branch-at-canaans-edge]], 369. To check: Director to SAC, Atlanta, Nov. 10, 1965, FBI file 100-106670-2025 (cited by [[w.branch-at-canaans-edge]], 369); [[w.garrow-fbi-and-martin-luther]], 178 (cited by [[w.branch-at-canaans-edge]], 369). Made public: Check. Check: the day of Harrison''s recruitment. Names: Hoover, Martin Luther King.'
+    src:
+      c: 3431253f
+      rows:
+        - 'w.branch-at-canaans-edge 369: all'
+        - 'via w.branch-at-canaans-edge 369 n.thought-and-imagination: A'
+    tags: [name:hoover-j-edgar, name:king-martin-luther-jr]
+  - id: cal.1965-11-10.civil-rights-the-executive
+    when: Nov. 10
+    date: '1965-11-10'
+    thread: civil-rights-the-executive
+    c: 'DeLoach to Mohr, "White House Meeting Entitled ''To Fulfill These Rights''": no FBI agents to sit in on the workshops; if the delegates "didn''t know what they were talking about, or falsely accuse the FBI, they should shut up."'
+    n: '[[w.branch-at-canaans-edge]], 383. To check: DeLoach to Mohr, Nov. 10, 1965, FBI file 100-106670 (cited by [[w.branch-at-canaans-edge]], 383). Made public: Check. See [[cal.1965-11-16.civil-rights-the-executive]]. Names: DeLoach.'
+    src:
+      c: 17e911d5
+      rows:
+        - 'w.branch-at-canaans-edge 383: all'
+        - 'via w.branch-at-canaans-edge 383 n.critical-or-unjustifiable: all'
+    tags: [name:deloach-cartha]
   - id: cal.1965-11-11.europe-and-the-alliance
     when: Nov. 11
     date: '1965-11-11'
@@ -361,7 +639,7 @@ entries:
     thread: vietnam-pause
     also: [vietnam-force-levels]
     c: 'The Ranch, 2:30 to 3:45 p.m.: Johnson with Rusk, McNamara, Ball, McGeorge Bundy and Moyers. Bundy''s agenda: more deployments in 1966; a pause first; the bombing; Lodge''s or Goldberg''s view of negotiation; the purpose, a compromise "which would eventually turn Communist" or a non-Communist South Vietnam "by all necessary means." By Bundy''s notes, Johnson "60-40" for a pause "about Thanksgiving."'
-    n: '[FRUS 1964–68, III, doc. 198](https://history.state.gov/historicaldocuments/frus1964-68v03/d198) (the editorial note, from the Daily Diary and the agenda). [[w.gibbons-u-s-government-and]], IV, 88–89. To check: McGeorge Bundy to Johnson, Nov. 11, 1965, NSF Memos to the President—McGeorge Bundy, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 88 n.32); McGeorge Bundy, handwritten notes, Notes on Vietnam, Papers of McGeorge Bundy, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 89 n.35). Made public: FRUS 1964–68, III (1996). See [[cal.1965-11-06.vietnam-pause]]. Check: Gibbons has the meeting morning and afternoon, Rostow, Clifford and Moyers there for part. Names: Johnson, Rusk, McNamara, Ball, McGeorge Bundy, Moyers, Lodge, Goldberg.'
+    n: '[FRUS 1964–68, III, doc. 198](https://history.state.gov/historicaldocuments/frus1964-68v03/d198) (the editorial note, from the Daily Diary and the agenda). [[w.gibbons-u-s-government-and]], IV, 88–89. [[w.preston-war-council]], 209, 220 (Bundy''s agenda: the options again; if a pause, "we must begin to plan for it very promptly"). To check: McGeorge Bundy to Johnson, Nov. 11, 1965, NSF Memos to the President—McGeorge Bundy, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 88 n.32); McGeorge Bundy, handwritten notes, Notes on Vietnam, Papers of McGeorge Bundy, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 89 n.35). Made public: FRUS 1964–68, III (1996). See [[cal.1965-11-06.vietnam-pause]]. Check: Gibbons has the meeting morning and afternoon, Rostow, Clifford and Moyers there for part. Names: Johnson, Rusk, McNamara, Ball, McGeorge Bundy, Moyers, Lodge, Goldberg.'
     src:
       c: 711899e6
       rows:
@@ -370,13 +648,62 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 88 n.32: B-F'
         - 'via w.gibbons-u-s-government-and IV, 89 n.34: B-F'
         - 'via w.gibbons-u-s-government-and IV, 89 n.35: G'
+        - 'w.preston-war-council 209: ?'
+        - 'w.preston-war-council 220: ?'
     tags: [name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s, name:ball-george-w, name:bundy-mcgeorge, name:moyers-bill, name:lodge-henry-cabot, name:goldberg-arthur-j]
+  - id: cal.1965-11-11.vietnam
+    when: Nov. 11
+    date: '1965-11-11'
+    thread: vietnam
+    c: 'The Ranch, by Clifford''s account. Johnson berates Clifford over Foisie''s article; Clifford: "I deeply resent your questioning my word." Then Clifford''s report: the buildup and the bombing have prevented defeat; North Vietnam''s counterescalation not cut off; the Viet Cong not to be beaten by elimination.'
+    n: '[[w.clifford-counsel-to-the-president-2]], 430–31, 433. See [[cal.1965-10-26.vietnam-3]]. Names: Johnson, Clifford.'
+    src:
+      c: 6f56c0e2
+      rows:
+        - 'w.clifford-counsel-to-the-president-2 430–31: A-B'
+        - 'w.clifford-counsel-to-the-president-2 433: C-D'
+    tags: [name:johnson-lyndon-b, name:clifford-clark]
+  - id: cal.1965-11-11.conservative-movement
+    when: Nov. 11
+    date: '1965-11-11'
+    thread: conservative-movement
+    c: 'Buckley, at *National Review*''s tenth anniversary dinner, a few days after the election: "The joys of warmaking presuppose the eventual stillness of victory; and that, so far as I can see, is beyond our reach."'
+    n: '[[w.kabaservice-rule-and-ruin]], 160. To check: William F. Buckley Jr., remarks at the *National Review* tenth anniversary dinner, Nov. 11, 1965, William F. Buckley Jr. Papers, Yale University, I-36 (cited by [[w.kabaservice-rule-and-ruin]], 160 n.168). Names: Buckley.'
+    src:
+      c: c1f81bb4
+      rows:
+        - 'w.kabaservice-rule-and-ruin 160: all'
+        - 'via w.kabaservice-rule-and-ruin 160 n.168: all'
+    tags: [name:buckley-william-f-jr]
+  - id: cal.1965-11-12.civil-rights-the-executive
+    when: Nov. 12
+    date: '1965-11-12'
+    thread: civil-rights-the-executive
+    c: Lee White to Watson, against the security officials' barring of Rustin and others of King's nominees from the White House planning session.
+    n: '[[w.branch-at-canaans-edge]], 369. To check: Lee White to Watson, Nov. 12, 1965, WHCF, box 56, LBJ Library (cited by [[w.branch-at-canaans-edge]], 369). See [[cal.1965-11-02.civil-rights-the-executive]]. Names: Lee White, Watson, Rustin, Martin Luther King.'
+    src:
+      c: b638dac6
+      rows:
+        - 'w.branch-at-canaans-edge 369: all'
+        - 'via w.branch-at-canaans-edge 369 n.remonstrated-with-security: all'
+    tags: [name:white-lee-c, name:watson-w-marvin, name:rustin-bayard, name:king-martin-luther-jr]
+  - id: cal.1965-11-12.vietnam
+    when: Nov. 12
+    date: '1965-11-12'
+    thread: vietnam
+    c: 'Thomson and Ropa to Johnson, and to Bundy, Nov. 10: Cooper''s interagency Vietnam Planning Group turned from a diplomatic settlement to "the problem of building a more popular and effective political infrastructure" in Saigon.'
+    n: '[[w.preston-war-council]], 213. To check: Thomson and Ropa to Johnson, Nov. 12, 1965, NSF, Files of McGeorge Bundy, Daily Regional Staff Reports, box 19; Thomson and Ropa to Bundy, Nov. 10, 1965, NSF, Country File, Vietnam, box 24, LBJ Library (cited by [[w.preston-war-council]], 213 n.12). Names: Thomson, Johnson, Bundy, Chester Cooper.'
+    src:
+      c: bb2cb10b
+      rows:
+        - 'w.preston-war-council 213: all'
+    tags: [name:thomson-james-c-jr, name:johnson-lyndon-b, name:bundy-mcgeorge, name:cooper-chester-l]
   - id: cal.1965-11-14.vietnam
     when: Nov. 14–16
     date: '1965-11-14'
     thread: vietnam-operations
     c: Ia Drang. Moore's 1st Battalion, 7th Cavalry, of the 1st Cavalry Division (Airmobile), lands by helicopter at LZ X-Ray, under the Chu Pong massif, Nov. 14, and holds three days against North Vietnamese regulars, with B-52s striking the massif from Nov. 15; 79 Americans killed. The first battle between American and North Vietnamese regulars. Check the counts.
-    n: 'FRUS 1964–68, III, doc. [212](https://history.state.gov/historicaldocuments/frus1964-68v03/d212). [[w.drea-mcnamara-clifford-and-the-2011]], 118 (the battle, Nov. 14–19, the first between American and North Vietnamese troops); [[w.cosmas-joint-chiefs-of-staff-2012]], 345 (X-Ray, Nov. 14; the B-52s; for the campaign, the 1st Cavalry''s claim of more than 1,200 of the enemy killed for 217 of its own). [[w.vietnam-victory-in-vietnam]], 159 (the battle under the Chu Pong, Nov. 14–19; the B-52s); [[w.gibbons-u-s-government-and]], IV, 100–102 (the battles; 1,200 to 3,000 North Vietnamese and 300 Americans killed by his count). To check: [[w.cash-fight-at-ia-drang]]; [[w.coleman-pleiku]]; [[w.moore-we-were-soldiers-once]]; [[w.pribbenow-fog-of-war]]; [[w.westmoreland-soldier-reports]]; [[w.mcnamara-in-retrospect]]. See [[cal.1965-07-28.vietnam]]. Names: Moore. Check: *Victory in Vietnam* counts, for the Plei Me campaign, Oct. 19–Nov. 19, 1,700 Americans and 1,270 South Vietnamese put out of action and 59 helicopters shot down; the 66th Regiment and part of the 33d at Ia Drang, Nov. 14–19 (159).'
+    n: 'FRUS 1964–68, III, doc. [212](https://history.state.gov/historicaldocuments/frus1964-68v03/d212). [[w.drea-mcnamara-clifford-and-the-2011]], 118 (the battle, Nov. 14–19, the first between American and North Vietnamese troops); [[w.cosmas-joint-chiefs-of-staff-2012]], 345 (X-Ray, Nov. 14; the B-52s; for the campaign, the 1st Cavalry''s claim of more than 1,200 of the enemy killed for 217 of its own); [[w.branch-at-canaans-edge]], 378–79 (the landing and the three days; the count); [[w.westmoreland-soldier-reports]], 157–58 (Moore''s battalion; B-52s in direct support for the first time; Westmoreland at the battalion''s critique, Moore for the M-16). [[w.vietnam-victory-in-vietnam]], 159 (the battle under the Chu Pong, Nov. 14–19; the B-52s); [[w.gibbons-u-s-government-and]], IV, 100–102 (the battles; 1,200 to 3,000 North Vietnamese and 300 Americans killed by his count). [[w.macv-command-history-1965]], 8, 168 (the 3d Brigade from Nov. 14, against the 32d and 66th North Vietnamese Regiments, to Nov. 18). Check: Westmoreland gives six days of fighting, Nov. 14–19, and more than 1,300 enemy dead (157). To check: [[w.cash-fight-at-ia-drang]]; [[w.coleman-pleiku]]; [[w.moore-we-were-soldiers-once]]; [[w.pribbenow-fog-of-war]]; [[w.mcnamara-in-retrospect]]. See [[cal.1965-07-28.vietnam]]. Names: Moore. Check: *Victory in Vietnam* counts, for the Plei Me campaign, Oct. 19–Nov. 19, 1,700 Americans and 1,270 South Vietnamese put out of action and 59 helicopters shot down; the 66th Regiment and part of the 33d at Ia Drang, Nov. 14–19 (159). Check: MACV''s history, 168, has the B-52 strikes Westmoreland asked delivered Nov. 16, and for the whole of Silver Bayonet''s second phase 1,286 of the enemy and 217 Americans killed.'
     src:
       c: 8c90ac2b
       rows:
@@ -385,6 +712,10 @@ entries:
         - 'w.vietnam-victory-in-vietnam 159: A-B'
         - 'w.gibbons-u-s-government-and IV, 100–102: A, D'
         - 'w.cosmas-joint-chiefs-of-staff-2012 345: A-B'
+        - 'w.macv-command-history-1965 8, 168: A-B, D'
+        - 'via w.macv-command-history-1965 168 n.22: B'
+        - 'w.branch-at-canaans-edge 378–79: A-C'
+        - 'w.westmoreland-soldier-reports 157–58: A-B'
     tags: [name:moore-harold-g, place:ia-drang, place:lz-x-ray]
   - id: cal.1965-11-14.robert-kennedy
     when: Nov. 14
@@ -398,6 +729,43 @@ entries:
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 695: all'
     tags: [name:kennedy-robert-f, name:frei-montalva-eduardo]
+  - id: cal.1965-11-14.king
+    when: Nov. 14
+    date: '1965-11-14'
+    thread: king
+    also: [congress]
+    c: 'New York, Abyssinian Baptist''s 157th anniversary: Powell introduces King, "the greatest living American, black or white," bids him take his work "into the vacuums of leadership," and names Newark. King preaches.'
+    n: '[[w.branch-at-canaans-edge]], 376–77. To check: *New York Times*, Nov. 15, 1965, 1 (cited by [[w.branch-at-canaans-edge]], 377). Names: Powell, Martin Luther King.'
+    src:
+      c: cfa61349
+      rows:
+        - 'w.branch-at-canaans-edge 376–77: all'
+        - 'via w.branch-at-canaans-edge 377 n.the-greatest-living: all'
+    tags: [name:powell-adam-clayton-jr, name:king-martin-luther-jr, state:ny, city:nyc]
+  - id: cal.1965-11-14.republican-party
+    when: Nov. 14
+    date: '1965-11-14'
+    thread: republican-party
+    also: [mayors]
+    c: 'Goldwater on CBS''s *Face the Nation*: Lindsay''s election no lesson for the party; he "ran as an out-and-out liberal and disassociating himself from the Republican party."'
+    n: '[[w.kabaservice-rule-and-ruin]], 155. To check: Barry Goldwater, *Face the Nation*, Nov. 14, 1965, transcript, Ray C. Bliss Papers, Ohio Historical Society, 95:14 (cited by [[w.kabaservice-rule-and-ruin]], 155 n.144). See [[cal.1965-11-02.states-and-cities]]. Names: Goldwater, Lindsay.'
+    src:
+      c: 92b589df
+      rows:
+        - 'w.kabaservice-rule-and-ruin 155: all'
+        - 'via w.kabaservice-rule-and-ruin 155 n.144: all'
+    tags: [name:goldwater-barry-m, name:lindsay-john-v]
+  - id: cal.1965-11-14.transition-and-staff
+    when: Nov. 14
+    date: '1965-11-14'
+    thread: transition-and-staff
+    c: Bundy's going to the Ford Foundation in the *New York Times*, page one.
+    n: '[[w.preston-war-council]], 233. To check: *New York Times*, Nov. 14, 1965, 1, 45 (cited by [[w.preston-war-council]], 233 n.61). See [[cal.1965-11-07.transition-and-staff]]. Names: Bundy. Check: the day of the announcement.'
+    src:
+      c: 25db3fef
+      rows:
+        - 'w.preston-war-council 233: all'
+    tags: [name:bundy-mcgeorge]
   - id: cal.1965-11-15.court
     when: Nov. 15
     date: '1965-11-15'
@@ -410,7 +778,14 @@ entries:
     thread: civil-rights-the-executive
     also: [desegregation-schools]
     c: 'Planning session for the White House Conference "To Fulfill These Rights," the conference itself put off to June 1–2, 1966. Randolph honorary chairman; Abram and Coleman chairmen. Johnson, in the East Room, Nov. 16: 200,000 Negroes newly registered under the Voting Rights Act. Nov. 17, he asks the Civil Rights Commission (Hannah) to study racial isolation in the schools, North and South.'
-    n: 'Remarks at a Reception for Participants in a Planning Session for the White House Conference "To Fulfill These Rights", [1965 Pub. Papers 1113](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=587) (Nov. 16, 1965); Letter Requesting a Study of Racial Isolation as a Barrier to Quality in Education, [1965 Pub. Papers 1116](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=590) (Nov. 17, 1965). To check: [[w.graham-civil-rights-era]]. See [[cal.1965-06-04.civil-rights-the-executive]]. Names: Randolph, Abram, William Coleman, Johnson, Hannah.'
+    n: 'Remarks at a Reception for Participants in a Planning Session for the White House Conference "To Fulfill These Rights", [1965 Pub. Papers 1113](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=587) (Nov. 16, 1965); Letter Requesting a Study of Racial Isolation as a Barrier to Quality in Education, [1965 Pub. Papers 1116](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=590) (Nov. 17, 1965). [[w.mcpherson-political-education]], 345 (the planning session in place of the conference; the family one seminar among many); [[w.branch-at-canaans-edge]], 382–84 (the session and Johnson''s welcome). To check: [[w.graham-civil-rights-era]]. See [[cal.1965-06-04.civil-rights-the-executive]]. Names: Randolph, Abram, William Coleman, Johnson, Hannah.'
+    src:
+      c: 9ea739e7
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=587: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=590: all'
+        - 'w.mcpherson-political-education 345: A'
+        - 'w.branch-at-canaans-edge 382–84: A, D'
     tags: [name:johnson-lyndon-b, name:randolph-a-philip, name:abram-morris-b, name:coleman-william-t-jr, name:hannah-john-a]
   - id: cal.1965-11-16.vietnam
     when: Nov. 16
@@ -426,6 +801,19 @@ entries:
         - 'w.herring-lbj-and-vietnam 93–94: A'
         - 'via w.herring-lbj-and-vietnam 94 n.12: A'
     tags: [name:sevareid-eric, name:stevenson-adlai-e, name:u-thant, name:mcnamara-robert-s, name:rusk-dean]
+  - id: cal.1965-11-16.alabama
+    when: Nov. 16
+    date: '1965-11-16'
+    thread: alabama
+    also: [voting-rights]
+    c: 'The Agricultural Stabilization and Conservation Service''s county committee elections in five Black Belt counties, the first contested between the races: in Lowndes, where nearly two-thirds of the farmers are Negroes, seventy Negroes put on the ballot by whites split the vote, and the committee stays white. Carmichael: "We believed in them, and they cheated us."'
+    n: '[[w.branch-at-canaans-edge]], 388–89. To check: [[w.eagles-outside-agitator]], 134–36, 198; Selma WATS report, Nov. 16, 1965, SNCC Papers (cited by [[w.branch-at-canaans-edge]], 388–89). Check: the day of the vote; Branch gives the results announced Nov. 16. See [[cal.1965-09-04.alabama]]. Names: Carmichael.'
+    src:
+      c: 211fd25b
+      rows:
+        - 'w.branch-at-canaans-edge 388–89: all'
+        - 'via w.branch-at-canaans-edge 388 n.we-did-it: B'
+    tags: [name:carmichael-stokely]
   - id: cal.1965-11-17.antisubversion-nc
     when: Nov. 17
     date: '1965-11-17'
@@ -439,14 +827,18 @@ entries:
     date: '1965-11-17'
     thread: vietnam-operations
     c: Ia Drang. The 2d Battalion, 7th Cavalry, marching from X-Ray, ambushed short of LZ Albany; some 155 killed. Check the count.
-    n: See [[cal.1965-11-14.vietnam]].
+    n: '[[w.branch-at-canaans-edge]], 380–81 (the ambush; not the count). See [[cal.1965-11-14.vietnam]]. Check: Branch gives 305 Americans killed in the five days, and 240 killed in the Pentagon''s release of Nov. 24 (381, 384).'
+    src:
+      c: 4b174ba0
+      rows:
+        - 'w.branch-at-canaans-edge 380–81: A-B'
     tags: [place:ia-drang, place:lz-albany]
   - id: cal.1965-11-17.vietnam-pause
     when: Nov. 17
     date: '1965-11-17'
     thread: vietnam-pause
     c: 'McGeorge Bundy to Johnson, 6:15 p.m., sending Ball''s memorandum on a pause: McNamara for it, Rusk against. "The man who has to present next year''s defense budget will want to have made a last full try." Bundy "marginally against": a pause may seem to admit "that our bombing is the cause of the trouble."'
-    n: '[FRUS 1964–68, III, doc. 202](https://history.state.gov/historicaldocuments/frus1964-68v03/d202). [[w.gibbons-u-s-government-and]], IV, 114–15. Made public: FRUS 1964–68, III (1996). See [[cal.1965-11-11.vietnam-pause]]. Names: McGeorge Bundy, Johnson, Ball, McNamara, Rusk.'
+    n: '[FRUS 1964–68, III, doc. 202](https://history.state.gov/historicaldocuments/frus1964-68v03/d202). [[w.gibbons-u-s-government-and]], IV, 114–15. Made public: FRUS 1964–68, III (1996). [[w.preston-war-council]], 218–19. See [[cal.1965-11-11.vietnam-pause]]. Names: McGeorge Bundy, Johnson, Ball, McNamara, Rusk.'
     src:
       c: 12a1c4a8
       rows:
@@ -454,6 +846,7 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 114–15: all'
         - 'via w.gibbons-u-s-government-and IV, 114 n.5: A'
         - 'via w.gibbons-u-s-government-and IV, 115 n.7: B-C'
+        - 'w.preston-war-council 218–19: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:ball-george-w, name:mcnamara-robert-s, name:rusk-dean]
   - id: cal.1965-11-18.economy
     when: Nov. 18
@@ -475,6 +868,31 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 214: all'
         - 'via w.gibbons-u-s-government-and IV, 214 n.3: all'
     tags: [name:moyers-bill, name:fowler-henry-h, name:johnson-lyndon-b]
+  - id: cal.1965-11-18.vietnam-operations
+    when: Nov. 18–26
+    date: '1965-11-18'
+    thread: vietnam-operations
+    c: 'Thắng Phong 7: three battalions of the South Vietnamese Airborne Brigade west of Pleiku, the last phase of the fighting around Plei Me. Light contact two days; Nov. 20, over 180 of the enemy killed. At the end, 265 killed, 10 captured; 21 South Vietnamese killed, 61 wounded.'
+    n: '[[w.macv-command-history-1965]], 169. To check: SITREPS, MACV, Nos. 323–330 (cited by [[w.macv-command-history-1965]], 169 n.25). See [[cal.1965-11-14.vietnam]].'
+    src:
+      c: e1497616
+      rows:
+        - 'w.macv-command-history-1965 169: all'
+        - 'via w.macv-command-history-1965 169 n.25: all'
+    tags: [province:pleiku]
+  - id: cal.1965-11-18.king
+    when: Nov. 18
+    date: '1965-11-18'
+    thread: king
+    also: [civil-rights-the-executive]
+    c: 'Baumgardner to Sullivan, on the trouble over King''s nominees to the White House session: "We will continue, as in the past, to furnish the White House derogatory information concerning King''s people who indicate possible association with the White House." Hoover: "Right."'
+    n: '[[w.branch-at-canaans-edge]], 370. To check: Baumgardner to Sullivan, Nov. 18, 1965, FBI file on SCLC (cited by [[w.branch-at-canaans-edge]], 370). Made public: Check. See [[cal.1965-11-12.civil-rights-the-executive]]. Names: Sullivan, Hoover, Martin Luther King.'
+    src:
+      c: 9918d675
+      rows:
+        - 'w.branch-at-canaans-edge 370: all'
+        - 'via w.branch-at-canaans-edge 370 n.we-may-be: all'
+    tags: [name:sullivan-william-c, name:hoover-j-edgar, name:king-martin-luther-jr]
   - id: cal.1965-11-19.opinion
     when: Nov. 19
     date: '1965-11-19'
@@ -488,6 +906,18 @@ entries:
     thread: economy
     c: Anaconda and the other copper producers back to 36 cents.
     n: 'Check: the record. See [[cal.1965-11-06.economy]].'
+  - id: cal.1965-11-19.vietnam
+    when: Nov. 19
+    date: '1965-11-19'
+    thread: vietnam
+    c: 'Cooper to Bundy, with the status report on the nonmilitary programs for five weeks: "we cannot realistically expect dramatic progress from one month to the next." "Much is being done. Much more has yet to be done."'
+    n: '[FRUS 1964–68, III, doc. 204](https://history.state.gov/historicaldocuments/frus1964-68v03/d204). [[w.preston-war-council]], 214. See [[cal.1965-10-22.vietnam]]. Names: Chester Cooper, Bundy.'
+    src:
+      c: 0fd90134
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d204: all'
+        - 'w.preston-war-council 214: all'
+    tags: [name:cooper-chester-l, name:bundy-mcgeorge]
   - id: cal.1965-11-21.opinion
     when: Nov. 21
     date: '1965-11-21'
@@ -495,6 +925,19 @@ entries:
     also: [vietnam]
     c: 'Gallup, Oct. 29–Nov. 2: a candidate for Congress for sending many more men to Vietnam: more inclined 46 percent, less 31. For a compromise peace: more 66, less 20. Should have become involved, 64; not, 21. How the war will end: stalemate like Korea 30; American victory 29; long conflict 10; world war 4.'
     n: '[[w.gallup-poll]], III, 1971–72.'
+  - id: cal.1965-11-21.vietnam-order-of-battle
+    when: Nov. 21
+    date: '1965-11-21'
+    thread: vietnam-order-of-battle
+    c: 'Westmoreland to CINCPAC: captured documents and prisoners show far larger enemy forces than estimated; his holdings revised to 16 confirmed, 4 probable and 1 possible Viet Cong and North Vietnamese main force regiments in the South.'
+    n: '[[w.macv-command-history-1965]], 14, 44. To check: COMUSMACV, 210122Z Nov 65 (cited by [[w.macv-command-history-1965]], 14 n.47, and 44 n.96). See [[cal.1965-11-10.vietnam-2]]. Names: Westmoreland.'
+    src:
+      c: ae74167b
+      rows:
+        - 'w.macv-command-history-1965 14, 44: all'
+        - 'via w.macv-command-history-1965 14 n.47: all'
+        - 'via w.macv-command-history-1965 44 n.96: all'
+    tags: [name:westmoreland-william]
   - id: cal.1965-11-22.civil-rights-organizations-charlotte
     when: Nov. 22
     date: '1965-11-22'
@@ -503,13 +946,24 @@ entries:
     c: 'Charlotte. Bombs at the homes of four Negro leaders: Julius Chambers, counsel in the suit against the city''s and county''s schools, its first hearings under way; Kelly Alexander, State president of the NAACP; his brother Fred Alexander, a city councilman; Reginald Hawkins. No one hurt.'
     n: 'To check: [[w.douglas-reading-writing-and-race]]. Names: Chambers, Kelly Alexander, Fred Alexander, Hawkins.'
     tags: [state:nc, city:charlotte, name:chambers-julius-l, name:alexander-kelly-m-sr, name:alexander-fred-d, name:hawkins-reginald-a]
+  - id: cal.1965-11-22.vietnam-operations
+    when: Nov. 22
+    date: '1965-11-22'
+    thread: vietnam-operations
+    c: The Viet Cong mortar the Sóc Trăng airfield.
+    n: '[[w.macv-command-history-1965]], 481.'
+    src:
+      c: d7bd92c6
+      rows:
+        - 'w.macv-command-history-1965 481: all'
+    tags: [place:soc-trang]
   - id: cal.1965-11-23.vietnam
     when: Nov. 23
     date: '1965-11-23'
     thread: vietnam
     also: [vietnam-air-war, vietnam-force-levels]
     c: 'McNamara to Ball by telephone, 10:10 a.m.: the Chiefs "coming to a boiling point on bombing Haiphong." Wheeler has seen Johnson, who asked a joint recommendation; McNamara told Johnson he was not prepared to recommend it now, State "strongly opposed," McGeorge Bundy leaning against. Phase II: the troops shipped from January, a month at a time, without commitment; McNamara to stop in Saigon on his way home from Paris.'
-    n: '[FRUS 1964–68, III, doc. 206](https://history.state.gov/historicaldocuments/frus1964-68v03/d206). [[w.gibbons-u-s-government-and]], IV, 105–106. Made public: FRUS 1964–68, III (1996). See [[cal.1965-11-10.vietnam-2]]. Names: McNamara, Ball, Wheeler, Johnson, McGeorge Bundy.'
+    n: '[FRUS 1964–68, III, doc. 206](https://history.state.gov/historicaldocuments/frus1964-68v03/d206). [[w.gibbons-u-s-government-and]], IV, 105–106. Made public: FRUS 1964–68, III (1996). [[w.preston-war-council]], 219 (McNamara to Ball: Bundy not with them on the pause). See [[cal.1965-11-10.vietnam-2]]. Names: McNamara, Ball, Wheeler, Johnson, McGeorge Bundy.'
     src:
       c: 76818cbf
       rows:
@@ -517,6 +971,7 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 105–106: all'
         - 'via w.gibbons-u-s-government-and IV, 105 n.87: A-B'
         - 'via w.gibbons-u-s-government-and IV, 106 n.91: C'
+        - 'w.preston-war-council 219: A'
     tags: [name:mcnamara-robert-s, name:ball-george-w, name:wheeler-earle, name:johnson-lyndon-b, name:bundy-mcgeorge]
   - id: cal.1965-11-23.vietnam-force-levels
     when: Nov. 23
@@ -563,12 +1018,13 @@ entries:
     thread: vietnam-pause
     also: [soviet-union]
     c: 'McGeorge Bundy and Dobrynin, 1 to 3 p.m.: a longer pause would help; with one of "12 to 20 days," intense Soviet diplomatic effort, but no assurance of results. By William Bundy''s account, "one of the critical factors" in the turn toward a pause.'
-    n: '[FRUS 1964–68, XIV, doc. 141](https://history.state.gov/historicaldocuments/frus1964-68v14/d141). [[w.gibbons-u-s-government-and]], IV, 115. Made public: FRUS 1964–68, XIV (2001). Check: Gibbons has Dobrynin offer Soviet persuasion of Hanoi for a pause of two or three weeks. Names: McGeorge Bundy, Dobrynin, William Bundy.'
+    n: '[FRUS 1964–68, XIV, doc. 141](https://history.state.gov/historicaldocuments/frus1964-68v14/d141). [[w.gibbons-u-s-government-and]], IV, 115. Made public: FRUS 1964–68, XIV (2001). Check: Gibbons has Dobrynin offer Soviet persuasion of Hanoi for a pause of two or three weeks. [[w.preston-war-council]], 223 (Dobrynin: a "renewed and longer pause"). Names: McGeorge Bundy, Dobrynin, William Bundy.'
     src:
       c: ea741e12
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v14/d141: A-B'
         - 'w.gibbons-u-s-government-and IV, 115: A, C'
+        - 'w.preston-war-council 223: A'
     tags: [name:bundy-mcgeorge, name:dobrynin-anatoly, name:bundy-william]
   - id: cal.1965-11-25.congo
     when: Nov. 25
@@ -591,7 +1047,7 @@ entries:
     thread: students
     also: [vietnam]
     c: 'March on Washington for Peace in Vietnam, called by SANE: pickets around the White House, then a rally at the Washington Monument; some 25,000 or more. Spock and Coretta King among the speakers. Oglesby, president of SDS, "Let Us Shape the Future": the war the work of "corporate liberalism." Check the count and the speakers. George E. Brown Jr., a Representative, also among the speakers.'
-    n: 'Oglesby, ["Trapped in a System"](https://www.crmvet.org/docs/nor/sds/651127_sds_oglesby_trapped.pdf) (SDS, 1965). Brown''s speech: [112 Cong. Rec. 11881–82](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt9/pdf/GPO-CRECB-1966-pt9-7-3.pdf#page=4) (Extensions, May 31, 1966). [[w.gibbons-u-s-government-and]], IV, 93–94 (the march, SANE, Brown, Oglesby''s speech). To check: [[w.wells-war-within]]; [[w.sale-sds]]; [[w.miller-democracy-is-in-the]]; [[w.debenedetti-american-ordeal]]; [[w.zaroulis-who-spoke-up]]. See [[cal.1965-11-02.students]]. Check: Gibbons gives "an estimated 20,000–35,000" and titles Oglesby''s speech "Liberation and the Corporate State." Names: Spock, Coretta King, George E. Brown Jr., Oglesby.'
+    n: 'Oglesby, ["Trapped in a System"](https://www.crmvet.org/docs/nor/sds/651127_sds_oglesby_trapped.pdf) (SDS, 1965). Brown''s speech: [112 Cong. Rec. 11881–82](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt9/pdf/GPO-CRECB-1966-pt9-7-3.pdf#page=4) (Extensions, May 31, 1966). [[w.gibbons-u-s-government-and]], IV, 93–94 (the march, SANE, Brown, Oglesby''s speech); [[w.branch-at-canaans-edge]], 385–87. To check: [[w.wells-war-within]]; [[w.sale-sds]]; [[w.miller-democracy-is-in-the]]; [[w.debenedetti-american-ordeal]]; [[w.zaroulis-who-spoke-up]]. See [[cal.1965-11-02.students]]. Check: Gibbons gives "an estimated 20,000–35,000" and titles Oglesby''s speech "Liberation and the Corporate State." Names: Spock, Coretta King, George E. Brown Jr., Oglesby. Check: Branch gives thirty thousand (385).'
     src:
       c: 5553a113
       rows:
@@ -599,6 +1055,7 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt9/pdf/GPO-CRECB-1966-pt9-7-3.pdf#page=4: F'
         - 'w.gibbons-u-s-government-and IV, 93–94: A-D, F'
         - 'via w.gibbons-u-s-government-and IV, 93 n.48b: F'
+        - 'w.branch-at-canaans-edge 385–87: A-C, E'
     tags: [name:spock-benjamin, name:king-coretta-scott, name:oglesby-carl, name:brown-george-e-jr]
   - id: cal.1965-11-27.europe-and-the-alliance
     when: Nov. 27
@@ -612,20 +1069,72 @@ entries:
     date: '1965-11-27'
     thread: vietnam-pause
     c: 'McGeorge Bundy to Johnson, 12:30 p.m., "Once more on the pause": he and McNamara sense "your mind is settling against a pause"; a "very hard-nosed" one would strengthen Johnson "as a determined man of peace facing a very tough course in 1966." Quiet Soviet support likely; Wilson''s coming "Vietnam gambit" spiked.'
-    n: '[FRUS 1964–68, III, doc. 208](https://history.state.gov/historicaldocuments/frus1964-68v03/d208). [[w.gibbons-u-s-government-and]], IV, 115–16. Made public: FRUS 1964–68, III (1996). See [[cal.1965-11-24.vietnam-pause]]. Names: McGeorge Bundy, Johnson, McNamara, Wilson.'
+    n: '[FRUS 1964–68, III, doc. 208](https://history.state.gov/historicaldocuments/frus1964-68v03/d208). [[w.gibbons-u-s-government-and]], IV, 115–16. Made public: FRUS 1964–68, III (1996). [[w.preston-war-council]], 221–23. See [[cal.1965-11-24.vietnam-pause]]. Names: McGeorge Bundy, Johnson, McNamara, Wilson.'
     src:
       c: 23c00b4a
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d208: all'
         - 'w.gibbons-u-s-government-and IV, 115–16: all'
         - 'via w.gibbons-u-s-government-and IV, 115 n.8: all'
+        - 'w.preston-war-council 221–23: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:mcnamara-robert-s, name:wilson-harold]
+  - id: cal.1965-11-27.vietnam-operations
+    when: Nov. 27
+    date: '1965-11-27'
+    thread: vietnam-operations
+    c: 'Michelin plantation, Bình Dương Province. A reinforced Viet Cong regiment overruns the South Vietnamese 7th Regiment in its bivouac at dawn, as it readies to exploit B-52 strikes in the hills west of the plantation, its armor and artillery left behind. Losses: 249 killed, 213 wounded, 140 missing; 60 of the enemy''s bodies recovered.'
+    n: '[[w.macv-command-history-1965]], 8, 224–26. To check: MONEVAL, MACV, Nov 65 (cited by [[w.macv-command-history-1965]], 8 n.23, and 226 n.264); Capt. W. Baxter, former senior adviser, 3d Battalion, 7th Regiment, interviewed by Capt. C. Larimer, Jan. 29, 1966 (cited by [[w.macv-command-history-1965]], 225 n.263).'
+    src:
+      c: 79acf826
+      rows:
+        - 'w.macv-command-history-1965 224–26: all'
+        - 'w.macv-command-history-1965 8: A-C'
+        - 'via w.macv-command-history-1965 8 n.23: B-C'
+        - 'via w.macv-command-history-1965 225 n.263: B'
+        - 'via w.macv-command-history-1965 226 n.264: C-D'
+    tags: [province:binh-duong]
+  - id: cal.1965-11-27.vietnam-prisoners
+    when: Nov. 27
+    date: '1965-11-27'
+    thread: vietnam-prisoners
+    c: The Viet Cong release two American prisoners, Smith and McClure, in Cambodia.
+    n: '[[w.macv-command-history-1965]], 481.'
+    src:
+      c: 1ceec0a2
+      rows:
+        - 'w.macv-command-history-1965 481: all'
+  - id: cal.1965-11-27.alabama
+    when: Nov. 27
+    date: '1965-11-27'
+    thread: alabama
+    also: [civil-rights-the-executive]
+    c: 'Katzenbach to Gary Thomas Rowe, the FBI''s informant, who will not testify again at the Liuzzo trial: "I am prepared to help you obtain suitable employment either with the federal government or elsewhere. This is not contingent on the performance of any further services."'
+    n: '[[w.branch-at-canaans-edge]], 390. To check: Katzenbach to Rowe, Nov. 27, 1965, Rowe''s headquarters informant file, FBI; Hoover to Tolson et al., Nov. 24, 1965, FBI file 44-28601-635 (cited by [[w.branch-at-canaans-edge]], 390). Made public: Check. See [[cal.1965-10-22.alabama]]. Names: Katzenbach.'
+    src:
+      c: fcd21256
+      rows:
+        - 'w.branch-at-canaans-edge 390: all'
+        - 'via w.branch-at-canaans-edge 390 n.i-am-prepared: all'
+        - 'via w.branch-at-canaans-edge 390 n.gary-thomas-rowe: all'
+    tags: [name:katzenbach-nicholas]
+  - id: cal.1965-11-27.vietnam-pause-2
+    when: Nov. 27
+    date: '1965-11-27'
+    thread: vietnam-pause
+    c: 'McGeorge Bundy to Johnson: who is to represent the United States at Marcos''s inauguration, Dec. 30? Johnson, on the memorandum: "Send the VP."'
+    n: '[[w.solberg-hubert-humphrey]], 284. To check: Bundy to Johnson, Nov. 27, 1965, WHCF CF, Exec, Box 347, LBJ Library (cited by [[w.solberg-hubert-humphrey]], 284, its note). The trip: [[cal.1965-12-30.vietnam]]. Names: McGeorge Bundy, Johnson, Marcos.'
+    src:
+      c: 0e03db3e
+      rows:
+        - 'w.solberg-hubert-humphrey 284: all'
+        - 'via w.solberg-hubert-humphrey 284 n.send-vp: all'
+    tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:marcos-ferdinand-e]
   - id: cal.1965-11-28.vietnam
     when: Nov. 28–29
     date: '1965-11-28'
     thread: vietnam
     c: McNamara and Wheeler in Saigon.
-    n: 'FRUS 1964–68, III, docs. [189](https://history.state.gov/historicaldocuments/frus1964-68v03/d189) (McNamara''s draft of Nov. 3), [198](https://history.state.gov/historicaldocuments/frus1964-68v03/d198) (editorial note). [[w.drea-mcnamara-clifford-and-the-2011]], 119 (McNamara in Saigon, Nov. 28–29); [[w.staaveren-u-s-air-force]], 97 (McNamara in Saigon, Nov. 28–29); [[w.gibbons-u-s-government-and]], IV, 105–107; [[w.herring-lbj-and-vietnam]], 67 (McNamara to the officials in Saigon in November: "show me one area in this country ... that we have pacified"; not Wheeler). To check: [[w.pentagon-papers]]; [[w.mcnamara-in-retrospect]]; [[w.berman-lyndon-johnsons-war]]; Westmoreland, history notes, Nov. 28–29, 1965, CMH; COMUSMACV briefing for the Secretary of Defense, Nov. 28, 1965, SecDef Subject Decimal files, Acc 70A-1265 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 119 n.22); MACJ03, Memorandum for the Record, "Summary of Major Points Covered During 28-29 November 1965 Meetings with Secretary of Defense," Dec. 1, 1965, COMUSMACV records (microfilm), U.S. Army Military History Institute (cited by [[w.gibbons-u-s-government-and]], IV, 107 n.92). See [[cal.1965-07-28.vietnam]]; [[cal.1965-11-14.vietnam]]. Names: McNamara, Wheeler.'
+    n: 'FRUS 1964–68, III, docs. [189](https://history.state.gov/historicaldocuments/frus1964-68v03/d189) (McNamara''s draft of Nov. 3), [198](https://history.state.gov/historicaldocuments/frus1964-68v03/d198) (editorial note). [[w.drea-mcnamara-clifford-and-the-2011]], 119 (McNamara in Saigon, Nov. 28–29); [[w.staaveren-u-s-air-force]], 97 (McNamara in Saigon, Nov. 28–29); [[w.gibbons-u-s-government-and]], IV, 105–107; [[w.herring-lbj-and-vietnam]], 67 (McNamara to the officials in Saigon in November: "show me one area in this country ... that we have pacified"; not Wheeler); [[w.westmoreland-soldier-reports]], 154 (McNamara from Europe to Saigon near the end of November; the build-up, nine North Vietnamese regiments possible). [[w.macv-command-history-1965]], 44–45 (Westmoreland''s briefing: a further division for the coastal plain of II Corps, another near Saigon, a brigade for An Khê). To check: SECDEF Briefing, COMUSMACV, Nov. 28, 1965 (cited by [[w.macv-command-history-1965]], 45 n.98); [[w.pentagon-papers]]; [[w.mcnamara-in-retrospect]]; [[w.berman-lyndon-johnsons-war]]; Westmoreland, history notes, Nov. 28–29, 1965, CMH; COMUSMACV briefing for the Secretary of Defense, Nov. 28, 1965, SecDef Subject Decimal files, Acc 70A-1265 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 119 n.22); MACJ03, Memorandum for the Record, "Summary of Major Points Covered During 28-29 November 1965 Meetings with Secretary of Defense," Dec. 1, 1965, COMUSMACV records (microfilm), U.S. Army Military History Institute (cited by [[w.gibbons-u-s-government-and]], IV, 107 n.92). See [[cal.1965-07-28.vietnam]]; [[cal.1965-11-14.vietnam]]. Names: McNamara, Wheeler.'
     src:
       c: 0d766720
       rows:
@@ -637,6 +1146,9 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 106–107: A'
         - 'via w.gibbons-u-s-government-and IV, 107 n.92: A'
         - 'w.herring-lbj-and-vietnam 67: A'
+        - 'w.macv-command-history-1965 44–45: A'
+        - 'via w.macv-command-history-1965 45 n.98: A'
+        - 'w.westmoreland-soldier-reports 154: A'
     tags: [name:mcnamara-robert-s, name:wheeler-earle, name:lodge-henry-cabot, name:westmoreland-william, name:sharp-u-s-grant, place:saigon]
   - id: cal.1965-11-28.opinion
     when: Nov. 28
@@ -687,13 +1199,16 @@ entries:
     date: '1965-11-30'
     thread: vietnam-force-levels
     c: 'McNamara to Johnson: infiltration up, the enemy standing to fight, as at Ia Drang; US battalions from 34 to 74 by the end of 1966, some 400,000 men, perhaps 200,000 more in 1967; the bombing gradually widened; first a pause of three or four weeks. American dead may reach 1,000 a month; the odds even of a "no-decision" at a higher level in early 1967.'
-    n: '[FRUS 1964–68, III, doc. 212](https://history.state.gov/historicaldocuments/frus1964-68v03/d212). [[w.gibbons-u-s-government-and]], IV, 107. See [[cal.1965-11-28.vietnam]]. Names: McNamara, Johnson.'
+    n: '[FRUS 1964–68, III, doc. 212](https://history.state.gov/historicaldocuments/frus1964-68v03/d212). [[w.gibbons-u-s-government-and]], IV, 107; [[w.branch-at-canaans-edge]], 387 (the 200,000 more men). [[w.ball-past-has-another-pattern]], 404 (the pause, "before we either greatly increase our troop deployments ... or intensify our strikes"). See [[cal.1965-11-28.vietnam]]. Names: McNamara, Johnson.'
     src:
       c: 9548890f
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d212: all'
         - 'w.gibbons-u-s-government-and IV, 107: B-F'
         - 'via w.gibbons-u-s-government-and IV, 107 n.93: B-F'
+        - 'w.ball-past-has-another-pattern 404: D'
+        - 'via w.ball-past-has-another-pattern 404 n.2: D'
+        - 'w.branch-at-canaans-edge 387: B'
     tags: [name:mcnamara-robert-s, name:johnson-lyndon-b]
   - id: cal.1965-11.mississippi
     when: Nov.
@@ -767,3 +1282,52 @@ entries:
     c: New York. Slote resigns as Mayor Wagner's press secretary to become Rockefeller's chief press aide.
     n: '[[w.cq-weekly-report]], June 21, 1968, 1535. Check: the day. Names: Wagner, Rockefeller.'
     tags: [name:wagner-robert-f-jr, name:rockefeller-nelson, state:ny]
+  - id: cal.1965-11.vietnam
+    when: Nov.
+    date: 1965-11
+    thread: vietnam
+    also: [press-and-broadcasting]
+    c: 'Kissinger to the Associated Press: Foisie''s article "wholly in error." To Clifford by telephone, then by letter from Harvard: at Zorthian''s request he met some newsmen, off the record, on his next-to-last day in Saigon; Clifford''s name never mentioned.'
+    n: '[[w.clifford-counsel-to-the-president-2]], 431–32. See [[cal.1965-11-02.vietnam]]. Names: Kissinger, Clifford, Zorthian. Check: the days.'
+    src:
+      c: 3a07b621
+      rows:
+        - 'w.clifford-counsel-to-the-president-2 431–32: all'
+    tags: [name:kissinger-henry-a, name:clifford-clark, name:zorthian-barry]
+  - id: cal.1965-11.vietnam-2
+    when: Nov.
+    date: 1965-11
+    thread: vietnam
+    c: 'Clifford''s assessment of the war given Rusk, McNamara and McGeorge Bundy over the weeks after his talk at the Ranch, by Clifford''s account: the defeat of 1965 prevented, the North''s counterescalation not cut off.'
+    n: '[[w.clifford-counsel-to-the-president-2]], 433. See [[cal.1965-11-11.vietnam]]. Names: Clifford, Rusk, McNamara, McGeorge Bundy. Check: the days.'
+    src:
+      c: '48559028'
+      rows:
+        - 'w.clifford-counsel-to-the-president-2 433: all'
+    tags: [name:clifford-clark, name:rusk-dean, name:mcnamara-robert-s, name:bundy-mcgeorge]
+  - id: cal.1965-11.republican-party-2
+    when: Nov.
+    date: 1965-11
+    thread: republican-party
+    also: [elections-1965]
+    c: 'The Ripon Society, "A Second Mandate to Republicans," on the 1965 elections: Lindsay''s and Specter''s wins; Scranton on Specter''s, "a miracle of hard work," "the old adage that Republicans cannot win in cities is now out the window." The conservatives who attacked moderates for not backing Goldwater now, against Holton, "spoilers and self-servers."'
+    n: '[[w.kabaservice-rule-and-ruin]], 157, 159. Check the day. To check: Ripon Society, "A Second Mandate to Republicans: A Ripon Society Report and Analysis of the 1965 Elections," November 1965, Ripon Society Papers, Cornell University, 3:187 (cited by [[w.kabaservice-rule-and-ruin]], 157 n.153, 159 n.159). See [[cal.1965-11-02.mayors-philadelphia]]. Names: Lindsay, Specter, Scranton, Holton, Goldwater.'
+    src:
+      c: 11f3f87e
+      rows:
+        - 'w.kabaservice-rule-and-ruin 157: A-B'
+        - 'w.kabaservice-rule-and-ruin 159: C'
+        - 'via w.kabaservice-rule-and-ruin 157 n.153: A-B'
+        - 'via w.kabaservice-rule-and-ruin 159 n.159: C'
+    tags: [name:lindsay-john-v, name:specter-arlen, name:scranton-william-w, name:holton-linwood, name:goldwater-barry-m]
+  - id: cal.1965-11.vietnam-force-levels
+    when: Nov., late
+    date: 1965-11
+    thread: vietnam-force-levels
+    c: Westmoreland, after the 1st Cavalry battalion's critique of the Ia Drang, Moore holding up an M-16, asks McNamara as a matter of urgency to equip all American forces with the M-16, then the South Vietnamese. Not until 1967 enough for all the Americans.
+    n: '[[w.westmoreland-soldier-reports]], 158. Check: the day. See [[cal.1965-11-14.vietnam]]. Names: Westmoreland, McNamara.'
+    src:
+      c: 4e61ea44
+      rows:
+        - 'w.westmoreland-soldier-reports 158: all'
+    tags: [name:westmoreland-william, name:mcnamara-robert-s]

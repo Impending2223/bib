@@ -348,3 +348,199 @@ adds them (`entry id | card, page (parenthetical) | units`).
 | `cal.1968-11-03.elections-1968` (H edit) | w.solberg-hubert-humphrey, 399–400 (the Astrodome; Johnson's word, quoted) | A |
 | `cal.1968-11-04.elections-1968-2` (H add) | w.solberg-hubert-humphrey, 402 (the Los Angeles parade; the telethon with Muskie) | all |
 | `cal.1968-11-05.elections-1968` (H edit) | w.solberg-hubert-humphrey, 403–07 (Check: Solberg gives 31,785,480 to 31,270,533) | A-B |
+
+## Resumed, Nov. 3–4, 2026 (b3-solberg-2)
+
+Read again from the owner's copy (the same Drive file, downloaded into the scratchpad and deleted after; printed page =
+PDF page − 4 holds; checked on the page images of pp. 292, 295 and 386). The notes (pp. 496–526) were read in two
+ways: in the text layer, two columns side by side, and, for the study citations, by the words' boxes (`pdftotext
+-bbox`), the columns split at the page's middle. Patch: `inbox/2026-11-03-b3-solberg-2.yaml` (36 ops: 36 entries
+added), new ids claimed in `inbox/new-entries.tsv`. Witnesses: 45 new rows in
+`inbox/witnesses/2026-11-03-b3-solberg-2.yaml` (the records the notes give for the new entries' passages, and eight
+studies and memoirs without cards: Ernst, Alexander's *Studies in Money and Politics*, Polsby's *Citizens Choice*,
+Koskoff, Graff's *Tuesday Cabinet*, Stewart's "Independence and Control"); 125 new edges in
+`sources/witnesses/by-work/solberg-hubert-humphrey.yaml`: the new entries' witnesses (via rows in their maps), and
+the studies, memoirs and collections the notes cite for pp. 204–297 and 386 (Eisele, Humphrey's *Education*, White's
+*Making of the President* 1960 and 1964, Evans and Novak, Martin's *Adlai Stevenson and the World*, O'Donnell and
+Powers, Sorensen, Parmet, Schlesinger, Johnson's *Vantage Point*, Ball, the *Pentagon Papers*, L. Berman, O'Brien,
+Valenti), each with the cited work's page as `pin`.
+
+**Not finished: the studies the notes cite for pp. 298–407** (Edgar Berman's *Hubert*, White's *1968*, Chester,
+Christian, Kearns, Hersh, Schandler, Chennault and others) are not yet edges; nor are the Public Papers the notes cite.
+A machine pass over the notes (`studies.py` in the scratchpad, by the boxes) found the citations but could not tie
+them to their pages reliably (the box numbers of the Humphrey Papers break the page markers); the next run should
+read pp. 510–526 by eye, as pp. 497–509 and 523 were.
+
+### New entries led by Solberg (36)
+
+1960: `cal.1960-02-18.elections-1960` (the Herblock memo); `cal.1960-03-30.elections-1960` (Madison: "an independent
+merchant competing against a chain store"); `cal.1960-05-07.elections-1960-2` (the $750 check);
+`cal.1960-10.elections-1960-14` (the Rochester debate with Peterson). 1961: `cal.1961-07-14.berlin-and-vienna`
+(Humphrey's thirty-two pages to Kennedy); `cal.1961-11-09.latin-america` (the Latin American tour, Nov. 9–Dec. 5).
+1963: `cal.1963-07-13.europe-and-the-alliance` (Harpsund, dated by the note's "Participants at Harpsund"; Solberg's
+"prime ministers of Britain" Checked); `cal.1963-12-14.latin-america-2`, `cal.1963-12-16.latin-america` (the memoranda
+on Latin American personnel). 1964: `cal.1964-01.elections-1964-6` (the AP poll of county chairmen);
+`cal.1964-02.labor` (the AFL-CIO Executive Council at Miami); `cal.1964-04-16.civil-rights-bill` (Nelson's count of
+editorials); `cal.1964-07.elections-1964-5` (to William S. White: "kidnapped the Republican party"). 1965:
+`cal.1965-02-04.democratic-party`, `cal.1965-02-05.democratic-party` (the President's Club; Newark, $304,065);
+`cal.1965-03-12.voting-rights-2` ("You're not getting across," with the memoir's 493 n.1). 1966:
+`cal.1966-01-19.civil-rights-organizations`; `cal.1966-02-25.war-opposition` (the Niebuhr dinner);
+`cal.1966-03-05.vietnam`, `cal.1966-03-25.vietnam`, `cal.1966-04-05.vietnam-3` (the Shannon letter, Valenti's reply,
+the first Vietnam lunch); `cal.1966-03.opinion` (Harris, 54 percent); `cal.1966-04.economy` (the Cowles meeting);
+`cal.1966-04-01.press-and-broadcasting` (*Time*'s cover); `cal.1966-04-19.vietnam-2` (CBS, Sevareid: settles the
+memoir's undated *Meet the Press*); `cal.1966-04-29.press-and-broadcasting` (Reston, "Alas, Poor Hubert");
+`cal.1966-07-19.jobs-and-wages` (880,000 summer jobs). 1967: `cal.1967-03.war-opposition` (the National Book Award
+walkout); `cal.1967-06.korea` (Park's inauguration; Park and Satō); `cal.1967-07.civil-disorders-newark` (the letter
+to Johnson on Hughes); `cal.1967-08.civil-disorders-3`, `cal.1967-08.mayors` (Johnson's rebuke; the hundred mayors).
+1968: `cal.1968-10-01.elections-1968-4` (Nashville and Knoxville); `cal.1968-10.elections-1968-4` (the ADA board,
+73–13); `cal.1968-10-04.elections-1968` (with Johnson, 7 to 9:55 p.m., the note's Daily Diary); `cal.1968-10.labor`
+(COPE's drive, its figures).
+
+### Passed over, ruled again (the Oct. 29 rows, in their order)
+
+"Month only" marks a row R15 now makes an entry, dated to the month the text gives, not entered this run for want of
+time: the next reader enters it.
+
+| Page | Event | Ruling now |
+|---|---|---|
+| 204–05 | Kennedy refuses a debate; Robert Kennedy on Hoffa money | the Hoffa word entered (`cal.1960-03.elections-1960-6`); the refusal: month only (Mar. 1960) |
+| 206 | Heaney's six-district plan; Roper's poll | month only (Mar. 1960), two entries |
+| 208 | Schlesinger's suggestion; Kenosha | already in |
+| 209 | Morgantown's ten points; Roosevelt Jr.; the debate | the debate already in; Morgantown: the note's speech of May 5, 1960, to enter; Roosevelt's charge: the note's *Washington Post*, Apr. 27, 1960, to enter |
+| 210 | slating money; Humphrey's $23,000 | the slating entered (`cal.1960-04.elections-1960-5`, `-7`); the $23,000: a figure for those entries' next reader |
+| 211 | the $750 check | entered, `cal.1960-05-07.elections-1960-2` |
+| 213 | Rowe and O'Connor bring Humphrey and Johnson together | already in |
+| 213 | the Rochester debate | entered, `cal.1960-10.elections-1960-14` |
+| 214–15 | Kennedy's appointments; Johnson's call | already in |
+| 216 | the dozen doubtful senators; the area development compromise | lead: no month |
+| 217 | the memorandum after the Bay of Pigs; the Latin American trip | entered (`cal.1961-07-14.berlin-and-vienna`: the memorandum is of the Berlin trip, July 14, 1961, by the note; `cal.1961-11-09.latin-america`) |
+| 219–21 | Harpsund | entered, `cal.1963-07-13.europe-and-the-alliance` |
+| 221 | Kennedy's rebukes at the breakfasts | lead: no month (the note: two memoranda of breakfasts, Jan. 14, 1963) |
+| 228–34 | Gates, Lord, Andreas; the Bonn trip; the blind trust | private, but for the trip: the note's memorandum "Trip to Germany," Oct. 24–27, 1963, a lead (the text does not treat it) |
+| 235 | son Robert's surgery; his wedding | private |
+| 239 | the eighteen-page recital, Nov. 23, 1963 | a witness, not an event |
+| 242 | the memoranda to Johnson; Byrd and the tax bill | entered (`cal.1963-12-14.latin-america-2`, `cal.1963-12-16.latin-america`; Byrd, `cal.1963-12.economy`, from the memoir) |
+| 243 | the count of editorials, Apr. 1964 | entered, `cal.1964-04-16.civil-rights-bill` |
+| 243–44 | McNamara floated; the cabinet device | already in |
+| 245 | "You can rely on me" | entered from the memoir, `cal.1964-08.elections-1964-3` (and the porch, `cal.1964-07.elections-1964-6`) |
+| 257 | to William S. White | entered, `cal.1964-07.elections-1964-5` |
+| 261 | Chattanooga; Moultrie and Tifton; the ADA vice chairmanship | month only (Sept. 1964), to enter |
+| 262 | Princeton, Notre Dame, Kansas; Erie; New York with Robert Kennedy | month only (Sept.–Oct. 1964), to enter |
+| 263 | election night | already in |
+| 264 | Gates holds the Bible | already in |
+| 265–66 | Muriel Humphrey's question on Churchill's funeral | private |
+| 270 | Rusk to Hughes; the Cabinet of Jan. 22, 1965 | the Cabinet of Jan. 22 (Humphrey's note for the record): to enter; Rusk to Hughes a lead (no month) |
+| 270 | Pleiku, the NSC | already in |
+| 271 | "keep a good file on Vietnam" | private remarks (to his aide) |
+| 274 | "We do not need all these memos" | lead: Valenti's notes of May 16, 1965 in the note, to read |
+| 275 | the Paris air show | already in |
+| 276 | "You're not getting across" | entered, `cal.1965-03-12.voting-rights-2` |
+| 276–77 | Watts; the August dinner; Lehrer; Califano | Watts already in; the rest leads (no day) |
+| 278 | the housing committee's recommendation | to enter: the note's Humphrey to Johnson, June 3 and 9, 1965 |
+| 279 | the minimum-wage slip; the staff; the speeches cleared | lead: no month |
+| 279 | Pacem in Terris | already in |
+| 279 | the first President's Club dinner | entered, `cal.1965-02-04.democratic-party`, `cal.1965-02-05.democratic-party` |
+| 280 | the *Fortune* interview; the NAM, the Chamber, the Union League | the interview: *Fortune*, Aug. 1965, to enter (month only) |
+| 282 | "a roomful of senators," July 28, 1965 | private remarks (a note of praise) |
+| 282 | the birthday note, Aug. 27, 1965 | private |
+| 283 | Souvanna: bomb the dikes | already in |
+| 284 | no press secretary | lead: Dec. 1965, the day |
+| 285–86 | New Delhi, Kosygin | already in |
+| 286 | Sunday dinners; "keep your bags packed" | private |
+| 287 | the call from Hawaii; Los Angeles | already in |
+| 289 | Canberra | already in |
+| 291 | Valenti's memorandum, Mar. 4, 1966 | to enter: a staff paper (R8), dated by the note |
+| 291 | the Berlin remark; the AFL-CIO; Minneapolis | month only (Mar. 1966), to enter |
+| 292 | Sevareid; Morgan; McGovern; the Shannon letter | entered (Sevareid `cal.1966-04-19.vietnam-2`; Shannon `cal.1966-03-05.vietnam`, Valenti `cal.1966-03-25.vietnam`); Morgan's ABC interview: Connell's notes of Mar. 9, 1966, to enter; McGovern in the cloakroom a lead (no month) |
+| 293 | the letters to Wechsler and the others; the writers' press conference | the letters: Humphrey to Wechsler, Apr. 5, 1966, to enter; the writers' press conference a lead (*Esquire*, Nov. 1966) |
+| 293 | the Niebuhr dinner (not listed Oct. 29) | entered, `cal.1966-02-25.war-opposition` |
+| 294 | the Harris poll | entered, `cal.1966-03.opinion` |
+| 294 | Daley's deputation | lead: "early in 1966" |
+| 294 | the civil rights leaders (not listed Oct. 29) | entered, `cal.1966-01-19.civil-rights-organizations` |
+| 295 | the Cowles meeting; Reston | entered, `cal.1966-04.economy`, `cal.1966-04-29.press-and-broadcasting`; *Time*'s cover `cal.1966-04-01.press-and-broadcasting` |
+| 296 | the memorandum for the files, July 2, 1966 | a witness (his account of the month), not an event |
+| 296 | Luci Johnson's wedding | private |
+| 296–97 | the oil-storage strikes | already in |
+| 297 | 880,000 summer jobs | entered, `cal.1966-07-19.jobs-and-wages` |
+| 297 | the Republican National Committee on crime | already in |
+| 298 | Douglas's rally; the plowing contest | month only (fall 1966), to enter |
+| 299 | Nixon's letter, Oct. 17, 1966 | private (a letter of sympathy) |
+| 299 | Johnson's second operation; the postal pay | the operation already in (`cal.1966-11-03.succession`, announced); the postal pay a lead |
+| 301–02 | Rock Creek Park with Hughes; Johnson at the apartment | private remarks |
+| 303 | the State of the Union kept from him | private remarks |
+| 304 | the National Book Awards | entered, `cal.1967-03.war-opposition` |
+| 304 | Guam | already in |
+| 306 | North Carolina | lead: no month |
+| 308 | the bladder examination | private |
+| 308 | Park's inauguration | entered, `cal.1967-06.korea` (the memoir's talk with the Prime Minister, `cal.1967-07.korea`) |
+| 309 | the letter on Newark | entered, `cal.1967-07.civil-disorders-newark` |
+| 310 | the rebuke; the hundred mayors | entered, `cal.1967-08.civil-disorders-3`, `cal.1967-08.mayors` |
+| 310 | Komer's "one optimist to another" | a staff letter (R8), Oct. 27, 1967: to enter |
+| 312 | "Our military progress is clear" | already in |
+| 313 | the blackout departure; Spellman's funeral; Nixon's call | Spellman's funeral (Dec. 1967): lead, the day (not in the calendar); the departure and the call private remarks |
+| 318 | Johnson to Valenti; the draft resignation letter | a draft not sent; private remarks |
+| 319 | Rowe's "something startling and dramatic" | lead (from Schandler) |
+| 320 | Ne Win | already in |
+| 321–23 | Mar. 31, 1968 | already in |
+| 325 | Apr. 1–2, 1968 | already in |
+| 326 | Apr. 4, 1968 | already in |
+| 327 | O'Donnell's proposal | already in |
+| 329 | Humphrey's notes of his calls, Apr. 4–10, 1968 | to enter: the calls Truman, Murphy, Connally, Arvey, Farley, Yorty, by the note's dates |
+| 330 | Louisiana and North Carolina; "I'm old hat" | month only (Apr. 1968), to enter |
+| 332 | dinner at the White House, Apr. 26, 1968 | social |
+| 336 | Mondale: "Out of the room!" | lead: no month |
+| 337 | Maryland's unit rule; Delaware's delegates | lead: no month |
+| 341 | Colorado; the funeral | already in |
+| 342–43 | "He clothed me with nothing"; Watts, Los Angeles, San Francisco, Detroit | private remarks; the stops month only (June–July 1968), to enter |
+| 344 | the young lawyers' Sunday meeting; O'Brien coordinator | lead: no day |
+| 345 | Rowan's column, June 18, 1968 | to enter (R13: a syndicated columnist's column) |
+| 347 | the Waldorf: a statement in ten days | lead: the day (the *Times* of July 24) |
+| 349–50 | the Ranch, draft eleven | already in |
+| 350 | "What would you think if the President should nominate me?" | private remarks |
+| 351 | O'Brien's calls to Edward Kennedy; Van Dyk's channel to Rockefeller | lead: no day |
+| 352–54 | the plank | already in |
+| 357–58 | the arrival; the Illinois caucus | already in |
+| 360 | the California caucus | already in |
+| 361 | McClosky's draft speech of resignation | a draft not sent |
+| 363–66 | the nomination | already in |
+| 366–70 | the running mate; the acceptance | already in |
+| 370 | "government in exile"; the Mudd interview | already in; the Mudd interview a lead (the day) |
+| 372 | "overreacted" | already in |
+| 373 | Napolitan's plan; O'Brien chairman | already in |
+| 374 | the NSC of Sept. 4; the auto across the country | the NSC meeting: to check in FRUS (a lead); the remark private |
+| 375 | Short's $2 million | already in |
+| 376 | Houston | already in |
+| 377 | Ball: the talks "sterile" | already in |
+| 378 | Boston with Edward Kennedy; Flint | month only (Sept. 1968; the note's dates), to enter |
+| 379 | the white papers; *Life*; the $100,000 | already in |
+| 380–85 | Portland, Seattle, Salt Lake City | already in |
+| 386 | Nashville, Knoxville; the ADA, 73–13 | entered, `cal.1968-10-01.elections-1968-4`, `cal.1968-10.elections-1968-4` |
+| 386 | Humphrey with Johnson, Oct. 4 | entered, `cal.1968-10-04.elections-1968` |
+| 388–89 | COPE's drive | entered, `cal.1968-10.labor` |
+| 390–93 | the Paris talks | already in |
+| 394–95 | Chennault | already in |
+| 395 | the conference call | already in |
+| 398 | Chicago, the torchlight parade | already in (`cal.1968-11-02.elections-1968-3`, the Chicago stop) |
+| 401 | "our friend in New Mexico" | already in |
+| 402 | Los Angeles; the telethon | already in |
+| 403–07 | election day; the concession | already in |
+
+## The press
+
+| Date | Outlet | Item | Page |
+|---|---|---|---|
+| 1966-03-12 | *New Republic* | Humphrey "a kind of export ADA" | 292 |
+| 1966-03-01 | *New York Post* (Wechsler) | "His righteous rhetoric is almost reminiscent of Richard Nixon" | 293 |
+| 1966-04-01 | *Time* cover | Humphrey; "a White House Uriah Heep" | 295 |
+| 1966-04-29 | *New York Times* (Reston) | "Alas, Poor Hubert" | 295 |
+| 1966-07-29? | *New York Post* (McGrory) | "The Vice President is not a proud man" | 295 |
+
+## Leads (to notes/leads.md, National)
+
+- Humphrey's "Trip to Germany," Oct. 24–27, 1963 (Solberg's note to 232, Humphrey Papers, Box 709): the trip.
+- The Cabinet of Jan. 22, 1965, Humphrey's note for the record (WHM u/p, Box 48): the meeting and Rusk's word.
+- Valenti's notes of the President's meeting on Vietnam, May 16, 1965 (Office files of the President, LBJ Library).
+- McGrory's column on "Lyndon Johnson's Eleanor Roosevelt" (the *New York Post*, July 1966) and the remark's day (the
+  *Times*, July 26 and 29, 1966).
+- The writers' press conference against Humphrey, 1966 (*Esquire*, Nov. 1966, 106).
+- The rows above marked "to enter" and "month only": 23 events the next run should enter.

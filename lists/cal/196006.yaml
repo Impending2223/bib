@@ -10,6 +10,31 @@ entries:
     c: The Federal Reserve eases. The discount rate cut from 4 to 3½ percent at Philadelphia and San Francisco, Martin's Board approving. In effect June 3; New York and eight others June 10.
     n: '[*Federal Reserve Bulletin*, July 1960, 756](https://fraser.stlouisfed.org/files/docs/publications/FRB/1960s/frb_071960.pdf#page=32) (the rates in effect, by Bank). To check: [[w.meltzer-history-of-the-federal]]; [[w.bremner-chairman-of-the-fed]]; [[w.friedman-monetary-history-of-the]]. Names: Martin.'
     tags: [name:martin-william-mcchesney-jr]
+  - id: cal.1960-06-02.defense
+    when: June 2
+    date: '1960-06-02'
+    thread: defense
+    also: [soviet-union-u2]
+    c: 'Goodpaster with Eisenhower on the A-12, the U-2''s successor: not to be pushed as a top priority; his advisers might conclude "it would be best to get out of it if we could." The program goes on.'
+    n: '[[w.bissell-reflections-of-a-cold]], 131 (Goodpaster''s memorandum quoted). To check: Goodpaster, memorandum for the record, June 2, 1960, Intelligence Matters (15), Box 15, Office of the Staff Secretary, Eisenhower Library (cited by [[w.bissell-reflections-of-a-cold]], 131 n.47). See [[cal.1960-05-01.soviet-union]]. Names: Goodpaster, Eisenhower. Check: the day of the talk: Bissell, "a month after Powers was shot down."'
+    src:
+      c: 7c4b1595
+      rows:
+        - 'w.bissell-reflections-of-a-cold 131: all'
+        - 'via w.bissell-reflections-of-a-cold 131 n.47a: A-B'
+    tags: [name:goodpaster-andrew-j, name:eisenhower-dwight-d]
+  - id: cal.1960-06-02.elections-1960
+    when: June 2
+    date: '1960-06-02'
+    thread: elections-1960
+    c: 'Williams, governor of Michigan, for Kennedy, after Kennedy''s visit to his summer home on Mackinac Island, Mich.: 42 more of the State''s 51 votes. Before it, Sorensen with Williams and the State''s Democratic leaders, at the State convention in May; a questionnaire in forty-one parts for Kennedy to answer in writing.'
+    n: '[[w.sorensen-kennedy]], 148–49; [[w.white-making-of-the-president]], 138–39 (Kennedy from San Francisco, June 1, and the Textile Workers'' endorsement in Chicago the morning of June 2; Mackinac Island; Williams''s announcement on the ferry). Names: Williams, Kennedy, Sorensen. Check: the day of the Michigan convention.'
+    src:
+      c: b0f2953c
+      rows:
+        - 'w.sorensen-kennedy 148–49: all'
+        - 'w.white-making-of-the-president 138–39: all'
+    tags: [name:williams-g-mennen, name:kennedy-john-f, name:sorensen-theodore-c]
   - id: cal.1960-06-06.governors-ia
     when: June 6
     date: '1960-06-06'
@@ -59,7 +84,7 @@ entries:
     date: '1960-06-08'
     thread: elections-1960
     c: 'Rockefeller, in a statement: those taking control of the Republican Party have not made clear where it is heading. A program of his own, defense first; Nixon asked to state his. Emmet Hughes its author.'
-    n: '[[w.young-two-suns-of-the]], 27 (defense; Nixon asked to state his views; Young gives no day). [[w.kallina-kennedy-v-nixon]], 88 (a June statement, his candidacy renewed). [[w.gifford-center-cannot-hold]], 46–48. Check the wording against the text (*New York Times*, June 9, 1960). To check: [[w.smith-on-his-own-terms]]; [[w.persico-imperial-rockefeller]]; [[w.kabaservice-rule-and-ruin]]; [[w.gellman-president-and-the-apprentice]]; [[w.white-making-of-the-president]]; Washington Post, Apr. 8, 1960; Washington Post, May 26, 1960; New York Times, May 26, 1960; Ann Whitman to Eisenhower, June 9, 1960, Eisenhower Library; memorandum of conversation, Eisenhower and Rockefeller, June 11, 1960, Eisenhower Library (cited by [[w.kallina-kennedy-v-nixon]], 88 n.20); New York Herald Tribune, June 9, 1960 (cited by [[w.gifford-center-cannot-hold]], 46 n.67); Emmet Hughes to Rockefeller, May 31, 1960, Rockefeller Papers, RG 4, Series G, Subseries 3, Box 26, Folder 308, Rockefeller Archive Center (cited by [[w.gifford-center-cannot-hold]], 48 n.70). Names: Rockefeller, Nixon, Emmet Hughes.'
+    n: '[[w.young-two-suns-of-the]], 27 (defense; Nixon asked to state his views; Young gives no day); [[w.white-making-of-the-president]], 183–84 (the statement, quoted; a nine-point program; Hinman''s warning that it would cost him the nomination). [[w.kallina-kennedy-v-nixon]], 88 (a June statement, his candidacy renewed). [[w.gifford-center-cannot-hold]], 46–48. [[w.kabaservice-rule-and-ruin]], 27 (an early-June statement: an action program for growth, civil rights and defense). Check the wording against the text (*New York Times*, June 9, 1960). To check: [[w.smith-on-his-own-terms]]; [[w.persico-imperial-rockefeller]]; [[w.gellman-president-and-the-apprentice]]. Names: Rockefeller, Nixon, Emmet Hughes.'
     src:
       c: 40640b72
       rows:
@@ -73,6 +98,9 @@ entries:
         - 'w.gifford-center-cannot-hold 46–48: all'
         - 'via w.gifford-center-cannot-hold 46 n.67: A-C'
         - 'via w.gifford-center-cannot-hold 48 n.70: D'
+        - 'w.kabaservice-rule-and-ruin 27: A-B'
+        - 'w.white-making-of-the-president 183–84: A-C'
+        - 'via w.white-making-of-the-president 183 n.text: A, C'
     tags: [name:rockefeller-nelson, name:nixon-richard-m, name:hughes-emmet-john]
   - id: cal.1960-06-08.economy-debt-limit
     when: June 8
@@ -93,26 +121,55 @@ entries:
     thread: elections-1960
     also: [king]
     c: 'New York. King and Randolph announce "massive nonviolent picketing" of both national conventions, the "March on the Conventions Movement for Freedom Now." The Civil Rights Act of 1960 "does not meet the needs of abolishing second-class citizenship." Randolph: "more than 5,000" at each convention.'
-    n: '[[w.garrow-bearing-the-cross]], 138. To check: [[w.branch-parting-the-waters]]; King and Randolph, "Statement," June 9, 1960, A. Philip Randolph Papers, Library of Congress; New York Times, June 10, 1960, 18; New York Herald Tribune, June 10, 1960, 5 (cited by [[w.garrow-bearing-the-cross]], 138 n.9). Names: Martin Luther King, Randolph.'
+    n: '[[w.garrow-bearing-the-cross]], 138. [[w.branch-parting-the-waters]], 313, 316 (the plan to picket the conventions; not the announcement). To check: King and Randolph, "Statement," June 9, 1960, A. Philip Randolph Papers, Library of Congress; New York Times, June 10, 1960, 18; New York Herald Tribune, June 10, 1960, 5 (cited by [[w.garrow-bearing-the-cross]], 138 n.9). Names: Martin Luther King, Randolph.'
     src:
       c: ebcbf0e8
       rows:
         - 'w.garrow-bearing-the-cross 138: all'
         - 'via w.garrow-bearing-the-cross 138 n.9a: B-D'
         - 'via w.garrow-bearing-the-cross 138 n.9b: all'
+        - 'w.branch-parting-the-waters 313: B'
+        - 'w.branch-parting-the-waters 316: B'
     tags: [name:king-martin-luther-jr, name:randolph-a-philip]
   - id: cal.1960-06-09.elections-1960-2
     when: June 9
     date: '1960-06-09'
     thread: elections-1960
     c: 'Nixon on Rockefeller''s statement: "he is free to criticize, since it is motivated by his concern over some administrative policies"; it will not hurt his chances; he has set out his policies "with greater precision and in much more detail than the candidates of either party."'
-    n: '[[w.gifford-center-cannot-hold]], 47–48. To check: New York Herald Tribune, June 10, 1960 (cited by [[w.gifford-center-cannot-hold]], 48 n.69). See [[cal.1960-06-08.elections-1960]]. Names: Nixon, Rockefeller. Check: the day; Gifford''s source is the *Herald Tribune* of June 10.'
+    n: '[[w.gifford-center-cannot-hold]], 47–48. [[w.nixon-six-crises]], 313 (Nixon''s answer to Rockefeller at a press conference at Camden, N.J., June 9; his speeches published the same week as *The Challenges We Face*). To check: New York Herald Tribune, June 10, 1960 (cited by [[w.gifford-center-cannot-hold]], 48 n.69). See [[cal.1960-06-08.elections-1960]]. Names: Nixon, Rockefeller. Check: the words; Gifford''s source is the *Herald Tribune* of June 10. Nixon gives the day, June 9, and the place, Camden (313).'
     src:
       c: 2e9c52df
       rows:
         - 'w.gifford-center-cannot-hold 47–48: all'
         - 'via w.gifford-center-cannot-hold 48 n.69: all'
+        - 'w.nixon-six-crises 313: A'
     tags: [name:nixon-richard-m, name:rockefeller-nelson]
+  - id: cal.1960-06-09.school-aid
+    when: June 9
+    date: '1960-06-09'
+    thread: school-aid
+    also: [republican-party-congress]
+    c: 'The Republican leaders with Eisenhower, by the notes of the meeting: no conference on the school bill unless they are assured beforehand it will report a bill he can sign.'
+    n: '[[w.sundquist-politics-and-policy]], 186–87. To check: Papers of Henry Roemer McPhee Jr., Eisenhower Library (cited by [[w.sundquist-politics-and-policy]], 187 n.104). See [[cal.1960-05-26.school-aid]]. Names: Eisenhower.'
+    src:
+      c: 9cfcb348
+      rows:
+        - 'w.sundquist-politics-and-policy 186–87: all'
+        - 'via w.sundquist-politics-and-policy 187 n.104: all'
+    tags: [name:eisenhower-dwight-d]
+  - id: cal.1960-06-09.elections-1960-3
+    when: June 9
+    date: '1960-06-09'
+    thread: elections-1960
+    c: 'Rauh with Kennedy in a taxi back to the Senate, after a luncheon for McGovern. Kennedy asks him to tell the *New York Post* he is healthy; for second place, "It will be Hubert Humphrey or another Midwestern liberal." Rauh: that relieves his fears about Johnson. Kennedy: "There''s no need for fears." By Rauh''s account, his notes made that day.'
+    n: '[[w.mann-walls-of-jericho]], 268–69; [[w.solberg-hubert-humphrey]], 212 ("It will be Hubert or another midwestern liberal"). To check: Joseph L. Rauh Jr., oral history, LBJ Library (cited by [[w.mann-walls-of-jericho]], 268). Names: Rauh, Kennedy, McGovern, Humphrey, Johnson.'
+    src:
+      c: 5a94fb5d
+      rows:
+        - 'w.mann-walls-of-jericho 268–69: all'
+        - 'via w.mann-walls-of-jericho 268 n.kennedy-invited-rauh-to-share-a-taxi: all'
+        - 'w.solberg-hubert-humphrey 212: ?'
+    tags: [name:rauh-joseph-l-jr, name:kennedy-john-f, name:mcgovern-george, name:humphrey-hubert-h, name:johnson-lyndon-b]
   - id: cal.1960-06-10.japan-and-korea
     when: June 10
     date: '1960-06-10'
@@ -184,11 +241,12 @@ entries:
     thread: elections-1960
     also: [soviet-union]
     c: 'Kennedy in the Senate, "A Time of Decision," after Paris: the real issue not "the ill-considered timing of the U-2" but "the lack of long-range preparation, the lack of policy planning." A program in twelve points: the deterrent, forces for limited war, NATO, aid to the poorer nations with Western Europe and Japan, Latin America, the Middle East, Africa, Berlin, Eastern Europe, China, arms control, a stronger America. Mansfield, Humphrey, Gore, Church, Capehart and Gruening in colloquy.'
-    n: 'Kennedy, "A Time of Decision," [106 Cong. Rec. 12522–29 (1960)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt10/pdf/GPO-CRECB-1960-pt10-1-1.pdf#page=26) (Senate, June 14, 1960) (the speech, 12522–26; the colloquy, 12526–29). To check: [Remarks of Senator John F. Kennedy in the Senate](https://www.jfklibrary.org/archives/other-resources/john-f-kennedy-speeches/united-states-senate-u-2-incident-19600614) (June 14, 1960), JFK Library; [[w.strategy-of-peace]] (the speech reprinted); [[w.preble-john-f-kennedy-and]]; [[w.dallek-unfinished-life]]. Names: Kennedy, Mansfield, Humphrey, Gore, Church, Capehart, Gruening.'
+    n: 'Kennedy, "A Time of Decision," [106 Cong. Rec. 12522–29 (1960)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt10/pdf/GPO-CRECB-1960-pt10-1-1.pdf#page=26) (Senate, June 14, 1960) (the speech, 12522–26; the colloquy, 12526–29). [[w.sorensen-kennedy]], 149–50 (the speech, on foreign policy). To check: [Remarks of Senator John F. Kennedy in the Senate](https://www.jfklibrary.org/archives/other-resources/john-f-kennedy-speeches/united-states-senate-u-2-incident-19600614) (June 14, 1960), JFK Library; [[w.strategy-of-peace]] (the speech reprinted); [[w.preble-john-f-kennedy-and]]; [[w.dallek-unfinished-life]]. Names: Kennedy, Mansfield, Humphrey, Gore, Church, Capehart, Gruening.'
     src:
       c: e159ade8
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt10/pdf/GPO-CRECB-1960-pt10-1-1.pdf#page=26: all'
+        - 'w.sorensen-kennedy 149–50: A'
     tags: [name:kennedy-john-f, name:mansfield-mike, name:humphrey-hubert-h, name:gore-albert-sr, name:church-frank, name:capehart-homer-e, name:gruening-ernest]
   - id: cal.1960-06-14.states-and-cities
     when: June 14–16
@@ -204,6 +262,29 @@ entries:
     c: 'Tokyo. Zengakuren students force their way into the Diet''s grounds; a woman student, Kanba Michiko, killed, some 600 hurt. June 16: Kishi''s cabinet asks that the President''s visit be put off. Eisenhower, in Manila, agrees.'
     n: 'FRUS 1958–60, XVIII, docs. [181](https://history.state.gov/historicaldocuments/frus1958-60v18/d181), [182](https://history.state.gov/historicaldocuments/frus1958-60v18/d182), [183](https://history.state.gov/historicaldocuments/frus1958-60v18/d183), [184](https://history.state.gov/historicaldocuments/frus1958-60v18/d184) (Eisenhower to Kishi). See [[cal.1960-01-19.japan-and-korea]]. Names: Kishi, Eisenhower, Kanba.'
     tags: [name:kishi-nobusuke, name:eisenhower-dwight-d, name:kanba-michiko]
+  - id: cal.1960-06-16.democratic-party
+    when: June 16
+    date: '1960-06-16'
+    thread: democratic-party
+    also: [elections-1960]
+    c: New York. The DeSapio–Prendergast leadership leaves Lehman, once the State's governor, off its delegation to the national convention.
+    n: '[[w.white-making-of-the-president]], 141. Names: DeSapio. Check: the day; White has it the morning of Wagner''s reception for Kennedy.'
+    src:
+      c: 204f0de3
+      rows:
+        - 'w.white-making-of-the-president 141: all'
+    tags: [name:desapio-carmine, state:ny, city:nyc]
+  - id: cal.1960-06-16.elections-1960
+    when: June 16
+    date: '1960-06-16'
+    thread: elections-1960
+    c: 'New York, the lawn of Gracie Mansion. Wagner''s reception for Kennedy: the reform Democrats on one side, the Tammany leaders on the other, in line to shake his hand.'
+    n: '[[w.white-making-of-the-president]], 141. See [[cal.1960-06-16.democratic-party]]. Names: Wagner, Kennedy.'
+    src:
+      c: 113babce
+      rows:
+        - 'w.white-making-of-the-president 141: all'
+    tags: [name:wagner-robert-f-jr, name:kennedy-john-f, state:ny, city:nyc]
   - id: cal.1960-06-18.japan-and-korea-far-east
     when: June 18–19
     date: '1960-06-18'
@@ -259,11 +340,12 @@ entries:
     date: '1960-06-22'
     thread: school-aid
     c: 'Rules, Smith''s committee, refuses 7–5 to send the school bill to conference: the four Republicans and three Southern Democrats. School aid dead for the session.'
-    n: 'Daily Digest, [106 Cong. Rec. D385](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=383) (the rule refused, H.R. 10128; no count). Check: the vote, 7–5. See [[cal.1960-02-04.school-aid]]. Names: Smith.'
+    n: 'Daily Digest, [106 Cong. Rec. D385](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=383) (the rule refused, H.R. 10128; no count). [[w.sundquist-politics-and-policy]], 186 (the vote, 7–5, Reece and Trimble with the opponents). See [[cal.1960-02-04.school-aid]]. Names: Smith.'
     src:
       c: f607517f
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=383: A'
+        - 'w.sundquist-politics-and-policy 186: A'
     tags: [name:smith-howard-w]
   - id: cal.1960-06-22.cuba
     when: June 22
@@ -304,7 +386,7 @@ entries:
     thread: elections-1960
     also: [king]
     c: 'New York. Kennedy and King meet for the first time, on Belafonte''s advice to Kennedy. Kennedy: he has come to understand the moral force of the movement. King leaves more impressed.'
-    n: 'King to Bowles, [June 24, 1960](https://kinginstitute.stanford.edu/king-papers/documents/chester-bowles-1) (King Papers Project; its note for the first meeting): "a very fruitful and rewarding conversation," an hour and a half over the breakfast table. [[w.kallina-kennedy-v-nixon]], 139. [[w.garrow-bearing-the-cross]], 138–39 (the meeting; King''s impression). To check: [[w.branch-parting-the-waters]], 314; [[w.bryant-bystander]], 133; New York Times, June 25, 1960, 13 (cited by [[w.garrow-bearing-the-cross]], 139 n.10). Names: Kennedy, Martin Luther King.'
+    n: 'King to Bowles, [June 24, 1960](https://kinginstitute.stanford.edu/king-papers/documents/chester-bowles-1) (King Papers Project; its note for the first meeting): "a very fruitful and rewarding conversation," an hour and a half over the breakfast table. [[w.kallina-kennedy-v-nixon]], 139. [[w.garrow-bearing-the-cross]], 138–39 (the meeting; King''s impression). [[w.branch-parting-the-waters]], 307, 314 (the meeting; Belafonte''s advice). To check: [[w.bryant-bystander]], 133; New York Times, June 25, 1960, 13 (cited by [[w.garrow-bearing-the-cross]], 139 n.10); New York Times, June 25, 1960, 13 (cited by [[w.branch-parting-the-waters]], 314 n.1). Names: Kennedy, Martin Luther King. Check: Branch, 314, has the breakfast at Joseph Kennedy''s apartment a hurried introduction, Kennedy telling Wofford he had "made some progress," King that Kennedy lacked a "depthed understanding" of civil rights.'
     src:
       c: f5fdc40e
       rows:
@@ -314,6 +396,9 @@ entries:
         - 'via w.garrow-bearing-the-cross 139 n.10a: A, D'
         - 'via w.garrow-bearing-the-cross 139 n.10b: D'
         - 'via w.garrow-bearing-the-cross 139 n.10c: A'
+        - 'w.branch-parting-the-waters 314: A-B'
+        - 'w.branch-parting-the-waters 307: B'
+        - 'via w.branch-parting-the-waters 314 n.1: A-B'
     tags: [name:kennedy-john-f, name:king-martin-luther-jr, city:nyc]
   - id: cal.1960-06-24.latin-america
     when: June 24
@@ -382,8 +467,37 @@ entries:
     thread: states-and-cities
     also: [medicare]
     c: 'Governors'' Conference at Glacier National Park, Mont. Eisenhower''s recorded message, June 27. June 29: a resolution for health insurance for the aged "financed principally through" Social Security, adopted 30–13; Rockefeller and Brown for, Hollings against.'
-    n: 'Remarks Recorded for the Governors Conference at Glacier National Park, Montana, [1960–61 Pub. Papers 526](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=578) (June 27, 1960). [*Proceedings of the Governors'' Conference, 1960*, 156–157](https://www.nga.org/wp-content/uploads/2026/03/1960_Annual_Meeting-compressed.pdf#page=171). To check: [[w.david-with-dignity]]. See [[cal.1960-06-23.medicare]]. Names: Eisenhower, Rockefeller, Brown, Hollings.'
+    n: 'Remarks Recorded for the Governors Conference at Glacier National Park, Montana, [1960–61 Pub. Papers 526](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=578) (June 27, 1960). [*Proceedings of the Governors'' Conference, 1960*, 156–157](https://www.nga.org/wp-content/uploads/2026/03/1960_Annual_Meeting-compressed.pdf#page=171). [[w.sundquist-politics-and-policy]], 305 (the resolution; six of the thirteen Republican governors voting, Rockefeller first, with the Democrats; not the count, which Sundquist gives as 30–11). To check: [[w.david-with-dignity]]. See [[cal.1960-06-23.medicare]]. Names: Eisenhower, Rockefeller, Brown, Hollings.'
+    src:
+      c: 4183508e
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=578: all'
+        - 'https://www.nga.org/wp-content/uploads/2026/03/1960_Annual_Meeting-compressed.pdf#page=171: all'
+        - 'w.sundquist-politics-and-policy 305: C'
     tags: [name:eisenhower-dwight-d, name:rockefeller-nelson, name:brown-edmund-g, name:hollings-ernest-f]
+  - id: cal.1960-06-27.elections-1960
+    when: June 27
+    date: '1960-06-27'
+    thread: elections-1960
+    c: Kennedy to Montana's State convention, the last of the conventions choosing delegates.
+    n: '[[w.white-making-of-the-president]], 142–43. See [[cal.1960-06-16.elections-1960]]. Names: Kennedy. Check: the place.'
+    src:
+      c: 293d7cbc
+      rows:
+        - 'w.white-making-of-the-president 142–43: all'
+    tags: [name:kennedy-john-f, state:mt]
+  - id: cal.1960-06-27.elections-1960-2
+    when: June 27–29
+    date: '1960-06-27'
+    thread: elections-1960
+    also: [republican-party]
+    c: New York. William Brinton of San Francisco, organizer of the Citizens for Rockefeller in California, asks Rockefeller's staff, June 27, for leave to start a national Draft Rockefeller movement; June 28, they let him go ahead, with no formal authority from them. June 29, he has his San Francisco office made its headquarters.
+    n: '[[w.white-making-of-the-president]], 186. See [[cal.1960-06-08.elections-1960]]. Names: Rockefeller.'
+    src:
+      c: 7ae6c476
+      rows:
+        - 'w.white-making-of-the-president 186: all'
+    tags: [name:rockefeller-nelson]
   - id: cal.1960-06-28.specials
     when: June 28
     date: '1960-06-28'
@@ -418,20 +532,38 @@ entries:
     date: '1960-06-29'
     thread: cuba
     c: Cuba seizes Texaco's refinery at Santiago. It would not refine Soviet crude; nor would Esso's or Shell's, on Washington's advice.
-    n: 'FRUS 1958–60, VI, docs. [527](https://history.state.gov/historicaldocuments/frus1958-60v06/d527) (the companies at State, June 7), [532](https://history.state.gov/historicaldocuments/frus1958-60v06/d532) (special NSC meeting, June 22), [536](https://history.state.gov/historicaldocuments/frus1958-60v06/d536) (economic pressures, June 27), [537](https://history.state.gov/historicaldocuments/frus1958-60v06/d537) (Dillon to the President, June 27). Check: the advice, and whose. To check: [[w.paterson-contesting-castro]]; [[w.bonsal-cuba-castro-and-the]]; [[w.rabe-eisenhower-and-latin-america]]; [[w.fursenko-one-hell-of-a]].'
+    n: 'FRUS 1958–60, VI, docs. [527](https://history.state.gov/historicaldocuments/frus1958-60v06/d527) (the companies at State, June 7), [532](https://history.state.gov/historicaldocuments/frus1958-60v06/d532) (special NSC meeting, June 22), [536](https://history.state.gov/historicaldocuments/frus1958-60v06/d536) (economic pressures, June 27), [537](https://history.state.gov/historicaldocuments/frus1958-60v06/d537) (Dillon to the President, June 27). Check: the advice, and whose. [[w.fursenko-one-hell-of-a]], 48 (the companies'' refusal; Anderson''s assurance to them, May 31). To check: [[w.paterson-contesting-castro]]; [[w.bonsal-cuba-castro-and-the]]; [[w.rabe-eisenhower-and-latin-america]]. Check: Fursenko and Naftali have Treasury Secretary Anderson tell the companies, May 31, that Washington would support a refusal (48), citing Rubottom to Herter, June 2, 1960 (FRUS 1958–60, VI, 934–35).'
+    src:
+      c: '71409771'
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v06/d527: all'
+        - 'w.fursenko-one-hell-of-a 48: B-C'
+        - 'via w.fursenko-one-hell-of-a 48 n.48: B-C'
   - id: cal.1960-06-29.congress
     when: June 29
     date: '1960-06-29'
     thread: congress
     also: [elections-1960]
     c: Johnson and Rayburn announce that Congress will recess, not adjourn, before the conventions and return Aug. 8. The bills left pending over the delegates.
-    n: '[106 Cong. Rec. 14871–72](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt11/pdf/GPO-CRECB-1960-pt11-6-1.pdf#page=25) (Johnson in the Senate, June 29: a resolution to recess until Aug. 8 to be offered, the Speaker of the same mind; the bills not to be finished). [[w.caro-passage-of-power]], 94 (the announcement and its purpose; Bolling''s account of Rayburn''s reluctance). Check: the concurrent resolution and its day. See [[cal.1960-01-06.congress]]. Names: Johnson, Rayburn.'
+    n: '[106 Cong. Rec. 14871–72](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt11/pdf/GPO-CRECB-1960-pt11-6-1.pdf#page=25) (Johnson in the Senate, June 29: a resolution to recess until Aug. 8 to be offered, the Speaker of the same mind; the bills not to be finished). [[w.caro-passage-of-power]], 94 (the announcement and its purpose; Bolling''s account of Rayburn''s reluctance). [[w.nixon-six-crises]], 312 (the recess, by Nixon''s account Johnson''s, to hold the Vice President in Washington for tie votes). Check: the concurrent resolution and its day. See [[cal.1960-01-06.congress]]. Names: Johnson, Rayburn.'
     src:
       c: 23b22957
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt11/pdf/GPO-CRECB-1960-pt11-6-1.pdf#page=25: A-B'
         - 'w.caro-passage-of-power 94: all'
+        - 'w.nixon-six-crises 312: A'
     tags: [name:johnson-lyndon-b, name:rayburn-sam]
+  - id: cal.1960-06-29.school-aid
+    when: June 29
+    date: '1960-06-29'
+    thread: school-aid
+    c: 'Clark''s bill for grants to the colleges, drafted by their Washington representatives within a month: the money''s division left to the Commissioner of Education and a national advisory council.'
+    n: '[[w.sundquist-politics-and-policy]], 200–01. See [[cal.1960-05.school-aid]]. Names: Clark.'
+    src:
+      c: 68d1121b
+      rows:
+        - 'w.sundquist-politics-and-policy 200–01: all'
+    tags: [name:clark-joseph-s]
   - id: cal.1960-06-30.congo
     when: June 30
     date: '1960-06-30'
@@ -450,7 +582,12 @@ entries:
     date: '1960-06-30'
     thread: jobs-and-wages
     c: 'House passes a minimum wage bill, H.R. 12677, [341–72](https://voteview.com/rollcall/RH0860163), after taking Kitchin''s narrower substitute, [211–203](https://voteview.com/rollcall/RH0860162): $1.15 an hour for those covered; interstate retail chains brought in at $1, without overtime.'
-    n: 'To check: [[w.sundquist-politics-and-policy]]. Names: Kitchin.'
+    n: 'Names: Kitchin.'
+    src:
+      c: be7d7ba8
+      rows:
+        - 'https://voteview.com/rollcall/RH0860163: A'
+        - 'https://voteview.com/rollcall/RH0860162: A'
     tags: [name:kitchin-alvin-p]
   - id: cal.1960-06-30.jobs-and-wages-2
     when: June 30–July 1
@@ -487,11 +624,12 @@ entries:
     thread: democratic-party
     also: [elections-1960]
     c: 'Early in the month, liberals for Kennedy: a statement endorsing him by Rauh, Galbraith, Commager, Goldberg, Burns, Schlesinger and half a dozen others. Stevenson''s partisans denounce it; Marian Cannon Schlesinger stands by Stevenson.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 203–04. To check: Schlesinger, journal, June 16, 1960 (cited by [[w.schlesinger-robert-kennedy-and-his]], 203 n.55). Check: the day, and the statement''s text. Names: Rauh, Galbraith, Goldberg, Schlesinger, Stevenson, Kennedy.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 203–04. [[w.sorensen-kennedy]], 151 (the liberals'' letter). To check: Schlesinger, journal, June 16, 1960 (cited by [[w.schlesinger-robert-kennedy-and-his]], 203 n.55). Check: the day, and the statement''s text. Names: Rauh, Galbraith, Goldberg, Schlesinger, Stevenson, Kennedy.'
     src:
       c: 3e30a83a
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 203–04: all'
+        - 'w.sorensen-kennedy 151: A'
     tags: [name:rauh-joseph-l-jr, name:galbraith-john-kenneth, name:goldberg-arthur-j, name:schlesinger-arthur-m-jr, name:stevenson-adlai-e, name:kennedy-john-f]
   - id: cal.1960-06.elections-1960
     when: June
@@ -545,3 +683,134 @@ entries:
         - 'via w.gifford-center-cannot-hold 75 n.57a: all'
         - 'via w.gifford-center-cannot-hold 75 n.57b: all'
     tags: [name:rockefeller-nelson, state:ny, city:buffalo]
+  - id: cal.1960-06.congress-powell
+    when: June
+    date: 1960-06
+    thread: congress-powell
+    also: [king, elections-1960]
+    c: 'King at the Baptist World Alliance in Rio de Janeiro. An emissary of Powell''s: unless King calls off the picketing of the Democratic convention, Powell will tell the press King is having a homosexual affair with Rustin. On Randolph''s instruction, Rustin telephones King that Randolph will go ahead, and if King pulls out will say it was at Powell''s request. King flies on to Los Angeles. By Rustin''s account.'
+    n: '[[w.branch-parting-the-waters]], 314–16. Check: the day; Branch dates it only by King''s stay in Rio, after the breakfast of June 23. See [[cal.1960-06-09.elections-1960]]. Names: Martin Luther King, Powell, Rustin, Randolph.'
+    src:
+      c: c14011fc
+      rows:
+        - 'w.branch-parting-the-waters 314–16: all'
+        - 'via w.branch-parting-the-waters 314 n.3a: all'
+        - 'via w.branch-parting-the-waters 314 n.3b: all'
+        - 'via w.branch-parting-the-waters 314 n.4: B'
+    tags: [name:king-martin-luther-jr, name:powell-adam-clayton-jr, name:rustin-bayard, name:randolph-a-philip]
+  - id: cal.1960-06.elections-1960-9
+    when: June
+    date: 1960-06
+    thread: elections-1960
+    c: 'Clifford with Acheson, by Clifford''s account: write Truman on party unity. Acheson''s letters to "the Boss": "Never say any of [the other Democratic candidates] is not qualified to be President"; on Kennedy''s religion, "I don''t think he''s a very good Catholic."'
+    n: '[[w.clifford-counsel-to-the-president-2]], 321. See [[cal.1960-07-01.elections-1960]]. Names: Clifford, Acheson, Truman, Kennedy. Check: the letters'' days.'
+    src:
+      c: 2ecdac40
+      rows:
+        - 'w.clifford-counsel-to-the-president-2 321: all'
+    tags: [name:clifford-clark, name:acheson-dean-g, name:truman-harry-s, name:kennedy-john-f]
+  - id: cal.1960-06.elections-1960-5
+    when: June
+    date: 1960-06
+    thread: elections-1960
+    c: 'Minneapolis, the Nicollet Hotel, early June: the DFL''s Jefferson-Jackson Day dinner. Humphrey flies in with Kennedy on the Caroline; Kennedy speaks some fifteen minutes. Humphrey introduces him to Walter Heller, by Humphrey''s account; Heller''s economic papers to Kennedy through Humphrey the rest of the year.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 222–24. See [[cal.1960-05-10.elections-1960-2]]. Names: Humphrey, Kennedy, Heller, Freeman, Rolvaag. Check the day.'
+    src:
+      c: a1fdb6b8
+      rows:
+        - 'w.humphrey-education-of-a-public-1976 222–24: all'
+    tags: [name:humphrey-hubert-h, name:kennedy-john-f, name:heller-walter-w, name:freeman-orville-l, name:rolvaag-karl-f, state:mn, city:minneapolis]
+  - id: cal.1960-06.elections-1960-7
+    when: June, late
+    date: 1960-06
+    thread: elections-1960
+    c: 'Kennedy in Humphrey''s office, of the second place: "You might be the strongest person I could add," weak as he is with the Jews, labor and the farmers, where Humphrey is strong. Not an offer. Humphrey sends Marvin Rosenberg to ask Eleanor Roosevelt''s advice: he must decide for himself.'
+    n: '[[w.solberg-hubert-humphrey]], 212. To check: Marvin Rosenberg, interview (cited by [[w.solberg-hubert-humphrey]], 212, its note). Names: Kennedy, Humphrey, Eleanor Roosevelt.'
+    src:
+      c: f9d553aa
+      rows:
+        - 'w.solberg-hubert-humphrey 212: all'
+        - 'via w.solberg-hubert-humphrey 212 n.strongest: all'
+    tags: [name:kennedy-john-f, name:humphrey-hubert-h, name:roosevelt-eleanor]
+  - id: cal.1960-06.elections-1960-8
+    when: June, late
+    date: 1960-06
+    thread: elections-1960
+    c: 'Humphrey, in public, of the second place: "I do not want it. I wouldn''t run for it—I did that once. I would not reject it. My candidate is Orville Freeman."'
+    n: '[[w.solberg-hubert-humphrey]], 212–13. To check: the *New York Times*, June 28 and 29, 1960; the *Washington Star*, June 26, 1960 (cited by [[w.solberg-hubert-humphrey]], 212, its note). Names: Humphrey, Freeman.'
+    src:
+      c: 741c1b5e
+      rows:
+        - 'w.solberg-hubert-humphrey 212–13: all'
+        - 'via w.solberg-hubert-humphrey 212 n.do-not-want: all'
+    tags: [name:humphrey-hubert-h, name:freeman-orville-l]
+  - id: cal.1960-06.cuba-bay-of-pigs
+    when: June
+    date: 1960-06
+    thread: cuba-bay-of-pigs
+    c: Safe houses in Miami; paramilitary training in Coral Gables under the cover of a job placement company; training begun in Panama.
+    n: '[[w.jones-bay-of-pigs]], 19–20. To check: the Narrative of the Anti-Castro Cuban Operation Zapata, June 13, 1961, [FRUS 1961–63, X, doc. 231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), and Kirkpatrick''s survey (cited by [[w.jones-bay-of-pigs]], 20 n.25). See [[cal.1960-03-17.cuba]]. Check: the day.'
+    src:
+      c: e50935e1
+      rows:
+        - 'w.jones-bay-of-pigs 19–20: all'
+        - 'via w.jones-bay-of-pigs 20 n.25a: all'
+  - id: cal.1960-06-30.medicare
+    when: June 30
+    date: '1960-06-30'
+    thread: medicare
+    also: [republican-party-congress]
+    c: Saltonstall introduces what he calls the administration bill, Flemming's plan, with fees on a sliding scale, $24 to $204 a year by income. Not introduced in the House.
+    n: '[[w.sundquist-politics-and-policy]], 304 n.48, 305 (the House, 305). See [[cal.1960-05-04.medicare]]. Names: Saltonstall, Flemming.'
+    src:
+      c: 323adb22
+      rows:
+        - 'w.sundquist-politics-and-policy 304 n.48: A'
+        - 'w.sundquist-politics-and-policy 305: B'
+    tags: [name:saltonstall-leverett, name:flemming-arthur-s]
+  - id: cal.1960-06.elections-1960-6
+    when: June
+    date: 1960-06
+    thread: elections-1960
+    also: [democratic-party]
+    c: Early June. James Doyle, who has held the Stevenson volunteers in check from Madison, Wis., is brought to Washington and announces a Draft Stevenson movement. By late June, Draft Stevenson clubs in forty-two States; full-page advertisements in New York's papers, the first drawing $40,000.
+    n: '[[w.white-making-of-the-president]], 123. See [[cal.1960-05.elections-1960]]. Names: Stevenson. Check: the day.'
+    src:
+      c: a4ce2a9f
+      rows:
+        - 'w.white-making-of-the-president 123: all'
+    tags: [name:stevenson-adlai-e]
+  - id: cal.1960-06.democratic-party-2
+    when: June
+    date: 1960-06
+    thread: democratic-party
+    also: [elections-1960]
+    c: The week after June 16. Albany, N.Y. New York's delegation to the national convention, polled, 87 of 114 for Kennedy. Kennedy does not attend.
+    n: '[[w.white-making-of-the-president]], 141. See [[cal.1960-06-16.elections-1960]]. Names: Kennedy. Check: the day.'
+    src:
+      c: 15db8c94
+      rows:
+        - 'w.white-making-of-the-president 141: all'
+    tags: [name:kennedy-john-f, state:ny]
+  - id: cal.1960-06.elections-1960-10
+    when: June
+    date: 1960-06
+    thread: elections-1960
+    c: 'Brown, unsettled after his evening with Monroney and Sharon, telephones Stevenson in New York. Stevenson: not a candidate; he will endorse nobody, deal with nobody, stop nobody.'
+    n: '[[w.white-making-of-the-president]], 125. See [[cal.1960-05.elections-1960]]. Names: Brown, Stevenson, Monroney. Check: the day.'
+    src:
+      c: b5a27792
+      rows:
+        - 'w.white-making-of-the-president 125: all'
+    tags: [name:brown-edmund-g, name:stevenson-adlai-e, name:monroney-almer-s]
+  - id: cal.1960-06.elections-1960-11
+    when: June
+    date: 1960-06
+    thread: elections-1960
+    c: 'Libertyville, Ill., Stevenson''s lawn, some weeks before the Congo''s collapse, to White. The summit''s collapse the end of a "panorama of stupidity"; an Atlantic community; Russian troops to be got out of central Europe; Quemoy and Matsu perhaps relinquished for a renunciation of force and a plebiscite on Formosa. Then a call from New York: Mrs. Roosevelt will ask him to declare himself; he will not.'
+    n: '[[w.white-making-of-the-president]], 119–22 (White''s interview). Names: Stevenson, Eleanor Roosevelt. Check: the day.'
+    src:
+      c: 480aac14
+      rows:
+        - 'w.white-making-of-the-president 119–22: all'
+    tags: [name:stevenson-adlai-e, name:roosevelt-eleanor]

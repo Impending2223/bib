@@ -1,6 +1,7 @@
 """./bib — work on the series without reading all of it. See CLAUDE.md."""
 import argparse
 import hashlib
+import json
 import os
 import re
 import sys
@@ -444,6 +445,19 @@ def cmd_audit_patches(series, a):
     return 0
 
 
+def cmd_stemma(series, a):
+    """Each unit's tree of witnesses, from the note's items to the roots (tools/bib/witnesses.py); --leads the open
+    upstreams."""
+    from . import witnesses
+    if a.leads:
+        for why, wid, what, where in witnesses.leads():
+            print(f"{why:16} {wid}  {what}" + (f"  ({where})" if where else ""))
+        return 0
+    for eid in a.ids:
+        print("\n".join(witnesses.stemma(series, eid, a.unit)))
+    return 0
+
+
 def cmd_claims(series, a):
     """Each calendar entry's units and the sources for each (tools/bib/claims.py): show, stats, remap."""
     from . import claims
@@ -521,7 +535,8 @@ def cmd_conflicts(series, a):
                     print(f"  field {c['field']!r} from {c.get('from')}")
                     for side in ("ours", "theirs", "base"):
                         v = c.get(side)
-                        v = plain(" | ".join(store.as_list(v))) if v is not None else "(none)"
+                        v = plain(" | ".join(x if isinstance(x, str) else json.dumps(x, ensure_ascii=False)
+                                             for x in store.as_list(v))) if v is not None else "(none)"
                         print(f"    {side:6} {v[:300]}")
                 else:
                     print(f"  {c.get('kind')} from {c.get('from')}" + (f": of {', '.join(store.as_list(c.get('of')))}" if c.get("of") else ""))
@@ -864,6 +879,10 @@ def main(argv=None):
     x.add_argument("ids", nargs="*")
     x.add_argument("--inline", action="store_true")
     x.add_argument("--write", action="store_true")
+    x = sub.add_parser("stemma", help="each unit's witnesses to the roots: stemma ID... [--unit B]; --leads")
+    x.add_argument("ids", nargs="*")
+    x.add_argument("--unit")
+    x.add_argument("--leads", action="store_true")
     x = sub.add_parser("reconcile", help="conflicts on a note: two patches' citations joined, shown; --write applies")
     x.add_argument("ids", nargs="*")
     x.add_argument("--write", action="store_true")

@@ -216,12 +216,13 @@ entries:
     thread: robert-kennedy-campaign
     also: [elections-1968, democratic-party]
     c: 'New York, a Sunday lunch at vanden Heuvel''s: Robert Kennedy''s council on 1968, with Edward Kennedy, Sorensen, Goodwin, Dutton, Salinger, Schlesinger. Schlesinger and Goodwin for running; Edward Kennedy and Sorensen for waiting until 1972. Robert Kennedy: Johnson "would die and make Hubert President rather than let me get it"; he supposes he will do nothing; no decision for some weeks. By Schlesinger''s journal.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 832–33. To check: Schlesinger, journal, Dec. 10, 1967 (cited by [[w.schlesinger-robert-kennedy-and-his]], 833 n.46). Names: Robert Kennedy, vanden Heuvel, Edward Kennedy, Sorensen, Goodwin, Dutton, Salinger, Schlesinger, Johnson, Humphrey.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 832–33. [[w.chester-american-melodrama]], 114–15 (the meeting at vanden Heuvel''s; Goodwin and Schlesinger for running, Edward Kennedy and Sorensen against). To check: Schlesinger, journal, Dec. 10, 1967 (cited by [[w.schlesinger-robert-kennedy-and-his]], 833 n.46). Names: Robert Kennedy, vanden Heuvel, Edward Kennedy, Sorensen, Goodwin, Dutton, Salinger, Schlesinger, Johnson, Humphrey.'
     src:
       c: e0b904d6
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 832–33: all'
         - 'via w.schlesinger-robert-kennedy-and-his 833 n.46: all'
+        - 'w.chester-american-melodrama 114–15: A-C'
     tags: [name:kennedy-robert-f, name:vanden-heuvel-william-j, name:kennedy-edward-m, name:sorensen-theodore-c, name:goodwin-richard-n, name:dutton-frederick-g, name:salinger-pierre, name:schlesinger-arthur-m-jr, name:johnson-lyndon-b, name:humphrey-hubert-h, state:ny, city:nyc]
   - id: cal.1967-12-11.draft
     when: Dec. 11
@@ -283,7 +284,13 @@ entries:
     thread: specials
     also: [war-opposition]
     c: 'California 11th, special run-off. McCloskey (R), a lawyer of Portola Valley who ran against the war, takes the seat of Younger (R), who died June 20, over Archibald (D), 66,385 to 44,319, 57.7 percent; Shirley Temple Black, write-in, 4,064, 3.5 percent. The special primary, Nov. 14: McCloskey over Black, 52,882 to 34,521, 34.4 percent; Draper (R) 19,566, 12.7 percent; Archibald 15,069, 9.8 percent; no majority.'
-    n: 'Votes: [Cal. *Statement of Vote*, Nov. 5, 1968, p. 8](https://archive.org/details/californiastate196668cali/page/n185). To check: [[w.kabaservice-rule-and-ruin]]. See [[cal.1967-04-11.specials]]. Names: McCloskey, Younger, Shirley Temple Black.'
+    n: 'Votes: [Cal. *Statement of Vote*, Nov. 5, 1968, p. 8](https://archive.org/details/californiastate196668cali/page/n185). [[w.kabaservice-rule-and-ruin]], 218, 222 (McCloskey against the war; his win over Shirley Temple Black and other hawks). See [[cal.1967-04-11.specials]]. Names: McCloskey, Younger, Shirley Temple Black.'
+    src:
+      c: 7f2cefa2
+      rows:
+        - 'https://archive.org/details/californiastate196668cali/page/n185: all'
+        - 'w.kabaservice-rule-and-ruin 218: B'
+        - 'w.kabaservice-rule-and-ruin 222: B'
     tags: [special:1967-12-12-h-CA-11, name:mccloskey-paul-n-jr, name:younger-jesse-a, name:black-shirley-temple, state:ca]
   - id: cal.1967-12-12.europe-and-the-alliance
     when: Dec. 12–14
@@ -414,6 +421,18 @@ entries:
         - 'w.zelizer-taxing-america 270: all'
         - 'via w.zelizer-taxing-america 270 n.66: all'
     tags: [name:fowler-henry-h, name:mills-wilbur-d, name:byrnes-john-w, name:johnson-lyndon-b]
+  - id: cal.1967-12-14.elections-1968
+    when: Dec. 14
+    date: '1967-12-14'
+    thread: elections-1968
+    also: [democratic-party]
+    c: 'Manchester, N.H., the Sidor Lecture. McCarthy on "The New Civil Rights," to fourteen hundred, no word of entering the primary. After, at a house, some sixty Democrats, two county chairmen and the Mayor of Nashua among them: "here we have the government in exile"; a poll before coming in? "I think it would be very discouraging." To Halberstam, on the way to the airport: still of a mind to stay out of New Hampshire.'
+    n: '[[w.chester-american-melodrama]], 84–85. Names: McCarthy, Halberstam.'
+    src:
+      c: 793bf316
+      rows:
+        - 'w.chester-american-melodrama 84–85: all'
+    tags: [name:mccarthy-eugene-j, name:halberstam-david, state:nh]
   - id: cal.1967-12-15.consumers
     when: Dec. 15
     date: '1967-12-15'
@@ -470,6 +489,18 @@ entries:
         - 'w.palermo-in-his-own-right 85: all'
         - 'via w.palermo-in-his-own-right 85 n.45: all'
     tags: [name:watson-w-marvin, name:johnson-lyndon-b, name:mccarthy-eugene-j, name:kennedy-robert-f]
+  - id: cal.1967-12-15.vietnam
+    when: Dec. 15
+    date: '1967-12-15'
+    thread: vietnam
+    also: [elections-1968]
+    c: 'New York, the Ford Foundation''s top-floor lunchroom: Bundy with Theodore White, for his book on 1968, on Tonkin, the fork in the road, Pleiku, the decision to send troops and the pause. White''s notes that day: "A satisfactory conversation. But just barely so."'
+    n: '[[w.preston-war-council]], 236. To check: Theodore H. White, interview notes, Dec. 15, 1967, White Papers, box 32, Kennedy Library (cited by [[w.preston-war-council]], 236 n.1). Names: Bundy, Theodore White.'
+    src:
+      c: e8ce37e8
+      rows:
+        - 'w.preston-war-council 236: all'
+    tags: [name:bundy-mcgeorge, name:white-theodore-h]
   - id: cal.1967-12-16.trade
     when: Dec. 16
     date: '1967-12-16'
@@ -576,6 +607,18 @@ entries:
     c: 'New York. The National Mobilization Committee''s Administrative Committee, 60 to 70 present, on demonstrating at the Chicago convention: no decision; other groups to be sounded out.'
     n: '[[w.rights-in-conflict-convention-week]], 24 (Rennie Davis''s account).'
     tags: [state:ny, city:nyc]
+  - id: cal.1967-12-18.republican-party
+    when: Dec. 18
+    date: '1967-12-18'
+    thread: republican-party
+    also: [elections-1968]
+    c: 'Houston, the Houston Club. Peter O''Donnell, the Republican State chairman, with fifteen of the party''s leaders and rich men: a grass-roots movement for Reagan starting in East Texas, Birchers among it, to be steered away from extremes and kept under their control. J. R. Butler drafted to head Texans for Reagan.'
+    n: '[[w.chester-american-melodrama]], 442–43. Names: Peter O''Donnell, Reagan.'
+    src:
+      c: 9792fe9c
+      rows:
+        - 'w.chester-american-melodrama 442–43: all'
+    tags: [name:odonnell-peter, name:reagan-ronald, state:tx]
   - id: cal.1967-12-19.vietnam-3
     when: Dec. 19
     date: '1967-12-19'
@@ -588,13 +631,14 @@ entries:
     date: '1967-12-19'
     thread: vietnam
     c: 'Westmoreland to Wheeler: the enemy will attack along the borders to launch major attacks against South Vietnam for "a psychological and political victory"; Dec. 20, his forces near the borders have compelled Hanoi "to undertake an intensified country-wide effort, perhaps a maximum effort, over a relatively short period."'
-    n: 'FRUS 1964–68, V, doc. [443](https://history.state.gov/historicaldocuments/frus1964-68v05/d443). [[w.cosmas-joint-chiefs-of-staff]], 139 (Dec. 20). Made public: FRUS 1964–68, V (2002). To check: [[w.wirtz-tet-offensive]]; [[w.oberdorfer-tet]]. Names: Westmoreland, Wheeler.'
+    n: 'FRUS 1964–68, V, doc. [443](https://history.state.gov/historicaldocuments/frus1964-68v05/d443). [[w.cosmas-joint-chiefs-of-staff]], 139 (Dec. 20). [[w.westmoreland-soldier-reports]], 314 (the cable: the enemy "has already made a crucial decision concerning the conduct of the war"; a "maximum effort on all fronts"). Made public: FRUS 1964–68, V (2002). To check: [[w.wirtz-tet-offensive]]; [[w.oberdorfer-tet]]. Names: Westmoreland, Wheeler. Check: Westmoreland dates the cable Dec. 20 (314).'
     src:
       c: 7ad4810b
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d443: all'
         - 'w.cosmas-joint-chiefs-of-staff 139: B'
         - 'via w.cosmas-joint-chiefs-of-staff 139 n.23: B'
+        - 'w.westmoreland-soldier-reports 314: A-B'
     tags: [name:westmoreland-william, name:wheeler-earle]
   - id: cal.1967-12-19.space
     when: Dec. 19
@@ -617,7 +661,7 @@ entries:
     thread: vietnam
     also: [korea]
     c: 'Johnson to Holt''s memorial service: Honolulu, Dec. 19; Pago Pago; Canberra, Dec. 21; Melbourne, Dec. 22. At Canberra with Thiệu: his government ready to talk with individuals of the NLF, not with the Front as an organization; with Park, McEwen and Holyoake on more allied troops. Dec. 23: Khorat, Thailand; Cam Ranh Bay; Karachi, Ayub Khan; Rome, Saragat, Moro and Fanfani, and the Vatican, Paul VI, with an aide-mémoire: "We would be willing to stop the bombing and proceed promptly to serious and productive discussions." Home Dec. 24.'
-    n: 'The President''s Remarks Upon Arrival in Honolulu at the Beginning of His Round-the-World Trip, [1967 Pub. Papers 1173](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=565) (Dec. 19, 1967); Joint Statement Following Discussions in Canberra With President Thieu of Vietnam, [1967 Pub. Papers 1180](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=572) (Dec. 21, 1967); Statement by the President Following His Meeting at the Vatican With Pope Paul VI, [1967 Pub. Papers 1189](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=581), and Statement by the President Upon His Departure From Italy, [1967 Pub. Papers 1189](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=581) (Dec. 23, 1967). FRUS 1964–68, V, doc. [442](https://history.state.gov/historicaldocuments/frus1964-68v05/d442); XXVII, docs. [34](https://history.state.gov/historicaldocuments/frus1964-68v27/d34), [35](https://history.state.gov/historicaldocuments/frus1964-68v27/d35); XXIX, pt. 1, doc. [140](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d140); XXIX, pt. 1, doc. [139](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d139) (Rostow from Canberra, Dec. 21); XXV, doc. [475](https://history.state.gov/historicaldocuments/frus1964-68v25/d475); XII, docs. [309](https://history.state.gov/historicaldocuments/frus1964-68v12/d309), [310](https://history.state.gov/historicaldocuments/frus1964-68v12/d310). [[w.drea-mcnamara-clifford-and-the-2011]], 494 (Johnson and Park at Canberra, Dec. 21, the light division); [[w.johnson-vantage-point]], 378–80 (Canberra, Thiệu, Karachi, the Vatican); [[w.dallek-flawed-giant]], 500–501 (the trip, Dec. 20–24 by Dallek; Cam Ranh Bay; Thiệu and the NLF; the Pope). Johnson dates his leaving Washington Dec. 19 (378), and names no Italian: "a prearranged rendezvous in the country to meet the leaders of the Italian government" (379). [[w.longley-lbjs-1968]], 1–3 (the trip; Cam Ranh Bay; Karachi; the Pope). To check: [[w.woods-lbj]]. See [[cal.1967-12-17.vietnam-2]]. Names: Holt, Nguyễn Văn Thiệu, Park, McEwen, Holyoake, Ayub Khan, Saragat, Moro, Fanfani, Paul VI, Johnson.'
+    n: 'The President''s Remarks Upon Arrival in Honolulu at the Beginning of His Round-the-World Trip, [1967 Pub. Papers 1173](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=565) (Dec. 19, 1967); Joint Statement Following Discussions in Canberra With President Thieu of Vietnam, [1967 Pub. Papers 1180](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=572) (Dec. 21, 1967); Statement by the President Following His Meeting at the Vatican With Pope Paul VI, [1967 Pub. Papers 1189](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=581), and Statement by the President Upon His Departure From Italy, [1967 Pub. Papers 1189](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=581) (Dec. 23, 1967). FRUS 1964–68, V, doc. [442](https://history.state.gov/historicaldocuments/frus1964-68v05/d442); XXVII, docs. [34](https://history.state.gov/historicaldocuments/frus1964-68v27/d34), [35](https://history.state.gov/historicaldocuments/frus1964-68v27/d35); XXIX, pt. 1, doc. [140](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d140); XXIX, pt. 1, doc. [139](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d139) (Rostow from Canberra, Dec. 21); XXV, doc. [475](https://history.state.gov/historicaldocuments/frus1964-68v25/d475); XII, docs. [309](https://history.state.gov/historicaldocuments/frus1964-68v12/d309), [310](https://history.state.gov/historicaldocuments/frus1964-68v12/d310). [[w.drea-mcnamara-clifford-and-the-2011]], 494 (Johnson and Park at Canberra, Dec. 21, the light division); [[w.johnson-vantage-point]], 378–80 (Canberra, Thiệu, Karachi, the Vatican); [[w.dallek-flawed-giant]], 500–501 (the trip, Dec. 20–24 by Dallek; Cam Ranh Bay; Thiệu and the NLF; the Pope). Johnson dates his leaving Washington Dec. 19 (378), and names no Italian: "a prearranged rendezvous in the country to meet the leaders of the Italian government" (379). [[w.longley-lbjs-1968]], 1–3 (the trip; Cam Ranh Bay; Karachi; the Pope). [[w.mcpherson-political-education]], 322–26 (Melbourne; Korat; Cam Ranh Bay; Karachi; the Pope; the Azores). To check: [[w.woods-lbj]]. See [[cal.1967-12-17.vietnam-2]]. Names: Holt, Nguyễn Văn Thiệu, Park, McEwen, Holyoake, Ayub Khan, Saragat, Moro, Fanfani, Paul VI, Johnson.'
     src:
       c: 51b6255a
       rows:
@@ -637,6 +681,7 @@ entries:
         - 'via w.dallek-flawed-giant 500 n.19b: C'
         - 'via w.dallek-flawed-giant 501 n.21: J'
         - 'w.longley-lbjs-1968 1–3: A-C, H-I, K'
+        - 'w.mcpherson-political-education 322–26: D, G-K'
     tags: [name:johnson-lyndon-b, name:holt-harold-e, name:nguyen-van-thieu, name:park-chung-hee, name:mcewen-john, name:holyoake-keith, name:ayub-khan-mohammad, name:saragat-giuseppe, name:paul-vi, place:cam-ranh-bay, name:moro-aldo, name:fanfani-amintore]
   - id: cal.1967-12-20.opinion
     when: Dec. 20
@@ -730,6 +775,19 @@ entries:
         - 'via w.gavin-gold-dollars-and-power 3 n.4: A'
         - 'via w.gavin-gold-dollars-and-power 4 n.5: B-C'
     tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr]
+  - id: cal.1967-12-23.vietnam
+    when: Dec. 23
+    date: '1967-12-23'
+    thread: vietnam
+    c: 'Cam Ranh Bay, 9:50 a.m., Johnson on his way from Khorat to Rome. To the senior unit commanders: "We are not going to yield. We are not going to shimmy. We are going to wind up with a peace with honor." To the troops, Kỳ, Westmoreland and Bunker there: an Oak Leaf Cluster to Westmoreland''s Distinguished Service Medal; the medal to Abrams, Palmer, Momyer and Cushman among others; the Medal of Freedom to Bunker, Locke and Komer.'
+    n: 'Remarks to Senior Unit Commanders, [1967 Pub. Papers 1183](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=575) (Dec. 23, 1967); Remarks to Service Personnel, [1967 Pub. Papers 1184](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=576) (Dec. 23, 1967). [[w.westmoreland-soldier-reports]], 236 (the stop; the troops). See [[cal.1967-12-19.vietnam]]. Names: Johnson, Nguyễn Cao Kỳ, Westmoreland, Bunker, Abrams, Cushman, Komer.'
+    src:
+      c: 57a25b6b
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=575: A-B'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=576: A, C'
+        - 'w.westmoreland-soldier-reports 236: A, C'
+    tags: [name:johnson-lyndon-b, name:nguyen-cao-ky, name:westmoreland-william, name:bunker-ellsworth, name:abrams-creighton, name:cushman-robert-e-jr, name:komer-robert-w, place:cam-ranh-bay]
   - id: cal.1967-12-25.vietnam
     when: Dec. 25
     date: '1967-12-25'
@@ -796,7 +854,11 @@ entries:
     date: '1967-12-30'
     thread: africa
     c: 'Humphrey leaves for Africa, to Jan. 11: Ivory Coast; Liberia, for Tubman''s inauguration; Ghana; the Congo; Zambia; Ethiopia; Somalia; Kenya; Tunisia. Thurgood Marshall and Marks of the USIA with him.'
-    n: 'FRUS 1964–68, XXIV, doc. [231](https://history.state.gov/historicaldocuments/frus1964-68v24/d231) (his report, Jan. 12, 1968). To check: [[w.solberg-hubert-humphrey]]; [[w.lyons-keeping-africa-off-the]]. Names: Humphrey, Tubman, Marshall, Marks.'
+    n: 'FRUS 1964–68, XXIV, doc. [231](https://history.state.gov/historicaldocuments/frus1964-68v24/d231) (his report, Jan. 12, 1968). To check: [[w.lyons-keeping-africa-off-the]]. Names: Humphrey, Tubman, Marshall, Marks.'
+    src:
+      c: 1ed6e78e
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v24/d231: all'
     tags: [name:humphrey-hubert-h, name:tubman-william-v-s, name:marshall-thurgood, name:marks-leonard-h]
   - id: cal.1967-12-31.vietnam-buttercup
     when: Dec. 31
@@ -826,3 +888,121 @@ entries:
     c: 'The world''s crude oil output in 1967, as the Bureau of Mines first counted it: 35.3 million barrels a day. The United States 8.81, the Soviet Union 5.80, Venezuela 3.54, Iran 2.61, Saudi Arabia 2.60. Libya 1.74; Nigeria 0.32, from 0.42.'
     n: Bureau of Mines, [*Minerals Yearbook 1967*, I–II, Table 60, p. 947](https://archive.org/details/pub_usgov-minerals-yearbook_1967_12/page/n956) (1968). See [[cal.1960-12.oil]].
     tags: [oilworld:1967]
+  - id: cal.1967-12.elections-1968
+    when: Dec.
+    date: 1967-12
+    thread: elections-1968
+    also: [democratic-party]
+    c: 'After the Sidor Lecture. Hoeh and Studds, of McCarthy''s New Hampshire group, a memorandum for Blair Clark, his new campaign manager: "There is nothing to be lost—and a great deal to be gained—by coming into New Hampshire"; McIntyre''s prediction of 3,000 to 5,000 votes for McCarthy; "A victory here ... would have major national repercussions"; a twelve-day schedule; the cost reckoned at $55,000 (it came to a little over $175,000). Clark puts the case to McCarthy on the train to New York, before Christmas.'
+    n: '[[w.chester-american-melodrama]], 85–87. See [[cal.1967-12-14.elections-1968]]. Names: Studds, McIntyre, McCarthy.'
+    src:
+      c: d23994c8
+      rows:
+        - 'w.chester-american-melodrama 85–87: all'
+    tags: [name:studds-gerry-e, name:mcintyre-thomas-j, name:mccarthy-eugene-j, state:nh]
+  - id: cal.1967-12-31.war-opposition
+    when: Dec. 31
+    date: '1967-12-31'
+    thread: war-opposition
+    also: [elections-1968-chicago]
+    c: 'New York, Abbie Hoffman''s New Year''s Eve party in Greenwich Village: the Youth International Party, the Yippies, conceived, and a festival in Chicago for the Democratic convention, Aug. 25.'
+    n: '[[w.chester-american-melodrama]], 513–14 (Hoffman''s account). Names: Hoffman.'
+    src:
+      c: 5c1f5e75
+      rows:
+        - 'w.chester-american-melodrama 513–14: all'
+    tags: [name:hoffman-abbie, city:nyc]
+  - id: cal.1967-12.elections-1968-3
+    when: Dec.
+    date: 1967-12
+    thread: elections-1968
+    c: 'Seymour Hersh, formerly of the Associated Press at the Pentagon, among McCarthy''s first national appointments: his press relations.'
+    n: '[[w.chester-american-melodrama]], 90–91. Names: Hersh, McCarthy. Check: the day.'
+    src:
+      c: 1191e5f7
+      rows:
+        - 'w.chester-american-melodrama 90–91: all'
+    tags: [name:hersh-seymour, name:mccarthy-eugene-j]
+  - id: cal.1967-12.robert-kennedy-campaign
+    when: Dec.
+    date: 1967-12
+    thread: robert-kennedy-campaign
+    c: 'Boston, the first week of the month. O''Donnell, John Kennedy''s appointments secretary, to Pete Hamill: "Bob had better get out and run in sixty-eight or he can forget about seventy-two."'
+    n: '[[w.chester-american-melodrama]], 115. Names: O''Donnell, Robert Kennedy. Check: the day.'
+    src:
+      c: 534543a8
+      rows:
+        - 'w.chester-american-melodrama 115: all'
+    tags: [name:odonnell-kenneth-p, name:kennedy-robert-f]
+  - id: cal.1967-12-31.elections-1968-chicago
+    when: Dec. 31
+    date: '1967-12-31'
+    thread: elections-1968-chicago
+    also: [war-opposition]
+    c: 'The *Chicago Tribune*: Dick Gregory has notified Johnson that unless racial conditions in Chicago improve he will lead demonstrations "which would make it possible for the Democratic party to hold its convention over my dead body."'
+    n: '[[w.chester-american-melodrama]], 516. Names: Gregory, Johnson. Check: the *Tribune* of Dec. 31, 1967.'
+    src:
+      c: b9b0c1b5
+      rows:
+        - 'w.chester-american-melodrama 516: all'
+    tags: [name:gregory-dick, name:johnson-lyndon-b]
+  - id: cal.1967-12.transition-and-staff
+    when: Dec.
+    date: 1967-12
+    thread: transition-and-staff
+    c: 'December, before Christmas. Johnson asks Clifford to look privately into the charges, repeated by Thurmond, that Rostow was denied a clearance under Eisenhower, by Clifford''s account. Clifford, from the files: "Walt W. Rostow is now, and always has been, a loyal, dedicated citizen of this country."'
+    n: '[[w.clifford-counsel-to-the-president-2]], 462. Names: Johnson, Clifford, Thurmond, Rostow.'
+    src:
+      c: 3c6fc3ae
+      rows:
+        - 'w.clifford-counsel-to-the-president-2 462: all'
+    tags: [name:johnson-lyndon-b, name:clifford-clark, name:thurmond-strom, name:rostow-walt-w]
+  - id: cal.1967-12.economy-surcharge
+    when: Dec.
+    date: 1967-12
+    thread: economy-surcharge
+    also: [republican-party-congress, vietnam-congress]
+    c: 'Whalen (R-Ohio), his most noticed speech of the session, against Johnson''s ten percent surtax: it "would weaken further an already slack economy." His *Washington Report*: "the Vietnam war permeated virtually everything that happened in Washington" in 1967; "domestic needs suffered."'
+    n: '[[w.kabaservice-rule-and-ruin]], 217–18. Check the days; the *Dayton Daily News* reports the speech Dec. 4. To check: "Whalen Against Surtax Plan," *Dayton Daily News*, Dec. 4, 1967 (cited by [[w.kabaservice-rule-and-ruin]], 217 n.113); Charles W. Whalen Jr., "Washington Report," December 1967, Whalen Papers, University of Dayton, L205 (cited by [[w.kabaservice-rule-and-ruin]], 218 n.115). Names: Whalen, Johnson.'
+    src:
+      c: e82675e1
+      rows:
+        - 'w.kabaservice-rule-and-ruin 217–18: all'
+        - 'via w.kabaservice-rule-and-ruin 217 n.113: A'
+        - 'via w.kabaservice-rule-and-ruin 218 n.115: B'
+    tags: [name:whalen-charles-w-jr, name:johnson-lyndon-b, state:oh]
+  - id: cal.1967-12.elections-1968-2
+    when: Dec.
+    date: 1967-12
+    thread: elections-1968
+    also: [students]
+    c: 'Reagan at Yale: unshaken by hostile questions; asked quietly by a student for a program on civil rights, beyond Jackie Robinson, Willie Mays and his Negro appointees, he has no answer. By the *Ripon Forum*''s account.'
+    n: '[[w.kabaservice-rule-and-ruin]], 240. Check the days. To check: Michael C. Smith, "Ronald Reagan: Here''s the Rest of Him," *Ripon Forum* 4:6 (June 1968), 13–32 (cited by [[w.kabaservice-rule-and-ruin]], 240 n.74). Names: Reagan.'
+    src:
+      c: 54f68c33
+      rows:
+        - 'w.kabaservice-rule-and-ruin 240: all'
+        - 'via w.kabaservice-rule-and-ruin 240 n.74: all'
+    tags: [name:reagan-ronald, state:ct, city:new-haven]
+  - id: cal.1967-12.vietnam-operations
+    when: Dec.
+    date: 1967-12
+    thread: vietnam-operations
+    c: 'Westmoreland ends Operation FAIRFAX: the 199th Light Infantry Brigade withdrawn from round Saigon, an artillery battalion assigned to the 5th Ranger Group; the capital''s defense left to the South Vietnamese.'
+    n: '[[w.westmoreland-soldier-reports]], 207, 320. Check: the day. Names: Westmoreland.'
+    src:
+      c: 217cf72f
+      rows:
+        - 'w.westmoreland-soldier-reports 207, 320: all'
+    tags: [name:westmoreland-william, place:saigon]
+  - id: cal.1967-12.vietnam-tet
+    when: Dec., late
+    date: 1967-12
+    thread: vietnam-tet
+    c: 'Westmoreland to an interviewer in Saigon: he expects "an intensified campaign during the coming months." The Marines detect another build-up round Khe Sanh; truck traffic on the Ho Chi Minh Trail doubled.'
+    n: '[[w.westmoreland-soldier-reports]], 239. Check: the day. Names: Westmoreland.'
+    src:
+      c: 0a72b1c8
+      rows:
+        - 'w.westmoreland-soldier-reports 239: all'
+    tags: [name:westmoreland-william, place:saigon, ok:diacritics]

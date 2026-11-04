@@ -183,3 +183,133 @@ Washington. "Out of the brief": Peking's or Hanoi's own decision with no trace i
 - Foreign: Zhou's four points to Subandrio, May 28, 1965 (77 Conversations, 88).
 - Foreign: the Chinese government's statement on the Warsaw talks after Nov. 25, 1968 (FRUS XXX, doc. 331 says one was
   coming): its day and text.
+
+## Witnesses re-read, Nov. 3, 2026
+
+The test of R35–R43 (the memo, `notes/extensions/memos/witnesses.md`, §6, step 3). Read again from the owner's copy
+(printed page = PDF page − 15; checked against the page images at 223, 225, 229 and the notes page 354). The cited
+pages' notes were read whole, note by note, and every witness each gives for the passage registered: 35 new rows in
+`inbox/witnesses/2026-11-03-witness-test.yaml` (13 studies and memoirs, Giáp's statement, Whiting's "Vietnamese
+sources", two Warsaw records of 1970; 9 passages of the studies; 5 documents the text quotes or names; 4 on the
+Washington side of Hopson's telegrams), 30 new edges in
+`sources/witnesses/by-work/jian-maos-china-and-the.yaml`; the ten witnesses the Oct. 29 reading registered were found
+there and given no second row. Patch: `inbox/2026-11-03-witness-test.yaml` (witness-test): 31 `src` rows, 19 "To check"
+items, a cite and a Check (77 Conversations, read), variants on four entries. The *Cold War International History
+Project*'s *77 Conversations* (the card's Wilson Center PDF, printed page = PDF page + 2) was read for doc. 6 (Zhou and
+Ayub Khan) and doc. 11 (Subandrio), as the branch behind 217 nn.55, 57.
+
+### Per entry: what `stemma` counts (roots, agents, by unit), and the time
+
+Counted in a scratch copy with the patch merged. "Agents 0" where the rows the conversion made carry no `agent`.
+
+| Entry | Units: roots / agents | New witnesses | Minutes |
+|---|---|---|---|
+| `cal.1960-07.china` | A 3/3 | Xue Mouhong; Cong Jin; Chen's CWIHPB article (82 n.158) | 10 |
+| `cal.1964-11.china` | A–C 2/2 each | Wang Taiping; Jin Chongji (84 n.164) | 8 |
+| `cal.1965-02-11.soviet-union` | A–C 1/1 | Cong Jin (231 n.107) | 5 |
+| `cal.1964-08-02.vietnam` | B 18/7 (A 2, C 11, D 17, E 10, F 6, G 8; other works' rows) | Giáp to McNamara, Dec. 5, 1995 (212 n.33) | 10 |
+| `cal.1964-08-05.china` | A 2/1, B 3/4, C 4/6, D 2/0 | Li Ke and Hao, 408; Qu Aiguo, 40 (213 n.34); Wang Dinglie, 384, and the readiness order it quotes (n.35) | 20 |
+| `cal.1965-04-09.vietnam` | C 5/3, D 3/0 (A–B 0: FRUS by link) | none (Yang Chengwu's report mapped to C too) | 5 |
+| `cal.1965-04-14.south-asia` | A 3/0 (false: below) | none expressible (217 n.56 is McMahon, a card) | 5 |
+| `cal.1965-05-31.vietnam` | A–E 3/0, F 0, G 3/0; four variants on G | 77 Conversations doc. 6 read and cited; telegram 722, Stewart's note, Bundy's memo, FRUS XXX doc. 88 n.4 (registered, not reachable: below) | 35 |
+| `cal.1965-06-04.vietnam` | A 3/0, B–C 1/0 | none reachable | 5 |
+| `cal.1965-06-06.vietnam` | A 3/5, B 2/6, C 3/3 (two variants) | DZJJG, Li Ke and Hao, Wang Xiangen and their passages; the agreements of Apr. 27 and May 30; Whiting and his "Vietnamese sources" (229 n.100, variants) | 30 |
+| `cal.1965-08-01.vietnam` | A 2/5, B 3/3 | DZJJG 1:550, Li Ke and Hao 423, the telegrams of July 24 and 25 (225 n.89); DZJJG, Qu Aiguo, Wang Dinglie (226 n.91) | 15 |
+| `cal.1968-01-08.china` | E 3/2 (A–D 0: FRUS by link) | Luo Yisu (245 n.28; 251 nn.55–56); Stoessel, Jan. 8, 1970; the report of Jan. 20, 1970 | 10 |
+| `cal.1968-11-25.china` | B 2/2 (one variant) | Holdridge (245 n.29) | 8 |
+| `cal.1967-10.elections-1968` | A 2/2 (false: below) | none expressible (245 n.26 is Nixon's article, a card) | 3 |
+| `cal.1968-10-17.china` | A–B 3/0, C 2/0 | none new (234 n.124 registered Oct. 29) | 3 |
+
+Not touched: `cal.1965-04-15.south-asia` (no Chen). About three hours with the reading, half of it the mechanics.
+
+The open branches, all of them: every study and memoir `not held` (Chinese military histories, diplomatic histories,
+Holdridge, Luo Yisu, Whiting); the documents behind them `closed archive` (the Aug. 5, 1964 readiness order; the
+agreements of Apr. 27 and May 30, 1965; the General Staffs' telegrams of July 24–25, 1965), their repositories not
+named; the Warsaw telegrams of 1970 (RG 59, National Archives) `not held`; the "Vietnamese sources" for 20,000 men
+`not found` (Chen names them only through Whiting). Leads for procurement: Li Ke and Hao (withdrawn from circulation,
+Chen 352 n.11), DZJJG, Whiting's chapter (Werner and Hunt, 1993: not the Werner and Luu Doan Huynh volume the catalogue
+holds), FRUS 1969–76, XVII, for the Warsaw telegrams of Jan. 8 and 20, 1970.
+
+Variants recorded: the place Zhou gave Ayub the message (FRUS II, doc. 321: Peking, Apr. 2; FRUS XXX, doc. 88 n.4,
+telegram 720 as summarized: Peking, in March; 77 Conversations, doc. 6: headed Karachi, Apr. 2; Chen: Karachi), and
+three points in the transcript against Chen Yi's four; the Chinese total (Chen 320,000; Whiting 50,000; "Vietnamese
+sources" 20,000); the statement of Aug. 5, 1964 and its print dated 1965; Chen's "the United States proposed" against
+FRUS XXX, doc. 331. A variant on the 77 Conversations pages: Chen cites the collection three pages higher than the
+Wilson Center's PDF prints them (doc. 6 at 79–85 against 76–81; Subandrio at 88 against 85–86; Chen Yi and Lê Đức Thọ
+at 139–40 against 136–37), the same throughout: another printing, or the PDF's own folios. The entries cite the PDF's.
+
+### What the rules missed or made awkward (the test's finding)
+
+1. **`stemma` expands a card's page row into every note on the page.** A row `w.jian-maos-china-and-the 245: A` lists
+   under A every witness any note on p. 245 leads to. So the Nixon quotation of `cal.1967-10.elections-1968` now
+   "rests on" Holdridge and Luo Yisu (245 nn.28–29, which ground `cal.1968-11-25.china` and `cal.1968-01-08.china`);
+   Ayub's postponement (`cal.1965-04-14.south-asia`, 217) on Hopson's telegram and the Zhou–Ayub transcript; the
+   readiness order (`cal.1964-08-05.china` C, 213) on the cable and the Mao–Lê Duẩn transcript. Each new edge a reader
+   adds at a page silently changes the trees of every entry citing that page. The page row should expand only to the
+   notes whose `via` rows the entry carries, or to none.
+2. **A study row is one node for the whole work, and its edges cannot be scoped to a passage.** DZJJG is cited for the
+   railway agreement (1:545), the road agreement (1:548), the July telegrams (1:550), the division (1:540–41) and the
+   antiaircraft totals (1:550–53). A `from` on the study's row put every one of those documents under every claim the
+   study touches (tried first: the engineering troops of June 6 came out resting on the Aug. 5, 1964 cable). Worked
+   round with a row per passage that quotes or reports a document (`x.1989.han-huaizhi-dangdai-zhongguo-jundui-1-545`
+   and eight more), tied to the work by a field the schema lacks (`part_of`), and the cited page put on the by-work edge
+   as another field it lacks (`pin`). The schema wants either a passage node or edges carrying the upstream witness's
+   page and the claim.
+3. **A work's edge to another card cannot be written.** `of:` must name a registry row, and "a work in the catalogue is
+   its card (no row)". Chen cites McMahon, *Cold War on the Periphery* (217 n.56), Nixon's "Asia After Viet Nam" (245
+   n.26), *Argument without End* (212 n.33), Zhai, Smith, Gaiduk, Brigham: none can be an edge. So
+   `cal.1965-04-14.south-asia` and `cal.1967-10.elections-1968` show no upstream for Chen at all, and the Giáp statement
+   had to be a row of its own with the card named only in `where`. Chen's book also revises his own article of 1995
+   (`w.jian-chinas-involvement-in-the`): an `edition` edge between two cards, not expressible.
+4. **The registry's rows cannot be amended by a reader.** New rows go to `inbox/witnesses/`, and a repeated id is an
+   error, so a reader cannot fill `agent`, `made`, `form`, `open` on a converted row (memo §5 says the first pass of
+   each reader fills them), set `read: true`, add a `from`, or fold two rows. Wanted, for the merger:
+   - `x.1965-04-02.transcript-zhou-enlais-conversation-with-ayub`: `read: true`; `copies: [77 Conversations, doc. 6,
+     76–81 (the Wilson Center's PDF, pp. 74–79)]`; `agent: [name:zhou-enlai, name:ayub-khan-mohammad]`; `form:
+     translation`; `open: closed archive` (the Chinese record; 77 Conversations names no repository).
+   - `x.1965-05-31.editorial-note-frus-1964-1968-2`: `from` Stewart's copies of telegrams 720 and 722
+     (`x.1965-06-02.stewart-to-william-bundy-copies-of-720-722`, kind citation) and Bundy's memorandum
+     (`x.1965-06-04.bundy-to-johnson-item-in-cia-daily-brief`, quotation): FRUS's note names them, with the INR
+     assessment of June 5 and William Bundy to Rusk, June 5, not registered. Until then the four rows of the Washington
+     branch are reachable from no entry.
+   - `x.1965-05-31.peking-mr-hopson-to-fo-no`: `agent: [Donald Charles Hopson]`, `open: not held`.
+   - `x.1964-08-13.transcript-mao-zedongs-conversations-with-le` (Chen's, CCA) and
+     `x.1964-08-13.mao-zedongs-conversation-with-le-duan` (Zhai's, by 77 Conversations, 72 n.117) are one record:
+     77 Conversations' note says it adds "information from the same sources as the documents themselves", and Chen is
+     one of its editors; its wording follows Chen's, 213, closely. One root and one agent, now counted as two.
+   - The Oct. 29 rows (`x.1964-08-05.zhou-enlai-and-luo-ruiqing-to`, the statement, Mao's approval, Yang Chengwu's
+     report, Mao's remarks): `agent`, `open: closed archive` (CCA, or not named), `form`.
+5. **A primary record cited by its link is not a node.** FRUS documents, the Wilson Center PDF and the Public Papers
+   stand in the notes as links; the registry reaches witnesses only through a card's edges (check's
+   `reachable`). So nothing upstream of FRUS XXX, doc. 88 (the telegrams it encloses, Stewart's covering note) can be
+   tied to `cal.1965-06-04.vietnam`, though FRUS names them exactly; and the editorial note became a witness only
+   because Chen cites it. R39's "follow the daybook's FRUS" has no data path when the FRUS document is the entry's own
+   primary record.
+6. **No additive op for variants.** `variants` needs an `edit` with a `base`, on entries other readers are adding to.
+   And `./bib conflicts` crashes on a conflict over `variants` (a list of mappings: `store.as_list` joined as strings),
+   met in the scratch merge, where the bases could not be found without the repository's history.
+7. **A disputing citation looks like support.** Chen 229 n.100 cites Whiting for figures against his own text. The
+   by-work edge has only `kind: citation`, so `stemma` (through rule 1) counts Whiting and the "Vietnamese sources" as
+   roots of C, the 320,000. The variant says otherwise, two lines lower. An edge needs a sense (supports, disputes,
+   background), or variants must keep their witnesses out of the roots.
+8. **R35's "To check" for every unread witness collides with R29/R53's "a work with no card: make the card first".** The
+   Chinese studies are registry rows, not cards, and are written in "To check" as text, which `check` tolerates; a
+   reader not allowed to touch `works/` cannot do both. Which governs: a card for every study in "To check", or the row
+   alone?
+9. **A linked pinpoint cannot carry a parenthetical.** `claims.CARD_ITEM` reads the pin as text without "(", so
+   `[[w.77-conversations-between-chinese]], [77–81](…#page=75) (…)` is refused by the `cite` op; written unlinked.
+10. **Several records under one note, lettered after the fact.** The Oct. 29 reader gave 213 n.34 a bare number for the
+    one record it took (the *Beijing Review* text, the note's third item); the two studies now under it are 34b and
+    34c, out of the note's order, because renaming 34 would need an `edit` of the entry's map. Letters should be
+    assigned in the note's order from the start, every item counted, or the edge should carry the item's position.
+11. **The registry's `copies` spell FRUS two ways** ("FRUS 1964–68" and "FRUS 1964-68"), so R35's "a FRUS document by
+    its `copies`" needs both greps. And `stemma` marks any row with `copies` "copy:", though `copies` means a copy the
+    series can read, not that the row is a copy.
+12. **Dating a study.** `x.<date>` for a work of 1989 files it in `1989.yaml` beside the documents of 1989; a serial
+    begun in 1995 with an undated volume (Luo Yisu) goes to `undated.yaml`. Harmless, but the year files will fill with
+    publications; a study is better filed by its publication under its own prefix.
+13. **The commit swept the pending file.** The merger's commit 481e1df took an early state of
+    `inbox/witnesses/2026-11-03-witness-test.yaml` (before a quoting fix; it did not parse) while this run was writing
+    it. The pending files want the same rule as the inbox: the merger commits only what it merged.
+
+Asselin, *Hanoi's Road*: not reread this run (its book-check file, the addendum of the same date).

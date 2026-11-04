@@ -215,3 +215,164 @@ record 1; attendance only 1. Of them, 28 are also leads (`notes/leads.md`).
 ## For entries in pending patches
 
 None (the first book of the group).
+
+## Resumed, Nov. 3–4, 2026 (b3-humphrey-2)
+
+Read again from the owner's copy (the same Drive file, downloaded into the scratchpad and deleted after; the offsets
+above hold; checked on the page images of pp. 361 and 404–05's neighbour 361, and the text of every page cited). The
+Oct. 29 list of Passed over was made under the rules then; under R5, R15, R16 and R18 as they stand ("undated" means
+no month, "below the level" a unit's routine only, private or social trivia only where it bears on nothing public)
+every row was ruled again, below. Patch: `inbox/2026-11-03-b3-humphrey-2.yaml` (33 ops: 29 entries added, 2 cites, 2
+Checks, 1 combine), the memoir leading; the Solberg patch (`b3-solberg-2`) carries the entries Solberg leads, several
+citing this memoir. All new ids claimed in `inbox/new-entries.tsv`.
+
+**The memoir has no source notes** (above): its witnesses are the documents its text prints, registered Oct. 29.
+One edge added to `sources/witnesses/by-work/humphrey-education-of-a-public-1976.yaml`: 216, the quotation of
+O'Brien's *No Final Victories* (card `w.obrien-no-final-victories`) on the slating money.
+
+### New entries led by the memoir (29)
+
+`cal.1964-07.elections-1964-6` (Rowe's porch, 298) and `cal.1964-08.elections-1964-3` (the call: "I will be loyal," 298); `cal.1960-03.elections-1960-4` (Alsop's poll at Wausau, 208); `-5` (the attack on Kennedy's farm votes, 208); `-6`
+(Robert Kennedy's Hoffa story, 208–09, with Solberg 205); `-7` (the anti-Catholic tracts, 209);
+`cal.1960-04.elections-1960-4` (Johnson's people refuse money, 213); `-5` (Waters's $25,000 for slating, 213–15); `-6`
+(the judge before the "Franklin County" banquet, 215); `-7` (the second $2,500 refused, 215–16);
+`cal.1960-10.elections-1960-13` (Thief River Falls, 233); `cal.1961-08.testing` (the pool and the Rose Garden, 251);
+`cal.1963-08.testing` (Gorky Park, NBC's film taken, 253–55); `cal.1963-08-28.march-on-washington-2` (the UCC
+breakfast, the Minnesota delegation, 271–72); `cal.1963-12.economy` (Byrd at the White House, 290–93: the date in
+conflict, Checked); `cal.1964-07.mississippi` (the warning, 299); `cal.1964-11-04.elections-1968` (Johnson at the
+Ranch: he will not run again, 361 n.); `cal.1965-07-14.vietnam` (the advisers' meeting Humphrey is not asked to, 327);
+`cal.1965-07-15.transition-and-staff` (Stevenson's body brought home, 421–22); `cal.1966-02-14.vietnam-humphrey`
+(Bangkok, the meeting with Thanom's cabinet: FRUS XXVII, 308, read); `-2` (Martin's communiqué, Wicker, 332);
+`cal.1966-02-18.vietnam-humphrey-2` (the backgrounder on the flight to Australia, 333); `cal.1967-07.korea` (the
+Korean Prime Minister on the curfew, 334 n.); `cal.1968-01.elections-1968-2` (Rusk's aside, 361 n.);
+`cal.1968-10.elections-1968-5` (Boston, the druggists, 403); `-6` (downstate Illinois, 398);
+`cal.1968-11-02.elections-1968-5` (Suffolk County and the boroughs, 404).
+
+### Cites and corrections
+
+- `cal.1964-03.civil-rights-bill-2` (Mansfield against round-the-clock sessions): 275, unit A. (The draft entry for the
+  same announcement was dropped: the tree holds it.)
+- `cal.1965-03-31.vietnam` ("Memo on South Vietnam"): 319–20 (the late-March NSC meeting and the staff's list of
+  unilateral steps), and a Check: whether the memorandum is that list.
+- `cal.1968-10-19.elections-1968` (Jones: "Cancel the appointment"): 404–05 n.; **combined** with
+  `cal.1968-11-02.elections-1968-4`, which the Oct. 29 reading made from the same passage and dated Nov. 2. The memoir
+  puts the visit "during October," from New York; Solberg (392) and his note (Jim Jones to Johnson, Oct. 19, 1968) the
+  Saturday, Oct. 19. A Check says so. The merge will raise the text conflict on KEEP; take KEEP's `c`.
+
+### Passed over, ruled again (the Oct. 29 rows, in their order)
+
+| Page | Event | Ruling now |
+|---|---|---|
+| 205 | candidacy leaks, fall 1959 | out of the brief (before the span) |
+| 206 | Milwaukee office, 1959 | out of the brief (before the span) |
+| 208 | Alsop's poll at Wausau | entered, `cal.1960-03.elections-1960-4` |
+| 208 | the attack on the farm votes | entered, `cal.1960-03.elections-1960-5` |
+| 208–09 | Hoffa story; the tracts | entered, `cal.1960-03.elections-1960-6`, `-7` |
+| 213 | Johnson's people refuse money | entered, `cal.1960-04.elections-1960-4` |
+| 214–16 | slating: Waters's offer, the payments | entered, `cal.1960-04.elections-1960-5`, `-6`, `-7` |
+| 216–18 | Cushing's account of 1960, told in 1966 | a witness, not an event: Cushing's recollection of the money; lead for the day in Boston, 1966 (the memoir gives the 1966 campaign only) |
+| 220 | the Charleston debate | already in (`cal.1960-05-04.elections-1960`); the memoir gives no detail to cite |
+| 229 | the Peace Corps proposed in the primaries | lead: no month |
+| 233 | Thief River Falls | entered, `cal.1960-10.elections-1960-13` |
+| 234 | Minnesota's returns | already in |
+| 237–38 | Andolsek urged after a breakfast | lead: no month (1961) |
+| 248 | Vienna | already in |
+| 251–52 | the pool, the disarmament agency | entered, `cal.1961-08.testing` |
+| 253 | the test-ban resolution with Dodd | lead: the memoir dates it after an American University speech it puts in "June 1961"; Solberg (218) before the speech of 1963; the Record will date the resolution |
+| 253–55 | Moscow, Gorky Park, NBC's film | entered, `cal.1963-08.testing` |
+| 257–59 | the Chilean embassy luncheon, the news | private: where he heard the news |
+| 261 | Smathers in his office, Nov. 22, 1963 | private remarks |
+| 262–63 | his memorandum for his files | a witness (Solberg's note: "Death of Pres. Kennedy," Nov. 23, 1963), not an event |
+| 263–65 | the rotunda; the funeral | already in |
+| 271–72 | the UCC breakfast; the delegation marches | entered, `cal.1963-08-28.march-on-washington-2` |
+| 273 | Judiciary reports the bill | already in |
+| 275 | Mansfield: no round-the-clock sessions | already in: cited (`cal.1964-03.civil-rights-bill-2`) |
+| 278 | the newsletter; Stennis's question | lead: no month (the Record) |
+| 279 | Katzenbach and Marshall assigned | lead: no month |
+| 282 | Russell's closing speech on the clergy | lead: the day (the Record, June 9 or 10, 1964) |
+| 285 | his son's cancer | private |
+| 289–90 | McNamara floated; the Cabinet ruled out | already in |
+| 290–93 | the Gridiron dinner; Byrd's promise | entered, `cal.1963-12.economy` (the date Checked) |
+| 297 | Hughes lobbies; Mansfield's name dropped | lead: no month |
+| 298 | Rowe's porch; "I will be loyal" | entered, `cal.1964-07.elections-1964-6` (the porch) and `cal.1964-08.elections-1964-3` (the call from the Senate office), with Solberg 243–45 |
+| 299 | the warning on Mississippi | entered, `cal.1964-07.mississippi` |
+| 305 | to the Ranch with Katharine Graham | already in (the Ranch, Aug. 28–29, 1964); Graham's lift onto the plane social |
+| 307–08 | the Ranch's deer and horses | private |
+| 309 | election night | already in |
+| 317 | Lansdale's conduit; Hughes on Rusk | lead: no month |
+| 318–19 | the lunch: alone against bombing | lead: no month (early 1965) |
+| 319 | Feb. 6–7, 1965, the Cabinet Room | not borne out by FRUS's participants; Check stays a lead |
+| 319–20 | late March: the NSC, the list | already in: cited at `cal.1965-03-31.vietnam`, with a Check |
+| 325 | Eugenie Anderson kept from the FSI | lead: no month |
+| 327 | July 14, 1965 | entered, `cal.1965-07-14.vietnam` |
+| 331–32 | Saigon: Thieu reported the strongman; Habib, Thomson, Ellsberg | already in (`cal.1966-02-10.vietnam`, the Saigon days); the talk not dated within them |
+| 332 | Bangkok: the communiqué | entered, `cal.1966-02-14.vietnam-humphrey-2` |
+| 333 | the backgrounder | entered, `cal.1966-02-18.vietnam-humphrey-2` |
+| 334 | the kimchee at a cabinet meeting | lead: no month (1966) |
+| 335–36 | the staff's night meeting in Australia | already in (`cal.1966-02-18.vietnam-humphrey`) |
+| 337–38 | *Meet the Press*: Honolulu and the Atlantic Charter | entered from Solberg's note: CBS, Apr. 19, 1966 (`cal.1966-04-19.vietnam-2`); the memoir's *Meet the Press* Checked |
+| 339 | the tax increase put aside | lead: no month |
+| 342 | birthday gifts | social |
+| 343 | June 16, 17, 20, 22, 1966 | June 17 and 22 already in (NSC); June 16 (a cabinet meeting) and June 20 (the leaders): lead, dated, their matter not given |
+| 344 | Komer to Saigon | already in |
+| 347 | McNaughton and Warnke; the columns | lead: no month |
+| 348 | Karrick's briefing on Air Force Two | a briefing within the trip of Oct. 1967; lead for the day |
+| 349 | the report to Johnson; the New York speech | leads (Solberg: Humphrey to Johnson, Nov. 7, 1967, "Our military progress is clear") |
+| 350 | clear and hold; the A to Z review | lead: no month; the review already in |
+| 357 | the bedroom: the nineteenth parallel | lead: Feb.–Mar. 1968, no month |
+| 359 | Mexico City: the dinner; the treaty | the dinner already in (`cal.1968-03-31.elections-1968-4`); the treaty's signing a lead |
+| 361 | Rusk's aside; Johnson at the Ranch, Nov. 4, 1964 | entered, `cal.1968-01.elections-1968-2`, `cal.1964-11-04.elections-1968` |
+| 363–64 | Robert Kennedy's commission | already in |
+| 372 | Gates on the money | lead: no month |
+| 375 | the State conventions | already in |
+| 376 | McCarthy tells Humphrey he will run | lead: "late 1967," no month |
+| 379 | the Flint plant; labor's polls | labor's drive entered from Solberg (`cal.1968-10.labor`); Flint a lead (no day) |
+| 383–84 | Chicago kept as the site | lead: no month |
+| 384–85 | the Secret Service's reports | lead: no month |
+| 389 | the plank cleared with Connally and McKeithen | already in |
+| 395 | Stanford; Kent State, Pickett | lead: no month |
+| 396 | Philadelphia | already in |
+| 397–98 | the Detroit Economic Club; the ministers | lead: no month |
+| 398–99 | downstate Illinois; Cranston | Illinois entered (`cal.1968-10.elections-1968-6`); Cranston at the airport private remarks |
+| 400 | the oil men at Waverly | lead: no month |
+| 403 | Nashville | entered from Solberg (`cal.1968-10-01.elections-1968-4`), this page cited |
+| 403 | Boston, the druggists | entered, `cal.1968-10.elections-1968-5` |
+| 404 | Long Island and the boroughs | entered, `cal.1968-11-02.elections-1968-5` |
+| 409 | Model Cities: Muskie, Holifield | lead: no month |
+| 412–13 | summer jobs, Henry Ford II, the NAB | lead: no month (Solberg's July 19, 1966 report entered: `cal.1966-07-19.jobs-and-wages`) |
+| 413–14 | the Marine Sciences and Space Councils | lead: no month |
+| 415–16 | Rome; de Gaulle; Windsor | already in (the European trip of 1967, Solberg's entries) |
+| 417 | June 1967: the NSC, aid to Israel | lead: the day (FRUS 1964–68, XIX) |
+| 418 | Casals at ninety | social |
+| 419 | Churchill's funeral | already in |
+| 421–22 | Stevenson's body | entered, `cal.1965-07-15.transition-and-staff` |
+| 428 | the "Marshall Plan" at Detroit | already in (`cal.1967-08.civil-disorders`) |
+| 432–33 | Nixon at Opa-locka offers the UN | lead: the day (Nov.–Dec. 1968) |
+| 484 n.7 | Nenni at Rome | lead: no year |
+| 489 n.3 | Unruh's offer, 1967 | lead: no month |
+| 490–91 n.2 | Rockefeller sounded for second place | lead: no month |
+| 491 n.5 | Shriver ruled out | already in |
+| 492 n.8 | San Francisco, Alioto's cable car | lead: the day (a campaign stop, 1968) |
+| 493 n.1 | the Selma address urged | entered from Solberg, `cal.1965-03-12.voting-rights-2`, this note cited |
+| 494 n.1 | the Wilson Center's chairmanship | out of the brief (after Jan. 20, 1969) |
+
+## The press
+
+| Date | Outlet | Item | Page |
+|---|---|---|---|
+| 1960-03 | Joseph Alsop's column | door-to-door poll at Wausau: Humphrey "lucky" to get a hundred votes | 208 |
+| 1966-02 | *New York Times* (Wicker) | the Bangkok communiqué filed first | 332 |
+| 1968-11 (n.) | wires, two reporters | a secret meeting with Johnson guessed, the White House called | 404 n. |
+
+## Leads (to notes/leads.md, National)
+
+- The test-ban resolution with Dodd: its day in the Record, 1963 (memoir 253; Solberg 218).
+- Russell's closing speech on the clergy, June 1964: the Record's day (282).
+- A cabinet meeting June 16 and a leaders' meeting June 20, 1966, Humphrey present (343): the Daily Diary.
+- The signing at Mexico City, Apr. 1, 1968? (359 and its note): the Protocol to the Treaty of Tlatelolco; the Bulletin.
+- Nixon's offer of the UN to Humphrey at Opa-locka, Nov.–Dec. 1968 (432–33): the day.
+- Detroit Economic Club and the black ministers, 1968 (397–98); San Francisco and Alioto (492 n.8): the days.
+
+## Not read
+
+The chapters before 1960 (1–24) and after Jan. 1969 (39–), as before: out of the span.

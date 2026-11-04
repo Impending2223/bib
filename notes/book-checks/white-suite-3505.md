@@ -264,3 +264,44 @@ For `notes/leads.md` (National), at the merge: the plane crash of spring 1962 wi
 n.3); the Billie Sol Estes affair is not in the calendar at all (63: only Dirksen and Halleck's demand entered, May 1962);
 the acceptance of July 16, 1964, is bundled in cal.1964-07-15.elections-1964 with the nomination and Miller's (the spans
 rule: three events).
+
+## The second run (Nov. 3–4, 2026; batch 3 resumed)
+
+Patch `inbox/2026-11-03-b3-suite-3505-2.yaml` (b3-suite-3505-2, 15 adds, claimed in the ledger); witnesses
+`inbox/witnesses/2026-11-03-b3-suite-3505-2.yaml` (17 rows); the work's edges added to
+`sources/witnesses/by-work/white-suite-3505.yaml` (22). The copy fetched again from Drive (the same file, 456 PDF pages,
+offset unchanged, printed page = PDF page − 2), deleted when done.
+
+The press (R13): the rows the first run passed as "a column," "the press" or "a newspaper's editorial" are entries now,
+each dated and quoted from the page: the *Herald Tribune*'s editorial of Dec. 5, 1962 (107); Trohan, Mar. 26, 1963
+(130–31); Bergholz, Apr. 30 (160); the *Detroit News*, May 3 (147–48); Steele, and Evans and Novak, June 24 (164–65);
+the *Star*'s two stories on the Armory rally, July 5 (187); Krock, July 6 (187–88); Riesel, Sept. 16 (237); *Time*,
+Oct. 4 (234–35); Reston, Oct. 12 (235); Sevareid, Oct. 13 (235); the *Saturday Evening Post* and Stewart Alsop, Jan.
+18, 1964 (356–57); *Time*, May 8 (319–20); John S. Knight, June 21 (372).
+
+Witnesses (R35): the studies the notes cite, left out by the conversion, are edges now: Shadegg, *What Happened to
+Goldwater?*, 44 (at 37 n.1) and 103 (at 206 n.2); Novak, 455 (at 12 n.1); Theodore White, 205 (at 18 n.3); Jack Bell,
+*Mr. Conservative* (1962), 147 (at 250 n.3, a row of its own: no card, not held); and each press item above.
+
+Passed over, this run (the first run's rows stand, as revised here):
+
+| page | date | event | why |
+|---|---|---|---|
+| 107 | Dec. 1962 | the *Times*'s first news story on the Chicago meeting ("splintering") | lead: the day (not given) |
+| 235 | Oct. 1963 | Carlton Kent, *Chicago Sun-Times*, on the press conference of Oct. 9 | lead: the day (not given) |
+| 235 | Oct. 1963 | *Look*, "JFK Could Lose" | lead: the issue's date (not given) |
+| 237 | fall 1963 | the *National Observer*'s interviews of union members | lead: the date (not given) |
+| 238 | Nov. 1963 | Helbert, *Pittsburgh Press* | a regional paper's reporter, the Democrat unnamed; minor |
+| 380, 408, 410, 413 | 1965 | White's notes to Novak, Shadegg and *This Week* (Oct. 25, 1965) in the epilogue | out of the span |
+
+## The press (R13), this run
+
+1963-07-05 | *Washington Evening Star* | front page | the Armory rally: two stories, McGrory's and Broder's | Suite 3505, 187
+1963-07-05 | *Baltimore Sun* | front page | the Armory rally, a crowd of 6,000 | Suite 3505, 187
+
+## Leads, this run
+
+National: Part III entries proposed (R13) for Walter Trohan (*Chicago Tribune*), Jack Steele (Scripps-Howard), Victor
+Riesel (labor columnist), John S. Knight (*Detroit Free Press*, the Knight papers), Richard Bergholz (*Los Angeles
+Times*), Carlton Kent (*Chicago Sun-Times*), each treated by White, *Suite 3505*, at the pages above. Lee Minton (Glass
+Bottle Blowers, AFL-CIO vice president): no name entry; Riesel's column of Sept. 16, 1963.
