@@ -308,3 +308,171 @@ rows of Oct. 12); the *Times*'s story on the USIA surveys, Oct. 1960 (203); the 
 fall 1963 (404); the Federal Reserve's cut in margin requirements, July 1962 (424; its record); Kennedy's television
 interview the week before the Bay of Pigs (296); Burke's speech of Jan. 1961 (286; its text and the day); the
 Kennedy–Blough meeting of Sept. 1961 (445).
+
+## Third run, Nov. 4, 2026 (b3-sorensen-3): the foreign chapters page by page
+
+Patch: `inbox/2026-11-04-b3-sorensen-3.yaml` (b3-sorensen-3): 36 new entries (claimed in the ledger), 55 `cite` ops, 1
+`primary`, 2 `check`, 2 `src`; `./bib patch-check`: 0 errors (16 same-day "one event?" warnings, each read against its
+neighbors: distinct acts, listed below). Witnesses: `inbox/witnesses/2026-11-04-b3-sorensen-3.yaml` (9 rows); the edges
+appended to `sources/witnesses/by-work/sorensen-kennedy.yaml` (9).
+
+The copy: the same PDF from the Drive (32 MB, 810 pages, text layer); offset unchanged, printed page = PDF page − 16,
+checked against the page images at pp. 557 and 711. The PDF and images deleted.
+
+What was read: chapters XII (The Press, 310–26), XIII (The Public, 327–36), XIX (The Olive Branch, 509–40), XX (The
+World Leader, 541–82), XXI (The Berlin Crisis, 583–601), XXII (The Arrows, 602–33), XXIII (The Continuing Crises,
+634–66), XXIV (The Confrontation in Cuba, 667–718), XXV (The Strategy of Peace, 719–46) page by page; the Epilogue
+(747–58) by its dated sentences (its events, Nov. 13, 21 and 22, 1963, are already in and cited). The quotations the text
+gives from the President's news conferences were found in the Public Papers (`sources/ppp-text/`) and the item cited as
+the primary record; FRUS read where it prints the record (XI, docs. 25, 36; XIX, doc. 182).
+
+### Cites held (R33)
+
+The 79 cites the earlier runs made to these pages were read against the pages: all hold, with these remarks:
+- cal.1961-03-23.laos: 643 bears the Marines and the Seventh Fleet; "SEATO consulted" is not on 643 (644 has the SEATO
+  allies pressed, around May 1). Left; a reader may add a parenthetical.
+- cal.1961-06-03.berlin-and-vienna: "to Reston afterward" is not on 543–50, which says only "to more than one newsman"
+  (549); the cite's parenthetical "(the summit" covers it.
+- cal.1962-10-18.missile-crisis-5 (Ball's account): Sorensen gives a 9 p.m. conference and the ExComm in the Attorney
+  General's limousine, Martin walking (691). Check added.
+- cal.1961-11-11.vietnam: Sorensen has all the principal advisers on Vietnam for combat troops, the President alone
+  against (653), where the entry has McNamara and Rusk advising deferral. Check added.
+- cal.1963-05.testing-2 cites 730 for the American University drafting: holds. Sorensen dates the "haunted ... ten
+  nuclear powers" words to May 1963 (729); the Public Papers give them at the news conference of Mar. 21, 1963 (1963
+  Pub. Papers 273, at 280), the "genie" words at that of May 8 (378). No entry changed.
+
+### New entries (36)
+
+- News conferences, each with its Public Papers item: Aug. 30, 1961 (*Time* on the Bay of Pigs air support, "the most
+  inaccurate"); Oct. 11, 1961 ("our view of the world crisis"); Nov. 8, 1961 (Nehru, "no rational man"); Feb. 15, 1961
+  (the Congo warning); July 19, 1961 (Menshikov, "honor our commitments"); Jan. 24, 1962 (Wieland and Miller); Mar. 7,
+  1962 ("who eats what"); Apr. 11, 1962 (West New Guinea); May 9, 1962 ("jaw, jaw"); June 27, 1962 (the Formosa Strait);
+  Nov. 20, 1962 (Collins and news suppression); Dec. 12, 1962 ("not for what they write"); Jan. 24, 1963 ("a peculiar
+  logic"); May 8, 1963 (a fireside chat on Birmingham); Aug. 1, 1963 (the Alliance "failed ... to some degree").
+- The Chapel Hill address, Oct. 12, 1961.
+- The press: the Palm Beach background sessions, Dec. 1961 and Dec. 1962; the letter drafted for Sylvester, Dec. 1962.
+- The Soviet Union and the allies: Bolshakov to Sorensen after the television exchange was called off, Mar. 1962;
+  de Gaulle through Alphand, Sept. 1962; the intelligence report of a de Gaulle–Soviet deal, early 1963; the reappraisal
+  after de Gaulle's press conference, Jan.–Feb. 1963; Kennedy's letter to a critic on nuclear weapons for France, Feb.
+  1963; B. K. Nehru's delivery of the Prime Minister's letter, Oct. 26, 1962.
+- Defense and testing: Murrow's advice after the Soviet announcement, Aug. 1961; McNamara to Rusk and Bundy on the tests,
+  Apr. 1962; the two reservists released, Apr. 1962; the Air Force's Skybolt announcement after Nassau, Dec. 1962.
+- The missile crisis: Stevenson's letter of Oct. 17 (FRUS XI, 25); Robert Kennedy and Sorensen meet the plane, Oct. 17;
+  the Sweeney meeting, Oct. 21 (FRUS XI, 36); Obote, Oct. 22; the Republican leaders' support, Oct. 23; the House
+  Republican Campaign Committee, late Oct.; Lincoln White's statement and the President's anger, Oct. 26.
+
+The "one event?" warnings, read: each new entry is a distinct act from the entries of its day and thread (a news
+conference's answer apart from the meeting or letter of the day; Bolshakov to Sorensen apart from Gromyko's instruction
+for Salinger; the Sweeney meeting at 11:30 in the Mansion apart from Ball's 10 a.m. account of the third draft; the two
+Palm Beach sessions a year apart; the reappraisal apart from the intelligence report).
+
+Several of the news conferences already have an entry for another answer (Nov. 20, 1962; July 19, 1961; May 8, 1963):
+the new entry takes the answer the calendar lacked, as the calendar has done for other days (cal.1963-05-08.middle-east).
+The merger may fold them by R17 (one news conference, one entry, `also:` its threads) if the owner prefers.
+
+### Witnesses (R35, R38)
+
+The book has no notes. The records its foreign chapters quote or name, for the entries this run makes or cites: Stevenson
+to Kennedy, Oct. 17, 1962 (FRUS XI, 25: read); Sorensen's four-page memorandum of Oct. 17, 1962; the draft letter for
+Sylvester, Dec. 1962; Kennedy to a critic, Feb. 1963; the foreign intelligence report, early 1963; Murrow's advice, Aug.
+1961; Bundy's memorandum "for your memoirs," 1963 (perhaps `x.1963-03-04.bundy-to-kennedy-mar-4-1963`, the National
+Security Archive's: a reader with that copy should join them); Cousins to Kennedy, Apr. 30, 1963; Jawaharlal Nehru's
+letter of Oct. 26, 1962. Each `open: not found` but the first.
+
+Not registered, no entry made or cited for them (leads below): the *Time* study of Eisenhower's first year and Kennedy's,
+and the Postmaster General's postage estimate (317); the Berlin planning paper (588); the Joint Chiefs' written views on
+Laos, late Apr. 1961 (644–45); Macmillan's letter on testing, early 1962 (622); Kennedy's letter to Diem, late summer
+1963 (658); Acheson's letter after the missile crisis (719); the Republican air-strike advocate's note to Sorensen, Oct.
+18, 1962 (688).
+
+### Passed over (R44)
+
+How the list was made: every dated or datable event of the pages read, noted page by page, set against the calendar of
+its day (all threads) and the ledger. The rows below are those not entered and not cited in this run. Page | date |
+event | why.
+
+| page | date | event | why |
+|---|---|---|---|
+| 314 | 1961–63 | Kennedy asks FBI or informal inquiries into leaks | undated; lead |
+| 316 n.3 | 1961 | Kennedy has the *Fortune* writer's Air Force orders changed | undated; lead |
+| 317 | 1961–62 | Kennedy's sessions with Luce; the postage estimate; the *Time* study | undated; lead |
+| 321 | 1961-05 | the publishers' committee meets the President, recognizing no special peril | no date given; lead (the day) |
+| 321 | 1962-10 | restrictions on Pentagon and State news contacts; aides to clear talks with Salinger | the month only implied; lead |
+| 322 | 1962–63 | the USIA polls released, the favorable findings leaked through a legislator | undated; lead |
+| 323 | 1961-01 | Reston: live press conferences "the goofiest idea since the hula hoop" | lead (the column's day) |
+| 324 | 1962-01-31 | news conference: the Republican leadership seminars, "a varied program" | not entered: a quip, the seminars not dated here; lead (the seminars) |
+| 332–33 | 1962-05-23 | news conference: the mail no true indicator, 28 letters on Laos | minor (a remark on the White House mail) |
+| 333 | 1963 | the President's private guess that his rating could fall below 50 percent; the rumors | private remarks |
+| 336 | 1963 | the pre-press-conference breakfast on Wallace, Madame Nhu, Lasky, Mao | private remarks |
+| 510 | 1961-07/08 | the President on the Hill's speeches after a hijacking to Cuba | private remarks |
+| 512 n.1 | 1961-11 | two columnists' drafts blended for the Seattle speech | a meeting's preparation |
+| 513 | 1961 | the post-Vienna briefing on a nuclear exchange, Sorensen present | not dated; lead (the day) |
+| 516 | 1961 | Kennedy to a writer: "If he wants to rub my nose in the dirt, it's all over" | undated; lead |
+| 517 | 1961 | crabmeat restrictions lifted, consulates and exchanges proposed | undated here; lead (the days) |
+| 518 | 1962-02/03 | Kennedy to the disarmament planners before Geneva | undated ("as they were preparing"); lead |
+| 522–23 | 1962 | the UN bond purchase; Jackson's anti-UN speech and Kennedy's call | not checked against the calendar; lead |
+| 525 | 1961-04-13 | Webb's capsule model; Sorensen and Wiesner review the next steps for an evening interview | not checked against the Apr. 13–14 entries; lead |
+| 532 | 1961-10 | the Nigerian postcard; Kennedy's note to the volunteer | not dated; lead |
+| 537 | 1961-12-17 | Bogotá: the Alianza housing project dedicated | not checked; lead |
+| 538 n.3 | 1961–63 | Portugal's pressure through the Azores lease | undated; lead |
+| 539–40 | 1962–63 | Sukarno frees a CIA pilot; Nasser's letters; Kennan's resignation; Skopje relief | not checked; leads |
+| 541 n.1 | 1961–63 | four accidental penetrations of Soviet air space, safeguards tightened | undated; lead |
+| 554 | 1961–62 | Bolshakov hands Sorensen a letter in a folded newspaper (a Berlin concession) | undated; lead |
+| 555 | 1963-04-03 | news conference: Khrushchev's "good months and bad months" | not entered; lead |
+| 558 | 1962 | Macmillan angry at the Hawk offer to Israel | undated; lead |
+| 561 | 1963, late | de Gaulle tentatively agrees to come in March 1964; Alphand suggests Palm Beach | not checked; lead |
+| 569 | 1963 | Kennedy commissions Neustadt's study of Skybolt and Nassau | undated; lead |
+| 572 | 1963 | the Skipjack sale to France quietly withdrawn | undated; lead |
+| 575 | 1961 | Diefenbaker keeps a staff paper of the Ottawa visit; "Just let him try it" | undated; lead |
+| 576 | 1963-01-30 | State's release on Canada; Kennedy "hit the roof" | not checked; lead |
+| 577 | 1963 | the civil rights address sent with a letter to every African head of government | not checked; lead |
+| 578 | 1962 | Kennedy's call to Mrs. Gandhi before her tour | not dated; lead |
+| 579 | 1961–63 | Indonesian students take the President's tie clasp | minor (social) |
+| 593–600 | 1961–63 | Khrushchev's speeches of the summer of 1961; the air corridor harassment, early 1962; the NATO communiqué split 14 to 1; the German anger, spring 1962; the checkpoint squabble, fall 1963 | not checked against the calendar this run; leads |
+| 602–05 | 1960-12/1961-01 | Kennedy's list of questions to McNamara; McNamara's report to the Cabinet; the directive to the Chiefs | not checked; leads |
+| 607–08 | 1961-06; 1963-05 | Taylor to the White House; Anderson not reappointed | not checked; leads |
+| 613–16 | 1961 | Ellis and the Pope; Kaysen's civil defense study; the transfer to Defense; Teller's $50 billion; the booklet | not checked; leads |
+| 618 | 1961-02, 06, 08 | the Chiefs on resuming tests; the scientific panel; the order to prepare underground tests | not checked; leads |
+| 620–22 | 1961-09/1962-03 | the Labor Day statements on the 100-megaton bomb; the talks with the Belgrade spokesmen; the appeal not to test fifty megatons; Macmillan's plea and Schlesinger's suggestion | not checked; leads |
+| 630–32 | 1961–62 | the Special Group (Counterinsurgency); Hamilton nearly at the CIA; the green berets | not checked; leads |
+| 636 | 1961-01 | the emergency food airlift to the Congo, the first week | not checked; lead |
+| 639–48 | 1961–63 | Laos: the neutral neighbors' refusal; MacArthur's warning; Key West; the Marines loaded; the advisers in uniform; the coalition of June 1962; Harriman with Khrushchev, 1963; the war games of spring 1963 | not checked against the calendar this run; leads |
+| 655–60 | 1961–63 | Vietnam: the separate message on reforms, Nov. 1961; Diem's press; the letter to Diem; the aid withheld; the station chief recalled; Madame Nhu's tour; the coup | not checked; leads |
+| 661–65 | 1962–63 | Chiang told the time was not ripe; the midnight meeting's recommendation on China; Ayub's letter; the joint statement on Kashmir; the Pakistani Ambassador's tirade; the air defense agreement | not checked; leads |
+| 685 | 1962-10-18 | Sorensen's draft letter to Khrushchev by envoy | a draft not sent (cited on cal.1962-10-18.missile-crisis-6) |
+| 688 | 1962-10-18 | a Republican member's note to Sorensen on the House | private remarks |
+| 697–718 | 1962-10-20/28 | Eisenhower's second briefing; Acheson to de Gaulle and NATO; the newspaper that held the story; ExComm formally established; the Cabinet of Oct. 22; Macmillan's call; the photographs released; Russell's telegrams; Khrushchev to the businessman; the leaflet drop held; the pickets; the Kashmir remark | not checked against the dense entries of those days this run; leads |
+| 719–28 | 1962-10/1963-04 | Acheson's letter; Castro's conditions; the letters of Nov. 19; the IL-28 letter on Nixon; the shrimp boat; the exile raids; McNamara's televised briefing; San José; the test-ban talks of Jan. 1963 and the letter on the misunderstanding; Cousins in Moscow | not checked; leads |
+| 729–46 | 1963-05/11 | the Senate resolution of thirty-four; the end of jamming; the IAEA; Harriman named; Hailsham; the Senate fight (Jackson, Dirksen, Halleck, the Preparedness Subcommittee, the Citizens Committee); ratification in the Treaty Room; Nixon on the wheat; the Maine and Philadelphia speeches; Barghoorn | not checked; leads |
+
+### The press (R13)
+
+- 1961-01 | *New York Times* (Reston) | column | live televised press conferences "the goofiest idea since the hula hoop" | 322–23
+- 1961-08-30 | *Time* | story | the Bay of Pigs: Rusk canceled the air support, the President backing him (condensed from *Fortune*) | 316
+- 1962-05 | *New York Herald Tribune* | front pages | speculative stories on Billie Sol Estes; the stockpile errors not covered | 317
+- 1962-12-08 | *Saturday Evening Post* (Bartlett and Stewart Alsop) | article | the missile crisis; Stevenson | 315
+- 1963-06 | *Manchester Guardian* | editorial | the American University address "one of the great state papers of American history" | 733
+
+## Leads (third run, Nov. 4)
+
+National: the dates of the leads in Passed over above, each where the calendar of its month should be read for it
+(Sorensen gives no day): Kennedy's order changing the *Fortune* writer's Air Force post (316 n.3); the sessions with Luce
+and the *Time* study (317); the publishers' committee of May 1961 (321); the news-contact restrictions of Oct. 1962 and
+the rule for aides (321); the USIA polls' release (322); the state-by-state White House luncheons with editors (327);
+Ellis's plan to see the Pope on church shelters, 1961 (613); Teller's $50 billion shelters (615); the shelter booklet
+toned down, Dec. 1961 (616); the Republican leadership seminars, Jan. 1962 (324); the news conference of Apr. 3, 1963 on
+Khrushchev's standing (555); Neustadt's Skybolt study, 1963 (569).
+
+Foreign: the Azores lease and Portugal's pressure (538 n.3); the four accidental penetrations of Soviet air space
+(541 n.1); Bolshakov's letter in a folded newspaper, a Berlin concession (554); Macmillan's anger at the Hawk offer to
+Israel (558); the Skipjack sale withdrawn (572); Diefenbaker's staff paper (575); the Pakistani Ambassador's tirade
+(664); Kennedy's letter to Diem, late summer 1963 (658); Acheson's letter after the crisis (719); the Joint Chiefs'
+written views on Laos (644–45); Macmillan's letter on testing, early 1962 (622). And the pages 593–746 listed in Passed
+over as "not checked": a fourth run should set each against its day and cite or enter it.
+
+### What remains
+
+The reading is complete (XII–XIII, XIX–XXV page by page, the Epilogue by its dated passages). What remains is the
+setting of the events listed "not checked" in Passed over against the calendar: chiefly Laos and Vietnam (639–61), China,
+India and Pakistan (661–66), the missile crisis's dense days (697–718), the crisis's aftermath (719–28) and the test ban's
+ratification and the wheat sale (729–46), and the Berlin crisis's later incidents (593–600).
