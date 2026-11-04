@@ -9,6 +9,8 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1960-03 | Joseph Alsop's column | column | door-to-door poll at Wausau: Humphrey "lucky" to get a hundred votes | Humphrey, *Education of a Public Man*, 208
 1960-07-10 | *Seattle Times* | front page | Guthman's story: Jackson a possible running mate | Guthman, *We Band of Brothers*, 75
 1960-10 | *New York Times* | front page? | the USIA's prestige surveys, printed without saying how obtained | Sorensen, *Kennedy*, 203–04
+1961-02-06 | *Washington Evening Star* | headlines | McNamara: no missile gap | McNamara, *In Retrospect*, ch. 1
+1961-02-07 | *New York Times* | front page | McNamara: no missile gap | McNamara, *In Retrospect*, ch. 1
 1962-04-12 | the *Wall Street Journal* (John Lawrence), the AP (Lee Linder) and the *Wilmington Evening Journal* (James L. Parks Jr.) | stories | the FBI's calls on the reporters; Linder's story | Guthman, *We Band of Brothers*, 233–34
 1963-07-05 | *Washington Evening Star* | front page | the Armory rally: two stories, McGrory's and Broder's | White and Gill, *Suite 3505*, 187
 1963-07-05 | *Baltimore Sun* | front page | the Armory rally, a crowd of 6,000 | White and Gill, *Suite 3505*, 187

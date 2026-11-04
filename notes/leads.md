@@ -1533,6 +1533,12 @@ Rights in Conflict (Walker Report):
 - Jan.–Feb. 1960: Twining and Gates on the 1961 defense budget; Russell: "I can't accept the statement that there is no missile gap" (253): the hearing's day (Jackson, vol. 5, 94, n.40).
 - Feb. 1960: Gates to Congress: Power's estimate "is unrealistic" (254): the day (the *Times*, Feb. 7, 1960, n.43).
 
+### McNamara, *In Retrospect* (batch 3, second run, Nov. 4, 2026; notes/book-checks/mcnamara-in-retrospect.md)
+- A paginated copy of *In Retrospect* (Times Books 1995 or Vintage 1996), to turn the chapter-and-note pinpoints into pages, and to hold up the hardcover pages other readers cite (176–77, 186–87, 215, 283, 311–14).
+- *Public Statements of Robert S. McNamara*, 1961–68 (OSD), cited by volume and page throughout: where a copy can be read (DTIC? the Pentagon Library), for the press conferences of Feb. 5, 1962, Apr. 24, 1964, June 16, 1965, and the remarks of July 23 and Oct. 9, 1962, Dec. 21, 1963, Mar. 9, 1964, Nov. 29, 1965.
+- Goldwater's charges of Mar. 20, Aug. 11 and Oct. 6, 1964: where he made them (McNamara, ch. 6).
+- McNamara's speech of Sept. 18, 1964 ("100 million Americans during the first hour"): where.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2582,6 +2588,10 @@ CQ Weekly Report, 1968-08-30:
 - Khrushchev's announcement of the cut of 600 million rubles in military spending, Dec. 13, 1963 (to the plenum; the Supreme Soviet, Dec. 16): not in the calendar (152).
 - The civil air agreement with the Soviet Union, signed Nov. 4, 1966: its U.S.T. cite and an entry; the first Aeroflot flight to New York, July 15, 1968 (150).
 - The undated talks of the book-check's Passed over, each with the FRUS volume to look in (1964–68, XIV); the pagination of the three earlier Dobrynin cites (the book-check).
+
+### McNamara, *In Retrospect* (batch 3, second run, Nov. 4, 2026; notes/book-checks/mcnamara-in-retrospect.md)
+- Lodge's report of Khánh's talk of May 4, 1964 (not in the daybook under the day).
+- Taylor's cable to Rusk of April 1965, "No amount of bombardment" (McNamara, ch. 7; `cal.1965-04.vietnam-3`): its day and number.
 
 ## The Executive roster
 
