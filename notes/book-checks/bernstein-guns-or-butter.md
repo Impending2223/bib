@@ -203,9 +203,124 @@ against `x.undated.joseph-a-califano-jr-oral-history` (Mar. 16, Dec. 21, 1988, J
 Kennedy Center act's Statutes cite (`cal.1964-01-23.program`, Check); the Finance Committee's report of Jan. 28, 1964
 (S. Rep. No. 830, registered, not read).
 
+## Fourth run (b3-bernstein-guns-4), Nov. 4, 2026
+
+Read from the same copy (649 PDF pages; the offsets hold: −11 to p. 244, −27 to p. 404, −43 after, checked against the
+running heads of every page of ch. 13 and at pp. 43, 131, 185, 358, 426, 458, 471, 525, 546, 571). Read: ch. 3, "The
+Civil Rights Act of 1964," pp. 43–81, with its notes (nn. 1–7, pp. 546–48); ch. 18, "Model Cities," pp. 458–70, with
+its notes (nn. 1–5, pp. 571–72); and, for the nineteen cites held behind "To check," pp. 131–32 (ch. 5, n.4), 185 (ch.
+7), 363–71 and 377–78 (ch. 14), 426 and 432 (ch. 16), 487 (ch. 19), 525–29 (ch. 20). How the list was made: every
+sentence of chs. 3 and 18 dating something to a month or a day pulled out by script, the pages around each read, each
+held against the tree and the ledger day by day; for the holds, every chapter of the book from ch. 13 on searched for
+each entry's matter (the names, the figures, the bills), the pages found read. Bernstein's notes run one to a section;
+each record is edged at the text page it stands behind, letters after the note number telling them apart.
+
+Patch `inbox/2026-11-04-b3-bernstein-guns-4.yaml`, 103 ops: 49 entries added (28 in ch. 3, 21 in ch. 18), 42 cites, 10
+Checks, 2 edits. Witnesses `inbox/witnesses/2026-11-04-b3-bernstein-guns-4.yaml`: 40 new; 68 edges for
+`w.bernstein-guns-or-butter` at the file's foot ("# edges for ..."), for the merger to append to
+`sources/witnesses/by-work/bernstein-guns-or-butter.yaml` (a merger was at work in the tree). patch-check: 21 errors, all
+the `via` rows that wait on those edges ("names a record sources/witnesses/ does not hold at that note"); with the edges
+appended, in a scratch copy of the tree, 0 errors. Merge the edges first.
+
+### The nineteen cites held behind "To check"
+
+| Entry | Ruling | Pages |
+| --- | --- | --- |
+| cal.1964-05-22.program | held in part (the address; the working groups) | 131–32, 185 |
+| cal.1965-12-27.economy | not borne out: Bernstein has Ackley's "significant tax increase" on Dec. 17 (the memorandum of that day, on a $115 billion budget), and does not treat Schultze's memorandum; out of To check by edit (base d061e714), a Check added | 365 |
+| cal.1966-01-19.vietnam | not borne out: Bernstein's "$12.8 billion," the "actual figure" Ackley learned in January 1966, may be this request; out of To check by edit (base 3074d14f), a Check added | 363 |
+| cal.1967-01-10.program | held for the surcharge (O) | 367 |
+| cal.1967-12-15.congress | held for "No tax increase" (B) | 371, 528–29 |
+| cal.1968-01-29.economy | held for the tax package (B) | 371 |
+| cal.1966-01-19.economy, 1966-01-24.economy, 1966-03-15.economy, 1966-03-22.economy, 1966-07-19.economy, 1966-09-08.economy, 1966-11-29.economy, 1966-12-31.vietnam, 1967-10-18.economy, 1968-01-17.program, 1968-09-17.economy, 1968-12-19.economy | not found: ch. 14 skips the Tax Adjustment Act, the budgets of January 1966 and 1968, the news conferences, the message of Sept. 8, 1966, the cuts of Nov. 29, the continuing resolution, Chrysler's prices and the surplus forecast; ch. 19 names the 1968 address only for Busby's withdrawal statement (487); fiscal 1969's "$3.2 billion surplus" (377) is Califano's later account. Left behind "To check" until chs. 4–11, 15–17 and 19 are read through | — |
+
+Held besides (cites added): Kennedy's address of June 11, 1963, and the message of June 19 (43, 45); the civil rights
+bill's days in the tree, Dec. 4, 1963, to July 2, 1964 (48–79); the Model Cities entries of 1965–66 (462–67).
+
+Other rulings: cal.1966-01-26.cities-and-housing held (462–64) but for the six-year figure, Bernstein's $2.3 billion
+being Henry Wilson's (464), Weaver's testimony "about $2 billion" over five years; cal.1964-07-02.civil-rights-bill:
+Bernstein, 78, has the House's vote 289 to 124, Voteview 289–126 (the entry's link stands; a Check added for the page's
+reader); cal.1964-02-10: 290 to 130 as the entry; cal.1964-04-28.civil-rights-bill: 5,000 church leaders, the entry some
+6,500 (Check); cal.1964-03-26: Russell's words, "we shall now begin to fight the war," the entry another wording (Check);
+cal.1964-03-30: Humphrey on quotas dated Mar. 20 in the text, Mar. 30 (110 Cong. Rec. 6549) in the note (Check, the
+entry's date standing); cal.1964-05-05 (the first meeting in Dirksen's office) and Kotz's pending
+cal.1964-05-05.civil-rights-bill-2 (the breakfast with Hayden): Bernstein dates both May 4 (Checks); Kotz's pending
+cal.1964-06-01.civil-rights-bill: Bernstein has Mansfield say June 1 the petition would be filed the next Saturday
+(Check; cited for the vote's day only); cal.1966-08-19.cities-and-housing: the text dates Tower's motion and the vote
+Aug. 9, the note cites Fulbright's speech in the Record of Aug. 19 (Check); cal.1966-01-17.cities-and-housing: Bernstein
+has the appointments "not announced until" Jan. 17 (Check); cal.1963-11-26.economy: the Wisconsin accelerator dropped
+in December 1963 by Bernstein's note (Check).
+
+### New entries (49)
+
+Ch. 3: Oct. 1963 (Dirksen and Katzenbach on Air Force One); Dec. 31, 1963, and Jan. 29, 1964 (Dirksen's letter on the
+accelerator; Hornig's answer); Jan. 6 and 20, 1964 (O'Brien's counts); the House's amending days, Feb. 3–4, 5, 6; Feb.
+11 (O'Brien: Dirksen must deliver); Mar. 5 (the Motorola ruling, Myart); Apr. 6 (wire for rights day); Apr. 15, 16, 21,
+23, 28; May 7 (Udall on Hayden); May 19, 25; June 4, 8, 11, 13 (Tower's test amendments), 17, 18, 19 (Celler and
+McCulloch's statement), 22, 30 (Rules: Madden to report, 8 to 7). Ch. 18: Nov. 30, 1964 (Wood's first report); May 13,
+1965 (Reuther's proposal); mid-Oct. and Dec. 15, 1965 (the second task force); 1966: Feb. 28, Apr. 6, May 24, June 6,
+23, 28, Aug. 9, 10, 25, Sept. 1, 10, Oct. 17; Nov. 16, 1967; Mar., Sept. 6, Oct. 7, Dec. 23, 1968 (the rounds of
+selection; Johnson's "Speed it up"; Seattle's plan).
+
+### Near matches for a reader
+
+`x.1964-01-06.obrien-to-johnson-assassination-file` (ch. 3 n.2) and the third run's
+`x.1964-01-06.obrien-to-johnson-jan-6-1964` (Reports on Legislation): perhaps one memorandum in two files. Kermit Gordon's
+oral history: the registry's row names other parts (II, III); Bernstein cites IV-1-2 and IV-13, edged to it.
+
+### Passed over (fourth run)
+
+| Page | Date | Event | Why |
+| --- | --- | --- | --- |
+| 44 | June 21–26, 1963; Jan. 1964 | Gallup on public accommodations, 49–42, 61 by January | the polls (Opinion): a lead, the releases' days |
+| 44 | Nov. 20, 1963 | Judiciary reports H.R. 7152, 20 to 14 | a lead: the tree's Oct. 29 entry has the committee's vote 20–12; the report's day to check |
+| 48 | Dec. 1963 | the leadership weighs the discharge petition, Calendar Wednesday and Rule 11 | a lead (the day) |
+| 49 | Jan. 29, 1964 | Smith at "the end of the line" | in cal.1964-01-23 and 01-30 (repetition) |
+| 52 | Feb. 7, 1964 | Title VI: seven other amendments defeated | in Zelizer's pending Feb. 7 entry (cited) |
+| 55 | Feb. 8, 1964 | two more Title VII amendments adopted (retraining; a commission) | a lead: the day's other votes, the Record |
+| 56 | Feb. 10, 1964 | Ashmore's Title X, the Community Relations Service, accepted by Celler and McCulloch | a lead: the vote, the Record (the Feb. 10 entry does not name it) |
+| 56 | Feb. 17, 26, Mar. 9, 1964 | the Senate's schedule moved for the tax bill | a repetition (the tax bill's entries) |
+| 63 | late May or early June 1963 | Kennedy has Burke Marshall talk to Johnson on the bill | a lead (the day) |
+| 64 | Feb. 1964 | Gallup 61, Harris 68 for H.R. 7152 | the polls: a lead |
+| 66 | Mar. 1964 | businessmen and conservatives on quotas | undated: a lead |
+| 69 | Apr. 1964 | the daily prayer services at the Church of the Reformation | a lead (the first day) |
+| 73 | June 2, 1964 | the California primary delays the vote | in the elections thread (repetition) |
+| 73 | June 1964 | Hickenlooper's demands: the vote moved to June 10; his three amendments June 9; Hruska, Curtis, Mundt, Cotton for cloture | a lead: the agreement's day |
+| 74 | Jan. 27, 1964 | Bryant's hearing in the Myart case | in the Mar. 5 entry |
+| 74 | 1964 | the *Chicago Tribune* and Krock on the Motorola ruling | the press: a lead (the days) |
+| 77 | June 18–19, 1964 | the Southerners' last amendments | in the June 19 entry's cite |
+| 79 | 1963–64 | disorders in Chicago, Philadelphia, New York, San Francisco | undated: a lead |
+| 547 n.6 | 1964 | the rumor of a payoff, the accelerator for the cloture votes | in the Dec. 31, 1963 entry's note (Manatos's denial) |
+| 459 | 1964 | Johnson renews the proposal for a Department of Housing and Urban Development | a lead (the message's day; the tree's Mar. 2, 1965 entry) |
+| 461 | 1965 | Mayor Cavanagh shows Reuther the demonstration cities proposal | in the May 13, 1965 entry |
+| 461 | June 9, 1965 | Haar to Goodwin | registered; its matter not stated: a lead |
+| 462 | Aug. 1965 | Watts turns Johnson to demonstration cities | Bernstein's reading, no act |
+| 463 | Dec. 1965–Jan. 1966 | Wirtz on the report; Califano's briefing; the wire stories "abominable" | a lead (the briefing's day) |
+| 464 | May 1966 | the *Times*: the bill "dead"; Wilson's three problems | the press and a staff paper: a lead (the days) |
+| 466 | Aug. 1966 | Tower's amendment, no State over 15 percent of the planning money | a lead: the day, the Record (the Aug. 19 entry's) |
+| 466 | Sept.–Oct. 1966 | telegrams from 22 businessmen, Ford and David Rockefeller | a lead (the day) |
+| 468 | 1967–68 | HUD's weekly reports on Austin; the grants to Maine, Montana, Oklahoma | undated: a lead |
+| 468 | Sept. 27, 1968 | Califano's letter to the departments on a coordinated federal response | in the Oct. 7 entry (Wirtz's answer); the letter itself a lead |
+| 469 | Jan. 1969 | eight more plans approved before Jan. 20 | in the Dec. 23, 1968 entry |
+| 432 | Jan. 23, 1967 | the message on older Americans (Social Security) | not entered or held here: ch. 16 not read; a lead |
+
+### The press (fourth run)
+
+None entered. Named: the *Chicago Tribune* and Arthur Krock in the *New York Times* "outraged" at the Motorola ruling
+(1964, 74: a lead, the days); the *Times* on the price tag of demonstration cities, double the estimate (1966, 464), and
+calling the bill "dead" (May 1966, 464): leads; the wire stories on Califano's briefing (1966, 464); the extreme right's
+broadcasts against the bill, Smoot's (1966, 466): a lead.
+
+### Leads (fourth run)
+
+National: the rows above marked "a lead"; the roll calls of Tower's amendment, June 11, 1964 (49 to 38), and the Senate
+Republicans' policy luncheon of Apr. 28 (Voteview; the Record); Califano's letter of Sept. 27, 1968, to the departments
+(Task Force Subject File, LBJ Library); the 1965 task force report, printed as appendix 2 of Haar, *Between the Idea and
+the Reality*: a card the series holds (`w.haar-between-the-idea-and`), its pages to read.
+
 ## Not read
 
-All but the Prologue, chs. 1, 2, 12 and 14 and their notes: chs. 3–11, 13 and 15–20 (the civil rights act, the poverty
-program, 1964, Medicare, education, Selma, immigration, the environment, 14(b), Vietnam, turmoil, the minimum wage and
-Social Security, the arts, Model Cities, 1968). The calendar cites the book behind "To check" on nineteen entries in
-those chapters (above); a later reader should take them chapter by chapter, starting with ch. 3.
+Chs. 4–11, 13, 15–17 and 19–20 but the pages named above: the poverty program, 1964, Medicare, education, Selma,
+immigration, the environment, 14(b), Vietnam, turmoil, the minimum wage and Social Security, the arts, the collapse of
+1968. A later reader should take them chapter by chapter, starting with ch. 4, and hold the twelve cites still behind
+"To check" (above) as they go. The notes of ch. 7 (behind p. 185) not read.
