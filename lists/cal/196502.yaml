@@ -309,12 +309,13 @@ entries:
     thread: state-legislatures
     also: [robert-kennedy]
     c: Albany, N.Y. Travia elected Speaker over Steingut, again with Republican votes.
-    n: '[*New York Times*, Feb. 5, 1965](https://www.nytimes.com/1965/02/05/archives/travial-elected-speaker-gop-vote-again-decisive-as-streingut-is.html). [[w.smith-on-his-own-terms]], 462 (Wagner''s Democrats and forty-six Republicans; McKeon, the Democratic State chairman: "a down payment on a Rockefeller-Wagner sellout of the people"). See [[cal.1965-01-06.legislatures-ny]]. Names: Travia, Steingut.'
+    n: '[*New York Times*, Feb. 5, 1965](https://www.nytimes.com/1965/02/05/archives/travial-elected-speaker-gop-vote-again-decisive-as-streingut-is.html). [[w.smith-on-his-own-terms]], 462 (Wagner''s Democrats and forty-six Republicans; McKeon, the Democratic State chairman: "a down payment on a Rockefeller-Wagner sellout of the people"); [[w.shesol-mutual-contempt]], 338 (Wagner''s bargain with Rockefeller; Kennedy''s candidates beaten). Check: Shesol, 338, gives Feb. 3. See [[cal.1965-01-06.legislatures-ny]]. Names: Travia, Steingut.'
     src:
       c: 7d81fe88
       rows:
         - 'https://www.nytimes.com/1965/02/05/archives/travial-elected-speaker-gop-vote-again-decisive-as-streingut-is.html: all'
         - 'w.smith-on-his-own-terms 462: A'
+        - 'w.shesol-mutual-contempt 338: ?'
     tags: [state:ny, name:travia-anthony-j, name:steingut-stanley]
   - id: cal.1965-02-04.voting-rights
     when: Feb. 4
@@ -2594,6 +2595,19 @@ entries:
         - 'w.preston-war-council 186: all'
         - 'via w.preston-war-council 186 n.72b: all'
     tags: [name:cooper-chester-l, name:thomson-james-c-jr, name:bundy-mcgeorge]
+  - id: cal.1965-02-22.robert-kennedy
+    when: Feb. 22
+    date: '1965-02-22'
+    thread: robert-kennedy
+    also: [press-and-broadcasting, state-legislatures]
+    c: '*The Nation*, "Wagner, Rocky and the Kennedy Act": Wagner''s "substantial, if slightly tainted victory over the forces ... that were grouped around U.S. Senator Robert F. Kennedy, despite Mr. Kennedy''s fulsome, and at times too plaintive, denials."'
+    n: '[[w.shesol-mutual-contempt]], 338. To check: *Nation*, Feb. 22, 1965, 184–85 (cited by [[w.shesol-mutual-contempt]], 338). Names: Wagner, Rockefeller, Robert Kennedy.'
+    src:
+      c: be50d746
+      rows:
+        - 'w.shesol-mutual-contempt 338: all'
+        - 'via x.1965-02-22.nation-wagner-rocky-and-the-kennedy-act: all'
+    tags: [name:wagner-robert-f-jr, name:rockefeller-nelson, name:kennedy-robert-f, state:ny]
   - id: cal.1965-02-23.states-and-cities-nyc
     when: Feb. 23
     date: '1965-02-23'

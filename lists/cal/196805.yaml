@@ -119,6 +119,19 @@ entries:
       c: bfd05960
       rows:
         - 'w.macv-command-history-1968 926: all'
+  - id: cal.1968-05-01.robert-kennedy-campaign
+    when: May 1
+    date: '1968-05-01'
+    thread: robert-kennedy-campaign
+    also: [students]
+    c: 'Flug to Sorensen, Salinger and others at headquarters: Johnson''s withdrawal "brought a general apathy on most campuses, since he and Vietnam were the principal issues. The only people who remained active and excited ... were ... the McCarthy students."'
+    n: '[[w.shesol-mutual-contempt]], 446. To check: Flug, May 1, 1968, 1968 Presidential Campaign Files, Youth/Student Division Subject File, box 5, JFK Library (cited by [[w.shesol-mutual-contempt]], 446). Names: Sorensen, Salinger, Johnson, McCarthy.'
+    src:
+      c: b03693d9
+      rows:
+        - 'w.shesol-mutual-contempt 446: all'
+        - 'via x.1968-05-01.flug-to-campaign-headquarters-apathy: all'
+    tags: [name:sorensen-theodore-c, name:salinger-pierre, name:johnson-lyndon-b, name:mccarthy-eugene-j]
   - id: cal.1968-05-02.testing
     when: May 2
     date: '1968-05-02'
@@ -490,6 +503,19 @@ entries:
       rows:
         - 'w.johnson-vantage-point 454: all'
     tags: [name:sanders-h-barefoot-jr, name:johnson-lyndon-b, name:mills-wilbur-d, name:mccormack-john-w, name:albert-carl, name:mahon-george-h]
+  - id: cal.1968-05-09.elections-1968
+    when: May 9
+    date: '1968-05-09'
+    thread: elections-1968
+    also: [robert-kennedy-campaign]
+    c: 'An unsigned memorandum to Johnson, Kennedy now speaking of "law and order": "some prominent local persons in the ''primary'' states" to "start a frontal attack on Kennedy to keep in the voters'' minds his emotional over-identification with the rioting elements." Johnson does nothing.'
+    n: '[[w.shesol-mutual-contempt]], 450. To check: Unsigned memorandum, May 9, 1968, PL/Kennedy, box 26, LBJ Library (cited by [[w.shesol-mutual-contempt]], 450). Names: Johnson, Robert Kennedy.'
+    src:
+      c: 9663899e
+      rows:
+        - 'w.shesol-mutual-contempt 450: all'
+        - 'via x.1968-05-09.unsigned-memorandum-frontal-attack-on-kennedy: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
   - id: cal.1968-05-10.vietnam-operations
     when: May 10
     date: '1968-05-10'
@@ -568,6 +594,19 @@ entries:
         - 'w.bernstein-guns-or-butter 375: all'
         - 'via w.bernstein-guns-or-butter 375 n.8b: all'
     tags: [name:mills-wilbur-d, name:heller-walter-w]
+  - id: cal.1968-05-10.elections-1968-2
+    when: May 10
+    date: '1968-05-10'
+    thread: elections-1968
+    also: [elections-1968-polls]
+    c: Panzer to Johnson, "Indiana Interpretation," the primary's figures in detail. No sign Johnson does more than read it.
+    n: '[[w.shesol-mutual-contempt]], 450. Check: the memorandum''s figures. To check: Panzer to Johnson, May 10, 1968, Panzer Files, box 397, LBJ Library (cited by [[w.shesol-mutual-contempt]], 450). Names: Johnson.'
+    src:
+      c: 8ba8ea43
+      rows:
+        - 'w.shesol-mutual-contempt 450: all'
+        - 'via x.1968-05-10.panzer-indiana-interpretation: all'
+    tags: [name:johnson-lyndon-b, state:in]
   - id: cal.1968-05-11.elections-1968-state-conventions
     when: May 11
     date: '1968-05-11'
@@ -691,7 +730,7 @@ entries:
     date: '1968-05-14'
     thread: elections-1968
     c: 'Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska; unpledged delegates in West Virginia. Democratic: Kennedy in Nebraska; unpledged delegates in West Virginia.'
-    n: '[*Official Report of the Board of State Canvassers of the State of Nebraska, 1968*, 3, 18](https://govdocs.nebraska.gov/epubs/S1200/S001-1968prim_gen.pdf#page=4); [*West Virginia Blue Book, 1968*, 824, 853](https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_1968.pdf#page=832). CQ Guide 6th (2010) 410. [[w.nixon-rn]], 302–3 (Nixon in Nebraska); [[w.white-making-of-the-president-1969]], 177 (Kennedy''s majority in Nebraska, 51.6 percent). [[w.chester-american-melodrama]], 178 (Reagan 42,703 of 200,476, 21.3 percent, Nixon 140,336, 70; Kennedy 51.7 percent, McCarthy 31.2, of 162,611). See [[cal.1968-03-12.elections-1968]]. Names: Nixon, Kennedy. Check: Nixon gives Nebraska''s Republican vote as Nixon 70 percent, Reagan 22, Rockefeller 5 (303).'
+    n: '[*Official Report of the Board of State Canvassers of the State of Nebraska, 1968*, 3, 18](https://govdocs.nebraska.gov/epubs/S1200/S001-1968prim_gen.pdf#page=4); [*West Virginia Blue Book, 1968*, 824, 853](https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_1968.pdf#page=832). CQ Guide 6th (2010) 410. [[w.nixon-rn]], 302–3 (Nixon in Nebraska); [[w.white-making-of-the-president-1969]], 177 (Kennedy''s majority in Nebraska, 51.6 percent); [[w.shesol-mutual-contempt]], 450 (a labor drive for Humphrey fails in Nebraska; Kennedy over McCarthy by twenty points). [[w.chester-american-melodrama]], 178 (Reagan 42,703 of 200,476, 21.3 percent, Nixon 140,336, 70; Kennedy 51.7 percent, McCarthy 31.2, of 162,611). See [[cal.1968-03-12.elections-1968]]. Names: Nixon, Kennedy. Check: Nixon gives Nebraska''s Republican vote as Nixon 70 percent, Reagan 22, Rockefeller 5 (303).'
     src:
       c: 5168df8c
       rows:
@@ -700,6 +739,7 @@ entries:
         - 'w.nixon-rn 302–3: A, B'
         - 'w.chester-american-melodrama 178: A-B, D'
         - 'w.white-making-of-the-president-1969 177: ?'
+        - 'w.shesol-mutual-contempt 450: ?'
     tags: [primary:1968-05-14, name:nixon-richard-m, name:kennedy-robert-f]
   - id: cal.1968-05-14.state-constitutions-md
     when: May 14
@@ -1499,6 +1539,19 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 379: all'
     tags: [name:deloach-cartha, name:johnson-lyndon-b, name:anderson-jack, name:pearson-drew]
+  - id: cal.1968-05-23.elections-1968
+    when: May 23
+    date: '1968-05-23'
+    thread: elections-1968
+    also: [robert-kennedy-campaign]
+    c: 'Lunch, Johnson, Christian and the columnist Robert Spivack: Spivack, low, that Robert Kennedy is "buying California voters on street corners," his staff at $50,000, delegates'' expenses to Chicago paid. Johnson changes the subject: "The people who support moderation will prevail in 1968."'
+    n: '[[w.shesol-mutual-contempt]], 450. To check: Christian, "Meeting of the President with Robert Spivack, May 23, 1968," Christian Office Files, box 1, LBJ Library (cited by [[w.shesol-mutual-contempt]], 450). Names: Johnson, Christian, Robert Kennedy.'
+    src:
+      c: e0eec51c
+      rows:
+        - 'w.shesol-mutual-contempt 450: all'
+        - 'via x.1968-05-23.christian-meeting-with-spivack: all'
+    tags: [name:johnson-lyndon-b, name:christian-george, name:kennedy-robert-f]
   - id: cal.1968-05-24.elections-1968
     when: May 24
     date: '1968-05-24'
@@ -2461,3 +2514,16 @@ entries:
         - 'w.branch-pillar-of-fire 610: all'
         - 'via w.branch-pillar-of-fire 610 n.jury-deadlocked-11-1.a: all'
     tags: [name:bowers-sam, name:dahmer-vernon, state:ms]
+  - id: cal.1968-05.robert-kennedy-campaign
+    when: May
+    date: 1968-05
+    thread: robert-kennedy-campaign
+    also: [press-and-broadcasting, civil-disorders]
+    c: 'Moynihan in *Commentary*, "The Democrats, Kennedy and the Murder of Dr. King": Johnson''s talk of safe streets and crime control "euphemisms for the forcible repression of black violence"; his program "a vast and noble commitment now pretty much in mothballs."'
+    n: '[[w.shesol-mutual-contempt]], 473. To check: *Commentary*, May 1968, 20, 24 (cited by [[w.shesol-mutual-contempt]], 473, 474). Names: Moynihan, Johnson, Robert Kennedy.'
+    src:
+      c: d9a70649
+      rows:
+        - 'w.shesol-mutual-contempt 473: all'
+        - 'via x.1968-05.moynihan-the-democrats-kennedy-and-king: all'
+    tags: [name:moynihan-daniel-patrick, name:johnson-lyndon-b, name:kennedy-robert-f]

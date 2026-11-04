@@ -1911,6 +1911,12 @@ Rights in Conflict (Walker Report):
 - The 1965 task force report on the cities, printed as appendix 2 of Haar, *Between the Idea and the Reality* (`w.haar-between-the-idea-and`): its pages to read.
 - The press, named and passed over: the *Chicago Tribune* and Arthur Krock in the *New York Times* "outraged" at the Motorola ruling (1964, 74: the days); the *Times* on the price of demonstration cities, double the estimate, and calling the bill "dead" (May 1966, 464); the wire stories on Califano's briefing (1966, 464); Smoot's broadcasts against the bill (1966, 466).
 
+### Shesol, *Mutual Contempt* (batch 3, third run, Nov. 4, 2026; notes/book-checks/shesol-mutual-contempt.md)
+
+- The third run's Passed over rows marked "lead," each with its page; chief among them the days of Feinberg's nomination (1966), Goldman's resignation and Roche's appointment (1966), the Senate doves' meetings (1967), McNamara's memorandum given Kennedy (1967), Christian's memorandum on Wilson (1968), "The People Left Behind" (Sept. 1967), and Johnson at the National Press Club (Jan. 1969).
+- Press: Part III entries to propose for Hayes Redmon (Moyers's press office), Fred Panzer, William Connell (Humphrey's aide), Jerry Bruno, Peter Edelman, Jack Newfield (*Village Voice*), Peter Lisagor (*Chicago Daily News*), Richard Harwood (*Washington Post*), Robert Scheer (*Ramparts*), Penn Kimball, Michael Janeway and Elizabeth Drew (*Atlantic*), each with Shesol's pages.
+- Bundled entries, for the owner (R17): `cal.1968-03-14.robert-kennedy` holds the meeting with Clifford (Mar. 14) and the announcement (Mar. 16); `cal.1968-04-24.elections-1968` holds Freeman's endorsement and the next day's.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its

@@ -23,7 +23,7 @@ entries:
     thread: opinion
     also: [elections-1968-polls, robert-kennedy-campaign]
     c: 'Gallup, Sept. 14–19: Democrats'' choice for 1968: Robert Kennedy 39 percent, Johnson 37, Goldberg 8, Humphrey 6, McNamara 5; no preference 5. The convention''s choice between the two: Kennedy 51, Johnson 39, undecided 10. Those 21 to 29, Kennedy 66; 50 and over, 41.'
-    n: '[[w.gallup-poll]], III, 2083–84. Names: Kennedy, Johnson, Goldberg, Humphrey, McNamara.'
+    n: '[[w.gallup-poll]], III, 2083–84; [[w.shesol-mutual-contempt]], 385 (Kennedy 39, Johnson 37; between the two alone, Kennedy 51, Johnson 39). Names: Kennedy, Johnson, Goldberg, Humphrey, McNamara.'
     tags: [name:kennedy-robert-f, name:johnson-lyndon-b, name:goldberg-arthur-j, name:humphrey-hubert-h, name:mcnamara-robert-s]
   - id: cal.1967-10-02.court
     when: Oct. 2
@@ -94,6 +94,19 @@ entries:
       rows:
         - 'w.macv-command-history-1967 1050: all'
     tags: [name:sharp-u-s-grant]
+  - id: cal.1967-10-02.robert-kennedy
+    when: Oct. 2
+    date: '1967-10-02'
+    thread: robert-kennedy
+    also: [press-and-broadcasting, elections-1968]
+    c: '*U.S. News & World Report*: "Is Robert Kennedy Trying to Upset LBJ in ''68?" His differences with Johnson "political sharpshooting"; the debates "a harassing kind of guerrilla warfare."'
+    n: '[[w.shesol-mutual-contempt]], 397–98. Check: which of the magazine''s pieces the two phrases are from. To check: *U.S. News & World Report*, Oct. 2, 1967, 39–40 (cited by [[w.shesol-mutual-contempt]], 397, 398). Names: Robert Kennedy, Johnson.'
+    src:
+      c: 0609aa48
+      rows:
+        - 'w.shesol-mutual-contempt 397–98: all'
+        - 'via x.1967-10-02.us-news-is-robert-kennedy-trying-to-upset-lbj: all'
+    tags: [name:kennedy-robert-f, name:johnson-lyndon-b]
   - id: cal.1967-10-03.economy
     when: Oct. 3
     date: '1967-10-03'
@@ -436,7 +449,7 @@ entries:
     thread: robert-kennedy-campaign
     also: [elections-1968, democratic-party]
     c: 'New York. Salinger''s meeting on 1968: Edward Kennedy, Stephen Smith, Sorensen, O''Donnell; Robert Kennedy absent. Sorensen for waiting until 1972; O''Donnell: Johnson a bully and a coward who would run from a fight.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 829; [[w.white-making-of-the-president-1969]], 157–58 (Salinger''s meeting at the Regency; Goodwin and Nestingen for running; Dolan to scout and take a poll in New Hampshire). [[w.chester-american-melodrama]], 114 (the meeting, Salinger''s, with Edward Kennedy, Smith, Sorensen, O''Donnell, Robert Kennedy absent; not the date or the words). Check: White gives late October. To check: Joseph Dolan, oral history interview by L. J. Hackman, Apr. 10, 1970, 76; Pierre Salinger, oral history interview by L. J. Hackman, May 26, 1969, 51; Kenneth O''Donnell, oral history interview by L. J. Hackman, Apr. 3, 1969, 7, RFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 829 n.34). Names: Salinger, Edward Kennedy, Stephen Smith, Sorensen, O''Donnell, Robert Kennedy, Johnson. Check: Chester, 114, puts the meeting in November, in Salinger''s suite at the Regency Hotel, some two dozen there, Dutton, Goodwin, Burns, English, Lucey and Nestingen among them, Goodwin alone for running.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 829; [[w.white-making-of-the-president-1969]], 157–58 (Salinger''s meeting at the Regency; Goodwin and Nestingen for running; Dolan to scout and take a poll in New Hampshire); [[w.shesol-mutual-contempt]], 406 (O''Brien there too; Salinger "guaranteed" Johnson would withdraw; recommended: Dolan to poll New Hampshire, Kennedy to get a haircut; O''Donnell: "just the most inconclusive bunch of crap"). [[w.chester-american-melodrama]], 114 (the meeting, Salinger''s, with Edward Kennedy, Smith, Sorensen, O''Donnell, Robert Kennedy absent; not the date or the words). Check: White gives late October. To check: Joseph Dolan, oral history interview by L. J. Hackman, Apr. 10, 1970, 76; Pierre Salinger, oral history interview by L. J. Hackman, May 26, 1969, 51; Kenneth O''Donnell, oral history interview by L. J. Hackman, Apr. 3, 1969, 7, RFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 829 n.34). Names: Salinger, Edward Kennedy, Stephen Smith, Sorensen, O''Donnell, Robert Kennedy, Johnson. Check: Chester, 114, puts the meeting in November, in Salinger''s suite at the Regency Hotel, some two dozen there, Dutton, Goodwin, Burns, English, Lucey and Nestingen among them, Goodwin alone for running.'
     src:
       c: 9ca37fb2
       rows:
@@ -444,6 +457,7 @@ entries:
         - 'via w.schlesinger-robert-kennedy-and-his 829 n.34: all'
         - 'w.chester-american-melodrama 114: A-B'
         - 'w.white-making-of-the-president-1969 157–58: ?'
+        - 'w.shesol-mutual-contempt 406: ?'
     tags: [name:salinger-pierre, name:kennedy-edward-m, name:smith-stephen-e, name:sorensen-theodore-c, name:odonnell-kenneth-p, name:kennedy-robert-f, name:johnson-lyndon-b, state:ny, city:nyc]
   - id: cal.1967-10-08.elections-1968-chicago
     when: Oct. 8
@@ -1373,7 +1387,7 @@ entries:
     thread: opinion
     also: [elections-1968-polls, robert-kennedy-campaign]
     c: 'Gallup, Oct. 6–11: Nixon 49 percent, Johnson 45; Rockefeller 54, Johnson 40; Romney 48, Johnson 45. Robert Kennedy as the Democrat: Nixon 48, Kennedy 47; Rockefeller 47, Kennedy 46.'
-    n: '[[w.gallup-poll]], III, 2086–87. Names: Johnson, Nixon, Rockefeller, Romney, Kennedy.'
+    n: '[[w.gallup-poll]], III, 2086–87; [[w.shesol-mutual-contempt]], 385 n.. Names: Johnson, Nixon, Rockefeller, Romney, Kennedy.'
     tags: [name:johnson-lyndon-b, name:nixon-richard-m, name:rockefeller-nelson, name:romney-george-w, name:kennedy-robert-f]
   - id: cal.1967-10-22.war-opposition
     when: Oct. 22
@@ -1565,6 +1579,19 @@ entries:
       c: 849b4ebc
       rows:
         - 'w.macv-command-history-1967 1279: all'
+  - id: cal.1967-10-24.robert-kennedy-campaign
+    when: Oct. 24
+    date: '1967-10-24'
+    thread: robert-kennedy-campaign
+    also: [robert-kennedy, elections-1968]
+    c: 'Dolan to Robert Kennedy, "1968 Presidential Primary Filing Date Schedule," the first of a running count to the primaries. Dolan calls State politicians, from Dutton''s or Gwirtzman''s law offices: "How does it look for Johnson?" "Everybody was scared shitless."'
+    n: '[[w.shesol-mutual-contempt]], 402. To check: Dolan to Robert Kennedy, Oct. 24, 1967, Dolan Papers, box 1, JFK Library (cited by [[w.shesol-mutual-contempt]], 402). Names: Dolan, Robert Kennedy, Dutton, Johnson.'
+    src:
+      c: 53db73a5
+      rows:
+        - 'w.shesol-mutual-contempt 402: all'
+        - 'via x.1967-10-24.dolan-1968-primary-filing-date-schedule: all'
+    tags: [name:dolan-joseph-f, name:kennedy-robert-f, name:dutton-frederick-g, name:johnson-lyndon-b]
   - id: cal.1967-10-25.vietnam
     when: Oct. 25
     date: '1967-10-25'
@@ -2096,7 +2123,7 @@ entries:
     date: 1967-10
     thread: elections-1968
     c: The Ranch. Johnson dictates to Christian a draft statement of resignation, to be shown to Connally. No decision.
-    n: '[[w.white-making-of-the-president-1969]], 107 (Johnson''s own version of the renunciation). Check: the day; Christian''s account. Names: Johnson, Christian, Connally.'
+    n: '[[w.white-making-of-the-president-1969]], 107 (Johnson''s own version of the renunciation); [[w.shesol-mutual-contempt]], 432 (Johnson tells Christian he wishes to withdraw and asks him to draft a statement; Christian does). Check: the day; Christian''s account. Check: Shesol, 432, gives "the late summer of 1967". Names: Johnson, Christian, Connally.'
     tags: [name:johnson-lyndon-b, name:christian-george, name:connally-john, state:tx]
   - id: cal.1967-10.war-opposition
     when: Oct.
@@ -2201,3 +2228,53 @@ entries:
       c: bcccb378
       rows:
         - 'w.macv-command-history-1967 1280: all'
+  - id: cal.1967-10.robert-kennedy-2
+    when: Oct.
+    date: 1967-10
+    thread: robert-kennedy
+    also: [cities-and-housing]
+    c: 'The day after Johnson brings out his own program for the ghettos, smaller than Kennedy''s, Robert Kennedy to Newfield: "How can they be so petty? I worked on my plan for six months ... Now they came out with this thing, and the first I hear about it is on television."'
+    n: '[[w.shesol-mutual-contempt]], 332–33. Check: the day; Shesol gives Johnson''s plan "three weeks" after the hearings of mid-September. To check: [[w.newfield-robert-kennedy]], 106 (cited by [[w.shesol-mutual-contempt]], 333). Names: Robert Kennedy, Johnson.'
+    src:
+      c: c6302fa0
+      rows:
+        - 'w.shesol-mutual-contempt 332–33: all'
+    tags: [name:kennedy-robert-f, name:johnson-lyndon-b]
+  - id: cal.1967-10.robert-kennedy-3
+    when: Oct.
+    date: 1967-10
+    thread: robert-kennedy
+    also: [vietnam]
+    c: 'Robert Kennedy and Daniel Ellsberg, of Defense, speak on Vietnam to a meeting of CBS executives; in the car to Kennedy''s office after, by Ellsberg''s account: the war a stalemate; his brother "determined not to send ground troops"; Saigon lost? "We would have fuzzed it up. The way we did in Laos." What made his brother so smart? "Because we were there! ... We saw what happened to the French!"'
+    n: '[[w.shesol-mutual-contempt]], 385–86. Check: the day. To check: Ellsberg''s interview with Shesol (cited by [[w.shesol-mutual-contempt]], 385, 386); [[w.schlesinger-robert-kennedy-and-his]], 756 (cited by [[w.shesol-mutual-contempt]], 386). Names: Robert Kennedy, Ellsberg.'
+    src:
+      c: b82d1553
+      rows:
+        - 'w.shesol-mutual-contempt 385–86: all'
+    tags: [name:kennedy-robert-f, name:ellsberg-daniel]
+  - id: cal.1967-10.democratic-party-2
+    when: Oct.
+    date: 1967-10
+    thread: democratic-party
+    also: [robert-kennedy, elections-1968]
+    c: Martin Shepard, 32, of Citizens for Kennedy, charges Johnson with "betraying every promise he made" and "ruining the country," and calls on him to resign. The group, Fulbright's name dropped, claims chapters in more than twenty States; Kennedy disavows it.
+    n: '[[w.shesol-mutual-contempt]], 398–99. Check: the day. To check: *New York Times*, Oct. 29, 1967, 67 (cited by [[w.shesol-mutual-contempt]], 398). See [[cal.1966-09.democratic-party]]. Names: Johnson, Robert Kennedy.'
+    src:
+      c: 645fbcdd
+      rows:
+        - 'w.shesol-mutual-contempt 398–99: all'
+        - 'via x.1967-10-29.nyt-kennedys-backers-to-continue-efforts: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
+  - id: cal.1967-10.elections-1968-5
+    when: Oct.
+    date: 1967-10
+    thread: elections-1968
+    also: [democratic-party]
+    c: 'Rowe to Johnson, "Notes and Comments on: ''A White Paper''": "It is later than we think!"'
+    n: '[[w.shesol-mutual-contempt]], 411. Check: the date; the memorandum is undated, after Sept. 29. To check: Rowe, "Notes and Comments on: ''A White Paper ...''," n.d., Watson Files, box 28, LBJ Library (cited by [[w.shesol-mutual-contempt]], 411). See [[cal.1967-09-29.elections-1968]]. Names: Rowe, Johnson.'
+    src:
+      c: 82ec71ec
+      rows:
+        - 'w.shesol-mutual-contempt 411: all'
+        - 'via x.1967-10.rowe-notes-on-white-paper: all'
+    tags: [name:rowe-james-h-jr, name:johnson-lyndon-b]
