@@ -2015,8 +2015,20 @@ Rights in Conflict (Walker Report):
 
 - The recordings this run names, not heard (Miller Center): Cook, May 14, 1966; Daley, Aug. 16, 1966; Douglas, Oct. 16, 1966; Humphrey, Dec. 31, 1966; Dirksen, Mar. 12 and Oct. 31, 1968; Fowler, Mar. 24, 1968; and those already registered (Wilkins, Goldberg, Wirtz, Reuther).
 - Works the notes cite without a card: Watson, *Lion in the Lobby*; Gould, *Grand Old Party* (2012); Mathias and Morris, "Fair Housing Legislation," *Cityscape* (1999); von Hoffman, "Let Us Continue" (2009); Hulsey, *Everett Dirksen and His Presidents*; Matusow, *The Unraveling of America*; Hayward, *The Age of Reagan*; Gould, *1968*.
-- The sixteen cites above: a reader with the book's index.
+- The sixteen cites the third run could not locate (the book-check's table, "The sixteen cites not located before"): a reader with the book's index (pp. 383–404).
 - Press figures for Part III (R13): Ben A. Franklin, Gene Roberts, John Herbers (*New York Times*); Philip Potter (*Baltimore Sun*); Edwin Dale (*New Republic*, *Times*); Lyn Shepard (*Christian Science Monitor*).
+
+### Bernstein, *Guns or Butter* (batch 3, eighth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
+
+- The rows of the eighth run's Passed over marked "a lead".
+- The statutes of the National Council on the Arts and Cultural Development Act (Sept. 3, 1964) and the Hirshhorn act
+  (Nov. 7, 1966), and the House's vote of 1964 (213–135).
+- The Senate's vote on the arts and humanities bill, June 10, 1965.
+- The Social Security hearings of 1967 (Senate Finance, Aug. 22–Sept. 26), for Robert Kennedy's and Wiley's days.
+- Stanton's talk with Cater on the receiver tax (1967).
+- The Feb. 27, 1968 meeting at Rusk's dining room.
+- Propose Part III entries for Ripley, Stevens, Hirshhorn, Keeney, Heckscher, George Wiley, Elizabeth Wickenden, Maurice
+  Donahue (no name entries).
 
 ## Foreign
 
