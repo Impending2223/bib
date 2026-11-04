@@ -1894,6 +1894,15 @@ Rights in Conflict (Walker Report):
   Sanh; the Schlesinger-Alsop exchange; the *Tampa Tribune*'s editorial of Sept. 30 (983, not read off the page);
   Clifford's message praising MACV's press work ("nine days later," 970).
 
+### Kotz, *Judgment Days* (batch 3, third run, Nov. 4, 2026; notes/book-checks/kotz-judgment-days.md)
+
+- The Miller Center's recordings of Aug. 1964 that Kotz's notes cite and the series has not heard: Wilkins (Aug. 15), Eastland (Aug. 17, 22, 23), Daley, Reuther (Aug. 1, 9, 17, 21, 24), Wirtz, Humphrey (Aug. 14, 20, 25), Rowe, Hoyt, Jenkins, Russell, Sanders, Wynn, Barr; and of 1964–65: Katzenbach (Nov. 11, Dec. 14, Feb. 5), DeLoach (Nov. 20), King (Jan. 15), Powell (Mar. 1), Humphrey and Russell (Mar. 6), McNamara (Mar. 6).
+- *S. Rep. No. 94-755*, Book III (1976), open on the Senate's site: pp. 81, 143–63 print or describe the FBI's papers on King of Oct. 1963–Jan. 1965 that Kotz cites (the report of Dec. 1, Moyers's note, the anonymous letter): to read and cite as the primary record.
+- Russell's handwritten notes, Aug. 20 and 25, 1964 (Richard B. Russell Library, University of Georgia); Lady Bird Johnson's diary, Mar. 7, 1965 (LBJ Library).
+- Kotz's interviews of this run: Moses, Markman, Edwin King, Victoria Gray Adams, Guyot, Stegall, Patterson, Farmer, Bradlee, Burke Marshall, Graham and Herbers, Vivian, Cotton, Mathias, Hosea Williams, John Lewis, Lee White, Lynda Bird Johnson Robb, Ken Young and Larry Levinson, Christian: not deposited.
+- Anne Romaine's interviews (Rauh, Edwin King, Hamer), State Historical Society of Wisconsin: the pages Kotz cites.
+- Press figures for Part III (R13): Palmer Hoyt (*Denver Post*), James McCartney (*Chicago Daily News*), David Kraslow (*Los Angeles Times*), Eugene Patterson (*Atlanta Constitution*), Fred Graham and John Herbers (*New York Times*), with Kotz, 212, 239, 248–49.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its

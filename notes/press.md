@@ -119,7 +119,10 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1964-08-08 | *New York Times* | p. 7 | "Chaney Was Given a Brutal Beating" | Branch, *Pillar of Fire*, 440
 1964-08-21 | *Life* | cover | Khánh at the "front" in a jeep under ferns | Branch, *Pillar of Fire*, 443
 1964-08-22 | NBC | the hearing | Edwin Newman cuts from Hamer to Goralski at the White House | Branch, *Pillar of Fire*, 459
+1964-08-22 | the networks | evening, prime time | Hamer's testimony replayed after Johnson's press conference cut it off | Kotz, *Judgment Days*, 205
 1964-08-25 | *New York Times* | front page | "Unbroken Harmony" | Branch, *Pillar of Fire*, 467
+1964-08-25 | NBC | convention coverage | John Chancellor questions Moses on the compromise | Kotz, *Judgment Days*, 220
+1964-08-25 | *New York Times* | front page | Tom Wicker, "Keynoter Is Fiery" (Pastore) | Kotz, *Judgment Days*, 212 n.59
 1964-09-21 | *Newsweek* | article | "The Nuclear Issue" | Goldberg, *Barry Goldwater*, 226 n.84
 1964-09-25 | *Time* | cover | "The Itchy-Finger Image," the daisy girl on the cover | Goldberg, *Barry Goldwater*, 226 n.85
 1964-09-27 | *New York Times* | front page | "F.B.I. Says Riots Had No Pattern or Single Leader" | Branch, *Pillar of Fire*, 421
@@ -127,13 +130,16 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1964-10-04 | *New York Times* | front page | "Violence Not Linked to Triple Murder" | Branch, *Pillar of Fire*, 506
 1964-10-04 | *New York Times* | front page | the *Herald Tribune*'s endorsement of Johnson | Branch, *Pillar of Fire*, 515
 1964-10-10 | *Atlanta Journal* | front page | "Johnson Hits at Hatred as Southern Vote Bait" | Branch, *Pillar of Fire*, 515
+1964-10-12 | the papers | front pages | the Jenkins arrest | Kotz, *Judgment Days*, 225
 1964-10-23 | *New York Times* | front page | "No Evidence Is Uncovered That Ex-Presidential Aide Compromised Nation" | Branch, *Pillar of Fire*, 518
 1964-11-05 | *New York Times* | front page | "White Backlash Doesn't Develop" | Branch, *Pillar of Fire*, 522
 1964-11-19 | *New York Times* | front page | "Hoover Assails Warren Findings" | Branch, *Pillar of Fire*, 527
 1964-11-19 | *Washington Post* | front page | Hoover's "Blast at Police Corruption" | Branch, *Pillar of Fire*, 527
+1964-11-19 | *Washington Post*, *New York Times*, *Evening Star* | front pages | Hoover on King, "the most notorious liar" | Kotz, *Judgment Days*, 229–30 nn.2, 4
 1964-11-23 | Joseph Alsop's column | column | Ball's dissent; "Ball's knowledge of Asia could be comfortably contained in a fairly small thimble" | Ball, *The Past Has Another Pattern*, 384
 1964-11-25 | *New York Times* | front page | "Congolese Forced American Officials to Eat U.S. Flag" | Branch, *Pillar of Fire*, 538
 1964-12 | *New York Herald Tribune* | interview | Khánh accuses Taylor of "activities beyond imagination" | Westmoreland, *A Soldier Reports*, 94
+1964-12-01 | *Chicago Daily News* | — | McCartney offered King material outside Hoover's office, and declines (an entry) | Kotz, *Judgment Days*, 239
 1964-12-08 | *New York Times* | front page | police drag Savio from the stage | Branch, *Pillar of Fire*, 544
 1964-12-21 | *New York Times* | p. 20 | "Malcolm Favors a Mau Mau in U.S." | Branch, *Pillar of Fire*, 548
 1964-12-29 | *New York Times* | front page | Atlanta against the King dinner | Branch, *Pillar of Fire*, 550
@@ -141,8 +147,10 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-01-07 | *New York World-Telegram* | item | "Rockefeller Wants More of Everything" | Smith, *On His Own Terms*, 459
 1965-01-08 | *New York Herald Tribune*, David Lawrence | item | "Rockefeller's Great Society Plan" | Smith, *On His Own Terms*, 456 n.
 1965-01-11 | *New York Times* | front page | a second Klan confession | Branch, *Pillar of Fire*, 558
+1965-01-26 | *New York Times* | front page | Clark beating Annie Lee Cooper, a photograph | Kotz, *Judgment Days*, 263 n.
 1965-02-02 | *New York Times* | front page | "Dr. King and 770 Others Seized" | Branch, *Pillar of Fire*, 577
 1965-02-03 | *New York Times* | front page | "520 More Seized" | Branch, *Pillar of Fire*, 577
+1965-02-05 | *New York Times* | full-page advertisement | "Letter from the Selma Jail" | Kotz, *Judgment Days*, 268
 1965-02-06 | *New York Times* | front page | "Dr. King to Seek New Voting Law" | Branch, *Pillar of Fire*, 581
 1965-02-07 | *Washington Post* | p. E1 | youth's charges against King, "hit-and-run" | Branch, *Pillar of Fire*, 587
 1965-02-09 | *Montgomery Advertiser* (AP) | front page | "Negroes Don't Know What They Want" | Branch, *Pillar of Fire*, 587
@@ -156,6 +164,8 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-02-25 | *Chicago's American* | front page | Wallace Muhammad's submission to the Nation | Branch, *Pillar of Fire*, 601 (708)
 1965-02-28 | *New York Times* | p. 74 | "World Pays Little Attention to Malcolm Slaying" | Branch, *Pillar of Fire*, 598
 1965-03-03 | *Los Angeles Times* |  | Judge Coleman's suspensions in the Stokes case | Branch, *Pillar of Fire*, 604 n.
+1965-03-07 | ABC | 9:30 p.m., a bulletin into *Judgment at Nuremberg* | fifteen minutes of the bridge | Kotz, *Judgment Days*, 285
+1965-03-08 | *New York Times* | front page | Roy Reed's account of the bridge | Kotz, *Judgment Days*, 284
 1965-07 | *Life* | picture | Ball in tears at Stevenson's memorial service (Check: the issue) | Ball, *The Past Has Another Pattern*, 152
 1965-07-12 | *Newsweek*, Emmet John Hughes | item | "An Untold Tale" | Smith, *On His Own Terms*, 473 n.
 1965-09-24 | Joseph Alsop's column | column | the B-52s in South Vietnam, the press "favorably impressed" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1965 vol., 193
