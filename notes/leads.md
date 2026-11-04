@@ -1815,6 +1815,15 @@ Rights in Conflict (Walker Report):
 - The Mar. 1965 memorandum of Bundy's for a speech on Kennedy's policy (cal.1965-03.vietnam-support): Preston names no document; Small, *Johnson, Nixon, and the Doves*, 40, and Reeves, 660-61, may.
 - (The reader's query on `w.bird-color-of-truth` carrying William Bundy's role line as a note: the card has no note now; the line is not on the card, nor on the Viet. II.H.1 listing.)
 
+### Bird, *The Color of Truth* (batch 3, Nov. 4, 2026; notes/book-checks/bird-color-of-truth.md)
+
+- The Public Broadcasting Laboratory's $10 million (1967), the Bedford-Stuyvesant Corporation's Ford grant (1966), the
+  Southwest Council of La Raza's (1968): the days, from the Ford Foundation's annual reports or the *Times*.
+- Forrestal's Kraft interviews (1964) and Joseph Kraft's papers; Bird's "Harriman/Bird Papers" (the Harriman papers held
+  by Bird), where they went.
+- I. F. Stone's "Reply to the White Paper": *I. F. Stone's Weekly*, Mar. 8, 1965 (the issue to confirm).
+- Kraft and I. F. Stone have no name entries: propose Part III entries (R13).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2898,6 +2907,11 @@ CQ Weekly Report, 1968-08-30:
 - Peru, December 1961: where and how the two students' statement was made (231 n.4).
 - The Kennedy administration's retention of Thompson at Moscow (248): the roster holds his tenure; no date
   given here.
+
+### Bird, *The Color of Truth* (batch 3, Nov. 4, 2026; notes/book-checks/bird-color-of-truth.md)
+
+- Indonesia, 1965-66 (Bird 351-354): the CIA's assessment of Jan. 3, 1966, and Komer's report to Johnson of Feb. 10,
+  1966 ("some 100,000 Communists have been killed"): to set against the Indonesia thread.
 
 ## The Executive roster
 
