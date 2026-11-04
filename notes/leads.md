@@ -1903,6 +1903,14 @@ Rights in Conflict (Walker Report):
 - Anne Romaine's interviews (Rauh, Edwin King, Hamer), State Historical Society of Wisconsin: the pages Kotz cites.
 - Press figures for Part III (R13): Palmer Hoyt (*Denver Post*), James McCartney (*Chicago Daily News*), David Kraslow (*Los Angeles Times*), Eugene Patterson (*Atlanta Constitution*), Fred Graham and John Herbers (*New York Times*), with Kotz, 212, 239, 248–49.
 
+### Bernstein, *Guns or Butter* (batch 3, fourth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
+
+- The fourth run's Passed over rows marked "a lead".
+- The roll calls of Tower's amendment, June 11, 1964 (49 to 38), and the Senate Republicans' policy luncheon of Apr. 28, 1964 (Voteview; the Record).
+- Califano's letter of Sept. 27, 1968, to the departments (Task Force Subject File, LBJ Library).
+- The 1965 task force report on the cities, printed as appendix 2 of Haar, *Between the Idea and the Reality* (`w.haar-between-the-idea-and`): its pages to read.
+- The press, named and passed over: the *Chicago Tribune* and Arthur Krock in the *New York Times* "outraged" at the Motorola ruling (1964, 74: the days); the *Times* on the price of demonstration cities, double the estimate, and calling the bill "dead" (May 1966, 464); the wire stories on Califano's briefing (1966, 464); Smoot's broadcasts against the bill (1966, 466).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
