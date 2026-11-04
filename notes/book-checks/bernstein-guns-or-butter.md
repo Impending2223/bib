@@ -318,9 +318,185 @@ Republicans' policy luncheon of Apr. 28 (Voteview; the Record); Califano's lette
 (Task Force Subject File, LBJ Library); the 1965 task force report, printed as appendix 2 of Haar, *Between the Idea and
 the Reality*: a card the series holds (`w.haar-between-the-idea-and`), its pages to read.
 
+## Fifth run (b3-bernstein-guns-5), Nov. 4, 2026
+
+Read from the same copy (649 PDF pages; the offsets hold: −11 to p. 244, −43 after the plates, checked against the
+running heads of every page read and off the page images at pp. 109 and 548). Read whole, with their notes: ch. 4, "The
+War on Poverty," pp. 82–113 (nn. 1–9, pp. 548–50); ch. 5, "Prelude: The 1964 Election," pp. 117–55 (nn. 1–9, pp.
+550–52); ch. 6, "Medicare: The Jewel in the Crown," pp. 156–82 (nn. 1–6, pp. 552–53); ch. 7, "Breakthrough in
+Education," pp. 183–213 (nn. 1–9, pp. 554–56). How the list was made: every page read; each sentence dating something
+to a year, a month or a day held against the tree and the ledger (`./bib ledger find`, the day's entries in every
+thread, and `./bib find --thread` for poverty, medicare and school-aid over the chapter's span); the hearings' days from
+the Daily Digest's rows (`daybook/committees/`), read; the Oct. 3, 1964 news conference read in the Public Papers' text.
+Bernstein's notes run one to a section; each record is edged at the text page it stands behind, letters after the
+note number telling them apart. The twelve cites still behind "To check" (fourth run's table) fall in none of these
+chapters (they are economic, ch. 14 and on); none was found here.
+
+Patch `inbox/2026-11-04-b3-bernstein-guns-5.yaml`, 255 ops: 97 entries added (ch. 4, 19; ch. 5, 12; ch. 6, 32; ch.
+7, 34), 123 cites (some on other readers' pending entries), 24 Checks, 5 To check, 6 claim-map rows. Witnesses
+`inbox/witnesses/2026-11-04-b3-bernstein-guns-5.yaml`: 82 new, 3 amendments (Gordon, Schultze, O'Brien oral histories:
+the parts Bernstein cites); 181 edges for `w.bernstein-guns-or-butter` at the file's foot, for the merger to append to
+`sources/witnesses/by-work/bernstein-guns-or-butter.yaml`. The entries' `via` rows name witnesses directly (`via
+x.…`), not the work's edges, so patch-check passes without the edges appended: 0 errors, 22 warnings, every one a
+"one event?" flag, each read against its neighbor and distinct (a staff memorandum beside a call or a vote of the
+same day; two counts of one day from different hands).
+
+### Cites added, with the disagreements (R33)
+
+Ch. 4 (the war on poverty): May 1, Oct., Oct. 20 (Sundquist's pending), Nov. 5, 19, 23, Dec., Dec. 29, 1963; Jan. 8,
+20, 21, Jan., Feb. 1, Feb. 2 (Sundquist's pending), Mar. 16, 17, Apr. 24, May 26 (Zelizer's pending), July 23, 28
+(Zelizer's), Aug. 7 (two), Aug. 8 (two), Aug. 20, Oct. 16, 1964. Checks: Nov. 5, 1963, Bernstein "more than 100
+specific proposals" (the entry, fifty-eight); Mar. 16, 1964, $962.5 million (the entry, $970 million); Apr. 24, 1964,
+"five states in Appalachia in one day"; May 26, 1964, Bernstein dates the committee's report June 3 (H.R. Rep. No.
+1458); Aug. 7, 1964, the meeting in McCormack's office dated Aug. 6 (Evans and Novak); Aug. 20, 1964, Bernstein
+gives Aug. 24 for the signing (the statute's day stands); July 22, 1964 (new), Smathers's Job Corps amendment, perhaps
+the 80–7 amendment of July 23.
+
+Ch. 5 (1964): the draft-Goldwater entries of Sept. 7, Oct. 8, Nov. 17, Dec. 10, 1961, Oct. 18, Nov. 12, Dec. 2, 1962,
+Jan. 14, Apr. 8 (two), May 4, Dec. 8, 1963; the YAF founding, Sept. 10, 1960; Jan. 3, 7, Feb. 16, Mar. 10, Apr. 7, May
+5, 14, 15, 19, June 2, 12, 28, July 14, 15, 17, July (Hickory Hill), July 22, 27, 29 (two), 30, 31, the Rowe porch
+(July), May (Johnson to Humphrey), Aug. 12, 22, 23 (two), 24 (two), 25 (three), 26 (two), 27, Sept. 7, 28, Oct. 4,
+14 (three), 27, Nov. 3, 1964. Checks: Dec. 8, 1963 ("Our cause is lost"); Jan. 7, 1964 (the Concord press conference,
+the morning after Jan. 5); Mar. 10, 1964 (Lodge 33,521, Goldwater 21,775); June 28, 1964 (a second Gallup, 22–22–19–18–8);
+July 31, 1964 (the luncheon July 30); Sept. 7, 1964 (the spots "in mid-September"); Oct. 14, 1964 (Buffalo and
+Brooklyn "the next day"); Nov. 3, 1964 (43,126,218 to 27,174,898); May 1964 (Johnson's "If I just had my choice" from
+March).
+
+Ch. 6 (Medicare): Nov. 13, 1963; Jan. 8, Feb. 10, May (Zelizer's), June 24, July 29, Sept. 2, 28, Dec. 2, 1964; Jan.
+4 (Zelizer's), 7, 27, Feb. 4, Mar. 2 (two, one Zelizer's), 23, 26, Apr. 8, June 20 (Zelizer's), July 9, 27 (Zelizer's
+and the Gardner appointment), 29, 30, 1965; July 1, 1966. Checks: the Gore amendment 49 to 46 (the entry 49–44); Byrnes's
+bill Jan. 28, 1965 (the entry Feb. 4); Cohen's written report in the Oval Office Mar. 3; the AMA's officers "June 29"
+in the text, July 29 in the note; the signing "June 30, 1965" in the text (the entry, July 30, stands); May 1964, the
+cigarette companies' gift of Feb. 7 before Watts's change.
+
+Ch. 7 (education): July 6, 1964 (Zelizer's); Jan. 12 (two), Feb. 5 (Zelizer's), Feb. 8, Mar. 2 (Zelizer's), 24, 26,
+Apr. 9, 11, Aug. 26, Oct. 20, Nov. 8, 1965. Checks: the Senate bill S. 600 (the entry, S. 370); the subcommittee's
+markup "Monday, February 8" (Zelizer's Feb. 5). And, from ch. 4 and 5 pages: Keyserling (Sundquist's Apr. 1962); E.O.
+10940 (Check: Bernstein has the 1961 act establish the committee); DeLoach at Atlantic City.
+
+### New entries (97)
+
+Ch. 4: Jan. 19, 1963 (MacDonald, "Our Invisible Poor"); Mar. 1963 (the Cumberland Plateau a disaster area); June,
+summer, 1963 (Capron's Saturday club); Sept. 1963 (Sorensen's assignments; Capron's canvass); Nov. 6, 1963 (Hackett to
+Heller); Dec. 14, 1963 (Cannon's memorandum); 1964: Jan. 31 (the Rose Garden), Feb. 1 (the three calls), Mar. 18
+(McNamara, Celebrezze, Keppel), Mar. 19 (Wirtz), Apr. 7 (Robert Kennedy), June 17 (the Senate hearings), July 16
+(Shriver's count), July 22 (Smathers), July 31 (O'Brien's count), Aug. 7 (Ayres, Landrum), Aug. 11 (the Senate concurs;
+Evans and Novak's columns); June 1966 (Harding). Ch. 5: Dec. 1, 1962; Jan. 14, Apr. (the pool), July (Harris), July 30
+(Rowe to Humphrey), Aug. 22 (Mansfield), Aug. 26 (McCarthy's telegram), Oct. 3 (O'Donnell), Oct. 9 (the Parker
+House), Oct. 15 (Quayle), Oct. 22 (Bailey's school polls), Oct. 29 (Moyers's composite), 1964. Ch. 6: Nov. 18, 22,
+1963; 1964: Jan. 20, Jan. (Annis in Kentucky), Feb. 7, 17, July 7, 13, 20 (two), Aug. 6, 13, 20, Sept. 4, Oct. 1, 3 (the
+news conference, the Papers read), Nov. 15; 1965: Jan. (the Fish Room), Mar. 3 (two), Apr. 13, 29, May 5, June 16
+(Manatos), 17, 18, 21, 30, July 6, 16, 26; May 29, 1966 (Gardner and Ball). Ch. 7: 1964: May 30, July 2, Nov. 14 (the
+Gardner report), Nov. 30 (the Ranch), Dec. (the monsignori), Dec. 12 (HELP); 1965: Jan. 6, Jan. 12 (the loan
+agreement), Jan. 22, 26, Feb. 16, 24, 25, 26 (two), Mar. 1, Mar. (Loomis), Mar. 22, 30, Apr. 2 (HEW), Apr. 5, 8
+(Ervin), 13, May 18, 21, June 8, 14 (Ink), 23 (the House Republicans), 24, July 11, 17, Aug., Sept. 1, 10.
+
+### The witnesses
+
+New, nearly all LBJ Library holdings, unread (`closed archive`): the staff memoranda the notes name for the new
+entries (Wilson, Manatos, O'Brien, O'Donnell, Cater, Cohen, Valenti, Bailey, Celebrezze, Ribicoff, Dillon, Wirtz,
+Gardner), the hearings and reports (the House and Senate poverty hearings, H.R. Rep. No. 1458, S. Rep. Nos. 1218 and
+1513, Ways and Means's and Finance's Medicare hearings, H.R. Doc. No. 243), the Record's pages, the oral histories
+(Shriver, Yarmolinsky, Sundquist, Rovere, Schlei, Cohen at the LBJ Library and at Columbia, Cater, Keppel, Gardner),
+the studies without cards (Bibby and Davidson, Weeks, Graham in Seligman, Yarmolinsky in Sundquist's *On Fighting
+Poverty*, Manley, David, Bailey and Mosher, Martin's "Election of 1964," Pomper, CQ Almanac 1964 and 1965). Edged to
+the registry's: Heller's notes of Nov. 23, 1963; Welsh to Johnson, July 27, 1964; O'Brien to Johnson, Oct. 4, 1964;
+Cohen to O'Brien, Aug. 13, 1964; Cohen to Johnson, Mar. 2, 1965; the Gordon, Schultze, O'Brien, Rowe, Rauh and Hesburgh
+oral histories. To the cards: Schlesinger, Caudill, Harrington, the Council's 1964 report, Johnson's *Vantage Point*,
+Sundquist, Evans and Novak, Rusher, White's *Suite 3505* and *Making 1964*, Novak, Goldwater, Rovere, *RFK in His Own
+Words*, Shadegg, Goodwin, Kearns, Lady Bird Johnson's diary, Clifford, Schlesinger's *RFK*, Humphrey, Eisele, Garrow,
+Murphy, Harris's *Sacred Trust*, Corning, Marmor, Graham's *Uncertain Triumph*, Eidenberg and Morey.
+
+Near matches for a reader: `x.undated.sargent-shriver-oral-history-interview-lbj` (Bernstein's parts I–IV) and
+`x.1980-08-20.sargent-shriver-oh-aug-20-1980`, perhaps one series; `x.undated.adam-yarmolinsky-oral-history-interview-lbj`
+and `x.1970-07-13.adam-yarmolinsky-oral-history-july-13-1970` (pp. 17–19 in both): perhaps one; the Keppel oral
+histories already registered (`x.1968-07-18.francis-keppel-oral-history-by-john`, `x.undated.francis-keppel-oral-history-by-david`)
+beside the new `x.undated.francis-keppel-oral-history-interview-lbj`.
+
+### Passed over (fifth run)
+
+| Page | Date | Event | Why |
+| --- | --- | --- | --- |
+| 82–86 | 1849–1959 | the history of poverty; Booth, Riis; the migration north | out of the brief (before the span) |
+| 86–87 | 1959 | Lampman's study paper for the Joint Economic Committee | out of the brief (before the span) |
+| 88–89 | 1955–61 | Duhl's Space Cadets; Ylvisaker's Gray Areas; Mobilization for Youth; Cloward and Ohlin | a lead (the days) |
+| 89 | 1961 | Lewis, *The Children of Sanchez* | out of the brief (a study, no act) |
+| 90 | 1960 | Murrow's "Harvest of Shame" on CBS | the press: a lead (the day) |
+| 90–91 | 1962 | Caudill's *Night Comes to the Cumberlands*; Harrington's *The Other America* | a lead (the months) |
+| 92 | spring 1963 | Kennedy on the poor not angrier; Schlesinger on a broad war on poverty | a lead (undated) |
+| 97 | Dec. 1963–Jan. 1964 | the Cabinet Room meeting on the program's name; Hesburgh | a lead (the day) |
+| 100–102 | Feb.–Mar. 1964 | Yarmolinsky's deputy post; Shriver to Lee; Harrington's "nickels and dimes"; the Job Corps fight | a lead (the days) |
+| 105–6 | 1964 | Rovere to Johnson; the Cabinet on a cigarette tax; Reston's "Franklin Delano Hoover twist"; Lady Bird Johnson in the anthracite district | a lead (the days) |
+| 106 | Mar.–Apr. 1964 | Whitney Young before the House subcommittee | a lead (the day: the hearings) |
+| 107 | 1964 | Johnson to Meany on Landrum; Powell and Haryou | a lead (the days) |
+| 108 | Mar.–Apr. 1964 | Green and Shriver on women in the Job Corps | a lead (the day) |
+| 110 | July 1964 | Smith holds the rule past the convention; Halleck to each Republican | a lead; Halleck in Zelizer's July 31 entry |
+| 113 | 1980 | Yarmolinsky's later views | out of the brief (after the span) |
+| 117 | 1962 | Morhouse on the "slough of defeat" | a lead (the day) |
+| 118–21 | 1944–57 | the conservative books and journals | out of the brief (before the span) |
+| 123 | 1963 | Lippmann's column on Goldwater; Kennedy asks him to hold off; Goldwater to Stewart Alsop | the press: a lead (the days) |
+| 124 | 1960 | Goldwater's column, 162 papers; *The Conscience of a Conservative* | a lead (the months) |
+| 125 | 1961–62 | Rockefeller and Goldwater meet regularly | a lead (the days) |
+| 127 | May 1963 | Gallup: Goldwater 40, Rockefeller 29 | the polls: a lead (the release) |
+| 134 | Mar. 1964 | Jenkins to O'Brien at the Gridiron dinner | a lead (the day) |
+| 134 | 1964 | Henshaw's "Washington Pipeline" on Johnson and Kennedy | the press: a lead (registered: Spain to Manatos, July 30) |
+| 134 | Mar.–Apr. 1964 | the Vice Presidential write-in in New Hampshire (Bernstein's 29,600 to 25,900); Gallup of Democrats, Kennedy 47 | a lead (the figures, the release) |
+| 136 | July 30–31, 1964 | Kennedy's call to Johnson after the luncheon; Rowe tells Stevenson; "Hubert, it's you" | a lead (the days) |
+| 139–40 | 1964 | Connally and Jenkins against Humphrey; Lady Bird Johnson for McCarthy; Gallup of county chairmen; Harris on Humphrey and Miller | a lead (the days) |
+| 143–45 | Sept. 1964 | Goldwater at Hammond, Dodger Stadium, Prescott, Boise, Fargo, Milwaukee; Rovere with him in the South | a lead (the days) |
+| 145–46 | Sept.–Oct. 1964 | Team D, Feldman and Dutton; the DNC; Rowe's citizens' committees; Fowler's committee | a lead (the days; Feldman to Moyers, Sept. 10) |
+| 147 | Oct. 1963 | Goldwater: commanders to use tactical nuclear weapons | a lead (the day) |
+| 149 | Sept. 1964 | St. Petersburg; the Crampton Bowl rally | a lead (the days) |
+| 153 | Sept.–Oct. 1964 | Humphrey's stops, Sept. 27–Oct. 2; the polls for Rockefeller ("September 31," Oct. 30) | a lead |
+| 154 | Sept.–Oct. 1964 | *Fact*'s poll of psychiatrists; the newspapers' and church papers' endorsements | the press: a lead (the days) |
+| 155 | Dec. 12, 1964 | Cormier's $5 bet | minor |
+| 156–58 | 1934–61 | Cohen's career; Kerr-Mills; Forand's bill | out of the brief (before the span) |
+| 160 | 1960, 1962 | Ways and Means's votes, 17 to 8, 14 to 11 | a lead (the days) |
+| 161 | Nov. 1963 | the Millses to dinner at the White House | a lead (the day) |
+| 162 | Jan. 1964 | Javits to Johnson, Jan. 27; Cohen to Feldman, Jan. 29, on the Javits bill | a lead (the memoranda) |
+| 164 | 1964 | Johnson reminds Clark Thompson of his 2,500 letters | a lead (the day) |
+| 168 | Sept. 1964 | the conference's two weeks; Smathers and Long brought round | a lead (O'Brien to Johnson, Sept. 13, 24) |
+| 170 | Jan. 1965 | Bow to the House Republicans; Ford for Halleck | in the tree (Bow, Jan. 5; the leadership) |
+| 172 | Mar. 1965 | Ackley on the fiscal drag | in the tree (Mar. 17); Ackley to Johnson, Mar. 11, a lead |
+| 176 | July 1965 | the Senate's floor amendments (Hartke, Ribicoff, Gore's for doctors) | a lead (the days) |
+| 179 | 1965 | the Ohio Medical Association's boycott resolution | a lead (the day) |
+| 181 | 1965–66 | beds, nurses, medical schools; Gordon's advisory council | a lead |
+| 183–84 | 1920–30s | Johnson's schooling | out of the brief (before the span) |
+| 184 | 1960–62 | the Hovde task force; Kennedy's bills of 1961–62; Keppel commissioner | a lead (the days) |
+| 186 | 1964 | Pechman's task force in the *Times* | the press: a lead |
+| 190 | late 1964 | Keppel's dinners with the lobbies | a lead (the days) |
+| 193 | Jan. 1965 | POAU; the Conference of Mayors; Cater's count of telegrams | a lead (Cohen to Moyers, Jan. 14) |
+| 196 | Mar. 1965 | Green at lunch and in the Oval Office; Green and the Appalachia bill | a lead (the days) |
+| 197–98 | Mar. 23–26, 1965 | Celebrezze's and O'Brien's counts; Valenti on Green and the Jewish vote; Powell "burning mad" | a lead (Valenti to Johnson, Mar. 23, 24; Cater to Johnson, Mar. 26, 30) |
+| 207 | Feb.–Mar. 1965 | Green's subcommittee hearings, 15 days; the ABA's testimony | a lead (the days) |
+| 209 | Mar., June, Aug. 1965 | Morse's hearings on higher education; the Republicans stalling | a lead (the days) |
+
+### The press (fifth run)
+
+| Date | Outlet | Item | Page |
+| --- | --- | --- | --- |
+| 1963-01-19 | *The New Yorker* | Dwight MacDonald, "Our Invisible Poor" (entered) | 92 |
+| 1963-10-20 | *New York Times* | Homer Bigart on poverty in the Cumberlands (Sundquist's pending entry, cited) | 91 |
+| 1964-08-11/12 | Evans and Novak's column | the dumping of Yarmolinsky (entered) | 111 |
+| 1964-01-06 | *Concord Daily Monitor* | "Goldwater Sets Goals: End Social Security, Hit Castro" (in the Jan. 7 cite) | 128 |
+| 1965-01-13 | *New York Times*, *Washington Post* | editorials on the education message (day not given) | 192–93 |
+
+### Leads (fifth run)
+
+National: the rows above marked "a lead"; the Juvenile Delinquency and Youth Offenses Control Act of 1961, its day and
+Statutes cite; Lampman to Heller, June 10, 1963 (Administrative History of the Council, LBJ Library); the poverty
+hearings' printed volumes (House, pt. 1, pp. 6–7, 64–65, 108–9, 114–15, 146, 184–85, 309, 314, 631–36) and the
+Record of July 22–23 and Aug. 7, 1964, for the days of Green's, McNamara's and Kennedy's exchanges and Smathers's
+amendment; the Ways and Means hearings of 1963–64 (pt. 2, 644, 650–51) for Annis's day; the Teaching Professions
+message of July 17, 1965 in the Public Papers; the ABA's agreement (July 11 or later; Cater to Johnson, Aug. 25,
+1965). The press: Murrow's "Harvest of Shame"; Reston's "Franklin Delano Hoover twist"; Lippmann's 1963 column on
+Goldwater; Henshaw's "Washington Pipeline" (attached to Spain to Manatos, July 30, 1964). Propose a Part III entry for
+Douglass Cater (White House staff, education and Medicare), who has no name entry.
+
 ## Not read
 
-Chs. 4–11, 13, 15–17 and 19–20 but the pages named above: the poverty program, 1964, Medicare, education, Selma,
-immigration, the environment, 14(b), Vietnam, turmoil, the minimum wage and Social Security, the arts, the collapse of
-1968. A later reader should take them chapter by chapter, starting with ch. 4, and hold the twelve cites still behind
-"To check" (above) as they go. The notes of ch. 7 (behind p. 185) not read.
+Chs. 8–11, 13, 15–17 and 19–20 but the pages named above: Selma, immigration, the environment, 14(b), Vietnam,
+turmoil, the minimum wage and Social Security, the arts, the collapse of 1968. A later reader should take them chapter by
+chapter, starting with ch. 8, and hold the twelve cites still behind "To check" (fourth run's table) as they go; their
+matter is economic (chs. 14, 19, 20 searched by the fourth run; none in chs. 4–7). Ch. 4–7 read whole, with their notes
+(fifth run).
