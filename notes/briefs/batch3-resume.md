@@ -235,3 +235,34 @@ empty; the ledger too. For the next merger:
 - After the last merge: `./bib check` 0 errors, 26 warnings (Bird's three starred footnotes [italics], the Thomson
   cross-reference, the calendar's standing aggregate counts); `./bib audit-cal` committed; a full `./bib build` clean
   (about ten minutes); `./bib links`: 0 links to missing anchors.
+
+
+(The fifth merger, Nov. 4, 2026, 1:40-2:10 a.m. Pacific, after the last runs of Kotz, Zelizer and Bernstein.)
+
+Merged, in order, each by `./bib merge --auto` (no `--legacy`), its pending witnesses folded alone (`fold.py FILE`; the
+edges were already in the by-work files), checked, committed and pushed: kotz-5 (33 ops; 12 witnesses), zelizer-3 (104
+ops; 57), bernstein-guns-8 (236 ops; 125) (`inbox/merged/`). The inbox is empty; the ledger too (every claim of the three
+landed). With these Kotz, Zelizer (but pp. 1-2) and Bernstein are read whole. For the next merger:
+
+- Every edit's base was current (kotz-5's two, zelizer-3's one, bernstein-guns-8's twelve, re-read after each merge):
+  applied as written, each diffed against the tree first (only the reader's additions, or Bernstein cut from "To check").
+- The "one event?" flags, 34, read pair by pair (`dups2.py` in the scratchpad's `merge5/`; `keepdups.py`). Combined: the
+  evening meeting of Nov. 3, 1967 (Bernstein's `cal.1967-11-03.elections-1968-2` into `cal.1967-11-03.elections-1968`,
+  which held it: Rowe added to unit B, the note joined, Bernstein's Check on the day kept, the oral history's via row on
+  B-C). All else kept apart: distinct acts of one day (the three memoranda of Aug. 4, 1965; Wirtz's and Connor's of Feb.
+  12, 1966; the conference report and Gardner's and Califano's memoranda of Dec. 11, 1967; Ray's purchases beside King's
+  call and the FBI's item, Mar. 27 and 29, 1968; Johnson's calls beside the hearings and news conferences of Mar. 12 and
+  24, 1968, and Dec. 31, 1966; Kotz's Allen-Scott column and Hoover to Jenkins beside the funeral and the meeting, Nov. 25
+  and Dec. 3, 1963), and the month-only entries beside others of their month. `cal.1968-03-31.elections-1968-11` (Robert
+  Kennedy's call to O'Brien) left beside `cal.1968-03-31.robert-kennedy`, whose Shesol parenthetical names the call
+  among the night's: one act, a reader may fold it in.
+- Mends: Johnson tagged on `cal.1968-03-15.elections-1968-4` (Names ambiguous); Stevens out of Names on
+  `cal.1962-11-29.program` (no name entry). In `notes/leads.md`, Zelizer's second-run leads it settled amended (chs.
+  7-9 now read; the sixteen cites pointed at the third run's table).
+- Leads and press: each run's section into `notes/leads.md` (Bernstein's paragraph split into bullets by hand) and
+  `notes/press.md` (Zelizer's four rows; Bernstein's four-column table given a kind).
+- For the owner: `cal.1968-09-17.economy` (Chrysler's prices, the statement of Sept. 17, 1968) has, with Bernstein cut,
+  the Public Papers alone and no bibliography (the audit's 13th); Kotz's pp. 77-84 done, the book whole.
+
+- After the last merge: `./bib check` 0 errors, 26 warnings (the same standing set as before); `./bib audit-cal`
+  committed; a full `./bib build` clean (9 min 36 s); `./bib links`: 0 links to missing anchors.
