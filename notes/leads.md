@@ -1808,6 +1808,13 @@ Rights in Conflict (Walker Report):
 - The press, named and passed over: the *Times* on Johnson "sputtering mad" (aluminum, Nov. 1965, 362: the day); *Congressional Quarterly*'s "Lobbying by Business Key to Passage" (June 1968, 376); a Karachi columnist on Bashir's invitation (1961, 10); the White House reporters on the $101–102 billion figure (Nov.–Dec. 1963, 30).
 - Heller to Johnson, Nov. 25, 1963: `x.1963-11-25.heller-to-johnson-case-for-a-101-102` ("Case for a $101-102 billion Budget," GEN-CEA File, LBJ Library; Bernstein 32 n.2d) and `x.1963-11-25.walter-heller-to-lyndon-johnson-nov` (Kermit Gordon Papers, Box 13, "The Tax Bill and Budget Expenditures," JFK Library; Zelizer, *Taxing America*, 202 n.95) may be one memorandum in two files: left apart by the merger (two repositories, the second row's description only the folder's), for a reader with either copy.
 
+### Preston, *The War Council* (batch 3, second run, Nov. 4, 2026; notes/book-checks/preston-war-council.md)
+
+- Preston's interviews (Kaysen, Katzenbach, Bator, McNamara, Hughes, Thomson, 1999) and Joseph Kraft's interviews with Forrestal (Apr. 8, July 28, Aug. 14, 1964), registered `open: not held`: where Kraft's transcripts are (Preston names no repository).
+- Forrestal to Bundy and Kaysen, Aug. 18, 1962, and Forrestal to Kennedy, Aug. 28, 1963: in Harriman's papers held privately by Kai Bird (Preston 107 n.17, 124 n.64); Bird's notes may say where they went.
+- The Mar. 1965 memorandum of Bundy's for a speech on Kennedy's policy (cal.1965-03.vietnam-support): Preston names no document; Small, *Johnson, Nixon, and the Doves*, 40, and Reeves, 660-61, may.
+- (The reader's query on `w.bird-color-of-truth` carrying William Bundy's role line as a note: the card has no note now; the line is not on the card, nor on the Viet. II.H.1 listing.)
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
