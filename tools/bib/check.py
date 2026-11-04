@@ -241,6 +241,10 @@ def run(series, only=None):
     from . import finance
     for where, msg in finance.problems(indicators.load()):
         add(ERROR, f"indicators/{where}.yaml", msg, "indicators")
+    # the thread statements, written once: spans, years, the conversion's progress (tools/bib/statements.py)
+    from . import statements
+    for level, where, msg in statements.problems(series):
+        add(ERROR if level == "error" else WARN, where, msg, "statements")
     # the indicators' master statement and the calendar's servants (indicators/concepts.yaml; tools/bib/concepts.py)
     from . import concepts
     for level, where, msg in concepts.problems(series):

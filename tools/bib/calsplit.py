@@ -5,9 +5,10 @@ second session (Jan. 6, 1960).
     lists/cal/list.yaml, `split:`   the date the second half begins (`from`), its page (`page`: cal63), and its own
                                     page_title, h1, lede, logic, abbr and title; the list's own fields are the first's
 
-The threads section (`th`) is in both halves: each half's thread index lists only the threads with entries in it, each
-with its statement for that half (`c` in the first; in the second `c2`, or `c` where the thread has entries in the second
-alone) and its dates there. Everything else goes by date: a dated section to the half its first day falls in.
+The threads section (`th`) is in every part: each part's thread index lists only the threads with entries in it, each
+with its statement for that part (STYLE 12) and its dates there. Everything else goes by date: a dated section to the
+part its first day falls in. A part runs from its `from` (the first, from the calendar's first day) to the day before
+the next part's `from` (the last, to the calendar's last day): `part_range`, for any number of parts.
 
 STYLE:
  1. A thread's dates by year, as every list of calendar dates is written (tools/bib/datelist.py, its STYLE):
@@ -64,6 +65,11 @@ STYLE:
     parent or subthreads, nor its alphabetical neighbors (Cuba, Cuban Missile Crisis), which the index already sets
     together: for related matter elsewhere in the index (the owner's rule, Oct. 21, 2026; `see_also_html` in
     build.py).
+12. A thread's statement is written once (`c`) and chosen for each part by its range (`part_range`): the scope, the
+    span-tagged sentences whose spans meet the range, the names of the thread's events that fall in it
+    (tools/bib/statements.py, its STYLE; notes/extensions/memos/volume.md, §4). A thread not yet converted keeps a
+    statement a part (`c2`, `c3`: its own where the thread begins in an earlier part, else the latest before it; `c`
+    in the part it begins in) until tools/statements/apply.py writes its one `c` (`statement`).
 """
 import datetime
 import re
@@ -143,9 +149,42 @@ def href(lst, half, anchor):
     return f"{page_key(lst, half)}.html#{anchor}"
 
 
+_BOUNDS = {}
+
+
+def bounds(lst):
+    """The calendar's first and last days (dates): its dated top sections' first `from` and last `to`."""
+    if id(lst) not in _BOUNDS:
+        los = [str(s.extra["from"]) for s in lst.sections if s.extra.get("from")]
+        his = [str(s.extra["to"]) for s in lst.sections if s.extra.get("to")]
+        _BOUNDS[id(lst)] = (datetime.date.fromisoformat(min(los)), datetime.date.fromisoformat(max(his)))
+    return _BOUNDS[id(lst)]
+
+
+def part_range(lst, half):
+    """A part's first and last days (dates): its `from`, or the calendar's first day; the day before the next part's
+    `from`, or the calendar's last day. Any number of parts; half None (or no split), the whole calendar."""
+    lo, hi = bounds(lst)
+    ps = parts(lst)
+    if not half or len(ps) < 2:
+        return lo, hi
+    if half > 1:
+        lo = datetime.date.fromisoformat(str(ps[half - 1]["from"]))
+    if half < len(ps):
+        hi = datetime.date.fromisoformat(str(ps[half]["from"])) - datetime.timedelta(days=1)
+    return lo, hi
+
+
 def statement(lst, e, half, first):
-    """The thread's statement in a part (STYLE 9): its own (c2, c3 ...) where the thread begins in an earlier part;
-    else the latest before it; c in the part the thread begins in."""
+    """The thread's statement in a part (STYLE 12): written once, `c`, its spans and events chosen by the part's range
+    (tools/bib/statements.py). A thread not yet converted (c2, c3 ...) keeps a statement a part: its own where the
+    thread begins in an earlier part; else the latest before it; c in the part the thread begins in."""
+    from . import statements
+    if not statements.legacy(e):
+        lo, hi = part_range(lst, half if cfg(lst) else None)
+        return statements.render(lst, e, lo, hi)
+    if not half or not cfg(lst):
+        return e.get("c")
     for n in range(half, (first or 1), -1):
         if e.get(f"c{n}"):
             return e[f"c{n}"]

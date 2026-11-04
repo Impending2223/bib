@@ -122,9 +122,18 @@ Calendar entries on the States and the cities take hidden `state:<postal code>` 
 Each thread in `th.yaml` has a brief statement (`c`), as the owner asked: what the thread is, and its stations, in
 one or two clipped sentences. Every thread is its matter as Washington and its counterparts met it, but the statements don't say so; that framing, and the scopes
 taken out of the statements, are in `notes/threads.md`. `th.yaml` keeps the threads in alphabetical order of their
-names (War on poverty under "poverty"; `check` warns otherwise). The calendar is built in three parts (below, "The
-calendar in three parts"): a thread's `c` speaks to the first part it has entries in, and `c2`, `c3` to the second and
-third where it has entries in an earlier one too; the scope stays the same in all, the stations each part's own.
+names (War on poverty under "poverty"; `check` warns otherwise). The statement is written once, for every part of the
+calendar however it is divided (volume.md §4, built Nov. 4, 2026; `tools/bib/statements.py`, its STYLE): `c`, the scope,
+true of every part; a sentence that belongs to some years only, tagged with a hidden span, the indicators' syntax
+(`{{1961..1962-06|...}}`, `{{..1962|...}}`, `{{1966..|...}}`, `{{1961-04|...}}`), shown untagged on each part its span
+meets; then, made by the build, the names of the thread's events in the part, in date order, a clipped sentence of
+names, each linked ("Bay of Pigs; Mongoose."): each event's `short:` on its first entry (an entry filed under the thread
+or a ghost subthread of it; not one held by `also:`, nor a subthread's that has its own statement). No dates shown, no
+label, no "Stations:". A thread still holding the old `c2`, `c3` (a statement a part) keeps them until converted:
+`python3 -I tools/statements/apply.py FRAGMENT.yaml` writes its `c` and the events' names and drops `c2`, `c3`;
+`python3 -I tools/statements/show.py SLUG [--c '...'] [--short ID=NAME]` shows a draft a year at a time. `check`
+[statements] fails on a span it cannot read, warns on an untagged sentence naming a year, a tagged one naming a year
+outside its span, and counts the threads not converted.
 
 `./bib audit-cal` checks the dated entries against these rules and writes `notes/calendar-audit.md`: persons in `c`
 in neither `Names:` nor a `name:` tag, entries with neither a bibliography nor a `See`, entries with no primary record or with one
@@ -1760,12 +1769,12 @@ list's own), each later item a part with the date it begins (`from`), its page, 
 logic, abbr, title and span. A dated section goes to the part its first day falls in; the threads section is in all.
 `tools/bib/calsplit.py` (STYLE notes at the top):
 
-- Each part's thread index lists the threads with entries in it, with that part's statement (`c` in the first part the
-  thread has entries in; `c2`, `c3` in the second and third where it has entries earlier, else the latest before) and
-  its dates by year: the year unlinked, in the sans, a little heavier ("**1961** Jan. 23, Feb. 20. **1962** …").
-  Across the divides, muted: after its dates, the year and date of the thread's next entry in a later part (". 1963
-  Jan. 14."), the year linked, not underlined, to the thread in that part's index, the date to the entry; before its
-  dates, its last entry in an earlier part, linked the same way.
+- Each part's thread index lists the threads with entries in it, with that part's statement (the scope, the spans that
+  meet the part's range, the events in it: above, under "So every calendar entry has"; a part's range its `from` to the
+  day before the next part's, `part_range`) and its dates by year: the year unlinked, in the sans, a little heavier
+  ("**1961** Jan. 23, Feb. 20. **1962** …"). Across the divides, muted: after its dates, the year and date of the
+  thread's next entry in a later part (". 1963 Jan. 14."), the year linked, not underlined, to the thread in that part's
+  index, the date to the entry; before its dates, its last entry in an earlier part, linked the same way.
 - The later parts' thread entries are anchored `cal63.thread.<slug>`, `cal66.thread.<slug>`; a rubric links to its
   own part's index.
 - At each seam, muted: "‹ Dec. 31, 1962, in the first calendar" at the head of a part's first day; "Jan. 1, 1963, in

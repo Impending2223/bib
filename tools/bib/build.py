@@ -234,8 +234,8 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         members = thread_members(lst).get(slug, [])
         half = calsplit.CUR["half"]
         first = min((calsplit.half_of_date(lst, m["date"]) for m in members), default=1)
+        statement = calsplit.statement(lst, e, half, first)   # written once, chosen by the part's range (statements.py)
         if half and calsplit.cfg(lst):
-            statement = calsplit.statement(lst, e, half, first)
             anchor = calsplit.thread_anchor(lst, slug, half)
     for i, c in enumerate(store.as_list(statement)):
         lead = rubric if (rubric and i == 0) else ""

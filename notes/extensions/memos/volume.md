@@ -10,9 +10,9 @@ a fan of the collapsed military tables, for example. I want that reversed and no
 of a fan of splitting the calendars than you've been in the past. That's the great thing about dates—they can be
 divided and subdivided as needed!"; and the thread statements: "Is there no better, more elegant solution here?"
 
-Nothing here is built. The counts are of Oct. 30, 2026: 8,325 dated entries; the busiest day 48 (Nov. 8, 1966), the
-busiest month 168 (Mar. 1968), the largest thread 781 (Vietnam); Cal. I 8.3 MB, Cal. II 10.4, Cal. III 12.0, the
-reader 32.2.
+Nothing here was built when it was written (a section says what has been built since). The counts are of Oct. 30, 2026:
+8,325 dated entries; the busiest day 48 (Nov. 8, 1966), the busiest month 168 (Mar. 1968), the largest thread 781
+(Vietnam); Cal. I 8.3 MB, Cal. II 10.4, Cal. III 12.0, the reader 32.2.
 
 ## 1. Nothing folded by default
 
@@ -66,6 +66,20 @@ They're just sorting and redrafting aids"; no "Stations:"):
   `ranges`), and shown, without its span, on every page whose range it meets.
 - The conversion: each thread's `c` cut to its scope; `c2`, `c3` turned into span-tagged sentences or into events'
   names; `check` warns on a span it cannot read and on a statement whose text names a year outside its spans.
+
+Built Nov. 4, 2026, as machinery; the texts are converted thread by thread after it. `tools/bib/statements.py` (its
+STYLE) renders a thread's statement for a part's range (`calsplit.part_range`: its `from` to the day before the next
+part's, any number of parts): the scope, the spans that meet the range (concepts.py's parser; `{{not SPAN|...}}` too),
+then the events: the entries carrying `short:` filed under the thread or a ghost subthread of it (not those it holds by
+`also:`, another thread's events; nor a subthread's with a statement of its own, which names them), in date order, each
+`[[id|name]]`. A thread still holding `c2`/`c3` keeps the old choice until converted, so the build did not change.
+`short:` already named an address (`to:`) in its From lines; it is the event's name now as well, and prints nowhere
+else. The conversion's tools: `tools/statements/apply.py` (a fragment of rows {id, c, short: {entry: name}} into th.yaml
+and the entries, `c2`/`c3` dropped) and `tools/statements/show.py` (a thread's statements, its entries by year, a draft
+a year at a time). `check` [statements]: an error on a span it cannot read; warnings on an untagged sentence naming a
+year (unless the thread's entries all fall within it), a tagged sentence naming a year outside its span, and the count
+of threads not converted (102 of th.yaml's 237 entries on Nov. 4; 101 after the worked example, Middle East: Johnson
+Plan).
 
 ## 5. Events as records
 
