@@ -161,32 +161,32 @@ social trivia, or an operation below the calendar's level. Page | date | event |
 | 119 | 1959-04-01 | Palm Beach organizational meeting | out of span |
 | 120 | 1959-10-28 | Hyannis Port organizational meeting | out of span |
 | 122 | 1960-01-02 | announcement press conference; Jan 3 Meet the Press | out of span (before Jan. 6, 1960) |
-| 133 | 1960-03 | Gov. Wesley Powell (Nixon's NH manager) calls Kennedy "soft" on Communism shortly before NH primary | undated; lead (Powell's public word) |
+| 133 | 1960-03 | Gov. Wesley Powell (Nixon's NH manager) calls Kennedy "soft" on Communism shortly before NH primary | entered Nov. 4 (R15): cal.1960-03.elections-1960-2 |
 | 134 | 1960 | Wisconsin Democratic State Committee votes 14-12 for more district delegates | undated |
-| 142 | 1960-04/05 | FDR Jr. on Humphrey's war record; apologies | undated |
-| 141 | 1960-05 | Byrd endorses Humphrey "your last chance to stop Kennedy" | undated; lead (Byrd's public word) |
+| 142 | 1960-04/05 | FDR Jr. on Humphrey's war record; apologies | entered Nov. 4 (R15): cal.1960-05.elections-1960-11 |
+| 141 | 1960-05 | Byrd endorses Humphrey "your last chance to stop Kennedy" | entered Nov. 4 (R15): cal.1960-05.elections-1960-7 |
 | 148 | 1960-05 | Sorensen at Michigan State Democratic Convention; meeting Williams | undated (folded into June 2) |
-| 155 | 1960-07-11 | Mrs. Roosevelt: Kennedy to take the Vice Presidency; Humphrey switches to Stevenson | undated in the week; lead |
-| 156 | 1960-07 | Connally and India Edwards cast doubt on Kennedy's fitness | undated in the book |
+| 155 | 1960-07-11 | Mrs. Roosevelt: Kennedy to take the Vice Presidency; Humphrey switches to Stevenson | entered Nov. 4: cal.1960-07-11.elections-1960-5 and -6 (Mrs. Roosevelt; Humphrey), each dated "as the convention opened" |
+| 156 | 1960-07 | Connally and India Edwards cast doubt on Kennedy's fitness | entered Nov. 4 (R15): cal.1960-07.elections-1960-6 |
 | 165 | 1960-06 | Bobby Baker cautions Sorensen not to be certain Johnson would reject | private remarks (a staff remark, undated in June) |
-| 170 | 1960-07/08 | Kennedy visits Eleanor Roosevelt at Hyde Park and Truman at Independence | undated in the book; lead |
+| 170 | 1960-07/08 | Kennedy visits Eleanor Roosevelt at Hyde Park and Truman at Independence | entered Nov. 4: Hyde Park, cal.1960-08.elections-1960-8; Independence cited on cal.1960-08-20.elections-1960 |
 | 176 | 1960-08 | Eisenhower denies Kennedy's request to include Stevenson and Bowles in the intelligence briefings | undated |
-| 174 | 1960-10 | Wittenberg College speech on ethics in government | undated in book |
+| 174 | 1960-10 | Wittenberg College speech on ethics in government | entered Nov. 4: cal.1960-10-17.elections-1960-3 (the day from the daybook's APP row) |
 | 179 | 1960-11-03 | "I am going to last about five more days" | private remarks |
 | 185 | 1960-09 | Kennedy on Nixon's hospital; Scott "Truth Squad"; Nixon's "another Truman" | undated |
-| 187 | 1960-10 | strategy session one October day at Hyannis Port | undated |
-| 187 | 1960 | SAC briefing, Omaha, late summer (p.612 "late in August") | undated to the day ("late in August", 612); lead |
-| 189 | 1960-09 | Peale withdraws from the group; form letter | undated |
+| 187 | 1960-10 | strategy session one October day at Hyannis Port | entered Nov. 4 (R15): cal.1960-10.elections-1960-10 |
+| 187 | 1960 | SAC briefing, Omaha, late summer (p.612 "late in August") | entered Nov. 4 (R15): cal.1960-08.elections-1960-10 ("late in August", 612) |
+| 189 | 1960-09 | Peale withdraws from the group; form letter | entered Nov. 4 (R15): cal.1960-09.elections-1960-4 |
 | 193 | 1960-10 | Truman tells Southerners voting Republican to go to hell; Nixon chastises; Kennedy's wire joke | undated |
 | 194 | 1960-09/10 | Ramsey Pollard (Southern Baptist president) statements | undated |
 | 195 | 1960-10-30 | NAE's attempt to make Reformation Sunday anti-Kennedy | the attempt undated |
-| 196 | 1960-07/08 | networks' offer; Kennedy accepts at once, Nixon four days later | undated; lead |
+| 196 | 1960-07/08 | networks' offer; Kennedy accepts at once, Nixon four days later | entered Nov. 4 (R15): cal.1960-08.elections-1960-9 ("in August") |
 | 202 | 1960-09-26 | Southern Democratic governors at Hot Springs wire congratulations after the debate | already in: in the pin on cal.1960-09-27.elections-1960 (the wire the night of the debate) |
-| 203 | 1960-10 | USIA prestige polls obtained, given to NYT | undated; lead |
+| 203 | 1960-10 | USIA prestige polls obtained, given to NYT | entered Nov. 4 (R15): cal.1960-10.elections-1960-9 |
 | 204 | 1960-10 | Kennedy's New York speech on Quemoy and Matsu (Yarnell) | undated; lead |
-| 206 | 1960-10 | Kennedy calls for a fifth debate; telegrams | undated |
+| 206 | 1960-10 | Kennedy calls for a fifth debate; telegrams | entered Nov. 4: cal.1960-10-10.elections-1960-2 (the days from the daybook's APP rows) |
 | 208 | 1960-11-03 | Explorer launched; Nov 8 Mercury capsule failure; B-70 $155 million released | undated in the book (Explorer, the Mercury failure, the B-70 money: no day given) |
-| 209 | 1960-10 | Puerto Rico bishops' pastoral letter against Munoz Marin | undated; lead |
+| 209 | 1960-10 | Puerto Rico bishops' pastoral letter against Munoz Marin | entered Nov. 4 (R15): cal.1960-10.elections-1960-11 |
 | 210 | 1960-11-06 | Waterbury, 3 a.m. crowd | minor (a campaign stop; nothing said is given) |
 | 230 | 1960-11-10 | De Gaulle's "Welcome, Dear Partner" cable and Kennedy's reply drafted with Jacqueline | minor (a courtesy exchange) |
 | 277 | 1961-01-15 | Cabinet's first informal get-together, brunch at Goldberg's home | minor (social) |
@@ -198,10 +198,10 @@ social trivia, or an operation below the calendar's level. Page | date | event |
 | 272 | 1961-01 | first week: Dillon, Heller, Bell, Sorensen on the first budget design; deficit | undated in the week (a night in the first week) |
 | 272 | 1961-01-26? | first Cabinet meeting: Treasury out of partisan role; Dillon, Rusk, McNamara exempt from political functions | entered as cal.1961-01.transition-and-staff (the day not given: "the following week") |
 | 278 | 1961 | directive on ambassadors' authority, "early in 1961" | undated ("early in 1961"); lead: the letter to the ambassadors, May 29, 1961, in the daybook |
-| 286 | 1961-01 | Burke's speech toned down, RB-47 fliers | undated in the week; lead |
+| 286 | 1961-01 | Burke's speech toned down, RB-47 fliers | entered Nov. 4 (R15): cal.1961-01.right-and-the-military ("Kennedy's first week"; id as claimed in the ledger) |
 | 292 | 1961-01-28 | SOTU drafting, Jan 28-29 | a meeting's preparation (the drafting of the State of the Union; pinned on cal.1961-01-30.program) |
 | 292-93 | 1961 | litany: Feb 13 Congo threat, Mar 18 Angola, Mar 21 troika, Apr 12 Gagarin, May 1 NLF, May 15 Korea coup, May 30 Trujillo, July 19 Bizerte, Aug 25 Quadros, Sept 18 Hammarskjold | already in under their own ids; a list in the text, nothing new, not pinned |
-| 296 | 1961-04 | TV interview, week before the landing: "If we don't move now, Mr. Castro may become a much greater danger" | undated; lead |
+| 296 | 1961-04 | TV interview, week before the landing: "If we don't move now, Mr. Castro may become a much greater danger" | entered Nov. 4 (R15): cal.1961-04.cuba-bay-of-pigs-6 |
 | 308 | 1961-04-20 | Thursday morning walk; talks planned with every Republican leader | private remarks; the talks with Nixon (Apr. 20) and Eisenhower (Apr. 22) already in |
 | 345 | 1961/62 | Kennedy's helicopter visit to Byrd's birthday picnic | undated; lead |
 | 345 | 1962 | Hayden–Cannon feud delays the budget three months | undated span |
@@ -215,20 +215,20 @@ social trivia, or an operation below the calendar's level. Page | date | event |
 | 364 | 1962 | veto of the D.C. obscene-publications bill | undated in the book; lead (the veto in the Public Papers) |
 | 364 | 1961-1963 | Kennedy meets Blanshard privately in Sorensen's office | undated |
 | 411 | 1962 | Howard Peterson's special trade operation in the Executive Office | undated |
-| 404 | 1963-10 | NYT story on eastern Kentucky; special federal relief program directed | undated; lead |
+| 404 | 1963-10 | NYT story on eastern Kentucky; special federal relief program directed | entered Nov. 4 (R15): cal.1963-10.poverty ("the fall of 1963"; id as claimed) |
 | 412 | 1963-11 | stronger deterrents to capital outflow weighed; Camp David session talked of | undated |
 | 409 | 1963-fall | Heller's suggestion of a "See America First" trip for Mrs. Kennedy | private remarks |
-| 398 | 1961 spring | Goldberg urges a public works fight; "both Harvard and Irish" | undated |
-| 424 | 1962-07 | margin requirements lowered to 50 percent, "some six weeks later" | undated; lead (the Federal Reserve's action) |
+| 398 | 1961 spring | Goldberg urges a public works fight; "both Harvard and Irish" | entered Nov. 4 (R15): cal.1961-03.economy ("the spring"; id as claimed) |
+| 424 | 1962-07 | margin requirements lowered to 50 percent, "some six weeks later" | entered Nov. 4 (R15): cal.1962-07.economy-4 |
 | 424 | 1962-07 | Samuelson and Solow's mid-July memorandum: a majority of economists for an emergency cut | entered as cal.1962-07.economy-2 (mid-July; the day not given) |
 | 425 | 1962 | Douglas's memorandum against a 1962 cut; Mills sits in on a session with the economists | undated |
-| 420 | 1963-01 | chart session with Congressional Democrats on the budget | undated in January |
+| 420 | 1963-01 | chart session with Congressional Democrats on the budget | entered Nov. 4 (R15): cal.1963-01.economy-2 |
 | 420 | 1963 | Heller's "puritan ethic"; Gordon's testimony; Byrd asks his dismissal | undated |
-| 429 | 1962-12 | Palm Beach planning sessions on the 1963 program over the holidays | undated |
+| 429 | 1962-12 | Palm Beach planning sessions on the 1963 program over the holidays | entered Nov. 4 (R15): cal.1962-12.economy (id as claimed) |
 | 430 | 1962-12-14 | Galbraith's "the most Republican speech since McKinley"; Kerr's suggestions | private remarks (in the pin on cal.1962-12-14.economy) |
-| 459 | 1962-04 | brief meeting (Kennedy, RFK, Sorensen) decides against seeking a break-up of U.S. Steel | undated |
+| 459 | 1962-04 | brief meeting (Kennedy, RFK, Sorensen) decides against seeking a break-up of U.S. Steel | entered Nov. 4 (R15): cal.1962-04.steel (id as claimed) |
 | 467 | 1962 | Denver off-the-record seminar with businessmen | undated |
-| 438 | 1962-02 | Communications Workers' leaders in the Rose Garden | undated; lead (the Public Papers, Feb. 1962) |
+| 438 | 1962-02 | Communications Workers' leaders in the Rose Garden | entered Nov. 4: cal.1962-02-14.labor (the day from the Public Papers) |
 | 440 | 1961-12 | Metropolitan Opera dispute, Goldberg asked to intervene | undated |
 | 441 | 1961-62 | Flight Engineers and the New York printers denounced at press conferences | undated |
 | 484 | 1962-09-28 | Sorensen's memorandum to the President on the crisis | entered as cal.1962-09-28.mississippi-ole-miss-4 (its text not given) |
@@ -236,11 +236,11 @@ social trivia, or an operation below the calendar's level. Page | date | event |
 | 478 | 1961 | Freedom Riders press conference endorsement | undated mid-1961 |
 | 501 | 1963 summer | private White House meetings with 1,600 leaders: lawyers, clergy, business, labor | undated here (the meetings by their days elsewhere) |
 | 505 | 1963 | Lubell's survey; Sanford's remark; "K.O. the Kennedys" | undated |
-| 140 | 1960-05 | the televised debate of Kennedy and Humphrey in West Virginia | undated in the book; lead |
+| 140 | 1960-05 | the televised debate of Kennedy and Humphrey in West Virginia | entered Nov. 4 (R15): cal.1960-05.elections-1960-5 |
 | 188–93 | 1960-09-07 | the Peale group's meeting and statement | in a pending patch: cal.1960-09-07.elections-1960 (b3-six-crises); also in the c of cal.1960-09-12.elections-1960, a split for the owner |
 | 149 | 1960-05 | Kennedy at Eugene, Ore.: "regret" for the U-2 flight; Scott, Dirksen, Nixon, Johnson | in a pending patch: cal.1960-05-23.elections-1960-2 (b3-six-crises), Scott's attack and Kennedy's reply |
 | 743 | 1963-10-17 | the General Assembly's resolution against weapons of mass destruction in orbit | lead: the resolution's number and day not read |
-| 445 | 1961-09 | Kennedy with Blough, the September before | undated; lead |
+| 445 | 1961-09 | Kennedy with Blough, the September before | entered Nov. 4 (R15): cal.1961-09.steel (id as claimed) |
 | 740–41 | 1963-09-24 | the President's departure on the conservation tour | already in as cal.1963-09-24.program-2 |
 
 ## Leads
@@ -260,3 +260,51 @@ bill (364); the *Times* story on eastern Kentucky and the relief program, Oct. 1
 July 1962 (424); the Communications Workers in the Rose Garden, Feb. 1962 (438); Kennedy with Blough, Sept. 1961 (445);
 the Haywood and Fayette counties evictions (479, States and cities); the General Assembly's resolution on weapons in
 orbit, Oct. 17, 1963 (743, Foreign).
+
+## Resumed, Nov. 4, 2026 (b3-sorensen-2)
+
+Patch: `inbox/2026-11-03-b3-sorensen-2.yaml` (b3-sorensen-2): 26 new entries, one cite, 11 `src` ops (the witnesses'
+`via` rows); `./bib patch-check`: 0 errors (19 same-day warnings, each read against its neighbors: distinct events).
+Witnesses: `inbox/witnesses/2026-11-03-b3-sorensen-2.yaml` (12 rows); the work's edges,
+`sources/witnesses/by-work/sorensen-kennedy.yaml` (12, at 'PAGE n.text').
+
+The copy: the same PDF from the Drive, fetched again (32 MB, 810 pages, its text layer); offset unchanged (printed page =
+PDF page − 16), p. 141 checked against the page image. The PDF deleted after.
+
+What this run did, under the reader's brief of Oct. 30 (R15: an event dated to a month, a season or a stretch is dated
+so, never "undated"):
+
+- The Passed over rows the first run marked "undated" where Sorensen gives a month, a season or a stretch were read
+  again, each against the calendar of its month: 25 are now entries or cites (the table above says which). The day
+  where the daybook's APP rows or the Public Papers give it (Wittenberg College, Oct. 17, 1960; the fifth-debate
+  telegrams, Oct. 10–28; the Communications Workers, Feb. 14, 1962); else the month, with "Check: the day".
+- The witnesses (R35, R38): the book has no notes, but its text quotes or reports twelve records for passages the
+  calendar cites: Sorensen's memoranda of Sept. 6 (FRUS X, 415), Sept. 28 and Dec. 17, 1962 (FRUS XX, 365); his check
+  list of Dec. 1960; the Cabinet agenda of Dec. 10, 1962; the Samuelson–Solow memorandum; Gaitskell's letter and
+  Kennedy's to Macmillan (FRUS VII, 138); Khrushchev's of June 8, 1963 (FRUS VI, 106); Kennedy's to Eisenhower of June
+  10, 1963; Wilkins's memorandum of Feb. 1961; the Wittenberg speech. Each registered, the FRUS copies `read`, the rest
+  `open: not found` (or `not held`: APP), and a `via` row on its entry.
+
+Still passed over, no month given (a lead each, below): Pollard's statements (194); Truman's "go to hell" and Nixon's
+reply (193); Kennedy on Nixon's hospital stay and Scott's Truth Squad (185); Eisenhower's refusal to brief Stevenson and
+Bowles ("those early weeks", 176); the New York speech on Quemoy and Matsu (between Oct. 7 and 13, 204: one of the
+Oct. 12 New York speeches in the daybook?); the NAE and Reformation Sunday (195); Explorer, the Mercury failure and the
+B-70 money (208); Burke's speech (now entered); the remaining rows of the table as they stand.
+
+Not yet read in full: the foreign chapters (XII–XIII, XIX–XXVI), read by their dated passages only in the first run.
+They hold the Bay of Pigs, Laos, Berlin, Vienna, the missile crisis, the test ban, Vietnam and the alliance as Sorensen
+saw them, nearly every event of which the calendar holds and the first run pinned. A third run should read them page by
+page for the informal record (R7) the dated-sentence pass missed.
+
+## The press (R13)
+
+- 1960-10 | *New York Times* | front page? | the USIA's prestige surveys, printed without saying how obtained | 203–04
+
+## Leads (Nov. 4)
+
+National: Truman's "go to hell" remark and Nixon's rebuke, Oct. 1960 (193; the day and place); Ramsey Pollard's
+statements for Nixon, 1960 (194); the New York speech on Quemoy and Matsu, Oct. 8–12, 1960 (204; the daybook's APP
+rows of Oct. 12); the *Times*'s story on the USIA surveys, Oct. 1960 (203); the *Times*'s story on eastern Kentucky,
+fall 1963 (404); the Federal Reserve's cut in margin requirements, July 1962 (424; its record); Kennedy's television
+interview the week before the Bay of Pigs (296); Burke's speech of Jan. 1961 (286; its text and the day); the
+Kennedy–Blough meeting of Sept. 1961 (445).
