@@ -400,6 +400,9 @@ CQ Weekly Report, 1968-08-16:
 ### Sorensen, *Kennedy* (batch 3, Oct. 29, 2026; notes/book-checks/sorensen-kennedy.md)
 - The Haywood and Fayette counties evictions, Tennessee (Sorensen, 479): the days.
 
+### Navasky, *Kennedy Justice* (batch 3, second run, Nov. 3–4, 2026; notes/book-checks/navasky-kennedy-justice.md)
+- Marshall's Huntsville meeting (1962) and Ramsey Clark's Mobile meeting (1963) (222): the days.
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -1513,6 +1516,10 @@ Rights in Conflict (Walker Report):
 - Johnson's remark to Califano on Castro and Kennedy (Califano, *Inside* (2004), 126): its date.
 - The Church Committee's testimony Jones cites by page (Helms, June 13, 1975; Sullivan, Apr. 21, 1976; Morgan, Mar. 19, 1976): the JFK Collection's copies at the National Archives (Mary Ferrell Foundation's scans), not reached.
 - Shackley's directives from Harvey, spring 1962 (157–58): undated.
+
+### Navasky, *Kennedy Justice* (batch 3, second run, Nov. 3–4, 2026; notes/book-checks/navasky-kennedy-justice.md)
+- Robert Kennedy to the FBI National Academy's 67th graduating class (50, undated; the Academy's records); John Douglas named the Department's liaison to the March on Washington (182, no month); Representative Thomas F. Johnson's indictment by a Baltimore grand jury before the 1962 election, by Katzenbach's account (365; the court's docket); Hoover's "beastly punks," November 1962 (17), if the owner wants repetitions.
+- Still dated by the year only: Lausche's speech in the Senate on Hoover, 1961 (37; the Record); the House Republicans' report on organized crime, 1967 (49); the summer-1961 nomination and confirmation of 258 (the Record); Hoffa at the Miami convention, 1961 (410); the Chicago Hoffa verdict (424); the Tractors for Freedom committee's end (327: Navasky gives no June 25).
 
 ## Foreign
 
