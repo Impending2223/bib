@@ -1413,6 +1413,10 @@ Rights in Conflict (Walker Report):
 - The Dean Rusk Collection's taped interviews (University of Georgia, Russell Library): whether open online, and the tape for each passage the calendar cites (Rusk, 12, 639; `x.1984.rusk-interviews-with-richard-rusk`).
 - The General Assembly's resolution on weapons in orbit, Oct. 1963 (Rusk 345: the day and number; entered); the draft NPT tabled, Aug. 1965 (Rusk 341: the day; FRUS 1964–68, XI; entered); the Rusk–Dobrynin evening on the Potomac, June 1963 (Rusk 256: the day; entered); Rusk's address to the General Assembly on the Brezhnev doctrine, fall 1968 (Rusk 361–62); Peggy Rusk's wedding (*Time*, Sept. 1967: the issue; entered).
 
+### Ball, *The Past Has Another Pattern* (batch 3, second run, Nov. 4, 2026; notes/book-checks/ball-past-has-another-pattern.md)
+- Kennedy's letter to the chiefs of mission, 1961 (Ball 171; the day); Fowler Hamilton named to AID (184); the Cabinet Committee on Textiles and the defense mobilization finding (188-89); Herter and Blumenthal named, Nov. 1962 (198-99); the Balance of Payments Committee (204-05); Kennedy's press conference of July 17, 1963 (374; the Papers); Johnson's "devil's advocate" (384); Alsop's column of Nov. 23, 1964 (384: the paper and page); Clifford's statement of Dec. 29, 1968 (414: the occasion; the daybook's Sunday programs that day have Rostow and McGovern, not Clifford); Ball's promise to Humphrey (451).
+- Sources not held: Weintal and Bartlett, *Facing the Brink* (1967), and Abel, *The Missile Crisis* (1966), cited by Ball and by Rusk's list of works (Rusk, 641), have no cards; Radvanyi, *Delusion and Reality* (1978), neither.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2414,6 +2418,9 @@ CQ Weekly Report, 1968-08-30:
 
 ### Rusk, *As I Saw It* (batch 3, second run, Nov. 4, 2026; notes/book-checks/rusk-as-i-saw-it-1990.md)
 - Rusk and Gromyko at Vienna, May 1965 (Rusk 358; FRUS 1964–68, XIV); Zhou Enlai's statement of May 10, 1966 (Rusk 289; its text; entered); the Montevideo incident, Nov. 1965 (Rusk 571; the day, the photograph; entered).
+
+### Ball, *The Past Has Another Pattern* (batch 3, second run, Nov. 4, 2026; notes/book-checks/ball-past-has-another-pattern.md)
+- The OECD's ratification, Mar. 16, 1961 (221); the political union scheme, Apr. 1962 (260); Mikoyan to Havana, Nov. 2, 1962 (308); the Congo of 1963-64 (322); Makarios's proposals, Nov. 1963 (338); Johnson at Honolulu, Feb. 1966 (427); Macmillan to Eisenhower, 1960, on a "peripheral alliance" (209: the record, FRUS 1958-60).
 
 ## The Executive roster
 

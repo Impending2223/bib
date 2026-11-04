@@ -6,6 +6,8 @@ the merger copies them here, by date, until the daily list is built. A line each
 
 date | outlet | broadcast, front page or cover | the items, clipped | source, page
 
+1964-11-23 | Joseph Alsop's column | column | Ball's dissent; "Ball's knowledge of Asia could be comfortably contained in a fairly small thimble" | Ball, *The Past Has Another Pattern*, 384
+1965-07 | *Life* | picture | Ball in tears at Stevenson's memorial service (Check: the issue) | Ball, *The Past Has Another Pattern*, 152
 1965-11 | (a news photograph) | photograph | Rusk at Montevideo, the spit dubbed into the negative | Rusk, *As I Saw It*, 571–72
 1967-09 | *Time* | cover | Peggy Rusk's wedding to Guy Smith (Check: the issue) | Rusk, *As I Saw It*, 581
 1968-02 | the papers, nationally | front pages (by Rusk's account) | Rusk to Scali at a backgrounder: "Whose side are you on?" | Rusk, *As I Saw It*, 477
