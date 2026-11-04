@@ -230,3 +230,135 @@ National:
 ### What remains unread (third run)
 
 Chapter 11 from p. 287 to p. 314 page by page (read by its dated passages to p. 300, not past it); chapters 12, 13 and 14 (pp. 315–421) and the Epilogue (422–434), but for pp. 333–35, 356, 361, 367–68 and 414–19; their notes beyond those passages; pp. 42–84 but for 60–62. The stop: the context of the run, not the hour.
+
+## The fourth run (b3-kotz-4), Nov. 4, 2026
+
+The same copy, fetched again through Drive's download address (sharing unchanged); the offsets as before (printed = PDF − 26 to p. 266, − 34 from p. 267), held against the running heads of the text layer on every page read and against the page image of p. 391 (PDF 425). The PDF, the page texts, the page image and the scratch files deleted at the end. The patch: `inbox/2026-11-04-b3-kotz-4.yaml` (patch `b3-kotz-4`): 273 ops, 91 new entries (each claimed in the ledger first), 144 cites, 19 Checks, 16 `src` ops, 3 `edit`s (`cal.1965-03-09.voting-rights-2`, base 3579b9e6: the House's count of Mar. 9 added to `c`; `cal.1965-03-28.king`, base 2e80bf12: the boycott of Alabama added to `c`; `cal.1965-07-13.court`, base 51a52f4f: the news conference's answer on his own civil rights record, 1965 Pub. Papers 742, added to `c`, `also: voting-rights`; one event, one entry). Witnesses: `inbox/witnesses/2026-11-04-b3-kotz-4.yaml`, 113 rows (the tapes the notes give, by the Miller Center's catalogue; the FBI's Levison wiretaps (SDLTAP, 100-111180); the White House memoranda, the Daily Diary Backup, the press items, Kotz's interviews, the studies without cards), and at its foot, as comments for the merger, 299 edges of `w.kotz-judgment-days`, page and note to witness or card. A witness the registry already held (the Mar. 8 and 10–11, 1965 tapes, Louis Martin's memorandum, Humphrey's of Mar. 10, Branch's Levison letter of Apr. 7, 1965, Church Book III) took the edge, never a second row.
+
+How it was read: chapter 11 from p. 287 to its end (p. 314), chapters 12 (315–337), 13 (338–378) and 14 (379–421, but for 414–19, read whole by the third run) and the Epilogue (422–434), page by page, with their notes (466–474); then pp. 42–76 (but for 60–62). The Epilogue after p. 423 is the opening of the civil rights papers at Austin, Dec. 11, 1972, and the legacy since: out of the span. Each dated event was held against its day in the tree and the ledger (`./bib ledger find`, every thread); where an entry holds it, Kotz's page went to it by `cite` (its units read against `c`); where none, a new entry.
+
+### New entries (fourth run)
+
+`cal.1965-03-07.voting-rights-selma`, `-selma-2`; `cal.1965-03-08.voting-rights-selma-5` to `-13`, `cal.1965-03-08.civil-rights-organizations`; `cal.1965-03-09.voting-rights-selma-2`, `-3`, `cal.1965-03-09.voting-rights-4` (the Statement on Selma, 1965 Pub. Papers 272), `cal.1965-03-09.civil-rights-the-executive`, `-2`; `cal.1965-03-10.civil-rights-the-executive-2`, `cal.1965-03-10.voting-rights-2`; `cal.1965-03-11.voting-rights-2`, `-3`, `cal.1965-03-11.voting-rights-selma-2` to `-4`; `cal.1965-03-12.voting-rights-selma`, `-2`; `cal.1965-03-13.voting-rights-selma-3`, `cal.1965-03-13.transition-and-staff`; `cal.1965-03-15.voting-rights-5`, `-6`; `cal.1965-03-16.press-and-broadcasting`, `cal.1965-03-16.voting-rights`, `-2`; `cal.1965-03-18.voting-rights` (the House hearings open, Daily Digest D118), `-2`; `cal.1965-03-22.voting-rights-selma`, `cal.1965-03-23.voting-rights-selma`, `cal.1965-03-24.voting-rights-selma`, `cal.1965-03-25.voting-rights-selma`; `cal.1965-03-29.alabama`, `cal.1965-03-31.press-and-broadcasting`, `cal.1965-04-01.civil-rights-the-executive` (1965 Pub. Papers 364), `cal.1965-04-05.voting-rights`, `cal.1965-04-07.king`, `cal.1965-04-09.vietnam-2`; `cal.1965-07-05.press-and-broadcasting`, `cal.1965-07-07.court`, `cal.1965-07-08.vietnam-july-decision-2`, `cal.1965-07-19.vietnam-july-decision-2`, `cal.1965-07-29.voting-rights`; `cal.1965-08-04.king`, `cal.1965-08-05.king`, `cal.1965-08-06.voting-rights-2`, `cal.1965-08-12.civil-rights-organizations`, `cal.1965-08-14.civil-disorders-watts-2`, `cal.1965-08-17.poverty`, `-2`, `cal.1965-08-18.civil-disorders-watts-3`; `cal.1965-09-11.civil-rights-organizations`, `cal.1965-09-13.king`, `cal.1965-09-20.press-and-broadcasting`; `cal.1966-07-05.civil-rights-organizations-2`, `cal.1966-07-23.civil-disorders` (1966 Pub. Papers 764), `cal.1966-08-10.open-housing-2` (1966 Pub. Papers 814), `cal.1966-11.king`; `cal.1967-01-11.king`, `cal.1967-02-18.king`, `cal.1967-04-05.king-2`, `cal.1967-04-07.press-and-broadcasting`, `cal.1967-04-08.king-2`, `cal.1967-04-09.king`, `cal.1967-04-12.king-2`, `cal.1967-04-14.press-and-broadcasting`, `cal.1967-05-22.opinion`, `cal.1967-07-28.civil-disorders`, `cal.1967-08-05.civil-disorders`; `cal.1968-01-18.king-poor-peoples`, `cal.1968-02.open-housing`, `cal.1968-03-01.open-housing-2`, `cal.1968-03-04.open-housing-2`, `cal.1968-03-05.elections-1968-3`, `cal.1968-03-22.king-poor-peoples-2`, `cal.1968-03-26.king-poor-peoples`, `cal.1968-03-28.king-memphis-2`, `cal.1968-03-29.king-memphis-3`, `cal.1968-03-29.press-and-broadcasting`, `cal.1968-03-31.elections-1968-10`, `cal.1968-04-03.king-memphis-2`; `cal.1969-01-17.voting-rights` (1968–69 Pub. Papers 1350); `cal.1963-07-23.civil-rights-bill`, `cal.1963-08-27.press-and-broadcasting`.
+
+### Rulings other than "holds" (fourth run)
+
+| Entry | The calendar | Kotz | Ruling |
+|---|---|---|---|
+| `cal.1965-03-08.voting-rights-selma` | Johnson and Katzenbach, 8:10 a.m. | his note names 8:38 a.m.; the catalogue holds a second call then (WH6503-03-7033) | Check (the third run's Check of 8:30 kept) |
+| `cal.1965-03-09.voting-rights` | Judge Johnson's order Mar. 9 | "late Monday afternoon," Mar. 8 (292) | Check |
+| `cal.1965-03-09.voting-rights-4` (new) | — | the Statement told among Mar. 8's events (291–92); the Papers date it Mar. 9 | the Papers' day; Check |
+| `cal.1965-03-11.voting-rights-2` (new) | — | "Wednesday morning" (299); the note and the catalogue Mar. 11, 10:35 a.m. | the catalogue's day; Check |
+| `cal.1965-03-14.voting-rights` | King declines | accepts, then declines Monday morning (307–08) | Check |
+| `cal.1965-03-16.voting-rights-selma` | the assault and Forman's words Mar. 16 | Mar. 17; "then we'll knock the fucking legs off" (319) | Check |
+| `cal.1965-03-17.voting-rights-selma` | Mar. 17 | Mar. 18 (320) | Check |
+| `cal.1965-03-18.voting-rights` (new) | — | hearings opened Mar. 17 (317); the Digest Mar. 18 | the Digest's day; Check |
+| `cal.1965-03-21.voting-rights` | some 25,000 on Mar. 25 | more than thirty thousand (323) | Check |
+| `cal.1965-07-09.voting-rights` | recommittal 171–248 | the Republican alternative defeated 215 to 166 (330) | Check |
+| `cal.1965-07-29.medicare` | July 29 | July 30 (332 n.) | Check |
+| `cal.1965-08-14.civil-disorders-watts` | Johnson's call, 9:09 p.m. | 8:09 p.m. (341 n.5), as the catalogue | Check |
+| `cal.1965-08-18.civil-disorders-watts`, `cal.1965-08-19.states-and-cities` | Westminster Aug. 18; Yorty and Parker Aug. 19 | Aug. 17 and 18 (342–43) | Check |
+| `cal.1965-09-10.war-opposition-2` | Dodd, Sept. 10 | "a day later," Sept. 11 (352) | Check |
+| `cal.1966-08-05.open-housing` | Marquette Park | Gage Park (367) | Check |
+| `cal.1966-08-10.civil-rights-organizations` | the report read Aug. 10 | Aug. 11 (370) | Check |
+| `cal.1968-02-29.civil-disorders` | Feb. 29 | Mar. 1 (392) | Check |
+| `cal.1968-03-04.black-nationalism` | Mar. 4 | February (386–87) | Check |
+| `cal.1968-03-13.open-housing` | Mar. 13 | "the March 15 Cabinet meeting" (392) | Check |
+| `cal.1968-03-16.king` | Anaheim | Los Angeles (399) | Check |
+| `cal.1965-03-16.voting-rights` (new) | — | King's telegram dated 1964 in the note (317 n.1) | the text's day |
+| `cal.1967-07-25.king` | — | Kotz's note 6 dates Hoover's and Watson's memoranda 1968 (384) | 1967, the text's |
+
+### Passed over (fourth run)
+
+Page | date | event | why. Made from the same reading: each dated event the pages treat that took neither an entry nor a cite.
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 291 | 1965-03-08 | Wallace privately lectures Lingo and Clark: no more violence | a lead: the day and source (no note) |
+| 292 | 1965-03-08 | The sit-in carried out of the Justice Department, on the evening news | a lead: the count (NYT, Mar. 9, 1965) |
+| 296 | 1965-03-09 | Doar's minute-by-minute reports to Katzenbach; Ellington on the line to Wallace | in the march's entry; no separate record named |
+| 297 | 1965-03 | Forman: King's turnaround "a classic example of trickery"; SNCC's staff out of Selma to Montgomery | a lead: the day (Garrow, *Bearing the Cross*, 405) |
+| 298 | 1965-03-09 | Demonstrations in Chicago, Boston, Cleveland, Oakland; New York before the FBI office | a lead: the days |
+| 298 | 1965-03 | Dirksen and Mansfield on the early drafts; McCulloch's criticism | undated |
+| 300 | 1965-03 | Johnson's jet for Reeb's wife and father; Marie Reeb to reporters | a lead: the day (Fager, 117) |
+| 302 n. | 1965-03 | O'Boyle's letter to 400,000 parishioners for the Lafayette Park rally; Johnson's thanks | a lead: the days |
+| 303 | 1965-03-12 | Rap Brown ridicules Johnson's worry for his daughters' sleep | a lead (Brown, *Die Nigger Die!*, 52–53) |
+| 306 n. | 1965-03 | Johnson to reporters at the Ranch on the Wallace meeting: "I can lick any little hundred-pound woman" | a lead: the day (Harwood and Johnson, *Lyndon*, 107) |
+| 312 | 1965-03-15 | Ellender slumped; Forman: Johnson "ruined a good song" | a lead (Lewis, 340) |
+| 314 | 1965-03-15 | Johnson to Goodwin after King's call: "we're just halfway up the mountain" | private remark |
+| 318 | 1965-03 | Lindsay and Cramer to widen the coverage; Wilkins's testimony; Edward Kennedy's poll tax group | a lead: the days (the House and Senate hearings) |
+| 320 n. | 1965-03 | King refuses Rustin's advice to break with SNCC; Belafonte to mediate (FBI tap) | a lead: the day |
+| 322 | 1965-03-25 | King's return to Atlanta, the news of Liuzzo | minor (private) |
+| 327 | 1965-03/04 | Whitney Young's "reservations" on the boycott; the *Times* "cool," Mar. 30 | the press list; Young a lead |
+| 327 | 1965-04 | Brimmer to King on the boycott: steel cannot be traced | a lead: the day (Garrow, *Protest at Selma*, 120) |
+| 329 | 1965 | Lady Bird Johnson's diary: Johnson and Dirksen in the West Hall | a lead: the day (*White House Diary*, 237) |
+| 329 | 1965-05 | Hickenlooper's resistance to Dirksen in the Policy Committee | a lead: the days |
+| 330 | 1965-06/07 | Ford's young Republicans on Johnson's record | a lead: the days |
+| 350 | 1965-08 | Bevel's public push for a peace program in SCLC | a lead: the day |
+| 352–53 | 1965-09 | Mauldin's cartoon of King on a horse "civil rights" in a rice paddy | a lead: the day |
+| 355 | 1965 | McPherson's memorandum on McNamara's loyalty | a lead: the day |
+| 357 | 1965–66 | Johnson's appointments of Weaver, Motley; Roger Wilkins, Alexander, Robinson; Long and Brimmer; Wilkins on the Naval Academy | in the calendar (Weaver, Motley) without Kotz's dates; the rest leads: the days |
+| 358 n. | 1965/66 | Libassi on CBS on the Mississippi hospital; Johnson watching | a lead: the day (Kotz's interview with Libassi) |
+| 358 n. | 1966-08 | SNCC's antiwar rally at Luci Johnson's wedding; the SCLC, NAACP and Urban League's criticism | a lead: the day |
+| 359 | 1966 | Johnson's "asshole-quivering conference"; Moynihan kept away | undated (Kotz's interview with Bernhard) |
+| 363 | 1966-03 | King and Abernathy with reporters in a rat-infested flat | a lead: the day |
+| 372 | 1967 | King and Whitney Young at Great Neck: "a foundation grant"; King's apology | a lead: the day (Weiss, 159) |
+| 372 | 1967 | Clarence Jones to the Pentagon for the casualty figures | a lead: the day |
+| 375 | 1967-04 | Jackie Robinson and Whitney Young against Riverside | a lead: the days |
+| 377 n. | 1967-04 | Wilkins to King: "I see you were out there demonstrating yesterday" | a lead: the day (Kotz's interview with Dunbar) |
+| 381 | 1967 (Kotz's note: Oct. 3, 1966) | Johnson to Fortas: the riots "knocked our polls down 15 percent" | a lead: the date (the note's 1966 against the text's 1967) |
+| 382 | 1968-01 | King: "It didn't cost the nation one penny to integrate lunch counters" | a lead: the day (*Eyes on the Prize*) |
+| 383 n. | 1967/68 | Robert Kennedy's idea of the encampment, through Marian Wright | undated |
+| 385 | 1968-01 | Ramsey Clark refuses to renew the King taps | a lead: the day (Garrow, 570) |
+| 386 n. | 1967 | Stegall on the FBI's payroll; the academy at Quantico | undated |
+| 387–88 | 1968-03 | The FBI's "racial conference" on the Poor People's Campaign; its rumors in Birmingham, Georgia, Virginia; Harrison the informer | a lead: the days (McKnight, *Last Crusade*, 25–27) |
+| 388 | 1968-03-12 | The FBI's updated profile of King to the White House | a lead (Church, Book III, 174; the Senate's copy refused here) |
+| 393 | 1968 | Johnson's seven-hour meeting with his congressional critics | a lead: the day (Kotz's interview with Edward Kennedy) |
+| 394–95 | 1967/68 | Johnson to Temple, to Jim Jones ("wild stallions"), to Tom Johnson on Tocqueville | undated |
+| 396 n. | 1968-02 | Fort Bragg: the Negro troops' housing | in the calendar's trip; not cited |
+| 397 | 1968-02 | McNamara, sobbing, at his last meeting: "We simply have to end this thing" | a lead: the day (Gardner, 439) |
+| 400 | 1968-03 | King to Acapulco with Abernathy; Miami a month earlier | a lead: the days |
+| 403 | 1968-03 | The *Times* editorial against the encampment, after Memphis | a lead: the day |
+| 404 | 1968 | Temple to Johnson: no such thing as civil disobedience | a lead: the day (Temple's memorandum) |
+| 405 | 1968-03-29 | Dinner with the Abernathys: "Who's going to know those weren't our people?" | private remarks |
+| 408 | 1968-03-29 | Watson, Jones and Christian on his running; Connally's advice | in the calendar's entries of Mar. 29–31; not cited (the units not matched) |
+| 411 | 1968-04-01 | King decides to postpone the campaign | a lead: the day and source |
+| 411 | 1968-04 | Gallup, 52–36 disapproving, then 49–40 approving | a lead (Gallup, III, 2113, 2121) |
+| 420 | 1968-04-10 | Ryan, Tuck and Joelson in the House debate | a lead (114 Cong. Rec. 9527, 9534–37) |
+| 421 | 1968-04-11 | Abernathy and Whitney Young on the act | a lead (WP, Apr. 11, 1968) |
+| 422–23 | 1968 | Resurrection City; the Democratic convention's Mississippi delegation | in the calendar; not cited |
+| 423–34 | 1972 on | The civil rights symposium at Austin, Dec. 11, 1972; the legacy | out of the brief (after the span) |
+| 42–43 | 1963-11 | Levison and Jones urge a meeting; Jones to Louis Martin | a lead: the day (the FBI's tap) |
+| 51–59 | 1960–63 | Baker's view of King; Lonnie King; the Freedom Riders' stops (Rock Hill, Anniston, Birmingham); "De Lawd"; Pritchett; the Birmingham press conference ignored | in the calendar's entries; cited where the units matched |
+| 63 | 1963-06 | Johnson with half a dozen liberal Senators in his office | a lead: the day (Kotz's interview with McCarthy) |
+| 69–76 | 1952–63 | Levison and the Childs brothers: Solo's reports, 1952–Nov. 1963; Hall's denunciation, Oct. 1963; the FBI's memoranda of late Aug. 1963 | out of the span before 1960; the 1962–63 reports a lead: the days (Kotz's FBI sources) |
+
+### The press (fourth run)
+
+date | outlet | broadcast, front page or cover | the items | page
+- 1965-03-08 | *New York Times* | p. 20 | "Johnson Kept Informed"; King's plan for a new walk (entries) | 287
+- 1965-03-09 | *New York Times* | front page | "Wallace Says Police Saved Negro Lives" (an entry) | 291
+- 1965-03-10 | *New York Times* | front page | the turnaround at the bridge; Reeb; the Washington vigils | 294–98
+- 1965-03-15 | *New York Herald Tribune* | — | Wallace's "frank and friendly discussion" | 306
+- 1965-03-16 | *New York Times* | — | Wicker on the address (an entry) | 313–14
+- 1965-03-29 | *Washington Post*, *Evening Star* | front page (Post) | King's boycott of Alabama | 327
+- 1965-03-30 | *New York Times* | front page | "Washington Is Cool to Alabama Boycott" | 327
+- 1965-08-15 | *New York Times* | front page | Semple, "Johnson Shocked" (Watts) | 341
+- 1965-09-12 | *New York Times*, *Daily News*, *Washington Post* | — | King and Goldberg; Dodd; Whitney Young | 352
+- 1967-04-06/07 | *Washington Post*, *New York Times* | editorials | "A Tragedy"; "Dr. King's Error" (entries) | 375
+- 1967-04-11 | *New York Times* | front page | the NAACP's board against King on Vietnam | 375
+- 1968-03-29 | *St. Louis Globe-Democrat*, Memphis *Commercial Appeal* | — | the FBI's lines on King at Memphis; "Chicken a la King" (an entry) | 404
+
+### Leads (fourth run)
+
+National:
+- The Miller Center's recordings this run's notes cite, not heard: Ellington and Katzenbach, Mar. 8, 1965 (8:29, 8:38); Katzenbach, Mar. 11 (10:35); Dirksen, Mar. 18 and Apr. 5; Ball, Apr. 9; Russell, July 19; Marshall, July 7; Califano, Aug. 14 (6:25, 8:09); Long and Sawyer, Aug. 17; McCone, Aug. 18, 1965; Whitney Young, July 5, 1966. Branigin, Aug. 17, 1965, 6:36 p.m. (WH6508.05, PNO 5) is not in the Miller Center's catalogue.
+- The Church committee's Book III (S. Rep. No. 94-755) on intelligence.senate.gov: refused here ("Access Denied," Nov. 4, 2026). Its pp. 174, 179–82 print the FBI's papers of Mar. 1968 that Kotz cites.
+- The FBI's Levison wiretaps (100-111180) as Kotz cites them (SDLTAP): Feb. 18, Apr. 5, 8, 12, 1967; Mar. 26, 28, 29, Apr. 1, 1968.
+- Studies the notes cite without a card: Fager, *Selma, 1965* (1974); Raines, *My Soul Is Rested* (1977); Harwood and Johnson, *Lyndon* (1973); Leuchtenburg, "The Old Farmhand from Dixie," *Atlantic* (Dec. 1992); Roy Young, "Presidential Leadership and Civil Rights Legislation"; "Pottinger" (the Justice Department's review of 1977); Weiss, *Whitney M. Young Jr.*; Stewart Burns, *To the Mountain Top*; Hampton and Fayer, *Voices of Freedom*; Gerald McKnight, *The Last Crusade* (card `w.mcknight-last-crusade`, to read).
+- Kotz's interviews of this run: Hirsch, Fauntroy, Goodwin, Forman, Greenberg, Brimmer, Roger Wilkins, Bernhard, Gaither, Mondale, Byrne, Cohen, Ramsey Clark, Height, Marian Logan, Juanita Abernathy, James Lawson, Edward Kennedy: not deposited.
+- Press figures for Part III (R13): William S. White (syndicated), Carl Rowan (columnist; his own Part III place as USIA director to check), Renata Adler (*The New Yorker*), Robert Semple Jr. and John Herbers (*New York Times*), Richard L. Lyons and Carroll Kilpatrick (*Washington Post*).
+
+### What remains unread (fourth run)
+
+Pp. 77–84 (chapter 4 from the Hoover–King memoranda of fall 1963 on): not read page by page this run. The whole of chapters 11–14 and the Epilogue is now read. The stop: the context of the run.
