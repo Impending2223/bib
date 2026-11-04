@@ -31,9 +31,11 @@ STYLE (settled; keep it, and fix anything that drifts from it):
  5. Changes, on the same basis in both value columns (CHANGE in the script): monthly series, percent
     from the prior month, not annualized; quarterly series, percent from the prior quarter at an
     annual rate, marked "ar". Positive changes carry "+"; minus is U+2212.
-    CPI, WPI and industrial production add the change from the same month a year earlier, in
-    parentheses, "y/y" in grey: "+0.1% (+1.0% y/y)". Each column computes it in its own figures:
-    the year-earlier figure in the same release or Report, and today's series. Not annualized
+    CPI, WPI, industrial production and the GNP deflator add the change from the same month (quarter) a year
+    earlier, in parentheses, "y/y" in grey: "+0.1% (+1.0% y/y)". Each column computes it in its own figures:
+    the year-earlier figure in the same release or Report (the deflator's, nominal over real GNP of the year-earlier
+    quarter in the same release, so its rebasing of Aug. 1965 does not cross it; every quarter's release carries it),
+    and today's series. Not annualized
     monthly rates: the CPI and WPI are not seasonally adjusted, and one-decimal indexes make a
     monthly rate times twelve mostly rounding.
  6. Receipts / expenditures / balance: one line each, label left, figure right-aligned in tabular
@@ -78,15 +80,16 @@ STYLE (settled; keep it, and fix anything that drifts from it):
     table, the yields and mortgage rates in the Money and credit table (13); reserve assets and the trade balances under
     International; the debt's holders and length under "Federal debt" (the public debt and its ratios with them), $bn in
     its header as Federal finance; the exchange rates (and the gold price, when read) in a table of their own (one figure).
-18. The standard tables (the owner's request, Nov. 4, 2026): the month's recurring tables, Economic indicators, Oil,
-    Exchange rates and gold, Money and credit, Presidential approval (TABLES), and the war table under the first
-    Thursday (tools/bib/wartable.py, STYLE 8); not the one-off blocks (an election, a budget, a bill's course, the
-    forces of Armed Forces Day). Each is anchored, tbl-<kind>-<section> (war-<month>), and its caption set between
-    "〈〈 " and " 〉〉", links to the same kind's table before and after it in the calendar, on whatever page (a bare
-    "#" link, routed by calsplit.route), in the thread line's style (build.thread_nav: .tnb, muted, not underlined),
-    the target's date on hover, the year added where it differs; none at the first or the last. A column headed "As
-    first reported" only where another column holds a later figure: where none does (the exchange rates; Oil's
-    one-figure rows, all first reported; a master table), the figure's column goes unheaded, or "Figure".
+18. The chevrons (the owner's requests and corrections, Nov. 4, 2026): the tables that recur, each a whole, its title
+    between "〈〈 " and " 〉〉", links to the same kind's before and after in the calendar, on whatever page (a bare "#"
+    link, routed by calsplit.route), in the thread line's style (build.thread_nav: .tnb, muted, not underlined), the
+    target's date on hover, the year added where it differs; none at the first or the last. They are: the month's set
+    (one pair, on its first caption, Economic indicators: tbl-ind-<section>; Oil, Exchange rates and gold, Money and
+    credit and Presidential approval are its divisions, under ruled lines, and take none), the war table
+    (tools/bib/wartable.py, STYLE 8), the budget (tools/bib/budgets.py, STYLE 7) and Armed Forces Day
+    (tools/bib/afday.py, STYLE 5); not the one-off blocks (an election, a bill's course). A column headed "As first
+    reported" only where another column holds a later figure: where none does (the exchange rates; Oil's one-figure
+    rows, all first reported; a master table), the figure's column goes unheaded, or "Figure".
 """
 import calendar
 import datetime
@@ -515,8 +518,9 @@ def table_of(sid, s):
     return "econ"
 
 
-def anchor(kind, sec_id):
-    return f"tbl-{kind}-{sec_id}"
+def anchor(sec_id):
+    """The month's set of tables (STYLE 18), on its first table."""
+    return f"tbl-ind-{sec_id}"
 
 
 def nav_link(href, title, mark):
@@ -533,8 +537,8 @@ def caption(text, prev=None, nxt=None, cls="ind-cap"):
 
 def block(data, sec_from, sec_to, prev_to, year, next_from=None, href=None, sec_id=None, nav=None):
     """The month's tables. href(sid): where a row's name links (its servant on the page; tools/bib/concepts.py).
-    sec_id: the section, for each table's anchor; nav(kind): ((href, title) or None, (href, title) or None), the
-    same kind's tables before and after in the calendar (STYLE 18)."""
+    sec_id: the section, for the set's anchor; nav: ((href, title) or None, (href, title) or None), the month sets
+    before and after in the calendar, on the set's first caption (STYLE 18)."""
     lo, hi = datetime.date.fromisoformat(sec_from), datetime.date.fromisoformat(sec_to)
     rows = rows_for(data, lo, hi, prev_to and datetime.date.fromisoformat(prev_to),
                     next_from and datetime.date.fromisoformat(next_from))
@@ -542,12 +546,15 @@ def block(data, sec_from, sec_to, prev_to, year, next_from=None, href=None, sec_
         return ""
     href = href or def_href
 
+    capped = []                          # the set's first table takes its anchor and the chevrons
+
     def cap(kind):
-        p, n = nav(kind) if nav else (None, None)
+        p, n = (nav or (None, None)) if not capped else (None, None)
+        capped.append(kind)
         return caption(TABLES[kind], p, n)
 
     def aid(kind):
-        return f' id="{anchor(kind, sec_id)}"' if sec_id else ""
+        return f' id="{anchor(sec_id)}"' if sec_id and capped == [kind] else ""
     trs, shown, polls, rates, oils, fxs = [], set(), [], [], [], []
     for sid, s, r in rows:
         kind = table_of(sid, s)
@@ -581,27 +588,32 @@ def block(data, sec_from, sec_to, prev_to, year, next_from=None, href=None, sec_
                    f'<td{_tattr(tb)}>{nowv}</td></tr>')
     out = ""
     if trs:
-        out += (f'<div class="ind"{aid("econ")}>{cap("econ")}<table><thead><tr><th>Indicator</th><th>As first reported</th>'
+        c = cap("econ")
+        out += (f'<div class="ind"{aid("econ")}>{c}<table><thead><tr><th>Indicator</th><th>As first reported</th>'
                 '<th>Released</th><th>Revised, today</th></tr></thead><tbody>'
                 + "".join(trs) + "</tbody></table>" + indchart.KEY + "</div>")
     if oils:                             # Oil apart: no vacant columns (STYLE 15; tools/bib/oil.py)
-        out += oil.table(oils, year, lambda sid, s, r: name_cell(sid, s, r, href), cells, aid("oil"), cap("oil"))
+        c = cap("oil")
+        out += oil.table(oils, year, lambda sid, s, r: name_cell(sid, s, r, href), cells, aid("oil"), c)
     if fxs:                              # exchange rates and gold: not revised, one figure (STYLE 17)
-        out += finance.fx_table(fxs, year, lambda sid, s, r: name_cell(sid, s, r, href), cells, aid("fx"), cap("fx"))
+        c = cap("fx")
+        out += finance.fx_table(fxs, year, lambda sid, s, r: name_cell(sid, s, r, href), cells, aid("fx"), c)
     if rates:                            # rates apart: not revised, so one figure (STYLE 13)
-        out += (f'<div class="ind ind-sep ind-rt"{aid("rates")}>{cap("rates")}<table><thead><tr><th>Rate</th>'
+        c = cap("rates")
+        out += (f'<div class="ind ind-sep ind-rt"{aid("rates")}>{c}<table><thead><tr><th>Rate</th>'
                 '<th>Percent</th></tr></thead><tbody>' + "".join(rates) + "</tbody></table></div>")
     if polls:                            # opinion apart: a reading has its field dates and no revision
-        out += (f'<div class="ind ind-sep ind-op"{aid("approval")}>{cap("approval")}<table><thead><tr><th>Reading</th><th>As published</th>'
+        c = cap("approval")
+        out += (f'<div class="ind ind-sep ind-op"{aid("approval")}>{c}<table><thead><tr><th>Reading</th><th>As published</th>'
                 '<th>Released</th><th>Today</th></tr></thead><tbody>' + "".join(polls) + "</tbody></table></div>")
     return out
 
 
-def kinds(data, sec_from, sec_to, prev_to, next_from=None):
-    """The standard tables a section's block sets (keys of TABLES), as block files them."""
+def has_set(data, sec_from, sec_to, prev_to, next_from=None):
+    """Whether a section's block sets any table, as block files them."""
     lo, hi = datetime.date.fromisoformat(sec_from), datetime.date.fromisoformat(sec_to)
-    return {table_of(sid, s) for sid, s, r in rows_for(data, lo, hi, prev_to and datetime.date.fromisoformat(prev_to),
-                                                       next_from and datetime.date.fromisoformat(next_from))}
+    return bool(rows_for(data, lo, hi, prev_to and datetime.date.fromisoformat(prev_to),
+                         next_from and datetime.date.fromisoformat(next_from)))
 
 
 def month_title(iso, year):
@@ -653,10 +665,8 @@ def inject(page, series, mode):
         dated = [s for s in lst.sections if s.extra.get("from") and s.extra.get("to")]
         nb = lambda i: (str(dated[i - 1].extra["to"]) if i else None,
                         str(dated[i + 1].extra["from"]) if i + 1 < len(dated) else None)
-        seq = {}                                   # each standard table's sections, in order (STYLE 18)
-        for i, sec in enumerate(dated):
-            for k in kinds(data, str(sec.extra["from"]), str(sec.extra["to"]), *nb(i)):
-                seq.setdefault(k, []).append(sec)
+        seq = [sec for i, sec in enumerate(dated)          # the months with a set, in order (STYLE 18)
+               if has_set(data, str(sec.extra["from"]), str(sec.extra["to"]), *nb(i))]
         for i, sec in enumerate(dated):
             if here and plan.part_of(sec) not in (None, here):
                 continue                           # another part's page
@@ -664,11 +674,9 @@ def inject(page, series, mode):
             hid = f"{lst.key}--{sec.id}" if mode == "series" else sec.id
             prv, nxt = nb(i)
 
-            def nav(kind, sec=sec, year=year):    # the same kind's tables before and after; routed to their pages
-                xs = seq.get(kind, [])
-                j = xs.index(sec)
-                return tuple((f"#{anchor(kind, xs[k].id)}", month_title(xs[k].extra["from"], year))
-                             if 0 <= k < len(xs) else None for k in (j - 1, j + 1))
+            j = seq.index(sec) if sec in seq else -1      # the sets before and after; routed to their pages
+            nav = tuple((f"#{anchor(seq[k].id)}", month_title(seq[k].extra["from"], year))
+                        if j >= 0 and 0 <= k < len(seq) else None for k in (j - 1, j + 1))
             blk = block(data, str(sec.extra["from"]), str(sec.extra["to"]), prv, year, nxt, plan.href(sec), sec.id, nav)
             if not blk:
                 continue

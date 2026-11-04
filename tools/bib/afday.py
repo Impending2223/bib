@@ -18,6 +18,8 @@ STYLE (keep it):
     (its STYLE): a part under a small-capital heading ("South Vietnam and the allies"), each table open, its title
     in a line above it, its source under it.
  4. Contents: "Armed forces, 1965" in the page's contents and in the Defense and Vietnam threads' Tables and maps.
+ 5. The caption between 〈〈 and 〉〉: the Armed Forces Days before and after, on whatever page, the day on hover
+    (indicators STYLE 18; the owner, Nov. 4, 2026).
 """
 import datetime
 
@@ -122,8 +124,10 @@ def allies_html(y):
     return table(f"Other allied forces in South Vietnam, {y}", rows, src, "Maneuver bns." if bn else None)
 
 
-def block(iso, y):
-    """The day's block: the caption, forces.py's tables for the year, the RVNAF's and the allies' of the year before."""
+def block(iso, y, seq=None):
+    """The day's block: the caption, forces.py's tables for the year, the RVNAF's and the allies' of the year before.
+    seq: every Armed Forces Day the calendar shows, in order, for the caption's 〈〈 and 〉〉 (STYLE 5)."""
+    from .indicators import caption, date_label
     ours = rvn_html(y - 1) + allies_html(y - 1)
     if ours:                                  # in forces.py's dress: a small-capital heading for the part (its STYLE 1)
         ours = f'<div class="fc"><p class="fch">South Vietnam and the allies</p>{ours}</div>'
@@ -137,7 +141,11 @@ def block(iso, y):
         proc = f'the third Saturday in May, by <a href="{p[2]}">{esc(p[0])}</a> ({esc(p[1])})'
     else:
         proc = "the third Saturday in May (the year's proclamation not read)"
-    return (f'<div class="wart afd" id="afd-{y}"><p class="wart-cap">Armed Forces Day, {esc(day)}</p>'
+    nav = [None, None]
+    if seq and iso in seq:
+        j = seq.index(iso)
+        nav = [(f"#afd-{seq[k][:4]}", date_label(seq[k], y)) if 0 <= k < len(seq) else None for k in (j - 1, j + 1)]
+    return (f'<div class="wart afd" id="afd-{y}">{caption(f"Armed Forces Day, {day}", *nav, cls="wart-cap")}'
             f'<p class="wart-foot">Armed Forces Day: {proc}. The forces of {y - 1}, as the sources give them by year.</p>{inner}</div>')
 
 
