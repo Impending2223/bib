@@ -3154,6 +3154,18 @@
   date: '1962-07-05'
   where: repository not given in the note
   read: false
+- id: x.1962-07-05.the-presidents-news-conference-july-5
+  what: The President's News Conference, July 5, 1962
+  kind: press
+  date: '1962-07-05'
+  where: Public Papers of the Presidents, John F. Kennedy, 1962, 539
+  agent:
+    - name:kennedy-john-f
+  made: contemporaneous
+  form: transcription
+  copies:
+    - 1962 Pub. Papers 539
+  read: true
 - id: x.1962-07-06.chamber-of-commerce-of-the-united
   what: Chamber of Commerce of the United States, News Service, release of July 6, 1962
   kind: statement
@@ -6166,6 +6178,17 @@
   date: '1962-10-20'
   where: RFK Papers, JFK Library
   read: false
+- id: x.1962-10-21.ormsby-gore-report-to-london
+  what: Ormsby-Gore's report to London of his meeting with Kennedy, 12:30 p.m., Oct. 21, 1962 (FRUS, editorial note, doc. 37; printed in Macmillan, At the End of the Day, 190-94; no American record found)
+  kind: report
+  date: '1962-10-21'
+  where: British Embassy, Washington, to the Foreign Office (as FRUS gives it)
+  agent:
+    - name:ormsby-gore-david
+  made: contemporaneous
+  form: original
+  open: not held
+  read: false
 - id: x.1962-10-22.chizhov-to-center-oct-22
   what: Chizhov to Center, Oct. 22, 1962, GRU
   kind: telegram
@@ -6331,6 +6354,17 @@
   date: '1962-10-24'
   where: GRU
   read: false
+- id: x.1962-10-24.knox-report-of-khrushchev-conversation
+  what: W. E. Knox's report of his conversation with Khrushchev, Moscow, Oct. 24, 1962, given at the State Department (as Hilsman summarizes it, Oct. 26)
+  kind: report
+  date: '1962-10-24'
+  where: not given
+  agent:
+    - W. E. Knox
+  made: contemporaneous
+  form: account
+  open: not found
+  read: false
 - id: x.1962-10-24.minutes-of-the-ex-comm-meeting
   what: Minutes of the Ex Comm meeting, Oct. 24, 1962, 10 a.m.
   kind: minutes
@@ -6431,6 +6465,21 @@
   copies:
     - FRUS 1961–63, XI, doc. 84; VI, doc. 65
   read: true
+- id: x.1962-10-26.hilsman-to-rusk-knox-conversation
+  what: Hilsman to Rusk, memorandum, "Khrushchev's Conversation with Mr. W. E. Knox, President Westinghouse Electrical International, Moscow, October 24," Oct. 26, 1962
+  kind: memorandum
+  date: '1962-10-26'
+  where: as FRUS prints it
+  agent:
+    - name:hilsman-roger
+  made: contemporaneous
+  form: original
+  from:
+    - of: x.1962-10-24.knox-report-of-khrushchev-conversation
+      kind: report
+  copies:
+    - FRUS 1961–63, X–XII, microfiche supplement, doc. 419
+  read: true
 - id: x.1962-10-26.markov-to-serov-oct-26
   what: Markov to Serov, Oct. 26, 1962, GRU
   kind: telegram
@@ -6525,6 +6574,18 @@
   copies:
     - FRUS 1961–63, XI, doc. 96
   read: true
+- id: x.1962-10-27.kennedy-to-u-thant-message
+  what: Kennedy to U Thant, message, ordered dispatched at the Executive Committee, 4 p.m., Oct. 27, 1962 (record of action, meeting no. 8)
+  kind: letter
+  date: '1962-10-27'
+  where: as FRUS prints the record of action
+  agent:
+    - name:kennedy-john-f
+  made: contemporaneous
+  form: copy
+  copies:
+    - FRUS 1961–63, X–XII, microfiche supplement, doc. 437
+  read: true
 - id: x.1962-10-27.malins-notes-protocol-62-oct-27
   what: Malin's notes, Protocol 62, Oct. 27, 1962
   kind: notes
@@ -6559,6 +6620,16 @@
   date: '1962-10-27'
   where: Kennedy Library
   read: false
+- id: x.1962-10-27.white-house-statement-soviet-proposals
+  what: White House Statement on Soviet Proposals Relating to International Security, Oct. 27, 1962
+  kind: statement
+  date: '1962-10-27'
+  where: Public Papers of the Presidents, John F. Kennedy, 1962, 813
+  made: contemporaneous
+  form: print
+  copies:
+    - 1962 Pub. Papers 813
+  read: true
 - id: x.1962-10-28.curran-fulbright-switch
   what: Ned Curran, "Fulbright Switch? No Such Thing, Says the Senator," *Arkansas Gazette*, Oct. 28, 1962
   kind: press
@@ -6578,12 +6649,36 @@
   made: contemporaneous
   form: original
   read: false
+- id: x.1962-10-28.kennedy-to-ayub-khan-letter
+  what: Kennedy to Ayub Khan, letter, text cabled to McConaughy, telegram 681, Oct. 28, 1962, for delivery Oct. 29
+  kind: letter
+  date: '1962-10-28'
+  where: Department of State, Central Files, 691.93/10-2862 (as FRUS gives it)
+  agent:
+    - name:kennedy-john-f
+  made: contemporaneous
+  form: original
+  copies:
+    - FRUS 1961–63, XIX, doc. 186
+  read: true
 - id: x.1962-10-28.malins-notes-protocol-63-oct-28
   what: Malin's notes, Protocol 63, Oct. 28, 1962
   kind: notes
   date: '1962-10-28'
   where: APRF
   read: false
+- id: x.1962-10-28.statement-soviet-decision-to-withdraw
+  what: Statement by the President Following the Soviet Decision To Withdraw Missiles From Cuba, Oct. 28, 1962
+  kind: statement
+  date: '1962-10-28'
+  where: Public Papers of the Presidents, John F. Kennedy, 1962, 815
+  agent:
+    - name:kennedy-john-f
+  made: contemporaneous
+  form: print
+  copies:
+    - 1962 Pub. Papers 815
+  read: true
 - id: x.1962-10-29.alekseyev-to-moscow-oct-29
   what: Alekseyev to Moscow, Oct. 29, 1962, APRF
   kind: telegram
@@ -7683,6 +7778,18 @@
   date: '1962-12-16'
   where: National Security Files, box 317, Kennedy Library
   read: false
+- id: x.1962-12-17.after-two-years-television-interview
+  what: 'Television and Radio Interview: "After Two Years—a Conversation With the President," Dec. 17, 1962'
+  kind: transcript
+  date: '1962-12-17'
+  where: Public Papers of the Presidents, John F. Kennedy, 1962, 889
+  agent:
+    - name:kennedy-john-f
+  made: contemporaneous
+  form: transcription
+  copies:
+    - 1962 Pub. Papers 889
+  read: true
 - id: x.1962-12-17.john-d-deardourff-to-robert-r
   what: John D. Deardourff to Robert R. Douglass, Dec. 17, 1962, Hinman Papers, IV-J2-1–13:71
   kind: letter

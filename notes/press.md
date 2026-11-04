@@ -71,6 +71,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1962-09-28 | *Deutsche Soldaten-Zeitung und National-Zeitung* | interview | Kroll interview, "Endkampf um Berlin in 4 Wochen" | Fursenko and Naftali, *Khrushchev's Cold War*, 460
 1962-10-01 | New York Times | front page | the President "qualified his optimism most carefully" in his address | Branch, *Parting the Waters*, 671
 1962-10-21 | *New York Times*, *Washington Post* | stories | the quarantine stories held at Kennedy's request (entered) | Fursenko and Naftali, *"One Hell of a Gamble"*, 238
+1962-10-21 | a newspaper (unnamed) | story | had the quarantine Sunday evening; held at the President's request | Sorensen, *Kennedy*, 698
 1962-10-22 | *New York Herald Tribune* | headline | "Top-Secret Doings in Capital; A Cuba-Berlin Strategy Step?" | Fursenko and Naftali, *"One Hell of a Gamble"*, 238
 1962-10-25 | Lippmann's column | column | the Jupiters for the Cuban base | Fursenko and Naftali, *Khrushchev's Cold War*, 487–88
 1962-10-30 | *Washington Post* | item | "MiG Deal with India Appears Off" | Fursenko and Naftali, *Khrushchev's Cold War*, 497
@@ -121,6 +122,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-06 | Liberation; Christian Century (June 12); The Witness; Friends; The Mennonite | covers | the "Letter from Birmingham Jail" | Branch, *Parting the Waters*, 804
 1963-06 | *New Republic*, TRB | item | "He is through" | Smith, *On His Own Terms*, 408
 1963-06 | *Manchester Guardian* | editorial | the American University address "one of the great state papers of American history" | Sorensen, *Kennedy*, 733
+1963-06 | the American press | coverage | the American University address underplayed, then forgotten after the civil rights address | Sorensen, *Kennedy*, 733
 1963-06-10 | New York Times | front page | King: the bill wasted if the President leaves for Europe; a march on Washington (entered) | Branch, *Parting the Waters*, 822
 1963-06-12 | the world's papers | front pages | Browne's photograph of Thích Quảng Đức | Bernstein, *Guns or Butter*, 327
 1963-06-17 | New York Times | front page | Bundy on television defends the President's trip to Europe | Branch, *Parting the Waters*, 841

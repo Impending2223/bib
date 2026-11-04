@@ -459,27 +459,17 @@ entries:
     when: Dec. 12
     date: '1962-12-12'
     thread: vietnam
-    c: 'News conference, on Vietnam: ten or eleven times as many men there as a year ago; "We don''t see the end of the tunnel, but I must say I don''t think it is darker than it was a year ago, and in some ways lighter."'
-    n: 'The President''s News Conference of December 12, 1962, [1962 Pub. Papers 866](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=926). [[w.reeves-president-kennedy]], 444. Names: Kennedy.'
+    also: [press-and-broadcasting, missile-crisis]
+    c: 'News conference, on Vietnam: ten or eleven times as many men there as a year ago; "We don''t see the end of the tunnel, but I must say I don''t think it is darker than it was a year ago, and in some ways lighter." On the articles of Stevenson''s part in the Executive Committee: Stevenson "renders very distinguished service." "I''m going to keep my old friends. But I am responsible for many things under the Constitution, but not for what they write."'
+    n: 'The President''s News Conference of December 12, 1962, [1962 Pub. Papers 866](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=926), at 873 (Stevenson). [[w.reeves-president-kennedy]], 444. [[w.sorensen-kennedy]], 315 (the answer, of the Bartlett and Stewart Alsop article; to Sorensen later: "I''ve never told Bartlett what to write, so I can''t start telling him what not to write"). Names: Kennedy, Stevenson.'
     src:
-      c: 0655e59a
+      c: e079f6d6
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=926: all'
-        - 'w.reeves-president-kennedy 444: all'
-    tags: [name:kennedy-john-f]
-  - id: cal.1962-12-12.press-and-broadcasting
-    when: Dec. 12
-    date: '1962-12-12'
-    thread: press-and-broadcasting
-    also: [missile-crisis]
-    c: 'News conference, on the articles of Stevenson''s part in the Executive Committee: Stevenson "renders very distinguished service." "I''m going to keep my old friends. But I am responsible for many things under the Constitution, but not for what they write."'
-    n: 'The President''s News Conference, [1962 Pub. Papers 866](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=926) (Dec. 12, 1962), at 873. [[w.sorensen-kennedy]], 315 (the answer, of the Bartlett and Stewart Alsop article; to Sorensen later: "I''ve never told Bartlett what to write, so I can''t start telling him what not to write"). See [[cal.1962-12.missile-crisis]]. Names: Stevenson, Kennedy.'
-    src:
-      c: 1339cd9b
-      rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=926: all'
-        - 'w.sorensen-kennedy 315: B'
+        - 'w.reeves-president-kennedy 444: A-B'
+        - 'w.sorensen-kennedy 315: D'
     tags: [name:kennedy-john-f, name:stevenson-adlai-e, name:bartlett-charles, name:alsop-stewart]
+    aliases: [cal.1962-12-12.press-and-broadcasting]
   - id: cal.1962-12-13.legislatures-us
     when: Dec. 13
     date: '1962-12-13'
@@ -624,7 +614,7 @@ entries:
     date: '1962-12-17'
     thread: press-and-broadcasting
     c: '"After Two Years." An hour with three network correspondents.'
-    n: 'Television and Radio Interview: "After Two Years—a Conversation with the President", [1962 Pub. Papers 889](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=949) (Dec. 17, 1962). [[w.reeves-president-kennedy]], 436–37; [[w.branch-parting-the-waters]], 684–85. [[w.sorensen-kennedy]], 328, 416. See [[cal.1961-01-25.press-and-broadcasting]].'
+    n: 'Television and Radio Interview: "After Two Years—a Conversation with the President", [1962 Pub. Papers 889](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=949) (Dec. 17, 1962). [[w.reeves-president-kennedy]], 436–37; [[w.branch-parting-the-waters]], 684–85; [[w.sorensen-kennedy]], 600 (West Berlin "a vital interest to us"). [[w.sorensen-kennedy]], 328, 416. See [[cal.1961-01-25.press-and-broadcasting]].'
     src:
       c: 8d3b1e3b
       rows:
@@ -633,6 +623,7 @@ entries:
         - 'via w.reeves-president-kennedy 436 n.the-president-himself-who-insisted: all'
         - 'w.sorensen-kennedy 328, 416: all'
         - 'w.branch-parting-the-waters 684–85: all'
+        - 'w.sorensen-kennedy 600: A'
     tags: [name:kennedy-john-f]
   - id: cal.1962-12-17.georgia-atlanta
     when: Dec. 17–18

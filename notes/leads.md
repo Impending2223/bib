@@ -2064,6 +2064,10 @@ Rights in Conflict (Walker Report):
 - Javits's protest on the Senate floor against "The White Man's Party?" (195 n.13): the Record, June–July 1963.
 - The undated rows of Passed over marked "lead," each with its page.
 
+### Sorensen, *Kennedy* (batch 3, fourth run, Nov. 4, 2026; notes/book-checks/sorensen-kennedy.md)
+- The Senate resolution of thirty-four for an atmospheric ban, May 1963 (the Record; 729); the Republicans' statements on the test ban: Jackson, Dirksen and Halleck, June-Aug. 1963 (736-37); LeMay's and Power's testimony, and Strauss, Burke, Radford and Twining against the treaty, Aug. 1963 (739); the Air Force Association's stand (739); the Harris poll on the treaty (737); Nixon's attack on the wheat sale, Oct. 1963 (742); Gallup's "peace party" (745); Barnett's telegrams of Oct. 1962 (707); the NSC's attendance (Robert Kennedy, Sorensen) after the Bay of Pigs (644); a thread for the United Nations (the report of Nov. 20, 1963, 1963 Pub. Papers 880, has none).
+- Defense (602-36): McNamara's ninety-six questions, Mar. 1961 (604); the Strike Command (606); the bill on the Chiefs' tenure, 1963 (607-08); the Office of Emergency Planning and Ellis's judgeship, 1962 (614); the shelter booklet and the shelter bill of 1962 (615-16); the Chiefs on resuming tests, Feb. 1961, the June panel, the early August order (618; FRUS VII); the reactions of Peking, Tass, Young Americans for Freedom and SDA to the resumption, Mar. 1962 (624); the magazine interview of Mar. 1962 on first use (627 n.3); the green berets, Farm Gate and Jungle Jim, the Special Group (Counterinsurgency), 1961-62 (632-33).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -3236,6 +3240,9 @@ CQ Weekly Report, 1968-08-30:
 
 ### Novak, *The Agony of the G.O.P. 1964* (batch 3, third run, Nov. 4, 2026; notes/book-checks/novak-agony-of-the-g.md)
 - The *Athens Post*'s interview with Goldwater before Greece's election of Nov. 1963 (243 n.4).
+
+### Sorensen, *Kennedy* (batch 3, fourth run, Nov. 4, 2026; notes/book-checks/sorensen-kennedy.md)
+- The Joint Chiefs' written views on Laos, late Apr. 1961 (644-45; FRUS XXIV); the neutral neighbors' refusal, 1961 (640-41); the warnings through the Warsaw talks, Mar. 1961 and June 1962 (642, 662; FRUS XXII); the Seventh Fleet and the war games in Thailand, spring 1963 (648); Madame Nhu's tour and remarks, Aug.-Nov. 1963 (657, 659); Menon's removal, the Nehru–Ayub statement, the air defense agreement for India (663-65; FRUS XIX); the NATO Council's backing, Oct. 1962 (705; FRUS XI); the letters of Nov. 19, 1962 to the allies on the IL-28s (720); Khrushchev's letter on Nixon's defeat (721); the MIG attack on the shrimp boat, Feb. 1963 (722); the end of jamming and the IAEA agreement, June 1963 (733); Kennedy and the Navy over the interception line, Oct. 24, 1962 (710); the Alphand meeting at Andrews, Mar. 26, 1961 (FRUS XXIV, doc. 40: not in the calendar; not in Sorensen).
 
 ## The Executive roster
 
