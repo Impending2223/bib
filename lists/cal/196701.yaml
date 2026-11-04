@@ -480,7 +480,17 @@ entries:
     thread: rules
     also: [congress]
     c: '90th Congress convenes. Senate 64 D–36 R; House 248 D–187 R, Powell among the Democrats. McCormack Speaker over Ford, [245–186](https://voteview.com/rollcall/RH0900001). The rules of the 89th Congress taken over without the 21-day rule: the previous question, [196–225](https://voteview.com/rollcall/RH0900004); the amendment dropping it, [234–185](https://voteview.com/rollcall/RH0900005).'
-    n: 'H. Res. 7, 90th Cong. [113 Cong. Rec., House, Jan. 10, 1967](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt1/pdf/GPO-CRECB-1967-pt1-1-2.pdf); [113 Cong. Rec., Senate, Jan. 10, 1967](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt1/pdf/GPO-CRECB-1967-pt1-1-1.pdf). To check: [[w.zelizer-on-capitol-hill]]; [[w.congress-and-the-nation-1969]]. See [[cal.1965-01-04.congress]]. Names: McCormack, Ford, Powell.'
+    n: 'H. Res. 7, 90th Cong. [113 Cong. Rec., House, Jan. 10, 1967](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt1/pdf/GPO-CRECB-1967-pt1-1-2.pdf); [113 Cong. Rec., Senate, Jan. 10, 1967](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt1/pdf/GPO-CRECB-1967-pt1-1-1.pdf). [[w.zelizer-fierce-urgency-of-now]], 265 (the 21-day rule eliminated in the first days of the 90th). To check: [[w.zelizer-on-capitol-hill]]; [[w.congress-and-the-nation-1969]]. See [[cal.1965-01-04.congress]]. Names: McCormack, Ford, Powell.'
+    src:
+      c: f5b2c2f7
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt1/pdf/GPO-CRECB-1967-pt1-1-2.pdf: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt1/pdf/GPO-CRECB-1967-pt1-1-1.pdf: all'
+        - 'https://voteview.com/rollcall/RH0900001: D'
+        - 'https://voteview.com/rollcall/RH0900004: E'
+        - 'https://voteview.com/rollcall/RH0900005: F'
+        - 'w.zelizer-fierce-urgency-of-now 265: C'
+        - 'via w.zelizer-fierce-urgency-of-now 265 n.4: C'
     tags: [congress:90, name:mccormack-john-w, name:ford-gerald-r, name:powell-adam-clayton-jr, committees:90]
   - id: cal.1967-01-10.congress
     when: Jan. 10
@@ -672,6 +682,19 @@ entries:
         - 'w.kotz-judgment-days 380: all'
         - 'via x.1967-01-11.alexander-to-johnson: all'
     tags: [name:king-martin-luther-jr, name:johnson-lyndon-b]
+  - id: cal.1967-01-11.program-2
+    when: Jan. 11
+    date: '1967-01-11'
+    thread: program
+    also: [civil-rights-organizations]
+    c: 'Johnson to Wilkins by telephone, 8:27 p.m.: "Our whole damn program is dead as a doornail. I think the Republicans have taken over. I think they are in control. I think our own people have split up."'
+    n: '[[w.zelizer-fierce-urgency-of-now]], 265. To check: [Johnson and Wilkins, 8:27 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-roy-wilkins-and-office-secretary-january-12), Conversation WH6701-03-11343 (Miller Center), not heard (cited by [[w.zelizer-fierce-urgency-of-now]], 265 n.5). Check: the catalogue''s address gives Jan. 12. Names: Johnson, Wilkins.'
+    src:
+      c: c8c8f391
+      rows:
+        - 'w.zelizer-fierce-urgency-of-now 265: all'
+        - 'via w.zelizer-fierce-urgency-of-now 265 n.5: all'
+    tags: [name:johnson-lyndon-b, name:wilkins-roy]
   - id: cal.1967-01-12.vietnam
     when: Jan. 12
     date: '1967-01-12'
@@ -1226,6 +1249,19 @@ entries:
         - 'w.macv-command-history-1967 326–30: all'
         - 'via w.macv-command-history-1967 330 n.10: all'
     tags: [name:westmoreland-william]
+  - id: cal.1967-01-24.economy-2
+    when: Jan. 24
+    date: '1967-01-24'
+    thread: economy
+    also: [congress]
+    c: 'Mahon, chairman of House Appropriations, on the budget: "When we are in an inflationary period and the budget is in the red, it is especially imperative that we take a critical look at all the phases of the budget and cut everything as much as we can."'
+    n: '[[w.zelizer-fierce-urgency-of-now]], 272. To check: "Congress Vows a ''Hard Look,''" *Boston Globe*, Jan. 25, 1967 (cited by [[w.zelizer-fierce-urgency-of-now]], 272 n.15). Check: the day of the remark. See [[cal.1967-01-24.economy]]. Names: Mahon.'
+    src:
+      c: b3f7793e
+      rows:
+        - 'w.zelizer-fierce-urgency-of-now 272: all'
+        - 'via w.zelizer-fierce-urgency-of-now 272 n.15: all'
+    tags: [name:mahon-george-h]
   - id: cal.1967-01-25.robert-kennedy
     when: Jan. 25
     date: '1967-01-25'

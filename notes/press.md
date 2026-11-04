@@ -249,6 +249,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1966-06-16 | *New York Post*, Kempton | item | "There's Only One Winner" (entered) | Smith, *On His Own Terms*, 478-79
 1966-07-29 | *New York Post* (McGrory) | column | "The Vice President is not a proud man" (Check: the day) | Solberg, *Hubert Humphrey*, 295
 1966-10-21 | *New York Daily News* | item | its straw poll: O'Connor ahead | Smith, *On His Own Terms*, 491
+1966-11-13 | *New York Times* | editorial | "Republican Renascence" (an entry) | Zelizer, *Fierce Urgency of Now*, 259
 1966-12-25–1967-01-03 | *New York Times*, Salisbury | dispatches | from Hanoi (in the tree) | Bernstein, *Guns or Butter*, 412
 1967-02-21 | *New York Times* |  | the grand-jury claims in the Dahmer and Neshoba cases | Branch, *Pillar of Fire*, 609
 1967-02-28 | *New York Times* | p. 40 | the same | Branch, *Pillar of Fire*, 609
@@ -325,16 +326,19 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-03-10 | *New York Times* | front page | "Westmoreland Requests 206,000 More Men" (cal.1968-03-10.vietnam) | Westmoreland, *A Soldier Reports*, 358
 1968-03-10 | *New York Times* | front page | Smith and Sheehan, the 206,000 (entered) | Berman, *Lyndon Johnson's War*, 184
 1968-03-13 | ABC | broadcast | Howard K. Smith's editorial for mobilization "on an overwhelming scale" | Branch, *At Canaan's Edge*, 710
+1968-03-14 | *Los Angeles Times* | editorial | "The Gold Crisis Is Here" (an entry) | Zelizer, *Fierce Urgency of Now*, 287
 1968-03-16 | *New York Times* | p. 17 | a Dahmer murder conviction | Branch, *Pillar of Fire*, 610
 1968-03-17 | New York Times | front page | the official account of Mỹ Lai, "128 enemy soldiers" | Branch, *At Canaan's Edge*, 715
 1968-03-17 | Washington Star | article | Donald Kirk on the command arrangements in I Corps | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 963
 1968-03-19 | *New York Times* | front page | Rockefeller to declare | White, *Making of the President 1968*, 231
+1968-03-23 | *New Republic* | article | Edwin Dale, "The Gold Rush": a collapse "could bring a world-wide depression" | Zelizer, *Fierce Urgency of Now*, 287
 1968-03-24 | New York Times |  | "Memphis Protest Avoids Violence," the Southern Regional Council's study | Branch, *At Canaan's Edge*, 730
 1968-03-29 | NBC Huntley-Brinkley | broadcast | King, "Nonviolence can be as contagious as violence"; Coby Smith of the Invaders | Branch, *At Canaan's Edge*, 738, 740
 1968-03-29 | *St. Louis Globe-Democrat*, Memphis *Commercial Appeal* | — | the FBI's lines on King at Memphis; "Chicken a la King" (an entry) | Kotz, *Judgment Days*, 404
 1968-03-30 | New York Times | editorial page | against King's "descent on Washington" | Branch, *At Canaan's Edge*, 744
 1968-03-30/31 | Memphis Commercial Appeal; St. Louis Globe-Democrat | editorials | "King's Credibility Gap," "Chicken a la King"; "The Real Martin Luther King," from the FBI's material | Branch, *At Canaan's Edge*, 745
 1968-04-01 | *Newsweek* | item | the "rumors that periodically haunt Rocky's personal life" | Smith, *On His Own Terms*, 518
+1968-04-01 | *New York Times*, *Los Angeles Times* | front pages | Johnson's withdrawal; Kennedy told on the plane | Zelizer, *Fierce Urgency of Now*, 293–94
 1968-04-12 | MACV | announcement | "search and destroy" dropped | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1043
 1968-04-19 | *Washington Post* | item | "Rockefeller Speech Heard in Silence" | Smith, *On His Own Terms*, 528
 1968-04-21 | (Joseph Alsop) | column | the embargo on Delaware broken | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 964
