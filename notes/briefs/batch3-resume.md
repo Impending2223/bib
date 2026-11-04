@@ -102,3 +102,43 @@ Merged Nov. 3-4, 2026, all 32 patches of Oct. 29 (`inbox/merged/2026-10-29-b3-*.
 - In the first commits the readers' new `inbox/new-entries.tsv` lines and `inbox/2026-11-03-witness-test.yaml` were
   swept in by `git add -u inbox/` (f65afd5, 481e1df, 4624b62): the files as the readers left them, nothing changed.
 
+
+(The second merger, Nov. 4, 2026, after the second run's first 23 patches.)
+
+Merged, each by `./bib merge --auto` (no `--legacy`), its pending witnesses folded alone (`fold.py FILE`), checked,
+committed and pushed: rusk-2, ball-2, humphrey-2, solberg-2, sorensen-2, rfk-own-words-2, guthman-2, white-1968-2,
+suite-3505-2, white-1964-2, novak-agony-2, paterson-2, bissell-2, jones-2, navasky-2, shesol-2, thomas-rfk-2,
+fursenko-cold-war-2, dobrynin-2, mcnamara-2 (with the defense reader's `inbox/witnesses/2026-11-03-b3-clifford-2.yaml`),
+califano-2, califano-3, mcpherson-2 (`inbox/merged/`). No pending file for humphrey-2, dobrynin-2, califano-3. The same
+practice as before; for the next merger:
+
+- The "one event?" flags, some 350, read pair by pair (helper: `dups2.py` in the scratchpad's `merge2/`: each flagged
+  entry with its three likeliest neighbors). Kept apart: distinct acts of one day or month (a call apart from the
+  meeting, two memoranda, two cables). Combined (the tree's or older id kept, the other its alias; c and n joined by
+  hand, the map rebuilt against the new units): Humphrey's visit turned back at the White House (the reader's own
+  combine, KEEP's c, note and map); the $750 check, May 7, 1960 (Solberg's into White's); Wittenberg College, Oct. 17,
+  1960; Johnson's call to Nixon, Nov. 3, 1968 (White's into the Chennault entry); Goldwater's Senate-office meeting,
+  Dec. 1963 (both Whites); Rowe's questioning of Humphrey (White's August a Check); Robert Kennedy to Guthman on
+  Jackson, July 9, 1960; Johnson to Robert Kennedy on the civil rights bill, Jan. 1964; Bundy to Lodge, Oct. 29, 1963
+  (one cable, FRUS IV, doc. 236); McNamara's news conference of June 16, 1965. And the pair the first merger left: the
+  Cabinet of Apr. 20, 1961 (`cal.1961-04-20.vietnam` into `cal.1961-04-20.cuba-2`, also Vietnam).
+- Ball's two same-day flags kept (`--take keep`), as the reader asked. White 1968's Miami Beach entries of Aug. 5-7 and
+  press entries of Aug. 27 read against their days: distinct; its three "set only n" edits applied as written.
+- Check errors of the readers' patches mended by hand on the way: seasons and stretches in `when` written month first
+  ("Summer" -> "June, summer"; "Late Dec." -> "Dec., late"; "Mid-Dec." -> "Dec., mid-month"), a span's `date` set to
+  its first day (Feb. 17, 1966; Aug. 5, 1968; Nov. 23, 1963; Apr. 23, 1968), a month-only `date` where the day was a
+  guess (July 1965, Stevenson's body), each moved to its place in date order (`reorder.py`); a `follows:` across days
+  taken out; Names without a name entry taken out (Hechinger, Dearden, Fletcher, Edward Bennett Williams), others
+  tagged (Eisenhower, Brown, Adams, Higginbotham, J. Irwin Miller); polls and force levels `ok:result-form`; the Ho Chi
+  Minh Trail `ok:diacritics`, Điện Biên Phủ marked; "327 I.C.C." `ok:section-ref`.
+- Navasky's cite on `cal.1968-05-24.king` waited in `inbox/deferred.yaml` and was applied when thomas-rfk-2 landed.
+- `x.1969-07.clifford-a-viet-nam-reappraisal` was in both the Clifford and the Berman pending files; Clifford's is now
+  folded, so `inbox/witnesses/2026-11-03-b3-berman-2.yaml` will be refused by `fold.py` until its row is dropped or made
+  an `amend:` (the westy group's merger).
+- Leads copied into `notes/leads.md`, a "(batch 3, second run, ...)" section a book under each heading; "## The press"
+  rows into `notes/press.md`, by date, the work and page last (Rusk, Ball, Humphrey, Solberg, Sorensen, Guthman, White
+  1968, Suite 3505, White 1964, McNamara).
+- Not committed by the merger: `inbox/new-entries.tsv` (pruned by each merge; the readers still claim in it), the
+  readers' book-check and by-work files, and every other group's inbox files. Check's errors in the readers' open files
+  (Zelizer's, Smith's, Branch's and Bird's by-work edges, the Clifford/Berman id) came and went as they wrote; none was
+  the merged work's.

@@ -1,7 +1,9 @@
 # Richard M. Nixon, *Six Crises* (1962): the reading of Jan. 6, 1960–1962
 
 Card `w.nixon-six-crises`. Read Oct. 29, 2026 (batch 3). Patch: `inbox/2026-10-29-b3-six-crises.yaml` (b3-six-crises;
-37 entries edited, 36 added). Records: `sources/cited-records/nixon-six-crises.yaml` (15).
+37 entries edited, 36 added). Records: `sources/cited-records/nixon-six-crises.yaml` (15). Read again Nov. 3–4, 2026
+(batch 3 resumed): patch `inbox/2026-11-03-b3-six-crises-2.yaml` (b3-six-crises-2; 21 entries added, 5 cites and checks,
+1 edit), witnesses `inbox/witnesses/2026-11-03-b3-six-crises-2.yaml` (15 new, 16 amended); "The second reading", below.
 
 ## The copy, and how much of it was read
 
@@ -129,36 +131,50 @@ None: no pending patch touched these days when the patch was written.
 
 Made from the whole chapter, page by page, against the calendar's entries for 1960–62 (`./bib find -l cal --since
 1960-01 --until 1961-01`) and the reading notes; every dated event within the span not entered. Revised Oct. 29, 2026,
-under the owner's ruling of Oct. 28 (late): the rows it makes entries are moved to the section after this one.
+under the owner's ruling of Oct. 28 (late), and again Nov. 3–4, 2026, under the reader's brief (R5, R13, R15, R18): the
+rows now entered are in "Entered" below; the front matter and the passages outside the campaign chapter, read this time,
+add their rows.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
-| 301–3 | Nov. 7, 1958–Nov. 1959 | Hall's and Folger's dinner; London; Moscow; the polls | before the span |
-| 304 | Dec. 3, 1959–Jan. 4, 1960 | the steel mediation and settlement | before the span; the settlement in as `cal.1960-01-07.steel` (pinned) |
-| 302, 309, 320, 329 | Feb.–Sept. 1960 | Gallup's figures: party preference 47–30–23; Nixon 53–47 before New Hampshire; Kennedy 52–48 before Los Angeles; 53–47 after Chicago; even Aug. 31; Sept. 1 | the Opinion thread enters Gallup's releases from *The Gallup Poll* (Sept. 14 in as `cal.1960-09-14.opinion`); Nixon's figures are second-hand |
+| 301–3 | Nov. 7, 1958–Nov. 1959 | Hall's and Folger's dinner; London; Moscow; the polls | out of the brief: before the span |
+| 304 | Dec. 3, 1959–Jan. 4, 1960 | the steel mediation and settlement | out of the brief: before the span; the settlement in as `cal.1960-01-07.steel` (pinned) |
+| 302, 309, 320, 329 | Feb.–Sept. 1960 | Gallup's figures: party preference 47–30–23; Nixon 53–47 before New Hampshire; Kennedy 52–48 before Los Angeles; 53–47 after Chicago; even Aug. 31; Sept. 1 | minor: a repetition of the figures the Opinion thread enters from Gallup's releases (*The Gallup Poll*); Sept. 14 cited (422) |
 | 311 | May 1960 | the U-2, the summit's collapse | already in (Soviet Union: U-2) |
 | 316–17 | July 26–27 | Eisenhower's address; Hatfield nominates Nixon, "by acclamation" | already in as `cal.1960-07-26.elections-1960` (see Disagreements) |
 | 318 | July 28 | Goldwater's and Rockefeller's speeches; the acceptance | already in (`cal.1960-07-27.conservative-movement`, `cal.1960-07-28.elections-1960`) |
-| 327 | Aug. 29–Sept. 9 | the girls' evening visits to the hospital | family |
-| 341 | Sept. 26 | his mother's call | family |
-| 358–60 | Oct. 20–Nov. 2 | the press's and networks' predictions (NBC, the *Times*, Alsop, Lawrence, Reston, the newsweeklies) | journalists' work, no act |
-| 360–61, 363–64, 370 | Oct. 24–Nov. 5 | the last weeks' attacks on Kennedy's "rash" statements | repetitions of positions entered, no new matter (the places in the swing entries below) |
+| 327 | Aug. 29–Sept. 9 | the girls' evening visits to the hospital | minor: family |
+| 341 | Sept. 26 | his mother's call | minor: family |
+| 360–61, 363–64, 370 | Oct. 24–Nov. 5 | the last weeks' attacks on Kennedy's "rash" statements | minor: repetitions of positions entered (the places in the swing entries) |
 | 371 | Nov. 6 | the taped half hour from Los Angeles | already in as `cal.1960-11-06.elections-1960` |
 | 379–92 | Nov. 8–9 | the returns through the night | already in as `cal.1960-11-08` and `-11-09` entries |
-| 395 | Nov. 9 | a law firm's offer of a partnership | personal: his career, no public business |
-| 397 | Oct. 29 | Reston's letter to Henry Arnold | a journalist's private letter |
-| 400–401 | Nov. 9 | the welcome at Andrews | social |
-| 403 | Nov. 10 | Wardlaw, his driver, on the Negro vote | private remark of a man with no public role |
-| 410, 414–15 | Nov. 16–Dec. | Florida and Nassau; the letters; *Fiorello!*; the White House dinners; Byrnes's dinner | family and social |
-| 417 | Jan. 20, 1961 | Strauss's luncheon | social |
-| 421 | Jan. 13, 1961 | Cardinal Cushing, at Baltimore, names Nixon "good will man of the year" | out of the brief |
-| 424–25 | Jan.–Feb. 1961 | the offers; Dreyfus; the law firm | personal: his career |
-| 426 | Apr. 1960 | De Gaulle to Nixon, Sophocles | social: a philosophical remark, no public business |
-| 127 | Dec. 1960 | Nixon's Christmas reception for the press | social |
-| 223 n.3, 231 n.4 | Dec. 1961 | Venezuela's riots before Kennedy's visit; Peruvian students' apology | out of the brief (the visit's security entered) |
+| 395 | Nov. 9, about 9 a.m. | a Los Angeles law firm's offer of a partnership | minor: private, an offer of employment (his choice of the law is entered, Feb. 1961) |
+| 396 | after the election | *Newsweek*'s informal poll of the reporters who covered the campaign: Kennedy 37, Nixon 13 | lead: no date (Leads) |
+| 402 | Nov. 9 | Bob Reynolds's handwritten letter of consolation | minor: private |
+| 403 | Nov. 10 | Wardlaw, his driver, on the Negro vote | minor: a private remark of a man with no public role |
+| 403 | Nov. 10 | Nixon at his Capitol office, the wires and letters | minor: an office's routine |
+| 411, 413–14 | Nov. 20, 1960–Jan. 20, 1961 | the office's 160,000 letters and 500,000 cards to workers and contributors | minor: an office's routine |
+| 414–15 | Christmas 1960 | New York with his daughters; *Fiorello!*, the audience's ovation | minor: family |
+| 415 | Dec. 1960–Jan. 1961 | two White House dinners, Eisenhower's toasts; Byrnes's dinner and toast | minor: social |
+| 417 | Jan. 20, 1961 | Strauss's luncheon at the F Street Club; the last drive to the Capitol | minor: social |
+| 418–19 | after Christmas 1960 | the second-guessing of the campaign, a list of claims | minor: Nixon's summary, no one's claim dated |
+| 419–20 | after the election | Willard Edwards's letter on the press's coverage | lead: no date (Leads) |
+| 423 n.15 | after the election | Dewey's counsel: no decisions for sixty days | lead: no date (Leads) |
+| 424 | Nov. 1961 | "just a year after November 8": Nixon's income, California | minor: no act |
+| 127 | Dec. 1960 | Nixon's Christmas reception for the press, on his finances | minor: social |
+| 127 | 1961 | the rumors on the price of his Beverly Hills house | minor: personal; no month |
+| xi | after the election | Mrs. Eisenhower, at a White House dinner, on a book of his | minor: social |
+| xi–xii | Apr. 1961 | Adela Rogers St. Johns's call; Ken McCormick of Doubleday flies out the next day; the six crises chosen; the book undertaken | lead: the folio (Leads) |
+| xiii | 1961–62 | Robinson and Milburn of Northwestern, by letter, their questions on crisis behavior | minor: private, questions on the book |
+| 248 | 1961 | the Kennedy administration keeps Thompson at Moscow | lead: no date; Thompson's tenure is the Executive roster's |
+| 273 | 1961 | "we bluffed" in Laos and Cuba | minor: Nixon's comment, no act |
 
-By reason: before the span or out of the brief 3; already in 5; polls (Opinion) 1; family or social 8; personal 2;
-journalists 2; repetitions 1.
+How the list was made: the first reading's rows (the campaign chapter, page by page), re-ruled; then the front matter
+(the 1969 introduction, ix–x, out of the brief: after the span; the original introduction, xi–xvi), and the other
+chapters searched for 1960, 1961, 1962, Kennedy, Castro, Cuba, U-2 and Paris, each hit read in its page (1, 22, 49, 61,
+77, 118, 127, 129, 159, 172–80, 223, 230–32, 240, 243, 248, 273, 279, 283), and the appendix of speeches (440–46: the
+acceptance of July 28, 1960, already in). By reason: out of the brief 2; already in 5; minor 19 (family 3, social 4,
+private 4, an office's routine 2, personal 1, no act or a summary 3, repetitions 2); leads 5.
 
 ## Entered (the owner's ruling, Oct. 28, late)
 
@@ -207,6 +223,68 @@ list of the day's remarks (the index; APP not read).
 
 The merge may renumber an id taken in the meantime; the patch is the record.
 
+## The second reading (Nov. 3–4, 2026)
+
+The same copy, fetched again from Drive's public download address (19 MB; `file`: PDF 1.5), text by `pdftotext
+-layout` in the scratchpad, deleted when done. The offset holds (printed = PDF − 22), checked on the images of pp. 359
+(PDF 381) and 421 (PDF 443); the front matter's roman folios by the running heads (xii PDF 16, xiii PDF 17; so xi is PDF
+15). Read now: the 1969 introduction (ix–x: after the span), the original introduction (xi–xvi), the other chapters by
+search (the hits listed under Passed over), and the campaign chapter's pages the first run passed over (358–60, 395–403,
+410–26) against the brief of Oct. 30 and the press rule (R13).
+
+### Cites added
+
+| Entry | Item | Units |
+|---|---|---|
+| cal.1961-08-10.amendments | 179 (the procedures as Eisenhower's letter set them out, adopted in their entirety) | A-B, D; Check: Nixon has Kennedy draw them up before his inauguration |
+| cal.1961-04-20.cuba-bay-of-pigs | a Check only: the introduction (xi) puts the visit in April, against 406 n.12's May (the roman folio is no pinpoint for `claims.is_pin`) | — |
+| cal.1960-04-22.europe-and-the-alliance | 426 (Nixon with de Gaulle during the visit) | A |
+| cal.1960-09-14.opinion | 422 (Gallup's report of Sept. 14: Kennedy 51, Nixon 49; 48 to 47, 5 undecided redistributed) | A |
+| cal.1960-07.elections-1960-3 | an edit: the run of works put together (Kallina, White, *Six Crises*), the Checks, then To check, then Names (the first run's cite had landed after To check) | — |
+
+### New entries (twenty-one)
+
+| Page | Date | Event | Entry |
+|---|---|---|---|
+| 359 | Oct. 20, 1960 | NBC's "Election Countdown," Leon Pearson | cal.1960-10-20.elections-1960 |
+| 359 | Oct. 24 | the *Times*'s survey of the States | cal.1960-10-24.elections-1960-3 |
+| 359 | Oct. 24 | Joseph Alsop's column | cal.1960-10-24.elections-1960-4 |
+| 359 | Oct. 27 | NBC, Elmer Peterson on the West | cal.1960-10-27.elections-1960 |
+| 359 | Oct. 31 | Rowland Evans, *Herald Tribune* | cal.1960-10-31.elections-1960-4 |
+| 359 | Nov. 1 | David Lawrence's column on the Catholic vote | cal.1960-11-01.elections-1961 (an elections-1960 entry: the claiming script read "-1960" as a suffix; the id is permanent) |
+| 359 | Nov. 2 | Reston's column, "a rescue operation" | cal.1960-11-02.elections-1960-5 |
+| 359 | Nov. 7 | Sam Lubell's election-eve forecast | cal.1960-11-07.elections-1960-7 |
+| 359 | Oct. 25–Nov. 7 | *U.S. News*; *Newsweek* and Lindley; *Time* | cal.1960-10-25.elections-1960-6, -7, -8 |
+| 397 | Oct. 29 or after | Reston to Henry Arnold | cal.1960-10-29.elections-1960-2 |
+| 399–401 | Nov. 9 | the flight to Andrews; the reporters' note; the welcome | cal.1960-11-09.elections-1960-12 |
+| 410–11 | Nov. 17–19 | Nassau | cal.1960-11-17.elections-1960 |
+| 421 | Jan. 13, 1961 | Cushing at Baltimore: "good will man of the year" | cal.1961-01-13.elections-1960 |
+| 417–18, 423 | Jan. 21, 1961 | to Florida and the Bahamas | cal.1961-01-21.republican-party |
+| 423–24 | Feb. 1961 | California and the law: Adams, Duque & Hazeltine | cal.1961-02.republican-party-2 |
+| 61 | July 9, 1961 | Whittaker Chambers dies | cal.1961-07-09.conservative-movement |
+| 223 n.3 | early Dec. 1961 | Venezuela: demonstrations, three policemen killed | cal.1961-12.latin-america |
+| 223 n.3 | Dec. 2, 1961 | Venezuela's round-up before the visit | cal.1961-12-02.latin-america |
+| 231 n.4 | Dec. 1961 | two Peruvian students apologize for the San Marcos riots | cal.1961-12.latin-america-peru |
+
+The merge will flag the October and November press entries, the Nov. 9 flight and the February decision as possible
+duplicates of their days' entries: each was compared and is a distinct event.
+
+### Witnesses (R35-R43)
+
+The memoir has no source notes; its witnesses are what the text quotes or names for a passage cited (`n.text`). New:
+the eleven press items of 359 (NBC twice, Lubell, Evans, the *Times*, Alsop, Lawrence, Reston, *U.S. News*,
+*Newsweek* with Lindley, *Time*), Reston's letter to Arnold (397), the reporters' note (400), the next morning's papers
+(401), Cushing's speech (421); each edge in `sources/witnesses/by-work/nixon-six-crises.yaml` at its page and note,
+each tied to its units by a `via` row. Amended (agent, made, form, `open`): the fifteen witnesses the conversion made
+from the first run's records, and Chambers's letter. None is held by the series but the Public Papers and the Record
+copies already marked read; the APP copies are linked, never read.
+
+## The press
+
+date | outlet | broadcast, front page or cover | items | page
+- Oct. 20–Nov. 7, 1960 | the networks and the press | — | the forecasts of a Kennedy victory, entered one by one (above) | 358–60
+- Nov. 10, 1960 | the morning papers (unnamed) | — | Nixon's remarks at Andrews the night before, quoted | 401
+
 ## Leads
 
 National:
@@ -220,3 +298,27 @@ National:
 - Which Toledo text of Oct. 26, 1960 carries the testing pledge (APP lists two).
 - *Six Crises*: the day of publication (March 1962) and the first printing's p. 354, set before the White House's
   statement of Mar. 20, 1962.
+- (Nov. 3–4.) *Six Crises*, xi–xii: April 1961, Adela Rogers St. Johns's call, Ken McCormick of Doubleday in California
+  the next day, the six crises chosen, the book undertaken. Not entered: the pinpoint test (`is_pin` in
+  `tools/bib/claims.py`) takes no roman folio, so "xi–xii" fails [claims]; a ruling or a fix would let the front matter
+  of any book be cited (*Rights in Conflict*'s "xiii–xiv" is in the same case). The entry would go under Republican
+  Party.
+- (Nov. 3–4.) *Newsweek*'s informal poll of the reporters who covered the campaign, Kennedy 37, Nixon 13 (396): the
+  issue.
+- (Nov. 3–4.) Willard Edwards's letter to Nixon on the coverage (419–20), and Dewey's counsel against decisions for
+  sixty days (423 n.15): the dates.
+- (Nov. 3–4.) Press figures for Part III (R13), with the work that treats them (*Six Crises*, 359): David Lawrence, the
+  columnist; Sam Lubell; Ernest K. Lindley of *Newsweek*; Leon Pearson and Elmer Peterson of NBC. And Whittaker
+  Chambers, who has no name entry (cal.1961-02.elections-1962, cal.1961-07-09.conservative-movement).
+- (Nov. 3–4.) The newsweeklies' forecasts (cal.1960-10-25.elections-1960-6 to -8) and Lubell's election-eve forecast:
+  the issues and the medium.
+
+Foreign:
+- (Nov. 3–4.) Venezuela, December 1961: the newspaper Nixon calls "Clarion" (223 n.3), its name and the day of its
+  suspension; the days of the demonstrations and the deaths.
+- (Nov. 3–4.) Peru, December 1961: where and how the two students' statement was made (231 n.4).
+
+The Executive roster:
+- (Nov. 3–4.) The Kennedy administration's retention of Thompson at Moscow (248): the roster holds his tenure; no date
+  given here.
+

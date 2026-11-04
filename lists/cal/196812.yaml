@@ -317,6 +317,7 @@ entries:
         - 'w.longley-lbjs-1968 51–53: B-D'
         - 'w.clifford-counsel-to-the-president-2 466–67: B-D'
         - 'w.rusk-as-i-saw-it-1990 394–95: B'
+        - 'via x.1984.rusk-interviews-with-richard-rusk: B'
     tags: [name:woodward-gilbert-h, name:pak-chung-kuk, name:bucher-lloyd-m, name:johnson-lyndon-b]
   - id: cal.1968-12-24.congress
     when: Dec. 24
@@ -386,6 +387,18 @@ entries:
     c: 'Gallup, Dec. 5–10: the man most admired, in order of mention: Eisenhower, Johnson, Edward Kennedy, Billy Graham, Nixon, Humphrey, Wallace, Pope Paul VI, Truman, McCarthy.'
     n: '[[w.gallup-poll]], III, 2174–75. Names: Eisenhower, Johnson, Kennedy, Graham, Nixon, Humphrey, Wallace, Paul VI, Truman, McCarthy.'
     tags: [name:eisenhower-dwight-d, name:johnson-lyndon-b, name:kennedy-edward-m, name:graham-billy, name:nixon-richard-m, name:humphrey-hubert-h, name:wallace-george-c, name:paul-vi, name:truman-harry-s, name:mccarthy-eugene-j]
+  - id: cal.1968-12-29.vietnam
+    when: Dec. 29
+    date: '1968-12-29'
+    thread: vietnam
+    also: [defense-clifford]
+    c: 'Clifford: "the level of combat is such that we are building up our troops; not cutting them down."'
+    n: '[[w.ball-past-has-another-pattern]], 414. Check: the occasion and the text. Names: Clifford.'
+    src:
+      c: 1556d139
+      rows:
+        - 'w.ball-past-has-another-pattern 414: all'
+    tags: [name:clifford-clark]
   - id: cal.1968-12-31.economy
     when: Dec. 31
     date: '1968-12-31'
@@ -505,3 +518,33 @@ entries:
         - 'via w.kabaservice-rule-and-ruin 248 n.114: B'
         - 'via w.kabaservice-rule-and-ruin 248 n.112: C'
     tags: [name:nixon-richard-m, name:wallace-george-c]
+  - id: cal.1968-12.transition-and-staff-2
+    when: Dec.
+    date: 1968-12
+    thread: transition-and-staff
+    also: [press-and-broadcasting]
+    c: 'New York, the Pierre, the thirty-ninth floor, an hour: Nixon, President-elect, with Theodore White. A continuing dialogue with the Soviet Union; Europe, Germany first, the "condition precedent"; then the Middle East, Latin America, Africa; China someday, once Asia can stand; the Defense budget "the most shocking thing, those damned figures"; "a whole-worlder, not a half-worlder."'
+    n: '[[w.white-making-of-the-president-1969]], 412–15 (America "the best-fed, the best-clothed, the best-housed nation in the world—but also the ugliest"). Check: the day (the week before the Cabinet''s naming, Dec. 11). Names: Nixon, Theodore White.'
+    tags: [name:nixon-richard-m, name:white-theodore-h, state:ny, city:nyc]
+  - id: cal.1968-12.civil-rights-the-executive
+    when: Dec.
+    date: 1968-12
+    thread: civil-rights-the-executive
+    c: 'McPherson''s executive order to put new federal buildings where the jobless could reach them dropped: the agencies'' objections not met, Johnson will not bind a new administration so close to the transition.'
+    n: '[[w.mcpherson-political-education]], 352. Check: the day. Names: McPherson, Johnson.'
+    src:
+      c: da3a7a26
+      rows:
+        - 'w.mcpherson-political-education 352: all'
+    tags: [name:mcpherson-harry, name:johnson-lyndon-b]
+  - id: cal.1968-12.transition-and-staff
+    when: Dec.
+    date: 1968-12
+    thread: transition-and-staff
+    c: Johnson's long sessions, one by one, with the Cabinet on their departments' five years, for the Johnson Library's records; Califano and McPherson at many. By McPherson's account.
+    n: '[[w.mcpherson-political-education]], 450. Check: the days; after the election. Names: Johnson, Califano, McPherson.'
+    src:
+      c: 4ea3b528
+      rows:
+        - 'w.mcpherson-political-education 450: all'
+    tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr, name:mcpherson-harry]

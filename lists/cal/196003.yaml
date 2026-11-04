@@ -79,12 +79,13 @@ entries:
     date: '1960-03-04'
     thread: cuba
     c: 'The French freighter *La Coubre*, unloading Belgian munitions in Havana harbor, explodes; a second blast among the rescuers. At least 75 dead. Castro at the funeral, Mar. 5: the United States to blame; "Patria o muerte."'
-    n: '[FRUS 1958–60, VI: Cuba, doc. 469](https://history.state.gov/historicaldocuments/frus1958-60v06/d469) (Herter to the Cuban chargé, Mar. 7: the protest of Castro''s charge of Mar. 5; the explosion of Mar. 4 and the dead, 75 Cuban dockworkers and French crewmen, in the note). Check: the second blast, and the count of the dead (FRUS''s note: a number of French crewmen and 75 Cuban dockworkers). [[w.fursenko-one-hell-of-a]], 40 (the explosion; Castro at the funeral). To check: [[w.paterson-contesting-castro]]; [[w.schoultz-that-infernal-little-cuban]]; [[w.rabe-eisenhower-and-latin-america]]. Names: Castro. Check: Fursenko and Naftali give more than one hundred dead (40).'
+    n: '[FRUS 1958–60, VI: Cuba, doc. 469](https://history.state.gov/historicaldocuments/frus1958-60v06/d469) (Herter to the Cuban chargé, Mar. 7: the protest of Castro''s charge of Mar. 5; the explosion of Mar. 4 and the dead, 75 Cuban dockworkers and French crewmen, in the note). Check: the second blast, and the count of the dead (FRUS''s note: a number of French crewmen and 75 Cuban dockworkers). [[w.fursenko-one-hell-of-a]], 40 (the explosion; Castro at the funeral); [[w.fursenko-khrushchevs-cold-war]], 301 (La Coubre, French arms, more than a hundred killed; Mar. 5, Castro blames the United States; the denial). To check: [[w.schoultz-that-infernal-little-cuban]]; [[w.rabe-eisenhower-and-latin-america]]. Names: Castro. Check: Fursenko and Naftali give more than one hundred dead (40).'
     src:
       c: 07259553
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1958-60v06/d469: A, C, D'
         - 'w.fursenko-one-hell-of-a 40: A, C-E'
+        - 'w.fursenko-khrushchevs-cold-war 301: A'
     tags: [name:castro-fidel]
   - id: cal.1960-03-04.voting-rights
     when: Mar. 4
@@ -100,6 +101,19 @@ entries:
         - 'via w.mann-walls-of-jericho 257 n.some-tense-moments.a: all'
         - 'via w.mann-walls-of-jericho 257 n.some-tense-moments.b: all'
     tags: [name:morse-wayne, name:hill-lister, name:morton-thruston-b]
+  - id: cal.1960-03-06.cuba
+    when: Mar. 6
+    date: '1960-03-06'
+    thread: cuba
+    also: [soviet-union]
+    c: 'Castro at a private lunch with Alekseyev, after La Coubre: "The Americans are deciding on extreme measures"; can Cuba count on Soviet goods and weapons in a blockade or an intervention? Asks him to cable Khrushchev inviting Soviet submarines: "We have here very many caves and all are unoccupied." Formal relations with Moscow premature.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 301–2. To check: Alekseyev to the Central Committee, Mar. 8, 1960, SVR (cited by [[w.fursenko-khrushchevs-cold-war]], 301 n.42). See [[cal.1960-03-04.cuba]]. Names: Castro, Khrushchev.'
+    src:
+      c: 74a8aae2
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 301–2: all'
+        - 'via w.fursenko-khrushchevs-cold-war 301 n.42: all'
+    tags: [name:castro-fidel, name:khrushchev-nikita-s]
   - id: cal.1960-03-07.court
     when: Mar. 7
     date: '1960-03-07'
@@ -130,7 +144,12 @@ entries:
     date: '1960-03-08'
     thread: cuba
     c: 'The Embassy''s Country Team at Havana: no satisfactory relations while Castro rules. The NSC Planning Board the same day.'
-    n: 'FRUS 1958–60, VI, docs. [470](https://history.state.gov/historicaldocuments/frus1958-60v06/d470), [471](https://history.state.gov/historicaldocuments/frus1958-60v06/d471) (Braddock), [472](https://history.state.gov/historicaldocuments/frus1958-60v06/d472) (the Planning Board). See [[cal.1960-03-04.cuba]]. Names: Castro.'
+    n: 'FRUS 1958–60, VI, docs. [470](https://history.state.gov/historicaldocuments/frus1958-60v06/d470), [471](https://history.state.gov/historicaldocuments/frus1958-60v06/d471) (Braddock), [472](https://history.state.gov/historicaldocuments/frus1958-60v06/d472) (the Planning Board). [[w.fursenko-khrushchevs-cold-war]], 303 (the Country Team, "no hope" with Castro, Raúl Castro and Guevara; the advisory group the same day). See [[cal.1960-03-04.cuba]]. Names: Castro.'
+    src:
+      c: cb92675a
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v06/d470: all'
+        - 'w.fursenko-khrushchevs-cold-war 303: all'
     tags: [name:castro-fidel]
   - id: cal.1960-03-08.latin-america
     when: Mar. 8
@@ -232,19 +251,33 @@ entries:
     c: 'Ben Gurion in Washington, Mar. 9–13; with Eisenhower, Mar. 10. He asks for anti-aircraft missiles and early-warning equipment. Eisenhower: the United States stays out of the region''s arms race; France, Britain and West Germany can better supply Israel.'
     n: 'FRUS 1958–60, XIII, docs. [131](https://history.state.gov/historicaldocuments/frus1958-60v13/d131), [132](https://history.state.gov/historicaldocuments/frus1958-60v13/d132), [137](https://history.state.gov/historicaldocuments/frus1958-60v13/d137). To check: [[w.alteras-eisenhower-and-israel]]; [[w.ben-zvi-decade-of-transition]]; [[w.little-american-orientalism]]; [[w.hahn-caught-in-the-middle]]. Names: Ben Gurion, Eisenhower.'
     tags: [name:ben-gurion-david, name:eisenhower-dwight-d]
+  - id: cal.1960-03-10.cuba
+    when: Mar. 10
+    date: '1960-03-10'
+    thread: cuba
+    c: 'The 436th NSC, on Cuba. Burke''s paper: should covert action fail, military measures. Eisenhower: no immediate threat to Guantanamo; intervention if the 10,000 Americans in Cuba are in danger; no move without a successor to Castro in the wings, or "we might have another Black Hole of Calcutta in Cuba."'
+    n: '[FRUS 1958–60, VI, doc. 474](https://history.state.gov/historicaldocuments/frus1958-60v06/d474). [[w.fursenko-khrushchevs-cold-war]], 303. To check: Rubottom to Herter, Mar. 9, 1960, FRUS 1958–60, VI, 829 (cited by [[w.fursenko-khrushchevs-cold-war]], 303 n.49). See [[cal.1960-03-08.cuba]]. Names: Burke, Eisenhower.'
+    src:
+      c: f3e8d97b
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v06/d474: all'
+        - 'w.fursenko-khrushchevs-cold-war 303: all'
+        - 'via w.fursenko-khrushchevs-cold-war 303 n.50: all'
+    tags: [name:burke-arleigh-a, name:eisenhower-dwight-d]
   - id: cal.1960-03-12.cuba
     when: Mar. 12
     date: '1960-03-12'
     thread: cuba
     also: [soviet-union]
     c: 'The Presidium''s first message from Khrushchev to Castro, by word of mouth, Alekseev of the KGB to deliver it: Soviet sympathy with the revolutionary government; the United States "will under no circumstances cross the line to undertake an open intervention against Cuba"; arms through the Czechs, "if necessary, then directly from the Soviet Union"; an invitation to visit.'
-    n: '[[w.fursenko-one-hell-of-a]], 44–45. To check: Protocol 270, Mar. 12, 1960; Central Committee to Alekseev, Mar. 12, 1960, APRF (cited by [[w.fursenko-one-hell-of-a]], 44 n.36). Check: the day; Fursenko and Naftali have the Presidium decide Mar. 15 (44) and call it "the March 12 message" (45), the protocol dated Mar. 12. Names: Khrushchev, Castro.'
+    n: '[[w.fursenko-one-hell-of-a]], 44–45; [[w.fursenko-khrushchevs-cold-war]], 302 (Khrushchev''s letter: no open intervention by the United States; weapons, Czech or Soviet, the price unsaid; an invitation to Moscow). To check: Protocol 270, Mar. 12, 1960; Central Committee to Alekseev, Mar. 12, 1960, APRF (cited by [[w.fursenko-one-hell-of-a]], 44 n.36). Check: the day; Fursenko and Naftali have the Presidium decide Mar. 15 (44) and call it "the March 12 message" (45), the protocol dated Mar. 12. Names: Khrushchev, Castro.'
     src:
       c: 3c20a728
       rows:
         - 'w.fursenko-one-hell-of-a 44–45: all'
         - 'via w.fursenko-one-hell-of-a 44 n.36a: all'
         - 'via w.fursenko-one-hell-of-a 44 n.36b: all'
+        - 'w.fursenko-khrushchevs-cold-war 302: all'
     tags: [name:khrushchev-nikita-s, name:castro-fidel]
   - id: cal.1960-03-14.cuba
     when: Mar. 14
@@ -316,7 +349,7 @@ entries:
     date: '1960-03-17'
     thread: cuba-bay-of-pigs
     c: Eisenhower approves "A Program of Covert Action Against the Castro Regime," from the 5412 Committee. An exile opposition; radio from Swan Island; a network inside Cuba; a paramilitary force trained outside, eight months to form. No more than two or three Americans in touch with the groups. Nixon, Herter, Dulles, Bissell present. Bonsal to return to Havana.
-    n: 'FRUS 1958–60, VI, docs. [481](https://history.state.gov/historicaldocuments/frus1958-60v06/d481) (the paper), [483](https://history.state.gov/historicaldocuments/frus1958-60v06/d483) (the NSC), [484](https://history.state.gov/historicaldocuments/frus1958-60v06/d484) (Bonsal), [486](https://history.state.gov/historicaldocuments/frus1958-60v06/d486) (the meeting, 2:30 p.m.); [474](https://history.state.gov/historicaldocuments/frus1958-60v06/d474) (the NSC, Mar. 10); [FRUS 1961–63, X, doc. 231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), pars. 3–4 (Taylor''s Memorandum No. 1, June 13, 1961: the paper approved Mar. 17, its four parts). Made public: in part, *Declassified Documents*, 1985 (FRUS''s source notes); in full, FRUS 1958–60, VI (1991). [[w.watson-into-the-missile-age]], 764 (the plan''s four parts; the President''s approval in principle); [[w.nixon-rn]], 203 (Nixon present at the meeting that authorized the training of exiles; no date); [[w.jones-bay-of-pigs]], 19 (the approval; the program''s four parts); [[w.bissell-reflections-of-a-cold]], 153 (the program presented; "only two or three governmental people"); [[w.nixon-six-crises]], 352 (early in 1960, by Nixon''s account at his urging: arms, ammunition and training for Cuban exiles). [[w.fursenko-one-hell-of-a]], 43–44 (the approval; "Everyone must be prepared to swear that he has not heard of it"). To check: [[w.paterson-contesting-castro]]; [[w.rabe-eisenhower-and-latin-america]]; [[w.bohning-castro-obsession]]; [[w.operation-zapata]]; [[w.rasenberger-brilliant-disaster]]; [[w.schoultz-that-infernal-little-cuban]]; [[w.ambrose-eisenhower]]; [[w.wyden-bay-of-pigs]]; [[w.higgins-perfect-failure]]; [[w.gleijeses-ships-in-the-night]]; [[w.bay-of-pigs-declassified]]; [[w.pfeiffer-official-history-of-the]]; [[w.bay-of-pigs-invasion-playa-giron-chronology]]. Names: Eisenhower, Nixon, Herter, Bonsal, Dulles, Bissell, Castro.'
+    n: 'FRUS 1958–60, VI, docs. [481](https://history.state.gov/historicaldocuments/frus1958-60v06/d481) (the paper), [483](https://history.state.gov/historicaldocuments/frus1958-60v06/d483) (the NSC), [484](https://history.state.gov/historicaldocuments/frus1958-60v06/d484) (Bonsal), [486](https://history.state.gov/historicaldocuments/frus1958-60v06/d486) (the meeting, 2:30 p.m.); [474](https://history.state.gov/historicaldocuments/frus1958-60v06/d474) (the NSC, Mar. 10); [FRUS 1961–63, X, doc. 231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), pars. 3–4 (Taylor''s Memorandum No. 1, June 13, 1961: the paper approved Mar. 17, its four parts). Made public: in part, *Declassified Documents*, 1985 (FRUS''s source notes); in full, FRUS 1958–60, VI (1991). [[w.watson-into-the-missile-age]], 764 (the plan''s four parts; the President''s approval in principle); [[w.nixon-rn]], 203 (Nixon present at the meeting that authorized the training of exiles; no date); [[w.jones-bay-of-pigs]], 19 (the approval; the program''s four parts); [[w.bissell-reflections-of-a-cold]], 153 (the program presented; "only two or three governmental people"); [[w.nixon-six-crises]], 352 (early in 1960, by Nixon''s account at his urging: arms, ammunition and training for Cuban exiles); [[w.paterson-contesting-castro]], 258 (in March 1960 Eisenhower orders the CIA to train exiles for an invasion); [[w.fursenko-khrushchevs-cold-war]], 304 (the 5412 Committee''s program of Mar. 16: a "responsible, appealing and unified Cuban opposition"). [[w.fursenko-one-hell-of-a]], 43–44 (the approval; "Everyone must be prepared to swear that he has not heard of it"). To check: [[w.rabe-eisenhower-and-latin-america]]; [[w.bohning-castro-obsession]]; [[w.operation-zapata]]; [[w.rasenberger-brilliant-disaster]]; [[w.schoultz-that-infernal-little-cuban]]; [[w.ambrose-eisenhower]]; [[w.wyden-bay-of-pigs]]; [[w.higgins-perfect-failure]]; [[w.gleijeses-ships-in-the-night]]; [[w.bay-of-pigs-declassified]]; [[w.pfeiffer-official-history-of-the]]; [[w.bay-of-pigs-invasion-playa-giron-chronology]]. Names: Eisenhower, Nixon, Herter, Bonsal, Dulles, Bissell, Castro.'
     src:
       c: 6a7aa82c
       rows:
@@ -338,6 +371,8 @@ entries:
         - 'via w.jones-bay-of-pigs 19 n.24d: A-E'
         - 'w.bissell-reflections-of-a-cold 153: A, F-G'
         - 'w.nixon-six-crises 352: A, E'
+        - 'w.paterson-contesting-castro 258: A, E'
+        - 'w.fursenko-khrushchevs-cold-war 304: all'
     tags: [name:eisenhower-dwight-d, name:nixon-richard-m, name:herter-christian-a, name:dulles-allen-w, name:bissell-richard-m-jr, name:bonsal-philip-w, name:castro-fidel]
   - id: cal.1960-03-17.vietnam
     when: Mar. 17
@@ -422,6 +457,19 @@ entries:
         - 'w.mann-walls-of-jericho 259: B-C'
         - 'via w.mann-walls-of-jericho 259 n.johnson-moved-to-abandon-the-senate-legislation: C'
     tags: [name:mcculloch-william-m, name:celler-emanuel, name:eastland-james-o]
+  - id: cal.1960-03-23.europe-and-the-alliance-france
+    when: Mar. 23–Apr. 3
+    date: '1960-03-23'
+    thread: europe-and-the-alliance-france
+    also: [soviet-union, berlin-and-vienna, testing]
+    c: 'Khrushchev in France, the trip put off by his flu. Talks with de Gaulle, Mar. 23–25 and Apr. 1–2: de Gaulle raises his plan to do away with the means of delivering nuclear weapons, and Khrushchev accepts it. Berlin: two more years for an agreement, then West Berlin a free city, the Western troops out, the UN its guarantor, its access to be negotiated with East Germany.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 258–59. To check: "Entretiens du Général de Gaulle et M. Khrouchtchev," Mar. 23–25 and Apr. 1–2, 1960, *Documents Diplomatiques Français*, 1960, I, no. 146 (cited by [[w.fursenko-khrushchevs-cold-war]], 258 n.53). Check: the trip''s days. Names: Khrushchev, de Gaulle.'
+    src:
+      c: 2c189188
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 258–59: all'
+        - 'via w.fursenko-khrushchevs-cold-war 258 n.53: B-C'
+    tags: [name:khrushchev-nikita-s, name:de-gaulle-charles]
   - id: cal.1960-03-24.africa
     when: Mar. 24
     date: '1960-03-24'
@@ -485,7 +533,7 @@ entries:
     thread: testing
     also: [europe-and-the-alliance]
     c: 'Macmillan at Camp David. Joint declaration, Mar. 29: once a treaty is signed and a joint research program arranged, a voluntary moratorium of agreed duration on tests below magnitude 4.75, by each power''s unilateral declaration. Eisenhower, Mar. 30: his successor free to judge for himself.'
-    n: 'Joint Declaration by the President and Prime Minister Macmillan on Nuclear Weapons Tests, [1960–61 Pub. Papers 318](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=370) (Mar. 29, 1960); [The President''s News Conference](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-232) (Mar. 30, 1960). FRUS 1958–60, III, doc. [251](https://history.state.gov/historicaldocuments/frus1958-60v03/d251); microfiche supp., docs. [552](https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d552), [555](https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d555); [FRUS 1958–60, VII, pt. 2, doc. 370](https://history.state.gov/historicaldocuments/frus1958-60v07p2/d370) (Kohler''s memorandum for the files, Mar. 29: the talks at Camp David, Mar. 28). [[w.watson-into-the-missile-age]], 563, 717 (the visit; the declaration). To check: [[w.macmillan-pointing-the-way-1959]]. See [[cal.1960-03-19.testing]]. Names: Macmillan, Eisenhower.'
+    n: 'Joint Declaration by the President and Prime Minister Macmillan on Nuclear Weapons Tests, [1960–61 Pub. Papers 318](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=370) (Mar. 29, 1960); [The President''s News Conference](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-232) (Mar. 30, 1960). FRUS 1958–60, III, doc. [251](https://history.state.gov/historicaldocuments/frus1958-60v03/d251); microfiche supp., docs. [552](https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d552), [555](https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d555); [FRUS 1958–60, VII, pt. 2, doc. 370](https://history.state.gov/historicaldocuments/frus1958-60v07p2/d370) (Kohler''s memorandum for the files, Mar. 29: the talks at Camp David, Mar. 28). [[w.watson-into-the-missile-age]], 563, 717 (the visit; the declaration); [[w.fursenko-khrushchevs-cold-war]], 261 (Macmillan at Camp David; on Berlin, the Oder-Neisse line to be guaranteed, a free West Berlin refused). To check: [[w.macmillan-pointing-the-way-1959]]; Memorandum of conversation, Eisenhower and Macmillan, Mar. 28, 1960, [FRUS 1958–60, IX, doc. 105](https://history.state.gov/historicaldocuments/frus1958-60v09/d105) (cited by [[w.fursenko-khrushchevs-cold-war]], 261 n.61). See [[cal.1960-03-19.testing]]. Names: Macmillan, Eisenhower.'
     src:
       c: 36f22d91
       rows:
@@ -498,6 +546,8 @@ entries:
         - 'w.watson-into-the-missile-age 717: B'
         - 'via w.watson-into-the-missile-age 563 n.130: A'
         - 'via w.watson-into-the-missile-age 717 n.154: B'
+        - 'w.fursenko-khrushchevs-cold-war 261: A'
+        - 'via w.fursenko-khrushchevs-cold-war 261 n.61: A'
     tags: [name:macmillan-harold, name:eisenhower-dwight-d]
   - id: cal.1960-03-28.court
     when: Mar. 28
@@ -529,6 +579,19 @@ entries:
     c: 'Eisenhower''s news conference, on Sharpeville: "we deplore it."'
     n: '[The President''s News Conference](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-232) (Mar. 30, 1960). FRUS 1958–60, XIV, doc. [348](https://history.state.gov/historicaldocuments/frus1958-60v14/d348). See [[cal.1960-03-21.africa]]. Names: Eisenhower.'
     tags: [name:eisenhower-dwight-d]
+  - id: cal.1960-03-30.elections-1960
+    when: Mar. 30
+    date: '1960-03-30'
+    thread: elections-1960
+    c: 'Humphrey at Madison: "I feel like an independent merchant competing against a chain store."'
+    n: '[[w.solberg-hubert-humphrey]], 205 (the words; the place and day, the note: his speech at Madison, Mar. 30, 1960); [[w.humphrey-education-of-a-public-1976]], 208 (the words, as his own of the campaign: "the Kennedys were everywhere"). To check: Humphrey''s speech at Madison, Mar. 30, 1960, Master Speech File, Humphrey Papers; the *Longview (Wash.) News*, Apr. 12, 1960 (cited by [[w.solberg-hubert-humphrey]], 205, its note). See [[cal.1960-03.elections-1960]]. Names: Humphrey.'
+    src:
+      c: 2d009394
+      rows:
+        - 'w.solberg-hubert-humphrey 205: all'
+        - 'w.humphrey-education-of-a-public-1976 208: all'
+        - 'via w.solberg-hubert-humphrey 205 n.madison: all'
+    tags: [name:humphrey-hubert-h]
   - id: cal.1960-03-31.medicare
     when: Mar. 31
     date: '1960-03-31'
@@ -569,3 +632,74 @@ entries:
         - 'w.sundquist-politics-and-policy 82: all'
         - 'via w.sundquist-politics-and-policy 82 n.55: A'
     tags: [name:mccarthy-eugene-j, name:cooper-john-sherman, name:prouty-winston-l, name:scott-hugh-d-jr]
+  - id: cal.1960-03.elections-1960-4
+    when: Mar.
+    date: 1960-03
+    thread: elections-1960
+    also: [press-and-broadcasting]
+    c: 'Wausau, Wis. Joseph Alsop goes door to door and takes his own poll: Humphrey will be lucky to come out of the town with a hundred votes. Other reporters follow his lead, by Humphrey''s account.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 208. See [[cal.1960-03.elections-1960]]. Check: the day. Names: Alsop, Humphrey.'
+    src:
+      c: e110d754
+      rows:
+        - 'w.humphrey-education-of-a-public-1976 208: all'
+    tags: [name:alsop-joseph, name:humphrey-hubert-h, state:wi]
+  - id: cal.1960-03.elections-1960-5
+    when: Mar., late
+    date: 1960-03
+    thread: elections-1960
+    also: [farm]
+    c: Toward the end of the Wisconsin campaign Humphrey attacks Kennedy's record in the Senate, his votes on farm bills above all, by Humphrey's account.
+    n: '[[w.humphrey-education-of-a-public-1976]], 208. See [[cal.1960-03.elections-1960]]. Check: the day. Names: Humphrey, Kennedy.'
+    src:
+      c: e3eeb5db
+      rows:
+        - 'w.humphrey-education-of-a-public-1976 208: all'
+    tags: [name:humphrey-hubert-h, name:kennedy-john-f]
+  - id: cal.1960-03.elections-1960-6
+    when: Mar.
+    date: 1960-03
+    thread: elections-1960
+    c: 'Wisconsin. Robert Kennedy spreads the word that Hoffa is pouring money into the State for Humphrey, $1.2 million. Humphrey: the story untrue, his requests that it be stopped unheeded.'
+    n: '[[w.solberg-hubert-humphrey]], 205 (the word, the figure); [[w.humphrey-education-of-a-public-1976]], 208–09 (the story, Hoffa''s way of getting even with the Kennedys; untrue, and the requests to stop it unheeded, by his account). To check: Humphrey, interview with Drew Pearson, Apr. 22, 1960, Box 3, PFPM, Humphrey Papers; Heaney to Gaylord Nelson, Mar. 17, 1960, Box 734, Humphrey Papers (cited by [[w.solberg-hubert-humphrey]], 205, its note). See [[cal.1960-03.elections-1960]]. Check: the day. Names: Robert Kennedy, Hoffa, Humphrey.'
+    src:
+      c: 9d8d8e87
+      rows:
+        - 'w.solberg-hubert-humphrey 205: A'
+        - 'w.humphrey-education-of-a-public-1976 208–09: all'
+        - 'via w.solberg-hubert-humphrey 205 n.hoffa-pearson: all'
+        - 'via w.solberg-hubert-humphrey 205 n.hoffa-heaney: A'
+    tags: [name:kennedy-robert-f, name:hoffa-james-r, name:humphrey-hubert-h]
+  - id: cal.1960-03.elections-1960-7
+    when: Mar.
+    date: 1960-03
+    thread: elections-1960
+    c: Wisconsin. Anonymous anti-Catholic, Protestant fundamentalist tracts mailed to Catholic households. Humphrey cannot lay it to the Kennedys "with the same absolute assurance" as the Hoffa story.
+    n: '[[w.humphrey-education-of-a-public-1976]], 209. See [[cal.1960-03.elections-1960]]. Check: the day. Names: Humphrey.'
+    src:
+      c: 5eb70f3e
+      rows:
+        - 'w.humphrey-education-of-a-public-1976 209: all'
+    tags: [name:humphrey-hubert-h]
+  - id: cal.1960-03.elections-1960-2
+    when: Mar.
+    date: 1960-03
+    thread: elections-1960
+    c: Shortly before New Hampshire's primary. Governor Wesley Powell, Nixon's campaign manager in the State, denounces Kennedy as "soft" on Communism. Nixon says he did not approve of the attack, before it or after; he congratulates Powell on the Republican turnout.
+    n: '[[w.sorensen-kennedy]], 133. See [[cal.1960-03-08.elections-1960]]. Names: Powell, Kennedy, Nixon. Check: the day, before the primary of Mar. 8.'
+    src:
+      c: 45c5438d
+      rows:
+        - 'w.sorensen-kennedy 133: all'
+    tags: [name:powell-wesley, name:kennedy-john-f, name:nixon-richard-m, state:nh]
+  - id: cal.1960-03.elections-1960-3
+    when: Mar.
+    date: 1960-03
+    thread: elections-1960
+    c: 'Reedy to Johnson, a memorandum to read and destroy: a "hatchet job" on Kennedy, on the family name, Joseph Kennedy buying his son the White House. "Americans would bitterly resent the concept that the White House is a plaything to be handed out as a Christmas present." Johnson declines.'
+    n: '[[w.shesol-mutual-contempt]], 30. To check: [[w.dallek-lone-star-rising]], 566 (cited by [[w.shesol-mutual-contempt]], 30). Names: Reedy, Johnson, Kennedy, Joseph Kennedy. Check: the day.'
+    src:
+      c: 352811fa
+      rows:
+        - 'w.shesol-mutual-contempt 30: all'
+    tags: [name:reedy-george-e, name:johnson-lyndon-b, name:kennedy-john-f, name:kennedy-joseph-p]

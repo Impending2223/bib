@@ -21,6 +21,17 @@ entries:
       rows:
         - 'w.bissell-reflections-of-a-cold 203–4: all'
     tags: [name:kennedy-john-f, name:bissell-richard-m-jr, name:bundy-mcgeorge]
+  - id: cal.1962-03-01.defense
+    when: Mar. 1
+    date: '1962-03-01'
+    thread: defense
+    c: Bissell, out of the CIA, joins the Institute for Defense Analyses as executive vice president. Killian of MIT a moving spirit in IDA's founding; Bissell had been on MIT's faculty.
+    n: '[[w.bissell-reflections-of-a-cold]], 225. Names: Bissell, Killian.'
+    src:
+      c: 46ecd3d1
+      rows:
+        - 'w.bissell-reflections-of-a-cold 225: all'
+    tags: [name:bissell-richard-m-jr, name:killian-james-r-jr]
   - id: cal.1962-03-02.testing
     when: Mar. 2
     date: '1962-03-02'
@@ -40,13 +51,14 @@ entries:
     thread: robert-kennedy
     also: [testing, soviet-union]
     c: 'Robert Kennedy and Bolshakov, outside the Justice Department, hours before the President''s address, by the GRU''s report: "The president sincerely wants to avoid conducting these nuclear tests"; why not start with a ban on tests in the open air, which cannot be hidden? Failing that, the President wants to see Khrushchev again.'
-    n: '[[w.fursenko-one-hell-of-a]], 154–55. To check: GRU resident to GRU headquarters, Mar. 3, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 154 n.17, 155 n.18). Check: Robert Kennedy''s date diary does not show the meeting (n.16). See [[cal.1962-03-02.testing]]. Names: Robert Kennedy, Bolshakov, Khrushchev.'
+    n: '[[w.fursenko-one-hell-of-a]], 154–55; [[w.fursenko-khrushchevs-cold-war]], 423 ("The president sincerely wants to avoid conducting these nuclear tests"; ready to meet "at any time"). To check: GRU resident to GRU headquarters, Mar. 3, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 154 n.17, 155 n.18). Check: Robert Kennedy''s date diary does not show the meeting (n.16). See [[cal.1962-03-02.testing]]. Names: Robert Kennedy, Bolshakov, Khrushchev.'
     src:
       c: a86ef752
       rows:
         - 'w.fursenko-one-hell-of-a 154–55: all'
         - 'via w.fursenko-one-hell-of-a 154 n.17: A-B'
         - 'via w.fursenko-one-hell-of-a 155 n.18: C'
+        - 'w.fursenko-khrushchevs-cold-war 423: A, C'
     tags: [name:kennedy-robert-f, name:bolshakov-georgi, name:khrushchev-nikita-s]
   - id: cal.1962-03-03.mayors-new-orleans
     when: Mar. 3
@@ -156,6 +168,19 @@ entries:
       rows:
         - 'w.sorensen-kennedy 557–58: all'
     tags: [name:khrushchev-nikita-s, name:sorensen-theodore-c]
+  - id: cal.1962-03-07.laos
+    when: Mar. 7–9
+    date: '1962-03-07'
+    thread: laos
+    also: [soviet-union, china, vietnam]
+    c: 'A meeting of the four chief Communist parties of the region: the Soviet representative agrees to turn a blind eye to the military preparations in northern Laos, and to keep up the secret support to the Pathet Lao beside what reaches them through the agreement with Souvanna Phouma.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 425. To check: Abramov with Liu Chuna, Mar. 29 and 31, 1962, AVPRF (cited by [[w.fursenko-khrushchevs-cold-war]], 425 n.39). Check: the place. See [[cal.1962-02-03.laos]]. Names: Souvanna Phouma.'
+    src:
+      c: f051ee1c
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 425: all'
+        - 'via w.fursenko-khrushchevs-cold-war 425 n.39: all'
+    tags: [name:souvanna-phouma]
   - id: cal.1962-03-08.soviet-union
     when: Mar. 8
     date: '1962-03-08'
@@ -192,6 +217,18 @@ entries:
     c: Maryland. Tawes calls the General Assembly into a one-day special session on opening places of public accommodation to all races, the bill having failed in the regular session, adjourned Mar. 8. It fails again.
     n: '*Maryland Manual*, 1963–64, [pp. 239–40](https://msa.maryland.gov/megafile/msa/speccol/sc2900/sc2908/000001/000171/html/am171--239.html). To check: [[w.callcott-maryland-and-america-1940]]. Names: Tawes.'
     tags: [state:md, name:tawes-j-millard]
+  - id: cal.1962-03-09.intelligence
+    when: Mar. 9 and 11
+    date: '1962-03-09'
+    thread: intelligence
+    also: [soviet-union, defense]
+    c: 'Two GRU reports to the Kremlin: days after Vienna the Pentagon seriously considered a nuclear first strike on the Soviet Union, held back by the Soviet tests of September; the source said to be in the American national security bureaucracy.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 424. To check: the GRU''s summary, GRU (cited by [[w.fursenko-khrushchevs-cold-war]], 424 n.32). Check: Fursenko and Naftali compare Kennedy''s interview with Stewart Alsop in the *Saturday Evening Post* (424 n.32).'
+    src:
+      c: cafe236d
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 424: all'
+        - 'via w.fursenko-khrushchevs-cold-war 424 n.32: all'
   - id: cal.1962-03-11.berlin-and-vienna
     when: Mar. 11
     date: '1962-03-11'
@@ -243,6 +280,7 @@ entries:
         - 'w.poole-joint-chiefs-of-staff 85: A'
         - 'w.rusk-as-i-saw-it-1990 226: B'
         - 'w.rusk-as-i-saw-it-1990 352: A'
+        - 'via x.1984.rusk-interviews-with-richard-rusk: B, A'
     tags: [name:gromyko-andrei, name:rusk-dean]
   - id: cal.1962-03-14.cuba
     when: Mar. 14
@@ -250,7 +288,7 @@ entries:
     thread: cuba
     also: [robert-kennedy]
     c: 'Guidelines for Mongoose: hard intelligence the immediate priority; other actions short of those "reasonably calculated to inspire a revolt"; final success to require "decisive U.S. military intervention."'
-    n: '[FRUS 1961–63, X, doc. 314](https://history.state.gov/historicaldocuments/frus1961-63v10/d314); [S. Rep. No. 94-465, 145–147 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=156). [[w.schlesinger-robert-kennedy-and-his]], 477–78; [[w.bissell-reflections-of-a-cold]], 202 (the guidelines quoted). [[w.fursenko-one-hell-of-a]], 158 (the program in two steps, a review in July). See [[cal.1961-11-30.cuba]].'
+    n: '[FRUS 1961–63, X, doc. 314](https://history.state.gov/historicaldocuments/frus1961-63v10/d314); [S. Rep. No. 94-465, 145–147 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=156). [[w.schlesinger-robert-kennedy-and-his]], 477–78; [[w.bissell-reflections-of-a-cold]], 202 (the guidelines quoted); [[w.paterson-contesting-castro]], 260 n.36 ("final success will require decisive U.S. military intervention"). [[w.fursenko-one-hell-of-a]], 158 (the program in two steps, a review in July). Check: Paterson has the words from "the chairman of the Joint Chiefs of Staff, General Maxwell Taylor," in the spring of 1962 (260); Taylor chaired the Joint Chiefs from Oct. 1, 1962 (Executive roster). To check: Bill Keller, "Papers Show 1962 U.S. Plan Against Castro," *New York Times*, Jan. 27, 1989 (cited by [[w.paterson-contesting-castro]], 260 n.36). See [[cal.1961-11-30.cuba]].'
     src:
       c: 29e5df12
       rows:
@@ -260,6 +298,8 @@ entries:
         - 'via w.schlesinger-robert-kennedy-and-his 478 n.35: A-B'
         - 'w.fursenko-one-hell-of-a 158: all'
         - 'w.bissell-reflections-of-a-cold 202: C'
+        - 'w.paterson-contesting-castro 260 n.36: C'
+        - 'via x.1989-01-27.keller-papers-show-1962-u-s-plan-against-castro: C'
   - id: cal.1962-03-14.elections-1962
     when: Mar. 14
     date: '1962-03-14'
@@ -386,6 +426,19 @@ entries:
         - 'w.nixon-six-crises 354: A'
         - 'via w.nixon-six-crises 354 n.star-b: A'
     tags: [name:nixon-richard-m, name:kennedy-john-f, name:dulles-allen-w]
+  - id: cal.1962-03-20.laos
+    when: Mar. 20–21
+    date: '1962-03-20'
+    thread: laos
+    also: [soviet-union, china, vietnam]
+    c: 'Souphanouvong to Abramov: a policy of "active defense," attacks on enemy strongholds in the "liberated areas," conducted "reasonably, so as not to cause a widening of the military conflict." Mar. 21, Abramov flies to Hanoi to tell Hồ Chí Minh that the Soviets leave the practical steps to the North Vietnamese, the Chinese and the Pathet Lao. China sends 2,149 PLA soldiers, 1,772 workers, 203 vehicles, 639 horses and mules from Kunming toward Nam Tha.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 426. To check: Abramov with Liu Chuna, Mar. 29 and 31, 1962, AVPRF (cited by [[w.fursenko-khrushchevs-cold-war]], 426 n.40); Thee, *Notes of a Witness* (cited 426 n.41); Lifeng Deng, *Jianguohou junshi xingdong quanlu* (cited 426 n.42). Names: Souphanouvong, Abramov, Hồ Chí Minh.'
+    src:
+      c: dbac0154
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 426: all'
+        - 'via w.fursenko-khrushchevs-cold-war 426 n.40: A'
+    tags: [name:souphanouvong, name:abramov-aleksandr-n, name:ho-chi-minh, place:hanoi]
   - id: cal.1962-03-21.defense
     when: Mar. 21
     date: '1962-03-21'
@@ -552,6 +605,17 @@ entries:
       rows:
         - 'w.navasky-kennedy-justice 73, 76, 79: all'
     tags: [name:kennedy-robert-f]
+  - id: cal.1962-03-29.soviet-union
+    when: Mar. 29
+    date: '1962-03-29'
+    thread: soviet-union
+    c: 'The State Department. Dobrynin''s first meeting with Rusk, informal, before the credentials: Rusk had found no personal contact with Menshikov; they might meet outside the department, at his house in the evening, on the President''s yacht. Nothing serious discussed. By Dobrynin''s account.'
+    n: '[[w.dobrynin-in-confidence]], 59–60. See [[cal.1962-03-30.soviet-union]]. Names: Dobrynin, Rusk, Menshikov.'
+    src:
+      c: 827df11c
+      rows:
+        - 'w.dobrynin-in-confidence 59–60: all'
+    tags: [name:dobrynin-anatoly, name:rusk-dean, name:menshikov-mikhail]
   - id: cal.1962-03-30.court
     when: Mar. 30
     date: '1962-03-30'
@@ -573,7 +637,13 @@ entries:
     date: '1962-03-30'
     thread: soviet-union
     c: 'Dobrynin presents his credentials, fifteen minutes, with Khrushchev''s good wishes. Kennedy: the Vienna agreement on Laos still valid, the cease-fire to be kept; a summit of four or five complicated, an informal meeting like Vienna useful. Menshikov had been recalled in December; Kennedy approved Dobrynin Dec. 27.'
-    n: 'FRUS 1961–63, V, docs. [138](https://history.state.gov/historicaldocuments/frus1961-63v05/d138), [174](https://history.state.gov/historicaldocuments/frus1961-63v05/d174). [[w.dobrynin-in-confidence]], 58–59. See [[cal.1961-01-20.soviet-union]]. Names: Dobrynin, Khrushchev, Menshikov.'
+    n: 'FRUS 1961–63, V, docs. [138](https://history.state.gov/historicaldocuments/frus1961-63v05/d138), [174](https://history.state.gov/historicaldocuments/frus1961-63v05/d174). [[w.dobrynin-in-confidence]], 58–59; [[w.dobrynin-in-confidence]], 60–62 (Kennedy alone in his rocking chair, Dobrynin alone; another meeting with Khrushchev this year, Germany and Berlin; "Whatever I do, 80 percent of the American media comes out against me"; Dobrynin to Moscow: "a worthy opponent"). Check: Dobrynin dates the credentials Mar. 31 (60). See [[cal.1961-01-20.soviet-union]]. Names: Dobrynin, Khrushchev, Menshikov.'
+    src:
+      c: 8b5e1b1d
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v05/d138: all'
+        - 'w.dobrynin-in-confidence 58–59: all'
+        - 'w.dobrynin-in-confidence 60–62: A'
     tags: [name:dobrynin-anatoly, name:kennedy-john-f, name:khrushchev-nikita-s, name:menshikov-mikhail]
   - id: cal.1962-03-30.elections-1962
     when: Mar. 30
@@ -665,12 +735,13 @@ entries:
     thread: soviet-union
     also: [press-and-broadcasting, testing]
     c: 'Khrushchev calls off the television exchange. Gromyko to the embassy, for Bolshakov to tell Salinger: "Recent events, particularly John F. Kennedy''s decision to resume nuclear tests, make it impossible to exchange television messages." On the test ban, no inspections at all.'
-    n: '[[w.fursenko-one-hell-of-a]], 156. To check: Gromyko to Smirnovsky, the acting ambassador in Washington, APRF (cited by [[w.fursenko-one-hell-of-a]], 156 n.20). Check: the day. See [[cal.1962-01-18.soviet-union]]. Names: Khrushchev, Gromyko, Bolshakov, Salinger.'
+    n: '[[w.fursenko-one-hell-of-a]], 156; [[w.fursenko-khrushchevs-cold-war]], 424 (the broadcasts incompatible; the offer of two or three inspections withdrawn at Geneva). To check: Gromyko to Smirnovsky, the acting ambassador in Washington, APRF (cited by [[w.fursenko-one-hell-of-a]], 156 n.20). Check: the day. See [[cal.1962-01-18.soviet-union]]. Names: Khrushchev, Gromyko, Bolshakov, Salinger.'
     src:
       c: e25ebfb7
       rows:
         - 'w.fursenko-one-hell-of-a 156: all'
         - 'via w.fursenko-one-hell-of-a 156 n.20: A-B'
+        - 'w.fursenko-khrushchevs-cold-war 424: A, C'
     tags: [name:khrushchev-nikita-s, name:gromyko-andrei, name:bolshakov-georgi, name:salinger-pierre]
   - id: cal.1962-03.republican-party-congress
     when: Mar.
@@ -697,3 +768,40 @@ entries:
       rows:
         - 'w.mann-walls-of-jericho 327: all'
     tags: [name:ribicoff-abraham, name:marshall-burke]
+  - id: cal.1962-03.cuba
+    when: Mar.
+    date: 1962-03
+    thread: cuba
+    c: Havana. The Bay of Pigs prisoners before a five-man tribunal on charges of treason, four days. One man praises Castro; the rest, more than a thousand, do not. Robert Kennedy and Goodwin ask Latin American governments to press Castro to spare them; Goulart, at Goodwin's asking, warns Castro.
+    n: '[[w.guthman-we-band-of-brothers]], 129–30. The sentence: [[cal.1962-04-08.cuba]]. See [[cal.1961-04-15.cuba]]. Names: Castro, Robert Kennedy, Goodwin, Goulart. Check: the days.'
+    src:
+      c: b7ad4c19
+      rows:
+        - 'w.guthman-we-band-of-brothers 129–30: all'
+    tags: [name:castro-fidel, name:kennedy-robert-f, name:goodwin-richard-n, name:goulart-joao]
+  - id: cal.1962-03.soviet-union-2
+    when: Mar.
+    date: 1962-03
+    thread: soviet-union
+    c: 'Moscow, before Dobrynin leaves for Washington. Gromyko: no new instructions; not to judge the Americans hastily; "serious, solid, and sensible information," without sensations. Khrushchev: "resist temptation when provoked," "Don''t ask for trouble," war with the United States inadmissible; Germany and West Berlin the chief issue; American superiority makes them "particularly arrogant," the missiles in Turkey "under the very nose of the Soviet Union"; "It''s high time their long arms were cut shorter." Kennedy "a man of character." Gromyko has Dobrynin take over Bolshakov''s contacts gradually. By Dobrynin''s account.'
+    n: '[[w.dobrynin-in-confidence]], 53–55. [[w.fursenko-khrushchevs-cold-war]], 424, 433 (Khrushchev''s anger; "particularly arrogant"; the long arms). See [[cal.1962-03-30.soviet-union]]. Names: Dobrynin, Gromyko, Khrushchev, Kennedy, Bolshakov.'
+    src:
+      c: ebd3c005
+      rows:
+        - 'w.dobrynin-in-confidence 53–55: all'
+        - 'w.fursenko-khrushchevs-cold-war 424, 433: C'
+    tags: [name:dobrynin-anatoly, name:gromyko-andrei, name:khrushchev-nikita-s, name:kennedy-john-f, name:bolshakov-georgi]
+  - id: cal.1962-03.vietnam
+    when: Mar.
+    date: 1962-03
+    thread: vietnam
+    c: 'McNamara to the Advertising Council in Washington: "success in opposing guerrilla warfare will depend at least as much and probably more upon the political and economic actions and programs than upon the military programs."'
+    n: '[[w.mcnamara-in-retrospect]], ch. 2 at nn.19–20. Check: the day. Names: McNamara.'
+    tags: [name:mcnamara-robert-s]
+  - id: cal.1962-03.vietnam-2
+    when: Mar.
+    date: 1962-03
+    thread: vietnam
+    c: 'McNamara in the *Washington Post*, eleven days after the Advertising Council: "the application of military force alone will not automatically defeat the Communists unless there is internal economic and social reform."'
+    n: '[[w.mcnamara-in-retrospect]], ch. 2 at nn.19–20. Check: the day. See [[cal.1962-03.vietnam]]. Names: McNamara.'
+    tags: [name:mcnamara-robert-s]

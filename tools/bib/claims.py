@@ -163,7 +163,13 @@ def is_pin(text):
     """Whether what follows a work's card is a pinpoint: it names a number (a page, a volume and page, a document, a
     chapter, a footnote) or links the place read. A pointer in words ("on Rusk", "for the arithmetic", a chapter's
     title) is no pinpoint: it is recalled, and the work stands behind "To check:" (the owner, Oct. 30, 2026)."""
-    return bool(text) and (re.search(r"\d", text) is not None or "](http" in text)
+    return bool(text) and (re.search(r"\d", text) is not None or "](http" in text or ROMAN_PIN.match(text) is not None)
+
+
+# A front-matter page in lower-case roman ("xi–xii"), standing first after the card: a valid numeral under 400, so a
+# word ("civil", "ill") is none.
+_ROMAN = r"c{0,3}(?:xc|xl|l?x{0,3})(?:ix|iv|v?i{0,3})"
+ROMAN_PIN = re.compile(rf"^[\s,]*(?:pp?\. )?(?=[clxvi])({_ROMAN})(?:[–-](?=[clxvi]){_ROMAN})?(?=$|[\s,;.()])")
 
 
 def item_key(item):

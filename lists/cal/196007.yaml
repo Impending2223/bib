@@ -14,6 +14,18 @@ entries:
       rows:
         - 'w.clifford-counsel-to-the-president-2 314: all'
     tags: [name:kennedy-john-f, name:clifford-clark, name:symington-william-s]
+  - id: cal.1960-07-01.soviet-union
+    when: July 1
+    date: '1960-07-01'
+    thread: soviet-union
+    also: [defense]
+    c: 'An RB-47 out of a base in Britain, on a reconnaissance mission over the Barents Sea, shot down by the Soviet Air Force. Four of the crew killed, two taken. American intelligence: never nearer than thirty miles to Soviet airspace.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 290. To check: editorial note, FRUS 1958–60, X, pt. 1, 540–42 (cited by [[w.fursenko-khrushchevs-cold-war]], 290 n.87). Report: [[cal.1960-07-11.soviet-union]].'
+    src:
+      c: 36c28ae2
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 290: all'
+        - 'via w.fursenko-khrushchevs-cold-war 290 n.87: all'
   - id: cal.1960-07-02.amendments
     when: July 2
     date: '1960-07-02'
@@ -62,12 +74,13 @@ entries:
     date: '1960-07-03'
     thread: elections-1960
     c: Johnson will not rule out taking second place.
-    n: '[[w.kallina-kennedy-v-nixon]], 76. To check: Richard L. Lyons, "Kennedy Set to Offer Johnson Second Place," Washington Post, July 12, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 76 n.68); [[w.shesol-mutual-contempt]], 44–45. Names: Johnson. Check: the form and the place.'
+    n: '[[w.kallina-kennedy-v-nixon]], 76; [[w.shesol-mutual-contempt]], 43 (his words of July 3, "from running the elevator to the top job," and of July 4). To check: Richard L. Lyons, "Kennedy Set to Offer Johnson Second Place," Washington Post, July 12, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 76 n.68). Names: Johnson. Check: the form and the place.'
     src:
       c: c406f3f7
       rows:
         - 'w.kallina-kennedy-v-nixon 76: all'
         - 'via w.kallina-kennedy-v-nixon 76 n.68: all'
+        - 'w.shesol-mutual-contempt 43: A'
     tags: [name:johnson-lyndon-b]
   - id: cal.1960-07-04.elections-1960
     when: July 4
@@ -80,6 +93,29 @@ entries:
       rows:
         - 'w.sorensen-kennedy 152–53: all'
     tags: [name:kennedy-john-f, name:truman-harry-s, name:sorensen-theodore-c]
+  - id: cal.1960-07-04.elections-1960-2
+    when: July 4
+    date: '1960-07-04'
+    thread: elections-1960
+    c: 'Los Angeles. India Edwards, for Johnson, with Connally: Kennedy has Addison''s disease and "would not be alive today if it were not for cortisone"; a public evaluation of his fitness. By her account, Johnson lashes out at her. The *Times* puts it on page 19.'
+    n: '[[w.shesol-mutual-contempt]], 35. To check: India Edwards oral history, LBJ Library; *New York Times*, July 5, 1960, 19 (cited by [[w.shesol-mutual-contempt]], 35). Names: Connally, Kennedy, Johnson.'
+    src:
+      c: ed53a73a
+      rows:
+        - 'w.shesol-mutual-contempt 35: all'
+        - 'via w.shesol-mutual-contempt 35 n.unspeakable: A-B'
+    tags: [name:connally-john, name:kennedy-john-f, name:johnson-lyndon-b]
+  - id: cal.1960-07-04.robert-kennedy
+    when: July 4
+    date: '1960-07-04'
+    thread: elections-1960
+    c: 'Robert Kennedy, at a press conference: his brother has no "ailment classically described as Addison''s disease"; any statement to the contrary "malicious and false." A doctors'' report: health "excellent." "I am confident that Senator Johnson will repudiate the irresponsible statements."'
+    n: '[[w.shesol-mutual-contempt]], 35–36. To check: Myer Feldman oral history, JFK Library; *New York Times*, July 5, 1960 (cited by [[w.shesol-mutual-contempt]], 35–36). See [[cal.1960-07-04.elections-1960-2]]. Names: Robert Kennedy, Kennedy, Johnson. Check: the day; Shesol: "a quick press conference."'
+    src:
+      c: ab1fd14c
+      rows:
+        - 'w.shesol-mutual-contempt 35–36: all'
+    tags: [name:kennedy-robert-f, name:kennedy-john-f, name:johnson-lyndon-b]
   - id: cal.1960-07-05.state-constitutions-ok
     when: July 5
     date: '1960-07-05'
@@ -93,7 +129,7 @@ entries:
     date: '1960-07-05'
     thread: elections-1960
     c: 'Johnson announces in the New Senate Office Building''s auditorium, Rayburn in the front row: "I am, as of this moment, a candidate for the office of President of the United States." The next President "a working President," not a talking or a traveling one.'
-    n: '[[w.caro-passage-of-power]], 97–98; [[w.young-two-suns-of-the]], 34 (the day); [[w.white-making-of-the-president]], 134 (July 5 the announcement). [[w.mcpherson-political-education]], 175 (the announcement before a big crowd in the Senate auditorium). To check: Washington Evening Star, July 6, 1960 (McGrory) (cited by [[w.caro-passage-of-power]], 97). Names: Johnson, Rayburn.'
+    n: '[[w.caro-passage-of-power]], 97–98; [[w.young-two-suns-of-the]], 34 (the day); [[w.white-making-of-the-president]], 134 (July 5 the announcement); [[w.shesol-mutual-contempt]], 36 (the announcement, at one o''clock; not Rayburn or the words). [[w.mcpherson-political-education]], 175 (the announcement before a big crowd in the Senate auditorium). To check: Washington Evening Star, July 6, 1960 (McGrory) (cited by [[w.caro-passage-of-power]], 97). Names: Johnson, Rayburn.'
     src:
       c: e358f16d
       rows:
@@ -102,13 +138,14 @@ entries:
         - 'w.young-two-suns-of-the 34: A'
         - 'w.mcpherson-political-education 175: A'
         - 'w.white-making-of-the-president 134: A'
+        - 'w.shesol-mutual-contempt 36: A'
     tags: [name:johnson-lyndon-b, name:rayburn-sam]
   - id: cal.1960-07-06.cuba-2
     when: July 6
     date: '1960-07-06'
     thread: cuba
     c: 'Sugar Act extended a year, [74 Stat. 330](https://www.govinfo.gov/content/pkg/STATUTE-74/pdf/STATUTE-74-Pg330-2.pdf), the President given Cuba''s quota to fix. Eisenhower signs and proclaims the cut: 700,000 short tons, the rest of Cuba''s 1960 quota but 39,752. Havana''s Law 851 the same day: American property may be nationalized.'
-    n: 'Statement by the President Upon Signing Bill and Proclamation Relating to the Cuban Sugar Quota, [1960–61 Pub. Papers 562](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=614); [Proclamation 3355](https://www.presidency.ucsb.edu/documents/proclamation-3355-determination-cuban-sugar-quota), [25 Fed. Reg. 6414](https://www.govinfo.gov/app/details/FR-1960-07-08). Senate, July 2: the President''s resolution, [84–0](https://voteview.com/rollcall/RS0860384); July 3, the conference report, [32–24](https://voteview.com/rollcall/RS0860387). FRUS 1958–60, VI, docs. [543](https://history.state.gov/historicaldocuments/frus1958-60v06/d543), [544](https://history.state.gov/historicaldocuments/frus1958-60v06/d544) (the meeting with the President, July 6). [[w.fursenko-one-hell-of-a]], 50 (the cut). To check: [[w.paterson-contesting-castro]]; [[w.rabe-eisenhower-and-latin-america]]; [[w.morley-imperial-state-and-revolution]]; [[w.schoultz-that-infernal-little-cuban]]; [[w.leogrande-back-channel-to-cuba]]. Names: Eisenhower. Check: Fursenko and Naftali have Congress cut the rest of the quota from 744,000 to 44,000 short tons, July 3 (50), citing FRUS 1958–60, VI, doc. 544.'
+    n: 'Statement by the President Upon Signing Bill and Proclamation Relating to the Cuban Sugar Quota, [1960–61 Pub. Papers 562](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=614); [Proclamation 3355](https://www.presidency.ucsb.edu/documents/proclamation-3355-determination-cuban-sugar-quota), [25 Fed. Reg. 6414](https://www.govinfo.gov/app/details/FR-1960-07-08). Senate, July 2: the President''s resolution, [84–0](https://voteview.com/rollcall/RS0860384); July 3, the conference report, [32–24](https://voteview.com/rollcall/RS0860387). FRUS 1958–60, VI, docs. [543](https://history.state.gov/historicaldocuments/frus1958-60v06/d543), [544](https://history.state.gov/historicaldocuments/frus1958-60v06/d544) (the meeting with the President, July 6). [[w.fursenko-one-hell-of-a]], 50 (the cut); [[w.paterson-contesting-castro]], 258 (the quota suspended in July). To check: [[w.rabe-eisenhower-and-latin-america]]; [[w.morley-imperial-state-and-revolution]]; [[w.schoultz-that-infernal-little-cuban]]; [[w.leogrande-back-channel-to-cuba]]. Names: Eisenhower. Check: Fursenko and Naftali have Congress cut the rest of the quota from 744,000 to 44,000 short tons, July 3 (50), citing FRUS 1958–60, VI, doc. 544.'
     src:
       c: 758de4b7
       rows:
@@ -120,6 +157,7 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/STATUTE-74/pdf/STATUTE-74-Pg330-2.pdf: A'
         - 'w.fursenko-one-hell-of-a 50: B'
         - 'via w.fursenko-one-hell-of-a 50 n.59: B'
+        - 'w.paterson-contesting-castro 258: B'
     tags: [name:eisenhower-dwight-d]
   - id: cal.1960-07-06.opinion
     when: July 6
@@ -158,19 +196,56 @@ entries:
       rows:
         - 'w.white-making-of-the-president 187: all'
     tags: [name:rockefeller-nelson]
+  - id: cal.1960-07-08.elections-1960-2
+    when: July 8
+    date: '1960-07-08'
+    thread: elections-1960
+    c: 'Johnson, en route to Los Angeles, on Robert Kennedy''s prediction in the *Times* that the nomination would be settled by Monday noon: "Is this convention open or has the outcome been determined somewhere in a back room?" "There are countries in the world where such pure arrogance is customary in politics."'
+    n: '[[w.shesol-mutual-contempt]], 37. To check: *New York Times*, July 8, 1960, 11 (cited by [[w.shesol-mutual-contempt]], 37). Names: Johnson, Robert Kennedy.'
+    src:
+      c: d75be0e7
+      rows:
+        - 'w.shesol-mutual-contempt 37: all'
+        - 'via w.shesol-mutual-contempt 37 n.specter: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
+  - id: cal.1960-07-08.elections-1960-3
+    when: July 8
+    date: '1960-07-08'
+    thread: elections-1960
+    c: 'Los Angeles, the afternoon. Robert Kennedy: Teamsters locals in the city ordered to "whoop up" Johnson''s campaign. Meany the same day at work on the delegates to keep Johnson off the ticket.'
+    n: '[[w.shesol-mutual-contempt]], 37–38. To check: *New York Times*, July 9, 1960, 1, 8 (cited by [[w.shesol-mutual-contempt]], 37). Names: Robert Kennedy, Johnson, Meany.'
+    src:
+      c: 6c45002e
+      rows:
+        - 'w.shesol-mutual-contempt 37–38: all'
+        - 'via w.shesol-mutual-contempt 37 n.charged: A'
+    tags: [name:kennedy-robert-f, name:johnson-lyndon-b, name:meany-george]
+  - id: cal.1960-07-08.elections-1960-4
+    when: July 8
+    date: '1960-07-08'
+    thread: elections-1960
+    c: 'New York, Idlewild, at night, from Hyannis Port. Kennedy, asked would he consider Johnson for second place: "Certainly, although I don''t think he''s interested in that at the moment."'
+    n: '[[w.shesol-mutual-contempt]], 43. To check: *New York Times*, July 9, 1960, 8 (cited by [[w.shesol-mutual-contempt]], 43). Names: Kennedy, Johnson.'
+    src:
+      c: 42e1e88e
+      rows:
+        - 'w.shesol-mutual-contempt 43: all'
+        - 'via w.shesol-mutual-contempt 43 n.certainly: all'
+    tags: [name:kennedy-john-f, name:johnson-lyndon-b, state:ny, city:nyc]
   - id: cal.1960-07-09.cuba
     when: July 9
     date: '1960-07-09'
     thread: cuba
     also: [soviet-union]
     c: 'Khrushchev, in Moscow: "Soviet artillerymen can support the Cuban people with their rocket fire" if the Pentagon intervenes. Eisenhower, at Newport, R.I.: the United States will not "permit the establishment of a regime dominated by international Communism in the Western Hemisphere."'
-    n: 'Statement by the President Concerning Premier Khrushchev''s Announcement of Support for the Castro Regime in Cuba, [1960–61 Pub. Papers 567](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=619). [FRUS 1958–60, VI, doc. 549](https://history.state.gov/historicaldocuments/frus1958-60v06/d549), quoting Khrushchev to the All-Russian Teachers'' Congress. [[w.fursenko-one-hell-of-a]], 52. See [[cal.1960-07-06.cuba-2]]. Names: Khrushchev, Eisenhower.'
+    n: 'Statement by the President Concerning Premier Khrushchev''s Announcement of Support for the Castro Regime in Cuba, [1960–61 Pub. Papers 567](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=619). [FRUS 1958–60, VI, doc. 549](https://history.state.gov/historicaldocuments/frus1958-60v06/d549), quoting Khrushchev to the All-Russian Teachers'' Congress. [[w.fursenko-one-hell-of-a]], 52; [[w.fursenko-khrushchevs-cold-war]], 305–6 ("Soviet artillerymen can support the Cuban people with their rocket fire"; to Soviet teachers). See [[cal.1960-07-06.cuba-2]]. Names: Khrushchev, Eisenhower.'
     src:
       c: cb6994a2
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=619: all'
         - 'https://history.state.gov/historicaldocuments/frus1958-60v06/d549: all'
         - 'w.fursenko-one-hell-of-a 52: A'
+        - 'w.fursenko-khrushchevs-cold-war 305–6: A'
     tags: [name:khrushchev-nikita-s, name:eisenhower-dwight-d]
   - id: cal.1960-07-09.elections-1960-3
     when: July 9–10
@@ -194,6 +269,19 @@ entries:
       rows:
         - 'w.white-making-of-the-president 159–60: all'
     tags: [name:kennedy-joseph-p, state:nj]
+  - id: cal.1960-07-09.elections-1960-2
+    when: July 9
+    date: '1960-07-09'
+    thread: elections-1960
+    c: 'Los Angeles, Suite 8315 of the Biltmore, about 3 p.m. Robert Kennedy to Guthman of the *Seattle Times*: Jackson "my choice, and Jack likes him"; he and Symington the strongest, Freeman a possibility; Jackson must convince Daley, Lawrence and Bailey. Jackson''s men setting up a headquarters at the Statler.'
+    n: '[[w.guthman-we-band-of-brothers]], 74–75; [[w.shesol-mutual-contempt]], 43 (Guthman''s account, at a late lunch: Jackson Kennedy''s choice; the leaders to convince). Names: Robert Kennedy, Guthman, Jackson, Symington, Freeman, Daley, Lawrence.'
+    src:
+      c: e53bb1ed
+      rows:
+        - 'w.guthman-we-band-of-brothers 74–75: all'
+        - 'w.shesol-mutual-contempt 43: B, D'
+    tags: [name:kennedy-robert-f, name:guthman-edwin-o, name:jackson-henry-m, name:symington-william-s, name:freeman-orville-l, name:daley-richard-j, name:lawrence-david-l]
+    aliases: [cal.1960-07-09.elections-1960]
   - id: cal.1960-07-10.elections-1960-2
     when: July 10
     date: '1960-07-10'
@@ -231,12 +319,38 @@ entries:
         - 'w.white-making-of-the-president 160: all'
     tags: [name:johnson-lyndon-b, name:kennedy-john-f, name:symington-william-s]
     aliases: [cal.1960-07-10.elections-1960-4]
+  - id: cal.1960-07-10.elections-1960-5
+    when: July 10
+    date: '1960-07-10'
+    thread: elections-1960
+    c: 'Sunday night. Kennedy to Philip Graham, offhand: if Johnson would take the Vice Presidency, he might offer it.'
+    n: '[[w.shesol-mutual-contempt]], 44. To check: [[w.white-making-of-the-president]], 199 (cited by [[w.shesol-mutual-contempt]], 44). Names: Kennedy, Johnson.'
+    src:
+      c: 5889b815
+      rows:
+        - 'w.shesol-mutual-contempt 44: all'
+    tags: [name:kennedy-john-f, name:johnson-lyndon-b]
+  - id: cal.1960-07-10.congo
+    when: July 10
+    date: '1960-07-10'
+    thread: congo
+    c: Belgium sends troops to the Congo to protect the Europeans, the Force Publique having mutinied against its white officers; the independence accord bars it without the new government's consent.
+    n: '[[w.fursenko-khrushchevs-cold-war]], 307. To check: [[w.hoskyns-congo-since-independence]], 95–96 (cited by [[w.fursenko-khrushchevs-cold-war]], 307 n.64). See [[cal.1960-06-30.congo]].'
+    src:
+      c: 101c7eda
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 307: all'
   - id: cal.1960-07-11.congo
     when: July 11
     date: '1960-07-11'
     thread: congo
     c: Tshombe declares Katanga independent.
-    n: 'FRUS 1958–60, XIV, doc. [114](https://history.state.gov/historicaldocuments/frus1958-60v14/d114). See [[cal.1960-06-30.congo]]. Names: Tshombe.'
+    n: 'FRUS 1958–60, XIV, doc. [114](https://history.state.gov/historicaldocuments/frus1958-60v14/d114). [[w.fursenko-khrushchevs-cold-war]], 307 (Katanga, with Belgian encouragement; Belgian paratroops at Elisabethville). See [[cal.1960-06-30.congo]]. Names: Tshombe.'
+    src:
+      c: f738db9a
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v14/d114: all'
+        - 'w.fursenko-khrushchevs-cold-war 307: all'
     tags: [name:tshombe-moise]
   - id: cal.1960-07-11.elections-1960
     when: July 11
@@ -264,7 +378,7 @@ entries:
     date: '1960-07-11'
     thread: elections-1960
     c: Philip Graham and Joseph Alsop put the case for Johnson as Vice President to Kennedy, who seems to agree "so immediately ... as to leave me doubting the easy triumph" (Graham). Rowe and Johnson take it for the message going to every candidate.
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 207. [[w.kallina-kennedy-v-nixon]], 76 (Graham and Alsop among those urging Kennedy, July 11–12). To check: Graham''s memorandum, printed in [[w.white-making-of-the-president-1965]], app. (cited by [[w.schlesinger-robert-kennedy-and-his]], 206 n.65); James H. Rowe, Jr., interview by Schlesinger, Aug. 16, 1964 (cited by [[w.schlesinger-robert-kennedy-and-his]], 207 n.75); Richard L. Lyons, "Kennedy Set to Offer Johnson Second Place," Washington Post, July 12, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 76 n.68). See [[cal.1960-07-11.elections-1960]]. Names: Alsop, Kennedy, Rowe, Johnson. Check: Kallina, 76, has Lawrence, Daley, DeSapio and Corcoran urge it too, July 11–12; and the Washington Post, July 12: Kennedy to offer Johnson second place.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 207; [[w.white-making-of-the-president-1965]], 407–08 (Graham''s memorandum, dated San Francisco, July 19, 1960, printed as app. B: Monday, July 11, the Biltmore, Kennedy''s suite on the ninth floor, five minutes; "He immediately agreed, so immediately as to leave me doubting the easy triumph"); [[w.shesol-mutual-contempt]], 44 (Graham and Alsop; Kennedy''s agreement, in Graham''s words). [[w.kallina-kennedy-v-nixon]], 76 (Graham and Alsop among those urging Kennedy, July 11–12). To check: Graham''s memorandum, printed in [[w.white-making-of-the-president-1965]], app. (cited by [[w.schlesinger-robert-kennedy-and-his]], 206 n.65); James H. Rowe, Jr., interview by Schlesinger, Aug. 16, 1964 (cited by [[w.schlesinger-robert-kennedy-and-his]], 207 n.75); Richard L. Lyons, "Kennedy Set to Offer Johnson Second Place," Washington Post, July 12, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 76 n.68). See [[cal.1960-07-11.elections-1960]]. Names: Alsop, Kennedy, Rowe, Johnson. Check: Kallina, 76, has Lawrence, Daley, DeSapio and Corcoran urge it too, July 11–12; and the Washington Post, July 12: Kennedy to offer Johnson second place.'
     src:
       c: 8a91d9c4
       rows:
@@ -272,6 +386,9 @@ entries:
         - 'via w.schlesinger-robert-kennedy-and-his 207 n.75: B'
         - 'w.kallina-kennedy-v-nixon 76: A'
         - 'via w.kallina-kennedy-v-nixon 76 n.68: A'
+        - 'w.white-making-of-the-president-1965 407–08: A'
+        - 'via x.1960-07-19.philip-l-graham-notes-on-the: A'
+        - 'w.shesol-mutual-contempt 44: A'
     tags: [name:alsop-joseph, name:kennedy-john-f, name:rowe-james-h-jr, name:johnson-lyndon-b]
   - id: cal.1960-07-11.elections-1960-3
     when: July 11
@@ -310,12 +427,50 @@ entries:
       rows:
         - 'w.white-making-of-the-president 159: all'
     tags: [name:kennedy-john-f]
+  - id: cal.1960-07-11.elections-1960-5
+    when: July 11
+    date: '1960-07-11'
+    thread: elections-1960
+    c: Los Angeles, as the convention opens. Mrs. Roosevelt hopes Kennedy's "unselfishness and courage" will lead him to take the Vice Presidency, "the opportunity to grow and learn"; Negroes, she says, will not vote for him.
+    n: '[[w.sorensen-kennedy]], 155 (an earlier column of Lippmann''s, the same). See [[cal.1960-07-11.elections-1960]]. Names: Eleanor Roosevelt, Kennedy. Check: the day; Sorensen: "as the convention opened on Monday, July 11."'
+    src:
+      c: 793c2d1f
+      rows:
+        - 'w.sorensen-kennedy 155: all'
+    tags: [name:roosevelt-eleanor, name:kennedy-john-f]
+  - id: cal.1960-07-11.elections-1960-6
+    when: July 11
+    date: '1960-07-11'
+    thread: elections-1960
+    c: Los Angeles, as the convention opens. Humphrey, never formally committed, announces he is "switching" from Kennedy to Stevenson out of "concern for my country."
+    n: '[[w.sorensen-kennedy]], 155. See [[cal.1960-07-11.elections-1960]]. Names: Humphrey, Kennedy, Stevenson. Check: the day; Sorensen: "as the convention opened on Monday, July 11."'
+    src:
+      c: 4c429e78
+      rows:
+        - 'w.sorensen-kennedy 155: all'
+    tags: [name:humphrey-hubert-h, name:kennedy-john-f, name:stevenson-adlai-e]
+  - id: cal.1960-07-11.elections-1960-7
+    when: July 11
+    date: '1960-07-11'
+    thread: elections-1960
+    c: 'Los Angeles. A move to bind the Washington delegation unanimously for Kennedy beaten in caucus, though Magnuson would switch to Kennedy to help Jackson. Rosellini: "I''m going to watch it for another day."'
+    n: '[[w.guthman-we-band-of-brothers]], 75–76. See [[cal.1960-07-11.elections-1960]]. Names: Kennedy, Magnuson, Jackson, Rosellini.'
+    src:
+      c: 65200a44
+      rows:
+        - 'w.guthman-we-band-of-brothers 75–76: all'
+    tags: [name:kennedy-john-f, name:magnuson-warren-g, name:jackson-henry-m, name:rosellini-albert-d, state:wa]
   - id: cal.1960-07-12.congo
     when: July 12
     date: '1960-07-12'
     thread: congo
     c: The Congo's cabinet asks for American troops; Eisenhower declines and points to the UN. Kasavubu and Lumumba appeal to the UN.
-    n: 'FRUS 1958–60, XIV, docs. [116](https://history.state.gov/historicaldocuments/frus1958-60v14/d116) (Timberlake on the request), [117](https://history.state.gov/historicaldocuments/frus1958-60v14/d117) (Eisenhower and Herter). See [[cal.1960-06-30.congo]]. Names: Eisenhower, Kasavubu, Lumumba.'
+    n: 'FRUS 1958–60, XIV, docs. [116](https://history.state.gov/historicaldocuments/frus1958-60v14/d116) (Timberlake on the request), [117](https://history.state.gov/historicaldocuments/frus1958-60v14/d117) (Eisenhower and Herter). [[w.fursenko-khrushchevs-cold-war]], 307–8 (the appeal to the UN, troops from neutral countries). See [[cal.1960-06-30.congo]]. Names: Eisenhower, Kasavubu, Lumumba.'
+    src:
+      c: a8a75570
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v14/d116: all'
+        - 'w.fursenko-khrushchevs-cold-war 307–8: B'
     tags: [name:kasavubu-joseph, name:lumumba-patrice, name:eisenhower-dwight-d, name:herter-christian-a]
   - id: cal.1960-07-12.soviet-union
     when: July 12–13
@@ -347,7 +502,7 @@ entries:
     date: '1960-07-12'
     thread: elections-1960
     c: 'The Biltmore''s Crystal Ballroom, 3 p.m. Johnson, by telegram and at a press conference, challenges Kennedy to debate before the Texas and Massachusetts delegations. Kennedy comes, nearly alone. Johnson on quorum calls and roll calls missed; Kennedy: "I assume he was talking about some other candidate."'
-    n: '[[w.caro-passage-of-power]], 102–05. [[w.sorensen-kennedy]], 156–57 (Johnson''s challenge before the two delegations; Kennedy''s reply). To check: Kennedy''s and Johnson''s telegrams, July 12, 1960, "Special File on Lyndon B. Johnson''s Campaigns," LBJ Library; the transcript of the debate, July 12, 1960, Statements of Lyndon Baines Johnson, LBJ Library; San Antonio Light, July 13, 1960; Washington Evening Star, July 13, 1960 (McGrory) (cited by [[w.caro-passage-of-power]], 103–04). See [[cal.1960-07-12.elections-1960]]. Names: Johnson, Kennedy, Robert Kennedy.'
+    n: '[[w.caro-passage-of-power]], 102–05; [[w.shesol-mutual-contempt]], 39 (the debate before the two delegations; Kennedy: "I don''t think Senator Johnson and I disagree on the great issues"). [[w.sorensen-kennedy]], 156–57 (Johnson''s challenge before the two delegations; Kennedy''s reply). To check: Kennedy''s and Johnson''s telegrams, July 12, 1960, "Special File on Lyndon B. Johnson''s Campaigns," LBJ Library; the transcript of the debate, July 12, 1960, Statements of Lyndon Baines Johnson, LBJ Library; San Antonio Light, July 13, 1960; Washington Evening Star, July 13, 1960 (McGrory) (cited by [[w.caro-passage-of-power]], 103–04). See [[cal.1960-07-12.elections-1960]]. Names: Johnson, Kennedy, Robert Kennedy.'
     src:
       c: a9d55365
       rows:
@@ -358,6 +513,7 @@ entries:
         - 'via w.caro-passage-of-power 103 n.not-more-than-a-handful: C'
         - 'via w.caro-passage-of-power 104 n.and-when-i-take: D'
         - 'w.sorensen-kennedy 156–57: B-E'
+        - 'w.shesol-mutual-contempt 39: B, D'
     tags: [name:johnson-lyndon-b, name:kennedy-john-f, name:kennedy-robert-f]
   - id: cal.1960-07-12.elections-1960-3
     when: July 12
@@ -415,19 +571,48 @@ entries:
       rows:
         - 'w.white-making-of-the-president 168: all'
     tags: [name:shriver-r-sargent, name:kennedy-robert-f]
+  - id: cal.1960-07-12.elections-1960-4
+    when: July 12
+    date: '1960-07-12'
+    thread: elections-1960
+    c: 'Tuesday evening, an elevator. Corcoran to Kennedy, apologizing for Johnson''s slurs on his father: "We''ve got to patch up this split between you and Lyndon"; the ticket would win the South. Kennedy: "Stop kidding, Tommy. Johnson will turn me down," but lets him try.'
+    n: '[[w.shesol-mutual-contempt]], 44. To check: Corcoran, "Rendezvous with Democracy," c/12–14 (cited by [[w.shesol-mutual-contempt]], 44). Names: Corcoran, Kennedy, Johnson.'
+    src:
+      c: 1c58832f
+      rows:
+        - 'w.shesol-mutual-contempt 44: all'
+        - 'via w.shesol-mutual-contempt 44 n.corcoran: all'
+    tags: [name:corcoran-thomas-j, name:kennedy-john-f, name:johnson-lyndon-b]
+  - id: cal.1960-07-12.elections-1960-5
+    when: July 12
+    date: '1960-07-12'
+    thread: elections-1960
+    c: 'Chasen''s, the Steelworkers'' buffet supper. O''Neill brings word from Johnson''s camp: if Kennedy wants Johnson, Johnson will not turn him down. Kennedy, on the sidewalk: "Of course I want Lyndon Johnson. ... I would never want to offer it to him and have him turn me down."'
+    n: '[[w.shesol-mutual-contempt]], 44–45. To check: [[w.oneill-man-of-the-house-1987]], 93–95 (cited by [[w.shesol-mutual-contempt]], 45). Names: O''Neill, Kennedy, Johnson.'
+    src:
+      c: d9185570
+      rows:
+        - 'w.shesol-mutual-contempt 44–45: all'
+    tags: [name:oneill-thomas-p-jr, name:kennedy-john-f, name:johnson-lyndon-b]
   - id: cal.1960-07-13.congo
     when: July 13–14
     date: '1960-07-13'
     thread: congo
     c: 'Security Council, overnight: a UN force for the Congo, Belgium to withdraw its troops; 8–0, China, France, Britain abstaining.'
-    n: '[S.C. Res. 143](https://docs.un.org/S/RES/143%281960%29). FRUS 1958–60, XIV, doc. [122](https://history.state.gov/historicaldocuments/frus1958-60v14/d122) (the instructions to Lodge). See [[cal.1960-06-30.congo]].'
+    n: '[S.C. Res. 143](https://docs.un.org/S/RES/143%281960%29). FRUS 1958–60, XIV, doc. [122](https://history.state.gov/historicaldocuments/frus1958-60v14/d122) (the instructions to Lodge). [[w.fursenko-khrushchevs-cold-war]], 308 (the Soviet delegate instructed to support it; 8–0). See [[cal.1960-06-30.congo]].'
+    src:
+      c: 8a914d97
+      rows:
+        - 'https://docs.un.org/S/RES/143%281960%29: all'
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v14/d122: all'
+        - 'w.fursenko-khrushchevs-cold-war 308: all'
     tags: [name:lodge-henry-cabot]
   - id: cal.1960-07-13.elections-1960
     when: July 13
     date: '1960-07-13'
     thread: elections-1960
     c: 'Kennedy nominated on the first ballot, Wyoming''s votes putting him over: Kennedy 806, Johnson 409, Symington 86, Stevenson 79½. 761 needed.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 205–06 (Robert Kennedy''s count, Wednesday, 740: 21 short, by Schlesinger''s journal); [[w.white-making-of-the-president]], 165–70 (McCarthy''s speech for Stevenson; the count; Wyoming; the final tally, 169 n.9). [[w.kallina-kennedy-v-nixon]], 72–73 (Wyoming''s votes; 806; 761 needed). [[w.sorensen-kennedy]], 158–61. To check: Schlesinger, journal, July 14, 1960 (cited by [[w.schlesinger-robert-kennedy-and-his]], 206 n.64); Hugh Sidey OHI, Apr. 7, 1964, JFK Library; Joseph D. Tydings OHI, Sept. 30, 1965, JFK Library (cited by [[w.kallina-kennedy-v-nixon]], 73 n.59). See [[cal.1960-07-12.elections-1960]]. Names: Kennedy, Johnson, Symington, Stevenson.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 205–06 (Robert Kennedy''s count, Wednesday, 740: 21 short, by Schlesinger''s journal); [[w.white-making-of-the-president]], 165–70 (McCarthy''s speech for Stevenson; the count; Wyoming; the final tally, 169 n.9); [[w.guthman-we-band-of-brothers]], 74, 76–77 (761 needed; Wyoming''s 15 votes putting him over; not the totals). [[w.kallina-kennedy-v-nixon]], 72–73 (Wyoming''s votes; 806; 761 needed). [[w.sorensen-kennedy]], 158–61. To check: Schlesinger, journal, July 14, 1960 (cited by [[w.schlesinger-robert-kennedy-and-his]], 206 n.64); Hugh Sidey OHI, Apr. 7, 1964, JFK Library; Joseph D. Tydings OHI, Sept. 30, 1965, JFK Library (cited by [[w.kallina-kennedy-v-nixon]], 73 n.59). See [[cal.1960-07-12.elections-1960]]. Names: Kennedy, Johnson, Symington, Stevenson.'
     src:
       c: 4424f56c
       rows:
@@ -438,6 +623,7 @@ entries:
         - 'via w.kallina-kennedy-v-nixon 73 n.59b: A, B'
         - 'w.sorensen-kennedy 158–61: all'
         - 'w.white-making-of-the-president 165–70: A-B'
+        - 'w.guthman-we-band-of-brothers 74, 76–77: A-B'
     tags: [name:kennedy-john-f, name:johnson-lyndon-b, name:stevenson-adlai-e, name:symington-william-s]
   - id: cal.1960-07-13.elections-1960-2
     when: July 13–14
@@ -462,13 +648,61 @@ entries:
       rows:
         - 'w.white-making-of-the-president 167: all'
     tags: [name:stevenson-adlai-e, name:daley-richard-j]
+  - id: cal.1960-07-13.elections-1960-5
+    when: July 13
+    date: '1960-07-13'
+    thread: elections-1960
+    c: 'Los Angeles, the morning of the balloting. Johnson before the Washington delegation, asking its help to "stop Kennedy": doubts on Kennedy''s physical fitness and his liberal credentials; on Joseph Kennedy, "I was never any Chamberlain-umbrella-policy man. I never thought Hitler was right." Jackson''s men call Robert Kennedy, who tells the caucus Jackson is his personal choice for Vice President, the decision not his. Washington''s vote on the roll: Kennedy 14½, Stevenson 6½, Symington 3, Johnson 2½, Rosellini ½.'
+    n: '[[w.guthman-we-band-of-brothers]], 76–77 (Guthman reporting for the *Seattle Times*). See [[cal.1960-07-13.elections-1960]]. Names: Johnson, Kennedy, Joseph P. Kennedy, Jackson, Robert Kennedy, Stevenson, Symington, Rosellini.'
+    src:
+      c: 2c685efe
+      rows:
+        - 'w.guthman-we-band-of-brothers 76–77: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-john-f, name:kennedy-joseph-p, name:jackson-henry-m, name:kennedy-robert-f, name:stevenson-adlai-e, name:symington-william-s, name:rosellini-albert-d, state:wa]
+  - id: cal.1960-07-13.elections-1960-3
+    when: July 13
+    date: '1960-07-13'
+    thread: elections-1960
+    c: 'Wednesday morning, the day of the nomination. Robert Kennedy''s count, 740, twenty-one short: "If we don''t win tonight, we''re dead." To Washington''s delegates: his own preference for second place "is not going to determine who is selected."'
+    n: '[[w.shesol-mutual-contempt]], 40, 43. Names: Robert Kennedy.'
+    src:
+      c: fe20c2e3
+      rows:
+        - 'w.shesol-mutual-contempt 40: A-B'
+        - 'w.shesol-mutual-contempt 43: C'
+    tags: [name:kennedy-robert-f]
+  - id: cal.1960-07-13.elections-1960-4
+    when: July 13
+    date: '1960-07-13'
+    thread: elections-1960
+    c: 'Wednesday night. Corcoran asks Johnson''s leave "to work out the option" with Kennedy. Johnson: "Only if Sam goes along with it." Rayburn: "No. I won''t go along with it. ... I wouldn''t trust Joe Kennedy across the street." By Johnson''s later account, at 1 a.m.: "Don''t accept." The next morning Rayburn a convert.'
+    n: '[[w.shesol-mutual-contempt]], 45. To check: [[w.dallek-lone-star-rising]], 576; Johnson and Carl Vinson, telephone conversation, Dec. 2, 1963, LBJ Library (cited by [[w.shesol-mutual-contempt]], 45). See [[cal.1960-07-14.elections-1960]]. Names: Corcoran, Johnson, Kennedy, Rayburn, Joseph Kennedy.'
+    src:
+      c: 26311bdf
+      rows:
+        - 'w.shesol-mutual-contempt 45: all'
+        - 'via w.shesol-mutual-contempt 45 n.wont-go-along: B-D'
+    tags: [name:corcoran-thomas-j, name:johnson-lyndon-b, name:kennedy-john-f, name:rayburn-sam, name:kennedy-joseph-p]
+  - id: cal.1960-07-13.congo-2
+    when: July 13
+    date: '1960-07-13'
+    thread: congo
+    also: [soviet-union]
+    c: 'Kasavubu and Lumumba to Khrushchev: "to watch hourly over the development of the situation"; "We may have to ask for the Soviet Union''s intervention should the Western camp not stop its aggression." Gromyko circulates it to the Presidium.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 308. To check: A. B. Davidson and S. V. Mazov eds., *Rossiya i Afrika: Dokumenty i materialy*, II, doc. 138 (cited by [[w.fursenko-khrushchevs-cold-war]], 308 n.66). See [[cal.1960-07-12.congo]]. Names: Kasavubu, Lumumba, Khrushchev, Gromyko.'
+    src:
+      c: 76c0d9a6
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 308: all'
+        - 'via w.fursenko-khrushchevs-cold-war 308 n.66: A-B'
+    tags: [name:kasavubu-joseph, name:lumumba-patrice, name:khrushchev-nikita-s, name:gromyko-andrei]
   - id: cal.1960-07-14.elections-1960
     when: July 14
     date: '1960-07-14'
     thread: elections-1960
     also: [robert-kennedy]
     c: Kennedy offers Johnson second place; Robert Kennedy to Johnson's suite that afternoon; the accounts of what he said differ. Johnson nominated by acclamation that night, the rules suspended over shouts from the galleries.
-    n: '[[w.caro-passage-of-power]], 109–43 (the accounts of the day); [[w.schlesinger-robert-kennedy-and-his]], 206–11 (Robert Kennedy''s account, and Graham''s against it); [[w.mann-walls-of-jericho]], 276–78 (the offer, about 10 a.m.; Robert Kennedy''s call; the accounts); [[w.white-making-of-the-president]], 172–77 (Kennedy to Johnson''s suite at 10:15; the labor leaders against; Johnson accepts by telephone; the decision after three). [[w.kallina-kennedy-v-nixon]], 74–79 (the offer; Robert Kennedy''s two calls on Johnson; the nomination). [[w.sorensen-kennedy]], 165–66. To check: [[w.shesol-mutual-contempt]]. See [[cal.1960-07-12.elections-1960]]. Names: Kennedy, Johnson, Robert Kennedy. Check: Caro gives the voice vote in the hall about evenly divided, Rayburn calling "Say ''aye''!" (143), not shouts from the galleries. Check: Sorensen has Robert Kennedy go to Johnson at his brother''s request, and mention the National Committee chairmanship as an alternative (166).'
+    n: '[[w.caro-passage-of-power]], 109–43 (the accounts of the day); [[w.schlesinger-robert-kennedy-and-his]], 206–11 (Robert Kennedy''s account, and Graham''s against it); [[w.mann-walls-of-jericho]], 276–78 (the offer, about 10 a.m.; Robert Kennedy''s call; the accounts); [[w.white-making-of-the-president]], 172–77 (Kennedy to Johnson''s suite at 10:15; the labor leaders against; Johnson accepts by telephone; the decision after three); [[w.guthman-we-band-of-brothers]], 77–80 (the choice of Johnson, by Jackson''s account; Robert Kennedy''s comments on Potter''s draft, 78–79); [[w.shesol-mutual-contempt]], 48–56 (the offer; Robert Kennedy''s visits to Johnson''s suite; the accounts: Robert Kennedy''s, Connally''s, Graham''s, Rowe''s). [[w.kallina-kennedy-v-nixon]], 74–79 (the offer; Robert Kennedy''s two calls on Johnson; the nomination). [[w.sorensen-kennedy]], 165–66. See [[cal.1960-07-12.elections-1960]]. Names: Kennedy, Johnson, Robert Kennedy. Check: Caro gives the voice vote in the hall about evenly divided, Rayburn calling "Say ''aye''!" (143), not shouts from the galleries. Check: Sorensen has Robert Kennedy go to Johnson at his brother''s request, and mention the National Committee chairmanship as an alternative (166).'
     src:
       c: 608e1df6
       rows:
@@ -492,6 +726,10 @@ entries:
         - 'w.mann-walls-of-jericho 276–78: A-C'
         - 'via w.mann-walls-of-jericho 276 n.on-the-morning-of-july-14: A-C'
         - 'w.white-making-of-the-president 172–77: A-C'
+        - 'w.guthman-we-band-of-brothers 77–80: A'
+        - 'via x.1964-04.potter-draft-article-selection-of-johnson: A'
+        - 'w.shesol-mutual-contempt 48–56: A'
+        - 'via w.shesol-mutual-contempt 53 n.no-point: A'
     tags: [name:kennedy-john-f, name:johnson-lyndon-b, name:kennedy-robert-f]
   - id: cal.1960-07-14.immigration
     when: July 14
@@ -519,6 +757,17 @@ entries:
       rows:
         - 'w.white-making-of-the-president 172: all'
     tags: [name:roosevelt-james, name:kennedy-robert-f]
+  - id: cal.1960-07-14.elections-1960-2
+    when: July 14
+    date: '1960-07-14'
+    thread: elections-1960
+    c: 'Suite 8315, the Biltmore, about 9:30 a.m.: Salter, Jackson''s assistant, gives Kennedy and Robert Kennedy four reasons for Jackson; two hours later Jackson and Salter with Kennedy, fifteen minutes, no decision. Nearly three hours after, Kennedy telephones Jackson: it will be Johnson; he asks Jackson to be national chairman. Jackson asks for time.'
+    n: '[[w.guthman-we-band-of-brothers]], 79–80. See [[cal.1960-07-14.elections-1960]]. Names: Salter, Jackson, Kennedy, Robert Kennedy, Johnson.'
+    src:
+      c: 1c7dad40
+      rows:
+        - 'w.guthman-we-band-of-brothers 79–80: all'
+    tags: [name:salter-john, name:jackson-henry-m, name:kennedy-john-f, name:kennedy-robert-f, name:johnson-lyndon-b]
   - id: cal.1960-07-15.elections-1960
     when: July 15
     date: '1960-07-15'
@@ -557,6 +806,19 @@ entries:
       rows:
         - 'w.white-making-of-the-president 178–79: all'
     tags: [name:kennedy-joseph-p, city:nyc]
+  - id: cal.1960-07-15.congo
+    when: July 15
+    date: '1960-07-15'
+    thread: congo
+    also: [soviet-union]
+    c: 'Khrushchev to Kasavubu and Lumumba, made public: the UN''s intervention "a useful thing"; should the aggression go on, "the necessity would arise for more effective measures." The UN force''s first units arrive.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 308. To check: Seymour Topping, *New York Times*, July 16, 1960, and A. B. Davidson and S. V. Mazov eds., *Rossiya i Afrika: Dokumenty i materialy*, II, doc. 140 (cited by [[w.fursenko-khrushchevs-cold-war]], 308 n.68); [[w.hoskyns-congo-since-independence]], 129 (cited 308 n.69). See [[cal.1960-07-13.congo]]. Names: Khrushchev, Kasavubu, Lumumba.'
+    src:
+      c: 661e9e35
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 308: all'
+        - 'via w.fursenko-khrushchevs-cold-war 308 n.68: A'
+    tags: [name:khrushchev-nikita-s, name:kasavubu-joseph, name:lumumba-patrice]
   - id: cal.1960-07-16.democratic-party
     when: July 16
     date: '1960-07-16'
@@ -575,13 +837,14 @@ entries:
     thread: cuba
     also: [soviet-union]
     c: 'Raúl Castro in Moscow, July 17, met by Marshal Zakharov. July 18, with Khrushchev, Gromyko, Ponomarev, Zakharov and Skachkov. The visit''s joint communiqué: "all means not to consent to an armed United States intervention against the Cuban republic."'
-    n: '[[w.fursenko-one-hell-of-a]], 53–54. To check: Presidium, July 17, 1960, "On Raul Castro''s Visit to the USSR," APRF (cited by [[w.fursenko-one-hell-of-a]], 54 n.72); Szulc, *Fidel* (1986), 539 (cited by [[w.fursenko-one-hell-of-a]], 54 n.73, the communiqué). Check: the communiqué''s date. See [[cal.1960-07-09.cuba]]. Names: Raúl Castro, Khrushchev, Gromyko, Ponomarev, Zakharov.'
+    n: '[[w.fursenko-one-hell-of-a]], 53–54; [[w.fursenko-khrushchevs-cold-war]], 306 (July 17–18: "We don''t want war, and you don''t need war"; "If it [is] useful for you, we can give you more"). To check: Presidium, July 17, 1960, "On Raul Castro''s Visit to the USSR," APRF (cited by [[w.fursenko-one-hell-of-a]], 54 n.72); Szulc, *Fidel* (1986), 539 (cited by [[w.fursenko-one-hell-of-a]], 54 n.73, the communiqué). Check: the communiqué''s date. See [[cal.1960-07-09.cuba]]. Names: Raúl Castro, Khrushchev, Gromyko, Ponomarev, Zakharov.'
     src:
       c: 2d2d5a39
       rows:
         - 'w.fursenko-one-hell-of-a 53–54: all'
         - 'via w.fursenko-one-hell-of-a 54 n.72: B'
         - 'via w.fursenko-one-hell-of-a 54 n.73: C'
+        - 'w.fursenko-khrushchevs-cold-war 306: all'
     tags: [name:castro-raul, name:khrushchev-nikita-s, name:gromyko-andrei, name:ponomarev-boris-n, name:zakharov-matvei-vasileevich]
   - id: cal.1960-07-18.republican-party
     when: July 18–20
@@ -718,6 +981,18 @@ entries:
       rows:
         - 'w.white-making-of-the-president 195–96: all'
     tags: [name:morhouse-l-judson, name:hughes-emmet-john, name:hinman-george-l, name:rockefeller-nelson]
+  - id: cal.1960-07-21.cuba
+    when: July 21
+    date: '1960-07-21'
+    thread: cuba
+    also: [cuba-bay-of-pigs, intelligence]
+    c: 'CIA headquarters to the chief of station in Havana: "Possible removal top three leaders [Fidel, Raúl and Che] is receiving serious consideration at HQS." July 22: "Do not pursue. . . . Would like to drop matter."'
+    n: '[S. Rep. No. 94-465](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf), 73 (1975) (cited by [[w.fursenko-khrushchevs-cold-war]], 313 nn.94–95). [[w.fursenko-khrushchevs-cold-war]], 313. Made public: the Church Committee''s interim report, Nov. 20, 1975. Names: Fidel Castro, Raúl Castro, Guevara.'
+    src:
+      c: d9267138
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 313: all'
+    tags: [name:castro-fidel, name:castro-raul, name:guevara-ernesto]
   - id: cal.1960-07-22.elections-1960
     when: July 22–23
     date: '1960-07-22'
@@ -965,6 +1240,20 @@ entries:
       rows:
         - 'w.white-making-of-the-president 205: all'
     tags: [name:rockefeller-nelson, name:nixon-richard-m]
+  - id: cal.1960-07-25.congo
+    when: July 25
+    date: '1960-07-25'
+    thread: congo
+    also: [intelligence]
+    c: 'State''s Bureau of Intelligence and Research on Lumumba: "Despite charges by the Belgians and his Congolese opponents that Lumumba is a communist, we have nothing to substantiate this allegation."'
+    n: '[FRUS 1958–60, XIV, doc. 149](https://history.state.gov/historicaldocuments/frus1958-60v14/d149). [[w.fursenko-khrushchevs-cold-war]], 312–13. Names: Lumumba.'
+    src:
+      c: 4c70608c
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v14/d149: all'
+        - 'w.fursenko-khrushchevs-cold-war 312–13: all'
+        - 'via w.fursenko-khrushchevs-cold-war 313 n.89: all'
+    tags: [name:lumumba-patrice]
   - id: cal.1960-07-26.elections-1960
     when: July 26–27
     date: '1960-07-26'
@@ -1027,12 +1316,29 @@ entries:
         - 'w.kabaservice-rule-and-ruin 29: A-B'
         - 'w.white-making-of-the-president 204–5: A, C'
     tags: [name:laird-melvin-r, name:nixon-richard-m, name:rockefeller-nelson, name:tower-john-g, city:chicago]
+  - id: cal.1960-07-26.elections-1960-2
+    when: July 26
+    date: '1960-07-26'
+    thread: elections-1960
+    also: [transition-and-staff]
+    c: 'Ball to Stevenson, a long letter: if Kennedy wins, Stevenson will be offered the United Nations; if he does not want it, he should tell Kennedy promptly that he is interested "solely" in the "post of major responsibility," State. Offer to campaign in selected areas, and an ad hoc group to frame a foreign policy program for the first months of next year.'
+    n: '[[w.ball-past-has-another-pattern]], 159. Names: Ball, Stevenson, Kennedy.'
+    src:
+      c: ffa91e74
+      rows:
+        - 'w.ball-past-has-another-pattern 159: all'
+    tags: [name:ball-george-w, name:stevenson-adlai-e, name:kennedy-john-f]
   - id: cal.1960-07-27.congo
     when: July 27–29
     date: '1960-07-27'
     thread: congo
     c: 'Lumumba in Washington, at Blair House. Herter and Dillon receive him, July 27: aid through the UN, not apart from it. The Belgian ambassador protests the welcome, July 28. Eisenhower at Newport, R.I.; no meeting.'
-    n: 'FRUS 1958–60, XIV, docs. [152](https://history.state.gov/historicaldocuments/frus1958-60v14/d152) (Herter and Lumumba), [153](https://history.state.gov/historicaldocuments/frus1958-60v14/d153) (Scheyven). To check: [[w.kalb-congo-cables]]. See [[cal.1960-06-30.congo]]. Names: Lumumba, Herter, Eisenhower, Dillon.'
+    n: 'FRUS 1958–60, XIV, docs. [152](https://history.state.gov/historicaldocuments/frus1958-60v14/d152) (Herter and Lumumba), [153](https://history.state.gov/historicaldocuments/frus1958-60v14/d153) (Scheyven). [[w.fursenko-khrushchevs-cold-war]], 309–10 (Herter and Dillon; aid only through the UN; a plane asked). Check: Fursenko and Naftali give Lumumba half an hour with Herter on July 29 (309, citing [[w.kalb-congo-cables]], 35–37). To check: [[w.kalb-congo-cables]]. See [[cal.1960-06-30.congo]]. Names: Lumumba, Herter, Eisenhower, Dillon.'
+    src:
+      c: 9de55b3c
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v14/d152: all'
+        - 'w.fursenko-khrushchevs-cold-war 309–10: B'
     tags: [name:lumumba-patrice, name:herter-christian-a, name:dillon-c-douglas, name:eisenhower-dwight-d]
   - id: cal.1960-07-27.conservative-movement
     when: July 27
@@ -1312,3 +1618,14 @@ entries:
       rows:
         - 'w.white-making-of-the-president 185: all'
     tags: [name:rockefeller-nelson]
+  - id: cal.1960-07.elections-1960-10
+    when: July
+    date: 1960-07
+    thread: elections-1960
+    c: Los Angeles, before the balloting. For Johnson, John Connally and India Edwards cast doubt on Kennedy's physical fitness; other Johnson men call Joseph Kennedy anti-Semitic and soft on Hitlerism. Adam Clayton Powell endorses Johnson. A $50,000 campaign of full-page advertisements for Johnson.
+    n: '[[w.sorensen-kennedy]], 156. See [[cal.1960-07-11.elections-1960]]. Names: Connally, Kennedy, Johnson, Joseph P. Kennedy, Adam Clayton Powell. Check: the days.'
+    src:
+      c: 88f68147
+      rows:
+        - 'w.sorensen-kennedy 156: all'
+    tags: [name:connally-john, name:kennedy-john-f, name:johnson-lyndon-b, name:kennedy-joseph-p, name:powell-adam-clayton-jr]

@@ -219,3 +219,35 @@ patch. The last column is the entry.
 - The Record pages of the members' words listed above as leads (Mills, June 8, 1961; Proxmire, Mar. 9, 1961; Forand,
   June 22, 1960; Edith Green, Feb. 25, 1960; Weltner, July 2, 1964; Inouye, Jan. 25, 1967; and the rest): to read and
   enter.
+
+## Second run (Nov. 3–4, 2026): b3-sundquist-2
+
+The patch of the "Entered" table above, `b3-sundquist-more`, never reached the tree (not in `inbox/` nor merged). Its
+rows are redone, read again off the pages and the records, in `inbox/2026-11-03-b3-sundquist-2.yaml` (b3-sundquist-2,
+66 ops: 55 entries added, 5 edited, 4 citations, a primary record, a Check), with the records it rests on registered
+under the witness rule (`inbox/witnesses/2026-11-03-b3-sundquist-2.yaml`, 39 rows, the Record's pages marked read; edges
+in `sources/witnesses/by-work/sundquist-politics-and-policy.yaml`, 125). Where the table's id and the new one differ:
+
+- `cal.1960-04.program` is `cal.1960-04.jobs-and-wages`; `cal.1962-06-06.economy` is `-2`; `cal.1960-02.voting-rights`
+  and `cal.1963-06.civil-rights-bill` are `-2`; `cal.1960-11-02.elections-1960-2` is `cal.1960-11-02.elections-1960-4`;
+  `cal.1964-02-01.poverty` is `cal.1964-02-02.poverty` (the Sunday briefing's day).
+- The Appalachia rows are four entries: `cal.1963-01.jobs-and-wages` (Batt summoned), `cal.1963-03.jobs-and-wages` (after
+  the floods of Mar. 11–12), `cal.1963-04-09.jobs-and-wages` (Kennedy with the governors), `cal.1963-12.jobs-and-wages`.
+- `cal.1960-08-20.medicare`: Javits's words are of Aug. 23 in the Record; cited, with the page, on
+  `cal.1960-08-23.medicare` (a citation, the primary record and a Check), no new entry.
+- Kennedy at USC, Nov. 1, 1960, the lead above, is entered (`cal.1960-11-01.elections-1960`), and Kennedy at Warren,
+  Ohio, Oct. 9, 1960 (`cal.1960-10-09.elections-1960`).
+- Sundquist's Morse at "7377" (Apr. 1965) is 111 Cong. Rec. 7317.
+
+Rows of the Passed over list the reader's brief of Oct. 30 (R5, R18: the organized interests, the press, the counterparts)
+now makes entries: Samuelson on *Meet the Press* (`cal.1961-03-05.economy`); Logan of the AVA
+(`cal.1961-06-05.jobs-and-wages`); the American Public Welfare Association (`cal.1961-08-11.welfare`); Keyserling's
+*Poverty and Deprivation* (`cal.1962-04.poverty`); Bigart in the *Times* (`cal.1963-10-20.poverty`); Spellman, the
+National Council of Churches, the land-grant circular, the bishops, Knoff (`cal.1961-01-17`, `-02-22`, `-02-24`,
+`-03-01`, `-03-16.school-aid`); the five school organizations (`cal.1962-06-16.school-aid`); the AMA's strategy meeting
+(`cal.1961-04.medicare`); and Rayburn to Mills on Medicare (`cal.1960-04.medicare`). Also new: the bishops and the
+White House through an intermediary (`cal.1961-04.school-aid`) and Ribicoff of Apr. 8, 1965
+(`cal.1965-04-08.school-aid`). A citation to `cal.1963-10.poverty`, b3-sorensen-2's claim, waits for it.
+
+Stray ledger lines of this patch, claimed and not used: `cal.1960-04.youth` (claimed under the wrong thread; the entry
+is `cal.1960-04.jobs-and-wages`) and `cal.1963-10.poverty-2` (b3-sorensen-2's `cal.1963-10.poverty` is the same event).

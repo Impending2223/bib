@@ -102,7 +102,6 @@ merged after `b3-mcpherson` (several of its entries point back to that patch's).
 | 267–68 | Oct. 1965 | Johnson after home rule's defeat: "You've got just one year" | `cal.1965-10.states-and-cities` |
 | 281 | Jan. 1965 | eleven veterans hospitals ordered closed | `cal.1965-01.health` |
 | 286–88 | spring 1965 | the miners' hospitals: Josephine Roach; John L. Lewis | `cal.1965-04.health` |
-| 292–93 | 1967 | the dinners with faculties at Harvard, Yale and the Bay Area | `cal.1967-03.program` (in `b3-califano`, Califano dating them spring and summer) |
 | 303–04 | Oct. 1966 | the advance party's eight days, Samoa to Seoul | `cal.1966-10-08.vietnam-asian-trip` |
 | 304–13 | Oct. 18–30, 1966 | Pago Pago; Wellington's demonstrators and the V sign; the Sydney paint; the Brisbane sentence; the Brisbane crossroads and Townsville; Manila, the water bomb and Malacañang; Corregidor; the Bangkok stag dinner; Kuala Lumpur | `cal.1966-10-18.vietnam-asian-trip`, `cal.1966-10-20.vietnam-asian-trip-2`, `cal.1966-10-22.vietnam-asian-trip`, `cal.1966-10-22.vietnam-asian-trip-2`, `cal.1966-10-23.vietnam-asian-trip-2`, `cal.1966-10-24.vietnam-asian-trip-2`, `cal.1966-10-26.vietnam-asian-trip-2`, `cal.1966-10-29.vietnam-asian-trip`, `cal.1966-10-30.vietnam-asian-trip-2` |
 | 321 | July 7, 1968 | Johnson at the normal school at San Andrés, El Salvador | `cal.1968-07-07.latin-america` |
@@ -149,6 +148,7 @@ the month (leads), and the family, social and office routine. Pages are printed 
 | 273 | 1967 | Roche's memorandum to the President on the M-16 and the ARVN | the year only; lead |
 | 279 | Dec. 1967 | the District crime bill of 1967 signed | already in the crime thread |
 | 290 | 1965–67 | McPherson on the cabinet-level textile committee | undated; lead |
+| 292–93 | 1967 | the dinners with faculties at Harvard, Yale and the Bay Area (Califano, Cater, McPherson) | "several times in 1967": the year only; lead |
 | 291–92 | 1967 | Johnson rolls back the window glass and watch tariffs | the year only in the book; the Papers' Oct. 12 statement differs; lead |
 | 296–98 | fall 1965 | the urban task force; McPherson drafts the cities message | in the cities message's entry (pinned) |
 | 313–15 | Oct. 31–Nov. 2, 1966 | Seoul's crowds; the last night out with Korean ministers; Anchorage | already in (`cal.1966-11-01.vietnam`); the night out social |
@@ -184,6 +184,42 @@ How the list was made: every page of chs. 6–12 and the epilogue (156–455) re
 then each compared with the calendar's entries of its day and thread (`./bib find`); the chapters before 1960
 (1–5) read for the background, not listed.
 
+## Batch 3 resumed (Nov. 3–4, 2026)
+
+The more patch (`b3-mcpherson-more`) was never merged: no file of it is in `inbox/` or `inbox/merged/`, and its
+entries are not in the tree. Its work is rewritten as `inbox/2026-11-03-b3-mcpherson-2.yaml` (b3-mcpherson-2, 57
+ops: 36 new entries, 9 cites, 12 src), every entry claimed in the ledger, patch-check without errors. Of the table
+above (its ids are the first run's; the patch's are the ledger's), the 36 entries not yet in the tree under another reader's id are re-made (ids as the ledger gave them: e.g.
+`cal.1960-08.elections-1960-7`, `cal.1967-08.civil-disorders-2`, `cal.1968-03.civil-disorders-kerner-2`,
+`cal.1967-06-05.middle-east-six-day-war-3`, `cal.1968-04.vietnam-paris-2`); those another reader entered since
+(the Asian trip's Pago Pago, Canberra, Manila, Corregidor, Bangkok and Kuala Lumpur days, Oct. 17–30, 1966; Seoul; TCU,
+May 29, 1968, now `cal.1968-05-29.amendments`) take the cite instead, with McPherson's pages: 304, 304–05, 305–07,
+310–11, 311–13, 313–15, 447. The two pins on Morgantown and the All Americans Council (`cal.1968-10-26.elections-1968`,
+C; `cal.1968-10-27.elections-1968`), 331–32, are cites in the same patch. Not re-made: `cal.1967-03.program`, the
+faculty dinners of 1967 (292–93): the table above named it as Califano's, but no Califano patch made it, and Califano
+does not date the dinners; McPherson gives "several times in 1967" only, so it is passed over below (the year only;
+lead).
+
+The pages read again for the rewrite: 179–83, 194–202, 216–28, 233–36, 267–68, 281–88, 303–15, 321, 328–29, 334–40,
+352, 361–63, 370, 376, 404–17, 438–41, 447, 450, each against the page image (printed page = PDF page - 12).
+
+Witnesses (R35-R43), `inbox/witnesses/2026-11-03-b3-mcpherson-2.yaml`: McPherson's own memoranda that the book quotes
+and dates (14: May 14, Sept. 9, Sept. 12, Oct. 5, Nov. 8, 1966; Mar. 1967; Apr. 19, June 13, Aug. 1, 1967; Mar. 18,
+Mar. 23, May 1 ("Riot Lessons"), June 14, 1968; the Saigon embassy's cable on Thiệu and Hương, June 1967), each `made`
+contemporaneous, held at the LBJ Library, and where FRUS prints one (V, doc. 197; VI, doc. 152) its copy named; and the
+book's own passages (14, `x.1972.mcpherson-political-education-pNNN`, `part_of` the card with their pins), since the
+book has no notes to give an edge. The memoranda's entries carry `via` rows to them (12 src ops). No by-work file: the
+book cites no record by page and note.
+
+## The press (R13)
+
+| page | date | event | ruling |
+|---|---|---|---|
+| 266–67 | n.d. | Johnson to Henry Luce: the press makes no news of good news; Luce: "good news is no news" | not dated in the book; lead |
+| 401–02 | 1967 | Rowland Evans's talk with McPherson on the bombing and the public | not dated past the year; lead |
+| 430 | Mar. 1968 | Phil Carter of *Newsweek* to McPherson on Arkansas and the war | a correspondent's report, no act (above, Passed over) |
+| 158 | 1959–60 | Evans and Novak quoted on Johnson in the Senate | before the reading's chapters' events; a quotation, no event |
+
 ## Leads (for notes/leads.md)
 
 - National: the Senate debate of Aug. 1960 on the Kennedy Foundation's airlift of African students (Scott's attack,
@@ -205,3 +241,7 @@ then each compared with the calendar's entries of its day and thread (`./bib fin
   roster's special assistant from Aug. 1965).
 - Foreign: Panama, Jan. 1964: Fleming's call on the flags, the day; the International Commission of Jurists' hearing
   of the Army's case (McPherson 216–17, 221–22).
+- National: Johnson and Luce on the press (McPherson 266–67) and Evans's talk with McPherson, 1967 (401–02): the days
+  (the Daily Diary; Evans and Novak's columns of 1967).
+- National: McPherson's memoranda, the LBJ Library's files (McPherson's office files), to read the witnesses now
+  registered unread.
