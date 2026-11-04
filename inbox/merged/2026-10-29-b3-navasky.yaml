@@ -46,21 +46,14 @@ ops:
         - 'w.garrow-bearing-the-cross 155: A'
         - 'via w.garrow-bearing-the-cross 155 n.26: A'
         - 'w.navasky-kennedy-justice 20: A-B'
-- edit:
+- cite:
     id: cal.1961-05-19.civil-rights-the-executive
-    base: 1e608a4f
-    set:
-      n: 'Statement by the President Upon Signing Bill Providing for an Increase in the Federal Judiciary, [1961 Pub. Papers
-        389](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=447) (May 19, 1961). [[w.navasky-kennedy-justice]],
-        244, 259 (the act and the southern appointments; Navasky dates the signing May 20, 244). To check: [[w.bass-unlikely-heroes]];
-        [[w.goldman-picking-federal-judges]]. Names: Eastland. Check: Navasky gives seventy-one new judgeships (259, 363).'
-      src:
-        c: 07584bb4
-        rows:
-        - 'w.navasky-kennedy-justice on the southern appointments: all'
-        - 'https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg80.pdf: A'
-        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=447: A'
-        - 'w.navasky-kennedy-justice 244, 259: A'
+    item: '[[w.navasky-kennedy-justice]], 244, 259 (the act and the southern appointments; Navasky dates the signing May 20,
+      244)'
+    units: A
+- check:
+    id: cal.1961-05-19.civil-rights-the-executive
+    text: 'Check: Navasky gives seventy-one new judgeships (259, 363).'
 - edit:
     id: cal.1961-05.crime-and-hijacking
     base: c16b5ada
@@ -219,23 +212,6 @@ ops:
         - 'w.schlesinger-robert-kennedy-and-his 759: all'
         - 'via w.schlesinger-robert-kennedy-and-his 759 n.4: all'
         - 'w.navasky-kennedy-justice 84, 357: A'
-- edit:
-    id: cal.1961-01.crime-and-hijacking
-    base: e1fab569
-    set:
-      n: '[[w.schlesinger-robert-kennedy-and-his]], 273; [[w.navasky-kennedy-justice]], 68, 77, 81 (the briefing, Jan. 10,
-        by Evans''s letter of 1966: a memorandum on national-security wiretaps delivered to the Attorney General-designate;
-        microphones not discussed). To check: Evans to Robert Kennedy, Feb. 17, 1966, printed in [[w.toledano-j-edgar-hoover]],
-        318–19 (cited by [[w.schlesinger-robert-kennedy-and-his]], 273 n.46); Evans, testimony, Church committee, *Hearings*,
-        vol. 6, 166 (1975) (cited by [[w.schlesinger-robert-kennedy-and-his]], 273 n.45). Names: Evans, Robert Kennedy.'
-      date: '1961-01-10'
-      when: Jan. 10
-      src:
-        c: 57d1c2d1
-        rows:
-        - 'w.schlesinger-robert-kennedy-and-his 273: all'
-        - 'via w.schlesinger-robert-kennedy-and-his 273 n.46: A, B'
-        - 'w.navasky-kennedy-justice 68, 77, 81: all'
 - edit:
     id: cal.1961-03.robert-kennedy
     base: d1fe7c7a
@@ -2082,3 +2058,7 @@ ops:
       - name:kennedy-robert-f
       - name:hoover-j-edgar
     section: '196612'
+- primary:
+    id: cal.1961-05-19.civil-rights-the-executive
+    text: 'Statement by the President Upon Signing Bill Providing for an Increase in the Federal Judiciary, [1961 Pub. Papers 389](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=447) (May 19, 1961).'
+    units: A

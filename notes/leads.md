@@ -394,6 +394,9 @@ CQ Weekly Report, 1968-08-16:
 - Specter's margin, Nov. 2, 1965 (about 36,000, by Kabaservice): the count (`cal.1965-11-02.mayors-philadelphia`).
 - Ohio's and Pennsylvania's House primaries of 1966 (May 3, May 17): the counts.
 
+### Navasky, *Kennedy Justice* (batch 3, Oct. 29, 2026; notes/book-checks/navasky-kennedy-justice.md)
+- Marshall's Huntsville meeting (1962) and Ramsey Clark's at Mobile (August 1963, 222); Kennedy's telegram to Pritchett (Albany, 1961, 207); the Taconic meetings on the Voter Education Project (spring 1961, 207).
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -1361,6 +1364,9 @@ Rights in Conflict (Walker Report):
 - Kuchel's libel suit (1965): the affidavit's and the suit's days.
 - The Republican Governors Association's meeting of summer 1967 (Kabaservice, 207–8, 211): the date and place (`cal.1967-07.elections-1968-3`).
 - Persons named without a name entry: Bruce Chapman, George Gilder, Emil Frankel, Josiah Lee Auspitz, Tanya Melich, Robert D. Behn, Edward Failor, William Prendergast, John R. Price (of Ripon), Michael C. Smith, Saul Alinsky, Newt Gingrich.
+
+### Navasky, *Kennedy Justice* (batch 3, Oct. 29, 2026; notes/book-checks/navasky-kennedy-justice.md)
+- Lausche's speech in the Senate on Hoover (1961; the Record); the meeting of the intelligence agencies on organized crime (February 1961, Navasky 49); the IRS order of Feb. 24, 1961 (Navasky 78; Pearson's column of 1966); the House Republicans' report on organized crime and the urban poor (1967, Navasky 49 n.); Pearson's column on the King tap and Salinger's Portland statement (May 1968, Navasky 136); the microphones on King, June, November and December 1965 (147); Robert Kennedy to Thurmond on Communists in the movement (July 1963, 151); the Chacharis indictment's year ("February 21," 375) and plea; the Chicago Hoffa verdict's day (424); the Barnett contempt case dropped (1965, 239); Kennedy's meeting on Cox's apportionment memorandum (late summer 1963, 314–15) and on the Colorado case (February 1964, 319); the Attorney General's committee on poverty and the administration of federal criminal justice (April 1961, 441); Lewis R. Morgan's, Ainsworth's and Garza's nominations (the Record); the Tractors for Freedom committee's end (June 25, 1961, 327); Kennedy's testimony to Edward Long's committee on Baron and *Life* (undated, 428).
 
 ## Foreign
 
@@ -2373,3 +2379,5 @@ CQ Weekly Report, 1968-08-30:
 - The days of the ICC's rotations, 1953–55, and the National Mediation Board's; the recess commissions of Walsh, Mitchell, Wood and Bicks.
 - Plum Book offices not settled: the Pay Board's and the Price Commission's members and executive directors (OCR garbled); GSA's service commissioners and Griffin; the Board of Parole; the Postal Rate Commissioners (no Senate record); Egeberg, HEW special assistant.
 - McPherson (batch 3, Oct. 29, 2026; notes/book-checks/mcpherson-political-education.md): his swearing-in as Assistant Secretary of State (the book: his birthday, the night of Humphrey's selection, Aug. 26, 1964; the roster Aug. 23) and his move to the White House (the book: March 1965; the roster's special assistant from Aug. 1965).
+
+- Navasky (batch 3, Oct. 29, 2026; notes/book-checks/navasky-kennedy-justice.md): Caplin's appointment as IRS Commissioner (Jan. 24, 1961) and Landis's resignation (September 1961), to place in the roster.

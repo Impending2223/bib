@@ -331,6 +331,18 @@ entries:
         - 'w.dittmer-local-people 195: all'
         - 'via w.dittmer-local-people 195 n.3a: all'
     tags: [name:kennedy-robert-f, name:hannah-john-a, name:barnett-ross-r, name:johnson-paul-b-jr, state:ms]
+  - id: cal.1962-12-15.cuba
+    when: Dec. 15
+    date: '1962-12-15'
+    thread: cuba
+    also: [robert-kennedy]
+    c: 'For the prisoners'' ransom: Agriculture, the Red Cross, Justice and Donovan''s committee confer on milk. Freeman grants the Red Cross up to fifty million pounds of surplus milk, under section 1431 of title 7, and asks the President''s approval. That evening Robert Kennedy reports the President approves.'
+    n: '[[w.navasky-kennedy-justice]], 342–43 (from Katzenbach to Bundy, Jan. 4, 1963). See [[cal.1962-12-23.cuba]]. Names: Donovan, Freeman, Robert Kennedy, Kennedy. Check: the day of Freeman''s letter and of the President''s approval (Katzenbach: "later the same evening").'
+    src:
+      c: e1d1f0a6
+      rows:
+        - 'w.navasky-kennedy-justice 342–43: all'
+    tags: [name:donovan-james-b, name:freeman-orville-l, name:kennedy-robert-f, name:kennedy-john-f]
   - id: cal.1962-12-17.press-and-broadcasting
     when: Dec. 17
     date: '1962-12-17'
@@ -497,13 +509,29 @@ entries:
     thread: middle-east-johnson-plan
     c: 'General Assembly Resolution 1856 (XVII): thanks to the PCC for its efforts under paragraph 11 of Resolution 194 (III), and a request to continue them with the states concerned. UNRWA''s mandate extended to June 30, 1965.'
     n: '[A/RES/1856 (XVII)](https://documents.un.org/doc/RESOLUTION/GEN/NR0/193/64/PDF/NR019364.PDF) (1200th plenary meeting). See [[cal.1961-08-21.middle-east-johnson-plan]].'
+  - id: cal.1962-12-21.cuba
+    when: Dec. 21
+    date: '1962-12-21'
+    thread: cuba
+    c: 'Havana. Donovan and Castro sign a memorandum of agreement: the prisoners for $53 million in drugs and food.'
+    n: '[[w.navasky-kennedy-justice]], 346. See [[cal.1962-12-23.cuba]]. Names: Donovan, Castro.'
+    src:
+      c: bf6728d3
+      rows:
+        - 'w.navasky-kennedy-justice 346: all'
+    tags: [name:donovan-james-b, name:castro-fidel]
   - id: cal.1962-12-23.robert-kennedy
     when: Dec. 23
     date: '1962-12-23'
     thread: robert-kennedy
     also: [crime-and-hijacking]
     c: The Test Fleet jury at Nashville hung; Hoffa not convicted.
-    n: '*Hoffa v. United States*, [385 U.S. 293](https://tile.loc.gov/storage-services/service/ll/usrep/usrep385/usrep385293/usrep385293.pdf), 294–96 (1966). See [[cal.1962-10-22.robert-kennedy]]. Names: Hoffa.'
+    n: '*Hoffa v. United States*, [385 U.S. 293](https://tile.loc.gov/storage-services/service/ll/usrep/usrep385/usrep385293/usrep385293.pdf), 294–96 (1966). [[w.navasky-kennedy-justice]], 417 (the mistrial, the jury 7 to 5 for acquittal). See [[cal.1962-10-22.robert-kennedy]]. Names: Hoffa.'
+    src:
+      c: 4c0fd065
+      rows:
+        - 'https://tile.loc.gov/storage-services/service/ll/usrep/usrep385/usrep385293/usrep385293.pdf: all'
+        - 'w.navasky-kennedy-justice 417: all'
     tags: [name:hoffa-james-r]
   - id: cal.1962-12-23.cuba
     when: Dec. 23–24
@@ -511,7 +539,7 @@ entries:
     thread: cuba
     also: [robert-kennedy]
     c: 'Bay of Pigs prisoners flown to Homestead, Fla. Ransom: about $53 million in drugs and food. Donovan''s deal.'
-    n: '[FRUS 1961–63, XI, doc. 255](https://history.state.gov/historicaldocuments/frus1961-63v11/d255). [[w.schlesinger-robert-kennedy-and-his]], 534–37 (the release; Donovan''s deal). Donovan (see [[cal.1962-02-10.berlin-and-vienna]]). [[w.fursenko-one-hell-of-a]], 320. See [[cal.1962-04-08.cuba]]. Names: Donovan, Robert F. Kennedy.'
+    n: '[FRUS 1961–63, XI, doc. 255](https://history.state.gov/historicaldocuments/frus1961-63v11/d255). [[w.schlesinger-robert-kennedy-and-his]], 534–37 (the release; Donovan''s deal); [[w.navasky-kennedy-justice]], 328–29, 346 (the release; the ransom, $53 million in drugs, food and milk; 1,113 prisoners; the Justice Department''s part, Oberdorfer and Katzenbach). Donovan (see [[cal.1962-02-10.berlin-and-vienna]]). [[w.fursenko-one-hell-of-a]], 320. See [[cal.1962-04-08.cuba]]. Names: Donovan, Robert F. Kennedy.'
     src:
       c: 2b19d24e
       rows:
@@ -519,6 +547,7 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 537: A'
         - 'w.schlesinger-robert-kennedy-and-his 534–37: C'
         - 'w.fursenko-one-hell-of-a 320: B'
+        - 'w.navasky-kennedy-justice 328–29, 346: all'
     tags: [name:donovan-james-b, name:kennedy-robert-f]
   - id: cal.1962-12-23.goldwater
     when: Dec. 23
@@ -538,13 +567,14 @@ entries:
     date: '1962-12-24'
     thread: robert-kennedy
     c: 'Junius Scales, the one Communist imprisoned under the Smith Act''s membership clause, out of prison, his sentence commuted, home on Christmas Eve. He had broken with the party in 1956 and would not name those he had known in it; Hoover against release; White and Katzenbach had advised against. Robert Kennedy, in 1964: "I had his sentence commuted. I never discussed it with the President."'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 394–95. To check: Schlesinger''s journal, Dec. 21, 1962 (cited by [[w.schlesinger-robert-kennedy-and-his]], 395 n.13); Robert Kennedy, interview by John Bartlow Martin, Apr. 30, 1964, I, 38–39, JFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 395 n.14). See [[cal.1961-06-05.court]]. Names: Hoover, White, Katzenbach, Robert Kennedy. Check: the day of the commutation.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 394–95; [[w.navasky-kennedy-justice]], 37 (the commutation, in December, Robert Kennedy recommending and the President approving, over the FBI''s objections). To check: Schlesinger''s journal, Dec. 21, 1962 (cited by [[w.schlesinger-robert-kennedy-and-his]], 395 n.13); Robert Kennedy, interview by John Bartlow Martin, Apr. 30, 1964, I, 38–39, JFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 395 n.14). See [[cal.1961-06-05.court]]. Names: Hoover, White, Katzenbach, Robert Kennedy. Check: the day of the commutation. Check: Navasky has the President approving the commutation (37); Kennedy in 1964, that he never discussed it with him.'
     src:
       c: a42303f6
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 394–95: all'
         - 'via w.schlesinger-robert-kennedy-and-his 395 n.13: D'
         - 'via w.schlesinger-robert-kennedy-and-his 395 n.14: E'
+        - 'w.navasky-kennedy-justice 37: A, C'
     tags: [name:hoover-j-edgar, name:white-byron-r, name:katzenbach-nicholas, name:kennedy-robert-f]
   - id: cal.1962-12-25.missile-crisis
     when: Dec. 25
@@ -618,7 +648,7 @@ entries:
     date: '1962-12-29'
     thread: cuba
     c: 'Orange Bowl. Kennedy takes the brigade''s flag: "This flag will be returned to this brigade in a free Havana."'
-    n: Remarks in Miami at the Presentation of the Flag of the Cuban Invasion Brigade, [1962 Pub. Papers 911](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=971) (Dec. 29, 1962). [[w.schlesinger-robert-kennedy-and-his]], 538 (the promise, not in the script; Rusk, Bundy and O'Donnell against the trip, by O'Donnell's account). [[w.reeves-president-kennedy]], 444–45. [[w.fursenko-one-hell-of-a]], 319–20. See [[cal.1961-04-15.cuba]].
+    n: Remarks in Miami at the Presentation of the Flag of the Cuban Invasion Brigade, [1962 Pub. Papers 911](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=971) (Dec. 29, 1962). [[w.schlesinger-robert-kennedy-and-his]], 538 (the promise, not in the script; Rusk, Bundy and O'Donnell against the trip, by O'Donnell's account); [[w.navasky-kennedy-justice]], 347 (the President at the Orange Bowl). [[w.reeves-president-kennedy]], 444–45. [[w.fursenko-one-hell-of-a]], 319–20. See [[cal.1961-04-15.cuba]].
     src:
       c: fe61cf7c
       rows:
@@ -626,6 +656,7 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 538: B'
         - 'w.reeves-president-kennedy 444–45: all'
         - 'w.fursenko-one-hell-of-a 319–20: B'
+        - 'w.navasky-kennedy-justice 347: A'
     tags: [name:kennedy-john-f]
   - id: cal.1962-12.cities-and-housing-nyc
     when: Dec.
