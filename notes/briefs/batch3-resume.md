@@ -58,3 +58,47 @@ file's last section). Each reader is relaunched fresh: no memory of the first ru
 ## The merger's notes
 
 (Written after the merge of Oct. 29's patches.)
+
+Merged Nov. 3-4, 2026, all 32 patches of Oct. 29 (`inbox/merged/2026-10-29-b3-*.yaml`), each by `./bib merge --auto
+--legacy`, and fifteen small follow-up patches of the merger's own (`inbox/merged/2026-11-0[34]-b3-followups-*.yaml`,
+`2026-11-03-cq-1968-08-02-reagan.yaml`). What was done, for the next merger:
+
+- Ids taken since Oct. 29 (by the CQ readers, the other batch-3 patches, or claimed in the ledger by the readers now
+  at work): the patch's adds renumbered to the next free `-N`, every reference in the patch and its -more rewritten
+  (chester 35, white-1960 17, preston 20, westmoreland 6, solberg 8, clifford 5, chester-more, humphrey 3,
+  kabaservice 1). The held tables in the book-checks name the old ids: they were mapped through the renumberings.
+- Edits whose base the tree and git no longer know: rewritten as additive ops (cite with the patch's units, to-check,
+  check, src's via rows, names), the rest of the stale note left as the tree has it. An edit on a current base that
+  drops a Check or a cite (the reader's ruling: not borne out, or a Check settled) was held out of the patch and
+  applied by hand on its base after the merge (six-crises 3, white-1960 5, sundquist 1, walls 2, westmoreland 1,
+  suite-3505 1, humphrey 1, navasky 1); where the entry had changed since, rebuilt on the newer note.
+- A note listing several FRUS documents after one label ("FRUS 1961-63, XI, docs. [63](...), [64](...)") made the
+  map's rows for the later documents name nothing: split, a document an item (ball, rusk, westmoreland).
+- The "one event?" flags: about 1,500, read pair by pair. Kept apart: distinct events of one day and thread. Combined
+  (the older or the tree's id kept, the other its alias, the c and n joined by hand, the map rebuilt): the Chicago
+  march of Apr. 27, 1968; Humphrey at the Press Club, June 20, 1968; McCarthy at Davis, May 28, 1968; Humphrey's China
+  statement, July 12, 1968; the Hilton raid, Aug. 30, 1968; Unruh's motion, Aug. 26, 1968; the platform hearings'
+  opening (Aug. 19, CQ's Aug. 20 a Check); Pigasus, Aug. 23, 1968; Clifford's arrival in Saigon, July 14, 1968; Burke's
+  debrief of the NSC, May 5, 1961; the Tyson meeting, Apr. 12, 1962; the Senate's rules ruling, Jan. 28, 1963; *Meet
+  the Press*, July 10, 1960; Nam Dong, July 6, 1964. Left apart, for a reader: the Cabinet of Apr. 20, 1961, in two
+  entries (`cal.1961-04-20.vietnam`, the Gilpatric task force; `cal.1961-04-20.cuba-2`, Bowles's notes): one meeting.
+- Field conflicts: notes joined by the merge (notemerge); maps joined, their letters checked against the entry's units
+  and shifted where a reader had inserted a unit before others (cal.1960-11-14.transition-and-staff,
+  1963-06.republican-party, 1965-02-10.vietnam, 1964-05-24.vietnam); four c conflicts on press conferences where two
+  readers each appended (both kept).
+- The book-checks' "For entries in pending patches" tables applied as cites once their entries landed (Chester,
+  Solberg, Bissell, Clifford, Kabaservice, Mann, MACV, Westmoreland, White, Sorensen, Rusk, Sundquist); Chester's
+  Sept. 29, 1968 entry (`cal.1968-09-29.elections-1968-3`, Solberg's row) was never written: Solberg's pinpoint
+  (382-83) not applied.
+- b3-preston: its reader registered none of the records its 543 `via` rows name (no cited-records file, no witnesses):
+  the rows dropped; the records stand in the notes' "To check:". A reader should register them (R35-R43) and map them.
+- Leads copied into `notes/leads.md` under their headings, a section a book (sundquist, solberg, humphrey were in
+  already); no book-check had "## The press".
+- Small mends on the way: Lundahl, Sevareid out of Names (no entries); Ginsburg (not Ginsberg) in two Humphrey
+  entries; diacritics; seasons written month first ("Mar., spring"); a thread that does not exist taken out of `also`;
+  `name:nolting-frederick-e-jr`, `name:smith-bromley-k`, `w.galbraith-ambassadors-journal`.
+- The Oct. 31 CQ reader's held cite on Reagan before the Platform Committee (Aug. 2 issue) applied when Chester's
+  entry landed; its lead taken out of `notes/leads.md`.
+- In the first commits the readers' new `inbox/new-entries.tsv` lines and `inbox/2026-11-03-witness-test.yaml` were
+  swept in by `git add -u inbox/` (f65afd5, 481e1df, 4624b62): the files as the readers left them, nothing changed.
+
