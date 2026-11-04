@@ -184,13 +184,14 @@ entries:
     date: '1961-10-06'
     thread: berlin-and-vienna
     c: Gromyko at the White House. Berlin; no movement.
-    n: '[FRUS 1961–63, XIV, doc. 170](https://history.state.gov/historicaldocuments/frus1961-63v14/d170). [[w.reeves-president-kennedy]], 239. To check: *Time*, Oct. 13, 1961 (cited by [[w.reeves-president-kennedy]], 239). See [[cal.1961-06-03.berlin-and-vienna]]. Names: Gromyko.'
+    n: '[FRUS 1961–63, XIV, doc. 170](https://history.state.gov/historicaldocuments/frus1961-63v14/d170). [[w.reeves-president-kennedy]], 239; [[w.sorensen-kennedy]], 599 ("You have offered to trade us an apple for an orchard"). To check: *Time*, Oct. 13, 1961 (cited by [[w.reeves-president-kennedy]], 239). See [[cal.1961-06-03.berlin-and-vienna]]. Names: Gromyko.'
     src:
       c: e2ad09e3
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v14/d170: all'
         - 'w.reeves-president-kennedy 239: all'
         - 'via w.reeves-president-kennedy 239 n.gromyko-came-to-the-white-house: all'
+        - 'w.sorensen-kennedy 599: A, B, C'
     tags: [name:gromyko-andrei]
   - id: cal.1961-10-06.africa
     when: Oct. 6
@@ -341,6 +342,18 @@ entries:
         - 'w.preston-war-council 90: B'
         - 'via w.preston-war-council 90 n.41c: B'
     tags: [name:taylor-maxwell, name:kennedy-john-f, name:rostow-walt-w]
+  - id: cal.1961-10-11.foreign-aid
+    when: Oct. 11
+    date: '1961-10-11'
+    thread: foreign-aid
+    c: 'News conference. The signing statement''s words on the needs of countries that share "our view of the world crisis," explained: that view is that countries are entitled to national sovereignty and independence; no string of agreement attached to the aid.'
+    n: 'The President''s News Conference, [1961 Pub. Papers 656](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=714) (Oct. 11, 1961), at 661. [[w.sorensen-kennedy]], 538 (the statement written in anger at Belgrade; the answer). See [[cal.1961-09-04.foreign-aid]]. Names: Kennedy.'
+    src:
+      c: c874a1b9
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=714: all'
+        - 'w.sorensen-kennedy 538: all'
+    tags: [name:kennedy-john-f]
   - id: cal.1961-10-12.civil-rights-organizations
     when: Oct. 12
     date: '1961-10-12'
@@ -354,6 +367,18 @@ entries:
         - 'w.branch-parting-the-waters 557: all'
         - 'via w.branch-parting-the-waters 557 n.3: all'
     tags: [name:evers-medgar, name:wilkins-roy, name:king-martin-luther-jr, name:moses-robert-p, name:hardy-john, state:ms]
+  - id: cal.1961-10-12.right-and-the-military
+    when: Oct. 12
+    date: '1961-10-12'
+    thread: right-and-the-military
+    c: 'Chapel Hill, N.C., the University of North Carolina, an honorary degree: firmness and flexibility; "while we do not intend to see the free world give up, we shall make every effort to prevent the world from being blown up."'
+    n: 'Address at the University of North Carolina Upon Receiving an Honorary Degree, [1961 Pub. Papers 666](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=724) (Oct. 12, 1961), at 668. [[w.sorensen-kennedy]], 511. See [[cal.1961-11-16.right-and-the-military]]. Names: Kennedy.'
+    src:
+      c: 8d4315af
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=724: all'
+        - 'w.sorensen-kennedy 511: all'
+    tags: [name:kennedy-john-f, state:nc]
   - id: cal.1961-10-13.peace-corps
     when: Oct. 13
     date: '1961-10-13'
@@ -421,13 +446,14 @@ entries:
     thread: soviet-union
     also: [berlin-and-vienna, laos]
     c: 'Kennedy''s reply to Khrushchev''s private letter: a settlement in Laos would ease the way on Berlin; the attacks on South Vietnam from Laotian territory a grave threat.'
-    n: 'FRUS 1961–63, VI, doc. [22](https://history.state.gov/historicaldocuments/frus1961-63v06/d22); V, doc. [125](https://history.state.gov/historicaldocuments/frus1961-63v05/d125). [[w.fursenko-khrushchevs-cold-war]], 398 (Kennedy''s reply; nothing comes of the exchange). See [[cal.1961-09-29.soviet-union]]. Names: Kennedy, Khrushchev.'
+    n: 'FRUS 1961–63, VI, doc. [22](https://history.state.gov/historicaldocuments/frus1961-63v06/d22); V, doc. [125](https://history.state.gov/historicaldocuments/frus1961-63v05/d125). [[w.fursenko-khrushchevs-cold-war]], 398 (Kennedy''s reply; nothing comes of the exchange); [[w.sorensen-kennedy]], 553 (the reply, finished at Cape Cod some two weeks after the letter; a private correspondence welcomed). See [[cal.1961-09-29.soviet-union]]. Names: Kennedy, Khrushchev.'
     src:
       c: 42761daf
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v06/d22: all'
         - 'https://history.state.gov/historicaldocuments/frus1961-63v05/d125: all'
         - 'w.fursenko-khrushchevs-cold-war 398: A'
+        - 'w.sorensen-kennedy 553: A'
     tags: [name:kennedy-john-f, name:khrushchev-nikita-s]
   - id: cal.1961-10-16.king
     when: Oct. 16
@@ -717,7 +743,7 @@ entries:
     thread: berlin-and-vienna
     also: [robert-kennedy]
     c: Soviet and American tanks face each other at Checkpoint Charlie. Sixteen hours. The Soviets pull back first, after Robert Kennedy's word through Bolshakov.
-    n: 'FRUS 1961–63, XIV, docs. [195](https://history.state.gov/historicaldocuments/frus1961-63v14/d195), [196](https://history.state.gov/historicaldocuments/frus1961-63v14/d196). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 165–66 (the tanks; sixteen hours; the Soviets'' withdrawal first); [[w.poole-joint-chiefs-of-staff]], 157 (the tanks at Checkpoint Charlie); [[w.schlesinger-robert-kennedy-and-his]], 500 (Robert Kennedy''s word through Bolshakov, by his account); [[w.fursenko-khrushchevs-cold-war]], 403–4 (ten Soviet tanks, then thirty; their markings removed; Khrushchev withdraws his first, before 11:30 a.m. Moscow time Oct. 28: "I knew Kennedy was looking for a way to back down"). Check. [[w.reeves-president-kennedy]], 249–51 (the tanks; Robert Kennedy through Bolshakov). [[w.fursenko-one-hell-of-a]], 249 (the messages through Bolshakov in the Berlin standoff, in passing). To check: [[w.kempe-berlin-1961]]; [[w.garthoff-berlin-1961]]; Robert Kennedy, oral history interview by John Bartlow Martin, Mar. 1, 1964, I, 45, JFK Library (cited by [[w.schlesinger-robert-kennedy-and-his]], 500 n.9); Pierre Salinger, oral history, 197–98, Kennedy Library (cited by [[w.reeves-president-kennedy]], 251). Names: Robert F. Kennedy, Bolshakov. Check: Reeves has the Soviet tanks back off "twenty hours later," the morning of Oct. 28 (251).'
+    n: 'FRUS 1961–63, XIV, docs. [195](https://history.state.gov/historicaldocuments/frus1961-63v14/d195), [196](https://history.state.gov/historicaldocuments/frus1961-63v14/d196). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 165–66 (the tanks; sixteen hours; the Soviets'' withdrawal first); [[w.poole-joint-chiefs-of-staff]], 157 (the tanks at Checkpoint Charlie); [[w.schlesinger-robert-kennedy-and-his]], 500 (Robert Kennedy''s word through Bolshakov, by his account); [[w.fursenko-khrushchevs-cold-war]], 403–4 (ten Soviet tanks, then thirty; their markings removed; Khrushchev withdraws his first, before 11:30 a.m. Moscow time Oct. 28: "I knew Kennedy was looking for a way to back down"); [[w.sorensen-kennedy]], 595. Check. [[w.reeves-president-kennedy]], 249–51 (the tanks; Robert Kennedy through Bolshakov). [[w.fursenko-one-hell-of-a]], 249 (the messages through Bolshakov in the Berlin standoff, in passing). To check: [[w.kempe-berlin-1961]]; [[w.garthoff-berlin-1961]]; Robert Kennedy, oral history interview by John Bartlow Martin, Mar. 1, 1964, I, 45, JFK Library (cited by [[w.schlesinger-robert-kennedy-and-his]], 500 n.9); Pierre Salinger, oral history, 197–98, Kennedy Library (cited by [[w.reeves-president-kennedy]], 251). Names: Robert F. Kennedy, Bolshakov. Check: Reeves has the Soviet tanks back off "twenty hours later," the morning of Oct. 28 (251).'
     src:
       c: 6ff14d0f
       rows:
@@ -731,6 +757,7 @@ entries:
         - 'via w.reeves-president-kennedy 251 n.khrushchev-had-given-the-order: C'
         - 'w.fursenko-one-hell-of-a 249: C'
         - 'w.fursenko-khrushchevs-cold-war 403–4: A, C'
+        - 'w.sorensen-kennedy 595: A'
     tags: [name:kennedy-robert-f, name:bolshakov-georgi]
   - id: cal.1961-10-27.mississippi
     when: Oct. 27

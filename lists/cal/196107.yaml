@@ -484,15 +484,18 @@ entries:
     when: July 19
     date: '1961-07-19'
     thread: transition-and-staff
-    c: 'Press conference: he has never asked for Bowles''s resignation, nor has Bowles offered it; "I have a high regard for Mr. Bowles."'
-    n: 'The President''s News Conference, [1961 Pub. Papers 513](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=571), 518–19 (July 19, 1961). [[w.schlesinger-thousand-days-1965]], 442. [[w.sorensen-kennedy]], 289 (the press conference). See [[cal.1961-07-17.transition-and-staff]]. Names: Kennedy, Bowles.'
+    also: [berlin-and-vienna, soviet-union]
+    c: 'Press conference: he has never asked for Bowles''s resignation, nor has Bowles offered it; "I have a high regard for Mr. Bowles." Asked of Menshikov''s reported remark that the United States would not fight for Berlin: West Berlin "a very basic issue," and "we intend to honor our commitments."'
+    n: 'The President''s News Conference, [1961 Pub. Papers 513](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=571) (July 19, 1961), at 518–19 (Bowles), 520 (Menshikov). [[w.schlesinger-thousand-days-1965]], 442 (Bowles''s regard). [[w.sorensen-kennedy]], 289 (the press conference on Bowles); [[w.sorensen-kennedy]], 586 (Menshikov; the Ambassador departing; "when the chips are down"). See [[cal.1961-07-17.transition-and-staff]]. Names: Kennedy, Bowles, Menshikov.'
     src:
-      c: dbce5b20
+      c: 1b678b1f
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=571: all'
         - 'w.schlesinger-thousand-days-1965 442: B'
         - 'w.sorensen-kennedy 289: A'
-    tags: [name:kennedy-john-f, name:bowles-chester]
+        - 'w.sorensen-kennedy 586: C'
+    tags: [name:kennedy-john-f, name:bowles-chester, name:menshikov-mikhail]
+    aliases: [cal.1961-07-19.berlin-and-vienna-3]
   - id: cal.1961-07-19.democratic-party
     when: July 19
     date: '1961-07-19'
@@ -730,7 +733,7 @@ entries:
     thread: berlin-and-vienna
     also: [defense, economy]
     c: 'Report to the nation on Berlin. $3.25 billion more for defense; reserves to be called; draft calls tripled; fallout shelters. No new taxes: a temporary increase, which Kennedy had favored, dropped after Heller and Samuelson argued it would choke the recovery. No direct challenge to the Soviet zone.'
-    n: 'Radio and Television Report to the American People on the Berlin Crisis, [1961 Pub. Papers 533](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=591) (July 25, 1961). [[w.schlesinger-thousand-days-1965]], 391–92 (the requests); [[w.sorensen-kennedy]], 399–400, 591 (the tax increase dropped on the economic advisers'' case; the drafting); [[w.sundquist-politics-and-policy]], 39 (the tax increase dropped); [[w.fursenko-khrushchevs-cold-war]], 372, 376–77 ($3.25 billion; "And so was Bastogne"; the handwritten close; the Oval Office "like an oven"). The taxes: NSC minutes, July 19, 1961, [FRUS 1961–63, XIV, doc. 77](https://history.state.gov/historicaldocuments/frus1961-63v14/d77); [[w.stein-fiscal-revolution-in-america]], 391, 403 (the tax increase considered and dropped on the economists'' advice). The Republican leaders on Berlin and the budget: Joint Senate–House Republican Leadership minutes, July 27, 1961 (Dirksen Congressional Center; Opp. II.J). [[w.fursenko-one-hell-of-a]], 137–38. To check: [[w.heller-new-dimensions-of-political]], 32. See [[cal.1961-06-03.berlin-and-vienna]]. Recording (K–J Adm. II.I). Names: Kennedy, Heller, Samuelson, Nitze, Acheson. Check: who argued against the tax increase.'
+    n: 'Radio and Television Report to the American People on the Berlin Crisis, [1961 Pub. Papers 533](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=591) (July 25, 1961). [[w.schlesinger-thousand-days-1965]], 391–92 (the requests); [[w.sorensen-kennedy]], 399–400, 591 (the tax increase dropped on the economic advisers'' case; the drafting); [[w.sundquist-politics-and-policy]], 39 (the tax increase dropped); [[w.fursenko-khrushchevs-cold-war]], 372, 376–77 ($3.25 billion; "And so was Bastogne"; the handwritten close; the Oval Office "like an oven"); [[w.sorensen-kennedy]], 590–92 (the decisions of July 19; the drafting); [[w.sorensen-kennedy]], 614. The taxes: NSC minutes, July 19, 1961, [FRUS 1961–63, XIV, doc. 77](https://history.state.gov/historicaldocuments/frus1961-63v14/d77); [[w.stein-fiscal-revolution-in-america]], 391, 403 (the tax increase considered and dropped on the economists'' advice). The Republican leaders on Berlin and the budget: Joint Senate–House Republican Leadership minutes, July 27, 1961 (Dirksen Congressional Center; Opp. II.J). [[w.fursenko-one-hell-of-a]], 137–38. To check: [[w.heller-new-dimensions-of-political]], 32. See [[cal.1961-06-03.berlin-and-vienna]]. Recording (K–J Adm. II.I). Names: Kennedy, Heller, Samuelson, Nitze, Acheson. Check: who argued against the tax increase.'
     src:
       c: 5b1e7338
       rows:
@@ -743,6 +746,8 @@ entries:
         - 'w.sorensen-kennedy 399–400, 591: A, E'
         - 'w.sundquist-politics-and-policy 39: E'
         - 'w.fursenko-khrushchevs-cold-war 372, 376–77: all'
+        - 'w.sorensen-kennedy 590–92: A, B, C'
+        - 'w.sorensen-kennedy 614: D'
     tags: [name:kennedy-john-f, name:nitze-paul, name:acheson-dean-g, name:heller-walter-w, name:samuelson-paul-a]
     aliases: [cal.1961-07-25.economy]
   - id: cal.1961-07-26.berlin-and-vienna

@@ -20,12 +20,14 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1960-10-31 | the correspondents with Kennedy | the wire file (Western Union) | 90,000 words a day, from an average of 60,000, Oct. 31–Nov. 7 | White, *Making of the President 1960*, 324 n.2
 1960-11 | *Wall Street Journal*; *New York Daily News* | item | Rockefeller blamed for Nixon's loss ("Nixon's Lonely Battle," *WSJ*, Oct. 28) | Smith, *On His Own Terms*, 350
 1960-11-10 | the morning papers (unnamed) | stories | Nixon's remarks at Andrews the night before, quoted | Nixon, *Six Crises*, 401
+1961-01 | *New York Times* (Reston) | column | live televised press conferences "the goofiest idea since the hula hoop" | Sorensen, *Kennedy*, 322–23
 1961-01-23 | *U.S. News and World Report* | article | "Goldwater's Platform for 'The Forgotten American'" | Goldberg, *Barry Goldwater*, 151 n.11
 1961-01-27 | *Human Events* | article | "The Forgotten American," parts 1 and 2 | Goldberg, *Barry Goldwater*, 151 n.11
 1961-02-06 | *Washington Evening Star* | headlines | McNamara: no missile gap | McNamara, *In Retrospect*, ch. 1
 1961-02-07 | *New York Times* | front page | McNamara: no missile gap | McNamara, *In Retrospect*, ch. 1
 1961-03-25 | *Business Week* | article | "Apostle of Conservatism": Goldwater "as handsome as a movie star" | Goldberg, *Barry Goldwater*, 149 n.2
 1961-07-03 | *New York Times* | front page | "Operation Goldwater" | Goldberg, *Barry Goldwater*, 149 n.1
+1961-08-30 | *Time* | story | the Bay of Pigs: Rusk canceled the air support, the President backing him (condensed from *Fortune*) | Sorensen, *Kennedy*, 316
 1961-11-20 | *Syracuse Herald-Journal* | item | "Too Much," on the separation | Smith, *On His Own Terms*, 365
 1961-12-13 | *New York Daily News* | item | Rockefeller "on the brink of resignation" | Smith, *On His Own Terms*, 370
 1961-12-19 | New York Herald Tribune | story | the Albany truce "a devastating loss of face" for King (entered) | Branch, *Parting the Waters*, 557
@@ -34,6 +36,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1962 | *New York Times* | item | editorial on the budget: "Maybe" | Smith, *On His Own Terms*, 382
 1962-04 | *Confidential* | item | the Rockefeller-Murphy romance | Smith, *On His Own Terms*, 406
 1962-04-12 | the *Wall Street Journal* (John Lawrence), the AP (Lee Linder) and the *Wilmington Evening Journal* (James L. Parks Jr.) | stories | the FBI's calls on the reporters; Linder's story | Guthman, *We Band of Brothers*, 233–34
+1962-05 | *New York Herald Tribune* | front pages | speculative stories on Billie Sol Estes; the stockpile errors not covered | Sorensen, *Kennedy*, 317
 1962-06 | *The New Yorker* | serial | *Silent Spring* serialized | Bernstein, *Guns or Butter*, 263
 1962-07-11 | New York Times and papers across the country | front page | King's jailing at Albany, under the Telstar story; the Times recalls the jailing of 1960 | Branch, *Parting the Waters*, 601–2
 1962-07-12 | Albany Herald | front page | "King Languishes in Bastille" (Branch puts it with the jailing); "Mayor Stays Mum" | Branch, *Parting the Waters*, 602, 607
@@ -55,6 +58,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1962-11-07 | *Washington Post* | item | Kellet-Long, the Peking reception | Fursenko and Naftali, *Khrushchev's Cold War*, 496
 1962-11-08 | *Washington Post* | item | "Soviet Policy on Cuba Is Attacked by Albania" | Fursenko and Naftali, *Khrushchev's Cold War*, 496
 1962-11-09 | *New York Times* | item | Hamilton, "Cuba Bars Return of Soviet Planes" (Lechuga) | Fursenko and Naftali, *Khrushchev's Cold War*, 499
+1962-12-08 | *Saturday Evening Post* (Bartlett and Stewart Alsop) | article | the missile crisis; Stevenson | Sorensen, *Kennedy*, 315
 1963 | *Dallas Morning News* | item | on Rockefeller's fees | Smith, *On His Own Terms*, 393
 1963 | *New Republic*, Kempton | item | "He Has It If He Wants It, and He Does" | Smith, *On His Own Terms*, 394
 1963-01-19 | *The New Yorker* | article | Dwight MacDonald, "Our Invisible Poor" (entered) | Bernstein, *Guns or Butter*, 92
@@ -88,6 +92,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-05-19 | New York Post | Sunday, two pages | King's "Letter from Birmingham Jail" (entered) | Branch, *Parting the Waters*, 804
 1963-06 | Liberation; Christian Century (June 12); The Witness; Friends; The Mennonite | covers | the "Letter from Birmingham Jail" | Branch, *Parting the Waters*, 804
 1963-06 | *New Republic*, TRB | item | "He is through" | Smith, *On His Own Terms*, 408
+1963-06 | *Manchester Guardian* | editorial | the American University address "one of the great state papers of American history" | Sorensen, *Kennedy*, 733
 1963-06-10 | New York Times | front page | King: the bill wasted if the President leaves for Europe; a march on Washington (entered) | Branch, *Parting the Waters*, 822
 1963-06-12 | the world's papers | front pages | Browne's photograph of Thích Quảng Đức | Bernstein, *Guns or Butter*, 327
 1963-06-17 | New York Times | front page | Bundy on television defends the President's trip to Europe | Branch, *Parting the Waters*, 841

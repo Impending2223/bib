@@ -197,7 +197,14 @@ entries:
     date: '1962-12-06'
     thread: press-and-broadcasting
     c: 'Sylvester, Pentagon spokesman, at the Sigma Delta Chi dinner in New York: "inherent in that government''s right, if necessary, to lie to save itself when it''s going up into a nuclear war." "Managed news."'
-    n: 'His remarks, as taped by ABC and transcribed by the American Newspaper Publishers Association: [109 Cong. Rec., Senate, Jan. 24, 1963](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt1/pdf/GPO-CRECB-1963-pt1-11-1.pdf), 899–903, at 902. His testimony of Mar. 12, 1963, quoted: [109 Cong. Rec., Senate, Mar. 14, 1963](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt3/pdf/GPO-CRECB-1963-pt3-14-2.pdf), 4280–81. News Conference, [1963 Pub. Papers 148](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=206) (Feb. 7, 1963). To check: [[w.salinger-with-kennedy]]. See [[cal.1961-01-25.press-and-broadcasting]]. Names: Sylvester.'
+    n: 'His remarks, as taped by ABC and transcribed by the American Newspaper Publishers Association: [109 Cong. Rec., Senate, Jan. 24, 1963](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt1/pdf/GPO-CRECB-1963-pt1-11-1.pdf), 899–903, at 902. His testimony of Mar. 12, 1963, quoted: [109 Cong. Rec., Senate, Mar. 14, 1963](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt3/pdf/GPO-CRECB-1963-pt3-14-2.pdf), 4280–81. News Conference, [1963 Pub. Papers 148](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=206) (Feb. 7, 1963). [[w.sorensen-kennedy]], 321. To check: [[w.salinger-with-kennedy]]. See [[cal.1961-01-25.press-and-broadcasting]]. Names: Sylvester.'
+    src:
+      c: c4a0effe
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt1/pdf/GPO-CRECB-1963-pt1-11-1.pdf: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt3/pdf/GPO-CRECB-1963-pt3-14-2.pdf: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=206: all'
+        - 'w.sorensen-kennedy 321: A'
     tags: [name:sylvester-arthur]
   - id: cal.1962-12.missile-crisis
     when: Dec.
@@ -433,6 +440,19 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=926: all'
         - 'w.reeves-president-kennedy 444: all'
     tags: [name:kennedy-john-f]
+  - id: cal.1962-12-12.press-and-broadcasting
+    when: Dec. 12
+    date: '1962-12-12'
+    thread: press-and-broadcasting
+    also: [missile-crisis]
+    c: 'News conference, on the articles of Stevenson''s part in the Executive Committee: Stevenson "renders very distinguished service." "I''m going to keep my old friends. But I am responsible for many things under the Constitution, but not for what they write."'
+    n: 'The President''s News Conference, [1962 Pub. Papers 866](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=926) (Dec. 12, 1962), at 873. [[w.sorensen-kennedy]], 315 (the answer, of the Bartlett and Stewart Alsop article; to Sorensen later: "I''ve never told Bartlett what to write, so I can''t start telling him what not to write"). See [[cal.1962-12.missile-crisis]]. Names: Stevenson, Kennedy.'
+    src:
+      c: 1339cd9b
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=926: all'
+        - 'w.sorensen-kennedy 315: B'
+    tags: [name:kennedy-john-f, name:stevenson-adlai-e, name:bartlett-charles, name:alsop-stewart]
   - id: cal.1962-12-13.legislatures-us
     when: Dec. 13
     date: '1962-12-13'
@@ -1266,3 +1286,38 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 290: all'
     tags: [name:cohen-wilbur-j, name:kennedy-john-f, name:flemming-arthur-s]
+  - id: cal.1962-12.press-and-broadcasting
+    when: Dec.
+    date: 1962-12
+    thread: press-and-broadcasting
+    c: 'Palm Beach, the Christmas holiday, as the year before. Kennedy''s background session with the regular White House correspondents, three to four hours: the year behind and the year ahead.'
+    n: '[[w.sorensen-kennedy]], 327–28. See [[cal.1961-12.press-and-broadcasting]]. Check: the day. Names: Kennedy.'
+    src:
+      c: 5c6d1c94
+      rows:
+        - 'w.sorensen-kennedy 327–28: all'
+    tags: [name:kennedy-john-f]
+  - id: cal.1962-12.press-and-broadcasting-2
+    when: Dec.
+    date: 1962-12
+    thread: press-and-broadcasting
+    c: 'After Sylvester''s words on the right to lie. Kennedy has Sorensen draft a letter for Sylvester to sign: they "should have been more carefully phrased and considered"; the President''s and the Department''s abhorrence of censorship. Sylvester refuses to sign it.'
+    n: '[[w.sorensen-kennedy]], 321. See [[cal.1962-12-06.press-and-broadcasting]]. Check: the day. Names: Sylvester, Sorensen, Kennedy.'
+    src:
+      c: ab414327
+      rows:
+        - 'w.sorensen-kennedy 321: all'
+        - 'via x.1962-12.sorensen-draft-letter-for-sylvester: B'
+    tags: [name:kennedy-john-f, name:sylvester-arthur, name:sorensen-theodore-c]
+  - id: cal.1962-12.defense
+    when: Dec., late
+    date: 1962-12
+    thread: defense
+    also: [europe-and-the-alliance]
+    c: After Nassau, Kennedy at Palm Beach. An Air Force spokesman in Washington announces a successful Skybolt test, to the embarrassment and anger of both governments; McHugh, the President's Air Force aide, brings him "the good news."
+    n: '[[w.sorensen-kennedy]], 607. See [[cal.1962-12-18.europe-and-the-alliance]]. Check: the day. Names: Kennedy.'
+    src:
+      c: 9f170cf6
+      rows:
+        - 'w.sorensen-kennedy 607: all'
+    tags: [name:kennedy-john-f]

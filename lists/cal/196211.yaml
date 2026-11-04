@@ -1015,7 +1015,13 @@ entries:
     thread: south-asia
     also: [china]
     c: 'Nehru asks for American air squadrons. Arms already flying; Harriman''s mission to New Delhi. Nov. 21: China''s cease-fire and withdrawal.'
-    n: 'FRUS 1961–63, XIX, docs. [203](https://history.state.gov/historicaldocuments/frus1961-63v19/d203), [205](https://history.state.gov/historicaldocuments/frus1961-63v19/d205). News Conference, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962). To check: [[w.galbraith-ambassadors-journal]]; [[w.riedel-jfks-forgotten-crisis]]. See [[cal.1961-12-18.india-and-china]]. Names: Nehru, Harriman, Galbraith.'
+    n: 'FRUS 1961–63, XIX, docs. [203](https://history.state.gov/historicaldocuments/frus1961-63v19/d203), [205](https://history.state.gov/historicaldocuments/frus1961-63v19/d205). News Conference, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962). [[w.sorensen-kennedy]], 663. To check: [[w.galbraith-ambassadors-journal]]; [[w.riedel-jfks-forgotten-crisis]]. See [[cal.1961-12-18.india-and-china]]. Names: Nehru, Harriman, Galbraith.'
+    src:
+      c: 026a4da5
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v19/d203: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890: all'
+        - 'w.sorensen-kennedy 663: B, C'
     tags: [name:harriman-w-averell, name:nehru-jawaharlal, name:galbraith-john-kenneth]
   - id: cal.1962-11-19.oil
     when: Nov. 19
@@ -1097,15 +1103,18 @@ entries:
     when: Nov. 20
     date: '1962-11-20'
     thread: missile-crisis
-    c: Quarantine lifted, at the press conference.
-    n: News Conference, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962). [[w.fursenko-one-hell-of-a]], 310; [[w.fursenko-khrushchevs-cold-war]], 503. See [[cal.1962-05-24.missile-crisis]].
+    also: [press-and-broadcasting]
+    c: 'Quarantine lifted, at the press conference. Asked of Collins, of the National Association of Broadcasters, charging State and Defense with news suppression in the Cuban crisis: "I have no apologies"; the news "dribbled out" before the response was settled and the allies consulted would have been "a great mistake and possibly a disaster." One newspaper learned details the Sunday and did not print them.'
+    n: 'The President''s News Conference, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962), at 830 (the quarantine), 834 (Collins). [[w.fursenko-one-hell-of-a]], 310 (the quarantine); [[w.fursenko-khrushchevs-cold-war]], 503 (the quarantine). [[w.sorensen-kennedy]], 321–22 (the answer on Collins). See [[cal.1962-05-24.missile-crisis]], [[cal.1962-10-22.missile-crisis]]. Names: Collins, Kennedy.'
     src:
-      c: ff80548d
+      c: d66c7bf0
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890: all'
-        - 'w.fursenko-one-hell-of-a 310: all'
-        - 'w.fursenko-khrushchevs-cold-war 503: all'
-    tags: [name:kennedy-john-f]
+        - 'w.fursenko-one-hell-of-a 310: A'
+        - 'w.fursenko-khrushchevs-cold-war 503: A'
+        - 'w.sorensen-kennedy 321–22: B'
+    tags: [name:kennedy-john-f, name:collins-leroy]
+    aliases: [cal.1962-11-20.press-and-broadcasting]
   - id: cal.1962-11-20.civil-rights-the-executive
     when: Nov. 20
     date: '1962-11-20'

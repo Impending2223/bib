@@ -2030,6 +2030,9 @@ Rights in Conflict (Walker Report):
 - Propose Part III entries for Ripley, Stevens, Hirshhorn, Keeney, Heckscher, George Wiley, Elizabeth Wickenden, Maurice
   Donahue (no name entries).
 
+### Sorensen, *Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/sorensen-kennedy.md)
+- The days of the leads in the third run's Passed over (Sorensen gives none; the calendar of the month to be read for each): Kennedy's order changing the *Fortune* writer's Air Force post (316 n.3); the sessions with Luce and the *Time* study (317); the publishers' committee of May 1961 (321); the news-contact restrictions of Oct. 1962 and the rule for aides (321); the USIA polls' release (322); the state-by-state White House luncheons with editors (327); Ellis's plan to see the Pope on church shelters, 1961 (613); Teller's $50 billion shelters (615); the shelter booklet toned down, Dec. 1961 (616); the Republican leadership seminars, Jan. 1962 (324); the news conference of Apr. 3, 1963 on Khrushchev's standing (555); Neustadt's Skybolt study, 1963 (569).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -3186,6 +3189,10 @@ CQ Weekly Report, 1968-08-30:
 - Trujillo's contract with Igor Cassini (Woods 307): the Dominican files Pincus photographed; Cassini's indictment's
   day (1963).
 - The Thai Foreign Minister's statement of Dec. 1967: its day and words.
+
+### Sorensen, *Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/sorensen-kennedy.md)
+- The Azores lease and Portugal's pressure (538 n.3); the four accidental penetrations of Soviet air space (541 n.1); Bolshakov's letter in a folded newspaper, a Berlin concession (554); Macmillan's anger at the Hawk offer to Israel (558); the Skipjack sale withdrawn (572); Diefenbaker's staff paper (575); the Pakistani Ambassador's tirade (664); Kennedy's letter to Diem, late summer 1963 (658); Acheson's letter after the crisis (719); the Joint Chiefs' written views on Laos (644–45); Macmillan's letter on testing, early 1962 (622).
+- The pages 593–746 listed in the third run's Passed over as "not checked": a fourth run to set each against its day and cite or enter it (Laos and Vietnam, 639–61; China, India and Pakistan, 661–66; the missile crisis's dense days, 697–718; the aftermath, 719–28; the test ban's ratification and the wheat sale, 729–46; Berlin's later incidents, 593–600).
 
 ## The Executive roster
 
