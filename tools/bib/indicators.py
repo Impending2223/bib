@@ -19,7 +19,7 @@ STYLE (settled; keep it, and fix anything that drifts from it):
     tools/bib/indchart.py, STYLE 1). Gallup's approval (kind: poll) in a table
     of its own under it (and under Money and credit, 13), set off by a double gray rule, centered, three-quarters of the table's width (the last row above a rule has none)
     and its own caption ("Presidential approval, Gallup"; the first table's
-    "Economic indicators"), on the same plan: Reading (with the field dates) | As published | Released | Today. "Released" is the date the
+    "Economic indicators"; every caption centered, the owner, Nov. 4, 2026), on the same plan: Reading (with the field dates) | As published | Released | Today. "Released" is the date the
     first-reported figure was published (or the Economic Report transmitted); its source shows on
     hover.
  2. Periods: "Mar. 1961", "Q1 1961", "FY1962" (July 1961-June 1962), "1961".
@@ -72,9 +72,9 @@ STYLE (settled; keep it, and fix anything that drifts from it):
     1962-02"), shown "Feb. 1962".
 15. Oil (oil-*): a table of its own under the indicators, before Money and credit, without vacant columns; its cells
     in millions of barrels a day, with changes; STYLE in tools/bib/oil.py.
-16. The war (war-*, kind: war): not in the month's tables. A table of its own under the first Thursday of the next
-    month, in the day layout (the owner's request, Oct. 22, 2026; tools/bib/wartable.py, its STYLE); its cells in
-    tools/bib/war.py.
+16. Southeast Asia (war-*, kind: war): not in the month's tables. A table of its own, "Southeast Asia, Jan. 1966", under
+    the first Monday of the month its figures refer to, in the day layout, its caption and background these tables'
+    (the owner's requests, Oct. 22 and Nov. 4, 2026; tools/bib/wartable.py, its STYLE); its cells in tools/bib/war.py.
 17. Money, the foreign accounts and the debt's terms (tools/bib/finance.py, its STYLE; written by
     tools/indicators/make_finance.py): the money stock and free reserves in a group "Money and credit" of the indicators
     table, the yields and mortgage rates in the Money and credit table (13); reserve assets and the trade balances under
@@ -85,8 +85,8 @@ STYLE (settled; keep it, and fix anything that drifts from it):
     link, routed by calsplit.route), in the thread line's style (build.thread_nav: .tnb, muted, not underlined), the
     target's date on hover, the year added where it differs; none at the first or the last. They are: the month's set
     (one pair, on its first caption, Economic indicators: tbl-ind-<section>; Oil, Exchange rates and gold, Money and
-    credit and Presidential approval are its divisions, under ruled lines, and take none), the war table
-    (tools/bib/wartable.py, STYLE 8), the budget (tools/bib/budgets.py, STYLE 7) and Armed Forces Day
+    credit and Presidential approval are its divisions, under ruled lines, and take none), the Southeast Asia table
+    (tools/bib/wartable.py, STYLE 2), the budget (tools/bib/budgets.py, STYLE 7) and Armed Forces Day
     (tools/bib/afday.py, STYLE 5); not the one-off blocks (an election, a bill's course). A column headed "As first
     reported" only where another column holds a later figure: where none does (the exchange rates; Oil's one-figure
     rows, all first reported; a master table), the figure's column goes unheaded, or "Figure".
@@ -111,8 +111,12 @@ ORDER = ["cpi", "wpi", "deflator", "unemployment", "payrolls", "industrial-produ
          "federal-primary-balance", "interest-gnp", "public-debt", "debt-gnp", "debt-gdp-omb",
          "balance-of-payments", "balance-of-payments-regular", "balance-of-payments-liquidity",
          "balance-of-payments-official", "gold-stock", "oil-production", "oil-supplied", "oil-trade", "oil-trade-year",
-         "oil-reserves", "war-deaths", "war-strength",
-         "war-enemy-ob", "war-enemy-ob-old", "war-enemy-snie", "war-enemy-strength-q", "war-infiltration", "war-enemy-kia", "war-rvnaf-kia", "war-rvnaf-strength", "war-fwmaf-strength", "war-air-attack", "war-air-nvn-rp", "discount-rate", "federal-funds",
+         "oil-reserves",
+         # Southeast Asia, forces above casualties (tools/bib/wartable.py, STYLE 5)
+         "war-strength", "war-enemy-ob", "war-enemy-ob-old", "war-enemy-snie", "war-enemy-strength-q", "war-infiltration",
+         "war-rvnaf-strength", "war-fwmaf-strength", "war-air-attack", "war-air-nvn-rp",
+         "war-deaths", "war-enemy-kia", "war-rvnaf-kia",
+         "discount-rate", "federal-funds",
          "prime-rate", "treasury-bill", "treasury-10-year", "approval"]
 DERIVED = ["real-bill-cpi", "real-10-cpi", "real-bill", "real-10", "taylor-gap", "rstar-gap", "spread"]
 # real rates (tools/indicators/make_derived.py): computed from the series above; percent or points
@@ -360,7 +364,7 @@ def rows_for(data, lo, hi, prev_to=None, next_from=None):
     far = prev_to is not None and (lo - prev_to).days > 92
     for sid in ORDER + [k for k in data if k not in ORDER]:
         s = data.get(sid)
-        if not s or s.get("kind") == "war":    # The war: a table of its own, on the first Thursday (wartable.py)
+        if not s or s.get("kind") == "war":    # Southeast Asia: a table of its own, on the first Monday (wartable.py)
             continue
         for r in s.get("rows", []):
             end = period_end(r["p"])
@@ -636,7 +640,7 @@ div.ind .per,div.ind .u,div.ind td.rel{color:var(--muted)}
 div.ind td.iname a{color:inherit;text-decoration-color:var(--rule)}
 div.ind .kv{display:inline-grid;grid-template-columns:minmax(3.5em,7.5em) auto;column-gap:.4rem}
 div.ind .kv .v{text-align:right}
-div.ind .ind-cap{margin:0 0 .15rem;font-family:var(--sans);font-size:.72rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+div.ind .ind-cap{margin:0 0 .15rem;font-family:var(--sans);font-size:.72rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;text-align:center}
 div.ind .ind-cap a.tnb,div.ind .ind-cap a.tnb:hover{color:var(--muted);text-decoration:none}
 div.ind:has(+ div.ind) tbody tr:last-child td{border-bottom:0}
 div.ind.ind-sep{margin-top:1.1rem}

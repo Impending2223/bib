@@ -1,6 +1,7 @@
-"""Maps of Vietnam, Laos and Cambodia in the calendar: one a year, 1960–68, at the year's first entry tagged with a
-place in the Republic of Vietnam, showing every entry of the year that is tagged with a place; and the same map, every
-year, on a page of its own (build/indochina.html; STYLE 6).
+"""Maps of Vietnam, Laos and Cambodia in the calendar: one a year, 1960–68, "Southeast Asia 1966", set above the year's
+first Southeast Asia table or, in a year without one, at the year's first entry tagged with a place in the Republic of
+Vietnam (STYLE 8), showing every entry of the year that is tagged with a place; and the same map, every year, on a page
+of its own (build/indochina.html; STYLE 6).
 
 The data (each directory's README): sources/vn-provinces-1966/ (the provinces of late 1966, the gazetteer places.json),
 sources/indochina/ (the one border geometry admin.geojson and the layers, made once by tools/vnmap/). Calendar entries
@@ -54,6 +55,10 @@ STYLE
     (by month, 1961–1990), Population (persons a km², 1960 or 1970: modelled, made later; the legend says so) and
     Cities (the populations the UN Demographic Yearbook printed, 1960–68, each cited by page). The thematic layers
     mute the tints. The credits under the map name every source shown; the page's Sources gives them in full.
+ 8. In the calendar (the owner, Nov. 4, 2026): titled "Southeast Asia 1966" (contents' small capitals, no comma before
+    the year); its caption no second title, the year's count alone. Set immediately above the year's first Southeast
+    Asia table (tools/bib/wartable.py), a day block's anchor (contents.day_mark, the Vietnam thread); in a year without
+    such a table, at the end of the year's first entry placed in the RVN (anchors), as before.
 """
 import hashlib
 import json
@@ -429,8 +434,8 @@ def block(series, y):
     n_pl = len({p for x in ents for p in x["p"]})
     _, _, man = assets()
     return (f'<figure class="vnm" data-geo="{man}" data-y="{y}">'
-            f'<figcaption class="vnm-cap">Vietnam, Laos and Cambodia, {y}: the year\'s {len(ents)} placed entries, at '
-            f'{n_pl} places. Provinces as of late 1966; lines approximate (sources/vn-provinces-1966).</figcaption>'
+            f'<figcaption class="vnm-cap">The year\'s {len(ents)} placed entries, at {n_pl} places, in Vietnam, Laos '
+            'and Cambodia. Provinces as of late 1966; lines approximate (sources/vn-provinces-1966).</figcaption>'
             + _box(f"Map of Vietnam, Laos and Cambodia, {y}", False) +
             '<details class="vnm-list"><summary>The year\'s placed entries</summary>'
             f'<ol></ol></details><p class="vnm-pg">Every year on one map, with the gazetteer: '
@@ -464,9 +469,27 @@ def full_figure(series):
             f'<script type="application/json" class="vnm-d">{_data({"y": "all", "ys": ys}, ents)}</script></figure>')
 
 
+def above_tables(series):
+    """{year: day}: the day of the year's first Southeast Asia table the calendar shows (STYLE 8)."""
+    from . import dayblocks, wartable
+    out = {}
+    for d in wartable.sequence(dayblocks.held_days(series)):
+        out.setdefault(d[:4], d)
+    return out
+
+
 def inject(page, series):
+    from . import dayblocks, wartable
     used = False
+    tables = above_tables(series)
     for y, eid in anchors(series).items():
+        d = tables.get(y)
+        if d:                                   # above the year's first Southeast Asia table (STYLE 8)
+            mark = dayblocks.MARK.format(d)
+            if mark in page:
+                page = page.replace(mark, contents.day_mark("vnmap", y, d, wartable.THREADS) + block(series, y) + mark, 1)
+                used = True
+            continue
         if f'<li id="{eid}"' not in page:
             continue
         blk = block(series, y)

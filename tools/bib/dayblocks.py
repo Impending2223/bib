@@ -4,10 +4,12 @@
                                    entries and before its documents: a placeholder where some block falls on that day
     inject(page, series, mode)     after the indicators (tools/bib/build.py, both chains): the placeholders filled, each
                                    block's anchor registered with the contents (contents.day_mark), the styles added
-    held_days(series)              the days the calendar's dated sections hold
+    held_days(series)              the days the calendar's dated sections hold (held_on_disk: the same, read from
+                                   lists/cal/list.yaml, for the modules that file before a series is loaded)
 
-Two kinds now (the owner's request, Oct. 22, 2026): The war table under the first Thursday of each month
-(tools/bib/wartable.py) and the forces tables under Armed Forces Day (tools/bib/afday.py). A new kind adds itself to
+Two kinds now (the owner's request, Oct. 22, 2026): the Southeast Asia table under the first Monday of the month its
+figures refer to (tools/bib/wartable.py; the year's first with the year's map above it, tools/bib/vnmap.py, STYLE 8) and
+the forces tables under Armed Forces Day (tools/bib/afday.py). A new kind adds itself to
 PROVIDERS (its days, its block for a day) and registers its contents kind in contents.KINDS.
 
 STYLE (keep it):
@@ -15,9 +17,11 @@ STYLE (keep it):
     PROVIDERS' order.
  2. Its anchor (contents.day_mark: a span before the block, as contents.put's) carries the day and its threads, so the
     page's contents and the threads' "Tables and maps" list it like an entry's table (contents.py, STYLE 2 and 4); a
-    provider says which of its blocks are listed (the war table: the first of each year on a page).
- 3. A block is set only on a day a dated section of the calendar holds; check warns on a war table that falls outside
-    them (wartable.problems).
+    provider says which of its blocks are listed (the Southeast Asia table: the first of each year on a page) and
+    whether the anchor brings the small-capital title (Armed Forces Day, with its 〈〈 〉〉) or not (the Southeast Asia
+    table, whose own caption is its title: wartable STYLE 2).
+ 3. A block is set only on a day a dated section of the calendar holds; check warns on a Southeast Asia table that
+    falls outside them (wartable.problems).
 """
 import functools
 import re
@@ -45,6 +49,25 @@ def marker(iso):
     return MARK.format(iso) if iso in _days() else ""
 
 
+@functools.lru_cache(maxsize=1)
+def held_on_disk():
+    """held_days, read from lists/cal/list.yaml's sections (their from and to) without loading the series."""
+    import datetime
+    import os
+    from . import store
+    cfg = store.load_yaml(os.path.join(store.ROOT, "lists", "cal", "list.yaml")) or {}
+    out = set()
+    for s in cfg.get("sections") or []:
+        a, b = s.get("from"), s.get("to")
+        if not (a and b):
+            continue
+        d, e = datetime.date.fromisoformat(str(a)), datetime.date.fromisoformat(str(b))
+        while d <= e:
+            out.add(d.isoformat())
+            d += datetime.timedelta(days=1)
+    return frozenset(out)
+
+
 def held_days(series):
     import datetime
     lst = next((l for l in series.lists.values() if l.kind == "calendar"), None)
@@ -69,10 +92,10 @@ def inject(page, series, mode):
     days = [m.group(1) for m in MARK_RE.finditer(page)]
     plan = wartable.Plan(lst, days)
     held = held_days(series)
-    seq = wartable.sequence(held)                 # every war table, for its caption's 〈〈 and 〉〉 (wartable STYLE 8)
+    seq = wartable.sequence(held)                 # every Southeast Asia table, for its 〈〈 and 〉〉 (wartable STYLE 2)
     afd = afday.dates()
     aseq = sorted(d for d, y in afd.items() if d in held and afday.block(d, y))   # every Armed Forces Day (afday STYLE 5)
-    seen_war, seen_year = set(), set()
+    seen_year = set()
 
     def part_of(iso):
         return calsplit.half_of_date(lst, iso) if calsplit.cfg(lst) else 1
@@ -83,19 +106,19 @@ def inject(page, series, mode):
         out = []
         for name in _days().get(iso, []):
             if name == "war":
-                blk = wartable.block(plan, part, iso, part not in seen_war, seq)
+                blk = wartable.block(plan, part, iso, seq)
                 if not blk:
                     continue
-                seen_war.add(part)
                 key = (part, iso[:4])
-                if key not in seen_year:          # the first war table of the year on the page is listed (STYLE 2)
+                if key not in seen_year:          # the first of the year on the page is listed, untitled (STYLE 2)
                     seen_year.add(key)
-                    blk = contents.day_mark("war", iso[:4], iso, wartable.THREADS, part) + blk
+                    blk = contents.day_mark("war", wartable.filed()[iso][0], iso, wartable.THREADS, titled=False) + blk
                 out.append(blk)
             elif name == "afd":
-                blk = afday.block(iso, afd[iso], aseq)
+                blk = afday.block(iso, afd[iso])
                 if blk:
-                    out.append(contents.day_mark("forces", str(afd[iso]), iso, afday.THREADS, part) + blk)
+                    out.append(contents.day_mark("forces", str(afd[iso]), iso, afday.THREADS,
+                                                 nav=afday.nav(iso, afd[iso], aseq)) + blk)
         return "".join(out)
     page = MARK_RE.sub(sub, page)
     if 'id="wartstyle"' not in page:

@@ -189,7 +189,7 @@ def block(y, head=None):
             + f'<script type="application/json" class="cgseats">{seats}</script>'
             f'<div class="cgmaps"><figure class="cgmap" data-chamber="q" data-none="no data" '
             f'data-info="Click a State for its seats." data-rows="Seats \u2193">'
-            f'<figcaption>Control of the legislatures, {y}</figcaption>'
+            f'<figcaption>Control of the legislatures {y}</figcaption>'
             f'<div class="cgv" style="aspect-ratio:960/660"></div></figure></div><span data-views="r"></span>{key}'
             f'<details class="cgr er esp"><summary>Legislatures, {len(cur)}, by State</summary>'
             '<table><colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>'

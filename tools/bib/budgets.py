@@ -14,7 +14,9 @@ STYLE
     first reported". Then OMB's Historical Tables (2.1, 3.1) today, unified, on today's functions, receipts by source
     then outlays by function, never summed with the first: "Fiscal 1964 on today's unified basis (OMB, Historical
     Tables 2.1, 3.1)", its column headed by the edition read ("FY2025 ed."). "Today" never stands alone in a title or a
-    head, where it could be read as the current fiscal year (the owner's request, Oct. 22, 2026).
+    head, where it could be read as the current fiscal year (the owner's request, Oct. 22, 2026). In the calendar the
+    first table's title gives way to the contents' ("Budget, fiscal 1964": contents STYLE 5, the owner, Nov. 4, 2026),
+    its basis kept in the corner head ("Administrative budget, $bn"); the debt-limit table's title too.
  2. No column empty for every row of its table: a column a source does not give is left out, not filled with "—" or
     "n.a." (fiscal 1968 has no first-reported column; its note says why). Rows: a line shares a row with the other
     column's only where the source means the same thing by it (the key in the data). A renamed line keeps its row, the
@@ -230,7 +232,8 @@ def block(fy):
     names = [n for n, _ in cols]
     title = (f'Fiscal {fy}: the {"unified" if unified else "administrative"} budget, '
              + (" and ".join(n.lower() for n in names)))
-    head = "<tr><th>$bn</th>" + "".join(colhead(c.get("receipts"), n) for n, c in cols) + "</tr>"
+    basis = "Unified budget" if unified else "Administrative budget"     # the title the contents' replaces (STYLE 1)
+    head = f"<tr><th>{basis}, $bn</th>" + "".join(colhead(c.get("receipts"), n) for n, c in cols) + "</tr>"
     notes = [c.get("note") for _, c in cols if c.get("note")]
     if B.get("note"):
         notes.append(B["note"])

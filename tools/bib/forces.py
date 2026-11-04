@@ -7,7 +7,7 @@ figure read off a page (their headers are the schema).
     afd_block(y)         what goes under Armed Forces Day of year y (tools/bib/afday.py, a day block): block(y - 1), the
                          last figures dated before the day. afday calls it and sets the anchor (contents.day_mark,
                          kind "forces", label "Armed forces, <y>"); the style comes with the block.
-    years()              the years with figures; label(year): "Armed forces, 1965"
+    years()              the years with figures; label(year): "Armed forces 1965"
     problems(series)     the checks (tools/bib/check.py)
 
 The owner's request, Oct. 20-22, 2026: the machines (aircraft, ships, armor, missiles) and the men, a table a year,
@@ -97,7 +97,7 @@ def years():
 
 
 def label(year):
-    return f"Armed forces, {year}"
+    return f"Armed forces {year}"
 
 
 def num(v):
@@ -225,7 +225,7 @@ def block(year):
               for i, t in enumerate(load(w).get("tables") or [])]
         ts = [x for x in ts if x]
         if ts:
-            out.append(f'<p class="fch">{esc(PART[w])}, {year}</p>' + "".join(ts))
+            out.append(f'<p class="fch">{esc(PART[w])} {year}</p>' + "".join(ts))
             first = False
     if not out:
         return ""

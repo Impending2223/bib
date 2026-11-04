@@ -30,6 +30,9 @@ STYLE
     ballot adds to its votes, every name a column; the columns add to the printed totals (the final tabulation too,
     the States not listed counted all for the nominee); a method in the list; a date in the convention's year or the
     year before; the calendar's tags answer.
+ 7. One title, the contents' ("Republican convention, 1968: delegations"; "Roll call: Republican presidential
+    nomination 1968": contents STYLE 5; the owner, Nov. 4, 2026): the delegations' heading goes (contents.HEAD), and a
+    roll call's summary lines stand before its table, folded open under "Delegations, 53" as the delegations' table is.
 """
 import json
 import os
@@ -309,9 +312,9 @@ def rollcall(key, bkey):
     src = (f'{proc_cite(C, B["pages"])}: the roll call; {esc(B["title"])}, {page_link(C, B["table"])}'
            + (f'; the changes, {page_link(C, F["pages"])}; {esc(F["title"])}, {page_link(C, F["table"])}' if F else "")
            + ". As printed; each State's votes add to its delegation's, the columns to the printed totals.")
-    return (f'<div class="cv"><div class="cg sprace pq"><details class="cgr er esp" open><summary>{esc(B["office"])}: '
-            f'the roll call, {PARTY[p]} National Convention, {y}</summary>'
+    return (f'<div class="cv"><div class="cg sprace pq">'      # no heading: the contents' title is it (STYLE 7)
             + "".join(f'<p class="elsum">{s}</p>' for s in summary)
+            + f'<details class="cgr er esp" open><summary>Delegations, {len(S)}</summary>'
             + table_head("State", ("Votes", "Delegation", "Note")) + "".join(rows) +
             f'</tbody></table></details><p class="elsrc">{src}</p></div></div>')
 

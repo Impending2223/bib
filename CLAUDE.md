@@ -1454,8 +1454,8 @@ first reported, its release date, and the figure as revised today.
 
 The tables that recur carry "〈〈 Title 〉〉": the same kind's before and after in the calendar, on any page, in the
 thread line's link style, the date on hover: the month's set (one pair, on Economic indicators; its divisions, Oil,
-the exchange rates, Money and credit, the approval table, none), the war table, the budget, Armed Forces Day (the
-owner's requests, Nov. 4, 2026; STYLE 18 in `tools/bib/indicators.py`). "As first reported" heads a column only where
+the exchange rates, Money and credit, the approval table, none), the Southeast Asia table, the budget, Armed Forces Day
+(the owner's requests, Nov. 4, 2026; STYLE 18 in `tools/bib/indicators.py`); every caption centered. "As first reported" heads a column only where
 another holds a later figure (the exchange rates' column goes unheaded).
 
 ```
@@ -1481,10 +1481,10 @@ tools/indicators/make_war_air.py  the air war (war-air-attack.yaml, war-air-nvn-
                               (--count reads every month over the network into sources/war-air-cacta.json; the build does not)
 tools/bib/warair.py           the air war rows' checks (STYLE notes at the top)
 tools/bib/war.py              renders The war's cells and checks them (STYLE notes at the top)
-tools/bib/wartable.py         The war table, under the first Thursday of each month (STYLE notes at the top)
+tools/bib/wartable.py         the Southeast Asia table, under the first Monday of the month it refers to (STYLE notes at the top)
 tools/bib/afday.py            the forces tables under Armed Forces Day, the third Saturday in May (STYLE notes at the top)
 tools/bib/dayblocks.py        day blocks: a table set under a date in the day layout, not under an entry (its docstring)
-tools/bib/wardead.py          the dead by home State per 100,000, a map a year (tag wardead:<YYYY>; STYLE notes at the top)
+tools/bib/wardead.py          the dead by home State per 100,000: data and check only, the map not shown (Nov. 4, 2026)
 tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 indicators/concepts.yaml      the master statement of concepts and sources, kept by hand: a text a series, each piece
                               tagged with the periods it concerns ({{1961..1962-06|...}}; the file's header)
@@ -1495,7 +1495,7 @@ Concepts and sources (the owner's rule, Oct. 21, 2026; standing): what each seri
 where its figures come from, is written once, in the master, `indicators/concepts.yaml`, each sentence or clause
 tagged with the span of reporting periods it concerns; never in a module, a table or a page. Each calendar page
 (each year's, and the reader's blocks alike) writes a servant of it right after the month table where a series
-first appears on that page (The war's after its own table, under the first Thursday: below): of the series first used there, grouped under the tables' subheadings (Prices,
+first appears on that page (Southeast Asia's after its own table, under the first Monday: below): of the series first used there, grouped under the tables' subheadings (Prices,
 Employment, Output, Federal finance, Federal debt, International, Oil, The war, Money and credit, Opinion), only the pieces whose
 span holds a period that page files for the series; no series the page does not show, nothing about periods
 outside it. Each servant ends "See the master entry for a full statement of indicator concepts and sources used in
@@ -1580,17 +1580,21 @@ the series index, the README and the top bar (数; at first kept out of the bar,
   Analysis Report* (Oct. 1967, Thayer vol. 8, p. 102) for Jan.-Sept. 1967; the weekly Thursday releases not read ("—").
   U.S. military personnel in South Vietnam, June 30 and Dec. 31: today the DoD's table of 1974 (*Selected Manpower
   Statistics*, FY-74, p. 63), then the *Statistical Abstract*'s Dec. 31 and first-quarter figures. No monthly strength
-  read. The dead by home of record per 100,000 (Census estimates, July 1): a map a year, 1961-64 together and 1965-68,
-  on one scale, carried by the December entries tagged `wardead:<YYYY>` (`cal.1964-12.vietnam` ... `cal.1968-12.vietnam`).
-  The file names the dead; nothing but counts leaves it, and they are not persons in the series.
-- The war table (the owner's request, Oct. 22, 2026: the military numbers "in a separate table altogether", on "the
-  first X of each month"; `tools/bib/wartable.py`, its STYLE): the war's series (kind: war) are not in the month's
-  tables; they make a table of their own, filed by the period covered and set under the FIRST THURSDAY of the next
-  month in the day layout (the day of the week the command in Saigon and the Pentagon gave out the weekly casualty
-  figures: the convention, not verified against the papers), quarters and years in the month after they end. Its own
-  caption, solid rule and panel; two columns, Reported then | Later, each figure with its date; a series a tbody, its
-  name on a line across, so it fits 400px. The war's statements are servants after the war table where each series
-  first appears on a page, "The war: concepts and sources" (the master: `indicators/concepts.yaml`). Beside U.S. deaths
+  read. The dead by home of record per 100,000 (Census estimates, July 1; `sources/war-dead-states.yaml`): the map was
+  dropped (the owner, Nov. 4, 2026: "Drop the casualties by state map altogether"); the data and its check stay, the
+  December entries' `wardead:` tags inert. The file names the dead; nothing but counts leaves it, and they are not
+  persons in the series.
+- The Southeast Asia table (the owner's requests, Oct. 22, 2026: the military numbers "in a separate table altogether";
+  Nov. 4, 2026: "Southeast Asia, Sept. 1966", "on the first Monday of each month to which its figures refer";
+  `tools/bib/wartable.py`, its STYLE): the war's series (kind: war) are not in the month's tables; they make a table of
+  their own, filed by the period covered (a quarter in its last month, a year in December) and set under that month's
+  FIRST MONDAY in the day layout (where the calendar lacks it, the nearest day it holds in the month). One title, its
+  caption, as the indicators' (type, color, case, centered, 〈〈 〉〉), no small-capital title, no descriptive line, the
+  page's background; the forces rows above the casualties; two columns, Reported then | Later, each figure with its
+  date; a series a tbody, its name on a line across, so it fits 400px. Its statements are servants after the table
+  where each series first appears on a page, "Southeast Asia: concepts and sources" (the master:
+  `indicators/concepts.yaml`). The year's first carries the year's map above it ("Southeast Asia 1966": Maps of
+  Indochina). Beside U.S. deaths
   and strength: MACV's order of battle (new format, monthly, Dec. 1964-June 1968, two vintages: Oct. 31, 1967 and Sept.
   3, 1968; Thayer, vol. 8, pp. 24, 38; vol. 2, p. 7), its old format (Oct. 1967, vol. 2, p. 8), SNIE 14.3-67 (as of Oct.
   1, 1967; FRUS 1964-68, V, doc. 397), enemy strength at the quarter's end, 1968 (vol. 1, p. 126), infiltration
@@ -1604,7 +1608,7 @@ the series index, the README and the top bar (数; at first kept out of the bar,
   table on a day the calendar holds [war-table].
 - The air war (`tools/indicators/make_war_air.py`, its docstring the rules of the count; `tools/bib/warair.py`, its STYLE):
   U.S. and VNAF fixed-wing attack sorties (strike, flak suppression, interdiction, armed reconnaissance, close and direct
-  air support; not the B-52s) by the target's country, North Vietnam, Laos, South Vietnam, monthly, in The war table:
+  air support; not the B-52s) by the target's country, North Vietnam, Laos, South Vietnam, monthly, in the Southeast Asia table:
   then, as OSD's *Southeast Asia Analysis Report* printed them, Nov. 1966-Nov. 1968, where it gave a month (Thayer, vol.
   5, read by eye off the page images: pp. 222, 240, 254, 260, 275, 280, 284, 289); later, the Combat Air Activities
   file (CACTA, RG 529, NARA series 2123846, open on the catalog), counted: each sortie once (mission, sortie and launch
@@ -1701,8 +1705,7 @@ and unit in its title line, its sources linked under it; a column only where the
 - The entries tagged `bill:<key>` carry the bill's course (`congress/bills.yaml`): the entry of its first introduction
   in either chamber (one made where none told it), and on each later year's page its course runs into, that year's
   first entry concerning the bill; never twice on a page (the owner, Nov. 4, 2026; `check` holds them; bills.py STYLE
-  6-7). The small-caps title alone, the bill and Congress muted under it; the chamber "H" or "S", unheaded; the year
-  and the Record's volume a row, the page alone linked; it fits 400px. Each step dated by the bound
+  6-7). The small-caps title alone; the chamber "H" or "S", unheaded, the President's rows empty. Each step dated by the bound
   Record's daily parts (the History of Bills prints pages, not dates), its page linked to that chamber's day on
   govinfo, its roll calls linked to Voteview. Now the Revenue Acts of 1962 and 1964, the Trade Expansion Act, the
   Civil Rights Acts of 1964 and 1968, the Economic Opportunity Act, the Southeast Asia (Gulf of Tonkin) resolution, the
@@ -1732,8 +1735,9 @@ and unit in its title line, its sources linked under it; a column only where the
 
 ## Maps of Indochina
 
-`tools/bib/vnmap.py` (STYLE notes at the top): a map of Vietnam, Laos and Cambodia for each year, 1960–68, set in the
-year's first calendar entry tagged with a place in the Republic of Vietnam, showing every entry of the year tagged with
+`tools/bib/vnmap.py` (STYLE notes at the top): a map of Vietnam, Laos and Cambodia for each year, 1960–68, "Southeast
+Asia 1966", set immediately above the year's first Southeast Asia table, or, in a year without one, in the year's first
+calendar entry tagged with a place in the Republic of Vietnam (vnmap STYLE 8; the owner, Nov. 4, 2026), showing every entry of the year tagged with
 a place: a dot a place, larger by the year's entries there, a tap listing them, each linked; under the map, folded, the
 year's placed entries; names placed by the library's collision, the year's places first, then the gazetteer's rank. The
 provinces as of late 1966, tinted by corps zone (the default), today's region, or plain; or the borders alone; or land
@@ -1780,7 +1784,9 @@ each, the index the Cal. block. January 1966 is two sections, `196601` (Jan. 1�
 opening), one page. `split:` in `lists/cal/list.yaml` is a list, a part an item: its `page`, the day it begins (`from`;
 the first, the calendar's first day), its `abbr` ("Cal. 1961"), `called` (the words the other ledes name it by, "the
 calendar of 1961", linked), title, span, page_title, h1, lede and logic. The list's own page_title, h1 and lede, with
-`index_logic`, are the index's; its `logic` shows on the index and before every year's own. A part a line: a year that
+`index_logic`, and its `logic`, are the index's alone: a year's page opens with its year ("1965"), one line ("Executive,
+legislative, judicial, and state events of 1965.") and the ebooks and feeds line, nothing more (the owner, Nov. 4,
+2026). A part a line: a year that
 outgrows some 8 MB splits again by half-year, by the same line. A dated section goes to the part its first day falls in;
 the threads section is in all. `tools/bib/calsplit.py` (STYLE notes at the top):
 
@@ -1822,20 +1828,25 @@ Nothing folded by default (the owner's rule, Oct. 30, 2026: "I'm not a fan of th
   three-letter form ("Sep"; this form here only, the Bluebook's everywhere else), linked to its section; a month the
   page lacks leaves its cell empty, a year takes only the rows it has months in (1969 one; the primary seasons of
   1972 and 1976 after a gap). January 1966's two sections are one cell, the first's. Every year's page, and the index,
-  carry the whole calendar's grid and its whole list of tables and maps, each linked through to its year's page
-  (volume.md §3; contents STYLE 6): another year's cell in the year column links to that page's top, muted.
-- After the grid, under "Tables and maps", every table and map of the calendar, year by year, in the order it first
+  carry the whole calendar's grid, each month linked through to its year's page; a year's page lists its own tables and
+  maps, the index the whole calendar's (volume.md §3; contents STYLE 6; the owner, Nov. 4, 2026): another year's cell in the year column links to that page's top, muted.
+- After the grid, under "Tables and maps", every table and map of the page (the index: of the calendar), year by year, in the order it first
   appears, each linked to its anchor, grouped by year in the grid's year column: the Executive Branch at each term, each Congress at its
   opening, the leaders and committees, the November elections, the governors, the legislatures, State finance, the
   budgets, the debt limit acts, a bill's course, the session's appropriations, each party's primaries, the conventions' delegations and roll calls,
-  the dead by home State, the maps of Indochina. Not the one-off elections (a special, a single primary day), nor the
+  the maps of Southeast Asia. Not the one-off elections (a special, a single primary day), nor the
   month's indicators. And each thread's statement in the thread index lists the tables and maps its entries carry on
   the page, in order, in a muted line set right above the See also line ("*Tables and maps* Election of Nov. 8, 1960 ·
   Governors, Nov. 8, 1960"); in the reader, each part's index its part's.
 - Each listed table or map is titled by its label, centered in small capitals ("ELECTIONS OF NOV. 8, 1960"), as the
   Executive roster's parts are (the owner's request, Oct. 23, 2026: "a distinct title style to visually demarcate them
   from the calendar day entries"; all-caps titles "must be unusually brief", so the labels are): STYLE 5 in
-  `tools/bib/contents.py`. A November election day is one block, "Elections of Nov. 8, 1960" (`election_day` in
+  `tools/bib/contents.py`. One title a table (the owner, Nov. 4, 2026: "Remove doubled titles"): the block's own
+  heading gives way (DROP_HEAD; the Executive's, the roll calls' and Armed Forces Day's in their modules), but for the
+  Southeast Asia table, whose indicators-style caption is its title. A title ending in a bare year drops its comma
+  ("Democratic primaries 1960", "Armed forces 1962", "Southeast Asia 1966"); one ending in a month and year or a day
+  keeps it ("Southeast Asia, Sept. 1966", "Executive Branch, Jan. 20, 1957", "State finance, fiscal 1960"); a bill's
+  course is titled by its act alone. A November election day is one block, "Elections of Nov. 8, 1960" (`election_day` in
   `tools/bib/congress.py`): "Presidential electors", "Congress" (with the unexpired terms filled that day), "State
   elections" (the governors chosen that day, the legislatures it chose); the governors' and legislatures' entries point
   to their parts. The governors' tables shade a party's gain in the winner's color and a new governor gray, as the
@@ -1845,11 +1856,12 @@ Nothing folded by default (the owner's rule, Oct. 30, 2026: "I'm not a fan of th
   registers its kind in `KINDS` there, with its label ("Election of Nov. 8, 1960"), or `None` for one the contents
   leave out; `put` refuses an unregistered kind, and `contents.finish` (after the injects, in `build.py`) lists it in
   the contents and the threads with no more code. `check` warns on a tag whose label cannot be made [contents].
-- A table set under a date, not in an entry (a day block, `tools/bib/dayblocks.py`: the war table, Armed Forces Day)
-  takes its anchor from `contents.day_mark(kind, key, iso, threads)`, which names the day and the threads in the
-  entry's place; the contents and the threads list it the same way. Listed: the first war table of each year on a page
-  ("The war, 1965: first Thursdays", thread Vietnam) and each Armed Forces Day ("Armed forces, 1965", Defense and
-  Vietnam); the other war tables, like the month's indicators, not.
+- A table set under a date, not in an entry (a day block, `tools/bib/dayblocks.py`: the Southeast Asia table and the
+  year's map above its first, Armed Forces Day) takes its anchor from `contents.day_mark(kind, key, iso, threads)`,
+  which names the day and the threads in the entry's place; the contents and the threads list it the same way. Listed:
+  the first Southeast Asia table of each year on a page ("Southeast Asia, Jan. 1965", thread Vietnam, untitled:
+  `titled=False`) and each Armed Forces Day ("Armed forces 1965", Defense and Vietnam); the other Southeast Asia
+  tables, like the month's indicators, not.
 
 ## The calendar by day
 
@@ -1868,7 +1880,7 @@ holds something (the owner's request, Oct. 22, 2026): "Documents" (APP, FRUS, th
 committees' meetings, the *Bulletin*, and any list added later), each summary counting its own lists; "Expand all" and
 "Collapse all" under each month heading open or close both (STYLE 12 in `tools/bib/daybook.py`). The Sunday programs
 and the *New York Times* line are not daily materials: they stay under the date, in neither block. Sunday, its heading and entries, from its rule to Monday's, on a faint cool wash, a lit entry's white over it (the owner's choice, Nov. 4, 2026; STYLE 16 in `tools/bib/daybook.py`). A day block (the
-war table on the first Thursday, the forces on Armed Forces Day: `tools/bib/dayblocks.py`) stands after the day's
+Southeast Asia table on the first Monday, the forces on Armed Forces Day: `tools/bib/dayblocks.py`) stands after the day's
 entries and before its folded blocks: `section_days` sets a placeholder (`dayblocks.marker`), filled after the
 indicators by `dayblocks.inject` in both build chains.
 

@@ -14,12 +14,14 @@ STYLE (keep it):
     where Collins has none) and the other allies by country, with their maneuver battalions (Larsen and Collins, 1975).
     Both series are in The war table too (tools/bib/wartable.py), filed by period; here the year's breakdown.
  3. Each table one column of figures (and the battalions'), the label at the left: it fits a 400px phone. The block
-    has the war table's panel, solid rule and caption ("Armed Forces Day, May 15, 1965"); inside it, forces.py's dress
+    takes the page's background, as the Southeast Asia table does (wartable.py's styles, no panel), and one title, the
+    contents' small capitals ("Armed forces 1965"; no caption of its own: the owner, Nov. 4, 2026, "keep the small caps
+    title alone"); under it the day's line (the proclamation, the year of the figures); inside it, forces.py's dress
     (its STYLE): a part under a small-capital heading ("South Vietnam and the allies"), each table open, its title
     in a line above it, its source under it.
- 4. Contents: "Armed forces, 1965" in the page's contents and in the Defense and Vietnam threads' Tables and maps.
- 5. The caption between 〈〈 and 〉〉: the Armed Forces Days before and after, on whatever page, the day on hover
-    (indicators STYLE 18; the owner, Nov. 4, 2026).
+ 4. Contents: "Armed forces 1965" in the page's contents and in the Defense and Vietnam threads' Tables and maps.
+ 5. The title between 〈〈 and 〉〉 (nav, set by dayblocks through contents.day_mark): the Armed Forces Days before and
+    after, on whatever page, the day on hover (indicators STYLE 18; the owner, Nov. 4, 2026).
 """
 import datetime
 
@@ -107,7 +109,7 @@ def rvn_html(y):
     note = f" ({r['note']})" if r.get("note") else ""
     period = str(r["p"])
     when = y if period == str(y) else f"Dec. 31, {y}" if period.endswith("-12") else f"fourth quarter {y}"
-    return table(f"Republic of Vietnam Armed Forces, {when}", rows,
+    return table(f"Republic of Vietnam Armed Forces{' ' if when == y else ', '}{when}", rows,
                  (r.get("now_source") if col == "now" else r.get("source")) + note)
 
 
@@ -121,13 +123,23 @@ def allies_html(y):
     rows = [(war.LABELS[k], war.persons(v[k]), str(bn[k]) if k in bn else "") for k in
             ("korea", "australia", "thailand", "nz", "phil", "roc", "spain", "total") if k in v]
     src = (r.get("now_source") if col == "now" else r.get("source")) + (f"; {r['printed']}" if r.get("printed") else "")
-    return table(f"Other allied forces in South Vietnam, {y}", rows, src, "Maneuver bns." if bn else None)
+    return table(f"Other allied forces in South Vietnam {y}", rows, src, "Maneuver bns." if bn else None)
 
 
-def block(iso, y, seq=None):
-    """The day's block: the caption, forces.py's tables for the year, the RVNAF's and the allies' of the year before.
-    seq: every Armed Forces Day the calendar shows, in order, for the caption's 〈〈 and 〉〉 (STYLE 5)."""
-    from .indicators import caption, date_label
+def nav(iso, y, seq):
+    """The title's 〈〈 and 〉〉 (STYLE 5): seq, every Armed Forces Day the calendar shows, in order."""
+    from .contents import anchor_id
+    from .indicators import date_label
+    if not (seq and iso in seq):
+        return None
+    j = seq.index(iso)
+    return tuple((f"#{anchor_id('forces', seq[k][:4])}", date_label(seq[k], y)) if 0 <= k < len(seq) else None
+                 for k in (j - 1, j + 1))
+
+
+def block(iso, y):
+    """The day's block: the day's line, forces.py's tables for the year, the RVNAF's and the allies' of the year
+    before. Its title is the contents' (STYLE 3)."""
     ours = rvn_html(y - 1) + allies_html(y - 1)
     if ours:                                  # in forces.py's dress: a small-capital heading for the part (its STYLE 1)
         ours = f'<div class="fc"><p class="fch">South Vietnam and the allies</p>{ours}</div>'
@@ -135,17 +147,11 @@ def block(iso, y, seq=None):
     if not inner:
         return ""
     p = proclamation(y)
-    d = third_saturday(y)
-    day = f"{d.strftime('%B')} {d.day}, {y}"
     if p:
         proc = f'the third Saturday in May, by <a href="{p[2]}">{esc(p[0])}</a> ({esc(p[1])})'
     else:
         proc = "the third Saturday in May (the year's proclamation not read)"
-    nav = [None, None]
-    if seq and iso in seq:
-        j = seq.index(iso)
-        nav = [(f"#afd-{seq[k][:4]}", date_label(seq[k], y)) if 0 <= k < len(seq) else None for k in (j - 1, j + 1)]
-    return (f'<div class="wart afd" id="afd-{y}">{caption(f"Armed Forces Day, {day}", *nav, cls="wart-cap")}'
+    return (f'<div class="wart afd" id="afd-{y}">'
             f'<p class="wart-foot">Armed Forces Day: {proc}. The forces of {y - 1}, as the sources give them by year.</p>{inner}</div>')
 
 
