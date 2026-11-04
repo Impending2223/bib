@@ -687,7 +687,13 @@ entries:
     thread: open-housing
     also: [congress]
     c: 'The Senate passes H.R. 2516, [71–20](https://voteview.com/rollcall/RS0900346). Johnson: a statement.'
-    n: 'Statement by the President on the Senate''s Action in Passing the Civil Rights Bill, [1968–69 Pub. Papers 374](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=452) (Mar. 11, 1968). See [[cal.1968-02-06.open-housing]]. Names: Johnson.'
+    n: 'Statement by the President on the Senate''s Action in Passing the Civil Rights Bill, [1968–69 Pub. Papers 374](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=452) (Mar. 11, 1968). [[w.kotz-judgment-days]], 391 (71–20; Johnson calls on the House). See [[cal.1968-02-06.open-housing]]. Names: Johnson.'
+    src:
+      c: a2ce388c
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=452: all'
+        - 'https://voteview.com/rollcall/RS0900346: A'
+        - 'w.kotz-judgment-days 391: A'
     tags: [name:johnson-lyndon-b]
   - id: cal.1968-03-11.court
     when: Mar. 11
@@ -977,6 +983,17 @@ entries:
     c: 'Manchester, McCarthy''s press conference the morning after: "I think I can get the nomination"; the Wisconsin campaign now to be financed. In Washington, off the plane, Eller with the news-ticker''s report of Robert Kennedy "reassessing"; questions at the airport about Kennedy.'
     n: '[[w.white-making-of-the-president-1969]], 89–90 (Charles Bailey of the *Minneapolis Tribune*). See [[cal.1968-03-13.robert-kennedy]]. Names: McCarthy, Robert Kennedy.'
     tags: [name:mccarthy-eugene-j, name:kennedy-robert-f, state:nh]
+  - id: cal.1968-03-13.open-housing
+    when: Mar. 13
+    date: '1968-03-13'
+    thread: open-housing
+    c: 'Johnson to the Cabinet, two days after the Senate''s vote: lobby the House for open housing. "If any Cabinet member has a ''deposit in the bank'' with any House member — particularly Republicans or southern Democrats — now is the time to use it."'
+    n: '[[w.kotz-judgment-days]], 391. Check: the day; Kotz gives "two days later" after Mar. 11. See [[cal.1968-03-11.open-housing]]. Names: Johnson.'
+    src:
+      c: 86bc86f0
+      rows:
+        - 'w.kotz-judgment-days 391: all'
+    tags: [name:johnson-lyndon-b]
   - id: cal.1968-03-14.economy
     when: Mar. 14
     date: '1968-03-14'

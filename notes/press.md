@@ -63,7 +63,10 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-10-24 | New York Times | inside, 32 | the civil rights bill in committee: "For an understanding of this bizarre battle, it is helpful to look both backward and forward" | Branch, *Parting the Waters*, 910
 1963-10-25 | *Washington Post* | front page | Goldwater on NATO's "commanders" and tactical nuclear weapons (Chalmers Roberts) | White, *Making of the President 1964*, 296
 1964-01-07 | *Concord Daily Monitor* | front page | "Goldwater Sets Goals: End Social Security; Hit Castro" | White, *Making of the President 1964*, 104
+1964-01-19 | *New York Times* | front page | King in the Oval Office beside Johnson, a large photograph | Kotz, *Judgment Days*, 102
 1964-03-10 | CBS | evening | Cronkite calls New Hampshire for Lodge at 7:18 p.m. | White, *Making of the President 1964*, 110
+1964-03-31/04-01 | the papers across the country | front pages | Mrs. Peabody led to jail at St. Augustine | Kotz, *Judgment Days*, 127
+1964-04-15 | *Washington Post* and others | column | Joseph Alsop on King and the Communist Party (an entry) | Kotz, *Judgment Days*, 129
 1964-05-07 | *New York Times* | page not given | Russell Baker on the lawn news conference of May 6 | White, *Making of the President 1964*, 248
 1964-05-15 | NBC | evening | first to call Oregon for Rockefeller, 8:03 p.m. | White, *Making of the President 1964*, 115
 1964-06-02 | CBS | evening | Harris calls California for Goldwater at 7:20 p.m., about 53 percent | White, *Making of the President 1964*, 128

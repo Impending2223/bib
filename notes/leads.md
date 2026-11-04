@@ -1593,6 +1593,15 @@ Rights in Conflict (Walker Report):
 - Press figures for a Part III entry (R13): Claude Sitton and Foster Hailey (New York Times), Pat Watters (Atlanta Journal), James Free (Birmingham News's Washington correspondent), Clarence B. Hanson (publisher, Birmingham News), C. A. Scott (Atlanta Daily World); Clark Mollenhoff has a name entry.
 - Open runs named: the Pacifica Radio Archive's tapes of 1963 (tapes 0388, 4745a, 4817, 3014); Folkways's "Birmingham, Alabama, 1963: Mass Meeting" (FH 5487) and "Movement Soul" (FD 5486); the Donald H. Smith tapes (State Historical Society of Wisconsin). Access not tested here.
 
+### Kotz, *Judgment Days* (batch 3, Nov. 3, 2026; notes/book-checks/kotz-judgment-days.md)
+
+- The Miller Center's catalogue has recordings for most of the calls Kotz's notes cite (TT, by tape and PNO); not heard.
+- The FBI King file (100-106670) and Hoover's Official and Confidential File, as Kotz cites them; the Stokes Committee's and the Church Committee's printed volumes print some (Kotz's notes).
+- Steve Horn's log of the Senate's bill, 1964 (Manuscript Division, Library of Congress): many days of April–June 1964 (Kotz, 131–50).
+- Kotz's interviews (more than 150 persons, on the record; his interview list, 475–479): not deposited, so far as the book says.
+- Belfrage, *Freedom Summer* (1965), and Colburn, *Racial Change and Community Crisis* (1985), cited by Kotz: no cards.
+- Pages 42–84 and 187–434 read by their dated passages only (chapters 8 to 14): to be read in full (the book-check, "What remains unread").
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
