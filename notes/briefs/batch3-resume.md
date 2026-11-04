@@ -142,3 +142,56 @@ practice as before; for the next merger:
   readers' book-check and by-work files, and every other group's inbox files. Check's errors in the readers' open files
   (Zelizer's, Smith's, Branch's and Bird's by-work edges, the Clifford/Berman id) came and went as they wrote; none was
   the merged work's.
+
+
+(The third merger, Nov. 4, 2026, 8:30 p.m.-midnight Pacific, after the second run's last patches.)
+
+Merged, each by `./bib merge --auto` (no `--legacy`), its pending witnesses folded alone (`fold.py FILE`; a book's
+shared -2 file after the last patch that used it), checked, committed and pushed: branch-ptw-2 to -5, kotz-2,
+walls-of-jericho-2, branch-pof-2 to -5, branch-ace-2 to -4, kabaservice-2, goldberg-2, smith-rockefeller-2 to -5,
+six-crises-2, white-1960-2, sundquist-2, zelizer-2, bernstein-guns-2 and -3, preston-2 and -3, bird-2 and -3, woods-2 to
+-4, westmoreland-2 and -3, berman-2, macv-1964-2, macv-1965-2, macv-1967-2, macv-1968-2 and -3; and, at the lead's word,
+kotz-3, bernstein-guns-4, shesol-3 (43 patches; `inbox/merged/`). Left in the inbox, being written or not assigned:
+bernstein-guns-5 to -7, fursenko-cold-war-3, kotz-4, woods-fulbright-1 and -2. For the next merger:
+
+- Before merging: `cal.1960-11-01.elections-1961` renumbered `cal.1960-11-01.elections-1960-2` (patch, ledger,
+  book-check); twelve withdrawn ledger claims pruned, and Shesol's two. Berman's Clifford row was already gone.
+- Patches refused by `--auto` for a src row whose page the note does not cite (`via ... 745 n.2` on a note citing 724;
+  MACV 1968's `34 n.18`, `35 n.19`): the row taken out of the patch, the To check or Check kept. bernstein-guns-4 was
+  refused until its edges were in the by-work file: append the "# edges for" block first (`edges.py` in the
+  scratchpad's `merge3/`: comment rows or live rows, `card` dropped, the block cut from the pending file).
+- The "one event?" flags, about 1,150, read pair by pair (`dups2.py`; `keepdups.py` resolves the rest as keep).
+  Combined (the tree's id kept, the other its alias, c and n joined, the map rebuilt): McPherson's memorandum of June 13,
+  1967 (FRUS V, 197); Harris's California poll of May 29, 1964; the House's opening debate on the education bill, Mar.
+  24, 1965; Fulbright's call to Johnson, Apr. 1, 1968 (into `cal.1968-04-01.vietnam`, which holds the recording). Split:
+  Johnson's 8:56 p.m. call to Reuther, Aug. 21, 1964, out of Branch's Jenkins-call entry into Kotz's. Left apart with a
+  Check: Curtis's two replies to Rockefeller, July 1963. Left apart: Harris's two California readings of June 1, 1964
+  (different figures).
+- Hand edits: (a) MACV 1965, 37-38, off `cal.1965-03-06.vietnam` (it stands on -2); (b) `cal.1964-02-29.defense` takes
+  the civil rights answer (1963-64 Pub. Papers 322, item 16, read) and Kotz 119; (c) `cal.1964-11-28.vietnam` takes the
+  Hoover-King answer (item 11, p. 1617, read), Branch 532, and Kotz 231 as kotz-3's cite (its edit turned into a cite);
+  (d) the July 28, 1965 news conference's three rows joined into `x.1965-07-28.the-presidents-news-conference-july-28`;
+  (e) Heller's notes of Nov. 23, 1963: the OCR-garbled undated row joined into
+  `x.1963-11-23.notes-on-meeting-with-president-johnson`; the two Nov. 25 rows left apart (two repositories; a lead).
+  The joins: `inbox/witnesses/2026-11-04-merger-joins.yaml`, folded.
+- Mends on the way: whens month first ("Jan." not "January"; "Dec., late"; "Apr., spring"), day-dates the source does not
+  give made month-only, spans dated by their first day and moved (a merger's patch,
+  `inbox/merged/2026-11-04-merger-moves.yaml`, for two across months); curly quotation marks straightened (pof-2 on);
+  name keys the readers coined (`rockefeller-nelson-a`, `meredith-james`, `elson-roy`, `moynihan-daniel-p`,
+  `schwengel-fred`) to the series'; Names without an entry taken out (Wachtel, Zinn, Jim Clark, Belafonte, Kirk,
+  Lehman); `mayors-chicago` (no thread) made `mayors`; printed titles with plain Khanh, Ky, Thieu, Hue `ok:diacritics`;
+  shares and counts `ok:result-form`; three Berman edges added so his via rows reach their witnesses.
+- Two code matters. `witnesses.problems` walked the whole registry for every via row; with the batch's witnesses
+  folded, check took fifteen minutes: the reachable set now made once an entry (b7f7e24; the same answer, about a
+  minute for check). And since 1fef08c (notemerge's clock rule) three map rows naming a FRUS link inside a Check failed
+  [claims]: the rows taken out (9a5b432).
+- Bird's starred footnotes ("212 n.*") are left as written: the via rows key on them; check warns [italics] three times.
+- Leads and press: every book-check's new "Leads" into `notes/leads.md`, a section a book under each heading, and its
+  "The press" rows into `notes/press.md` (the four-column tables given a kind; month-only dates as "1960-06").
+- For the owner: the bundled entries `cal.1964-11-18.civil-rights-the-executive` (Hoover's remark, the package of Nov.
+  21, the meeting of Dec. 1: pof-4's reader proposes a split), `cal.1968-03-14.robert-kennedy` (the Clifford meeting and
+  the announcement of Mar. 16) and `cal.1968-04-24.elections-1968` (Freeman's endorsement and the next day's), both
+  Shesol's reader's, `cal.1967-07-25.civil-disorders-3` (July 25-Aug. 2: Hoover's two reports and Johnson to the Cabinet)
+  and `cal.1968-04-01.vietnam` (the strike of Apr. 2 with the call of Apr. 1); Six Crises' newsweekly forecasts dated
+  "Oct. 25-Nov. 7"; Zelizer's Passed over not kept row by row (R44, R48); the many MACV entries of an office's routine
+  (R18's "minor").
