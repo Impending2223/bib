@@ -493,10 +493,241 @@ message of July 17, 1965 in the Public Papers; the ABA's agreement (July 11 or l
 Goldwater; Henshaw's "Washington Pipeline" (attached to Spain to Manatos, July 30, 1964). Propose a Part III entry for
 Douglass Cater (White House staff, education and Medicare), who has no name entry.
 
+## Sixth run (b3-bernstein-guns-6), Nov. 4, 2026
+
+Read from the same copy (649 PDF pages; the offsets hold: −11 to p. 244, −27 from p. 245 to 404, −43 after the
+plates; checked against the running heads of every page read and off the page images at pp. 239 and 311). Read whole,
+with their notes: ch. 8, "Selma and the Voting Rights Act," pp. 214–44 (nn. 1–8, pp. 556–57); ch. 9, "Immigration:
+Righting the National Origins Wrong," pp. 245–60 (nn. 1–5, pp. 557–59, with the long n.5 on the Schwartz affair); ch.
+10, "The Environment: From Conservation to Pollution," pp. 261–306 (nn. 1–10, pp. 559–62); ch. 11, "Failure: The Repeal
+of Right-to-Work," pp. 307–14 (nn. 1–4, p. 562). How the list was made: every page read; each sentence dating
+something to a year, a month or a day held against the tree and the ledger (`./bib ledger find`, the day's entries in
+every thread; `./bib find --thread` for immigration, conservation and the 14(b) subthread over each chapter's span);
+the hearings' and committee votes' days from the Daily Digest's rows (`daybook/committees/`), read; the roll calls from
+Voteview's tables (89th Senate, 88th–90th House); the Public Papers' items read in `sources/ppp-text/` (Jan. 13, 1964;
+Aug. 3 and Aug. 4, 1965). Bernstein's notes run one to a section; each record is edged at the text page it stands
+behind, letters after the note number telling them apart. The twelve cites still behind "To check" (the fourth run's
+table) fall in none of these chapters: chs. 8–11 do not treat the budgets, taxes, prices or news conferences they
+stand for (p. 286 names the war's cost only for Johnson's offer on sewage grants). None held; still behind "To check."
+
+Patch `inbox/2026-11-04-b3-bernstein-guns-6.yaml`, 316 ops: 129 entries added (ch. 8, 26; ch. 9, 26; ch. 10, 61; ch.
+11, 16), 142 cites (some on other readers' pending entries: Kotz's, Zelizer's, Shesol's), 29 Checks, 14 claim-map
+rows, 2 To check. Witnesses `inbox/witnesses/2026-11-04-b3-bernstein-guns-6.yaml`: 143 new; 198 edges for
+`w.bernstein-guns-or-butter` at the file's foot, for the merger to append to
+`sources/witnesses/by-work/bernstein-guns-or-butter.yaml`. The entries' `via` rows name witnesses directly (registered
+or in this file; Fager's *Selma, 1965* is `x.1974.fager-selma-1965` of Kotz's pending file, edged, not repeated).
+patch-check: 0 errors, 23 warnings, every one a "one event?" flag read against its neighbor and distinct (a committee's
+vote beside the President's statement on it; O'Brien's memorandum beside Katzenbach's offer the same day; a staff paper
+beside a call or a hearing). `./bib check`: no error from these files (three in the tree's maps of other entries, not
+touched).
+
+Stray ledger lines of this run, claimed and not used: `cal.1965-09-24.conservation` (the House's vote on S. 306 is unit C
+of the tree's `cal.1965-10-20.conservation`), `cal.1966-01.conservation-2` (Muskie's $6 billion is the tree's
+`cal.1966-01.conservation`; cited there).
+
+### Cites added, with the disagreements (R33)
+
+Ch. 8 (Selma, the voting bill). The Nobel journey and the FBI, Oct. 14–Dec. 18, 1964 (215–18); Jan. 2–Feb. 18, 1965,
+Selma and Marion (218–22); Mar. 3–26 (222–35); the bill: Dec. 14, 1964, Jan. 8, Mar. 17, Apr. 9, 30, May 11, 12, 19,
+21, 25, June 1 (Zelizer's), July 9, Aug. 3, 6, 7, 10, 1965 (223–43); the cases of 1966 (243–44); McPherson, June 17,
+1965 (242). Checks:
+- Dec. 1, 1964 (`cal.1964-12-01.king`): Bernstein, 217, "at the end of November."
+- Jan. 18, 1965: about 400, in groups of three or four (the entry, some three hundred, groups of five).
+- Jan. 20, 1965: John Lewis leads the first wave (the entry, L. L. Anderson).
+- Jan. 23, 1965: Bernstein writes "David Thomas" (the judge is Daniel); no Check, a misprint.
+- Feb. 4, 1965: the news conference dated Feb. 12 in the text; the note's Papers, 132, are Feb. 4's.
+- Feb. 18, 1965: Jackson's death dated Feb. 16 (the record, Feb. 26).
+- Mar. 4, 1965 (`cal.1965-03-04.alabama`): Wallace's aides and his two reversals put on Saturday, Mar. 6.
+- Mar. 7, 1965: 57 injured by the *Times*, other estimates 90 to 100 (the entry, 75 to 80); the text misprints "May 7."
+- Mar. 8, 1965 (Kotz's `-selma-9`): Bernstein has the leaders meet at Selma, twelve hours.
+- Mar. 11, 1965: Judge Johnson's hearing opened "Thursday, March 12"; Kotz's Reeb call (`-selma-3`): Johnson told at a
+  congressional reception that Reeb had been clubbed.
+- Mar. 15, 1965: the Reeb memorial before 2,000 on the courthouse steps; Wilcox and Lowndes register twelve that
+  morning (the entry, two in Lowndes later).
+- Mar. 16, 1965: about 600 at Montgomery, "mostly white and from the North" (the entry, Forman's 600 students).
+- Mar. 17, 1965: the vote to instruct Judiciary, 63 to 13 (Voteview 67–13, the entry's); Long's private words dated
+  Mar. 11 (Jones's memorandum, Mar. 17, has them at a party the night before).
+- Mar. 21, 1965: the Army's count, 392 leaving Selma (the entry, some 3,200).
+- Mar. 25, 1965 (Kotz's capitol entry): a crowd estimated at 25,000.
+- Jan. 8, 1965: Justice "of both minds," drafts of an amendment and a bill (the entry, the lawyers' choice).
+- Apr. 9, 1965: the committee's poll tax vote 9 to 7 (the entry, 9–4).
+
+Ch. 9 (immigration): June 28, 1962 (Check: whether this is the act Bernstein has removing security matters from the
+Bureau of Security and Consular Affairs); July 23, 1963; Jan. 8, 1964; Jan. 13, Aug. 25, Sept. 22, Sept. 30, Oct. 3,
+1965; July 1, 1968. Check: Sept. 30, 1965, the House 320 to 69 (Voteview 320–70).
+
+Ch. 10 (the environment): Aug. 7, 1961; Mar. 1, Apr. 27, May 24, Aug. 29, Sept. 13, Sept. 28, 1962; Apr. 9, Oct. 16,
+1963; Feb. 23, Sept. 6, 1961; July 30, Sept. 3, Oct., Nov., 1964; Jan. 28, Feb. 8, Apr. 6, May 24, Sept. 16, Oct. 2,
+Oct. 7, Oct. 20, Oct. 22, 1965; Jan., Feb. 28, Mar. 29, Nov. 3, 1966; Jan. 30, July 18, Nov. 21, 1967; July 15, 1968;
+Jan. 14, Jan. 18 (two, Shesol's), Jan. 20, 1969. Checks: the Senate's vote on the fund, 91 to 1 (Voteview 92–1); the
+House on wilderness, 373 to 1 at 272, 374 to 1 at 277 (Voteview 374–1); Oct. 2, 1965, the conference report 379 to 0
+(Voteview 381–0); Oct. 20, 1965, signed "in the White House" (the entry, at Bethesda); Feb. 28, 1966, the plan
+submitted Mar. 1; Jan. 18, 1969, the Stadium Board's release and Johnson's call to Udall dated Friday, Jan. 17; Jan. 20,
+1969, the three orders as Bernstein gives them (some 300 acres in the Sonoran Desert, Mt. McKinley enlarged, a park
+above the Arctic Circle; the entry, Marble Canyon, Arches, Capitol Reef, Katmai).
+
+Ch. 11 (14(b), home rule): Jan. 4, May 18, July 28, Oct. 11, 1965; Jan. 12, Jan. 24, Feb. 8, Feb. 10, 1966; Feb. 2,
+Sept. 3, Sept. 27, 1965. New entries dated by the Daily Digest where Bernstein's dates differ: the Special
+Subcommittee's report June 9 and the committee's June 10, 1965 (Bernstein: June 3, 4; Checks in the entries).
+
+### New entries (129)
+
+Ch. 8: Feb. 12 (Rauh's draft), Feb. 15 (Morrisson to Schlei: Scammon), early Mar. (Johnson decides for federal control
+in all elections), Mar. 6 (Baker resigns), Mar. 7 (the council's compromise), Mar. 8 (the lawyers before Judge
+Johnson), Mar. 9 (Santaella), Mar. 12 (Humphrey: no troops), Mar. 18 (the meeting on troops; Check: Bernstein's
+Tuesday), Mar. 19 (Moyers: the FBI's memorandum), Mar. 22–25 (Califano's reports), Mar. 23 (Cox; Alexander; the
+Senate hearings open), Apr. 9 (the House subcommittee, 10 to 1), Apr. 26 (O'Brien: King may demonstrate), May 4
+(Mansfield's first request), May 7 (Farmer), May 19 (Fong's poll watchers, Voteview 56–25; Check: Bernstein 56 to 20),
+May 20 (the American flag amendment), June (the planning), July 14 (Doar's counties), Sept. 29 (South Carolina's
+suit), Nov. 1, 1965 (Macy), Jan. 31, 1966 (Macy: 93,778), Apr. 25, 1968 (Macy: 159,378).
+Ch. 9: 1961: Jan., Feb., July, Dec. (Schwartz and Bontempo); Oct. 5, 1962 (Schwartz confirmed); 1964: Jan. 13 (the
+sixty, the Papers read), Feb. (Johnson to Celler), June 11 (the House hearings, H.R. 7700), July 11 (Wilson), Aug. 12
+(Feldman); 1965: Jan. 12 (Dodd), Feb. 10 and Mar. 3 (the hearings), early May (Feighan's ceiling), May 7 (Schlei), July
+22, Aug. 3 (two: the committee, Johnson's statement), Aug. 20 (Ervin), Aug. 24 (two: O'Brien; Katzenbach's offer), Aug.
+26, Sept. 15, Sept. 23 (Udall: Liberty Island); Mar. 1966 (the bureau abolished, Schwartz out); Jan. 1968 (the Select
+Commission).
+Ch. 10: the outdoor recreation fund, Jan. 31, Feb. 7, Feb. 12, Apr. 2, 1962; Nov. 4, 14, 27, 1963; July 22, 23, Aug.
+13, Sept. 1, 1964; Jan. 3, 1967. Pesticides: May 15, 1963 (PSAC); Apr. 14, 1964 (Carson's death). Wilderness: Jan. 5,
+July 17, 1961; Apr. 16, June 29, Aug. 30, Oct. 3, 1962; Jan. 14, Apr. 2, 1963; Aug. 4, 20, 1964. Water: Jan. 31, 1963;
+Sept. 4, 1964; Jan. 6, 27, mid-Feb., Mar. 31, Apr. 8, May 21, Sept. 2, Sept. 8, Dec. (Ackley's effluent fee), 1965;
+Mar. 1967 (*Torrey Canyon*). Air: Aug. 7, 1961 (Ribicoff); Dec. 1962 (Cohen); Jan. 7, May 14, 18, Aug. 31, Oct. 1, Dec.
+17, 1965; Nov. 21, 24, 1966; Jan. 17, 31, Feb. 8, May 31 (two), July 15, Aug. 15, 17, Nov. 2, 14, 1967. Beauty: Aug.
+1964 (Lady Bird Johnson and Udall in the West); Sept. 14, 1965. The set-asides: July, mid-Nov., Dec. 19, 1968.
+Ch. 11: 14(b): May 24, June 9, 10, 22, July 30 (Humphrey's count), Aug. 12, mid-Aug. (Dirksen with Curtis and Fannin),
+Sept. 1, Sept. 21 (Biemiller), Oct. 8 (0–94), Nov. 18, 1965; Nov. 25, 1966 (Wirtz). Home rule: Aug. 4 (the letter, the
+Papers read), Aug. 11 (Multer's petition), Aug. 12, Sept. 3 (the committee's substitute), 1965.
+
+### The witnesses
+
+New, nearly all LBJ Library holdings, unread (`closed archive`): the staff papers the notes name for the new entries
+(White, Katzenbach, Cox, Alexander, O'Brien, Farmer, Santaella, Humphrey, Valenti, Moyers, Califano, Pollak, Doar,
+Macy, Schlei, Feldman, Wilson, Manatos, Udall, Bell, Heller, Hughes, Kennedy to Aspinall, Biemiller, Wirtz, Dodd,
+Rusk, Cieplinski, Markley, Ackley, Zimmerman, Cohen), the hearings (voting rights, House and Senate; immigration,
+1964 and 1965; the land fund, 1962; wilderness, 1964), the reports (ORRRC, PSAC, *Steps Toward Clean Air*, the Select
+Commission, the task forces of 1965–67), the oral histories (Lee White, O'Brien's other parts, Udall's I, II, IV,
+Hughes, Crafts), the studies without cards (Fager's, Kotz's row; Longenecker, Mendelsohn, Adler, CQ Almanac 1965 and
+1966, Schwartz, Wagner, Brooks, Graham, Allin, Frome, Nevin, Krier and Ursin, Esposito, Gould, Drew, Sultan, Millis
+and Brown, MacNeil). Edged to the registry's: White's Feb. 3, Feb. 8 (two), Valenti's Feb. 9, the draft amendment of
+Jan. 8, O'Brien's Mar. 10, White's Mar. 4 and 13, McPherson's Mar. 12 and June 17, Humphrey's Mar. 12, Valenti's notes
+of Mar. 14, Jones to Watson, Mar. 17, Moyers's Mar. 19, Katzenbach's May 21, 1965; the Burke Marshall, Califano and
+Clarence Mitchell oral histories. To the cards: Garrow's three, Johnson's *Vantage Point*, Califano's *Triumph and
+Tragedy*, Frady's *Wallace*, Lady Bird Johnson's diary, Graham's *Civil Rights Era*, Dallek's *Lone Star Rising*,
+Reimers, Carson's *Silent Spring*.
+
+Not registered (the next reader's): the records of n.6–10 that stand behind passages not entered: Udall to Califano,
+Dec. 30, 1965; Califano to Johnson, Jan. 14, Feb. 18, 19, 26, 1966; Udall to Johnson, May 6, 1966; Gardner to
+Califano, Dec. 27, 1965; Schultze to Johnson, Jan. 11, and White to Johnson, Jan. 12, 1966; Muskie to Udall, Feb. 7,
+1966; Davies to Director, Nov. 23, 1966; Califano to Ackley, Sept. 22, 1966; Johnson to Watson, Feb. 3, Califano to
+Johnson, Apr. 20, July 11, Gardner to Califano, May 19, Lee to Califano, Dec. 6, 1967; Califano to Johnson, Sept. 12,
+1965 (beauty); the Carpenter and Crafts (II) oral histories, Califano's V; *Beauty for America*; Floyd and Shedd;
+Leavitt; Enfield; Zwick and Benstock; Rosenbaum; Davies and Davies; Kevles and Laughlin (before the span).
+
+Near matches for a reader: `x.1965-03-22.califano-to-mcnamara-et-al-reports-nos-1-14` (the series) and the registry's
+two single reports, `x.1965-03-22.joseph-a-califano-jr-the-special` and `x.1965-03-23.califano-to-mcnamara-et-al-report`;
+`x.undated.lawrence-f-obrien-oral-history-ii-39-40`, `-xiii-xviii`, `-xiii-2` against O'Brien's other registered parts;
+`x.1965-08-24.obrien-to-johnson-immigration` (O'Brien to Johnson, June 16, 17, July 30, 1965, and the memorandum of Aug.
+24 Bernstein quotes): perhaps several memoranda.
+
+### Passed over (sixth run)
+
+| Page | Date | Event | Why |
+| --- | --- | --- | --- |
+| 214–15 | 1817–1960 | Selma's history; Clark, Hare, Smitherman, Baker; Smeltzer; Ouellet; the Lewises | out of the brief (before the span) or undated: a lead |
+| 215 | 1961 | Dallas County: 15,115 Negroes of voting age, 156 registered | figures: a lead (the Commission's report) |
+| 216 | Dec. 1964 | Abernathy's jealousy; the party in the Oslo hotel lobby | private |
+| 218 | 1964 | Judge Hare's injunction on 15 organizations and 50 persons | a lead (the day) |
+| 218 | 1964 | the Holiday Inn's rooms; Smeltzer to Smitherman in October | a lead (the days) |
+| 218 | late 1964 | SCLC's Montgomery meeting of about 100: Selma the start | a lead (the day) |
+| 220 | Feb. 3, 1965 | Hammermill's plant announced for Selma | a lead (the announcement's day) |
+| 222 | Mar. 1965 | Clark in hospital, "The niggers are givin' me a heart attack"; Baker to Louisiana; King in bed | a lead (the days) |
+| 228 | Mar. 8–9, 1965 | Reeb's journey from Boston | minor (his travel; the attack entered) |
+| 230 | Mar. 1965 | sympathy marches in Boston, New York, Chicago, Los Angeles | a lead (the days) |
+| 234 | Mar. 21–25, 1965 | the march's incidents: a guardsman relieved for spitting on a priest; a driver punched | a lead (the days) |
+| 234 | Mar. 24, 1965 | King flies to Cleveland for a fund-raising rally | a lead (the rally's record) |
+| 237 | Mar.–Apr. 1965 | Perez's testimony, Dirksen's "stupid," McKeithen's disavowal | a lead (the day: the hearings, pt. 1) |
+| 238 | Mar.–May 1965 | Wagner, Javits, Robert Kennedy for the Puerto Ricans; Katzenbach on Dirksen; Johnson refuses to see them | a lead (the days) |
+| 242 | June 1966 | over 250,000 registered by local officials | a lead (Katzenbach to Kintner, May 13, 1966, registered) |
+| 243 | 1966 | *United States v. Alabama*, 252 F. Supp. 95 (M.D. Ala. 1966) | a lead (the decision's day) |
+| 244 | later | Lee White's and Burke Marshall's reflections | later accounts |
+| 245–50 | 1882–1959 | immigration history | out of the brief (before the span) |
+| 252 | 1963 | Feighan refuses hearings | a lead (undated) |
+| 252 | 1938–39 | Johnson and Leinsdorf | out of the brief |
+| 252 | 1963–64 | Feldman educates Johnson and Valenti; Schwartz to Moyers | a lead (the days) |
+| 253 | 1964 | Celler, with O'Brien, has Feighan's funds denied | a lead (the day) |
+| 253–54 | 1964 | H.R. 7700's drafting; Schlei's estimate, 157,000 to 165,000 | a lead (the days) |
+| 254 | 1964 | the American Legion lining up a filibuster | a lead |
+| 255 | Jan. 1965 | Judiciary 24–11; the subcommittee from 5 to 9 | a lead (the day of organization) |
+| 255 | 1965 | Eastland to Manatos: "Ted Kennedy is in charge of immigration" | a lead (the day) |
+| 256 | May 1965 | Rusk to Valenti: "absolutely could not live with a numerical ceiling"; the 350,000 offer | a lead (the days) |
+| 256 | 1965 | Celler's public fight with Feighan over the joint committee | a lead (the days) |
+| 559 n.5 | 1964 | Schwartz campaigns for Robert Kennedy without clearance | a lead (the days) |
+| 559 n.5 | 1965 | Brody to Califano; Wilson's instructions to Schwartz | a lead (the days) |
+| 559 n.5 | May 3, 1966 | Schwartz to Mace: "Daddy Bird," "Deano" | private remarks |
+| 261–63 | 1907–62 | Carson's life and books | out of the brief (before the span) |
+| 263–64 | 1962–63 | the chemical industry's campaign; Mumford's election of Carson | a lead (the days) |
+| 265 | 1963 | Ribicoff's hearings, Carson a witness | a lead (the day) |
+| 270 | July 1962; 1963 | the hearings on the fund, House and Senate | a lead (the days: the Digest) |
+| 273 | 1967 | Interior, Budget and the committees on the fund's financing | a lead |
+| 274–76 | 1890–1960 | wilderness history; Humphrey's bill of 1956 | out of the brief (before the span) |
+| 276 | Mar. 1964 | Manatos: Aspinall "precariously balanced" | a lead (Manatos to Moyers, Mar. 3, 1964, registered) |
+| 277 | summer 1963 | Aspinall's new version with Interior and Agriculture | a lead (the days) |
+| 277 | Jan.–May 1964 | Aspinall's hearings in five cities; Zahniser's last testimony, his death six days after | a lead (the days) |
+| 277 | 1964 | Aspinall's floor tribute to Zahniser | a lead (the day) |
+| 279–82 | 1948–64 | water pollution's history, Lake Erie | out of the brief, or figures |
+| 284 | Mar. 1965 | Cohen: "very weak ineffectual bill" | a lead (Cohen to O'Brien, Mar. 18, registered; Check in the Apr. 8 entry) |
+| 286 | 1966 | Udall: "the most significant action ... since the Department was created" | a lead (the day) |
+| 286 | 1966 | Johnson offers $50 million a year; Muskie to $3.35 billion | a lead (the days) |
+| 286–87 | 1966–68 | Quigley's tenure; Moore in 1968 | a lead (the days) |
+| 287 | 1966; summer 1967 | the York River spill; oil on Cape Cod | a lead (the days) |
+| 290 | 1960–61 | California's Motor Vehicle Pollution Control Act; blowby systems on 1961 cars | a lead (the session law's day) |
+| 291 | Feb. 1963 | Kennedy's air pollution bill | a lead (the message's day) |
+| 291 | Dec. 1963 | the Clean Air Act | in the tree (`cal.1963-12-17.program`); Bernstein gives no detail of the day |
+| 292 | Apr. 1965 | the papers on Johnson's "love affair" with the auto industry | the press: a lead |
+| 294 | 1966 | Califano sets up Ackley's task force; Watson of IBM to Johnson | a lead (the days) |
+| 296 | 1967 | Gardner's fuel tank and carburetor standards, the sulfur report; Udall on low-sulfur crude | a lead (the days) |
+| 297 | Nov. 20, 1967 | the population reaches 200 million | a lead |
+| 298–300 | 1912–64 | Lady Bird Johnson's life; the Interstate System, 1956, the billboard bonus, 1958 | out of the brief |
+| 300 | 1963–64 | the talks with the Outdoor Advertising Association; Moyers and Tocker | a lead (the days) |
+| 301–02 | late Aug. 1965 | the White House's word to the committees; "Take over the highway beautification bill" | a lead (Califano, 81–85) |
+| 303 | Jan. 28, July 1, 1966; Jan. 16, 1967 | Commerce's proposed regulations, refused by Congress | a lead (each its own entry, from the Federal Register) |
+| 304 | Oct. 1, 1967 | the task force's report | a lead |
+| 304–05 | Jan. 1969 | Pierson and Venezuelan oil; Pierson to Udall, Jan. 17 | a lead (Udall's oral history, IV) |
+| 307–09 | 1935–1964 | union security, Taft-Hartley, the right-to-work States | out of the brief (before the span) |
+| 309 | 1965 | Meany asks Johnson's support; "willing to wait" | a lead (the days) |
+| 310 | July 1965 | the farm-labor coalition | a lead (the days) |
+| 311 | Aug.–Sept. 1965 | Dirksen to Johnson, "I'm committed"; Meany to Dirksen; Mansfield, "no pajama sessions"; Johnson, "a saint" | a lead (the days) |
+| 312 | Jan.–Feb. 1966 | Lindsay: the strike the "death warrant"; Meany's anger; Johnson's 61 Senators | a lead (the days) |
+| 312–13 | later | O'Brien's and Mansfield's reflections | later accounts |
+| 314 | Sept. 29, 1965 | Dirksen, Morse and Albert on the House's home rule bill | a lead (the Record) |
+
+### The press (sixth run)
+
+| Date | Outlet | Item | Page |
+| --- | --- | --- | --- |
+| 1962-06 | *The New Yorker* | *Silent Spring* serialized | 263 |
+| 1965-01-26 | *New York Times* | front page: Clark sitting on Annie Lee Cooper | 220 |
+| 1965-02-05 | *New York Times* | King's letter from the Selma jail, an advertisement | 221 |
+| 1965-03-07 | ABC | *Judgment at Nuremberg* interrupted for the bridge (Zelizer's pending entry, cited) | 227 |
+| 1965-03-08 | *New York Times* | front page: Roy Reed on the bridge | 227 |
+| 1965-04 | the papers | Johnson's "love affair" with the auto industry | 292 |
+| 1965-12 | *Atlantic Monthly* | Elizabeth Drew, "Lady Bird's Beauty Bill" | 300 |
+| 1969-01-17 | the press | the set-asides broken | 305 |
+
+### Leads (sixth run)
+
+National: the rows above marked "a lead"; *United States v. Alabama*, 252 F. Supp. 95 (M.D. Ala. 1966), its day; the
+Senate Judiciary's report of Sept. 15, 1965, on the immigration bill (no Digest row found); Feighan's and Celler's
+fight over the joint committee's funds; the Commerce Department's highway beauty regulations of 1966–67 (Federal
+Register); the Ford compromise of Dec. 17, 1965 (O'Brien to Califano, Dec. 29, registered); the House's wilderness
+hearings of 1964 (pp. 1205 for Zahniser) and Zahniser's death; Johnson's promise to the AFL-CIO, Nov. 18, 1965 (no
+Papers item that day: the record). States and cities: California's Motor Vehicle Pollution Control Act of 1960; New
+York's smog of Thanksgiving, 1966 (the days). Propose a Part III entry for Abba P. Schwartz (State, Bureau of Security
+and Consular Affairs, 1962–66), whose name entry comes from FRUS's lists only, and for Michael A. Feighan (House
+Judiciary, Subcommittee No. 1), whose comes from the rosters.
+
 ## Not read
 
-Chs. 8–11, 13, 15–17 and 19–20 but the pages named above: Selma, immigration, the environment, 14(b), Vietnam,
-turmoil, the minimum wage and Social Security, the arts, the collapse of 1968. A later reader should take them chapter by
-chapter, starting with ch. 8, and hold the twelve cites still behind "To check" (fourth run's table) as they go; their
-matter is economic (chs. 14, 19, 20 searched by the fourth run; none in chs. 4–7). Ch. 4–7 read whole, with their notes
-(fifth run).
+Chs. 13, 15–17 and 19–20 but the pages named above: Vietnam, turmoil, the minimum wage and Social Security, the arts,
+the collapse of 1968. A later reader should take them chapter by chapter, starting with ch. 13, and hold the twelve
+cites still behind "To check" (fourth run's table) as they go; their matter is economic (chs. 14, 19, 20 searched by
+the fourth run; none in chs. 4–11). Chs. 4–11 read whole, with their notes (fifth and sixth runs).
