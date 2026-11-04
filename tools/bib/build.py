@@ -6,6 +6,7 @@
 
 Nothing in build/ is edited by hand; it is regenerated from lists/.
 """
+import glob
 import html
 import json
 import os
@@ -234,7 +235,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         members = thread_members(lst).get(slug, [])
         half = calsplit.CUR["half"]
         first = min((calsplit.half_of_date(lst, m["date"]) for m in members), default=1)
-        statement = calsplit.statement(lst, e, half, first)   # written once, chosen by the part's range (statements.py)
+        statement = calsplit.statement(lst, e, half, first, members)   # written once, chosen by the part's range
         if half and calsplit.cfg(lst):
             anchor = calsplit.thread_anchor(lst, slug, half)
     for i, c in enumerate(store.as_list(statement)):
@@ -392,7 +393,9 @@ def half_sections(lst, half):
                          or any(calsplit.half_of_date(lst, m["date"]) == half
                                 for t in store.as_list(e.get("see") or e["id"].split(".", 2)[2])
                                 for m in members.get(t, []))]
-            if half > 1:
+            if calsplit.index_page(lst):     # each year's under its page's name (th-cal1961), the index's th
+                c.id = f"{s.id}-{calsplit.page_key(lst, half)}"
+            elif half > 1:
                 c.id = f"{s.id}{half}"
             out.append(c)
         else:
@@ -401,11 +404,51 @@ def half_sections(lst, half):
 
 
 def page_text(lst, half):
-    """The page's own fields (title, heading, lede, logic): the list's, or for a later part of the calendar the part's."""
+    """The page's own fields (title, heading, lede, logic): the list's; for a part of the calendar the part's, its
+    `logic` after the list's where the calendar has an index (the list's own fields; calsplit.py, STYLE 13), else in
+    place of it; for the index (half 0), the list's, its `index_logic` after."""
     d = dict(lst.data)
-    if half and half > 1 and calsplit.cfg(lst):
-        d.update({k: v for k, v in calsplit.cfg(lst)[half - 1].items() if k in ("page_title", "h1", "lede", "logic")})
+    ix = calsplit.index_page(lst)
+    if half == 0:
+        d["logic"] = store.as_list(d.get("logic")) + store.as_list(d.get("index_logic"))
+    elif half and calsplit.cfg(lst) and (half > 1 or ix):
+        p = calsplit.cfg(lst)[half - 1]
+        d.update({k: v for k, v in p.items() if k in ("page_title", "h1", "lede")})
+        if p.get("logic"):
+            d["logic"] = (store.as_list(d.get("logic")) if ix else []) + store.as_list(p["logic"])
     return d
+
+
+def cal_index(lst):
+    """The calendar's index (calsplit.py, STYLE 13), after its lede: the whole calendar's contents (the grid, the tables
+    and maps: contents.fill) and its threads, each with the years it has entries in, each year linked to the thread in
+    that year's index. On cal.html, and as the reader's Cal. block."""
+    series_mode = calsplit.CUR["mode"] == "series"
+    th = lst.section(lst.data.get("threads_section", "th"))
+    out = [contents.nav(lst, [th] if th else [], 0)]
+    members = thread_members(lst)
+    hid = f"{lst.key}--{th.id}" if series_mode else th.id
+    out.append(f'<h2 id="{attr(hid)}" data-short="Threads">Threads</h2>')
+    out.append('<p class="logic">Each thread, and the years it has entries in, each year linked to the thread in that '
+               'year\'s index: its statement there, and its dates. Alphabetical.</p>')
+    out.append('<ol class="e thx">')
+    for slug, te in lst.threads().items():
+        ms = members.get(slug)
+        if te.get("see") or not ms:
+            continue
+        by = {}
+        for m in ms:
+            by.setdefault(calsplit.half_of_date(lst, m["date"]), set()).add(str(m["date"])[:4])
+        hs = sorted(by)
+        links = ", ".join(f'<a href="{attr(calsplit.href(lst, h, calsplit.thread_anchor(lst, slug, h)))}">{y}</a>'
+                          for h in hs for y in sorted(by[h]))
+        name = (f'<a href="{attr(calsplit.href(lst, hs[0], calsplit.thread_anchor(lst, slug, hs[0])))}">'
+                f'{esc(thread_name(lst, slug))}</a>')
+        ghost = ' class="thg"' if lst.is_ghost(slug) else ""
+        out.append(f'<li id="{attr(lst.key)}.thread.{attr(slug)}"{ghost}><span class="s">{name}</span>'
+                   f'<span class="n">{links}.</span></li>')
+    out.append("</ol>")
+    return out
 
 
 def build_list(series, key, linker=None, half=None):
@@ -448,11 +491,13 @@ def build_list(series, key, linker=None, half=None):
     main.append('<p class="logic">To navigate, use the Outline button, the contents below, or the handle on the right edge, which you can drag to see nearby headings. '
                 'All the lists in one reader: <a href="series.html">the series</a>. The elections and each Congress at its opening: <a href="congress.html">Elections</a>. '
                 'The Executive Branch at each inauguration: <a href="executive.html">Executive</a>.</p>')
-    if lst.kind == "calendar":           # the threads, the month grid, the tables and maps (tools/bib/contents.py)
-        main.append(contents.nav(lst, half_sections(lst, half)))
+    if lst.kind == "calendar" and half == 0:   # the calendar's index (calsplit.py, STYLE 13)
+        main.extend(cal_index(lst))
+    elif lst.kind == "calendar":           # the threads, the month grid, the tables and maps (tools/bib/contents.py)
+        main.append(contents.nav(lst, half_sections(lst, half), half))
     else:
         main.append('<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList"></ol>\n</nav>')
-    for s in half_sections(lst, half):
+    for s in (half_sections(lst, half) if half != 0 else []):
         main.extend(section_body(series, lst, s, lambda sec: attr(sec.id), text_html))
     page = open(os.path.join(TEMPLATES, "list.html"), encoding="utf-8").read()
     page = page.replace("{{page_title}}", esc(data["page_title"])).replace("{{main}}", "\n".join(main))
@@ -988,10 +1033,11 @@ def build_series(series):
     for lst in series.lists.values():
         m = lst.meta
         split = calsplit.cfg(lst) if lst.kind == "calendar" else None
-        for half in (range(1, len(split) + 1) if split else (None,)):
-            key = split[half - 1]["page"] if split else lst.key
+        ix = calsplit.index_page(lst) if split else None
+        for half in ([0] if ix else []) + (list(range(1, len(split) + 1)) if split else [None]):
+            key = lst.key if half == 0 else split[half - 1]["page"] if split else lst.key
             data = page_text(lst, half)
-            p = split[half - 1] if split else {}
+            p = split[half - 1] if split and half else {}
             meta[key] = {"abbr": p.get("abbr", m["abbr"]), "title": p.get("title", m["title"]),
                          "span": p.get("span", m.get("span", "")), "group": m.get("group", "")}
             order.append(key)
@@ -1002,6 +1048,11 @@ def build_series(series):
                 out.append(f'<p class="lede">{calsplit.other_link(lst, prose(data["lede"], "lede"))}</p>')
             for p in store.as_list(data.get("logic")):
                 out.append(f'<p class="logic">{prose(p, "logic")}</p>')
+            if half == 0:                    # the calendar's index (calsplit.py, STYLE 13)
+                out.extend(cal_index(lst))
+                out.append("</section>")
+                body.append("\n".join(out))
+                continue
 
             def li_extra(sec, e):
                 return f' data-sec="{linker.sec_id(sec)}"', linker.elsewhere(lst, sec, e)
@@ -1030,10 +1081,12 @@ def build_series(series):
         gid = "home--" + (g.split("–")[0] if g else "other")
         lines = []
         for l in lsts:
-            halves = range(1, len(calsplit.cfg(l)) + 1) if l.kind == "calendar" and calsplit.cfg(l) else (None,)
+            halves = list(range(1, len(calsplit.cfg(l)) + 1)) if l.kind == "calendar" and calsplit.cfg(l) else [None]
+            if l.kind == "calendar" and calsplit.index_page(l):
+                halves = [0] + halves
             for half in halves:
-                k = calsplit.page_key(l, half) if half else l.key
-                n = sum(1 for s, e in l.entries() if half is None or calsplit.half_of_entry(l, s, e) == half
+                k = l.key if half == 0 else calsplit.page_key(l, half) if half else l.key
+                n = sum(1 for s, e in l.entries() if half in (None, 0) or calsplit.half_of_entry(l, s, e) == half
                         and not e["id"].startswith(f"{l.key}.thread."))
                 lines.append(f'<li><a class="lk" href="#{k}--top"><span class="ab">{esc(meta[k]["abbr"])}</span>'
                              f'<span class="tt">{esc(meta[k]["title"])}, {esc(meta[k].get("span", ""))}</span></a>'
@@ -1093,6 +1146,47 @@ def _section_series(series, lst, sec, linker, li_extra):
     return out
 
 
+def write_calendar(series, lst, linker, held, routed):
+    """The calendar a page a year (calsplit.py, STYLE 13), once every part is built: each part's contents filled with the
+    whole calendar's tables and maps, routed and written; the anchors each page holds (calsplit.REAL), for the pages
+    built after; the index (cal.html) and the old parts' pages, forwarding a link by its anchor."""
+    out = []
+    calsplit.REAL.clear()
+    seen = {}
+    for half, name, path, page in held:
+        for a in set(calsplit.ID.findall(page)):
+            seen[a] = None if a in seen else half - 1
+    calsplit.REAL.update({a: h for a, h in seen.items() if h is not None})
+    for half, name, path, page in held:
+        calsplit.CUR.update(half=half, mode="list")
+        page = contents.fill(page, lst, half)
+        page = routed(page, half)
+        page = lazydays.split(page, name, OUT)   # the days' blocks, a file a month (tools/bib/lazydays.py)
+        smart.write(path, page)
+        out.append(path)
+    fwd = calsplit.forward(lst)                 # old links, by anchor (calsplit STYLE 14)
+    calsplit.CUR.update(half=0, mode="list")
+    page = build_list(series, lst.key, linker, 0)
+    page = contents.fill(page, lst, 0)
+    page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
+    page = page.replace("</body>", calsplit.forward_script(lst, fwd, lst.key) + "\n</body>", 1)
+    path = os.path.join(OUT, f"{lst.key}.html")
+    smart.write(path, page)
+    out.append(path)
+    for old in calsplit.old_pages(lst):
+        if old == lst.key:
+            continue
+        path = os.path.join(OUT, f"{old}.html")
+        smart.write(path, calsplit.stub(lst, fwd, old))
+        out.append(path)
+        for f in glob.glob(os.path.join(OUT, lazydays.SUB, f"{old}-[0-9][0-9][0-9][0-9]-[0-9][0-9]-*.json")):
+            os.remove(f)                        # the old parts' month files
+    for f in glob.glob(os.path.join(OUT, lazydays.SUB, f"{lst.key}-[0-9][0-9][0-9][0-9]-[0-9][0-9]-*.json")):
+        os.remove(f)                            # the index has no days
+    calsplit.CUR.update(half=None)
+    return out
+
+
 def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
@@ -1111,6 +1205,9 @@ def run(series, which=None):
     for k in keys:
         lst = series.lists[k]
         halves = range(1, len(calsplit.cfg(lst)) + 1) if lst.kind == "calendar" and calsplit.cfg(lst) else (None,)
+        whole = lst.kind == "calendar" and calsplit.index_page(lst)   # a page a year and the index (calsplit STYLE 13)
+        held = []
+        contents.FOUND.clear()
         for half in halves:
             name = calsplit.page_key(lst, half) if half else k
             path = os.path.join(OUT, f"{name}.html")
@@ -1136,17 +1233,22 @@ def run(series, which=None):
                 page = dayblocks.inject(page, series, "list")   # day blocks: the war table, Armed Forces Day
                 page = daybook.inject(page)
                 page = feeds.inject(page, lst, half)     # the months' feeds (tools/bib/feeds.py)
-                page = contents.finish(page, lst, half or 1)   # the tables and maps listed (tools/bib/contents.py)
+                # the tables and maps listed (tools/bib/contents.py): the page's, or the whole calendar's once all are built
+                page = contents.finish(page, lst, half or 1, defer=bool(whole))
                 if half:
                     page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
                     page = page.replace("</body>", calsplit.SCRIPT + "\n</body>", 1)
-                    page = routed(page, half)
-            else:
-                page = routed(page)
+            if whole:
+                held.append((half, name, path, page))
+                continue
+            page = routed(page, half) if lst.kind == "calendar" and half else routed(page)
             calsplit.CUR.update(half=None)
             page = lazydays.split(page, name, OUT)   # the days' blocks, a file a month (tools/bib/lazydays.py)
             smart.write(path, page)
             written.append(path)
+        if whole:
+            written += write_calendar(series, lst, linker, held, routed)
+        calsplit.CUR.update(half=None)
     if which in (None, "series"):
         page, linker = build_series(series)
         page = congress.inject(page, series, linker, "series")

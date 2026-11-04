@@ -50,6 +50,18 @@ headings, and tables on the individual calendar pages"): the calendar's index pa
 whole calendar's contents, the months grid and the "Tables and maps" list for every year, each month, heading and
 table linked through to its place on its year's page (`contents.py`; the router already sends an anchor to its page).
 
+Built Nov. 4, 2026: `split:` a part a year, `cal1960.html` (from Jan. 6) to `cal1969.html` (to Jan. 20), and one page
+for the primary seasons of 1972 and 1976, `calprimaries.html` (a few dozen entries; a page a season when those years
+are written). `cal.html` is the index: the whole calendar's grid and tables and maps, then every thread with the years
+it has entries in, each linked to the thread in that year's index; every year's page carries the same grid and list
+(contents STYLE 6). January 1966's two sections stand on one page, retitled by their days. Labels "Cal. 1961"; the
+ledes name the year before and after, linked. Old links: every page is routed at build, now also by the ids each year's
+page holds alone; from outside, `cal.html`, `cal63.html` and `cal66.html` send an anchor to its year's page by script,
+by the anchor's form or a map the build writes (`calsplit.py`, STYLE 13-14). Threads not yet converted keep `c`, `c2`,
+`c3` by the old three parts (`legacy_parts`). The pages, built: 1960 3.8 MB, 1961 5.0, 1962 4.1, 1963 5.9, 1964 5.9,
+1965 6.4, 1966 5.1, 1967 5.7, 1968 7.1, 1969 1.4, the primaries 0.5, the index 0.2 (the three parts were 12.6, 18.1 and
+19.1); 1968 is nearest the 8 MB cue. `./bib build cal`: some 5.5 minutes.
+
 ## 4. Thread statements written once
 
 Today a statement is written for each part a thread has entries in (`c`, `c2`, `c3`), and every new division means

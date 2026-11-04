@@ -5,13 +5,16 @@
                                      it ("tb-<kind>-<key>"), labelled for the contents and the thread statements
     KINDS                            kind -> its label from the tag's value ("election": "1960" -> "Election of Nov. 8,
                                      1960"), or None for a kind the contents leave out (special, primary)
-    nav(lst, sections)               the contents of a calendar page: the threads, the month grid, a slot for the tables
+    nav(lst, sections, half)         the contents of a calendar page: the threads, the month grid (the whole calendar's
+                                     where it is in parts), a slot for the tables
     day_mark(kind, key, iso, threads)   the anchor of a block set under a date, not in an entry (tools/bib/dayblocks.py:
                                      the war table, Armed Forces Day): it names the day and the threads in place of an
                                      entry, and finish() lists it as it lists an entry's
-    finish(page, lst, half)          after every inject: the tables and maps listed in the contents (half: the page's
-                                     part; None in the reader, which has no such contents) and in their threads'
-                                     statements; the slots cleared
+    finish(page, lst, half, defer)   after every inject: the tables and maps listed in their threads' statements and in
+                                     the contents (the page's own; in the reader, the whole calendar's, in its Cal.
+                                     block); with defer, recorded (FOUND) for fill()
+    fill(page, lst, half)            once every part is built: the whole calendar's tables and maps in a part's
+                                     contents, or the index's (half 0), each linked to its page
 
 A new table or map type registers itself: it adds its kind to KINDS (put refuses a kind not there) and sets its blocks
 with put, and the contents and the thread index list it with no more code (the owner's rule, Oct. 21, 2026).
@@ -21,8 +24,8 @@ STYLE (the owner's rules, Oct. 21, 2026):
     month its three-letter form ("Sep", not "Sept.": here only; the Bluebook's forms elsewhere), linked to its section,
     the section's own title on hover. A month the page does not hold leaves its cell empty and the columns stand. A year
     takes only the rows it has months in (1969: one row; 1972, Mar.-Aug.: two). A year not following the one before
-    (1969, then the primary seasons of 1972) takes a little space above. January 1966 is two sections, one a part: each
-    page shows its own (196601, Jan. 1-9, in Cal. II; 196601b in Cal. III). The threads section keeps its place, first,
+    (1969, then the primary seasons of 1972) takes a little space above. January 1966 is two sections (196601, Jan. 1-9;
+    196601b, from the session's opening), one cell: the first's. The threads section keeps its place, first,
     a line of its own in the contents' type.
  2. After the grid, under "Tables and maps", every table and map on the page in the order it first appears there, each
     linked to its anchor, by its label ("Election of Nov. 8, 1960"), one a line, grouped by year in the grid's year
@@ -46,6 +49,12 @@ STYLE (the owner's rules, Oct. 21, 2026):
     election is one block, "Elections of Nov. 8, 1960" (congress.election_day): "Presidential electors", "Congress",
     "State elections" (governors, legislatures) under it in the blocks' bold subheadings; the governors' and the
     legislatures' own entries point to their parts ("The table: ...", kind "see", unlisted).
+ 6. The whole calendar on every page (the owner, Oct. 30, 2026: "The 'list' should include link-throughs to the
+    months, headings, and tables on the individual calendar pages"; volume.md, section 3): each year's page, and the
+    index, carry every part's months in the grid and every part's tables and maps in the list, each linked through to
+    its place on its year's page (calsplit.href; the reader, in its block). Another part's year in the year column is
+    a link to its page's top, muted; the page's own, in the text's color, unlinked. The threads line is the page's
+    own threads (the index's: its list of threads).
 """
 import calendar
 import html
@@ -213,18 +222,25 @@ def plain_title(sec):
     return plain(sec.title)
 
 
-def nav(lst, sections):
-    """The calendar page's contents (STYLE 1, 3): the threads line, the grid, the slot finish() fills."""
+def nav(lst, sections, half=None):
+    """The calendar page's contents (STYLE 1, 3, 6): the threads line, the grid, the slot finish() or fill() fills. Where
+    the calendar is in parts, the grid is the whole calendar's: every month of every part, linked through to its page
+    (half: the page's part; 0, the index)."""
     lines, years = [], {}
+    whole = calsplit.cfg(lst) and half is not None
+    series = calsplit.CUR["mode"] == "series"
     for s in sections:
+        if not _month(s):
+            sid = f"{lst.key}--{s.id}" if series else s.id
+            lines.append(f'<li><a href="#{esc(sid)}" data-id="{esc(sid)}">{esc(plain_title(s))}</a></li>')
+    for s in (lst.sections if whole else sections):
         ym = _month(s)
         if ym:
-            years.setdefault(ym[0], {})[ym[1]] = s
-        else:
-            lines.append(f'<li><a href="#{esc(s.id)}" data-id="{esc(s.id)}">{esc(plain_title(s))}</a></li>')
+            years.setdefault(ym[0], {}).setdefault(ym[1], s)      # 196601 and 196601b: the cell the first's
     rows, prev = [], None
     for y in sorted(years):
         ms = years[y]
+        part = calsplit.half_of_section(lst, ms[min(ms)]) if whole else half
         halves = [h for h in (0, 1) if any(h * 6 + k in ms for k in range(1, 7))]
         trs = []
         for j, h in enumerate(halves):
@@ -232,18 +248,34 @@ def nav(lst, sections):
             for k in range(1, 7):
                 mo = h * 6 + k
                 s = ms.get(mo)
-                cells.append(f'<td><a href="#{esc(s.id)}" data-id="{esc(s.id)}" title="{esc(_title(s, y, mo))}">'
-                             f'{MON3[mo - 1]}</a></td>' if s else "<td></td>")
-            th = f'<th scope="rowgroup" rowspan="{len(halves)}">{y}</th>' if j == 0 else ""
+                cells.append(f'<td><a href="{esc(_sec_href(lst, s, whole))}" data-id="{esc(_sec_id(lst, s))}" '
+                             f'title="{esc(_title(s, y, mo))}">{MON3[mo - 1]}</a></td>' if s else "<td></td>")
+            yc = str(y)
+            if whole and part != half:          # another part's year: its page's top (STYLE 6)
+                key = calsplit.page_key(lst, part)
+                yc = f'<a href="{esc(f"#{key}--top" if series else f"{key}.html")}">{y}</a>'
+            th = f'<th scope="rowgroup" rowspan="{len(halves)}">{yc}</th>' if j == 0 else ""
             trs.append(f"<tr>{th}{''.join(cells)}</tr>")
         gap = ' class="gap"' if prev is not None and y != prev + 1 else ""
-        rows.append(f"<tbody{gap}>{''.join(trs)}</tbody>")
+        here = ' data-here="1"' if whole and part == half else ""
+        rows.append(f"<tbody{gap}{here}>{''.join(trs)}</tbody>")
         prev = y
     grid = (f'<table class="tocg" aria-label="Months"><colgroup><col class="y">{"<col>" * 6}</colgroup>'
             f'{"".join(rows)}{SLOT}</table>') if rows else SLOT
     return ('<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" '
             'data-short="Contents">Contents</h3>\n<div id="tocCal" class="tocc">'
             f'<ol class="tocl">{"".join(lines)}</ol>{grid}</div>\n</nav>')
+
+
+def _sec_id(lst, s):
+    return f"{lst.key}--{s.id}" if calsplit.CUR["mode"] == "series" else s.id
+
+
+def _sec_href(lst, s, whole):
+    """A month's link: on the page, or through to its part's page (the reader: its block's section)."""
+    if calsplit.CUR["mode"] == "series" or not whole:
+        return "#" + _sec_id(lst, s)
+    return calsplit.href(lst, calsplit.half_of_section(lst, s), s.id)
 
 
 MARK = re.compile(r'<span class="tba" id="([^"]+)" data-tb="([^"]*)" data-tbe="([^"]+)"></span>')
@@ -255,8 +287,12 @@ def thread_slot(lst, slug):
     return f"<!--tb:{calsplit.CUR['half'] or 1}:{slug}-->"
 
 
-def finish(page, lst, half=None):
-    """The tables and maps on the page, listed in the contents (half given) and in their threads' statements."""
+FOUND = {}       # part -> [(anchor, label, date)]: each part page's tables and maps, for the whole calendar's list
+
+
+def finish(page, lst, half=None, defer=False):
+    """The tables and maps on the page, listed in their threads' statements and in the contents: the page's own; with
+    defer (a calendar in parts), recorded for fill(), which lists the whole calendar's once every part is built."""
     from .build import entry_threads
     ents = {e["id"]: e for _, e in lst.entries()}
     found = []                                  # (anchor, label, entry), in order of appearance
@@ -269,10 +305,11 @@ def finish(page, lst, half=None):
             e = {"id": eid, "date": iso, "thread": ts[0], "also": ts[1:]} if ts else None
         if e is not None:
             found.append((m.group(1), html.unescape(m.group(2)), e))
-    if half is not None and SLOT in page:
-        page = page.replace(SLOT, _list(found), 1)
-        if 'id="tocstyle"' not in page:
-            page = page.replace("</head>", STYLE + "\n</head>", 1)
+    if defer:
+        FOUND[half] = [(aid, lab, str(e.get("date") or "")) for aid, lab, e in found]
+    elif SLOT in page:
+        page = page.replace(SLOT, _list([("#" + aid, lab, str(e.get("date") or "")) for aid, lab, e in found]), 1)
+        page = style(page)
     by = {}
     for aid, lab, e in found:
         h = calsplit.half_of_date(lst, e.get("date") or "")
@@ -291,18 +328,35 @@ def finish(page, lst, half=None):
     return page
 
 
+def fill(page, lst, half):
+    """A part's page (half; 0, the index) once every part is built: the whole calendar's tables and maps in its
+    contents (STYLE 6), each linked to its anchor on its page."""
+    if SLOT not in page:
+        return page
+    items = []
+    for h in sorted(FOUND):
+        for aid, lab, d in FOUND[h]:
+            items.append((calsplit.href(lst, h, aid), lab, d))
+    return style(page.replace(SLOT, _list(items), 1))
+
+
+def style(page):
+    return page if 'id="tocstyle"' in page else page.replace("</head>", STYLE + "\n</head>", 1)
+
+
 def _list(found):
+    """The tables and maps (href, label, date), grouped by year (STYLE 2)."""
     if not found:
         return ""
     years = {}
-    for aid, lab, e in found:
-        years.setdefault(str(e.get("date") or "")[:4], []).append((aid, lab))
+    for href, lab, d in found:
+        years.setdefault(d[:4], []).append((href, lab))
     out = ['<tbody class="tbh"><tr><td></td><td colspan="6">Tables and maps</td></tr></tbody>']
     for y, items in years.items():
         trs = []
-        for j, (aid, lab) in enumerate(items):
+        for j, (href, lab) in enumerate(items):
             th = f'<th scope="rowgroup" rowspan="{len(items)}">{esc(y)}</th>' if j == 0 else ""
-            trs.append(f'<tr>{th}<td colspan="6" class="tbi"><a href="#{esc(aid)}">{esc(lab)}</a></td></tr>')
+            trs.append(f'<tr>{th}<td colspan="6" class="tbi"><a href="{esc(href)}">{esc(lab)}</a></td></tr>')
         out.append(f'<tbody class="tbs">{"".join(trs)}</tbody>')
     return "".join(out)
 
@@ -335,6 +389,7 @@ table.tocg{border-collapse:collapse;table-layout:fixed;width:min(100%,27rem);mar
 table.tocg col.y{width:16%}
 table.tocg th,table.tocg td{border:0;background:none;padding:.2rem 0;text-align:left;vertical-align:top}
 table.tocg th{font-weight:700;color:var(--ink);font-size:.95rem}
+.tocc table.tocg th a{color:var(--muted)}
 table.tocg tbody.gap>tr:first-child>*{padding-top:.75rem}
 table.tocg tbody.tbh td{padding-top:1.1rem;font-weight:700;font-size:1rem}
 table.tocg tbody.tbs>tr:first-child>*{padding-top:.45rem}

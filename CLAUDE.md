@@ -49,7 +49,7 @@ So every calendar entry has:
     "to the relevant material elsewhere in the bibliography" (the owner's words); it no longer names the themed lists'
     sections that treat the event (the owner's ruling, Oct. 13, 2026, with the move to one A–Z list). Write a work as
     its card, `[[w.beschloss-crisis-years]]` (a pinpoint after it: `[[w.gallup-poll]], III, 1862`): the build prints
-    the full citation at the work's first appearance in each part of the calendar, the short form after (the owner's
+    the full citation at the work's first appearance in each year's page of the calendar, the short form after (the owner's
     request, Oct. 13, 2026; FIRST CITE in `tools/bib/works.py`). A work with no card yet: make one first (`works/`, or
     `./bib works adopt`).
   - for an event done in private and documented in records nobody saw at the time (a recording, a memorandum, an FBI
@@ -261,7 +261,7 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 | kja  | K–J Adm.  | Kennedy and Johnson administrations, 1961–69 |
 | kjc  | K–J Cong. | Congress, the nation, and the states, 1961–69 |
 | opp  | Opp.      | The Republican opposition, 1961–69           |
-| cal  | Cal.      | Calendar, Jan. 6, 1960–Jan. 20, 1969 (the 86th Congress's second session; the 87th through the 90th; the 91st's opening); the primaries, 1960–76; built as three pages, Cal. I (`cal.html`, 1960–62), Cal. II (`cal63.html`, Jan. 1963–Jan. 9, 1966) and Cal. III (`cal66.html`, from Jan. 10, 1966) |
+| cal  | Cal.      | Calendar, Jan. 6, 1960–Jan. 20, 1969 (the 86th Congress's second session; the 87th through the 90th; the 91st's opening); the primaries, 1960–76; built a page a year, Cal. 1960 (`cal1960.html`) to Cal. 1969 (`cal1969.html`, to Jan. 20), the primaries of 1972 and 1976 (`calprimaries.html`), and the index (`cal.html`) |
 | l68  | 1968      | The 1968 campaign ("the 1968 list")          |
 | adm  | Adm.      | Nixon and his administration, 1969–74        |
 | cong | Cong.     | Congress, the nation, and the states, 1969–74 |
@@ -376,7 +376,7 @@ The thread index (Part I of the calendar) is generated from `thread` and
   before it lifts: the templates listen for touches so iOS Safari shows it), or at keyboard focus. An article's link spans the volume, the journal and the first page: `[27 J. Latin Am.
   Stud. 1](https://…)`.
 - `[[w.id]]`: a work of the catalogue, linked to its entry on `works.html`: in the calendar, its full citation at its
-  first appearance in each part (FIRST CITE), its short form after ("Beschloss, *Crisis Years*"; SHORT FORM in
+  first appearance in each year's page (FIRST CITE), its short form after ("Beschloss, *Crisis Years*"; SHORT FORM in
   `tools/bib/works.py`; a card's `short` overrides); elsewhere the short form. `[[w.id|full]]` the full citation
   wherever it stands; `[[w.id|text]]` shows "text". A merged card's old id still answers. `check` fails on a card that
   does not exist.
@@ -1488,7 +1488,7 @@ tools/bib/concepts.py         the master page (build/indicators.html) and the ca
 Concepts and sources (the owner's rule, Oct. 21, 2026; standing): what each series measures, then and today, and
 where its figures come from, is written once, in the master, `indicators/concepts.yaml`, each sentence or clause
 tagged with the span of reporting periods it concerns; never in a module, a table or a page. Each calendar page
-(Cal. I, II, III; the reader's three blocks alike) writes a servant of it right after the month table where a series
+(each year's, and the reader's blocks alike) writes a servant of it right after the month table where a series
 first appears on that page (The war's after its own table, under the first Thursday: below): of the series first used there, grouped under the tables' subheadings (Prices,
 Employment, Output, Federal finance, Federal debt, International, Oil, The war, Money and credit, Opinion), only the pieces whose
 span holds a period that page files for the series; no series the page does not show, nothing about periods
@@ -1758,30 +1758,37 @@ Climate, Rain (by month), Population (1960, 1970: modelled, later) and Cities (t
   statement in full, the software's licenses (`tools/bib/indochina.py`, its STYLE notes). Each annual map closes with a
   muted line to it.
 
-## The calendar in three parts
+## The calendar by year
 
-One list in the data (`lists/cal/`), three pages in the build, parted at the 88th Congress's opening (by the month) and at
-the 89th's second session (the owner's ruling, Oct. 17, 2026): `cal.html` (Cal. I, Jan. 6, 1960, to Dec. 31, 1962),
-`cal63.html` (Cal. II, Jan. 1, 1963, to Jan. 9, 1966) and `cal66.html` (Cal. III, from Jan. 10, 1966); in the reader,
-three blocks. January 1966 is two sections, `196601` (Jan. 1–9) and `196601b` (Jan. 10–31). `split:` in
-`lists/cal/list.yaml` is a list: the first item the first part's labels (abbr, title, span; its page texts are the
-list's own), each later item a part with the date it begins (`from`), its page, and its own page_title, h1, lede,
-logic, abbr, title and span. A dated section goes to the part its first day falls in; the threads section is in all.
-`tools/bib/calsplit.py` (STYLE notes at the top):
+One list in the data (`lists/cal/`), a page a year in the build (volume.md §3; built Nov. 4, 2026): `cal1960.html`
+(Cal. 1960, from Jan. 6) to `cal1969.html` (Cal. 1969, to Jan. 20), `calprimaries.html` (Cal. 1972–76, the primary
+seasons of 1972 and 1976, one page while they hold only the primaries), and `cal.html`, the index; in the reader, a block
+each, the index the Cal. block. January 1966 is two sections, `196601` (Jan. 1–9) and `196601b` (from the session's
+opening), one page. `split:` in `lists/cal/list.yaml` is a list, a part an item: its `page`, the day it begins (`from`;
+the first, the calendar's first day), its `abbr` ("Cal. 1961"), `called` (the words the other ledes name it by, "the
+calendar of 1961", linked), title, span, page_title, h1, lede and logic. The list's own page_title, h1 and lede, with
+`index_logic`, are the index's; its `logic` shows on the index and before every year's own. A part a line: a year that
+outgrows some 8 MB splits again by half-year, by the same line. A dated section goes to the part its first day falls in;
+the threads section is in all. `tools/bib/calsplit.py` (STYLE notes at the top):
 
 - Each part's thread index lists the threads with entries in it, with that part's statement (the scope, the spans that
-  meet the part's range, the events in it: above, under "So every calendar entry has"; a part's range its `from` to the
-  day before the next part's, `part_range`) and its dates by year: the year unlinked, in the sans, a little heavier
-  ("**1961** Jan. 23, Feb. 20. **1962** …"). Across the divides, muted: after its dates, the year and date of the
-  thread's next entry in a later part (". 1963 Jan. 14."), the year linked, not underlined, to the thread in that part's
-  index, the date to the entry; before its dates, its last entry in an earlier part, linked the same way.
-- The later parts' thread entries are anchored `cal63.thread.<slug>`, `cal66.thread.<slug>`; a rubric links to its
-  own part's index.
-- At each seam, muted: "‹ Dec. 31, 1962, in the first calendar" at the head of a part's first day; "Jan. 1, 1963, in
-  the second calendar ›" at the foot of the part before's last.
+  meet the part's range, the events in it: above, under "So every calendar entry has"; a part's range its `from` to its
+  last section's last day, `part_range`) and its dates by year: the year unlinked, in the sans, a little heavier
+  ("**1961** Jan. 23, Feb. 20."). Across the seams, muted: after its dates, the year and date of the thread's next
+  entry in a later part (". 1962 Jan. 14."), the year linked, not underlined, to the thread in that part's index, the
+  date to the entry; before its dates, its last entry in an earlier part, linked the same way. A thread not yet
+  converted keeps its `c`, `c2`, `c3` by the three parts of Oct. 17, 2026 (`legacy_parts`).
+- A part's thread entries are anchored `<page>.thread.<slug>` (`cal1961.thread.cuba`), its threads section `th-<page>`;
+  a rubric links to its own part's index.
+- The index: the whole calendar's contents (below), then every thread, each with the years it has entries in, each
+  linked to the thread in that year's index; its lines anchored `cal.thread.<slug>` (STYLE 13).
+- At each seam, muted: "‹ Dec. 31, 1960, in Cal. 1960" at the head of a part's first day; "Jan. 1, 1961, in Cal. 1961
+  ›" at the foot of the part before's last (1969's ends Jan. 20; the primaries' begins Mar. 1, 1972).
 - Links: write `[[id]]` as ever. The build routes a link whose anchor is in another part to that page, on the
-  calendar's pages and on every other page (`cal.html#X` → `cal63.html#X`); `./bib links` checks them all.
-- `./bib build cal` (or `cal63`, `cal66`) builds all three.
+  calendar's pages and on every other page (`cal.html#X`, `cal1961.html#X` → `cal1962.html#X`); `./bib links` checks
+  them all. Old addresses land: `cal.html` (the index) and `cal63.html`, `cal66.html` (small pages) send a link's anchor
+  to its year's page by script, the year read from the anchor or from a map the build writes (STYLE 14).
+- `./bib build cal` (or any year's page name) builds every year, the index and the old pages.
 - A tap on a thread's entry in the index, or on its line under an entry (not on a link), lights the thread: its
   entries and its index entry on white (a lighter panel in the dark theme), each entry's own box from its rule to the
   next and an en dash past the rules' ends on either side, the rules as they were; a day's first or last entry takes a
@@ -1801,9 +1808,11 @@ Nothing folded by default (the owner's rule, Oct. 30, 2026: "I'm not a fan of th
   months in a grid, a year cell spanning the year's rows and six months a row (Jan–Jun, Jul–Dec), each month in its
   three-letter form ("Sep"; this form here only, the Bluebook's everywhere else), linked to its section; a month the
   page lacks leaves its cell empty, a year takes only the rows it has months in (1969 one; the primary seasons of
-  1972 and 1976 after a gap). January 1966 is one section on each of its two pages.
-- After the grid, under "Tables and maps", every table and map on the page, in the order it first appears, each linked
-  to its anchor, grouped by year in the grid's year column: the Executive Branch at each term, each Congress at its
+  1972 and 1976 after a gap). January 1966's two sections are one cell, the first's. Every year's page, and the index,
+  carry the whole calendar's grid and its whole list of tables and maps, each linked through to its year's page
+  (volume.md §3; contents STYLE 6): another year's cell in the year column links to that page's top, muted.
+- After the grid, under "Tables and maps", every table and map of the calendar, year by year, in the order it first
+  appears, each linked to its anchor, grouped by year in the grid's year column: the Executive Branch at each term, each Congress at its
   opening, the leaders and committees, the November elections, the governors, the legislatures, State finance, the
   budgets, the debt limit acts, a bill's course, the session's appropriations, each party's primaries, the conventions' delegations and roll calls,
   the dead by home State, the maps of Indochina. Not the one-off elections (a special, a single primary day), nor the
@@ -1853,7 +1862,7 @@ indicators by `dayblocks.inject` in both build chains.
 The two blocks are filled when opened (`tools/bib/lazydays.py`, its docstring; daybook STYLE 14): the build keeps each
 day's closed summaries in the page and writes the blocks' contents to a file a month beside it,
 `build/days/<page>-<YYYY-MM>-<hash>.json` (named by its content's hash, so a cache never serves an old month; a page's
-stale months removed at each build), so a calendar page sheds some two thirds of its weight (Cal. II, 18.8 to 6.6 MB).
+stale months removed at each build), so a calendar page sheds some two thirds of its weight (the second of the three parts of Oct. 2026, 18.8 to 6.6 MB).
 The first opening of a block, by a tap, Expand all (the months from the button's on, two at a time; in the reader the
 list's own blocks), or a link to an anchor inside one (the page's `lzmap` names the file that holds each; the reader's
 `jump` asks `window.lzGo`, and opens the folded blocks around its target, as `list.html`'s `openTo` does), fetches the month once and fills all its blocks; "loading" after the summary meanwhile.
