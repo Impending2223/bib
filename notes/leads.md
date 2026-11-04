@@ -1970,6 +1970,18 @@ Rights in Conflict (Walker Report):
   entry comes from FRUS's lists only, and for Michael A. Feighan (House Judiciary, Subcommittee No. 1), whose comes
   from the rosters.
 
+### Bernstein, *Guns or Butter* (batch 3, seventh run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
+
+- The rows of the seventh run's Passed over marked "a lead".
+- Kennedy's Charter Day address at Berkeley, Mar. 23, 1962 (1962 Pub. Papers 263).
+- The McNamara–Webb memorandum on the moon (1961).
+- Moyers's statement on Watts, Aug. 14, 1965: Kotz's entry (`cal.1965-08-14.civil-disorders-watts-2`, now merged), to be
+  cited from Bernstein.
+- The Berkeley days of Sept. 20–30, Nov. 9, Dec. 4 and 7, 1964, and Jan. 2, 1965.
+- Propose Part III entries for the press figures David Wise (*Herald Tribune*), Charles Mohr (*New York Times*), Peter
+  Grose (*New York Times*); and for Hans J. Morgenthau, Louis Martin (Democratic National Committee), Norman Thomas,
+  James Bevel and Allard Lowenstein, named here without name entries.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its

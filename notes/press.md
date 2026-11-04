@@ -89,6 +89,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-06 | Liberation; Christian Century (June 12); The Witness; Friends; The Mennonite | covers | the "Letter from Birmingham Jail" | Branch, *Parting the Waters*, 804
 1963-06 | *New Republic*, TRB | item | "He is through" | Smith, *On His Own Terms*, 408
 1963-06-10 | New York Times | front page | King: the bill wasted if the President leaves for Europe; a march on Washington (entered) | Branch, *Parting the Waters*, 822
+1963-06-12 | the world's papers | front pages | Browne's photograph of Thích Quảng Đức | Bernstein, *Guns or Butter*, 327
 1963-06-17 | New York Times | front page | Bundy on television defends the President's trip to Europe | Branch, *Parting the Waters*, 841
 1963-06-23 | New York Times | front page | "Negroes Inform Kennedy of Plan for New Protests" | Branch, *Parting the Waters*, 840
 1963-07 | *Manchester Union Leader* | item | "the people will not accept a wife swapper as President" | Smith, *On His Own Terms*, 416
@@ -107,6 +108,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-10-24 | New York Times | inside, 32 | the civil rights bill in committee: "For an understanding of this bizarre battle, it is helpful to look both backward and forward" | Branch, *Parting the Waters*, 910
 1963-10-25 | *Washington Post* | front page | Goldwater on NATO's "commanders" and tactical nuclear weapons (Chalmers Roberts) | White, *Making of the President 1964*, 296
 1963-11-22 | CBS | item | Cronkite: Goldwater kept from the funeral by a political function; his apology | Smith, *On His Own Terms*, 418
+1964 | Lippmann; Reston | columns | uneasy at the drift to war | Bernstein, *Guns or Butter*, 379
 1964-01-06 | *Manchester Union Leader* | item | "Deception, Deceit, and Divorce" | Smith, *On His Own Terms*, 420
 1964-01-06 | *Concord Daily Monitor* | front page | "Goldwater Sets Goals: End Social Security, Hit Castro" (in the Jan. 7 cite) | Bernstein, *Guns or Butter*, 128
 1964-01-07 | *Concord Daily Monitor* | front page | "Goldwater Sets Goals: End Social Security; Hit Castro" | White, *Making of the President 1964*, 104
@@ -170,6 +172,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-01-13 | *New York Times*, *Washington Post* | editorials | editorials on the education message (day not given) | Bernstein, *Guns or Butter*, 192–93
 1965-01-26 | *New York Times* | front page | Clark beating Annie Lee Cooper, a photograph | Kotz, *Judgment Days*, 263 n.
 1965-01-26 | *New York Times* | front page | Clark sitting on Annie Lee Cooper | Bernstein, *Guns or Butter*, 220
+1965-02 | *New York Times*, Reston | column | "a spade a bloody shovel" (entered) | Bernstein, *Guns or Butter*, 345
 1965-02-02 | *New York Times* | front page | "Dr. King and 770 Others Seized" | Branch, *Pillar of Fire*, 577
 1965-02-03 | *New York Times* | front page | "520 More Seized" | Branch, *Pillar of Fire*, 577
 1965-02-05 | *New York Times* | full-page advertisement | "Letter from the Selma Jail" | Kotz, *Judgment Days*, 268
@@ -199,8 +202,11 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-03-29 | *Washington Post*, *Evening Star* | front page (Post) | King's boycott of Alabama | Kotz, *Judgment Days*, 327
 1965-03-30 | *New York Times* | front page | "Washington Is Cool to Alabama Boycott" | Kotz, *Judgment Days*, 327
 1965-04 | the papers | items | Johnson's "love affair" with the auto industry | Bernstein, *Guns or Butter*, 292
+1965-05-23 | *Herald Tribune*, Wise | story | "credibility gap" (entered) | Bernstein, *Guns or Butter*, 536
 1965-07 | *Life* | picture | Ball in tears at Stevenson's memorial service (Check: the issue) | Ball, *The Past Has Another Pattern*, 152
+1965-07 | Alsop | column | "pathos" (entered) | Bernstein, *Guns or Butter*, 349
 1965-07-12 | *Newsweek*, Emmet John Hughes | item | "An Untold Tale" | Smith, *On His Own Terms*, 473 n.
+1965-08-13 | *Los Angeles Times*; the networks | coverage | Watts by helicopter | Bernstein, *Guns or Butter*, 384
 1965-08-15 | *New York Times* | front page | Semple, "Johnson Shocked" (Watts) | Kotz, *Judgment Days*, 341
 1965-09-12 | *New York Times*, *Daily News*, *Washington Post* | — | King and Goldberg; Dodd; Whitney Young | Kotz, *Judgment Days*, 352
 1965-09-24 | Joseph Alsop's column | column | the B-52s in South Vietnam, the press "favorably impressed" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1965 vol., 193
@@ -241,6 +247,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1966-06-16 | *New York Post*, Kempton | item | "There's Only One Winner" (entered) | Smith, *On His Own Terms*, 478-79
 1966-07-29 | *New York Post* (McGrory) | column | "The Vice President is not a proud man" (Check: the day) | Solberg, *Hubert Humphrey*, 295
 1966-10-21 | *New York Daily News* | item | its straw poll: O'Connor ahead | Smith, *On His Own Terms*, 491
+1966-12-25–1967-01-03 | *New York Times*, Salisbury | dispatches | from Hanoi (in the tree) | Bernstein, *Guns or Butter*, 412
 1967-02-21 | *New York Times* |  | the grand-jury claims in the Dahmer and Neshoba cases | Branch, *Pillar of Fire*, 609
 1967-02-28 | *New York Times* | p. 40 | the same | Branch, *Pillar of Fire*, 609
 1967-03-01 | *New York Times* | front page | the same | Branch, *Pillar of Fire*, 609
@@ -269,6 +276,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1967-10-09 | CBS Evening News | broadcast | Webster's ear-cutting report; Sevareid's comment | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 965
 1967-10-10 | Saigon Daily News | front page | the northeast monsoon's arrival | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 362
 1967-10-20 | *Time* | item | the cover, Rockefeller and Reagan (entered) | Smith, *On His Own Terms*, 498
+1967-10-22 | *New York Times* | story | 50,000 at the Lincoln Memorial | Bernstein, *Guns or Butter*, 423
 1967-11 | CBS | interview | Steve Rowan's taped interview with Westmoreland: the estimate of withdrawals | Westmoreland, *A Soldier Reports*, 231, 234
 1967-11 | *Washington Post* |  | Oberdorfer, "Statistics on War Fail to Prove Real Progress" | Berman, *Lyndon Johnson's War*, 118
 1967-11-14 | UPI | wire | Hochmuth's death, against the embargo | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 963
