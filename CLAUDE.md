@@ -2131,7 +2131,8 @@ owner's back; nothing of the owner's is dropped.
 The owner's standing rule (Oct. 28, 2026): no work between 7 a.m. and 5 p.m. Pacific, Monday to Friday; Saturday and
 Sunday are exempt (the same day). At 7 a.m. the running agents are stopped, their work committed as WIP and listed for
 resuming; a task or an agent's report that comes in before 5 p.m. is queued, not acted on, and answered with the one
-word "Queued." (the owner, the same day); after 5 p.m. the agents are resumed and the queue taken up in order. Two
+word "Queued." (the owner, the same day; and any item the owner sends for the queue, at any hour, is answered with
+that word alone, nothing more: the owner, Nov. 4, 2026); after 5 p.m. the agents are resumed and the queue taken up in order. Two
 scheduled tasks keep it in the session that runs the reading (6:46 a.m. and 5:04 p.m. Pacific, weekdays).
 
 ## Publishing
