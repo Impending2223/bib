@@ -2578,6 +2578,11 @@ CQ Weekly Report, 1968-08-30:
 - Aug.–Oct. 1960: Brown's and State's views on Souvanna; Eisenhower's dominoes (memoir) (329): the days (Eliades; *Waging Peace*, 607).
 - The rest of the work, pp. 451–545, unread.
 
+### Dobrynin, *In Confidence* (batch 3, second run, Nov. 4, 2026; notes/book-checks/dobrynin-in-confidence.md)
+- Khrushchev's announcement of the cut of 600 million rubles in military spending, Dec. 13, 1963 (to the plenum; the Supreme Soviet, Dec. 16): not in the calendar (152).
+- The civil air agreement with the Soviet Union, signed Nov. 4, 1966: its U.S.T. cite and an entry; the first Aeroflot flight to New York, July 15, 1968 (150).
+- The undated talks of the book-check's Passed over, each with the FRUS volume to look in (1964–68, XIV); the pagination of the three earlier Dobrynin cites (the book-check).
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
