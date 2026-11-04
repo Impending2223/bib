@@ -165,7 +165,7 @@ page | date | event | why
 
 ## Second run (Nov. 3, 2026, batch 3 resumed): the Passed over rows re-ruled
 
-Patch `inbox/2026-11-03-b3-navasky-2.yaml` (b3-navasky-2): 40 new entries, 7 cites, 2 Checks, one `src` row; witnesses
+Patch `inbox/2026-11-03-b3-navasky-2.yaml` (b3-navasky-2): 39 new entries, 8 cites, 2 Checks, one `src` row; witnesses
 `inbox/witnesses/2026-11-03-b3-navasky-2.yaml` (two new, one amended) and three edges in
 `sources/witnesses/by-work/navasky-kennedy-justice.yaml`. The same copy (offset 24 throughout; p. 42 checked again
 against its image, n.17 the press statement of Mar. 19, 1961). The first run's rows above were ruled under the old
@@ -188,8 +188,8 @@ Rulings, row by row (page | first run's reason | now):
 - 50 | below the level | entry: the IRS school (Apr. 13, 1962). The FBI National Academy's 67th class: undated, a lead.
 - 56 | to leads | entries: Caplin with Kennedy (Dec. 1960), the appointment announced (Jan. 24, 1961).
 - 78 | to leads | entry (above).
-- 136 | undated in the book | stays: Navasky dates neither Pearson's column nor Salinger's statement; Shesol and Thomas
-  read next.
+- 136 | undated in the book | cited under 1968-05-24 (b3-thomas-rfk-2's entry for Pearson's column, dated by Thomas, 378
+  n.): Kennedy's answer and Salinger at Portland.
 - 142 | private | passed over: undated (the FBI's items in Wofford's file, no year beyond 1961 given).
 - 147 | undated (month only) | entries: June, November, December 1965; and Apr. 2, 1968 (Clark's refusal).
 - 151 | to leads | not a new entry: the letter is in under 1963-07-24 (its text cited, 150–51, with a Check on
