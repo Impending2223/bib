@@ -1509,6 +1509,11 @@ Rights in Conflict (Walker Report):
 - The Bell report itself (Apr. 30, 1962): its text, for the calendar's May 1 entry (printed as a House or Senate document; not reached).
 - Still undated in Bissell: Discoverer XI and XII, early 1960 (137); Doris Mirage's yellow pad, 1960 (157); three members of the Revolutionary Council at the camp in Guatemala, 1961 (181); Kennedy's word that Bissell must leave, 1961 (191); Bissell's memorandum to Harold Brown on IDA's organization, 1962–63 (231).
 
+### Jones, *The Bay of Pigs* (batch 3, second run, Nov. 4, 2026; notes/book-checks/jones-bay-of-pigs.md)
+- Johnson's remark to Califano on Castro and Kennedy (Califano, *Inside* (2004), 126): its date.
+- The Church Committee's testimony Jones cites by page (Helms, June 13, 1975; Sullivan, Apr. 21, 1976; Morgan, Mar. 19, 1976): the JFK Collection's copies at the National Archives (Mary Ferrell Foundation's scans), not reached.
+- Shackley's directives from Harvey, spring 1962 (157–58): undated.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2531,6 +2536,10 @@ CQ Weekly Report, 1968-08-30:
 - Castro's support of the invasion of Czechoslovakia, 1968: the speech and its day.
 - Alpha 66's raids of 1962; the Florida arrests and the raids of Aug.–Nov. 1963 (George Volsky's USIA reports, Draper Papers; FBI, Brennan to Sullivan, Nov. 4, 1963).
 - Pawley's memoir, "William D. Pawley's Book" (unpublished; Anita Pawley): the days of the trips to Trujillo.
+
+### Jones, *The Bay of Pigs* (batch 3, second run, Nov. 4, 2026; notes/book-checks/jones-bay-of-pigs.md)
+- Cubela's trial, Mar. 1966: the days of the trial, the sentence and the commutation (*Washington Post*, Mar. 8, 11, 1966; Reuters, Mar. 8; FRUS 1964–68, XXXII, the editorial note at p. 743, not placed in the daybook).
+- The 303 Committee's record of June 2, 1965 (Raborn's request): FRUS 1964–68, XXXII, doc. 302 n. 2 names it.
 
 ## The Executive roster
 

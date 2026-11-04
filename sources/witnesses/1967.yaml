@@ -911,6 +911,17 @@
   date: '1967-03-07'
   where: NSF, Files of Walt W. Rostow, LBJ Library
   read: false
+- id: x.1967-03-07.pearson-column-castro-plots
+  what: Drew Pearson, column of March 7, 1967
+  kind: press
+  date: '1967-03-07'
+  where: syndicated column; not read
+  agent:
+    - name:pearson-drew
+  made: contemporaneous
+  form: account
+  open: not held
+  read: false
 - id: x.1967-03-07.rostow-to-johnson-memorandum-mar-7
   what: Rostow to Johnson, memorandum, Mar. 7, 1967
   kind: memorandum
@@ -1509,6 +1520,17 @@
   date: '1967-04-23'
   where: Whalen Papers, University of Dayton, L205
   read: false
+- id: x.1967-04-24.inspector-general-report-on-plots-to-assassinate-castro
+  what: IG Report (the CIA Inspector General's report on plots to assassinate Fidel Castro, Apr. 24, 1967)
+  kind: report
+  date: '1967-04-24'
+  where: RG 233, JFK Assassination Collection, Microfilm File 104-10184-10001, National Archives
+  agent:
+    - name:earman-j-s
+  made: contemporaneous
+  form: original
+  open: not held
+  read: false
 - id: x.1967-04-24.katzenbach-to-vance-rostow-william-bundy
   what: Katzenbach to Vance, Rostow, William Bundy, McNaughton, Helms and Komer, memorandum, Apr. 24, 1967
   kind: memorandum
@@ -1783,6 +1805,23 @@
   date: '1967-05-02'
   where: Charles P. Taft Papers, Library of Congress, box 218
   read: false
+- id: x.1967-05-02.frus-xxxii-315-editorial-note
+  what: Editorial Note, FRUS 1964–68, XXXII, doc. 315
+  kind: collection
+  date: '1967-05-02'
+  where: FRUS 1964–68, XXXII
+  made: later
+  form: account
+  from:
+    - of: x.1967-04-24.inspector-general-report-on-plots-to-assassinate-castro
+      kind: report
+    - of: x.1975-11-20.alleged-assassination-plots-179
+      kind: citation
+    - of: x.1967-03-07.pearson-column-castro-plots
+      kind: citation
+  copies:
+    - FRUS 1964–68, XXXII, doc. 315
+  read: true
 - id: x.1967-05-02.new-york-times-may-2-1967
   what: New York Times, May 2, 1967
   kind: press
