@@ -9,7 +9,12 @@ entries:
     thread: jobs-and-wages-transit
     also: [states-and-cities]
     c: 'New York. Lindsay sworn as mayor; the Transport Workers Union strikes the subways and buses the same morning. Quill, its president, defies an injunction under the Condon-Wadlin Act: "The judge can drop dead in his black robes."'
-    n: '[*New York Times*, Jan. 2, 1966](https://timesmachine.nytimes.com/timesmachine/1966/01/02/issue.html). To check: [[w.cannato-ungovernable-city]]; [[w.freeman-in-transit]]. See [[cal.1965-11-02.states-and-cities]]. Names: Lindsay, Quill.'
+    n: '[*New York Times*, Jan. 2, 1966](https://timesmachine.nytimes.com/timesmachine/1966/01/02/issue.html). [[w.smith-on-his-own-terms]], 476 (the walkout at midnight on New Year''s Eve, as Lindsay takes office; Quill tears up the court order). To check: [[w.cannato-ungovernable-city]]; [[w.freeman-in-transit]]. See [[cal.1965-11-02.states-and-cities]]. Names: Lindsay, Quill.'
+    src:
+      c: 0b79fc3a
+      rows:
+        - 'https://timesmachine.nytimes.com/timesmachine/1966/01/02/issue.html: all'
+        - 'w.smith-on-his-own-terms 476: B-C'
     tags: [name:lindsay-john-v, name:quill-michael-j, state:ny, city:nyc]
   - id: cal.1966-01-01.steel
     when: Jan. 1
@@ -634,3 +639,15 @@ entries:
       rows:
         - 'w.branch-at-canaans-edge 429: all'
     tags: [name:daley-richard-j, name:king-martin-luther-jr, state:il, city:chicago]
+  - id: cal.1966-01.state-and-city-finance-nyc
+    when: Jan., after the strike
+    date: 1966-01
+    thread: state-and-city-finance
+    also: [jobs-and-wages-transit]
+    c: 'After the transit strike, Rockefeller promises New York City $100 million, once: half new money, half State aid owed in later years paid early, for the fifteen-cent fare; the legislature to approve it.'
+    n: '[[w.smith-on-his-own-terms]], 476 (during the strike, to those asking him to call out the National Guard: "Mr. Lindsay is Mayor"). Check: the day. See [[cal.1966-01-13.jobs-and-wages-transit]]. Names: Rockefeller.'
+    src:
+      c: 8f3d6929
+      rows:
+        - 'w.smith-on-his-own-terms 476: all'
+    tags: [name:rockefeller-nelson, state:ny, city:nyc]

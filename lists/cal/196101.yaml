@@ -694,6 +694,18 @@ entries:
       rows:
         - 'w.mcpherson-political-education 182: all'
     tags: [name:mcpherson-harry, name:mansfield-mike]
+  - id: cal.1961-01-20.states-and-cities
+    when: Jan. 20
+    date: '1961-01-20'
+    thread: states-and-cities
+    also: [labor-disputes]
+    c: Rockefeller, mediating a strike of the New York City tugboat operators, misses the inauguration. His message to Kennedy singles out the inaugural address for praise.
+    n: '[[w.smith-on-his-own-terms]], 350. Check: the strike''s days. Names: Rockefeller, Kennedy.'
+    src:
+      c: c11f6e4f
+      rows:
+        - 'w.smith-on-his-own-terms 350: all'
+    tags: [name:rockefeller-nelson, name:kennedy-john-f, state:ny, city:nyc]
   - id: cal.1961-01-21.governors-ct
     when: Jan. 21
     date: '1961-01-21'
@@ -864,6 +876,18 @@ entries:
       rows:
         - 'w.navasky-kennedy-justice 56: all'
     tags: [name:caplin-mortimer-m]
+  - id: cal.1961-01-24.republican-party
+    when: Jan. 24
+    date: '1961-01-24'
+    thread: republican-party
+    c: 'Kennedy to Rockefeller, answering his message: "I need hardly tell you that I shall always welcome your advice and criticism as we attempt to reach our common objectives in foreign affairs."'
+    n: '[[w.smith-on-his-own-terms]], 350. To check: Kennedy to Rockefeller, Jan. 24, 1961, Rockefeller Archive Center (cited by [[w.smith-on-his-own-terms]], 350). Check: the day; Smith''s text has it three days after the inauguration, the note Jan. 24. See [[cal.1961-01-20.states-and-cities]]. Names: Kennedy, Rockefeller.'
+    src:
+      c: 9623e96f
+      rows:
+        - 'w.smith-on-his-own-terms 350: all'
+        - 'via x.1961-01-24.kennedy-to-rockefeller: all'
+    tags: [name:kennedy-john-f, name:rockefeller-nelson]
   - id: cal.1961-01-25.press-and-broadcasting
     when: Jan. 25
     date: '1961-01-25'
@@ -1202,7 +1226,7 @@ entries:
     thread: republican-party-congress
     also: [goldwater]
     c: Javits moves to put Goldwater out as chairman of the Republican Senatorial Campaign Committee. Gaining in the conference, the effort fails under conservatives' protests.
-    n: '[[w.perlstein-before-the-storm]], 138; [[w.goldberg-barry-goldwater]], 149 (re-elected chairman, his third term, over "scattered reservations" of the party''s liberals and Rockefeller''s admirers; 225 engagements to speak in 1961, 200 more in the first nine months of 1962; almost eight hundred speeches, January 1960 to November 1963). [[w.kabaservice-rule-and-ruin]], 62 (Javits''s effort to remove Goldwater from the committee). To check: Knowland, editorial, *Oakland Tribune*, Jan. 10, 1961 (cited by [[w.perlstein-before-the-storm]], 138 n.1). Names: Javits, Goldwater.'
+    n: '[[w.perlstein-before-the-storm]], 138; [[w.goldberg-barry-goldwater]], 149 (re-elected chairman, his third term, over "scattered reservations" of the party''s liberals and Rockefeller''s admirers; 225 engagements to speak in 1961, 200 more in the first nine months of 1962; almost eight hundred speeches, January 1960 to November 1963); [[w.smith-on-his-own-terms]], 357 (Rockefeller leaned hard on Javits to drop his challenge to Goldwater). [[w.kabaservice-rule-and-ruin]], 62 (Javits''s effort to remove Goldwater from the committee). To check: Knowland, editorial, *Oakland Tribune*, Jan. 10, 1961 (cited by [[w.perlstein-before-the-storm]], 138 n.1). Names: Javits, Goldwater.'
     src:
       c: d15f1997
       rows:
@@ -1211,6 +1235,7 @@ entries:
         - 'w.kabaservice-rule-and-ruin 62: A'
         - 'w.goldberg-barry-goldwater 149: B'
         - 'via x.1959-07-24.new-york-times: B'
+        - 'w.smith-on-his-own-terms 357: A'
     tags: [name:javits-jacob-k, name:goldwater-barry-m]
   - id: cal.1961-01.rules
     when: Jan.
@@ -1407,9 +1432,21 @@ entries:
     thread: goldwater
     also: [republican-party, elections-1964]
     c: 'Early 1961. Rockefeller and Goldwater, Morton the go-between, the national chairman: their first meeting goes well; thereafter breakfast once a month, more than two years. Goldwater: "Rocky''s really not such a bad fellow. He''s more conservative than you would imagine."'
-    n: '[[w.goldberg-barry-goldwater]], 161. Check: the month. Names: Rockefeller, Goldwater, Morton.'
+    n: '[[w.goldberg-barry-goldwater]], 161; [[w.smith-on-his-own-terms]], 357 (breakfasts at Foxhall Road; "he''s really not such a bad fellow. He''s more conservative than you would imagine"). Check: the month. Names: Rockefeller, Goldwater, Morton.'
     src:
       c: 8f350d23
       rows:
         - 'w.goldberg-barry-goldwater 161: all'
+        - 'w.smith-on-his-own-terms 357: D'
     tags: [name:rockefeller-nelson, name:goldwater-barry-m, name:morton-thruston-b]
+  - id: cal.1961-01.states-and-cities
+    when: Jan.
+    date: 1961-01
+    thread: states-and-cities
+    c: 'Rockefeller''s special message to the Legislature on higher education, on the Heald committee''s report: two graduate centers, one on Long Island, one upstate; liberal arts in the colleges of education; community colleges; a City University of New York; tuition left to the State University''s trustees. The Scholar Incentive Program: up to $200 a year to each full-time undergraduate, $800 to graduate students.'
+    n: '[[w.smith-on-his-own-terms]], 354. Check: the day; Smith gives the end of January. Names: Rockefeller.'
+    src:
+      c: 6f0317f7
+      rows:
+        - 'w.smith-on-his-own-terms 354: all'
+    tags: [name:rockefeller-nelson, state:ny]

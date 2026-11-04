@@ -142,7 +142,12 @@ entries:
     thread: state-legislatures
     also: [robert-kennedy]
     c: Albany, N.Y. After a month, Zaretzki, Wagner's candidate, elected the Senate's leader with the Republicans' votes, at Rockefeller's urging.
-    n: '[*New York Times*, Feb. 4, 1965](https://www.nytimes.com/1965/02/04/archives/zaretzki-wins-as-gop-steps-in-giving-wagner-man-needed-votes.html). See [[cal.1965-01-06.legislatures-ny]]. Names: Zaretzki, Wagner, Rockefeller.'
+    n: '[*New York Times*, Feb. 4, 1965](https://www.nytimes.com/1965/02/04/archives/zaretzki-wins-as-gop-steps-in-giving-wagner-man-needed-votes.html). [[w.smith-on-his-own-terms]], 462 (the twenty-sixth ballot for president pro tempore; Hughes, a Republican, nominates Zaretzki; twenty-five Republicans and fifteen Democrats). See [[cal.1965-01-06.legislatures-ny]]. Names: Zaretzki, Wagner, Rockefeller.'
+    src:
+      c: 1d749b8c
+      rows:
+        - 'https://www.nytimes.com/1965/02/04/archives/zaretzki-wins-as-gop-steps-in-giving-wagner-man-needed-votes.html: all'
+        - 'w.smith-on-his-own-terms 462: A'
     tags: [state:ny, name:zaretzki-joseph, name:wagner-robert-f-jr, name:rockefeller-nelson, city:nyc]
   - id: cal.1965-02-03.legislatures-ar
     when: Feb. 3
@@ -258,7 +263,12 @@ entries:
     thread: state-legislatures
     also: [robert-kennedy]
     c: Albany, N.Y. Travia elected Speaker over Steingut, again with Republican votes.
-    n: '[*New York Times*, Feb. 5, 1965](https://www.nytimes.com/1965/02/05/archives/travial-elected-speaker-gop-vote-again-decisive-as-streingut-is.html). See [[cal.1965-01-06.legislatures-ny]]. Names: Travia, Steingut.'
+    n: '[*New York Times*, Feb. 5, 1965](https://www.nytimes.com/1965/02/05/archives/travial-elected-speaker-gop-vote-again-decisive-as-streingut-is.html). [[w.smith-on-his-own-terms]], 462 (Wagner''s Democrats and forty-six Republicans; McKeon, the Democratic State chairman: "a down payment on a Rockefeller-Wagner sellout of the people"). See [[cal.1965-01-06.legislatures-ny]]. Names: Travia, Steingut.'
+    src:
+      c: 7d81fe88
+      rows:
+        - 'https://www.nytimes.com/1965/02/05/archives/travial-elected-speaker-gop-vote-again-decisive-as-streingut-is.html: all'
+        - 'w.smith-on-his-own-terms 462: A'
     tags: [state:ny, name:travia-anthony-j, name:steingut-stanley]
   - id: cal.1965-02-04.voting-rights
     when: Feb. 4
@@ -2602,6 +2612,18 @@ entries:
       c: '37782782'
       rows:
         - 'w.macv-command-history-1965 478: all'
+  - id: cal.1965-02-25.mayors-nyc
+    when: Feb. 25
+    date: '1965-02-25'
+    thread: mayors
+    also: [republican-party]
+    c: 'Washington, a breakfast of Rockefeller with New York''s delegation in Congress. Javits, told again that Wagner''s Democrats are needed for the governor''s program: "All right then, why don''t you run for Mayor?" Rockefeller asks Javits and Lindsay to declare their intentions; Javits will not run.'
+    n: '[[w.smith-on-his-own-terms]], 471. To check: [[w.javits-javits]], 372–77 (cited by [[w.smith-on-his-own-terms]], 471). See [[cal.1965-01.republican-party]]. Names: Rockefeller, Javits, Wagner, Lindsay.'
+    src:
+      c: cd86a4ea
+      rows:
+        - 'w.smith-on-his-own-terms 471: all'
+    tags: [name:rockefeller-nelson, name:javits-jacob-k, name:wagner-robert-f-jr, name:lindsay-john-v, state:ny, city:nyc]
   - id: cal.1965-02-26.vietnam
     when: Feb. 26
     date: '1965-02-26'
@@ -2682,6 +2704,17 @@ entries:
         - 'via w.branch-pillar-of-fire 601 n.i-judged-my-father.a: C'
         - 'via w.branch-pillar-of-fire 601 n.i-judged-my-father.c: C'
     tags: [city:chicago]
+  - id: cal.1965-02-26.mayors-nyc
+    when: Feb. 26
+    date: '1965-02-26'
+    thread: mayors
+    c: Lindsay will not run for mayor of New York; his responsibilities in Congress come first.
+    n: '[[w.smith-on-his-own-terms]], 471. See [[cal.1965-02-25.mayors-nyc]]. Names: Lindsay.'
+    src:
+      c: 84dd123c
+      rows:
+        - 'w.smith-on-his-own-terms 471: all'
+    tags: [name:lindsay-john-v, state:ny, city:nyc]
   - id: cal.1965-02-27.vietnam
     when: Feb. 27
     date: '1965-02-27'
@@ -2865,3 +2898,15 @@ entries:
       rows:
         - 'w.mcpherson-political-education 235–36: all'
     tags: [name:moyers-bill, name:mcpherson-harry, name:feldman-myer, name:white-lee-c]
+  - id: cal.1965-02.legislatures-ny
+    when: Feb., early
+    date: 1965-02
+    thread: state-legislatures
+    c: 'Five weeks into the Albany deadlock, Rockefeller telephones Wagner: "It''s time that we settle this." Spad, the Republican State chairman, and Young, his predecessor, at work on the Republican legislators near Ingalls''s office.'
+    n: '[[w.smith-on-his-own-terms]], 462. To check: Robert F. Wagner, oral history, 1069, Columbia Center for Oral History; *Economist*, Feb. 13, 1965; Hevesi, *Legislative Politics in New York State*, 99–101 (cited by [[w.smith-on-his-own-terms]], 462). Check: the day. See [[cal.1965-01-06.legislatures-ny]]. Names: Rockefeller, Wagner.'
+    src:
+      c: dfcc1a78
+      rows:
+        - 'w.smith-on-his-own-terms 462: all'
+        - 'via x.undated.wagner-oral-history-columbia: A'
+    tags: [name:rockefeller-nelson, name:wagner-robert-f-jr, state:ny]

@@ -267,7 +267,7 @@ entries:
     thread: elections-1968
     also: [vietnam]
     c: 'Hartford. Romney''s first speech on the war, to a Republican dinner: support for the war effort; against a large escalation; a negotiated settlement, with amnesty for the enemy; the war not to become a party issue (Check).'
-    n: '*Daily Tar Heel*, [Apr. 8, 1967, 1](https://newspapers.digitalnc.org/lccn/sn92073228/1967-04-08/ed-1/seq-1/) (AP). [[w.johns-vietnams-second-front]], 145–46 (the speech); [[w.white-making-of-the-president-1969]], 56–57 (the speech, Apr. 7; "Peace with Amnesty"; the draft sent to Rockefeller for approval). [[w.hess-republican-establishment]], 127 (no withdrawal, no "massive military escalation"; "peace with amnesty"; no coalition with the Front). To check: [[w.mollenhoff-george-romney]]; Romney, speech, Apr. 7, 1967, Gubernatorial Series, box 263, Romney Papers (cited by [[w.johns-vietnams-second-front]], 145 n.93). Names: Romney.'
+    n: '*Daily Tar Heel*, [Apr. 8, 1967, 1](https://newspapers.digitalnc.org/lccn/sn92073228/1967-04-08/ed-1/seq-1/) (AP). [[w.johns-vietnams-second-front]], 145–46 (the speech); [[w.white-making-of-the-president-1969]], 56–57 (the speech, Apr. 7; "Peace with Amnesty"; the draft sent to Rockefeller for approval); [[w.smith-on-his-own-terms]], 497 (April 1967; support for the troops, "peace with amnesty"). [[w.hess-republican-establishment]], 127 (no withdrawal, no "massive military escalation"; "peace with amnesty"; no coalition with the Front). To check: [[w.mollenhoff-george-romney]]; Romney, speech, Apr. 7, 1967, Gubernatorial Series, box 263, Romney Papers (cited by [[w.johns-vietnams-second-front]], 145 n.93). Names: Romney.'
     src:
       c: 0bbef8fa
       rows:
@@ -276,6 +276,7 @@ entries:
         - 'via w.johns-vietnams-second-front 145 n.93: B-D'
         - 'w.hess-republican-establishment 127: A'
         - 'w.white-making-of-the-president-1969 56–57: A, B, D'
+        - 'w.smith-on-his-own-terms 497: B, D'
     tags: [name:romney-george-w, state:ct, city:hartford]
   - id: cal.1967-04-07.republican-party
     when: Apr. 7
@@ -849,7 +850,13 @@ entries:
     thread: jobs-and-wages
     also: [states-and-cities, labor-disputes]
     c: 'New York. Rockefeller signs the Public Employees'' Fair Employment Act, the Taylor Law, in place of the Condon–Wadlin Act of 1947: public employees may organize and bargain collectively; strikes forbidden, punished by fines and jail; a Public Employment Relations Board. In force Sept. 1. Laws of 1967, ch. 392.'
-    n: '[N.Y. Public Employment Relations Board, "1967–1971"](https://perb.ny.gov/timeline-notable-events); [Wikipedia, "Taylor Law"](https://en.wikipedia.org/wiki/Taylor_Law). Check: *Laws of New York*, 1967, ch. 392. To check: [[w.connery-rockefeller-of-new-york]]; [[w.smith-on-his-own-terms]]. See [[cal.1966-01-01.jobs-and-wages]]. Names: Rockefeller.'
+    n: '[N.Y. Public Employment Relations Board, "1967–1971"](https://perb.ny.gov/timeline-notable-events); [Wikipedia, "Taylor Law"](https://en.wikipedia.org/wiki/Taylor_Law). [[w.smith-on-his-own-terms]], 502 (Condon–Wadlin of 1947; the panel under George Taylor after the transit strike of 1966; the ban on strikes kept, heavy fines on the unions; collective bargaining; the Public Employment Relations Board). Check: *Laws of New York*, 1967, ch. 392. To check: [[w.connery-rockefeller-of-new-york]]. See [[cal.1966-01-01.jobs-and-wages]]. Names: Rockefeller.'
+    src:
+      c: 57fddd6e
+      rows:
+        - 'https://perb.ny.gov/timeline-notable-events: all'
+        - 'https://en.wikipedia.org/wiki/Taylor_Law: all'
+        - 'w.smith-on-his-own-terms 502: B-D'
     tags: [state:ny, name:rockefeller-nelson]
   - id: cal.1967-04-21.open-housing-md
     when: Apr. 21
@@ -1518,3 +1525,16 @@ entries:
         - 'w.goldberg-barry-goldwater 248: all'
         - 'via w.goldberg-barry-goldwater 248 n.40: all'
     tags: [name:goldwater-barry-m, name:chiang-kai-shek]
+  - id: cal.1967-04.elections-1968-3
+    when: Apr., before the Hartford speech
+    date: 1967-04
+    thread: elections-1968
+    also: [vietnam]
+    c: 'Pocantico Hills, Kykuit''s music room. Seidman, for Romney, brings the draft of his speech on Vietnam, "peace with amnesty." Rockefeller strikes a line on land held by 2 percent of the Vietnamese: "I''m not sure we don''t own 80 percent of the land." With Kissinger he hardens the text; Romney takes perhaps half the changes: "I''m the candidate, he isn''t."'
+    n: '[[w.smith-on-his-own-terms]], 497. To check: William Seidman, interview by Richard Norton Smith (cited by [[w.smith-on-his-own-terms]], 497). Check: the day. See [[cal.1967-04-07.elections-1968]]. Names: Rockefeller, Kissinger, Romney.'
+    src:
+      c: 6b39e2aa
+      rows:
+        - 'w.smith-on-his-own-terms 497: all'
+        - 'via x.undated.seidman-interview-by-smith: all'
+    tags: [name:rockefeller-nelson, name:kissinger-henry-a, name:romney-george-w]

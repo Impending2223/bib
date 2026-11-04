@@ -285,7 +285,12 @@ entries:
     thread: state-legislatures
     also: [elections-1964, legislatures]
     c: 'New York. Democrats take both houses of the legislature, the first time since 1935 (Check): the Senate 33 to 25, the Assembly 88 to 62 (Check). Elected under the old apportionment for one year only, by the three-judge court''s order of the summer after *WMCA v. Lomenzo*.'
-    n: '[Wikipedia, "175th New York State Legislature"](https://en.wikipedia.org/wiki/175th_New_York_State_Legislature) (the seats counted from its rolls). Check: the *Legislative Manual*, 1965. To check: [[w.lee-one-man-one-vote]]; [[w.dixon-democratic-representation]]. See [[cal.1964-06-15.court]].'
+    n: '[Wikipedia, "175th New York State Legislature"](https://en.wikipedia.org/wiki/175th_New_York_State_Legislature) (the seats counted from its rolls). [[w.smith-on-his-own-terms]], 456 (both houses to the Democrats, the first time in thirty years; Mahoney, the Senate''s majority leader, beaten at Buffalo, Carlino, the Speaker, on Long Island). Check: the *Legislative Manual*, 1965. To check: [[w.lee-one-man-one-vote]]; [[w.dixon-democratic-representation]]. See [[cal.1964-06-15.court]].'
+    src:
+      c: 86ce60c9
+      rows:
+        - 'https://en.wikipedia.org/wiki/175th_New_York_State_Legislature: all'
+        - 'w.smith-on-his-own-terms 456: B'
     tags: [state:ny]
   - id: cal.1964-11-03.governors-il
     when: Nov. 3
@@ -599,7 +604,7 @@ entries:
     thread: republican-party
     also: [elections-1964]
     c: 'New York, a press conference, by Nixon''s account. Nixon, after Rockefeller''s statement of the day before: Goldwater fought courageously against great odds; those who divided the party cannot unite it; Rockefeller a spoilsport and a divider, no longer a party leader outside New York. Rockefeller "proceeded to drag his feet" and "contributed to the Republican defeat"; Romney, Keating and Lindsay, candidates themselves, excused. A moratorium on criticism of Goldwater and Burch.'
-    n: '[[w.nixon-rn]], 263–64; [[w.goldberg-barry-goldwater]], 234 (Nixon: "the problem of constant sniping from the rear"; Rockefeller a "divider": "anyone who sits on the sidelines can''t step in and be captain of the team"). [[w.hess-republican-establishment]], 171–72 (his words; the others excused; the moratorium). See [[cal.1964-11-04.elections-1964]]. Names: Nixon, Rockefeller, Goldwater, Romney, Keating, Lindsay, Burch. Check: the day; Hess and Broder''s text has "two days after the election," their note "the November 6, 1964, press conference."'
+    n: '[[w.nixon-rn]], 263–64; [[w.goldberg-barry-goldwater]], 234 (Nixon: "the problem of constant sniping from the rear"; Rockefeller a "divider": "anyone who sits on the sidelines can''t step in and be captain of the team"); [[w.smith-on-his-own-terms]], 456 (Rockefeller a "spoilsport"; Nixon: "It''s a rule of life that when you fail to pitch in and fight in a tough battle, you cannot lead in the next battle"). [[w.hess-republican-establishment]], 171–72 (his words; the others excused; the moratorium). Check: Smith, 456, has Nixon speak "while votes were still being counted.". To check: *Albany Times Union*, Nov. 6, 1964 (cited by [[w.smith-on-his-own-terms]], 456). See [[cal.1964-11-04.elections-1964]]. Names: Nixon, Rockefeller, Goldwater, Romney, Keating, Lindsay, Burch. Check: the day; Hess and Broder''s text has "two days after the election," their note "the November 6, 1964, press conference."'
     src:
       c: b0641b2e
       rows:
@@ -608,6 +613,8 @@ entries:
         - 'w.goldberg-barry-goldwater 234: ?'
         - 'via w.goldberg-barry-goldwater 234 n.130: all'
         - 'via w.goldberg-barry-goldwater 234 n.131: all'
+        - 'w.smith-on-his-own-terms 456: D'
+        - 'via x.1964-11-06.albany-times-union-nov-6-1964: D'
     tags: [name:nixon-richard-m, name:rockefeller-nelson, name:goldwater-barry-m, name:romney-george-w, name:keating-kenneth-b, name:lindsay-john-v, name:burch-dean]
   - id: cal.1964-11-05.republican-party-2
     when: Nov. 5
@@ -1730,3 +1737,27 @@ entries:
         - 'via w.branch-pillar-of-fire 539 n.announcement-to-the-fruit: all'
         - 'via w.branch-pillar-of-fire 539 n.hoover-cabled: all'
     tags: [name:malcolm-x, name:hoover-j-edgar]
+  - id: cal.1964-11.republican-party-2
+    when: Nov., after the election
+    date: 1964-11
+    thread: republican-party
+    also: [elections-1964]
+    c: 'Rockefeller''s postelection press conference. Told that Goldwater says the conservative cause is not lost: "Well, you would hardly say it was won."'
+    n: '[[w.smith-on-his-own-terms]], 456. To check: *Public Papers of Nelson A. Rockefeller*, 1964, 876 (cited by [[w.smith-on-his-own-terms]], 456). Check: the day. See [[cal.1964-11-04.elections-1964]]. Names: Rockefeller, Goldwater.'
+    src:
+      c: 8b1eb82a
+      rows:
+        - 'w.smith-on-his-own-terms 456: all'
+        - 'via x.1964-11.rockefeller-postelection-press-conference: all'
+    tags: [name:rockefeller-nelson, name:goldwater-barry-m, state:ny]
+  - id: cal.1964-11.republican-party-3
+    when: Nov., after Nixon's charge
+    date: 1964-11
+    thread: republican-party
+    c: 'Rockefeller on Nixon''s charge that he is a spoilsport: a "peevish postelection utterance," "neither factual nor constructive."'
+    n: '[[w.smith-on-his-own-terms]], 456. Check: the day. See [[cal.1964-11-05.republican-party]]. Names: Rockefeller, Nixon.'
+    src:
+      c: 790b2c1b
+      rows:
+        - 'w.smith-on-his-own-terms 456: all'
+    tags: [name:rockefeller-nelson, name:nixon-richard-m]

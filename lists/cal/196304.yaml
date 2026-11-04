@@ -444,11 +444,13 @@ entries:
     thread: republican-party
     also: [cuba, elections-1964]
     c: 'Washington, a news conference. Rockefeller on Cuba: he hopes the administration is not appeasing; asked of a secret arrangement between the President and Khrushchev on the exiles: "Well, I have no idea. But maybe Mr. Khrushchev will release some more of the correspondence and we will find out."'
-    n: '[[w.white-suite-3505]], 156–57. Names: Rockefeller, Khrushchev.'
+    n: '[[w.white-suite-3505]], 156–57; [[w.smith-on-his-own-terms]], 394 (Soviet troops left in Cuba; "appeasement"; Reston''s rebuke). To check: *New York Herald Tribune*, Apr. 14, 1963 (cited by [[w.smith-on-his-own-terms]], 394). Names: Rockefeller, Khrushchev.'
     src:
       c: '23914037'
       rows:
         - 'w.white-suite-3505 156–57: all'
+        - 'w.smith-on-his-own-terms 394: B'
+        - 'via x.1963-04-14.herald-tribune-apr-14-1963: B'
     tags: [name:rockefeller-nelson, name:khrushchev-nikita-s, city:washington]
   - id: cal.1963-04-09.alabama-birmingham
     when: Apr. 9
@@ -833,6 +835,18 @@ entries:
         - 'via w.branch-parting-the-waters 747 n.1: C'
         - 'via w.branch-parting-the-waters 747 n.2: B'
     tags: [name:kennedy-john-f]
+  - id: cal.1963-04-16.cities-and-housing
+    when: Apr. 16
+    date: '1963-04-16'
+    thread: cities-and-housing
+    c: 'The Legislature approves Corning''s scheme for the South Mall: Albany County to own it, finance it with forty-year bonds and lease it to the State.'
+    n: '[[w.smith-on-his-own-terms]], 400–1. To check: Bleecker, *The Politics of Architecture*, 191–92 (cited by [[w.smith-on-his-own-terms]], 400). See [[cal.1962-03-27.cities-and-housing]]. Names: Corning.'
+    src:
+      c: 8106c37f
+      rows:
+        - 'w.smith-on-his-own-terms 400–1: all'
+        - 'via x.undated.bleecker-politics-of-architecture: all'
+    tags: [name:corning-erastus, state:ny, city:albany]
   - id: cal.1963-04-17.vietnam
     when: Apr. 17
     date: '1963-04-17'
@@ -1660,3 +1674,16 @@ entries:
         - 'w.branch-parting-the-waters 755: all'
         - 'via w.branch-parting-the-waters 755 n.2: all'
     tags: [state:al, city:birmingham]
+  - id: cal.1963-04.elections-1964
+    when: Apr.
+    date: 1963-04
+    thread: elections-1964
+    also: [republican-party]
+    c: 'Rockefeller in Kansas, the largest political dinner in its history: against "domination from Washington." Omaha: twenty million new jobs in five years; a $10 billion tax cut at once, against Kennedy''s $8.7 billion over thirty months.'
+    n: '[[w.smith-on-his-own-terms]], 394. To check: *New York Times*, Apr. 8, 1963; *Christian Science Monitor*, Apr. 9, 1963 (both cited by [[w.smith-on-his-own-terms]], 394). Check: the days. Names: Rockefeller, Kennedy.'
+    src:
+      c: 7a5391ad
+      rows:
+        - 'w.smith-on-his-own-terms 394: all'
+        - 'via x.1963-04-08.new-york-times-apr-8-1963: all'
+    tags: [name:rockefeller-nelson, name:kennedy-john-f, state:ks, state:ne]

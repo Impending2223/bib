@@ -152,7 +152,7 @@ entries:
     thread: opinion
     also: [elections-1968-polls]
     c: 'Gallup, Sept. 14–19: Rockefeller and Reagan 55 percent, Johnson and Humphrey 41, undecided 4. Democrats: Johnson–Humphrey 68, Rockefeller–Reagan 29. Independents: Rockefeller–Reagan 62, Johnson–Humphrey 30.'
-    n: '[[w.gallup-poll]], III, 2084–85. Names: Rockefeller, Reagan, Johnson, Humphrey.'
+    n: '[[w.gallup-poll]], III, 2084–85. Check: Smith, 497, gives a Gallup poll that fall, Rockefeller and Reagan over Johnson and Humphrey, 57 to 43. Names: Rockefeller, Reagan, Johnson, Humphrey.'
     tags: [name:rockefeller-nelson, name:reagan-ronald, name:johnson-lyndon-b, name:humphrey-hubert-h]
   - id: cal.1967-10-04.poverty
     when: Oct. 4
@@ -321,6 +321,19 @@ entries:
     c: 'Johnson to Congress: the Mount Jefferson, San Gabriel and Washakie wildernesses, 812,119 acres, the first additions proposed under the Wilderness Act.'
     n: '[[w.cq-weekly-report]], Mar. 1, 1968, 391. To check: the letter, the Public Papers. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1967-10-06.elections-1968
+    when: Oct. 6
+    date: '1967-10-06'
+    thread: elections-1968
+    also: [vietnam-support]
+    c: 'Hinman to Rockefeller, by letter, after Emmet Hughes''s leak that Rockefeller may be rethinking his support of Johnson on Vietnam: Hughes''s "judgment is the last to be trusted"; "The doves are not serving peace. They are prolonging the war." Lindsay, at a background briefing in Washington, praises Rockefeller''s first step against the war and endorses Percy.'
+    n: '[[w.smith-on-his-own-terms]], 499. To check: Hinman to Rockefeller, Oct. 6, 1967, Rockefeller Archive Center (cited by [[w.smith-on-his-own-terms]], 499). Check: the day of Hughes''s leak and of Lindsay''s briefing. Names: Hinman, Rockefeller, Emmet Hughes, Johnson, Lindsay, Percy.'
+    src:
+      c: '18980304'
+      rows:
+        - 'w.smith-on-his-own-terms 499: all'
+        - 'via x.1967-10-06.hinman-to-rockefeller: all'
+    tags: [name:hinman-george-l, name:rockefeller-nelson, name:hughes-emmet-john, name:johnson-lyndon-b, name:lindsay-john-v, name:percy-charles-h]
   - id: cal.1967-10-08.opinion
     when: Oct. 8
     date: '1967-10-08'
@@ -648,7 +661,12 @@ entries:
     date: '1967-10-16'
     thread: elections-1968
     c: 'Aboard the *Independence*, the Governors'' Conference cruise to the Virgin Islands. Romney, *Time*''s cover on Rockefeller and Reagan under every cabin door, three times in Rockefeller''s cabin asks to be let off: he is through; Rockefeller must run. Rockefeller refuses: Romney the governors'' candidate.'
-    n: '[[w.white-making-of-the-president-1969]], 60. See [[cal.1967-10-16.states-and-cities-us]]. Names: Romney, Rockefeller, Reagan.'
+    n: '[[w.white-making-of-the-president-1969]], 60; [[w.smith-on-his-own-terms]], 498 (forty-two governors aboard the SS *Independence*). Check: Smith, 498, has Romney plead with Rockefeller to deny publicly, explicitly, any interest in the White House, and Rockefeller go along. See [[cal.1967-10-16.states-and-cities-us]]. Names: Romney, Rockefeller, Reagan.'
+    src:
+      c: be9b0ca3
+      rows:
+        - 'w.white-making-of-the-president-1969 60: all'
+        - 'w.smith-on-his-own-terms 498: A'
     tags: [name:romney-george-w, name:rockefeller-nelson, name:reagan-ronald]
   - id: cal.1967-10-16.draft
     when: Oct. 16–20
@@ -928,6 +946,18 @@ entries:
     c: 'Pastore doubts any of the debate bills will pass: "there isn''t any fire behind the bill in my Committee."'
     n: '[[w.cq-weekly-report]], Mar. 1, 1968, 404. Names: Pastore.'
     tags: [name:pastore-john-o]
+  - id: cal.1967-10-19.mayors-nyc
+    when: Oct. 19
+    date: '1967-10-19'
+    thread: mayors
+    c: 'Hinman to Rockefeller, "Call from Bob Sweet": Lindsay''s deputy mayor reaches out to Marshall to ease the tension between the two, after a meeting at Rockefeller''s Fifth Avenue apartment. A truce.'
+    n: '[[w.smith-on-his-own-terms]], 499 (before Lindsay''s three days in Southern California). To check: Hinman to Rockefeller, Oct. 19, 1967, Rockefeller Archive Center (cited by [[w.smith-on-his-own-terms]], 499). Check: the day of the meeting. Names: Hinman, Rockefeller, Lindsay.'
+    src:
+      c: 21cbf086
+      rows:
+        - 'w.smith-on-his-own-terms 499: all'
+        - 'via x.1967-10-19.hinman-to-rockefeller-call-from-bob-sweet: all'
+    tags: [name:hinman-george-l, name:rockefeller-nelson, name:lindsay-john-v, state:ny, city:nyc]
   - id: cal.1967-10-20.mississippi
     when: Oct. 20
     date: '1967-10-20'
@@ -1014,6 +1044,19 @@ entries:
         - 'w.chester-american-melodrama 67: all'
         - 'w.white-making-of-the-president-1969 74: all'
     tags: [name:mccarthy-eugene-j, name:lowenstein-allard]
+  - id: cal.1967-10-20.press-and-broadcasting
+    when: Oct. 20
+    date: '1967-10-20'
+    thread: press-and-broadcasting
+    also: [elections-1968]
+    c: '*Time*''s cover, Rockefeller and Reagan. Rockefeller: a mistake to write off Reagan as Goldwater''s copy; "When he gets engaged with the realities of being a governor, you''ll find he is no extremist."'
+    n: '[[w.smith-on-his-own-terms]], 498. To check: *Time*, Oct. 20, 1967 (cited by [[w.smith-on-his-own-terms]], 498). See [[cal.1967-10-16.elections-1968]]. Names: Rockefeller, Reagan, Goldwater.'
+    src:
+      c: 222eda84
+      rows:
+        - 'w.smith-on-his-own-terms 498: all'
+        - 'via x.1967-10-20.time-oct-20-1967: B-C'
+    tags: [name:rockefeller-nelson, name:reagan-ronald, name:goldwater-barry-m]
   - id: cal.1967-10-21.war-opposition
     when: Oct. 21–23
     date: '1967-10-21'
@@ -1699,3 +1742,15 @@ entries:
       rows:
         - 'w.califano-triumph-and-tragedy-of 244–45: all'
     tags: [name:boyd-alan-s]
+  - id: cal.1967-10.elections-1968-4
+    when: Oct.
+    date: 1967-10
+    thread: elections-1968
+    c: 'Rockefeller to Larry King, of *Harper''s*: "One of the advantages of getting older is the loss of fear. I''m not even afraid of not getting what I want." On a draft: "If you had stood in front of that convention in 1964, you wouldn''t think you were going to be nominated this time either."'
+    n: '[[w.smith-on-his-own-terms]], 498. Made public: Larry L. King, "The Cool World of Nelson Rockefeller," *Harper''s Magazine*, Feb. 1968 (cited by [[w.smith-on-his-own-terms]], 498). Check: the day. See [[cal.1967-10-16.elections-1968]]. Names: Rockefeller.'
+    src:
+      c: 45db52cc
+      rows:
+        - 'w.smith-on-his-own-terms 498: all'
+        - 'via x.1968-02.king-cool-world-of-nelson-rockefeller: all'
+    tags: [name:rockefeller-nelson]

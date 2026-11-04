@@ -299,7 +299,13 @@ entries:
     thread: elections-1961
     also: [mayors, governors]
     c: 'Off-year elections. New York: Wagner re-elected mayor over Lefkowitz (R), 1,237,421 to 835,691, 51.0 percent; Gerosa, independent, 321,604, 13.3 percent. New Jersey: Hughes (D) governor over Mitchell, Eisenhower''s Labor Secretary, 1,084,194 to 1,049,274, 50.4 percent.'
-    n: '[N.J. *Results of the General Election Held November 7th, 1961*, p. 3](https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/1961-general-election.pdf#page=3). Votes: [Wikipedia, "1961 New York City mayoral election"](https://en.wikipedia.org/wiki/1961_New_York_City_mayoral_election); Check: the Board of Elections'' canvass. See [[cal.1961-09-07.states-and-cities]]. Names: Wagner, Lefkowitz, Gerosa, Hughes, Mitchell, Eisenhower.'
+    n: '[N.J. *Results of the General Election Held November 7th, 1961*, p. 3](https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/1961-general-election.pdf#page=3). Votes: [Wikipedia, "1961 New York City mayoral election"](https://en.wikipedia.org/wiki/1961_New_York_City_mayoral_election); Check: the Board of Elections'' canvass. [[w.smith-on-his-own-terms]], 360 (Wagner over Lefkowitz by four hundred thousand votes). See [[cal.1961-09-07.states-and-cities]]. Names: Wagner, Lefkowitz, Gerosa, Hughes, Mitchell, Eisenhower.'
+    src:
+      c: eecb5708
+      rows:
+        - 'https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/1961-general-election.pdf#page=3: all'
+        - 'https://en.wikipedia.org/wiki/1961_New_York_City_mayoral_election: all'
+        - 'w.smith-on-his-own-terms 360: B'
     tags: [name:wagner-robert-f-jr, name:mitchell-james-p, name:eisenhower-dwight-d, name:hughes-richard-j, state:ny, city:nyc, state:nj, name:lefkowitz-louis-j, name:gerosa-lawrence-e]
   - id: cal.1961-11-07.specials
     when: Nov. 7
@@ -452,7 +458,14 @@ entries:
     thread: legislatures
     also: [defense]
     c: Special session at Albany, N.Y., called by Rockefeller. New congressional districts on the 1960 census, the State's seats down from 43 to 41, the city's delegation by three. State aid for fallout shelters in schools and colleges (Check the sums).
-    n: '[*New York Times*, Oct. 22, 1961](https://www.nytimes.com/1961/10/22/archives/albany-session-set-on-shelters-and-districting-governor-calls.html); [*New York Times*, Nov. 11, 1961](https://www.nytimes.com/1961/11/11/archives/voting-is-close-city-house-delegation-cut-by-three-bill-bitterly.html); [Wikipedia, "173rd New York State Legislature"](https://en.wikipedia.org/wiki/173rd_New_York_State_Legislature). Check: *Laws of New York*, 1961, Extraordinary Session. To check: [[w.connery-rockefeller-of-new-york]]; [[w.persico-imperial-rockefeller]]. See [[cal.1961-07-25.berlin-and-vienna]]. Names: Rockefeller.'
+    n: '[*New York Times*, Oct. 22, 1961](https://www.nytimes.com/1961/10/22/archives/albany-session-set-on-shelters-and-districting-governor-calls.html); [*New York Times*, Nov. 11, 1961](https://www.nytimes.com/1961/11/11/archives/voting-is-close-city-house-delegation-cut-by-three-bill-bitterly.html); [Wikipedia, "173rd New York State Legislature"](https://en.wikipedia.org/wiki/173rd_New_York_State_Legislature). [[w.smith-on-his-own-terms]], 363 (the special session of two days in mid-November; half the cost of shelters in the schools, $100 million; barely $2 million spent in five years). Check: *Laws of New York*, 1961, Extraordinary Session. To check: [[w.connery-rockefeller-of-new-york]]; [[w.persico-imperial-rockefeller]]. See [[cal.1961-07-25.berlin-and-vienna]]. Names: Rockefeller.'
+    src:
+      c: b46b463a
+      rows:
+        - 'https://www.nytimes.com/1961/10/22/archives/albany-session-set-on-shelters-and-districting-governor-calls.html: all'
+        - 'https://www.nytimes.com/1961/11/11/archives/voting-is-close-city-house-delegation-cut-by-three-bill-bitterly.html: all'
+        - 'https://en.wikipedia.org/wiki/173rd_New_York_State_Legislature: all'
+        - 'w.smith-on-his-own-terms 363: A, C'
     tags: [state:ny, name:rockefeller-nelson, city:nyc]
   - id: cal.1961-11-09.cuba
     when: Nov. 9
@@ -837,6 +850,19 @@ entries:
         - 'w.white-making-of-the-president-1965 92: ?'
         - 'w.goldberg-barry-goldwater 162–63: A-C, E-F'
     tags: [name:white-f-clifton, name:thone-charles, name:goldwater-barry-m, name:rockefeller-nelson, city:washington]
+  - id: cal.1961-11-17.elections-1964
+    when: Nov. 17
+    date: '1961-11-17'
+    thread: elections-1964
+    c: 'The Rockefellers'' separation announced, 6 p.m., Friday: the statement hand-delivered to New York''s seven papers and the two wires; a property settlement; the Governor to stay with his brother Laurance. Wilson, told at dinner beforehand, begs him to reconsider. Hinman, at the Republicans'' southern conference in Atlanta, not told.'
+    n: '[[w.smith-on-his-own-terms]], 363–64. To check: *Time*, Nov. 24, 1961; Hinman to Rockefeller, "Republican Southern Conference, November 17th and 18th," Rockefeller Archive Center (both cited by [[w.smith-on-his-own-terms]], 364). Names: Rockefeller, Hinman.'
+    src:
+      c: d9018ea3
+      rows:
+        - 'w.smith-on-his-own-terms 363–64: all'
+        - 'via x.1961-11-24.time-nov-24-1961: A-B'
+        - 'via x.1961-11-18.hinman-southern-conference: D'
+    tags: [name:rockefeller-nelson, name:hinman-george-l, state:ny]
   - id: cal.1961-11-18.goldwater
     when: Nov. 18
     date: '1961-11-18'
@@ -1243,3 +1269,15 @@ entries:
       rows:
         - 'w.shesol-mutual-contempt 103: all'
     tags: [name:johnson-lyndon-b, name:kennedy-john-f]
+  - id: cal.1961-11.conservative-movement
+    when: Nov.
+    date: 1961-11
+    thread: conservative-movement
+    c: 'Dallas, the week of Kennedy''s Los Angeles speech. The National Indignation Convention, eighteen hundred delegates. Reagan: the progressive income tax "spawned by Karl Marx a hundred years ago." The last speaker: "I''m for hanging" Warren.'
+    n: '[[w.smith-on-his-own-terms]], 370. To check: *Newsweek*, Dec. 4, 1961 (cited by [[w.smith-on-his-own-terms]], 370). Check: the day. Names: Reagan, Warren.'
+    src:
+      c: 95a0e21e
+      rows:
+        - 'w.smith-on-his-own-terms 370: all'
+        - 'via x.1961-12-04.newsweek-dec-4-1961: all'
+    tags: [name:reagan-ronald, name:warren-earl, state:tx, city:dallas]

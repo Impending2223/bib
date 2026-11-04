@@ -452,6 +452,28 @@ CQ Weekly Report, 1968-08-16:
 - Memphis, Feb.–Apr. 1968: the City Council's resolution of Feb. 23 and the injunctions against Wurf and AFSCME (Branch, 699, 755; Beifuss, *At the River I Stand*, 83ff.); Robert Clark's day in the Mississippi House, Jan. 1968 (cal.1968-01.mississippi-2).
 - Oakland, Feb. 17, 1968: the "Free Huey" rally's day (cal.1968-02-17.black-nationalism; Carmichael, *Stokely Speaks*, 111–30).
 
+### Smith, *On His Own Terms* (batch 3, Oct. 29 and Nov. 4, 2026; notes/book-checks/smith-on-his-own-terms.md)
+
+- New York's session laws of 1960 for the dates the 1960 program was signed (minimum wage, Housing Finance Agency, arts
+  council).
+- New York's direct primary law of 1967, the State Historic Trust, the Office of Collective Bargaining (Sept.
+  1967): the session laws and the city's record (Smith 502).
+- Johnson at Buffalo, Oct. 1966, and the State's Erie County study three days before (Smith 490): the Public
+  Papers for the day.
+- the legislators' pension law of Apr. 10, 1968 (Smith 526): *Laws of New York*, 1968, its chapter.
+- Logue and Rockefeller, Jan. 1968 (Smith 524; Benjamin and Hurd, *Rockefeller in Retrospect*).
+- New York's session laws of 1961, 1962, 1963 and 1964 for the days the governor signed the higher education
+  program, the Metcalf-Baker law, the Job Development Authority, the State University Construction Fund (Mar. 31, 1962, Smith's
+  date), the Albany County lease, the liquor bills; and the canvass of the bond issue of Nov. 1961.
+- the Liquor Authority scandal: Epstein's removal, Hostetter's appointment, the Walsh commission (Smith 391-92;
+  *Life*, Apr. 5, 1963).
+- *Public Papers of Nelson A. Rockefeller*, 1962 (pp. 1036-39, 1120, 1132-35, 1159, 1208-12): find an open copy.
+- the appeals court's decision on the South Mall, June 30, 1962 (Smith 400): the court and the cite.
+- New York's session laws of 1965-68 for the days the 1965 sales tax, the death penalty law, the free legal
+  services bills, the transit settlement law (1966), the Rye-Oyster Bay Bridge law (1967), the Medicaid law and its cuts were
+  signed.
+- Storm King: the FPC's order of Mar. 1965 and Scenic Hudson v. FPC (2d Cir., Dec. 1965), for Conservation.
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -1710,6 +1732,30 @@ Rights in Conflict (Walker Report):
 - Goldberg's notes rest heavily on the Barker History Center's Goldwater Collection, the Arizona Historical Foundation's Goldwater Papers (the Alpha File), the Hoover Institution's Kitchel, Brown and Free Society Association collections: none open here.
 - Persons named without a name entry: Dan Smoot, Elizabeth Churchill Brown, Jack Stewart, William Saufley, Gregory Shorey Jr.
 - The State convention entries of 1964 (Oklahoma, North Carolina, Texas) and Nixon's acceptance (Aug. 8, 1968) await Goldberg's cites.
+
+### Smith, *On His Own Terms* (batch 3, Oct. 29 and Nov. 4, 2026; notes/book-checks/smith-on-his-own-terms.md)
+
+- Eisenhower's two telephone calls to Rockefeller, spring 1960 (Smith 336): the Eisenhower Library's telephone logs.
+- Nixon to Hoover, Nov. 22, 1963 (Smith 418; Nixon, *RN*, 312): see whether the calendar has it.
+- Clif White's forecast, May 29, 1964 (Smith 447); Scranton to Rockefeller, Aug. 3, 1964, and Rockefeller to Hugh Scott,
+  Aug. 28, 1964 (RAC; Smith 452).
+- Nixon's endorsement of Rockefeller, Oct. 1966 (Smith 491): the day.
+- Miller's election as national chairman, 1961: no entry; the day from the national committee's record (Smith 357).
+- Laurance Rockefeller's $30,000 loan to Miller, 1961 (Smith 387 n.): the day.
+- Kennedy to Bradlee on Rockefeller and *Newsweek*'s cover (Bradlee, *Conversations with Kennedy*, 74-75): the day.
+- the Ideological Organizations Project of the IRS, late 1961 (Smith 379 n.; Andrew, *The Other Side of the Sixties*).
+- Goldwater on the divorce, Nov. 1961; Khrushchev on it (Smith 364-65): the days.
+- cards to make (no card yet, cited in full in "To check:"): Klein, *Lindsay's Promise* (1970); Benjamin and Hurd,
+  *Rockefeller in Retrospect* (1984); Schlesinger, *Journals, 1952-2000*; Hevesi, *Legislative Politics in New York State*;
+  Gordon, *Battery Park City* (1997); Robert David Johnson, *All the Way with LBJ*; *Public Papers of Nelson A. Rockefeller*
+  (a card a year, as the Bulletin's).
+- the Johnson-Rockefeller recording of Nov. 9, 1965, 9:15 p.m. (Miller Center, WH6511-05-9147): to hear and cite as
+  the primary record of cal.1965-11-09.states-and-cities-2.
+- the Public Papers of Governor Rockefeller (1959-73), cited by Smith throughout as "NR, PP": find a copy; the
+  statement of Apr. 5, 1968 (1968, 1039), the ASNE speech (1968, 1303-08), the postelection press conference (1964, 876).
+- Hirshhorn's gift (Smith, 464, May 1965): the day of Johnson's announcement.
+- Press: Murray Kempton, Victor Riesel, Gene Spagnoli (the *Daily News* at Albany), Jimmy Breslin: Part III entries to propose
+  (R13); Kempton's columns of Nov. 5, 1965, and June 16, 1966, entered.
 
 ## Foreign
 
