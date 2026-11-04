@@ -122,18 +122,29 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-03-03 | *Los Angeles Times* |  | Judge Coleman's suspensions in the Stokes case | Branch, *Pillar of Fire*, 604 n.
 1965-07 | *Life* | picture | Ball in tears at Stevenson's memorial service (Check: the issue) | Ball, *The Past Has Another Pattern*, 152
 1965-11 | (a news photograph) | photograph | Rusk at Montevideo, the spit dubbed into the negative | Rusk, *As I Saw It*, 571–72
+1966-01-09 | New York Times | front page | "8,000 G.I.'s Open Biggest Attack of Vietnam War" (Crimp), start withheld from the South Vietnamese | Branch, *At Canaan's Edge*, 415
 1966-01-10 | *Hattiesburg American* | front page | the attack on the Dahmers | Branch, *Pillar of Fire*, 606
 1966-01-11 | *Hattiesburg American* | front page | Dahmer's death; Katzenbach's statement | Branch, *Pillar of Fire*, 607
 1966-01-11 | *New York Times* | p. 10 | the Dahmer attack | Branch, *Pillar of Fire*, 606
 1966-01-13 | *Hattiesburg American* | front page | the cause of Dahmer's death | Branch, *Pillar of Fire*, 607
+1966-01-13 | New York Times | front page | the State of the Union; "Ban on Color Line in Housing Asked" | Branch, *At Canaan's Edge*, 416
 1966-01-15 | *Hattiesburg American* | front page | the crowd at the courthouse | Branch, *Pillar of Fire*, 607
 1966-01-22 | *Hattiesburg American* | front page; p. 4 | whites rebuild for the Dahmers; Mrs. J. V. Sanford's letter | Branch, *Pillar of Fire*, 607
+1966-01-27 | Chicago Tribune |  | "King Picks 'Typical' Flat/8 Men Repair It" | Branch, *At Canaan's Edge*, 427
+1966-01-27 | CBS Evening News | broadcast | Cronkite gives three minutes to Rusk's hearing; NBC five | Branch, *At Canaan's Edge*, 430
+1966-01-28 | New York Times | front page | "A Lonely Johnson Weighs Bombing"; "15 in Senate Urge President Extend Pause in Bombing" | Branch, *At Canaan's Edge*, 430
+1966-01-31 | New York Times | front page | AP photograph of the medic Thomas Cole near Bồng Sơn | Branch, *At Canaan's Edge*, 433
 1966-02 | *New York Times* (Wicker) | dispatch | the Bangkok communiqué filed first | Humphrey, *Education of a Public Man*, 332
 1966-02 | *New York Times* | story (Broder) | Romney: "fuzziness on national and international issues" | White, *Making of the President 1968*, 40
+1966-02-01 | New York Times | front page | "Johnson Asks U.N. to Summon Vietnam Peace Conference/ Bombing in North Resumes" | Branch, *At Canaan's Edge*, 433
+1966-02-11 | Montgomery Advertiser | front page | "Lowndes Schools Ordered to End All Segregation" | Branch, *At Canaan's Edge*, 438
+1966-02-24 | New York Times |  | "Dr. King Seizes a Slum Building" | Branch, *At Canaan's Edge*, 441
+1966-02-25 | New York Times |  | "Dr. King Assailed for Slum Tactic" | Branch, *At Canaan's Edge*, 441
 1966-03-01 | *New York Post* (Wechsler) | column | "His righteous rhetoric is almost reminiscent of Richard Nixon" | Solberg, *Hubert Humphrey*, 293
 1966-03-12 | *New Republic* | article | Humphrey "a kind of export ADA" | Solberg, *Hubert Humphrey*, 292
 1966-04-01 | *Time* | cover | Humphrey; "a White House Uriah Heep" | Solberg, *Hubert Humphrey*, 295
 1966-04-08 | *Time* | p. 27 | the Dahmer case | Branch, *Pillar of Fire*, 610
+1966-04-16 | New York Times | front page | 1,361 Americans killed in the first 99 days of 1966 | Branch, *At Canaan's Edge*, 452
 1966-04-29 | *New York Times* (Reston) | column | "Alas, Poor Hubert" | Solberg, *Hubert Humphrey*, 295
 1966-07-29 | *New York Post* (McGrory) | column | "The Vice President is not a proud man" (Check: the day) | Solberg, *Hubert Humphrey*, 295
 1967-02-21 | *New York Times* |  | the grand-jury claims in the Dahmer and Neshoba cases | Branch, *Pillar of Fire*, 609
@@ -145,12 +156,30 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1967-09-05 | the networks' evening news | broadcast | the Gordon clip | White, *Making of the President 1968*, 60
 1967-09-10 | *Detroit News* | Sunday editorial | Romney to quit | White, *Making of the President 1968*, 60
 1967-10 | *Time* | cover | Rockefeller and Reagan | White, *Making of the President 1968*, 60
+1967-12-17 | New York Times | front page | "A White Liberal Shift on Integration" | Branch, *At Canaan's Edge*, 663
+1968-01-06 | New York Post | front page | "SPOCK INDICTED" | Branch, *At Canaan's Edge*, 668
+1968-01-13 | New York Times |  | "Dr. King Calls for Antiwar Rally in Capital" | Branch, *At Canaan's Edge*, 669
+1968-01-19 | New York Times | editorial page | Reston on the State of the Union, the "mutinous cries below decks" | Branch, *At Canaan's Edge*, 674
 1968-01-25 | *Hattiesburg American* | front page | the Forrest County indictments | Branch, *Pillar of Fire*, 610
 1968-01-26 | *New York Times* | p. 17 | the same | Branch, *Pillar of Fire*, 610
+1968-01-31 | New York Times; Washington Post | front pages | Mohr on the embassy in Saigon; the Post's photograph of a Viet Cong body on the lawn | Branch, *At Canaan's Edge*, 681
 1968-02 | the papers, nationally | front pages (by Rusk's account) | Rusk to Scali at a backgrounder: "Whose side are you on?" | Rusk, *As I Saw It*, 477
+1968-02-02 | Memphis Commercial Appeal |  | "Hambone's Meditations" on the drain workers | Branch, *At Canaan's Edge*, 685
+1968-02-04 | New York Times | front page | "Clerics Accuse U.S. of War Crimes" | Branch, *At Canaan's Edge*, 687
+1968-02-18 | New York Times | front page | the Ford Foundation's turn to race; Bundy's annual report | Branch, *At Canaan's Edge*, 696
+1968-02-23 | Memphis Commercial Appeal | front page | "Committee Surrenders but Loeb Holds Firm"; the cartoon of T. O. Jones | Branch, *At Canaan's Edge*, 699
+1968-02-25 | Washington Post |  | Harwood, "J. Edgar Hoover: A Librarian with a Lifetime Lease" | Branch, *At Canaan's Edge*, 708
+1968-02-27 | CBS | broadcast | Cronkite, "mired in stalemate" (cal.1968-02-27.press-and-broadcasting) | Branch, *At Canaan's Edge*, 704
 1968-03 | *New York Times* | column (Reston), the first week | "the political system ... has broken down" | White, *Making of the President 1968*, 94–95
+1968-03-13 | ABC | broadcast | Howard K. Smith's editorial for mobilization "on an overwhelming scale" | Branch, *At Canaan's Edge*, 710
 1968-03-16 | *New York Times* | p. 17 | a Dahmer murder conviction | Branch, *Pillar of Fire*, 610
+1968-03-17 | New York Times | front page | the official account of Mỹ Lai, "128 enemy soldiers" | Branch, *At Canaan's Edge*, 715
 1968-03-19 | *New York Times* | front page | Rockefeller to declare | White, *Making of the President 1968*, 231
+1968-03-24 | New York Times |  | "Memphis Protest Avoids Violence," the Southern Regional Council's study | Branch, *At Canaan's Edge*, 730
+1968-03-29 | NBC Huntley-Brinkley | broadcast | King, "Nonviolence can be as contagious as violence"; Coby Smith of the Invaders | Branch, *At Canaan's Edge*, 738, 740
+1968-03-30 | New York Times | editorial page | against King's "descent on Washington" | Branch, *At Canaan's Edge*, 744
+1968-03-30/31 | Memphis Commercial Appeal; St. Louis Globe-Democrat | editorials | "King's Credibility Gap," "Chicken a la King"; "The Real Martin Luther King," from the FBI's material | Branch, *At Canaan's Edge*, 745
+1968-04-23 | Washington Post | editorial page | "why not turn it around" | Branch, *At Canaan's Edge*, 744
 1968-05-18 | *Hattiesburg American* | front page | Bowers's mistrial | Branch, *Pillar of Fire*, 610
 1968-07-20 | *New York Times* | p. 25 | a Dahmer murder conviction | Branch, *Pillar of Fire*, 610
 1968-07-27 | *Hattiesburg American* | front page | "Doctor Brings New Angle into Wilson Murder Trial" | Branch, *Pillar of Fire*, 710

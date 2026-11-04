@@ -444,6 +444,14 @@ CQ Weekly Report, 1968-08-16:
 - Hattiesburg, 1968-69: the second and third Dahmer murder convictions (NYT, July 20 and 29, 1968; Feb. 1, 1969);
   Bowers's second mistrial (NYT, Jan. 26, 1969, 1): its day against the span's end.
 
+### Branch, *At Canaan's Edge* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-at-canaans-edge.md)
+
+- Alabama, Jan. 29–30, 1966: Wilcox, Selma, Macon and Greene County meetings on the May primary and independent parties; a Macon County "black panther" caucus called for Feb. 6 (Branch, *At Canaan's Edge*, 432; SAC Mobile to Director, Feb. 21, 1966, FBPA-2). The days and whether the caucus met.
+- Chicago, Feb.–Mar. 1966: the Warren Avenue mass meeting with the landlords Condor and Costalis (Branch, 441–42; Ralph, *Northern Protest*, 63; Look, June 14, 1966); Hoover's agents warn Archbishop Cody (Garrow, *FBI and Martin Luther King*, 176); AFSC testing teams in the suburbs; Clay Evans's Breadbasket chapter and his church's cancelled permits (Frady, *Jesse*, 196–98). No days given.
+- Lowndes County, Feb. 1966: the case name and day of Frank Johnson's school order of Feb. 11 and of the dismissal of the eviction suit (Branch, 438; Eagles, *Outside Agitator*, 255; Southern Courier, June 18–19, 1966).
+- Memphis, Feb.–Apr. 1968: the City Council's resolution of Feb. 23 and the injunctions against Wurf and AFSCME (Branch, 699, 755; Beifuss, *At the River I Stand*, 83ff.); Robert Clark's day in the Mississippi House, Jan. 1968 (cal.1968-01.mississippi-2).
+- Oakland, Feb. 17, 1968: the "Free Huey" rally's day (cal.1968-02-17.black-nationalism; Carmichael, *Stokely Speaks*, 111–30).
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -1678,6 +1686,17 @@ Rights in Conflict (Walker Report):
   Charles Wilson (Laurel); Delmar Dennis; Thomas Tarrants; Kathy Ainsworth; Devours Nix; Cager Lee. Press (R13): Eliot
   Fremont-Smith (*NYT*); I. F. Stone (*I. F. Stone's Weekly*, *NYRB*); Jack Nelson (*LAT*).
 
+### Branch, *At Canaan's Edge* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-at-canaans-edge.md)
+
+- Birmingham, Jan. 24, 1966: the Attorney General's certification for federal examiners in Jefferson County, Federal Register, January 1966 (cal.1966-01-24.voting-rights).
+- Motley's nomination to the Southern District of New York: the day (cal.1966-01.civil-rights-the-executive-2; Washington Post, Jan. 26, 1966, 2).
+- Postage from 5 to 6 cents, Jan. 7, 1968: the Postal Revenue and Federal Salary Act of 1967 and its effective day (Branch, 666).
+- Patman's bill against bank sales of lottery tickets, Feb. 1968, and the hearing Branch cites (Senate Banking, Aug. 19, 1967) (Branch, 675–76).
+- Komer's announcement of Jan. 25, 1968, two-thirds of South Vietnam's people secure (NYT, Jan. 25 or 26, 1968; Branch, 676).
+- The FBI's papers of Feb.–Apr. 1968 on King (Parade, Feb. 29; the propaganda of late March; SAC Jackson, Apr. 4): FBI King file, as Branch's notes give them (734–35).
+- Johnson at St. Patrick's Cathedral, Apr. 4, 1968, Cooke's installation (Branch, 764).
+- The National Guard's drive for Negro members, Mar. 31, 1968 (NYT, Mar. 31, 1968, 1; Branch, 751).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2749,6 +2768,10 @@ CQ Weekly Report, 1968-08-30:
   Feb. 4 entries not checked against it.
 - Malcolm X in Paris refused, Feb. 9, 1965 (Legat, Paris, to Director, Feb. 11, 1965, FMX-233): France's record.
 - Tanzania's tacit asylum to Moses, summer 1968 (int. Moses, Feb. 15, 1991): the government's record.
+
+### Branch, *At Canaan's Edge* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-at-canaans-edge.md)
+
+- Tiger Force, 101st Airborne, 1967–68: the dates of its operations in Quảng Ngãi and Quảng Tín and of the Army's inquiry (Toledo *Blade*, Oct. 19–22, 2003; Branch, 713).
 
 ## The Executive roster
 
