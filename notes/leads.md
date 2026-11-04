@@ -1489,6 +1489,9 @@ Rights in Conflict (Walker Report):
   - 417–18 | May 1960; Nov. 1968 | the Pill; Johnson's committee on population | lead.
 - Press figures for Part III, proposed: Lou Gordon (WKBD), Jerry Flint (*New York Times*, Detroit), Walter Ridder (Ridder Publications), Mary McGrory, Charles Bailey (*Minneapolis Tribune*), Paul Jablow (*Charlotte Observer*), Raymond Coffey (*Chicago Daily News*), Thomas Whiteside: none tagged.
 
+### White and Gill, *Suite 3505* (batch 3, second run, Nov. 4, 2026; notes/book-checks/white-suite-3505.md)
+- Part III entries proposed (R13) for Walter Trohan (*Chicago Tribune*), Jack Steele (Scripps-Howard), Victor Riesel (labor columnist), John S. Knight (*Detroit Free Press*, the Knight papers), Richard Bergholz (*Los Angeles Times*), Carlton Kent (*Chicago Sun-Times*), each treated by White, *Suite 3505*. Lee Minton (Glass Bottle Blowers, AFL-CIO vice president): no name entry; Riesel's column of Sept. 16, 1963.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
