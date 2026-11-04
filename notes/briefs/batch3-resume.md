@@ -74,7 +74,7 @@ Merged Nov. 3-4, 2026, all 32 patches of Oct. 29 (`inbox/merged/2026-10-29-b3-*.
   suite-3505 1, humphrey 1, navasky 1); where the entry had changed since, rebuilt on the newer note.
 - A note listing several FRUS documents after one label ("FRUS 1961-63, XI, docs. [63](...), [64](...)") made the
   map's rows for the later documents name nothing: split, a document an item (ball, rusk, westmoreland).
-- The "one event?" flags: about 1,500, read pair by pair. Kept apart: distinct events of one day and thread. Combined
+- The "one event?" flags: about a thousand, read pair by pair. Kept apart: distinct events of one day and thread. Combined
   (the older or the tree's id kept, the other its alias, the c and n joined by hand, the map rebuilt): the Chicago
   march of Apr. 27, 1968; Humphrey at the Press Club, June 20, 1968; McCarthy at Davis, May 28, 1968; Humphrey's China
   statement, July 12, 1968; the Hilton raid, Aug. 30, 1968; Unruh's motion, Aug. 26, 1968; the platform hearings'
