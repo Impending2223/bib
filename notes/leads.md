@@ -1440,6 +1440,9 @@ Rights in Conflict (Walker Report):
 ### Guthman and Shulman, eds., *Robert Kennedy in His Own Words* (batch 3, second run, Nov. 4, 2026; notes/book-checks/robert-kennedy-in-his.md)
 - Hoover's meeting with King, Dec. 1, 1964, and Kennedy's account of it (140); the President on Levison to King, June 1963 (142); the first White House meeting with leaders, about June 13, 1963 (182); the press conference of July 17, 1963 (226); Hanson Baldwin's *Times* story on the satellites, 1963 (304); Goldwater's demand for dismissals, late 1962 (363); Johnson's Christmas telegram, Dec. 1963 (406). The Kennedy Library's transcripts (JFKOH-RFK-01 on its site; the others to find) would settle each session's pages.
 
+### Guthman, *We Band of Brothers* (batch 3, second run, Nov. 4, 2026; notes/book-checks/guthman-we-band-of-brothers.md)
+- Guthman's appointment as Justice's press officer, Jan. 18–23, 1961 (80); Robert Kennedy at the International Police Academy, Feb. 1964 (116; the Department's speeches on justice.gov); the CBS panel of Mar. 5, 1961 (226); Gallup's Vice Presidential reading of Apr. 12, 1964 (269); Scranton, Mar. 17, 1964 (267); the Keogh case's acts of Mar. 1961 and the stories of Oct. 1961 (140–50; the trial record, *United States v. Keogh*); word to Kennedy in mid-January 1965 that Johnson leaned toward withdrawal from Vietnam (318).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2447,6 +2450,9 @@ CQ Weekly Report, 1968-08-30:
 
 ### Guthman and Shulman, eds., *Robert Kennedy in His Own Words* (batch 3, second run, Nov. 4, 2026; notes/book-checks/robert-kennedy-in-his.md)
 - Houphouët-Boigny's visit to the United States, 1962 (275); the Dominican–Haitian dispute, spring 1963 (386); Bosch's fall, Sept. 25, 1963, and Martin's return (387).
+
+### Guthman, *We Band of Brothers* (batch 3, second run, Nov. 4, 2026; notes/book-checks/guthman-we-band-of-brothers.md)
+- Robert Kennedy in Poland, June 1964 (274–75).
 
 ## The Executive roster
 
