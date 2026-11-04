@@ -172,11 +172,12 @@ entries:
     thread: goldwater
     also: [elections-1964]
     c: 'A motel near the San Francisco airport. Goldwater with Knowland, his California chairman, Salvatori and the other leaders: no more schedules of many stops; large rallies, televised where possible, and few press conferences. Knowland argues; Goldwater holds. His schedule in the State cut by three-quarters.'
-    n: '[[w.white-suite-3505]], 338–39. Names: Goldwater, Knowland.'
+    n: '[[w.white-suite-3505]], 338–39; [[w.novak-agony-of-the-g]], 392–93 (the night of Apr. 4, the Hilton Inn by the airport, in secret, after Knowland''s day of twenty-four appearances in San Diego in March; three or four a day, friendly audiences, television, few press conferences; Knowland threatens to quit). Names: Goldwater, Knowland.'
     src:
       c: 5ddc5168
       rows:
         - 'w.white-suite-3505 338–39: all'
+        - 'w.novak-agony-of-the-g 392–93: ?'
     tags: [name:goldwater-barry-m, name:knowland-william-f, state:ca]
   - id: cal.1964-04-04.civil-rights-bill
     when: Apr. 4
@@ -210,12 +211,13 @@ entries:
     thread: opinion
     also: [elections-1964-polls]
     c: 'Gallup, Mar. 13–17: Republicans'' choice for 1964: Lodge 42, Nixon 26, Goldwater 14, Rockefeller 6, Scranton 4, Romney 4; others, no preference 4. Independents: Lodge 41, Nixon 20, Goldwater 10, Rockefeller 9.'
-    n: '[[w.gallup-poll]], III, 1873–74; [[w.goldberg-barry-goldwater]], 187 (the April Gallup poll, Lodge 42 percent of the Republicans). Names: Nixon, Goldwater, Lodge, Rockefeller, Romney, Scranton.'
+    n: '[[w.gallup-poll]], III, 1873–74; [[w.goldberg-barry-goldwater]], 187 (the April Gallup poll, Lodge 42 percent of the Republicans); [[w.novak-agony-of-the-g]], 332 (the April figures in Gallup''s run since the assassination). Names: Nixon, Goldwater, Lodge, Rockefeller, Romney, Scranton.'
     src:
       c: 8d45c6a8
       rows:
         - 'w.gallup-poll III, 1873–74: all'
         - 'w.goldberg-barry-goldwater 187: A'
+        - 'w.novak-agony-of-the-g 332: A'
     tags: [name:nixon-richard-m, name:goldwater-barry-m, name:lodge-henry-cabot, name:rockefeller-nelson, name:romney-george-w, name:scranton-william-w]
   - id: cal.1964-04-05.goldwater
     when: Apr. 5
@@ -242,6 +244,30 @@ entries:
         - 'w.woods-fulbright 338–39: all'
         - 'via x.1964-04-06.frankel-fulbright-new-hero-to-youth: all'
     tags: [name:fulbright-j-william, state:nc]
+  - id: cal.1964-04-05.goldwater-2
+    when: Apr. 5
+    date: '1964-04-05'
+    thread: goldwater
+    also: [elections-1964]
+    c: 'Chicago, a suite in the O''Hare International Inn. Goldwater''s regional and State chairmen, closed doors: the reorganized command unveiled, White and Kleindienst codirectors of field operations, White over the convention States and the floor, Kleindienst over the Oregon and California primaries. White runs the briefings; the delegate hunt at the conventions the campaign''s chief work.'
+    n: '[[w.novak-agony-of-the-g]], 337–38 & n.6 (the arrangement first made between Kleindienst and White over brandy, then at a staff meeting in the Duryea Building weeks later). Names: White, Kleindienst.'
+    src:
+      c: b0dd00e4
+      rows:
+        - 'w.novak-agony-of-the-g 337–38 & n.6: all'
+    tags: [name:white-f-clifton, name:kleindienst-richard-g, city:chicago]
+  - id: cal.1964-04-05.elections-1964
+    when: Apr. 5
+    date: '1964-04-05'
+    thread: elections-1964
+    also: [goldwater]
+    c: 'Portland, Ore., Sunday. Goldwater, hours late, passes some two hundred supporters at the airport with few handshakes; at the Hilton, a statement on MacArthur''s death. To Shadegg and his Oregon leaders: his three days cut to a day and a half, and no more campaigning in Oregon. California to have his time.'
+    n: '[[w.novak-agony-of-the-g]], 375–77 & n.21 (Mervin Shoemaker in the *Oregonian*; the Harris and *Oregonian* polls of early April, Lodge 46 and 40). Names: Goldwater, Shadegg.'
+    src:
+      c: f63cb46f
+      rows:
+        - 'w.novak-agony-of-the-g 375–77 & n.21: all'
+    tags: [name:goldwater-barry-m, name:shadegg-stephen, state:or]
   - id: cal.1964-04-06.mississippi
     when: Apr. 6
     date: '1964-04-06'
@@ -510,6 +536,30 @@ entries:
         - 'w.zelizer-fierce-urgency-of-now 142: all'
         - 'via w.zelizer-fierce-urgency-of-now 142 n.26: all'
     tags: [name:landrum-phil-m]
+  - id: cal.1964-04-09.press-and-broadcasting
+    when: Apr. 9
+    date: '1964-04-09'
+    thread: press-and-broadcasting
+    also: [goldwater]
+    c: 'Evans and Novak''s column, "Reassessing Goldwater": he "may have been the victim of premature burial"; his chance "around fifty-fifty—perhaps even better"; with California, perhaps 550 votes at the convention.'
+    n: '[[w.novak-agony-of-the-g]], 331, 333 n.1 (McWhorter''s calculations its principal source). Names: Evans, Novak, Goldwater.'
+    src:
+      c: a04cc6a6
+      rows:
+        - 'w.novak-agony-of-the-g 331, 333 n.1: all'
+        - 'via x.1964-04-09.evans-novak-reassessing-goldwater: all'
+    tags: [name:evans-rowland-jr, name:novak-robert-d, name:goldwater-barry-m]
+  - id: cal.1964-04-09.elections-1964
+    when: Apr. 9
+    date: '1964-04-09'
+    thread: elections-1964
+    c: 'Harrisburg, Pa., Thursday. Scranton, back from Hobe Sound and angry at Truax''s million write-in stickers for the State''s primary, calls the Washington correspondents meaning to rule himself out even of a draft; the *Philadelphia Inquirer* reports it Wednesday; his aides talk him down that night. He reaffirms his noncandidacy, and asks his friends to stop working for him. The *Washington Post*, Apr. 10: "SCRANTON ALL BUT QUITS RACE."'
+    n: '[[w.novak-agony-of-the-g]], 340–42 & n.12 (Truax: "The forthrightness marking the Governor''s statement"). Names: Scranton. Check: the day of the decision.'
+    src:
+      c: 4d4d06e7
+      rows:
+        - 'w.novak-agony-of-the-g 340–42 & n.12: all'
+    tags: [name:scranton-william-w]
   - id: cal.1964-04-10.opinion
     when: Apr. 10
     date: '1964-04-10'
@@ -684,13 +734,14 @@ entries:
     thread: elections-1964
     also: [goldwater]
     c: 'Illinois primary. Republican: Goldwater over Smith, 512,840 to 209,521, 62.0 percent. Democratic: Johnson (write-in) over Wallace (write-in), 82,027 to 3,761, 91.6 percent.'
-    n: '[*Official Vote of the State of Illinois Cast at the General Election, November 3, 1964 ... General Primary, April 14, 1964*, 161](https://archive.org/details/officialvoteof1964illi/page/n166). CQ Guide 6th (2010) 406. [[w.white-suite-3505]], 305–06 (the preference vote; nearly forty of the forty-eight district delegates for Goldwater); [[w.goldberg-barry-goldwater]], 188, 188 n.47 (Goldwater 63 percent, Smith 20; with the write-ins, Goldwater''s share 49 percent). See [[cal.1964-03-10.elections-1964]]. Names: Goldwater, Wallace, Johnson, Smith. Check: White, 305–06, gives Goldwater nearly 509,000, Smith more than 209,000.'
+    n: '[*Official Vote of the State of Illinois Cast at the General Election, November 3, 1964 ... General Primary, April 14, 1964*, 161](https://archive.org/details/officialvoteof1964illi/page/n166). CQ Guide 6th (2010) 406. [[w.white-suite-3505]], 305–06 (the preference vote; nearly forty of the forty-eight district delegates for Goldwater); [[w.goldberg-barry-goldwater]], 188, 188 n.47 (Goldwater 63 percent, Smith 20; with the write-ins, Goldwater''s share 49 percent); [[w.novak-agony-of-the-g]], 362–64 (the official canvass: Goldwater 512,840, Smith 209,521, Lodge 68,122, Nixon 30,313, Wallace 2,203, Rockefeller 2,048, Scranton 1,842; Goldwater 49.1 percent of the Republican vote cast; at least thirty-three of the forty-eight delegates his). See [[cal.1964-03-10.elections-1964]]. Names: Goldwater, Wallace, Johnson, Smith. Check: White, 305–06, gives Goldwater nearly 509,000, Smith more than 209,000.'
     src:
       c: 996f0b7a
       rows:
         - 'https://archive.org/details/officialvoteof1964illi/page/n166: all'
         - 'w.white-suite-3505 305–06: A'
         - 'w.goldberg-barry-goldwater 188, 188 n.47: A'
+        - 'w.novak-agony-of-the-g 362–64: A-B'
     tags: [primary:1964-04-14, name:wallace-george-c, name:johnson-lyndon-b, name:smith-margaret-chase, name:goldwater-barry-m]
   - id: cal.1964-04-14.governors-il
     when: Apr. 14
@@ -698,7 +749,12 @@ entries:
     thread: governors
     also: [elections-1964]
     c: Illinois, Republican primary for governor. Percy, president of Bell & Howell, over William J. Scott, State treasurer, 626,111 to 388,903, 60.3 percent. Kerner renominated unopposed.
-    n: 'Votes: [Ill. *Official Vote*, 1964, p. 171](https://archive.org/details/officialvoteof1964illi/page/n176). To check: [[w.barnhart-kerner]]; [[w.peirce-megastates-of-america]]. See [[cal.1964-04-14.elections-1964]]. Names: Percy, Scott, Kerner.'
+    n: 'Votes: [Ill. *Official Vote*, 1964, p. 171](https://archive.org/details/officialvoteof1964illi/page/n176). [[w.novak-agony-of-the-g]], 361–62 (Percy 626,111, Scott 388,903, others 23,558; "Mercy, Mr. Percy"). To check: [[w.barnhart-kerner]]; [[w.peirce-megastates-of-america]]. See [[cal.1964-04-14.elections-1964]]. Names: Percy, Scott, Kerner.'
+    src:
+      c: b8ffc8db
+      rows:
+        - 'https://archive.org/details/officialvoteof1964illi/page/n176: all'
+        - 'w.novak-agony-of-the-g 361–62: A-B'
     tags: [state:il, name:percy-charles-h, name:scott-william-j, name:kerner-otto]
   - id: cal.1964-04-14.middle-east
     when: Apr. 14–15
@@ -742,6 +798,18 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 265: all'
     tags: [name:carson-rachel, name:udall-stewart-l, name:ribicoff-abraham, state:md]
+  - id: cal.1964-04-14.conservative-movement
+    when: Apr. 14
+    date: '1964-04-14'
+    thread: conservative-movement
+    also: [elections-1964]
+    c: Phyllis Schlafly elected a delegate to the national convention from Illinois.
+    n: '[[w.novak-agony-of-the-g]], 346. See [[cal.1964-05.conservative-movement-2]]. Names: Schlafly.'
+    src:
+      c: 713a9347
+      rows:
+        - 'w.novak-agony-of-the-g 346: all'
+    tags: [name:schlafly-phyllis, state:il]
   - id: cal.1964-04-15.vietnam-congress
     when: Apr. 15
     date: '1964-04-15'
@@ -914,13 +982,14 @@ entries:
     date: '1964-04-18'
     thread: elections-1964-state-conventions
     c: Arizona's Republican State convention pledges its 16 delegates to Goldwater.
-    n: '"State GOP Delegates for Barry," [*Arizona Republic*, Apr. 19, 1964](https://www.newspapers.com/image/116783570). The figures: [Wikipedia, "1964 Republican Party presidential primaries"](https://en.wikipedia.org/wiki/1964_Republican_Party_presidential_primaries), its table of the primaries and conventions, read Oct. 22, 2026. [[w.white-suite-3505]], 307. See [[cal.1964-02-29.elections-1964-state-conventions]]. Names: Goldwater. Check: the paper (newspapers.com, by subscription; not read here).'
+    n: '"State GOP Delegates for Barry," [*Arizona Republic*, Apr. 19, 1964](https://www.newspapers.com/image/116783570). The figures: [Wikipedia, "1964 Republican Party presidential primaries"](https://en.wikipedia.org/wiki/1964_Republican_Party_presidential_primaries), its table of the primaries and conventions, read Oct. 22, 2026. [[w.white-suite-3505]], 307; [[w.novak-agony-of-the-g]], 348. See [[cal.1964-02-29.elections-1964-state-conventions]]. Names: Goldwater. Check: the paper (newspapers.com, by subscription; not read here).'
     src:
       c: 3e7d446c
       rows:
         - 'https://www.newspapers.com/image/116783570: all'
         - 'https://en.wikipedia.org/wiki/1964_Republican_Party_presidential_primaries: all'
         - 'w.white-suite-3505 307: all'
+        - 'w.novak-agony-of-the-g 348: A'
     tags: [state:az, name:goldwater-barry-m]
   - id: cal.1964-04-18.elections-1964-state-conventions-2
     when: Apr. 18
@@ -938,11 +1007,12 @@ entries:
     date: '1964-04-18'
     thread: elections-1964-state-conventions
     c: Topeka, Kansas's Republican convention. Governor Anderson, for Rockefeller, a candidate for delegate at large; the Goldwater men run Effie Semple, the retiring national committeewoman, against him. Sedgwick County, its unit rule unenforced, casts 110 for Semple, 13 for him; at 626 to 282 he withdraws. Two Goldwater men elected to the national committee on the fifth ballot, 11 to 9.
-    n: '[[w.white-suite-3505]], 307–11. Names: John Anderson Jr., Goldwater, Rockefeller.'
+    n: '[[w.white-suite-3505]], 307–11; [[w.novak-agony-of-the-g]], 351–52 (Van Sickle directing; 626 to 282, Anderson losing 20 of 92 votes from his home county; 11 to 9 for the Goldwater men on the national committee). Names: John Anderson Jr., Goldwater, Rockefeller.'
     src:
       c: 7dc66447
       rows:
         - 'w.white-suite-3505 307–11: all'
+        - 'w.novak-agony-of-the-g 351–52: A-C, E-F'
     tags: [name:anderson-john-jr, name:goldwater-barry-m, name:rockefeller-nelson, state:ks, ok:result-form]
   - id: cal.1964-04-18.goldwater
     when: Apr. 18
@@ -1153,6 +1223,33 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 69–70: all'
     tags: [name:dirksen-everett, name:humphrey-hubert-h]
+  - id: cal.1964-04-21.press-and-broadcasting
+    when: Apr. 21
+    date: '1964-04-21'
+    thread: press-and-broadcasting
+    also: [goldwater, conservative-movement]
+    c: '*National Review*, Burnham from Sasabe, Ariz., after a trip across the country: Goldwater "has not yet succeeded in establishing himself in the public mind as a national leader"; "I have not talked to a single voter ... who has said: ''Since Barry Goldwater started campaigning, I''ve changed my mind and now I''m for him.''"'
+    n: '[[w.novak-agony-of-the-g]], 355–56. Names: Goldwater.'
+    src:
+      c: 147c238a
+      rows:
+        - 'w.novak-agony-of-the-g 355–56: all'
+        - 'via x.1964-04-21.burnham-national-review: all'
+    tags: [name:goldwater-barry-m]
+  - id: cal.1964-04.goldwater-2
+    when: Apr. 21
+    date: '1964-04-21'
+    thread: goldwater
+    also: [elections-1964]
+    c: 'Portland, Ore. Kleindienst cancels Goldwater''s schedule of Apr. 24–25 in Oregon: "the Senator will not duck his duties as an elected representative of the people," the civil rights bill before the Senate. Goldwater gives up campaigning in Oregon; Kitchel and Kleindienst advised it.'
+    n: '[[w.novak-agony-of-the-g]], 377 (the cancellation, Apr. 21); [[w.white-suite-3505]], 326–27 (the appearances canceled; Goldwater gives up Oregon; Kitchel''s and Kleindienst''s advice). Check: the day; White: "about the middle of April." See [[cal.1964-04-05.elections-1964]]. Names: Goldwater, Kitchel, Kleindienst.'
+    src:
+      c: aef4903f
+      rows:
+        - 'w.novak-agony-of-the-g 377: A-B'
+        - 'w.white-suite-3505 326–27: B-D'
+    tags: [name:goldwater-barry-m, name:kitchel-denison, name:kleindienst-richard-g, state:or]
+    aliases: [cal.1964-04-21.goldwater-2]
   - id: cal.1964-04-22.railroads
     when: Apr. 22
     date: '1964-04-22'
@@ -1192,11 +1289,12 @@ entries:
     date: '1964-04-22'
     thread: elections-1964-state-conventions
     c: Des Moines, the National Guard Armory, Iowa's Republican convention. Hickenlooper's slate goes through; White talks a group of Goldwater men out of fighting it. Six of the 24 delegates claimed for Goldwater.
-    n: '[[w.white-suite-3505]], 313–14. Names: Hickenlooper, White, Goldwater. Check: White, 314, has Iowa cast 14 for Goldwater at the convention.'
+    n: '[[w.white-suite-3505]], 313–14; [[w.novak-agony-of-the-g]], 339 n.8 (Rabb''s Lodge men with the Rockefeller men against Goldwater; White claims six "certains" and six "probables," half the twenty-four). Check: Novak, 339 n.8, has White claim six certain and six probable. Names: Hickenlooper, White, Goldwater. Check: White, 314, has Iowa cast 14 for Goldwater at the convention.'
     src:
       c: 836134cb
       rows:
         - 'w.white-suite-3505 313–14: all'
+        - 'w.novak-agony-of-the-g 339 n.8: A, D'
     tags: [name:hickenlooper-bourke-b, name:white-f-clifton, name:goldwater-barry-m, state:ia]
   - id: cal.1964-04-22.elections-1964
     when: Apr. 22
@@ -1374,6 +1472,17 @@ entries:
       c: a1ca0888
       rows:
         - 'w.macv-command-history-1964 190: all'
+  - id: cal.1964-04-25.elections-1964-state-conventions
+    when: Apr. 25
+    date: '1964-04-25'
+    thread: elections-1964-state-conventions
+    c: 'Nevada''s Republican State convention: an all-Goldwater slate, three men and three women.'
+    n: '[[w.novak-agony-of-the-g]], 348. Names: Goldwater.'
+    src:
+      c: 5efe1440
+      rows:
+        - 'w.novak-agony-of-the-g 348: all'
+    tags: [name:goldwater-barry-m, state:nv]
   - id: cal.1964-04-26.civil-rights-organizations
     when: Apr. 26
     date: '1964-04-26'
@@ -1444,12 +1553,13 @@ entries:
     date: '1964-04-28'
     thread: elections-1964
     c: 'Primaries in Massachusetts and Pennsylvania. Republican: Lodge (write-in) in Massachusetts; Scranton (write-in) in Pennsylvania. Democratic: Johnson (write-in) in Massachusetts and Pennsylvania.'
-    n: 'Mass. *Election Statistics* 1964 (P.D. 43), [47](https://archive.org/details/electionstatisti1964mass/page/n52) (Democratic), [151](https://archive.org/details/electionstatisti1964mass/page/n156) (Republican). CQ Guide 6th (2010) 406. [[w.white-suite-3505]], 314–15 (five Goldwater delegates in Massachusetts, two in Pennsylvania; Goldwater over 32,000 write-ins there, Scranton 58 percent). See [[cal.1964-03-10.elections-1964]]. Names: Lodge, Johnson, Scranton.'
+    n: 'Mass. *Election Statistics* 1964 (P.D. 43), [47](https://archive.org/details/electionstatisti1964mass/page/n52) (Democratic), [151](https://archive.org/details/electionstatisti1964mass/page/n156) (Republican). CQ Guide 6th (2010) 406. [[w.white-suite-3505]], 314–15 (five Goldwater delegates in Massachusetts, two in Pennsylvania; Goldwater over 32,000 write-ins there, Scranton 58 percent); [[w.novak-agony-of-the-g]], 364–66 (Massachusetts: Lodge 64,000, Goldwater 8,000, Nixon 5,000, Rockefeller 2,000; Pennsylvania: Scranton 220,000, Lodge 80,000, Nixon 37,000, Goldwater 32,000, Rockefeller 7,000; Truax''s million stickers; three Goldwater men of sixty-four delegates, Hugus beaten). See [[cal.1964-03-10.elections-1964]]. Names: Lodge, Johnson, Scranton.'
     src:
       c: cf79368d
       rows:
         - 'https://archive.org/details/electionstatisti1964mass/page/n52: all'
         - 'w.white-suite-3505 314–15: A'
+        - 'w.novak-agony-of-the-g 364–66: A-C'
     tags: [primary:1964-04-28, name:lodge-henry-cabot, name:johnson-lyndon-b, name:scranton-william-w]
   - id: cal.1964-04-28.specials
     when: Apr. 28
@@ -1609,6 +1719,18 @@ entries:
         - 'w.kotz-judgment-days 145: all'
         - 'via w.kotz-judgment-days 145 n.103: all'
     tags: [name:johnson-lyndon-b, name:fulbright-j-william, name:russell-richard-b]
+  - id: cal.1964-04-29.goldwater
+    when: Apr. 29
+    date: '1964-04-29'
+    thread: goldwater
+    also: [elections-1964]
+    c: 'Durno, Goldwater''s Oregon chairman, to United Press International: "I don''t know if Goldwater will make any appearances in Oregon before the primary"; the primary "not vital" to his nomination.'
+    n: '[[w.novak-agony-of-the-g]], 377–78. See [[cal.1964-04.goldwater-2]]. Names: Goldwater.'
+    src:
+      c: 53716215
+      rows:
+        - 'w.novak-agony-of-the-g 377–78: all'
+    tags: [name:goldwater-barry-m]
   - id: cal.1964-04-30.robert-kennedy
     when: Apr. 30
     date: '1964-04-30'
@@ -1718,18 +1840,6 @@ entries:
         - 'w.goldberg-barry-goldwater 188: ?'
         - 'via w.goldberg-barry-goldwater 188 n.44: all'
     tags: [name:goldwater-barry-m, city:washington]
-  - id: cal.1964-04.goldwater-2
-    when: Apr.
-    date: 1964-04
-    thread: goldwater
-    also: [elections-1964]
-    c: Goldwater gives up campaigning in Oregon, his remaining appearances there canceled; Kitchel and Kleindienst advised it.
-    n: '[[w.white-suite-3505]], 326–27. Names: Goldwater, Kitchel, Kleindienst. Check: the day; "about the middle of April."'
-    src:
-      c: 14b6f58b
-      rows:
-        - 'w.white-suite-3505 326–27: all'
-    tags: [name:goldwater-barry-m, name:kitchel-denison, name:kleindienst-richard-g, state:or]
   - id: cal.1964-04.goldwater-3
     when: Apr.
     date: 1964-04
@@ -1961,3 +2071,15 @@ entries:
       c: b105d9dc
       rows:
         - 'w.bernstein-guns-or-butter 442: all'
+  - id: cal.1964-04.goldwater-4
+    when: Apr.
+    date: 1964-04
+    thread: goldwater
+    also: [elections-1964]
+    c: 'Aloft between Los Angeles and San Francisco, the week of the Illinois primary. Goldwater to reporters: "I''ll settle for 60 percent any time. ... Almost anybody can get at least 33 percent of the vote. Anybody''s got that many enemies."'
+    n: '[[w.novak-agony-of-the-g]], 362 & n.7. See [[cal.1964-04-14.elections-1964]]. Names: Goldwater. Check: the day.'
+    src:
+      c: bc719164
+      rows:
+        - 'w.novak-agony-of-the-g 362 & n.7: all'
+    tags: [name:goldwater-barry-m]

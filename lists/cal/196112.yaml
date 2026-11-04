@@ -34,7 +34,12 @@ entries:
     date: '1961-12-02'
     thread: cuba
     c: Castro declares himself a Marxist-Leninist.
-    n: '[FRUS 1961–63, XII, doc. 122](https://history.state.gov/historicaldocuments/frus1961-63v12/d122). See [[cal.1961-04-15.cuba]]. Names: Castro.'
+    n: '[FRUS 1961–63, XII, doc. 122](https://history.state.gov/historicaldocuments/frus1961-63v12/d122). [[w.fursenko-one-hell-of-a]], 151. Check: Fursenko and Naftali date the declaration Dec. 1, 1961 ([[w.fursenko-one-hell-of-a]], 151). See [[cal.1961-04-15.cuba]]. Names: Castro.'
+    src:
+      c: ede401b8
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v12/d122: all'
+        - 'w.fursenko-one-hell-of-a 151: all'
     tags: [name:castro-fidel]
   - id: cal.1961-12-02.oil
     when: Dec. 2
@@ -172,6 +177,19 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=844: all'
         - 'w.sorensen-kennedy 438–39: all'
     tags: [name:kennedy-john-f]
+  - id: cal.1961-12-07.cuba
+    when: Dec. 7
+    date: '1961-12-07'
+    thread: cuba
+    also: [robert-kennedy]
+    c: 'Lansdale to Robert Kennedy, by hand, on an early meeting with the CIA''s Cuba men: "I decided to lay it right on the line on what it will take to win against the Communist team. ... I''m not sanguine that even a heavy whip will put the right spirit into bureaucrats, but doggone it we have to work with what we have."'
+    n: '[[w.thomas-robert-kennedy]], 148. To check: Lansdale to Robert Kennedy, Dec. 7, 1961, Assassination Records Review Board, National Archives (cited by [[w.thomas-robert-kennedy]], 148). Names: Lansdale, Robert Kennedy.'
+    src:
+      c: 6cf40c8c
+      rows:
+        - 'w.thomas-robert-kennedy 148: all'
+        - 'via x.1961-12-07.lansdale-to-robert-kennedy-handwritten: all'
+    tags: [name:lansdale-edward-g, name:kennedy-robert-f]
   - id: cal.1961-12-08.vietnam
     when: Dec. 8
     date: '1961-12-08'
@@ -191,6 +209,18 @@ entries:
     also: [testing]
     c: 'Gallup, Nov. 17–22: enough fallout in the air now to endanger people, 21 percent; not, 61.'
     n: '[[w.gallup-poll]], III, 1745.'
+  - id: cal.1961-12-09.crime-and-hijacking
+    when: Dec. 9
+    date: '1961-12-09'
+    thread: crime-and-hijacking
+    c: 'SAC Chicago to Hoover, from the bug: Formosa to Giancana, back from Sinatra''s at Palm Springs. Sinatra: he wrote Giancana''s name down for Robert Kennedy, who would not listen; Joseph Kennedy called Sinatra three times in Formosa''s visit. Giancana: not "one penny" for 1964; "That [obscene] better not think of taking this [obscene] state." Hoover''s aide: "Memo to AG being prepared"; Hoover: "& promptly."'
+    n: '[[w.thomas-robert-kennedy]], 163. To check: SAC Chicago to Hoover, Dec. 9, 1961, House Assassinations Committee Records, National Archives (cited by [[w.thomas-robert-kennedy]], 163 n.). Names: Hoover, Giancana, Robert Kennedy, Joseph P. Kennedy.'
+    src:
+      c: 30edc3a7
+      rows:
+        - 'w.thomas-robert-kennedy 163: all'
+        - 'via x.1961-12-09.sc129-thomas: all'
+    tags: [name:hoover-j-edgar, name:giancana-sam, name:kennedy-robert-f, name:kennedy-joseph-p]
   - id: cal.1961-12-10.albany
     when: Dec. 10–13
     date: '1961-12-10'
@@ -228,7 +258,7 @@ entries:
     thread: goldwater
     also: [elections-1964]
     c: Chicago, the Avenue Motel. White's group, its second meeting, twenty-eight present; new among them Governor Nutter of Montana, Tad Smith, the Texas chairman, and Fay of the national committee. A budget of $65,000 for the year approved; Roger Milliken finance chairman, to raise the first $30,000. The country in nine regions, a director each; delegates to be sought in every State, from the precinct caucuses of 1962 and 1963 up. Among themselves, "the Clif White group."
-    n: '[[w.white-suite-3505]], 46–51; [[w.white-making-of-the-president-1965]], 92 (the same motel; the governor of Montana there; nine regions; an office for White; $60,000 to raise); [[w.goldberg-barry-goldwater]], 163–64 (Chicago; nine regions, each under a part-time director; each State''s rules for choosing delegates to be learned; a budget of $65,000, approved unanimously; Rousselot there, so Welch informed); [[w.bernstein-guns-or-butter]], 125 (a budget, largely an office and salary for White; nine regions; a strategy for conservative delegates). Check: Theodore White, 92, gives twenty-seven present and $60,000. Check: Goldberg, 163, gives Dec. 12. See [[cal.1961-10-08.goldwater]]. Names: White, Nutter.'
+    n: '[[w.white-suite-3505]], 46–51; [[w.white-making-of-the-president-1965]], 92 (the same motel; the governor of Montana there; nine regions; an office for White; $60,000 to raise); [[w.goldberg-barry-goldwater]], 163–64 (Chicago; nine regions, each under a part-time director; each State''s rules for choosing delegates to be learned; a budget of $65,000, approved unanimously; Rousselot there, so Welch informed); [[w.bernstein-guns-or-butter]], 125 (a budget, largely an office and salary for White; nine regions; a strategy for conservative delegates); [[w.novak-agony-of-the-g]], 124 (by the end of 1961 a secret organization for "a conservative," White its chairman; Milbank, Middendorf and J. Stetson Coleman its trustees). Check: Theodore White, 92, gives twenty-seven present and $60,000. Check: Goldberg, 163, gives Dec. 12. See [[cal.1961-10-08.goldwater]]. Names: White, Nutter.'
     src:
       c: 0f8dc9b1
       rows:
@@ -236,6 +266,7 @@ entries:
         - 'w.white-making-of-the-president-1965 92: A, C, F'
         - 'w.goldberg-barry-goldwater 163–64: A-B, D, F-G'
         - 'w.bernstein-guns-or-butter 125: B, D, F-H'
+        - 'w.novak-agony-of-the-g 124: B'
     tags: [name:white-f-clifton, name:nutter-donald-g, city:chicago]
   - id: cal.1961-12-11.vietnam
     when: Dec. 11
@@ -278,6 +309,19 @@ entries:
         - 'w.smith-on-his-own-terms 371–72: all'
         - 'via x.1961-12-11.hinman-great-republican-issue: A-B'
     tags: [name:hinman-george-l, name:rockefeller-nelson, name:miller-william-e]
+  - id: cal.1961-12-11.crime-and-hijacking
+    when: Dec. 11
+    date: '1961-12-11'
+    thread: crime-and-hijacking
+    also: [robert-kennedy]
+    c: 'Hoover to Robert Kennedy, "for your personal information": Giancana''s ravings, Joseph Kennedy''s calls to Sinatra, the claim of the 1960 election.'
+    n: '[[w.thomas-robert-kennedy]], 164. To check: Hoover to Robert Kennedy, Dec. 11, 1961, Hoover Official and Confidential files, FBI (cited by [[w.thomas-robert-kennedy]], 164 n.). See [[cal.1961-12-09.crime-and-hijacking]]. Names: Hoover, Robert Kennedy, Giancana, Joseph P. Kennedy.'
+    src:
+      c: 6a26dd2f
+      rows:
+        - 'w.thomas-robert-kennedy 164: all'
+        - 'via x.1961-12-11.h1211-thomas: all'
+    tags: [name:hoover-j-edgar, name:kennedy-robert-f, name:giancana-sam, name:kennedy-joseph-p]
   - id: cal.1961-12-12.berlin-and-vienna
     when: Dec. 12
     date: '1961-12-12'
@@ -303,13 +347,14 @@ entries:
     thread: europe-and-the-alliance
     also: [berlin-and-vienna]
     c: 'Paris, the NATO ministers. Rusk and McNamara brief the allies on intelligence and strategy, by Rusk''s report to Kennedy "unprecedented in NATO experience." Couve de Murville, by Rusk''s account, holds out against "negotiations" in the communiqué: "One does not telephone President de Gaulle."'
-    n: '[FRUS 1961–63, XIII, doc. 117](https://history.state.gov/historicaldocuments/frus1961-63v13/d117) (Rusk to Kennedy, eyes only, Dec. 15). [[w.rusk-as-i-saw-it-1990]], 226 (the communiqué). Names: Rusk, McNamara, Couve de Murville, de Gaulle.'
+    n: '[FRUS 1961–63, XIII, doc. 117](https://history.state.gov/historicaldocuments/frus1961-63v13/d117) (Rusk to Kennedy, eyes only, Dec. 15). [[w.rusk-as-i-saw-it-1990]], 226 (the communiqué); [[w.sorensen-kennedy]], 597 (de Gaulle against even exploratory talks; the first split communiqué, 14 to 1). Names: Rusk, McNamara, Couve de Murville, de Gaulle.'
     src:
       c: f6447211
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v13/d117: A-B'
         - 'w.rusk-as-i-saw-it-1990 226: C'
         - 'via x.1984.rusk-interviews-with-richard-rusk: C'
+        - 'w.sorensen-kennedy 597: C'
     tags: [name:rusk-dean, name:mcnamara-robert-s, name:couve-de-murville-maurice, name:de-gaulle-charles]
   - id: cal.1961-12-14.program
     when: Dec. 14
@@ -505,6 +550,19 @@ entries:
         - 'via w.branch-parting-the-waters 554 n.1: A-B'
         - 'via w.branch-parting-the-waters 554 n.2: C'
     tags: [name:king-martin-luther-jr, state:ga, city:albany-ga]
+  - id: cal.1961-12-17.cuba
+    when: Dec. 17
+    date: '1961-12-17'
+    thread: cuba
+    also: [soviet-union]
+    c: 'Castro and Dorticós to Alekseyev: their concern over "the expected U.S. aggression against Cuba"; they will not appeal to Moscow "along official lines." No new Soviet weapons have reached Cuba since the agreement of Sept. 20.'
+    n: '[[w.fursenko-one-hell-of-a]], 146. To check: Alekseyev to Moscow, Dec. 20 and 21, 1961, file 86447, vol. 4, 87, SVR (cited by [[w.fursenko-one-hell-of-a]], 146 n.43, n.45). See [[cal.1961-09-20.cuba]]. Names: Castro, Dorticós.'
+    src:
+      c: 4a9ad82d
+      rows:
+        - 'w.fursenko-one-hell-of-a 146: all'
+        - 'via w.fursenko-one-hell-of-a 146 n.43: all'
+    tags: [name:castro-fidel, name:dorticos-torrado-osvaldo]
   - id: cal.1961-12-18.india-and-china
     when: Dec. 18
     date: '1961-12-18'
@@ -563,7 +621,11 @@ entries:
     date: '1961-12-19'
     thread: transition-and-staff
     c: Joseph P. Kennedy's stroke at Palm Beach. Speechless thereafter.
-    n: 'To check: [[w.nasaw-patriarch]]. Names: Joseph P. Kennedy.'
+    n: '[[w.thomas-robert-kennedy]], 164–65 (the stroke; Robert Kennedy calls the President; the brothers fly to Palm Beach; "No, no, no, no"). To check: [[w.nasaw-patriarch]]. Names: Joseph P. Kennedy.'
+    src:
+      c: 94ee50a3
+      rows:
+        - 'w.thomas-robert-kennedy 164–65: A-B'
     tags: [name:kennedy-joseph-p]
   - id: cal.1961-12-19.specials
     when: Dec. 19
@@ -793,13 +855,14 @@ entries:
     thread: antisubversion
     also: [robert-kennedy]
     c: 'Robert Kennedy to Henry Brandon of the London *Sunday Times*: "It is such nonsense to have to waste time prosecuting the Communist Party. It couldn''t be more feeble and less of a threat, and besides its membership consists largely of FBI agents."'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 262; [[w.branch-parting-the-waters]], 564 (the second and third sentences of the quotation, "a British journalist"). To check: Schlesinger, journal, Dec. 4, 1961 (Brandon''s account); the FBI''s file of the clipping sent to Hoover and his reply, released Mar. 5, 8, 1962 (cited by [[w.schlesinger-robert-kennedy-and-his]], 262 n.4). Made public: Brandon in the *Sunday Times* (Check: the day). Check: the day of the talk (by Dec. 4). Names: Robert Kennedy.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 262; [[w.branch-parting-the-waters]], 564 (the second and third sentences of the quotation, "a British journalist"); [[w.thomas-robert-kennedy]], 169 (to a British journalist: the Party "couldn''t be more feeble and less of a threat," its members largely FBI agents). To check: Schlesinger, journal, Dec. 4, 1961 (Brandon''s account); the FBI''s file of the clipping sent to Hoover and his reply, released Mar. 5, 8, 1962 (cited by [[w.schlesinger-robert-kennedy-and-his]], 262 n.4). Made public: Brandon in the *Sunday Times* (Check: the day). Check: the day of the talk (by Dec. 4). Names: Robert Kennedy.'
     src:
       c: bbacb75d
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 262: all'
         - 'via w.schlesinger-robert-kennedy-and-his 262 n.4: all'
         - 'w.branch-parting-the-waters 564: A'
+        - 'w.thomas-robert-kennedy 169: A'
     tags: [name:kennedy-robert-f]
   - id: cal.1961-12.cuba
     when: Dec.
@@ -955,3 +1018,38 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 442: all'
     tags: [name:goldberg-arthur-j, name:moynihan-daniel-patrick]
+  - id: cal.1961-12.press-and-broadcasting
+    when: Dec.
+    date: 1961-12
+    thread: press-and-broadcasting
+    c: 'Palm Beach, the Christmas holiday. Kennedy with the two dozen or so regular White House correspondents traveling with him, three to four hours at his house, on background: the year behind and the year ahead, domestic and foreign affairs in turn.'
+    n: '[[w.sorensen-kennedy]], 327–28 (in 1961 and 1962). See [[cal.1961-01-25.press-and-broadcasting]]. Check: the day. Names: Kennedy.'
+    src:
+      c: d8b09823
+      rows:
+        - 'w.sorensen-kennedy 327–28: all'
+    tags: [name:kennedy-john-f]
+  - id: cal.1961-12.robert-kennedy
+    when: Dec. (late 1961)
+    date: 1961-12
+    thread: robert-kennedy
+    also: [press-and-broadcasting, latin-america]
+    c: 'Maas of the Saturday Evening Post puts to Robert Kennedy the evidence that Igor Cassini, a friend of Joseph Kennedy''s, took $200,000 as Trujillo''s secret agent. Kennedy: "Thank you very much." The next day two FBI agents ask Maas for his notes. The President sends Salinger to talk Maas out of the story. By Maas''s account.'
+    n: '[[w.thomas-robert-kennedy]], 113. Names: Joseph P. Kennedy, Trujillo, Robert Kennedy, Kennedy, Salinger. Check: the month; Thomas: "In late 1961"; Cassini indicted, nolo contendere, a $10,000 fine.'
+    src:
+      c: 209806b2
+      rows:
+        - 'w.thomas-robert-kennedy 113: all'
+        - 'via x.undated.peter-maas-interview-thomas: all'
+    tags: [name:kennedy-robert-f, name:kennedy-joseph-p, name:trujillo-rafael, name:kennedy-john-f, name:salinger-pierre]
+  - id: cal.1961-12.cuba-2
+    when: Dec.
+    date: 1961-12
+    thread: cuba
+    c: 'Two small CIA-run exile raids on Cuba fail: in one the boat breaks down; in the other two raiders are captured and made to "confess" on Cuban television.'
+    n: '[[w.thomas-robert-kennedy]], 149. To check: McCone, memorandum for file, Dec. 27, 1961; [[w.johnson-bay-of-pigs]], 261–62 (cited by [[w.thomas-robert-kennedy]], 149). Check: the days; San Roman placed a raid in late November (149 n.).'
+    src:
+      c: 49e5ec97
+      rows:
+        - 'w.thomas-robert-kennedy 149: all'
+        - 'via x.1961-12-27.mccone-memorandum-for-file-raids: all'

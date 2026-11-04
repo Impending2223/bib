@@ -253,7 +253,12 @@ entries:
     thread: opinion
     also: [testing]
     c: 'Gallup, June 23–28: the United States to resume nuclear tests now, 55 percent; not, 26.'
-    n: '[[w.gallup-poll]], III, 1726.'
+    n: '[[w.gallup-poll]], III, 1726; [[w.sorensen-kennedy]], 618 (more than two to one for resuming).'
+    src:
+      c: 5cc76aac
+      rows:
+        - 'w.gallup-poll III, 1726: all'
+        - 'w.sorensen-kennedy 618: A-B'
   - id: cal.1961-07-13.electoral-college
     when: July 13
     date: '1961-07-13'
@@ -318,6 +323,19 @@ entries:
         - 'w.woods-fulbright 290: all'
         - 'via x.1961-08.boyd-senate-argues-foreign-policy: all'
     tags: [name:goldwater-barry-m, name:fulbright-j-william]
+  - id: cal.1961-07-13.crime-and-hijacking
+    when: July 13
+    date: '1961-07-13'
+    thread: crime-and-hijacking
+    also: [crime-and-hijacking-maheu]
+    c: 'SAC Chicago to Hoover: at the Phoenix airport agents question Giancana, traveling with Phyllis McGuire, on the Maheu wiretap. Giancana: "I love this country and I would sacrifice my life for it. I proved this not long ago"; the "super super boss," the Kennedys; "one of these days we are going to tell all!"'
+    n: '[[w.thomas-robert-kennedy]], 161–62. To check: SAC Chicago to Hoover, July 13, 1961, House Assassinations Committee Records, National Archives (cited by [[w.thomas-robert-kennedy]], 162 n.). Names: Hoover, Giancana. Check: the day of the questioning.'
+    src:
+      c: 4c7996fb
+      rows:
+        - 'w.thomas-robert-kennedy 161–62: all'
+        - 'via x.1961-07-13.sc713-thomas: all'
+    tags: [name:hoover-j-edgar, name:giancana-sam]
   - id: cal.1961-07-14.mississippi
     when: July 14
     date: '1961-07-14'
@@ -355,6 +373,18 @@ entries:
         - 'w.solberg-hubert-humphrey 217: all'
         - 'via w.solberg-hubert-humphrey 217 n.berlin-memo: all'
     tags: [name:humphrey-hubert-h, name:kennedy-john-f]
+  - id: cal.1961-07-14.crime-and-hijacking
+    when: July 14
+    date: '1961-07-14'
+    thread: crime-and-hijacking
+    c: Hoover to Robert Kennedy on Giancana at the Phoenix airport, his remarks about the Kennedys left out.
+    n: '[[w.thomas-robert-kennedy]], 162 n.. To check: Hoover to Robert Kennedy, July 14, 1961, House Assassinations Committee Records, National Archives (cited by [[w.thomas-robert-kennedy]], 162 n.). See [[cal.1961-07-13.crime-and-hijacking]]. Names: Hoover, Robert Kennedy, Giancana.'
+    src:
+      c: ef201a85
+      rows:
+        - 'w.thomas-robert-kennedy 162 n.: all'
+        - 'via x.1961-07-14.h714-thomas: all'
+    tags: [name:hoover-j-edgar, name:kennedy-robert-f, name:giancana-sam]
   - id: cal.1961-07-15.berlin-and-vienna
     when: July 15
     date: '1961-07-15'
@@ -484,15 +514,18 @@ entries:
     when: July 19
     date: '1961-07-19'
     thread: transition-and-staff
-    c: 'Press conference: he has never asked for Bowles''s resignation, nor has Bowles offered it; "I have a high regard for Mr. Bowles."'
-    n: 'The President''s News Conference, [1961 Pub. Papers 513](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=571), 518–19 (July 19, 1961). [[w.schlesinger-thousand-days-1965]], 442. [[w.sorensen-kennedy]], 289 (the press conference). See [[cal.1961-07-17.transition-and-staff]]. Names: Kennedy, Bowles.'
+    also: [berlin-and-vienna, soviet-union]
+    c: 'Press conference: he has never asked for Bowles''s resignation, nor has Bowles offered it; "I have a high regard for Mr. Bowles." Asked of Menshikov''s reported remark that the United States would not fight for Berlin: West Berlin "a very basic issue," and "we intend to honor our commitments."'
+    n: 'The President''s News Conference, [1961 Pub. Papers 513](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=571) (July 19, 1961), at 518–19 (Bowles), 520 (Menshikov). [[w.schlesinger-thousand-days-1965]], 442 (Bowles''s regard). [[w.sorensen-kennedy]], 289 (the press conference on Bowles); [[w.sorensen-kennedy]], 586 (Menshikov; the Ambassador departing; "when the chips are down"). See [[cal.1961-07-17.transition-and-staff]]. Names: Kennedy, Bowles, Menshikov.'
     src:
-      c: dbce5b20
+      c: 1b678b1f
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=571: all'
         - 'w.schlesinger-thousand-days-1965 442: B'
         - 'w.sorensen-kennedy 289: A'
-    tags: [name:kennedy-john-f, name:bowles-chester]
+        - 'w.sorensen-kennedy 586: C'
+    tags: [name:kennedy-john-f, name:bowles-chester, name:menshikov-mikhail]
+    aliases: [cal.1961-07-19.berlin-and-vienna-3]
   - id: cal.1961-07-19.democratic-party
     when: July 19
     date: '1961-07-19'
@@ -560,30 +593,45 @@ entries:
         - 'w.bird-color-of-truth 212 n.*: all'
         - 'via w.bird-color-of-truth 212 n.*a: A'
     tags: [name:kaysen-carl]
+  - id: cal.1961-07-19.cuba
+    when: July 19
+    date: '1961-07-19'
+    thread: cuba
+    also: [soviet-union]
+    c: The five-man Candela group arrested, some two hundred more rounded up; Moscow has learned of its plot to kill Castro on July 26, Gagarin on its list, and to shell Guantanamo from Oriente for a pretext. The KGB proposes to run its radio operator, "Tony," against the CIA.
+    n: '[[w.fursenko-one-hell-of-a]], 136–37. To check: Alekseyev to Moscow, July 19, 22 and 29, 1961, file 88631, 304, 307, 311, SVR (cited by [[w.fursenko-one-hell-of-a]], 136 n.15–16, 137 n.18–19). Names: Castro.'
+    src:
+      c: fab52666
+      rows:
+        - 'w.fursenko-one-hell-of-a 136–37: all'
+        - 'via w.fursenko-one-hell-of-a 136 n.16: all'
+    tags: [name:castro-fidel]
   - id: cal.1961-07-20.defense
     when: July 20
     date: '1961-07-20'
     thread: defense
     also: [conservation]
     c: Civil defense moved from the Office of Civil and Defense Mobilization to the Pentagon. Water pollution amendments signed, [75 Stat. 204](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg204.pdf).
-    n: '[Exec. Order No. 10,952](https://www.presidency.ucsb.edu/documents/executive-order-10952-assigning-civil-defense-responsibilities-the-secretary-defense-and), [26 Fed. Reg. 6577](https://www.govinfo.gov/app/details/FR-1961-07-22). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 30 (the order). To check: [[w.milazzo-unlikely-environmentalists]].'
+    n: '[Exec. Order No. 10,952](https://www.presidency.ucsb.edu/documents/executive-order-10952-assigning-civil-defense-responsibilities-the-secretary-defense-and), [26 Fed. Reg. 6577](https://www.govinfo.gov/app/details/FR-1961-07-22). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 30 (the order); [[w.sorensen-kennedy]], 614 (all civil defense functions moved to Defense; the OCDM reorganized). To check: [[w.milazzo-unlikely-environmentalists]].'
     src:
       c: 8d29fa21
       rows:
         - 'https://www.presidency.ucsb.edu/documents/executive-order-10952-assigning-civil-defense-responsibilities-the-secretary-defense-and: A'
         - 'https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg204.pdf: B'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 30: A'
+        - 'w.sorensen-kennedy 614: A'
     tags: [name:kennedy-john-f]
   - id: cal.1961-07-20.testing
     when: July 20
     date: '1961-07-20'
     thread: testing
     c: Bundy, Sorensen and Schlesinger with Kennedy on Murrow's and Schlesinger's proposals for the test ban. The Geneva talks to go on, Dean back to them, the neutral states canvassed. Kennedy not convinced resumed testing would gain more than it cost.
-    n: '[[w.schlesinger-thousand-days-1965]], 455–56. Made public: [[w.schlesinger-thousand-days-1965]] (1965). See [[cal.1961-09-01.testing]]. Names: Bundy, Sorensen, Schlesinger, Kennedy, Murrow, Dean.'
+    n: '[[w.schlesinger-thousand-days-1965]], 455–56; [[w.sorensen-kennedy]], 618 (Dean asked in August to go back to Geneva for one more try). Made public: [[w.schlesinger-thousand-days-1965]] (1965). See [[cal.1961-09-01.testing]]. Names: Bundy, Sorensen, Schlesinger, Kennedy, Murrow, Dean.'
     src:
       c: 7cd3fc5f
       rows:
         - 'w.schlesinger-thousand-days-1965 456: all'
+        - 'w.sorensen-kennedy 618: B'
     tags: [name:bundy-mcgeorge, name:sorensen-theodore-c, name:schlesinger-arthur-m-jr, name:kennedy-john-f, name:murrow-edward-r, name:dean-arthur-h]
   - id: cal.1961-07-20.vietnam
     when: July 20
@@ -730,7 +778,7 @@ entries:
     thread: berlin-and-vienna
     also: [defense, economy]
     c: 'Report to the nation on Berlin. $3.25 billion more for defense; reserves to be called; draft calls tripled; fallout shelters. No new taxes: a temporary increase, which Kennedy had favored, dropped after Heller and Samuelson argued it would choke the recovery. No direct challenge to the Soviet zone.'
-    n: 'Radio and Television Report to the American People on the Berlin Crisis, [1961 Pub. Papers 533](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=591) (July 25, 1961). [[w.schlesinger-thousand-days-1965]], 391–92 (the requests); [[w.sorensen-kennedy]], 399–400, 591 (the tax increase dropped on the economic advisers'' case; the drafting); [[w.sundquist-politics-and-policy]], 39 (the tax increase dropped); [[w.fursenko-khrushchevs-cold-war]], 372, 376–77 ($3.25 billion; "And so was Bastogne"; the handwritten close; the Oval Office "like an oven"). The taxes: NSC minutes, July 19, 1961, [FRUS 1961–63, XIV, doc. 77](https://history.state.gov/historicaldocuments/frus1961-63v14/d77); [[w.stein-fiscal-revolution-in-america]], 391, 403 (the tax increase considered and dropped on the economists'' advice). The Republican leaders on Berlin and the budget: Joint Senate–House Republican Leadership minutes, July 27, 1961 (Dirksen Congressional Center; Opp. II.J). [[w.fursenko-one-hell-of-a]], 137–38. To check: [[w.heller-new-dimensions-of-political]], 32. See [[cal.1961-06-03.berlin-and-vienna]]. Recording (K–J Adm. II.I). Names: Kennedy, Heller, Samuelson, Nitze, Acheson. Check: who argued against the tax increase.'
+    n: 'Radio and Television Report to the American People on the Berlin Crisis, [1961 Pub. Papers 533](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=591) (July 25, 1961). [[w.schlesinger-thousand-days-1965]], 391–92 (the requests); [[w.sorensen-kennedy]], 399–400, 591 (the tax increase dropped on the economic advisers'' case; the drafting); [[w.sundquist-politics-and-policy]], 39 (the tax increase dropped); [[w.fursenko-khrushchevs-cold-war]], 372, 376–77 ($3.25 billion; "And so was Bastogne"; the handwritten close; the Oval Office "like an oven"); [[w.sorensen-kennedy]], 590–92 (the decisions of July 19; the drafting); [[w.sorensen-kennedy]], 614. The taxes: NSC minutes, July 19, 1961, [FRUS 1961–63, XIV, doc. 77](https://history.state.gov/historicaldocuments/frus1961-63v14/d77); [[w.stein-fiscal-revolution-in-america]], 391, 403 (the tax increase considered and dropped on the economists'' advice). The Republican leaders on Berlin and the budget: Joint Senate–House Republican Leadership minutes, July 27, 1961 (Dirksen Congressional Center; Opp. II.J). [[w.fursenko-one-hell-of-a]], 137–38. To check: [[w.heller-new-dimensions-of-political]], 32. See [[cal.1961-06-03.berlin-and-vienna]]. Recording (K–J Adm. II.I). Names: Kennedy, Heller, Samuelson, Nitze, Acheson. Check: who argued against the tax increase.'
     src:
       c: 5b1e7338
       rows:
@@ -743,8 +791,23 @@ entries:
         - 'w.sorensen-kennedy 399–400, 591: A, E'
         - 'w.sundquist-politics-and-policy 39: E'
         - 'w.fursenko-khrushchevs-cold-war 372, 376–77: all'
+        - 'w.sorensen-kennedy 590–92: A, B, C'
+        - 'w.sorensen-kennedy 614: D'
     tags: [name:kennedy-john-f, name:nitze-paul, name:acheson-dean-g, name:heller-walter-w, name:samuelson-paul-a]
     aliases: [cal.1961-07-25.economy]
+  - id: cal.1961-07-25.press-and-broadcasting
+    when: July 25
+    date: '1961-07-25'
+    thread: press-and-broadcasting
+    also: [berlin-and-vienna]
+    c: Marguerite Higgins of the New York Herald Tribune calls Robert Kennedy, by his phone messages.
+    n: '[[w.thomas-robert-kennedy]], 138. To check: Robert Kennedy''s phone messages, July 25, 1961, JFK Library (cited by [[w.thomas-robert-kennedy]], 138). Names: Robert Kennedy.'
+    src:
+      c: 1fb5b632
+      rows:
+        - 'w.thomas-robert-kennedy 138: all'
+        - 'via x.1961-07-25.robert-kennedy-phone-messages-higgins: all'
+    tags: [name:kennedy-robert-f]
   - id: cal.1961-07-26.berlin-and-vienna
     when: July 26–27
     date: '1961-07-26'
@@ -810,6 +873,19 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 378: all'
         - 'via w.fursenko-khrushchevs-cold-war 378 n.54: all'
     tags: [name:ulbricht-walter, name:pervukhin-mikhail-georgievich]
+  - id: cal.1961-07-27.press-and-broadcasting
+    when: July 27
+    date: '1961-07-27'
+    thread: press-and-broadcasting
+    also: [berlin-and-vienna, robert-kennedy]
+    c: 'Higgins in the New York Herald Tribune, from "State Department officials": the President would be interested in "some kind of 20- to 50-year nonaggression pact" with Khrushchev. Two days after his speech on Berlin.'
+    n: '[[w.thomas-robert-kennedy]], 138. To check: *New York Herald Tribune*, July 27, 1961 (cited by [[w.thomas-robert-kennedy]], 138). See [[cal.1961-07-25.press-and-broadcasting]]. Names: Kennedy, Khrushchev. Check: Thomas reads the story as a leak of Robert Kennedy''s (138).'
+    src:
+      c: cb650123
+      rows:
+        - 'w.thomas-robert-kennedy 138: all'
+        - 'via x.1961-07-27.higgins-new-york-herald-tribune-nonaggression: all'
+    tags: [name:kennedy-john-f, name:khrushchev-nikita-s]
   - id: cal.1961-07-28.laos
     when: July 28
     date: '1961-07-28'
@@ -999,3 +1075,15 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 251: all'
     tags: [name:rusk-dean]
+  - id: cal.1961-07.berlin-and-vienna
+    when: July
+    date: 1961-07
+    thread: berlin-and-vienna
+    also: [robert-kennedy, soviet-union]
+    c: A lunch arranged by Bolshakov with Menshikov, the Soviet Ambassador. Robert Kennedy, angered by Menshikov's dismissal of American resolve on Berlin, nearly walks out.
+    n: '[[w.thomas-robert-kennedy]], 137–38. To check: [[w.reeves-president-kennedy]], 195; [[w.beschloss-crisis-years]], 255 (cited by [[w.thomas-robert-kennedy]], 137). Names: Bolshakov, Menshikov, Robert Kennedy. Check: the day.'
+    src:
+      c: 08dab480
+      rows:
+        - 'w.thomas-robert-kennedy 137–38: all'
+    tags: [name:bolshakov-georgi, name:menshikov-mikhail, name:kennedy-robert-f]

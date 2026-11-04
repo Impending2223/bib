@@ -31,6 +31,19 @@ entries:
         - 'via w.fursenko-khrushchevs-cold-war 441 n.6: A-B'
         - 'via w.fursenko-khrushchevs-cold-war 442 n.12: C'
     tags: [name:mikoyan-anastas, name:khrushchev-nikita-s, name:mcnamara-robert-s, name:castro-raul]
+  - id: cal.1962-07-02.republican-party
+    when: July 2
+    date: '1962-07-02'
+    thread: republican-party
+    also: [goldwater]
+    c: 'Goldwater to Miller, the national chairman, by letter, against the Citizens Committee of the Gettysburg conference: "We already have a National Committee. Where is there unity in two groups working in the same field?" The confusion and distrust "which cost us the Presidency in 1960."'
+    n: '[[w.novak-agony-of-the-g]], 75. See [[cal.1962-06-30.republican-party]]. Names: Goldwater, Miller.'
+    src:
+      c: e2526951
+      rows:
+        - 'w.novak-agony-of-the-g 75: all'
+        - 'via x.1962-07-02.goldwater-to-miller: all'
+    tags: [name:goldwater-barry-m, name:miller-william-e]
   - id: cal.1962-07-03.states-and-cities-us
     when: July 3
     date: '1962-07-03'
@@ -83,14 +96,17 @@ entries:
     when: July 5
     date: '1962-07-05'
     thread: civil-rights-the-executive
-    c: 'News conference. The order against segregation in federally financed housing, after seventeen months: "I will announce it when we think it would be a useful and appropriate time."'
-    n: 'The President''s News Conference of July 5, 1962, [1962 Pub. Papers 539](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=599). [[w.reeves-president-kennedy]], 327. See [[cal.1961-11-23.civil-rights-the-executive]]. Names: Kennedy.'
+    also: [defense]
+    c: 'News conference. The order against segregation in federally financed housing, after seventeen months: "I will announce it when we think it would be a useful and appropriate time." Asked of the $460 million for fallout shelters on which Armed Services has held no hearings: "When the skies are clear, no one is interested"; "I think the time to do it is now." A supplemental request of some $35 million to stock food against attack.'
+    n: 'The President''s News Conference of July 5, 1962, [1962 Pub. Papers 539](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=599), at 543 (the shelters). [[w.reeves-president-kennedy]], 327. [[w.sorensen-kennedy]], 616–17 (the words; the shelter legislation of 1962). See [[cal.1961-11-23.civil-rights-the-executive]]. Names: Kennedy.'
     src:
-      c: ac45a09f
+      c: baf0856a
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=599: all'
-        - 'w.reeves-president-kennedy 327: all'
+        - 'w.reeves-president-kennedy 327: A-B'
+        - 'w.sorensen-kennedy 616–17: D'
     tags: [name:kennedy-john-f]
+    aliases: [cal.1962-07-05.defense]
   - id: cal.1962-07-05.berlin-and-vienna
     when: July 5
     date: '1962-07-05'
@@ -245,12 +261,14 @@ entries:
     thread: laos
     also: [robert-kennedy]
     c: 'Robert Kennedy to Bundy: the President''s answer for Khrushchev, the withdrawal from Thailand to begin in ten days.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 500–01. To check: Robert Kennedy to McGeorge Bundy, July 11, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 501 n.12). Check: Robert Kennedy told Dobrynin, Oct. 23, the troops were withdrawn "within 24 hours" ([FRUS 1961–63, XI, doc. 53](https://history.state.gov/historicaldocuments/frus1961-63v11/d53)). See [[cal.1962-06-19.laos]]. Names: Robert Kennedy, Bundy, Kennedy, Khrushchev.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 500–01; [[w.thomas-robert-kennedy]], 206 n. (Robert Kennedy to Bundy: "within ten days we would start to withdraw troops"). [[w.sorensen-kennedy]], 647 (the troops recalled from Thailand, the logistic facilities left behind). To check: Robert Kennedy to McGeorge Bundy, July 11, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 501 n.12). Check: Robert Kennedy told Dobrynin, Oct. 23, the troops were withdrawn "within 24 hours" ([FRUS 1961–63, XI, doc. 53](https://history.state.gov/historicaldocuments/frus1961-63v11/d53)). See [[cal.1962-06-19.laos]]. Names: Robert Kennedy, Bundy, Kennedy, Khrushchev.'
     src:
       c: 13c6a1e4
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 500–01: all'
         - 'via w.schlesinger-robert-kennedy-and-his 501 n.12: all'
+        - 'w.thomas-robert-kennedy 206 n.: A'
+        - 'w.sorensen-kennedy 647: A'
     tags: [name:kennedy-robert-f, name:bundy-mcgeorge, name:kennedy-john-f, name:khrushchev-nikita-s]
   - id: cal.1962-07-11.king
     when: July 11
@@ -514,6 +532,19 @@ entries:
       rows:
         - 'w.dobrynin-in-confidence 67–68: all'
     tags: [name:rusk-dean, name:dobrynin-anatoly]
+  - id: cal.1962-07-13.intelligence
+    when: July 13
+    date: '1962-07-13'
+    thread: intelligence
+    also: [robert-kennedy]
+    c: 'Komer to Bundy, on Taylor''s leaving to head the Chiefs: Robert Kennedy as head of the Special Group (CI)? "I can hear State scream"; "note AG''s increasingly central role in this enterprise."'
+    n: '[[w.thomas-robert-kennedy]], 143 n.. To check: Komer to Bundy, July 13, 1962 (cited by [[w.thomas-robert-kennedy]], 143 n.). Names: Komer, Bundy, Taylor, Robert Kennedy.'
+    src:
+      c: 75b0030b
+      rows:
+        - 'w.thomas-robert-kennedy 143 n.: all'
+        - 'via x.1962-07-13.komer-to-bundy: all'
+    tags: [name:komer-robert-w, name:bundy-mcgeorge, name:taylor-maxwell, name:kennedy-robert-f]
   - id: cal.1962-07-14.transition-and-staff-cleveland
     when: July 14
     date: '1962-07-14'
@@ -623,6 +654,19 @@ entries:
         - 'via w.fursenko-khrushchevs-cold-war 446 n.24: all'
         - 'w.dobrynin-in-confidence 68–70: A'
     tags: [name:kennedy-john-f, name:dobrynin-anatoly, name:khrushchev-nikita-s]
+  - id: cal.1962-07-17.missile-crisis
+    when: July 17
+    date: '1962-07-17'
+    thread: missile-crisis
+    also: [europe-and-the-alliance-jupiters, soviet-union]
+    c: 'Semichastny to Gromyko: seventeen Jupiter intermediate-range missiles in Turkey.'
+    n: '[[w.fursenko-one-hell-of-a]], 195. To check: Semichastny to Gromyko, July 17, 1962, file 90782, vol. 2, 14–15, SVR (cited by [[w.fursenko-one-hell-of-a]], 195 n.55). Names: Gromyko.'
+    src:
+      c: 1fa0a5f9
+      rows:
+        - 'w.fursenko-one-hell-of-a 195: all'
+        - 'via w.fursenko-one-hell-of-a 195 n.55: all'
+    tags: [name:gromyko-andrei]
   - id: cal.1962-07-18.latin-america
     when: July 18
     date: '1962-07-18'
@@ -1648,3 +1692,15 @@ entries:
       rows:
         - 'w.woods-fulbright 299: all'
     tags: [name:fulbright-j-william, state:ar, ok:result-form]
+  - id: cal.1962-07.goldwater-3
+    when: July
+    date: 1962-07
+    thread: goldwater
+    also: [republican-party, elections-1964]
+    c: 'Goldwater by long-distance telephone with Rockefeller and with Hinman on the Citizens Committee: their suspicion of Walter Thayer of the *Herald Tribune*, Nixon''s friend, and of David Kendall of Michigan, once Eisenhower''s aide; a holding operation for Nixon, or a front for Romney.'
+    n: '[[w.novak-agony-of-the-g]], 75 (Goldwater for Rockefeller over Nixon and Romney that summer). See [[cal.1962-07-02.republican-party]]. Names: Goldwater, Rockefeller, Hinman, Kendall, Nixon, Romney. Check: the day.'
+    src:
+      c: 4715700e
+      rows:
+        - 'w.novak-agony-of-the-g 75: all'
+    tags: [name:goldwater-barry-m, name:rockefeller-nelson, name:hinman-george-l, name:kendall-david-w, name:nixon-richard-m, name:romney-george-w]

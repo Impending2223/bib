@@ -37,7 +37,7 @@ entries:
     thread: cuba
     also: [robert-kennedy]
     c: 'Goodwin to the President: a "command operation" for Cuba, as the Attorney General had discussed it with him, the only effective way. "I believe that the Attorney General would be the most effective commander of such an operation," with a deputy.'
-    n: '[FRUS 1961–63, X, doc. 269](https://history.state.gov/historicaldocuments/frus1961-63v10/d269); [S. Rep. No. 94-465, 139 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=150). [[w.schlesinger-robert-kennedy-and-his]], 476. The program: [[cal.1961-11-30.cuba]]. Names: Goodwin, Kennedy, Robert Kennedy.'
+    n: '[FRUS 1961–63, X, doc. 269](https://history.state.gov/historicaldocuments/frus1961-63v10/d269); [S. Rep. No. 94-465, 139 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=150). [[w.schlesinger-robert-kennedy-and-his]], 476; [[w.thomas-robert-kennedy]], 148 (Goodwin to the President: Robert Kennedy "the most effective commander"). The program: [[cal.1961-11-30.cuba]]. Names: Goodwin, Kennedy, Robert Kennedy.'
     src:
       c: df8262ed
       rows:
@@ -45,6 +45,7 @@ entries:
         - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=150: B'
         - 'w.schlesinger-robert-kennedy-and-his 476: all'
         - 'via w.schlesinger-robert-kennedy-and-his 476 n.28: all'
+        - 'w.thomas-robert-kennedy 148: A'
     tags: [name:goodwin-richard-n, name:kennedy-john-f, name:kennedy-robert-f]
   - id: cal.1961-11-01.vietnam
     when: Nov. 1
@@ -200,11 +201,12 @@ entries:
     thread: cuba
     also: [robert-kennedy]
     c: 'Noon to 12:55, at the White House: the President authorizes a new program to undermine Castro''s government, by FRUS''s editorial note. Present, by the Appointment Book: Robert Kennedy; Ball, U. Alexis Johnson, Coerr and Hurwitch of State; Cabell, Bissell, Amory and King of the CIA; Bundy and Goodwin.'
-    n: '[FRUS 1961–63, X, doc. 270](https://history.state.gov/historicaldocuments/frus1961-63v10/d270) (editorial note, from the President''s Appointment Book). The program: [[cal.1961-11-30.cuba]]. Names: Kennedy, Robert Kennedy, Ball, Johnson, Cabell, Bissell, Bundy, Goodwin.'
+    n: '[FRUS 1961–63, X, doc. 270](https://history.state.gov/historicaldocuments/frus1961-63v10/d270) (editorial note, from the President''s Appointment Book). The program: [[cal.1961-11-30.cuba]]. [[w.thomas-robert-kennedy]], 147–48 (Robert Kennedy''s note: "My idea is to stir things up on the island ..."; Lansdale ("the Ugly American") and Bissell among those listed). Names: Kennedy, Robert Kennedy, Ball, Johnson, Cabell, Bissell, Bundy, Goodwin.'
     src:
       c: f091b60c
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d270: all'
+        - 'w.thomas-robert-kennedy 147–48: A'
     tags: [name:kennedy-john-f, name:kennedy-robert-f, name:ball-george-w, name:johnson-u-alexis, name:cabell-charles-p, name:bissell-richard-m-jr, name:bundy-mcgeorge, name:goodwin-richard-n, name:castro-fidel]
   - id: cal.1961-11-03.africa
     when: Nov. 3
@@ -217,6 +219,19 @@ entries:
       rows:
         - 'w.ball-past-has-another-pattern 186: all'
     tags: [name:ball-george-w, name:randall-clarence-b, name:kennedy-john-f]
+  - id: cal.1961-11-03.cuba-2
+    when: Nov. 3
+    date: '1961-11-03'
+    thread: cuba
+    also: [robert-kennedy]
+    c: 'After the White House meeting, Bissell to an assistant at Langley: Robert Kennedy has chewed him out, told him to "get off his ass" on Cuba.'
+    n: '[[w.thomas-robert-kennedy]], 147. To check: Senate Select Committee, *Alleged Assassination Plots Involving Foreign Leaders: An Interim Report* (1975), 141 (cited by [[w.thomas-robert-kennedy]], 147). See [[cal.1961-11-03.cuba]]. Names: Bissell, Robert Kennedy.'
+    src:
+      c: 365ecc16
+      rows:
+        - 'w.thomas-robert-kennedy 147: all'
+        - 'via w.thomas-robert-kennedy 147 n.get-off-his-ass: all'
+    tags: [name:bissell-richard-m-jr, name:kennedy-robert-f]
   - id: cal.1961-11-04.specials
     when: Nov. 4
     date: '1961-11-04'
@@ -268,6 +283,18 @@ entries:
         - 'w.preston-war-council 94: all'
         - 'via w.preston-war-council 94 n.55c: all'
     tags: [name:harriman-w-averell, name:kennedy-john-f, name:nehru-jawaharlal]
+  - id: cal.1961-11-04.cuba-2
+    when: Nov. 4
+    date: '1961-11-04'
+    thread: cuba
+    also: [soviet-union, intelligence]
+    c: 'Alekseyev to Moscow: Ramiro Valdés, head of Cuban security, complains of the Soviet and East European intelligence services'' work in Cuba.'
+    n: '[[w.fursenko-one-hell-of-a]], 141. To check: Alekseyev to Moscow, Nov. 4, 1961, file 88631, vol. 4, 47, SVR (cited by [[w.fursenko-one-hell-of-a]], 141 n.42).'
+    src:
+      c: 5b9067cf
+      rows:
+        - 'w.fursenko-one-hell-of-a 141: all'
+        - 'via w.fursenko-one-hell-of-a 141 n.42: all'
   - id: cal.1961-11-05.japan-and-korea
     when: Nov. 5
     date: '1961-11-05'
@@ -409,6 +436,18 @@ entries:
         - 'w.ball-past-has-another-pattern 366: A-B, D'
         - 'w.preston-war-council 94: B, D'
     tags: [name:ball-george-w, name:taylor-maxwell, name:kennedy-john-f]
+  - id: cal.1961-11-07.transition-and-staff
+    when: Nov. 7
+    date: '1961-11-07'
+    thread: transition-and-staff
+    c: Judith Campbell telephones the White House, Evelyn Lincoln, by the FBI's later trace of Rosselli's calls.
+    n: '[[w.thomas-robert-kennedy]], 166. To check: Evans to Belmont, Feb. 23, 1962, House Assassinations Committee Records, National Archives (cited by [[w.thomas-robert-kennedy]], 166 n.). Names: Campbell, Lincoln.'
+    src:
+      c: d8b729a2
+      rows:
+        - 'w.thomas-robert-kennedy 166: all'
+        - 'via x.1962-02-23.eb223-thomas: all'
+    tags: [name:campbell-judith, name:lincoln-evelyn]
   - id: cal.1961-11-08.vietnam
     when: Nov. 8
     date: '1961-11-08'
@@ -441,25 +480,28 @@ entries:
     thread: cuba
     also: [robert-kennedy]
     c: Szulc of the New York Times, brought by Goodwin, with Robert Kennedy off the record on Cuba after the invasion; by Szulc's account, nothing said of assassination. Robert Kennedy asks him to see the President.
-    n: '[S. Rep. No. 94-465, 138 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=149). Made public: the Church Committee''s interim report, Nov. 20, 1975. Names: Szulc, Goodwin, Robert Kennedy.'
+    n: '[S. Rep. No. 94-465, 138 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=149). [[w.thomas-robert-kennedy]], 157 (Robert Kennedy summons Szulc to lunch at Justice: "Would you mind seeing my brother?"). Made public: the Church Committee''s interim report, Nov. 20, 1975. Names: Szulc, Goodwin, Robert Kennedy.'
     src:
       c: 0899c992
       rows:
         - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=149: all'
+        - 'w.thomas-robert-kennedy 157: A, C'
     tags: [name:szulc-tad, name:goodwin-richard-n, name:kennedy-robert-f]
   - id: cal.1961-11-08.japan
     when: Nov. 8
     date: '1961-11-08'
     thread: japan
-    also: [women]
-    c: 'News conference, the State Department auditorium. The Joint Committee on Trade and Economic Affairs'' meeting in Japan; the merchandise surplus with Japan, $433 million in the first six months. Equal pay for women: "Well, I''m sure we haven''t done enough. I must say I am a strong believer in equal pay for equal work." No question on Vietnam.'
-    n: 'The President''s News Conference of November 8, 1961, [1961 Pub. Papers 701](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=759). [[w.reeves-president-kennedy]], 257–58. See [[cal.1961-11-02.japan-and-korea]]. Names: Kennedy.'
+    also: [women, south-asia]
+    c: 'News conference, the State Department auditorium. The Joint Committee on Trade and Economic Affairs'' meeting in Japan; the merchandise surplus with Japan, $433 million in the first six months. Equal pay for women: "Well, I''m sure we haven''t done enough. I must say I am a strong believer in equal pay for equal work." No question on Vietnam. After Nehru''s visit, asked whether Nehru works for the Communist movement: "I know of no rational man in the United States who holds that view"; differences of policy, geography dictating some.'
+    n: 'The President''s News Conference of November 8, 1961, [1961 Pub. Papers 701](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=759), at 706 (Nehru). [[w.reeves-president-kennedy]], 257–58. [[w.sorensen-kennedy]], 578. See [[cal.1961-11-02.japan-and-korea]]. Names: Kennedy, Nehru.'
     src:
-      c: cbf4b871
+      c: 2d2ceaf9
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=759: all'
-        - 'w.reeves-president-kennedy 257–58: all'
-    tags: [name:kennedy-john-f]
+        - 'w.reeves-president-kennedy 257–58: A-E'
+        - 'w.sorensen-kennedy 578: F'
+    tags: [name:kennedy-john-f, name:nehru-jawaharlal]
+    aliases: [cal.1961-11-08.south-asia]
   - id: cal.1961-11-09.legislatures-ny
     when: Nov. 9–10
     date: '1961-11-09'
@@ -481,7 +523,7 @@ entries:
     thread: cuba
     also: [robert-kennedy]
     c: 'Szulc, with Goodwin, an hour with the President in the Oval Office. By Szulc''s notes, Kennedy asks, "What would you think if I ordered Castro to be assassinated?" Szulc against it; Kennedy: he was testing him, and "under terrific pressure from advisers (think he said intelligence people, but not positive) to okay a Castro murder." By Goodwin''s account, a day or two later: "If we get into that kind of thing, we''ll all be targets."'
-    n: '[S. Rep. No. 94-465, 138–139 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=149); [[w.schlesinger-robert-kennedy-and-his]], 492. [[w.reeves-president-kennedy]], 264–65 (the talk, by Szulc''s notes). [[w.fursenko-one-hell-of-a]], 143 (by Szulc''s notes). Check: the Church report gives Goodwin''s words as "we can''t get into that kind of thing, or we would all be targets." Made public: Szulc, "Cuba on Our Mind," *Esquire*, Feb. 1974. See [[cal.1961-11-08.cuba]]. Names: Szulc, Goodwin, Kennedy, Castro.'
+    n: '[S. Rep. No. 94-465, 138–139 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=149); [[w.schlesinger-robert-kennedy-and-his]], 492. [[w.reeves-president-kennedy]], 264–65 (the talk, by Szulc''s notes); [[w.thomas-robert-kennedy]], 157–58 (the question; Szulc against; Szulc''s note: "under terrific pressure from his advisers"; Szulc in 1998: Robert Kennedy meant). [[w.fursenko-one-hell-of-a]], 143 (by Szulc''s notes). Check: the Church report gives Goodwin''s words as "we can''t get into that kind of thing, or we would all be targets." Made public: Szulc, "Cuba on Our Mind," *Esquire*, Feb. 1974. See [[cal.1961-11-08.cuba]]. Names: Szulc, Goodwin, Kennedy, Castro.'
     src:
       c: 5bf05d9b
       rows:
@@ -492,6 +534,8 @@ entries:
         - 'w.reeves-president-kennedy 264–65: A-D'
         - 'via w.reeves-president-kennedy 264 n.why-didnt-you-tell-me: A-D'
         - 'w.fursenko-one-hell-of-a 143: B-D'
+        - 'w.thomas-robert-kennedy 157–58: A-D'
+        - 'via w.thomas-robert-kennedy 157 n.jfk-szulc-meeting: B-D'
     tags: [name:szulc-tad, name:goodwin-richard-n, name:kennedy-john-f, name:castro-fidel]
   - id: cal.1961-11-09.goldwater
     when: Nov. 9
@@ -539,13 +583,14 @@ entries:
     thread: soviet-union
     also: [berlin-and-vienna]
     c: 'Khrushchev to Kennedy, privately: "I am writing not to argue with you"; the West would have the Soviet Union "assume the responsibilities of traffic policemen"; no free air corridors to a free West Berlin, the planes to land in East Germany; "I have no ground to retreat further, there is a precipice behind."'
-    n: '[FRUS 1961–63, VI, doc. 23](https://history.state.gov/historicaldocuments/frus1961-63v06/d23). [[w.fursenko-khrushchevs-cold-war]], 407–8. See [[cal.1961-09-29.soviet-union]]. Names: Khrushchev, Kennedy.'
+    n: '[FRUS 1961–63, VI, doc. 23](https://history.state.gov/historicaldocuments/frus1961-63v06/d23). [[w.fursenko-khrushchevs-cold-war]], 407–8; [[w.sorensen-kennedy]], 599 (the letter: West Berlin "not an orchard but a weed of burr and nettle"). See [[cal.1961-09-29.soviet-union]]. Names: Khrushchev, Kennedy.'
     src:
       c: c71424a1
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v06/d23: all'
         - 'w.fursenko-khrushchevs-cold-war 407–8: all'
         - 'via w.fursenko-khrushchevs-cold-war 407 n.78: all'
+        - 'w.sorensen-kennedy 599: A'
     tags: [name:khrushchev-nikita-s, name:kennedy-john-f]
   - id: cal.1961-11-09.berlin-and-vienna
     when: Nov. 9
@@ -580,7 +625,7 @@ entries:
     date: '1961-11-11'
     thread: vietnam
     c: 'McNamara and Rusk advise deferring troops for Vietnam. At the meeting, by Lemnitzer''s notes, Kennedy: "We have a congressional prob. Sen. Russell & others are opposed"; troops "a last resort." Robert Kennedy: "We are not sending combat troops."'
-    n: 'FRUS 1961–63, I, docs. [234](https://history.state.gov/historicaldocuments/frus1961-63v01/d234) (editorial note), [236](https://history.state.gov/historicaldocuments/frus1961-63v01/d236) (the meeting, 12:10 p.m.: Lemnitzer''s notes). [[w.selverstone-kennedy-withdrawal]], 42–43 (the memorandum; the meeting: "Troops are a last resort"); [[w.rusk-as-i-saw-it-1990]], 432–33 (the advice); [[w.preston-war-council]], 96 (the Rusk–McNamara paper, drafted by U. Alexis Johnson); [[w.mcnamara-in-retrospect]], ch. 2 at nn.13–14 (the joint memorandum: "if there is not such an effort, U.S. forces could not accomplish their mission in the midst of an apathetic or hostile population"; Kennedy at the meeting refuses combat forces). [[w.ball-past-has-another-pattern]], 368–69 (the joint memorandum). Check: the memorandum''s text. [[w.gibbons-u-s-government-and]], II, 89–92; [[w.marolda-united-states-navy-and]], 127 (McNamara and Rusk, Nov. 11); [[w.mann-grand-delusion]], 250 (the meeting). See [[cal.1961-11-08.vietnam]]. Names: McNamara, Rusk, Kennedy, Russell, Robert Kennedy.'
+    n: 'FRUS 1961–63, I, docs. [234](https://history.state.gov/historicaldocuments/frus1961-63v01/d234) (editorial note), [236](https://history.state.gov/historicaldocuments/frus1961-63v01/d236) (the meeting, 12:10 p.m.: Lemnitzer''s notes). [[w.selverstone-kennedy-withdrawal]], 42–43 (the memorandum; the meeting: "Troops are a last resort"); [[w.rusk-as-i-saw-it-1990]], 432–33 (the advice); [[w.preston-war-council]], 96 (the Rusk–McNamara paper, drafted by U. Alexis Johnson); [[w.mcnamara-in-retrospect]], ch. 2 at nn.13–14 (the joint memorandum: "if there is not such an effort, U.S. forces could not accomplish their mission in the midst of an apathetic or hostile population"; Kennedy at the meeting refuses combat forces). [[w.ball-past-has-another-pattern]], 368–69 (the joint memorandum); [[w.sorensen-kennedy]], 653–54 (the President''s "no" to combat troops; the departments to be ready). Check: the memorandum''s text. [[w.gibbons-u-s-government-and]], II, 89–92; [[w.marolda-united-states-navy-and]], 127 (McNamara and Rusk, Nov. 11); [[w.mann-grand-delusion]], 250 (the meeting). Check: Sorensen has all the principal advisers on Vietnam for combat troops, the President alone against (653). See [[cal.1961-11-08.vietnam]]. Names: McNamara, Rusk, Kennedy, Russell, Robert Kennedy.'
     src:
       c: 6005533a
       rows:
@@ -602,6 +647,7 @@ entries:
         - 'via x.1961-11-11.rusk-and-mcnamara-to-kennedy-nov: A'
         - 'via x.1961-11-11.lemnitzer-notes-of-a-meeting-at: C'
         - 'via w.preston-war-council 96 n.61b: A'
+        - 'w.sorensen-kennedy 653–54: C'
     tags: [name:mcnamara-robert-s, name:rusk-dean, name:kennedy-john-f, name:russell-richard-b, name:kennedy-robert-f]
   - id: cal.1961-11-11.king
     when: Nov. 11
@@ -802,6 +848,18 @@ entries:
         - 'w.preston-war-council 99–100: all'
         - 'via w.preston-war-council 99 n.68: all'
     tags: [name:bundy-mcgeorge, name:kennedy-john-f]
+  - id: cal.1961-11-15.transition-and-staff
+    when: Nov. 15
+    date: '1961-11-15'
+    thread: transition-and-staff
+    c: Campbell telephones the White House again.
+    n: '[[w.thomas-robert-kennedy]], 166. See [[cal.1961-11-07.transition-and-staff]]. Names: Campbell.'
+    src:
+      c: a5599ee4
+      rows:
+        - 'w.thomas-robert-kennedy 166: all'
+        - 'via x.1962-02-23.eb223-thomas: all'
+    tags: [name:campbell-judith]
   - id: cal.1961-11-16.congress
     when: Nov. 16
     date: '1961-11-16'
@@ -819,7 +877,13 @@ entries:
     date: '1961-11-16'
     thread: right-and-the-military
     c: 'Seattle: the United States "neither omnipotent nor omniscient." Nov. 18, Los Angeles: against "the discordant voices of extremism."'
-    n: Address in Seattle at the University of Washington's 100th Anniversary Program, [1961 Pub. Papers 724](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=782) (Nov. 16, 1961); Address in Los Angeles at a Dinner of the Democratic Party of California, [1961 Pub. Papers 733](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=791) (Nov. 18, 1961). See [[cal.1961-03.right-and-the-military]].
+    n: Address in Seattle at the University of Washington's 100th Anniversary Program, [1961 Pub. Papers 724](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=782) (Nov. 16, 1961); Address in Los Angeles at a Dinner of the Democratic Party of California, [1961 Pub. Papers 733](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=791) (Nov. 18, 1961). [[w.sorensen-kennedy]], 511. See [[cal.1961-03.right-and-the-military]].
+    src:
+      c: 2c76b1fd
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=782: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=791: all'
+        - 'w.sorensen-kennedy 511: A'
     tags: [name:kennedy-john-f]
   - id: cal.1961-11-16.vietnam
     when: Nov. 16
@@ -834,6 +898,18 @@ entries:
         - 'w.preston-war-council 95: all'
         - 'via w.preston-war-council 95 n.59a: all'
     tags: [name:hilsman-roger, name:rusk-dean, name:taylor-maxwell]
+  - id: cal.1961-11-16.cuba
+    when: Nov. 16
+    date: '1961-11-16'
+    thread: cuba
+    also: [intelligence]
+    c: 'Bissell summons Harvey: some nine months before, "the White House" had told him to set up an "executive action" capability, ZR/RIFLE, a hired killer on the payroll, never used. Harvey to take over the CIA''s Mafia contacts and fold them into it.'
+    n: '[[w.thomas-robert-kennedy]], 158. To check: Senate Select Committee, *Alleged Assassination Plots Involving Foreign Leaders: An Interim Report* (1975) (cited by [[w.thomas-robert-kennedy]], 158 n.). Names: Bissell, Harvey. Check: Bissell to Thomas, 1994: "They never told me not to" (158).'
+    src:
+      c: 07962794
+      rows:
+        - 'w.thomas-robert-kennedy 158: all'
+    tags: [name:bissell-richard-m-jr, name:harvey-william-k]
   - id: cal.1961-11-17.albany
     when: Nov. 17
     date: '1961-11-17'
@@ -857,7 +933,7 @@ entries:
     date: '1961-11-17'
     thread: vietnam
     c: 'Nolting to Diệm, 5 p.m.: Kennedy''s decisions on the Taylor report, a partnership; more American help, reforms of the government asked. Diệm''s first question, combat troops. Vietnam "did not want to be a protectorate."'
-    n: '[FRUS 1961–63, I, doc. 266](https://history.state.gov/historicaldocuments/frus1961-63v01/d266) (Nolting, Nov. 18). [[w.miller-misalliance]], 229–30; [[w.moyar-triumph-forsaken]], 143 (the demands presented; "Vietnam does not want to be a protectorate"). To check: Saigon to State, Nov. 18, 1961, NA II, RG 59, C0092, reel 5 (cited by [[w.moyar-triumph-forsaken]], 143 n.79); Saigon to State, Nov. 26, 1961, NA II, RG 59, C0092, reel 11 (cited by [[w.moyar-triumph-forsaken]], 143 n.79). See [[cal.1961-01-28.vietnam]]. Names: Nolting, Kennedy, Diệm.'
+    n: '[FRUS 1961–63, I, doc. 266](https://history.state.gov/historicaldocuments/frus1961-63v01/d266) (Nolting, Nov. 18). [[w.miller-misalliance]], 229–30; [[w.moyar-triumph-forsaken]], 143 (the demands presented; "Vietnam does not want to be a protectorate"); [[w.sorensen-kennedy]], 655 (the separate message on the reforms, based on the Taylor report). To check: Saigon to State, Nov. 18, 1961, NA II, RG 59, C0092, reel 5 (cited by [[w.moyar-triumph-forsaken]], 143 n.79); Saigon to State, Nov. 26, 1961, NA II, RG 59, C0092, reel 11 (cited by [[w.moyar-triumph-forsaken]], 143 n.79). See [[cal.1961-01-28.vietnam]]. Names: Nolting, Kennedy, Diệm.'
     src:
       c: 7f6be62d
       rows:
@@ -867,6 +943,7 @@ entries:
         - 'w.moyar-triumph-forsaken 143: B, D'
         - 'via w.moyar-triumph-forsaken 143 n.79a: D'
         - 'via w.moyar-triumph-forsaken 143 n.79b: D'
+        - 'w.sorensen-kennedy 655: A, B'
     tags: [name:nolting-frederick-e-jr, name:kennedy-john-f, name:ngo-dinh-diem, place:saigon]
   - id: cal.1961-11-17.goldwater
     when: Nov. 17
@@ -888,13 +965,14 @@ entries:
     date: '1961-11-17'
     thread: elections-1964
     c: 'The Rockefellers'' separation announced, 6 p.m., Friday: the statement hand-delivered to New York''s seven papers and the two wires; a property settlement; the Governor to stay with his brother Laurance. Wilson, told at dinner beforehand, begs him to reconsider. Hinman, at the Republicans'' southern conference in Atlanta, not told.'
-    n: '[[w.smith-on-his-own-terms]], 363–64. To check: *Time*, Nov. 24, 1961; Hinman to Rockefeller, "Republican Southern Conference, November 17th and 18th," Rockefeller Archive Center (both cited by [[w.smith-on-his-own-terms]], 364). Names: Rockefeller, Hinman.'
+    n: '[[w.smith-on-his-own-terms]], 363–64; [[w.novak-agony-of-the-g]], 48 (the divorce; the party''s consensus: no great damage). To check: *Time*, Nov. 24, 1961; Hinman to Rockefeller, "Republican Southern Conference, November 17th and 18th," Rockefeller Archive Center (both cited by [[w.smith-on-his-own-terms]], 364). Names: Rockefeller, Hinman.'
     src:
       c: d9018ea3
       rows:
         - 'w.smith-on-his-own-terms 363–64: all'
         - 'via x.1961-11-24.time-nov-24-1961: A-B'
         - 'via x.1961-11-18.hinman-southern-conference: D'
+        - 'w.novak-agony-of-the-g 48: A'
     tags: [name:rockefeller-nelson, name:hinman-george-l, state:ny]
   - id: cal.1961-11-18.goldwater
     when: Nov. 18
@@ -976,7 +1054,7 @@ entries:
     date: '1961-11-22'
     thread: vietnam
     c: NSAM 111. Helicopters, airlift, advisers with the units; reforms asked of Diệm. No combat troops.
-    n: '[NSAM No. 111](https://history.state.gov/historicaldocuments/frus1961-63v01/d272) (Viet. II.I.2). [[w.miller-misalliance]], 229–31 (no combat troops, the rest of the partnership endorsed; the reforms pressed on Diệm); FRUS 1961–63, I, doc. [257](https://history.state.gov/historicaldocuments/frus1961-63v01/d257) n. 2 (telegram 619 to Saigon, Nov. 15, summarized: the joint effort; telegram 618, no combat troops now). [[w.gibbons-u-s-government-and]], II, 99–100; [[w.marolda-united-states-navy-and]], 127 (NSAM 111, Nov. 22); [[w.moyar-triumph-forsaken]], 142–43. [[w.selverstone-kennedy-withdrawal]], 44, 47 (NSAM 111; no combat troops). To check: [FRUS 1961–63, I, doc. 236](https://history.state.gov/historicaldocuments/frus1961-63v01/d236) (meeting notes, Nov. 11, 1961; cited by [[w.moyar-triumph-forsaken]], 142 n.76); State to Saigon, Nov. 15, 1961, JFKL, NSF, box 195 (cited by [[w.moyar-triumph-forsaken]], 143 n.77). See [[cal.1961-01-28.vietnam]]. Names: Ngô Đình Diệm, Nolting.'
+    n: '[NSAM No. 111](https://history.state.gov/historicaldocuments/frus1961-63v01/d272) (Viet. II.I.2). [[w.miller-misalliance]], 229–31 (no combat troops, the rest of the partnership endorsed; the reforms pressed on Diệm); FRUS 1961–63, I, doc. [257](https://history.state.gov/historicaldocuments/frus1961-63v01/d257) n. 2 (telegram 619 to Saigon, Nov. 15, summarized: the joint effort; telegram 618, no combat troops now). [[w.gibbons-u-s-government-and]], II, 99–100; [[w.marolda-united-states-navy-and]], 127 (NSAM 111, Nov. 22); [[w.moyar-triumph-forsaken]], 142–43; [[w.sorensen-kennedy]], 653–55 (no combat troops; the departments to be prepared for them; the mission expanded). [[w.selverstone-kennedy-withdrawal]], 44, 47 (NSAM 111; no combat troops). To check: [FRUS 1961–63, I, doc. 236](https://history.state.gov/historicaldocuments/frus1961-63v01/d236) (meeting notes, Nov. 11, 1961; cited by [[w.moyar-triumph-forsaken]], 142 n.76); State to Saigon, Nov. 15, 1961, JFKL, NSF, box 195 (cited by [[w.moyar-triumph-forsaken]], 143 n.77). See [[cal.1961-01-28.vietnam]]. Names: Ngô Đình Diệm, Nolting.'
     src:
       c: 954df241
       rows:
@@ -992,6 +1070,7 @@ entries:
         - 'via w.moyar-triumph-forsaken 143 n.77: C'
         - 'w.selverstone-kennedy-withdrawal 44, 47: A, D'
         - 'via w.selverstone-kennedy-withdrawal 47 n.125b: A'
+        - 'w.sorensen-kennedy 653–55: B, D'
     tags: [name:kennedy-john-f, name:ngo-dinh-diem, name:nolting-frederick-e-jr]
   - id: cal.1961-11-22.middle-east-johnson-plan
     when: Nov. 22
@@ -1013,6 +1092,19 @@ entries:
         - 'w.branch-parting-the-waters 530–31: all'
         - 'via w.branch-parting-the-waters 530 n.3: B'
     tags: [state:ga, city:albany-ga]
+  - id: cal.1961-11-22.cuba
+    when: Nov. 22
+    date: '1961-11-22'
+    thread: cuba
+    also: [robert-kennedy]
+    c: 'Goodwin sends Robert Kennedy a draft strategy paper on Cuba. Kennedy on the cover note: "Eliminate my name."'
+    n: '[[w.thomas-robert-kennedy]], 148. To check: Goodwin to Robert Kennedy, Nov. 22, 1961, Assassination Records Review Board, National Archives (cited by [[w.thomas-robert-kennedy]], 148). Names: Goodwin, Robert Kennedy.'
+    src:
+      c: cc5d7c1c
+      rows:
+        - 'w.thomas-robert-kennedy 148: all'
+        - 'via x.1961-11-22.goodwin-to-robert-kennedy: all'
+    tags: [name:goodwin-richard-n, name:kennedy-robert-f]
   - id: cal.1961-11-23.civil-rights-the-executive
     when: Nov. 23
     date: '1961-11-23'
@@ -1032,12 +1124,26 @@ entries:
     thread: cuba
     also: [robert-kennedy]
     c: 'Thanksgiving weekend. Bissell telephones Robert Kennedy at Hyannis Port two or three times: the CIA trying to meet all of Lansdale''s requests. Robert Kennedy neither objects nor approves; he urges more speed. By Bissell''s account.'
-    n: '[[w.bissell-reflections-of-a-cold]], 202. See [[cal.1961-11-04.cuba]]. Names: Bissell, Robert Kennedy, Lansdale.'
+    n: '[[w.bissell-reflections-of-a-cold]], 202; [[w.thomas-robert-kennedy]], 147 (Thanksgiving weekend; Robert Kennedy and Bissell on the telephone, Cuba to get "moving"). Check: Thomas has Robert Kennedy calling Bissell at home, repeatedly (147), from Bissell''s interview. See [[cal.1961-11-04.cuba]]. Names: Bissell, Robert Kennedy, Lansdale.'
     src:
       c: 651a4193
       rows:
         - 'w.bissell-reflections-of-a-cold 202: all'
+        - 'w.thomas-robert-kennedy 147: A'
     tags: [name:bissell-richard-m-jr, name:kennedy-robert-f, name:lansdale-edward-g]
+  - id: cal.1961-11-23.voting-rights
+    when: Nov. 23
+    date: '1961-11-23'
+    thread: voting-rights
+    also: [robert-kennedy]
+    c: Thanksgiving weekend, Hyannis Port. Burke Marshall comes to talk with Robert Kennedy of new legislation to enforce voting rights in the South; Kennedy, taken up with Cuba, seems bored. By Marshall's account.
+    n: '[[w.thomas-robert-kennedy]], 147–48. See [[cal.1961-11-23.cuba]]. Names: Marshall, Robert Kennedy. Check: the day; Thomas: the weekend.'
+    src:
+      c: ffb0ddc0
+      rows:
+        - 'w.thomas-robert-kennedy 147–48: all'
+        - 'via x.undated.burke-marshall-interview-thomas: all'
+    tags: [name:marshall-burke, name:kennedy-robert-f]
   - id: cal.1961-11-24.congo
     when: Nov. 24
     date: '1961-11-24'
@@ -1206,6 +1312,18 @@ entries:
         - 'w.mcnamara-in-retrospect ch. 2 at n.16: B'
         - 'via x.1961-11-28.mcnamara-to-felt-and-mcgarr-def-906345: B'
     tags: [name:mcnamara-robert-s, name:felt-harry-d, name:mcgarr-lionel-c]
+  - id: cal.1961-11-28.cuba
+    when: Nov. 28
+    date: '1961-11-28'
+    thread: cuba
+    also: [intelligence]
+    c: 'SNIE 85-61: "The Castro regime has sufficient popular support and repressive capabilities to cope with any internal threat likely to develop within the foreseeable future."'
+    n: '[[w.thomas-robert-kennedy]], 149. Names: Castro. Check: the day; the words are the Board of National Estimates'' of Nov. 3, Kent to Dulles ([FRUS 1961–63, X, doc. 271](https://history.state.gov/historicaldocuments/frus1961-63v10/d271)); Lansdale''s memorandum of Nov. 30 gives the SNIE "just" available ([FRUS 1961–63, X, doc. 277](https://history.state.gov/historicaldocuments/frus1961-63v10/d277)).'
+    src:
+      c: 7bcf0c45
+      rows:
+        - 'w.thomas-robert-kennedy 149: all'
+    tags: [name:castro-fidel]
   - id: cal.1961-11-29.opinion
     when: Nov. 29
     date: '1961-11-29'
@@ -1214,6 +1332,19 @@ entries:
     c: 'Gallup, Nov. 17–22: Khrushchev''s offer to ban H-bomb tests within total disarmament. Bluffing, 79 percent; sincere, 9. In Britain, 50 and 21.'
     n: '[[w.gallup-poll]], III, 1744. Names: Khrushchev.'
     tags: [name:khrushchev-nikita-s]
+  - id: cal.1961-11-29.cuba
+    when: Nov. 29
+    date: '1961-11-29'
+    thread: cuba
+    also: [robert-kennedy, intelligence]
+    c: McCone with Robert Kennedy, 9 to 10:20 a.m. Kennedy's report to the President on the Bay of Pigs, highly critical of the CIA and the Chiefs, Bissell above all, given McCone to read. Lansdale to head an interagency group; Kennedy "resented CIA resistance to this idea," wants the ablest man for it, not J. C. King, and agrees it must work under the 5412 Committee. By McCone's memorandum for the record.
+    n: '[FRUS 1961–63, X, doc. 276](https://history.state.gov/historicaldocuments/frus1961-63v10/d276). [[w.thomas-robert-kennedy]], 149 (the resentment). Names: McCone, Robert Kennedy, Bissell, Lansdale.'
+    src:
+      c: 9b32bb8e
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d276: all'
+        - 'w.thomas-robert-kennedy 149: C'
+    tags: [name:mccone-john-a, name:kennedy-robert-f, name:bissell-richard-m-jr, name:lansdale-edward-g]
   - id: cal.1961-11-30.cuba
     when: Nov. 30
     date: '1961-11-30'
@@ -1259,11 +1390,12 @@ entries:
     date: 1961-11
     thread: press-and-broadcasting
     c: 'A White House lunch for publishers. Dealey of the *Dallas Morning News*: "We need a man on horseback to lead this nation, and many people in Texas think that you are riding Caroline''s bicycle." Kennedy: "I''m just as tough as you are, Mr. Dealey."'
-    n: '[[w.reeves-president-kennedy]], 271. To check: [[w.schlesinger-thousand-days-1965]], 752 (cited by [[w.reeves-president-kennedy]], 271). Check: the day. Names: Kennedy.'
+    n: '[[w.reeves-president-kennedy]], 271; [[w.sorensen-kennedy]], 327, 335 (the luncheons; Dealey). To check: [[w.schlesinger-thousand-days-1965]], 752 (cited by [[w.reeves-president-kennedy]], 271). Check: the day. Names: Kennedy.'
     src:
       c: 1fc87f94
       rows:
         - 'w.reeves-president-kennedy 271: all'
+        - 'w.sorensen-kennedy 327, 335: A, B'
     tags: [name:kennedy-john-f]
   - id: cal.1961-11.cuba-bay-of-pigs
     when: Nov.
@@ -1347,3 +1479,16 @@ entries:
         - 'via x.1961-11-13.newsweek-back-in-arkansas: B-C'
         - 'via x.1961-11-19.deane-fulbright-tosses-political-straw: A'
     tags: [name:fulbright-j-william, state:ar]
+  - id: cal.1961-11-30.cuba-2
+    when: Nov. 30
+    date: '1961-11-30'
+    thread: cuba
+    also: [robert-kennedy]
+    c: 'Lansdale to Robert Kennedy: Friday the "day of decision" for "your special project" before Taylor''s group; the special intelligence estimate the major evidence against it. The intelligence "far from adequate"; its conclusion on an uprising "a ''conclusion of fact'' quite outside the area of intelligence."'
+    n: '[FRUS 1961–63, X, doc. 277](https://history.state.gov/historicaldocuments/frus1961-63v10/d277). [[w.thomas-robert-kennedy]], 149. See [[cal.1961-11-28.cuba]]. Names: Lansdale, Robert Kennedy, Taylor.'
+    src:
+      c: 7ea961dc
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d277: all'
+        - 'w.thomas-robert-kennedy 149: A, C'
+    tags: [name:lansdale-edward-g, name:kennedy-robert-f, name:taylor-maxwell]

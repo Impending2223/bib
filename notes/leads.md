@@ -484,6 +484,15 @@ CQ Weekly Report, 1968-08-16:
 - Arkansas: the State Democratic Committee's minutes, June 27 and Aug. 10, 1968; the 1960 primary's candidates'
   filings; the AFL-CIO convention of June 1968; the *Arkansas Gazette* run of 1960-68 (Woods's chief newspaper source).
 
+### Thomas, *Robert Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
+- The Wayne County, W. Va., case of 1960-63 (RFK to Burke Marshall, Sept. 23, 1963, Burke Marshall Papers); Danville, Va., 1963, Geoghegan sent (Geoghegan OH, JFKL; 112); Savannah, Sept. 1960 (Scott Peek OH, SHO); Chafin's *Just Good Politics*, 127-45 (Logan County, W. Va.?), not held.
+
+### Novak, *The Agony of the G.O.P. 1964* (batch 3, third run, Nov. 4, 2026; notes/book-checks/novak-agony-of-the-g.md)
+- Pennsylvania: the Scranton-Dilworth debates and Dilworth's empty chair at WNEP, fall 1962 (96–98); Scranton's men against Hugus, Allegheny County, to the primary of Apr. 28, 1964 (275–76); Hugus's and Robertson's elections as county chairmen, 1962 (118–20).
+- Michigan: Swainson's veto on Detroit's income tax, 1962 (92); the day Romney's tax program died, 1963 (228–29).
+- Virginia: the Lake Barcroft district convention, Fairfax County, 1964 (346–47).
+- Washington: the King and Spokane county caucuses, 1964 (352–53).
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -2030,6 +2039,35 @@ Rights in Conflict (Walker Report):
 - Propose Part III entries for Ripley, Stevens, Hirshhorn, Keeney, Heckscher, George Wiley, Elizabeth Wickenden, Maurice
   Donahue (no name entries).
 
+### Sorensen, *Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/sorensen-kennedy.md)
+- The days of the leads in the third run's Passed over (Sorensen gives none; the calendar of the month to be read for each): Kennedy's order changing the *Fortune* writer's Air Force post (316 n.3); the sessions with Luce and the *Time* study (317); the publishers' committee of May 1961 (321); the news-contact restrictions of Oct. 1962 and the rule for aides (321); the USIA polls' release (322); the state-by-state White House luncheons with editors (327); Ellis's plan to see the Pope on church shelters, 1961 (613); Teller's $50 billion shelters (615); the shelter booklet toned down, Dec. 1961 (616); the Republican leadership seminars, Jan. 1962 (324); the news conference of Apr. 3, 1963 on Khrushchev's standing (555); Neustadt's Skybolt study, 1963 (569).
+
+### Fursenko and Naftali, *"One Hell of a Gamble"* (batch 3, second run, Nov. 4, 2026; notes/book-checks/fursenko-one-hell-of-a.md)
+- Schlesinger to Kennedy, May 3, 1961 ("Kennedy has lost his magic," POF, 102 n.2); U. A. Johnson's memorandum of Mar. 16, 1962 (157 n.26); the six low-level flights authorized Oct. 23, 1962 (250); the CIA's halt of Mongoose, Oct. 28, 1962, 4:30 p.m. (Harvey's chronology of Nov. 14, 1962, 288 n.98); the Marine battalion from El Toro, Oct. 21, 1962 (244): to enter from their records.
+- Kennedy's Cuba economy request and Goodwin's economic-warfare proposal, Sept. 1961 (143 n.47–48): the days.
+- The press: Frank Holeman (*New York Daily News*, Nixon's beat and the Bolshakov channel; the work treats him at 110–12, 249, 275): a Part III entry; he is named in the new entries of Apr. 29–30, 1961, but not in Names. Paul W. Ward (*Baltimore Sun*?), his article of early December 1963 on a right-wing plot (348): the day and paper.
+
+### Thomas, *Robert Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
+- FRUS 1961-63, X, doc. 275, McCone's record of the meeting of Nov. 21, 1961 (the President, Robert Kennedy, Lansdale, Goodwin; the plan of action on Cuba within two weeks): read, not in the calendar, not Thomas's event.
+- The Caribbean Survey Group's minutes of Mar. 25, 1962 (Robert Kennedy on "kidnapping some key people"; Thomas, 152 n.); McCone's memorandum of July 3, 1962 on the prisoners (FRUS X, 842; 178 n.); McManus to Helms, Nov. 5, 1962 (235 n.); Harvey's Church Committee testimony of July 11, 1975 (151 n.).
+- Jones to DeLoach, Mar. 24, 1961, on Schulberg's film of *The Enemy Within* (115 n.); McMillan's 48-page memorandum on Sinatra, 1961-63, RFK Confidential File (173 n.); Summers, *Official and Confidential*, 289 (Hoover's fear of replacement, Dec. 1961).
+- Undated in Thomas, to date from the sources his notes give: Corbin in West Virginia (94); Singleton at Houston and Graves at St. Louis (99); Sinatra's investigator's report on Nixon (107); the extortion schemes (108); the Keogh stairway argument (113); "an attorney general we can't fix" (114); the Treasury's eavesdropping course (118); the Georgetown police "academy" (142); Ball's Zanzibar memorandum (143); JM/WAVE's cost (151); Robert Kennedy and Harvey (151-52); Guantánamo supplies for an underground (178); Abdullah and the Hotel Theresa (178); the Dunbar High pool (185); the Hickory Hill seminars (188); Tretick's pictures (190); the denials to editors on Monroe (192); the FBI's test of the Russians' wine (208); the tally of the ExComm (217); the CIA's stand-down of sabotage (234); Artime's bases in Guatemala, Costa Rica and Nicaragua, 1963 (238).
+- The press figures without a name entry whom this run names or enters: Sander Vanocur (NBC), Murray Kempton, Marguerite Higgins (*New York Herald Tribune*), Peter Maas (*Saturday Evening Post*), Frank Holeman (*New York Daily News*), William Haddad (*New York Post*), Warren Rogers (*New York Herald Tribune*): proposed for Part III.
+- Thomas's interviews (some ninety persons) are not deposited: every such witness is open. The Stein and Plimpton oral histories (STOH) and the Senate Historical Office's (SHO) are named but not read.
+
+### Novak, *The Agony of the G.O.P. 1964* (batch 3, third run, Nov. 4, 2026; notes/book-checks/novak-agony-of-the-g.md)
+- Press figures for Part III entries (R13), each named by Novak: Willard Edwards (7), Paul Duke (99), Gould Lincoln (103), Robert C. Albright (236), Jack Bell (34, 211), Cabell Phillips (104, 132, 216, 226), Felix Belair Jr. (259), Warren Weaver Jr. (147), Leo Egan (70), Alan L. Otten (295, 430), Richard Dougherty (403), Jack Steele (401), Samuel Lubell (379), Mervin Shoemaker (375), Joseph A. Loftus (436), James Burnham (355), Murray Kempton (450).
+- Party figures the calendar names and Part III lacks (K–J Cong. III.K or Opp. III): Wirt Yerger, Tony Smith, Victor Johnston, Bert Teague, Stewart Lamprey, William Loeb, Doloris Bridges, Ione Harrington, Charles Barr, Tad Smith, Tom Fairfield Brown, William Keisling, Craig Truax, Walter Alessandroni, Robert Mullen, Paul Grindle, David Goldberg, Alexander Lankler, Mary Scranton, Charles Carpentier, Bruce Chapman, Harry O'Donnell, Fred Young, Jean Tool, Mort Frayne, Charles Moore, Houston Flournoy, Joseph Martin Jr., Edwin Durno, Howell Appling, Robert C. Albright.
+- Gallup figures Novak gives that the calendar's poll entries do not match: Rockefeller 43, Goldwater 26 before the remarriage, Goldwater 40, Rockefeller 29 after (148); Romney 13, 16, 18 (161); Lodge 42, 36, 28 (380); June 6, 1964 (441). Gallup's releases to place them.
+- Goldwater's school-tax bill of 1961, put in the Record by a colleague (33–34 & n.2): its day in the Record.
+- Rockefeller's letters and wire on long-term foreign aid financing, 1961 (70): the House vote's day.
+- Javits's protest on the Senate floor against "The White Man's Party?" (195 n.13): the Record, June–July 1963.
+- The undated rows of Passed over marked "lead," each with its page.
+
+### Sorensen, *Kennedy* (batch 3, fourth run, Nov. 4, 2026; notes/book-checks/sorensen-kennedy.md)
+- The Senate resolution of thirty-four for an atmospheric ban, May 1963 (the Record; 729); the Republicans' statements on the test ban: Jackson, Dirksen and Halleck, June-Aug. 1963 (736-37); LeMay's and Power's testimony, and Strauss, Burke, Radford and Twining against the treaty, Aug. 1963 (739); the Air Force Association's stand (739); the Harris poll on the treaty (737); Nixon's attack on the wheat sale, Oct. 1963 (742); Gallup's "peace party" (745); Barnett's telegrams of Oct. 1962 (707); the NSC's attendance (Robert Kennedy, Sorensen) after the Bay of Pigs (644); a thread for the United Nations (the report of Nov. 20, 1963, 1963 Pub. Papers 880, has none).
+- Defense (602-36): McNamara's ninety-six questions, Mar. 1961 (604); the Strike Command (606); the bill on the Chiefs' tenure, 1963 (607-08); the Office of Emergency Planning and Ellis's judgeship, 1962 (614); the shelter booklet and the shelter bill of 1962 (615-16); the Chiefs on resuming tests, Feb. 1961, the June panel, the early August order (618; FRUS VII); the reactions of Peking, Tass, Young Americans for Freedom and SDA to the resumption, Mar. 1962 (624); the magazine interview of Mar. 1962 on first use (627 n.3); the green berets, Farm Gate and Jungle Jim, the Special Group (Counterinsurgency), 1961-62 (632-33).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -3186,6 +3224,25 @@ CQ Weekly Report, 1968-08-30:
 - Trujillo's contract with Igor Cassini (Woods 307): the Dominican files Pincus photographed; Cassini's indictment's
   day (1963).
 - The Thai Foreign Minister's statement of Dec. 1967: its day and words.
+
+### Sorensen, *Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/sorensen-kennedy.md)
+- The Azores lease and Portugal's pressure (538 n.3); the four accidental penetrations of Soviet air space (541 n.1); Bolshakov's letter in a folded newspaper, a Berlin concession (554); Macmillan's anger at the Hawk offer to Israel (558); the Skipjack sale withdrawn (572); Diefenbaker's staff paper (575); the Pakistani Ambassador's tirade (664); Kennedy's letter to Diem, late summer 1963 (658); Acheson's letter after the crisis (719); the Joint Chiefs' written views on Laos (644–45); Macmillan's letter on testing, early 1962 (622).
+- The pages 593–746 listed in the third run's Passed over as "not checked": a fourth run to set each against its day and cite or enter it (Laos and Vietnam, 639–61; China, India and Pakistan, 661–66; the missile crisis's dense days, 697–718; the aftermath, 719–28; the test ban's ratification and the wheat sale, 729–46; Berlin's later incidents, 593–600).
+
+### Fursenko and Naftali, *"One Hell of a Gamble"* (batch 3, second run, Nov. 4, 2026; notes/book-checks/fursenko-one-hell-of-a.md)
+- The rows of the book-check's Passed over marked "lead," each with its page and note; chiefly the KGB's and Presidium's acts the work dates only to a month or a season (Castro's talks with Alekseyev of May 1960 and Feb. and Mar. 1962; Castro's purge of the security services, Aug. 1960; the GRU in Havana, fall 1961; Moscow's monitoring of the landing, Apr. 15–18, 1961, from Alekseyev's cables of Apr. 17 and 18, file 88631, vol. 3, 169–71).
+- The Second Declaration of Havana (Feb. 4, 1962, to check), quoted at 168: not in the calendar.
+- A Taiwanese U-2 shot down over China, Sept. 8, 1962 (214): not in the calendar.
+- Barghoorn's arrest, Oct. 31, 1963 (344): to check against the calendar.
+
+### Thomas, *Robert Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
+- The *Indigirka* at Mariel, Oct. 4, 1962, and the *Marucla*, Oct. 26 (Fursenko and Naftali, 213, 426): for the missile-crisis thread if not in.
+
+### Novak, *The Agony of the G.O.P. 1964* (batch 3, third run, Nov. 4, 2026; notes/book-checks/novak-agony-of-the-g.md)
+- The *Athens Post*'s interview with Goldwater before Greece's election of Nov. 1963 (243 n.4).
+
+### Sorensen, *Kennedy* (batch 3, fourth run, Nov. 4, 2026; notes/book-checks/sorensen-kennedy.md)
+- The Joint Chiefs' written views on Laos, late Apr. 1961 (644-45; FRUS XXIV); the neutral neighbors' refusal, 1961 (640-41); the warnings through the Warsaw talks, Mar. 1961 and June 1962 (642, 662; FRUS XXII); the Seventh Fleet and the war games in Thailand, spring 1963 (648); Madame Nhu's tour and remarks, Aug.-Nov. 1963 (657, 659); Menon's removal, the Nehru–Ayub statement, the air defense agreement for India (663-65; FRUS XIX); the NATO Council's backing, Oct. 1962 (705; FRUS XI); the letters of Nov. 19, 1962 to the allies on the IL-28s (720); Khrushchev's letter on Nixon's defeat (721); the MIG attack on the shrimp boat, Feb. 1963 (722); the end of jamming and the IAEA agreement, June 1963 (733); Kennedy and the Navy over the interception line, Oct. 24, 1962 (710); the Alphand meeting at Andrews, Mar. 26, 1961 (FRUS XXIV, doc. 40: not in the calendar; not in Sorensen).
 
 ## The Executive roster
 

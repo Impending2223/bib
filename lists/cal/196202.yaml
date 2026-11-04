@@ -36,12 +36,13 @@ entries:
     date: '1962-02-01'
     thread: robert-kennedy
     c: Robert Kennedy leaves on a month's tour around the world. Byron White Acting Attorney General.
-    n: '[[w.branch-parting-the-waters]], 564, 566. To check: New York Times, Feb. 2, 1962, 1 (cited by [[w.branch-parting-the-waters]], 566 n.2). Names: Robert Kennedy, Byron White.'
+    n: '[[w.branch-parting-the-waters]], 564, 566; [[w.thomas-robert-kennedy]], 166 (the three-week tour). To check: New York Times, Feb. 2, 1962, 1 (cited by [[w.branch-parting-the-waters]], 566 n.2). Names: Robert Kennedy, Byron White.'
     src:
       c: c5084018
       rows:
         - 'w.branch-parting-the-waters 564, 566: all'
         - 'via w.branch-parting-the-waters 566 n.2a: A'
+        - 'w.thomas-robert-kennedy 166: A'
     tags: [name:kennedy-robert-f, name:white-byron-r]
   - id: cal.1962-02-01.civil-rights-the-executive
     when: Feb. 1
@@ -96,6 +97,18 @@ entries:
         - 'w.branch-parting-the-waters 577: all'
         - 'via w.branch-parting-the-waters 577 n.2: A-C'
     tags: [name:king-martin-luther-jr, name:lawson-james-m-jr, name:young-andrew-j-jr, name:odell-jack-h]
+  - id: cal.1962-02-02.crime-and-hijacking
+    when: Feb. 2
+    date: '1962-02-02'
+    thread: crime-and-hijacking
+    c: 'The FBI''s bug in the Armory Lounge: Giancana to D''Arco, the First Ward''s alderman: "Tell everyone that everything is off. This is it because of the G." D''Arco: "We are through." A crony, by D''Arco, to his FBI questioners: the President "can thank the Italian ward politician for delivering the Illinois vote."'
+    n: '[[w.thomas-robert-kennedy]], 165–66. To check: SAC Chicago to Hoover, Feb. 2, 1962, House Assassinations Committee Records, National Archives (cited by [[w.thomas-robert-kennedy]], 165 n.). Names: Giancana. Check: the note dates the report 1961.'
+    src:
+      c: 18704e4a
+      rows:
+        - 'w.thomas-robert-kennedy 165–66: all'
+        - 'via x.1962-02-02.sc22-thomas: all'
+    tags: [name:giancana-sam, city:chicago]
   - id: cal.1962-02-03.cuba
     when: Feb. 3
     date: '1962-02-03'
@@ -252,7 +265,12 @@ entries:
     thread: crime-and-hijacking-maheu
     also: [cuba]
     c: The Las Vegas wiretap case. At the Criminal Division's request (Miller, Jan. 31), the FBI sees Edwards again. The CIA objects to any prosecution needing its people or its information; evidence of its operation "would be embarrassing to the Government."
-    n: '[S. Rep. No. 94-465, 129–30 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=140) (K–J Adm. II.H.3), quoting Hoover to Edwards, Mar. 23, 1962. See [[cal.1961-05-22.robert-kennedy]]. Made public: the Church Committee''s interim report, Nov. 20, 1975. Names: Miller, Edwards.'
+    n: '[S. Rep. No. 94-465, 129–30 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=140) (K–J Adm. II.H.3), quoting Hoover to Edwards, Mar. 23, 1962. [[w.thomas-robert-kennedy]], 171 (the memoranda among FBI, CIA and Justice through the winter; Hoover to have the CIA invoke national security). See [[cal.1961-05-22.robert-kennedy]]. Made public: the Church Committee''s interim report, Nov. 20, 1975. Names: Miller, Edwards.'
+    src:
+      c: baccc989
+      rows:
+        - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=140: all'
+        - 'w.thomas-robert-kennedy 171: A, C'
     tags: [name:edwards-sheffield, name:miller-herbert-j-jr]
   - id: cal.1962-02-07.cuba
     when: Feb. 7
@@ -560,12 +578,13 @@ entries:
     thread: berlin-and-vienna
     also: [soviet-union, defense]
     c: The southern air corridor reserved again for limited hours. Ten Soviet fighters buzz the six American aircraft flying it at the times Moscow "reserved"; the first incidents.
-    n: '[[w.fursenko-khrushchevs-cold-war]], 422. To check: Zakharov and Malinovsky to the Central Committee, Feb. 17, 1962, RGANI; CIA, Current Intelligence Weekly Review, Feb. 16, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]], 422 n.29). See [[cal.1962-02-07.berlin-and-vienna]].'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 422; [[w.sorensen-kennedy]], 596 (Soviet planes buzzing ours in the early months of 1962; all flights proceeded). To check: Zakharov and Malinovsky to the Central Committee, Feb. 17, 1962, RGANI; CIA, Current Intelligence Weekly Review, Feb. 16, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]], 422 n.29). See [[cal.1962-02-07.berlin-and-vienna]].'
     src:
       c: f6b0a629
       rows:
         - 'w.fursenko-khrushchevs-cold-war 422: all'
         - 'via w.fursenko-khrushchevs-cold-war 422 n.29: all'
+        - 'w.sorensen-kennedy 596: B'
   - id: cal.1962-02-14.king
     when: Feb. 14
     date: '1962-02-14'
@@ -715,7 +734,12 @@ entries:
     date: '1962-02-20'
     thread: space
     c: Glenn orbits three times in *Friendship 7*. A heat-shield warning; the shield holds.
-    n: 'Remarks Following the Orbital Flight of Col. John H. Glenn, Jr., [1962 Pub. Papers 150](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=210) (Feb. 20, 1962). Telephone Conversation With Colonel Glenn Aboard the U.S.S. Noa, [1962 Pub. Papers 150](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=210) (Feb. 20, 1962). To check: [[w.wolfe-right-stuff]]. See [[cal.1961-04-12.space]]. Names: Glenn.'
+    n: 'Remarks Following the Orbital Flight of Col. John H. Glenn, Jr., [1962 Pub. Papers 150](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=210) (Feb. 20, 1962). Telephone Conversation With Colonel Glenn Aboard the U.S.S. Noa, [1962 Pub. Papers 150](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=210) (Feb. 20, 1962). [[w.sorensen-kennedy]], 528. To check: [[w.wolfe-right-stuff]]. See [[cal.1961-04-12.space]]. Names: Glenn.'
+    src:
+      c: 03f648f7
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=210: all'
+        - 'w.sorensen-kennedy 528: A'
     tags: [name:glenn-john-h-jr]
   - id: cal.1962-02-20.specials
     when: Feb. 20
@@ -843,6 +867,19 @@ entries:
         - 'via w.moyar-triumph-forsaken 149 n.4: A-B'
         - 'w.selverstone-kennedy-withdrawal 58: C-D'
         - 'via w.selverstone-kennedy-withdrawal 58 n.31: C-D'
+  - id: cal.1962-02-21.cuba
+    when: Feb. 21
+    date: '1962-02-21'
+    thread: cuba
+    also: [soviet-union]
+    c: 'Semichastny, the new chairman of the KGB, to Gromyko and Malinovsky: "military specialists of the USA had revised an operational plan against Cuba, which, according to this information, is supported by President Kennedy"; the land forces to "be supported by military air assets based in Florida and Texas."'
+    n: '[[w.fursenko-one-hell-of-a]], 150. To check: Semichastny to Gromyko and Malinovsky, Feb. 21, 1962, SVR (cited by [[w.fursenko-one-hell-of-a]], 150 n.9). See [[cal.1962-02-22.cuba]]. Names: Gromyko, Malinovsky, Kennedy.'
+    src:
+      c: 4d09acac
+      rows:
+        - 'w.fursenko-one-hell-of-a 150: all'
+        - 'via w.fursenko-one-hell-of-a 150 n.9: all'
+    tags: [name:gromyko-andrei, name:malinovsky-rodion-yakovlevich, name:kennedy-john-f]
   - id: cal.1962-02-22.robert-kennedy-trip
     when: Feb. 22–24
     date: '1962-02-22'
@@ -922,6 +959,19 @@ entries:
         - 'w.shesol-mutual-contempt 78: all'
         - 'via w.shesol-mutual-contempt 78 n.time-reported: all'
     tags: [name:kennedy-john-f, name:johnson-lyndon-b]
+  - id: cal.1962-02-23.transition-and-staff
+    when: Feb. 23
+    date: '1962-02-23'
+    thread: transition-and-staff
+    also: [crime-and-hijacking]
+    c: 'Evans to Belmont: Judith Campbell''s calls to Evelyn Lincoln, traced from Rosselli''s.'
+    n: '[[w.thomas-robert-kennedy]], 166. To check: Evans to Belmont, Feb. 23, 1962, House Assassinations Committee Records, National Archives (cited by [[w.thomas-robert-kennedy]], 166 n.). Names: Evans, Campbell, Lincoln, Rosselli.'
+    src:
+      c: aee8c7d3
+      rows:
+        - 'w.thomas-robert-kennedy 166: all'
+        - 'via x.1962-02-23.eb223-thomas: all'
+    tags: [name:evans-courtney-a, name:campbell-judith, name:lincoln-evelyn, name:rosselli-john]
   - id: cal.1962-02-24.robert-kennedy
     when: Feb. 24
     date: '1962-02-24'
@@ -960,6 +1010,19 @@ entries:
       rows:
         - 'w.branch-parting-the-waters 572: all'
     tags: [name:shuttlesworth-fred, state:al, city:birmingham]
+  - id: cal.1962-02-26.transition-and-staff
+    when: Feb. 26
+    date: '1962-02-26'
+    thread: transition-and-staff
+    also: [crime-and-hijacking]
+    c: 'Evans to Belmont: Campbell, interviewed by the FBI early in the month, reveals an "association" with Giancana.'
+    n: '[[w.thomas-robert-kennedy]], 166. To check: Evans to Belmont, Feb. 26, 1962, House Assassinations Committee Records, National Archives (cited by [[w.thomas-robert-kennedy]], 166 n.). Names: Evans, Campbell, Giancana.'
+    src:
+      c: 44a5b513
+      rows:
+        - 'w.thomas-robert-kennedy 166: all'
+        - 'via x.1962-02-26.eb226-thomas: all'
+    tags: [name:evans-courtney-a, name:campbell-judith, name:giancana-sam]
   - id: cal.1962-02-27.vietnam
     when: Feb. 27
     date: '1962-02-27'
@@ -996,7 +1059,7 @@ entries:
     thread: transition-and-staff
     also: [crime-and-hijacking, robert-kennedy]
     c: 'Hoover to Robert Kennedy and O''Donnell, the same memorandum: the FBI''s investigation of Rosselli shows him in touch with Judith Campbell, a friend of the President; she keeps up an association with Giancana, "a prominent Chicago underworld figure"; the toll calls from her residence include calls to the White House. Evelyn Lincoln, given a copy, believed she would have shown it to the President.'
-    n: '[S. Rep. No. 94-465, 129 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=140) (K–J Adm. II.H.3): the friend unnamed; the White House telephone logs, 70 contacts with her, from the end of 1960 to mid-1962. [[w.schlesinger-robert-kennedy-and-his]], 494–95 (Hoover''s memorandum, the Giancana tie); [[w.branch-parting-the-waters]], 566–68 (the memorandum''s matter; the copy to O''Donnell, 568). Check: Branch, 566–67, gives the investigation as one of the Las Vegas wiretap on Phyllis McGuire, Maheu''s and Giancana''s, and the memorandum as counting some seventy calls by Campbell to the White House; Rosselli unnamed. To check: [[w.gage-g-man]]. See [[cal.1961-05-22.robert-kennedy]]. Made public: the Church Committee''s interim report, Nov. 20, 1975, without her name; her name in the press, Dec. 1975. Check the date. Names: Hoover, Campbell, Giancana, Robert Kennedy, O''Donnell, Lincoln, Rosselli.'
+    n: '[S. Rep. No. 94-465, 129 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=140) (K–J Adm. II.H.3): the friend unnamed; the White House telephone logs, 70 contacts with her, from the end of 1960 to mid-1962. [[w.schlesinger-robert-kennedy-and-his]], 494–95 (Hoover''s memorandum, the Giancana tie); [[w.branch-parting-the-waters]], 566–68 (the memorandum''s matter; the copy to O''Donnell, 568); [[w.thomas-robert-kennedy]], 166–67 (Hoover''s two memoranda of Feb. 27, to O''Donnell and to Robert Kennedy). Check: Branch, 566–67, gives the investigation as one of the Las Vegas wiretap on Phyllis McGuire, Maheu''s and Giancana''s, and the memorandum as counting some seventy calls by Campbell to the White House; Rosselli unnamed. To check: [[w.gage-g-man]]. See [[cal.1961-05-22.robert-kennedy]]. Made public: the Church Committee''s interim report, Nov. 20, 1975, without her name; her name in the press, Dec. 1975. Check the date. Names: Hoover, Campbell, Giancana, Robert Kennedy, O''Donnell, Lincoln, Rosselli.'
     src:
       c: 9988d14a
       rows:
@@ -1005,6 +1068,7 @@ entries:
         - 'via w.schlesinger-robert-kennedy-and-his 494 n.96: A'
         - 'via w.schlesinger-robert-kennedy-and-his 495 n.97: A-B'
         - 'w.branch-parting-the-waters 566–68: A-C'
+        - 'w.thomas-robert-kennedy 166–67: A-C'
     tags: [name:hoover-j-edgar, name:kennedy-robert-f, name:odonnell-kenneth-p, name:lincoln-evelyn, name:campbell-judith, name:giancana-sam, name:rosselli-john]
   - id: cal.1962-02.states-and-cities-ny
     when: Feb.
@@ -1041,12 +1105,13 @@ entries:
     thread: elections-1964
     also: [republican-party]
     c: 'Lincoln Day, the party''s dinners joined by closed-circuit television. Rockefeller, from Des Moines, on Kennedy''s proposed Department of Urban Affairs: it "might well be used ... as a subterfuge to bypass the Constitutional sovereignty of the states. ... What is this but political fakery?" Conservatives at the Mayflower in Washington boo, then stop.'
-    n: '[[w.perlstein-before-the-storm]], 161; [[w.novak-agony-of-the-g]], 66 (the night of Feb. 2, 1962; dinners in seventeen cities, some three hundred thousand tickets; Rockefeller from Des Moines). Check: the date. Check: Novak, 66, gives Feb. 2, 1962. Names: Rockefeller, Kennedy.'
+    n: '[[w.perlstein-before-the-storm]], 161; [[w.novak-agony-of-the-g]], 66 (the night of Feb. 2, 1962; dinners in seventeen cities, some three hundred thousand tickets; Rockefeller from Des Moines); [[w.novak-agony-of-the-g]], 67–70 (the booing at the Mayflower, then laughter, the cheers for Goldwater the loudest; Rockefeller''s words on the Urban Affairs plan and Weaver, "What is this but political fakery?"; some three thousand at Des Moines''s biggest movie theater; his news conference on the farm program; Nagle and Erbe). Check: the date. Check: Novak, 66, gives Feb. 2, 1962. Names: Rockefeller, Kennedy.'
     src:
       c: bb40b14b
       rows:
         - 'w.perlstein-before-the-storm 161: all'
         - 'w.novak-agony-of-the-g 66: A'
+        - 'w.novak-agony-of-the-g 67–70: B-C'
     tags: [name:rockefeller-nelson, name:kennedy-john-f]
   - id: cal.1962-02.conservative-movement
     when: Feb.
@@ -1156,6 +1221,19 @@ entries:
         - 'w.goldberg-barry-goldwater 159–60: all'
         - 'via w.goldberg-barry-goldwater 160 n.61: all'
     tags: [name:goldwater-barry-m, name:welch-robert]
+  - id: cal.1962-02-27.republican-party
+    when: Feb. 27
+    date: '1962-02-27'
+    thread: republican-party
+    also: [elections-1964]
+    c: 'Morhouse, New York''s Republican chairman, to Rockefeller, a confidential memorandum, "Big City Politics," copies to Hinman and Harry O''Donnell: the Bliss committee kept from issues. The national party to be dominated by the big-city States; a candidate the cities can agree with; someone "must break with the existing party structure."'
+    n: '[[w.novak-agony-of-the-g]], 57–58 (his subcommittee''s report on polls, television and public relations cut by two-thirds; the Republicans in Congress blamed for opposing a Department of Urban Affairs). See [[cal.1962-01.republican-party]]. Names: Morhouse, Rockefeller, Hinman.'
+    src:
+      c: 77d7c603
+      rows:
+        - 'w.novak-agony-of-the-g 57–58: all'
+        - 'via x.1962-02-27.morhouse-to-rockefeller-big-city-politics: B-D'
+    tags: [name:morhouse-l-judson, name:rockefeller-nelson, name:hinman-george-l]
   - id: cal.1962-02-28.jobs-and-wages
     when: Feb. 28
     date: '1962-02-28'
@@ -1224,3 +1302,15 @@ entries:
       rows:
         - 'w.branch-parting-the-waters 580–81: all'
     tags: [name:rockefeller-nelson, name:king-martin-luther-jr]
+  - id: cal.1962-02.cuba
+    when: Feb.
+    date: 1962-02
+    thread: cuba
+    also: [defense]
+    c: '"Possible Actions to Provoke, Harass, or Disrupt Cuba": among them Operation Bingo, a simulated firefight at Guantánamo to justify an invasion.'
+    n: '[[w.thomas-robert-kennedy]], 205. To check: "Possible Actions to Provoke, Harass, or Disrupt Cuba," February 1962, Califano Papers, Assassination Records Review Board, National Archives (cited by [[w.thomas-robert-kennedy]], 205 n.). See [[cal.1962-03-13.cuba]]. Check: the day.'
+    src:
+      c: ad49483f
+      rows:
+        - 'w.thomas-robert-kennedy 205: all'
+        - 'via x.1962-02.possible-actions-to-provoke-harass-disrupt-cuba: all'

@@ -44,7 +44,12 @@ entries:
     date: '1961-08-01'
     thread: berlin-and-vienna
     c: Congress authorizes the call-up of up to 250,000 reservists for a year, [75 Stat. 242](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg242-3.pdf).
-    n: CQ Almanac 1961. See [[cal.1961-07-25.berlin-and-vienna]].
+    n: CQ Almanac 1961. [[w.sorensen-kennedy]], 627; [[w.sorensen-kennedy]], 627 (up to 250,000; some 158,000 called up; 300,000 more men before winter; 40,000 to Europe). See [[cal.1961-07-25.berlin-and-vienna]].
+    src:
+      c: 5c162bec
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg242-3.pdf: A'
+        - 'w.sorensen-kennedy 627: A'
   - id: cal.1961-08-01.jobs-and-wages-mo
     when: Aug. 1
     date: '1961-08-01'
@@ -393,12 +398,13 @@ entries:
     thread: soviet-union
     also: [berlin-and-vienna]
     c: 'Khrushchev, at the Moscow reception for Titov: "If Adenauer thinks he can achieve reunification of the German nation by war and we are attacked, there will be no German nation left." Aug. 10, to all of Europe: "The laws of war are cruel. Hundreds of millions of people will die," the NATO bases struck wherever they are, "even if they are in the orange groves."'
-    n: '[[w.reeves-president-kennedy]], 206. To check: [[w.slusser-berlin-crisis-of-1961]], 124 (cited by [[w.reeves-president-kennedy]], 206); Slusser, *The Berlin Crisis of 1961*, 124 (cited by [[w.reeves-president-kennedy]], 206). Names: Khrushchev, Titov, Adenauer.'
+    n: '[[w.reeves-president-kennedy]], 206; [[w.sorensen-kennedy]], 593 (the orange groves, the olive orchards and the Acropolis, "that summer"). To check: [[w.slusser-berlin-crisis-of-1961]], 124 (cited by [[w.reeves-president-kennedy]], 206); Slusser, *The Berlin Crisis of 1961*, 124 (cited by [[w.reeves-president-kennedy]], 206). Names: Khrushchev, Titov, Adenauer.'
     src:
       c: 298027ba
       rows:
         - 'w.reeves-president-kennedy 206: all'
         - 'via w.reeves-president-kennedy 206 n.the-laws-of-war-are-cruel: B'
+        - 'w.sorensen-kennedy 593: B'
     tags: [name:khrushchev-nikita-s, name:titov-gherman, name:adenauer-konrad]
   - id: cal.1961-08-09.goldwater
     when: Aug. 9
@@ -617,12 +623,24 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v14/d117: all'
         - 'w.reeves-president-kennedy 213: all'
     tags: [name:brandt-willy, name:kennedy-john-f]
+  - id: cal.1961-08-16.latin-america
+    when: Aug. 16
+    date: '1961-08-16'
+    thread: latin-america
+    also: [cuba]
+    c: Punta del Este. Guevara, to the Inter-American Economic and Social Council, tells of the foiled attempt to kill Castro on July 26.
+    n: '[[w.fursenko-one-hell-of-a]], 142. See [[cal.1961-07-19.cuba]]. Names: Guevara, Castro.'
+    src:
+      c: 0e558b07
+      rows:
+        - 'w.fursenko-one-hell-of-a 142: all'
+    tags: [name:guevara-ernesto, name:castro-fidel]
   - id: cal.1961-08-17.latin-america
     when: Aug. 17
     date: '1961-08-17'
     thread: latin-america
     c: The Charter of Punta del Este signed. Goodwin and Guevara talk that night.
-    n: '[FRUS vol. 12](https://history.state.gov/historicaldocuments/frus1961-63v12). Goodwin to Kennedy, Aug. 22, [FRUS 1961–63, X, doc. 257](https://history.state.gov/historicaldocuments/frus1961-63v10/d257) (the talk). [[w.schlesinger-robert-kennedy-and-his]], 542 (the talk). See [[cal.1961-08-05.latin-america]]. Names: Goodwin, Guevara.'
+    n: '[FRUS vol. 12](https://history.state.gov/historicaldocuments/frus1961-63v12). Goodwin to Kennedy, Aug. 22, [FRUS 1961–63, X, doc. 257](https://history.state.gov/historicaldocuments/frus1961-63v10/d257) (the talk). [[w.schlesinger-robert-kennedy-and-his]], 542 (the talk); [[w.fursenko-one-hell-of-a]], 142 (the talk). Check: Fursenko and Naftali put the Argentines'' cornering of Goodwin at a birthday party for a Brazilian delegate on Aug. 16 ([[w.fursenko-one-hell-of-a]], 142, citing Goodwin''s memorandum of Aug. 22). See [[cal.1961-08-05.latin-america]]. Names: Goodwin, Guevara.'
     src:
       c: 29c56ac2
       rows:
@@ -630,6 +648,7 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d257: all'
         - 'w.schlesinger-robert-kennedy-and-his 542: B'
         - 'via w.schlesinger-robert-kennedy-and-his 542 n.*: B'
+        - 'w.fursenko-one-hell-of-a 142: B'
     tags: [name:goodwin-richard-n, name:guevara-ernesto]
   - id: cal.1961-08-18.welfare-ny
     when: Aug. 17
@@ -697,7 +716,7 @@ entries:
     date: '1961-08-19'
     thread: berlin-and-vienna
     c: Johnson and Clay in Berlin. A battle group of the 18th Infantry drives up the autobahn and is received by Johnson.
-    n: '[FRUS 1961–63, XIV, doc. 120](https://history.state.gov/historicaldocuments/frus1961-63v14/d120); [doc. 121](https://history.state.gov/historicaldocuments/frus1961-63v14/d121). Remarks Following the Vice President''s Report on the Berlin Situation, [1961 Pub. Papers 566](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=624) (Aug. 21, 1961). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 159 (the battle group); [[w.fursenko-khrushchevs-cold-war]], 384 (Johnson and Clay; the convoy of 1,600); [[w.bernstein-guns-or-butter]], 10 (Johnson''s speech to a crowd of at least 380,000). [[w.reeves-president-kennedy]], 214–18. [[w.rusk-as-i-saw-it-1990]], 224. Check: Kaplan gives the battle group dispatched, and at the checkpoint, Aug. 20 (159). [[w.caro-passage-of-power]], 190 (Johnson in Berlin). Check: Bernstein, 10, puts it in the fall of 1961 and names the 1st Battle Group of the 8th Infantry. To check: [[w.kempe-berlin-1961]]; [[w.smith-lucius-d-clay]]; Kennedy to Johnson, Aug. 18, 1961, National Security Files, box 82, Kennedy Library (cited by [[w.reeves-president-kennedy]], 215); Lightner to Rusk, Aug. 20, 1961, National Security Files, box 1, Johnson Library (cited by [[w.reeves-president-kennedy]], 217). Names: Johnson, Clay.'
+    n: '[FRUS 1961–63, XIV, doc. 120](https://history.state.gov/historicaldocuments/frus1961-63v14/d120); [doc. 121](https://history.state.gov/historicaldocuments/frus1961-63v14/d121). Remarks Following the Vice President''s Report on the Berlin Situation, [1961 Pub. Papers 566](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=624) (Aug. 21, 1961). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 159 (the battle group); [[w.fursenko-khrushchevs-cold-war]], 384 (Johnson and Clay; the convoy of 1,600); [[w.bernstein-guns-or-butter]], 10 (Johnson''s speech to a crowd of at least 380,000); [[w.sorensen-kennedy]], 594; [[w.sorensen-kennedy]], 594 (fifteen hundred troops in armored trucks, the first sixty trucks; Johnson''s address). [[w.reeves-president-kennedy]], 214–18. [[w.rusk-as-i-saw-it-1990]], 224. Check: Kaplan gives the battle group dispatched, and at the checkpoint, Aug. 20 (159). [[w.caro-passage-of-power]], 190 (Johnson in Berlin). Check: Bernstein, 10, puts it in the fall of 1961 and names the 1st Battle Group of the 8th Infantry. To check: [[w.kempe-berlin-1961]]; [[w.smith-lucius-d-clay]]; Kennedy to Johnson, Aug. 18, 1961, National Security Files, box 82, Kennedy Library (cited by [[w.reeves-president-kennedy]], 215); Lightner to Rusk, Aug. 20, 1961, National Security Files, box 1, Johnson Library (cited by [[w.reeves-president-kennedy]], 217). Names: Johnson, Clay.'
     src:
       c: 498a720b
       rows:
@@ -712,6 +731,7 @@ entries:
         - 'via x.1984.rusk-interviews-with-richard-rusk: A-B'
         - 'w.fursenko-khrushchevs-cold-war 384: all'
         - 'w.bernstein-guns-or-butter 10: A'
+        - 'w.sorensen-kennedy 594: A, B'
     tags: [name:johnson-lyndon-b, name:clay-lucius-d]
   - id: cal.1961-08-20.opinion
     when: Aug. 20
@@ -786,11 +806,12 @@ entries:
     date: '1961-08-22'
     thread: berlin-and-vienna
     c: East Germany announces a hundred-meter no-man's-land on both sides of the wall, West Berliners warned they may be shot; Aug. 23, the crossings for the West cut from seven to one, at Friedrichstrasse, Checkpoint Charlie.
-    n: '[[w.fursenko-khrushchevs-cold-war]], 385. See [[cal.1961-08-13.berlin-and-vienna]].'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 385; [[w.sorensen-kennedy]], 595 (the hundred meters; the American tests of the warnings successful). See [[cal.1961-08-13.berlin-and-vienna]].'
     src:
       c: ef404aba
       rows:
         - 'w.fursenko-khrushchevs-cold-war 385: all'
+        - 'w.sorensen-kennedy 595: A'
   - id: cal.1961-08-22.berlin-and-vienna-2
     when: Aug. 22
     date: '1961-08-22'
@@ -803,6 +824,19 @@ entries:
         - 'w.bird-color-of-truth 212–13: all'
         - 'via w.bird-color-of-truth 212 n.106: all'
     tags: [name:kaysen-carl, name:bundy-mcgeorge]
+  - id: cal.1961-08-22.intelligence
+    when: Aug. 22
+    date: '1961-08-22'
+    thread: intelligence
+    also: [robert-kennedy]
+    c: Robert Kennedy's memorandum for the record on psychological warfare and information activities.
+    n: '[[w.thomas-robert-kennedy]], 141 n.. To check: Memorandum for the Record Re Psychological Warfare and Information Activities, Aug. 22, 1961, RFK Confidential File, JFK Library (cited by [[w.thomas-robert-kennedy]], 141 n.). Names: Robert Kennedy. Check: its contents; Thomas cites it for Robert Kennedy''s demands on the CIA.'
+    src:
+      c: 6161179d
+      rows:
+        - 'w.thomas-robert-kennedy 141 n.: all'
+        - 'via x.1961-08-22.memorandum-for-the-record-psychological-warfare: all'
+    tags: [name:kennedy-robert-f]
   - id: cal.1961-08-23.opinion
     when: Aug. 23
     date: '1961-08-23'
@@ -1022,7 +1056,7 @@ entries:
     date: '1961-08-30'
     thread: berlin-and-vienna
     c: Clay named the President's personal representative in Berlin. The Soviet Union announces it will resume nuclear testing.
-    n: 'News Conference, [1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630) (Aug. 30, 1961). White House Statement on Soviet Resumption of Nuclear Weapons Tests, [1961 Pub. Papers 580](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=638). [FRUS 1961–63, VII, doc. 58](https://history.state.gov/historicaldocuments/frus1961-63v07/d58). The first test: [[cal.1961-09-01.testing]]. [[w.reeves-president-kennedy]], 223; [[w.shesol-mutual-contempt]], 74 (Clay''s condition: never to work with Robert Kennedy); [[w.fursenko-khrushchevs-cold-war]], 385 (the end of the moratorium announced; the tests at Semipalatinsk two days later). See [[cal.1961-08-19.berlin-and-vienna]]. Names: Clay.'
+    n: 'News Conference, [1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630) (Aug. 30, 1961). White House Statement on Soviet Resumption of Nuclear Weapons Tests, [1961 Pub. Papers 580](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=638). [FRUS 1961–63, VII, doc. 58](https://history.state.gov/historicaldocuments/frus1961-63v07/d58). The first test: [[cal.1961-09-01.testing]]. [[w.reeves-president-kennedy]], 223; [[w.shesol-mutual-contempt]], 74 (Clay''s condition: never to work with Robert Kennedy); [[w.fursenko-khrushchevs-cold-war]], 385 (the end of the moratorium announced; the tests at Semipalatinsk two days later); [[w.sorensen-kennedy]], 594–95 (Clay''s return as the President''s emissary). See [[cal.1961-08-19.berlin-and-vienna]]. Names: Clay.'
     src:
       c: 8008019c
       rows:
@@ -1033,6 +1067,7 @@ entries:
         - 'via w.reeves-president-kennedy 223 n.the-bastards: B'
         - 'w.shesol-mutual-contempt 74: A'
         - 'w.fursenko-khrushchevs-cold-war 385: B'
+        - 'w.sorensen-kennedy 594–95: A'
     tags: [name:kennedy-john-f, name:clay-lucius-d]
   - id: cal.1961-08-30.testing
     when: Aug. 30
@@ -1059,6 +1094,19 @@ entries:
         - 'https://voteview.com/rollcall/RS0870163: A'
         - 'w.sundquist-politics-and-policy 256 n.114: all'
     tags: [name:javits-jacob-k, name:mansfield-mike]
+  - id: cal.1961-08-30.cuba-bay-of-pigs
+    when: Aug. 30
+    date: '1961-08-30'
+    thread: cuba-bay-of-pigs
+    also: [press-and-broadcasting]
+    c: 'News conference. Asked of *Time*''s version of the invasion, out that day, that Rusk canceled the air support for the landing and the President backed him: no comment; "the most inaccurate of all the articles that have appeared on Cuba."'
+    n: 'The President''s News Conference, [1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630) (Aug. 30, 1961), at 580. [[w.sorensen-kennedy]], 316 (the answer; the article *Time*''s, or *Fortune*''s, from which it was condensed). See [[cal.1961-04-17.cuba]]. Names: Rusk, Kennedy.'
+    src:
+      c: 4f55f686
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630: all'
+        - 'w.sorensen-kennedy 316: B'
+    tags: [name:kennedy-john-f, name:rusk-dean]
   - id: cal.1961-08-31.rules
     when: Aug. 31
     date: '1961-08-31'
@@ -1279,3 +1327,26 @@ entries:
         - 'via x.1961-08-28.arkansas-gazette-faubus: A'
         - 'via x.1961-09-10.valachovic-faubus-weekly: B'
     tags: [name:faubus-orval-e, name:fulbright-j-william, state:ar]
+  - id: cal.1961-08.testing-3
+    when: Aug., late
+    date: 1961-08
+    thread: testing
+    c: 'After the Soviet announcement of Aug. 30. Murrow to Kennedy: no precipitate action, to keep the chance of isolating the Communist bloc; the voices on the right "who today urge you to resume testing immediately will tomorrow contend that the decision to do so was merely another belated reaction to Soviet action."'
+    n: '[[w.sorensen-kennedy]], 619 (one of the most thoughtful pieces of advice, in the President''s view). Check: the day; a memorandum or in a meeting. See [[cal.1961-08-30.testing]]. Names: Murrow, Kennedy.'
+    src:
+      c: 7989f177
+      rows:
+        - 'w.sorensen-kennedy 619: all'
+        - 'via x.1961-08.murrow-to-kennedy-advice-on-testing: B'
+    tags: [name:kennedy-john-f, name:murrow-edward-r]
+  - id: cal.1961-08.crime-and-hijacking-maheu
+    when: Aug.
+    date: 1961-08
+    thread: crime-and-hijacking-maheu
+    c: 'The United States attorney in Las Vegas tells the Justice Department he is unlikely to bring the wiretap case against Maheu and the investigator: legally weak, and not worth compromising the CIA.'
+    n: '[[w.thomas-robert-kennedy]], 156. Names: Maheu. Check: the day.'
+    src:
+      c: c6c280e1
+      rows:
+        - 'w.thomas-robert-kennedy 156: all'
+    tags: [name:maheu-robert-a]
