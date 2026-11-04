@@ -10,7 +10,7 @@ Pages 1–41 and 85–155 were read in full, page by page, with their notes; pp.
 
 ## The cites before the reading
 
-Fifteen entries carried Kotz behind "To check:". Pinned in this patch: `cal.1964-07-02.civil-rights-bill` (153–54), `cal.1964-08-22.mississippi` (203), `cal.1965-01-02.voting-rights` (254), `cal.1965-03-13.voting-rights` (304), `cal.1968-01-24.open-housing` (389), `cal.1968-02-06.open-housing` (390), `cal.1968-04-10.open-housing` (420). Not reached, still behind "To check:": `cal.1963-05-30.civil-rights-the-executive`, `cal.1963-06-11.civil-rights-bill`, `cal.1964-12-10.voting-rights`, `cal.1965-03-07.voting-rights`, `cal.1965-06-04.civil-rights-the-executive`, `cal.1966-04-28.open-housing`, `cal.1968-04-04.king`, `cal.1968-04-08.open-housing`.
+Fifteen entries carried Kotz behind "To check:". Pinned in this patch: `cal.1964-07-02.civil-rights-bill` (153–54), `cal.1964-08-22.mississippi` (203), `cal.1965-01-02.voting-rights` (254), `cal.1965-03-13.voting-rights` (304), `cal.1968-01-24.open-housing` (389), `cal.1968-02-06.open-housing` (390), `cal.1968-04-10.open-housing` (420). Not reached in that run, and pinned in the third (`b3-kotz-3`, below): `cal.1963-05-30.civil-rights-the-executive` (60–61), `cal.1963-06-11.civil-rights-bill` (62), `cal.1964-12-10.voting-rights` (243), `cal.1965-03-07.voting-rights` (281–85), `cal.1965-06-04.civil-rights-the-executive` (333–35), `cal.1966-04-28.open-housing` (367–68), `cal.1968-04-04.king` (414–15), `cal.1968-04-08.open-housing` (418–19).
 
 ## Rulings other than "holds"
 
@@ -108,7 +108,7 @@ date | outlet | broadcast, front page or cover | the items | page
 
 ## What remains unread
 
-Pages 42–84 and 187–434 were read by their dated passages only, not page by page: chapters 8 to 14 (Atlantic City and the campaign; Hoover and King, 1964–65; Selma; the Voting Rights Act; Watts and Vietnam; Chicago and the Riverside speech; 1968) are to be read in full, their dated events held against the calendar, their cites pinned and their witnesses registered. Of the fifteen cites before the reading, eight are not reached (above). The notes of chapters 9–14 were not registered as witnesses beyond the passages cited.
+(As the second run left it; the third run's reading and what it leaves are under "The third run", below.) Pages 42–84 and 187–434 were read by their dated passages only, not page by page: chapters 8 to 14 (Atlantic City and the campaign; Hoover and King, 1964–65; Selma; the Voting Rights Act; Watts and Vietnam; Chicago and the Riverside speech; 1968) are to be read in full, their dated events held against the calendar, their cites pinned and their witnesses registered. Of the fifteen cites before the reading, eight are not reached (above). The notes of chapters 9–14 were not registered as witnesses beyond the passages cited.
 
 ## Leads
 
@@ -119,3 +119,114 @@ National:
 - Steve Horn's log of the Senate's bill, 1964 (Manuscript Division, Library of Congress): many days of April–June 1964 (Kotz, 131–50).
 - Kotz's interviews (more than 150 persons, on the record; his interview list, 475–479): not deposited, so far as the book says.
 - Belfrage, *Freedom Summer* (1965), and Colburn, *Racial Change and Community Crisis* (1985), cited by Kotz: no cards.
+
+## The third run (b3-kotz-3), Nov. 4, 2026
+
+The same copy, fetched again through Drive's download address (sharing unchanged), the same offsets (pp. 189, 213, 267, 278, 333, 414 checked against the folios in the text layer); the PDF, the page texts and the scratch files deleted at the end. The patch: `inbox/2026-11-04-b3-kotz-3.yaml` (patch `b3-kotz-3`): 46 new entries, each claimed in the ledger first; 85 cites (`cite`, with units) to entries in the tree or claimed by other readers (Branch's `b3-branch-pof-*`, Zelizer's), 21 Checks, 9 `src` ops, one `edit` (162 ops in all) (`cal.1964-11-28.vietnam`, base 77a80fda: the news conference's answer on Hoover and King added to `c`, 1963–64 Pub. Papers 1617, `also: civil-rights-the-executive`; one event, one entry). Witnesses: `inbox/witnesses/2026-11-04-b3-kotz-3.yaml`, 71 rows (the tapes the notes give, by the Miller Center's catalogue; the FBI's papers; Russell's notes; Lady Bird Johnson's diary; the press items; Kotz's interviews; the Church committee's Book III), and at its foot, as comments for the merger (the by-work file is the merger's while it works), 199 edges of `w.kotz-judgment-days`, page and note to witness or card. A tape the series' recordings catalogue holds at another hour than Kotz's note is entered at the catalogue's, with a Check (Daley, Aug. 17, 1964: 9:36 a.m., the note 9:26; McCormack, July 14, 1964, the note July 13).
+
+How it was read: chapter 8 (pp. 189–228), chapter 9 (229–249) and chapter 10 (250–277) in full, page by page, with their notes (460–465); chapter 11 in full to p. 286, by its dated passages (every sentence with a date, a weekday, an hour, or a word of call, letter, memorandum, meeting, speech, vote or signing) for pp. 287–300, with its notes 1–23; pp. 60–62, 333–35, 356, 361, 367–68 and 414–19 for the old cites and their neighbors, with their notes. Each dated event was held against its day in the tree and the ledger (`./bib ledger find`); where another reader holds it, Kotz's page went to that entry by `cite` (units read against its `c`); where nothing holds it, a new entry.
+
+### New entries
+
+`cal.1964-07-14.democratic-party`, `cal.1964-07-28.democratic-party`, `cal.1964-08-01.king`, `cal.1964-08-06.democratic-party`, `cal.1964-08-09.elections-1964-2`, `cal.1964-08-13.king`, `cal.1964-08-14.king`, `cal.1964-08-14.elections-1964-3`, `cal.1964-08-14.elections-1964-4`, `cal.1964-08-17.elections-1964-2`, `cal.1964-08-17.elections-1964-3`, `cal.1964-08-20.elections-1964-3`, `cal.1964-08-20.elections-1964-4`, `cal.1964-08-20.king`, `cal.1964-08-21.elections-1964-3`, `cal.1964-08-23.elections-1964-3`, `cal.1964-08-24.king`, `cal.1964-08-24.elections-1964-8`, `cal.1964-08-24.elections-1964-9`, `cal.1964-08-25.elections-1964-8`, `cal.1964-08-25.democratic-party`, `cal.1964-08-25.mississippi-4`, `cal.1964-08-25.king`, `cal.1964-08-31.civil-rights-the-executive`, `cal.1964-10-20.king`, `cal.1964-11-03.mississippi`, `cal.1964-11-11.king`, `cal.1964-11-19.king-3`, `cal.1964-11-20.civil-rights-the-executive-2`, `cal.1964-11-21.civil-rights-the-executive`, `cal.1964-11-25.civil-rights-organizations`, `cal.1964-12-01.civil-rights-the-executive-3`, `cal.1964-12-01.press-and-broadcasting`, `cal.1964-12-03.civil-rights-the-executive`, `cal.1964-12-07.civil-rights-the-executive`, `cal.1964-12-10.king-2`, `cal.1964-12-14.civil-rights-the-executive`, `cal.1964-12-20.civil-rights-the-executive`, `cal.1965-01-06.king`, `cal.1965-01.press-and-broadcasting`, `cal.1965-01-28.king`, `cal.1965-02-03.civil-rights-the-executive`, `cal.1965-02-05.voting-rights`, `cal.1965-02-07.civil-rights-the-executive`, `cal.1965-03-01.school-aid-2`, `cal.1965-03-07.vietnam`.
+
+### Rulings other than "holds" (third run)
+
+| Entry | The calendar | Kotz | Ruling |
+|---|---|---|---|
+| `cal.1964-08-23.elections-1964-2` (pending, Branch) | Jenkins, 3:58 p.m., Aug. 23 | "Sunday evening"; the note Aug. 24, 3:58 p.m. (208 n.51) | Check |
+| `cal.1964-08-25.elections-1964-6` (pending) | Sanders: "turning the Democratic party over to the nigras" | "the niggers took over the damn convention" (218) | Check |
+| `cal.1964-08-25.mississippi-3` (pending) | nearly two dozen; "You're a patriot" | more than thirty; "You saved your state" (219) | Check |
+| `cal.1964-08-26.mississippi` (pending) | Aug. 26 | "Saturday morning" (220) | Check |
+| `cal.1964-08-26.elections-1964-3` (pending) | Aug. 26, 10 to 11:20 a.m. | the morning after the convention (222) | Check |
+| `cal.1964-08-22.mississippi-2` (pending) | Vera Canson | Verna Canson (207, 210, 217) | Check |
+| `cal.1964-10-06.elections-1964` | "Negro, Negro, Negro!" (the Papers) | "Nigger, Nigger, Nigger" (224) | Check (the Papers' text stands) |
+| `cal.1964-10-14.elections-1964` | the *Star* learns Oct. 13 | the papers report it Oct. 12 (225) | Check |
+| `cal.1964-10-30.elections-1964` | the quip at Baltimore | the quip from the *Times*, Oct. 14 (227 n.91) | Check |
+| `cal.1964-11-28.king` | Johnson "seemed to take it very seriously" | "Terrible, terrible ... I've never heard of it"; "a sinking feeling" (240) | Check |
+| `cal.1965-01-22.voting-rights` | some hundred teachers | 110 (262) | Check |
+| `cal.1965-01-27.king` | 1,463 tickets | 1,500, sold out (263 n.) | Check |
+| `cal.1965-02-03.king` (pending) | Feb. 3 | the list Feb. 2 (264) | Check |
+| `cal.1965-02-05.voting-rights-selma-2` | King leaves jail to meet the members | they visit him in his cell (268) | Check |
+| `cal.1965-02-10.voting-rights-selma` (pending) | 161 students | 165 (274) | Check |
+| `cal.1965-02-18.voting-rights` | some 500 | four hundred (275) | Check |
+| `cal.1965-03-05.voting-rights` | seventy-five minutes | 6:22 p.m., ninety minutes (279–80) | Check |
+| `cal.1965-03-07.voting-rights` | 75 to 80 injured | more than ninety treated, forty-one admitted (285) | Check; pinned to A–C, E |
+| `cal.1965-03-08.voting-rights-selma` | 8:10 a.m. | 8:30 a.m.; the note 8:38 (287 n.20) | Check |
+| `cal.1965-03-09.voting-rights` | some 2,500 | fifteen hundred (295) | Check |
+| `cal.1968-04-08.open-housing` | Pickle's vote found | Sanders "now hoped for" it (419) | Check |
+| `cal.1964-12-10.voting-rights` | from Gunnar Jahn | the acceptance at Oslo, Jahn not named (243) | pinned in part |
+| `cal.1965-06-04.civil-rights-the-executive` | the conference in the fall; drafted by Goodwin from Moynihan | the conference only; the drafting not given (333–35) | pinned to A–E |
+
+Kotz's text puts the Johnson–DeLoach call of Nov. 20, 1964 (231) and the Johnson–Katzenbach call of Nov. 11 (231–32) after Hoover's Chicago speech of Nov. 24; the entries carry the tapes' days and a Check.
+
+### Passed over (third run)
+
+Page | date | event | why. Made from the same reading: each dated event the pages treat that took neither an entry nor a cite.
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 193 | 1964-08 | McKeithen meets Wallace, Paul Johnson and Faubus on the President's call | a lead: the day |
+| 195 | 1964-08 | The memorial to Kennedy moved to the convention's last night | a lead: the day of the decision |
+| 198 | 1964-08 | The polls, two to one; the "frontlash" | a lead: the polls' days (the Opinion thread) |
+| 206 | 1964-08-23 | Rauh's count of seventeen members and ten delegations; the boardwalk vigil and the burned station wagon | a lead: the vigil's days (Dittmer, 286) |
+| 211–12 | 1964-08-24 | Jenkins to work on Williams, Harriman and Hodges; "My name's Joe Glutz" (Aug. 25, 2:31 p.m.) | a lead: the calls (Miller Center, Aug. 24–25) |
+| 217 | 1964-08-24/25 | California's pressure on Verna Canson; Victorine Adams; the Canal Zone delegate; the Washington member's call to King; DeLoach's reports of the governors to be called | a lead: the days (Canson's diary; DeLoach's memoranda) |
+| 220 | 1964-08-25 | John Chancellor of NBC questions Moses on the compromise | a lead: the hour (the press list) |
+| 222 n. | 1964-08 | Moyers's note of thanks to DeLoach | a lead: the day (Stegall, interview) |
+| 222–23 | 1964-09 | The campaign in New England; "In Your Guts, You Know He's Nuts" | a lead: the days |
+| 223 | 1964-10-06/09 | The Lady Bird Special: Robertson's antelope hunt; the cross at Governor Russell's mansion; Columbia and Charleston | a lead: the days (Carpenter, 143–71) |
+| 225 | 1964-10-10 | Busby to Johnson; McGrory on the New Orleans speech | a lead (Busby to Johnson, Oct. 10, 1964, LBJ Library) |
+| 226 | 1964-10 | King at Antioch Baptist, Brooklyn, 2,500; at Savannah; Detroit | a lead: the days (*Evening Star*, Oct. 12; *The Worker*, Oct. 11, 1964) |
+| 227–28 | 1964-11-03 | The returns: 16 million, 61 percent, 96 percent of Negro voters; twelve Deep South Republicans | a lead: the election blocks carry the counts; the shares to cite |
+| 229 | 1964-10 | Hoover's note: King for the "top alley cat" prize | a lead: the day (*New York Herald Tribune*, Oct. 19, 1964) |
+| 230 | 1964-11-19 | King at Bimini: the FBI "following the path of appeasement" | a lead: the day (NYT, Nov. 20, 1964) |
+| 235 n. | 1964-12 | Moyers on the State Department's paying for King's trip; the USIA's plan dropped | a lead: the day |
+| 236 | undated | "inside the tent pissing out" | undated (Sidey, *Time*, Feb. 10, 1975) |
+| 236 | 1964 | Johnson to Burke Marshall: "Dealing with the FBI is like dealing with France" | a lead: the day (Marshall, interview) |
+| 237 | 1964 | The Appalachian shack, Kennedy's picture: "slapped in the face" | a lead: the day (Goodwin, 248) |
+| 237–38 | undated | Johnson and McPherson on Hoover's tapes | undated (McPherson, interview) |
+| 239 | 1964-11/12 | Kraslow of the *Los Angeles Times* and Harris of the *Augusta Chronicle* offered King material; DeLoach's offer to Bradlee | a lead: the days (*The Quill*, Feb. 1976) |
+| 241 | 1964-12-01 | Farmer with DeLoach in an FBI limousine | a lead: the day ("the next day" after the airport) |
+| 241 | 1964 | The FBI's approaches to Espy and Denny | a lead: the days |
+| 241 | 1964, late | Maguire's warnings to King | undated (Maguire, interview) |
+| 242 | 1964-12 | The Nobel money: $37,000 to SCLC, $17,000 to the Council for United Civil Rights Leadership | a lead: the day (Garrow, 357, 368) |
+| 243 | 1964-12 | London: King calls for an economic boycott of South Africa | a lead: the day and the pending London entries |
+| 248 | 1965-01 | Fire trucks sent to a King hideaway at Atlanta | undated |
+| 258 n. | 1964-10 | Smitherman sends Baker to ask Robert Kennedy and Marshall to keep King out of Selma | a lead: the day |
+| 260 | 1965-01 | Johnson to the liaison officers: "He uses up capital" | undated (Miller, 407–08) |
+| 260–61 | 1965-01 | The House's twenty-one-day rule; the messages of Jan. 7, 12, 13, 14, 17, 18; Johnson to Ford; Byrd before the cameras | the messages in the tree, not cited this run; Ford and Byrd a lead: the days (Milkis, 187) |
+| 263 n. | 1965-01 | Eugene Rostow to the White House on Selma | a lead: the day |
+| 267 n. | 1965-01-31, 02-04 | Katzenbach named Attorney General; Malcolm X at Selma | in the calendar or the Executive roster; not cited this run |
+| 270 | 1965-02-05/06 | Lewis to Clifford Alexander on Camp Selma; the fifteen members ask to see Johnson | a lead: the days |
+| 278 | 1965-03-05 | King with the Northern church leaders at Boston; the FBI's attempt to stop his invitation | a lead (Hoover to Watson, Mar. 5, 1965) |
+| 279 | 1965-02-24 | Johnson and Katzenbach, 9:28 a.m.: the Republicans' ultimatum | a lead: not entered this run (Miller Center) |
+| 287–300 | 1965-03-07/11 | The White House's Sunday statement; King's telegrams; Johnson's calls of Mar. 8 (Ellington, 8:29 a.m.; Hill; 11:25 p.m.); King to Louis Martin; the leaders' meeting at Montgomery; Doar; Collins; Humphrey with the church leaders, Mar. 9; Valenti's report, Mar. 11 | read by their dated passages; cited where the tree holds them; the rest with the pages still to read |
+
+### The press (third run)
+
+date | outlet | broadcast, front page or cover | the items | page
+- 1964-08-22 | the networks | evening, prime time | Hamer's testimony replayed after Johnson's press conference cut it off | 205
+- 1964-08-25 | NBC | convention coverage | John Chancellor questions Moses on the compromise | 220
+- 1964-08-25 | *New York Times* | front page | Tom Wicker, "Keynoter Is Fiery" (Pastore) | 212 n.59
+- 1964-10-12 | the papers | front pages | the Jenkins arrest | 225
+- 1964-11-19 | *Washington Post*, *New York Times*, *Evening Star* | front pages | Hoover on King, "the most notorious liar" | 229–30 nn.2, 4
+- 1964-12-01 | *Chicago Daily News* | — | McCartney offered King material outside Hoover's office, and declines (an entry) | 239
+- 1965-01-26 | *New York Times* | front page | Clark beating Annie Lee Cooper, a photograph | 263 n.
+- 1965-02-05 | *New York Times* | full-page advertisement | "Letter from the Selma Jail" | 268
+- 1965-03-07 | ABC | 9:30 p.m., a bulletin into *Judgment at Nuremberg* | fifteen minutes of the bridge | 285
+- 1965-03-08 | *New York Times* | front page | Roy Reed's account of the bridge | 284
+
+### Leads (third run)
+
+National:
+- The Miller Center's recordings of Aug. 1964 that Kotz's notes cite and the series has not heard: Wilkins (Aug. 15), Eastland (Aug. 17, 22, 23), Daley, Reuther (Aug. 1, 9, 17, 21, 24), Wirtz, Humphrey (Aug. 14, 20, 25), Rowe, Hoyt, Jenkins, Russell, Sanders, Wynn, Barr; and of 1964–65: Katzenbach (Nov. 11, Dec. 14, Feb. 5), DeLoach (Nov. 20), King (Jan. 15), Powell (Mar. 1), Humphrey and Russell (Mar. 6), McNamara (Mar. 6).
+- *S. Rep. No. 94-755*, Book III (1976), open on the Senate's site: pp. 81, 143–63 print or describe the FBI's papers on King of Oct. 1963–Jan. 1965 that Kotz cites (the report of Dec. 1, Moyers's note, the anonymous letter): to read and cite as the primary record.
+- Russell's handwritten notes, Aug. 20 and 25, 1964 (Richard B. Russell Library, University of Georgia); Lady Bird Johnson's diary, Mar. 7, 1965 (LBJ Library).
+- Kotz's interviews of this run: Moses, Markman, Edwin King, Victoria Gray Adams, Guyot, Stegall, Patterson, Farmer, Bradlee, Burke Marshall, Graham and Herbers, Vivian, Cotton, Mathias, Hosea Williams, John Lewis, Lee White, Lynda Bird Johnson Robb, Ken Young and Larry Levinson, Christian: not deposited.
+- Anne Romaine's interviews (Rauh, Edwin King, Hamer), State Historical Society of Wisconsin: the pages Kotz cites.
+- Press figures for Part III (R13): Palmer Hoyt (*Denver Post*), James McCartney (*Chicago Daily News*), David Kraslow (*Los Angeles Times*), Eugene Patterson (*Atlanta Constitution*), Fred Graham and John Herbers (*New York Times*), with Kotz, 212, 239, 248–49.
+
+### What remains unread (third run)
+
+Chapter 11 from p. 287 to p. 314 page by page (read by its dated passages to p. 300, not past it); chapters 12, 13 and 14 (pp. 315–421) and the Epilogue (422–434), but for pp. 333–35, 356, 361, 367–68 and 414–19; their notes beyond those passages; pp. 42–84 but for 60–62. The stop: the context of the run, not the hour.
