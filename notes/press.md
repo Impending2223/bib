@@ -308,22 +308,32 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1966-04-29 | *New York Times* (Reston) | column | "Alas, Poor Hubert" | Solberg, *Hubert Humphrey*, 295
 1966-06-16 | *New York Post*, Kempton | item | "There's Only One Winner" (entered) | Smith, *On His Own Terms*, 478-79
 1966-07-29 | *New York Post* (McGrory) | column | "The Vice President is not a proud man" (Check: the day) | Solberg, *Hubert Humphrey*, 295
+1966-08-22 | *Christian Science Monitor* | headline | "Crowds Applaud LBJ, Squeal at Kennedy" | Thomas, *Robert Kennedy*, 327
 1966-10 | (I. F. Stone) | newsletter | "While Others Dodge the Draft, Bobby Dodges the War" | Thomas, *Robert Kennedy*, 316
 1966-10-21 | *New York Daily News* | item | its straw poll: O'Connor ahead | Smith, *On His Own Terms*, 491
 1966-11-13 | *New York Times* | editorial | "Republican Renascence" (an entry) | Zelizer, *Fierce Urgency of Now*, 259
+1966-12-11 | *New York Times* | article | Kennedy learns of Hoover's release of the FBI's papers | Thomas, *Robert Kennedy*, 462
+1966-12-17 | *New York Times* | article | Mrs. Kennedy's suit against Manchester | Thomas, *Robert Kennedy*, 463
 1966-12-25–1967-01-03 | *New York Times*, Salisbury | dispatches | from Hanoi (in the tree) | Bernstein, *Guns or Butter*, 412
+1967-02-04 | *Paris Presse* | item | Kennedy dines with Candice Bergen | Thomas, *Robert Kennedy*, 463
 1967-02-12 | *New York Times Magazine* | article | Reeves, "The People Around Bobby" | Thomas, *Robert Kennedy*, 114
+1967-02-17 | *New York Times* | front page | "RFK Sets Major Speech on Bombing," five columns | Thomas, *Robert Kennedy*, 333
+1967-02-17 | *New Orleans States-Item* | article | Garrison's investigation | Thomas, *Robert Kennedy*, 333
 1967-02-21 | *New York Times* |  | the grand-jury claims in the Dahmer and Neshoba cases | Branch, *Pillar of Fire*, 609
 1967-02-28 | *New York Times* | p. 40 | the same | Branch, *Pillar of Fire*, 609
 1967-03-01 | *New York Times* | front page | the same | Branch, *Pillar of Fire*, 609
 1967-03-01 | *New York Times* | page | Herbers, "Fulbright Backs Vietnam Limit of 500,000 G.I.'s" | Woods, *J. William Fulbright, Vietnam*, 145 n.8
+1967-03-03 | *Washington Post* | column | Pearson, "Washington Merry-Go-Round": Johnson "sitting on an H-Bomb" | Thomas, *Robert Kennedy*, 335, 464
+1967-03-06 | *Newsweek* | article | "Carnival in New Orleans" | Thomas, *Robert Kennedy*, 463
 1967-03-19 | *Washington Post*, *Potomac* | Sunday magazine | Burnham, "Sound the Hirshhorn!"; Aaron, "The Collection" | Bernstein, *Guns or Butter*, 571 n.4
 1967-03-27 | *Newsweek* | p. 29 | Komer "a Guildenstern at the court of Lyndon I" | Berman, *Lyndon Johnson's War*, 32
 1967-04-06/07 | *Washington Post*, *New York Times* | editorials | "A Tragedy"; "Dr. King's Error" (entries) | Kotz, *Judgment Days*, 375
 1967-04-11 | *New York Times* | front page | the NAACP's board against King on Vietnam | Kotz, *Judgment Days*, 375
 1967-04-23 | *New York World Journal Tribune* | article | Thimmesch, "The New New Nixon" | White, *Making of the President 1968*, 53 n.9
 1967-05-05 | *Arkansas Gazette* | page | "RFK-Fulbright Group to Ignore Objections, Run in New Hampshire" | Woods, *J. William Fulbright, Vietnam*, 149 n.21
+1967-06-23 | *New Orleans States-Item* | article | Gurvich leaves Garrison | Thomas, *Robert Kennedy*, 464
 1967-07-01 | *New York Times* | item | Kennedy in the Grand Canyon (July 1-2) | Thomas, *Robert Kennedy*, 396
+1967-07-06 | *New York Times* | item | Kennedy at an Indian reservation | Thomas, *Robert Kennedy*, 468
 1967-07-08 | *New York Times* | front page | "Westmoreland asks M'Namara for more troops" | Berman, *Lyndon Johnson's War*, 54
 1967-07-15 | *Chicago Tribune* | page | "Senate's Cuts in Aid Irk Rusk" | Woods, *J. William Fulbright, Vietnam*, 159 n.33
 1967-08-01 | *Baltimore Sun* | page | "Bid to Curb Executive's Role Gains" | Woods, *J. William Fulbright, Vietnam*, 155 n.14
@@ -351,9 +361,11 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1967-11-23 | *New York Times* | headline | Westmoreland "Sure of Victory"; Đắk Tô "Great Defeat for Foe" | Berman, *Lyndon Johnson's War*, 120
 1967-11-28 | UPI | wire | Alvin B. Webb Jr.: McConnell on bombing in Laos | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 965
 1967-11-28 | New York Times | story | Westmoreland said to recommend Walt as Commandant | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 965
+1967-12 | *Village Voice* | column | Newfield: "If Kennedy does not run in 1968, the best side of his character will die" | Thomas, *Robert Kennedy*, 352
 1967-12-17 | New York Times | front page | "A White Liberal Shift on Integration" | Branch, *At Canaan's Edge*, 663
 1967-12-21 | *New York Times* | front page | "Thieu, Disputing Johnson, Rejects Talks with Foe" | Berman, *Lyndon Johnson's War*, 123
 1967-12-24 | *New York Times* |  | Apple, "Johnson Backs Military Leaders More Firmly Than Ever" | Berman, *Lyndon Johnson's War*, 123-24
+1968-01-03 | *New York Times* | item | Kennedy at an Indian reservation near Sun Valley | Thomas, *Robert Kennedy*, 468
 1968-01-05 | CBS | broadcast | the embargo on Fargo broken, after an interview with the unit's commander | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 944
 1968-01-06 | New York Post | front page | "SPOCK INDICTED" | Branch, *At Canaan's Edge*, 668
 1968-01-13 | New York Times |  | "Dr. King Calls for Antiwar Rally in Capital" | Branch, *At Canaan's Edge*, 669
@@ -370,6 +382,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-02 | *Harper's*, Larry L. King | item | "The Cool World of Nelson Rockefeller" (made public, entered) | Smith, *On His Own Terms*, 498
 1968-02 | *Los Angeles Times* | story | Tuohy on MACV Forward, "blatantly speculative" by Westmoreland's account | Westmoreland, *A Soldier Reports*, 345
 1968-02 | New York Times | article | Joseph B. Treaster on aircraft shortages in the 1st Cavalry Division (a ground-rules case) | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 966
+1968-02 | NBC, CBS | broadcast | *Laugh-In*, the *Smothers Brothers*: Kennedy ridiculed | Thomas, *Robert Kennedy*, 356
 1968-02-01 | *New York Times* | front page | the MPs behind the wall at the embassy, two dead Americans | Berman, *Lyndon Johnson's War*, 147
 1968-02-02 | Memphis Commercial Appeal |  | "Hambone's Meditations" on the drain workers | Branch, *At Canaan's Edge*, 685
 1968-02-02 | *Newsweek* |  | "Prometheus Bound" (the *Pueblo*) | Berman, *Lyndon Johnson's War*, 144
@@ -388,6 +401,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-02/03 | AP | wire | John Wheeler on Khe Sanh's hill outposts | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 958-59
 1968-03 | *New York Times* | column (Reston), the first week | "the political system ... has broken down" | White, *Making of the President 1968*, 94–95
 1968-03 | Los Angeles Times | article | Bill Tuohy on the Marine leadership, "singularly unimpressive, say the critics" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 961-62
+1968-03 | *New York Times* | article | 65 percent of the delegates solidly for Johnson | Thomas, *Robert Kennedy*, 363
 1968-03-03 | Washington Post | article | (cited, n.21: the Khe Sanh reporting; Schlesinger and Alsop) | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 994
 1968-03-10 | *New York Times* | front page | "Westmoreland Requests 206,000 More Men" (cal.1968-03-10.vietnam) | Westmoreland, *A Soldier Reports*, 358
 1968-03-10 | *New York Times* | front page | Smith and Sheehan, the 206,000 (entered) | Berman, *Lyndon Johnson's War*, 184
@@ -400,6 +414,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-03-19 | *New York Times* | front page | Rockefeller to declare | White, *Making of the President 1968*, 231
 1968-03-23 | *New Republic* | article | Edwin Dale, "The Gold Rush": a collapse "could bring a world-wide depression" | Zelizer, *Fierce Urgency of Now*, 287
 1968-03-24 | New York Times |  | "Memphis Protest Avoids Violence," the Southern Regional Council's study | Branch, *At Canaan's Edge*, 730
+1968-03-28 | *Washington Post* | article | Harwood, "Crowd Madness and Kennedy Strategy" | Thomas, *Robert Kennedy*, 364, 470
 1968-03-29 | NBC Huntley-Brinkley | broadcast | King, "Nonviolence can be as contagious as violence"; Coby Smith of the Invaders | Branch, *At Canaan's Edge*, 738, 740
 1968-03-29 | *St. Louis Globe-Democrat*, Memphis *Commercial Appeal* | — | the FBI's lines on King at Memphis; "Chicken a la King" (an entry) | Kotz, *Judgment Days*, 404
 1968-03-30 | New York Times | editorial page | against King's "descent on Washington" | Branch, *At Canaan's Edge*, 744
@@ -407,12 +422,16 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-04-01 | *Newsweek* | item | the "rumors that periodically haunt Rocky's personal life" | Smith, *On His Own Terms*, 518
 1968-04-01 | *New York Times*, *Los Angeles Times* | front pages | Johnson's withdrawal; Kennedy told on the plane | Zelizer, *Fierce Urgency of Now*, 293–94
 1968-04-12 | MACV | announcement | "search and destroy" dropped | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1043
+1968-04-13 | *New York Times* | item | Kalamazoo: Kennedy's shoe | Thomas, *Robert Kennedy*, 472
 1968-04-19 | *Washington Post* | item | "Rockefeller Speech Heard in Silence" | Smith, *On His Own Terms*, 528
 1968-04-21 | (Joseph Alsop) | column | the embargo on Delaware broken | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 964
 1968-04-23 | Washington Post | editorial page | "why not turn it around" | Branch, *At Canaan's Edge*, 744
 1968-05 | (Donald Kirk) | article | Westmoreland "convinced the press has impeded prosecution of the war" (the embargo of May 1) | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 964-65
+1968-05 | (syndicated) | column | Evans and Novak, "Kennedy's Indiana Victory Proves His Appeal Defuses Backlash Voting" | Thomas, *Robert Kennedy*, 375
+1968-05-03 | *New York Times* | article | Kennedy swinging right in Indiana | Thomas, *Robert Kennedy*, 472
 1968-05-17 | *New York Times* | item | "Governor Rockefeller: No Direct Answers" (Pittsburgh) | Smith, *On His Own Terms*, 530
 1968-05-18 | *Hattiesburg American* | front page | Bowers's mistrial | Branch, *Pillar of Fire*, 610
+1968-05-20 | *Newsweek* | article | Harris's analysis of Indiana's returns | Thomas, *Robert Kennedy*, 474
 1968-05-23 | *New York Post*, Evans and Novak | item | "The Reagan Strategy" | Smith, *On His Own Terms*, 531 n.
 1968-05-30 | Saigon | decree | all press censorship lifted | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1048
 1968-06-21 | *Newsweek* | item | "Rocky: Out of the Trance" | Smith, *On His Own Terms*, 533 n.

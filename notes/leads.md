@@ -496,6 +496,9 @@ CQ Weekly Report, 1968-08-16:
 ### Thomas, *Robert Kennedy* (batch 3, fourth run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
 - Bedford-Stuyvesant: Goldman, "Performance in Black and White," Ford Foundation, Feb. 1969 (Burke Marshall Papers, JFKL), for the project's dated steps (Thomas, 460).
 
+### Thomas, *Robert Kennedy* (batch 3, fifth run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
+- Bedford-Stuyvesant: IBM's plant; Frank Thomas named director; the Pei and Johnson superblock (Thomas, 326, 341-42; Goldman, 1969, 26-32).
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -2082,6 +2085,16 @@ Rights in Conflict (Walker Report):
 - the hearings Thomas names undated: Kennedy and Ervin before Judiciary, Aug. 1963; Kennedy and Curtis at Nader's testimony (Schlesinger, 682); the Daily Digest (daybook/committees/) gives their days.
 - Thomas's undated scenes of 1965-66 to date from the papers his notes name: Johnson's "divine retribution" to Salinger (Dallek, *Flawed Giant*, 136); Kennedy's lunch with Rowland Evans, Feb. 1966; the Vietnam trip called off in Feb. 1966 (Kraft STOH).
 - proposed for Part III (R13): Murray Kempton (the *New Republic*, "Pure Irish," 1964), Clark Mollenhoff has an entry; Andrew Glass (*Saturday Evening Post*), James Horan and Dom Frasca (*Journal-American*), William Beggs (*Miami News*).
+
+### Thomas, *Robert Kennedy* (batch 3, fifth run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
+- 113 Cong. Rec. 27083 (Senate, Sept. 27, 1967), cited by Thomas (465) with p. 18443 of July 12 for Kennedy's bills: read on govinfo; the public-service jobs bill Thomas puts in "that summer" (341) is its likely matter.
+- the FBI's memoranda on Kennedy and the microphones, Dec. 1965-Jan. 1967 (Marlin Johnson, Danahy, Gale, DeLoach, SAC Washington; Thomas, 462), and DeLoach to Tolson on Wiesl, May 1968 (474): to read where released (the FBI's Vault; the Mary Ferrell Foundation).
+- Johnson to Katzenbach, "God, it just murders Bobby and Jackie both" (Thomas, 331; Shesol, 362): the call's day, perhaps a recording of Jan. 1967.
+- the LBJ appointment calendars and telephone logs of May 18 and 23, 1968 (Thomas, 475), for the Pearson and DeLoach entries.
+- John Bartlow Martin's Campaign Journal and memoranda (Martin Papers, Library of Congress), cited by page (Thomas, 470-76): Indiana's days, the "Local Talking Points," the ministers' price in San Francisco.
+- cards to make (R53): David Halberstam, *The Unfinished Odyssey of Robert Kennedy* (cited at 107, 157, 204, 206); Manchester, *Controversy and Other Essays in Journalism*; Reich, *Financier*; McCarthy, *Up 'Til Now*; Lester and Irene David, *Bobby Kennedy*; Salinger, *P.S.*; O'Brien, *No Final Victories*; Rogers, *When I Think of Bobby*; Cronin and Kennedy, *The Riverkeepers*. Registered as witnesses meanwhile where cited.
+- Thomas's undated scenes of 1966-68 to date from the sources his notes name: Daley's "M-O-N-E-Y" to the White House (Lemann, 122-29); the Ford grant of $750,000; Fay's manuscript (Myrick Land Papers, Boston University); Ginsberg in Kennedy's office (Schlesinger, 819); Kennedy and Paul VI, June 1966 (Schlesinger, 749-50); the Billings threat of 1966; Meany's "jitterbug"; the Oakland Black Caucus; the Queens boss; Buddy Young in Memphis; Dutton's Goldwater file for Johnson, 1964.
+- proposed for Part III (R13), where no entry is: Jimmy Breslin, Richard Harwood (*Washington Post*), Warren Rogers (*Look*), Jayne Ikard (*Newsweek*), Martin Nolan (*Boston Globe*), Hays Gorey (*Time*), Joseph Kraft, Jack Newfield (*Village Voice*).
 
 ## Foreign
 

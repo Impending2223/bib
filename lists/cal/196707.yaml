@@ -516,11 +516,13 @@ entries:
     thread: poverty
     also: [robert-kennedy, cities-and-housing]
     c: 'Robert Kennedy introduces his employment bill, six months in the drafting: tax deductions to companies opening plants in the poverty areas and hiring the unemployed, "the creation of new jobs in poverty areas, to be filled by the residents of those areas."'
-    n: '[[w.shesol-mutual-contempt]], 331. To check: [[w.newfield-robert-kennedy]], 104–5 (cited by [[w.shesol-mutual-contempt]], 331). Names: Robert Kennedy.'
+    n: '[[w.shesol-mutual-contempt]], 331; [[w.thomas-robert-kennedy]], 340-41 (the bill, in the summer of 1967, tax breaks to bring investors into poor neighborhoods; the tax committees uninterested, Johnson lobbying against it in the Senate). To check: [[w.newfield-robert-kennedy]], 104–5 (cited by [[w.shesol-mutual-contempt]], 331). Names: Robert Kennedy.'
     src:
       c: eb334be8
       rows:
         - 'w.shesol-mutual-contempt 331: all'
+        - 'w.thomas-robert-kennedy 340-41: A'
+        - 'via w.thomas-robert-kennedy 341 n.rfks-bill-was-sunk: A'
     tags: [name:kennedy-robert-f]
   - id: cal.1967-07-13.vietnam-program-5
     when: July 13
@@ -1280,6 +1282,18 @@ entries:
       rows:
         - 'w.zelizer-fierce-urgency-of-now 274: all'
         - 'via w.zelizer-fierce-urgency-of-now 274 n.21: all'
+  - id: cal.1967-07-24.robert-kennedy
+    when: July 24
+    date: '1967-07-24'
+    thread: robert-kennedy
+    c: 'Dolan to Robert Kennedy: a "girl in the North Country" writes that he "smiles with his lips but not with his eyes"; upstate, people say, he seems in a hurry to move on to the next person, the next town.'
+    n: '[[w.thomas-robert-kennedy]], 349 n. To check: Dolan to Robert Kennedy, July 24, 1967, Dolan Papers, JFK Library (cited by [[w.thomas-robert-kennedy]], 466). See [[cal.1967-05-12.robert-kennedy]]. Names: Dolan, Robert Kennedy.'
+    src:
+      c: b6f5f193
+      rows:
+        - 'w.thomas-robert-kennedy 349 n.: all'
+        - 'via w.thomas-robert-kennedy 349 n.voting-record: all'
+    tags: [name:dolan-joseph-f, name:kennedy-robert-f, state:ny]
   - id: cal.1967-07-25.civil-disorders-detroit
     when: July 25–26
     date: '1967-07-25'
@@ -1937,3 +1951,40 @@ entries:
       c: a54d747c
       rows:
         - 'w.bernstein-guns-or-butter 455: all'
+  - id: cal.1967-07.poverty
+    when: July
+    date: 1967-07
+    thread: poverty
+    also: [robert-kennedy]
+    c: Senate hearings on the poverty bills. Robert Kennedy calls Coles, back from the Mississippi Delta with a team of doctors, on what poverty does to children.
+    n: '[[w.thomas-robert-kennedy]], 339. See [[cal.1967-04-10.poverty]]; [[cal.1966-11.poverty]]. Names: Robert Kennedy. Check: the day and the hearing.'
+    src:
+      c: 228d4e46
+      rows:
+        - 'w.thomas-robert-kennedy 339: all'
+    tags: [name:kennedy-robert-f]
+  - id: cal.1967-07.robert-kennedy
+    when: July
+    date: 1967-07
+    thread: robert-kennedy
+    c: Robert Kennedy ends his rafting trip down the Colorado with a visit to an Indian reservation.
+    n: '[[w.thomas-robert-kennedy]], 352. To check: *New York Times*, July 6, 1967 (cited by [[w.thomas-robert-kennedy]], 468). See [[cal.1967-07-01.robert-kennedy]]. Names: Robert Kennedy. Check: the day and the reservation.'
+    src:
+      c: 53ce2685
+      rows:
+        - 'w.thomas-robert-kennedy 352: all'
+        - 'via w.thomas-robert-kennedy 352 n.visiting-reservations: all'
+    tags: [name:kennedy-robert-f]
+  - id: cal.1967-07.robert-kennedy-2
+    when: July
+    date: 1967-07
+    thread: robert-kennedy
+    also: [civil-disorders]
+    c: 'Robert Kennedy, watching Johnson speak on the riots, to Mankiewicz: "It''s over. The president''s not going to do anything anymore. ... He''s through with domestic problems, with the cities."'
+    n: '[[w.thomas-robert-kennedy]], 348-49. To check: Frank Mankiewicz, oral history, JFK Library (cited by [[w.thomas-robert-kennedy]], 467). See [[cal.1967-07-27.civil-disorders]]. Names: Robert Kennedy, Johnson, Mankiewicz. Check: the day; which of Johnson''s addresses.'
+    src:
+      c: 0802336e
+      rows:
+        - 'w.thomas-robert-kennedy 348-49: all'
+        - 'via w.thomas-robert-kennedy 349 n.its-over: all'
+    tags: [name:kennedy-robert-f, name:johnson-lyndon-b, name:mankiewicz-frank]

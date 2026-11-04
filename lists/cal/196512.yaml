@@ -1188,6 +1188,19 @@ entries:
       c: 0d6635b7
       rows:
         - 'w.macv-command-history-1965 190: all'
+  - id: cal.1965-12-20.robert-kennedy
+    when: Dec. 20
+    date: '1965-12-20'
+    thread: robert-kennedy
+    also: [civil-rights-the-executive]
+    c: 'Marlin Johnson to James Gale of the FBI: the Bureau''s evidence that Robert Kennedy, as Attorney General, listened to the tapes of its microphones in Chicago.'
+    n: '[[w.thomas-robert-kennedy]], 462. To check: Marlin Johnson to James Gale, Dec. 20, 1965, FBI (cited by [[w.thomas-robert-kennedy]], 462). See [[cal.1965-12-20.civil-rights-the-executive]]. Names: Robert Kennedy.'
+    src:
+      c: 07cb8fb8
+      rows:
+        - 'w.thomas-robert-kennedy 462: all'
+        - 'via w.thomas-robert-kennedy 462 n.marlin-johnson-to-gale: all'
+    tags: [name:kennedy-robert-f, city:chicago, state:il]
   - id: cal.1965-12-21.vietnam-pause
     when: Dec. 21
     date: '1965-12-21'
@@ -1253,6 +1266,19 @@ entries:
       rows:
         - 'w.macv-command-history-1965 178: all'
         - 'via w.macv-command-history-1965 178 n.44: all'
+  - id: cal.1965-12-22.robert-kennedy
+    when: Dec. 22
+    date: '1965-12-22'
+    thread: robert-kennedy
+    also: [civil-rights-the-executive]
+    c: 'John Danahy to James Gale of the FBI: the Bureau''s evidence that Robert Kennedy, as Attorney General, listened to the tapes of its microphones in New York.'
+    n: '[[w.thomas-robert-kennedy]], 462. To check: John Danahy to James Gale, Dec. 22, 1965, FBI (cited by [[w.thomas-robert-kennedy]], 462). See [[cal.1965-12-20.robert-kennedy]]. Names: Robert Kennedy.'
+    src:
+      c: ee0d0252
+      rows:
+        - 'w.thomas-robert-kennedy 462: all'
+        - 'via w.thomas-robert-kennedy 462 n.danahy-to-gale: all'
+    tags: [name:kennedy-robert-f, city:nyc, state:ny]
   - id: cal.1965-12-23.vietnam-congress
     when: Dec. 23
     date: '1965-12-23'
@@ -1323,13 +1349,15 @@ entries:
     thread: civil-rights-the-executive
     also: [robert-kennedy]
     c: Courtney Evans, Robert Kennedy's FBI liaison, questioned at headquarters. By DeLoach's report, Evans, "upon having his recollection refreshed," agrees "that Kennedy must have known that our information came from microphones." Dec. 30, William Hundley of Justice the same.
-    n: '[[w.branch-at-canaans-edge]], 403 (by DeLoach''s report). To check: DeLoach to Tolson, Dec. 24, 1965, FBI file on Robert F. Kennedy, serial 1804; Gale to DeLoach, Dec. 30, 1965, Hoover''s Official and Confidential Files, section 129 (cited by [[w.branch-at-canaans-edge]], 403). Made public: Check. See [[cal.1965-12-20.civil-rights-the-executive]]. Names: Evans, Robert Kennedy, DeLoach.'
+    n: '[[w.branch-at-canaans-edge]], 403 (by DeLoach''s report); [[w.thomas-robert-kennedy]], 462 (Evans to the FBI: Kennedy fully aware the FBI used bugs, "a cozy matter"). To check: DeLoach to Tolson, Dec. 24, 1965, FBI file on Robert F. Kennedy, serial 1804; Gale to DeLoach, Dec. 30, 1965, Hoover''s Official and Confidential Files, section 129 (cited by [[w.branch-at-canaans-edge]], 403). Made public: Check. See [[cal.1965-12-20.civil-rights-the-executive]]. Names: Evans, Robert Kennedy, DeLoach.'
     src:
       c: f71747bb
       rows:
         - 'w.branch-at-canaans-edge 403: all'
         - 'via w.branch-at-canaans-edge 403 n.upon-having-his: A-B'
         - 'via w.branch-at-canaans-edge 403 n.he-did-admit: B-C'
+        - 'w.thomas-robert-kennedy 462: A-B'
+        - 'via x.1965-12-24.deloach-to-tolson-dec-24-1965: A-B'
     tags: [name:evans-courtney-a, name:kennedy-robert-f, name:deloach-cartha]
   - id: cal.1965-12-26.vietnam-pause
     when: Dec. 26
