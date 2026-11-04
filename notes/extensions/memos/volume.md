@@ -10,9 +10,9 @@ a fan of the collapsed military tables, for example. I want that reversed and no
 of a fan of splitting the calendars than you've been in the past. That's the great thing about dates—they can be
 divided and subdivided as needed!"; and the thread statements: "Is there no better, more elegant solution here?"
 
-Nothing here is built. The counts are of Oct. 30, 2026: 8,325 dated entries; the busiest day 48 (Nov. 8, 1966), the
-busiest month 168 (Mar. 1968), the largest thread 781 (Vietnam); Cal. I 8.3 MB, Cal. II 10.4, Cal. III 12.0, the
-reader 32.2.
+Nothing here was built when it was written (a section says what has been built since). The counts are of Oct. 30, 2026:
+8,325 dated entries; the busiest day 48 (Nov. 8, 1966), the busiest month 168 (Mar. 1968), the largest thread 781
+(Vietnam); Cal. I 8.3 MB, Cal. II 10.4, Cal. III 12.0, the reader 32.2.
 
 ## 1. Nothing folded by default
 
@@ -50,6 +50,18 @@ headings, and tables on the individual calendar pages"): the calendar's index pa
 whole calendar's contents, the months grid and the "Tables and maps" list for every year, each month, heading and
 table linked through to its place on its year's page (`contents.py`; the router already sends an anchor to its page).
 
+Built Nov. 4, 2026: `split:` a part a year, `cal1960.html` (from Jan. 6) to `cal1969.html` (to Jan. 20), and one page
+for the primary seasons of 1972 and 1976, `calprimaries.html` (a few dozen entries; a page a season when those years
+are written). `cal.html` is the index: the whole calendar's grid and tables and maps, then every thread with the years
+it has entries in, each linked to the thread in that year's index; every year's page carries the same grid and list
+(contents STYLE 6). January 1966's two sections stand on one page, retitled by their days. Labels "Cal. 1961"; the
+ledes name the year before and after, linked. Old links: every page is routed at build, now also by the ids each year's
+page holds alone; from outside, `cal.html`, `cal63.html` and `cal66.html` send an anchor to its year's page by script,
+by the anchor's form or a map the build writes (`calsplit.py`, STYLE 13-14). Threads not yet converted keep `c`, `c2`,
+`c3` by the old three parts (`legacy_parts`). The pages, built: 1960 3.8 MB, 1961 5.0, 1962 4.1, 1963 5.9, 1964 5.9,
+1965 6.4, 1966 5.1, 1967 5.7, 1968 7.1, 1969 1.4, the primaries 0.5, the index 0.2 (the three parts were 12.6, 18.1 and
+19.1); 1968 is nearest the 8 MB cue. `./bib build cal`: some 5.5 minutes.
+
 ## 4. Thread statements written once
 
 Today a statement is written for each part a thread has entries in (`c`, `c2`, `c3`), and every new division means
@@ -66,6 +78,20 @@ They're just sorting and redrafting aids"; no "Stations:"):
   `ranges`), and shown, without its span, on every page whose range it meets.
 - The conversion: each thread's `c` cut to its scope; `c2`, `c3` turned into span-tagged sentences or into events'
   names; `check` warns on a span it cannot read and on a statement whose text names a year outside its spans.
+
+Built Nov. 4, 2026, as machinery; the texts are converted thread by thread after it. `tools/bib/statements.py` (its
+STYLE) renders a thread's statement for a part's range (`calsplit.part_range`: its `from` to the day before the next
+part's, any number of parts): the scope, the spans that meet the range (concepts.py's parser; `{{not SPAN|...}}` too),
+then the events: the entries carrying `short:` filed under the thread or a ghost subthread of it (not those it holds by
+`also:`, another thread's events; nor a subthread's with a statement of its own, which names them), in date order, each
+`[[id|name]]`. A thread still holding `c2`/`c3` keeps the old choice until converted, so the build did not change.
+`short:` already named an address (`to:`) in its From lines; it is the event's name now as well, and prints nowhere
+else. The conversion's tools: `tools/statements/apply.py` (a fragment of rows {id, c, short: {entry: name}} into th.yaml
+and the entries, `c2`/`c3` dropped) and `tools/statements/show.py` (a thread's statements, its entries by year, a draft
+a year at a time). `check` [statements]: an error on a span it cannot read; warnings on an untagged sentence naming a
+year (unless the thread's entries all fall within it), a tagged sentence naming a year outside its span, and the count
+of threads not converted (102 of th.yaml's 237 entries on Nov. 4; 101 after the worked example, Middle East: Johnson
+Plan).
 
 ## 5. Events as records
 

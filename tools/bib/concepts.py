@@ -7,8 +7,9 @@
 The master. build/indicators.html ("Indicators"; `page`): the whole statement, by group, then every series' full table,
 every period, as first reported and today. Listed in the series index and the README, not in the top bar.
 
-The servants. Each calendar page (Cal. I, II, III; the reader's three blocks alike) writes, right after the month table
-where a series first appears on that page, a block of the statements of the series first used there (`Plan`): of each,
+The servants. Each calendar page (a year's, Cal. 1960 ... 1969, and the primaries'; the reader's blocks alike) writes,
+right after the month table where a series first appears on that page, a block of the statements of the series first
+used there (`Plan`): of each,
 only the pieces whose span holds a period the page's tables file for that series. A series not on the page, and a
 piece about periods the page does not file, are not written. Each row's name, in that table and every later one on the
 page, links to its servant on the page; where a series has no servant there (no text survives), to the master, and
@@ -20,7 +21,7 @@ STYLE (settled; keep it):
     Money and credit, Opinion), each series' name (linked to its master statement) and its statement. The page's first
     servant opens with the general paragraph. Each closes: "See the master entry for a full statement of indicator
     concepts and sources used in the series."
- 2. Anchors: a servant's statement `ind-<page>-<series>` (ind-cal63-cpi), on its page and in the reader; the servant
+ 2. Anchors: a servant's statement `ind-<page>-<series>` (ind-cal1963-cpi), on its page and in the reader; the servant
     `ind-<page>-at-<section>`. The master: `indicators.html#<series>` (the statement), `#t-<series>` (its table).
  3. Spans are by the period a row reports on (its end: a month's last day, a quarter's, June 30 for a fiscal year, Dec.
     31 for a year), not by release: a page is matched by the rows it files, so a piece follows its figures across a
@@ -360,7 +361,8 @@ def _table(sid, s, P_links):
     else:
         has_first = any("first" in r or r.get("est") for r in rows)
         has_now = any(r.get("now") is not None for r in rows)
-        head = "<th>Period</th>" + ("<th>As first reported</th><th>Released</th>" if has_first else "") + \
+        first_h = "<th>As first reported</th>" if has_now else '<th aria-label="Figure"></th>'   # not alone (indicators STYLE 18)
+        head = "<th>Period</th>" + (first_h + "<th>Released</th>" if has_first else "") + \
                ("<th>Revised, today</th>" if has_now else "")
         for r in rows:
             first, rel, now = I.cells(sid, s, r, None)

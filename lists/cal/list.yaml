@@ -1,42 +1,140 @@
 # Cal.: page text and outline. Entries live in the files named by 'file'.
-page_title: Calendar, January 1960–December 1962
-h1: 'Calendar of the Eisenhower and Kennedy years: the 86th Congress''s second session and the 87th Congress, January 6, 1960, to December 31, 1962'
-lede: 'Executive, legislative, judicial, and state events from the opening of the 86th Congress''s second session, Jan. 6, 1960, to the end of 1962: that session (Jan. 6–Sept. 1, 1960); the 87th Congress''s first session (Jan. 3–Sept. 27, 1961) and second (Jan. 10–Oct. 13, 1962); the Eisenhower administration''s last year, the campaign and election of 1960, the transition, and the Kennedy administration''s first two years. The second calendar takes up in January 1963, at the 88th Congress''s opening.'
+# The list's own page_title, h1, lede and index_logic are the index's (cal.html); its logic shows on the index and on
+# every year's page, before the year's own (`split:`, a part a year; tools/bib/calsplit.py, STYLE 13).
+page_title: Calendar, January 1960–January 1969
+h1: 'Calendar of the Eisenhower, Kennedy and Johnson years, January 6, 1960, to January 20, 1969; with the presidential primaries and conventions of 1960 to 1976'
+lede: 'Executive, legislative, judicial, and state events from the opening of the 86th Congress''s second session, Jan. 6, 1960, to Nixon''s inauguration, Jan. 20, 1969: the 86th Congress''s second session, the 87th through the 90th, and the 91st''s opening; the Eisenhower administration''s last year, Kennedy''s, and Johnson''s. A page a year, 1960 to 1969, and one for the primaries of 1972 and 1976. This page is the calendar''s index.'
 logic:
   - Seventh list in the series. This one is Cal. It points into K–J Adm. and K–J Cong., into Viet. for the war, and into the earlier lists where they hold the record.
-  - 'How to read it. Laid out by day. Each day gives its date, the *New York Times* for that date, the entries for events that began that day, each under its thread in small capitals, and the day''s documents, closed until opened: the President''s (American Presidency Project) and FRUS, every document dated that day. A later day of an event that ran several days points back to it. The line says what happened. The note gives sources: the first entry of each thread carries its bibliography, and later entries point back by date ("See Apr. 15"). Works are cited in full at their first appearance in each calendar, by short form after, each linked to its entry in Works, the A–Z bibliography. Names point to Part III of the lists. Presidential messages, speeches, and press conferences are cited by title and date; all are in the *Public Papers* (Eisenhower''s 1960–61 volume; Kennedy''s for 1961, 1962 and 1963; Johnson''s from Nov. 22, 1963, in his 1963–64 and 1965 volumes) and on the American Presidency Project (K–J Adm. II.K). FRUS means *Foreign Relations of the United States*, by subseries and volume: *1958–1960* for Eisenhower''s last year, *1961–1963*, and, from Nov. 22, 1963, *1964–1968*. Votes link to Voteview where the roll call is identified. "Check" marks a detail to verify.'
-  - 'Indicators. Each month opens with a table of the figures that report on it, filed by the period they cover, not the date they were issued: months in their month, quarters in the quarter''s last month, fiscal years (July–June) in June, calendar years in December. Two values: as first reported, with its release date, and as revised today. First releases are from ALFRED (CPI, unemployment, payrolls, industrial production, GNP, real GNP; the deflator is GNP over real GNP in the same release). Wholesale prices, the budgets, the federal sector of the national accounts, and the balance of payments are from the next January''s *Economic Report*; for those, first reported means as reported then. Three budgets: the administrative budget (federal funds; the deficit of the headlines), the consolidated cash statement (with the trust funds), and the federal sector of the national income accounts. The unified budget came with fiscal 1969; today''s budget figures are on that basis. The over-all balance of payments is no longer published. The output gap: the CEA''s estimates then and the CBO''s now, in separate rows, since the concepts differ. Monthly changes are from the prior month, not annualized; CPI, wholesale prices, and industrial production add the change from a year earlier (y/y). Quarterly changes are at annual rates in both columns. Concepts and sources: after the month where each series first appears in this calendar, what concerns this calendar''s months, each row''s name linked to it; the whole statement, and every series in full, on the Indicators page. A figure''s source shows on hover. Data: indicators/ in the repository.'
-  - 'Parts: the threads, each with its dates in this calendar and, muted, its next in the second; the months, January 6, 1960, to December 1962. The presidential primaries of 1960 and each convention''s opening carry CQ''s returns: one entry a primary day with its table, and at the convention a map of the party''s primaries.'
+  - 'How to read it. Laid out by day. Each day gives its date, the *New York Times* for that date, the entries for events that began that day, each under its thread in small capitals, and the day''s documents, closed until opened: the President''s (American Presidency Project) and FRUS, every document dated that day. A later day of an event that ran several days points back to it. The line says what happened. The note gives sources: the first entry of each thread carries its bibliography, and later entries point back by date ("See Apr. 15"). Works are cited in full at their first appearance in each year''s calendar, by short form after, each linked to its entry in Works, the A–Z bibliography. Names point to Part III of the lists. Presidential messages, speeches, and press conferences are cited by title and date; all are in the *Public Papers* (Eisenhower''s 1960–61 volume; Kennedy''s for 1961, 1962 and 1963; Johnson''s from Nov. 22, 1963, in his volumes for 1963–64 through 1968–69) and on the American Presidency Project (K–J Adm. II.K). FRUS means *Foreign Relations of the United States*, by subseries and volume: *1958–1960* for Eisenhower''s last year, *1961–1963*, and, from Nov. 22, 1963, *1964–1968*. Votes link to Voteview where the roll call is identified. "Check" marks a detail to verify.'
+  - 'Indicators. Each month opens with a table of the figures that report on it, filed by the period they cover, not the date they were issued: months in their month, quarters in the quarter''s last month, fiscal years (July–June) in June, calendar years in December. Two values: as first reported, with its release date, and as revised today. First releases are from ALFRED (CPI, unemployment, payrolls, industrial production, GNP, real GNP; the deflator is GNP over real GNP in the same release). Wholesale prices, the budgets, the federal sector of the national accounts, and the balance of payments are from the next January''s *Economic Report*; for those, first reported means as reported then. Three budgets: the administrative budget (federal funds; the deficit of the headlines), the consolidated cash statement (with the trust funds), and the federal sector of the national income accounts. The unified budget came with fiscal 1969; today''s budget figures are on that basis. The over-all balance of payments is no longer published. The output gap: the CEA''s estimates then and the CBO''s now, in separate rows, since the concepts differ. Monthly changes are from the prior month, not annualized; CPI, wholesale prices, and industrial production add the change from a year earlier (y/y). Quarterly changes are at annual rates in both columns. Concepts and sources: on each year''s page, after the month where each series first appears there, what concerns that year''s months, each row''s name linked to it; the whole statement, and every series in full, on the Indicators page. A figure''s source shows on hover. Data: indicators/ in the repository.'
+index_logic:
+  - 'Parts: the contents of the whole calendar, its months by year and its tables and maps, each linked to its place on its year''s page; then the threads, each with the years it has entries in. Each year''s page has the same contents and its own index of threads: each thread''s statement for that year, its dates there, and, muted, its last date in an earlier year and its next in a later one.'
+legacy_parts:   # the three parts of Oct. 17, 2026: their pages forward old links (calsplit STYLE 14); c2, c3 by them (STYLE 12)
+  - {page: cal, from: '1960-01-06'}
+  - {page: cal63, from: '1963-01-01'}
+  - {page: cal66, from: '1966-01-10'}
 split:
-  - abbr: Cal. I
-    title: 'Calendar: the 86th Congress''s second session and the 87th Congress'
-    span: Jan. 6, 1960–Dec. 1962
+  - page: cal1960
+    abbr: Cal. 1960
+    called: the calendar of 1960
+    title: 'Calendar, 1960: the 86th Congress''s second session'
+    span: Jan. 6–Dec. 31, 1960; the primaries of 1960
+    page_title: Calendar, 1960
+    h1: 'Calendar of 1960: the 86th Congress''s second session, January 6 to December 31, 1960; with the presidential primaries and conventions of 1960'
+    lede: 'Executive, legislative, judicial, and state events from the opening of the 86th Congress''s second session, Jan. 6, 1960, to the end of the year: that session (Jan. 6–Sept. 1, 1960); the Eisenhower administration''s last year, the campaign and election of 1960, and the transition. The calendar of 1961 follows; every year in the calendar''s index.'
+    logic:
+      - 'Parts: the threads, each with its dates in 1960 and, muted, its next in a later year; the months, January 6 to December 1960. The presidential primaries of 1960 and each convention''s opening carry CQ''s returns: one entry a primary day with its table, and at the convention a map of the party''s primaries.'
+  - from: '1961-01-01'
+    page: cal1961
+    abbr: Cal. 1961
+    called: the calendar of 1961
+    title: 'Calendar, 1961: the 87th Congress''s first session'
+    span: '1961'
+    page_title: Calendar, 1961
+    h1: 'Calendar of 1961: the 87th Congress''s first session, January to December 1961'
+    lede: 'Executive, legislative, judicial, and state events of 1961: the 87th Congress''s first session (Jan. 3–Sept. 27, 1961); the Eisenhower administration''s last days and, from the inauguration, Jan. 20, the Kennedy administration''s first year. The calendar of 1960 precedes it; the calendar of 1962 follows; every year in the calendar''s index.'
+    logic:
+      - 'Parts: the threads, each with its dates in 1961 and, muted, its last in an earlier year and its next in a later one; the months, January to December 1961.'
+  - from: '1962-01-01'
+    page: cal1962
+    abbr: Cal. 1962
+    called: the calendar of 1962
+    title: 'Calendar, 1962: the 87th Congress''s second session'
+    span: '1962'
+    page_title: Calendar, 1962
+    h1: 'Calendar of 1962: the 87th Congress''s second session, January to December 1962'
+    lede: 'Executive, legislative, judicial, and state events of 1962: the 87th Congress''s second session (Jan. 10–Oct. 13, 1962); the Kennedy administration''s second year; the midterm elections, Nov. 6. The calendar of 1961 precedes it; the calendar of 1963 follows; every year in the calendar''s index.'
+    logic:
+      - 'Parts: the threads, each with its dates in 1962 and, muted, its last in an earlier year and its next in a later one; the months, January to December 1962.'
   - from: '1963-01-01'
-    page: cal63
-    abbr: Cal. II
-    title: 'Calendar: the 88th Congress and the 89th''s first session'
-    span: Jan. 1963–Jan. 9, 1966; the primaries of 1964
-    page_title: Calendar, January 1963–January 1966
-    h1: 'Calendar of the Kennedy and Johnson years: the 88th Congress and the 89th''s first session, January 1963 to January 9, 1966; with the presidential primaries and conventions of 1964'
-    lede: 'Executive, legislative, judicial, and state events from January 1963, the 88th Congress''s opening (Jan. 3), to Jan. 9, 1966, the eve of the 89th''s second session: the 88th''s first session (Jan. 9–Dec. 30, 1963) and second (Jan. 7–Oct. 3, 1964); the 89th''s first (Jan. 4–Oct. 23, 1965); the Kennedy administration''s last year, Johnson''s first term, and the first year of his second. The first calendar runs from Jan. 6, 1960, to Dec. 31, 1962; the third calendar takes up at Jan. 10, 1966.'
+    page: cal1963
+    abbr: Cal. 1963
+    called: the calendar of 1963
+    title: 'Calendar, 1963: the 88th Congress''s first session'
+    span: '1963'
+    page_title: Calendar, 1963
+    h1: 'Calendar of 1963: the 88th Congress''s first session, January to December 1963'
+    lede: 'Executive, legislative, judicial, and state events of 1963: the 88th Congress''s opening (Jan. 3) and first session (Jan. 9–Dec. 30, 1963); the Kennedy administration''s last year and, from Nov. 22, Johnson''s. The calendar of 1962 precedes it; the calendar of 1964 follows; every year in the calendar''s index.'
     logic:
-      - Seventh list in the series. This one is Cal. It points into K–J Adm. and K–J Cong., into Viet. for the war, and into the earlier lists where they hold the record.
-      - 'How to read it. Laid out by day. Each day gives its date, the *New York Times* for that date, the entries for events that began that day, each under its thread in small capitals, and the day''s documents, closed until opened: the President''s (American Presidency Project) and FRUS, every document dated that day. A later day of an event that ran several days points back to it. The line says what happened. The note gives sources: the first entry of each thread carries its bibliography, and later entries point back by date ("See Apr. 15"). Works are cited in full at their first appearance in each calendar, by short form after, each linked to its entry in Works, the A–Z bibliography. Names point to Part III of the lists. Presidential messages, speeches, and press conferences are cited by title and date; all are in the *Public Papers* (Eisenhower''s 1960–61 volume; Kennedy''s for 1961, 1962 and 1963; Johnson''s from Nov. 22, 1963, in his volumes for 1963–64 and 1965) and on the American Presidency Project (K–J Adm. II.K). FRUS means *Foreign Relations of the United States*, by subseries and volume: *1958–1960* for Eisenhower''s last year, *1961–1963*, and, from Nov. 22, 1963, *1964–1968*. Votes link to Voteview where the roll call is identified. "Check" marks a detail to verify.'
-      - 'Indicators. Each month opens with a table of the figures that report on it, filed by the period they cover, not the date they were issued: months in their month, quarters in the quarter''s last month, fiscal years (July–June) in June, calendar years in December. Two values: as first reported, with its release date, and as revised today. First releases are from ALFRED (CPI, unemployment, payrolls, industrial production, GNP, real GNP; the deflator is GNP over real GNP in the same release). Wholesale prices, the budgets, the federal sector of the national accounts, and the balance of payments are from the next January''s *Economic Report*; for those, first reported means as reported then. Three budgets: the administrative budget (federal funds; the deficit of the headlines), the consolidated cash statement (with the trust funds), and the federal sector of the national income accounts. The unified budget came with fiscal 1969; today''s budget figures are on that basis. The over-all balance of payments is no longer published. The output gap: the CEA''s estimates then and the CBO''s now, in separate rows, since the concepts differ. Monthly changes are from the prior month, not annualized; CPI, wholesale prices, and industrial production add the change from a year earlier (y/y). Quarterly changes are at annual rates in both columns. Concepts and sources: after the month where each series first appears in this calendar, what concerns this calendar''s months, each row''s name linked to it; the whole statement, and every series in full, on the Indicators page. A figure''s source shows on hover. Data: indicators/ in the repository.'
-      - 'Parts: the threads, each with its dates in this calendar and, muted, its last in the first and its next in the third; the months, January 1963 to Jan. 9, 1966. The presidential primaries of 1964 and each convention''s opening carry CQ''s returns: one entry a primary day with its table, and at the convention a map of the party''s primaries.'
-  - from: '1966-01-10'
-    page: cal66
-    abbr: Cal. III
-    title: 'Calendar: the 89th Congress''s second session, the 90th Congress, and the 91st''s opening'
-    span: Jan. 10, 1966–Jan. 20, 1969; the primaries, 1968–76
-    page_title: Calendar, January 1966–January 1969; the primaries, 1968–1976
-    h1: 'Calendar of the Johnson years: the 89th Congress''s second session, the 90th Congress, and the 91st''s opening, January 10, 1966, to January 20, 1969; with the presidential primaries and conventions of 1968, 1972 and 1976'
-    lede: 'Executive, legislative, judicial, and state events from Jan. 10, 1966, the 89th Congress''s second session''s opening, to Jan. 20, 1969, Nixon''s inauguration: the 89th''s second session (Jan. 10–Oct. 22, 1966); the 90th''s first (Jan. 10–Dec. 15, 1967) and second (Jan. 15–Oct. 14, 1968); the 91st''s opening (Jan. 3, 1969); the last three years of Johnson''s administration, the campaign and election of 1968, and the transition. The second calendar runs from January 1963 to Jan. 9, 1966.'
+      - 'Parts: the threads, each with its dates in 1963 and, muted, its last in an earlier year and its next in a later one; the months, January to December 1963.'
+  - from: '1964-01-01'
+    page: cal1964
+    abbr: Cal. 1964
+    called: the calendar of 1964
+    title: 'Calendar, 1964: the 88th Congress''s second session'
+    span: 1964; the primaries of 1964
+    page_title: Calendar, 1964
+    h1: 'Calendar of 1964: the 88th Congress''s second session, January to December 1964; with the presidential primaries and conventions of 1964'
+    lede: 'Executive, legislative, judicial, and state events of 1964: the 88th Congress''s second session (Jan. 7–Oct. 3, 1964); the Johnson administration''s first full year; the campaign and election of 1964. The calendar of 1963 precedes it; the calendar of 1965 follows; every year in the calendar''s index.'
     logic:
-      - Seventh list in the series. This one is Cal. It points into K–J Adm. and K–J Cong., into Viet. for the war, and into the earlier lists where they hold the record.
-      - 'How to read it. Laid out by day. Each day gives its date, the *New York Times* for that date, the entries for events that began that day, each under its thread in small capitals, and the day''s documents, closed until opened: the President''s (American Presidency Project) and FRUS, every document dated that day. A later day of an event that ran several days points back to it. The line says what happened. The note gives sources: the first entry of each thread carries its bibliography, and later entries point back by date ("See Apr. 15"). Works are cited in full at their first appearance in each calendar, by short form after, each linked to its entry in Works, the A–Z bibliography. Names point to Part III of the lists. Presidential messages, speeches, and press conferences are cited by title and date; all are in the *Public Papers* (Johnson''s volumes for 1966, 1967 and 1968–69) and on the American Presidency Project (K–J Adm. II.K). FRUS means *Foreign Relations of the United States*, by subseries and volume: *1964–1968*. Votes link to Voteview where the roll call is identified. "Check" marks a detail to verify.'
-      - 'Indicators. Each month opens with a table of the figures that report on it, filed by the period they cover, not the date they were issued: months in their month, quarters in the quarter''s last month, fiscal years (July–June) in June, calendar years in December. Two values: as first reported, with its release date, and as revised today. First releases are from ALFRED (CPI, unemployment, payrolls, industrial production, GNP, real GNP; the deflator is GNP over real GNP in the same release). Wholesale prices, the budgets, the federal sector of the national accounts, and the balance of payments are from the next January''s *Economic Report*; for those, first reported means as reported then. Three budgets: the administrative budget (federal funds; the deficit of the headlines), the consolidated cash statement (with the trust funds), and the federal sector of the national income accounts. The unified budget came with fiscal 1969; today''s budget figures are on that basis. The over-all balance of payments is no longer published. The output gap: the CEA''s estimates then and the CBO''s now, in separate rows, since the concepts differ. Monthly changes are from the prior month, not annualized; CPI, wholesale prices, and industrial production add the change from a year earlier (y/y). Quarterly changes are at annual rates in both columns. Concepts and sources: after the month where each series first appears in this calendar, what concerns this calendar''s months, each row''s name linked to it; the whole statement, and every series in full, on the Indicators page. A figure''s source shows on hover. Data: indicators/ in the repository.'
-      - 'Parts: the threads, each with its dates in this calendar and, muted, its last in an earlier one; the months, Jan. 10, 1966, to Jan. 20, 1969; then the primaries and conventions of 1972 and 1976. Those seasons hold only CQ''s returns, one entry a primary day with its table, and at each convention''s opening a map of the party''s primaries; the rest of those years is not yet written.'
+      - 'Parts: the threads, each with its dates in 1964 and, muted, its last in an earlier year and its next in a later one; the months, January to December 1964. The presidential primaries of 1964 and each convention''s opening carry CQ''s returns: one entry a primary day with its table, and at the convention a map of the party''s primaries.'
+  - from: '1965-01-01'
+    page: cal1965
+    abbr: Cal. 1965
+    called: the calendar of 1965
+    title: 'Calendar, 1965: the 89th Congress''s first session'
+    span: '1965'
+    page_title: Calendar, 1965
+    h1: 'Calendar of 1965: the 89th Congress''s first session, January to December 1965'
+    lede: 'Executive, legislative, judicial, and state events of 1965: the 89th Congress''s first session (Jan. 4–Oct. 23, 1965); the end of Johnson''s first term and, from the inauguration, Jan. 20, the first year of his second. The calendar of 1964 precedes it; the calendar of 1966 follows; every year in the calendar''s index.'
+    logic:
+      - 'Parts: the threads, each with its dates in 1965 and, muted, its last in an earlier year and its next in a later one; the months, January to December 1965.'
+  - from: '1966-01-01'
+    page: cal1966
+    abbr: Cal. 1966
+    called: the calendar of 1966
+    title: 'Calendar, 1966: the 89th Congress''s second session'
+    span: '1966'
+    page_title: Calendar, 1966
+    h1: 'Calendar of 1966: the 89th Congress''s second session, January to December 1966'
+    lede: 'Executive, legislative, judicial, and state events of 1966: the 89th Congress''s second session (Jan. 10–Oct. 22, 1966); the Johnson administration''s second term, its second year; the midterm elections, Nov. 8. The calendar of 1965 precedes it; the calendar of 1967 follows; every year in the calendar''s index.'
+    logic:
+      - 'Parts: the threads, each with its dates in 1966 and, muted, its last in an earlier year and its next in a later one; the months, January to December 1966, January in two sections, before and from the session''s opening.'
+  - from: '1967-01-01'
+    page: cal1967
+    abbr: Cal. 1967
+    called: the calendar of 1967
+    title: 'Calendar, 1967: the 90th Congress''s first session'
+    span: '1967'
+    page_title: Calendar, 1967
+    h1: 'Calendar of 1967: the 90th Congress''s first session, January to December 1967'
+    lede: 'Executive, legislative, judicial, and state events of 1967: the 90th Congress''s first session (Jan. 10–Dec. 15, 1967); the Johnson administration''s second term, its third year. The calendar of 1966 precedes it; the calendar of 1968 follows; every year in the calendar''s index.'
+    logic:
+      - 'Parts: the threads, each with its dates in 1967 and, muted, its last in an earlier year and its next in a later one; the months, January to December 1967.'
+  - from: '1968-01-01'
+    page: cal1968
+    abbr: Cal. 1968
+    called: the calendar of 1968
+    title: 'Calendar, 1968: the 90th Congress''s second session'
+    span: 1968; the primaries of 1968
+    page_title: Calendar, 1968
+    h1: 'Calendar of 1968: the 90th Congress''s second session, January to December 1968; with the presidential primaries and conventions of 1968'
+    lede: 'Executive, legislative, judicial, and state events of 1968: the 90th Congress''s second session (Jan. 15–Oct. 14, 1968); the Johnson administration''s last full year; the campaign and election of 1968. The calendar of 1967 precedes it; the calendar of 1969 follows; every year in the calendar''s index.'
+    logic:
+      - 'Parts: the threads, each with its dates in 1968 and, muted, its last in an earlier year and its next in a later one; the months, January to December 1968. The presidential primaries of 1968 and each convention''s opening carry CQ''s returns: one entry a primary day with its table, and at the convention a map of the party''s primaries.'
+  - from: '1969-01-01'
+    page: cal1969
+    abbr: Cal. 1969
+    called: the calendar of 1969
+    title: 'Calendar, 1969: the 91st Congress''s opening'
+    span: Jan. 1–20, 1969
+    page_title: Calendar, January 1969
+    h1: 'Calendar of 1969: the 91st Congress''s opening and the transition, January 1 to January 20, 1969'
+    lede: 'Executive, legislative, judicial, and state events from Jan. 1, 1969, to Nixon''s inauguration, Jan. 20: the 91st Congress''s opening (Jan. 3); the Johnson administration''s last days and the transition. The calendar ends Jan. 20. The calendar of 1968 precedes it; the calendar of the primaries of 1972 and 1976 follows; every year in the calendar''s index.'
+    logic:
+      - 'Parts: the threads, each with its dates in 1969 and, muted, its last in an earlier year and its next in a later one; the days, Jan. 1 to Jan. 20, 1969.'
+  - from: '1972-03-01'
+    page: calprimaries
+    abbr: Cal. 1972–76
+    called: the calendar of the primaries of 1972 and 1976
+    title: 'Calendar: the primaries of 1972 and 1976'
+    span: the primaries of 1972 and 1976
+    page_title: Calendar, the primaries of 1972 and 1976
+    h1: 'Calendar of the presidential primaries and conventions of 1972 and 1976'
+    lede: 'The presidential primaries of 1972 and 1976 and the openings of the national conventions, for now: the rest of those years is not yet written. The calendar of 1969 precedes it; every year in the calendar''s index.'
+    logic:
+      - 'Parts: the threads, each with its dates here and, muted, its last in an earlier year; the months of the two seasons, March to August 1972 and February to August 1976. Each primary day an entry with CQ''s returns, and at each convention''s opening a map of the party''s primaries.'
 kind: calendar
 year: 1961
 threads_section: th
@@ -568,18 +666,16 @@ sections:
   - id: '196601'
     old_id: jan66
     num: LXXIV.
-    title: January 1966
-    logic:
-      - The second calendar ends Jan. 9.
+    title: January 1–9, 1966
     from: '1966-01-01'
     to: '1966-01-09'
     file: 196601.yaml
   - id: 196601b
     old_id: jan66b
     num: LXXV.
-    title: January 1966
+    title: January 10–31, 1966
     logic:
-      - The 89th Congress's second session meets Jan. 10. The third calendar begins that day.
+      - The 89th Congress's second session meets Jan. 10.
     from: '1966-01-10'
     to: '1966-01-31'
     file: 196601b.yaml

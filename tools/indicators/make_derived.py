@@ -1,4 +1,4 @@
-"""Real interest rates and the stance of policy: series computed from the indicators' own files, and one outside
+"""Real rates (the indicators' group "Real rates"; once "Real rates and the stance"): series computed from the indicators' own files, and one outside
 estimate (the owner's request, Oct. 28, 2026: "Rising nominal rates are hot ... but rising real rates are cold";
 "a whole-of-economy measure"; "What was the standard then ... What's the current (i.e., retrospective) standard?").
 

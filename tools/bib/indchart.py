@@ -7,10 +7,15 @@ STYLE (settled; keep it):
  1. The tint. A value cell of the economic indicators table and of Money and credit is tinted by its period's move:
     green on the hot side (prices, output, jobs, money, debt or nominal interest rates rising, unemployment falling;
     a real rate falling; a gap below zero), brown on the cold. HOT gives each series' sign; a series not in it is not
-    tinted. The move: the change from the period before (chg, chg_now: each column its own), or, for the gaps
-    (LEVEL), the level itself. The depth: the move against the series' usual move over the calendar's span, column
-    by column: |move| / (2.2 sd), capped at 1, mixed from nothing at 10 percent to 72 at the cap, so a pale cell is
-    an ordinary month and a deep one a rare month. A move of exactly zero takes no tint.
+    tinted. The move: the change from the period before (chg, chg_now: each column its own); for the gaps (LEVEL),
+    the level itself; for the price indexes, the CPI, the WPI and the deflator (YOY), the change from a year earlier
+    (the owner's request, Nov. 4, 2026), as 4 reads it, each column its own (the deflator's first, where 4 gives none,
+    its first year and across its rebasing of Aug. 1965, the mean of the four quarters' annualized changes, as
+    make_derived.py has it). The depth: the move against the
+    series' usual move over the calendar's span, column by column: |move| / (2.2 sd), the sd a change's standard
+    deviation, a level's or a year-over-year change's root mean square, capped at 1, mixed from nothing at 10
+    percent to 72 at the cap, so a pale cell is an ordinary month and a deep one a rare month. A move of exactly
+    zero takes no tint. The Released cell takes its first-reported figure's tint (the owner's request, Nov. 4, 2026).
  2. The key: one muted line under the indicators table names the tint ("Tint: green, the hot side ...; brown, the
     cold"), once a table.
  3. The chart. A small button before a row's name (▸, "Chart" to screen readers; the name still links to its
@@ -49,6 +54,7 @@ HOT = {"cpi": 1, "wpi": 1, "deflator": 1, "unemployment": -1, "payrolls": 1, "in
        "real-bill-cpi": -1, "real-10-cpi": -1, "real-bill": -1, "real-10": -1, "taylor-gap": -1, "rstar-gap": -1,
        "spread": 1}
 LEVEL = {"taylor-gap", "rstar-gap"}
+YOY = {"cpi", "wpi", "deflator"}          # the price indexes: tinted by the change from a year earlier (STYLE 1)
 SKIP = {"oil-production", "oil-supplied", "oil-trade", "oil-trade-year", "oil-reserves", "fx-sterling", "fx-mark",
         "fx-franc", "gold-london", "debt-gdp-omb", "approval"}
 SPAN = ("1960-01-01", "1968-12-31")
@@ -63,30 +69,56 @@ def _num(v):
     return isinstance(v, (int, float)) and not isinstance(v, bool)
 
 
+_YY = {}
+
+
+def _yoys(s, which):
+    """{period: change from a year earlier} in a column's own figures (STYLE 4), for YOY's tint; as first reported,
+    where that gives none (the year before missing, or rebased), a quarterly series' mean of the four quarters' annualized changes as each was released (as
+    tools/indicators/make_derived.py reads the deflator's rise)."""
+    k = (s["id"], which)
+    if k not in _YY:
+        rows = sorted(s.get("rows", []), key=lambda r: _end(r["p"]))
+        out = {}
+        for i, r in enumerate(rows):
+            v = _yoy(s, rows, i, which)
+            if v is None and which == "first" and s.get("change") == "pct_ar" and i >= 3:
+                cs = [rows[j].get("chg") for j in range(i - 3, i + 1)]
+                v = round(sum(cs) / 4, 2) if all(_num(c) for c in cs) else None
+            out[str(r["p"])] = v
+        _YY[k] = out
+    return _YY[k]
+
+
+def _move(s, r, which):
+    """A row's move for the tint: its change from the period before, the level for LEVEL, the change from a year
+    earlier for YOY."""
+    if s["id"] in YOY:
+        return _yoys(s, which).get(str(r["p"]))
+    return r.get(which if s["id"] in LEVEL else {"first": "chg", "now": "chg_now"}[which])
+
+
 def _moves(s, which):
-    """The tint's moves over the span: changes, or levels for LEVEL."""
-    f = which if s["id"] in LEVEL else {"first": "chg", "now": "chg_now"}[which]
-    out = []
-    for r in s.get("rows", []):
-        if SPAN[0] <= str(_end(r["p"])) <= SPAN[1] and _num(r.get(f)):
-            out.append(r[f])
-    return f, out
+    """The tint's moves over the span."""
+    return [m for r in s.get("rows", []) if SPAN[0] <= str(_end(r["p"])) <= SPAN[1] and _num(m := _move(s, r, which))]
 
 
 _SD = {}
 
 
 def _sd(s, which):
+    """The usual move: a change's standard deviation; a level's or a year-over-year change's root mean square (they
+    are not about zero)."""
     k = (s["id"], which)
     if k not in _SD:
-        f, xs = _moves(s, which)
+        xs = _moves(s, which)
         if len(xs) < 4:
-            _SD[k] = (f, None)
+            _SD[k] = None
+        elif s["id"] in LEVEL or s["id"] in YOY:
+            _SD[k] = math.sqrt(sum(x * x for x in xs) / len(xs)) or None
         else:
             m = sum(xs) / len(xs)
-            sd = math.sqrt(sum((x - m) ** 2 for x in xs) / (len(xs) - 1)) if s["id"] not in LEVEL else \
-                math.sqrt(sum(x * x for x in xs) / len(xs))
-            _SD[k] = (f, sd or None)
+            _SD[k] = math.sqrt(sum((x - m) ** 2 for x in xs) / (len(xs) - 1)) or None
     return _SD[k]
 
 
@@ -95,8 +127,8 @@ def tint(sid, s, r, which):
     sign = HOT.get(sid)
     if not sign or not s:
         return "", ""
-    f, sd = _sd(s, which)
-    v = r.get(f)
+    sd = _sd(s, which)
+    v = _move(s, r, which)
     if sd is None or not _num(v) or v == 0:
         return "", ""
     z = min(abs(v) / sd / 2.2, 1.0)

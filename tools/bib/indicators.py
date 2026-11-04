@@ -15,7 +15,8 @@ what concerns the periods it files; each row's name links to its servant on the 
 build/indicators.html, which also holds every series' full table.
 
 STYLE (settled; keep it, and fix anything that drifts from it):
- 1. Columns: Indicator | As first reported | Released | Revised, today. Gallup's approval (kind: poll) in a table
+ 1. Columns: Indicator | As first reported | Released | Revised, today (the Released cell in its figure's tint:
+    tools/bib/indchart.py, STYLE 1). Gallup's approval (kind: poll) in a table
     of its own under it (and under Money and credit, 13), set off by a double gray rule, centered, three-quarters of the table's width (the last row above a rule has none)
     and its own caption ("Presidential approval, Gallup"; the first table's
     "Economic indicators"), on the same plan: Reading (with the field dates) | As published | Released | Today. "Released" is the date the
@@ -77,6 +78,15 @@ STYLE (settled; keep it, and fix anything that drifts from it):
     table, the yields and mortgage rates in the Money and credit table (13); reserve assets and the trade balances under
     International; the debt's holders and length under "Federal debt" (the public debt and its ratios with them), $bn in
     its header as Federal finance; the exchange rates (and the gold price, when read) in a table of their own (one figure).
+18. The standard tables (the owner's request, Nov. 4, 2026): the month's recurring tables, Economic indicators, Oil,
+    Exchange rates and gold, Money and credit, Presidential approval (TABLES), and the war table under the first
+    Thursday (tools/bib/wartable.py, STYLE 8); not the one-off blocks (an election, a budget, a bill's course, the
+    forces of Armed Forces Day). Each is anchored, tbl-<kind>-<section> (war-<month>), and its caption set between
+    "〈〈 " and " 〉〉", links to the same kind's table before and after it in the calendar, on whatever page (a bare
+    "#" link, routed by calsplit.route), in the thread line's style (build.thread_nav: .tnb, muted, not underlined),
+    the target's date on hover, the year added where it differs; none at the first or the last. A column headed "As
+    first reported" only where another column holds a later figure: where none does (the exchange rates; Oil's
+    one-figure rows, all first reported; a master table), the figure's column goes unheaded, or "Figure".
 """
 import calendar
 import datetime
@@ -102,7 +112,7 @@ ORDER = ["cpi", "wpi", "deflator", "unemployment", "payrolls", "industrial-produ
          "war-enemy-ob", "war-enemy-ob-old", "war-enemy-snie", "war-enemy-strength-q", "war-infiltration", "war-enemy-kia", "war-rvnaf-kia", "war-rvnaf-strength", "war-fwmaf-strength", "war-air-attack", "war-air-nvn-rp", "discount-rate", "federal-funds",
          "prime-rate", "treasury-bill", "treasury-10-year", "approval"]
 DERIVED = ["real-bill-cpi", "real-10-cpi", "real-bill", "real-10", "taylor-gap", "rstar-gap", "spread"]
-# real rates and the stance (tools/indicators/make_derived.py): computed from the series above; percent or points
+# real rates (tools/indicators/make_derived.py): computed from the series above; percent or points
 GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
          "unemployment": "Employment", "payrolls": "Employment",
          "industrial-production": "Output", "gnp": "Output", "real-gnp": "Output",
@@ -137,7 +147,7 @@ GROUP.update({x: "Federal debt" for x in ("interest-gnp", "public-debt", "debt-g
 GROUP.update({x: "International" for x in finance.INTL + finance.FX})
 GROUP.update({x: "Money and credit" for x in finance.MONEY + finance.RATES})
 _place(finance.MONEY[-1], DERIVED)
-GROUP.update({x: "Real rates and the stance" for x in DERIVED})
+GROUP.update({x: "Real rates" for x in DERIVED})
 FIELD_LABEL = {"receipts": "Receipts", "expenditures": "Expenditures", "payments": "Payments", "outlays": "Outlays",
                "balance": "Balance", "interest": "Net interest", "primary": "Primary"}
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
@@ -436,10 +446,11 @@ def name_cell(sid, s, r, href=None, text=None):
             f'<span class="per">{esc(period_label(r["p"]))}</span>')
 
 
-def _tattr(t):
-    """A value cell's tint (tools/bib/indchart.py, STYLE 1) as attributes."""
+def _tattr(t, own=""):
+    """A value cell's tint (tools/bib/indchart.py, STYLE 1) as attributes; own: the cell's own class."""
     cls, style = t
-    return f' class="{cls}" style="{style}"' if cls else ""
+    cls = " ".join(x for x in (own, cls) if x)
+    return (f' class="{cls}"' if cls else "") + (f' style="{style}"' if t[0] else "")
 
 
 def rate_row(sid, s, r, year, href=None, label=None, chart=False):
@@ -486,20 +497,64 @@ def cells(sid, s, r, year):
     return first, rel, nowv
 
 
-def block(data, sec_from, sec_to, prev_to, year, next_from=None, href=None):
-    """The month's tables. href(sid): where a row's name links (its servant on the page; tools/bib/concepts.py)."""
+# The standard tables (STYLE 18): the month's tables, each kind with its caption, in the order block sets them.
+TABLES = {"econ": "Economic indicators", "oil": "Oil", "fx": "Exchange rates and gold", "rates": "Money and credit",
+          "approval": "Presidential approval, Gallup"}
+
+
+def table_of(sid, s):
+    """The month table a series' rows go in (a key of TABLES)."""
+    if sid in oil.SERIES:
+        return "oil"
+    if sid in finance.FX:
+        return "fx"
+    if s.get("kind") == "poll":
+        return "approval"
+    if s.get("kind") == "rate":
+        return "rates"
+    return "econ"
+
+
+def anchor(kind, sec_id):
+    return f"tbl-{kind}-{sec_id}"
+
+
+def nav_link(href, title, mark):
+    """A table's ⟨⟨ or ⟩⟩: the thread line's (build.thread_nav) class and form, the target's date on hover."""
+    return f'<a class="tnb" href="{esc(href)}" title="{esc(title)}">{mark}</a>'
+
+
+def caption(text, prev=None, nxt=None, cls="ind-cap"):
+    """A standard table's caption, "〈〈 Economic indicators 〉〉" (STYLE 18): prev, nxt: (href, title) or None."""
+    a = nav_link(*prev, "〈〈") + " " if prev else ""
+    b = " " + nav_link(*nxt, "〉〉") if nxt else ""
+    return f'<p class="{cls}">{a}{esc(text)}{b}</p>'
+
+
+def block(data, sec_from, sec_to, prev_to, year, next_from=None, href=None, sec_id=None, nav=None):
+    """The month's tables. href(sid): where a row's name links (its servant on the page; tools/bib/concepts.py).
+    sec_id: the section, for each table's anchor; nav(kind): ((href, title) or None, (href, title) or None), the
+    same kind's tables before and after in the calendar (STYLE 18)."""
     lo, hi = datetime.date.fromisoformat(sec_from), datetime.date.fromisoformat(sec_to)
     rows = rows_for(data, lo, hi, prev_to and datetime.date.fromisoformat(prev_to),
                     next_from and datetime.date.fromisoformat(next_from))
     if not rows:
         return ""
     href = href or def_href
+
+    def cap(kind):
+        p, n = nav(kind) if nav else (None, None)
+        return caption(TABLES[kind], p, n)
+
+    def aid(kind):
+        return f' id="{anchor(kind, sec_id)}"' if sec_id else ""
     trs, shown, polls, rates, oils, fxs = [], set(), [], [], [], []
     for sid, s, r in rows:
-        if sid in oil.SERIES:            # Oil apart, in a table of its own (STYLE 15; tools/bib/oil.py)
+        kind = table_of(sid, s)
+        if kind == "oil":                # Oil apart, in a table of its own (STYLE 15; tools/bib/oil.py)
             oils.append((sid, s, r))
             continue
-        if sid in finance.FX:            # exchange rates and gold apart, one figure (STYLE 17; tools/bib/finance.py)
+        if kind == "fx":                 # exchange rates and gold apart, one figure (STYLE 17; tools/bib/finance.py)
             fxs.append((sid, s, r))
             continue
         g = GROUP.get(sid)
@@ -509,36 +564,50 @@ def block(data, sec_from, sec_to, prev_to, year, next_from=None, href=None):
             shown.add(g)
             unit_note = " $bn" if g in ("Federal finance", "Federal debt", "International") else ""
             trs.append(f'<tr class="g"><th colspan="4">{esc(g)}{grey(unit_note)}</th></tr>')
-        if s.get("kind") == "poll":
+        if kind == "approval":
             pname, per, first, rel, now = poll_row(sid, s, r, year)
             polls.append(f'<tr><td class="iname"><a href="{esc(href(sid))}">{esc(pname)}</a> '
                          f'<span class="per">{esc(per)}</span></td><td>{first}</td><td class="rel">{rel}</td><td>{now}</td></tr>')
             continue
-        if s.get("kind") == "rate":
+        if kind == "rates":
             rates.append(rate_row(sid, s, r, year, href, chart=True))
             continue
         name = name_cell(sid, s, r, href)
         first, rel, nowv = cells(sid, s, r, year)
         btn = indchart.button(sid) if indchart.chartable(sid, s) else ""
         ta, tb = indchart.tint(sid, s, r, "first"), indchart.tint(sid, s, r, "now")
-        trs.append(f'<tr><td class="iname">{btn}{name}</td><td{_tattr(ta)}>{first}</td><td class="rel">{rel}</td>'
+        rel_t = ta if rel != "—" else ("", "")          # Released shares its figure's tint (indchart STYLE 1)
+        trs.append(f'<tr><td class="iname">{btn}{name}</td><td{_tattr(ta)}>{first}</td><td{_tattr(rel_t, "rel")}>{rel}</td>'
                    f'<td{_tattr(tb)}>{nowv}</td></tr>')
     out = ""
     if trs:
-        out += ('<div class="ind"><p class="ind-cap">Economic indicators</p><table><thead><tr><th>Indicator</th><th>As first reported</th>'
+        out += (f'<div class="ind"{aid("econ")}>{cap("econ")}<table><thead><tr><th>Indicator</th><th>As first reported</th>'
                 '<th>Released</th><th>Revised, today</th></tr></thead><tbody>'
                 + "".join(trs) + "</tbody></table>" + indchart.KEY + "</div>")
     if oils:                             # Oil apart: no vacant columns (STYLE 15; tools/bib/oil.py)
-        out += oil.table(oils, year, lambda sid, s, r: name_cell(sid, s, r, href), cells)
+        out += oil.table(oils, year, lambda sid, s, r: name_cell(sid, s, r, href), cells, aid("oil"), cap("oil"))
     if fxs:                              # exchange rates and gold: not revised, one figure (STYLE 17)
-        out += finance.fx_table(fxs, year, lambda sid, s, r: name_cell(sid, s, r, href), cells)
+        out += finance.fx_table(fxs, year, lambda sid, s, r: name_cell(sid, s, r, href), cells, aid("fx"), cap("fx"))
     if rates:                            # rates apart: not revised, so one figure (STYLE 13)
-        out += ('<div class="ind ind-sep ind-rt"><p class="ind-cap">Money and credit</p><table><thead><tr><th>Rate</th>'
+        out += (f'<div class="ind ind-sep ind-rt"{aid("rates")}>{cap("rates")}<table><thead><tr><th>Rate</th>'
                 '<th>Percent</th></tr></thead><tbody>' + "".join(rates) + "</tbody></table></div>")
     if polls:                            # opinion apart: a reading has its field dates and no revision
-        out += ('<div class="ind ind-sep ind-op"><p class="ind-cap">Presidential approval, Gallup</p><table><thead><tr><th>Reading</th><th>As published</th>'
+        out += (f'<div class="ind ind-sep ind-op"{aid("approval")}>{cap("approval")}<table><thead><tr><th>Reading</th><th>As published</th>'
                 '<th>Released</th><th>Today</th></tr></thead><tbody>' + "".join(polls) + "</tbody></table></div>")
     return out
+
+
+def kinds(data, sec_from, sec_to, prev_to, next_from=None):
+    """The standard tables a section's block sets (keys of TABLES), as block files them."""
+    lo, hi = datetime.date.fromisoformat(sec_from), datetime.date.fromisoformat(sec_to)
+    return {table_of(sid, s) for sid, s, r in rows_for(data, lo, hi, prev_to and datetime.date.fromisoformat(prev_to),
+                                                       next_from and datetime.date.fromisoformat(next_from))}
+
+
+def month_title(iso, year):
+    """A month table's date on hover: its section's month, the year added where it differs (build.thread_nav's rule)."""
+    y, m = int(str(iso)[:4]), int(str(iso)[5:7])
+    return MON[m - 1] if y == year else f"{MON[m - 1]} {y}"
 
 
 STYLE = """<style>
@@ -556,6 +625,7 @@ div.ind td.iname a{color:inherit;text-decoration-color:var(--rule)}
 div.ind .kv{display:inline-grid;grid-template-columns:minmax(3.5em,7.5em) auto;column-gap:.4rem}
 div.ind .kv .v{text-align:right}
 div.ind .ind-cap{margin:0 0 .15rem;font-family:var(--sans);font-size:.72rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+div.ind .ind-cap a.tnb,div.ind .ind-cap a.tnb:hover{color:var(--muted);text-decoration:none}
 div.ind:has(+ div.ind) tbody tr:last-child td{border-bottom:0}
 div.ind.ind-sep{margin-top:1.1rem}
 div.ind.ind-sep::before{content:"";display:block;width:75%;margin:0 auto .7rem;border-top:3px double var(--muted)}
@@ -581,14 +651,25 @@ def inject(page, series, mode):
         if lst.kind != "calendar":
             continue
         dated = [s for s in lst.sections if s.extra.get("from") and s.extra.get("to")]
+        nb = lambda i: (str(dated[i - 1].extra["to"]) if i else None,
+                        str(dated[i + 1].extra["from"]) if i + 1 < len(dated) else None)
+        seq = {}                                   # each standard table's sections, in order (STYLE 18)
+        for i, sec in enumerate(dated):
+            for k in kinds(data, str(sec.extra["from"]), str(sec.extra["to"]), *nb(i)):
+                seq.setdefault(k, []).append(sec)
         for i, sec in enumerate(dated):
             if here and plan.part_of(sec) not in (None, here):
                 continue                           # another part's page
             year = int(str(sec.extra["to"])[:4])
             hid = f"{lst.key}--{sec.id}" if mode == "series" else sec.id
-            nxt = str(dated[i + 1].extra["from"]) if i + 1 < len(dated) else None
-            prv = str(dated[i - 1].extra["to"]) if i else None
-            blk = block(data, str(sec.extra["from"]), str(sec.extra["to"]), prv, year, nxt, plan.href(sec))
+            prv, nxt = nb(i)
+
+            def nav(kind, sec=sec, year=year):    # the same kind's tables before and after; routed to their pages
+                xs = seq.get(kind, [])
+                j = xs.index(sec)
+                return tuple((f"#{anchor(kind, xs[k].id)}", month_title(xs[k].extra["from"], year))
+                             if 0 <= k < len(xs) else None for k in (j - 1, j + 1))
+            blk = block(data, str(sec.extra["from"]), str(sec.extra["to"]), prv, year, nxt, plan.href(sec), sec.id, nav)
             if not blk:
                 continue
             blk += plan.servant(sec)

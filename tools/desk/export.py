@@ -5,7 +5,7 @@ the hand-off of Nov. 1, item 0).
 
 writes into OUT_DIR (the scratchpad, or build/desk/; never the repo's data):
 
-    index.json        the threads (slug, name, parent, sort key, c, c2, c3, see_also, rev), the months (file, count), a
+    index.json        the threads (slug, name, parent, sort key, c with its span tags, see_also, rev), the months (file, count), a
                       search row an entry (id, date, when, thread, also, its c, the name keys, its month file),
                       and the short forms of every work the calendar cites ([[w.id]] -> "Beschloss, *Crisis Years*")
     m-<YYYYMM>.json   a month's entries in full, as the desk edits them: id, rev, file, when, date, thread, also, c, n,
@@ -46,9 +46,9 @@ def main(out):
                 f = store.stored_form(e)
                 threads.append({"slug": e["id"].split(".", 2)[2], "id": e["id"], "rev": store.rev(e),
                                 "s": f.get("s", ""), "parent": f.get("parent"), "sort": f.get("sort"),
-                                "c": f.get("c", ""), "c2": f.get("c2", ""), "c3": f.get("c3", ""),
+                                "c": f.get("c", ""),
                                 "see_also": f.get("see_also") or [], "see": f.get("see")})
-                for k in ("c", "c2", "c3"):
+                for k in ("c",):
                     cited.update(WREF.findall(f.get(k) or ""))
             continue
         name = os.path.splitext(sec.file)[0]

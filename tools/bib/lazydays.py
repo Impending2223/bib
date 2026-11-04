@@ -1,11 +1,11 @@
 """The days' folded materials, loaded when opened (daybook STYLE 14).
 
-A calendar page (cal.html, cal63.html, cal66.html) and the reader (series.html) keep, under each day, only the closed
-blocks' summaries ("Documents: PPP 3, FRUS 12"; "Other records: Committees 9, Bulletin 2"). The blocks' contents go to
-a file a month beside the page, build/days/<page>-<YYYY-MM>-<hash>.json, {"<day>d": html, "<day>o": html} (d the
-Documents, o the Other records), named by its content's hash so a cache never serves an old month. The page carries
-the months' file names and the anchors the files hold (<script type="application/json" id="lzmap">), and a small
-script (SCRIPT):
+A calendar page (a year's: cal1960.html ... cal1969.html, calprimaries.html) and the reader (series.html) keep, under
+each day, only the closed blocks' summaries ("Documents: PPP 3, FRUS 12"; "Other records: Committees 9, Bulletin 2").
+The blocks' contents go to a file a month beside the page, build/days/<page>-<YYYY-MM>-<hash>.json, {"<day>d": html,
+"<day>o": html} (d the Documents, o the Other records), named by its content's hash so a cache never serves an old month.
+The page carries the months' file names and the anchors the files hold (<script type="application/json" id="lzmap">),
+and a small script (SCRIPT):
 
   - a block opened (by a tap, Expand all, or a link) fetches its month once and fills every block of that month;
     while it loads, its summary says "loading"; a failed fetch says so and is tried again at the next opening;

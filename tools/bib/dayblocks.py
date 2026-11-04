@@ -68,6 +68,7 @@ def inject(page, series, mode):
     lst = next((l for l in series.lists.values() if l.kind == "calendar"), None)
     days = [m.group(1) for m in MARK_RE.finditer(page)]
     plan = wartable.Plan(lst, days)
+    seq = wartable.sequence(held_days(series))    # every war table, for its caption's 〈〈 and 〉〉 (wartable STYLE 8)
     seen_war, seen_year = set(), set()
     afd = afday.dates()
 
@@ -80,7 +81,7 @@ def inject(page, series, mode):
         out = []
         for name in _days().get(iso, []):
             if name == "war":
-                blk = wartable.block(plan, part, iso, part not in seen_war)
+                blk = wartable.block(plan, part, iso, part not in seen_war, seq)
                 if not blk:
                     continue
                 seen_war.add(part)

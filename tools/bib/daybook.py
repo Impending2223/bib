@@ -77,6 +77,10 @@ STYLE:
  15. Opinions, in the Documents block after FRUS and before the recordings: the opinions of the Attorney General and
     the Office of Legal Counsel of the day, from daybook/opinions.yaml (kept by hand; rendered by tools/bib/opinions.py,
     its STYLE notes): the signer, the title linked to the copy read, the cite in grey, the addressee, the holding.
+ 16. Sunday (the owner's choice, Nov. 4, 2026, from the preview of treatments): the whole day, from its rule to
+    Monday's, its heading and entries, on a faint cool wash (--sunwash: #E3EBEF; dark #1D2A31), carried past the
+    column's edges as a lit entry is (.515em), so the week's end shows while scrolling without a title, a rule or a
+    color of prominence; a lit thread's entry keeps its white over it (calsplit STYLE 7). Not the month's undated block.
 """
 import calendar
 import datetime
@@ -468,7 +472,7 @@ def section_days(lst, sec, entry_li, thread_name):
     d = lo
     while d <= hi:
         iso = d.isoformat()
-        h = [f'<div class="day" id="d{iso}"><div class="dh" role="heading" aria-level="4">'
+        h = [f'<div class="day{" sun" if d.weekday() == 6 else ""}" id="d{iso}"><div class="dh" role="heading" aria-level="4">'
              f'<span class="dn">{calendar.day_name[d.weekday()]}, {esc(day_label(d, d.year != lo.year))}</span>']
         if NO_TIMES[0] <= d <= NO_TIMES[1]:
             h.append('<span class="tm">No <i>New York Times</i> (strike)</span>')
@@ -493,7 +497,11 @@ def section_days(lst, sec, entry_li, thread_name):
 
 
 STYLE = """<style>
+:root{--sunwash:#E3EBEF}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--sunwash:#1D2A31}}
+:root[data-theme="dark"]{--sunwash:#1D2A31}
 .day{padding:.55rem 0 .35rem;border-top:1px solid var(--rule)}
+.day.sun{background:var(--sunwash);box-shadow:-.515em 0 0 var(--sunwash),.515em 0 0 var(--sunwash)}
 .day .dh{display:flex;flex-direction:column;font-family:var(--sans);line-height:1.3}
 .day .dn{font-weight:700;font-size:.92rem}
 .day .tm{font-size:.78rem;color:var(--muted);margin-top:.05rem}
