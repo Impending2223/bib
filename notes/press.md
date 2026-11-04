@@ -12,6 +12,13 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1962-04-12 | the *Wall Street Journal* (John Lawrence), the AP (Lee Linder) and the *Wilmington Evening Journal* (James L. Parks Jr.) | stories | the FBI's calls on the reporters; Linder's story | Guthman, *We Band of Brothers*, 233–34
 1963-07-05 | *Washington Evening Star* | front page | the Armory rally: two stories, McGrory's and Broder's | White and Gill, *Suite 3505*, 187
 1963-07-05 | *Baltimore Sun* | front page | the Armory rally, a crowd of 6,000 | White and Gill, *Suite 3505*, 187
+1963-10-25 | *Washington Post* | front page | Goldwater on NATO's "commanders" and tactical nuclear weapons (Chalmers Roberts) | White, *Making of the President 1964*, 296
+1964-01-07 | *Concord Daily Monitor* | front page | "Goldwater Sets Goals: End Social Security; Hit Castro" | White, *Making of the President 1964*, 104
+1964-03-10 | CBS | evening | Cronkite calls New Hampshire for Lodge at 7:18 p.m. | White, *Making of the President 1964*, 110
+1964-05-07 | *New York Times* | page not given | Russell Baker on the lawn news conference of May 6 | White, *Making of the President 1964*, 248
+1964-05-15 | NBC | evening | first to call Oregon for Rockefeller, 8:03 p.m. | White, *Making of the President 1964*, 115
+1964-06-02 | CBS | evening | Harris calls California for Goldwater at 7:20 p.m., about 53 percent | White, *Making of the President 1964*, 128
+1964-06-07 | *New York Times* | front page | "Alabama names twenty, fourteen from Colorado. Twenty-two of twenty-four in Washington. Four of eight in Hawaii, four Virginia delegates" | White, *Making of the President 1964*, 137
 1964-11-23 | Joseph Alsop's column | column | Ball's dissent; "Ball's knowledge of Asia could be comfortably contained in a fairly small thimble" | Ball, *The Past Has Another Pattern*, 384
 1965-07 | *Life* | picture | Ball in tears at Stevenson's memorial service (Check: the issue) | Ball, *The Past Has Another Pattern*, 152
 1965-11 | (a news photograph) | photograph | Rusk at Montevideo, the spit dubbed into the negative | Rusk, *As I Saw It*, 571–72

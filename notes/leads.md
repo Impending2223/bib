@@ -1492,6 +1492,11 @@ Rights in Conflict (Walker Report):
 ### White and Gill, *Suite 3505* (batch 3, second run, Nov. 4, 2026; notes/book-checks/white-suite-3505.md)
 - Part III entries proposed (R13) for Walter Trohan (*Chicago Tribune*), Jack Steele (Scripps-Howard), Victor Riesel (labor columnist), John S. Knight (*Detroit Free Press*, the Knight papers), Richard Bergholz (*Los Angeles Times*), Carlton Kent (*Chicago Sun-Times*), each treated by White, *Suite 3505*. Lee Minton (Glass Bottle Blowers, AFL-CIO vice president): no name entry; Riesel's column of Sept. 16, 1963.
 
+### White, *The Making of the President 1964* (batch 3, second run, Nov. 4, 2026; notes/book-checks/white-making-of-the-president-1965.md)
+- Rockefeller's divorce announced, Nov. 1961 (77; not in the calendar). Wyoming's legislature, 1963, for supplanting the Supreme Court (89): the Court of the Union amendment; the State's session laws. The *Time*, *Newsweek* and *Life* covers on Goldwater, fall 1963 (93). South Carolina's Republican State committee reconstituted as the Draft Goldwater Committee (95). Goldwater's bid for Len Hall, Dec. 1963 (97). Goldwater's first-week remark on the missiles, the Economic Club of New York speech, and the Guantanamo remark, Jan.–Feb. 1964 (103–04): the days, from the papers. The cartoon of Eisenhower crying (154). The *Sun-Times*'s plant-gate poll (235), the day. Eighty-odd members of Eisenhower's administration, seven of his Cabinet, against Goldwater, July 1964 (196): the statement and its day.
+- Part III entries proposed (R13): Chalmers Roberts (*Washington Post*), Russell Baker (*New York Times*), Loye Miller (*Time*), Jimmy Breslin (*Herald Tribune*), Charles Seib (*Washington Star*).
+- Rowe's questioning of Humphrey: White has an August weekend, Humphrey's memoir July (`cal.1964-07.elections-1964-6`, combined): the day.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its

@@ -342,6 +342,17 @@ entries:
         - 'w.fursenko-one-hell-of-a 349: all'
         - 'via w.fursenko-one-hell-of-a 349 n.39: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:warren-earl, name:kennedy-robert-f]
+  - id: cal.1963-12-05.transition-and-staff
+    when: Dec. 5
+    date: '1963-12-05'
+    thread: transition-and-staff
+    c: 'Afternoon, the President''s office: officials on the ceremony for the Medals of Freedom. Kennedy had planned forty-five minutes; Johnson, tired of being told what Kennedy wanted done, will give it ten minutes on television. Ball upset; Sorensen leaves the room.'
+    n: '[[w.white-making-of-the-president-1965]], 57. Names: Johnson, Kennedy, Ball, Sorensen.'
+    src:
+      c: 3e25c232
+      rows:
+        - 'w.white-making-of-the-president-1965 57: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-john-f, name:ball-george-w, name:sorensen-theodore-c]
   - id: cal.1963-12-06.opinion
     when: Dec. 6
     date: '1963-12-06'
@@ -375,6 +386,17 @@ entries:
       rows:
         - 'w.white-suite-3505 260: all'
     tags: [name:andersen-elmer-l, name:judd-walter-h, state:mn]
+  - id: cal.1963-12-06.transition-and-staff
+    when: Dec. 6
+    date: '1963-12-06'
+    thread: transition-and-staff
+    c: Johnson telephones Ball in the morning to apologize for his temper of the day before.
+    n: '[[w.white-making-of-the-president-1965]], 57. See [[cal.1963-12-05.transition-and-staff]]. Names: Johnson, Ball.'
+    src:
+      c: be9338a0
+      rows:
+        - 'w.white-making-of-the-president-1965 57: all'
+    tags: [name:johnson-lyndon-b, name:ball-george-w]
   - id: cal.1963-12-07.economy
     when: Dec. 7
     date: '1963-12-07'
@@ -474,13 +496,15 @@ entries:
     thread: elections-1964
     also: [vietnam]
     c: '*New York Times*, the lead story, no source named: Eisenhower favors Lodge, the ambassador in Saigon, for the nomination. Lodge, in the story, declines; Eisenhower, from his golf course in Georgia, denies he spoke to Lodge of it.'
-    n: '[[w.perlstein-before-the-storm]], 253; [[w.johns-vietnams-second-front]], 46–47 (the reports; Lodge''s refusal). To check: Belair, "Eisenhower Urges Lodge to Pursue GOP Nomination," *New York Times*, Dec. 8, 1963 (cited by [[w.perlstein-before-the-storm]], 253 n.1). Names: Eisenhower, Lodge.'
+    n: '[[w.perlstein-before-the-storm]], 253; [[w.johns-vietnams-second-front]], 46–47 (the reports; Lodge''s refusal); [[w.white-making-of-the-president-1965]], 84–85, 87 (Eisenhower had urged Lodge by telephone in November, during Lodge''s visit to Washington, to come home and run; the *Times*''s front-page story; Lodge silent). To check: Belair, "Eisenhower Urges Lodge to Pursue GOP Nomination," *New York Times*, Dec. 8, 1963 (cited by [[w.perlstein-before-the-storm]], 253 n.1). Names: Eisenhower, Lodge.'
     src:
       c: 84751dea
       rows:
         - 'w.perlstein-before-the-storm 253: all'
         - 'w.johns-vietnams-second-front 46–47: A, B'
         - 'via w.perlstein-before-the-storm 253 n.1: all'
+        - 'w.white-making-of-the-president-1965 84–85, 87: A'
+        - 'via w.white-making-of-the-president-1965 84 n.text: A'
     tags: [name:eisenhower-dwight-d, name:lodge-henry-cabot]
   - id: cal.1963-12-08.goldwater
     when: Dec. 8
@@ -488,12 +512,13 @@ entries:
     thread: goldwater
     also: [elections-1964]
     c: 'Goldwater''s apartment in Washington. Curtis, Cotton, Rhodes and Knowland, with White''s and Kitchel''s men, press him to run: duty. He tells Kitchel to tell Curtis and Cotton, in confidence, that he will.'
-    n: '[[w.perlstein-before-the-storm]], 257. [[w.white-suite-3505]], 254 (the meeting at the apartment; Cotton''s case of duty; Goldwater asks a week or ten days). To check: [[w.kleindienst-justice]], 31; [[w.edwards-goldwater]], 151; [[w.shadegg-what-happened-to-goldwater]], 81. Names: Goldwater, Curtis, Cotton, Rhodes, Knowland, White, Kitchel. Check: White, 254, puts Tower, O''Donnell, Baroody and Grenier there, not Curtis or Rhodes; Curtis with Cotton at Goldwater''s office two days later; the decision about Dec. 11, 255.'
+    n: '[[w.perlstein-before-the-storm]], 257; [[w.white-making-of-the-president-1965]], 96 (the meeting at The Westchester; Cotton''s plea; Goldwater asks a week or ten days). [[w.white-suite-3505]], 254 (the meeting at the apartment; Cotton''s case of duty; Goldwater asks a week or ten days). Check: Theodore White, 96, gives Dec. 5, Kitchel, Cotton and Knowland there "in the presence of a few others.". To check: [[w.kleindienst-justice]], 31; [[w.edwards-goldwater]], 151; [[w.shadegg-what-happened-to-goldwater]], 81. Names: Goldwater, Curtis, Cotton, Rhodes, Knowland, White, Kitchel. Check: White, 254, puts Tower, O''Donnell, Baroody and Grenier there, not Curtis or Rhodes; Curtis with Cotton at Goldwater''s office two days later; the decision about Dec. 11, 255.'
     src:
       c: 4d818839
       rows:
         - 'w.perlstein-before-the-storm 257: all'
         - 'w.white-suite-3505 254: A'
+        - 'w.white-making-of-the-president-1965 96: A'
     tags: [name:goldwater-barry-m, name:curtis-carl-t, name:cotton-norris-h, name:rhodes-john-j, name:knowland-william-f, name:white-f-clifton, name:kitchel-denison, city:washington]
   - id: cal.1963-12-09.civil-rights-bill
     when: Dec. 9
@@ -1389,12 +1414,13 @@ entries:
     thread: elections-1964
     also: [republican-party]
     c: Eisenhower calls on Scranton in Pennsylvania. No endorsement.
-    n: '[[w.young-two-suns-of-the]], 65. [[w.white-suite-3505]], 259 (the meeting, at Harrisburg). Names: Eisenhower, Scranton. Check: the day. Check: White, 259, gives Dec. 15, "three days" after Dec. 12.'
+    n: '[[w.young-two-suns-of-the]], 65; [[w.white-making-of-the-president-1965]], 87 (Dec. 14, the rail yard at Harrisburg, Eisenhower''s special train bound for Palm Springs; a five-hour dinner with Scranton and his wife; "stand up and run"). [[w.white-suite-3505]], 259 (the meeting, at Harrisburg). Check: Theodore White, 87, gives Dec. 14; F. Clifton White, 259, Dec. 15. Names: Eisenhower, Scranton. Check: the day. Check: White, 259, gives Dec. 15, "three days" after Dec. 12.'
     src:
       c: c57addb1
       rows:
         - 'w.young-two-suns-of-the 65: all'
         - 'w.white-suite-3505 259: all'
+        - 'w.white-making-of-the-president-1965 87: A-B'
     tags: [name:eisenhower-dwight-d, name:scranton-william-w, state:pa]
   - id: cal.1963-12.elections-1964-2
     when: Dec.
@@ -1450,13 +1476,15 @@ entries:
     date: 1963-12
     thread: goldwater
     also: [elections-1964]
-    c: Goldwater's office. Cotton and Curtis press him again to run, Kitchel and Burch silent; he does not promise. He has a private poll taken of his chances. By White's account.
-    n: '[[w.white-suite-3505]], 254–55. See [[cal.1963-12-08.goldwater]]. Names: Cotton, Curtis, Kitchel, Burch, Goldwater. Check: the date; White has it two days after the meeting at the apartment.'
+    c: 'Goldwater''s Senate office, days after the meeting at his apartment: Goldwater, Kitchel, Cotton, Curtis, Burch, F. Clifton White, Moley. Cotton and Curtis press him again to run, Kitchel and Burch silent; Moley for running, but out of the primaries; dates and timing. Goldwater does not promise. He has a private poll taken of his chances. By F. Clifton White''s and Theodore White''s accounts.'
+    n: '[[w.white-suite-3505]], 254–55 (Cotton and Curtis; Goldwater''s answer; the poll); [[w.white-making-of-the-president-1965]], 96 (those present; Moley; dates and timing). See [[cal.1963-12-08.goldwater]]. Names: Goldwater, Kitchel, Cotton, Curtis, Burch, White. Check: the day; F. Clifton White has it two days after the meeting at the apartment, Theodore White "a few days later."'
     src:
-      c: 4bd6c024
+      c: '04362542'
       rows:
-        - 'w.white-suite-3505 254–55: all'
-    tags: [name:cotton-norris-h, name:curtis-carl-t, name:kitchel-denison, name:burch-dean, name:goldwater-barry-m, city:washington]
+        - 'w.white-suite-3505 254–55: A-B, E-G'
+        - 'w.white-making-of-the-president-1965 96: A, C-E, G'
+    tags: [name:cotton-norris-h, name:curtis-carl-t, name:kitchel-denison, name:burch-dean, name:goldwater-barry-m, city:washington, name:white-f-clifton]
+    aliases: [cal.1963-12.goldwater-5]
   - id: cal.1963-12.goldwater-2
     when: Dec.
     date: 1963-12
@@ -1573,3 +1601,36 @@ entries:
         - 'w.humphrey-education-of-a-public-1976 290–93: all'
         - 'w.solberg-hubert-humphrey 242: ?'
     tags: [name:byrd-harry-f, name:humphrey-hubert-h, name:johnson-lyndon-b, name:johnson-lady-bird]
+  - id: cal.1963-12.defense
+    when: Dec.
+    date: 1963-12
+    thread: defense
+    c: 'A legislative breakfast. Johnson raises the Boston Navy Yard, on McNamara''s list of economies; McCormack angry: Kennedy''s old district, weeks after his death. Johnson yields; the yard kept a year later, when other East Coast yards close.'
+    n: '[[w.white-making-of-the-president-1965]], 50. See [[cal.1963-12-07.defense]]. Names: Johnson, McNamara, McCormack, Kennedy. Check: the day ("one morning in early December").'
+    src:
+      c: caa4bc6d
+      rows:
+        - 'w.white-making-of-the-president-1965 50: all'
+    tags: [name:johnson-lyndon-b, name:mcnamara-robert-s, name:mccormack-john-w, name:kennedy-john-f, state:ma, city:boston]
+  - id: cal.1963-12.press-and-broadcasting
+    when: Dec.
+    date: 1963-12
+    thread: press-and-broadcasting
+    c: Three New York broadcasting executives to lunch at the White House, at the President's invitation; after lunch, summoned to swim with him in the pool, all four naked. By White's account, a story told round Washington.
+    n: '[[w.white-making-of-the-president-1965]], 56. Names: Johnson. Check: the day and the executives'' names.'
+    src:
+      c: 7c8fb52d
+      rows:
+        - 'w.white-making-of-the-president-1965 56: all'
+    tags: [name:johnson-lyndon-b]
+  - id: cal.1963-12.goldwater-6
+    when: Dec.
+    date: 1963-12
+    thread: goldwater
+    c: 'Mid-December. Kitchel telephones Cotton in confidence: there will be a candidate in New Hampshire. By Christmas Goldwater home in Phoenix, preparing the announcement.'
+    n: '[[w.white-making-of-the-president-1965]], 96–97. See [[cal.1963-12.goldwater]]. Names: Kitchel, Cotton, Goldwater. Check: the day.'
+    src:
+      c: 6468d357
+      rows:
+        - 'w.white-making-of-the-president-1965 96–97: all'
+    tags: [name:kitchel-denison, name:cotton-norris-h, name:goldwater-barry-m]

@@ -88,13 +88,37 @@ entries:
       rows:
         - 'w.white-suite-3505 350: all'
     tags: [name:goldwater-barry-m, state:ne]
+  - id: cal.1964-06-01.opinion
+    when: June 1
+    date: '1964-06-01'
+    thread: opinion
+    also: [elections-1964-polls]
+    c: 'Harris in California, the Monday after Goldwater''s press barrage: Goldwater 44 percent, Rockefeller 44, undecided 12.'
+    n: '[[w.white-making-of-the-president-1965]], 122. See [[cal.1964-05-18.opinion]]. Names: Goldwater, Rockefeller.'
+    src:
+      c: 8dc7f163
+      rows:
+        - 'w.white-making-of-the-president-1965 122: all'
+        - 'via w.white-making-of-the-president-1965 122 n.text: all'
+    tags: [name:goldwater-barry-m, name:rockefeller-nelson]
+  - id: cal.1964-06-01.elections-1964-2
+    when: June 1
+    date: '1964-06-01'
+    thread: elections-1964
+    c: Los Angeles International Airport, the eve of the primary. A crowd of Goldwater's supporters boos and heckles Rockefeller's last appearance.
+    n: '[[w.white-making-of-the-president-1965]], 139 n.2. Names: Rockefeller, Goldwater. Check: the day ("the final evening").'
+    src:
+      c: a109e4b0
+      rows:
+        - 'w.white-making-of-the-president-1965 139 n.2: all'
+    tags: [name:rockefeller-nelson, name:goldwater-barry-m, city:los-angeles]
   - id: cal.1964-06-02.elections-1964
     when: June 2
     date: '1964-06-02'
     thread: elections-1964
     also: [goldwater]
     c: 'Primaries in California and South Dakota. Republican: Goldwater in California; unpledged delegates in South Dakota. Democratic: unpledged delegates in California and South Dakota.'
-    n: '[Cal. Secretary of State, *Statement of Vote, Consolidated Primary Election, June 2, 1964*, 4–7](https://archive.org/details/castatem196264cali/page/n123); [S.D. Secretary of State, *Official Election Returns for South Dakota, Primary Election, June 2, 1964*, "Presidential Delegates and Alternates"](https://sdsos.gov/elections-voting/assets/historicalelectiondata/1964P.pdf#page=4). CQ Guide 6th (2010) 407–408. [[w.young-two-suns-of-the]], 91 (Goldwater by 68,000, 51.6 percent); [[w.white-suite-3505]], 348–51 (California, Goldwater 1,089,133, Rockefeller 1,030,180; South Dakota''s 14). [[w.kabaservice-rule-and-ruin]], 95 (Goldwater by 59,000 votes of more than two million; Rockefeller carries every county but Los Angeles, Orange and San Diego). See [[cal.1964-03-10.elections-1964]]. Names: Goldwater.'
+    n: '[Cal. Secretary of State, *Statement of Vote, Consolidated Primary Election, June 2, 1964*, 4–7](https://archive.org/details/castatem196264cali/page/n123); [S.D. Secretary of State, *Official Election Returns for South Dakota, Primary Election, June 2, 1964*, "Presidential Delegates and Alternates"](https://sdsos.gov/elections-voting/assets/historicalelectiondata/1964P.pdf#page=4). CQ Guide 6th (2010) 407–408. [[w.young-two-suns-of-the]], 91 (Goldwater by 68,000, 51.6 percent); [[w.white-suite-3505]], 348–51 (California, Goldwater 1,089,133, Rockefeller 1,030,180; South Dakota''s 14); [[w.white-making-of-the-president-1965]], 128 (Goldwater 1,120,403, Rockefeller 1,052,053, 51.6 percent; some 50,000 poll counters of the three networks; Harris for CBS calls it at 7:20; Rockefeller by 106,000 in the Bay Area, Goldwater by 207,000 in Los Angeles and Orange counties). [[w.kabaservice-rule-and-ruin]], 95 (Goldwater by 59,000 votes of more than two million; Rockefeller carries every county but Los Angeles, Orange and San Diego). See [[cal.1964-03-10.elections-1964]]. Names: Goldwater.'
     src:
       c: c01c87a0
       rows:
@@ -104,6 +128,7 @@ entries:
         - 'w.young-two-suns-of-the 91: B'
         - 'w.kabaservice-rule-and-ruin 95: B'
         - 'w.white-suite-3505 348–51: A'
+        - 'w.white-making-of-the-president-1965 128: A-B'
     tags: [primary:1964-06-02, name:goldwater-barry-m]
   - id: cal.1964-06-02.alabama
     when: June 2
@@ -260,6 +285,17 @@ entries:
       rows:
         - 'w.young-two-suns-of-the 92–93: all'
     tags: [name:robinson-jackie, name:goldwater-barry-m, name:rockefeller-nelson]
+  - id: cal.1964-06-04.elections-1964-2
+    when: June 4
+    date: '1964-06-04'
+    thread: elections-1964
+    c: 'Scranton on television: he would accept the vice-presidential nomination under Goldwater. His gathering of Eastern Republicans at Harrisburg, set for that Thursday to review the Rockefeller victory expected, not held. He had refused Hugh Scott''s alliance with Rockefeller before the primary.'
+    n: '[[w.white-making-of-the-president-1965]], 142–43. See [[cal.1964-06-02.elections-1964]]. Names: Scranton, Goldwater, Scott, Rockefeller. Check: the day of the broadcast ("two days" before the Saturday).'
+    src:
+      c: 7fdcf37f
+      rows:
+        - 'w.white-making-of-the-president-1965 142–43: all'
+    tags: [name:scranton-william-w, name:goldwater-barry-m, name:scott-hugh-d-jr, name:rockefeller-nelson]
   - id: cal.1964-06-05.europe-and-the-alliance
     when: June 5
     date: '1964-06-05'
@@ -284,13 +320,14 @@ entries:
     date: '1964-06-05'
     thread: elections-1964-state-conventions
     c: 'Washington''s Republican State convention: 21 of its 24 delegates pledged to Goldwater, 3 uncommitted.'
-    n: '"21 Delegates Pledge Him Their Votes," [*News Tribune*, June 6, 1964](https://www.newspapers.com/image/734677376) (Tacoma). The figures: [Wikipedia, "1964 Republican Party presidential primaries"](https://en.wikipedia.org/wiki/1964_Republican_Party_presidential_primaries), its table of the primaries and conventions, read Oct. 22, 2026. [[w.white-suite-3505]], 354 (22 of the 24). See [[cal.1964-02-29.elections-1964-state-conventions]]. Names: Goldwater. Check: the paper (newspapers.com, by subscription; not read here). Check: White, 354, has Washington''s convention the weekend of June 13, 22 of 24 for Goldwater.'
+    n: '"21 Delegates Pledge Him Their Votes," [*News Tribune*, June 6, 1964](https://www.newspapers.com/image/734677376) (Tacoma). The figures: [Wikipedia, "1964 Republican Party presidential primaries"](https://en.wikipedia.org/wiki/1964_Republican_Party_presidential_primaries), its table of the primaries and conventions, read Oct. 22, 2026. [[w.white-suite-3505]], 354 (22 of the 24); [[w.white-making-of-the-president-1965]], 133–34, 137 (Luke Williams''s organization; 65 percent of the 5,500 precincts by the end of 1963; 22 of 24 in the *Times*''s headline of June 7). Check: Theodore White, 134, gives the State convention June 11–13; the *Times* of Sunday, June 7, 22 of 24 (137). See [[cal.1964-02-29.elections-1964-state-conventions]]. Names: Goldwater. Check: the paper (newspapers.com, by subscription; not read here). Check: White, 354, has Washington''s convention the weekend of June 13, 22 of 24 for Goldwater.'
     src:
       c: d896227e
       rows:
         - 'https://www.newspapers.com/image/734677376: all'
         - 'https://en.wikipedia.org/wiki/1964_Republican_Party_presidential_primaries: all'
         - 'w.white-suite-3505 354: A'
+        - 'w.white-making-of-the-president-1965 133–34, 137: ?'
     tags: [state:wa, name:goldwater-barry-m]
   - id: cal.1964-06-05.civil-rights-the-executive
     when: June 5
@@ -427,12 +464,13 @@ entries:
     thread: republican-party
     also: [elections-1964]
     c: 'Gettysburg. Eisenhower and Scranton, at Eisenhower''s call, over an hour: Scranton to make himself "more available" to a draft. Scranton goes on to the Governors'' Conference at Cleveland saying he has Eisenhower''s backing.'
-    n: '[[w.young-two-suns-of-the]], 94–95. [[w.white-suite-3505]], 362 (Scott''s arranging, through Milton Eisenhower; "more available"). See [[cal.1964-06-02.elections-1964]]. Names: Eisenhower, Scranton.'
+    n: '[[w.young-two-suns-of-the]], 94–95; [[w.white-making-of-the-president-1965]], 143 (Eisenhower''s call Friday evening; Scranton drives to Gettysburg, a rainy morning, an hour and a quarter at Eisenhower''s office; Eisenhower: "I''ll be watching"). [[w.white-suite-3505]], 362 (Scott''s arranging, through Milton Eisenhower; "more available"). See [[cal.1964-06-02.elections-1964]]. Names: Eisenhower, Scranton.'
     src:
       c: aeaa7718
       rows:
         - 'w.young-two-suns-of-the 94–95: all'
         - 'w.white-suite-3505 362: all'
+        - 'w.white-making-of-the-president-1965 143: A-C'
     tags: [name:eisenhower-dwight-d, name:scranton-william-w, state:pa]
   - id: cal.1964-06-06.elections-1964-state-conventions-3
     when: June 6
@@ -481,6 +519,17 @@ entries:
       rows:
         - 'w.preston-war-council 152: all'
     tags: [name:bundy-mcgeorge, name:mcnamara-robert-s]
+  - id: cal.1964-06-06.elections-1964-2
+    when: June 6
+    date: '1964-06-06'
+    thread: elections-1964
+    c: 'Michigan, a press conference. Nixon: the race still open; no part of a Stop Goldwater movement; Goldwater to come closer to the center of the mainstream. Hatfield at Cleveland: the game over, the party to close ranks behind Goldwater.'
+    n: '[[w.white-making-of-the-president-1965]], 145. Names: Nixon, Goldwater, Hatfield. Check: the day ("that weekend").'
+    src:
+      c: d19a6488
+      rows:
+        - 'w.white-making-of-the-president-1965 145: all'
+    tags: [name:nixon-richard-m, name:goldwater-barry-m, name:hatfield-mark-o, state:mi]
   - id: cal.1964-06-07.opinion
     when: June 7
     date: '1964-06-07'
@@ -507,7 +556,7 @@ entries:
     thread: republican-party
     also: [elections-1964]
     c: 'Cleveland, the Sheraton. Fifteen Republican governors at breakfast, the Governors'' Conference opening. Romney: summon Goldwater to clarify his positions. Hatfield: "George, you''re six months too late"; to Scranton, for Romney, "eleventh-hour warriors."'
-    n: '[[w.perlstein-before-the-storm]], 357; [[w.white-suite-3505]], 364–65 (the breakfast, by governors'' accounts to White; Hatfield''s words). [[w.kabaservice-rule-and-ruin]], 98 (Romney to fight for a progressive platform; Hatfield resigned to Goldwater''s nomination; no one but Rockefeller ready to challenge Goldwater, by the Ripon Society''s report). See [[cal.1964-06-07.states-and-cities-us]]. Names: Romney, Goldwater, Hatfield, Scranton.'
+    n: '[[w.perlstein-before-the-storm]], 357; [[w.white-suite-3505]], 364–65 (the breakfast, by governors'' accounts to White; Hatfield''s words); [[w.white-making-of-the-president-1965]], 146–47 (the Chieftain Room; Romney''s draft, dictated at dawn; Rockefeller applauds; Scranton in at half past ten, out early). [[w.kabaservice-rule-and-ruin]], 98 (Romney to fight for a progressive platform; Hatfield resigned to Goldwater''s nomination; no one but Rockefeller ready to challenge Goldwater, by the Ripon Society''s report). See [[cal.1964-06-07.states-and-cities-us]]. Names: Romney, Goldwater, Hatfield, Scranton.'
     src:
       c: caa504bf
       rows:
@@ -515,19 +564,21 @@ entries:
         - 'via w.perlstein-before-the-storm 357 n.1: all'
         - 'w.kabaservice-rule-and-ruin 98: C-D'
         - 'w.white-suite-3505 364–65: A'
+        - 'w.white-making-of-the-president-1965 146–47: A-C'
     tags: [name:romney-george-w, name:goldwater-barry-m, name:hatfield-mark-o, name:scranton-william-w, city:cleveland]
   - id: cal.1964-06-07.elections-1964
     when: June 7
     date: '1964-06-07'
     thread: elections-1964
     c: 'Scranton on *Face the Nation*, from Cleveland, Eisenhower having that morning drawn back from urging him to offer himself: the party to keep to the footing it had under "Lincoln, Roosevelt, and Dwight Eisenhower"; against Goldwater? "No, I am not saying that."'
-    n: '[[w.perlstein-before-the-storm]], 357–58; [[w.young-two-suns-of-the]], 95 (Eisenhower''s call; Scranton''s drawing back). [[w.white-suite-3505]], 363–66 (Eisenhower''s call that morning; *Face the Nation*). Names: Scranton, Eisenhower, Goldwater. Check: Young, 95, has Scranton on *Meet the Press*.'
+    n: '[[w.perlstein-before-the-storm]], 357–58; [[w.young-two-suns-of-the]], 95 (Eisenhower''s call; Scranton''s drawing back); [[w.white-making-of-the-president-1965]], 146–47 (Eisenhower''s call to Scranton''s suite that morning: no part of a "cabal" to stop Goldwater; the program at 12:30; "I don''t plan to go out to try and defeat Senator Goldwater"). [[w.white-suite-3505]], 363–66 (Eisenhower''s call that morning; *Face the Nation*). Names: Scranton, Eisenhower, Goldwater. Check: Young, 95, has Scranton on *Meet the Press*.'
     src:
       c: 1f572e25
       rows:
         - 'w.perlstein-before-the-storm 357–58: all'
         - 'w.young-two-suns-of-the 95: A'
         - 'w.white-suite-3505 363–66: A'
+        - 'w.white-making-of-the-president-1965 146–47: A-C'
     tags: [name:scranton-william-w, name:eisenhower-dwight-d, name:goldwater-barry-m]
   - id: cal.1964-06-07.republican-party-congress
     when: June 7
@@ -542,6 +593,29 @@ entries:
         - 'w.kabaservice-rule-and-ruin 108: all'
         - 'via w.kabaservice-rule-and-ruin 108 n.45: all'
     tags: [name:cooper-john-sherman, name:scranton-william-w, name:goldwater-barry-m]
+  - id: cal.1964-06-07.elections-1964-2
+    when: June 7
+    date: '1964-06-07'
+    thread: elections-1964
+    also: [republican-party]
+    c: 'Cleveland. Romney''s press conference just before Scranton goes on the air: "If his views deviate as indicated from the heritage of our Party, I will do everything within my power to keep him from becoming the Party''s Presidential candidate."'
+    n: '[[w.white-making-of-the-president-1965]], 147. See [[cal.1964-06-07.republican-party]]. Names: Romney.'
+    src:
+      c: 6bdd2e25
+      rows:
+        - 'w.white-making-of-the-president-1965 147: all'
+    tags: [name:romney-george-w, city:cleveland]
+  - id: cal.1964-06-07.elections-1964-3
+    when: June 7
+    date: '1964-06-07'
+    thread: elections-1964
+    c: Cleveland. Rockefeller's press conference after Scranton's broadcast. Would he support Scranton? "Governor Scranton said that he was waiting to see where Senator Goldwater stood. And after listening to his press conference, I think I've got to wait to see where he stands." Scranton's leadership? "Did you see him on television?"
+    n: '[[w.white-making-of-the-president-1965]], 147. See [[cal.1964-06-07.elections-1964]]. Names: Rockefeller, Scranton, Goldwater.'
+    src:
+      c: e9faf2e5
+      rows:
+        - 'w.white-making-of-the-president-1965 147: all'
+    tags: [name:rockefeller-nelson, name:scranton-william-w, name:goldwater-barry-m, city:cleveland]
   - id: cal.1964-06-08.laos
     when: June 8
     date: '1964-06-08'
@@ -554,13 +628,14 @@ entries:
     date: '1964-06-08'
     thread: elections-1964
     c: 'Cleveland. Nixon, up till 3 a.m. pressing Romney to run, at a press conference: "it would be a tragedy if Senator Goldwater''s views as previously stated were not challenged—and repudiated."'
-    n: '[[w.perlstein-before-the-storm]], 358. [[w.white-suite-3505]], 367–68 (Nixon with Romney till 3 a.m.; the words). Check: the day; by Perlstein''s sequence, the morning after Nixon''s arrival, after midnight. [[w.hess-republican-establishment]], 168–69 (the press conference; Romney pressed). Names: Nixon, Romney, Goldwater. Check: Hess and Broder, 168–69, have Nixon fly in "on June 9," the talks with Romney "that Monday" (June 8).'
+    n: '[[w.perlstein-before-the-storm]], 358; [[w.white-making-of-the-president-1965]], 149–53 (Nixon to Cleveland from Muskegon on Rhodes''s plane, about midnight; to bed at 2; Romney at 7 for breakfast). [[w.white-suite-3505]], 367–68 (Nixon with Romney till 3 a.m.; the words). Check: the day; by Perlstein''s sequence, the morning after Nixon''s arrival, after midnight. [[w.hess-republican-establishment]], 168–69 (the press conference; Romney pressed). Check: Theodore White, 149–53, puts Nixon''s arrival at Cleveland about midnight Monday, June 8, and his breakfast and talk with Romney on Tuesday, June 9. Names: Nixon, Romney, Goldwater. Check: Hess and Broder, 168–69, have Nixon fly in "on June 9," the talks with Romney "that Monday" (June 8).'
     src:
       c: ce08c36a
       rows:
         - 'w.perlstein-before-the-storm 358: all'
         - 'w.hess-republican-establishment 168–69: all'
         - 'w.white-suite-3505 367–68: all'
+        - 'w.white-making-of-the-president-1965 149–53: A'
     tags: [name:nixon-richard-m, name:romney-george-w, name:goldwater-barry-m, city:cleveland]
   - id: cal.1964-06-08.vietnam-congress
     when: June 8
@@ -612,6 +687,17 @@ entries:
         - 'w.humphrey-education-of-a-public-1976 482–83 n.3: A-D'
         - 'via w.humphrey-education-of-a-public-1976 482 n.3: A-D'
     tags: [name:humphrey-hubert-h, name:johnson-lyndon-b]
+  - id: cal.1964-06-08.elections-1964-2
+    when: June 8
+    date: '1964-06-08'
+    thread: elections-1964
+    c: 'Michigan. Nixon at breakfast with Romney on the party''s state; their memories of its terms disagree. Public appearances in upper Michigan; Muskegon in the evening, whence Rhodes''s plane takes him to Cleveland. Goldwater at the governors'' banquet that evening, not asked to speak to them: "I sat there just waiting for them to ask me."'
+    n: '[[w.white-making-of-the-president-1965]], 149–50. See [[cal.1964-06-07.states-and-cities-us]]. Names: Nixon, Romney, Rhodes, Goldwater.'
+    src:
+      c: 90deddc9
+      rows:
+        - 'w.white-making-of-the-president-1965 149–50: all'
+    tags: [name:nixon-richard-m, name:romney-george-w, name:rhodes-james-a, name:goldwater-barry-m, state:mi]
   - id: cal.1964-06-09.governors-in
     when: June 9
     date: '1964-06-09'
@@ -711,6 +797,29 @@ entries:
         - 'w.branch-pillar-of-fire 335: all'
         - 'via w.branch-pillar-of-fire 335 n.the-thud-of-the: all'
     tags: [name:young-andrew-j-jr, state:fl, city:st-augustine]
+  - id: cal.1964-06-09.elections-1964
+    when: June 9
+    date: '1964-06-09'
+    thread: elections-1964
+    also: [republican-party]
+    c: 'Cleveland. Romney''s day as a candidate. At the governors'' closed breakfast Scranton tells him of his work on a coalition, Brownell, Bliss and Hall for its mechanics; Rockefeller will not sit with Nixon, so Romney, Rhodes, Rockefeller and Scranton meet in Romney''s suite. Romney in Nixon''s suite, then to the press: Nixon and other governors have urged him to run. Brownell and Hall decline to manage it; by late afternoon, his advisers warning of the Detroit papers, Romney out, held to his pledge to Michigan. The governors'' ball that evening.'
+    n: '[[w.white-making-of-the-president-1965]], 150–53 (Romney''s and Nixon''s accounts of their talk differ, 152). See [[cal.1964-06-08.elections-1964]]. Names: Romney, Scranton, Brownell, Bliss, Hall, Rockefeller, Nixon, Rhodes.'
+    src:
+      c: d6fd416f
+      rows:
+        - 'w.white-making-of-the-president-1965 150–53: all'
+    tags: [name:romney-george-w, name:scranton-william-w, name:brownell-herbert-jr, name:bliss-ray-c, name:hall-leonard-w, name:rockefeller-nelson, name:nixon-richard-m, name:rhodes-james-a, city:cleveland]
+  - id: cal.1964-06-09.goldwater
+    when: June 9
+    date: '1964-06-09'
+    thread: goldwater
+    c: 'Washington. Goldwater, on the dispatches from Cleveland: "Nixon sounds more and more like Harold Stassen every day."'
+    n: '[[w.white-making-of-the-president-1965]], 153. See [[cal.1964-06-09.elections-1964]]. Names: Goldwater, Nixon.'
+    src:
+      c: f33e58ad
+      rows:
+        - 'w.white-making-of-the-president-1965 153: all'
+    tags: [name:goldwater-barry-m, name:nixon-richard-m]
   - id: cal.1964-06-10.civil-rights-bill
     when: June 10
     date: '1964-06-10'
@@ -855,6 +964,29 @@ entries:
       rows:
         - 'w.preston-war-council 150–51: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b]
+  - id: cal.1964-06-10.elections-1964
+    when: June 10
+    date: '1964-06-10'
+    thread: elections-1964
+    c: Nixon flies from Cleveland to London.
+    n: '[[w.white-making-of-the-president-1965]], 153. See [[cal.1964-06-09.elections-1964]]. Names: Nixon. Check: Theodore White says he left for Baltimore the day before, then London "the next morning."'
+    src:
+      c: e958244d
+      rows:
+        - 'w.white-making-of-the-president-1965 153: all'
+    tags: [name:nixon-richard-m]
+  - id: cal.1964-06-10.elections-1964-2
+    when: June 10
+    date: '1964-06-10'
+    thread: elections-1964
+    also: [republican-party]
+    c: Gettysburg. Thirty Pennsylvania legislators ask Eisenhower to lead a move against Goldwater, who imperils them at home. Eisenhower telephones Scranton that day with another reading of their misunderstanding. Scranton flies back from Cleveland to Harrisburg, and broods that night at Indiantown Gap.
+    n: '[[w.white-making-of-the-president-1965]], 154–56. Names: Eisenhower, Goldwater, Scranton.'
+    src:
+      c: 1c13e810
+      rows:
+        - 'w.white-making-of-the-president-1965 154–56: all'
+    tags: [name:eisenhower-dwight-d, name:goldwater-barry-m, name:scranton-william-w, state:pa]
   - id: cal.1964-06-11.robert-kennedy
     when: June 11
     date: '1964-06-11'
@@ -916,12 +1048,13 @@ entries:
     thread: elections-1964
     also: [republican-party-congress]
     c: 'Hugh Scott''s statement: Goldwater, nominated, would bring down thirty Republicans with him in November. Scranton decides to run, at the governor''s mansion.'
-    n: '[[w.perlstein-before-the-storm]], 359. [[w.kabaservice-rule-and-ruin]], 107 (Scott''s warning, thirty seats in the House; Scott''s Congressional Committee to Elect Bill Scranton; the meeting of Scranton''s advisers at Indiantown Gap, June 11: "We must do it because it is right"). See [[cal.1964-06-12.elections-1964]]. Names: Scott, Goldwater, Scranton.'
+    n: '[[w.perlstein-before-the-storm]], 359; [[w.white-making-of-the-president-1965]], 155–56 (about noon, at his office in Harrisburg; Eisenhower on the telephone: Goldwater''s vote; Mrs. Scranton at lunch; the staff summoned to the mansion that evening). [[w.kabaservice-rule-and-ruin]], 107 (Scott''s warning, thirty seats in the House; Scott''s Congressional Committee to Elect Bill Scranton; the meeting of Scranton''s advisers at Indiantown Gap, June 11: "We must do it because it is right"). See [[cal.1964-06-12.elections-1964]]. Names: Scott, Goldwater, Scranton.'
     src:
       c: 327cc897
       rows:
         - 'w.perlstein-before-the-storm 359: all'
         - 'w.kabaservice-rule-and-ruin 107: A-B'
+        - 'w.white-making-of-the-president-1965 155–56: B'
     tags: [name:scott-hugh-d-jr, name:goldwater-barry-m, name:scranton-william-w]
   - id: cal.1964-06-11.vietnam
     when: June 11
@@ -950,12 +1083,24 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v16/d64: A-C'
         - 'w.ball-past-has-another-pattern 354–55: D'
     tags: [name:ball-george-w, name:johnson-lyndon-b, name:makarios-iii, name:inonu-ismet, name:papandreou-george]
+  - id: cal.1964-06-11.elections-1964-2
+    when: June 11
+    date: '1964-06-11'
+    thread: elections-1964
+    also: [republican-party]
+    c: 'Gettysburg, the morning. Milton Eisenhower and Moos with Eisenhower; Moos, staying an hour more: he will be held responsible for Goldwater''s nomination; let him urge Scranton in. Eisenhower to Scranton by telephone: what of Goldwater''s vote against cloture? Scranton: it made him sick. Eisenhower glad; let him say so in public; Moos to Harrisburg.'
+    n: '[[w.white-making-of-the-president-1965]], 154–55. See [[cal.1964-06-11.elections-1964]]. Names: Milton Eisenhower, Eisenhower, Goldwater, Scranton.'
+    src:
+      c: e1d13ed7
+      rows:
+        - 'w.white-making-of-the-president-1965 154–55: all'
+    tags: [name:eisenhower-milton-s, name:eisenhower-dwight-d, name:goldwater-barry-m, name:scranton-william-w]
   - id: cal.1964-06-12.elections-1964
     when: June 12
     date: '1964-06-12'
     thread: elections-1964
     c: Scranton announces for the Republican nomination, at the Maryland Republican convention in Baltimore. Rockefeller withdraws for him, June 15. Check the date.
-    n: '[[w.perlstein-before-the-storm]], 359–61 (the decision, June 11; the announcement); [[w.young-two-suns-of-the]], 95–96 (the decision, June 11; his letter to Goldwater the next day; the Maryland convention; Rockefeller for Scranton, June 15); [[w.white-suite-3505]], 354–55, 368 (the announcement at Baltimore; the decision, June 11, at Indiantown Gap). [[w.kabaservice-rule-and-ruin]], 107 & n.44, 109 (the decision at Indiantown Gap, June 11; the announcement the next day, at the Maryland convention; Rockefeller out and for Scranton, June 15, his research staff and organization lent). To check: [[w.wolf-william-warren-scranton]]; [[w.white-making-of-the-president-1965]]; [[w.novak-agony-of-the-g]]. See [[cal.1964-06-02.elections-1964]]. Names: Scranton, Rockefeller. Check: Perlstein, 361, has Rockefeller give Scranton his organization and keep his delegates. Check: Young, 96, puts Scranton before a national television audience June 28 and Rockefeller''s endorsement "four days after" the announcement.'
+    n: '[[w.perlstein-before-the-storm]], 359–61 (the decision, June 11; the announcement); [[w.young-two-suns-of-the]], 95–96 (the decision, June 11; his letter to Goldwater the next day; the Maryland convention; Rockefeller for Scranton, June 15); [[w.white-suite-3505]], 354–55, 368 (the announcement at Baltimore; the decision, June 11, at Indiantown Gap); [[w.white-making-of-the-president-1965]], 156–57 (John Hay Whitney''s plane; the AP''s count that weekend, 604 for Goldwater; Rockefeller''s organization to Scranton within two days). [[w.kabaservice-rule-and-ruin]], 107 & n.44, 109 (the decision at Indiantown Gap, June 11; the announcement the next day, at the Maryland convention; Rockefeller out and for Scranton, June 15, his research staff and organization lent). To check: [[w.wolf-william-warren-scranton]]; [[w.novak-agony-of-the-g]]. See [[cal.1964-06-02.elections-1964]]. Names: Scranton, Rockefeller. Check: Perlstein, 361, has Rockefeller give Scranton his organization and keep his delegates. Check: Young, 96, puts Scranton before a national television audience June 28 and Rockefeller''s endorsement "four days after" the announcement.'
     src:
       c: 15f4c52c
       rows:
@@ -967,6 +1112,7 @@ entries:
         - 'via w.kabaservice-rule-and-ruin 107 n.44: A'
         - 'via w.kabaservice-rule-and-ruin 109 n.50: B'
         - 'w.white-suite-3505 354–55: A'
+        - 'w.white-making-of-the-president-1965 156–57: A-B'
     tags: [name:scranton-william-w, name:rockefeller-nelson]
   - id: cal.1964-06-12.africa
     when: June 12
@@ -1380,7 +1526,7 @@ entries:
     thread: civil-rights-bill
     also: [goldwater]
     c: 'Senate passes the civil rights bill, [73–27](https://voteview.com/rollcall/RS0880409): Republicans 27–6, Democrats 46–21; of the eleven Southern States'' Senators, Yarborough alone for. The Mansfield–Dirksen substitute adopted June 17, [76–18](https://voteview.com/rollcall/RS0880407); Gore''s motion to recommit refused, [25–74](https://voteview.com/rollcall/RS0880408). Goldwater, June 18: "no constitutional basis" for the public accommodations and employment titles. He votes no.'
-    n: '[110 Cong. Rec., Senate, June 18, 1964](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt11/pdf/GPO-CRECB-1964-pt11-2-1.pdf); [June 19](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt11/pdf/GPO-CRECB-1964-pt11-3-2.pdf). Statement by the President Following Senate Passage of the Civil Rights Bill, [1963–64 Pub. Papers 787](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=871) (June 19, 1964). [[w.perlstein-before-the-storm]], 363–64 (Goldwater; Dirksen, June 19); [[w.branch-pillar-of-fire]], 357; [[w.humphrey-education-of-a-public-1976]], 285 (final passage; the toast in Mansfield''s office); [[w.solberg-hubert-humphrey]], 226–27 (the passage; to Lippmann, "most significant piece of legislation of this century"); [[w.kabaservice-rule-and-ruin]], 98, 101–2 (the vote; Goldwater one of the six Republicans against; his "federal police state of mammoth proportions"); [[w.white-suite-3505]], 370–71, 429–31 (Goldwater''s speech of June 18; its text, Appendix B); [[w.sundquist-politics-and-policy]], 270 (the vote, 73–27; Goldwater); [[w.mann-walls-of-jericho]], 427–28 (the substitute, 76–18, June 17; the vote, 73–27). To check: [[w.goldberg-barry-goldwater]]. See [[cal.1964-02-10.civil-rights-bill]]; [[cal.1964-06-10.civil-rights-bill]]. Names: Yarborough, Gore, Mansfield, Dirksen, Goldwater, Johnson.'
+    n: '[110 Cong. Rec., Senate, June 18, 1964](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt11/pdf/GPO-CRECB-1964-pt11-2-1.pdf); [June 19](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt11/pdf/GPO-CRECB-1964-pt11-3-2.pdf). Statement by the President Following Senate Passage of the Civil Rights Bill, [1963–64 Pub. Papers 787](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=871) (June 19, 1964). [[w.perlstein-before-the-storm]], 363–64 (Goldwater; Dirksen, June 19); [[w.branch-pillar-of-fire]], 357; [[w.humphrey-education-of-a-public-1976]], 285 (final passage; the toast in Mansfield''s office); [[w.solberg-hubert-humphrey]], 226–27 (the passage; to Lippmann, "most significant piece of legislation of this century"); [[w.kabaservice-rule-and-ruin]], 98, 101–2 (the vote; Goldwater one of the six Republicans against; his "federal police state of mammoth proportions"); [[w.white-suite-3505]], 370–71, 429–31 (Goldwater''s speech of June 18; its text, Appendix B); [[w.sundquist-politics-and-policy]], 270 (the vote, 73–27; Goldwater); [[w.mann-walls-of-jericho]], 427–28 (the substitute, 76–18, June 17; the vote, 73–27); [[w.white-making-of-the-president-1965]], 177 n.5 (7:49 p.m., 73 to 27). To check: [[w.goldberg-barry-goldwater]]. See [[cal.1964-02-10.civil-rights-bill]]; [[cal.1964-06-10.civil-rights-bill]]. Names: Yarborough, Gore, Mansfield, Dirksen, Goldwater, Johnson.'
     src:
       c: 0963e8a4
       rows:
@@ -1399,6 +1545,7 @@ entries:
         - 'w.white-suite-3505 370–71: A'
         - 'w.sundquist-politics-and-policy 270: A, E-F'
         - 'w.mann-walls-of-jericho 427–28: A, C'
+        - 'w.white-making-of-the-president-1965 177 n.5: ?'
     tags: [name:yarborough-ralph, name:gore-albert-sr, name:mansfield-mike, name:dirksen-everett, name:goldwater-barry-m, name:johnson-lyndon-b]
   - id: cal.1964-06-19.congress
     when: June 19
@@ -2263,11 +2410,12 @@ entries:
     thread: elections-1964-state-conventions
     also: [republican-party-congress, goldwater]
     c: 'Chicago, the O''Hare Inn, the Illinois delegation''s caucus. Goldwater meets Dirksen and Percy, and comes out wearing a Percy button; Scranton answers the delegates'' questions. Dirksen: "Too long have we ridden the gray ghost of me-tooism. ... When the roll is called, I shall cast my vote for Barry Goldwater!" Polled, all but ten of the 58 for Goldwater; Percy declares for him.'
-    n: '[[w.white-suite-3505]], 373–74. Names: Goldwater, Dirksen, Percy, Scranton. Check: the day; "not long after" June 22.'
+    n: '[[w.white-suite-3505]], 373–74; [[w.white-making-of-the-president-1965]], 158–59 (Scranton at the O''Hare Inn, June 30, picketed by Goldwater''s men and by civil-rights demonstrators; Stassen heard; Goldwater 48, abstaining 8, passing 2, Scranton none). Check: Theodore White, 158, dates Scranton''s arrival at the caucus June 30. Names: Goldwater, Dirksen, Percy, Scranton. Check: the day; "not long after" June 22.'
     src:
       c: e5cfff4f
       rows:
         - 'w.white-suite-3505 373–74: all'
+        - 'w.white-making-of-the-president-1965 158–59: A, C, E'
     tags: [name:goldwater-barry-m, name:dirksen-everett, name:percy-charles-h, name:scranton-william-w, state:il, city:chicago]
   - id: cal.1964-06-30.goldwater
     when: June 30
@@ -2305,3 +2453,26 @@ entries:
       rows:
         - 'w.preston-war-council 151: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b]
+  - id: cal.1964-06.elections-1964-3
+    when: June
+    date: 1964-06
+    thread: elections-1964
+    c: 'After his resignation from Saigon, Lodge to Eisenhower to ask his help for Scranton; Eisenhower will not move in public. Rockefeller telephones Eisenhower to plead for Scranton: he must preserve his influence. "For what?"'
+    n: '[[w.white-making-of-the-president-1965]], 158. See [[cal.1964-06-23.vietnam]]. Names: Lodge, Eisenhower, Scranton, Rockefeller. Check: the days.'
+    src:
+      c: 025e1c47
+      rows:
+        - 'w.white-making-of-the-president-1965 158: all'
+    tags: [name:lodge-henry-cabot, name:eisenhower-dwight-d, name:scranton-william-w, name:rockefeller-nelson]
+  - id: cal.1964-06.elections-1964-4
+    when: June
+    date: 1964-06
+    thread: elections-1964
+    also: [republican-party]
+    c: New York, The Recess club. Dewey, asked by Scranton, gathers Brownell, Clay, the Wall Street lawyers Peck, Eaton and Bromley, Gates, Dechert for McCabe, and Rockefeller's Wells and Douglass, to sway delegates pledged to Goldwater through the regional law firms. The old names gone; within two weeks Dewey gives it up, and stays away from the convention, his first missed in twenty-eight years.
+    n: '[[w.white-making-of-the-president-1965]], 158. Names: Dewey, Scranton, Brownell, Clay, Gates. Check: the day.'
+    src:
+      c: 967afe16
+      rows:
+        - 'w.white-making-of-the-president-1965 158: all'
+    tags: [name:dewey-thomas-e, name:scranton-william-w, name:brownell-herbert-jr, name:clay-lucius-d, name:gates-thomas-s-jr, city:nyc]
