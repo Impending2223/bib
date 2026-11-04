@@ -170,3 +170,34 @@ undated "in 1961" kind. "Out of the brief": Hanoi's own decision or statement wi
 - Foreign: An Lão, Dec. 6, 1964: the day and the American advisers' record.
 - Foreign: Seaborn's attempt at a third meeting with Phạm Văn Đồng, late 1964 (Asselin, 191 n.131).
 - Foreign: the "Former Resistance Fighters" declaration of March 1960 (Asselin, 75).
+
+## Witnesses re-read, Nov. 3, 2026
+
+**Not done: the copy could not be fetched.** The owner's PDF (Drive, "Hanoi's Road to the Vietnam War, 1954-1965
+(Pierre Asselin).pdf", 6.4 MB) failed to download twice: the Drive connector shut the connection, its reply too large
+to carry. (Chen's PDF, 2.8 MB, came through.) The connector's text rendering of the file stops in chapter 2, about 185,000
+characters, before any page the calendar cites, and gives no page images. Under R4 and R54 nothing was registered from
+memory or from the Oct. 29 files. The 24 entries citing the book are untouched, and their roots and agents stand as the
+conversion left them: the 26 records of Oct. 29, each a root with `open` blank, and `agent`, `made`, `form` blank too.
+
+What the reread must take up, from the Oct. 24 and 29 readings (not verified this run):
+
+- The works the old reading left out by rule. Its records header (now `notes/extensions/shelf/cited-records/
+  asselin-hanois-road-to-the.yaml`) names "the official histories (Lich su quan su Viet Nam, Victory in Vietnam, Duiker,
+  Turley)" as works not listed. The book-check names Nguyen's 2006 article and Grossheim (162 n.139, the Ninth Plenum's
+  opening), Dommen (124 n.38, Laos), the Defense Ministry's *Lịch sử quân sự Việt Nam* (189–90, the navy's war footing,
+  `cal.1964-07-06.vietnam`). Each is a witness under R36; those with cards (*Victory in Vietnam*, Dommen, Duiker,
+  Nguyen) cannot be edges from Asselin's card at all (Chen's addendum, rule 3).
+- VKD (*Văn kiện Đảng: Toàn tập*) is a documentary collection: under R36 it is the print of each resolution and
+  directive it holds, and Asselin's VKD records (Resolution of COSVN, 1961; the Ninth Plenum's two resolutions; the
+  Politburo's instruction of Jan. 24, 1961; Lê Duẩn's letter of July 18, 1962) want `where` as the volume and page and
+  `open: not held`.
+- The Canadian branch (Seaborn: the outline of subjects, the Sullivan–Cooper visit record, Seaborn's reports of June 20
+  and Aug. 15, 1964, RG 25, LAC) meets FRUS 1964–68, I, doc. 304 n.5 and the daybook's FRUS of June and August 1964:
+  the branch R39 asks followed, and the one where rule 5 of Chen's addendum (a FRUS document cited by its link is no
+  node) will bite first.
+- Taylor's telegram of Nov. 1, 1964 (204 n.212, read Oct. 29 as FRUS I, doc. 393): its row has `copies` and should
+  have `read: true` and `agent: [name:taylor-maxwell]`; a reader cannot set them (Chen's addendum, rule 4).
+
+To fetch the copy: a smaller file (the chapters 3–7 and the notes, pp. 72–290, split out) or a connector that streams
+a file to disk would do. Time spent on this book: about 15 minutes, all on the attempts.
