@@ -1,0 +1,1685 @@
+# Batch 3 resumed (Nov. 3-4, 2026), reader "advisers": Preston, *The War Council* (w.preston-war-council), its
+# witness layer. b3-preston (Oct. 29) was merged without it (its 543 `via` rows dropped: no witness registered). The
+# witnesses: inbox/witnesses/2026-11-03-b3-preston-2.yaml; the edges: sources/witnesses/by-work/preston-war-council.yaml.
+# Each map row ties a note's item to the units the first run gave it, read again against the note: a row whose note was
+# the wrong one moved to the right note (111 n.29, 174 n.41); a row on a work in the catalogue left out (a card is no
+# witness row; the edge is kept). Letters after a note number follow the note's order of items. One edit: the Heeney
+# cable of Nov. 27, 1961, is Preston's p. 87, the note cited 85.
+patch: b3-preston-2
+by: Claude (batch 3 resumed, advisers group; Preston, The War Council)
+ops:
+- add:
+    entry:
+      id: cal.1966-03-01.transition-and-staff
+      when: Mar. 1
+      date: '1966-03-01'
+      thread: transition-and-staff
+      c: McGeorge Bundy president of the Ford Foundation, having left the White House in February.
+      n: '[[w.preston-war-council]], 237 (left in February), 240 (the Ford Foundation from Mar. 1). See [[cal.1965-11-07.transition-and-staff]]. Names: Bundy.'
+      tags:
+      - name:bundy-mcgeorge
+- add:
+    entry:
+      id: cal.1965-03.vietnam-support
+      when: Mar.
+      date: 1965-03
+      thread: vietnam-support
+      c: 'Bundy to Johnson, for a speech tying his policy in Vietnam to Kennedy''s: it would "give us protection and encouragement with some of the ''liberals'' who are falsely telling each other that your
+        policy is different from his."'
+      n: '[[w.preston-war-council]], 130. To check: [[w.small-johnson-nixon-and-the]], 40; [[w.reeves-president-kennedy]], 660–61 (cited by [[w.preston-war-council]], 130 n.6). Names: Bundy, Johnson, Kennedy.
+        Check: the day; Preston gives March 1965 and names no document.'
+      tags:
+      - name:bundy-mcgeorge
+      - name:johnson-lyndon-b
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1963-09.vietnam-2
+      when: Sept.
+      date: 1963-09
+      thread: vietnam
+      c: 'Thomson to Bowles: "People in our government are finally doing the right things and thinking the right thoughts, albeit many years too late." Lodge "absolutely superb from the moment of his arrival
+        at the post; tough, decisive, with a clear sense of purpose."'
+      n: '[[w.preston-war-council]], 185. To check: [[w.bowles-promises-to-keep]], 272, 290–91, 293, 296 (cited by [[w.preston-war-council]], 185 n.69). Names: Thomson, Bowles, Lodge. Check: the day, and
+        where the letter is; Preston''s note names none.'
+      tags:
+      - name:thomson-james-c-jr
+      - name:bowles-chester
+      - name:lodge-henry-cabot
+- edit:
+    id: cal.1961-11-27.vietnam-2
+    base: 11e471db
+    set:
+      n: '[[w.preston-war-council]], 87. To check: Heeney to Ottawa, Nov. 27, 1961, RG 25, vol. 4668, file 50052-A-13–40, pt. 2, National Archives of Canada (cited by [[w.preston-war-council]], 87 n.31).
+        Names: Heeney, Rostow. Check: the day of the talk. The passage is Preston''s p. 87, not 85.'
+      src:
+        c: 599c8360
+        rows:
+        - 'w.preston-war-council 87: all'
+        - 'via w.preston-war-council 87 n.31c: all'
+- src:
+    id: cal.1961-01-01.transition-and-staff-nsc
+    rows:
+    - 'via w.preston-war-council 40 n.8: all'
+- src:
+    id: cal.1961-02-18.transition-and-staff
+    rows:
+    - 'via w.preston-war-council 40 n.9c: A'
+    - 'via w.preston-war-council 40 n.9d: A'
+- src:
+    id: cal.1961-02-03.transition-and-staff-nsc
+    rows:
+    - 'via w.preston-war-council 41 n.10a: all'
+- src:
+    id: cal.1961-01-27.transition-and-staff-nsc
+    rows:
+    - 'via w.preston-war-council 41 n.11a: all'
+- src:
+    id: cal.1961-01-30.transition-and-staff-nsc
+    rows:
+    - 'via w.preston-war-council 42 n.12a: all'
+- src:
+    id: cal.1961-05-06.transition-and-staff
+    rows:
+    - 'via w.preston-war-council 44 n.19a: all'
+- src:
+    id: cal.1963-10-04.transition-and-staff
+    rows:
+    - 'via w.preston-war-council 44 n.19d: all'
+- src:
+    id: cal.1965-01-21.transition-and-staff
+    rows:
+    - 'via w.preston-war-council 45 n.21: all'
+- src:
+    id: cal.1964-06-11.vietnam
+    rows:
+    - 'via w.preston-war-council 48 n.29b: F'
+- src:
+    id: cal.1963-11-23.transition-and-staff-nsc
+    rows:
+    - 'via w.preston-war-council 48 n.30a: B'
+    - 'via w.preston-war-council 49 n.32a: A'
+- src:
+    id: cal.1964-02.transition-and-staff-nsc
+    rows:
+    - 'via w.preston-war-council 50 n.34c: all'
+- src:
+    id: cal.1965-01-22.vietnam
+    rows:
+    - 'via w.preston-war-council 50 n.35d: all'
+- src:
+    id: cal.1964-03-11.transition-and-staff-nsc
+    rows:
+    - 'via w.preston-war-council 52 n.40c: all'
+- src:
+    id: cal.1965-05-26.vietnam-congress
+    rows:
+    - 'via w.preston-war-council 53 n.41c: all'
+- src:
+    id: cal.1963-02-04.defense
+    rows:
+    - 'via w.preston-war-council 56 n.11a: all'
+- src:
+    id: cal.1961-08.testing-2
+    rows:
+    - 'via w.preston-war-council 57 n.13d: all'
+- src:
+    id: cal.1961-10-27.testing
+    rows:
+    - 'via w.preston-war-council 57 n.14a: all'
+- src:
+    id: cal.1962-01-15.testing
+    rows:
+    - 'via w.preston-war-council 57 n.15a: all'
+- src:
+    id: cal.1962-01-17.testing
+    rows:
+    - 'via w.preston-war-council 57 n.15b: all'
+- src:
+    id: cal.1962-11-08.testing
+    rows:
+    - 'via w.preston-war-council 60 n.23a: C'
+- src:
+    id: cal.1963-01-10.china
+    rows:
+    - 'via w.preston-war-council 60 n.23b: all'
+- src:
+    id: cal.1962-12-21.china
+    rows:
+    - 'via w.preston-war-council 61 n.25: all'
+- src:
+    id: cal.1963-05-17.china
+    rows:
+    - 'via w.preston-war-council 61 n.26a: all'
+- src:
+    id: cal.1964-09-25.china
+    rows:
+    - 'via w.preston-war-council 62 n.28a: all'
+- src:
+    id: cal.1961-03-15.cuba
+    rows:
+    - 'via w.preston-war-council 63 n.30e: B'
+- src:
+    id: cal.1961-05-04.cuba-bay-of-pigs
+    rows:
+    - 'via w.preston-war-council 64 n.31b: A'
+- src:
+    id: cal.1961-05-05.cuba
+    rows:
+    - 'via w.preston-war-council 64 n.32b: A'
+- src:
+    id: cal.1962-08-16.cuba
+    rows:
+    - 'via w.preston-war-council 64 n.32d: all'
+- src:
+    id: cal.1962-08-21.cuba
+    rows:
+    - 'via w.preston-war-council 64 n.32e: B'
+- src:
+    id: cal.1962-12-06.cuba-2
+    rows:
+    - 'via w.preston-war-council 66 n.36a: all'
+- src:
+    id: cal.1963-04-21.cuba
+    rows:
+    - 'via w.preston-war-council 66 n.36d: all'
+- src:
+    id: cal.1961-04-04.berlin-and-vienna
+    rows:
+    - 'via w.preston-war-council 67 n.38b: all'
+- src:
+    id: cal.1961-04-17.berlin-and-vienna
+    rows:
+    - 'via w.preston-war-council 67 n.38c: all'
+- src:
+    id: cal.1961-06-10.berlin-and-vienna-2
+    rows:
+    - 'via w.preston-war-council 67 n.38f: B'
+- src:
+    id: cal.1961-06-26.berlin-and-vienna
+    rows:
+    - 'via w.preston-war-council 67 n.38i: all'
+- src:
+    id: cal.1961-07-19.berlin-and-vienna
+    rows:
+    - 'via w.preston-war-council 67 n.38g: A-B'
+- src:
+    id: cal.1961-12-22.berlin-and-vienna
+    rows:
+    - 'via w.preston-war-council 67 n.38h: all'
+- src:
+    id: cal.1961-08-24.berlin-and-vienna-2
+    rows:
+    - 'via w.preston-war-council 68 n.39a: all'
+- src:
+    id: cal.1962-08-23.berlin-and-vienna
+    rows:
+    - 'via w.preston-war-council 68 n.39c: A'
+- src:
+    id: cal.1961-08-14.berlin-and-vienna
+    rows:
+    - 'via w.preston-war-council 68 n.40a: A'
+- src:
+    id: cal.1961-11-20.berlin-and-vienna
+    rows:
+    - 'via w.preston-war-council 69 n.41c: all'
+- src:
+    id: cal.1963-02-11.berlin-and-vienna
+    rows:
+    - 'via w.preston-war-council 69 n.41d: all'
+- src:
+    id: cal.1961-09-07.berlin-and-vienna
+    rows:
+    - 'via w.preston-war-council 69 n.42b: all'
+- src:
+    id: cal.1961-07-07.defense
+    rows:
+    - 'via w.preston-war-council 70 n.43c: A'
+    - 'via w.preston-war-council 70 n.43d: B'
+- src:
+    id: cal.1961-07-14.berlin-and-vienna-2
+    rows:
+    - 'via w.preston-war-council 70 n.43e: all'
+- src:
+    id: cal.1961-07-18.berlin-and-vienna
+    rows:
+    - 'via w.preston-war-council 70 n.43f: all'
+- src:
+    id: cal.1962-07-20.berlin-and-vienna
+    rows:
+    - 'via w.preston-war-council 70 n.43k: all'
+- src:
+    id: cal.1963-11-05.cuba
+    rows:
+    - 'via w.preston-war-council 70 n.44c: A'
+- src:
+    id: cal.1961-04-20.defense
+    rows:
+    - 'via w.preston-war-council 71 n.46b: all'
+- src:
+    id: cal.1964-01-13.soviet-union
+    rows:
+    - 'via w.preston-war-council 72 n.48a: all'
+- src:
+    id: cal.1964-11-23.china
+    rows:
+    - 'via w.preston-war-council 72 n.49: B'
+- src:
+    id: cal.1964-12-24.program
+    rows:
+    - 'via w.preston-war-council 73 n.50: all'
+- src:
+    id: cal.1961-08-15.foreign-aid
+    rows:
+    - 'via w.preston-war-council 77 n.6: all'
+- src:
+    id: cal.1961-01-28.vietnam
+    rows:
+    - 'via w.preston-war-council 79 n.10b: A'
+- src:
+    id: cal.1961-02-01.vietnam
+    rows:
+    - 'via w.preston-war-council 79 n.13a: all'
+- src:
+    id: cal.1961-02-14.vietnam
+    rows:
+    - 'via w.preston-war-council 79 n.13b: all'
+- src:
+    id: cal.1961-03-27.vietnam
+    rows:
+    - 'via w.preston-war-council 80 n.14b: B'
+    - 'via w.preston-war-council 80 n.14b: A'
+- src:
+    id: cal.1961-03-29.vietnam
+    rows:
+    - 'via w.preston-war-council 80 n.15a: A'
+    - 'via w.preston-war-council 84 n.26a: B'
+- src:
+    id: cal.1961-04-03.vietnam
+    rows:
+    - 'via w.preston-war-council 80 n.15b: all'
+- src:
+    id: cal.1961-04-20.vietnam
+    rows:
+    - 'via w.preston-war-council 80 n.16a: A'
+- src:
+    id: cal.1961-04-28.vietnam-2
+    rows:
+    - 'via w.preston-war-council 81 n.17: all'
+- src:
+    id: cal.1961-05-03.vietnam
+    rows:
+    - 'via w.preston-war-council 81 n.18a: all'
+- src:
+    id: cal.1961-05-04.vietnam
+    rows:
+    - 'via w.preston-war-council 81 n.18b: all'
+- src:
+    id: cal.1961-05-06.vietnam
+    rows:
+    - 'via w.preston-war-council 81 n.19a: all'
+- src:
+    id: cal.1961-05-11.vietnam-2
+    rows:
+    - 'via w.preston-war-council 81 n.19b: all'
+- src:
+    id: cal.1961-05-10.vietnam
+    rows:
+    - 'via w.preston-war-council 82 n.21b: A'
+- src:
+    id: cal.1961-04-28.vietnam-3
+    rows:
+    - 'via w.preston-war-council 82 n.22: all'
+- src:
+    id: cal.1961-04-28.vietnam
+    rows:
+    - 'via w.preston-war-council 83 n.23: all'
+- src:
+    id: cal.1961-05-11.vietnam
+    rows:
+    - 'via w.preston-war-council 83 n.24a: A'
+- src:
+    id: cal.1961-05-15.vietnam-johnson-asia
+    rows:
+    - 'via w.preston-war-council 84 n.25a: all'
+- src:
+    id: cal.1961-05-23.vietnam-johnson-asia
+    rows:
+    - 'via w.preston-war-council 84 n.25c: A'
+- src:
+    id: cal.1961-04-12.vietnam
+    rows:
+    - 'via w.preston-war-council 84 n.26b: all'
+- src:
+    id: cal.1961-05-30.vietnam-johnson-asia
+    rows:
+    - 'via w.preston-war-council 84 n.26d: all'
+- src:
+    id: cal.1961-04-15.vietnam
+    rows:
+    - 'via w.preston-war-council 84 n.26c: all'
+- src:
+    id: cal.1961-06-22.vietnam
+    rows:
+    - 'via w.preston-war-council 85 n.27: all'
+- src:
+    id: cal.1961-07-19.vietnam
+    rows:
+    - 'via w.preston-war-council 85 n.28a: all'
+- src:
+    id: cal.1961-08-02.vietnam
+    rows:
+    - 'via w.preston-war-council 85 n.28e: B'
+    - 'via w.preston-war-council 88 n.35a: A'
+- src:
+    id: cal.1961-06-30.vietnam
+    rows:
+    - 'via w.preston-war-council 85 n.28c: A'
+- src:
+    id: cal.1961-07-28.laos
+    rows:
+    - 'via w.preston-war-council 86 n.29: A'
+- src:
+    id: cal.1961-07-13.vietnam
+    rows:
+    - 'via w.preston-war-council 86 n.30b: all'
+- src:
+    id: cal.1961-07-21.vietnam
+    rows:
+    - 'via w.preston-war-council 87 n.31a: all'
+- src:
+    id: cal.1961-08-17.vietnam
+    rows:
+    - 'via w.preston-war-council 87 n.32: all'
+- src:
+    id: cal.1961-10-05.vietnam
+    rows:
+    - 'via w.preston-war-council 88 n.33: all'
+- src:
+    id: cal.1961-05-09.vietnam-2
+    rows:
+    - 'via w.preston-war-council 88 n.34: all'
+- src:
+    id: cal.1961-08-25.vietnam
+    rows:
+    - 'via w.preston-war-council 88 n.35b: all'
+- src:
+    id: cal.1961-07-27.vietnam
+    rows:
+    - 'via w.preston-war-council 89 n.39: B'
+- src:
+    id: cal.1961-07-29.vietnam
+    rows:
+    - 'via w.preston-war-council 90 n.40a: all'
+- src:
+    id: cal.1961-10-11.vietnam
+    rows:
+    - 'via w.preston-war-council 90 n.41c: B'
+- src:
+    id: cal.1961-10-05.intelligence
+    rows:
+    - 'via w.preston-war-council 90 n.43a: all'
+    - 'via w.preston-war-council 90 n.43b: all'
+- src:
+    id: cal.1961-10-10.vietnam
+    rows:
+    - 'via w.preston-war-council 90 n.44a: all'
+- src:
+    id: cal.1961-10-16.vietnam
+    rows:
+    - 'via w.preston-war-council 91 n.45: all'
+- src:
+    id: cal.1961-10-23.vietnam
+    rows:
+    - 'via w.preston-war-council 91 n.47a: all'
+- src:
+    id: cal.1961-10-18.vietnam
+    rows:
+    - 'via w.preston-war-council 91 n.49: A'
+- src:
+    id: cal.1961-10-25.vietnam
+    rows:
+    - 'via w.preston-war-council 92 n.50d: A-B'
+- src:
+    id: cal.1961-11-03.vietnam
+    rows:
+    - 'via w.preston-war-council 93 n.51a: all'
+- src:
+    id: cal.1961-10-05.vietnam-2
+    rows:
+    - 'via w.preston-war-council 93 n.52: all'
+- src:
+    id: cal.1961-11-09.vietnam
+    rows:
+    - 'via w.preston-war-council 94 n.55a: C'
+    - 'via w.preston-war-council 96 n.60b: B'
+- src:
+    id: cal.1961-11-04.vietnam-2
+    rows:
+    - 'via w.preston-war-council 94 n.55c: all'
+- src:
+    id: cal.1961-11-13.vietnam-3
+    rows:
+    - 'via w.preston-war-council 94 n.56b: all'
+- src:
+    id: cal.1961-11-13.vietnam-4
+    rows:
+    - 'via w.preston-war-council 94 n.56b: A'
+- src:
+    id: cal.1961-11-13.vietnam-2
+    rows:
+    - 'via w.preston-war-council 95 n.57a: A'
+    - 'via w.preston-war-council 95 n.57b: B'
+- src:
+    id: cal.1961-11-20.vietnam
+    rows:
+    - 'via w.preston-war-council 95 n.57d: all'
+- src:
+    id: cal.1961-11-28.vietnam-2
+    rows:
+    - 'via w.preston-war-council 95 n.57e: all'
+- src:
+    id: cal.1961-11-06.vietnam
+    rows:
+    - 'via w.preston-war-council 95 n.58a: B'
+    - 'via w.preston-war-council 97 n.62b: C'
+- src:
+    id: cal.1961-11-16.vietnam
+    rows:
+    - 'via w.preston-war-council 95 n.59a: all'
+- src:
+    id: cal.1961-11-27.vietnam
+    rows:
+    - 'via w.preston-war-council 95 n.59c: all'
+- src:
+    id: cal.1961-11-01.vietnam-2
+    rows:
+    - 'via w.preston-war-council 96 n.60a: all'
+- src:
+    id: cal.1961-11-08.vietnam
+    rows:
+    - 'via w.preston-war-council 96 n.61a: all'
+- src:
+    id: cal.1961-11-11.vietnam
+    rows:
+    - 'via w.preston-war-council 96 n.61b: A'
+- src:
+    id: cal.1961-11-11.vietnam-2
+    rows:
+    - 'via w.preston-war-council 97 n.62c: all'
+- src:
+    id: cal.1961-11-14.vietnam-2
+    rows:
+    - 'via w.preston-war-council 97 n.62d: A'
+- src:
+    id: cal.1961-10-31.vietnam
+    rows:
+    - 'via w.preston-war-council 97 n.63: all'
+- src:
+    id: cal.1961-10-31.vietnam-2
+    rows:
+    - 'via w.preston-war-council 97 n.64: all'
+- src:
+    id: cal.1961-11-01.vietnam
+    rows:
+    - 'via w.preston-war-council 98 n.65: all'
+- src:
+    id: cal.1961-11-14.vietnam
+    rows:
+    - 'via w.preston-war-council 98 n.66: all'
+- src:
+    id: cal.1961-10.vietnam-2
+    rows:
+    - 'via w.preston-war-council 99 n.67: all'
+- src:
+    id: cal.1961-11-15.vietnam-2
+    rows:
+    - 'via w.preston-war-council 99 n.68: all'
+- src:
+    id: cal.1961-07-18.transition-and-staff
+    rows:
+    - 'via w.preston-war-council 101 n.2a: all'
+- src:
+    id: cal.1962-01.transition-and-staff
+    rows:
+    - 'via w.preston-war-council 101 n.2c: all'
+- src:
+    id: cal.1962-01-05.transition-and-staff-nsc
+    rows:
+    - 'via w.preston-war-council 103 n.6d: A'
+- src:
+    id: cal.1961-12-18.defense
+    rows:
+    - 'via w.preston-war-council 105 n.11a: all'
+- src:
+    id: cal.1962-01-18.defense
+    rows:
+    - 'via w.preston-war-council 105 n.11b: all'
+- src:
+    id: cal.1962-04-06.vietnam
+    rows:
+    - 'via w.preston-war-council 105 n.12a: all'
+- src:
+    id: cal.1962-09-18.vietnam-2
+    rows:
+    - 'via w.preston-war-council 106 n.15: all'
+- src:
+    id: cal.1962-02-02.vietnam
+    rows:
+    - 'via w.preston-war-council 107 n.16a: all'
+- src:
+    id: cal.1962-05-02.vietnam
+    rows:
+    - 'via w.preston-war-council 107 n.17a: B'
+    - 'via w.preston-war-council 109 n.21b: A'
+- src:
+    id: cal.1962-08-18.vietnam
+    rows:
+    - 'via w.preston-war-council 107 n.17c: A'
+    - 'via w.preston-war-council 109 n.22c: B'
+- src:
+    id: cal.1962-09-28.vietnam
+    rows:
+    - 'via w.preston-war-council 108 n.18a: all'
+- src:
+    id: cal.1962-04-16.vietnam
+    rows:
+    - 'via w.preston-war-council 108 n.19c: all'
+- src:
+    id: cal.1962-07-12.intelligence
+    rows:
+    - 'via w.preston-war-council 108 n.19f: all'
+- src:
+    id: cal.1962-10-04.vietnam
+    rows:
+    - 'via w.preston-war-council 108 n.19b: all'
+- src:
+    id: cal.1962-10.vietnam
+    rows:
+    - 'via w.preston-war-council 108 n.19b: all'
+- src:
+    id: cal.1962-05-07.vietnam
+    rows:
+    - 'via w.preston-war-council 109 n.23a: all'
+- src:
+    id: cal.1962-05-08.vietnam
+    rows:
+    - 'via w.preston-war-council 109 n.23b: all'
+- src:
+    id: cal.1962-05-29.vietnam
+    rows:
+    - 'via w.preston-war-council 110 n.25a: A'
+- src:
+    id: cal.1962-06-20.vietnam
+    rows:
+    - 'via w.preston-war-council 110 n.25b: A'
+    - 'via w.preston-war-council 113 n.36c: B'
+- src:
+    id: cal.1962-08-06.vietnam
+    rows:
+    - 'via w.preston-war-council 110 n.26: all'
+- src:
+    id: cal.1962-04-04.vietnam
+    rows:
+    - 'via w.preston-war-council 111 n.27a: A'
+    - 'via w.preston-war-council 111 n.28a: B'
+- src:
+    id: cal.1962-05-01.vietnam-2
+    rows:
+    - 'via w.preston-war-council 111 n.28c: all'
+- src:
+    id: cal.1962-04-04.vietnam-2
+    rows:
+    - 'via w.preston-war-council 111 n.29b: A'
+    - 'via w.preston-war-council 111 n.29b: B'
+- src:
+    id: cal.1962-06-13.vietnam
+    rows:
+    - 'via w.preston-war-council 112 n.31a: A'
+- src:
+    id: cal.1962-07-12.vietnam
+    rows:
+    - 'via w.preston-war-council 112 n.32b: A'
+- src:
+    id: cal.1962-07.vietnam
+    rows:
+    - 'via w.preston-war-council 112 n.32a: all'
+- src:
+    id: cal.1962-06-07.vietnam
+    rows:
+    - 'via w.preston-war-council 112 n.33a: all'
+- src:
+    id: cal.1962-07-13.vietnam
+    rows:
+    - 'via w.preston-war-council 112 n.33b: all'
+- src:
+    id: cal.1962-05-05.vietnam
+    rows:
+    - 'via w.preston-war-council 113 n.36a: all'
+- src:
+    id: cal.1962-08-07.vietnam
+    rows:
+    - 'via w.preston-war-council 113 n.36b: B'
+- src:
+    id: cal.1962-07-31.vietnam
+    rows:
+    - 'via w.preston-war-council 114 n.37b: all'
+- src:
+    id: cal.1962-12-03.vietnam
+    rows:
+    - 'via w.preston-war-council 114 n.38: all'
+- src:
+    id: cal.1962-08-08.vietnam
+    rows:
+    - 'via w.preston-war-council 114 n.39b: B'
+- src:
+    id: cal.1962-10-13.vietnam
+    rows:
+    - 'via w.preston-war-council 115 n.40a: all'
+- src:
+    id: cal.1962-12-03.vietnam-2
+    rows:
+    - 'via w.preston-war-council 115 n.41a: all'
+- src:
+    id: cal.1963-01-02.vietnam-2
+    rows:
+    - 'via w.preston-war-council 116 n.42a: all'
+- src:
+    id: cal.1963-01.vietnam
+    rows:
+    - 'via w.preston-war-council 116 n.42d: all'
+- src:
+    id: cal.1963-01-15.vietnam
+    rows:
+    - 'via w.preston-war-council 116 n.43c: all'
+- src:
+    id: cal.1963-01-25.vietnam
+    rows:
+    - 'via w.preston-war-council 116 n.43b: A-C'
+- src:
+    id: cal.1963-03-09.vietnam
+    rows:
+    - 'via w.preston-war-council 117 n.44b: all'
+- src:
+    id: cal.1963-02-01.vietnam
+    rows:
+    - 'via w.preston-war-council 117 n.45: A-B'
+- src:
+    id: cal.1963-02-04.vietnam
+    rows:
+    - 'via w.preston-war-council 117 n.46: all'
+- src:
+    id: cal.1963-02-08.vietnam
+    rows:
+    - 'via w.preston-war-council 118 n.47a: all'
+- src:
+    id: cal.1963-02-12.vietnam
+    rows:
+    - 'via w.preston-war-council 118 n.47b: all'
+- src:
+    id: cal.1963-03-08.vietnam
+    rows:
+    - 'via w.preston-war-council 118 n.48b: all'
+- src:
+    id: cal.1963-01-28.vietnam
+    rows:
+    - 'via w.preston-war-council 118 n.49a: B'
+- src:
+    id: cal.1963-05-10.vietnam
+    rows:
+    - 'via w.preston-war-council 118 n.49c: B'
+- src:
+    id: cal.1963-02-26.vietnam
+    rows:
+    - 'via w.preston-war-council 119 n.50: all'
+- src:
+    id: cal.1963-03-29.vietnam
+    rows:
+    - 'via w.preston-war-council 119 n.52: all'
+- src:
+    id: cal.1963-06-17.vietnam
+    rows:
+    - 'via w.preston-war-council 121 n.55c: all'
+- src:
+    id: cal.1963-08-06.vietnam
+    rows:
+    - 'via w.preston-war-council 121 n.55a: B'
+- src:
+    id: cal.1963-08-21.vietnam
+    rows:
+    - 'via w.preston-war-council 121 n.56c: A-D'
+- src:
+    id: cal.1963-08-23.intelligence
+    rows:
+    - 'via w.preston-war-council 121 n.57a: all'
+- src:
+    id: cal.1963-08-24.vietnam-2
+    rows:
+    - 'via w.preston-war-council 121 n.57c: C'
+- src:
+    id: cal.1963-08-24.vietnam
+    rows:
+    - 'via w.preston-war-council 122 n.58: E-F'
+    - 'via w.preston-war-council 123 n.59c: B-C'
+- src:
+    id: cal.1963-08-24.vietnam-4
+    rows:
+    - 'via w.preston-war-council 123 n.62: all'
+- src:
+    id: cal.1963-08-26.vietnam-3
+    rows:
+    - 'via w.preston-war-council 124 n.63a: all'
+- src:
+    id: cal.1963-08-26.vietnam
+    rows:
+    - 'via w.preston-war-council 124 n.64a: A'
+- src:
+    id: cal.1963-08-28.vietnam
+    rows:
+    - 'via w.preston-war-council 124 n.64b: A'
+- src:
+    id: cal.1963-09-04.vietnam
+    rows:
+    - 'via w.preston-war-council 124 n.64c: all'
+- src:
+    id: cal.1963-08-29.vietnam
+    rows:
+    - 'via w.preston-war-council 124 n.65a: A'
+- src:
+    id: cal.1963-08-31.vietnam-3
+    rows:
+    - 'via w.preston-war-council 125 n.66a: A'
+- src:
+    id: cal.1963-09-02.vietnam-2
+    rows:
+    - 'via w.preston-war-council 125 n.66b: all'
+- src:
+    id: cal.1963-09-10.vietnam
+    rows:
+    - 'via w.preston-war-council 125 n.67f: A'
+- src:
+    id: cal.1963-09-11.vietnam-3
+    rows:
+    - 'via w.preston-war-council 125 n.67j: all'
+- src:
+    id: cal.1963-09-11.vietnam-4
+    rows:
+    - 'via w.preston-war-council 125 n.67h: all'
+    - 'via w.preston-war-council 125 n.67i: all'
+- src:
+    id: cal.1963-09-11.vietnam-2
+    rows:
+    - 'via w.preston-war-council 125 n.67k: B'
+- src:
+    id: cal.1963-09.vietnam
+    rows:
+    - 'via w.preston-war-council 125 n.67a: all'
+- src:
+    id: cal.1963-09-24.vietnam-congress-2
+    rows:
+    - 'via w.preston-war-council 126 n.69e: all'
+- src:
+    id: cal.1963-09-16.vietnam-2
+    rows:
+    - 'via w.preston-war-council 126 n.70a: C'
+- src:
+    id: cal.1963-09-18.vietnam-4
+    rows:
+    - 'via w.preston-war-council 126 n.70b: all'
+- src:
+    id: cal.1963-09-21.vietnam
+    rows:
+    - 'via w.preston-war-council 126 n.70d: A'
+- src:
+    id: cal.1963-09-29.vietnam-2
+    rows:
+    - 'via w.preston-war-council 126 n.70e: all'
+- src:
+    id: cal.1963-10-05.vietnam-3
+    rows:
+    - 'via w.preston-war-council 127 n.72: all'
+- src:
+    id: cal.1963-10-24.vietnam
+    rows:
+    - 'via w.preston-war-council 127 n.73a: D'
+- src:
+    id: cal.1963-10-25.vietnam-4
+    rows:
+    - 'via w.preston-war-council 127 n.73b: A'
+    - 'via w.preston-war-council 127 n.73b: B'
+- src:
+    id: cal.1963-10-29.vietnam-3
+    rows:
+    - 'via w.preston-war-council 127 n.74a: all'
+- src:
+    id: cal.1963-10-30.vietnam-2
+    rows:
+    - 'via w.preston-war-council 127 n.74c: all'
+    - 'via w.preston-war-council 127 n.75c: all'
+- src:
+    id: cal.1963-11-01.vietnam-3
+    rows:
+    - 'via w.preston-war-council 128 n.76a: B, D'
+- src:
+    id: cal.1963-11-02.vietnam-3
+    rows:
+    - 'via w.preston-war-council 128 n.76b: all'
+- src:
+    id: cal.1963-11-02.vietnam
+    rows:
+    - 'via w.preston-war-council 128 n.77b: A'
+- src:
+    id: cal.1963-11-04.vietnam-3
+    rows:
+    - 'via w.preston-war-council 128 n.77a: all'
+- src:
+    id: cal.1963-11-22.vietnam
+    rows:
+    - 'via w.preston-war-council 129 n.1a: A'
+    - 'via w.preston-war-council 129 n.2a: B-C'
+- src:
+    id: cal.1963-10-11.vietnam
+    rows:
+    - 'via w.preston-war-council 132 n.8b: A'
+- src:
+    id: cal.1963-11-26.vietnam
+    rows:
+    - 'via w.preston-war-council 132 n.9a: A, C, E'
+- src:
+    id: cal.1963-12-12.vietnam
+    rows:
+    - 'via w.preston-war-council 133 n.10c: B'
+- src:
+    id: cal.1963-12-02.vietnam
+    rows:
+    - 'via w.preston-war-council 133 n.10a: all'
+    - 'via w.preston-war-council 133 n.10b: all'
+- src:
+    id: cal.1963-12-16.intelligence
+    rows:
+    - 'via w.preston-war-council 133 n.11a: all'
+- src:
+    id: cal.1964-02-14.vietnam-2
+    rows:
+    - 'via w.preston-war-council 133 n.11c: all'
+- src:
+    id: cal.1963-11-20.vietnam
+    rows:
+    - 'via w.preston-war-council 133 n.12: A-B'
+- src:
+    id: cal.1963-12-11.vietnam
+    rows:
+    - 'via w.preston-war-council 134 n.13a: A-B'
+    - 'via w.preston-war-council 142 n.30a: C'
+- src:
+    id: cal.1964-02-02.vietnam
+    rows:
+    - 'via w.preston-war-council 134 n.13b: all'
+- src:
+    id: cal.1963-11-22.vietnam-2
+    rows:
+    - 'via w.preston-war-council 134 n.14a: all'
+- src:
+    id: cal.1963-12-09.vietnam
+    rows:
+    - 'via w.preston-war-council 134 n.14b: all'
+- src:
+    id: cal.1964-01-09.vietnam-2
+    rows:
+    - 'via w.preston-war-council 134 n.15: all'
+- src:
+    id: cal.1964-03-30.vietnam
+    rows:
+    - 'via w.preston-war-council 135 n.16d: all'
+- src:
+    id: cal.1964-05-20.vietnam
+    rows:
+    - 'via w.preston-war-council 135 n.16b: all'
+- src:
+    id: cal.1963-11-07.vietnam
+    rows:
+    - 'via w.preston-war-council 135 n.17b: all'
+- src:
+    id: cal.1963-11-13.vietnam-2
+    rows:
+    - 'via w.preston-war-council 136 n.18: all'
+- src:
+    id: cal.1963-11-14.vietnam-2
+    rows:
+    - 'via w.preston-war-council 136 n.19a: all'
+- src:
+    id: cal.1963-12-10.vietnam
+    rows:
+    - 'via w.preston-war-council 136 n.19b: all'
+- src:
+    id: cal.1963-12-16.vietnam
+    rows:
+    - 'via w.preston-war-council 137 n.20: all'
+- src:
+    id: cal.1964-01-06.vietnam
+    rows:
+    - 'via w.preston-war-council 137 n.21a: all'
+- src:
+    id: cal.1964-01-09.vietnam
+    rows:
+    - 'via w.preston-war-council 138 n.22a: A, D'
+- src:
+    id: cal.1964-02-01.vietnam-congress
+    rows:
+    - 'via w.preston-war-council 138 n.23: all'
+- src:
+    id: cal.1964-02-06.vietnam
+    rows:
+    - 'via w.preston-war-council 138 n.24a: A'
+    - 'via w.preston-war-council 140 n.27: B'
+- src:
+    id: cal.1964-02-10.vietnam
+    rows:
+    - 'via w.preston-war-council 138 n.24b: C-D'
+- src:
+    id: cal.1964-03-09.vietnam-2
+    rows:
+    - 'via w.preston-war-council 139 n.25a: all'
+- src:
+    id: cal.1964-03-24.vietnam
+    rows:
+    - 'via w.preston-war-council 139 n.25b: all'
+- src:
+    id: cal.1964-03-04.vietnam-3
+    rows:
+    - 'via w.preston-war-council 139 n.26a: all'
+- src:
+    id: cal.1964-04-20.vietnam
+    rows:
+    - 'via w.preston-war-council 139 n.26b: all'
+- src:
+    id: cal.1964-03-13.vietnam
+    rows:
+    - 'via w.preston-war-council 140 n.28a: B'
+- src:
+    id: cal.1964-03-14.vietnam
+    rows:
+    - 'via w.preston-war-council 140 n.28b: all'
+- src:
+    id: cal.1964-03-20.vietnam
+    rows:
+    - 'via w.preston-war-council 140 n.28c: all'
+- src:
+    id: cal.1964-03-17.vietnam
+    rows:
+    - 'via w.preston-war-council 141 n.29b: A-B'
+- src:
+    id: cal.1964-04-01.vietnam
+    rows:
+    - 'via w.preston-war-council 142 n.31: all'
+- src:
+    id: cal.1964-05-24.vietnam
+    rows:
+    - 'via w.preston-war-council 142 n.32: D'
+    - 'via w.preston-war-council 147 n.43a: F'
+- src:
+    id: cal.1964-05-29.vietnam-2
+    rows:
+    - 'via w.preston-war-council 142 n.33c: all'
+- src:
+    id: cal.1964-06-02.vietnam-2
+    rows:
+    - 'via w.preston-war-council 142 n.33a: all'
+- src:
+    id: cal.1964-07-11.soviet-union
+    rows:
+    - 'via w.preston-war-council 142 n.33b: all'
+- src:
+    id: cal.1964-01-16.vietnam
+    rows:
+    - 'via w.preston-war-council 143 n.34c: A'
+- src:
+    id: cal.1964-02-04.vietnam
+    rows:
+    - 'via w.preston-war-council 143 n.34b: A'
+- src:
+    id: cal.1964-02-04.vietnam-2
+    rows:
+    - 'via w.preston-war-council 143 n.35a: A'
+- src:
+    id: cal.1964-03-03.vietnam-2
+    rows:
+    - 'via w.preston-war-council 143 n.35c: all'
+- src:
+    id: cal.1964-03-18.vietnam
+    rows:
+    - 'via w.preston-war-council 143 n.36a: all'
+- src:
+    id: cal.1964-03-31.vietnam
+    rows:
+    - 'via w.preston-war-council 144 n.37a: all'
+    - 'via w.preston-war-council 149 n.46b: B'
+- src:
+    id: cal.1964-04-28.vietnam
+    rows:
+    - 'via w.preston-war-council 145 n.38a: B'
+- src:
+    id: cal.1964-05-05.vietnam
+    rows:
+    - 'via w.preston-war-council 145 n.38b: all'
+- src:
+    id: cal.1964-05-26.vietnam-3
+    rows:
+    - 'via w.preston-war-council 146 n.39: all'
+- src:
+    id: cal.1964-05-26.vietnam-congress-2
+    rows:
+    - 'via w.preston-war-council 146 n.40c: B'
+- src:
+    id: cal.1964-05-27.vietnam-2
+    rows:
+    - 'via w.preston-war-council 146 n.41a: G'
+- src:
+    id: cal.1964-05-29.vietnam
+    rows:
+    - 'via w.preston-war-council 146 n.41b: B'
+- src:
+    id: cal.1964-05-22.vietnam
+    rows:
+    - 'via w.preston-war-council 147 n.42a: A-B, D'
+- src:
+    id: cal.1964-05-21.vietnam
+    rows:
+    - 'via w.preston-war-council 147 n.42b: all'
+    - 'via w.preston-war-council 147 n.42c: all'
+- src:
+    id: cal.1964-05-01.vietnam
+    rows:
+    - 'via w.preston-war-council 148 n.44: all'
+- src:
+    id: cal.1964-06-25.intelligence
+    rows:
+    - 'via w.preston-war-council 149 n.45b: all'
+- src:
+    id: cal.1964-06-13.vietnam
+    rows:
+    - 'via w.preston-war-council 149 n.47b: all'
+- src:
+    id: cal.1964-06-10.vietnam
+    rows:
+    - 'via w.preston-war-council 149 n.47c: A'
+    - 'via w.preston-war-council 150 n.48a: B'
+- src:
+    id: cal.1964-06-15.vietnam
+    rows:
+    - 'via w.preston-war-council 150 n.48c: C'
+- src:
+    id: cal.1964-06-15.vietnam-2
+    rows:
+    - 'via w.preston-war-council 150 n.48b: all'
+- src:
+    id: cal.1964-06-06.vietnam
+    rows:
+    - 'via w.preston-war-council 150 n.49a: all'
+- src:
+    id: cal.1964-06-10.vietnam-2
+    rows:
+    - 'via w.preston-war-council 151 n.50a: all'
+- src:
+    id: cal.1964-06-15.vietnam-3
+    rows:
+    - 'via w.preston-war-council 151 n.50b: all'
+- src:
+    id: cal.1964-06-25.vietnam
+    rows:
+    - 'via w.preston-war-council 151 n.51: all'
+- src:
+    id: cal.1964-07-16.vietnam
+    rows:
+    - 'via w.preston-war-council 151 n.52d: all'
+- src:
+    id: cal.1964-06.intelligence
+    rows:
+    - 'via w.preston-war-council 151 n.52b: all'
+- src:
+    id: cal.1964-07-15.vietnam
+    rows:
+    - 'via w.preston-war-council 152 n.53a: all'
+- src:
+    id: cal.1964-07-27.vietnam-2
+    rows:
+    - 'via w.preston-war-council 152 n.53b: all'
+- src:
+    id: cal.1964-06-06.vietnam-2
+    rows:
+    - 'via w.preston-war-council 152 n.53c: all'
+- src:
+    id: cal.1964-08-03.vietnam-3
+    rows:
+    - 'via w.preston-war-council 152 n.55a: C'
+- src:
+    id: cal.1964-08-05.vietnam-5
+    rows:
+    - 'via w.preston-war-council 152 n.56a: all'
+    - 'via w.preston-war-council 152 n.56b: all'
+- src:
+    id: cal.1964-08-06.vietnam-2
+    rows:
+    - 'via w.preston-war-council 152 n.56c: C'
+- src:
+    id: cal.1964-08-05.vietnam-3
+    rows:
+    - 'via w.preston-war-council 152 n.56d: A-B'
+    - 'via w.preston-war-council 153 n.57b: C'
+- src:
+    id: cal.1964-07-20.intelligence
+    rows:
+    - 'via w.preston-war-council 153 n.57c: all'
+- src:
+    id: cal.1964-08-21.vietnam-2-2
+    rows:
+    - 'via w.preston-war-council 153 n.57a: all'
+- src:
+    id: cal.1964-08-31.vietnam
+    rows:
+    - 'via w.preston-war-council 154 n.58a: all'
+- src:
+    id: cal.1964-09-02.vietnam
+    rows:
+    - 'via w.preston-war-council 154 n.58b: all'
+- src:
+    id: cal.1964-09-08.vietnam-3
+    rows:
+    - 'via w.preston-war-council 156 n.1b: A, C'
+- src:
+    id: cal.1964-09-10.vietnam
+    rows:
+    - 'via w.preston-war-council 156 n.1c: A'
+- src:
+    id: cal.1964-09-24.vietnam
+    rows:
+    - 'via w.preston-war-council 156 n.1a: all'
+- src:
+    id: cal.1964-09-24.vietnam-2
+    rows:
+    - 'via w.preston-war-council 157 n.2d: all'
+- src:
+    id: cal.1964-09-28.intelligence
+    rows:
+    - 'via w.preston-war-council 157 n.2b: all'
+- src:
+    id: cal.1964-11-07.vietnam
+    rows:
+    - 'via w.preston-war-council 157 n.2c: all'
+- src:
+    id: cal.1964-10-01.vietnam
+    rows:
+    - 'via w.preston-war-council 157 n.2a: all'
+    - 'via w.preston-war-council 157 n.3a: all'
+- src:
+    id: cal.1964-10-19.vietnam
+    rows:
+    - 'via w.preston-war-council 157 n.3b: all'
+- src:
+    id: cal.1964-10-05.vietnam
+    rows:
+    - 'via w.preston-war-council 158 n.4b: A'
+- src:
+    id: cal.1964-03-02.vietnam-4
+    rows:
+    - 'via w.preston-war-council 159 n.5c: all'
+- src:
+    id: cal.1964-12-02.vietnam-2
+    rows:
+    - 'via w.preston-war-council 159 n.6a: all'
+- src:
+    id: cal.1964-12-05.vietnam
+    rows:
+    - 'via w.preston-war-council 159 n.6b: A'
+- src:
+    id: cal.1964-12-09.vietnam
+    rows:
+    - 'via w.preston-war-council 160 n.7b: A-B'
+- src:
+    id: cal.1964-12-17.vietnam
+    rows:
+    - 'via w.preston-war-council 160 n.8b: B-C'
+- src:
+    id: cal.1964-11-19.vietnam
+    rows:
+    - 'via w.preston-war-council 162 n.11a: B'
+- src:
+    id: cal.1964-11-28.vietnam-2
+    rows:
+    - 'via w.preston-war-council 162 n.11b: all'
+- src:
+    id: cal.1964-12-10.vietnam
+    rows:
+    - 'via w.preston-war-council 162 n.12a: all'
+- src:
+    id: cal.1964-12-17.vietnam-2
+    rows:
+    - 'via w.preston-war-council 162 n.12b: all'
+- src:
+    id: cal.1964-12-23.vietnam-2
+    rows:
+    - 'via w.preston-war-council 162 n.12c: all'
+- src:
+    id: cal.1965-01-12.vietnam
+    rows:
+    - 'via w.preston-war-council 163 n.13a: all'
+- src:
+    id: cal.1965-01-15.vietnam-2
+    rows:
+    - 'via w.preston-war-council 163 n.13b: all'
+- src:
+    id: cal.1965-01-12.china
+    rows:
+    - 'via w.preston-war-council 163 n.14a: all'
+- src:
+    id: cal.1965-01-04.vietnam
+    rows:
+    - 'via w.preston-war-council 163 n.15b: all'
+- src:
+    id: cal.1964-12-04.vietnam
+    rows:
+    - 'via w.preston-war-council 164 n.16a: all'
+- src:
+    id: cal.1965-01-07.vietnam
+    rows:
+    - 'via w.preston-war-council 164 n.16b: A-B'
+- src:
+    id: cal.1965-01-09.vietnam
+    rows:
+    - 'via w.preston-war-council 164 n.17g: all'
+- src:
+    id: cal.1965-01-06.vietnam-2
+    rows:
+    - 'via w.preston-war-council 164 n.18b: all'
+- src:
+    id: cal.1965-01-14.vietnam
+    rows:
+    - 'via w.preston-war-council 165 n.19: A'
+- src:
+    id: cal.1965-01-07.vietnam-2
+    rows:
+    - 'via w.preston-war-council 165 n.20: all'
+- src:
+    id: cal.1965-01-26.vietnam-3
+    rows:
+    - 'via w.preston-war-council 165 n.21a: all'
+- src:
+    id: cal.1965-01-26.vietnam-2
+    rows:
+    - 'via w.preston-war-council 165 n.22b: C'
+- src:
+    id: cal.1965-01-27.vietnam-2
+    rows:
+    - 'via w.preston-war-council 166 n.23: all'
+- src:
+    id: cal.1965-01-26.vietnam-4
+    rows:
+    - 'via w.preston-war-council 168 n.26e: all'
+- src:
+    id: cal.1965-01-27.vietnam-3
+    rows:
+    - 'via w.preston-war-council 168 n.27a: A'
+- src:
+    id: cal.1965-01-31.vietnam
+    rows:
+    - 'via w.preston-war-council 168 n.27b: A'
+- src:
+    id: cal.1965-01-30.vietnam-2
+    rows:
+    - 'via w.preston-war-council 169 n.28b: all'
+- src:
+    id: cal.1965-02-01.vietnam
+    rows:
+    - 'via w.preston-war-council 169 n.28c: all'
+- src:
+    id: cal.1965-01-29.vietnam
+    rows:
+    - 'via w.preston-war-council 169 n.29b: all'
+- src:
+    id: cal.1965-02-01.intelligence
+    rows:
+    - 'via w.preston-war-council 170 n.31a: A'
+    - 'via w.preston-war-council 170 n.31a: B'
+- src:
+    id: cal.1965-02-03.vietnam
+    rows:
+    - 'via w.preston-war-council 170 n.31c: A'
+- src:
+    id: cal.1965-02-04.vietnam
+    rows:
+    - 'via w.preston-war-council 171 n.33b: B'
+    - 'via w.preston-war-council 172 n.35a: B'
+- src:
+    id: cal.1965-01-13.vietnam
+    rows:
+    - 'via w.preston-war-council 171 n.33a: all'
+- src:
+    id: cal.1965-02-03.vietnam-2
+    rows:
+    - 'via w.preston-war-council 171 n.34a: all'
+- src:
+    id: cal.1965-02-14.vietnam
+    rows:
+    - 'via w.preston-war-council 171 n.34b: all'
+- src:
+    id: cal.1965-02-06.vietnam-2
+    rows:
+    - 'via w.preston-war-council 172 n.35c: all'
+- src:
+    id: cal.1965-02-04.vietnam-3
+    rows:
+    - 'via w.preston-war-council 172 n.35b: all'
+- src:
+    id: cal.1965-02-07.vietnam-3
+    rows:
+    - 'via w.preston-war-council 173 n.37b: A'
+    - 'via w.preston-war-council 173 n.37e: B'
+- src:
+    id: cal.1965-02-08.vietnam-2
+    rows:
+    - 'via w.preston-war-council 173 n.37d: B'
+    - 'via w.preston-war-council 183 n.62a: C'
+- src:
+    id: cal.1965-02-06.vietnam-congress
+    rows:
+    - 'via w.preston-war-council 173 n.39a: G-H'
+- src:
+    id: cal.1965-02-07.vietnam
+    rows:
+    - 'via w.preston-war-council 173 n.40a: B'
+- src:
+    id: cal.1965-02-07.vietnam-4
+    rows:
+    - 'via w.preston-war-council 174 n.41a: A'
+    - 'via w.preston-war-council 174 n.41a: B'
+- src:
+    id: cal.1965-02-10.vietnam-3
+    rows:
+    - 'via w.preston-war-council 174 n.42b: all'
+- src:
+    id: cal.1965-02-01.vietnam-2
+    rows:
+    - 'via w.preston-war-council 175 n.43a: all'
+- src:
+    id: cal.1965-02-07.vietnam-5
+    rows:
+    - 'via w.preston-war-council 175 n.43c: all'
+- src:
+    id: cal.1965-02-09.vietnam-2
+    rows:
+    - 'via w.preston-war-council 175 n.43d: B'
+- src:
+    id: cal.1965-03-13.vietnam
+    rows:
+    - 'via w.preston-war-council 175 n.43e: all'
+- src:
+    id: cal.1965-02-06.soviet-union
+    rows:
+    - 'via w.preston-war-council 175 n.44b: A'
+    - 'via w.preston-war-council 184 n.66a: D'
+- src:
+    id: cal.1965-02-08.soviet-union
+    rows:
+    - 'via w.preston-war-council 175 n.44d: B'
+- src:
+    id: cal.1965-02-08.vietnam
+    rows:
+    - 'via w.preston-war-council 175 n.44e: C'
+- src:
+    id: cal.1965-02-04.vietnam-2
+    rows:
+    - 'via w.preston-war-council 177 n.47b: C'
+- src:
+    id: cal.1965-02-06.vietnam
+    rows:
+    - 'via w.preston-war-council 177 n.47c: all'
+- src:
+    id: cal.1965-02-01.europe-and-the-alliance
+    rows:
+    - 'via w.preston-war-council 177 n.47a: all'
+- src:
+    id: cal.1965-02-07.vietnam-2
+    rows:
+    - 'via w.preston-war-council 177 n.48: A'
+    - 'via w.preston-war-council 178 n.49: A'
+    - 'via w.preston-war-council 179 n.50a: B'
+- src:
+    id: cal.1965-02-08.vietnam-congress-3
+    rows:
+    - 'via w.preston-war-council 179 n.51a: F'
+- src:
+    id: cal.1965-02-09.vietnam
+    rows:
+    - 'via w.preston-war-council 179 n.51c: A, C'
+- src:
+    id: cal.1965-02-10.vietnam-4
+    rows:
+    - 'via w.preston-war-council 180 n.52a: all'
+- src:
+    id: cal.1965-02-10.vietnam
+    rows:
+    - 'via w.preston-war-council 180 n.53a: C'
+- src:
+    id: cal.1965-02-17.vietnam-4
+    rows:
+    - 'via w.preston-war-council 181 n.54e: A'
+- src:
+    id: cal.1965-02-08.intelligence
+    rows:
+    - 'via w.preston-war-council 181 n.54a: all'
+- src:
+    id: cal.1965-02-19.vietnam-8
+    rows:
+    - 'via w.preston-war-council 181 n.55b: B'
+- src:
+    id: cal.1965-02.vietnam-2
+    rows:
+    - 'via w.preston-war-council 181 n.56: all'
+- src:
+    id: cal.1965-02-11.vietnam-2
+    rows:
+    - 'via w.preston-war-council 181 n.57b: all'
+- src:
+    id: cal.1965-02-15.vietnam-2
+    rows:
+    - 'via w.preston-war-council 182 n.59a: all'
+- src:
+    id: cal.1965-02-17.vietnam-6
+    rows:
+    - 'via w.preston-war-council 182 n.59b: all'
+- src:
+    id: cal.1965-02-06.vietnam-3
+    rows:
+    - 'via w.preston-war-council 182 n.60a: all'
+- src:
+    id: cal.1965-02-19.vietnam-4
+    rows:
+    - 'via w.preston-war-council 183 n.63a: A-B'
+- src:
+    id: cal.1965-02-19.vietnam-2
+    rows:
+    - 'via w.preston-war-council 183 n.63b: A'
+- src:
+    id: cal.1965-03-02.vietnam-3
+    rows:
+    - 'via w.preston-war-council 183 n.63c: all'
+- src:
+    id: cal.1965-03-22.vietnam
+    rows:
+    - 'via w.preston-war-council 184 n.64a: B'
+- src:
+    id: cal.1965-02-08.vietnam-3
+    rows:
+    - 'via w.preston-war-council 184 n.65a: all'
+- src:
+    id: cal.1965-02-12.intelligence
+    rows:
+    - 'via w.preston-war-council 184 n.66e: all'
+- src:
+    id: cal.1967-02-23.soviet-union
+    rows:
+    - 'via w.preston-war-council 184 n.67a: all'
+- src:
+    id: cal.1965-02-10.vietnam-5
+    rows:
+    - 'via w.preston-war-council 186 n.72a: all'
+- src:
+    id: cal.1965-02-22.vietnam-2
+    rows:
+    - 'via w.preston-war-council 186 n.72b: all'
+- src:
+    id: cal.1965-02-19.vietnam-5
+    rows:
+    - 'via w.preston-war-council 187 n.73: all'
+- src:
+    id: cal.1965-03-01.vietnam
+    rows:
+    - 'via w.preston-war-council 187 n.74: A, C'
+- src:
+    id: cal.1965-02-19.vietnam-6
+    rows:
+    - 'via w.preston-war-council 188 n.75: all'
+- src:
+    id: cal.1965-03-15.intelligence
+    rows:
+    - 'via w.preston-war-council 192 n.2: all'
+- src:
+    id: cal.1965-03-22.intelligence
+    rows:
+    - 'via w.preston-war-council 192 n.2: all'
+- src:
+    id: cal.1965-04-30.intelligence
+    rows:
+    - 'via w.preston-war-council 192 n.3a: all'
+- src:
+    id: cal.1965-06-04.intelligence
+    rows:
+    - 'via w.preston-war-council 192 n.3b: all'
+- src:
+    id: cal.1965-03-08.vietnam-2
+    rows:
+    - 'via w.preston-war-council 193 n.4a: all'
+- src:
+    id: cal.1965-03-08.vietnam-3
+    rows:
+    - 'via w.preston-war-council 193 n.5a: A'
+    - 'via w.preston-war-council 193 n.5b: B'
+- src:
+    id: cal.1965-03-04.vietnam
+    rows:
+    - 'via w.preston-war-council 194 n.6a: all'
+- src:
+    id: cal.1965-03-10.vietnam-2
+    rows:
+    - 'via w.preston-war-council 194 n.6b: all'
+- src:
+    id: cal.1965-03-24.vietnam-3
+    rows:
+    - 'via w.preston-war-council 194 n.7a: all'
+- src:
+    id: cal.1965-03-20.vietnam
+    rows:
+    - 'via w.preston-war-council 194 n.9a: all'
+- src:
+    id: cal.1965-03-28.vietnam-2
+    rows:
+    - 'via w.preston-war-council 194 n.10b: all'
+- src:
+    id: cal.1965-04-01.vietnam-2
+    rows:
+    - 'via w.preston-war-council 194 n.10a: all'
+- src:
+    id: cal.1965-04-07.vietnam
+    rows:
+    - 'via w.preston-war-council 194 n.10c: A'
+- src:
+    id: cal.1965-03-31.vietnam-2
+    rows:
+    - 'via w.preston-war-council 195 n.11a: all'
+- src:
+    id: cal.1965-04-03.vietnam-2
+    rows:
+    - 'via w.preston-war-council 195 n.11b: all'
+- src:
+    id: cal.1965-04-21.vietnam-3
+    rows:
+    - 'via w.preston-war-council 195 n.11c: all'
+- src:
+    id: cal.1965-04-23.vietnam
+    rows:
+    - 'via w.preston-war-council 195 n.12: all'
+- src:
+    id: cal.1965-05-25.vietnam-2
+    rows:
+    - 'via w.preston-war-council 195 n.13a: A'
+- src:
+    id: cal.1965-07-07.vietnam
+    rows:
+    - 'via w.preston-war-council 195 n.13b: all'
+- src:
+    id: cal.1965-04-23.students
+    rows:
+    - 'via w.preston-war-council 196 n.17a: A'
+    - 'via w.preston-war-council 196 n.17a: B'
+- src:
+    id: cal.1965-05-07.students
+    rows:
+    - 'via w.preston-war-council 197 n.18: all'
+- src:
+    id: cal.1965-05-15.students
+    rows:
+    - 'via w.preston-war-council 197 n.19: A'
+    - 'via w.preston-war-council 198 n.24a: A'
+- src:
+    id: cal.1965-06-15.students
+    rows:
+    - 'via w.preston-war-council 197 n.21: A'
+- src:
+    id: cal.1965-05-13.students
+    rows:
+    - 'via w.preston-war-council 198 n.25a: all'
+- src:
+    id: cal.1965-05-19.latin-america
+    rows:
+    - 'via w.preston-war-council 198 n.25b: B'
+    - 'via w.preston-war-council 201 n.37a: A'
+- src:
+    id: cal.1965-05.transition-and-staff
+    rows:
+    - 'via w.preston-war-council 198 n.25a: all'
+- src:
+    id: cal.1965-04-29.latin-america
+    rows:
+    - 'via w.preston-war-council 200 n.35a: all'
+- src:
+    id: cal.1965-06-30.europe-and-the-alliance
+    rows:
+    - 'via w.preston-war-council 201 n.39: all'
+- src:
+    id: cal.1965-06-05.vietnam-4
+    rows:
+    - 'via w.preston-war-council 202 n.40c: all'
+- src:
+    id: cal.1965-06-24.vietnam
+    rows:
+    - 'via w.preston-war-council 202 n.40a: all'
+- src:
+    id: cal.1965-04-06.vietnam-2
+    rows:
+    - 'via w.preston-war-council 202 n.40b: all'
+- src:
+    id: cal.1965-04-01.vietnam-3
+    rows:
+    - 'via w.preston-war-council 203 n.41b: B'
+- src:
+    id: cal.1965-03-16.vietnam
+    rows:
+    - 'via w.preston-war-council 203 n.41a: A'
+- src:
+    id: cal.1965-04-06.vietnam
+    rows:
+    - 'via w.preston-war-council 203 n.42a: A'
+- src:
+    id: cal.1965-04-27.vietnam
+    rows:
+    - 'via w.preston-war-council 203 n.42b: all'
