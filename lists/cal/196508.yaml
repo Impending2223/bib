@@ -64,6 +64,19 @@ entries:
       rows:
         - 'w.macv-command-history-1965 167, 480: all'
     tags: [province:pleiku]
+  - id: cal.1965-08-01.draft
+    when: Aug. 1
+    date: '1965-08-01'
+    thread: draft
+    also: [defense]
+    c: 'Sunday, the Ranch. Johnson and Califano on a memorandum to McNamara: the clerical and noncombat jobs out of uniform, to keep draft calls as low as possible; Califano passes it to McNamara by telephone.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 52. Names: Johnson, Califano, McNamara.'
+    src:
+      c: d21be789
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 52: all'
+        - 'via w.califano-triumph-and-tragedy-of 52 n.49: all'
+    tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr, name:mcnamara-robert-s]
   - id: cal.1965-08-02.state-and-city-finance-us
     when: Aug. 2
     date: '1965-08-02'
@@ -223,6 +236,18 @@ entries:
         - 'w.kabaservice-rule-and-ruin 159: all'
         - 'via w.kabaservice-rule-and-ruin 159 n.166: A'
     tags: [name:dumont-wayne-jr, name:genovese-eugene-d, state:nj]
+  - id: cal.1965-08-04.voting-rights
+    when: Aug. 4
+    date: '1965-08-04'
+    thread: voting-rights
+    c: The voting rights bill through Congress. That evening Johnson to Dirksen's hideaway office in the Capitol, a drink with Dirksen and Mansfield, to thank them. By Califano's account.
+    n: '[[w.califano-triumph-and-tragedy-of]], 57. Names: Johnson, Dirksen, Mansfield.'
+    src:
+      c: ed97de5a
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 57: all'
+        - 'via w.califano-triumph-and-tragedy-of 57 n.6: all'
+    tags: [name:johnson-lyndon-b, name:dirksen-everett, name:mansfield-mike]
   - id: cal.1965-08-05.vietnam
     when: Aug. 5
     date: '1965-08-05'
@@ -269,13 +294,15 @@ entries:
     thread: civil-rights-the-executive
     also: [king]
     c: 'King, Abernathy and Fauntroy with Johnson and Lee White: Johnson on a White House Conference on Civil Rights in 1966. King: segregation growing in the North; school aid cut off from systems segregated in fact; housing and job training; slum ownership made unprofitable. Johnson asks a report.'
-    n: '[[w.garrow-bearing-the-cross]], 436. To check: Lee White to Johnson, Aug. 5, 1965, Daily Diary backup, Johnson Library; New York Times, Aug. 6, 1965, 12; Washington Post, Aug. 6, 1965, A4 (cited by [[w.garrow-bearing-the-cross]], 436 n.7). Names: King, Abernathy, Johnson, White.'
+    n: '[[w.garrow-bearing-the-cross]], 436; [[w.califano-triumph-and-tragedy-of]], 57 (Johnson presses King to put his energy into registering voters). To check: Lee White to Johnson, Aug. 5, 1965, Daily Diary backup, Johnson Library; New York Times, Aug. 6, 1965, 12; Washington Post, Aug. 6, 1965, A4 (cited by [[w.garrow-bearing-the-cross]], 436 n.7). Names: King, Abernathy, Johnson, White.'
     src:
       c: 8dd957c7
       rows:
         - 'w.garrow-bearing-the-cross 436: all'
         - 'via w.garrow-bearing-the-cross 436 n.7a: all'
         - 'via w.garrow-bearing-the-cross 436 n.7b: all'
+        - 'w.califano-triumph-and-tragedy-of 57: ?'
+        - 'via w.califano-triumph-and-tragedy-of 57 n.6: all'
     tags: [name:king-martin-luther-jr, name:abernathy-ralph-david, name:johnson-lyndon-b, name:white-lee-c]
   - id: cal.1965-08-05.vietnam-congress
     when: Aug. 5
@@ -316,12 +343,24 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d108: all'
         - 'w.preston-war-council 218: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:goldberg-arthur-j]
+  - id: cal.1965-08-05.voting-rights
+    when: Aug. 5
+    date: '1965-08-05'
+    thread: voting-rights
+    c: 'Johnson on the signing: ideas from Busby, Goodwin, Moyers, Valenti, Califano; Mansfield and McCormack; the members'' families there and "a section for special people," Rosa Parks and Vivian Malone; "a table ... so people can say, ''This is the table on which LBJ signed the Voting Rights Bill.''"'
+    n: '[[w.califano-triumph-and-tragedy-of]], 57. To check: Califano to Johnson, Aug. 5 and 6, 1965, Califano''s papers (cited by [[w.califano-triumph-and-tragedy-of]], 57 n.7). See [[cal.1965-08-05.civil-rights-the-executive]]. Names: Johnson, Busby, Goodwin, Moyers, Valenti, Califano, Mansfield, McCormack.'
+    src:
+      c: 5a734d30
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 57: all'
+        - 'via w.califano-triumph-and-tragedy-of 57 n.7: all'
+    tags: [name:johnson-lyndon-b, name:busby-horace, name:goodwin-richard-n, name:moyers-bill, name:valenti-jack, name:califano-joseph-a-jr, name:mansfield-mike, name:mccormack-john-w]
   - id: cal.1965-08-06.voting-rights
     when: Aug. 6
     date: '1965-08-06'
     thread: voting-rights
     c: Voting Rights Act signed in the President's Room off the Senate chamber, after Johnson's address in the Rotunda at noon, [79 Stat. 437](https://www.govinfo.gov/content/pkg/STATUTE-79/pdf/STATUTE-79-Pg437.pdf). Literacy tests and like devices suspended where under half the voting-age population was registered on Nov. 1, 1964, or voted that November; federal examiners to list voters there; new voting rules there to be cleared by the Attorney General or the District Court in Washington. "The vote is the most powerful instrument ever devised by man for breaking down injustice."
-    n: 'Remarks in the Capitol Rotunda at the Signing of the Voting Rights Act, [1965 Pub. Papers 840](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=314) (Aug. 6, 1965). Statute (K–J Cong. II.J.2). [President''s Daily Diary, Aug. 6, 1965](https://catalog.archives.gov/id/192457), image 2 (LBJ Library; National Archives Catalog). [[w.garrow-bearing-the-cross]], 436; [[w.branch-at-canaans-edge]], 276–77; [[w.mann-walls-of-jericho]], 475–76 (the address in the Rotunda; the signing). See [[cal.1965-03-07.voting-rights]]; [[cal.1965-03-15.voting-rights]]; [[cal.1965-08-03.voting-rights]]. Names: Johnson.'
+    n: 'Remarks in the Capitol Rotunda at the Signing of the Voting Rights Act, [1965 Pub. Papers 840](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=314) (Aug. 6, 1965). Statute (K–J Cong. II.J.2). [President''s Daily Diary, Aug. 6, 1965](https://catalog.archives.gov/id/192457), image 2 (LBJ Library; National Archives Catalog). [[w.garrow-bearing-the-cross]], 436; [[w.branch-at-canaans-edge]], 276–77; [[w.mann-walls-of-jericho]], 475–76 (the address in the Rotunda; the signing); [[w.califano-triumph-and-tragedy-of]], 57–58 (in the car, "If, if, if"; the Rotunda; the President''s Room; the first pen to Humphrey, the second to Dirksen; "from protest to politics"). See [[cal.1965-03-07.voting-rights]]; [[cal.1965-03-15.voting-rights]]; [[cal.1965-08-03.voting-rights]]. Names: Johnson.'
     src:
       c: f8bd64fe
       rows:
@@ -331,6 +370,8 @@ entries:
         - 'w.garrow-bearing-the-cross 436: A'
         - 'w.branch-at-canaans-edge 276–77: A, E'
         - 'w.mann-walls-of-jericho 475–76: A'
+        - 'w.califano-triumph-and-tragedy-of 57–58: ?'
+        - 'via w.califano-triumph-and-tragedy-of 57 n.7: all'
     tags: [name:johnson-lyndon-b, bill:voting-rights-1965]
   - id: cal.1965-08-06.opinion
     when: Aug. 6
@@ -478,7 +519,7 @@ entries:
     thread: voting-rights
     also: [civil-rights-the-executive]
     c: Federal examiners at work; suits against the poll tax in Texas, Alabama, Virginia. Check the dates of the suits.
-    n: 'Check: the record. See [[cal.1965-08-07.voting-rights]].'
+    n: '[[w.califano-triumph-and-tragedy-of]], 58 (Johnson to Califano: Katzenbach to attack poll taxes and literacy tests at once; within the week suits in Mississippi, Alabama, Texas and Virginia). Check: the record. Check: Califano names Mississippi among the poll-tax suits of the week (58). See [[cal.1965-08-07.voting-rights]].'
   - id: cal.1965-08-10.vietnam-congress
     when: Aug. 10
     date: '1965-08-10'
@@ -562,6 +603,19 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 36: C'
         - 'via w.gibbons-u-s-government-and IV, 36 n.109c: C'
     tags: [name:lodge-henry-cabot, name:eisenhower-dwight-d, name:johnson-lyndon-b]
+  - id: cal.1965-08-11.conservation
+    when: Aug. 11
+    date: '1965-08-11'
+    thread: conservation
+    also: [states-and-cities]
+    c: 'The Water Emergency Conference on the Northeast''s drought, Udall presiding: Johnson to the governors, Rockefeller among them, and the mayors; lunch together.'
+    n: 'Remarks at a Meeting of the Water Emergency Conference, [1965 Pub. Papers 867](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=341) (Aug. 11, 1965). [[w.califano-triumph-and-tragedy-of]], 59. Names: Johnson, Udall, Rockefeller.'
+    src:
+      c: 7659a9e4
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=341: all'
+        - 'w.califano-triumph-and-tragedy-of 59: A'
+    tags: [name:johnson-lyndon-b, name:udall-stewart-l, name:rockefeller-nelson]
   - id: cal.1965-08-12.war-opposition
     when: Aug. 12
     date: '1965-08-12'
@@ -576,6 +630,31 @@ entries:
         - 'via w.branch-at-canaans-edge 287 n.few-events-in: A'
         - 'via w.branch-at-canaans-edge 287 n.including-ho-chi: B'
     tags: [name:king-martin-luther-jr, name:ho-chi-minh, city:birmingham]
+  - id: cal.1965-08-12.defense
+    when: Aug. 12
+    date: '1965-08-12'
+    thread: defense
+    also: [congress]
+    c: Johnson with the Massachusetts delegation, O'Neill at its head, against McNamara's closing of the Springfield Armory. By Califano's account.
+    n: '[[w.califano-triumph-and-tragedy-of]], 59. Check: what was said. Names: Johnson, O''Neill, McNamara.'
+    src:
+      c: 05b6df7b
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 59: all'
+        - 'via w.califano-triumph-and-tragedy-of 59 n.10: all'
+    tags: [name:johnson-lyndon-b, name:oneill-thomas-p-jr, name:mcnamara-robert-s, state:ma]
+  - id: cal.1965-08-12.vietnam
+    when: Aug. 12
+    date: '1965-08-12'
+    thread: vietnam
+    c: Lodge sworn as Ambassador to South Vietnam, his second tour.
+    n: 'Remarks at the Swearing In of Henry Cabot Lodge as Ambassador to South Viet-Nam, [1965 Pub. Papers 877](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=351) (Aug. 12, 1965). [[w.califano-triumph-and-tragedy-of]], 59. See [[cal.1965-07-08.vietnam]]. Names: Lodge.'
+    src:
+      c: b7803fdb
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=351: all'
+        - 'w.califano-triumph-and-tragedy-of 59: all'
+    tags: [name:lodge-henry-cabot, name:johnson-lyndon-b]
   - id: cal.1965-08-13.japan-and-korea
     when: Aug. 13
     date: '1965-08-13'
@@ -684,6 +763,20 @@ entries:
         - 'w.branch-at-canaans-edge 369: all'
         - 'via w.branch-at-canaans-edge 369 n.was-quite-calm: all'
     tags: [name:deloach-cartha, name:mccormack-john-w, name:king-martin-luther-jr]
+  - id: cal.1965-08-14.civil-disorders-watts
+    when: Aug. 14
+    date: '1965-08-14'
+    thread: civil-disorders-watts
+    c: 'Saturday. Johnson at the Ranch, not taking Califano''s calls since the 13th. Abrams asks to supply and fly the California Guard; McNamara and Katzenbach agree; Ramsey Clark drafts an order and proclamation for troops. Califano to Abrams: "You''ve got White House approval." Valenti''s note to Johnson; Johnson by telephone, 9:09 p.m.: "Not one of our people sets foot there until you talk to me." By Califano''s account.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 59–61. To check: Valenti to Johnson, Aug. 14, 1965, 6:25 p.m., and Califano to Valenti, Aug. 14, 1965, 11:52 p.m., LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 61 n.16, 60 n.14); *Military Support of Law Enforcement During Civil Disturbances: A Report Concerning the California National Guard''s Part in Suppressing the Los Angeles Riot—August 1965*, 28 (cited by [[w.califano-triumph-and-tragedy-of]], 60 n.13). See [[cal.1965-08-11.states-and-cities]]. Names: Johnson, Califano, Abrams, McNamara, Katzenbach, Ramsey Clark, Valenti.'
+    src:
+      c: 598036e2
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 59–61: all'
+        - 'via w.califano-triumph-and-tragedy-of 60 n.12: all'
+        - 'via w.califano-triumph-and-tragedy-of 60 n.13: B'
+        - 'via w.califano-triumph-and-tragedy-of 61 n.16: D'
+    tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr, name:abrams-creighton, name:mcnamara-robert-s, name:katzenbach-nicholas, name:clark-ramsey, name:valenti-jack, state:ca, city:los-angeles]
   - id: cal.1965-08-15.india-and-china
     when: Aug. 15
     date: '1965-08-15'
@@ -723,6 +816,18 @@ entries:
         - 'w.branch-at-canaans-edge 294–95: all'
         - 'via w.branch-at-canaans-edge 294 n.amazing-political-implications: all'
     tags: [name:nixon-richard-m, name:brown-edmund-g, state:ca]
+  - id: cal.1965-08-15.civil-disorders-watts
+    when: Aug. 15
+    date: '1965-08-15'
+    thread: civil-disorders-watts
+    c: 'Sunday morning. Johnson to Califano: "You work for the President. Not for McNamara. Not for Katzenbach. Not for Brown. And damn sure not for Yorty." His statement: congratulate Brown, law and order a local charge, against violence and the denial of an equal chance. Califano to ask King, Whitney Young, Wilkins and Randolph to condemn the violence; Brown to name McCone to inquire. By Califano''s account.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 61–63. The statement: [[cal.1965-08-15.states-and-cities]]. Names: Johnson, Califano, McNamara, Katzenbach, Brown, Yorty, Martin Luther King, Whitney Young, Wilkins, Randolph, McCone.'
+    src:
+      c: 2c619961
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 61–63: all'
+        - 'via w.califano-triumph-and-tragedy-of 63 n.17: all'
+    tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr, name:mcnamara-robert-s, name:katzenbach-nicholas, name:brown-edmund-g, name:yorty-sam, name:king-martin-luther-jr, name:young-whitney-m-jr, name:wilkins-roy, name:randolph-a-philip, name:mccone-john-a, state:ca, city:los-angeles]
   - id: cal.1965-08-16.king
     when: Aug. 16
     date: '1965-08-16'
@@ -790,11 +895,13 @@ entries:
     date: '1965-08-17'
     thread: steel
     c: 'Abel of the Steelworkers at the White House: "I made commitments to the members who elected me." Johnson likens him to Russell against the civil rights bill.'
-    n: '[[w.dallek-flawed-giant]], 304. To check: [[w.califano-triumph-and-tragedy-of]]. See [[cal.1963-04-11.steel]]. Names: Abel, Johnson, Russell.'
+    n: '[[w.dallek-flawed-giant]], 304; [[w.califano-triumph-and-tragedy-of]], 86–87 (about 7:30 p.m.; Abel: "These are commitments, Mr. President"; Russell, "We''ve got to make a stand somewhere"; Johnson''s story, "Everybody''s gotta stand somewhere"; the union''s paper to Ackley and Eckstein). See [[cal.1963-04-11.steel]]. Names: Abel, Johnson, Russell.'
     src:
       c: 319c594e
       rows:
         - 'w.dallek-flawed-giant 304: all'
+        - 'w.califano-triumph-and-tragedy-of 86–87: all'
+        - 'via w.califano-triumph-and-tragedy-of 86 n.1: A'
     tags: [name:abel-i-w, name:johnson-lyndon-b, name:russell-richard-b]
   - id: cal.1965-08-17.vietnam
     when: Aug. 17
@@ -1014,6 +1121,18 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 29: A-B'
         - 'via w.gibbons-u-s-government-and IV, 29 n.90: A-B'
     tags: [name:johnson-lyndon-b, name:rusk-dean, name:bundy-william]
+  - id: cal.1965-08-19.steel
+    when: Aug. 19
+    date: '1965-08-19'
+    thread: steel
+    c: 'Eckstein''s analysis of the union''s demands for Johnson: far from the companies'' offer, and a price rise to follow. Johnson to Califano after 11 p.m.: "Learn everything you can about steel. Meet every day with" Wirtz, Connor and Ackley; "I''m afraid that this one''s going to end up here."'
+    n: '[[w.califano-triumph-and-tragedy-of]], 87–88. To check: Califano to Johnson, Aug. 19, 1965, 8:40 p.m., with Eckstein to Johnson, Aug. 19, 1965, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 88 n.4). See [[cal.1965-08-17.steel]]. Names: Eckstein, Johnson, Califano, Wirtz, Connor, Ackley.'
+    src:
+      c: 8b8de7c5
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 87–88: all'
+        - 'via w.califano-triumph-and-tragedy-of 88 n.4: all'
+    tags: [name:eckstein-otto, name:johnson-lyndon-b, name:califano-joseph-a-jr, name:wirtz-w-willard, name:connor-john-t, name:ackley-gardner]
   - id: cal.1965-08-20.alabama
     when: Aug. 20
     date: '1965-08-20'
@@ -1072,20 +1191,40 @@ entries:
     thread: jobs-and-wages
     also: [civil-rights-the-executive, civil-disorders-watts]
     c: 'The White House Conference on Equal Employment Opportunities, Franklin D. Roosevelt Jr. chairman. Johnson: Title VII "just a key"; against "the nightriders of the Klan, or the snipers and the looters in the Watts district"; "with these rights comes responsibility." Doar among the speakers.'
-    n: 'Remarks at the White House Conference on Equal Employment Opportunities, [1965 Pub. Papers 897](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=371) (Aug. 20, 1965). [[w.branch-at-canaans-edge]], 304 (Doar). See [[cal.1965-08-11.states-and-cities]]. Names: Franklin D. Roosevelt Jr., Johnson, Doar.'
+    n: 'Remarks at the White House Conference on Equal Employment Opportunities, [1965 Pub. Papers 897](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=371) (Aug. 20, 1965). [[w.branch-at-canaans-edge]], 304 (Doar); [[w.califano-triumph-and-tragedy-of]], 63 (the rioter with a Molotov cocktail and the Klansman). See [[cal.1965-08-11.states-and-cities]]. Names: Franklin D. Roosevelt Jr., Johnson, Doar.'
     src:
       c: 0a950b4b
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=371: A-C'
         - 'w.branch-at-canaans-edge 304: A, D'
+        - 'w.califano-triumph-and-tragedy-of 63: ?'
     tags: [name:roosevelt-franklin-d-jr, name:johnson-lyndon-b, name:doar-john]
+  - id: cal.1965-08-20.economy
+    when: Aug. 20
+    date: '1965-08-20'
+    thread: economy
+    also: [defense]
+    c: 'Johnson''s note to himself: "McNamara''s got to find ways to drag his feet on defense expenditures."'
+    n: '[[w.califano-triumph-and-tragedy-of]], 111. To check: notes "From Cab Rm meet 8-20-65, 6:20/9:30 p.m.," LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 111 n.12). Names: Johnson, McNamara.'
+    src:
+      c: a94c6399
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 111: all'
+        - 'via w.califano-triumph-and-tragedy-of 111 n.12: all'
+    tags: [name:johnson-lyndon-b, name:mcnamara-robert-s]
   - id: cal.1965-08-21.defense
     when: Aug. 21
     date: '1965-08-21'
     thread: defense
     also: [congress]
     c: 'Johnson vetoes the military construction authorization, H.R. 8439: section 611 would bar closing or cutting any base until 120 days after a report to the Armed Services Committees, reports only from January to April. The Attorney General calls it repugnant to the Constitution.'
-    n: 'Veto of the Military Authorization Bill, [1965 Pub. Papers 907](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=381) (Aug. 21, 1965); The President''s News Conference, [1965 Pub. Papers 934](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=408) (Aug. 25, 1965). To check: [[w.shapley-promise-and-power]]. Names: Katzenbach.'
+    n: 'Veto of the Military Authorization Bill, [1965 Pub. Papers 907](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=381) (Aug. 21, 1965); The President''s News Conference, [1965 Pub. Papers 934](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=408) (Aug. 25, 1965). [[w.califano-triumph-and-tragedy-of]], 95–96 (the Attorney General''s opinion; Madison quoted). To check: [[w.shapley-promise-and-power]]. Names: Katzenbach.'
+    src:
+      c: 143936f6
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=381: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=408: all'
+        - 'w.califano-triumph-and-tragedy-of 95–96: B'
     tags: [name:johnson-lyndon-b, name:katzenbach-nicholas]
   - id: cal.1965-08-21.space
     when: Aug. 21
@@ -1105,6 +1244,19 @@ entries:
       rows:
         - 'w.macv-command-history-1965 162–63: all'
     tags: [place:van-tuong]
+  - id: cal.1965-08-21.defense-2
+    when: Aug. 21
+    date: '1965-08-21'
+    thread: defense
+    also: [court]
+    c: 'Saturday morning, on the veto: Ramsey Clark, Vance, McPherson, Sanders, Clifford and Justice Fortas. Vance, and McNamara: the Pentagon could not be run; Clark and McPherson: probably unconstitutional; Fortas: clearly so, and the Court would find it. A compromise of sixty days'' notice; the staff calls the Congress; Fortas, Clifford, Clark and Califano finish the message. By Califano''s account.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 95–96. The veto: [[cal.1965-08-21.defense]]. Names: Ramsey Clark, Vance, McPherson, Sanders, Clifford, Fortas, McNamara, Califano.'
+    src:
+      c: ee861a3f
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 95–96: all'
+        - 'via w.califano-triumph-and-tragedy-of 95 n.34: all'
+    tags: [name:clark-ramsey, name:vance-cyrus, name:mcpherson-harry, name:sanders-h-barefoot-jr, name:clifford-clark, name:fortas-abe, name:mcnamara-robert-s, name:califano-joseph-a-jr]
   - id: cal.1965-08-22.opinion
     when: Aug. 22
     date: '1965-08-22'
@@ -1189,6 +1341,18 @@ entries:
       rows:
         - 'w.macv-command-history-1965 481: all'
     tags: [place:bien-hoa-air-base]
+  - id: cal.1965-08-24.civil-disorders-watts
+    when: Aug. 24
+    date: '1965-08-24'
+    thread: civil-disorders-watts
+    c: 'Califano and Lee White to Johnson, the package for Watts: remedial education, health, jobs, small business, surplus food, housing, pilot child-care centers to "provide care for children; thus freeing mothers for training and employment." Johnson wants the Guard in every State trained for civil disturbances, orders on live ammunition.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 63. To check: Califano and Lee White to Johnson, Aug. 24, 1965, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 63 n.19). The program announced: [[cal.1965-08-26.states-and-cities]]. Names: Califano, Lee White, Johnson.'
+    src:
+      c: 32dad9c7
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 63: all'
+        - 'via w.califano-triumph-and-tragedy-of 63 n.19: A'
+    tags: [name:califano-joseph-a-jr, name:white-lee-c, name:johnson-lyndon-b]
   - id: cal.1965-08-25.space
     when: Aug. 25
     date: '1965-08-25'
@@ -1260,13 +1424,26 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 38 n.116: C-D'
         - 'https://voteview.com/rollcall/RS0890204: A'
     tags: [name:morse-wayne, name:gruening-ernest, name:johnson-lyndon-b]
+  - id: cal.1965-08-25.steel
+    when: Aug. 25
+    date: '1965-08-25'
+    thread: steel
+    c: 'News conference: "I expect full and complete responsibility in the current wage negotiations and I expect continued stability in steel prices." Blough to Connor: the remark on price stability "very troublesome."'
+    n: 'The President''s News Conference of August 25, 1965, [1965 Pub. Papers 917](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=391) (Aug. 25, 1965). [[w.califano-triumph-and-tragedy-of]], 88–89. Names: Johnson, Blough, Connor.'
+    src:
+      c: 0f5ef3cf
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=391: A'
+        - 'w.califano-triumph-and-tragedy-of 88–89: B'
+        - 'via w.califano-triumph-and-tragedy-of 88 n.6: B'
+    tags: [name:johnson-lyndon-b, name:blough-roger-m, name:connor-john-t]
   - id: cal.1965-08-26.states-and-cities
     when: Aug. 26
     date: '1965-08-26'
     thread: civil-disorders-watts
     also: [states-and-cities]
     c: 'Johnson sends Ramsey Clark, Deputy Attorney General, with a federal team to Los Angeles, to work out with Brown and Yorty a program for the riot area: Watts has "the largest number of school dropouts," "the lowest median family income." Brown''s commission on the riots, McCone chairman, Christopher vice chairman, named Aug. 19. Check the date.'
-    n: 'Statement by the President Upon Announcing a Program of Assistance to Los Angeles, [1965 Pub. Papers 933](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=407) (Aug. 26, 1965). See [[cal.1965-08-11.states-and-cities]]. Names: Johnson, Ramsey Clark, McCone, Brown, Yorty, Christopher.'
+    n: 'Statement by the President Upon Announcing a Program of Assistance to Los Angeles, [1965 Pub. Papers 933](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=407) (Aug. 26, 1965). [[w.califano-triumph-and-tragedy-of]], 63 (the program of social services for Watts announced). See [[cal.1965-08-11.states-and-cities]]. Names: Johnson, Ramsey Clark, McCone, Brown, Yorty, Christopher.'
     tags: [name:johnson-lyndon-b, name:clark-ramsey, name:brown-edmund-g, name:yorty-sam, name:mccone-john-a, name:christopher-warren, state:ca]
   - id: cal.1965-08-26.jobs-and-wages
     when: Aug. 26
@@ -1316,6 +1493,18 @@ entries:
         - 'w.branch-at-canaans-edge 320–21: all'
         - 'via w.branch-at-canaans-edge 321 n.in-the-south-we: B-C'
     tags: [name:rustin-bayard, name:king-martin-luther-jr, city:atlanta]
+  - id: cal.1965-08-26.steel
+    when: Aug. 26
+    date: '1965-08-26'
+    thread: steel
+    c: 'Johnson with Connor, Wirtz, Fowler, Ackley and Califano, over an hour: Connor to tell the companies 3.2 percent in wages and benefits without a price rise, Wirtz the union that 3.2 is all he will tolerate. Wirtz: the unions will take "mighty offense." Ackley: "There won''t be any Great Society unless we hold the economy in step."'
+    n: '[[w.califano-triumph-and-tragedy-of]], 88–89. See [[cal.1965-08-30.steel]]. Names: Johnson, Connor, Wirtz, Fowler, Ackley, Califano.'
+    src:
+      c: 156abef2
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 88–89: all'
+        - 'via w.califano-triumph-and-tragedy-of 89 n.8: all'
+    tags: [name:johnson-lyndon-b, name:connor-john-t, name:wirtz-w-willard, name:fowler-henry-h, name:ackley-gardner, name:califano-joseph-a-jr]
   - id: cal.1965-08-27.robert-kennedy
     when: Aug. 27
     date: '1965-08-27'
@@ -1367,6 +1556,31 @@ entries:
         - 'w.shesol-mutual-contempt 248: all'
         - 'via w.shesol-mutual-contempt 248 n.two-or-three: all'
     tags: [name:kennedy-robert-f, state:ny, city:nyc]
+  - id: cal.1965-08-27.steel
+    when: Aug. 27
+    date: '1965-08-27'
+    thread: steel
+    c: 'Simkin, the federal mediator, on his own suggests to each side a settlement above the guideposts. Califano wires Johnson, at the Ranch for his birthday; Johnson by telephone: send Morse and LeRoy Collins to Pittsburgh. By Califano''s account.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 89. To check: Califano to Johnson, Aug. 27, 1965, 8:55 p.m., LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 89 n.9). Names: Simkin, Califano, Johnson, Morse, Collins.'
+    src:
+      c: a5df5ad5
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 89: all'
+        - 'via w.califano-triumph-and-tragedy-of 89 n.9: all'
+    tags: [name:simkin-william-e, name:califano-joseph-a-jr, name:johnson-lyndon-b, name:morse-wayne, name:collins-leroy]
+  - id: cal.1965-08-28.steel
+    when: Aug. 28
+    date: '1965-08-28'
+    thread: steel
+    c: 'Saturday afternoon. Califano briefs Morse and Collins at the White House. Morse: "The fact that I''m opposed to the war doesn''t mean that I''d take a personal advantage of it." Johnson means him to chair a Taft-Hartley board if it comes to that. After midnight, Califano to Johnson: no progress in Pittsburgh. By Califano''s account.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 89–90. To check: Califano to Johnson, Aug. 30, 1965, 2:45 a.m., LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 90 n.14). Names: Califano, Morse, Collins, Johnson.'
+    src:
+      c: db892dfe
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 89–90: all'
+        - 'via w.califano-triumph-and-tragedy-of 90 n.13: A-C'
+        - 'via w.califano-triumph-and-tragedy-of 90 n.14: D'
+    tags: [name:califano-joseph-a-jr, name:morse-wayne, name:collins-leroy, name:johnson-lyndon-b]
   - id: cal.1965-08-29.transition-and-staff
     when: Aug. 29
     date: '1965-08-29'
@@ -1416,7 +1630,7 @@ entries:
     thread: steel
     also: [labor-disputes]
     c: 'Steel. With the Steelworkers'' contract to run out Sept. 1 (Check), Johnson brings Abel of the union and Cooper of United States Steel to the White House with Wirtz and Connor: a shutdown put off eight days, the bargaining moved to Washington. On television that evening. Aug. 26, he had telephoned both.'
-    n: 'Televised Statement by the President Announcing Postponement of a Shutdown in the Steel Industry, [1965 Pub. Papers 952](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=426) (Aug. 30, 1965); The President''s News Conference, [1965 Pub. Papers 934](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=408) (Aug. 26, 1965). [[w.dallek-flawed-giant]], 305 (both sides at the White House; the shutdown put off eight days). To check: [[w.sheahan-wage-price-guideposts]]; [[w.califano-triumph-and-tragedy-of]]; handwritten notes of the meeting of Aug. 30, 1965, Diary Backup, LBJ Library (cited by [[w.dallek-flawed-giant]], 305). See [[cal.1963-04-11.steel]]. Names: Johnson, Abel, R. Conrad Cooper, Wirtz, Connor.'
+    n: 'Televised Statement by the President Announcing Postponement of a Shutdown in the Steel Industry, [1965 Pub. Papers 952](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=426) (Aug. 30, 1965); The President''s News Conference, [1965 Pub. Papers 934](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=408) (Aug. 26, 1965). [[w.dallek-flawed-giant]], 305 (both sides at the White House; the shutdown put off eight days); [[w.califano-triumph-and-tragedy-of]], 90–91 (the breakfast at 8 with Morse, Collins, Simkin; the parties at 1 p.m., "our boys in Vietnam"; Room 275 of the Executive Office Building; the back channel through Goldberg and Clifford; Eisenhower; the eight days'' postponement announced at 9 p.m.; Abel alone with Johnson). To check: [[w.sheahan-wage-price-guideposts]]; handwritten notes of the meeting of Aug. 30, 1965, Diary Backup, LBJ Library (cited by [[w.dallek-flawed-giant]], 305). See [[cal.1963-04-11.steel]]. Names: Johnson, Abel, R. Conrad Cooper, Wirtz, Connor.'
     src:
       c: 96bd8435
       rows:
@@ -1424,6 +1638,9 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=408: D'
         - 'w.dallek-flawed-giant 305: B'
         - 'via w.dallek-flawed-giant 305 n.28: B'
+        - 'w.califano-triumph-and-tragedy-of 90–91: B-C'
+        - 'via w.califano-triumph-and-tragedy-of 90 n.15: B'
+        - 'via w.califano-triumph-and-tragedy-of 91 n.19: C'
     tags: [name:johnson-lyndon-b, name:abel-i-w, name:cooper-r-conrad, name:wirtz-w-willard, name:connor-john-t]
   - id: cal.1965-08-30.goldwater
     when: Aug. 30
@@ -1458,6 +1675,20 @@ entries:
         - 'w.jones-bay-of-pigs 168 n.39: A'
         - 'via x.1965-08-30.rusk-to-bundy-paramilitary-cuba: all'
     tags: [name:rusk-dean, name:bundy-mcgeorge]
+  - id: cal.1965-08-30.steel-2
+    when: Aug. 30
+    date: '1965-08-30'
+    thread: steel
+    follows:
+      - cal.1965-08-30.steel
+    c: 'After the meeting, Johnson''s secret channel: Goldberg to the union, Clifford, counsel to Republic Steel, to the companies; Califano meets them in the military aide''s office in the East Wing; Wirtz and Connor not told. Eisenhower at the White House that afternoon, briefed by Califano, before the press with Johnson. By Califano''s account.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 91. See [[cal.1965-08-30.steel]]. Names: Johnson, Goldberg, Clifford, Califano, Wirtz, Connor, Eisenhower.'
+    src:
+      c: e695ea31
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 91: all'
+        - 'via w.califano-triumph-and-tragedy-of 91 n.19: B'
+    tags: [name:johnson-lyndon-b, name:goldberg-arthur-j, name:clifford-clark, name:califano-joseph-a-jr, name:wirtz-w-willard, name:connor-john-t, name:eisenhower-dwight-d]
   - id: cal.1965-08-31.latin-america
     when: Aug. 31
     date: '1965-08-31'
@@ -1512,11 +1743,13 @@ entries:
     thread: desegregation-schools
     also: [civil-rights-the-executive]
     c: 'Johnson''s statement on the schools'' opening: of more than 5,000 districts in 17 Southern and border States, 4,463, 88 percent, preparing to comply; in seven Southern States 538 in compliance, 317 a week before; 135 have done nothing. The Office of Education to "stand ready day and night."'
-    n: 'Statement by the President Reviewing Progress in the Desegregation of Schools, [1965 Pub. Papers 957](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=431) (Aug. 31, 1965). See [[cal.1965-08-30.desegregation-schools]]. Names: Johnson.'
+    n: 'Statement by the President Reviewing Progress in the Desegregation of Schools, [1965 Pub. Papers 957](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=431) (Aug. 31, 1965). [[w.califano-triumph-and-tragedy-of]], 69–70 (the daily State-by-State reports ordered in August; the 88 percent "making preparations to comply"). See [[cal.1965-08-30.desegregation-schools]]. Names: Johnson.'
     src:
       c: ec7ffcbf
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=431: all'
+        - 'w.califano-triumph-and-tragedy-of 69–70: ?'
+        - 'via w.califano-triumph-and-tragedy-of 69 n.37: all'
     tags: [name:johnson-lyndon-b]
   - id: cal.1965-08-31.alabama
     when: Aug. 31
@@ -1576,3 +1809,38 @@ entries:
       rows:
         - 'w.rusk-as-i-saw-it-1990 341: all'
         - 'via x.1984.rusk-interviews-with-richard-rusk: all'
+  - id: cal.1965-08.civil-disorders-watts-3
+    when: Aug.
+    date: 1965-08
+    thread: civil-disorders-watts
+    c: 'Collins, Under Secretary of Commerce, sent to Los Angeles, to Johnson in confidence: the danger "a feeling ... on the part of the Negro community that they are ''out of it''"; riots will go on until they share in the community; "multiplied in every city in this country."'
+    n: '[[w.califano-triumph-and-tragedy-of]], 63–64. Check: the day. To check: Collins to Califano, undated, with Collins to Johnson, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 64 n.20). Names: Collins, Johnson.'
+    src:
+      c: a41bc827
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 63–64: all'
+        - 'via w.califano-triumph-and-tragedy-of 64 n.20: all'
+    tags: [name:collins-leroy, name:johnson-lyndon-b]
+  - id: cal.1965-08.conservation
+    when: Aug.
+    date: 1965-08
+    thread: conservation
+    c: 'Two weeks after Califano joins the staff, Johnson by telephone: "Take over the highway beautification bill. I want you to get it out of the Senate and through the House!" The same order to Moyers, Valenti, Busby, Lee White, O''Brien and Connor. Moyers''s secret talks with Tocker of the Outdoor Advertising Association before the bill went up.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 81–82. Check: the day, about Aug. 9. Names: Johnson, Califano, Moyers, Valenti, Busby, Lee White, O''Brien, Connor.'
+    src:
+      c: d2edcd36
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 81–82: all'
+        - 'via w.califano-triumph-and-tragedy-of 81 n.9: A'
+    tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr, name:moyers-bill, name:valenti-jack, name:busby-horace, name:white-lee-c, name:obrien-lawrence-f, name:connor-john-t]
+  - id: cal.1965-08.defense
+    when: Aug.
+    date: 1965-08
+    thread: defense
+    c: 'The members'' count in, Johnson takes thirty days'' notice at most: "I suggest you start listening to what I say instead of thinking what I say." McNamara, who had sold Russell and Rivers sixty: "Goddamnit ... They can count too." By Califano''s account.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 96–97. Check: the day. The act signed: Statement by the President Upon Signing the Military Construction Authorization Act, [1965 Pub. Papers 1003](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=477) (Sept. 16, 1965). Names: Johnson, McNamara, Russell, Rivers.'
+    src:
+      c: 5349444e
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 96–97: all'
+    tags: [name:johnson-lyndon-b, name:mcnamara-robert-s, name:russell-richard-b, name:rivers-l-mendel]

@@ -1539,6 +1539,17 @@ Rights in Conflict (Walker Report):
 - Goldwater's charges of Mar. 20, Aug. 11 and Oct. 6, 1964: where he made them (McNamara, ch. 6).
 - McNamara's speech of Sept. 18, 1964 ("100 million Americans during the first hour"): where.
 
+### Califano, *The Triumph and Tragedy of Lyndon Johnson* (batch 3, second run, Nov. 4, 2026; notes/book-checks/califano-triumph-and-tragedy-of.md)
+- the Penn-Central decisions: the ICC's report of Apr. 6, 1966 (327 I.C.C. 475?) and the examiner's of Mar. 1965; the U.S. Reports cites of the remand (Mar. 27, 1967) and the approval (Jan. 15, 1968) (Califano 159–65).
+- the House's vote on the highway beauty bill, Oct. 7–8, 1965, the roll call (Califano 85).
+- Freeman's press conference on food prices, Mar. 1966 (138); Johnson's on Mexican Americans, Mar. 1966 (135).
+- Califano's memorandum on private wiretapping, Feb. 1966, and Long's hearings, May 1966 (187).
+- Johnson's order on the draft boards, Dec. 1966 (197); the railroad shopcraft award, Oct. 1967 (195).
+- Boyd's telegram to the governors on highway funds, 1967 (244); Lindsay's word of a Kerner Commission interim report (260); the JOBS report of Dec. 1, 1968 (226); the message on the District, Mar. 1968 (259).
+- the King wiretap stopped, May 1965; the FBI's report of Apr. 19, 1967 (277): the LBJ Library's files.
+- Califano's own records (DG, TL, SP, 69N) at the LBJ Library (345), the witnesses' roots for some 150 entries: their finding aid, to read the dates where the book and the Daily Diary differ.
+- the *Times*'s editorial on Demonstration Cities, May 15, 1966 (131), to enter it read.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2593,6 +2604,9 @@ CQ Weekly Report, 1968-08-30:
 - Lodge's report of Khánh's talk of May 4, 1964 (not in the daybook under the day).
 - Taylor's cable to Rusk of April 1965, "No amount of bombardment" (McNamara, ch. 7; `cal.1965-04.vietnam-3`): its day and number.
 
+### Califano, *The Triumph and Tragedy of Lyndon Johnson* (batch 3, second run, Nov. 4, 2026; notes/book-checks/califano-triumph-and-tragedy-of.md)
+- Andreas Papandreou's arrest, Apr. 1967, and Johnson's word to the junta (243).
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
@@ -2626,3 +2640,6 @@ CQ Weekly Report, 1968-08-30:
 
 ### Bissell, *Reflections of a Cold Warrior* (batch 3, second run, Nov. 4, 2026; notes/book-checks/bissell-reflections-of-a-cold.md)
 - IDA's presidents (Norton to July 12, 1962; Bissell to 1964) are not federal offices: for the owner to say whether the roster should hold the federally funded research centers' heads.
+
+### Califano, *The Triumph and Tragedy of Lyndon Johnson* (batch 3, second run, Nov. 4, 2026; notes/book-checks/califano-triumph-and-tragedy-of.md)
+- Lee White to the Federal Power Commission, Mar. 1966 (140); Kerner to the Seventh Circuit, Mar. 1968 (220); Fowler's departure, Dec. 1968 (332).
