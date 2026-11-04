@@ -51,7 +51,7 @@ file's last section). Each reader is relaunched fresh: no memory of the first ru
 | hill | Mann, *The Walls of Jericho*; Kotz, *Judgment Days* | 1Q5WXirErb1AgAw2bUkXGw3hPGJkt-b-D; 1Zw1l68mszWBSxdd1WcJCZib-0hLOfe-n | b3-walls-of-jericho |
 | rfk | Navasky, *Kennedy Justice*; Shesol, *Mutual Contempt*; Thomas, *Robert Kennedy* | 1vqSGPsW36yFB_1Wnaz4WGt-E13RE4uA_; 1C_NeAlP7gG-1oL_LkCGdmOovyCR23cFa; 1jofUsGX9BcH18F_zlWkPTIE8XYuIhjX6 | b3-navasky |
 | gop | Kabaservice, *Rule and Ruin*; Goldberg, *Barry Goldwater*; Smith, *On His Own Terms* | 11m7KXywDzwh-lkFWKjhjznKCsgG1sQvI; 1meBgl58QAEq3I6H4-Vn58GLs5XeScZck; 1Y572A1k7PdvXl8CFInR9gS7gphe84TET | b3-kabaservice(-more) |
-| advisers | Preston, *The War Council*; Bird, *The Color of Truth*; Woods, *J. William Fulbright* | 1XLA43EZrAz2zr0yyIf60TFYcX149yjWp; 10jrYYg-uRuQJSsACk9oQVTyBQGa5IlWF; 1HQv5xHGc6iKUkZdZwy7GkyRUgbecaduM | b3-preston |
+| advisers | Preston, *The War Council*; Bird, *The Color of Truth*; Woods, *J. William Fulbright*; Woods, *Fulbright: A Biography* | 1XLA43EZrAz2zr0yyIf60TFYcX149yjWp; 10jrYYg-uRuQJSsACk9oQVTyBQGa5IlWF; 1HQv5xHGc6iKUkZdZwy7GkyRUgbecaduM; 1RdlzfOarIZkEAUUJ2KLoEel-1U8Spbph | b3-preston |
 | greatsociety | Sundquist, *Politics and Policy*; Zelizer, *The Fierce Urgency of Now*; Bernstein, *Guns or Butter* | 1ExXVHzgFgUm3EGfEhdUbS4K5V2hlYpJN; 1jzLs1pgP-zyYZFareoqLZdj4LG6qrVkz; 12qiEzZniU-FNF4O8HocS9TpLHFn6xQfT | b3-sundquist |
 | macv | MACV Command Histories, 1964, 1965, 1967 (3 parts), 1968 (2 parts) | 1qOJyn0edA9EzhtMmuZCdkxRb2sSl2iJs; 1Nd9hm3ZSjQqsRpb7Xoo9hxvNmCkSHT_W; 16aijqcOo1pt2CFJVrsAddc1TyfpvmDJ0, 1mGZVPkiCzoIVBTYRKYq3ydWw1aIt25ha, 1wg20QAZca5wjZSnPyEC9PwTfo91ifpch; 1mmjroe4XDgP92Vgi5QDQJnD6u99NvpVx, 1O_Ds_OWwY5ue7H2N8kEtEZHI6MixetEQ | b3-macv-1964(-more), b3-macv-1965 |
 
@@ -195,3 +195,43 @@ bernstein-guns-5 to -7, fursenko-cold-war-3, kotz-4, woods-fulbright-1 and -2. F
   and `cal.1968-04-01.vietnam` (the strike of Apr. 2 with the call of Apr. 1); Six Crises' newsweekly forecasts dated
   "Oct. 25-Nov. 7"; Zelizer's Passed over not kept row by row (R44, R48); the many MACV entries of an office's routine
   (R18's "minor").
+
+
+(The fourth merger, Nov. 4, 2026, midnight-1 a.m. Pacific, after the batch's last seven patches.)
+
+Merged, in order, each by `./bib merge --auto` (no `--legacy`), the edges at its pending file's foot appended first to the
+card's by-work file (`edges.py` in the scratchpad's `merge4/`), its pending witnesses folded alone, checked, committed and
+pushed: kotz-4, fursenko-cold-war-3, bernstein-guns-5, -6, -7, woods-fulbright-1, -2 (`inbox/merged/`). The inbox is
+empty; the ledger too. For the next merger:
+
+- Before merging: the seven claims the readers never used pruned from the ledger (Bernstein's three, Woods 1995's
+  four); no other claim of these patches was left. `sources/witnesses/by-work/woods-fulbright.yaml` made, with the
+  usual header, for Woods 1995's edges (402 from the two pending files, and one added by hand: 281 n.21, the *Times* of Nov. 11, 1961, which
+  a via row named and no edge reached).
+- `x.1974.fager-selma-1965` was not yet in the registry (kotz-3 had not folded it): kotz-4's row folded as written, and
+  bernstein-guns-6's edge to it then held.
+- The edits (kotz-4's three, woods-1's two, woods-2's one) all applied on their bases with no conflict; each held
+  against the tree before (nothing other runs wrote was lost).
+- The "one event?" flags, 174, read pair by pair (`dups2.py`; `keepdups.py`). Combined: the congressional leaders'
+  meeting of July 27, 1965 (Woods's `cal.1965-07-27.vietnam-july-decision` into `cal.1965-07-27.vietnam`, which held the
+  meeting and Mansfield's statement; Mansfield's words by Woods added to c as two units, I-J, the note and map joined,
+  Woods's Check on the hour kept). All else kept apart: distinct acts of one day (the calls, memoranda and statements
+  around Selma, Mar. 7-18, 1965; Branigin's and Sawyer's calls of Aug. 17, 1965; the Senate's and the House
+  subcommittee's reports of Apr. 9, 1965; the leaders' meeting of Apr. 28, 1965, beside the entry that names it in
+  passing; the Johnson daughters of Mar. 31, 1968).
+- Mends on the way: `cal.1961-07-29.right-and-the-military`, the Record of July 29, 1961 out of To check (woods-1 reads
+  it); two China entries of Mar. 21 and 30, 1966 moved from the retired slug `india-and-china` (an alias of South Asia's
+  thread, not a thread) to `china`; the 5 a.m. call of Mar. 9, 1965 given its `time` (its `time_approx` had none: 11:00Z,
+  Selma's Central time); Kennedy and Castro tagged where Names left them ambiguous; Khánh marked (its map's hash
+  rewritten); O'Donnell's schedule of Oct. 3, 1964 and the Oakland crowd of Oct. 20, 1967 `ok:result-form`.
+- Leads and press: each book-check's run section into `notes/leads.md` (a section a book and run under each heading;
+  Bernstein's fifth to seventh runs, written as one paragraph, split into bullets by hand) and `notes/press.md` (the
+  four-column tables given a kind). The earlier helpers `leads.py` and `presstab.py` take `--all --last` for a run's own
+  section: `--last` alone takes the first.
+- For the owner: `cal.1965-07-27.vietnam` still bundles the NSC meeting and the evening's leaders' meeting (R17); Bernstein's
+  `cal.1965-03-23.voting-rights-3` spans the Senate hearings, Mar. 23-Apr. 5; Bernstein's ch. 16, 17 and
+  19 and Kotz's pp. 77-84 are unread.
+
+- After the last merge: `./bib check` 0 errors, 26 warnings (Bird's three starred footnotes [italics], the Thomson
+  cross-reference, the calendar's standing aggregate counts); `./bib audit-cal` committed; a full `./bib build` clean
+  (about ten minutes); `./bib links`: 0 links to missing anchors.
