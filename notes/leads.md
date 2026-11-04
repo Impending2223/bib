@@ -1602,6 +1602,12 @@ Rights in Conflict (Walker Report):
 - Belfrage, *Freedom Summer* (1965), and Colburn, *Racial Change and Community Crisis* (1985), cited by Kotz: no cards.
 - Pages 42–84 and 187–434 read by their dated passages only (chapters 8 to 14): to be read in full (the book-check, "What remains unread").
 
+### Mann, *The Walls of Jericho* (batch 3, second run, Nov. 4, 2026; notes/book-checks/mann-walls-of-jericho.md)
+
+- The Mann edges' pages come from the notes' OCR; a reader with the book should verify a sample against the printed notes, pp. 543–582.
+- Talmadge, the Strobers, Watson, Harvey, Goldsmith, Mooney, Viorst, Lord, Friedman, Fleming and Bennett: no cards (`./bib works adopt`).
+- The Passed over rows still to be turned into entries under the rules now in force (the book-check, "Resumed, Nov. 3–4, 2026"): pp. 339, 343, 356, 359–64, 369, 375, 381, 385, 387, 393, 397–98, 408, 418–23, 433–37, 443, 448, 450–51, 455, 464, 466, 469, 471–72, 489–98.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
