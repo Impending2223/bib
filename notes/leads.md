@@ -1521,6 +1521,10 @@ Rights in Conflict (Walker Report):
 - Robert Kennedy to the FBI National Academy's 67th graduating class (50, undated; the Academy's records); John Douglas named the Department's liaison to the March on Washington (182, no month); Representative Thomas F. Johnson's indictment by a Baltimore grand jury before the 1962 election, by Katzenbach's account (365; the court's docket); Hoover's "beastly punks," November 1962 (17), if the owner wants repetitions.
 - Still dated by the year only: Lausche's speech in the Senate on Hoover, 1961 (37; the Record); the House Republicans' report on organized crime, 1967 (49); the summer-1961 nomination and confirmation of 258 (the Record); Hoffa at the Miami convention, 1961 (410); the Chicago Hoffa verdict (424); the Tractors for Freedom committee's end (327: Navasky gives no June 25).
 
+### Shesol, *Mutual Contempt* (batch 3, second run, Nov. 4, 2026; notes/book-checks/shesol-mutual-contempt.md)
+- the end-of-July 1960 meeting of the Kennedy and Johnson advisers at Hyannis Port (58); Lee White's executive order expanding the CEEO, "on a Sunday" (84; E.O. 11114, June 22, 1963, to check); the address of Nov. 27, 1963: Bundy's calls between Johnson and Robert Kennedy on Tuesday or Wednesday (121; Manchester, 480); Robert Kennedy at Harriman's dinner (71; Reeves, 347n); the President's go-ahead for the contractors' survey (summer 1962, 83) and Wirtz's survey (1963, 83); Kennedy and Bartlett at Camp David on 1968 (winter 1962–63, 112); the pages 300–475 listed above under Passed over.
+- Press figures for Part III, proposed: Part III entries for Alan L. Otten (*Wall Street Journal*), Paul O'Neil (*Life*), William Beecher (*Wall Street Journal*), Jean Daniel (*L'Express*, *The New Republic*), Peregrine Worsthorne (*Daily Telegraph*), Gore Vidal (as a political writer, *Esquire*), each with Shesol's pages.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
