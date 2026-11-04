@@ -474,6 +474,16 @@ CQ Weekly Report, 1968-08-16:
   signed.
 - Storm King: the FPC's order of Mar. 1965 and Scenic Hudson v. FPC (2d Cir., Dec. 1965), for Conservation.
 
+### Bernstein, *Guns or Butter* (batch 3, sixth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
+
+- California's Motor Vehicle Pollution Control Act of 1960.
+- New York's smog of Thanksgiving, 1966 (the days).
+
+### Woods, *Fulbright: A Biography* (batch 3, Nov. 4, 2026; notes/book-checks/woods-fulbright.md)
+
+- Arkansas: the State Democratic Committee's minutes, June 27 and Aug. 10, 1968; the 1960 primary's candidates'
+  filings; the AFL-CIO convention of June 1968; the *Arkansas Gazette* run of 1960-68 (Woods's chief newspaper source).
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -1917,6 +1927,83 @@ Rights in Conflict (Walker Report):
 - Press: Part III entries to propose for Hayes Redmon (Moyers's press office), Fred Panzer, William Connell (Humphrey's aide), Jerry Bruno, Peter Edelman, Jack Newfield (*Village Voice*), Peter Lisagor (*Chicago Daily News*), Richard Harwood (*Washington Post*), Robert Scheer (*Ramparts*), Penn Kimball, Michael Janeway and Elizabeth Drew (*Atlantic*), each with Shesol's pages.
 - Bundled entries, for the owner (R17): `cal.1968-03-14.robert-kennedy` holds the meeting with Clifford (Mar. 14) and the announcement (Mar. 16); `cal.1968-04-24.elections-1968` holds Freeman's endorsement and the next day's.
 
+### Kotz, *Judgment Days* (batch 3, fourth run, Nov. 4, 2026; notes/book-checks/kotz-judgment-days.md)
+
+- The Miller Center's recordings this run's notes cite, not heard: Ellington and Katzenbach, Mar. 8, 1965 (8:29, 8:38); Katzenbach, Mar. 11 (10:35); Dirksen, Mar. 18 and Apr. 5; Ball, Apr. 9; Russell, July 19; Marshall, July 7; Califano, Aug. 14 (6:25, 8:09); Long and Sawyer, Aug. 17; McCone, Aug. 18, 1965; Whitney Young, July 5, 1966. Branigin, Aug. 17, 1965, 6:36 p.m. (WH6508.05, PNO 5) is not in the Miller Center's catalogue.
+- The Church committee's Book III (S. Rep. No. 94-755) on intelligence.senate.gov: refused here ("Access Denied," Nov. 4, 2026). Its pp. 174, 179–82 print the FBI's papers of Mar. 1968 that Kotz cites.
+- The FBI's Levison wiretaps (100-111180) as Kotz cites them (SDLTAP): Feb. 18, Apr. 5, 8, 12, 1967; Mar. 26, 28, 29, Apr. 1, 1968.
+- Studies the notes cite without a card: Fager, *Selma, 1965* (1974); Raines, *My Soul Is Rested* (1977); Harwood and Johnson, *Lyndon* (1973); Leuchtenburg, "The Old Farmhand from Dixie," *Atlantic* (Dec. 1992); Roy Young, "Presidential Leadership and Civil Rights Legislation"; "Pottinger" (the Justice Department's review of 1977); Weiss, *Whitney M. Young Jr.*; Stewart Burns, *To the Mountain Top*; Hampton and Fayer, *Voices of Freedom*; Gerald McKnight, *The Last Crusade* (card `w.mcknight-last-crusade`, to read).
+- Kotz's interviews of this run: Hirsch, Fauntroy, Goodwin, Forman, Greenberg, Brimmer, Roger Wilkins, Bernhard, Gaither, Mondale, Byrne, Cohen, Ramsey Clark, Height, Marian Logan, Juanita Abernathy, James Lawson, Edward Kennedy: not deposited.
+- Press figures for Part III (R13): William S. White (syndicated), Carl Rowan (columnist; his own Part III place as USIA director to check), Renata Adler (*The New Yorker*), Robert Semple Jr. and John Herbers (*New York Times*), Richard L. Lyons and Carroll Kilpatrick (*Washington Post*).
+
+### Fursenko and Naftali, *Khrushchev's Cold War* (batch 3, third run, Nov. 4, 2026; notes/book-checks/fursenko-khrushchevs-cold-war.md)
+
+- Oct. 24, 1962: McNamara's depth-charge rules and Kennedy's worry, from the morning ExComm's tape (Presidential
+  Recordings, III, 191–97): an entry for a reader of the tapes.
+- Apr. 13, 1961, El Encanto; Aug. 14, 1961, Kennan's authorization (388): to enter from a record.
+- Kennedy's back, Ottawa, May 1961 (the work's "March," 367).
+- The press: a Part III entry for Warren Rogers (*Herald Tribune*, Pentagon pool), named in cal.1962-10-26.soviet-union,
+  and for Thomas J. Hamilton (*New York Times* at the UN), cal.1962-11-15.missile-crisis-2; both treated by this work
+  (486, 502).
+
+### Bernstein, *Guns or Butter* (batch 3, fifth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
+
+- The rows of the fifth run's Passed over marked "a lead".
+- The Juvenile Delinquency and Youth Offenses Control Act of 1961: its day and Statutes cite.
+- Lampman to Heller, June 10, 1963 (Administrative History of the Council, LBJ Library).
+- The poverty hearings' printed volumes (House, pt. 1, pp. 6–7, 64–65, 108–9, 114–15, 146, 184–85, 309, 314, 631–36)
+  and the Record of July 22–23 and Aug. 7, 1964, for the days of Green's, McNamara's and Kennedy's exchanges and
+  Smathers's amendment.
+- The Ways and Means hearings of 1963–64 (pt. 2, 644, 650–51) for Annis's day.
+- The Teaching Professions message of July 17, 1965 in the Public Papers.
+- The ABA's agreement (July 11 or later; Cater to Johnson, Aug. 25, 1965).
+- The press: Murrow's "Harvest of Shame"; Reston's "Franklin Delano Hoover twist"; Lippmann's 1963 column on
+  Goldwater; Henshaw's "Washington Pipeline" (attached to Spain to Manatos, July 30, 1964).
+- Propose a Part III entry for Douglass Cater (White House staff, education and Medicare), who has no name entry.
+
+### Bernstein, *Guns or Butter* (batch 3, sixth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
+
+- The rows of the sixth run's Passed over marked "a lead".
+- *United States v. Alabama*, 252 F. Supp. 95 (M.D. Ala. 1966): its day.
+- The Senate Judiciary's report of Sept. 15, 1965, on the immigration bill (no Digest row found).
+- Feighan's and Celler's fight over the joint committee's funds.
+- The Commerce Department's highway beauty regulations of 1966–67 (Federal Register).
+- The Ford compromise of Dec. 17, 1965 (O'Brien to Califano, Dec. 29, registered).
+- The House's wilderness hearings of 1964 (pp. 1205 for Zahniser) and Zahniser's death.
+- Johnson's promise to the AFL-CIO, Nov. 18, 1965 (no Papers item that day: the record).
+- Propose a Part III entry for Abba P. Schwartz (State, Bureau of Security and Consular Affairs, 1962–66), whose name
+  entry comes from FRUS's lists only, and for Michael A. Feighan (House Judiciary, Subcommittee No. 1), whose comes
+  from the rosters.
+
+### Bernstein, *Guns or Butter* (batch 3, seventh run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
+
+- The rows of the seventh run's Passed over marked "a lead".
+- Kennedy's Charter Day address at Berkeley, Mar. 23, 1962 (1962 Pub. Papers 263).
+- The McNamara–Webb memorandum on the moon (1961).
+- Moyers's statement on Watts, Aug. 14, 1965: Kotz's entry (`cal.1965-08-14.civil-disorders-watts-2`, now merged), to be
+  cited from Bernstein.
+- The Berkeley days of Sept. 20–30, Nov. 9, Dec. 4 and 7, 1964, and Jan. 2, 1965.
+- Propose Part III entries for the press figures David Wise (*Herald Tribune*), Charles Mohr (*New York Times*), Peter
+  Grose (*New York Times*); and for Hans J. Morgenthau, Louis Martin (Democratic National Committee), Norman Thomas,
+  James Bevel and Allard Lowenstein, named here without name entries.
+
+### Woods, *Fulbright: A Biography* (batch 3, Nov. 4, 2026; notes/book-checks/woods-fulbright.md)
+
+- Pat M. Holt's and Carl Marcy's oral histories (Senate Historical Office, 1980 and 1983): the source of a score of
+  entries here; open on senate.gov? To find and read.
+- The Marcy Papers (SFRC, RG 46) and the Fulbright Papers (SPF, Arkansas), item by item in the witness files: none read.
+- The Record pages Woods cites and this run did not read (each a Check on its entry): June 27, 1962, 11879; Mar. 1,
+  1960, 3976-81; Mar. 18, 1964, 5639; Nov. 19, 1963, 22361; Dec. 6, 1963, 23726-28; Dec. 18, 1963, 25032-33; July 23,
+  1964, 16764; Mar. 21, 1966, 6416; Mar. 25, 1966, 6749-53; Aug. 22, 1966, 20191; Mar. 16, 1967, 7057; Apr. 27, 1967,
+  11042-43; Aug. 9, 1967, 22126-27; July 13, 1961 (Goldwater).
+- The Senate's adoption of S. Res. 191 (Woods: Sept. 20, 1961): its day in the Record.
+- Part III entries to propose (R13 and the Names): Pat M. Holt, Seth Tillman, Lee Williams, Jack Yingling, Norvill Jones,
+  John Erickson (Fulbright's staff); Walter Pincus; Doris Fleeson, Holmes Alexander, Clayton Fritchey, Paul Harvey,
+  George Todt (columnists); Dan Smoot, Billy James Hargis, Kent Courtney (radical right); Sol Linowitz; Jim Johnson
+  ("Justice Jim"), Bobby K. Hayes, Winston G. Chandler, Kenneth G. Jones, Charles Bernard (Fulbright's opponents); Bill
+  Darby, Jack Pickens, Witt Stephens (Arkansas); H. L. Hunt; Isadore Hamlin, Maurice Boukstein; R. B. McCallum; John
+  A. Morsell.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -3053,6 +3140,26 @@ CQ Weekly Report, 1968-08-30:
 - 1968 vol., Ch. XII: the ICRC's telegram to Hanoi on 40 sick and wounded prisoners, Jan. 16 (859); Sgt. Buddy Wright's
   escape, Sept. 22 (849).
 - The 1968 volume's unread chapters and annexes (above, "Where I stopped").
+
+### Fursenko and Naftali, *Khrushchev's Cold War* (batch 3, third run, Nov. 4, 2026; notes/book-checks/fursenko-khrushchevs-cold-war.md)
+
+- The rows above marked "lead," each with its page and note; chiefly: the Presidium's and Khrushchev's acts the work
+  dates only to a month (the Minister of Agriculture, March 1963; Kozlov's stroke; the plot's beginnings, 1963; the
+  boundary message, Dec. 31, 1963 or Jan. 1964; Khrushchev's Scandinavian and Egyptian days, May–June 1964, entered by
+  month only).
+- Khrushchev's Berlin speech: the day (Jan. 15 or 16, 1963) by the Sixth SED Congress's record; the publication of the
+  December letters (the work's "next day").
+- The Volkogonov Collection, Library of Congress (Malinovsky's, Zakharov's, Ivanov's papers of Sept. 1962): its finding
+  aid, for copies the series could cite.
+- BBC Scotland's interviews of Shumkov and Chebrasov; David Coleman's transcripts of the ExComm of Nov. 14 and 16,
+  1962 (the work's note: to appear in vol. 4 of the Miller Center's *Presidential Recordings*, 619 n.58).
+- Kroll's summer visit of 1963 and Khrushchev's letter to Adenauer (621 n.111).
+
+### Woods, *Fulbright: A Biography* (batch 3, Nov. 4, 2026; notes/book-checks/woods-fulbright.md)
+
+- Trujillo's contract with Igor Cassini (Woods 307): the Dominican files Pincus photographed; Cassini's indictment's
+  day (1963).
+- The Thai Foreign Minister's statement of Dec. 1967: its day and words.
 
 ## The Executive roster
 

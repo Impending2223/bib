@@ -34,6 +34,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1962 | *New York Times* | item | editorial on the budget: "Maybe" | Smith, *On His Own Terms*, 382
 1962-04 | *Confidential* | item | the Rockefeller-Murphy romance | Smith, *On His Own Terms*, 406
 1962-04-12 | the *Wall Street Journal* (John Lawrence), the AP (Lee Linder) and the *Wilmington Evening Journal* (James L. Parks Jr.) | stories | the FBI's calls on the reporters; Linder's story | Guthman, *We Band of Brothers*, 233–34
+1962-06 | *The New Yorker* | serial | *Silent Spring* serialized | Bernstein, *Guns or Butter*, 263
 1962-07-11 | New York Times and papers across the country | front page | King's jailing at Albany, under the Telstar story; the Times recalls the jailing of 1960 | Branch, *Parting the Waters*, 601–2
 1962-07-12 | Albany Herald | front page | "King Languishes in Bastille" (Branch puts it with the jailing); "Mayor Stays Mum" | Branch, *Parting the Waters*, 602, 607
 1962-07-24 | Albany Herald | front page | "Judge Tuttle Rules with Negro Leaders" | Branch, *Parting the Waters*, 616
@@ -43,9 +44,23 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1962-09-26 | New York Times | front page | three Meredith stories under "U.S. Is Prepared to Send Troops as Mississippi Governor Defies Court and Bars Negro Student" | Branch, *Parting the Waters*, 649
 1962-09-28 | New York Times | front page | "U.S., to Avert Violence, Calls Off New Effort to Enroll Meredith; Sends Hundreds More Marshals" | Branch, *Parting the Waters*, 653
 1962-09-28 | Jackson Daily News | front page | "Thousands Said Ready to Fight for Mississippi"; readers urged to learn "Never, No Never" | Branch, *Parting the Waters*, 653
+1962-09-28 | *Deutsche Soldaten-Zeitung und National-Zeitung* | interview | Kroll interview, "Endkampf um Berlin in 4 Wochen" | Fursenko and Naftali, *Khrushchev's Cold War*, 460
 1962-10-01 | New York Times | front page | the President "qualified his optimism most carefully" in his address | Branch, *Parting the Waters*, 671
+1962-10-25 | Lippmann's column | column | the Jupiters for the Cuban base | Fursenko and Naftali, *Khrushchev's Cold War*, 487–88
+1962-10-30 | *Washington Post* | item | "MiG Deal with India Appears Off" | Fursenko and Naftali, *Khrushchev's Cold War*, 497
+1962-10-31 | *Washington Post* | item | "China Press Sees K as Weak Man" | Fursenko and Naftali, *Khrushchev's Cold War*, 495
+1962-11-01 | *New York Times* | item | Trumbull, "Peking Criticizes Russians on Cuba" | Fursenko and Naftali, *Khrushchev's Cold War*, 495–96
+1962-11-04 | *New York Times* | items | Reuters, "Chinese Marchers Back Cuba"; "Chou Reaffirms Support of Cuba"; Rosenthal on Khrushchev's letter to Nehru | Fursenko and Naftali, *Khrushchev's Cold War*, 496–97
+1962-11-06 | *Washington Post*; *New York Times* | items | Roderick, "Chinese Liken Soviet Action on Cuba to Munich Appeasement"; Topping, "Soviet Indicates a Return to Neutrality on India" | Fursenko and Naftali, *Khrushchev's Cold War*, 496–97
+1962-11-07 | *Washington Post* | item | Kellet-Long, the Peking reception | Fursenko and Naftali, *Khrushchev's Cold War*, 496
+1962-11-08 | *Washington Post* | item | "Soviet Policy on Cuba Is Attacked by Albania" | Fursenko and Naftali, *Khrushchev's Cold War*, 496
+1962-11-09 | *New York Times* | item | Hamilton, "Cuba Bars Return of Soviet Planes" (Lechuga) | Fursenko and Naftali, *Khrushchev's Cold War*, 499
 1963 | *Dallas Morning News* | item | on Rockefeller's fees | Smith, *On His Own Terms*, 393
 1963 | *New Republic*, Kempton | item | "He Has It If He Wants It, and He Does" | Smith, *On His Own Terms*, 394
+1963-01-19 | *The New Yorker* | article | Dwight MacDonald, "Our Invisible Poor" (entered) | Bernstein, *Guns or Butter*, 92
+1963-02-12 | *New York Times* | item | Szulc, "U.S. and Britain Recognize Iraq: Soviet Also Acts" | Fursenko and Naftali, *Khrushchev's Cold War*, 512
+1963-02-20, 24, 25 | *Washington Post* | items | the Soviet bloc's campaign on Iraq; Iraq's charges; ar-Radi | Fursenko and Naftali, *Khrushchev's Cold War*, 512
+1963-03-04, 12, 14 | *New York Times* | items | Schwartz on meat; Salisbury, "The Khrushchev Line"; Topping on Peking's invitation | Fursenko and Naftali, *Khrushchev's Cold War*, 513–15
 1963-03-29 | New York Times | front page | "Police Loose a Dog on Negroes' Group, Minister Is Bitten," photograph under the Republican leaders (entered) | Branch, *Parting the Waters*, 720
 1963-04-03 | New York Times | front page | Dick Gregory, arms twisted behind him by the Greenwood police (entered) | Branch, *Parting the Waters*, 723
 1963-04-05 | New York Times | inside, 16 | "Integration Drive Slows," Birmingham; Apr. 6, 20: "Demonstrations Fail to Develop" | Branch, *Parting the Waters*, 711
@@ -59,6 +74,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-04-17 | Washington Star | lead editorial, A20 | "Just a Bit Phony" (entered) | Branch, *Parting the Waters*, 736-37
 1963-04-17 | New York Times | front page | "President Urged to Cut Off Funds for Mississippi" (entered) | Branch, *Parting the Waters*, 747
 1963-04-19 | Time | magazine, 30-31 | "poorly timed protest" (entered) | Branch, *Parting the Waters*, 737
+1963-04-21 | *Washington Post* | item | "K Back at Work Ignores Attack in Albania Press" | Fursenko and Naftali, *Khrushchev's Cold War*, 520
 1963-04-22 | Newsweek | magazine, 28-29 | Birmingham | Branch, *Parting the Waters*, 737 n.1
 1963-04-28 | Birmingham News | inside, 6 | "Greenwood Rolled with Punch, And Won" | Branch, *Parting the Waters*, 753
 1963-05-04 | New York Times | front page | three photographs two columns wide: the Gadsden dog photograph, the monitor gun, the freedom walkers dragged to jail at Fort Payne | Branch, *Parting the Waters*, 764
@@ -73,6 +89,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-06 | Liberation; Christian Century (June 12); The Witness; Friends; The Mennonite | covers | the "Letter from Birmingham Jail" | Branch, *Parting the Waters*, 804
 1963-06 | *New Republic*, TRB | item | "He is through" | Smith, *On His Own Terms*, 408
 1963-06-10 | New York Times | front page | King: the bill wasted if the President leaves for Europe; a march on Washington (entered) | Branch, *Parting the Waters*, 822
+1963-06-12 | the world's papers | front pages | Browne's photograph of Thích Quảng Đức | Bernstein, *Guns or Butter*, 327
 1963-06-17 | New York Times | front page | Bundy on television defends the President's trip to Europe | Branch, *Parting the Waters*, 841
 1963-06-23 | New York Times | front page | "Negroes Inform Kennedy of Plan for New Protests" | Branch, *Parting the Waters*, 840
 1963-07 | *Manchester Union Leader* | item | "the people will not accept a wife swapper as President" | Smith, *On His Own Terms*, 416
@@ -87,10 +104,13 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-09-20 | New York Times | front page | "Kennedy Names 2 ... Negroes Applaud Move, Drop Appeal for Troops and Accept Panel" | Branch, *Parting the Waters*, 895
 1963-09-24 | New York Times | front page | "Kennedy Says Birmingham Can Solve Its Own Problems" | Branch, *Parting the Waters*, 898
 1963-09-28 | New York Times | front page | Valachi's "underworld glossary" | Branch, *Parting the Waters*, 905
+1963-10-20 | *New York Times* | story | Homer Bigart on poverty in the Cumberlands (Sundquist's pending entry, cited) | Bernstein, *Guns or Butter*, 91
 1963-10-24 | New York Times | inside, 32 | the civil rights bill in committee: "For an understanding of this bizarre battle, it is helpful to look both backward and forward" | Branch, *Parting the Waters*, 910
 1963-10-25 | *Washington Post* | front page | Goldwater on NATO's "commanders" and tactical nuclear weapons (Chalmers Roberts) | White, *Making of the President 1964*, 296
 1963-11-22 | CBS | item | Cronkite: Goldwater kept from the funeral by a political function; his apology | Smith, *On His Own Terms*, 418
+1964 | Lippmann; Reston | columns | uneasy at the drift to war | Bernstein, *Guns or Butter*, 379
 1964-01-06 | *Manchester Union Leader* | item | "Deception, Deceit, and Divorce" | Smith, *On His Own Terms*, 420
+1964-01-06 | *Concord Daily Monitor* | front page | "Goldwater Sets Goals: End Social Security, Hit Castro" (in the Jan. 7 cite) | Bernstein, *Guns or Butter*, 128
 1964-01-07 | *Concord Daily Monitor* | front page | "Goldwater Sets Goals: End Social Security; Hit Castro" | White, *Making of the President 1964*, 104
 1964-01-19 | *New York Times* | front page | King in the Oval Office beside Johnson, a large photograph | Kotz, *Judgment Days*, 102
 1964-01-20 | *Newsweek* | article | "Fastest Gun" | Goldberg, *Barry Goldwater*, 177 n.158
@@ -117,6 +137,8 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1964-08-04 | CBS | the address | Dan Rather: "a day of tension here at the White House" | Branch, *Pillar of Fire*, 436
 1964-08-07 | *New York Times* | p. 13 | "No Evidence of Beating" (Chaney) | Branch, *Pillar of Fire*, 440
 1964-08-08 | *New York Times* | p. 7 | "Chaney Was Given a Brutal Beating" | Branch, *Pillar of Fire*, 440
+1964-08-11/12 | Evans and Novak's column | column | the dumping of Yarmolinsky (entered) | Bernstein, *Guns or Butter*, 111
+1964-08-14 | *New York Times* | editorial | "Soviet School Retreat" | Fursenko and Naftali, *Khrushchev's Cold War*, 532
 1964-08-21 | *Life* | cover | Khánh at the "front" in a jeep under ferns | Branch, *Pillar of Fire*, 443
 1964-08-22 | NBC | the hearing | Edwin Newman cuts from Hamer to Goralski at the White House | Branch, *Pillar of Fire*, 459
 1964-08-22 | the networks | evening, prime time | Hamer's testimony replayed after Johnson's press conference cut it off | Kotz, *Judgment Days*, 205
@@ -147,10 +169,14 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-01-07 | *New York World-Telegram* | item | "Rockefeller Wants More of Everything" | Smith, *On His Own Terms*, 459
 1965-01-08 | *New York Herald Tribune*, David Lawrence | item | "Rockefeller's Great Society Plan" | Smith, *On His Own Terms*, 456 n.
 1965-01-11 | *New York Times* | front page | a second Klan confession | Branch, *Pillar of Fire*, 558
+1965-01-13 | *New York Times*, *Washington Post* | editorials | editorials on the education message (day not given) | Bernstein, *Guns or Butter*, 192–93
 1965-01-26 | *New York Times* | front page | Clark beating Annie Lee Cooper, a photograph | Kotz, *Judgment Days*, 263 n.
+1965-01-26 | *New York Times* | front page | Clark sitting on Annie Lee Cooper | Bernstein, *Guns or Butter*, 220
+1965-02 | *New York Times*, Reston | column | "a spade a bloody shovel" (entered) | Bernstein, *Guns or Butter*, 345
 1965-02-02 | *New York Times* | front page | "Dr. King and 770 Others Seized" | Branch, *Pillar of Fire*, 577
 1965-02-03 | *New York Times* | front page | "520 More Seized" | Branch, *Pillar of Fire*, 577
 1965-02-05 | *New York Times* | full-page advertisement | "Letter from the Selma Jail" | Kotz, *Judgment Days*, 268
+1965-02-05 | *New York Times* | advertisement | King's letter from the Selma jail | Bernstein, *Guns or Butter*, 221
 1965-02-06 | *New York Times* | front page | "Dr. King to Seek New Voting Law" | Branch, *Pillar of Fire*, 581
 1965-02-07 | *Washington Post* | p. E1 | youth's charges against King, "hit-and-run" | Branch, *Pillar of Fire*, 587
 1965-02-09 | *Montgomery Advertiser* (AP) | front page | "Negroes Don't Know What They Want" | Branch, *Pillar of Fire*, 587
@@ -165,13 +191,29 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-02-28 | *New York Times* | p. 74 | "World Pays Little Attention to Malcolm Slaying" | Branch, *Pillar of Fire*, 598
 1965-03-03 | *Los Angeles Times* |  | Judge Coleman's suspensions in the Stokes case | Branch, *Pillar of Fire*, 604 n.
 1965-03-07 | ABC | 9:30 p.m., a bulletin into *Judgment at Nuremberg* | fifteen minutes of the bridge | Kotz, *Judgment Days*, 285
+1965-03-07 | ABC | evening | *Judgment at Nuremberg* interrupted for the bridge (Zelizer's pending entry, cited) | Bernstein, *Guns or Butter*, 227
 1965-03-08 | *New York Times* | front page | Roy Reed's account of the bridge | Kotz, *Judgment Days*, 284
+1965-03-08 | *New York Times* | p. 20 | "Johnson Kept Informed"; King's plan for a new walk (entries) | Kotz, *Judgment Days*, 287
+1965-03-08 | *New York Times* | front page | Roy Reed on the bridge | Bernstein, *Guns or Butter*, 227
+1965-03-09 | *New York Times* | front page | "Wallace Says Police Saved Negro Lives" (an entry) | Kotz, *Judgment Days*, 291
+1965-03-10 | *New York Times* | front page | the turnaround at the bridge; Reeb; the Washington vigils | Kotz, *Judgment Days*, 294–98
+1965-03-15 | *New York Herald Tribune* | — | Wallace's "frank and friendly discussion" | Kotz, *Judgment Days*, 306
+1965-03-16 | *New York Times* | — | Wicker on the address (an entry) | Kotz, *Judgment Days*, 313–14
+1965-03-29 | *Washington Post*, *Evening Star* | front page (Post) | King's boycott of Alabama | Kotz, *Judgment Days*, 327
+1965-03-30 | *New York Times* | front page | "Washington Is Cool to Alabama Boycott" | Kotz, *Judgment Days*, 327
+1965-04 | the papers | items | Johnson's "love affair" with the auto industry | Bernstein, *Guns or Butter*, 292
+1965-05-23 | *Herald Tribune*, Wise | story | "credibility gap" (entered) | Bernstein, *Guns or Butter*, 536
 1965-07 | *Life* | picture | Ball in tears at Stevenson's memorial service (Check: the issue) | Ball, *The Past Has Another Pattern*, 152
+1965-07 | Alsop | column | "pathos" (entered) | Bernstein, *Guns or Butter*, 349
 1965-07-12 | *Newsweek*, Emmet John Hughes | item | "An Untold Tale" | Smith, *On His Own Terms*, 473 n.
+1965-08-13 | *Los Angeles Times*; the networks | coverage | Watts by helicopter | Bernstein, *Guns or Butter*, 384
+1965-08-15 | *New York Times* | front page | Semple, "Johnson Shocked" (Watts) | Kotz, *Judgment Days*, 341
+1965-09-12 | *New York Times*, *Daily News*, *Washington Post* | — | King and Goldberg; Dodd; Whitney Young | Kotz, *Judgment Days*, 352
 1965-09-24 | Joseph Alsop's column | column | the B-52s in South Vietnam, the press "favorably impressed" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1965 vol., 193
 1965-11 | (a news photograph) | photograph | Rusk at Montevideo, the spit dubbed into the negative | Rusk, *As I Saw It*, 571–72
 1965-11-05 | *World-Telegram and Sun*, Kempton | item | "Lindsay and Rockefeller" (entered) | Smith, *On His Own Terms*, 474
 1965-11-26 | *Saigon Daily News* | story | the Republic of China's two C-46s for the VNAF | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1965 vol., 73 n.285
+1965-12 | *Atlantic Monthly* | article | Elizabeth Drew, "Lady Bird's Beauty Bill" | Bernstein, *Guns or Butter*, 300
 1966 | *Syracuse Post-Standard* | item | Medicaid "insane, fiscally irresponsible ... New York's Gigantic Giveaway" | Smith, *On His Own Terms*, 484 (as the *New Leader*, Apr. 8, 1968, quotes it)
 1966-01-09 | New York Times | front page | "8,000 G.I.'s Open Biggest Attack of Vietnam War" (Crimp), start withheld from the South Vietnamese | Branch, *At Canaan's Edge*, 415
 1966-01-10 | *Hattiesburg American* | front page | the attack on the Dahmers | Branch, *Pillar of Fire*, 606
@@ -184,10 +226,12 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1966-01-27 | Chicago Tribune |  | "King Picks 'Typical' Flat/8 Men Repair It" | Branch, *At Canaan's Edge*, 427
 1966-01-27 | CBS Evening News | broadcast | Cronkite gives three minutes to Rusk's hearing; NBC five | Branch, *At Canaan's Edge*, 430
 1966-01-28 | New York Times | front page | "A Lonely Johnson Weighs Bombing"; "15 in Senate Urge President Extend Pause in Bombing" | Branch, *At Canaan's Edge*, 430
+1966-01-28 | CBS, NBC | evening news | clips of Rusk and Fulbright at the open session | Woods, *Fulbright*, 403
 1966-01-31 | New York Times | front page | AP photograph of the medic Thomas Cole near Bồng Sơn | Branch, *At Canaan's Edge*, 433
 1966-02 | *New York Times* (Wicker) | dispatch | the Bangkok communiqué filed first | Humphrey, *Education of a Public Man*, 332
 1966-02 | *New York Times* | story (Broder) | Romney: "fuzziness on national and international issues" | White, *Making of the President 1968*, 40
 1966-02-01 | New York Times | front page | "Johnson Asks U.N. to Summon Vietnam Peace Conference/ Bombing in North Resumes" | Branch, *At Canaan's Edge*, 433
+1966-02-04 | CBS | daytime | the hearings live, Friendly in charge; *Captain Kangaroo* and soap operas preempted | Woods, *Fulbright*, 404
 1966-02-10 | CBS | daytime broadcast | the hearings dropped for reruns, *I Love Lucy* among them | Woods, *J. William Fulbright, Vietnam*, 117
 1966-02-11 | Montgomery Advertiser | front page | "Lowndes Schools Ordered to End All Segregation" | Branch, *At Canaan's Edge*, 438
 1966-02-14 | BBC | broadcast | Kennan's testimony and Fulbright's questioning, almost verbatim; Labour members on the talk shows | Woods, *J. William Fulbright, Vietnam*, 121
@@ -205,11 +249,14 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1966-06-16 | *New York Post*, Kempton | item | "There's Only One Winner" (entered) | Smith, *On His Own Terms*, 478-79
 1966-07-29 | *New York Post* (McGrory) | column | "The Vice President is not a proud man" (Check: the day) | Solberg, *Hubert Humphrey*, 295
 1966-10-21 | *New York Daily News* | item | its straw poll: O'Connor ahead | Smith, *On His Own Terms*, 491
+1966-12-25–1967-01-03 | *New York Times*, Salisbury | dispatches | from Hanoi (in the tree) | Bernstein, *Guns or Butter*, 412
 1967-02-21 | *New York Times* |  | the grand-jury claims in the Dahmer and Neshoba cases | Branch, *Pillar of Fire*, 609
 1967-02-28 | *New York Times* | p. 40 | the same | Branch, *Pillar of Fire*, 609
 1967-03-01 | *New York Times* | front page | the same | Branch, *Pillar of Fire*, 609
 1967-03-01 | *New York Times* | page | Herbers, "Fulbright Backs Vietnam Limit of 500,000 G.I.'s" | Woods, *J. William Fulbright, Vietnam*, 145 n.8
 1967-03-27 | *Newsweek* | p. 29 | Komer "a Guildenstern at the court of Lyndon I" | Berman, *Lyndon Johnson's War*, 32
+1967-04-06/07 | *Washington Post*, *New York Times* | editorials | "A Tragedy"; "Dr. King's Error" (entries) | Kotz, *Judgment Days*, 375
+1967-04-11 | *New York Times* | front page | the NAACP's board against King on Vietnam | Kotz, *Judgment Days*, 375
 1967-04-23 | *New York World Journal Tribune* | article | Thimmesch, "The New New Nixon" | White, *Making of the President 1968*, 53 n.9
 1967-05-05 | *Arkansas Gazette* | page | "RFK-Fulbright Group to Ignore Objections, Run in New Hampshire" | Woods, *J. William Fulbright, Vietnam*, 149 n.21
 1967-07-08 | *New York Times* | front page | "Westmoreland asks M'Namara for more troops" | Berman, *Lyndon Johnson's War*, 54
@@ -231,6 +278,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1967-10-09 | CBS Evening News | broadcast | Webster's ear-cutting report; Sevareid's comment | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 965
 1967-10-10 | Saigon Daily News | front page | the northeast monsoon's arrival | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 362
 1967-10-20 | *Time* | item | the cover, Rockefeller and Reagan (entered) | Smith, *On His Own Terms*, 498
+1967-10-22 | *New York Times* | story | 50,000 at the Lincoln Memorial | Bernstein, *Guns or Butter*, 423
 1967-11 | CBS | interview | Steve Rowan's taped interview with Westmoreland: the estimate of withdrawals | Westmoreland, *A Soldier Reports*, 231, 234
 1967-11 | *Washington Post* |  | Oberdorfer, "Statistics on War Fail to Prove Real Progress" | Berman, *Lyndon Johnson's War*, 118
 1967-11-14 | UPI | wire | Hochmuth's death, against the embargo | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 963
@@ -250,6 +298,8 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-01-26 | *New York Times* | p. 17 | the same | Branch, *Pillar of Fire*, 610
 1968-01-31 | New York Times; Washington Post | front pages | Mohr on the embassy in Saigon; the Post's photograph of a Viet Cong body on the lawn | Branch, *At Canaan's Edge*, 681
 1968-01-31 | *Arkansas Gazette* | page | "Senate Panel to Re-examine Tonkin Case" | Woods, *J. William Fulbright, Vietnam*, 168 n.30
+1968-01-31 | *The News* (Washington) | front page | "War Hits Saigon" | Woods, *Fulbright*, 468
+1968-01-31 | the networks | evening news | Tet: the dead in the rubble, fighting in Saigon | Woods, *Fulbright*, 468
 1968-02 | the papers, nationally | front pages (by Rusk's account) | Rusk to Scali at a backgrounder: "Whose side are you on?" | Rusk, *As I Saw It*, 477
 1968-02 | *Harper's*, Larry L. King | item | "The Cool World of Nelson Rockefeller" (made public, entered) | Smith, *On His Own Terms*, 498
 1968-02 | *Los Angeles Times* | story | Tuohy on MACV Forward, "blatantly speculative" by Westmoreland's account | Westmoreland, *A Soldier Reports*, 345
@@ -281,6 +331,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-03-19 | *New York Times* | front page | Rockefeller to declare | White, *Making of the President 1968*, 231
 1968-03-24 | New York Times |  | "Memphis Protest Avoids Violence," the Southern Regional Council's study | Branch, *At Canaan's Edge*, 730
 1968-03-29 | NBC Huntley-Brinkley | broadcast | King, "Nonviolence can be as contagious as violence"; Coby Smith of the Invaders | Branch, *At Canaan's Edge*, 738, 740
+1968-03-29 | *St. Louis Globe-Democrat*, Memphis *Commercial Appeal* | — | the FBI's lines on King at Memphis; "Chicken a la King" (an entry) | Kotz, *Judgment Days*, 404
 1968-03-30 | New York Times | editorial page | against King's "descent on Washington" | Branch, *At Canaan's Edge*, 744
 1968-03-30/31 | Memphis Commercial Appeal; St. Louis Globe-Democrat | editorials | "King's Credibility Gap," "Chicken a la King"; "The Real Martin Luther King," from the FBI's material | Branch, *At Canaan's Edge*, 745
 1968-04-01 | *Newsweek* | item | the "rumors that periodically haunt Rocky's personal life" | Smith, *On His Own Terms*, 518
@@ -323,3 +374,4 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-11 | wires, two reporters | dispatch | a secret meeting with Johnson guessed, the White House called (the visit now dated Oct. 19, `cal.1968-10-19.elections-1968`) | Humphrey, *Education of a Public Man*, 404 n.
 1968-11-04 | US News & World Report | article | Sol W. Sanders, "Why Communists Need a Truce" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 995
 1968-12-29 | *New York Times Magazine* | article | Searle, "A Foolproof Scenario for Student Revolts" | White, *Making of the President 1968*, 219 n.8
+1969-01-17 | the press | items | the set-asides broken | Bernstein, *Guns or Butter*, 305
