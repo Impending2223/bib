@@ -99,7 +99,7 @@ entries:
     thread: jobs-and-wages
     also: [welfare]
     c: Special message on economic recovery and growth. Temporary unemployment benefits, aid to children of the unemployed, minimum wage, area redevelopment, housing, Social Security. No tax cut yet.
-    n: 'Special Message to the Congress: Program for Economic Recovery and Growth, [1961 Pub. Papers 41](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=99) (Feb. 2, 1961). CQ Almanac 1961 (K–J Cong. II.L). [[w.stein-fiscal-revolution-in-america]], 386, 391 (spending first; no tax cut). [[w.sorensen-kennedy]], 397. To check: [[w.sundquist-politics-and-policy]]; [[w.heller-new-dimensions-of-political]]; [[w.bernstein-promises-kept]]. Names: Heller, Tobin, Gordon.'
+    n: 'Special Message to the Congress: Program for Economic Recovery and Growth, [1961 Pub. Papers 41](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=99) (Feb. 2, 1961). CQ Almanac 1961 (K–J Cong. II.L). [[w.stein-fiscal-revolution-in-america]], 386, 391 (spending first; no tax cut); [[w.sundquist-politics-and-policy]], 35, 126 (the message; aid to children of the unemployed, 126). [[w.sorensen-kennedy]], 397. To check: [[w.heller-new-dimensions-of-political]]; [[w.bernstein-promises-kept]]. Names: Heller, Tobin, Gordon.'
     src:
       c: 00a05913
       rows:
@@ -107,6 +107,8 @@ entries:
         - 'w.stein-fiscal-revolution-in-america 386: A'
         - 'w.stein-fiscal-revolution-in-america 391: A-C'
         - 'w.sorensen-kennedy 397: all'
+        - 'w.sundquist-politics-and-policy 35: A-C'
+        - 'w.sundquist-politics-and-policy 126: B'
     tags: [name:kennedy-john-f, name:heller-walter-w, name:tobin-james, name:gordon-kermit]
     short: Recovery message
     to:
@@ -461,12 +463,13 @@ entries:
     date: '1961-02-20'
     thread: school-aid
     c: 'Education message: grants for school construction and teachers'' salaries, public schools only. Cardinal Spellman and the bishops demand loans for parochial schools.'
-    n: 'Special Message to the Congress on Education, [1961 Pub. Papers 107](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=165) (Feb. 20, 1961). [[w.sorensen-kennedy]], 360. To check: [[w.mcandrews-broken-ground]]; [[w.graham-uncertain-triumph]]; [[w.munger-national-politics-and-federal]]. Names: Powell, Delaney, Ribicoff, Spellman.'
+    n: 'Special Message to the Congress on Education, [1961 Pub. Papers 107](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=165) (Feb. 20, 1961). [[w.sorensen-kennedy]], 360; [[w.sundquist-politics-and-policy]], 188–91 (the message, public schools only). To check: [[w.mcandrews-broken-ground]]; [[w.graham-uncertain-triumph]]; [[w.munger-national-politics-and-federal]]. Names: Powell, Delaney, Ribicoff, Spellman. Check: Sundquist, 189, dates Spellman''s statement Jan. 17, against the task force''s report, and the bishops'', the National Catholic Welfare Conference''s, by Archbishop Alter, Mar. 1.'
     src:
       c: c748123e
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=165: all'
         - 'w.sorensen-kennedy 360: all'
+        - 'w.sundquist-politics-and-policy 188–91: A'
     tags: [name:kennedy-john-f, name:spellman-francis, name:powell-adam-clayton-jr, name:delaney-james-j, name:ribicoff-abraham]
   - id: cal.1961-02-20.court
     when: Feb. 20
@@ -495,6 +498,20 @@ entries:
     c: New York. Early in the month Wagner calls on DeSapio to step down as leader of the county's Democrats.
     n: 'Check: *New York Times*, Feb. 1961, for the day. See [[cal.1961-01.states-and-cities-nyc]]. Names: Wagner, DeSapio.'
     tags: [state:ny, city:nyc, name:wagner-robert-f-jr, name:desapio-carmine]
+  - id: cal.1961-02-20.jobs-and-wages
+    when: Feb. 20
+    date: '1961-02-20'
+    thread: jobs-and-wages
+    also: [economy]
+    c: 'Clark''s public works bill, on the lines of the PWA: $500 million in grants, up to 45 percent of a project''s cost, and $500 million more for the President to release against the recession. "If Federal money is going to be spent, I urge that we put our emphasis on buying things of lasting value."'
+    n: 'Clark, [107 Cong. Rec. 2373](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt2/pdf/GPO-CRECB-1961-pt2-11-1.pdf#page=52) (Feb. 20, 1961). [[w.sundquist-politics-and-policy]], 92–93. Names: Clark.'
+    src:
+      c: 2737dd0f
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt2/pdf/GPO-CRECB-1961-pt2-11-1.pdf#page=52: B'
+        - 'w.sundquist-politics-and-policy 92–93: all'
+        - 'via w.sundquist-politics-and-policy 92 n.75: B'
+    tags: [name:clark-joseph-s]
   - id: cal.1961-02-21.africa
     when: Feb. 21
     date: '1961-02-21'

@@ -8,7 +8,13 @@ entries:
     date: '1961-05-01'
     thread: jobs-and-wages
     c: Area Redevelopment Act signed, [75 Stat. 47](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg47-2.pdf). Douglas's bill, twice vetoed by Eisenhower.
-    n: 'Statute (K–J Cong. II.J.2). To check: [[w.levitan-federal-aid-to-depressed]]; [[w.douglas-in-the-fullness-of]]. Names: Douglas, Eisenhower.'
+    n: 'Statute (K–J Cong. II.J.2). [[w.sundquist-politics-and-policy]], 62–72, 83–85. To check: [[w.levitan-federal-aid-to-depressed]]; [[w.douglas-in-the-fullness-of]]. Names: Douglas, Eisenhower.'
+    src:
+      c: 20b53472
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg47-2.pdf: A'
+        - 'w.sundquist-politics-and-policy 62–72: B'
+        - 'w.sundquist-politics-and-policy 83–85: A-B'
     tags: [name:douglas-paul-h, name:eisenhower-dwight-d, name:kennedy-john-f]
   - id: cal.1961-05-01.crime-and-hijacking
     when: May 1
@@ -108,6 +114,18 @@ entries:
     c: Arizona 2d, special. Morris Udall holds his brother's seat over Matheson (R), 51,304 to 49,297, 51.0 percent, a 2,007-vote margin. Swing 4.7 to R.
     n: 'Votes: Ariz. Secretary of State, Official Canvass, Special General Election, May 2, 1961, in Turnbow, *Ariz. Political Almanac*, 1962, [65](https://azmemory.azlibrary.gov/nodes/view/102593). See [[cal.1961-04-04.states-and-cities]]. Names: Morris Udall, Stewart Udall, Matheson.'
     tags: [special:1961-05-02-h-AZ-2, name:udall-morris-k, name:matheson-mac-c, name:udall-stewart-l]
+  - id: cal.1961-05-02.economy
+    when: May 2
+    date: '1961-05-02'
+    thread: economy
+    c: 'The Joint Economic Committee''s report on the Economic Report: the majority against the "too restrictive" fiscal policies of recent years, a tax cut to be considered. Five Republicans against, fourteen pages; Proxmire dissents from the majority.'
+    n: '[[w.sundquist-politics-and-policy]], 41. To check: *Report of the Joint Economic Committee on the January 1961 Economic Report of the President*, 87th Congress, 1st session (May 2, 1961), 29–31 (cited by [[w.sundquist-politics-and-policy]], 41 n.84). See [[cal.1961-01-10.economy]]. Names: Proxmire.'
+    src:
+      c: 98ed452e
+      rows:
+        - 'w.sundquist-politics-and-policy 41: all'
+        - 'via w.sundquist-politics-and-policy 41 n.84: A'
+    tags: [name:proxmire-william]
   - id: cal.1961-05-03.laos
     when: May 3
     date: '1961-05-03'
@@ -227,6 +245,34 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d200: all'
     tags: [name:gray-david-w]
+  - id: cal.1961-05-04.civil-rights-bill
+    when: May 4
+    date: '1961-05-04'
+    thread: civil-rights-bill
+    also: [republican-party-congress]
+    c: Lindsay to the House, an hour, on "the administration's deliberate failure, contrary to campaign and platform pledges, to submit to the Congress a civil rights program."
+    n: 'Lindsay, [107 Cong. Rec. 7421–22](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt6/pdf/GPO-CRECB-1961-pt6-4-2.pdf#page=54) (May 4, 1961). [[w.sundquist-politics-and-policy]], 256 (the Republicans'' charge). Names: Lindsay.'
+    src:
+      c: 0bbdbbce
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt6/pdf/GPO-CRECB-1961-pt6-4-2.pdf#page=54: all'
+        - 'w.sundquist-politics-and-policy 256: all'
+        - 'via w.sundquist-politics-and-policy 256 n.109a: all'
+    tags: [name:lindsay-john-v]
+  - id: cal.1961-05-04.civil-rights-bill-2
+    when: May 4
+    date: '1961-05-04'
+    thread: civil-rights-bill
+    also: [republican-party-congress]
+    c: 'Keating to the Senate on the administration''s first hundred days in civil rights: "there is nothing to report." He wonders how its critics of Eisenhower "can sit by silently accepting every excuse for this administration''s glaring failure to move forward 1 inch."'
+    n: 'Keating, [107 Cong. Rec. 7340](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt6/pdf/GPO-CRECB-1961-pt6-4-1.pdf#page=62) (May 4, 1961). [[w.sundquist-politics-and-policy]], 257. See [[cal.1961-05-04.civil-rights-bill]]. Names: Keating.'
+    src:
+      c: cf0531fe
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt6/pdf/GPO-CRECB-1961-pt6-4-1.pdf#page=62: all'
+        - 'w.sundquist-politics-and-policy 257: B'
+        - 'via w.sundquist-politics-and-policy 257 n.116: B'
+    tags: [name:keating-kenneth-b]
   - id: cal.1961-05-05.space
     when: May 5
     date: '1961-05-05'
@@ -458,13 +504,14 @@ entries:
     date: '1961-05-09'
     thread: civil-rights-bill
     c: 'Salinger: the President will not back the two bills carrying out the Democratic platform on civil rights. Wilkins: "an offering of a cactus bouquet."'
-    n: '[[w.branch-parting-the-waters]], 415. To check: New York Times, May 10, 1961, 1 (cited by [[w.branch-parting-the-waters]], 415 n.2); New York Times, May 11, 1961, 24 (cited by [[w.branch-parting-the-waters]], 415 n.4). See [[cal.1960-09-01.civil-rights-the-executive]]. Names: Salinger, Wilkins.'
+    n: '[[w.branch-parting-the-waters]], 415; [[w.sundquist-politics-and-policy]], 256 (the disavowal, by Salinger). To check: New York Times, May 10, 1961, 1 (cited by [[w.branch-parting-the-waters]], 415 n.2); New York Times, May 11, 1961, 24 (cited by [[w.branch-parting-the-waters]], 415 n.4). See [[cal.1960-09-01.civil-rights-the-executive]]. Names: Salinger, Wilkins.'
     src:
       c: 6ffb0895
       rows:
         - 'w.branch-parting-the-waters 415: all'
         - 'via w.branch-parting-the-waters 415 n.2: A'
         - 'via w.branch-parting-the-waters 415 n.4: B'
+        - 'w.sundquist-politics-and-policy 256: ?'
     tags: [name:salinger-pierre, name:wilkins-roy, name:kennedy-john-f]
   - id: cal.1961-05-09.georgia
     when: May 9
@@ -562,13 +609,14 @@ entries:
     thread: robert-kennedy
     also: [poverty]
     c: 'Executive Order 10940: the President''s Committee on Juvenile Delinquency and Youth Crime, Robert Kennedy its chairman, David Hackett its executive director. To the Speaker the same day, a bill for grants against delinquency.'
-    n: '[Executive Order 10940](https://www.presidency.ucsb.edu/documents/executive-order-10940-establishing-the-presidents-committee-juvenile-delinquency-and-youth) (May 11, 1961); Letter to the Speaker of the House of Representatives Concerning Measures To Combat Juvenile Delinquency, [1961 Pub. Papers 373](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=431) (May 11, 1961). [[w.schlesinger-robert-kennedy-and-his]], 410–11 (the committee). The act: [[cal.1961-09-22.peace-corps]]. Names: Robert Kennedy. Check: Hackett''s appointment, its day.'
+    n: '[Executive Order 10940](https://www.presidency.ucsb.edu/documents/executive-order-10940-establishing-the-presidents-committee-juvenile-delinquency-and-youth) (May 11, 1961); Letter to the Speaker of the House of Representatives Concerning Measures To Combat Juvenile Delinquency, [1961 Pub. Papers 373](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=431) (May 11, 1961). [[w.schlesinger-robert-kennedy-and-his]], 410–11 (the committee). The act: [[cal.1961-09-22.peace-corps]]. [[w.sundquist-politics-and-policy]], 117–18 (the bill to the House; the committee, Robert Kennedy at its head; not Hackett). Names: Robert Kennedy. Check: Hackett''s appointment, its day.'
     src:
       c: '39316123'
       rows:
         - 'https://www.presidency.ucsb.edu/documents/executive-order-10940-establishing-the-presidents-committee-juvenile-delinquency-and-youth: A'
         - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=431: B'
         - 'w.schlesinger-robert-kennedy-and-his 410–11: A'
+        - 'w.sundquist-politics-and-policy 117–18: A-B'
     tags: [name:kennedy-john-f, name:kennedy-robert-f, name:rayburn-sam]
   - id: cal.1961-05-11.crime-and-hijacking
     when: May 11
@@ -582,6 +630,20 @@ entries:
       rows:
         - 'w.navasky-kennedy-justice 78, 89: all'
     tags: [name:miller-herbert-j-jr]
+  - id: cal.1961-05-11.civil-rights-bill
+    when: May 11
+    date: '1961-05-11'
+    thread: civil-rights-bill
+    also: [republican-party-congress]
+    c: 'Javits to the Senate on Salinger''s statement in the *New York Times* of May 10, the President not thinking it "necessary at this time to enact civil rights legislation": a protest against "the apparent attitude of the administration that it must appease Senators from one section."'
+    n: 'Javits, [107 Cong. Rec. 7820–21](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt6/pdf/GPO-CRECB-1961-pt6-8-1.pdf#page=62) (May 11, 1961). [[w.sundquist-politics-and-policy]], 256 (the Republicans'' charge; the disavowal). See [[cal.1961-05-04.civil-rights-bill]]. Names: Javits, Salinger.'
+    src:
+      c: b0f46ebf
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt6/pdf/GPO-CRECB-1961-pt6-8-1.pdf#page=62: all'
+        - 'w.sundquist-politics-and-policy 256: all'
+        - 'via w.sundquist-politics-and-policy 256 n.109b: all'
+    tags: [name:javits-jacob-k, name:salinger-pierre]
   - id: cal.1961-05-12.vietnam
     when: May 12
     date: '1961-05-12'
@@ -791,6 +853,17 @@ entries:
         - 'via w.jones-bay-of-pigs 91 n.47a: C'
         - 'via w.jones-bay-of-pigs 91 n.47b: C'
     tags: [name:taylor-maxwell, name:kennedy-robert-f, name:burke-arleigh-a, name:dulles-allen-w, name:kennedy-john-f]
+  - id: cal.1961-05-16.school-aid
+    when: May 16
+    date: '1961-05-16'
+    thread: school-aid
+    c: The Senate opens debate on the school bill. Ribicoff and O'Brien, Mansfield with them, argue for joining the public school bill and loans to private schools in one; Morse, managing the bill, holds to two, and prevails.
+    n: '[[w.sundquist-politics-and-policy]], 191. See [[cal.1961-02-20.school-aid]]. Names: Ribicoff, O''Brien, Mansfield, Morse.'
+    src:
+      c: 548445d8
+      rows:
+        - 'w.sundquist-politics-and-policy 191: all'
+    tags: [name:ribicoff-abraham, name:obrien-lawrence-f, name:mansfield-mike, name:morse-wayne]
   - id: cal.1961-05-17.europe-and-the-alliance
     when: May 17
     date: '1961-05-17'
@@ -1327,6 +1400,18 @@ entries:
       rows:
         - 'w.navasky-kennedy-justice 86, 88–89: all'
     tags: [name:miller-herbert-j-jr, name:ervin-sam-j-jr]
+  - id: cal.1961-05-25.school-aid
+    when: May 25
+    date: '1961-05-25'
+    thread: school-aid
+    c: 'Senate passes S. 1021, the school aid bill, Morse managing, [49–34](https://voteview.com/rollcall/RS0870054): grants for construction and teachers'' salaries, public schools only. The division almost that of 1960.'
+    n: '[[w.sundquist-politics-and-policy]], 191. See [[cal.1961-05-22.school-aid]]. Names: Morse.'
+    src:
+      c: c6fedf79
+      rows:
+        - 'https://voteview.com/rollcall/RS0870054: A'
+        - 'w.sundquist-politics-and-policy 191: all'
+    tags: [name:morse-wayne]
   - id: cal.1961-05-26.vietnam
     when: May 26
     date: '1961-05-26'
@@ -1467,6 +1552,18 @@ entries:
         - 'w.fursenko-one-hell-of-a 128: all'
         - 'via w.fursenko-one-hell-of-a 128 n.68: all'
     tags: [name:bundy-mcgeorge, name:kennedy-john-f, name:lippmann-walter, name:thompson-llewellyn-e, name:acheson-dean-g, name:rusk-dean]
+  - id: cal.1961-05-29.jobs-and-wages
+    when: May 29
+    date: '1961-05-29'
+    thread: jobs-and-wages
+    c: 'The manpower training bill to Congress: training and retraining for several hundred thousand workers over four years. The Secretary of Labor in charge, the cost federal; the States'' vocational schools by agreements HEW negotiates, not by formula.'
+    n: 'Letter to the President of the Senate and to the Speaker of the House Concerning the Training of Workers in New Occupational Skills, [1961 Pub. Papers 415](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=473) (May 29, 1961). [[w.sundquist-politics-and-policy]], 87–88 (the bill''s terms, the Budget Bureau''s). Names: Kennedy.'
+    src:
+      c: ec6f303e
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=473: A'
+        - 'w.sundquist-politics-and-policy 87–88: A-C'
+    tags: [name:kennedy-john-f]
   - id: cal.1961-05-30.latin-america
     when: May 30
     date: '1961-05-30'

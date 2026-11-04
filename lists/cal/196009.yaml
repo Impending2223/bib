@@ -25,7 +25,13 @@ entries:
     date: '1960-09-01'
     thread: congress
     c: 86th Congress adjourns sine die, ending the session Johnson and Rayburn reconvened Aug. 8, after the conventions. No agreement in conference on the minimum wage; no school or housing bill out of the House Rules Committee; medical care for the aged through Social Security refused. Kerr–Mills and the Latin American fund passed.
-    n: 'H. Con. Res. 745, [74 Stat. B12](https://www.govinfo.gov/content/pkg/STATUTE-74/pdf/STATUTE-74-PgB12.pdf). To check: [[w.caro-master-of-the-senate]]; [[w.dallek-lone-star-rising]]; [[w.sundquist-politics-and-policy]]. Names: Johnson, Rayburn, Kerr, Mills.'
+    n: 'H. Con. Res. 745, [74 Stat. B12](https://www.govinfo.gov/content/pkg/STATUTE-74/pdf/STATUTE-74-PgB12.pdf). [[w.sundquist-politics-and-policy]], 307, 513 n.6 (Kerr–Mills passed and Medicare through Social Security refused, 307; no conference on the minimum wage, no school or housing bill from Rules, 513 n.6). To check: [[w.caro-master-of-the-senate]]; [[w.dallek-lone-star-rising]]. Names: Johnson, Rayburn, Kerr, Mills.'
+    src:
+      c: 3d428fae
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/STATUTE-74/pdf/STATUTE-74-PgB12.pdf: all'
+        - 'w.sundquist-politics-and-policy 307: D-E'
+        - 'w.sundquist-politics-and-policy 513 n.6: B-C'
     tags: [name:johnson-lyndon-b, name:rayburn-sam, appropriations:86-2, name:kerr-robert-s, name:mills-wilbur-d]
   - id: cal.1960-09-01.civil-rights-the-executive
     when: Sept. 1
@@ -753,6 +759,19 @@ entries:
         - 'w.nixon-six-crises 337: all'
         - 'w.white-making-of-the-president 284–85: B'
     tags: [name:nixon-richard-m, city:chicago]
+  - id: cal.1960-09-25.elections-1960-2
+    when: Sept. 25
+    date: '1960-09-25'
+    thread: elections-1960
+    also: [school-aid]
+    c: 'Nixon''s "study paper" on education, from Flemming''s recommendations: the college housing program to be "greatly expanded into a program of both loans and matching grants for classrooms and laboratories and libraries as well."'
+    n: '[[w.sundquist-politics-and-policy]], 201. To check: *The Speeches of Vice President Richard M. Nixon, Presidential Campaign of 1960*, S. Rep. No. 87-994, pt. 2, 283 (cited by [[w.sundquist-politics-and-policy]], 201 n.140). See [[cal.1960-06-22.school-aid]]. Names: Nixon, Flemming.'
+    src:
+      c: 8a7af3b9
+      rows:
+        - 'w.sundquist-politics-and-policy 201: all'
+        - 'via w.sundquist-politics-and-policy 201 n.140: all'
+    tags: [name:nixon-richard-m, name:flemming-arthur-s]
   - id: cal.1960-09-26.soviet-union-un
     when: Sept. 26
     date: '1960-09-26'

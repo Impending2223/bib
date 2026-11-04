@@ -15,11 +15,12 @@ entries:
     date: '1963-05-01'
     thread: poverty
     c: 'Heller to Kennedy, from Lampman''s figures: the economy lifting fewer out of poverty; the poor about as many as in 1957; one-fifth of the nation below $3,000 a family or $1,500 alone.'
-    n: '[[w.schlesinger-thousand-days-1965]], 1011. Names: Heller, Kennedy. Check: the memorandum (Kennedy Library).'
+    n: '[[w.schlesinger-thousand-days-1965]], 1011. [[w.sundquist-politics-and-policy]], 135–36 (Lampman''s analysis, May 1; Heller''s memorandum to the President). Names: Heller, Kennedy. Check: the memorandum (Kennedy Library).'
     src:
       c: ca6b1388
       rows:
         - 'w.schlesinger-thousand-days-1965 1011: all'
+        - 'w.sundquist-politics-and-policy 135–36: A-C'
     tags: [name:heller-walter-w, name:kennedy-john-f]
   - id: cal.1963-05-02.alabama
     when: May 2
@@ -156,6 +157,20 @@ entries:
         - 'via w.selverstone-kennedy-withdrawal 123 n.24: G'
         - 'via w.selverstone-kennedy-withdrawal 124 n.25: G'
     tags: [name:mcnamara-robert-s, name:harkins-paul-d, name:felt-harry-d]
+  - id: cal.1963-05-06.civil-rights-bill
+    when: May 6
+    date: '1963-05-06'
+    thread: civil-rights-bill
+    also: [alabama-birmingham, republican-party-congress]
+    c: 'Cooper to the Senate on Birmingham: "the sad point is that the administration must seek a truce, and cannot fully enforce the substantive rights for which Negro citizens are marching and demonstrating, because the administration has failed to seek legislative action."'
+    n: 'Cooper, [109 Cong. Rec. 7782](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt6/pdf/GPO-CRECB-1963-pt6-7-1.pdf#page=46) (May 6, 1963). [[w.sundquist-politics-and-policy]], 260. Names: Cooper.'
+    src:
+      c: 93c0de09
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt6/pdf/GPO-CRECB-1963-pt6-7-1.pdf#page=46: all'
+        - 'w.sundquist-politics-and-policy 260: all'
+        - 'via w.sundquist-politics-and-policy 260 n.124: all'
+    tags: [name:cooper-john-sherman]
   - id: cal.1963-05-07.mayors-baltimore
     when: May 7
     date: '1963-05-07'
@@ -251,9 +266,17 @@ entries:
     when: May 8
     date: '1963-05-08'
     thread: middle-east
-    c: 'Kennedy, at his press conference, on the arms balance and the security of Israel and Jordan: the United States supports the security of Israel and of its neighbors; seeks to limit the arms race; opposes the use or threat of force; will act through the UN or on its own to prevent or stop aggression.'
-    n: The President's News Conference, [1963 Pub. Papers 372](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=430) (May 8, 1963). FRUS 1961–63, XVIII, doc. [238](https://history.state.gov/historicaldocuments/frus1961-63v18/d238). See [[cal.1963-04-27.middle-east]].
-    tags: [name:kennedy-john-f]
+    also: [alabama-birmingham]
+    c: 'Kennedy, at his press conference, on the arms balance and the security of Israel and Jordan: the United States supports the security of Israel and of its neighbors; seeks to limit the arms race; opposes the use or threat of force; will act through the UN or on its own to prevent or stop aggression. On Birmingham, his opening statement: no violation of federal law found, "our efforts have been focused on getting both sides together"; Marshall on the scene.'
+    n: 'The President''s News Conference, [1963 Pub. Papers 372](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=430) (May 8, 1963). FRUS 1961–63, XVIII, doc. [238](https://history.state.gov/historicaldocuments/frus1961-63v18/d238). [[w.sundquist-politics-and-policy]], 259–60 (Birmingham). See [[cal.1963-04-27.middle-east]]. Names: Kennedy, Marshall.'
+    src:
+      c: cbabda7d
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=430: all'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v18/d238: all'
+        - 'w.sundquist-politics-and-policy 259–60: E-F'
+        - 'via w.sundquist-politics-and-policy 260 n.123: E'
+    tags: [name:kennedy-john-f, name:marshall-burke]
   - id: cal.1963-05-08.goldwater
     when: May 8
     date: '1963-05-08'
@@ -266,6 +289,18 @@ entries:
       rows:
         - 'w.white-suite-3505 149: all'
     tags: [name:white-f-clifton, name:odonnell-peter, name:middendorf-j-william-ii, city:washington]
+  - id: cal.1963-05-08.civil-rights-bill
+    when: May 8
+    date: '1963-05-08'
+    thread: civil-rights-bill
+    c: 'House Judiciary opens hearings on eighty-nine civil rights bills. Celler: "Police clubs and bludgeons, firehoses and dogs have been used on defenseless schoolchildren." McCulloch: "Turmoil is a sign of birth, as well as decay."'
+    n: '[[w.sundquist-politics-and-policy]], 259. To check: *Civil Rights*, Hearings before the House Judiciary Committee, 88th Congress, 1st session (1963), 907 (cited by [[w.sundquist-politics-and-policy]], 259 n.120). See [[cal.1963-05-06.civil-rights-bill]]. Names: Celler, McCulloch.'
+    src:
+      c: 8a92e91c
+      rows:
+        - 'w.sundquist-politics-and-policy 259: all'
+        - 'via w.sundquist-politics-and-policy 259 n.120: all'
+    tags: [name:celler-emanuel, name:mcculloch-william-m]
   - id: cal.1963-05-09.mississippi
     when: May 9
     date: '1963-05-09'
@@ -660,14 +695,17 @@ entries:
     when: May 22
     date: '1963-05-22'
     thread: vietnam-force-levels
-    c: 'News conference, on Nhu''s "too many American troops": troops would go home the day after Saigon asked. "We are hopeful that the situation in South Viet-Nam would permit some withdrawal in any case by the end of the year, but we can''t possibly make that judgment at the present time." "A long, hard struggle to go."'
-    n: 'The President''s News Conference of May 22, 1963, [1963 Pub. Papers 418](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=476). [[w.selverstone-kennedy-withdrawal]], 128. See [[cal.1963-05-12.vietnam]]. Names: Kennedy, Ngô Đình Nhu.'
+    also: [civil-rights-bill]
+    c: 'News conference, on Nhu''s "too many American troops": troops would go home the day after Saigon asked. "We are hopeful that the situation in South Viet-Nam would permit some withdrawal in any case by the end of the year, but we can''t possibly make that judgment at the present time." "A long, hard struggle to go." On civil rights: "we are considering whether any additional proposals will be made to the Congress. And the final decision should be made in the next few days"; a legal remedy, so that the aggrieved need not "take to the streets."'
+    n: 'The President''s News Conference of May 22, 1963, [1963 Pub. Papers 418](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=476). [[w.selverstone-kennedy-withdrawal]], 128. [[w.sundquist-politics-and-policy]], 260 (civil rights). See [[cal.1963-05-12.vietnam]]. Names: Kennedy, Ngô Đình Nhu.'
     src:
-      c: 0bdb7279
+      c: 33911e92
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=476: all'
         - 'w.selverstone-kennedy-withdrawal 128: B-C'
         - 'via w.selverstone-kennedy-withdrawal 128 n.41: B-C'
+        - 'w.sundquist-politics-and-policy 260: D-E'
+        - 'via w.sundquist-politics-and-policy 260 n.127: D'
     tags: [name:kennedy-john-f, name:ngo-dinh-nhu]
   - id: cal.1963-05-23.alabama-birmingham
     when: May 23
