@@ -2323,6 +2323,13 @@ CQ Weekly Report, 1968-08-30:
 - Bunker's personal message of May 23, 1968, on regression in the hamlets (Clifford, 540): FRUS 1964–68, VI.
 - Kỳ to Bunker, Nov. 6, 1968, two months to settle the format (Clifford, 599; `cal.1968-11-06.vietnam-paris-2`); Bunker's report on Thiệu's objections, Oct. 17, 1968 (578; `cal.1968-10-17.vietnam-paris-2`): the telegrams, FRUS 1964–68, VII.
 
+### Jones, *The Bay of Pigs* (batch 3, Oct. 29, 2026; notes/book-checks/jones-bay-of-pigs.md)
+- The intercepted Soviet cable of early April 1961 Jones mentions (undated). Cuba: Bay of Pigs.
+- Bowles's memorandum against the operation, as Higgins gives it (undated in Jones).
+- Dulles's "even better than Guatemala" remark (undated).
+- Bender's assurance to the brigade's officers (an operation's level, undated).
+- Cubela, Sept. 5 and Sept. 25, 1963; Johnson's coup meeting, Apr. 7–8, 1964; AMLASH's end, June 1965: the Inspector General's report of 1967 and the 303 Committee's minutes. Cuba.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
