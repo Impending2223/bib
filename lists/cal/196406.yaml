@@ -305,6 +305,18 @@ entries:
       c: 5ea4c910
       rows:
         - 'w.macv-command-history-1964 190: all'
+  - id: cal.1964-06-05.elections-1964
+    when: June 5
+    date: '1964-06-05'
+    thread: elections-1964
+    also: [republican-party]
+    c: 'Cleveland, the Sheraton, the eve of the Governors'' Conference. Scranton''s men about: Keisling with his gold-plated Scranton pin, "I''ve got a candidate now"; he and Truax tell reporters Scranton goes to Gettysburg in the morning. White there on Fannin''s staff, with Kleindienst and Shadegg. By White''s account.'
+    n: '[[w.white-suite-3505]], 362. Names: Scranton, White, Fannin, Kleindienst, Shadegg.'
+    src:
+      c: 0c5cc9b6
+      rows:
+        - 'w.white-suite-3505 362: all'
+    tags: [name:scranton-william-w, name:white-f-clifton, name:fannin-paul-j, name:kleindienst-richard-g, name:shadegg-stephen, state:oh]
   - id: cal.1964-06-06.laos
     when: June 6–7
     date: '1964-06-06'
@@ -394,6 +406,18 @@ entries:
       rows:
         - 'w.white-suite-3505 352–53: all'
     tags: [name:goldwater-barry-m, state:nm]
+  - id: cal.1964-06-06.elections-1964
+    when: June 6
+    date: '1964-06-06'
+    thread: elections-1964
+    also: [republican-party]
+    c: 'Cleveland. George Humphrey, Eisenhower''s host for the conference, telephones him at Gettysburg at night: not to deepen the party''s divisions. White argues with Truax, Keisling and Murphy in their suite till near 6 a.m. By White''s account.'
+    n: '[[w.white-suite-3505]], 362–63. See [[cal.1964-06-06.republican-party]]. Names: George Humphrey, Eisenhower, White.'
+    src:
+      c: afecfa4b
+      rows:
+        - 'w.white-suite-3505 362–63: all'
+    tags: [name:humphrey-george-m, name:eisenhower-dwight-d, name:white-f-clifton, state:oh]
   - id: cal.1964-06-07.opinion
     when: June 7
     date: '1964-06-07'
@@ -2066,3 +2090,15 @@ entries:
       rows:
         - 'w.white-suite-3505 389–90: all'
     tags: [name:goldwater-barry-m, name:johnson-lyndon-b]
+  - id: cal.1964-06.republican-party
+    when: June
+    date: 1964-06
+    thread: republican-party
+    also: [elections-1964]
+    c: Pittsburgh. Hugus, beaten for delegate Apr. 28, forced out as Allegheny County's Republican chairman. By White's account.
+    n: '[[w.white-suite-3505]], 360–61. Names: Goldwater. Check: the day; "six weeks later."'
+    src:
+      c: 8f4df2e6
+      rows:
+        - 'w.white-suite-3505 360–61: all'
+    tags: [name:goldwater-barry-m, state:pa, city:pittsburgh]
