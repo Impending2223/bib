@@ -387,6 +387,13 @@ CQ Weekly Report, 1968-08-16:
   strikes threatened for convention week (2183).
 - Arkansas: the State's canvass for the 1st District's runoff of Aug. 13 (CQ's count partial).
 
+### Kabaservice, *Rule and Ruin* (batch 3, Oct. 29, 2026; notes/book-checks/kabaservice-rule-and-ruin.md)
+- Louisville's mayoral election, Nov. 2, 1965 (Kabaservice, 158): the names and figures (`cal.1965-11-02.mayors`).
+- Hubbard against Dawson, the Democratic primary of 1966 (Kabaservice, 179): the day and the figures (`cal.1966-03.elections-1966-2`).
+- The Maryland 6th District's primary, May 19, 1964 (Mathias's): the count.
+- Specter's margin, Nov. 2, 1965 (about 36,000, by Kabaservice): the count (`cal.1965-11-02.mayors-philadelphia`).
+- Ohio's and Pennsylvania's House primaries of 1966 (May 3, May 17): the counts.
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -1347,6 +1354,13 @@ Rights in Conflict (Walker Report):
 - The Blauvelt story, 1962: *Parade*, Sept. 2; *Newsweek*'s piece, at Kennedy's request (Clifford, 371–74).
 - Lady Bird Johnson's memorandum urging Johnson to run in 1964 (Clifford, 394; her diary).
 - Some fifty FRUS papers from or to Clifford as Secretary (1964–68: VI, VII, X, XI, XII, XIX, XX, XXII, XXVIII, XXIX, XXXIII) are in the daybook and in no calendar entry: Hoopes's memorandum of Mar. 14, 1968 (VI, doc. 126), Clifford's of Mar. 15 (VI, doc. 129), Wheeler's of Mar. 20 (VI, doc. 144), Clifford's staff meeting of May 20 (VI, doc. 238), the telephone call of Nov. 23 (VII, doc. 231), the PFIAB papers of 1964 (XXXIII, docs. 188, 200, 201, 207) among them. Under the owner's ruling they are entries; the reading entered only those the book treats.
+
+### Kabaservice, *Rule and Ruin* (batch 3, Oct. 29, 2026; notes/book-checks/kabaservice-rule-and-ruin.md)
+- Kuchel's speech against the Birch Society (Kabaservice, 137): 107 Cong. Rec. 5003 (Mar. 30, 1961), or May 2, 1963. Republican Party: In Congress.
+- Percy's "New Dawn for Our Cities" (1966); the Mondale–Percy housing negotiation (1968); the Community Self-Determination Act (Taft, Goodell, Curtis; *Ripon Forum*, Sept. 1968): their months, the act's introduction.
+- Kuchel's libel suit (1965): the affidavit's and the suit's days.
+- The Republican Governors Association's meeting of summer 1967 (Kabaservice, 207–8, 211): the date and place (`cal.1967-07.elections-1968-3`).
+- Persons named without a name entry: Bruce Chapman, George Gilder, Emil Frankel, Josiah Lee Auspitz, Tanya Melich, Robert D. Behn, Edward Failor, William Prendergast, John R. Price (of Ripon), Michael C. Smith, Saul Alinsky, Newt Gingrich.
 
 ## Foreign
 

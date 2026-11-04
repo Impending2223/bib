@@ -275,13 +275,14 @@ entries:
     date: '1968-06-04'
     thread: elections-1968
     c: 'California''s primaries for the Senate. Republican: Rafferty, Superintendent of Public Instruction, over Kuchel, the minority whip, seeking a fourth term, 1,112,947 to 1,043,315, 50.0 percent; three others. Democratic: Cranston, State controller 1959–67, over Beilenson, a State senator, 1,681,825 to 644,844, 59.0 percent; three others.'
-    n: 'Cal., [*Statement of Vote, Consolidated Primary Election, June 4, 1968*](https://archive.org/details/californiastate196668cali/page/n152); the figures as [Wikipedia, "1968 United States Senate election in California"](https://en.wikipedia.org/wiki/1968_United_States_Senate_election_in_California), gives them, from Our Campaigns (Check against the Statement, its page). [[w.cq-weekly-report]], June 7, 1968, 1371–72 (the candidates; its returns, from 20,714 of 21,301 precincts: Rafferty 1,056,038, Kuchel 989,097; from 17,564, Cranston 1,438,359, Beilenson 550,275). To check: [[w.kabaservice-rule-and-ruin]]; [[w.peirce-megastates-of-america]]. See [[cal.1968-06-04.elections-1968]]. Names: Rafferty, Kuchel, Cranston, Beilenson.'
+    n: 'Cal., [*Statement of Vote, Consolidated Primary Election, June 4, 1968*](https://archive.org/details/californiastate196668cali/page/n152); the figures as [Wikipedia, "1968 United States Senate election in California"](https://en.wikipedia.org/wiki/1968_United_States_Senate_election_in_California), gives them, from Our Campaigns (Check against the Statement, its page). [[w.cq-weekly-report]], June 7, 1968, 1371–72 (the candidates; its returns, from 20,714 of 21,301 precincts: Rafferty 1,056,038, Kuchel 989,097; from 17,564, Cranston 1,438,359, Beilenson 550,275); [[w.kabaservice-rule-and-ruin]], 237–38 (Rafferty over Kuchel, by 69,632 votes). To check: [[w.peirce-megastates-of-america]]. See [[cal.1968-06-04.elections-1968]]. Names: Rafferty, Kuchel, Cranston, Beilenson.'
     src:
       c: 9790d993
       rows:
         - 'https://archive.org/details/californiastate196668cali/page/n152: all'
         - 'https://en.wikipedia.org/wiki/1968_United_States_Senate_election_in_California: all'
         - 'w.cq-weekly-report June 7, 1968, 1371–72: A, C, E'
+        - 'w.kabaservice-rule-and-ruin 237–38: B'
     tags: [state:ca, name:rafferty-max, name:kuchel-thomas-h, name:cranston-alan, name:beilenson-anthony-c]
   - id: cal.1968-06-04.state-and-city-finance-tx
     when: June 4
@@ -2303,3 +2304,19 @@ entries:
       rows:
         - 'w.clifford-counsel-to-the-president-2 549: all'
     tags: [name:rostow-walt-w, name:clifford-clark]
+  - id: cal.1968-06.elections-1968-9
+    when: June
+    date: 1968-06
+    thread: elections-1968
+    also: [republican-party, states-and-cities]
+    c: 'The *Ripon Forum*, June. Michael Smith, of its governing board, after months in California, "Ronald Reagan: Here''s the Rest of Him": Reagan''s lack of interest in governing, the ten percent cuts across the board, his vetoes of antipoverty grants, repression of disorder "without treating the underlying causes." The editors: Reagan not fit for the Presidency; "If Reagan is unqualified to be President, he is unqualified to be vice-president." Nixon''s speeches on Negro enterprise "gave the former Vice President''s campaign the intellectual spark and the appearance of social concern that it had sorely lacked."'
+    n: '[[w.kabaservice-rule-and-ruin]], 235, 239–40. To check: Michael C. Smith, "Ronald Reagan: Here''s the Rest of Him," *Ripon Forum* 4:6 (June 1968), 13–32 (cited by [[w.kabaservice-rule-and-ruin]], 240 n.72); "Editorial Points," *Ripon Forum* 4:6 (June 1968), 4 (cited by [[w.kabaservice-rule-and-ruin]], 240 n.75); "Editorial Points," *Ripon Forum* 4:6 (June 1968), 5 (cited by [[w.kabaservice-rule-and-ruin]], 235 n.51). Names: Reagan, Nixon.'
+    src:
+      c: 74d12c4d
+      rows:
+        - 'w.kabaservice-rule-and-ruin 239–40: A-B'
+        - 'w.kabaservice-rule-and-ruin 235: C'
+        - 'via w.kabaservice-rule-and-ruin 240 n.72: A'
+        - 'via w.kabaservice-rule-and-ruin 240 n.75: B'
+        - 'via w.kabaservice-rule-and-ruin 235 n.51: C'
+    tags: [name:reagan-ronald, name:nixon-richard-m, state:ca]
