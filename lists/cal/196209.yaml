@@ -471,6 +471,18 @@ entries:
       rows:
         - 'w.navasky-kennedy-justice 119–20, 129: all'
     tags: [name:kennedy-robert-f, name:hoover-j-edgar, state:ga]
+  - id: cal.1962-09-18.republican-party
+    when: Sept. 18
+    date: '1962-09-18'
+    thread: republican-party
+    also: [goldwater, elections-1964-polls]
+    c: 'Fort Worth, the Texas Republican convention. Its delegates'' choice for 1964, by a poll: Goldwater 1,115, 78 percent; Nixon 147, Rockefeller 90, Romney 79.'
+    n: '[[w.white-suite-3505]], 78. Names: Goldwater, Nixon, Rockefeller, Romney. Check: who took the poll; White has it from Tad Smith, the State chairman.'
+    src:
+      c: fca07ebf
+      rows:
+        - 'w.white-suite-3505 78: all'
+    tags: [name:goldwater-barry-m, name:nixon-richard-m, name:rockefeller-nelson, name:romney-george-w, state:tx, ok:result-form]
   - id: cal.1962-09-19.trade
     when: Sept. 19
     date: '1962-09-19'
@@ -519,6 +531,18 @@ entries:
         - 'w.mann-grand-delusion 267: all'
         - 'via w.mann-grand-delusion 267 n.39: all'
     tags: [name:trueheart-william-c]
+  - id: cal.1962-09-19.goldwater
+    when: Sept. 19
+    date: '1962-09-19'
+    thread: goldwater
+    also: [elections-1964]
+    c: 'Goldwater to Yerger, Mississippi''s Republican chairman, on the Associated Press''s poll of delegates: "I have never sought the nomination, as I have told you many times. I have many reasons, but I wouldn''t put money and organization last and neither of these has reared its ugly head."'
+    n: '[[w.white-suite-3505]], 79. Made public: [[w.white-suite-3505]], 79. Names: Goldwater.'
+    src:
+      c: 923257db
+      rows:
+        - 'w.white-suite-3505 79: all'
+    tags: [name:goldwater-barry-m]
   - id: cal.1962-09-20.school-aid
     when: Sept. 20
     date: '1962-09-20'
@@ -738,6 +762,19 @@ entries:
     c: Special session of the General Assembly, called by Vandiver on *Toombs v. Fortson*, to reapportion the Senate's 54 seats.
     n: 'Check: the call and the act, Ga. Laws 1962, Extra Sess. To check: [[w.bartley-creation-of-modern-georgia]]; [[w.carter-turning-point]]. See [[cal.1962-05-25.georgia-ga]]. Names: Vandiver.'
     tags: [name:vandiver-s-ernest-jr, state:ga]
+  - id: cal.1962-09.republican-party
+    when: Sept. 27–28
+    date: '1962-09-27'
+    thread: republican-party
+    also: [goldwater]
+    c: The National Federation of Republican Women's convention. White's group runs a slate against the nominating committee's, the first such contest, and takes the offices.
+    n: '[[w.perlstein-before-the-storm]], 184. [[w.white-suite-3505]], 73–75 (Phoenix, the Westward Ho, Sept. 27–28; four candidates nominated from the floor and elected, the committee''s candidate for president unopposed). Names: White. Check: White, 73–74, has the women run the slate "with a minimum of guidance from our group," and lists four offices, not all.'
+    src:
+      c: d1983fac
+      rows:
+        - 'w.perlstein-before-the-storm 184: all'
+        - 'w.white-suite-3505 73–75: A'
+    tags: [name:white-f-clifton]
   - id: cal.1962-09-28.middle-east-johnson-trip
     when: Sept. 28
     date: '1962-09-28'
@@ -843,18 +880,6 @@ entries:
         - 'https://www.presidency.ucsb.edu/documents/executive-order-11053-providing-assistance-for-the-removal-unlawful-obstructions-justice: all'
         - 'w.sorensen-kennedy 484–87: all'
     tags: [name:kennedy-john-f, name:meredith-james-h, name:guihard-paul, name:gunter-ray, name:kennedy-robert-f, name:katzenbach-nicholas, name:marshall-burke]
-  - id: cal.1962-09.republican-party
-    when: Sept.
-    date: 1962-09
-    thread: republican-party
-    also: [goldwater]
-    c: The National Federation of Republican Women's convention. White's group runs a slate against the nominating committee's, the first such contest, and takes the offices.
-    n: '[[w.perlstein-before-the-storm]], 184. To check: [[w.white-suite-3505]], 73–74 (cited by [[w.perlstein-before-the-storm]], 184 n.2). Names: White.'
-    src:
-      c: d1983fac
-      rows:
-        - 'w.perlstein-before-the-storm 184: all'
-    tags: [name:white-f-clifton]
   - id: cal.1962-09-30.mississippi-ole-miss-2
     when: Sept. 30
     date: '1962-09-30'
@@ -881,3 +906,15 @@ entries:
       c: 719e0185
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 506: all'
+  - id: cal.1962-09.opinion
+    when: Sept.
+    date: 1962-09
+    thread: opinion
+    also: [elections-1964-polls, goldwater]
+    c: 'The Associated Press''s poll of the delegates to the Republican convention of 1960, 687 of 1,331 answering: their choice for 1964, Goldwater 264, Rockefeller 203, Nixon 137, Romney 32.'
+    n: '[[w.white-suite-3505]], 77–78 & n.2. Names: Goldwater, Rockefeller, Nixon, Romney. Check: the day.'
+    src:
+      c: 6e4f7474
+      rows:
+        - 'w.white-suite-3505 77–78: all'
+    tags: [name:goldwater-barry-m, name:rockefeller-nelson, name:nixon-richard-m, name:romney-george-w, ok:result-form]

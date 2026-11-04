@@ -1386,6 +1386,13 @@ Rights in Conflict (Walker Report):
 ### Sorensen, *Kennedy* (batch 3, Oct. 29, 2026; notes/book-checks/sorensen-kennedy.md)
 - Undated or not verified in the book: Powell on Kennedy "soft" on Communism before the New Hampshire primary, Mar. 1960 (133); the Kennedy–Humphrey television debate in West Virginia, May 1960 (140; its day); Byrd's endorsement of Humphrey, May 1960 (141); Mrs. Roosevelt and Humphrey's switch to Stevenson, convention week (155); Kennedy at Hyde Park and Independence, summer 1960 (170); the SAC briefing at Omaha, late Aug. 1960 (187, 612); the networks' offer of debates and the acceptances (196); the USIA's prestige polls given the *Times* (203); the New York speech on Quemoy and Matsu (204); the Puerto Rican bishops' pastoral letter (209); Sorensen at the Norris Centennial, 1961 (262); Baring's demand for dismissals (260); the Kennedy–Johnson disability agreement (267); the directive on the ambassadors' authority, perhaps the letter of May 29, 1961 (278); Burke's speech toned down, Jan. 1961 (286); the television interview before the Bay of Pigs (296); Byrd's birthday picnic (345); Schlesinger's memorandum on midterm campaigning, 1962 (353); the press conference on the clergy, 1961 (360); Criswell, the POAU and Cushing on the school bill (363); the veto of the District's obscene-publications bill (364); the *Times* story on eastern Kentucky and the relief program, Oct. 1963 (404); the margin requirements cut, July 1962 (424); the Communications Workers in the Rose Garden, Feb. 1962 (438); Kennedy with Blough, Sept. 1961 (445).
 
+### White, *Suite 3505* (batch 3, Oct. 29, 2026; notes/book-checks/white-suite-3505.md)
+- The plane crash of spring 1962 with $70,000 in a candidate's man's baggage (62–63; White names neither the flight nor the candidate).
+- Romney and White at Lansing on Durant, between Oct. 1963 and May 1964 (212–13).
+- Arkansas's deadline for requesting a presidential primary, 1964, passed without Goldwater's request (261 n.3).
+- The Billie Sol Estes affair is not in the calendar at all (63: only Dirksen and Halleck's demand entered, May 1962).
+- The acceptance of July 16, 1964, is bundled in `cal.1964-07-15.elections-1964` with the nomination and Miller's (the spans rule: three events).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its

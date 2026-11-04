@@ -50,6 +50,42 @@ entries:
         - 'w.perlstein-before-the-storm 210: C'
         - 'via w.perlstein-before-the-storm 210 n.1: C'
     tags: [name:kuchel-thomas-h]
+  - id: cal.1963-05-02.republican-party
+    when: May 2
+    date: '1963-05-02'
+    thread: republican-party
+    also: [elections-1964]
+    c: 'Washington. Romney at the National Press Club, and to reporters: "I am not a candidate for President, and I am not going to become one." A party for him the same day at Marriott''s house.'
+    n: '[[w.white-suite-3505]], 146–47. Names: Romney. Check: Hall''s and Folger''s part in the party, White''s informants''.'
+    src:
+      c: e34bb6a5
+      rows:
+        - 'w.white-suite-3505 146–47: all'
+    tags: [name:romney-george-w, city:washington]
+  - id: cal.1963-05-02.goldwater
+    when: May 2
+    date: '1963-05-02'
+    thread: goldwater
+    also: [republican-party]
+    c: Romney calls on Goldwater in his office, at Romney's asking; reporters waiting. Nothing of moment said, by White's account.
+    n: '[[w.white-suite-3505]], 147. See [[cal.1963-05-02.republican-party]]. Names: Romney, Goldwater.'
+    src:
+      c: d5415b29
+      rows:
+        - 'w.white-suite-3505 147: all'
+    tags: [name:romney-george-w, name:goldwater-barry-m, city:washington]
+  - id: cal.1963-05-02.elections-1964
+    when: May 2
+    date: '1963-05-02'
+    thread: elections-1964
+    also: [republican-party]
+    c: Nixon announces he is leaving California for New York, to practice law; an apartment at 810 Fifth Avenue, the building of Rockefeller's.
+    n: '[[w.white-suite-3505]], 146. Names: Nixon, Rockefeller.'
+    src:
+      c: a3346d78
+      rows:
+        - 'w.white-suite-3505 146: all'
+    tags: [name:nixon-richard-m, name:rockefeller-nelson, city:nyc]
   - id: cal.1963-05-03.alabama-birmingham
     when: May 3
     date: '1963-05-03'
@@ -69,12 +105,13 @@ entries:
     date: '1963-05-04'
     thread: elections-1964
     c: Rockefeller, divorced in 1962, marries Margaretta Fitler Murphy, divorced a month before.
-    n: '[[w.perlstein-before-the-storm]], 194–95. [[w.kabaservice-rule-and-ruin]], 66 (the marriage; a month after her divorce). To check: [[w.kramer-i-never-wanted-to]]; [[w.persico-imperial-rockefeller]]; [[w.smith-on-his-own-terms]]; [[w.novak-agony-of-the-g]]; [[w.white-making-of-the-president-1965]]. See [[cal.1963-04-08.elections-1964]]. Names: Nelson Rockefeller, Margaretta Rockefeller.'
+    n: '[[w.perlstein-before-the-storm]], 194–95; [[w.white-suite-3505]], 148 (the marriage, at Pocantico Hills). [[w.kabaservice-rule-and-ruin]], 66 (the marriage; a month after her divorce). To check: [[w.kramer-i-never-wanted-to]]; [[w.persico-imperial-rockefeller]]; [[w.smith-on-his-own-terms]]; [[w.novak-agony-of-the-g]]; [[w.white-making-of-the-president-1965]]. See [[cal.1963-04-08.elections-1964]]. Names: Nelson Rockefeller, Margaretta Rockefeller.'
     src:
       c: 2b749a89
       rows:
         - 'w.perlstein-before-the-storm 194–95: all'
         - 'w.kabaservice-rule-and-ruin 66: A'
+        - 'w.white-suite-3505 148: all'
     tags: [name:rockefeller-nelson, name:rockefeller-margaretta-fitler]
   - id: cal.1963-05-04.alabama-birmingham
     when: May 4
@@ -217,6 +254,18 @@ entries:
     c: 'Kennedy, at his press conference, on the arms balance and the security of Israel and Jordan: the United States supports the security of Israel and of its neighbors; seeks to limit the arms race; opposes the use or threat of force; will act through the UN or on its own to prevent or stop aggression.'
     n: The President's News Conference, [1963 Pub. Papers 372](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=430) (May 8, 1963). FRUS 1961–63, XVIII, doc. [238](https://history.state.gov/historicaldocuments/frus1961-63v18/d238). See [[cal.1963-04-27.middle-east]].
     tags: [name:kennedy-john-f]
+  - id: cal.1963-05-08.goldwater
+    when: May 8
+    date: '1963-05-08'
+    thread: goldwater
+    also: [elections-1964]
+    c: 'Washington, the Mayflower, the night before the Goldwater dinner. White''s first group, O''Donnell presiding for the first time: State chairmen for the Draft Committee to be named quickly. Middendorf, the treasurer, asks for a national finance chairman. By White''s account.'
+    n: '[[w.white-suite-3505]], 149. See [[cal.1963-04-08.elections-1964]]. Names: White, O''Donnell, Middendorf.'
+    src:
+      c: f5c20746
+      rows:
+        - 'w.white-suite-3505 149: all'
+    tags: [name:white-f-clifton, name:odonnell-peter, name:middendorf-j-william-ii, city:washington]
   - id: cal.1963-05-09.mississippi
     when: May 9
     date: '1963-05-09'
@@ -253,14 +302,27 @@ entries:
     thread: goldwater
     also: [republican-party]
     c: Washington. A $1,000-a-plate testimonial dinner for Goldwater; Middendorf, the Draft Goldwater treasurer, had brought him his check in Phoenix. Rockefeller's cable read at the dinner.
-    n: '[[w.perlstein-before-the-storm]], 193, 199–200. To check: Middendorf to Goldwater, Apr. 5, 1963, F. Clifton White Papers, Cornell (cited by [[w.perlstein-before-the-storm]], 193 n.2, for the visit); [[w.white-suite-3505]], 149; [[w.novak-agony-of-the-g]], 145 (cited by [[w.perlstein-before-the-storm]], 199 n.3). Names: Goldwater, Middendorf, Rockefeller.'
+    n: '[[w.perlstein-before-the-storm]], 193, 199–200. [[w.white-suite-3505]], 149–50 (the dinner; Rockefeller''s telegram from Venezuela). To check: Middendorf to Goldwater, Apr. 5, 1963, F. Clifton White Papers, Cornell (cited by [[w.perlstein-before-the-storm]], 193 n.2, for the visit); [[w.novak-agony-of-the-g]], 145 (cited by [[w.perlstein-before-the-storm]], 199 n.3). Names: Goldwater, Middendorf, Rockefeller.'
     src:
       c: d59932a3
       rows:
         - 'w.perlstein-before-the-storm 193: B'
         - 'w.perlstein-before-the-storm 199–200: all'
         - 'via w.perlstein-before-the-storm 193 n.2: B'
+        - 'w.white-suite-3505 149–50: A-B, D'
     tags: [name:goldwater-barry-m, name:middendorf-j-william-ii, name:rockefeller-nelson, city:washington]
+  - id: cal.1963-05-09.goldwater-2
+    when: May 9
+    date: '1963-05-09'
+    thread: goldwater
+    also: [elections-1964]
+    c: 'Washington, the Sheraton-Park, before the Goldwater dinner. O''Donnell, White, Middendorf, Coleman and Milbank ask George Humphrey, Douglas Stewart of Quaker Oats and Charles White of Republic Steel for money for the Draft Committee. Humphrey: too early; large sums not needed before the new year. By White''s account.'
+    n: '[[w.white-suite-3505]], 150–51. See [[cal.1963-05-09.goldwater]]. Names: O''Donnell, White, Middendorf, George Humphrey.'
+    src:
+      c: 1e75954b
+      rows:
+        - 'w.white-suite-3505 150–51: all'
+    tags: [name:odonnell-peter, name:white-f-clifton, name:middendorf-j-william-ii, name:humphrey-george-m, city:washington]
   - id: cal.1963-05-10.alabama
     when: May 10
     date: '1963-05-10'
@@ -928,3 +990,27 @@ entries:
       rows:
         - 'w.sorensen-kennedy 494: all'
     tags: [name:kennedy-john-f]
+  - id: cal.1963-05.republican-party
+    when: May
+    date: 1963-05
+    thread: republican-party
+    also: [goldwater, republican-party-congress]
+    c: 'New York, the Young Republican Club, at Churchill''s. Tower (R-Tex.) for Goldwater: he "would state the Republican case most forthrightly." To Rodman Rockefeller, of the Republicans in Congress: "We are striving to form a unanimity of policy. Right now it may seem negative but it is really constructive—like stopping a runaway horse."'
+    n: '[[w.white-suite-3505]], 153. Names: Tower, Goldwater. Check: the day.'
+    src:
+      c: 9de87f22
+      rows:
+        - 'w.white-suite-3505 153: all'
+    tags: [name:tower-john-g, name:goldwater-barry-m, city:nyc]
+  - id: cal.1963-05.goldwater
+    when: May
+    date: 1963-05
+    thread: goldwater
+    also: [republican-party-congress]
+    c: 'Curtis (R-Neb.) for Goldwater: "I intend to do everything in my power to bring about his nomination and election."'
+    n: '[[w.white-suite-3505]], 153. See [[cal.1963-05.republican-party]]. Names: Curtis, Goldwater. Check: the day; White has it the day after Tower''s speech.'
+    src:
+      c: bdd21c1f
+      rows:
+        - 'w.white-suite-3505 153: all'
+    tags: [name:curtis-carl-t, name:goldwater-barry-m]

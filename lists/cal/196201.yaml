@@ -440,13 +440,15 @@ entries:
     when: Jan.
     date: 1962-01
     thread: republican-party
-    c: Oklahoma City, the Republican National Committee's annual meeting. A committee Bliss chairs reports on rebuilding the party's precincts in the big cities.
-    n: '[[w.perlstein-before-the-storm]], 160. To check: [[w.novak-agony-of-the-g]], 53–65 (cited by [[w.perlstein-before-the-storm]], 160 n.3). Names: Bliss.'
+    also: [goldwater]
+    c: 'Oklahoma City, the Republican National Committee''s annual meeting. A committee Bliss chairs reports on rebuilding the party''s precincts in the big cities. Goldwater, informally, for harmony: "It doesn''t help to have our members characterized as Western Republicans, or Javits Republicans, or Rockefeller Republicans, or modern Republicans. ... We''ve got to get together and decide just what we are."'
+    n: '[[w.perlstein-before-the-storm]], 160. [[w.white-suite-3505]], 54 (Goldwater''s words). To check: [[w.novak-agony-of-the-g]], 53–65 (cited by [[w.perlstein-before-the-storm]], 160 n.3). Names: Bliss, Goldwater.'
     src:
-      c: dad1ff50
+      c: 714f72d2
       rows:
-        - 'w.perlstein-before-the-storm 160: all'
-    tags: [name:bliss-ray-c]
+        - 'w.perlstein-before-the-storm 160: A-B'
+        - 'w.white-suite-3505 54: A, C'
+    tags: [name:bliss-ray-c, name:goldwater-barry-m]
   - id: cal.1962-01.press-and-broadcasting
     when: Jan.
     date: 1962-01
@@ -470,3 +472,15 @@ entries:
       rows:
         - 'w.clifford-counsel-to-the-president-2 371–73: all'
     tags: [name:kennedy-john-f, name:clifford-clark, name:kennedy-robert-f, name:salinger-pierre]
+  - id: cal.1962-01.goldwater
+    when: Jan.
+    date: 1962-01
+    thread: goldwater
+    also: [republican-party]
+    c: 'Oklahoma City, at the national committee''s meeting. White, with Tyler, Oklahoma''s national committeeman: the start of a conservative caucus on the committee. Roger Milliken brings the money he has raised for the group, enough for four months. By White''s account.'
+    n: '[[w.white-suite-3505]], 54. See [[cal.1962-01.republican-party]]. Names: White.'
+    src:
+      c: 7a0c0034
+      rows:
+        - 'w.white-suite-3505 54: all'
+    tags: [name:white-f-clifton, state:ok]
