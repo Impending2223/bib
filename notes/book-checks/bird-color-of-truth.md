@@ -122,11 +122,37 @@ cal.1966-01-06.vietnam). For the merger: prune them.
 
 ## Witnesses (R35)
 
-Not done in this run: Bird's notes (pp. 410-462, by chapter, the OCR's note numbers in the text) are not registered.
-The documents the new entries name in Bird's text stand in their notes ("To check:" where Bird gives a file: Thomson
-Papers, box 11; Forrestal's memorandum of May 11, 1962). FRUS read where Bird's document is printed: 1961-63, IV, doc.
-180; 1964-68, II, doc. 15; III, doc. 24 (cited first in their entries). A reader to follow: the notes on pp. 152-153,
-181-182, 208-218, 242-244, 254-268, 271-298, 300-347, 350-387.
+Second run, Nov. 4, 2026 (patch `inbox/2026-11-03-b3-bird-3.yaml`, 105 ops: 53 src (via rows), 33 to-check, 10 cites
+repeated from b3-bird-2 so the via rows have their item, 6 checks, 3 primary; patch-check 0 errors, 0 warnings). The
+notes (pp. 410-462, numbered by chapter) parsed from the text layer and each matched to its call in the text (the
+calls found by their numbers in sequence, chapter by chapter; 692 of 851 calls in chapters 7-16 placed; the rest
+between their neighbours), the passage read where a note was in doubt; checked on the image of p. 447 (notes 12.48-68).
+For each page the calendar cites (the tree's and b3-bird-2's entries), the notes of the passage: 57 new witnesses
+(`inbox/witnesses/2026-11-03-b3-bird-3.yaml`), 107 edges (`sources/witnesses/by-work/bird-color-of-truth.yaml`), ten
+witnesses already registered taking the edge (Forrestal's memorandum of May 11, 1962; the White House statement of Oct.
+2, 1963; Bundy to Johnson, Jan. 7 and June 1, 1964, and Jan. 27, 1965; Forrestal to McNaughton, May 1, 1964; the
+Memorandum for the Record of Sept. 15, 1964 (FRUS XXX, doc. 49); the Kraft interviews of Forrestal; the *Post* of May
+15, 1965; the *Times* of Aug. 3, 1966; William Bundy's Vietnam manuscript). A document Bird's text or footnote names
+without a note (the Riesman-Fromm letter, Raskin's memorandum of July 6, 1961, Bundy's July 24, 1964 report, the April
+16, 1965 letter, Bundy's Camp David notes) registered as the text gives it (R38), `open: not found`. Works in the
+catalogue cited by a note (Kahin, Gardner, Gibbons, Prados, Adams, Taking Charge, Goodwin, Steel, Berman, DiLeo, Moise,
+Cooper, Manchester, Schlesinger, Clifford, *Robert Kennedy in His Own Words*, the *Bulletin*) are edges to their cards
+and join the entry's "To check:" with Bird's note; the unread documents join it the same way.
+FRUS read and cited first: 1964-68, I, docs. 266 (Forrestal, Aug. 3, 1964) and 368 (SNIE 53-2-64), XXX, doc. 49.
+Edges only, no via (the note does not bear on the entry's units): 259 n.28 (the White House statement, for the CINCPAC
+message; Check written), 297 n.74a-b, 294 n.65b, 287 n.47c, 275 n.12b-c and 13b, 271 n.2c, 318 n.35, 321 n.46 for all
+but A, 332 n.74, 344 n.105 and 107b-d, 345 n.109, 348 n.120a, 381 n.20b, 313 n.27b-c.
+No note found for the passage (no witness): 218 (*The Liberal Papers*), 265 (William Bundy's confirmation), 293 (Biên
+Hòa; the call after the paragraph is the manuscript's), 296 (note 70 is printed blank: Fulbright's warning of Dec. 4,
+1964), 324 (Bosch, Bundy's mission), 334 (William Bundy to the ambassadors), 343 (McCloy's offer,
+the Sheraton-Carlton breakfast), 357 (the letter of May 1967), 364 (Bundy after the Wise Men), 383 (Ocean Hill), 387
+(the fellowships), 347 (cal.1966-03-01.transition-and-staff is not in the tree: the notes 13.116-119 there are the
+*Post*'s and Lippmann's of Feb. 27-Mar. 2, 1966): a reader with the image may place them.
+
+Dates the notes give that the entries do not (Checks written): William Bundy to Kennedy, Nov. 11, 1960 (182 n.97;
+cal.1960-11.program); the two memoranda on *Meet the Press* and *Newsweek*, both Dec. 2, 1964 (300 n.82); the successor
+memorandum, Feb. 2, 1965 (301 n.1, 348 n.120; cal.1965-01.transition-and-staff-nsc, dated January); Bundy to Lodge
+(258 n.24) against FRUS's telegram 533; Harriman to Kennedy printed "Sept. 1, 1991" (213 n.107).
 
 ## Passed over
 
