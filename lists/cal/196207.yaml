@@ -644,6 +644,18 @@ entries:
         - 'via w.zelizer-taxing-america 194 n.56c: A-B'
         - 'via w.zelizer-taxing-america 194 n.56d: A-B'
     tags: [name:mills-wilbur-d]
+  - id: cal.1962-07-26.cuba
+    when: July 26
+    date: '1962-07-26'
+    thread: cuba
+    c: 'Castro, a statement: "We must prepare ourselves for that direct invasion."'
+    n: '[[w.paterson-contesting-castro]], 260 n.39. To check: FBIS, "Radio Propaganda Report: Castro on the Normalization of U.S.-Cuba Relations," Mar. 2, 1964, Box 21, Cuba Country File, NSF, LBJ Library (cited by [[w.paterson-contesting-castro]], 260 n.39). Names: Castro.'
+    src:
+      c: 982efbbf
+      rows:
+        - 'w.paterson-contesting-castro 260 n.39: all'
+        - 'via x.1964-03-02.fbis-radio-propaganda-report-castro-on-normalization: all'
+    tags: [name:castro-fidel]
   - id: cal.1962-07-27.albany
     when: July 27
     date: '1962-07-27'
@@ -675,12 +687,13 @@ entries:
     date: 1962-07
     thread: missile-crisis
     c: Raúl Castro in Moscow. Defense agreement initialed. Soviet shipping to Cuba begins. Check the initialing.
-    n: '[FRUS 1961–63, X, doc. 383](https://history.state.gov/historicaldocuments/frus1961-63v10/d383). [[w.fursenko-one-hell-of-a]], 192 (Raúl Castro in Moscow). See [[cal.1962-05-24.missile-crisis]]. Names: Raúl Castro.'
+    n: '[FRUS 1961–63, X, doc. 383](https://history.state.gov/historicaldocuments/frus1961-63v10/d383). [[w.fursenko-one-hell-of-a]], 192 (Raúl Castro in Moscow); [[w.paterson-contesting-castro]], 259 (Raúl Castro in Moscow; a draft probably initialed). See [[cal.1962-05-24.missile-crisis]]. Names: Raúl Castro.'
     src:
       c: 454c251a
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d383: all'
         - 'w.fursenko-one-hell-of-a 192: A'
+        - 'w.paterson-contesting-castro 259: A-B'
     tags: [name:castro-raul]
   - id: cal.1962-07-31.governors-ar
     when: July 31
@@ -814,3 +827,16 @@ entries:
       c: e1a3fe38
       rows:
         - 'w.sorensen-kennedy 424: all'
+  - id: cal.1962-07.cuba
+    when: July, summer
+    date: 1962-07
+    thread: cuba
+    also: [defense]
+    c: 'The Army begins a program to form Spanish-speaking units. The Cuban exiles who sign up, by the FBI''s Miami office: their "primary" goal a "return to Cuba to battle against the Fidel Castro regime."'
+    n: '[[w.paterson-contesting-castro]], 260 n.37. Check: the month: Paterson gives "the summer of 1962." To check: FBI, Miami Office, "Re: Anti-Fidel Castro Activities; Internal Security — Cuba," Oct. 5, 1962, FBI Records (cited by [[w.paterson-contesting-castro]], 260 n.37).'
+    src:
+      c: 56b37d91
+      rows:
+        - 'w.paterson-contesting-castro 260 n.37: all'
+        - 'via x.1962-10-05.fbi-miami-anti-fidel-castro-activities: B'
+    tags: [name:castro-fidel]

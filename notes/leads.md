@@ -1497,6 +1497,12 @@ Rights in Conflict (Walker Report):
 - Part III entries proposed (R13): Chalmers Roberts (*Washington Post*), Russell Baker (*New York Times*), Loye Miller (*Time*), Jimmy Breslin (*Herald Tribune*), Charles Seib (*Washington Star*).
 - Rowe's questioning of Humphrey: White has an August weekend, Humphrey's memoir July (`cal.1964-07.elections-1964-6`, combined): the day.
 
+### Paterson, *Contesting Castro* (batch 3, second run, Nov. 4, 2026; notes/book-checks/paterson-contesting-castro.md)
+- Earl E. T. Smith's advice to Kennedy on the religious issue: the memorandum of Sept. 12, 1960, Box 551, Senate Files, Pre-Presidential Papers, JFK Library (`cal.1960-09-12.elections-1960-3`).
+- *The Fourth Floor* (1962): the month of publication.
+- The Judiciary subcommittee's inquiry into Wieland and its reprimand (*State Department Security: Wieland*): the dates.
+- Press figures for Part III, proposed: Herbert L. Matthews (*New York Times*; Paterson, 69–80, 207, 226; Jones and Bissell name him); Jean Daniel (*L'Express*; Paterson, 261; Schlesinger and Reeves).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2510,6 +2516,15 @@ CQ Weekly Report, 1968-08-30:
 
 ### White, *The Making of the President 1968* (batch 3, second run, Nov. 4, 2026; notes/book-checks/white-making-of-the-president-1969.md)
 - Dec. 21, 1967, Canberra: FRUS or the Australian record for Johnson's briefing of the cabinet.
+
+### Paterson, *Contesting Castro* (batch 3, second run, Nov. 4, 2026; notes/book-checks/paterson-contesting-castro.md)
+- The exercise near Puerto Rico, Apr. 1962, 40,000 troops: its name, island and days (`cal.1962-04.cuba`).
+- Montecristi's raid (May 1962) and the DRE's (Aug. 1962): the days and targets.
+- Castro's trip to the Soviet Union, late Apr. 1963: the days (Halperin, *Rise and Decline of Fidel Castro*, 210–46).
+- Lansky's Riviera nationalized, Oct. 1960: under which act.
+- Castro's support of the invasion of Czechoslovakia, 1968: the speech and its day.
+- Alpha 66's raids of 1962; the Florida arrests and the raids of Aug.–Nov. 1963 (George Volsky's USIA reports, Draper Papers; FBI, Brennan to Sullivan, Nov. 4, 1963).
+- Pawley's memoir, "William D. Pawley's Book" (unpublished; Anita Pawley): the days of the trips to Trujillo.
 
 ## The Executive roster
 
