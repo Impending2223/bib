@@ -14,6 +14,18 @@ entries:
       rows:
         - 'w.clifford-counsel-to-the-president-2 314: all'
     tags: [name:kennedy-john-f, name:clifford-clark, name:symington-william-s]
+  - id: cal.1960-07-01.soviet-union
+    when: July 1
+    date: '1960-07-01'
+    thread: soviet-union
+    also: [defense]
+    c: 'An RB-47 out of a base in Britain, on a reconnaissance mission over the Barents Sea, shot down by the Soviet Air Force. Four of the crew killed, two taken. American intelligence: never nearer than thirty miles to Soviet airspace.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 290. To check: editorial note, FRUS 1958–60, X, pt. 1, 540–42 (cited by [[w.fursenko-khrushchevs-cold-war]], 290 n.87). Report: [[cal.1960-07-11.soviet-union]].'
+    src:
+      c: 36c28ae2
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 290: all'
+        - 'via w.fursenko-khrushchevs-cold-war 290 n.87: all'
   - id: cal.1960-07-02.amendments
     when: July 2
     date: '1960-07-02'
@@ -226,13 +238,14 @@ entries:
     thread: cuba
     also: [soviet-union]
     c: 'Khrushchev, in Moscow: "Soviet artillerymen can support the Cuban people with their rocket fire" if the Pentagon intervenes. Eisenhower, at Newport, R.I.: the United States will not "permit the establishment of a regime dominated by international Communism in the Western Hemisphere."'
-    n: 'Statement by the President Concerning Premier Khrushchev''s Announcement of Support for the Castro Regime in Cuba, [1960–61 Pub. Papers 567](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=619). [FRUS 1958–60, VI, doc. 549](https://history.state.gov/historicaldocuments/frus1958-60v06/d549), quoting Khrushchev to the All-Russian Teachers'' Congress. [[w.fursenko-one-hell-of-a]], 52. See [[cal.1960-07-06.cuba-2]]. Names: Khrushchev, Eisenhower.'
+    n: 'Statement by the President Concerning Premier Khrushchev''s Announcement of Support for the Castro Regime in Cuba, [1960–61 Pub. Papers 567](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=619). [FRUS 1958–60, VI, doc. 549](https://history.state.gov/historicaldocuments/frus1958-60v06/d549), quoting Khrushchev to the All-Russian Teachers'' Congress. [[w.fursenko-one-hell-of-a]], 52; [[w.fursenko-khrushchevs-cold-war]], 305–6 ("Soviet artillerymen can support the Cuban people with their rocket fire"; to Soviet teachers). See [[cal.1960-07-06.cuba-2]]. Names: Khrushchev, Eisenhower.'
     src:
       c: cb6994a2
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=619: all'
         - 'https://history.state.gov/historicaldocuments/frus1958-60v06/d549: all'
         - 'w.fursenko-one-hell-of-a 52: A'
+        - 'w.fursenko-khrushchevs-cold-war 305–6: A'
     tags: [name:khrushchev-nikita-s, name:eisenhower-dwight-d]
   - id: cal.1960-07-09.elections-1960-3
     when: July 9–10
@@ -317,12 +330,27 @@ entries:
       rows:
         - 'w.shesol-mutual-contempt 44: all'
     tags: [name:kennedy-john-f, name:johnson-lyndon-b]
+  - id: cal.1960-07-10.congo
+    when: July 10
+    date: '1960-07-10'
+    thread: congo
+    c: Belgium sends troops to the Congo to protect the Europeans, the Force Publique having mutinied against its white officers; the independence accord bars it without the new government's consent.
+    n: '[[w.fursenko-khrushchevs-cold-war]], 307. To check: [[w.hoskyns-congo-since-independence]], 95–96 (cited by [[w.fursenko-khrushchevs-cold-war]], 307 n.64). See [[cal.1960-06-30.congo]].'
+    src:
+      c: 101c7eda
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 307: all'
   - id: cal.1960-07-11.congo
     when: July 11
     date: '1960-07-11'
     thread: congo
     c: Tshombe declares Katanga independent.
-    n: 'FRUS 1958–60, XIV, doc. [114](https://history.state.gov/historicaldocuments/frus1958-60v14/d114). See [[cal.1960-06-30.congo]]. Names: Tshombe.'
+    n: 'FRUS 1958–60, XIV, doc. [114](https://history.state.gov/historicaldocuments/frus1958-60v14/d114). [[w.fursenko-khrushchevs-cold-war]], 307 (Katanga, with Belgian encouragement; Belgian paratroops at Elisabethville). See [[cal.1960-06-30.congo]]. Names: Tshombe.'
+    src:
+      c: f738db9a
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v14/d114: all'
+        - 'w.fursenko-khrushchevs-cold-war 307: all'
     tags: [name:tshombe-moise]
   - id: cal.1960-07-11.elections-1960
     when: July 11
@@ -437,7 +465,12 @@ entries:
     date: '1960-07-12'
     thread: congo
     c: The Congo's cabinet asks for American troops; Eisenhower declines and points to the UN. Kasavubu and Lumumba appeal to the UN.
-    n: 'FRUS 1958–60, XIV, docs. [116](https://history.state.gov/historicaldocuments/frus1958-60v14/d116) (Timberlake on the request), [117](https://history.state.gov/historicaldocuments/frus1958-60v14/d117) (Eisenhower and Herter). See [[cal.1960-06-30.congo]]. Names: Eisenhower, Kasavubu, Lumumba.'
+    n: 'FRUS 1958–60, XIV, docs. [116](https://history.state.gov/historicaldocuments/frus1958-60v14/d116) (Timberlake on the request), [117](https://history.state.gov/historicaldocuments/frus1958-60v14/d117) (Eisenhower and Herter). [[w.fursenko-khrushchevs-cold-war]], 307–8 (the appeal to the UN, troops from neutral countries). See [[cal.1960-06-30.congo]]. Names: Eisenhower, Kasavubu, Lumumba.'
+    src:
+      c: a8a75570
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v14/d116: all'
+        - 'w.fursenko-khrushchevs-cold-war 307–8: B'
     tags: [name:kasavubu-joseph, name:lumumba-patrice, name:eisenhower-dwight-d, name:herter-christian-a]
   - id: cal.1960-07-12.soviet-union
     when: July 12–13
@@ -566,7 +599,13 @@ entries:
     date: '1960-07-13'
     thread: congo
     c: 'Security Council, overnight: a UN force for the Congo, Belgium to withdraw its troops; 8–0, China, France, Britain abstaining.'
-    n: '[S.C. Res. 143](https://docs.un.org/S/RES/143%281960%29). FRUS 1958–60, XIV, doc. [122](https://history.state.gov/historicaldocuments/frus1958-60v14/d122) (the instructions to Lodge). See [[cal.1960-06-30.congo]].'
+    n: '[S.C. Res. 143](https://docs.un.org/S/RES/143%281960%29). FRUS 1958–60, XIV, doc. [122](https://history.state.gov/historicaldocuments/frus1958-60v14/d122) (the instructions to Lodge). [[w.fursenko-khrushchevs-cold-war]], 308 (the Soviet delegate instructed to support it; 8–0). See [[cal.1960-06-30.congo]].'
+    src:
+      c: 8a914d97
+      rows:
+        - 'https://docs.un.org/S/RES/143%281960%29: all'
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v14/d122: all'
+        - 'w.fursenko-khrushchevs-cold-war 308: all'
     tags: [name:lodge-henry-cabot]
   - id: cal.1960-07-13.elections-1960
     when: July 13
@@ -644,6 +683,19 @@ entries:
         - 'w.shesol-mutual-contempt 45: all'
         - 'via w.shesol-mutual-contempt 45 n.wont-go-along: B-D'
     tags: [name:corcoran-thomas-j, name:johnson-lyndon-b, name:kennedy-john-f, name:rayburn-sam, name:kennedy-joseph-p]
+  - id: cal.1960-07-13.congo-2
+    when: July 13
+    date: '1960-07-13'
+    thread: congo
+    also: [soviet-union]
+    c: 'Kasavubu and Lumumba to Khrushchev: "to watch hourly over the development of the situation"; "We may have to ask for the Soviet Union''s intervention should the Western camp not stop its aggression." Gromyko circulates it to the Presidium.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 308. To check: A. B. Davidson and S. V. Mazov eds., *Rossiya i Afrika: Dokumenty i materialy*, II, doc. 138 (cited by [[w.fursenko-khrushchevs-cold-war]], 308 n.66). See [[cal.1960-07-12.congo]]. Names: Kasavubu, Lumumba, Khrushchev, Gromyko.'
+    src:
+      c: 76c0d9a6
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 308: all'
+        - 'via w.fursenko-khrushchevs-cold-war 308 n.66: A-B'
+    tags: [name:kasavubu-joseph, name:lumumba-patrice, name:khrushchev-nikita-s, name:gromyko-andrei]
   - id: cal.1960-07-14.elections-1960
     when: July 14
     date: '1960-07-14'
@@ -754,6 +806,19 @@ entries:
       rows:
         - 'w.white-making-of-the-president 178–79: all'
     tags: [name:kennedy-joseph-p, city:nyc]
+  - id: cal.1960-07-15.congo
+    when: July 15
+    date: '1960-07-15'
+    thread: congo
+    also: [soviet-union]
+    c: 'Khrushchev to Kasavubu and Lumumba, made public: the UN''s intervention "a useful thing"; should the aggression go on, "the necessity would arise for more effective measures." The UN force''s first units arrive.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 308. To check: Seymour Topping, *New York Times*, July 16, 1960, and A. B. Davidson and S. V. Mazov eds., *Rossiya i Afrika: Dokumenty i materialy*, II, doc. 140 (cited by [[w.fursenko-khrushchevs-cold-war]], 308 n.68); [[w.hoskyns-congo-since-independence]], 129 (cited 308 n.69). See [[cal.1960-07-13.congo]]. Names: Khrushchev, Kasavubu, Lumumba.'
+    src:
+      c: 661e9e35
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 308: all'
+        - 'via w.fursenko-khrushchevs-cold-war 308 n.68: A'
+    tags: [name:khrushchev-nikita-s, name:kasavubu-joseph, name:lumumba-patrice]
   - id: cal.1960-07-16.democratic-party
     when: July 16
     date: '1960-07-16'
@@ -772,13 +837,14 @@ entries:
     thread: cuba
     also: [soviet-union]
     c: 'Raúl Castro in Moscow, July 17, met by Marshal Zakharov. July 18, with Khrushchev, Gromyko, Ponomarev, Zakharov and Skachkov. The visit''s joint communiqué: "all means not to consent to an armed United States intervention against the Cuban republic."'
-    n: '[[w.fursenko-one-hell-of-a]], 53–54. To check: Presidium, July 17, 1960, "On Raul Castro''s Visit to the USSR," APRF (cited by [[w.fursenko-one-hell-of-a]], 54 n.72); Szulc, *Fidel* (1986), 539 (cited by [[w.fursenko-one-hell-of-a]], 54 n.73, the communiqué). Check: the communiqué''s date. See [[cal.1960-07-09.cuba]]. Names: Raúl Castro, Khrushchev, Gromyko, Ponomarev, Zakharov.'
+    n: '[[w.fursenko-one-hell-of-a]], 53–54; [[w.fursenko-khrushchevs-cold-war]], 306 (July 17–18: "We don''t want war, and you don''t need war"; "If it [is] useful for you, we can give you more"). To check: Presidium, July 17, 1960, "On Raul Castro''s Visit to the USSR," APRF (cited by [[w.fursenko-one-hell-of-a]], 54 n.72); Szulc, *Fidel* (1986), 539 (cited by [[w.fursenko-one-hell-of-a]], 54 n.73, the communiqué). Check: the communiqué''s date. See [[cal.1960-07-09.cuba]]. Names: Raúl Castro, Khrushchev, Gromyko, Ponomarev, Zakharov.'
     src:
       c: 2d2d5a39
       rows:
         - 'w.fursenko-one-hell-of-a 53–54: all'
         - 'via w.fursenko-one-hell-of-a 54 n.72: B'
         - 'via w.fursenko-one-hell-of-a 54 n.73: C'
+        - 'w.fursenko-khrushchevs-cold-war 306: all'
     tags: [name:castro-raul, name:khrushchev-nikita-s, name:gromyko-andrei, name:ponomarev-boris-n, name:zakharov-matvei-vasileevich]
   - id: cal.1960-07-18.republican-party
     when: July 18–20
@@ -915,6 +981,18 @@ entries:
       rows:
         - 'w.white-making-of-the-president 195–96: all'
     tags: [name:morhouse-l-judson, name:hughes-emmet-john, name:hinman-george-l, name:rockefeller-nelson]
+  - id: cal.1960-07-21.cuba
+    when: July 21
+    date: '1960-07-21'
+    thread: cuba
+    also: [cuba-bay-of-pigs, intelligence]
+    c: 'CIA headquarters to the chief of station in Havana: "Possible removal top three leaders [Fidel, Raúl and Che] is receiving serious consideration at HQS." July 22: "Do not pursue. . . . Would like to drop matter."'
+    n: '[S. Rep. No. 94-465](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf), 73 (1975) (cited by [[w.fursenko-khrushchevs-cold-war]], 313 nn.94–95). [[w.fursenko-khrushchevs-cold-war]], 313. Made public: the Church Committee''s interim report, Nov. 20, 1975. Names: Fidel Castro, Raúl Castro, Guevara.'
+    src:
+      c: d9267138
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 313: all'
+    tags: [name:castro-fidel, name:castro-raul, name:guevara-ernesto]
   - id: cal.1960-07-22.elections-1960
     when: July 22–23
     date: '1960-07-22'
@@ -1162,6 +1240,20 @@ entries:
       rows:
         - 'w.white-making-of-the-president 205: all'
     tags: [name:rockefeller-nelson, name:nixon-richard-m]
+  - id: cal.1960-07-25.congo
+    when: July 25
+    date: '1960-07-25'
+    thread: congo
+    also: [intelligence]
+    c: 'State''s Bureau of Intelligence and Research on Lumumba: "Despite charges by the Belgians and his Congolese opponents that Lumumba is a communist, we have nothing to substantiate this allegation."'
+    n: '[FRUS 1958–60, XIV, doc. 149](https://history.state.gov/historicaldocuments/frus1958-60v14/d149). [[w.fursenko-khrushchevs-cold-war]], 312–13. Names: Lumumba.'
+    src:
+      c: 4c70608c
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v14/d149: all'
+        - 'w.fursenko-khrushchevs-cold-war 312–13: all'
+        - 'via w.fursenko-khrushchevs-cold-war 313 n.89: all'
+    tags: [name:lumumba-patrice]
   - id: cal.1960-07-26.elections-1960
     when: July 26–27
     date: '1960-07-26'
@@ -1241,7 +1333,12 @@ entries:
     date: '1960-07-27'
     thread: congo
     c: 'Lumumba in Washington, at Blair House. Herter and Dillon receive him, July 27: aid through the UN, not apart from it. The Belgian ambassador protests the welcome, July 28. Eisenhower at Newport, R.I.; no meeting.'
-    n: 'FRUS 1958–60, XIV, docs. [152](https://history.state.gov/historicaldocuments/frus1958-60v14/d152) (Herter and Lumumba), [153](https://history.state.gov/historicaldocuments/frus1958-60v14/d153) (Scheyven). To check: [[w.kalb-congo-cables]]. See [[cal.1960-06-30.congo]]. Names: Lumumba, Herter, Eisenhower, Dillon.'
+    n: 'FRUS 1958–60, XIV, docs. [152](https://history.state.gov/historicaldocuments/frus1958-60v14/d152) (Herter and Lumumba), [153](https://history.state.gov/historicaldocuments/frus1958-60v14/d153) (Scheyven). [[w.fursenko-khrushchevs-cold-war]], 309–10 (Herter and Dillon; aid only through the UN; a plane asked). Check: Fursenko and Naftali give Lumumba half an hour with Herter on July 29 (309, citing [[w.kalb-congo-cables]], 35–37). To check: [[w.kalb-congo-cables]]. See [[cal.1960-06-30.congo]]. Names: Lumumba, Herter, Eisenhower, Dillon.'
+    src:
+      c: 9de55b3c
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v14/d152: all'
+        - 'w.fursenko-khrushchevs-cold-war 309–10: B'
     tags: [name:lumumba-patrice, name:herter-christian-a, name:dillon-c-douglas, name:eisenhower-dwight-d]
   - id: cal.1960-07-27.conservative-movement
     when: July 27

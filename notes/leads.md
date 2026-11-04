@@ -1529,6 +1529,10 @@ Rights in Conflict (Walker Report):
 - Salinger's Portland statement on the King tap: its day (Thomas 379 n. cites Witcover, *85 Days*, 212; `cal.1968-05-24.king`).
 - The FBI files Thomas reads for May 17, 18 and 23, 1968, not cited by folder (379).
 
+### Fursenko and Naftali, *Khrushchev's Cold War* (batch 3, second run, Nov. 4, 2026; notes/book-checks/fursenko-khrushchevs-cold-war.md)
+- Jan.–Feb. 1960: Twining and Gates on the 1961 defense budget; Russell: "I can't accept the statement that there is no missile gap" (253): the hearing's day (Jackson, vol. 5, 94, n.40).
+- Feb. 1960: Gates to Congress: Power's estimate "is unrealistic" (254): the day (the *Times*, Feb. 7, 1960, n.43).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2555,6 +2559,24 @@ CQ Weekly Report, 1968-08-30:
 ### Jones, *The Bay of Pigs* (batch 3, second run, Nov. 4, 2026; notes/book-checks/jones-bay-of-pigs.md)
 - Cubela's trial, Mar. 1966: the days of the trial, the sentence and the commutation (*Washington Post*, Mar. 8, 11, 1966; Reuters, Mar. 8; FRUS 1964–68, XXXII, the editorial note at p. 743, not placed in the daybook).
 - The 303 Committee's record of June 2, 1965 (Raborn's request): FRUS 1964–68, XXXII, doc. 302 n. 2 names it.
+
+### Fursenko and Naftali, *Khrushchev's Cold War* (batch 3, second run, Nov. 4, 2026; notes/book-checks/fursenko-khrushchevs-cold-war.md)
+- Apr. 1960: Eisenhower alerts Khrushchev he may leave Paris for Lisbon, Nixon to head the delegation (271): the day.
+- May 1960: Macmillan's diary: "The Americans have created a great folly" (276): the day (Horne, *Macmillan*, II, 225–26).
+- Apr.–May 1960: NATO meetings on the French plan; Herter: "embarrassing to the West" (280): which meeting (FRUS 1958–60, IX, 318, 415, n.56).
+- May 1960: Thompson and Bohlen to Sulzberger: the U-2 a pretext (289): the day (Sulzberger, *The Last of the Giants*, 669–70).
+- Jan. 1960: the Belgian–Congolese agreement: independence June 30 (298): the day (the Round Table, Jan. 1960; not dated in the work).
+- spring 1960: the CIA's LSD cigar and depilatory schemes (304): the day (S. Rep. No. 94-465, 72).
+- May 1960: Cuba and the Soviet Union establish diplomatic relations (304): the day (not given).
+- late July 1960: Lumumba with Kuznetsov at the UN; with Aroutunian in Ottawa (309–10): the days (Kalb, *Congo Cables*, 35–41).
+- Sept. 16–17, 1960: Mobutu's troops clear the Parliament; Lumumba in UN custody (316): Sept. 16–17 entries to check against Kalb and Hoskyns (the calendar has Sept. 14).
+- Sept. 1960: Khrushchev: "I spit on the UN"; Zorin's instructions (317): the day (Taubman, *Khrushchev*, 477).
+- Sept. 24, 1960: Dulles: "eliminat[e] Lumumba" (318): S. Rep. No. 94-465, 24, to enter.
+- Aug.–Oct. 1, 1960: Castro's purge of his security service; the block surveillance system (320): the days.
+- Nov. 1960: the CIA's contract killer to Stanleyville (321): the day.
+- spring 1960: Khrushchev's second trip to Southeast Asia, Burma and Indonesia (324): the days (Feb.–Mar. 1960).
+- Aug.–Oct. 1960: Brown's and State's views on Souvanna; Eisenhower's dominoes (memoir) (329): the days (Eliades; *Waging Peace*, 607).
+- The rest of the work, pp. 451–545, unread.
 
 ## The Executive roster
 
