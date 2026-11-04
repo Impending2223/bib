@@ -18,9 +18,10 @@ STYLE
     Record's granules (tools/congress/make_record_pages.py).
  6. One title, the contents' small capitals (tools/bib/contents.py; the owner, Nov. 4, 2026: "Drop ': its course'";
     "where small caps title is used, keep the small caps title alone"). The chamber column unheaded, "H" or "S" (the
-    name on hover), the President's rows empty, as narrow as its letter (the owner, the same day). On a phone (under
-    520px) no sideways scrolling (the owner's request for the budget tables, Oct. 22, 2026, kept here too): each step
-    a block, the date and chamber on a line, bold, then the step, the roll calls, the Record, muted; the heads hidden.
+    name on hover), the President's rows empty, as narrow as its letter (the owner, the same day). The columns at
+    every width ("keep the columns", the owner, the same day): no minimum width, tight padding, every cell wrapping
+    (a date only after its comma, "Mar. 24, / 1965"; a roll call's count never; the Record's cite within its cell); a table still wider than
+    the column scrolls in its own box, never the page. Nothing shortened.
  7. Where (the owner, Nov. 4, 2026): under the entry of the bill's first introduction in either chamber, and on each
     later year's page of the calendar its course runs into, under that year's first entry concerning the bill in
     Congress; never twice on a page. The placements are the entries tagged bill:<key>, chosen by hand (the first
@@ -45,14 +46,14 @@ VOL = {1960: 106, 1961: 107, 1962: 108, 1963: 109, 1964: 110, 1965: 111, 1966: 1
 STYLE = """<style id="blstyle">
 .bl{margin:1rem 0 .5rem;font-family:var(--sans)}
 .bl .blw{overflow-x:auto;-webkit-overflow-scrolling:touch}
-.bl table{border-collapse:collapse;width:100%;min-width:32rem;font-size:.78rem;line-height:1.35;font-variant-numeric:tabular-nums}
-.bl th,.bl td{text-align:left;vertical-align:top;padding:.2rem .5rem .2rem 0;border-bottom:1px solid var(--rule)}
+.bl table{border-collapse:collapse;width:100%;font-size:.78rem;line-height:1.35;font-variant-numeric:tabular-nums}
+.bl th,.bl td{text-align:left;vertical-align:top;padding:.2rem .4rem .2rem 0;border-bottom:1px solid var(--rule)}
 .bl thead th{font-weight:600;color:var(--muted);font-size:.74rem}
-.bl td.bld{white-space:nowrap}
 .bl td.blc{width:1ch;padding-right:.3rem}
+.bl td.blv a{white-space:nowrap}
 .bl .bln{font-size:.78rem;line-height:1.45;color:var(--note);margin:.3rem 0}
 .bl .blsrc{font-size:.78rem;color:var(--muted);line-height:1.4;margin:.3rem 0}
-@media (max-width:520px){.bl table{min-width:0}.bl table,.bl tbody,.bl tr,.bl td{display:block;width:auto}.bl thead{display:none}.bl tr{padding:.3rem 0;border-bottom:1px solid var(--rule)}.bl td{border:0;padding:0}.bl td.bld,.bl td.blc{display:inline;font-weight:600}.bl td.blc:not(:empty):before{content:" · "}.bl td.blv:empty,.bl td.blr:empty{display:none}.bl td.blr{color:var(--muted)}}
+@media (max-width:520px){.bl table{font-size:.74rem}.bl th,.bl td{padding-right:.3rem}.bl td.blc{padding-right:.25rem}}
 </style>"""
 CH = {"House": ("H", "House"), "Senate": ("S", "Senate")}
 
@@ -102,7 +103,7 @@ def block(key, sfx=""):
         return ""
     rows, notes = [], []
     for s in b["steps"]:
-        d = date(s["date"], s.get("until"))
+        d = date(s["date"], s.get("until")).replace(" ", "&nbsp;").replace(",&nbsp;", ", ")   # STYLE 6: breaks after the comma
         when = f'<a href="#{esc(s["entry"])}">{d}</a>' if s.get("entry") else d
         what = esc(s["what"])
         if s.get("stat"):
