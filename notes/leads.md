@@ -479,6 +479,11 @@ CQ Weekly Report, 1968-08-16:
 - California's Motor Vehicle Pollution Control Act of 1960.
 - New York's smog of Thanksgiving, 1966 (the days).
 
+### Woods, *Fulbright: A Biography* (batch 3, Nov. 4, 2026; notes/book-checks/woods-fulbright.md)
+
+- Arkansas: the State Democratic Committee's minutes, June 27 and Aug. 10, 1968; the 1960 primary's candidates'
+  filings; the AFL-CIO convention of June 1968; the *Arkansas Gazette* run of 1960-68 (Woods's chief newspaper source).
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -1982,6 +1987,23 @@ Rights in Conflict (Walker Report):
   Grose (*New York Times*); and for Hans J. Morgenthau, Louis Martin (Democratic National Committee), Norman Thomas,
   James Bevel and Allard Lowenstein, named here without name entries.
 
+### Woods, *Fulbright: A Biography* (batch 3, Nov. 4, 2026; notes/book-checks/woods-fulbright.md)
+
+- Pat M. Holt's and Carl Marcy's oral histories (Senate Historical Office, 1980 and 1983): the source of a score of
+  entries here; open on senate.gov? To find and read.
+- The Marcy Papers (SFRC, RG 46) and the Fulbright Papers (SPF, Arkansas), item by item in the witness files: none read.
+- The Record pages Woods cites and this run did not read (each a Check on its entry): June 27, 1962, 11879; Mar. 1,
+  1960, 3976-81; Mar. 18, 1964, 5639; Nov. 19, 1963, 22361; Dec. 6, 1963, 23726-28; Dec. 18, 1963, 25032-33; July 23,
+  1964, 16764; Mar. 21, 1966, 6416; Mar. 25, 1966, 6749-53; Aug. 22, 1966, 20191; Mar. 16, 1967, 7057; Apr. 27, 1967,
+  11042-43; Aug. 9, 1967, 22126-27; July 13, 1961 (Goldwater).
+- The Senate's adoption of S. Res. 191 (Woods: Sept. 20, 1961): its day in the Record.
+- Part III entries to propose (R13 and the Names): Pat M. Holt, Seth Tillman, Lee Williams, Jack Yingling, Norvill Jones,
+  John Erickson (Fulbright's staff); Walter Pincus; Doris Fleeson, Holmes Alexander, Clayton Fritchey, Paul Harvey,
+  George Todt (columnists); Dan Smoot, Billy James Hargis, Kent Courtney (radical right); Sol Linowitz; Jim Johnson
+  ("Justice Jim"), Bobby K. Hayes, Winston G. Chandler, Kenneth G. Jones, Charles Bernard (Fulbright's opponents); Bill
+  Darby, Jack Pickens, Witt Stephens (Arkansas); H. L. Hunt; Isadore Hamlin, Maurice Boukstein; R. B. McCallum; John
+  A. Morsell.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -3132,6 +3154,12 @@ CQ Weekly Report, 1968-08-30:
 - BBC Scotland's interviews of Shumkov and Chebrasov; David Coleman's transcripts of the ExComm of Nov. 14 and 16,
   1962 (the work's note: to appear in vol. 4 of the Miller Center's *Presidential Recordings*, 619 n.58).
 - Kroll's summer visit of 1963 and Khrushchev's letter to Adenauer (621 n.111).
+
+### Woods, *Fulbright: A Biography* (batch 3, Nov. 4, 2026; notes/book-checks/woods-fulbright.md)
+
+- Trujillo's contract with Igor Cassini (Woods 307): the Dominican files Pincus photographed; Cassini's indictment's
+  day (1963).
+- The Thai Foreign Minister's statement of Dec. 1967: its day and words.
 
 ## The Executive roster
 

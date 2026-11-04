@@ -1301,6 +1301,18 @@ entries:
         - 'w.kabaservice-rule-and-ruin 244: all'
         - 'via w.kabaservice-rule-and-ruin 244 n.93: all'
     tags: [name:agnew-spiro-t, name:kuchel-thomas-h, state:md]
+  - id: cal.1963-07-29.testing
+    when: July 29
+    date: '1963-07-29'
+    thread: testing
+    c: 'Harriman, back from Moscow, briefs Foreign Relations in closed session. Fulbright comes out arm in arm with him: the treaty has his full support.'
+    n: '[[w.woods-fulbright]], 318. Check: the day; Woods cites the *Arkansas Gazette* of July 30. To check: "Fulbright Endorses Pact After Briefing," *Arkansas Gazette*, July 30, 1963 (cited by [[w.woods-fulbright]], 318 n.47). See [[cal.1963-07-26.testing]]. Names: Harriman, Fulbright.'
+    src:
+      c: d6d03631
+      rows:
+        - 'w.woods-fulbright 318: all'
+        - 'via x.1963-07-30.fulbright-endorses-pact: all'
+    tags: [name:harriman-w-averell, name:fulbright-j-william]
   - id: cal.1963-07-30.defense
     when: July 30
     date: '1963-07-30'
@@ -1609,3 +1621,19 @@ entries:
       rows:
         - 'w.goldberg-barry-goldwater 173: all'
     tags: [name:curtis-carl-t, name:rockefeller-nelson, name:goldwater-barry-m]
+  - id: cal.1963-07-31.congress
+    when: July 31
+    date: '1963-07-31'
+    thread: congress
+    also: [middle-east]
+    c: 'Foreign Relations'' hearings on the nondiplomatic agents: Isadore Hamlin, executive director, and Boukstein of the Jewish Agency-American Section, in closed session; no transcript released. The White House, through Symington, has had a majority keep them in executive session.'
+    n: 'Daily Digest, [109 Cong. Rec. D368](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=366). [[w.woods-fulbright]], 310–11. Check: Woods has Hamlin and Gottlieb Hammer testify the first week in August. To check: UPI 40, July 30, 1963, Series 48:6, Box 26, SPF; Alan Otter, "White House Increases Activities That Would Aid Democrats in 1964," *Wall Street Journal*, May 28, 1963 (cited by [[w.woods-fulbright]], 310–11 nn.20–21). See [[cal.1963-06-18.congress]]. Names: Symington.'
+    src:
+      c: 9d65c68a
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=366: all'
+        - 'w.woods-fulbright 310–11: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=366: A'
+        - 'via x.1963-07-30.upi-40-jewish-agency: A'
+        - 'via x.1963-05-28.otter-white-house-increases: B'
+    tags: [name:symington-william-s]

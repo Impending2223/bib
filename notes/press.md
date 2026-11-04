@@ -226,10 +226,12 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1966-01-27 | Chicago Tribune |  | "King Picks 'Typical' Flat/8 Men Repair It" | Branch, *At Canaan's Edge*, 427
 1966-01-27 | CBS Evening News | broadcast | Cronkite gives three minutes to Rusk's hearing; NBC five | Branch, *At Canaan's Edge*, 430
 1966-01-28 | New York Times | front page | "A Lonely Johnson Weighs Bombing"; "15 in Senate Urge President Extend Pause in Bombing" | Branch, *At Canaan's Edge*, 430
+1966-01-28 | CBS, NBC | evening news | clips of Rusk and Fulbright at the open session | Woods, *Fulbright*, 403
 1966-01-31 | New York Times | front page | AP photograph of the medic Thomas Cole near Bồng Sơn | Branch, *At Canaan's Edge*, 433
 1966-02 | *New York Times* (Wicker) | dispatch | the Bangkok communiqué filed first | Humphrey, *Education of a Public Man*, 332
 1966-02 | *New York Times* | story (Broder) | Romney: "fuzziness on national and international issues" | White, *Making of the President 1968*, 40
 1966-02-01 | New York Times | front page | "Johnson Asks U.N. to Summon Vietnam Peace Conference/ Bombing in North Resumes" | Branch, *At Canaan's Edge*, 433
+1966-02-04 | CBS | daytime | the hearings live, Friendly in charge; *Captain Kangaroo* and soap operas preempted | Woods, *Fulbright*, 404
 1966-02-10 | CBS | daytime broadcast | the hearings dropped for reruns, *I Love Lucy* among them | Woods, *J. William Fulbright, Vietnam*, 117
 1966-02-11 | Montgomery Advertiser | front page | "Lowndes Schools Ordered to End All Segregation" | Branch, *At Canaan's Edge*, 438
 1966-02-14 | BBC | broadcast | Kennan's testimony and Fulbright's questioning, almost verbatim; Labour members on the talk shows | Woods, *J. William Fulbright, Vietnam*, 121
@@ -296,6 +298,8 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-01-26 | *New York Times* | p. 17 | the same | Branch, *Pillar of Fire*, 610
 1968-01-31 | New York Times; Washington Post | front pages | Mohr on the embassy in Saigon; the Post's photograph of a Viet Cong body on the lawn | Branch, *At Canaan's Edge*, 681
 1968-01-31 | *Arkansas Gazette* | page | "Senate Panel to Re-examine Tonkin Case" | Woods, *J. William Fulbright, Vietnam*, 168 n.30
+1968-01-31 | *The News* (Washington) | front page | "War Hits Saigon" | Woods, *Fulbright*, 468
+1968-01-31 | the networks | evening news | Tet: the dead in the rubble, fighting in Saigon | Woods, *Fulbright*, 468
 1968-02 | the papers, nationally | front pages (by Rusk's account) | Rusk to Scali at a backgrounder: "Whose side are you on?" | Rusk, *As I Saw It*, 477
 1968-02 | *Harper's*, Larry L. King | item | "The Cool World of Nelson Rockefeller" (made public, entered) | Smith, *On His Own Terms*, 498
 1968-02 | *Los Angeles Times* | story | Tuohy on MACV Forward, "blatantly speculative" by Westmoreland's account | Westmoreland, *A Soldier Reports*, 345
