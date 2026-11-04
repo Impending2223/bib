@@ -725,9 +725,211 @@ York's smog of Thanksgiving, 1966 (the days). Propose a Part III entry for Abba 
 and Consular Affairs, 1962–66), whose name entry comes from FRUS's lists only, and for Michael A. Feighan (House
 Judiciary, Subcommittee No. 1), whose comes from the rosters.
 
+## Seventh run (b3-bernstein-guns-7), Nov. 4, 2026
+
+Read from the same copy (649 PDF pages; the offsets hold: −27 for ch. 13 and ch. 15 to p. 404, −43 after the plates,
+PDF 432–447; checked against the running heads of every page read). Read whole, with their notes: ch. 13, "Vietnam:
+Sliding into the Quagmire," pp. 324–57 (nn. 1–8, pp. 563–65); ch. 15, "Turmoil at Home," pp. 379–425 (nn. 1–12, pp.
+566–69), all but the middle of p. 420 (Stop the Draft Week's opening at Boston and Madison, read only in part). Ch. 20,
+pp. 530–42 (the rest of the chapter; 525–29 were the fourth run's): read for every dated passage and at pp. 531 and
+536–37 whole, with the notes (nn. 2–4, pp. 574–75); the undated pages of evaluation (532–35, 538–42) were read through
+a faulty extraction and want a second reading. How the list was made: every sentence of chs. 13 and 15 dating
+something to a year, a month or a day held against the tree and the ledger (`./bib ledger find`, the day's entries in
+every thread; for ranges, the threads war-opposition, students, civil-disorders-watts, open-housing); FRUS's text read
+for the two papers entered from it (FRUS 1964–68, II, docs. 234 and 241). Bernstein's notes run one to a section; each
+record is edged at the text page it stands behind, letters after the note number telling them apart. Ch. 13 is a
+synthesis of the published works (Karnow, Halberstam, Gibbons, the Pentagon Papers, Wise, Shapley) with a few Johnson
+Library files; ch. 15 rests on the Cater, McPherson, Califano and Christopher papers.
+
+The twelve cites still behind "To check" (the fourth run's table): none borne out in chs. 13, 15 or 20 (ch. 20 names the
+1966 State of the Union only for its promise, 527, read before; Galbraith's letter of Dec. 16, 1966, is a new entry, not
+one of them). A search of chs. 16, 17 and 19 for their matter (excises, withholding, the investment credit, the cuts of
+Nov. 29, 1966, the continuing resolution, Chrysler, the surplus, the news conferences) found nothing but ch. 16's
+Social Security and minimum-wage bargaining (426–38) and ch. 19's Busby (487). Still behind "To check."
+
+Patch `inbox/2026-11-04-b3-bernstein-guns-7.yaml`, 198 ops: 57 entries added (ch. 13, 9; ch. 15, 43; ch. 20, 5), 133
+cites, 8 Checks. Witnesses `inbox/witnesses/2026-11-04-b3-bernstein-guns-7.yaml`: 30 new; 77 edges for
+`w.bernstein-guns-or-butter` at the file's foot, for the merger to append to
+`sources/witnesses/by-work/bernstein-guns-or-butter.yaml`. patch-check: 0 errors, 6 warnings, each a "one event?" flag
+read against its neighbor and distinct (Wise's backgrounder beside four other December press entries; Alsop beside
+Goodwin's Oval Office account; King and Daley's agreement beside Doar's night with the gangs; Cater and Evans beside
+Javits; the Oakland streets beside the cards at Justice; Morse's appropriation beside another July entry). `./bib
+check`: 0 errors. Stray ledger line, claimed and not used: `cal.1967-09.vietnam-congress-6` (O'Neill's break is the
+tree's `cal.1967-09.vietnam-congress`; cited there).
+
+### Cites added, with the disagreements (R33)
+
+Ch. 13: Dec. 18 and 26, 1962 (Mansfield); 1963: May 8, June 11, June 27, July 7, Sept. 10, Sept. 20, Oct. 5, Oct. 9,
+Oct. 21, Nov. 1, Nov. 2; Nov. 8, 1961; 1964: Jan. 30, Aug. 2, 4 (four), 5 (two), 6 (two), 7, 25, Oct. 5, Nov. 1, Nov.
+3; 1965: Jan. 27 (two), Feb. (Moyers and Ball's memorandum), Feb. 6, 7 (two), 19, 22, Mar. 2, 8, Apr. 6, May 11, 17,
+29, June 9, 12, 28, July 20, 27, 28; Oct. 26, Nov. 1, 1966; 1967: Mar. 18, June 17, July 19, Aug. 9, 11, 25 (two),
+Nov. 27, 29; Jan. 15 and Feb. 28, 1968. Checks:
+- May 8, 1963: nine killed and fourteen wounded (the entry, eight).
+- Oct. 9, 1963: the cable "received" Oct. 5; the note cites Gibbons for a cable of Oct. 6.
+- Nov. 1, 1964: six B-57s destroyed, twenty damaged, five Americans and two South Vietnamese killed (the entry, 4 and 27).
+- Feb. 7, 1965: eight Americans killed, a hundred wounded, ten aircraft (the entry, 7).
+- July 20, 1965: Bernstein reads McNamara's figures as 200,000 by October and 600,000 by mid-1966.
+- Mar. 18, 1967: the request dated Mar. 27.
+- Aug. 11, 1967: the Red River bridge "the next day" after Aug. 9.
+Variants noted in the parentheticals, no Check: Aug. 5, 1964 (Bundy to Cater, "Don't."); Dec. 26, 1962 (O'Donnell's
+account of Kennedy's anger); June 28, 1965 (Ball's memorandum dated June 29).
+
+Ch. 15: 1965: Mar. 16, 24, Apr. 17, May 15, 21, June 4, 21, July 24, Aug. 9, 11, 14, 15, 18, 19, 26, Oct. 1, 3, 15,
+Nov. 2, 27, Dec. 2; 1966: Jan. 26, 28, Feb. 23, Mar. 1, Apr. 28, June 28, July 10, 12, 31, Aug. 5, 9, 17, 26, Sept. 4,
+14, 19 (two), 21, Nov. 7, 8, Dec. 14 (Shesol's pending), Dec. 25; 1967: Feb. 25, Mar. 6, 25, Apr. 4, 15, 29, May 17,
+June 11, 12, July 12, 19, 20, 23, 24, 27, Sept. (O'Neill), Oct. 16, 18 (two), 20, 21, Nov. 2; June 11, 1962; Sept.
+21, Oct. 1, Dec. 2, Dec. 8, 1964. Check: Aug. 5, 1966, the march dated "two days" after Aug. 2. Dates given otherwise,
+in the parentheticals: Columbia's teach-in "the following day" (Mar. 25, 1965); the cloture vote Sept. 18, 1966;
+Bundy's resignation Feb. 28, Ball's Sept. 30, 1966; McNamara at Harvard Nov. 6, 1966; King's Chicago walk Mar. 24,
+the Spring Mobilization at the White House May 18, 1967; Port Huron July 1962.
+
+Ch. 20: July 28, 1965 (534–35).
+
+### New entries (57)
+
+Ch. 13: Dec. 1964 (Johnson's backgrounder with Wise and two others); Feb. 1965 (Reston, "a bloody shovel"); Feb. 9,
+1965 (the telegrams, 12 to 1); Apr. 2, 1965 (McCone to Rusk et al., FRUS read); Apr. 6, 1965 (Wheeler's appraisal,
+CM-534-65, FRUS read); June 1965 (the task force chairmen's dinner, Haar's account); July 1965 (Alsop, "pathos"); Feb.
+24, 1967 (McNamara at Millsaps); Jan. 15, 1969 (Gelb's study to Clifford).
+Ch. 15: Mar. 1964 (the May 2d Movement); July 10, 1964 (SANE's petition); 1965: Jan. 25, May 25, June 22, July 10, Aug.
+5 (Cater's memoranda), Jan. (Moynihan to Moyers), Feb. 8–10 (the Mothers' Lobby), Feb. 13 (U.N. Plaza), May (Wirtz,
+"nine pages of dynamite"), June 8 (SANE at the Garden), June 14 (the Festival of the Arts), Aug. (the troop trains),
+Aug. 23 (Martin to White), Sept. 2 (the 49 projects), Sept. 28 (the *Tribune* on Chicago's grant), Nov. 20 (the
+Oakland march); 1966: Jan. 21 (Cater, Gavin; "No"), Mar. 26 (the Days of Protest), June 5 (Moyers's poll), July
+(Morse's appropriation), July 15 (King and Daley's agreement), Aug. 2 and 7 (Belmont-Cragin), Aug. 3 (Cater on
+Gardner); 1967: Jan. 14 (King and *Ramparts*), May 7 (St. Mark's), May 15 (McPherson on Adams), May 23 (Bedell), June 9
+(Schnittker), Aug. 11 (Cater and Evans), Aug. 24 (McPherson and Tydings), Oct. 3 (Clark on the permit), Oct. 17 and
+20 (Oakland), Oct. 19 (the permit), Oct. 24 (Cater and Reston), Oct. 27 (Berrigan), Nov. 14 (Rusk at the Hilton),
+Nov. 21 (Yale's draft refusers), Dec. 7 (McNamara on recruiting); Jan. 17, 1969 (the Student Unrest Study Group).
+Ch. 20: May 5, 1965 (Mohr's memorandum: the walks with the press); May 23, 1965 (Wise, "credibility gap"); July 21,
+1965 (Busby to Johnson); Oct. 22, 1965 (Johnson to Mansfield: "the greatest session"); Dec. 16, 1966 (Galbraith to
+Califano).
+
+### The witnesses
+
+New (30), nearly all LBJ Library holdings, unread (`closed archive`): the Cater memoranda of 1965, 1966 and 1967 (one
+row a year, the note's dates in `what`), Cater's of Jan. 21, 1966 (Gavin), McPherson's of May 15 and Aug. 25, 1967,
+Bedell's, Schnittker's, Lewis to Rostow (Yale), Rostow to Johnson, Dec. 7, 1967, Clark's of Oct. 3 and the permit of
+Oct. 19, 1967 (Christopher Papers), Martin to White, the President's Task Force on the Los Angeles Riots, McGhee to Rusk
+(the Student Unrest Study Group), Moyers's poll, Busby, Johnson to Mansfield, Galbraith to Califano, the NSC History
+of Feb. 1965, Bundy to Johnson, July 24, 1965, Gelb's letter of transmittal (printed in the Pentagon Papers, Gravel ed.,
+I), the Haar and Califano (XVIII) oral histories; Mohr's memorandum (Krock Papers, Princeton); the studies Wise,
+*Politics of Lying*, Zaroulis and Sullivan, *Who Spoke Up?*, Stockdale, *In Love and War*, the Johnson Library's Vietnam
+roundtable (1993), Levinson in the *Sacramento Bee*, Aug. 1, 1993. Edged to the registry's: Bundy to Johnson, Jan. 27
+and Feb. 7, 1965; McCone, Apr. 2; CM-534-65 and NSAM 328, Apr. 6; McNamara, July 20 (FRUS III); the news conference of
+July 28, 1965; the address of Aug. 4, 1964. To the cards: Gibbons, II; Karnow; Reeves; Schlesinger; Sorensen; Shapley;
+Austin; Galloway; Windchy; Wells; the Pentagon Papers; Kahin; Ball; Halberstam; Bird, *Chairman*; Johnson, *Vantage
+Point*; Clifford; Califano; Goldman; Lady Bird Johnson's diary; Graham; Orfield; Anderson and Pickering; Garrow.
+
+Not registered (the next reader's): the records of chs. 13 and 15 behind passages not entered: the BDM study's Domestic
+Factors (Salinger), the Public Papers of 1963 (624, 696) and of Kennedy, 1962 (263, Berkeley); Wheeler, Westmoreland
+and Roche (n.7); Fifteen senators to Johnson, Jan. 27, 1966; Manatos to Jones, June 2; Moyers to Johnson, June 10
+(registered as the poll); McPherson to Califano, July 19, to Moyers, Aug. 4, Oct. 4; Mansfield to Johnson, June 29, Oct.
+13, 1966; Cater to Johnson, Nov. 29, 1965 (Bean); the McPherson (III) and O'Brien (XVI, XIX) oral histories; Salisbury's
+oral history and *Behind the Lines*; Johns to Johnson, May 12, Davis to Rostow, May 17, Mansfield to Johnson, Apr. 29,
+Udall to Johnson, Oct. 18, 1967; King's "Beyond Vietnam" (Clark Papers); Levinson's Detroit chronology, July 29, 1967;
+the Christopher, Nimetz and Clark papers' other items of Oct.–Nov. 1967 (Yeagley, Forces Available, Califano and
+Johnson to Clark, Oct. 21, McDonough, Brookhart, Justice's release, Pollak to Clark); the Dellinger and Clifford oral
+histories; the Moynihan report; *Violence in the City* (the McCone commission, Dec. 2, 1965).
+
+### Passed over (seventh run)
+
+| Page | Date | Event | Why |
+| --- | --- | --- | --- |
+| 324–26 | 1887–1959 | Indochina under the French; Hồ Chí Minh; Geneva; Diệm's return; the Trail made a highway | out of the brief (before the span) |
+| 327 | 1961–63 | Salinger: Kennedy, and Johnson later, tighten the rules for correspondents in the field | a lead (the days) |
+| 335 | 1961 | McNamara and Webb back Johnson's recommendation of the moon program, "national prestige" | a lead (the memorandum's day; Logsdon and Dupas, n.3) |
+| 335 | early 1964; June 1964 | State drafts a joint resolution at Rostow's urging; Johnson interested, then drops it | a lead (the days) |
+| 335 | late 1963 | OPLAN 34-A revived and enlarged | a lead (the day) |
+| 337 | Aug. 4, 1964 | Chayes works over the resolution, Ball approving | passed-over paper (a draft) |
+| 339–40 | Aug.–Nov. 1964 | the triumvirate; Khánh restored; Hương | a lead (Bernstein's sequence does not fit the tree's days) |
+| 341 | 1964–65 | Mansfield's four letters | a lead (the days; the tree's Dec. 9, 1964, and 1965 letters may be they) |
+| 343 | June 1965, early | the military ask to bomb Hanoi–Haiphong; Mansfield opposes | a lead (the day) |
+| 343 | 1965 | Russell warns Johnson the war "would never work" | a lead (undated; Halberstam) |
+| 343–44 | July 1965 | Johnson: "like being in a plane without a parachute" | a lead (the meeting) |
+| 347 | July 24, 1965 | Bundy: approve only the proposals through the fall | a lead (FRUS 1964–68, III, doc. 83, of that day, is not it) |
+| 349 | Jan., June 1964 | Westmoreland in Vietnam; takes over the command | a lead (the days) |
+| 350 | 1966 | Roche's six or eight weeks in South Vietnam | a lead (the days) |
+| 351 | 1965; 1967 | Hanoi's debate on the American build-up; Giáp's change to small units | a lead (the days) |
+| 351–52 | 1965–73 | Thayer's and the Pentagon Papers' bombing figures: sorties, tons, losses, costs | figures without a day: a lead (the war table) |
+| 354 | spring 1967 | McNaughton's memoranda: victory no longer an option | a lead (the tree's May 1967 entries; Bernstein gives no day) |
+| 355 | July 1967 | Margaret McNamara at Johns Hopkins | private |
+| 355 | Feb. 16, 1967 | a close-up photograph of McNamara | minor |
+| 355–56 | 1967 | Allen's briefing of McNamara; Brehm sees him weep | private (undated) |
+| 356 | 1968–69 | Gelb carries a set to McNamara at the World Bank; refused | a lead (the day) |
+| 357 | Nov. 1967 | Fowler told to clear McNamara's name; Robert Kennedy urges him to resign with a blast | a lead (the days) |
+| 379 | 1964 | Lippmann and Reston uneasy at the drift to war | a lead (the columns) |
+| 380 | 1965 | Johnson to Church at a dinner: "go talk to Walter Lippmann" | a lead (the day) |
+| 380–81 | late 1965 | antiwar mail from women at the White House | a lead |
+| 385 | Aug. 14, 1965 | Moyers's statement, "tragic and shocking" | Kotz's pending `cal.1965-08-14.civil-disorders-watts-2`; not cited, its units unread |
+| 388 | Aug. 1965 | Brown names McCone's commission, Christopher vice chairman | a lead (the day) |
+| 389 | Aug. 13, 1965 | King in Miami, on to San Juan; Rustin against going to Los Angeles | a lead (the days) |
+| 390 | June 1965 | *The Negro Family* published | a lead (the release's day; the tree's April entry has copies circulating) |
+| 391 | 1965–66 | Katzenbach's interagency task force on the 1966 bill | a lead (the days) |
+| 394 | summer 1965 | Johnson presses Califano and Keppel on the Southern districts; 3,800 pledges | a lead (the days) |
+| 396 | Oct. 1965 | the White House meeting on Chicago; Keppel; Cohen to Chicago, an hour's agreement | a lead (the days) |
+| 396–97 | 1965 | King's choice of Chicago; Powell, Rustin, Brazier; Daley's words; SCLC with the Council | a lead (the days) |
+| 398 | Aug. 19, 1966 | Daley's injunction; King's threat of Cicero | a lead (the tree's Aug. 19 entry is the testing of offices) |
+| 399 | 1967 | Johnson has Helms look for a Communist hand; the CIA's report | a lead (the days) |
+| 400 | 1960 | SLID takes the name Students for a Democratic Society | a lead (the day) |
+| 401 | Mar. 23, 1962 | Kennedy at Berkeley, 92,000 in Memorial Stadium | a lead (not found in the tree; 1962 Pub. Papers 263) |
+| 401 | 1963 | Gitlin president of SDS; a dozen chapters, 1,100 members | a lead |
+| 401–02 | 1963 | Kerr's Godkin Lectures at Harvard | a lead |
+| 402 | May 1960 | Berkeley students at the HUAC hearings in San Francisco | a lead (the day) |
+| 402–03 | spring 1964 | the San Francisco pickets: the Sheraton-Palace, the car dealers, the Bank of America | a lead (the days) |
+| 403 | Sept. 20, 29, 30, 1964 | the United Front's vote; the tables; the Sproul Hall sit-in | a lead (the days; not found by name in the tree) |
+| 405 | Nov. 9, Dec. 4, Dec. 7, 1964; Jan. 2, 1965 | the talks broken off; the strike; the Greek Theatre; Strong replaced by Meyerson | a lead (the days) |
+| 407 | 1966–67 | Reagan's campaign on Berkeley; Kerr dismissed | a lead (the days) |
+| 407 | 1966 | Heller's memorandum on the war's end; McPherson's comment | a lead (the day) |
+| 408 | 1966 | McNamara's and Rusk's children against the war; Rusk at an Army hospital in Saigon | private; the visit a lead |
+| 408 | 1966 | McPherson's two weeks in Vietnam; his memorandum on the bombing | a lead (the days) |
+| 409 | Oct. 1966 | Mansfield's formula: the bombing ended, a cease-fire, 30,000 out | a lead (the tree's Oct. 13 entry, units unread) |
+| 409 | 1966 | Cater on the college loan fund; Mayor Lee to Cater | a lead (the days) |
+| 410 | summer 1966 | McPherson in Rhode Island: "Nobody I talked to was affirmative about Vietnam" | a lead (McPherson to Moyers, Aug. 4, 1966?) |
+| 410 | 1966 | the National Council of Churches approaches the Synagogue Council | a lead |
+| 411 | 1966 | O'Brien's swings; Daley's worry; lunch with the *Times*'s editors | a lead (the days) |
+| 412 | 1966 | pickets at the Met and the San Francisco Opera, in New Zealand and Australia | a lead (the days) |
+| 412 | 1966 | Wicker turns against the war | a lead |
+| 413 | Jan. 1967 | Salisbury back: Johnson will not see him; Rostow; Rusk and William Bundy | a lead (the days) |
+| 413–14 | 1967 | Clergy and Laymen Concerned, Coffin, King co-chairman | a lead (the founding) |
+| 416 | 1967 | Lowenstein's letter of the student presidents; Johnson refuses them; Bundy sees them | a lead (the days) |
+| 417 | late Feb. 1967 | King and Whitney Young quarrel | a lead (the day) |
+| 417 | June 1967 | Atlanta's confrontation | a lead |
+| 418 | Dec. 4, 1967 | the rat extermination bill passes | a lead |
+| 419 | July 28–Aug. 1, 1967 | Detroit: the paratroopers out, the Guard gone, the curfew lifted | a lead (the days) |
+| 422 | Oct. 1967 | Johnson orders the intelligence agencies to track the Mobilization | a lead |
+| 424 | Oct. 22, 1967 | the Johnsons drive round the Lincoln Memorial | private |
+| 424 | Nov. 22, 1967 | Pollak to Clark: the marshals' force | a lead |
+| 531 | Oct. 1965 | Califano to the universities for ideas; the task forces | a lead (the days) |
+| 532–35 | 1965–76 | the war's costs (deaths, wounds, PTSD, Stevens's $882 billion) | figures, later accounts |
+| 541 | Nov. 22, 1963 | Johnson's decision on Air Force One | Bernstein's inference, no record: a lead |
+| 542 | Nov. 1964 | Reedy: Johnson's style changes | a later account |
+
+### The press (seventh run)
+
+| Date | Outlet | Item | Page |
+| --- | --- | --- | --- |
+| 1963-06-12 | the world's papers | front pages: Browne's photograph of Thích Quảng Đức | 327 |
+| 1964 | Lippmann; Reston | uneasy at the drift to war | 379 |
+| 1965-02 | *New York Times*, Reston | "a spade a bloody shovel" (entered) | 345 |
+| 1965-05-23 | *Herald Tribune*, Wise | "credibility gap" (entered) | 536 |
+| 1965-07 | Alsop | "pathos" (entered) | 349 |
+| 1965-08-13 | *Los Angeles Times*; the networks | Watts by helicopter | 384 |
+| 1966-12-25–1967-01-03 | *New York Times*, Salisbury | from Hanoi (in the tree) | 412 |
+| 1967-10-22 | *New York Times* | 50,000 at the Lincoln Memorial | 423 |
+
+### Leads (seventh run)
+
+National: the rows above marked "a lead"; Kennedy's Charter Day address at Berkeley, Mar. 23, 1962 (1962 Pub. Papers
+263); the McNamara–Webb memorandum on the moon (1961); Moyers's statement on Watts, Aug. 14, 1965 (Kotz's pending entry
+to be cited); the Berkeley days of Sept. 20–30, Nov. 9, Dec. 4 and 7, 1964, and Jan. 2, 1965. Propose Part III entries
+for the press figures David Wise (*Herald Tribune*), Charles Mohr (*New York Times*), Peter Grose (*New York Times*);
+and for Hans J. Morgenthau, Louis Martin (Democratic National Committee), Norman Thomas, James Bevel and Allard
+Lowenstein, named here without name entries.
+
 ## Not read
 
-Chs. 13, 15–17 and 19–20 but the pages named above: Vietnam, turmoil, the minimum wage and Social Security, the arts,
-the collapse of 1968. A later reader should take them chapter by chapter, starting with ch. 13, and hold the twelve
-cites still behind "To check" (fourth run's table) as they go; their matter is economic (chs. 14, 19, 20 searched by
-the fourth run; none in chs. 4–11). Chs. 4–11 read whole, with their notes (fifth and sixth runs).
+Chs. 16, 17 and 19 but the pages named above (426 and 432 of ch. 16, 487 of ch. 19): the minimum wage and Social
+Security, the arts, the collapse of 1968; the middle of p. 420 (ch. 15); and ch. 20, pp. 532–35 and 538–42, read only
+through a faulty extraction. A later reader should take ch. 16, then 19 (the twelve cites' matter searched for there
+without result), then 17. Chs. 1–15, 18 and 20 otherwise read whole, with their notes.
