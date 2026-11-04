@@ -28,9 +28,11 @@ STYLE (settled; keep it):
     have no statement of their own to stand in, so its parent's carries them, through any depth of ghosts). A subthread
     with a statement names its own events, under its parent in the index, and the parent does not repeat them (the
     index's dates count a subthread's entries as its parent's; the statements do not, or Vietnam's would name every
-    event of its twenty-odd subthreads). Not an entry the thread holds only through `also:`: one event, one entry,
-    filed under its chief thread, and its name goes in that thread's statement; a State of the Union listed in Vietnam
-    by `also:` is the Program's event, not Vietnam's. Each name linked to its entry
+    event of its twenty-odd subthreads). An entry the thread holds through `also:` is named there too, repeated (the
+    owner's ruling, Nov. 4, 2026: "Don't drop the parent thread events unless the child has a thread summary. Repeat
+    them. Everything needs to be in plain Roman text somewhere"): a State of the Union listed in Vietnam by `also:` is
+    named in the Program's statement and in Vietnam's; the only event a thread does not name is one filed under a
+    subthread of it that has its own statement, where it is named. Each name linked to its entry
     (`[[id|name]]`), a semicolon between, a full stop at the end, the first letter a capital (a name is written as it
     reads within the sentence: "the second round", "Resolution 1725"); no label, no dates. An entry dated by month
     alone falls on its month's first day for the order, and in every part its month meets (a month-only entry of January
@@ -112,16 +114,33 @@ def _index(lst):
     for n, (sec, e) in enumerate(lst.entries()):
         if not e.get("short") or not e.get("date") or not e.get("thread"):
             continue
-        t = e["thread"]
-        while t:                          # its thread; up through a ghost subthread to the parent that speaks for it
-            out.setdefault(t, []).append((day(e["date"]), n, e["id"], str(e["short"]), day(e["date"], end=True)))
-            if not lst.is_ghost(t):
-                break
-            t = lst.thread_parent(t)
+        prim = e["thread"]
+        row = (day(e["date"]), n, e["id"], str(e["short"]), day(e["date"], end=True))
+        got = set()
+        for t in [prim] + list(e.get("also") or []):   # its threads, each up through ghost subthreads to the parent
+            while t and t not in got:
+                got.add(t)
+                if not lst.is_ghost(t):
+                    break
+                t = lst.thread_parent(t)
+        for t in got:                     # not a parent's where the event is a child's that has its own statement
+            if t != prim and _summarized_child(lst, prim, t):
+                continue
+            out.setdefault(t, []).append(row)
     for v in out.values():
         v.sort()
     _EVENTS[id(lst)] = (key, out)
     return out
+
+
+def _summarized_child(lst, child, parent):
+    """Whether `child` lies under `parent` through a subthread with a statement of its own (STYLE 3): on the way up
+    from `child` to `parent`, a thread that is no ghost."""
+    path, t = [], child
+    while t and t != parent:
+        path.append(t)
+        t = lst.thread_parent(t)
+    return t == parent and any(not lst.is_ghost(x) for x in path)
 
 
 def events(lst, slug, lo, hi):
