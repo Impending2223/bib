@@ -1789,6 +1789,14 @@ Rights in Conflict (Walker Report):
 - For the merger (not applied: the AP's reading, White's Appendix A, not given): the AP's tabulation of Dec. 17, 1960 (`x.1960-12-17.associated-press-final-tabulation-of-the-presidential`)
   is a variant of `cal.1960-11-08.elections-1960` unit A (R41).
 
+### Zelizer, *The Fierce Urgency of Now* (batch 3, Nov. 4, 2026; notes/book-checks/zelizer-fierce-urgency-of-now.md)
+
+- The sixteen dated entries the book-check lists whose Zelizer citation was not located: read chs. 7–9 for them.
+- Oct. 29, 1963, the Judiciary Committee's vote: 23–11 (*Times*, Oct. 30) against the entry's 20–12; the committee's report.
+- Aug. 13 or Aug. 9, 1966, the House's passage of the civil rights bill: the Record.
+- The AMA's meeting with Johnson, late June or July 29, 1965: the Daily Diary.
+- Not read, or read in part: pp. 1–2; ch. 7, pp. 228–244, 248–262; ch. 8, pp. 263–269, 272–275, 277–278, 284–294, 296–298; ch. 9 and the epilogue, pp. 303–324. Passed over not kept row by row (R44, R48): for the next reader.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
