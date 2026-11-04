@@ -59,6 +59,7 @@ entries:
       c: 130265c4
       rows:
         - 'w.preston-war-council 194: all'
+        - 'via w.preston-war-council 194 n.10a: all'
     tags: [name:cooper-chester-l, name:bundy-mcgeorge]
   - id: cal.1965-04-01.vietnam-3
     when: Apr. 1
@@ -72,6 +73,7 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v02/d228: all'
         - 'w.preston-war-council 203: B'
+        - 'via w.preston-war-council 203 n.41b: B'
     tags: [name:bundy-mcgeorge]
   - id: cal.1965-04-01.vietnam-force-levels-2
     when: Apr. 1
@@ -85,6 +87,19 @@ entries:
         - 'w.mcnamara-in-retrospect ch. 7 at n.15: all'
         - 'via x.1965-04-01.mcgeorge-bundy-notes-of-the-meeting: all'
     tags: [name:rusk-dean, name:bundy-mcgeorge, name:mcnamara-robert-s, name:johnson-lyndon-b, name:westmoreland-william, name:sharp-u-s-grant]
+  - id: cal.1965-04-01.school-aid
+    when: Apr. 1
+    date: '1965-04-01'
+    thread: school-aid
+    also: [labor]
+    c: 'Johnson to Meany by telephone, 9 a.m., the education bill before the Senate: no amendment, nothing to "endanger the whole bill."'
+    n: '[[w.zelizer-fierce-urgency-of-now]], 182. To check: the recording, [Conversation with George Meany](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-meany-april-1-1965), Conversation WH6504-01-7301 (Miller Center) (cited by [[w.zelizer-fierce-urgency-of-now]], 182 n.42). See [[cal.1965-03-26.school-aid]]. Names: Johnson, Meany.'
+    src:
+      c: 295b268f
+      rows:
+        - 'w.zelizer-fierce-urgency-of-now 182: all'
+        - 'via w.zelizer-fierce-urgency-of-now 182 n.42: all'
+    tags: [name:johnson-lyndon-b, name:meany-george]
   - id: cal.1965-04-02.opinion
     when: Apr. 2
     date: '1965-04-02'
@@ -167,6 +182,29 @@ entries:
       rows:
         - 'w.clifford-counsel-to-the-president-2 409: all'
     tags: [name:clifford-clark, name:johnson-lyndon-b, name:mccone-john-a, name:helms-richard, name:coyne-j-patrick]
+  - id: cal.1965-04-02.goldwater
+    when: Apr. 2
+    date: '1965-04-02'
+    thread: goldwater
+    also: [vietnam]
+    c: 'Goldwater on the bombing of the North: "Today, the United States is moving firmly and decisively on a foreign policy course charted straight out of the Republican campaign of 1964."'
+    n: '[[w.goldberg-barry-goldwater]], 244; the *New York Times*, Apr. 2, 1965, 24, by the note (244 n.16). Check: the day of the words. Names: Goldwater.'
+    src:
+      c: 12d3dc81
+      rows:
+        - 'w.goldberg-barry-goldwater 244: all'
+        - 'via w.goldberg-barry-goldwater 244 n.16: all'
+    tags: [name:goldwater-barry-m]
+  - id: cal.1965-04-02.vietnam-saigon
+    when: Apr. 2
+    date: '1965-04-02'
+    thread: vietnam-saigon
+    c: 'The joint Mission Council–Internal Security Council meeting approves changes in Saigon''s pacification organization: the Central Pacification Committee and the Internal Security Council to go; a Central Rural Reconstruction Council (decree of Apr. 5).'
+    n: '[[w.macv-command-history-1965]], 230. See [[cal.1965-04-05.vietnam-saigon]].'
+    src:
+      c: 80ba8092
+      rows:
+        - 'w.macv-command-history-1965 230: all'
   - id: cal.1965-04-03.laos
     when: Apr. 3
     date: '1965-04-03'
@@ -266,7 +304,18 @@ entries:
       c: cbf6d109
       rows:
         - 'w.preston-war-council 195: all'
+        - 'via w.preston-war-council 195 n.11b: all'
     tags: [name:cooper-chester-l, name:thomson-james-c-jr, name:bundy-mcgeorge]
+  - id: cal.1965-04-03.vietnam-3
+    when: Apr. 3
+    date: '1965-04-03'
+    thread: vietnam
+    c: 'The first tactical conference of the corps commanders: the Minister of the Armed Forces, Maj. Gen. Trần Văn Minh, directs I, II and IV Corps to draw Hop Tac-type plans; presented May 3, around Đà Nẵng, Qui Nhơn and Cần Thơ.'
+    n: '[[w.macv-command-history-1965]], 233.'
+    src:
+      c: 078963c4
+      rows:
+        - 'w.macv-command-history-1965 233: all'
   - id: cal.1965-04-04.vietnam-air-war
     when: Apr. 4
     date: '1965-04-04'
@@ -290,11 +339,12 @@ entries:
     date: '1965-04-05'
     thread: vietnam-saigon
     c: The pacification program renamed Rural Reconstruction, under a new Central Rural Reconstruction Council.
-    n: '[[w.macv-command-history-1965]], 479.'
+    n: '[[w.macv-command-history-1965]], 479; [[w.macv-command-history-1965]], 230 (Decree 64).'
     src:
       c: b9cefe9c
       rows:
         - 'w.macv-command-history-1965 479: all'
+        - 'w.macv-command-history-1965 230: ?'
   - id: cal.1965-04-06.vietnam
     when: Apr. 6
     date: '1965-04-06'
@@ -326,6 +376,7 @@ entries:
         - 'via x.1984.rusk-interviews-with-richard-rusk: A, C, E'
         - 'w.mcnamara-in-retrospect ch. 7 at nn.16–17: A, C, E, G'
         - 'via x.1965-04-06.nsam-328-apr-6-1965: A, C, E'
+        - 'via w.preston-war-council 203 n.42a: A'
     tags: [name:johnson-lyndon-b, name:bundy-mcgeorge, name:mccone-john-a]
   - id: cal.1965-04-06.mayors-los-angeles
     when: Apr. 6
@@ -366,6 +417,7 @@ entries:
       c: 65806ffb
       rows:
         - 'w.preston-war-council 202: all'
+        - 'via w.preston-war-council 202 n.40b: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b]
   - id: cal.1965-04-06.vietnam-force-levels
     when: Apr. 6
@@ -396,6 +448,7 @@ entries:
         - 'w.logevall-choosing-war 371–72: A, C-D'
         - 'w.branch-at-canaans-edge 205–06: A-D'
         - 'w.preston-war-council 194: A'
+        - 'via w.preston-war-council 194 n.10c: A'
     tags: [name:johnson-lyndon-b, name:black-eugene-r, name:pham-van-dong]
   - id: cal.1965-04-07.opinion
     when: Apr. 7
@@ -479,13 +532,27 @@ entries:
         - 'w.mcnamara-in-retrospect ch. 7 at n.20: all'
         - 'via x.1965-04-07.embtel-3248-taylor-to-rusk: A'
     tags: [name:taylor-maxwell, name:johnson-lyndon-b, name:mcnamara-robert-s]
+  - id: cal.1965-04-07.school-aid
+    when: Apr. 7
+    date: '1965-04-07'
+    thread: school-aid
+    c: 'The Senate debate on the education bill. Morse, managing, holds off amendments: "Let us face it. We are going into Federal aid for elementary and secondary schools in the bill through the back door." Republicans: the Senate becoming a "House of Lords."'
+    n: 'Morse, [111 Cong. Rec. 7317](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt6/pdf/GPO-CRECB-1965-pt6-1-2.pdf#page=59); [111 Cong. Rec. 7320](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt6/pdf/GPO-CRECB-1965-pt6-1-2.pdf#page=62) (Apr. 7, 1965). [[w.sundquist-politics-and-policy]], 215. Check: Sundquist, 215 n.180, prints Morse''s page 7377; the words are on 7317. Check: who spoke of a "House of Lords." See [[cal.1965-03-26.school-aid]]. Names: Morse.'
+    src:
+      c: 55d97070
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt6/pdf/GPO-CRECB-1965-pt6-1-2.pdf#page=59: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt6/pdf/GPO-CRECB-1965-pt6-1-2.pdf#page=62: all'
+        - 'w.sundquist-politics-and-policy 215: all'
+        - 'via w.sundquist-politics-and-policy 215 n.180: B'
+    tags: [name:morse-wayne]
   - id: cal.1965-04-08.medicare
     when: Apr. 8
     date: '1965-04-08'
     thread: medicare
     also: [welfare]
     c: House passes the Medicare bill, H.R. 6675, [313–115](https://voteview.com/rollcall/RH0890035). Byrnes's motion to recommit, to put his voluntary plan in its place, lost, [191–236](https://voteview.com/rollcall/RH0890034).
-    n: '[111 Cong. Rec., House, Apr. 8, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt6/pdf/GPO-CRECB-1965-pt6-2-1.pdf). [[w.zelizer-taxing-america]], 249–50; [[w.sundquist-politics-and-policy]], 319 (Byrnes''s motion, 236–191). [[w.kabaservice-rule-and-ruin]], 143 (128 of the House''s 140 Republicans for recommittal; a bare majority of them for the bill). See [[cal.1965-03-23.medicare]]. Names: Byrnes.'
+    n: '[111 Cong. Rec., House, Apr. 8, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt6/pdf/GPO-CRECB-1965-pt6-2-1.pdf). [[w.zelizer-taxing-america]], 249–50; [[w.sundquist-politics-and-policy]], 319 (Byrnes''s motion, 236–191); [[w.zelizer-fierce-urgency-of-now]], 197 (313–115; the Byrnes substitute beaten 236–191, 128 of 138 Republicans for it). [[w.kabaservice-rule-and-ruin]], 143 (128 of the House''s 140 Republicans for recommittal; a bare majority of them for the bill). See [[cal.1965-03-23.medicare]]. Names: Byrnes.'
     src:
       c: 4ce3085c
       rows:
@@ -497,6 +564,7 @@ entries:
         - 'via w.zelizer-taxing-america 249 n.170: all'
         - 'w.kabaservice-rule-and-ruin 143: A-B'
         - 'w.sundquist-politics-and-policy 319: B'
+        - 'w.zelizer-fierce-urgency-of-now 197: ?'
     tags: [name:byrnes-john-w]
   - id: cal.1965-04-08.european-community
     when: Apr. 8
@@ -530,13 +598,36 @@ entries:
         - 'w.macv-command-history-1965 39: all'
         - 'via w.macv-command-history-1965 39 n.61: all'
     tags: [name:sharp-u-s-grant]
+  - id: cal.1965-04-08.school-aid
+    when: Apr. 8
+    date: '1965-04-08'
+    thread: school-aid
+    c: 'Ribicoff in the Senate: "We are finally at the threshold of a breakthrough. . . . We have . . . finally put behind us the years of travail and controversy."'
+    n: '[[w.sundquist-politics-and-policy]], 215. To check: 111 Cong. Rec. 7531–32 (Apr. 8, 1965), [the Senate''s day](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt6/pdf/GPO-CRECB-1965-pt6-2-2.pdf#page=40) (cited by [[w.sundquist-politics-and-policy]], 215 n.178). See [[cal.1965-04-07.school-aid]]. Names: Ribicoff.'
+    src:
+      c: 8a88713c
+      rows:
+        - 'w.sundquist-politics-and-policy 215: all'
+        - 'via w.sundquist-politics-and-policy 215 n.178: all'
+    tags: [name:ribicoff-abraham]
   - id: cal.1965-04-09.school-aid
     when: Apr. 9
     date: '1965-04-09'
     thread: school-aid
-    c: Senate passes the education bill as the House sent it, [73–18](https://voteview.com/rollcall/RS0890048), so no conference. Morse, managing, holds off every amendment, eleven on roll calls; among them one for taxpayers' suits to test aid to church schools, [32–53](https://voteview.com/rollcall/RS0890041).
-    n: '[111 Cong. Rec., Senate, Apr. 9, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt6/pdf/GPO-CRECB-1965-pt6-3-1.pdf). Remarks Following Enactment of the Elementary and Secondary Education Bill, [1965 Pub. Papers 407](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=483) (Apr. 9, 1965). See [[cal.1965-03-26.school-aid]]. Names: Morse.'
-    tags: [name:morse-wayne, name:johnson-lyndon-b]
+    c: 'Senate passes the education bill as the House sent it, [73–18](https://voteview.com/rollcall/RS0890048), so no conference. Morse, managing, holds off every amendment, eleven on roll calls; among them one for taxpayers'' suits to test aid to church schools, [32–53](https://voteview.com/rollcall/RS0890041). Williams: "This bill, which is a sham on its face, is merely the beginning."'
+    n: '[111 Cong. Rec., Senate, Apr. 9, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt6/pdf/GPO-CRECB-1965-pt6-3-1.pdf). Williams, [111 Cong. Rec. 7710](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt6/pdf/GPO-CRECB-1965-pt6-3-1.pdf#page=102) (Apr. 9, 1965). Remarks Following Enactment of the Elementary and Secondary Education Bill, [1965 Pub. Papers 407](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=483) (Apr. 9, 1965). [[w.sundquist-politics-and-policy]], 215 (Morse''s tactic; Williams); [[w.zelizer-fierce-urgency-of-now]], 182 (73–18, Democrats 55, Republicans 18; Morse''s subcommittee 10–0). See [[cal.1965-03-26.school-aid]]. Names: Morse, Williams.'
+    src:
+      c: f4c1cb67
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt6/pdf/GPO-CRECB-1965-pt6-3-1.pdf: A-C'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt6/pdf/GPO-CRECB-1965-pt6-3-1.pdf#page=102: D'
+        - 'w.sundquist-politics-and-policy 215: B, D'
+        - 'via w.sundquist-politics-and-policy 215 n.182: D'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=483: all'
+        - 'https://voteview.com/rollcall/RS0890048: A'
+        - 'https://voteview.com/rollcall/RS0890041: C'
+        - 'w.zelizer-fierce-urgency-of-now 182: ?'
+    tags: [name:morse-wayne, name:johnson-lyndon-b, name:williams-john-j]
   - id: cal.1965-04-09.voting-rights
     when: Apr. 9
     date: '1965-04-09'
@@ -595,12 +686,23 @@ entries:
     c: Tehran. A conscript of the Imperial Guard shoots his way into the Marble Palace; two guards and the assailant killed; the Shah unhurt.
     n: '[FRUS 1964–68, XXII, doc. 76](https://history.state.gov/historicaldocuments/frus1964-68v22/d76). See [[cal.1965-04-07.middle-east]]. Names: Pahlavi.'
     tags: [name:pahlavi-mohammed-reza]
+  - id: cal.1965-04-10.vietnam
+    when: Apr. 10
+    date: '1965-04-10'
+    thread: vietnam
+    c: The Joint Mission Directive "The Concept of Rural Reconstruction and Certain Definitions and Procedures," a revision of USAID's, USIS's and MACV's document of Feb. 1.
+    n: '[[w.macv-command-history-1965]], 231. To check: Ltr, MACV, No 0577, 23 Apr 65, Subj: The Concept of Rural Reconstruction and Certain Definitions and Procedures (cited by [[w.macv-command-history-1965]], 231 n.286). See [[cal.1965-04-02.vietnam-saigon]].'
+    src:
+      c: d2a7ae22
+      rows:
+        - 'w.macv-command-history-1965 231: all'
+        - 'via w.macv-command-history-1965 231 n.286: all'
   - id: cal.1965-04-11.school-aid
     when: Apr. 11
     date: '1965-04-11'
     thread: school-aid
     c: Elementary and Secondary Education Act signed, [79 Stat. 27](https://www.govinfo.gov/content/pkg/STATUTE-79/pdf/STATUTE-79-Pg27.pdf), outside the old Junction school near Johnson City, Tex., his first, Kate Deadrich Loney, his first teacher, beside him. Title I, aid to districts by their count of children of low-income families, for the educationally deprived, private-school pupils included; Title II, library books and textbooks for children in public and private schools; Title III, supplementary centers.
-    n: 'Statute (K–J Cong. II.J.2). Remarks in Johnson City, Tex., Upon Signing the Elementary and Secondary Education Bill, [1965 Pub. Papers 412](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=488) (Apr. 11, 1965). [President''s Daily Diary, Apr. 11, 1965](https://catalog.archives.gov/id/192455), image 3 (LBJ Library; National Archives Catalog). [[w.branch-at-canaans-edge]], 208–09. To check: [[w.eidenberg-act-of-congress]]; [[w.bailey-esea]]; [[w.zelizer-fierce-urgency-of-now]]; [[w.graham-uncertain-triumph]]. See [[cal.1965-04-09.school-aid]]. Names: Johnson, Loney.'
+    n: 'Statute (K–J Cong. II.J.2). Remarks in Johnson City, Tex., Upon Signing the Elementary and Secondary Education Bill, [1965 Pub. Papers 412](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=488) (Apr. 11, 1965). [President''s Daily Diary, Apr. 11, 1965](https://catalog.archives.gov/id/192455), image 3 (LBJ Library; National Archives Catalog). [[w.branch-at-canaans-edge]], 208–09; [[w.zelizer-fierce-urgency-of-now]], 184 (Stonewall; "we bridge the gap between helplessness and hope"). To check: [[w.eidenberg-act-of-congress]]; [[w.bailey-esea]]; [[w.graham-uncertain-triumph]]. See [[cal.1965-04-09.school-aid]]. Names: Johnson, Loney.'
     src:
       c: cdf6cbbe
       rows:
@@ -608,6 +710,7 @@ entries:
         - 'https://catalog.archives.gov/id/192455: all'
         - 'https://www.govinfo.gov/content/pkg/STATUTE-79/pdf/STATUTE-79-Pg27.pdf: A'
         - 'w.branch-at-canaans-edge 208–09: A-B'
+        - 'w.zelizer-fierce-urgency-of-now 184: ?'
     tags: [name:johnson-lyndon-b, name:loney-kate-deadrich, bill:education-1965]
   - id: cal.1965-04-11.opinion
     when: Apr. 11
@@ -661,6 +764,16 @@ entries:
     also: [amendments]
     c: House passes H.J. Res. 1, the amendment on presidential inability and a vacancy in the Vice Presidency, [368–29](https://voteview.com/rollcall/RH0890037), and puts its text into the Senate's S.J. Res. 1. To conference.
     n: '[111 Cong. Rec., House, Apr. 13, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt6/pdf/GPO-CRECB-1965-pt6-5-2.pdf). See [[cal.1965-02-19.succession]].'
+  - id: cal.1965-04-13.vietnam-force-levels
+    when: Apr. 13
+    date: '1965-04-13'
+    thread: vietnam-force-levels
+    c: The Joint Chiefs approve the accelerated schedule and Alternative 2's increase of 17,247 spaces for the RVNAF.
+    n: '[[w.macv-command-history-1965]], 58. See [[cal.1965-01-23.vietnam-force-levels]].'
+    src:
+      c: 7d546434
+      rows:
+        - 'w.macv-command-history-1965 58: all'
   - id: cal.1965-04-14.opinion
     when: Apr. 14
     date: '1965-04-14'
@@ -715,6 +828,19 @@ entries:
       c: 446ba7c8
       rows:
         - 'w.macv-command-history-1965 479: all'
+  - id: cal.1965-04-14.robert-kennedy
+    when: Apr. 14
+    date: '1965-04-14'
+    thread: robert-kennedy
+    also: [democratic-party]
+    c: 'An official of State tells Robert Kennedy there are specialists enough, and candidates for high office are not eligible. Kennedy: "How do you know Nickerson''s a candidate?" Why not send Rockefeller too? "There must be more behind this than there appears to be." McPherson to Johnson that day: "my deputy came away with the feeling that Kennedy''s suspicions were sharply aroused."'
+    n: '[[w.shesol-mutual-contempt]], 343. To check: McPherson to Johnson, Apr. 14, 1965, McPherson Files, box 52, LBJ Library (cited by [[w.shesol-mutual-contempt]], 343). Names: Robert Kennedy, Rockefeller, McPherson, Johnson.'
+    src:
+      c: 9aaa7670
+      rows:
+        - 'w.shesol-mutual-contempt 343: all'
+        - 'via x.1965-04-14.mcpherson-to-johnson-nickerson: all'
+    tags: [name:kennedy-robert-f, name:rockefeller-nelson, name:mcpherson-harry, name:johnson-lyndon-b, state:ny]
   - id: cal.1965-04-15.south-asia
     when: Apr. 15
     date: '1965-04-15'
@@ -741,6 +867,30 @@ entries:
         - 'via w.schwartz-lyndon-johnson-and-europe 75 n.119: A-B'
         - 'via w.schwartz-lyndon-johnson-and-europe 76 n.121: C'
     tags: [name:wilson-harold, name:johnson-lyndon-b, name:fowler-henry-h]
+  - id: cal.1965-04-15.vietnam-force-levels
+    when: Apr. 15
+    date: '1965-04-15'
+    thread: vietnam-force-levels
+    c: 'Defense asks Westmoreland''s view of American cadres for ten ARVN battalions. Throckmorton: command neither feasible nor desirable, staff posts of little use; at most a fire support element of six officers and 49 men, in one battalion. Westmoreland so states at Honolulu, Apr. 18; encadrement dropped.'
+    n: '[[w.macv-command-history-1965]], 81–82. Check: Honolulu''s day (the History: Apr. 18). To check: Msg, DOD, 151233Z Apr 65 (cited by [[w.macv-command-history-1965]], 81 n.347); Briefing Notes for Honolulu Conference, 18 Apr 65 (cited by [[w.macv-command-history-1965]], 82 n.352). Names: Westmoreland, Throckmorton.'
+    src:
+      c: 09154cf3
+      rows:
+        - 'w.macv-command-history-1965 81–82: all'
+        - 'via w.macv-command-history-1965 81 n.347: all'
+        - 'via w.macv-command-history-1965 82 n.352: all'
+    tags: [name:westmoreland-william, name:throckmorton-john-l]
+  - id: cal.1965-04-15.vietnam-operations
+    when: Apr. 15
+    date: '1965-04-15'
+    thread: vietnam-operations
+    c: 'War Zone C. A mass raid of some 400 2d Air Division, Seventh Fleet and VNAF fighter-bombers over twelve hours: 443 sorties in the day, over 1,000 tons of bombs, twice 1964''s monthly average. The Viet Cong''s losses apparently minor, the pattern ragged in smoke and dust; the case for B-52s.'
+    n: '[[w.macv-command-history-1965]], 184, 191. To check: MONEVAL, MACV, Apr 65 (cited by [[w.macv-command-history-1965]], 184 n.88).'
+    src:
+      c: 11b38879
+      rows:
+        - 'w.macv-command-history-1965 184, 191: all'
+        - 'via w.macv-command-history-1965 184 n.88: all'
   - id: cal.1965-04-16.opinion
     when: Apr. 16
     date: '1965-04-16'
@@ -771,18 +921,31 @@ entries:
         - 'w.kabaservice-rule-and-ruin 140: all'
         - 'via w.kabaservice-rule-and-ruin 140 n.91: all'
     tags: [name:mcculloch-william-m]
+  - id: cal.1965-04-16.students
+    when: Apr. 16
+    date: '1965-04-16'
+    thread: students
+    c: 'McGeorge Bundy declines the Inter-University Committee''s invitation to debate at a national teach-in: their letter "a piece of propaganda"; "if your letter came to me for grading as a professor of government, I would not" pass it.'
+    n: '[[w.bird-color-of-truth]], 318. See [[cal.1965-05-15.students]]. Names: McGeorge Bundy. Check: the last words; Bird''s quotation breaks off.'
+    src:
+      c: 93501c2f
+      rows:
+        - 'w.bird-color-of-truth 318: all'
+        - 'via w.bird-color-of-truth 318 n.text: all'
+    tags: [name:bundy-mcgeorge]
   - id: cal.1965-04-17.students
     when: Apr. 17
     date: '1965-04-17'
     thread: students
     also: [vietnam]
     c: 'Washington. SDS''s march against the war, with Women Strike for Peace: some 15,000 to 25,000 picket the White House, hear speeches at the Washington Monument, and walk to the Capitol. Gruening and Lynd speak; Potter, SDS''s president: "We must name that system." Check the count.'
-    n: '[[w.gibbons-u-s-government-and]], III, 222–23 (15,000 to 20,000; the Monument, Gruening, Lynd and Potter speaking; the march to the Capitol); [[w.branch-at-canaans-edge]], 211 (the march; not its words). To check: [[w.sale-sds]]; [[w.miller-democracy-is-in-the]]; [[w.gitlin-sixties]]; [[w.wells-war-within]]; [[w.debenedetti-american-ordeal]]; [[w.zaroulis-who-spoke-up]]. See [[cal.1965-03-24.students]]. Names: Gruening, Lynd, Potter.'
+    n: '[[w.gibbons-u-s-government-and]], III, 222–23 (15,000 to 20,000; the Monument, Gruening, Lynd and Potter speaking; the march to the Capitol); [[w.branch-at-canaans-edge]], 211 (the march; not its words); [[w.branch-pillar-of-fire]], 611 (fifteen thousand at the Washington Monument; Moses, as Parris, among the speakers: "Use Mississippi not as a moral lightning rod, but if you use it at all, use it as your looking glass"). To check: [[w.sale-sds]]; [[w.miller-democracy-is-in-the]]; [[w.gitlin-sixties]]; [[w.wells-war-within]]; [[w.debenedetti-american-ordeal]]; [[w.zaroulis-who-spoke-up]]; [[w.cagin-we-are-not-afraid]], 439 (cited by [[w.branch-pillar-of-fire]], 611). See [[cal.1965-03-24.students]]. Names: Gruening, Lynd, Potter.'
     src:
       c: 5f9af6c9
       rows:
         - 'w.gibbons-u-s-government-and III, 222–23: A-C'
         - 'w.branch-at-canaans-edge 211: A-B'
+        - 'w.branch-pillar-of-fire 611: A-B'
     tags: [name:potter-paul, name:gruening-ernest, name:lynd-staughton]
   - id: cal.1965-04-17.vietnam
     when: Apr. 17
@@ -798,6 +961,17 @@ entries:
         - 'via w.gibbons-u-s-government-and III, 222 n.15: all'
         - 'w.mann-grand-delusion 428–29: A-B'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1965-04-17.vietnam-operations
+    when: Apr. 17
+    date: '1965-04-17'
+    thread: vietnam-operations
+    c: Saigon and Washington agree in principle on American naval gunfire against sea infiltration and in support of the South's and American ground operations, verbally to Taylor. Westmoreland's plan for it to CINCPAC, Apr. 19.
+    n: '[[w.macv-command-history-1965]], 176. Names: Taylor, Westmoreland.'
+    src:
+      c: 536d70b4
+      rows:
+        - 'w.macv-command-history-1965 176: all'
+    tags: [name:taylor-maxwell, name:westmoreland-william]
   - id: cal.1965-04-19.cities-and-housing-nyc
     when: Apr. 19
     date: '1965-04-19'
@@ -818,6 +992,16 @@ entries:
         - 'w.kabaservice-rule-and-ruin 153: all'
         - 'via w.kabaservice-rule-and-ruin 153 n.133: all'
     tags: [name:wilkins-roy, name:buckley-william-f-jr]
+  - id: cal.1965-04-19.vietnam-force-levels
+    when: Apr. 19
+    date: '1965-04-19'
+    thread: vietnam-force-levels
+    c: The first F-104 squadron assigned to South Vietnam arrives at Đà Nẵng.
+    n: '[[w.macv-command-history-1965]], 184.'
+    src:
+      c: 69d74c59
+      rows:
+        - 'w.macv-command-history-1965 184: all'
   - id: cal.1965-04-20.vietnam
     when: Apr. 20
     date: '1965-04-20'
@@ -861,6 +1045,19 @@ entries:
       rows:
         - 'w.ball-past-has-another-pattern 393: all'
     tags: [name:rusk-dean, name:ball-george-w, name:johnson-lyndon-b]
+  - id: cal.1965-04-20.students
+    when: Apr. 20
+    date: '1965-04-20'
+    thread: students
+    also: [vietnam]
+    c: 'McGeorge Bundy to Donald Graham, an editor of the *Harvard Crimson*, eleven pages, against his Harvard critics: the lessons of Munich.'
+    n: '[[w.bird-color-of-truth]], 317. Names: McGeorge Bundy.'
+    src:
+      c: 9857f2bc
+      rows:
+        - 'w.bird-color-of-truth 317: all'
+        - 'via w.bird-color-of-truth 317 n.33a: all'
+    tags: [name:bundy-mcgeorge]
   - id: cal.1965-04-21.vietnam
     when: Apr. 21
     date: '1965-04-21'
@@ -909,6 +1106,7 @@ entries:
       c: bd6300fc
       rows:
         - 'w.preston-war-council 195: all'
+        - 'via w.preston-war-council 195 n.11c: all'
     tags: [name:cooper-chester-l, name:thomson-james-c-jr, name:bundy-mcgeorge]
   - id: cal.1965-04-21.vietnam-2
     when: Apr. 21
@@ -922,6 +1120,19 @@ entries:
         - 'w.mcnamara-in-retrospect ch. 7 at nn.24–25: all'
         - 'via x.1965-04-21.ball-to-johnson-should-we-try: all'
     tags: [name:ball-george-w, name:johnson-lyndon-b]
+  - id: cal.1965-04-21.robert-kennedy
+    when: Apr. 21
+    date: '1965-04-21'
+    thread: robert-kennedy
+    also: [democratic-party]
+    c: 'Robert Kennedy sends Goodwin to the White House on Nickerson''s trip. McPherson to Moyers: "I am still playing dumb and bureaucratic. Let me know what you tell [Goodwin] so we can have our stories straight."'
+    n: '[[w.shesol-mutual-contempt]], 343. Check: the day of Goodwin''s errand; Shesol gives "a week later". To check: McPherson to Moyers, Apr. 19 and 21, 1965, McPherson Files, box 7, LBJ Library (cited by [[w.shesol-mutual-contempt]], 343). Names: Robert Kennedy, Goodwin, McPherson, Moyers.'
+    src:
+      c: 6510084d
+      rows:
+        - 'w.shesol-mutual-contempt 343: all'
+        - 'via x.1965-04-21.mcpherson-to-moyers-playing-dumb: all'
+    tags: [name:kennedy-robert-f, name:goodwin-richard-n, name:mcpherson-harry, name:moyers-bill, state:ny]
   - id: cal.1965-04-22.south-carolina-sc
     when: Apr. 22
     date: '1965-04-22'
@@ -1000,6 +1211,7 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v02/d272: A-D'
         - 'w.preston-war-council 195: all'
+        - 'via w.preston-war-council 195 n.12: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b]
   - id: cal.1965-04-23.students
     when: Apr. 23–24
@@ -1012,6 +1224,8 @@ entries:
       c: 2828c11b
       rows:
         - 'w.preston-war-council 196: all'
+        - 'via w.preston-war-council 196 n.17a: A'
+        - 'via w.preston-war-council 196 n.17a: B'
     tags: [name:valenti-jack, name:bundy-mcgeorge, name:cooper-chester-l]
   - id: cal.1965-04-24.latin-america
     when: Apr. 24
@@ -1071,6 +1285,7 @@ entries:
       c: b63698ec
       rows:
         - 'w.preston-war-council 203: all'
+        - 'via w.preston-war-council 203 n.42b: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b]
   - id: cal.1965-04-28.latin-america
     when: Apr. 28
@@ -1144,6 +1359,19 @@ entries:
         - 'w.solberg-hubert-humphrey 274–75: all'
         - 'via w.solberg-hubert-humphrey 275 n.dominican: all'
     tags: [name:humphrey-hubert-h, name:bundy-mcgeorge, name:van-dyk-ted]
+  - id: cal.1965-04-28.goldwater
+    when: Apr. 28
+    date: '1965-04-28'
+    thread: goldwater
+    also: [china, vietnam]
+    c: 'Goldwater, to a European audience: "I pray that Communist China gives us provocation to attack their nuclear possibility."'
+    n: '[[w.goldberg-barry-goldwater]], 244; the *New York Times*, Apr. 28, 1965, 14, by the note (244 n.21). Check: the day and place. Names: Goldwater.'
+    src:
+      c: 0d48c4d8
+      rows:
+        - 'w.goldberg-barry-goldwater 244: all'
+        - 'via w.goldberg-barry-goldwater 244 n.21: all'
+    tags: [name:goldwater-barry-m]
   - id: cal.1965-04-29.africa
     when: Apr. 29
     date: '1965-04-29'
@@ -1185,7 +1413,15 @@ entries:
       c: 5691cff7
       rows:
         - 'w.preston-war-council 200: all'
+        - 'via w.preston-war-council 200 n.35a: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b]
+  - id: cal.1965-04-29.latin-america-dominican-republic
+    when: Apr. 29
+    date: '1965-04-29'
+    thread: latin-america-dominican-republic
+    c: 'Goodwin to Johnson: "anything, including military intervention, should be done if essential to prevent another Castro-type takeover in the Caribbean."'
+    n: '[[w.bird-color-of-truth]], 323. To check: [[w.goodwin-remembering-america]] (cited by [[w.bird-color-of-truth]], 323 n.55). Names: Goodwin, Johnson.'
+    tags: [name:goodwin-richard-n, name:johnson-lyndon-b]
   - id: cal.1965-04-30.latin-america
     when: Apr. 30
     date: '1965-04-30'
@@ -1320,12 +1556,14 @@ entries:
     date: 1965-04
     thread: vietnam
     c: 'Westmoreland with Thiệu and "Little" Minh on a combined command: they have heard of Collins''s assignment to explore it and are disturbed; the Saigon press warns against yielding sovereignty. Westmoreland drops a formal combined command, keeping Collins as his liaison with the Joint General Staff.'
-    n: '[[w.westmoreland-soldier-reports]], 133–34. Check: the day. Names: Westmoreland, Nguyễn Văn Thiệu.'
+    n: '[[w.westmoreland-soldier-reports]], 133–34; [[w.macv-command-history-1965]], 101 (the meeting, Apr. 28; the plan shelved). Check: the day. Check: the day; the History gives Apr. 28. To check: MFR, COMUSMACV, 28 Apr 65, Subj: Conference with Generals Thieu and Minh (cited by [[w.macv-command-history-1965]], 101 n.462). Names: Westmoreland, Nguyễn Văn Thiệu.'
     src:
       c: c2419be5
       rows:
         - 'w.westmoreland-soldier-reports 133–34: all'
-    tags: [name:westmoreland-william, name:nguyen-van-thieu]
+        - 'w.macv-command-history-1965 101: A, C'
+        - 'via w.macv-command-history-1965 101 n.462: A, C'
+    tags: [name:westmoreland-william, name:nguyen-van-thieu, ok:diacritics]
   - id: cal.1965-04.vietnam-2
     when: Apr.
     date: 1965-04
@@ -1336,6 +1574,7 @@ entries:
       c: 10ddb68c
       rows:
         - 'w.westmoreland-soldier-reports 132: all'
+        - 'via x.1965-04-17.taylor-to-bundy-protected-from-our-friends: all'
     tags: [name:taylor-maxwell, name:bundy-mcgeorge]
   - id: cal.1965-04-30.intelligence
     when: Apr. 30
@@ -1348,6 +1587,7 @@ entries:
       c: 81d1a3ee
       rows:
         - 'w.preston-war-council 192: all'
+        - 'via w.preston-war-council 192 n.3a: all'
   - id: cal.1965-04.vietnam-3
     when: Apr.
     date: 1965-04
@@ -1378,3 +1618,46 @@ entries:
       rows:
         - 'w.mcpherson-political-education 334–35: all'
     tags: [name:moynihan-daniel-patrick, name:mcpherson-harry]
+  - id: cal.1965-04.vietnam-saigon
+    when: Apr.
+    date: 1965-04
+    thread: vietnam-saigon
+    c: Three South Vietnamese naval force commanders and other officers mutiny against the navy's commander in chief and charge him with graft. Brig. Gen. Khang of the Marines put in temporary command; the navy's chief of staff acting commander Apr. 26. The mutineers back at their posts in May but the River Force commander.
+    n: '[[w.macv-command-history-1965]], 87. Check: the days.'
+    src:
+      c: 4c3b1f61
+      rows:
+        - 'w.macv-command-history-1965 87: all'
+  - id: cal.1965-04.vietnam-4
+    when: Apr.
+    date: 1965-04
+    thread: vietnam
+    c: The chief of the Naval Advisory Group tells Westmoreland the South Vietnamese navy is unresponsive and patrols poorly; it has never been aggressive.
+    n: '[[w.macv-command-history-1965]], 89. Check: the day. Names: Westmoreland.'
+    src:
+      c: d5794b86
+      rows:
+        - 'w.macv-command-history-1965 89: all'
+    tags: [name:westmoreland-william]
+  - id: cal.1965-04.vietnam-force-levels
+    when: Apr.
+    date: 1965-04
+    thread: vietnam-force-levels
+    c: 'Chu Lai, ten days before the Marines land. Two Army captains of MACV negotiate on the spot with 1,800 owners for 24 sq km, "each fruit tree, each banana tree, rice paddy, thatched hut and grave": some $620,000, in Assistance-in-Kind piasters.'
+    n: '[[w.macv-command-history-1965]], 124. Check: the day (ten days before May 7). See [[cal.1965-05-05.vietnam]].'
+    src:
+      c: 74c14c13
+      rows:
+        - 'w.macv-command-history-1965 124: all'
+  - id: cal.1965-04.robert-kennedy-2
+    when: Apr.
+    date: 1965-04
+    thread: robert-kennedy
+    also: [south-asia]
+    c: 'Air Force One to Texas, a week after the leaders of India and Pakistan put off their visits, by Goodwin''s account. Johnson to Goodwin: "Do you know there are some disloyal Kennedy people over at the State Department who are trying to get me; that''s why they stirred things up? ... They didn''t get me this time, but they''ll keep trying."'
+    n: '[[w.shesol-mutual-contempt]], 317. Check: the day. To check: [[w.goodwin-remembering-america]], 394–96 (cited by [[w.shesol-mutual-contempt]], 317). Names: Johnson, Goodwin.'
+    src:
+      c: 618c0e70
+      rows:
+        - 'w.shesol-mutual-contempt 317: all'
+    tags: [name:johnson-lyndon-b, name:goodwin-richard-n]

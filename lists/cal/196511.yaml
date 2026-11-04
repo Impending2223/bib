@@ -242,6 +242,18 @@ entries:
         - 'via w.califano-triumph-and-tragedy-of 128 n.14: B'
         - 'via w.califano-triumph-and-tragedy-of 128 n.15: C'
     tags: [name:katzenbach-nicholas, name:weaver-robert-c, name:califano-joseph-a-jr, name:johnson-lyndon-b]
+  - id: cal.1965-11-02.mayors-nyc
+    when: Nov. 2
+    date: '1965-11-02'
+    thread: mayors
+    also: [republican-party]
+    c: 'Election night, the Roosevelt Hotel. Rockefeller, not invited, onto the stage at Lindsay''s headquarters: "We did it." Lindsay thanks Javits.'
+    n: '[[w.smith-on-his-own-terms]], 474 (and the next day''s *Times*: Lindsay''s aides dissatisfied with Rockefeller''s part in the campaign). To check: [[w.cannato-ungovernable-city]], 21 (cited by [[w.smith-on-his-own-terms]], 474). Check: Smith dates election night Nov. 3. See [[cal.1965-11-02.states-and-cities]]. Names: Rockefeller, Lindsay, Javits.'
+    src:
+      c: 5d187646
+      rows:
+        - 'w.smith-on-his-own-terms 474: all'
+    tags: [name:rockefeller-nelson, name:lindsay-john-v, name:javits-jacob-k, state:ny, city:nyc]
   - id: cal.1965-11-03.transition-and-staff
     when: Nov. 3
     date: '1965-11-03'
@@ -318,6 +330,19 @@ entries:
         - 'via w.califano-triumph-and-tragedy-of 128 n.16: A'
         - 'via w.califano-triumph-and-tragedy-of 129 n.19: B-C'
     tags: [name:johnson-lyndon-b, name:weaver-robert-c, name:califano-joseph-a-jr, name:young-whitney-m-jr, name:wilkins-roy]
+  - id: cal.1965-11-03.goldwater
+    when: Nov. 3
+    date: '1965-11-03'
+    thread: goldwater
+    also: [king, civil-disorders]
+    c: 'Goldwater: "As long as people are told they are allowed to break the law, as Dr. Martin Luther King is doing, urban riots will continue."'
+    n: '[[w.goldberg-barry-goldwater]], 246; the *New York Times*, Nov. 3, 1965, 3, by the note (246 n.28). Check: the day of the words. Names: Goldwater, Martin Luther King.'
+    src:
+      c: 789537ca
+      rows:
+        - 'w.goldberg-barry-goldwater 246: all'
+        - 'via w.goldberg-barry-goldwater 246 n.28: all'
+    tags: [name:goldwater-barry-m, name:king-martin-luther-jr]
   - id: cal.1965-11-04.vietnam
     when: Nov. 4
     date: '1965-11-04'
@@ -367,7 +392,58 @@ entries:
       c: 37df0d9f
       rows:
         - 'w.preston-war-council 220: all'
+        - 'via w.preston-war-council 220 n.29a: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:mcnamara-robert-s, name:rusk-dean]
+  - id: cal.1965-11-05.black-nationalism
+    when: Nov. 5
+    date: '1965-11-05'
+    thread: black-nationalism
+    also: [press-and-broadcasting]
+    c: '*New York Times*. Eliot Fremont-Smith on *The Autobiography of Malcolm X*, "An Eloquent Testament": Malcolm "understood, perhaps more profoundly than any other Negro leader, the full, shocking extent of America''s psychological destruction of its Negroes."'
+    n: '[[w.branch-pillar-of-fire]], 601. To check: "An Eloquent Testament," NYT, Nov. 5, 1965, p. 35 (cited by [[w.branch-pillar-of-fire]], 601). See [[cal.1965-10.black-nationalism]]. Names: Malcolm X.'
+    src:
+      c: 40fd4264
+      rows:
+        - 'w.branch-pillar-of-fire 601: all'
+        - 'via w.branch-pillar-of-fire 601 n.understood-perhaps-more-profoundly: all'
+    tags: [name:malcolm-x]
+  - id: cal.1965-11-05.press-and-broadcasting
+    when: Nov. 5
+    date: '1965-11-05'
+    thread: press-and-broadcasting
+    also: [mayors]
+    c: 'Kempton, "Lindsay and Rockefeller," in the *World-Telegram and Sun*. Rockefeller: "I get buried so often I''m used to it. I just stay underground a little and then I get up." He will work with the new mayor, more easily "if there''s some evidence that he wants to work with me."'
+    n: '[[w.smith-on-his-own-terms]], 474. To check: Murray Kempton, "Lindsay and Rockefeller," *New York World-Telegram and Sun*, Nov. 5, 1965 (cited by [[w.smith-on-his-own-terms]], 474). See [[cal.1965-11-02.mayors-nyc]]. Names: Rockefeller, Lindsay.'
+    src:
+      c: 3638ef22
+      rows:
+        - 'w.smith-on-his-own-terms 474: all'
+        - 'via x.1965-11-05.kempton-lindsay-and-rockefeller: all'
+    tags: [name:rockefeller-nelson, name:lindsay-john-v, state:ny, city:nyc]
+  - id: cal.1965-11-05.vietnam-force-levels
+    when: Nov. 5
+    date: '1965-11-05'
+    thread: vietnam-force-levels
+    c: 'Westmoreland asks the regular forces raised to 311,458 in fiscal 1966 and 325,256 in fiscal 1967: three infantry battalions, a regiment, a Marine battalion, psywar companies, 81 RF companies, 15,000 PF spaces. He would have more; the manpower will not bear it. McNamara approves orally at Saigon, Nov. 28.'
+    n: '[[w.macv-command-history-1965]], 58, 61. To check: Msg, COMUSMACV, 051443Z Nov 65 (cited by [[w.macv-command-history-1965]], 58 n.173); Msg, COMUSMACV, 061101Z Nov 65 (cited by [[w.macv-command-history-1965]], 58 n.175). See [[cal.1965-01-23.vietnam-force-levels]]. Names: Westmoreland, McNamara.'
+    src:
+      c: fba14df1
+      rows:
+        - 'w.macv-command-history-1965 58, 61: all'
+        - 'via w.macv-command-history-1965 58 n.173: all'
+        - 'via w.macv-command-history-1965 58 n.175: all'
+    tags: [name:westmoreland-william, name:mcnamara-robert-s]
+  - id: cal.1965-11-05.vietnam-saigon
+    when: Nov. 5
+    date: '1965-11-05'
+    thread: vietnam-saigon
+    c: 'The weekly Saigon–American council. Thắng, the ministry active after "two wasteful years," sets out the 1966 pacification: a Senior Rural Construction Council under the Prime Minister; the government, not the army, to pacify. The Mission Council: "the most intelligent and practical approach to the problem of pacification thus far."'
+    n: '[[w.macv-command-history-1965]], 229, 243. To check: MFR, COMUSMACV, 5 Nov 65, Subj: US/GVN Council Meeting (cited by [[w.macv-command-history-1965]], 243 n.305).'
+    src:
+      c: e871fb44
+      rows:
+        - 'w.macv-command-history-1965 229, 243: all'
+        - 'via w.macv-command-history-1965 243 n.305: all'
   - id: cal.1965-11-06.cuba
     when: Nov. 6
     date: '1965-11-06'
@@ -381,12 +457,13 @@ entries:
     date: '1965-11-06'
     thread: economy
     c: 'Aluminum. Ellington to Alcoa: papers drawn to release 300,000 tons of stockpile aluminum, 100,000 at once.'
-    n: 'FRUS 1964–68, IX, docs. [292](https://history.state.gov/historicaldocuments/frus1964-68v09/d292) (Ball, Nov. 3), [296](https://history.state.gov/historicaldocuments/frus1964-68v09/d296), [297](https://history.state.gov/historicaldocuments/frus1964-68v09/d297) (Nov. 8). [[w.califano-triumph-and-tragedy-of]], 100 (McNamara announces 200,000 tons; then, at Johnson''s order, 100,000 more). Check: Califano has McNamara announce the release of 200,000 tons, and Califano a further 100,000 (100). See [[cal.1965-08-30.steel]]. Names: Ellington.'
+    n: 'FRUS 1964–68, IX, docs. [292](https://history.state.gov/historicaldocuments/frus1964-68v09/d292) (Ball, Nov. 3), [296](https://history.state.gov/historicaldocuments/frus1964-68v09/d296), [297](https://history.state.gov/historicaldocuments/frus1964-68v09/d297) (Nov. 8). [[w.califano-triumph-and-tragedy-of]], 100 (McNamara announces 200,000 tons; then, at Johnson''s order, 100,000 more); [[w.bernstein-guns-or-butter]], 362 (the stockpile''s release). Check: Califano has McNamara announce the release of 200,000 tons, and Califano a further 100,000 (100). Check: Bernstein, 362, has McNamara release 200,000 tons on Nov. 6, and Johnson add 100,000. See [[cal.1965-08-30.steel]]. Names: Ellington.'
     src:
       c: fe475fdf
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v09/d292: all'
         - 'w.califano-triumph-and-tragedy-of 100: B'
+        - 'w.bernstein-guns-or-butter 362: ?'
     tags: [name:ellington-buford, name:ackley-gardner, name:mcnamara-robert-s]
   - id: cal.1965-11-06.mayors-new-orleans
     when: Nov. 6
@@ -444,6 +521,30 @@ entries:
         - 'w.califano-triumph-and-tragedy-of 79: all'
         - 'via w.califano-triumph-and-tragedy-of 79 n.6: all'
     tags: [name:schultze-charles-l, name:shriver-r-sargent, name:johnson-lyndon-b, name:califano-joseph-a-jr]
+  - id: cal.1965-11-06.vietnam-2
+    when: Nov. 6
+    date: '1965-11-06'
+    thread: vietnam
+    c: 'Westmoreland endorses the original plan for the South Vietnamese air force and sends it to CINCPAC. CINCPAC: two F-5 squadrons enough. Plans settled at their meeting in mid-December and sent to the Joint Chiefs.'
+    n: '[[w.macv-command-history-1965]], 66–67. To check: Msg, CINCPAC, 140732Z Dec 65 (cited by [[w.macv-command-history-1965]], 67 n.229). See [[cal.1965-10.vietnam]]. Names: Westmoreland.'
+    src:
+      c: 777751fc
+      rows:
+        - 'w.macv-command-history-1965 66–67: all'
+        - 'via w.macv-command-history-1965 67 n.229: all'
+    tags: [name:westmoreland-william]
+  - id: cal.1965-11-06.vietnam-air-war
+    when: Nov. 6
+    date: '1965-11-06'
+    thread: vietnam-air-war
+    c: 'CINCPAC recommends a basic Arc Light directive: a fixed number of B-52 sorties a month, Westmoreland''s requests 48 hours ahead, approved unless Washington, CINCPAC or CINCSAC objects. Westmoreland had repeated in early November his case for decentralizing control.'
+    n: '[[w.macv-command-history-1965]], 195. To check: Msg, CINCPAC, 060104Z Nov 65 (cited by [[w.macv-command-history-1965]], 195 n.143). Names: Westmoreland.'
+    src:
+      c: fb4d4095
+      rows:
+        - 'w.macv-command-history-1965 195: all'
+        - 'via w.macv-command-history-1965 195 n.143: all'
+    tags: [name:westmoreland-william]
   - id: cal.1965-11-07.vietnam-order-of-battle
     when: Nov. 7
     date: '1965-11-07'
@@ -459,11 +560,13 @@ entries:
     date: '1965-11-07'
     thread: transition-and-staff
     c: McCloy, chairman of the Ford Foundation's board, offers Bundy its presidency. Nov. 8, Bundy tells Johnson; with Johnson, Rusk and McNamara he stays until the end of February, a successor to be readied.
-    n: '[[w.preston-war-council]], 231–32. To check: Bundy to Johnson, Dec. 4, 1965, NSF, Memos to the President, Bundy, box 5, LBJ Library; [[w.bird-chairman]], 520, 581–82 (cited by [[w.preston-war-council]], 232 n.56). Names: McCloy, Bundy, Johnson, Rusk, McNamara. Check: the day of the arrangement.'
+    n: '[[w.preston-war-council]], 231–32; [[w.bird-color-of-truth]], 343–44 (McCloy''s call, Nov. 7; Bundy''s note to Johnson, Nov. 8; the end of February). To check: Bundy to Johnson, Dec. 4, 1965, NSF, Memos to the President, Bundy, box 5, LBJ Library; [[w.bird-chairman]], 520, 581–82 (cited by [[w.preston-war-council]], 232 n.56). Names: McCloy, Bundy, Johnson, Rusk, McNamara. Check: the day of the arrangement.'
     src:
       c: a47d1e4c
       rows:
         - 'w.preston-war-council 231–32: all'
+        - 'via w.preston-war-council 232 n.56a: all'
+        - 'w.bird-color-of-truth 343–44: ?'
     tags: [name:mccloy-john-j, name:bundy-mcgeorge, name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s]
   - id: cal.1965-11-08.school-aid
     when: Nov. 8
@@ -540,7 +643,19 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d192: A'
         - 'w.preston-war-council 209: D'
         - 'w.preston-war-council 218: B'
+        - 'via w.preston-war-council 209 n.2a: D'
+        - 'via w.preston-war-council 218 n.26: B'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s]
+  - id: cal.1965-11-08.japan-and-korea-korean-troops
+    when: Nov. 8
+    date: '1965-11-08'
+    thread: japan-and-korea-korean-troops
+    c: The Korean Capital Division (-) and Marine Brigade fully deployed, to security at Cam Ranh Bay and Qui Nhơn. 20,620 Koreans at the year's end.
+    n: '[[w.macv-command-history-1965]], 72–73. See [[cal.1965-10-08.japan-and-korea-korean-troops]].'
+    src:
+      c: 36891bb1
+      rows:
+        - 'w.macv-command-history-1965 72–73: all'
   - id: cal.1965-11-09.states-and-cities
     when: Nov. 9
     date: '1965-11-09'
@@ -576,6 +691,7 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 87–88: all'
         - 'via w.gibbons-u-s-government-and IV, 87 n.30: all'
         - 'w.preston-war-council 219: all'
+        - 'via w.preston-war-council 219 n.28a: all'
     tags: [name:mcnaughton-john-t, name:mcnamara-robert-s]
   - id: cal.1965-11-09.war-opposition
     when: Nov. 9
@@ -589,6 +705,18 @@ entries:
         - 'w.solberg-hubert-humphrey 283: all'
         - 'via w.solberg-hubert-humphrey 283 n.tide-1965: all'
     tags: [name:humphrey-hubert-h, name:johnson-lyndon-b]
+  - id: cal.1965-11-09.states-and-cities-2
+    when: Nov. 9
+    date: '1965-11-09'
+    thread: states-and-cities
+    c: 'The blackout. 9:15 p.m., Johnson telephones Rockefeller at his Fifth Avenue apartment, lit by candles. For Happy Rockefeller: "How''s my girlfriend?"'
+    n: '[[w.smith-on-his-own-terms]], 457 n. To check: [Johnson and Rockefeller, 9:15 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-nelson-rockefeller-and-office-conversation), Conversation WH6511-05-9147 (Miller Center) (cited by [[w.smith-on-his-own-terms]], 457 n., as a transcript, LBJ Library). See [[cal.1965-11-09.states-and-cities]]. Names: Johnson, Rockefeller.'
+    src:
+      c: 2cfedc8f
+      rows:
+        - 'w.smith-on-his-own-terms 457 n.: all'
+        - 'via x.1965-11-09.johnson-rockefeller-telephone: all'
+    tags: [name:johnson-lyndon-b, name:rockefeller-nelson, state:ny, city:nyc]
   - id: cal.1965-11-10.congress
     when: Nov. 10
     date: '1965-11-10'
@@ -615,13 +743,14 @@ entries:
     date: '1965-11-10'
     thread: economy
     c: Alcoa and the other aluminum makers rescind their price rise.
-    n: '[FRUS 1964–68, IX, doc. 300](https://history.state.gov/historicaldocuments/frus1964-68v09/d300) (Ackley, Nov. 13). [[w.califano-triumph-and-tragedy-of]], 100–101 (McNamara''s press briefing: "act of industrial statesmanship"). See [[cal.1965-11-06.economy]].'
+    n: '[FRUS 1964–68, IX, doc. 300](https://history.state.gov/historicaldocuments/frus1964-68v09/d300) (Ackley, Nov. 13). [[w.califano-triumph-and-tragedy-of]], 100–101 (McNamara''s press briefing: "act of industrial statesmanship"); [[w.bernstein-guns-or-butter]], 362. See [[cal.1965-11-06.economy]].'
     src:
       c: 1b16cb06
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v09/d300: all'
         - 'w.califano-triumph-and-tragedy-of 100–101: all'
         - 'via w.califano-triumph-and-tragedy-of 101 n.48: all'
+        - 'w.bernstein-guns-or-butter 362: A'
   - id: cal.1965-11-10.vietnam
     when: Nov. 10
     date: '1965-11-10'
@@ -684,6 +813,16 @@ entries:
         - 'w.branch-at-canaans-edge 383: all'
         - 'via w.branch-at-canaans-edge 383 n.critical-or-unjustifiable: all'
     tags: [name:deloach-cartha]
+  - id: cal.1965-11-10.vietnam-3
+    when: Nov. 10
+    date: '1965-11-10'
+    thread: vietnam
+    c: 'MACV Directive 10-11: the senior American tactical commander in I, II and III Corps senior adviser to the corps commander.'
+    n: '[[w.macv-command-history-1965]], 81. See [[cal.1965-09-18.vietnam-3]].'
+    src:
+      c: 6a8ea8cc
+      rows:
+        - 'w.macv-command-history-1965 81: all'
   - id: cal.1965-11-11.europe-and-the-alliance
     when: Nov. 11
     date: '1965-11-11'
@@ -717,6 +856,7 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 89 n.35: G'
         - 'w.preston-war-council 209: ?'
         - 'w.preston-war-council 220: ?'
+        - 'via w.preston-war-council 220 n.29b: ?'
     tags: [name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s, name:ball-george-w, name:bundy-mcgeorge, name:moyers-bill, name:lodge-henry-cabot, name:goldberg-arthur-j]
   - id: cal.1965-11-11.vietnam
     when: Nov. 11
@@ -742,6 +882,42 @@ entries:
         - 'w.kabaservice-rule-and-ruin 160: all'
         - 'via w.kabaservice-rule-and-ruin 160 n.168: all'
     tags: [name:buckley-william-f-jr]
+  - id: cal.1965-11-11.black-nationalism
+    when: Nov. 11
+    date: '1965-11-11'
+    thread: black-nationalism
+    also: [press-and-broadcasting]
+    c: '*The New York Review of Books*. I. F. Stone on Malcolm X, an essay: Malcolm "shocked when former secretaries of Elijah Muhammad filed paternity suits against the prophet."'
+    n: '[[w.branch-pillar-of-fire]], 602 (the footnote). To check: I. F. Stone, *The New York Review of Books*, Nov. 11, 1965, 3–5 (cited by [[w.branch-pillar-of-fire]], 602, in the footnote). Branch: an essay that recognized Malcolm "as an original thinker of the age" (602, the footnote). See [[cal.1965-10.black-nationalism]]. Names: Malcolm X, Elijah Muhammad.'
+    src:
+      c: bd1266d2
+      rows:
+        - 'w.branch-pillar-of-fire 602: all'
+        - 'via w.branch-pillar-of-fire 602 n.fn-shocked-when-former-secretaries: all'
+    tags: [name:malcolm-x, name:muhammad-elijah]
+  - id: cal.1965-11-11.vietnam-saigon
+    when: Nov. 11
+    date: '1965-11-11'
+    thread: vietnam-saigon
+    c: 'Saigon''s 1966 Pacification Plan, Circular 3041: the six-point criteria, more hamlets in priority areas, cadres in armed groups for 6 to 12 months a village; Defense to clear, Interior and Rural Construction to secure, all ministries to develop.'
+    n: '[[w.macv-command-history-1965]], 243. See [[cal.1965-11-05.vietnam-saigon]].'
+    src:
+      c: 3ec91178
+      rows:
+        - 'w.macv-command-history-1965 243: all'
+  - id: cal.1965-11-11.robert-kennedy
+    when: Nov. 11
+    date: '1965-11-11'
+    thread: robert-kennedy
+    also: [press-and-broadcasting]
+    c: 'Reston in the *Times*, "The Education of Robert Kennedy": "He has supported the administration just enough to avoid the wrath of the White House, yet has opposed it just enough to establish a political base a little left of Lyndon"; "doing nothing to discourage the thought that he would like to be president."'
+    n: '[[w.shesol-mutual-contempt]], 306. To check: *New York Times*, Nov. 11, 1965, 6 (cited by [[w.shesol-mutual-contempt]], 306). Names: Reston, Robert Kennedy.'
+    src:
+      c: 1904e009
+      rows:
+        - 'w.shesol-mutual-contempt 306: all'
+        - 'via x.1965-11-11.reston-education-of-robert-kennedy: all'
+    tags: [name:reston-james, name:kennedy-robert-f]
   - id: cal.1965-11-12.civil-rights-the-executive
     when: Nov. 12
     date: '1965-11-12'
@@ -764,6 +940,7 @@ entries:
       c: bb2cb10b
       rows:
         - 'w.preston-war-council 213: all'
+        - 'via w.preston-war-council 213 n.12b: all'
     tags: [name:thomson-james-c-jr, name:johnson-lyndon-b, name:bundy-mcgeorge, name:cooper-chester-l]
   - id: cal.1965-11-12.economy
     when: Nov. 12–13
@@ -778,12 +955,19 @@ entries:
         - 'via w.califano-triumph-and-tragedy-of 101 n.51: B'
         - 'via w.califano-triumph-and-tragedy-of 101 n.52: C-E'
     tags: [name:califano-joseph-a-jr, name:mcnamara-robert-s, name:fowler-henry-h, name:connor-john-t, name:katzenbach-nicholas, name:ackley-gardner, name:eckstein-otto, name:ginsburg-david, name:johnson-lyndon-b, name:bundy-mcgeorge, name:harriman-w-averell, name:frei-montalva-eduardo]
+  - id: cal.1965-11-13.transition-and-staff
+    when: Nov. 13
+    date: '1965-11-13'
+    thread: transition-and-staff
+    c: 'The Sheraton-Carlton, Washington: McGeorge Bundy at breakfast with John and Ellen McCloy on the Ford Foundation''s presidency.'
+    n: '[[w.bird-color-of-truth]], 343. See [[cal.1965-11-07.transition-and-staff]]. Names: McGeorge Bundy, McCloy.'
+    tags: [name:bundy-mcgeorge, name:mccloy-john-j]
   - id: cal.1965-11-14.vietnam
     when: Nov. 14–16
     date: '1965-11-14'
     thread: vietnam-operations
     c: Ia Drang. Moore's 1st Battalion, 7th Cavalry, of the 1st Cavalry Division (Airmobile), lands by helicopter at LZ X-Ray, under the Chu Pong massif, Nov. 14, and holds three days against North Vietnamese regulars, with B-52s striking the massif from Nov. 15; 79 Americans killed. The first battle between American and North Vietnamese regulars. Check the counts.
-    n: 'FRUS 1964–68, III, doc. [212](https://history.state.gov/historicaldocuments/frus1964-68v03/d212). [[w.drea-mcnamara-clifford-and-the-2011]], 118 (the battle, Nov. 14–19, the first between American and North Vietnamese troops); [[w.cosmas-joint-chiefs-of-staff-2012]], 345 (X-Ray, Nov. 14; the B-52s; for the campaign, the 1st Cavalry''s claim of more than 1,200 of the enemy killed for 217 of its own); [[w.branch-at-canaans-edge]], 378–79 (the landing and the three days; the count); [[w.westmoreland-soldier-reports]], 157–58 (Moore''s battalion; B-52s in direct support for the first time; Westmoreland at the battalion''s critique, Moore for the M-16); [[w.mcnamara-in-retrospect]], ch. 8 at nn.18–19 (Nov. 14–19, the Ia Drang Valley; the first major battle between American and North Vietnamese forces). [[w.vietnam-victory-in-vietnam]], 159 (the battle under the Chu Pong, Nov. 14–19; the B-52s); [[w.gibbons-u-s-government-and]], IV, 100–102 (the battles; 1,200 to 3,000 North Vietnamese and 300 Americans killed by his count). [[w.macv-command-history-1965]], 8, 168 (the 3d Brigade from Nov. 14, against the 32d and 66th North Vietnamese Regiments, to Nov. 18). Check: Westmoreland gives six days of fighting, Nov. 14–19, and more than 1,300 enemy dead (157). Check: McNamara counts over 1,300 North Vietnamese dead and 300 Americans killed, Nov. 14–19 (ch. 8). To check: [[w.cash-fight-at-ia-drang]]; [[w.coleman-pleiku]]; [[w.moore-we-were-soldiers-once]]; [[w.pribbenow-fog-of-war]]. See [[cal.1965-07-28.vietnam]]. Names: Moore. Check: *Victory in Vietnam* counts, for the Plei Me campaign, Oct. 19–Nov. 19, 1,700 Americans and 1,270 South Vietnamese put out of action and 59 helicopters shot down; the 66th Regiment and part of the 33d at Ia Drang, Nov. 14–19 (159). Check: MACV''s history, 168, has the B-52 strikes Westmoreland asked delivered Nov. 16, and for the whole of Silver Bayonet''s second phase 1,286 of the enemy and 217 Americans killed.'
+    n: 'FRUS 1964–68, III, doc. [212](https://history.state.gov/historicaldocuments/frus1964-68v03/d212). [[w.drea-mcnamara-clifford-and-the-2011]], 118 (the battle, Nov. 14–19, the first between American and North Vietnamese troops); [[w.cosmas-joint-chiefs-of-staff-2012]], 345 (X-Ray, Nov. 14; the B-52s; for the campaign, the 1st Cavalry''s claim of more than 1,200 of the enemy killed for 217 of its own); [[w.branch-at-canaans-edge]], 378–79 (the landing and the three days; the count); [[w.westmoreland-soldier-reports]], 157–58 (Moore''s battalion; B-52s in direct support for the first time; Westmoreland at the battalion''s critique, Moore for the M-16); [[w.mcnamara-in-retrospect]], ch. 8 at nn.18–19 (Nov. 14–19, the Ia Drang Valley; the first major battle between American and North Vietnamese forces). [[w.vietnam-victory-in-vietnam]], 159 (the battle under the Chu Pong, Nov. 14–19; the B-52s); [[w.gibbons-u-s-government-and]], IV, 100–102 (the battles; 1,200 to 3,000 North Vietnamese and 300 Americans killed by his count); [[w.berman-lyndon-johnsons-war]], 12 (the 1st Cavalry Division against North Vietnamese regiments; about 1,200 of the enemy killed and 200 Americans, the whole battle). [[w.macv-command-history-1965]], 8, 168 (the 3d Brigade from Nov. 14, against the 32d and 66th North Vietnamese Regiments, to Nov. 18). Check: Westmoreland gives six days of fighting, Nov. 14–19, and more than 1,300 enemy dead (157). Check: McNamara counts over 1,300 North Vietnamese dead and 300 Americans killed, Nov. 14–19 (ch. 8). To check: [[w.cash-fight-at-ia-drang]]; [[w.coleman-pleiku]]; [[w.moore-we-were-soldiers-once]]; [[w.pribbenow-fog-of-war]]. See [[cal.1965-07-28.vietnam]]. Names: Moore. Check: *Victory in Vietnam* counts, for the Plei Me campaign, Oct. 19–Nov. 19, 1,700 Americans and 1,270 South Vietnamese put out of action and 59 helicopters shot down; the 66th Regiment and part of the 33d at Ia Drang, Nov. 14–19 (159). Check: MACV''s history, 168, has the B-52 strikes Westmoreland asked delivered Nov. 16, and for the whole of Silver Bayonet''s second phase 1,286 of the enemy and 217 Americans killed.'
     src:
       c: 8c90ac2b
       rows:
@@ -797,6 +981,7 @@ entries:
         - 'w.branch-at-canaans-edge 378–79: A-C'
         - 'w.westmoreland-soldier-reports 157–58: A-B'
         - 'w.mcnamara-in-retrospect ch. 8 at nn.18–19: A, D'
+        - 'w.berman-lyndon-johnsons-war 12: A'
     tags: [name:moore-harold-g, place:ia-drang, place:lz-x-ray]
   - id: cal.1965-11-14.robert-kennedy
     when: Nov. 14
@@ -841,18 +1026,44 @@ entries:
     date: '1965-11-14'
     thread: transition-and-staff
     c: Bundy's going to the Ford Foundation in the *New York Times*, page one.
-    n: '[[w.preston-war-council]], 233. To check: *New York Times*, Nov. 14, 1965, 1, 45 (cited by [[w.preston-war-council]], 233 n.61). See [[cal.1965-11-07.transition-and-staff]]. Names: Bundy. Check: the day of the announcement.'
+    n: '[[w.preston-war-council]], 233; [[w.bird-color-of-truth]], 344. To check: *New York Times*, Nov. 14, 1965, 1, 45 (cited by [[w.preston-war-council]], 233 n.61). See [[cal.1965-11-07.transition-and-staff]]. Names: Bundy. Check: the day of the announcement.'
     src:
       c: 25db3fef
       rows:
         - 'w.preston-war-council 233: all'
+        - 'via w.preston-war-council 233 n.61a: all'
+        - 'w.bird-color-of-truth 344: all'
     tags: [name:bundy-mcgeorge]
+  - id: cal.1965-11-14.vietnam-operations
+    when: Nov. 14–22
+    date: '1965-11-14'
+    thread: vietnam-operations
+    c: 'Bushmaster, south of the Michelin plantation, Bình Dương: the 3d Brigade, 1st Infantry Division, exploiting the B-52 strikes of Nov. 14 on three Viet Cong regiments'' base areas. 277 Viet Cong killed, five captured; 27 Americans killed, 176 wounded; over 100 weapons and 100 tons of rice taken.'
+    n: '[[w.macv-command-history-1965]], 172. To check: Ltr, CO, 3d Bde 1st Inf Div, 21 Dec 65, Subj: Combat Operations After Action Report (cited by [[w.macv-command-history-1965]], 172 n.27).'
+    src:
+      c: 5b5a8dba
+      rows:
+        - 'w.macv-command-history-1965 172: all'
+        - 'via w.macv-command-history-1965 172 n.27: all'
   - id: cal.1965-11-15.court
     when: Nov. 15
     date: '1965-11-15'
     thread: court
     c: '*Albertson v. Subversive Activities Control Board*, [382 U.S. 70](https://tile.loc.gov/storage-services/service/ll/usrep/usrep382/usrep382070/usrep382070.pdf): members of the Communist Party cannot be compelled to register under the Subversive Activities Control Act; registration would incriminate them. Brennan for the Court, 8–0; White not participating.'
     n: Opinion (K–J Cong. II.J.1). *Communist Party v. Subversive Activities Control Board* (K–J Cong. II.J.1).
+  - id: cal.1965-11-15.goldwater
+    when: Nov. 15
+    date: '1965-11-15'
+    thread: goldwater
+    also: [vietnam-air-war]
+    c: 'Goldwater: the bombers to hit, on the military''s advice, the "industrial complexes" near Hanoi, the dikes, and Haiphong''s port and depots.'
+    n: '[[w.goldberg-barry-goldwater]], 244; the *New York Times*, Nov. 15, 1965, 1, by the note (244 n.18). Check: the day of the words. Names: Goldwater.'
+    src:
+      c: e340baa2
+      rows:
+        - 'w.goldberg-barry-goldwater 244: all'
+        - 'via w.goldberg-barry-goldwater 244 n.18: all'
+    tags: [name:goldwater-barry-m]
   - id: cal.1965-11-16.civil-rights-the-executive
     when: Nov. 16–17
     date: '1965-11-16'
@@ -907,6 +1118,19 @@ entries:
         - 'w.califano-triumph-and-tragedy-of 102: all'
         - 'via w.califano-triumph-and-tragedy-of 102 n.53: all'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1965-11-16.vietnam-air-war
+    when: Nov. 16
+    date: '1965-11-16'
+    thread: vietnam-air-war
+    also: [vietnam]
+    c: The Joint Chiefs approve B-52 strikes in direct support of Silver Bayonet near Pleiku, the day CINCPAC relays Westmoreland's request; MACV and the 3d Air Division to coordinate directly. Strikes in Pleiku five days running from Nov. 17.
+    n: '[[w.macv-command-history-1965]], 195, 197. To check: Msg, JCS, 161624Z Nov 65; Msg, COMUSMACV, 160435Z Nov 65; Msg, COMUSMACV, 160457Z Nov 65 (cited by [[w.macv-command-history-1965]], 195 n.145). See [[cal.1965-11-14.vietnam]]. Names: Westmoreland.'
+    src:
+      c: 2e686cc6
+      rows:
+        - 'w.macv-command-history-1965 195, 197: all'
+        - 'via w.macv-command-history-1965 195 n.145: all'
+    tags: [name:westmoreland-william]
   - id: cal.1965-11-17.antisubversion-nc
     when: Nov. 17
     date: '1965-11-17'
@@ -940,6 +1164,7 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 114 n.5: A'
         - 'via w.gibbons-u-s-government-and IV, 115 n.7: B-C'
         - 'w.preston-war-council 218–19: all'
+        - 'via w.preston-war-council 219 n.27a: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:ball-george-w, name:mcnamara-robert-s, name:rusk-dean]
   - id: cal.1965-11-17.desegregation-schools
     when: Nov. 17
@@ -1005,6 +1230,18 @@ entries:
         - 'w.branch-at-canaans-edge 370: all'
         - 'via w.branch-at-canaans-edge 370 n.we-may-be: all'
     tags: [name:sullivan-william-c, name:hoover-j-edgar, name:king-martin-luther-jr]
+  - id: cal.1965-11-18.vietnam-force-levels
+    when: Nov. 18
+    date: '1965-11-18'
+    thread: vietnam-force-levels
+    c: OASD/ISA sets the fiscal 1967 military aid ceiling for South Vietnam at $633 million, on McNamara's planning assumption of a phase-down to normal levels from fiscal 1968. MACV's program, $715.1 million, not to be submitted (Nov. 20).
+    n: '[[w.macv-command-history-1965]], 131. To check: Msg, SECDEF, 181942Z Nov 65 (cited by [[w.macv-command-history-1965]], 131 n.656). Names: McNamara.'
+    src:
+      c: 4c657a2a
+      rows:
+        - 'w.macv-command-history-1965 131: all'
+        - 'via w.macv-command-history-1965 131 n.656: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1965-11-19.opinion
     when: Nov. 19
     date: '1965-11-19'
@@ -1033,7 +1270,30 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d204: all'
         - 'w.preston-war-council 214: all'
+        - 'via w.preston-war-council 214 n.14b: all'
     tags: [name:cooper-chester-l, name:bundy-mcgeorge]
+  - id: cal.1965-11-19.transition-and-staff
+    when: Nov. 19
+    date: '1965-11-19'
+    thread: transition-and-staff
+    c: 'McGeorge Bundy tells Johnson he will take the Ford Foundation; the next day they agree he will leave by the end of February. Bundy: "He was really mad."'
+    n: '[[w.bird-color-of-truth]], 344. See [[cal.1965-11-07.transition-and-staff]]. Names: McGeorge Bundy, Johnson.'
+    src:
+      c: 1605c4a5
+      rows:
+        - 'w.bird-color-of-truth 344: all'
+        - 'via w.bird-color-of-truth 344 n.107a: C'
+    tags: [name:bundy-mcgeorge, name:johnson-lyndon-b]
+  - id: cal.1965-11-20.vietnam-operations
+    when: Nov. 20
+    date: '1965-11-20'
+    thread: vietnam-operations
+    c: 'Bushmaster. Late in the day, searching toward their base, the brigade''s units attacked from a village and both sides of the road; a perimeter, air strikes: 70 Viet Cong killed, six Americans killed, 38 wounded.'
+    n: '[[w.macv-command-history-1965]], 172. See [[cal.1965-11-14.vietnam-operations]].'
+    src:
+      c: ec112ea9
+      rows:
+        - 'w.macv-command-history-1965 172: all'
   - id: cal.1965-11-21.opinion
     when: Nov. 21
     date: '1965-11-21'
@@ -1088,6 +1348,7 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 105 n.87: A-B'
         - 'via w.gibbons-u-s-government-and IV, 106 n.91: C'
         - 'w.preston-war-council 219: A'
+        - 'via w.preston-war-council 219 n.27b: A'
     tags: [name:mcnamara-robert-s, name:ball-george-w, name:wheeler-earle, name:johnson-lyndon-b, name:bundy-mcgeorge]
   - id: cal.1965-11-23.vietnam-force-levels
     when: Nov. 23
@@ -1115,6 +1376,17 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 246: all'
         - 'via w.gibbons-u-s-government-and IV, 246 n.96e: all'
     tags: [name:mcpherson-harry]
+  - id: cal.1965-11-23.economy
+    when: Nov. 23
+    date: '1965-11-23'
+    thread: economy
+    c: 'Seymour E. Harris, consultant to the Treasury, brings twenty leading economists together with the departments'' officials: growth in 1966 of 4 percent in real terms, somewhat less than in 1965. "With a few dissenters, there was no great concern that the economy was overheated and would require restrictive monetary policy."'
+    n: '[[w.bernstein-guns-or-butter]], 364. To check: Harris to Moyers, Dec. 16, 1965, Confidential File, FG 105-4, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 364 n.3).'
+    src:
+      c: 612ed2c5
+      rows:
+        - 'w.bernstein-guns-or-butter 364: all'
+        - 'via w.bernstein-guns-or-butter 364 n.3a: all'
   - id: cal.1965-11-24.opinion
     when: Nov. 24
     date: '1965-11-24'
@@ -1144,6 +1416,7 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 115: A, C'
         - 'w.preston-war-council 223: A'
         - 'w.mcnamara-in-retrospect ch. 8 at nn.22–23: A'
+        - 'via w.preston-war-council 223 n.35a: A'
     tags: [name:bundy-mcgeorge, name:dobrynin-anatoly, name:bundy-william]
   - id: cal.1965-11-25.congo
     when: Nov. 25
@@ -1152,6 +1425,17 @@ entries:
     c: 'Leopoldville. The army, at 5 a.m., takes over the government: Mobutu President; Kasavubu deposed, and Kimba, his prime minister. The embassy and the CIA station in touch with Mobutu at once. Nov. 26, Washington authorizes informal dealings; formal recognition to wait on the Africans''.'
     n: 'FRUS 1964–68, XXIII, docs. [452](https://history.state.gov/historicaldocuments/frus1964-68v23/d452), [455](https://history.state.gov/historicaldocuments/frus1964-68v23/d455), [456](https://history.state.gov/historicaldocuments/frus1964-68v23/d456). To check: [[w.weissman-american-foreign-policy-in]]; [[w.namikas-battleground-africa]]; [[w.devlin-chief-of-station-congo]]. See [[cal.1964-11-24.congo]]. Names: Mobutu, Kasavubu, Kimba.'
     tags: [name:mobutu-joseph-d, name:kasavubu-joseph, name:godley-g-mcmurtrie-ii, name:devlin-lawrence-r, name:kimba-evariste]
+  - id: cal.1965-11-25.vietnam-force-levels
+    when: Nov. 25
+    date: '1965-11-25'
+    thread: vietnam-force-levels
+    c: The Republic of China gives the South Vietnamese air force two C-46s, on trial, with Chinese crews, as cargo carriers. Its 20 political warfare advisers in the country since October 1964.
+    n: '[[w.macv-command-history-1965]], 73. To check: Saigon Daily News, 26 Nov 65 (cited by [[w.macv-command-history-1965]], 73 n.285).'
+    src:
+      c: '17287683'
+      rows:
+        - 'w.macv-command-history-1965 73: all'
+        - 'via w.macv-command-history-1965 73 n.285: all'
   - id: cal.1965-11-26.legislatures-mn
     when: Nov. 26
     date: '1965-11-26'
@@ -1160,6 +1444,19 @@ entries:
     c: Minnesota's Supreme Court, 4–3, upholds Rolvaag's veto of the reapportionment.
     n: '*Duxbury v. Donovan*, [272 Minn. 424](https://static.case.law/minn/272/case-pdfs/0424-01.pdf), 138 N.W.2d 692 (1965). See [[cal.1965-05-24.legislatures-mn]]. Names: Rolvaag.'
     tags: [state:mn, name:rolvaag-karl-f]
+  - id: cal.1965-11-26.press-and-broadcasting
+    when: Nov. 26
+    date: '1965-11-26'
+    thread: press-and-broadcasting
+    also: [robert-kennedy]
+    c: '*Time*, "The Kennedy Legend and the Johnson Performance," on the assassination''s second anniversary: "Johnson''s mythogenic capacity is limited. ... Often the contest seems downright unfair." Two in three think John Kennedy the better President.'
+    n: '[[w.shesol-mutual-contempt]], 310. Check: the poll of the two in three; Shesol cites none. To check: *Time*, Nov. 26, 1965, 30–31 (cited by [[w.shesol-mutual-contempt]], 310). Names: Johnson.'
+    src:
+      c: cd861471
+      rows:
+        - 'w.shesol-mutual-contempt 310: all'
+        - 'via x.1965-11-26.time-kennedy-legend-johnson-performance: all'
+    tags: [name:johnson-lyndon-b]
   - id: cal.1965-11-27.students
     when: Nov. 27
     date: '1965-11-27'
@@ -1196,6 +1493,8 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 115–16: all'
         - 'via w.gibbons-u-s-government-and IV, 115 n.8: all'
         - 'w.preston-war-council 221–23: all'
+        - 'via w.preston-war-council 221 n.33: all'
+        - 'via w.preston-war-council 222 n.34: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:mcnamara-robert-s, name:wilson-harold]
   - id: cal.1965-11-27.vietnam-operations
     when: Nov. 27
@@ -1248,12 +1547,23 @@ entries:
         - 'w.solberg-hubert-humphrey 284: all'
         - 'via w.solberg-hubert-humphrey 284 n.send-vp: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:marcos-ferdinand-e]
+  - id: cal.1965-11-27.program
+    when: Nov. 27
+    date: '1965-11-27'
+    thread: program
+    c: Valenti, Califano supporting, asks Johnson's leave to bring Goodwin, who resigned in the summer, back to work on the State of the Union. Johnson, who distrusts Goodwin, tells Valenti he does not want him around.
+    n: '[[w.bernstein-guns-or-butter]], 320 (Valenti, in his book, on Goodwin: "a prickly chap," "as lovable as a sullen porcupine"). Check: the day of Johnson''s answer. To check: [[w.valenti-very-human-president]], 84–87 (cited by [[w.bernstein-guns-or-butter]], 320 n.1); [[w.califano-triumph-and-tragedy-of]]. Names: Valenti, Califano, Goodwin, Johnson.'
+    src:
+      c: a52c32ae
+      rows:
+        - 'w.bernstein-guns-or-butter 320: all'
+    tags: [name:valenti-jack, name:califano-joseph-a-jr, name:goodwin-richard-n, name:johnson-lyndon-b]
   - id: cal.1965-11-28.vietnam
     when: Nov. 28–29
     date: '1965-11-28'
     thread: vietnam
     c: McNamara and Wheeler in Saigon.
-    n: 'FRUS 1964–68, III, docs. [189](https://history.state.gov/historicaldocuments/frus1964-68v03/d189) (McNamara''s draft of Nov. 3), [198](https://history.state.gov/historicaldocuments/frus1964-68v03/d198) (editorial note). [[w.drea-mcnamara-clifford-and-the-2011]], 119 (McNamara in Saigon, Nov. 28–29); [[w.staaveren-u-s-air-force]], 97 (McNamara in Saigon, Nov. 28–29); [[w.gibbons-u-s-government-and]], IV, 105–107; [[w.herring-lbj-and-vietnam]], 67 (McNamara to the officials in Saigon in November: "show me one area in this country ... that we have pacified"; not Wheeler); [[w.westmoreland-soldier-reports]], 154 (McNamara from Europe to Saigon near the end of November; the build-up, nine North Vietnamese regiments possible); [[w.mcnamara-in-retrospect]], ch. 8 at nn.19–20 (Nov. 28–29, with Lodge, Westmoreland, Wheeler and Sharp). [[w.macv-command-history-1965]], 44–45 (Westmoreland''s briefing: a further division for the coastal plain of II Corps, another near Saigon, a brigade for An Khê). To check: SECDEF Briefing, COMUSMACV, Nov. 28, 1965 (cited by [[w.macv-command-history-1965]], 45 n.98); [[w.pentagon-papers]]; [[w.berman-lyndon-johnsons-war]]; Westmoreland, history notes, Nov. 28–29, 1965, CMH; COMUSMACV briefing for the Secretary of Defense, Nov. 28, 1965, SecDef Subject Decimal files, Acc 70A-1265 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 119 n.22); MACJ03, Memorandum for the Record, "Summary of Major Points Covered During 28-29 November 1965 Meetings with Secretary of Defense," Dec. 1, 1965, COMUSMACV records (microfilm), U.S. Army Military History Institute (cited by [[w.gibbons-u-s-government-and]], IV, 107 n.92). See [[cal.1965-07-28.vietnam]]; [[cal.1965-11-14.vietnam]]. Names: McNamara, Wheeler.'
+    n: 'FRUS 1964–68, III, docs. [189](https://history.state.gov/historicaldocuments/frus1964-68v03/d189) (McNamara''s draft of Nov. 3), [198](https://history.state.gov/historicaldocuments/frus1964-68v03/d198) (editorial note). [[w.drea-mcnamara-clifford-and-the-2011]], 119 (McNamara in Saigon, Nov. 28–29); [[w.staaveren-u-s-air-force]], 97 (McNamara in Saigon, Nov. 28–29); [[w.gibbons-u-s-government-and]], IV, 105–107; [[w.herring-lbj-and-vietnam]], 67 (McNamara to the officials in Saigon in November: "show me one area in this country ... that we have pacified"; not Wheeler); [[w.westmoreland-soldier-reports]], 154 (McNamara from Europe to Saigon near the end of November; the build-up, nine North Vietnamese regiments possible); [[w.mcnamara-in-retrospect]], ch. 8 at nn.19–20 (Nov. 28–29, with Lodge, Westmoreland, Wheeler and Sharp). [[w.macv-command-history-1965]], 44–45 (Westmoreland''s briefing: a further division for the coastal plain of II Corps, another near Saigon, a brigade for An Khê). To check: [[w.pentagon-papers]]. See [[cal.1965-07-28.vietnam]]; [[cal.1965-11-14.vietnam]]. Names: McNamara, Wheeler.'
     src:
       c: 0d766720
       rows:
@@ -1276,7 +1586,7 @@ entries:
     thread: opinion
     also: [elections-1968-polls, robert-kennedy]
     c: 'Gallup, Oct. 29–Nov. 2: Senator Robert Kennedy as capable as his brother was as a Senator: yes 38 percent, no 44. Wants to be President, 74. Will win the nomination: yes 55, no 33. Would like to see him President: yes 40, no 46; Democrats 56, independents 30, Republicans 20.'
-    n: '[[w.gallup-poll]], III, 1972–73. Names: Robert Kennedy.'
+    n: '[[w.gallup-poll]], III, 1972–73; [[w.shesol-mutual-contempt]], 305 (the poll, Oct. 29–Nov. 2, released Nov. 28: 44 percent less capable, 40 (56 of Democrats) hope to see him President, 74 think he wants it). Names: Robert Kennedy.'
     tags: [name:kennedy-robert-f]
   - id: cal.1965-11-28.vietnam-support
     when: Nov. 28
@@ -1291,6 +1601,19 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 99–100: all'
         - 'via w.gibbons-u-s-government-and IV, 100 n.66: all'
     tags: [name:nixon-richard-m, name:acheson-dean-g, name:clay-lucius-d, name:conant-james-b, name:dillon-c-douglas]
+  - id: cal.1965-11-28.vietnam-force-levels
+    when: Nov. 28
+    date: '1965-11-28'
+    thread: vietnam-force-levels
+    c: 'MACV''s J3 briefs McNamara: "unless we receive by March [1966] the high priority logistic units which the J4 has described, we cannot support any add-on until the third quarter of CY 66." Westmoreland the same day on construction funding: the commander on the ground to shift funds.'
+    n: '[[w.macv-command-history-1965]], 118, 125. To check: MACV briefing to the SECDEF, Nov 65, on the shortage of logistical troop units (cited by [[w.macv-command-history-1965]], 118 n.558); Briefing, COMUSMACV, 28 Nov 65 (cited by [[w.macv-command-history-1965]], 125 n.619). See [[cal.1965-11-28.vietnam]]. Names: McNamara, Westmoreland.'
+    src:
+      c: b54ee9a5
+      rows:
+        - 'w.macv-command-history-1965 118, 125: all'
+        - 'via w.macv-command-history-1965 118 n.558: all'
+        - 'via w.macv-command-history-1965 125 n.619: all'
+    tags: [name:mcnamara-robert-s, name:westmoreland-william]
   - id: cal.1965-11-29.vietnam
     when: Nov. 29
     date: '1965-11-29'
@@ -1476,6 +1799,7 @@ entries:
       c: 4e61ea44
       rows:
         - 'w.westmoreland-soldier-reports 158: all'
+        - 'via x.1965-11.westmoreland-request-m16: A'
     tags: [name:westmoreland-william, name:mcnamara-robert-s]
   - id: cal.1965-11.latin-america
     when: Nov.
@@ -1514,3 +1838,64 @@ entries:
         - 'w.shesol-mutual-contempt 280: all'
         - 'via w.shesol-mutual-contempt 280 n.impressions: all'
     tags: [name:kennedy-robert-f]
+  - id: cal.1965-11.governors-ny
+    when: Nov., from
+    date: 1965-11
+    thread: governors
+    also: [elections-1966]
+    c: 'New York. Rockefeller begins twenty-two one-day trips around the State: meetings with businessmen, labor leaders, educators and others; an hour''s "town meeting," opened with "Tell us what we''re doing wrong, or what we''re not doing that we ought to be."'
+    n: '[[w.smith-on-his-own-terms]], 481. To check: *New York Times*, Nov. 22, 1965; *Christian Science Monitor*, Nov. 10, 1965 (cited by [[w.smith-on-his-own-terms]], 481). Check: the days and places (Elmira, Corning, Syracuse, Queens). Names: Rockefeller.'
+    src:
+      c: f536970a
+      rows:
+        - 'w.smith-on-his-own-terms 481: all'
+        - 'via x.1965-11-22.new-york-times-nov-22-1965-rockefeller: all'
+    tags: [name:rockefeller-nelson, state:ny]
+  - id: cal.1965-11.vietnam-force-levels-2
+    when: Nov.
+    date: 1965-11
+    thread: vietnam-force-levels
+    c: Westmoreland proposes more general officers for USARV's staff and an Army-level headquarters, a lieutenant general commanding, for Phase II. Dec. 27, Lt. Gen. J. E. Engler named USARV's deputy commander.
+    n: '[[w.macv-command-history-1965]], 97. Check: the day. To check: General Westmoreland''s Historical Briefing, 25 Oct 65 (cited by [[w.macv-command-history-1965]], 97 n.441). Names: Westmoreland.'
+    src:
+      c: 2e13193e
+      rows:
+        - 'w.macv-command-history-1965 97: all'
+        - 'via w.macv-command-history-1965 97 n.441: all'
+    tags: [name:westmoreland-william]
+  - id: cal.1965-11.vietnam-force-levels-3
+    when: Nov.
+    date: 1965-11
+    thread: vietnam-force-levels
+    c: Westmoreland begins organizing a second field force headquarters for III Corps, for a second division; operational Mar. 31, 1966.
+    n: '[[w.macv-command-history-1965]], 99. Check: the day (the History: "late November"). To check: General Westmoreland''s Historical Briefing, 21 Nov 65 (cited by [[w.macv-command-history-1965]], 99 n.446). Names: Westmoreland.'
+    src:
+      c: dd590ad0
+      rows:
+        - 'w.macv-command-history-1965 99: all'
+        - 'via w.macv-command-history-1965 99 n.446: all'
+    tags: [name:westmoreland-william]
+  - id: cal.1965-11.vietnam-force-levels-4
+    when: Nov.
+    date: 1965-11
+    thread: vietnam-force-levels
+    c: Westmoreland recommends contracting Alaska Barge and Transport for coastal shipping, at under half the cost of MSTS's LSTs; approved by the end of November, the contract signed Dec. 8, some 7,000 tons a month.
+    n: '[[w.macv-command-history-1965]], 121. Check: the day. To check: Msg, CINCPAC, 280050Z Nov 65 (cited by [[w.macv-command-history-1965]], 121 n.582). Names: Westmoreland.'
+    src:
+      c: 548cb1a3
+      rows:
+        - 'w.macv-command-history-1965 121: all'
+        - 'via w.macv-command-history-1965 121 n.582: all'
+    tags: [name:westmoreland-william]
+  - id: cal.1965-11.vietnam-force-levels-5
+    when: Nov.
+    date: 1965-11
+    thread: vietnam-force-levels
+    c: 'CINCPAC suggests shifting construction from expeditionary airfields to ports; Westmoreland does not concur: the money is committed, and the construction funds await Congress.'
+    n: '[[w.macv-command-history-1965]], 121. Check: the day. To check: Msg, CINCPAC, 202112Z Nov 65 (cited by [[w.macv-command-history-1965]], 121 n.585). Names: Westmoreland.'
+    src:
+      c: 68354ae6
+      rows:
+        - 'w.macv-command-history-1965 121: all'
+        - 'via w.macv-command-history-1965 121 n.585: all'
+    tags: [name:westmoreland-william]

@@ -445,3 +445,193 @@ patch-check`: 0 errors. The patch merged into a scratch copy of the repo (`./bib
 the new entries resolved as kept, `./bib check` run there: its errors on the new entries (a See to an entry still
 pending in b3-branch-pof-3, a month-only `when`, a name without a name entry) mended in the patch. The entries the patch
 cites from b3-kotz-2 (cal.1964-10-30.elections-1964) wait in the ledger (deferred).
+
+# The fourth run (Nov. 4, 2026): the Epilogue, pp. 601-613
+
+Read by the batch-3 reader "branch2" (relaunched). Patch `inbox/2026-11-03-b3-branch-pof-5.yaml` (70 ops: 34 entries
+added, 15 cites, 9 to-checks, 5 checks, 7 maps); every new entry claimed in the ledger under `b3-branch-pof-5`.
+Witnesses pending: `inbox/witnesses/2026-11-03-b3-branch-pof-5.yaml` (47 rows); the book's edges appended to
+`sources/witnesses/by-work/branch-pillar-of-fire.yaml` (94 new edges, anchors as before: the page and the note's first
+words; a text footnote's notes `fn-`).
+
+## Where the run stopped
+
+The book is read to its end: the Epilogue, pp. 601-613, and its notes, pp. 708-713 (PDF 752-757), with p. 558 again
+and its notes (p. 702) for the shooting of Benjamin Brown, which the Epilogue dates. Most of the Epilogue lies after
+the span (1969-1997): out of the brief, listed below.
+
+## The copy
+
+The same PDF (Drive id 1Qy6Ia5k69ZoiMuq5sBszzwVvFRc3Ji4Q), fetched three times through Drive's public download address,
+sharing unchanged, deleted each time once the pages were extracted. Printed page = PDF page less 44 (p. 601 = PDF 645;
+the notes, p. 708 = PDF 752), checked by the folio of every page read and against the page images of pp. 601, 606, 609,
+611 and the notes p. 708 (whose image supplies the two note numbers the text layer drops: FMXNY-5705; Stone, pp. 3-5).
+The note to the November bombings of 1967 (609) prints "Ibid., pp. 65, 69-70" after Whitehead, *Attack on Terror*;
+Nelson's *Terror in the Night* fits the run of pages the neighboring notes give it (29-32 for September, 79-80 for
+December): the edge is to Nelson, the entries say so.
+
+## The cites (R33)
+
+No entry cited the Epilogue before this run. Fifteen entries take its cite now, with the pinpoint and, where it bears
+part, the parenthetical and the letters. Where Branch gives another figure, date or detail, a Check, not an edit:
+
+| entry | the entry | Branch | ruling |
+|---|---|---|---|
+| cal.1966-01-10.mississippi | Dahmer "dies of his burns"; a voter registration book; the offer on the radio | smoke and fumes seared his lungs, death at 3:45 p.m. (607); a poll-tax receipt book signed out by Sheriff Gray; the radio notice Saturday night, Jan. 8 (606) | cite A-C; Check; the notice and the visit to Gray new entries |
+| cal.1967-10-20.mississippi | eight acquitted | seventeen defendants, seven acquitted (609) | cite A, C, E; Check |
+| cal.1966-03-28.mississippi (b3-branch-ace-2, pending) | the FBI arrests thirteen | Justice authorizes Moore that afternoon to arrest Bowers and thirteen of the Jones County White Knights (608) | cite A; Check |
+| cal.1968-03-15.mississippi (b3-branch-ace-4, pending) | Sessum convicted, life | murder convictions at three trials, all-white juries, life sentences (610), the note's NYT of Mar. 16 | cite B-C, not the names |
+| cal.1965-08-10.voting-rights | examiners at work Aug. 10 | registrars open in nine counties Aug. 20, "that Friday," 1,144 listed (605-6) | Check only; the day of Cager Lee's entry a Check |
+| cal.1965-08-06.voting-rights | the signing | in the Capitol; section 4 in seven Southern States (606) | cite A-B |
+| cal.1965-08-09.war-opposition | Aug. 9, 350 arrested | Moses (Parris) leads; Nazis' red paint on him, Dellinger, Lynd; no count (612) | cite D, not the arrests |
+| cal.1965-04-17.students | 15,000 to 25,000 | fifteen thousand at the Monument; Moses among the speakers (611) | cite A-B |
+| cal.1965-05-21.students | Vietnam Day | Moses at "a May rally in Berkeley" (611, from Petras, *We Accuse*, 151) | Check only: whether Vietnam Day |
+| cal.1965-03-21.voting-rights | the march | Heschel beside King (611) | cite B, parenthetical |
+| cal.1965-02-21.states-and-cities | three convicted, Mar. 1966 | the three convicted; sentenced Apr. 14, 1966 (602) | cite D, not the month |
+| cal.1965-02-11.civil-rights-organizations (b3-branch-pof-4) | Moses's new name | his last SNCC meeting, as Bob Parris (611) | cite B |
+| cal.1966-06.mississippi-ms (b3-branch-ace-2) | thirteen laws | the footnote's thirteen election laws of 1966 (608) | cite A |
+| cal.1967-02-27.mississippi (b3-branch-ace-3) | reindictment | proper indictments by February (609) | cite A |
+| cal.1966-03-28.court; cal.1966-06-16.mississippi; cal.1968-06-08.king | the decisions; black power; Ray's arrest | 608; 612; 612 | cite in part, parentheticals |
+
+## New entries (34)
+
+1965: Benjamin Brown shot by Temple No. 7's lieutenants, Jan. 6 (558, 602); the Nation of Islam's convention, Feb. 26
+(Wallace Muhammad, Louis X); the Stokes-case Muslims (Judge Coleman's suspensions, Mar.; the prisons, Mar. 8); the
+registrars and Cager Lee at Marion, Aug. 20; *The Autobiography of Malcolm X* (Grove, Oct.; Fremont-Smith's review,
+Nov. 5; Stone in the *New York Review*, Nov. 11); Dahmer and Fairley with Sheriff Gray, Dec. In 1966: Dahmer's radio
+notice, Jan. 8; the FBI's first day (Martin, Roy Moore), Katzenbach's statement, Jan. 10; Johnson's telegram, Jan. 11;
+the Legislature's debate, Jan. 13; Devours Nix's affidavit, Feb. 14; Lawrence Byrd's confession, Mar. 2; the FBI on
+Doar, Mar. 30; Hayer and the two others sentenced, Apr. 14; the FBI's cable on Sims, May 5; Sims and Myers convicted at
+Athens, July; Moses to Canada, Aug. In 1967: Temple Beth Israel, Sept.; the Meridian trial opens, Oct. 9, Doar's closing,
+Oct. 18; the Laurel parsonage and the rabbi's home, Nov.; Bowers and Tarrants at Collins, Dec. 20. In 1968: Charles
+Wilson's arrest and the Forrest County indictments, Jan.; Wallace Miller's store, Feb.; the Meridian synagogue and
+Bowers's mistrial, May; the $30,000 to Roberts (made public 1970), June; the Meridian shootout, June 28.
+
+None of the records behind them was read (the FBI's files, FMX and FLP; the King Center's; the LBJ Library's Name File;
+the *Hattiesburg American*): each is in "To check:" with the page that cites it. The month-only entries carry "Check:
+the day". The merge's "one event?" flags on eight of them (two Mississippi entries in a month or a day) are distinct
+events: keep.
+
+## What the book rests on (R35)
+
+Every item of the notes of the pages cited is an edge (94); 47 new rows, the rest registered already (Perry, Clegg,
+Whitehead, Nelson, Petras, Dellinger, Dillard, the interviews of Yusuf Shah, Robert Moses and Sylvia Heschel, the NYT
+of Mar. 16, 1968). Cards: Goldman, *Death and Life*; Cagin and Dray; Parker, *Black Votes Count*; Burner. New: the
+FBI's files (Baumgardner to Sullivan; SAC, New York, Apr. 14, 1966; SAC, Washington, Mar. 28, 1966; DeLoach to Tolson
+and Rosen to DeLoach, Mar. 30 and June 16, 1966; SAC, Atlanta, May 5 and 12, 1966; the Interesting Case Memorandum of
+Nov. 1, 1968), Johnson's telegram, Owens to Blackwell, the affidavit of Nix and the statement of Byrd (both printed in
+Dillard), Doar's article, Magida, the press and the author's interviews (Ellie Dahmer, Fairley, Dukes, Martin, Charles
+Wilson, Susannah Heschel, W. D. Mohammed). The notes' "via" rows go only to registered rows; an edge to a card stands
+in the by-work file and the card in "To check:". None is `read: true`.
+
+## Passed over (R44)
+
+Made page by page while reading, each dated event the Epilogue treats and the run did not enter:
+
+| page | date | event | why |
+|---|---|---|---|
+| 601 | Feb.-Mar. 1965 | Malcolm's brothers made to justify his death in public | lead: the days (Perry, *Malcolm*, 375-77) |
+| 601 | after Feb. 26, 1965 | Wallace Muhammad left without pay or post; his jobs | minor: private |
+| 602 | Feb.-Mar. 1965 | the police seize two New York Muslims as Hayer's accomplices | lead: the days (Goldman, *Death and Life*) |
+| 602 | 1966 | Hayer's testimony at the trial | lead: the day (Goldman, 318-59); in cal.1966-04-14.black-nationalism's note |
+| 602 | 1965-66 | the Newark police wreck Temple No. 25 after a chase | lead: the day (*Jet*, Jan. 13, 1966, 24-27) |
+| 602 | 1968 | the FBI's anonymous mailings: Temple No. 7's members "swindled" of $800,000 | lead: the month (Magida, 105) |
+| 602-5 | 1971-97 | Sharrieff wounded, Jamal killed, the Hanafi murders, Farrakhan's broadcasts, Elijah Muhammad's death, Wallace Muhammad's succession and reforms, Farrakhan's Nation, Qubilah Shabazz, Betty Shabazz's death | out of the brief: after the span |
+| 604 | 1977 | Hayer's affidavits | out of the brief |
+| 606 | fall 1965 | Hollis Watkins visits the Dahmers; Dahmer registers | minor: private |
+| 606 | Jan. 9, 1966 | the preachers repeat Dahmer's notice | minor: a repetition (in cal.1966-01-08.mississippi's note) |
+| 607 | Jan. 10, 1966 | Fairley and Beech at the hospital: "They finally got me"; "I think I made a mistake" | passed-over paper: private remarks |
+| 607 | Jan. 1966 | Hattiesburg's Negroes near a riot at the courthouse | lead: the day (*Hattiesburg American*, Jan. 15, 1966, 1) |
+| 607 | Jan. 1966 | white citizens rebuild the Dahmer properties | lead: the day (*Hattiesburg American*, Jan. 22, 1966, 1) |
+| 607 | Jan. 1966 | the funeral; Dahmer's white siblings | minor: family |
+| 607 | 1966 | Wilkins's fund drive in Dahmer's name | lead: the day |
+| 607 | Feb. 4-Apr. 1, 1966 | Current and Beech, letters on the NAACP and the Dahmers | minor: private letters (A/AT, box 3) |
+| 608 | Feb. 1966 | the suspects threaten one another as informers | lead: no day |
+| 608 | Mar. 1966 | the second confession, withdrawn; the third | lead: the days |
+| 608 | spring 1966 | Lackey and Guest acquitted at Athens | lead: the day (Rosen to DeLoach, June 16, 1966, FLP-475) |
+| 609 | 1968 | Sims and Myers begin their terms | lead: the day |
+| 609 | Oct.-Nov. 1967 | Price's race for sheriff | lead: the election's day (in cal.1967-10-09.mississippi) |
+| 609 | Oct. 1967 | Judge Cox frees the convicted pending appeal | lead: the day |
+| 610 | 1968 | the Dukes brothers "call out" the Klansmen downtown | lead: the day (int. James Dukes) |
+| 610 | 1968 | a defense lawyer: Martin poisoned Dahmer on Johnson's orders | lead: the day |
+| 610 | 1968 | two Negro churches burned at Meridian | lead: the days (Nelson, *Terror*) |
+| 610 | July 1968; Feb. 1969 | the second and third Dahmer murder convictions | lead: the days and the defendants (NYT, July 20, 1968, 25; July 29, 1968, 18; Feb. 1, 1969) |
+| 610 | Jan. 1969 | Bowers's second mistrial, 10-2 | lead: the day (NYT, Jan. 26, 1969, 1): within the span only if before Jan. 20 |
+| 610 | 1969 | a federal jury deadlocks on ten Dahmer defendants | lead: the day; likely after the span |
+| 610-11 | 1970-94 | Wilson's leaves, release and commutation; the paroles; Bowers's interview; Beckwith's conviction; Ellie Dahmer's petition | out of the brief |
+| 611 | Mar. 1965 | Heschel, Bevel and Forman at Sully Jackson's house in Selma | minor: private (the march cited) |
+| 611 | spring 1965 | Moses on the farms | minor: private |
+| 611 | summer 1965 | Moses and Lowenstein; the conference of antiwar activists in New York | lead: the day (Chafe, *Never Stop Running*, 218-20) |
+| 611-12 | summer 1965 | Moses and the religious leaders on Vietnam | lead: the days |
+| 612 | autumn 1965 | Moses at a conference of African nations in Ghana | lead: the day |
+| 612 | spring 1966 | the "Roots" conference, New Orleans | lead: the day (int. Moses, July 30, 1984) |
+| 612 | 1966 | Moses with Amzie Moore; Moses's marriage | minor: private |
+| 612 | winter 1966-67; early 1968 | Moses in Canada as Robinson; his Canadian passport | minor: private |
+| 612 | summer 1968 | Tanzania grants Moses tacit asylum | lead: the day |
+| 612-13 | 1970-93 | Moses's later life; Rauh's letter; Nash at Trinity College; the Algebra Project | out of the brief, or undated (Rauh's letter: lead, no date) |
+
+## The press (R13)
+
+date | outlet | broadcast, front page or cover | the items | page
+1965-02-25 | *Chicago's American* | front page | Wallace Muhammad's submission to the Nation | 601 (708)
+1965-03-03 | *Los Angeles Times* | | Judge Coleman's suspensions in the Stokes case | 604 n.
+1966-01-10 | *Hattiesburg American* | front page | the attack on the Dahmers | 606
+1966-01-11 | *Hattiesburg American* | front page | Dahmer's death; Katzenbach's statement | 607
+1966-01-11 | *New York Times* | p. 10 | the Dahmer attack | 606
+1966-01-13 | *Hattiesburg American* | front page | the cause of Dahmer's death | 607
+1966-01-15 | *Hattiesburg American* | front page | the crowd at the courthouse | 607
+1966-01-22 | *Hattiesburg American* | front page; p. 4 | whites rebuild for the Dahmers; Mrs. J. V. Sanford's letter | 607
+1966-04-08 | *Time* | p. 27 | the Dahmer case | 610
+1967-02-21 | *New York Times* | | the grand-jury claims in the Dahmer and Neshoba cases | 609
+1967-02-28 | *New York Times* | p. 40 | the same | 609
+1967-03-01 | *New York Times* | front page | the same | 609
+1968-01-25 | *Hattiesburg American* | front page | the Forrest County indictments | 610
+1968-01-26 | *New York Times* | p. 17 | the same | 610
+1968-03-16 | *New York Times* | p. 17 | a Dahmer murder conviction | 610
+1968-05-18 | *Hattiesburg American* | front page | Bowers's mistrial | 610
+1968-07-20 | *New York Times* | p. 25 | a Dahmer murder conviction | 610
+1968-07-27 | *Hattiesburg American* | front page | "Doctor Brings New Angle into Wilson Murder Trial" | 710
+1968-07-29 | *New York Times* | p. 18 | a Dahmer murder conviction | 610
+
+## Leads (R50)
+
+National
+- The Nation of Islam: the arrests of Hayer's two co-defendants, Feb.-Mar. 1965 (Goldman, *Death and Life*); Hayer's
+  testimony at the trial, 1966 (ibid., 318-59); the Newark temple wrecked by the police (*Jet*, Jan. 13, 1966, 24-27);
+  the FBI's anonymous mailings on Temple No. 7, 1968 (Magida, *Prophet of Rage*, 105).
+- The Los Angeles police's shooting of Ronald Stokes and the Muslims, Apr. 1962, and the trial: not in the calendar
+  (for the reader of *Parting the Waters*); the convictions' days (LAT, Mar. 3, 1965).
+- Moses, 1965-68: the summer conference of antiwar activists in New York with Lowenstein (Chafe, 218-20); the Ghana
+  conference, autumn 1965; the "Roots" conference, New Orleans, spring 1966; his induction notice's date; Tanzania's
+  asylum, summer 1968.
+- Cager Lee's day: Branch's Aug. 20, 1965, against the examiners' first day, Aug. 10, in the calendar (Owens to
+  Blackwell, Aug. 21, 1965, A/SC146f5; Doar, Fla. St. U. L. Rev., Fall 1997, 14).
+- *The Autobiography of Malcolm X*: Doubleday's cancellation and Grove's publication day (Warren, Baltimore Sun, Nov.
+  16, 1992).
+- Part III entries to propose: Wallace D. Muhammad (W. D. Mohammed); Louis X (Farrakhan); Norman 3X Butler; Captain
+  Joseph (Yusuf Shah); J. C. Fairley; J. L. Martin (FBI); Roy K. Moore (FBI, Jackson); Lawrence Byrd; Billy Roy Pitts;
+  Charles Wilson (Laurel); Delmar Dennis; Thomas Tarrants; Kathy Ainsworth; Devours Nix; Cager Lee. Press (R13): Eliot
+  Fremont-Smith (*NYT*); I. F. Stone (*I. F. Stone's Weekly*, *NYRB*); Jack Nelson (*LAT*).
+
+States and cities
+- Hattiesburg: the near-riot at the courthouse (*Hattiesburg American*, Jan. 15, 1966, 1); the rebuilding (Jan. 22,
+  1966, 1); Wilkins's fund drive; the second and third confessions, Mar. 1966.
+- Athens, Ga.: Lackey and Guest acquitted, spring 1966 (Rosen to DeLoach, June 16, 1966, FLP-475); Sims and Myers to
+  prison, 1968.
+- Meridian: Price's race for sheriff, 1967; Cox's release of the convicted; two Negro churches burned, 1968 (Nelson,
+  *Terror in the Night*); the payment to Roberts (Jack Nelson, LAT, 1970: the article's day).
+- Hattiesburg, 1968-69: the second and third Dahmer murder convictions (NYT, July 20 and 29, 1968; Feb. 1, 1969);
+  Bowers's second mistrial (NYT, Jan. 26, 1969, 1): its day against the span's end.
+
+Foreign
+- Tanzania's tacit asylum to Moses, summer 1968 (int. Moses, Feb. 15, 1991): the government's record.
+
+## How it was checked
+
+Each page read off the text layer, its folio checked; pinpoints against the page images of pp. 601, 606, 609, 611 and
+708. Every new entry compared with its day's (or month's) entries in the tree and the ledger before it was claimed
+(`./bib ledger find`); the Dahmer, Neshoba and Malcolm X matters claimed by *At Canaan's Edge* (b3-branch-ace-2 to -4:
+Mar. 28, 1966; Feb. 27, 1967; Mar. 15, 1968; June 1966) take additive ops, not duplicates. `./bib patch-check`: 0
+errors (ten "one event?" warnings: distinct events). The patch merged into a scratch copy of the repo (`./bib merge
+--auto`), the flags resolved as kept, `./bib check` and `./bib audit-cal` run there: no error or warning from the new
+entries (the footnote pinpoints written "604 (the footnote)", not "n.*", which the italics check reads as markup).

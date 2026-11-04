@@ -403,6 +403,77 @@ CQ Weekly Report, 1968-08-16:
 ### Navasky, *Kennedy Justice* (batch 3, second run, Nov. 3–4, 2026; notes/book-checks/navasky-kennedy-justice.md)
 - Marshall's Huntsville meeting (1962) and Ramsey Clark's Mobile meeting (1963) (222): the days.
 
+### Branch, *Parting the Waters* (batch 3, Oct. 29 and Nov. 3, 2026; notes/book-checks/branch-parting-the-waters.md)
+
+- Atlanta under Ivan Allen, 1962: the "Colored" and "White" signs taken from City Hall's fountains on his first day, the first integrated game at Ponce de Leon park (Allen, *Mayor*, 84–85, cited by Branch, 592 nn.3–4). Dates to find; no entry yet.
+- Albany, Ga.: the New York Times's profile of Pritchett, July 1962 (Branch, 620; no note). The day to find.
+- Albany: Kunstler's habeas corpus motion and the recorder's court's setting of the trial for Aug. 10, 1962 (Branch, 627). Days to find.
+- Terrell County, Ga.: Judge Elliott's refusal of the Justice Department's injunction against Sheriff Mathews, Aug.–Sept. 1962 (Branch, 637). The day and the case to find.
+- Birmingham: the judge's order setting the referendum of Nov. 6, 1962 (Branch, 656). Its day to find.
+- North Carolina: the Republican State chairman's scandal, July 1962 (Branch, 591: Time, Aug. 3, 1962, 14; Albany Herald, July 27, 1962). His name to find; entered as `cal.1962-07.republican-party` with a Check.
+- Albany, Ga.: the federal court order of November 1963 ending the Americus sedition charges, and the first convictions in the Albany Nine cases, November 1963 (Branch, 866, 868). The days to find.
+- Raleigh (34 arrested), Durham (1,000), Albany (nearly 100), May 1963; Gadsden (450 renewing the Moore march), Danville (church doors broken), Albany (nearly 150), Kansas City (pickets at police stations), June 1963; Torrance, Calif., and Athens, Ga., pickets, Aug. 1963 (Branch, 806, 834, 864; New York Times, May 15, 26, May 21, 19, June 23, 62, 1963; SAC Atlanta to Director, May 31 and July 15, 1963, FBI file 157-4-2). Days to find.
+- Atlanta: Funtown closed against integrated patrons, June 1963 (Atlanta Constitution, June 17, 1963, 5, cited by Branch, 834 n.9).
+- Toledo, Ohio: a high school protest over "black students," 1963 (Jet, Oct. 3, 1963, 48, cited by Branch, 748 n.3).
+- Ohio: two men chain themselves to the legislature's gallery; Alabama: a mob stones a white preacher's home, June 1963 (New York Times, June 14, 16, June 15, 9, 1963, cited by Branch, 825).
+- Danville, Va.: SCLC's planning, Nov. 1963: Jack Greenberg to King, Nov. 7; Chase and King to W. J. Irwin of Dan River Mills, Nov. 18, 1963 (King Papers, KP31, folders 18-19, cited by Branch, 916 n.4).
+- Birmingham: "Tall Paul," the disc jockey, announcing D-Day as a "big party," early May 1963 (Branch, 755; interview with Edwin Gardner).
+- Jackson, Miss.: Thompson's committee of his own choosing and the NAACP's boycott of Citizens Council advertisers, May 1963 (Branch, 814; Evers, *For Us, the Living*); Robert Kennedy and the President receive the Jackson NAACP preachers, June 1963 (Branch, 831). Days to find.
+
+### Branch, *Pillar of Fire* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-pillar-of-fire.md)
+
+- Mayor Shelley and Trinity's vestry: the campaign to impeach Judge Simpson (Colburn, *Racial Change*, 131–35).
+- Athens, Ga.: Benny Johnson's death by train, July 6, 1964, the FBI's inquiry (SAC Atlanta to Director, July 15 and 21,
+  1964, FLP-52, FLP-81; *Atlanta Constitution*, July 25, 1964).
+- McComb: the bombing at the end of August, the handyman arrested (U.S. Commission on Civil Rights, *Law Enforcement*
+  (1965), 30–35).
+- Greenwood's mass meeting on nonviolence after the hospital siege, late July (Belfrage, *Freedom Summer*, 183–88).
+- The Oakland meeting of the Friends of SNCC on Savio, Sept. 1964 (Mike Miller to Branch).
+- Selma: the morticians' and barbers' marches, January 1965; the Dunn's Rest Home seamstresses (Boynton to King, Nov.
+  30, 1963, A/KP21f10).
+- Atlanta: the business leaders and the King dinner, January 1965 (Pomerantz, *Where Peachtree Meets Sweet Auburn*,
+  334-40; Allen, *Mayor*, 95-99).
+- Marion: James Orange's arrest, Feb. 18, 1965, the morning (Fager, *Selma 1965*, 72-73).
+- Lowndes County: Rev. Lorenzo Harrison run out, Feb. 28, 1965 (NYT, Mar. 1, 1965, 17).
+- Hattiesburg: the near-riot at the courthouse (*Hattiesburg American*, Jan. 15, 1966, 1); the rebuilding (Jan. 22,
+  1966, 1); Wilkins's fund drive; the second and third confessions, Mar. 1966.
+- Athens, Ga.: Lackey and Guest acquitted, spring 1966 (Rosen to DeLoach, June 16, 1966, FLP-475); Sims and Myers to
+  prison, 1968.
+- Meridian: Price's race for sheriff, 1967; Cox's release of the convicted; two Negro churches burned, 1968 (Nelson,
+  *Terror in the Night*); the payment to Roberts (Jack Nelson, LAT, 1970: the article's day).
+- Hattiesburg, 1968-69: the second and third Dahmer murder convictions (NYT, July 20 and 29, 1968; Feb. 1, 1969);
+  Bowers's second mistrial (NYT, Jan. 26, 1969, 1): its day against the span's end.
+
+### Branch, *At Canaan's Edge* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-at-canaans-edge.md)
+
+- Alabama, Jan. 29–30, 1966: Wilcox, Selma, Macon and Greene County meetings on the May primary and independent parties; a Macon County "black panther" caucus called for Feb. 6 (Branch, *At Canaan's Edge*, 432; SAC Mobile to Director, Feb. 21, 1966, FBPA-2). The days and whether the caucus met.
+- Chicago, Feb.–Mar. 1966: the Warren Avenue mass meeting with the landlords Condor and Costalis (Branch, 441–42; Ralph, *Northern Protest*, 63; Look, June 14, 1966); Hoover's agents warn Archbishop Cody (Garrow, *FBI and Martin Luther King*, 176); AFSC testing teams in the suburbs; Clay Evans's Breadbasket chapter and his church's cancelled permits (Frady, *Jesse*, 196–98). No days given.
+- Lowndes County, Feb. 1966: the case name and day of Frank Johnson's school order of Feb. 11 and of the dismissal of the eviction suit (Branch, 438; Eagles, *Outside Agitator*, 255; Southern Courier, June 18–19, 1966).
+- Memphis, Feb.–Apr. 1968: the City Council's resolution of Feb. 23 and the injunctions against Wurf and AFSCME (Branch, 699, 755; Beifuss, *At the River I Stand*, 83ff.); Robert Clark's day in the Mississippi House, Jan. 1968 (cal.1968-01.mississippi-2).
+- Oakland, Feb. 17, 1968: the "Free Huey" rally's day (cal.1968-02-17.black-nationalism; Carmichael, *Stokely Speaks*, 111–30).
+
+### Smith, *On His Own Terms* (batch 3, Oct. 29 and Nov. 4, 2026; notes/book-checks/smith-on-his-own-terms.md)
+
+- New York's session laws of 1960 for the dates the 1960 program was signed (minimum wage, Housing Finance Agency, arts
+  council).
+- New York's direct primary law of 1967, the State Historic Trust, the Office of Collective Bargaining (Sept.
+  1967): the session laws and the city's record (Smith 502).
+- Johnson at Buffalo, Oct. 1966, and the State's Erie County study three days before (Smith 490): the Public
+  Papers for the day.
+- the legislators' pension law of Apr. 10, 1968 (Smith 526): *Laws of New York*, 1968, its chapter.
+- Logue and Rockefeller, Jan. 1968 (Smith 524; Benjamin and Hurd, *Rockefeller in Retrospect*).
+- New York's session laws of 1961, 1962, 1963 and 1964 for the days the governor signed the higher education
+  program, the Metcalf-Baker law, the Job Development Authority, the State University Construction Fund (Mar. 31, 1962, Smith's
+  date), the Albany County lease, the liquor bills; and the canvass of the bond issue of Nov. 1961.
+- the Liquor Authority scandal: Epstein's removal, Hostetter's appointment, the Walsh commission (Smith 391-92;
+  *Life*, Apr. 5, 1963).
+- *Public Papers of Nelson A. Rockefeller*, 1962 (pp. 1036-39, 1120, 1132-35, 1159, 1208-12): find an open copy.
+- the appeals court's decision on the South Mall, June 30, 1962 (Smith 400): the court and the cite.
+- New York's session laws of 1965-68 for the days the 1965 sales tax, the death penalty law, the free legal
+  services bills, the transit settlement law (1966), the Rye-Oyster Bay Bridge law (1967), the Medicaid law and its cuts were
+  signed.
+- Storm King: the FPC's order of Mar. 1965 and Scenic Hudson v. FPC (2d Cir., Dec. 1965), for Conservation.
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -1555,6 +1626,297 @@ Rights in Conflict (Walker Report):
 - Johnson and Luce on the press (McPherson 266–67) and Rowland Evans's talk with McPherson on the bombing, 1967 (401–02): the days (the Daily Diary; Evans and Novak's columns of 1967).
 - McPherson's memoranda, the LBJ Library's files (McPherson's office files), to read the witnesses now registered unread.
 
+### Branch, *Parting the Waters* (batch 3, Oct. 29 and Nov. 3, 2026; notes/book-checks/branch-parting-the-waters.md)
+
+- "Ink for Jack," the pens mailed to the White House on the housing order, 1962 (Branch, 586–87). The month to find.
+- Robert Kennedy, "There wasn't one area of the world that I visited ... that I wasn't asked about the question of civil rights" (New York Times, Apr. 24, 1962, 1, 20, cited by Branch, 566 n.4). The occasion to find.
+- Ruby Hurley: "Albany was successful only if the objective was to go to jail" (Lewis, *King*, 169, cited by Branch, 631 n.2). The day to find.
+- King to his staff, "I don't want to be a fireman anymore," autumn 1962 (Branch, 632; interviews: Wyatt Tee Walker, Dec. 21, 1984).
+- Murrow's urging of a second emancipation proclamation from 1961 (Golden, *Mr. Kennedy and the Negroes*, 123–24, cited by Branch, 640 n.3). No card for Golden's book.
+- The Budget Bureau's memorandum to Lee White against using the Civil War Centennial Commission for Emancipation Day (Lee White Papers, Box 20, JFK Library, cited by Branch, 685 n.4): undated in Branch; entered under Dec. 26, 1962, in part.
+- Works Branch cites without a card in the catalogue: Watters, *Down to Now*; Watters and Cleghorn, *Climbing Jacob's Ladder*; Lord, *The Past That Would Not Die*; Meredith, *Three Years in Mississippi*; Kunstler, *Deep in My Heart*; Lewis, *King: A Critical Biography*; Raines, *My Soul Is Rested*; Summers, *Goddess*; Collier and Horowitz, *The Kennedys*; Allen, *Mayor*; Golden, *Mr. Kennedy and the Negroes*. Registered here as witnesses (study rows); cards to make.
+- Press figures for a Part III entry (R13): Claude Sitton (New York Times, the South), entered many times here; Pat Watters (Atlanta Journal); Lawrence Spivak has a name entry.
+- The Robert Kennedy–Belafonte call on King's treatment in jail, Apr. 13-15, 1963 (Branch, 735): its day.
+- The White House meeting of the President with 250 religious leaders in the East Room, June 17, 1963 (Branch, 833): no entry found; the record to find.
+- The President to reporters on Hoover's files on senators, "Boy, the dirt he has on those senators," autumn 1963 (Bradlee, *Conversations with Kennedy*, 228, cited by Branch, 914 n.1). The day to find.
+- Robert Kennedy's tongue-lashings of Johnson at interagency hiring meetings, June 1963 (Schlesinger, *Robert Kennedy and His Times*, 360-61, cited by Branch, 813 n.1).
+- The President, "How the hell did this happen?", on an airman's march for Birmingham at an Air Force base in South Dakota, May 1963 (Lee White, third oral history interview, 1964, cited by Branch, 807 n.3).
+- Stories that Johnson would be sent to Scandinavia during the March on Washington (New York Times, Aug. 5, 1963, cited by Branch, 864 n.2).
+- Rockefeller's drop of thirteen points in Gallup's poll after his marriage, May 1963 (Chicago Sun-Times, May 26, 1963, 5, cited by Branch, 789 n.5): the poll's dates.
+- Works Branch cites without a card in the catalogue (registered here as study or memoir rows): Lewis, *King: A Critical Biography*; Watters, *Down to Now*; Watters and Cleghorn, *Climbing Jacob's Ladder*; Raines, *My Soul Is Rested*; Silver, *Mississippi: The Closed Society*; Kunstler, *Deep in My Heart*; Meredith, *Three Years in Mississippi*; Wilkins, *Standing Fast*; Roger Wilkins, *A Man's Life*; Farmer, *Lay Bare the Heart*; Abram, *The Day Is Short*; Whitehead, *Attack on Terror*; Viorst, *Fire in the Streets*; Manchester, *The Glory and the Dream*; Powers, *Secrecy and Power*; Allen, *Mayor*; Goreau, *Just Mahalia, Baby*; Buckley, *The Hornes*; Miller, *Lyndon*; C. King, *My Life with Martin Luther King, Jr.*; Breitman, ed., *Malcolm X Speaks*; Corley, "The Quest for Racial Harmony" (dissertation). Cards to make.
+- Press figures for a Part III entry (R13): Claude Sitton and Foster Hailey (New York Times), Pat Watters (Atlanta Journal), James Free (Birmingham News's Washington correspondent), Clarence B. Hanson (publisher, Birmingham News), C. A. Scott (Atlanta Daily World); Clark Mollenhoff has a name entry.
+- Open runs named: the Pacifica Radio Archive's tapes of 1963 (tapes 0388, 4745a, 4817, 3014); Folkways's "Birmingham, Alabama, 1963: Mass Meeting" (FH 5487) and "Movement Soul" (FD 5486); the Donald H. Smith tapes (State Historical Society of Wisconsin). Access not tested here.
+
+### Kotz, *Judgment Days* (batch 3, Nov. 3, 2026; notes/book-checks/kotz-judgment-days.md)
+
+- The Miller Center's catalogue has recordings for most of the calls Kotz's notes cite (TT, by tape and PNO); not heard.
+- The FBI King file (100-106670) and Hoover's Official and Confidential File, as Kotz cites them; the Stokes Committee's and the Church Committee's printed volumes print some (Kotz's notes).
+- Steve Horn's log of the Senate's bill, 1964 (Manuscript Division, Library of Congress): many days of April–June 1964 (Kotz, 131–50).
+- Kotz's interviews (more than 150 persons, on the record; his interview list, 475–479): not deposited, so far as the book says.
+- Belfrage, *Freedom Summer* (1965), and Colburn, *Racial Change and Community Crisis* (1985), cited by Kotz: no cards.
+- Pages 42–84 and 187–434 read by their dated passages only (chapters 8 to 14): to be read in full (the book-check, "What remains unread").
+
+### Mann, *The Walls of Jericho* (batch 3, second run, Nov. 4, 2026; notes/book-checks/mann-walls-of-jericho.md)
+
+- The Mann edges' pages come from the notes' OCR; a reader with the book should verify a sample against the printed notes, pp. 543–582.
+- Talmadge, the Strobers, Watson, Harvey, Goldsmith, Mooney, Viorst, Lord, Friedman, Fleming and Bennett: no cards (`./bib works adopt`).
+- The Passed over rows still to be turned into entries under the rules now in force (the book-check, "Resumed, Nov. 3–4, 2026"): pp. 339, 343, 356, 359–64, 369, 375, 381, 385, 387, 393, 397–98, 408, 418–23, 433–37, 443, 448, 450–51, 455, 464, 466, 469, 471–72, 489–98.
+
+### Branch, *Pillar of Fire* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-pillar-of-fire.md)
+
+- Steinbeck to Valenti, July 10 and Aug. 5, 1964, and "Notes and questions for J.V. about LBJ," Valenti Papers, AC 84-57,
+  LBJ Library; Johnson–Steinbeck call, Aug. 21, 1964, Cit. 5111 (Branch 467 n.): communications planning, R7; not entered.
+- Roy Cohn's slander suit against King and others over the July 30 statement on Commissioner Murphy (NYT Apr. 13, May 27,
+  June 3, 1965; Branch 423 n.).
+- Johnson's public acts of Aug. 3, 1964 (land transfer bill, International Hydrological Decade, the foreign-language
+  editors): the Papers' items to be checked against the calendar.
+- Theodore White's CBS *The Making of the President 1964* (Peabody tape 65043): its broadcast date.
+- Goldwater's half-hour broadcast on nuclear weapons and his television spending (Edwards, *Goldwater*, 287, 319).
+- The White House recordings behind the new entries are open on the Miller Center's pages (each in "To check:"): a
+  listening run would move them to the primary record.
+- Part III entries to propose (persons the entries name who have none): James Bevel; Judge Bryan Simpson; Holsted "Hoss"
+  Manucy; Wallace D. Muhammad; Charles Sherrod; Aubrey Williams; Hobart Taylor Jr.; Clarence B. Jones; Harold DeWolf;
+  Eugene Carson Blake; Abraham Heschel; Robert Spike; Harry Belafonte; the Athens Klansmen (Sims, Myers, Lackey, Guest), as
+  defendants (R12). Press figures (R13): Paul Good (ABC), John Herbers (*NYT*), Bill Minor (*Times-Picayune*), John H.
+  Sengstacke (*Chicago Defender*), C. A. Scott (*Atlanta Daily World*), Larry Still (*Jet*).
+- The Christian Nationalist State Army's plot against King at Los Angeles, Feb. 24-25, 1965 (SAC, Los Angeles, to
+  Director, Feb. 24, 1965, FK-980, FK-954; LAT, Feb. 27, 1965, 12).
+- *Cooper v. Pate* (S.D. Ill.; the Supreme Court's order, 1964): Malcolm X as the State's witness, the trial set for
+  Feb. 22, 1965 (Chicago Tribune, June 8, 1965).
+- The Nation of Islam's convention, Chicago, Feb. 26, 1965 (the Epilogue, 601).
+- Part III entries to propose: Louis Martin (DNC); Harry Wachtel; Clarence Jones (again); C. T. Vivian; James Bevel
+  (again); Hosea Williams has one; Wilson Baker has one; Archibald Carey; Raymond Sharrieff; Louis X (Farrakhan); Leon
+  4X Ameer, Talmadge Hayer has one; Jesse Morris; Albert Turner; F. D. Reese; Annie Lee Cooper; Frank Soracco. Press
+  (R13): Eugene Patterson (*Atlanta Constitution*), Richard Valeriani (NBC), Roy Reed and John Herbers (*NYT*), Irv
+  Kupcinet, Les Crane, Gordon Parks (*Life*).
+- Head Start's announcement, Feb. 19, 1965: the record (Levitan, *Great Society's Poor Law*, 136); the Papers print no
+  item that day.
+- The Nation of Islam: the arrests of Hayer's two co-defendants, Feb.-Mar. 1965 (Goldman, *Death and Life*); Hayer's
+  testimony at the trial, 1966 (ibid., 318-59); the Newark temple wrecked by the police (*Jet*, Jan. 13, 1966, 24-27);
+  the FBI's anonymous mailings on Temple No. 7, 1968 (Magida, *Prophet of Rage*, 105).
+- The Los Angeles police's shooting of Ronald Stokes and the Muslims, Apr. 1962, and the trial: not in the calendar
+  (for the reader of *Parting the Waters*); the convictions' days (LAT, Mar. 3, 1965).
+- Moses, 1965-68: the summer conference of antiwar activists in New York with Lowenstein (Chafe, 218-20); the Ghana
+  conference, autumn 1965; the "Roots" conference, New Orleans, spring 1966; his induction notice's date; Tanzania's
+  asylum, summer 1968.
+- Cager Lee's day: Branch's Aug. 20, 1965, against the examiners' first day, Aug. 10, in the calendar (Owens to
+  Blackwell, Aug. 21, 1965, A/SC146f5; Doar, Fla. St. U. L. Rev., Fall 1997, 14).
+- *The Autobiography of Malcolm X*: Doubleday's cancellation and Grove's publication day (Warren, Baltimore Sun, Nov.
+  16, 1992).
+- Part III entries to propose: Wallace D. Muhammad (W. D. Mohammed); Louis X (Farrakhan); Norman 3X Butler; Captain
+  Joseph (Yusuf Shah); J. C. Fairley; J. L. Martin (FBI); Roy K. Moore (FBI, Jackson); Lawrence Byrd; Billy Roy Pitts;
+  Charles Wilson (Laurel); Delmar Dennis; Thomas Tarrants; Kathy Ainsworth; Devours Nix; Cager Lee. Press (R13): Eliot
+  Fremont-Smith (*NYT*); I. F. Stone (*I. F. Stone's Weekly*, *NYRB*); Jack Nelson (*LAT*).
+
+### Branch, *At Canaan's Edge* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-at-canaans-edge.md)
+
+- Birmingham, Jan. 24, 1966: the Attorney General's certification for federal examiners in Jefferson County, Federal Register, January 1966 (cal.1966-01-24.voting-rights).
+- Motley's nomination to the Southern District of New York: the day (cal.1966-01.civil-rights-the-executive-2; Washington Post, Jan. 26, 1966, 2).
+- Postage from 5 to 6 cents, Jan. 7, 1968: the Postal Revenue and Federal Salary Act of 1967 and its effective day (Branch, 666).
+- Patman's bill against bank sales of lottery tickets, Feb. 1968, and the hearing Branch cites (Senate Banking, Aug. 19, 1967) (Branch, 675–76).
+- Komer's announcement of Jan. 25, 1968, two-thirds of South Vietnam's people secure (NYT, Jan. 25 or 26, 1968; Branch, 676).
+- The FBI's papers of Feb.–Apr. 1968 on King (Parade, Feb. 29; the propaganda of late March; SAC Jackson, Apr. 4): FBI King file, as Branch's notes give them (734–35).
+- Johnson at St. Patrick's Cathedral, Apr. 4, 1968, Cooke's installation (Branch, 764).
+- The National Guard's drive for Negro members, Mar. 31, 1968 (NYT, Mar. 31, 1968, 1; Branch, 751).
+
+### Kabaservice, *Rule and Ruin* (batch 3, second run, Nov. 4, 2026; notes/book-checks/kabaservice-rule-and-ruin.md)
+
+- Dumont demands that Hughes fire Genovese; Hughes refuses, Aug. 1965 (Kabaservice, 159; the *Times*, Aug. 12, 1965, cited 159 n.163): the day.
+- A poll, fall 1967, Johnson two points ahead of Stassen (Kabaservice, 230): the day and the pollster.
+- The by-work edges at 51 n.70, 87 n.61, 101 n.20, 172 n.46, 188 nn.133-136 stand a page beside the note's marker; those at 54 n.80, 59 n.110, 83 n.46, 210 n.73 at notes whose marker the text layer does not show: to verify against the book.
+
+### Goldberg, *Barry Goldwater* (batch 3, Nov. 4, 2026; notes/book-checks/goldberg-barry-goldwater.md)
+
+- The Passed over rows marked "a lead" (some forty, 1960-68, each with Goldberg's page and note): the book-check's "Passed over".
+- Eisenhower's telephone log, June-July 1964 (Appointment Book Series, Eisenhower Library; Goldberg 200 n.127): an entry a call.
+- Goldberg's notes rest heavily on the Barker History Center's Goldwater Collection, the Arizona Historical Foundation's Goldwater Papers (the Alpha File), the Hoover Institution's Kitchel, Brown and Free Society Association collections: none open here.
+- Persons named without a name entry: Dan Smoot, Elizabeth Churchill Brown, Jack Stewart, William Saufley, Gregory Shorey Jr.
+- The State convention entries of 1964 (Oklahoma, North Carolina, Texas) and Nixon's acceptance (Aug. 8, 1968) await Goldberg's cites.
+
+### Smith, *On His Own Terms* (batch 3, Oct. 29 and Nov. 4, 2026; notes/book-checks/smith-on-his-own-terms.md)
+
+- Eisenhower's two telephone calls to Rockefeller, spring 1960 (Smith 336): the Eisenhower Library's telephone logs.
+- Nixon to Hoover, Nov. 22, 1963 (Smith 418; Nixon, *RN*, 312): see whether the calendar has it.
+- Clif White's forecast, May 29, 1964 (Smith 447); Scranton to Rockefeller, Aug. 3, 1964, and Rockefeller to Hugh Scott,
+  Aug. 28, 1964 (RAC; Smith 452).
+- Nixon's endorsement of Rockefeller, Oct. 1966 (Smith 491): the day.
+- Miller's election as national chairman, 1961: no entry; the day from the national committee's record (Smith 357).
+- Laurance Rockefeller's $30,000 loan to Miller, 1961 (Smith 387 n.): the day.
+- Kennedy to Bradlee on Rockefeller and *Newsweek*'s cover (Bradlee, *Conversations with Kennedy*, 74-75): the day.
+- the Ideological Organizations Project of the IRS, late 1961 (Smith 379 n.; Andrew, *The Other Side of the Sixties*).
+- Goldwater on the divorce, Nov. 1961; Khrushchev on it (Smith 364-65): the days.
+- cards to make (no card yet, cited in full in "To check:"): Klein, *Lindsay's Promise* (1970); Benjamin and Hurd,
+  *Rockefeller in Retrospect* (1984); Schlesinger, *Journals, 1952-2000*; Hevesi, *Legislative Politics in New York State*;
+  Gordon, *Battery Park City* (1997); Robert David Johnson, *All the Way with LBJ*; *Public Papers of Nelson A. Rockefeller*
+  (a card a year, as the Bulletin's).
+- the Johnson-Rockefeller recording of Nov. 9, 1965, 9:15 p.m. (Miller Center, WH6511-05-9147): to hear and cite as
+  the primary record of cal.1965-11-09.states-and-cities-2.
+- the Public Papers of Governor Rockefeller (1959-73), cited by Smith throughout as "NR, PP": find a copy; the
+  statement of Apr. 5, 1968 (1968, 1039), the ASNE speech (1968, 1303-08), the postelection press conference (1964, 876).
+- Hirshhorn's gift (Smith, 464, May 1965): the day of Johnson's announcement.
+- Press: Murray Kempton, Victor Riesel, Gene Spagnoli (the *Daily News* at Albany), Jimmy Breslin: Part III entries to propose
+  (R13); Kempton's columns of Nov. 5, 1965, and June 16, 1966, entered.
+
+### Nixon, *Six Crises* (batch 3, second run, Nov. 4, 2026; notes/book-checks/nixon-six-crises.md)
+
+- *Six Crises*, xi–xii: April 1961, Adela Rogers St. Johns's call, Ken McCormick of Doubleday in California
+  the next day, the six crises chosen, the book undertaken. Not entered: the pinpoint test (`is_pin` in
+  `tools/bib/claims.py`) takes no roman folio, so "xi–xii" fails [claims]; a ruling or a fix would let the front matter
+  of any book be cited (*Rights in Conflict*'s "xiii–xiv" is in the same case). The entry would go under Republican
+  Party.
+- *Newsweek*'s informal poll of the reporters who covered the campaign, Kennedy 37, Nixon 13 (396): the
+  issue.
+- Willard Edwards's letter to Nixon on the coverage (419–20), and Dewey's counsel against decisions for
+  sixty days (423 n.15): the dates.
+- Press figures for Part III (R13), with the work that treats them (*Six Crises*, 359): David Lawrence, the
+  columnist; Sam Lubell; Ernest K. Lindley of *Newsweek*; Leon Pearson and Elmer Peterson of NBC. And Whittaker
+  Chambers, who has no name entry (cal.1961-02.elections-1962, cal.1961-07-09.conservative-movement).
+- The newsweeklies' forecasts (cal.1960-10-25.elections-1960-6 to -8) and Lubell's election-eve forecast:
+  the issues and the medium.
+
+### White, *The Making of the President 1960* (batch 3, second run, Nov. 4, 2026; notes/book-checks/white-making-of-the-president.md)
+
+- the House Committee on Education's "testing" of the education bill on Mar. 9, 1961 (White,
+  375): the Digest's rows for March 1961 (`daybook/committees/1961-03.yaml`) show the education hearings on other days;
+  which day White meant.
+- the Congress's hearings on the National Purpose, 1960, and the *Times*'s front-page dispatch
+  from Moscow at the year's opening (White, 377): the days.
+- John Bartlow Martin and Joseph Kraft as the campaign's "editorial advance" (White, 324): when
+  they joined; Kraft and Martin for Part III (R13).
+- the figures of chapter 15 with no series to hold them: the stockpile at the end of 1960,
+  "thirty-five kilomegatons" (372–73, after Hadley, *The Nation's Safety and Arms Control*); the science appropriations
+  of 1960 (379).
+- For the merger (not applied: the AP's reading, White's Appendix A, not given): the AP's tabulation of Dec. 17, 1960 (`x.1960-12-17.associated-press-final-tabulation-of-the-presidential`)
+  is a variant of `cal.1960-11-08.elections-1960` unit A (R41).
+
+### Zelizer, *The Fierce Urgency of Now* (batch 3, Nov. 4, 2026; notes/book-checks/zelizer-fierce-urgency-of-now.md)
+
+- The sixteen dated entries the book-check lists whose Zelizer citation was not located: read chs. 7–9 for them.
+- Oct. 29, 1963, the Judiciary Committee's vote: 23–11 (*Times*, Oct. 30) against the entry's 20–12; the committee's report.
+- Aug. 13 or Aug. 9, 1966, the House's passage of the civil rights bill: the Record.
+- The AMA's meeting with Johnson, late June or July 29, 1965: the Daily Diary.
+- Not read, or read in part: pp. 1–2; ch. 7, pp. 228–244, 248–262; ch. 8, pp. 263–269, 272–275, 277–278, 284–294, 296–298; ch. 9 and the epilogue, pp. 303–324. Passed over not kept row by row (R44, R48): for the next reader.
+
+### Bernstein, *Guns or Butter* (batch 3, Nov. 3–4, 2026, the second and third runs; notes/book-checks/bernstein-guns-or-butter.md)
+
+- The Passed over rows marked "a lead" (the second and third runs).
+- Ways and Means's hearings of Jan. 22–23, 1968 (Fowler, Schultze, Martin, Ackley; Bernstein 372): the hearing record.
+- The Finance Committee's votes of Mar. 1968 (12–5; 9–8) and its report of Mar. 15 (373): the committee's report and the *CQ Almanac*, 1968, 263–78.
+- Nov. 22, 1966, the Ranch: the fiscal year of McNamara's $20 billion and the deficit's $1.8 and $9 billion (360): Shapley, 367–74.
+- Califano's oral histories as Bernstein numbers them (I, XXIV, XL, XLI, LVII) against `x.undated.joseph-a-califano-jr-oral-history` (Mar. 16, Dec. 21, 1988, June 13, 1989): perhaps one series.
+- The Kennedy Center act's Statutes cite (`cal.1964-01-23.program`, Check); the Finance Committee's report of Jan. 28, 1964 (S. Rep. No. 830, registered, not read).
+- The press, named and passed over: the *Times* on Johnson "sputtering mad" (aluminum, Nov. 1965, 362: the day); *Congressional Quarterly*'s "Lobbying by Business Key to Passage" (June 1968, 376); a Karachi columnist on Bashir's invitation (1961, 10); the White House reporters on the $101–102 billion figure (Nov.–Dec. 1963, 30).
+- Heller to Johnson, Nov. 25, 1963: `x.1963-11-25.heller-to-johnson-case-for-a-101-102` ("Case for a $101-102 billion Budget," GEN-CEA File, LBJ Library; Bernstein 32 n.2d) and `x.1963-11-25.walter-heller-to-lyndon-johnson-nov` (Kermit Gordon Papers, Box 13, "The Tax Bill and Budget Expenditures," JFK Library; Zelizer, *Taxing America*, 202 n.95) may be one memorandum in two files: left apart by the merger (two repositories, the second row's description only the folder's), for a reader with either copy.
+
+### Preston, *The War Council* (batch 3, second run, Nov. 4, 2026; notes/book-checks/preston-war-council.md)
+
+- Preston's interviews (Kaysen, Katzenbach, Bator, McNamara, Hughes, Thomson, 1999) and Joseph Kraft's interviews with Forrestal (Apr. 8, July 28, Aug. 14, 1964), registered `open: not held`: where Kraft's transcripts are (Preston names no repository).
+- Forrestal to Bundy and Kaysen, Aug. 18, 1962, and Forrestal to Kennedy, Aug. 28, 1963: in Harriman's papers held privately by Kai Bird (Preston 107 n.17, 124 n.64); Bird's notes may say where they went.
+- The Mar. 1965 memorandum of Bundy's for a speech on Kennedy's policy (cal.1965-03.vietnam-support): Preston names no document; Small, *Johnson, Nixon, and the Doves*, 40, and Reeves, 660-61, may.
+- (The reader's query on `w.bird-color-of-truth` carrying William Bundy's role line as a note: the card has no note now; the line is not on the card, nor on the Viet. II.H.1 listing.)
+
+### Bird, *The Color of Truth* (batch 3, Nov. 4, 2026; notes/book-checks/bird-color-of-truth.md)
+
+- The Public Broadcasting Laboratory's $10 million (1967), the Bedford-Stuyvesant Corporation's Ford grant (1966), the
+  Southwest Council of La Raza's (1968): the days, from the Ford Foundation's annual reports or the *Times*.
+- Forrestal's Kraft interviews (1964) and Joseph Kraft's papers; Bird's "Harriman/Bird Papers" (the Harriman papers held
+  by Bird), where they went.
+- I. F. Stone's "Reply to the White Paper": *I. F. Stone's Weekly*, Mar. 8, 1965 (the issue to confirm).
+- Kraft and I. F. Stone have no name entries: propose Part III entries (R13).
+
+### Woods, *J. William Fulbright, Vietnam, and the Search for a Cold War Foreign Policy* (batch 3, Nov. 4, 2026; notes/book-checks/woods-j-william-fulbright-vietnam.md)
+
+- The Mount Vernon dinner (Woods 41, "June 11"): the date, against the Public Papers' account of Ayub Khan's visit (July
+  1961).
+- Woods's footnotes: Fulbright to Kennedy, June 28, 1961 (WHOF, box 639, Kennedy Papers); "Memorandum Submitted to
+  Department of Defense," Aug. 2, 1961 (SPF, series 4:19, box 26:1): the memorandum's record for
+  cal.1961-08-02.right-and-the-military.
+- Woods, second run: the papers of government on pp. 132-136 (Lodge, Apr. 29, 1966; Rostow to Harriman, Jan. 28; Rostow
+  to Johnson, Apr. 5 and June 1; Harriman to Rusk, May 10; the NSC of May 10 and June 17; Hoover to Tolson, July 1):
+  entries by R8, FRUS 1964-68, IV first where it prints them.
+- The Minutemen plot (Woods 125): Brooks's testimony in Kansas City, its day (the *Arkansas Gazette*, Apr. 8, 1966).
+- Athan G. Theoharis, *From the Secret Files of J. Edgar Hoover* (1991): no card; a witness row only (Woods 119 n.47).
+- The Fulbright Papers (SPF, University of Arkansas), the Marcy Papers (SFRC, RG 46) and the LBJ Library's files Woods
+  cites, item by item in the witness file: the archival copies of the new entries, none read.
+- 113 Cong. Rec. 15018 (Senate, June 7, 1967): Fulbright's Pacem in Terris speech as printed, for its day and words.
+- Woods's account of Fulbright's questions to Russell (a declaration of war; a million men?): the Record of Feb.-Mar.
+  1967, the day not found (Woods's page cites Mar. 13, a letter).
+- *The Arrogance of Power*'s day of publication (Random House, Dec. 1966).
+- Part III entries to propose (R13): William S. White (columnist, *Washington Post*); Martin Agronsky (CBS); E. W.
+  Kenworthy and John W. Finney (*New York Times*, on the Tonkin inquiry); J. Russell Wiggins has one.
+- Persons without name entries named in the new entries: Seth Tillman, Carl Marcy's staff (William Bader, Don
+  Newhouse), Ben Grinage, Lee Williams, Cyrus Eaton, Erich Fromm, Martha Gellhorn, Igor Bubnov, David Ness.
+
+### Westmoreland, *A Soldier Reports* (batch 3, second and third readings, Nov. 3–4, 2026; notes/book-checks/westmoreland-soldier-reports.md)
+
+- Westmoreland's message against the Chiefs' proposal on the dependents and the Marines, Nov. 1964 (112): its day; FRUS 1964-68, I.
+- The joint planning of reprisals authorized, late Jan. 1965 (115): the cable.
+- State's cable to Lodge on pacification, Sept. 1965 (161): FRUS 1964-68, III.
+- The defector at Khe Sanh (Jan. 20, 1968) and the strategy conference of Jan. 27 (317-20): the entries, if any.
+- Westmoreland's CBS interview with Steve Rowan, Nov. 1967 (231, 234): the day and the broadcast; CBS's archive.
+- His press conferences: Saigon, on dissent, after Apr. 1967 (226); the northern provinces, Feb. 1968 (345); the White House
+  lawn, the link-up at Khe Sanh, Apr. 1968 (347): the days.
+- Gavin's letter in *Harper's*, Feb. 1966 (129): the issue's pages; read the letter.
+
+### Berman, *Lyndon Johnson's War* (batch 3, Nov. 4, 2026; notes/book-checks/berman-lyndon-johnsons-war.md)
+
+- Fulbright's "sick society" (Berman 60): the speech and its day.
+- The second JASON study of 1967 (121-22; *Pentagon Papers*, IV, 116, 224-25): its day; an entry under the air war.
+- Johnson's Christmas message, Dec. 24, 1967 (137): the Public Papers.
+- Johnson at Dallas, Feb. 27, 1968, the National Rural Electric Cooperative Association (174-75): find or make the entry.
+- Kennan at a McCarthy campaign dinner, March 1968 (181): the day and the words.
+- Gallup, Mar. 10, 1968, 49 percent "wrong" (185): the Opinion entry.
+- Aiken's "declare that we have achieved our objectives" and Marks's exchange with Johnson (202-3): the day of Aiken's remark; Marks's oral history.
+- The *Pueblo*: Rusk's "act of war ... cool it," Bucher's confession, the 15,000 reservists, Bates, Church (144-45): their days.
+- Rostow at the Tuesday lunch on Tet's news, Wheeler's "mugging" (146): place in the Jan. 30, 1968, lunch's entry; Westmoreland's cable to Sharp (700 dead).
+- Enthoven's "Alternative Strategies" (177, *Pentagon Papers*, IV, 556-57): its day.
+- Work on SNIE 14.3-67 suspended (76): its day.
+- Johnson on NBC and the *Times* (183), "an interview on September 20, 1967": whether the Australian broadcasters' meeting (a Check in cal.1967-09-20.vietnam-2); his remark to Max Frankel.
+- Press figures for Part III (R13): Peter Lisagor (*Chicago Daily News*), Russell Baker (*New York Times*), Hedrick Smith, Ward Just (*Washington Post*), Don Oberdorfer (*Washington Post*), R. W. Apple (no name entry found), with this book and Oberdorfer's *Tet!*.
+- The CBS-Westmoreland Joint Exhibits and the Lawyers' Brief (passim): where a set is open (the LBJ Library's CBS Subpoena files are cited by case and document).
+
+### The MACV Command Histories, 1964, 1965, 1967, 1968 (batch 3, second runs, Nov. 3–4, 2026; notes/book-checks/macv-command-history.md)
+
+- Annex C of the 1968 volume (the Office of Information and the press, pp. 935-96): its dated incidents (above), to be
+  read off the page images. The 1967 volume's "Press and Public Opinion," 959-69: the Washington meeting on public
+  support (no date given); Westmoreland's instruction that TV crews be escorted (no date given).
+- Propose Part III entries for the press figures named here without one: Don Webster (CBS), Osborn Elliott
+  (*Newsweek*), John S. Carroll (*Baltimore Sun*), Alvin B. Webb Jr. (UPI); the History treats each.
+- The congressional delegation of Schwengel and Cowger and its complaint to the press (1967 vol., 1201): no date given.
+- Westmoreland's "Historical Briefings" (1965: Sept. 4, Oct. 3, 25, 31, Nov. 21) and his Honolulu notebook (Apr. 18,
+  Aug. 20, 1965), cited by the 1965 volume's notes: whether CMH or the LBJ Library holds them open.
+- Bob Hope's Christmas tour of 1964 (1964 vol., 20): the troupe's stops; the press.
+- Propose Part III entries (K–J Cong. III.J or Viet.) for the press figures the annex treats: Bill Tuohy (*Los Angeles
+  Times*), Donald Kirk (*Washington Star*), Peter Braestrup (*Washington Post*; a name entry wanted), John S. Carroll
+  (*Baltimore Sun*), Helen A. Musgrove (Jacksonville *Journal*), Joseph B. Treaster (*New York Times*), Gene Roberts
+  (*New York Times*), John Wheeler (AP), Everett G. Martin (*Newsweek*).
+- The 1968 volume's Annex C, its undated items: Gene Roberts's article on the press and the military; Wheeler's on Khe
+  Sanh; the Schlesinger-Alsop exchange; the *Tampa Tribune*'s editorial of Sept. 30 (983, not read off the page);
+  Clifford's message praising MACV's press work ("nine days later," 970).
+
+### Kotz, *Judgment Days* (batch 3, third run, Nov. 4, 2026; notes/book-checks/kotz-judgment-days.md)
+
+- The Miller Center's recordings of Aug. 1964 that Kotz's notes cite and the series has not heard: Wilkins (Aug. 15), Eastland (Aug. 17, 22, 23), Daley, Reuther (Aug. 1, 9, 17, 21, 24), Wirtz, Humphrey (Aug. 14, 20, 25), Rowe, Hoyt, Jenkins, Russell, Sanders, Wynn, Barr; and of 1964–65: Katzenbach (Nov. 11, Dec. 14, Feb. 5), DeLoach (Nov. 20), King (Jan. 15), Powell (Mar. 1), Humphrey and Russell (Mar. 6), McNamara (Mar. 6).
+- *S. Rep. No. 94-755*, Book III (1976), open on the Senate's site: pp. 81, 143–63 print or describe the FBI's papers on King of Oct. 1963–Jan. 1965 that Kotz cites (the report of Dec. 1, Moyers's note, the anonymous letter): to read and cite as the primary record.
+- Russell's handwritten notes, Aug. 20 and 25, 1964 (Richard B. Russell Library, University of Georgia); Lady Bird Johnson's diary, Mar. 7, 1965 (LBJ Library).
+- Kotz's interviews of this run: Moses, Markman, Edwin King, Victoria Gray Adams, Guyot, Stegall, Patterson, Farmer, Bradlee, Burke Marshall, Graham and Herbers, Vivian, Cotton, Mathias, Hosea Williams, John Lewis, Lee White, Lynda Bird Johnson Robb, Ken Young and Larry Levinson, Christian: not deposited.
+- Anne Romaine's interviews (Rauh, Edwin King, Hamer), State Historical Society of Wisconsin: the pages Kotz cites.
+- Press figures for Part III (R13): Palmer Hoyt (*Denver Post*), James McCartney (*Chicago Daily News*), David Kraslow (*Los Angeles Times*), Eugene Patterson (*Atlanta Constitution*), Fred Graham and John Herbers (*New York Times*), with Kotz, 212, 239, 248–49.
+
+### Bernstein, *Guns or Butter* (batch 3, fourth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
+
+- The fourth run's Passed over rows marked "a lead".
+- The roll calls of Tower's amendment, June 11, 1964 (49 to 38), and the Senate Republicans' policy luncheon of Apr. 28, 1964 (Voteview; the Record).
+- Califano's letter of Sept. 27, 1968, to the departments (Task Force Subject File, LBJ Library).
+- The 1965 task force report on the cities, printed as appendix 2 of Haar, *Between the Idea and the Reality* (`w.haar-between-the-idea-and`): its pages to read.
+- The press, named and passed over: the *Chicago Tribune* and Arthur Krock in the *New York Times* "outraged" at the Motorola ruling (1964, 74: the days); the *Times* on the price of demonstration cities, double the estimate, and calling the bill "dead" (May 1966, 464); the wire stories on Califano's briefing (1966, 464); Smoot's broadcasts against the bill (1966, 466).
+
+### Shesol, *Mutual Contempt* (batch 3, third run, Nov. 4, 2026; notes/book-checks/shesol-mutual-contempt.md)
+
+- The third run's Passed over rows marked "lead," each with its page; chief among them the days of Feinberg's nomination (1966), Goldman's resignation and Roche's appointment (1966), the Senate doves' meetings (1967), McNamara's memorandum given Kennedy (1967), Christian's memorandum on Wilson (1968), "The People Left Behind" (Sept. 1967), and Johnson at the National Press Club (Jan. 1969).
+- Press: Part III entries to propose for Hayes Redmon (Moyers's press office), Fred Panzer, William Connell (Humphrey's aide), Jerry Bruno, Peter Edelman, Jack Newfield (*Village Voice*), Peter Lisagor (*Chicago Daily News*), Richard Harwood (*Washington Post*), Robert Scheer (*Ramparts*), Penn Kimball, Michael Janeway and Elizabeth Drew (*Atlantic*), each with Shesol's pages.
+- Bundled entries, for the owner (R17): `cal.1968-03-14.robert-kennedy` holds the meeting with Clifford (Mar. 14) and the announcement (Mar. 16); `cal.1968-04-24.elections-1968` holds Freeman's endorsement and the next day's.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2612,6 +2974,86 @@ CQ Weekly Report, 1968-08-30:
 ### Califano, *The Triumph and Tragedy of Lyndon Johnson* (batch 3, second run, Nov. 4, 2026; notes/book-checks/califano-triumph-and-tragedy-of.md)
 - Andreas Papandreou's arrest, Apr. 1967, and Johnson's word to the junta (243).
 
+### Branch, *Parting the Waters* (batch 3, Oct. 29 and Nov. 3, 2026; notes/book-checks/branch-parting-the-waters.md)
+
+- Ecuador: the military coup against President Carlos Arosemena, July 1963 (New York Times, July 12, 1963, 1, cited by Branch, 851 n.2); no thread for Ecuador found.
+- Rallies for Birmingham in Birmingham, England, and Havana, May 1963 (Chicago Defender, May 11, 1963, 4, cited by Branch, 806 n.9).
+
+### Branch, *Pillar of Fire* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-pillar-of-fire.md)
+
+- Taylor's cable, "Khanh has a 50/50 chance of lasting out the year," and Khánh's state of siege, Aug. 7, 1964 (Gravel ed.,
+  *Pentagon Papers*, II, 329; III, 530–33).
+- Rusk's cable, "a pervasive infusion of Americans" (Karnow, *Vietnam*, 361).
+- Bundy from Saigon, Feb. 4, 1965, "a civil war within a civil war" (McNamara, *In Retrospect*, 170): the calendar's
+  Feb. 4 entries not checked against it.
+- Malcolm X in Paris refused, Feb. 9, 1965 (Legat, Paris, to Director, Feb. 11, 1965, FMX-233): France's record.
+- Tanzania's tacit asylum to Moses, summer 1968 (int. Moses, Feb. 15, 1991): the government's record.
+
+### Branch, *At Canaan's Edge* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-at-canaans-edge.md)
+
+- Tiger Force, 101st Airborne, 1967–68: the dates of its operations in Quảng Ngãi and Quảng Tín and of the Army's inquiry (Toledo *Blade*, Oct. 19–22, 2003; Branch, 713).
+
+### Nixon, *Six Crises* (batch 3, second run, Nov. 4, 2026; notes/book-checks/nixon-six-crises.md)
+
+- Venezuela, December 1961: the newspaper Nixon calls "Clarion" (223 n.3), its name and the day of its
+  suspension; the days of the demonstrations and the deaths.
+- Peru, December 1961: where and how the two students' statement was made (231 n.4).
+- The Kennedy administration's retention of Thompson at Moscow (248): the roster holds his tenure; no date
+  given here.
+
+### Bird, *The Color of Truth* (batch 3, Nov. 4, 2026; notes/book-checks/bird-color-of-truth.md)
+
+- Indonesia, 1965-66 (Bird 351-354): the CIA's assessment of Jan. 3, 1966, and Komer's report to Johnson of Feb. 10,
+  1966 ("some 100,000 Communists have been killed"): to set against the Indonesia thread.
+
+### Woods, *J. William Fulbright, Vietnam, and the Search for a Cold War Foreign Policy* (batch 3, Nov. 4, 2026; notes/book-checks/woods-j-william-fulbright-vietnam.md)
+
+- Trần Văn Đỗ's and the South Vietnamese embassy's protest of Fulbright's charge, Feb.-Mar. 1967: the day (Fulbright
+  to Đỗ, Mar. 3, 1967).
+- Ness's letter from Cairo, early Feb. 1967: whether the *Baltimore Sun* of June 11, 1967 printed it (Made public?).
+
+### Westmoreland, *A Soldier Reports* (batch 3, second and third readings, Nov. 3–4, 2026; notes/book-checks/westmoreland-soldier-reports.md)
+
+- The State cable of Feb. 1965 on a "climax" (118): FRUS 1964–68, II.
+- Vance to McNamara, July 17, 1965 (143): FRUS 1964–68, III.
+- Westmoreland's requests for B-52 strikes, Mar. and June 1965 (137), and for the Army brigade and the Phú Bài battalion, Mar.
+  1965 (125): the messages.
+- Westmoreland's letter to Khánh on the hostage captain, Sept. 1964 (79).
+
+### The MACV Command Histories, 1964, 1965, 1967, 1968 (batch 3, second runs, Nov. 3–4, 2026; notes/book-checks/macv-command-history.md)
+
+- The 1967 volume's J5 studies (1024-29), undated in the text: Crystal Ball, the casualties after a bombing halt, a
+  token withdrawal, operations in Cambodia, American forces into Laos, Cambodian rice; their dates in the notes.
+- The saga of Nguyễn Văn Bé (1967 vol., 669-72): the day of his return to his hamlet.
+- The 1967 volume's Annexes B (civilian casualties), C (the Montagnards), D (international political developments and
+  the constitution), I (the list of operations); the 1968 volume's Annexes A (Tet in retrospect) and B (the barrier) and
+  its Chs. III, VI-XII: not read.
+- Kỳ's decree making the Military Academy a four-year school, Dec. 13, 1966 (1967 vol., 181); Westmoreland's reply on
+  the general reserve battalions, Mar. 3, 1967 (193).
+- The 1966 volume (still not among the copies).
+- SEACOORD (1964 vol., 166-67, nn.61-64): Saigon 870 (Sept. 16), 913 (Sept. 19), State 727 (Sept. 25), Saigon 1080 (Oct.
+  10), 1415 (Nov. 6), 1964: not in the daybook's FRUS; the State files.
+- The television plan for South Vietnam (1964 vol., 76-77, 176): the Mission's TV subcommittee; its 1965 sequel.
+- The 1964 volume: the sector intelligence centers before Bình Giã and Đại Ngãi (39); the airfields' change "when the
+  25th Division" moved (114); Northern Toll (178); the radio retrofit (179); the RVNAF promotion study (26).
+- The 1965 volume: the PBRs' arrival (57); the Vietnamese Marines' five-year plan (70); the tailored corps concept, April
+  (96); the Washington meeting on combined command, mid-March (100); the 2d Signal Group and the 18th Engineer Brigade
+  (106); the Secretary of the Army's direction of Nov. 19 (115); the April reprogramming (125); "special strike zones"
+  (188); Saigon's 1966 defense budget approved Jan. 17, 1966 (132).
+- The *Muskingum* at Đà Nẵng, Oct. 30, 1964: what happened (the History has only CINCPACFLT's question).
+- 1968 vol., Ch. III: the weapons first found or used (106-19) and the terror incidents (140-48), each with its page;
+  the corps-by-corps attacks (155-95) not entered; the NLF's statement of Nov. 3 (40); Hanoi's flour request (52).
+- 1968 vol., Ch. IV: the weapons programs' approvals (261-70), the mobilization decrees (270-75), the RVNAF's units and
+  pay (281-308, 316-43); the Free World section (348-55) is not in the copy: another copy needed.
+- 1968 vol., Ch. V: Combat Lancer's F-111As (Apr. 5, 10); Capt. Gerald O. Young's rescue (431); the merchant ships
+  attacked in the channel to Saigon (Aug. 10-Dec. 4, 459-60); the Mobile Riverine Force's operations (466-72); Turnpike's
+  first day (407, the columns garbled); the Đức Lập battle's size (403 against the pending entry of Aug. 23).
+- 1968 vol., Ch. XI: New Castle, the prisoner study, the 142-page report, the cease-fire and verification studies, POSEC,
+  the Long Range Planning Task Group (783-95): their days and subjects in J-5's monthly histories (the notes).
+- 1968 vol., Ch. XII: the ICRC's telegram to Hanoi on 40 sick and wounded prisoners, Jan. 16 (859); Sgt. Buddy Wright's
+  escape, Sept. 22 (849).
+- The 1968 volume's unread chapters and annexes (above, "Where I stopped").
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
@@ -2651,3 +3093,17 @@ CQ Weekly Report, 1968-08-30:
 
 ### McPherson, *A Political Education* (batch 3, second run, Nov. 4, 2026; notes/book-checks/mcpherson-political-education.md)
 - McPherson's swearing-in as Assistant Secretary of State (the book: his birthday, the night of Humphrey's selection, Aug. 26, 1964; the roster Aug. 23) and his move to the White House (the book: March 1965; the roster's special assistant from Aug. 1965).
+
+### White, *The Making of the President 1960* (batch 3, second run, Nov. 4, 2026; notes/book-checks/white-making-of-the-president.md)
+
+- Frank B. Ellis sworn in as Director of the Office of Civil and Defense
+  Mobilization, Mar. 9, 1961 (White, 375, unnamed; the roster's date is Wikipedia's): a record of the oath.
+
+### Westmoreland, *A Soldier Reports* (batch 3, second and third readings, Nov. 3–4, 2026; notes/book-checks/westmoreland-soldier-reports.md)
+
+- Wheeler's letter of late Dec. 1967 naming Westmoreland "the obvious candidate" for Chief of Staff (361).
+
+### The MACV Command Histories, 1964, 1965, 1967, 1968 (batch 3, second runs, Nov. 3–4, 2026; notes/book-checks/macv-command-history.md)
+
+- MACV's staff and commanders by date, from the chronologies (1967, 1255-85; 1968, 1025-66) and the 1967 volume's Annex H
+  (1207): the J-staff and field commanders' changes, not in the roster.

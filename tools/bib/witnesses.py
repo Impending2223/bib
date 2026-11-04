@@ -182,12 +182,18 @@ def upstream(wid, rows, seen=None):
     return seen
 
 
-def reachable(cards, rows, edges):
+def reachable(cards, rows, edges, parts=None):
+    """parts: {part_of: [wid]} (made from rows when not given; check passes it once for every entry)."""
     out = set()
     for c in cards:
         for ed in edges.get(c) or []:
             out.update(upstream(ed.get("of"), rows, []))
-    more = {wid for wid, r in rows.items() if r.get("part_of") in out | set(cards)}
+    if parts is None:
+        parts = {}
+        for wid, r in rows.items():
+            if r.get("part_of"):
+                parts.setdefault(r["part_of"], []).append(wid)
+    more = {m for k in out | set(cards) for m in parts.get(k, ())}
     for m in more:
         out.update(upstream(m, rows, []))
     return out
@@ -263,8 +269,13 @@ def problems(series):
                 errors.append((f"{w}[{i}]", f"of {ed.get('of')!r}: no such witness or card"))
             elif ed.get("kind") not in EDGES:
                 errors.append((f"{w}[{i}]", f"kind {ed.get('kind')!r} not in EDGES"))
+    parts = {}
+    for wid, r in rows.items():
+        if r.get("part_of"):
+            parts.setdefault(r["part_of"], []).append(wid)
     for _, e in claims.calendar(series):
         cards = None
+        reach = None
         for r in (e.get("src") or {}).get("rows") or []:
             m = re.match(r"^via (x\.\S+):", r)
             if not m:
@@ -275,7 +286,9 @@ def problems(series):
             if cards is None:
                 cards = set(re.findall(r"\[\[(w\.[^\]|]+)", str(e.get("n") or "")))
                 cards |= {series.works.alias.get(c, c) for c in cards}
-            if m.group(1) not in reachable(cards, rows, edges):
+            if reach is None:
+                reach = reachable(cards, rows, edges, parts)
+            if m.group(1) not in reach:
                 errors.append((e["id"], f"via {m.group(1)}: no item of the note leads to it"))
         if e.get("variants"):
             n_units = len(claims.units(e.get("c") or ""))

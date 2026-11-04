@@ -90,7 +90,7 @@ page | date | event | why
 112 | 1962-63 winter | Kennedy and Bartlett at Camp David on 1968 | lead: the season only (Bartlett OH)
 119 | 1963-12-07 | Jacqueline Kennedy leaves the White House | minor (family)
 121 | 1963-11-24/25 | Bundy between Johnson and Robert Kennedy on the day of the address | lead: the day of the calls not given (Manchester, 480)
-300–475 | 1966-01 to 1968-06 | the notes' dated papers not yet entered: Dutton to RFK (Feb. 25, Apr. 6, July 29, 1965–66; Mar. 15, Nov. 3, 1967; Jan. 31, 1968); Schlesinger to RFK (Jan. 25, 1966; June 19, Dec. 13, 1967; Mar. 27, Apr. 3, 1968); Haynes to Rostow on Kennedy in Africa (June 1966); Carpenter to LBJ (Apr. 1, 1966); McPherson to LBJ (June 14, 24 (two), July 7, 1965; Mar. 31, Apr. 14, 1965 on Nickerson; Aug. 11, 31, 1966; May 12, 1967; Apr. 24, May 14, 1968); Connell to Watson (July 30, 1966); Mankiewicz to RFK ("66-68," Nov. 1966; Feb. 3, Feb. 27, 1967); DeLoach to Tolson (Dec. 20, 1965; Mar. 3, 1966); Harwood, *Washington Post* (Dec. 15, 1966); Roche to LBJ (Jan. 23, Feb. 20, Apr. 18, Dec. 4, 18, 1967; Jan. 26, 1968); Rostow to LBJ (Feb. 14, Mar. 3, 9, 1967) and Jorden to Rostow (Mar. 3, 1967); Taylor to LBJ (Mar. 9, 1967); Dolan to RFK (Oct. 24, Nov. 21, 1967); Califano to LBJ (Dec. 8, 1967; Apr. 17, 1967; June 5, 1968); Wattenberg and Panzer polling memoranda (1967–68); the Rowe "White Paper" (1967); Pierson to LBJ (Feb. 5, 1968); John W. Douglas to RFK (Mar. 18, 1968); Levinson and Rowe to LBJ (Mar. 19, 1968); Reedy to LBJ (Mar. 16, 29, 1968); Panzer (Mar. 30, 1968); RFK's telegram to LBJ (Apr. 1, 1968); Schnittker (Apr. 25) and Murphy (Apr. 26, 1968); Busby (Apr. 26, 1968); Hill of the Secret Service (June 5, 1968); Christian (June 10, 1968); Ethel Kennedy to LBJ (June 19, 1968) | not yet entered: a lead for the next run (the run stopped here); each is dated and filed in Shesol's notes at the page given
+300–475 | 1966-01 to 1968-06 | the notes' dated papers listed here in the second run | read and entered in the third run (below, "Third run"), each paper an entry or a cite, or a row of the third run's Passed over
 
 ## The press (R13)
 
@@ -107,3 +107,194 @@ No day's coverage listed by Shesol; the press items he dates are entries (above)
 - Press: propose Part III entries for Alan L. Otten (*Wall Street Journal*), Paul O'Neil (*Life*), William Beecher
   (*Wall Street Journal*), Jean Daniel (*L'Express*, *The New Republic*), Peregrine Worsthorne (*Daily Telegraph*), Gore
   Vidal (as a political writer, *Esquire*), each with Shesol's pages.
+
+
+## Third run (Nov. 4, 2026): pp. 300–475 in full, and the notes' dated papers
+
+Read from the owner's copy again (the offsets held: − 18 to p. 306, − 34 after; checked on the page images at pp. 300,
+353, 400 and at notes pp. 523, 530, 531, where the text layer is damaged; the scan's damaged readings settled there:
+Witkin, not "Witcover," *New York Times*, May 2, 1966; Schlesinger to Robert Kennedy, Jan. 23, 1967, Walinsky Papers,
+box 18; Dutton's "running attack," Feb. 23, 1966; Haynes to Rostow, June 8, 1966; Johnson's note to Sheldon Cohen, the
+words as printed). Every page of the text, 300–475, read through, and the notes for those pages (pp. 522–56) read note
+by note against their passages. Patch `inbox/2026-11-04-b3-shesol-3.yaml` (b3-shesol-3): 348 ops, 224 new entries
+(1964 4, 1965 23, 1966 58, 1967 72, 1968 64, 1969 3), 106 cites to entries in the tree or the ledger, 11 Checks, 6
+to-checks, 1 also. Witnesses `inbox/witnesses/2026-11-04-b3-shesol-3.yaml`: 198 rows, and 240 edges of
+`w.shesol-mutual-contempt` at the file's foot for the merger to append to the by-work file (the by-work file not
+touched: a merger is at work). The one record read: the Public Papers' statement of June 5, 1968 (1968–69 Pub.
+Papers 691, its note: Rostow's call at 3:31 a.m., the Secret Service details), `read: true`; the Miller Center's
+recordings linked as the primary record where they hold the call (Johnson and Reedy, June 9, 1964; Johnson and Moyers,
+Dec. 26, 1966, 11:46 a.m.), not listened to. Every other paper and press item the notes give is a witness `read:
+false`, behind "To check:" with Shesol's page.
+
+How the list was made: the text page by page, every event the page dates (a day, a month, a season, "the next day")
+logged with its page; each note read for the papers and press items it dates; each logged event compared with its
+day's entries in the tree and the ledger (`./bib ledger find`), and, for a month or a season, with the month's entries
+found by its words (`./bib find`). Where the calendar held the event, a cite (with a parenthetical for the raw
+material: the quotation, the figure, the time); where it did not, an entry.
+
+### The cites (106), the differences
+
+Cited, the chief: the Kintner, Rostow and Moyers papers of 1966 already in; the Manchester calls of Dec. 1966 (357–61,
+each a parenthetical of the call's words), Hoover's letter and Kennedy's answer (351–52), the Feb. 6, 1967 meeting
+(363–67, units A–C), the speech of Mar. 2, 1967 and its days after (Connally's call, Izvestia, Today), the Guam
+conference, the World Bank, the Lowenstein night, the councils of Oct. 8 and Dec. 10, 1967, Roche's memoranda, the
+commission and the announcement (Mar. 11–17, 1968), Johnson's days of March 1968 (the Businessmen, Minneapolis, the
+press conference of Mar. 22, the Wise Men), the withdrawal and the days after, the funeral, the grave (Jan. 12,
+1969), Jan. 20, 1969's land grants.
+
+Differences, each a Check in the patch:
+- `cal.1966-10-03.robert-kennedy`: the Senate debate on the poverty authorization; Shesol, 328, "mid-October."
+- `cal.1966-10-23.robert-kennedy`: Kennedy on Kỳ; Shesol, 303, the month only.
+- `cal.1967-04-10.poverty`: Marian Wright's testimony at Jackson; Shesol, 329, puts it in March, before Jackson.
+- `cal.1965-02-04.legislatures-ny`: Travia's election; Shesol, 338, Feb. 3.
+- `cal.1967-03.republican-party-2`: Nixon on the speech of Mar. 2; Shesol, 378 n., Mar. 5 (*New York Times*, Mar. 6).
+- `cal.1967-12-04.elections-1968`: Roche's "War of Liberation"; Shesol's note, 408 n., dates it Jan. 26, 1968.
+- `cal.1968-01-26.elections-1968`: whether Shesol's memorandum "a month later" is this one.
+- `cal.1968-03-18.vietnam`: Minneapolis; Shesol, 427, "the next day" after Mar. 16.
+- `cal.1968-03-31.robert-kennedy`: La Guardia; Shesol, 436, the flight from Phoenix at Kennedy International, 9:50 p.m.
+- `cal.1967-10.elections-1968-3`: the draft statement of withdrawal dictated to Christian; Shesol, 432, "the late
+  summer of 1967."
+- `cal.1968-03.elections-1968-2`: the Rose Garden lunch; Shesol, 434, the day after the Califano talk of Mar. 27.
+- Shesol's own text against its notes (Checks on the new entries): Nickerson's grant, the text Mar. 9, 1966, the
+  memoranda Mar. 29–Apr. 21, 1965 (entered 1965); Schlesinger's letter after June 3, 1967, the text June 15, the note
+  June 19; the funeral meeting, the text "the next evening," the agenda June 6.
+
+### New entries (224), the chief
+
+The press on the two men, 1964–68 (*U.S. News*, *Time*, *Newsweek*, *Life*, *The Nation*, the *Times*' Reston,
+Krock, Frankel, Wicker, Weaver and Reeves, Evans and Novak, Harwood, Herblock, Feiffer, Mauldin, *Ramparts*,
+*Commentary*, *Esquire*); the White House staff's papers on Kennedy (McPherson's of June 24, 1965, both, and his
+others of 1965–68; Carpenter, Redmon, Kintner, Watson, Valenti, Panzer, Wattenberg, Roche, Rowe, Reedy, Busby,
+Sanders, Levinson, Pierson, Murphy, Christian, Jacobsen, Connell); the FBI's papers (DeLoach, Wick, Hoover); Kennedy's
+side (Dutton, Dolan, Mankiewicz, Walinsky, Sorensen, Schlesinger, Galbraith, Bruno, Douglas, Flug, Ellsberg, Salinger);
+the New York fights (Nickerson's grant, 1965; Weinstein; the Samuels flap; O'Connor, 1966 and 1968); the Africa trip;
+Wilkins's confirmation; the legislation of 1967 (the jobs and housing bills, the Finance Committee's hearings); Moyers's
+leaving; the Manchester book's papers; the European trip; the Harriman call of Feb. 27, 1967; the McNamara departure;
+the White Paper; Citizens for Kennedy-Fulbright; the Tet weeks; New Hampshire; the March 1968 campaign papers; the
+withdrawal's days; the cabinet's endorsements (Schnittker, Apr. 25, 1968); June 5–10, 1968; the grave and the stadium
+(Dec. 1968–Jan. 18, 1969).
+
+Same-day flags (patch-check's warnings, 87): each compared with the entry flagged, and another event (another paper,
+call, item or meeting). Two entries claimed and then found in the tree and turned into cites; their ledger lines stand
+with no entry in the patch, for the merger to drop: `cal.1968-04-02.congress-2` (the breakfast is
+`cal.1968-04-02.congress`) and `cal.1967-08.elections-1968` (the draft is `cal.1967-10.elections-1968-3`).
+
+### Passed over (third run)
+
+page | date | event | why
+--- | --- | --- | ---
+307 | 1965-11 | Edward Kennedy's dinner-dance for Robert Kennedy's fortieth birthday against Mesta's party for Mansfield (Buchwald) | minor (social)
+308 | 1966-02-17 | McBride, of the press office, to Dolan on the President's beagle "Him" | minor (social)
+308 | 1966 | Walinsky's pencil on the *Democratic Campaign Handbook* | minor (private)
+311 | 1964 | Johnson's ranch tour with reporters; the beagles lifted by the ears | lead: not compared with the calendar's 1964 entries (Henggeler, 133–34)
+311 | 1966-03 | *GQ*'s cover, Johnson in a two-button suit | minor (a photograph's dress)
+312 | 1966 | Goldman resigns; Roche appointed | lead: the days not given (McPherson, 270–73)
+314 | 1960-07-12 | *New York Times*: Johnson on "Kennedy press zealots" | lead: to cite on the calendar's July 12, 1960 entries
+314 n. | 1967-02-27 | Kintner to Johnson on *Newsweek*'s "Is It Superman? No, It's LBJ" | minor (a reply on an article's tone)
+317 | n.d. | Johnson at Moyers on Humphrey's Asian tour, "those damned Kennedy ambassadors" | lead: undated
+318 | 1965 | David S. Black's half hour with Johnson: "not going to work for Bobby Kennedy" | lead: the year only (Black's interview and oral history)
+319 | 1962, 1964 | Moynihan sent to Morgenthau's campaign; Wirtz to Johnson on Moynihan | lead: the year only
+319 | 1965-06 | the *Times*: Kennedy holdovers push Moynihan for mayor | lead: the day not given (Schoen, 94–95)
+324 | n.d. | Moyers's midnight call to Goodwin; their talks on Johnson's behavior | lead: undated (Goodwin, 392)
+325 | 1967-02 | *Wall Street Journal*, Otten, "The Consenting Advisors" | lead: the day unread in the note's scan
+325 n. | 1965-06-18 | McPherson to Johnson, box 52 | lead: the matter not given
+326 | 1965-05-18; 1966-07-18; 1968-01-15–16 | Watson to Johnson; Carter to Watson; C. R. Smith to Woodward and Woodward to Watson, clippings | minor (repetition: forwarded rumors of positions entered)
+326 | 1967-10-08 | the invitation, "Kennedy in '68" cocktail party | lead: the year misread in the note's scan
+327 | 1967-02-20, 02-24 | "Al M." to Moyers; Christian to Johnson on Moyers's tips | lead: the matter not given
+333 | 1967, summer | Kennedy's Social Security refinancing; the SSA's memorandum on dragging its feet | lead: undated
+339 | 1961-09-07 | Johnson to Robert Kennedy, VP Papers, box 29 | lead: the matter not given
+339 | 1964-09-07 | *Newsweek* on Weisl as national committeeman | lead: not compared with the calendar's summer of 1964
+340 | 1966 | Feinberg named to the Second Circuit over Weinfeld | lead: the day not given (Morris, *Federal Justice in the Second Circuit*)
+341 | n.d. | O'Brien lets Kennedy pick McDougal as regional postal director; Johnson will not approve | lead: undated
+341 | 197[?]-04-11 | Connell to Watson: "few ... barriers" to Kennedy's control of New York | lead: the year misprinted "197"
+341 | 1965 | the New York mayoral race | lead: Shesol gives no day
+344 | 1966-09 | O'Connor's nomination | lead: not compared with the calendar's 1966 elections thread
+345 n. | 1966 | the primaries Shesol lists (Braden and Hand; Lucey and Carley; O'Donnell and McCormack; Carter in Georgia; Ellington and Hooker), *U.S. News* May 2 and Sept. 26, *Newsweek* Sept. 26, *Reporter* June 2, *Nation's Business* July, *Commercial Appeal* Apr. 13 | lead: the races to be compared with the 1966 elections thread; the press items not entered
+345 | 1966-01-04 | Dolan to Robert Kennedy, Dolan Papers, box 1 | lead: the matter not given
+345 | 1966, fall | Kennedy's tour: Columbus, Marion, Iowa (*U.S. News*, Nov. 7, 1966) | lead: the days not given
+346–47 | 1966-10, 11 | Johnson's Asian trip; his canceled campaign swing; "we don't have any plans" | lead: in the calendar, not cited
+347 | 1966-11 | Nixon: "We've beaten hell out of them" | lead: not compared
+348 | 1966 | Schlesinger's journal: Kennedy "rueful about his own vogue" | lead: undated (Schlesinger, 817)
+349 | n.d. | Kennedy and Dolan on Johnson's tapping his telephone | lead: undated
+349–50 | 1965-12 | Long's investigation begins; DeLoach's advice to help him; Moyers to Goodwin | lead: the days not given (Schlesinger, 818)
+350 n. | 1965-07-28, 29 | Katzenbach to Hoover; Hoover to Katzenbach | lead: the matter not given
+353 | 1964 | Johnson weighs Hoover's material against Goldwater | lead: undated
+355 | 1966, summer | Manchester to Jacqueline Kennedy: "the prejudice showed through" | lead: the day not given
+355–56 | 1966 | Schlesinger's and Evan Thomas's letters on the manuscript; Kennedy to Manchester on a chapter | lead: the days not given (Corry, 61–62)
+356 | 1966-12 | Jacqueline Kennedy offers Cowles $1 million; Mankiewicz: "a terrible mistake" | lead: the day not given
+359 | 1966-12 | McKeithen and Connally on the book | lead: the days not given
+362 | 1967-01-10, 01-13, 01-19, 02-09, 02-20 | Frantz, Christian, Helms of WRAL, Califano: letters and reviews in the night reading | minor (repetition: the praise of the silence entered)
+362 | 1967 | Vidal in *Book Week* | lead: the date (Vidal, *United States*, 807)
+371 | 1967-02 | Johnson has Westmoreland denounce a bombing halt | lead: in the calendar (`cal.1967-02.vietnam`), not cited
+372 | n.d. | Kennedy to John Burns: "It's going to hurt me, isn't it?" | lead: undated
+372 | 1967-02-26? | Johnson's new tactics, four days before the speech | lead: the day not given
+375 n. | 1967-03 | Kintner to Johnson, 5:30 p.m., on the Kosygin letter's timing | lead: the day damaged in the scan
+375 n. | 1967-03-20 | *Nation*, "A Coalition for Peace" | lead: not entered
+378 | 1967, mid | McNamara's proposal to cut the bombing; Johnson: "a lot of shit" | lead: undated
+379 | 1967 | Church's statement; the Senate doves' meetings | lead: undated
+379 | 1967-03 | the House against Kennedy's position, 372 to 18 | lead: the day not given
+380 | 1967, spring | Johnson cuts off the critics | lead: the season only
+381 | n.d. | Johnson to aides: Soviet agents in "constant touch with anti-war senators" | lead: undated (Kearns, 316–17)
+381 n. | 1967-05 | Wechsler, *Progressive*, "The Two Front War" | lead: not entered
+390 | 1967 | McNamara's memorandum to Kennedy; Dolan reads it in the Senate garage | lead: the year only
+391 | 1967, summer | Johnson to Roche: "we can't afford another Forrestal" | lead: the season only
+392 | 1967-08 | McNamara before the Senate's hawks | lead: in the calendar, not cited
+392 | 1967-10-23 | McNamara and Johnson at odds before the Democratic leaders: "We do have differences of opinion" | lead: not matched to the day's entries
+398 | 1966 | the *Cincinnati Enquirer*'s Senate cabal; *MAD*; *MacBird*; *Ramparts*, Dec. 1966 | lead: no day
+399 | 1967-08, 09 | Gallup: approval 39; disapproval 48, approval 40 | lead: not compared with the Opinion thread
+399 | 1967-08 | the *Times* breaks with the war policy | lead: no note
+400 | 1967, spring | Newfield in the *Village Voice*: "He is not my President" | lead: the season only
+402 | 1967-03 | Sorensen to Breslin | lead: undated
+403 | 1967–68, winter | Walinsky at dinner, "the worst of two worlds"; a Long Island college; Brooklyn College's rubber chicken | lead: undated
+404 | 1967, late | McGovern's canvass; Kennedy and Lippmann | lead: undated (Schlesinger, 899–901)
+405 n. | 1965-09-14 | *U.S. News*, "The Kennedy Brothers' Dream" | lead: not entered
+406 | 1967-11 | Kennedy to McGovern on McCarthy: "Is it true?" | lead: the day not given
+406 | 1968-01 | Janeway in the *Atlantic* | lead: not entered
+409 | 1967, mid | O'Donnell pressed to pledge for Johnson | lead: undated
+409 n. | 1967-03-15 | Criswell to Watson, Johnson's note | lead: the matter not given
+412 | 1968-01, 02 | Walinsky gives notice | lead: the day not given
+413 | 1968-02-01 | the prayer breakfast: "The nights are very long" | lead: not compared with the day's entries
+415 | 1968-02, 03 | Kennedy on the Kerner report | lead: the day not given
+416 | 1968-03 | Boutin keeps O'Brien out of New Hampshire | lead: undated
+417 | 1968-03 | Sorensen to New Hampshire; the White House thanks him | lead: the day not given
+427 | 1968-03 | *Newsweek* and *U.S. News* on Kennedy's start | lead: not entered
+428 | 1968-03 | Rowe's four hundred politicians; the Watergate office; Jackson for Johnson (*New York Post*, Mar. 20; *Washington Post*, Mar. 27) | lead: not entered
+429 n. | 1968-03-18, 30 | McPherson's and Jones's papers on Kennedy's past words | lead: not entered
+430 | 1968-03 | Weisl's charge; Tyler to Watson, Mar. 21; Rowe to Watson, Mar. 19; Goldstein to Watson, Mar. 15 | lead: not entered
+431 | 1968-03-26 | Temple to Johnson | lead: the matter not given
+435 n. | 1968-03-22–27 | the desk's papers (Gonella, Hackler, Sanders, Califano) | lead: not entered
+437 | 1968-03-31 | "I'm tired" to a friend | lead: the source a summary (Kearns; *U.S. News*)
+437 | 1968 | Christian's memorandum on Wilson's stroke | lead: the date not given
+441 | 1968-04-01 | Kennedy to Burden in the car | minor (private remarks)
+444 | 1968-04-03 | Juanita Roberts's thought | minor (private)
+444 | 1968-04 | McCarthy's call on Johnson, the finger across the throat; Johnson on the press reports of Apr. 3 | lead: the days not given
+448 | n.d. | Kennedy to the National Catholic Conference on Interracial Justice | lead: the date not given
+449 | 1968-05-07 | the Indiana primary | lead: in the calendar, not cited
+456 n. | 1968-06-05 | Tom Johnson's "good feature" | minor (a passed-over paper: a suggestion not taken)
+457 | 1968-06-06 | Hackler and Kennedy's staff over the transcripts | minor (social)
+458 | 1968-06 | Moyers at the L Street headquarters | minor (private)
+459 | 1968-06-19, 22 | Ethel Kennedy's note and Johnson's reply; Jacqueline Kennedy's | minor (social: thanks and condolence)
+460 | 1968-10 | the Gun Control Act | lead: in the calendar, not cited
+461 | 1969-01 | Johnson at the National Press Club: "I don't hold a thing against anyone" | lead: the day (the text "five days later" than Jan. 17, the *Star* of Jan. 18)
+463–64 | 1969-01, 02 | Nixon's administration and the grave; *Newsweek*, Feb. 3, 1969 | out of the brief (after Jan. 20, 1969)
+467 | 1967-05 | Gallup's "intensely dislike" ratings | lead: not compared with the Opinion thread
+473 | 1967-09 | "The People Left Behind," the Commission on Rural Poverty's report | lead: Shesol gives it suppressed; not in the calendar
+474–75 | 1992–96 | Clinton | out of the brief
+
+### The press (R13)
+
+No day's coverage listed by Shesol for pp. 300–475; the press items he dates are entries (above).
+
+### Leads (third run)
+
+- National: the rows above marked "lead," each with its page; chief among them the days of Feinberg's nomination
+  (1966), Goldman's resignation and Roche's appointment (1966), the Senate doves' meetings (1967), McNamara's
+  memorandum given Kennedy (1967), Christian's memorandum on Wilson (1968), "The People Left Behind" (Sept. 1967), and
+  Johnson at the National Press Club (Jan. 1969).
+- Press: propose Part III entries for Hayes Redmon (Moyers's press office), Fred Panzer, William Connell (Humphrey's
+  aide), Jerry Bruno, Peter Edelman, Jack Newfield (*Village Voice*), Peter Lisagor (*Chicago Daily News*), Richard
+  Harwood (*Washington Post*), Robert Scheer (*Ramparts*), Penn Kimball, Michael Janeway and Elizabeth Drew (*Atlantic*),
+  each with Shesol's pages.
+- The calendar's bundled entries: `cal.1968-03-14.robert-kennedy` holds the meeting with Clifford (Mar. 14) and the
+  announcement (Mar. 16) in one; `cal.1968-04-24.elections-1968` holds Freeman's endorsement and the next day's. A
+  reader should part them (R17).

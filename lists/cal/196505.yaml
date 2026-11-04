@@ -14,6 +14,16 @@ entries:
       c: 2e043c13
       rows: []
     tags: [state:pa, city:philadelphia, name:moore-cecil-b]
+  - id: cal.1965-05-01.vietnam-saigon
+    when: May 1
+    date: '1965-05-01'
+    thread: vietnam-saigon
+    c: The South Vietnamese navy and Marine Corps made separate services, the Joint General Staff holding Khang in regard and the navy in low.
+    n: '[[w.macv-command-history-1965]], 90.'
+    src:
+      c: e47ebcbd
+      rows:
+        - 'w.macv-command-history-1965 90: all'
   - id: cal.1965-05-02.latin-america
     when: May 2
     date: '1965-05-02'
@@ -59,6 +69,17 @@ entries:
         - 'w.mann-walls-of-jericho 472: all'
         - 'via w.mann-walls-of-jericho 472 n.the-vote-was-significant.a: all'
     tags: [name:thurmond-strom]
+  - id: cal.1965-05-03.vietnam-operations
+    when: May 3–5
+    date: '1965-05-03'
+    thread: vietnam-operations
+    c: Saigon. CINCPACFLT's, the Seventh Fleet's, MACV's and III MAF's representatives draw up procedures for naval gunfire support in South Vietnam; CINCPAC approves them May 14; issued to the corps senior advisers May 16.
+    n: '[[w.macv-command-history-1965]], 176. To check: Msg, CINCPAC, 140140Z May 65 (cited by [[w.macv-command-history-1965]], 176 n.41). See [[cal.1965-04-17.vietnam-operations]].'
+    src:
+      c: 9ef81013
+      rows:
+        - 'w.macv-command-history-1965 176: all'
+        - 'via w.macv-command-history-1965 176 n.41: all'
   - id: cal.1965-05-04.vietnam
     when: May 4
     date: '1965-05-04'
@@ -188,11 +209,36 @@ entries:
     date: '1965-05-05'
     thread: vietnam
     c: MACV's Political Warfare Advisory Directorate established.
-    n: '[[w.macv-command-history-1965]], 479.'
+    n: '[[w.macv-command-history-1965]], 479; [[w.macv-command-history-1965]], 253 (MACV GO 931).'
     src:
       c: bd19e28c
       rows:
         - 'w.macv-command-history-1965 479: all'
+        - 'w.macv-command-history-1965 253: ?'
+  - id: cal.1965-05-05.vietnam-4
+    when: May 5
+    date: '1965-05-05'
+    thread: vietnam
+    c: Westmoreland asks authority to support a 10th ARVN Division, made of the 43d, 48th and 52d Regiments in III Corps.
+    n: '[[w.macv-command-history-1965]], 60. To check: Msg, COMUSMACV, 050428Z May 65 (cited by [[w.macv-command-history-1965]], 60 n.190). Names: Westmoreland.'
+    src:
+      c: fdaf412c
+      rows:
+        - 'w.macv-command-history-1965 60: all'
+        - 'via w.macv-command-history-1965 60 n.190: all'
+    tags: [name:westmoreland-william]
+  - id: cal.1965-05-05.vietnam-force-levels
+    when: May 5
+    date: '1965-05-05'
+    thread: vietnam-force-levels
+    c: 'Military working arrangement between the commander of the Australian forces and Westmoreland: Westmoreland''s operational control, American administrative and logistic support. A financial arrangement follows Sept. 7, Australia to repay.'
+    n: '[[w.macv-command-history-1965]], 71. To check: Financial Working Arrangement between COMAAFV and COMUSMACV, 7 Sep 65 (cited by [[w.macv-command-history-1965]], 71 n.259). Names: Westmoreland.'
+    src:
+      c: 4ac656b2
+      rows:
+        - 'w.macv-command-history-1965 71: all'
+        - 'via w.macv-command-history-1965 71 n.259: all'
+    tags: [name:westmoreland-william]
   - id: cal.1965-05-06.latin-america
     when: May 6
     date: '1965-05-06'
@@ -341,7 +387,21 @@ entries:
       c: 14fbd473
       rows:
         - 'w.preston-war-council 197: all'
+        - 'via w.preston-war-council 197 n.18: all'
     tags: [name:bundy-mcgeorge]
+  - id: cal.1965-05-07.voting-rights
+    when: May 7
+    date: '1965-05-07'
+    thread: voting-rights
+    also: [robert-kennedy]
+    c: Johnson by telephone with Hartke, 2:41 p.m., and Katzenbach, 2:50, on Edward Kennedy's amendment to ban the poll tax in all elections. Robert Kennedy warns wavering liberals that he will take their vote as a statement on him, and will not forget it if he is ever in the White House.
+    n: '[[w.zelizer-fierce-urgency-of-now]], 216–17. To check: the recordings, [Conversation with Vance Hartke](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-vance-hartke-may-7-1965), Conversation WH6505-06-7600, and [Conversation with Nicholas Katzenbach and Office Conversation](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-nicholas-katzenbach-and-office-conversation-2), Conversation WH6505-06-7601 (Miller Center) (cited by [[w.zelizer-fierce-urgency-of-now]], 217 n.114). The vote: [[cal.1965-05-11.voting-rights]]. Names: Johnson, Hartke, Katzenbach, Edward Kennedy, Robert Kennedy.'
+    src:
+      c: 9e498e09
+      rows:
+        - 'w.zelizer-fierce-urgency-of-now 216–17: all'
+        - 'via w.zelizer-fierce-urgency-of-now 217 n.114: all'
+    tags: [name:johnson-lyndon-b, name:hartke-rupert-v, name:katzenbach-nicholas, name:kennedy-edward-m, name:kennedy-robert-f]
   - id: cal.1965-05-08.transition-and-staff
     when: May 8
     date: '1965-05-08'
@@ -370,6 +430,7 @@ entries:
       c: fcf02d24
       rows:
         - 'w.westmoreland-soldier-reports 135: all'
+        - 'via x.1965-05-08.westmoreland-concept-of-operations: A-D'
     tags: [name:westmoreland-william, name:taylor-maxwell]
   - id: cal.1965-05-08.vietnam-2
     when: May 8
@@ -428,12 +489,25 @@ entries:
         - 'w.mann-walls-of-jericho 472: all'
         - 'via w.mann-walls-of-jericho 472 n.little-that-the-southerners-could-say: all'
     tags: [name:douglas-paul-h]
+  - id: cal.1965-05-10.robert-kennedy
+    when: May 10
+    date: '1965-05-10'
+    thread: robert-kennedy
+    also: [press-and-broadcasting, elections-1968]
+    c: '*U.S. News & World Report*, "''Kennedy for President'' — A Buildup Starts for ''72." An aide: "It took Jack four years of unrelenting effort. Bobby has almost twice that much time."'
+    n: '[[w.shesol-mutual-contempt]], 305–6. To check: *U.S. News & World Report*, May 10, 1965, 49–50 (cited by [[w.shesol-mutual-contempt]], 305, 306). Names: Robert Kennedy.'
+    src:
+      c: adda588d
+      rows:
+        - 'w.shesol-mutual-contempt 305–6: all'
+        - 'via x.1965-05-10.us-news-kennedy-for-president-buildup: all'
+    tags: [name:kennedy-robert-f]
   - id: cal.1965-05-11.voting-rights
     when: May 11
     date: '1965-05-11'
     thread: voting-rights
     c: 'Senate, on the Mansfield–Dirksen substitute for the voting rights bill: Edward Kennedy''s amendment to ban the poll tax in State and local elections refused, [45–49](https://voteview.com/rollcall/RS0890052). May 19, a declaration that the tax abridges the right to vote, the Attorney General to sue, taken, [69–20](https://voteview.com/rollcall/RS0890060).'
-    n: '[111 Cong. Rec., Senate, May 11, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt8/pdf/GPO-CRECB-1965-pt8-1-1.pdf); [May 19, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt8/pdf/GPO-CRECB-1965-pt8-7-2.pdf). [[w.sundquist-politics-and-policy]], 274 (Edward Kennedy''s amendment within four votes; the declaration and the directive to sue); [[w.mann-walls-of-jericho]], 472–73. See [[cal.1965-03-15.voting-rights]]. Names: Kennedy, Mansfield, Dirksen.'
+    n: '[111 Cong. Rec., Senate, May 11, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt8/pdf/GPO-CRECB-1965-pt8-1-1.pdf); [May 19, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt8/pdf/GPO-CRECB-1965-pt8-7-2.pdf). [[w.sundquist-politics-and-policy]], 274 (Edward Kennedy''s amendment within four votes; the declaration and the directive to sue); [[w.mann-walls-of-jericho]], 472–73; [[w.zelizer-fierce-urgency-of-now]], 216–17 (49–45). See [[cal.1965-03-15.voting-rights]]. Names: Kennedy, Mansfield, Dirksen.'
     src:
       c: 0150ce81
       rows:
@@ -443,19 +517,21 @@ entries:
         - 'https://voteview.com/rollcall/RS0890060: B'
         - 'w.sundquist-politics-and-policy 274: A-B'
         - 'w.mann-walls-of-jericho 472–73: all'
+        - 'w.zelizer-fierce-urgency-of-now 216–17: ?'
     tags: [name:kennedy-edward-m, name:mansfield-mike, name:dirksen-everett]
   - id: cal.1965-05-11.vietnam-operations
     when: May 11
     date: '1965-05-11'
     thread: vietnam-operations
     c: 'Sông Bé, capital of Phước Long Province. Some four Viet Cong battalions break into the town, a suicide squad into the American advisers'' compound; the defenders hold. A Ranger and an infantry battalion sent the next day; the enemy withdraws under air attack. Losses: 63 killed, five of them American, 109 wounded, 83 missing; the Viet Cong 297 killed.'
-    n: '[[w.macv-command-history-1965]], 220–21, 479 (the day). To check: COMUSMACV MILREP, 170430Z May 65 (cited by [[w.macv-command-history-1965]], 221 n.256).'
+    n: '[[w.macv-command-history-1965]], 220–21, 479 (the day); [[w.westmoreland-soldier-reports]], 136 (early May; a Viet Cong regiment, the first to attack as one since Bình Giã; the town saved by air support and a fresh ARVN regiment flown in). To check: COMUSMACV MILREP, 170430Z May 65 (cited by [[w.macv-command-history-1965]], 221 n.256).'
     src:
       c: dd204089
       rows:
         - 'w.macv-command-history-1965 220–21: all'
         - 'w.macv-command-history-1965 479: B'
         - 'via w.macv-command-history-1965 221 n.256: all'
+        - 'w.westmoreland-soldier-reports 136: A'
     tags: [province:phuoc-long]
   - id: cal.1965-05-11.vietnam
     when: May 11
@@ -468,6 +544,41 @@ entries:
       rows:
         - 'w.clifford-counsel-to-the-president-2 409: all'
     tags: [name:johnson-lyndon-b, name:clifford-clark]
+  - id: cal.1965-05-11.mayors-nyc
+    when: May 11
+    date: '1965-05-11'
+    thread: mayors
+    also: [republican-party]
+    c: 'Albany, N.Y., the Executive Mansion, at dinner, by Price''s account. Price, Lindsay''s campaign manager, brings him from Washington on Rockefeller''s plane. Rockefeller asks Lindsay to run; to Price: "An hour after he announces, you have half a million dollars." Price to Rosenthal of the *New York Times*: "Abe, run the story."'
+    n: '[[w.smith-on-his-own-terms]], 472–73 (the gift near $800,000 with the family''s gift taxes; Lindsay''s account, his decision made the weekend before; Rockefeller''s, Lindsay talking mostly to Happy Rockefeller). To check: Robert Price, interview by Richard Norton Smith (cited by [[w.smith-on-his-own-terms]], 472–73). Check: Smith has Monday, May 11; May 11, 1965, was a Tuesday. See [[cal.1965-02-26.mayors-nyc]]. Names: Lindsay, Rockefeller.'
+    src:
+      c: 0336d416
+      rows:
+        - 'w.smith-on-his-own-terms 472–73: all'
+        - 'via x.undated.price-interview-by-smith: all'
+    tags: [name:lindsay-john-v, name:rockefeller-nelson, state:ny]
+  - id: cal.1965-05-11.vietnam-2
+    when: May 11
+    date: '1965-05-11'
+    thread: vietnam
+    c: 'A MACV group plans the conversion of the CIDG to Regional Forces by Dec. 31, 1966: 20 companies by July 1, 69 more by the year''s end. The 5th Special Forces Group doubts it: a like attempt failed in 1963. Westmoreland had begun the study in February.'
+    n: '[[w.macv-command-history-1965]], 63. To check: Rpt, RF/PF Adv Det, 20 Nov 65, Subj: Monthly Report (cited by [[w.macv-command-history-1965]], 63 n.204). Names: Westmoreland.'
+    src:
+      c: 4f4f21f8
+      rows:
+        - 'w.macv-command-history-1965 63: all'
+        - 'via w.macv-command-history-1965 63 n.204: all'
+    tags: [name:westmoreland-william]
+  - id: cal.1965-05-11.vietnam-operations-2
+    when: May 11
+    date: '1965-05-11'
+    thread: vietnam-operations
+    c: Saigon authorizes Market Time's forces to stop, search and seize vessels not clearly on innocent passage within 12 miles of the coast, a Vietnamese liaison officer leading each boarding; beyond, search with compensation if unfounded.
+    n: '[[w.macv-command-history-1965]], 173. See [[cal.1965-03-16.vietnam-operations]].'
+    src:
+      c: 5bf37712
+      rows:
+        - 'w.macv-command-history-1965 173: all'
   - id: cal.1965-05-12.vietnam
     when: May 12
     date: '1965-05-12'
@@ -545,6 +656,28 @@ entries:
         - 'w.shesol-mutual-contempt 270: all'
         - 'via w.shesol-mutual-contempt 270 n.major-talk: all'
     tags: [name:dutton-frederick-g, name:kennedy-robert-f]
+  - id: cal.1965-05-12.vietnam-mayflower
+    when: May 12
+    date: '1965-05-12'
+    thread: vietnam-mayflower
+    c: 'Ball to Thomas Hughes: "stunned" that Johnson has chosen a proposal to Moscow with "no carrots or concessions at all."'
+    n: '[[w.bird-color-of-truth]], 328 (Hughes''s notes). To check: Thomas L. Hughes, notes of meetings, Apr. 21, 22, 26, May 7 and May 13, 1965 (found in his papers, June 1998), Hughes''s papers, courtesy of Hughes (cited by [[w.bird-color-of-truth]], 328 n.65). Names: Ball, Hughes.'
+    src:
+      c: '84885624'
+      rows:
+        - 'w.bird-color-of-truth 328: ?'
+        - 'via w.bird-color-of-truth 328 n.65: all'
+    tags: [name:ball-george-w, name:hughes-thomas-l]
+  - id: cal.1965-05-12.vietnam-2
+    when: May 12
+    date: '1965-05-12'
+    thread: vietnam
+    c: The Mission Council orders a test of a province team chief, one American point of contact for the province chief; 90 days from June 1 in three provinces.
+    n: '[[w.macv-command-history-1965]], 231.'
+    src:
+      c: 93e8f2b2
+      rows:
+        - 'w.macv-command-history-1965 231: all'
   - id: cal.1965-05-13.vietnam-mayflower
     when: May 13
     date: '1965-05-13'
@@ -583,7 +716,21 @@ entries:
       c: '44757753'
       rows:
         - 'w.preston-war-council 198: all'
+        - 'via w.preston-war-council 198 n.25a: all'
     tags: [name:johnson-lyndon-b, name:moyers-bill, name:bundy-mcgeorge]
+  - id: cal.1965-05-13.cities-and-housing
+    when: May 13
+    date: '1965-05-13'
+    thread: cities-and-housing
+    also: [labor]
+    c: 'Reuther to Johnson, having seen the task force''s demonstration cities proposal through Cavanagh: a crash program of model neighborhoods in the blighted centers of six cities, Washington, Detroit, Chicago, Philadelphia, Houston and Los Angeles, "VISIBLE examples of new environments."'
+    n: '[[w.bernstein-guns-or-butter]], 461. To check: Reuther to Johnson, May 13, 1965, Legislative Background Model Cities File, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 461 n.2). Names: Reuther, Cavanagh, Johnson.'
+    src:
+      c: ec61ac5b
+      rows:
+        - 'w.bernstein-guns-or-butter 461: all'
+        - 'via w.bernstein-guns-or-butter 461 n.2a: A'
+    tags: [name:reuther-walter, name:cavanagh-jerome-p, name:johnson-lyndon-b]
   - id: cal.1965-05-14.vietnam
     when: May 14
     date: '1965-05-14'
@@ -614,11 +761,12 @@ entries:
     date: '1965-05-14'
     thread: republican-party
     c: 'State Senator John H. Hughes of Syracuse to Javits, by letter: lead the opposition to Rockefeller''s renomination in 1966; "A campaign in which the Governor runs for re-election will bring nothing but disaster." Rockefeller, once it is printed: "strange pen pals."'
-    n: '[[w.hess-republican-establishment]], 315. Made public: Evans and Novak''s column, July 1965 (so Hess and Broder, 315); Javits denies the leak. Names: Hughes, Javits, Rockefeller.'
+    n: '[[w.hess-republican-establishment]], 315; [[w.smith-on-his-own-terms]], 473 (Hughes, of Syracuse, to Javits: "nothing but disaster"; "The fact is we are totally lacking in leadership"). Made public: Evans and Novak''s column, July 1965 (so Hess and Broder, 315); Javits denies the leak. Check: Smith, 473, has Javits leak the letter to the press. Names: Hughes, Javits, Rockefeller.'
     src:
       c: b357b5d1
       rows:
         - 'w.hess-republican-establishment 315: all'
+        - 'w.smith-on-his-own-terms 473: A-B'
     tags: [name:hughes-john-h, name:javits-jacob-k, name:rockefeller-nelson, state:ny]
   - id: cal.1965-05-14.vietnam-force-levels
     when: May 14
@@ -635,11 +783,12 @@ entries:
     date: '1965-05-14'
     thread: vietnam
     c: The embassy announces the Joint U.S. Public Affairs Office (JUSPAO).
-    n: '[[w.macv-command-history-1965]], 479.'
+    n: '[[w.macv-command-history-1965]], 479; [[w.macv-command-history-1965]], 253 (Embassy Instruction 186; the joint message of May 18).'
     src:
       c: fca615ea
       rows:
         - 'w.macv-command-history-1965 479: all'
+        - 'w.macv-command-history-1965 253: ?'
   - id: cal.1965-05-14.europe-and-the-alliance
     when: May 14
     date: '1965-05-14'
@@ -654,26 +803,42 @@ entries:
         - 'via x.1984.rusk-interviews-with-richard-rusk: A-B, C'
         - 'via x.1965-05-14.rusk-remarks-at-runnymede: C'
     tags: [name:kennedy-john-f, name:wilson-harold, name:macmillan-harold, name:kennedy-jacqueline, name:rusk-dean, name:johnson-lyndon-b]
+  - id: cal.1965-05-14.vietnam-3
+    when: May 14
+    date: '1965-05-14'
+    thread: vietnam
+    c: The Joint Chiefs create a deputy commander of MACV for air operations, the 2d Air Division's commander to hold it besides. His terms of reference Aug. 25.
+    n: '[[w.macv-command-history-1965]], 93. Check: the day; the note''s message is dated May 9. To check: Msg, JCS, 092159Z May 65 (cited by [[w.macv-command-history-1965]], 93 n.402); Ltr, COMUSMACV, 25 Aug 65, Subj: Terms of Reference, Deputy Air Opns, HQ MACV (cited by [[w.macv-command-history-1965]], 93 n.403).'
+    src:
+      c: 9bb27157
+      rows:
+        - 'w.macv-command-history-1965 93: all'
+        - 'via w.macv-command-history-1965 93 n.402: all'
+        - 'via w.macv-command-history-1965 93 n.403: all'
   - id: cal.1965-05-15.students
     when: May 15
     date: '1965-05-15'
     thread: students
     also: [vietnam]
     c: The National Teach-In on Vietnam, Sheraton-Park Hotel, Washington, by the Inter-University Committee for Debate on Foreign Policy; carried by telephone to some 100 campuses. Bundy, to have spoken for the administration, sent to the Dominican Republic; his statement read. Check the count.
-    n: '[[w.gibbons-u-s-government-and]], III, 270–72 (the teach-in, some 5,000 there, more than 100 campuses by radio and television; Bundy sent to the Dominican Republic); [[w.branch-at-canaans-edge]], 221–22; [[w.preston-war-council]], 197–98 (Bundy to debate Kahin; withdrawn by Johnson at the last minute; the hisses). To check: [[w.menashe-teach-ins]]; [[w.wells-war-within]]; [[w.debenedetti-american-ordeal]]; [[w.zaroulis-who-spoke-up]]; [[w.bird-color-of-truth]]. See [[cal.1964-12-02.states-and-cities]]. Check: Gibbons, III, 270, has it organized by the Inter-University Committee for a Public Hearing on Vietnam. Names: Bundy.'
+    n: '[[w.gibbons-u-s-government-and]], III, 270–72 (the teach-in, some 5,000 there, more than 100 campuses by radio and television; Bundy sent to the Dominican Republic); [[w.branch-at-canaans-edge]], 221–22; [[w.preston-war-council]], 197–98 (Bundy to debate Kahin; withdrawn by Johnson at the last minute; the hisses); [[w.bird-color-of-truth]], 318, 324 (the debate planned for May 15; Bundy sent to Santo Domingo). To check: [[w.menashe-teach-ins]]; [[w.wells-war-within]]; [[w.debenedetti-american-ordeal]]; [[w.zaroulis-who-spoke-up]]. See [[cal.1964-12-02.states-and-cities]]. Check: Gibbons, III, 270, has it organized by the Inter-University Committee for a Public Hearing on Vietnam. Names: Bundy.'
     src:
       c: 4d9ec101
       rows:
         - 'w.gibbons-u-s-government-and III, 270–72: A-C'
         - 'w.branch-at-canaans-edge 221–22: A-C'
         - 'w.preston-war-council 197–98: A'
+        - 'via w.preston-war-council 197 n.19: A'
+        - 'via w.preston-war-council 198 n.24a: A'
+        - 'w.bird-color-of-truth 318, 324: ?'
+        - 'via w.bird-color-of-truth 318 n.36: A'
     tags: [name:bundy-mcgeorge]
   - id: cal.1965-05-15.latin-america
     when: May 15
     date: '1965-05-15'
     thread: latin-america-dominican-republic
     c: 'Bundy''s mission. Bundy, Vance, and Fortas see Bosch in Puerto Rico: a government under Antonio Guzmán, Bosch''s agriculture minister, "Constitution sí, communism no."'
-    n: '[FRUS 1964–68, XXXII, doc. 72](https://history.state.gov/historicaldocuments/frus1964-68v32/d72). Further Statement by the President on the OAS Mission to the Dominican Republic, [1965 Pub. Papers 538](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=614) (May 15, 1965). [[w.rusk-as-i-saw-it-1990]], 375 (the mission); [[w.preston-war-council]], 200–201 (the mission, from May 14, Mann in it; Palmer''s line to the White House; the settlement for Guzmán, May 18, its collapse). To check: [[w.bird-color-of-truth]]; [[w.murphy-fortas]]. See [[cal.1965-04-28.latin-america]]. Names: Bundy, Vance, Fortas, Bosch, Guzmán-Fernández. Check: Rusk names Bundy, Vance and Mann, sent to Santo Domingo May 15; Bundy and Vance for a strong role for Bosch, Mann against, Rusk and then Johnson with Mann ([[w.rusk-as-i-saw-it-1990]], 375).'
+    n: '[FRUS 1964–68, XXXII, doc. 72](https://history.state.gov/historicaldocuments/frus1964-68v32/d72). Further Statement by the President on the OAS Mission to the Dominican Republic, [1965 Pub. Papers 538](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=614) (May 15, 1965). [[w.rusk-as-i-saw-it-1990]], 375 (the mission); [[w.preston-war-council]], 200–201 (the mission, from May 14, Mann in it; Palmer''s line to the White House; the settlement for Guzmán, May 18, its collapse); [[w.bird-color-of-truth]], 324 (Bundy''s mission; no settlement). To check: [[w.murphy-fortas]]. See [[cal.1965-04-28.latin-america]]. Names: Bundy, Vance, Fortas, Bosch, Guzmán-Fernández. Check: Rusk names Bundy, Vance and Mann, sent to Santo Domingo May 15; Bundy and Vance for a strong role for Bosch, Mann against, Rusk and then Johnson with Mann ([[w.rusk-as-i-saw-it-1990]], 375).'
     src:
       c: 4cff1849
       rows:
@@ -682,6 +847,7 @@ entries:
         - 'w.rusk-as-i-saw-it-1990 375: A'
         - 'w.preston-war-council 200–201: A'
         - 'via x.1984.rusk-interviews-with-richard-rusk: A'
+        - 'w.bird-color-of-truth 324: ?'
     tags: [name:bundy-mcgeorge, name:vance-cyrus, name:fortas-abe, name:bosch-juan, name:guzman-fernandez-silvestre-antonio]
   - id: cal.1965-05-15.vietnam-congress
     when: May 15
@@ -707,6 +873,18 @@ entries:
       rows:
         - 'w.dobrynin-in-confidence 143: all'
     tags: [name:rusk-dean, name:gromyko-andrei, name:kohler-foy-d]
+  - id: cal.1965-05-15.vietnam-force-levels
+    when: May 15
+    date: '1965-05-15'
+    thread: vietnam-force-levels
+    c: A briefing recommends to Westmoreland Cam Ranh Bay as a second major deep-water port and logistics complex for I and II Corps; the land approved May 13. Westmoreland approves the plan in concept; the Joint Chiefs concur by the end of May.
+    n: '[[w.macv-command-history-1965]], 108. To check: Memo, MACJ4, 15 May 65, Subj: Support Areas Feasibility Briefing (cited by [[w.macv-command-history-1965]], 108 n.498). See [[cal.1965-06-09.vietnam-force-levels]]. Names: Westmoreland.'
+    src:
+      c: b4569992
+      rows:
+        - 'w.macv-command-history-1965 108: all'
+        - 'via w.macv-command-history-1965 108 n.498: all'
+    tags: [name:westmoreland-william]
   - id: cal.1965-05-16.opinion
     when: May 16
     date: '1965-05-16'
@@ -752,6 +930,17 @@ entries:
       rows:
         - 'w.macv-command-history-1965 479: all'
     tags: [place:bien-hoa-air-base]
+  - id: cal.1965-05-16.vietnam
+    when: May 16
+    date: '1965-05-16'
+    thread: vietnam
+    c: The Joint General Staff activates the 10th ARVN Division. The Joint Chiefs approve it June 9 and fix the ARVN ceiling.
+    n: '[[w.macv-command-history-1965]], 60–61. Check: the Joint Chiefs'' day; the History gives June 9, the note''s message (n.191) 191928Z Jun 65. To check: Memo, RVNAF JGS, No 11331, 18 May 65 (cited by [[w.macv-command-history-1965]], 61 n.192). See [[cal.1965-05-05.vietnam-4]].'
+    src:
+      c: 666d7889
+      rows:
+        - 'w.macv-command-history-1965 60–61: all'
+        - 'via w.macv-command-history-1965 61 n.192: all'
   - id: cal.1965-05-17.economy
     when: May 17
     date: '1965-05-17'
@@ -861,6 +1050,18 @@ entries:
       rows:
         - 'w.preston-war-council 201: all'
     tags: [name:bundy-mcgeorge, name:guzman-fernandez-silvestre-antonio, name:mann-thomas-c, name:rusk-dean]
+  - id: cal.1965-05-18.voting-rights
+    when: May 18
+    date: '1965-05-18'
+    thread: voting-rights
+    c: 'Albert to Johnson by telephone, 5:50 p.m.: in the Democratic Study Group, the Leadership Conference and the House Judiciary Committee, a strong consensus for the poll tax ban.'
+    n: '[[w.zelizer-fierce-urgency-of-now]], 218. To check: the recording, [Conversation with Carl Albert](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-carl-albert-may-18-1965), Conversation WH6505-24-7765 (Miller Center) (cited by [[w.zelizer-fierce-urgency-of-now]], 218 n.116). Names: Albert, Johnson.'
+    src:
+      c: 7630eb43
+      rows:
+        - 'w.zelizer-fierce-urgency-of-now 218: all'
+        - 'via w.zelizer-fierce-urgency-of-now 218 n.116: all'
+    tags: [name:albert-carl, name:johnson-lyndon-b]
   - id: cal.1965-05-19.king
     when: May 19
     date: '1965-05-19'
@@ -897,7 +1098,22 @@ entries:
       rows:
         - 'w.preston-war-council 198: B'
         - 'w.preston-war-council 200–01: A'
+        - 'via w.preston-war-council 198 n.25b: B'
+        - 'via w.preston-war-council 201 n.37a: A'
     tags: [name:johnson-lyndon-b, name:fortas-abe, name:mann-thomas-c, name:bundy-mcgeorge]
+  - id: cal.1965-05-19.transition-and-staff
+    when: May 19
+    date: '1965-05-19'
+    thread: transition-and-staff
+    also: [robert-kennedy]
+    c: 'McPherson, leaving State for the White House, to Moyers, for Moynihan as his successor: "Nobody in the country would do it better. [Yet] there is the loyalty problem," "more fanciful ... than real. How would you recommend I proceed to overcome it?"'
+    n: '[[w.shesol-mutual-contempt]], 319. To check: McPherson to Moyers, May 19, 1965, McPherson Files, box 51, LBJ Library (cited by [[w.shesol-mutual-contempt]], 319). Names: McPherson, Moyers, Moynihan.'
+    src:
+      c: e6abac12
+      rows:
+        - 'w.shesol-mutual-contempt 319: all'
+        - 'via x.1965-05-19.mcpherson-to-moyers-moynihan: all'
+    tags: [name:mcpherson-harry, name:moyers-bill, name:moynihan-daniel-patrick]
   - id: cal.1965-05-20.vietnam-operations
     when: May 20
     date: '1965-05-20'
@@ -914,7 +1130,7 @@ entries:
     thread: students
     also: [vietnam]
     c: 'Vietnam Day, Berkeley: some 35 hours of speeches against the war on the campus. The Vietnam Day Committee formed. Check the crowd.'
-    n: '[[w.branch-at-canaans-edge]], 222–24. To check: [[w.rorabaugh-berkeley-at-war]]; [[w.wells-war-within]]. See [[cal.1965-05-15.students]]. Check: Branch gives "nearly thirty-four continuous hours" (222) and the *Times*''s headline, "33-Hour Teach-In Attracts 10,000" (224).'
+    n: '[[w.branch-at-canaans-edge]], 222–24. Check: [[w.branch-pillar-of-fire]], 611, quotes Moses at "a May rally in Berkeley" ("we travel in different realities"), from Petras, ed., *We Accuse* (1965), 151: whether Vietnam Day. To check: [[w.rorabaugh-berkeley-at-war]]; [[w.wells-war-within]]. See [[cal.1965-05-15.students]]. Check: Branch gives "nearly thirty-four continuous hours" (222) and the *Times*''s headline, "33-Hour Teach-In Attracts 10,000" (224).'
     src:
       c: b4b0a1bd
       rows:
@@ -983,13 +1199,14 @@ entries:
     date: '1965-05-24'
     thread: conservation
     c: 'White House Conference on Natural Beauty, Laurance Rockefeller chairman. May 26, four highway beauty bills sent up: billboards and junkyards within 1,000 feet of Interstate and primary highways controlled, as a condition of federal highway aid; landscaping; scenic roads.'
-    n: 'Remarks to the Delegates to the White House Conference on Natural Beauty, [1965 Pub. Papers 576](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=652) (May 25, 1965); Letter to the President of the Senate and to the Speaker of the House Transmitting Bills To Improve Highway Beauty, [1965 Pub. Papers 582](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=658) (May 26, 1965). [[w.sundquist-politics-and-policy]], 374–76 (the conference; the bill sent the day after it closed). To check: [[w.gould-lady-bird-johnson-and]]; [[w.johnson-white-house-diary]]; [[w.smith-stewart-l-udall]]. See [[cal.1964-09-03.conservation]]. Names: Laurance Rockefeller.'
+    n: 'Remarks to the Delegates to the White House Conference on Natural Beauty, [1965 Pub. Papers 576](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=652) (May 25, 1965); Letter to the President of the Senate and to the Speaker of the House Transmitting Bills To Improve Highway Beauty, [1965 Pub. Papers 582](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=658) (May 26, 1965). [[w.sundquist-politics-and-policy]], 374–76 (the conference; the bill sent the day after it closed); [[w.smith-on-his-own-terms]], 467 (Laurance Rockefeller chairman). To check: [[w.gould-lady-bird-johnson-and]]; [[w.johnson-white-house-diary]]; [[w.smith-stewart-l-udall]]. See [[cal.1964-09-03.conservation]]. Names: Laurance Rockefeller.'
     src:
       c: 255f43cc
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=652: all'
         - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=658: all'
         - 'w.sundquist-politics-and-policy 374–76: A-B'
+        - 'w.smith-on-his-own-terms 467: A'
     tags: [name:johnson-lyndon-b, name:rockefeller-laurance-s]
   - id: cal.1965-05-24.legislatures-mn
     when: May 24
@@ -1009,7 +1226,7 @@ entries:
     date: '1965-05-25'
     thread: voting-rights
     c: Senate invokes cloture on the voting rights bill, [70–30](https://voteview.com/rollcall/RS0890067). May 26, the Mansfield–Dirksen substitute adopted, [78–18](https://voteview.com/rollcall/RS0890077); the bill passed, [77–19](https://voteview.com/rollcall/RS0890078).
-    n: '[111 Cong. Rec., Senate, May 25, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt9/pdf/GPO-CRECB-1965-pt9-1-1.pdf); [May 26, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt9/pdf/GPO-CRECB-1965-pt9-2-2.pdf). Statement by the President Following Passage by the Senate of the Voting Rights Bill, [1965 Pub. Papers 581](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=657) (May 26, 1965). Voting Rights Act of 1965 (K–J Cong. II.J.2). [[w.branch-at-canaans-edge]], 226–28; [[w.mann-walls-of-jericho]], 473. See [[cal.1965-05-11.voting-rights]]. Names: Mansfield, Dirksen.'
+    n: '[111 Cong. Rec., Senate, May 25, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt9/pdf/GPO-CRECB-1965-pt9-1-1.pdf); [May 26, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt9/pdf/GPO-CRECB-1965-pt9-2-2.pdf). Statement by the President Following Passage by the Senate of the Voting Rights Bill, [1965 Pub. Papers 581](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=657) (May 26, 1965). Voting Rights Act of 1965 (K–J Cong. II.J.2). [[w.branch-at-canaans-edge]], 226–28; [[w.mann-walls-of-jericho]], 473; [[w.zelizer-fierce-urgency-of-now]], 217–18 (cloture 70–30; passage 77–19, thirty Republicans for). See [[cal.1965-05-11.voting-rights]]. Names: Mansfield, Dirksen.'
     src:
       c: 87469b75
       rows:
@@ -1021,6 +1238,7 @@ entries:
         - 'https://voteview.com/rollcall/RS0890078: C'
         - 'w.branch-at-canaans-edge 226–28: A, C'
         - 'w.mann-walls-of-jericho 473: A, C'
+        - 'w.zelizer-fierce-urgency-of-now 217–18: ?'
     tags: [name:mansfield-mike, name:dirksen-everett, name:johnson-lyndon-b]
   - id: cal.1965-05.mayors-omaha
     when: May
@@ -1065,6 +1283,7 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v02/d315: all'
         - 'w.preston-war-council 195: A'
+        - 'via w.preston-war-council 195 n.13a: A'
     tags: [name:cooper-chester-l, name:johnson-lyndon-b, name:moyers-bill, name:pham-van-dong]
   - id: cal.1965-05-26.latin-america
     when: May 26
@@ -1108,6 +1327,7 @@ entries:
       c: 68e09eff
       rows:
         - 'w.preston-war-council 53: all'
+        - 'via w.preston-war-council 53 n.41c: all'
     tags: [name:johnson-lyndon-b, name:moyers-bill, name:bundy-mcgeorge]
   - id: cal.1965-05-27.desegregation-schools
     when: May 27
@@ -1134,12 +1354,23 @@ entries:
         - 'w.shesol-mutual-contempt 269: all'
         - 'via w.shesol-mutual-contempt 269 n.awfully-glad: all'
     tags: [name:dolan-joseph-f, name:kennedy-robert-f]
+  - id: cal.1965-05-27.vietnam-force-levels
+    when: May 27
+    date: '1965-05-27'
+    thread: vietnam-force-levels
+    c: 'McNamara tells the Joint Chiefs and CINCPAC he will separate MACV and MACTHAI: a commander of MACTHAI, an Army major general, at Bangkok; Westmoreland to keep SEATO planning. Westmoreland had opposed it in March.'
+    n: '[[w.macv-command-history-1965]], 102. Names: McNamara, Westmoreland.'
+    src:
+      c: a328c57e
+      rows:
+        - 'w.macv-command-history-1965 102: all'
+    tags: [name:mcnamara-robert-s, name:westmoreland-william]
   - id: cal.1965-05-29.vietnam-operations
     when: May 29–30
     date: '1965-05-29'
     thread: vietnam-operations
     c: 'Ba Gia, west of Quảng Ngãi city. A Viet Cong force, probably a regiment, attacks a South Vietnamese company clearing a road and ambushes the two companies sent after it; May 30, three more battalions committed and beaten. South Vietnamese losses: 107 killed, 123 wounded, 367 missing, 384 weapons.'
-    n: '[FRUS 1964–68, II, doc. 322](https://history.state.gov/historicaldocuments/frus1964-68v02/d322) (Taylor to Johnson, June 1). [[w.def-u-s-viet-rels-iv-c-5]], 33, 82; [[w.carland-united-states-army-in]], 45; [[w.vietnam-victory-in-vietnam]], 144–45, 461–62 nn.31–32 (the campaign; the relief task force of May 30 destroyed); [[w.schlight-united-states-air-force]], 46 (the battle, May 29–30). [[w.macv-command-history-1965]], 221–22 (the ambushes of May 29–30; the losses). To check: COMUSMACV MILREP, 070742Z Jun 65 (cited by [[w.macv-command-history-1965]], 222 n.257). Check: *Victory in Vietnam* opens the campaign the evening of May 25 at a Popular Forces post, a battalion of the 51st Regiment destroyed coming to its relief; the relief task force of May 30 destroyed on the road to Ba Gia; the campaign 51 days, 2,054 of the enemy put out of action (144–45, 462 n.32). Check: Schlight, 46, has a platoon caught on the road May 29 and the rest of its battalion destroyed coming to its relief; the three battalions sent May 30 hold Ba Gia, the enemy breaking off June 4.'
+    n: '[FRUS 1964–68, II, doc. 322](https://history.state.gov/historicaldocuments/frus1964-68v02/d322) (Taylor to Johnson, June 1). [[w.def-u-s-viet-rels-iv-c-5]], 33, 82; [[w.carland-united-states-army-in]], 45; [[w.vietnam-victory-in-vietnam]], 144–45, 461–62 nn.31–32 (the campaign; the relief task force of May 30 destroyed); [[w.schlight-united-states-air-force]], 46 (the battle, May 29–30); [[w.westmoreland-soldier-reports]], 136 (later in May; a Viet Cong regiment virtually destroys an ARVN battalion in an ambush and mauls a second). [[w.macv-command-history-1965]], 221–22 (the ambushes of May 29–30; the losses). To check: COMUSMACV MILREP, 070742Z Jun 65 (cited by [[w.macv-command-history-1965]], 222 n.257). Check: *Victory in Vietnam* opens the campaign the evening of May 25 at a Popular Forces post, a battalion of the 51st Regiment destroyed coming to its relief; the relief task force of May 30 destroyed on the road to Ba Gia; the campaign 51 days, 2,054 of the enemy put out of action (144–45, 462 n.32). Check: Schlight, 46, has a platoon caught on the road May 29 and the rest of its battalion destroyed coming to its relief; the three battalions sent May 30 hold Ba Gia, the enemy breaking off June 4.'
     src:
       c: 7a244ffa
       rows:
@@ -1150,6 +1381,7 @@ entries:
         - 'w.schlight-united-states-air-force 46: A-C'
         - 'w.macv-command-history-1965 221–22: A-D'
         - 'via w.macv-command-history-1965 222 n.257: A-D'
+        - 'w.westmoreland-soldier-reports 136: A'
     tags: [province:quang-ngai]
   - id: cal.1965-05-31.europe-and-the-alliance
     when: May 31–June 1
@@ -1245,4 +1477,27 @@ entries:
       c: 201e01eb
       rows:
         - 'w.preston-war-council 198: all'
+        - 'via w.preston-war-council 198 n.25a: all'
     tags: [name:johnson-lyndon-b, name:moyers-bill, name:bundy-mcgeorge]
+  - id: cal.1965-05.opinion
+    when: May
+    date: 1965-05
+    thread: opinion
+    also: [governors]
+    c: 'New York. Rockefeller''s own polls: 17 percent rate his work good or excellent, 78 percent fair or poor. He trails O''Connor, Franklin Roosevelt Jr. and Wagner each by 30 points or more.'
+    n: '[[w.smith-on-his-own-terms]], 471. Check: the poll''s dates and pollster. Names: Rockefeller, O''Connor, Franklin D. Roosevelt Jr., Wagner.'
+    src:
+      c: af08fc4e
+      rows:
+        - 'w.smith-on-his-own-terms 471: all'
+    tags: [name:rockefeller-nelson, name:oconnor-frank-d, name:roosevelt-franklin-d-jr, name:wagner-robert-f-jr, state:ny]
+  - id: cal.1965-05.vietnam-2
+    when: May
+    date: 1965-05
+    thread: vietnam
+    c: The South Vietnamese air force's fifth A-1 squadron, the 522d, activated at Tân Sơn Nhứt; the sixth, the 524th, at Nha Trang in August. A-1s from 89 in January to 146 at the year's end. The last T-28 gone in April, the last UH-19 in May.
+    n: '[[w.macv-command-history-1965]], 65, 83. Check: the days.'
+    src:
+      c: 3bec8a00
+      rows:
+        - 'w.macv-command-history-1965 65, 83: all'

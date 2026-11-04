@@ -24,6 +24,28 @@ entries:
     c: 'Minnesota''s first sales tax. The legislature passes H.F. 27 over LeVander''s veto the same day: the Tax Reform and Relief Act of 1967, a tax of 3 percent on retail sales made after July 31, 1967, with relief from the property tax for owners and renters.'
     n: '*Laws of Minnesota for 1967*, Extra Session, ch. 32, art. XIII, § 2, [p. 2179](https://www.revisor.mn.gov/laws/1967/1/Session+Law/Chapter/32/pdf/#page=37); "Passed notwithstanding governor''s veto June 1, 1967," [p. 2210](https://www.revisor.mn.gov/laws/1967/1/Session+Law/Chapter/32/pdf/#page=68). See [[cal.1967-06-01.state-and-city-finance-mn]]. Names: LeVander.'
     tags: [state:mn, name:levander-harold]
+  - id: cal.1967-06-01.vietnam-operations
+    when: June 1
+    date: '1967-06-01'
+    thread: vietnam-operations
+    c: Cimarron begins, the 3d Marine Division in northern Quảng Trị. The 9th Marines meet the enemy the first evening in a 600-meter bunker complex near the DMZ; contact light by June 6. North Vietnamese troops near Côn Thiên in steel helmets and flak jackets.
+    n: '[[w.macv-command-history-1967]], 360.'
+    src:
+      c: dee9accd
+      rows:
+        - 'w.macv-command-history-1967 360: all'
+    tags: [province:quang-tri, place:con-thien]
+  - id: cal.1967-06-01.vietnam
+    when: June 1
+    date: '1967-06-01'
+    thread: vietnam
+    c: Maj. Gen. Robert E. Cushman relieves Lt. Gen. Lewis W. Walt as commander of III MAF and I Corps at Đà Nẵng. The first F-5 jets turned over to the South Vietnamese air force.
+    n: '[[w.macv-command-history-1967]], 1269. Names: Cushman, Walt.'
+    src:
+      c: a9c0d501
+      rows:
+        - 'w.macv-command-history-1967 1269: all'
+    tags: [name:cushman-robert-e-jr, name:walt-lewis-w, place:da-nang]
   - id: cal.1967-06-02.vietnam
     when: June 2–3
     date: '1967-06-02'
@@ -60,7 +82,7 @@ entries:
     thread: democratic-party
     also: [robert-kennedy, middle-east]
     c: 'New York, the New York State Democratic dinner. Johnson on the Middle East: in close touch with the leaders of both parties in Congress; all help to the Security Council. Robert Kennedy on Johnson: "He has gained huge popularity, but he has never failed to spend it in the pursuit of his beliefs or in the interest of his country."'
-    n: '[[w.johnson-vantage-point]], 111, 296 (Johnson''s words, quoted at 296; Kennedy''s at 111); [[w.palermo-in-his-own-right]], 64–65 (Kennedy''s introduction, given after Johnson had spoken, he having come from a funeral in England; some 1,400 protesting outside the Americana; the words). To check: Remarks in New York City at the New York State Democratic Dinner, [APP](https://www.presidency.ucsb.edu/documents/remarks-new-york-city-the-new-york-state-democratic-dinner); Kennedy''s remarks at the Democratic State Committee dinner, Americana Hotel, June 3, 1967, WHFN, LBJ Library (cited by [[w.palermo-in-his-own-right]], 65 n.29); *New York Times*, June 4, 1967, 1 (cited by [[w.palermo-in-his-own-right]], 64 n.27). See [[cal.1967-06-03.middle-east]]. Names: Johnson, Robert Kennedy. Check: Palermo, 65, from the text of the remarks (n.29), has "or the interest of his country."'
+    n: '[[w.johnson-vantage-point]], 111, 296 (Johnson''s words, quoted at 296; Kennedy''s at 111); [[w.palermo-in-his-own-right]], 64–65 (Kennedy''s introduction, given after Johnson had spoken, he having come from a funeral in England; some 1,400 protesting outside the Americana; the words); [[w.shesol-mutual-contempt]], 397 (Kennedy late from a funeral in London, too late to introduce Johnson; drafts by Sorensen and Walinsky: "the height of his aim"; "with our help he will do so again in 1968"). To check: Remarks in New York City at the New York State Democratic Dinner, [APP](https://www.presidency.ucsb.edu/documents/remarks-new-york-city-the-new-york-state-democratic-dinner); Kennedy''s remarks at the Democratic State Committee dinner, Americana Hotel, June 3, 1967, WHFN, LBJ Library (cited by [[w.palermo-in-his-own-right]], 65 n.29); *New York Times*, June 4, 1967, 1 (cited by [[w.palermo-in-his-own-right]], 64 n.27). See [[cal.1967-06-03.middle-east]]. Names: Johnson, Robert Kennedy. Check: Palermo, 65, from the text of the remarks (n.29), has "or the interest of his country."'
     src:
       c: 6f10e228
       rows:
@@ -69,6 +91,7 @@ entries:
         - 'w.palermo-in-his-own-right 64–65: C'
         - 'via w.palermo-in-his-own-right 65 n.29: C'
         - 'via w.palermo-in-his-own-right 64 n.27: C'
+        - 'w.shesol-mutual-contempt 397: ?'
     tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
   - id: cal.1967-06-03.democratic-party-2
     when: June 3
@@ -82,6 +105,17 @@ entries:
       rows:
         - 'w.palermo-in-his-own-right 66: all'
     tags: [name:kennedy-robert-f, name:johnson-lyndon-b, name:harriman-w-averell, state:ny, city:nyc]
+  - id: cal.1967-06-03.vietnam-force-levels
+    when: June 3
+    date: '1967-06-03'
+    thread: vietnam-force-levels
+    c: Sharp concurs in Westmoreland's request for the South Vietnamese forces' fiscal 1968 levels and asks the Joint Chiefs' approval; the Chiefs ask about inflation, dollar costs and more advisers. McNamara briefed in Saigon in early July on a force of 685,739.
+    n: '[[w.macv-command-history-1967]], 185–86. Names: Sharp, Westmoreland, McNamara.'
+    src:
+      c: bceb9020
+      rows:
+        - 'w.macv-command-history-1967 185–86: all'
+    tags: [name:sharp-u-s-grant, name:westmoreland-william, name:mcnamara-robert-s]
   - id: cal.1967-06-04.middle-east
     when: June 4
     date: '1967-06-04'
@@ -95,6 +129,17 @@ entries:
     also: [elections-1968-polls]
     c: 'Gallup, Apr. 19–24: would vote for a well-qualified man for President whom one''s party nominated, if he were a Catholic, 89 percent; a Jew, 82; a Negro, 54, no 40 (South 32 yes). A qualified woman: yes 57, no 39.'
     n: '[[w.gallup-poll]], III, 2065–66.'
+  - id: cal.1967-06-04.vietnam-operations
+    when: June 4
+    date: '1967-06-04'
+    thread: vietnam-operations
+    c: The Mobile Riverine Force, the 2d Brigade, 9th Division, with the Navy's Task Force 117, begins Coronado in Định Tường.
+    n: '[[w.macv-command-history-1967]], 395, 483. Check: the History, 483, has the Force committed June 1.'
+    src:
+      c: a5cae162
+      rows:
+        - 'w.macv-command-history-1967 395, 483: all'
+    tags: [province:dinh-tuong, place:mekong-delta]
   - id: cal.1967-06-05.middle-east
     when: June 5
     date: '1967-06-05'
@@ -164,6 +209,18 @@ entries:
       rows:
         - 'w.mcpherson-political-education 415: all'
     tags: [name:barbour-walworth, name:mcpherson-harry]
+  - id: cal.1967-06-05.vietnam-operations
+    when: June 5
+    date: '1967-06-05'
+    thread: vietnam-operations
+    c: Union II ends, 701 of the enemy counted killed, with 304 tactical air sorties. June 2, three hours' fighting with a regiment, 56 North Vietnamese killed.
+    n: '[[w.macv-command-history-1967]], 364. To check: MACV MONEVALs, May and June 1967 (cited by [[w.macv-command-history-1967]], 364 n.29). See [[cal.1967-05-25.vietnam-operations]].'
+    src:
+      c: ef9881cb
+      rows:
+        - 'w.macv-command-history-1967 364: all'
+        - 'via w.macv-command-history-1967 364 n.29: all'
+    tags: [province:quang-tin]
   - id: cal.1967-06-06.middle-east
     when: June 6
     date: '1967-06-06'
@@ -209,12 +266,45 @@ entries:
       rows:
         - 'w.mcpherson-political-education 415–16: all'
     tags: [name:mcpherson-harry]
+  - id: cal.1967-06-11.king
+    when: June 6–11
+    date: '1967-06-06'
+    thread: king
+    also: [middle-east-six-day-war]
+    c: 'King, criticized for signing with Niebuhr a prewar Times advertisement on Israel''s danger: "the Times played it up as a total endorsement of Israel." June 6, Levison: the war "settles nothing"; King: "It has given Johnson the little respite he wanted from Vietnam." June 9, Hoover to the White House on King''s advisers and Israel. June 11, King: Israel "faces the danger of being smug and unyielding."'
+    n: '[[w.branch-at-canaans-edge]], 620–21. To check: New York Times, May 29, 1967 (cited by [[w.branch-at-canaans-edge]], 620); Wiretap transcript of telephone conference call among MLK, Andrew Young, Stanley Levison, and Harry Wachtel, 11:47 a.m., June 8, 1967, FLNY9-1329 (cited by [[w.branch-at-canaans-edge]], 620); Wiretap transcript of telephone call between MLK and Stanley Levyison, June 6, 1967, FLNY-9-1327a (cited by [[w.branch-at-canaans-edge]], 620); Marvin Watson to LBJ, with attached Hoover to Mildred Stegall, "BY LIAISON," June 9, 1967, OFMS, LBJ (cited by [[w.branch-at-canaans-edge]], 620); Wiretap transcript of telephone call between Stanley Levison (quoting MLK) and Harry Wachtel, 12:10 p.m., June 11, 1967, FLNY-91332a (cited by [[w.branch-at-canaans-edge]], 620); Wiretap transcript of telephone call between MLK and Stanley Levison, June 6, 1967, FLNY-9-1327a (cited by [[w.branch-at-canaans-edge]], 621). Names: King, Levison, Hoover.'
+    src:
+      c: ae852afa
+      rows:
+        - 'w.branch-at-canaans-edge 620–21: all'
+        - 'via x.1967-05-29.new-york-times-may-29-1967: all'
+        - 'via x.1967-06-08.wiretap-transcript-of-telephone-conference-call: all'
+        - 'via x.1967-06-06.wiretap-transcript-of-telephone-call-between: all'
+        - 'via x.1967-06-09.marvin-watson-to-lbj-with-attached: all'
+        - 'via x.1967-06-11.wiretap-transcript-of-telephone-call-between: all'
+        - 'via x.1967-06-06.wiretap-transcript-of-telephone-call-between-2: all'
+    tags: [name:king-martin-luther-jr, name:levison-stanley-d, name:hoover-j-edgar]
+  - id: cal.1967-06-06.vietnam-congress
+    when: June 6
+    date: '1967-06-06'
+    thread: vietnam-congress
+    also: [vietnam-elections]
+    c: 'Fulbright in the Senate puts in the Legislative Reference Service''s comparison of South Vietnam''s new constitution with that of 1956: "little reason for optimism"; it "only perpetuates the political grievances of a decade ago"; "under the guise of protecting the ''national interest,''" political life to be "regulated to suit the whim of the government in power."'
+    n: '[113 Cong. Rec. 14758](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt11/pdf/GPO-CRECB-1967-pt11-6-1.pdf#page=34) (Senate, June 6, 1967). [[w.woods-j-william-fulbright-vietnam]], 157 (Fulbright''s warning to the Senate). Names: Fulbright.'
+    src:
+      c: e8889c19
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt11/pdf/GPO-CRECB-1967-pt11-6-1.pdf#page=34: all'
+        - 'w.woods-j-william-fulbright-vietnam 157: ?'
+        - 'w.woods-j-william-fulbright-vietnam 157: all'
+        - 'via x.1967-06-06.fulbright-senate-new-constitution: all'
+    tags: [name:fulbright-j-william]
   - id: cal.1967-06-07.middle-east
     when: June 7
     date: '1967-06-07'
     thread: middle-east-six-day-war
     c: Israel takes the Old City of Jerusalem; the Security Council, Resolution 234, a cease-fire by 2000 GMT; Jordan accepts. Johnson names a Special Committee of the National Security Council for the crisis, McGeorge Bundy its executive secretary.
-    n: 'Security Council Resolution [234 (1967)](https://undocs.org/S/RES/234(1967)). Statement by the President Upon Establishing the National Security Council Special Committee on the Middle East, [1967 Pub. Papers 599](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=667) (June 7, 1967). FRUS 1964–68, XIX, doc. [197](https://history.state.gov/historicaldocuments/frus1964-68v19/d197). [[w.drea-mcnamara-clifford-and-the-2011]], 444–445 (the Special Committee). To check: [[w.bird-color-of-truth]]; draft NSAM, June 6, 1967, NSC History of Middle East Crisis, NSF, LBJ Library (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 444 n.68). See [[cal.1967-06-05.middle-east]]. Drea, 444, dates Johnson''s decision to create the Special Committee June 6, its first meeting June 7 (445); the statement establishing it, June 7. Names: McGeorge Bundy, Johnson.'
+    n: 'Security Council Resolution [234 (1967)](https://undocs.org/S/RES/234(1967)). Statement by the President Upon Establishing the National Security Council Special Committee on the Middle East, [1967 Pub. Papers 599](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=667) (June 7, 1967). FRUS 1964–68, XIX, doc. [197](https://history.state.gov/historicaldocuments/frus1964-68v19/d197). [[w.drea-mcnamara-clifford-and-the-2011]], 444–445 (the Special Committee). To check: draft NSAM, June 6, 1967, NSC History of Middle East Crisis, NSF, LBJ Library (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 444 n.68). See [[cal.1967-06-05.middle-east]]. Drea, 444, dates Johnson''s decision to create the Special Committee June 6, its first meeting June 7 (445); the statement establishing it, June 7. Bird''s *Color of Truth* out of "To check": the book does not treat the Special Committee (read Nov. 4, 2026). Names: McGeorge Bundy, Johnson.'
     src:
       c: ff74df22
       rows:
@@ -252,13 +342,15 @@ entries:
     date: '1967-06-07'
     thread: economy-surcharge
     c: 'Johnson with Fowler, Trowbridge, Wirtz, Ackley and Schultze: they urge the surcharge; Fowler, a deficit of $23 to $28 billion without it. Johnson, by Califano''s memorandum: he will "refuse to run a deficit for the magnitude projected"; he will "slash the hell out of domestic programs if necessary."'
-    n: '[[w.gibbons-u-s-government-and]], IV, 755; [[w.califano-triumph-and-tragedy-of]], 242–43 (Fowler''s deficit of "$23 to $28 billion"; Johnson: "slash the hell out of domestic programs, if necessary"). To check: Califano, memorandum for the files, June 9, 1967, Office Files of White House Aides, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 755 n.122). Names: Johnson, Fowler, Trowbridge, Wirtz, Ackley, Schultze, Califano.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 755; [[w.califano-triumph-and-tragedy-of]], 242–43 (Fowler''s deficit of "$23 to $28 billion"; Johnson: "slash the hell out of domestic programs, if necessary"); [[w.bernstein-guns-or-butter]], 367 (Fowler: the money market "disturbing"; $23 to $28 billion; Johnson: "the magnitude projected"). Check: Bernstein, 367, dates the meeting June 9, the date of Califano''s memorandum. To check: Califano, memorandum for the files, June 9, 1967, Office Files of White House Aides, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 755 n.122). Names: Johnson, Fowler, Trowbridge, Wirtz, Ackley, Schultze, Califano.'
     src:
       c: b0f66fca
       rows:
         - 'w.gibbons-u-s-government-and IV, 755: all'
         - 'via w.gibbons-u-s-government-and IV, 755 n.122: all'
         - 'w.califano-triumph-and-tragedy-of 242–43: ?'
+        - 'w.bernstein-guns-or-butter 367: ?'
+        - 'via w.bernstein-guns-or-butter 367 n.5c: all'
     tags: [name:johnson-lyndon-b, name:fowler-henry-h, name:trowbridge-alexander-b, name:wirtz-w-willard, name:ackley-gardner, name:schultze-charles-l, name:califano-joseph-a-jr]
   - id: cal.1967-06-07.middle-east-six-day-war-2
     when: June 7
@@ -331,6 +423,18 @@ entries:
     c: 'Massachusetts. The Supreme Judicial Court upholds the Racial Imbalance Act against the Boston School Committee: not vague; the legislature''s finding of an emergency not open to review; no denial of equal protection, no pupil shown excluded from a school for his race.'
     n: '*School Committee of Boston v. Board of Education*, [352 Mass. 693](https://static.case.law/mass/352/case-pdfs/0693-01.pdf) (1967). To check: [[w.formisano-boston-against-busing]]; [[w.lukas-common-ground]]. See [[cal.1966-04.desegregation-schools-boston]].'
     tags: [state:ma, city:boston]
+  - id: cal.1967-06-09.middle-east-six-day-war
+    when: June 9
+    date: '1967-06-09'
+    thread: middle-east-six-day-war
+    c: 'Marcy, "Possible Security Council Resolution": by Woods''s account of the view of Fulbright and Marcy, the two powers to guarantee free passage in the Gulf of Aqaba in return for Israel''s withdrawal; the Soviet Union''s good offices to bring Hanoi to talks.'
+    n: '[[w.woods-j-william-fulbright-vietnam]], 152. Check: the paper''s words. To check: the paper, June 9, 1967, Marcy Papers, box 7, RG 46, National Archives (cited by [[w.woods-j-william-fulbright-vietnam]], 152 n.5). Names: Marcy, Fulbright.'
+    src:
+      c: b6fe6632
+      rows:
+        - 'w.woods-j-william-fulbright-vietnam 152: all'
+        - 'via x.1967-06-09.marcy-possible-security-council-resolution: all'
+    tags: [name:marcy-carl, name:fulbright-j-william]
   - id: cal.1967-06-10.oil
     when: June 10
     date: '1967-06-10'
@@ -338,6 +442,18 @@ entries:
     c: 'Interior, Assistant Secretary J. Cordell Moore: "a petroleum emergency exists which threatens the broad security interests of the United States." State, Defense and the Office of Emergency Planning concur.'
     n: 'FRUS 1964–68, XXXIV, doc. [235](https://history.state.gov/historicaldocuments/frus1964-68v34/d235), n. 3 (circular telegram 210177, June 11). See [[cal.1967-06-06.oil]]. Names: Moore.'
     tags: [name:moore-j-cordell]
+  - id: cal.1967-06-10.vietnam-order-of-battle
+    when: June 10
+    date: '1967-06-10'
+    thread: vietnam-order-of-battle
+    c: 'Sharp to Westmoreland, on the revised estimates of the Viet Cong''s irregular forces in the draft SNIE: "Continued close coordination would be essential in order to avoid public disclosure of this sensitive and potentially explosive subject."'
+    n: '[[w.berman-lyndon-johnsons-war]], 50. To check: Sharp to Westmoreland, June 10, 1967, CBS–Westmoreland Joint Exhibit 242 (cited by [[w.berman-lyndon-johnsons-war]], 50 n.6). See [[cal.1967-01-19.vietnam-order-of-battle]]. Names: Sharp, Westmoreland.'
+    src:
+      c: c5134761
+      rows:
+        - 'w.berman-lyndon-johnsons-war 50: all'
+        - 'via x.1967-06-10.sharp-to-westmoreland-jx-242: all'
+    tags: [name:sharp-u-s-grant, name:westmoreland-william]
   - id: cal.1967-06-11.civil-disorders
     when: June 11
     date: '1967-06-11'
@@ -366,6 +482,25 @@ entries:
         - 'via w.dallek-flawed-giant 441 n.142a: all'
         - 'via w.dallek-flawed-giant 441 n.142b: all'
     tags: [name:johnson-lyndon-b, name:temple-larry, name:connally-john, name:higginbotham-a-leon-jr]
+  - id: cal.1967-06-11.alabama
+    when: June 11–12
+    date: '1967-06-11'
+    thread: alabama
+    also: [civil-rights-organizations]
+    c: 'Prattville. Carmichael arrested after a workshop outside a Baptist church, shouting "black power" at the police; a night of shooting in the Negro neighborhood; the Guard called; Hulett beaten near the Autauga County courthouse. Rap Brown: "We blame Lyndon Johnson." Carmichael out on bond June 12.'
+    n: '[[w.branch-at-canaans-edge]], 623. To check: "Violence in Alabama," NYT, June 12, 1967, p. 88 (cited by [[w.branch-at-canaans-edge]], 623); "For the People of Prattville," SC, June 17-18, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 623); [[w.carson-in-struggle]], 254 (cited by [[w.branch-at-canaans-edge]], 623); Int. (Southern Courier photographer) James Peppler, Jan. 24, 2005 (Branch) (cited by [[w.branch-at-canaans-edge]], 623); Sellers, *The River of No Return* (1973), 199 (cited by [[w.branch-at-canaans-edge]], 623); SNCC press release, June 13, 1967, A/SC45£14 (cited by [[w.branch-at-canaans-edge]], 623); New York Times, June 13, 1967, p. 39 (cited by [[w.branch-at-canaans-edge]], 623); Int. James Peppler, Jan. 24, 2005 (Branch) (cited by [[w.branch-at-canaans-edge]], 623). Names: Carmichael, H. Rap Brown.'
+    src:
+      c: 51dda88a
+      rows:
+        - 'w.branch-at-canaans-edge 623: all'
+        - 'via x.1967-06-12.violence-in-alabama-nyt-june-12: all'
+        - 'via x.1967.for-the-people-of-prattville-sc: all'
+        - 'via x.2005-01-24.int-southern-courier-photographer-james-peppler: all'
+        - 'via x.1973.sellers-cleveland-the-river-of-no: all'
+        - 'via x.1967-06-13.sncc-press-release-june-13-1967: all'
+        - 'via x.1967-06-13.new-york-times-june-13-1967-2: all'
+        - 'via x.2005-01-24.int-james-peppler-jan-24-2005: all'
+    tags: [name:carmichael-stokely, name:brown-h-rap]
   - id: cal.1967-06-12.civil-disorders
     when: June 12
     date: '1967-06-12'
@@ -386,13 +521,20 @@ entries:
     thread: court
     also: [king, alabama]
     c: '*Walker v. City of Birmingham*, [388 U.S. 307](https://tile.loc.gov/storage-services/service/ll/usrep/usrep388/usrep388307/usrep388307.pdf): the contempt convictions of King and seven other ministers for marching on Good Friday and Easter, 1963, against a state court''s injunction, affirmed: five days in jail and $50 fines. They should have moved to dissolve the injunction, not disobeyed it. Stewart for the Court, 5–4; Warren, Douglas, Brennan and Fortas dissenting.'
-    n: '[[w.garrow-bearing-the-cross]], 566 (the decision and the defendants). To check: [[w.westin-trial-of-martin-luther]]; New York Times, June 13, 1967, 1; Atlanta Journal, June 13, 1967, A4 (cited by [[w.garrow-bearing-the-cross]], 566 n.45). See [[cal.1963-04-12.alabama]]. Names: Martin Luther King.'
+    n: '[[w.garrow-bearing-the-cross]], 566 (the decision and the defendants); [[w.branch-at-canaans-edge]], 622–23 (Warren: the injunction "entirely superior in the meantime even to the United States Constitution"; King: "Now even the Supreme Court has turned against us"). To check: [[w.westin-trial-of-martin-luther]]; New York Times, June 13, 1967, 1; Atlanta Journal, June 13, 1967, A4 (cited by [[w.garrow-bearing-the-cross]], 566 n.45); 388 U.S. 307 (1967) (cited by [[w.branch-at-canaans-edge]], 622); "Dr. King Loses Plea (cited by [[w.branch-at-canaans-edge]], 622); Faces 5 Days in Jail," NYT, June 13, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 622); Wiretap transcript of telephone conference call among MLK, Andrew Young, Stanley Levison, and Harry Wachtel, 2:31 p.m., June 12, 1967, FLNY9-1333a, "entirely superior in the meantime": Westin, Trial, p. 249 (cited by [[w.branch-at-canaans-edge]], 622); Wiretap transcript of telephone conference call among MLK, Andrew Young, Stanley Levison, and Harry Wachtel, 2:31 p.m., June 12, 1967, FLNY9-1333a, "entirely superior in the meantime": Westin, Trial, p. 249 (cited by [[w.branch-at-canaans-edge]], 623); New York Times, June 14, 1967, p. 46 (cited by [[w.branch-at-canaans-edge]], 623). See [[cal.1963-04-12.alabama]]. Names: Martin Luther King.'
     src:
       c: d487dc84
       rows:
         - 'https://tile.loc.gov/storage-services/service/ll/usrep/usrep388/usrep388307/usrep388307.pdf: all'
         - 'w.garrow-bearing-the-cross 566: A-B'
         - 'via w.garrow-bearing-the-cross 566 n.45: A-B'
+        - 'w.branch-at-canaans-edge 622–23: A-E'
+        - 'via x.1967.388-u-s-307-1967: A-E'
+        - 'via x.undated.dr-king-loses-plea: A-E'
+        - 'via x.1967-06-13.faces-5-days-in-jail-nyt: A-E'
+        - 'via x.1967-06-12.wiretap-transcript-of-telephone-conference-call: A-E'
+        - 'via x.1967-06-12.wiretap-transcript-of-telephone-conference-call-2: A-E'
+        - 'via x.1967-06-14.new-york-times-june-14-1967: A-E'
     tags: [name:king-martin-luther-jr, city:birmingham]
   - id: cal.1967-06-12.court-3
     when: June 12
@@ -414,7 +556,7 @@ entries:
     date: '1967-06-12'
     thread: vietnam-air-war
     c: 'McNamara''s draft memorandum on the bombing of the North, with Vance: against the Joint Chiefs'' program, heavy attacks on the Hanoi-Haiphong base and mining the ports (Alternative A); for Alternative B, the attacks generally confined to the neck of North Vietnam south of 20°.'
-    n: 'FRUS 1964–68, V, doc. [194](https://history.state.gov/historicaldocuments/frus1964-68v05/d194). Made public: [[w.pentagon-papers]], IV, 189–191 (1971) (Check the volume). [[w.drea-mcnamara-clifford-and-the-2011]], 211 (the draft of June 12 against the Chiefs'' program; the attacks on the supply routes nearer the South); [[w.gibbons-u-s-government-and]], IV, 664–66; [[w.mcnamara-in-retrospect]], ch. 10 at n.6 (McNamara and Vance against the Chiefs'' plan: "Nothing short of toppling the Hanoi regime will pressure North Vietnam to settle"). See [[cal.1967-05-19.vietnam]]. Names: McNamara, Vance.'
+    n: 'FRUS 1964–68, V, doc. [194](https://history.state.gov/historicaldocuments/frus1964-68v05/d194). [[w.berman-lyndon-johnsons-war]], 51–53 ("Alternative Military Actions Against North Vietnam"; the government "still largely corrupt, incompetent and unresponsive"; "more than 2,000 non-combatants a month"; the bombing south of the twentieth parallel). Made public: [[w.pentagon-papers]], IV, 189–191 (1971) (Check the volume). [[w.drea-mcnamara-clifford-and-the-2011]], 211 (the draft of June 12 against the Chiefs'' program; the attacks on the supply routes nearer the South); [[w.gibbons-u-s-government-and]], IV, 664–66; [[w.mcnamara-in-retrospect]], ch. 10 at n.6 (McNamara and Vance against the Chiefs'' plan: "Nothing short of toppling the Hanoi regime will pressure North Vietnam to settle"). See [[cal.1967-05-19.vietnam]]. Names: McNamara, Vance.'
     src:
       c: ad18267b
       rows:
@@ -427,6 +569,8 @@ entries:
         - 'via w.drea-mcnamara-clifford-and-the-2011 211 n.34a: A-B'
         - 'w.mcnamara-in-retrospect ch. 10 at n.6: A'
         - 'via x.1967-06-12.mcnamara-draft-memoranda-summary-and-alternative-military-actions: A'
+        - 'w.berman-lyndon-johnsons-war 51–53: A-B'
+        - 'via x.1967-06-12.alternative-military-actions-against-north-vietnam: A-B'
     tags: [name:mcnamara-robert-s, name:vance-cyrus]
   - id: cal.1967-06-12.opinion
     when: June 12
@@ -459,12 +603,23 @@ entries:
       rows:
         - 'w.califano-triumph-and-tragedy-of 243: all'
     tags: [name:califano-joseph-a-jr, name:johnson-lyndon-b, name:wirtz-w-willard, name:ginsburg-david]
+  - id: cal.1967-06-12.vietnam-prisoners
+    when: June 12
+    date: '1967-06-12'
+    thread: vietnam-prisoners
+    c: Forty North Vietnamese prisoners and an infant repatriated across the Bến Hải. In 1967, 139 prisoners released in the South or repatriated to the North.
+    n: '[[w.macv-command-history-1967]], 986.'
+    src:
+      c: 636a58e5
+      rows:
+        - 'w.macv-command-history-1967 986: all'
+    tags: [place:ben-hai-river]
   - id: cal.1967-06-13.court
     when: June 13
     date: '1967-06-13'
     thread: court
     c: 'Johnson, in the Rose Garden, noon: Thurgood Marshall, Solicitor General, nominated Associate Justice, for Tom Clark, who retires with the term, his son Ramsey Clark Attorney General since March. "The right thing to do, the right time to do it, the right man and the right place." The first Negro named to the Court. Johnson had told Ramsey Clark by telephone at 7:59 a.m.'
-    n: 'Remarks to the Press Announcing the Nomination of Thurgood Marshall as Associate Justice of the Supreme Court, [1967 Pub. Papers 611](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=679) (June 13, 1967); The President''s News Conference, [1967 Pub. Papers 612](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=680) (June 13, 1967). [Johnson and Ramsey Clark, 7:59 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ramsey-clark-and-office-conversation-june-13), Conversation WH6706-01-11905-11906 (Miller Center). [[w.dallek-flawed-giant]], 438–42 (the nomination; the first); [[w.califano-triumph-and-tragedy-of]], 208 (a morning''s talk in the bedroom of a woman for the seat, Lady Bird for it, Shirley Hufstedler named; confirmed Aug. 30, 69–11). To check: [[w.williams-thurgood-marshall]]; [[w.tushnet-making-constitutional-law]]; [[w.ball-defiant-life]]; [[w.haygood-showdown]]; [[w.kalman-long-reach-of-the-2017]]; the Marshall and Martin oral histories, LBJ Library (cited by [[w.dallek-flawed-giant]], 441). See [[cal.1967-02-28.court]]. Names: Marshall, Tom Clark, Ramsey Clark, Johnson.'
+    n: 'Remarks to the Press Announcing the Nomination of Thurgood Marshall as Associate Justice of the Supreme Court, [1967 Pub. Papers 611](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=679) (June 13, 1967); The President''s News Conference, [1967 Pub. Papers 612](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=680) (June 13, 1967). [Johnson and Ramsey Clark, 7:59 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ramsey-clark-and-office-conversation-june-13), Conversation WH6706-01-11905-11906 (Miller Center). [[w.dallek-flawed-giant]], 438–42 (the nomination; the first); [[w.califano-triumph-and-tragedy-of]], 208 (a morning''s talk in the bedroom of a woman for the seat, Lady Bird for it, Shirley Hufstedler named; confirmed Aug. 30, 69–11); [[w.branch-at-canaans-edge]], 623–24 (Johnson to Louis Martin and Clifford Alexander: "this is not going to do me a bit of good politically"). To check: [[w.williams-thurgood-marshall]]; [[w.tushnet-making-constitutional-law]]; [[w.ball-defiant-life]]; [[w.haygood-showdown]]; [[w.kalman-long-reach-of-the-2017]]; the Marshall and Martin oral histories, LBJ Library (cited by [[w.dallek-flawed-giant]], 441). See [[cal.1967-02-28.court]]. Names: Marshall, Tom Clark, Ramsey Clark, Johnson.'
     src:
       c: 590fb76b
       rows:
@@ -474,6 +629,7 @@ entries:
         - 'w.dallek-flawed-giant 438–42: A, C'
         - 'via w.dallek-flawed-giant 441 n.142a: A'
         - 'w.califano-triumph-and-tragedy-of 208: ?'
+        - 'w.branch-at-canaans-edge 623–24: A-C'
     tags: [name:marshall-thurgood, name:clark-tom-c, name:clark-ramsey, name:johnson-lyndon-b]
   - id: cal.1967-06-13.economy
     when: June 13
@@ -547,15 +703,41 @@ entries:
     when: June 13
     date: '1967-06-13'
     thread: vietnam
-    c: 'McPherson to Johnson, 8:15 p.m., after two weeks in Vietnam: the campus question, whether to be there, "almost beside the point"; "We are there in such enormous force." Kỳ on corruption: "You live with it in Chicago and New York"; on a program, "We''ll all sound like Roosevelts." Pacification needs "constant pressure from here."'
-    n: 'FRUS 1964–68, V, doc. [197](https://history.state.gov/historicaldocuments/frus1964-68v05/d197). [[w.mcpherson-political-education]], 404–13 (the trip; the memorandum, quoted in part). Made public: FRUS 1964–68, V (2002). Names: McPherson, Johnson, Nguyễn Cao Kỳ.'
+    c: 'McPherson to Johnson, 8:15 p.m., after two weeks in Vietnam: the campus question, whether to be there, "almost beside the point"; "We are there in such enormous force." Kỳ on corruption: "You live with it in Chicago and New York"; on a program, "We''ll all sound like Roosevelts." Pacification needs "constant pressure from here." A lieutenant general: "we were at minus fifty. Now we are at zero"; were he a young peasant offered the chance to strike at "my Frenchified oppressors and their American allies ... I would join up."'
+    n: 'FRUS 1964–68, V, doc. [197](https://history.state.gov/historicaldocuments/frus1964-68v05/d197). [[w.mcpherson-political-education]], 404–13 (the trip; the memorandum, quoted in part); [[w.branch-at-canaans-edge]], 614, 621–22 (the lieutenant general, the peasant: the memorandum as Branch quotes it, McPherson Papers, Box 29, LBJ Library). Made public: FRUS 1964–68, V (2002). Names: McPherson, Johnson, Nguyễn Cao Kỳ.'
     src:
-      c: '28568505'
+      c: 2150a952
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d197: all'
-        - 'w.mcpherson-political-education 404–13: all'
+        - 'w.mcpherson-political-education 404–13: A-E'
         - 'via x.1967-06-13.mcpherson-to-johnson-vietnam-report: all'
+        - 'w.branch-at-canaans-edge 614, 621–22: F, G'
+        - 'via x.1967-06-13.harry-mcpherson-to-lbj-8-15: F, G'
+        - 'via x.1967-06-13.harry-mcpherson-to-lbj-8-15-2: F, G'
     tags: [name:mcpherson-harry, name:johnson-lyndon-b, name:nguyen-cao-ky]
+    aliases: [cal.1967-06-13.vietnam-4]
+  - id: cal.1967-06-13.vietnam-force-levels
+    when: June 13
+    date: '1967-06-13'
+    thread: vietnam-force-levels
+    c: McNamara recommends Vietnamese in place of American military men in logistic support in South Vietnam, freeing troops for combat and training Vietnamese for nation building.
+    n: '[[w.macv-command-history-1967]], 713. Names: McNamara.'
+    src:
+      c: dee5bd3d
+      rows:
+        - 'w.macv-command-history-1967 713: all'
+    tags: [name:mcnamara-robert-s]
+  - id: cal.1967-06-13.vietnam-3
+    when: June 13
+    date: '1967-06-13'
+    thread: vietnam
+    c: McNamara's memorandum authorizing the resources of Practice Nine's strong point and obstacle system for MACV's Requirements Plan. The same day, the nickname compromised, it is dropped in unclassified use; Illinois City, then Dye Marker from July 14.
+    n: '[[w.macv-command-history-1967]], 1082, 1093. Names: McNamara.'
+    src:
+      c: d895f2dd
+      rows:
+        - 'w.macv-command-history-1967 1082, 1093: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1967-06-14.vietnam-congress
     when: June 14
     date: '1967-06-14'
@@ -628,6 +810,28 @@ entries:
       rows:
         - 'w.califano-triumph-and-tragedy-of 193–94: all'
     tags: [name:levinson-lawrence-e, name:wirtz-w-willard, name:albert-carl, name:adams-brockman, name:johnson-lyndon-b]
+  - id: cal.1967-06-16.vietnam
+    when: June 16
+    date: '1967-06-16'
+    thread: vietnam
+    c: 'Westmoreland to the Ambassador''s Special Assistant (CAS), on his idea of a separate battalion, regiment or brigade of Vietnamese of Chinese descent: not palatable to the Vietnamese, given their "historic fear and dislike of the Chinese"; general mobilization, which would take them in, the better course.'
+    n: '[[w.macv-command-history-1967]], 201. Names: Westmoreland.'
+    src:
+      c: ea935066
+      rows:
+        - 'w.macv-command-history-1967 201: all'
+    tags: [name:westmoreland-william]
+  - id: cal.1967-06-16.vietnam-2
+    when: June 16
+    date: '1967-06-16'
+    thread: vietnam
+    c: Westmoreland approves CORDS's proposal for a joint American civil and military program against the Viet Cong infrastructure, with the intelligence services of both countries and a system of coordinating committees and centers at every level.
+    n: '[[w.macv-command-history-1967]], 603. Names: Westmoreland.'
+    src:
+      c: 02d284a5
+      rows:
+        - 'w.macv-command-history-1967 603: all'
+    tags: [name:westmoreland-william]
   - id: cal.1967-06-17.testing
     when: June 17
     date: '1967-06-17'
@@ -661,15 +865,25 @@ entries:
       rows:
         - 'w.gibbons-u-s-government-and IV, 719: all'
         - 'via w.gibbons-u-s-government-and IV, 719 n.36: A'
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d207: all'
     tags: [name:fulbright-j-william, name:johnson-lyndon-b, name:kosygin-aleksei, name:watson-w-marvin, name:rusk-dean]
   - id: cal.1967-06-17.vietnam
     when: June 17
     date: '1967-06-17'
     thread: vietnam
     c: 'At McNamara''s request through McNaughton, the collection of documents on Vietnam for future scholars begins, under Leslie Gelb of International Security Affairs: memoranda, papers and cables from Defense, State, the CIA and the White House. By early 1969, a study of 7,000 pages, the Pentagon Papers.'
-    n: '[[w.mcnamara-in-retrospect]], ch. 10 at n.7. Check: McNamara gives the asking as June 1967, the start June 17. See [[cal.1966-11-07.vietnam-2]]. Names: McNamara, McNaughton, Gelb.'
+    n: '[[w.mcnamara-in-retrospect]], ch. 10 at n.7. [[w.berman-lyndon-johnsons-war]], 51 (McNamara commissions the study five days after June 12). Check: McNamara gives the asking as June 1967, the start June 17. See [[cal.1966-11-07.vietnam-2]]. Names: McNamara, McNaughton, Gelb.'
     tags: [name:mcnamara-robert-s, name:mcnaughton-john-t, name:gelb-leslie-h]
+  - id: cal.1967-06-17.vietnam-operations
+    when: June 17
+    date: '1967-06-17'
+    thread: vietnam-operations
+    c: Greeley begins in the western highlands of Kontum, the 173d Airborne Brigade, the 1st Battalion, 42d South Vietnamese Regiment, and the 5th and 8th South Vietnamese Airborne Battalions.
+    n: '[[w.macv-command-history-1967]], 378.'
+    src:
+      c: c136a393
+      rows:
+        - 'w.macv-command-history-1967 378: all'
+    tags: [province:kon-tum]
   - id: cal.1967-06-18.opinion
     when: June 18
     date: '1967-06-18'
@@ -683,6 +897,19 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 692: A'
         - 'w.gibbons-u-s-government-and IV, 693: B-C'
         - 'w.gallup-poll III, 2068–69: all'
+  - id: cal.1967-06-18.king
+    when: June 18
+    date: '1967-06-18'
+    thread: king
+    also: [middle-east-six-day-war]
+    c: 'King on *Issues and Answers*: "The whole world and all people of good will must respect the territorial integrity of Israel"; a "Marshall Plan" for the Arab poor; "I have never called President Johnson''s name in dissenting on the war."'
+    n: '[[w.branch-at-canaans-edge]], 624. To check: Transcript, Isswes and Answers, June 18, 1967, A/KS11 (cited by [[w.branch-at-canaans-edge]], 624). Names: King.'
+    src:
+      c: 02c54357
+      rows:
+        - 'w.branch-at-canaans-edge 624: all'
+        - 'via x.1967-06-18.transcript-isswes-and-answers-june-18: all'
+    tags: [name:king-martin-luther-jr]
   - id: cal.1967-06-19.middle-east
     when: June 19
     date: '1967-06-19'
@@ -742,13 +969,71 @@ entries:
         - 'via w.schwartz-lyndon-johnson-and-europe 179 n.122: B-D'
         - 'via w.schwartz-lyndon-johnson-and-europe 179 n.123: A'
     tags: [name:fowler-henry-h, name:bator-francis-m, name:okun-arthur-m, name:schiller-karl]
+  - id: cal.1967-06-19.court
+    when: June 19
+    date: '1967-06-19'
+    thread: court
+    also: [soviet-union]
+    c: 'Russell with Johnson, by his notes, on meeting Kosygin, and against Marshall: a Justice who could quote something "other than the 14th Amendment."'
+    n: '[[w.branch-at-canaans-edge]], 624. To check: Russell private notes, "White House Meeting, June 19 '' 1967," Folder "Presidential (LBJ)," Series XVIIIB, RR, UGA (cited by [[w.branch-at-canaans-edge]], 624). See [[cal.1967-06-13.court]]. Names: Russell, Johnson, Marshall.'
+    src:
+      c: b9fd9b23
+      rows:
+        - 'w.branch-at-canaans-edge 624: all'
+        - 'via x.1967.russell-private-notes-white-house-meeting: all'
+    tags: [name:russell-richard-b, name:johnson-lyndon-b, name:marshall-thurgood]
+  - id: cal.1967-06-24.king
+    when: June 19–24
+    date: '1967-06-19'
+    thread: king
+    c: 'King''s *Where Do We Go from Here: Chaos or Community?* out to slight notice: with Belafonte on *The Merv Griffin Show*, June 19; to Levison, June 24, of "running all over the country." Kopkind in the *New York Review of Books*: "Morality, like politics, starts at the barrel of a gun."'
+    n: '[[w.branch-at-canaans-edge]], 625–26. To check: Wiretap transcript of telephone call between MLK and Stanley Levison, 12:50 p.m., June 24, 1967, FLNY-9-1345a (cited by [[w.branch-at-canaans-edge]], 625); Martin Luther King, Jr., "Martin Luther King Defines ''Black Power, " NYT Magazine, June 11, 1967, p. 26ff (cited by [[w.branch-at-canaans-edge]], 625); Transcript, The Mery Griffin Show, June 19, 1967, Tape 69, A/KS (cited by [[w.branch-at-canaans-edge]], 625); [[w.garrow-bearing-the-cross]], 567–68 (cited by [[w.branch-at-canaans-edge]], 626); David J. Garrow, "Where Martin Luther King Jr., Was Going: Where Do We Go from Here and the Traumas of the PostSelma Movement," Georgia Historical Quarterly, Vol. 75, No. 4, Winter 1991, p. 719ff (cited by [[w.branch-at-canaans-edge]], 626); "Soul Power," New York Review of Books, Aug. 24, IG ipesite peaked at seventy million: Jones, Expectations, pp. 75, 213 (cited by [[w.branch-at-canaans-edge]], 626). Names: King, Levison.'
+    src:
+      c: 60bf87ff
+      rows:
+        - 'w.branch-at-canaans-edge 625–26: all'
+        - 'via x.1967-06-24.wiretap-transcript-of-telephone-call-between: all'
+        - 'via x.1967-06-11.martin-luther-king-jr-martin-luther: all'
+        - 'via x.1967-06-19.transcript-the-mery-griffin-show-june: all'
+        - 'via x.1991.david-j-garrow-where-martin-luther: all'
+        - 'via x.undated.soul-power-new-york-review-of: all'
+    tags: [name:king-martin-luther-jr, name:levison-stanley-d]
+  - id: cal.1967-06-19.vietnam-operations
+    when: June 19
+    date: '1967-06-19'
+    thread: vietnam-operations
+    c: Coronado. The whole Mobile Riverine Force's first major action, a riverine assault into Long An with the 3d Brigade, 9th Division, blocking; 256 of the enemy, the 5th Viet Cong Battalion, killed the first day. Coronado ends July 25, 478 killed.
+    n: '[[w.macv-command-history-1967]], 395–96 (COMNAVFORV, 483: in Cần Giuộc District, June 19–20, the toughest fight yet, over 250 of the enemy killed, 46 Americans, 140 wounded). To check: CG II FFORCEV to COMUSMACV, letter, "Monthly Evaluation Report, Jun 67," July 16, 1967 (cited by [[w.macv-command-history-1967]], 396 n.91). See [[cal.1967-06-04.vietnam-operations]].'
+    src:
+      c: 82f07250
+      rows:
+        - 'w.macv-command-history-1967 395–96: all'
+        - 'via w.macv-command-history-1967 396 n.91: all'
+    tags: [province:long-an]
+  - id: cal.1967-06-19.robert-kennedy
+    when: June 19
+    date: '1967-06-19'
+    thread: robert-kennedy
+    c: 'Schlesinger to Robert Kennedy, of his words for Johnson at the dinner of June 3: they "seemed out of character, and that is the one thing you must never be." Kennedy to a friend the day after the dinner: "If I hadn''t said all those things, that would give Lyndon Johnson the opportunity to blame everything that was going wrong ... on that son-of-a-bitch ... Bobby Kennedy."'
+    n: '[[w.shesol-mutual-contempt]], 397. Check: the day; Shesol''s text gives June 15, the note June 19. To check: Schlesinger to Robert Kennedy, June 19, 1967, RFK Senate Correspondence, Personal File, box 11, JFK Library; [[w.schlesinger-robert-kennedy-and-his]], 836 (cited by [[w.shesol-mutual-contempt]], 397). See [[cal.1967-06-03.democratic-party]]. Names: Schlesinger, Robert Kennedy, Johnson.'
+    src:
+      c: 812d548a
+      rows:
+        - 'w.shesol-mutual-contempt 397: all'
+        - 'via x.1967-06-19.schlesinger-to-rfk-out-of-character: all'
+    tags: [name:schlesinger-arthur-m-jr, name:kennedy-robert-f, name:johnson-lyndon-b]
   - id: cal.1967-06-20.draft
     when: June 20
     date: '1967-06-20'
     thread: draft
     also: [war-opposition]
     c: Houston. Muhammad Ali convicted in federal court of refusing induction, after a jury's brief deliberation; Judge Ingraham sentences him to five years and $10,000, the maximum. Free on bail pending appeal.
-    n: '*Clay v. United States*, [397 F.2d 901](https://static.case.law/f2d/397/case-pdfs/0901-01.pdf) (5th Cir. 1968), the appeal. To check: [[w.remnick-king-of-the-world]]. See [[cal.1967-04-28.draft]]. Names: Ali, Ingraham.'
+    n: '*Clay v. United States*, [397 F.2d 901](https://static.case.law/f2d/397/case-pdfs/0901-01.pdf) (5th Cir. 1968), the appeal. [[w.branch-at-canaans-edge]], 627. To check: [[w.remnick-king-of-the-world]]. See [[cal.1967-04-28.draft]]. Names: Ali, Ingraham.'
+    src:
+      c: 9ae6a946
+      rows:
+        - 'https://static.case.law/f2d/397/case-pdfs/0901-01.pdf: all'
+        - 'w.branch-at-canaans-edge 627: A-C'
     tags: [name:ali-muhammad, state:tx, city:houston, name:ingraham-joe-mcdonald]
   - id: cal.1967-06-20.war-opposition
     when: June 20
@@ -788,6 +1073,16 @@ entries:
         - 'w.mann-grand-delusion 545: all'
         - 'via w.mann-grand-delusion 545 n.12: all'
     tags: [name:mansfield-mike]
+  - id: cal.1967-06-20.vietnam-force-levels
+    when: June 20
+    date: '1967-06-20'
+    thread: vietnam-force-levels
+    c: Four PGM gunboats formally transferred to the South Vietnamese navy; the third Navy gasoline barge under military assistance June 11. Sept. 25, the South Vietnamese PCE-03 takes a Market Time area off Phú Quốc.
+    n: '[[w.macv-command-history-1967]], 505.'
+    src:
+      c: edd7fde7
+      rows:
+        - 'w.macv-command-history-1967 505: all'
   - id: cal.1967-06-21.economy-debt-limit
     when: June 21
     date: '1967-06-21'
@@ -832,7 +1127,7 @@ entries:
     thread: soviet-union
     also: [middle-east-six-day-war-aftermath, vietnam, testing]
     c: 'Glassboro, N.J., Hollybush, the house of the president of Glassboro State College: Johnson and Kosygin, June 23 and 25, their only meeting. The Middle East: Kosygin, Israel''s troops back to the armistice lines, the Gulf of Aqaba to the International Court; "unless you do this there will be a war." Johnson: talks on ABMs and ICBMs; when and where might McNamara meet Soviet representatives? Kosygin: offensive weapons too. June 23, Kosygin: Phạm Văn Đồng''s answer, received at lunch: stop the bombing and Hanoi will go to the conference table at once. June 25, Johnson gives him a message for Hanoi: the bombing might stop, with immediate discussions after. Rusk with Gromyko, June 23, on nonproliferation. Johnson to Eisenhower, June 25, by telephone.'
-    n: 'Remarks Following the President''s First Meeting With Chairman Kosygin at Glassboro, New Jersey, [1967 Pub. Papers 644](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=712) (June 23, 1967); Remarks Following the President''s Second Meeting With Chairman Kosygin at Glassboro, New Jersey, [1967 Pub. Papers 650](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=718) (June 25, 1967). FRUS 1964–68, XIV, docs. [228](https://history.state.gov/historicaldocuments/frus1964-68v14/d228)–[237](https://history.state.gov/historicaldocuments/frus1964-68v14/d237); XI, doc. [198](https://history.state.gov/historicaldocuments/frus1964-68v11/d198); V, doc. [217](https://history.state.gov/historicaldocuments/frus1964-68v05/d217). [Johnson and Eisenhower](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-dwight-eisenhower-june-26-1967), Conversation WH6706-02-11914 (Miller Center). [President''s Daily Diary, June 23, 1967](https://catalog.archives.gov/id/192469), images 4, 6, 7, 14, 15; [June 25](https://catalog.archives.gov/id/192471), images 9, 10, 11, 15 (LBJ Library; National Archives Catalog). [[w.rusk-as-i-saw-it-1990]], 349 (the meeting; the missile talks); [[w.rusk-as-i-saw-it-1990]], 471 (the message for Hanoi); [[w.dobrynin-in-confidence]], 167–72. Made public: the memoranda of conversation, FRUS 1964–68, XIV (2001). [[w.drea-mcnamara-clifford-and-the-2011]], 366–367 (Glassboro; McNamara''s case at lunch; Kosygin on offensive weapons; the Middle East); [[w.poole-joint-chiefs-of-staff-2012]], 37 (the summit; the missiles); [[w.nguyen-hanois-war]], 96 (Phạm Văn Đồng''s word through Kosygin); [[w.schwartz-lyndon-johnson-and-europe]], 181–83, 206 (the meeting; nonproliferation; missiles); [[w.johnson-vantage-point]], 256–57, 481–85 (all but Rusk with Gromyko and the call to Eisenhower); [[w.dallek-flawed-giant]], 434–37 (the meetings of June 23 and 25; the Middle East; the missiles); [[w.gibbons-u-s-government-and]], IV, 719–24 (Phạm Văn Đồng''s answer; the message for Hanoi, Rusk''s draft of June 24). Check: Dobrynin: McGuire Air Force Base offered first, Kosygin refusing any military base; Glassboro found with Governor Hughes''s help (168); McNamara''s briefing given at the lunch, before all the officials (170–71). To check: [[w.zubok-failed-empire]]. See [[cal.1966-10-10.soviet-union]]. Names: Johnson, Kosygin, McNamara, Phạm Văn Đồng, Rusk, Gromyko, Eisenhower. Check: Dallek sets the first meeting on June 25, at 11 a.m. (434), the two days on June 23 and 25 (435). Check: by Rusk''s account Governor Hughes proposed the house ([[w.rusk-as-i-saw-it-1990]], 349).'
+    n: 'Remarks Following the President''s First Meeting With Chairman Kosygin at Glassboro, New Jersey, [1967 Pub. Papers 644](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=712) (June 23, 1967); Remarks Following the President''s Second Meeting With Chairman Kosygin at Glassboro, New Jersey, [1967 Pub. Papers 650](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=718) (June 25, 1967). FRUS 1964–68, XIV, docs. [228](https://history.state.gov/historicaldocuments/frus1964-68v14/d228)–[237](https://history.state.gov/historicaldocuments/frus1964-68v14/d237); XI, doc. [198](https://history.state.gov/historicaldocuments/frus1964-68v11/d198); V, doc. [217](https://history.state.gov/historicaldocuments/frus1964-68v05/d217). [Johnson and Eisenhower](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-dwight-eisenhower-june-26-1967), Conversation WH6706-02-11914 (Miller Center). [President''s Daily Diary, June 23, 1967](https://catalog.archives.gov/id/192469), images 4, 6, 7, 14, 15; [June 25](https://catalog.archives.gov/id/192471), images 9, 10, 11, 15 (LBJ Library; National Archives Catalog). [[w.rusk-as-i-saw-it-1990]], 349 (the meeting; the missile talks); [[w.rusk-as-i-saw-it-1990]], 471 (the message for Hanoi); [[w.dobrynin-in-confidence]], 167–72; [[w.branch-at-canaans-edge]], 624–25. Made public: the memoranda of conversation, FRUS 1964–68, XIV (2001). [[w.drea-mcnamara-clifford-and-the-2011]], 366–367 (Glassboro; McNamara''s case at lunch; Kosygin on offensive weapons; the Middle East); [[w.poole-joint-chiefs-of-staff-2012]], 37 (the summit; the missiles); [[w.nguyen-hanois-war]], 96 (Phạm Văn Đồng''s word through Kosygin); [[w.schwartz-lyndon-johnson-and-europe]], 181–83, 206 (the meeting; nonproliferation; missiles); [[w.johnson-vantage-point]], 256–57, 481–85 (all but Rusk with Gromyko and the call to Eisenhower); [[w.dallek-flawed-giant]], 434–37 (the meetings of June 23 and 25; the Middle East; the missiles); [[w.gibbons-u-s-government-and]], IV, 719–24 (Phạm Văn Đồng''s answer; the message for Hanoi, Rusk''s draft of June 24). Check: Dobrynin: McGuire Air Force Base offered first, Kosygin refusing any military base; Glassboro found with Governor Hughes''s help (168); McNamara''s briefing given at the lunch, before all the officials (170–71). To check: [[w.zubok-failed-empire]]. See [[cal.1966-10-10.soviet-union]]. Names: Johnson, Kosygin, McNamara, Phạm Văn Đồng, Rusk, Gromyko, Eisenhower. Check: Dallek sets the first meeting on June 25, at 11 a.m. (434), the two days on June 23 and 25 (435). Check: by Rusk''s account Governor Hughes proposed the house ([[w.rusk-as-i-saw-it-1990]], 349).'
     src:
       c: e56b3fa2
       rows:
@@ -870,6 +1165,7 @@ entries:
         - 'w.rusk-as-i-saw-it-1990 471: H'
         - 'via x.1984.rusk-interviews-with-richard-rusk: A, D-E, H'
         - 'w.dobrynin-in-confidence 167–72: A, D-F, H'
+        - 'w.branch-at-canaans-edge 624–25: all'
     tags: [name:johnson-lyndon-b, name:kosygin-aleksei, name:mcnamara-robert-s, name:pham-van-dong, name:rusk-dean, name:gromyko-andrei, name:eisenhower-dwight-d]
   - id: cal.1967-06-23.congress-dodd
     when: June 23
@@ -910,6 +1206,18 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=713: all'
         - 'w.mann-grand-delusion 546: all'
     tags: [name:johnson-lyndon-b, name:ho-chi-minh]
+  - id: cal.1967-06-24.vietnam-operations
+    when: June 24
+    date: '1967-06-24'
+    thread: vietnam-operations
+    c: The 1st Cavalry's 3d Brigade sent from Pershing to Greeley; by June's end Pershing counts 2,345 of the enemy killed. The brigade rejoins July 27; by August's end, 3,090.
+    n: '[[w.macv-command-history-1967]], 374–75. To check: CG I FFORCEV to COMUSMACV, letter, "Monthly Evaluation Report, Jun 67," July 7, 1967 (cited by [[w.macv-command-history-1967]], 374 n.55). See [[cal.1967-02-13.vietnam-operations]].'
+    src:
+      c: 6ac5c92a
+      rows:
+        - 'w.macv-command-history-1967 374–75: all'
+        - 'via w.macv-command-history-1967 374 n.55: all'
+    tags: [province:binh-dinh]
   - id: cal.1967-06-25.opinion
     when: June 25
     date: '1967-06-25'
@@ -1052,13 +1360,15 @@ entries:
     date: '1967-06-30'
     thread: vietnam-congress
     c: 'Fulbright to Johnson, after Glassboro and his talks with Rusk: the bombing "quietly and progressively reduced over a period of, say, a week or two and then terminated," no announcement; "great caution" on more troops before South Vietnam''s September elections.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 724–25. To check: Fulbright to Johnson, June 30, 1967, with Rostow''s reply, July 7, Ex ND 19/CO 312, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 725 n.49). See [[cal.1967-06-23.soviet-union]]. Names: Fulbright, Johnson, Rusk.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 724–25; [[w.woods-j-william-fulbright-vietnam]], 158 (the letter: "a major reassessment of our position" in view of the "unsatisfactory political situation"). To check: Fulbright to Johnson, June 30, 1967, with Rostow''s reply, July 7, Ex ND 19/CO 312, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 725 n.49). See [[cal.1967-06-23.soviet-union]]. Names: Fulbright, Johnson, Rusk.'
     src:
       c: fd220d0e
       rows:
         - 'w.gibbons-u-s-government-and IV, 724: A'
         - 'w.gibbons-u-s-government-and IV, 725: A-B'
         - 'via w.gibbons-u-s-government-and IV, 725 n.49: all'
+        - 'w.woods-j-william-fulbright-vietnam 158: A'
+        - 'via x.1967-06-30.fulbright-to-johnson-letter-june-30: A'
     tags: [name:fulbright-j-william, name:johnson-lyndon-b, name:rusk-dean]
   - id: cal.1967-06.democratic-party
     when: June
@@ -1215,3 +1525,47 @@ entries:
         - 'w.mcpherson-political-education 410–11: all'
         - 'via x.1967-06.mcpherson-thieu-conversation: all'
     tags: [name:nguyen-cao-ky, name:nguyen-van-thieu, name:tran-van-huong, name:mcpherson-harry]
+  - id: cal.1967-06.mississippi
+    when: June
+    date: 1967-06
+    thread: mississippi
+    c: Oxford. A jury acquits the eight men tried for the beatings of Negro children at the Grenada schools.
+    n: '[[w.branch-at-canaans-edge]], 530, 627. Check: the day. To check: Southern Courier, June 10-11, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 627). See [[cal.1966-09-12.mississippi]].'
+    src:
+      c: bf239f69
+      rows:
+        - 'w.branch-at-canaans-edge 530, 627: all'
+        - 'via x.1967.southern-courier-june-10-11-1967: all'
+  - id: cal.1967-06.vietnam-order-of-battle
+    when: June, mid-
+    date: 1967-06
+    thread: vietnam-order-of-battle
+    c: 'The CIA''s first draft of SNIE 14.3-67, "Capabilities of the Vietnamese Communists for Fighting in South Vietnam": the enemy between 460,000 and 570,000, "the higher figure is closer to the actual total." Against MACV: North Vietnamese troops 53,000 in both; Viet Cong main and local forces 63,000 in both; guerrillas 60,000–120,000 and militia 125,000, against MACV''s irregulars, 100,000–120,000; administrative services 75,000–100,000 against 23,000; political cadres at least 80,000 against 40,000. Totals 456,000–541,000 against 279,000–299,000.'
+    n: '[[w.berman-lyndon-johnsons-war]], 49–50. Check: the day; Berman gives the range as 460,000–570,000 and the table''s totals as 456,000–541,000. See [[cal.1967-01-19.vietnam-order-of-battle]].'
+    src:
+      c: bb16dcd9
+      rows:
+        - 'w.berman-lyndon-johnsons-war 49–50: all'
+        - 'via x.1967-06.draft-snie-14-3-67: all'
+  - id: cal.1967-06.vietnam
+    when: June, early
+    date: 1967-06
+    thread: vietnam
+    c: 'Komer to Johnson, after a month in Vietnam: "we are gaining momentum"; by the end of the winter "we have gained the upper hand"; "The real question is not whether we need more US troops to ''win'' the war in the south, but rather how fast we want to win it." A 50-50 chance of a "clear upper hand" by mid-1968 without large additions, "if everything else breaks our way."'
+    n: '[[w.berman-lyndon-johnsons-war]], 50–51. To check: Komer to Johnson, June 1967, LBJ Library (quoted by [[w.berman-lyndon-johnsons-war]], 50–51). Check: the day. Names: Komer, Johnson.'
+    src:
+      c: a9ee960b
+      rows:
+        - 'w.berman-lyndon-johnsons-war 50–51: all'
+        - 'via x.1967-06.komer-to-johnson-after-a-month-in-vietnam: all'
+    tags: [name:komer-robert-w, name:johnson-lyndon-b]
+  - id: cal.1967-06-30.laos
+    when: June 30–July 4
+    date: '1967-06-30'
+    thread: laos
+    c: Shock III against the infiltration down the Sê Kông from Ban Bạc, 30 sorties a day, against the threat to the Bolovens; ended the evening of July 4, hampered by weather.
+    n: '[[w.macv-command-history-1967]], 454–55.'
+    src:
+      c: cf92a79f
+      rows:
+        - 'w.macv-command-history-1967 454–55: all'

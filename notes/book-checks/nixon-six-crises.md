@@ -251,7 +251,7 @@ search (the hits listed under Passed over), and the campaign chapter's pages the
 | 359 | Oct. 24 | Joseph Alsop's column | cal.1960-10-24.elections-1960-4 |
 | 359 | Oct. 27 | NBC, Elmer Peterson on the West | cal.1960-10-27.elections-1960 |
 | 359 | Oct. 31 | Rowland Evans, *Herald Tribune* | cal.1960-10-31.elections-1960-4 |
-| 359 | Nov. 1 | David Lawrence's column on the Catholic vote | cal.1960-11-01.elections-1961 (an elections-1960 entry: the claiming script read "-1960" as a suffix; the id is permanent) |
+| 359 | Nov. 1 | David Lawrence's column on the Catholic vote | cal.1960-11-01.elections-1960-2 (claimed as cal.1960-11-01.elections-1961; renumbered by the merger before merging) |
 | 359 | Nov. 2 | Reston's column, "a rescue operation" | cal.1960-11-02.elections-1960-5 |
 | 359 | Nov. 7 | Sam Lubell's election-eve forecast | cal.1960-11-07.elections-1960-7 |
 | 359 | Oct. 25–Nov. 7 | *U.S. News*; *Newsweek* and Lindley; *Time* | cal.1960-10-25.elections-1960-6, -7, -8 |

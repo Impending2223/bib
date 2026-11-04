@@ -170,7 +170,7 @@ entries:
     date: '1963-10-04'
     thread: baker
     c: 'Mansfield to reporters: Baker not asked to resign, nor offered to; no reason he should. "Bobby''s work in the Senate has been excellent"; Serv-U "affects his activities outside the Senate."'
-    n: '[[w.caro-passage-of-power]], 288. To check: the *New York Times* and the *Washington Post*, Oct. 5, 1963 (cited by [[w.caro-passage-of-power]], 288). Names: Mansfield, Baker.'
+    n: '[[w.caro-passage-of-power]], 288. Check: Branch, 907: that Friday Baker ducks Mansfield''s summons; Mansfield, Dirksen, Russell and Williams of Delaware wait through the afternoon. To check: the *New York Times* and the *Washington Post*, Oct. 5, 1963 (cited by [[w.caro-passage-of-power]], 288). Names: Mansfield, Baker.'
     src:
       c: 5443b5e3
       rows:
@@ -183,11 +183,13 @@ entries:
     thread: goldwater
     also: [elections-1964]
     c: New York, the Sheraton-East. The Draft Committee's Steering Committee. Goldwater has reserved the Mark Hopkins's fifteenth floor for convention week; White to San Francisco for rooms. Since April nearly $500,000 raised, $125,000 in the bank.
-    n: '[[w.white-suite-3505]], 216–17. See [[cal.1963-04-08.elections-1964]]. Names: Goldwater, White.'
+    n: '[[w.white-suite-3505]], 216–17; [[w.goldberg-barry-goldwater]], 175–76 (in September, all fifty-one rooms of the Mark Hopkins''s fifteenth floor reserved for the convention). See [[cal.1963-04-08.elections-1964]]. Names: Goldwater, White.'
     src:
       c: 43b633fe
       rows:
         - 'w.white-suite-3505 216–17: all'
+        - 'w.goldberg-barry-goldwater 175–76: C'
+        - 'via w.goldberg-barry-goldwater 176 n.149: C'
     tags: [name:goldwater-barry-m, name:white-f-clifton, city:nyc]
   - id: cal.1963-10-04.transition-and-staff
     when: Oct. 4
@@ -200,6 +202,7 @@ entries:
       c: 82a6f0e2
       rows:
         - 'w.preston-war-council 44: all'
+        - 'via w.preston-war-council 44 n.19d: all'
     tags: [name:kennedy-john-f, name:ball-george-w]
   - id: cal.1963-10-04.elections-1964
     when: Oct. 4
@@ -213,6 +216,33 @@ entries:
         - 'w.white-suite-3505 234–35 & n.1: all'
         - 'via w.white-suite-3505 235 n.1: A'
     tags: [name:kennedy-john-f, name:goldwater-barry-m]
+  - id: cal.1963-10-04.king
+    when: Oct. 4
+    date: '1963-10-04'
+    thread: king
+    also: [antisubversion]
+    c: 'Sullivan recommends that Hoover again ask Robert Kennedy for a wiretap on King''s home in Atlanta, "because of the communist influence in the racial movement shown by activities of Stanley Levison as well as King''s connection with him." Hoover: "I hope you don''t change your minds on this." He takes the draft home for the weekend and sends it Monday, Oct. 7.'
+    n: '[[w.branch-parting-the-waters]], 906-7. To check: Bland to Sullivan, Oct. 4, 1963, FK-251 (cited by [[w.branch-parting-the-waters]], 907 n.1); Hoover to Robert Kennedy, Oct. 7, 1963, FK-250 (cited by [[w.branch-parting-the-waters]], 907 n.3). See [[cal.1963-07-24.king]]. Names: Sullivan, Hoover, Robert Kennedy, Martin Luther King, Levison.'
+    src:
+      c: fc2063e5
+      rows:
+        - 'w.branch-parting-the-waters 906-7: all'
+        - 'via w.branch-parting-the-waters 907 n.1: A-B'
+        - 'via w.branch-parting-the-waters 907 n.3: C'
+    tags: [name:sullivan-william-c, name:hoover-j-edgar, name:kennedy-robert-f, name:king-martin-luther-jr, name:levison-stanley-d]
+  - id: cal.1963-10-04.alabama-birmingham
+    when: Oct. 4
+    date: '1963-10-04'
+    thread: alabama-birmingham
+    also: [civil-rights-the-executive]
+    c: 'Burke Marshall to Robert Kennedy, from Floyd Mann in secret: Wallace''s troopers have arrested three men believed to have bombed the church and charged them with minor offenses, to shield them from arrest on capital murder charges.'
+    n: '[[w.branch-parting-the-waters]], 908. To check: Marshall to Robert Kennedy, Oct. 4, 1963, Burke Marshall Papers, box 3, JFK Library (cited by [[w.branch-parting-the-waters]], 908 n.1). Check: the day (Branch: "That very day," Oct. 10; the note gives Oct. 4). See [[cal.1963-09-15.alabama]]. Names: Burke Marshall, Robert Kennedy, Wallace.'
+    src:
+      c: 509fabb9
+      rows:
+        - 'w.branch-parting-the-waters 908: all'
+        - 'via w.branch-parting-the-waters 908 n.1: all'
+    tags: [name:marshall-burke, name:kennedy-robert-f, name:wallace-george-c, state:al, city:birmingham]
   - id: cal.1963-10-05.vietnam
     when: Oct. 5
     date: '1963-10-05'
@@ -289,7 +319,21 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d182: all'
         - 'w.preston-war-council 126–27: all'
+        - 'via w.preston-war-council 127 n.72: all'
     tags: [name:bundy-mcgeorge, name:lodge-henry-cabot, name:kennedy-john-f]
+  - id: cal.1963-10-05.vietnam-4
+    when: Oct. 5
+    date: '1963-10-05'
+    thread: vietnam
+    c: 'McGeorge Bundy to Lodge, eyes only, a personal message from the President with the instructions: "we should not open this next stage in the press"; the decisions "held most tightly here," so that his negotiations with Diệm "may be run on your terms."'
+    n: '[FRUS 1961–63, IV, doc. 180](https://history.state.gov/historicaldocuments/frus1961-63v04/d180) (telegram 533, 5:38 p.m.). [[w.bird-color-of-truth]], 258 (the sanctions out of the newspapers). Check: Bird''s note (258 n.24) gives the words as Bundy to Lodge, Eyes Only, NSF, Vietnam, box 200, JFK Library; FRUS prints them in telegram 533. See [[cal.1963-10-05.vietnam-2]]. Names: McGeorge Bundy, Lodge, Kennedy, Ngô Đình Diệm.'
+    src:
+      c: ad9e526e
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d180: all'
+        - 'w.bird-color-of-truth 258: ?'
+        - 'via w.bird-color-of-truth 258 n.24: all'
+    tags: [name:bundy-mcgeorge, name:lodge-henry-cabot, name:kennedy-john-f, name:ngo-dinh-diem]
   - id: cal.1963-10-06.opinion-5
     when: Oct. 6
     date: '1963-10-06'
@@ -317,7 +361,7 @@ entries:
     date: '1963-10-07'
     thread: baker
     c: 'Bobby Baker resigns as secretary to the Senate majority, under charges of trading on his post. Oct. 10, Williams''s resolution, S. Res. 212, agreed to: the Rules Committee to inquire into the business interests of Senate employees and former employees.'
-    n: '[109 Cong. Rec., Senate, Oct. 10, 1963](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt14/pdf/GPO-CRECB-1963-pt14-7-1.pdf). *Construction of the District of Columbia Stadium and Matters Related Thereto* (K–J Cong. II.J.3). [[w.dallek-flawed-giant]], 40–41 (the resignation). [[w.caro-passage-of-power]], 288–89. To check: [[w.baker-wheeling-and-dealing]]; Williams in the Senate, May 18, 1965, 111 Cong. Rec. 10845; New York Times, Oct. 11, 1963 (cited by [[w.caro-passage-of-power]], 288–89); Time, Oct. 18, 1963, pp. 29–30; Special Agent in Charge, Baltimore, to Hoover, July 27, 1962, Official and Confidential File, J. Edgar Hoover, FBI; Hoover to Special Agent in Charge, Baltimore, Aug. 2, 1962, Official and Confidential File, J. Edgar Hoover, FBI; DeLoach to Hoover, Jan. 20, 1964, Official and Confidential File, J. Edgar Hoover, FBI (cited by [[w.dallek-flawed-giant]], 41). Names: Robert Baker, Williams.'
+    n: '[109 Cong. Rec., Senate, Oct. 10, 1963](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt14/pdf/GPO-CRECB-1963-pt14-7-1.pdf). *Construction of the District of Columbia Stadium and Matters Related Thereto* (K–J Cong. II.J.3). [[w.dallek-flawed-giant]], 40–41 (the resignation); [[w.branch-parting-the-waters]], 907. [[w.caro-passage-of-power]], 288–89. Check: Branch, 907: Mansfield tells his leadership group that an inebriated Baker resigned rather than face Williams, calling it a partisan witch-hunt against Johnson; Thursday the Senate unanimously orders the Rules Committee inquiry. To check: [[w.baker-wheeling-and-dealing]]; Williams in the Senate, May 18, 1965, 111 Cong. Rec. 10845; New York Times, Oct. 11, 1963 (cited by [[w.caro-passage-of-power]], 288–89); Time, Oct. 18, 1963, pp. 29–30; Special Agent in Charge, Baltimore, to Hoover, July 27, 1962, Official and Confidential File, J. Edgar Hoover, FBI; Hoover to Special Agent in Charge, Baltimore, Aug. 2, 1962, Official and Confidential File, J. Edgar Hoover, FBI; DeLoach to Hoover, Jan. 20, 1964, Official and Confidential File, J. Edgar Hoover, FBI (cited by [[w.dallek-flawed-giant]], 41). Names: Robert Baker, Williams.'
     src:
       c: 9ee01625
       rows:
@@ -331,6 +375,8 @@ entries:
         - 'via w.dallek-flawed-giant 41 n.82b: A'
         - 'via w.dallek-flawed-giant 41 n.82c: A'
         - 'via w.dallek-flawed-giant 41 n.82d: A'
+        - 'w.branch-parting-the-waters 907: all'
+        - 'via w.branch-parting-the-waters 907 n.2: B'
     tags: [name:baker-robert-g, name:williams-john-j]
   - id: cal.1963-10-07.testing
     when: Oct. 7
@@ -371,6 +417,19 @@ entries:
         - 'w.white-suite-3505 223: all'
         - 'via w.white-suite-3505 223 n.4: all'
     tags: [name:goldwater-barry-m, name:rockefeller-nelson, name:scranton-william-w, ok:result-form]
+  - id: cal.1963-10-07.elections-1964
+    when: Oct. 7
+    date: '1963-10-07'
+    thread: elections-1964
+    also: [press-and-broadcasting, goldwater]
+    c: '*Newsweek*: Goldwater to come to the convention with 500 delegates committed and 82 leaning, within reach of a first-ballot nomination.'
+    n: '[[w.goldberg-barry-goldwater]], 176; "The Jet Bandwagon," *Newsweek*, Oct. 7, 1963, 33–34, by the note (176 n.152). Names: Goldwater.'
+    src:
+      c: c8abeac9
+      rows:
+        - 'w.goldberg-barry-goldwater 176: all'
+        - 'via w.goldberg-barry-goldwater 176 n.152: all'
+    tags: [name:goldwater-barry-m]
   - id: cal.1963-10-08.africa
     when: Oct. 8
     date: '1963-10-08'
@@ -392,6 +451,14 @@ entries:
         - 'w.selverstone-kennedy-withdrawal 188–89: A, C'
         - 'via w.selverstone-kennedy-withdrawal 188 n.38: A, C'
     tags: [name:mcnamara-robert-s, name:taylor-maxwell, name:church-frank, name:ngo-dinh-diem]
+  - id: cal.1963-10-08.vietnam
+    when: Oct. 8
+    date: '1963-10-08'
+    thread: vietnam
+    also: [vietnam-force-levels]
+    c: 'CINCPAC to McGeorge Bundy on the withdrawal of a thousand men: the "objective is to withdraw units rather than individuals to the extent practicable to gain maximum psychological impact"; the withdrawal, "if decreed," with "minimum impact on the combined US-RVN capabilities."'
+    n: '[[w.bird-color-of-truth]], 259. Check: Bird''s note (259 n.28) gives the White House statement of Oct. 2, 1963, not the CINCPAC message. See [[cal.1963-10-02.vietnam]]. Names: McGeorge Bundy.'
+    tags: [name:bundy-mcgeorge]
   - id: cal.1963-10-09.trade
     when: Oct. 9
     date: '1963-10-09'
@@ -473,7 +540,7 @@ entries:
     thread: king
     also: [civil-rights-the-executive, robert-kennedy]
     c: Robert Kennedy signs Hoover's request of Oct. 7 for wiretaps on King, at his home "or at any future address," and on SCLC's New York office, citing "possible communist influence in the racial situation." Oct. 21, SCLC's Atlanta office. Installed Oct. 24 in New York, Nov. 8 in Atlanta.
-    n: '[S. Rep. No. 94-755, Book III, 115–17 (1976)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf#page=129) (K–J Adm. II.H.3). [[w.schlesinger-robert-kennedy-and-his]], 359–61 (the requests and the consents; not the installations); [[w.garrow-bearing-the-cross]], 303–04, 310 (the approval, and of a tap on Rustin; the taps in place by November); [[w.navasky-kennedy-justice]], 137, 140, 146 (the FBI''s request of Oct. 7, the Atlanta and New York telephones; Kennedy''s signature, Oct. 10, "Approved"; the tap kept to Apr. 30, 1965); [[w.robert-kennedy-in-his]], 140 (his permission for the tap; the month the editors''). [[w.reeves-president-kennedy]], 626–27 (the Atlanta office, Oct. 21); [[w.branch-pillar-of-fire]], 151, 153–54. To check: [[w.garrow-fbi-and-martin-luther]]; [[w.branch-parting-the-waters]]. See [[cal.1963-06-22.civil-rights-bill]]. Made public: Drew Pearson and Jack Anderson''s column, May 1968, before the Oregon primary. Check the date. Names: Robert F. Kennedy, Hoover, Martin Luther King. Check: Reeves has Robert Kennedy sign the order for the home on Oct. 7 (626–27).'
+    n: '[S. Rep. No. 94-755, Book III, 115–17 (1976)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf#page=129) (K–J Adm. II.H.3). [[w.schlesinger-robert-kennedy-and-his]], 359–61 (the requests and the consents; not the installations); [[w.garrow-bearing-the-cross]], 303–04, 310 (the approval, and of a tap on Rustin; the taps in place by November); [[w.navasky-kennedy-justice]], 137, 140, 146 (the FBI''s request of Oct. 7, the Atlanta and New York telephones; Kennedy''s signature, Oct. 10, "Approved"; the tap kept to Apr. 30, 1965); [[w.robert-kennedy-in-his]], 140 (his permission for the tap; the month the editors''); [[w.branch-parting-the-waters]], 907-9, 914-15. [[w.reeves-president-kennedy]], 626–27 (the Atlanta office, Oct. 21); [[w.branch-pillar-of-fire]], 151, 153–54. Check: Branch, 907-9: "Courtney, speak to me"; Kennedy to Evans, any discovery of the tap "a disaster of the highest order"; to an aide later, "no living with the Bureau" had he not signed; Hoover leaked the taps in 1968, Seigenthaler''s letter of apology to Levison. Check: Branch, 914-15: Agent R. R. Nichols, posing as an electrical engineer, rents an office on West Peachtree Street for the equipment; Nov. 8 he reports the Atlanta taps running. To check: [[w.garrow-fbi-and-martin-luther]]. See [[cal.1963-06-22.civil-rights-bill]]. Made public: Drew Pearson and Jack Anderson''s column, May 1968, before the Oregon primary. Check the date. Names: Robert F. Kennedy, Hoover, Martin Luther King. Check: Reeves has Robert Kennedy sign the order for the home on Oct. 7 (626–27).'
     src:
       c: c0b322f5
       rows:
@@ -494,6 +561,11 @@ entries:
         - 'w.navasky-kennedy-justice 137, 140, 146: all'
         - 'w.robert-kennedy-in-his 140: A'
         - 'via x.1964-12-04.rfk-oral-history-lewis-sessions: A'
+        - 'w.branch-parting-the-waters 907-9, 914-15: A, C'
+        - 'via w.branch-parting-the-waters 907 n.4: A'
+        - 'via w.branch-parting-the-waters 907 n.5a: A'
+        - 'via w.branch-parting-the-waters 909 n.1: A'
+        - 'via w.branch-parting-the-waters 915 n.1: C'
     tags: [name:kennedy-robert-f, name:hoover-j-edgar, name:king-martin-luther-jr]
   - id: cal.1963-10-10.vietnam-congress
     when: Oct. 10
@@ -512,7 +584,7 @@ entries:
     date: '1963-10-10'
     thread: alabama-birmingham
     c: 'The Oval Office, 6:15 p.m. Royall and Blaik, the President''s emissaries to Birmingham, with the President and Robert Kennedy, off the record: well received there; the bumper sticker "Kennedy for King—Goldwater for President." Their report put off.'
-    n: '[[w.branch-pillar-of-fire]], 153. To check: The Blaik and Royall visit was scheduled for 6:15 to 6:35 p.m., October 10, 1963, following the appointment of Soviet Foreign Minister Gromyko, Soviet Ambassador Dobrynin, Secretary of State Rusk, and U.S. Ambassador to Moscow Thompson: Appointments schedule, JFK. Newspaper reports said the visit actually lasted more than an hour: NYT, Oct. 11, 1963, p. 25 (cited by [[w.branch-pillar-of-fire]], 153); Earl Blaik Oral History, JFK (cited by [[w.branch-pillar-of-fire]], 153); Blaik to Marshall, Nov. 1, 1963, Box 18, Marshall Papers, JFK (cited by [[w.branch-pillar-of-fire]], 153). See [[cal.1963-09-19.alabama]]. Names: Royall, Blaik, Kennedy, Robert Kennedy.'
+    n: '[[w.branch-pillar-of-fire]], 153; [[w.branch-parting-the-waters]], 909-10. Check: Branch, 909-10: the emissaries promise a summary of their report and never write one; with the Kennedys they talk football; Blaik to Marshall, Nov. 1: Royall "never interested in any of my reports," for a "bland, PR approach"; Dec. 16, Royall and Blaik ask Johnson to end the assignment without report. To check: The Blaik and Royall visit was scheduled for 6:15 to 6:35 p.m., October 10, 1963, following the appointment of Soviet Foreign Minister Gromyko, Soviet Ambassador Dobrynin, Secretary of State Rusk, and U.S. Ambassador to Moscow Thompson: Appointments schedule, JFK. Newspaper reports said the visit actually lasted more than an hour: NYT, Oct. 11, 1963, p. 25 (cited by [[w.branch-pillar-of-fire]], 153); Earl Blaik Oral History, JFK (cited by [[w.branch-pillar-of-fire]], 153); Blaik to Marshall, Nov. 1, 1963, Box 18, Marshall Papers, JFK (cited by [[w.branch-pillar-of-fire]], 153). See [[cal.1963-09-19.alabama]]. Names: Royall, Blaik, Kennedy, Robert Kennedy.'
     src:
       c: 07375940
       rows:
@@ -520,6 +592,10 @@ entries:
         - 'via w.branch-pillar-of-fire 153 n.next-scheduled-visitors: all'
         - 'via w.branch-pillar-of-fire 153 n.two-young-children-bounded: all'
         - 'via w.branch-pillar-of-fire 153 n.bland-pr-approach: all'
+        - 'w.branch-parting-the-waters 909-10: B, D'
+        - 'via w.branch-parting-the-waters 909 n.7a: D'
+        - 'via w.branch-parting-the-waters 910 n.1a: B'
+        - 'via w.branch-parting-the-waters 910 n.3: D'
     tags: [name:royall-kenneth-c, name:blaik-earl-h, name:kennedy-john-f, name:kennedy-robert-f]
   - id: cal.1963-10-10.berlin-and-vienna
     when: Oct. 10–12
@@ -577,6 +653,7 @@ entries:
         - 'w.reeves-president-kennedy 620: A, C'
         - 'via w.reeves-president-kennedy 620 n.the-president-approved: A, C'
         - 'w.preston-war-council 131–32: A-C'
+        - 'via w.preston-war-council 132 n.8b: A'
     tags: [name:kennedy-john-f, name:bundy-mcgeorge, name:lodge-henry-cabot, name:ngo-dinh-diem]
   - id: cal.1963-10-11.program
     when: Oct. 11
@@ -662,6 +739,19 @@ entries:
         - 'w.white-suite-3505 235: all'
         - 'via w.white-suite-3505 235 n.text: A'
     tags: [name:sevareid-eric, name:goldwater-barry-m]
+  - id: cal.1963-10-13.crime-and-hijacking
+    when: Oct. 13
+    date: '1963-10-13'
+    thread: crime-and-hijacking
+    also: [robert-kennedy]
+    c: 'Robert Kennedy in the *New York Times Magazine*, "Robert Kennedy Defines the Menace": war on "the private government of organized crime"; praise for the IRS and the Bureau of Narcotics, the FBI named in passing.'
+    n: '[[w.branch-parting-the-waters]], 906. To check: "Robert Kennedy Defines the Menace," New York Times Magazine, Oct. 13, 1963, 15ff. (cited by [[w.branch-parting-the-waters]], 906 n.2). See [[cal.1963-09-25.robert-kennedy]]. Names: Robert Kennedy.'
+    src:
+      c: c9c38ece
+      rows:
+        - 'w.branch-parting-the-waters 906: all'
+        - 'via w.branch-parting-the-waters 906 n.2: all'
+    tags: [name:kennedy-robert-f]
   - id: cal.1963-10-14.defense
     when: Oct. 14
     date: '1963-10-14'
@@ -689,11 +779,12 @@ entries:
     date: '1963-10-15'
     thread: economy
     c: Byrd's Finance Committee opens its public hearings on the tax bill, the House's witnesses welcome to testify again. The pace slow, quorums sometimes wanting.
-    n: '[[w.caro-passage-of-power]], 346. See [[cal.1963-09-25.economy]]. Names: Byrd.'
+    n: '[[w.caro-passage-of-power]], 346; [[w.bernstein-guns-or-butter]], 27 (the hearings expected to close Nov. 27). See [[cal.1963-09-25.economy]]. Names: Byrd.'
     src:
       c: a732c6f6
       rows:
         - 'w.caro-passage-of-power 346: all'
+        - 'w.bernstein-guns-or-butter 27: A'
     tags: [name:byrd-harry-f]
   - id: cal.1963-10-15.republican-party
     when: Oct. 15
@@ -706,6 +797,19 @@ entries:
       rows:
         - 'w.white-making-of-the-president-1965 71: all'
     tags: [name:eisenhower-dwight-d, name:eisenhower-milton-s, state:pa]
+  - id: cal.1963-10-15.civil-rights-bill
+    when: Oct. 15
+    date: '1963-10-15'
+    thread: civil-rights-bill
+    c: 'Robert Kennedy before the House Judiciary Committee asks that the subcommittee''s additions be taken out; to the reporters: "What I want is a bill, not an issue." Farmer: "There is no reason for this kind of sellout."'
+    n: '[[w.zelizer-fierce-urgency-of-now]], 58; [[w.branch-parting-the-waters]], 910. Check: Branch, 910: Kennedy before the full committee while King is in Selma; denounced by Wilkins and by liberal Republicans for stripping the amendments Republicans could claim. To check: [[w.whalen-longest-debate]], 46 (cited by [[w.zelizer-fierce-urgency-of-now]], 58 n.59). See [[cal.1963-10.civil-rights-bill]]. Names: Robert Kennedy, Farmer.'
+    src:
+      c: 7cb00469
+      rows:
+        - 'w.zelizer-fierce-urgency-of-now 58: all'
+        - 'w.branch-parting-the-waters 910: A'
+        - 'via w.branch-parting-the-waters 910 n.5a: A'
+    tags: [name:kennedy-robert-f, name:farmer-james]
   - id: cal.1963-10-16.opinion-5
     when: Oct. 16
     date: '1963-10-16'
@@ -803,7 +907,7 @@ entries:
     date: '1963-10-18'
     thread: alabama
     c: 'Wallace: the administration abets subversion against Alabama''s laws, the Justice Department King''s chauffeur, Thelton Henderson of the Civil Rights Division having lent King his rented car in Birmingham, Oct. 15. Alabama''s members of Congress demand an account; two State grand juries take testimony.'
-    n: '[[w.branch-pillar-of-fire]], 155–56. To check: Marshall to Rep. George Huddleston, Oct. 28 and Nov. 6, 1963, Box 18, Marshall Papers, JFK (cited by [[w.branch-pillar-of-fire]], 155); NY Herald Tribune, Nov. 8, 1963, p. 8 (cited by [[w.branch-pillar-of-fire]], 155); King statement of Nov. 6, 1963, A/KSS (cited by [[w.branch-pillar-of-fire]], 156). Names: Wallace, Martin Luther King.'
+    n: '[[w.branch-pillar-of-fire]], 155–56; [[w.branch-parting-the-waters]], 909. Check: Branch, 909: King to Selma at Amelia Boynton''s invitation (Boynton to King, Oct. 8), riding one leg in a car rented by a Justice Department observer; the Fifth Circuit drawn in; Burke Marshall to Rep. Huddleston, Oct. 28 and Nov. 6, apologizing for an earlier denial; the staff attorney fired, Doar nearly; King''s statement, Nov. 6. To check: Marshall to Rep. George Huddleston, Oct. 28 and Nov. 6, 1963, Box 18, Marshall Papers, JFK (cited by [[w.branch-pillar-of-fire]], 155); NY Herald Tribune, Nov. 8, 1963, p. 8 (cited by [[w.branch-pillar-of-fire]], 155); King statement of Nov. 6, 1963, A/KSS (cited by [[w.branch-pillar-of-fire]], 156). Names: Wallace, Martin Luther King.'
     src:
       c: 3a3ef624
       rows:
@@ -811,6 +915,10 @@ entries:
         - 'via w.branch-pillar-of-fire 155 n.trouble-over-an-automobile.a: all'
         - 'via w.branch-pillar-of-fire 155 n.trouble-over-an-automobile.b: all'
         - 'via w.branch-pillar-of-fire 156 n.so-much-fuss: all'
+        - 'w.branch-parting-the-waters 909: A-C'
+        - 'via w.branch-parting-the-waters 909 n.4a: A'
+        - 'via w.branch-parting-the-waters 909 n.6: B'
+        - 'via w.branch-parting-the-waters 909 n.5a: A-C'
     tags: [name:wallace-george-c, name:king-martin-luther-jr, state:al]
   - id: cal.1963-10-19.legislatures-tx
     when: Oct. 19
@@ -841,6 +949,19 @@ entries:
     c: 'Hassan asks for American arms against Algeria. Komer to Kennedy, Oct. 21: stall.'
     n: '[FRUS 1961–63, XXI, doc. 13](https://history.state.gov/historicaldocuments/frus1961-63v21/d13). See [[cal.1963-10-08.africa]]. Names: Hassan II, Komer, Kennedy.'
     tags: [name:hassan-ii, name:komer-robert-w, name:kennedy-john-f]
+  - id: cal.1963-10-20.poverty
+    when: Oct. 20
+    date: '1963-10-20'
+    thread: poverty
+    also: [press-and-broadcasting]
+    c: Homer Bigart in the *New York Times* on distress in eastern Kentucky. Heller believes it may have triggered Kennedy's decision on a poverty program.
+    n: '[[w.sundquist-politics-and-policy]], 136 & n.64. See [[cal.1963-06.poverty]]. Names: Bigart, Heller, Kennedy.'
+    src:
+      c: bc5db7fb
+      rows:
+        - 'w.sundquist-politics-and-policy 136 & n.64: all'
+        - 'via w.sundquist-politics-and-policy 136 n.64: A'
+    tags: [name:bigart-homer, name:heller-walter-w, name:kennedy-john-f, state:ky]
   - id: cal.1963-10-21.press-and-broadcasting
     when: Oct. 21
     date: '1963-10-21'
@@ -871,7 +992,7 @@ entries:
     date: '1963-10-21'
     thread: king
     c: Robert Kennedy, "still vacillating," by Evans's report, signs Hoover's request of Oct. 18 for taps on all four lines of SCLC's Atlanta office. Some days later he allows taps on Rustin.
-    n: '[[w.branch-pillar-of-fire]], 154. To check: Hoover to RFK, Oct. 18, 1963, cited in Garrow, The FBI and Martin, p. 74 (cited by [[w.branch-pillar-of-fire]], 154); Baumgardner to Sullivan, Oct. 25, 1963, FR-NR (cited by [[w.branch-pillar-of-fire]], 154). Made public: Check. See [[cal.1963-10-10.king]]. Names: Robert Kennedy, Evans, Hoover, Rustin.'
+    n: '[[w.branch-pillar-of-fire]], 154; [[w.branch-parting-the-waters]], 911. Check: Branch, 911: Kennedy reserves the right to review all the King taps in thirty days; Branch has the tap on Rustin approved Nov. 1 (913; Baumgardner to Sullivan, Oct. 25, 1963). To check: Hoover to RFK, Oct. 18, 1963, cited in Garrow, The FBI and Martin, p. 74 (cited by [[w.branch-pillar-of-fire]], 154); Baumgardner to Sullivan, Oct. 25, 1963, FR-NR (cited by [[w.branch-pillar-of-fire]], 154). Made public: Check. See [[cal.1963-10-10.king]]. Names: Robert Kennedy, Evans, Hoover, Rustin.'
     src:
       c: 5747a81b
       rows:
@@ -879,6 +1000,8 @@ entries:
         - 'via w.branch-pillar-of-fire 154 n.all-four-telephone-lines: all'
         - 'via w.branch-pillar-of-fire 154 n.still-vacillating: all'
         - 'via w.branch-pillar-of-fire 154 n.wiretaps-on-bayard-rustin: all'
+        - 'w.branch-parting-the-waters 911: A'
+        - 'via w.branch-parting-the-waters 911 n.2: A'
     tags: [name:kennedy-robert-f, name:evans-courtney-a, name:hoover-j-edgar, name:rustin-bayard]
   - id: cal.1963-10-21.school-aid
     when: Oct. 21
@@ -985,7 +1108,7 @@ entries:
     thread: civil-rights-bill
     also: [republican-party-congress]
     c: 'The White House, recorded: Kennedy with Johnson, McCormack, Albert, Halleck, Arends, Celler, McCulloch and Katzenbach on the bill in Judiciary. Halleck, alone with Kennedy after: he will find seven of the committee''s Republicans for a compromise; "Once in a while a guy does something because it''s right," by Halleck''s account.'
-    n: '[John F. Kennedy, Lyndon B. Johnson, Carl B. Albert, Leslie C. Arends, Emanuel Celler, Charles A. Halleck, Nicholas Katzenbach, John W. McCormack and William M. McCulloch](https://prde.upress.virginia.edu/conversations/4006301), JFK Meeting Tape 116.3, 117.1 and 117.2 (PRDE only). [[w.reeves-president-kennedy]], 629–30. To check: Charles Halleck, oral history, 9–14, Kennedy Library (cited by [[w.reeves-president-kennedy]], 630). Check: the recordings not heard; Reeves has the meeting the afternoon of Moore''s motion (630). See [[cal.1963-10-22.civil-rights-bill]]. Names: Johnson, McCormack, Albert, Halleck, Arends, Celler, McCulloch, Katzenbach, Kennedy.'
+    n: '[John F. Kennedy, Lyndon B. Johnson, Carl B. Albert, Leslie C. Arends, Emanuel Celler, Charles A. Halleck, Nicholas Katzenbach, John W. McCormack and William M. McCulloch](https://prde.upress.virginia.edu/conversations/4006301), JFK Meeting Tape 116.3, 117.1 and 117.2 (PRDE only). [[w.reeves-president-kennedy]], 629–30; [[w.zelizer-fierce-urgency-of-now]], 59. To check: Charles Halleck, oral history, 9–14, Kennedy Library (cited by [[w.reeves-president-kennedy]], 630). Check: the recordings not heard; Reeves has the meeting the afternoon of Moore''s motion (630). See [[cal.1963-10-22.civil-rights-bill]]. Names: Johnson, McCormack, Albert, Halleck, Arends, Celler, McCulloch, Katzenbach, Kennedy.'
     src:
       c: 679886a6
       rows:
@@ -993,6 +1116,7 @@ entries:
         - 'w.reeves-president-kennedy 629–30: all'
         - 'via w.reeves-president-kennedy 630 n.the-colored-vote: B-C'
         - 'via w.reeves-president-kennedy 630 n.we-cant-let-this-happen: A'
+        - 'w.zelizer-fierce-urgency-of-now 59: A-B'
     tags: [name:johnson-lyndon-b, name:mccormack-john-w, name:albert-carl, name:halleck-charles-a, name:arends-leslie-c, name:celler-emanuel, name:mcculloch-william-m, name:katzenbach-nicholas, name:kennedy-john-f]
   - id: cal.1963-10-23.opinion-2
     when: Oct. 23
@@ -1000,12 +1124,13 @@ entries:
     thread: opinion
     also: [elections-1964-polls, goldwater]
     c: 'The *Chicago Tribune*''s poll of New Hampshire''s Republicans: in the primary, Goldwater 58 percent, Rockefeller 20.'
-    n: '[[w.white-suite-3505]], 224. To check: *Chicago Tribune*, Oct. 23, 1963 (cited by [[w.white-suite-3505]], 224 n.5). Names: Goldwater, Rockefeller.'
+    n: '[[w.white-suite-3505]], 224; [[w.goldberg-barry-goldwater]], 176 (New Hampshire''s Republicans, 58 to 20). To check: *Chicago Tribune*, Oct. 23, 1963 (cited by [[w.white-suite-3505]], 224 n.5). Names: Goldwater, Rockefeller.'
     src:
       c: 7a6d2e34
       rows:
         - 'w.white-suite-3505 224: all'
         - 'via w.white-suite-3505 224 n.5: all'
+        - 'w.goldberg-barry-goldwater 176: A'
     tags: [name:goldwater-barry-m, name:rockefeller-nelson, state:nh, ok:result-form]
   - id: cal.1963-10-24.program
     when: Oct. 24
@@ -1064,6 +1189,7 @@ entries:
         - 'via w.moyar-triumph-forsaken 260 n.73: all'
         - 'via w.moyar-triumph-forsaken 259 n.70: A'
         - 'w.preston-war-council 127: D'
+        - 'via w.preston-war-council 127 n.73a: D'
     tags: [name:bundy-mcgeorge, name:lodge-henry-cabot, name:harkins-paul-d, name:tran-van-don, name:conein-lucien, name:ngo-dinh-nhu]
   - id: cal.1963-10-24.goldwater
     when: Oct. 24
@@ -1115,7 +1241,7 @@ entries:
     thread: king
     also: [robert-kennedy]
     c: 'Robert Kennedy learns that the Army has a copy of the FBI''s monograph "Communism and the Negro Movement—A Current Analysis," sent round the government Oct. 18. He calls Evans and Hoover: every copy to be got back. All recovered by Oct. 28.'
-    n: '[S. Rep. No. 94-755, Book III, 132–33 (1976)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf#page=146) (K–J Adm. II.H.3). [[w.schlesinger-robert-kennedy-and-his]], 361–62. [[w.reeves-president-kennedy]], 627; [[w.branch-pillar-of-fire]], 154. To check: Hoover to Tolson et al., Oct. 25, 1963, J. Edgar Hoover Official and Confidential File 24 (Martin Luther King, Jr.), FBI; Note to Hoover, Oct. 28, 1963, J. Edgar Hoover Official and Confidential File 24 (Martin Luther King, Jr.), FBI (cited by [[w.reeves-president-kennedy]], 627); Charles D. Brennan, "Communism and the Negro Movement—A Cur-rent Analysis," Oct. 16, 1963, FBI File 100-3-116, Serial 416 (cited by [[w.branch-pillar-of-fire]], 154). Made public: S. Rep. No. 94-755, Book III (1976). See [[cal.1963-10-10.king]]. Names: Robert Kennedy, Evans, Hoover.'
+    n: '[S. Rep. No. 94-755, Book III, 132–33 (1976)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf#page=146) (K–J Adm. II.H.3). [[w.schlesinger-robert-kennedy-and-his]], 361–62; [[w.branch-parting-the-waters]], 911, 913. [[w.reeves-president-kennedy]], 627; [[w.branch-pillar-of-fire]], 154. Check: Branch, 911, 913: the report calls King "an unprincipled man" who "is knowingly, willingly, and regularly taking guidance from communists"; Evans: Kennedy "obviously irritated"; Hoover, after Kennedy''s call: "I have talked to A.G. & he is satisfied"; Oct. 28, Hoover to Kennedy: it went to the CIA and State too, every statement "accurate and supported by facts.". To check: Hoover to Tolson et al., Oct. 25, 1963, J. Edgar Hoover Official and Confidential File 24 (Martin Luther King, Jr.), FBI; Note to Hoover, Oct. 28, 1963, J. Edgar Hoover Official and Confidential File 24 (Martin Luther King, Jr.), FBI (cited by [[w.reeves-president-kennedy]], 627); Charles D. Brennan, "Communism and the Negro Movement—A Cur-rent Analysis," Oct. 16, 1963, FBI File 100-3-116, Serial 416 (cited by [[w.branch-pillar-of-fire]], 154). Made public: S. Rep. No. 94-755, Book III (1976). See [[cal.1963-10-10.king]]. Names: Robert Kennedy, Evans, Hoover.'
     src:
       c: b4a4e6e4
       rows:
@@ -1127,6 +1253,8 @@ entries:
         - 'via w.reeves-president-kennedy 627 n.an-unprincipled-man.b: C'
         - 'w.branch-pillar-of-fire 154: A-B'
         - 'via w.branch-pillar-of-fire 154 n.an-unprincipled-man: A-B'
+        - 'w.branch-parting-the-waters 911, 913: A-B'
+        - 'via w.branch-parting-the-waters 911 n.3: A-B'
     tags: [name:kennedy-robert-f, name:evans-courtney-a, name:hoover-j-edgar]
   - id: cal.1963-10-25.vietnam
     when: Oct. 25
@@ -1167,6 +1295,8 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d217: A'
         - 'w.preston-war-council 127: all'
+        - 'via w.preston-war-council 127 n.73b: A'
+        - 'via w.preston-war-council 127 n.73b: B'
     tags: [name:bundy-mcgeorge, name:lodge-henry-cabot]
   - id: cal.1963-10-25.press-and-broadcasting
     when: Oct. 25
@@ -1187,6 +1317,32 @@ entries:
     c: 'Bundy to Lodge, for the President: not to be in the position of thwarting a coup, but "we would like to have option of judging and warning on any plan with poor prospects of success."'
     n: '[McGeorge Bundy to Lodge, Oct. 25, 1963, FRUS 1961–63, IV, doc. 217](https://history.state.gov/historicaldocuments/frus1961-63v04/d217). [[w.mcnamara-in-retrospect]], ch. 3 at n.42. See [[cal.1963-10-25.vietnam-2]]. Names: Bundy, Lodge.'
     tags: [name:bundy-mcgeorge, name:lodge-henry-cabot]
+  - id: cal.1963-10-26.press-and-broadcasting
+    when: Oct. 26
+    date: '1963-10-26'
+    thread: press-and-broadcasting
+    also: [baker]
+    c: 'Clark Mollenhoff in the *Des Moines Register*, with Senator Williams: "U.S. Expels Girl Linked to Officials." Ellen Rometsch "associating with congressional leaders and some prominent New Frontiersmen," her name in the Baker inquiry, a security risk feared "because of the high rank of her male companions."'
+    n: '[[w.branch-parting-the-waters]], 911-12. To check: Mollenhoff, "U.S. Expels Girl Linked to Officials," Des Moines Register, Oct. 26, 1963, 1 (cited by [[w.branch-parting-the-waters]], 911 n.4). See [[cal.1963-08.baker]]. Names: Mollenhoff, Williams, Baker.'
+    src:
+      c: 7e70576e
+      rows:
+        - 'w.branch-parting-the-waters 911-12: all'
+        - 'via w.branch-parting-the-waters 911 n.4: all'
+    tags: [name:mollenhoff-clark-r, name:williams-john-j, name:baker-robert-g]
+  - id: cal.1963-10-26.baker
+    when: Oct. 26-27
+    date: '1963-10-26'
+    thread: baker
+    also: [robert-kennedy]
+    c: The weekend. Robert Kennedy sends La Vern Duffy, a Senate investigator, to West Germany to find Ellen Rometsch, calm her and keep her from talking. He and the President agree that Williams can be held only through the Senate's leaders, and they only through Hoover.
+    n: '[[w.branch-parting-the-waters]], 912. To check: interviews: Robert G. Baker, Mar. 31, 1986, John Seigenthaler, Dec. 15, 1987 (cited by [[w.branch-parting-the-waters]], 912 n.1). Check: the day. See [[cal.1963-10-26.press-and-broadcasting]]. Names: Robert Kennedy, Kennedy, Williams, Hoover.'
+    src:
+      c: d8dac879
+      rows:
+        - 'w.branch-parting-the-waters 912: all'
+        - 'via w.branch-parting-the-waters 912 n.1: A'
+    tags: [name:kennedy-robert-f, name:kennedy-john-f, name:williams-john-j, name:hoover-j-edgar]
   - id: cal.1963-10-27.opinion-5
     when: Oct. 27
     date: '1963-10-27'
@@ -1256,7 +1412,7 @@ entries:
     thread: baker
     also: [robert-kennedy]
     c: 'After the weekend''s stories of Ellen Rometsch, deported in August, Robert Kennedy asks Hoover to have the Senate leaders keep sex out of the Rules Committee''s inquiry. Hoover sees Mansfield and Dirksen: nothing in it touches the national security.'
-    n: '[[w.caro-passage-of-power]], 290–91. [[w.reeves-president-kennedy]], 627–28; [[w.branch-pillar-of-fire]], 154. To check: Clark Mollenhoff, Des Moines Register, Oct. 26, 1963 (cited by [[w.caro-passage-of-power]], 290); Evans to Belmont, Oct. 28, 1963, File 105-122316 (Ellen Rometsch), FBI; Hoover to Tolson et al., Oct. 28, 1963, 11:11 a.m. and 3:05 p.m., File 105-122316 (Ellen Rometsch), FBI; Hoover to Tolson et al., Nov. 7, 1963, File 105-122316 (Ellen Rometsch), FBI (cited by [[w.reeves-president-kennedy]], 628). Check: the FBI''s record of the meeting. See [[cal.1963-10-07.baker]]. Names: Robert Kennedy, Hoover, Mansfield, Dirksen.'
+    n: '[[w.caro-passage-of-power]], 290–91; [[w.branch-parting-the-waters]], 912-13. [[w.reeves-president-kennedy]], 627–28; [[w.branch-pillar-of-fire]], 154. Check: Branch, 912-13: Kennedy calls the President in front of Evans, then goes to Hoover''s office; Hoover: the Bureau has already given him a memorandum on the personal side; Kennedy turns to the church bombing and the King report; Hoover sees Mansfield and Dirksen at Mansfield''s home at Mansfield''s asking; Mansfield to the President "badly shocked" by the names, dates and places. To check: Clark Mollenhoff, Des Moines Register, Oct. 26, 1963 (cited by [[w.caro-passage-of-power]], 290); Evans to Belmont, Oct. 28, 1963, File 105-122316 (Ellen Rometsch), FBI; Hoover to Tolson et al., Oct. 28, 1963, 11:11 a.m. and 3:05 p.m., File 105-122316 (Ellen Rometsch), FBI; Hoover to Tolson et al., Nov. 7, 1963, File 105-122316 (Ellen Rometsch), FBI (cited by [[w.reeves-president-kennedy]], 628). Check: the FBI''s record of the meeting. See [[cal.1963-10-07.baker]]. Names: Robert Kennedy, Hoover, Mansfield, Dirksen.'
     src:
       c: bc1daf8d
       rows:
@@ -1269,6 +1425,11 @@ entries:
         - 'via w.reeves-president-kennedy 628 n.a-secret-meeting.c: A-B'
         - 'via w.reeves-president-kennedy 628 n.a-secret-meeting.d: B'
         - 'w.branch-pillar-of-fire 154: A'
+        - 'w.branch-parting-the-waters 912-13: A'
+        - 'via w.branch-parting-the-waters 912 n.2: A'
+        - 'via w.branch-parting-the-waters 912 n.3: A'
+        - 'via w.branch-parting-the-waters 913 n.3: A'
+        - 'via w.branch-parting-the-waters 913 n.6: A'
     tags: [name:kennedy-robert-f, name:hoover-j-edgar, name:mansfield-mike, name:dirksen-everett]
   - id: cal.1963-10-28.vietnam-saigon
     when: Oct. 28
@@ -1318,7 +1479,7 @@ entries:
     date: '1963-10-29'
     thread: civil-rights-bill
     c: 'House Judiciary Committee approves the civil rights bill, 20–12: the Celler–McCulloch substitute, agreed with the Justice Department and Halleck, in place of the subcommittee''s broader bill. Part III dropped; an equal employment commission added. Kennedy: "comprehensive and fair." Check the vote.'
-    n: 'Statement by the President Following Action on the Civil Rights Bill by the House Committee on the Judiciary, [1963 Pub. Papers 820](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=878) (Oct. 29, 1963). H.R. Rep. No. 88-914 (1963). [[w.reeves-president-kennedy]], 628–31 (the committee''s vote); [[w.sorensen-kennedy]], 500–01; [[w.sundquist-politics-and-policy]], 264–65 (the compromise in place of the subcommittee''s bill, beaten 19–15; the equal employment title); [[w.mann-walls-of-jericho]], 373–74 (the subcommittee''s bill set aside, the bipartisan bill reported). Check: Sundquist, 265, has a broadened Part III in the compromise, the Attorney General to intervene in any civil rights suit brought by private parties. Check: Mann, 374, from CQ''s Almanac, gives 23–11. To check: [[w.rosenberg-kennedy-johnson-and-the]] ("The Bill Moves Forward"); [[w.whalen-longest-debate]]; [[w.loevy-to-end-all-segregation]]; [[w.purdum-idea-whose-time-has-2014]]; [[w.risen-bill-of-the-century]]; [[w.scheele-charlie-halleck]]; Nicholas Katzenbach, oral history, 159–69, Kennedy Library (cited by [[w.reeves-president-kennedy]], 629); Charles Halleck, oral history, 9–14, Kennedy Library (cited by [[w.reeves-president-kennedy]], 630). See [[cal.1963-06-11.civil-rights-bill]]. Names: Celler, McCulloch, Halleck.'
+    n: 'Statement by the President Following Action on the Civil Rights Bill by the House Committee on the Judiciary, [1963 Pub. Papers 820](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=878) (Oct. 29, 1963). H.R. Rep. No. 88-914 (1963). [[w.reeves-president-kennedy]], 628–31 (the committee''s vote); [[w.sorensen-kennedy]], 500–01; [[w.sundquist-politics-and-policy]], 264–65 (the compromise in place of the subcommittee''s bill, beaten 19–15; the equal employment title); [[w.mann-walls-of-jericho]], 373–74 (the subcommittee''s bill set aside, the bipartisan bill reported); [[w.zelizer-fierce-urgency-of-now]], 59–60 (the subcommittee''s bill beaten 19–15; the substitute 23–11). Check: Sundquist, 265, has a broadened Part III in the compromise, the Attorney General to intervene in any civil rights suit brought by private parties. Check: Mann, 374, from CQ''s Almanac, gives 23–11. Check: Zelizer, 59, also gives 23–11, from the *Times* of Oct. 30 (60 n.62). To check: [[w.rosenberg-kennedy-johnson-and-the]] ("The Bill Moves Forward"); [[w.whalen-longest-debate]]; [[w.loevy-to-end-all-segregation]]; [[w.purdum-idea-whose-time-has-2014]]; [[w.risen-bill-of-the-century]]; [[w.scheele-charlie-halleck]]; Nicholas Katzenbach, oral history, 159–69, Kennedy Library (cited by [[w.reeves-president-kennedy]], 629); Charles Halleck, oral history, 9–14, Kennedy Library (cited by [[w.reeves-president-kennedy]], 630). See [[cal.1963-06-11.civil-rights-bill]]. Names: Celler, McCulloch, Halleck.'
     src:
       c: 8e0ed0c0
       rows:
@@ -1330,6 +1491,7 @@ entries:
         - 'w.sundquist-politics-and-policy 264–65: A, C'
         - 'w.mann-walls-of-jericho 373–74: ?'
         - 'via w.mann-walls-of-jericho 374 n.lengthy-negotiations: A'
+        - 'w.zelizer-fierce-urgency-of-now 59–60: ?'
     tags: [name:celler-emanuel, name:mcculloch-william-m, name:halleck-charles-a, name:kennedy-john-f]
   - id: cal.1963-10-29.robert-kennedy
     when: Oct. 29
@@ -1407,6 +1569,7 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d236: all'
         - 'w.preston-war-council 127: A-C'
         - 'w.mcnamara-in-retrospect ch. 3 n.44: C-D'
+        - 'via w.preston-war-council 127 n.74a: all'
     tags: [name:bundy-mcgeorge, name:lodge-henry-cabot, name:harkins-paul-d]
     aliases: [cal.1963-10-29.vietnam-2]
   - id: cal.1963-10-29.vietnam
@@ -1416,6 +1579,19 @@ entries:
     c: 'Meeting with the President, 6 p.m., on the generals'' plot. Kennedy: "the burden of proof should be on the coup promoters" to show they can overthrow Diệm''s government quickly.'
     n: '[Memorandum of a conference with President Kennedy, Oct. 29, 1963, 6 p.m., FRUS 1961–63, IV, doc. 235](https://history.state.gov/historicaldocuments/frus1961-63v04/d235). [[w.mcnamara-in-retrospect]], ch. 3 at n.44. See [[cal.1963-10-29.robert-kennedy]]. Names: Kennedy, Ngô Đình Diệm.'
     tags: [name:kennedy-john-f, name:ngo-dinh-diem]
+  - id: cal.1963-10-29.baker
+    when: Oct. 29
+    date: '1963-10-29'
+    thread: baker
+    c: 'The Senate Rules Committee, closed session, Williams its one witness: the Iowa story not on his agenda; he will not speak of Rometsch; sworn testimony on Baker''s finances. The chairman to reporters: "We didn''t go into West Germany."'
+    n: '[[w.branch-parting-the-waters]], 913. To check: Senate Rules Committee, executive session hearings, Oct. 29, 1963, 1796-99 (cited by [[w.branch-parting-the-waters]], 913 n.7); New York Times, Oct. 30, 1963, 1 (cited by [[w.branch-parting-the-waters]], 913 n.8). See [[cal.1963-10-28.baker]]. Names: Williams, Baker.'
+    src:
+      c: 36a7eace
+      rows:
+        - 'w.branch-parting-the-waters 913: all'
+        - 'via w.branch-parting-the-waters 913 n.7: A'
+        - 'via w.branch-parting-the-waters 913 n.8: B'
+    tags: [name:williams-john-j, name:baker-robert-g]
   - id: cal.1963-10-30.opinion
     when: Oct. 30
     date: '1963-10-30'
@@ -1469,6 +1645,8 @@ entries:
         - 'via w.moyar-triumph-forsaken 265 n.87: all'
         - 'w.preston-war-council 127: all'
         - 'w.mcnamara-in-retrospect ch. 3 at n.45: A-B'
+        - 'via w.preston-war-council 127 n.74c: all'
+        - 'via w.preston-war-council 127 n.75c: all'
     tags: [name:bundy-mcgeorge, name:lodge-henry-cabot]
   - id: cal.1963-10-30.republican-party
     when: Oct. 30
@@ -1522,7 +1700,7 @@ entries:
     thread: elections-1964
     also: [goldwater, europe-and-the-alliance, vietnam-force-levels]
     c: 'News conference. Would he want Johnson on the ticket in 1964, and does he expect him to be? "Yes, to both of those questions. That is correct." Goldwater''s charge of news managed to keep the administration in office: no reply this week, Goldwater having had "a busy week selling TVA," suggesting nuclear weapons for commanders overseas, attacking the President of Bolivia and involving himself in the Greek election. The six divisions in Germany kept "as long as they are required," and the units sent in 1961; no reduction in combat units, some in logistic personnel; German purchases of arms "an offset to our gold losses." On Vietnam: a thousand men expected out by the end of the year, the first contingent some 250 not in front-line operations.'
-    n: 'The President''s News Conference, [1963 Pub. Papers 826](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=884) (Oct. 31, 1963). [[w.johnson-vantage-point]], 2 (the ticket); [[w.schlesinger-thousand-days-1965]], 981 (Goldwater); [[w.perlstein-before-the-storm]], 237 (Goldwater). [[w.gavin-gold-dollars-and-power]], 113 (the forces in Germany). [[w.selverstone-kennedy-withdrawal]], 197 (Vietnam). See [[cal.1963-07-14.elections-1964]]. Names: Johnson, Goldwater.'
+    n: 'The President''s News Conference, [1963 Pub. Papers 826](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=884) (Oct. 31, 1963). [[w.johnson-vantage-point]], 2 (the ticket); [[w.schlesinger-thousand-days-1965]], 981 (Goldwater); [[w.perlstein-before-the-storm]], 237 (Goldwater); [[w.goldberg-barry-goldwater]], 178 (Kennedy on Goldwater''s "busy week, selling TVA and giving permission or suggesting that military commanders overseas be permitted to use nuclear weapons"). [[w.gavin-gold-dollars-and-power]], 113 (the forces in Germany). [[w.selverstone-kennedy-withdrawal]], 197 (Vietnam). See [[cal.1963-07-14.elections-1964]]. Names: Johnson, Goldwater.'
     src:
       c: e3e6da79
       rows:
@@ -1535,6 +1713,7 @@ entries:
         - 'via w.gavin-gold-dollars-and-power 113 n.107: E'
         - 'w.selverstone-kennedy-withdrawal 197: H'
         - 'via w.selverstone-kennedy-withdrawal 197 n.84: H'
+        - 'w.goldberg-barry-goldwater 178: D'
     tags: [name:kennedy-john-f, name:johnson-lyndon-b, name:goldwater-barry-m]
   - id: cal.1963-10-31.goldwater
     when: Oct. 31
@@ -1757,11 +1936,12 @@ entries:
     date: 1963-10
     thread: poverty
     c: Kennedy, moved by a *New York Times* story on families in eastern Kentucky, directs a special federal program for their relief, and plans to tour the area. That fall he orders a new federal antipoverty program drawn up.
-    n: '[[w.sorensen-kennedy]], 404. See [[cal.1963-11-19.poverty]]. Names: Kennedy. Check: the month; Sorensen: "in the fall of 1963"; the *Times*''s story.'
+    n: '[[w.sorensen-kennedy]], 404; [[w.sundquist-politics-and-policy]], 136 (after Bigart''s article of Oct. 20, by Heller''s account). See [[cal.1963-11-19.poverty]]. Names: Kennedy. Check: the month; Sorensen: "in the fall of 1963"; the *Times*''s story.'
     src:
       c: 687b8c18
       rows:
         - 'w.sorensen-kennedy 404: all'
+        - 'w.sundquist-politics-and-policy 136: ?'
     tags: [name:kennedy-john-f, state:ky]
   - id: cal.1963-10.robert-kennedy
     when: Oct.
@@ -1774,3 +1954,54 @@ entries:
       rows:
         - 'w.navasky-kennedy-justice 365: all'
     tags: [name:green-william-j-jr, name:kennedy-robert-f, state:pa, city:philadelphia]
+  - id: cal.1963-10.king
+    when: Oct.
+    date: 1963-10
+    thread: king
+    also: [civil-rights-organizations]
+    c: 'King to his staff, a confidential memorandum: demonstrations "an absolute last resort," especially in Birmingham; "Our challenge now is to be ingenious enough to keep the threat of demonstrations alive ... and yet constantly find face-saving retreats in order to avoid demonstrations if possible." Four passes through Birmingham in October.'
+    n: '[[w.branch-parting-the-waters]], 909. To check: King, confidential memorandum, undated, King Papers, KP32, folder 6 (cited by [[w.branch-parting-the-waters]], 909 n.3). Check: the day. See [[cal.1963-09-25.civil-rights-organizations]]. Names: Martin Luther King.'
+    src:
+      c: 4f8edfcb
+      rows:
+        - 'w.branch-parting-the-waters 909: all'
+        - 'via w.branch-parting-the-waters 909 n.3: A'
+    tags: [name:king-martin-luther-jr]
+  - id: cal.1963-10.republican-party-4
+    when: Oct.
+    date: 1963-10
+    thread: republican-party
+    also: [elections-1964]
+    c: 'Eisenhower: "I am unclear on precisely what Senator Goldwater''s views are."'
+    n: '[[w.goldberg-barry-goldwater]], 176. Check: the day; Goldberg''s note cites "For Goldwater There''s No More Free-Wheeling," *Business Week*, Oct. 5, 1963, 30 (176 n.154). Names: Eisenhower, Goldwater.'
+    src:
+      c: 54f0e089
+      rows:
+        - 'w.goldberg-barry-goldwater 176: all'
+        - 'via w.goldberg-barry-goldwater 176 n.154: all'
+    tags: [name:eisenhower-dwight-d, name:goldwater-barry-m]
+  - id: cal.1963-10.civil-rights-bill
+    when: Oct.
+    date: 1963-10
+    thread: civil-rights-bill
+    also: [republican-party-congress]
+    c: 'On the amendments of Celler''s subcommittee, McCulloch publicly: "so severe" as to imperil "passage of civil rights legislation" on the House floor. Kennedy to his brother: "What the hell is this? Can the NAACP deliver sixty Republican votes on the floor? . . . McCulloch can deliver sixty Republican votes." Halleck: Republicans will not support the amended bill.'
+    n: '[[w.zelizer-fierce-urgency-of-now]], 57. To check: [[w.whalen-longest-debate]], 35, 39–40; [[w.reeves-president-kennedy]], 629 (cited by [[w.zelizer-fierce-urgency-of-now]], 57 nn.55–57). Check: the days. See [[cal.1963-07-04.civil-rights-bill]]. Names: McCulloch, Celler, Kennedy, Robert Kennedy, Halleck.'
+    src:
+      c: e148f50f
+      rows:
+        - 'w.zelizer-fierce-urgency-of-now 57: all'
+    tags: [name:mcculloch-william-m, name:celler-emanuel, name:kennedy-john-f, name:kennedy-robert-f, name:halleck-charles-a]
+  - id: cal.1963-10.civil-rights-bill-2
+    when: Oct., early
+    date: 1963-10
+    thread: civil-rights-bill
+    also: [republican-party-congress]
+    c: 'Kennedy invites Dirksen and Katzenbach on Air Force One to Chicago for the Army-Air Force football game, then stays behind for a crisis in Vietnam. Dirksen and Katzenbach ride together on the civil rights bill. Dirksen, as they land: "Don''t worry. This bill will come to a vote in the Senate."'
+    n: '[[w.bernstein-guns-or-butter]], 64. Check: the day. To check: Katzenbach, Oral History Interview, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 64 n.5). Names: Kennedy, Dirksen, Katzenbach.'
+    src:
+      c: b6019b9c
+      rows:
+        - 'w.bernstein-guns-or-butter 64: all'
+        - 'via w.bernstein-guns-or-butter 64 n.5a: B-C'
+    tags: [name:kennedy-john-f, name:dirksen-everett, name:katzenbach-nicholas, city:chicago, state:il]

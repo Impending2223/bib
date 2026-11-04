@@ -9,13 +9,14 @@ entries:
     thread: mississippi-ole-miss
     also: [right-and-the-military, desegregation-schools]
     c: Meredith registers. Troops in Oxford. Walker arrested for insurrection; sent for psychiatric examination.
-    n: '*United States v. Barnett*, [376 U.S. 681](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf), 686 (1964). [[w.sorensen-kennedy]], 487 (Meredith registers; the troops); [[w.mann-walls-of-jericho]], 332 (Meredith registered; 23,000 troops; Walker at the monument the night before). See [[cal.1962-09-27.mississippi]]. Names: Meredith, Walker.'
+    n: '*United States v. Barnett*, [376 U.S. 681](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf), 686 (1964). [[w.sorensen-kennedy]], 487 (Meredith registers; the troops); [[w.mann-walls-of-jericho]], 332 (Meredith registered; 23,000 troops; Walker at the monument the night before); [[w.branch-parting-the-waters]], 670. See [[cal.1962-09-27.mississippi]]. Names: Meredith, Walker.'
     src:
       c: 9f872ca1
       rows:
         - 'https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf: all'
         - 'w.sorensen-kennedy 487: A-B'
         - 'w.mann-walls-of-jericho 332: A-B'
+        - 'w.branch-parting-the-waters 670: A-B'
     tags: [name:walker-edwin-a, name:meredith-james-h]
   - id: cal.1962-10-01.transition-and-staff
     when: Oct. 1
@@ -64,6 +65,14 @@ entries:
         - 'via w.mann-walls-of-jericho 332 n.among-southern-members-of-congress.b: A'
         - 'via w.mann-walls-of-jericho 333 n.more-responsible-leaders: B'
     tags: [name:ervin-sam-j-jr, name:young-stephen-m, name:javits-jacob-k]
+  - id: cal.1962-10-01.cuba
+    when: Oct. 1
+    date: '1962-10-01'
+    thread: cuba
+    also: [defense]
+    c: 'McNamara orders Dennison, commander in chief of the Atlantic Fleet, "to be prepared to institute a blockade of Cuba." That evening Dennison to his fleet commanders: "maximum readiness to execute CINCLANT OPLAN 312 [an air strike] by October 20." A large amphibious exercise announced as cover.'
+    n: '[[w.bird-color-of-truth]], 244. Names: McNamara, Dennison.'
+    tags: [name:mcnamara-robert-s, name:dennison-robert-l]
   - id: cal.1962-10-02.mayors-cleveland
     when: Oct. 2
     date: '1962-10-02'
@@ -93,6 +102,18 @@ entries:
         - 'via w.fursenko-one-hell-of-a 217 n.2a: D'
         - 'via w.fursenko-one-hell-of-a 217 n.2b: D'
     tags: [name:mcnamara-robert-s, name:taylor-maxwell, name:castro-fidel]
+  - id: cal.1962-10-02.mississippi-ole-miss
+    when: Oct. 2
+    date: '1962-10-02'
+    thread: mississippi-ole-miss
+    c: 'Mississippi blames the riot on "trigger-happy marshals." Eastland: the marshals "provoked the students and others."'
+    n: '[[w.branch-parting-the-waters]], 670. To check: New York Times, Oct. 2, 1962, 1, 25 (cited by [[w.branch-parting-the-waters]], 670 n.3). Check: the day. Names: Eastland.'
+    src:
+      c: cfe96fa8
+      rows:
+        - 'w.branch-parting-the-waters 670: all'
+        - 'via w.branch-parting-the-waters 670 n.3: B'
+    tags: [name:eastland-james-o, state:ms]
   - id: cal.1962-10-03.space
     when: Oct. 3
     date: '1962-10-03'
@@ -179,6 +200,7 @@ entries:
       c: 035612f7
       rows:
         - 'w.preston-war-council 108: all'
+        - 'via w.preston-war-council 108 n.19b: all'
     tags: [name:forrestal-michael-v, name:bundy-mcgeorge, name:kennedy-john-f]
   - id: cal.1962-10-05.georgia-ga
     when: Oct. 5
@@ -227,6 +249,13 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=795: all'
         - 'w.stein-fiscal-revolution-in-america 429: all'
     tags: [name:kennedy-john-f]
+  - id: cal.1962-10-05.cuba
+    when: Oct. 5
+    date: '1962-10-05'
+    thread: cuba
+    c: 'McGeorge Bundy to McCone: the policy "was not clear"; the choice, to "go in militarily (which seemed to him intolerable)" or another course.'
+    n: '[[w.bird-color-of-truth]], 244. Names: McGeorge Bundy, McCone. Check: Bird''s quotation is cut; the second alternative not given.'
+    tags: [name:bundy-mcgeorge, name:mccone-john-a]
   - id: cal.1962-10-06.governors-hi
     when: Oct. 6
     date: '1962-10-06'
@@ -383,6 +412,19 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/STATUTE-76/pdf/STATUTE-76-Pg872.pdf: A'
         - 'w.sorensen-kennedy 411–12: A'
     tags: [name:herter-christian-a, name:kennedy-john-f, bill:trade-1962]
+  - id: cal.1962-10-11.mississippi-ole-miss
+    when: Oct. 11
+    date: '1962-10-11'
+    thread: mississippi-ole-miss
+    also: [defense]
+    c: 'Night. Some ten thousand troops at Oxford turn out for a riot alarm: a sorority''s serenade. Some 23,000 soldiers in the town at the peak; the last five hundred leave late in the summer of 1963.'
+    n: '[[w.branch-parting-the-waters]], 670–71. To check: Vanderburgh, "A Draftee''s Diary from the Mississippi Front," Harper''s, Feb. 1964 (cited by [[w.branch-parting-the-waters]], 670 n.2). See [[cal.1962-10-01.mississippi]].'
+    src:
+      c: 9d0e5193
+      rows:
+        - 'w.branch-parting-the-waters 670–71: all'
+        - 'via w.branch-parting-the-waters 670 n.2: A'
+    tags: [state:ms, city:oxford-ms]
   - id: cal.1962-10-12.latin-america-panama
     when: Oct. 12
     date: '1962-10-12'
@@ -428,6 +470,7 @@ entries:
       c: 3b869e23
       rows:
         - 'w.preston-war-council 114–15: all'
+        - 'via w.preston-war-council 115 n.40a: all'
     tags: [name:forrestal-michael-v, name:bundy-mcgeorge]
   - id: cal.1962-10-14.missile-crisis
     when: Oct. 14
@@ -1008,6 +1051,19 @@ entries:
         - 'w.rusk-as-i-saw-it-1990 235: all'
         - 'via x.1984.rusk-interviews-with-richard-rusk: all'
     tags: [name:rusk-dean]
+  - id: cal.1962-10-22.missile-crisis-11
+    when: Oct. 22
+    date: '1962-10-22'
+    thread: missile-crisis
+    also: [governors]
+    c: 'Before Kennedy''s address. Rockefeller''s statement against Kennedy, Hughes''s draft, held at Ronan''s urging; Rockefeller, two hours late to a Republican women''s meeting, puts the State on "maximum readiness alert." After the address, a brief statement: Americans to rally around the President.'
+    n: '[[w.smith-on-his-own-terms]], 383. To check: *Public Papers of Nelson A. Rockefeller*, 1962, 1120 (cited by [[w.smith-on-his-own-terms]], 383). Names: Kennedy, Rockefeller, Hughes.'
+    src:
+      c: 908bf67b
+      rows:
+        - 'w.smith-on-his-own-terms 383: all'
+        - 'via x.1962-10-22.rockefeller-statement-public-papers: C'
+    tags: [name:kennedy-john-f, name:rockefeller-nelson, name:hughes-emmet-john, state:ny]
   - id: cal.1962-10-23.missile-crisis
     when: Oct. 23
     date: '1962-10-23'
@@ -1132,6 +1188,17 @@ entries:
       rows:
         - 'w.fursenko-one-hell-of-a 254–55: all'
         - 'via w.fursenko-one-hell-of-a 254 n.38: A'
+  - id: cal.1962-10-23.missile-crisis-9
+    when: Oct. 23
+    date: '1962-10-23'
+    thread: missile-crisis
+    c: Rockefeller meets the New York State Defense Council.
+    n: '[[w.smith-on-his-own-terms]], 383. See [[cal.1962-10-22.missile-crisis-11]]. Names: Rockefeller.'
+    src:
+      c: 1857e7bd
+      rows:
+        - 'w.smith-on-his-own-terms 383: all'
+    tags: [name:rockefeller-nelson, state:ny]
   - id: cal.1962-10-24.missile-crisis
     when: Oct. 24
     date: '1962-10-24'
@@ -1378,7 +1445,7 @@ entries:
     date: '1962-10-26'
     thread: king
     c: 'Several conservative papers run nearly the same front-page story, planted by the FBI: O''Dell, of SCLC''s New York office, a "concealed member" of the Communist Party''s national committee. Days later King: O''Dell has resigned, "pending further inquiry"; he stays, off the payroll a while.'
-    n: '[[w.garrow-bearing-the-cross]], 222–23. To check: Augusta Chronicle, Oct. 25, 1962, A4; St. Louis Globe-Democrat, Oct. 26, 1962, A1; New Orleans Times-Picayune, Oct. 26, 1962; Long Island Star Journal, Oct. 26, 1962, 1; FBI New York file 100-111180-8-7, 2A, FBI file 100-111180-8-7; Birmingham News, Nov. 2, 1962; New Orleans Times-Picayune, Nov. 2, 1962; Long Island Star Journal, Nov. 2, 1962, 1; O''Dell to King, Dec. 4, 1962; Walker to O''Dell, Feb. 1, 1963, King Center; Henry Cabirac to Mathew Ahmann, Jan. 18, 1963, National Catholic Conference for Interracial Justice Papers, box 31, folder 4, Marquette University (cited by [[w.garrow-bearing-the-cross]], 222 n.51). Check: the day; Garrow, 222, cites papers of Oct. 25 and 26. Names: O''Dell, King.'
+    n: '[[w.garrow-bearing-the-cross]], 222–23; [[w.branch-parting-the-waters]], 675–78. Check: Branch, 675–78, quotes the New Orleans Times-Picayune, Oct. 26, 1962: O''Dell a "Communist who has infiltrated to the top administrative post" in SCLC; four other papers ran the like, from St. Louis to Long Island; King''s statement of Nov. 1 says O''Dell "has functioned purely as a technician"; privately O''Dell never left the staff. To check: Augusta Chronicle, Oct. 25, 1962, A4; St. Louis Globe-Democrat, Oct. 26, 1962, A1; New Orleans Times-Picayune, Oct. 26, 1962; Long Island Star Journal, Oct. 26, 1962, 1; FBI New York file 100-111180-8-7, 2A, FBI file 100-111180-8-7; Birmingham News, Nov. 2, 1962; New Orleans Times-Picayune, Nov. 2, 1962; Long Island Star Journal, Nov. 2, 1962, 1; O''Dell to King, Dec. 4, 1962; Walker to O''Dell, Feb. 1, 1963, King Center; Henry Cabirac to Mathew Ahmann, Jan. 18, 1963, National Catholic Conference for Interracial Justice Papers, box 31, folder 4, Marquette University (cited by [[w.garrow-bearing-the-cross]], 222 n.51). Check: the day; Garrow, 222, cites papers of Oct. 25 and 26. Names: O''Dell, King.'
     src:
       c: d82a4dba
       rows:
@@ -1389,6 +1456,9 @@ entries:
         - 'via w.garrow-bearing-the-cross 222 n.51d: B'
         - 'via w.garrow-bearing-the-cross 222 n.51e: C'
         - 'via w.garrow-bearing-the-cross 222 n.51f: C'
+        - 'w.branch-parting-the-waters 675–78: A-B'
+        - 'via w.branch-parting-the-waters 675 n.2: A'
+        - 'via w.branch-parting-the-waters 676 n.3: B'
     tags: [name:odell-jack-h, name:king-martin-luther-jr]
   - id: cal.1962-10-26.missile-crisis-3
     when: Oct. 26
@@ -1507,11 +1577,12 @@ entries:
     thread: governors
     also: [missile-crisis, defense]
     c: During the morning's ExComm, Kennedy leaves for twenty minutes to meet governors headed by Rockefeller on civil defense.
-    n: '[[w.reeves-president-kennedy]], 413. Check: the governors present and the time. See [[cal.1962-10-27.missile-crisis]]. Names: Rockefeller, Kennedy.'
+    n: '[[w.reeves-president-kennedy]], 413; [[w.smith-on-his-own-terms]], 383 (Rockefeller and nine other governors with Kennedy, Saturday, Oct. 27). Check: the governors present and the time. See [[cal.1962-10-27.missile-crisis]]. Names: Rockefeller, Kennedy.'
     src:
       c: 0182dcc0
       rows:
         - 'w.reeves-president-kennedy 413: all'
+        - 'w.smith-on-his-own-terms 383: A'
     tags: [name:rockefeller-nelson, name:kennedy-john-f]
   - id: cal.1962-10-27.soviet-union
     when: Oct. 27
@@ -1593,6 +1664,19 @@ entries:
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 524: all'
     tags: [name:khrushchev-nikita-s, name:kennedy-robert-f, name:anderson-george-w-jr, name:lemay-curtis-e]
+  - id: cal.1962-10-28.alabama-birmingham
+    when: Oct. 28
+    date: '1962-10-28'
+    thread: alabama-birmingham
+    also: [labor]
+    c: 'Birmingham''s three commissioners, Connor among them, in secret with the firemen''s leaders: a million-dollar raise if the firemen vote against the new charter. A reformer tapes it. Radio advertisements before the vote: a fireman, "Do we get the raise regardless of how the election comes out next Tuesday?"; Mayor Arthur Hanes, "Absolutely not. You don''t get your raises unless we are here to give it to you."'
+    n: '[[w.branch-parting-the-waters]], 674. To check: David Vann, Duard LeGrand Lecture, 1978, University of Alabama in Birmingham (cited by [[w.branch-parting-the-waters]], 674 n.1). Check: the days of the advertisements. See [[cal.1962-11-06.alabama-birmingham]]. Names: Connor.'
+    src:
+      c: 8b6d2966
+      rows:
+        - 'w.branch-parting-the-waters 674: all'
+        - 'via w.branch-parting-the-waters 674 n.1: C'
+    tags: [name:connor-eugene, state:al, city:birmingham]
   - id: cal.1962-10-29.japan-and-korea
     when: Oct. 29
     date: '1962-10-29'
@@ -1682,11 +1766,12 @@ entries:
     thread: king
     also: [antisubversion, civil-rights-organizations]
     c: The FBI opens a formal investigation of King and the SCLC.
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 353. To check: Church committee, *Final Report*, bk. III, 82, 87–91 (1976) (cited by [[w.schlesinger-robert-kennedy-and-his]], 353 n.48). Made public: the Church committee''s report (1976). Check: the day. See [[cal.1962-05.king]]. Names: King.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 353; [[w.branch-parting-the-waters]], 678. Check: Branch, 678 n.2, from [[w.garrow-fbi-and-martin-luther]]: headquarters ordered the COMINFIL investigation Oct. 23, 1962, and planted the five articles on O''Dell the next day. To check: Church committee, *Final Report*, bk. III, 82, 87–91 (1976) (cited by [[w.schlesinger-robert-kennedy-and-his]], 353 n.48). Made public: the Church committee''s report (1976). Check: the day. See [[cal.1962-05.king]]. Names: King.'
     src:
       c: a73d5575
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 353: all'
+        - 'w.branch-parting-the-waters 678: A'
     tags: [name:king-martin-luther-jr]
   - id: cal.1962-10-30.press-and-broadcasting
     when: Oct. 30
@@ -1782,6 +1867,7 @@ entries:
       c: e911ae9e
       rows:
         - 'w.preston-war-council 108: all'
+        - 'via w.preston-war-council 108 n.19b: all'
     tags: [name:kennedy-john-f]
   - id: cal.1962-10.goldwater-5
     when: Oct.
@@ -1794,3 +1880,39 @@ entries:
       rows:
         - 'w.novak-agony-of-the-g 126: all'
     tags: [name:white-f-clifton, name:goldwater-barry-m, city:chicago]
+  - id: cal.1962-10.alabama-birmingham
+    when: Oct.
+    date: 1962-10
+    thread: alabama-birmingham
+    c: After SCLC leaves, a Birmingham judge orders a referendum in November on the mayor-council government. Connor's men tell the downtown stores they are in violation of the city's ordinances; the "Whites Only" signs go back up one by one.
+    n: '[[w.branch-parting-the-waters]], 656. Check: the days. See [[cal.1962-09.alabama-birmingham]]; [[cal.1962-11-06.alabama-birmingham]]. Names: Connor.'
+    src:
+      c: b4ba5e78
+      rows:
+        - 'w.branch-parting-the-waters 656: all'
+    tags: [name:connor-eugene, state:al, city:birmingham]
+  - id: cal.1962-10.missile-crisis
+    when: Oct.
+    date: 1962-10
+    thread: missile-crisis
+    also: [goldwater]
+    c: 'The White House, during the crisis. Goldwater, now a major general in the Air Force Reserve, advises Kennedy "to move on Cuba militarily": the Russians would back down, Castro''s regime end. Kennedy "dwelt on the ultimate horror of thermonuclear warfare." By Goldwater''s account.'
+    n: '[[w.goldberg-barry-goldwater]], 165. Check: the day. To check: [[w.goldwater-with-no-apologies]], 146, 148 (cited by [[w.goldberg-barry-goldwater]], 165 n.90–91). Names: Goldwater, Kennedy, Castro.'
+    src:
+      c: 155be74e
+      rows:
+        - 'w.goldberg-barry-goldwater 165: all'
+    tags: [name:goldwater-barry-m, name:kennedy-john-f, name:castro-fidel]
+  - id: cal.1962-10-30.goldwater
+    when: Oct. 30
+    date: '1962-10-30'
+    thread: goldwater
+    also: [missile-crisis]
+    c: 'Goldwater to Cotton, by letter: "I think this whole Cuban episode has been one of the sorriest and saddest expeditions ... I have ever witnessed." "I wish the people were not so emotional so we could explore it."'
+    n: '[[w.goldberg-barry-goldwater]], 165–66. To check: Barry Goldwater to Norris Cotton, Oct. 30, 1962, Box 17, Norris Cotton Collection, University of New Hampshire (cited by [[w.goldberg-barry-goldwater]], 166 n.92). See [[cal.1962-10.missile-crisis]]. Names: Goldwater, Cotton.'
+    src:
+      c: '78939595'
+      rows:
+        - 'w.goldberg-barry-goldwater 165–66: all'
+        - 'via w.goldberg-barry-goldwater 166 n.92: all'
+    tags: [name:goldwater-barry-m, name:cotton-norris-h]

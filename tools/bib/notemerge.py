@@ -27,13 +27,19 @@ ABBR = re.compile(r"(?:\b(?:Jan|Feb|Mar|Apr|Aug|Sept|Oct|Nov|Dec|Pub|Rec|Cong|Re
                   r"[A-Z]))$")
 
 
+# "4 p.m." ends no sentence unless a note's own sentence follows it ("... at 4 p.m. Names: ..."): a time inside an item
+# ("Bundy to Johnson, 4 p.m., NSF") stays whole.
+CLOCK = re.compile(r"\b[ap]\.m\.$")
+NEXT = re.compile(r"(?:To check: |Names: |Check: |See \[\[|Made public|Reply: |The order: |Bibliography: |\[\[w\.)")
+
+
 def sentences(n):
     out, cur, i = [], "", 0
     while i < len(n):
         cur += n[i]
         if n[i] == "." and (i + 1 == len(n) or (n[i + 1] == " " and i + 2 < len(n) and re.match(r"[A-Z\[*\"'(]", n[i + 2]))):
             depth = cur.count("(") - cur.count(")") + cur.count("[") - cur.count("]")
-            if depth == 0 and not ABBR.search(cur[:-1]):
+            if depth == 0 and not ABBR.search(cur[:-1]) and not (CLOCK.search(cur) and not NEXT.match(n[i + 2:])):
                 out.append(cur.strip())
                 cur = ""
         i += 1
