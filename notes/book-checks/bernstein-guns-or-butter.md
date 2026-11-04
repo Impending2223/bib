@@ -111,8 +111,101 @@ The Passed over rows marked "a lead," and:
 - Nov. 22, 1966, the Ranch: the fiscal year of McNamara's $20 billion and the deficit's $1.8 and $9 billion (360):
   Shapley, 367–74.
 
+## Third run (b3-bernstein-guns-3), Nov. 3–4, 2026
+
+Read from the same copy (now 649 PDF pages; the offsets hold: −11 to p. 244, −27 to p. 404, −43 after; checked at pp.
+9, 39, 244, 273, 393, 407, 517, 557, and pp. 37 and 321 read off the page images): the Prologue, pp. 3–14; ch. 1, pp.
+15–26; ch. 2, pp. 27–42 (all but 31–32); ch. 12, pp. 317–23; their notes, pp. 543–46, 562–63. How the list was made:
+every page of those chapters read, every sentence dating something to a month or a day pulled out by script and held
+against the tree and the ledger (`./bib ledger find`) day by day. Patch `inbox/2026-11-03-b3-bernstein-guns-3.yaml`,
+87 ops: 29 entries added, 40 cites, 9 Checks, 9 claim-map rows; witnesses `inbox/witnesses/2026-11-03-b3-bernstein-guns-3.yaml`
+(31 new; the Heller oral history's `what` widened to every part Bernstein cites); 79 edges appended to
+`sources/witnesses/by-work/bernstein-guns-or-butter.yaml`. Bernstein's notes run one to a section; each record is edged
+at the page it stands behind (letters after the note number tell the records apart). An edge to a card cannot carry a
+claim map's `via` row (only registered witnesses can), so a card cited in a note is edged and stands in "To check:".
+
+### The citations it had (held up)
+
+- `cal.1966-01-12.program` (State of the Union): held, 321–22, for the program asked (C–J, L). Bernstein gives 9:04 p.m.
+  (Check added); the entry's two quotations are not his.
+- The other nineteen tree entries citing the book behind "To check" (May 22, 1964; Dec. 27, 1965; Jan. 19 (two), 24,
+  26, Mar. 15, 22, July 19, Sept. 8, Nov. 29, Dec. 31, 1966; Jan. 10, Oct. 18, Dec. 15, 1967; Jan. 17, 29, Sept. 17,
+  Dec. 19, 1968) fall in chapters not yet read; the Tax Adjustment Act of 1966 and the Ann Arbor address are not
+  treated on any page read (the address only named, 131, 185, 320).
+
+### Cites added (R29), with the disagreements
+
+Prologue: July 14, 1960 (5); Nov. 4, 1960 (7); Jan. 3, 1961 (8); Jan. 28, 1961 (8–9; Check: Bernstein's draft order
+covers several areas, NASA among them); Aug. 19, 1961 (10; Check: Bernstein says the fall of 1961 and the 8th
+Infantry). Ch. 1: Nov. 22, 1963, the assassination, the oath, the helicopter, the leaders, the Elms (Kotz's pending
+entry); Nov. 23–24, Califano at Arlington and the title (Califano's pending entries, no letters); Nov. 23, Eisenhower;
+Nov. 26, the drafting dinner; Nov. 27, the address; Nov. 29, E.O. 11130, Warren (Check: Bernstein, after Warren, has the
+other six agree first and "40 million"), E.O. 11129; Dec. 6 (Gallup); Dec. 7; Kotz's Rauh entry (`cal.1963-12.civil-rights-bill`:
+Check, the Papers date the funeral Dec. 8). Ch. 2: Jan. 24, Sept. 25, Oct. 15, Nov. 22 (two; Check: Gordon's note to
+McNamara), Nov. 23, Nov. 26 (Check: Bernstein's "WPA project" quotation), Dec. 3, Dec. 4, Dec. 27, 1963; Jan. 8, 21, Feb.
+7, 26, 1964; Jan. 23, 1964, a Check only (Bernstein: the committee approves the bill 12 to 5 that day). Ch. 12: Nov. 4,
+1964 and July 8, 1965 (Califano's pending entries; Check: Bernstein has Moyers tell Califano); Dec. 7 and 29, 1965.
+
+### New entries (29)
+
+1960: July 14 (Johnson to O'Brien, "totally committed"). 1963: Nov. (Dillon with Byrd before Dallas); Nov. 20 (Gordon to
+Kennedy); Nov. 24 (Johnson with Gordon and Staats; Katzenbach through Thornberry); Nov. 25 (Katzenbach to Moyers); Nov. 26
+(the Dow's rally; Barr to Desautels); Nov. 30 (the management memorandum); Dec. 1 (the defense contractors); Dec. 5
+(Lehman); Dec. 10 (Finance's hearings close); Dec. 11 (the Joint Chiefs); Dec. 18 (news conference); Dec. 26 (foreign aid
+review); mid-Dec. (under $98 billion). 1964: early Jan. (Heller's billion; Dillon on Dirksen and the galleys, from the
+note); Jan. (Gordon at Byrd's apartment); Jan. 9–10, 13, 17 (Finance's markup; Barr on Ribicoff; capital gains); Jan. 23
+(the Kennedy Center bill); Mar. 21 (Good News Notes); Apr. (Heller to leave). 1965: Nov. 27 (Valenti on Goodwin). 1966:
+Jan. 11 (the address's last night); July 9 (Goldman's memorandum); Oct. 17 (Califano in the bedroom; Check the day).
+
+Stray ledger line of this run, claimed and not used: `cal.1963-12-08.democratic-party` (Lehman's funeral with Rauh:
+Kotz's `cal.1963-12.civil-rights-bill` holds it; cited there).
+
+### Passed over (third run)
+
+| Page | Date | Event | Why |
+| --- | --- | --- | --- |
+| 3–4 | 1787–1945 | the vice presidency's history | out of the brief (before the span) |
+| 5 | 1959–60 | Johnson's ambivalence; Reedy on his drinking; Rowe and Corcoran split away | a lead (the days) |
+| 9 | 1961–63 | Johnson at the Space Council, the CEEO, the NSC, the leaders' breakfasts; Heller's memoranda to him | a lead (the days) |
+| 10 | 1961 | Karachi: Bashir the camel driver invited; his visit to the U.S., the ranch, Dallas | a lead (the days) |
+| 10 | 1963 | Scandinavia: the Danes' furniture, Norway's banquet, Rovaniemi | a lead (the days) |
+| 11 | 1961–63 | Johnson unhappy; McPherson and the zoo; Edwards the chauffeur | private |
+| 17 | Nov. 22, 1963 | Johnson's calls from the plane to Rose Kennedy and Nellie Connally | minor (condolences) |
+| 18 | Nov. 22, 1963 | Mrs. Johnson and Carpenter in the car; Rayburn's photograph | private remarks |
+| 21 | Nov.–Dec. 1963 | O'Brien asked to stay; Fortas, Clifford, Rowe consulted; the apology to Rowe | a lead (the days) |
+| 22 | Nov. 25–28, 1963 | Johnson and Fortas approve Katzenbach's commission; Fortas and Katzenbach agree on seven names | a lead (the day) |
+| 24 | Nov. 1963 | the debate over the address's forum; Humphrey for the Hill | a lead (the day) |
+| 24 | Nov.–Dec. 1963 | Johnson sees 3,000 people in his first month, by Moyers | a lead |
+| 25 | Nov.–Dec. 1963 | Robert Anderson consulted; Dirksen by telephone, "you know I will" | a lead (the days) |
+| 26 | Dec. 12–17, 1963 | Gallup: approval 79, disapproval 3 | the approval table, not an entry |
+| 26 | Dec. 1963 | Hatfield's letter to Carpenter on Texas opinion | a lead (undated letter) |
+| 27 | Aug. 1963 | Mills tells the President and the Treasury most reforms must go | a lead (the day) |
+| 29–30 | Nov.–Dec. 1963 | Johnson tells the press $101–102 billion; reporters feel deceived, by Gordon | a lead (the day) |
+| 33 | Jan. 1964 | Johnson to Byrd: 14 percent withholding in fiscal 1964 | a lead (the letter) |
+| 36 | Nov. 1963–Feb. 1964 | the leaders' breakfasts on the bill; O'Brien's, Manatos's, Barr's memoranda | a lead (each memorandum's day) |
+| 39 | spring 1964 | Lewis's clipping on waiters' tips | minor |
+| 39–42 | 1964–65 | the economy's figures | the indicators tables |
+| 318 | Jan. 1961 | Califano writes Vance for a job; hired | minor (before his public role) |
+| 318 | 1962; Apr. 1964 | Califano to the Army; to McNamara's staff | a lead (the days) |
+| 319 | late July 1965 | Califano at work | in `cal.1965-07-08.transition-and-staff` (cited) |
+| 320 | Dec. 1965 | Steinbeck's lines tossed | minor |
+| 563 | 1966 | Goldman's rift and departure | a lead (the day) |
+
+### The press (third run)
+
+None entered. Named: a Karachi columnist on Bashir's invitation (1961, 10: a lead); the White House reporters on the
+$101–102 billion figure (Nov.–Dec. 1963, 30: a lead); the *Washington Daily News* on tips (1964, 39: minor).
+
+### Leads (third run)
+
+National: the rows above marked "a lead"; Califano's oral histories as Bernstein numbers them (I, XXIV, XL, XLI, LVII)
+against `x.undated.joseph-a-califano-jr-oral-history` (Mar. 16, Dec. 21, 1988, June 13, 1989): perhaps one series; the
+Kennedy Center act's Statutes cite (`cal.1964-01-23.program`, Check); the Finance Committee's report of Jan. 28, 1964
+(S. Rep. No. 830, registered, not read).
+
 ## Not read
 
-All of the book but pp. 31–32 and 358–378 and their notes: chs. 1, 3–13 and 15–19 (the tax cut's passage, the civil
-rights acts, the poverty program, Medicare, education, immigration, Vietnam, the arts, 1968). The calendar cites the
-book behind "To check" on many entries in those chapters; a later reader should take them chapter by chapter.
+All but the Prologue, chs. 1, 2, 12 and 14 and their notes: chs. 3–11, 13 and 15–20 (the civil rights act, the poverty
+program, 1964, Medicare, education, Selma, immigration, the environment, 14(b), Vietnam, turmoil, the minimum wage and
+Social Security, the arts, Model Cities, 1968). The calendar cites the book behind "To check" on nineteen entries in
+those chapters (above); a later reader should take them chapter by chapter, starting with ch. 3.

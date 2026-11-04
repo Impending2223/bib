@@ -397,3 +397,238 @@ marked "the next reader"; then p. 454.
   *Life*, Apr. 5, 1963).
 - States and cities: *Public Papers of Nelson A. Rockefeller*, 1962 (pp. 1036-39, 1120, 1132-35, 1159, 1208-12): find an open copy.
 - States and cities: the appeals court's decision on the South Mall, June 30, 1962 (Smith 400): the court and the cite.
+
+# Fifth run (Nov. 4, 2026; b3-smith-rockefeller-5)
+
+Assigned pp. 454-548 only (after the 1964 convention to Jan. 1969), the pages the earlier runs left unread (454-86, 495-501,
+504-5, 507-15, 518-22, 527-40, 542-48) and the "next reader" rows of those pages (523-24, Logue; 526, Singletary). Another
+reader has pp. 346-453 (patch -4). Patch `inbox/2026-11-03-b3-smith-rockefeller-5.yaml`; witnesses
+`inbox/witnesses/2026-11-03-b3-smith-rockefeller-5.yaml`, Smith's edges at its foot, commented, for the merger to append to
+`sources/witnesses/by-work/smith-on-his-own-terms.yaml` (the other Smith reader writes that file now).
+
+The copy: the same Drive PDF, by its public download address; offset 54 confirmed on pp. 454, 486, 548 (running heads);
+the notes, printed page = PDF page less 70 (pp. 773-784). Text read from the layer (pdftotext); no pinpoint needed the image
+this run (each page's running head and folio read in the layer). The PDF deleted at the run's end.
+
+(Sections below written as the run went; see "Where the run stopped".)
+
+## Read this run
+
+Pp. 454-86, 495-501, 504-5, 507-22, 523-24 (Logue), 526 (Singletary), 527-40, 542-47, and their notes (pp. 773-84);
+p. 548 and the end of 547 skimmed only so far as to see they treat 1969 (after Jan. 20, out of the span). Each page read for
+every dated event, set against the calendar (`./bib find`, `./bib ledger find` by day) before it was entered or cited.
+Not read: 487-94, 502-3, 506, 516-17, 523-26 (but for the two rows above) and 541 (the third run's; their cites stand).
+
+## Cites to entries already in (or in the ledger)
+
+| entry | ruling |
+|---|---|
+| cal.1964-11-05.republican-party | pinned in part, D: 456 ("spoilsport"; Nixon's "rule of life"); Check: Smith has it while the votes were still counted |
+| cal.1964-11-03.legislatures-ny | pinned in part, B: 456 (both houses, the first time in thirty years; Mahoney and Carlino beaten); no seat counts in Smith |
+| cal.1965-02-03.legislatures-ny, cal.1965-02-04.legislatures-ny | pinned: 462 (the twenty-sixth ballot, 25 Republicans and 15 Democrats; Travia with 46 Republicans; McKeon) |
+| cal.1965-08-01.state-and-city-finance-ny | pinned, A: 460, 463-64 |
+| cal.1965-05-14.republican-party-2 | pinned, A-B: 473; Check: Smith has Javits leak the letter (the entry: Javits denies the leak) |
+| cal.1965-06.crime-and-hijacking-ny | pinned, B: 466; Check: Smith dates the signing July 1965, seventeen of twenty sentences commuted |
+| cal.1965-05-24.conservation | pinned, A: 467 (Laurance Rockefeller chairman) |
+| cal.1966-01-01.jobs-and-wages | pinned, B-C: 476 (not the Quill quotation) |
+| cal.1966-04.health-ny | pinned, A-B: 482-83 (the figures of the bargaining; the signing at the IBEW hall in Queens; no day) |
+| cal.1966-11.elections-1968-3 | pinned, A-B: 496-97 |
+| cal.1967-04-07.elections-1968 | pinned, B, D: 497 |
+| cal.1967-09-04.elections-1968 | pinned, A: 497; Check: Smith has a Detroit radio host (the entry: television) |
+| cal.1967-09-10.press-and-broadcasting | pinned: 497 |
+| cal.1967-10-04.opinion | not cited: Smith, 497, gives Rockefeller and Reagan 57 to 43, the entry 55 to 41 (Check added) |
+| cal.1967-10-16.elections-1968 | pinned, A: 498; Check: Smith has Romney plead with Rockefeller to deny any interest, not ask to be let off |
+| cal.1967-11-07.state-constitutions-ny | pinned, B: 504-5 (no vote in Smith) |
+| cal.1968-02-10.jobs-and-wages-nyc | pinned, B, E: 510 |
+| cal.1968-03-10.republican-party | pinned, A-C: 514 |
+| cal.1968-03-17.republican-party | pinned: 515 |
+| cal.1968-04-09.king | pinned, A-B, D: 522 |
+| cal.1968-04-23.elections-1968-3 | pinned, B-C: 528 |
+| cal.1968-04-30.elections-1968-2 | pinned, A: 529 |
+| cal.1968-06-11.elections-1968-5 | pinned, A: 532; Check: Smith has "Tuesday, June 1" |
+| cal.1968-07-06.elections-1968 | pinned: 534-35 |
+| cal.1968-08-03.elections-1968-miami-3 | pinned, A: 536 |
+| cal.1968-08-07.elections-1968-miami-6 | pinned, G: 537 |
+| cal.1968-08-08.elections-1968-miami-3 | pinned, B: 538 |
+| cal.1968-11-25.transition-and-staff-nsc | pinned, A: 542 |
+
+## New entries (91)
+
+1964-65: Rockefeller's postelection press conference and his answer to Nixon (Nov. 1964); the Assembly Democrats' caucus,
+Dec. 22; the annual message, Jan. 5; the sales tax proposed (Jan.); the call to Wagner (Feb.); the Washington breakfast, Feb.
+25, and Lindsay's refusal, Feb. 26; the in-house polls (May); Lindsay at the Executive Mansion, May 11; Rockefeller on Lindsay
+and the White House, Oct. 31; election night at the Roosevelt Hotel, Nov. 2; Kempton's column, Nov. 5; the one-day trips (from
+Nov.); Johnson's call in the blackout, Nov. 9 (the recording on the Miller Center, to check). 1966: the $100 million after the
+transit strike (Jan.); the Lincoln Day dinner, Feb. 16; Riesel's column, Feb. 23; the announcement in Harlem, Apr. 8; Lindsay's
+budget and challenge, Apr. 15, 17; Price at Albany (May); June 8; the Executive Mansion talks, June 14-16; Kempton, June 16; the
+delegation and Medicaid (June); Dorado Beach (Nov.); Hinman, Dec. 28; Lindsay's Christmas letter (Dec.). 1967: Moses and the
+MTA, three entries (Mar.); Seidman at Pocantico (Apr.); Agnew, July 1; Hinman, July 7, Oct. 6, Oct. 19; Larry King (Oct.);
+*Time*, Oct. 20; Agnew to Rockefeller, Nov. 24; the Central Park allée, Dec. 6. 1968: Logue (Jan.); Rockefeller to Reagan,
+Jan. 12; Hinman, Jan. 23, Jan. 29; the sanitation strike, Feb. 6, 7, 8, 9 (two), 11, 17; Triborough into the MTA, Feb. 9; the
+MTA (Mar.); Schlesinger's lunch, Feb. 16; Feb. 21; Jackie Robinson, Feb. 26; Mar. 9, 11-14, 15, 16, 20, 27; King, Apr. 5, 6;
+Apr. 11, 12, 18, 25; May 16, 17, 20, 27; June 6 (two), 7, 9, 10, 13, the Senate seat (June), June 24; July (David
+Rockefeller), July 8; Aug. 7, 8, 13, 20; Nov. (Safire), Nov. 22, 26, 29.
+
+## Disagreements
+
+- New York City's election of 1965: Smith, 474, has election night Nov. 3; the election was Nov. 2 (Check in the new entry).
+- Lindsay at the Executive Mansion: Smith, 472, "Monday, May 11"; May 11, 1965, a Tuesday (Check).
+- Hughes's letter of May 1965: Smith, 473, has Javits leak it; the entry, after Hess and Broder, has Javits deny it (Check).
+- The death penalty law: Smith, 466, July 1965; the entry, June (Check).
+- Romney on the *Independence*: Smith, 498, Romney pleads for a public disavowal; the entry, Romney would quit (Check).
+- Gallup, fall 1967: Smith, 497, Rockefeller-Reagan 57 to 43; the entry, 55 to 41 (Check).
+- Romney's "brainwashing": Smith, 497, a Detroit radio host; the entry, television (Check).
+- The Press Club speech: Smith, 532, "Tuesday, June 1"; the entry, June 11 (Check).
+- Rockefeller's statement on King: Smith, 521-22, the night of Apr. 4; his note, the statement of Apr. 5 (the entry dated Apr. 5,
+  Check).
+- Rockefeller's note to Nixon, "Ours is a turbulent world": Smith, 543, Jan. 20, 1969; the note, NAR-RMN, June 20, 1969 (not
+  entered; a lead).
+- The "Dear Ted" telegram on the Super Bowl: Smith, 542, after the game of Jan. 12, 1969; the note, Jan. 19, 1969 (not entered).
+- Smith's note to 462 dates the *Times* on Spad and Young Feb. 5, 1968, for 1965 (a misprint; the edge goes to Feb. 5, 1965).
+
+## Passed over (the pages read this run)
+
+Made by reading each page above for every dated event, then setting each against the calendar and the ledger; what follows is
+each event the pages treat and the run did not enter or cite.
+
+| page | date | event | why |
+|---|---|---|---|
+| 454 | Aug.-Oct. 1964 | the Murphy custody case at White Plains; Gagliardi's decision, Oct. 1 | minor: family |
+| 455 n. | early 1965 | King on SNCC: "just like Rockefeller's wife" (Branch, *At Canaan's Edge*, 130) | minor: private remarks |
+| 456 | Nov. 3, 1964 | Johnson to Moyers, election night: "I'm afraid of Vietnam" (Perlstein, *Before the Storm*, 512) | a lead: see whether the calendar's election night has it |
+| 456 | Nov. 1964 | Lippmann on the result: "a great silent latent majority" dispelled | a lead: the column's day (press) |
+| 456 | Nov. 10, 1964 | a Gallup poll, liberals and conservatives tied (R. D. Johnson, *All the Way with LBJ*, 302) | a lead: the poll's release |
+| 456 | Nov. 1964 | Rockefeller's two weeks in Spain | minor: private |
+| 457 | Jan. 20, 1965 | the Rockefellers in the inaugural parade; the governors' reception | minor: social |
+| 457 | 1965 | Rockefeller named to the Advisory Commission on Intergovernmental Relations | a lead: the day |
+| 457 | Mar. 1965 | Aldrich and Fowler, Rockefeller's representatives at Selma | a lead: the day |
+| 457-58 | 1965 | the Men's Day sermon at Ebenezer; $25,000 to the Gandhi Society; the Kings at Fifth Avenue | a lead: the days |
+| 458-59 | 1965 | Kahn's bridge from Forty-second Street to Queens; the lobbying on the Rivers and Harbors Act | a lead: no days |
+| 459 | Nov. 1964-Jan. 1965 | Rockefeller to Democratic legislators: "I've got the program. You've got the power" (*Newsweek*, July 12, 1965) | a lead: no day |
+| 460 | 1965 | the veto of the minimum wage at $1.50 | a lead: the day (session laws) |
+| 461 | 1964-65 | Joan Braden's crossed letters to Rockefeller and Robert Kennedy | minor: private |
+| 461 | Jan. 1965 | Robert Kennedy's maiden speech on Appalachia's thirteen New York counties; Rockefeller's answer (*Herald Tribune*, Jan. 7, 1965) | a lead: the day; see whether the Robert Kennedy thread has it |
+| 461 n. | Dec. 1964-1965 | Erway passed over for the Senate's leadership; Bronston | a lead: no day |
+| 463-64 | 1965 | the stock transfer tax for the city; the city's borrowing bills, $46 and $256 million | a lead: the session laws |
+| 464 | May 1965 | Rockefeller at Hirshhorn's estate; Johnson's offer of the Mall | a lead: Smith's date (the gift was announced later; verify) |
+| 465 | 1965-66 | Rockefeller and Wilbur Cohen at HEW on compulsory treatment of addicts | a lead: the day |
+| 466 | 1965 | the free legal services bills; Rockefeller on Johnson's rent subsidies, "It's our program" (*Herald Tribune*, Mar. 27, 1966) | a lead: the days |
+| 466-67 | 1965 | Pure Waters, the billion-dollar bond issue | a lead: see whether the calendar's Nov. 2, 1965, referendum has it |
+| 469 | 1965 | the Indian Point fish kill; Lefkowitz's suit, $5 million | a lead: the day |
+| 469 | Mar. 1965; Dec. 1965 | the FPC's license for Storm King; the Court of Appeals' reversal (Scenic Hudson) | a lead: the order's and the case's days, and a thread (Conservation) |
+| 469 n. | 1967 | the Hudson Highlands State Park dedicated | a lead: the day |
+| 470 | May 1965; Feb. 1966 | the Hudson River Expressway bills; the protest at the Conference on Natural Beauty, New York Hilton | a lead: the days |
+| 473 | Nov. 1965 | Rockefeller on the county leaders: "Where are they going to go?" (*Herald Tribune*, Nov. 21, 1965) | minor: the position entered (cal.1965-05-14.republican-party-2) |
+| 474 | Aug. 1965 | Smithtown's tercentenary: Rockefeller booed, pelted with dimes | a lead: the day (a week after the sales tax took effect) |
+| 475 | 1964-65 | Lindsay's bill on the theater tax; his vote against the obscene-mail bill | a lead: the days (Lindsay's House record) |
+| 476-77 | Jan.-Mar. 1966 | Lindsay's request for nearly $600 million; Rockefeller's answer; the bill legalizing the transit settlement | in n of the entries of Apr. 15 and Feb. 23, 1966; a lead for the days |
+| 478 | Nov. 1965 | the City University branches in each borough proposed (*Herald Tribune*, Nov. 21, 1965) | a lead: the day |
+| 478 n. | June 1966 | the meeting at David Lindsay's apartment, Hinman and Murphy | in n of cal.1966-06-14; a lead for the day |
+| 479 | 1966 | the Plaza: "Why do you think he hates me so?" | minor: private remarks |
+| 480-81 | 1966 | Rockefeller's private "They're going right after the State University"; the ground breakings | minor: private remarks |
+| 482 | Nov. 1965 | the Republicans regain the State Senate, a special election | already in (cal.1965-11-02.legislatures-ny) |
+| 484 | spring 1966 | Rockefeller on television for a year's test of Medicaid (*New York Post*, Sept. 10, 1966) | a lead: the day |
+| 484 n. | early 1967 | Rockefeller's plan for health insurance through payroll taxes | a lead: the message's day |
+| 485 | 1968 | the cuts in Medicaid, $6,000 to $5,300 | a lead: the session law |
+| 486 | 1966 | Jack Tinker and Partners hired; Mary Wells Lawrence's pitch | a lead: the day |
+| 495 | 1967 | the *Queen Mary* as a drug center; Lindsay's floating high school | a lead: the days (the *Times*) |
+| 495 n. | 1960s | the Legislative Correspondents' dinner, the Lockport item | minor: social |
+| 497 | Aug. 1967 | McCall: "we can shake the tree and Rockefeller will fall out" | a lead: the day |
+| 498 | May 1967 | a Rockefeller informant on Reagan: "a presence, not a Governor" | minor: private remarks |
+| 498 n. | 1967 | Spencer, White and others on nominating Reagan; "The office seeks the man" | a lead: the day |
+| 498 | Oct. 1967 | Rockefeller asks New Hampshire supporters to stop | a lead: the day |
+| 499 | 1967 | New Hampshire's Republican chairman put off by Hinman; Hinman's undated memorandum, "keep our feet on the ground" | a lead: no day (the memorandum registered, x.undated.hinman-memo-feet-on-the-ground) |
+| 500 | 1966 | Battery Park City announced (Gordon, *Battery Park City*, 1-19) | a lead: the day; the calendar's Cities and housing |
+| 500 | 1966-67 | Rockefeller's remarks on Lindsay to Shalala, Rosenbaum; Allen's | minor: private remarks |
+| 501 | 1966-67 | Lindsay and Rockefeller argue architecture at the apartment | minor: private |
+| 501 | 1967 | the Narcotic Addiction Control Commission's first months; the constitutional convention's welfare plan | a lead: the days |
+| 513 | early 1968 | Hinman, "Our Dilemma—Its Possible Resolution," undated | a lead: no day (registered, x.undated.hinman-our-dilemma) |
+| 514 | Feb.-Mar. 1968 | Braun's plan of speeches from May; Ronan's doubts | a lead: no day |
+| 518 | 1960s | the rumors of Rockefeller's women; Capote, Vanderbilt | minor: private |
+| 519 | Dec. 19, 1967 | a pre-Christmas dinner, Pearson, Bradlee, Kraft: the rumors (Pearson's diary) | minor: private (gossip) |
+| 519 | June 1967 | Happy Rockefeller's birthday party at Pocantico (*Times*, Jan. 10, 1967, for the quotation) | minor: social |
+| 519 | 1968 | the Westchester Republicans' dinner, Excalibur | minor: social |
+| 521 | Feb. 1968 | *Good Housekeeping*'s photographs at Pocantico | minor: family |
+| 521 | Apr. 4, 1968 | Lindsay in Harlem the night of King's death, Sutton pulls him into his car | a lead: see whether the calendar's Apr. 4 has it |
+| 523 | 1966-67 | David Rockefeller's housing proposal; "I've got the twenty cents" | a lead: the speech's day |
+| 529 | May 1968 | Rockefeller's "In 1960 they say I dropped out too soon" (*Newsday*, Apr. 18, 1969) | minor: a repetition |
+| 530 | May 1968 | the lottery for the draft at the University of Iowa; "building bridges" to China; the CBS News Election Unit's estimate | a lead: the days |
+| 530-31 | May 1968 | Reagan's four-day swing through the South; his retraction of "a divisive force" | a lead: the days (*Time*, May 31; *Washington Star*, May 23, 1968) |
+| 531 | May-June 1968 | the changes of Rockefeller's command: Douglass, Hughes, Wilson, Hall, Miller | a lead: the days |
+| 533 | June-July 1968 | the endorsements of King Sr., Farmer, Gavin; the Kissinger plan for Vietnam; "Nixon's the One"; Cincinnati | a lead: see whether the calendar has each (the Vietnam plan, July 13) |
+| 533-34 | June 6, 1968 | Rockefeller and his son Steven in the Kykuit garden | minor: family |
+| 534 | July 1968 | Tower's and Volpe's endorsements of Nixon | a lead: see whether the calendar has them |
+| 535 | June 16-17, 1968 | the family's letter to Winthrop Rockefeller on his drinking | minor: family |
+| 535 | July 1968 | the governors' conference: lunch at Wallace's table, the cigar | minor: social |
+| 536 | Aug. 1968 | Breslin at the Americana | minor: private remarks |
+| 537 | Aug. 1968 | Thurmond and Tower on the boats; Kirk for Rockefeller; Hinman's search for a running mate (Percy) | a lead: the days; see the calendar's Miami Beach |
+| 538 | Aug. 7-8, 1968 | Bricker to Kazan: "Not a single vote" (*New York*, Aug. 26, 1968); Breslin; the rioting in Miami | a lead (press); the riot already in, see the calendar |
+| 538 n. | Aug. 1968 | Spagnoli and Buchanan on a running mate | minor: private remarks |
+| 539 | Aug. 9-10, 1968 | the flight north; Seal Harbor; Rockefeller's letter to Ann Whitman | minor: private |
+| 539 | Aug. 13, 15, 1968 | d'Harnoncourt killed; Rockefeller's eulogy | minor: private |
+| 540 | June-Aug. 1968 | Gilpatric and Burke Marshall proposed for the Senate seat; Hughes for Coretta King; Gardner | a lead: the days |
+| 542 | 1968 | Callaway on Mississippi and Reagan | minor: a later judgment |
+| 542 | Jan. 12, 1969 | Camp David with the Johnsons; the telegram to Agnew on the Super Bowl | minor: social |
+| 543 | Jan. 20, 1969 | Rockefeller's note to Nixon (note: June 20, 1969); the parade | a lead: the date |
+| 544 | Nov. 1968 | Slote summoned over his words on Nixon; to Sarnoff's offer | a lead: the day |
+| 546 | Dec. 1967 | Rockefeller: "strike a balance between what is desirable and what is do-able" (*Public Papers of Nelson A. Rockefeller*, 1967, 1189) | a lead: the speech and its day |
+
+From p. 543 on, the events are after Jan. 20, 1969 (the Latin American mission, the budget of 1969, the Bar Association, the Urban
+Affairs Council, the 1969 session): out of the brief.
+
+## The press
+
+| date | outlet | item | page |
+|---|---|---|---|
+| Jan. 7, 1965 | *New York World-Telegram* | "Rockefeller Wants More of Everything" | Smith 459 |
+| Jan. 8, 1965 | *New York Herald Tribune*, David Lawrence | "Rockefeller's Great Society Plan" | Smith 456 n. |
+| July 12, 1965 | *Newsweek*, Emmet John Hughes | "An Untold Tale" | Smith 473 n. |
+| Nov. 5, 1965 | *World-Telegram and Sun*, Kempton | "Lindsay and Rockefeller" (entered) | Smith 474 |
+| Feb. 23, 1966 | *Journal-American*, Riesel | Rockefeller and the labor leaders (entered) | Smith 477 n. |
+| 1966 | *Syracuse Post-Standard* | Medicaid "insane, fiscally irresponsible ... New York's Gigantic Giveaway" | Smith 484 (as the *New Leader*, Apr. 8, 1968, quotes it) |
+| June 16, 1966 | *New York Post*, Kempton | "There's Only One Winner" (entered) | Smith 478-79 |
+| Sept. 10, 1967 | *Detroit News* | Romney to quit for Rockefeller (in) | Smith 497 |
+| Oct. 20, 1967 | *Time* | the cover, Rockefeller and Reagan (entered) | Smith 498 |
+| Feb. 1968 | *Harper's*, Larry L. King | "The Cool World of Nelson Rockefeller" (made public, entered) | Smith 498 |
+| Apr. 1, 1968 | *Newsweek* | the "rumors that periodically haunt Rocky's personal life" | Smith 518 |
+| Apr. 19, 1968 | *Washington Post* | "Rockefeller Speech Heard in Silence" | Smith 528 |
+| May 17, 1968 | *New York Times* | "Governor Rockefeller: No Direct Answers" (Pittsburgh) | Smith 530 |
+| May 23, 1968 | *New York Post*, Evans and Novak | "The Reagan Strategy" | Smith 531 n. |
+| June 21, 1968 | *Newsweek* | "Rocky: Out of the Trance" | Smith 533 n. |
+| July 27, 1968 | *Saturday Evening Post*, Roger Kahn | "On the Brink of Chaos," the sanitation strike | Smith 507 n. |
+| Aug. 26, 1968 | *New York*, Elia Kazan | "Face to Face with the GOP" | Smith 538 |
+
+## Witnesses (fifth run)
+
+85 new rows in `inbox/witnesses/2026-11-03-b3-smith-rockefeller-5.yaml`, and 128 edges of Smith's notes at its foot, commented,
+for `sources/witnesses/by-work/smith-on-his-own-terms.yaml` (to cards: Javits, *Javits*, 372-77; Cannato, 21; Hentoff, 129,
+207-10; Persico, *Imperial Rockefeller*, 113, 208; Caro, *Power Broker*, 1134-44; White, *Making of the President, 1968*,
+272-75; Safire, *Before the Fall*, 33). Most of Smith's notes for these pages are his own interviews (AI), Hugh Morrow's (HMI)
+and Cary Reich's (CRI), Riland's diary (KRD) and the Rockefeller Archive Center's files: roots not held. The witnesses of the
+third run (Slote, Douglass, Ronan, Braun, Hughes, Riland, Mar. 20, 1968, *Newsweek*, Apr. 1, 1968) take this run's edges, no
+second rows. One witness the series holds, the Johnson-Rockefeller call of Nov. 9, 1965 (Miller Center), was not heard: it
+stands behind "To check:". The maps were not read inline in a scratch merge this run.
+
+## Leads (fifth run)
+
+- National: cards to make (no card yet, cited in full in "To check:"): Klein, *Lindsay's Promise* (1970); Benjamin and Hurd,
+  *Rockefeller in Retrospect* (1984); Schlesinger, *Journals, 1952-2000*; Hevesi, *Legislative Politics in New York State*;
+  Gordon, *Battery Park City* (1997); Robert David Johnson, *All the Way with LBJ*; *Public Papers of Nelson A. Rockefeller*
+  (a card a year, as the Bulletin's).
+- National: the Johnson-Rockefeller recording of Nov. 9, 1965, 9:15 p.m. (Miller Center, WH6511-05-9147): to hear and cite as
+  the primary record of cal.1965-11-09.states-and-cities-2.
+- National: the Public Papers of Governor Rockefeller (1959-73), cited by Smith throughout as "NR, PP": find a copy; the
+  statement of Apr. 5, 1968 (1968, 1039), the ASNE speech (1968, 1303-08), the postelection press conference (1964, 876).
+- States and cities: New York's session laws of 1965-68 for the days the 1965 sales tax, the death penalty law, the free legal
+  services bills, the transit settlement law (1966), the Rye-Oyster Bay Bridge law (1967), the Medicaid law and its cuts were
+  signed.
+- States and cities: Storm King: the FPC's order of Mar. 1965 and Scenic Hudson v. FPC (2d Cir., Dec. 1965), for Conservation.
+- National: Hirshhorn's gift (Smith, 464, May 1965): the day of Johnson's announcement.
+- Press: Murray Kempton, Victor Riesel, Gene Spagnoli (the *Daily News* at Albany), Jimmy Breslin: Part III entries to propose
+  (R13); Kempton's columns of Nov. 5, 1965, and June 16, 1966, entered.
+
+## Where the run stopped
+
+The assigned range is read through: pp. 454-548 (548 and the end of 547 only to see that they treat 1969), with their notes.
+Nothing in the range is left unread but the pages the third run read (487-94, 502-3, 506, 516-17, 523-26, 541). Not done: a
+scratch merge to read the maps inline (R34); the cites the leads above name.

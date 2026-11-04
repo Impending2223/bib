@@ -1,7 +1,7 @@
 # Branch, *Parting the Waters* (w.branch-parting-the-waters)
 
 Readers: b3-branch-ptw-1 (Oct. 28–29, 2026: pp. 271–559, 1960–61; no book-check file was written that run); b3-branch-ptw-2
-(Nov. 3–4, 2026, this file: from p. 556).
+(Nov. 3–4, 2026, this file: from p. 556); b3-branch-ptw-4 (Nov. 4, 2026: pp. 729–922 and their notes, patches b3-branch-ptw-4 and -5).
 
 ## The copy
 
@@ -15,7 +15,9 @@ second note under that page, with a letter for each source a note names ("n.4a")
 
 Read in this run: pp. 556–729 (Dec. 1961 to Good Friday morning, Apr. 12, 1963), text and notes, each page cited read against its note; folios checked against the page image (p. 606 among them). Stopped at p. 729, King's decision to go to jail, Apr. 12, 1963, for want of room in this session. Not yet read: pp. 729–922 (the Birmingham jail and the letter, the children's march and the settlement, Medgar Evers, the June 11 address, the March on Washington, the Sixteenth Street bombing, to Nov. 1963) and the notes to them. Entries made or cited: patches b3-branch-ptw-2 (pp. 556–672) and b3-branch-ptw-3 (pp. 673–729).
 
-Not done this run: the studies, memoirs and collections cited in Branch's notes to pp. 271–555 (the first run's entries) are not yet registered as witnesses or edges; only the notes to the pages cited here are.
+Read in the run of Nov. 4 (b3-branch-ptw-4): pp. 729–922, the end of the text (Good Friday, Apr. 12, 1963, to King's interview with Donald H. Smith, Nov. 29, 1963), and the notes to them (PDF 1036–1054). A fresh download of the same copy; the offset held at 50 through the end (PDF 779 = p. 729, PDF 972 = p. 922; notes PDF 1036 = p. 986), checked on the running heads and on the page image of p. 748 (Moore near "Attala"). Notes cited as before: "748 n.2" the second note keyed to p. 748, a letter a source ("n.2b"). Patches: `inbox/2026-11-03-b3-branch-ptw-4.yaml` (pp. 729–845, 280 ops: 155 adds, 42 cites, 39 checks, 42 src, 1 edit, 1 to-check) and `inbox/2026-11-03-b3-branch-ptw-5.yaml` (pp. 846–922, 137 ops: 56 adds, 26 cites, 28 checks, 27 src). Witnesses: 486 new rows in `inbox/witnesses/2026-11-03-b3-branch-ptw-4.yaml` (the police notes of each mass meeting, the FBI's intercepts and memoranda, the King, Marshall, White and Lee White Papers, the White House tapes Branch cites by audiotape number, the press, the interviews, the uncarded studies and memoirs as study rows); 682 edges appended to `sources/witnesses/by-work/branch-parting-the-waters.yaml` (pp. 730–922). The book is read to its end; what remains is the first run's (pp. 271–555): its notes' studies, memoirs and collections still to be registered.
+
+Not done in the run of Nov. 3: the studies, memoirs and collections cited in Branch's notes to pp. 271–555 (the first run's entries) are not yet registered as witnesses or edges; only the notes to the pages cited here are.
 
 ## Rulings on the cites already made (R33)
 
@@ -51,10 +53,47 @@ Every cite to Branch the calendar held for Dec. 1961–Jan. 1963 was read agains
 | cal.1963-03-27.mississippi | a minister bitten | the pastor bitten Mar. 28; Moses's trousers and Matthew Hughes Mar. 27 (719–20) | pinned A, C; Check; new entry of Mar. 28 |
 | cal.1963-04-03.mississippi | Doar's agreement Apr. 3 | the city gives way the morning of Apr. 4 (723–24) | Check |
 | cal.1963-04-12.alabama | march against the injunction; jailed | the same (728–29) | pinned A-B; Check |
+| cal.1963-04-08.mississippi | Marshall to the President on the Greenwood settlement, Apr. 8 | the same memorandum (Lee White Papers, box 23) cited for the rebuttal of the Civil Rights Commission's draft: one dog, one preacher (745) | Check added: one memorandum or two |
+| cal.1963-04-12.alabama | march, jail | about forty marchers, three hours late; fifty-two jailed; solitary (730-31) | held; Check (figures) |
+| cal.1963-04-15.alabama-birmingham | Kennedy calls Coretta King | he returns her calls, after two from Robert Kennedy; the police tap King's call (735-36) | pinned A; Check |
+| cal.1963-04-16.alabama-birmingham | the Letter, Apr. 16 | begun Apr. 13 in the News's margins; typed to seven of the eight (Hardin left off) (737-44, 738 n.1) | pinned; Check |
+| cal.1963-04-19.mississippi | letter to Hannah | Branch quotes it from the press statement of Apr. 19 (747) | pinned; Check |
+| cal.1963-04-23.alabama | near Attalla | "near Attala" (748, the page image read) | pinned; Check (spelling) |
+| cal.1963-04-24.laos | the news conference, on Laos | the same conference's answers on the Civil Rights Commission and Moore (749-50); the Papers, 347-48, read | edited (base 66ece054): the civil rights answers added to `c` from the Papers; also civil-rights-the-executive |
+| cal.1963-04-25.alabama | Robert Kennedy and Wallace | Kennedy and Marshall in Montgomery only (751) | pinned B, parenthetical |
+| cal.1963-05-02.alabama | hundreds arrested | 958 signed up, some 600 in custody; Branch's note dates the Times "May 3, 1962" (756-58) | pinned; Check |
+| cal.1963-05-03.alabama-birmingham | hoses and dogs | the same, Evans, the Gadsden photograph, 250 arrested (758-61) | pinned; Check |
+| cal.1963-05-04.alabama-birmingham | a delegation | "a morning audience of ADA liberals" (764) | pinned A; Check |
+| cal.1963-05-07.alabama-birmingham | the jails full; troopers | the same (775-80) | pinned; Check |
+| cal.1963-05-07.civil-rights-the-executive | some eighty; that night with Pitts, Shores and Young | seventy; the night's talks with Shores, Gaston and Pitts, then King at the Drews' (775-81) | pinned; Check |
+| cal.1963-05-08.middle-east | the press conference, Birmingham | the same; the Papers, 372, read (783) | pinned E-F; Check |
+| cal.1963-05-09.mississippi | the night of May 9 | about 4 a.m. after the night of May 7 (781) | pinned; Check (the night) |
+| cal.1963-05-09.alabama-birmingham | Reuther, Rauh, four unions | the same; Meany, McDonald, Quill's $50,000 (788-89) | pinned A-B; Check |
+| cal.1963-05-10.alabama | the settlement | the same; Connor's rejection not in Branch (790-91) | pinned A-C |
+| cal.1963-05-11.alabama | bombs, riot, troops | the same (793-800) | pinned; Check |
+| cal.1963-05-20.civil-rights-bill | Tape 88.2 | Branch cites Audiotape 88.4, as Reeves (807-9, 813) | pinned; Check |
+| cal.1963-05-24.civil-rights-the-executive | the Baldwin meeting | the same (809-12) | pinned A; Check |
+| cal.1963-05-28.mississippi | the sit-in | the same (814) | pinned A-B; Check |
+| cal.1963-05-31.mississippi | 450 arrested | "some six hundred" (815) | pinned with parenthetical |
+| cal.1963-06-01.civil-rights-bill | Johnson with Robert Kennedy | Johnson to the President, June 1: "I'm not competent to counsel you" (813) | pinned C; Check |
+| cal.1963-06-09.mississippi | Winona | the same; freed June 12 (818-21, 825) | pinned A-B; Check |
+| cal.1963-06-18.mississippi | two calls, that night the meeting | the calls "possibly June 17"; Haughton "the next night" (831-32) | pinned; Check |
+| cal.1963-06-22.civil-rights-bill | the meeting | the same, at length (835-41) | pinned; Check |
+| cal.1963-06-23.king-detroit | Cavanagh | "Cavenaugh" (842-43) | pinned A-B, D; Check |
+| cal.1963-07-03.king | copy to Robert Kennedy; Levison breaks off | copy to Burke Marshall; Levison's break after July 28 (850-51, 858-59) | pinned A; Check |
+| cal.1963-07-16.king | Kennedy and Evans | the same (854-55) | pinned; Check |
+| cal.1963-08-09.georgia-albany | a federal jury acquitted the sheriff | a civil suit, civil liability (731, 866-68) | pinned; Check |
+| cal.1963-08-28.civil-rights-bill (pending, b3-zelizer-2) | the Oval Office | the Cabinet Room (883-86) | cite A, C-E by additive op; Check |
+| cal.1963-10-04.baker | Mansfield to reporters | Branch does not give these words; Baker in hiding (907) | not cited; Check |
+| cal.1963-10-28.baker | Hoover: nothing touches national security | Branch does not give this (912-13) | pinned A |
+| cal.1963-10-21.king | Rustin "some days later" | approved Nov. 1 (913) | pinned A; Check; new entry Nov. 1 |
+| cal.1963-11-02.mississippi-ms | some 80,000 | some 90,000 (920) | pinned A-B, D; Check |
+| cal.1963-11-29.king (pending, b3-kotz-2) | King to Smith, a quotation | Branch quotes other words of the interview (922) | not cited; Check |
+| cal.1963-12-03.king | forty-five minutes | "for an hour" (922) | pinned A; Check |
 
 ## Passed over
 
-Made page by page as the text was read: each dated event within the span Branch treats that was not entered or cited, with the reason. The events of 1960–61 (pp. 271–555) the first run read are not listed here.
+Made page by page as the text was read: each dated event within the span Branch treats that was not entered or cited, with the reason. The events of 1960–61 (pp. 271–555) the first run read are not listed here. The run of Nov. 4 added its rows for pp. 729–922 the same way, page by page, after the rows of pp. 556–729.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -108,6 +147,88 @@ Made page by page as the text was read: each dated event within the span Branch 
 | 725 | Apr. 1963 | Doar and Moses in Greenwood after the settlement; Walker turns Forman away in Birmingham; Mayor Sampson's bus to the registrar | lead (no days given) |
 | 725 | Apr.–Oct. 1963 | 1,500 tested in Leflore County, fifty registered (Ponder's report) | lead (a figure for a period; for the voting-rights thread) |
 | 725 | Apr. 1963 | Branton blames King for Greenwood's collapse | minor (private remarks) |
+| 731 | Apr. 12, 1963 | Pope John XXIII strikes "perfidious Jews" from the Good Friday liturgy; *Pacem in Terris* of Apr. 11 named | out of the brief (a liturgical change; no bearing on politics or policy as Branch gives it) |
+| 733-34 | Apr. 12-14, 1963 | Sherrod's crisis of shame at Gammon Seminary; chairs thrown in the workshops | minor (private) |
+| 742 | Apr. 1963 | King orders Hosea Williams and his party out of the Gaston Motel | minor (staff housekeeping) |
+| 742 | July 22, 1960 | Scarlett to Carpenter: "an opportunity of a hundred years" | minor (private letter) |
+| 745 | Apr. 1963 | Bishop Carpenter reads King's letter: "You get it from both sides" | minor (private remarks) |
+| 748 | 1963 | Toledo high school students protest an assistant principal's "black students" | lead (no date given; Jet, Oct. 3, 1963, 48) |
+| 749 | Apr. 24, 1963 | The press on Moore's past: the mental hospital, *The Mind in Chains* | minor (routine coverage) |
+| 750 | Apr. 24, 1963 | Forman calls Moore's widow on taking up the walk | minor (a condolence call; the walk entered May 1) |
+| 752-53 | Apr. 1963 | Bevel's and Diane Nash's workshops recruit the high school elite; the Drews send their son to prep school | minor (no dated act; private) |
+| 753 | Apr. 28, 1963 | *Birmingham News*, "Greenwood Rolled with Punch, And Won" | minor (routine coverage; in The press) |
+| 755 | Apr. 30-May 1, 1963 | "Tall Paul," the disc jockey, announces the "big party" Thursday at Kelly Ingram Park | lead (no day; Gardner interview) |
+| 762 | May 3, 1963 | Judge Talbot Ellis: those who "misled these kids" "ought to be put under the jail" | entered with Boutwell's statement (cal.1963-05-03.alabama-birmingham-3) |
+| 764 | May 4, 1963 | Sitton and Pat Watters leave the Moore walk for Birmingham; Watters's view of King | minor (reporters' movements) |
+| 765 | May 4, 1963 | Bevel and Walker quarrel; King's truce between them; King flies to Atlanta | named in the entry's Check (cal.1963-05-04.alabama-birmingham-2) |
+| 765-66 | May 4-5, 1963 | Baker, Dellinger, Forman, Gregory, Carawan and Baez arrive; Baez's concert at Miles College | minor (arrivals; a concert with no bearing as Branch gives it) |
+| 769 | June 20, 1964 | Marshall in the joint oral history: King "really didn't know" what he wanted | a later account (registered as a witness, 769 n.2) |
+| 774 | May 6, 1963 | Abernathy's joke on eros | minor (a speech's color; the meeting entered) |
+| 786 | May 9, 1963 | Stories on Birmingham staples throughout Europe | minor (no dated item) |
+| 789 | May 4, 1963 | Rockefeller's marriage to Happy Murphy | in the calendar (cal.1963-05-04.elections-1964), not cited: Branch names it in passing |
+| 789 | May 1963 | Rockefeller's drop of thirteen points in the Gallup poll within a week of his marriage | lead (the poll's date; Chicago Sun-Times, May 26, 1963, 5; noted in cal.1963-05-10.alabama-birmingham) |
+| 792 | May 1963 | "Supersonic Attractions" concert, Ponce de Leon Park, Atlanta | out of the brief (no bearing on politics or policy) |
+| 801 | May 13, 1963 | King loses at pool to a hustler on his tour | minor (private) |
+| 804 | May 18-24, 1963 | Levison maneuvers Kunstler aside from a joint book with King; a publisher suggests *Why We Can't Wait* | minor (the book's private business; witnesses registered, 804 n.7) |
+| 804 | May 1963 | Clarence Jones's campaign against wildcat printings of the Letter | minor (copyright business) |
+| 806 | May 1963 | Atlantic City promised Abernathy, gets Fireball Smith; Walker's speeches in Albany (May 20) and San Francisco (May 25) | minor (speakers' bookings) |
+| 806 | May 1963 | Bernard Lee speaks in Greenwood; Ponder to King, May 26: "He whooped" | minor (a speech with no word given) |
+| 806 | May 1963 | Rallies for Birmingham in Birmingham, England, and Havana; Greenwich, Conn., clergymen against segregation; Duke admits its first Negro students | lead (no days given; Chicago Defender, May 11, 1963, 4) |
+| 806 | May 1963 | 34 arrested in Raleigh, nearly 100 in Albany, 1,000 in Durham | lead (no days given; New York Times, May 15, 1963, 26, May 21, 1963, 19; SAC Atlanta to Director, May 31, 1963, FBI file 157-4-2, serial 168) |
+| 807 | May 1963 | An airman marches for Birmingham at an Air Force base in South Dakota; the President to Lee White: "How the hell did this happen?" | lead (no day given; Lee White's oral history) |
+| 812 | May 1963 | Robert Kennedy, from the FBI's reports on the Baldwin guests, on the three married to whites | minor (private remarks; Robert Kennedy's oral history, Apr. 30, 1964, registered, 812 n.3) |
+| 812 | June 1963 | Robert Kennedy to Guthman: perhaps he would feel so against his country had he grown up a Negro | minor (private remarks) |
+| 812 | 1963 | Robert Kennedy authorizes wiretaps on Clarence Jones's home "some weeks later" | lead (the day; the wiretap's authorization, in the King thread later) |
+| 813 | June 1963 | Robert Kennedy's tongue-lashings of Johnson at interagency meetings on Negro hiring | lead (no day given; Schlesinger, *Robert Kennedy and His Times*, 360-61) |
+| 814 | May 1963 | Evers's mass meetings through May; Thompson's committee of Negroes of his own choosing; the NAACP boycott of Citizens Council advertisers | lead (no days given; Evers, *For Us, the Living*) |
+| 816 | May-June 1963 | King consults Evers covertly; Evers calls Wilkins | minor (no day given) |
+| 817 | June 2-3, 1963 | Levison to Ann and Clarence Jones: "you tingled"; "a step behind Martin" | minor (private remarks; named in the check on cal.1963-06-01.march-on-washington) |
+| 817 | June 1963 | Evers stalks his house with a rifle and finds his son | minor (private) |
+| 818 | May 14, 1963 | Doar's son born | minor (family) |
+| 820 | June 9, 1963 | West Hunter's "Tribute to Our Pastor and First Lady," Abernathy's anniversary | minor (social) |
+| 822 | June 11, 1963 | The front pages: twenty-five arrests at the courthouse in Cambridge, Md. | lead (Branch gives no source; the Cambridge thread to check) |
+| 825 | June 1963 | 758 demonstrations and 14,733 arrests in 186 cities in ten weeks (Fleming, Daedalus) | minor (a count for a period; witness registered, 825 n.3) |
+| 825 | June 1963 | Two men chain themselves to the Ohio legislature's gallery; an Alabama mob stones a white preacher's home | lead (New York Times, June 14, 1963, 16; June 15, 1963, 9) |
+| 825 | June 1963 | Greenwood's workshop: twelve more registration teachers | minor (no dated act) |
+| 827 | June 1963 | Doar's son named from a hat | minor (family) |
+| 829-30 | June 14, 1963 | Levison to Frank Montero, overheard, his longest outburst against Wilkins and the NAACP | named in cal.1963-06-13.civil-rights-organizations (minor: private remarks) |
+| 830-31 | June 16, 1963 | Wilkins to his nephew Roger in Washington: "Can you imagine it?" | minor (private remarks) |
+| 831 | June 1963 | Robert Kennedy and then the President receive the Jackson NAACP preachers at the White House; Robert Kennedy presses Thompson | lead (no days given) |
+| 833 | June 1963 | Dennis and Tim Jenkins on organizational rivalry; Jerome Smith at Canton, Miss. | lead (no days given; Tape 4817, Pacifica Radio Archive) |
+| 834 | June 1963 | Dirksen against public accommodations as a violation of property rights | in the calendar (cal.1963-06-18.republican-party-congress); Branch gives no day (New York Times, June 18, 1963, 1) |
+| 834 | June 1963 | 450 students arrested in Gadsden, Ala., renewing the Moore march; Danville police break down church doors; nearly 150 arrested in Albany "over the next week"; pickets at Kansas City police stations | lead (no days given; Westin and Mahoney, 153; New York Times, June 23, 1963, 62; SAC Atlanta to Director, July 15, 1963) |
+| 834 | June 1963 | A money quarrel in Birmingham; Atlanta's Funtown closes against integrated patrons | lead (Garrow, *Bearing the Cross*, 271; Atlanta Constitution, June 17, 1963, 5) |
+| 841-42 | June 22-26, 1963 | The President's trip to Germany, Bundy on television, Frankfurt, "Ich bin ein Berliner" | in the calendar (the Kennedy in Europe entries); Branch's account is a summary, not cited |
+| 842 | June 1963 | The Detroit feud: Franklin's people call the NAACP "a bunch of Uncle Toms" | named in the check on cal.1963-06-23.king-detroit |
+| 849 | July 1963 | Wilkins and King's banter: "a few human hearts" | minor (private remarks; Farmer, *Lay Bare the Heart*, 216) |
+| 851 | July 1963 | O'Dell joins the staff of *Freedomways* | lead (no day given) |
+| 851 | July 1963 | The military coup in Ecuador against President Carlos Arosemena, Levison in Quito | lead (Branch gives no day; New York Times, July 12, 1963, 1; a thread for Ecuador to check) |
+| 857 | July 21, 1963 | Levison back from Ecuador | minor (travel, private) |
+| 857 | July 24, 1963 | Levison, overheard, chuckling at the President's fear of him | minor (private remarks) |
+| 859 | Aug. 1963 | King asks Jones whether Levison understands why he does not call: "he would be rather upset if you did" | minor (private remarks) |
+| 860 | Aug. 1963 | King's private life as Jones knew it | minor (private) |
+| 862-63 | Nov. 11, 1963 | Niebuhr to Scarlett: "Your former choir boy, Barry Goldwater, is cutting a wide swath" | minor (private letter) |
+| 863 | 1963 | King to Jones, overheard: "the Goldwater surge pushes Kennedy more and more to the right" | minor (private remarks; FBI letterhead memorandum, Oct. 30, 1963) |
+| 864 | Aug. 1963 | Stories that the President would send Johnson to Scandinavia during the march | lead (New York Times, Aug. 5, 1963; Johnson's trip to check) |
+| 866 | Nov. 1963 | A federal court order ends the Americus sedition charges | lead (the day not given) |
+| 868 | Nov. 1963 | The first convictions in the Albany Nine cases | lead (the day not given) |
+| 869 | Aug. 24, 1963 | John Lewis in a tanning chair in a Westchester pool, a call from a Southern jail | minor (private) |
+| 870 | Aug. 21, 1963 | Clarence Jones to Levison from a pay phone on the book; the FBI matches the voice | minor (the book's business; witness registered, 870 n.1) |
+| 878 | Aug. 27, 1963 | Du Bois dies in Ghana; Wilkins announces it at the march | named in the check on cal.1963-08-28.march-on-washington |
+| 886 | Aug. 1963 | Motown's album of the march; bootleg records; Jones's suit for King | lead (no days given; King Papers, KP13, folder 15, KP16, folder 37) |
+| 886-87 | Aug. 28, 1963 | Levison, overheard, on King's speech: "the man of the hour for everybody" | minor (private remarks; witness registered, 886 n.4) |
+| 898-900 | Sept. 24-27, 1963 | Walker's demand for a raise; Abernathy's elevator scuffle and Septima Clark's rebuke; Walker's dismissals and first resignation; Boyte's office campaign | minor (staff and private matters) |
+| 901-2 | Oct. 1963 | Eskridge sent to find Vernon Johns at Petersburg, Va., for his sermon notebooks | minor (private) |
+| 904 | Sept. 30, 1963 | SCLC aides, overheard: O'Dell left them "high and dry," taking the mailing lists | minor (private remarks) |
+| 906 | 1963 | The FBI's view of Rometsch as a possible East German spy | named in cal.1963-08.baker (lead: the Bureau's papers) |
+| 910-11 | Sept.-Oct. 1963 | Levison back in the work on King's book: new writers, Joan Daves's complaints | minor (the book's business; FBI intercepts registered, 911 n.1) |
+| 914 | Oct. 1963 | The President to reporters of Hoover: "Boy, the dirt he has on those senators" | lead (no day given; Bradlee, *Conversations with Kennedy*, 228) |
+| 914 | May-Nov. 1963 | Hue, Quang Duc, the coup of Nov. 1 and Diệm's death | in the calendar (the Vietnam entries); Branch's paragraph a summary, not cited |
+| 916 | Nov. 1963 | Danville's planning: Greenberg to King, Nov. 7; Chase and King to W. J. Irwin of Dan River Mills, Nov. 18; Shuttlesworth to King, Nov. 7 | lead (letters only cited; the Danville thread to check) |
+| 916 | Nov. 16, 1963 | King to Jones: perpetual hiccoughs | minor (private) |
+| 917 | Nov. 20, 1963 | Robert Kennedy's birthday party at Justice | minor (social) |
+| 917-18 | Nov. 24-26, 1963 | Levison, overheard, on the funeral, Ruby and Oswald, and Johnson | minor (private remarks) |
+| 921-22 | Oct.-Dec. 1963 | SCLC's credit cards canceled; Mahalia Jackson's dentist bill | minor (housekeeping) |
 
 ## The press
 
@@ -129,6 +250,37 @@ Made page by page as the text was read: each dated event within the span Branch 
 | 1963-04-05 | Birmingham News | inside, 2 | Wallace and Shuttlesworth both complain of a "blackout of news" | 710–11 |
 | 1963-04-06 | New York Times | inside, 20 | Sitton: the Leflore County drive "has picked up momentum," a "major battleground" | 725 |
 | 1963-03-29 | New York Times | front page | "Police Loose a Dog on Negroes' Group, Minister Is Bitten," photograph under the Republican leaders (entered) | 720 |
+| 1963-04-13 | Birmingham News | inside, 2 | the white clergymen's statement under photographs of King and Abernathy marching (entered) | 737 |
+| 1963-04-13 | New York Times | front page | King's arrest; "more than a thousand shouting, singing Negroes" | 730 |
+| 1963-04-14 | Washington Post | editorial, E6 | King's campaign of "doubtful utility" (entered) | 737 |
+| 1963-04-16 | New York Times | front page | Boutwell sworn in, "like a picnic" (entered); an editorial: King "ought not to expect" enlightenment "overnight either" | 737 |
+| 1963-04-17 | Washington Star | lead editorial, A20 | "Just a Bit Phony" (entered) | 736-37 |
+| 1963-04-17 | New York Times | front page | "President Urged to Cut Off Funds for Mississippi" (entered) | 747 |
+| 1963-04-15 to 18 | Birmingham News | inside | "Washington Liberals Ponder Wisdom of Demonstrations"; "Birmingham Image Gets Better Press" | 737 |
+| 1963-04-19 | Time | magazine, 30-31 | "poorly timed protest" (entered) | 737 |
+| 1963-04-22 | Newsweek | magazine, 28-29 | Birmingham | 737 n.1 |
+| 1963-04-28 | Birmingham News | inside, 6 | "Greenwood Rolled with Punch, And Won" | 753 |
+| 1963-05-04 | New York Times | front page | three photographs two columns wide: the Gadsden dog photograph, the monitor gun, the freedom walkers dragged to jail at Fort Payne | 764 |
+| 1963-05-07 | Birmingham News | final edition, front page | Hanson's telegram to the President (entered); inside, "Negro Mobs Break Through Police: Swarm Over Downtown Area" | 777 |
+| 1963-05-07 | Chicago Defender | headline | BIGGEST MARCH STUNS BIRMINGHAM! | 771 |
+| 1963-05-07 | New York Times | front page | Sitton, "Birmingham Jails 1,000 More Negroes" | 772 |
+| 1963-05-08 | Birmingham News | headline | SIRENS WAIL, HORNS BLOW, NEGROES SING | 776 |
+| 1963-05-09 | Pravda | story | "Monstrous Crimes Among Racists in the United States" (entered) | 786 |
+| 1963-05-10 | Birmingham News | inside | "Negroes End Desegregation Campaign: Not Able to Get Charges Dropped," beside a summary of spring panty raids (entered) | 791 |
+| 1963-05-19 | New York Post | Sunday, two pages | King's "Letter from Birmingham Jail" (entered) | 804 |
+| 1963-06 | Liberation; Christian Century (June 12); The Witness; Friends; The Mennonite | covers | the "Letter from Birmingham Jail" | 804 |
+| 1963-06-10 | New York Times | front page | King: the bill wasted if the President leaves for Europe; a march on Washington (entered) | 822 |
+| 1963-06-17 | New York Times | front page | Bundy on television defends the President's trip to Europe | 841 |
+| 1963-06-23 | New York Times | front page | "Negroes Inform Kennedy of Plan for New Protests" | 840 |
+| 1963-07-03 | New York Times | inside, 8 | Max Frankel: Vietnam's makers of policy "decided long ago ... to discuss it as little as possible" | 914 |
+| 1963-07-13 | New York Times | front page | "Barnett Charges Kennedys Assist Red Racial Plot" | 853 |
+| 1963-08-29 | New York Times | front page | James Reston, "'I Have a Dream ...' Peroration by Dr. King Sums Up a Day the Capital Will Remember," five stories around two crowd photographs | 886 |
+| 1963-08-29 | Washington Post | front page | the march; Randolph's speech, no mention of King's | 886 |
+| 1963-09-01 | Atlanta Daily World | front page | the rally "forever" changed racial perceptions; King in a group photograph with the President | 886 |
+| 1963-09-20 | New York Times | front page | "Kennedy Names 2 ... Negroes Applaud Move, Drop Appeal for Troops and Accept Panel" | 895 |
+| 1963-09-24 | New York Times | front page | "Kennedy Says Birmingham Can Solve Its Own Problems" | 898 |
+| 1963-09-28 | New York Times | front page | Valachi's "underworld glossary" | 905 |
+| 1963-10-24 | New York Times | inside, 32 | the civil rights bill in committee: "For an understanding of this bizarre battle, it is helpful to look both backward and forward" | 910 |
 
 ## Leads
 
@@ -155,3 +307,29 @@ Made page by page as the text was read: each dated event within the span Branch 
 
 ### The Executive roster
 - (none this run)
+
+### States and cities (pp. 729-922)
+- Albany, Ga.: the federal court order of November 1963 ending the Americus sedition charges, and the first convictions in the Albany Nine cases, November 1963 (Branch, 866, 868). The days to find.
+- Raleigh (34 arrested), Durham (1,000), Albany (nearly 100), May 1963; Gadsden (450 renewing the Moore march), Danville (church doors broken), Albany (nearly 150), Kansas City (pickets at police stations), June 1963; Torrance, Calif., and Athens, Ga., pickets, Aug. 1963 (Branch, 806, 834, 864; New York Times, May 15, 26, May 21, 19, June 23, 62, 1963; SAC Atlanta to Director, May 31 and July 15, 1963, FBI file 157-4-2). Days to find.
+- Atlanta: Funtown closed against integrated patrons, June 1963 (Atlanta Constitution, June 17, 1963, 5, cited by Branch, 834 n.9).
+- Toledo, Ohio: a high school protest over "black students," 1963 (Jet, Oct. 3, 1963, 48, cited by Branch, 748 n.3).
+- Ohio: two men chain themselves to the legislature's gallery; Alabama: a mob stones a white preacher's home, June 1963 (New York Times, June 14, 16, June 15, 9, 1963, cited by Branch, 825).
+- Danville, Va.: SCLC's planning, Nov. 1963: Jack Greenberg to King, Nov. 7; Chase and King to W. J. Irwin of Dan River Mills, Nov. 18, 1963 (King Papers, KP31, folders 18-19, cited by Branch, 916 n.4).
+- Birmingham: "Tall Paul," the disc jockey, announcing D-Day as a "big party," early May 1963 (Branch, 755; interview with Edwin Gardner).
+- Jackson, Miss.: Thompson's committee of his own choosing and the NAACP's boycott of Citizens Council advertisers, May 1963 (Branch, 814; Evers, *For Us, the Living*); Robert Kennedy and the President receive the Jackson NAACP preachers, June 1963 (Branch, 831). Days to find.
+
+### National
+- The Robert Kennedy–Belafonte call on King's treatment in jail, Apr. 13-15, 1963 (Branch, 735): its day.
+- The White House meeting of the President with 250 religious leaders in the East Room, June 17, 1963 (Branch, 833): no entry found; the record to find.
+- The President to reporters on Hoover's files on senators, "Boy, the dirt he has on those senators," autumn 1963 (Bradlee, *Conversations with Kennedy*, 228, cited by Branch, 914 n.1). The day to find.
+- Robert Kennedy's tongue-lashings of Johnson at interagency hiring meetings, June 1963 (Schlesinger, *Robert Kennedy and His Times*, 360-61, cited by Branch, 813 n.1).
+- The President, "How the hell did this happen?", on an airman's march for Birmingham at an Air Force base in South Dakota, May 1963 (Lee White, third oral history interview, 1964, cited by Branch, 807 n.3).
+- Stories that Johnson would be sent to Scandinavia during the March on Washington (New York Times, Aug. 5, 1963, cited by Branch, 864 n.2).
+- Rockefeller's drop of thirteen points in Gallup's poll after his marriage, May 1963 (Chicago Sun-Times, May 26, 1963, 5, cited by Branch, 789 n.5): the poll's dates.
+- Works Branch cites without a card in the catalogue (registered here as study or memoir rows): Lewis, *King: A Critical Biography*; Watters, *Down to Now*; Watters and Cleghorn, *Climbing Jacob's Ladder*; Raines, *My Soul Is Rested*; Silver, *Mississippi: The Closed Society*; Kunstler, *Deep in My Heart*; Meredith, *Three Years in Mississippi*; Wilkins, *Standing Fast*; Roger Wilkins, *A Man's Life*; Farmer, *Lay Bare the Heart*; Abram, *The Day Is Short*; Whitehead, *Attack on Terror*; Viorst, *Fire in the Streets*; Manchester, *The Glory and the Dream*; Powers, *Secrecy and Power*; Allen, *Mayor*; Goreau, *Just Mahalia, Baby*; Buckley, *The Hornes*; Miller, *Lyndon*; C. King, *My Life with Martin Luther King, Jr.*; Breitman, ed., *Malcolm X Speaks*; Corley, "The Quest for Racial Harmony" (dissertation). Cards to make.
+- Press figures for a Part III entry (R13): Claude Sitton and Foster Hailey (New York Times), Pat Watters (Atlanta Journal), James Free (Birmingham News's Washington correspondent), Clarence B. Hanson (publisher, Birmingham News), C. A. Scott (Atlanta Daily World); Clark Mollenhoff has a name entry.
+- Open runs named: the Pacifica Radio Archive's tapes of 1963 (tapes 0388, 4745a, 4817, 3014); Folkways's "Birmingham, Alabama, 1963: Mass Meeting" (FH 5487) and "Movement Soul" (FD 5486); the Donald H. Smith tapes (State Historical Society of Wisconsin). Access not tested here.
+
+### Foreign
+- Ecuador: the military coup against President Carlos Arosemena, July 1963 (New York Times, July 12, 1963, 1, cited by Branch, 851 n.2); no thread for Ecuador found.
+- Rallies for Birmingham in Birmingham, England, and Havana, May 1963 (Chicago Defender, May 11, 1963, 4, cited by Branch, 806 n.9).

@@ -890,3 +890,201 @@ Foreign
   (106); the Secretary of the Army's direction of Nov. 19 (115); the April reprogramming (125); "special strike zones"
   (188); Saigon's 1966 defense budget approved Jan. 17, 1966 (132).
 - The *Muskingum* at Đà Nẵng, Oct. 30, 1964: what happened (the History has only CINCPACFLT's question).
+
+# Third run (Nov. 4, 2026): the 1968 volume, the parts left unread
+
+The batch-3 reader "macv" again (notes/briefs/batch3-resume.md), on the 1968 volume only (`w.macv-command-history-1968`).
+Patch: `inbox/2026-11-03-b3-macv-1968-3.yaml` (163 ops: 128 new entries, claimed in the ledger as b3-macv-1968-3; 35
+additive ops on entries in the tree or pending: cites, Checks, the to-check and `src` rows of the notes). New witnesses:
+`inbox/witnesses/2026-11-03-b3-macv-1968-3.yaml` (78, each a note's message, report, letter, briefing or article as the
+note gives it, the DTG read for the date, OCR's garbles of the digits and of "Msg" normalized, a lost subject marked);
+the volume's edges, `sources/witnesses/by-work/macv-command-history-1968.yaml` (81). None held or read; MACV's files are
+not open here. `./bib patch-check`: 0 errors (the warnings are same-day, same-thread entries, distinct events, R17).
+`./bib check`: 0 errors.
+
+The copies: Part 1 as the second run gives it (the offsets above; PDF 467 is p. 356: pp. 348-55, the Free World forces'
+section, are not in the copy). Part 2, printed = PDF + 559 to PDF 218, + 560 from PDF 219. Part 1 read by its text layer
+(DTIC's OCR, usable), the page image looked at for p. 50; Part 2's layer garbled throughout, so its pages read were
+OCR'd by tesseract 5 from the page images at 170 dpi (pp. 777-996). The notes are at each chapter's end; a note's pin is
+written as the text page its number stands on ("41 n.7"), as in the 1967 file (the second run's two of 1968 kept their
+form, "34 n.18"). Both copies deleted.
+
+Read in this run:
+- Part 1, Ch. III (the enemy, 37-199) by its dated paragraphs: Hanoi's leaders and statements, North Vietnam, the bloc's
+  aid, the infrastructure and the Alliance, morale, the weapons, the enemy's offensives and the attacks corps by corps.
+- Ch. IV, the RVNAF (249-344) by its dated paragraphs (the Free World section is missing from the copy).
+- Ch. V's air (402-40) and naval (441-500) operations; Ch. VI (pacification, 519-64) by its dated sentences.
+- Part 2: Ch. XI (contingency plans and studies, 777-95); Ch. XII's prisoners of war (841-59); Annex B (the barrier,
+  911-31); Annex C (the press, 935-92), whole.
+- The notes for the second run's entries on pp. 24-35 and 225-47 where the note could be told (seven entries: their
+  edges and `via` rows added by additive op); the rest of that patch's entries (Ch. V's ground pages, 380-401) not
+  registered: their note numbers could not be told reliably in the text layer.
+
+Where I stopped: not read in this run, for the next: Part 2's Chs. VII (intelligence, 569-), VIII, IX (logistics,
+-742), X (research and development, 743-76), XII's other sections (morale and welfare, R&R, the USO, security, MACONOMY:
+799-840, 860-80), Annex A (Tet in retrospect, 882-910), Annexes D and E; the Free World section (Part 1, 348-55, not in
+the copy). Ch. VI's and Ch. XI's notes are mostly op. cit. chains to the chapter's first notes (the pacification
+messages to CINCPAC; J-5's monthly histories): not registered, their entries citing the text alone.
+
+### Rulings other than "holds"
+
+| Entry | The calendar | The History | Ruling |
+|---|---|---|---|
+| `cal.1968-01-31.vietnam-tet` | thirty-six province capitals and five of six autonomous cities | 27 of 44 province capitals, 5 of 6 cities, 58 of 245 district towns, Jan. 30-31; 32,000 killed, Jan. 29-Feb. 11 (129, 131) | cited for A, C; Check |
+| `cal.1968-02-24.vietnam` | Huế retaken, the flag raised Feb. 24 | the enemy ejected from the Citadel Feb. 25 (157) | Check |
+| `cal.1968-03.vietnam-khe-sanh` | single management, "Check: the day" | the directive Mar. 10, first missions Mar. 22, in effect about Apr. 1 (437) | cited; Check |
+| `cal.1968-01.vietnam-khe-sanh` | the sensors shifted to Khe Sanh, "Check: the day" | diverted Jan. 19, first emplaced Jan. 21 (922) | cited; Check |
+| `cal.1968-12-19.vietnam` | the LCU entered Cambodian waters July 17; "Check the day of release" | July 16; released Dec. 20, the last man Jan. 6 (849) | cited; Check |
+| `cal.1968-10.vietnam-prisoners` (pending) | Mighty Yankee, October, "Check: the day" | Oct. 21 (856) | cited; Check |
+| new `cal.1968-09-22.vietnam-operations` | | 91 of the enemy killed at Hậu Đức (163) and "over 200" in the summary (163) | Check |
+| new `cal.1968-06-18.vietnam-may-offensive` | | the defection June 18, 119 confirmed (83); "140 odd" on June 4 (550) | Check |
+| new `cal.1968-02-11.vietnam-tet-2` | | Trần Độ killed Feb. 11 (73), by MACV's account | Check |
+
+Held: Lang Vei, the first armor (114); the third offensive the night of Aug. 17 (134); Meade River (165); Commando Hunt
+from Nov. 15 (411); Carroll (966-68); the release of Mar. 29 (854).
+
+### New entries
+
+128, by chapter: Hanoi's and its allies' word and acts (Hồ's appeals of July 20 and Nov. 3, Đồng's National Day speech,
+Xuân Thủy and Hà Văn Lâu at Paris, the decree on counterrevolutionary crimes, the aid agreements at Budapest, Moscow and
+Peking, Chen Yi, Peking's first notice of Paris, the Chinese troops' withdrawal reported); the Alliance of National,
+Democratic and Peace Forces (its forming, announcement, Moscow's recognition, Saigon's death sentences, the NLF's
+coalition with it), the Liberation Committees, the NLF's delegation at Paris; the enemy's directives and the third
+offensive called off; notable attacks (Jan. 2, May 28, June 11, Sept. 18, Sept. 22, Nov. 15, Nov. 17); the RVNAF's
+improvement and modernization (Thiệu's mobilization, Nitze's directive of Apr. 16, the 850,000 ceiling, Phase II and its
+acceleration), the draft, desertion; the air war (Arc Light's rates, the 45 B-52s of Jan. 30, Turnpike, Thor, the end of
+Rolling Thunder); the naval war (the four trawlers of Mar. 1, the friendly fire off Cap Lay, Clearwater, the twelfth
+Seabee battalion); pacification (Phụng Hoàng's decree and SOP, the surtax, war-risk insurance, the self-defense
+committee, the 1969 guidelines); the J-5's plans (El Paso, Pacific Grove, Vesuvius, Sauna Scrub, Điện Biên Phủ and Khe
+Sanh, T-Day, the cease-fire planning); the prisoners (the releases of Jan. 29-Feb. 16, Mar. 31, July 3-Aug. 2, Nov. 25,
+Dec. 19-25; the *Bream*; the LCU; Rowe; Saigon's release of 140; the seven seamen); the barrier (Duel Blade halted,
+closed out, Duel Blade II; Duck Blind); the press (20 entries: the *Monitor*, the *Post*'s photographs, the Marines and
+the press, the ground rules, Alsop's break of the Delaware embargo, Musgrove, the "pep talk," the combined briefings, the
+casualty-reporting proposal, Deepe, Crawford).
+
+### Passed over
+
+How the list was made: each chapter's dated paragraphs (Part 1) or dated sentences (Part 2) read in turn, page by page;
+what was not entered is a row.
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 40 | Nov. 3 | the NLF's statement of Nov. 3, quoted from the Liberation Press Agency | a lead: quoted in passing, the statement's own text not read |
+| 43 | 1968 | Nguyễn Thành Lê's briefings in Paris: the United States to recognize the NLF | no day given (in the note of Aug. 28) |
+| 46-50 | 1968 | conditions in North Vietnam: an indoctrination session's notes, the reconstruction study, the committee of 34 consultants, the census | no day given |
+| 50 | Sept. 14 | Haiphong's ship congestion at its record level; 38 cargo ships, about 28 by mid-November | figures (an observation); a lead for the war table |
+| 52 | 1968 | Hanoi asks Moscow to double its flour shipments; 22,000 metric tons a month | no day given |
+| 52-53 | 1965; Dec. 1967 | Chinese troops at Đồ Sơn; a captured colonel's statements on the Chinese | before the year, or no day given; leads |
+| 59 | Jan.-Dec. | the infiltration estimates by month (136,229 Jan. 1-Oct. 31) | figures: the war table carries infiltration |
+| 73 | Jan. 30 | the Qui Nhơn city committee's secretary and assistant secretary killed in the attack | within the Tet attacks (in the calendar); a lead |
+| 79-80 | Oct. | Đinh Bá Thi with a joint NLF and North Vietnamese delegation in France; the NLF's officials' biographies | no day given; biographies |
+| 83-84 | Sept. 8; Oct. 22; Nov. 6-12 | interrogations, an agent report and a notebook on the enemy's morale | minor: a repetition of the morale entries (Sept. 5) |
+| 88-89 | May; Sept. 28; Dec. 31 | the draft age raised to 33; a rallier and a prisoner; the enemy's strength at the year's end (259,000) | no day given; minor; figures (the war table carries enemy strength) |
+| 106-119 | Jan.-Dec. | the weapons and munitions first found or used: the 120mm mortar cache (Jan. 3-6), the 152mm dud at Khe Sanh (Jan. 24), long-delay fuzes (Jan. 23), the first 130mm component at Đông Hà (Mar. 6), 70mm howitzers at Tam Kỳ (Mar. 5), the 140mm DKB rocket (Jan. 31), the 107mm launcher (Sept. 15), tanks near Tây Ninh (Feb. 26), the Tri-Border tanks (Nov. 6), new grenades (Oct. 3), 57mm guns in the Laotian panhandle (Mar. 17), the missile near Khe Sanh (Apr. 1), CS gas (Feb. 7, 19, 26), the first limpet mine (Mar. 14), the PM-60 mine (May 16), water mines (Sept. 3, Oct. 3, Nov. 19) | not entered in this run: leads, each with its page |
+| 114 | Jan. 24 | the Royal Lao BV 33 outpost overrun by the 325C Division, its men fleeing to Lang Vei | a lead: likely in the Khe Sanh thread's days; not checked |
+| 119-21 | Jan.-Oct. | the enemy's radio deception and jamming incidents | minor: a unit's routine |
+| 125-27 | Mar. 10; Mar. 23; May 5 | captures of VC documents and agents, maps of bases | minor |
+| 140-48 | Jan.-Dec. | terror incidents by month (figures); the Đức Tôn kidnapping (June 20); the Đà Nẵng procurement office (June 13) and bus (June 26) bombings; the A Châu newspaper bombed in Cholon (July 26); the OSI residence plot (July 23); the Saigon grenade attacks (Aug. 7, 9) | figures; not entered in this run: leads, each with its page (the A Châu bombing a press event) |
+| 149-52 | Jan. 8; Jan. 10-11; Dec. 27, 1967; Jan. 15; June 13 | VC-led demonstrations at Đà Nẵng and Lai Nghi against the bombing; the circular on the truce; the letter on agents in Saigon's precincts | not entered in this run: leads |
+| 155-95 | Jan.-Dec. | the enemy's attacks corps by corps, month by month (each attack on a camp, a district town, a convoy, a fire base, with its losses) | entered where the History treats a day as notable (Jan. 2, May 28, Sept. 18, Sept. 22, Nov. 15, Nov. 17, June 11); the rest not entered in this run: leads, each with its page |
+| 249-52 | Jan. 11; Jan. 21, 1969; Feb. 24; Feb. 28; Mar. 4 | the revised FY69 and proposed FY70 force structure package (not approved); the VNAF helicopter expansion briefed; the modified plan briefed to the Chief of the JGS and the Mission Council | minor: a staff's steps toward the plans entered (Apr. 24, Oct. 4-Dec. 18) |
+| 255 | June 8; June 13 | the Joint Chiefs ask a recomputation of the equipment needed; MACV's reply | minor: a staff's routine |
+| 261-70 | Feb. 21; Mar. 14; June 25; July 16; Aug. 27; Nov. 28; Dec. 18 | the M16, M60, M79, M29, 105mm howitzer, APC and antitank-ammunition programs for the RVNAF, approvals and deliveries | not entered in this run: leads, each with its page (the approvals of Phase I, July 16 and Aug. 27, among them) |
+| 270-75 | Oct. 25, 1967; Feb. 28; Mar. 21; Apr. 30; Oct. 30; Nov. 5 | the mobilization decrees and communiques; the return of essential reservists; the Interministerial Committee's hearings; MACV on the paramilitary forces in the draft; the report period extended | not entered in this run: leads (Mar. 1 and Aug. 21 entered) |
+| 279 | Oct. 4; Oct. 8; Dec. 3 | the JGS's antidesertion directives and meeting | minor (Dec. 7 entered) |
+| 281-99 | Feb. 11; Feb. 17; Jan. 1; June 1; Aug. 31; May 6; May 10 | training resumed after Tet; Westmoreland's letter on promotions; pay raises (the RF and regulars, Jan. 1; the PF decree, June 1); the Military Academy's funds; the National Defense College opened; the Cát Lái vocational school | not entered in this run: leads |
+| 301-08 | Jan. 28; Mar. 1-5; Mar. 30; Nov. 20 | a new armored cavalry regiment authorized; the Airborne Division's expansion completed; the interpreter program | not entered in this run: leads |
+| 316-43 | Feb. 20; Apr. 4; Mar. 1; Mar. 17; June 10; Aug. 1; Feb. 3 | Westmoreland on the Saigon Naval Shipyard's pay scales; the VNN's part in the trawler's capture at Hòn Hèo; the LCMMs; the Riverine Force's PBRs; JGS Memorandum 349 on the Regional Forces | not entered in this run: leads (the trawler of Mar. 1 a lead for the naval chapter) |
+| 344-45 | 1968 | the CIDG camps converted to RF status (Bến Sỏi, Kinh Quan II); CIDG strength 45,000 | no day given |
+| 348-55 | 1968 | the Free World forces' section | not in the copy: the copy runs from p. 347 to p. 356 (its notes, 356-70, are there) |
+| 403 | Aug. 23 | the battle for Đức Lập from 0105, some 4,000 of the enemy, as the air chapter tells it | a lead: the pending entry of Aug. 23 (b3-macv-1968-2) gives two battalions; to be settled against the after-action report (n.139) |
+| 405-06, 416-17, 422, 432 | Jan.-Dec. | the sortie tables (Marine, VNAF, Rolling Thunder, Arc Light, rescue); the vehicle sightings on Routes 15, 101, 137 | figures, for the war table |
+| 406 | Jan. 9 | Seventh Air Force's message on the interdiction of 1967 | minor: a repetition |
+| 415 | Apr. 5; Apr. 10 | the F-111As of Combat Lancer released for local and night training | not entered in this run: a lead |
+| 420-21 | Feb. 22; June 19-21 | a B-52 strike in Laos, "two hours" of secondary explosions; the strikes on War Zone D | not entered in this run: leads |
+| 424-26 | Jan. 5; Jan. 9-15; Jan. 15-17; Mar. 18, 23, 24 | Niagara's planning, approval (Vientiane, Jan. 16; CINCPAC, Jan. 17) and the attacks by fire on Khe Sanh; 1,398 reconnaissance sorties | already in (Niagara, Jan. 21, and Khe Sanh); the planning days leads |
+| 431 | 1968 | Capt. Gerald O. Young's rescue mission, the Medal of Honor | a lead: the day not read |
+| 445-46 | Jan. 31; Feb. 8; Feb. 15 | an enemy swimmer captured at Cam Ranh; Stable Door in Vũng Rô Bay | minor: a unit's routine |
+| 452-53 | Jan. 11; Jan. 21; Feb. 2; Mar. 14-20; May 3 | swimmer-sapper and mining incidents on the rivers; a limpet mine captured | not entered in this run: leads |
+| 458 | Feb. 1; Feb. 12; June 10 | Game Warden's men leave their compound; Eckhardt's message to Task Force 116; chain-drag sweeping to the VNN | minor; leads |
+| 459-60 | Aug. 10, 22, 25; Sept. 7, 17; Dec. 4 | the merchant ships attacked in the channel to Saigon (*Southport*, a British tanker, *Lakewood Victory*, *Transnorther*, *Kalydon*) | not entered in this run: leads, each with its page |
+| 466-72 | Jan. 7-8; Jan. 10; Feb. 12-13; Mar. 3; Mar. 5, 14, 22; Aug. 17; Oct. 15; Dec. 5-6; Dec. 16 | the Mobile Riverine Force's operations: Dồn Nhơn, Cái Bè, Cần Thơ, the river division sent to the Cửa Việt (Mar. 9-10), the attacks on its ships, the howitzers on monitors, its reorganization, Base Area 480 | not entered in this run: leads, each with its page |
+| 474-79 | Nov. 16; Jan. 14; Mar. 30 | the Swift boats through the Rạch Giang Thành and Vĩnh Tế canals; the concrete bunkers; the first AMMI pontoon bridge | not entered in this run: leads |
+| 488-94 | Feb.; June 17; Aug. 4; July 6 | the naval gunfire ships at Huế; the gunfire priorities | minor: a staff's routine (July 6 within June 18) |
+| 500 | Jan. 2; Jan. 25-29 | the hospital ships for Chu Lai and northern I Corps | minor |
+| 939-41 | Dec. 28, 1967; Nov. 27, 1967; Jan. 10; Mar. 25-Apr. 24; May 17; June 4 | the information advisers to the RVNAF: Viên's reply, the conferences, the press course, the RVNAF's morning release; COL Trần Văn Đắc and LTC Phan Mậu presented to the press | minor: an office's routine; the defectors' presentation a lead (no day) |
+| 950-53 | Jan. 20; Feb. 11; Apr. 12; May 18; June 24; Sept. 2; Sept. 18; Nov. 6; Nov. 19; Dec. 4 | the American Forces Vietnam Network's new transmitters and stations, programs and the election coverage | minor: a unit's routine |
+| 956-59 | 1968 | Gene Roberts (New York Times) on the press and the military; Sidle on the ground rules; John Wheeler (AP) on Khe Sanh; Schlesinger and Alsop | no day given: the press lines, leads |
+| 964-65 | May 1 | III MAF's plan for embargoes; Donald Kirk's article | no day for the article (in the press lines) |
+| 968-70 | May 27; Aug. | Westmoreland's informal guidance to his commanders; the guidance on the "Third Wave"; Clifford's message nine days later praising MACV's press work | not entered in this run: leads (the days not read) |
+| 974 | July 11 | the Joint Chiefs' message on the casualty releases; Clifford on counting the eleven men of the LCU held by Cambodia | minor; a lead |
+| 977-90 | Aug.-Nov. | the press's change of tone as MACV quoted it: the anticorruption campaign, the Marines' mobility (Oct. 13), Abrams likened to Ridgway, North Vietnam's draft, the Tampa Tribune (Sept. 30) | in the press lines; leads |
+| 780-81 | early 1968 | MACV's four residual force levels (a MAAG to a MAAG and three divisions) | no day given (within Aug. and Oct. entries) |
+| 782 | Jan. 26; Feb. 8; Feb. 9 | CINCPAC's concurrence in Pacific Grove; its revival asked; the Beach Jumper units | within the entry of Feb. 3 |
+| 783 | Mar. 30; May 16; July | Sauna Scrub ordered, briefed, sent on | within the entry of Apr. 30 |
+| 783-84 | 1968 | Project New Castle (the courses of action after a full bombing halt; a force into the Laotian panhandle) | no day given: a lead (its notes) |
+| 786-88 | Feb. 11; Feb. 13; Mar. 22; May 24; May 15-June 1; Dec. 16; May; Apr. 21-July 16; May 3 | the Điện Biên Phủ study's stages; the vulnerability study; the PSYOP appraisals; the study of returning prisoners to the North; the 142-page report reviewing "both works"; the International Affairs Division | minor (staff steps) or not entered in this run: leads (the prisoner study and the report, their subjects to be read) |
+| 789-95 | Oct.; Aug. 29; July 23; Aug. 31; Dec. 31 | the cease-fire studies (a negotiating position); the RAHIB study of a full halt; the verification study; POSEC; the Long Range Planning Task Group | not entered in this run: leads |
+| 841-43 | 1968; Feb. 16-; Apr. 2 | parcels to the prisoners in the North refused; the released pilots' and the two women's debriefings | minor |
+| 847 | Dec. 30-Jan. 1969 | the PLAF's conditions for the second meeting; II Field Force's answer | within Dec. 25; the rest after the span |
+| 848-49 | May 25; May 29; June 2; June 4; July 22; July 30; Oct. 2 | the notes and statements over the *Bream* and the LCU | within the entries of May 20 and July 16 |
+| 851-59 | Mar. 24; Dec. 1, 1967; Mar. 15; May; July 31; Aug. 10; Aug. 16; Nov. 26; Jan. 16; May 16; Apr. 1 | the reporting of captured sources; the plans for the North Vietnamese prisoners' release; the ICRC's telegram to Hanoi on 40 sick and wounded; Côn Sơn's camp | minor, or within the entries made (Mar. 29, Oct. 21, Nov. 30, Dec. 16); the ICRC's telegram a lead |
+| 911-31 | June 1; Apr.; Jan. 14; Mar. 19; Jan. 28-29; July 9; Oct. 30; June 16; Aug. 25 | the barrier's code names (Muscle Shoals to Igloo White, Duck Blind); the bunkers' tests; the ARVN Dye Marker regiment and its weapons; the I Corps and III MAF meeting on Duel Blade; Duck Blind's first phase | minor (names, tests), or within the entries made; the ARVN regiment a lead |
+
+## The press (Nov. 4, the 1968 volume's Annex C)
+
+1967-09-06 | Los Angeles Times | article | ordnance developed under Project Gunfighter (as MACV listed the unauthorized releases) | 944
+1967-09-14 | Washington Post | article | the limited supply of Walleyes | 944
+1967-10-07 | UPI | wire | the new CIDG camp at Bu Prang, before its announcement | 945
+1968-01-05 | CBS | broadcast | the embargo on Fargo broken, after an interview with the unit's commander | 944
+1968-02-09 | Christian Science Monitor | article | "The credibility gap ... starts right in Saigon at the official United States press briefings" | 955
+1968-02-09 | Los Angeles Times | article | "Marines along DMZ Disturbed at Report of Takeover by Army" | 960
+1968-02-12 | Newsweek | article | Everett G. Martin, "The Devastating Effect on the People" (cited, n.16) | 993
+1968-02-19 | Washington Post | front page | "A Drink of Water--Then Death," five columns, two photographs | 958
+1968-02 | New York Times | article | Joseph B. Treaster on aircraft shortages in the 1st Cavalry Division (a ground-rules case) | 966
+1968-02/03 | AP | wire | John Wheeler on Khe Sanh's hill outposts | 958-59
+1968-03-03 | Washington Post | article | (cited, n.21: the Khe Sanh reporting; Schlesinger and Alsop) | 994
+1968-03 | Los Angeles Times | article | Bill Tuohy on the Marine leadership, "singularly unimpressive, say the critics" | 961-62
+1968-03-17 | Washington Star | article | Donald Kirk on the command arrangements in I Corps | 963
+1968-04-21 | (Joseph Alsop) | column | the embargo on Delaware broken | 964
+1968-05 | (Donald Kirk) | article | Westmoreland "convinced the press has impeded prosecution of the war" (the embargo of May 1) | 964-65
+1968-07-03 | New York Times | article | (cited, n.17) | 993
+1968-07-28 | Baltimore Sun | article | Carroll's six-month suspension, "the most severe penalty"; "extraordinarily vindictive" | 967
+1968-07-29 | Baltimore Sun | article | at least four newsmen suspended; 23 discredited in several years | 967-68
+1968-08-12 | Washington Post | article | Peter Braestrup on MACV's use of the B-52s | 977
+1968-09-02 | US News & World Report | article | Ben Price, "Did US Bungle Victory?" | 995
+1968-09-05 | Christian Science Monitor | article | Beverley Deepe on the Communists' criticism of their May offensive | 982-83
+1968-09-13 | Christian Science Monitor | article | Deepe, "Chasing Credibility in Saigon" | 983
+1968-09-30 | Tampa Tribune | editorial | "A most outspoken editorial" (the text not read off the page) | 983
+1968-10-06 | Chicago Daily News | article | (cited, n.38) | 995
+1968-10-07 | Newsweek | column | Kenneth Crawford, "Vietnam: All is Lost?" | 987
+1968-10-13 | (wire or paper not named) | article | the Marines' new mobile posture from the Bến Hải to Khe Sanh | 988
+1968-10-14 | Baltimore Sun; Christian Science Monitor | articles | (cited, nn.41-42) | 995
+1968-10-27 | New York Times | article | (cited, n.43) | 995
+1968-10-28 | Newsweek | column | Crawford, "It Started with Tet" | 987-88
+1968-11-04 | US News & World Report | article | Sol W. Sanders, "Why Communists Need a Truce" | 995
+
+## Leads (Nov. 4)
+
+National
+- Propose Part III entries (K–J Cong. III.J or Viet.) for the press figures the annex treats: Bill Tuohy (*Los Angeles
+  Times*), Donald Kirk (*Washington Star*), Peter Braestrup (*Washington Post*; a name entry wanted), John S. Carroll
+  (*Baltimore Sun*), Helen A. Musgrove (Jacksonville *Journal*), Joseph B. Treaster (*New York Times*), Gene Roberts
+  (*New York Times*), John Wheeler (AP), Everett G. Martin (*Newsweek*).
+- The 1968 volume's Annex C, its undated items: Gene Roberts's article on the press and the military; Wheeler's on Khe
+  Sanh; the Schlesinger-Alsop exchange; the *Tampa Tribune*'s editorial of Sept. 30 (983, not read off the page);
+  Clifford's message praising MACV's press work ("nine days later," 970).
+
+Foreign
+- 1968 vol., Ch. III: the weapons first found or used (106-19) and the terror incidents (140-48), each with its page;
+  the corps-by-corps attacks (155-95) not entered; the NLF's statement of Nov. 3 (40); Hanoi's flour request (52).
+- 1968 vol., Ch. IV: the weapons programs' approvals (261-70), the mobilization decrees (270-75), the RVNAF's units and
+  pay (281-308, 316-43); the Free World section (348-55) is not in the copy: another copy needed.
+- 1968 vol., Ch. V: Combat Lancer's F-111As (Apr. 5, 10); Capt. Gerald O. Young's rescue (431); the merchant ships
+  attacked in the channel to Saigon (Aug. 10-Dec. 4, 459-60); the Mobile Riverine Force's operations (466-72); Turnpike's
+  first day (407, the columns garbled); the Đức Lập battle's size (403 against the pending entry of Aug. 23).
+- 1968 vol., Ch. XI: New Castle, the prisoner study, the 142-page report, the cease-fire and verification studies, POSEC,
+  the Long Range Planning Task Group (783-95): their days and subjects in J-5's monthly histories (the notes).
+- 1968 vol., Ch. XII: the ICRC's telegram to Hanoi on 40 sick and wounded prisoners, Jan. 16 (859); Sgt. Buddy Wright's
+  escape, Sept. 22 (849).
+- The 1968 volume's unread chapters and annexes (above, "Where I stopped").
