@@ -9,13 +9,14 @@ entries:
     thread: mississippi-ole-miss
     also: [right-and-the-military, desegregation-schools]
     c: Meredith registers. Troops in Oxford. Walker arrested for insurrection; sent for psychiatric examination.
-    n: '*United States v. Barnett*, [376 U.S. 681](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf), 686 (1964). [[w.sorensen-kennedy]], 487 (Meredith registers; the troops); [[w.mann-walls-of-jericho]], 332 (Meredith registered; 23,000 troops; Walker at the monument the night before). See [[cal.1962-09-27.mississippi]]. Names: Meredith, Walker.'
+    n: '*United States v. Barnett*, [376 U.S. 681](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf), 686 (1964). [[w.sorensen-kennedy]], 487 (Meredith registers; the troops); [[w.mann-walls-of-jericho]], 332 (Meredith registered; 23,000 troops; Walker at the monument the night before); [[w.branch-parting-the-waters]], 670. See [[cal.1962-09-27.mississippi]]. Names: Meredith, Walker.'
     src:
       c: 9f872ca1
       rows:
         - 'https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf: all'
         - 'w.sorensen-kennedy 487: A-B'
         - 'w.mann-walls-of-jericho 332: A-B'
+        - 'w.branch-parting-the-waters 670: A-B'
     tags: [name:walker-edwin-a, name:meredith-james-h]
   - id: cal.1962-10-01.transition-and-staff
     when: Oct. 1
@@ -93,6 +94,18 @@ entries:
         - 'via w.fursenko-one-hell-of-a 217 n.2a: D'
         - 'via w.fursenko-one-hell-of-a 217 n.2b: D'
     tags: [name:mcnamara-robert-s, name:taylor-maxwell, name:castro-fidel]
+  - id: cal.1962-10-02.mississippi-ole-miss
+    when: Oct. 2
+    date: '1962-10-02'
+    thread: mississippi-ole-miss
+    c: 'Mississippi blames the riot on "trigger-happy marshals." Eastland: the marshals "provoked the students and others."'
+    n: '[[w.branch-parting-the-waters]], 670. To check: New York Times, Oct. 2, 1962, 1, 25 (cited by [[w.branch-parting-the-waters]], 670 n.3). Check: the day. Names: Eastland.'
+    src:
+      c: cfe96fa8
+      rows:
+        - 'w.branch-parting-the-waters 670: all'
+        - 'via w.branch-parting-the-waters 670 n.3: B'
+    tags: [name:eastland-james-o, state:ms]
   - id: cal.1962-10-03.space
     when: Oct. 3
     date: '1962-10-03'
@@ -383,6 +396,19 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/STATUTE-76/pdf/STATUTE-76-Pg872.pdf: A'
         - 'w.sorensen-kennedy 411–12: A'
     tags: [name:herter-christian-a, name:kennedy-john-f, bill:trade-1962]
+  - id: cal.1962-10-11.mississippi-ole-miss
+    when: Oct. 11
+    date: '1962-10-11'
+    thread: mississippi-ole-miss
+    also: [defense]
+    c: 'Night. Some ten thousand troops at Oxford turn out for a riot alarm: a sorority''s serenade. Some 23,000 soldiers in the town at the peak; the last five hundred leave late in the summer of 1963.'
+    n: '[[w.branch-parting-the-waters]], 670–71. To check: Vanderburgh, "A Draftee''s Diary from the Mississippi Front," Harper''s, Feb. 1964 (cited by [[w.branch-parting-the-waters]], 670 n.2). See [[cal.1962-10-01.mississippi]].'
+    src:
+      c: 9d0e5193
+      rows:
+        - 'w.branch-parting-the-waters 670–71: all'
+        - 'via w.branch-parting-the-waters 670 n.2: A'
+    tags: [state:ms, city:oxford-ms]
   - id: cal.1962-10-12.latin-america-panama
     when: Oct. 12
     date: '1962-10-12'
@@ -1794,3 +1820,14 @@ entries:
       rows:
         - 'w.novak-agony-of-the-g 126: all'
     tags: [name:white-f-clifton, name:goldwater-barry-m, city:chicago]
+  - id: cal.1962-10.alabama-birmingham
+    when: Oct.
+    date: 1962-10
+    thread: alabama-birmingham
+    c: After SCLC leaves, a Birmingham judge orders a referendum in November on the mayor-council government. Connor's men tell the downtown stores they are in violation of the city's ordinances; the "Whites Only" signs go back up one by one.
+    n: '[[w.branch-parting-the-waters]], 656. Check: the days. See [[cal.1962-09.alabama-birmingham]]; [[cal.1962-11-06.alabama-birmingham]]. Names: Connor.'
+    src:
+      c: b4ba5e78
+      rows:
+        - 'w.branch-parting-the-waters 656: all'
+    tags: [name:connor-eugene, state:al, city:birmingham]

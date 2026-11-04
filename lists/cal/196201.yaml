@@ -56,12 +56,13 @@ entries:
     thread: king
     also: [robert-kennedy]
     c: 'The FBI to Robert Kennedy, a report: one of King''s advisers, Stanley Levison, "a member of the Communist Party, USA." The Bureau''s first word to him of Communist influence in SCLC.'
-    n: '[S. Rep. No. 94-755, Book III, 88 (1976)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf#page=91) (K–J Adm. II.H.3). [[w.schlesinger-robert-kennedy-and-his]], 353. Made public: S. Rep. No. 94-755, Book III (1976). Names: Robert Kennedy, Levison, Martin Luther King. Check: the Committee''s note cites Hoover''s memorandum to the Attorney General of Jan. 5.'
+    n: '[S. Rep. No. 94-755, Book III, 88 (1976)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf#page=91) (K–J Adm. II.H.3). [[w.schlesinger-robert-kennedy-and-his]], 353; [[w.branch-parting-the-waters]], 564 (dated Jan. 8; the Communists'' "access," through King, to the Attorney General and the White House). Made public: S. Rep. No. 94-755, Book III (1976). Names: Robert Kennedy, Levison, Martin Luther King. Check: the Committee''s note cites Hoover''s memorandum to the Attorney General of Jan. 5.'
     src:
       c: cce784ca
       rows:
         - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf#page=91: all'
         - 'w.schlesinger-robert-kennedy-and-his 353: A'
+        - 'w.branch-parting-the-waters 564: A'
     tags: [name:kennedy-robert-f, name:levison-stanley-d, name:king-martin-luther-jr, name:hoover-j-edgar]
   - id: cal.1962-01-08.soviet-union
     when: Jan. 8
@@ -76,6 +77,32 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 5–6, 412–16: all'
         - 'via w.fursenko-khrushchevs-cold-war 412 n.10: all'
     tags: [name:khrushchev-nikita-s, name:kennedy-john-f, name:eisenhower-dwight-d, name:mikoyan-anastas]
+  - id: cal.1962-01-08.alabama-birmingham
+    when: Jan. 8
+    date: '1962-01-08'
+    thread: alabama-birmingham
+    also: [court]
+    c: The Supreme Court declines to review Shuttlesworth's conviction for riding in the front of a Birmingham bus in 1958, the ordinance since struck down; his lawyers had not filed the trial transcript within the sixty days Alabama law allows.
+    n: '[[w.branch-parting-the-waters]], 570. To check: New York Times, Jan. 9, 1962, 20; Kunstler, *Deep in My Heart*, 80–84 (cited by [[w.branch-parting-the-waters]], 570 n.1). Check: the case. Names: Shuttlesworth.'
+    src:
+      c: 1ca22c2d
+      rows:
+        - 'w.branch-parting-the-waters 570: all'
+        - 'via w.branch-parting-the-waters 570 n.1a: all'
+        - 'via w.branch-parting-the-waters 570 n.1b: all'
+    tags: [name:shuttlesworth-fred, state:al, city:birmingham]
+  - id: cal.1962-01-08.alabama-birmingham-2
+    when: Jan. 8
+    date: '1962-01-08'
+    thread: alabama-birmingham
+    c: 'Shuttlesworth, flown in from Cincinnati, at the night''s mass meeting, on his lawyers, Arthur Shores and Orzell Billingsley: "My Calhouns." "From now on, I am telling the lawyers how to fight my cases."'
+    n: '[[w.branch-parting-the-waters]], 570. To check: Birmingham police surveillance notes, mass meeting of Jan. 8, 1962, Birmingham Public Library (cited by [[w.branch-parting-the-waters]], 570 n.2). See [[cal.1962-01-08.alabama-birmingham]]. Names: Shuttlesworth, Shores.'
+    src:
+      c: 224de03e
+      rows:
+        - 'w.branch-parting-the-waters 570: all'
+        - 'via w.branch-parting-the-waters 570 n.2: all'
+    tags: [name:shuttlesworth-fred, name:shores-arthur-d, state:al, city:birmingham]
   - id: cal.1962-01-10.congress
     when: Jan. 10
     date: '1962-01-10'
@@ -166,6 +193,33 @@ entries:
         - 'via w.mann-grand-delusion 255 n.1: A, D-F'
         - 'via w.mann-grand-delusion 256 n.4: C'
     tags: [name:nolting-frederick-e-jr, name:morse-wayne, name:capehart-homer-e]
+  - id: cal.1962-01-12.civil-rights-organizations
+    when: Jan. 12
+    date: '1962-01-12'
+    thread: civil-rights-organizations
+    also: [press-and-broadcasting, king]
+    c: '*Time*, "Confused Crusade." Wilkins on SNCC: "They don''t take orders from anybody; they don''t consult anybody ... When the headlines are gone, the issues still have to be settled in court." King: "a mistake to try ... to throw the students out of the movement." Anonymous SNCC leaders on King''s status-seeking and his leaving the Albany jail; Forman pictured among four national leaders. Levison''s letter of Jan. 11 in protest, unpublished.'
+    n: '[[w.branch-parting-the-waters]], 557–58. To check: "Confused Crusade," Time, Jan. 12, 1962, 15 (cited by [[w.branch-parting-the-waters]], 557 n.5); Levison to Time, Jan. 11, 1962, SCLC Papers, box 36, King Library and Archives (cited by [[w.branch-parting-the-waters]], 558 n.1). See [[cal.1961-12-24.civil-rights-organizations]]. Names: Wilkins, Martin Luther King, Forman, Levison.'
+    src:
+      c: b83e2201
+      rows:
+        - 'w.branch-parting-the-waters 557–58: all'
+        - 'via w.branch-parting-the-waters 557 n.5: A-D'
+        - 'via w.branch-parting-the-waters 558 n.1: E'
+    tags: [name:wilkins-roy, name:king-martin-luther-jr, name:forman-james, name:levison-stanley-d]
+  - id: cal.1962-01-12.voting-rights
+    when: Jan. 12
+    date: '1962-01-12'
+    thread: voting-rights
+    also: [civil-rights-organizations]
+    c: Whitney Young of the Urban League to Leslie Dunbar of the Southern Regional Council. He will not join a public announcement of the Voter Education Project, dissatisfied with the League's expected share of the money.
+    n: '[[w.branch-parting-the-waters]], 579. To check: Young to Dunbar, Jan. 12, 1962, King Papers, box 22 (cited by [[w.branch-parting-the-waters]], 579 n.3). Names: Whitney Young.'
+    src:
+      c: 198c69de
+      rows:
+        - 'w.branch-parting-the-waters 579: all'
+        - 'via w.branch-parting-the-waters 579 n.3: all'
+    tags: [name:young-whitney-m-jr]
   - id: cal.1962-01-13.vietnam
     when: Jan. 13
     date: '1962-01-13'
@@ -222,6 +276,18 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v07/d120: all'
         - 'w.preston-war-council 57: A'
     tags: [name:kaysen-carl, name:kennedy-john-f]
+  - id: cal.1962-01-15.king
+    when: Jan. 15
+    date: '1962-01-15'
+    thread: king
+    also: [civil-rights-the-executive, alabama-birmingham]
+    c: King wires Robert Kennedy for an appointment, to ask the Justice Department's intervention for Shuttlesworth. Burke Marshall answers by telephone; the Attorney General will not see him on it.
+    n: '[[w.branch-parting-the-waters]], 570. See [[cal.1962-01-08.alabama-birmingham]]. Names: Martin Luther King, Robert Kennedy, Shuttlesworth, Burke Marshall.'
+    src:
+      c: '74431528'
+      rows:
+        - 'w.branch-parting-the-waters 570: all'
+    tags: [name:king-martin-luther-jr, name:kennedy-robert-f, name:shuttlesworth-fred, name:marshall-burke]
   - id: cal.1962-01-16.middle-east
     when: Jan. 16
     date: '1962-01-16'
@@ -241,6 +307,31 @@ entries:
         - 'w.zelizer-taxing-america 220: all'
         - 'via w.zelizer-taxing-america 220 n.37: all'
     tags: [name:mills-wilbur-d]
+  - id: cal.1962-01-16.freedom-rides
+    when: Jan. 16
+    date: '1962-01-16'
+    thread: freedom-rides
+    also: [alabama]
+    c: Birmingham. Judge Hobart Grooms sentences six men who admitted the FBI's charges in the burning of the Freedom Riders' bus outside Anniston, Ala., in May. Five a year's probation; the sixth a term concurrent with one for burglary. None to jail.
+    n: '[[w.branch-parting-the-waters]], 570. To check: New York Times, Jan. 17, 1962, 62 (cited by [[w.branch-parting-the-waters]], 570 n.4). See [[cal.1961-05-14.freedom-rides]].'
+    src:
+      c: 0660fdf8
+      rows:
+        - 'w.branch-parting-the-waters 570: all'
+        - 'via w.branch-parting-the-waters 570 n.4: all'
+    tags: [state:al, city:birmingham]
+  - id: cal.1962-01-16.alabama-birmingham
+    when: Jan. 16
+    date: '1962-01-16'
+    thread: alabama-birmingham
+    c: At night, dynamite damages three Birmingham Negro churches that had held mass meetings, Shuttlesworth's old church among them. A policeman driving by the third hurt by the blast.
+    n: '[[w.branch-parting-the-waters]], 570–71. To check: New York Times, Jan. 17, 1962, 15 (cited by [[w.branch-parting-the-waters]], 570 n.5). Names: Shuttlesworth.'
+    src:
+      c: 2c8e990e
+      rows:
+        - 'w.branch-parting-the-waters 570–71: all'
+        - 'via w.branch-parting-the-waters 570 n.5: all'
+    tags: [name:shuttlesworth-fred, state:al, city:birmingham]
   - id: cal.1962-01-17.program
     when: Jan. 17
     date: '1962-01-17'
@@ -368,6 +459,19 @@ entries:
         - 'w.fursenko-one-hell-of-a 148, 150: all'
         - 'w.shesol-mutual-contempt 128: B'
     tags: [name:kennedy-robert-f, name:lansdale-edward-g, name:kennedy-john-f]
+  - id: cal.1962-01-19.voting-rights
+    when: Jan. 19
+    date: '1962-01-19'
+    thread: voting-rights
+    also: [king]
+    c: King to Dunbar. For diplomacy, Wilkins should be the face of any announcement of the Voter Education Project. Wilkins declines.
+    n: '[[w.branch-parting-the-waters]], 579. To check: King to Dunbar, Jan. 19, 1962, King Papers, box 22 (cited by [[w.branch-parting-the-waters]], 579 n.4). See [[cal.1962-01-12.voting-rights]]. Names: Martin Luther King, Wilkins.'
+    src:
+      c: db17a740
+      rows:
+        - 'w.branch-parting-the-waters 579: all'
+        - 'via w.branch-parting-the-waters 579 n.4: A'
+    tags: [name:king-martin-luther-jr, name:wilkins-roy]
   - id: cal.1962-01-21.vietnam
     when: Jan. 21
     date: '1962-01-21'
@@ -394,6 +498,20 @@ entries:
     c: OAS foreign ministers meet at Punta del Este, on Cuba; Rusk for the United States.
     n: '[FRUS vol. 12](https://history.state.gov/historicaldocuments/frus1961-63v12). To check: [[w.rabe-most-dangerous-area-in]]. See [[cal.1961-03-13.latin-america]]. Names: Rusk.'
     tags: [name:rusk-dean]
+  - id: cal.1962-01-22.civil-rights-the-executive
+    when: Jan. 22
+    date: '1962-01-22'
+    thread: civil-rights-the-executive
+    also: [alabama-birmingham]
+    c: 'Burke Marshall to King, after their call: the Constitution limiting federal police powers, he has "not been able to discern any basis upon which this Department might possibly intervene in the cases" of Shuttlesworth. A memorandum to Robert Kennedy the same day.'
+    n: '[[w.branch-parting-the-waters]], 570. To check: Marshall to King, Jan. 22, 1962, King Papers, box 24, King Library and Archives; Marshall to Robert Kennedy, Jan. 22, 1962, Box 16, Burke Marshall Papers, JFK Library (cited by [[w.branch-parting-the-waters]], 570 n.3). See [[cal.1962-01-15.king]]. Names: Burke Marshall, Martin Luther King, Shuttlesworth, Robert Kennedy.'
+    src:
+      c: 0787db53
+      rows:
+        - 'w.branch-parting-the-waters 570: all'
+        - 'via w.branch-parting-the-waters 570 n.3a: B'
+        - 'via w.branch-parting-the-waters 570 n.3b: A'
+    tags: [name:marshall-burke, name:king-martin-luther-jr, name:shuttlesworth-fred, name:kennedy-robert-f]
   - id: cal.1962-01-23.right-and-the-military
     when: Jan. 23
     date: '1962-01-23'
@@ -439,11 +557,12 @@ entries:
     thread: antisubversion
     also: [civil-rights-organizations]
     c: 'Hoover to the House Appropriations subcommittee: the Communist Party "alert to capitalize on every possible issue or event which could be used to exploit the American Negro," infiltrating "the legitimate Negro organizations."'
-    n: '[[w.navasky-kennedy-justice]], 150 (the testimony quoted). Names: Hoover. Check: the printed hearing (House Appropriations, Departments of State, Justice, the Judiciary, fiscal 1963).'
+    n: '[[w.navasky-kennedy-justice]], 150 (the testimony quoted); [[w.branch-parting-the-waters]], 564 (the testimony, in January). Check: Branch, 564, quotes Hoover to a House committee, the month after Kennedy''s word to Brandon, on the party, "a Trojan Horse of rigidly disciplined fanatics," and has him name Levison in confidence to the members and to some Senators as a secret party member and King''s adviser (citing the New York Times, July 3, 1962, 27, and Navasky, 37). Names: Hoover. Check: the printed hearing (House Appropriations, Departments of State, Justice, the Judiciary, fiscal 1963).'
     src:
       c: 827bd21b
       rows:
         - 'w.navasky-kennedy-justice 150: all'
+        - 'w.branch-parting-the-waters 564: A'
     tags: [name:hoover-j-edgar]
   - id: cal.1962-01-25.trade
     when: Jan. 25
@@ -465,6 +584,30 @@ entries:
     c: Montana. Governor Nutter killed with five others when a National Guard C-47, flying him to Cut Bank, Mont., loses a wing in high winds and crashes in Wolf Creek Canyon, north of Helena, Mont. Babcock, the lieutenant governor, succeeds.
     n: '[Wikipedia, "Donald Grant Nutter"](https://en.wikipedia.org/wiki/Donald_Grant_Nutter); [Wikipedia, "Tim Babcock"](https://en.wikipedia.org/wiki/Tim_Babcock). To check: [[w.malone-montana]]. See [[cal.1960-06-07.governors-mt]]. Names: Nutter, Babcock.'
     tags: [state:mt, name:nutter-donald-g, name:babcock-tim-m]
+  - id: cal.1962-01-25.alabama-birmingham
+    when: Jan. 25
+    date: '1962-01-25'
+    thread: alabama-birmingham
+    c: Shuttlesworth and the Reverend J. S. Phifer, his companion in the bus test of 1958, surrender at the Birmingham city jail to serve their sentences, Shuttlesworth's ninety days.
+    n: '[[w.branch-parting-the-waters]], 570–71. See [[cal.1962-01-08.alabama-birmingham]]. Names: Shuttlesworth.'
+    src:
+      c: daada7cb
+      rows:
+        - 'w.branch-parting-the-waters 570–71: all'
+    tags: [name:shuttlesworth-fred, state:al, city:birmingham]
+  - id: cal.1962-01-25.king
+    when: Jan. 25
+    date: '1962-01-25'
+    thread: king
+    also: [alabama-birmingham, civil-rights-the-executive]
+    c: 'King to Robert Kennedy, by telegram, for Shuttlesworth''s protection in jail: "It is clear that hundreds of segregationists, in and out of jail, would like nothing better than to do bodily harm to the Rev. Mr. Shuttlesworth." Wyatt Walker to Birmingham.'
+    n: '[[w.branch-parting-the-waters]], 571. To check: King''s telegram, Jan. 25, 1962, as Jet, Feb. 8, 1962, 46, quotes it (cited by [[w.branch-parting-the-waters]], 571 n.3). See [[cal.1962-01-25.alabama-birmingham]]. Names: Martin Luther King, Robert Kennedy, Shuttlesworth.'
+    src:
+      c: 799a1001
+      rows:
+        - 'w.branch-parting-the-waters 571: all'
+        - 'via w.branch-parting-the-waters 571 n.3: A'
+    tags: [name:king-martin-luther-jr, name:kennedy-robert-f, name:shuttlesworth-fred, state:al]
   - id: cal.1962-01-26.press-and-broadcasting
     when: Jan. 26
     date: '1962-01-26'
@@ -478,6 +621,19 @@ entries:
         - 'w.shesol-mutual-contempt 74: all'
         - 'via w.shesol-mutual-contempt 74 n.phenomenon: all'
     tags: [name:kennedy-robert-f]
+  - id: cal.1962-01-26.civil-rights-organizations
+    when: Jan. 26
+    date: '1962-01-26'
+    thread: civil-rights-organizations
+    also: [alabama-birmingham]
+    c: Twenty-eight civil rights organizations, a joint telegram to Robert Kennedy for Shuttlesworth's protection, by SCLC's release.
+    n: '[[w.branch-parting-the-waters]], 571. To check: SCLC press release, Jan. 26, 1962, King Papers, box 22, King Library and Archives (cited by [[w.branch-parting-the-waters]], 571 n.4). See [[cal.1962-01-25.king]]. Names: Robert Kennedy, Shuttlesworth.'
+    src:
+      c: 0cfa465e
+      rows:
+        - 'w.branch-parting-the-waters 571: all'
+        - 'via w.branch-parting-the-waters 571 n.4: all'
+    tags: [name:kennedy-robert-f, name:shuttlesworth-fred]
   - id: cal.1962-01-27.specials
     when: Jan. 27
     date: '1962-01-27'
@@ -679,3 +835,55 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 424–25: all'
         - 'via w.fursenko-khrushchevs-cold-war 425 n.37: A'
     tags: [name:souphanouvong, name:khrushchev-nikita-s]
+  - id: cal.1962-01.elections-1962
+    when: Jan.
+    date: 1962-01
+    thread: elections-1962
+    also: [mississippi]
+    c: 'Jackson, Miss. The Reverend R. L. T. Smith, a Negro, announces on television for Congress: "We can''t lose."'
+    n: '[[w.branch-parting-the-waters]], 560. To check: Jet, Jan. 25, 1962, 18ff. (cited by [[w.branch-parting-the-waters]], 560 n.3). Check: the day. See [[cal.1961-12.mississippi-2]].'
+    src:
+      c: bd7cdc01
+      rows:
+        - 'w.branch-parting-the-waters 560: all'
+        - 'via w.branch-parting-the-waters 560 n.3: all'
+    tags: [state:ms, city:jackson]
+  - id: cal.1962-01-31.alabama-birmingham
+    when: Jan. 31
+    date: '1962-01-31'
+    thread: alabama-birmingham
+    c: 'Connor, having denied that the church bombings were racial: "We know that Negroes did it."'
+    n: '[[w.branch-parting-the-waters]], 571. To check: New York Times, Feb. 1, 1962, 17 (cited by [[w.branch-parting-the-waters]], 571 n.1). Check: the day; the Times''s report of Feb. 1. See [[cal.1962-01-16.alabama-birmingham]]. Names: Connor.'
+    src:
+      c: 4929cd6e
+      rows:
+        - 'w.branch-parting-the-waters 571: all'
+        - 'via w.branch-parting-the-waters 571 n.1: all'
+    tags: [name:connor-eugene, state:al, city:birmingham]
+  - id: cal.1962-01.alabama-al
+    when: Jan.
+    date: 1962-01
+    thread: alabama
+    also: [elections-1962]
+    c: Connor announces for governor. Among his first acts in office, he pledges, a hundred new police dogs for any Freedom Riders who come into Alabama.
+    n: '[[w.branch-parting-the-waters]], 571. To check: Nation, May 5, 1962, 399 (cited by [[w.branch-parting-the-waters]], 571 n.2). Check: the day; Branch puts it with Connor''s word on the bombings. Names: Connor.'
+    src:
+      c: 2c8b95c7
+      rows:
+        - 'w.branch-parting-the-waters 571: all'
+        - 'via w.branch-parting-the-waters 571 n.2: B'
+    tags: [name:connor-eugene, state:al]
+  - id: cal.1962-01.civil-rights-organizations
+    when: Jan.
+    date: 1962-01
+    thread: civil-rights-organizations
+    also: [voting-rights]
+    c: King asks O'Dell to commute between New York and SCLC's Atlanta office, to run its voter registration as he ran the mail. Andrew Young, from the National Council of Churches, goes South as the Field Foundation's supervisor of Septima Clark's citizenship schools, moved from Highlander to SCLC under the Council's sponsorship; the school at Dorchester, near Savannah, Ga.
+    n: '[[w.branch-parting-the-waters]], 575–76. To check: Young to King, Mar. 24, 1961, King Papers, Boston University; Young to Robert Spike, Apr. 25, 1961, Highlander Papers, State Historical Society of Wisconsin (cited by [[w.branch-parting-the-waters]], 575 nn.1, 5); [[w.garrow-fbi-and-martin-luther]], 28, 237 (cited by [[w.branch-parting-the-waters]], 575 n.2). Check: the day. Names: Martin Luther King, O''Dell, Andrew Young.'
+    src:
+      c: 9d6df17f
+      rows:
+        - 'w.branch-parting-the-waters 575–76: all'
+        - 'via w.branch-parting-the-waters 575 n.1: B'
+        - 'via w.branch-parting-the-waters 575 n.5: B'
+    tags: [name:king-martin-luther-jr, name:odell-jack-h, name:young-andrew-j-jr]
