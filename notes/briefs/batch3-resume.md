@@ -112,7 +112,7 @@ fursenko-cold-war-2, dobrynin-2, mcnamara-2 (with the defense reader's `inbox/wi
 califano-2, califano-3, mcpherson-2 (`inbox/merged/`). No pending file for humphrey-2, dobrynin-2, califano-3. The same
 practice as before; for the next merger:
 
-- The "one event?" flags, some 450, read pair by pair (helper: `dups2.py` in the scratchpad's `merge2/`: each flagged
+- The "one event?" flags, some 350, read pair by pair (helper: `dups2.py` in the scratchpad's `merge2/`: each flagged
   entry with its three likeliest neighbors). Kept apart: distinct acts of one day or month (a call apart from the
   meeting, two memoranda, two cables). Combined (the tree's or older id kept, the other its alias; c and n joined by
   hand, the map rebuilt against the new units): Humphrey's visit turned back at the White House (the reader's own
