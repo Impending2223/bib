@@ -397,6 +397,9 @@ CQ Weekly Report, 1968-08-16:
 ### Navasky, *Kennedy Justice* (batch 3, Oct. 29, 2026; notes/book-checks/navasky-kennedy-justice.md)
 - Marshall's Huntsville meeting (1962) and Ramsey Clark's at Mobile (August 1963, 222); Kennedy's telegram to Pritchett (Albany, 1961, 207); the Taconic meetings on the Voter Education Project (spring 1961, 207).
 
+### Sorensen, *Kennedy* (batch 3, Oct. 29, 2026; notes/book-checks/sorensen-kennedy.md)
+- The Haywood and Fayette counties evictions, Tennessee (Sorensen, 479): the days.
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -1379,6 +1382,9 @@ Rights in Conflict (Walker Report):
 - Nixon's nightly telecasts of the last week, at Dewey's suggestion (364): the days, from APP's list (`cal.1960-10-31.elections-1960-2`, with a Check).
 - Which Toledo text of Oct. 26, 1960 carries the testing pledge (APP lists two).
 - *Six Crises*: the day of publication (March 1962) and the first printing's p. 354, set before the White House's statement of Mar. 20, 1962.
+
+### Sorensen, *Kennedy* (batch 3, Oct. 29, 2026; notes/book-checks/sorensen-kennedy.md)
+- Undated or not verified in the book: Powell on Kennedy "soft" on Communism before the New Hampshire primary, Mar. 1960 (133); the Kennedy–Humphrey television debate in West Virginia, May 1960 (140; its day); Byrd's endorsement of Humphrey, May 1960 (141); Mrs. Roosevelt and Humphrey's switch to Stevenson, convention week (155); Kennedy at Hyde Park and Independence, summer 1960 (170); the SAC briefing at Omaha, late Aug. 1960 (187, 612); the networks' offer of debates and the acceptances (196); the USIA's prestige polls given the *Times* (203); the New York speech on Quemoy and Matsu (204); the Puerto Rican bishops' pastoral letter (209); Sorensen at the Norris Centennial, 1961 (262); Baring's demand for dismissals (260); the Kennedy–Johnson disability agreement (267); the directive on the ambassadors' authority, perhaps the letter of May 29, 1961 (278); Burke's speech toned down, Jan. 1961 (286); the television interview before the Bay of Pigs (296); Byrd's birthday picnic (345); Schlesinger's memorandum on midterm campaigning, 1962 (353); the press conference on the clergy, 1961 (360); Criswell, the POAU and Cushing on the school bill (363); the veto of the District's obscene-publications bill (364); the *Times* story on eastern Kentucky and the relief program, Oct. 1963 (404); the margin requirements cut, July 1962 (424); the Communications Workers in the Rose Garden, Feb. 1962 (438); Kennedy with Blough, Sept. 1961 (445).
 
 ## Foreign
 
@@ -2364,6 +2370,9 @@ CQ Weekly Report, 1968-08-30:
 
 ### Rusk, *As I Saw It* (batch 3, Oct. 29, 2026; notes/book-checks/rusk-as-i-saw-it-1990.md)
 - Herter's MRBM offer, Dec. 1960 (Rusk 263); the Angola vote, Mar. 1961 (Rusk 274); Zhou's statement, May 10, 1966 (Rusk 289); Rusk to Dobrynin before the invasion, July 1968 (Rusk 361; FRUS 1964–68, XVII); Rusk at the General Assembly, Oct. 1968 (Rusk 361–62); Rusk's eyes-only cable, mid-Dec. 1966 (Rusk 468); Rusk at Montevideo, Nov. 1965 (Rusk 571); Johnson's recognition of the Dominican junta, Dec. 1963 (Rusk 370).
+
+### Sorensen, *Kennedy* (batch 3, Oct. 29, 2026; notes/book-checks/sorensen-kennedy.md)
+- The General Assembly's resolution on weapons in orbit, Oct. 17, 1963 (Sorensen, 743): an entry.
 
 ## The Executive roster
 

@@ -61,7 +61,12 @@ entries:
     date: '1962-11-06'
     thread: elections-1962
     c: Midterms. Democrats lose a few House seats, gain in the Senate. Brown beats Nixon. Romney, Scranton, Rockefeller elected governor; Edward Kennedy, McGovern, Bayh to the Senate.
-    n: '[*Statistics of the Congressional Election of November 6, 1962*](https://clerk.house.gov/member_info/electionInfo/1962election.pdf) (Clerk of the House, 1963). See [[cal.1962-05-05.elections-1962]]. Names: Brown, Nixon, Romney, Scranton, Rockefeller, Edward M. Kennedy, McGovern, Bayh.'
+    n: '[*Statistics of the Congressional Election of November 6, 1962*](https://clerk.house.gov/member_info/electionInfo/1962election.pdf) (Clerk of the House, 1963). [[w.sorensen-kennedy]], 354 (the House and Senate results). See [[cal.1962-05-05.elections-1962]]. Names: Brown, Nixon, Romney, Scranton, Rockefeller, Edward M. Kennedy, McGovern, Bayh.'
+    src:
+      c: 7eadd919
+      rows:
+        - 'https://clerk.house.gov/member_info/electionInfo/1962election.pdf: all'
+        - 'w.sorensen-kennedy 354: A-B'
     tags: [election:1962, name:nixon-richard-m, name:scranton-william-w, name:rockefeller-nelson, name:kennedy-edward-m, name:mcgovern-george, name:bayh-birch, name:brown-edmund-g, name:romney-george-w]
   - id: cal.1962-11-06.governors
     when: Nov. 6
@@ -666,12 +671,23 @@ entries:
         - 'via w.schlesinger-robert-kennedy-and-his 526 n.128: all'
         - 'w.fursenko-one-hell-of-a 307: B-C'
     tags: [name:kennedy-robert-f, name:bolshakov-georgi, name:kennedy-john-f]
+  - id: cal.1962-11-19.civil-rights-the-executive
+    when: Nov. 19
+    date: '1962-11-19'
+    thread: civil-rights-the-executive
+    c: 'The White House, at night. Kennedy with Justice and White House aides settles the housing order''s terms: voluntary for housing already built and for conventional mortgages; a committee in the Executive Office under Lawrence, Pennsylvania''s retiring governor.'
+    n: '[[w.sorensen-kennedy]], 482. The order: [[cal.1962-11-20.civil-rights-the-executive]]. See [[cal.1961-11-24.civil-rights-the-executive]]. Names: Kennedy, Lawrence.'
+    src:
+      c: c667a7cc
+      rows:
+        - 'w.sorensen-kennedy 482: all'
+    tags: [name:kennedy-john-f, name:lawrence-david-l]
   - id: cal.1962-11-20.missile-crisis-2
     when: Nov. 20
     date: '1962-11-20'
     thread: missile-crisis
     c: 'Khrushchev: the IL-28s out within a month, with the Soviet personnel who serve them.'
-    n: 'FRUS 1961–63, VI, doc. [79](https://history.state.gov/historicaldocuments/frus1961-63v06/d79). [[w.schlesinger-robert-kennedy-and-his]], 526–27 (the letter, handed by Dobrynin to Robert Kennedy that morning). [[w.fursenko-one-hell-of-a]], 309–10 (delivered by Bolshakov, Nov. 20). To check: Robert Kennedy, memorandum dictated Nov. 30, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 527 n.129). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Khrushchev.'
+    n: 'FRUS 1961–63, VI, doc. [79](https://history.state.gov/historicaldocuments/frus1961-63v06/d79). [[w.schlesinger-robert-kennedy-and-his]], 526–27 (the letter, handed by Dobrynin to Robert Kennedy that morning); [[w.sorensen-kennedy]], 721. [[w.fursenko-one-hell-of-a]], 309–10 (delivered by Bolshakov, Nov. 20). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Khrushchev.'
     src:
       c: 898f4844
       rows:
@@ -679,6 +695,7 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 526–27: A'
         - 'via w.schlesinger-robert-kennedy-and-his 527 n.129: A'
         - 'w.fursenko-one-hell-of-a 309–10: all'
+        - 'w.sorensen-kennedy 721: all'
     tags: [name:khrushchev-nikita-s]
   - id: cal.1962-11-20.missile-crisis
     when: Nov. 20
@@ -697,7 +714,12 @@ entries:
     date: '1962-11-20'
     thread: civil-rights-the-executive
     c: 'Same press conference: the housing order. No discrimination in federally aided housing, prospectively.'
-    n: '[Exec. Order No. 11,063](https://www.presidency.ucsb.edu/documents/executive-order-11063-equal-opportunity-housing) (K–J Adm. II.H.2). To check: [[w.graham-civil-rights-era]]; [[w.brauer-john-f-kennedy-and]]; [[w.pritchett-robert-clifton-weaver-and]]. See [[cal.1961-03-06.civil-rights-the-executive]]. Names: Weaver.'
+    n: '[Exec. Order No. 11,063](https://www.presidency.ucsb.edu/documents/executive-order-11063-equal-opportunity-housing) (K–J Adm. II.H.2). [[w.sorensen-kennedy]], 482. To check: [[w.graham-civil-rights-era]]; [[w.brauer-john-f-kennedy-and]]; [[w.pritchett-robert-clifton-weaver-and]]. See [[cal.1961-03-06.civil-rights-the-executive]]. Names: Weaver.'
+    src:
+      c: 670b394e
+      rows:
+        - 'https://www.presidency.ucsb.edu/documents/executive-order-11063-equal-opportunity-housing: all'
+        - 'w.sorensen-kennedy 482: all'
     tags: [name:kennedy-john-f, name:weaver-robert-c]
   - id: cal.1962-11-20.missile-crisis-3
     when: Nov. 20
@@ -840,6 +862,18 @@ entries:
         - 'w.zelizer-taxing-america 197: all'
         - 'via w.zelizer-taxing-america 197 n.68: all'
     tags: [name:mills-wilbur-d]
+  - id: cal.1962-11-29.missile-crisis
+    when: Nov. 29
+    date: '1962-11-29'
+    thread: missile-crisis
+    c: 'Kennedy with Mikoyan, Rusk, Thompson and Dobrynin present, 4:40 to 7:55 p.m., on Cuba: the declarations to close the affair; failing them, the President would state the American position at a press conference. By Sorensen''s account, Mikoyan reports that Khrushchev liked the spirit of the President''s statements.'
+    n: '[FRUS 1961–63, XI, doc. 218](https://history.state.gov/historicaldocuments/frus1961-63v11/d218). [[w.sorensen-kennedy]], 725. See [[cal.1962-10-16.missile-crisis]]. Names: Kennedy, Mikoyan, Rusk, Thompson, Dobrynin, Khrushchev.'
+    src:
+      c: be26acaa
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d218: A, B'
+        - 'w.sorensen-kennedy 725: C'
+    tags: [name:kennedy-john-f, name:mikoyan-anastas, name:rusk-dean, name:thompson-llewellyn-e, name:dobrynin-anatoly, name:khrushchev-nikita-s]
   - id: cal.1962-11-30.governors-nm
     when: Nov. 30
     date: '1962-11-30'
