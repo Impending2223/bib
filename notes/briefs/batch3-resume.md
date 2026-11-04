@@ -266,3 +266,58 @@ landed). With these Kotz, Zelizer (but pp. 1-2) and Bernstein are read whole. Fo
 
 - After the last merge: `./bib check` 0 errors, 26 warnings (the same standing set as before); `./bib audit-cal`
   committed; a full `./bib build` clean (9 min 36 s); `./bib links`: 0 links to missing anchors.
+
+
+(The sixth merger, Nov. 4, 2026, 3:10-3:50 a.m. Pacific, after the third and fourth runs of Sorensen, Fursenko's *Gamble*,
+Thomas and Novak.)
+
+Merged, in order, each by `./bib merge --auto` (no `--legacy`), its pending witnesses folded alone (`fold.py FILE`; the
+edges already in the by-work files), checked, committed and pushed: sorensen-3 (96 ops; 9 witnesses), fursenko-gamble-2
+(139; 104), thomas-rfk-3 (282; 133), novak-agony-3 (347; 49), and, at the lead's word, sorensen-4 (149; 22 and one
+amendment; its by-work edges committed with it) (`inbox/merged/`). Every ledger claim of the five landed (none pruned
+by hand). Left in the inbox, being written: thomas-rfk-4, its pending file and its 51 ledger lines. For the next merger:
+
+- Every edit's base was current (novak-agony-3's two: Novak out of To check where he does not give the event): applied
+  as written.
+- One news conference is one entry (the lead's ruling for sorensen-3): a new entry holding one answer of a conference
+  the day already had an entry for was folded into that entry (the tree's id kept, the new its alias; c joined, the
+  new answer appended without its "News conference." lead; n joined: the Papers' pinpoint and topic, the works read, To
+  check, Checks, See, Names; the map re-lettered; the new thread into `also`): sorensen-3's Nov. 20, 1962 (into
+  `cal.1962-11-20.missile-crisis`), July 19, 1961, May 8, 1963, Aug. 1, 1963, Nov. 8, 1961, Apr. 11, 1962, June 27,
+  1962, Jan. 24, 1963, Dec. 12, 1962; sorensen-4's Jan. 15, 1962, Nov. 14, 1963 (two), Sept. 12, 1963, Oct. 9, 1963,
+  Jan. 25, 1961 (two), July 5, 1962. Helpers in the scratchpad's `merge6/`: `nc.py PATCH` (a patch's news-conference
+  adds beside the day's others), `nccomb.py` (drafts the joined c, n and map for review), `xdup.py PATCH` (same-day
+  entries of other threads sharing words). Entries already in the tree that split one conference by answer (Nov. 20,
+  1962's housing order; Oct. 9, 1963's Goldwater answer; and others) were not touched: a sweep for the owner.
+- The "one event?" flags, about 190, read pair by pair (`dups2.py`, `keepdups.py`), and the patches' adds set against
+  other threads' entries of the day (`xdup.py`). Combined besides the conferences (the tree's id kept): Robert Kennedy
+  at the Seattle World's Fair, Aug. 6, 1962 (Thomas's into Branch's); Goldwater's Hartford press conference, Oct. 24,
+  1963 (Novak's into White's; Novak's Check on the place kept); the Oregon schedule cancelled (Novak's Apr. 21, 1964 into
+  White's month-only `cal.1964-04.goldwater-2`, now dated Apr. 21 and moved; White's "middle of April" a Check); White
+  with Scranton's men in the Sheraton-Cleveland, June 6, 1964 (Novak's `cal.1964-06-06.goldwater` into
+  `cal.1964-06-06.elections-1964`; the hour a Check); the Executive Committee of Oct. 27, 1962, 4 p.m. (sorensen-4's
+  record of action into `cal.1962-10-27.missile-crisis-4`, which holds the tapes). Kept apart: the 9 p.m. ExComm of Oct.
+  27 (Thomas) beside the 4 p.m.; the Executive Committee's other meetings of Oct. 23-28 (none in the tree before);
+  Fursenko's 44 Soviet and Cuban acts; Novak's Mackinac meeting with Romney beside White's request to Goldwater's men.
+  Novak's three disagreements (Eugene and French Lick, Oct. 12, 1963; Concord and Hartford, Oct. 24; the *Times*'s
+  Lodge story, Dec. 1 and 8) left as written.
+- Mends on the way: See links to ids never made (`cal.1962-04-12.cuba` to `.soviet-union`, `cal.1962-05-11.cuba` to
+  `.soviet-union-2`, `cal.1960-12-21.transition-and-staff-2` to the one entry of the day); threads that do not exist
+  (`state-and-city-finance-mi` made `state-and-city-finance` with `state:mi`; `india-and-china` made `china`); name keys
+  (`acheson-dean-g`, `mcconaughy-walter-p-jr`); Names without an entry taken out (Maas; Herbert Hoover, whose bare name
+  would have linked J. Edgar). Fursenko's and Thomas's starred notes ("98–99 and n.*", "219 n.*") left as written, as
+  Bird's: two more [italics] warnings.
+- Leads and press: each run's section into `notes/leads.md` (Sorensen's and Novak's paragraphs by heading split into
+  bullets; Sorensen's "Defense" leads under National) and `notes/press.md` (Fursenko's four-column rows and Novak's
+  empty kinds given one). The Sorensen book-check carries the fourth run's sections after the third's: `presstab.py
+  --all --last` took the fourth run's rows while it was being written; take a run's section by its line range.
+- check: thomas-rfk-4's pending file showed three "id repeated" errors while its reader wrote (the registry's
+  `x.undated.burke-marshall-oral-history-jfk-library`, `x.undated.nicholas-katzenbach-oral-history-lbj-library`,
+  `x.2000-02-07.guthman-to-thomas`); gone by the last check.
+- For the owner: Sorensen presents the letter to Diệm of Sept. 24, 1963 as sent (FRUS IV, doc. 147: cabled, not
+  delivered); U Thant's second proposal, Oct. 26 by Sorensen, Oct. 25 in `cal.1962-10-25.missile-crisis-4` (a Check);
+  fighter escorts on Oct. 27, 1962, by Sorensen, against the record of action (a Check); `cal.1964-06-06.elections-1964`
+  bundles George Humphrey's call to Eisenhower with White's night in Scranton's suite (R17: two acts); the calendar's
+  older per-answer news-conference entries, for a sweep by the same rule.
+
+- After the last merge: `./bib check` 0 errors, 28 warnings (the standing 26 and the two starred notes).
