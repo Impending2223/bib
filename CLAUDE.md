@@ -1452,11 +1452,11 @@ issued (quarters in the quarter's last month, fiscal years in June, calendar
 years in December). Each row has the figure as
 first reported, its release date, and the figure as revised today.
 
-The standard tables (the month's Economic indicators, Oil, Exchange rates and gold, Money and credit, Presidential
-approval, and the war table under the first Thursday; not the one-off blocks) carry "〈〈 Title 〉〉": the same kind's
-table before and after in the calendar, on any page, in the thread line's link style, the date on hover (the owner's
-request, Nov. 4, 2026; STYLE 18 in `tools/bib/indicators.py`). "As first reported" heads a column only where another
-holds a later figure (the exchange rates' column goes unheaded).
+The tables that recur carry "〈〈 Title 〉〉": the same kind's before and after in the calendar, on any page, in the
+thread line's link style, the date on hover: the month's set (one pair, on Economic indicators; its divisions, Oil,
+the exchange rates, Money and credit, the approval table, none), the war table, the budget, Armed Forces Day (the
+owner's requests, Nov. 4, 2026; STYLE 18 in `tools/bib/indicators.py`). "As first reported" heads a column only where
+another holds a later figure (the exchange rates' column goes unheaded).
 
 ```
 indicators/<id>.yaml          one series; rows {p, first, released, chg, unit, now, chg_now, source, est, q, note, since}
@@ -1622,7 +1622,7 @@ the series index, the README and the top bar (数; at first kept out of the bar,
   cell of the indicators and Money and credit tables tinted by its period's move against the series' usual move over
   1960-68, column by column, green on the hot side (prices, output, jobs, money, debt or nominal rates rising,
   unemployment falling, a real rate falling, a gap below zero) and brown on the cold (`HOT`); the price indexes (CPI,
-  WPI, deflator: `YOY`) by the change from a year earlier, the rest by the change from the period before; the Released
+  WPI, deflator: `YOY`) by the change from a year earlier, the figure the cell prints, the rest by the change from the period before; the Released
   cell in its figure's tint (the owner, Nov. 4, 2026); a key under the table. A
   ▸ before a row's name opens its chart in a row beneath (uPlot, vendored, `sources/vendor/uplot-1.6.30/`): as first
   reported and today over the span, Level | Year over year, year over year by default but for the rates and ratios in
@@ -1634,10 +1634,11 @@ the series index, the README and the top bar (数; at first kept out of the bar,
   spread. Rerun after make_indicators.py or make_finance.py.
 - Changes use one basis in both value columns (CHANGE in the script): monthly
   percent, not annualized; quarterly percent at an annual rate; points; persons.
-  CPI, WPI and industrial production also carry the change from a year earlier
-  (YOY in the script; `yoy`, `yoy_now`), each column from its own figures: the
+  CPI, WPI, industrial production and the GNP deflator also carry the change from a year
+  earlier (YOY in the script; `yoy`, `yoy_now`), each column from its own figures: the
   year-earlier value in the same release or Report (for the WPI, `year_ago` in
-  MANUAL, transcribed from the same tables), and today's series.
+  MANUAL, transcribed from the same tables; the deflator's quarter a year earlier in the
+  same release), and today's series.
 - Formatting and style are settled in the STYLE notes at the top of
   `tools/bib/indicators.py` (periods "Q1 1961", "FY1962"; "$bn" and "m"; one
   scale per group; stacked receipts/expenditures/balance right-aligned; "—"

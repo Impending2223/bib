@@ -159,9 +159,10 @@ def anchor_id(kind, key):
 LI = re.compile(r"<li\b|</li>")
 
 
-def put(page, eid, blk, kind, key):
+def put(page, eid, blk, kind, key, nav=None):
     """The block at the end of the calendar entry eid's <li> (its own </li>, nested lists counted), with its anchor
-    where the kind is listed: (page, 1), or (page, 0) where the page has no such entry."""
+    where the kind is listed: (page, 1), or (page, 0) where the page has no such entry. nav: the title's chevrons to
+    the same kind's blocks before and after, ((href, hover) or None, (href, hover) or None) (indicators STYLE 18)."""
     lab = label(kind, key)
     m = re.search(r'<li id="' + re.escape(eid) + r'"[^>]*>', page)
     if not m or not blk:
@@ -178,15 +179,18 @@ def put(page, eid, blk, kind, key):
         if kind in DROP_HEAD:                   # STYLE 5: the title stands in the block's own heading's place
             blk = re.sub(r'^(\s*<div[^>]*>)\s*<p class="cgh">.*?</p>', r"\1", blk, count=1, flags=re.S)
         blk = (f'<span class="tba" id="{esc(anchor_id(kind, key))}" data-tb="{esc(lab)}" data-tbe="{esc(eid)}"></span>'
-               + title(lab) + blk)
+               + title(lab, nav) + blk)
     return page[:at] + blk + page[at:], 1
 
 
 DROP_HEAD = {"congress", "governors", "legislatures", "primaries", "conventions", "wardead"}
 
 
-def title(lab):
-    """A listed table's title (STYLE 5): its label, centered, in small capitals."""
+def title(lab, nav=None):
+    """A listed table's title (STYLE 5): its label, centered, in small capitals; with nav, between 〈〈 and 〉〉."""
+    if nav:
+        from .indicators import caption
+        return caption(lab, *nav, cls="tbt")
     return f'<p class="tbt">{esc(lab)}</p>'
 
 
@@ -406,6 +410,7 @@ TSTYLE = """<style id="ttbstyle">
 .tba{display:block;height:0}
 .tbt{text-align:center;font-family:var(--sans);font-size:1rem;font-weight:600;font-variant-caps:all-small-caps;
   letter-spacing:.06em;margin:1.4rem 0 .3rem;color:var(--ink)}
+.tbt a.tnb,.tbt a.tnb:hover{color:var(--muted);text-decoration:none}
 .eday>p.cgh{font-family:var(--sans);font-weight:700;font-size:.95rem;margin:1.2rem 0 .4rem}
 .cg .cgh.sub{font-weight:600;font-style:italic}
 .tbp{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:.3rem 0}

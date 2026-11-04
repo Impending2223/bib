@@ -68,9 +68,11 @@ def inject(page, series, mode):
     lst = next((l for l in series.lists.values() if l.kind == "calendar"), None)
     days = [m.group(1) for m in MARK_RE.finditer(page)]
     plan = wartable.Plan(lst, days)
-    seq = wartable.sequence(held_days(series))    # every war table, for its caption's 〈〈 and 〉〉 (wartable STYLE 8)
-    seen_war, seen_year = set(), set()
+    held = held_days(series)
+    seq = wartable.sequence(held)                 # every war table, for its caption's 〈〈 and 〉〉 (wartable STYLE 8)
     afd = afday.dates()
+    aseq = sorted(d for d, y in afd.items() if d in held and afday.block(d, y))   # every Armed Forces Day (afday STYLE 5)
+    seen_war, seen_year = set(), set()
 
     def part_of(iso):
         return calsplit.half_of_date(lst, iso) if calsplit.cfg(lst) else 1
@@ -91,7 +93,7 @@ def inject(page, series, mode):
                     blk = contents.day_mark("war", iso[:4], iso, wartable.THREADS, part) + blk
                 out.append(blk)
             elif name == "afd":
-                blk = afday.block(iso, afd[iso])
+                blk = afday.block(iso, afd[iso], aseq)
                 if blk:
                     out.append(contents.day_mark("forces", str(afd[iso]), iso, afday.THREADS, part) + blk)
         return "".join(out)

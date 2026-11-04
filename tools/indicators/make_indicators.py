@@ -240,7 +240,8 @@ def year_ago(date):
 # Percent change from the same month a year earlier, shown after the monthly change: the monthly
 # series that are not seasonally adjusted (CPI, WPI) or whose monthly changes are small against
 # the index's one-decimal rounding. Computed in the same release (or Report) as the figure, and
-# in today's series for today's column.
+# in today's series for today's column. The GNP deflator too (the owner's request, Nov. 4, 2026): the same quarter a
+# year earlier, nominal over real GNP in the same release, so a base-year change does not cross it (main, below).
 YOY = {'cpi', 'wpi', 'industrial-production'}
 
 
@@ -316,11 +317,17 @@ def main():
         pn, pr = vin_n.get(prior(date, 'Q')), vin_r.get(prior(date, 'Q'))
         if pn and pr:
             row['chg'] = change('pct_ar', d, 100 * pn / pr)
+        yn, yr = vin_n.get(year_ago(date)), vin_r.get(year_ago(date))
+        if yn and yr:                     # the same quarter a year earlier, in the same release (YOY)
+            row['yoy'] = change('pct', d, 100 * yn / yr)
         row['unit'] = base(sid, rel)
         row['now'] = cur.get(date)
         cn = change('pct_ar', curp.get(date), curp.get(prior(date, 'Q')))
         if cn is not None:
             row['chg_now'] = cn
+        yn = change('pct', cur.get(date), cur.get(year_ago(date)))
+        if yn is not None:
+            row['yoy_now'] = yn
         rows.append(row)
     write('deflator', {'id': 'deflator', 'name': name, 'freq': 'Q', 'change': 'pct_ar',
                        'then': {'label': then, 'source': 'ALFRED GNP and GNPC96, initial release', 'url': ALFRED + 'GNP'},

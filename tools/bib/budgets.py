@@ -31,6 +31,8 @@ STYLE
  6. The debt-limit table: one row an act, in order: the day approved (linked to its calendar entry), the Statutes cite
     (linked to govinfo) with the bill under it, muted (four columns, to fit a phone without scrolling), the limits it set, each with its term, and the permanent limit after it. Limits in
     whole $bn ("$308bn"), terms as dates in the series' form; a limit with no end date is permanent.
+ 7. The budget block's title ("Budget, fiscal 1964", contents STYLE 5) between 〈〈 and 〉〉, the fiscal years' blocks
+    before and after, on whatever page, the entry's date on hover (indicators STYLE 18; the owner, Nov. 4, 2026).
 """
 import os
 import re
@@ -292,13 +294,30 @@ def tagged(series):
     return out
 
 
+def _when(series, eid, year):
+    """An entry's date on hover: its "when", the year added where it differs (build.thread_nav's rule)."""
+    hit = series.get(eid)
+    e = hit[2] if hit else {}
+    y = str(e.get("date") or "")[:4]
+    return f"{e.get('when', '')}, {y}" if y and y != str(year) else e.get("when", "")
+
+
 def inject(page, series):
     used = False
-    for key, eid in tagged(series).items():
+    tags = tagged(series)
+    fys = sorted(k for k in tags if k != "debt" and block(k))      # the budget blocks, in order (STYLE 7)
+    for key, eid in tags.items():
         blk = debt_block() if key == "debt" else block(key)
         if not blk:
             continue
-        page, k = contents.put(page, eid, blk, "debt-limits" if key == "debt" else "budget", key)
+        nav = None
+        if key != "debt":
+            hit = series.get(eid)
+            year = str((hit[2] if hit else {}).get("date") or "")[:4]
+            j = fys.index(key)
+            nav = tuple((f"#{contents.anchor_id('budget', fys[i])}", _when(series, tags[fys[i]], year))
+                        if 0 <= i < len(fys) else None for i in (j - 1, j + 1))
+        page, k = contents.put(page, eid, blk, "debt-limits" if key == "debt" else "budget", key, nav)
         used = used or bool(k)
     if used and 'id="bgstyle"' not in page:
         page = page.replace("</head>", STYLE + "\n</head>", 1)
