@@ -99,6 +99,19 @@ entries:
         - 'w.preston-war-council 115: all'
         - 'via w.preston-war-council 115 n.41a: all'
     tags: [name:forrestal-michael-v, name:harriman-w-averell, name:hilsman-roger]
+  - id: cal.1962-12-03.soviet-union
+    when: Dec. 3
+    date: '1962-12-03'
+    thread: soviet-union
+    also: [missile-crisis, cuba]
+    c: 'The Presidium, the first session after Mikoyan''s return. Khrushchev''s postmortem: "Cuba has been maintained as a center of the revolutionary movement"; "The United States was forced to acknowledge that we have our own interests in the Western Hemisphere"; "We are members of the World Club. They themselves got scared." On Kennedy''s request for the Soviet troops'' withdrawal, he and Malinovsky to look into it.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 506–07. To check: Protocol 71, Dec. 3, 1962, AOK (cited by [[w.fursenko-khrushchevs-cold-war]], 506 n.47). See [[cal.1962-11-29.missile-crisis]]. Names: Mikoyan, Khrushchev, Kennedy, Malinovsky.'
+    src:
+      c: 3d627984
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 506–07: all'
+        - 'via x.2006.kcw-p506-07: all'
+    tags: [name:mikoyan-anastas, name:khrushchev-nikita-s, name:kennedy-john-f, name:malinovsky-rodion-yakovlevich]
   - id: cal.1962-12-05.middle-east-johnson-plan
     when: Dec. 5
     date: '1962-12-05'
@@ -719,12 +732,23 @@ entries:
       rows:
         - 'w.navasky-kennedy-justice 345: all'
     tags: [name:fay-paul-b-jr]
+  - id: cal.1962-12-18.testing
+    when: Dec. 18–25
+    date: '1962-12-18'
+    thread: testing
+    also: [soviet-union, defense]
+    c: Novaya Zemlya. The last Soviet series of atmospheric tests, at the northern test site.
+    n: '[[w.fursenko-khrushchevs-cold-war]], 508, 619 n.53 (Khrushchev waits for it to start before his concession on inspections). See [[cal.1962-12-19.testing]].'
+    src:
+      c: f95e60df
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 508, 619: all'
   - id: cal.1962-12-19.testing
     when: Dec. 19
     date: '1962-12-19'
     thread: testing
     c: Khrushchev offers two or three on-site inspections a year. Washington wants more.
-    n: 'FRUS 1961–63, VI, docs. [85](https://history.state.gov/historicaldocuments/frus1961-63v06/d85) (Khrushchev''s letter); [87](https://history.state.gov/historicaldocuments/frus1961-63v06/d87) (the reply, Dec. 28). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 341. [[w.sorensen-kennedy]], 728. To check: [[w.seaborg-kennedy-khrushchev-and-the]]. See [[cal.1961-09-01.testing]]. Names: Khrushchev.'
+    n: 'FRUS 1961–63, VI, docs. [85](https://history.state.gov/historicaldocuments/frus1961-63v06/d85) (Khrushchev''s letter); [87](https://history.state.gov/historicaldocuments/frus1961-63v06/d87) (the reply, Dec. 28). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 341; [[w.fursenko-khrushchevs-cold-war]], 507–08 (three inspections, "a concession for the president"; "a very big concession because it allows for spies"). [[w.sorensen-kennedy]], 728. To check: [[w.seaborg-kennedy-khrushchev-and-the]]. See [[cal.1961-09-01.testing]]. Names: Khrushchev.'
     src:
       c: bb0397da
       rows:
@@ -734,6 +758,8 @@ entries:
         - 'via w.kaplan-mcnamara-ascendancy-1961-1965 341 n.69: B'
         - 'https://history.state.gov/historicaldocuments/frus1961-63v06/d87: B'
         - 'w.sorensen-kennedy 728: all'
+        - 'w.fursenko-khrushchevs-cold-war 507–08: A'
+        - 'via x.2006.kcw-p507-08: A'
     tags: [name:khrushchev-nikita-s]
   - id: cal.1962-12-19.middle-east
     when: Dec. 19
@@ -1203,3 +1229,15 @@ entries:
         - 'w.branch-parting-the-waters 712: all'
         - 'via w.branch-parting-the-waters 712 n.3: all'
     tags: [name:moses-robert-p, state:ms]
+  - id: cal.1962-12.testing
+    when: Dec., early
+    date: 1962-12
+    thread: testing
+    also: [soviet-union, china]
+    c: 'Moscow. Cousins, with Pope John XXIII''s message for Khrushchev, hears from his inner circle that Khrushchev means to prove to the Chinese that coexistence pays. Khrushchev to him, privately: "The Chinese say I was scared. Of course I was scared. It would have been insane not to have been scared." Christmas greetings in his own hand for Kennedy and the Pope.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 507–08 (by Cousins''s account). Check: the day. To check: [[w.cousins-improbable-triumvirate]], 32–33, 46, 57 (cited by [[w.fursenko-khrushchevs-cold-war]], 508 n.50–52). See [[cal.1962-11.testing]]. Names: Cousins, Khrushchev, Kennedy.'
+    src:
+      c: f5fcd2b4
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 507–08: all'
+    tags: [name:cousins-norman, name:khrushchev-nikita-s, name:kennedy-john-f]

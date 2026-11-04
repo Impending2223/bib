@@ -1926,6 +1926,16 @@ Rights in Conflict (Walker Report):
 - Kotz's interviews of this run: Hirsch, Fauntroy, Goodwin, Forman, Greenberg, Brimmer, Roger Wilkins, Bernhard, Gaither, Mondale, Byrne, Cohen, Ramsey Clark, Height, Marian Logan, Juanita Abernathy, James Lawson, Edward Kennedy: not deposited.
 - Press figures for Part III (R13): William S. White (syndicated), Carl Rowan (columnist; his own Part III place as USIA director to check), Renata Adler (*The New Yorker*), Robert Semple Jr. and John Herbers (*New York Times*), Richard L. Lyons and Carroll Kilpatrick (*Washington Post*).
 
+### Fursenko and Naftali, *Khrushchev's Cold War* (batch 3, third run, Nov. 4, 2026; notes/book-checks/fursenko-khrushchevs-cold-war.md)
+
+- Oct. 24, 1962: McNamara's depth-charge rules and Kennedy's worry, from the morning ExComm's tape (Presidential
+  Recordings, III, 191–97): an entry for a reader of the tapes.
+- Apr. 13, 1961, El Encanto; Aug. 14, 1961, Kennan's authorization (388): to enter from a record.
+- Kennedy's back, Ottawa, May 1961 (the work's "March," 367).
+- The press: a Part III entry for Warren Rogers (*Herald Tribune*, Pentagon pool), named in cal.1962-10-26.soviet-union,
+  and for Thomas J. Hamilton (*New York Times* at the UN), cal.1962-11-15.missile-crisis-2; both treated by this work
+  (486, 502).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -3062,6 +3072,20 @@ CQ Weekly Report, 1968-08-30:
 - 1968 vol., Ch. XII: the ICRC's telegram to Hanoi on 40 sick and wounded prisoners, Jan. 16 (859); Sgt. Buddy Wright's
   escape, Sept. 22 (849).
 - The 1968 volume's unread chapters and annexes (above, "Where I stopped").
+
+### Fursenko and Naftali, *Khrushchev's Cold War* (batch 3, third run, Nov. 4, 2026; notes/book-checks/fursenko-khrushchevs-cold-war.md)
+
+- The rows above marked "lead," each with its page and note; chiefly: the Presidium's and Khrushchev's acts the work
+  dates only to a month (the Minister of Agriculture, March 1963; Kozlov's stroke; the plot's beginnings, 1963; the
+  boundary message, Dec. 31, 1963 or Jan. 1964; Khrushchev's Scandinavian and Egyptian days, May–June 1964, entered by
+  month only).
+- Khrushchev's Berlin speech: the day (Jan. 15 or 16, 1963) by the Sixth SED Congress's record; the publication of the
+  December letters (the work's "next day").
+- The Volkogonov Collection, Library of Congress (Malinovsky's, Zakharov's, Ivanov's papers of Sept. 1962): its finding
+  aid, for copies the series could cite.
+- BBC Scotland's interviews of Shumkov and Chebrasov; David Coleman's transcripts of the ExComm of Nov. 14 and 16,
+  1962 (the work's note: to appear in vol. 4 of the Miller Center's *Presidential Recordings*, 619 n.58).
+- Kroll's summer visit of 1963 and Khrushchev's letter to Adenauer (621 n.111).
 
 ## The Executive roster
 

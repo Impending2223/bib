@@ -43,9 +43,22 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1962-09-26 | New York Times | front page | three Meredith stories under "U.S. Is Prepared to Send Troops as Mississippi Governor Defies Court and Bars Negro Student" | Branch, *Parting the Waters*, 649
 1962-09-28 | New York Times | front page | "U.S., to Avert Violence, Calls Off New Effort to Enroll Meredith; Sends Hundreds More Marshals" | Branch, *Parting the Waters*, 653
 1962-09-28 | Jackson Daily News | front page | "Thousands Said Ready to Fight for Mississippi"; readers urged to learn "Never, No Never" | Branch, *Parting the Waters*, 653
+1962-09-28 | *Deutsche Soldaten-Zeitung und National-Zeitung* | interview | Kroll interview, "Endkampf um Berlin in 4 Wochen" | Fursenko and Naftali, *Khrushchev's Cold War*, 460
 1962-10-01 | New York Times | front page | the President "qualified his optimism most carefully" in his address | Branch, *Parting the Waters*, 671
+1962-10-25 | Lippmann's column | column | the Jupiters for the Cuban base | Fursenko and Naftali, *Khrushchev's Cold War*, 487–88
+1962-10-30 | *Washington Post* | item | "MiG Deal with India Appears Off" | Fursenko and Naftali, *Khrushchev's Cold War*, 497
+1962-10-31 | *Washington Post* | item | "China Press Sees K as Weak Man" | Fursenko and Naftali, *Khrushchev's Cold War*, 495
+1962-11-01 | *New York Times* | item | Trumbull, "Peking Criticizes Russians on Cuba" | Fursenko and Naftali, *Khrushchev's Cold War*, 495–96
+1962-11-04 | *New York Times* | items | Reuters, "Chinese Marchers Back Cuba"; "Chou Reaffirms Support of Cuba"; Rosenthal on Khrushchev's letter to Nehru | Fursenko and Naftali, *Khrushchev's Cold War*, 496–97
+1962-11-06 | *Washington Post*; *New York Times* | items | Roderick, "Chinese Liken Soviet Action on Cuba to Munich Appeasement"; Topping, "Soviet Indicates a Return to Neutrality on India" | Fursenko and Naftali, *Khrushchev's Cold War*, 496–97
+1962-11-07 | *Washington Post* | item | Kellet-Long, the Peking reception | Fursenko and Naftali, *Khrushchev's Cold War*, 496
+1962-11-08 | *Washington Post* | item | "Soviet Policy on Cuba Is Attacked by Albania" | Fursenko and Naftali, *Khrushchev's Cold War*, 496
+1962-11-09 | *New York Times* | item | Hamilton, "Cuba Bars Return of Soviet Planes" (Lechuga) | Fursenko and Naftali, *Khrushchev's Cold War*, 499
 1963 | *Dallas Morning News* | item | on Rockefeller's fees | Smith, *On His Own Terms*, 393
 1963 | *New Republic*, Kempton | item | "He Has It If He Wants It, and He Does" | Smith, *On His Own Terms*, 394
+1963-02-12 | *New York Times* | item | Szulc, "U.S. and Britain Recognize Iraq: Soviet Also Acts" | Fursenko and Naftali, *Khrushchev's Cold War*, 512
+1963-02-20, 24, 25 | *Washington Post* | items | the Soviet bloc's campaign on Iraq; Iraq's charges; ar-Radi | Fursenko and Naftali, *Khrushchev's Cold War*, 512
+1963-03-04, 12, 14 | *New York Times* | items | Schwartz on meat; Salisbury, "The Khrushchev Line"; Topping on Peking's invitation | Fursenko and Naftali, *Khrushchev's Cold War*, 513–15
 1963-03-29 | New York Times | front page | "Police Loose a Dog on Negroes' Group, Minister Is Bitten," photograph under the Republican leaders (entered) | Branch, *Parting the Waters*, 720
 1963-04-03 | New York Times | front page | Dick Gregory, arms twisted behind him by the Greenwood police (entered) | Branch, *Parting the Waters*, 723
 1963-04-05 | New York Times | inside, 16 | "Integration Drive Slows," Birmingham; Apr. 6, 20: "Demonstrations Fail to Develop" | Branch, *Parting the Waters*, 711
@@ -59,6 +72,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-04-17 | Washington Star | lead editorial, A20 | "Just a Bit Phony" (entered) | Branch, *Parting the Waters*, 736-37
 1963-04-17 | New York Times | front page | "President Urged to Cut Off Funds for Mississippi" (entered) | Branch, *Parting the Waters*, 747
 1963-04-19 | Time | magazine, 30-31 | "poorly timed protest" (entered) | Branch, *Parting the Waters*, 737
+1963-04-21 | *Washington Post* | item | "K Back at Work Ignores Attack in Albania Press" | Fursenko and Naftali, *Khrushchev's Cold War*, 520
 1963-04-22 | Newsweek | magazine, 28-29 | Birmingham | Branch, *Parting the Waters*, 737 n.1
 1963-04-28 | Birmingham News | inside, 6 | "Greenwood Rolled with Punch, And Won" | Branch, *Parting the Waters*, 753
 1963-05-04 | New York Times | front page | three photographs two columns wide: the Gadsden dog photograph, the monitor gun, the freedom walkers dragged to jail at Fort Payne | Branch, *Parting the Waters*, 764
@@ -117,6 +131,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1964-08-04 | CBS | the address | Dan Rather: "a day of tension here at the White House" | Branch, *Pillar of Fire*, 436
 1964-08-07 | *New York Times* | p. 13 | "No Evidence of Beating" (Chaney) | Branch, *Pillar of Fire*, 440
 1964-08-08 | *New York Times* | p. 7 | "Chaney Was Given a Brutal Beating" | Branch, *Pillar of Fire*, 440
+1964-08-14 | *New York Times* | editorial | "Soviet School Retreat" | Fursenko and Naftali, *Khrushchev's Cold War*, 532
 1964-08-21 | *Life* | cover | Khánh at the "front" in a jeep under ferns | Branch, *Pillar of Fire*, 443
 1964-08-22 | NBC | the hearing | Edwin Newman cuts from Hamer to Goralski at the White House | Branch, *Pillar of Fire*, 459
 1964-08-22 | the networks | evening, prime time | Hamer's testimony replayed after Johnson's press conference cut it off | Kotz, *Judgment Days*, 205
