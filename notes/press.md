@@ -9,12 +9,15 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1960-03 | Joseph Alsop's column | column | door-to-door poll at Wausau: Humphrey "lucky" to get a hundred votes | Humphrey, *Education of a Public Man*, 208
 1960-06 | *New York Herald Tribune* | item | Rockefeller's "buckshot indictment" of Nixon "quite indefensible" | Smith, *On His Own Terms*, 340
 1960-06 | *New York Journal-American*, Knebel | item | GOP to stand for "Grand Old Patricide" | Smith, *On His Own Terms*, 340
+1960-06 | *Wall Street Journal* | story | Novak on Symington's campaign (entered) | White, *Making of the President 1960*, 126–27
 1960-07 | *Chicago Tribune* | item | editorial, "Grant Surrenders to Lee" | Smith, *On His Own Terms*, 346
 1960-07-10 | *Seattle Times* | front page | Guthman's story: Jackson a possible running mate | Guthman, *We Band of Brothers*, 75
 1960-07-23 | *New York Times* | item | "PACT OPENS WAY FOR PARTY AMITY" | Smith, *On His Own Terms*, 346
 1960-08-07 | *New York Times*, p. 9 | story | "Now their hearts belong to Barry" | Goldberg, *Barry Goldwater*, 146
 1960-10 | *New York Times* | front page? | the USIA's prestige surveys, printed without saying how obtained | Sorensen, *Kennedy*, 203–04
+1960-10-13 | three newspapers (unnamed) | text | Kennedy's Quemoy and Matsu speech of Oct. 12 in full (Oct. 13 or after) | White, *Making of the President 1960*, 292 n.4
 1960-10-20 | the networks and the press | forecasts | the forecasts of a Kennedy victory, Oct. 20–Nov. 7, 1960, entered one by one | Nixon, *Six Crises*, 358–60
+1960-10-31 | the correspondents with Kennedy | the wire file (Western Union) | 90,000 words a day, from an average of 60,000, Oct. 31–Nov. 7 | White, *Making of the President 1960*, 324 n.2
 1960-11 | *Wall Street Journal*; *New York Daily News* | item | Rockefeller blamed for Nixon's loss ("Nixon's Lonely Battle," *WSJ*, Oct. 28) | Smith, *On His Own Terms*, 350
 1960-11-10 | the morning papers (unnamed) | stories | Nixon's remarks at Andrews the night before, quoted | Nixon, *Six Crises*, 401
 1961-01-23 | *U.S. News and World Report* | article | "Goldwater's Platform for 'The Forgotten American'" | Goldberg, *Barry Goldwater*, 151 n.11

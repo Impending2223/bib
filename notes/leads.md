@@ -1774,6 +1774,21 @@ Rights in Conflict (Walker Report):
 - The newsweeklies' forecasts (cal.1960-10-25.elections-1960-6 to -8) and Lubell's election-eve forecast:
   the issues and the medium.
 
+### White, *The Making of the President 1960* (batch 3, second run, Nov. 4, 2026; notes/book-checks/white-making-of-the-president.md)
+
+- the House Committee on Education's "testing" of the education bill on Mar. 9, 1961 (White,
+  375): the Digest's rows for March 1961 (`daybook/committees/1961-03.yaml`) show the education hearings on other days;
+  which day White meant.
+- the Congress's hearings on the National Purpose, 1960, and the *Times*'s front-page dispatch
+  from Moscow at the year's opening (White, 377): the days.
+- John Bartlow Martin and Joseph Kraft as the campaign's "editorial advance" (White, 324): when
+  they joined; Kraft and Martin for Part III (R13).
+- the figures of chapter 15 with no series to hold them: the stockpile at the end of 1960,
+  "thirty-five kilomegatons" (372–73, after Hadley, *The Nation's Safety and Arms Control*); the science appropriations
+  of 1960 (379).
+- For the merger (not applied: the AP's reading, White's Appendix A, not given): the AP's tabulation of Dec. 17, 1960 (`x.1960-12-17.associated-press-final-tabulation-of-the-presidential`)
+  is a variant of `cal.1960-11-08.elections-1960` unit A (R41).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2897,3 +2912,8 @@ CQ Weekly Report, 1968-08-30:
 
 ### McPherson, *A Political Education* (batch 3, second run, Nov. 4, 2026; notes/book-checks/mcpherson-political-education.md)
 - McPherson's swearing-in as Assistant Secretary of State (the book: his birthday, the night of Humphrey's selection, Aug. 26, 1964; the roster Aug. 23) and his move to the White House (the book: March 1965; the roster's special assistant from Aug. 1965).
+
+### White, *The Making of the President 1960* (batch 3, second run, Nov. 4, 2026; notes/book-checks/white-making-of-the-president.md)
+
+- Frank B. Ellis sworn in as Director of the Office of Civil and Defense
+  Mobilization, Mar. 9, 1961 (White, 375, unnamed; the roster's date is Wikipedia's): a record of the oath.
