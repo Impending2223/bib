@@ -33,7 +33,8 @@ STYLE (settled; keep it):
     by `also:` is the Program's event, not Vietnam's. Each name linked to its entry
     (`[[id|name]]`), a semicolon between, a full stop at the end, the first letter a capital (a name is written as it
     reads within the sentence: "the second round", "Resolution 1725"); no label, no dates. An entry dated by month
-    alone falls on its month's first day. In date order, then file order.
+    alone falls on its month's first day for the order, and in every part its month meets (a month-only entry of January
+    1960 shows though the calendar opens Jan. 6). In date order, then file order.
  4. `short:` has one other use: an entry with `to:` (an address that sets several threads going) is named by its
     `short:` in the "From:" lines under the entries it reaches (`program_links`, `program_html` in build.py; check
     requires the `short:` there). The From lines read only the entries named in some `to:`, so a `short:` on an entry
@@ -113,7 +114,7 @@ def _index(lst):
             continue
         t = e["thread"]
         while t:                          # its thread; up through a ghost subthread to the parent that speaks for it
-            out.setdefault(t, []).append((day(e["date"]), n, e["id"], str(e["short"])))
+            out.setdefault(t, []).append((day(e["date"]), n, e["id"], str(e["short"]), day(e["date"], end=True)))
             if not lst.is_ghost(t):
                 break
             t = lst.thread_parent(t)
@@ -125,7 +126,7 @@ def _index(lst):
 
 def events(lst, slug, lo, hi):
     """[(id, name)]: the thread's events whose first entry falls in lo..hi, in date order (STYLE 3)."""
-    return [(eid, name) for d, _, eid, name in _index(lst).get(slug, []) if lo <= d <= hi]
+    return [(eid, name) for d, _, eid, name, last in _index(lst).get(slug, []) if d <= hi and last >= lo]
 
 
 def events_sentence(evs):
