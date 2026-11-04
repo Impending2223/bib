@@ -1503,6 +1503,12 @@ Rights in Conflict (Walker Report):
 - The Judiciary subcommittee's inquiry into Wieland and its reprimand (*State Department Security: Wieland*): the dates.
 - Press figures for Part III, proposed: Herbert L. Matthews (*New York Times*; Paterson, 69–80, 207, 226; Jones and Bissell name him); Jean Daniel (*L'Express*; Paterson, 261; Schlesinger and Reeves).
 
+### Bissell, *Reflections of a Cold Warrior* (batch 3, second run, Nov. 4, 2026; notes/book-checks/bissell-reflections-of-a-cold.md)
+- Taylor's presidency of IDA (about 1966) and his remark to Bissell: the date (IDA's records).
+- Thomas D. White's "trees-full-of-owls" remark: its occasion (*Business Week*, July 13, 1963, 58).
+- The Bell report itself (Apr. 30, 1962): its text, for the calendar's May 1 entry (printed as a House or Senate document; not reached).
+- Still undated in Bissell: Discoverer XI and XII, early 1960 (137); Doris Mirage's yellow pad, 1960 (157); three members of the Revolutionary Council at the camp in Guatemala, 1961 (181); Kennedy's word that Bissell must leave, 1961 (191); Bissell's memorandum to Harold Brown on IDA's organization, 1962–63 (231).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2556,3 +2562,6 @@ CQ Weekly Report, 1968-08-30:
 - Plum Book offices not settled: the Pay Board's and the Price Commission's members and executive directors (OCR garbled); GSA's service commissioners and Griffin; the Board of Parole; the Postal Rate Commissioners (no Senate record); Egeberg, HEW special assistant.
 - McPherson (batch 3, Oct. 29, 2026; notes/book-checks/mcpherson-political-education.md): his swearing-in as Assistant Secretary of State (the book: his birthday, the night of Humphrey's selection, Aug. 26, 1964; the roster Aug. 23) and his move to the White House (the book: March 1965; the roster's special assistant from Aug. 1965).
 - Navasky (batch 3, Oct. 29, 2026; notes/book-checks/navasky-kennedy-justice.md): Caplin's appointment as IRS Commissioner (Jan. 24, 1961) and Landis's resignation (September 1961), to place in the roster.
+
+### Bissell, *Reflections of a Cold Warrior* (batch 3, second run, Nov. 4, 2026; notes/book-checks/bissell-reflections-of-a-cold.md)
+- IDA's presidents (Norton to July 12, 1962; Bissell to 1964) are not federal offices: for the owner to say whether the roster should hold the federally funded research centers' heads.
