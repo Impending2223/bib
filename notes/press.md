@@ -71,25 +71,90 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1964-05-15 | NBC | evening | first to call Oregon for Rockefeller, 8:03 p.m. | White, *Making of the President 1964*, 115
 1964-06-02 | CBS | evening | Harris calls California for Goldwater at 7:20 p.m., about 53 percent | White, *Making of the President 1964*, 128
 1964-06-07 | *New York Times* | front page | "Alabama names twenty, fourteen from Colorado. Twenty-two of twenty-four in Washington. Four of eight in Hawaii, four Virginia delegates" | White, *Making of the President 1964*, 137
+1964-06-29 | *New York Times* | front page | Elijah Muhammad's rally at the Harlem Armory | Branch, *Pillar of Fire*, 380
+1964-07-05 | *Atlanta Daily World* | front page | "Scranton on the Move" | Branch, *Pillar of Fire*, 404
+1964-07-06 | *Chicago Daily Defender* | front page | "DENY PATERNITY SUITS AGAINST ELIJAH MUHAMMAD" | Branch, *Pillar of Fire*, 385
+1964-07-09 | *Jet* |  | "The Great Purge of Negroes" | Branch, *Pillar of Fire*, 403
+1964-07-10 | *New York World-Telegram* |  | "Malcolm X Flys to African Parley" | Branch, *Pillar of Fire*, 386
+1964-07-11 | *Pittsburgh Courier* | front page | "Malcolm X Flees for Life; Accuses Muslims of Sordid Sex Misconduct" | Branch, *Pillar of Fire*, 386
+1964-07-12 | *Jackson Clarion-Ledger* | front page | "Hoover Leaves State/Negro Church Burned" | Branch, *Pillar of Fire*, 398
+1964-07-14 | *Chicago Daily Defender* | front page | "FIND HEADLESS BODY IN MISS." | Branch, *Pillar of Fire*, 399
+1964-07-16 | *Chicago Defender* | p. 3 | "GOP Negroes Washed Away by the Goldwater Ocean" | Branch, *Pillar of Fire*, 403
+1964-07-18 | *Cleveland Call and Post* | front page | "GOP Convention Spurns Negroes" | Branch, *Pillar of Fire*, 403
+1964-07-18 | *Chicago Defender* | front page | "GOP Convention, 1964 Recalls Germany, 1933" | Branch, *Pillar of Fire*, 404
+1964-08-04 | *Jackson Clarion-Ledger* | front page | "Lyndon Gives Navy Shoot-to-Kill Order" | Branch, *Pillar of Fire*, 437
+1964-08-04 | CBS | the address | Dan Rather: "a day of tension here at the White House" | Branch, *Pillar of Fire*, 436
+1964-08-07 | *New York Times* | p. 13 | "No Evidence of Beating" (Chaney) | Branch, *Pillar of Fire*, 440
+1964-08-08 | *New York Times* | p. 7 | "Chaney Was Given a Brutal Beating" | Branch, *Pillar of Fire*, 440
+1964-08-21 | *Life* | cover | Khánh at the "front" in a jeep under ferns | Branch, *Pillar of Fire*, 443
+1964-08-22 | NBC | the hearing | Edwin Newman cuts from Hamer to Goralski at the White House | Branch, *Pillar of Fire*, 459
+1964-08-25 | *New York Times* | front page | "Unbroken Harmony" | Branch, *Pillar of Fire*, 467
+1964-09-27 | *New York Times* | front page | "F.B.I. Says Riots Had No Pattern or Single Leader" | Branch, *Pillar of Fire*, 421
+1964-10-03 | *New York Times* | front page | "Judge Orders Secrecy on Identity Pending Arrests in Mississippi Deaths" | Branch, *Pillar of Fire*, 505
+1964-10-04 | *New York Times* | front page | "Violence Not Linked to Triple Murder" | Branch, *Pillar of Fire*, 506
+1964-10-04 | *New York Times* | front page | the *Herald Tribune*'s endorsement of Johnson | Branch, *Pillar of Fire*, 515
+1964-10-10 | *Atlanta Journal* | front page | "Johnson Hits at Hatred as Southern Vote Bait" | Branch, *Pillar of Fire*, 515
+1964-10-23 | *New York Times* | front page | "No Evidence Is Uncovered That Ex-Presidential Aide Compromised Nation" | Branch, *Pillar of Fire*, 518
+1964-11-05 | *New York Times* | front page | "White Backlash Doesn't Develop" | Branch, *Pillar of Fire*, 522
+1964-11-19 | *New York Times* | front page | "Hoover Assails Warren Findings" | Branch, *Pillar of Fire*, 527
+1964-11-19 | *Washington Post* | front page | Hoover's "Blast at Police Corruption" | Branch, *Pillar of Fire*, 527
 1964-11-23 | Joseph Alsop's column | column | Ball's dissent; "Ball's knowledge of Asia could be comfortably contained in a fairly small thimble" | Ball, *The Past Has Another Pattern*, 384
+1964-11-25 | *New York Times* | front page | "Congolese Forced American Officials to Eat U.S. Flag" | Branch, *Pillar of Fire*, 538
+1964-12-08 | *New York Times* | front page | police drag Savio from the stage | Branch, *Pillar of Fire*, 544
+1964-12-21 | *New York Times* | p. 20 | "Malcolm Favors a Mau Mau in U.S." | Branch, *Pillar of Fire*, 548
+1964-12-29 | *New York Times* | front page | Atlanta against the King dinner | Branch, *Pillar of Fire*, 550
+1965-01-01 | *New York Times* | p. 16 | "Dr. King Due to Head Alabama Vote Drive" | Branch, *Pillar of Fire*, 554
+1965-01-11 | *New York Times* | front page | a second Klan confession | Branch, *Pillar of Fire*, 558
+1965-02-02 | *New York Times* | front page | "Dr. King and 770 Others Seized" | Branch, *Pillar of Fire*, 577
+1965-02-03 | *New York Times* | front page | "520 More Seized" | Branch, *Pillar of Fire*, 577
+1965-02-06 | *New York Times* | front page | "Dr. King to Seek New Voting Law" | Branch, *Pillar of Fire*, 581
+1965-02-07 | *Washington Post* | p. E1 | youth's charges against King, "hit-and-run" | Branch, *Pillar of Fire*, 587
+1965-02-09 | *Montgomery Advertiser* (AP) | front page | "Negroes Don't Know What They Want" | Branch, *Pillar of Fire*, 587
+1965-02-09 | *New York Times* | p. 12 | "Bundy Gives an Optimistic Report on Vietnam" | Branch, *Pillar of Fire*, 584
+1965-02-10 | *New York Times* | front page | "President Promises Dr. King Vote Move" | Branch, *Pillar of Fire*, 584
+1965-02-18 | *Chicago Daily Defender* | banner | "Virus Fells King" | Branch, *Pillar of Fire*, 592
+1965-02-18 | NBC | Marion | Valeriani clubbed; no film survives | Branch, *Pillar of Fire*, 593
+1965-02-19 | *New York Times* | front page | "Khanh Is Deposed" | Branch, *Pillar of Fire*, 595
+1965-02-22 | *Selma Times-Journal* | front page | "Followers of Malcolm X Said Planning Revenge" | Branch, *Pillar of Fire*, 597
+1965-02-22 | *New York Times* | p. 20 | editorial: Malcolm's life "pitifully wasted" | Branch, *Pillar of Fire*, 598
+1965-02-25 | *Chicago's American* | front page | Wallace Muhammad's submission to the Nation | Branch, *Pillar of Fire*, 601 (708)
+1965-02-28 | *New York Times* | p. 74 | "World Pays Little Attention to Malcolm Slaying" | Branch, *Pillar of Fire*, 598
+1965-03-03 | *Los Angeles Times* |  | Judge Coleman's suspensions in the Stokes case | Branch, *Pillar of Fire*, 604 n.
 1965-07 | *Life* | picture | Ball in tears at Stevenson's memorial service (Check: the issue) | Ball, *The Past Has Another Pattern*, 152
 1965-11 | (a news photograph) | photograph | Rusk at Montevideo, the spit dubbed into the negative | Rusk, *As I Saw It*, 571–72
+1966-01-10 | *Hattiesburg American* | front page | the attack on the Dahmers | Branch, *Pillar of Fire*, 606
+1966-01-11 | *Hattiesburg American* | front page | Dahmer's death; Katzenbach's statement | Branch, *Pillar of Fire*, 607
+1966-01-11 | *New York Times* | p. 10 | the Dahmer attack | Branch, *Pillar of Fire*, 606
+1966-01-13 | *Hattiesburg American* | front page | the cause of Dahmer's death | Branch, *Pillar of Fire*, 607
+1966-01-15 | *Hattiesburg American* | front page | the crowd at the courthouse | Branch, *Pillar of Fire*, 607
+1966-01-22 | *Hattiesburg American* | front page; p. 4 | whites rebuild for the Dahmers; Mrs. J. V. Sanford's letter | Branch, *Pillar of Fire*, 607
 1966-02 | *New York Times* (Wicker) | dispatch | the Bangkok communiqué filed first | Humphrey, *Education of a Public Man*, 332
 1966-02 | *New York Times* | story (Broder) | Romney: "fuzziness on national and international issues" | White, *Making of the President 1968*, 40
 1966-03-01 | *New York Post* (Wechsler) | column | "His righteous rhetoric is almost reminiscent of Richard Nixon" | Solberg, *Hubert Humphrey*, 293
 1966-03-12 | *New Republic* | article | Humphrey "a kind of export ADA" | Solberg, *Hubert Humphrey*, 292
 1966-04-01 | *Time* | cover | Humphrey; "a White House Uriah Heep" | Solberg, *Hubert Humphrey*, 295
+1966-04-08 | *Time* | p. 27 | the Dahmer case | Branch, *Pillar of Fire*, 610
 1966-04-29 | *New York Times* (Reston) | column | "Alas, Poor Hubert" | Solberg, *Hubert Humphrey*, 295
 1966-07-29 | *New York Post* (McGrory) | column | "The Vice President is not a proud man" (Check: the day) | Solberg, *Hubert Humphrey*, 295
+1967-02-21 | *New York Times* |  | the grand-jury claims in the Dahmer and Neshoba cases | Branch, *Pillar of Fire*, 609
+1967-02-28 | *New York Times* | p. 40 | the same | Branch, *Pillar of Fire*, 609
+1967-03-01 | *New York Times* | front page | the same | Branch, *Pillar of Fire*, 609
 1967-04-23 | *New York World Journal Tribune* | article | Thimmesch, "The New New Nixon" | White, *Making of the President 1968*, 53 n.9
 1967-09 | *Time* | cover | Peggy Rusk's wedding to Guy Smith (Check: the issue) | Rusk, *As I Saw It*, 581
 1967-09-05 | *New York Times* | p. 28 | Romney "brainwashing" | White, *Making of the President 1968*, 59
 1967-09-05 | the networks' evening news | broadcast | the Gordon clip | White, *Making of the President 1968*, 60
 1967-09-10 | *Detroit News* | Sunday editorial | Romney to quit | White, *Making of the President 1968*, 60
 1967-10 | *Time* | cover | Rockefeller and Reagan | White, *Making of the President 1968*, 60
+1968-01-25 | *Hattiesburg American* | front page | the Forrest County indictments | Branch, *Pillar of Fire*, 610
+1968-01-26 | *New York Times* | p. 17 | the same | Branch, *Pillar of Fire*, 610
 1968-02 | the papers, nationally | front pages (by Rusk's account) | Rusk to Scali at a backgrounder: "Whose side are you on?" | Rusk, *As I Saw It*, 477
 1968-03 | *New York Times* | column (Reston), the first week | "the political system ... has broken down" | White, *Making of the President 1968*, 94–95
+1968-03-16 | *New York Times* | p. 17 | a Dahmer murder conviction | Branch, *Pillar of Fire*, 610
 1968-03-19 | *New York Times* | front page | Rockefeller to declare | White, *Making of the President 1968*, 231
+1968-05-18 | *Hattiesburg American* | front page | Bowers's mistrial | Branch, *Pillar of Fire*, 610
+1968-07-20 | *New York Times* | p. 25 | a Dahmer murder conviction | Branch, *Pillar of Fire*, 610
+1968-07-27 | *Hattiesburg American* | front page | "Doctor Brings New Angle into Wilson Murder Trial" | Branch, *Pillar of Fire*, 710
+1968-07-29 | *New York Times* | p. 18 | a Dahmer murder conviction | Branch, *Pillar of Fire*, 610
 1968-08-27 | Knight newspapers | story | McCarthy: chances zero (`cal.1968-08-27.press-and-broadcasting-3`) | White, *Making of the President 1968*, 282
 1968-08-28 | NBC | broadcast, 9:55 p.m. | the riot film over Stokes | White, *Making of the President 1968*, 302
 1968-09-07 | *Chicago Daily News* | article | Coffey's reconstruction | White, *Making of the President 1968*, 299 n.7

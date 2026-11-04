@@ -420,6 +420,30 @@ CQ Weekly Report, 1968-08-16:
 - Birmingham: "Tall Paul," the disc jockey, announcing D-Day as a "big party," early May 1963 (Branch, 755; interview with Edwin Gardner).
 - Jackson, Miss.: Thompson's committee of his own choosing and the NAACP's boycott of Citizens Council advertisers, May 1963 (Branch, 814; Evers, *For Us, the Living*); Robert Kennedy and the President receive the Jackson NAACP preachers, June 1963 (Branch, 831). Days to find.
 
+### Branch, *Pillar of Fire* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-pillar-of-fire.md)
+
+- Mayor Shelley and Trinity's vestry: the campaign to impeach Judge Simpson (Colburn, *Racial Change*, 131–35).
+- Athens, Ga.: Benny Johnson's death by train, July 6, 1964, the FBI's inquiry (SAC Atlanta to Director, July 15 and 21,
+  1964, FLP-52, FLP-81; *Atlanta Constitution*, July 25, 1964).
+- McComb: the bombing at the end of August, the handyman arrested (U.S. Commission on Civil Rights, *Law Enforcement*
+  (1965), 30–35).
+- Greenwood's mass meeting on nonviolence after the hospital siege, late July (Belfrage, *Freedom Summer*, 183–88).
+- The Oakland meeting of the Friends of SNCC on Savio, Sept. 1964 (Mike Miller to Branch).
+- Selma: the morticians' and barbers' marches, January 1965; the Dunn's Rest Home seamstresses (Boynton to King, Nov.
+  30, 1963, A/KP21f10).
+- Atlanta: the business leaders and the King dinner, January 1965 (Pomerantz, *Where Peachtree Meets Sweet Auburn*,
+  334-40; Allen, *Mayor*, 95-99).
+- Marion: James Orange's arrest, Feb. 18, 1965, the morning (Fager, *Selma 1965*, 72-73).
+- Lowndes County: Rev. Lorenzo Harrison run out, Feb. 28, 1965 (NYT, Mar. 1, 1965, 17).
+- Hattiesburg: the near-riot at the courthouse (*Hattiesburg American*, Jan. 15, 1966, 1); the rebuilding (Jan. 22,
+  1966, 1); Wilkins's fund drive; the second and third confessions, Mar. 1966.
+- Athens, Ga.: Lackey and Guest acquitted, spring 1966 (Rosen to DeLoach, June 16, 1966, FLP-475); Sims and Myers to
+  prison, 1968.
+- Meridian: Price's race for sheriff, 1967; Cox's release of the convicted; two Negro churches burned, 1968 (Nelson,
+  *Terror in the Night*); the payment to Roberts (Jack Nelson, LAT, 1970: the article's day).
+- Hattiesburg, 1968-69: the second and third Dahmer murder convictions (NYT, July 20 and 29, 1968; Feb. 1, 1969);
+  Bowers's second mistrial (NYT, Jan. 26, 1969, 1): its day against the span's end.
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -1608,6 +1632,52 @@ Rights in Conflict (Walker Report):
 - Talmadge, the Strobers, Watson, Harvey, Goldsmith, Mooney, Viorst, Lord, Friedman, Fleming and Bennett: no cards (`./bib works adopt`).
 - The Passed over rows still to be turned into entries under the rules now in force (the book-check, "Resumed, Nov. 3–4, 2026"): pp. 339, 343, 356, 359–64, 369, 375, 381, 385, 387, 393, 397–98, 408, 418–23, 433–37, 443, 448, 450–51, 455, 464, 466, 469, 471–72, 489–98.
 
+### Branch, *Pillar of Fire* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-pillar-of-fire.md)
+
+- Steinbeck to Valenti, July 10 and Aug. 5, 1964, and "Notes and questions for J.V. about LBJ," Valenti Papers, AC 84-57,
+  LBJ Library; Johnson–Steinbeck call, Aug. 21, 1964, Cit. 5111 (Branch 467 n.): communications planning, R7; not entered.
+- Roy Cohn's slander suit against King and others over the July 30 statement on Commissioner Murphy (NYT Apr. 13, May 27,
+  June 3, 1965; Branch 423 n.).
+- Johnson's public acts of Aug. 3, 1964 (land transfer bill, International Hydrological Decade, the foreign-language
+  editors): the Papers' items to be checked against the calendar.
+- Theodore White's CBS *The Making of the President 1964* (Peabody tape 65043): its broadcast date.
+- Goldwater's half-hour broadcast on nuclear weapons and his television spending (Edwards, *Goldwater*, 287, 319).
+- The White House recordings behind the new entries are open on the Miller Center's pages (each in "To check:"): a
+  listening run would move them to the primary record.
+- Part III entries to propose (persons the entries name who have none): James Bevel; Judge Bryan Simpson; Holsted "Hoss"
+  Manucy; Wallace D. Muhammad; Charles Sherrod; Aubrey Williams; Hobart Taylor Jr.; Clarence B. Jones; Harold DeWolf;
+  Eugene Carson Blake; Abraham Heschel; Robert Spike; Harry Belafonte; the Athens Klansmen (Sims, Myers, Lackey, Guest), as
+  defendants (R12). Press figures (R13): Paul Good (ABC), John Herbers (*NYT*), Bill Minor (*Times-Picayune*), John H.
+  Sengstacke (*Chicago Defender*), C. A. Scott (*Atlanta Daily World*), Larry Still (*Jet*).
+- The Christian Nationalist State Army's plot against King at Los Angeles, Feb. 24-25, 1965 (SAC, Los Angeles, to
+  Director, Feb. 24, 1965, FK-980, FK-954; LAT, Feb. 27, 1965, 12).
+- *Cooper v. Pate* (S.D. Ill.; the Supreme Court's order, 1964): Malcolm X as the State's witness, the trial set for
+  Feb. 22, 1965 (Chicago Tribune, June 8, 1965).
+- The Nation of Islam's convention, Chicago, Feb. 26, 1965 (the Epilogue, 601).
+- Part III entries to propose: Louis Martin (DNC); Harry Wachtel; Clarence Jones (again); C. T. Vivian; James Bevel
+  (again); Hosea Williams has one; Wilson Baker has one; Archibald Carey; Raymond Sharrieff; Louis X (Farrakhan); Leon
+  4X Ameer, Talmadge Hayer has one; Jesse Morris; Albert Turner; F. D. Reese; Annie Lee Cooper; Frank Soracco. Press
+  (R13): Eugene Patterson (*Atlanta Constitution*), Richard Valeriani (NBC), Roy Reed and John Herbers (*NYT*), Irv
+  Kupcinet, Les Crane, Gordon Parks (*Life*).
+- Head Start's announcement, Feb. 19, 1965: the record (Levitan, *Great Society's Poor Law*, 136); the Papers print no
+  item that day.
+- The Nation of Islam: the arrests of Hayer's two co-defendants, Feb.-Mar. 1965 (Goldman, *Death and Life*); Hayer's
+  testimony at the trial, 1966 (ibid., 318-59); the Newark temple wrecked by the police (*Jet*, Jan. 13, 1966, 24-27);
+  the FBI's anonymous mailings on Temple No. 7, 1968 (Magida, *Prophet of Rage*, 105).
+- The Los Angeles police's shooting of Ronald Stokes and the Muslims, Apr. 1962, and the trial: not in the calendar
+  (for the reader of *Parting the Waters*); the convictions' days (LAT, Mar. 3, 1965).
+- Moses, 1965-68: the summer conference of antiwar activists in New York with Lowenstein (Chafe, 218-20); the Ghana
+  conference, autumn 1965; the "Roots" conference, New Orleans, spring 1966; his induction notice's date; Tanzania's
+  asylum, summer 1968.
+- Cager Lee's day: Branch's Aug. 20, 1965, against the examiners' first day, Aug. 10, in the calendar (Owens to
+  Blackwell, Aug. 21, 1965, A/SC146f5; Doar, Fla. St. U. L. Rev., Fall 1997, 14).
+- *The Autobiography of Malcolm X*: Doubleday's cancellation and Grove's publication day (Warren, Baltimore Sun, Nov.
+  16, 1992).
+- Part III entries to propose: Wallace D. Muhammad (W. D. Mohammed); Louis X (Farrakhan); Norman 3X Butler; Captain
+  Joseph (Yusuf Shah); J. C. Fairley; J. L. Martin (FBI); Roy K. Moore (FBI, Jackson); Lawrence Byrd; Billy Roy Pitts;
+  Charles Wilson (Laurel); Delmar Dennis; Thomas Tarrants; Kathy Ainsworth; Devours Nix; Cager Lee. Press (R13): Eliot
+  Fremont-Smith (*NYT*); I. F. Stone (*I. F. Stone's Weekly*, *NYRB*); Jack Nelson (*LAT*).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2669,6 +2739,16 @@ CQ Weekly Report, 1968-08-30:
 
 - Ecuador: the military coup against President Carlos Arosemena, July 1963 (New York Times, July 12, 1963, 1, cited by Branch, 851 n.2); no thread for Ecuador found.
 - Rallies for Birmingham in Birmingham, England, and Havana, May 1963 (Chicago Defender, May 11, 1963, 4, cited by Branch, 806 n.9).
+
+### Branch, *Pillar of Fire* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-pillar-of-fire.md)
+
+- Taylor's cable, "Khanh has a 50/50 chance of lasting out the year," and Khánh's state of siege, Aug. 7, 1964 (Gravel ed.,
+  *Pentagon Papers*, II, 329; III, 530–33).
+- Rusk's cable, "a pervasive infusion of Americans" (Karnow, *Vietnam*, 361).
+- Bundy from Saigon, Feb. 4, 1965, "a civil war within a civil war" (McNamara, *In Retrospect*, 170): the calendar's
+  Feb. 4 entries not checked against it.
+- Malcolm X in Paris refused, Feb. 9, 1965 (Legat, Paris, to Director, Feb. 11, 1965, FMX-233): France's record.
+- Tanzania's tacit asylum to Moses, summer 1968 (int. Moses, Feb. 15, 1991): the government's record.
 
 ## The Executive roster
 
