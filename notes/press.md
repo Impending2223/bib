@@ -7,6 +7,8 @@ the merger copies them here, by date, until the daily list is built. A line each
 date | outlet | broadcast, front page or cover | the items, clipped | source, page
 
 1960-03 | Joseph Alsop's column | column | door-to-door poll at Wausau: Humphrey "lucky" to get a hundred votes | Humphrey, *Education of a Public Man*, 208
+1960-04-04 | NBC (Vanocur) | exchange | Robert Kennedy and Vanocur, Milwaukee, the eve of the Wisconsin primary | Thomas, *Robert Kennedy*, 108
+1960-04-05 | CBS | broadcast | Wisconsin's primary night; Robert Kennedy at Cronkite; the IBM analysis | Thomas, *Robert Kennedy*, 93
 1960-06 | *New York Herald Tribune* | item | Rockefeller's "buckshot indictment" of Nixon "quite indefensible" | Smith, *On His Own Terms*, 340
 1960-06 | *New York Journal-American*, Knebel | item | GOP to stand for "Grand Old Patricide" | Smith, *On His Own Terms*, 340
 1960-06 | *Wall Street Journal* | story | Novak on Symington's campaign (entered) | White, *Making of the President 1960*, 126–27
@@ -21,30 +23,45 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1960-10-26 | *New York Herald Tribune* | story | Cuba's defenses, the Castros in Las Villas, three thousand arrests | Fursenko and Naftali, *"One Hell of a Gamble"*, 67
 1960-10-31 | the correspondents with Kennedy | the wire file (Western Union) | 90,000 words a day, from an average of 60,000, Oct. 31–Nov. 7 | White, *Making of the President 1960*, 324 n.2
 1960-11 | *Wall Street Journal*; *New York Daily News* | item | Rockefeller blamed for Nixon's loss ("Nixon's Lonely Battle," *WSJ*, Oct. 28) | Smith, *On His Own Terms*, 350
+1960-11 | (Kempton) | exchange | Kempton asks Robert Kennedy about the call to King's judge | Thomas, *Robert Kennedy*, 104
 1960-11-10 | the morning papers (unnamed) | stories | Nixon's remarks at Andrews the night before, quoted | Nixon, *Six Crises*, 401
 1961-01 | *New York Times* (Reston) | column | live televised press conferences "the goofiest idea since the hula hoop" | Sorensen, *Kennedy*, 322–23
 1961-01-23 | *U.S. News and World Report* | article | "Goldwater's Platform for 'The Forgotten American'" | Goldberg, *Barry Goldwater*, 151 n.11
 1961-01-27 | *Human Events* | article | "The Forgotten American," parts 1 and 2 | Goldberg, *Barry Goldwater*, 151 n.11
 1961-02-06 | *Washington Evening Star* | headlines | McNamara: no missile gap | McNamara, *In Retrospect*, ch. 1
 1961-02-07 | *New York Times* | front page | McNamara: no missile gap | McNamara, *In Retrospect*, ch. 1
+1961-03 | *Look* | article | Maas, "Robert Kennedy Speaks Out" (Thomas's note: Mar. 22) | Thomas, *Robert Kennedy*, 126
+1961-03-03 | *New York Times* | item | White and Robert Kennedy tossing a football in his office | Thomas, *Robert Kennedy*, 114
 1961-03-25 | *Business Week* | article | "Apostle of Conservatism": Goldwater "as handsome as a movie star" | Goldberg, *Barry Goldwater*, 149 n.2
+1961-06-02 | *Life* | article | "Crisis in Latin America": Castro's "Messianic eyes" | Thomas, *Robert Kennedy*, 146
+1961-06-02 | *Life* | article | the siege of the First Baptist Church | Thomas, *Robert Kennedy*, 130 n.
 1961-07-03 | *New York Times* | front page | "Operation Goldwater" | Goldberg, *Barry Goldwater*, 149 n.1
 1961-08-30 | *Time* | story | the Bay of Pigs: Rusk canceled the air support, the President backing him (condensed from *Fortune*) | Sorensen, *Kennedy*, 316
+1961-09-15 | *Life* | cover story | "How You Can Survive Fallout," with the President's letter | Thomas, *Robert Kennedy*, 136
+1961-09-23 | *New York Times* | item | a film of *The Enemy Within* | Thomas, *Robert Kennedy*, 115 n.
 1961-11-20 | *Syracuse Herald-Journal* | item | "Too Much," on the separation | Smith, *On His Own Terms*, 365
 1961-12-13 | *New York Daily News* | item | Rockefeller "on the brink of resignation" | Smith, *On His Own Terms*, 370
 1961-12-19 | New York Herald Tribune | story | the Albany truce "a devastating loss of face" for King (entered) | Branch, *Parting the Waters*, 557
 1961-12-20 | *Evening Standard* (London) | item | Lady Jeanne Campbell names Happy Murphy | Smith, *On His Own Terms*, 377
 1962 | *Time* | item | rumors of a Rockefeller marriage to Mrs. Murphy (early 1962) | Smith, *On His Own Terms*, 406
 1962 | *New York Times* | item | editorial on the budget: "Maybe" | Smith, *On His Own Terms*, 382
+1962-01-06 | radio (Pearson) | broadcast | Hoover to be "eased out" | Thomas, *Robert Kennedy*, 166
+1962-01-26 | *Life* | article | O'Neil, "The No. 2 Man in Washington" | Thomas, *Robert Kennedy*, 115
+1962-02-19 | *Newsweek* | item | Robert Kennedy's tour | Thomas, *Robert Kennedy*, 166 n.
+1962-02-26 | *Newsweek* | item | the Kennedys in Rome; Ethel Kennedy on a scooter | Thomas, *Robert Kennedy*, 166 n.
 1962-04 | *Confidential* | item | the Rockefeller-Murphy romance | Smith, *On His Own Terms*, 406
 1962-04-09 | *New York Times* | story | Kennedy and the Shah to watch LANTPHIBEX at Norfolk | Fursenko and Naftali, *"One Hell of a Gamble"*, 166
 1962-04-12 | the *Wall Street Journal* (John Lawrence), the AP (Lee Linder) and the *Wilmington Evening Journal* (James L. Parks Jr.) | stories | the FBI's calls on the reporters; Linder's story | Guthman, *We Band of Brothers*, 233–34
 1962-05 | *New York Herald Tribune* | front pages | speculative stories on Billie Sol Estes; the stockpile errors not covered | Sorensen, *Kennedy*, 317
 1962-06 | *The New Yorker* | serial | *Silent Spring* serialized | Bernstein, *Guns or Butter*, 263
+1962-06-21 | *New York Times* | item | the Hickory Hill pool | Thomas, *Robert Kennedy*, 183 n.
+1962-07-02 | *U.S. News & World Report* | article | "Fun in the New Frontier: Who Fell, Who Was Pushed" | Thomas, *Robert Kennedy*, 183
 1962-07-11 | New York Times and papers across the country | front page | King's jailing at Albany, under the Telstar story; the Times recalls the jailing of 1960 | Branch, *Parting the Waters*, 601–2
 1962-07-12 | Albany Herald | front page | "King Languishes in Bastille" (Branch puts it with the jailing); "Mayor Stays Mum" | Branch, *Parting the Waters*, 602, 607
 1962-07-24 | Albany Herald | front page | "Judge Tuttle Rules with Negro Leaders" | Branch, *Parting the Waters*, 616
 1962-07-25 | Albany Herald | front page | photograph of trooper Claude Hill holding the rock; Gray, "Albany Will Stand" | Branch, *Parting the Waters*, 616, 618
+1962-08-04 | *New York Times* | item | Brumus at the Justice Department | Thomas, *Robert Kennedy*, 186 n.
+1962-08-07 | *Seattle Post-Intelligencer* | item | Robert Kennedy on Hoover | Thomas, *Robert Kennedy*, 194 n.
 1962-08-08 | New York Times | story | "U.S. Intervenes on Negroes' Side" (the amicus brief) | Branch, *Parting the Waters*, 628
 1962-08-29 | Albany Herald | headline | "Crowd Cheers as Cops Clap Clerical Crowd in Calaboose" | Branch, *Parting the Waters*, 631
 1962-09-26 | New York Times | front page | three Meredith stories under "U.S. Is Prepared to Send Troops as Mississippi Governor Defies Court and Bars Negro Student" | Branch, *Parting the Waters*, 649
@@ -70,6 +87,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-02-12 | *New York Times* | item | Szulc, "U.S. and Britain Recognize Iraq: Soviet Also Acts" | Fursenko and Naftali, *Khrushchev's Cold War*, 512
 1963-02-20, 24, 25 | *Washington Post* | items | the Soviet bloc's campaign on Iraq; Iraq's charges; ar-Radi | Fursenko and Naftali, *Khrushchev's Cold War*, 512
 1963-03-04, 12, 14 | *New York Times* | items | Schwartz on meat; Salisbury, "The Khrushchev Line"; Topping on Peking's invitation | Fursenko and Naftali, *Khrushchev's Cold War*, 513–15
+1963-03-11 | *Newsweek* | article | "The Friends and Enemies Within" | Thomas, *Robert Kennedy*, 115 n.
 1963-03-29 | New York Times | front page | "Police Loose a Dog on Negroes' Group, Minister Is Bitten," photograph under the Republican leaders (entered) | Branch, *Parting the Waters*, 720
 1963-04-03 | New York Times | front page | Dick Gregory, arms twisted behind him by the Greenwood police (entered) | Branch, *Parting the Waters*, 723
 1963-04-05 | New York Times | inside, 16 | "Integration Drive Slows," Birmingham; Apr. 6, 20: "Demonstrations Fail to Develop" | Branch, *Parting the Waters*, 711
@@ -86,6 +104,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-04-21 | *Washington Post* | item | "K Back at Work Ignores Attack in Albania Press" | Fursenko and Naftali, *Khrushchev's Cold War*, 520
 1963-04-22 | Newsweek | magazine, 28-29 | Birmingham | Branch, *Parting the Waters*, 737 n.1
 1963-04-28 | Birmingham News | inside, 6 | "Greenwood Rolled with Punch, And Won" | Branch, *Parting the Waters*, 753
+1963-05 | NBC News | broadcast | "RFK" | Thomas, *Robert Kennedy*, 110 n.
 1963-05-04 | New York Times | front page | three photographs two columns wide: the Gadsden dog photograph, the monitor gun, the freedom walkers dragged to jail at Fort Payne | Branch, *Parting the Waters*, 764
 1963-05-04 | *BusinessWeek* | item | a party source: "If he marries Mrs. Murphy ... he might as well take the gaspipe" | Smith, *On His Own Terms*, 407
 1963-05-07 | Birmingham News | final edition, front page | Hanson's telegram to the President (entered); inside, "Negro Mobs Break Through Police: Swarm Over Downtown Area" | Branch, *Parting the Waters*, 777
@@ -262,6 +281,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1966-10-21 | *New York Daily News* | item | its straw poll: O'Connor ahead | Smith, *On His Own Terms*, 491
 1966-11-13 | *New York Times* | editorial | "Republican Renascence" (an entry) | Zelizer, *Fierce Urgency of Now*, 259
 1966-12-25–1967-01-03 | *New York Times*, Salisbury | dispatches | from Hanoi (in the tree) | Bernstein, *Guns or Butter*, 412
+1967-02-12 | *New York Times Magazine* | article | Reeves, "The People Around Bobby" | Thomas, *Robert Kennedy*, 114
 1967-02-21 | *New York Times* |  | the grand-jury claims in the Dahmer and Neshoba cases | Branch, *Pillar of Fire*, 609
 1967-02-28 | *New York Times* | p. 40 | the same | Branch, *Pillar of Fire*, 609
 1967-03-01 | *New York Times* | front page | the same | Branch, *Pillar of Fire*, 609
@@ -394,3 +414,4 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-11-04 | US News & World Report | article | Sol W. Sanders, "Why Communists Need a Truce" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 995
 1968-12-29 | *New York Times Magazine* | article | Searle, "A Foolproof Scenario for Student Revolts" | White, *Making of the President 1968*, 219 n.8
 1969-01-17 | the press | items | the set-asides broken | Bernstein, *Guns or Butter*, 305
+1976-02-14 | *New York Times* | article | Gage, "Ex-Aides Say Justice Dept. Rejected Sinatra Inquiry" | Thomas, *Robert Kennedy*, 173 n.

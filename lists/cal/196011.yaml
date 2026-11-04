@@ -334,7 +334,7 @@ entries:
     thread: elections-1960
     also: [king]
     c: The last Sunday before the election. Nearly two million copies of the Kennedy campaign's pamphlet on the King case, "'No Comment' Nixon Versus a Candidate with a Heart, Senator Kennedy," on blue paper, the "blue bomb," handed out at Negro churches. Shriver's decision, kept from Robert Kennedy; a committee of ministers its nominal sponsor.
-    n: '[[w.branch-parting-the-waters]], 368, 372–73; [[w.kotz-judgment-days]], 52 (the flyers in Negro churches, with King Sr.''s switch to Kennedy). See [[cal.1960-10-25.king]]. Names: Shriver, Robert Kennedy.'
+    n: '[[w.branch-parting-the-waters]], 368, 372–73; [[w.kotz-judgment-days]], 52 (the flyers in Negro churches, with King Sr.''s switch to Kennedy); [[w.thomas-robert-kennedy]], 102 (the leaflets at Negro churches and bars: "Jack Kennedy called Mrs. King"; "Richard Nixon did not"). Check: Thomas gives "hundreds of thousands" of leaflets (102). See [[cal.1960-10-25.king]]. Names: Shriver, Robert Kennedy.'
     src:
       c: bdf90e7f
       rows:
@@ -342,6 +342,8 @@ entries:
         - 'w.branch-parting-the-waters 368: C-D'
         - 'via w.branch-parting-the-waters 373 n.2: B'
         - 'w.kotz-judgment-days 52: A'
+        - 'w.thomas-robert-kennedy 102: B'
+        - 'via w.thomas-robert-kennedy 102 n.leaflets-and-handbills: B'
     tags: [name:shriver-r-sargent, name:kennedy-robert-f]
   - id: cal.1960-11-06.elections-1960-2
     when: Nov. 6
@@ -792,6 +794,19 @@ entries:
         - 'w.fursenko-one-hell-of-a 71–72: all'
         - 'via w.fursenko-one-hell-of-a 71 n.55: all'
     tags: [name:castro-fidel, name:khrushchev-nikita-s, name:mikoyan-anastas, name:suslov-mikhail-a, name:ponomarev-boris-n]
+  - id: cal.1960-11-08.elections-1960-9
+    when: Nov. 8
+    date: '1960-11-08'
+    thread: elections-1960
+    also: [robert-kennedy]
+    c: 'Hyannis Port, election night. Robert Kennedy''s command center on the sunporch of his cottage, with Harris and the returns. At 7:15 p.m.: "We''re being clobbered"; minutes later Bailey calls: Connecticut carried, a heavy turnout. In the small hours Daley to Robert Kennedy: Illinois will come in. Robert Kennedy the last awake; to bed about 7 a.m.'
+    n: '[[w.thomas-robert-kennedy]], 107. To check: [[w.white-making-of-the-president]], 344–47; James W. Hilty, *Robert Kennedy: Brother Protector*, 179 (cited by [[w.thomas-robert-kennedy]], 107). See [[cal.1960-11-08.elections-1960-3]]. Names: Robert Kennedy, Harris, Daley.'
+    src:
+      c: 7824f674
+      rows:
+        - 'w.thomas-robert-kennedy 107: all'
+        - 'via w.thomas-robert-kennedy 107 n.election-returns: all'
+    tags: [name:kennedy-robert-f, name:harris-louis, name:daley-richard-j]
   - id: cal.1960-11-09.transition-and-staff
     when: Nov. 9–10
     date: '1960-11-09'
@@ -1519,11 +1534,12 @@ entries:
     thread: transition-and-staff
     also: [robert-kennedy]
     c: Palm Beach. William Lawrence of the *New York Times*, after golf with the President-elect, reports Robert Kennedy under serious consideration for Attorney General. Nov. 23, the *Times*, in an editorial, against.
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 230. To check: *New York Times*, Nov. 23, 1960 (cited by [[w.schlesinger-robert-kennedy-and-his]], 230 n.32). Check: the day of Lawrence''s report. Names: Robert Kennedy, John F. Kennedy.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 230; [[w.thomas-robert-kennedy]], 109 (Kennedy floats the name, playing golf with a *Times* reporter, Nov. 19; the *Times* against). To check: *New York Times*, Nov. 23, 1960 (cited by [[w.schlesinger-robert-kennedy-and-his]], 230 n.32). Check: the day of Lawrence''s report. Names: Robert Kennedy, John F. Kennedy.'
     src:
       c: 6ad45a70
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 230: all'
+        - 'w.thomas-robert-kennedy 109: B-C'
     tags: [name:kennedy-robert-f, name:kennedy-john-f, state:fl]
   - id: cal.1960-11-20.japan-and-korea
     when: Nov. 20
@@ -1663,12 +1679,14 @@ entries:
     thread: press-and-broadcasting
     also: [robert-kennedy]
     c: 'The *New York Times*, an editorial, on a trial balloon: "It is simply not good enough to name a bright young political manager, no matter how bright or how young or how personally loyal, to a major post in government."'
-    n: '[[w.shesol-mutual-contempt]], 65. To check: *New York Times*, Nov. 23, 1960 (cited by [[w.shesol-mutual-contempt]], 65). See [[cal.1960-12-16.robert-kennedy]]. Names: Robert Kennedy.'
+    n: '[[w.shesol-mutual-contempt]], 65; [[w.thomas-robert-kennedy]], 109 (an editorial against nepotism). To check: *New York Times*, Nov. 23, 1960 (cited by [[w.shesol-mutual-contempt]], 65). See [[cal.1960-12-16.robert-kennedy]]. Names: Robert Kennedy.'
     src:
       c: 81ea3108
       rows:
         - 'w.shesol-mutual-contempt 65: all'
         - 'via w.shesol-mutual-contempt 65 n.not-good-enough: all'
+        - 'w.thomas-robert-kennedy 109: A'
+        - 'via w.thomas-robert-kennedy 109 n.times-editorialized: A'
     tags: [name:kennedy-robert-f]
   - id: cal.1960-11-23.laos
     when: Nov. 23
@@ -2067,3 +2085,27 @@ entries:
       c: 490a54de
       rows:
         - 'w.fursenko-one-hell-of-a 73: all'
+  - id: cal.1960-11.elections-1960-6
+    when: Nov., early
+    date: 1960-11
+    thread: elections-1960
+    c: 'The campaign''s last week. Robert Kennedy has Haddad, a New York Post reporter he uses as an investigator, work with Bellino, his accountant from the Rackets Committee, on a file of negative research on Nixon: by Haddad''s later account, Nixon''s land deals with Rebozo among it.'
+    n: '[[w.thomas-robert-kennedy]], 106. Names: Robert Kennedy, Nixon, Rebozo. Check: the day.'
+    src:
+      c: e2544a65
+      rows:
+        - 'w.thomas-robert-kennedy 106: all'
+        - 'via w.thomas-robert-kennedy 106 n.haddad-role: all'
+    tags: [name:kennedy-robert-f, name:nixon-richard-m, name:rebozo-charles-g]
+  - id: cal.1960-11.press-and-broadcasting
+    when: Nov.
+    date: 1960-11
+    thread: press-and-broadcasting
+    also: [robert-kennedy, king]
+    c: 'After the election. Kempton asks Robert Kennedy whether he is glad he called King''s judge. Robert Kennedy: "Sure I''m glad, but I would hope I''m not glad for the reason you think I''m glad."'
+    n: '[[w.thomas-robert-kennedy]], 104. To check: [[w.schlesinger-robert-kennedy-and-his]], 218 (cited by [[w.thomas-robert-kennedy]], 104). See [[cal.1960-10-25.king]]. Names: Robert Kennedy.'
+    src:
+      c: 64be4283
+      rows:
+        - 'w.thomas-robert-kennedy 104: all'
+    tags: [name:kennedy-robert-f]

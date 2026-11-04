@@ -318,6 +318,19 @@ entries:
         - 'w.woods-fulbright 290: all'
         - 'via x.1961-08.boyd-senate-argues-foreign-policy: all'
     tags: [name:goldwater-barry-m, name:fulbright-j-william]
+  - id: cal.1961-07-13.crime-and-hijacking
+    when: July 13
+    date: '1961-07-13'
+    thread: crime-and-hijacking
+    also: [crime-and-hijacking-maheu]
+    c: 'SAC Chicago to Hoover: at the Phoenix airport agents question Giancana, traveling with Phyllis McGuire, on the Maheu wiretap. Giancana: "I love this country and I would sacrifice my life for it. I proved this not long ago"; the "super super boss," the Kennedys; "one of these days we are going to tell all!"'
+    n: '[[w.thomas-robert-kennedy]], 161–62. To check: SAC Chicago to Hoover, July 13, 1961, House Assassinations Committee Records, National Archives (cited by [[w.thomas-robert-kennedy]], 162 n.). Names: Hoover, Giancana. Check: the day of the questioning.'
+    src:
+      c: 4c7996fb
+      rows:
+        - 'w.thomas-robert-kennedy 161–62: all'
+        - 'via x.1961-07-13.sc713-thomas: all'
+    tags: [name:hoover-j-edgar, name:giancana-sam]
   - id: cal.1961-07-14.mississippi
     when: July 14
     date: '1961-07-14'
@@ -355,6 +368,18 @@ entries:
         - 'w.solberg-hubert-humphrey 217: all'
         - 'via w.solberg-hubert-humphrey 217 n.berlin-memo: all'
     tags: [name:humphrey-hubert-h, name:kennedy-john-f]
+  - id: cal.1961-07-14.crime-and-hijacking
+    when: July 14
+    date: '1961-07-14'
+    thread: crime-and-hijacking
+    c: Hoover to Robert Kennedy on Giancana at the Phoenix airport, his remarks about the Kennedys left out.
+    n: '[[w.thomas-robert-kennedy]], 162 n.. To check: Hoover to Robert Kennedy, July 14, 1961, House Assassinations Committee Records, National Archives (cited by [[w.thomas-robert-kennedy]], 162 n.). See [[cal.1961-07-13.crime-and-hijacking]]. Names: Hoover, Robert Kennedy, Giancana.'
+    src:
+      c: ef201a85
+      rows:
+        - 'w.thomas-robert-kennedy 162 n.: all'
+        - 'via x.1961-07-14.h714-thomas: all'
+    tags: [name:hoover-j-edgar, name:kennedy-robert-f, name:giancana-sam]
   - id: cal.1961-07-15.berlin-and-vienna
     when: July 15
     date: '1961-07-15'
@@ -763,6 +788,19 @@ entries:
         - 'w.sorensen-kennedy 614: D'
     tags: [name:kennedy-john-f, name:nitze-paul, name:acheson-dean-g, name:heller-walter-w, name:samuelson-paul-a]
     aliases: [cal.1961-07-25.economy]
+  - id: cal.1961-07-25.press-and-broadcasting
+    when: July 25
+    date: '1961-07-25'
+    thread: press-and-broadcasting
+    also: [berlin-and-vienna]
+    c: Marguerite Higgins of the New York Herald Tribune calls Robert Kennedy, by his phone messages.
+    n: '[[w.thomas-robert-kennedy]], 138. To check: Robert Kennedy''s phone messages, July 25, 1961, JFK Library (cited by [[w.thomas-robert-kennedy]], 138). Names: Robert Kennedy.'
+    src:
+      c: 1fb5b632
+      rows:
+        - 'w.thomas-robert-kennedy 138: all'
+        - 'via x.1961-07-25.robert-kennedy-phone-messages-higgins: all'
+    tags: [name:kennedy-robert-f]
   - id: cal.1961-07-26.berlin-and-vienna
     when: July 26–27
     date: '1961-07-26'
@@ -828,6 +866,19 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 378: all'
         - 'via w.fursenko-khrushchevs-cold-war 378 n.54: all'
     tags: [name:ulbricht-walter, name:pervukhin-mikhail-georgievich]
+  - id: cal.1961-07-27.press-and-broadcasting
+    when: July 27
+    date: '1961-07-27'
+    thread: press-and-broadcasting
+    also: [berlin-and-vienna, robert-kennedy]
+    c: 'Higgins in the New York Herald Tribune, from "State Department officials": the President would be interested in "some kind of 20- to 50-year nonaggression pact" with Khrushchev. Two days after his speech on Berlin.'
+    n: '[[w.thomas-robert-kennedy]], 138. To check: *New York Herald Tribune*, July 27, 1961 (cited by [[w.thomas-robert-kennedy]], 138). See [[cal.1961-07-25.press-and-broadcasting]]. Names: Kennedy, Khrushchev. Check: Thomas reads the story as a leak of Robert Kennedy''s (138).'
+    src:
+      c: cb650123
+      rows:
+        - 'w.thomas-robert-kennedy 138: all'
+        - 'via x.1961-07-27.higgins-new-york-herald-tribune-nonaggression: all'
+    tags: [name:kennedy-john-f, name:khrushchev-nikita-s]
   - id: cal.1961-07-28.laos
     when: July 28
     date: '1961-07-28'
@@ -1017,3 +1068,15 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 251: all'
     tags: [name:rusk-dean]
+  - id: cal.1961-07.berlin-and-vienna
+    when: July
+    date: 1961-07
+    thread: berlin-and-vienna
+    also: [robert-kennedy, soviet-union]
+    c: A lunch arranged by Bolshakov with Menshikov, the Soviet Ambassador. Robert Kennedy, angered by Menshikov's dismissal of American resolve on Berlin, nearly walks out.
+    n: '[[w.thomas-robert-kennedy]], 137–38. To check: [[w.reeves-president-kennedy]], 195; [[w.beschloss-crisis-years]], 255 (cited by [[w.thomas-robert-kennedy]], 137). Names: Bolshakov, Menshikov, Robert Kennedy. Check: the day.'
+    src:
+      c: 08dab480
+      rows:
+        - 'w.thomas-robert-kennedy 137–38: all'
+    tags: [name:bolshakov-georgi, name:menshikov-mikhail, name:kennedy-robert-f]

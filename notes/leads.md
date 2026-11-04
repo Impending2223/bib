@@ -484,6 +484,9 @@ CQ Weekly Report, 1968-08-16:
 - Arkansas: the State Democratic Committee's minutes, June 27 and Aug. 10, 1968; the 1960 primary's candidates'
   filings; the AFL-CIO convention of June 1968; the *Arkansas Gazette* run of 1960-68 (Woods's chief newspaper source).
 
+### Thomas, *Robert Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
+- The Wayne County, W. Va., case of 1960-63 (RFK to Burke Marshall, Sept. 23, 1963, Burke Marshall Papers); Danville, Va., 1963, Geoghegan sent (Geoghegan OH, JFKL; 112); Savannah, Sept. 1960 (Scott Peek OH, SHO); Chafin's *Just Good Politics*, 127-45 (Logan County, W. Va.?), not held.
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -2038,6 +2041,14 @@ Rights in Conflict (Walker Report):
 - Kennedy's Cuba economy request and Goodwin's economic-warfare proposal, Sept. 1961 (143 n.47–48): the days.
 - The press: Frank Holeman (*New York Daily News*, Nixon's beat and the Bolshakov channel; the work treats him at 110–12, 249, 275): a Part III entry; he is named in the new entries of Apr. 29–30, 1961, but not in Names. Paul W. Ward (*Baltimore Sun*?), his article of early December 1963 on a right-wing plot (348): the day and paper.
 
+### Thomas, *Robert Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
+- FRUS 1961-63, X, doc. 275, McCone's record of the meeting of Nov. 21, 1961 (the President, Robert Kennedy, Lansdale, Goodwin; the plan of action on Cuba within two weeks): read, not in the calendar, not Thomas's event.
+- The Caribbean Survey Group's minutes of Mar. 25, 1962 (Robert Kennedy on "kidnapping some key people"; Thomas, 152 n.); McCone's memorandum of July 3, 1962 on the prisoners (FRUS X, 842; 178 n.); McManus to Helms, Nov. 5, 1962 (235 n.); Harvey's Church Committee testimony of July 11, 1975 (151 n.).
+- Jones to DeLoach, Mar. 24, 1961, on Schulberg's film of *The Enemy Within* (115 n.); McMillan's 48-page memorandum on Sinatra, 1961-63, RFK Confidential File (173 n.); Summers, *Official and Confidential*, 289 (Hoover's fear of replacement, Dec. 1961).
+- Undated in Thomas, to date from the sources his notes give: Corbin in West Virginia (94); Singleton at Houston and Graves at St. Louis (99); Sinatra's investigator's report on Nixon (107); the extortion schemes (108); the Keogh stairway argument (113); "an attorney general we can't fix" (114); the Treasury's eavesdropping course (118); the Georgetown police "academy" (142); Ball's Zanzibar memorandum (143); JM/WAVE's cost (151); Robert Kennedy and Harvey (151-52); Guantánamo supplies for an underground (178); Abdullah and the Hotel Theresa (178); the Dunbar High pool (185); the Hickory Hill seminars (188); Tretick's pictures (190); the denials to editors on Monroe (192); the FBI's test of the Russians' wine (208); the tally of the ExComm (217); the CIA's stand-down of sabotage (234); Artime's bases in Guatemala, Costa Rica and Nicaragua, 1963 (238).
+- The press figures without a name entry whom this run names or enters: Sander Vanocur (NBC), Murray Kempton, Marguerite Higgins (*New York Herald Tribune*), Peter Maas (*Saturday Evening Post*), Frank Holeman (*New York Daily News*), William Haddad (*New York Post*), Warren Rogers (*New York Herald Tribune*): proposed for Part III.
+- Thomas's interviews (some ninety persons) are not deposited: every such witness is open. The Stein and Plimpton oral histories (STOH) and the Senate Historical Office's (SHO) are named but not read.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -3204,6 +3215,9 @@ CQ Weekly Report, 1968-08-30:
 - The Second Declaration of Havana (Feb. 4, 1962, to check), quoted at 168: not in the calendar.
 - A Taiwanese U-2 shot down over China, Sept. 8, 1962 (214): not in the calendar.
 - Barghoorn's arrest, Oct. 31, 1963 (344): to check against the calendar.
+
+### Thomas, *Robert Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
+- The *Indigirka* at Mariel, Oct. 4, 1962, and the *Marucla*, Oct. 26 (Fursenko and Naftali, 213, 426): for the missile-crisis thread if not in.
 
 ## The Executive roster
 

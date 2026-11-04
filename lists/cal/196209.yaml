@@ -19,7 +19,7 @@ entries:
     thread: missile-crisis
     also: [robert-kennedy]
     c: Statement on Cuba. No offensive weapons found; were there, "the gravest issues would arise." Dobrynin assures Robert Kennedy the same day.
-    n: '[FRUS 1961–63, X, doc. 411](https://history.state.gov/historicaldocuments/frus1961-63v10/d411). Statement by the President on Cuba (Sept. 4, 1962). [[w.schlesinger-robert-kennedy-and-his]], 502, 505–06 (Dobrynin''s assurance, "in early September"; the statement); [[w.fursenko-one-hell-of-a]], 205–206 (the leaders'' meeting and the statement); [[w.sorensen-kennedy]], 670; [[w.dobrynin-in-confidence]], 71–72 (Robert Kennedy, agitated, on the SA-2s and what might follow; Moscow''s instruction: "only defensive Soviet weapons in Cuba"; by Dobrynin''s account); [[w.fursenko-khrushchevs-cold-war]], 453–54 (Robert Kennedy with Dobrynin, 2:15 p.m.; the statement, ready by 6, read by Salinger an hour later). [[w.reeves-president-kennedy]], 346–47. [[w.ball-past-has-another-pattern]], 287 (Dobrynin''s assurance; the warning). To check: Dobrynin''s diary, Sept. 13, 1962, APRF (cited by [[w.fursenko-khrushchevs-cold-war]], 453 n.48). See [[cal.1962-05-24.missile-crisis]]. Names: Dobrynin, Robert F. Kennedy.'
+    n: '[FRUS 1961–63, X, doc. 411](https://history.state.gov/historicaldocuments/frus1961-63v10/d411). Statement by the President on Cuba (Sept. 4, 1962). [[w.schlesinger-robert-kennedy-and-his]], 502, 505–06 (Dobrynin''s assurance, "in early September"; the statement); [[w.fursenko-one-hell-of-a]], 205–206 (the leaders'' meeting and the statement); [[w.sorensen-kennedy]], 670; [[w.dobrynin-in-confidence]], 71–72 (Robert Kennedy, agitated, on the SA-2s and what might follow; Moscow''s instruction: "only defensive Soviet weapons in Cuba"; by Dobrynin''s account); [[w.fursenko-khrushchevs-cold-war]], 453–54 (Robert Kennedy with Dobrynin, 2:15 p.m.; the statement, ready by 6, read by Salinger an hour later); [[w.thomas-robert-kennedy]], 224 (Dobrynin''s "defensive weapons" to Robert Kennedy over tea in early September). [[w.reeves-president-kennedy]], 346–47. [[w.ball-past-has-another-pattern]], 287 (Dobrynin''s assurance; the warning). To check: Dobrynin''s diary, Sept. 13, 1962, APRF (cited by [[w.fursenko-khrushchevs-cold-war]], 453 n.48). See [[cal.1962-05-24.missile-crisis]]. Names: Dobrynin, Robert F. Kennedy.'
     src:
       c: d95075a6
       rows:
@@ -33,6 +33,7 @@ entries:
         - 'w.dobrynin-in-confidence 71–72: D'
         - 'w.fursenko-khrushchevs-cold-war 453–54: all'
         - 'via x.2006.kcw-p452-54: D'
+        - 'w.thomas-robert-kennedy 224: D'
     tags: [name:dobrynin-anatoly, name:kennedy-robert-f, name:kennedy-john-f]
   - id: cal.1962-09-04.governors-nv
     when: Sept. 4
@@ -89,6 +90,18 @@ entries:
         - 'w.branch-parting-the-waters 643: all'
         - 'via w.branch-parting-the-waters 643 n.1: all'
     tags: [name:king-martin-luther-jr, state:al, city:birmingham]
+  - id: cal.1962-09-04.soviet-union
+    when: Sept. 4
+    date: '1962-09-04'
+    thread: soviet-union
+    also: [robert-kennedy, cuba]
+    c: 'Bolshakov in the Oval Office. The President: tell Khrushchev "I''ve ordered those flights stopped today," the surveillance of Soviet ships bound for Cuba. In the alley outside, Robert Kennedy: "Goddamn it, Georgi, doesn''t Premier Khrushchev realize the President''s position?" Nothing provocative before November; "they" on the right "might go to any length."'
+    n: '[[w.thomas-robert-kennedy]], 207–08. To check: [[w.fursenko-one-hell-of-a]], 193–94 (cited by [[w.thomas-robert-kennedy]], 207 n.). See [[cal.1962-08.soviet-union]]. Names: Bolshakov, Kennedy, Khrushchev, Robert Kennedy, Keating.'
+    src:
+      c: 92349f40
+      rows:
+        - 'w.thomas-robert-kennedy 207–08: all'
+    tags: [name:bolshakov-georgi, name:kennedy-john-f, name:khrushchev-nikita-s, name:kennedy-robert-f, name:keating-kenneth-b]
   - id: cal.1962-09-06.soviet-union
     when: Sept. 6
     date: '1962-09-06'
@@ -202,6 +215,19 @@ entries:
         - 'w.branch-parting-the-waters 637: all'
         - 'via w.branch-parting-the-waters 637 n.1: A'
     tags: [name:elliott-j-robert, state:ga]
+  - id: cal.1962-09-09.cuba
+    when: Sept. 9
+    date: '1962-09-09'
+    thread: cuba
+    also: [robert-kennedy, missile-crisis]
+    c: 'A White House meeting on Cuba. Robert Kennedy''s notes: McNamara: Cuba has substantial offensive capability, sixty MiGs; "Surface to Surface. Invasion," the last underscored.'
+    n: '[[w.thomas-robert-kennedy]], 204. To check: Cuba ExCom Meeting, RFK Notes, Sept. 9, 1962, RFK Confidential File, JFK Library (cited by [[w.thomas-robert-kennedy]], 204 n.). Names: Robert Kennedy, McNamara.'
+    src:
+      c: f30b40c9
+      rows:
+        - 'w.thomas-robert-kennedy 204: all'
+        - 'via x.1962-09-09.cuba-excom-meeting-robert-kennedy-notes: all'
+    tags: [name:kennedy-robert-f, name:mcnamara-robert-s]
   - id: cal.1962-09-10.mississippi
     when: Sept. 10
     date: '1962-09-10'
@@ -226,7 +252,7 @@ entries:
     thread: missile-crisis
     also: [cuba, robert-kennedy]
     c: 'About 5:45 p.m., Bundy''s office: Bundy, Rusk, McNamara, Taylor, Robert Kennedy and Marshall Carter for McCone, on Rusk''s fear of an incident over Cuba. Rusk: no flights over the SA-2 sites; "How do you expect me to negotiate on Berlin with all these incidents?" Robert Kennedy: "What''s the matter, Dean, no guts!" The U-2s to keep to international waters and to areas without SA-2s.'
-    n: '[FRUS 1961–63, X–XII, microfiche supp., doc. 296](https://history.state.gov/historicaldocuments/frus1961-63v10-12mSupp/d296), Carter''s diary (A). [[w.fursenko-one-hell-of-a]], 214. To check: Berkaw, memorandum, Feb. 28, 1963; "U-2 Overflights of Cuba, 29 August through 14 October 1962," Feb. 27, 1963; Kirkpatrick, "White House Meeting on 10 September 1962 on Cuban Overflights," Mar. 1, 1963 (cited by [[w.fursenko-one-hell-of-a]], 214 n.54). Names: McGeorge Bundy, Rusk, McNamara, Taylor, Robert Kennedy, Marshall Carter, McCone.'
+    n: '[FRUS 1961–63, X–XII, microfiche supp., doc. 296](https://history.state.gov/historicaldocuments/frus1961-63v10-12mSupp/d296), Carter''s diary (A). [[w.fursenko-one-hell-of-a]], 214; [[w.thomas-robert-kennedy]], 205 (Rusk cancels the flights; "What''s the matter, Dean? No guts?"). To check: Berkaw, memorandum, Feb. 28, 1963; "U-2 Overflights of Cuba, 29 August through 14 October 1962," Feb. 27, 1963; Kirkpatrick, "White House Meeting on 10 September 1962 on Cuban Overflights," Mar. 1, 1963 (cited by [[w.fursenko-one-hell-of-a]], 214 n.54). Names: McGeorge Bundy, Rusk, McNamara, Taylor, Robert Kennedy, Marshall Carter, McCone.'
     src:
       c: b8209284
       rows:
@@ -235,6 +261,7 @@ entries:
         - 'via w.fursenko-one-hell-of-a 214 n.54a: all'
         - 'via w.fursenko-one-hell-of-a 214 n.54b: all'
         - 'via w.fursenko-one-hell-of-a 214 n.54c: all'
+        - 'w.thomas-robert-kennedy 205: B, D'
     tags: [name:bundy-mcgeorge, name:rusk-dean, name:mcnamara-robert-s, name:taylor-maxwell, name:kennedy-robert-f, name:carter-marshall-s, name:mccone-john-a]
   - id: cal.1962-09-10.mississippi-2
     when: Sept. 10
@@ -1007,13 +1034,26 @@ entries:
         - 'w.branch-parting-the-waters 647: all'
         - 'via w.branch-parting-the-waters 647 n.2: C-D'
     tags: [name:robinson-jackie, state:al, city:birmingham]
+  - id: cal.1962-09-24.cuba-bay-of-pigs
+    when: Sept. 24
+    date: '1962-09-24'
+    thread: cuba-bay-of-pigs
+    also: [robert-kennedy]
+    c: 'Charles Ford of the CIA, under the name "Fiscalini," on Robert Kennedy''s calendar, and again Sept. 26: Kennedy''s go-between to smugglers and others with contacts in Cuba, for the prisoners.'
+    n: '[[w.thomas-robert-kennedy]], 178. To check: Robert Kennedy''s calendar, Sept. 24 and 26, 1962, RFK Office files, JFK Library (cited by [[w.thomas-robert-kennedy]], 178 n.). Names: Robert Kennedy.'
+    src:
+      c: 266bec9b
+      rows:
+        - 'w.thomas-robert-kennedy 178: all'
+        - 'via x.1962-09-24.robert-kennedy-office-calendar-fiscalini: all'
+    tags: [name:kennedy-robert-f]
   - id: cal.1962-09-25.mississippi-ole-miss
     when: Sept. 25
     date: '1962-09-25'
     thread: mississippi-ole-miss
     also: [mississippi]
     c: Barnett refuses Meredith again, at Jackson.
-    n: '*United States v. Barnett*, [376 U.S. 681](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf) (1964). [[w.navasky-kennedy-justice]], 185 (the trustees kept by Barnett from registering Meredith at the capitol; the order to show cause that night); [[w.mann-walls-of-jericho]], 328 (the college board''s offices at Jackson); [[w.branch-parting-the-waters]], 647–49. Check: Branch, 647–49, has McShane and Doar bring Meredith from New Orleans in a Border Patrol Cessna; the trustees, at the Woolfolk State Office Building, not the Federal Building; Barnett in the door of Room 1007 reading his second proclamation of interposition: "hereby finally deny you admission to the University of Mississippi" (Lord, *The Past That Would Not Die*, 139–43; Meredith, *Three Years in Mississippi*, 193–97; [[w.navasky-kennedy-justice]], 185–92, 199–204). See [[cal.1962-06-25.mississippi]]. Names: Barnett, Meredith.'
+    n: '*United States v. Barnett*, [376 U.S. 681](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf) (1964). [[w.navasky-kennedy-justice]], 185 (the trustees kept by Barnett from registering Meredith at the capitol; the order to show cause that night); [[w.mann-walls-of-jericho]], 328 (the college board''s offices at Jackson); [[w.branch-parting-the-waters]], 647–49; [[w.thomas-robert-kennedy]], 196 (Barnett: "Which one is Meredith?"; the proclamation as a souvenir). Check: Branch, 647–49, has McShane and Doar bring Meredith from New Orleans in a Border Patrol Cessna; the trustees, at the Woolfolk State Office Building, not the Federal Building; Barnett in the door of Room 1007 reading his second proclamation of interposition: "hereby finally deny you admission to the University of Mississippi" (Lord, *The Past That Would Not Die*, 139–43; Meredith, *Three Years in Mississippi*, 193–97; [[w.navasky-kennedy-justice]], 185–92, 199–204). See [[cal.1962-06-25.mississippi]]. Names: Barnett, Meredith.'
     src:
       c: e6f2121b
       rows:
@@ -1023,6 +1063,7 @@ entries:
         - 'w.branch-parting-the-waters 647–49: A'
         - 'via w.branch-parting-the-waters 647 n.3a: A'
         - 'via w.branch-parting-the-waters 647 n.3d: A'
+        - 'w.thomas-robert-kennedy 196: A'
     tags: [name:barnett-ross-r, name:meredith-james-h]
   - id: cal.1962-09-25.mississippi-ole-miss-2
     when: Sept. 25
@@ -1164,7 +1205,7 @@ entries:
     thread: mississippi-ole-miss
     also: [robert-kennedy]
     c: Kennedy–Barnett calls, recorded. A staged confrontation agreed, then called off.
-    n: '[Meeting on the Crisis at the University of Mississippi, 1:18 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-crisis-university-mississippi), Tape 24 (Miller Center), Sept. 29. Tapes (K–J Adm. II.J). [[w.reeves-president-kennedy]], 355–56 (the staged confrontation, in Robert Kennedy''s calls with Barnett); [[w.navasky-kennedy-justice]], 209–17 (Sept. 27: Robert Kennedy and Barnett by telephone, 2:50 to 6:35 p.m., by the Department''s transcripts; the drawn guns agreed; Meredith turned back on the road); [[w.mann-walls-of-jericho]], 329 (the staged confrontation; Barnett: "Isn''t it possible to have them all pull their guns?"); [[w.branch-parting-the-waters]], 650–52. To check: [[w.doyle-american-insurrection]]. See [[cal.1962-06-25.mississippi]]. Names: Barnett, John F. Kennedy, Robert F. Kennedy. Check: Mann, 329, puts the fourth attempt, the staged confrontation, on Sept. 26.'
+    n: '[Meeting on the Crisis at the University of Mississippi, 1:18 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-crisis-university-mississippi), Tape 24 (Miller Center), Sept. 29. Tapes (K–J Adm. II.J). [[w.reeves-president-kennedy]], 355–56 (the staged confrontation, in Robert Kennedy''s calls with Barnett); [[w.navasky-kennedy-justice]], 209–17 (Sept. 27: Robert Kennedy and Barnett by telephone, 2:50 to 6:35 p.m., by the Department''s transcripts; the drawn guns agreed; Meredith turned back on the road); [[w.mann-walls-of-jericho]], 329 (the staged confrontation; Barnett: "Isn''t it possible to have them all pull their guns?"); [[w.branch-parting-the-waters]], 650–52; [[w.thomas-robert-kennedy]], 197–98 (the marshals'' guns to be drawn; "You understand we have no agreement." "That''s correct."; at 6:35 p.m. Barnett: "I''m nervous"; Meredith turned back). To check: [[w.doyle-american-insurrection]]. See [[cal.1962-06-25.mississippi]]. Names: Barnett, John F. Kennedy, Robert F. Kennedy. Check: Mann, 329, puts the fourth attempt, the staged confrontation, on Sept. 26.'
     src:
       c: 4ed27861
       rows:
@@ -1177,6 +1218,9 @@ entries:
         - 'w.branch-parting-the-waters 650–52: all'
         - 'via w.branch-parting-the-waters 651 n.1b: B'
         - 'via w.branch-parting-the-waters 652 n.1: B'
+        - 'w.thomas-robert-kennedy 197–98: A-B'
+        - 'via w.thomas-robert-kennedy 197 n.deal-between-marshall-rfk-and-watkins: B'
+        - 'via w.thomas-robert-kennedy 198 n.i-dont-know-if-it-would-be-embarrassing: A-B'
     tags: [name:kennedy-john-f, name:barnett-ross-r, name:kennedy-robert-f]
   - id: cal.1962-09-27.georgia-ga
     when: Sept. 27
@@ -1253,7 +1297,7 @@ entries:
     thread: mississippi-ole-miss
     also: [court]
     c: 'The Fifth Circuit finds Barnett, absent, in civil contempt: committed to the Attorney General''s custody and fined $10,000 a day unless he shows by Oct. 2 that he is complying. Lieutenant Governor Johnson the same.'
-    n: '[[w.navasky-kennedy-justice]], 222–23; [[w.branch-parting-the-waters]], 653. Check: Branch, 653, gives indefinite prison terms from Tuesday unless they purge themselves by securing Meredith''s registration; no fine named. See [[cal.1962-06-25.mississippi]]. Names: Barnett, Paul Johnson. Check: Johnson''s fine (Navasky: "the same penalty").'
+    n: '[[w.navasky-kennedy-justice]], 222–23; [[w.branch-parting-the-waters]], 653. Check: Branch, 653, gives indefinite prison terms from Tuesday unless they purge themselves by securing Meredith''s registration; no fine named. Check: Thomas gives criminal contempt and four days (198). See [[cal.1962-06-25.mississippi]]. Names: Barnett, Paul Johnson. Check: Johnson''s fine (Navasky: "the same penalty").'
     src:
       c: d25032e1
       rows:
@@ -1382,7 +1426,7 @@ entries:
     thread: mississippi-ole-miss
     also: [robert-kennedy]
     c: 'The President and Barnett by telephone, 2 p.m. and 2:50 p.m.: Barnett and Lieutenant Governor Johnson to stand at Oxford while Meredith registers at Jackson. After the football game at Jackson that night Barnett calls it off. About midnight the President federalizes Mississippi''s Guard.'
-    n: '[Conversation with Ross Barnett (2:00 pm)](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ross-barnett-200-pm), Dictabelt 4A1 (Miller Center); [Conversation with Ross Barnett (2:50 pm)](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ross-barnett-250-pm), Dictabelt 4C1 (Miller Center). [[w.navasky-kennedy-justice]], 231–32 (the agreement and its breaking, by Burke Marshall''s unfiled affidavit; the Guard federalized about midnight); [[w.branch-parting-the-waters]], 656–59. Check: Branch, 656–59, from the Dictabelts: at the first call Barnett would have Tom Watkins bring an idea to Washington: "I want to think it over a few days"; at the second, Robert Kennedy puts the Jackson plan; Barnett''s highway patrolmen "absolutely be unarmed"; the President calls Sorensen in the hospital for a television address. Salinger cancels it that evening; Marshall: "We''ve got a deal with Barnett." After the game the deal is off; near midnight the President signs the proclamations Schlei brings: "that''s General Grant''s table.". See [[cal.1962-06-25.mississippi]]. Names: Kennedy, Barnett, Paul Johnson, Meredith. Check: the order federalizing the Guard (its day, Sept. 30, in the Federal Register).'
+    n: '[Conversation with Ross Barnett (2:00 pm)](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ross-barnett-200-pm), Dictabelt 4A1 (Miller Center); [Conversation with Ross Barnett (2:50 pm)](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ross-barnett-250-pm), Dictabelt 4C1 (Miller Center). [[w.navasky-kennedy-justice]], 231–32 (the agreement and its breaking, by Burke Marshall''s unfiled affidavit; the Guard federalized about midnight); [[w.branch-parting-the-waters]], 656–59; [[w.thomas-robert-kennedy]], 198 ("Go get him, Johnny boy"; Barnett on Watkins and the poultry program; "You''ve been fighting a soft pillow all week"; the plan to register Meredith at Jackson; the deal off that night). Check: Branch, 656–59, from the Dictabelts: at the first call Barnett would have Tom Watkins bring an idea to Washington: "I want to think it over a few days"; at the second, Robert Kennedy puts the Jackson plan; Barnett''s highway patrolmen "absolutely be unarmed"; the President calls Sorensen in the hospital for a television address. Salinger cancels it that evening; Marshall: "We''ve got a deal with Barnett." After the game the deal is off; near midnight the President signs the proclamations Schlei brings: "that''s General Grant''s table.". See [[cal.1962-06-25.mississippi]]. Names: Kennedy, Barnett, Paul Johnson, Meredith. Check: the order federalizing the Guard (its day, Sept. 30, in the Federal Register).'
     src:
       c: 00059b9a
       rows:
@@ -1392,6 +1436,8 @@ entries:
         - 'w.branch-parting-the-waters 656–59: all'
         - 'via w.branch-parting-the-waters 656 n.4: A'
         - 'via w.branch-parting-the-waters 658 n.2: A'
+        - 'w.thomas-robert-kennedy 198: A-B'
+        - 'via w.thomas-robert-kennedy 198 n.jfk-telephone-calls-to-governor-barnett: A'
     tags: [name:kennedy-john-f, name:barnett-ross-r, name:johnson-paul-b-jr, name:meredith-james-h]
   - id: cal.1962-09-29.mississippi-ole-miss-2
     when: Sept. 29
@@ -1399,7 +1445,7 @@ entries:
     thread: mississippi-ole-miss
     also: [mississippi]
     c: 'Jackson, Memorial Stadium, the Ole Miss–Kentucky game. Barnett at halftime to some 46,000: "I love Mississippi! I love her people! I love our customs!"'
-    n: '[[w.mann-walls-of-jericho]], 329; [[w.branch-parting-the-waters]], 659. To check: Paul B. Johnson Jr., oral history, LBJ Library (cited by [[w.mann-walls-of-jericho]], 329). See [[cal.1962-06-25.mississippi]]. Names: Barnett.'
+    n: '[[w.mann-walls-of-jericho]], 329; [[w.branch-parting-the-waters]], 659; [[w.thomas-robert-kennedy]], 198 ("I love Mississippi! ... I love our customs!"; 50,000). Check: Thomas gives 50,000 (198). To check: Paul B. Johnson Jr., oral history, LBJ Library (cited by [[w.mann-walls-of-jericho]], 329). See [[cal.1962-06-25.mississippi]]. Names: Barnett.'
     src:
       c: 0b1ca459
       rows:
@@ -1407,6 +1453,7 @@ entries:
         - 'via w.mann-walls-of-jericho 329 n.an-agitated-crowd: all'
         - 'w.branch-parting-the-waters 659: A-B'
         - 'via w.branch-parting-the-waters 659 n.2: B'
+        - 'w.thomas-robert-kennedy 198: A'
     tags: [name:barnett-ross-r]
   - id: cal.1962-09-29.mississippi-ole-miss-3
     when: Sept. 29
@@ -1455,7 +1502,7 @@ entries:
     thread: mississippi-ole-miss
     also: [mississippi, robert-kennedy]
     c: Meredith flown to Oxford; marshals at the Lyceum; riot overnight. Guihard, a French reporter, and Gunter, a local man, killed. Kennedy on television during it.
-    n: '[Meeting on Civil Rights, 10:40 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-civil-rights), Tapes 26 and 26A (Miller Center), Sept. 30; [Robert Kennedy and Vance, 12:40 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-oval-office-between-robert-kennedy-and-cyrus), Dictabelt 4F3, Cassette A (Miller Center), Oct. 1. Radio and Television Report to the Nation on the Situation at the University of Mississippi, [1962 Pub. Papers 726](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=786) (Sept. 30, 1962). [Proclamation No. 3497](https://www.presidency.ucsb.edu/documents/proclamation-3497-obstructions-justice-the-state-mississippi), [27 Fed. Reg. 9681](https://www.govinfo.gov/app/details/FR-1962-10-02) (1962). [Exec. Order No. 11,053](https://www.presidency.ucsb.edu/documents/executive-order-11053-providing-assistance-for-the-removal-unlawful-obstructions-justice), [27 Fed. Reg. 9693](https://www.govinfo.gov/app/details/FR-1962-10-02) (1962). Address on Mississippi (K–J Adm. II.I). [[w.sorensen-kennedy]], 484–87; [[w.mann-walls-of-jericho]], 330–32 (the address about 10 p.m.; the riot; two dead; 166 marshals hurt, 28 by gunfire); [[w.branch-parting-the-waters]], 661–69. Check: Branch, 661–69: Meredith at Baxter Hall by 6:30 p.m. Mississippi time; State Senator George Yarbrough, with Barnett''s proclamation, takes command of the highway patrol; its withdrawal order heard by the FBI at 7:25; tear gas at 7:58; the President on the air at 10 p.m. Washington time; Guihard killed; 160 marshals hurt, 28 by gunfire (Lord, *The Past That Would Not Die*, 180–204; [[w.guthman-we-band-of-brothers]], 200–205; Audiotapes 26 and 26A, JFK Library). See [[cal.1962-06-25.mississippi]]. Names: Meredith, Guihard, Gunter, John F. Kennedy, Robert F. Kennedy, Katzenbach, Marshall.'
+    n: '[Meeting on Civil Rights, 10:40 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-civil-rights), Tapes 26 and 26A (Miller Center), Sept. 30; [Robert Kennedy and Vance, 12:40 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-oval-office-between-robert-kennedy-and-cyrus), Dictabelt 4F3, Cassette A (Miller Center), Oct. 1. Radio and Television Report to the Nation on the Situation at the University of Mississippi, [1962 Pub. Papers 726](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=786) (Sept. 30, 1962). [Proclamation No. 3497](https://www.presidency.ucsb.edu/documents/proclamation-3497-obstructions-justice-the-state-mississippi), [27 Fed. Reg. 9681](https://www.govinfo.gov/app/details/FR-1962-10-02) (1962). [Exec. Order No. 11,053](https://www.presidency.ucsb.edu/documents/executive-order-11053-providing-assistance-for-the-removal-unlawful-obstructions-justice), [27 Fed. Reg. 9693](https://www.govinfo.gov/app/details/FR-1962-10-02) (1962). Address on Mississippi (K–J Adm. II.I). [[w.sorensen-kennedy]], 484–87; [[w.mann-walls-of-jericho]], 330–32 (the address about 10 p.m.; the riot; two dead; 166 marshals hurt, 28 by gunfire); [[w.branch-parting-the-waters]], 661–69; [[w.thomas-robert-kennedy]], 199–203 (Meredith at Oxford about 6:30 p.m.; the marshals at the Lyceum; the state police withdrawn at 7:25; the riot; the President''s address; the tape in the Cabinet Room; 160 marshals hurt, 28 by gunfire; a French reporter and a local man killed). Check: Branch, 661–69: Meredith at Baxter Hall by 6:30 p.m. Mississippi time; State Senator George Yarbrough, with Barnett''s proclamation, takes command of the highway patrol; its withdrawal order heard by the FBI at 7:25; tear gas at 7:58; the President on the air at 10 p.m. Washington time; Guihard killed; 160 marshals hurt, 28 by gunfire (Lord, *The Past That Would Not Die*, 180–204; [[w.guthman-we-band-of-brothers]], 200–205; Audiotapes 26 and 26A, JFK Library). See [[cal.1962-06-25.mississippi]]. Names: Meredith, Guihard, Gunter, John F. Kennedy, Robert F. Kennedy, Katzenbach, Marshall.'
     src:
       c: 95ecd139
       rows:
@@ -1470,6 +1517,9 @@ entries:
         - 'via w.branch-parting-the-waters 664 n.1: B-C'
         - 'via w.branch-parting-the-waters 666 n.2: C'
         - 'via w.branch-parting-the-waters 668 n.3: D'
+        - 'w.thomas-robert-kennedy 199–203: A-E'
+        - 'via w.thomas-robert-kennedy 200 n.riot-described: A-D'
+        - 'via w.thomas-robert-kennedy 200 n.throwing-iron-spikes: E'
     tags: [name:kennedy-john-f, name:meredith-james-h, name:guihard-paul, name:gunter-ray, name:kennedy-robert-f, name:katzenbach-nicholas, name:marshall-burke]
   - id: cal.1962-09-30.mississippi-ole-miss-2
     when: Sept. 30
@@ -1477,7 +1527,7 @@ entries:
     thread: mississippi-ole-miss
     also: [robert-kennedy]
     c: 'Sunday, 12:45 p.m. Robert Kennedy to Barnett by telephone: the President will say on television that night that Barnett had agreed to Meredith''s registering at Jackson. Barnett: "Don''t say that. ... Why don''t you fly him in this afternoon"; "You won''t mind if I raise cain about it?" Kennedy: "I don''t mind that; just say law and order will be maintained."'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 321; [[w.navasky-kennedy-justice]], 231–33 (the 12:45 call, as Burke Marshall''s unfiled affidavit gives it: the President to tell of the broken agreement; Barnett''s request that he not; Meredith to be flown in; not the words quoted); [[w.sorensen-kennedy]], 484 (Barnett''s plan of the day); [[w.branch-parting-the-waters]], 660–61. Check: Branch, 660–61, has Barnett first ask a show of force, three hundred lawmen and three hundred "soldiers"; Kennedy: "We have it all down"; Marshall and Watkins then set the plan, Kennedy to clear Barnett''s statement (Lord, *The Past That Would Not Die*, 172; [[w.navasky-kennedy-justice]], 230–31). See [[cal.1962-06-25.mississippi]]. Names: Robert Kennedy, Barnett, Meredith.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 321; [[w.navasky-kennedy-justice]], 231–33 (the 12:45 call, as Burke Marshall''s unfiled affidavit gives it: the President to tell of the broken agreement; Barnett''s request that he not; Meredith to be flown in; not the words quoted); [[w.sorensen-kennedy]], 484 (Barnett''s plan of the day); [[w.branch-parting-the-waters]], 660–61; [[w.thomas-robert-kennedy]], 198–99 (Robert Kennedy: the President will say Barnett broke his word; "we have it all down"; Barnett: fly Meredith in that afternoon). Check: Branch, 660–61, has Barnett first ask a show of force, three hundred lawmen and three hundred "soldiers"; Kennedy: "We have it all down"; Marshall and Watkins then set the plan, Kennedy to clear Barnett''s statement (Lord, *The Past That Would Not Die*, 172; [[w.navasky-kennedy-justice]], 230–31). See [[cal.1962-06-25.mississippi]]. Names: Robert Kennedy, Barnett, Meredith.'
     src:
       c: e06f57b3
       rows:
@@ -1487,6 +1537,7 @@ entries:
         - 'w.sorensen-kennedy 484: C'
         - 'w.branch-parting-the-waters 660–61: B-C'
         - 'via w.branch-parting-the-waters 660 n.2: B'
+        - 'w.thomas-robert-kennedy 198–99: B-C'
     tags: [name:kennedy-robert-f, name:barnett-ross-r, name:kennedy-john-f, name:meredith-james-h]
   - id: cal.1962-09.republican-party-congress
     when: Sept.
@@ -1736,3 +1787,16 @@ entries:
       rows:
         - 'w.sorensen-kennedy 561: all'
     tags: [name:kennedy-john-f, name:de-gaulle-charles, name:alphand-herve]
+  - id: cal.1962-09.cuba-bay-of-pigs
+    when: Sept.
+    date: 1962-09
+    thread: cuba-bay-of-pigs
+    also: [robert-kennedy]
+    c: 'Robert Kennedy chairs a meeting on the Bay of Pigs prisoners, Rusk and Bundy present. Bundy: paying ransom to Communists before the election unwise. Kennedy: "I don''t care if we lose every election until Kingdom come. We put those guys in there and we are going to get them out." He throws his pencil across the table and walks out.'
+    n: '[[w.thomas-robert-kennedy]], 236. Names: Robert Kennedy, Rusk, Bundy. Check: the day.'
+    src:
+      c: 8b62b088
+      rows:
+        - 'w.thomas-robert-kennedy 236: all'
+        - 'via x.undated.mike-miskovsky-interview-thomas: all'
+    tags: [name:kennedy-robert-f, name:rusk-dean, name:bundy-mcgeorge]

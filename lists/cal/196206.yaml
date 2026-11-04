@@ -35,7 +35,7 @@ entries:
     thread: robert-kennedy
     also: [soviet-union, defense]
     c: 'Sunday at Hickory Hill, Robert Kennedy and Bolshakov, by Bolshakov''s report: is anyone in the Soviet leadership for "a decisive clash with the United States"? Among the Pentagon''s generals, yes, there are such people; the Joint Chiefs have told the President the United States is ahead and "in extremis it would be possible to probe the forces of the Soviet Union"; the President has rejected them.'
-    n: '[[w.fursenko-one-hell-of-a]], 184–85; [[w.dobrynin-in-confidence]], 66–67 (the President "cannot do it" on West Berlin; the military''s confidential report; not McNamara; by Dobrynin''s account). To check: Dobrynin to the Foreign Ministry, "On the Meeting between Bolshakov and RFK," June 4, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 184 n.1, 185 n.5, n.6). See [[cal.1962-03-02.robert-kennedy]]. Names: Robert Kennedy, Bolshakov.'
+    n: '[[w.fursenko-one-hell-of-a]], 184–85; [[w.dobrynin-in-confidence]], 66–67 (the President "cannot do it" on West Berlin; the military''s confidential report; not McNamara; by Dobrynin''s account); [[w.thomas-robert-kennedy]], 206 ("is there anyone in the Soviet leadership who advocates a decisive clash"; the Chiefs'' report: "probe the forces of the Soviet Union"). To check: Dobrynin to the Foreign Ministry, "On the Meeting between Bolshakov and RFK," June 4, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 184 n.1, 185 n.5, n.6). See [[cal.1962-03-02.robert-kennedy]]. Names: Robert Kennedy, Bolshakov.'
     src:
       c: e38d2d9a
       rows:
@@ -44,6 +44,7 @@ entries:
         - 'via w.fursenko-one-hell-of-a 185 n.5: A'
         - 'via w.fursenko-one-hell-of-a 185 n.6: B-D'
         - 'w.dobrynin-in-confidence 66–67: all'
+        - 'w.thomas-robert-kennedy 206: A, C'
     tags: [name:kennedy-robert-f, name:bolshakov-georgi]
   - id: cal.1962-06-04.governors-ia
     when: June 4
@@ -303,6 +304,18 @@ entries:
         - 'w.preston-war-council 112: all'
         - 'via w.preston-war-council 112 n.33a: all'
     tags: [name:komer-robert-w, name:kaysen-carl, name:bowles-chester]
+  - id: cal.1962-06-07.robert-kennedy
+    when: June 7
+    date: '1962-06-07'
+    thread: robert-kennedy
+    c: 'The FBI''s laboratory on the vials of Dr. Max Jacobson''s injections for the President, sent at Robert Kennedy''s demand: the sample too small to analyze fully; no narcotics.'
+    n: '[[w.thomas-robert-kennedy]], 191. To check: Evans to Belmont, June 4, 1962; Conrad to Evans, June 7, 1962; Evans to Belmont, June 11, 1962, RFK files, FBI (cited by [[w.thomas-robert-kennedy]], 191 n.). Names: Robert Kennedy, Kennedy.'
+    src:
+      c: c8e3e157
+      rows:
+        - 'w.thomas-robert-kennedy 191: all'
+        - 'via x.1962-06-07.conrad-to-evans-fbi-laboratory: all'
+    tags: [name:kennedy-robert-f, name:kennedy-john-f]
   - id: cal.1962-06-08.soviet-union-space
     when: June 8
     date: '1962-06-08'
@@ -673,12 +686,13 @@ entries:
     thread: laos
     also: [robert-kennedy, soviet-union]
     c: 'Robert Kennedy to the President: Khrushchev, by Bolshakov, "very pleased with the settlement in Laos," hopes the American troops can now leave Thailand.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 500. To check: Robert Kennedy to the President, June 19, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 500 n.11). See [[cal.1962-05.laos]]. Names: Robert Kennedy, Kennedy, Khrushchev, Bolshakov.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 500; [[w.thomas-robert-kennedy]], 206 n. (Robert Kennedy to the President of his meeting with Bolshakov: troops in Thailand). To check: Robert Kennedy to the President, June 19, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 500 n.11). See [[cal.1962-05.laos]]. Names: Robert Kennedy, Kennedy, Khrushchev, Bolshakov.'
     src:
       c: 8dece029
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 500: all'
         - 'via w.schlesinger-robert-kennedy-and-his 500 n.11: all'
+        - 'w.thomas-robert-kennedy 206 n.: A'
     tags: [name:kennedy-robert-f, name:kennedy-john-f, name:khrushchev-nikita-s, name:bolshakov-georgi]
   - id: cal.1962-06-20.middle-east
     when: June 20–22
@@ -727,6 +741,19 @@ entries:
         - 'w.branch-parting-the-waters 597: all'
         - 'via w.branch-parting-the-waters 597 n.1b: all'
     tags: [name:hoover-j-edgar, name:levison-stanley-d, name:odell-jack-h, name:king-martin-luther-jr]
+  - id: cal.1962-06-21.press-and-broadcasting
+    when: June 21
+    date: '1962-06-21'
+    thread: press-and-broadcasting
+    also: [robert-kennedy]
+    c: 'The *New York Times* on the party at Hickory Hill for Glenn, June 16: Schlesinger in his dinner jacket and Ethel Kennedy in her evening dress in the pool. Gallup finds a bad reaction; the President to Ethel Kennedy: "Enough."'
+    n: '[[w.thomas-robert-kennedy]], 183, 188. To check: *New York Times*, June 21, 1962; *U.S. News & World Report*, July 2, 1962 (cited by [[w.thomas-robert-kennedy]], 183 n.). Names: Glenn, Schlesinger, Kennedy. Check: the Gallup reading.'
+    src:
+      c: 1f254b5a
+      rows:
+        - 'w.thomas-robert-kennedy 183, 188: all'
+        - 'via x.1962-06-21.new-york-times-hickory-hill: all'
+    tags: [name:glenn-john-h-jr, name:schlesinger-arthur-m-jr, name:kennedy-john-f]
   - id: cal.1962-06-22.legislatures-tn
     when: June 22
     date: '1962-06-22'
@@ -1120,3 +1147,16 @@ entries:
       rows:
         - 'w.sundquist-politics-and-policy 312–13: all'
     tags: [name:anderson-clinton-p, name:javits-jacob-k]
+  - id: cal.1962-06.cuba
+    when: June
+    date: 1962-06
+    thread: cuba
+    also: [robert-kennedy]
+    c: 'Hickory Hill, the living room. Roberto San Roman asks Robert Kennedy to help the exiles kill Castro. Kennedy: "Why do you think about me? ... Couldn''t you get five or ten Cubans to do it?"; why not a rich Cuban family? He names two or three. By San Roman''s account.'
+    n: '[[w.thomas-robert-kennedy]], 177. Names: Robert Kennedy, Castro. Check: the day.'
+    src:
+      c: af1bd0c3
+      rows:
+        - 'w.thomas-robert-kennedy 177: all'
+        - 'via x.undated.roberto-san-roman-interview-thomas: all'
+    tags: [name:kennedy-robert-f, name:castro-fidel]

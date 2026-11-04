@@ -55,6 +55,18 @@ entries:
       rows:
         - 'w.woods-fulbright 303: all'
         - 'via x.1960-04-05.senate-vote-rejects-school-ruling: all'
+  - id: cal.1960-04-04.press-and-broadcasting
+    when: Apr. 4
+    date: '1960-04-04'
+    thread: press-and-broadcasting
+    also: [elections-1960]
+    c: 'Milwaukee, a German restaurant, the night before the Wisconsin primary. Robert Kennedy asks Vanocur of NBC how they will do; Vanocur: "I think you''ll carry the Catholic vote." Robert Kennedy blows up. Vanocur to Kennedy at the door: "That brother of yours has no manners"; Kennedy: "Ignore him."'
+    n: '[[w.thomas-robert-kennedy]], 108. Names: Robert Kennedy, Kennedy. Check: Thomas cites no source.'
+    src:
+      c: ece99f6a
+      rows:
+        - 'w.thomas-robert-kennedy 108: all'
+    tags: [name:kennedy-robert-f, name:kennedy-john-f]
   - id: cal.1960-04-05.elections-1960
     when: Apr. 5
     date: '1960-04-05'
@@ -85,13 +97,15 @@ entries:
     thread: elections-1960
     also: [press-and-broadcasting]
     c: 'Wisconsin''s primary night on CBS. Elmo Roper: religion "the single most important issue in the election there today"; Cronkite asks Kennedy about the religious cast of the vote. Robert Kennedy berates Cronkite, then calls Grayson Kirk of Columbia and Thomas Watson of IBM to have the IBM-CBS analysis of the vote by religion withheld. Kennedy calls Stanton, the president of CBS, to remind him that as President he would name the FCC''s members.'
-    n: '[[w.kallina-kennedy-v-nixon]], 59. [[w.sorensen-kennedy]], 137 n.2 (Roper on CBS). To check: Transcript, "What Happened in Wisconsin," CBS-TV, Apr. 5, 1960, RFK Papers, JFK Library (cited by [[w.kallina-kennedy-v-nixon]], 59 n.28). See [[cal.1960-04-05.elections-1960]]. Names: Cronkite, Kennedy, Robert Kennedy, Kirk, Stanton. Check: the day of Kennedy''s call to Stanton; Kallina gives none (59).'
+    n: '[[w.kallina-kennedy-v-nixon]], 59; [[w.thomas-robert-kennedy]], 93 (Robert Kennedy at Cronkite after the broadcast; his call to Watson; the Columbia analysts told to justify their results, and their leaving CBS). [[w.sorensen-kennedy]], 137 n.2 (Roper on CBS). To check: Transcript, "What Happened in Wisconsin," CBS-TV, Apr. 5, 1960, RFK Papers, JFK Library (cited by [[w.kallina-kennedy-v-nixon]], 59 n.28). See [[cal.1960-04-05.elections-1960]]. Names: Cronkite, Kennedy, Robert Kennedy, Kirk, Stanton. Check: the day of Kennedy''s call to Stanton; Kallina gives none (59).'
     src:
       c: 7c109a38
       rows:
         - 'w.kallina-kennedy-v-nixon 59: all'
         - 'via w.kallina-kennedy-v-nixon 59 n.28: all'
         - 'w.sorensen-kennedy 137 n.2: A'
+        - 'w.thomas-robert-kennedy 93: A, C-D'
+        - 'via w.thomas-robert-kennedy 93 n.rfk-and-cronkite: A, C-D'
     tags: [name:cronkite-walter, name:kennedy-john-f, name:kennedy-robert-f, name:kirk-grayson, name:stanton-frank]
   - id: cal.1960-04-05.elections-1960-3
     when: Apr. 5
@@ -223,7 +237,7 @@ entries:
     thread: elections-1960
     also: [robert-kennedy]
     c: 'Charleston, W. Va. Robert Kennedy asks the Kennedy organizers for "a cold-blooded appraisal" of West Virginia, county by county. The answer: "He''s a Catholic. That''s our God-damned problem"; the December poll of 70 to 30 made before anyone knew it. His strategy: meet religion head on, then show "there is something more important"; "food, family and flag in southern West Virginia."'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 198. [[w.kallina-kennedy-v-nixon]], 64 (the meeting and its question). To check: minutes, "Meeting re West Virginia Primary — April 8, 1960," RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 198 n.26); [[w.odonnell-johnny-we-hardly-knew]], 161 (cited by [[w.schlesinger-robert-kennedy-and-his]], 198 n.27); "Meeting Re West Virginia Primary—April 8, 1960," RFK Papers, JFK Library; Chalmers M. Roberts OHI, Nov. 8, 1977, JFK Library (cited by [[w.kallina-kennedy-v-nixon]], 64 n.41). See [[cal.1960-04.elections-1960]]. Names: Robert Kennedy, Kennedy. Check: Kallina, 64 and 229 n.41, reads the minutes as reporting trouble from Kennedy''s religion in five counties only, most saying it no great problem; not the answer given here.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 198; [[w.thomas-robert-kennedy]], 93 (the meeting with the volunteers in Charleston; "He''s a Catholic"). [[w.kallina-kennedy-v-nixon]], 64 (the meeting and its question). Check: Thomas dates the meeting the day after the Wisconsin primary (93); the minutes, Apr. 8. To check: minutes, "Meeting re West Virginia Primary — April 8, 1960," RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 198 n.26); [[w.odonnell-johnny-we-hardly-knew]], 161 (cited by [[w.schlesinger-robert-kennedy-and-his]], 198 n.27); "Meeting Re West Virginia Primary—April 8, 1960," RFK Papers, JFK Library; Chalmers M. Roberts OHI, Nov. 8, 1977, JFK Library (cited by [[w.kallina-kennedy-v-nixon]], 64 n.41). See [[cal.1960-04.elections-1960]]. Names: Robert Kennedy, Kennedy. Check: Kallina, 64 and 229 n.41, reads the minutes as reporting trouble from Kennedy''s religion in five counties only, most saying it no great problem; not the answer given here.'
     src:
       c: cb8fc0ec
       rows:
@@ -233,6 +247,7 @@ entries:
         - 'w.kallina-kennedy-v-nixon 64: B'
         - 'via w.kallina-kennedy-v-nixon 64 n.41a: B'
         - 'via w.kallina-kennedy-v-nixon 64 n.41b: B'
+        - 'w.thomas-robert-kennedy 93: A-C'
     tags: [name:kennedy-robert-f, name:kennedy-john-f, state:wv]
   - id: cal.1960-04-08.republican-party
     when: Apr. 8
@@ -579,7 +594,7 @@ entries:
     thread: elections-1960
     also: [democratic-party]
     c: 'Palm Beach, shortly after Wisconsin. Joseph Kennedy and his sons with Franklin D. Roosevelt, Jr.: Robert Kennedy asks him to campaign in West Virginia, where his father''s and mother''s names count; Roosevelt agrees at once. By Roosevelt''s account.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 199–200. To check: Franklin D. Roosevelt, Jr., interview by Schlesinger, Feb. 12, 1975 (cited by [[w.schlesinger-robert-kennedy-and-his]], 199 n.32); Roosevelt, oral history interview by Jean Stein, Dec. 9, 1969, 3–5, Stein Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 200 n.39). Check: the day. See [[cal.1960-04-08.elections-1960-2]]. Names: Joseph P. Kennedy, Robert Kennedy, John F. Kennedy, Franklin D. Roosevelt Jr.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 199–200. Check: Thomas has Joseph Kennedy persuading Roosevelt (95). To check: Franklin D. Roosevelt, Jr., interview by Schlesinger, Feb. 12, 1975 (cited by [[w.schlesinger-robert-kennedy-and-his]], 199 n.32); Roosevelt, oral history interview by Jean Stein, Dec. 9, 1969, 3–5, Stein Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 200 n.39). Check: the day. See [[cal.1960-04-08.elections-1960-2]]. Names: Joseph P. Kennedy, Robert Kennedy, John F. Kennedy, Franklin D. Roosevelt Jr.'
     src:
       c: '66334254'
       rows:
@@ -721,3 +736,16 @@ entries:
         - 'w.sundquist-politics-and-policy 306: all'
         - 'via w.sundquist-politics-and-policy 306 n.62: all'
     tags: [name:rayburn-sam, name:mills-wilbur-d]
+  - id: cal.1960-04.elections-1960-10
+    when: Apr.
+    date: 1960-04
+    thread: elections-1960
+    also: [labor]
+    c: West Virginia, after Wisconsin. Kennedy asks Meany and Reuther, quietly, to have Humphrey disavow religious bigotry; they call on him. Humphrey refuses to be labor's "tool." By O'Donnell's account.
+    n: '[[w.thomas-robert-kennedy]], 94. To check: Kenneth O''Donnell, tape-recorded reminiscences with Sander Vanocur, JFK Library (cited by [[w.thomas-robert-kennedy]], 94). Names: Kennedy, Meany, Reuther, Humphrey, O''Donnell. Check: the day.'
+    src:
+      c: 93bc9b75
+      rows:
+        - 'w.thomas-robert-kennedy 94: all'
+        - 'via w.thomas-robert-kennedy 94 n.cheap-cunning-politician: all'
+    tags: [name:kennedy-john-f, name:meany-george, name:reuther-walter, name:humphrey-hubert-h, name:odonnell-kenneth-p]
