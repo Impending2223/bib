@@ -1443,6 +1443,52 @@ Rights in Conflict (Walker Report):
 ### Guthman, *We Band of Brothers* (batch 3, second run, Nov. 4, 2026; notes/book-checks/guthman-we-band-of-brothers.md)
 - Guthman's appointment as Justice's press officer, Jan. 18–23, 1961 (80); Robert Kennedy at the International Police Academy, Feb. 1964 (116; the Department's speeches on justice.gov); the CBS panel of Mar. 5, 1961 (226); Gallup's Vice Presidential reading of Apr. 12, 1964 (269); Scranton, Mar. 17, 1964 (267); the Keogh case's acts of Mar. 1961 and the stories of Oct. 1961 (140–50; the trial record, *United States v. Keogh*); word to Kennedy in mid-January 1965 that Johnson leaned toward withdrawal from Vietnam (318).
 
+### White, *The Making of the President 1968* (batch 3, second run, Nov. 4, 2026; notes/book-checks/white-making-of-the-president-1969.md)
+- Mar. 12, 1968, New Hampshire: White's figures differ from the entry's (89, 131); check the State's canvass. Nov. 5, 1968: the AP's totals (396, App. A) against the Clerk's. Dec. 1964: White's New York meeting of Nixon, Eisenhower and Goldwater on Burch (32) against Phoenix, Jan. 12, 1965.
+- The Passed over rows marked "lead" (White's page | the date | the matter | what to find):
+  - 7 | Jan. 31, 1968 | McCarthy at Foreign Relations' executive session (the Tonkin resolution, the *Pueblo*); New Jersey supporters | lead: the session from the Daily Digest.
+  - 8 | Jan. 1968 | five secret polls of McCarthy's New Hampshire vote, 8 to 11 percent | lead: undated.
+  - 19 | Jan. 25, 1965 | the "Fork-in-the-Y" memorandum (White's date) | already in (Jan. 27), not cited; lead: the date.
+  - 32 | Dec. 1964 | Nixon, Eisenhower and Goldwater in New York agree Burch out, Bliss in | lead: the record has Phoenix, Jan. 12, 1965.
+  - 33 | 1965 | Nixon to New York editors: "religious, recidivist and reactionary" | lead: undated.
+  - 43 | 1963 | Nixon's interview with Drummond: "categorically" no candidacy | lead: undated.
+  - 56 | spring 1967 | Travis Cross and Campaign Consultants hired | lead: the month.
+  - 57 | May–Aug. 1967 | Romney's polls level with Johnson's; up after Detroit | lead: the polls by release.
+  - 60 | Nov.–Dec. 1967 | Romney in Paris and Vietnam | lead: not checked against the calendar.
+  - 61 | Feb. 1968 | Romney's neutralization speech | lead: the day.
+  - 72 | 1967 | Lowenstein's twenty Senators and Congressmen | lead: undated.
+  - 74 | Sept. 1967 | Lowenstein to Gavin | lead: undated.
+  - 79–80 | fall 1967 | McCarthy at Berkeley: Rusk should resign | lead: the day.
+  - 83 n.2 | Jan. 1968 | a privately commissioned analysis of New Hampshire | lead: unnamed.
+  - 87 | Feb.–Mar. 1968 | Whelton, Nashua's city chairman, joins McCarthy | lead: the day.
+  - 101 | n.d. | Johnson to Sidey: "because I didn't go to Harvard" | lead: undated.
+  - 102 | Feb. 1968 | news conference: no intention of seeing Westmoreland leave | lead: not checked.
+  - 104 | 1966 | Johnson cuts the National Committee's budget, voter registration | lead: the month.
+  - 136 | Mar. 1968 | Kleindienst's first regional meeting, Denver | lead: the day.
+  - 167–68 | Mar. 1968 | the L Street headquarters; 28,000 letters in six days | lead: the days.
+  - 174 | May 1968 | Robert Kennedy pulled from his car, a tooth broken | lead: the day.
+  - 178 | late May 1968 | three utility towers blown up near San Francisco | lead: the day.
+  - 198 | 1966–67 | the Chicago nurses, the Texas tower, the Capitol and St. Petersburg vandals, the East Village murders | lead: the crimes thread, dates from the record.
+  - 206 | Mar. 1968 | department-store arsons, Chicago and New York | lead: the days.
+  - 238 | late July 1968 | Klein's Gallup; Harris pre-leaked; Crossley's poll | lead: not checked against Opinion.
+  - 243 | Aug. 5, 1968 | the opening: Eisenhower's tape, John Wayne | lead: not checked.
+  - 260 | 1967 | Chicago chosen for the convention, by Johnson | lead: not checked.
+  - 264–65 | 1968 | Daley's "shoot to kill"; McGovern's announcement, Aug. 10 | lead: not checked.
+  - 267–68 | July–Aug. 1968 | McCarthy's threat of a rump convention; students kept home; Quayle's polls | lead: undated.
+  - 271 | Aug. 1968 | Humphrey to Daley on permits; Humphrey at the Ranch | lead: the days.
+  - 280–81 | Aug. 25–26, 1968 | Fort Hood's troops; the Rangers; DiSalle's announcement; the bus strike | lead: not checked.
+  - 289 | Aug. 24, 27, 1968 | Dellinger's announcements | lead: not checked.
+  - 294 | Aug. 28, 1968 | the phone strike's settlement recommended | lead.
+  - 324–25 | Sept. 1968 | Nixon at San Francisco, Houston, White Plains, Charlotte | lead: not checked.
+  - 335–36 | Sept. 1968 | Humphrey at Boston with Edward Kennedy, the hecklers | lead: not checked.
+  - 342, 358–59, 363 | Sept.–Oct. 1968 | Humphrey at Louisville and Detroit; Nixon's securities letter; the "trust" press conference | lead: undated.
+  - 353 | Sept. 27, 1968 | Portland, small crowds | lead: the day.
+  - 365 | Sept. 1968 | Flint's Local 599 poll | lead.
+  - 381 | Nov. 2, 1968 | eleven South Vietnamese senators for Nixon | lead.
+  - 382–84 | Nov. 1968 | Harris's final poll; the *Los Angeles Times*'s; Derge's panels | lead.
+  - 417–18 | May 1960; Nov. 1968 | the Pill; Johnson's committee on population | lead.
+- Press figures for Part III, proposed: Lou Gordon (WKBD), Jerry Flint (*New York Times*, Detroit), Walter Ridder (Ridder Publications), Mary McGrory, Charles Bailey (*Minneapolis Tribune*), Paul Jablow (*Charlotte Observer*), Raymond Coffey (*Chicago Daily News*), Thomas Whiteside: none tagged.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2453,6 +2499,9 @@ CQ Weekly Report, 1968-08-30:
 
 ### Guthman, *We Band of Brothers* (batch 3, second run, Nov. 4, 2026; notes/book-checks/guthman-we-band-of-brothers.md)
 - Robert Kennedy in Poland, June 1964 (274–75).
+
+### White, *The Making of the President 1968* (batch 3, second run, Nov. 4, 2026; notes/book-checks/white-making-of-the-president-1969.md)
+- Dec. 21, 1967, Canberra: FRUS or the Australian record for Johnson's briefing of the cabinet.
 
 ## The Executive roster
 

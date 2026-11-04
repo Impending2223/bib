@@ -14,11 +14,24 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-07 | *Life* | picture | Ball in tears at Stevenson's memorial service (Check: the issue) | Ball, *The Past Has Another Pattern*, 152
 1965-11 | (a news photograph) | photograph | Rusk at Montevideo, the spit dubbed into the negative | Rusk, *As I Saw It*, 571–72
 1966-02 | *New York Times* (Wicker) | dispatch | the Bangkok communiqué filed first | Humphrey, *Education of a Public Man*, 332
+1966-02 | *New York Times* | story (Broder) | Romney: "fuzziness on national and international issues" | White, *Making of the President 1968*, 40
 1966-03-01 | *New York Post* (Wechsler) | column | "His righteous rhetoric is almost reminiscent of Richard Nixon" | Solberg, *Hubert Humphrey*, 293
 1966-03-12 | *New Republic* | article | Humphrey "a kind of export ADA" | Solberg, *Hubert Humphrey*, 292
 1966-04-01 | *Time* | cover | Humphrey; "a White House Uriah Heep" | Solberg, *Hubert Humphrey*, 295
 1966-04-29 | *New York Times* (Reston) | column | "Alas, Poor Hubert" | Solberg, *Hubert Humphrey*, 295
 1966-07-29 | *New York Post* (McGrory) | column | "The Vice President is not a proud man" (Check: the day) | Solberg, *Hubert Humphrey*, 295
+1967-04-23 | *New York World Journal Tribune* | article | Thimmesch, "The New New Nixon" | White, *Making of the President 1968*, 53 n.9
 1967-09 | *Time* | cover | Peggy Rusk's wedding to Guy Smith (Check: the issue) | Rusk, *As I Saw It*, 581
+1967-09-05 | *New York Times* | p. 28 | Romney "brainwashing" | White, *Making of the President 1968*, 59
+1967-09-05 | the networks' evening news | broadcast | the Gordon clip | White, *Making of the President 1968*, 60
+1967-09-10 | *Detroit News* | Sunday editorial | Romney to quit | White, *Making of the President 1968*, 60
+1967-10 | *Time* | cover | Rockefeller and Reagan | White, *Making of the President 1968*, 60
 1968-02 | the papers, nationally | front pages (by Rusk's account) | Rusk to Scali at a backgrounder: "Whose side are you on?" | Rusk, *As I Saw It*, 477
+1968-03 | *New York Times* | column (Reston), the first week | "the political system ... has broken down" | White, *Making of the President 1968*, 94–95
+1968-03-19 | *New York Times* | front page | Rockefeller to declare | White, *Making of the President 1968*, 231
+1968-08-27 | Knight newspapers | story | McCarthy: chances zero (`cal.1968-08-27.press-and-broadcasting-3`) | White, *Making of the President 1968*, 282
+1968-08-28 | NBC | broadcast, 9:55 p.m. | the riot film over Stokes | White, *Making of the President 1968*, 302
+1968-09-07 | *Chicago Daily News* | article | Coffey's reconstruction | White, *Making of the President 1968*, 299 n.7
+1968-09-11 | *Charlotte Observer* | article | Jablow on Nixon's Southern strategy | White, *Making of the President 1968*, 326
 1968-11 | wires, two reporters | dispatch | a secret meeting with Johnson guessed, the White House called (the visit now dated Oct. 19, `cal.1968-10-19.elections-1968`) | Humphrey, *Education of a Public Man*, 404 n.
+1968-12-29 | *New York Times Magazine* | article | Searle, "A Foolproof Scenario for Student Revolts" | White, *Making of the President 1968*, 219 n.8
