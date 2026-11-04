@@ -1393,6 +1393,17 @@ Rights in Conflict (Walker Report):
 - The Billie Sol Estes affair is not in the calendar at all (63: only Dirksen and Halleck's demand entered, May 1962).
 - The acceptance of July 16, 1964, is bundled in `cal.1964-07-15.elections-1964` with the nomination and Miller's (the spans rule: three events).
 
+### Mann, *The Walls of Jericho* (batch 3, Oct. 29, 2026; notes/book-checks/mann-walls-of-jericho.md)
+- Reedy to Johnson, "dry tinder," undated (1963), Civil Rights, Confidential Memos—Reedy, Vice Presidential Papers, LBJ Library (Mann, 339): the date.
+- The *CBS Reports* debate of Thurmond and Humphrey on the bill, March 1964, printed in the Record of Mar. 26 (110 Cong. Rec. 6428–29): the day of the broadcast.
+- Katzenbach before House Judiciary on the voting bill, Mar. 18, 1965 (Mann, 467): an entry from the Digest's committee meeting.
+- Johnson's words on the poll tax, spring 1965 (Mann, 471), and King's on the Senate's vote of May 11, 1965 (472): their days.
+- Johnson to Russell by telephone on Russell's letter of July 1, 1968 (Mann, 497, from Temple's oral history): no recording found July 1–10; the day.
+- Alexander Lawrence's nomination and confirmation, 1968: the days (the Senate's Executive Journal).
+- Hickenlooper and Simpson against the Dirksen agreement, May 1964 (CQ, May 22, 1964, 987, cited by Mann, 423).
+- Findlay, *Church People in the Struggle*, cited by Mann, 412, for the vigil and the Georgetown convocation: no card.
+- Van Dyk's memorandum to Humphrey on the Vice Presidency, 1964 (Eisele, 197–98, cited by Mann, 433): the date.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its

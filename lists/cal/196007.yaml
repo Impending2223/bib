@@ -168,17 +168,20 @@ entries:
       rows:
         - 'w.sorensen-kennedy 155: all'
     tags: [name:kennedy-john-f]
-  - id: cal.1960-07-10.elections-1960-4
+  - id: cal.1960-07-10.elections-1960
     when: July 10
     date: '1960-07-10'
     thread: elections-1960
-    c: '*Meet the Press*. Kennedy: "I think we are going to win the nomination. ... But I don''t think it is wrapped up. ... No convention is."'
-    n: '[[w.sorensen-kennedy]], 155. Names: Kennedy.'
+    c: '*Meet the Press*, the day before the convention opens, Johnson, Kennedy and Symington on the program. Kennedy: "I think we are going to win the nomination. ... But I don''t think it is wrapped up. ... No convention is." Johnson: he would not take second place. "Most vice presidents don''t do much."'
+    n: '[[w.mann-walls-of-jericho]], 275 (Johnson); [[w.sorensen-kennedy]], 155 (Kennedy). To check: *Meet the Press*, NBC, July 10, 1960 (cited by [[w.mann-walls-of-jericho]], 275). Names: Johnson, Kennedy, Symington.'
     src:
-      c: 941e901d
+      c: 06c7ec0e
       rows:
-        - 'w.sorensen-kennedy 155: all'
-    tags: [name:kennedy-john-f]
+        - 'w.mann-walls-of-jericho 275: A, C-D'
+        - 'via w.mann-walls-of-jericho 275 n.most-vice-presidents-dont-do-much: D'
+        - 'w.sorensen-kennedy 155: A-B'
+    tags: [name:johnson-lyndon-b, name:kennedy-john-f, name:symington-william-s]
+    aliases: [cal.1960-07-10.elections-1960-4]
   - id: cal.1960-07-11.congo
     when: July 11
     date: '1960-07-11'
@@ -266,7 +269,7 @@ entries:
     thread: elections-1960
     also: [medicare]
     c: Democratic platform adopted, the civil rights plank as written; the South's minority report refused. "The peaceful demonstrations for first-class citizenship" a signal. Medical care for the aged "as part of the time-tested Social Security insurance system." Growth at 5 percent a year.
-    n: '[1960 Democratic Party Platform](https://www.presidency.ucsb.edu/documents/1960-democratic-party-platform). [[w.schlesinger-robert-kennedy-and-his]], 215–16 (the civil rights plank). The convention: [[w.white-making-of-the-president]]; [[w.caro-passage-of-power]], 98–108 (the convention; not the platform). [[w.kallina-kennedy-v-nixon]], 139–40 (the civil rights plank). Check the minority report''s vote. [[w.branch-parting-the-waters]], 318–19 (the plank pressed by the Kennedy workers; the minority report voted down). To check: [[w.mailer-superman-comes-to-the]]; [[w.pietrusza-1960]]; [[w.rorabaugh-real-making-of-the]]; [[w.donaldson-first-modern-campaign]]; [[w.casey-making-of-a-catholic]]; [[w.dallek-lone-star-rising]]; [[w.odonnell-johnny-we-hardly-knew]].'
+    n: '[1960 Democratic Party Platform](https://www.presidency.ucsb.edu/documents/1960-democratic-party-platform). [[w.schlesinger-robert-kennedy-and-his]], 215–16 (the civil rights plank); [[w.mann-walls-of-jericho]], 272–74 (the civil rights plank; the minority report refused by voice vote, the South asking no roll call). The convention: [[w.white-making-of-the-president]]; [[w.caro-passage-of-power]], 98–108 (the convention; not the platform). [[w.kallina-kennedy-v-nixon]], 139–40 (the civil rights plank). Check the minority report''s vote. [[w.branch-parting-the-waters]], 318–19 (the plank pressed by the Kennedy workers; the minority report voted down). Check: Mann, 274, from CQ''s Weekly Report of July 15, 1960, has the minority report refused by voice vote. To check: [[w.mailer-superman-comes-to-the]]; [[w.pietrusza-1960]]; [[w.rorabaugh-real-making-of-the]]; [[w.donaldson-first-modern-campaign]]; [[w.casey-making-of-a-catholic]]; [[w.dallek-lone-star-rising]]; [[w.odonnell-johnny-we-hardly-knew]].'
     src:
       c: 10eea755
       rows:
@@ -277,6 +280,7 @@ entries:
         - 'w.kallina-kennedy-v-nixon 139–40: A'
         - 'w.branch-parting-the-waters 318–19: A-B'
         - 'via w.branch-parting-the-waters 318 n.1: A'
+        - 'w.mann-walls-of-jericho 272–74: A-B'
   - id: cal.1960-07-12.elections-1960-2
     when: July 12
     date: '1960-07-12'
@@ -346,7 +350,7 @@ entries:
     thread: elections-1960
     also: [robert-kennedy]
     c: Kennedy offers Johnson second place; Robert Kennedy to Johnson's suite that afternoon; the accounts of what he said differ. Johnson nominated by acclamation that night, the rules suspended over shouts from the galleries.
-    n: '[[w.caro-passage-of-power]], 109–43 (the accounts of the day); [[w.schlesinger-robert-kennedy-and-his]], 206–11 (Robert Kennedy''s account, and Graham''s against it). [[w.kallina-kennedy-v-nixon]], 74–79 (the offer; Robert Kennedy''s two calls on Johnson; the nomination). [[w.sorensen-kennedy]], 165–66. To check: [[w.shesol-mutual-contempt]]; [[w.white-making-of-the-president]]; Arthur Krock, Memoranda, July 1960, p. 1, Arthur Krock Papers, Reference File, LBJ Library; "Reminiscences of Lyndon B. Johnson," transcript of tape recording, Aug. 19, 1969, Oral History Collection, LBJ Library; "Senate Daily Diary," July 14, 1960 (kept by Johnson''s secretaries), LBJ Library; Philip L. Graham, "Notes on the 1960 Democratic Convention," July 19, 1960 ("Graham Memo"), Reference File, LBJ Library; James H. Rowe Jr. OH II, LBJ Library (cited by [[w.caro-passage-of-power]], 123, 130, 133); Robert Kennedy, oral history interview by Schlesinger, Feb. 27, 1965, JFK Library (cited by [[w.schlesinger-robert-kennedy-and-his]], 206 n.66); Herman Talmadge OHI, July 17, 1969, LBJ Library (cited by [[w.kallina-kennedy-v-nixon]], 78 n.72); Joseph Sharkey OHI, Nov. 1, 1967, JFK Library (cited by [[w.kallina-kennedy-v-nixon]], 79 n.76). See [[cal.1960-07-12.elections-1960]]. Names: Kennedy, Johnson, Robert Kennedy. Check: Caro gives the voice vote in the hall about evenly divided, Rayburn calling "Say ''aye''!" (143), not shouts from the galleries. Check: Sorensen has Robert Kennedy go to Johnson at his brother''s request, and mention the National Committee chairmanship as an alternative (166).'
+    n: '[[w.caro-passage-of-power]], 109–43 (the accounts of the day); [[w.schlesinger-robert-kennedy-and-his]], 206–11 (Robert Kennedy''s account, and Graham''s against it); [[w.mann-walls-of-jericho]], 276–78 (the offer, about 10 a.m.; Robert Kennedy''s call; the accounts). [[w.kallina-kennedy-v-nixon]], 74–79 (the offer; Robert Kennedy''s two calls on Johnson; the nomination). [[w.sorensen-kennedy]], 165–66. To check: [[w.shesol-mutual-contempt]]; [[w.white-making-of-the-president]]. See [[cal.1960-07-12.elections-1960]]. Names: Kennedy, Johnson, Robert Kennedy. Check: Caro gives the voice vote in the hall about evenly divided, Rayburn calling "Say ''aye''!" (143), not shouts from the galleries. Check: Sorensen has Robert Kennedy go to Johnson at his brother''s request, and mention the National Committee chairmanship as an alternative (166).'
     src:
       c: 608e1df6
       rows:
@@ -367,6 +371,8 @@ entries:
         - 'via w.kallina-kennedy-v-nixon 78 n.72: A'
         - 'via w.kallina-kennedy-v-nixon 79 n.76: D'
         - 'w.sorensen-kennedy 165–66: all'
+        - 'w.mann-walls-of-jericho 276–78: A-C'
+        - 'via w.mann-walls-of-jericho 276 n.on-the-morning-of-july-14: A-C'
     tags: [name:kennedy-john-f, name:johnson-lyndon-b, name:kennedy-robert-f]
   - id: cal.1960-07-14.immigration
     when: July 14
@@ -978,3 +984,17 @@ entries:
       rows:
         - 'w.nixon-six-crises 317: all'
     tags: [name:mitchell-james-p, name:kennedy-john-f, name:nixon-richard-m]
+  - id: cal.1960-07.elections-1960-6
+    when: July
+    date: 1960-07
+    thread: elections-1960
+    also: [civil-rights-organizations]
+    c: 'Los Angeles, near the convention''s close. Johnson to a caucus of Negro delegates: "Just give me a chance. I won''t let you down. I''ll do more for you in four years in the field of civil rights than you''ve experienced in the last hundred years." Farmer of CORE: his nomination "a disaster."'
+    n: '[[w.mann-walls-of-jericho]], 278. To check: Charles C. Diggs Jr., oral history; James Farmer, oral history, LBJ Library (cited by [[w.mann-walls-of-jericho]], 278). Check: the day. See [[cal.1960-07-14.elections-1960]]. Names: Johnson, Farmer.'
+    src:
+      c: bf4430e5
+      rows:
+        - 'w.mann-walls-of-jericho 278: all'
+        - 'via w.mann-walls-of-jericho 278 n.liberals-and-black-leaders-who-were-outraged.a: all'
+        - 'via w.mann-walls-of-jericho 278 n.liberals-and-black-leaders-who-were-outraged.b: all'
+    tags: [name:johnson-lyndon-b, name:farmer-james]

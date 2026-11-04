@@ -48,7 +48,7 @@ entries:
     date: '1960-04-05'
     thread: elections-1960
     c: 'Wisconsin primary. Republican: Nixon, unopposed. Democratic: Kennedy over Humphrey, 476,024 to 366,753, 56.5 percent.'
-    n: 'CQ Guide 6th (2010) 404. [[w.humphrey-education-of-a-public-1976]], 209, 211 (Humphrey carries four of the ten districts); [[w.solberg-hubert-humphrey]], 207 (Kennedy 56 percent, six of ten districts); [[w.sorensen-kennedy]], 137 (Kennedy''s win; 56 percent). Check: Solberg gives 474,024 (207). See [[cal.1960-03-08.elections-1960]]. Names: Humphrey, Kennedy, Nixon.'
+    n: 'CQ Guide 6th (2010) 404. [[w.humphrey-education-of-a-public-1976]], 209, 211 (Humphrey carries four of the ten districts); [[w.solberg-hubert-humphrey]], 207 (Kennedy 56 percent, six of ten districts); [[w.sorensen-kennedy]], 137 (Kennedy''s win; 56 percent); [[w.mann-walls-of-jericho]], 265–66 (Kennedy 56 percent, Humphrey 43). Check: Solberg gives 474,024 (207). See [[cal.1960-03-08.elections-1960]]. Names: Humphrey, Kennedy, Nixon.'
     src:
       c: 1288842d
       rows:
@@ -56,6 +56,7 @@ entries:
         - 'w.humphrey-education-of-a-public-1976 209, 211: C'
         - 'w.solberg-hubert-humphrey 207: ?'
         - 'w.sorensen-kennedy 137: A, C'
+        - 'w.mann-walls-of-jericho 266: C'
     tags: [primary:1960-04-05, name:humphrey-hubert-h, name:kennedy-john-f, name:nixon-richard-m]
   - id: cal.1960-04-05.mayors-milwaukee
     when: Apr. 5
@@ -110,7 +111,7 @@ entries:
     date: '1960-04-08'
     thread: voting-rights
     c: Senate passes H.R. 8601 as amended, [71–18](https://voteview.com/rollcall/RS0860284), the Senators of nine southern States against. Court-appointed voting referees; federal election records kept; obstruction of court orders and flight after a bombing made crimes. Judiciary's version taken up Mar. 30, [71–17](https://voteview.com/rollcall/RS0860269); Javits's equal job opportunity commission tabled on Dirksen's motion, Apr. 1, [48–38](https://voteview.com/rollcall/RS0860272).
-    n: '[[w.sundquist-politics-and-policy]], 249–50 (the vote, 71–18). See [[cal.1960-02-15.voting-rights]]. Names: Javits, Dirksen.'
+    n: '[[w.sundquist-politics-and-policy]], 249–50 (the vote, 71–18); [[w.mann-walls-of-jericho]], 259–60. See [[cal.1960-02-15.voting-rights]]. Names: Javits, Dirksen. Check: Mann, 259, puts the vote extending the obstruction section to all court orders, 68–20, on Mar. 30; Voteview, Mar. 31 ([RS0860270](https://voteview.com/rollcall/RS0860270)).'
     src:
       c: d4870ab3
       rows:
@@ -118,6 +119,10 @@ entries:
         - 'https://voteview.com/rollcall/RS0860269: E'
         - 'https://voteview.com/rollcall/RS0860272: F'
         - 'w.sundquist-politics-and-policy 249–50: A'
+        - 'w.mann-walls-of-jericho 260: A'
+        - 'w.mann-walls-of-jericho 259: E'
+        - 'via w.mann-walls-of-jericho 260 n.satisfy-only-the-moderates.a: A'
+        - 'via w.mann-walls-of-jericho 260 n.satisfy-only-the-moderates.b: A'
     tags: [name:javits-jacob-k, name:dirksen-everett]
   - id: cal.1960-04-08.elections-1960
     when: Apr. 8
@@ -182,6 +187,18 @@ entries:
     thread: japan-and-korea-rhee
     c: 'Masan: the body of a student missing since Mar. 15 taken from the harbor; riots again.'
     n: FRUS 1958–60, XVIII, docs. [295](https://history.state.gov/historicaldocuments/frus1958-60v18/d295), [296](https://history.state.gov/historicaldocuments/frus1958-60v18/d296) (Apr. 12). See [[cal.1960-03-15.japan-and-korea]].
+  - id: cal.1960-04-11.voting-rights
+    when: Apr. 11
+    date: '1960-04-11'
+    thread: voting-rights
+    c: 'Russell''s press release on the Senate''s civil rights bill: the Southern Senators "defeat[ed] the most vicious schemes proposed by the South haters" and "stri[cken] out or modif[ied] other unfair and inequitable features."'
+    n: '[[w.mann-walls-of-jericho]], 260. To check: Russell''s press release, Apr. 11, 1960, Russell Library (cited by [[w.mann-walls-of-jericho]], 260). See [[cal.1960-04-08.voting-rights]]. Names: Russell.'
+    src:
+      c: bc14f3ab
+      rows:
+        - 'w.mann-walls-of-jericho 260: all'
+        - 'via w.mann-walls-of-jericho 260 n.negotiated-a-fair-deal: all'
+    tags: [name:russell-richard-b]
   - id: cal.1960-04-12.elections-1960
     when: Apr. 12
     date: '1960-04-12'
@@ -266,7 +283,12 @@ entries:
     date: '1960-04-21'
     thread: voting-rights
     c: House agrees to the Senate's amendments to H.R. 8601, [288–95](https://voteview.com/rollcall/RH0860106). To the President.
-    n: See [[cal.1960-02-15.voting-rights]].
+    n: '[[w.mann-walls-of-jericho]], 260. See [[cal.1960-02-15.voting-rights]].'
+    src:
+      c: b62e0d37
+      rows:
+        - 'https://voteview.com/rollcall/RH0860106: A'
+        - 'w.mann-walls-of-jericho 260: all'
   - id: cal.1960-04-21.elections-1960
     when: Apr. 21
     date: '1960-04-21'

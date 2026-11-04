@@ -9,12 +9,13 @@ entries:
     thread: mississippi-ole-miss
     also: [right-and-the-military, desegregation-schools]
     c: Meredith registers. Troops in Oxford. Walker arrested for insurrection; sent for psychiatric examination.
-    n: '*United States v. Barnett*, [376 U.S. 681](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf), 686 (1964). [[w.sorensen-kennedy]], 487 (Meredith registers; the troops). See [[cal.1962-09-27.mississippi]]. Names: Meredith, Walker.'
+    n: '*United States v. Barnett*, [376 U.S. 681](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf), 686 (1964). [[w.sorensen-kennedy]], 487 (Meredith registers; the troops); [[w.mann-walls-of-jericho]], 332 (Meredith registered; 23,000 troops; Walker at the monument the night before). See [[cal.1962-09-27.mississippi]]. Names: Meredith, Walker.'
     src:
       c: 9f872ca1
       rows:
         - 'https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf: all'
         - 'w.sorensen-kennedy 487: A-B'
+        - 'w.mann-walls-of-jericho 332: A-B'
     tags: [name:walker-edwin-a, name:meredith-james-h]
   - id: cal.1962-10-01.transition-and-staff
     when: Oct. 1
@@ -48,6 +49,21 @@ entries:
         - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ross-barnett-145-am: A'
         - 'w.sorensen-kennedy 486: B, C'
     tags: [name:kennedy-john-f, name:barnett-ross-r]
+  - id: cal.1962-10-01.mississippi-ole-miss
+    when: Oct. 1
+    date: '1962-10-01'
+    thread: mississippi-ole-miss
+    also: [congress]
+    c: 'The Senate after the riot. Ervin deplores it, but those "fomenting litigation" might meditate on St. Paul: "All things are lawful unto me, but all things are not expedient." Stephen Young: "There just cannot be any compromise on civil rights." Javits: "reckless defiance of the law only breeds anarchy."'
+    n: '[108 Cong. Rec. 21415](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt16/pdf/GPO-CRECB-1962-pt16-3-1.pdf#page=13) (Oct. 1, 1962). [[w.mann-walls-of-jericho]], 332–33. See [[cal.1962-06-25.mississippi]]. Names: Ervin, Stephen Young, Javits.'
+    src:
+      c: 9b729873
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt16/pdf/GPO-CRECB-1962-pt16-3-1.pdf#page=13: A-B'
+        - 'w.mann-walls-of-jericho 332–33: all'
+        - 'via w.mann-walls-of-jericho 332 n.among-southern-members-of-congress.b: A'
+        - 'via w.mann-walls-of-jericho 333 n.more-responsible-leaders: B'
+    tags: [name:ervin-sam-j-jr, name:young-stephen-m, name:javits-jacob-k]
   - id: cal.1962-10-02.mayors-cleveland
     when: Oct. 2
     date: '1962-10-02'
@@ -1656,3 +1672,15 @@ entries:
       rows:
         - 'w.white-suite-3505 87–88: all'
     tags: [name:goldwater-barry-m, name:rockefeller-nelson, state:mt]
+  - id: cal.1962-10.mississippi-ole-miss
+    when: Oct.
+    date: 1962-10
+    thread: mississippi-ole-miss
+    also: [democratic-party]
+    c: 'Truman, after the riot at Oxford: Kennedy "is doing the right thing."'
+    n: '[[w.mann-walls-of-jericho]], 333. To check: CQ Weekly Report, Oct. 5, 1962, 1809 (cited by [[w.mann-walls-of-jericho]], 333). Check: the day. See [[cal.1962-06-25.mississippi]]. Names: Truman, Kennedy.'
+    src:
+      c: a9401f9a
+      rows:
+        - 'w.mann-walls-of-jericho 333: all'
+    tags: [name:truman-harry-s, name:kennedy-john-f]
