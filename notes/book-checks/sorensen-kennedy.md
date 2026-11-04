@@ -167,7 +167,7 @@ social trivia, or an operation below the calendar's level. Page | date | event |
 | 141 | 1960-05 | Byrd endorses Humphrey "your last chance to stop Kennedy" | entered Nov. 4 (R15): cal.1960-05.elections-1960-7 |
 | 148 | 1960-05 | Sorensen at Michigan State Democratic Convention; meeting Williams | undated (folded into June 2) |
 | 155 | 1960-07-11 | Mrs. Roosevelt: Kennedy to take the Vice Presidency; Humphrey switches to Stevenson | entered Nov. 4: cal.1960-07-11.elections-1960-5 and -6 (Mrs. Roosevelt; Humphrey), each dated "as the convention opened" |
-| 156 | 1960-07 | Connally and India Edwards cast doubt on Kennedy's fitness | entered Nov. 4 (R15): cal.1960-07.elections-1960-6 |
+| 156 | 1960-07 | Connally and India Edwards cast doubt on Kennedy's fitness | entered Nov. 4 (R15): cal.1960-07.elections-1960-10 |
 | 165 | 1960-06 | Bobby Baker cautions Sorensen not to be certain Johnson would reject | private remarks (a staff remark, undated in June) |
 | 170 | 1960-07/08 | Kennedy visits Eleanor Roosevelt at Hyde Park and Truman at Independence | entered Nov. 4: Hyde Park, cal.1960-08.elections-1960-8; Independence cited on cal.1960-08-20.elections-1960 |
 | 176 | 1960-08 | Eisenhower denies Kennedy's request to include Stevenson and Bowles in the intelligence briefings | undated |
@@ -236,7 +236,7 @@ social trivia, or an operation below the calendar's level. Page | date | event |
 | 478 | 1961 | Freedom Riders press conference endorsement | undated mid-1961 |
 | 501 | 1963 summer | private White House meetings with 1,600 leaders: lawyers, clergy, business, labor | undated here (the meetings by their days elsewhere) |
 | 505 | 1963 | Lubell's survey; Sanford's remark; "K.O. the Kennedys" | undated |
-| 140 | 1960-05 | the televised debate of Kennedy and Humphrey in West Virginia | entered Nov. 4 (R15): cal.1960-05.elections-1960-5 |
+| 140 | 1960-05 | the televised debate of Kennedy and Humphrey in West Virginia | entered Nov. 4 (R15): cal.1960-05.elections-1960-13 |
 | 188–93 | 1960-09-07 | the Peale group's meeting and statement | in a pending patch: cal.1960-09-07.elections-1960 (b3-six-crises); also in the c of cal.1960-09-12.elections-1960, a split for the owner |
 | 149 | 1960-05 | Kennedy at Eugene, Ore.: "regret" for the U-2 flight; Scott, Dirksen, Nixon, Johnson | in a pending patch: cal.1960-05-23.elections-1960-2 (b3-six-crises), Scott's attack and Kennedy's reply |
 | 743 | 1963-10-17 | the General Assembly's resolution against weapons of mass destruction in orbit | lead: the resolution's number and day not read |
