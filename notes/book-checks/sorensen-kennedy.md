@@ -476,3 +476,213 @@ The reading is complete (XII–XIII, XIX–XXV page by page, the Epilogue by its
 setting of the events listed "not checked" in Passed over against the calendar: chiefly Laos and Vietnam (639–61), China,
 India and Pakistan (661–66), the missile crisis's dense days (697–718), the crisis's aftermath (719–28) and the test ban's
 ratification and the wheat sale (729–46), and the Berlin crisis's later incidents (593–600).
+
+## Fourth run, Nov. 4, 2026 (b3-sorensen-4): pp. 593-746 set against the calendar
+
+Patch: `inbox/2026-11-04-b3-sorensen-4.yaml` (b3-sorensen-4): 53 new entries (each claimed in the ledger), 95 `cite`
+ops, 1 `check`; `./bib patch-check`: 0 errors (32 same-day "one event?" warnings, each read against its neighbors and
+the ledger: distinct acts, below). Witnesses: `inbox/witnesses/2026-11-04-b3-sorensen-4.yaml` (22 rows, 1 amendment); the
+edges appended to `sources/witnesses/by-work/sorensen-kennedy.yaml` (25, at 'PAGE n.text'). `./bib check`: 0 errors.
+
+The copy: the same PDF from the Drive (32 MB, 810 pages, text layer); offset unchanged, printed page = PDF page − 16,
+checked by the running heads at pp. 593, 713 and against the page image at p. 710. The PDF and the images deleted.
+
+How it was done: the rows of the third run's Passed over marked "not checked" for pp. 593-600, 602-36, 639-66, 697-728
+and 729-46 were read again page by page, each dated event set against every calendar entry of its day (all threads, a dump of
+the tree and the pending patches) and the ledger (`./bib ledger find`). The quotations were found in the Public Papers
+(`sources/ppp-text/`) and the documents in FRUS (`sources/frus-text/`), and the record dates and grounds the entry where it
+is found.
+
+### Cites added (95)
+
+Berlin, 593-600: Aug. 9-10, 1961 (soviet-union: the orange groves); Aug. 19 (the convoy); Aug. 22 (the hundred meters);
+Aug. 30 (Clay); Sept. 21 (Rusk and Gromyko); Oct. 6 ("an apple for an orchard"); Oct. 27 (the tanks); Nov. 9 (Khrushchev's
+"weed of burr and nettle", FRUS XIV, doc. 209); Dec. 13 (the split communiqué); Feb. 14 and Mar. 11, 1962 (the air
+corridors); Dec. 17, 1962 (the interview, West Berlin "a vital interest"); Oct. 10 and Nov. 4, 1963 (the convoys).
+Laos and Vietnam, 639-61: Mar. 27, Apr. 1, Apr. 20, May 3, May 16, June 3 (Vienna), 1961; June 23, July 11, 1962; Apr. 26,
+1963; May 9, May 11, May 23, Oct. 18, Nov. 17, Nov. 22, 1961; May 8, May 22, June 11, Aug. 21, Aug. 24, Sept. 20, Oct. 10,
+Nov. 1, Nov. 2, 1963. The missile crisis and after, 697-728: Oct. 21-28, 1962 (sixteen entries), Nov. 2, 1962; Jan. 26, Feb. 6,
+Mar. 18, Mar. 30, Apr. 12, Apr. 24, June 20, 1963. The test ban and the wheat sale, 729-46: June 23, June 29, July 26, Aug. 5,
+Aug. 7, Aug. 8, Aug. 15, Aug. 20, Aug. 29, Sept. 11, Sept. 19 (goldwater), Sept. 24 (testing; program-2), Oct. 7, 1963.
+Defense, testing, the Congo, 602-36: Jan. 6, 1961 (Khrushchev's speech); late Jan. (McNamara's report to the Cabinet); Feb.
+13 (the Congo); May 4 (the intelligence board); May 25 (civil defense); June 26 (Taylor); June 28 (NSAM 55); July 12
+(Gallup on testing); July 20 (civil defense to Defense; Dean back to Geneva); Aug. 1 (the reserves); Sept. 12 (the Belgrade
+spokesmen); Sept. 15; Sept. 25; Sept. 27 (McCone); Oct. 30, 1961; June 6, 1962 (West Point); July 30, 1963 (Anderson).
+Two on entries pending in other patches, which wait in the ledger: `cal.1962-10-21.press-and-broadcasting`
+(b3-fursenko-gamble-2) and `cal.1962-10-27.missile-crisis-9` (b3-thomas-rfk-3).
+
+Disagreements: `cal.1962-10-25.missile-crisis-4` (Check added: Sorensen gives U Thant's second proposal on Friday, Oct.
+26); the new Sept. 24, 1963 entry (Sorensen gives the letter to Diệm as sent; FRUS shows it cabled and not delivered,
+Lodge and McNamara against); the new Oct. 27 Executive Committee entry (Sorensen has fighter escorts authorized; the
+record of action, the next day's mission without escort, fighters to answer a MIG attack); `cal.1962-10-27.missile-crisis`
+(Sorensen says nothing of the Jupiters in Robert Kennedy's message: parenthetical). Sorensen's Kennedy–Ayub letter is
+FRUS's of Oct. 28, delivered Oct. 29 (dated by the cable).
+
+### New entries (53)
+
+- Laos, South Asia, China, Vietnam: Key West, Kennedy and Macmillan on Laos, Mar. 26, 1961 (the joint statement; FRUS XXIV,
+  doc. 41); the Paris press luncheon on China, June 2, 1961; the news conference on Laos, Jan. 15, 1962; Kennedy to Ayub,
+  Oct. 28, 1962 (FRUS XIX, doc. 186); the letter to Diệm, cabled and not delivered, Sept. 24, 1963 (FRUS IV, doc. 147); the
+  news conference on China, Nov. 14, 1963.
+- The missile crisis, Oct. 20-31, 1962 (FRUS XI, the Public Papers, the microfiche supplement): the Chiefs' advice to the
+  commanders, Oct. 20; Ormsby-Gore, Oct. 21; Oct. 22: the letter to Macmillan, Salinger's noon announcement, the calls to
+  Hoover and Truman, the 507th NSC, NSAM 196, the Cabinet, Acheson with de Gaulle, the Macmillan call, the SAC and NORAD
+  alert, the USIA's broadcasts, the resolution to Zorin; Oct. 23: the Executive Committee at 10 a.m. and 6 p.m., Executive
+  Order 11058, the Ormsby-Gore dinner and the photographs, Bertrand Russell's telegrams; Khrushchev to Knox, Oct. 24; Oct. 25:
+  the Committee's fourth and fifth meetings, the *Bucharest* passed; the sixth meeting, Oct. 26; Oct. 27: the Committee at 4
+  p.m. (the message to U Thant), the White House statement, the air reserve squadrons; Oct. 28: Rusk to NATO, the tenth
+  meeting, the President's statement; U Thant at Havana, Oct. 30-31; McCloy to Kuznetsov, Oct. 31.
+- 1963: Kennedy to Khrushchev, Apr. 11 ("an honest misunderstanding"); the ASNE answer on Castro, Apr. 19; the news
+  conference of Sept. 12 (the widest margin; Goldwater, "not yet, not yet"); Oct. 9 (weapons in space); the UN resolution,
+  Oct. 17; the letter to Congress on the wheat, Oct. 10; the University of Maine, Oct. 19; the Philadelphia dinner, Oct. 30;
+  the statement to American women, Nov. 1; the Protestant Council, Nov. 8; Barghoorn, Nov. 14.
+- Defense, testing, the Congo (602-36): the President-elect's questions to McNamara, Dec. 1960; the news conference of
+  Jan. 25, 1961 (the Geneva talks put off, the Fisk panel; the Congo famine airlift), two entries; the White House
+  statement on the fifty-megaton bomb, Oct. 17, 1961 (till now only inside `cal.1961-10-17.berlin-and-vienna`); the news
+  conference on shelters, July 5, 1962.
+
+The "one event?" warnings: the same-day entries of Oct. 20-28, 1962 are each a separate act with its own record (a
+meeting, a letter, a call, a statement, an order); the new ones were set against the ledger's pending claims of those days
+(b3-thomas-rfk-3's of Oct. 22, 23 and 27; b3-fursenko-gamble-2's) and renumbered past them. `cal.1962-10-25.missile-crisis-8`
+(the *Bucharest* passed, Oct. 25) is the act that `cal.1962-10-26.missile-crisis-3` names in passing.
+
+### Witnesses (R35, R38)
+
+The records Sorensen quotes or reports for the entries made or cited: the Kennedy–Gromyko memorandum of Oct. 6, 1961;
+Khrushchev's letter of Nov. 9, 1961 (amended: the copy in FRUS XIV, read); the news conferences and addresses he quotes
+(Jan. 15, 1962; Dec. 17, 1962; Apr. 19, May 22, Sept. 12, Sept. 20, Oct. 9, Oct. 19, Oct. 30, Nov. 14, 1963; June 2, 1961);
+the letter to Diệm and its draft; Kennedy to Ayub; Knox's report and Hilsman's summary of it; the White House statements
+of Oct. 27 and 28, 1962; the message to U Thant; Kennedy to Khrushchev, Apr. 11, 1963; the letter to Congress on the wheat.
+Each with the copy the series holds, read. Ormsby-Gore's report to London registered `open: not held` (no American record;
+printed in Macmillan's memoir). Sorensen's own account (R38) is the card; its edges point to these.
+
+### Passed over (R44)
+
+How the list was made: as above; an event not entered and not cited in this run is a row. Page | date | event | why.
+
+| page | date | event | why |
+|---|---|---|---|
+| 593 | 1961-07/08 | Khrushchev's other postures that summer ("shambles"; token troops under the UN) | undated here; lead |
+| 595 | 1961-08 on | Rostow's effort for West Berlin's viability | no act dated; lead |
+| 595 | 1961 | Clay's private cables hinting at resignation | undated; lead |
+| 596 | 1961-62 | the Bonn embassy on the West Germans' two fears | undated; lead |
+| 597 | 1961 | the Adenauer government "deeply neurotic," by an American admirer | private remarks |
+| 597 | 1961-09 | Kennedy's proposal of four-power ministerial talks with Gromyko at the UN; de Gaulle's objection | the days not given; lead |
+| 599 | 1961-62 | the negotiating proposals (an updated peace plan, the World Court, a free city, an access authority) | no act dated; lead |
+| 599 | 1961-62 | Macmillan: "hardly the soup course and none of the fish" | undated; lead |
+| 599-600 | 1962, spring | the Germans' anger at the proposals, prodded by de Gaulle | no act dated; lead |
+| 600 | 1963 | East German proposals of openings for trade | undated; lead |
+| 601 | 1963-06-26 | Kennedy on Air Force One: "We'll never have another day like this" | private remarks |
+| 640 | 1960-12 | Kennedy to Sorensen at Palm Beach on Laos | private remarks |
+| 640-41 | 1961-02/03 | a guarantee of Laos by three neutral neighbors, refused | undated; lead |
+| 641 | 1961-03 | Phoumi's forces driven from their forward position, early March | the day not given; lead |
+| 642 | 1961-03 | the warning to Peking through the Warsaw talks | the day not given; lead |
+| 644 | 1961-04 | Robert Kennedy and Sorensen asked to attend all NSC meetings | undated; lead |
+| 644 | 1961-09 | Kennedy to Sorensen, New York, the eve of the UN address: "Thank God the Bay of Pigs happened" | private remarks |
+| 644-45 | 1961-04 | the Joint Chiefs' written views on Laos | the day not given; lead |
+| 647 | 1961-62 | "We will stay at the Conference" | not found in the Papers; lead |
+| 647 | 1962 | economic aid to Souvanna resumed | undated; lead |
+| 648 | 1963, spring | the Seventh Fleet alerted; war games in Thailand | the days not given; lead |
+| 649 | 1961 | Rusk's proposal to Gromyko of neutralizing both Vietnams | undated; lead |
+| 655 | 1961-11/12 | the anti-American stories in Diệm's controlled press | undated; lead |
+| 656 | 1961-63 | McNamara: "You cannot carry out a land reform program" | undated; lead |
+| 657 | 1963-08 | Madame Nhu's "barbecue show"; her father's resignation; the students' riots | the days not given; leads |
+| 659 | 1963-10 | economic aid withheld, Nhu's Special Forces' funds among it | the days not given; lead (the calendar's Oct. 1963 entries) |
+| 659 | 1963-10/11 | Madame Nhu's tour of the United States | undated here; lead |
+| 659 | 1963 | Kennedy on Madame Nhu: she "resented getting her power through men" | private remarks |
+| 661 | 1961-62 | Chiang vexed: Outer Mongolia, a visa, the force in Burma | undated; lead |
+| 662 | 1962-06 | Chiang told the time was not ripe; the message through the Warsaw talks | the days not given; leads |
+| 663 | 1962-10/11 | Krishna Menon out as Defense Minister | the day not given; lead |
+| 664 | 1962-10 | the midnight emergency meeting on a recommendation for India | undated; lead |
+| 664 | 1962-11/12 | the Nehru–Ayub joint statement; the Kashmir talks | the days not given; lead |
+| 664 | 1963 | Kennedy in the Cabinet Room on Pakistan and Kashmir; the Pakistani Ambassador's tirade | undated; leads |
+| 665 | 1963 | the air defense agreement for India with the British | the day not given; lead |
+| 665-66 | 1962-63 | "These Chinese are tough"; grain to the Chinese weighed | private remarks |
+| 697 | 1962-10-21 | Eisenhower brought from Gettysburg for McCone's second briefing | the day not given; lead (cited on the Oct. 22 call) |
+| 698 | 1962-10 | the officials' secrecy (the entry book, the side entrances) | minor (office routine) |
+| 701 | 1962-10-22 | Sorensen's two calls (a congressman; Edward Kennedy) | private remarks |
+| 702 | 1962-10-22 | the missions told to tape their windows; the twenty-four-hour watch | minor (office routine) |
+| 704 | 1962-10-22 | a congressional leader's call of support after the address | private remarks (unnamed) |
+| 705 | 1962-10 | the President's doodles; the odds "between one out of three and even" | private remarks |
+| 705 | 1962-10-22/23 | the NATO Council's backing after Acheson's briefing; Canada's wavering | the days not given; lead |
+| 706-07 | 1962-10 | the pickets in London; the stock market; the telegrams to the White House, ten to one | leads (the days, the figures) |
+| 707 | 1962-10 | Barnett's telegram "retracting" his earlier one; a right-wing leader's telegram | the days not given; lead |
+| 708 | 1962-10 | Kennedy's own photographs of the aircraft at the Florida bases | undated; lead |
+| 710 | 1962-10-24 | the President's clash with the Navy over the interception line | undated here; lead |
+| 710 n.4 | 1962-10 | the PT-109 replica commandeered | minor |
+| 712 | 1962-10-26 | Zorin to U Thant | lead |
+| 715 | 1962-10-27 | the pickets at the White House | lead (the organizers) |
+| 719 | 1962-10/11 | Acheson's letter after the crisis | undated; lead |
+| 720 | 1962-11 | "we seem to be spending as much time negotiating with you" | private remarks |
+| 720 | 1962-11-19 | letters to Macmillan, Adenauer and de Gaulle on the IL-28s | lead (FRUS XI) |
+| 721 | 1962-11 | Khrushchev's letter on Nixon's defeat | lead (FRUS VI) |
+| 722 | 1963-02 | the MIG attack on the American shrimp boat | the day not given; lead |
+| 723 | 1963 | the Standing Group's review of action against Castro | undated; lead |
+| 724 | 1962-63 | "three potentially major clashes" | not found in the Papers; lead |
+| 725 | 1963 | Khrushchev with Harold Wilson and with Spaak | lead |
+| 727 | 1962-63 | the exchange of weather data from satellites | lead |
+| 729 | 1963 | a Soviet scientist's exploratory message from London; Khrushchev's hint to Cousins and others | undated; leads |
+| 729 | 1963-05 | the Senate resolution for an atmospheric ban, thirty-four sponsors | the day not given; lead (the Record) |
+| 733 | 1963-06 | congressional Republicans on the American University address ("a soft line") | unnamed, undated; lead |
+| 733 | 1963-06 | the end of Soviet jamming; the IAEA's inspection agreed at Vienna | the days not given; leads |
+| 733 | 1963-06 | the German news conference (Pandora); the Free University of Berlin | lead (the days) |
+| 734 | 1963-06/07 | Harriman named; the President's meetings with the delegation | the days not given; lead |
+| 735 | 1963-07 | the evening meetings with the six officials | a series, the days not given; lead |
+| 736-37 | 1963-06/08 | Jackson "cautiously skeptical"; Dirksen and Halleck, "virtual surrender"; Dirksen on reservations; Halleck, "far more tragic" | the days not given; leads (R9) |
+| 737 | 1963-07/08 | Rusk's briefings; Foster with every Senator; the Harris poll | leads |
+| 739 | 1963-08/09 | LeMay's and Power's testimony; Strauss, Burke, Radford and Twining; the Air Force Association | leads (the days) |
+| 742 | 1963-10 | Nixon's attack on the wheat sale; the Polish-language papers | leads |
+| 745 | 1963 | Gallup: the Democrats the "peace party" | lead |
+| 746 | 1963-11-20 | the report to Congress on the UN (1963 Pub. Papers 880) | no thread for the UN; lead |
+| 604 | 1961-03 | McNamara's ninety-six questions to the services | undated; lead |
+| 606 | 1961-62 | the Strike Command formed; the Whiz Kids; a congressman's and a general's complaints | undated; leads |
+| 607 | 1962-63 | the Seven Days in May remark; Shoup's testimony | private remarks; lead (the hearing) |
+| 607-08 | 1963 | the bill to fix the Chiefs' tenure at four years | undated; lead |
+| 608 | 1961-63 | the command and control measures; the President's calls to the War Room and SAC | no act dated; lead |
+| 610 | 1961-63 | "How many times do you have to hit a target with nuclear weapons?" | undated; lead |
+| 613 | 1961 | Ellis's plan to see the Pope on church shelters; Kaysen's civil defense study | undated; leads |
+| 614 | 1962 | the OCDM made the Office of Emergency Planning; Ellis to a judgeship | the days not given; lead |
+| 615-16 | 1961-62 | Teller's $50 billion shelters; the shelter booklet toned down; the 1962 shelter bill; its 1963 demotion | the days not given; leads |
+| 618 | 1961 | "the stakes are too important for us to abandon"; the Chiefs for resuming after sixty days, Feb. 1961; the June panel on secret Soviet testing; the early August order to prepare underground tests | the days not given; leads (FRUS VII) |
+| 619 | 1961-08/09 | the emergency meetings after the Soviet announcement | in the calendar's Aug. 30-31 entries |
+| 622 | 1962-02 | McNamara at lunch with Rusk and Bundy: the tests not needed; Schlesinger's suggestion | undated; lead |
+| 624 | 1962-03 | Peking, Tass, Young Americans for Freedom and SDA on the resumption | the days not given; leads (R9, R10) |
+| 627 n.3 | 1962-03 | the magazine interview on a first use in Europe, and its correction | lead (Alsop, the *Saturday Evening Post*) |
+| 628 | 1961 | "I would hope that any serviceman who is sitting in a camp" | not found; lead |
+| 629 | 1963 | Kennedy on large armies in Europe, "in more than one meeting" | private remarks |
+| 632-33 | 1961-62 | the Special Forces' green berets; Farm Gate and Jungle Jim; the Special Group (Counterinsurgency) | the days not given; leads |
+
+### The press (R13)
+
+- 1962-10-21 | a newspaper (unnamed) | story | had the quarantine Sunday evening; held at the President's request | 698
+- 1963-06 | the American press | coverage | the American University address underplayed, then forgotten after the civil rights address | 733
+
+## Leads (fourth run, Nov. 4)
+
+National: the Senate resolution of thirty-four for an atmospheric ban, May 1963 (the Record; 729); the Republicans'
+statements on the test ban: Jackson, Dirksen and Halleck, June-Aug. 1963 (736-37); LeMay's and Power's testimony, and
+Strauss, Burke, Radford and Twining against the treaty, Aug. 1963 (739); the Air Force Association's stand (739); the
+Harris poll on the treaty (737); Nixon's attack on the wheat sale, Oct. 1963 (742); Gallup's "peace party" (745); Barnett's
+telegrams of Oct. 1962 (707); the NSC's attendance (Robert Kennedy, Sorensen) after the Bay of Pigs (644); a thread for the
+United Nations (the report of Nov. 20, 1963, 1963 Pub. Papers 880, has none).
+Foreign: the Joint Chiefs' written views on Laos, late Apr. 1961 (644-45; FRUS XXIV); the neutral neighbors' refusal,
+1961 (640-41); the warnings through the Warsaw talks, Mar. 1961 and June 1962 (642, 662; FRUS XXII); the Seventh Fleet and
+the war games in Thailand, spring 1963 (648); Madame Nhu's tour and remarks, Aug.-Nov. 1963 (657, 659); Menon's removal,
+the Nehru–Ayub statement, the air defense agreement for India (663-65; FRUS XIX); the NATO Council's backing, Oct. 1962
+(705; FRUS XI); the letters of Nov. 19, 1962 to the allies on the IL-28s (720); Khrushchev's letter on Nixon's defeat
+(721); the MIG attack on the shrimp boat, Feb. 1963 (722); the end of jamming and the IAEA agreement, June 1963 (733);
+Kennedy and the Navy over the interception line, Oct. 24, 1962 (710); the Alphand meeting at Andrews, Mar. 26, 1961 (FRUS
+XXIV, doc. 40: not in the calendar; not in Sorensen).
+Defense (602-36): McNamara's ninety-six questions, Mar. 1961 (604); the Strike Command (606); the bill on the Chiefs'
+tenure, 1963 (607-08); the Office of Emergency Planning and Ellis's judgeship, 1962 (614); the shelter booklet and the
+shelter bill of 1962 (615-16); the Chiefs on resuming tests, Feb. 1961, the June panel, the early August order (618; FRUS
+VII); the reactions of Peking, Tass, Young Americans for Freedom and SDA to the resumption, Mar. 1962 (624); the magazine
+interview of Mar. 1962 on first use (627 n.3); the green berets, Farm Gate and Jungle Jim, the Special Group
+(Counterinsurgency), 1961-62 (632-33).
+
+### What remains
+
+The fourth run sets every "not checked" row of the third run (pp. 593-746) against the calendar; with it the book is
+read and set whole. Left for a reader: the leads above, chiefly the undated events Sorensen gives without a day, which
+FRUS VII, XI, XIV, XIX, XXII and XXIV and the Record may date; and the Executive Committee's meetings of Oct. 24 and Oct. 27
+(morning) and Oct. 29-Nov. 20, 1962 (FRUS XI), which the calendar still lacks as entries of their own.
