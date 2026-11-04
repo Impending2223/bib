@@ -619,13 +619,14 @@ entries:
     date: '1967-12-19'
     thread: vietnam
     c: 'Westmoreland to Wheeler: the enemy will attack along the borders to launch major attacks against South Vietnam for "a psychological and political victory"; Dec. 20, his forces near the borders have compelled Hanoi "to undertake an intensified country-wide effort, perhaps a maximum effort, over a relatively short period."'
-    n: 'FRUS 1964–68, V, doc. [443](https://history.state.gov/historicaldocuments/frus1964-68v05/d443). [[w.cosmas-joint-chiefs-of-staff]], 139 (Dec. 20). Made public: FRUS 1964–68, V (2002). To check: [[w.wirtz-tet-offensive]]; [[w.oberdorfer-tet]]. Names: Westmoreland, Wheeler.'
+    n: 'FRUS 1964–68, V, doc. [443](https://history.state.gov/historicaldocuments/frus1964-68v05/d443). [[w.cosmas-joint-chiefs-of-staff]], 139 (Dec. 20). [[w.westmoreland-soldier-reports]], 314 (the cable: the enemy "has already made a crucial decision concerning the conduct of the war"; a "maximum effort on all fronts"). Made public: FRUS 1964–68, V (2002). To check: [[w.wirtz-tet-offensive]]; [[w.oberdorfer-tet]]. Names: Westmoreland, Wheeler. Check: Westmoreland dates the cable Dec. 20 (314).'
     src:
       c: 7ad4810b
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d443: all'
         - 'w.cosmas-joint-chiefs-of-staff 139: B'
         - 'via w.cosmas-joint-chiefs-of-staff 139 n.23: B'
+        - 'w.westmoreland-soldier-reports 314: A-B'
     tags: [name:westmoreland-william, name:wheeler-earle]
   - id: cal.1967-12-19.space
     when: Dec. 19
@@ -762,6 +763,19 @@ entries:
         - 'via w.gavin-gold-dollars-and-power 3 n.4: A'
         - 'via w.gavin-gold-dollars-and-power 4 n.5: B-C'
     tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr]
+  - id: cal.1967-12-23.vietnam
+    when: Dec. 23
+    date: '1967-12-23'
+    thread: vietnam
+    c: 'Cam Ranh Bay, 9:50 a.m., Johnson on his way from Khorat to Rome. To the senior unit commanders: "We are not going to yield. We are not going to shimmy. We are going to wind up with a peace with honor." To the troops, Kỳ, Westmoreland and Bunker there: an Oak Leaf Cluster to Westmoreland''s Distinguished Service Medal; the medal to Abrams, Palmer, Momyer and Cushman among others; the Medal of Freedom to Bunker, Locke and Komer.'
+    n: 'Remarks to Senior Unit Commanders, [1967 Pub. Papers 1183](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=575) (Dec. 23, 1967); Remarks to Service Personnel, [1967 Pub. Papers 1184](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=576) (Dec. 23, 1967). [[w.westmoreland-soldier-reports]], 236 (the stop; the troops). See [[cal.1967-12-19.vietnam]]. Names: Johnson, Nguyễn Cao Kỳ, Westmoreland, Bunker, Abrams, Cushman, Komer.'
+    src:
+      c: 57a25b6b
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=575: A-B'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=576: A, C'
+        - 'w.westmoreland-soldier-reports 236: A, C'
+    tags: [name:johnson-lyndon-b, name:nguyen-cao-ky, name:westmoreland-william, name:bunker-ellsworth, name:abrams-creighton, name:cushman-robert-e-jr, name:komer-robert-w, place:cam-ranh-bay]
   - id: cal.1967-12-25.vietnam
     when: Dec. 25
     date: '1967-12-25'
@@ -958,3 +972,25 @@ entries:
         - 'w.kabaservice-rule-and-ruin 240: all'
         - 'via w.kabaservice-rule-and-ruin 240 n.74: all'
     tags: [name:reagan-ronald, state:ct, city:new-haven]
+  - id: cal.1967-12.vietnam-operations
+    when: Dec.
+    date: 1967-12
+    thread: vietnam-operations
+    c: 'Westmoreland ends Operation FAIRFAX: the 199th Light Infantry Brigade withdrawn from round Saigon, an artillery battalion assigned to the 5th Ranger Group; the capital''s defense left to the South Vietnamese.'
+    n: '[[w.westmoreland-soldier-reports]], 207, 320. Check: the day. Names: Westmoreland.'
+    src:
+      c: 217cf72f
+      rows:
+        - 'w.westmoreland-soldier-reports 207, 320: all'
+    tags: [name:westmoreland-william, place:saigon]
+  - id: cal.1967-12.vietnam-tet
+    when: Dec., late
+    date: 1967-12
+    thread: vietnam-tet
+    c: 'Westmoreland to an interviewer in Saigon: he expects "an intensified campaign during the coming months." The Marines detect another build-up round Khe Sanh; truck traffic on the Ho Chi Minh Trail doubled.'
+    n: '[[w.westmoreland-soldier-reports]], 239. Check: the day. Names: Westmoreland.'
+    src:
+      c: 0a72b1c8
+      rows:
+        - 'w.westmoreland-soldier-reports 239: all'
+    tags: [name:westmoreland-william, place:saigon, ok:diacritics]

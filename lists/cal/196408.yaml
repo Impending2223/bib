@@ -990,13 +990,14 @@ entries:
     date: '1964-08-16'
     thread: vietnam-saigon
     c: Saigon. Khánh, under a state of emergency since Aug. 7, made president by the Military Revolutionary Council under a new charter.
-    n: 'FRUS 1964–68, I, docs. [305](https://history.state.gov/historicaldocuments/frus1964-68v01/d305), [312](https://history.state.gov/historicaldocuments/frus1964-68v01/d312). [[w.cosmas-joint-chiefs-of-staff-2012]], 120. [[w.macv-command-history-1964]], 191 (Khánh president, in the chronology). To check: [[w.topmiller-lotus-unleashed]]. See [[cal.1964-07-27.vietnam]]. Names: Nguyễn Khánh.'
+    n: 'FRUS 1964–68, I, docs. [305](https://history.state.gov/historicaldocuments/frus1964-68v01/d305), [312](https://history.state.gov/historicaldocuments/frus1964-68v01/d312). [[w.cosmas-joint-chiefs-of-staff-2012]], 120; [[w.westmoreland-soldier-reports]], 71–72 (the Vũng Tàu charter, briefed by Khánh at Vũng Tàu to Taylor and Westmoreland; the Military Revolutionary Council to elect Khánh president). [[w.macv-command-history-1964]], 191 (Khánh president, in the chronology). To check: [[w.topmiller-lotus-unleashed]]. See [[cal.1964-07-27.vietnam]]. Names: Nguyễn Khánh.'
     src:
       c: 3f45d078
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v01/d305: all'
         - 'w.cosmas-joint-chiefs-of-staff-2012 120: all'
         - 'w.macv-command-history-1964 191: A-B'
+        - 'w.westmoreland-soldier-reports 71–72: A-B'
     tags: [name:nguyen-khanh, place:saigon]
   - id: cal.1964-08-18.elections-1964
     when: Aug. 18
@@ -1534,12 +1535,13 @@ entries:
     date: '1964-08-27'
     thread: vietnam-saigon
     c: Saigon. Khánh, Minh, and Khiêm a triumvirate; Khánh to Dalat to rest, Oánh signing for him.
-    n: 'FRUS 1964–68, I, docs. [330](https://history.state.gov/historicaldocuments/frus1964-68v01/d330), [332](https://history.state.gov/historicaldocuments/frus1964-68v01/d332). [[w.macv-command-history-1964]], 191 (the triumvirate, Aug. 27, Oánh to head the government and Khánh in Dalat, Aug. 29, in the chronology). See [[cal.1964-08-16.vietnam]]. Names: Nguyễn Khánh, Dương Văn Minh, Trần Thiện Khiêm, Nguyễn Xuân Oánh.'
+    n: 'FRUS 1964–68, I, docs. [330](https://history.state.gov/historicaldocuments/frus1964-68v01/d330), [332](https://history.state.gov/historicaldocuments/frus1964-68v01/d332). [[w.macv-command-history-1964]], 191 (the triumvirate, Aug. 27, Oánh to head the government and Khánh in Dalat, Aug. 29, in the chronology); [[w.westmoreland-soldier-reports]], 72 (the charter withdrawn; Khánh to Dalat, Oánh in his place; Westmoreland to Dalat at Taylor''s request, Khánh promising to return). See [[cal.1964-08-16.vietnam]]. Names: Nguyễn Khánh, Dương Văn Minh, Trần Thiện Khiêm, Nguyễn Xuân Oánh.'
     src:
       c: 39df1e46
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v01/d330: all'
         - 'w.macv-command-history-1964 191: A-B'
+        - 'w.westmoreland-soldier-reports 72: A, C'
     tags: [name:nguyen-khanh, name:duong-van-minh, name:tran-thien-khiem, name:nguyen-xuan-oanh, place:saigon, place:dalat]
   - id: cal.1964-08-27.elections-1964-3
     when: Aug. 27
@@ -1584,6 +1586,19 @@ entries:
         - 'w.solberg-hubert-humphrey 258–60: all'
         - 'via w.solberg-hubert-humphrey 259 n.andreas-notes: all'
     tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:goldwater-barry-m, name:kennedy-robert-f]
+  - id: cal.1964-08-28.laos
+    when: Aug. 28
+    date: '1964-08-28'
+    thread: laos
+    also: [vietnam]
+    c: 'Westmoreland to Taylor, against Sullivan''s concept for the Laotian panhandle: the Lao air force''s capacity against the twenty-two infiltration targets "negligible"; he urges attacks by the South Vietnamese air force and Farmgate, 154 sorties on six targets, and asks approval of combined American–South Vietnamese planning. Washington demurs, by his account.'
+    n: '[FRUS 1964–68, XXVIII, doc. 128](https://history.state.gov/historicaldocuments/frus1964-68v28/d128). [[w.westmoreland-soldier-reports]], 110 (the request and Washington''s answer). Names: Westmoreland, Taylor, Sullivan.'
+    src:
+      c: 29869fb3
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v28/d128: A-B'
+        - 'w.westmoreland-soldier-reports 110: B-C'
+    tags: [name:westmoreland-william, name:taylor-maxwell, name:sullivan-william-h]
   - id: cal.1964-08-29.vietnam-saigon
     when: Aug. 29
     date: '1964-08-29'
@@ -1727,3 +1742,14 @@ entries:
         - 'w.kabaservice-rule-and-ruin 119: all'
         - 'via w.kabaservice-rule-and-ruin 119 n.106: all'
     tags: [name:scott-hugh-d-jr, name:mathias-charles-mcc-jr, name:goldwater-barry-m]
+  - id: cal.1964-08.vietnam-force-levels
+    when: Aug.
+    date: 1964-08
+    thread: vietnam-force-levels
+    c: Westmoreland, after the Gulf of Tonkin, asks for a logistical command and an engineer group, each about a brigade. Not granted.
+    n: '[[w.westmoreland-soldier-reports]], 127. Check: the day. Names: Westmoreland.'
+    src:
+      c: 854be891
+      rows:
+        - 'w.westmoreland-soldier-reports 127: all'
+    tags: [name:westmoreland-william]

@@ -2392,6 +2392,17 @@ CQ Weekly Report, 1968-08-30:
 ### Sorensen, *Kennedy* (batch 3, Oct. 29, 2026; notes/book-checks/sorensen-kennedy.md)
 - The General Assembly's resolution on weapons in orbit, Oct. 17, 1963 (Sorensen, 743): an entry.
 
+### Westmoreland, *A Soldier Reports* (batch 3, Oct. 29, 2026; notes/book-checks/westmoreland-soldier-reports.md)
+- Nixon in South Vietnam, February 1964 (`cal.1964-02.republican-party-2`): the month; Nixon's own statements of the trip.
+- Westmoreland against the Joint Chiefs' proposal on the dependents and the Marines (112), late 1964: the message.
+- The White House's statement of June 1965 that the mission had not changed (135): its day; the Public Papers or the press secretary's briefing.
+- The congressional committee on the M-16 in Saigon, mid-June 1967 (158): Ichord's subcommittee of House Armed Services, its report and dates.
+- Mayborn and Bruce Clarke on the M-16 for Johnson, 1967 (202): the report.
+- Schlesinger's letter to the *Washington Post*, Mar. 22, 1968 (335), for the owner's ruling.
+- Johnson's answer on nuclear weapons, news conference of Feb. 16, 1968, 1968–69 Pub. Papers 230, at 234: the entry is `cal.1968-02-16.transition-and-staff` (one entry, the news conference); the answer to be added to its `c`, with `also: [vietnam-khe-sanh]`.
+- The single manager for air, March 1968 (`cal.1968-03.vietnam-khe-sanh`): the day of the order (Momyer's) and of the cables to Wheeler and Sharp.
+- Westmoreland's off-record briefing of August 1967 ("momentous decision") and his late-December interview (237–39, 312).
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
