@@ -1,8 +1,9 @@
 """The war's dead by home State: sources/war-dead-states.yaml (written by tools/indicators/make_war.py from NARA's
 Defense Casualty Analysis System file and the Census Bureau's estimates of the States' populations).
 
-A calendar entry tagged wardead:<span> (wardead:1961-1964, wardead:1965 ... wardead:1968) carries that span's map and
-table, drawn with the series' State maps (drawQ in templates/congress.html, one view).
+Not shown (the owner, Nov. 4, 2026: "Drop the casualties by state map altogether"): the build no longer injects the map
+and table, and the contents no longer list them; the data, this module's block and its check stay. The December entries'
+tags wardead:<span> (wardead:1961-1964, wardead:1965 ... wardead:1968) are inert.
 
 STYLE
  1. The rate: deaths from all causes, by the home of record's State and the year of the incident or death, per

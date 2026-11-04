@@ -253,8 +253,8 @@ def maps(y):
                 f'<div class="cgv" style="aspect-ratio:960/660"></div></figure></div><span data-views="r"></span>'
                 f'<p class="cgkey elkey"><span class="lk lk-r">{key}</span></p></div>')
     return ('<div class="sfm">'
-            + one(reg, "r", f"Taxes in force, {y}", key1, "no figures")
-            + one(qnt, "q", f"Taxes per $1,000 of income, {y}", key2, "no figures")
+            + one(reg, "r", f"Taxes in force {y}", key1, "no figures")
+            + one(qnt, "q", f"Taxes per $1,000 of income {y}", key2, "no figures")
             + "</div>")
 
 

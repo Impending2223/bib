@@ -233,7 +233,7 @@ def head_html(x, site=""):
 
 
 def bills_html(x, series, site=None):
-    """The measures, a bill whose course congress/bills.yaml gives linked to its signing entry (STYLE 4)."""
+    """The measures, a bill whose course congress/bills.yaml gives linked to the entry that first carries it (STYLE 4)."""
     if not x.get("bills"):
         return ""
     if "bills" not in _cache:

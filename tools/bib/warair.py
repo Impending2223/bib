@@ -1,13 +1,13 @@
 """The air war's rows: attack sorties by country (indicators/war-air-attack.yaml) and in North Vietnam by route package
 (indicators/war-air-nvn-rp.yaml), written by tools/indicators/make_war_air.py from the Combat Air Activities file
 (CACTA, NARA) and from OSD's Southeast Asia Analysis Report as Thayer reprints it (vol. 5). They are war series (kind:
-war): tools/bib/wartable.py sets them in The war table, tools/bib/war.py writes their cells (LABELS, DISPLAY there).
+war): tools/bib/wartable.py sets them in the Southeast Asia table, tools/bib/war.py writes their cells (LABELS, DISPLAY there).
 The definitions are the master's (indicators/concepts.yaml).
 
 STYLE (keep it):
  1. Two series, never one: the Report's figures (then) and CACTA's count (later) are different reckonings of the same
     sorties, side by side in the row; neither stands in for the other where it is missing ("—").
- 2. A cell: North Vietnam, Laos, South Vietnam, Total (the war table's stacked grid); the few sorties CACTA files
+ 2. A cell: North Vietnam, Laos, South Vietnam, Total (the Southeast Asia table's stacked grid); the few sorties CACTA files
     under another country or none ("other") on hover. Route packages 1-5, 6A, 6B and the uncoded, with the total.
  3. A month CACTA holds only in part (July 1966, the 1st to the 15th) says so in the row's note.
 

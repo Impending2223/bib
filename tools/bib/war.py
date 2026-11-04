@@ -1,8 +1,8 @@
 """The war's cells: U.S. deaths in Southeast Asia and U.S. military personnel in South Vietnam (indicators/war-deaths.yaml,
 war-strength.yaml; tools/indicators/make_war.py), and the enemy, the Republic of Vietnam's forces and the other allies
 (indicators/war-enemy-*.yaml, war-infiltration, war-rvnaf-*, war-fwmaf-strength; tools/indicators/make_war_forces.py).
-All kind: war. They are not in the month's indicator tables: tools/bib/wartable.py sets them in The war table under the
-first Thursday of the next month (its STYLE); this module writes their cells, there and on the Indicators page. The
+All kind: war. They are not in the month's indicator tables: tools/bib/wartable.py sets them in the Southeast Asia table under the
+first Monday of the month they refer to (its STYLE); this module writes their cells, there and on the Indicators page. The
 definitions are the master's (indicators/concepts.yaml; tools/bib/concepts.py).
 
 STYLE (keep it):
@@ -20,7 +20,7 @@ STYLE (keep it):
     ("70,000–90,000"). A cell of several figures is a stacked grid (label, figure), the parts DISPLAY names in its order
     and the rest on hover (the order of battle's VC and NVA split, the territorial forces' parts); a cell of one figure
     is the bare figure.
- 6. A row's note (preliminary, approximate, a quarterly average) in grey after the figure (in the war table on a line
+ 6. A row's note (preliminary, approximate, a quarterly average) in grey after the figure (in the Southeast Asia table on a line
     of its own under it); a "Check" (a figure faint
     in the copy) and a "printed" note (where a printed total and its parts disagree) on hover, and the Check in grey.
 """

@@ -1,5 +1,5 @@
 """A bill's course in the calendar: congress/bills.yaml (kept by hand from the bound Record's History of Bills and
-Voteview). A calendar entry tagged bill:<key> (the signing) carries the bill's table.
+Voteview). The calendar entries tagged bill:<key> carry the bill's table (STYLE 7).
 
 STYLE
  1. One row a step, in the order of the Record: the date (a span "Jan. 30–Feb. 7"; linked to the calendar entry that
@@ -16,9 +16,19 @@ STYLE
     first and last linked. A bill passed in lieu of another (S. 2642 for H.R. 11377; S. 1564 for H.R. 6400; H.J. Res.
     1145 for S.J. Res. 189) keeps the other bill's steps, named in the step. The pages turn to days by the bound
     Record's granules (tools/congress/make_record_pages.py).
- 6. On a phone (under 520px) no sideways scrolling (the owner's request for the budget tables, Oct. 22, 2026, kept
-    here too): each step a block, the date and chamber on a line, bold, then the step, the roll calls, the Record,
-    muted; the heads hidden.
+ 6. One title, the contents' small capitals (tools/bib/contents.py; the owner, Nov. 4, 2026: "Drop ': its course'";
+    "where small caps title is used, keep the small caps title alone"). The chamber column unheaded, "H" or "S" (the
+    name on hover), the President's rows empty, as narrow as its letter (the owner, the same day). On a phone (under
+    520px) no sideways scrolling (the owner's request for the budget tables, Oct. 22, 2026, kept here too): each step
+    a block, the date and chamber on a line, bold, then the step, the roll calls, the Record, muted; the heads hidden.
+ 7. Where (the owner, Nov. 4, 2026): under the entry of the bill's first introduction in either chamber, and on each
+    later year's page of the calendar its course runs into, under that year's first entry concerning the bill in
+    Congress; never twice on a page. The placements are the entries tagged bill:<key>, chosen by hand (the first
+    entry of a year concerning the bill is a reading, not a rule); `check` holds them: the first the introduction's
+    (the first step "introduced", its `entry` the same), one a part (calsplit) from the introduction's to the last
+    step's, no other. Where no entry told the introduction, one was made of the table's own step and Record cite
+    (Nov. 4, 2026). The first placement's anchor is tb-bill-<key>, a later one's tb-bill-<key>-y<year>, so the reader,
+    which holds every year, has each once.
 """
 import os
 import re
@@ -34,16 +44,17 @@ VV = "https://voteview.com/rollcall/R{ch}{cong:03d}{num:04d}"
 VOL = {1960: 106, 1961: 107, 1962: 108, 1963: 109, 1964: 110, 1965: 111, 1966: 112, 1967: 113, 1968: 114}
 STYLE = """<style id="blstyle">
 .bl{margin:1rem 0 .5rem;font-family:var(--sans)}
-.bl .blh{font-weight:700;font-size:.95rem;margin:.2rem 0 .4rem}
 .bl .blw{overflow-x:auto;-webkit-overflow-scrolling:touch}
 .bl table{border-collapse:collapse;width:100%;min-width:32rem;font-size:.78rem;line-height:1.35;font-variant-numeric:tabular-nums}
 .bl th,.bl td{text-align:left;vertical-align:top;padding:.2rem .5rem .2rem 0;border-bottom:1px solid var(--rule)}
 .bl thead th{font-weight:600;color:var(--muted);font-size:.74rem}
 .bl td.bld{white-space:nowrap}
+.bl td.blc{width:1ch;padding-right:.3rem}
 .bl .bln{font-size:.78rem;line-height:1.45;color:var(--note);margin:.3rem 0}
 .bl .blsrc{font-size:.78rem;color:var(--muted);line-height:1.4;margin:.3rem 0}
 @media (max-width:520px){.bl table{min-width:0}.bl table,.bl tbody,.bl tr,.bl td{display:block;width:auto}.bl thead{display:none}.bl tr{padding:.3rem 0;border-bottom:1px solid var(--rule)}.bl td{border:0;padding:0}.bl td.bld,.bl td.blc{display:inline;font-weight:600}.bl td.blc:not(:empty):before{content:" · "}.bl td.blv:empty,.bl td.blr:empty{display:none}.bl td.blr{color:var(--muted)}}
 </style>"""
+CH = {"House": ("H", "House"), "Senate": ("S", "Senate")}
 
 
 def esc(t):
@@ -85,7 +96,7 @@ def votes(s):
     return "; ".join(out)
 
 
-def block(key):
+def block(key, sfx=""):
     b = load().get(key)
     if not b:
         return ""
@@ -99,18 +110,29 @@ def block(key):
             what += f', <a href="{esc(STAT.format(vol=vol, granule=b["granule"]))}">{vol} Stat. {page}</a>, Pub. L. {esc(b["pl"])}'
         if s.get("note"):
             notes.append(f'{date(s["date"])}: {s["note"]}')
-        rows.append(f'<tr><td class="bld">{when}</td><td class="blc">{esc(s.get("chamber", "President" if s.get("stat") else ""))}</td>'
+        c, full = CH.get(s.get("chamber"), ("", ""))       # STYLE 6: H or S, the name on hover; the President's empty
+        ct = f' title="{full}"' if full else ""
+        rows.append(f'<tr><td class="bld">{when}</td><td class="blc"{ct}>{c}</td>'
                     f'<td>{what}</td><td class="blv">{votes(s)}</td><td class="blr">{rec_link(s)}</td></tr>')
     hist = "; ".join(f'<a href="{esc(REC.format(pkg=g.rsplit("-", 1)[0], g=g))}">{y}</a>' for y, part, g in b.get("history") or [])
-    return (f'<div class="bl" id="bl-{esc(key)}"><p class="blh">{esc(b["title"])}, {esc(b["bill"])}: its course</p>'
-            '<div class="blw"><table><thead><tr><th>Date</th><th>Chamber</th><th>Step</th><th>Roll call</th><th>Record</th>'
+    return (f'<div class="bl" id="bl-{esc(key)}{sfx}">'
+            '<div class="blw"><table><thead><tr><th>Date</th><th></th><th>Step</th><th>Roll call</th><th>Record</th>'
             f'</tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
             + "".join(f'<p class="bln">{esc(n)}</p>' for n in notes)
             + f'<p class="blsrc">The steps: the bound <i>Congressional Record</i>, History of Bills and Resolutions ({hist}), '
               'each page turned to its day by the Record\'s daily parts on govinfo; the roll calls, Voteview.</p></div>')
 
 
-def tagged(series):
+def introduction(b):
+    """The bill's first introduction in either chamber: its first step "introduced" (STYLE 7)."""
+    for s in b.get("steps") or []:
+        if re.search(r"\bintroduced\b", s.get("what", ""), re.I):
+            return s
+    return None
+
+
+def placements(series):
+    """{key: [(date, entry id, calendar list)]}, by date: the entries tagged bill:<key> (STYLE 7)."""
     out = {}
     for lst in series.lists.values():
         if lst.kind != "calendar":
@@ -119,18 +141,31 @@ def tagged(series):
             for t in e.get("tags", []):
                 m = re.match(r"^bill:([a-z0-9-]+)$", t)
                 if m:
-                    out[m.group(1)] = e["id"]
+                    out.setdefault(m.group(1), []).append((str(e.get("date") or ""), e["id"], lst))
+    for v in out.values():
+        v.sort(key=lambda x: x[0])
     return out
+
+
+def tagged(series):
+    """{key: the entry that first carries the table}: the introduction's (committees.py links a bill there)."""
+    return {k: v[0][1] for k, v in placements(series).items()}
 
 
 def inject(page, series):
     used = False
-    for key, eid in tagged(series).items():
-        blk = block(key)
-        if not blk:
-            continue
-        page, k = contents.put(page, eid, blk, "bill", key)
-        used = used or bool(k)
+    for key, ps in placements(series).items():
+        for i, (d, eid, lst) in enumerate(ps):
+            sfx = f"-y{d[:4]}" if i else ""
+            blk = block(key, sfx)
+            if not blk:
+                continue
+            page, k = contents.put(page, eid, blk, "bill", key)
+            if k and sfx:                # STYLE 7: a later year's anchor its own, for the reader
+                aid = contents.anchor_id("bill", key)
+                page = re.sub(r'id="' + re.escape(aid) + r'"(?=[^>]*data-tbe="' + re.escape(eid) + '")',
+                              f'id="{aid}{sfx}"', page, count=1)
+            used = used or bool(k)
     if used and 'id="blstyle"' not in page:
         page = page.replace("</head>", STYLE + "\n</head>", 1)
     return page
@@ -166,7 +201,34 @@ def problems(series=None):
             if ids is not None and s.get("entry") and s["entry"] not in ids:
                 out.append((where, f"{d}: no calendar entry {s['entry']}"))
     if series is not None:
-        for key, eid in tagged(series).items():
+        from . import calsplit
+        pl = placements(series)
+        for key, ps in pl.items():
             if key not in load():
-                out.append((eid, f"bill:{key}: no such bill in congress/bills.yaml"))
+                out.append((ps[0][1], f"bill:{key}: no such bill in congress/bills.yaml"))
+        for key, b in load().items():           # STYLE 7: the placements
+            where = f"congress/bills.yaml {key}"
+            s0 = introduction(b)
+            ps = pl.get(key) or []
+            if not s0:
+                out.append((where, "no step \"introduced\": the table has no place"))
+                continue
+            if not ps:
+                out.append((where, f"no calendar entry tagged bill:{key}"))
+                continue
+            d0, e0, lst = ps[0]
+            if d0 != s0["date"] or s0.get("entry") != e0:
+                out.append((e0, f"bill:{key}: the first table not under the introduction's entry ({s0['date']}, "
+                                f"its step's entry {s0.get('entry')})"))
+            want = {calsplit.half_of_date(lst, s["date"]) for s in b["steps"] if s["date"] >= s0["date"]}
+            got = {}
+            for d, eid, _ in ps:
+                got.setdefault(calsplit.half_of_date(lst, d), []).append(eid)
+            for h, eids in got.items():
+                if len(eids) > 1:
+                    out.append((eids[1], f"bill:{key}: a second table on one page ({', '.join(eids)})"))
+                if h not in want:
+                    out.append((eids[0], f"bill:{key}: a table on a page the course does not reach"))
+            for h in sorted(want - set(got)):
+                out.append((where, f"bill:{key}: no table on {calsplit.page_key(lst, h)}, where its course runs"))
     return out

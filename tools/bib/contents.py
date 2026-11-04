@@ -8,7 +8,7 @@
     nav(lst, sections, half)         the contents of a calendar page: the threads, the month grid (the whole calendar's
                                      where it is in parts), a slot for the tables
     day_mark(kind, key, iso, threads)   the anchor of a block set under a date, not in an entry (tools/bib/dayblocks.py:
-                                     the war table, Armed Forces Day): it names the day and the threads in place of an
+                                     the Southeast Asia table and map, Armed Forces Day): it names the day and the threads in place of an
                                      entry, and finish() lists it as it lists an entry's
     finish(page, lst, half, defer)   after every inject: the tables and maps listed in their threads' statements and in
                                      the contents (the page's own; in the reader, the whole calendar's, in its Cal.
@@ -42,17 +42,24 @@ STYLE (the owner's rules, Oct. 21, 2026):
     regular weight and muted, so the two read as one footing. In the reader, each part's index lists its part's.
  5. A listed table or map takes its label as its title (the owner's request, Oct. 23, 2026: "a distinct title style to
     visually demarcate them from the calendar day entries"): centered, in the sans's small capitals, a little smaller
-    than the type, as the Executive roster's parts are ("ELECTIONS OF NOV. 8, 1960"); so the labels stay brief. Where
-    the block's own first heading only repeats the label (DROP_HEAD: the opening, the governors, the legislatures,
-    the primaries, the conventions, the dead), the title stands in its place; the Executive's heading, which gives
-    the term's span, stays under it. A day block (day_mark) takes its title the same way. The day of a November
+    than the type, as the Executive roster's parts are ("ELECTIONS OF NOV. 8, 1960"); so the labels stay brief. One
+    title only (the owner, Nov. 4, 2026: "Remove doubled titles ... keep the small caps title alone"): the block's own
+    first heading goes (DROP_HEAD, HEAD: the opening, the governors, the legislatures, the primaries, the conventions'
+    delegations, the budget, the debt limit acts, State finance, the appropriations, world oil; the Executive's and the
+    roll calls' their modules leave out in the calendar, Armed Forces Day's caption too). A day block (day_mark) takes
+    its title the same way, but the Southeast Asia table, whose own caption, in the indicators' style, is its title
+    (tools/bib/wartable.py, STYLE 2): day_mark(titled=False). A title ending in a bare year takes no comma before it;
+    one ending in a month and year, or a day, keeps it ("only bare years drop the comma", the owner, Nov. 4, 2026: "Democratic primaries 1960", "Armed forces
+    1962", "Southeast Asia 1966"; but "Southeast Asia, Sept. 1966", "Executive Branch, Jan. 20, 1957", "State finance,
+    fiscal 1960"); a bill's course is its act's name alone. The day of a November
     election is one block, "Elections of Nov. 8, 1960" (congress.election_day): "Presidential electors", "Congress",
     "State elections" (governors, legislatures) under it in the blocks' bold subheadings; the governors' and the
     legislatures' own entries point to their parts ("The table: ...", kind "see", unlisted).
  6. The whole calendar on every page (the owner, Oct. 30, 2026: "The 'list' should include link-throughs to the
     months, headings, and tables on the individual calendar pages"; volume.md, section 3): each year's page, and the
-    index, carry every part's months in the grid and every part's tables and maps in the list, each linked through to
-    its place on its year's page (calsplit.href; the reader, in its block). Another part's year in the year column is
+    index, carry every part's months in the grid, each linked through to its place on its year's page (calsplit.href;
+    the reader, in its block). The tables and maps: a year's page lists its own only, the index every part's (the
+    owner, Nov. 4, 2026: "Drop other-year tables from the year-calendar view"). Another part's year in the year column is
     a link to its page's top, muted; the page's own, in the text's color, unlinked. The threads line is the page's
     own threads (the index's: its list of threads).
 """
@@ -100,7 +107,7 @@ def _approp(key):
 def _bill(key):
     from . import bills
     b = bills.load().get(key) or {}
-    return f"{b.get('title', key)}: its course"
+    return b.get("title", key)
 
 
 def _rollcall(key):
@@ -110,11 +117,12 @@ def _rollcall(key):
     office = {"President": "presidential", "Vice President": "vice-presidential"}.get(B.get("office"), ballot)
     n = re.sub(r"\D", "", ballot)
     more = f", ballot {n}" if n and n != "1" else ""
-    return f"Roll call: {PARTY.get(p, p)} {office} nomination, {y}{more}"
+    return f"Roll call: {PARTY.get(p, p)} {office} nomination {y}{more}"
 
 
-def _span(key):
-    return re.sub(r"^(\d{4})-\d\d(\d\d)$", r"\1–\2", key)
+def _mon_year(key):
+    """'1966-01' -> 'Jan. 1966'."""
+    return f"{MONTHS[int(key[5:7]) - 1]} {key[:4]}" if re.match(r"^\d{4}-\d\d$", key) else key
 
 
 KINDS = {
@@ -123,20 +131,19 @@ KINDS = {
     "committees": lambda k: f"Leaders and committees, {ordinal(k)} Congress",   # committee_rosters.py via congress.py
     "election": _election,                     # congress.election_day: the electors, Congress, the State elections
     "governors": lambda k: f"Governors, {fmt(k)}",                              # governors.py
-    "legislatures": lambda k: f"State legislatures, {k}",                       # legislatures.py
+    "legislatures": lambda k: f"State legislatures {k}",                        # legislatures.py
     "statefin": lambda k: f"State finance, fiscal {k}",                         # statefin.py
     "budget": lambda k: f"Budget, fiscal {k}",                                  # budgets.py
     "debt-limits": lambda k: "Debt limit acts",                                 # budgets.py
     "bill": _bill,                                                             # bills.py
     "appropriations": _approp,                                                 # appropriations.py
-    "primaries": lambda k: f"{PARTY.get(k[-1], k[-1])} primaries, {k[:4]}",     # primaries.py
+    "primaries": lambda k: f"{PARTY.get(k[-1], k[-1])} primaries {k[:4]}",      # primaries.py
     "conventions": lambda k: f"{PARTY.get(k[-1], k[-1])} convention, {k[:4]}: delegations",   # conventions.py
     "rollcall": _rollcall,                                                     # conventions.py
-    "wardead": lambda k: f"U.S. dead by home State, {_span(k)}",               # wardead.py
-    "vnmap": lambda k: f"Indochina, {k}",                                       # vnmap.py
-    "war": lambda k: f"The war, {k}: first Thursdays",                         # wartable.py via dayblocks.py
-    "forces": lambda k: f"Armed forces, {k}",                                   # afday.py via dayblocks.py
-    "oilworld": lambda k: f"World oil, {k}",                                    # oilworld.py
+    "vnmap": lambda k: f"Southeast Asia {k}",                                   # vnmap.py
+    "war": lambda k: f"Southeast Asia, {_mon_year(k)}",                         # wartable.py via dayblocks.py
+    "forces": lambda k: f"Armed forces {k}",                                    # afday.py via dayblocks.py
+    "oilworld": lambda k: f"World oil {k}",                                     # oilworld.py
     "oilprice": lambda k: "Posted prices of crude oil",                         # oilworld.py
     "special": None,                                                           # specials.py: one-off races
     "primary": None,                                                           # primaries.py: one primary day
@@ -177,13 +184,15 @@ def put(page, eid, blk, kind, key, nav=None):
         return page, 0
     if lab:
         if kind in DROP_HEAD:                   # STYLE 5: the title stands in the block's own heading's place
-            blk = re.sub(r'^(\s*<div[^>]*>)\s*<p class="cgh">.*?</p>', r"\1", blk, count=1, flags=re.S)
+            blk = HEAD.sub(r"\1", blk, count=1)
         blk = (f'<span class="tba" id="{esc(anchor_id(kind, key))}" data-tb="{esc(lab)}" data-tbe="{esc(eid)}"></span>'
                + title(lab, nav) + blk)
     return page[:at] + blk + page[at:], 1
 
 
-DROP_HEAD = {"congress", "governors", "legislatures", "primaries", "conventions", "wardead"}
+DROP_HEAD = {"congress", "governors", "legislatures", "primaries", "conventions", "budget", "debt-limits", "statefin",
+             "appropriations", "oilworld"}
+HEAD = re.compile(r'^((?:\s*<div[^>]*>)+)\s*<p class="(?:cgh|bgh|sfh|aph|owh)">.*?</p>', re.S)   # the block's heading
 
 
 def title(lab, nav=None):
@@ -195,15 +204,16 @@ def title(lab, nav=None):
 
 
 
-def day_mark(kind, key, iso, threads, part=None):
+def day_mark(kind, key, iso, threads, titled=True, nav=None):
     """The anchor of a day block (tools/bib/dayblocks.py): set before a block that stands under a date, not in an entry.
     It carries the day and the block's threads in place of an entry's id ("day:<iso>:<thread>,<thread>"), so finish()
-    lists it in the contents and the threads' statements as it lists an entry's tables."""
+    lists it in the contents and the threads' statements as it lists an entry's tables. titled: the small-capital title
+    after it (not for the Southeast Asia table, whose caption is its title: STYLE 5); nav: its 〈〈 〉〉, as put's."""
     lab = label(kind, key)
     if not lab:
         return ""
     return (f'<span class="tba" id="{esc(anchor_id(kind, key))}" data-tb="{esc(lab)}" '
-            f'data-tbe="{esc("day:" + iso + ":" + ",".join(threads))}"></span>' + title(lab))
+            f'data-tbe="{esc("day:" + iso + ":" + ",".join(threads))}"></span>' + (title(lab, nav) if titled else ""))
 
 
 # ---------------------------------------------------------------- the contents
@@ -333,12 +343,14 @@ def finish(page, lst, half=None, defer=False):
 
 
 def fill(page, lst, half):
-    """A part's page (half; 0, the index) once every part is built: the whole calendar's tables and maps in its
-    contents (STYLE 6), each linked to its anchor on its page."""
+    """A part's page (half; 0, the index) once every part is built: its own tables and maps in its contents, the
+    index the whole calendar's (STYLE 6), each linked to its anchor on its page."""
     if SLOT not in page:
         return page
     items = []
     for h in sorted(FOUND):
+        if half and h != half:                  # a year's page: its own tables and maps only (STYLE 6)
+            continue
         for aid, lab, d in FOUND[h]:
             items.append((calsplit.href(lst, h, aid), lab, d))
     return style(page.replace(SLOT, _list(items), 1))

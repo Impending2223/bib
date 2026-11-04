@@ -818,6 +818,9 @@ def block(i, units, ptr, href, rid, here=False):
 #  3. Parts as on executive.html, in centered small capitals; the units open, not collapsible; the Agencies and
 #     commissions a link to that part of the term on executive.html, with the full offices of that part under it.
 #  4. Every row flush: none stands beneath another.
+#  5. One title, the contents' ("Executive Branch, Jan. 20, 1961": contents STYLE 5); the term's President and span open
+#     the block's first line instead of a heading of its own ("John F. Kennedy, Jan. 20, 1961 to Nov. 22, 1963: the
+#     President, the Cabinet, ...").
 CAL_FULL = {("president", "president"), ("vp", "vice-president"), ("state", "secretary"), ("treasury", "secretary"),
             ("defense", "secretary"), ("justice", "attorney-general"), ("post-office", "postmaster-general"),
             ("interior", "secretary"), ("agriculture", "secretary"), ("commerce", "secretary"), ("labor", "secretary"),
@@ -992,9 +995,9 @@ def cal_block(i, units, ptr, href, rid):
                      + f'{"".join(rows)}</table></div>')
     if not agencies_done:
         parts.append(f'<p class="exsech"><a href="executive.html#{tid}-agencies">{esc(SECTIONS[2][1])}</a></p>')
-    out = [f'<div class="cg ex excalb" data-term="{a}">',
-           f'<p class="cgh">The Executive Branch, {esc(label)}: {esc(fmt(a))} to {esc(fmt(term_end(b)))}</p>',
-           f'<p class="cgs">The President, the Cabinet, and the principal officers of the White House, the Executive '
+    out = [f'<div class="cg ex excalb" data-term="{a}">',           # no heading: the contents' title is it (CAL STYLE 5)
+           f'<p class="cgs">{esc(label)}, {esc(fmt(a))} to {esc(fmt(term_end(b)))}: the President, the Cabinet, and the '
+           f'principal officers of the White House, the Executive '
            f'Office and the agencies, with every holder during the term; beside them, {nbare} offices by title. Each title links to the office in the '
            f'full roster, <a href="executive.html#{tid}">Exec. {esc(day[:4])}</a>, with its law and notes.</p>',
            f'<p class="cgs exkey">{esc(KEY)} Hover over a code for its meaning.</p>']

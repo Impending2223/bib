@@ -14,7 +14,6 @@ import re
 
 from . import calsplit, daybook, governors, legislatures, primaries, specials, statefin, store, vnmap
 from . import conventions
-from . import wardead
 from . import oilworld
 from . import budgets
 from . import bills
@@ -414,8 +413,10 @@ def page_text(lst, half):
     elif half and calsplit.cfg(lst) and (half > 1 or ix):
         p = calsplit.cfg(lst)[half - 1]
         d.update({k: v for k, v in p.items() if k in ("page_title", "h1", "lede")})
-        if p.get("logic"):
-            d["logic"] = (store.as_list(d.get("logic")) if ix else []) + store.as_list(p["logic"])
+        if ix:            # a year's page: its year and its one line; the list's paragraphs on the index alone (the
+            d["logic"] = []   # owner, Nov. 4, 2026)
+        elif p.get("logic"):
+            d["logic"] = store.as_list(p["logic"])
     return d
 
 
@@ -488,9 +489,10 @@ def build_list(series, key, linker=None, half=None):
         main.append(f'<p class="lede">{calsplit.other_link(lst, text_html(data["lede"], "lede"))}</p>')
     for p in store.as_list(data.get("logic")):
         main.append(f'<p class="logic">{text_html(p, "logic")}</p>')
-    main.append('<p class="logic">To navigate, use the Outline button, the contents below, or the handle on the right edge, which you can drag to see nearby headings. '
-                'All the lists in one reader: <a href="series.html">the series</a>. The elections and each Congress at its opening: <a href="congress.html">Elections</a>. '
-                'The Executive Branch at each inauguration: <a href="executive.html">Executive</a>.</p>')
+    if not (lst.kind == "calendar" and half and calsplit.index_page(lst)):   # not on a year's page (the owner, Nov. 4, 2026)
+        main.append('<p class="logic">To navigate, use the Outline button, the contents below, or the handle on the right edge, which you can drag to see nearby headings. '
+                    'All the lists in one reader: <a href="series.html">the series</a>. The elections and each Congress at its opening: <a href="congress.html">Elections</a>. '
+                    'The Executive Branch at each inauguration: <a href="executive.html">Executive</a>.</p>')
     if lst.kind == "calendar" and half == 0:   # the calendar's index (calsplit.py, STYLE 13)
         main.extend(cal_index(lst))
     elif lst.kind == "calendar":           # the threads, the month grid, the tables and maps (tools/bib/contents.py)
@@ -1222,7 +1224,6 @@ def run(series, which=None):
                 page = conventions.inject(page, series)
                 page = governors.inject(page, series)
                 page = legislatures.inject(page, series)
-                page = wardead.inject(page, series)
                 page = oilworld.inject(page, series)
                 page = statefin.inject(page, series)
                 page = budgets.inject(page, series)
@@ -1258,7 +1259,6 @@ def run(series, which=None):
         page = conventions.inject(page, series)
         page = governors.inject(page, series)
         page = legislatures.inject(page, series)
-        page = wardead.inject(page, series)
         page = oilworld.inject(page, series)
         page = statefin.inject(page, series)
         page = budgets.inject(page, series)
