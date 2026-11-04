@@ -927,9 +927,196 @@ for the press figures David Wise (*Herald Tribune*), Charles Mohr (*New York Tim
 and for Hans J. Morgenthau, Louis Martin (Democratic National Committee), Norman Thomas, James Bevel and Allard
 Lowenstein, named here without name entries.
 
+## Eighth run (b3-bernstein-guns-8), Nov. 4, 2026
+
+Read from the same copy (649 PDF pages; the offsets hold: −43 after the plates, checked against the running heads of
+every page read; ch. 16 starts PDF 469 = p. 426, ch. 17 PDF 482, ch. 19 PDF 514, the notes PDF 586 = p. 543). Read whole,
+with their notes: ch. 16, "Updating the Minimum Wage and Social Security," pp. 426–38 (nn. 1–4, pp. 569–70); ch. 17,
+"Lyndon Johnson, Patron of the Arts," pp. 439–57 (nn. 1–9, pp. 570–71); ch. 19, "The Collapse of the Johnson
+Presidency," pp. 471–521 (nn. 1–10, pp. 572–74); the middle of p. 420 (ch. 15); ch. 20, pp. 532–35 and 538–42, read again
+from a clean text layer (the seventh run's broken extraction was the copy's earlier download; this one reads cleanly,
+checked against the running heads). How the list was made: every sentence of these pages dating something to a year,
+a month or a day held against the tree and the ledger day by day (`./bib ledger find`, filtered by the chapter's words
+and threads); the hearings and committee votes from the Daily Digest's rows (`daybook/committees/`), read; the Public
+Papers' items read in `sources/ppp-text/` (1961 Pub. Papers 170, 719; 1962, 846; 1963–64, 46, 1139; 1965, 273, 553;
+1966, 1345; 1967, 244; 1967, 993; 1968–69, 14, 1149, 1244). Ch. 19 is a synthesis of published works (Clifford,
+Schlesinger, Kearns, Chester, White, Eisele, Ambrose, Walker) with O'Brien's, Roche's, Rowe's and Gardner's oral
+histories; nearly all its events were in the tree and take its cite.
+
+Patch `inbox/2026-11-04-b3-bernstein-guns-8.yaml`, 236 ops: 97 entries added (ch. 16, 39; ch. 17, 42; ch. 19, 15; p. 420,
+1), 109 cites, 15 Checks, 3 claim-map rows, 12 edits (the twelve cites cut, below). Witnesses
+`inbox/witnesses/2026-11-04-b3-bernstein-guns-8.yaml`: 125 new rows (the Oates row dropped: `x.1982.oates-let-the-trumpet-sound`
+is registered; the edge goes to it); 208 edges appended directly to `sources/witnesses/by-work/bernstein-guns-or-butter.yaml`.
+patch-check: 0 errors, 33 warnings: 12 "sets only n" (the cuts, which take a cite out) and 21 "one event?" flags, each
+read against its neighbor and distinct (three memoranda of Aug. 4, 1965; Wirtz's and Connor's of Feb. 12, 1966; the
+conference report, Gardner's and Califano's memoranda of Dec. 11, 1967; the month-only entries beside others of their
+month). Every ledger claim of this run is used.
+
+### The twelve cites behind "To check" (the fourth run's table): settled
+
+With chs. 16, 17 and 19 read, the book has been read whole; none of the twelve is treated on any page. Cut by edit, each
+on its fresh base, the rest of the note as it stood: cal.1966-01-19.economy (eab4631c), 1966-01-24.economy (634ed50d),
+1966-03-15.economy (30c21796), 1966-03-22.economy (31bc33e6), 1966-07-19.economy (317a6393), 1966-09-08.economy
+(9fbbaacf), 1966-11-29.economy (672fafb2), 1966-12-31.vietnam (110794a7), 1967-10-18.economy (1b052975),
+1968-01-17.program (7bd81cd8), 1968-09-17.economy (c799fe3b), 1968-12-19.economy (1156b258). Each keeps its primary
+record (the Papers, the Record, Voteview). The 1968 State of the Union: Bernstein, 487, names only Busby's withdrawal
+statement; cited instead on `cal.1968-01-14.elections-1968` (unit C). Fiscal 1969's "$3.2 billion surplus" (377) is
+Califano's later account, not the forecast of Dec. 19, 1968.
+
+### Cites added, with the disagreements (R33)
+
+Ch. 16: May 18, 1965 (427); May 26, Aug. 26, Sept. 23, 1966 (430–31); Jan. 23, Aug. 17, Nov. 22, Dec. 13 (two), Dec. 15,
+1967; Jan. 2, 1968 (432–37). Checks and disagreements: the Digest has Roosevelt's subcommittee "resume" hearings May 25,
+1965; Education and Labor ordered H.R. 10518 reported Aug. 18, 1965 (Bernstein: the bill died in committee in October);
+the committee ordered H.R. 13712 reported Mar. 21, 1966 (Bernstein: reported Mar. 29); Senate Labor ordered it reported
+Aug. 16 (Bernstein: Aug. 23, 15 to 0); the conferees agreed Sept. 1 (Bernstein: reported Sept. 6); p. 437 has the
+amendments passed "September 22" (430 and the Papers, Sept. 23); Ackley's alternative "March 9" in the text, Mar. 8 in
+the note; Bernstein numbers the administration's 1967 bill H.R. 12080 at its introduction (the Digest: H.R. 5710, a
+clean bill H.R. 12080 Aug. 2–3); the rule "120 to 7," four hours (the Digest: a closed rule, eight hours, Aug. 15); the
+House's vote 416 to 3 (the Digest too; Voteview 415–3); Mills at the White House "just before the House vote" (the
+entry, the evening); the signing statement released at San Antonio (the Papers' note).
+Ch. 17: Dec. 18, 1963; Jan. 23, 1964; Sept. 28, 1964 (Brown); Sept. 29, 1965; Oct. 5, 1966; Sept. 21 (Check: 265 to 91)
+and Nov. 7, 1967. Bernstein has the task force on financing public broadcasting set up in February (455) and after the
+signing (456): Check on both entries. The CPB board's "Joseph D. Hughes of New Jersey": Check.
+Ch. 19: some sixty tree entries, Jan. 1968–Nov. 5, 1968 (Gardner, Kitt, the *Pueblo*, Thule, Tet, Huế, Cronkite, the
+Clifford task force, New Hampshire, the Wise Men, Mar. 31, Memphis and King, the riots, the fair housing act, the
+primaries, Robert Kennedy's death, Miami Beach, Chicago, Salt Lake City, Chennault, the election); and Nov. 7, 1962.
+Checks: Thule "the day before" Jan. 23; 39 of 44 provincial capitals (the entry 36); New Hampshire, Johnson 29,021,
+McCarthy 28,791 with the Republican write-ins; Robert Kennedy's announcement Mar. 15 (501) and Mar. 16 (480, 505);
+Minneapolis Mar. 17 (the entry Mar. 18); Johnson at the National Cathedral Apr. 6; Lurleen Wallace's death May 9 (the
+entry May 7); Salt Lake City "on the 25th" (Sept. 30); McCarthy's endorsement Oct. 28 (the entry Oct. 29); the 1968
+returns, Nixon 31,785,480 and Humphrey 31,275,165.
+P. 420 and ch. 20: Guevara "murdered ... on October 10" (Check); NSAM 328's "premature publicity" (534); Stockdale over
+the gulf, the attack dated Aug. 3 (Check on Aug. 4, 1964); Aug. 25, 1964, Johnson tells his wife and aides he will not
+run (539).
+
+### New entries (97)
+
+Ch. 16 (39): the minimum wage, May 25, 1965–Sept. 6, 1966 (Roosevelt's hearings and bill, O'Brien's, Eckstein's and
+Wirtz's memoranda of Aug. 3–4, 1965; the bill's death; Johnson's request of Dec. 1, 1965; the Ackley–Connor and Wirtz
+proposals; Ackley's, Wirtz's, Connor's, Califano's memoranda; the Council's alternatives; Ackley's formula; Wilson;
+the committees' reports; the conference); social security, July 11, 1966–Dec. 13, 1967 (the income maintenance task
+force; Cohen's memoranda; Cohen and Mills; the bill introduced; Ways and Means's hearings and report; Schultze to
+Johnson; the Republican Coordinating Committee, Apr. 8, 1967; the rule; Finance's hearings, Robert Kennedy, Wiley's
+welfare mothers, Long's "brood mares"; Cohen on Long; Finance's report; the conference; Gardner's and Califano's
+memoranda; the AFL-CIO and Meany; the Senate Campaign Committee on the filibuster, Dec. 13).
+Ch. 17 (42): the National Cultural Center (Mar. 9 and Nov. 14, 1961; Nov. 29, 1962; Dec. 11, 1963); Goldberg's Met award
+(Dec. 1961); Heckscher's report; the arts and humanities bills (Dec. 1963; Apr. 30, Sept. 3, 1964; Jan., Mar. 10, June
+10, Sept. 15, 1965); the Hirshhorn (June 15, 1964; early 1965; May 17, 21, 1965; May 17, Nov. 7, 1966; Oct., Oct. 25,
+1967; Jan. 8, 1969); the National Gallery's East Building (Oct. 26, 30, Nov. 6, 1967); public broadcasting (Dec. 1964;
+Oct. 28, 1965; Jan., Feb. 7, Feb. 28, Apr. 11, May 11, 17, July, Aug. 21, Oct. 18, 19, 26, Nov. 1967; Jan., Feb. 17,
+1968); the National Council on the Arts at the White House, Nov. 21, 1968.
+Ch. 19 (15): the *Pueblo*'s sailing (Nov. 6, 1967) and the encounters of Jan. 2–3, 1968; O'Brien's campaign meeting and
+letter (Nov. 3, 7, 1967), Massachusetts (Jan., Mar. 5–6, 1968), Robert Kennedy's call (Mar. 31) and O'Brien's word to
+Humphrey (Apr. 6), Andreas's lunch (Oct. 1968); Ray's movements (Mar. 17, 27, 29–30, Apr. 3, 1968).
+P. 420 (1): the Dow demonstration at Madison, Feb. 1967.
+
+### The witnesses
+
+New, nearly all LBJ Library holdings, unread (`closed archive`): the Legislative Background files on the minimum wage,
+social security and public broadcasting, the EX LE/WE, GEN FG 999-20, McPherson, Cater, Gaither, Horsky and Clark Papers'
+memoranda the notes name; the statements the text quotes (Gardner to Johnson, Dec. 11, 1967; the Republican
+Coordinating Committee, Apr. 8, 1967; Robert Kennedy before Finance; Cohen to Wickenden, through Berkowitz's
+unpublished biography, a manuscript); the Papers' items read (`read: true`, copies); the studies without cards (CQ
+Almanac 1965–67, Kocin, Waldman, Cohen and Ball, Piven and Cloward, Baumol and Bowen, Mayer, Larson, Biddle, Hyams,
+Lerner, Macy, Pepper, McKay, Lashley, the Carnegie report, Heckscher, Frank, Halberstam, Walker, Broder, Huttman,
+Keating, Lake). Edged to the registry's: the Gardner, O'Brien, Rowe, Califano and Roche oral histories; the address of
+Mar. 31, 1968; McPherson to Johnson, Oct. 5, 1966; the *Times* of Mar. 2, 1968; CQ Almanac 1968; Bundy's letter of
+1991; Oates. To the cards: Califano, Derthick, McPherson, Schlesinger (*Thousand Days*, *Robert Kennedy*), Lady Bird
+Johnson's diary, Clifford, Bucher, Armbrister, Zaroulis and Sullivan, Oberdorfer, Schandler, Wells, Karnow, Spector,
+Kearns, Shapley, Isaacson and Thomas, Chester, Chafe, White 1968, McCarthy, Johnson's *Vantage Point*, Garrow, Gitlin,
+Graham, Witcover, Newfield, Kaiser, Ambrose, Eisele, Ball, Solberg, Safire, Bernstein's *Promises Kept*.
+
+### Passed over (eighth run)
+
+How the list was made: as above; each row an event the pages date and treat that took no entry and is not in the tree.
+
+| Page | Date | Event | Why |
+| --- | --- | --- | --- |
+| 426 | 1966–68 | Califano to the universities each year for ideas; for 1968, "criticism of the war" | a lead (the days) |
+| 429 | 1965–66 | Dent replaces Roosevelt as the subcommittee's chairman; Wilson has Albert oversee the bill | a lead (the days; Wilson to Johnson, Jan. 14, 1966) |
+| 430 | Feb.–Mar. 1966 | Dubinsky and Potofsky refuse the Ackley–Connor formula; the AFL-CIO for $1.60 in 1967 | a lead (the day) |
+| 431 | 1966 | Cohen's 10 percent proposal; Johnson: "Come on, Wilbur, you can do better than that" | a lead (the day; Derthick, 342) |
+| 433 | Jan.–June 1967 | Budget, the Council and the Treasury for a split bill, 12–13 percent, retroactive, as a stimulus; Cohen for 15; dropped | a lead (the days) |
+| 434 | Aug. 1967 | Gardner's attack on the House's welfare amendments, "the real or supposed sins of their parents" | a lead (the day) |
+| 434 | Sept. 2–14, 1967 | Cohen in Bolivia: the embassy's dinner; his son, a Peace Corps volunteer, at Cochabamba | private |
+| 434–35 | Oct. 25, 1967 | Cohen to Wickenden: "I have never experienced frustration as I am now" | private remarks (registered) |
+| 437 | Dec. 1967 | Meany and Reuther urge Johnson not to sign | in the Jan. 2, 1968 entry's cite; the day a lead |
+| 570 n.3 | Dec. 7, 1966 | Duesenberry to Califano (the Council on the benefits' cost in inflation) | a lead (its matter; registered) |
+| 570 n.4 | Aug. 11, Dec. 19, 1967 | Levine to Califano et al.; Cohen to Cater et al. | registered; their matter not stated |
+| 439–40 | 1959–70 | Lincoln Center; the Los Angeles Music Center, its units opened 1963–67 | a lead (the days; their public money) |
+| 440 | 1951–58 | Truman's request; the Fine Arts Commission's report, May 15, 1953; the National Cultural Center Act, Sept. 2, 1958 | out of the brief (before the span) |
+| 440–41 | 1958–61 | Stevens chairman of the trustees; Stone's design, $66.4 million | a lead (the days) |
+| 441 | 1961–63 | the White House's performances; the Medal of Freedom to artists | a lead (the days) |
+| 442 | 1961–62 | Isenbergh's paper, "Issues Bearing upon National Cultural Policy" | a lead (the day) |
+| 442 | 1962 | Schlesinger and Salinger for Heckscher; Heckscher named special consultant | a lead (the day) |
+| 442 | 1963 | Kennedy sends up the arts foundation bill | a lead (the day) |
+| 443–44 | 1965–66 | Ripley chairman of the Federal Council on the Arts and Humanities; Stevens; Keeney from 1966, Moe meanwhile; the councils' members | a lead (the days) |
+| 444 | Sept. 1965 | Stevens's council meets before the signing | a lead (the day) |
+| 444 | 1965–68 | the arts endowment's first grants, the State programs | a lead (the days) |
+| 444–45 | 1900–64 | Hirshhorn's life and collection; the offers of New York, London, Rockefeller's at Purchase | a lead (Rockefeller's offer, the day) |
+| 445 | Feb. 1964 | Ripley Secretary of the Smithsonian | a lead (the day) |
+| 446 | 1965 | Ripley to Fortas for a luncheon; to Carpenter on the Eakins; to Hirshhorn on the viewers; the four on the site; Ripley to the White House, "frightfully important" | a lead (the days; Ripley to Goodwin, July 25, 1965, in the note) |
+| 448 | 1965–67 | the year's negotiation; McPherson for Fortas; Mrs. Johnson's Eakins, 1967 | a lead (the days) |
+| 449–50 | 1967–68 | the pathologists' refusals; McPherson's "arithmetic"; $803,000 for the architects; Skidmore, Owings and Merrill, Bunshaft | a lead (the days) |
+| 450 | 1968 | the plans ready in July; $14,197,000; the completion date deferred; Ripley's installment plan, $2 million for fiscal 1969 (Ripley to McPherson, Mar. 14, 1968) | a lead (the days) |
+| 450 | Oct. 1, 1974 | the museum opens | out of the brief (after the span) |
+| 451 | July 1978 | the East Building opens | out of the brief |
+| 451–53 | 1930s–1966 | broadcasting's history; the FCC's freeze; Ford's grants; the educational stations | out of the brief before 1960; the 1960s counts the indicators' kind, not entries |
+| 453 | 1965 | NAEB's leaders with Cater, Gardner, Cohen, Keppel and Henry; Carnegie to appoint; Gardner proposes Killian | a lead (the days; Cater to Johnson, May 19 and June 24, 1965) |
+| 454 | 1967 | Covington & Burling drafts the bill; Stanton's $1 million and "Rooney's world"; Hoving's citizens' committee | a lead (the days) |
+| 456 | Feb. 1969 | Macy president of the Corporation | out of the brief (after the span) |
+| 457 | 1969 | PBS incorporated | out of the brief |
+| 471–72 | Jan. 1968 | Gardner's decision not to back Johnson's running, "in early January" | in the Jan. 25, 1968 entry's cite |
+| 472 | Jan.–Mar. 1968 | Daley's concern about the war (O'Brien) | a lead (the day) |
+| 472 | Dec. 1966, Jan. 29, 1967 | Bucher's orders; his first sight of the *Pueblo* | minor (a unit's routine) |
+| 473 | Jan. 1968 | the apology for the violation of Cambodia's neutrality | a lead (the day) |
+| 474 | Oct. 1967–Jan. 1968 | Con Thien, Lộc Ninh, Song Be, Đắk Tô, the Delta, Khe Sanh | the tree's entries (not cited: Bernstein's summary) |
+| 477 | Jan.–Mar. 1968 | Johnson's approval 48 to 36, the war 40 to 26; the papers and networks against the war | the polls and the press: a lead (the releases) |
+| 477 | Feb. 27, 1968 | Califano and McPherson at Rusk's dining room; McNamara on the bombing | a lead: the tree's Feb. 27 entries hold Cronkite and the Kerner report; this meeting, by Califano's and Shapley's accounts, to place |
+| 479 | Mar. 1968 | Clifford and Wheeler with Russell, Stennis, Jackson and Symington; Mansfield to Clifford | a lead (the day) |
+| 479 | Mar. 13, 1968 | the gold outflow | the economy-gold thread (not checked here) |
+| 482 | summer 1967 | Johnson asks O'Brien for a campaign plan | in the Sept. 29, 1967 entry |
+| 484 | Jan.–Mar. 1968 | McCarthy's New Hampshire campaign; the students; McGrory's column | a lead (the days) |
+| 484–85 | Mar. 1968 | Boutin to O'Brien: "I'm under instruction not to be involved with you" | a lead (the day) |
+| 486 | Mar. 30, 1968 | O'Brien, Breslin and Unruh at Toots Shor's; Unruh's apology the next day | private |
+| 487 | 1964–67 | Lady Bird Johnson's view, spring 1964; Connally, early 1967; Westmoreland, Nov. 1967; Clifford's memorandum on Truman, fall 1967 | a lead (the days) |
+| 487–89 | Mar. 1968 | Johnson's health; Mrs. Johnson's diary of Mar. 10, 14, 17; Kearns on his nights | private |
+| 490 | Mar. 31, 1968 | Lynda back from California; St. Dominic's; the Humphreys; the Krims | in the Mar. 31 entries (cited) |
+| 492 | May 5–18, 1968 | 1,800 Americans killed, 18,000 wounded | the war table's kind; a lead (the source) |
+| 494 | Apr. 1967 | Ray's escape | in the Mar. 17, 1968 entry |
+| 496 | Apr. 1968 | Carmichael on Radio Havana; Dohrn in Times Square; Johnson's trip to Hawaii and Saigon canceled | a lead (the days) |
+| 496 | Mar. 1968 | the cities' and the Army's plans for summer riots; H. K. Johnson to Congress | a lead (the days; the *Times*, Mar. 2, 1968, registered) |
+| 501 | Mar. 1968 | Jacqueline Kennedy to Schlesinger; Gary to Salinger | private remarks |
+| 504–05 | June 1968 | Sirhan's practice, June 2; the funeral; Edward Kennedy's letter to Younger (1969) | a lead (the funeral's day); the letter out of the span |
+| 509 | Apr. 1968 | Humphrey's calls to the governors and mayors; Johnson to stay neutral | in the Apr. 1–3 entries |
+| 512–13 | Aug. 1968 | the Mobilization's and the Yippies' permits refused; Lincoln Park | the Chicago thread's entries (not cited here) |
+| 515 | Sept. 1968 | Edward Kennedy: a Boston speech "premature" | a lead (the day) |
+| 517 | Sept.–Oct. 1968 | the oil and textile offers refused; the President's Club's $600,000 | a lead (the days) |
+| 518 | Oct. 1968 | labor's campaign against Wallace | in `cal.1968-10.labor` |
+| 518 | Nov. 4, 1968 | Harris, Humphrey 43, Nixon 40 | the polls: a lead |
+| 532–33 | 1973–94 | the armistice; the casualties; PTSD; Stevens's costs | out of the brief (after the span) |
+| 538–42 | — | Johnson's character, by Reedy, Califano, McPherson, Goodwin | not events |
+
+### The press (eighth run)
+
+| Date | Outlet | Item | Page |
+| --- | --- | --- | --- |
+| 1967-03-19 | *Washington Post*, Potomac | Burnham, "Sound the Hirshhorn!"; Aaron, "The Collection" | 571 n.4 |
+| 1968-01-31 | the networks' evening news | Tet in Saigon; NBC's film of Loan (in the tree) | 475 |
+| 1968-02-27 | CBS, Cronkite | the report from Vietnam (in the tree) | 476 |
+| 1968-03-10 | *New York Times*, Sheehan and Hedrick Smith | 206,000 more troops (in the tree) | 479 |
+
+### Leads (eighth run)
+
+National: the rows above marked "a lead"; the statutes of the National Council on the Arts and Cultural Development
+Act (Sept. 3, 1964) and the Hirshhorn act (Nov. 7, 1966), and the House's vote of 1964 (213–135); the Senate's vote
+on the arts and humanities bill, June 10, 1965; the Social Security hearings of 1967 (Senate Finance, Aug. 22–Sept.
+26), for Robert Kennedy's and Wiley's days; Stanton's talk with Cater on the receiver tax (1967); the Feb. 27, 1968
+meeting at Rusk's dining room. Propose Part III entries for Ripley, Stevens, Hirshhorn, Keeney, Heckscher, George
+Wiley, Elizabeth Wickenden, Maurice Donahue (no name entries).
+
 ## Not read
 
-Chs. 16, 17 and 19 but the pages named above (426 and 432 of ch. 16, 487 of ch. 19): the minimum wage and Social
-Security, the arts, the collapse of 1968; the middle of p. 420 (ch. 15); and ch. 20, pp. 532–35 and 538–42, read only
-through a faulty extraction. A later reader should take ch. 16, then 19 (the twelve cites' matter searched for there
-without result), then 17. Chs. 1–15, 18 and 20 otherwise read whole, with their notes.
+Nothing. The book is read whole, chs. 1–20 with their notes (the eighth run took chs. 16, 17 and 19, the middle of p.
+420 and ch. 20's pp. 532–35 and 538–42). The twelve cites behind "To check" are settled (cut).
