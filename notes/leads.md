@@ -1409,6 +1409,10 @@ Rights in Conflict (Walker Report):
 - Gallup's readings White gives (250, 264, 319–20), to be set against *The Gallup Poll*, vol. III.
 - Section 315, "June 27th" (White, 282): a vote in Congress that day? The *Record*.
 
+### Rusk, *As I Saw It* (batch 3, second run, Nov. 4, 2026; notes/book-checks/rusk-as-i-saw-it-1990.md)
+- The Dean Rusk Collection's taped interviews (University of Georgia, Russell Library): whether open online, and the tape for each passage the calendar cites (Rusk, 12, 639; `x.1984.rusk-interviews-with-richard-rusk`).
+- The General Assembly's resolution on weapons in orbit, Oct. 1963 (Rusk 345: the day and number; entered); the draft NPT tabled, Aug. 1965 (Rusk 341: the day; FRUS 1964–68, XI; entered); the Rusk–Dobrynin evening on the Potomac, June 1963 (Rusk 256: the day; entered); Rusk's address to the General Assembly on the Brezhnev doctrine, fall 1968 (Rusk 361–62); Peggy Rusk's wedding (*Time*, Sept. 1967: the issue; entered).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2407,6 +2411,9 @@ CQ Weekly Report, 1968-08-30:
 - Johnson's answer on nuclear weapons, news conference of Feb. 16, 1968, 1968–69 Pub. Papers 230, at 234: the entry is `cal.1968-02-16.transition-and-staff` (one entry, the news conference); the answer to be added to its `c`, with `also: [vietnam-khe-sanh]`.
 - The single manager for air, March 1968 (`cal.1968-03.vietnam-khe-sanh`): the day of the order (Momyer's) and of the cables to Wheeler and Sharp.
 - Westmoreland's off-record briefing of August 1967 ("momentous decision") and his late-December interview (237–39, 312).
+
+### Rusk, *As I Saw It* (batch 3, second run, Nov. 4, 2026; notes/book-checks/rusk-as-i-saw-it-1990.md)
+- Rusk and Gromyko at Vienna, May 1965 (Rusk 358; FRUS 1964–68, XIV); Zhou Enlai's statement of May 10, 1966 (Rusk 289; its text; entered); the Montevideo incident, Nov. 1965 (Rusk 571; the day, the photograph; entered).
 
 ## The Executive roster
 

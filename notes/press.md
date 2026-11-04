@@ -6,4 +6,6 @@ the merger copies them here, by date, until the daily list is built. A line each
 
 date | outlet | broadcast, front page or cover | the items, clipped | source, page
 
-(None yet.)
+1965-11 | (a news photograph) | photograph | Rusk at Montevideo, the spit dubbed into the negative | Rusk, *As I Saw It*, 571–72
+1967-09 | *Time* | cover | Peggy Rusk's wedding to Guy Smith (Check: the issue) | Rusk, *As I Saw It*, 581
+1968-02 | the papers, nationally | front pages (by Rusk's account) | Rusk to Scali at a backgrounder: "Whose side are you on?" | Rusk, *As I Saw It*, 477
