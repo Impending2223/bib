@@ -16,7 +16,9 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1960-08-07 | *New York Times*, p. 9 | story | "Now their hearts belong to Barry" | Goldberg, *Barry Goldwater*, 146
 1960-10 | *New York Times* | front page? | the USIA's prestige surveys, printed without saying how obtained | Sorensen, *Kennedy*, 203–04
 1960-10-13 | three newspapers (unnamed) | text | Kennedy's Quemoy and Matsu speech of Oct. 12 in full (Oct. 13 or after) | White, *Making of the President 1960*, 292 n.4
+1960-10-15 | *New York Times* | story | the expropriation of 382 companies and the banks | Fursenko and Naftali, *"One Hell of a Gamble"*, 61
 1960-10-20 | the networks and the press | forecasts | the forecasts of a Kennedy victory, Oct. 20–Nov. 7, 1960, entered one by one | Nixon, *Six Crises*, 358–60
+1960-10-26 | *New York Herald Tribune* | story | Cuba's defenses, the Castros in Las Villas, three thousand arrests | Fursenko and Naftali, *"One Hell of a Gamble"*, 67
 1960-10-31 | the correspondents with Kennedy | the wire file (Western Union) | 90,000 words a day, from an average of 60,000, Oct. 31–Nov. 7 | White, *Making of the President 1960*, 324 n.2
 1960-11 | *Wall Street Journal*; *New York Daily News* | item | Rockefeller blamed for Nixon's loss ("Nixon's Lonely Battle," *WSJ*, Oct. 28) | Smith, *On His Own Terms*, 350
 1960-11-10 | the morning papers (unnamed) | stories | Nixon's remarks at Andrews the night before, quoted | Nixon, *Six Crises*, 401
@@ -35,6 +37,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1962 | *Time* | item | rumors of a Rockefeller marriage to Mrs. Murphy (early 1962) | Smith, *On His Own Terms*, 406
 1962 | *New York Times* | item | editorial on the budget: "Maybe" | Smith, *On His Own Terms*, 382
 1962-04 | *Confidential* | item | the Rockefeller-Murphy romance | Smith, *On His Own Terms*, 406
+1962-04-09 | *New York Times* | story | Kennedy and the Shah to watch LANTPHIBEX at Norfolk | Fursenko and Naftali, *"One Hell of a Gamble"*, 166
 1962-04-12 | the *Wall Street Journal* (John Lawrence), the AP (Lee Linder) and the *Wilmington Evening Journal* (James L. Parks Jr.) | stories | the FBI's calls on the reporters; Linder's story | Guthman, *We Band of Brothers*, 233–34
 1962-05 | *New York Herald Tribune* | front pages | speculative stories on Billie Sol Estes; the stockpile errors not covered | Sorensen, *Kennedy*, 317
 1962-06 | *The New Yorker* | serial | *Silent Spring* serialized | Bernstein, *Guns or Butter*, 263
@@ -49,6 +52,8 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1962-09-28 | Jackson Daily News | front page | "Thousands Said Ready to Fight for Mississippi"; readers urged to learn "Never, No Never" | Branch, *Parting the Waters*, 653
 1962-09-28 | *Deutsche Soldaten-Zeitung und National-Zeitung* | interview | Kroll interview, "Endkampf um Berlin in 4 Wochen" | Fursenko and Naftali, *Khrushchev's Cold War*, 460
 1962-10-01 | New York Times | front page | the President "qualified his optimism most carefully" in his address | Branch, *Parting the Waters*, 671
+1962-10-21 | *New York Times*, *Washington Post* | stories | the quarantine stories held at Kennedy's request (entered) | Fursenko and Naftali, *"One Hell of a Gamble"*, 238
+1962-10-22 | *New York Herald Tribune* | headline | "Top-Secret Doings in Capital; A Cuba-Berlin Strategy Step?" | Fursenko and Naftali, *"One Hell of a Gamble"*, 238
 1962-10-25 | Lippmann's column | column | the Jupiters for the Cuban base | Fursenko and Naftali, *Khrushchev's Cold War*, 487–88
 1962-10-30 | *Washington Post* | item | "MiG Deal with India Appears Off" | Fursenko and Naftali, *Khrushchev's Cold War*, 497
 1962-10-31 | *Washington Post* | item | "China Press Sees K as Weak Man" | Fursenko and Naftali, *Khrushchev's Cold War*, 495
@@ -113,6 +118,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-10-24 | New York Times | inside, 32 | the civil rights bill in committee: "For an understanding of this bizarre battle, it is helpful to look both backward and forward" | Branch, *Parting the Waters*, 910
 1963-10-25 | *Washington Post* | front page | Goldwater on NATO's "commanders" and tactical nuclear weapons (Chalmers Roberts) | White, *Making of the President 1964*, 296
 1963-11-22 | CBS | item | Cronkite: Goldwater kept from the funeral by a political function; his apology | Smith, *On His Own Terms*, 418
+1963-12 | *New Republic* | editorial | editorial on H. L. Hunt's broadcast | Fursenko and Naftali, *"One Hell of a Gamble"*, 349
 1964 | Lippmann; Reston | columns | uneasy at the drift to war | Bernstein, *Guns or Butter*, 379
 1964-01-06 | *Manchester Union Leader* | item | "Deception, Deceit, and Divorce" | Smith, *On His Own Terms*, 420
 1964-01-06 | *Concord Daily Monitor* | front page | "Goldwater Sets Goals: End Social Security, Hit Castro" (in the Jan. 7 cite) | Bernstein, *Guns or Butter*, 128

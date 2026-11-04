@@ -2033,6 +2033,11 @@ Rights in Conflict (Walker Report):
 ### Sorensen, *Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/sorensen-kennedy.md)
 - The days of the leads in the third run's Passed over (Sorensen gives none; the calendar of the month to be read for each): Kennedy's order changing the *Fortune* writer's Air Force post (316 n.3); the sessions with Luce and the *Time* study (317); the publishers' committee of May 1961 (321); the news-contact restrictions of Oct. 1962 and the rule for aides (321); the USIA polls' release (322); the state-by-state White House luncheons with editors (327); Ellis's plan to see the Pope on church shelters, 1961 (613); Teller's $50 billion shelters (615); the shelter booklet toned down, Dec. 1961 (616); the Republican leadership seminars, Jan. 1962 (324); the news conference of Apr. 3, 1963 on Khrushchev's standing (555); Neustadt's Skybolt study, 1963 (569).
 
+### Fursenko and Naftali, *"One Hell of a Gamble"* (batch 3, second run, Nov. 4, 2026; notes/book-checks/fursenko-one-hell-of-a.md)
+- Schlesinger to Kennedy, May 3, 1961 ("Kennedy has lost his magic," POF, 102 n.2); U. A. Johnson's memorandum of Mar. 16, 1962 (157 n.26); the six low-level flights authorized Oct. 23, 1962 (250); the CIA's halt of Mongoose, Oct. 28, 1962, 4:30 p.m. (Harvey's chronology of Nov. 14, 1962, 288 n.98); the Marine battalion from El Toro, Oct. 21, 1962 (244): to enter from their records.
+- Kennedy's Cuba economy request and Goodwin's economic-warfare proposal, Sept. 1961 (143 n.47–48): the days.
+- The press: Frank Holeman (*New York Daily News*, Nixon's beat and the Bolshakov channel; the work treats him at 110–12, 249, 275): a Part III entry; he is named in the new entries of Apr. 29–30, 1961, but not in Names. Paul W. Ward (*Baltimore Sun*?), his article of early December 1963 on a right-wing plot (348): the day and paper.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -3193,6 +3198,12 @@ CQ Weekly Report, 1968-08-30:
 ### Sorensen, *Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/sorensen-kennedy.md)
 - The Azores lease and Portugal's pressure (538 n.3); the four accidental penetrations of Soviet air space (541 n.1); Bolshakov's letter in a folded newspaper, a Berlin concession (554); Macmillan's anger at the Hawk offer to Israel (558); the Skipjack sale withdrawn (572); Diefenbaker's staff paper (575); the Pakistani Ambassador's tirade (664); Kennedy's letter to Diem, late summer 1963 (658); Acheson's letter after the crisis (719); the Joint Chiefs' written views on Laos (644–45); Macmillan's letter on testing, early 1962 (622).
 - The pages 593–746 listed in the third run's Passed over as "not checked": a fourth run to set each against its day and cite or enter it (Laos and Vietnam, 639–61; China, India and Pakistan, 661–66; the missile crisis's dense days, 697–718; the aftermath, 719–28; the test ban's ratification and the wheat sale, 729–46; Berlin's later incidents, 593–600).
+
+### Fursenko and Naftali, *"One Hell of a Gamble"* (batch 3, second run, Nov. 4, 2026; notes/book-checks/fursenko-one-hell-of-a.md)
+- The rows of the book-check's Passed over marked "lead," each with its page and note; chiefly the KGB's and Presidium's acts the work dates only to a month or a season (Castro's talks with Alekseyev of May 1960 and Feb. and Mar. 1962; Castro's purge of the security services, Aug. 1960; the GRU in Havana, fall 1961; Moscow's monitoring of the landing, Apr. 15–18, 1961, from Alekseyev's cables of Apr. 17 and 18, file 88631, vol. 3, 169–71).
+- The Second Declaration of Havana (Feb. 4, 1962, to check), quoted at 168: not in the calendar.
+- A Taiwanese U-2 shot down over China, Sept. 8, 1962 (214): not in the calendar.
+- Barghoorn's arrest, Oct. 31, 1963 (344): to check against the calendar.
 
 ## The Executive roster
 
