@@ -1797,6 +1797,17 @@ Rights in Conflict (Walker Report):
 - The AMA's meeting with Johnson, late June or July 29, 1965: the Daily Diary.
 - Not read, or read in part: pp. 1–2; ch. 7, pp. 228–244, 248–262; ch. 8, pp. 263–269, 272–275, 277–278, 284–294, 296–298; ch. 9 and the epilogue, pp. 303–324. Passed over not kept row by row (R44, R48): for the next reader.
 
+### Bernstein, *Guns or Butter* (batch 3, Nov. 3–4, 2026, the second and third runs; notes/book-checks/bernstein-guns-or-butter.md)
+
+- The Passed over rows marked "a lead" (the second and third runs).
+- Ways and Means's hearings of Jan. 22–23, 1968 (Fowler, Schultze, Martin, Ackley; Bernstein 372): the hearing record.
+- The Finance Committee's votes of Mar. 1968 (12–5; 9–8) and its report of Mar. 15 (373): the committee's report and the *CQ Almanac*, 1968, 263–78.
+- Nov. 22, 1966, the Ranch: the fiscal year of McNamara's $20 billion and the deficit's $1.8 and $9 billion (360): Shapley, 367–74.
+- Califano's oral histories as Bernstein numbers them (I, XXIV, XL, XLI, LVII) against `x.undated.joseph-a-califano-jr-oral-history` (Mar. 16, Dec. 21, 1988, June 13, 1989): perhaps one series.
+- The Kennedy Center act's Statutes cite (`cal.1964-01-23.program`, Check); the Finance Committee's report of Jan. 28, 1964 (S. Rep. No. 830, registered, not read).
+- The press, named and passed over: the *Times* on Johnson "sputtering mad" (aluminum, Nov. 1965, 362: the day); *Congressional Quarterly*'s "Lobbying by Business Key to Passage" (June 1968, 376); a Karachi columnist on Bashir's invitation (1961, 10); the White House reporters on the $101–102 billion figure (Nov.–Dec. 1963, 30).
+- Heller to Johnson, Nov. 25, 1963: `x.1963-11-25.heller-to-johnson-case-for-a-101-102` ("Case for a $101-102 billion Budget," GEN-CEA File, LBJ Library; Bernstein 32 n.2d) and `x.1963-11-25.walter-heller-to-lyndon-johnson-nov` (Kermit Gordon Papers, Box 13, "The Tax Bill and Budget Expenditures," JFK Library; Zelizer, *Taxing America*, 202 n.95) may be one memorandum in two files: left apart by the merger (two repositories, the second row's description only the folder's), for a reader with either copy.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
