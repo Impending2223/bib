@@ -1697,6 +1697,12 @@ Rights in Conflict (Walker Report):
 - Johnson at St. Patrick's Cathedral, Apr. 4, 1968, Cooke's installation (Branch, 764).
 - The National Guard's drive for Negro members, Mar. 31, 1968 (NYT, Mar. 31, 1968, 1; Branch, 751).
 
+### Kabaservice, *Rule and Ruin* (batch 3, second run, Nov. 4, 2026; notes/book-checks/kabaservice-rule-and-ruin.md)
+
+- Dumont demands that Hughes fire Genovese; Hughes refuses, Aug. 1965 (Kabaservice, 159; the *Times*, Aug. 12, 1965, cited 159 n.163): the day.
+- A poll, fall 1967, Johnson two points ahead of Stassen (Kabaservice, 230): the day and the pollster.
+- The by-work edges at 51 n.70, 87 n.61, 101 n.20, 172 n.46, 188 nn.133-136 stand a page beside the note's marker; those at 54 n.80, 59 n.110, 83 n.46, 210 n.73 at notes whose marker the text layer does not show: to verify against the book.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
