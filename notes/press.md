@@ -175,12 +175,15 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1966-02 | *New York Times* (Wicker) | dispatch | the Bangkok communiqué filed first | Humphrey, *Education of a Public Man*, 332
 1966-02 | *New York Times* | story (Broder) | Romney: "fuzziness on national and international issues" | White, *Making of the President 1968*, 40
 1966-02-01 | New York Times | front page | "Johnson Asks U.N. to Summon Vietnam Peace Conference/ Bombing in North Resumes" | Branch, *At Canaan's Edge*, 433
+1966-02-10 | CBS | daytime broadcast | the hearings dropped for reruns, *I Love Lucy* among them | Woods, *J. William Fulbright, Vietnam*, 117
 1966-02-11 | Montgomery Advertiser | front page | "Lowndes Schools Ordered to End All Segregation" | Branch, *At Canaan's Edge*, 438
+1966-02-14 | BBC | broadcast | Kennan's testimony and Fulbright's questioning, almost verbatim; Labour members on the talk shows | Woods, *J. William Fulbright, Vietnam*, 121
 1966-02-23 | *Journal-American*, Riesel | item | Rockefeller and the labor leaders (entered) | Smith, *On His Own Terms*, 477 n.
 1966-02-24 | New York Times |  | "Dr. King Seizes a Slum Building" | Branch, *At Canaan's Edge*, 441
 1966-02-25 | New York Times |  | "Dr. King Assailed for Slum Tactic" | Branch, *At Canaan's Edge*, 441
 1966-03-01 | *New York Post* (Wechsler) | column | "His righteous rhetoric is almost reminiscent of Richard Nixon" | Solberg, *Hubert Humphrey*, 293
 1966-03-12 | *New Republic* | article | Humphrey "a kind of export ADA" | Solberg, *Hubert Humphrey*, 292
+1966-04 | CBS | morning news | Agronsky on Raborn's and Fulbright's letters over Carver's article | Woods, *J. William Fulbright, Vietnam*, 134
 1966-04-01 | *Time* | cover | Humphrey; "a White House Uriah Heep" | Solberg, *Hubert Humphrey*, 295
 1966-04-08 | *Time* | p. 27 | the Dahmer case | Branch, *Pillar of Fire*, 610
 1966-04-16 | New York Times | front page | 1,361 Americans killed in the first 99 days of 1966 | Branch, *At Canaan's Edge*, 452
@@ -191,7 +194,11 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1967-02-21 | *New York Times* |  | the grand-jury claims in the Dahmer and Neshoba cases | Branch, *Pillar of Fire*, 609
 1967-02-28 | *New York Times* | p. 40 | the same | Branch, *Pillar of Fire*, 609
 1967-03-01 | *New York Times* | front page | the same | Branch, *Pillar of Fire*, 609
+1967-03-01 | *New York Times* | page | Herbers, "Fulbright Backs Vietnam Limit of 500,000 G.I.'s" | Woods, *J. William Fulbright, Vietnam*, 145 n.8
 1967-04-23 | *New York World Journal Tribune* | article | Thimmesch, "The New New Nixon" | White, *Making of the President 1968*, 53 n.9
+1967-05-05 | *Arkansas Gazette* | page | "RFK-Fulbright Group to Ignore Objections, Run in New Hampshire" | Woods, *J. William Fulbright, Vietnam*, 149 n.21
+1967-07-15 | *Chicago Tribune* | page | "Senate's Cuts in Aid Irk Rusk" | Woods, *J. William Fulbright, Vietnam*, 159 n.33
+1967-08-01 | *Baltimore Sun* | page | "Bid to Curb Executive's Role Gains" | Woods, *J. William Fulbright, Vietnam*, 155 n.14
 1967-09 | *Time* | cover | Peggy Rusk's wedding to Guy Smith (Check: the issue) | Rusk, *As I Saw It*, 581
 1967-09-05 | *New York Times* | p. 28 | Romney "brainwashing" | White, *Making of the President 1968*, 59
 1967-09-05 | the networks' evening news | broadcast | the Gordon clip | White, *Making of the President 1968*, 60
@@ -206,6 +213,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-01-25 | *Hattiesburg American* | front page | the Forrest County indictments | Branch, *Pillar of Fire*, 610
 1968-01-26 | *New York Times* | p. 17 | the same | Branch, *Pillar of Fire*, 610
 1968-01-31 | New York Times; Washington Post | front pages | Mohr on the embassy in Saigon; the Post's photograph of a Viet Cong body on the lawn | Branch, *At Canaan's Edge*, 681
+1968-01-31 | *Arkansas Gazette* | page | "Senate Panel to Re-examine Tonkin Case" | Woods, *J. William Fulbright, Vietnam*, 168 n.30
 1968-02 | the papers, nationally | front pages (by Rusk's account) | Rusk to Scali at a backgrounder: "Whose side are you on?" | Rusk, *As I Saw It*, 477
 1968-02 | *Harper's*, Larry L. King | item | "The Cool World of Nelson Rockefeller" (made public, entered) | Smith, *On His Own Terms*, 498
 1968-02-02 | Memphis Commercial Appeal |  | "Hambone's Meditations" on the drain workers | Branch, *At Canaan's Edge*, 685
@@ -213,6 +221,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-02-18 | New York Times | front page | the Ford Foundation's turn to race; Bundy's annual report | Branch, *At Canaan's Edge*, 696
 1968-02-23 | Memphis Commercial Appeal | front page | "Committee Surrenders but Loeb Holds Firm"; the cartoon of T. O. Jones | Branch, *At Canaan's Edge*, 699
 1968-02-25 | Washington Post |  | Harwood, "J. Edgar Hoover: A Librarian with a Lifetime Lease" | Branch, *At Canaan's Edge*, 708
+1968-02-25 | *New York Times* | page | Finney (Woods: Kenworthy), "McNamara Says Destroyers in Gulf of Tonkin Warned of Enemy"; "9 on Fulbright Panel Feel U.S. Over Reacted to Tonkin Attack" | Woods, *J. William Fulbright, Vietnam*, 170
 1968-02-27 | CBS | broadcast | Cronkite, "mired in stalemate" (cal.1968-02-27.press-and-broadcasting) | Branch, *At Canaan's Edge*, 704
 1968-03 | *New York Times* | column (Reston), the first week | "the political system ... has broken down" | White, *Making of the President 1968*, 94–95
 1968-03-13 | ABC | broadcast | Howard K. Smith's editorial for mobilization "on an overwhelming scale" | Branch, *At Canaan's Edge*, 710
@@ -233,9 +242,11 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-07-20 | *New York Times* | p. 25 | a Dahmer murder conviction | Branch, *Pillar of Fire*, 610
 1968-07-27 | *Hattiesburg American* | front page | "Doctor Brings New Angle into Wilson Murder Trial" | Branch, *Pillar of Fire*, 710
 1968-07-27 | *Saturday Evening Post*, Roger Kahn | item | "On the Brink of Chaos," the sanitation strike | Smith, *On His Own Terms*, 507 n.
+1968-07-28 | *Arkansas Gazette* | page | Bill Lewis, "Fulbright Faces Most Serious Challenge of His (24-Year) Career Tuesday" | Woods, *J. William Fulbright, Vietnam*, 177 n.69
 1968-07-29 | *New York Times* | p. 18 | a Dahmer murder conviction | Branch, *Pillar of Fire*, 610
 1968-08-26 | *New York*, Elia Kazan | item | "Face to Face with the GOP" | Smith, *On His Own Terms*, 538
 1968-08-27 | Knight newspapers | story | McCarthy: chances zero (`cal.1968-08-27.press-and-broadcasting-3`) | White, *Making of the President 1968*, 282
+1968-08-27 | *New York Times* | page | Finney, "How Johnson Got the Vietnam Plank He Wanted" | Woods, *J. William Fulbright, Vietnam*, 178 n.74
 1968-08-28 | NBC | broadcast, 9:55 p.m. | the riot film over Stokes | White, *Making of the President 1968*, 302
 1968-09-07 | *Chicago Daily News* | article | Coffey's reconstruction | White, *Making of the President 1968*, 299 n.7
 1968-09-11 | *Charlotte Observer* | article | Jablow on Nixon's Southern strategy | White, *Making of the President 1968*, 326

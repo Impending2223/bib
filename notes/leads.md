@@ -1824,6 +1824,29 @@ Rights in Conflict (Walker Report):
 - I. F. Stone's "Reply to the White Paper": *I. F. Stone's Weekly*, Mar. 8, 1965 (the issue to confirm).
 - Kraft and I. F. Stone have no name entries: propose Part III entries (R13).
 
+### Woods, *J. William Fulbright, Vietnam, and the Search for a Cold War Foreign Policy* (batch 3, Nov. 4, 2026; notes/book-checks/woods-j-william-fulbright-vietnam.md)
+
+- The Mount Vernon dinner (Woods 41, "June 11"): the date, against the Public Papers' account of Ayub Khan's visit (July
+  1961).
+- Woods's footnotes: Fulbright to Kennedy, June 28, 1961 (WHOF, box 639, Kennedy Papers); "Memorandum Submitted to
+  Department of Defense," Aug. 2, 1961 (SPF, series 4:19, box 26:1): the memorandum's record for
+  cal.1961-08-02.right-and-the-military.
+- Woods, second run: the papers of government on pp. 132-136 (Lodge, Apr. 29, 1966; Rostow to Harriman, Jan. 28; Rostow
+  to Johnson, Apr. 5 and June 1; Harriman to Rusk, May 10; the NSC of May 10 and June 17; Hoover to Tolson, July 1):
+  entries by R8, FRUS 1964-68, IV first where it prints them.
+- The Minutemen plot (Woods 125): Brooks's testimony in Kansas City, its day (the *Arkansas Gazette*, Apr. 8, 1966).
+- Athan G. Theoharis, *From the Secret Files of J. Edgar Hoover* (1991): no card; a witness row only (Woods 119 n.47).
+- The Fulbright Papers (SPF, University of Arkansas), the Marcy Papers (SFRC, RG 46) and the LBJ Library's files Woods
+  cites, item by item in the witness file: the archival copies of the new entries, none read.
+- 113 Cong. Rec. 15018 (Senate, June 7, 1967): Fulbright's Pacem in Terris speech as printed, for its day and words.
+- Woods's account of Fulbright's questions to Russell (a declaration of war; a million men?): the Record of Feb.-Mar.
+  1967, the day not found (Woods's page cites Mar. 13, a letter).
+- *The Arrogance of Power*'s day of publication (Random House, Dec. 1966).
+- Part III entries to propose (R13): William S. White (columnist, *Washington Post*); Martin Agronsky (CBS); E. W.
+  Kenworthy and John W. Finney (*New York Times*, on the Tonkin inquiry); J. Russell Wiggins has one.
+- Persons without name entries named in the new entries: Seth Tillman, Carl Marcy's staff (William Bader, Don
+  Newhouse), Ben Grinage, Lee Williams, Cyrus Eaton, Erich Fromm, Martha Gellhorn, Igor Bubnov, David Ness.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2912,6 +2935,12 @@ CQ Weekly Report, 1968-08-30:
 
 - Indonesia, 1965-66 (Bird 351-354): the CIA's assessment of Jan. 3, 1966, and Komer's report to Johnson of Feb. 10,
   1966 ("some 100,000 Communists have been killed"): to set against the Indonesia thread.
+
+### Woods, *J. William Fulbright, Vietnam, and the Search for a Cold War Foreign Policy* (batch 3, Nov. 4, 2026; notes/book-checks/woods-j-william-fulbright-vietnam.md)
+
+- Trần Văn Đỗ's and the South Vietnamese embassy's protest of Fulbright's charge, Feb.-Mar. 1967: the day (Fulbright
+  to Đỗ, Mar. 3, 1967).
+- Ness's letter from Cairo, early Feb. 1967: whether the *Baltimore Sun* of June 11, 1967 printed it (Made public?).
 
 ## The Executive roster
 
