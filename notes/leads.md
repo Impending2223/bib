@@ -2004,6 +2004,14 @@ Rights in Conflict (Walker Report):
   Darby, Jack Pickens, Witt Stephens (Arkansas); H. L. Hunt; Isadore Hamlin, Maurice Boukstein; R. B. McCallum; John
   A. Morsell.
 
+### Kotz, *Judgment Days* (batch 3, fifth run, Nov. 4, 2026; notes/book-checks/kotz-judgment-days.md)
+
+- `x.1963-10-28.office-of-director-oct-28-1963` and `x.1963-10-28.note-to-hoover-oct-28-1963` (both O&C file 24, Oct. 28, 1963): perhaps one paper; join them if a reader sees it.
+- The Sullivan to Belmont memorandum of Dec. 24, 1963: two rows (FK-NR, Branch; 100-3-116-684, Garrow); Kotz cites the King main file, sec. 7. Likewise Baumgardner to Sullivan, Jan. 8, 1964 (FSC-NR, Branch; FBIMLK sec. 7, Kotz).
+- The House Select Committee on Assassinations' hearings, vol. 6, print the FBI's King papers Kotz cites (131–32, 159–61): a printed source to find open.
+- The Pottinger Report (1977), its exhibits (Belmont to Tolson, Oct. 17, 1963, exhibit 13).
+- Press figures for Part III (R13): Robert S. Allen and Paul Scott (syndicated column).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its

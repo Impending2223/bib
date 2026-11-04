@@ -2298,6 +2298,19 @@ entries:
         - 'w.bernstein-guns-or-butter 22: all'
         - 'via w.bernstein-guns-or-butter 22 n.2c: all'
     tags: [name:katzenbach-nicholas, name:moyers-bill]
+  - id: cal.1963-11-25.king-2
+    when: Nov. 25
+    date: '1963-11-25'
+    thread: king
+    also: [press-and-broadcasting, civil-rights-bill]
+    c: 'Robert Allen and Paul Scott, columnists, in the *Long Island Press*: Johnson and Robert Kennedy soon to face "evidence obtained by tapping telephones" tying an unnamed civil rights leader to a Soviet agent; "if this close association isn''t ended, the new administration faces public disclosures about this individual''s Red ties in the midst of the coming congressional debate on civil rights legislation."'
+    n: '[[w.kotz-judgment-days]], 81. To check: *Long Island Press*, Nov. 25, 1963, 9; [[w.garrow-bearing-the-cross]], 308 (cited by [[w.kotz-judgment-days]], 81 n.66). Check: Kotz has the FBI overhear King''s alarm at the column, no day given (81). Names: Johnson, Robert Kennedy.'
+    src:
+      c: 9dabfa7b
+      rows:
+        - 'w.kotz-judgment-days 81: all'
+        - 'via w.kotz-judgment-days 81 n.66b: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
   - id: cal.1963-11-26.vietnam
     when: Nov. 26
     date: '1963-11-26'
@@ -2517,6 +2530,19 @@ entries:
         - 'w.bernstein-guns-or-butter 271: all'
         - 'via x.1963-11-27.udall-to-johnson-land-and-water: all'
     tags: [name:udall-stewart-l, name:johnson-lyndon-b]
+  - id: cal.1963-11-27.king
+    when: Nov. 27
+    date: '1963-11-27'
+    thread: king
+    also: [civil-rights-the-executive]
+    c: 'Hoover to Robert Kennedy and O''Donnell: a statement under King''s name for the *New York Herald Tribune* written by Clarence Jones, Levison''s intermediary; Jones''s past Communist-related affiliations noted.'
+    n: '[[w.kotz-judgment-days]], 80–81. To check: Hoover to the Attorney General and O''Donnell, Nov. 27, 1963, FBI file 100-3-116-539 (cited by [[w.kotz-judgment-days]], 81 n.64). Made public: Check; Kotz cites the FBI''s file. Names: Hoover, Robert Kennedy, O''Donnell, Martin Luther King, Levison.'
+    src:
+      c: d35f3aa6
+      rows:
+        - 'w.kotz-judgment-days 80–81: all'
+        - 'via w.kotz-judgment-days 81 n.64: all'
+    tags: [name:hoover-j-edgar, name:kennedy-robert-f, name:odonnell-kenneth-p, name:king-martin-luther-jr, name:levison-stanley-d]
   - id: cal.1963-11-28.elections-1964
     when: Nov. 28
     date: '1963-11-28'
@@ -2623,16 +2649,20 @@ entries:
     when: Nov. 29
     date: '1963-11-29'
     thread: assassination
-    also: [cuba]
-    c: 'Johnson to Hoover by telephone, 1:40 p.m.: "whether [Oswald] was connected with the Cuban operation with money." Hoover: "That''s what we''re trying to nail down now"; the tie unlikely; Oswald "strongly pro-Castro."'
-    n: '[Johnson and Hoover, 1:40 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-november-29-1963), Tape K6311.04 (Miller Center). [[w.shesol-mutual-contempt]], 131. See [[cal.1963-11-29.assassination]]. Names: Johnson, Hoover, Oswald.'
+    also: [cuba, transition-and-staff]
+    c: 'Johnson to Hoover by telephone, 1:40 p.m.: "whether [Oswald] was connected with the Cuban operation with money." Hoover: "That''s what we''re trying to nail down now"; the tie unlikely; Oswald "strongly pro-Castro." Johnson: "You''re my brother and personal friend"; "I have more confidence in your judgment than anybody in town." He asks for DeLoach as the FBI''s liaison to the White House; Hoover agrees.'
+    n: '[Johnson and Hoover, 1:40 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-november-29-1963), Tape K6311.04 (Miller Center). [[w.shesol-mutual-contempt]], 131; [[w.kotz-judgment-days]], 80, 82 (Johnson''s words to Hoover; DeLoach). To check: DeLoach, oral history, 6, LBJ Library (cited by [[w.kotz-judgment-days]], 82 n.68). See [[cal.1963-11-29.assassination]]. Names: Johnson, Hoover, Oswald, DeLoach.'
     src:
-      c: fc5415f3
+      c: 652398de
       rows:
         - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-november-29-1963: all'
-        - 'w.shesol-mutual-contempt 131: all'
-        - 'via w.shesol-mutual-contempt 131 n.connected: all'
-    tags: [name:johnson-lyndon-b, name:hoover-j-edgar, name:oswald-lee-harvey]
+        - 'w.shesol-mutual-contempt 131: A-D'
+        - 'via w.shesol-mutual-contempt 131 n.connected: A-D'
+        - 'w.kotz-judgment-days 80, 82: E-H'
+        - 'via w.kotz-judgment-days 80 n.63: E-F'
+        - 'via w.kotz-judgment-days 82 n.68a: G-H'
+        - 'via w.kotz-judgment-days 82 n.68b: G-H'
+    tags: [name:johnson-lyndon-b, name:hoover-j-edgar, name:oswald-lee-harvey, name:deloach-cartha]
   - id: cal.1963-11-29.civil-rights-organizations
     when: Nov. 29
     date: '1963-11-29'
