@@ -72,18 +72,12 @@
   form: print
   open: not held
   read: false
-- id: x.1961-03-08.news-conference
-  what: The President's News Conference of Mar. 8, 1961
-  kind: transcript
-  date: '1961-03-08'
-  where: Public Papers of the Presidents, 1961, 152-60
-  agent:
-  - name:kennedy-john-f
-  made: contemporaneous
-  form: print
-  copies:
+- amend: x.1961-03-08.news-conference-march-8-1961-public
+  add_copies:
   - 1961 Pub. Papers 152
-  read: true
+  set:
+    read: true
+  why: read in GPO's volume, Nov. 4, 2026
 - id: x.1962.cq-almanac-1962-235
   what: Congressional Quarterly Almanac, 1962, 235 (the five school organizations, June 16, 1962)
   kind: report
