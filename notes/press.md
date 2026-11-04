@@ -8,9 +8,14 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 
 1960-03 | Joseph Alsop's column | column | door-to-door poll at Wausau: Humphrey "lucky" to get a hundred votes | Humphrey, *Education of a Public Man*, 208
 1960-07-10 | *Seattle Times* | front page | Guthman's story: Jackson a possible running mate | Guthman, *We Band of Brothers*, 75
+1960-08-07 | *New York Times*, p. 9 | story | "Now their hearts belong to Barry" | Goldberg, *Barry Goldwater*, 146
 1960-10 | *New York Times* | front page? | the USIA's prestige surveys, printed without saying how obtained | Sorensen, *Kennedy*, 203–04
+1961-01-23 | *U.S. News and World Report* | article | "Goldwater's Platform for 'The Forgotten American'" | Goldberg, *Barry Goldwater*, 151 n.11
+1961-01-27 | *Human Events* | article | "The Forgotten American," parts 1 and 2 | Goldberg, *Barry Goldwater*, 151 n.11
 1961-02-06 | *Washington Evening Star* | headlines | McNamara: no missile gap | McNamara, *In Retrospect*, ch. 1
 1961-02-07 | *New York Times* | front page | McNamara: no missile gap | McNamara, *In Retrospect*, ch. 1
+1961-03-25 | *Business Week* | article | "Apostle of Conservatism": Goldwater "as handsome as a movie star" | Goldberg, *Barry Goldwater*, 149 n.2
+1961-07-03 | *New York Times* | front page | "Operation Goldwater" | Goldberg, *Barry Goldwater*, 149 n.1
 1961-12-19 | New York Herald Tribune | story | the Albany truce "a devastating loss of face" for King (entered) | Branch, *Parting the Waters*, 557
 1962-04-12 | the *Wall Street Journal* (John Lawrence), the AP (Lee Linder) and the *Wilmington Evening Journal* (James L. Parks Jr.) | stories | the FBI's calls on the reporters; Linder's story | Guthman, *We Band of Brothers*, 233–34
 1962-07-11 | New York Times and papers across the country | front page | King's jailing at Albany, under the Telstar story; the Times recalls the jailing of 1960 | Branch, *Parting the Waters*, 601–2
@@ -57,6 +62,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-08-29 | New York Times | front page | James Reston, "'I Have a Dream ...' Peroration by Dr. King Sums Up a Day the Capital Will Remember," five stories around two crowd photographs | Branch, *Parting the Waters*, 886
 1963-08-29 | Washington Post | front page | the march; Randolph's speech, no mention of King's | Branch, *Parting the Waters*, 886
 1963-09-01 | Atlanta Daily World | front page | the rally "forever" changed racial perceptions; King in a group photograph with the President | Branch, *Parting the Waters*, 886
+1963-09-16 | *New York Times*, p. 30 | story | Buckley and Bozell "far right" supporters | Goldberg, *Barry Goldwater*, 175 n.148
 1963-09-20 | New York Times | front page | "Kennedy Names 2 ... Negroes Applaud Move, Drop Appeal for Troops and Accept Panel" | Branch, *Parting the Waters*, 895
 1963-09-24 | New York Times | front page | "Kennedy Says Birmingham Can Solve Its Own Problems" | Branch, *Parting the Waters*, 898
 1963-09-28 | New York Times | front page | Valachi's "underworld glossary" | Branch, *Parting the Waters*, 905
@@ -64,6 +70,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-10-25 | *Washington Post* | front page | Goldwater on NATO's "commanders" and tactical nuclear weapons (Chalmers Roberts) | White, *Making of the President 1964*, 296
 1964-01-07 | *Concord Daily Monitor* | front page | "Goldwater Sets Goals: End Social Security; Hit Castro" | White, *Making of the President 1964*, 104
 1964-01-19 | *New York Times* | front page | King in the Oval Office beside Johnson, a large photograph | Kotz, *Judgment Days*, 102
+1964-01-20 | *Newsweek* | article | "Fastest Gun" | Goldberg, *Barry Goldwater*, 177 n.158
 1964-03-10 | CBS | evening | Cronkite calls New Hampshire for Lodge at 7:18 p.m. | White, *Making of the President 1964*, 110
 1964-03-31/04-01 | the papers across the country | front pages | Mrs. Peabody led to jail at St. Augustine | Kotz, *Judgment Days*, 127
 1964-04-15 | *Washington Post* and others | column | Joseph Alsop on King and the Communist Party (an entry) | Kotz, *Judgment Days*, 129
@@ -89,6 +96,8 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1964-08-21 | *Life* | cover | Khánh at the "front" in a jeep under ferns | Branch, *Pillar of Fire*, 443
 1964-08-22 | NBC | the hearing | Edwin Newman cuts from Hamer to Goralski at the White House | Branch, *Pillar of Fire*, 459
 1964-08-25 | *New York Times* | front page | "Unbroken Harmony" | Branch, *Pillar of Fire*, 467
+1964-09-21 | *Newsweek* | article | "The Nuclear Issue" | Goldberg, *Barry Goldwater*, 226 n.84
+1964-09-25 | *Time* | cover | "The Itchy-Finger Image," the daisy girl on the cover | Goldberg, *Barry Goldwater*, 226 n.85
 1964-09-27 | *New York Times* | front page | "F.B.I. Says Riots Had No Pattern or Single Leader" | Branch, *Pillar of Fire*, 421
 1964-10-03 | *New York Times* | front page | "Judge Orders Secrecy on Identity Pending Arrests in Mississippi Deaths" | Branch, *Pillar of Fire*, 505
 1964-10-04 | *New York Times* | front page | "Violence Not Linked to Triple Murder" | Branch, *Pillar of Fire*, 506

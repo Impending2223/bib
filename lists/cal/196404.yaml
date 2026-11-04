@@ -157,7 +157,12 @@ entries:
     thread: opinion
     also: [elections-1964-polls]
     c: 'Gallup, Mar. 13–17: Republicans'' choice for 1964: Lodge 42, Nixon 26, Goldwater 14, Rockefeller 6, Scranton 4, Romney 4; others, no preference 4. Independents: Lodge 41, Nixon 20, Goldwater 10, Rockefeller 9.'
-    n: '[[w.gallup-poll]], III, 1873–74. Names: Nixon, Goldwater, Lodge, Rockefeller, Romney, Scranton.'
+    n: '[[w.gallup-poll]], III, 1873–74; [[w.goldberg-barry-goldwater]], 187 (the April Gallup poll, Lodge 42 percent of the Republicans). Names: Nixon, Goldwater, Lodge, Rockefeller, Romney, Scranton.'
+    src:
+      c: 8d45c6a8
+      rows:
+        - 'w.gallup-poll III, 1873–74: all'
+        - 'w.goldberg-barry-goldwater 187: A'
     tags: [name:nixon-richard-m, name:goldwater-barry-m, name:lodge-henry-cabot, name:rockefeller-nelson, name:romney-george-w, name:scranton-william-w]
   - id: cal.1964-04-05.goldwater
     when: Apr. 5
@@ -512,12 +517,13 @@ entries:
     thread: elections-1964
     also: [goldwater]
     c: 'Illinois primary. Republican: Goldwater over Smith, 512,840 to 209,521, 62.0 percent. Democratic: Johnson (write-in) over Wallace (write-in), 82,027 to 3,761, 91.6 percent.'
-    n: '[*Official Vote of the State of Illinois Cast at the General Election, November 3, 1964 ... General Primary, April 14, 1964*, 161](https://archive.org/details/officialvoteof1964illi/page/n166). CQ Guide 6th (2010) 406. [[w.white-suite-3505]], 305–06 (the preference vote; nearly forty of the forty-eight district delegates for Goldwater). See [[cal.1964-03-10.elections-1964]]. Names: Goldwater, Wallace, Johnson, Smith. Check: White, 305–06, gives Goldwater nearly 509,000, Smith more than 209,000.'
+    n: '[*Official Vote of the State of Illinois Cast at the General Election, November 3, 1964 ... General Primary, April 14, 1964*, 161](https://archive.org/details/officialvoteof1964illi/page/n166). CQ Guide 6th (2010) 406. [[w.white-suite-3505]], 305–06 (the preference vote; nearly forty of the forty-eight district delegates for Goldwater); [[w.goldberg-barry-goldwater]], 188, 188 n.47 (Goldwater 63 percent, Smith 20; with the write-ins, Goldwater''s share 49 percent). See [[cal.1964-03-10.elections-1964]]. Names: Goldwater, Wallace, Johnson, Smith. Check: White, 305–06, gives Goldwater nearly 509,000, Smith more than 209,000.'
     src:
       c: 996f0b7a
       rows:
         - 'https://archive.org/details/officialvoteof1964illi/page/n166: all'
         - 'w.white-suite-3505 305–06: A'
+        - 'w.goldberg-barry-goldwater 188, 188 n.47: A'
     tags: [primary:1964-04-14, name:wallace-george-c, name:johnson-lyndon-b, name:smith-margaret-chase, name:goldwater-barry-m]
   - id: cal.1964-04-14.governors-il
     when: Apr. 14
@@ -904,6 +910,19 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt7/pdf/GPO-CRECB-1964-pt7-1-2.pdf#page=61: all'
         - 'w.mann-walls-of-jericho 415: all'
     tags: [name:talmadge-herman-e]
+  - id: cal.1964-04-21.goldwater
+    when: Apr. 21
+    date: '1964-04-21'
+    thread: goldwater
+    also: [elections-1964]
+    c: Goldwater wonders aloud how Johnson amassed a personal fortune in public service.
+    n: '[[w.goldberg-barry-goldwater]], 188; the quotation by the note from the *New York Times*, Apr. 21, 1964, 23 (188 n.46). Check: the day of the words. Names: Goldwater, Johnson.'
+    src:
+      c: 237d5341
+      rows:
+        - 'w.goldberg-barry-goldwater 188: all'
+        - 'via w.goldberg-barry-goldwater 188 n.46: all'
+    tags: [name:goldwater-barry-m, name:johnson-lyndon-b]
   - id: cal.1964-04-22.railroads
     when: Apr. 22
     date: '1964-04-22'
@@ -1418,11 +1437,13 @@ entries:
     thread: goldwater
     also: [elections-1964, press-and-broadcasting]
     c: 'Washington, the American Society of Newspaper Editors. Goldwater: "the published reports of my being out of the race are a bit premature"; "I''m beginning to know exactly how Harry Truman felt as he read the polls and the papers in 1948."'
-    n: '[[w.white-suite-3505]], 307. Names: Goldwater. Check: the day; White has it the week of the Illinois primary.'
+    n: '[[w.white-suite-3505]], 307; [[w.goldberg-barry-goldwater]], 188 (the supply lines into South Vietnam: "It could mean messing up some roads, hitting some depots, and stopping some shipping"). Names: Goldwater. Check: the day; White has it the week of the Illinois primary.'
     src:
       c: 7845bee9
       rows:
         - 'w.white-suite-3505 307: all'
+        - 'w.goldberg-barry-goldwater 188: ?'
+        - 'via w.goldberg-barry-goldwater 188 n.44: all'
     tags: [name:goldwater-barry-m, city:washington]
   - id: cal.1964-04.goldwater-2
     when: Apr.

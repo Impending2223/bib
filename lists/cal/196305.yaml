@@ -124,12 +124,13 @@ entries:
     thread: elections-1964
     also: [republican-party]
     c: Nixon announces he is leaving California for New York, to practice law; an apartment at 810 Fifth Avenue, the building of Rockefeller's.
-    n: '[[w.white-suite-3505]], 146; [[w.white-making-of-the-president-1969]], 43 (Bobst and Kendall; Mudge, Stern, Baldwin & Todd; five floors below Rockefeller). Names: Nixon, Rockefeller.'
+    n: '[[w.white-suite-3505]], 146; [[w.white-making-of-the-president-1969]], 43 (Bobst and Kendall; Mudge, Stern, Baldwin & Todd; five floors below Rockefeller); [[w.goldberg-barry-goldwater]], 171 (two days before Rockefeller''s marriage, Nixon leaves California for New York and a law practice). Names: Nixon, Rockefeller.'
     src:
       c: a3346d78
       rows:
         - 'w.white-suite-3505 146: all'
         - 'w.white-making-of-the-president-1969 43: ?'
+        - 'w.goldberg-barry-goldwater 171: A'
     tags: [name:nixon-richard-m, name:rockefeller-nelson, city:nyc]
   - id: cal.1963-05-02.alabama-birmingham
     when: May 2
@@ -268,7 +269,7 @@ entries:
     date: '1963-05-04'
     thread: elections-1964
     c: Rockefeller, divorced in 1962, marries Margaretta Fitler Murphy, divorced a month before.
-    n: '[[w.perlstein-before-the-storm]], 194–95; [[w.white-suite-3505]], 148 (the marriage, at Pocantico Hills); [[w.white-making-of-the-president-1965]], 77–80 (made known the day of the marriage; her divorce and the custody of her children). [[w.kabaservice-rule-and-ruin]], 66 (the marriage; a month after her divorce). To check: [[w.kramer-i-never-wanted-to]]; [[w.persico-imperial-rockefeller]]; [[w.smith-on-his-own-terms]]; [[w.novak-agony-of-the-g]]. See [[cal.1963-04-08.elections-1964]]. Names: Nelson Rockefeller, Margaretta Rockefeller.'
+    n: '[[w.perlstein-before-the-storm]], 194–95; [[w.white-suite-3505]], 148 (the marriage, at Pocantico Hills); [[w.white-making-of-the-president-1965]], 77–80 (made known the day of the marriage; her divorce and the custody of her children); [[w.goldberg-barry-goldwater]], 171 (May 4; Rockefeller telephones Goldwater at home; Happy Murphy, thirty-six, divorced a month before, her four children, three to twelve, left to her husband). [[w.kabaservice-rule-and-ruin]], 66 (the marriage; a month after her divorce). To check: [[w.kramer-i-never-wanted-to]]; [[w.persico-imperial-rockefeller]]; [[w.smith-on-his-own-terms]]; [[w.novak-agony-of-the-g]]. See [[cal.1963-04-08.elections-1964]]. Names: Nelson Rockefeller, Margaretta Rockefeller.'
     src:
       c: 2b749a89
       rows:
@@ -276,6 +277,7 @@ entries:
         - 'w.kabaservice-rule-and-ruin 66: A'
         - 'w.white-suite-3505 148: all'
         - 'w.white-making-of-the-president-1965 77–80: A'
+        - 'w.goldberg-barry-goldwater 171: all'
     tags: [name:rockefeller-nelson, name:rockefeller-margaretta-fitler]
   - id: cal.1963-05-04.alabama-birmingham
     when: May 4
@@ -1675,7 +1677,12 @@ entries:
     thread: opinion
     also: [elections-1964-polls]
     c: 'Gallup, May 8–13: Republicans'' choice for 1964: Goldwater 35, Rockefeller 30, Romney 22; others, no preference 13. Independents: Goldwater 33, Rockefeller 28. Goldwater''s first lead.'
-    n: '[[w.gallup-poll]], III, 1819. Names: Goldwater, Nelson Rockefeller, Romney.'
+    n: '[[w.gallup-poll]], III, 1819; [[w.goldberg-barry-goldwater]], 171 (Goldwater 35, Rockefeller 30, Romney 16, Goldberg''s figures). Check: Goldberg, 171, gives Romney 16 percent. Names: Goldwater, Nelson Rockefeller, Romney.'
+    src:
+      c: 755362ec
+      rows:
+        - 'w.gallup-poll III, 1819: all'
+        - 'w.goldberg-barry-goldwater 171: A'
     tags: [name:goldwater-barry-m, name:rockefeller-nelson, name:romney-george-w]
   - id: cal.1963-05-26.king
     when: May 26
@@ -2142,3 +2149,41 @@ entries:
         - 'via w.branch-parting-the-waters 806 n.3b: A'
         - 'via w.branch-parting-the-waters 806 n.4: A'
     tags: [name:king-martin-luther-jr, name:kennedy-john-f, name:levison-stanley-d]
+  - id: cal.1963-05.elections-1964-2
+    when: May
+    date: 1963-05
+    thread: elections-1964
+    also: [republican-party]
+    c: 'Prescott Bush (R-Conn.) on Rockefeller''s remarriage: "Have we come to the point in our life as a nation where the Governor of a great state—one who perhaps aspires to the nomination for President of the United States—can desert a good wife, mother of his grown children, divorce her, then persuade a young mother of four youngsters to abandon her husband and their four children and marry the Governor?"'
+    n: '[[w.goldberg-barry-goldwater]], 171. Check: the day and place. To check: "This Presidential Thing," *Time*, June 14, 1963, 26–27 (cited by [[w.goldberg-barry-goldwater]], 171 n.120). See [[cal.1963-05-04.elections-1964]]. Names: Prescott Bush, Rockefeller.'
+    src:
+      c: 6e093e28
+      rows:
+        - 'w.goldberg-barry-goldwater 171: all'
+        - 'via w.goldberg-barry-goldwater 171 n.120: all'
+    tags: [name:bush-prescott-s, name:rockefeller-nelson]
+  - id: cal.1963-05.conservative-movement
+    when: May
+    date: 1963-05
+    thread: conservative-movement
+    also: [elections-1964]
+    c: 'Schlafly, of the Illinois Federation of Republican Women, for Goldwater: "disgusted with Rockefeller. A man who has broken up two homes is not the kind we want for high public office."'
+    n: '[[w.goldberg-barry-goldwater]], 171. Check: the day. To check: Ralph de Toledano, *The Winning Side* (1963), 144 (cited by [[w.goldberg-barry-goldwater]], 171 n.119). See [[cal.1963-05-04.elections-1964]]. Names: Schlafly, Rockefeller.'
+    src:
+      c: f7ee4556
+      rows:
+        - 'w.goldberg-barry-goldwater 171: all'
+        - 'via w.goldberg-barry-goldwater 171 n.119: all'
+    tags: [name:schlafly-phyllis, name:rockefeller-nelson]
+  - id: cal.1963-05.elections-1964-3
+    when: May
+    date: 1963-05
+    thread: elections-1964
+    also: [goldwater]
+    c: 'Kennedy to Bradlee, of Goldwater: "The trouble is, if he''s the nominee, people will start asking him questions, and he''s so damn quick on the trigger that he will answer them. And when he does, it will be all over."'
+    n: '[[w.goldberg-barry-goldwater]], 178 ("as early as May 1963"). Check: the day. To check: [[w.bradlee-conversations-with-kennedy]], 230 (cited by [[w.goldberg-barry-goldwater]], 178 n.170). Names: Kennedy, Bradlee, Goldwater.'
+    src:
+      c: c3a24818
+      rows:
+        - 'w.goldberg-barry-goldwater 178: all'
+    tags: [name:kennedy-john-f, name:bradlee-benjamin-c, name:goldwater-barry-m]

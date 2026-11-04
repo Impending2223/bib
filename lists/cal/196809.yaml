@@ -292,7 +292,15 @@ entries:
     thread: governors
     also: [elections-1968]
     c: 'Arizona''s primaries. Governor, Democratic: Goddard, governor 1965–67, over Shields, 112,948 to 30,337, 73.4 percent; one other. Governor Williams unopposed. Senate, Hayden retiring: Elson, his administrative assistant, the Democrats'' nominee over Bob Kennedy, 95,231 to 41,397, 62.7 percent; Goldwater the Republicans''. In November Williams over Goddard, 279,923 to 204,075, 57.8 percent; Goldwater over Elson.'
-    n: 'Votes: [Wikipedia, "1968 Arizona gubernatorial election"](https://en.wikipedia.org/wiki/1968_Arizona_gubernatorial_election), from the canvasses; [Wikipedia, "1968 United States Senate election in Arizona"](https://en.wikipedia.org/wiki/1968_United_States_Senate_election_in_Arizona), from Our Campaigns. Check: [Ariz. *Official Canvass, Primary Election, September 10, 1968*](https://azmemory.azlibrary.gov/nodes/view/102664) and [*General Election, November 5, 1968*](https://azmemory.azlibrary.gov/nodes/view/102663) (bot-checked from here). Check: the Senate primary''s share: Wikipedia''s table gives Elson 95,231, Kennedy 41,397, and 62.7 percent, and no third candidate. To check: [[w.shermer-sunbelt-capitalism]]; [[w.goldberg-barry-goldwater]]; [[w.peirce-mountain-states-of-america]]. See [[cal.1966-11-08.governors-az]]. Names: Goddard, Williams, Hayden, Elson, Goldwater.'
+    n: 'Votes: [Wikipedia, "1968 Arizona gubernatorial election"](https://en.wikipedia.org/wiki/1968_Arizona_gubernatorial_election), from the canvasses; [Wikipedia, "1968 United States Senate election in Arizona"](https://en.wikipedia.org/wiki/1968_United_States_Senate_election_in_Arizona), from Our Campaigns. [[w.goldberg-barry-goldwater]], 253, 255 (Elson, thirty-eight, Hayden''s assistant, the nominee by default, the Udalls declining; Goldwater, unopposed, nearly as many votes; a week later the polls 61 to 31; in November by fifty thousand votes, 57 percent; both Senators Republican for the first time). Check: [Ariz. *Official Canvass, Primary Election, September 10, 1968*](https://azmemory.azlibrary.gov/nodes/view/102664) and [*General Election, November 5, 1968*](https://azmemory.azlibrary.gov/nodes/view/102663) (bot-checked from here). Check: the Senate primary''s share: Wikipedia''s table gives Elson 95,231, Kennedy 41,397, and 62.7 percent, and no third candidate. Check: the November count; the Clerk''s figures (elections/1968.yaml, p. 3) give Goldwater 274,607, Elson 205,338, 57.2 percent; Goldberg, 255, "by fifty thousand votes.". To check: [[w.shermer-sunbelt-capitalism]]; [[w.peirce-mountain-states-of-america]]. See [[cal.1966-11-08.governors-az]]. Names: Goddard, Williams, Hayden, Elson, Goldwater.'
+    src:
+      c: 0657558f
+      rows:
+        - 'https://en.wikipedia.org/wiki/1968_Arizona_gubernatorial_election: all'
+        - 'https://en.wikipedia.org/wiki/1968_United_States_Senate_election_in_Arizona: all'
+        - 'w.goldberg-barry-goldwater 253, 255: ?'
+        - 'via w.goldberg-barry-goldwater 253 n.64: all'
+        - 'via w.goldberg-barry-goldwater 255 n.77: all'
     tags: [state:az, name:goddard-samuel-p-jr, name:williams-jack, name:hayden-carl, name:elson-roy-l, name:goldwater-barry-m]
   - id: cal.1968-09-10.governors-ut
     when: Sept. 10
@@ -1055,7 +1063,14 @@ entries:
     date: '1968-09-30'
     thread: conservation
     c: 'Colorado River Basin Project Act signed, [82 Stat. 885](https://www.govinfo.gov/content/pkg/STATUTE-82/pdf/STATUTE-82-Pg885-3.pdf): the Central Arizona Project, the Colorado''s water to central and southern Arizona; no dams on the river between Glen Canyon and Hoover Dam without Congress (Check the terms). Johnson, with Hayden, Jackson, Aspinall and the Udalls: "Next to the air we breathe, water is our most precious resource." The National Water Commission created three days before.'
-    n: 'Remarks Upon Signing the Colorado River Basin Project Act, [1968–69 Pub. Papers 991](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=301) (Sept. 30, 1968). Statute (K–J Cong. II.J.2). To check: [[w.johnson-central-arizona-project-1918]]; [[w.reisner-cadillac-desert]]. Names: Hayden, Jackson, Aspinall, Stewart Udall, Morris Udall, Johnson.'
+    n: 'Remarks Upon Signing the Colorado River Basin Project Act, [1968–69 Pub. Papers 991](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=301) (Sept. 30, 1968). Statute (K–J Cong. II.J.2). [[w.goldberg-barry-goldwater]], 248 (the Central Arizona Project authorized, Hayden''s campaign; Goldwater''s lobbying, the Grand Canyon not harmed, a "personal favor"; the *Arizona Republic*: "WATER! WATER! WATER!"; some $1.3 billion). To check: [[w.johnson-central-arizona-project-1918]]; [[w.reisner-cadillac-desert]]. Names: Hayden, Jackson, Aspinall, Stewart Udall, Morris Udall, Johnson.'
+    src:
+      c: e56b1d24
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=301: all'
+        - 'w.goldberg-barry-goldwater 248: ?'
+        - 'https://www.govinfo.gov/content/pkg/STATUTE-82/pdf/STATUTE-82-Pg885-3.pdf: A'
+        - 'via w.goldberg-barry-goldwater 248 n.35: all'
     tags: [name:hayden-carl, name:jackson-henry-m, name:aspinall-wayne-n, name:udall-stewart-l, name:udall-morris-k, name:johnson-lyndon-b]
   - id: cal.1968-09-30.japan-and-korea-pueblo
     when: Sept. 30
@@ -1301,3 +1316,16 @@ entries:
       rows:
         - 'w.dobrynin-in-confidence 181: all'
     tags: [name:gromyko-andrei, name:dobrynin-anatoly, name:humphrey-hubert-h]
+  - id: cal.1968-09.goldwater
+    when: Sept.
+    date: 1968-09
+    thread: goldwater
+    also: [elections-1968]
+    c: 'Prescott, Ariz., as was his custom. Goldwater opens his Senate campaign: "The basic political question is whether individual men and women are to live free of force or the fear of force from aggressors in the world, from oppressors at home, or from transgressors in our streets." Johnson''s "no-win" war; the voting age at eighteen, a volunteer army. No debate with Elson.'
+    n: '[[w.goldberg-barry-goldwater]], 253–54; the *Arizona Republic*, Sept. 13, 1968, by the note (253 n.69). Check: the day. See [[cal.1968-09-10.governors-az]]. Names: Goldwater, Elson.'
+    src:
+      c: a6e64070
+      rows:
+        - 'w.goldberg-barry-goldwater 253–54: all'
+        - 'via w.goldberg-barry-goldwater 253 n.69: all'
+    tags: [name:goldwater-barry-m, name:elson-roy-l, state:az]

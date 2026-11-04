@@ -1703,6 +1703,14 @@ Rights in Conflict (Walker Report):
 - A poll, fall 1967, Johnson two points ahead of Stassen (Kabaservice, 230): the day and the pollster.
 - The by-work edges at 51 n.70, 87 n.61, 101 n.20, 172 n.46, 188 nn.133-136 stand a page beside the note's marker; those at 54 n.80, 59 n.110, 83 n.46, 210 n.73 at notes whose marker the text layer does not show: to verify against the book.
 
+### Goldberg, *Barry Goldwater* (batch 3, Nov. 4, 2026; notes/book-checks/goldberg-barry-goldwater.md)
+
+- The Passed over rows marked "a lead" (some forty, 1960-68, each with Goldberg's page and note): the book-check's "Passed over".
+- Eisenhower's telephone log, June-July 1964 (Appointment Book Series, Eisenhower Library; Goldberg 200 n.127): an entry a call.
+- Goldberg's notes rest heavily on the Barker History Center's Goldwater Collection, the Arizona Historical Foundation's Goldwater Papers (the Alpha File), the Hoover Institution's Kitchel, Brown and Free Society Association collections: none open here.
+- Persons named without a name entry: Dan Smoot, Elizabeth Churchill Brown, Jack Stewart, William Saufley, Gregory Shorey Jr.
+- The State convention entries of 1964 (Oklahoma, North Carolina, Texas) and Nixon's acceptance (Aug. 8, 1968) await Goldberg's cites.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
