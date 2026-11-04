@@ -1417,6 +1417,14 @@ Rights in Conflict (Walker Report):
 - Kennedy's letter to the chiefs of mission, 1961 (Ball 171; the day); Fowler Hamilton named to AID (184); the Cabinet Committee on Textiles and the defense mobilization finding (188-89); Herter and Blumenthal named, Nov. 1962 (198-99); the Balance of Payments Committee (204-05); Kennedy's press conference of July 17, 1963 (374; the Papers); Johnson's "devil's advocate" (384); Alsop's column of Nov. 23, 1964 (384: the paper and page); Clifford's statement of Dec. 29, 1968 (414: the occasion; the daybook's Sunday programs that day have Rostow and McGovern, not Clifford); Ball's promise to Humphrey (451).
 - Sources not held: Weintal and Bartlett, *Facing the Brink* (1967), and Abel, *The Missile Crisis* (1966), cited by Ball and by Rusk's list of works (Rusk, 641), have no cards; Radvanyi, *Delusion and Reality* (1978), neither.
 
+### Humphrey, *The Education of a Public Man* (batch 3, second run, Nov. 4, 2026; notes/book-checks/humphrey-education-of-a-public-1976.md)
+- The test-ban resolution with Dodd: its day in the Record, 1963 (memoir 253; Solberg 218).
+- Russell's closing speech on the clergy, June 1964: the Record's day (282).
+- A cabinet meeting June 16 and a leaders' meeting June 20, 1966, Humphrey present (343): the Daily Diary.
+- The signing at Mexico City, Apr. 1, 1968? (359 and its note): the Protocol to the Treaty of Tlatelolco; the *Bulletin*.
+- Nixon's offer of the UN to Humphrey at Opa-locka, Nov.–Dec. 1968 (432–33): the day.
+- Detroit Economic Club and the black ministers, 1968 (397–98); San Francisco and Alioto (492 n.8): the days.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its

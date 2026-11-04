@@ -6,8 +6,11 @@ the merger copies them here, by date, until the daily list is built. A line each
 
 date | outlet | broadcast, front page or cover | the items, clipped | source, page
 
+1960-03 | Joseph Alsop's column | column | door-to-door poll at Wausau: Humphrey "lucky" to get a hundred votes | Humphrey, *Education of a Public Man*, 208
 1964-11-23 | Joseph Alsop's column | column | Ball's dissent; "Ball's knowledge of Asia could be comfortably contained in a fairly small thimble" | Ball, *The Past Has Another Pattern*, 384
 1965-07 | *Life* | picture | Ball in tears at Stevenson's memorial service (Check: the issue) | Ball, *The Past Has Another Pattern*, 152
 1965-11 | (a news photograph) | photograph | Rusk at Montevideo, the spit dubbed into the negative | Rusk, *As I Saw It*, 571–72
+1966-02 | *New York Times* (Wicker) | dispatch | the Bangkok communiqué filed first | Humphrey, *Education of a Public Man*, 332
 1967-09 | *Time* | cover | Peggy Rusk's wedding to Guy Smith (Check: the issue) | Rusk, *As I Saw It*, 581
 1968-02 | the papers, nationally | front pages (by Rusk's account) | Rusk to Scali at a backgrounder: "Whose side are you on?" | Rusk, *As I Saw It*, 477
+1968-11 | wires, two reporters | dispatch | a secret meeting with Johnson guessed, the White House called (the visit now dated Oct. 19, `cal.1968-10-19.elections-1968`) | Humphrey, *Education of a Public Man*, 404 n.
