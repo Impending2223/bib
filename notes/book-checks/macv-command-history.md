@@ -474,3 +474,199 @@ first written here as "Passed over" and moved.
 - The Honolulu conferences of Sept. 28 and Dec. 10 (Sharp and Westmoreland): chronology only; FRUS 1964–68, III.
 - The Marble Mountain and Chu Lai attacks of Oct. 27: chronology only.
 - The 1966 volume (the DMZ, Attleboro, Masher, Crimp) was not among the copies: a Sources to Fetch item.
+
+
+# Second run (Nov. 3-4, 2026): the 1967 and 1968 volumes
+
+The batch-3 reader resumed (notes/briefs/batch3-resume.md). The 1964 and 1965 volumes were not reopened in this run: their
+leftovers (1964: the RVNAF memorandum of Dec. 17, Big Squirt, Lazy Dog; 1965: the chapters beyond those read) stand as
+listed above, for the next. No patch for them was written (`-1964-2`, `-1965-2` not made). The owner's copies were
+fetched through Drive's public download address (no sharing changed), into the scratchpad, each deleted when its volume
+was done, with its page images and text. Read by each copy's text layer (DTIC's OCR), its dated paragraphs extracted a
+chapter at a time; where the layer was garbled (the 1968 chronology) the page images were read by tesseract 5 (installed
+for the run); figures and dates a ruling rests on read off the page image (the pages named under each volume).
+
+Patches: `inbox/2026-11-03-b3-macv-1967-2.yaml` (338 new entries; 16 cites, 5 claim-map rows and 3 Checks on entries in
+the tree) and `inbox/2026-11-03-b3-macv-1968-2.yaml` (76 new entries; 4 cites, 2 Checks). Both pass `./bib patch-check`
+(0 errors; the warnings are same-day, same-thread entries, distinct events, R17). Merged together into a scratch copy of
+the tree and checked there: 0 errors of their own; 76 same-day flags, each read, all distinct but four, which became
+cites (the Kép airfield, Apr. 24, 1967; the Tet truce, Jan. 29, 1968; Khe Sanh's abandonment announced, June 27, 1968;
+the rockets on Saigon, Aug. 22, 1968). Cards added to `works/m.yaml`: `w.macv-command-history-1967` (3 vols., 1968) and
+`w.macv-command-history-1968` (2 vols., 1969; the year of printing not read off the copy, Check).
+
+Witnesses (R35): for the 1967 volume, the notes of the pages cited in Chs. III, IV and V (the force decisions, the
+strategy, the ground, air and naval operations) registered: 178 new witnesses in `inbox/witnesses/2026-11-03-b3-macv-1967-2.yaml`
+(the messages, memoranda, letters, MONEVALs, SITREPs, plans and studies, each as the note gives it, its DTG read for the
+date; OCR's garbles of "Msg" and "COMUSMACV" normalized, other garbles left and marked), 179 edges in
+`sources/witnesses/by-work/macv-command-history-1967.yaml`; the via rows in the entries' maps. One existing witness
+taken (Westmoreland's "Force Requirements," Mar. 18, 1967). Not registered: the notes of the 1967 volume's Chs. II, III
+(RVNAF, advisers, Free World), VI-XII and the annexes, and all of the 1968 volume's: those entries cite the text alone,
+the notes a task for the next run. None of the witnesses is held or read here (MACV's message files are not open).
+
+## 1967 (`w.macv-command-history-1967`)
+
+- Part 1 (PDF 575 pp., vol. I, pp. 1-558): printed page = PDF page - 16 to p. 357, - 17 from p. 357 (PDF 374); text layer usable (DTIC's OCR).
+- Ch. I (1-12) read whole; Ch. III "United States Forces" 135-66 read (dated paragraphs, and 143-48 whole); Ch. IV 307-45 read (dated paragraphs; 336-38 whole).
+- Ch. V (349-558): ground (352-98), air (399-460), naval (461-505) read by their dated paragraphs; the page image checked on p. 357 (the copy carries it twice; 14,228 helicopter sorties). Ch. II (13-120) and Ch. III's RVNAF, advisory and Free World sections (167-306) read by their dated paragraphs. Notes registered as witnesses for the pages cited in Chs. III-V (by-work file); the notes of Ch. II and of Ch. III's later sections (pp. 167-306) not registered, their entries citing the text alone.
+
+### Rulings other than "holds" (the cites already made, and the records set against the History)
+
+| Entry | The calendar / the record | The History | Ruling |
+|---|---|---|---|
+| `cal.1967-01-26.vietnam-operations` | Cedar Falls, nearly 750 of the enemy dead | 720 (387; the chronology, 1256) | Check |
+| `cal.1967-12.vietnam-operations` | Westmoreland ends Fairfax (December) | the 199th ends it Dec. 14 (385) | Check |
+| `cal.1967-07-06.vietnam` | Nguyễn Chí Thanh dies of a sudden illness | Hanoi's broadcast of July 8, a heart attack; a notebook, killed in action; a report, wounded in an air strike (45) | Check |
+| `cal.1967-05-14.vietnam-operations` | Junction City's totals | 2,728 killed, 282 friendly (389-90) | cited for B-D |
+| `cal.1967-03-18.vietnam` | the request of Mar. 18 | the optimum and minimum forces in men (143-44) | cited for B-C, via n.17 |
+| new `nha-trang-conf` (Apr. 2) | | the text, 141, Apr. 3; 376 and the note's memorandum, Apr. 2 | dated Apr. 2, Check |
+| new `pd-9-67` (Oct. 20) | | the text Oct. 20, the note Oct. 29 | Check |
+| new `pershing-dec16` (Dec. 15) | | the text Dec. 16, the note's message Dec. 15 | dated by the message, Check |
+| new `pce08` (May 8) | | 466, May 8; 505, May 15 | Check |
+| new `coronado` (June 4) | | 395, June 4; 483, June 1 | Check |
+| new `bien-hoa-122` (May 12) | | 999, May 12; 417, May 13 | Check |
+| new `da-nang-jul` (July 15) | | 996, July 13; 79 and 1006, July 15 | Check |
+| new `11th-bde-qui-nhon` | | the port changed to Qui Nhơn, yet "arrived at Da Nang" (153) | Check |
+
+Page images checked: p. 357 (the copy carries it twice; Prairie's 14,228 helicopter sorties), p. 970 (the White House
+statement on prisoners, July 17), pp. 1057-58 (the Tet bonus, 700 million piasters; the 1968 defense budget, 62.6 and
+17.5 billion), p. 1076 (Practice Nine's highest priority, Jan. 13).
+
+### New entries
+
+338, a few of the chief: the force decisions (the Army ceiling, Mar. 31; the second airmobile division; the 101st's and
+the 11th Brigade's deployments; Task Force Oregon, Apr. 12, and the Americal, Sept. 22; Wheeler's analysis, Mar. 22;
+Sharp on Course A, May 12; Program 5 approved, Oct. 5; the Korean helicopters, Nov. 7); the strategy papers
+(Westmoreland's concept of Aug. 26 and Oct. 13, 1966; Sharp's of Sept. 28, 1966; AB 142 and AB 143; the command guidance
+of Jan. 24; Planning Directives 3-67 and 9-67; Southpaw and High Port; the reorientation of Sept. 28; the DMZ memorandum
+to Bunker, Oct. 4); the year's named operations, their starts, battle days and ends, in every corps, the Korean and
+riverine ones among them; the air war's decisions (the B-52 rates, U Tapao, the Haiphong prohibited area, the SLAMs,
+the Shock operations in Laos, Làng Vây's bombing in error, Mar. 2); the naval war (the gunboats and cutters, Sea Dragon
+extended, the first minefield, Feb. 26); the RVNAF's force structure and the allies' (the Canberras, Holt's 1,700, the
+Thai regiment, the Korean light division); pacification (CORDS, May 28; Bunker's announcement, May 11; Takeoff; the
+attack on the infrastructure, June 16); the prisoners (the White House statement, July 17; the releases); the barrier
+(Practice Nine to Dye Marker); the chronology's year (the Bolo battle, Jan. 2; Bernard Fall killed, Feb. 21; the
+elections; the strikes; Percy under fire, Dec. 11).
+
+### Passed over
+
+How the list was made: each chapter's dated paragraphs read in turn; what was not entered is a row, by page.
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 137 | 1967 | countermortar radars: USARV to review trade-offs for ten of the 90 radar detachments deferred | no date given (a lead: the note's messages, Apr. 25-Aug. 8) |
+| 139-40 | June 27 | USARV's request for more long-range artillery; the tubes allocated by corps | minor: an allocation; the passage only partly read |
+| 148 | Oct. 18 | MACV Force Development Conference discusses the civilianization schedule | minor: a meeting's routine |
+| 149 | Nov. 8 | CINCPAC asked to put the need for construction and O&M funds to the JCS and OSD | minor: a repetition (entered Sept. 29) |
+| 153 | Sept.; Oct. 14 | the smoke generator platoon for Dye Marker from Korea; the 62d Chemical Company alerted | lead: entered later if the barrier annex dates it |
+| 155-56 | Aug.; Nov. 16; Dec. 9-20 | the Army's program to standardize units' organization; a DA team's visit | minor: an office's routine |
+| 158-59 | Dec. 20 | long-range patrol units assigned to divisions and brigades | minor: an assignment table |
+| 162 | Apr. | a gasoline barge for NAVSUPPACT Saigon; the Game Warden helicopter squadron activated | minor: a unit's routine |
+| 164-66 | Jan.-Mar. | Seventh Air Force's aircraft and strength by month; the aircraft types introduced; the C-130s at Da Nang (CINCPAC, Mar. 22) | figures (in the book-check's war-table section); Mar. 22 minor |
+| 160 | early 1967 | the Marines' and the Vietnamese Marines' command relationship, "coordination and control" | no date given |
+| 98 | mid-July | the North Vietnamese 152mm howitzers and long-range guns on the Marines near the DMZ | entered (July 5, the first 152mm) |
+| 102 | Sept. 13; Nov. 9 | COSVN's double-agent school in Cambodia (a report); an enemy document captured on the reconnaissance of an American advisers' command post | a lead (a report's date "on or about"); minor (a document's capture) |
+| 109-11 | June-Aug.; Dec. 20 | the strikes on the northern rail lines; the year's vehicles, rolling stock and watercraft destroyed or damaged (5,261; 2,475; 11,425); SAM sites 151 to 270 | figures (for the war table) |
+| 82 | Nov. 13; Jan. 1968 | the enemy's District Coordination and Operation Committee to begin by Nov. 13, agents in Saigon by late January (a captured plan) | a lead: the document's own date not given |
+| 170-80 | Feb. 21; May; Aug. 2; Aug. 26; June 7 | unit messes; the commissary negotiations; the JGS leave directive; Westmoreland on veterans' priorities; the post-hostilities study filed | minor (an office's routine), but Aug. 26 a lead for the next run |
+| 181-83 | Dec. 13, 1966; Aug. 23 | Kỳ's decree making the Military Academy four years; Westmoreland visits it | not entered: a lead for the next run |
+| 193 | Mar. 3 | Westmoreland's reply on the general reserve battalions' employment | not entered: a lead for the next run |
+| 196-200 | July; July 26-Aug. 4; July 12; June | ARVN 2/1 Battalion kills 146 in Quảng Trị; the 7th Division's 234; Reserve Officer Candidate classes; the 9th Division's captains | not entered: leads for the next run |
+| 206 | Feb.; May 3; Oct. 15; Oct. 24 | the Vietnamese Marines in the Rừng Sát; a Vietnamese Marine officer to command; the battalion ashore in IV Corps; the 105mm battery | not entered: leads |
+| 211-15 | Feb. 25; Mar. 11; Mar. 18; Oct. 16 | the VNAF helicopter program; RF officer shortage; RF/PF allocations | minor (an office's routine) |
+| 223-44 | Apr. 26; Aug. 17; Nov. 6; June 3 | advisory spaces; VNAF strength accounting; RD refresher training; the IG advisers | minor (an office's routine) |
+| 248-79 | Jan. 3; Aug.; Nov. 29; Nov. | the Australian conference; PHILCAG II volunteers at Fort Magsaysay; the Thai division's training and deployment targets (Jan. 22 and July 15, 1968); the embassy at Manila on engineer battalions | Jan. 3 entered within Apr. 19; the rest leads for the next run |
+| 360-98 | many | each named operation's monthly progress between its start and end (Pershing's months; Fairfax's months, May 15, 20, 24; Shelby, Aug. 17; Ala Moana's later months; Coronado III, VI, VII, VIII; Malheur II) | entered where the History gives a start, a battle day or an end; the monthly summaries passed over as a unit's routine |
+| 399-460 | Jan.-Dec. | the air chapter's planning factors, sortie rates and Muscle Shoals helicopter planning (Nov. 20; Dec. 6, 21); the base-defense measures (early August); the airlift for Oregon and Greeley | minor (an office's routine) or figures |
+| 461-505 | Jan.-Dec. | Market Time's and Game Warden's month-by-month incidents (Jan. 1 Soài Rạp; May sappers and swimmers; June 13, 15); the Cửa Việt suspension, Nov. 30; the VNN schools, July 24 | a unit's routine the History does not treat as an event, except where entered |
+
+## 1968 (`w.macv-command-history-1968`)
+
+- Part 1 (PDF 676 pp., vol. I, pp. 1-568): the copy carries pp. 1-102 twice, PDF 19-120 a first, partial run (printed = PDF - 18), PDF 121-676 the whole volume (printed = PDF - 118 to p. 93, - 119 to p. 348, - 111 from p. 356, - 110 from p. 442, - 108 from p. 457; the folios read from the bare page numbers, the OCR's Z for 2). Read: Ch. II (the strategy, 5-36) and Ch. IV's United States forces (223-48) by their dated paragraphs; Ch. V's ground operations (371-401) by their dated paragraphs. Not read: Ch. III (the enemy, 37-216, the Tet and May offensives as MACV saw them), Ch. IV's RVNAF and Free World sections (249-370), Ch. V's air (402-40) and naval (441-518) operations, Ch. VI (pacification, 519-68). Notes not registered as witnesses (the entries cite the text).
+- Part 2 (PDF 560 pp., vol. II, pp. 569-1120): printed page = PDF page + 559, + 560 from PDF 219. Read: the chronology
+  (1025-66) whole, from tesseract's OCR of every page (the text layer unreadable), the day of an item read off the page
+  image where the OCR lost it (pp. 1026, 1038, 1048, 1053); Annex C (the Office of Information and the press, 935-96)
+  only skimmed in its garbled text layer, nothing entered from it. Not read: Chs. VII-XII (intelligence, PSYOP,
+  logistics, R&D, contingency plans and studies, special problems), Annexes A (Tet in retrospect), B (the barrier), D, E.
+
+### Rulings other than "holds"
+
+| Entry | The calendar | The History | Ruling |
+|---|---|---|---|
+| `cal.1968-03-16.vietnam` | Sơn Mỹ: Task Force Barker reports 128 of the enemy killed | the chronology records the day as the task force's search-and-destroy operation 9 km NE of Quảng Ngãi city, 128 enemy killed, 6 weapons; friendly 2 killed, 10 wounded (1038, read off the page image) | cited for A, E |
+| `cal.1968-01-29.vietnam-tet` | the Saigon announcement not made, the press office closed | Saigon's statement released at noon, Westmoreland concurring (376) | Check |
+| `cal.1968-01-08.vietnam` | Bowles in Phnom Penh, Jan. 8-12 | arrives Jan. 10 (1026) | Check |
+| `cal.1968-06-27.vietnam` | Check the day of the announcement | under June 27 (1051) | cited |
+
+### New entries
+
+76: the strategy and force papers (York I cancelled; Westmoreland's guidance of Feb. 4; his revised request of Mar. 31;
+Program 6, Apr. 6; the 27th Marines and the 82d's brigade ordered, Feb. 13; the 101st made airmobile), the year's
+operations not yet in, and the chronology's (the casualty-withholding policy, Feb. 26; "search and destroy" dropped,
+Apr. 12; censorship lifted, May 30; Carroll's accreditation, July 27; LeMay's visit, Oct. 16; the Tet totals, Feb. 29;
+Khe Sanh's resupply, Apr. 8; the province chiefs dismissed, Mar. 11).
+
+### Passed over
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 5-36 | Jan. 1968; Mar. 31; Aug. 19; Nov. 1; mid-Aug. and Sept. 1967 | the State of the Union and Johnson's speeches quoted; the strategy of 1967 retold | already in |
+| 374-76 | Nov. 1; Jan. | the bombing halt's terms; the Tet truce debate | already in (the halt), or entered (Jan. 29) |
+| 378-401 | many | the other operations and battles of the year in each corps (Jeb Stuart's months, Lancaster II and Kentucky, Allen Brook, Mameluke Thrust, Burlington Trail, Maui Peak, Meade River, Lê Lợi; Patrick, Walker, Bolling, Maeng Ho 9, Byrd; Coburg, San Angelo, Saratoga, Wilderness, Toàn Thắng's battles of Aug. 18-19, 27-29, Sept. 5-8, 11, 12, 16, Oct. 6; the convoy ambush of Dec. 17; Coronado IX's end, Hop Tac I, Quyết Chiến's battles) | not entered in this run: leads, each with its page |
+| 1025-66 | many | the chronology's other items: the daily attacks by fire and ground attacks with their losses; the visits (Chapman, Beach, Sharp, McCain, Hyland, Nazzaro, Resor, Ignatius, Moorer, Foster, Weaver); the appointments (Eckhardt, Brownfield, Pearson, Baker, Corcoran, Forbes, Mildren, McLaughlin, Goodpaster, Momyer's departure, Wetherill, Schaefer, Cole, Clay, Townsend, Timothy); the records and firsts (the 786th plane lost; the IL-28; the first 120mm and 107mm rockets in new areas; the first F-111A losses; the O-1V Bronco; the first ASPB lost); the Paris talks' sessions; Kham Duc; Hương's government; the bombing halt; Speedy Express; the releases of prisoners (May, Aug. 2, Dec.); Cambodia's seizures of the *Bream* and the LCU | not entered in this run (most already in the calendar or minor by R18 as a unit's routine); the rest leads, each with its page |
+| 935-96 | Feb. 9; Feb. 19; Mar. 4; Mar. 7; Apr. 12; Apr. 19; May 6; Sept. 30 | the press annex: the *Christian Science Monitor* on the press and the military; the *Washington Post*'s photographs, "A Drink of Water--Then Death"; Westmoreland on a *Los Angeles Times* article; 649 accredited correspondents; the casualty-reporting change recommended to Sharp; Delaware embargoed; the "pep talk"; the *Tampa Tribune*'s editorial | a lead: the text layer garbled, the pages to be read off the images |
+
+## The press (Nov. 3-4)
+
+1967-10-07 | CBS | — | the soldier's attempt at Lai Khê, filmed by John Smith for Don Webster (the incident) | 965
+1967-10-09 | CBS Evening News | broadcast | Webster's ear-cutting report; Sevareid's comment | 965
+1967-10 | Newsweek | article | "Their Lions--Our Rabbits," on the South Vietnamese army | 961
+1967-11-14 | UPI | wire | Hochmuth's death, against the embargo | 963
+1967-11-28 | UPI | wire | Alvin B. Webb Jr.: McConnell on bombing in Laos | 965
+1967-11-28 | New York Times | story | Westmoreland said to recommend Walt as Commandant | 965
+1967-10-10 | Saigon Daily News | front page | the northeast monsoon's arrival | 362
+- Part 2 (PDF 518 pp., vol. II, pp. 559-1068): printed page = PDF page + 549 throughout. Chs. VI (pacification), VII (PSYOP), VIII (logistics), X (morale, discipline, press, prisoners, security), XI (J5 studies), XII (economy) read by their dated paragraphs, Ch. VIII and VII by a keyword skim of them; Ch. IX (R&D) skimmed. Page images checked: p. 970 (the White House statement of July 17), pp. 1057-58 (the Tet bonus, 700 million piasters; the 1968 defense budget, 62.6 and 17.5 billion). Notes of vol. II not registered as witnesses (the entries cite the text).
+| 564-76 | July 12, 1966; Dec. 31, 1966; Nov. 7 and 21, 1966; Sept. 1966; Dec. 13, 1966; Dec. 29, 1966 | Thắng made Commissioner General of RD; the Ministry reorganized; MACV's RD Support Directorate; Lodge announces the Office of Civil Operations; the HES approved; the sector security directive | already in, or 1966 matters the 1966 volume treats: leads for its reader |
+| 569-70 | 1965 | the pacification councils and plans of 1965 (AB 139-141) | history before the year; leads |
+| 595 | early July | Westmoreland launches Project Takeoff | within the entry of May 8 |
+| 600-26 | mid-June; June-Dec. | the ten high-impact actions; the refugee and police programs' months; the detention facilities | minor (an office's routine), the figures for the next run |
+| 643, 646, 680-92 | July 5; May; 1966-67 | the PSYOP study; the semiannual appraisals; the Chiêu Hồi campaigns' figures | minor (an office's routine) |
+| 669-72 | May 30, 1966; 1967 | the saga of Nguyễn Văn Bé, the NLF hero Hanoi's press had mourned, shown alive in his hamlet | a lead: the day of his return not read (the passage garbled in the text layer) |
+| 710-60 | Jan.-Dec. | the supply system's months, the POL tankage, the munitions lists (Mar. 6), the Beehive round (April), property disposal, the highway program, the ports' waiting ships | minor (an office's routine), figures |
+| 731-38 | Jan. 10; Jan. 18; May 31; Aug. 16; Sept. 2 | the M16's issue: USARV on rescinding the suspension; CINCPAC on the Koreans' rifles; Westmoreland's field comments; the Koreans' excess weapons; 5,000 more for the RVNAF | leads for the next run (the M16 entered Feb. 21, Mar. 10, Apr. 27) |
+| 789-98 | July 17; Jan. 9; June | the Saigon dial exchange; the 24th Evacuation Hospital at Long Bình; the hospital ship *Sanctuary* | minor |
+| 897-958 | 1967 | morale and welfare, R&R, discipline and crime | not read beyond a skim: a lead for the next run |
+| 984-93 | Jan. 31; Apr. 22; May; Aug. 23; April | the camps' construction; the work advisory detachment; the press's visit to two camps | minor; the press visit a lead (the day) |
+| 1024-29 | 1967 | J5's studies: Crystal Ball (firearms, internal security), the casualties after a bombing halt, the force at negotiations, a token withdrawal, operations in Cambodia, US forces into Laos, Cambodian rice | undated in the text: leads (the notes' dates) |
+| 1039-62 | mid-Oct.; Dec. 30; Sept. 7-8; Jan. 31; Feb. 25; Apr. 6; June 30 | the Fall Stabilization Review; the embassy on piaster rates; the piaster workshop; the defense budget's steps; the military banking facilities (Chase Manhattan at Long Bình) | minor (an office's routine), but the Dec. 30 cable a lead |
+- Part 3 (PDF 281 pp., vol. III, pp. 1069-1340): printed page = PDF page + 1059 throughout. Annex K (the command chronology, 1255-85) read whole; Annex A (the barrier, 1069-1114) by its dated paragraphs; Annex F (visitors, 1199-1201) read, its tables (1202-06) not legible in the text layer. Page image checked: p. 1076 (Johnson's approval of Practice Nine, Jan. 13). Annexes B (civilian casualties), C (Montagnards), D (international political developments and the constitution), E, H, I (the list of operations), J not read: the next run.
+| 1255-85 | many | the chronology's other items: the operations launched with their losses (Seine, Ma Doo I, Sierra, Farragut, Desoto, Independence, Gadsden, Lanikai, Chinook II, Kitty Hawk, Prairie III, Newcastle, Adams, Le Jeune, Oh Jac Kyo II, Manhattan, Shawnee, Crockett, Barking Sands, Thunder Dragon, Hop Tac, Billings, Malheur II, Fremont, Ardmore, Coronado II/Song Thang III, Pike, Cochise, Coronado IV, Swift, Dragon Fire, Wheeler, Coronado V, Bolling, Shenandoah II, Santa Fe I, Strike/Uniontown, Klamath Falls, Camden); the commanders' changes (Peers, Tolson, Hay, Palmer, Davidson, Darrow, Davis, Knowlton, Lathram, Forsythe, House, Bolton, Momyer's promotion); the firsts and records (sorties, the O-2, the A-37, Gunship II, the Cobra, the A-7A, the containership *Bienville*, the PACVs, Sydney as an R&R center); the visits (Greene, Harold Johnson, Bradley, Taylor, Sharp, Humphrey, the Lodge observers) | not entered in this run: leads, each with its day and page (1255-85), for the next |
+| 1199-1201 | Apr. 26; May 26 | MACV Directive 1-5 on official visits; CINCPAC's country-clearance message | minor (an office's routine); the Schwengel-Cowger delegation's complaint a lead (no date) |
+1968-02-26 | MACV | announcement | casualties and damage to be withheld when the tactical situation dictates | 1035
+1968-04-12 | MACV | announcement | "search and destroy" dropped | 1043
+1968-05-30 | Saigon | decree | all press censorship lifted | 1048
+1968-07-27 | MACV | announcement | John S. Carroll of the *Baltimore Sun*, accreditation revoked six months | 1053
+
+## Leads (Nov. 3-4)
+
+National
+- Annex C of the 1968 volume (the Office of Information and the press, pp. 935-96): its dated incidents (above), to be
+  read off the page images. The 1967 volume's "Press and Public Opinion," 959-69: the Washington meeting on public
+  support (no date given); Westmoreland's instruction that TV crews be escorted (no date given).
+- Propose Part III entries for the press figures named here without one: Don Webster (CBS), Osborn Elliott
+  (*Newsweek*), John S. Carroll (*Baltimore Sun*), Alvin B. Webb Jr. (UPI); the History treats each.
+- The congressional delegation of Schwengel and Cowger and its complaint to the press (1967 vol., 1201): no date given.
+
+Foreign
+- The 1967 volume's J5 studies (1024-29), undated in the text: Crystal Ball, the casualties after a bombing halt, a
+  token withdrawal, operations in Cambodia, American forces into Laos, Cambodian rice; their dates in the notes.
+- The saga of Nguyễn Văn Bé (1967 vol., 669-72): the day of his return to his hamlet.
+- The 1967 volume's Annexes B (civilian casualties), C (the Montagnards), D (international political developments and
+  the constitution), I (the list of operations); the 1968 volume's Annexes A (Tet in retrospect) and B (the barrier) and
+  its Chs. III, VI-XII: not read.
+- Kỳ's decree making the Military Academy a four-year school, Dec. 13, 1966 (1967 vol., 181); Westmoreland's reply on
+  the general reserve battalions, Mar. 3, 1967 (193).
+- The 1966 volume (still not among the copies).
+
+The Executive roster
+- MACV's staff and commanders by date, from the chronologies (1967, 1255-85; 1968, 1025-66) and the 1967 volume's Annex H
+  (1207): the J-staff and field commanders' changes, not in the roster.
