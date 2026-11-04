@@ -207,3 +207,50 @@ distinct (`./bib resolve ID --take keep`).
 - The Republican Governors Association's meeting of summer 1967 (Kabaservice, 207–8, 211): the date and place.
 - Persons named without a name entry: Bruce Chapman, George Gilder, Emil Frankel, Josiah Lee Auspitz, Tanya Melich, Robert
   D. Behn, Edward Failor, William Prendergast, John R. Price (of Ripon), Michael C. Smith, Saul Alinsky, Newt Gingrich.
+
+## The second run (Nov. 3-4, 2026)
+
+Patch `inbox/2026-11-03-b3-kabaservice-2.yaml` (b3-kabaservice-2), 8 new entries; witnesses
+`inbox/witnesses/2026-11-03-b3-kabaservice-2.yaml` (33 rows, 4 amendments); edges added to
+`sources/witnesses/by-work/kabaservice-rule-and-ruin.yaml` (130).
+
+The copy downloaded again (same file, offset 23); pp. 159, 166 and 231 checked against the page images.
+
+The witnesses of R35: the conversion of Nov. 3 made witnesses of the records the first run logged, but left out the
+studies, memoirs, collections and oral histories the notes cite. The notes of chs. 1-8 were parsed (1,030 notes), each
+note's marker found on its page, and every note on a page the calendar cites that names a study by page was registered:
+an edge to the card where the catalogue holds the work (Rusher, White's *Suite 3505*, Novak, Gilder and Chapman, Hess and
+Broder, Persico, Cannon, Dallek, Critchlow and others), else a row of its own (`kind: study`, `memoir`, `oral history`;
+`open: not held`): Galvin, Lamb in Tillett, Remini, Brownstein, Smith's *Dewey*, Meyer, Liebman, Curtis and Westerfield,
+Desmond, Greenfield, Barr, Reich, Bagley, Stevens, Judis, Daughen and Binzen, Whitman, Lewis, Buckley's *Flying High*,
+Schlafly's *Safe—Not Sorry*, Ripon's *Lessons of Victory*, Nofziger's oral history; the press items of those notes too.
+Notes that only point to general reading ("See ...", "a useful overview") were not registered. Four rows the conversion
+had made of a catalogued work's page (Hayden's *Reunion*, Holton, Morris; White's memoir, filed as `press`) are amended to
+passages of their cards (`part_of`, `pin`) or to `memoir`. The earlier run's edges at 51 n.70, 87 n.61, 101 n.20, 172 n.46 and 188 n.133-136 stand at a page beside the one
+the note's marker is on (52, 88, 102, 171, 189); those at 54 n.80, 59 n.110, 83 n.46 and 210 n.73 at notes whose
+marker the text layer does not show: left as written, for the next reader of the file.
+
+Rows of the first run's Passed over taken up under the rules now in force (R13, the press; R9, the parties' allied
+groups):
+
+| page | event | entry |
+|---|---|---|
+| 153 | Stigler, "The Problem of the Negro," *New Guard*, Dec. 1965 | cal.1965-12.conservative-movement |
+| 159 | the *New York Times*, "New Jersey Nonsense," Aug. 9, 1965 | cal.1965-08-09.governors |
+| 165-66 | the *Herald Tribune*'s last issue, Apr. 23, 1966 | cal.1966-04-23.press-and-broadcasting |
+| 166 | Whitney to Eisenhower, Aug. 22, 1966 | cal.1966-08-22.press-and-broadcasting |
+| 196 | Buckley and Gilder at Goldwater's, Feb. 1967 | cal.1967-02.conservative-movement |
+| 231 | Reston, "New Haven: God and War at Yale," Apr. 26, 1967 | cal.1967-04-26.war-opposition |
+| 229 | Reston, "The Calmest Voice in the Capitol," Feb. 10-11, 1968 | cal.1968-02-10.elections-1968-2 |
+| 237 | Reston, "The Final Irony of Death," June 10, 1968 | cal.1968-06-10.elections-1968-3 |
+
+The rest of that table stands: Womey, Gerald A. Smith, Crangle, Lawrence and Beal, Woods, Pillsbury and Dionne write
+without a public role (R7); Gregory at Yale and Smith in VISTA are out of the brief.
+
+### Passed over (second run)
+
+| page | date | event | why |
+|---|---|---|---|
+| 159 | Aug. 1965 | Dumont demands that Hughes fire Genovese; Hughes refuses | a lead: no day (the *Times*, Aug. 12, 1965, 159 n.163) |
+| 166 | 1966 | Price takes Greeley's portrait from the editorial room | minor |
+| 230 | fall 1967 | a poll, Johnson two points ahead of Stassen | a lead: no day or pollster |
