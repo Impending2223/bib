@@ -1404,6 +1404,11 @@ Rights in Conflict (Walker Report):
 - Findlay, *Church People in the Struggle*, cited by Mann, 412, for the vigil and the Georgetown convocation: no card.
 - Van Dyk's memorandum to Humphrey on the Vice Presidency, 1964 (Eisele, 197–98, cited by Mann, 433): the date.
 
+### White, *The Making of the President 1960* (batch 3, Oct. 29, 2026; notes/book-checks/white-making-of-the-president.md)
+- The Oct. 12 Quemoy speech (White, 292 n.4): which of the day's APP documents carries it.
+- Gallup's readings White gives (250, 264, 319–20), to be set against *The Gallup Poll*, vol. III.
+- Section 315, "June 27th" (White, 282): a vote in Congress that day? The *Record*.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its

@@ -28,11 +28,12 @@ entries:
     date: '1960-06-02'
     thread: elections-1960
     c: 'Williams, governor of Michigan, for Kennedy, after Kennedy''s visit to his summer home on Mackinac Island, Mich.: 42 more of the State''s 51 votes. Before it, Sorensen with Williams and the State''s Democratic leaders, at the State convention in May; a questionnaire in forty-one parts for Kennedy to answer in writing.'
-    n: '[[w.sorensen-kennedy]], 148–49. Names: Williams, Kennedy, Sorensen. Check: the day of the Michigan convention.'
+    n: '[[w.sorensen-kennedy]], 148–49; [[w.white-making-of-the-president]], 138–39 (Kennedy from San Francisco, June 1, and the Textile Workers'' endorsement in Chicago the morning of June 2; Mackinac Island; Williams''s announcement on the ferry). Names: Williams, Kennedy, Sorensen. Check: the day of the Michigan convention.'
     src:
       c: b0f2953c
       rows:
         - 'w.sorensen-kennedy 148–49: all'
+        - 'w.white-making-of-the-president 138–39: all'
     tags: [name:williams-g-mennen, name:kennedy-john-f, name:sorensen-theodore-c]
   - id: cal.1960-06-06.governors-ia
     when: June 6
@@ -83,7 +84,7 @@ entries:
     date: '1960-06-08'
     thread: elections-1960
     c: 'Rockefeller, in a statement: those taking control of the Republican Party have not made clear where it is heading. A program of his own, defense first; Nixon asked to state his. Emmet Hughes its author.'
-    n: '[[w.young-two-suns-of-the]], 27 (defense; Nixon asked to state his views; Young gives no day). [[w.kallina-kennedy-v-nixon]], 88 (a June statement, his candidacy renewed). [[w.gifford-center-cannot-hold]], 46–48. [[w.kabaservice-rule-and-ruin]], 27 (an early-June statement: an action program for growth, civil rights and defense). Check the wording against the text (*New York Times*, June 9, 1960). To check: [[w.smith-on-his-own-terms]]; [[w.persico-imperial-rockefeller]]; [[w.gellman-president-and-the-apprentice]]; [[w.white-making-of-the-president]]; Washington Post, Apr. 8, 1960; Washington Post, May 26, 1960; New York Times, May 26, 1960; Ann Whitman to Eisenhower, June 9, 1960, Eisenhower Library; memorandum of conversation, Eisenhower and Rockefeller, June 11, 1960, Eisenhower Library (cited by [[w.kallina-kennedy-v-nixon]], 88 n.20); New York Herald Tribune, June 9, 1960 (cited by [[w.gifford-center-cannot-hold]], 46 n.67); Emmet Hughes to Rockefeller, May 31, 1960, Rockefeller Papers, RG 4, Series G, Subseries 3, Box 26, Folder 308, Rockefeller Archive Center (cited by [[w.gifford-center-cannot-hold]], 48 n.70). Names: Rockefeller, Nixon, Emmet Hughes.'
+    n: '[[w.young-two-suns-of-the]], 27 (defense; Nixon asked to state his views; Young gives no day); [[w.white-making-of-the-president]], 183–84 (the statement, quoted; a nine-point program; Hinman''s warning that it would cost him the nomination). [[w.kallina-kennedy-v-nixon]], 88 (a June statement, his candidacy renewed). [[w.gifford-center-cannot-hold]], 46–48. [[w.kabaservice-rule-and-ruin]], 27 (an early-June statement: an action program for growth, civil rights and defense). Check the wording against the text (*New York Times*, June 9, 1960). To check: [[w.smith-on-his-own-terms]]; [[w.persico-imperial-rockefeller]]; [[w.gellman-president-and-the-apprentice]]. Names: Rockefeller, Nixon, Emmet Hughes.'
     src:
       c: 40640b72
       rows:
@@ -98,6 +99,8 @@ entries:
         - 'via w.gifford-center-cannot-hold 46 n.67: A-C'
         - 'via w.gifford-center-cannot-hold 48 n.70: D'
         - 'w.kabaservice-rule-and-ruin 27: A-B'
+        - 'w.white-making-of-the-president 183–84: A-C'
+        - 'via w.white-making-of-the-president 183 n.text: A, C'
     tags: [name:rockefeller-nelson, name:nixon-richard-m, name:hughes-emmet-john]
   - id: cal.1960-06-08.economy-debt-limit
     when: June 8
@@ -259,6 +262,29 @@ entries:
     c: 'Tokyo. Zengakuren students force their way into the Diet''s grounds; a woman student, Kanba Michiko, killed, some 600 hurt. June 16: Kishi''s cabinet asks that the President''s visit be put off. Eisenhower, in Manila, agrees.'
     n: 'FRUS 1958–60, XVIII, docs. [181](https://history.state.gov/historicaldocuments/frus1958-60v18/d181), [182](https://history.state.gov/historicaldocuments/frus1958-60v18/d182), [183](https://history.state.gov/historicaldocuments/frus1958-60v18/d183), [184](https://history.state.gov/historicaldocuments/frus1958-60v18/d184) (Eisenhower to Kishi). See [[cal.1960-01-19.japan-and-korea]]. Names: Kishi, Eisenhower, Kanba.'
     tags: [name:kishi-nobusuke, name:eisenhower-dwight-d, name:kanba-michiko]
+  - id: cal.1960-06-16.democratic-party
+    when: June 16
+    date: '1960-06-16'
+    thread: democratic-party
+    also: [elections-1960]
+    c: New York. The DeSapio–Prendergast leadership leaves Lehman, once the State's governor, off its delegation to the national convention.
+    n: '[[w.white-making-of-the-president]], 141. Names: DeSapio. Check: the day; White has it the morning of Wagner''s reception for Kennedy.'
+    src:
+      c: 204f0de3
+      rows:
+        - 'w.white-making-of-the-president 141: all'
+    tags: [name:desapio-carmine, state:ny, city:nyc]
+  - id: cal.1960-06-16.elections-1960
+    when: June 16
+    date: '1960-06-16'
+    thread: elections-1960
+    c: 'New York, the lawn of Gracie Mansion. Wagner''s reception for Kennedy: the reform Democrats on one side, the Tammany leaders on the other, in line to shake his hand.'
+    n: '[[w.white-making-of-the-president]], 141. See [[cal.1960-06-16.democratic-party]]. Names: Wagner, Kennedy.'
+    src:
+      c: 113babce
+      rows:
+        - 'w.white-making-of-the-president 141: all'
+    tags: [name:wagner-robert-f-jr, name:kennedy-john-f, state:ny, city:nyc]
   - id: cal.1960-06-18.japan-and-korea-far-east
     when: June 18–19
     date: '1960-06-18'
@@ -449,6 +475,29 @@ entries:
         - 'https://www.nga.org/wp-content/uploads/2026/03/1960_Annual_Meeting-compressed.pdf#page=171: all'
         - 'w.sundquist-politics-and-policy 305: C'
     tags: [name:eisenhower-dwight-d, name:rockefeller-nelson, name:brown-edmund-g, name:hollings-ernest-f]
+  - id: cal.1960-06-27.elections-1960
+    when: June 27
+    date: '1960-06-27'
+    thread: elections-1960
+    c: Kennedy to Montana's State convention, the last of the conventions choosing delegates.
+    n: '[[w.white-making-of-the-president]], 142–43. See [[cal.1960-06-16.elections-1960]]. Names: Kennedy. Check: the place.'
+    src:
+      c: 293d7cbc
+      rows:
+        - 'w.white-making-of-the-president 142–43: all'
+    tags: [name:kennedy-john-f, state:mt]
+  - id: cal.1960-06-27.elections-1960-2
+    when: June 27–29
+    date: '1960-06-27'
+    thread: elections-1960
+    also: [republican-party]
+    c: New York. William Brinton of San Francisco, organizer of the Citizens for Rockefeller in California, asks Rockefeller's staff, June 27, for leave to start a national Draft Rockefeller movement; June 28, they let him go ahead, with no formal authority from them. June 29, he has his San Francisco office made its headquarters.
+    n: '[[w.white-making-of-the-president]], 186. See [[cal.1960-06-08.elections-1960]]. Names: Rockefeller.'
+    src:
+      c: 7ae6c476
+      rows:
+        - 'w.white-making-of-the-president 186: all'
+    tags: [name:rockefeller-nelson]
   - id: cal.1960-06-28.specials
     when: June 28
     date: '1960-06-28'
@@ -719,3 +768,49 @@ entries:
         - 'w.sundquist-politics-and-policy 304 n.48: A'
         - 'w.sundquist-politics-and-policy 305: B'
     tags: [name:saltonstall-leverett, name:flemming-arthur-s]
+  - id: cal.1960-06.elections-1960-6
+    when: June
+    date: 1960-06
+    thread: elections-1960
+    also: [democratic-party]
+    c: Early June. James Doyle, who has held the Stevenson volunteers in check from Madison, Wis., is brought to Washington and announces a Draft Stevenson movement. By late June, Draft Stevenson clubs in forty-two States; full-page advertisements in New York's papers, the first drawing $40,000.
+    n: '[[w.white-making-of-the-president]], 123. See [[cal.1960-05.elections-1960]]. Names: Stevenson. Check: the day.'
+    src:
+      c: a4ce2a9f
+      rows:
+        - 'w.white-making-of-the-president 123: all'
+    tags: [name:stevenson-adlai-e]
+  - id: cal.1960-06.democratic-party-2
+    when: June
+    date: 1960-06
+    thread: democratic-party
+    also: [elections-1960]
+    c: The week after June 16. Albany, N.Y. New York's delegation to the national convention, polled, 87 of 114 for Kennedy. Kennedy does not attend.
+    n: '[[w.white-making-of-the-president]], 141. See [[cal.1960-06-16.elections-1960]]. Names: Kennedy. Check: the day.'
+    src:
+      c: 15db8c94
+      rows:
+        - 'w.white-making-of-the-president 141: all'
+    tags: [name:kennedy-john-f, state:ny]
+  - id: cal.1960-06.elections-1960-10
+    when: June
+    date: 1960-06
+    thread: elections-1960
+    c: 'Brown, unsettled after his evening with Monroney and Sharon, telephones Stevenson in New York. Stevenson: not a candidate; he will endorse nobody, deal with nobody, stop nobody.'
+    n: '[[w.white-making-of-the-president]], 125. See [[cal.1960-05.elections-1960]]. Names: Brown, Stevenson, Monroney. Check: the day.'
+    src:
+      c: b5a27792
+      rows:
+        - 'w.white-making-of-the-president 125: all'
+    tags: [name:brown-edmund-g, name:stevenson-adlai-e, name:monroney-almer-s]
+  - id: cal.1960-06.elections-1960-11
+    when: June
+    date: 1960-06
+    thread: elections-1960
+    c: 'Libertyville, Ill., Stevenson''s lawn, some weeks before the Congo''s collapse, to White. The summit''s collapse the end of a "panorama of stupidity"; an Atlantic community; Russian troops to be got out of central Europe; Quemoy and Matsu perhaps relinquished for a renunciation of force and a plebiscite on Formosa. Then a call from New York: Mrs. Roosevelt will ask him to declare himself; he will not.'
+    n: '[[w.white-making-of-the-president]], 119–22 (White''s interview). Names: Stevenson, Eleanor Roosevelt. Check: the day.'
+    src:
+      c: 480aac14
+      rows:
+        - 'w.white-making-of-the-president 119–22: all'
+    tags: [name:stevenson-adlai-e, name:roosevelt-eleanor]
