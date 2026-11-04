@@ -191,6 +191,17 @@ entries:
         - 'w.jones-bay-of-pigs 32: E'
         - 'via w.jones-bay-of-pigs 32 n.2a: E'
     tags: [name:dennison-robert-l, name:dillon-c-douglas, name:castro-fidel, name:bonsal-philip-w]
+  - id: cal.1960-10-10.elections-1960-2
+    when: Oct. 10
+    date: '1960-10-10'
+    thread: elections-1960
+    c: Kennedy to NBC and ABC, by telegram, on a fifth debate. The staffs' negotiations come to nothing; his telegrams and statements on Nixon's refusal run to the campaign's end.
+    n: '[Telegram to NBC and ABC on Fifth Debate](https://www.presidency.ucsb.edu/documents/telegram-from-senator-john-f-kennedy-nbc-and-abc-fifth-debate) (Oct. 10, 1960; APP, not read: the day); [Statement on Fifth Debate, Dayton, Ohio](https://www.presidency.ucsb.edu/documents/statement-senator-john-f-kennedy-fifth-debate-dayton-ohio) (Oct. 17); [Telegram to Nixon on Fifth Debate](https://www.presidency.ucsb.edu/documents/text-telegram-vice-president-richard-m-nixon-from-senator-john-f-kennedy-fifth-debate) (Oct. 23); [Telegram, Hazleton, Pa., to Nixon on Fifth Debate](https://www.presidency.ucsb.edu/documents/telegram-from-senator-john-f-kennedy-hazleton-pa-vice-president-richard-m-nixon-fifth) (Oct. 28). [[w.sorensen-kennedy]], 206 (the call, the negotiations, the telegrams; no days). Names: Kennedy, Nixon.'
+    src:
+      c: 12ebae36
+      rows:
+        - 'w.sorensen-kennedy 206: all'
+    tags: [name:kennedy-john-f, name:nixon-richard-m]
   - id: cal.1960-10-11.conservative-movement
     when: Oct. 11
     date: '1960-10-11'
@@ -501,14 +512,17 @@ entries:
     when: Oct. 17
     date: '1960-10-17'
     thread: elections-1960
-    c: Springfield, Ohio, Wittenberg College. Kennedy on ethics in government, Sorensen's draft, written in Washington the day before.
-    n: 'Speech of Senator John F. Kennedy, Wittenberg College Stadium, Springfield, Ohio, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-wittenberg-college-stadium-springfield-ohio) (Oct. 17, 1960). [[w.white-making-of-the-president]], 324–25. See [[cal.1960-10-01.elections-1960]]. Names: Kennedy, Sorensen.'
+    c: Springfield, Ohio, Wittenberg College. Kennedy on ethics in government, Sorensen's draft, written in Washington the day before. "Campaign contributions will not be regarded as a substitute for training and experience for diplomatic positions."
+    n: 'Speech of Senator John F. Kennedy, Wittenberg College Stadium, Springfield, Ohio, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-wittenberg-college-stadium-springfield-ohio) (Oct. 17, 1960). [[w.white-making-of-the-president]], 324–25 (Sorensen''s draft); [[w.sorensen-kennedy]], 174 (the speech and the pledge; of twenty-seven noncareer chiefs of mission appointed, twenty no known contributors). See [[cal.1960-10-01.elections-1960]]. Names: Kennedy, Sorensen.'
     src:
-      c: 29a898b6
+      c: 1e1eecea
       rows:
         - 'https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-wittenberg-college-stadium-springfield-ohio: A'
-        - 'w.white-making-of-the-president 324–25: all'
+        - 'w.white-making-of-the-president 324–25: A-B'
+        - 'w.sorensen-kennedy 174: A, C'
+        - 'via x.1960-10-17.kennedy-speech-wittenberg-college: C'
     tags: [name:kennedy-john-f, name:sorensen-theodore-c]
+    aliases: [cal.1960-10-17.elections-1960-3]
   - id: cal.1960-10-18.court
     when: Oct. 18–19
     date: '1960-10-18'
@@ -1421,3 +1435,36 @@ entries:
         - 'w.solberg-hubert-humphrey 213: all'
         - 'via w.solberg-hubert-humphrey 213 n.politics: all'
     tags: [name:peterson-p-kenneth, name:humphrey-hubert-h, name:kennedy-john-f, state:mn]
+  - id: cal.1960-10.elections-1960-9
+    when: Oct.
+    date: 1960-10
+    thread: elections-1960
+    c: Feldman, in Washington, obtains copies of the USIA's secret surveys of American prestige abroad, from a source outside the agency; the Administration had refused them to Congress. Kennedy gives them to the *New York Times*, which prints them without saying how they were had. An Eisenhower aide asks Allen of the USIA for a statement that prestige is at a record high; Allen refuses.
+    n: '[[w.sorensen-kennedy]], 203–04. Names: Feldman, Kennedy, Eisenhower. Check: the day; the *Times*''s story.'
+    src:
+      c: 0762c0db
+      rows:
+        - 'w.sorensen-kennedy 203–04: all'
+    tags: [name:feldman-myer, name:kennedy-john-f, name:eisenhower-dwight-d]
+  - id: cal.1960-10.elections-1960-10
+    when: Oct.
+    date: 1960-10
+    thread: elections-1960
+    c: 'Hyannis Port, one long October day. Kennedy''s strategy session with the whole top team from Washington: to identify Nixon with Republicanism, not with Eisenhower.'
+    n: '[[w.sorensen-kennedy]], 187. Names: Kennedy. Check: the day.'
+    src:
+      c: 73a7a1ee
+      rows:
+        - 'w.sorensen-kennedy 187: all'
+    tags: [name:kennedy-john-f]
+  - id: cal.1960-10.elections-1960-11
+    when: Oct.
+    date: 1960-10
+    thread: elections-1960
+    c: 'The closing weeks. Puerto Rico''s Catholic bishops direct the island''s Catholics to vote against Governor Muñoz Marín and his Popular Democratic Party: birth control instruction, common-law marriage, religious education. Denver''s Methodist bishop: "I shall not mark my ballot for a Roman Catholic candidate." Kennedy to Sorensen: "If enough voters realize that Puerto Rico is American soil, this election is lost."'
+    n: '[[w.sorensen-kennedy]], 209 (Puerto Rico votes for Muñoz Marín, n.9). Names: Kennedy, Sorensen. Check: the day of the letter.'
+    src:
+      c: fd6c46ba
+      rows:
+        - 'w.sorensen-kennedy 209: all'
+    tags: [name:kennedy-john-f, name:sorensen-theodore-c]

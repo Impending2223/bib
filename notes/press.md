@@ -7,6 +7,7 @@ the merger copies them here, by date, until the daily list is built. A line each
 date | outlet | broadcast, front page or cover | the items, clipped | source, page
 
 1960-03 | Joseph Alsop's column | column | door-to-door poll at Wausau: Humphrey "lucky" to get a hundred votes | Humphrey, *Education of a Public Man*, 208
+1960-10 | *New York Times* | front page? | the USIA's prestige surveys, printed without saying how obtained | Sorensen, *Kennedy*, 203–04
 1964-11-23 | Joseph Alsop's column | column | Ball's dissent; "Ball's knowledge of Asia could be comfortably contained in a fairly small thimble" | Ball, *The Past Has Another Pattern*, 384
 1965-07 | *Life* | picture | Ball in tears at Stevenson's memorial service (Check: the issue) | Ball, *The Past Has Another Pattern*, 152
 1965-11 | (a news photograph) | photograph | Rusk at Montevideo, the spit dubbed into the negative | Rusk, *As I Saw It*, 571–72

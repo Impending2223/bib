@@ -1433,6 +1433,10 @@ Rights in Conflict (Walker Report):
 - The writers' press conference against Humphrey, 1966 (*Esquire*, Nov. 1966, 106).
 - The rows of the book-check's Passed over marked "to enter" and "month only": 23 events the next run should enter; and the studies the notes cite for pp. 298–407, not yet edges in `sources/witnesses/by-work/solberg-hubert-humphrey.yaml` (pp. 510–526 to read by eye).
 
+### Sorensen, *Kennedy* (batch 3, second run, Nov. 4, 2026; notes/book-checks/sorensen-kennedy.md)
+- Truman's "go to hell" remark and Nixon's rebuke, Oct. 1960 (193; the day and place); Ramsey Pollard's statements for Nixon, 1960 (194); the New York speech on Quemoy and Matsu, Oct. 8–12, 1960 (204; the daybook's APP rows of Oct. 12); the *Times*'s story on the USIA surveys, Oct. 1960 (203; `cal.1960-10.elections-1960-9`); the *Times*'s story on eastern Kentucky, fall 1963 (404); the Federal Reserve's cut in margin requirements, July 1962 (424; its record; `cal.1962-07.economy-4`); Kennedy's television interview the week before the Bay of Pigs (296; `cal.1961-04.cuba-bay-of-pigs-6`); Burke's speech of Jan. 1961 (286; its text and the day); the Kennedy–Blough meeting of Sept. 1961 (445).
+- Still passed over, no month given: Kennedy on Nixon's hospital stay and Scott's Truth Squad (185); Eisenhower's refusal to brief Stevenson and Bowles ("those early weeks", 176); the NAE and Reformation Sunday (195); Explorer, the Mercury failure and the B-70 money (208). The foreign chapters (XII–XIII, XIX–XXVI) to read page by page for the informal record (R7).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
