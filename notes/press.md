@@ -158,8 +158,10 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-03-03 | *Los Angeles Times* |  | Judge Coleman's suspensions in the Stokes case | Branch, *Pillar of Fire*, 604 n.
 1965-07 | *Life* | picture | Ball in tears at Stevenson's memorial service (Check: the issue) | Ball, *The Past Has Another Pattern*, 152
 1965-07-12 | *Newsweek*, Emmet John Hughes | item | "An Untold Tale" | Smith, *On His Own Terms*, 473 n.
+1965-09-24 | Joseph Alsop's column | column | the B-52s in South Vietnam, the press "favorably impressed" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1965 vol., 193
 1965-11 | (a news photograph) | photograph | Rusk at Montevideo, the spit dubbed into the negative | Rusk, *As I Saw It*, 571–72
 1965-11-05 | *World-Telegram and Sun*, Kempton | item | "Lindsay and Rockefeller" (entered) | Smith, *On His Own Terms*, 474
+1965-11-26 | *Saigon Daily News* | story | the Republic of China's two C-46s for the VNAF | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1965 vol., 73 n.285
 1966 | *Syracuse Post-Standard* | item | Medicaid "insane, fiscally irresponsible ... New York's Gigantic Giveaway" | Smith, *On His Own Terms*, 484 (as the *New Leader*, Apr. 8, 1968, quotes it)
 1966-01-09 | New York Times | front page | "8,000 G.I.'s Open Biggest Attack of Vietnam War" (Crimp), start withheld from the South Vietnamese | Branch, *At Canaan's Edge*, 415
 1966-01-10 | *Hattiesburg American* | front page | the attack on the Dahmers | Branch, *Pillar of Fire*, 606
@@ -208,17 +210,28 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1967-09 | *Time* | cover | Peggy Rusk's wedding to Guy Smith (Check: the issue) | Rusk, *As I Saw It*, 581
 1967-09-05 | *New York Times* | p. 28 | Romney "brainwashing" | White, *Making of the President 1968*, 59
 1967-09-05 | the networks' evening news | broadcast | the Gordon clip | White, *Making of the President 1968*, 60
+1967-09-06 | Los Angeles Times | article | ordnance developed under Project Gunfighter (as MACV listed the unauthorized releases) | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 944
 1967-09-10 | *Detroit News* | Sunday editorial | Romney to quit | White, *Making of the President 1968*, 60
 1967-09-10 | *Detroit News* | item | Romney to quit for Rockefeller (in) | Smith, *On His Own Terms*, 497
+1967-09-14 | Washington Post | article | the limited supply of Walleyes | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 944
 1967-10 | *Time* | cover | Rockefeller and Reagan | White, *Making of the President 1968*, 60
+1967-10 | Newsweek | article | "Their Lions--Our Rabbits," on the South Vietnamese army | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 961
+1967-10-07 | CBS | — | the soldier's attempt at Lai Khê, filmed by John Smith for Don Webster (the incident) | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 965
+1967-10-07 | UPI | wire | the new CIDG camp at Bu Prang, before its announcement | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 945
+1967-10-09 | CBS Evening News | broadcast | Webster's ear-cutting report; Sevareid's comment | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 965
+1967-10-10 | Saigon Daily News | front page | the northeast monsoon's arrival | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 362
 1967-10-20 | *Time* | item | the cover, Rockefeller and Reagan (entered) | Smith, *On His Own Terms*, 498
 1967-11 | CBS | interview | Steve Rowan's taped interview with Westmoreland: the estimate of withdrawals | Westmoreland, *A Soldier Reports*, 231, 234
 1967-11 | *Washington Post* |  | Oberdorfer, "Statistics on War Fail to Prove Real Progress" | Berman, *Lyndon Johnson's War*, 118
+1967-11-14 | UPI | wire | Hochmuth's death, against the embargo | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 963
 1967-11-19 | *New York Times* |  | a "new chorus of official optimism" | Berman, *Lyndon Johnson's War*, 118
 1967-11-23 | *New York Times* | headline | Westmoreland "Sure of Victory"; Đắk Tô "Great Defeat for Foe" | Berman, *Lyndon Johnson's War*, 120
+1967-11-28 | UPI | wire | Alvin B. Webb Jr.: McConnell on bombing in Laos | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 965
+1967-11-28 | New York Times | story | Westmoreland said to recommend Walt as Commandant | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 965
 1967-12-17 | New York Times | front page | "A White Liberal Shift on Integration" | Branch, *At Canaan's Edge*, 663
 1967-12-21 | *New York Times* | front page | "Thieu, Disputing Johnson, Rejects Talks with Foe" | Berman, *Lyndon Johnson's War*, 123
 1967-12-24 | *New York Times* |  | Apple, "Johnson Backs Military Leaders More Firmly Than Ever" | Berman, *Lyndon Johnson's War*, 123-24
+1968-01-05 | CBS | broadcast | the embargo on Fargo broken, after an interview with the unit's commander | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 944
 1968-01-06 | New York Post | front page | "SPOCK INDICTED" | Branch, *At Canaan's Edge*, 668
 1968-01-13 | New York Times |  | "Dr. King Calls for Antiwar Rally in Capital" | Branch, *At Canaan's Edge*, 669
 1968-01-19 | New York Times | editorial page | Reston on the State of the Union, the "mutinous cries below decks" | Branch, *At Canaan's Edge*, 674
@@ -230,43 +243,73 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-02 | the papers, nationally | front pages (by Rusk's account) | Rusk to Scali at a backgrounder: "Whose side are you on?" | Rusk, *As I Saw It*, 477
 1968-02 | *Harper's*, Larry L. King | item | "The Cool World of Nelson Rockefeller" (made public, entered) | Smith, *On His Own Terms*, 498
 1968-02 | *Los Angeles Times* | story | Tuohy on MACV Forward, "blatantly speculative" by Westmoreland's account | Westmoreland, *A Soldier Reports*, 345
+1968-02 | New York Times | article | Joseph B. Treaster on aircraft shortages in the 1st Cavalry Division (a ground-rules case) | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 966
 1968-02-01 | *New York Times* | front page | the MPs behind the wall at the embassy, two dead Americans | Berman, *Lyndon Johnson's War*, 147
 1968-02-02 | Memphis Commercial Appeal |  | "Hambone's Meditations" on the drain workers | Branch, *At Canaan's Edge*, 685
 1968-02-02 | *Newsweek* |  | "Prometheus Bound" (the *Pueblo*) | Berman, *Lyndon Johnson's War*, 144
 1968-02-04 | New York Times | front page | "Clerics Accuse U.S. of War Crimes" | Branch, *At Canaan's Edge*, 687
+1968-02-09 | Christian Science Monitor | article | "The credibility gap ... starts right in Saigon at the official United States press briefings" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 955
+1968-02-09 | Los Angeles Times | article | "Marines along DMZ Disturbed at Report of Takeover by Army" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 960
+1968-02-12 | Newsweek | article | Everett G. Martin, "The Devastating Effect on the People" (cited, n.16) | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 993
 1968-02-18 | New York Times | front page | the Ford Foundation's turn to race; Bundy's annual report | Branch, *At Canaan's Edge*, 696
+1968-02-19 | Washington Post | front page | "A Drink of Water--Then Death," five columns, two photographs | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 958
 1968-02-23 | Memphis Commercial Appeal | front page | "Committee Surrenders but Loeb Holds Firm"; the cartoon of T. O. Jones | Branch, *At Canaan's Edge*, 699
 1968-02-25 | Washington Post |  | Harwood, "J. Edgar Hoover: A Librarian with a Lifetime Lease" | Branch, *At Canaan's Edge*, 708
 1968-02-25 | *New York Times* | page | Finney (Woods: Kenworthy), "McNamara Says Destroyers in Gulf of Tonkin Warned of Enemy"; "9 on Fulbright Panel Feel U.S. Over Reacted to Tonkin Attack" | Woods, *J. William Fulbright, Vietnam*, 170
+1968-02-26 | MACV | announcement | casualties and damage to be withheld when the tactical situation dictates | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1035
 1968-02-27 | CBS | broadcast | Cronkite, "mired in stalemate" (cal.1968-02-27.press-and-broadcasting) | Branch, *At Canaan's Edge*, 704
+1968-02/03 | AP | wire | John Wheeler on Khe Sanh's hill outposts | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 958-59
 1968-03 | *New York Times* | column (Reston), the first week | "the political system ... has broken down" | White, *Making of the President 1968*, 94–95
+1968-03 | Los Angeles Times | article | Bill Tuohy on the Marine leadership, "singularly unimpressive, say the critics" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 961-62
+1968-03-03 | Washington Post | article | (cited, n.21: the Khe Sanh reporting; Schlesinger and Alsop) | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 994
 1968-03-10 | *New York Times* | front page | "Westmoreland Requests 206,000 More Men" (cal.1968-03-10.vietnam) | Westmoreland, *A Soldier Reports*, 358
 1968-03-10 | *New York Times* | front page | Smith and Sheehan, the 206,000 (entered) | Berman, *Lyndon Johnson's War*, 184
 1968-03-13 | ABC | broadcast | Howard K. Smith's editorial for mobilization "on an overwhelming scale" | Branch, *At Canaan's Edge*, 710
 1968-03-16 | *New York Times* | p. 17 | a Dahmer murder conviction | Branch, *Pillar of Fire*, 610
 1968-03-17 | New York Times | front page | the official account of Mỹ Lai, "128 enemy soldiers" | Branch, *At Canaan's Edge*, 715
+1968-03-17 | Washington Star | article | Donald Kirk on the command arrangements in I Corps | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 963
 1968-03-19 | *New York Times* | front page | Rockefeller to declare | White, *Making of the President 1968*, 231
 1968-03-24 | New York Times |  | "Memphis Protest Avoids Violence," the Southern Regional Council's study | Branch, *At Canaan's Edge*, 730
 1968-03-29 | NBC Huntley-Brinkley | broadcast | King, "Nonviolence can be as contagious as violence"; Coby Smith of the Invaders | Branch, *At Canaan's Edge*, 738, 740
 1968-03-30 | New York Times | editorial page | against King's "descent on Washington" | Branch, *At Canaan's Edge*, 744
 1968-03-30/31 | Memphis Commercial Appeal; St. Louis Globe-Democrat | editorials | "King's Credibility Gap," "Chicken a la King"; "The Real Martin Luther King," from the FBI's material | Branch, *At Canaan's Edge*, 745
 1968-04-01 | *Newsweek* | item | the "rumors that periodically haunt Rocky's personal life" | Smith, *On His Own Terms*, 518
+1968-04-12 | MACV | announcement | "search and destroy" dropped | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1043
 1968-04-19 | *Washington Post* | item | "Rockefeller Speech Heard in Silence" | Smith, *On His Own Terms*, 528
+1968-04-21 | (Joseph Alsop) | column | the embargo on Delaware broken | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 964
 1968-04-23 | Washington Post | editorial page | "why not turn it around" | Branch, *At Canaan's Edge*, 744
+1968-05 | (Donald Kirk) | article | Westmoreland "convinced the press has impeded prosecution of the war" (the embargo of May 1) | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 964-65
 1968-05-17 | *New York Times* | item | "Governor Rockefeller: No Direct Answers" (Pittsburgh) | Smith, *On His Own Terms*, 530
 1968-05-18 | *Hattiesburg American* | front page | Bowers's mistrial | Branch, *Pillar of Fire*, 610
 1968-05-23 | *New York Post*, Evans and Novak | item | "The Reagan Strategy" | Smith, *On His Own Terms*, 531 n.
+1968-05-30 | Saigon | decree | all press censorship lifted | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1048
 1968-06-21 | *Newsweek* | item | "Rocky: Out of the Trance" | Smith, *On His Own Terms*, 533 n.
+1968-07-03 | New York Times | article | (cited, n.17) | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 993
 1968-07-20 | *New York Times* | p. 25 | a Dahmer murder conviction | Branch, *Pillar of Fire*, 610
 1968-07-27 | *Hattiesburg American* | front page | "Doctor Brings New Angle into Wilson Murder Trial" | Branch, *Pillar of Fire*, 710
 1968-07-27 | *Saturday Evening Post*, Roger Kahn | item | "On the Brink of Chaos," the sanitation strike | Smith, *On His Own Terms*, 507 n.
+1968-07-27 | MACV | announcement | John S. Carroll of the *Baltimore Sun*, accreditation revoked six months | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1053
 1968-07-28 | *Arkansas Gazette* | page | Bill Lewis, "Fulbright Faces Most Serious Challenge of His (24-Year) Career Tuesday" | Woods, *J. William Fulbright, Vietnam*, 177 n.69
+1968-07-28 | Baltimore Sun | article | Carroll's six-month suspension, "the most severe penalty"; "extraordinarily vindictive" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 967
 1968-07-29 | *New York Times* | p. 18 | a Dahmer murder conviction | Branch, *Pillar of Fire*, 610
+1968-07-29 | Baltimore Sun | article | at least four newsmen suspended; 23 discredited in several years | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 967-68
+1968-08-12 | Washington Post | article | Peter Braestrup on MACV's use of the B-52s | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 977
 1968-08-26 | *New York*, Elia Kazan | item | "Face to Face with the GOP" | Smith, *On His Own Terms*, 538
 1968-08-27 | Knight newspapers | story | McCarthy: chances zero (`cal.1968-08-27.press-and-broadcasting-3`) | White, *Making of the President 1968*, 282
 1968-08-27 | *New York Times* | page | Finney, "How Johnson Got the Vietnam Plank He Wanted" | Woods, *J. William Fulbright, Vietnam*, 178 n.74
 1968-08-28 | NBC | broadcast, 9:55 p.m. | the riot film over Stokes | White, *Making of the President 1968*, 302
+1968-09-02 | US News & World Report | article | Ben Price, "Did US Bungle Victory?" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 995
+1968-09-05 | Christian Science Monitor | article | Beverley Deepe on the Communists' criticism of their May offensive | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 982-83
 1968-09-07 | *Chicago Daily News* | article | Coffey's reconstruction | White, *Making of the President 1968*, 299 n.7
 1968-09-11 | *Charlotte Observer* | article | Jablow on Nixon's Southern strategy | White, *Making of the President 1968*, 326
+1968-09-13 | Christian Science Monitor | article | Deepe, "Chasing Credibility in Saigon" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 983
+1968-09-30 | Tampa Tribune | editorial | "A most outspoken editorial" (the text not read off the page) | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 983
+1968-10-06 | Chicago Daily News | article | (cited, n.38) | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 995
+1968-10-07 | Newsweek | column | Kenneth Crawford, "Vietnam: All is Lost?" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 987
+1968-10-13 | (wire or paper not named) | article | the Marines' new mobile posture from the Bến Hải to Khe Sanh | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 988
+1968-10-14 | Baltimore Sun; Christian Science Monitor | articles | (cited, nn.41-42) | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 995
+1968-10-27 | New York Times | article | (cited, n.43) | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 995
+1968-10-28 | Newsweek | column | Crawford, "It Started with Tet" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 987-88
 1968-11 | wires, two reporters | dispatch | a secret meeting with Johnson guessed, the White House called (the visit now dated Oct. 19, `cal.1968-10-19.elections-1968`) | Humphrey, *Education of a Public Man*, 404 n.
+1968-11-04 | US News & World Report | article | Sol W. Sanders, "Why Communists Need a Truce" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 995
 1968-12-29 | *New York Times Magazine* | article | Searle, "A Foolproof Scenario for Student Revolts" | White, *Making of the President 1968*, 219 n.8

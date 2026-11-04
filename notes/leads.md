@@ -1875,6 +1875,25 @@ Rights in Conflict (Walker Report):
 - Press figures for Part III (R13): Peter Lisagor (*Chicago Daily News*), Russell Baker (*New York Times*), Hedrick Smith, Ward Just (*Washington Post*), Don Oberdorfer (*Washington Post*), R. W. Apple (no name entry found), with this book and Oberdorfer's *Tet!*.
 - The CBS-Westmoreland Joint Exhibits and the Lawyers' Brief (passim): where a set is open (the LBJ Library's CBS Subpoena files are cited by case and document).
 
+### The MACV Command Histories, 1964, 1965, 1967, 1968 (batch 3, second runs, Nov. 3–4, 2026; notes/book-checks/macv-command-history.md)
+
+- Annex C of the 1968 volume (the Office of Information and the press, pp. 935-96): its dated incidents (above), to be
+  read off the page images. The 1967 volume's "Press and Public Opinion," 959-69: the Washington meeting on public
+  support (no date given); Westmoreland's instruction that TV crews be escorted (no date given).
+- Propose Part III entries for the press figures named here without one: Don Webster (CBS), Osborn Elliott
+  (*Newsweek*), John S. Carroll (*Baltimore Sun*), Alvin B. Webb Jr. (UPI); the History treats each.
+- The congressional delegation of Schwengel and Cowger and its complaint to the press (1967 vol., 1201): no date given.
+- Westmoreland's "Historical Briefings" (1965: Sept. 4, Oct. 3, 25, 31, Nov. 21) and his Honolulu notebook (Apr. 18,
+  Aug. 20, 1965), cited by the 1965 volume's notes: whether CMH or the LBJ Library holds them open.
+- Bob Hope's Christmas tour of 1964 (1964 vol., 20): the troupe's stops; the press.
+- Propose Part III entries (K–J Cong. III.J or Viet.) for the press figures the annex treats: Bill Tuohy (*Los Angeles
+  Times*), Donald Kirk (*Washington Star*), Peter Braestrup (*Washington Post*; a name entry wanted), John S. Carroll
+  (*Baltimore Sun*), Helen A. Musgrove (Jacksonville *Journal*), Joseph B. Treaster (*New York Times*), Gene Roberts
+  (*New York Times*), John Wheeler (AP), Everett G. Martin (*Newsweek*).
+- The 1968 volume's Annex C, its undated items: Gene Roberts's article on the press and the military; Wheeler's on Khe
+  Sanh; the Schlesinger-Alsop exchange; the *Tampa Tribune*'s editorial of Sept. 30 (983, not read off the page);
+  Clifford's message praising MACV's press work ("nine days later," 970).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2978,6 +2997,40 @@ CQ Weekly Report, 1968-08-30:
   1965 (125): the messages.
 - Westmoreland's letter to Khánh on the hostage captain, Sept. 1964 (79).
 
+### The MACV Command Histories, 1964, 1965, 1967, 1968 (batch 3, second runs, Nov. 3–4, 2026; notes/book-checks/macv-command-history.md)
+
+- The 1967 volume's J5 studies (1024-29), undated in the text: Crystal Ball, the casualties after a bombing halt, a
+  token withdrawal, operations in Cambodia, American forces into Laos, Cambodian rice; their dates in the notes.
+- The saga of Nguyễn Văn Bé (1967 vol., 669-72): the day of his return to his hamlet.
+- The 1967 volume's Annexes B (civilian casualties), C (the Montagnards), D (international political developments and
+  the constitution), I (the list of operations); the 1968 volume's Annexes A (Tet in retrospect) and B (the barrier) and
+  its Chs. III, VI-XII: not read.
+- Kỳ's decree making the Military Academy a four-year school, Dec. 13, 1966 (1967 vol., 181); Westmoreland's reply on
+  the general reserve battalions, Mar. 3, 1967 (193).
+- The 1966 volume (still not among the copies).
+- SEACOORD (1964 vol., 166-67, nn.61-64): Saigon 870 (Sept. 16), 913 (Sept. 19), State 727 (Sept. 25), Saigon 1080 (Oct.
+  10), 1415 (Nov. 6), 1964: not in the daybook's FRUS; the State files.
+- The television plan for South Vietnam (1964 vol., 76-77, 176): the Mission's TV subcommittee; its 1965 sequel.
+- The 1964 volume: the sector intelligence centers before Bình Giã and Đại Ngãi (39); the airfields' change "when the
+  25th Division" moved (114); Northern Toll (178); the radio retrofit (179); the RVNAF promotion study (26).
+- The 1965 volume: the PBRs' arrival (57); the Vietnamese Marines' five-year plan (70); the tailored corps concept, April
+  (96); the Washington meeting on combined command, mid-March (100); the 2d Signal Group and the 18th Engineer Brigade
+  (106); the Secretary of the Army's direction of Nov. 19 (115); the April reprogramming (125); "special strike zones"
+  (188); Saigon's 1966 defense budget approved Jan. 17, 1966 (132).
+- The *Muskingum* at Đà Nẵng, Oct. 30, 1964: what happened (the History has only CINCPACFLT's question).
+- 1968 vol., Ch. III: the weapons first found or used (106-19) and the terror incidents (140-48), each with its page;
+  the corps-by-corps attacks (155-95) not entered; the NLF's statement of Nov. 3 (40); Hanoi's flour request (52).
+- 1968 vol., Ch. IV: the weapons programs' approvals (261-70), the mobilization decrees (270-75), the RVNAF's units and
+  pay (281-308, 316-43); the Free World section (348-55) is not in the copy: another copy needed.
+- 1968 vol., Ch. V: Combat Lancer's F-111As (Apr. 5, 10); Capt. Gerald O. Young's rescue (431); the merchant ships
+  attacked in the channel to Saigon (Aug. 10-Dec. 4, 459-60); the Mobile Riverine Force's operations (466-72); Turnpike's
+  first day (407, the columns garbled); the Đức Lập battle's size (403 against the pending entry of Aug. 23).
+- 1968 vol., Ch. XI: New Castle, the prisoner study, the 142-page report, the cease-fire and verification studies, POSEC,
+  the Long Range Planning Task Group (783-95): their days and subjects in J-5's monthly histories (the notes).
+- 1968 vol., Ch. XII: the ICRC's telegram to Hanoi on 40 sick and wounded prisoners, Jan. 16 (859); Sgt. Buddy Wright's
+  escape, Sept. 22 (849).
+- The 1968 volume's unread chapters and annexes (above, "Where I stopped").
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
@@ -3026,3 +3079,8 @@ CQ Weekly Report, 1968-08-30:
 ### Westmoreland, *A Soldier Reports* (batch 3, second and third readings, Nov. 3–4, 2026; notes/book-checks/westmoreland-soldier-reports.md)
 
 - Wheeler's letter of late Dec. 1967 naming Westmoreland "the obvious candidate" for Chief of Staff (361).
+
+### The MACV Command Histories, 1964, 1965, 1967, 1968 (batch 3, second runs, Nov. 3–4, 2026; notes/book-checks/macv-command-history.md)
+
+- MACV's staff and commanders by date, from the chronologies (1967, 1255-85; 1968, 1025-66) and the 1967 volume's Annex H
+  (1207): the J-staff and field commanders' changes, not in the roster.
