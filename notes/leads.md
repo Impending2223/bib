@@ -1801,11 +1801,10 @@ Rights in Conflict (Walker Report):
 
 ### Zelizer, *The Fierce Urgency of Now* (batch 3, Nov. 4, 2026; notes/book-checks/zelizer-fierce-urgency-of-now.md)
 
-- The sixteen dated entries the book-check lists whose Zelizer citation was not located: read chs. 7–9 for them.
 - Oct. 29, 1963, the Judiciary Committee's vote: 23–11 (*Times*, Oct. 30) against the entry's 20–12; the committee's report.
 - Aug. 13 or Aug. 9, 1966, the House's passage of the civil rights bill: the Record.
 - The AMA's meeting with Johnson, late June or July 29, 1965: the Daily Diary.
-- Not read, or read in part: pp. 1–2; ch. 7, pp. 228–244, 248–262; ch. 8, pp. 263–269, 272–275, 277–278, 284–294, 296–298; ch. 9 and the epilogue, pp. 303–324. Passed over not kept row by row (R44, R48): for the next reader.
+- Not read: pp. 1–2 (chs. 7–9 and the epilogue read in the third run, Nov. 4, 2026; the sixteen cites not located: below, third run).
 
 ### Bernstein, *Guns or Butter* (batch 3, Nov. 3–4, 2026, the second and third runs; notes/book-checks/bernstein-guns-or-butter.md)
 
@@ -2003,6 +2002,33 @@ Rights in Conflict (Walker Report):
   ("Justice Jim"), Bobby K. Hayes, Winston G. Chandler, Kenneth G. Jones, Charles Bernard (Fulbright's opponents); Bill
   Darby, Jack Pickens, Witt Stephens (Arkansas); H. L. Hunt; Isadore Hamlin, Maurice Boukstein; R. B. McCallum; John
   A. Morsell.
+
+### Kotz, *Judgment Days* (batch 3, fifth run, Nov. 4, 2026; notes/book-checks/kotz-judgment-days.md)
+
+- `x.1963-10-28.office-of-director-oct-28-1963` and `x.1963-10-28.note-to-hoover-oct-28-1963` (both O&C file 24, Oct. 28, 1963): perhaps one paper; join them if a reader sees it.
+- The Sullivan to Belmont memorandum of Dec. 24, 1963: two rows (FK-NR, Branch; 100-3-116-684, Garrow); Kotz cites the King main file, sec. 7. Likewise Baumgardner to Sullivan, Jan. 8, 1964 (FSC-NR, Branch; FBIMLK sec. 7, Kotz).
+- The House Select Committee on Assassinations' hearings, vol. 6, print the FBI's King papers Kotz cites (131–32, 159–61): a printed source to find open.
+- The Pottinger Report (1977), its exhibits (Belmont to Tolson, Oct. 17, 1963, exhibit 13).
+- Press figures for Part III (R13): Robert S. Allen and Paul Scott (syndicated column).
+
+### Zelizer, *The Fierce Urgency of Now* (batch 3, third run, Nov. 4, 2026; notes/book-checks/zelizer-fierce-urgency-of-now.md)
+
+- The recordings this run names, not heard (Miller Center): Cook, May 14, 1966; Daley, Aug. 16, 1966; Douglas, Oct. 16, 1966; Humphrey, Dec. 31, 1966; Dirksen, Mar. 12 and Oct. 31, 1968; Fowler, Mar. 24, 1968; and those already registered (Wilkins, Goldberg, Wirtz, Reuther).
+- Works the notes cite without a card: Watson, *Lion in the Lobby*; Gould, *Grand Old Party* (2012); Mathias and Morris, "Fair Housing Legislation," *Cityscape* (1999); von Hoffman, "Let Us Continue" (2009); Hulsey, *Everett Dirksen and His Presidents*; Matusow, *The Unraveling of America*; Hayward, *The Age of Reagan*; Gould, *1968*.
+- The sixteen cites the third run could not locate (the book-check's table, "The sixteen cites not located before"): a reader with the book's index (pp. 383–404).
+- Press figures for Part III (R13): Ben A. Franklin, Gene Roberts, John Herbers (*New York Times*); Philip Potter (*Baltimore Sun*); Edwin Dale (*New Republic*, *Times*); Lyn Shepard (*Christian Science Monitor*).
+
+### Bernstein, *Guns or Butter* (batch 3, eighth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
+
+- The rows of the eighth run's Passed over marked "a lead".
+- The statutes of the National Council on the Arts and Cultural Development Act (Sept. 3, 1964) and the Hirshhorn act
+  (Nov. 7, 1966), and the House's vote of 1964 (213–135).
+- The Senate's vote on the arts and humanities bill, June 10, 1965.
+- The Social Security hearings of 1967 (Senate Finance, Aug. 22–Sept. 26), for Robert Kennedy's and Wiley's days.
+- Stanton's talk with Cater on the receiver tax (1967).
+- The Feb. 27, 1968 meeting at Rusk's dining room.
+- Propose Part III entries for Ripley, Stevens, Hirshhorn, Keeney, Heckscher, George Wiley, Elizabeth Wickenden, Maurice
+  Donahue (no name entries).
 
 ## Foreign
 

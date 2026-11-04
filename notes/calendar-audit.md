@@ -3,14 +3,14 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-17386 dated entries.
+17534 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1786 |
-| (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 144 |
-| Neither a bibliography of its own nor a `See [[id]]` back | 12 |
-| No primary record linked or named | 10510 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1813 |
+| (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 148 |
+| Neither a bibliography of its own nor a `See [[id]]` back | 13 |
+| No primary record linked or named | 10622 |
 | A primary record named but not linked | 282 |
 | Threads (statements listed for review) | 234 |
 
@@ -811,6 +811,9 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Power: Power, Thomas S. (K–J Adm. III.F)
 - `cal.1962-11-29.missile-crisis` (Nov. 29, XXXVI 196211.yaml): Kennedy with Mikoyan, Rusk, Thompson and Dobrynin present, 4:40 to 7:55 p.m., on Cuba: the declarations to clo
   - Sorensen: Sorensen, Theodore C. (K–J Adm. III.B); Sorensen, A. V. (K–J Cong. III.F); Sorensen, Philip C. (K–J Cong. III.K)
+- `cal.1962-11-29.program` (Nov. 29, XXXVI 196211.yaml): Kennedy on closed-circuit television to groups in 75 cities for the National Cultural Center's $30 million cam
+  - Bernstein: Bernstein, Carl (Wg. III.H)
+  - Anderson: Anderson, Rudolf, Jr. (K–J Adm. III.F); Anderson, George W., Jr. (K–J Adm. III.F); Anderson, Clinton P. (K–J Cong. III.B); Anderson, Forrest H. (K–J Cong. III.F); Anderson, John, Jr. (K–J Cong. III.F); Anderson, Sigurd (K–J Cong. III.F); Anderson, William G. (K–J Cong. III.H); Anderson, D. G. (K–J Cong. III.K); Anderson, Glenn M. (K–J Cong. III.K); Anderson, John B. (Opp. III.D, Cong. III.D); Anderson, Robert B. (Opp. III.E); Anderson, Jack (Cong. III.M, Wg. III.H)
 - `cal.1962-11-30.robert-kennedy` (Nov. 30, XXXVI 196211.yaml): Kennedy to Robert Kennedy on the black applicants to the University of Alabama: "Perhaps if we put this off un
   - Hays: Hays, Wayne L. (Cong. III.E)
 - `cal.1962-11.goldwater-2` (Nov., XXXVI 196211.yaml): Washington, Rockefeller's house on Foxhall Road. Goldwater and Rockefeller meet privately from time to time, H
@@ -1340,10 +1343,14 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
 - `cal.1963-11-25.assassination-5` (Nov. 25, XLVIII 196311.yaml): Katzenbach to Moyers, a memorandum: act now "to head off speculation or Congressional hearings of the wrong so
   - Oswald: Oswald, Lee Harvey (K–J Cong. III.K); Oswald, Marina (K–J Cong. III.K); Oswald, Robert (K–J Cong. III.K)
+- `cal.1963-11-25.king-2` (Nov. 25, XLVIII 196311.yaml): Robert Allen and Paul Scott, columnists, in the *Long Island Press*: Johnson and Robert Kennedy soon to face "
+  - Scott: Scott, Robert W. (K–J Cong. III.F); Scott, William J. (K–J Cong. III.F); Scott, David R. (K–J Cong. III.K); Scott, Hugh D., Jr. (Opp. III.B, Cong. III.A, Wg. III.I)
 - `cal.1963-11-26.succession` (Nov. 26, XLVIII 196311.yaml): The Elms, after the Mundt vote, by Humphrey's account. Johnson at dinner with Humphrey, Fortas, Valenti, Cliff
   - Mundt: Mundt, Karl E. (Opp. III.B)
   - Carter: Carter, Hodding, III (K–J Cong. III.K); Carter, Robert L. (K–J Cong. III.K); Carter, Vernon E. (K–J Cong. III.K); Carter, Asa (1968 III.L); Carter, Jimmy (Cong. III.H)
   - Roosevelt: Roosevelt, Franklin D., Jr. (K–J Adm. III.G); Roosevelt, James (K–J Cong. III.D); Roosevelt, Eleanor (K–J Cong. III.H)
+- `cal.1963-11-27.king` (Nov. 27, XLVIII 196311.yaml): Hoover to Robert Kennedy and O'Donnell: a statement under King's name for the *New York Herald Tribune* writte
+  - Jones: Jones, Walter B., Sr. (K–J Cong. III.D); Jones, J. Raymond (K–J Cong. III.K); Jones, Walter H. (K–J Cong. III.K); Jones, Jim (1968 III.A)
 - `cal.1963-11-29.assassination-3` (Nov. 29, XLVIII 196311.yaml): Johnson to Hoover by telephone, 1:40 p.m.: "whether [Oswald] was connected with the Cuban operation with money
   - Castro: Castro, Fidel (K–J Adm. III.J); Castro, Raúl (K–J Adm. III.J); Castro, Sal (K–J Cong. III.K)
 - `cal.1963-11-29.king` (Nov. 29, XLVIII 196311.yaml): King, interviewed by Donald H. Smith, a University of Wisconsin graduate student: "I think that we still have 
@@ -1359,6 +1366,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Richardson: Richardson, Gloria (K–J Cong. III.K); Richardson, Elliot L. (Adm. III.F, Wg. III.E); Richardson, John H. (Viet. III.C)
 - `cal.1963-12-02.vietnam-congress` (Dec. 2, XLIX 196312.yaml): Fulbright to Johnson, by telephone, evening: a settlement by negotiation, through a reconvened Geneva conferen
   - Mann: Mann, Thomas C. (K–J Adm. III.E)
+- `cal.1963-12-03.king-2` (Dec. 3, XLIX 196312.yaml): Hoover to Jenkins, of King's day: from New York to the Statler Hilton, where he confers at 9:30 a.m. with Clar
+  - Jones: Jones, Walter B., Sr. (K–J Cong. III.D); Jones, J. Raymond (K–J Cong. III.K); Jones, Walter H. (K–J Cong. III.K); Jones, Jim (1968 III.A)
 - `cal.1963-12-04.civil-rights-bill-2` (Dec. 4, XLIX 196312.yaml): The morning after Meany's ride, Johnson stops his limousine for Halleck and takes him to breakfast at the Whit
   - Meany: Meany, George (K–J Cong. III.I, 1968 III.D, Cong. III.L)
 - `cal.1963-12-07.press-and-broadcasting` (Dec. 7, XLIX 196312.yaml): *The New Republic*, Jean Daniel, "When Castro Heard the News": with Castro the day of the assassination, the f
@@ -1395,6 +1404,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1963-12.poverty` (Dec., XLIX 196312.yaml): Cannon of the Budget Bureau, by memorandum: ten demonstration areas, a "development corporation" in each to pl
   - Cannon: Cannon, Howard W. (K–J Cong. III.B); Cannon, Clarence (K–J Cong. III.D); Cannon, D. James (K–J Cong. III.K); Cannon, Paul (K–J Cong. III.K)
 - `cal.1963-12.desegregation-public-places` (Dec., late, XLIX 196312.yaml): The moratorium on demonstrations since the assassination ends in five Southern cities. Columbia, S.C., more th
+  - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
+- `cal.1963-12.program` (Dec., XLIX 196312.yaml): The Senate passes Kennedy's bill for a National Arts Foundation by voice vote. The House Rules Committee holds
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
 - `cal.1964-01-02.press-and-broadcasting` (Jan. 2, L 196401.yaml): Johnson to George Brown, in the hospital: no merger without a letter from Jones that the *Chronicle* will supp
   - Jones: Jones, Walter B., Sr. (K–J Cong. III.D); Jones, J. Raymond (K–J Cong. III.K); Jones, Walter H. (K–J Cong. III.K); Jones, Jim (1968 III.A)
@@ -2125,6 +2136,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Graham: Graham, Katharine (Cong. III.M, Wg. III.H)
 - `cal.1965-01.program` (Jan., LXII 196501.yaml): The Fish Room. Johnson to the departments' legislative men, Cohen among them: "every day while I'm in office, 
   - Fish: Fish, Hamilton, Jr. (Wg. III.G)
+- `cal.1965-01.program-3` (Jan., early in the year, LXII 196501.yaml): Sam Harris, Hirshhorn's lawyer, and Kampelman with Ripley: Hirshhorn "would want his name on the museum"; "On 
+  - Harris: Harris, Oren (K–J Cong. III.D); Harris, Louis (K–J Cong. III.J); Harris, Fred R. (1968 III.I)
 - `cal.1965-02-03.civil-rights-the-executive` (Feb. 3, LXIII 196502.yaml): DeLoach hand-delivers to Moyers a letter from Hoover on King's jail instructions to Andrew Young, learned from
   - Jones: Jones, Walter B., Sr. (K–J Cong. III.D); Jones, J. Raymond (K–J Cong. III.K); Jones, Walter H. (K–J Cong. III.K); Jones, Jim (1968 III.A)
 - `cal.1965-02-04.king` (Feb. 4, LXIII 196502.yaml): King, in jail, to Andrew Young: ask Greenberg of the Legal Defense Fund to Selma to weigh Judge Thomas's order
@@ -2320,6 +2333,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Ribicoff: Ribicoff, Abraham A. (K–J Adm. III.G); Ribicoff, Abraham (1968 III.N)
 - `cal.1965-05-21.school-aid` (May 21, LXVI 196505.yaml): Education and Labor reverses its subcommittee and restores the student loans, 13 to 12, after the White House 
   - Bernstein: Bernstein, Carl (Wg. III.H)
+- `cal.1965-05-21.program` (May 21, LXVI 196505.yaml): Lady Bird Johnson's luncheon for the Hirshhorns, Ripley, Stevens, Harris and Fortas. Stevens: the museum about
+  - Harris: Harris, Oren (K–J Cong. III.D); Harris, Louis (K–J Cong. III.J); Harris, Fred R. (1968 III.I)
 - `cal.1965-05-26.vietnam-congress` (May 26, LXVI 196505.yaml): Johnson to Moyers by telephone: "I don't want the President's employees to be subject to committees"; "Just li
   - Roosevelt: Roosevelt, Franklin D., Jr. (K–J Adm. III.G); Roosevelt, James (K–J Cong. III.D); Roosevelt, Eleanor (K–J Cong. III.H)
 - `cal.1965-06-02.states-and-cities` (June 2, LXVII 196506.yaml): Bogalusa, La. O'Neal Moore, one of the first two Negro deputies of Washington Parish, shot dead in his patrol 
@@ -2458,6 +2473,9 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1965-10-20.poverty` (Oct. 20, LXXI 196510.yaml): Shriver to Johnson: a plan "to end poverty in the United States, as we know it today, within a generation," ho
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
   - Califano: Califano, Joseph A., Jr. (K–J Adm. III.C, 1968 III.A)
+- `cal.1965-10-28.press-and-broadcasting` (Oct. 28, LXXI 196510.yaml): The Carnegie Corporation names the Carnegie Commission on Educational Television: Killian chairman; Conant, Du
+  - Hays: Hays, Wayne L. (Cong. III.E)
+  - McConnell: McConnell, John P. (1968 III.G)
 - `cal.1965-10-29.civil-rights-the-executive` (Oct. 29, LXXI 196510.yaml): DeLoach to Mohr, after the prosecutors keep Hosea Williams and King out of the charge against the first middle
   - Mohr: Mohr, Charles (Viet. III.F)
 - `cal.1965-10-29.economy` (Oct. 29, LXXI 196510.yaml): Aluminum. Ormet, Olin Mathieson's subsidiary, raises its price; Reynolds and Kaiser follow; Alcoa studying it.
@@ -2635,6 +2653,10 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1966-05-16.civil-rights-organizations` (May 16, LXXIX 196605.yaml): SNCC's staff, meeting at Kingston Springs, Tenn., re-elects Lewis chairman, then, after Worth Long challenges 
   - Ruby: Ruby, Jack (K–J Cong. III.K)
   - Smith: Smith, Stephen E. (K–J Adm. III.A); Smith, Ian Douglas (K–J Adm. III.J); Smith, Benjamin A., II (K–J Cong. III.B); Smith, Howard W. (K–J Cong. III.D); Smith, Hulett C. (K–J Cong. III.F); Smith, Preston (K–J Cong. III.F); Smith, Frank E. (K–J Cong. III.K); Smith, Howard K. (K–J Cong. III.K); Smith, Robert R. (K–J Cong. III.K); Smith, Tommie (K–J Cong. III.K); Smith, Vernon K. (K–J Cong. III.K); Smith, Margaret Chase (Opp. III.A, Cong. III.A); Smith, Gerard C. (Adm. III.D)
+- `cal.1966-05-17.program` (May 17, LXXIX 196605.yaml): Hirshhorn, Harris and Ripley sign the agreement: legislation by ten days after the close of the 90th Congress;
+  - Harris: Harris, Oren (K–J Cong. III.D); Harris, Louis (K–J Cong. III.J); Harris, Fred R. (1968 III.I)
+- `cal.1966-05-20.elections-1966` (May 20, LXXIX 196605.yaml): Charles Roche, of the congressional liaison, to Johnson, by memorandum: "This is the big ball game of 1966. Th
+  - Roche: Roche, James M. (K–J Cong. III.K); Roche, John P. (1968 III.A)
 - `cal.1966-05-22.states-and-cities-nyc` (May 22, LXXIX 196605.yaml): Robert Kennedy meets Manhattan's reform Democratic leaders on Silverman for Surrogate against Klein. Two hours
   - Klein: Klein, Arthur G. (K–J Cong. III.K); Klein, Julius (K–J Cong. III.K); Klein, Herbert G. (Adm. III.B)
 - `cal.1966-05-23.civil-rights-organizations` (May 23, LXXIX 196605.yaml): Atlanta. Ruby Doris Robinson for SNCC: the White House Conference a "useless endeavor"; SNCC "cannot in good c
@@ -2670,6 +2692,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - MacArthur: MacArthur, Douglas, II (Opp. III.E)
 - `cal.1966-06-22.king` (June 22, LXXX 196606.yaml): 9:10 p.m., King's conference call with Levison, Clarence Jones and Wachtel, on the FBI's wiretap: the march a 
   - Jones: Jones, Walter B., Sr. (K–J Cong. III.D); Jones, J. Raymond (K–J Cong. III.K); Jones, Walter H. (K–J Cong. III.K); Jones, Jim (1968 III.A)
+- `cal.1966-06-24.open-housing` (June 24, LXXX 196606.yaml): Mathias and McCulloch with Celler and Katzenbach on Mathias's compromise: the sale of owner-occupied homes wit
+  - Murphy: Murphy, Leo T. (K–J Cong. III.K); Murphy, Maurice J., Jr. (K–J Cong. III.K); Murphy, George (Opp. III.B); Murphy, Robert D. (Opp. III.E); Murphy, Charles S. (1968 III.A)
 - `cal.1966-06-25.mississippi-meredith` (June 25, LXXX 196606.yaml): Tougaloo College, the football field. Belafonte's freedom concert for the march: James Brown, Sammy Davis Jr.,
   - Davis: Davis, James T. (K–J Adm. III.F); Davis, Deane C. (K–J Cong. III.F); Davis, Ilus W. (K–J Cong. III.F); Davis, Jimmie H. (K–J Cong. III.F); Davis, Rennie (K–J Cong. III.K); Davis, John E. (Opp. III.H)
 - `cal.1966-06-28.vietnam-congress-4` (June 28, LXXX 196606.yaml): Johnson and Russell at dinner, alone, against a promise to McNamara: the Meredith march; Carmichael, Johnson p
@@ -2691,6 +2715,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Coleman: Coleman, Kevin K. (K–J Cong. III.F); Coleman, J. P. (K–J Cong. III.K); Coleman, Thomas L. (K–J Cong. III.K); Coleman, William T., Jr. (K–J Cong. III.K)
 - `cal.1966-07-22.vietnam-2` (July 22, LXXXI 196607.yaml): Rostow sends Johnson Bohlen's cable: "I would agree that our best chance for making negotiating progress is th
   - Bohlen: Bohlen, Charles E. (K–J Adm. III.E)
+- `cal.1966-07-26.open-housing` (July 26, LXXXI 196607.yaml): The Leadership Conference on Civil Rights on the Mathias compromise: most of its members critical of it, the b
+  - Mathias: Mathias, Charles McC., Jr. (Cong. III.C)
 - `cal.1966-07-30.robert-kennedy` (July 30, LXXXI 196607.yaml): William Connell, Humphrey's aide, to Watson, "The emerging pattern in New York," Kennedy's strategy as he read
   - Humphrey: Humphrey, Hubert H. (K–J Adm. III.D, K–J Cong. III.A, 1968 III.I, 1968 III.P, Cong. III.B)
 - `cal.1966-07.robert-kennedy-2` (July, LXXXI 196607.yaml): New York, Robert Kennedy's apartment, late at night, by Goodwin's account. Kennedy: "The worst thing about the
@@ -2727,6 +2753,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Whittaker: Whittaker, Charles E. (K–J Cong. III.G)
 - `cal.1966-08-31.open-housing` (Aug. 31, LXXXII 196608.yaml): Chicago, Liberty Baptist. Cries of "black power!" drown King's report of the terms; King invites Monroe Sharp 
   - Sharp: Sharp, U.S. Grant (K–J Adm. III.F, 1968 III.G, Viet. III.D)
+- `cal.1966-08.civil-disorders` (Aug., LXXXII 196608.yaml): Waukegan, Ill. Three nights of rioting in a two-square-mile area; eighty arrested, many hurt; six returning fr
+  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Joseph E. (K–J Adm. III.E); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, June (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Virginia (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1966-09-09.king` (Sept. 9, LXXXIII 196609.yaml): Memphis, Lawson's retreat for SCLC's staff, nearly forty workers, on morale and Hosea Williams. 6:51 p.m., Kin
   - Williams: Williams, G. Mennen (K–J Adm. III.E); Williams, John B. (K–J Cong. III.D); Williams, Jack (K–J Cong. III.F); Williams, Gene Hal (K–J Cong. III.K); Williams, Hosea (K–J Cong. III.K); Williams, John J. (Opp. III.B)
 - `cal.1966-09-11.elections-1966` (Sept. 11, LXXXIII 196609.yaml): Reagan on NBC's *Meet the Press*, Brown with him: the California tradition of Hiram Johnson his; "great pride"
@@ -2782,6 +2810,10 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Duncan: Duncan, Robert B. (K–J Cong. III.D)
 - `cal.1966-10-04.mayors` (Oct. 4, LXXXIV 196610.yaml): Baltimore. Mayor McKeldin, a Republican, asks the city's tavern keepers to serve Negroes during the World Seri
   - Robinson: Robinson, Spottswood W., III (K–J Cong. III.G); Robinson, Jackie (K–J Cong. III.K); Robinson, Paul W. (K–J Cong. III.K); Robinson, Ruby Doris Smith (K–J Cong. III.K)
+- `cal.1966-10-05.elections-1966` (Oct. 5, LXXXIV 196610.yaml): Roche to Johnson, by memorandum: the White House's research to the press, the congressional Democrats essentia
+  - Roche: Roche, James M. (K–J Cong. III.K); Roche, John P. (1968 III.A)
+- `cal.1966-10-11.program` (Oct. 11, LXXXIV 196610.yaml): The White House's "Estimates of the Number of Persons Who Have Benefited from Selected Legislative Actions of 
+  - Persons: Persons, Wilton B. (Opp. III.E)
 - `cal.1966-10-20.vietnam-asian-trip-2` (Oct. 20, LXXXIV 196610.yaml): Wellington. Demonstrators with STOP THE WAR banners push through the crowd as Johnson goes to Parliament; on t
   - McPherson: McPherson, Harry (K–J Adm. III.C, 1968 III.A)
 - `cal.1966-10-22.vietnam-asian-trip` (Oct. 22, LXXXIV 196610.yaml): Sydney. A big crowd; a few demonstrators break through and throw red paint on Johnson's car: the news of the A
@@ -3057,11 +3089,15 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1967-08-11.robert-kennedy-2` (Aug. 11, XCIV 196708.yaml): William Connell, Humphrey's aide, to Watson, "The Howard Samuels Flap": a leak has killed the nomination of Sa
   - Humphrey: Humphrey, Hubert H. (K–J Adm. III.D, K–J Cong. III.A, 1968 III.I, 1968 III.P, Cong. III.B)
   - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Joseph E. (K–J Adm. III.E); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, June (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Virginia (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
+- `cal.1967-08-19.elections-1968` (Aug. 19, XCIV 196708.yaml): Cater, Wattenberg and Ervin Duggan to Johnson, on Scammon's analysis: the voter who will decide 1968 "un-young
+  - Ervin: Ervin, Sam J., Jr. (K–J Cong. III.B, Cong. III.B, Wg. III.F)
 - `cal.1967-08-21.vietnam-congress` (Aug. 21, XCIV 196708.yaml): Johnson with the departments' congressional liaison officers on the "Friendly Five": each to talk privately wi
   - Friendly: Friendly, Fred W. (K–J Cong. III.K)
   - Lewis: Lewis, John (K–J Cong. III.H); Lewis, Anthony (K–J Cong. III.J); Lewis, Ike (K–J Cong. III.K)
 - `cal.1967-08-21.press-and-broadcasting` (Aug. 21, XCIV 196708.yaml): Marjorie Hunter in the *New York Times*, the second lead on the front page: the Friday task force's secret rep
   - Hunter: Hunter, Charlayne (K–J Cong. III.K)
+- `cal.1967-08-22.welfare` (Aug. 22, XCIV 196708.yaml): Senate Finance opens hearings on H.R. 12080, Aug. 22–Sept. 26: Gardner, Cohen, Ball, Switzer and Myers of HEW 
+  - Myers: Myers, Cecil William (K–J Cong. III.K)
 - `cal.1967-08-23.elections-1968` (Aug. 23, XCIV 196708.yaml): Humphrey's memorandum to the files, after a talk with Goldwater: Goldwater "told Reagan that this was not his 
   - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Joseph E. (K–J Adm. III.E); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, June (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Virginia (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1967-08-31.democratic-party` (Aug. 31, XCIV 196708.yaml): Bailey, chairman of the Democratic National Committee, to J. B. Avery of Tennessee's Democratic Executive Comm
@@ -3117,8 +3153,12 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Califano: Califano, Joseph A., Jr. (K–J Adm. III.C, 1968 III.A)
 - `cal.1967-10-23.vietnam-pennsylvania` (Oct. 23, XCVI 196710.yaml): Johnson tells the congressional leaders of Pennsylvania. Of the bombing, by Tom Johnson's notes as Mann quotes
   - Mann: Mann, Thomas C. (K–J Adm. III.E)
+- `cal.1967-10-26.program` (Oct. 26, XCVI 196710.yaml): Warren, chairman of the National Gallery's trustees, to Johnson: the site reserved in 1937 for additions to be
+  - Bruce: Bruce, David K. E. (K–J Adm. III.E)
 - `cal.1967-10-30.amendments` (Oct. 30–31, XCVI 196710.yaml): Senate Judiciary's Subcommittee on Separation of Powers on Ervin's S. 2307, the convention bill: hearings Oct.
   - Powers: Powers, David F. (K–J Adm. III.B); Powers, Francis Gary (K–J Adm. III.I); Powers, Georgia Davis (K–J Cong. III.K)
+- `cal.1967-10-30.program` (Oct. 30–31, XCVI 196710.yaml): Cater to Johnson: John Walker of the National Gallery says no federal funds needed until the building is finis
+  - Walker: Walker, Edwin A. (K–J Adm. III.F); Walker, Daniel (K–J Cong. III.K); Walker, Prentiss L. (Opp. III.D)
 - `cal.1967-10.elections-1968-2` (Oct., XCVI 196710.yaml): Fall. Johnson to Clifford, a private talk, of an evening: a memorandum on Truman's decision not to run in 1952
   - Fall: Fall, Bernard B. (Viet. III.F)
 - `cal.1967-10.opinion` (Oct., XCVI 196710.yaml): Harris: support for the war at a new low, 58 percent, from 72 in July and 61 in late August.
@@ -3134,6 +3174,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1967-11-03.robert-kennedy` (Nov. 3, XCVII 196711.yaml): Dutton to Robert Kennedy, before McCarthy's announcement: "McCarthy will cut into both your liberal and Cathol
   - Kefauver: Kefauver, Estes (K–J Cong. III.B)
   - Truman: Truman, Harry S. (K–J Cong. III.K)
+- `cal.1967-11-06.program` (Nov. 6, XCVII 196711.yaml): Johnson's statement: Paul Mellon and Ailsa Mellon Bruce's gift of $20 million for an addition to the National 
+  - Bruce: Bruce, David K. E. (K–J Adm. III.E)
 - `cal.1967-11-11.vietnam-operations` (Nov. 11, XCVII 196711.yaml): Wheeler and Wallowa made one operation, Wheeler/Wallowa, in Quảng Tín and Quảng Nam. By the year's end the Ame
   - Wheeler: Wheeler, Earle G. (K–J Adm. III.F, Viet. III.A); Wheeler, Earle (1968 III.E)
 - `cal.1967-11-12.democratic-party` (Nov. 12, XCVII 196711.yaml): Johnson to Watson on the Illinois Young Democrats: press Daley and Bailey to follow through on their efforts w
@@ -3268,6 +3310,9 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Eisenhower: Eisenhower, Dwight D. (Opp. III.E); Eisenhower, Milton S. (Opp. III.E); Eisenhower, David (Adm. III.A); Eisenhower, Julie Nixon (Adm. III.A, Wg. III.A)
 - `cal.1968-02-17.elections-1968-2` (Feb. 17, C 196802.yaml): Connecticut. McCarthy's first appearance in the State, a rally at Westport, some 2,500, the night of Bailey's 
   - Bailey: Bailey, Lloyd W. (K–J Cong. III.K)
+- `cal.1968-02-17.press-and-broadcasting` (Feb. 17, C 196802.yaml): Johnson names the Corporation for Public Broadcasting's board: Frank Pace, Jr., chairman; Killian, Hobby, Vale
+  - Hughes: Hughes, Harold E. (K–J Cong. III.F, Cong. III.B); Hughes, Richard J. (K–J Cong. III.F); Hughes, Sarah T. (K–J Cong. III.K); Hughes, Emmet John (Opp. III.G); Hughes, John H. (Opp. III.I)
+  - Rockefeller: Rockefeller, John D., IV (K–J Cong. III.K); Rockefeller, Laurance S. (K–J Cong. III.K); Rockefeller, Margaretta Fitler (K–J Cong. III.K); Rockefeller, Nelson A. (Opp. III.H, Cong. III.H); Rockefeller, Winthrop (Opp. III.H); Rockefeller, Nelson (1968 III.M)
 - `cal.1968-02-19.opinion` (Feb. 19, C 196802.yaml): Harris, released Feb. 19. Republicans' choice, Nixon or Rockefeller: Nixon 61 percent, Rockefeller 31, undecid
   - Harris: Harris, Oren (K–J Cong. III.D); Harris, Louis (K–J Cong. III.J); Harris, Fred R. (1968 III.I)
 - `cal.1968-02-19.economy-gold` (Feb. 19, C 196802.yaml): Joint Economic Committee, economists on the balance of payments. Machlup: the United States to stop buying and
@@ -3377,6 +3422,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
 - `cal.1968-03-17.press-and-broadcasting` (Mar. 17, CI 196803.yaml): Donald Kirk, *Washington Star*: the more officials explain the command arrangements in I Corps, the less "obse
   - Kirk: Kirk, Grayson (K–J Cong. III.K); Kirk, Claude R., Jr. (Opp. III.H, Cong. III.H)
+- `cal.1968-03-17.king` (Mar. 17, CI 196803.yaml): James Earl Ray, escaped from the Missouri State Penitentiary in April 1967, files a change of address to gener
+  - Ray: Ray, Robert D. (K–J Cong. III.F); Ray, James Earl (K–J Cong. III.K)
 - `cal.1968-03-18.elections-1968-2` (Mar. 18–28, CI 196803.yaml): Sanders's canvass of the House Democrats for the White House, with Watson, Markman, Charles Roche, Gonella and
   - Roche: Roche, James M. (K–J Cong. III.K); Roche, John P. (1968 III.A)
 - `cal.1968-03-18.robert-kennedy-campaign` (Mar. 18, CI 196803.yaml): John W. Douglas, once of Kennedy's Justice Department, to Robert Kennedy, "Suggestions on McCarthy": "Hit hard
@@ -3414,6 +3461,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Nixon: Nixon, Richard M. (Opp. III.E, 1968 III.M, Wg. III.A, Viet. III.B); Nixon, Pat (Adm. III.A)
 - `cal.1968-03-27.elections-1968-4` (Mar. 27, CI 196803.yaml): William Connell, Humphrey's aide, "New York and the O'Connor Operation": "O'Connor is going like a house afire
   - Humphrey: Humphrey, Hubert H. (K–J Adm. III.D, K–J Cong. III.A, 1968 III.I, 1968 III.P, Cong. III.B)
+- `cal.1968-03-27.king-2` (Mar. 27, CI 196803.yaml): Ray at the Gun Rack in Birmingham, asking about hunting rifles.
+  - Ray: Ray, Robert D. (K–J Cong. III.F); Ray, James Earl (K–J Cong. III.K)
 - `cal.1968-03-28.king` (Mar. 28, CI 196803.yaml): King, from Memphis, on the march with Hosea Williams in Atlanta. Williams tells Jim Harrison, SCLC's comptroll
   - Harrison: Harrison, Albertis S., Jr. (K–J Cong. III.F)
 - `cal.1968-03-28.robert-kennedy` (Mar. 28, CI 196803.yaml): Berger to Dolan on Mississippi: former members of the Freedom Democratic Party, and some of the regular delega
@@ -3424,6 +3473,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Nugent: Nugent, Luci Baines Johnson (1968 III.Q); Nugent, Patrick (1968 III.Q)
 - `cal.1968-03-29.king` (Mar. 29, CI 196803.yaml): Moore to Sullivan, approved by Hoover: a second item for the press, "to publicize hypocrisy": "Like Judas lead
   - Sullivan: Sullivan, William C. (K–J Adm. III.I, Adm. III.H); Sullivan, Charles L. (K–J Cong. III.K); Sullivan, Neil V. (K–J Cong. III.K); Sullivan, Raymond F. (K–J Cong. III.K); Sullivan, William H. (Viet. III.A)
+- `cal.1968-03-29.king-2` (Mar. 29–30, CI 196803.yaml): Ray at the Long-Lewis Hardware Store in Bessemer, Ala.; then buys a Remington .243 at the Aeromarine Supply Co
+  - Ray: Ray, Robert D. (K–J Cong. III.F); Ray, James Earl (K–J Cong. III.K)
 - `cal.1968-03-30.elections-1968-2` (Mar. 30, CI 196803.yaml): Panzer to Johnson, after talking with Harris, a passage for the address against Robert Kennedy: "This is not s
   - Harris: Harris, Oren (K–J Cong. III.D); Harris, Louis (K–J Cong. III.J); Harris, Fred R. (1968 III.I)
 - `cal.1968-03-31.elections-1968-6` (Mar. 31, CI 196803.yaml): Washington, after Johnson's address. Connell, Humphrey's political aide, nearly a hundred calls past midnight 
@@ -3437,6 +3488,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Nelson: Nelson, Gaylord A. (K–J Cong. III.B)
 - `cal.1968-03-31.elections-1968-10` (Mar. 31, CI 196803.yaml): Lynda Johnson Robb home at 7 a.m. from seeing Charles Robb off to Vietnam. In the early afternoon Lady Bird Jo
   - Robb: Robb, Charles S. (1968 III.Q); Robb, Lynda Bird Johnson (1968 III.Q)
+- `cal.1968-03-31.elections-1968-11` (Mar. 31, CI 196803.yaml): Minutes after Johnson's address, Robert Kennedy to O'Brien by telephone: manage his campaign. "This is a new b
+  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Joseph E. (K–J Adm. III.E); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, June (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Virginia (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1968-04-01.vietnam` (Apr. 1, CII 196804.yaml): A strike near Thanh Hóa, 205 nautical miles north of the zone by Wheeler's count, Apr. 2. Fulbright, Lee Willi
   - Williams: Williams, G. Mennen (K–J Adm. III.E); Williams, John B. (K–J Cong. III.D); Williams, Jack (K–J Cong. III.F); Williams, Gene Hal (K–J Cong. III.K); Williams, Hosea (K–J Cong. III.K); Williams, John J. (Opp. III.B)
 - `cal.1968-04-01.elections-1968-2` (Apr. 1, CII 196804.yaml): Humphrey back from Mexico City, met at Andrews, Md., by Rusk, Wirtz and Freeman. At his apartment with Connell
@@ -3459,6 +3512,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Loeb: Loeb, Henry (K–J Cong. III.F)
 - `cal.1968-04-03.king-memphis` (Apr. 3, CII 196804.yaml): Memphis. Detective Ed Redditt of the police watches King's Room 306 at the Lorraine from Fire Station No. 2, l
   - Harrison: Harrison, Albertis S., Jr. (K–J Cong. III.F)
+- `cal.1968-04-03.king-2` (Apr. 3, CII 196804.yaml): Evening. Ray, as Eric S. Galt, registers at the New Rebel Motel outside Memphis, Room 34.
+  - Ray: Ray, Robert D. (K–J Cong. III.F); Ray, James Earl (K–J Cong. III.K)
 - `cal.1968-04-04.elections-1968-2` (Apr. 4, CII 196804.yaml): Atlanta, the Henry Grady Hotel. The American Independent Party's convention for Wallace in Georgia, called by 
   - Harris: Harris, Oren (K–J Cong. III.D); Harris, Louis (K–J Cong. III.J); Harris, Fred R. (1968 III.I)
 - `cal.1968-04-04.court-fortas` (Apr. 4, CII 196804.yaml): Two officers of Georgia's NAACP, against Lawrence, for his speech of November 1958 attacking the Court's schoo
@@ -4033,6 +4088,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Safire: Safire, William (1968 III.M, Adm. III.B)
 - `cal.1968-12-03.vietnam` (Dec. 3, CX 196812.yaml): Paris, the shape of the table. Clifford at the Tuesday lunch: "Saigon appears to be stalling until after Janua
   - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Joseph E. (K–J Adm. III.E); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, June (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Virginia (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
+- `cal.1968-12-09.program` (Dec. 9, CX 196812.yaml): Califano: "Dick Nixon is going to be taking over a government one hell of a lot different than the one he left
+  - Eisenhower: Eisenhower, Dwight D. (Opp. III.E); Eisenhower, Milton S. (Opp. III.E); Eisenhower, David (Adm. III.A); Eisenhower, Julie Nixon (Adm. III.A, Wg. III.A)
 - `cal.1968-12-15.republican-party` (Dec. 15, CX 196812.yaml): New York, the Plaza Hotel. The Ripon Society's sixth anniversary dinner, more than 400 guests; its hosts Kissi
   - Irwin: Irwin, Henry D. (K–J Cong. III.K); Irwin, John N., II (Opp. III.E)
 - `cal.1968-12-21.assassination` (Dec. 21, CX 196812.yaml): Nitze, Deputy Secretary of Defense, to Johnson on Ethel Kennedy's one request, by McNamara: the government to 
@@ -4066,6 +4123,7 @@ No work of its own and no `See [[id]]` back to the event's first entry.
 - `cal.1968-02-12.republican-party-congress` (Feb. 12, C 196802.yaml): Los Angeles, the Lincoln Club. Representative Robert Taft Jr.: Fulbright so far from the President on Vietnam 
 - `cal.1968-05-18.defense-clifford` (May 18, CIII 196805.yaml): Clifford at lunch with McNamara: South Vietnam and his programs at the World Bank, by Clifford's staff meeting
 - `cal.1968-06-11.berlin-and-vienna` (June 11, CIV 196806.yaml): East Germany requires passports and visas of West Germans traveling to West Berlin and through its territory, 
+- `cal.1968-09-17.economy` (Sept. 17, CVII 196809.yaml): Johnson: Chrysler's increase on its 1969 models, announced the day before, "excessive"; the Cabinet Committee 
 
 ## Primary record
 
@@ -5312,6 +5370,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-12.latin-america-peru` (Dec., XXV 196112.yaml): Two Peruvian students, former Communists by their own account, tell of the Communists' organization of the San
 - `cal.1961-12.immigration` (Dec., XXV 196112.yaml): Bontempo resigns from the Bureau of Security and Consular Affairs. Kennedy goes back to Schwartz, who will acc
 - `cal.1961-12.right-and-the-military` (Dec., early, XXV 196112.yaml): Memphis, a "Survival U.S.A." meeting, Robert Snowden of Hughes, Ark., its sponsor: Thurmond on "Dangers of Muz
+- `cal.1961-12.labor-disputes` (Dec., XXV 196112.yaml): Goldberg's award in the Metropolitan Opera's salary dispute with the Musicians Union, the Met broke. A section
 - `cal.1962-01-05.transition-and-staff-nsc` (Jan. 5, XXVI 196201.yaml): Schlesinger to Bundy, recommending Michael Forrestal for the NSC staff: "He may not quite have his father's co
 - `cal.1962-01-08.soviet-union` (Jan. 8, XXVI 196201.yaml): A rump Presidium, Mikoyan absent; Khrushchev to the leadership and the diplomats on the Berlin talks: "The ene
 - `cal.1962-01-08.alabama-birmingham` (Jan. 8, XXVI 196201.yaml): The Supreme Court declines to review Shuttlesworth's conviction for riding in the front of a Birmingham bus in
@@ -6409,6 +6468,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-05-28.mississippi` (May 28, XLII 196305.yaml): Jackson. Tougaloo students sit in at Woolworth's lunch counter; a crowd beats them for three hours, police out
 - `cal.1963-05-28.mississippi-2` (May 28, XLII 196305.yaml): Jackson. News that Mayor Thompson will name a real biracial committee and open public facilities and city jobs
 - `cal.1963-05-28.civil-rights-bill` (May 28, XLII 196305.yaml): House Judiciary Subcommittee No. 5, the civil rights hearings: Moses, Sherrod and Timothy Jenkins of SNCC test
+- `cal.1963-05-28.program` (May 28, XLII 196305.yaml): Heckscher, Kennedy's special consultant on the arts, reports, *The Arts and the National Government*: a Nation
 - `cal.1963-05-29.mississippi` (May 29, XLII 196305.yaml): Jackson. Students back downtown against Evers's counsel; nineteen jailed off the picket lines. Evers praises t
 - `cal.1963-05.desegregation-public-places-greensboro` (May–June, XLII 196305.yaml): Greensboro. Demonstrations, the largest in the State's history, led by students of A&T, for the desegregation 
 - `cal.1963-05-30.mississippi` (May 30, XLII 196305.yaml): Jackson, the mass meeting. David Dennis of CORE and other youth leaders: "bring your toothbrushes" to the next
@@ -6685,6 +6745,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-08.baker` (Aug., XLV 196308.yaml): Robert Kennedy has Ellen Rometsch, a German woman tied to Baker's circle and, by the FBI's finding, to the Pre
 - `cal.1963-08.goldwater-4` (Aug., XLV 196308.yaml): Lippmann: Goldwater's philosophy "radically opposed to the central traditions of the Republican Party and . . 
 - `cal.1963-08.elections-1964-3` (Aug., XLV 196308.yaml): Pocantico. Hugh Gregg, New Hampshire's former governor, and his wife with Rockefeller. Ten days later Hinman, 
+- `cal.1963-08.king` (Aug., XLV 196308.yaml): Robert Kennedy, at dinner with Marietta Tree, a U.S. representative to the United Nations, in Washington for t
 - `cal.1963-09-02.desegregation-public-places` (Sept. 2, XLVI 196309.yaml): St. Augustine, Fla., Labor Day. More than a hundred march to the Slave Market, the first large demonstration t
 - `cal.1963-09-02.goldwater` (Sept. 2, XLVI 196309.yaml): Chicago, the Sheraton Chicago. O'Donnell announces the Draft Committee's Illinois Volunteers for Goldwater, Jo
 - `cal.1963-09-03.elections-1964` (Sept. 3, XLVI 196309.yaml): New York. Rockefeller to Nixon, his neighbor, over a drink at his apartment the day after Labor Day, by Nixon'
@@ -6955,6 +7016,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-11-25.assassination-4` (Nov. 25, XLVIII 196311.yaml): The White House reception after the funeral. Jacqueline Kennedy to Mikoyan and Dobrynin: the morning of his de
 - `cal.1963-11-25.king` (Nov. 25, XLVIII 196311.yaml): King at the President's funeral, alone, unnoticed in the street; not invited to the Mass at St. Matthew's, as 
 - `cal.1963-11-25.assassination-5` (Nov. 25, XLVIII 196311.yaml): Katzenbach to Moyers, a memorandum: act now "to head off speculation or Congressional hearings of the wrong so
+- `cal.1963-11-25.king-2` (Nov. 25, XLVIII 196311.yaml): Robert Allen and Paul Scott, columnists, in the *Long Island Press*: Johnson and Robert Kennedy soon to face "
 - `cal.1963-11-26.succession-2` (Nov. 26, XLVIII 196311.yaml): Ball with Johnson as he receives the funeral's visitors: Haile Selassie in the morning, then Prince Philip and
 - `cal.1963-11-26.succession` (Nov. 26, XLVIII 196311.yaml): The Elms, after the Mundt vote, by Humphrey's account. Johnson at dinner with Humphrey, Fortas, Valenti, Cliff
 - `cal.1963-11-26.economy` (Nov. 26–Dec., XLVIII 196311.yaml): The budget for fiscal 1965 begun with Johnson the morning after the burial: sessions of one to four hours a da
@@ -6963,6 +7025,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-11-27.robert-kennedy` (Nov. 27, XLVIII 196311.yaml): After the address, Johnson asks Robert Kennedy to see him: the delay at Dallas, the Oval Office on Rusk's and 
 - `cal.1963-11-27.civil-rights-bill` (Nov. 27, XLVIII 196311.yaml): Russell, in a prepared statement after the address: his reasons against the bill the same; "It is still the sa
 - `cal.1963-11-27.conservation` (Nov. 27, XLVIII 196311.yaml): Udall to Johnson: "The House Committee has reported an excellent bill. Outlook is favorable."
+- `cal.1963-11-27.king` (Nov. 27, XLVIII 196311.yaml): Hoover to Robert Kennedy and O'Donnell: a statement under King's name for the *New York Herald Tribune* writte
 - `cal.1963-11-28.elections-1964` (Nov. 28, XLVIII 196311.yaml): The whip's office, the Thursday after the funeral, by Rosenberg's account. Humphrey to Kampelman, Rauh, Connel
 - `cal.1963-11-29.south-asia` (Nov. 29, XLVIII 196311.yaml): Ball takes Bhutto to Johnson, at Johnson's insistence, and puts in critical remarks Johnson takes up, by Ball'
 - `cal.1963-11-29.civil-rights-organizations` (Nov. 29, XLVIII 196311.yaml): Washington, SNCC's annual conference, the week after the assassination. A processional to the President's grav
@@ -6987,9 +7050,11 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-12-02.court` (Dec. 2, XLIX 196312.yaml): Burke Marshall's weekly report to Robert Kennedy: the Court has told the Solicitor General to brief the broad 
 - `cal.1963-12-02.elections-1964` (Dec. 2, XLIX 196312.yaml): Rein Vander Zee to Humphrey, by memorandum, on the Vice Presidency: "a man's proven experience and ability in 
 - `cal.1963-12-02.vietnam` (Dec. 2, XLIX 196312.yaml): Bundy to Johnson: Southeast Asia's importance to be raised at an early meeting with the congressional leaders;
+- `cal.1963-12-02.king` (Dec. 2, XLIX 196312.yaml): From the tap, the FBI learns King is to see Johnson Dec. 3: the New York office to Hoover; the Domestic Intell
 - `cal.1963-12-03.vietnam-force-levels` (Dec. 3, XLIX 196312.yaml): Johnson, with Bundy and McCone, questions the withdrawal of the thousand: not "a constructive move in view of 
 - `cal.1963-12-03.farm` (Dec. 3, XLIX 196312.yaml): Johnson to Daley by telephone, 10 a.m.: the cotton bill, billions in aid to Southern farmers. Daley, who holds
 - `cal.1963-12-03.defense` (Dec. 3, XLIX 196312.yaml): Johnson to McClellan by telephone, 3:47 p.m.: he will attack fraud and waste in defense contracts. McNamara to
+- `cal.1963-12-03.king-2` (Dec. 3, XLIX 196312.yaml): Hoover to Jenkins, of King's day: from New York to the Statler Hilton, where he confers at 9:30 a.m. with Clar
 - `cal.1963-12-04.black-nationalism` (Dec. 4, XLIX 196312.yaml): Muhammad suspends Malcolm X from speaking for ninety days.
 - `cal.1963-12-04.georgia-albany` (Dec. 4, XLIX 196312.yaml): Robert Kennedy to King, a terse letter: his objections to the Albany Nine prosecutions dismissed.
 - `cal.1963-12-04.civil-rights-bill-2` (Dec. 4, XLIX 196312.yaml): The morning after Meany's ride, Johnson stops his limousine for Halleck and takes him to breakfast at the Whit
@@ -7074,6 +7139,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-12.desegregation-public-places` (Dec., late, XLIX 196312.yaml): The moratorium on demonstrations since the assassination ends in five Southern cities. Columbia, S.C., more th
 - `cal.1963-12.economy-3` (Dec., mid-month, XLIX 196312.yaml): Gordon thinks the budget wound up, "significantly under a hundred billion." Johnson changes course: under $98 
 - `cal.1963-12-31.republican-party-congress` (Dec. 31, XLIX 196312.yaml): Dirksen to Johnson, by letter: the high-energy accelerator to Argonne. Johnson had dropped the Wisconsin accel
+- `cal.1963-12.program` (Dec., XLIX 196312.yaml): The Senate passes Kennedy's bill for a National Arts Foundation by voice vote. The House Rules Committee holds
 - `cal.1964-01-01.robert-kennedy` (Jan. 1, L 196401.yaml): Johnson, from the ranch, wires Robert Kennedy: "Your brother would have been very proud of the strength you ha
 - `cal.1964-01-01.goldwater` (Jan. 1, L 196401.yaml): Evening. Goldwater telephones Kleindienst, just home to Phoenix from the Rose Bowl: will he manage the nationa
 - `cal.1964-01-02.vietnam-saigon` (Jan. 2, L 196401.yaml): Saigon. The Council of Notables convenes to draft a new constitution.
@@ -7517,6 +7583,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-04.vietnam-6` (Apr., LIII 196404.yaml): At MACV's urging, a Communications-Electronics Subcommittee reporting to the Ambassador; in July Taylor makes 
 - `cal.1964-04.soviet-union` (Apr., spring, LIII 196404.yaml): Brezhnev, with Podgorny and Shelepin in the plot to remove Khrushchev, asks Shelepin and Semichastny of the KG
 - `cal.1964-04.program` (Apr., early, LIII 196404.yaml): The White House pool. Johnson, swimming, to Moyers and Goodwin, by Goodwin's account: "two basic problems—get 
+- `cal.1964-04-30.program` (Apr. 30, LIII 196404.yaml): The Commission on the Humanities, of the American Council of Learned Societies, the Council of Graduate School
 - `cal.1964-05-01.civil-rights-bill` (May 1, LIV 196405.yaml): Russell to colleagues: he hopes to keep the filibuster going long enough for Wallace's primaries to warn polit
 - `cal.1964-05-01.elections-1964-state-conventions` (May 1, LIV 196405.yaml): Springfield, Illinois's Republican convention: the ten delegates at large, nearly all for Goldwater.
 - `cal.1964-05-01.vietnam` (May 1, LIV 196405.yaml): Forrestal to McNaughton: "What we are dealing with is social revolution by illegal means, infected by the canc
@@ -7714,6 +7781,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-06-13.civil-rights-bill` (June 13, LV 196406.yaml): Tower's second test amendment: an ability test lawful if not "designed, intended, or used to discriminate." Hu
 - `cal.1964-06-15.vietnam-congress` (June 15, LV 196406.yaml): Rusk and Sullivan before Foreign Relations in executive session. Church: only the South Vietnamese can win; in
 - `cal.1964-06-15.vietnam-2` (June 15, LV 196406.yaml): Forrestal to Bundy: the political scene in Saigon "increasingly fragile," from "worries about our intention an
+- `cal.1964-06-15.program` (June 15, LV 196406.yaml): Ripley, Secretary of the Smithsonian, to Hirshhorn: he hopes to "explore the concept" of a museum for his coll
 - `cal.1964-06-16.elections-1964-state-conventions` (June 16, LV 196406.yaml): Texas's Republican State convention pledges its 56 delegates to Goldwater. With them, by the papers' counts, a
 - `cal.1964-06-16.mississippi` (June 16, LV 196406.yaml): The Democratic precinct meetings, 1,884 across the State. Negroes admitted in a few, in Greenville and Jackson
 - `cal.1964-06-16.mississippi-2` (June 16, LV 196406.yaml): Longdale, Miss., Neshoba County, night. Armed Klansmen stop the stewards of Mount Zion AME Church leaving thei
@@ -8157,6 +8225,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-09-03.goldwater` (Sept. 3, LVIII 196409.yaml): Prescott, Ariz. Goldwater opens his campaign from the north steps of the Yavapai County Courthouse, where he h
 - `cal.1964-09-03.elections-1964` (Sept. 3, LVIII 196409.yaml): Moyers to Johnson: Fortas and Clifford advise against *Meet the Press*, *Face the Nation* and the rest, "too c
 - `cal.1964-09-03.vietnam-saigon` (Sept. 3, LVIII 196409.yaml): Khánh replaces the triumvirate with a 15-member committee to elect a temporary Chief of State and Prime Minist
+- `cal.1964-09-03.program` (Sept. 3, LVIII 196409.yaml): Johnson signs the National Council on the Arts and Cultural Development Act: a council of 25, a pittance to or
 - `cal.1964-09-04.civil-rights-the-executive` (Sept. 4, LVIII 196409.yaml): Danielsville. An all-white Madison County jury acquits Sims and Myers, Klansmen of Athens, of Penn's murder.
 - `cal.1964-09-04.vietnam` (Sept. 4, LVIII 196409.yaml): Taylor goes to Washington.
 - `cal.1964-09-04.vietnam-saigon` (Sept. 4, LVIII 196409.yaml): Khiêm resigns as Defense Minister; Khánh announces that the military will leave their posts in a caretaker gov
@@ -8645,6 +8714,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-12.vietnam-10` (Dec., LXI 196412.yaml): MACV's logistic estimate for CINCPAC's OPLAN 32-64 sent, the country estimate's first revision since 1961.
 - `cal.1964-12.school-aid` (Dec., mid-month, LXI 196412.yaml): Keppel with the "Monsignori" and the education lobbies: no aid that would bring a court test; federal money a 
 - `cal.1964-12.press-and-broadcasting-5` (Dec., LXI 196412.yaml): Johnson with three newsmen, Wise of the *Herald Tribune* among them, three hours on Vietnam, for background. H
+- `cal.1964-12.press-and-broadcasting-6` (Dec., LXI 196412.yaml): Washington. A conference of the National Association of Educational Broadcasters, unanimous, for a presidentia
 - `cal.1965-01-01.vietnam` (Jan. 1, LXII 196501.yaml): Project Wetwash completed: a 60-channel submarine cable from the Philippines to Nha Trang, troposcatter to Sai
 - `cal.1965-01-02.voting-rights` (Jan. 2, LXII 196501.yaml): Selma. King at Brown Chapel, against a State court's injunction on meetings. The campaign to register Dallas C
 - `cal.1965-01-03.medicare` (Jan. 3, LXII 196501.yaml): The Advisory Council on Social Security reports: hospital care for the aged under OASDI, about $2.2 billion, f
@@ -8756,6 +8826,8 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-01.press-and-broadcasting` (Jan., LXII 196501.yaml): After his meeting with DeLoach, Andrew Young with Fred Graham, John Herbers and Robert Phelps at the *New York
 - `cal.1965-01.program` (Jan., LXII 196501.yaml): The Fish Room. Johnson to the departments' legislative men, Cohen among them: "every day while I'm in office, 
 - `cal.1965-01.civil-rights-the-executive` (Jan., LXII 196501.yaml): Moynihan, Labor's Office of Policy Planning and Research, to Moyers: the disintegration of the Negro family in
+- `cal.1965-01.program-2` (Jan., first week, LXII 196501.yaml): Seventy-six bills for a humanities foundation in the first week of the 89th Congress.
+- `cal.1965-01.program-3` (Jan., early in the year, LXII 196501.yaml): Sam Harris, Hirshhorn's lawyer, and Kampelman with Ripley: Hirshhorn "would want his name on the museum"; "On 
 - `cal.1965-02-01.voting-rights` (Feb. 1, LXIII 196502.yaml): Selma. King and Abernathy arrested with some 250 marching to the courthouse; they refuse bond. At Marion, in P
 - `cal.1965-02-01.europe-and-the-alliance` (Feb. 1, LXIII 196502.yaml): Harlech from Washington to London: in Bundy's talks with Taylor the second phase "might" be discussed.
 - `cal.1965-02-01.vietnam-2` (Feb. 1, LXIII 196502.yaml): Etherington-Smith from Saigon to London: Alexis Johnson, Taylor's deputy, the "only solution" to "adopt a more
@@ -9236,6 +9308,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-05-16.vietnam-operations` (May 16, LXVI 196505.yaml): Biên Hòa air base rocked by a series of accidental explosions.
 - `cal.1965-05-16.vietnam` (May 16, LXVI 196505.yaml): The Joint General Staff activates the 10th ARVN Division. The Joint Chiefs approve it June 9 and fix the ARVN 
 - `cal.1965-05-17.war-opposition` (May 17–18, LXVI 196505.yaml): Dodd's Internal Security Subcommittee hears J. Edgar Hoover on the Communist Party and the students: the Free 
+- `cal.1965-05-17.program` (May 17, LXVI 196505.yaml): Hirshhorn to the Johnsons: his whole collection to the Smithsonian, in a Joseph H. Hirshhorn Museum on Constit
 - `cal.1965-05-18.latin-america` (May 18, LXVI 196505.yaml): Santo Domingo. Bundy reaches a settlement putting Antonio Guzmán in power, his anti-Communism not assured. Man
 - `cal.1965-05-18.school-aid` (May 18, LXVI 196505.yaml): Green's Special Subcommittee reports the higher education bill: more for several programs, the subsidized loan
 - `cal.1965-05-18.conservation` (May 18, LXVI 196505.yaml): Senate passes S. 306, as Public Works cut it, by voice vote.
@@ -9247,6 +9320,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-05-21.voting-rights-2` (May 21, LXVI 196505.yaml): Katzenbach to Johnson, by memorandum, on the poll tax: a ban "an invitation to persons not to pay these taxes,
 - `cal.1965-05-21.school-aid` (May 21, LXVI 196505.yaml): Education and Labor reverses its subcommittee and restores the student loans, 13 to 12, after the White House 
 - `cal.1965-05-21.conservation` (May 21, LXVI 196505.yaml): The Soap and Detergent Association: the industry has licked the sudsing problem; all the large firms to the ne
+- `cal.1965-05-21.program` (May 21, LXVI 196505.yaml): Lady Bird Johnson's luncheon for the Hirshhorns, Ripley, Stevens, Harris and Fortas. Stevens: the museum about
 - `cal.1965-05-23.press-and-broadcasting` (May 23, LXVI 196505.yaml): Wise, White House correspondent of the *New York Herald Tribune*, in his dispatch: the "credibility gap," prob
 - `cal.1965-05-24.legislatures-mn` (May 24, LXVI 196505.yaml): Minnesota. Rolvaag vetoes the legislature's reapportionment, Senate File 102, the day it adjourns. Legislators
 - `cal.1965-05.mayors-omaha` (May, LXVI 196505.yaml): Omaha elects Sorensen (R) mayor over Mayor Dworak, indicted during the campaign for bribery: taped asking a de
@@ -9288,6 +9362,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-06-09.vietnam-force-levels-2` (June 9, LXVII 196506.yaml): Military working arrangement for New Zealand's 105mm battery: American field administrative support. 119 New Z
 - `cal.1965-06-10.states-and-cities` (June 10, LXVII 196506.yaml): Wagner will not seek a fourth term as mayor of New York. Lindsay, Republican of the 17th District, already a c
 - `cal.1965-06-10.desegregation-schools` (June 10–12, LXVII 196506.yaml): Chicago, against Willis's new contract, the civil rights groups enjoined from any part in a boycott. June 10, 
+- `cal.1965-06-10.program` (June 10, LXVII 196506.yaml): The Senate passes the bill for a National Foundation on the Arts and Humanities.
 - `cal.1965-06-11.vietnam-congress` (June 11, LXVII 196506.yaml): Taylor before Foreign Relations and Armed Services jointly: 18,000 more men, to about 70,000. Symington: "move
 - `cal.1965-06-11.vietnam-saigon` (June 11, LXVII 196506.yaml): Quát resigns.
 - `cal.1965-06-11.vietnam` (June 11, LXVII 196506.yaml): Humphrey to a western governors' conference, his text cleared at the White House: "Recognizing that a politica
@@ -9484,9 +9559,12 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-08-02.vietnam-force-levels` (Aug. 2, LXIX 196508.yaml): The 173d Airborne Brigade to stay in South Vietnam for good, not to be replaced by the 1st Brigade, 101st Airb
 - `cal.1965-08-02.vietnam-force-levels-2` (Aug. 2, LXIX 196508.yaml): Honolulu. Westmoreland and Sharp at the conference on the Phase I deployments.
 - `cal.1965-08-03.desegregation-schools-philadelphia` (Aug. 3, LXIX 196508.yaml): Philadelphia. King at the wall of Girard College: "a kind of Berlin wall."
+- `cal.1965-08-03.jobs-and-wages` (Aug. 3, LXIX 196508.yaml): O'Brien to Johnson: Roosevelt tells him his bill would raise wages only 1.5 percent, within the guidepost. O'B
 - `cal.1965-08-04.republican-party` (Aug. 4, LXIX 196508.yaml): Abrahams, executive director of Republicans for Progress, quits as manager of Dumont's campaign for governor o
 - `cal.1965-08-04.voting-rights` (Aug. 4, LXIX 196508.yaml): The voting rights bill through Congress. That evening Johnson to Dirksen's hideaway office in the Capitol, a d
 - `cal.1965-08-04.king` (Aug. 4, LXIX 196508.yaml): King in Washington for three days, the last stop of a tour of Chicago, Cleveland and Philadelphia: through the
+- `cal.1965-08-04.jobs-and-wages-2` (Aug. 4, LXIX 196508.yaml): Eckstein, for Ackley at the Council of Economic Advisers, to Johnson on the Roosevelt bill: its minima would r
+- `cal.1965-08-04.jobs-and-wages-3` (Aug. 4, LXIX 196508.yaml): Wirtz to Johnson: the Roosevelt bill's extension of coverage "may result in killing the entire bill." Stop it 
 - `cal.1965-08-05.civil-rights-the-executive` (Aug. 5, LXIX 196508.yaml): King, Abernathy and Fauntroy with Johnson and Lee White: Johnson on a White House Conference on Civil Rights i
 - `cal.1965-08-05.voting-rights` (Aug. 5, LXIX 196508.yaml): Johnson on the signing: ideas from Busby, Goodwin, Moyers, Valenti, Califano; Mansfield and McCormack; the mem
 - `cal.1965-08-05.king` (Aug. 5, LXIX 196508.yaml): Lafayette Park. King to some five thousand for home rule in the District: "We know Negroes can run this city a
@@ -9628,6 +9706,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-09-15.democratic-party` (Sept. 15, LXX 196509.yaml): Watson to Johnson: Humphrey budgeted to raise $752,000 for the President's Club in a November swing through th
 - `cal.1965-09-15.vietnam-3` (Sept. 15, LXX 196509.yaml): The Joint General Staff agrees in principle to convert the CIDG to Regional Forces, the secure camps first, vo
 - `cal.1965-09-15.immigration` (Sept. 15, LXX 196509.yaml): Senate Judiciary accepts the subcommittee's report on the immigration bill, 15 to 2, the two conservative Sout
+- `cal.1965-09-15.program` (Sept. 15, LXX 196509.yaml): The House on the arts and humanities bill. Gross's "belly dance" amendment, after "dance": "including but not 
 - `cal.1965-09-16.jobs-and-wages-ca` (Sept. 16, LXX 196509.yaml): Delano. Chavez's National Farm Workers Association votes to join the grape strike.
 - `cal.1965-09-16.vietnam-force-levels` (Sept. 16, LXX 196509.yaml): MACV sends CINCPAC and the Joint Chiefs a force structure for the RVNAF from its update of JSOP-71 (Sept. 10):
 - `cal.1965-09-16.vietnam-saigon` (Sept. 16, LXX 196509.yaml): Nguyễn Tất Ứng, Minister of Rural Construction, killed in a plane crash at Quảng Ngãi; Brig. Gen. Nguyễn Đức T
@@ -9730,6 +9809,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-10-27.cities-and-housing` (Oct. 27, LXXI 196510.yaml): Weaver to Califano with papers for Johnson to sign within two weeks, naming the Housing Secretary or an acting
 - `cal.1965-10-28.republican-party` (Oct. 28, LXXI 196510.yaml): Nixon, on Robert Kennedy's defense of Genovese's right to say he hopes for a Viet Cong victory: that victory "
 - `cal.1965-10-28.king` (Oct. 28, LXXI 196510.yaml): The FBI's Mobile office, by letterhead memorandum: a threat relayed from Lowndes County to kill King on his re
+- `cal.1965-10-28.press-and-broadcasting` (Oct. 28, LXXI 196510.yaml): The Carnegie Corporation names the Carnegie Commission on Educational Television: Killian chairman; Conant, Du
 - `cal.1965-10-29.civil-rights-the-executive` (Oct. 29, LXXI 196510.yaml): DeLoach to Mohr, after the prosecutors keep Hosea Williams and King out of the charge against the first middle
 - `cal.1965-10-29.civil-rights-the-executive-2` (Oct. 29, LXXI 196510.yaml): Belmont to Tolson: he has hinted to the Justice Department that the FBI's intercepts may show SCLC knew the ca
 - `cal.1965-10-29.economy` (Oct. 29, LXXI 196510.yaml): Aluminum. Ormet, Olin Mathieson's subsidiary, raises its price; Reynolds and Kaiser follow; Alcoa studying it.
@@ -9862,6 +9942,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-12-01.vietnam` (Dec. 1, LXXIII 196512.yaml): MACV's Combat Operations Center established, under a Marine brigadier general, W. K. Jones, due in January.
 - `cal.1965-12-01.vietnam-force-levels-2` (Dec. 1, LXXIII 196512.yaml): A MACV board recommends Tuy Hòa for the jet airfield in place of Qui Nhơn; Westmoreland concurs, CINCPAC appro
 - `cal.1965-12-01.vietnam-air-war` (Dec. 1, LXXIII 196512.yaml): The Joint Chiefs ask CINCSAC what it would take to raise Arc Light to 800 sorties a month. In November, 19 mis
+- `cal.1965-12-01.jobs-and-wages` (Dec. 1, LXXIII 196512.yaml): Johnson asks Wirtz, Ackley and Connor for "a basis for a realistic bill, with an Administration provision for 
 - `cal.1965-12-02.states-and-cities-los-angeles` (Dec. 2, LXXIII 196512.yaml): The Governor's Commission on the Los Angeles Riots, McCone chairman, reports: *Violence in the City—An End or 
 - `cal.1965-12-02.vietnam` (Dec. 2, LXXIII 196512.yaml): Lansdale to Lodge, "Role of S.L.O.": the Vietnamese ask his help; the Mission resents the role; his office wit
 - `cal.1965-12-02.vietnam-operations` (Dec. 2, LXXIII 196512.yaml): The carrier *Enterprise* enters combat, its sorties against Viet Cong targets in the South.
@@ -9947,6 +10028,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-12.conservative-movement` (Dec., LXXIII 196512.yaml): Stigler, economist, in *New Guard*, "The Problem of the Negro": the Negro "on average ... lacks a desire to im
 - `cal.1965-12-31.vietnam-2` (Dec. 31, LXXIII 196512.yaml): The combined American–RVNAF Plan AB 141 published, the first combined planning, for the campaign of 1966.
 - `cal.1965-12.conservation` (Dec., LXXIII 196512.yaml): Ackley's task force on pollution abatement, a special report: an effluent fee, the polluter to pay for cleanup
+- `cal.1965-12.jobs-and-wages` (Dec., LXXIII 196512.yaml): Two proposals on the minimum wage. Ackley and Connor, the 3.2 percent guidepost: the 26 million covered before
 - `cal.1966-01-01.jobs-and-wages` (Jan. 1, LXXIV 196601.yaml): New York. Lindsay sworn as mayor; the Transport Workers Union strikes the subways and buses the same morning. 
 - `cal.1966-01-01.steel` (Jan. 1, LXXIV 196601.yaml): Johnson to Califano at 7 a.m.: "What's happening with steel?" Martin, Bethlehem's chairman, in Ackley's office
 - `cal.1966-01-02.vietnam` (Jan. 2, LXXIV 196601.yaml): Rusk to Lodge, drafted himself, Washington to Saigon 1865: the heart of the problem "Hanoi's determination to 
@@ -9998,6 +10080,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-01-11.vietnam-2` (Jan. 11, LXXV 196601b.yaml): Bundy to Johnson, on the State of the Union: "My basic conviction" that the nonmilitary programs "are very muc
 - `cal.1966-01-11.mississippi` (Jan. 11, LXXV 196601b.yaml): Johnson's telegram to Vernon Dahmer's widow, 11:40 a.m.
 - `cal.1966-01-11.program` (Jan. 11, LXXV 196601b.yaml): The State of the Union. Califano, Valenti and Moyers in a "final meeting" with Johnson, his "last round of com
+- `cal.1966-01-11.opinion` (Jan. 11, LXXV 196601b.yaml): The Research Council, "Popular Support for the 'Welfare State'," in the White House's files: negative views of
 - `cal.1966-01-12.vietnam-pause` (Jan. 12, LXXV 196601b.yaml): Bundy to Johnson, against an official letter from the President to Hồ: it "would almost surely be misread in H
 - `cal.1966-01-13.vietnam-congress` (Jan. 13, LXXV 196601b.yaml): Luncheon at the State Department for the congressional leaders and senior committee members, Fulbright and Hic
 - `cal.1966-01-13.mississippi` (Jan. 13, LXXV 196601b.yaml): Jackson. The Legislature, all white, in debate on emergency bills against the Voting Rights Act. A representat
@@ -10068,6 +10151,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-01-31.vietnam-operations` (Jan. 31, LXXV 196601b.yaml): Masher. At An Thi, four miles north of Bồng Sơn, "a rat's nest of trenches and bunkers," a platoon of Moore's 
 - `cal.1966-01-31.voting-rights` (Jan. 31, LXXV 196601b.yaml): Macy to Johnson: the examiners have listed 93,778 new voters in the four States, 91,212 Negro, 2,566 white; 30
 - `cal.1966-01-31.vietnam-congress-4` (Jan. 31, LXXV 196601b.yaml): Fulbright on CBS, the evening the bombing resumes, to Martin Agronsky and Eric Sevareid: the war morally wrong
+- `cal.1966-01-31.jobs-and-wages` (Jan. 31 or Feb. 4, LXXV 196601b.yaml): Ackley to Califano, for the White House: "An excessive rise in the minimum wage will have a serious effect on 
 - `cal.1966-02.vietnam` (Feb., LXXVI 196602.yaml): Masher renamed White Wing: Bundy asks MACV for no provocative names; Wheeler passes it on, Masher his example;
 - `cal.1966-02-01.vietnam-congress` (Feb. 1, LXXVI 196602.yaml): Ten of the fifteen Senators who wrote against resuming the bombing meet privately with Fulbright; they agree t
 - `cal.1966-02-01.economy` (Feb. 1, LXXVI 196602.yaml): Evening. Martin to Johnson for Balderston's seat on the Board: Atherton Bean of Minneapolis, "too fine a man f
@@ -10094,6 +10178,8 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-02-11.vietnam` (Feb. 11, LXXVI 196602.yaml): McGeorge Bundy from Saigon to Johnson: "The general atmosphere here is enormously better than it was a year ag
 - `cal.1966-02-11.alabama` (Feb. 11, LXXVI 196602.yaml): Frank Johnson orders the Lowndes County schools to end all segregation. Twenty-four of the twenty-seven Negro 
 - `cal.1966-02-12.vietnam-humphrey` (Feb. 12, LXXVI 196602.yaml): Humphrey to Johnson from Saigon: Kỳ goes with him on his trips into the country and "appears to be learning so
+- `cal.1966-02-12.jobs-and-wages` (Feb. 12, LXXVI 196602.yaml): Wirtz to Johnson, two memoranda. "Confidential": $1.40 in 1966, $1.60 in 1968; "a 20 cent jump in one year ...
+- `cal.1966-02-12.jobs-and-wages-2` (Feb. 12, LXXVI 196602.yaml): Connor to Johnson on the minimum wage, with Ackley for the guidepost.
 - `cal.1966-02-13.vietnam-hearings` (Feb. 13, LXXVI 196602.yaml): Eric Sevareid, "Viet Inquiry Essential": the administration "trying to fight a limited war under an unlimited 
 - `cal.1966-02-14.mississippi` (Feb. 14, LXXVI 196602.yaml): Katzenbach to the President: the occupation of the Greenville Air Force Base "potentially explosive"; in the D
 - `cal.1966-02-14.mississippi-2` (Feb. 14, LXXVI 196602.yaml): Devours Nix, a suspect in the Dahmer murder, swears an affidavit of innocence: "I am very sorry about the bomb
@@ -10159,6 +10245,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-02.war-opposition` (Feb., LXXVI 196602.yaml): Gavin, in a letter in *Harper's*: to secure all of South Vietnam would take far more forces than are there and
 - `cal.1966-02-28.cities-and-housing` (Feb. 28, LXXVI 196602.yaml): The House Banking and Currency Committee's Subcommittee on Housing opens hearings on demonstration cities, 75 
 - `cal.1966-02.robert-kennedy` (Feb., LXXVI 196602.yaml): Days after Roger Wilkins's swearing in, by Wilkins's account: Johnson summons Thurgood Marshall, Solicitor Gen
+- `cal.1966-02.jobs-and-wages` (Feb., LXXVI 196602.yaml): Califano to Johnson: hold to the guidepost; but "Running through this, of course is Wirtz' feeling (which I sh
 - `cal.1966-03-01.vietnam-2` (Mar. 1, LXXVII 196603.yaml): Ball lunches with McGovern, Clark, Ribicoff and Tydings, at McGovern's asking, before the vote; the "dissentin
 - `cal.1966-03-01.king` (Mar. 1, LXXVII 196603.yaml): Levison and Andrew Young by telephone, the FBI's wiretap on Levison: Levison against giving up the legal high 
 - `cal.1966-03-01.transition-and-staff` (Mar. 1, LXXVII 196603.yaml): McGeorge Bundy president of the Ford Foundation, having left the White House in February.
@@ -10184,8 +10271,10 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-03-08.vietnam-congress` (Mar. 8, LXXVII 196603.yaml): MacArthur to Rusk: Mathias, a Republican for the war, says the White House briefing's denial of large troop in
 - `cal.1966-03-08.vietnam-support` (Mar. 8, LXXVII 196603.yaml): DeLoach, at the President's request and in confidence, with Hickenlooper: Fulbright "deeply involved and very 
 - `cal.1966-03-09.vietnam-struggle` (Mar. 9, LXXVII 196603.yaml): State to Lodge, Flash, 2653: Lodge's report "taken us completely by surprise"; deep concern over anything that
+- `cal.1966-03-09.jobs-and-wages` (Mar. 9, LXXVII 196603.yaml): Ackley's alternative: the 1966 and 1968 increases from February, not September; lower in the early months, 10 
 - `cal.1966-03-10.vietnam-air-war` (Mar. 10, LXXVII 196603.yaml): Unger to U. Alexis Johnson, "Proposed Mining of Haiphong Harbor": a major escalation, touching third countries
 - `cal.1966-03-10.elections-1966` (Mar. 10, LXXVII 196603.yaml): Chicago, the Sherman Hotel. Daley's Cook County Democratic organization makes its slate for the 1966 elections
+- `cal.1966-03-10.jobs-and-wages` (Mar. 10, LXXVII 196603.yaml): Henry Wilson to Johnson: the Education and Labor Committee's members "highly favorable" to the minimum wage fo
 - `cal.1966-03-11.vietnam-struggle` (Mar. 11, LXXVII 196603.yaml): Rallies for Thi at Đà Nẵng; strikes and closed schools spread to Huế.
 - `cal.1966-03-11.king` (Mar. 11, LXXVII 196603.yaml): New York. King speaks at a private dinner at Meshulem Riklis's home for SCLC; Wachtel, Riklis's lawyer, expect
 - `cal.1966-03-11.open-housing` (Mar. 11, LXXVII 196603.yaml): Sherwin Markman to O'Brien, by memorandum: a law against discrimination in housing a "loser in Congress."
@@ -10243,6 +10332,8 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-03.elections-1966-3` (Mar., LXXVII 196603.yaml): California. Reagan, at a primary debate before the State's Negro Republicans, asked how he could oppose the ne
 - `cal.1966-03.right-and-the-military` (Mar., LXXVII 196603.yaml): A Missouri chapter of the Minutemen plans to shoot Fulbright. By the testimony in Kansas City of Jerry Milton 
 - `cal.1966-03.immigration` (Mar., LXXVII 196603.yaml): The Bureau of Security and Consular Affairs abolished. Schwartz turns down Rusk's offer of a post as his assis
+- `cal.1966-03.opinion-2` (Mar., LXXVII 196603.yaml): Oliver Quayle and Company, a survey of California's 22nd congressional district for the White House: 76 percen
+- `cal.1966-03.jobs-and-wages` (Mar., early, LXXVII 196603.yaml): The Council of Economic Advisers' alternatives on the minimum wage to Johnson. He likes $1.40 in 1966, $1.50 i
 - `cal.1966-04-01.vietnam` (Apr. 1, LXXVIII 196604.yaml): JCS 1710-66: Westmoreland's request of March, supported by the Joint Chiefs, to move American forces into a li
 - `cal.1966-04-01.press-and-broadcasting` (Apr. 1, LXXVIII 196604.yaml): *Time*'s cover story on Humphrey: he has lately "added to his image as a White House Uriah Heep."
 - `cal.1966-04-01.press-and-broadcasting-2` (Apr. 1, LXXVIII 196604.yaml): Liz Carpenter to Johnson: "Let's start working to soften up the Kennedy columnist set ... subvert them from 'b
@@ -10329,6 +10420,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-04.intelligence` (Apr., LXXVIII 196604.yaml): Marcy to Fulbright: the lead article of *Foreign Affairs*'s spring issue, "The Faceless Viet Cong," the NLF a 
 - `cal.1966-04.intelligence-2` (Apr., LXXVIII 196604.yaml): Fulbright to Raborn, Director of Central Intelligence, on Carver's article. Raborn will do nothing about it an
 - `cal.1966-04-30.intelligence` (Apr. 30, LXXVIII 196604.yaml): Russell to Fulbright, after a month of Fulbright's asking that three of Foreign Relations join his CIA subcomm
+- `cal.1966-04.opinion` (Apr., LXXVIII 196604.yaml): Oliver Quayle and Company, a survey of Virginia for the White House: the voters want the administration to go 
 - `cal.1966-05-01.vietnam` (May 1, LXXIX 196605.yaml): Rostow to Johnson: a presidential "fireside chat," "to rally the sound 60% of the country to sweat out the nex
 - `cal.1966-05-02.alabama` (May 1–2, LXXIX 196605.yaml): Nesson proposes a Negro church near Hayneville for the Freedom Organization's convention; its caucus wants it 
 - `cal.1966-05-01.vietnam-congress` (May 1, LXXIX 196605.yaml): Javits on ABC's *Issues and Answers* for Johnson's course in Vietnam, after Kintner proposed that Moyers find 
@@ -10380,6 +10472,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-05-17.vietnam-struggle-2` (May 17, LXXIX 196605.yaml): Rusk's news conference: some of the issues fought over in South Vietnam secondary to "achieving a safe country
 - `cal.1966-05-17.republican-party-congress` (May 17, LXXIX 196605.yaml): Pennsylvania's Republican primaries for the House. The Committee for the Commonwealth, a front of Young Americ
 - `cal.1966-05-17.vietnam-congress` (May 17, LXXIX 196605.yaml): Fulbright at the National Press Club: regret for calling Saigon a whorehouse and for comparing the United Stat
+- `cal.1966-05-17.program` (May 17, LXXIX 196605.yaml): Hirshhorn, Harris and Ripley sign the agreement: legislation by ten days after the close of the 90th Congress;
 - `cal.1966-05-18.vietnam-struggle` (May 18, LXXIX 196605.yaml): Đà Nẵng, the bridge over the Tourane to the supply depots. Dissident troops have charges set to blow it. Walt 
 - `cal.1966-05-18.vietnam-struggle-2` (May 18, LXXIX 196605.yaml): Evening. Dissident troops take an ammunition depot outside Đà Nẵng and vow to blow it up if the loyal troops a
 - `cal.1966-05-18.robert-kennedy` (May 18, LXXIX 196605.yaml): McPherson to Johnson: Kennedy, Lindsay "and some of the far-out Negro leaders ... are talking the same game—as
@@ -10390,6 +10483,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-05-20.vietnam-struggle-2` (May 20, LXXIX 196605.yaml): Rusk to Lodge, drafted himself, 3568, after Johnson's meetings that evening: "Cannot overemphasize the vulnera
 - `cal.1966-05-20.vietnam-struggle-4` (May 20, LXXIX 196605.yaml): Huế. Trí Quang to an American at the consulate: negotiation with Kỳ and Thiệu "impossible"; they must step dow
 - `cal.1966-05-20.king` (May 20, LXXIX 196605.yaml): Levison to King: SCLC's deficit for 1966 projected at $450,000, nearly half its budget; layoffs or bankruptcy,
+- `cal.1966-05-20.elections-1966` (May 20, LXXIX 196605.yaml): Charles Roche, of the congressional liaison, to Johnson, by memorandum: "This is the big ball game of 1966. Th
 - `cal.1966-05-21.vietnam` (May 21, LXXIX 196605.yaml): Johnson and Fortas by telephone on Vietnam. Fortas's handwritten memorandum after: "We've got to make a commit
 - `cal.1966-05-21.vietnam-struggle-2` (May 21, LXXIX 196605.yaml): Trí Quang, through the consulate at Huế, to Johnson, after an attack on a pagoda at Đà Nẵng: end American aid 
 - `cal.1966-05-21.vietnam-struggle-3` (May 21, LXXIX 196605.yaml): State to Lodge, 3575, drafted by William Bundy and Unger, after Johnson's meeting with Bundy and Rostow at 4:3
@@ -10530,6 +10624,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-06-23.cities-and-housing-2` (June 23, LXXX 196606.yaml): The House housing subcommittee clears the demonstration cities bill almost intact, 7 to 3.
 - `cal.1966-06-24.mississippi-meredith` (June 24, LXXX 196606.yaml): Philadelphia. King, with Carmichael, McKissick and three hundred marchers, returns to the courthouse before so
 - `cal.1966-06-24.mississippi-meredith-2` (June 24, LXXX 196606.yaml): King to reporters in Mississippi: "I've heard nothing from President Johnson. It's terribly frustrating and di
+- `cal.1966-06-24.open-housing` (June 24, LXXX 196606.yaml): Mathias and McCulloch with Celler and Katzenbach on Mathias's compromise: the sale of owner-occupied homes wit
 - `cal.1966-06-25.vietnam` (June 25, LXXX 196606.yaml): Rostow to Johnson: "you can smell it all over: Hanoi's operation, backed by the Chicoms, is no longer being re
 - `cal.1966-06-25.mississippi-meredith` (June 25, LXXX 196606.yaml): Tougaloo College, the football field. Belafonte's freedom concert for the march: James Brown, Sammy Davis Jr.,
 - `cal.1966-06-26.mississippi-meredith` (June 26, LXXX 196606.yaml): Jackson. The march ends, some 15,000 at the Capitol, Meredith with them. Some 4,000 Negroes registered along t
@@ -10541,11 +10636,13 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-06-28.vietnam` (June 28, LXXX 196606.yaml): Canberra, at the SEATO Council. Rusk to Trần Văn Đỗ: "the situation has reached the point where North Vietnam 
 - `cal.1966-06-28.vietnam-force-levels` (June 28, LXXX 196606.yaml): Johnson to McNamara, drafted by Rostow: "I should like this schedule to be accelerated as much as possible so 
 - `cal.1966-06-28.cities-and-housing` (June 28, LXXX 196606.yaml): House Banking and Currency reports the demonstration cities bill, 18 to 8.
+- `cal.1966-06-28.open-housing` (June 28, LXXX 196606.yaml): House Judiciary, its first votes on the civil rights bill: Mathias's amendment rejected; a motion to strike Ti
 - `cal.1966-06-29.vietnam-congress` (June 29, LXXX 196606.yaml): Fulbright invites sixteen Senators to an informal meeting on the war: Democrats Bartlett, Burdick, Church, Cla
 - `cal.1966-06-29.vietnam-3` (June 29, LXXX 196606.yaml): Lodge to the President, 5830: the war going "plenty well enough" for pacification to start; "if we persist, we
 - `cal.1966-06-29.robert-kennedy` (June 29, LXXX 196606.yaml): Robert Kennedy, in a statement on the bombing of Haiphong: "Will this step effectively prevent North Vietnam f
 - `cal.1966-06-29.women` (June 29–30, LXXX 196606.yaml): Washington, the Third National Conference of Commissions on the Status of Women. June 29, a caucus in Friedan'
 - `cal.1966-06-29.intelligence` (June 29, LXXX 196606.yaml): Fulbright's staff, "Memorandum for Possible Use during Debate on CIA Resolution": the leaks of Foreign Relatio
+- `cal.1966-06-29.open-housing` (June 29, LXXX 196606.yaml): House Judiciary adopts Mathias's revised amendment, 21 to 13: land sold for housing development exempted, cert
 - `cal.1966-06.republican-party` (June, LXXX 196606.yaml): Goldwater to the *New York Times Magazine*: "Nixon as of now would be the party choice. This could change"; "f
 - `cal.1966-06.vietnam` (June, LXXX 196606.yaml): Moyers to Johnson, a memorandum: "the people are in a foul mood over Vietnam."
 - `cal.1966-06.republican-party-2` (June, LXXX 196606.yaml): The *Ripon Forum*, June, "The Twelfth Commandment": Christopher's campaign naive to accept "the fatal admoniti
@@ -10582,6 +10679,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-07-11.china` (July 11, LXXXI 196607.yaml): Rostow to Fulbright, after their talk at Moyers's dinner some days before, Johnson calling the draft "excellen
 - `cal.1966-07-11.robert-kennedy` (July 11, LXXXI 196607.yaml): *U.S. News & World Report*: a story that Robert Kennedy, as Attorney General, was responsible for the FBI's ea
 - `cal.1966-07-11.robert-kennedy-2` (July 11, LXXXI 196607.yaml): Redmon to Moyers, put in Johnson's night reading: "the Kennedy organization ... is working vigorously at the l
+- `cal.1966-07-11.welfare` (July 11, LXXXI 196607.yaml): Califano sets up a cabinet task force on income maintenance, Ackley its chairman.
 - `cal.1966-07-12.open-housing` (July 12–15, LXXXI 196607.yaml): Rioting on Chicago's West Side, begun when police shut off a fire hydrant opened against the heat (Check the o
 - `cal.1966-07-12.vietnam` (July 12, LXXXI 196607.yaml): Đà Nẵng. Westmoreland with Walt and Hoàng Xuân Lãm, the I Corps commander, on the North Vietnamese build-up be
 - `cal.1966-07-13.robert-kennedy` (July 13, LXXXI 196607.yaml): Robert Kennedy to Katzenbach, who will not say in the Department's brief confessing the FBI's eavesdropping of
@@ -10609,10 +10707,12 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-07-23.vietnam` (July 23, LXXXI 196607.yaml): Rice, from Hong Kong, 509: after the oil strikes China seems to have decided on more help for the North; "It w
 - `cal.1966-07-24.vietnam` (July 24, LXXXI 196607.yaml): Westmoreland's commanders' conference: base areas denied still 15.1 percent; "The enemy buildup continues," up
 - `cal.1966-07-25.vietnam` (July 25, LXXXI 196607.yaml): Rostow sends Johnson Rice's cable from Hong Kong to read, Rice "always against bombing in the North."
+- `cal.1966-07-26.open-housing` (July 26, LXXXI 196607.yaml): The Leadership Conference on Civil Rights on the Mathias compromise: most of its members critical of it, the b
 - `cal.1966-07-27.vietnam-congress` (July 27, LXXXI 196607.yaml): Mansfield to Johnson, on Fulbright's objection to the speech on Asia: perhaps a confusion of the United States
 - `cal.1966-07-27.republican-party` (July 27, LXXXI 196607.yaml): Goldwater: the answer to racial unrest not legislation but better police and stronger public support for them.
 - `cal.1966-07-28.europe-and-the-alliance` (July 28, LXXXI 196607.yaml): Rostow to Johnson on Greenhill, of Wilson's advance party: as over Berlin in 1961–62, the British fear confron
 - `cal.1966-07-28.congress` (July 28, LXXXI 196607.yaml): The Joint Committee on the Organization of the Congress, Monroney's and Madden's, issues its final report. Fir
+- `cal.1966-07-28.open-housing` (July 28, LXXXI 196607.yaml): The National Association of Real Estate Boards, a secret bulletin to its members: tell the representatives to 
 - `cal.1966-07.state-and-city-finance-nyc` (July, LXXXI 196607.yaml): Albany, N.Y. The legislature, before it adjourns July 6, lets New York City tax its residents' incomes, and co
 - `cal.1966-07-30.open-housing` (July 29–30, LXXXI 196607.yaml): Chicago, the Southwest Side. July 29, a vigil of fifty outside F. H. Halvorsen Realty, Kedzie and 63rd, called
 - `cal.1966-07-30.vietnam` (July 30, LXXXI 196607.yaml): Ground operations in the southern half of the demilitarized zone authorized, when in contact.
@@ -10642,6 +10742,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-08-02.vietnam-4` (Aug. 2, LXXXII 196608.yaml): Bangkok. Thanat Khoman, Thailand's Foreign Minister, at a meeting of Thailand, Malaysia and the Philippines, c
 - `cal.1966-08-02.civil-rights-organizations` (Aug. 2, LXXXII 196608.yaml): Bundy for the Ford Foundation: "full equality for all American Negroes is now the most urgent domestic concern
 - `cal.1966-08-02.open-housing` (Aug. 2, LXXXII 196608.yaml): Chicago. 500 march, under heavy police guard, through a tense white crowd to Parker & Finney Realtors in Belmo
+- `cal.1966-08-02.open-housing-2` (Aug. 2, LXXXII 196608.yaml): Cecil King of California on Title IV: his State passed a fair housing law in 1963 and overturned it a year lat
 - `cal.1966-08-03.vietnam-operations` (Aug. 3, LXXXII 196608.yaml): Hastings ends, one battalion left in its area. Some 8,000 Marines and 3,000 South Vietnamese engaged against e
 - `cal.1966-08-03.vietnam-force-levels` (Aug. 3, LXXXII 196608.yaml): Emrick, CINCPAC's chief of staff, to Westmoreland: resistance in Washington to the forces for 1967; the Joint 
 - `cal.1966-08-03.mississippi` (Aug. 3–4, LXXXII 196608.yaml): Philadelphia, the Neshoba County Fair. Governor Paul Johnson on black power: "a storm that contains the thunde
@@ -10729,6 +10830,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-08.draft` (Aug., LXXXII 196608.yaml): Robert Moses, sent an induction notice at thirty-one, past the age of the draft, takes it as punishment for hi
 - `cal.1966-08-31.open-housing` (Aug. 31, LXXXII 196608.yaml): Chicago, Liberty Baptist. Cries of "black power!" drown King's report of the terms; King invites Monroe Sharp 
 - `cal.1966-08-31.democratic-party` (Aug. 31, LXXXII 196608.yaml): McPherson and Watson recommend Bernhard as counsel to the Democratic National Committee. Johnson: "O.K. if you
+- `cal.1966-08.civil-disorders` (Aug., LXXXII 196608.yaml): Waukegan, Ill. Three nights of rioting in a two-square-mile area; eighty arrested, many hurt; six returning fr
 - `cal.1966-09-01.states-and-cities-dayton` (Sept. 1, LXXXIII 196609.yaml): Dayton. Lester Mitchell, a Negro, shot dead from a passing car while sweeping the walk before his bar on West 
 - `cal.1966-09-01.vietnam-2` (Sept. 1, LXXXIII 196609.yaml): The Negotiations Committee: a senior member of the Soviet UN delegation has suggested private talks on Vietnam
 - `cal.1966-09-01.cities-and-housing` (Sept. 1, LXXXIII 196609.yaml): House Banking and Currency agrees to the Senate's bill, 23 to 8.
@@ -10772,10 +10874,13 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-09-19.press-and-broadcasting-2` (Sept. 19, LXXXIII 196609.yaml): *The Nation*, "Failure of a Mission," on Johnson and the intellectuals, Goldman gone: "More perhaps than other
 - `cal.1966-09-20.republican-party-congress` (Sept. 20, LXXXIII 196609.yaml): Ford at the Illinois State Fair: "How long are we going to abdicate law and order—the backbone of any civiliza
 - `cal.1966-09-20.civil-rights-the-executive` (Sept. 20, LXXXIII 196609.yaml): McPherson to Katzenbach: "Surely, the next generation of Negro leadership does not have to be dominated by Sto
+- `cal.1966-09-21.open-housing` (Sept. 21, LXXXIII 196609.yaml): Pucinski, Democrat of Chicago, who backed Mathias's compromise: "Go into Chicago today in any home, any bar, a
 - `cal.1966-09-22.vietnam-2` (Sept. 22, LXXXIII 196609.yaml): State to Lodge, 52727: a draft speech for Kỳ announcing national reconciliation, the proclamation to be issued
 - `cal.1966-09-22.press-and-broadcasting` (Sept. 22, LXXXIII 196609.yaml): Carmichael, "What We Want," in the *New York Review of Books*: "We cannot be expected any longer to march and 
 - `cal.1966-09-22.robert-kennedy` (Sept. 22, LXXXIII 196609.yaml): Galbraith to Robert Kennedy, of his campaign speeches, thin and long on tributes to President Kennedy: "I depl
+- `cal.1966-09-22.welfare` (Sept. 22, LXXXIII 196609.yaml): Califano to Ackley: social security and welfare added to the income maintenance task force's subjects. Its rep
 - `cal.1966-09-23.robert-kennedy` (Sept. 23, LXXXIII 196609.yaml): Robert Kennedy at the New Hampshire Democratic State Convention, for McIntyre and Governor King: the record of
+- `cal.1966-09-25.elections-1966` (Sept. 25, LXXXIII 196609.yaml): Illinois 11th. John Hoellen, Republican alderman, against Pucinski, open housing his theme: "The major issues 
 - `cal.1966-09-26.vietnam-asian-trip` (Sept. 26, LXXXIII 196609.yaml): State briefs the Democratic and Republican leaders and the chairmen and ranking members of Foreign Relations a
 - `cal.1966-09-26.vietnam` (Sept. 26, LXXXIII 196609.yaml): Miller of the Vietnam desk to Unger, against McNamara's proposal: more military direction means "a commensurat
 - `cal.1966-09-26.alabama` (Sept. 26, LXXXIII 196609.yaml): Judge Werth Thagard dismisses with prejudice the charges against Tom Coleman in the shooting of Morrisroe. Dri
@@ -10816,6 +10921,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-10-05.vietnam-force-levels` (Oct. 5, LXXXIV 196610.yaml): Harold Johnson, Army Chief of Staff, to Westmoreland, WDC 11776: the barrier "in direct competition for resour
 - `cal.1966-10-05.program` (Oct. 5, LXXXIV 196610.yaml): McPherson to Johnson, 6:30 p.m.: the Hirshhorn Gallery bill passes the House only if the armed forces patholog
 - `cal.1966-10-05.economy` (Oct. 5, LXXXIV 196610.yaml): Califano to Johnson on controls, top secret: Robson's finding that under a declared emergency the Trading with
+- `cal.1966-10-05.elections-1966` (Oct. 5, LXXXIV 196610.yaml): Roche to Johnson, by memorandum: the White House's research to the press, the congressional Democrats essentia
 - `cal.1966-10-06.vietnam` (Oct. 6, LXXXIV 196610.yaml): The Negotiations Committee on Harriman's points for Johnson's meeting with Gromyko: Gromyko "would only listen
 - `cal.1966-10-06.vietnam-force-levels` (Oct. 6, LXXXIV 196610.yaml): Westmoreland to Harold Johnson, MAC 8710: the barrier's cost to his forces "far greater than my wildest assump
 - `cal.1966-10-07.elections-1966` (Oct. 7, LXXXIV 196610.yaml): Eisenhower to Nixon, against the war's critics, Mansfield and Javits by name: the war "creating more whimperin
@@ -10826,6 +10932,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-10-10.vietnam-force-levels` (Oct. 10, LXXXIV 196610.yaml): MACV's briefing for McNamara on the barrier. Starbird outlines his task force's plan; McNamara: "I do not know
 - `cal.1966-10-10.vietnam-congress` (Oct. 10, LXXXIV 196610.yaml): *The Nation*, "The Democratic Rebels in Congress": Robert Kennedy "has notably not tried to lead."
 - `cal.1966-10-11.vietnam` (Oct. 11, LXXXIV 196610.yaml): McNamara, in Saigon, to Lodge, by Lodge's memoir: he, Rusk and the President had wanted to compromise with Thi
+- `cal.1966-10-11.program` (Oct. 11, LXXXIV 196610.yaml): The White House's "Estimates of the Number of Persons Who Have Benefited from Selected Legislative Actions of 
 - `cal.1966-10-13.vietnam` (Oct. 13, LXXXIV 196610.yaml): Westmoreland to Sharp and the Joint Chiefs, "Military Planning and Operations in SVN": the successes and the b
 - `cal.1966-10-14.civil-rights-organizations` (Oct. 14, LXXXIV 196610.yaml): The New York Times: "Crisis and Commitment," an advertisement by Wilkins, Whitney Young, Randolph, Height, Rus
 - `cal.1966-10-15.black-nationalism` (Oct. 15, LXXXIV 196610.yaml): Oakland. Huey P. Newton and Bobby Seale found the Black Panther Party for Self-Defense. Its ten-point program,
@@ -10886,6 +10993,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-11-07.vietnam-2` (Nov. 7, LXXXV 196611.yaml): Cambridge, at dinner with Neustadt and other Harvard faculty: McNamara says future scholars will wish to study
 - `cal.1966-11-07.poverty` (Nov. 7, LXXXV 196611.yaml): Cotulla, Tex., the Welhausen School. Johnson, where he taught in 1928: "Right here I had my first lessons in p
 - `cal.1966-11-07.vietnam-3` (Nov. 7, LXXXV 196611.yaml): The Combined Campaign Plan for 1967, AB 142: the South Vietnamese army chiefly to support Revolutionary Develo
+- `cal.1966-11-07.elections-1966` (Nov. 7, LXXXV 196611.yaml): Nixon, campaigning: make the election "a National Price Protest Day."
 - `cal.1966-11-08.state-constitutions-ny` (Nov. 8, LXXXV 196611.yaml): New York. Delegates to the constitutional convention of 1967 elected, fifteen at large from party lists and th
 - `cal.1966-11-08.states-and-cities-nyc` (Nov. 8, LXXXV 196611.yaml): New York City. The Patrolmen's Benevolent Association's amendment to the charter carries, nearly two to one (C
 - `cal.1966-11-08.state-constitutions-la` (Nov. 8, LXXXV 196611.yaml): Louisiana's voters approve a domed stadium for New Orleans, the Louisiana Stadium and Exposition District and 
@@ -10903,6 +11011,8 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-11-09.mayors` (Nov. 9, LXXXV 196611.yaml): Chicago. Thomas Keane, Daley's negotiator, to the City Council: the summit agreement only "certain suggestions
 - `cal.1966-11-14.king-2` (Nov. 9–14, LXXXV 196611.yaml): Wick to DeLoach, Nov. 9: "our counterintelligence aim to thwart King in receiving money from the Teamsters has
 - `cal.1966-11-09.elections-1966-2` (Nov. 9, LXXXV 196611.yaml): Reagan to Goldwater by telephone, the day after the election: "If it hadn't been for what you did [in 1964], I
+- `cal.1966-11-09.republican-party-3` (Nov. 9, LXXXV 196611.yaml): Nixon, home from the Drake Hotel about midnight, calls his staff at 2:30 a.m. for the returns, State by State:
+- `cal.1966-11-09.king` (Nov. 9, LXXXV 196611.yaml): King on the elections: "Despite appeals to bigotry of an intensity and vulgarity never before witnessed in the
 - `cal.1966-11-10.vietnam-congress` (Nov. 10, LXXXV 196611.yaml): Mansfield proposes that the Security Council invite all the interested parties, North Vietnam, the NLF and Chi
 - `cal.1966-11-11.vietnam-congress` (Nov. 11, LXXXV 196611.yaml): Mansfield to Goldberg, privately, on how the UN might take up Vietnam to open negotiations; a copy to Johnson,
 - `cal.1966-11-11.vietnam-force-levels` (Nov. 11, LXXXV 196611.yaml): Johnson with McNamara and Wheeler approves McNamara's course: operations stabilized, pacification and negotiat
@@ -10910,6 +11020,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-11-13.republican-party` (Nov. 13, LXXXV 196611.yaml): New York, the Metropolitan Club, the Sunday after the midterms. The last meeting of Congress '66, Nixon presid
 - `cal.1966-11-13.civil-rights-organizations` (Nov. 13, LXXXV 196611.yaml): St. Helena Island, S.C., the Penn Community Center near Frogmore. King's retreat for SCLC's staff of seventy-f
 - `cal.1966-11-13.elections-1966` (Nov. 13, LXXXV 196611.yaml): Robert Kennedy's office answers *Congressional Quarterly*'s count, which gives him 39 percent of the candidate
+- `cal.1966-11-13.press-and-broadcasting` (Nov. 13, LXXXV 196611.yaml): The *New York Times*, "Republican Renascence," an editorial: "The nation has voted to restore the two parties 
 - `cal.1966-11-14.vietnam-support` (Nov. 14, LXXXV 196611.yaml): State's activities report to the White House: the heads of state of Ethiopia, Senegal, Tanzania and Zambia hav
 - `cal.1966-11-14.republican-party` (Nov. 14, LXXXV 196611.yaml): Chafee, Rhode Island's governor, to the Pennsylvania Council of Republican Women: "the American voter is becom
 - `cal.1966-11-14.health` (Nov. 14, LXXXV 196611.yaml): The Catholic bishops, "Statement on the Government and Birth Control": the government "rapidly abandoning" neu
@@ -10979,6 +11090,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-12-14.robert-kennedy` (Dec. 14, LXXXVI 196612.yaml): Moyers resigns as press secretary, to head *Newsday*. Robert Kennedy takes him to lunch at the Sans Souci; the
 - `cal.1966-12-15.robert-kennedy` (Dec. 15, LXXXVI 196612.yaml): The *Washington Post*, Harwood, "RFK Barred Bugging in 1962 Memo": Kennedy's directive of 1962 against "improp
 - `cal.1966-12-15.assassination` (Dec. 15, LXXXVI 196612.yaml): Rowe to Johnson: O'Donnell, roughly handled in Manchester's text, offers a public statement in Johnson's defen
+- `cal.1966-12-15.welfare` (Dec. 15, LXXXVI 196612.yaml): Cohen to the White House, two memoranda: the benefit changes and their funding, worked out by his staff since 
 - `cal.1966-12-16.assassination` (Dec. 16, LXXXVI 196612.yaml): Jacqueline Kennedy sues William Manchester, Harper & Row and *Look* in the New York courts to stop publication
 - `cal.1966-12-16.elections-1966` (Dec. 16–17, LXXXVI 196612.yaml): Eighteen of the twenty-four Democratic governors at White Sulphur Springs, W. Va., after the midterms.
 - `cal.1966-12-16.vietnam` (Dec. 16, LXXXVI 196612.yaml): An unsigned memorandum in State's files, "Fifteen Brief and Purposely Contentious Points": no viable governmen
@@ -11009,6 +11121,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-12.vietnam-congress-2` (Dec., LXXXVI 196612.yaml): Random House publishes Fulbright's *The Arrogance of Power*: the Johns Hopkins lectures, with an eight-point p
 - `cal.1966-12.robert-kennedy-3` (Dec., Christmas, LXXXVI 196612.yaml): Hickory Hill, the Christmas party. Melody Miller, a student who works for Robert Kennedy in her vacations: stu
 - `cal.1966-12.assassination` (Dec., LXXXVI 196612.yaml): Jacobsen, of the White House staff, asks Johnson's recollections ("Describe the hunting trip. Bear in mind tha
+- `cal.1966-12-31.program-2` (Dec. 31, LXXXVI 196612.yaml): Johnson to Humphrey by telephone, 11:26 p.m., Lady Bird Johnson on the line: facing the new Congress in Januar
 - `cal.1967-01-01.goldwater` (Jan. 1, LXXXVII 196701.yaml): Goldwater: "Why the hell we don't hit Haiphong, I don't know. So long as your enemy continues to get supplies,
 - `cal.1967-01-01.vietnam-operations` (Jan. 1, LXXXVII 196701.yaml): The 4th Infantry Division begins Sam Houston, border surveillance and search and destroy in western Pleiku. Th
 - `cal.1967-01-02.vietnam-air-war` (Jan. 2–7, LXXXVII 196701.yaml): Honolulu. Sharp's working conference on the air war outside South Vietnam: Hanoi to be convinced a long war is
@@ -11068,6 +11181,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-01-23.robert-kennedy` (Jan. 23, LXXXVII 196701.yaml): Schlesinger, from the City University of New York, to Robert Kennedy: time to speak out again on Vietnam, at t
 - `cal.1967-01-23.assassination` (Jan. 23, LXXXVII 196701.yaml): Roche to Johnson, again on Manchester: "absolute silence."
 - `cal.1967-01-24.vietnam` (Jan. 24, LXXXVII 196701.yaml): Westmoreland's command guidance for 1967 to his field commanders: "We have entered a new phase of the conflict
+- `cal.1967-01-24.economy-2` (Jan. 24, LXXXVII 196701.yaml): Mahon, chairman of House Appropriations, on the budget: "When we are in an inflationary period and the budget 
 - `cal.1967-01-25.war-opposition` (Jan. 25, LXXXVII 196701.yaml): King to the Nobel Institute, nominating Thich Nhat Hanh for the Peace Prize of 1967: "Thich Nhat Hanh offers a
 - `cal.1967-01-25.vietnam-operations` (Jan. 25, LXXXVII 196701.yaml): A Soviet mine found in the Saigon River, the first Russian mine found in the war.
 - `cal.1967-01-26.vietnam-operations` (Jan. 26, LXXXVII 196701.yaml): Cedar Falls ends at midnight, after nineteen days. Counted: nearly 750 of the enemy dead, 280 prisoners, 540 r
@@ -11096,12 +11210,15 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-01.vietnam-operations` (Jan., LXXXVII 196701.yaml): Deckhouse V, the Special Landing Force's landing in Kiến Hòa, unopposed and the enemy hard to find; intelligen
 - `cal.1967-01.robert-kennedy` (Jan., late, LXXXVII 196701.yaml): London. Robert Kennedy with Wilson, by vanden Heuvel's account: the United States wrong in Vietnam; if a true 
 - `cal.1967-01-31.conservation` (Jan. 31, LXXXVII 196701.yaml): Muskie introduces the administration's air quality bill, S. 780.
+- `cal.1967-01.welfare` (Jan., LXXXVII 196701.yaml): Cohen with Mills and other members on the financing: the new benefits about 1.5 percent of payrolls, half unde
+- `cal.1967-01.press-and-broadcasting-2` (Jan., LXXXVII 196701.yaml): The Carnegie Commission's report, *Public Television: A Program for Action*: a Corporation for Public Broadcas
 - `cal.1967-02-01.war-opposition` (Feb. 1, LXXXVIII 196702.yaml): Seven leaders of Clergy and Laymen Concerned About Vietnam, after some 2,000 of its members march at the White
 - `cal.1967-02-01.elections-1968` (Feb. 1, LXXXVIII 196702.yaml): Landon to Romney, by letter: "You fit what I think is the growing demand for a new sense of ethics and public 
 - `cal.1967-02-01.robert-kennedy` (Feb. 1, LXXXVIII 196702.yaml): Joseph Alsop to Robert Kennedy, as an "affectionate, admiring, and deeply concerned uncle": stay out of protes
 - `cal.1967-02-01.vietnam-operations` (Feb. 1, LXXXVIII 196702.yaml): Prairie II begins below the DMZ, the same forces. By Mar. 1 five Marine battalions committed; two battalions o
 - `cal.1967-02-02.robert-kennedy` (Feb. 2, LXXXVIII 196702.yaml): Bonn. Kiesinger to Robert Kennedy: "the majority of people do not understand what and why the United States is
 - `cal.1967-02-02.vietnam-marigold` (Feb. 2, LXXXVIII 196702.yaml): The *Washington Post*: Estabrook's report that a "promising" initiative was "bungled" in December when America
+- `cal.1967-02-02.republican-party-congress` (Feb. 2, LXXXVIII 196702.yaml): Dirksen, a statement to the press: "Every American family knows that, while it can perhaps for a little while 
 - `cal.1967-02-03.robert-kennedy` (Feb. 3, LXXXVIII 196702.yaml): Rome. Fanfani, the Foreign Minister, to Robert Kennedy, an hour: American bombing has sabotaged the negotiatio
 - `cal.1967-02-03.middle-east` (Feb. 3, LXXXVIII 196702.yaml): Fulbright to Ness: "I will try to get the word through [to the White House and State Department] in the best w
 - `cal.1967-02-03.vietnam-prisoners` (Feb. 3, LXXXVIII 196702.yaml): Twenty-eight prisoners repatriated to North Vietnam at the Bến Hải crossing in the DMZ. The first river patrol
@@ -11113,6 +11230,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-02-07.vietnam` (Feb. 7, LXXXVIII 196702.yaml): Rostow to Johnson, before the President sees Hugh Sidey of *Life*, who has asked about the "peace feelers": "W
 - `cal.1967-02-07.vietnam-saigon` (Feb. 7, LXXXVIII 196702.yaml): Saigon's edict for a Tet bonus to all its military and civil servants, some 700 million piasters, without join
 - `cal.1967-02-07.democratic-party` (Feb. 7, LXXXVIII 196702.yaml): Citizens for Kennedy-Fulbright, Martin Shepard regional coordinator, to the Democratic leaders: "Our party's f
+- `cal.1967-02-07.press-and-broadcasting` (Feb. 7, LXXXVIII 196702.yaml): Surrey, Assistant Secretary of the Treasury, to Cater: the Carnegie Commission's tax on receivers "more regres
 - `cal.1967-02-08.robert-kennedy` (Feb. 8, LXXXVIII 196702.yaml): Chicago, the University of Chicago's conference on China (Check). Robert Kennedy: Vietnam's communism "a nativ
 - `cal.1967-02-08.vietnam-2` (Feb. 8, LXXXVIII 196702.yaml): The allies begin a four-day cease-fire for Tet at 7 a.m.; 183 minor and 89 significant violations. Lam Sơn II 
 - `cal.1967-02-08.conservation` (Feb. 8, LXXXVIII 196702.yaml): Muskie's subcommittee opens hearings on S. 780; to May 18, in Los Angeles, Detroit, Denver and St. Louis. At L
@@ -11174,6 +11292,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-02-27.vietnam-3` (Feb. 27, LXXXVIII 196702.yaml): The ambassadors of the seven Manila Conference nations meet in Saigon.
 - `cal.1967-02-27.robert-kennedy-2` (Feb. 27, LXXXVIII 196702.yaml): Mankiewicz to Robert Kennedy, "Comments on Viet Nam Draft": only he can make a difference: "Not Morse, who is 
 - `cal.1967-02-27.robert-kennedy-3` (Feb. 27, LXXXVIII 196702.yaml): Harriman, at Johnson's bidding, to Robert Kennedy by telephone, 6 p.m.: "I hope you are postponing your speech
+- `cal.1967-02-27.opinion` (Feb. 27, LXXXVIII 196702.yaml): Harris: to combat inflation, spending cuts favored 75 percent, opposed 11; the 6 percent surcharge opposed 65 
 - `cal.1967-02-28.mayors-chicago` (Feb. 28, LXXXVIII 196702.yaml): Chicago primaries for mayor. Democratic: Daley renominated for a fourth term, some 420,000 votes (Check). Repu
 - `cal.1967-02.mississippi` (Feb., LXXXVIII 196702.yaml): Natchez. Wharlest Jackson, just promoted to a job at his plant held before only by whites, killed by a bomb in
 - `cal.1967-02.republican-party` (Feb., LXXXVIII 196702.yaml): Goldwater, in an interview: Wallace as a third party "would seriously cut into Republican strength in the Sout
@@ -11199,6 +11318,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-02-28.robert-kennedy` (Feb. 28, LXXXVIII 196702.yaml): Robert Kennedy asks Harper & Row to stop *New Problems, New Proposals*, his speeches. Mankiewicz: a postponeme
 - `cal.1967-02.robert-kennedy` (Feb., LXXXVIII 196702.yaml): Rostow, at Johnson's bidding, calls Katharine Graham of *Newsweek* and the *Post* to the White House: the Pres
 - `cal.1967-02.robert-kennedy-2` (Feb., LXXXVIII 196702.yaml): Robert Kennedy, watching Kosygin on television say Hanoi would talk if the bombing stopped, telephones Walinsk
+- `cal.1967-02.students` (Feb., LXXXVIII 196702.yaml): Madison. A demonstration at the University of Wisconsin against Dow Chemical, maker of napalm.
 - `cal.1967-03-01.republican-party` (Mar. 1, LXXXIX 196703.yaml): Washington, the Republican Victory Gala. Reagan, flown in for five minutes, escorted to the cameras by Goldwat
 - `cal.1967-03-01.vietnam-congress-2` (Mar. 1, LXXXIX 196703.yaml): Johnson to Jackson, by letter: "We are bombing North Vietnam because it is violating two solemn international 
 - `cal.1967-03-02.vietnam` (Mar. 2, LXXXIX 196703.yaml): Johnson to Lilienthal, by Lilienthal's journal: "We have got to get this thing straightened out. It is ruining
@@ -11276,6 +11396,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-03-24.vietnam-prisoners` (Mar. 24, LXXXIX 196703.yaml): The United States' protest through the International Committee of the Red Cross of atrocities against American
 - `cal.1967-03-25.war-opposition` (Mar. 25, LXXXIX 196703.yaml): Chicago. King leads a march against the war down State Street, some 5,000, Spock with him (Check), his first s
 - `cal.1967-03-27.court` (Mar. 27, LXXXIX 196703.yaml): The Supreme Court sends the Penn-Central case back to the ICC. Fortas, with Harlan, Stewart and White, dissent
+- `cal.1967-03-28.welfare` (Mar. 28, LXXXIX 196703.yaml): Schultze to Johnson: Mills "is in no hurry to move it [the bill], since he doesn't want to take up the 6% surc
 - `cal.1967-03-29.vietnam-support` (Mar. 29, LXXXIX 196703.yaml): Rostow to Johnson, after meeting Katzenbach and McNaughton, Mar. 27, on Washburn's committee: skeptical; a con
 - `cal.1967-03-29.king` (Mar. 29, LXXXIX 196703.yaml): Louisville. King with Muhammad Ali, two hours, Ali having said he will refuse induction in April on religious 
 - `cal.1967-03-29.vietnam-force-levels` (Mar. 29, LXXXIX 196703.yaml): McNamara proposes that the Army engineer units held back for want of equipment go to Vietnam at once and use R
@@ -11339,6 +11460,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-04-08.vietnam-operations` (Apr. 8, XC 196704.yaml): Pershing, the An Lão valley. The 3d Brigade engages an entrenched enemy company through the afternoon and even
 - `cal.1967-04-08.vietnam` (Apr. 8, XC 196704.yaml): Westmoreland's guidance to his commanders, on Sharp's and the Joint Chiefs' policies, for leaflet operations o
 - `cal.1967-04-08.king-2` (Apr. 8, XC 196704.yaml): King to Levison, on the FBI's tap, of Riverside: "I was probably politically unwise but will not agree that I 
+- `cal.1967-04-08.republican-party` (Apr. 8, XC 196704.yaml): The Republican Coordinating Committee on the administration's social security bill: "burdens on the weekly pay
 - `cal.1967-04-09.space` (Apr. 9, XC 196704.yaml): NASA gives the Apollo 204 Review Board's report to Congress.
 - `cal.1967-04-09.railroads` (Apr. 9, XC 196704.yaml): Sunday night, the Cabinet Room, Johnson back from Camp David; Siemiller's machinists alone refuse to extend. B
 - `cal.1967-04-09.laos` (Apr. 9, XC 196704.yaml): SLAM IV, Prairie Fire forces, B-52s and tactical air; Westmoreland concludes the SLAM concept must be extended
@@ -11461,6 +11583,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-05-11.vietnam-operations` (May 11, XCI 196705.yaml): Task Force Oregon begins Malheur near Đức Phổ, southeastern Quảng Ngãi, three battalions of the 1st Brigade, 1
 - `cal.1967-05-11.vietnam-force-levels` (May 11, XCI 196705.yaml): Westmoreland asks the last battalion of the 26th Marines' regimental landing team sent to Vietnam and the batt
 - `cal.1967-05-11.vietnam` (May 11, XCI 196705.yaml): Bunker's press conference in Saigon. The Mission's responsibility for Revolutionary Development integrated und
+- `cal.1967-05-11.press-and-broadcasting` (May 11, XCI 196705.yaml): Senate Commerce reports the public television bill, almost as introduced.
 - `cal.1967-05-12.civil-rights-organizations` (May 12, XCI 196705.yaml): Atlanta. SNCC's central committee chooses H. Rap Brown, 23, its Alabama project director, chairman for Carmich
 - `cal.1967-05-12.vietnam-congress` (May 12, XCI 196705.yaml): Dinner at the White House, Johnson, Russell, Mrs. Johnson and McPherson. Johnson's three choices: more bombing
 - `cal.1967-05-12.vietnam-air-war` (May 12, XCI 196705.yaml): Russell with Johnson, by his notes, on the pending strike at the power plant near Hồ's headquarters, McNamara 
@@ -11481,6 +11604,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-05-17.opinion-2` (May 17, XCI 196705.yaml): Harris Survey: "total military victory" 45 percent, 43 in February; withdrawal of both sides' forces under U.N
 - `cal.1967-05-17.vietnam-congress-2` (May 17, XCI 196705.yaml): Fulbright to Phaler: "I agree with everything you have written, and am ashamed of the fact that I have been un
 - `cal.1967-05-17.vietnam-saigon` (May 17, XCI 196705.yaml): Kỳ decrees a rice allowance of 200 piasters a month for heads of families in the armed forces and the Defense 
+- `cal.1967-05-17.press-and-broadcasting` (May 17, XCI 196705.yaml): The Senate passes the public broadcasting bill by voice vote.
 - `cal.1967-05-18.vietnam-congress` (May 18, XCI 196705.yaml): Fulbright at lunch with Russell, on Marcy's points: the two committees' duty to advise on the national interes
 - `cal.1967-05-18.vietnam-congress-3` (May 18, XCI 196705.yaml): Marcy, "Summary Proposal for Disengagement in Vietnam": the aim not "freedom" and "democracy" but "to maintain
 - `cal.1967-05-19.vietnam-congress` (May 19, XCI 196705.yaml): Fulbright to Russell, with Marcy's draft for joint hearings: the American interest in Southeast Asia; what it 
@@ -11652,6 +11776,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-07-24.civil-disorders-detroit-2` (July 24, XCIII 196707.yaml): Peterson, Michigan's Republican chairman, has the county chairmen within 150 miles of Detroit make their headq
 - `cal.1967-07-24.king` (July 24, XCIII 196707.yaml): King's conference call with his advisers: "There were dark days before, but this is the darkest." He approves 
 - `cal.1967-07-24.vietnam-commitments` (July 24, XCIII 196707.yaml): Marcy to Morse, of the national commitments resolution the staff of Foreign Relations has worked on since June
+- `cal.1967-07-24.republican-party` (July 24, XCIII 196707.yaml): The Republican leaders, a statement on the riots: "The nation is in crisis, and this Administration has failed
 - `cal.1967-07-25.civil-disorders` (July 25, XCIII 196707.yaml): Atlanta. King's telegram to Johnson, after Detroit: "Only drastic changes in the life of the poor will provide
 - `cal.1967-07-25.vietnam` (July 25, XCIII 196707.yaml): Johnson with the Senate leaders. Fulbright: the war "a hopeless venture," "ruining our domestic and our foreig
 - `cal.1967-07-25.democratic-party` (July 25, XCIII 196707.yaml): Rauh with McGovern, a long talk, by Rauh's account: McGovern has no intention of running against Johnson, nor 
@@ -11689,6 +11814,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-07.vietnam-5` (July, XCIII 196707.yaml): Bunker to Johnson, eyes only, on McNamara's coming visit: "It gives all of us here new encouragement and enthu
 - `cal.1967-07-31.vietnam-force-levels` (July 31, XCIII 196707.yaml): The fire support base west of Huế against the A Shau valley completed; two batteries from the 3d Marine Divisi
 - `cal.1967-07.vietnam-4` (July, XCIII 196707.yaml): Dorsal Fin, top-priority aerial reconnaissance of the Cambodian border with all sensors, 10 kilometers deep ov
+- `cal.1967-07.press-and-broadcasting-2` (July, XCIII 196707.yaml): House Commerce holds hearings on the public broadcasting bill, the same witnesses.
 - `cal.1967-08-01.civil-disorders` (Aug. 1, XCIV 196708.yaml): McPherson to Christian: "we look awfully programmatic and legalistic"; quit "beating up on Congress" over the 
 - `cal.1967-08-01.defense` (Aug. 1, XCIV 196708.yaml): The Defense Department announces the battleship *New Jersey* will be brought out of mothballs and recommission
 - `cal.1967-08-01.vietnam` (Aug. 1, XCIV 196708.yaml): The Southeast Asia Coordinating Committee, Bunker, Martin and Sullivan with Sharp and Westmoreland: concern at
@@ -11705,6 +11831,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-08-05.vietnam-force-levels` (Aug. 5, XCIV 196708.yaml): Westmoreland declines III MAF's request for an air defense battery: the allocations go by tactical priority, a
 - `cal.1967-08-05.vietnam-2` (Aug. 5, XCIV 196708.yaml): Peking. The "Agreement on China's Economic and Technical Assistance to Vietnam" for 1968 signed, negotiated by
 - `cal.1967-08-05.civil-disorders` (Aug. 5, XCIV 196708.yaml): Markman to Johnson, eight pages, after three days and nights in a Chicago ghetto: the key "alienation of the g
+- `cal.1967-08-05.civil-disorders-2` (Aug. 5, XCIV 196708.yaml): Hart, after the summer's riots: "What people saw a few years ago on television was police dogs jumping on peop
 - `cal.1967-08-06.robert-kennedy` (Aug. 6, XCIV 196708.yaml): Robert Kennedy on *Meet the Press*: "If we can spend $24 billion for the freedom and the liberty of the people
 - `cal.1967-08-07.vietnam` (Aug. 7, XCIV 196708.yaml): Apple, Saigon bureau chief, front page of the *New York Times*: the war "not going well," victory perhaps "bey
 - `cal.1967-08-07.vietnam-2` (Aug. 7, XCIV 196708.yaml): Rostow to Johnson: "All the evidence we have indicates bombing North Viet Nam (and Laos) helps cut down the le
@@ -11724,6 +11851,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-08-11.vietnam-air-war` (Aug. 11, XCIV 196708.yaml): SAC tells its units at home to be ready to send nine more B-52s to Guam on short notice for a rate of 900 sort
 - `cal.1967-08-11.robert-kennedy-2` (Aug. 11, XCIV 196708.yaml): William Connell, Humphrey's aide, to Watson, "The Howard Samuels Flap": a leak has killed the nomination of Sa
 - `cal.1967-08-11.vietnam-congress-2` (Aug. 11, XCIV 196708.yaml): Cater to Johnson, after a talk with Rowland Evans, "deeply disturbed": Ford and Laird "embarked on a deliberat
+- `cal.1967-08-11.opinion` (Aug. 11, XCIV 196708.yaml): Panzer to Johnson, a poll on the riots: radicals and Communist agitators started them, 45 percent of whites, 7
 - `cal.1967-08-12.vietnam` (Aug. 12, XCIV 196708.yaml): Gen. Harold K. Johnson, back from Vietnam, with Johnson, 11:47 a.m., then to the press at Johnson's suggestion
 - `cal.1967-08-12.vietnam-2` (Aug. 12, XCIV 196708.yaml): Westmoreland to Wheeler and Sharp, on the quotation in Apple's article: "inconceivable to me that any general 
 - `cal.1967-08-13.king` (Aug. 13, XCIV 196708.yaml): King on *Meet the Press*: "The tragedy is that we are today engaged in two wars and we are losing both. We are
@@ -11746,6 +11874,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-08-18.vietnam-prisoners` (Aug. 18, XCIV 196708.yaml): Westmoreland strongly recommends to Bunker more repatriations of North Vietnamese prisoners.
 - `cal.1967-08-19.vietnam-order-of-battle` (Aug. 19, XCIV 196708.yaml): Komer to Carver, "Wide discrepancy between MACV and CIA figures on enemy strength": "I cannot see case for inc
 - `cal.1967-08-19.vietnam-order-of-battle-2` (Aug. 19, XCIV 196708.yaml): Davidson, MACV's intelligence chief, to Godding of the Washington delegation, on the "Unacceptability of inclu
+- `cal.1967-08-19.elections-1968` (Aug. 19, XCIV 196708.yaml): Cater, Wattenberg and Ervin Duggan to Johnson, on Scammon's analysis: the voter who will decide 1968 "un-young
 - `cal.1967-08-20.vietnam-commitments` (Aug. 20, XCIV 196708.yaml): Fulbright on *Issues and Answers*: Johnson's remarks of Aug. 18 may deny Congress's power to declare war; repe
 - `cal.1967-08-20.vietnam-order-of-battle` (Aug. 20, XCIV 196708.yaml): Abrams to Wheeler, Sharp and Westmoreland, against surfacing an estimate with the self-defense and secret self
 - `cal.1967-08-20.vietnam-order-of-battle-2` (Aug. 20, XCIV 196708.yaml): Westmoreland to Wheeler and Sharp: "I do not concur in the inclusion of strength figures for the self-defense 
@@ -11754,6 +11883,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-08-21.vietnam-congress` (Aug. 21, XCIV 196708.yaml): Johnson with the departments' congressional liaison officers on the "Friendly Five": each to talk privately wi
 - `cal.1967-08-21.elections-1968` (Aug. 21, XCIV 196708.yaml): The Working Group for Percy, by memorandum: Rockefeller would be a good President but cannot be nominated, the
 - `cal.1967-08-21.press-and-broadcasting` (Aug. 21, XCIV 196708.yaml): Marjorie Hunter in the *New York Times*, the second lead on the front page: the Friday task force's secret rep
+- `cal.1967-08-21.press-and-broadcasting-2` (Aug. 21, XCIV 196708.yaml): House Commerce reports the public broadcasting bill, amended chiefly to assure political neutrality, 15 to 6, 
 - `cal.1967-08-22.robert-kennedy` (Aug. 22, XCIV 196708.yaml): Dolan to Robert Kennedy on the Senate races of 1968: a "pincers movement" of the President, the administration
 - `cal.1967-08-22.states-and-cities` (Aug. 22, XCIV 196708.yaml): Johnson offers Walter Washington the District's mayoralty and he accepts; Lindsay, met on the shuttle, threate
 - `cal.1967-08-22.vietnam-prisoners` (Aug. 22, XCIV 196708.yaml): Phú Quốc island. Five hundred prisoners in a compound of the prisoner-of-war camp stage a silent rebellion, re
@@ -11846,6 +11976,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-09-20.vietnam` (Sept. 20, XCV 196709.yaml): Rostow to Johnson: the enemy's battlefield and terror initiatives peaked in 1966, "now there is sliding even o
 - `cal.1967-09-20.vietnam-2` (Sept. 20, XCV 196709.yaml): Johnson with an Australian broadcasting group at the White House: "we may have made two mistakes in Vietnam": 
 - `cal.1967-09-20.vietnam-program-5` (Sept. 20, XCV 196709.yaml): Westmoreland gives the component commanders his preliminary guidance on civilianization and directs them to pl
+- `cal.1967-09-20.welfare` (Sept. 20, XCV 196709.yaml): The welfare mothers back at Senate Finance; Long has the doors barred. Long: "brood mares"; "If they can take 
 - `cal.1967-09-21.vietnam-congress` (Sept. 21, XCV 196709.yaml): A stag dinner, Johnson and Humphrey with Mansfield, Long, Hayden, Nelson, Clark, Church, Magnuson, Monroney, M
 - `cal.1967-09-21.vietnam-force-levels` (Sept. 21, XCV 196709.yaml): The Thai regiment, the Queen's Cobras, 2,300 men, arrives in its area in southern Biên Hòa. Narasuan begins th
 - `cal.1967-09-22.vietnam-force-levels` (Sept. 22, XCV 196709.yaml): McNamara to the Secretary of the Army, a memorandum, approving a brigade task force and the headquarters of th
@@ -11932,11 +12063,13 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-10-17.democratic-party` (Oct. 17, XCVI 196710.yaml): McGovern to Robert Kennedy by telephone: McCarthy has about decided to enter the primaries against Johnson. Ke
 - `cal.1967-10-17.vietnam-force-levels` (Oct. 17, XCVI 196710.yaml): Australia's Prime Minister announces to Parliament an increase of 1,700 men in Vietnam: an infantry battalion,
 - `cal.1967-10-17.war-opposition` (Oct. 17, XCVI 196710.yaml): "Bloody Tuesday": 2,500 close the Oakland Armed Forces Examining Station for three hours; police with clubs an
+- `cal.1967-10-17.welfare` (Oct. 17, XCVI 196710.yaml): Cohen to Johnson: Long brought around to the administration's benefits and taxes, "because he wants an increas
 - `cal.1967-10-18.students` (Oct. 18, XCVI 196710.yaml): Madison. Students sit in at the University of Wisconsin's Commerce Building against the recruiters of Dow Chem
 - `cal.1967-10-18.vietnam-congress` (Oct. 18, XCVI 196710.yaml): Morris Udall to Johnson: "a letter which is painful to write"; he has concluded "our Vietnam policies are unwi
 - `cal.1967-10-18.vietnam` (Oct. 18, XCVI 196710.yaml): McGeorge Bundy to Johnson, after Humphrey and Clifford: Clifford for "a gradually increasing squeeze" on the N
 - `cal.1967-10-18.mississippi` (Oct. 18, XCVI 196710.yaml): Meridian. Doar's closing argument: he has tried very few criminal cases and is there "to speak directly and fr
 - `cal.1967-10-18.king` (Oct. 18, XCVI 196710.yaml): Houston, the third failure of King's fund-raising tour with Belafonte. A local editorial: his Vietnam stance "
+- `cal.1967-10-18.press-and-broadcasting` (Oct. 18, XCVI 196710.yaml): The conferees on the public broadcasting bill settle the differences in the House's favor.
 - `cal.1967-10-19.vietnam` (Oct. 19, XCVI 196710.yaml): Johnson with Clifford and Rostow on the pressure for a pause: the question to go to the senior advisers. Their
 - `cal.1967-10-19.vietnam-congress` (Oct. 19, XCVI 196710.yaml): Rusk to Fulbright, asked to testify in public: a meeting "will run less risk of damaging our foreign relations
 - `cal.1967-10-19.elections-1968` (Oct. 19, XCVI 196710.yaml): Roche to Johnson, eyes only, on McCarthy's talk of running in the primaries.
@@ -11944,6 +12077,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-10-19.mayors-nyc` (Oct. 19, XCVI 196710.yaml): Hinman to Rockefeller, "Call from Bob Sweet": Lindsay's deputy mayor reaches out to Marshall to ease the tensi
 - `cal.1967-10-19.vietnam-2` (Oct. 19, XCVI 196710.yaml): Rusk to the embassy, on Saigon's policy of converting prisoners to ralliers: the United States sympathetic wit
 - `cal.1967-10-19.war-opposition` (Oct. 19, XCVI 196710.yaml): The permit for the march, from the Park Service, General Services, the District police and Arlington County. T
+- `cal.1967-10-19.press-and-broadcasting-2` (Oct. 19, XCVI 196710.yaml): The House adopts the conference report on the public broadcasting bill.
 - `cal.1967-10-20.war-opposition` (Oct. 20, XCVI 196710.yaml): Night, after the cards are left at Justice. Johnson to Califano: "I want a memo to the Attorney General tonigh
 - `cal.1967-10-20.elections-1968` (Oct. 20, XCVI 196710.yaml): Los Angeles, breakfast in McCarthy's suite: Lowenstein; Hill, of the California Democratic Council; Eller, McC
 - `cal.1967-10-20.press-and-broadcasting` (Oct. 20, XCVI 196710.yaml): *Time*'s cover, Rockefeller and Reagan. Rockefeller: a mistake to write off Reagan as Goldwater's copy; "When 
@@ -11965,6 +12099,9 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-10-25.vietnam-2` (Oct. 25, XCVI 196710.yaml): Rostow, for Clifford and himself, to Johnson: the senior advisers to meet Nov. 1–2, "since there is no single 
 - `cal.1967-10-25.vietnam-saigon` (Oct. 25, XCVI 196710.yaml): Kỳ signs the order for conscripting men of 18 to 33, after Thiệu's decree of Oct. 24 for partial mobilization.
 - `cal.1967-10-25.elections-1968` (Oct. 25, XCVI 196710.yaml): Fulbright to a Little Rock crowd, on the charge that dissent helps the enemy: "Ho Chi Minh couldn't care less 
+- `cal.1967-10-25.program` (Oct. 25, XCVI 196710.yaml): McPherson to Schultze, on the Hirshhorn appropriation: "I've talked to the boss about this. He is determined t
+- `cal.1967-10-26.press-and-broadcasting` (Oct. 26, XCVI 196710.yaml): The Senate adopts the conference report on the public broadcasting bill.
+- `cal.1967-10-26.program` (Oct. 26, XCVI 196710.yaml): Warren, chairman of the National Gallery's trustees, to Johnson: the site reserved in 1937 for additions to be
 - `cal.1967-10-27.democratic-party` (Oct. 27, XCVI 196710.yaml): New York. Citizens for Kennedy in '68, the national office, a press release and a fact sheet: 7,500 members, t
 - `cal.1967-10-27.vietnam-air-war` (Oct. 27, XCVI 196710.yaml): McPherson to Johnson on the bombing: it "has just about become the war in the eyes of the press and the minds 
 - `cal.1967-10-27.vietnam-operations` (Oct. 27, XCVI 196710.yaml): Sông Bé, Phước Long Province. A North Vietnamese regiment attacks a South Vietnamese battalion's command post;
@@ -11977,6 +12114,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-10-29.vietnam-force-levels` (Oct. 29, XCVI 196710.yaml): Thailand announces its force in Vietnam to be raised by a full army brigade, to 12,000 men.
 - `cal.1967-10-30.economy-surcharge` (Oct. 30, XCVI 196710.yaml): Mills to Surrey: reform of the tax law to wait, not to be a means of stalling the surcharge and the cuts; the 
 - `cal.1967-10-30.vietnam-elections` (Oct. 30, XCVI 196710.yaml): Humphrey to Johnson from Saigon, after his talk with Thiệu and Kỳ: "Both are determined to move strongly not o
+- `cal.1967-10-30.program` (Oct. 30–31, XCVI 196710.yaml): Cater to Johnson: John Walker of the National Gallery says no federal funds needed until the building is finis
 - `cal.1967-10.open-housing-mi` (Oct., XCVI 196710.yaml): Michigan. Romney asks the legislature, in special session, for a State open occupancy law against discriminati
 - `cal.1967-10-31.vietnam-order-of-battle` (Oct. 31, XCVI 196710.yaml): MACV's order of battle in its new form. The self-defense and secret self-defense forces and the political cadr
 - `cal.1967-10.vietnam` (Oct., XCVI 196710.yaml): Hanoi. A second wave of arrests, from mid-October, after the Politburo's session on the offensive: officers of
@@ -12007,6 +12145,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-10.robert-kennedy-3` (Oct., XCVI 196710.yaml): Robert Kennedy and Daniel Ellsberg, of Defense, speak on Vietnam to a meeting of CBS executives; in the car to
 - `cal.1967-10.democratic-party-2` (Oct., XCVI 196710.yaml): Martin Shepard, 32, of Citizens for Kennedy, charges Johnson with "betraying every promise he made" and "ruini
 - `cal.1967-10.elections-1968-5` (Oct., XCVI 196710.yaml): Rowe to Johnson, "Notes and Comments on: 'A White Paper'": "It is later than we think!"
+- `cal.1967-10.program` (Oct., XCVI 196710.yaml): House Appropriations strikes the Hirshhorn appropriation; the administration asks it back. The Johnsons with M
 - `cal.1967-11-01.democratic-party` (Nov. 1, XCVII 196711.yaml): New York, the West Side: liberal Democrats meet to dump Johnson. Weisl to Johnson: "shocking."
 - `cal.1967-11-01.vietnam-congress` (Nov. 1, XCVII 196711.yaml): Mansfield and Johnson by telephone on his resolution, after two days of hearings on it. By Mansfield's account
 - `cal.1967-11-01.vietnam-operations` (Nov. 1, XCVII 196711.yaml): Phoenix cut to a week from about Dec. 1, the 1st Brigade, 101st Airborne, alone, against the headquarters of M
@@ -12025,6 +12164,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-11-06.robert-kennedy` (Nov. 6, XCVII 196711.yaml): Dutton to Robert Kennedy: files on the "forty or so likely key Democrats" of the 1968 convention; Dolan to cal
 - `cal.1967-11-06.vietnam-force-levels` (Nov. 6, XCVII 196711.yaml): McNamara approves the Secretary of the Army's request to send the 11th Infantry Brigade to Vietnam by sea in D
 - `cal.1967-11-06.vietnam-operations` (Nov. 6, XCVII 196711.yaml): An enemy company kidnaps 245 Montagnard civilians nine kilometers west of An Khê, Bình Định; one killed.
+- `cal.1967-11-06.japan-and-korea-pueblo` (Nov. 6, XCVII 196711.yaml): The *Pueblo*, Commander Bucher, sails from Bremerton for the Pacific, fitted for electronic intelligence in Op
 - `cal.1967-11-07.mayors-cleveland` (Nov. 7, XCVII 196711.yaml): Cleveland. Stokes (D) elected mayor over Seth Taft (R), 129,318 to 127,467, 50.4 percent. He and Hatcher at Ga
 - `cal.1967-11-07.mayors-gary` (Nov. 7, XCVII 196711.yaml): Gary. Hatcher (D) elected mayor over Joseph Radigan (R), 39,940 to 37,729, 51.4 percent, the Lake County Democ
 - `cal.1967-11-07.mayors-boston` (Nov. 7, XCVII 196711.yaml): Boston. White elected mayor over Hicks, 102,706 to 90,154, 53.3 percent. Sworn Jan. 1.
@@ -12034,6 +12174,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-11-07.vietnam-operations` (Nov. 7, XCVII 196711.yaml): Lộc Ninh's last fight. The 1st Battalion, 26th Infantry, searching for the 272d Regiment northeast of the town
 - `cal.1967-11-07.vietnam-2` (Nov. 7, XCVII 196711.yaml): Westmoreland and Bunker to Washington, EMBTELs 7867 and 10573, on solid progress, no stalemate: "FRIENDLY FORC
 - `cal.1967-11-07.korea` (Nov. 7, XCVII 196711.yaml): The Joint Chiefs send Sharp a plan McNamara has approved, ten UH-1D helicopters diverted from an aviation comp
+- `cal.1967-11-07.elections-1968` (Nov. 7, XCVII 196711.yaml): O'Brien to Watson: "I cannot believe that a campaign can be waged by a committee of viewers. I feel that last 
 - `cal.1967-11-08.vietnam-congress` (Nov. 8, XCVII 196711.yaml): Marcy to Fulbright: propose, himself or through Mansfield, "a bull session in the White House" on whether to s
 - `cal.1967-11-08.vietnam-2` (Nov. 8, XCVII 196711.yaml): Tuesday lunch, 1:00 to 2:15 p.m.: Rusk proposes that State and Defense plan operations for the next four month
 - `cal.1967-11-08.elections-1968` (Nov. 8, XCVII 196711.yaml): McMath, touring Arkansas with speeches for the war and against Fulbright, disavows a Senate race: the "commitm
@@ -12062,6 +12203,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-11-14.vietnam-operations` (Nov. 14, XCVII 196711.yaml): Maj. Gen. Bruno Hochmuth, commanding the 3d Marine Division, killed in a helicopter explosion near Đông Hà; Ma
 - `cal.1967-11-14.conservation` (Nov. 14, XCVII 196711.yaml): Both houses accept the air quality conference report without debate; Muskie has restored $125 million for fuel
 - `cal.1967-11-14.war-opposition` (Nov. 14, XCVII 196711.yaml): New York, the Hilton, the Foreign Policy Association's fiftieth anniversary, Rusk speaking. About 4,000 outsid
+- `cal.1967-11-14.welfare` (Nov. 14, XCVII 196711.yaml): Senate Finance reports H.R. 12080 with amendments, 11 to 6, by party; John Williams against. The administratio
 - `cal.1967-11-15.economy` (Nov. 15, XCVII 196711.yaml): Surrey, to a New York financial group: "tax expenditures," revenue given up through the tax law's special prov
 - `cal.1967-11-15.war-opposition` (Nov. 15, XCVII 196711.yaml): Helms to Johnson, the CIA's "International Connections of the U.S. Peace Movement," asked for after the march:
 - `cal.1967-11-15.vietnam-operations` (Nov. 15, XCVII 196711.yaml): Đắk Tô. An enemy mortar attack on the airfield destroys two C-130s and most of an ammunition dump. Northeast o
@@ -12147,6 +12289,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-11-30.defense-clifford` (Nov. 30, XCVII 196711.yaml): Wicker in the *Times*, "McNamara and the Devil Theory": the suspicion that McNamara's going means Johnson's "c
 - `cal.1967-11.robert-kennedy-campaign` (Nov., late 1967, XCVII 196711.yaml): Walinsky to Robert Kennedy, "Gratuitous Advice Revisited": "a deep personal dislike of Lyndon Johnson"; "Our t
 - `cal.1967-11.robert-kennedy-campaign-2` (Nov., late 1967, XCVII 196711.yaml): At dinner with Ethel Kennedy and the Benno Schmidts, Robert Kennedy: "if I run, I will go a long way toward pr
+- `cal.1967-11.press-and-broadcasting-2` (Nov., after the signing, XCVII 196711.yaml): Johnson names an internal task force on financing public broadcasting: Califano, Gaither, Zwick, Schultze, Coh
 - `cal.1967-12-01.state-constitutions-pa` (Dec. 1, XCVIII 196712.yaml): Harrisburg. Pennsylvania's constitutional convention opens in the House chamber, its delegates elected Nov. 7.
 - `cal.1967-12-02.elections-1968` (Dec. 2–3, XCVIII 196712.yaml): Chicago, the Sheraton-Blackstone, the Conference of Concerned Democrats. Lowenstein brings the delegates to th
 - `cal.1967-12-04.king` (Dec. 4, XCVIII 196712.yaml): Atlanta, Ebenezer Baptist Church. King announces the Poor People's Campaign: the poor, black and white, to Was
@@ -12185,6 +12328,9 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-12-11.vietnam-air-war` (Dec. 11, XCVIII 196712.yaml): North Vietnam's air force combines MiG-17s and MiG-21s for the first time, in nine engagements; Dec. 13, fifte
 - `cal.1967-12-11.vietnam` (Dec. 11, XCVIII 196712.yaml): Westmoreland approves a plan for issuing the M16 rifle to the South Vietnamese army, on 85,371 rifles expected
 - `cal.1967-12-11.republican-party-congress` (Dec. 11, XCVIII 196712.yaml): Percy, on an inspection trip, caught in Viet Cong fire at Đắk Sơn and evacuated to Sông Bé.
+- `cal.1967-12-11.welfare` (Dec. 11, XCVIII 196712.yaml): The conferees on H.R. 12080 report, Mills dominant: benefits up 13 percent across the board, the minimum $55; 
+- `cal.1967-12-11.welfare-2` (Dec. 11, XCVIII 196712.yaml): Gardner and Cohen all day on the conference report; Cohen to Califano: the bill "an excuse for rioting next su
+- `cal.1967-12-11.welfare-3` (Dec. 11, XCVIII 196712.yaml): Califano to Johnson: Daley and Barr, with Lindsay on the substance, "will not oppose it [the report] without s
 - `cal.1967-12-12.open-housing-milwaukee` (Dec. 12, XCVIII 196712.yaml): Milwaukee. The Common Council passes an alderman's compromise open housing ordinance, modeled on the State's l
 - `cal.1967-12-12.labor` (Dec. 12, XCVIII 196712.yaml): Johnson to the AFL-CIO's convention: his Vietnam policies defended; the Republicans in Congress blocking his p
 - `cal.1967-12-12.vietnam` (Dec. 12, XCVIII 196712.yaml): The embassy in Saigon sets a wider buffer zone round the rubber plantations for herbicide operations.
@@ -12192,6 +12338,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-12-13.king-poor-peoples` (Dec. 13, XCVIII 196712.yaml): Atlanta. King names Bernard Lafayette to coordinate the spring "Poor People's Campaign for Jobs or Income" and
 - `cal.1967-12-13.vietnam-force-levels` (Dec. 13, XCVIII 196712.yaml): Westmoreland to the commander of the Seventh Air Force: raising the authorized C-130s in the country to 60 a M
 - `cal.1967-12-13.robert-kennedy-campaign` (Dec. 13, XCVIII 196712.yaml): Schlesinger to Robert Kennedy: "Even should you lose the fight for the nomination (which I do not think you wi
+- `cal.1967-12-13.democratic-party` (Dec. 13, XCVIII 196712.yaml): Afternoon. Muskie calls the Democratic Senate Campaign Committee, 25 Senators, on the filibuster Harris and Ro
 - `cal.1967-12-14.open-housing-mi` (Dec. 14, XCVIII 196712.yaml): Michigan. The House turns down Romney's open occupancy bill as the special session ends (Check the day and the
 - `cal.1967-12-14.economy-surcharge` (Dec. 14, XCVIII 196712.yaml): Fowler, Mills and Byrnes agree a tax bill needs an "austere" budget; Mills to bring the surcharge back in Janu
 - `cal.1967-12-14.elections-1968` (Dec. 14, XCVIII 196712.yaml): Manchester, N.H., the Sidor Lecture. McCarthy on "The New Civil Rights," to fourteen hundred, no word of enter
@@ -12256,15 +12403,18 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-12-31.vietnam` (Dec. 31–Jan. 2, XCVIII 196712.yaml): The New Year's stand-down, 36 hours, from 6 p.m. Dec. 31.
 - `cal.1967-12-31.vietnam-2` (Dec. 31, XCVIII 196712.yaml): American casualties in Vietnam from Jan. 1, 1961, to the year's end: 16,106 killed, 100,830 wounded, 584 missi
 - `cal.1967-12.robert-kennedy` (Dec., XCVIII 196712.yaml): Walinsky to Robert Kennedy, "Caesar's Meat," twenty pages on McNamara's going, "this most elegantly brutal of 
+- `cal.1967-12.labor` (Dec., XCVIII 196712.yaml): The AFL-CIO against the social security conference report: the fight to be in the Senate, a filibuster. Meany 
 - `cal.1968-01-01.king-poor-peoples` (Jan. 1, XCIX 196801.yaml): Rustin to King, "Strategy and Tactics": demonstrations in Washington "can only lead to further backlash and re
 - `cal.1968-01-02.republican-party-congress` (Jan. 2, XCIX 196801.yaml): Fannin (R-Ariz.) to the Phoenix Kiwanis: "an even greater application of force, and I don't mean manpower, wou
 - `cal.1968-01-02.robert-kennedy` (Jan. 2, XCIX 196801.yaml): Robert Kennedy to his supporters in New Hampshire seeking to be his delegates: "I am not a candidate for the n
 - `cal.1968-01-02.elections-1968` (Jan. 2, XCIX 196801.yaml): Manchester, N.H., the Wayfarer Hotel. Blair Clark to Hoeh: get ready, the Senator will announce something with
 - `cal.1968-01-02.king` (Jan. 2, XCIX 196801.yaml): Hoover asks for new wiretaps on King.
 - `cal.1968-01-02.vietnam-operations` (Jan. 2, XCIX 196801.yaml): Northeastern Tây Ninh. Elements of the 5th Viet Cong Division attack the 3d Brigade, 25th Division, on Yellows
+- `cal.1968-01-02.japan-and-korea-pueblo` (Jan. 2, XCIX 196801.yaml): Off Wonsan, late afternoon. A North Korean subchaser, Soviet-built, watches the *Pueblo* from 300 yards.
 - `cal.1968-01-03.elections-1968` (Jan. 3, XCIX 196801.yaml): Concord, N.H. McCarthy will enter the New Hampshire primary, Mar. 12 (Check the place).
 - `cal.1968-01-03.king-poor-peoples` (Jan. 3, XCIX 196801.yaml): Hoover to Mildred Stegall at the White House, the FBI's memorandum of Jan. 3 from James Harrison's reports: th
 - `cal.1968-01-03.vietnam-operations` (Jan. 3, XCIX 196801.yaml): The enemy fires 30 122mm rockets on the Đà Nẵng air base; three aircraft destroyed, 17 damaged.
+- `cal.1968-01-03.japan-and-korea-pueblo` (Jan. 3, XCIX 196801.yaml): Two North Korean trawlers inspect the *Pueblo* from 100 yards.
 - `cal.1968-01-04.king-poor-peoples` (Jan. 4, XCIX 196801.yaml): The FBI launches POCAM, against the Poor People's Campaign: a directive to its offices in twenty-one cities, t
 - `cal.1968-01-05.vietnam-tet` (Jan. 5, XCIX 196801.yaml): Saigon. The Mission, through Zorthian's Joint U.S. Public Affairs Office, makes public a document the 101st Ai
 - `cal.1968-01-05.vietnam-tet-2` (Jan. 5, XCIX 196801.yaml): The 4th Infantry Division captures "Urgent Combat Order Number One," a plan for attacks in Pleiku Province "be
@@ -12381,6 +12531,8 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-01-31.vietnam-tet-4` (Jan. 31, XCIX 196801.yaml): The Cabinet, after Tet. Johnson: the Pope "said 'I want to do something, anything for peace—can't you give us 
 - `cal.1968-01-31.robert-kennedy-campaign-3` (Jan. 31, XCIX 196801.yaml): Ellsberg to Robert Kennedy, "Thai/Ellsberg Comments on the January Asian Crisis": Johnson will go into the cam
 - `cal.1968-01.immigration` (Jan., XCIX 196801.yaml): The Select Commission on Western Hemisphere Immigration reports, divided: the majority for putting off the cei
+- `cal.1968-01.press-and-broadcasting-2` (Jan., XCIX 196801.yaml): The task force on financing public broadcasting: $30 million in 1969, rising to $135 million in 1973, insulate
+- `cal.1968-01.elections-1968-4` (Jan., XCIX 196801.yaml): Johnson asks O'Brien to look at Massachusetts. His poll: Johnson could beat McCarthy, with a stand-in campaign
 - `cal.1968-02-01.vietnam` (Feb. 1, C 196802.yaml): Saigon. General Nguyễn Ngọc Loan, the national police chief, shoots a bound Viet Cong prisoner in the street; 
 - `cal.1968-02-01.elections-1968` (Feb. 1–2, C 196802.yaml): Nixon announces for the Republican nomination in a letter to New Hampshire's voters, Feb. 1; at Manchester, Fe
 - `cal.1968-02-01.opinion` (Feb. 1, C 196802.yaml): Panzer to Johnson: Quayle's telephone poll on the State of the Union, Jan. 19–20: favorable 45 percent, unfavo
@@ -12493,6 +12645,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-02-17.black-nationalism` (Feb. 17, C 196802.yaml): Oakland, the "Free Huey" rally on Newton's birthday. Carmichael: "The vote in this country is, has been, and a
 - `cal.1968-02-17.jobs-and-wages-nyc` (Feb. 17, C 196802.yaml): New York. Both sides accept the arbitration of McDonnell, chairman of the State Mediation Board: the sanitatio
 - `cal.1968-02-17.vietnam` (Feb. 17, C 196802.yaml): The highest weekly American casualties of the war, the seven days ending Feb. 17, 543 killed and 2,547 wounded
+- `cal.1968-02-17.press-and-broadcasting` (Feb. 17, C 196802.yaml): Johnson names the Corporation for Public Broadcasting's board: Frank Pace, Jr., chairman; Killian, Hobby, Vale
 - `cal.1968-02-18.consumers` (Feb. 18, C 196802.yaml): The ABA's judicial administration section: it will ask the House of Delegates for a resolution favoring reform
 - `cal.1968-02-18.trade` (Feb. 18, C 196802.yaml): The Canadian-American Committee, 78 business, labor and farm leaders of both countries, warns Congress against
 - `cal.1968-02-18.vietnam-tet` (Feb. 18, C 196802.yaml): The Pentagon's week: 543 Americans killed, 2,547 wounded, the most yet; American losses for the first time pro
@@ -12690,10 +12843,12 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-03-05.vietnam-force-levels` (Mar. 5, CI 196803.yaml): The Joint Chiefs approve the 101st Airborne Division's phased conversion to an airmobile division within exist
 - `cal.1968-03-05.vietnam-force-levels-2` (Mar. 5, CI 196803.yaml): The twelfth Naval Mobile Construction Battalion, NMCB 4, ordered by the Joint Chiefs Feb. 4, its men airlifted
 - `cal.1968-03-05.elections-1968-3` (Mar. 5, CI 196803.yaml): Governor William Guy of North Dakota to Watson for Johnson: the public will vote for those it trusts to get it
+- `cal.1968-03-05.elections-1968-4` (Mar. 5, CI 196803.yaml): Massachusetts's filing day for the Apr. 30 primary. Maurice Donahue, president of the State Senate, ready to s
 - `cal.1968-03-06.elections-1968` (Mar. 6, CI 196803.yaml): New Hampshire. Johnson's write-in campaign, Boutin its organizer, a full-page advertisement in the State's new
 - `cal.1968-03-06.republican-party` (Mar. 6, CI 196803.yaml): Agnew chairman of the national Draft Rockefeller headquarters, set up by Al Abrahams a few days after Agnew's 
 - `cal.1968-03-06.king-poor-peoples` (Mar. 6, CI 196803.yaml): The FBI's study "Outlook for Racial Violence in Washington, D.C.," approved by Hoover: the campaign "a grave t
 - `cal.1968-03-06.vietnam-2` (Mar. 6, CI 196803.yaml): Rostow to Johnson: "We are clearly in the midst of an unresolved critical battle"; the enemy losing about 1,00
+- `cal.1968-03-06.elections-1968-2` (Mar. 6, CI 196803.yaml): O'Brien to the White House, a memorandum on the primaries: in Wisconsin, Nebraska and Oregon the President's n
 - `cal.1968-03-07.democratic-party` (Mar. 7, CI 196803.yaml): Guy, governor of North Dakota, to Johnson, from his talks with the State's Democrats: "The war is increasingly
 - `cal.1968-03-07.goldwater` (Mar. 7, CI 196803.yaml): Goldwater will support the nominee, but do "all within my power" to help Nixon.
 - `cal.1968-03-07.cities-and-housing` (Mar. 7, CI 196803.yaml): The *Wall Street Journal*, Karmin, "'Follow the Leader' as Played by LBJ": the administration's housing bill t
@@ -12748,6 +12903,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-03-13.elections-1968-3` (Mar. 13, CI 196803.yaml): Manchester, McCarthy's press conference the morning after: "I think I can get the nomination"; the Wisconsin c
 - `cal.1968-03-13.open-housing` (Mar. 13, CI 196803.yaml): Johnson to the Cabinet, two days after the Senate's vote: lobby the House for open housing. "If any Cabinet me
 - `cal.1968-03-13.robert-kennedy-campaign` (Mar. 13, CI 196803.yaml): Dutton to Robert Kennedy, angry, on the commission: "You are dealing not just with Viet Nam but with the psych
+- `cal.1968-03-13.economy-surcharge` (Mar. 13, CI 196803.yaml): Humphrey to Barefoot Sanders: "We literally have to frighten people by telling them the sorry facts—the danger
 - `cal.1968-03-14.democratic-party` (Mar. 14, CI 196803.yaml): Lunch of the House class of the 1950s, McGovern host, Udall, Metcalf and Frank Thompson; Robert Kennedy in McC
 - `cal.1968-03-14.elections-1968` (Mar. 14, CI 196803.yaml): Nixon to the Associated Press, on ending the war: "no magic formula, no gimmick. If I had a gimmick I would te
 - `cal.1968-03-14.elections-1968-2` (Mar. 14, CI 196803.yaml): Roche to Johnson, eyes only: "Your troops need a standard to rally around. The longer you put off announcing y
@@ -12759,6 +12915,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-03-14.vietnam-205000-2` (Mar. 14, CI 196803.yaml): Hoopes, Under Secretary of the Air Force, to Clifford: "repeated miscalculations as to the force and time requ
 - `cal.1968-03-14.vietnam-operations` (Mar. 14, CI 196803.yaml): An enemy company enters the La Hai refugee center at Đồng Xuân, Phú Yên, and abducts 299 families, 1,012 peopl
 - `cal.1968-03-14.elections-1968-4` (Mar. 14, CI 196803.yaml): Panzer to Johnson: talk radio a "politically undeveloped medium" of "great opportunities"; a "Jaw Corps ... to
+- `cal.1968-03-14.press-and-broadcasting-2` (Mar. 14, CI 196803.yaml): The *Los Angeles Times*, "The Gold Crisis Is Here," an editorial: "That crisis is now upon us, and this countr
 - `cal.1968-03-15.economy-surcharge` (Mar. 15, CI 196803.yaml): Sanders to Johnson: "There is enough concern in the House right now that if a tax bill were on the floor we co
 - `cal.1968-03-15.robert-kennedy` (Mar. 15, CI 196803.yaml): Robert Kennedy's telegrams to Democrats, Speaker McCormack among them: "I want you to know before my public an
 - `cal.1968-03-15.elections-1968` (Mar. 15, CI 196803.yaml): The White House on Robert Kennedy's coming entry. Watson with Governor Hughes, 10:49 a.m.: "the Kennedy thing 
@@ -12768,6 +12925,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-03-15.elections-1968-2` (Mar. 15, CI 196803.yaml): New York, morning. Deardourff, off an all-night flight, to Hinman: "We can win." A call to Rockefeller, who as
 - `cal.1968-03-15.vietnam` (Mar. 15, CI 196803.yaml): Westmoreland to Sharp: Thiệu has ordered 100,000 to 125,000 men made available to the South Vietnamese forces 
 - `cal.1968-03-15.elections-1968-3` (Mar. 15, CI 196803.yaml): Rowe to Johnson, the eve of Robert Kennedy's announcement: "We should have moved in California by now!"
+- `cal.1968-03-15.elections-1968-4` (Mar. 15, CI 196803.yaml): Nixon on the gold crisis: a "vote of no confidence" in Johnson's fiscal policies, laid to deficit spending.
 - `cal.1968-03-16.elections-1968` (Mar. 16, CI 196803.yaml): Green Bay, Wis., about 2 a.m. Edward Kennedy, through Blair Clark and Goodwin, with McCarthy, to propose a joi
 - `cal.1968-03-16.elections-1968-2` (Mar. 16, CI 196803.yaml): Manatos, of the congressional liaison, to Johnson on the Senate's reactions to Robert Kennedy's announcement. 
 - `cal.1968-03-16.robert-kennedy` (Mar. 16, CI 196803.yaml): New York. Robert Kennedy marches down Fifth Avenue in the St. Patrick's Day parade, the day of his announcemen
@@ -12787,6 +12945,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-03-17.vietnam-operations` (Mar. 17, CI 196803.yaml): The 1st Brigade, 9th Division, leaves Trương Công Định, begun Mar. 7, for People's Road, to open Route 4 in Đị
 - `cal.1968-03-17.press-and-broadcasting` (Mar. 17, CI 196803.yaml): Donald Kirk, *Washington Star*: the more officials explain the command arrangements in I Corps, the less "obse
 - `cal.1968-03-17.press-and-broadcasting-2` (Mar. 17, CI 196803.yaml): Wheeler asks Westmoreland how far the press's revelations have damaged MACV's plans. The reply's examples: pho
+- `cal.1968-03-17.king` (Mar. 17, CI 196803.yaml): James Earl Ray, escaped from the Missouri State Penitentiary in April 1967, files a change of address to gener
 - `cal.1968-03-18.king` (Mar. 18, CI 196803.yaml): Memphis, the sanitation strike. King at Mason Temple calls for a general strike and a march.
 - `cal.1968-03-18.robert-kennedy` (Mar. 18, CI 196803.yaml): Manhattan, Kan. Robert Kennedy, two days a candidate, gives the Landon Lecture at Kansas State University, som
 - `cal.1968-03-18.vietnam-congress` (Mar. 18, CI 196803.yaml): The House: 132 members, 91 Republicans and 41 Democrats, sponsor a resolution for an immediate congressional r
@@ -12873,6 +13032,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-03-27.robert-kennedy-campaign` (Mar. 27, CI 196803.yaml): Schlesinger to Robert Kennedy, after Vanderbilt: "it is a little early in the campaign for that. Let [Johnson]
 - `cal.1968-03-27.elections-1968-3` (Mar. 27, CI 196803.yaml): Bill Crook, of OEO, to Watson: Robert Kennedy's young crowds, "reminiscent of the Sinatra-Presley syndrome," t
 - `cal.1968-03-27.elections-1968-4` (Mar. 27, CI 196803.yaml): William Connell, Humphrey's aide, "New York and the O'Connor Operation": "O'Connor is going like a house afire
+- `cal.1968-03-27.king-2` (Mar. 27, CI 196803.yaml): Ray at the Gun Rack in Birmingham, asking about hunting rifles.
 - `cal.1968-03-28.students-los-angeles` (Mar. 28, CI 196803.yaml): Los Angeles. The Board of Education hears the Educational Issues Coordinating Committee's 39 demands. Thirteen
 - `cal.1968-03-28.king` (Mar. 28, CI 196803.yaml): King, from Memphis, on the march with Hosea Williams in Atlanta. Williams tells Jim Harrison, SCLC's comptroll
 - `cal.1968-03-28.robert-kennedy` (Mar. 28, CI 196803.yaml): Berger to Dolan on Mississippi: former members of the Freedom Democratic Party, and some of the regular delega
@@ -12893,6 +13053,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-03-29.robert-kennedy` (Mar. 29, CI 196803.yaml): Bellinger to Panzer, a review of Robert Kennedy's record: "one has to look into the amendments to find his dis
 - `cal.1968-03-29.king-memphis-3` (Mar. 29, CI 196803.yaml): King to Levison by telephone, the FBI's tap: the march will be read as a sign "that Martin Luther King is at t
 - `cal.1968-03-29.press-and-broadcasting` (Mar. 29, CI 196803.yaml): The *St. Louis Globe-Democrat* and the Memphis *Commercial Appeal*, on the lines of the FBI's items. The *Comm
+- `cal.1968-03-29.king-2` (Mar. 29–30, CI 196803.yaml): Ray at the Long-Lewis Hardware Store in Bessemer, Ala.; then buys a Remington .243 at the Aeromarine Supply Co
 - `cal.1968-03-30.soviet-union-czechoslovakia` (Mar. 30, CI 196803.yaml): Prague. The National Assembly elects Svoboda President.
 - `cal.1968-03-30.elections-1968` (Mar. 30, CI 196803.yaml): Busby's new version of the statement withdrawing from the race, sent while Johnson goes over the last draft of
 - `cal.1968-03-30.vietnam-205000-2` (Mar. 30, CI 196803.yaml): Clifford briefs Stennis, Margaret Chase Smith, Symington, Jackson and others of Armed Services: the bombing ha
@@ -12941,6 +13102,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-03.robert-kennedy-campaign` (Mar., early, CI 196803.yaml): Ellsberg gives Robert Kennedy Wheeler's report on Westmoreland's request for 206,000 more men. Kennedy: "And J
 - `cal.1968-03.elections-1968-5` (Mar., first week, CI 196803.yaml): Charles Bartlett, back from New Hampshire, to Johnson: the State's Democrats, Governor King among them, "reall
 - `cal.1968-03-31.elections-1968-10` (Mar. 31, CI 196803.yaml): Lynda Johnson Robb home at 7 a.m. from seeing Charles Robb off to Vietnam. In the early afternoon Lady Bird Jo
+- `cal.1968-03-31.elections-1968-11` (Mar. 31, CI 196803.yaml): Minutes after Johnson's address, Robert Kennedy to O'Brien by telephone: manage his campaign. "This is a new b
 - `cal.1968-04-01.vietnam-2` (Apr. 1, CII 196804.yaml): Operation Pegasus: the 1st Cavalry Division and Marines west along Route 9 toward Khe Sanh.
 - `cal.1968-04-01.elections-1968` (Apr. 1, CII 196804.yaml): Nixon, in a statement on the address: "in my judgment, a bombing halt by itself would not be a step toward pea
 - `cal.1968-04-01.robert-kennedy-campaign` (Apr. 1, CII 196804.yaml): Chicago, the day after Johnson's withdrawal. Edward Kennedy with St. Angelo, Indiana's Democratic chairman: wo
@@ -12978,6 +13140,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-04-03.vietnam-3` (Apr. 3, CII 196804.yaml): William E. Colby takes up the post of Assistant Chief of Staff for CORDS as L. Wade Lathram leaves.
 - `cal.1968-04-03.robert-kennedy-campaign` (Apr. 3, CII 196804.yaml): Schlesinger to Robert Kennedy: "For the moment, the case against military escalation in Vietnam has been won."
 - `cal.1968-04-03.king-memphis-2` (Apr. 3, CII 196804.yaml): Memphis, the Lorraine. King and his staff some hours with Charles Cabbage and the Invaders: they will be marsh
+- `cal.1968-04-03.king-2` (Apr. 3, CII 196804.yaml): Evening. Ray, as Eric S. Galt, registers at the New Rebel Motel outside Memphis, Room 34.
 - `cal.1968-04-04.robert-kennedy` (Apr. 4, CII 196804.yaml): Indianapolis. Robert Kennedy, from a flatbed truck at a rally in a Negro neighborhood, tells the crowd that Ki
 - `cal.1968-04-04.civil-disorders` (Apr. 4, CII 196804.yaml): Washington, from 14th and U Streets, at night: the riots after King's death begin; more than a hundred cities 
 - `cal.1968-04-04.elections-1968` (Apr. 4, CII 196804.yaml): Muncie, Ind., the afternoon. Robert Kennedy speaks; asked by a young Negro whether his belief in white people'
@@ -13001,6 +13164,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-04-06.king` (Apr. 6, CII 196804.yaml): Rockefeller sends Canzeri, Boyd and Wyatt Tee Walker to Atlanta, his money behind them, to help the King famil
 - `cal.1968-04-06.vietnam-force-levels` (Apr. 6, CII 196804.yaml): The Joint Chiefs approve 24,500 more spaces, a new ceiling of 549,500 in South Vietnam, promulgated by McNamar
 - `cal.1968-04-06.vietnam-force-levels-2` (Apr. 6, CII 196804.yaml): The Joint Chiefs defer Program 5's civilianization schedule about six months, Tet having emptied the labor for
+- `cal.1968-04-06.elections-1968` (Apr. 6, CII 196804.yaml): O'Brien to Humphrey: he will go with Robert Kennedy. Humphrey asks him to keep a channel open between the cand
 - `cal.1968-04-07.elections-1968` (Apr. 7, CII 196804.yaml): Irwin Miller, of the Republicans for Johnson of 1964, asks whether Johnson would object to his heading a Draft
 - `cal.1968-04-07.king` (Apr. 7, CII 196804.yaml): Atlanta. Nixon calls on King's family at their home; with Coretta Scott King, by Nixon's account, of his first
 - `cal.1968-04-07.civil-disorders-king` (Apr. 7, CII 196804.yaml): Johnson gives up the address to a joint session on the cities planned after King's death. The recommendations 
@@ -13024,6 +13188,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-04-10.elections-1968-state-conventions` (Apr. 10, CII 196804.yaml): Connecticut. Democratic primaries in thirty-one of the larger towns, on petitions McCarthy's people filed, for
 - `cal.1968-04-10.robert-kennedy-campaign` (Apr. 10, CII 196804.yaml): Fort Wayne, Ind., the primary campaign. Robert Kennedy on King's death: "It could be the beginning of a final 
 - `cal.1968-04-10.king` (Apr. 10, CII 196804.yaml): The FBI's memorandum "Assassination of Martin Luther King, Jr.," to the White House with an unsigned memorandu
+- `cal.1968-04-10.economy-surcharge` (Apr. 10, CII 196804.yaml): Califano to Johnson, on Mills's terms: "If you get stuck either with no tax bill or with provisions of the kin
 - `cal.1968-04-11.vietnam-air-war` (Apr. 11, CII 196804.yaml): Reconnaissance flights over North Vietnam above the 20th parallel, stopped after the exchange with Hanoi of Ap
 - `cal.1968-04-11.economy-surcharge` (Apr. 11, CII 196804.yaml): Johnson with Mills, a long talk: he has even forsworn another term to find a compromise, and "the situation is
 - `cal.1968-04-11.robert-kennedy` (Apr. 11, CII 196804.yaml): Barron to Robert Kennedy, the night reading, on the grass roots: the campaign enlisting former Peace Corps vol
@@ -14279,8 +14444,10 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-08.elections-1968-miami-2` (Aug., early, CVI 196808.yaml): A telephone call from Miami Beach to Nixon, resting at Montauk, N.Y.: to his staff's surprise, he will take a 
 - `cal.1968-08.elections-1968-4` (Aug., CVI 196808.yaml): After the convention, Humphrey to Dobrynin: Johnson gives him no appreciable support. "I don't even know who J
 - `cal.1968-08.vietnam` (Aug., CVI 196808.yaml): T-Day planning, for the day hostilities end. On the Joint Chiefs' guidance MACV draws time-phased concepts for
+- `cal.1968-08-31.elections-1968-2` (Aug. 31, CVI 196808.yaml): Mitchell, Nixon's campaign manager, polls showing Nixon may carry New York and New Jersey: "the time is ripe f
 - `cal.1968-09.elections-1968` (Sept., CVII 196809.yaml): Agnew in the campaign: Humphrey "squishy soft on communism," a phrase he later withdraws; "Polack"; "the fat J
 - `cal.1968-09-01.vietnam-force-levels` (Sept. 1, CVII 196809.yaml): The 3d Brigade, 101st Airborne, in III Corps and the 3d Brigade, 82d Airborne, in I Corps begin to exchange pl
+- `cal.1968-09-01.elections-1968` (Sept. 1, CVII 196809.yaml): Nixon on the "tax of inflation": "In the last two years the average American worker has been on a Government-o
 - `cal.1968-09-02.elections-1968` (Sept. 2, CVII 196809.yaml): The campaign opens. Labor Day: Humphrey marches up Fifth Avenue in New York's union parade.
 - `cal.1968-09-03.elections-1968` (Sept. 3, CVII 196809.yaml): Near Waverly, Humphrey's wedding anniversary; no money coming in, the President's Club's $600,000 out of reach
 - `cal.1968-09-03.vietnam` (Sept. 3, CVII 196809.yaml): Nguyễn Hữu Thọ: "the Liberation Front asserted its attitude of coalition with the Alliance."
@@ -14458,6 +14625,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-10.labor` (Oct., CVIII 196810.yaml): Labor's drive for Humphrey, apart from the National Committee's: COPE's polls show 30 percent of members for W
 - `cal.1968-10.vietnam-prisoners` (Oct., CVIII 196810.yaml): Mighty Yankee. The *Dubuque* carries 14 North Vietnamese sailors from Đà Nẵng to a point twelve miles off Vinh
 - `cal.1968-10.vietnam` (Oct., CVIII 196810.yaml): MACV's Alternative D for the withdrawal to CINCPAC: a MAAG residual and an American "shortfall package" to mak
+- `cal.1968-10.elections-1968-7` (Oct., CVIII 196810.yaml): New York, the Waldorf. Andreas's lunch for some dozen millionaires: O'Brien asks a loan of $3 million for Hump
 - `cal.1968-11-01.elections-1968-chennault` (Nov. 1, CIX 196811.yaml): Johnson has William Bundy brief Humphrey on Chennault's pressure on Thiệu. Humphrey, without direct evidence o
 - `cal.1968-11-01.testing-missile-talks` (Nov. 1, CIX 196811.yaml): Johnson, by telephone through the 8:30 Group's meeting, reads Clifford the reaction to his address; a summit w
 - `cal.1968-11-01.vietnam-paris` (Nov. 1, CIX 196811.yaml): Thiệu announces a major speech to the Assembly and refuses to see Bunker before it, by Clifford's account.
@@ -14527,6 +14695,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-12-09.vietnam-operations` (Dec. 9, CX 196812.yaml): Meade River ends, 6 p.m. The Marines report 1,023 of the enemy dead, 123 prisoners, 6 ralliers; their own loss
 - `cal.1968-12-09.transition-and-staff` (Dec. 9, CX 196812.yaml): Nixon, a note dictated for his files on choosing his cabinet: "There was considerable pressure to keep Clark C
 - `cal.1968-12-09.vietnam-operations-2` (Dec. 9, CX 196812.yaml): Napoleon/Saline, guarding the Cửa Việt port, the main supply terminal in Quảng Trị, ends with 3,495 of the ene
+- `cal.1968-12-09.program` (Dec. 9, CX 196812.yaml): Califano: "Dick Nixon is going to be taking over a government one hell of a lot different than the one he left
 - `cal.1968-12-11.vietnam-paris` (Dec. 11, CX 196812.yaml): Trần Bửu Kiếm, chairman of the NLF's External Relations Commission, replaces Nguyễn Thị Bình as head of its de
 - `cal.1968-12-12.transition-and-staff` (Dec. 12, CX 196812.yaml): Evening. The Nixon family with the Johnsons in the Executive Mansion; Johnson's Cabinet receives Nixon's at th
 - `cal.1968-12-12.transition-and-staff-2` (Dec. 12, CX 196812.yaml): Johnson and Clifford at lunch alone, by Clifford's account, on Nixon's cabinet: Laird "one of the ablest" and 
@@ -14535,6 +14704,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-12-15.republican-party` (Dec. 15, CX 196812.yaml): New York, the Plaza Hotel. The Ripon Society's sixth anniversary dinner, more than 400 guests; its hosts Kissi
 - `cal.1968-12-16.vietnam-prisoners` (Dec. 16, CX 196812.yaml): The *Duluth* carries seven North Vietnamese civilian seamen and a provisioned junk from Đà Nẵng to thirteen mi
 - `cal.1968-12-17.vietnam` (Dec. 17, CX 196812.yaml): The 1969 Pacification and Development Guidelines signed by 16 ministers, the Prime Minister among them, and th
+- `cal.1968-12-17.transition-and-staff` (Dec. 17, CX 196812.yaml): Finch, named Secretary of Health, Education, and Welfare: under him the department to rationalize the programs
 - `cal.1968-12-18.vietnam` (Dec. 18, CX 196812.yaml): Clifford approves the Accelerated Phase II plan for the South Vietnamese army and air force, not the navy; uni
 - `cal.1968-12-19.vietnam-prisoners` (Dec. 19, CX 196812.yaml): Two Liberation Radio broadcasts: American prisoners to be released; the Eastern Nam Bộ Military Zone proposes 
 - `cal.1968-12-19.conservation` (Dec. 19, CX 196812.yaml): Udall signs the Alaskan wildlife refuge orders within his own authority, thirty days' notice required.

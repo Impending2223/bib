@@ -67,6 +67,18 @@ entries:
       rows:
         - 'w.macv-command-history-1965 197: all'
         - 'via w.macv-command-history-1965 197 n.155: all'
+  - id: cal.1965-12-01.jobs-and-wages
+    when: Dec. 1
+    date: '1965-12-01'
+    thread: jobs-and-wages
+    also: [economy]
+    c: Johnson asks Wirtz, Ackley and Connor for "a basis for a realistic bill, with an Administration provision for a minimum wage level, consistent with our guidelines for wage-price stability."
+    n: '[[w.bernstein-guns-or-butter]], 428. To check: the Legislative Background, Minimum Wage file, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 431 n.2). See [[cal.1965-05-18.jobs-and-wages]]. Names: Johnson, Wirtz, Ackley, Connor.'
+    src:
+      c: '16036314'
+      rows:
+        - 'w.bernstein-guns-or-butter 428: all'
+    tags: [name:johnson-lyndon-b, name:wirtz-w-willard, name:ackley-gardner, name:connor-john-t]
   - id: cal.1965-12-02.states-and-cities-los-angeles
     when: Dec. 2
     date: '1965-12-02'
@@ -1812,3 +1824,16 @@ entries:
         - 'w.bernstein-guns-or-butter 288: all'
         - 'via x.1965-12.ackley-to-califano-further-report-pollution-abatement: A'
     tags: [name:ackley-gardner]
+  - id: cal.1965-12.jobs-and-wages
+    when: Dec.
+    date: 1965-12
+    thread: jobs-and-wages
+    c: 'Two proposals on the minimum wage. Ackley and Connor, the 3.2 percent guidepost: the 26 million covered before 1961 from $1.25 to $1.40 in 1966, $1.50 in 1968, $1.60 in 1970; those covered in 1961 and the 4.6 million to be covered to $1.60 by 1972. Wirtz: $1.40 in 1966, $1.60 in 1967 for the first; $1.60 within four years for the others; the Council''s 1963 Economic Report for "faster increases in wage rates" where pay is exceptionally low.'
+    n: '[[w.bernstein-guns-or-butter]], 428–29. To check: Wirtz to Califano, Dec. 14, 1965, Legislative Background, Minimum Wage, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 431 n.2); Economic Report of the President, 1963, 86 (cited by [[w.bernstein-guns-or-butter]], 431 n.2). Check: the days. See [[cal.1965-12-01.jobs-and-wages]]. Names: Ackley, Connor, Wirtz.'
+    src:
+      c: e4b7209e
+      rows:
+        - 'w.bernstein-guns-or-butter 428–29: all'
+        - 'via x.1965-12-14.wirtz-to-califano-minimum-wage-file: C'
+        - 'via x.1963-01.economic-report-of-the-president-1963: C'
+    tags: [name:ackley-gardner, name:connor-john-t, name:wirtz-w-willard]

@@ -522,7 +522,7 @@ entries:
     thread: latin-america
     also: [cuba]
     c: 'Bolivia. Che Guevara, captured Oct. 8 by the Bolivian army''s Second Ranger Battalion, trained by Americans, is shot at La Higuera, 1:15 p.m., on orders from army headquarters at La Paz. Oct. 10, the army: dead of wounds received in battle. Rostow to Johnson, Oct. 11: "I regard this as stupid, but it is understandable from a Bolivian standpoint."'
-    n: 'FRUS 1964–68, XXXI, docs. [171](https://history.state.gov/historicaldocuments/frus1964-68v31/d171), [172](https://history.state.gov/historicaldocuments/frus1964-68v31/d172), [173](https://history.state.gov/historicaldocuments/frus1964-68v31/d173). Made public: FRUS 1964–68, XXXI (2004) (Check). To check: [[w.anderson-che-guevara]]; [[w.rabe-killing-zone]]. Names: Guevara, Rostow, Johnson.'
+    n: 'FRUS 1964–68, XXXI, docs. [171](https://history.state.gov/historicaldocuments/frus1964-68v31/d171), [172](https://history.state.gov/historicaldocuments/frus1964-68v31/d172), [173](https://history.state.gov/historicaldocuments/frus1964-68v31/d173). [[w.bernstein-guns-or-butter]], 420 (the news inspires the East Bay''s Stop the Draft Week). Made public: FRUS 1964–68, XXXI (2004) (Check). Check: Bernstein, 420, has Guevara "captured and murdered in Bolivia on October 10.". To check: [[w.anderson-che-guevara]]; [[w.rabe-killing-zone]]. Names: Guevara, Rostow, Johnson.'
     tags: [name:guevara-ernesto, name:rostow-walt-w, name:johnson-lyndon-b]
   - id: cal.1967-10-09.vietnam-congress
     when: Oct. 9
@@ -1102,6 +1102,18 @@ entries:
         - 'w.bernstein-guns-or-butter 421: all'
         - 'via x.1984.zaroulis-and-sullivan-who-spoke-up: all'
     tags: [state:ca]
+  - id: cal.1967-10-17.welfare
+    when: Oct. 17
+    date: '1967-10-17'
+    thread: welfare
+    c: 'Cohen to Johnson: Long brought around to the administration''s benefits and taxes, "because he wants an increase in benefits, wants to be fiscally responsible in covering the cost and because he wants something to bargain with Wilbur Mills in Conference." John Williams likely with them.'
+    n: '[[w.bernstein-guns-or-butter]], 434. To check: Cohen to Johnson, Oct. 17, 1967, EX LE/WE, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 437 n.4). See [[cal.1967-08-22.welfare]]. Names: Cohen, Johnson, Long, Mills, Williams.'
+    src:
+      c: 2dc2b817
+      rows:
+        - 'w.bernstein-guns-or-butter 434: all'
+        - 'via x.1967-10-17.cohen-to-johnson-ex-le-we: all'
+    tags: [name:cohen-wilbur-j, name:johnson-lyndon-b, name:long-russell-b, name:mills-wilbur-d, name:williams-john-j]
   - id: cal.1967-10-18.students
     when: Oct. 18
     date: '1967-10-18'
@@ -1122,7 +1134,7 @@ entries:
     thread: economy-surcharge
     also: [congress]
     c: 'Continuing resolution, H.J. Res. 888. House: an amendment holding fiscal 1968 spending to fiscal 1967''s, Vietnam, the Post Office and some programs for persons excepted, [238–164](https://voteview.com/rollcall/RH0900166) (Check the exceptions); passed, [254–143](https://voteview.com/rollcall/RH0900168).'
-    n: '[113 Cong. Rec., House, Oct. 18, 1967](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt22/pdf/GPO-CRECB-1967-pt22-1-2.pdf). To check: [[w.bernstein-guns-or-butter]]. See [[cal.1967-10-03.economy]].'
+    n: '[113 Cong. Rec., House, Oct. 18, 1967](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt22/pdf/GPO-CRECB-1967-pt22-1-2.pdf). See [[cal.1967-10-03.economy]].'
   - id: cal.1967-10-18.vietnam-pennsylvania
     when: Oct. 18
     date: '1967-10-18'
@@ -1201,6 +1213,16 @@ entries:
         - 'via x.1967-10-16.moore-to-sullivan-oct-16-1967: all'
         - 'via x.1967-10-18.handwritten-note-on-moore-to-sullivan: all'
     tags: [name:king-martin-luther-jr, name:levison-stanley-d, name:hoover-j-edgar]
+  - id: cal.1967-10-18.press-and-broadcasting
+    when: Oct. 18
+    date: '1967-10-18'
+    thread: press-and-broadcasting
+    c: The conferees on the public broadcasting bill settle the differences in the House's favor.
+    n: '[[w.bernstein-guns-or-butter]], 455. To check: CQ Almanac, 1967, 1042–50 (cited by [[w.bernstein-guns-or-butter]], 457 n.8). See [[cal.1967-09-21.press-and-broadcasting]].'
+    src:
+      c: 683bed0d
+      rows:
+        - 'w.bernstein-guns-or-butter 455: all'
   - id: cal.1967-10-19.vietnam
     when: Oct. 19
     date: '1967-10-19'
@@ -1281,6 +1303,16 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 423: all'
         - 'via x.1967-10-19.permit-christopher-papers: all'
+  - id: cal.1967-10-19.press-and-broadcasting-2
+    when: Oct. 19
+    date: '1967-10-19'
+    thread: press-and-broadcasting
+    c: The House adopts the conference report on the public broadcasting bill.
+    n: '[[w.bernstein-guns-or-butter]], 455. Check: the vote. See [[cal.1967-10-18.press-and-broadcasting]].'
+    src:
+      c: 39a9a3fe
+      rows:
+        - 'w.bernstein-guns-or-butter 455: all'
   - id: cal.1967-10-20.mississippi
     when: Oct. 20
     date: '1967-10-20'
@@ -1361,12 +1393,13 @@ entries:
     thread: elections-1968
     also: [democratic-party]
     c: 'Los Angeles, breakfast in McCarthy''s suite: Lowenstein; Hill, of the California Democratic Council; Eller, McCarthy''s legislative aide. McCarthy: "Where''s labor in this thing? Do you have any money? Can you get enough volunteers?" After an hour and a quarter: "You fellows have been talking about three or four names. I guess you can cut it down to one."'
-    n: '[[w.chester-american-melodrama]], 67; [[w.white-making-of-the-president-1969]], 74. Check: White gives "late October" and McCarthy''s question: "How do you think we''d do in a Wisconsin primary?". Names: McCarthy, Lowenstein.'
+    n: '[[w.chester-american-melodrama]], 67; [[w.white-making-of-the-president-1969]], 74; [[w.bernstein-guns-or-butter]], 483 (McCarthy: "I guess you can cut it down to one"). Check: White gives "late October" and McCarthy''s question: "How do you think we''d do in a Wisconsin primary?". Names: McCarthy, Lowenstein.'
     src:
       c: 4cb114ac
       rows:
         - 'w.chester-american-melodrama 67: all'
         - 'w.white-making-of-the-president-1969 74: all'
+        - 'w.bernstein-guns-or-butter 483: ?'
     tags: [name:mccarthy-eugene-j, name:lowenstein-allard]
   - id: cal.1967-10-20.press-and-broadcasting
     when: Oct. 20
@@ -1790,6 +1823,18 @@ entries:
         - 'w.woods-fulbright 465: all'
         - 'via x.1967-10-26.garrison-ho-chi-minh-couldnt-care-less: all'
     tags: [name:fulbright-j-william, name:ho-chi-minh, state:ar]
+  - id: cal.1967-10-25.program
+    when: Oct. 25
+    date: '1967-10-25'
+    thread: program
+    c: 'McPherson to Schultze, on the Hirshhorn appropriation: "I''ve talked to the boss about this. He is determined that nothing be left undone that will help us secure the Hirshhorn bequest."'
+    n: '[[w.bernstein-guns-or-butter]], 449. To check: McPherson to Schultze, Oct. 25, 1967, McPherson Papers, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 451 n.4). See [[cal.1967-10.program]]. Names: McPherson, Schultze.'
+    src:
+      c: 52eeb25f
+      rows:
+        - 'w.bernstein-guns-or-butter 449: all'
+        - 'via x.1967-10-25.mcpherson-to-schultze-mcpherson-papers: all'
+    tags: [name:mcpherson-harry, name:schultze-charles-l]
   - id: cal.1967-10-26.latin-america
     when: Oct. 26–28
     date: '1967-10-26'
@@ -1812,6 +1857,28 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=551: A-B'
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=547: A-B'
     tags: [name:morse-wayne, name:mansfield-mike]
+  - id: cal.1967-10-26.press-and-broadcasting
+    when: Oct. 26
+    date: '1967-10-26'
+    thread: press-and-broadcasting
+    c: The Senate adopts the conference report on the public broadcasting bill.
+    n: '[[w.bernstein-guns-or-butter]], 455. Check: the vote. See [[cal.1967-10-18.press-and-broadcasting]].'
+    src:
+      c: 4bbd49c1
+      rows:
+        - 'w.bernstein-guns-or-butter 455: all'
+  - id: cal.1967-10-26.program
+    when: Oct. 26
+    date: '1967-10-26'
+    thread: program
+    c: 'Warren, chairman of the National Gallery''s trustees, to Johnson: the site reserved in 1937 for additions to be built on; Paul Mellon and Ailsa Mellon Bruce have given "approximately $20,000,000." He asks Johnson''s support for the bill authorizing the building.'
+    n: '[[w.bernstein-guns-or-butter]], 451. To check: Warren to Johnson, Oct. 26, 1967, Cater Papers, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 451 n.5). Names: Warren, Johnson.'
+    src:
+      c: 64bf9829
+      rows:
+        - 'w.bernstein-guns-or-butter 451: all'
+        - 'via x.1967-10-26.warren-to-johnson-cater-papers: all'
+    tags: [name:warren-earl, name:johnson-lyndon-b]
   - id: cal.1967-10-27.democratic-party
     when: Oct. 27
     date: '1967-10-27'
@@ -2012,6 +2079,18 @@ entries:
         - 'w.solberg-hubert-humphrey 311: all'
         - 'via w.solberg-hubert-humphrey 311 n.thieu-ky: all'
     tags: [name:humphrey-hubert-h, name:johnson-lyndon-b, name:nguyen-van-thieu, name:nguyen-cao-ky, place:saigon]
+  - id: cal.1967-10-30.program
+    when: Oct. 30–31
+    date: '1967-10-30'
+    thread: program
+    c: 'Cater to Johnson: John Walker of the National Gallery says no federal funds needed until the building is finished, in 1972 if all goes well, and then for operating it; a small ceremony for the Mellons. Paul Mellon abroad.'
+    n: '[[w.bernstein-guns-or-butter]], 451. To check: Cater to Johnson, Oct. 30 and 31, 1967, Cater Papers, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 451 n.5). See [[cal.1967-10-26.program]]. Names: Cater, Johnson.'
+    src:
+      c: f232ce7e
+      rows:
+        - 'w.bernstein-guns-or-butter 451: all'
+        - 'via x.1967-10-30.cater-to-johnson-cater-papers: all'
+    tags: [name:cater-s-douglass, name:johnson-lyndon-b]
   - id: cal.1967-10-31.consumers
     when: Oct. 31
     date: '1967-10-31'
@@ -2405,3 +2484,16 @@ entries:
         - 'w.shesol-mutual-contempt 411: all'
         - 'via x.1967-10.rowe-notes-on-white-paper: all'
     tags: [name:rowe-james-h-jr, name:johnson-lyndon-b]
+  - id: cal.1967-10.program
+    when: Oct.
+    date: 1967-10
+    thread: program
+    c: House Appropriations strikes the Hirshhorn appropriation; the administration asks it back. The Johnsons with Mahon, who agrees to restore it.
+    n: '[[w.bernstein-guns-or-butter]], 449. To check: Pierson to Johnson, Oct. 23, 1967, and Mahon to Ripley, Nov. 1, 1967, McPherson Papers, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 451 n.4). Check: the days. See [[cal.1966-11-07.program]]. Names: Johnson, Lady Bird Johnson, Mahon.'
+    src:
+      c: 624059eb
+      rows:
+        - 'w.bernstein-guns-or-butter 449: all'
+        - 'via x.1967-10-23.pierson-to-johnson-mcpherson-papers: A'
+        - 'via x.1967-11-01.mahon-to-ripley-mcpherson-papers: B'
+    tags: [name:mahon-george-h, name:johnson-lyndon-b, name:johnson-lady-bird]

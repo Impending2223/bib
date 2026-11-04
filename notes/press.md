@@ -249,11 +249,13 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1966-06-16 | *New York Post*, Kempton | item | "There's Only One Winner" (entered) | Smith, *On His Own Terms*, 478-79
 1966-07-29 | *New York Post* (McGrory) | column | "The Vice President is not a proud man" (Check: the day) | Solberg, *Hubert Humphrey*, 295
 1966-10-21 | *New York Daily News* | item | its straw poll: O'Connor ahead | Smith, *On His Own Terms*, 491
+1966-11-13 | *New York Times* | editorial | "Republican Renascence" (an entry) | Zelizer, *Fierce Urgency of Now*, 259
 1966-12-25–1967-01-03 | *New York Times*, Salisbury | dispatches | from Hanoi (in the tree) | Bernstein, *Guns or Butter*, 412
 1967-02-21 | *New York Times* |  | the grand-jury claims in the Dahmer and Neshoba cases | Branch, *Pillar of Fire*, 609
 1967-02-28 | *New York Times* | p. 40 | the same | Branch, *Pillar of Fire*, 609
 1967-03-01 | *New York Times* | front page | the same | Branch, *Pillar of Fire*, 609
 1967-03-01 | *New York Times* | page | Herbers, "Fulbright Backs Vietnam Limit of 500,000 G.I.'s" | Woods, *J. William Fulbright, Vietnam*, 145 n.8
+1967-03-19 | *Washington Post*, *Potomac* | Sunday magazine | Burnham, "Sound the Hirshhorn!"; Aaron, "The Collection" | Bernstein, *Guns or Butter*, 571 n.4
 1967-03-27 | *Newsweek* | p. 29 | Komer "a Guildenstern at the court of Lyndon I" | Berman, *Lyndon Johnson's War*, 32
 1967-04-06/07 | *Washington Post*, *New York Times* | editorials | "A Tragedy"; "Dr. King's Error" (entries) | Kotz, *Judgment Days*, 375
 1967-04-11 | *New York Times* | front page | the NAACP's board against King on Vietnam | Kotz, *Judgment Days*, 375
@@ -300,6 +302,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-01-31 | *Arkansas Gazette* | page | "Senate Panel to Re-examine Tonkin Case" | Woods, *J. William Fulbright, Vietnam*, 168 n.30
 1968-01-31 | *The News* (Washington) | front page | "War Hits Saigon" | Woods, *Fulbright*, 468
 1968-01-31 | the networks | evening news | Tet: the dead in the rubble, fighting in Saigon | Woods, *Fulbright*, 468
+1968-01-31 | the networks | evening news | Tet in Saigon; NBC's film of Loan (in the tree) | Bernstein, *Guns or Butter*, 475
 1968-02 | the papers, nationally | front pages (by Rusk's account) | Rusk to Scali at a backgrounder: "Whose side are you on?" | Rusk, *As I Saw It*, 477
 1968-02 | *Harper's*, Larry L. King | item | "The Cool World of Nelson Rockefeller" (made public, entered) | Smith, *On His Own Terms*, 498
 1968-02 | *Los Angeles Times* | story | Tuohy on MACV Forward, "blatantly speculative" by Westmoreland's account | Westmoreland, *A Soldier Reports*, 345
@@ -318,23 +321,28 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-02-25 | *New York Times* | page | Finney (Woods: Kenworthy), "McNamara Says Destroyers in Gulf of Tonkin Warned of Enemy"; "9 on Fulbright Panel Feel U.S. Over Reacted to Tonkin Attack" | Woods, *J. William Fulbright, Vietnam*, 170
 1968-02-26 | MACV | announcement | casualties and damage to be withheld when the tactical situation dictates | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1035
 1968-02-27 | CBS | broadcast | Cronkite, "mired in stalemate" (cal.1968-02-27.press-and-broadcasting) | Branch, *At Canaan's Edge*, 704
+1968-02-27 | CBS, Cronkite | broadcast | the report from Vietnam (in the tree) | Bernstein, *Guns or Butter*, 476
 1968-02/03 | AP | wire | John Wheeler on Khe Sanh's hill outposts | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 958-59
 1968-03 | *New York Times* | column (Reston), the first week | "the political system ... has broken down" | White, *Making of the President 1968*, 94–95
 1968-03 | Los Angeles Times | article | Bill Tuohy on the Marine leadership, "singularly unimpressive, say the critics" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 961-62
 1968-03-03 | Washington Post | article | (cited, n.21: the Khe Sanh reporting; Schlesinger and Alsop) | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 994
 1968-03-10 | *New York Times* | front page | "Westmoreland Requests 206,000 More Men" (cal.1968-03-10.vietnam) | Westmoreland, *A Soldier Reports*, 358
 1968-03-10 | *New York Times* | front page | Smith and Sheehan, the 206,000 (entered) | Berman, *Lyndon Johnson's War*, 184
+1968-03-10 | *New York Times*, Sheehan and Hedrick Smith | front page | 206,000 more troops (in the tree) | Bernstein, *Guns or Butter*, 479
 1968-03-13 | ABC | broadcast | Howard K. Smith's editorial for mobilization "on an overwhelming scale" | Branch, *At Canaan's Edge*, 710
+1968-03-14 | *Los Angeles Times* | editorial | "The Gold Crisis Is Here" (an entry) | Zelizer, *Fierce Urgency of Now*, 287
 1968-03-16 | *New York Times* | p. 17 | a Dahmer murder conviction | Branch, *Pillar of Fire*, 610
 1968-03-17 | New York Times | front page | the official account of Mỹ Lai, "128 enemy soldiers" | Branch, *At Canaan's Edge*, 715
 1968-03-17 | Washington Star | article | Donald Kirk on the command arrangements in I Corps | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 963
 1968-03-19 | *New York Times* | front page | Rockefeller to declare | White, *Making of the President 1968*, 231
+1968-03-23 | *New Republic* | article | Edwin Dale, "The Gold Rush": a collapse "could bring a world-wide depression" | Zelizer, *Fierce Urgency of Now*, 287
 1968-03-24 | New York Times |  | "Memphis Protest Avoids Violence," the Southern Regional Council's study | Branch, *At Canaan's Edge*, 730
 1968-03-29 | NBC Huntley-Brinkley | broadcast | King, "Nonviolence can be as contagious as violence"; Coby Smith of the Invaders | Branch, *At Canaan's Edge*, 738, 740
 1968-03-29 | *St. Louis Globe-Democrat*, Memphis *Commercial Appeal* | — | the FBI's lines on King at Memphis; "Chicken a la King" (an entry) | Kotz, *Judgment Days*, 404
 1968-03-30 | New York Times | editorial page | against King's "descent on Washington" | Branch, *At Canaan's Edge*, 744
 1968-03-30/31 | Memphis Commercial Appeal; St. Louis Globe-Democrat | editorials | "King's Credibility Gap," "Chicken a la King"; "The Real Martin Luther King," from the FBI's material | Branch, *At Canaan's Edge*, 745
 1968-04-01 | *Newsweek* | item | the "rumors that periodically haunt Rocky's personal life" | Smith, *On His Own Terms*, 518
+1968-04-01 | *New York Times*, *Los Angeles Times* | front pages | Johnson's withdrawal; Kennedy told on the plane | Zelizer, *Fierce Urgency of Now*, 293–94
 1968-04-12 | MACV | announcement | "search and destroy" dropped | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1043
 1968-04-19 | *Washington Post* | item | "Rockefeller Speech Heard in Silence" | Smith, *On His Own Terms*, 528
 1968-04-21 | (Joseph Alsop) | column | the embargo on Delaware broken | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 964
