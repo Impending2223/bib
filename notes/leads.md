@@ -1522,8 +1522,12 @@ Rights in Conflict (Walker Report):
 - Still dated by the year only: Lausche's speech in the Senate on Hoover, 1961 (37; the Record); the House Republicans' report on organized crime, 1967 (49); the summer-1961 nomination and confirmation of 258 (the Record); Hoffa at the Miami convention, 1961 (410); the Chicago Hoffa verdict (424); the Tractors for Freedom committee's end (327: Navasky gives no June 25).
 
 ### Shesol, *Mutual Contempt* (batch 3, second run, Nov. 4, 2026; notes/book-checks/shesol-mutual-contempt.md)
-- the end-of-July 1960 meeting of the Kennedy and Johnson advisers at Hyannis Port (58); Lee White's executive order expanding the CEEO, "on a Sunday" (84; E.O. 11114, June 22, 1963, to check); the address of Nov. 27, 1963: Bundy's calls between Johnson and Robert Kennedy on Tuesday or Wednesday (121; Manchester, 480); Robert Kennedy at Harriman's dinner (71; Reeves, 347n); the President's go-ahead for the contractors' survey (summer 1962, 83) and Wirtz's survey (1963, 83); Kennedy and Bartlett at Camp David on 1968 (winter 1962–63, 112); the pages 300–475 listed above under Passed over.
-- Press figures for Part III, proposed: Part III entries for Alan L. Otten (*Wall Street Journal*), Paul O'Neil (*Life*), William Beecher (*Wall Street Journal*), Jean Daniel (*L'Express*, *The New Republic*), Peregrine Worsthorne (*Daily Telegraph*), Gore Vidal (as a political writer, *Esquire*), each with Shesol's pages.
+- the end-of-July 1960 meeting of the Kennedy and Johnson advisers at Hyannis Port (58); Lee White's executive order expanding the CEEO, "on a Sunday" (84; E.O. 11114, June 22, 1963, to check); the address of Nov. 27, 1963: Bundy's calls between Johnson and Robert Kennedy on Tuesday or Wednesday (121; Manchester, 480); Robert Kennedy at Harriman's dinner (71; Reeves, 347n); the President's go-ahead for the contractors' survey (summer 1962, 83) and Wirtz's survey (1963, 83); Kennedy and Bartlett at Camp David on 1968 (winter 1962–63, 112); the pages 300–475 listed in the book-check's Passed over.
+- Press figures for Part III, proposed: Alan L. Otten (*Wall Street Journal*), Paul O'Neil (*Life*), William Beecher (*Wall Street Journal*), Jean Daniel (*L'Express*, *The New Republic*), Peregrine Worsthorne (*Daily Telegraph*), Gore Vidal (as a political writer, *Esquire*), each with Shesol's pages.
+
+### Thomas, *Robert Kennedy* (batch 3, second run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
+- Salinger's Portland statement on the King tap: its day (Thomas 379 n. cites Witcover, *85 Days*, 212; `cal.1968-05-24.king`).
+- The FBI files Thomas reads for May 17, 18 and 23, 1968, not cited by folder (379).
 
 ## Foreign
 
