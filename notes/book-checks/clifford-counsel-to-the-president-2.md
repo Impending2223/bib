@@ -236,3 +236,20 @@ The dry run flags 33 of them "possible duplicate" (same day or month, same threa
   of Mar. 15 (VI, doc. 129), Wheeler's of Mar. 20 (VI, doc. 144), Clifford's staff meeting of May 20 (VI, doc. 238),
   the telephone call of Nov. 23 (VII, doc. 231), the PFIAB papers of 1964 (XXXIII, docs. 188, 200, 201, 207) among them.
   Under the owner's ruling they are entries; this run entered only those the book treats.
+
+## Witnesses (Nov. 4, 2026, batch 3 resumed: b3-clifford-2)
+
+The first run's records were converted into witnesses on Nov. 3; the studies, memoirs and collections the notes cite
+were left out. Read again from the owner's copy (notes, pp. 681–688; pp. 686–688 from the page images, the text layer
+there being garbled), they are now edges in `sources/witnesses/by-work/clifford-counsel-to-the-president-2.yaml`, at
+chapter and note ("ch.28 n.12"; the text pages not mapped): 66 edges to cards held (White 1960 and 1964; Brauer;
+Sorensen, *Kennedy* and *Kennedy Legacy*; Schlesinger, *Thousand Days* and *Robert Kennedy*; Kalman; Johnson, *Vantage
+Point*, nine places; Ball; Westmoreland, eight; Taylor; Rusk; Schandler; Sharp and Westmoreland's *Report*; Braestrup;
+Palmer; Kearns; Oberdorfer; Witcover; Newfield; Bùi Diễm; Isaacson and Thomas; Hoopes; Murphy; Safire; Kissinger; Nixon;
+Chennault; Hung and Schecter; Solberg; Humphrey; Christian), each with its pinpoint; and 16 edges to 13 new rows for
+works not held (`inbox/witnesses/2026-11-03-b3-clifford-2.yaml`): Clifford's *Foreign Affairs* article of July 1969;
+Roberts, *First Rough Draft*; Brewin and Shaw; Wheeler's oral history of May 7, 1970; Westmoreland's paper of Nov. 9,
+1970; Henry, "February 1968"; Talbott; Goulding; *Among Friends*; Christian in *Texas Monthly*; Whalen; Manchester; the
+Pearson diaries. No calendar change: the two pending entries this file named are merged with Clifford's pinpoints
+(the lunch of Oct. 29, 1968; `cal.1968-06-05.civil-disorders-2`, 545). No patch `2026-11-03-b3-clifford-2.yaml` was
+needed.
