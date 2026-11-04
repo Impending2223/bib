@@ -493,6 +493,9 @@ CQ Weekly Report, 1968-08-16:
 - Virginia: the Lake Barcroft district convention, Fairfax County, 1964 (346–47).
 - Washington: the King and Spokane county caucuses, 1964 (352–53).
 
+### Thomas, *Robert Kennedy* (batch 3, fourth run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
+- Bedford-Stuyvesant: Goldman, "Performance in Black and White," Ford Foundation, Feb. 1969 (Burke Marshall Papers, JFKL), for the project's dated steps (Thomas, 460).
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -2068,6 +2071,18 @@ Rights in Conflict (Walker Report):
 - The Senate resolution of thirty-four for an atmospheric ban, May 1963 (the Record; 729); the Republicans' statements on the test ban: Jackson, Dirksen and Halleck, June-Aug. 1963 (736-37); LeMay's and Power's testimony, and Strauss, Burke, Radford and Twining against the treaty, Aug. 1963 (739); the Air Force Association's stand (739); the Harris poll on the treaty (737); Nixon's attack on the wheat sale, Oct. 1963 (742); Gallup's "peace party" (745); Barnett's telegrams of Oct. 1962 (707); the NSC's attendance (Robert Kennedy, Sorensen) after the Bay of Pigs (644); a thread for the United Nations (the report of Nov. 20, 1963, 1963 Pub. Papers 880, has none).
 - Defense (602-36): McNamara's ninety-six questions, Mar. 1961 (604); the Strike Command (606); the bill on the Chiefs' tenure, 1963 (607-08); the Office of Emergency Planning and Ellis's judgeship, 1962 (614); the shelter booklet and the shelter bill of 1962 (615-16); the Chiefs on resuming tests, Feb. 1961, the June panel, the early August order (618; FRUS VII); the reactions of Peking, Tass, Young Americans for Freedom and SDA to the resumption, Mar. 1962 (624); the magazine interview of Mar. 1962 on first use (627 n.3); the green berets, Farm Gate and Jungle Jim, the Special Group (Counterinsurgency), 1961-62 (632-33).
 
+### Thomas, *Robert Kennedy* (batch 3, fourth run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
+- Thomas 254 n.: Warren Rogers (Hearst) recalls Robert Kennedy's calls on the *Journal-American* story, June 29, 1963.
+- Van Kirk's account (263 n.; Hersh, 406-07): Robert Kennedy fed Baker material to the Rules Committee's Republicans, 1963; O'Donnell denies.
+- the Senate Judiciary hearings of Aug. 1963, Robert Kennedy and Ervin (Washington Post, Aug. 9, 1963, Clayton, "Sam and Bob Show Enters Fourth Week"; Thomas's note misprints 1967).
+- Courtney Evans's memoranda of June 25, July 16 and 23, Oct. 21, 25 and 28, 1963, the "Bow Tie" and Rometsch FOIA files, and Hoover's of Oct. 28-29 and Nov. 7, 1963 (Thomas, 444-48): the FBI's side of the King taps and the Rometsch affair, to read where released (the Mary Ferrell Foundation, the FBI's Vault).
+- the White House telephone logs, Oct. 25-29, 1963 (JFKL), and Robert Kennedy's own logs (RFK Papers): every call Thomas lists is an entry once read.
+- PRDE's catalogue holds the meeting of May 12, 1963 (Tape 86.2) and of May 20-21 (88.2, 88.4, 88.6); the Miller Center gives none of them free: the transcripts in print (Rosenberg and Karabell, *Kennedy, Johnson, and the Quest for Justice*) not held.
+- the Drew film of June 10-11, 1963 ("Crisis: Behind a Presidential Commitment," ABC; Thomas's "Kennedy v. Wallace: A Crisis Up Close"): its days and scenes, if a copy or shot list is open.
+- the hearings Thomas names undated: Kennedy and Ervin before Judiciary, Aug. 1963; Kennedy and Curtis at Nader's testimony (Schlesinger, 682); the Daily Digest (daybook/committees/) gives their days.
+- Thomas's undated scenes of 1965-66 to date from the papers his notes name: Johnson's "divine retribution" to Salinger (Dallek, *Flawed Giant*, 136); Kennedy's lunch with Rowland Evans, Feb. 1966; the Vietnam trip called off in Feb. 1966 (Kraft STOH).
+- proposed for Part III (R13): Murray Kempton (the *New Republic*, "Pure Irish," 1964), Clark Mollenhoff has an entry; Andrew Glass (*Saturday Evening Post*), James Horan and Dom Frasca (*Journal-American*), William Beggs (*Miami News*).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -3243,6 +3258,9 @@ CQ Weekly Report, 1968-08-30:
 
 ### Sorensen, *Kennedy* (batch 3, fourth run, Nov. 4, 2026; notes/book-checks/sorensen-kennedy.md)
 - The Joint Chiefs' written views on Laos, late Apr. 1961 (644-45; FRUS XXIV); the neutral neighbors' refusal, 1961 (640-41); the warnings through the Warsaw talks, Mar. 1961 and June 1962 (642, 662; FRUS XXII); the Seventh Fleet and the war games in Thailand, spring 1963 (648); Madame Nhu's tour and remarks, Aug.-Nov. 1963 (657, 659); Menon's removal, the Nehru–Ayub statement, the air defense agreement for India (663-65; FRUS XIX); the NATO Council's backing, Oct. 1962 (705; FRUS XI); the letters of Nov. 19, 1962 to the allies on the IL-28s (720); Khrushchev's letter on Nixon's defeat (721); the MIG attack on the shrimp boat, Feb. 1963 (722); the end of jamming and the IAEA agreement, June 1963 (733); Kennedy and the Navy over the interception line, Oct. 24, 1962 (710); the Alphand meeting at Andrews, Mar. 26, 1961 (FRUS XXIV, doc. 40: not in the calendar; not in Sorensen).
+
+### Thomas, *Robert Kennedy* (batch 3, fourth run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
+- Robert Kennedy's London stop on the way home from the Far East, late Jan. or Feb. 1964 (Thomas: February; the Bruces' dinner, Ann Fleming's letter in Amory, ed., *The Letters of Ann Fleming*).
 
 ## The Executive roster
 

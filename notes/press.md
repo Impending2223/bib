@@ -119,6 +119,8 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-05-09 | Pravda | story | "Monstrous Crimes Among Racists in the United States" (entered) | Branch, *Parting the Waters*, 786
 1963-05-10 | Birmingham News | inside | "Negroes End Desegregation Campaign: Not Able to Get Charges Dropped," beside a summary of spring panty raids (entered) | Branch, *Parting the Waters*, 791
 1963-05-19 | New York Post | Sunday, two pages | King's "Letter from Birmingham Jail" (entered) | Branch, *Parting the Waters*, 804
+1963-05-25 | *New York Times* | article | Baldwin: Kennedy "insensitive and unresponsive" | Thomas, *Robert Kennedy*, 244
+1963-05-28 | *New York Post* | column | Wechsler, "RFK and Baldwin" | Thomas, *Robert Kennedy*, 441
 1963-06 | Liberation; Christian Century (June 12); The Witness; Friends; The Mennonite | covers | the "Letter from Birmingham Jail" | Branch, *Parting the Waters*, 804
 1963-06 | *New Republic*, TRB | item | "He is through" | Smith, *On His Own Terms*, 408
 1963-06 | *Manchester Guardian* | editorial | the American University address "one of the great state papers of American history" | Sorensen, *Kennedy*, 733
@@ -127,14 +129,18 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-06-12 | the world's papers | front pages | Browne's photograph of Thích Quảng Đức | Bernstein, *Guns or Butter*, 327
 1963-06-17 | New York Times | front page | Bundy on television defends the President's trip to Europe | Branch, *Parting the Waters*, 841
 1963-06-23 | New York Times | front page | "Negroes Inform Kennedy of Plan for New Protests" | Branch, *Parting the Waters*, 840
+1963-06-29 | *New York Journal-American* | front page | a "high elected American official" and Suzy Chang | Thomas, *Robert Kennedy*, 254
 1963-07 | *Manchester Union Leader* | item | "the people will not accept a wife swapper as President" | Smith, *On His Own Terms*, 416
 1963-07-03 | New York Times | inside, 8 | Max Frankel: Vietnam's makers of policy "decided long ago ... to discuss it as little as possible" | Branch, *Parting the Waters*, 914
 1963-07-05 | *Washington Evening Star* | front page | the Armory rally: two stories, McGrory's and Broder's | White and Gill, *Suite 3505*, 187
 1963-07-05 | *Baltimore Sun* | front page | the Armory rally, a crowd of 6,000 | White and Gill, *Suite 3505*, 187
 1963-07-13 | New York Times | front page | "Barnett Charges Kennedys Assist Red Racial Plot" | Branch, *Parting the Waters*, 853
+1963-07-15 | *Miami News* | article | "Backstage with Bobby" | Thomas, *Robert Kennedy*, 258
+1963-07-16 | AP | wire story | "FBI Ordered to Curtail Spying on Crime Chief" | Thomas, *Robert Kennedy*, 445
 1963-08-29 | New York Times | front page | James Reston, "'I Have a Dream ...' Peroration by Dr. King Sums Up a Day the Capital Will Remember," five stories around two crowd photographs | Branch, *Parting the Waters*, 886
 1963-08-29 | Washington Post | front page | the march; Randolph's speech, no mention of King's | Branch, *Parting the Waters*, 886
 1963-09-01 | Atlanta Daily World | front page | the rally "forever" changed racial perceptions; King in a group photograph with the President | Branch, *Parting the Waters*, 886
+1963-09-14 | *New York Times* | item | Robert Kennedy at Bismarck, "Brave Heart" | Thomas, *Robert Kennedy*, 446
 1963-09-16 | *New York Times*, p. 30 | story | Buckley and Bozell "far right" supporters | Goldberg, *Barry Goldwater*, 175 n.148
 1963-09-17 | *New York Times* | story | Cabell Phillips on Dodger Stadium, "a welcome such as is usually reserved for a Presidential candidate" | Novak, *Agony of the G.O.P. 1964*, 226
 1963-09-20 | New York Times | front page | "Kennedy Names 2 ... Negroes Applaud Move, Drop Appeal for Troops and Accept Panel" | Branch, *Parting the Waters*, 895
@@ -144,6 +150,8 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-10-20 | *New York Times* | story | Homer Bigart on poverty in the Cumberlands (Sundquist's pending entry, cited) | Bernstein, *Guns or Butter*, 91
 1963-10-24 | New York Times | inside, 32 | the civil rights bill in committee: "For an understanding of this bizarre battle, it is helpful to look both backward and forward" | Branch, *Parting the Waters*, 910
 1963-10-25 | *Washington Post* | front page | Goldwater on NATO's "commanders" and tactical nuclear weapons (Chalmers Roberts) | White, *Making of the President 1964*, 296
+1963-10-26 | *Des Moines Register* | front page | Mollenhoff, "U.S. Expels Girl Linked to Officials" | Thomas, *Robert Kennedy*, 266
+1963-10-29 | *New York Times* | article | "Baker Inquiry Is Asked If German Woman's Ouster by U.S. Involved Security" | Thomas, *Robert Kennedy*, 445
 1963-11-22 | CBS | item | Cronkite: Goldwater kept from the funeral by a political function; his apology | Smith, *On His Own Terms*, 418
 1963-12 | *New Republic* | editorial | editorial on H. L. Hunt's broadcast | Fursenko and Naftali, *"One Hell of a Gamble"*, 349
 1964 | Lippmann; Reston | columns | uneasy at the drift to war | Bernstein, *Guns or Butter*, 379
@@ -154,6 +162,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1964-01-19 | *New York Times* | front page | King in the Oval Office beside Johnson, a large photograph | Kotz, *Judgment Days*, 102
 1964-01-20 | *Newsweek* | article | "Fastest Gun" | Goldberg, *Barry Goldwater*, 177 n.158
 1964-01-24 | *Concord Daily Monitor* | editorial | "I. M. Undecided" | Novak, *Agony of the G.O.P. 1964*, 323
+1964-02-15 | *New Republic* | column | Kempton, "Pure Irish: Robert F. Kennedy" | Thomas, *Robert Kennedy*, 288
 1964-03-10 | CBS | evening | Cronkite calls New Hampshire for Lodge at 7:18 p.m. | White, *Making of the President 1964*, 110
 1964-03-31/04-01 | the papers across the country | front pages | Mrs. Peabody led to jail at St. Augustine | Kotz, *Judgment Days*, 127
 1964-04-06 | *U.S. News & World Report* | item | six ballots at San Francisco | Smith, *On His Own Terms*, 426
@@ -250,6 +259,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-03-30 | *New York Times* | front page | "Washington Is Cool to Alabama Boycott" | Kotz, *Judgment Days*, 327
 1965-04 | the papers | items | Johnson's "love affair" with the auto industry | Bernstein, *Guns or Butter*, 292
 1965-05-23 | *Herald Tribune*, Wise | story | "credibility gap" (entered) | Bernstein, *Guns or Butter*, 536
+1965-06-24 | *New York Times* | article | Wicker, "Kennedy and Johnson" | Thomas, *Robert Kennedy*, 458
 1965-07 | *Life* | picture | Ball in tears at Stevenson's memorial service (Check: the issue) | Ball, *The Past Has Another Pattern*, 152
 1965-07 | Alsop | column | "pathos" (entered) | Bernstein, *Guns or Butter*, 349
 1965-07-12 | *Newsweek*, Emmet John Hughes | item | "An Untold Tale" | Smith, *On His Own Terms*, 473 n.
@@ -259,6 +269,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-09-24 | Joseph Alsop's column | column | the B-52s in South Vietnam, the press "favorably impressed" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1965 vol., 193
 1965-11 | (a news photograph) | photograph | Rusk at Montevideo, the spit dubbed into the negative | Rusk, *As I Saw It*, 571–72
 1965-11-05 | *World-Telegram and Sun*, Kempton | item | "Lindsay and Rockefeller" (entered) | Smith, *On His Own Terms*, 474
+1965-11-10 | *New York Daily News* | editorial | on Kennedy's blood for the North Vietnamese | Thomas, *Robert Kennedy*, 313
 1965-11-26 | *Saigon Daily News* | story | the Republic of China's two C-46s for the VNAF | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1965 vol., 73 n.285
 1965-12 | *Atlantic Monthly* | article | Elizabeth Drew, "Lady Bird's Beauty Bill" | Bernstein, *Guns or Butter*, 300
 1966 | *Syracuse Post-Standard* | item | Medicaid "insane, fiscally irresponsible ... New York's Gigantic Giveaway" | Smith, *On His Own Terms*, 484 (as the *New Leader*, Apr. 8, 1968, quotes it)
@@ -277,6 +288,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1966-01-31 | New York Times | front page | AP photograph of the medic Thomas Cole near Bồng Sơn | Branch, *At Canaan's Edge*, 433
 1966-02 | *New York Times* (Wicker) | dispatch | the Bangkok communiqué filed first | Humphrey, *Education of a Public Man*, 332
 1966-02 | *New York Times* | story (Broder) | Romney: "fuzziness on national and international issues" | White, *Making of the President 1968*, 40
+1966-02 | *New York Daily News* | headline | "Ho Chi Kennedy" | Thomas, *Robert Kennedy*, 315
 1966-02-01 | New York Times | front page | "Johnson Asks U.N. to Summon Vietnam Peace Conference/ Bombing in North Resumes" | Branch, *At Canaan's Edge*, 433
 1966-02-04 | CBS | daytime | the hearings live, Friendly in charge; *Captain Kangaroo* and soap operas preempted | Woods, *Fulbright*, 404
 1966-02-10 | CBS | daytime broadcast | the hearings dropped for reruns, *I Love Lucy* among them | Woods, *J. William Fulbright, Vietnam*, 117
@@ -292,9 +304,11 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1966-04-01 | *Time* | cover | Humphrey; "a White House Uriah Heep" | Solberg, *Hubert Humphrey*, 295
 1966-04-08 | *Time* | p. 27 | the Dahmer case | Branch, *Pillar of Fire*, 610
 1966-04-16 | New York Times | front page | 1,361 Americans killed in the first 99 days of 1966 | Branch, *At Canaan's Edge*, 452
+1966-04-23 | *Saturday Evening Post* | article | Glass, "The Compulsive Candidate" | Thomas, *Robert Kennedy*, 458
 1966-04-29 | *New York Times* (Reston) | column | "Alas, Poor Hubert" | Solberg, *Hubert Humphrey*, 295
 1966-06-16 | *New York Post*, Kempton | item | "There's Only One Winner" (entered) | Smith, *On His Own Terms*, 478-79
 1966-07-29 | *New York Post* (McGrory) | column | "The Vice President is not a proud man" (Check: the day) | Solberg, *Hubert Humphrey*, 295
+1966-10 | (I. F. Stone) | newsletter | "While Others Dodge the Draft, Bobby Dodges the War" | Thomas, *Robert Kennedy*, 316
 1966-10-21 | *New York Daily News* | item | its straw poll: O'Connor ahead | Smith, *On His Own Terms*, 491
 1966-11-13 | *New York Times* | editorial | "Republican Renascence" (an entry) | Zelizer, *Fierce Urgency of Now*, 259
 1966-12-25–1967-01-03 | *New York Times*, Salisbury | dispatches | from Hanoi (in the tree) | Bernstein, *Guns or Butter*, 412
@@ -309,6 +323,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1967-04-11 | *New York Times* | front page | the NAACP's board against King on Vietnam | Kotz, *Judgment Days*, 375
 1967-04-23 | *New York World Journal Tribune* | article | Thimmesch, "The New New Nixon" | White, *Making of the President 1968*, 53 n.9
 1967-05-05 | *Arkansas Gazette* | page | "RFK-Fulbright Group to Ignore Objections, Run in New Hampshire" | Woods, *J. William Fulbright, Vietnam*, 149 n.21
+1967-07-01 | *New York Times* | item | Kennedy in the Grand Canyon (July 1-2) | Thomas, *Robert Kennedy*, 396
 1967-07-08 | *New York Times* | front page | "Westmoreland asks M'Namara for more troops" | Berman, *Lyndon Johnson's War*, 54
 1967-07-15 | *Chicago Tribune* | page | "Senate's Cuts in Aid Irk Rusk" | Woods, *J. William Fulbright, Vietnam*, 159 n.33
 1967-08-01 | *Baltimore Sun* | page | "Bid to Curb Executive's Role Gains" | Woods, *J. William Fulbright, Vietnam*, 155 n.14
