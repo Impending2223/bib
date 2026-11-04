@@ -22,8 +22,12 @@ entries:
     when: Sept. 2
     date: '1968-09-02'
     thread: elections-1968
-    c: 'The campaign opens. Labor Day: Humphrey in New York''s parade (Check).'
-    n: 'To check: [[w.white-making-of-the-president-1969]]; [[w.gould-1968]]; [[w.witcover-year-the-dream-died]]; [[w.nelson-resilient-america]]; [[w.lafeber-deadly-bet]]; [[w.johns-price-of-loyalty]]; [[w.solberg-hubert-humphrey]]; [[w.perlstein-nixonland-2008]]. See [[cal.1968-08-26.elections-1968]]. Names: Humphrey.'
+    c: 'The campaign opens. Labor Day: Humphrey marches up Fifth Avenue in New York''s union parade.'
+    n: '[[w.solberg-hubert-humphrey]], 372–73 (the Labor Day opening; the parade, 150,000 marching, few watching). To check: [[w.white-making-of-the-president-1969]]; [[w.gould-1968]]; [[w.witcover-year-the-dream-died]]; [[w.nelson-resilient-america]]; [[w.lafeber-deadly-bet]]; [[w.johns-price-of-loyalty]]; [[w.perlstein-nixonland-2008]]. See [[cal.1968-08-26.elections-1968]]. Names: Humphrey.'
+    src:
+      c: db43d9ca
+      rows:
+        - 'w.solberg-hubert-humphrey 372–73: all'
     tags: [name:humphrey-hubert-h]
   - id: cal.1968-09-03.governors-ia
     when: Sept. 3
@@ -41,6 +45,18 @@ entries:
     c: 'North Dakota, Republican primary for governor: McCarney, a candidate in 1964, over Doherty, 47,324 to 42,845, 52.5 percent. Governor Guy unopposed for a fourth term; re-elected in November over McCarney, 135,955 to 108,382, 54.8 percent.'
     n: '[*Official Abstract of Votes Cast at the Primary Election Held September 3, 1968*](https://www.sos.nd.gov/sites/default/files/documents/elections/election-results-pdfs/1968-09-03-primary.pdf) (State Board of Canvassers, Sept. 17, 1968). Doherty''s name and the November figures: [Wikipedia, "1968 North Dakota gubernatorial election"](https://en.wikipedia.org/wiki/1968_North_Dakota_gubernatorial_election). To check: [[w.peirce-great-plains-states-of]]. See [[cal.1964-06-30.governors-nd]]. Names: McCarney, Guy.'
     tags: [state:nd, name:mccarney-robert-p, name:guy-william-l]
+  - id: cal.1968-09-03.elections-1968
+    when: Sept. 3
+    date: '1968-09-03'
+    thread: elections-1968
+    c: 'Near Waverly, Humphrey''s wedding anniversary; no money coming in, the President''s Club''s $600,000 out of reach. Humphrey to Krim, Johnson''s fund-raiser, through the White House switchboard: "Goddamit, Krim, nobody''s indispensable. If you''re not going to help me, okay. If I have to raise money myself, I''ll do it."'
+    n: '[[w.solberg-hubert-humphrey]], 373–74. To check: Edgar Berman, diary, Sept. 3, 1968, Berman files (cited by [[w.solberg-hubert-humphrey]], 374, its note). Names: Humphrey.'
+    src:
+      c: 8da0c93a
+      rows:
+        - 'w.solberg-hubert-humphrey 373–74: all'
+        - 'via w.solberg-hubert-humphrey 374 n.krim: all'
+    tags: [name:humphrey-hubert-h]
   - id: cal.1968-09-04.elections-1968
     when: Sept. 4
     date: '1968-09-04'
@@ -52,6 +68,18 @@ entries:
       rows:
         - 'w.nixon-rn 317: all'
     tags: [name:nixon-richard-m, state:il, city:chicago]
+  - id: cal.1968-09-05.elections-1968
+    when: Sept. 5
+    date: '1968-09-05'
+    thread: elections-1968
+    c: After the leaders' breakfast, Johnson has Humphrey stand beside him for the photograph; then ninety minutes in the Oval Office. By Humphrey's account, Johnson will "work with me closely, to do everything I wanted, and to release the cabinet to help me."
+    n: '[[w.solberg-hubert-humphrey]], 375. To check: Edgar Berman, diary, Sept. 5, 1968, Berman files (cited by [[w.solberg-hubert-humphrey]], 375, its note). Names: Johnson, Humphrey.'
+    src:
+      c: 908aee23
+      rows:
+        - 'w.solberg-hubert-humphrey 375: all'
+        - 'via w.solberg-hubert-humphrey 375 n.closely: all'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h]
   - id: cal.1968-09-06.court
     when: Sept. 6
     date: '1968-09-06'
@@ -121,6 +149,18 @@ entries:
         - 'w.gavin-gold-dollars-and-power 183: A'
         - 'via w.gavin-gold-dollars-and-power 183 n.43: A'
     tags: [name:fowler-henry-h, name:johnson-lyndon-b]
+  - id: cal.1968-09-08.elections-1968
+    when: Sept. 8
+    date: '1968-09-08'
+    thread: elections-1968
+    c: 'Washington, Humphrey to a Jewish group: his candidacy "a referendum on human rights"; Nixon and Wallace exploiting the "fears and hates."'
+    n: '[[w.solberg-hubert-humphrey]], 375. To check: the *New York Times*, Sept. 10, 1968 (cited by [[w.solberg-hubert-humphrey]], 375, its note). Names: Humphrey, Nixon, George Wallace. Check: the day and the audience; Solberg: the day before Philadelphia.'
+    src:
+      c: 560cc7eb
+      rows:
+        - 'w.solberg-hubert-humphrey 375: all'
+        - 'via w.solberg-hubert-humphrey 375 n.referendum: all'
+    tags: [name:humphrey-hubert-h, name:nixon-richard-m, name:wallace-george-c]
   - id: cal.1968-09-09.soviet-union
     when: Sept. 9
     date: '1968-09-09'
@@ -135,11 +175,13 @@ entries:
     thread: elections-1968
     also: [vietnam]
     c: 'Philadelphia: Humphrey, some American units might be withdrawn from Vietnam late in 1968 or early in 1969; at Denver the same day, the convention''s majority and minority planks on Vietnam not far apart.'
-    n: '[[w.chester-american-melodrama]], 633 (Philadelphia and Denver; Rusk''s correction; Humphrey to Clifford that night). See [[cal.1968-09-02.elections-1968]]. Names: Humphrey.'
+    n: '[[w.chester-american-melodrama]], 633 (Philadelphia and Denver; Rusk''s correction; Humphrey to Clifford that night); [[w.solberg-hubert-humphrey]], 375 (Philadelphia, John F. Kennedy Plaza, a Penn student panel''s question; Denver, the two planks "so mildly different"). See [[cal.1968-09-02.elections-1968]]. Names: Humphrey.'
     src:
       c: bbfc2632
       rows:
         - 'w.chester-american-melodrama 633: A'
+        - 'w.solberg-hubert-humphrey 375: all'
+        - 'via w.solberg-hubert-humphrey 375 n.mildly: B'
     tags: [name:humphrey-hubert-h, state:pa, city:philadelphia]
   - id: cal.1968-09-09.states-and-cities-nyc
     when: Sept. 9
@@ -177,13 +219,14 @@ entries:
     thread: elections-1968
     also: [vietnam]
     c: 'New Orleans, Johnson to the American Legion: "We yearn for the day when our men can come home. No man can predict when that day will come."'
-    n: 'Remarks in New Orleans Before the 50th Annual National Convention of the American Legion, [1968–69 Pub. Papers 936](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=246) (Sept. 10, 1968). [[w.dallek-flawed-giant]], 577 (the address; not the words quoted). [[w.chester-american-melodrama]], 633–34 (the words; Christian''s account, the speech written a week before; O''Brien: "That isn''t how I remember it"). See [[cal.1968-09-02.elections-1968]]. Names: Johnson.'
+    n: 'Remarks in New Orleans Before the 50th Annual National Convention of the American Legion, [1968–69 Pub. Papers 936](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=246) (Sept. 10, 1968). [[w.dallek-flawed-giant]], 577 (the address; not the words quoted); [[w.solberg-hubert-humphrey]], 376 (the Legion speech, after Humphrey''s forecast at Houston that day; Johnson: "When is he going to learn that I''m still President?"). [[w.chester-american-melodrama]], 633–34 (the words; Christian''s account, the speech written a week before; O''Brien: "That isn''t how I remember it"). See [[cal.1968-09-02.elections-1968]]. Names: Johnson.'
     src:
       c: 08cd8e92
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=246: all'
         - 'w.dallek-flawed-giant 577: A'
         - 'w.chester-american-melodrama 633–34: all'
+        - 'w.solberg-hubert-humphrey 376: A'
     tags: [name:johnson-lyndon-b, state:la, city:new-orleans]
   - id: cal.1968-09-10.governors-wi
     when: Sept. 10
@@ -294,6 +337,19 @@ entries:
       rows:
         - 'w.clifford-counsel-to-the-president-2 557: all'
     tags: [name:smathers-george-a, name:clifford-clark, name:thurmond-strom, name:fortas-abe]
+  - id: cal.1968-09-11.elections-1968
+    when: Sept. 11
+    date: '1968-09-11'
+    thread: elections-1968
+    also: [vietnam-paris]
+    c: 'Welsh to Humphrey, with "Themes," Katzenbach''s and Read''s unsigned paper on Vietnam, kept to what Humphrey would do as President: a "hard schedule" of American withdrawals for Saigon, "starting in 1969"; "de-Americanization of the war"; a halt in the bombing on "evidence—direct or indirect, by word or deed—of Communist willingness to restore the demilitarized zone."'
+    n: '[[w.solberg-hubert-humphrey]], 376–77. To check: Welsh to Humphrey, Sept. 11, 1968, Humphrey Papers; "Themes" and "Draft Statement," n.d., Sept. 1968, Read files (cited by [[w.solberg-hubert-humphrey]], 376, its note). Names: Katzenbach, Read, Humphrey. Check: the day.'
+    src:
+      c: c29cb4e4
+      rows:
+        - 'w.solberg-hubert-humphrey 376–77: all'
+        - 'via w.solberg-hubert-humphrey 376 n.themes: all'
+    tags: [name:katzenbach-nicholas, name:read-benjamin-h, name:humphrey-hubert-h]
   - id: cal.1968-09-12.elections-1968
     when: Sept. 12
     date: '1968-09-12'
@@ -550,6 +606,19 @@ entries:
     c: 'Gallup, Sept. 1–6: the way the Chicago police dealt with the young people protesting the Vietnam war at the time of the Democratic convention: approve 56 percent, disapprove 31. Humphrey''s supporters 44 and 41; Nixon''s 63 and 25; Wallace''s 71 and 20. Those 21 to 29, 47 and 41. Negroes 18 and 63.'
     n: '[[w.gallup-poll]], III, 2160–61. Names: Humphrey, Nixon, Wallace.'
     tags: [name:humphrey-hubert-h, name:nixon-richard-m, name:wallace-george-c]
+  - id: cal.1968-09-18.elections-1968
+    when: Sept. 18
+    date: '1968-09-18'
+    thread: elections-1968
+    also: [vietnam-paris]
+    c: 'The Cabinet, by Humphrey''s longhand notes. Johnson: not proper "for the VP or an ex-VP or an ex-President to play commander in chief"; Humphrey: neither Nixon nor he nor Eisenhower will have anything to do with it before Jan. 20. Johnson: the cables three hours a day. Humphrey: "When I become President, I''ll spend every day finding peace."'
+    n: '[[w.solberg-hubert-humphrey]], 378. To check: Humphrey''s longhand notes, Sept. 18, 1968, Humphrey Papers; the minutes of the Cabinet meeting, Sept. 18, 1968, Cabinet Papers, LBJ Library (cited by [[w.solberg-hubert-humphrey]], 378, its note). Names: Johnson, Humphrey, Nixon, Eisenhower.'
+    src:
+      c: d748da16
+      rows:
+        - 'w.solberg-hubert-humphrey 378: all'
+        - 'via w.solberg-hubert-humphrey 378 n.cabinet-sep18: all'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:nixon-richard-m, name:eisenhower-dwight-d]
   - id: cal.1968-09-20.students-ca
     when: Sept. 20
     date: '1968-09-20'
@@ -687,7 +756,7 @@ entries:
     thread: transition-and-staff
     also: [elections-1968]
     c: 'Ball resigns as Representative to the UN, to work for Humphrey; Johnson: it "has nothing to do with public policy but does have something to do with domestic politics." Wiggins, editor of the *Washington Post*, named in his place; sworn Oct. 4.'
-    n: 'Remarks Upon Announcing Resignation of George W. Ball and Intention To Nominate J. Russell Wiggins as U.S. Representative to the United Nations, [1968–69 Pub. Papers 976](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=286) (Sept. 26, 1968); Remarks at the Swearing In of J. Russell Wiggins as U.S. Representative to the United Nations, [1968–69 Pub. Papers 1007](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=317) (Oct. 4, 1968). [[w.mann-grand-delusion]], 617 (the resignation); [[w.chester-american-melodrama]], 645; [[w.clifford-counsel-to-the-president-2]], 572 (Ball, his last day, at the National Security Council of Sept. 25; to Humphrey''s campaign the next day). [[w.ball-past-has-another-pattern]], 444–45. See [[cal.1968-09-02.elections-1968]]. Names: Ball, Humphrey, Wiggins, Johnson.'
+    n: 'Remarks Upon Announcing Resignation of George W. Ball and Intention To Nominate J. Russell Wiggins as U.S. Representative to the United Nations, [1968–69 Pub. Papers 976](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=286) (Sept. 26, 1968); Remarks at the Swearing In of J. Russell Wiggins as U.S. Representative to the United Nations, [1968–69 Pub. Papers 1007](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=317) (Oct. 4, 1968). [[w.mann-grand-delusion]], 617 (the resignation); [[w.chester-american-melodrama]], 645; [[w.clifford-counsel-to-the-president-2]], 572 (Ball, his last day, at the National Security Council of Sept. 25; to Humphrey''s campaign the next day); [[w.solberg-hubert-humphrey]], 380 (Ball resigned to be Humphrey''s adviser on foreign policy). [[w.ball-past-has-another-pattern]], 444–45. See [[cal.1968-09-02.elections-1968]]. Names: Ball, Humphrey, Wiggins, Johnson.'
     src:
       c: 0908ca03
       rows:
@@ -697,6 +766,7 @@ entries:
         - 'w.ball-past-has-another-pattern 444–45: A'
         - 'w.chester-american-melodrama 645: A'
         - 'w.clifford-counsel-to-the-president-2 572: A'
+        - 'w.solberg-hubert-humphrey 380: A'
     tags: [name:ball-george-w, name:humphrey-hubert-h, name:wiggins-james-r, name:johnson-lyndon-b]
   - id: cal.1968-09-26.court-fortas
     when: Sept. 26
@@ -727,11 +797,12 @@ entries:
     thread: elections-1968
     also: [democratic-party]
     c: 'Night, after word of the weekend''s Gallup (Humphrey 15 points behind Nixon''s 43 percent, Wallace 21). O''Brien and Humphrey: $100,000 for a half hour on national television, Monday, Sept. 30, from Salt Lake City. O''Brien had found $100,000 for buttons and stickers only on Monday.'
-    n: '[[w.chester-american-melodrama]], 645–46. Names: O''Brien, Humphrey, Nixon, Wallace.'
+    n: '[[w.chester-american-melodrama]], 645–46; [[w.solberg-hubert-humphrey]], 379 (the half hour on NBC; Short''s $100,000). Names: O''Brien, Humphrey, Nixon, Wallace.'
     src:
       c: 63c3c5f0
       rows:
         - 'w.chester-american-melodrama 645–46: all'
+        - 'w.solberg-hubert-humphrey 379: all'
     tags: [name:obrien-lawrence-f, name:humphrey-hubert-h, name:nixon-richard-m, name:wallace-george-c, ok:result-form]
   - id: cal.1968-09-26.elections-1968-3
     when: Sept. 26
@@ -776,12 +847,37 @@ entries:
     thread: elections-1968
     also: [vietnam]
     c: 'Portland, Ore. Several hundred students of Reed College and Portland State walk out on Humphrey, "End the War!" After midnight Ball, resigned from the United Nations to work for him, and Fred Harris with Humphrey in his suite: work begins on the definitive speech.'
-    n: '[[w.chester-american-melodrama]], 646. Names: Humphrey, Ball, Fred Harris.'
+    n: '[[w.chester-american-melodrama]], 646; [[w.solberg-hubert-humphrey]], 379–80 (Portland, Reed College; Gallup; Ball and Welsh that night). Names: Humphrey, Ball, Fred Harris.'
     src:
       c: c1dd267b
       rows:
         - 'w.chester-american-melodrama 646: all'
+        - 'w.solberg-hubert-humphrey 379–80: all'
     tags: [name:humphrey-hubert-h, name:ball-george-w, name:harris-fred-r, state:or]
+  - id: cal.1968-09-27.elections-1968-2
+    when: Sept. 27
+    date: '1968-09-27'
+    thread: elections-1968
+    c: 'Evron Kirkpatrick, Humphrey''s analyst of opinion, to Freeman: "Humphrey is soft in the area of law and order, and this softness is hurting him more than anything else. Crime prevention is at the top of what people—as many as 89 percent—want."'
+    n: '[[w.solberg-hubert-humphrey]], 387. To check: Kirkpatrick to Freeman, Sept. 27, 1968, Box 1146, Humphrey Papers (cited by [[w.solberg-hubert-humphrey]], 387, its note). Names: Freeman, Humphrey.'
+    src:
+      c: 7da8f0d9
+      rows:
+        - 'w.solberg-hubert-humphrey 387: all'
+        - 'via w.solberg-hubert-humphrey 387 n.soft: all'
+    tags: [name:freeman-orville-l, name:humphrey-hubert-h]
+  - id: cal.1968-09-27.elections-1968-chennault
+    when: Sept. 27
+    date: '1968-09-27'
+    thread: elections-1968-chennault
+    c: 'Welsh to Humphrey: the intercepted messages of Bùi Diễm show Saigon afraid of his softer stand, and Chennault stirring the fear. Humphrey: "The President will do nothing about it." By Welsh''s account.'
+    n: '[[w.solberg-hubert-humphrey]], 394. To check: William Welsh, letter, Jan. 7, 1983 (cited by [[w.solberg-hubert-humphrey]], 394, its note). Names: Humphrey, Bùi Diễm, Chennault. Check: the day.'
+    src:
+      c: 929df9e4
+      rows:
+        - 'w.solberg-hubert-humphrey 394: all'
+        - 'via w.solberg-hubert-humphrey 394 n.intercepts: all'
+    tags: [name:humphrey-hubert-h, name:bui-diem, name:chennault-anna]
   - id: cal.1968-09-28.vietnam-paris
     when: Sept. 28
     date: '1968-09-28'
@@ -800,23 +896,25 @@ entries:
     thread: elections-1968
     also: [vietnam]
     c: 'O''Brien, at the Watergate, reads the draft of the speech and dictates a memorandum, sent to Seattle by telecopier: a weak, vacillating draft, not worth the campaign''s last $100,000. Humphrey by telephone: "Your comments are valid"; come to Seattle.'
-    n: '[[w.chester-american-melodrama]], 646–47. Names: O''Brien, Humphrey.'
+    n: '[[w.chester-american-melodrama]], 646–47; [[w.solberg-hubert-humphrey]], 381 (O''Brien: "The Ball draft is an abomination"). Names: O''Brien, Humphrey.'
     src:
       c: ef1f31ee
       rows:
         - 'w.chester-american-melodrama 646–47: all'
+        - 'w.solberg-hubert-humphrey 381: all'
     tags: [name:obrien-lawrence-f, name:humphrey-hubert-h, state:wa]
   - id: cal.1968-09-28.elections-1968-2
     when: Sept. 28
     date: '1968-09-28'
     thread: elections-1968
     c: 'Seattle, the civic auditorium, some fifteen thousand: about a hundred protesters in the balcony with a bullhorn keep Humphrey from speaking until the police remove them. At 2 a.m., to his staff, by his account: "I''m probably going to lose this election ... but win or lose, I''m going to speak my mind."'
-    n: '[[w.humphrey-education-of-a-public-1976]], 399–400; [[w.chester-american-melodrama]], 647 (the hecklers; "I shall not be driven from this platform by a handful who believe in nothing"). See [[cal.1968-09-02.elections-1968]]. Names: Humphrey. Check the day: Humphrey puts it two nights before Salt Lake City.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 399–400; [[w.chester-american-melodrama]], 647 (the hecklers; "I shall not be driven from this platform by a handful who believe in nothing"); [[w.solberg-hubert-humphrey]], 381 (the Seattle heckling: "shut up and let the decent people listen"). See [[cal.1968-09-02.elections-1968]]. Names: Humphrey. Check the day: Humphrey puts it two nights before Salt Lake City.'
     src:
       c: f5351e32
       rows:
         - 'w.humphrey-education-of-a-public-1976 399–400: all'
         - 'w.chester-american-melodrama 647: A'
+        - 'w.solberg-hubert-humphrey 381: all'
     tags: [name:humphrey-hubert-h, state:wa]
   - id: cal.1968-09-29.opinion
     when: Sept. 29
@@ -856,12 +954,13 @@ entries:
     thread: elections-1968
     also: [vietnam-paris]
     c: 'Seattle, then Salt Lake City, the speech on Vietnam, by Humphrey''s account. Ball''s draft; O''Brien''s telegram: "Ball speech a disaster"; Van Dyk to draft anew. At 2 p.m. Van Dyk, Sherman, Connell, Rowe, Berman, Harris, O''Brien. At night in Salt Lake City, Welsh, Bailey and Moss too, till 2 a.m.'
-    n: '[[w.humphrey-education-of-a-public-1976]], 401–02, 493 n.10; [[w.chester-american-melodrama]], 647–48, 741 (O''Brien with Humphrey alone in the afternoon; the night''s session in the suite). Check: Chester has the night''s session end at 5:15 a.m. (647–48); Humphrey, at 2 a.m. See [[cal.1968-09-30.elections-1968]]. Names: Humphrey, Ball, O''Brien, Van Dyk, Sherman, Rowe, Harris, Moss. Check the day.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 401–02, 493 n.10; [[w.chester-american-melodrama]], 647–48, 741 (O''Brien with Humphrey alone in the afternoon; the night''s session in the suite); [[w.solberg-hubert-humphrey]], 382–83. Check: Chester has the night''s session end at 5:15 a.m. (647–48); Humphrey, at 2 a.m. See [[cal.1968-09-30.elections-1968]]. Names: Humphrey, Ball, O''Brien, Van Dyk, Sherman, Rowe, Harris, Moss. Check the day.'
     src:
       c: f4421218
       rows:
         - 'w.humphrey-education-of-a-public-1976 401–02, 493 n.10: all'
         - 'w.chester-american-melodrama 647–48, 741: A, G'
+        - 'w.solberg-hubert-humphrey 382–83: all'
     tags: [name:humphrey-hubert-h, name:ball-george-w, name:obrien-lawrence-f, name:van-dyk-ted, name:sherman-norman, name:rowe-james-h-jr, name:harris-fred-r, name:moss-frank-e, state:wa, state:ut]
   - id: cal.1968-09-30.elections-1968
     when: Sept. 30
@@ -869,7 +968,7 @@ entries:
     thread: elections-1968
     also: [vietnam]
     c: 'Salt Lake City, taped for NBC, broadcast that evening: Humphrey, as President, would stop the bombing of the North "as an acceptable risk for peace," since it could lead to success in the negotiations; before it, "key importance" on evidence, "direct or indirect, by word or deed," of Communist willingness to restore the DMZ; the bombing resumed on a showing of bad faith. Nixon to Johnson by telephone, 6:45 p.m.: any change in policy? Johnson: none; he has not read the speech. Humphrey to Johnson, 7:30, minutes before the broadcast. Johnson to Ball, 8:15: "they would have to give me direct or indirect, word or deed."'
-    n: '[Johnson and Nixon, 6:45 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-nixon-september-30-1968), Conversation WH6809-04-13433 (Miller Center); [Johnson and Humphrey, 7:30 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-hubert-humphrey-and-office-secretary-september), Conversation WH6809-04-13435 (Miller Center); [Johnson and Ball, 8:15 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-ball-october-1-1968), Conversation WH6809-04-13436 (Miller Center). FRUS 1964–68, VII, docs. [38](https://history.state.gov/historicaldocuments/frus1964-68v07/d38), [39](https://history.state.gov/historicaldocuments/frus1964-68v07/d39), [40](https://history.state.gov/historicaldocuments/frus1964-68v07/d40), [41](https://history.state.gov/historicaldocuments/frus1964-68v07/d41), [42](https://history.state.gov/historicaldocuments/frus1964-68v07/d42) (Johnson to Dirksen, Oct. 1). *New York Times*, [Oct. 1, 1968](https://timesmachine.nytimes.com/timesmachine/1968/10/01/issue.html) (the text). [[w.ball-past-has-another-pattern]], 446–47 (Ball''s language; his call to Johnson, Johnson on the line with Nixon); [[w.chester-american-melodrama]], 648–50 (the three paragraphs; Harriman''s spokesman: nothing to upset the negotiations; $150,000 from the appeal); [[w.clifford-counsel-to-the-president-2]], 572 (the key passage quoted; Ball''s proposal behind it; Johnson asks Clifford the next day); [[w.humphrey-education-of-a-public-1976]], 400–403, 493 n.11 (the speech''s making; Ball''s call to Harriman; the call to Johnson about fifteen minutes before: "I gather you''re not asking my advice"; the text). To check: [[w.johns-price-of-loyalty]]. See [[cal.1968-09-02.elections-1968]]. Names: Humphrey, Nixon, Johnson, Ball. Check: Ball has himself telephoning Johnson in the afternoon, Humphrey retaping, to read him the passage.'
+    n: '[Johnson and Nixon, 6:45 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-nixon-september-30-1968), Conversation WH6809-04-13433 (Miller Center); [Johnson and Humphrey, 7:30 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-hubert-humphrey-and-office-secretary-september), Conversation WH6809-04-13435 (Miller Center); [Johnson and Ball, 8:15 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-ball-october-1-1968), Conversation WH6809-04-13436 (Miller Center). FRUS 1964–68, VII, docs. [38](https://history.state.gov/historicaldocuments/frus1964-68v07/d38), [39](https://history.state.gov/historicaldocuments/frus1964-68v07/d39), [40](https://history.state.gov/historicaldocuments/frus1964-68v07/d40), [41](https://history.state.gov/historicaldocuments/frus1964-68v07/d41), [42](https://history.state.gov/historicaldocuments/frus1964-68v07/d42) (Johnson to Dirksen, Oct. 1). *New York Times*, [Oct. 1, 1968](https://timesmachine.nytimes.com/timesmachine/1968/10/01/issue.html) (the text). [[w.ball-past-has-another-pattern]], 446–47 (Ball''s language; his call to Johnson, Johnson on the line with Nixon); [[w.chester-american-melodrama]], 648–50 (the three paragraphs; Harriman''s spokesman: nothing to upset the negotiations; $150,000 from the appeal); [[w.clifford-counsel-to-the-president-2]], 572 (the key passage quoted; Ball''s proposal behind it; Johnson asks Clifford the next day); [[w.humphrey-education-of-a-public-1976]], 400–403, 493 n.11 (the speech''s making; Ball''s call to Harriman; the call to Johnson about fifteen minutes before: "I gather you''re not asking my advice"; the text); [[w.solberg-hubert-humphrey]], 383–85 (the text; the seal off; Ball''s call to Johnson; Johnson to Humphrey: "other qualifications than the DMZ"). To check: [[w.johns-price-of-loyalty]]. See [[cal.1968-09-02.elections-1968]]. Names: Humphrey, Nixon, Johnson, Ball. Check: Ball has himself telephoning Johnson in the afternoon, Humphrey retaping, to read him the passage.'
     src:
       c: 74cad7b5
       rows:
@@ -883,6 +982,7 @@ entries:
         - 'w.clifford-counsel-to-the-president-2 572: A-C'
         - 'w.humphrey-education-of-a-public-1976 400–403, 493 n.11: A-C, G'
         - 'via w.humphrey-education-of-a-public-1976 493 n.11: A-C'
+        - 'w.solberg-hubert-humphrey 383–85: all'
     tags: [name:humphrey-hubert-h, name:nixon-richard-m, name:johnson-lyndon-b, name:ball-george-w, state:ut, city:salt-lake-city]
   - id: cal.1968-09-30.jobs-and-wages
     when: Sept. 30
@@ -942,22 +1042,26 @@ entries:
     date: 1968-09
     thread: elections-1968
     c: 'O''Brien to Humphrey, mid-month: "Let''s face it, Mr. Vice President, as of now, we''ve lost"; "Unless you change direction on this Vietnam thing, and become your own man, you''re finished." Humphrey: "we have to start pulling our ground forces out as soon as the Vietnamese are ready."'
-    n: '[[w.mann-grand-delusion]], 618. Check: the day; Mann gives "mid-September." Names: O''Brien, Humphrey.'
+    n: '[[w.mann-grand-delusion]], 618. [[w.solberg-hubert-humphrey]], 377–78 (O''Brien at Humphrey''s apartment; the words; Humphrey''s three points). Check: the day; Mann gives "mid-September." Names: O''Brien, Humphrey. Check: Solberg''s note cites Berman''s diary of Sept. 16.'
     src:
       c: 71c244b0
       rows:
         - 'w.mann-grand-delusion 618: all'
+        - 'w.solberg-hubert-humphrey 377–78: all'
+        - 'via w.solberg-hubert-humphrey 377 n.lets-face: all'
     tags: [name:obrien-lawrence-f, name:humphrey-hubert-h]
   - id: cal.1968-09.elections-1968-5
     when: Sept.
     date: 1968-09
     thread: elections-1968
     c: 'Humphrey in South Dakota, McGovern beside him: "I''m going to seek peace in every way possible, but only the President can do it now. Come January, it''s a new ball game. Then I will make peace."'
-    n: '[[w.mann-grand-delusion]], 618. Check: the day; Mann has it "several days" after O''Brien''s counsel, the day before Louisville. See [[cal.1968-09.elections-1968-4]]. Names: Humphrey, McGovern.'
+    n: '[[w.mann-grand-delusion]], 618. [[w.solberg-hubert-humphrey]], 378–79 (Sioux Falls, a water-power conference, McGovern beside him; Louisville the next day). Check: the day; Mann has it "several days" after O''Brien''s counsel, the day before Louisville. See [[cal.1968-09.elections-1968-4]]. Names: Humphrey, McGovern. Check: Solberg''s note dates the Sioux Falls speech Sept. 19.'
     src:
       c: 6f18a378
       rows:
         - 'w.mann-grand-delusion 618: all'
+        - 'w.solberg-hubert-humphrey 378–79: all'
+        - 'via w.solberg-hubert-humphrey 379 n.sioux-falls: all'
     tags: [name:humphrey-hubert-h, name:mcgovern-george]
   - id: cal.1968-09.elections-1968-13
     when: Sept.
@@ -1067,9 +1171,10 @@ entries:
     thread: elections-1968
     also: [democratic-party]
     c: 'Houston, the Rice Hotel, a day and a night, by Humphrey''s account: Yarborough, Barbara Jordan, Jim Wright, the campaign''s Texas chairman, Connally, the AFL-CIO, the Farmers Union, Mexican-American leaders. Evans and Novak call the time wasted.'
-    n: '[[w.humphrey-education-of-a-public-1976]], 490 n.6. Names: Humphrey, Yarborough, Jordan, Wright, Connally, Evans, Novak. Check the day.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 490 n.6; [[w.solberg-hubert-humphrey]], 376 (Houston: "Troops to Come Home"). Names: Humphrey, Yarborough, Jordan, Wright, Connally, Evans, Novak. Check the day.'
     src:
       c: 575364e9
       rows:
         - 'w.humphrey-education-of-a-public-1976 490 n.6: all'
+        - 'w.solberg-hubert-humphrey 376: all'
     tags: [name:humphrey-hubert-h, name:yarborough-ralph, name:jordan-barbara, name:wright-jim, name:connally-john, name:evans-rowland-jr, name:novak-robert-d, state:tx, city:houston]

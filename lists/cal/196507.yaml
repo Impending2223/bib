@@ -600,6 +600,19 @@ entries:
       c: 0bcb3cff
       rows:
         - 'w.macv-command-history-1965 480: all'
+  - id: cal.1965-07-16.war-opposition
+    when: July 16
+    date: '1965-07-16'
+    thread: war-opposition
+    also: [vietnam]
+    c: 'Humphrey to Valenti, his first report of heckling: of 1,200, "only about a dozen or fewer" against the Vietnam policy, and three "put down their signs after I had spoken and started to applaud. In other words, they confessed their sins and were saved."'
+    n: '[[w.solberg-hubert-humphrey]], 281. To check: Humphrey to Valenti, July 16, 1965, WHCF CF, Exec FG 440, Box 346, LBJ Library (cited by [[w.solberg-hubert-humphrey]], 281, its note). Names: Humphrey, Valenti. Check: Solberg dates the report July 12 (281); the note, July 16.'
+    src:
+      c: 0d4d75fc
+      rows:
+        - 'w.solberg-hubert-humphrey 281: all'
+        - 'via w.solberg-hubert-humphrey 281 n.heckling: all'
+    tags: [name:humphrey-hubert-h, name:valenti-jack]
   - id: cal.1965-07-18.opinion
     when: July 18
     date: '1965-07-18'
@@ -1378,12 +1391,13 @@ entries:
     date: 1965-07
     thread: vietnam
     c: 'Humphrey at Detroit: "the United States must be prepared for a long, ugly, costly war." Johnson angered.'
-    n: '[[w.mann-grand-delusion]], 499. [[w.humphrey-education-of-a-public-1976]], 326–27 n. (the White House reaches Humphrey at Detroit, on his way to a national governors'' conference: not to use the released text''s "long, costly and ugly"; muted in the delivery, by his account). Check: the day. To check: [[w.solberg-hubert-humphrey]], 278 (cited by [[w.mann-grand-delusion]], 499 n.1). Names: Humphrey, Johnson.'
+    n: '[[w.mann-grand-delusion]], 499; [[w.solberg-hubert-humphrey]], 282 (Detroit; "Hubert better damn sight not use it"; the note: the Daily Diary and the speech, July 26, 1965). [[w.humphrey-education-of-a-public-1976]], 326–27 n. (the White House reaches Humphrey at Detroit, on his way to a national governors'' conference: not to use the released text''s "long, costly and ugly"; muted in the delivery, by his account). Check: the day. Names: Humphrey, Johnson.'
     src:
       c: 4c1a31eb
       rows:
         - 'w.mann-grand-delusion 499: all'
         - 'w.humphrey-education-of-a-public-1976 326–27: A-B'
+        - 'w.solberg-hubert-humphrey 282: all'
     tags: [name:humphrey-hubert-h, name:johnson-lyndon-b]
   - id: cal.1965-07.vietnam-congress
     when: July
@@ -1440,3 +1454,15 @@ entries:
       rows:
         - 'w.clifford-counsel-to-the-president-2 438: all'
     tags: [name:stevenson-adlai-e, name:johnson-lyndon-b, name:clifford-clark]
+  - id: cal.1965-07.vietnam-july-decision
+    when: July
+    date: 1965-07
+    thread: vietnam-july-decision
+    c: 'The Marine barracks in Washington, after the evening parade. Greene, the Commandant, to Humphrey: "no less than five hundred thousand troops on the ground." Humphrey: "My God, general, you can''t really mean that." By Beckington''s account.'
+    n: '[[w.solberg-hubert-humphrey]], 282. To check: Herbert Beckington, interview (cited by [[w.solberg-hubert-humphrey]], 282, its note). Names: Greene, Humphrey. Check: the day; Solberg has it a week before Greene said the same to Johnson.'
+    src:
+      c: 25b93356
+      rows:
+        - 'w.solberg-hubert-humphrey 282: all'
+        - 'via w.solberg-hubert-humphrey 282 n.greene: all'
+    tags: [name:greene-wallace-m-jr, name:humphrey-hubert-h]

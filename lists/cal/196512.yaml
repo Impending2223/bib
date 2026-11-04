@@ -443,7 +443,13 @@ entries:
     thread: opinion
     also: [elections-1968-polls]
     c: 'Gallup, Nov. 18–23: Vice President Humphrey wants to be President, 72 percent. Will win the nomination: yes 26, no 56. Would like to see him President: yes 23, no 58. Liked best: an eloquent speaker 7; least: avoids issues 7.'
-    n: '[[w.gallup-poll]], III, 1975–76. Names: Humphrey.'
+    n: '[[w.gallup-poll]], III, 1975–76. [[w.solberg-hubert-humphrey]], 284 (the poll, released early in December; Humphrey''s staff dismayed). Names: Humphrey. Check: Solberg gives 56 percent who would prefer that he never be President (284).'
+    src:
+      c: 78d3c69a
+      rows:
+        - 'w.gallup-poll III, 1975–76: all'
+        - 'w.solberg-hubert-humphrey 284: C'
+        - 'via w.solberg-hubert-humphrey 284 n.gallup: C'
     tags: [name:humphrey-hubert-h]
   - id: cal.1965-12-13.vietnam
     when: Dec. 13
@@ -1170,7 +1176,12 @@ entries:
     thread: vietnam-pause
     also: [japan, korea]
     c: Humphrey at Manila for Marcos's inauguration; then Tokyo, Seoul, Taipei, on the pause; back Jan. 3.
-    n: 'Humphrey to Johnson, CAP 65968, Dec. 31: [FRUS 1964–68, XXVI, doc. 320](https://history.state.gov/historicaldocuments/frus1964-68v26/d320). See [[cal.1965-12-24.vietnam]]. Names: Humphrey, Marcos.'
+    n: 'Humphrey to Johnson, CAP 65968, Dec. 31: [FRUS 1964–68, XXVI, doc. 320](https://history.state.gov/historicaldocuments/frus1964-68v26/d320). [[w.solberg-hubert-humphrey]], 284 (Manila; messages to the heads of the Japanese and Korean governments; Valenti along). See [[cal.1965-12-24.vietnam]]. Names: Humphrey, Marcos.'
+    src:
+      c: 837a2373
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v26/d320: all'
+        - 'w.solberg-hubert-humphrey 284: A'
     tags: [name:humphrey-hubert-h, name:marcos-ferdinand-e]
   - id: cal.1965-12-30.vietnam-congress
     when: Dec. 30
@@ -1284,9 +1295,10 @@ entries:
     date: 1965-12
     thread: vietnam-humphrey
     c: Johnson hints he may send Humphrey to Asia and tells others, Freeman among them. A newspaper column reports the trip; Johnson, thinking Humphrey leaked it, calls it off. By Humphrey's account the story came from Freeman, talking with Rowland Evans.
-    n: '[[w.humphrey-education-of-a-public-1976]], 329. Names: Johnson, Humphrey, Freeman, Evans. Check the day; the column.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 329; [[w.solberg-hubert-humphrey]], 284 (the Mansfield group''s trip; the pause, "We''re going to try Hubert''s way now"; Valenti along). Names: Johnson, Humphrey, Freeman, Evans. Check the day; the column.'
     src:
       c: 5095e652
       rows:
         - 'w.humphrey-education-of-a-public-1976 329: all'
+        - 'w.solberg-hubert-humphrey 284: all'
     tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:freeman-orville-l, name:evans-rowland-jr]
