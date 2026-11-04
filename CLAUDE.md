@@ -1452,6 +1452,12 @@ issued (quarters in the quarter's last month, fiscal years in June, calendar
 years in December). Each row has the figure as
 first reported, its release date, and the figure as revised today.
 
+The standard tables (the month's Economic indicators, Oil, Exchange rates and gold, Money and credit, Presidential
+approval, and the war table under the first Thursday; not the one-off blocks) carry "〈〈 Title 〉〉": the same kind's
+table before and after in the calendar, on any page, in the thread line's link style, the date on hover (the owner's
+request, Nov. 4, 2026; STYLE 18 in `tools/bib/indicators.py`). "As first reported" heads a column only where another
+holds a later figure (the exchange rates' column goes unheaded).
+
 ```
 indicators/<id>.yaml          one series; rows {p, first, released, chg, unit, now, chg_now, source, est, q, note, since}
 tools/indicators/make_indicators.py   writes them: FRED_API_KEY=... python3 tools/indicators/make_indicators.py
@@ -1615,11 +1621,13 @@ the series index, the README and the top bar (数; at first kept out of the bar,
 - Tints and charts (the owner's choice from the chart gallery, Oct. 28, 2026; `tools/bib/indchart.py`, its STYLE): each value
   cell of the indicators and Money and credit tables tinted by its period's move against the series' usual move over
   1960-68, column by column, green on the hot side (prices, output, jobs, money, debt or nominal rates rising,
-  unemployment falling, a real rate falling, a gap below zero) and brown on the cold (`HOT`); a key under the table. A
+  unemployment falling, a real rate falling, a gap below zero) and brown on the cold (`HOT`); the price indexes (CPI,
+  WPI, deflator: `YOY`) by the change from a year earlier, the rest by the change from the period before; the Released
+  cell in its figure's tint (the owner, Nov. 4, 2026); a key under the table. A
   ▸ before a row's name opens its chart in a row beneath (uPlot, vendored, `sources/vendor/uplot-1.6.30/`): as first
   reported and today over the span, Level | Year over year, year over year by default but for the rates and ratios in
   percent; the figures in `build/ind/charts-<hash>.json`, fetched at the first tap.
-- Real rates and the stance (`tools/indicators/make_derived.py`, its docstring; group "Real rates and the stance"): the
+- Real rates (`tools/indicators/make_derived.py`, its docstring; group "Real rates", the owner's rename, Nov. 4, 2026): the
   bill and the 10-year less the CPI's rise over the year (monthly) and the GNP deflator's (quarterly), each vintage its
   own; the funds rate less Taylor's rule (then, Okun's-law gap from unemployment as first reported; today, the CBO's);
   Holston, Laubach and Williams's real rate less their r* (today only; `--hlw` the New York Fed's workbook); the yield
@@ -1854,7 +1862,7 @@ day of a ranged entry, and the day's materials in two folded blocks, each closed
 holds something (the owner's request, Oct. 22, 2026): "Documents" (APP, FRUS, the opinions, the recordings) and "Other records" (the
 committees' meetings, the *Bulletin*, and any list added later), each summary counting its own lists; "Expand all" and
 "Collapse all" under each month heading open or close both (STYLE 12 in `tools/bib/daybook.py`). The Sunday programs
-and the *New York Times* line are not daily materials: they stay under the date, in neither block. A day block (the
+and the *New York Times* line are not daily materials: they stay under the date, in neither block. Sunday, its heading and entries, from its rule to Monday's, on a faint cool wash, a lit entry's white over it (the owner's choice, Nov. 4, 2026; STYLE 16 in `tools/bib/daybook.py`). A day block (the
 war table on the first Thursday, the forces on Armed Forces Day: `tools/bib/dayblocks.py`) stands after the day's
 entries and before its folded blocks: `section_days` sets a placeholder (`dayblocks.marker`), filled after the
 indicators by `dayblocks.inject` in both build chains.

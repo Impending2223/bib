@@ -37,6 +37,8 @@ STYLE (keep it):
  7. Contents: the first war table of each year on a page is listed in the page's contents and in the Vietnam thread's
     "Tables and maps" ("The war, 1965: first Thursdays"); the rest are not (they are under every month, as the
     indicators are).
+ 8. A standard table (indicators STYLE 18): its caption between 〈〈 and 〉〉, the war tables before and after it in the
+    calendar, the Thursday's date on hover; none at the first or the last.
 """
 import calendar
 import datetime
@@ -173,8 +175,15 @@ def servant(plan, part, sids, at):
     return "".join(out)
 
 
-def block(plan, part, iso, first_on_page):
-    """The war table for its date (with the servant of the series first used there), or ''."""
+def sequence(held):
+    """The war tables the calendar shows, by date: those on a day it holds (STYLE 8)."""
+    return sorted(d for d in filed() if d in held)
+
+
+def block(plan, part, iso, first_on_page, seq=None):
+    """The war table for its date (with the servant of the series first used there), or ''. seq: every war table's
+    date in order (sequence), for the caption's 〈〈 and 〉〉 (STYLE 8)."""
+    from .indicators import caption, date_label
     f = filed().get(iso)
     if not f:
         return ""
@@ -182,7 +191,13 @@ def block(plan, part, iso, first_on_page):
     year = int(iso[:4])
     h = lambda sid: plan.href(part, sid)
     foot = f'<p class="wart-foot">{esc(FOOT)}</p>' if first_on_page else ""
-    out = (f'<div class="wart" id="war-{month}"><p class="wart-cap">The war, {esc(month_name(month))}</p>{foot}'
+    nav = [None, None]
+    if seq and iso in seq:
+        j = seq.index(iso)
+        nav = [(f"#war-{filed()[seq[k]][0]}", date_label(seq[k], year)) if 0 <= k < len(seq) else None
+               for k in (j - 1, j + 1)]
+    cap = caption(f"The war, {month_name(month)}", *nav, cls="wart-cap")
+    out = (f'<div class="wart" id="war-{month}">{cap}{foot}'
            '<table><thead><tr><th>Reported then</th><th>Later</th></tr></thead>'
            + rows_html(rows, year, h) + "</table></div>")
     P = plan.parts.get(part) or {}
@@ -219,6 +234,7 @@ STYLE = """<style id="wartstyle">
 div.wart{margin:.6rem 0 .8rem;padding:.45rem .6rem .5rem;background:var(--panel);border-top:2px solid var(--ink);
   font-family:var(--sans);font-size:.8rem;line-height:1.35;color:var(--ink);font-variant-numeric:tabular-nums}
 div.wart .wart-cap{margin:0 0 .25rem;font-size:.74rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+div.wart .wart-cap a.tnb,div.wart .wart-cap a.tnb:hover{color:var(--muted);text-decoration:none}
 div.wart .wart-foot{margin:0 0 .35rem;font-size:.72rem;color:var(--muted);line-height:1.35}
 div.wart table{border-collapse:collapse;width:100%;table-layout:fixed}
 div.wart thead th{text-align:left;font-weight:600;color:var(--muted);font-size:.72rem;padding:.1rem .4rem .15rem 0;

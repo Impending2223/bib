@@ -361,7 +361,8 @@ def _table(sid, s, P_links):
     else:
         has_first = any("first" in r or r.get("est") for r in rows)
         has_now = any(r.get("now") is not None for r in rows)
-        head = "<th>Period</th>" + ("<th>As first reported</th><th>Released</th>" if has_first else "") + \
+        first_h = "<th>As first reported</th>" if has_now else '<th aria-label="Figure"></th>'   # not alone (indicators STYLE 18)
+        head = "<th>Period</th>" + (first_h + "<th>Released</th>" if has_first else "") + \
                ("<th>Revised, today</th>" if has_now else "")
         for r in rows:
             first, rel, now = I.cells(sid, s, r, None)

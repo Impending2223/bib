@@ -27,7 +27,9 @@ STYLE (settled; keep it):
     indicators, before Money and credit, set off by the same double rule, caption "Oil". The rows with both figures in
     Indicator | As first reported | Released | Revised, today; under it, the rows with one figure (trade by month and
     products supplied before 1963, first reported only; trade by year, today only) in Indicator | Figure | Reported,
-    "As first reported, <issue>" or "Revised, today", the source on hover. Today's crude production equals the
+    "As first reported, <issue>" or "Revised, today", the source on hover; where all are first reported, Indicator |
+    Figure | Released, the issue alone (the owner's request, Nov. 4, 2026: no "As first reported" where nothing else
+    is). Today's crude production equals the
     Survey's, to the Survey's rounding, in most months: the data, not a bug (make_oil.py reads the two apart, the
     Survey by eye, EIA's workbook by download); the months they differ are in the statement.
  6. The world's oil and the posted prices are not rows here (a year's table by country; dated postings, not a monthly
@@ -185,8 +187,9 @@ def now_cell(sid, s, r):
 
 # ---------------------------------------------------------------- the Oil table (STYLE 5)
 
-def table(rows, year, name, cells):
-    """rows: [(sid, s, r)]; name(sid, s, r): the name cell; cells(sid, s, r, year): (first, released, today)."""
+def table(rows, year, name, cells, aid="", cap=None):
+    """rows: [(sid, s, r)]; name(sid, s, r): the name cell; cells(sid, s, r, year): (first, released, today); aid: the
+    div's id attribute, cap: its caption (indicators STYLE 18)."""
     from .indicators import esc, date_label
     both, one = [], []
     for sid, s, r in rows:
@@ -196,23 +199,30 @@ def table(rows, year, name, cells):
             both.append(f'<tr><td class="iname">{name(sid, s, r)}</td><td>{first}</td><td class="rel">{rel}</td>'
                         f'<td>{now}</td></tr>')
         elif has_first:
-            src = r.get("source") or ""
-            when = f"As first reported, {date_label(r['released'], year)}" if r.get("released") else "As first reported"
-            one.append(f'<tr><td class="iname">{name(sid, s, r)}</td><td>{first}</td>'
-                       f'<td class="rel"><span title="{esc(src)}">{esc(when)}</span></td></tr>')
+            when = date_label(r["released"], year) if r.get("released") else ""
+            one.append(("first", name(sid, s, r), first, r.get("source") or "", when))
         elif has_now:
-            src = (s.get("now") or {}).get("source") or ""
-            one.append(f'<tr><td class="iname">{name(sid, s, r)}</td><td>{now}</td>'
-                       f'<td class="rel"><span title="{esc(src)}">Revised, today</span></td></tr>')
+            one.append(("now", name(sid, s, r), now, (s.get("now") or {}).get("source") or "", ""))
     if not both and not one:
         return ""
-    out = '<div class="ind ind-sep ind-oil"><p class="ind-cap">Oil</p>'
+    only_first = all(k == "first" for k, *_ in one)      # first reported alone: the date, not the words (STYLE 5)
+    trs = []
+    for k, nm, fig, src, when in one:
+        if k == "now":
+            lab = "Revised, today"
+        elif only_first:
+            lab = when or "—"
+        else:
+            lab = f"As first reported, {when}" if when else "As first reported"
+        trs.append(f'<tr><td class="iname">{nm}</td><td>{fig}</td>'
+                   f'<td class="rel"><span title="{esc(src)}">{esc(lab)}</span></td></tr>')
+    out = f'<div class="ind ind-sep ind-oil"{aid}>' + (cap or '<p class="ind-cap">Oil</p>')
     if both:
         out += ('<table><thead><tr><th>Indicator</th><th>As first reported</th><th>Released</th><th>Revised, today</th>'
                 '</tr></thead><tbody>' + "".join(both) + "</tbody></table>")
-    if one:
-        out += ('<table class="ind-one"><thead><tr><th>Indicator</th><th>Figure</th><th>Reported</th></tr></thead><tbody>'
-                + "".join(one) + "</tbody></table>")
+    if trs:
+        out += (f'<table class="ind-one"><thead><tr><th>Indicator</th><th>Figure</th>'
+                f'<th>{"Released" if only_first else "Reported"}</th></tr></thead><tbody>' + "".join(trs) + "</tbody></table>")
     return out + "</div>"
 
 

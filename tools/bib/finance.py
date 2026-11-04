@@ -22,7 +22,8 @@ STYLE (settled; keep it, and the indicators' STYLE in tools/bib/indicators.py):
     change from the quarter before in $bn.
  4. Exchange rates and the London gold price: not revised, so one figure each, in a table of their own under the
     indicators (and under Oil), before Money and credit, set off by the same double rule, caption "Exchange rates and
-    gold": Rate | As first reported | Released. The noon buying rate in New York, monthly average, in cents a unit of
+    gold": Rate | (the figure, unheaded) | Released: no "As first reported" where nothing else is (the owner's request,
+    Nov. 4, 2026). The noon buying rate in New York, monthly average, in cents a unit of
     the currency as the Bulletin printed it, the pound to two decimals, the mark and the franc to three: "280.17¢ per pound", its
     change from the month before in cents; the gold
     price in dollars a fine ounce, "$35.08". A parity change or a market's opening shows in grey after the figure (its
@@ -147,17 +148,18 @@ def cell(sid, s, r, col):
 
 # ---------------------------------------------------------------- the table of exchange rates and gold (STYLE 4)
 
-def fx_table(rows, year, name, cells):
-    """rows: [(sid, s, r)]; name(sid, s, r): the name cell; cells(sid, s, r, year): (first, released, today)."""
+def fx_table(rows, year, name, cells, aid="", cap=None):
+    """rows: [(sid, s, r)]; name(sid, s, r): the name cell; cells(sid, s, r, year): (first, released, today); aid: the
+    div's id attribute, cap: its caption (indicators STYLE 18)."""
     trs = []
     for sid, s, r in rows:
         first, rel, _ = cells(sid, s, r, year)
         trs.append(f'<tr><td class="iname">{name(sid, s, r)}</td><td>{first}</td><td class="rel">{rel}</td></tr>')
     if not trs:
         return ""
-    return ('<div class="ind ind-sep ind-fx"><p class="ind-cap">Exchange rates and gold</p><table><thead><tr>'
-            '<th>Rate</th><th>As first reported</th><th>Released</th></tr></thead><tbody>' + "".join(trs)
-            + "</tbody></table></div>")
+    return (f'<div class="ind ind-sep ind-fx"{aid}>' + (cap or '<p class="ind-cap">Exchange rates and gold</p>')
+            + '<table><thead><tr><th>Rate</th><th aria-label="Figure"></th><th>Released</th></tr></thead><tbody>'
+            + "".join(trs) + "</tbody></table></div>")
 
 
 # ---------------------------------------------------------------- checks
