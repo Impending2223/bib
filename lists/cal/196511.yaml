@@ -373,7 +373,7 @@ entries:
     thread: robert-kennedy
     also: [vietnam, students]
     c: 'Robert Kennedy at a press conference in Los Angeles, at the University of Southern California, on the protests against the war: "I don''t think you can ever discuss these matters enough." A draft card burned by one who feels strongly; he does not agree. Blood to the North Vietnamese: "I think that''s a good idea."'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 732; [[w.palermo-in-his-own-right]], 15–16 (the press conference at the University of Southern California; draft resistance; the exchange on blood); [[w.shesol-mutual-contempt]], 284 (from the transcript: "If a person feels that strongly"). To check: transcript of Robert Kennedy''s press conference, Los Angeles, Nov. 5, 1965, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 732 n.37); transcript, Gwirtzman Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 16 n.36). Names: Robert Kennedy.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 732; [[w.palermo-in-his-own-right]], 15–16 (the press conference at the University of Southern California; draft resistance; the exchange on blood); [[w.shesol-mutual-contempt]], 284 (from the transcript: "If a person feels that strongly"); [[w.thomas-robert-kennedy]], 313 (November, the USC press conference; "I think that''s a good idea"). To check: transcript of Robert Kennedy''s press conference, Los Angeles, Nov. 5, 1965, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 732 n.37); transcript, Gwirtzman Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 16 n.36). Names: Robert Kennedy.'
     src:
       c: 8823eeb2
       rows:
@@ -382,6 +382,8 @@ entries:
         - 'w.palermo-in-his-own-right 15–16: all'
         - 'via w.palermo-in-his-own-right 16 n.36: C'
         - 'w.shesol-mutual-contempt 284: A'
+        - 'w.thomas-robert-kennedy 313: B-D'
+        - 'via w.thomas-robert-kennedy 313 n.giving-blood: B-D'
     tags: [name:kennedy-robert-f, state:ca, city:los-angeles]
   - id: cal.1965-11-05.vietnam-congress
     when: Nov. 5
@@ -753,12 +755,14 @@ entries:
     thread: robert-kennedy
     also: [latin-america]
     c: 'Robert Kennedy in South America, three weeks: Peru from Nov. 10, Chile from Nov. 13, Argentina, Brazil from Nov. 20, Venezuela; back in Washington at the month''s end. Check the end date and Argentina''s dates.'
-    n: 'Check: the record. [[w.schlesinger-robert-kennedy-and-his]], 694–98; [[w.shesol-mutual-contempt]], 278–80 (the tour; Lima; Argentina). See [[cal.1965-05-06.robert-kennedy]]. Names: Robert Kennedy.'
+    n: 'Check: the record. [[w.schlesinger-robert-kennedy-and-his]], 694–98; [[w.shesol-mutual-contempt]], 278–80 (the tour; Lima; Argentina); [[w.thomas-robert-kennedy]], 309-10 (November, three weeks, Peru, Chile, Argentina and Brazil; the barriadas). Check: Thomas has Kennedy''s fortieth birthday, Nov. 20, at São Paulo (310). See [[cal.1965-05-06.robert-kennedy]]. Names: Robert Kennedy.'
     src:
       c: 7a5fbcfa
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 694–98: A-B'
         - 'w.shesol-mutual-contempt 278–80: A'
+        - 'w.thomas-robert-kennedy 309-10: A'
+        - 'via w.thomas-robert-kennedy 309 n.rfk-in-south-america: A'
     tags: [name:kennedy-robert-f]
   - id: cal.1965-11-10.economy
     when: Nov. 10
@@ -845,6 +849,19 @@ entries:
       c: 6a8ea8cc
       rows:
         - 'w.macv-command-history-1965 81: all'
+  - id: cal.1965-11-10.press-and-broadcasting
+    when: Nov. 10
+    date: '1965-11-10'
+    thread: press-and-broadcasting
+    also: [war-opposition]
+    c: 'The *New York Daily News*, on Robert Kennedy''s word for giving blood to the North Vietnamese: "why not go whole hog? Why not light out for the enemy country and join its armed forces?"'
+    n: '[[w.thomas-robert-kennedy]], 313. To check: *New York Daily News*, Nov. 10, 1965 (cited by [[w.thomas-robert-kennedy]], 459). See [[cal.1965-11-05.robert-kennedy]]. Names: Robert Kennedy.'
+    src:
+      c: 0aef8333
+      rows:
+        - 'w.thomas-robert-kennedy 313: all'
+        - 'via w.thomas-robert-kennedy 313 n.giving-blood: all'
+    tags: [name:kennedy-robert-f]
   - id: cal.1965-11-11.europe-and-the-alliance
     when: Nov. 11
     date: '1965-11-11'
@@ -1960,3 +1977,29 @@ entries:
         - 'w.woods-fulbright 391: all'
         - 'via x.1991-10-03.woods-interview-lowenstein: all'
     tags: [name:fulbright-j-william, name:fall-bernard-b]
+  - id: cal.1965-11.robert-kennedy-2
+    when: Nov.
+    date: 1965-11
+    thread: robert-kennedy
+    also: [latin-america]
+    c: Concepción, Chile, the university, though warned the communists will shout him down. Garbage and eggs as he enters; he goes to the communist students to shake hands; one spits in his face.
+    n: '[[w.thomas-robert-kennedy]], 309. To check: *New York Times*, Nov. 12–28, 1965 (cited by [[w.thomas-robert-kennedy]], 458). See [[cal.1965-11-10.robert-kennedy]]. Names: Robert Kennedy. Check: the day.'
+    src:
+      c: a7ba5689
+      rows:
+        - 'w.thomas-robert-kennedy 309: all'
+        - 'via w.thomas-robert-kennedy 309 n.rfk-in-south-america: all'
+    tags: [name:kennedy-robert-f]
+  - id: cal.1965-11.robert-kennedy-3
+    when: Nov.
+    date: 1965-11
+    thread: robert-kennedy
+    also: [latin-america]
+    c: 'Concepción, the next morning at 4. Robert Kennedy rides headfirst into the coal mine, the manager protesting. To a reporter, of the working conditions: "I''d be a communist, too."'
+    n: '[[w.thomas-robert-kennedy]], 309. To check: Andrew Glass, "The Compulsive Candidate," *Saturday Evening Post*, Apr. 23, 1966 (cited by [[w.thomas-robert-kennedy]], 458). See [[cal.1965-11.robert-kennedy-2]]. Names: Robert Kennedy. Check: the day.'
+    src:
+      c: ea2f28ef
+      rows:
+        - 'w.thomas-robert-kennedy 309: all'
+        - 'via w.thomas-robert-kennedy 309 n.no-mr-kennedy-please: all'
+    tags: [name:kennedy-robert-f]

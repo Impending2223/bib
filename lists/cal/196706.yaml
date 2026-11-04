@@ -447,6 +447,19 @@ entries:
         - 'w.bernstein-guns-or-butter 416: all'
         - 'via x.1967-06-09.schnittker-to-mcpherson: all'
     tags: [name:schnittker-john-a, name:mcpherson-harry, state:ks]
+  - id: cal.1967-06-09.robert-kennedy
+    when: June 9
+    date: '1967-06-09'
+    thread: robert-kennedy
+    also: [elections-1968]
+    c: 'Goodwin to Robert Kennedy, a translation from Homer: Achilles brooding in his tent after his quarrel with Agamemnon.'
+    n: '[[w.thomas-robert-kennedy]], 344, 466. To check: Goodwin to Robert Kennedy, June 9, 1967, RFK Senate Papers, Personal Correspondence, JFK Library (cited by [[w.thomas-robert-kennedy]], 466). Names: Goodwin, Robert Kennedy.'
+    src:
+      c: 1dcca804
+      rows:
+        - 'w.thomas-robert-kennedy 344, 466: all'
+        - 'via w.thomas-robert-kennedy 344 n.translation-from-homer: all'
+    tags: [name:goodwin-richard-n, name:kennedy-robert-f]
   - id: cal.1967-06-10.oil
     when: June 10
     date: '1967-06-10'
@@ -1597,3 +1610,54 @@ entries:
       c: cf92a79f
       rows:
         - 'w.macv-command-history-1967 454–55: all'
+  - id: cal.1967-06.robert-kennedy
+    when: June, late
+    date: 1967-06
+    thread: robert-kennedy
+    c: The Grand Canyon. Robert Kennedy, his family and friends, Plimpton, Whittaker, Buchwald and Andy Williams among them, rafting the Colorado; against the guides' warning he swims the white water.
+    n: '[[w.thomas-robert-kennedy]], 17. To check: *New York Times*, July 1–2, 1967; George Plimpton, interview (Evan Thomas) (cited by [[w.thomas-robert-kennedy]], 396). Names: Robert Kennedy. Check: the days.'
+    src:
+      c: 9057e9f3
+      rows:
+        - 'w.thomas-robert-kennedy 17: all'
+        - 'via w.thomas-robert-kennedy 17 n.grand-canyon-rafting-trip: all'
+    tags: [name:kennedy-robert-f, state:az]
+  - id: cal.1967-06.assassination
+    when: June, summer
+    date: 1967-06
+    thread: assassination
+    also: [robert-kennedy]
+    c: 'One night, Robert Kennedy to Goodwin: his brother killed by "the guy from New Orleans," Marcello.'
+    n: '[[w.thomas-robert-kennedy]], 337. To check: Jack Newfield, interview (cited by [[w.thomas-robert-kennedy]], 465). See [[cal.1967-02.assassination-garrison-2]]. Names: Robert Kennedy, Goodwin. Check: the day; Thomas''s note cites Newfield, not Goodwin.'
+    src:
+      c: ece38268
+      rows:
+        - 'w.thomas-robert-kennedy 337: all'
+        - 'via w.thomas-robert-kennedy 337 n.the-guy-from-new-orleans: all'
+    tags: [name:kennedy-robert-f, name:goodwin-richard-n]
+  - id: cal.1967-06.assassination-garrison
+    when: June
+    date: 1967-06
+    thread: assassination-garrison
+    also: [robert-kennedy]
+    c: Sheridan, having found Garrison a fraud, brings William Gurvich, a defector from Garrison's staff, to Robert Kennedy's Senate office to tell him so in person.
+    n: '[[w.thomas-robert-kennedy]], 337, 464. To check: *New Orleans States-Item*, June 23, 1967 (cited by [[w.thomas-robert-kennedy]], 464). See [[cal.1967-02.assassination-garrison-2]]. Names: Sheridan, Garrison, Robert Kennedy. Check: the day; Thomas dates only the defection.'
+    src:
+      c: 1dac4d4c
+      rows:
+        - 'w.thomas-robert-kennedy 337, 464: all'
+        - 'via w.thomas-robert-kennedy 337 n.defector-from-garrison-camp: all'
+    tags: [name:sheridan-walter, name:garrison-jim, name:kennedy-robert-f]
+  - id: cal.1967-06.press-and-broadcasting
+    when: June, summer
+    date: 1967-06
+    thread: press-and-broadcasting
+    also: [robert-kennedy]
+    c: '*Life* commissions Saul Bellow to profile Robert Kennedy. Bellow follows him for a week; Kennedy goes off the record to denounce Johnson. The article never appears.'
+    n: '[[w.thomas-robert-kennedy]], 343. Names: Robert Kennedy. Check: the week.'
+    src:
+      c: 43174d89
+      rows:
+        - 'w.thomas-robert-kennedy 343: all'
+        - 'via w.thomas-robert-kennedy 343 n.bellow-profile: all'
+    tags: [name:kennedy-robert-f]

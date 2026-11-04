@@ -976,12 +976,13 @@ entries:
     thread: robert-kennedy
     also: [cities-and-housing]
     c: 'Robert Kennedy to Ribicoff''s Subcommittee on Executive Reorganization, "Federal Role in Urban Affairs": community development corporations owned and controlled by the residents of poor areas, with private and public capital; "full and dominant participation by the residents."'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 784–85. To check: the statement, reprinted 113 Cong. Rec. S667–70 (daily ed. Jan. 23, 1967) (cited by [[w.schlesinger-robert-kennedy-and-his]], 785 n.39). Names: Robert Kennedy, Ribicoff.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 784–85; [[w.thomas-robert-kennedy]], 460 (Thomas''s note: in August Kennedy attacks the administration''s efforts in the inner city as a "drop in the bucket"). To check: the statement, reprinted 113 Cong. Rec. S667–70 (daily ed. Jan. 23, 1967) (cited by [[w.schlesinger-robert-kennedy-and-his]], 785 n.39). Names: Robert Kennedy, Ribicoff.'
     src:
       c: 2c02f368
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 784–85: all'
         - 'via w.schlesinger-robert-kennedy-and-his 785 n.39: all'
+        - 'w.thomas-robert-kennedy 460: A'
     tags: [name:kennedy-robert-f, name:ribicoff-abraham]
   - id: cal.1966-08-15.vietnam
     when: Aug. 15
@@ -1260,7 +1261,12 @@ entries:
     thread: opinion
     also: [elections-1968-polls, robert-kennedy]
     c: 'Gallup, July 29–Aug. 4: Robert Kennedy 55 percent, Romney 39. Democrats'' choice for 1968: Kennedy 40, Johnson 38, Humphrey 6, McNamara 6. Independents: Kennedy 38, Johnson 24, McNamara 13, Humphrey 5.'
-    n: '[[w.gallup-poll]], III, 2023. Names: Robert Kennedy, Romney, Johnson, Humphrey, McNamara.'
+    n: '[[w.gallup-poll]], III, 2023; [[w.thomas-robert-kennedy]], 327 (Harris and Gallup in August: Kennedy narrowly over Johnson for 1968). Names: Robert Kennedy, Romney, Johnson, Humphrey, McNamara.'
+    src:
+      c: 511853c7
+      rows:
+        - 'w.gallup-poll III, 2023: all'
+        - 'w.thomas-robert-kennedy 327: B'
     tags: [name:kennedy-robert-f, name:romney-george-w, name:johnson-lyndon-b, name:humphrey-hubert-h, name:mcnamara-robert-s]
   - id: cal.1966-08-21.civil-rights-organizations
     when: Aug. 21
@@ -1298,12 +1304,13 @@ entries:
     thread: elections-1966
     also: [robert-kennedy]
     c: 'The Catskills, Johnson and Robert Kennedy together. Johnson''s speech; he introduces congressmen, then "a young man for whom I have the deepest respect": shrieks of "Bobby!" The *Christian Science Monitor*''s headline the next day: "New Yorkers Applaud Johnson, Squeal at Kennedy."'
-    n: '[[w.shesol-mutual-contempt]], 346. Check: the place. To check: *Christian Science Monitor*, Aug. 22, 1966; *Newsweek*, Oct. 24, 1966; *U.S. News & World Report*, Nov. 7, 1966, 40 (cited by [[w.shesol-mutual-contempt]], 345, 346). Names: Johnson, Robert Kennedy.'
+    n: '[[w.shesol-mutual-contempt]], 346; [[w.thomas-robert-kennedy]], 327 (Kennedy tours New York with Johnson, Aug. 21; the *Monitor*: "Crowds Applaud LBJ, Squeal at Kennedy"). Check: the place. Check: Thomas gives the headline "Crowds Applaud LBJ, Squeal at Kennedy" (327); his note cites the *Times* of Nov. 14, 1966 (462). To check: *Christian Science Monitor*, Aug. 22, 1966; *Newsweek*, Oct. 24, 1966; *U.S. News & World Report*, Nov. 7, 1966, 40 (cited by [[w.shesol-mutual-contempt]], 345, 346). Names: Johnson, Robert Kennedy.'
     src:
       c: a8eb65f4
       rows:
         - 'w.shesol-mutual-contempt 346: all'
         - 'via x.1966-08-22.strout-new-yorkers-applaud-johnson: all'
+        - 'w.thomas-robert-kennedy 327: A, D'
     tags: [name:johnson-lyndon-b, name:kennedy-robert-f, state:ny]
   - id: cal.1966-08-22.cities-and-housing
     when: Aug. 22
@@ -2076,3 +2083,16 @@ entries:
         - 'via w.zelizer-fierce-urgency-of-now 241 n.37a: all'
         - 'via w.zelizer-fierce-urgency-of-now 241 n.37b: all'
     tags: [name:nugent-luci-baines-johnson, state:il, ok:result-form]
+  - id: cal.1966-08.assassination
+    when: Aug.
+    date: 1966-08
+    thread: assassination
+    also: [robert-kennedy]
+    c: 'Robert Kennedy and Seigenthaler with Manchester on *The Death of a President*. Kennedy proposes that Manchester sabotage *Look*''s excerpts; Manchester will not. Kennedy: "Then give them to John." Seigenthaler, later: "Bob in effect accused Manchester of betraying Jackie."'
+    n: '[[w.thomas-robert-kennedy]], 331. To check: William Manchester, *Controversy and Other Essays in Journalism*, 33 (cited by [[w.thomas-robert-kennedy]], 463). See [[cal.1966-12-16.assassination]]. Names: Robert Kennedy, Seigenthaler, Manchester. Check: the day; by Manchester''s account; Seigenthaler does not remember the words.'
+    src:
+      c: 180d35e3
+      rows:
+        - 'w.thomas-robert-kennedy 331: all'
+        - 'via w.thomas-robert-kennedy 331 n.then-give-them-to-john: all'
+    tags: [name:kennedy-robert-f, name:seigenthaler-john, name:manchester-william]

@@ -321,3 +321,41 @@ by hand). Left in the inbox, being written: thomas-rfk-4, its pending file and i
   older per-answer news-conference entries, for a sweep by the same rule.
 
 - After the last merge: `./bib check` 0 errors, 28 warnings (the standing 26 and the two starred notes).
+
+
+(The seventh merger, Nov. 4, 2026, 5:00-5:10 a.m. Pacific, after the fourth and fifth runs of Thomas.)
+
+Merged, in order, each by `./bib merge --auto` (no `--legacy`), its pending witnesses folded alone (`fold.py FILE`; the
+edges already in `sources/witnesses/by-work/thomas-robert-kennedy.yaml`), checked, committed and pushed: thomas-rfk-4
+(248 ops: 81 adds, 103 cites, 46 src, 18 checks; 177 witnesses) and thomas-rfk-5 (209 ops: 79 adds, 79 cites, 29 src, 22
+checks; 64 witnesses) (`inbox/merged/`). Neither had an edit. Every ledger claim of the two landed; the ledger and the
+inbox are empty. With these Thomas is read whole. For the next merger:
+
+- The "one event?" flags, 26 and 39, read pair by pair (`dups2.py`, `nc.py`, `xdup.py`, `keepdups.py` in the scratchpad's
+  `merge7/`). Combined (the tree's id kept, Thomas's its alias; c joined, Thomas's matter a unit or units of its own; the
+  note joined, each work given its parenthetical; the map rebuilt): Dutton's memorandum of May 12, 1965
+  (`cal.1965-05-12.robert-kennedy`, Shesol's; Thomas's "initiative on the spread of nuclear weapons" as unit B) and of
+  Apr. 6, 1966 (`cal.1966-04-06.robert-kennedy`; Thomas's "existential" politics, the kibbutz and Kennedy's note to Dolan
+  as D-F, Dolan named and tagged). No news conference among the adds. All else kept apart: distinct acts of one day or
+  month (the Rometsch weekend of Oct. 25-28, 1963, the FBI's, the White House log's and O'Donnell's; Robert Kennedy's
+  calls and meetings of Nov. 22, 1963; Evans on Rometsch beside Evans on the King taps, July 16, 1963; Salinger's
+  statement on the King tap, late May 1968, beside Pearson's column, May 24, and Pearson's call, May 23; Johnson with
+  McCarthy and with Pearson beside Johnson with Kennedy and with Humphrey, Apr. 3, 1968; the airport statement and
+  Smith's words in the car, Los Angeles, May 29, 1968).
+- The witnesses of the two Dutton memoranda left as two rows each, a copy a repository (Shesol's RFK Senate papers,
+  Thomas's Fred Dutton Papers): `x.1965-05-12.dutton-to-robert-kennedy` and `x.1965-05-12.dutton-to-rfk`;
+  `x.1966-04-06.dutton-to-rfk-adventure-and-bills` and `x.1966-04-06.dutton-to-rfk`. A reader may join them by `amend:`
+  (absorbs) if one document in two files is one witness.
+- Mends: `time_approx` without a time taken off `cal.1968-03-13.robert-kennedy-campaign-2` ("after midnight": no hour);
+  `cal.1968-04-09.robert-kennedy-3` ("about 1 a.m.", Atlanta, Eastern Standard) given `time: 1968-04-09T06:00Z`; Johnson
+  tagged on `cal.1967-01.robert-kennedy-2` and `cal.1967-12.press-and-broadcasting` (Names ambiguous); Edelman out of
+  Names on `cal.1968-05-23.robert-kennedy-campaign-2` (no entry).
+- Leads and press: the fourth and fifth runs' sections into `notes/leads.md` (their "- Heading: text" bullets sorted
+  under the headings, a Thomas section a run: `runleads.py BOOKCHECK FROM TO RUN`) and `notes/press.md` (15 and 19 rows,
+  taken by line range).
+- For the owner: `cal.1965-05-12.robert-kennedy` keeps the reader's forward "See [[cal.1965-06-23.robert-kennedy]]"
+  (the speech the memorandum proposed); `cal.1968-05.robert-kennedy-campaign-3` (Salinger's statement) is undated in
+  Thomas, a Check; the leads' undated scenes of 1965-68 (Thomas's notes name their sources).
+
+- After the last merge: `./bib check` 0 errors, 28 warnings (the same standing set); `./bib audit-cal` committed (18,174
+  dated entries; 11 with neither a bibliography nor a See).
