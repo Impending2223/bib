@@ -119,3 +119,47 @@ page | date | event | why
 - The USIB ad hoc committee's "The Military Build-up in Cuba," summer 1961: its date.
 - Kennedy's word to Bissell that he must resign as DDP: the month.
 - Dulles's unpublished paper on the Bay of Pigs (Dulles Papers, boxes 138, 244, Princeton).
+
+## The second run (Nov. 3–4, 2026)
+
+The owner's copy fetched again (Drive's download link; 276 PDF pages, a text layer), read with `pdftotext -layout`,
+deleted when done; the offset holds (PDF = printed + 8, checked at pp. 204, 225, 239, 261). Read this run: ch. 8
+(205–24: a philosophy of covert action, no dated event), ch. 9 (225–37), ch. 10 to 1964 (238–39), the notes to ch. 9
+(261); the Passed over of Oct. 29 ruled again under R5, R15 and R18. Patch: `inbox/2026-11-03-b3-bissell-2.yaml`
+(`b3-bissell-2`, 15 ops: 14 new entries, 1 cite). Witnesses: `inbox/witnesses/2026-11-03-b3-bissell-2.yaml` (14 rows:
+the letters and memoranda of ch. 9, Bissell's own papers, no repository given; the Bell report and its excerpts; the
+two passages quoting his letters to his children); edges appended to `sources/witnesses/by-work/bissell-reflections-of-a-cold.yaml` (8).
+
+Entered: Mar. 1, 1962 (Bissell to IDA); May 1, 1962 (the Bell report on government contracting for research and
+development, sent to Congress: the Papers' letter of transmittal, 1962 Pub. Papers 352, read; Check: Bissell has the
+report drawn up in the summer and approved then, 227); July 12, 1962 (president of IDA); Aug. 8, 1962 (to Rinehart);
+fall 1962 (the agreements with the Pentagon); Mar. 12, 15 and 25, 1963 (Taylor's letter; McNamara; Taylor, by the
+memorandum for the record); Apr. 8 and 10, 1963 (Rinehart and the reply); Aug. 12, 1963 (*Newsweek*, "Game to the
+End"); Nov. 1963 (Bissell and Alness asked to resign); Oct. 1964 (McCone's assignment); summer 1961 (the Intelligence
+Board's ad hoc report, "The Military Build-up in Cuba", passed over on Oct. 29 for want of a month, now dated to the
+season with a Check).
+
+Cited: `cal.1961-03-09.laos`, 147 (B–C): the "one of the first meetings" of the NSC on Laos, put on Oct. 29 for the owner
+to place, is the White House meeting of Mar. 9, 1961 (Lemnitzer on the Chiefs' plan for the Plaine des Jarres, more aid
+for Phoumi, Bissell present).
+
+Passed over, ruled again (page | date | event | why):
+- 137 | early 1960 | Discoverer XI and XII | a lead: no month (unchanged).
+- 157 | 1960 | Doris Mirage's yellow pad | a lead: undated (unchanged).
+- 181 | 1961 | three members of the Revolutionary Council visit the camp in Guatemala | a lead: Bissell gives no month (the "Mar.–Apr." of Oct. 29 was not his).
+- 191 | 1961 | Kennedy tells Bissell he must leave | a lead: no month.
+- 204 | mid-1962 | IDA | entered (Mar. 1, July 12, 1962).
+- 226 | 1963 | Thomas D. White on the "pipe-smoking, trees-full-of-owls type of so-called defense intellectuals" | a lead: Bissell's note gives *Business Week*, July 13, 1963, 58, quoting White; the occasion not dated.
+- 231 | 1962–63 | Bissell's memorandum to Harold Brown on IDA's organization; dropped at the chairman's request | a lead: no date.
+- 232 | Oct. 24, 1962 | Bissell to his son Winthrop: "I feel very much an outsider" | minor (private remarks); the letter registered.
+- 235 | Nov. 22, 1963 | Bissell hears of the assassination at Pennsylvania Station | minor (private).
+- 237 | Dec. 1963 | the dinners in Washington | minor (social).
+- 237 | about 1966 | Taylor president of IDA; later, Taylor to Bissell: "you would not have left" | a lead: "a couple of years" after his leaving; no date.
+- 239 | early 1964–Sept. 2, 1964 | the search for work; the offer of United Aircraft accepted (the telegram at Venice, Sept. 2) | minor (private career).
+- 240–44 | 1964–74 | United Aircraft, Hartford | minor (private career); after Jan. 20, 1969 out of the span.
+
+Leads (add to `notes/leads.md`):
+- National: Taylor's presidency of IDA (about 1966) and his remark to Bissell; the date (IDA's records).
+- National: Thomas D. White's "trees-full-of-owls" remark: its occasion (*Business Week*, July 13, 1963, 58).
+- The Executive roster: IDA's presidents (Norton to July 12, 1962; Bissell to 1964) are not federal offices; for the owner to say whether the roster should hold the federally funded research centers' heads.
+- The Bell report itself (Apr. 30, 1962): its text, for the calendar's May 1 entry (printed as a House or Senate document; not reached).
