@@ -143,11 +143,12 @@ entries:
     date: '1963-08-05'
     thread: elections-1964
     c: Rockefeller will not pledge to support Goldwater as the nominee "if he were a captive of the radical right."
-    n: '[[w.smith-on-his-own-terms]], 413. To check: [[w.novak-agony-of-the-g]], 216 (cited by [[w.smith-on-his-own-terms]], 413). See [[cal.1963-07-14.elections-1964]]. Names: Rockefeller, Goldwater.'
+    n: '[[w.smith-on-his-own-terms]], 413; [[w.novak-agony-of-the-g]], 216 (an Albany press conference). See [[cal.1963-07-14.elections-1964]]. Names: Rockefeller, Goldwater.'
     src:
       c: f09d5afd
       rows:
         - 'w.smith-on-his-own-terms 413: all'
+        - 'w.novak-agony-of-the-g 216: A'
     tags: [name:rockefeller-nelson, name:goldwater-barry-m]
   - id: cal.1963-08-06.school-aid
     when: Aug. 6
@@ -898,6 +899,18 @@ entries:
         - 'w.preston-war-council 121: all'
         - 'via w.preston-war-council 121 n.57a: all'
     tags: [name:mccone-john-a, name:bundy-mcgeorge, name:forrestal-michael-v]
+  - id: cal.1963-08-23.goldwater
+    when: Aug. 23
+    date: '1963-08-23'
+    thread: goldwater
+    also: [elections-1964]
+    c: 'Atlanta. Goldwater, asked whether he would back Rockefeller as the nominee: yes; "The country can''t stand another four years of Kennedy."'
+    n: '[[w.novak-agony-of-the-g]], 234 n.11. Names: Goldwater, Rockefeller.'
+    src:
+      c: f70d7903
+      rows:
+        - 'w.novak-agony-of-the-g 234 n.11: all'
+    tags: [name:goldwater-barry-m, name:rockefeller-nelson, city:atlanta]
   - id: cal.1963-08-24.vietnam
     when: Aug. 24
     date: '1963-08-24'
@@ -952,7 +965,7 @@ entries:
     thread: goldwater
     also: [elections-1964]
     c: 'The *Saturday Evening Post*, Stewart Alsop''s "Can Goldwater Win in ''64?": Goldwater, touring Arizona with him, "You know, I think we ought to sell TVA."'
-    n: '[[w.white-suite-3505]], 225; [[w.goldberg-barry-goldwater]], 177 (an August interview; "You know, I haven''t got a really first-class brain"; "You know, I think we ought to sell TVA"). To check: Stewart Alsop, "Can Goldwater Win in ''64?," *Saturday Evening Post*, Aug. 24, 1963 (cited by [[w.white-suite-3505]], 225 n.6). Names: Goldwater, Alsop.'
+    n: '[[w.white-suite-3505]], 225; [[w.goldberg-barry-goldwater]], 177 (an August interview; "You know, I haven''t got a really first-class brain"; "You know, I think we ought to sell TVA"); [[w.novak-agony-of-the-g]], 237–38 & n.1 ("Can Goldwater Win in ''64?", Aug. 24–31; the exchange in the air on the income tax, TVA and farm subsidies; "I haven''t got a really first-class brain"). To check: Stewart Alsop, "Can Goldwater Win in ''64?," *Saturday Evening Post*, Aug. 24, 1963 (cited by [[w.white-suite-3505]], 225 n.6). Names: Goldwater, Alsop.'
     src:
       c: 4c3c8501
       rows:
@@ -960,6 +973,8 @@ entries:
         - 'via w.white-suite-3505 225 n.6: all'
         - 'w.goldberg-barry-goldwater 177: all'
         - 'via w.goldberg-barry-goldwater 177 n.159: all'
+        - 'w.novak-agony-of-the-g 237–38 & n.1: A'
+        - 'via w.novak-agony-of-the-g 237 n.1: A'
     tags: [name:goldwater-barry-m, name:alsop-stewart]
   - id: cal.1963-08-24.vietnam-2
     when: Aug. 24
@@ -1886,3 +1901,15 @@ entries:
       rows:
         - 'w.kotz-judgment-days 79: all'
     tags: [name:kennedy-robert-f, name:king-martin-luther-jr]
+  - id: cal.1963-08.republican-party
+    when: Aug.
+    date: 1963-08
+    thread: republican-party
+    also: [elections-1964]
+    c: 'Some two weeks before Rockefeller''s picnic in his district, Representative John Anderson asks Dirksen by telephone whether he is going. Dirksen: "Why, of course not, John. I''ll be busy." Anderson in Washington that day at a "Congressional seminar"; Dirksen in the capital, for the debate on the test ban treaty, he says.'
+    n: '[[w.novak-agony-of-the-g]], 222–23. See [[cal.1963-09-07.republican-party]]. Names: Anderson, Dirksen, Rockefeller. Check: the day.'
+    src:
+      c: e1a205d9
+      rows:
+        - 'w.novak-agony-of-the-g 222–23: all'
+    tags: [name:anderson-john-b, name:dirksen-everett, name:rockefeller-nelson]

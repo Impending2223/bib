@@ -1155,13 +1155,15 @@ entries:
     thread: goldwater
     also: [elections-1964]
     c: 'Phoenix, just after the new year. Goldwater to a reporter, on the timetable White''s group set at Chicago: "I hope they won''t go ahead on this timetable. I''d rather stay in a fluid position for the rest of this year."'
-    n: '[[w.white-suite-3505]], 112; [[w.goldberg-barry-goldwater]], 169 (three days before his meeting with White: "Assume I''m interested in the presidency. It still makes more sense for me to delay. I''ve done my backroom work already. ... I am the only conservative in the presidential picture"). Check: Goldberg''s note gives the *Arizona Republic*, Jan. 12, 1963, for Goldwater''s words (169 n.109). See [[cal.1961-10-08.goldwater]]. Names: Goldwater, White. Check: the day.'
+    n: '[[w.white-suite-3505]], 112; [[w.goldberg-barry-goldwater]], 169 (three days before his meeting with White: "Assume I''m interested in the presidency. It still makes more sense for me to delay. I''ve done my backroom work already. ... I am the only conservative in the presidential picture"); [[w.novak-agony-of-the-g]], 128 (to reporters; "the rest of the year [1963]"). Check: Goldberg''s note gives the *Arizona Republic*, Jan. 12, 1963, for Goldwater''s words (169 n.109). See [[cal.1961-10-08.goldwater]]. Names: Goldwater, White. Check: the day.'
     src:
       c: 1a89d47e
       rows:
         - 'w.white-suite-3505 112: all'
         - 'w.goldberg-barry-goldwater 169: A'
         - 'via w.goldberg-barry-goldwater 169 n.109: A'
+        - 'w.novak-agony-of-the-g 128: B'
+        - 'via x.1963-01.goldwater-to-reporters-on-the-timetable: B'
     tags: [name:goldwater-barry-m, name:white-f-clifton]
   - id: cal.1963-01.goldwater-2
     when: Jan.
@@ -1254,12 +1256,13 @@ entries:
     date: 1963-01
     thread: states-and-cities
     c: 'Rockefeller''s budget, a record, balanced by higher fees for liquor licenses and auto registrations, the Republican leaders not consulted: fees, he says, not taxes, and Kennedy''s failed growth to blame. The Legislature strikes the registration fee and cuts the liquor increases.'
-    n: '[[w.smith-on-his-own-terms]], 393. To check: *New York Times*, Apr. 7, 1963 (cited by [[w.smith-on-his-own-terms]], 393). Check: the days. Names: Rockefeller, Kennedy.'
+    n: '[[w.smith-on-his-own-terms]], 393; [[w.novak-agony-of-the-g]], 109–110 ($105 million in "fees" on auto licenses and liquor; the leadership''s revolt; the auto charges dropped, a "brand label use fee" on liquor, some $67 million cut from his spending). To check: *New York Times*, Apr. 7, 1963 (cited by [[w.smith-on-his-own-terms]], 393). Check: the days. Names: Rockefeller, Kennedy.'
     src:
       c: 42cd33d2
       rows:
         - 'w.smith-on-his-own-terms 393: all'
         - 'via x.1963-04-07.new-york-times-apr-7-1963: A'
+        - 'w.novak-agony-of-the-g 109–110: A-B'
     tags: [name:rockefeller-nelson, name:kennedy-john-f, state:ny]
   - id: cal.1963-01.jobs-and-wages
     when: Jan.
@@ -1321,3 +1324,15 @@ entries:
         - 'w.fursenko-one-hell-of-a 325–26: all'
         - 'via w.fursenko-one-hell-of-a 325 n.26: all'
     tags: [name:khrushchev-nikita-s, name:castro-fidel]
+  - id: cal.1963-01.republican-party-2
+    when: Jan.
+    date: 1963-01
+    thread: republican-party
+    also: [conservative-movement, elections-1964]
+    c: The Capitol, the Senate dining room. Bruce Chapman, founder of *Advance*, at lunch with Hinman, asks Rockefeller money, $50,000 at least, against a Birchite take-over of the Young Republicans. Hinman thanks him and declines.
+    n: '[[w.novak-agony-of-the-g]], 199–200 & n.14 (Rockefeller, July 19, denies any request for funds). See [[cal.1963-06-25.republican-party]]. Names: Hinman. Check: the day.'
+    src:
+      c: de3977ea
+      rows:
+        - 'w.novak-agony-of-the-g 199–200 & n.14: all'
+    tags: [name:hinman-george-l]

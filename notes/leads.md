@@ -487,6 +487,12 @@ CQ Weekly Report, 1968-08-16:
 ### Thomas, *Robert Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
 - The Wayne County, W. Va., case of 1960-63 (RFK to Burke Marshall, Sept. 23, 1963, Burke Marshall Papers); Danville, Va., 1963, Geoghegan sent (Geoghegan OH, JFKL; 112); Savannah, Sept. 1960 (Scott Peek OH, SHO); Chafin's *Just Good Politics*, 127-45 (Logan County, W. Va.?), not held.
 
+### Novak, *The Agony of the G.O.P. 1964* (batch 3, third run, Nov. 4, 2026; notes/book-checks/novak-agony-of-the-g.md)
+- Pennsylvania: the Scranton-Dilworth debates and Dilworth's empty chair at WNEP, fall 1962 (96–98); Scranton's men against Hugus, Allegheny County, to the primary of Apr. 28, 1964 (275–76); Hugus's and Robertson's elections as county chairmen, 1962 (118–20).
+- Michigan: Swainson's veto on Detroit's income tax, 1962 (92); the day Romney's tax program died, 1963 (228–29).
+- Virginia: the Lake Barcroft district convention, Fairfax County, 1964 (346–47).
+- Washington: the King and Spokane county caucuses, 1964 (352–53).
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -2049,6 +2055,15 @@ Rights in Conflict (Walker Report):
 - The press figures without a name entry whom this run names or enters: Sander Vanocur (NBC), Murray Kempton, Marguerite Higgins (*New York Herald Tribune*), Peter Maas (*Saturday Evening Post*), Frank Holeman (*New York Daily News*), William Haddad (*New York Post*), Warren Rogers (*New York Herald Tribune*): proposed for Part III.
 - Thomas's interviews (some ninety persons) are not deposited: every such witness is open. The Stein and Plimpton oral histories (STOH) and the Senate Historical Office's (SHO) are named but not read.
 
+### Novak, *The Agony of the G.O.P. 1964* (batch 3, third run, Nov. 4, 2026; notes/book-checks/novak-agony-of-the-g.md)
+- Press figures for Part III entries (R13), each named by Novak: Willard Edwards (7), Paul Duke (99), Gould Lincoln (103), Robert C. Albright (236), Jack Bell (34, 211), Cabell Phillips (104, 132, 216, 226), Felix Belair Jr. (259), Warren Weaver Jr. (147), Leo Egan (70), Alan L. Otten (295, 430), Richard Dougherty (403), Jack Steele (401), Samuel Lubell (379), Mervin Shoemaker (375), Joseph A. Loftus (436), James Burnham (355), Murray Kempton (450).
+- Party figures the calendar names and Part III lacks (K–J Cong. III.K or Opp. III): Wirt Yerger, Tony Smith, Victor Johnston, Bert Teague, Stewart Lamprey, William Loeb, Doloris Bridges, Ione Harrington, Charles Barr, Tad Smith, Tom Fairfield Brown, William Keisling, Craig Truax, Walter Alessandroni, Robert Mullen, Paul Grindle, David Goldberg, Alexander Lankler, Mary Scranton, Charles Carpentier, Bruce Chapman, Harry O'Donnell, Fred Young, Jean Tool, Mort Frayne, Charles Moore, Houston Flournoy, Joseph Martin Jr., Edwin Durno, Howell Appling, Robert C. Albright.
+- Gallup figures Novak gives that the calendar's poll entries do not match: Rockefeller 43, Goldwater 26 before the remarriage, Goldwater 40, Rockefeller 29 after (148); Romney 13, 16, 18 (161); Lodge 42, 36, 28 (380); June 6, 1964 (441). Gallup's releases to place them.
+- Goldwater's school-tax bill of 1961, put in the Record by a colleague (33–34 & n.2): its day in the Record.
+- Rockefeller's letters and wire on long-term foreign aid financing, 1961 (70): the House vote's day.
+- Javits's protest on the Senate floor against "The White Man's Party?" (195 n.13): the Record, June–July 1963.
+- The undated rows of Passed over marked "lead," each with its page.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -3218,6 +3233,9 @@ CQ Weekly Report, 1968-08-30:
 
 ### Thomas, *Robert Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
 - The *Indigirka* at Mariel, Oct. 4, 1962, and the *Marucla*, Oct. 26 (Fursenko and Naftali, 213, 426): for the missile-crisis thread if not in.
+
+### Novak, *The Agony of the G.O.P. 1964* (batch 3, third run, Nov. 4, 2026; notes/book-checks/novak-agony-of-the-g.md)
+- The *Athens Post*'s interview with Goldwater before Greece's election of Nov. 1963 (243 n.4).
 
 ## The Executive roster
 

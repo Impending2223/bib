@@ -17,6 +17,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1960-07-23 | *New York Times* | item | "PACT OPENS WAY FOR PARTY AMITY" | Smith, *On His Own Terms*, 346
 1960-08-07 | *New York Times*, p. 9 | story | "Now their hearts belong to Barry" | Goldberg, *Barry Goldwater*, 146
 1960-10 | *New York Times* | front page? | the USIA's prestige surveys, printed without saying how obtained | Sorensen, *Kennedy*, 203–04
+1960-10 | *Chicago Tribune* | column | Willard Edwards: Nixon's train like Hoover's of 1932 | Novak, *Agony of the G.O.P. 1964*, 7
 1960-10-13 | three newspapers (unnamed) | text | Kennedy's Quemoy and Matsu speech of Oct. 12 in full (Oct. 13 or after) | White, *Making of the President 1960*, 292 n.4
 1960-10-15 | *New York Times* | story | the expropriation of 382 companies and the banks | Fursenko and Naftali, *"One Hell of a Gamble"*, 61
 1960-10-20 | the networks and the press | forecasts | the forecasts of a Kennedy victory, Oct. 20–Nov. 7, 1960, entered one by one | Nixon, *Six Crises*, 358–60
@@ -83,6 +84,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1962-12-08 | *Saturday Evening Post* (Bartlett and Stewart Alsop) | article | the missile crisis; Stevenson | Sorensen, *Kennedy*, 315
 1963 | *Dallas Morning News* | item | on Rockefeller's fees | Smith, *On His Own Terms*, 393
 1963 | *New Republic*, Kempton | item | "He Has It If He Wants It, and He Does" | Smith, *On His Own Terms*, 394
+1963 | Washington *Evening Star* | column | Gould Lincoln, "Rocky No New Frontiersman" | Novak, *Agony of the G.O.P. 1964*, 103
 1963-01-19 | *The New Yorker* | article | Dwight MacDonald, "Our Invisible Poor" (entered) | Bernstein, *Guns or Butter*, 92
 1963-02-12 | *New York Times* | item | Szulc, "U.S. and Britain Recognize Iraq: Soviet Also Acts" | Fursenko and Naftali, *Khrushchev's Cold War*, 512
 1963-02-20, 24, 25 | *Washington Post* | items | the Soviet bloc's campaign on Iraq; Iraq's charges; ar-Radi | Fursenko and Naftali, *Khrushchev's Cold War*, 512
@@ -105,8 +107,10 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-04-22 | Newsweek | magazine, 28-29 | Birmingham | Branch, *Parting the Waters*, 737 n.1
 1963-04-28 | Birmingham News | inside, 6 | "Greenwood Rolled with Punch, And Won" | Branch, *Parting the Waters*, 753
 1963-05 | NBC News | broadcast | "RFK" | Thomas, *Robert Kennedy*, 110 n.
+1963-05-03 | *Detroit News* | editorial | "George—Come Home" (cited on its entry) | Novak, *Agony of the G.O.P. 1964*, 162
 1963-05-04 | New York Times | front page | three photographs two columns wide: the Gadsden dog photograph, the monitor gun, the freedom walkers dragged to jail at Fort Payne | Branch, *Parting the Waters*, 764
 1963-05-04 | *BusinessWeek* | item | a party source: "If he marries Mrs. Murphy ... he might as well take the gaspipe" | Smith, *On His Own Terms*, 407
+1963-05-05 | *Washington Post* | story | CQ's poll of the 1960 delegates beside the news of the remarriage | Novak, *Agony of the G.O.P. 1964*, 174 n.11
 1963-05-07 | Birmingham News | final edition, front page | Hanson's telegram to the President (entered); inside, "Negro Mobs Break Through Police: Swarm Over Downtown Area" | Branch, *Parting the Waters*, 777
 1963-05-07 | Chicago Defender | headline | BIGGEST MARCH STUNS BIRMINGHAM! | Branch, *Parting the Waters*, 771
 1963-05-07 | New York Times | front page | Sitton, "Birmingham Jails 1,000 More Negroes" | Branch, *Parting the Waters*, 772
@@ -130,9 +134,11 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-08-29 | Washington Post | front page | the march; Randolph's speech, no mention of King's | Branch, *Parting the Waters*, 886
 1963-09-01 | Atlanta Daily World | front page | the rally "forever" changed racial perceptions; King in a group photograph with the President | Branch, *Parting the Waters*, 886
 1963-09-16 | *New York Times*, p. 30 | story | Buckley and Bozell "far right" supporters | Goldberg, *Barry Goldwater*, 175 n.148
+1963-09-17 | *New York Times* | story | Cabell Phillips on Dodger Stadium, "a welcome such as is usually reserved for a Presidential candidate" | Novak, *Agony of the G.O.P. 1964*, 226
 1963-09-20 | New York Times | front page | "Kennedy Names 2 ... Negroes Applaud Move, Drop Appeal for Troops and Accept Panel" | Branch, *Parting the Waters*, 895
 1963-09-24 | New York Times | front page | "Kennedy Says Birmingham Can Solve Its Own Problems" | Branch, *Parting the Waters*, 898
 1963-09-28 | New York Times | front page | Valachi's "underworld glossary" | Branch, *Parting the Waters*, 905
+1963-10 | Washington *Evening Star* | column | McGrory on Goldwater's first visit to New Hampshire | Novak, *Agony of the G.O.P. 1964*, 304
 1963-10-20 | *New York Times* | story | Homer Bigart on poverty in the Cumberlands (Sundquist's pending entry, cited) | Bernstein, *Guns or Butter*, 91
 1963-10-24 | New York Times | inside, 32 | the civil rights bill in committee: "For an understanding of this bizarre battle, it is helpful to look both backward and forward" | Branch, *Parting the Waters*, 910
 1963-10-25 | *Washington Post* | front page | Goldwater on NATO's "commanders" and tactical nuclear weapons (Chalmers Roberts) | White, *Making of the President 1964*, 296
@@ -142,16 +148,24 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1964-01-06 | *Manchester Union Leader* | item | "Deception, Deceit, and Divorce" | Smith, *On His Own Terms*, 420
 1964-01-06 | *Concord Daily Monitor* | front page | "Goldwater Sets Goals: End Social Security, Hit Castro" (in the Jan. 7 cite) | Bernstein, *Guns or Butter*, 128
 1964-01-07 | *Concord Daily Monitor* | front page | "Goldwater Sets Goals: End Social Security; Hit Castro" | White, *Making of the President 1964*, 104
+1964-01-07 | *Concord Daily Monitor* | front page, banner | "GOLDWATER SETS GOALS: END SOCIAL SECURITY, HIT CASTRO" | Novak, *Agony of the G.O.P. 1964*, 310
 1964-01-19 | *New York Times* | front page | King in the Oval Office beside Johnson, a large photograph | Kotz, *Judgment Days*, 102
 1964-01-20 | *Newsweek* | article | "Fastest Gun" | Goldberg, *Barry Goldwater*, 177 n.158
+1964-01-24 | *Concord Daily Monitor* | editorial | "I. M. Undecided" | Novak, *Agony of the G.O.P. 1964*, 323
 1964-03-10 | CBS | evening | Cronkite calls New Hampshire for Lodge at 7:18 p.m. | White, *Making of the President 1964*, 110
 1964-03-31/04-01 | the papers across the country | front pages | Mrs. Peabody led to jail at St. Augustine | Kotz, *Judgment Days*, 127
 1964-04-06 | *U.S. News & World Report* | item | six ballots at San Francisco | Smith, *On His Own Terms*, 426
+1964-04-10 | *Washington Post* | front page | "SCRANTON ALL BUT QUITS RACE" | Novak, *Agony of the G.O.P. 1964*, 341
 1964-04-15 | *Washington Post* and others | column | Joseph Alsop on King and the Communist Party (an entry) | Kotz, *Judgment Days*, 129
+1964-04-29 | United Press International | dispatch | Durno on Goldwater's Oregon schedule (entered) | Novak, *Agony of the G.O.P. 1964*, 377
+1964-05-03 | Associated Press | dispatch | from Dallas: Lodge's write-in in Texas the surprise | Novak, *Agony of the G.O.P. 1964*, 366 n.12
 1964-05-07 | *New York Times* | page not given | Russell Baker on the lawn news conference of May 6 | White, *Making of the President 1964*, 248
 1964-05-15 | NBC | evening | first to call Oregon for Rockefeller, 8:03 p.m. | White, *Making of the President 1964*, 115
+1964-05-25 | *New York Herald Tribune* | front page | Eisenhower's article; Drummond's column beside it (cited on its entry) | Novak, *Agony of the G.O.P. 1964*, 399-400
 1964-06-02 | CBS | evening | Harris calls California for Goldwater at 7:20 p.m., about 53 percent | White, *Making of the President 1964*, 128
+1964-06-02 | *National Review* | letter | Shadegg's letter on Oregon | Novak, *Agony of the G.O.P. 1964*, 378
 1964-06-07 | *New York Times* | front page | "Alabama names twenty, fourteen from Colorado. Twenty-two of twenty-four in Washington. Four of eight in Hawaii, four Virginia delegates" | White, *Making of the President 1964*, 137
+1964-06-17 | *New York Times* | story | Loftus on Scranton's decision (a witness) | Novak, *Agony of the G.O.P. 1964*, 436-37
 1964-06-29 | *New York Times* | front page | Elijah Muhammad's rally at the Harlem Armory | Branch, *Pillar of Fire*, 380
 1964-07-05 | *Atlanta Daily World* | front page | "Scranton on the Move" | Branch, *Pillar of Fire*, 404
 1964-07-06 | *Chicago Daily Defender* | front page | "DENY PATERNITY SUITS AGAINST ELIJAH MUHAMMAD" | Branch, *Pillar of Fire*, 385
@@ -184,6 +198,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1964-10-10 | *Atlanta Journal* | front page | "Johnson Hits at Hatred as Southern Vote Bait" | Branch, *Pillar of Fire*, 515
 1964-10-12 | the papers | front pages | the Jenkins arrest | Kotz, *Judgment Days*, 225
 1964-10-23 | *New York Times* | front page | "No Evidence Is Uncovered That Ex-Presidential Aide Compromised Nation" | Branch, *Pillar of Fire*, 518
+1964-11-04 | *New York Herald Tribune* | column | Breslin from Phoenix on Goldwater's concession | Novak, *Agony of the G.O.P. 1964*, 3
 1964-11-05 | *New York Times* | front page | "White Backlash Doesn't Develop" | Branch, *Pillar of Fire*, 522
 1964-11-19 | *New York Times* | front page | "Hoover Assails Warren Findings" | Branch, *Pillar of Fire*, 527
 1964-11-19 | *Washington Post* | front page | Hoover's "Blast at Police Corruption" | Branch, *Pillar of Fire*, 527
