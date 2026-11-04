@@ -1437,6 +1437,9 @@ Rights in Conflict (Walker Report):
 - Truman's "go to hell" remark and Nixon's rebuke, Oct. 1960 (193; the day and place); Ramsey Pollard's statements for Nixon, 1960 (194); the New York speech on Quemoy and Matsu, Oct. 8–12, 1960 (204; the daybook's APP rows of Oct. 12); the *Times*'s story on the USIA surveys, Oct. 1960 (203; `cal.1960-10.elections-1960-9`); the *Times*'s story on eastern Kentucky, fall 1963 (404); the Federal Reserve's cut in margin requirements, July 1962 (424; its record; `cal.1962-07.economy-4`); Kennedy's television interview the week before the Bay of Pigs (296; `cal.1961-04.cuba-bay-of-pigs-6`); Burke's speech of Jan. 1961 (286; its text and the day); the Kennedy–Blough meeting of Sept. 1961 (445).
 - Still passed over, no month given: Kennedy on Nixon's hospital stay and Scott's Truth Squad (185); Eisenhower's refusal to brief Stevenson and Bowles ("those early weeks", 176); the NAE and Reformation Sunday (195); Explorer, the Mercury failure and the B-70 money (208). The foreign chapters (XII–XIII, XIX–XXVI) to read page by page for the informal record (R7).
 
+### Guthman and Shulman, eds., *Robert Kennedy in His Own Words* (batch 3, second run, Nov. 4, 2026; notes/book-checks/robert-kennedy-in-his.md)
+- Hoover's meeting with King, Dec. 1, 1964, and Kennedy's account of it (140); the President on Levison to King, June 1963 (142); the first White House meeting with leaders, about June 13, 1963 (182); the press conference of July 17, 1963 (226); Hanson Baldwin's *Times* story on the satellites, 1963 (304); Goldwater's demand for dismissals, late 1962 (363); Johnson's Christmas telegram, Dec. 1963 (406). The Kennedy Library's transcripts (JFKOH-RFK-01 on its site; the others to find) would settle each session's pages.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2441,6 +2444,9 @@ CQ Weekly Report, 1968-08-30:
 
 ### Ball, *The Past Has Another Pattern* (batch 3, second run, Nov. 4, 2026; notes/book-checks/ball-past-has-another-pattern.md)
 - The OECD's ratification, Mar. 16, 1961 (221); the political union scheme, Apr. 1962 (260); Mikoyan to Havana, Nov. 2, 1962 (308); the Congo of 1963-64 (322); Makarios's proposals, Nov. 1963 (338); Johnson at Honolulu, Feb. 1966 (427); Macmillan to Eisenhower, 1960, on a "peripheral alliance" (209: the record, FRUS 1958-60).
+
+### Guthman and Shulman, eds., *Robert Kennedy in His Own Words* (batch 3, second run, Nov. 4, 2026; notes/book-checks/robert-kennedy-in-his.md)
+- Houphouët-Boigny's visit to the United States, 1962 (275); the Dominican–Haitian dispute, spring 1963 (386); Bosch's fall, Sept. 25, 1963, and Martin's return (387).
 
 ## The Executive roster
 
