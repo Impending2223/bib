@@ -280,11 +280,12 @@ entries:
     date: '1960-12-12'
     thread: transition-and-staff-cabinet
     c: Rusk to State, Stevenson to the UN, Bowles Under Secretary.
-    n: '[[w.schlesinger-thousand-days-1965]], 138–41. See [[cal.1960-12-01.transition-and-staff]]. Names: Rusk, Stevenson, Bowles.'
+    n: '[[w.schlesinger-thousand-days-1965]], 138–41. [[w.humphrey-education-of-a-public-1976]], 241–42 (Stevenson to the UN, at Humphrey''s urging, by his account). See [[cal.1960-12-01.transition-and-staff]]. Names: Rusk, Stevenson, Bowles.'
     src:
       c: 1f5020d5
       rows:
         - 'w.schlesinger-thousand-days-1965 141: A'
+        - 'w.humphrey-education-of-a-public-1976 241–42: A'
     tags: [name:kennedy-john-f, name:rusk-dean, name:stevenson-adlai-e, name:bowles-chester]
   - id: cal.1960-12-12.laos
     when: Dec. 12
@@ -360,11 +361,12 @@ entries:
     date: '1960-12-15'
     thread: transition-and-staff-cabinet
     c: Freeman to Agriculture, Goldberg to Labor. Check the date.
-    n: '[[w.schlesinger-thousand-days-1965]], 130–31, 143–44 (the choices; the day not given). See [[cal.1960-12-01.transition-and-staff]]. Names: Freeman, Goldberg.'
+    n: '[[w.schlesinger-thousand-days-1965]], 130–31, 143–44 (the choices; the day not given). [[w.humphrey-education-of-a-public-1976]], 236–37 (Freeman to Agriculture, by Humphrey''s account; the day not given). See [[cal.1960-12-01.transition-and-staff]]. Names: Freeman, Goldberg.'
     src:
       c: 27d4b039
       rows:
         - 'w.schlesinger-thousand-days-1965 130–31, 143–44: A'
+        - 'w.humphrey-education-of-a-public-1976 236–37: A'
     tags: [name:kennedy-john-f, name:freeman-orville-l, name:goldberg-arthur-j]
   - id: cal.1960-12-15.transition-and-staff
     when: Dec. 15
@@ -634,12 +636,13 @@ entries:
     thread: rules
     also: [democratic-party]
     c: A private dining room at the Sheraton-Carlton. Johnson tells Kerr, Humphrey, Smathers and Russell he will keep the chairmanship of the Senate Democrats' conference as Vice President; Mansfield, to succeed him as leader, has agreed, and to his keeping the Majority Leader's office.
-    n: '[[w.caro-passage-of-power]], 164–65 (Humphrey''s account). Check the day. To check: Hubert H. Humphrey OH, LBJ Library (cited by [[w.caro-passage-of-power]], 164). Names: Johnson, Kerr, Humphrey, Smathers, Russell, Mansfield.'
+    n: '[[w.caro-passage-of-power]], 164–65 (Humphrey''s account). Check the day. [[w.humphrey-education-of-a-public-1976]], 243 (the Sheraton-Carlton; Kerr, Russell, Baker, Smathers; Johnson to stay chairman of the caucus; Humphrey against). To check: Hubert H. Humphrey OH, LBJ Library (cited by [[w.caro-passage-of-power]], 164). Names: Johnson, Kerr, Humphrey, Smathers, Russell, Mansfield. Check: Humphrey puts the meeting after he became whip (243).'
     src:
       c: efac61d7
       rows:
         - 'w.caro-passage-of-power 164: all'
         - 'via w.caro-passage-of-power 164 n.probably-hoping: A-B'
+        - 'w.humphrey-education-of-a-public-1976 243: A-B'
     tags: [name:johnson-lyndon-b, name:kerr-robert-s, name:humphrey-hubert-h, name:smathers-george-a, name:russell-richard-b, name:mansfield-mike]
   - id: cal.1960-12.goldwater
     when: Dec.
@@ -734,3 +737,26 @@ entries:
       rows:
         - 'w.clifford-counsel-to-the-president-2 340–41: all'
     tags: [name:clifford-clark, name:lovett-robert-a, name:rusk-dean, name:mcnamara-robert-s, name:kennedy-john-f]
+  - id: cal.1960-12.transition-and-staff-cabinet-2
+    when: Dec.
+    date: 1960-12
+    thread: transition-and-staff-cabinet
+    c: Agriculture, by Humphrey's account. Asked for a name, Humphrey proposes Freeman, who holds back and goes to Latin America; then McGovern, Robert Kennedy for him, the President-elect not; then the head of the Missouri Farmers' Association, whose interview goes badly. Freeman, back, accepts.
+    n: '[[w.humphrey-education-of-a-public-1976]], 236–37. See [[cal.1960-12-01.transition-and-staff]]. Names: Humphrey, Freeman, McGovern, Robert Kennedy, Kennedy. Check the days.'
+    src:
+      c: e9a46227
+      rows:
+        - 'w.humphrey-education-of-a-public-1976 236–37: all'
+    tags: [name:humphrey-hubert-h, name:freeman-orville-l, name:mcgovern-george, name:kennedy-robert-f, name:kennedy-john-f]
+  - id: cal.1960-12.transition-and-staff
+    when: Dec.
+    date: 1960-12
+    thread: transition-and-staff
+    also: [congress]
+    c: 'New York, Benton''s apartment at the Waldorf Astoria, at lunch, by Humphrey''s account. Stevenson wants State, has been offered the UN, will refuse; Benton with him. Humphrey: no chance of State; he urges the UN, and Stevenson agrees. Johnson telephones: he will recommend Humphrey for majority whip, cleared with Mansfield and Russell; Humphrey accepts within the hour.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 241–43. See [[cal.1960-12-12.transition-and-staff-cabinet]]. Names: Benton, Stevenson, Humphrey, Johnson, Mansfield, Russell. Check the day.'
+    src:
+      c: '45710471'
+      rows:
+        - 'w.humphrey-education-of-a-public-1976 241–43: all'
+    tags: [name:benton-william, name:stevenson-adlai-e, name:humphrey-hubert-h, name:johnson-lyndon-b, name:mansfield-mike, name:russell-richard-b, city:nyc]

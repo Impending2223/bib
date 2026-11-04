@@ -221,11 +221,12 @@ entries:
     date: '1960-05-10'
     thread: elections-1960
     c: Humphrey, beaten by Kennedy in West Virginia, withdraws that night, at Charleston.
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 202 (the withdrawal; Rauh reads it to Robert Kennedy, who comes to the suite, by Rauh''s account). To check: [[w.white-making-of-the-president]]; [[w.fleming-kennedy-vs-humphrey-west]]; [[w.humphrey-education-of-a-public-1976]]; [[w.solberg-hubert-humphrey]]; [[w.obrien-no-final-victories]]; [[w.casey-making-of-a-catholic]]; [[w.carty-catholic-in-the-white]]; [[w.rorabaugh-real-making-of-the]]. Names: Humphrey, Kennedy.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 202 (the withdrawal; Rauh reads it to Robert Kennedy, who comes to the suite, by Rauh''s account). [[w.humphrey-education-of-a-public-1976]], 220–21 (the defeat; the concession that night; Robert Kennedy at Humphrey''s headquarters about midnight). To check: [[w.white-making-of-the-president]]; [[w.fleming-kennedy-vs-humphrey-west]]; [[w.solberg-hubert-humphrey]]; [[w.obrien-no-final-victories]]; [[w.casey-making-of-a-catholic]]; [[w.carty-catholic-in-the-white]]; [[w.rorabaugh-real-making-of-the]]. Names: Humphrey, Kennedy.'
     src:
       c: 17119dff
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 202: A'
+        - 'w.humphrey-education-of-a-public-1976 220–21: A'
     tags: [name:humphrey-hubert-h, name:kennedy-john-f]
   - id: cal.1960-05-10.sit-ins
     when: May 10
@@ -287,6 +288,18 @@ entries:
       rows:
         - 'w.mcpherson-political-education 174–75: all'
     tags: [name:johnson-lyndon-b, name:kennedy-john-f, name:mcpherson-harry]
+  - id: cal.1960-05-11.congress
+    when: May 11
+    date: '1960-05-11'
+    thread: congress
+    c: Senate. S. 910, Humphrey's bill for payments to local governments in lieu of taxes on federal property, taken up the day after West Virginia; by his account Johnson calls it up for him. Mundt's substitute, a study instead, rejected, 24–53. After 7 p.m. Dirksen objects to a late session; the vote put over to the next day.
+    n: '[106 Cong. Rec., Senate, May 11, 1960](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt8/pdf/GPO-CRECB-1960-pt8-4-1.pdf) (the bill; Mundt''s substitute, 10002; the agreement). [[w.humphrey-education-of-a-public-1976]], 221–22 (Johnson''s part; Mundt and the Republicans, an eight-hour debate). See [[cal.1960-05-10.elections-1960-2]]. Names: Humphrey, Johnson, Mundt, Dirksen. Check: Humphrey has the bill passed that day (222); the Record, May 12.'
+    src:
+      c: c1cf5d9d
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt8/pdf/GPO-CRECB-1960-pt8-4-1.pdf: all'
+        - 'w.humphrey-education-of-a-public-1976 221–22: A-C'
+    tags: [name:humphrey-hubert-h, name:johnson-lyndon-b, name:mundt-karl-e, name:dirksen-everett]
   - id: cal.1960-05-12.students
     when: May 12–14
     date: '1960-05-12'
@@ -325,6 +338,17 @@ entries:
       rows:
         - 'w.gifford-center-cannot-hold 133–34: all'
     tags: [name:goldwater-barry-m]
+  - id: cal.1960-05-12.congress
+    when: May 12
+    date: '1960-05-12'
+    thread: congress
+    c: Senate passes S. 910, the payments in lieu of taxes, by voice; the motion to recommit refused, 30–52.
+    n: '[106 Cong. Rec., Senate, May 12, 1960](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt8/pdf/GPO-CRECB-1960-pt8-5-1.pdf) (10123, 10131). See [[cal.1960-05-11.congress]]. Names: Humphrey.'
+    src:
+      c: 88c1f920
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt8/pdf/GPO-CRECB-1960-pt8-5-1.pdf: all'
+    tags: [name:humphrey-hubert-h]
   - id: cal.1960-05-13.jobs-and-wages
     when: May 13
     date: '1960-05-13'
@@ -697,3 +721,14 @@ entries:
         - 'w.branch-parting-the-waters 306–07: all'
         - 'via w.branch-parting-the-waters 307 n.1: all'
     tags: [name:kennedy-john-f, name:robinson-jackie, name:nixon-richard-m, name:king-martin-luther-jr, city:nyc]
+  - id: cal.1960-05.elections-1960-3
+    when: May
+    date: 1960-05
+    thread: elections-1960
+    c: 'Right after West Virginia, by Humphrey''s account. Kampelman brings Alex Rose and Arthur Goldberg to Humphrey''s office, for themselves and for Reuther and Dubinsky: to end the ill feeling with Kennedy; a Kennedy–Humphrey ticket the strongest. Humphrey: he will answer if Kennedy makes the first move on the Senate floor; a day or two later Kennedy does.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 474 n.3. See [[cal.1960-05-10.elections-1960-2]]. Names: Kampelman, Goldberg, Reuther, Kennedy, Humphrey. Check the day.'
+    src:
+      c: 973cafe2
+      rows:
+        - 'w.humphrey-education-of-a-public-1976 474 n.3: all'
+    tags: [name:kampelman-max-m, name:goldberg-arthur-j, name:reuther-walter, name:kennedy-john-f, name:humphrey-hubert-h]
