@@ -1368,6 +1368,10 @@ Rights in Conflict (Walker Report):
 ### Navasky, *Kennedy Justice* (batch 3, Oct. 29, 2026; notes/book-checks/navasky-kennedy-justice.md)
 - Lausche's speech in the Senate on Hoover (1961; the Record); the meeting of the intelligence agencies on organized crime (February 1961, Navasky 49); the IRS order of Feb. 24, 1961 (Navasky 78; Pearson's column of 1966); the House Republicans' report on organized crime and the urban poor (1967, Navasky 49 n.); Pearson's column on the King tap and Salinger's Portland statement (May 1968, Navasky 136); the microphones on King, June, November and December 1965 (147); Robert Kennedy to Thurmond on Communists in the movement (July 1963, 151); the Chacharis indictment's year ("February 21," 375) and plea; the Chicago Hoffa verdict's day (424); the Barnett contempt case dropped (1965, 239); Kennedy's meeting on Cox's apportionment memorandum (late summer 1963, 314–15) and on the Colorado case (February 1964, 319); the Attorney General's committee on poverty and the administration of federal criminal justice (April 1961, 441); Lewis R. Morgan's, Ainsworth's and Garza's nominations (the Record); the Tractors for Freedom committee's end (June 25, 1961, 327); Kennedy's testimony to Edward Long's committee on Baron and *Life* (undated, 428).
 
+### Rusk, *As I Saw It* (batch 3, Oct. 29, 2026; notes/book-checks/rusk-as-i-saw-it-1990.md)
+- The McCloy–Zorin statement, Sept. 20, 1961 (*Bulletin*, Oct. 9, 1961, 589): an entry wanted, thread Testing.
+- The Rusk–Dobrynin evening on the Potomac, June 1963 (Rusk 256; FRUS 1961–63, VII?); Bundy to Johnson on Rusk's rest, 1964 (Rusk 418; a staff memorandum: date it); the 1965 draft NPT and the 1967 safeguards offer (Rusk 341–44: the dates); Peggy Rusk's wedding, Sept. 1967 (Rusk 581; the day, the press).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2350,6 +2354,9 @@ CQ Weekly Report, 1968-08-30:
 - Bender's assurance to the brigade's officers (an operation's level, undated).
 - Cubela, Sept. 5 and Sept. 25, 1963; Johnson's coup meeting, Apr. 7–8, 1964; AMLASH's end, June 1965: the Inspector General's report of 1967 and the 303 Committee's minutes. Cuba.
 
+### Rusk, *As I Saw It* (batch 3, Oct. 29, 2026; notes/book-checks/rusk-as-i-saw-it-1990.md)
+- Herter's MRBM offer, Dec. 1960 (Rusk 263); the Angola vote, Mar. 1961 (Rusk 274); Zhou's statement, May 10, 1966 (Rusk 289); Rusk to Dobrynin before the invasion, July 1968 (Rusk 361; FRUS 1964–68, XVII); Rusk at the General Assembly, Oct. 1968 (Rusk 361–62); Rusk's eyes-only cable, mid-Dec. 1966 (Rusk 468); Rusk at Montevideo, Nov. 1965 (Rusk 571); Johnson's recognition of the Dominican junta, Dec. 1963 (Rusk 370).
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
@@ -2379,5 +2386,4 @@ CQ Weekly Report, 1968-08-30:
 - The days of the ICC's rotations, 1953–55, and the National Mediation Board's; the recess commissions of Walsh, Mitchell, Wood and Bicks.
 - Plum Book offices not settled: the Pay Board's and the Price Commission's members and executive directors (OCR garbled); GSA's service commissioners and Griffin; the Board of Parole; the Postal Rate Commissioners (no Senate record); Egeberg, HEW special assistant.
 - McPherson (batch 3, Oct. 29, 2026; notes/book-checks/mcpherson-political-education.md): his swearing-in as Assistant Secretary of State (the book: his birthday, the night of Humphrey's selection, Aug. 26, 1964; the roster Aug. 23) and his move to the White House (the book: March 1965; the roster's special assistant from Aug. 1965).
-
 - Navasky (batch 3, Oct. 29, 2026; notes/book-checks/navasky-kennedy-justice.md): Caplin's appointment as IRS Commissioner (Jan. 24, 1961) and Landis's resignation (September 1961), to place in the roster.

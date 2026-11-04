@@ -44,13 +44,14 @@ entries:
     date: '1961-12-05'
     thread: africa
     c: 'The NSC on the Volta dam. Rusk: the United States committed by the letter of June 29. Kennedy: no support to be had in Congress; decide, then explain; how to justify help to Nkrumah, given his course at home and abroad? The decision deferred for a legal report.'
-    n: 'FRUS 1961–63, XXI, docs. [239](https://history.state.gov/historicaldocuments/frus1961-63v21/d239) (Bundy, Dec. 1), [240](https://history.state.gov/historicaldocuments/frus1961-63v21/d240), [241](https://history.state.gov/historicaldocuments/frus1961-63v21/d241). [[w.ball-past-has-another-pattern]], 186 (Randall''s report; the NSC). Made public: FRUS 1961–63, XXI (1995). [[w.schlesinger-thousand-days-1965]], 572–73. Schlesinger, 573, has the decision to go ahead made in November and the NSC told of it; the record of action, the decision deferred (doc. 241). See [[cal.1961-06-29.africa]]. Names: Rusk, Kennedy, Nkrumah. Check: Ball (186) has the NSC of Nov. 28; FRUS''s record of action is of Dec. 5.'
+    n: 'FRUS 1961–63, XXI, docs. [239](https://history.state.gov/historicaldocuments/frus1961-63v21/d239) (Bundy, Dec. 1), [240](https://history.state.gov/historicaldocuments/frus1961-63v21/d240), [241](https://history.state.gov/historicaldocuments/frus1961-63v21/d241). [[w.ball-past-has-another-pattern]], 186 (Randall''s report; the NSC); [[w.rusk-as-i-saw-it-1990]], 275 (Rusk for keeping the pledge). Made public: FRUS 1961–63, XXI (1995). [[w.schlesinger-thousand-days-1965]], 572–73. Schlesinger, 573, has the decision to go ahead made in November and the NSC told of it; the record of action, the decision deferred (doc. 241). See [[cal.1961-06-29.africa]]. Names: Rusk, Kennedy, Nkrumah. Check: Ball (186) has the NSC of Nov. 28; FRUS''s record of action is of Dec. 5. Check: Rusk has Robert Kennedy against the dam at the meeting (275); his memorandum: [[cal.1961-12-07.africa]].'
     src:
       c: 32672fce
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v21/d239: all'
         - 'w.schlesinger-thousand-days-1965 573: A'
         - 'w.ball-past-has-another-pattern 186: A'
+        - 'w.rusk-as-i-saw-it-1990 275: A-B'
     tags: [name:kennedy-john-f, name:rusk-dean, name:nkrumah-kwame]
   - id: cal.1961-12-05.crime-and-hijacking
     when: Dec. 5
@@ -174,6 +175,18 @@ entries:
     c: 'Iraq. Law 80: Qassim''s government takes from the Iraq Petroleum Company and its affiliates, Mosul Petroleum and Basra Petroleum, their rights in all their concession areas but the fields in production.'
     n: 'FRUS 1961–63, XVII, docs. [150](https://history.state.gov/historicaldocuments/frus1961-63v17/d150), [156](https://history.state.gov/historicaldocuments/frus1961-63v17/d156). To check: [[w.brown-nationalization-of-the-iraqi]]; [[w.yergin-prize]]; [[w.tripp-history-of-iraq]]. Names: Qassim.'
     tags: [name:qassim-abdul-karim]
+  - id: cal.1961-12-12.berlin-and-vienna
+    when: Dec. 12
+    date: '1961-12-12'
+    thread: berlin-and-vienna
+    also: [europe-and-the-alliance-france]
+    c: 'Kennedy telephones de Gaulle, on Rusk''s recommendation from Paris, for the text the four Foreign Ministers had agreed: the NATO Council to approve diplomatic contacts with the Soviet Union, to find on what basis formal negotiation might be possible. De Gaulle objects: contacts by whom, and no agreed Western positions.'
+    n: '[FRUS 1961–63, XIV, doc. 239](https://history.state.gov/historicaldocuments/frus1961-63v14/d239). See [[cal.1961-06-03.berlin-and-vienna]]. Names: Kennedy, de Gaulle, Rusk.'
+    src:
+      c: b9efd054
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v14/d239: all'
+    tags: [name:kennedy-john-f, name:de-gaulle-charles, name:rusk-dean]
   - id: cal.1961-12-13.opinion
     when: Dec. 13
     date: '1961-12-13'
@@ -181,6 +194,19 @@ entries:
     also: [defense]
     c: 'Gallup, Nov. 17–22: 60 percent have thought about living in a fallout shelter; 12 plan changes in their homes against a nuclear attack.'
     n: '[[w.gallup-poll]], III, 1745.'
+  - id: cal.1961-12-13.europe-and-the-alliance
+    when: Dec. 13–15
+    date: '1961-12-13'
+    thread: europe-and-the-alliance
+    also: [berlin-and-vienna]
+    c: 'Paris, the NATO ministers. Rusk and McNamara brief the allies on intelligence and strategy, by Rusk''s report to Kennedy "unprecedented in NATO experience." Couve de Murville, by Rusk''s account, holds out against "negotiations" in the communiqué: "One does not telephone President de Gaulle."'
+    n: '[FRUS 1961–63, XIII, doc. 117](https://history.state.gov/historicaldocuments/frus1961-63v13/d117) (Rusk to Kennedy, eyes only, Dec. 15). [[w.rusk-as-i-saw-it-1990]], 226 (the communiqué). Names: Rusk, McNamara, Couve de Murville, de Gaulle.'
+    src:
+      c: f6447211
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v13/d117: A-B'
+        - 'w.rusk-as-i-saw-it-1990 226: C'
+    tags: [name:rusk-dean, name:mcnamara-robert-s, name:couve-de-murville-maurice, name:de-gaulle-charles]
   - id: cal.1961-12-14.program
     when: Dec. 14
     date: '1961-12-14'
@@ -193,12 +219,13 @@ entries:
     date: '1961-12-14'
     thread: africa
     c: 'Kennedy to Nkrumah: the United States will help finance the Volta dam, on his assurances of non-alignment.'
-    n: 'FRUS 1961–63, XXI, doc. [242](https://history.state.gov/historicaldocuments/frus1961-63v21/d242). [[w.ball-past-has-another-pattern]], 187 (the decision). See [[cal.1961-12-05.africa]]. Names: Kennedy, Nkrumah. Check: Ball (187) has Randall leaving again for Ghana Dec. 15 to press the conditions, and Kennedy announcing the decision Saturday, Dec. 16.'
+    n: 'FRUS 1961–63, XXI, doc. [242](https://history.state.gov/historicaldocuments/frus1961-63v21/d242). [[w.ball-past-has-another-pattern]], 187 (the decision); [[w.rusk-as-i-saw-it-1990]], 275. See [[cal.1961-12-05.africa]]. Names: Kennedy, Nkrumah. Check: Ball (187) has Randall leaving again for Ghana Dec. 15 to press the conditions, and Kennedy announcing the decision Saturday, Dec. 16.'
     src:
       c: 20b85ff0
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v21/d242: all'
         - 'w.ball-past-has-another-pattern 187: A'
+        - 'w.rusk-as-i-saw-it-1990 275: A'
     tags: [name:kennedy-john-f, name:nkrumah-kwame]
   - id: cal.1961-12-14.congo
     when: Dec. 14
@@ -459,13 +486,14 @@ entries:
     date: '1961-12-21'
     thread: congo
     c: Kitona. Tshombe accepts the central government, Gullion mediating. Repudiated within weeks. Check the repudiation.
-    n: 'FRUS 1961–63, XX, docs. [166](https://history.state.gov/historicaldocuments/frus1961-63v20/d166), [174](https://history.state.gov/historicaldocuments/frus1961-63v20/d174), [176](https://history.state.gov/historicaldocuments/frus1961-63v20/d176), [181](https://history.state.gov/historicaldocuments/frus1961-63v20/d181). [FRUS 1961–63, XX, doc. 176](https://history.state.gov/historicaldocuments/frus1961-63v20/d176) (Ball to Kennedy and Rusk at Bermuda: the terms; Tshombe''s escape, his cabinet and assembly). [[w.ball-past-has-another-pattern]], 257–58 (seventeen hours; the terms; Tshombe to the press at Kitona). To check: [[w.kalb-congo-cables]]. See [[cal.1961-02-13.congo]]. Names: Tshombe, Gullion.'
+    n: '[FRUS 1961–63, XX, doc. 176](https://history.state.gov/historicaldocuments/frus1961-63v20/d176) (Ball to Kennedy and Rusk at Bermuda: the terms; Tshombe''s escape, his cabinet and assembly). [[w.ball-past-has-another-pattern]], 257–58 (seventeen hours; the terms; Tshombe to the press at Kitona); [[w.rusk-as-i-saw-it-1990]], 278 (Tshombe accepts the central government). [FRUS 1961–63, XX, doc. 166](https://history.state.gov/historicaldocuments/frus1961-63v20/d166); [doc. 174](https://history.state.gov/historicaldocuments/frus1961-63v20/d174); [doc. 176](https://history.state.gov/historicaldocuments/frus1961-63v20/d176); [doc. 181](https://history.state.gov/historicaldocuments/frus1961-63v20/d181). To check: [[w.kalb-congo-cables]]. See [[cal.1961-02-13.congo]]. Names: Tshombe, Gullion.'
     src:
       c: 234b4f1b
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d166: all'
         - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d176: A-B'
         - 'w.ball-past-has-another-pattern 257–58: A-B, D'
+        - 'w.rusk-as-i-saw-it-1990 278: A-B'
     tags: [name:gullion-edmund-a, name:tshombe-moise]
   - id: cal.1961-12-21.europe-and-the-alliance
     when: Dec. 21–22
