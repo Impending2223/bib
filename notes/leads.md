@@ -1372,6 +1372,14 @@ Rights in Conflict (Walker Report):
 - The McCloy–Zorin statement, Sept. 20, 1961 (*Bulletin*, Oct. 9, 1961, 589): an entry wanted, thread Testing.
 - The Rusk–Dobrynin evening on the Potomac, June 1963 (Rusk 256; FRUS 1961–63, VII?); Bundy to Johnson on Rusk's rest, 1964 (Rusk 418; a staff memorandum: date it); the 1965 draft NPT and the 1967 safeguards offer (Rusk 341–44: the dates); Peggy Rusk's wedding, Sept. 1967 (Rusk 581; the day, the press).
 
+### Nixon, *Six Crises* (batch 3, Oct. 29, 2026; notes/book-checks/nixon-six-crises.md)
+- Morton on television, before the conventions, that the Republican nominee would debate (323); and the Senate's passage of the Section 315 joint resolution, which Nixon puts before the conventions (74 Stat. 554 is of Aug. 24). Entered with a Check, `cal.1960-07.elections-1960-7`.
+- The Democrats on religion, autumn 1960 (365–66): Hodges at Charlottesville; Jackson's charge of "conniving"; Diggs; Powell; COPE's pamphlet; the Kennedy-Johnson Labor Committee's leaflet; Stevenson on Nixon's Quaker faith: the days (`cal.1960-10.elections-1960-7`, with a Check).
+- Kennedy on Cuba: the television interview of May 1960 (351; `cal.1960-05.elections-1960-6`, with a Check); the place and text of Sept. 15 and the program of Sept. 30 (entered with Checks); the Scripps-Howard statement of Sept. 23 and the statement of Oct. 23.
+- Nixon's nightly telecasts of the last week, at Dewey's suggestion (364): the days, from APP's list (`cal.1960-10-31.elections-1960-2`, with a Check).
+- Which Toledo text of Oct. 26, 1960 carries the testing pledge (APP lists two).
+- *Six Crises*: the day of publication (March 1962) and the first printing's p. 354, set before the White House's statement of Mar. 20, 1962.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
