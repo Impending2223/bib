@@ -1821,6 +1821,11 @@ the threads section is in all. `tools/bib/calsplit.py` (STYLE notes at the top):
 
 ## The calendar's contents, and its tables and maps
 
+The test width (the owner's, Nov. 4, 2026: their phone renders pages 523 CSS px wide): every table and map, in the
+calendar and on every page, is checked at a 523px viewport (Playwright, `viewport: {width: 523, ...}`): its columns
+kept, the page never scrolling sideways (a table wider than its column scrolls in its own box). The older "fits 400px"
+rules stay as a floor; 523px is the width the owner reads at. Screenshots for the owner at 523px.
+
 Nothing folded by default (the owner's rule, Oct. 30, 2026: "I'm not a fan of the collapsed military tables, for example. I want that reversed and not followed as a norm"): a table or map in the calendar is shown open; a fold only where the owner asked for one (the day's materials, Oct. 22); the forces tables' folds reversed (Nov. 3, 2026); the other folds now in the build kept (the same day: "Keep the other folds for now") (`notes/extensions/memos/volume.md`, §1). Two standing rules (the owner's rules, Oct. 21, 2026; `tools/bib/contents.py`, its STYLE notes):
 
 - The contents at the head of each calendar page (and the Outline drawer, a copy of them): the Threads line, then the
