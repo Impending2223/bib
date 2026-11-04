@@ -474,6 +474,11 @@ CQ Weekly Report, 1968-08-16:
   signed.
 - Storm King: the FPC's order of Mar. 1965 and Scenic Hudson v. FPC (2d Cir., Dec. 1965), for Conservation.
 
+### Bernstein, *Guns or Butter* (batch 3, sixth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
+
+- California's Motor Vehicle Pollution Control Act of 1960.
+- New York's smog of Thanksgiving, 1966 (the days).
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -1950,6 +1955,20 @@ Rights in Conflict (Walker Report):
 - The press: Murrow's "Harvest of Shame"; Reston's "Franklin Delano Hoover twist"; Lippmann's 1963 column on
   Goldwater; Henshaw's "Washington Pipeline" (attached to Spain to Manatos, July 30, 1964).
 - Propose a Part III entry for Douglass Cater (White House staff, education and Medicare), who has no name entry.
+
+### Bernstein, *Guns or Butter* (batch 3, sixth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
+
+- The rows of the sixth run's Passed over marked "a lead".
+- *United States v. Alabama*, 252 F. Supp. 95 (M.D. Ala. 1966): its day.
+- The Senate Judiciary's report of Sept. 15, 1965, on the immigration bill (no Digest row found).
+- Feighan's and Celler's fight over the joint committee's funds.
+- The Commerce Department's highway beauty regulations of 1966–67 (Federal Register).
+- The Ford compromise of Dec. 17, 1965 (O'Brien to Califano, Dec. 29, registered).
+- The House's wilderness hearings of 1964 (pp. 1205 for Zahniser) and Zahniser's death.
+- Johnson's promise to the AFL-CIO, Nov. 18, 1965 (no Papers item that day: the record).
+- Propose a Part III entry for Abba P. Schwartz (State, Bureau of Security and Consular Affairs, 1962–66), whose name
+  entry comes from FRUS's lists only, and for Michael A. Feighan (House Judiciary, Subcommittee No. 1), whose comes
+  from the rosters.
 
 ## Foreign
 

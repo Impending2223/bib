@@ -34,6 +34,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1962 | *New York Times* | item | editorial on the budget: "Maybe" | Smith, *On His Own Terms*, 382
 1962-04 | *Confidential* | item | the Rockefeller-Murphy romance | Smith, *On His Own Terms*, 406
 1962-04-12 | the *Wall Street Journal* (John Lawrence), the AP (Lee Linder) and the *Wilmington Evening Journal* (James L. Parks Jr.) | stories | the FBI's calls on the reporters; Linder's story | Guthman, *We Band of Brothers*, 233–34
+1962-06 | *The New Yorker* | serial | *Silent Spring* serialized | Bernstein, *Guns or Butter*, 263
 1962-07-11 | New York Times and papers across the country | front page | King's jailing at Albany, under the Telstar story; the Times recalls the jailing of 1960 | Branch, *Parting the Waters*, 601–2
 1962-07-12 | Albany Herald | front page | "King Languishes in Bastille" (Branch puts it with the jailing); "Mayor Stays Mum" | Branch, *Parting the Waters*, 602, 607
 1962-07-24 | Albany Herald | front page | "Judge Tuttle Rules with Negro Leaders" | Branch, *Parting the Waters*, 616
@@ -168,9 +169,11 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-01-11 | *New York Times* | front page | a second Klan confession | Branch, *Pillar of Fire*, 558
 1965-01-13 | *New York Times*, *Washington Post* | editorials | editorials on the education message (day not given) | Bernstein, *Guns or Butter*, 192–93
 1965-01-26 | *New York Times* | front page | Clark beating Annie Lee Cooper, a photograph | Kotz, *Judgment Days*, 263 n.
+1965-01-26 | *New York Times* | front page | Clark sitting on Annie Lee Cooper | Bernstein, *Guns or Butter*, 220
 1965-02-02 | *New York Times* | front page | "Dr. King and 770 Others Seized" | Branch, *Pillar of Fire*, 577
 1965-02-03 | *New York Times* | front page | "520 More Seized" | Branch, *Pillar of Fire*, 577
 1965-02-05 | *New York Times* | full-page advertisement | "Letter from the Selma Jail" | Kotz, *Judgment Days*, 268
+1965-02-05 | *New York Times* | advertisement | King's letter from the Selma jail | Bernstein, *Guns or Butter*, 221
 1965-02-06 | *New York Times* | front page | "Dr. King to Seek New Voting Law" | Branch, *Pillar of Fire*, 581
 1965-02-07 | *Washington Post* | p. E1 | youth's charges against King, "hit-and-run" | Branch, *Pillar of Fire*, 587
 1965-02-09 | *Montgomery Advertiser* (AP) | front page | "Negroes Don't Know What They Want" | Branch, *Pillar of Fire*, 587
@@ -185,14 +188,17 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-02-28 | *New York Times* | p. 74 | "World Pays Little Attention to Malcolm Slaying" | Branch, *Pillar of Fire*, 598
 1965-03-03 | *Los Angeles Times* |  | Judge Coleman's suspensions in the Stokes case | Branch, *Pillar of Fire*, 604 n.
 1965-03-07 | ABC | 9:30 p.m., a bulletin into *Judgment at Nuremberg* | fifteen minutes of the bridge | Kotz, *Judgment Days*, 285
+1965-03-07 | ABC | evening | *Judgment at Nuremberg* interrupted for the bridge (Zelizer's pending entry, cited) | Bernstein, *Guns or Butter*, 227
 1965-03-08 | *New York Times* | front page | Roy Reed's account of the bridge | Kotz, *Judgment Days*, 284
 1965-03-08 | *New York Times* | p. 20 | "Johnson Kept Informed"; King's plan for a new walk (entries) | Kotz, *Judgment Days*, 287
+1965-03-08 | *New York Times* | front page | Roy Reed on the bridge | Bernstein, *Guns or Butter*, 227
 1965-03-09 | *New York Times* | front page | "Wallace Says Police Saved Negro Lives" (an entry) | Kotz, *Judgment Days*, 291
 1965-03-10 | *New York Times* | front page | the turnaround at the bridge; Reeb; the Washington vigils | Kotz, *Judgment Days*, 294–98
 1965-03-15 | *New York Herald Tribune* | — | Wallace's "frank and friendly discussion" | Kotz, *Judgment Days*, 306
 1965-03-16 | *New York Times* | — | Wicker on the address (an entry) | Kotz, *Judgment Days*, 313–14
 1965-03-29 | *Washington Post*, *Evening Star* | front page (Post) | King's boycott of Alabama | Kotz, *Judgment Days*, 327
 1965-03-30 | *New York Times* | front page | "Washington Is Cool to Alabama Boycott" | Kotz, *Judgment Days*, 327
+1965-04 | the papers | items | Johnson's "love affair" with the auto industry | Bernstein, *Guns or Butter*, 292
 1965-07 | *Life* | picture | Ball in tears at Stevenson's memorial service (Check: the issue) | Ball, *The Past Has Another Pattern*, 152
 1965-07-12 | *Newsweek*, Emmet John Hughes | item | "An Untold Tale" | Smith, *On His Own Terms*, 473 n.
 1965-08-15 | *New York Times* | front page | Semple, "Johnson Shocked" (Watts) | Kotz, *Judgment Days*, 341
@@ -201,6 +207,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-11 | (a news photograph) | photograph | Rusk at Montevideo, the spit dubbed into the negative | Rusk, *As I Saw It*, 571–72
 1965-11-05 | *World-Telegram and Sun*, Kempton | item | "Lindsay and Rockefeller" (entered) | Smith, *On His Own Terms*, 474
 1965-11-26 | *Saigon Daily News* | story | the Republic of China's two C-46s for the VNAF | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 1965 vol., 73 n.285
+1965-12 | *Atlantic Monthly* | article | Elizabeth Drew, "Lady Bird's Beauty Bill" | Bernstein, *Guns or Butter*, 300
 1966 | *Syracuse Post-Standard* | item | Medicaid "insane, fiscally irresponsible ... New York's Gigantic Giveaway" | Smith, *On His Own Terms*, 484 (as the *New Leader*, Apr. 8, 1968, quotes it)
 1966-01-09 | New York Times | front page | "8,000 G.I.'s Open Biggest Attack of Vietnam War" (Crimp), start withheld from the South Vietnamese | Branch, *At Canaan's Edge*, 415
 1966-01-10 | *Hattiesburg American* | front page | the attack on the Dahmers | Branch, *Pillar of Fire*, 606
@@ -355,3 +362,4 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-11 | wires, two reporters | dispatch | a secret meeting with Johnson guessed, the White House called (the visit now dated Oct. 19, `cal.1968-10-19.elections-1968`) | Humphrey, *Education of a Public Man*, 404 n.
 1968-11-04 | US News & World Report | article | Sol W. Sanders, "Why Communists Need a Truce" | MACV Command History (the volume as notes/book-checks/macv-command-history.md gives it), 995
 1968-12-29 | *New York Times Magazine* | article | Searle, "A Foolproof Scenario for Student Revolts" | White, *Making of the President 1968*, 219 n.8
+1969-01-17 | the press | items | the set-asides broken | Bernstein, *Guns or Butter*, 305
