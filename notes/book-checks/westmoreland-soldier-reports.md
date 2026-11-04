@@ -177,3 +177,60 @@ force and MACV Forward (early February); MAC 1810 and 1812 (Feb. 8); JCS 1589 (F
 - The single manager for air, March 1968 (cal.1968-03.vietnam-khe-sanh): the day of the order (Momyer's) and of the
   cables to Wheeler and Sharp.
 - Westmoreland's off-record briefing of August 1967 ("momentous decision") and his late-December interview (237-39, 312).
+
+## Second reading (Nov. 3-4, 2026)
+
+Patch `inbox/2026-11-03-b3-westmoreland-2.yaml` (b3-westmoreland-2), witnesses `inbox/witnesses/2026-11-03-b3-westmoreland-2.yaml`.
+The same copy, downloaded again and read from its text layer at the pages below, the offsets as above; deleted when done.
+
+The book names no cable by number and has no source notes: the numbers in the entries are FRUS's. Its quoted or recalled
+messages are registered as text-named witnesses (R38), each through a passage of the memoir (`x.1976.westmoreland-soldier-reports-<page>`,
+`part_of` the card, Westmoreland the agent, made 1976): pp. 113-14 (Taylor, Jan. 6, 1965), 122 (MAC 1190), 140 (his messages
+of June 7 and 24, 1965), 141 (MAC 3320), 350 (Wheeler's report of Johnson's call, Feb. 3, 1968), 353 (MAC 1810, JCS 1589),
+357 (Sharp's "crossroads"), 358 (JCS 2767); the entries resting on them take `via` rows. New FRUS-print witnesses, not
+yet read: MAC 1190 (II, 182), MAC 3240 (III, 17), MAC 3320 (III, 31).
+
+### Passed over, ruled again (R14, R15, R48)
+
+The rows above that passed over operations "below the level" or events "undated" are ruled again here; the rows for
+private remarks, out of the brief, or already in stand.
+
+| page | event | now |
+|---|---|---|
+| 103 | Nam Đồng, July 6, 1964 | in (combined by the merger) |
+| 110 | BARREL ROLL | in (cal.1964-12-12.laos) |
+| 112 | against the Chiefs' proposal on the dependents and the Marines, Nov. 1964 | a lead (the message) |
+| 114 | Johnson raises the international force again, Dec. 1964 | in (cal.1964-12.vietnam-6) |
+| 115 | joint planning of reprisals with the South Vietnamese, late Jan. 1965 | a lead (the cable) |
+| 127 | the logistical command and the engineer group, Aug. 1964-Feb. 1965 | a lead (the requests' days) |
+| 136 | Sông Bé, early May 1965; Ba Gia, late May | in; cited now (cal.1965-05-11.vietnam-operations, cal.1965-05-29.vietnam-operations) |
+| 136 | Đức Cơ besieged | in (cal.1965-06.vietnam-operations) |
+| 144 | Sharp and Greene against the airmobile division inland, July 1965 | in (cal.1965-07.vietnam-force-levels) |
+| 154 | mid-Dec. 1965, with Sharp at Honolulu | in (cal.1965-12.vietnam-force-levels) |
+| 158 | the M-16s asked of McNamara, Nov. 1965 | in (cal.1965-11.vietnam-force-levels) |
+| 161 | State's cable to Lodge on pacification, Sept. 1965 | a lead (the cable) |
+| 196 | TIGER HOUND, TALLY HO, fire into the DMZ | a lead: the book gives no days |
+| 198 | the war game, Sept. 1966 | in (cal.1966-09.vietnam-3) |
+| 202 | Mayborn and Bruce Clarke on the M-16 | a lead (the day) |
+| 222-23 | the 3,000 advisers, the militia, the mobilization decree | in (cal.1967-07.vietnam; the decree, Oct. 25, 1967, in the MACV reader's patch) |
+| 317-20 | the defector at Khe Sanh, Jan. 20, 1968; the strategy conference of Jan. 27 | leads (find the entries; the defector's day) |
+| 320 | the 4th Cavalry's squadron to Hóc Môn; the Qui Nhơn raid, Jan. 28 | in (cal.1968-01-28.vietnam-tet-2, cal.1968-01-28.vietnam-tet) |
+| 348 | Cushman and Rosson for evacuating Khe Sanh, Apr. 1968 | in (cal.1968-04.vietnam-khe-sanh) |
+| 357 | Sharp's "We are at a crossroads," early Mar. 1968 | entered (cal.1968-03.vietnam-205000-5) |
+| 382 | Eisenhower at Walter Reed, summer 1968 | in (cal.1968-07.elections-1968-2) |
+
+A ledger line claimed in error, before the tree was found to hold the event: cal.1964-12.vietnam-7 (b3-westmoreland-2):
+no entry written; for the merger to prune.
+
+### Where this run stopped
+
+Not done for this book: the witnesses for the other entries the first run made or pinned (some 120), and a fresh
+page-by-page reading of pp. 1-451 under R5-R18 beyond the rows above. The pages read again this run: 113-14, 122, 136,
+140-41, 144, 154, 158, 196, 198, 202, 317, 320, 348, 350, 353, 357-58, 382.
+
+### Leads (second reading)
+
+- Westmoreland's message against the Chiefs' proposal on the dependents and the Marines, Nov. 1964 (112): its day; FRUS 1964-68, I.
+- The joint planning of reprisals authorized, late Jan. 1965 (115): the cable.
+- State's cable to Lodge on pacification, Sept. 1965 (161): FRUS 1964-68, III.
+- The defector at Khe Sanh (Jan. 20, 1968) and the strategy conference of Jan. 27 (317-20): the entries, if any.
