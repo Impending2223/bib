@@ -133,6 +133,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1964-11-19 | *Washington Post* | front page | Hoover's "Blast at Police Corruption" | Branch, *Pillar of Fire*, 527
 1964-11-23 | Joseph Alsop's column | column | Ball's dissent; "Ball's knowledge of Asia could be comfortably contained in a fairly small thimble" | Ball, *The Past Has Another Pattern*, 384
 1964-11-25 | *New York Times* | front page | "Congolese Forced American Officials to Eat U.S. Flag" | Branch, *Pillar of Fire*, 538
+1964-12 | *New York Herald Tribune* | interview | Khánh accuses Taylor of "activities beyond imagination" | Westmoreland, *A Soldier Reports*, 94
 1964-12-08 | *New York Times* | front page | police drag Savio from the stage | Branch, *Pillar of Fire*, 544
 1964-12-21 | *New York Times* | p. 20 | "Malcolm Favors a Mau Mau in U.S." | Branch, *Pillar of Fire*, 548
 1964-12-29 | *New York Times* | front page | Atlanta against the King dinner | Branch, *Pillar of Fire*, 550
@@ -178,6 +179,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1966-02-10 | CBS | daytime broadcast | the hearings dropped for reruns, *I Love Lucy* among them | Woods, *J. William Fulbright, Vietnam*, 117
 1966-02-11 | Montgomery Advertiser | front page | "Lowndes Schools Ordered to End All Segregation" | Branch, *At Canaan's Edge*, 438
 1966-02-14 | BBC | broadcast | Kennan's testimony and Fulbright's questioning, almost verbatim; Labour members on the talk shows | Woods, *J. William Fulbright, Vietnam*, 121
+1966-02-18 | *Time* | cover | Kỳ | Berman, *Lyndon Johnson's War*, 10
 1966-02-23 | *Journal-American*, Riesel | item | Rockefeller and the labor leaders (entered) | Smith, *On His Own Terms*, 477 n.
 1966-02-24 | New York Times |  | "Dr. King Seizes a Slum Building" | Branch, *At Canaan's Edge*, 441
 1966-02-25 | New York Times |  | "Dr. King Assailed for Slum Tactic" | Branch, *At Canaan's Edge*, 441
@@ -195,10 +197,14 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1967-02-28 | *New York Times* | p. 40 | the same | Branch, *Pillar of Fire*, 609
 1967-03-01 | *New York Times* | front page | the same | Branch, *Pillar of Fire*, 609
 1967-03-01 | *New York Times* | page | Herbers, "Fulbright Backs Vietnam Limit of 500,000 G.I.'s" | Woods, *J. William Fulbright, Vietnam*, 145 n.8
+1967-03-27 | *Newsweek* | p. 29 | Komer "a Guildenstern at the court of Lyndon I" | Berman, *Lyndon Johnson's War*, 32
 1967-04-23 | *New York World Journal Tribune* | article | Thimmesch, "The New New Nixon" | White, *Making of the President 1968*, 53 n.9
 1967-05-05 | *Arkansas Gazette* | page | "RFK-Fulbright Group to Ignore Objections, Run in New Hampshire" | Woods, *J. William Fulbright, Vietnam*, 149 n.21
+1967-07-08 | *New York Times* | front page | "Westmoreland asks M'Namara for more troops" | Berman, *Lyndon Johnson's War*, 54
 1967-07-15 | *Chicago Tribune* | page | "Senate's Cuts in Aid Irk Rusk" | Woods, *J. William Fulbright, Vietnam*, 159 n.33
 1967-08-01 | *Baltimore Sun* | page | "Bid to Curb Executive's Role Gains" | Woods, *J. William Fulbright, Vietnam*, 155 n.14
+1967-08-07 | *New York Times* | front page | Apple, "Vietnam: The Signs of Stalemate" (entered) | Berman, *Lyndon Johnson's War*, 58
+1967-08-13 | *New York Times* |  | Hedrick Smith, "Army Chief Sees End of Build-up" | Berman, *Lyndon Johnson's War*, 210 n.8
 1967-09 | *Time* | cover | Peggy Rusk's wedding to Guy Smith (Check: the issue) | Rusk, *As I Saw It*, 581
 1967-09-05 | *New York Times* | p. 28 | Romney "brainwashing" | White, *Making of the President 1968*, 59
 1967-09-05 | the networks' evening news | broadcast | the Gordon clip | White, *Making of the President 1968*, 60
@@ -206,17 +212,27 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1967-09-10 | *Detroit News* | item | Romney to quit for Rockefeller (in) | Smith, *On His Own Terms*, 497
 1967-10 | *Time* | cover | Rockefeller and Reagan | White, *Making of the President 1968*, 60
 1967-10-20 | *Time* | item | the cover, Rockefeller and Reagan (entered) | Smith, *On His Own Terms*, 498
+1967-11 | CBS | interview | Steve Rowan's taped interview with Westmoreland: the estimate of withdrawals | Westmoreland, *A Soldier Reports*, 231, 234
+1967-11 | *Washington Post* |  | Oberdorfer, "Statistics on War Fail to Prove Real Progress" | Berman, *Lyndon Johnson's War*, 118
+1967-11-19 | *New York Times* |  | a "new chorus of official optimism" | Berman, *Lyndon Johnson's War*, 118
+1967-11-23 | *New York Times* | headline | Westmoreland "Sure of Victory"; Đắk Tô "Great Defeat for Foe" | Berman, *Lyndon Johnson's War*, 120
 1967-12-17 | New York Times | front page | "A White Liberal Shift on Integration" | Branch, *At Canaan's Edge*, 663
+1967-12-21 | *New York Times* | front page | "Thieu, Disputing Johnson, Rejects Talks with Foe" | Berman, *Lyndon Johnson's War*, 123
+1967-12-24 | *New York Times* |  | Apple, "Johnson Backs Military Leaders More Firmly Than Ever" | Berman, *Lyndon Johnson's War*, 123-24
 1968-01-06 | New York Post | front page | "SPOCK INDICTED" | Branch, *At Canaan's Edge*, 668
 1968-01-13 | New York Times |  | "Dr. King Calls for Antiwar Rally in Capital" | Branch, *At Canaan's Edge*, 669
 1968-01-19 | New York Times | editorial page | Reston on the State of the Union, the "mutinous cries below decks" | Branch, *At Canaan's Edge*, 674
+1968-01-22 | NBC | interview | Howard Tuckner with Westmoreland, against a halt (cal.1968-01-22.vietnam-tet-2) | Westmoreland, *A Soldier Reports*, 318
 1968-01-25 | *Hattiesburg American* | front page | the Forrest County indictments | Branch, *Pillar of Fire*, 610
 1968-01-26 | *New York Times* | p. 17 | the same | Branch, *Pillar of Fire*, 610
 1968-01-31 | New York Times; Washington Post | front pages | Mohr on the embassy in Saigon; the Post's photograph of a Viet Cong body on the lawn | Branch, *At Canaan's Edge*, 681
 1968-01-31 | *Arkansas Gazette* | page | "Senate Panel to Re-examine Tonkin Case" | Woods, *J. William Fulbright, Vietnam*, 168 n.30
 1968-02 | the papers, nationally | front pages (by Rusk's account) | Rusk to Scali at a backgrounder: "Whose side are you on?" | Rusk, *As I Saw It*, 477
 1968-02 | *Harper's*, Larry L. King | item | "The Cool World of Nelson Rockefeller" (made public, entered) | Smith, *On His Own Terms*, 498
+1968-02 | *Los Angeles Times* | story | Tuohy on MACV Forward, "blatantly speculative" by Westmoreland's account | Westmoreland, *A Soldier Reports*, 345
+1968-02-01 | *New York Times* | front page | the MPs behind the wall at the embassy, two dead Americans | Berman, *Lyndon Johnson's War*, 147
 1968-02-02 | Memphis Commercial Appeal |  | "Hambone's Meditations" on the drain workers | Branch, *At Canaan's Edge*, 685
+1968-02-02 | *Newsweek* |  | "Prometheus Bound" (the *Pueblo*) | Berman, *Lyndon Johnson's War*, 144
 1968-02-04 | New York Times | front page | "Clerics Accuse U.S. of War Crimes" | Branch, *At Canaan's Edge*, 687
 1968-02-18 | New York Times | front page | the Ford Foundation's turn to race; Bundy's annual report | Branch, *At Canaan's Edge*, 696
 1968-02-23 | Memphis Commercial Appeal | front page | "Committee Surrenders but Loeb Holds Firm"; the cartoon of T. O. Jones | Branch, *At Canaan's Edge*, 699
@@ -224,6 +240,8 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1968-02-25 | *New York Times* | page | Finney (Woods: Kenworthy), "McNamara Says Destroyers in Gulf of Tonkin Warned of Enemy"; "9 on Fulbright Panel Feel U.S. Over Reacted to Tonkin Attack" | Woods, *J. William Fulbright, Vietnam*, 170
 1968-02-27 | CBS | broadcast | Cronkite, "mired in stalemate" (cal.1968-02-27.press-and-broadcasting) | Branch, *At Canaan's Edge*, 704
 1968-03 | *New York Times* | column (Reston), the first week | "the political system ... has broken down" | White, *Making of the President 1968*, 94–95
+1968-03-10 | *New York Times* | front page | "Westmoreland Requests 206,000 More Men" (cal.1968-03-10.vietnam) | Westmoreland, *A Soldier Reports*, 358
+1968-03-10 | *New York Times* | front page | Smith and Sheehan, the 206,000 (entered) | Berman, *Lyndon Johnson's War*, 184
 1968-03-13 | ABC | broadcast | Howard K. Smith's editorial for mobilization "on an overwhelming scale" | Branch, *At Canaan's Edge*, 710
 1968-03-16 | *New York Times* | p. 17 | a Dahmer murder conviction | Branch, *Pillar of Fire*, 610
 1968-03-17 | New York Times | front page | the official account of Mỹ Lai, "128 enemy soldiers" | Branch, *At Canaan's Edge*, 715

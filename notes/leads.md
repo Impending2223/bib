@@ -1847,6 +1847,34 @@ Rights in Conflict (Walker Report):
 - Persons without name entries named in the new entries: Seth Tillman, Carl Marcy's staff (William Bader, Don
   Newhouse), Ben Grinage, Lee Williams, Cyrus Eaton, Erich Fromm, Martha Gellhorn, Igor Bubnov, David Ness.
 
+### Westmoreland, *A Soldier Reports* (batch 3, second and third readings, Nov. 3–4, 2026; notes/book-checks/westmoreland-soldier-reports.md)
+
+- Westmoreland's message against the Chiefs' proposal on the dependents and the Marines, Nov. 1964 (112): its day; FRUS 1964-68, I.
+- The joint planning of reprisals authorized, late Jan. 1965 (115): the cable.
+- State's cable to Lodge on pacification, Sept. 1965 (161): FRUS 1964-68, III.
+- The defector at Khe Sanh (Jan. 20, 1968) and the strategy conference of Jan. 27 (317-20): the entries, if any.
+- Westmoreland's CBS interview with Steve Rowan, Nov. 1967 (231, 234): the day and the broadcast; CBS's archive.
+- His press conferences: Saigon, on dissent, after Apr. 1967 (226); the northern provinces, Feb. 1968 (345); the White House
+  lawn, the link-up at Khe Sanh, Apr. 1968 (347): the days.
+- Gavin's letter in *Harper's*, Feb. 1966 (129): the issue's pages; read the letter.
+
+### Berman, *Lyndon Johnson's War* (batch 3, Nov. 4, 2026; notes/book-checks/berman-lyndon-johnsons-war.md)
+
+- Fulbright's "sick society" (Berman 60): the speech and its day.
+- The second JASON study of 1967 (121-22; *Pentagon Papers*, IV, 116, 224-25): its day; an entry under the air war.
+- Johnson's Christmas message, Dec. 24, 1967 (137): the Public Papers.
+- Johnson at Dallas, Feb. 27, 1968, the National Rural Electric Cooperative Association (174-75): find or make the entry.
+- Kennan at a McCarthy campaign dinner, March 1968 (181): the day and the words.
+- Gallup, Mar. 10, 1968, 49 percent "wrong" (185): the Opinion entry.
+- Aiken's "declare that we have achieved our objectives" and Marks's exchange with Johnson (202-3): the day of Aiken's remark; Marks's oral history.
+- The *Pueblo*: Rusk's "act of war ... cool it," Bucher's confession, the 15,000 reservists, Bates, Church (144-45): their days.
+- Rostow at the Tuesday lunch on Tet's news, Wheeler's "mugging" (146): place in the Jan. 30, 1968, lunch's entry; Westmoreland's cable to Sharp (700 dead).
+- Enthoven's "Alternative Strategies" (177, *Pentagon Papers*, IV, 556-57): its day.
+- Work on SNIE 14.3-67 suspended (76): its day.
+- Johnson on NBC and the *Times* (183), "an interview on September 20, 1967": whether the Australian broadcasters' meeting (a Check in cal.1967-09-20.vietnam-2); his remark to Max Frankel.
+- Press figures for Part III (R13): Peter Lisagor (*Chicago Daily News*), Russell Baker (*New York Times*), Hedrick Smith, Ward Just (*Washington Post*), Don Oberdorfer (*Washington Post*), R. W. Apple (no name entry found), with this book and Oberdorfer's *Tet!*.
+- The CBS-Westmoreland Joint Exhibits and the Lawyers' Brief (passim): where a set is open (the LBJ Library's CBS Subpoena files are cited by case and document).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2942,6 +2970,14 @@ CQ Weekly Report, 1968-08-30:
   to Đỗ, Mar. 3, 1967).
 - Ness's letter from Cairo, early Feb. 1967: whether the *Baltimore Sun* of June 11, 1967 printed it (Made public?).
 
+### Westmoreland, *A Soldier Reports* (batch 3, second and third readings, Nov. 3–4, 2026; notes/book-checks/westmoreland-soldier-reports.md)
+
+- The State cable of Feb. 1965 on a "climax" (118): FRUS 1964–68, II.
+- Vance to McNamara, July 17, 1965 (143): FRUS 1964–68, III.
+- Westmoreland's requests for B-52 strikes, Mar. and June 1965 (137), and for the Army brigade and the Phú Bài battalion, Mar.
+  1965 (125): the messages.
+- Westmoreland's letter to Khánh on the hostage captain, Sept. 1964 (79).
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
@@ -2986,3 +3022,7 @@ CQ Weekly Report, 1968-08-30:
 
 - Frank B. Ellis sworn in as Director of the Office of Civil and Defense
   Mobilization, Mar. 9, 1961 (White, 375, unnamed; the roster's date is Wikipedia's): a record of the oath.
+
+### Westmoreland, *A Soldier Reports* (batch 3, second and third readings, Nov. 3–4, 2026; notes/book-checks/westmoreland-soldier-reports.md)
+
+- Wheeler's letter of late Dec. 1967 naming Westmoreland "the obvious candidate" for Chief of Staff (361).
