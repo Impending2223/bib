@@ -403,6 +403,23 @@ CQ Weekly Report, 1968-08-16:
 ### Navasky, *Kennedy Justice* (batch 3, second run, Nov. 3–4, 2026; notes/book-checks/navasky-kennedy-justice.md)
 - Marshall's Huntsville meeting (1962) and Ramsey Clark's Mobile meeting (1963) (222): the days.
 
+### Branch, *Parting the Waters* (batch 3, Oct. 29 and Nov. 3, 2026; notes/book-checks/branch-parting-the-waters.md)
+
+- Atlanta under Ivan Allen, 1962: the "Colored" and "White" signs taken from City Hall's fountains on his first day, the first integrated game at Ponce de Leon park (Allen, *Mayor*, 84–85, cited by Branch, 592 nn.3–4). Dates to find; no entry yet.
+- Albany, Ga.: the New York Times's profile of Pritchett, July 1962 (Branch, 620; no note). The day to find.
+- Albany: Kunstler's habeas corpus motion and the recorder's court's setting of the trial for Aug. 10, 1962 (Branch, 627). Days to find.
+- Terrell County, Ga.: Judge Elliott's refusal of the Justice Department's injunction against Sheriff Mathews, Aug.–Sept. 1962 (Branch, 637). The day and the case to find.
+- Birmingham: the judge's order setting the referendum of Nov. 6, 1962 (Branch, 656). Its day to find.
+- North Carolina: the Republican State chairman's scandal, July 1962 (Branch, 591: Time, Aug. 3, 1962, 14; Albany Herald, July 27, 1962). His name to find; entered as `cal.1962-07.republican-party` with a Check.
+- Albany, Ga.: the federal court order of November 1963 ending the Americus sedition charges, and the first convictions in the Albany Nine cases, November 1963 (Branch, 866, 868). The days to find.
+- Raleigh (34 arrested), Durham (1,000), Albany (nearly 100), May 1963; Gadsden (450 renewing the Moore march), Danville (church doors broken), Albany (nearly 150), Kansas City (pickets at police stations), June 1963; Torrance, Calif., and Athens, Ga., pickets, Aug. 1963 (Branch, 806, 834, 864; New York Times, May 15, 26, May 21, 19, June 23, 62, 1963; SAC Atlanta to Director, May 31 and July 15, 1963, FBI file 157-4-2). Days to find.
+- Atlanta: Funtown closed against integrated patrons, June 1963 (Atlanta Constitution, June 17, 1963, 5, cited by Branch, 834 n.9).
+- Toledo, Ohio: a high school protest over "black students," 1963 (Jet, Oct. 3, 1963, 48, cited by Branch, 748 n.3).
+- Ohio: two men chain themselves to the legislature's gallery; Alabama: a mob stones a white preacher's home, June 1963 (New York Times, June 14, 16, June 15, 9, 1963, cited by Branch, 825).
+- Danville, Va.: SCLC's planning, Nov. 1963: Jack Greenberg to King, Nov. 7; Chase and King to W. J. Irwin of Dan River Mills, Nov. 18, 1963 (King Papers, KP31, folders 18-19, cited by Branch, 916 n.4).
+- Birmingham: "Tall Paul," the disc jockey, announcing D-Day as a "big party," early May 1963 (Branch, 755; interview with Edwin Gardner).
+- Jackson, Miss.: Thompson's committee of his own choosing and the NAACP's boycott of Citizens Council advertisers, May 1963 (Branch, 814; Evers, *For Us, the Living*); Robert Kennedy and the President receive the Jackson NAACP preachers, June 1963 (Branch, 831). Days to find.
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -1555,6 +1572,27 @@ Rights in Conflict (Walker Report):
 - Johnson and Luce on the press (McPherson 266–67) and Rowland Evans's talk with McPherson on the bombing, 1967 (401–02): the days (the Daily Diary; Evans and Novak's columns of 1967).
 - McPherson's memoranda, the LBJ Library's files (McPherson's office files), to read the witnesses now registered unread.
 
+### Branch, *Parting the Waters* (batch 3, Oct. 29 and Nov. 3, 2026; notes/book-checks/branch-parting-the-waters.md)
+
+- "Ink for Jack," the pens mailed to the White House on the housing order, 1962 (Branch, 586–87). The month to find.
+- Robert Kennedy, "There wasn't one area of the world that I visited ... that I wasn't asked about the question of civil rights" (New York Times, Apr. 24, 1962, 1, 20, cited by Branch, 566 n.4). The occasion to find.
+- Ruby Hurley: "Albany was successful only if the objective was to go to jail" (Lewis, *King*, 169, cited by Branch, 631 n.2). The day to find.
+- King to his staff, "I don't want to be a fireman anymore," autumn 1962 (Branch, 632; interviews: Wyatt Tee Walker, Dec. 21, 1984).
+- Murrow's urging of a second emancipation proclamation from 1961 (Golden, *Mr. Kennedy and the Negroes*, 123–24, cited by Branch, 640 n.3). No card for Golden's book.
+- The Budget Bureau's memorandum to Lee White against using the Civil War Centennial Commission for Emancipation Day (Lee White Papers, Box 20, JFK Library, cited by Branch, 685 n.4): undated in Branch; entered under Dec. 26, 1962, in part.
+- Works Branch cites without a card in the catalogue: Watters, *Down to Now*; Watters and Cleghorn, *Climbing Jacob's Ladder*; Lord, *The Past That Would Not Die*; Meredith, *Three Years in Mississippi*; Kunstler, *Deep in My Heart*; Lewis, *King: A Critical Biography*; Raines, *My Soul Is Rested*; Summers, *Goddess*; Collier and Horowitz, *The Kennedys*; Allen, *Mayor*; Golden, *Mr. Kennedy and the Negroes*. Registered here as witnesses (study rows); cards to make.
+- Press figures for a Part III entry (R13): Claude Sitton (New York Times, the South), entered many times here; Pat Watters (Atlanta Journal); Lawrence Spivak has a name entry.
+- The Robert Kennedy–Belafonte call on King's treatment in jail, Apr. 13-15, 1963 (Branch, 735): its day.
+- The White House meeting of the President with 250 religious leaders in the East Room, June 17, 1963 (Branch, 833): no entry found; the record to find.
+- The President to reporters on Hoover's files on senators, "Boy, the dirt he has on those senators," autumn 1963 (Bradlee, *Conversations with Kennedy*, 228, cited by Branch, 914 n.1). The day to find.
+- Robert Kennedy's tongue-lashings of Johnson at interagency hiring meetings, June 1963 (Schlesinger, *Robert Kennedy and His Times*, 360-61, cited by Branch, 813 n.1).
+- The President, "How the hell did this happen?", on an airman's march for Birmingham at an Air Force base in South Dakota, May 1963 (Lee White, third oral history interview, 1964, cited by Branch, 807 n.3).
+- Stories that Johnson would be sent to Scandinavia during the March on Washington (New York Times, Aug. 5, 1963, cited by Branch, 864 n.2).
+- Rockefeller's drop of thirteen points in Gallup's poll after his marriage, May 1963 (Chicago Sun-Times, May 26, 1963, 5, cited by Branch, 789 n.5): the poll's dates.
+- Works Branch cites without a card in the catalogue (registered here as study or memoir rows): Lewis, *King: A Critical Biography*; Watters, *Down to Now*; Watters and Cleghorn, *Climbing Jacob's Ladder*; Raines, *My Soul Is Rested*; Silver, *Mississippi: The Closed Society*; Kunstler, *Deep in My Heart*; Meredith, *Three Years in Mississippi*; Wilkins, *Standing Fast*; Roger Wilkins, *A Man's Life*; Farmer, *Lay Bare the Heart*; Abram, *The Day Is Short*; Whitehead, *Attack on Terror*; Viorst, *Fire in the Streets*; Manchester, *The Glory and the Dream*; Powers, *Secrecy and Power*; Allen, *Mayor*; Goreau, *Just Mahalia, Baby*; Buckley, *The Hornes*; Miller, *Lyndon*; C. King, *My Life with Martin Luther King, Jr.*; Breitman, ed., *Malcolm X Speaks*; Corley, "The Quest for Racial Harmony" (dissertation). Cards to make.
+- Press figures for a Part III entry (R13): Claude Sitton and Foster Hailey (New York Times), Pat Watters (Atlanta Journal), James Free (Birmingham News's Washington correspondent), Clarence B. Hanson (publisher, Birmingham News), C. A. Scott (Atlanta Daily World); Clark Mollenhoff has a name entry.
+- Open runs named: the Pacifica Radio Archive's tapes of 1963 (tapes 0388, 4745a, 4817, 3014); Folkways's "Birmingham, Alabama, 1963: Mass Meeting" (FH 5487) and "Movement Soul" (FD 5486); the Donald H. Smith tapes (State Historical Society of Wisconsin). Access not tested here.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2611,6 +2649,11 @@ CQ Weekly Report, 1968-08-30:
 
 ### Califano, *The Triumph and Tragedy of Lyndon Johnson* (batch 3, second run, Nov. 4, 2026; notes/book-checks/califano-triumph-and-tragedy-of.md)
 - Andreas Papandreou's arrest, Apr. 1967, and Johnson's word to the junta (243).
+
+### Branch, *Parting the Waters* (batch 3, Oct. 29 and Nov. 3, 2026; notes/book-checks/branch-parting-the-waters.md)
+
+- Ecuador: the military coup against President Carlos Arosemena, July 1963 (New York Times, July 12, 1963, 1, cited by Branch, 851 n.2); no thread for Ecuador found.
+- Rallies for Birmingham in Birmingham, England, and Havana, May 1963 (Chicago Defender, May 11, 1963, 4, cited by Branch, 806 n.9).
 
 ## The Executive roster
 
