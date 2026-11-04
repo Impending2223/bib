@@ -11,6 +11,11 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-07 | *Life* | picture | Ball in tears at Stevenson's memorial service (Check: the issue) | Ball, *The Past Has Another Pattern*, 152
 1965-11 | (a news photograph) | photograph | Rusk at Montevideo, the spit dubbed into the negative | Rusk, *As I Saw It*, 571–72
 1966-02 | *New York Times* (Wicker) | dispatch | the Bangkok communiqué filed first | Humphrey, *Education of a Public Man*, 332
+1966-03-01 | *New York Post* (Wechsler) | column | "His righteous rhetoric is almost reminiscent of Richard Nixon" | Solberg, *Hubert Humphrey*, 293
+1966-03-12 | *New Republic* | article | Humphrey "a kind of export ADA" | Solberg, *Hubert Humphrey*, 292
+1966-04-01 | *Time* | cover | Humphrey; "a White House Uriah Heep" | Solberg, *Hubert Humphrey*, 295
+1966-04-29 | *New York Times* (Reston) | column | "Alas, Poor Hubert" | Solberg, *Hubert Humphrey*, 295
+1966-07-29 | *New York Post* (McGrory) | column | "The Vice President is not a proud man" (Check: the day) | Solberg, *Hubert Humphrey*, 295
 1967-09 | *Time* | cover | Peggy Rusk's wedding to Guy Smith (Check: the issue) | Rusk, *As I Saw It*, 581
 1968-02 | the papers, nationally | front pages (by Rusk's account) | Rusk to Scali at a backgrounder: "Whose side are you on?" | Rusk, *As I Saw It*, 477
 1968-11 | wires, two reporters | dispatch | a secret meeting with Johnson guessed, the White House called (the visit now dated Oct. 19, `cal.1968-10-19.elections-1968`) | Humphrey, *Education of a Public Man*, 404 n.

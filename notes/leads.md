@@ -1425,6 +1425,14 @@ Rights in Conflict (Walker Report):
 - Nixon's offer of the UN to Humphrey at Opa-locka, Nov.–Dec. 1968 (432–33): the day.
 - Detroit Economic Club and the black ministers, 1968 (397–98); San Francisco and Alioto (492 n.8): the days.
 
+### Solberg, *Hubert Humphrey* (batch 3, second run, Nov. 4, 2026; notes/book-checks/solberg-hubert-humphrey.md)
+- Humphrey's "Trip to Germany," Oct. 24–27, 1963 (Solberg's note to 232, Humphrey Papers, Box 709): the trip.
+- The Cabinet of Jan. 22, 1965, Humphrey's note for the record (WHM u/p, Box 48): the meeting and Rusk's word.
+- Valenti's notes of the President's meeting on Vietnam, May 16, 1965 (Office files of the President, LBJ Library).
+- McGrory's column on "Lyndon Johnson's Eleanor Roosevelt" (the *New York Post*, July 1966) and the remark's day (the *Times*, July 26 and 29, 1966).
+- The writers' press conference against Humphrey, 1966 (*Esquire*, Nov. 1966, 106).
+- The rows of the book-check's Passed over marked "to enter" and "month only": 23 events the next run should enter; and the studies the notes cite for pp. 298–407, not yet edges in `sources/witnesses/by-work/solberg-hubert-humphrey.yaml` (pp. 510–526 to read by eye).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
