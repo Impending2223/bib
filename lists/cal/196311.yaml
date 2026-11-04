@@ -421,11 +421,13 @@ entries:
     date: '1963-11-05'
     thread: poverty
     c: 'Heller to the departments and agencies concerned, by memorandum: fifty-eight proposals, most from Labor and HEW, under the label "Widening Participation in Prosperity." Three approaches: to prevent entry into poverty, to promote exits from it, to ease the lot of those who cannot leave it.'
-    n: '[[w.sundquist-politics-and-policy]], 137. See [[cal.1963-05-01.poverty]]. Names: Heller.'
+    n: '[[w.sundquist-politics-and-policy]], 137; [[w.bernstein-guns-or-butter]], 94 (Heller to the "domestic cabinet," Agriculture, Commerce, Labor, HEW, the Budget, the HHFA, on "widening participation in prosperity"; more than 100 proposals, Labor''s 150 pages; Capron: "garbage"). Check: Bernstein, 94, gives "more than 100 specific proposals.". To check: Heller to the Secretary of Agriculture et al., Nov. 5, 1963, Administrative History of the Council of Economic Advisers, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 94 n.5). See [[cal.1963-05-01.poverty]]. Names: Heller.'
     src:
       c: f58617a4
       rows:
         - 'w.sundquist-politics-and-policy 137: all'
+        - 'w.bernstein-guns-or-butter 94: A'
+        - 'via x.1963-11-05.heller-to-secretary-of-agriculture-et-al: A'
     tags: [name:heller-walter-w]
   - id: cal.1963-11-06.vietnam
     when: Nov. 6
@@ -453,6 +455,19 @@ entries:
       rows:
         - 'w.white-suite-3505 242: all'
     tags: [name:reilly-john-r, name:dodd-thomas-j, name:otepka-otto-f]
+  - id: cal.1963-11-06.poverty
+    when: Nov. 6
+    date: '1963-11-06'
+    thread: poverty
+    also: [robert-kennedy]
+    c: 'Hackett of Justice''s committee on delinquency to Heller, "1964 Legislative Programs for Wider Participation in Prosperity": no program, an "approach": five demonstration projects, for depressed areas, urban slums, Indians, migratory labor and persons in institutions, the basis of a national policy.'
+    n: '[[w.bernstein-guns-or-butter]], 95. To check: Hackett to Heller, Nov. 6, 1963, *The Federal Government and Urban Poverty*, I, Kennedy Library (cited by [[w.bernstein-guns-or-butter]], 95 n.5). See [[cal.1963-11-05.poverty]]. Names: Heller.'
+    src:
+      c: ae9848ec
+      rows:
+        - 'w.bernstein-guns-or-butter 95: all'
+        - 'via x.1963-11-06.hackett-to-heller-1964-legislative-programs: all'
+    tags: [name:heller-walter-w]
   - id: cal.1963-11-07.elections-1964
     when: Nov. 7
     date: '1963-11-07'
@@ -663,13 +678,14 @@ entries:
     thread: medicare
     also: [republican-party-congress]
     c: 'The National Committee on Health Care of the Aged, Flemming its chairman, issues its report, "Financing Health Care of the Aged": hospital care through Social Security, other medical care through private insurance, the two to work together. Javits, who prompted the committee, puts its statement in the Record.'
-    n: 'Javits, [109 Cong. Rec. 21737](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt16/pdf/GPO-CRECB-1963-pt16-8-2.pdf#page=55) (Nov. 13, 1963). [[w.sundquist-politics-and-policy]], 316. See [[cal.1963-02-21.medicare]]. Names: Flemming, Javits.'
+    n: 'Javits, [109 Cong. Rec. 21737](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt16/pdf/GPO-CRECB-1963-pt16-8-2.pdf#page=55) (Nov. 13, 1963). [[w.sundquist-politics-and-policy]], 316; [[w.bernstein-guns-or-butter]], 162 (the Flemming committee drafted the Javits bill). See [[cal.1963-02-21.medicare]]. Names: Flemming, Javits.'
     src:
       c: 563bf2e7
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt16/pdf/GPO-CRECB-1963-pt16-8-2.pdf#page=55: all'
         - 'w.sundquist-politics-and-policy 316: all'
         - 'via w.sundquist-politics-and-policy 316 n.83: all'
+        - 'w.bernstein-guns-or-butter 162: A'
     tags: [name:flemming-arthur-s, name:javits-jacob-k]
   - id: cal.1963-11-13.vietnam-2
     when: Nov. 13
@@ -877,12 +893,24 @@ entries:
       rows:
         - 'w.white-suite-3505 242: all'
     tags: [name:reilly-john-r, name:dodd-thomas-j, name:otepka-otto-f]
+  - id: cal.1963-11-18.medicare
+    when: Nov. 18
+    date: '1963-11-18'
+    thread: medicare
+    c: 'Ways and Means opens hearings on medical care for the aged, Celebrezze the first witness: nine days planned. Mills stops them after the fifth, Nov. 22.'
+    n: 'Daily Digest, [109 Cong. Rec. D556](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=554) (Nov. 18, 1963) (the hearing, Celebrezze). [[w.bernstein-guns-or-butter]], 161–62. To check: *Medical Care for the Aged*, Hearings Before the Committee on Ways and Means, H.R., 88th Cong. (1963–64) (cited by [[w.bernstein-guns-or-butter]], 162 n.2). See [[cal.1963-11-13.medicare]]. Names: Celebrezze, Mills.'
+    src:
+      c: f6ea8d7d
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=554: A'
+        - 'w.bernstein-guns-or-butter 161–62: all'
+    tags: [name:celebrezze-anthony-j, name:mills-wilbur-d]
   - id: cal.1963-11-19.poverty
     when: Nov. 19
     date: '1963-11-19'
     thread: poverty
     c: 'Kennedy to Heller on the poverty program: the middle class may feel threatened, something to be done for the suburbs; the Council to go full speed ahead for 1964.'
-    n: '[[w.schlesinger-thousand-days-1965]], 1012; [[w.caro-passage-of-power]], 538–39 (Heller''s notes: still for it, and for the man in the suburbs too; in another of Heller''s versions, "Come back to me in a couple of weeks"); [[w.sundquist-politics-and-policy]], 137 (the program to be in the next year''s; the measures in a couple of weeks). [[w.sorensen-kennedy]], 404 (the Council to go ahead). Made public: [[w.schlesinger-thousand-days-1965]] (1965). See [[cal.1963-05-01.poverty]]. Names: Kennedy, Heller.'
+    n: '[[w.schlesinger-thousand-days-1965]], 1012; [[w.caro-passage-of-power]], 538–39 (Heller''s notes: still for it, and for the man in the suburbs too; in another of Heller''s versions, "Come back to me in a couple of weeks"); [[w.sundquist-politics-and-policy]], 137 (the program to be in the next year''s; the measures in a couple of weeks); [[w.bernstein-guns-or-butter]], 94. [[w.sorensen-kennedy]], 404 (the Council to go ahead). Made public: [[w.schlesinger-thousand-days-1965]] (1965). See [[cal.1963-05-01.poverty]]. Names: Kennedy, Heller.'
     src:
       c: '02145412'
       rows:
@@ -891,6 +919,7 @@ entries:
         - 'via w.caro-passage-of-power 539 n.i-then-heard: A-B'
         - 'w.sorensen-kennedy 404: B'
         - 'w.sundquist-politics-and-policy 137: B'
+        - 'w.bernstein-guns-or-butter 94: A-B'
     tags: [name:kennedy-john-f, name:heller-walter-w]
   - id: cal.1963-11-19.cuba
     when: Nov. 19
@@ -1620,6 +1649,17 @@ entries:
     c: William Bundy confirmed Assistant Secretary of Defense for International Security Affairs, by voice vote, 1 p.m., after a perfunctory hearing; Nitze gone to the Navy.
     n: '[[w.bird-color-of-truth]], 265. Names: William Bundy, Nitze. Check: the Record of the day.'
     tags: [name:bundy-william, name:nitze-paul]
+  - id: cal.1963-11-22.medicare
+    when: Nov. 22
+    date: '1963-11-22'
+    thread: medicare
+    c: The morning of the assassination. Mills reaches agreement with the administration on a formula for financing hospital insurance, by Bernstein's account.
+    n: '[[w.bernstein-guns-or-butter]], 160. Check: the record of the agreement; Bernstein gives no source. See [[cal.1963-11-18.medicare]]. Names: Mills.'
+    src:
+      c: f00ee8d0
+      rows:
+        - 'w.bernstein-guns-or-butter 160: all'
+    tags: [name:mills-wilbur-d]
   - id: cal.1963-11-23.succession
     when: Nov. 23
     date: '1963-11-23'
@@ -1652,7 +1692,7 @@ entries:
     thread: poverty
     also: [economy]
     c: 'Heller to Johnson, 7:41 p.m.: early in November he had asked the departments for ideas against poverty, and three days before his death Kennedy approved his planning a program. Did Johnson want one? "Go ahead. Give it the highest priority. Push ahead full tilt," by Johnson''s account. As Heller left, Johnson: "I''m no budget slasher. ... If you looked at my record, you would know that I am a Roosevelt New Dealer. As a matter of fact, ... John F. Kennedy was a little too conservative to suit my taste," by Heller''s notes.'
-    n: '[President''s Daily Diary, Nov. 23, 1963](https://catalog.archives.gov/id/192431), image 3 (LBJ Library; National Archives Catalog) (the time). [[w.johnson-vantage-point]], 69–71; [[w.dallek-flawed-giant]], 60 (Johnson''s words, in Dallek''s form: "That''s my kind of program"); [[w.caro-passage-of-power]], 539–40 (Heller''s account: "we should push ahead full tilt"); [[w.sundquist-politics-and-policy]], 137 (Johnson to Heller: "That''s my kind of program. ... Move full speed ahead," by Heller''s account); [[w.kotz-judgment-days]], 27 (that evening, the Executive Office Building; Johnson: "That''s my kind of program. ... We should push ahead full tilt"); [[w.bernstein-guns-or-butter]], 31 (Johnson as Heller left, by Heller''s notes). Johnson gives 7:40 p.m. (69). [[w.branch-pillar-of-fire]], 174–75. Names: Heller, Johnson, Kennedy.'
+    n: '[President''s Daily Diary, Nov. 23, 1963](https://catalog.archives.gov/id/192431), image 3 (LBJ Library; National Archives Catalog) (the time). [[w.johnson-vantage-point]], 69–71; [[w.dallek-flawed-giant]], 60 (Johnson''s words, in Dallek''s form: "That''s my kind of program"); [[w.caro-passage-of-power]], 539–40 (Heller''s account: "we should push ahead full tilt"); [[w.sundquist-politics-and-policy]], 137 (Johnson to Heller: "That''s my kind of program. ... Move full speed ahead," by Heller''s account); [[w.kotz-judgment-days]], 27 (that evening, the Executive Office Building; Johnson: "That''s my kind of program. ... We should push ahead full tilt"); [[w.bernstein-guns-or-butter]], 31 (Johnson as Heller left, by Heller''s notes); [[w.bernstein-guns-or-butter]], 94–95 ("my kind of undertaking. I''m interested. I''m sympathetic. Go ahead. Give it the highest priority. Push ahead full tilt."). Johnson gives 7:40 p.m. (69). [[w.branch-pillar-of-fire]], 174–75. Names: Heller, Johnson, Kennedy.'
     src:
       c: 62fb61a9
       rows:
@@ -1671,6 +1711,8 @@ entries:
         - 'w.kotz-judgment-days 27: A, C'
         - 'w.bernstein-guns-or-butter 31: D'
         - 'via w.bernstein-guns-or-butter 31 n.2b: D'
+        - 'w.bernstein-guns-or-butter 94–95: A-C'
+        - 'via x.1963-11-23.notes-on-meeting-with-president-johnson: A-C'
     tags: [name:heller-walter-w, name:johnson-lyndon-b, name:kennedy-john-f]
   - id: cal.1963-11-23.transition-and-staff
     when: Nov. 23

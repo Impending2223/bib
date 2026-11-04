@@ -56,6 +56,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1962-11-09 | *New York Times* | item | Hamilton, "Cuba Bars Return of Soviet Planes" (Lechuga) | Fursenko and Naftali, *Khrushchev's Cold War*, 499
 1963 | *Dallas Morning News* | item | on Rockefeller's fees | Smith, *On His Own Terms*, 393
 1963 | *New Republic*, Kempton | item | "He Has It If He Wants It, and He Does" | Smith, *On His Own Terms*, 394
+1963-01-19 | *The New Yorker* | article | Dwight MacDonald, "Our Invisible Poor" (entered) | Bernstein, *Guns or Butter*, 92
 1963-02-12 | *New York Times* | item | Szulc, "U.S. and Britain Recognize Iraq: Soviet Also Acts" | Fursenko and Naftali, *Khrushchev's Cold War*, 512
 1963-02-20, 24, 25 | *Washington Post* | items | the Soviet bloc's campaign on Iraq; Iraq's charges; ar-Radi | Fursenko and Naftali, *Khrushchev's Cold War*, 512
 1963-03-04, 12, 14 | *New York Times* | items | Schwartz on meat; Salisbury, "The Khrushchev Line"; Topping on Peking's invitation | Fursenko and Naftali, *Khrushchev's Cold War*, 513–15
@@ -101,10 +102,12 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1963-09-20 | New York Times | front page | "Kennedy Names 2 ... Negroes Applaud Move, Drop Appeal for Troops and Accept Panel" | Branch, *Parting the Waters*, 895
 1963-09-24 | New York Times | front page | "Kennedy Says Birmingham Can Solve Its Own Problems" | Branch, *Parting the Waters*, 898
 1963-09-28 | New York Times | front page | Valachi's "underworld glossary" | Branch, *Parting the Waters*, 905
+1963-10-20 | *New York Times* | story | Homer Bigart on poverty in the Cumberlands (Sundquist's pending entry, cited) | Bernstein, *Guns or Butter*, 91
 1963-10-24 | New York Times | inside, 32 | the civil rights bill in committee: "For an understanding of this bizarre battle, it is helpful to look both backward and forward" | Branch, *Parting the Waters*, 910
 1963-10-25 | *Washington Post* | front page | Goldwater on NATO's "commanders" and tactical nuclear weapons (Chalmers Roberts) | White, *Making of the President 1964*, 296
 1963-11-22 | CBS | item | Cronkite: Goldwater kept from the funeral by a political function; his apology | Smith, *On His Own Terms*, 418
 1964-01-06 | *Manchester Union Leader* | item | "Deception, Deceit, and Divorce" | Smith, *On His Own Terms*, 420
+1964-01-06 | *Concord Daily Monitor* | front page | "Goldwater Sets Goals: End Social Security, Hit Castro" (in the Jan. 7 cite) | Bernstein, *Guns or Butter*, 128
 1964-01-07 | *Concord Daily Monitor* | front page | "Goldwater Sets Goals: End Social Security; Hit Castro" | White, *Making of the President 1964*, 104
 1964-01-19 | *New York Times* | front page | King in the Oval Office beside Johnson, a large photograph | Kotz, *Judgment Days*, 102
 1964-01-20 | *Newsweek* | article | "Fastest Gun" | Goldberg, *Barry Goldwater*, 177 n.158
@@ -131,6 +134,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1964-08-04 | CBS | the address | Dan Rather: "a day of tension here at the White House" | Branch, *Pillar of Fire*, 436
 1964-08-07 | *New York Times* | p. 13 | "No Evidence of Beating" (Chaney) | Branch, *Pillar of Fire*, 440
 1964-08-08 | *New York Times* | p. 7 | "Chaney Was Given a Brutal Beating" | Branch, *Pillar of Fire*, 440
+1964-08-11/12 | Evans and Novak's column | column | the dumping of Yarmolinsky (entered) | Bernstein, *Guns or Butter*, 111
 1964-08-14 | *New York Times* | editorial | "Soviet School Retreat" | Fursenko and Naftali, *Khrushchev's Cold War*, 532
 1964-08-21 | *Life* | cover | Khánh at the "front" in a jeep under ferns | Branch, *Pillar of Fire*, 443
 1964-08-22 | NBC | the hearing | Edwin Newman cuts from Hamer to Goralski at the White House | Branch, *Pillar of Fire*, 459
@@ -162,6 +166,7 @@ date | outlet | broadcast, front page or cover | the items, clipped | source, pa
 1965-01-07 | *New York World-Telegram* | item | "Rockefeller Wants More of Everything" | Smith, *On His Own Terms*, 459
 1965-01-08 | *New York Herald Tribune*, David Lawrence | item | "Rockefeller's Great Society Plan" | Smith, *On His Own Terms*, 456 n.
 1965-01-11 | *New York Times* | front page | a second Klan confession | Branch, *Pillar of Fire*, 558
+1965-01-13 | *New York Times*, *Washington Post* | editorials | editorials on the education message (day not given) | Bernstein, *Guns or Butter*, 192–93
 1965-01-26 | *New York Times* | front page | Clark beating Annie Lee Cooper, a photograph | Kotz, *Judgment Days*, 263 n.
 1965-02-02 | *New York Times* | front page | "Dr. King and 770 Others Seized" | Branch, *Pillar of Fire*, 577
 1965-02-03 | *New York Times* | front page | "520 More Seized" | Branch, *Pillar of Fire*, 577

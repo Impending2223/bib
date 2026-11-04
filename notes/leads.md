@@ -1936,6 +1936,21 @@ Rights in Conflict (Walker Report):
   and for Thomas J. Hamilton (*New York Times* at the UN), cal.1962-11-15.missile-crisis-2; both treated by this work
   (486, 502).
 
+### Bernstein, *Guns or Butter* (batch 3, fifth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
+
+- The rows of the fifth run's Passed over marked "a lead".
+- The Juvenile Delinquency and Youth Offenses Control Act of 1961: its day and Statutes cite.
+- Lampman to Heller, June 10, 1963 (Administrative History of the Council, LBJ Library).
+- The poverty hearings' printed volumes (House, pt. 1, pp. 6–7, 64–65, 108–9, 114–15, 146, 184–85, 309, 314, 631–36)
+  and the Record of July 22–23 and Aug. 7, 1964, for the days of Green's, McNamara's and Kennedy's exchanges and
+  Smathers's amendment.
+- The Ways and Means hearings of 1963–64 (pt. 2, 644, 650–51) for Annis's day.
+- The Teaching Professions message of July 17, 1965 in the Public Papers.
+- The ABA's agreement (July 11 or later; Cater to Johnson, Aug. 25, 1965).
+- The press: Murrow's "Harvest of Shame"; Reston's "Franklin Delano Hoover twist"; Lippmann's 1963 column on
+  Goldwater; Henshaw's "Washington Pipeline" (attached to Spain to Manatos, July 30, 1964).
+- Propose a Part III entry for Douglass Cater (White House staff, education and Medicare), who has no name entry.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
