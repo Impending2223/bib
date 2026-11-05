@@ -1,27 +1,14 @@
 # Larry Berman, *Lyndon Johnson's War* (`w.berman-lyndon-johnsons-war`)
 
-Read Nov. 3-4, 2026, by the batch-3 reader (westy group: Westmoreland, then Berman). Patch:
-`inbox/2026-11-03-b3-berman-2.yaml` (b3-berman-2; no earlier patch: the first run stopped before Berman). Witnesses:
-`inbox/witnesses/2026-11-03-b3-berman-2.yaml`; the work's edges: `sources/witnesses/by-work/berman-lyndon-johnsons-war.yaml`.
+Read Nov. 3-4, 2026, by the batch-3 reader (westy group: Westmoreland, then Berman). Patch: `inbox/2026-11-03-b3-berman-2.yaml` (b3-berman-2; no earlier patch: the first run stopped before Berman). Witnesses: `inbox/witnesses/2026-11-03-b3-berman-2.yaml`; the work's edges: `sources/witnesses/by-work/berman-lyndon-johnsons-war.yaml`.
 
 ## The copy
 
-The owner's copy (Drive), W. W. Norton, New York, 1989, first edition: the Boston Public Library's copy as the Internet
-Archive scanned it (`lyndonjohnsonswa00berm`), 280 PDF pages with a text layer, read from it. Printed page = PDF page
-less 22 throughout: the plates (pp. 61-70, 126-136) are paginated; checked by the running heads on each side of both
-inserts and at pp. 13, 115, 205. The PDF was deleted when the reading was done. The study rests on the LBJ Library's
-NSF, the Meeting Notes File and Tom Johnson's notes, and on the papers subpoenaed in *Westmoreland v. CBS* (Joint
-Exhibits, the Lawyers' Brief); notes are sparse (pp. 205-214, a note to a paragraph or more; many quotations carry
-none). Where a passage quotes a document and gives no note, the witness is registered as a passage of the study
-(`x.1989.berman-lyndon-johnsons-war-<page>`, `part_of` the card) with the document upstream, and the note says "quoted
-by". FRUS 1964-68, IV-VI prints a number of the documents: read there and cited first where found.
+The owner's copy (Drive), W. W. Norton, New York, 1989, first edition: the Boston Public Library's copy as the Internet Archive scanned it (`lyndonjohnsonswa00berm`), 280 PDF pages with a text layer, read from it. Printed page = PDF page less 22 throughout: the plates (pp. 61-70, 126-136) are paginated; checked by the running heads on each side of both inserts and at pp. 13, 115, 205. The PDF was deleted when the reading was done. The study rests on the LBJ Library's NSF, the Meeting Notes File and Tom Johnson's notes, and on the papers subpoenaed in *Westmoreland v. CBS* (Joint Exhibits, the Lawyers' Brief); notes are sparse (pp. 205-214, a note to a paragraph or more; many quotations carry none). Where a passage quotes a document and gives no note, the witness is registered as a passage of the study (`x.1989.berman-lyndon-johnsons-war-<page>`, `part_of` the card) with the document upstream, and the note says "quoted by". FRUS 1964-68, IV-VI prints a number of the documents: read there and cited first where found.
 
 ## The cites it had
 
-Fourteen entries had Berman behind "To check:". Held, pinned (with parenthetical and units): cal.1965-12-24.vietnam
-(12), cal.1966-02-06.vietnam (9-10), cal.1967-03-18.vietnam (34), cal.1967-05-19.vietnam (43-46), cal.1967-07-07.vietnam
-(54-55), cal.1967-11-01.vietnam (93-95), cal.1968-03-25.vietnam (194-99), cal.1968-03-31.elections-1968 (200-201), and
-cal.1966-06-29.vietnam (15 n.*, with a Check). Cut (an edit on the current base; the book does not treat the entry):
+Fourteen entries had Berman behind "To check:". Held, pinned (with parenthetical and units): cal.1965-12-24.vietnam (12), cal.1966-02-06.vietnam (9-10), cal.1967-03-18.vietnam (34), cal.1967-05-19.vietnam (43-46), cal.1967-07-07.vietnam (54-55), cal.1967-11-01.vietnam (93-95), cal.1968-03-25.vietnam (194-99), cal.1968-03-31.elections-1968 (200-201), and cal.1966-06-29.vietnam (15 n.*, with a Check). Cut (an edit on the current base; the book does not treat the entry):
 
 | entry | what it says | Berman | ruling |
 |---|---|---|---|
@@ -50,43 +37,11 @@ cal.1966-06-29.vietnam (15 n.*, with a Check). Cut (an edit on the current base;
 
 ## New entries (119)
 
-1966: Lodge's weekly with Pitt (Feb. 1); Ginsburgh and Carver on the count (Nov. 21, 22). 1967: Westmoreland's year-end
-assessment (Jan. 2, FRUS V, 2); Rostow on 8,400 a month and Sharp's operational concept (Jan. 3); the CIA's estimate
-(Jan. 9); Carver to Helms (Jan. 11); the bombing committee, Rostow's report of Clifford (January; Jan. 19, FRUS V, 22);
-the Honolulu order-of-battle meeting (Jan. 19; February); Rostow's net decline (Jan. 20); Wheeler's cables (March; Mar.
-11); Lodge (Mar. 13); Rostow before and at Guam (Mar. 18, 20, 22); Robinson's briefing (May); Enthoven (May 4); Wheeler's
-CM-3218-67 (May 5); McNaughton (May 16); the draft SNIE and Sharp (June; June 10); Komer (June); Bunker (July); Rostow
-(July 22, Aug. 7, Aug. 11, Sept. 8, Sept. 20, Oct. 14); the "stalemate" meeting (July 25); Bunker's weeklies (July 26,
-Aug. 23, Sept. 5, Nov. 2, December); Westmoreland's cables (Aug. 2, 12, 20, 25; Sept. 14; Nov. 26); Lisagor (Aug. 4);
-Wheeler on Apple (Aug. 8); the Democratic congressmen (Aug. 8); Russell Baker (Aug. 8); the Republican congressmen (Aug.
-17); Acheson to Eden (August); the order-of-battle cables of Aug. 18-29 (Ginsburgh, Komer, Davidson, Abrams, the Chiefs,
-Bunker and Komer, FRUS V, 297); the Cabinet (Sept. 6); Helms's accommodation and Carver (September; Sept. 15); the
-Australian broadcasters (Sept. 20); Habib (Sept. 26); Saigon 7867 and Rusk (Oct. 7); Harris (October); McPherson (Oct.
-10, FRUS V, 352); Walsh and Carver on MACV's briefing (Oct. 11, 13); Fortas (Oct. 14, Nov. 9); Rostow's agenda and his
-comparison (Nov. 2, 4, FRUS V, 376, 385); Bunker to the press (Nov. 13); Westmoreland to the Chiefs (Nov. 17); Rostow
-(Nov. 19, 21); the press (Smith Nov. 24, Just Nov. 26, Anderson Nov. 30); Eisenhower (Nov. 28); the Cabinet (November);
-Canberra and the Vatican (Dec. 21, 23). 1968: Westmoreland on Khe Sanh (Jan. 12, FRUS VI, 12); the Cabinet (Jan. 31);
-the prayer breakfast (Feb. 1, Pub. Papers); the correspondents (Feb. 2, FRUS VI, 47); Tom Johnson's review; the Mill
-quotation (Feb. 8); the order of battle after Tet (Feb. 11; Adams; Carver; Westmoreland's casualty cable; the CIA, Feb.
-21); DePuy; the reserves (Rostow, Eisenhower, Taylor); Khe Sanh (Taylor, Rostow, the message for Westmoreland); Taylor's
-questions (Feb. 23); Rostow (Feb. 24, Mar. 6; on the polls); the "monkey" meeting; McPherson's notes of Feb. 27; the
-Cabinet (Feb. 28); Ginsburgh on mining (Mar. 1); Fortas (Mar. 12); Hoopes (Mar. 14); McPherson and the Chiefs (Mar. 18);
-Bundy (March, Mar. 27); Carver on the North's strength (March); Johnson to McPherson (Mar. 31). Also Aug. 7, 1967, the
-labor leaders.
+1966: Lodge's weekly with Pitt (Feb. 1); Ginsburgh and Carver on the count (Nov. 21, 22). 1967: Westmoreland's year-end assessment (Jan. 2, FRUS V, 2); Rostow on 8,400 a month and Sharp's operational concept (Jan. 3); the CIA's estimate (Jan. 9); Carver to Helms (Jan. 11); the bombing committee, Rostow's report of Clifford (January; Jan. 19, FRUS V, 22); the Honolulu order-of-battle meeting (Jan. 19; February); Rostow's net decline (Jan. 20); Wheeler's cables (March; Mar. 11); Lodge (Mar. 13); Rostow before and at Guam (Mar. 18, 20, 22); Robinson's briefing (May); Enthoven (May 4); Wheeler's CM-3218-67 (May 5); McNaughton (May 16); the draft SNIE and Sharp (June; June 10); Komer (June); Bunker (July); Rostow (July 22, Aug. 7, Aug. 11, Sept. 8, Sept. 20, Oct. 14); the "stalemate" meeting (July 25); Bunker's weeklies (July 26, Aug. 23, Sept. 5, Nov. 2, December); Westmoreland's cables (Aug. 2, 12, 20, 25; Sept. 14; Nov. 26); Lisagor (Aug. 4); Wheeler on Apple (Aug. 8); the Democratic congressmen (Aug. 8); Russell Baker (Aug. 8); the Republican congressmen (Aug. 17); Acheson to Eden (August); the order-of-battle cables of Aug. 18-29 (Ginsburgh, Komer, Davidson, Abrams, the Chiefs, Bunker and Komer, FRUS V, 297); the Cabinet (Sept. 6); Helms's accommodation and Carver (September; Sept. 15); the Australian broadcasters (Sept. 20); Habib (Sept. 26); Saigon 7867 and Rusk (Oct. 7); Harris (October); McPherson (Oct. 10, FRUS V, 352); Walsh and Carver on MACV's briefing (Oct. 11, 13); Fortas (Oct. 14, Nov. 9); Rostow's agenda and his comparison (Nov. 2, 4, FRUS V, 376, 385); Bunker to the press (Nov. 13); Westmoreland to the Chiefs (Nov. 17); Rostow (Nov. 19, 21); the press (Smith Nov. 24, Just Nov. 26, Anderson Nov. 30); Eisenhower (Nov. 28); the Cabinet (November); Canberra and the Vatican (Dec. 21, 23). 1968: Westmoreland on Khe Sanh (Jan. 12, FRUS VI, 12); the Cabinet (Jan. 31); the prayer breakfast (Feb. 1, Pub. Papers); the correspondents (Feb. 2, FRUS VI, 47); Tom Johnson's review; the Mill quotation (Feb. 8); the order of battle after Tet (Feb. 11; Adams; Carver; Westmoreland's casualty cable; the CIA, Feb. 21); DePuy; the reserves (Rostow, Eisenhower, Taylor); Khe Sanh (Taylor, Rostow, the message for Westmoreland); Taylor's questions (Feb. 23); Rostow (Feb. 24, Mar. 6; on the polls); the "monkey" meeting; McPherson's notes of Feb. 27; the Cabinet (Feb. 28); Ginsburgh on mining (Mar. 1); Fortas (Mar. 12); Hoopes (Mar. 14); McPherson and the Chiefs (Mar. 18); Bundy (March, Mar. 27); Carver on the North's strength (March); Johnson to McPherson (Mar. 31). Also Aug. 7, 1967, the labor leaders.
 
 ## Witnesses
 
-178 rows (documents named by the notes or quoted in the text; the press; passages of the study), 175 edges. Read in FRUS and
-marked read: Lodge, Feb. 1, 1966 (IV, 60); Rostow's Manila notes (IV, 280); Westmoreland's year-end (V, 2); Rostow's
-report of Clifford (V, 22); Bunker's weekly of July 26, 1967 (V, 256, in part); McPherson, Oct. 10 (V, 352); Bunker and
-Komer, Aug. 29 (V, 297); Rostow, Nov. 2 and 4 (V, 376, 385); Bunker, Nov. 2 (V, 379); Westmoreland's Khe Sanh cable as
-quoted in VI, 12; the correspondents, Feb. 2, 1968 (VI, 47). Existing witnesses reused: the FRUS prints of McNamara and
-the Chiefs, Oct. 14, 1966; Komer, Nov. 29, 1966; Bundy, May 3, 1967; Carver's Guam notes; the Apr. 27 notes; Enthoven, May
-1; the DPMs of May 19 and June 12; JCSM-286-67; the July 12 report; Tom Johnson's Aug. 8 notes; the Stennis hearings;
-the Sept. 12 notes; Rostow to Bunker, Sept. 27; JCSM-555-67; Bundy, Oct. 17-18; the Oct. 23 leaders; McPherson, Oct. 27;
-McNamara, Nov. 1; Rostow, Nov. 2; Harriman, Taylor, Clifford, Bundy, Rusk, Rostow (Nov. 3-21); Katzenbach, Nov. 16; the
-Pope, Dec. 23; the Clifford reader's row for "A Viet Nam Reappraisal". Open (LBJ Library, not held; the CBS exhibits,
-not held): every other.
+178 rows (documents named by the notes or quoted in the text; the press; passages of the study), 175 edges. Read in FRUS and marked read: Lodge, Feb. 1, 1966 (IV, 60); Rostow's Manila notes (IV, 280); Westmoreland's year-end (V, 2); Rostow's report of Clifford (V, 22); Bunker's weekly of July 26, 1967 (V, 256, in part); McPherson, Oct. 10 (V, 352); Bunker and Komer, Aug. 29 (V, 297); Rostow, Nov. 2 and 4 (V, 376, 385); Bunker, Nov. 2 (V, 379); Westmoreland's Khe Sanh cable as quoted in VI, 12; the correspondents, Feb. 2, 1968 (VI, 47). Existing witnesses reused: the FRUS prints of McNamara and the Chiefs, Oct. 14, 1966; Komer, Nov. 29, 1966; Bundy, May 3, 1967; Carver's Guam notes; the Apr. 27 notes; Enthoven, May 1; the DPMs of May 19 and June 12; JCSM-286-67; the July 12 report; Tom Johnson's Aug. 8 notes; the Stennis hearings; the Sept. 12 notes; Rostow to Bunker, Sept. 27; JCSM-555-67; Bundy, Oct. 17-18; the Oct. 23 leaders; McPherson, Oct. 27; McNamara, Nov. 1; Rostow, Nov. 2; Harriman, Taylor, Clifford, Bundy, Rusk, Rostow (Nov. 3-21); Katzenbach, Nov. 16; the Pope, Dec. 23; the Clifford reader's row for "A Viet Nam Reappraisal". Open (LBJ Library, not held; the CBS exhibits, not held): every other.
 
 ## Passed over
 

@@ -1,19 +1,10 @@
 # Geoffrey Kabaservice, *Rule and Ruin* (`w.kabaservice-rule-and-ruin`)
 
-Read Oct. 29, 2026, by the batch-3 reading (the Republicans: Kabaservice, then Goldberg's *Barry Goldwater*, then
-Smith's *On His Own Terms*). Patches: `inbox/2026-10-29-b3-kabaservice.yaml` (b3-kabaservice) and, under the owner's ruling of Oct. 28, late, `inbox/2026-10-29-b3-kabaservice-more.yaml` (b3-kabaservice-more). Records:
-`sources/cited-records/kabaservice-rule-and-ruin.yaml`.
+Read Oct. 29, 2026, by the batch-3 reading (the Republicans: Kabaservice, then Goldberg's *Barry Goldwater*, then Smith's *On His Own Terms*). Patches: `inbox/2026-10-29-b3-kabaservice.yaml` (b3-kabaservice) and, under the owner's ruling of Oct. 28, late, `inbox/2026-10-29-b3-kabaservice-more.yaml` (b3-kabaservice-more). Records: `sources/cited-records/kabaservice-rule-and-ruin.yaml`.
 
 ## The copy
 
-The owner's copy (Drive), Oxford University Press, 2012; 505 PDF pages with a text layer, read from it. Printed page =
-PDF page less 23, the same throughout: checked by the running heads on pp. 78, 111, 229 and 251. The notes (pp.
-403–458) are numbered by chapter; a cite here gives the printed page where the note's number stands in the text and the
-note's number ("209 n.70"). The PDF was deleted once its text was taken. Chs. 1–8 (1960–68) read; the Nixon years and
-after, out of the calendar's span, not read for entries. The book rests on the papers of the moderates and their
-organizations (the Ripon Society's at Cornell, Hinman's at the Rockefeller Archive Center, Romney's at Michigan, Thayer's
-at the Hoover Library, White's at Cornell, Rusher's at the Library of Congress), the *Ripon Forum* and *Advance*, and
-interviews by the author; its records are in the records file, 264 of them, none read here.
+The owner's copy (Drive), Oxford University Press, 2012; 505 PDF pages with a text layer, read from it. Printed page = PDF page less 23, the same throughout: checked by the running heads on pp. 78, 111, 229 and 251. The notes (pp. 403–458) are numbered by chapter; a cite here gives the printed page where the note's number stands in the text and the note's number ("209 n.70"). The PDF was deleted once its text was taken. Chs. 1–8 (1960–68) read; the Nixon years and after, out of the calendar's span, not read for entries. The book rests on the papers of the moderates and their organizations (the Ripon Society's at Cornell, Hinman's at the Rockefeller Archive Center, Romney's at Michigan, Thayer's at the Hoover Library, White's at Cornell, Rusher's at the Library of Congress), the *Ripon Forum* and *Advance*, and interviews by the author; its records are in the records file, 264 of them, none read here.
 
 ## The cites it had
 
@@ -48,35 +39,13 @@ Twenty-six calendar entries cited the book, all behind "To check:" without a pag
 | cal.1968-06-04.elections-1968-ca | pinned: 237–38 (Rafferty over Kuchel, a 69,632-vote margin) |
 | cal.1968-08-05.elections-1968-2 | cut: Reagan's declaration not in the book |
 
-Edited besides (64 entries the book treats, no cite before): among them the 1960 convention (Goldwater's withdrawal,
-the civil rights plank), the Rules fight of Jan. 31, 1961, the Bow Group proposal and Ripon's founding (Dec. 1962),
-Ford's coup (Jan. 9, 1963), the Young Republicans at San Francisco (June 25, 1963), the Ripon "Call to Excellence"
-(Jan. 1964), Lodge's write-in (Mar. 10, 1964), the 1964 convention's days (July 12–19), the Goldwater–Romney letters
-(Dec. 1964, each with a Check of its day from the record's date), Bliss's election (Jan. 22, 1965, appended), Lindsay's
-campaign and election (1965), the California primary of 1966 (a Check: Kabaservice gives 77 percent and June 8), the
-consular convention (Mar. 16, 1967), the Federation of Republican Women's convention (May 1967), King's funeral (the
-Republicans there, appended), the House's vote on open housing (Anderson's speech, appended, the day to check), the
-convention of 1968 (Bergen County's break, Lindsay's nominating speech, appended).
+Edited besides (64 entries the book treats, no cite before): among them the 1960 convention (Goldwater's withdrawal, the civil rights plank), the Rules fight of Jan. 31, 1961, the Bow Group proposal and Ripon's founding (Dec. 1962), Ford's coup (Jan. 9, 1963), the Young Republicans at San Francisco (June 25, 1963), the Ripon "Call to Excellence" (Jan. 1964), Lodge's write-in (Mar. 10, 1964), the 1964 convention's days (July 12–19), the Goldwater–Romney letters (Dec. 1964, each with a Check of its day from the record's date), Bliss's election (Jan. 22, 1965, appended), Lindsay's campaign and election (1965), the California primary of 1966 (a Check: Kabaservice gives 77 percent and June 8), the consular convention (Mar. 16, 1967), the Federation of Republican Women's convention (May 1967), King's funeral (the Republicans there, appended), the House's vote on open housing (Anderson's speech, appended, the day to check), the convention of 1968 (Bergen County's break, Lindsay's nominating speech, appended).
 
 ## New entries (163)
 
-By year: 1960, 2; 1961, 6; 1962, 3; 1963, 10; 1964, 27; 1965, 29; 1966, 23; 1967, 43; 1968, 20. The chief: *Advance*'s
-founding and its open letters (1960–62); the moderates' and *Advance*'s doings with Hinman and Rockefeller's office;
-the Syndicate's capture of the Young Republicans, and Failor's letter to Lukens on the appointments promised (Aug. 12,
-1963, entered under the owner's ruling on papers); Chapman's "State of the Republican Party" (Dec. 2, 1963); Ripon's
-papers ("After Cleveland," June 12, 1964; "Third Force," Dec. 1, 1964; "A Second Mandate," Nov. 1965; the China paper,
-Apr. 1966); the Declaration of Conscience and the extremism statements (July 1964); the National Negro Republican
-Assembly (Aug. 22–23, 1964); the House Republican conference of Dec. 1964; the Wednesday Group's bills and letters
-(1965); the Rat Finks (Jan. 1966); Romney's campaign papers of 1967: Hall's, Applegate's, Bachelder's, Moore's
-memoranda, the "brainwashing" news conference (Sept. 9), the tour of the cities (Aug. 28–Sept. 30), the Kerner
-testimony (Sept. 12); Rumsfeld's Working Group for Percy (July 17, Aug. 21, Nov. 13, 1967); McCloskey's paper (Sept.
-12, 1967); Rusher's memorandum on Romney (Jan. 3, 1967, under the ruling); the Ripon executive board's minutes (Feb.
-27, 1968, under the ruling); the *Ripon Forum*'s issues of 1968; Rusher's talk with Ripon members on Reagan's strategy
-(Apr. 1968); Kuchel's farewell (Oct. 14, 1968); Ripon's sixth anniversary dinner (Dec. 15, 1968).
+By year: 1960, 2; 1961, 6; 1962, 3; 1963, 10; 1964, 27; 1965, 29; 1966, 23; 1967, 43; 1968, 20. The chief: *Advance*'s founding and its open letters (1960–62); the moderates' and *Advance*'s doings with Hinman and Rockefeller's office; the Syndicate's capture of the Young Republicans, and Failor's letter to Lukens on the appointments promised (Aug. 12, 1963, entered under the owner's ruling on papers); Chapman's "State of the Republican Party" (Dec. 2, 1963); Ripon's papers ("After Cleveland," June 12, 1964; "Third Force," Dec. 1, 1964; "A Second Mandate," Nov. 1965; the China paper, Apr. 1966); the Declaration of Conscience and the extremism statements (July 1964); the National Negro Republican Assembly (Aug. 22–23, 1964); the House Republican conference of Dec. 1964; the Wednesday Group's bills and letters (1965); the Rat Finks (Jan. 1966); Romney's campaign papers of 1967: Hall's, Applegate's, Bachelder's, Moore's memoranda, the "brainwashing" news conference (Sept. 9), the tour of the cities (Aug. 28–Sept. 30), the Kerner testimony (Sept. 12); Rumsfeld's Working Group for Percy (July 17, Aug. 21, Nov. 13, 1967); McCloskey's paper (Sept. 12, 1967); Rusher's memorandum on Romney (Jan. 3, 1967, under the ruling); the Ripon executive board's minutes (Feb. 27, 1968, under the ruling); the *Ripon Forum*'s issues of 1968; Rusher's talk with Ripon members on Reagan's strategy (Apr. 1968); Kuchel's farewell (Oct. 14, 1968); Ripon's sixth anniversary dinner (Dec. 15, 1968).
 
-The merge flags 38 of the new entries as possible duplicates (the same day and thread as an entry already there, or a
-month-only entry in a month whose thread has one): each was compared with every entry on its day and is a distinct
-event; `./bib resolve ID --take keep` for each.
+The merge flags 38 of the new entries as possible duplicates (the same day and thread as an entry already there, or a month-only entry in a month whose thread has one): each was compared with every entry on its day and is a distinct event; `./bib resolve ID --take keep` for each.
 
 ## For entries in pending patches
 
@@ -91,14 +60,12 @@ Four events this run had drafted are added in other pending patches; the Kabaser
 
 ## Disagreements
 
-- Rockefeller and the Vice Presidency, July 22, 1960: Kabaservice, 28, has Nixon later deny offering it (Check on
-  cal.1960-07-22.elections-1960).
+- Rockefeller and the Vice Presidency, July 22, 1960: Kabaservice, 28, has Nixon later deny offering it (Check on cal.1960-07-22.elections-1960).
 - California's primary, 1966: Kabaservice, 172, gives Reagan 77 percent and June 8; the entry, June 7.
 - Lindsay's share, 1965: Kabaservice, 155, from *Newsweek*: Lindsay 43.3, Beame 39.5, Buckley 12.9.
 - Nixon for Dumont: the record Kabaservice cites is a statement of Oct. 24, 1965; the entry, Oct. 28.
 - Goldwater and Romney's letters: Kabaservice's records date them Dec. 6 and Dec. 21, 1964; the entries, December.
-- Ripon's executive board minutes are dated Feb. 27, 1968, and record the news of Romney's withdrawal; the calendar
-  has the withdrawal Feb. 28.
+- Ripon's executive board minutes are dated Feb. 27, 1968, and record the news of Romney's withdrawal; the calendar has the withdrawal Feb. 28.
 - Percy's housing bill: Kabaservice, 203 n.35, has it introduced Apr. 20, 1967.
 
 ## Passed over
@@ -129,8 +96,7 @@ Four events this run had drafted are added in other pending patches; the Kabaser
 
 ## Entered (the owner's ruling, Oct. 28, late)
 
-In `inbox/2026-10-29-b3-kabaservice-more.yaml` (b3-kabaservice-more), 59 entries for rows this run had passed over as
-private, undated or below the level:
+In `inbox/2026-10-29-b3-kabaservice-more.yaml` (b3-kabaservice-more), 59 entries for rows this run had passed over as private, undated or below the level:
 
 | page | event | entry |
 |---|---|---|
@@ -190,8 +156,7 @@ private, undated or below the level:
 | 248 | Thayer to Eisenhower, Nov. 19, 1968 | cal.1968-11-19.republican-party |
 | 245 | Hauberg to Huebner, Nov. 20, 1968 | cal.1968-11-20.republican-party |
 
-The merge flags 13 of these as possible duplicates of entries on their day and thread; each was compared and is
-distinct (`./bib resolve ID --take keep`).
+The merge flags 13 of these as possible duplicates of entries on their day and thread; each was compared and is distinct (`./bib resolve ID --take keep`).
 
 ## Leads
 
@@ -205,33 +170,17 @@ distinct (`./bib resolve ID --take keep`).
 - Kuchel's libel suit (1965): the affidavit's and the suit's days.
 - The Community Self-Determination Act (Taft, Goodell, Curtis; *Ripon Forum*, Sept. 1968): its introduction.
 - The Republican Governors Association's meeting of summer 1967 (Kabaservice, 207–8, 211): the date and place.
-- Persons named without a name entry: Bruce Chapman, George Gilder, Emil Frankel, Josiah Lee Auspitz, Tanya Melich, Robert
-  D. Behn, Edward Failor, William Prendergast, John R. Price (of Ripon), Michael C. Smith, Saul Alinsky, Newt Gingrich.
+- Persons named without a name entry: Bruce Chapman, George Gilder, Emil Frankel, Josiah Lee Auspitz, Tanya Melich, Robert D. Behn, Edward Failor, William Prendergast, John R. Price (of Ripon), Michael C. Smith, Saul Alinsky, Newt Gingrich.
 
 ## The second run (Nov. 3-4, 2026)
 
-Patch `inbox/2026-11-03-b3-kabaservice-2.yaml` (b3-kabaservice-2), 8 new entries; witnesses
-`inbox/witnesses/2026-11-03-b3-kabaservice-2.yaml` (33 rows, 4 amendments); edges added to
-`sources/witnesses/by-work/kabaservice-rule-and-ruin.yaml` (130).
+Patch `inbox/2026-11-03-b3-kabaservice-2.yaml` (b3-kabaservice-2), 8 new entries; witnesses `inbox/witnesses/2026-11-03-b3-kabaservice-2.yaml` (33 rows, 4 amendments); edges added to `sources/witnesses/by-work/kabaservice-rule-and-ruin.yaml` (130).
 
 The copy downloaded again (same file, offset 23); pp. 159, 166 and 231 checked against the page images.
 
-The witnesses of R35: the conversion of Nov. 3 made witnesses of the records the first run logged, but left out the
-studies, memoirs, collections and oral histories the notes cite. The notes of chs. 1-8 were parsed (1,030 notes), each
-note's marker found on its page, and every note on a page the calendar cites that names a study by page was registered:
-an edge to the card where the catalogue holds the work (Rusher, White's *Suite 3505*, Novak, Gilder and Chapman, Hess and
-Broder, Persico, Cannon, Dallek, Critchlow and others), else a row of its own (`kind: study`, `memoir`, `oral history`;
-`open: not held`): Galvin, Lamb in Tillett, Remini, Brownstein, Smith's *Dewey*, Meyer, Liebman, Curtis and Westerfield,
-Desmond, Greenfield, Barr, Reich, Bagley, Stevens, Judis, Daughen and Binzen, Whitman, Lewis, Buckley's *Flying High*,
-Schlafly's *Safe—Not Sorry*, Ripon's *Lessons of Victory*, Nofziger's oral history; the press items of those notes too.
-Notes that only point to general reading ("See ...", "a useful overview") were not registered. Four rows the conversion
-had made of a catalogued work's page (Hayden's *Reunion*, Holton, Morris; White's memoir, filed as `press`) are amended to
-passages of their cards (`part_of`, `pin`) or to `memoir`. The earlier run's edges at 51 n.70, 87 n.61, 101 n.20, 172 n.46 and 188 n.133-136 stand at a page beside the one
-the note's marker is on (52, 88, 102, 171, 189); those at 54 n.80, 59 n.110, 83 n.46 and 210 n.73 at notes whose
-marker the text layer does not show: left as written, for the next reader of the file.
+The witnesses of R35: the conversion of Nov. 3 made witnesses of the records the first run logged, but left out the studies, memoirs, collections and oral histories the notes cite. The notes of chs. 1-8 were parsed (1,030 notes), each note's marker found on its page, and every note on a page the calendar cites that names a study by page was registered: an edge to the card where the catalogue holds the work (Rusher, White's *Suite 3505*, Novak, Gilder and Chapman, Hess and Broder, Persico, Cannon, Dallek, Critchlow and others), else a row of its own (`kind: study`, `memoir`, `oral history`; `open: not held`): Galvin, Lamb in Tillett, Remini, Brownstein, Smith's *Dewey*, Meyer, Liebman, Curtis and Westerfield, Desmond, Greenfield, Barr, Reich, Bagley, Stevens, Judis, Daughen and Binzen, Whitman, Lewis, Buckley's *Flying High*, Schlafly's *Safe—Not Sorry*, Ripon's *Lessons of Victory*, Nofziger's oral history; the press items of those notes too. Notes that only point to general reading ("See ...", "a useful overview") were not registered. Four rows the conversion had made of a catalogued work's page (Hayden's *Reunion*, Holton, Morris; White's memoir, filed as `press`) are amended to passages of their cards (`part_of`, `pin`) or to `memoir`. The earlier run's edges at 51 n.70, 87 n.61, 101 n.20, 172 n.46 and 188 n.133-136 stand at a page beside the one the note's marker is on (52, 88, 102, 171, 189); those at 54 n.80, 59 n.110, 83 n.46 and 210 n.73 at notes whose marker the text layer does not show: left as written, for the next reader of the file.
 
-Rows of the first run's Passed over taken up under the rules now in force (R13, the press; R9, the parties' allied
-groups):
+Rows of the first run's Passed over taken up under the rules now in force (R13, the press; R9, the parties' allied groups):
 
 | page | event | entry |
 |---|---|---|
@@ -244,8 +193,7 @@ groups):
 | 229 | Reston, "The Calmest Voice in the Capitol," Feb. 10-11, 1968 | cal.1968-02-10.elections-1968-2 |
 | 237 | Reston, "The Final Irony of Death," June 10, 1968 | cal.1968-06-10.elections-1968-3 |
 
-The rest of that table stands: Womey, Gerald A. Smith, Crangle, Lawrence and Beal, Woods, Pillsbury and Dionne write
-without a public role (R7); Gregory at Yale and Smith in VISTA are out of the brief.
+The rest of that table stands: Womey, Gerald A. Smith, Crangle, Lawrence and Beal, Woods, Pillsbury and Dionne write without a public role (R7); Gregory at Yale and Smith in VISTA are out of the brief.
 
 ### Passed over (second run)
 

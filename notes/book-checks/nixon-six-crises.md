@@ -1,37 +1,16 @@
 # Richard M. Nixon, *Six Crises* (1962): the reading of Jan. 6, 1960–1962
 
-Card `w.nixon-six-crises`. Read Oct. 29, 2026 (batch 3). Patch: `inbox/2026-10-29-b3-six-crises.yaml` (b3-six-crises;
-37 entries edited, 36 added). Records: `sources/cited-records/nixon-six-crises.yaml` (15). Read again Nov. 3–4, 2026
-(batch 3 resumed): patch `inbox/2026-11-03-b3-six-crises-2.yaml` (b3-six-crises-2; 21 entries added, 5 cites and checks,
-1 edit), witnesses `inbox/witnesses/2026-11-03-b3-six-crises-2.yaml` (15 new, 16 amended); "The second reading", below.
+Card `w.nixon-six-crises`. Read Oct. 29, 2026 (batch 3). Patch: `inbox/2026-10-29-b3-six-crises.yaml` (b3-six-crises; 37 entries edited, 36 added). Records: `sources/cited-records/nixon-six-crises.yaml` (15). Read again Nov. 3–4, 2026 (batch 3 resumed): patch `inbox/2026-11-03-b3-six-crises-2.yaml` (b3-six-crises-2; 21 entries added, 5 cites and checks, 1 edit), witnesses `inbox/witnesses/2026-11-03-b3-six-crises-2.yaml` (15 new, 16 amended); "The second reading", below.
 
 ## The copy, and how much of it was read
 
-The owner's copy in Drive (file id 17sI8Jav8-_lO_B7ZDQR4bwB2GfFeVCIS, 19 MB): the Internet Archive's scan of a San
-Francisco Public Library copy of Doubleday's reissue, Library of Congress Catalog Card Number 78-87100, "Copyright © 1962",
-with a new introduction signed "RMN, 1969, The White House" (ix–x) before the original introduction; 488 PDF pages with a
-text layer, read with `pdftotext -layout` in the scratchpad only (the PDF deleted after). The folios stand in the running
-heads: **printed page = PDF page − 22** throughout the text (pp. 1–461), found by script on every page with a folio and
-checked by eye on the page images of pp. 309 (PDF 331), 354 and 403 (PDF 425). Every page is cited by its printed folio.
+The owner's copy in Drive (file id 17sI8Jav8-_lO_B7ZDQR4bwB2GfFeVCIS, 19 MB): the Internet Archive's scan of a San Francisco Public Library copy of Doubleday's reissue, Library of Congress Catalog Card Number 78-87100, "Copyright © 1962", with a new introduction signed "RMN, 1969, The White House" (ix–x) before the original introduction; 488 PDF pages with a text layer, read with `pdftotext -layout` in the scratchpad only (the PDF deleted after). The folios stand in the running heads: **printed page = PDF page − 22** throughout the text (pp. 1–461), found by script on every page with a folio and checked by eye on the page images of pp. 309 (PDF 331), 354 and 403 (PDF 425). Every page is cited by its printed folio.
 
-The edition: the card is the first edition (1962). The reissue keeps the first edition's extent (xvi + 460 pp.: the text
-to 426, the appendix of three speeches, the index to 461) and its section openings (the campaign at 293), so its pages
-are taken as the 1962 pages. One exception is certain: the unnumbered footnote on p. 354 says "after the publication of
-the first edition of this book, the White House issued a statement on March 20, 1962" and prints Nixon's reply of Mar. 21;
-it is a later printing's. Check: the first printing's p. 354, and any other change of setting.
+The edition: the card is the first edition (1962). The reissue keeps the first edition's extent (xvi + 460 pp.: the text to 426, the appendix of three speeches, the index to 461) and its section openings (the campaign at 293), so its pages are taken as the 1962 pages. One exception is certain: the unnumbered footnote on p. 354 says "after the publication of the first edition of this book, the White House issued a statement on March 20, 1962" and prints Nixon's reply of Mar. 21; it is a later printing's. Check: the first printing's p. 354, and any other change of setting.
 
-Read in full: "The Campaign of 1960" (293–426), and every passage elsewhere that dates an event of 1960–62 (found by
-searching the text for 1960, 1961 and 1962: 127, 159, 223 n.3, 231 n.4). The chapters on the Hiss case, the fund, the
-heart attack, Caracas and Khrushchev are before the span and were not read. The memoir has no notes; its footnotes are
-asides. A record is logged where the text quotes or names a document that grounds an entry (`note: text`, or `star-a`
-... for the footnote on p. 354), as the reading of *RN* did.
+Read in full: "The Campaign of 1960" (293–426), and every passage elsewhere that dates an event of 1960–62 (found by searching the text for 1960, 1961 and 1962: 127, 159, 223 n.3, 231 n.4). The chapters on the Hiss case, the fund, the heart attack, Caracas and Khrushchev are before the span and were not read. The memoir has no notes; its footnotes are asides. A record is logged where the text quotes or names a document that grounds an entry (`note: text`, or `star-a` ... for the footnote on p. 354), as the reading of *RN* did.
 
-The primary records read for the new and edited entries: the Congressional Record of May 23, 1960 (Kennedy's account
-of his Oregon remarks, 106 Cong. Rec. 10823–24, the bound Record on govinfo) and of Jan. 6, 1961 (Nixon's statement,
-107 Cong. Rec. 291); the Public Papers' texts (Eisenhower at Cleveland and Pittsburgh, Nov. 4, 1960, 1960–61 Pub.
-Papers 836, 846; the President's News Conference of Mar. 21, 1962, 1962 Pub. Papers 254, 256). APP's campaign texts
-of 1960 are linked by the titles and dates in `sources/app-index.jsonl`, never read (CLAUDE.md, "The Public Papers").
-The Library of Congress's Meet the Press inventory (`daybook/sunday.yaml`) has Nixon the guest on Sept. 11, 1960.
+The primary records read for the new and edited entries: the Congressional Record of May 23, 1960 (Kennedy's account of his Oregon remarks, 106 Cong. Rec. 10823–24, the bound Record on govinfo) and of Jan. 6, 1961 (Nixon's statement, 107 Cong. Rec. 291); the Public Papers' texts (Eisenhower at Cleveland and Pittsburgh, Nov. 4, 1960, 1960–61 Pub. Papers 836, 846; the President's News Conference of Mar. 21, 1962, 1962 Pub. Papers 254, 256). APP's campaign texts of 1960 are linked by the titles and dates in `sources/app-index.jsonl`, never read (CLAUDE.md, "The Public Papers"). The Library of Congress's Meet the Press inventory (`daybook/sunday.yaml`) has Nixon the guest on Sept. 11, 1960.
 
 ## The citations it had (fourteen calendar entries; three with pages, all three wrong for this copy)
 
@@ -58,70 +37,33 @@ The pages the three entries carried (341–42, 415–17, 436–38) fit no part o
 
 ## Other entries now citing it (twenty-three)
 
-`cal.1960-01-07.steel` (304); `cal.1960-03-17.cuba` (352, the program early in 1960, by Nixon's account at his urging);
-`cal.1960-06-09.elections-1960-2` (313: the press conference at Camden, June 9; the entry's "Check: the day" narrowed to
-the words); `cal.1960-06-29.congress` (312); `cal.1960-07-23.elections-1960` (354 n.); `cal.1960-07-25.republican-party`
-(316); `cal.1960-07-28.elections-1960` (318–20); `cal.1960-07.elections-1960-3` (321–22: **Check added**, *Six Crises*
-puts the agreement with Eisenhower in Washington after the swing of Aug. 2–6, not at Newport, with Persons after);
-`cal.1960-08-17.elections-1960-2` (324–25); `cal.1960-08-26.elections-1960` (325); `cal.1960-10-07`, `-10-13`, `-10-21`
-(the debates: 343–46, 346–48, 351–55); `cal.1960-10-12.elections-1960` (350–51: Harlem, not East Harlem, as Gifford);
-`cal.1960-10-13.elections-1960-2` (350: **Check added**, Nixon puts Lodge's clarification in Albany "the following week");
-`cal.1960-10-25.king` (362: **Check added**, Nixon dates the sentence Oct. 26); `cal.1960-11-03.elections-1960` (369:
-**Check added**, a crowd of 30,000 against the *State*'s 35,000); `cal.1960-11-07.elections-1960` (371–74);
-`cal.1960-11-09.elections-1960-3` (395); `cal.1960-11-09.elections-1960-5` (397–98); `cal.1961-01-06.elections-1960`
-(415–16; Nixon's statement added to `c` from the Record, 107 Cong. Rec. 291); `cal.1961-04-20.cuba-bay-of-pigs` (406
-n.12: **Check added**, Nixon puts the call to the White House in May); `cal.1961-12-16.latin-america` (223 n.3).
+`cal.1960-01-07.steel` (304); `cal.1960-03-17.cuba` (352, the program early in 1960, by Nixon's account at his urging); `cal.1960-06-09.elections-1960-2` (313: the press conference at Camden, June 9; the entry's "Check: the day" narrowed to the words); `cal.1960-06-29.congress` (312); `cal.1960-07-23.elections-1960` (354 n.); `cal.1960-07-25.republican-party` (316); `cal.1960-07-28.elections-1960` (318–20); `cal.1960-07.elections-1960-3` (321–22: **Check added**, *Six Crises* puts the agreement with Eisenhower in Washington after the swing of Aug. 2–6, not at Newport, with Persons after); `cal.1960-08-17.elections-1960-2` (324–25); `cal.1960-08-26.elections-1960` (325); `cal.1960-10-07`, `-10-13`, `-10-21` (the debates: 343–46, 346–48, 351–55); `cal.1960-10-12.elections-1960` (350–51: Harlem, not East Harlem, as Gifford); `cal.1960-10-13.elections-1960-2` (350: **Check added**, Nixon puts Lodge's clarification in Albany "the following week"); `cal.1960-10-25.king` (362: **Check added**, Nixon dates the sentence Oct. 26); `cal.1960-11-03.elections-1960` (369: **Check added**, a crowd of 30,000 against the *State*'s 35,000); `cal.1960-11-07.elections-1960` (371–74); `cal.1960-11-09.elections-1960-3` (395); `cal.1960-11-09.elections-1960-5` (397–98); `cal.1961-01-06.elections-1960` (415–16; Nixon's statement added to `c` from the Record, 107 Cong. Rec. 291); `cal.1961-04-20.cuba-bay-of-pigs` (406 n.12: **Check added**, Nixon puts the call to the White House in May); `cal.1961-12-16.latin-america` (223 n.3).
 
 ## Disagreements and Checks added
 
 - `cal.1960-07-22`: no offer of second place (*Six Crises*, 314) against the offer (*RN*, 215).
 - `cal.1960-07-27`: Judd's request made after the keynote, not at the meeting (317).
 - `cal.1960-07.elections-1960-3`: Washington after Aug. 6 (321), not Newport after the convention (Kallina).
-- `cal.1960-10-13.elections-1960-2`: the clarification at Albany the following week (350), not Virginia and North
-  Carolina the next day (Gifford).
+- `cal.1960-10-13.elections-1960-2`: the clarification at Albany the following week (350), not Virginia and North Carolina the next day (Gifford).
 - `cal.1960-10-25.king`: the sentence Oct. 26 (362); the entry Oct. 25 (and Kallina Oct. 24).
 - `cal.1960-11-03`: 30,000 (369) against 35,000.
 - `cal.1960-11-08`: House gain 22, margin 113,000 (411) against 21 and 118,550.
 - `cal.1960-11-09`: Seaton, not Morton, against a concession (385).
 - `cal.1961-04-20.cuba-bay-of-pigs`: May (406 n.12) against Apr. 20.
-- New `cal.1960-05-23.elections-1960-2`: Nixon calls Kennedy's Oregon remarks a press conference at Portland, May 19
-  (311); the Record, Kennedy's answers to students at a school, recorded, the day not given.
-- New `cal.1960-11-04.elections-1960-3`: Nixon puts "on-the-job training" at a Cleveland luncheon (369); the Public
-  Papers print it in the Public Square address (837).
-- Not entered: Nixon puts the joint resolution suspending Section 315 for the nominees "before the two conventions"
-  (323); the statute is of Aug. 24, 1960 (74 Stat. 554; `cal.1960-08-24.press-and-broadcasting`). The Senate had
-  passed it before (Check: the Senate's day).
-- Not entered: the convention nominated Nixon "by acclamation" (317); `cal.1960-07-26.elections-1960` gives the roll,
-  1,321 to 10 (the motion to make it unanimous not in the entry).
+- New `cal.1960-05-23.elections-1960-2`: Nixon calls Kennedy's Oregon remarks a press conference at Portland, May 19 (311); the Record, Kennedy's answers to students at a school, recorded, the day not given.
+- New `cal.1960-11-04.elections-1960-3`: Nixon puts "on-the-job training" at a Cleveland luncheon (369); the Public Papers print it in the Public Square address (837).
+- Not entered: Nixon puts the joint resolution suspending Section 315 for the nominees "before the two conventions" (323); the statute is of Aug. 24, 1960 (74 Stat. 554; `cal.1960-08-24.press-and-broadcasting`). The Senate had passed it before (Check: the Senate's day).
+- Not entered: the convention nominated Nixon "by acclamation" (317); `cal.1960-07-26.elections-1960` gives the roll, 1,321 to 10 (the motion to make it unanimous not in the entry).
 
 ## New entries (thirty-six)
 
-Nixon's informal record, by his account: the January strategy lunch (`cal.1960-01.elections-1960-2`); Robinson's poll of
-July 19 (`cal.1960-07-19.elections-1960-3`); the August decisions on the debates and on the campaign's organization
-(`cal.1960-08.elections-1960-2`, `-3`); the schedule kept to fifty States (`cal.1960-09-09.elections-1960-2`); Bowles to
-Herter on Quemoy and Matsu (`cal.1960-10.elections-1960-4`); the Hartford meeting (`cal.1960-10-16.elections-1960`);
-Seaton's call on Kennedy's briefing (`cal.1960-10-20.cuba-bay-of-pigs`); the strategy conference of Oct. 23
-(`cal.1960-10-23.elections-1960`); Klein, Rogers and the King case (`cal.1960-10.elections-1960-5`); the Chicago
-briefing (`cal.1960-10-29.elections-1960`); the Waldorf meeting on religion (`cal.1960-11-02.elections-1960-3`); the
-decision against a recount (`cal.1960-11.elections-1960-2`).
+Nixon's informal record, by his account: the January strategy lunch (`cal.1960-01.elections-1960-2`); Robinson's poll of July 19 (`cal.1960-07-19.elections-1960-3`); the August decisions on the debates and on the campaign's organization (`cal.1960-08.elections-1960-2`, `-3`); the schedule kept to fifty States (`cal.1960-09-09.elections-1960-2`); Bowles to Herter on Quemoy and Matsu (`cal.1960-10.elections-1960-4`); the Hartford meeting (`cal.1960-10-16.elections-1960`); Seaton's call on Kennedy's briefing (`cal.1960-10-20.cuba-bay-of-pigs`); the strategy conference of Oct. 23 (`cal.1960-10-23.elections-1960`); Klein, Rogers and the King case (`cal.1960-10.elections-1960-5`); the Chicago briefing (`cal.1960-10-29.elections-1960`); the Waldorf meeting on religion (`cal.1960-11-02.elections-1960-3`); the decision against a recount (`cal.1960-11.elections-1960-2`).
 
-Nixon's campaign word: the Machinists (`cal.1960-09-15.elections-1960`), the farm speeches (`cal.1960-09-16.farm`,
-`cal.1960-09-23.farm`), Lafayette and Jackson (`cal.1960-09-24.elections-1960`), the World Newspaper Forum
-(`cal.1960-10-14.elections-1960`), the "quarantine" of Castro (`cal.1960-10-18.cuba`), the Al Smith dinner
-(`cal.1960-10-19.elections-1960`), the testing pledge at Toledo (`cal.1960-10-26.testing`), *Meet the Press* on religion
-(`cal.1960-09-11.elections-1960`), Anchorage (`cal.1960-11-06.elections-1960-2`), the first swing
-(`cal.1960-08-02.elections-1960-2`); Eisenhower's in New York (`cal.1960-11-02.elections-1960-2`) and Cleveland and
-Pittsburgh (`cal.1960-11-04.elections-1960-3`).
+Nixon's campaign word: the Machinists (`cal.1960-09-15.elections-1960`), the farm speeches (`cal.1960-09-16.farm`, `cal.1960-09-23.farm`), Lafayette and Jackson (`cal.1960-09-24.elections-1960`), the World Newspaper Forum (`cal.1960-10-14.elections-1960`), the "quarantine" of Castro (`cal.1960-10-18.cuba`), the Al Smith dinner (`cal.1960-10-19.elections-1960`), the testing pledge at Toledo (`cal.1960-10-26.testing`), *Meet the Press* on religion (`cal.1960-09-11.elections-1960`), Anchorage (`cal.1960-11-06.elections-1960-2`), the first swing (`cal.1960-08-02.elections-1960-2`); Eisenhower's in New York (`cal.1960-11-02.elections-1960-2`) and Cleveland and Pittsburgh (`cal.1960-11-04.elections-1960-3`).
 
-The Democrats' word: Stevenson's "crowbar and the sledgehammer" (`cal.1960-05-19.democratic-party`); Kennedy and Scott in
-the Senate on the U-2 (`cal.1960-05-23.elections-1960-2`); Kennedy on Cuba, Sept. 15, 23, 30 and Oct. 23
-(`cal.1960-09-15.cuba`, `-09-23.cuba`, `-09-30.cuba`, `-10-23.cuba`). The religious statement of Sept. 7
-(`cal.1960-09-07.elections-1960`). After: the White House and Dulles on the briefing, Mar. 20, 1962; Nixon's reply and
-Kennedy's press conference, Mar. 21 (`cal.1962-03-20.cuba-bay-of-pigs`, `cal.1962-03-21.republican-party`,
-`cal.1962-03-21.cuba-bay-of-pigs`).
+The Democrats' word: Stevenson's "crowbar and the sledgehammer" (`cal.1960-05-19.democratic-party`); Kennedy and Scott in the Senate on the U-2 (`cal.1960-05-23.elections-1960-2`); Kennedy on Cuba, Sept. 15, 23, 30 and Oct. 23 (`cal.1960-09-15.cuba`, `-09-23.cuba`, `-09-30.cuba`, `-10-23.cuba`). The religious statement of Sept. 7 (`cal.1960-09-07.elections-1960`). After: the White House and Dulles on the briefing, Mar. 20, 1962; Nixon's reply and Kennedy's press conference, Mar. 21 (`cal.1962-03-20.cuba-bay-of-pigs`, `cal.1962-03-21.republican-party`, `cal.1962-03-21.cuba-bay-of-pigs`).
 
-The merge flags fourteen of the adds as possible duplicates of other entries of the same thread and day (or month); each
-was compared and is a separate event (`./bib resolve ID --take keep`).
+The merge flags fourteen of the adds as possible duplicates of other entries of the same thread and day (or month); each was compared and is a separate event (`./bib resolve ID --take keep`).
 
 ## For entries in pending patches
 
@@ -129,11 +71,7 @@ None: no pending patch touched these days when the patch was written.
 
 ## Passed over
 
-Made from the whole chapter, page by page, against the calendar's entries for 1960–62 (`./bib find -l cal --since
-1960-01 --until 1961-01`) and the reading notes; every dated event within the span not entered. Revised Oct. 29, 2026,
-under the owner's ruling of Oct. 28 (late), and again Nov. 3–4, 2026, under the reader's brief (R5, R13, R15, R18): the
-rows now entered are in "Entered" below; the front matter and the passages outside the campaign chapter, read this time,
-add their rows.
+Made from the whole chapter, page by page, against the calendar's entries for 1960–62 (`./bib find -l cal --since 1960-01 --until 1961-01`) and the reading notes; every dated event within the span not entered. Revised Oct. 29, 2026, under the owner's ruling of Oct. 28 (late), and again Nov. 3–4, 2026, under the reader's brief (R5, R13, R15, R18): the rows now entered are in "Entered" below; the front matter and the passages outside the campaign chapter, read this time, add their rows.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -169,17 +107,11 @@ add their rows.
 | 248 | 1961 | the Kennedy administration keeps Thompson at Moscow | lead: no date; Thompson's tenure is the Executive roster's |
 | 273 | 1961 | "we bluffed" in Laos and Cuba | minor: Nixon's comment, no act |
 
-How the list was made: the first reading's rows (the campaign chapter, page by page), re-ruled; then the front matter
-(the 1969 introduction, ix–x, out of the brief: after the span; the original introduction, xi–xvi), and the other
-chapters searched for 1960, 1961, 1962, Kennedy, Castro, Cuba, U-2 and Paris, each hit read in its page (1, 22, 49, 61,
-77, 118, 127, 129, 159, 172–80, 223, 230–32, 240, 243, 248, 273, 279, 283), and the appendix of speeches (440–46: the
-acceptance of July 28, 1960, already in). By reason: out of the brief 2; already in 5; minor 19 (family 3, social 4,
-private 4, an office's routine 2, personal 1, no act or a summary 3, repetitions 2); leads 5.
+How the list was made: the first reading's rows (the campaign chapter, page by page), re-ruled; then the front matter (the 1969 introduction, ix–x, out of the brief: after the span; the original introduction, xi–xvi), and the other chapters searched for 1960, 1961, 1962, Kennedy, Castro, Cuba, U-2 and Paris, each hit read in its page (1, 22, 49, 61, 77, 118, 127, 129, 159, 172–80, 223, 230–32, 240, 243, 248, 273, 279, 283), and the appendix of speeches (440–46: the acceptance of July 28, 1960, already in). By reason: out of the brief 2; already in 5; minor 19 (family 3, social 4, private 4, an office's routine 2, personal 1, no act or a summary 3, repetitions 2); leads 5.
 
 ## Entered (the owner's ruling, Oct. 28, late)
 
-Patch `inbox/2026-10-29-b3-six-crises-more.yaml` (b3-six-crises-more), 55 entries; the trips with their places from APP's
-list of the day's remarks (the index; APP not read).
+Patch `inbox/2026-10-29-b3-six-crises-more.yaml` (b3-six-crises-more), 55 entries; the trips with their places from APP's list of the day's remarks (the index; APP not read).
 
 | Page | Date | Event | Entry |
 |---|---|---|---|
@@ -225,12 +157,7 @@ The merge may renumber an id taken in the meantime; the patch is the record.
 
 ## The second reading (Nov. 3–4, 2026)
 
-The same copy, fetched again from Drive's public download address (19 MB; `file`: PDF 1.5), text by `pdftotext
--layout` in the scratchpad, deleted when done. The offset holds (printed = PDF − 22), checked on the images of pp. 359
-(PDF 381) and 421 (PDF 443); the front matter's roman folios by the running heads (xii PDF 16, xiii PDF 17; so xi is PDF
-15). Read now: the 1969 introduction (ix–x: after the span), the original introduction (xi–xvi), the other chapters by
-search (the hits listed under Passed over), and the campaign chapter's pages the first run passed over (358–60, 395–403,
-410–26) against the brief of Oct. 30 and the press rule (R13).
+The same copy, fetched again from Drive's public download address (19 MB; `file`: PDF 1.5), text by `pdftotext -layout` in the scratchpad, deleted when done. The offset holds (printed = PDF − 22), checked on the images of pp. 359 (PDF 381) and 421 (PDF 443); the front matter's roman folios by the running heads (xii PDF 16, xiii PDF 17; so xi is PDF 15). Read now: the 1969 introduction (ix–x: after the span), the original introduction (xi–xvi), the other chapters by search (the hits listed under Passed over), and the campaign chapter's pages the first run passed over (358–60, 395–403, 410–26) against the brief of Oct. 30 and the press rule (R13).
 
 ### Cites added
 
@@ -266,18 +193,11 @@ search (the hits listed under Passed over), and the campaign chapter's pages the
 | 223 n.3 | Dec. 2, 1961 | Venezuela's round-up before the visit | cal.1961-12-02.latin-america |
 | 231 n.4 | Dec. 1961 | two Peruvian students apologize for the San Marcos riots | cal.1961-12.latin-america-peru |
 
-The merge will flag the October and November press entries, the Nov. 9 flight and the February decision as possible
-duplicates of their days' entries: each was compared and is a distinct event.
+The merge will flag the October and November press entries, the Nov. 9 flight and the February decision as possible duplicates of their days' entries: each was compared and is a distinct event.
 
 ### Witnesses (R35-R43)
 
-The memoir has no source notes; its witnesses are what the text quotes or names for a passage cited (`n.text`). New:
-the eleven press items of 359 (NBC twice, Lubell, Evans, the *Times*, Alsop, Lawrence, Reston, *U.S. News*,
-*Newsweek* with Lindley, *Time*), Reston's letter to Arnold (397), the reporters' note (400), the next morning's papers
-(401), Cushing's speech (421); each edge in `sources/witnesses/by-work/nixon-six-crises.yaml` at its page and note,
-each tied to its units by a `via` row. Amended (agent, made, form, `open`): the fifteen witnesses the conversion made
-from the first run's records, and Chambers's letter. None is held by the series but the Public Papers and the Record
-copies already marked read; the APP copies are linked, never read.
+The memoir has no source notes; its witnesses are what the text quotes or names for a passage cited (`n.text`). New: the eleven press items of 359 (NBC twice, Lubell, Evans, the *Times*, Alsop, Lawrence, Reston, *U.S. News*, *Newsweek* with Lindley, *Time*), Reston's letter to Arnold (397), the reporters' note (400), the next morning's papers (401), Cushing's speech (421); each edge in `sources/witnesses/by-work/nixon-six-crises.yaml` at its page and note, each tied to its units by a `via` row. Amended (agent, made, form, `open`): the fifteen witnesses the conversion made from the first run's records, and Chambers's letter. None is held by the series but the Public Papers and the Record copies already marked read; the APP copies are linked, never read.
 
 ## The press
 
@@ -288,37 +208,22 @@ date | outlet | broadcast, front page or cover | items | page
 ## Leads
 
 National:
-- (Entered with a Check, cal.1960-07.elections-1960-7.) Morton on television, before the conventions, that the Republican nominee would debate (323); and the Senate's
-  passage of the Section 315 joint resolution, which Nixon puts before the conventions (74 Stat. 554 is of Aug. 24).
-- (Entered with a Check, cal.1960-10.elections-1960-7.) The Democrats on religion, autumn 1960 (365–66): Hodges at Charlottesville; Jackson's charge of "conniving"; Diggs;
-  Powell; COPE's pamphlet; the Kennedy-Johnson Labor Committee's leaflet; Stevenson on Nixon's Quaker faith: the days.
-- Kennedy on Cuba (the May interview entered with a Check, cal.1960-05.elections-1960-6): the television interview of May 1960 (351); the place and text of Sept. 15 and the program of
-  Sept. 30 (entered with Checks); the Scripps-Howard statement of Sept. 23 and the statement of Oct. 23.
+- (Entered with a Check, cal.1960-07.elections-1960-7.) Morton on television, before the conventions, that the Republican nominee would debate (323); and the Senate's passage of the Section 315 joint resolution, which Nixon puts before the conventions (74 Stat. 554 is of Aug. 24).
+- (Entered with a Check, cal.1960-10.elections-1960-7.) The Democrats on religion, autumn 1960 (365–66): Hodges at Charlottesville; Jackson's charge of "conniving"; Diggs; Powell; COPE's pamphlet; the Kennedy-Johnson Labor Committee's leaflet; Stevenson on Nixon's Quaker faith: the days.
+- Kennedy on Cuba (the May interview entered with a Check, cal.1960-05.elections-1960-6): the television interview of May 1960 (351); the place and text of Sept. 15 and the program of Sept. 30 (entered with Checks); the Scripps-Howard statement of Sept. 23 and the statement of Oct. 23.
 - (Entered with a Check, cal.1960-10-31.elections-1960-2.) Nixon's nightly telecasts of the last week, at Dewey's suggestion (364): the days, from APP's list.
 - Which Toledo text of Oct. 26, 1960 carries the testing pledge (APP lists two).
-- *Six Crises*: the day of publication (March 1962) and the first printing's p. 354, set before the White House's
-  statement of Mar. 20, 1962.
-- (Nov. 3–4.) *Six Crises*, xi–xii: April 1961, Adela Rogers St. Johns's call, Ken McCormick of Doubleday in California
-  the next day, the six crises chosen, the book undertaken. Not entered: the pinpoint test (`is_pin` in
-  `tools/bib/claims.py`) takes no roman folio, so "xi–xii" fails [claims]; a ruling or a fix would let the front matter
-  of any book be cited (*Rights in Conflict*'s "xiii–xiv" is in the same case). The entry would go under Republican
-  Party.
-- (Nov. 3–4.) *Newsweek*'s informal poll of the reporters who covered the campaign, Kennedy 37, Nixon 13 (396): the
-  issue.
-- (Nov. 3–4.) Willard Edwards's letter to Nixon on the coverage (419–20), and Dewey's counsel against decisions for
-  sixty days (423 n.15): the dates.
-- (Nov. 3–4.) Press figures for Part III (R13), with the work that treats them (*Six Crises*, 359): David Lawrence, the
-  columnist; Sam Lubell; Ernest K. Lindley of *Newsweek*; Leon Pearson and Elmer Peterson of NBC. And Whittaker
-  Chambers, who has no name entry (cal.1961-02.elections-1962, cal.1961-07-09.conservative-movement).
-- (Nov. 3–4.) The newsweeklies' forecasts (cal.1960-10-25.elections-1960-6 to -8) and Lubell's election-eve forecast:
-  the issues and the medium.
+- *Six Crises*: the day of publication (March 1962) and the first printing's p. 354, set before the White House's statement of Mar. 20, 1962.
+- (Nov. 3–4.) *Six Crises*, xi–xii: April 1961, Adela Rogers St. Johns's call, Ken McCormick of Doubleday in California the next day, the six crises chosen, the book undertaken. Not entered: the pinpoint test (`is_pin` in `tools/bib/claims.py`) takes no roman folio, so "xi–xii" fails [claims]; a ruling or a fix would let the front matter of any book be cited (*Rights in Conflict*'s "xiii–xiv" is in the same case). The entry would go under Republican Party.
+- (Nov. 3–4.) *Newsweek*'s informal poll of the reporters who covered the campaign, Kennedy 37, Nixon 13 (396): the issue.
+- (Nov. 3–4.) Willard Edwards's letter to Nixon on the coverage (419–20), and Dewey's counsel against decisions for sixty days (423 n.15): the dates.
+- (Nov. 3–4.) Press figures for Part III (R13), with the work that treats them (*Six Crises*, 359): David Lawrence, the columnist; Sam Lubell; Ernest K. Lindley of *Newsweek*; Leon Pearson and Elmer Peterson of NBC. And Whittaker Chambers, who has no name entry (cal.1961-02.elections-1962, cal.1961-07-09.conservative-movement).
+- (Nov. 3–4.) The newsweeklies' forecasts (cal.1960-10-25.elections-1960-6 to -8) and Lubell's election-eve forecast: the issues and the medium.
 
 Foreign:
-- (Nov. 3–4.) Venezuela, December 1961: the newspaper Nixon calls "Clarion" (223 n.3), its name and the day of its
-  suspension; the days of the demonstrations and the deaths.
+- (Nov. 3–4.) Venezuela, December 1961: the newspaper Nixon calls "Clarion" (223 n.3), its name and the day of its suspension; the days of the demonstrations and the deaths.
 - (Nov. 3–4.) Peru, December 1961: where and how the two students' statement was made (231 n.4).
 
 The Executive roster:
-- (Nov. 3–4.) The Kennedy administration's retention of Thompson at Moscow (248): the roster holds his tenure; no date
-  given here.
+- (Nov. 3–4.) The Kennedy administration's retention of Thompson at Moscow (248): the roster holds his tenure; no date given here.
 

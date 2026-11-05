@@ -1,44 +1,23 @@
 # Andrew L. Johns, *Vietnam's Second Front* (2010): the calendar's citations held up
 
-Card `w.johns-vietnams-second-front`. Read Oct. 24, 2026, from the owner's copy (447 PDF pages, FineReader's text
-layer). Printed page = PDF page − 11 throughout; checked against the page image at p. 150. Patch:
-`inbox/2026-10-24-book-perlstein-johns.yaml` (book-perlstein-johns), with Perlstein's.
+Card `w.johns-vietnams-second-front`. Read Oct. 24, 2026, from the owner's copy (447 PDF pages, FineReader's text layer). Printed page = PDF page − 11 throughout; checked against the page image at p. 150. Patch: `inbox/2026-10-24-book-perlstein-johns.yaml` (book-perlstein-johns), with Perlstein's.
 
 ## The two citations it had
 
-- `cal.1967-09-04.elections-1968` (Romney's "brainwashing"). Holds: taped Aug. 31 with Lou Gordon on WKBD-TV,
-  aired Sept. 4, the words (163–64).
-- `cal.1967-09-26.vietnam` (Case's speech). Johns, 150, gives Case's words ("misuse" and "perversion" of the Tonkin
-  Gulf resolution, a "crisis of confidence") and Dirksen's answer ("a 'bunch of dummies'"), citing Robert David
-  Johnson, *Congress and the Cold War*, 138; but he places them "in the spring" of 1967, before the Policy
-  Committee's paper of May 1. The entry dates them by the Record, Sept. 26, and Gibbons. Ruling: cited for the words
-  and the answer, with "Check: Johns, 150, places Case's speech in the spring of 1967." Morton's words of late
-  September are not in Johns (his Morton, 139, is the "I was wrong" of August 1967).
+- `cal.1967-09-04.elections-1968` (Romney's "brainwashing"). Holds: taped Aug. 31 with Lou Gordon on WKBD-TV, aired Sept. 4, the words (163–64).
+- `cal.1967-09-26.vietnam` (Case's speech). Johns, 150, gives Case's words ("misuse" and "perversion" of the Tonkin Gulf resolution, a "crisis of confidence") and Dirksen's answer ("a 'bunch of dummies'"), citing Robert David Johnson, *Congress and the Cold War*, 138; but he places them "in the spring" of 1967, before the Policy Committee's paper of May 1. The entry dates them by the Record, Sept. 26, and Gibbons. Ruling: cited for the words and the answer, with "Check: Johns, 150, places Case's speech in the spring of 1967." Morton's words of late September are not in Johns (his Morton, 139, is the "I was wrong" of August 1967).
 
 ## Entries the book now serves (step 2)
 
-`cal.1964-07-24.elections-1964` (71: the joint statement; Goldwater's memoirs say Johnson agreed to keep Vietnam
-out of the campaign too, which Johns doubts; a Check added); `cal.1965-02-17.vietnam-3` (Eisenhower in the Cabinet
-Room, 86–88); `cal.1966-11-04.elections-1966` (Johnson and Nixon over Manila, 126); `cal.1967-04-07.elections-1968`
-(Romney at Hartford, 145–46).
+`cal.1964-07-24.elections-1964` (71: the joint statement; Goldwater's memoirs say Johnson agreed to keep Vietnam out of the campaign too, which Johns doubts; a Check added); `cal.1965-02-17.vietnam-3` (Eisenhower in the Cabinet Room, 86–88); `cal.1966-11-04.elections-1966` (Johnson and Nixon over Manila, 126); `cal.1967-04-07.elections-1968` (Romney at Hartford, 145–46).
 
 ## New entries
 
-The Republican leadership's dealings on the war, by Johns's pages, the primary record first where the daybook has
-it: `cal.1965-01-26.vietnam` (Nixon to the Sales Executive Club, 82); `cal.1966-01-25.vietnam` (the leaders on
-resuming the bombing: FRUS 1964–68, IV, doc. 43, Valenti's notes, read in `sources/frus-text/`; Johns, 105);
-`cal.1966-03-13.vietnam` (Nixon at the White House, by Nixon's *RN*, 272–73, as Johns, 220, dates it; Check);
-`cal.1966-08-09.vietnam` (the RNC's paper on the administration's word, 114); `cal.1966-08-23.elections-1966`
-(Nixon for an all-Asian peace conference, 114–15); `cal.1966-08-25.elections-1966` (the leadership's release, 121);
-`cal.1967-05-01.vietnam` (the Senate Republican Policy Committee's paper, 150); `cal.1967-05-02.vietnam` (Tower and
-Reagan against it, 150–51); `cal.1967-07-10.vietnam` (the GRID proposal, 157: Johns dates it July 10, his note a
-press release of July 17; Check).
+The Republican leadership's dealings on the war, by Johns's pages, the primary record first where the daybook has it: `cal.1965-01-26.vietnam` (Nixon to the Sales Executive Club, 82); `cal.1966-01-25.vietnam` (the leaders on resuming the bombing: FRUS 1964–68, IV, doc. 43, Valenti's notes, read in `sources/frus-text/`; Johns, 105); `cal.1966-03-13.vietnam` (Nixon at the White House, by Nixon's *RN*, 272–73, as Johns, 220, dates it; Check); `cal.1966-08-09.vietnam` (the RNC's paper on the administration's word, 114); `cal.1966-08-23.elections-1966` (Nixon for an all-Asian peace conference, 114–15); `cal.1966-08-25.elections-1966` (the leadership's release, 121); `cal.1967-05-01.vietnam` (the Senate Republican Policy Committee's paper, 150); `cal.1967-05-02.vietnam` (Tower and Reagan against it, 150–51); `cal.1967-07-10.vietnam` (the GRID proposal, 157: Johns dates it July 10, his note a press release of July 17; Check).
 
 ## Claim maps, records, new entries, Oct. 29, 2026 (stage 5 backfill)
 
-The same copy and offset (printed page = PDF page − 11); the endnotes (pp. 345–) numbered by chapter. Patch:
-`inbox/2026-10-29-backfill-frankum-victory-johns.yaml`. All 15 entries citing the book have their maps (`src`), the
-other works' rows kept.
+The same copy and offset (printed page = PDF page − 11); the endnotes (pp. 345–) numbered by chapter. Patch: `inbox/2026-10-29-backfill-frankum-victory-johns.yaml`. All 15 entries citing the book have their maps (`src`), the other works' rows kept.
 
 | Entry | Units the book bears | What the page does not give |
 |---|---|---|
@@ -54,42 +33,13 @@ other works' rows kept.
 | `cal.1967-07-10.vietnam` | A–C | Albert, Rivers |
 | `cal.1967-09-26.vietnam` | B–D (placed in the spring: the Check) | Morton |
 
-Records (`sources/cited-records/johns-vietnams-second-front.yaml`): 36 logged, each with its `via` rows, for the
-cited entries and the new ones: archival records (the Nixon, Romney, Tower, Dirksen, Rhodes, May, Adair, Hartmann,
-Cooper and Eisenhower papers; the Kennedy and Johnson Libraries) and the press (the *Times*, the *Post*, the *Wall
-Street Journal*, the *Baltimore Sun*). Found and read: Goodpaster's memorandum of Feb. 17, 1965 (FRUS 1964–68, II,
-doc. 133, the same text), Bowles's memorandum of Mar. 7, 1963 (FRUS 1961–63, III, doc. 52, from the President's Office
-Files). Found, not heard: the recordings of Johnson's calls with Eisenhower (Feb. 15, 1965; Oct. 3, 1966) and with
-Russell (May 27, 1964), on the Miller Center's pages. The rest not found; each joins its entry's "To check". Books the
-notes cite (Beschloss, Reeves, Rust, Bui Diem, Wainstock, Brands, Gardner) are works, not records; where the passage
-rests on one alone, the work joins the To check (Taking Charge, Rust, In the Jaws of History).
+Records (`sources/cited-records/johns-vietnams-second-front.yaml`): 36 logged, each with its `via` rows, for the cited entries and the new ones: archival records (the Nixon, Romney, Tower, Dirksen, Rhodes, May, Adair, Hartmann, Cooper and Eisenhower papers; the Kennedy and Johnson Libraries) and the press (the *Times*, the *Post*, the *Wall Street Journal*, the *Baltimore Sun*). Found and read: Goodpaster's memorandum of Feb. 17, 1965 (FRUS 1964–68, II, doc. 133, the same text), Bowles's memorandum of Mar. 7, 1963 (FRUS 1961–63, III, doc. 52, from the President's Office Files). Found, not heard: the recordings of Johnson's calls with Eisenhower (Feb. 15, 1965; Oct. 3, 1966) and with Russell (May 27, 1964), on the Miller Center's pages. The rest not found; each joins its entry's "To check". Books the notes cite (Beschloss, Reeves, Rust, Bui Diem, Wainstock, Brands, Gardner) are works, not records; where the passage rests on one alone, the work joins the To check (Taking Charge, Rust, In the Jaws of History).
 
-New entries, the informal record the book dates (24): `cal.1961-05-01.cuba` (Eisenhower to the Republican leaders,
-20), `cal.1961-10-31.vietnam` (Komer to Bundy, 25), `cal.1962-05-13.laos` (McCone, McNamara and Lemnitzer with
-Eisenhower: FRUS 1961–63, XXIV, doc. 363; 27, with a Check: Johns, from Rust, has Eisenhower accept neutralization,
-the memorandum partition), `cal.1963-03-07.vietnam` (Bowles to Kennedy: FRUS III, doc. 52; 30–31),
-`cal.1964-02-03.vietnam` (Johnson to John S. Knight: Miller Center; 48), `cal.1964-05-27.vietnam` (Johnson and
-Russell: Miller Center; 56–57), `cal.1965-02-17.vietnam-4` (Humphrey's memorandum: FRUS II, doc. 134; 86),
-`cal.1965-05-04.vietnam-2` and `cal.1965-06-16.vietnam-2` (Goodpaster's briefings of Eisenhower, 90),
-`cal.1966-01-20.vietnam` (Javits to Johnson, 139), `cal.1966-01-26.vietnam` and `cal.1966-01-26.vietnam-congress`
-(Cooper with Johnson; his speech that afternoon, 102), `cal.1966-03-02.vietnam-2` (the Republican Policy
-Committee's statement, 108; Check which committee: the source is in Rhodes's papers), `cal.1966-10-03.vietnam`
-(Johnson and Eisenhower: Miller Center; 116), `cal.1966-10-07.elections-1966` and `cal.1966-10-21.elections-1966`
-(Eisenhower to Nixon, 116), `cal.1967-05-03.vietnam` (Tower to Hickenlooper, 150), `cal.1967-09-08.vietnam-congress`
-and `cal.1967-09-29.vietnam-congress` (Hatfield and Ford, 172), `cal.1968-04.elections-1968` (Rockefeller at lunch
-with Republican Senators, 205), `cal.1968-05-07.vietnam` (Goodpaster's last briefing of Eisenhower, 205),
-`cal.1968-06.elections-1968-chennault` (Chennault, Tower and Bùi Diễm at dinner, by Bùi Diễm's account, 222),
-`cal.1968-12-20.vietnam-paris` (Kissinger to Nixon on a back channel to Hanoi, 244). Three of them share a day and a
-thread with an entry already there and will be flagged as possible duplicates at the merge; each is a separate event
-(`cal.1965-02-17.vietnam-4`, `cal.1965-05-04.vietnam-2`, `cal.1966-03-02.vietnam-2`: resolve with `--take keep`).
+New entries, the informal record the book dates (24): `cal.1961-05-01.cuba` (Eisenhower to the Republican leaders, 20), `cal.1961-10-31.vietnam` (Komer to Bundy, 25), `cal.1962-05-13.laos` (McCone, McNamara and Lemnitzer with Eisenhower: FRUS 1961–63, XXIV, doc. 363; 27, with a Check: Johns, from Rust, has Eisenhower accept neutralization, the memorandum partition), `cal.1963-03-07.vietnam` (Bowles to Kennedy: FRUS III, doc. 52; 30–31), `cal.1964-02-03.vietnam` (Johnson to John S. Knight: Miller Center; 48), `cal.1964-05-27.vietnam` (Johnson and Russell: Miller Center; 56–57), `cal.1965-02-17.vietnam-4` (Humphrey's memorandum: FRUS II, doc. 134; 86), `cal.1965-05-04.vietnam-2` and `cal.1965-06-16.vietnam-2` (Goodpaster's briefings of Eisenhower, 90), `cal.1966-01-20.vietnam` (Javits to Johnson, 139), `cal.1966-01-26.vietnam` and `cal.1966-01-26.vietnam-congress` (Cooper with Johnson; his speech that afternoon, 102), `cal.1966-03-02.vietnam-2` (the Republican Policy Committee's statement, 108; Check which committee: the source is in Rhodes's papers), `cal.1966-10-03.vietnam` (Johnson and Eisenhower: Miller Center; 116), `cal.1966-10-07.elections-1966` and `cal.1966-10-21.elections-1966` (Eisenhower to Nixon, 116), `cal.1967-05-03.vietnam` (Tower to Hickenlooper, 150), `cal.1967-09-08.vietnam-congress` and `cal.1967-09-29.vietnam-congress` (Hatfield and Ford, 172), `cal.1968-04.elections-1968` (Rockefeller at lunch with Republican Senators, 205), `cal.1968-05-07.vietnam` (Goodpaster's last briefing of Eisenhower, 205), `cal.1968-06.elections-1968-chennault` (Chennault, Tower and Bùi Diễm at dinner, by Bùi Diễm's account, 222), `cal.1968-12-20.vietnam-paris` (Kissinger to Nixon on a back channel to Hanoi, 244). Three of them share a day and a thread with an entry already there and will be flagged as possible duplicates at the merge; each is a separate event (`cal.1965-02-17.vietnam-4`, `cal.1965-05-04.vietnam-2`, `cal.1966-03-02.vietnam-2`: resolve with `--take keep`).
 
 ## Passed over
 
-Made by a script over the text layer listing every dated mention of 1960–Jan. 20, 1969 (121), each judged against
-the calendar. Passed over as a class, without rows: the dates of cartoons heading the chapters' sections (pp. 110,
-165), of the sources (articles, columns, editorials quoted for opinion), and the general "in 1964" kind. The book is
-a political history of the Republicans and the war; what it dates and the calendar lacks is mostly a member's or a
-columnist's public word.
+Made by a script over the text layer listing every dated mention of 1960–Jan. 20, 1969 (121), each judged against the calendar. Passed over as a class, without rows: the dates of cartoons heading the chapters' sections (pp. 110, 165), of the sources (articles, columns, editorials quoted for opinion), and the general "in 1964" kind. The book is a political history of the Republicans and the war; what it dates and the calendar lacks is mostly a member's or a columnist's public word.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -146,14 +96,10 @@ The owner's rule of Oct. 29, "The parties and the members," puts the opposition'
 
 ## Leads
 
-- National: Eisenhower and Kennedy at Camp David, Apr. 22, 1961, on Laos (Eisenhower's notes, Augusta–Walter Reed
-  Series, box 2; Johns, 19–20): the calendar's entry has Cuba only.
-- National: Kennedy to Mansfield, December 1962 or spring 1963, by O'Donnell's account (Reeves, 444; O'Donnell and
-  Powers): the date.
+- National: Eisenhower and Kennedy at Camp David, Apr. 22, 1961, on Laos (Eisenhower's notes, Augusta–Walter Reed Series, box 2; Johns, 19–20): the calendar's entry has Cuba only.
+- National: Kennedy to Mansfield, December 1962 or spring 1963, by O'Donnell's account (Reeves, 444; O'Donnell and Powers): the date.
 - National: Kennedy's remark to a friend, Apr. 24, 1963 (Reeves, 484): whose account.
-- National: Nixon's Asian trip, March–April 1964; Goldwater at Pikesville, September 1964; Nixon at Boston, Feb. 15,
-  1968; Eisenhower at Boston, October 1962.
-- National: Scott's and Javits's resolutions, March 1965; Mansfield's speech of June 30, 1965; the fourteen
-  Representatives to Vietnam, July 1966; Javits's change of position, Feb. 12, 1967; Findley's resolution, May 19, 1967.
+- National: Nixon's Asian trip, March–April 1964; Goldwater at Pikesville, September 1964; Nixon at Boston, Feb. 15, 1968; Eisenhower at Boston, October 1962.
+- National: Scott's and Javits's resolutions, March 1965; Mansfield's speech of June 30, 1965; the fourteen Representatives to Vietnam, July 1966; Javits's change of position, Feb. 12, 1967; Findley's resolution, May 19, 1967.
 - National: the speech of Cooper, Jan. 26, 1966, in the Record (112 Cong. Rec., Senate): its page.
 - National: Nixon's transition, December 1968–January 1969: the meeting and the task force (Johns, 241, 247).

@@ -1,36 +1,14 @@
 # Robert S. McNamara with Brian VanDeMark, *In Retrospect: The Tragedy and Lessons of Vietnam* (1995): a reading against the calendar
 
-Card `w.mcnamara-in-retrospect` (alias `w.mcnamara-with-brian-vandemark-in`). Read Nov. 3–4, 2026 (batch 3 resumed, the
-defense agent; patch `inbox/2026-11-03-b3-mcnamara-2.yaml`, b3-mcnamara-2: 411 ops, 117 new entries claimed in the
-ledger, 152 cites, 17 Checks, 125 claim-map additions; witnesses `inbox/witnesses/2026-11-03-b3-mcnamara-2.yaml`, 89
-rows and one amendment; edges `sources/witnesses/by-work/mcnamara-in-retrospect.yaml`, 190).
+Card `w.mcnamara-in-retrospect` (alias `w.mcnamara-with-brian-vandemark-in`). Read Nov. 3–4, 2026 (batch 3 resumed, the defense agent; patch `inbox/2026-11-03-b3-mcnamara-2.yaml`, b3-mcnamara-2: 411 ops, 117 new entries claimed in the ledger, 152 cites, 17 Checks, 125 claim-map additions; witnesses `inbox/witnesses/2026-11-03-b3-mcnamara-2.yaml`, 89 rows and one amendment; edges `sources/witnesses/by-work/mcnamara-in-retrospect.yaml`, 190).
 
-**The copy.** The owner's PDF (Drive `1mQHFVkb1YAiCY7YBh9p4iPCOhiyKUiio`) is the Vintage edition of March 1996, converted
-from an ebook (Zamzar): 571 letter pages, reflowed, a text layer, **no printed folios, no index**; the notes are numbered
-by chapter. No printed page can be given. Every pinpoint is therefore the chapter and the note numbers the passage stands
-at ("ch. 3 at n.48", "ch. 7 at nn.29–30"; "ch. 1" where the chapter has no notes after n.1, McNamara's recollection; the
-appendix "appendix at n.2"), the notes themselves "ch. 2 n.17"; the by-work edges are at "ch.2 n.17". Checked against the
-page images (PDF 100, and the passages quoted) as well as the text. A paginated copy (Times Books 1995 or Vintage 1996)
-would let these be turned into pages: a lead. The earlier hardcover pinpoints other readers left in the calendar (176–77,
-186–87, 215, 283, 311–14) could not be checked against pages; each passage was found and held up by its content.
+**The copy.** The owner's PDF (Drive `1mQHFVkb1YAiCY7YBh9p4iPCOhiyKUiio`) is the Vintage edition of March 1996, converted from an ebook (Zamzar): 571 letter pages, reflowed, a text layer, **no printed folios, no index**; the notes are numbered by chapter. No printed page can be given. Every pinpoint is therefore the chapter and the note numbers the passage stands at ("ch. 3 at n.48", "ch. 7 at nn.29–30"; "ch. 1" where the chapter has no notes after n.1, McNamara's recollection; the appendix "appendix at n.2"), the notes themselves "ch. 2 n.17"; the by-work edges are at "ch.2 n.17". Checked against the page images (PDF 100, and the passages quoted) as well as the text. A paginated copy (Times Books 1995 or Vintage 1996) would let these be turned into pages: a lead. The earlier hardcover pinpoints other readers left in the calendar (176–77, 186–87, 215, 283, 311–14) could not be checked against pages; each passage was found and held up by its content.
 
-**What the book is.** McNamara's account, with VanDeMark, of Vietnam from Jan. 1961 to Feb. 29, 1968, chapter by
-chapter by date; the appendix on the nuclear risks, with what the Moscow (1989) and Havana (1992) conferences and the
-Russian press of 1992 added on the missile crisis. Its notes cite FRUS by page, the Pentagon Papers (Gravel ed.), the
-*Public Statements of Robert S. McNamara* (PSRSM), the LBJ and Kennedy Libraries' files, the recordings (McNamara's own
-notes of the Kennedy tapes, ch. 3 n.8; the LBJ tapes by tape and program number), McNamara's papers (RSMP). FRUS's
-documents were found by date and heading in the daybook and read where the entry rests on them (the quotations checked
-against `sources/frus-text/`; four differences noted below); the PSRSM, the LBJ and RSMP papers are not held and stand
-behind "To check:".
+**What the book is.** McNamara's account, with VanDeMark, of Vietnam from Jan. 1961 to Feb. 29, 1968, chapter by chapter by date; the appendix on the nuclear risks, with what the Moscow (1989) and Havana (1992) conferences and the Russian press of 1992 added on the missile crisis. Its notes cite FRUS by page, the Pentagon Papers (Gravel ed.), the *Public Statements of Robert S. McNamara* (PSRSM), the LBJ and Kennedy Libraries' files, the recordings (McNamara's own notes of the Kennedy tapes, ch. 3 n.8; the LBJ tapes by tape and program number), McNamara's papers (RSMP). FRUS's documents were found by date and heading in the daybook and read where the entry rests on them (the quotations checked against `sources/frus-text/`; four differences noted below); the PSRSM, the LBJ and RSMP papers are not held and stand behind "To check:".
 
 ## How the reading was done
 
-Every paragraph of chs. 1–10 and the appendix with a date was extracted from the text layer (431 paragraphs, 1–12) and
-read; the undated paragraphs around each dated event read where the event needed them; ch. 11 (lessons) and the Vintage
-appendix (reviews, 1995) read for dated events in the span (none but the appendix's). Each event was looked for in the
-tree and the ledger (`./bib ledger find`) on its day: present, it takes the cite with its units and a parenthetical for
-what the book adds (R25); absent, a new entry, claimed first. Witnesses: each note cited for an entry, registered or found
-in the registry (by FRUS copy or date), edged, and tied to the entry's units by `via` rows.
+Every paragraph of chs. 1–10 and the appendix with a date was extracted from the text layer (431 paragraphs, 1–12) and read; the undated paragraphs around each dated event read where the event needed them; ch. 11 (lessons) and the Vintage appendix (reviews, 1995) read for dated events in the span (none but the appendix's). Each event was looked for in the tree and the ledger (`./bib ledger find`) on its day: present, it takes the cite with its units and a parenthetical for what the book adds (R25); absent, a new entry, claimed first. Witnesses: each note cited for an entry, registered or found in the registry (by FRUS copy or date), edged, and tied to the entry's units by `via` rows.
 
 ## The citations it had (22 entries)
 
@@ -47,28 +25,21 @@ All held; each moved out of "To check:" or given its chapter pinpoint. Rulings o
 
 ## Where the book differs (each a Check in the entry)
 
-- `cal.1960-12-08.transition-and-staff-cabinet`: McNamara has Shriver's offer (Treasury, then Defense) at Dearborn on
-  Dec. 8 and the first meeting with Kennedy at N Street on Dec. 9.
+- `cal.1960-12-08.transition-and-staff-cabinet`: McNamara has Shriver's offer (Treasury, then Defense) at Dearborn on Dec. 8 and the first meeting with Kennedy at N Street on Dec. 9.
 - `cal.1960-12-13.transition-and-staff-cabinet`: "Let's announce it," not "It's a deal."
 - `cal.1961-04-04.cuba`: McNamara has Rusk say yes, "though not enthusiastic."
 - `cal.1961-05-11.vietnam`: the task force set up in March, its report May 8.
 - `cal.1963-11-23.robert-kennedy-2`: McNamara chooses the site himself and walks it with Mrs. Kennedy.
 - `cal.1964-03-09.vietnam` (new): the note dates the Hickam remarks Mar. 9, the text puts them before the visit.
-- `cal.1964-05-24.goldwater`: McNamara, from White (*Making 1964*, 132–33), puts Goldwater's low-yield atomic weapon
-  "in early March" and at Dien Bien Phu.
+- `cal.1964-05-24.goldwater`: McNamara, from White (*Making 1964*, 132–33), puts Goldwater's low-yield atomic weapon "in early March" and at Dien Bien Phu.
 - `cal.1964-08-03.vietnam-congress`: McNamara names Rusk and himself, and the 34A operations told.
 - `cal.1964-10-05.vietnam`: sixty-two pages, not sixty-seven.
 - `cal.1964-11-03.vietnam`: the working group set up Nov. 2.
 - `cal.1965-09-01.vietnam`: 35,000 more, 175,000 to 210,000.
 - `cal.1965-11-23.vietnam-force-levels`: McNamara reads 41485 as 200,000 more in 1966, 410,000 in all.
-- `cal.1962-10-27.soviet-union`: McNamara (from the Russian press of 1992) has Pliyev report warheads moved and
-  Khrushchev write "Approved."
-- FRUS against McNamara's quotation: Taylor to Diệm, Oct. 1, 1963, "sporadic incidents" (McNamara "sporadic elements");
-  Harriman's "very much disappointed" is "Roger and he"; the meeting of Aug. 29, 1963, FRUS IV doc. 15 does not have
-  McNamara's "no good alternative," which comes from his notes of the recording (n.13); Johnson's call of Dec. 2, 1965 is
-  catalogued at 12:15 p.m., McNamara "the afternoon."
-- Not entered: McNamara says Kennedy "went on national television" to take responsibility for the Bay of Pigs (the news
-  conference of Apr. 21); the aluminum call to Concord is "one fall," no year.
+- `cal.1962-10-27.soviet-union`: McNamara (from the Russian press of 1992) has Pliyev report warheads moved and Khrushchev write "Approved."
+- FRUS against McNamara's quotation: Taylor to Diệm, Oct. 1, 1963, "sporadic incidents" (McNamara "sporadic elements"); Harriman's "very much disappointed" is "Roger and he"; the meeting of Aug. 29, 1963, FRUS IV doc. 15 does not have McNamara's "no good alternative," which comes from his notes of the recording (n.13); Johnson's call of Dec. 2, 1965 is catalogued at 12:15 p.m., McNamara "the afternoon."
+- Not entered: McNamara says Kennedy "went on national television" to take responsibility for the Bay of Pigs (the news conference of Apr. 21); the aluminum call to Concord is "one fall," no year.
 
 ## New entries (117)
 
@@ -190,30 +161,15 @@ All held; each moved out of "To check:" or given its chapter pinpoint. Rulings o
 - `cal.1967-11-27.defense-clifford`: Financial Times: rumor of McNamara to the World Bank
 - `cal.1968-02-23.defense-clifford`: McNamara's farewell letter to Johnson
 
-The dry run flags many of these "one event?" against an entry of the same day and thread: each is a distinct meeting,
-paper, call or statement (R17), to be kept (`./bib resolve ID --take keep`).
+The dry run flags many of these "one event?" against an entry of the same day and thread: each is a distinct meeting, paper, call or statement (R17), to be kept (`./bib resolve ID --take keep`).
 
 ## Witnesses (R35–R43)
 
-89 new rows, among them: FRUS documents not yet registered (FRUS 1961–63, I, doc. 289; III, docs. 73, 107; IV, docs. 6,
-37, 83, 113, 124, 126, 150, 158, 160, 163, 167, 169, 179, 216, 235, 262, 291 and others; 1964–68, I, docs. 57, 66, 153,
-154, 159, 161, 174, 191, 199, 209, 262, 313, 316, 339, 341, 382, 388, 401), each `copies` its FRUS document; McNamara's
-public statements as PSRSM prints them (not held); the LBJ Library's recordings and meeting notes McNamara cites by tape and
-program number (not held; two have Miller Center pages, linked in "To check:"); the Pentagon Papers' prints (JCSM-33-62,
-JCSM-46-64, JCSM-204-65, CINCPAC 192207Z); RSMP papers (Breech to Middleton, Apr. 5, 1964; notes of the meeting with
-Wheeler, Nov. 1, 1964; Wheeler's note of Apr. 23, 1966; the draft memoranda); the CIA's papers of May 23 and Sept. 11–12,
-1967; the Russian press of 1992 for Oct. 26, 1962. One amendment: JCSM-629-63 read and given its FRUS copy (III, doc.
-260). Existing rows found and edged rather than repeated (Clifford's and McNamara's memoranda of Jan. 24, 1961; the Taylor
-report; Lemnitzer's notes; Kennedy's tapes of Aug. 26–29 and Oct. 2, 1963; the 547th NSC; Bundy's of Jan. 27 and Feb. 7,
-1965; Westmoreland's 41485; and some forty more). Card edges: Rusk 428, 417; Greenstein and Immerman 583; Taylor 292;
-Halberstam 315; Schlesinger 997–98; Marolda 396, 411, 415; Gibbons III, 10; Stockdale 21, 23; White 1964, 132–33; Ball
-393; Johnson 234; Westmoreland 154, 299. Ball's memorandum of Oct. 5, 1964, as the *Atlantic* printed it (July 1972) is a
-row with a print edge to the memorandum.
+89 new rows, among them: FRUS documents not yet registered (FRUS 1961–63, I, doc. 289; III, docs. 73, 107; IV, docs. 6, 37, 83, 113, 124, 126, 150, 158, 160, 163, 167, 169, 179, 216, 235, 262, 291 and others; 1964–68, I, docs. 57, 66, 153, 154, 159, 161, 174, 191, 199, 209, 262, 313, 316, 339, 341, 382, 388, 401), each `copies` its FRUS document; McNamara's public statements as PSRSM prints them (not held); the LBJ Library's recordings and meeting notes McNamara cites by tape and program number (not held; two have Miller Center pages, linked in "To check:"); the Pentagon Papers' prints (JCSM-33-62, JCSM-46-64, JCSM-204-65, CINCPAC 192207Z); RSMP papers (Breech to Middleton, Apr. 5, 1964; notes of the meeting with Wheeler, Nov. 1, 1964; Wheeler's note of Apr. 23, 1966; the draft memoranda); the CIA's papers of May 23 and Sept. 11–12, 1967; the Russian press of 1992 for Oct. 26, 1962. One amendment: JCSM-629-63 read and given its FRUS copy (III, doc. 260). Existing rows found and edged rather than repeated (Clifford's and McNamara's memoranda of Jan. 24, 1961; the Taylor report; Lemnitzer's notes; Kennedy's tapes of Aug. 26–29 and Oct. 2, 1963; the 547th NSC; Bundy's of Jan. 27 and Feb. 7, 1965; Westmoreland's 41485; and some forty more). Card edges: Rusk 428, 417; Greenstein and Immerman 583; Taylor 292; Halberstam 315; Schlesinger 997–98; Marolda 396, 411, 415; Gibbons III, 10; Stockdale 21, 23; White 1964, 132–33; Ball 393; Johnson 234; Westmoreland 154, 299. Ball's memorandum of Oct. 5, 1964, as the *Atlantic* printed it (July 1972) is a row with a print edge to the memorandum.
 
 ## Passed over
 
-How the list was made: every dated paragraph of chs. 1–10 and the appendix was read in order; each event not entered and
-not already in the calendar is a row here. Events already in the calendar took a cite and are not rows.
+How the list was made: every dated paragraph of chs. 1–10 and the appendix was read in order; each event not entered and not already in the calendar is a row here. Events already in the calendar took a cite and are not rows.
 
 | chapter | date | event | why |
 |---|---|---|---|
@@ -262,9 +218,7 @@ not already in the calendar is a row here. Events already in the calendar took a
 
 ## The press
 
-No day's coverage (front pages, broadcasts) is given in the book beyond the items entered: the *Evening Star* and the
-*Times* of Feb. 6–7, 1961; Cronkite, Sept. 2, 1963; Huntley and Brinkley, Sept. 9, 1963; *CBS Reports*, Sept. 25, 1963;
-NBC's Hackes, Mar. 29, 1964; McGrory, Dec. 3, 1965; Sheehan, Oct. 9, 1966; the *Financial Times*, Nov. 27, 1967.
+No day's coverage (front pages, broadcasts) is given in the book beyond the items entered: the *Evening Star* and the *Times* of Feb. 6–7, 1961; Cronkite, Sept. 2, 1963; Huntley and Brinkley, Sept. 9, 1963; *CBS Reports*, Sept. 25, 1963; NBC's Hackes, Mar. 29, 1964; McGrory, Dec. 3, 1965; Sheehan, Oct. 9, 1966; the *Financial Times*, Nov. 27, 1967.
 
 | date | outlet | item | page |
 |---|---|---|---|
@@ -273,11 +227,8 @@ NBC's Hackes, Mar. 29, 1964; McGrory, Dec. 3, 1965; Sheehan, Oct. 9, 1966; the *
 
 ## Leads
 
-- National: a paginated copy of *In Retrospect* (Times Books 1995 or Vintage 1996), to turn the chapter-and-note
-  pinpoints into pages, and to hold up the hardcover pages other readers cite (176–77, 186–87, 215, 283, 311–14).
-- National: *Public Statements of Robert S. McNamara*, 1961–68 (OSD), cited by volume and page throughout; where a copy
-  can be read (DTIC? the Pentagon Library), for the press conferences of Feb. 5, 1962, Apr. 24, 1964, June 16, 1965, and
-  the remarks of July 23 and Oct. 9, 1962, Dec. 21, 1963, Mar. 9, 1964, Nov. 29, 1965.
+- National: a paginated copy of *In Retrospect* (Times Books 1995 or Vintage 1996), to turn the chapter-and-note pinpoints into pages, and to hold up the hardcover pages other readers cite (176–77, 186–87, 215, 283, 311–14).
+- National: *Public Statements of Robert S. McNamara*, 1961–68 (OSD), cited by volume and page throughout; where a copy can be read (DTIC? the Pentagon Library), for the press conferences of Feb. 5, 1962, Apr. 24, 1964, June 16, 1965, and the remarks of July 23 and Oct. 9, 1962, Dec. 21, 1963, Mar. 9, 1964, Nov. 29, 1965.
 - National: Goldwater's charges of Mar. 20, Aug. 11 and Oct. 6, 1964: where he made them (McNamara, ch. 6).
 - National: McNamara's speech of Sept. 18, 1964 ("100 million Americans during the first hour"): where.
 - Foreign: Lodge's report of Khánh's talk of May 4, 1964 (not in the daybook under the day).

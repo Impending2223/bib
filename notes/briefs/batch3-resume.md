@@ -1,34 +1,16 @@
 # Batch 3, resumed (Nov. 3, 2026)
 
-The twenty readers of batch 3 stopped on Oct. 28, 11:50 p.m., on the spend limit, each in mid-task. Their patches of
-Oct. 29 (`inbox/2026-10-29-b3-*.yaml`) are merged (or left with a reason: `git log`, and the merger's note in this
-file's last section). Each reader is relaunched fresh: no memory of the first run but its files.
+The twenty readers of batch 3 stopped on Oct. 28, 11:50 p.m., on the spend limit, each in mid-task. Their patches of Oct. 29 (`inbox/2026-10-29-b3-*.yaml`) are merged (or left with a reason: `git log`, and the merger's note in this file's last section). Each reader is relaunched fresh: no memory of the first run but its files.
 
 ## For every reader
 
-1. Read `CLAUDE.md`, then `notes/briefs/reader.md` in full: the rules in force, R1-R56, among them R13 (the press),
-   R14 (military matters), R17 (spans and one event, one entry), R18 (what is not an entry), R35-R43 (the witnesses:
-   in force from Nov. 3), R49 and R51 (the ledger and the additive ops). Never read `build/` or a whole list file.
-2. Your earlier work: your book-check files in `notes/book-checks/` (the card's surname and title words), your merged
-   patch (`git log --oneline -- inbox/merged/` and `grep -l <card> inbox/merged/*`), the ledger's lines with your patch
-   names (`grep b3-<name> inbox/new-entries.tsv`). Read where your book-check file says you stopped, and the pages it
-   lists as not yet read.
-3. Your books: the owner's PDFs in Google Drive, by the ids below (load the Drive tools with ToolSearch; download into a
-   new empty directory under the session's scratchpad `books/<your group>/`; never change a file's sharing). Read each
-   page you cite off the page image as well as the text (R4, R54). Delete your copies when you finish.
-4. Carry on: the pages not yet read, then every passage of the book within the span (1960 to Jan. 20, 1969), as R5
-   and R18 rule; and, for the entries your earlier patch made or cited, the witnesses of R35 (the first run logged
-   records under the rule of Oct. 28; the conversion made them witnesses, but the studies, memoirs and collections the
-   notes cite were left out: register them).
-5. Write one new patch, `inbox/2026-11-03-b3-<name>-2.yaml` (a second, `-3`, if the first grows past some 400 ops):
-   new entries claimed first in the ledger (`./bib ledger find`, `./bib ledger add`); additive ops wherever you only
-   add (R51); `edit` with a fresh base only where you change `c` or rewrite `n`. New witnesses to
-   `inbox/witnesses/2026-11-03-b3-<name>-2.yaml`, never the year files; your work's edges to its file in
-   `sources/witnesses/by-work/`. `./bib patch-check` your patch until it has no errors.
-6. Update your book-check file (what you read, what you entered, Passed over row by row (R44, R48), "## The press"
-   (R13), "## Leads" (R50)). Do not merge, fold or commit: the merger does.
-7. Working hours: the owner's rule (CLAUDE.md, "Working hours"). If told to pause, stop at a clean point, leave your
-   files consistent, and say where you stopped in your book-check file.
+1. Read `CLAUDE.md`, then `notes/briefs/reader.md` in full: the rules in force, R1-R56, among them R13 (the press), R14 (military matters), R17 (spans and one event, one entry), R18 (what is not an entry), R35-R43 (the witnesses: in force from Nov. 3), R49 and R51 (the ledger and the additive ops). Never read `build/` or a whole list file.
+2. Your earlier work: your book-check files in `notes/book-checks/` (the card's surname and title words), your merged patch (`git log --oneline -- inbox/merged/` and `grep -l <card> inbox/merged/*`), the ledger's lines with your patch names (`grep b3-<name> inbox/new-entries.tsv`). Read where your book-check file says you stopped, and the pages it lists as not yet read.
+3. Your books: the owner's PDFs in Google Drive, by the ids below (load the Drive tools with ToolSearch; download into a new empty directory under the session's scratchpad `books/<your group>/`; never change a file's sharing). Read each page you cite off the page image as well as the text (R4, R54). Delete your copies when you finish.
+4. Carry on: the pages not yet read, then every passage of the book within the span (1960 to Jan. 20, 1969), as R5 and R18 rule; and, for the entries your earlier patch made or cited, the witnesses of R35 (the first run logged records under the rule of Oct. 28; the conversion made them witnesses, but the studies, memoirs and collections the notes cite were left out: register them).
+5. Write one new patch, `inbox/2026-11-03-b3-<name>-2.yaml` (a second, `-3`, if the first grows past some 400 ops): new entries claimed first in the ledger (`./bib ledger find`, `./bib ledger add`); additive ops wherever you only add (R51); `edit` with a fresh base only where you change `c` or rewrite `n`. New witnesses to `inbox/witnesses/2026-11-03-b3-<name>-2.yaml`, never the year files; your work's edges to its file in `sources/witnesses/by-work/`. `./bib patch-check` your patch until it has no errors.
+6. Update your book-check file (what you read, what you entered, Passed over row by row (R44, R48), "## The press" (R13), "## Leads" (R50)). Do not merge, fold or commit: the merger does.
+7. Working hours: the owner's rule (CLAUDE.md, "Working hours"). If told to pause, stop at a clean point, leave your files consistent, and say where you stopped in your book-check file.
 
 ## The groups
 
@@ -59,303 +41,100 @@ file's last section). Each reader is relaunched fresh: no memory of the first ru
 
 (Written after the merge of Oct. 29's patches.)
 
-Merged Nov. 3-4, 2026, all 32 patches of Oct. 29 (`inbox/merged/2026-10-29-b3-*.yaml`), each by `./bib merge --auto
---legacy`, and fifteen small follow-up patches of the merger's own (`inbox/merged/2026-11-0[34]-b3-followups-*.yaml`,
-`2026-11-03-cq-1968-08-02-reagan.yaml`). What was done, for the next merger:
+Merged Nov. 3-4, 2026, all 32 patches of Oct. 29 (`inbox/merged/2026-10-29-b3-*.yaml`), each by `./bib merge --auto --legacy`, and fifteen small follow-up patches of the merger's own (`inbox/merged/2026-11-0[34]-b3-followups-*.yaml`, `2026-11-03-cq-1968-08-02-reagan.yaml`). What was done, for the next merger:
 
-- Ids taken since Oct. 29 (by the CQ readers, the other batch-3 patches, or claimed in the ledger by the readers now
-  at work): the patch's adds renumbered to the next free `-N`, every reference in the patch and its -more rewritten
-  (chester 35, white-1960 17, preston 20, westmoreland 6, solberg 8, clifford 5, chester-more, humphrey 3,
-  kabaservice 1). The held tables in the book-checks name the old ids: they were mapped through the renumberings.
-- Edits whose base the tree and git no longer know: rewritten as additive ops (cite with the patch's units, to-check,
-  check, src's via rows, names), the rest of the stale note left as the tree has it. An edit on a current base that
-  drops a Check or a cite (the reader's ruling: not borne out, or a Check settled) was held out of the patch and
-  applied by hand on its base after the merge (six-crises 3, white-1960 5, sundquist 1, walls 2, westmoreland 1,
-  suite-3505 1, humphrey 1, navasky 1); where the entry had changed since, rebuilt on the newer note.
-- A note listing several FRUS documents after one label ("FRUS 1961-63, XI, docs. [63](...), [64](...)") made the
-  map's rows for the later documents name nothing: split, a document an item (ball, rusk, westmoreland).
-- The "one event?" flags: about a thousand, read pair by pair. Kept apart: distinct events of one day and thread. Combined
-  (the older or the tree's id kept, the other its alias, the c and n joined by hand, the map rebuilt): the Chicago
-  march of Apr. 27, 1968; Humphrey at the Press Club, June 20, 1968; McCarthy at Davis, May 28, 1968; Humphrey's China
-  statement, July 12, 1968; the Hilton raid, Aug. 30, 1968; Unruh's motion, Aug. 26, 1968; the platform hearings'
-  opening (Aug. 19, CQ's Aug. 20 a Check); Pigasus, Aug. 23, 1968; Clifford's arrival in Saigon, July 14, 1968; Burke's
-  debrief of the NSC, May 5, 1961; the Tyson meeting, Apr. 12, 1962; the Senate's rules ruling, Jan. 28, 1963; *Meet
-  the Press*, July 10, 1960; Nam Dong, July 6, 1964. Left apart, for a reader: the Cabinet of Apr. 20, 1961, in two
-  entries (`cal.1961-04-20.vietnam`, the Gilpatric task force; `cal.1961-04-20.cuba-2`, Bowles's notes): one meeting.
-- Field conflicts: notes joined by the merge (notemerge); maps joined, their letters checked against the entry's units
-  and shifted where a reader had inserted a unit before others (cal.1960-11-14.transition-and-staff,
-  1963-06.republican-party, 1965-02-10.vietnam, 1964-05-24.vietnam); four c conflicts on press conferences where two
-  readers each appended (both kept).
-- The book-checks' "For entries in pending patches" tables applied as cites once their entries landed (Chester,
-  Solberg, Bissell, Clifford, Kabaservice, Mann, MACV, Westmoreland, White, Sorensen, Rusk, Sundquist); Chester's
-  Sept. 29, 1968 entry (`cal.1968-09-29.elections-1968-3`, Solberg's row) was never written: Solberg's pinpoint
-  (382-83) not applied.
-- b3-preston: its reader registered none of the records its 543 `via` rows name (no cited-records file, no witnesses):
-  the rows dropped; the records stand in the notes' "To check:". A reader should register them (R35-R43) and map them.
-- Leads copied into `notes/leads.md` under their headings, a section a book (sundquist, solberg, humphrey were in
-  already); no book-check had "## The press".
-- Small mends on the way: Lundahl, Sevareid out of Names (no entries); Ginsburg (not Ginsberg) in two Humphrey
-  entries; diacritics; seasons written month first ("Mar., spring"); a thread that does not exist taken out of `also`;
-  `name:nolting-frederick-e-jr`, `name:smith-bromley-k`, `w.galbraith-ambassadors-journal`.
-- The Oct. 31 CQ reader's held cite on Reagan before the Platform Committee (Aug. 2 issue) applied when Chester's
-  entry landed; its lead taken out of `notes/leads.md`.
-- In the first commits the readers' new `inbox/new-entries.tsv` lines and `inbox/2026-11-03-witness-test.yaml` were
-  swept in by `git add -u inbox/` (f65afd5, 481e1df, 4624b62): the files as the readers left them, nothing changed.
+- Ids taken since Oct. 29 (by the CQ readers, the other batch-3 patches, or claimed in the ledger by the readers now at work): the patch's adds renumbered to the next free `-N`, every reference in the patch and its -more rewritten (chester 35, white-1960 17, preston 20, westmoreland 6, solberg 8, clifford 5, chester-more, humphrey 3, kabaservice 1). The held tables in the book-checks name the old ids: they were mapped through the renumberings.
+- Edits whose base the tree and git no longer know: rewritten as additive ops (cite with the patch's units, to-check, check, src's via rows, names), the rest of the stale note left as the tree has it. An edit on a current base that drops a Check or a cite (the reader's ruling: not borne out, or a Check settled) was held out of the patch and applied by hand on its base after the merge (six-crises 3, white-1960 5, sundquist 1, walls 2, westmoreland 1, suite-3505 1, humphrey 1, navasky 1); where the entry had changed since, rebuilt on the newer note.
+- A note listing several FRUS documents after one label ("FRUS 1961-63, XI, docs. [63](...), [64](...)") made the map's rows for the later documents name nothing: split, a document an item (ball, rusk, westmoreland).
+- The "one event?" flags: about a thousand, read pair by pair. Kept apart: distinct events of one day and thread. Combined (the older or the tree's id kept, the other its alias, the c and n joined by hand, the map rebuilt): the Chicago march of Apr. 27, 1968; Humphrey at the Press Club, June 20, 1968; McCarthy at Davis, May 28, 1968; Humphrey's China statement, July 12, 1968; the Hilton raid, Aug. 30, 1968; Unruh's motion, Aug. 26, 1968; the platform hearings' opening (Aug. 19, CQ's Aug. 20 a Check); Pigasus, Aug. 23, 1968; Clifford's arrival in Saigon, July 14, 1968; Burke's debrief of the NSC, May 5, 1961; the Tyson meeting, Apr. 12, 1962; the Senate's rules ruling, Jan. 28, 1963; *Meet the Press*, July 10, 1960; Nam Dong, July 6, 1964. Left apart, for a reader: the Cabinet of Apr. 20, 1961, in two entries (`cal.1961-04-20.vietnam`, the Gilpatric task force; `cal.1961-04-20.cuba-2`, Bowles's notes): one meeting.
+- Field conflicts: notes joined by the merge (notemerge); maps joined, their letters checked against the entry's units and shifted where a reader had inserted a unit before others (cal.1960-11-14.transition-and-staff, 1963-06.republican-party, 1965-02-10.vietnam, 1964-05-24.vietnam); four c conflicts on press conferences where two readers each appended (both kept).
+- The book-checks' "For entries in pending patches" tables applied as cites once their entries landed (Chester, Solberg, Bissell, Clifford, Kabaservice, Mann, MACV, Westmoreland, White, Sorensen, Rusk, Sundquist); Chester's Sept. 29, 1968 entry (`cal.1968-09-29.elections-1968-3`, Solberg's row) was never written: Solberg's pinpoint (382-83) not applied.
+- b3-preston: its reader registered none of the records its 543 `via` rows name (no cited-records file, no witnesses): the rows dropped; the records stand in the notes' "To check:". A reader should register them (R35-R43) and map them.
+- Leads copied into `notes/leads.md` under their headings, a section a book (sundquist, solberg, humphrey were in already); no book-check had "## The press".
+- Small mends on the way: Lundahl, Sevareid out of Names (no entries); Ginsburg (not Ginsberg) in two Humphrey entries; diacritics; seasons written month first ("Mar., spring"); a thread that does not exist taken out of `also`; `name:nolting-frederick-e-jr`, `name:smith-bromley-k`, `w.galbraith-ambassadors-journal`.
+- The Oct. 31 CQ reader's held cite on Reagan before the Platform Committee (Aug. 2 issue) applied when Chester's entry landed; its lead taken out of `notes/leads.md`.
+- In the first commits the readers' new `inbox/new-entries.tsv` lines and `inbox/2026-11-03-witness-test.yaml` were swept in by `git add -u inbox/` (f65afd5, 481e1df, 4624b62): the files as the readers left them, nothing changed.
 
 
 (The second merger, Nov. 4, 2026, after the second run's first 23 patches.)
 
-Merged, each by `./bib merge --auto` (no `--legacy`), its pending witnesses folded alone (`fold.py FILE`), checked,
-committed and pushed: rusk-2, ball-2, humphrey-2, solberg-2, sorensen-2, rfk-own-words-2, guthman-2, white-1968-2,
-suite-3505-2, white-1964-2, novak-agony-2, paterson-2, bissell-2, jones-2, navasky-2, shesol-2, thomas-rfk-2,
-fursenko-cold-war-2, dobrynin-2, mcnamara-2 (with the defense reader's `inbox/witnesses/2026-11-03-b3-clifford-2.yaml`),
-califano-2, califano-3, mcpherson-2 (`inbox/merged/`). No pending file for humphrey-2, dobrynin-2, califano-3. The same
-practice as before; for the next merger:
+Merged, each by `./bib merge --auto` (no `--legacy`), its pending witnesses folded alone (`fold.py FILE`), checked, committed and pushed: rusk-2, ball-2, humphrey-2, solberg-2, sorensen-2, rfk-own-words-2, guthman-2, white-1968-2, suite-3505-2, white-1964-2, novak-agony-2, paterson-2, bissell-2, jones-2, navasky-2, shesol-2, thomas-rfk-2, fursenko-cold-war-2, dobrynin-2, mcnamara-2 (with the defense reader's `inbox/witnesses/2026-11-03-b3-clifford-2.yaml`), califano-2, califano-3, mcpherson-2 (`inbox/merged/`). No pending file for humphrey-2, dobrynin-2, califano-3. The same practice as before; for the next merger:
 
-- The "one event?" flags, some 350, read pair by pair (helper: `dups2.py` in the scratchpad's `merge2/`: each flagged
-  entry with its three likeliest neighbors). Kept apart: distinct acts of one day or month (a call apart from the
-  meeting, two memoranda, two cables). Combined (the tree's or older id kept, the other its alias; c and n joined by
-  hand, the map rebuilt against the new units): Humphrey's visit turned back at the White House (the reader's own
-  combine, KEEP's c, note and map); the $750 check, May 7, 1960 (Solberg's into White's); Wittenberg College, Oct. 17,
-  1960; Johnson's call to Nixon, Nov. 3, 1968 (White's into the Chennault entry); Goldwater's Senate-office meeting,
-  Dec. 1963 (both Whites); Rowe's questioning of Humphrey (White's August a Check); Robert Kennedy to Guthman on
-  Jackson, July 9, 1960; Johnson to Robert Kennedy on the civil rights bill, Jan. 1964; Bundy to Lodge, Oct. 29, 1963
-  (one cable, FRUS IV, doc. 236); McNamara's news conference of June 16, 1965. And the pair the first merger left: the
-  Cabinet of Apr. 20, 1961 (`cal.1961-04-20.vietnam` into `cal.1961-04-20.cuba-2`, also Vietnam).
-- Ball's two same-day flags kept (`--take keep`), as the reader asked. White 1968's Miami Beach entries of Aug. 5-7 and
-  press entries of Aug. 27 read against their days: distinct; its three "set only n" edits applied as written.
-- Check errors of the readers' patches mended by hand on the way: seasons and stretches in `when` written month first
-  ("Summer" -> "June, summer"; "Late Dec." -> "Dec., late"; "Mid-Dec." -> "Dec., mid-month"), a span's `date` set to
-  its first day (Feb. 17, 1966; Aug. 5, 1968; Nov. 23, 1963; Apr. 23, 1968), a month-only `date` where the day was a
-  guess (July 1965, Stevenson's body), each moved to its place in date order (`reorder.py`); a `follows:` across days
-  taken out; Names without a name entry taken out (Hechinger, Dearden, Fletcher, Edward Bennett Williams), others
-  tagged (Eisenhower, Brown, Adams, Higginbotham, J. Irwin Miller); polls and force levels `ok:result-form`; the Ho Chi
-  Minh Trail `ok:diacritics`, Điện Biên Phủ marked; "327 I.C.C." `ok:section-ref`.
+- The "one event?" flags, some 350, read pair by pair (helper: `dups2.py` in the scratchpad's `merge2/`: each flagged entry with its three likeliest neighbors). Kept apart: distinct acts of one day or month (a call apart from the meeting, two memoranda, two cables). Combined (the tree's or older id kept, the other its alias; c and n joined by hand, the map rebuilt against the new units): Humphrey's visit turned back at the White House (the reader's own combine, KEEP's c, note and map); the $750 check, May 7, 1960 (Solberg's into White's); Wittenberg College, Oct. 17, 1960; Johnson's call to Nixon, Nov. 3, 1968 (White's into the Chennault entry); Goldwater's Senate-office meeting, Dec. 1963 (both Whites); Rowe's questioning of Humphrey (White's August a Check); Robert Kennedy to Guthman on Jackson, July 9, 1960; Johnson to Robert Kennedy on the civil rights bill, Jan. 1964; Bundy to Lodge, Oct. 29, 1963 (one cable, FRUS IV, doc. 236); McNamara's news conference of June 16, 1965. And the pair the first merger left: the Cabinet of Apr. 20, 1961 (`cal.1961-04-20.vietnam` into `cal.1961-04-20.cuba-2`, also Vietnam).
+- Ball's two same-day flags kept (`--take keep`), as the reader asked. White 1968's Miami Beach entries of Aug. 5-7 and press entries of Aug. 27 read against their days: distinct; its three "set only n" edits applied as written.
+- Check errors of the readers' patches mended by hand on the way: seasons and stretches in `when` written month first ("Summer" -> "June, summer"; "Late Dec." -> "Dec., late"; "Mid-Dec." -> "Dec., mid-month"), a span's `date` set to its first day (Feb. 17, 1966; Aug. 5, 1968; Nov. 23, 1963; Apr. 23, 1968), a month-only `date` where the day was a guess (July 1965, Stevenson's body), each moved to its place in date order (`reorder.py`); a `follows:` across days taken out; Names without a name entry taken out (Hechinger, Dearden, Fletcher, Edward Bennett Williams), others tagged (Eisenhower, Brown, Adams, Higginbotham, J. Irwin Miller); polls and force levels `ok:result-form`; the Ho Chi Minh Trail `ok:diacritics`, Điện Biên Phủ marked; "327 I.C.C." `ok:section-ref`.
 - Navasky's cite on `cal.1968-05-24.king` waited in `inbox/deferred.yaml` and was applied when thomas-rfk-2 landed.
-- `x.1969-07.clifford-a-viet-nam-reappraisal` was in both the Clifford and the Berman pending files; Clifford's is now
-  folded, so `inbox/witnesses/2026-11-03-b3-berman-2.yaml` will be refused by `fold.py` until its row is dropped or made
-  an `amend:` (the westy group's merger).
-- Leads copied into `notes/leads.md`, a "(batch 3, second run, ...)" section a book under each heading; "## The press"
-  rows into `notes/press.md`, by date, the work and page last (Rusk, Ball, Humphrey, Solberg, Sorensen, Guthman, White
-  1968, Suite 3505, White 1964, McNamara).
-- Not committed by the merger: `inbox/new-entries.tsv` (pruned by each merge; the readers still claim in it), the
-  readers' book-check and by-work files, and every other group's inbox files. Check's errors in the readers' open files
-  (Zelizer's, Smith's, Branch's and Bird's by-work edges, the Clifford/Berman id) came and went as they wrote; none was
-  the merged work's.
+- `x.1969-07.clifford-a-viet-nam-reappraisal` was in both the Clifford and the Berman pending files; Clifford's is now folded, so `inbox/witnesses/2026-11-03-b3-berman-2.yaml` will be refused by `fold.py` until its row is dropped or made an `amend:` (the westy group's merger).
+- Leads copied into `notes/leads.md`, a "(batch 3, second run, ...)" section a book under each heading; "## The press" rows into `notes/press.md`, by date, the work and page last (Rusk, Ball, Humphrey, Solberg, Sorensen, Guthman, White 1968, Suite 3505, White 1964, McNamara).
+- Not committed by the merger: `inbox/new-entries.tsv` (pruned by each merge; the readers still claim in it), the readers' book-check and by-work files, and every other group's inbox files. Check's errors in the readers' open files (Zelizer's, Smith's, Branch's and Bird's by-work edges, the Clifford/Berman id) came and went as they wrote; none was the merged work's.
 
 
 (The third merger, Nov. 4, 2026, 8:30 p.m.-midnight Pacific, after the second run's last patches.)
 
-Merged, each by `./bib merge --auto` (no `--legacy`), its pending witnesses folded alone (`fold.py FILE`; a book's
-shared -2 file after the last patch that used it), checked, committed and pushed: branch-ptw-2 to -5, kotz-2,
-walls-of-jericho-2, branch-pof-2 to -5, branch-ace-2 to -4, kabaservice-2, goldberg-2, smith-rockefeller-2 to -5,
-six-crises-2, white-1960-2, sundquist-2, zelizer-2, bernstein-guns-2 and -3, preston-2 and -3, bird-2 and -3, woods-2 to
--4, westmoreland-2 and -3, berman-2, macv-1964-2, macv-1965-2, macv-1967-2, macv-1968-2 and -3; and, at the lead's word,
-kotz-3, bernstein-guns-4, shesol-3 (43 patches; `inbox/merged/`). Left in the inbox, being written or not assigned:
-bernstein-guns-5 to -7, fursenko-cold-war-3, kotz-4, woods-fulbright-1 and -2. For the next merger:
+Merged, each by `./bib merge --auto` (no `--legacy`), its pending witnesses folded alone (`fold.py FILE`; a book's shared -2 file after the last patch that used it), checked, committed and pushed: branch-ptw-2 to -5, kotz-2, walls-of-jericho-2, branch-pof-2 to -5, branch-ace-2 to -4, kabaservice-2, goldberg-2, smith-rockefeller-2 to -5, six-crises-2, white-1960-2, sundquist-2, zelizer-2, bernstein-guns-2 and -3, preston-2 and -3, bird-2 and -3, woods-2 to -4, westmoreland-2 and -3, berman-2, macv-1964-2, macv-1965-2, macv-1967-2, macv-1968-2 and -3; and, at the lead's word, kotz-3, bernstein-guns-4, shesol-3 (43 patches; `inbox/merged/`). Left in the inbox, being written or not assigned: bernstein-guns-5 to -7, fursenko-cold-war-3, kotz-4, woods-fulbright-1 and -2. For the next merger:
 
-- Before merging: `cal.1960-11-01.elections-1961` renumbered `cal.1960-11-01.elections-1960-2` (patch, ledger,
-  book-check); twelve withdrawn ledger claims pruned, and Shesol's two. Berman's Clifford row was already gone.
-- Patches refused by `--auto` for a src row whose page the note does not cite (`via ... 745 n.2` on a note citing 724;
-  MACV 1968's `34 n.18`, `35 n.19`): the row taken out of the patch, the To check or Check kept. bernstein-guns-4 was
-  refused until its edges were in the by-work file: append the "# edges for" block first (`edges.py` in the
-  scratchpad's `merge3/`: comment rows or live rows, `card` dropped, the block cut from the pending file).
-- The "one event?" flags, about 1,150, read pair by pair (`dups2.py`; `keepdups.py` resolves the rest as keep).
-  Combined (the tree's id kept, the other its alias, c and n joined, the map rebuilt): McPherson's memorandum of June 13,
-  1967 (FRUS V, 197); Harris's California poll of May 29, 1964; the House's opening debate on the education bill, Mar.
-  24, 1965; Fulbright's call to Johnson, Apr. 1, 1968 (into `cal.1968-04-01.vietnam`, which holds the recording). Split:
-  Johnson's 8:56 p.m. call to Reuther, Aug. 21, 1964, out of Branch's Jenkins-call entry into Kotz's. Left apart with a
-  Check: Curtis's two replies to Rockefeller, July 1963. Left apart: Harris's two California readings of June 1, 1964
-  (different figures).
-- Hand edits: (a) MACV 1965, 37-38, off `cal.1965-03-06.vietnam` (it stands on -2); (b) `cal.1964-02-29.defense` takes
-  the civil rights answer (1963-64 Pub. Papers 322, item 16, read) and Kotz 119; (c) `cal.1964-11-28.vietnam` takes the
-  Hoover-King answer (item 11, p. 1617, read), Branch 532, and Kotz 231 as kotz-3's cite (its edit turned into a cite);
-  (d) the July 28, 1965 news conference's three rows joined into `x.1965-07-28.the-presidents-news-conference-july-28`;
-  (e) Heller's notes of Nov. 23, 1963: the OCR-garbled undated row joined into
-  `x.1963-11-23.notes-on-meeting-with-president-johnson`; the two Nov. 25 rows left apart (two repositories; a lead).
-  The joins: `inbox/witnesses/2026-11-04-merger-joins.yaml`, folded.
-- Mends on the way: whens month first ("Jan." not "January"; "Dec., late"; "Apr., spring"), day-dates the source does not
-  give made month-only, spans dated by their first day and moved (a merger's patch,
-  `inbox/merged/2026-11-04-merger-moves.yaml`, for two across months); curly quotation marks straightened (pof-2 on);
-  name keys the readers coined (`rockefeller-nelson-a`, `meredith-james`, `elson-roy`, `moynihan-daniel-p`,
-  `schwengel-fred`) to the series'; Names without an entry taken out (Wachtel, Zinn, Jim Clark, Belafonte, Kirk,
-  Lehman); `mayors-chicago` (no thread) made `mayors`; printed titles with plain Khanh, Ky, Thieu, Hue `ok:diacritics`;
-  shares and counts `ok:result-form`; three Berman edges added so his via rows reach their witnesses.
-- Two code matters. `witnesses.problems` walked the whole registry for every via row; with the batch's witnesses
-  folded, check took fifteen minutes: the reachable set now made once an entry (b7f7e24; the same answer, about a
-  minute for check). And since 1fef08c (notemerge's clock rule) three map rows naming a FRUS link inside a Check failed
-  [claims]: the rows taken out (9a5b432).
+- Before merging: `cal.1960-11-01.elections-1961` renumbered `cal.1960-11-01.elections-1960-2` (patch, ledger, book-check); twelve withdrawn ledger claims pruned, and Shesol's two. Berman's Clifford row was already gone.
+- Patches refused by `--auto` for a src row whose page the note does not cite (`via ... 745 n.2` on a note citing 724; MACV 1968's `34 n.18`, `35 n.19`): the row taken out of the patch, the To check or Check kept. bernstein-guns-4 was refused until its edges were in the by-work file: append the "# edges for" block first (`edges.py` in the scratchpad's `merge3/`: comment rows or live rows, `card` dropped, the block cut from the pending file).
+- The "one event?" flags, about 1,150, read pair by pair (`dups2.py`; `keepdups.py` resolves the rest as keep). Combined (the tree's id kept, the other its alias, c and n joined, the map rebuilt): McPherson's memorandum of June 13, 1967 (FRUS V, 197); Harris's California poll of May 29, 1964; the House's opening debate on the education bill, Mar. 24, 1965; Fulbright's call to Johnson, Apr. 1, 1968 (into `cal.1968-04-01.vietnam`, which holds the recording). Split: Johnson's 8:56 p.m. call to Reuther, Aug. 21, 1964, out of Branch's Jenkins-call entry into Kotz's. Left apart with a Check: Curtis's two replies to Rockefeller, July 1963. Left apart: Harris's two California readings of June 1, 1964 (different figures).
+- Hand edits: (a) MACV 1965, 37-38, off `cal.1965-03-06.vietnam` (it stands on -2); (b) `cal.1964-02-29.defense` takes the civil rights answer (1963-64 Pub. Papers 322, item 16, read) and Kotz 119; (c) `cal.1964-11-28.vietnam` takes the Hoover-King answer (item 11, p. 1617, read), Branch 532, and Kotz 231 as kotz-3's cite (its edit turned into a cite); (d) the July 28, 1965 news conference's three rows joined into `x.1965-07-28.the-presidents-news-conference-july-28`; (e) Heller's notes of Nov. 23, 1963: the OCR-garbled undated row joined into `x.1963-11-23.notes-on-meeting-with-president-johnson`; the two Nov. 25 rows left apart (two repositories; a lead). The joins: `inbox/witnesses/2026-11-04-merger-joins.yaml`, folded.
+- Mends on the way: whens month first ("Jan." not "January"; "Dec., late"; "Apr., spring"), day-dates the source does not give made month-only, spans dated by their first day and moved (a merger's patch, `inbox/merged/2026-11-04-merger-moves.yaml`, for two across months); curly quotation marks straightened (pof-2 on); name keys the readers coined (`rockefeller-nelson-a`, `meredith-james`, `elson-roy`, `moynihan-daniel-p`, `schwengel-fred`) to the series'; Names without an entry taken out (Wachtel, Zinn, Jim Clark, Belafonte, Kirk, Lehman); `mayors-chicago` (no thread) made `mayors`; printed titles with plain Khanh, Ky, Thieu, Hue `ok:diacritics`; shares and counts `ok:result-form`; three Berman edges added so his via rows reach their witnesses.
+- Two code matters. `witnesses.problems` walked the whole registry for every via row; with the batch's witnesses folded, check took fifteen minutes: the reachable set now made once an entry (b7f7e24; the same answer, about a minute for check). And since 1fef08c (notemerge's clock rule) three map rows naming a FRUS link inside a Check failed [claims]: the rows taken out (9a5b432).
 - Bird's starred footnotes ("212 n.*") are left as written: the via rows key on them; check warns [italics] three times.
-- Leads and press: every book-check's new "Leads" into `notes/leads.md`, a section a book under each heading, and its
-  "The press" rows into `notes/press.md` (the four-column tables given a kind; month-only dates as "1960-06").
-- For the owner: the bundled entries `cal.1964-11-18.civil-rights-the-executive` (Hoover's remark, the package of Nov.
-  21, the meeting of Dec. 1: pof-4's reader proposes a split), `cal.1968-03-14.robert-kennedy` (the Clifford meeting and
-  the announcement of Mar. 16) and `cal.1968-04-24.elections-1968` (Freeman's endorsement and the next day's), both
-  Shesol's reader's, `cal.1967-07-25.civil-disorders-3` (July 25-Aug. 2: Hoover's two reports and Johnson to the Cabinet)
-  and `cal.1968-04-01.vietnam` (the strike of Apr. 2 with the call of Apr. 1); Six Crises' newsweekly forecasts dated
-  "Oct. 25-Nov. 7"; Zelizer's Passed over not kept row by row (R44, R48); the many MACV entries of an office's routine
-  (R18's "minor").
+- Leads and press: every book-check's new "Leads" into `notes/leads.md`, a section a book under each heading, and its "The press" rows into `notes/press.md` (the four-column tables given a kind; month-only dates as "1960-06").
+- For the owner: the bundled entries `cal.1964-11-18.civil-rights-the-executive` (Hoover's remark, the package of Nov. 21, the meeting of Dec. 1: pof-4's reader proposes a split), `cal.1968-03-14.robert-kennedy` (the Clifford meeting and the announcement of Mar. 16) and `cal.1968-04-24.elections-1968` (Freeman's endorsement and the next day's), both Shesol's reader's, `cal.1967-07-25.civil-disorders-3` (July 25-Aug. 2: Hoover's two reports and Johnson to the Cabinet) and `cal.1968-04-01.vietnam` (the strike of Apr. 2 with the call of Apr. 1); Six Crises' newsweekly forecasts dated "Oct. 25-Nov. 7"; Zelizer's Passed over not kept row by row (R44, R48); the many MACV entries of an office's routine (R18's "minor").
 
 
 (The fourth merger, Nov. 4, 2026, midnight-1 a.m. Pacific, after the batch's last seven patches.)
 
-Merged, in order, each by `./bib merge --auto` (no `--legacy`), the edges at its pending file's foot appended first to the
-card's by-work file (`edges.py` in the scratchpad's `merge4/`), its pending witnesses folded alone, checked, committed and
-pushed: kotz-4, fursenko-cold-war-3, bernstein-guns-5, -6, -7, woods-fulbright-1, -2 (`inbox/merged/`). The inbox is
-empty; the ledger too. For the next merger:
+Merged, in order, each by `./bib merge --auto` (no `--legacy`), the edges at its pending file's foot appended first to the card's by-work file (`edges.py` in the scratchpad's `merge4/`), its pending witnesses folded alone, checked, committed and pushed: kotz-4, fursenko-cold-war-3, bernstein-guns-5, -6, -7, woods-fulbright-1, -2 (`inbox/merged/`). The inbox is empty; the ledger too. For the next merger:
 
-- Before merging: the seven claims the readers never used pruned from the ledger (Bernstein's three, Woods 1995's
-  four); no other claim of these patches was left. `sources/witnesses/by-work/woods-fulbright.yaml` made, with the
-  usual header, for Woods 1995's edges (402 from the two pending files, and one added by hand: 281 n.21, the *Times* of Nov. 11, 1961, which
-  a via row named and no edge reached).
-- `x.1974.fager-selma-1965` was not yet in the registry (kotz-3 had not folded it): kotz-4's row folded as written, and
-  bernstein-guns-6's edge to it then held.
-- The edits (kotz-4's three, woods-1's two, woods-2's one) all applied on their bases with no conflict; each held
-  against the tree before (nothing other runs wrote was lost).
-- The "one event?" flags, 174, read pair by pair (`dups2.py`; `keepdups.py`). Combined: the congressional leaders'
-  meeting of July 27, 1965 (Woods's `cal.1965-07-27.vietnam-july-decision` into `cal.1965-07-27.vietnam`, which held the
-  meeting and Mansfield's statement; Mansfield's words by Woods added to c as two units, I-J, the note and map joined,
-  Woods's Check on the hour kept). All else kept apart: distinct acts of one day (the calls, memoranda and statements
-  around Selma, Mar. 7-18, 1965; Branigin's and Sawyer's calls of Aug. 17, 1965; the Senate's and the House
-  subcommittee's reports of Apr. 9, 1965; the leaders' meeting of Apr. 28, 1965, beside the entry that names it in
-  passing; the Johnson daughters of Mar. 31, 1968).
-- Mends on the way: `cal.1961-07-29.right-and-the-military`, the Record of July 29, 1961 out of To check (woods-1 reads
-  it); two China entries of Mar. 21 and 30, 1966 moved from the retired slug `india-and-china` (an alias of South Asia's
-  thread, not a thread) to `china`; the 5 a.m. call of Mar. 9, 1965 given its `time` (its `time_approx` had none: 11:00Z,
-  Selma's Central time); Kennedy and Castro tagged where Names left them ambiguous; Khánh marked (its map's hash
-  rewritten); O'Donnell's schedule of Oct. 3, 1964 and the Oakland crowd of Oct. 20, 1967 `ok:result-form`.
-- Leads and press: each book-check's run section into `notes/leads.md` (a section a book and run under each heading;
-  Bernstein's fifth to seventh runs, written as one paragraph, split into bullets by hand) and `notes/press.md` (the
-  four-column tables given a kind). The earlier helpers `leads.py` and `presstab.py` take `--all --last` for a run's own
-  section: `--last` alone takes the first.
-- For the owner: `cal.1965-07-27.vietnam` still bundles the NSC meeting and the evening's leaders' meeting (R17); Bernstein's
-  `cal.1965-03-23.voting-rights-3` spans the Senate hearings, Mar. 23-Apr. 5; Bernstein's ch. 16, 17 and
-  19 and Kotz's pp. 77-84 are unread.
+- Before merging: the seven claims the readers never used pruned from the ledger (Bernstein's three, Woods 1995's four); no other claim of these patches was left. `sources/witnesses/by-work/woods-fulbright.yaml` made, with the usual header, for Woods 1995's edges (402 from the two pending files, and one added by hand: 281 n.21, the *Times* of Nov. 11, 1961, which a via row named and no edge reached).
+- `x.1974.fager-selma-1965` was not yet in the registry (kotz-3 had not folded it): kotz-4's row folded as written, and bernstein-guns-6's edge to it then held.
+- The edits (kotz-4's three, woods-1's two, woods-2's one) all applied on their bases with no conflict; each held against the tree before (nothing other runs wrote was lost).
+- The "one event?" flags, 174, read pair by pair (`dups2.py`; `keepdups.py`). Combined: the congressional leaders' meeting of July 27, 1965 (Woods's `cal.1965-07-27.vietnam-july-decision` into `cal.1965-07-27.vietnam`, which held the meeting and Mansfield's statement; Mansfield's words by Woods added to c as two units, I-J, the note and map joined, Woods's Check on the hour kept). All else kept apart: distinct acts of one day (the calls, memoranda and statements around Selma, Mar. 7-18, 1965; Branigin's and Sawyer's calls of Aug. 17, 1965; the Senate's and the House subcommittee's reports of Apr. 9, 1965; the leaders' meeting of Apr. 28, 1965, beside the entry that names it in passing; the Johnson daughters of Mar. 31, 1968).
+- Mends on the way: `cal.1961-07-29.right-and-the-military`, the Record of July 29, 1961 out of To check (woods-1 reads it); two China entries of Mar. 21 and 30, 1966 moved from the retired slug `india-and-china` (an alias of South Asia's thread, not a thread) to `china`; the 5 a.m. call of Mar. 9, 1965 given its `time` (its `time_approx` had none: 11:00Z, Selma's Central time); Kennedy and Castro tagged where Names left them ambiguous; Khánh marked (its map's hash rewritten); O'Donnell's schedule of Oct. 3, 1964 and the Oakland crowd of Oct. 20, 1967 `ok:result-form`.
+- Leads and press: each book-check's run section into `notes/leads.md` (a section a book and run under each heading; Bernstein's fifth to seventh runs, written as one paragraph, split into bullets by hand) and `notes/press.md` (the four-column tables given a kind). The earlier helpers `leads.py` and `presstab.py` take `--all --last` for a run's own section: `--last` alone takes the first.
+- For the owner: `cal.1965-07-27.vietnam` still bundles the NSC meeting and the evening's leaders' meeting (R17); Bernstein's `cal.1965-03-23.voting-rights-3` spans the Senate hearings, Mar. 23-Apr. 5; Bernstein's ch. 16, 17 and 19 and Kotz's pp. 77-84 are unread.
 
-- After the last merge: `./bib check` 0 errors, 26 warnings (Bird's three starred footnotes [italics], the Thomson
-  cross-reference, the calendar's standing aggregate counts); `./bib audit-cal` committed; a full `./bib build` clean
-  (about ten minutes); `./bib links`: 0 links to missing anchors.
+- After the last merge: `./bib check` 0 errors, 26 warnings (Bird's three starred footnotes [italics], the Thomson cross-reference, the calendar's standing aggregate counts); `./bib audit-cal` committed; a full `./bib build` clean (about ten minutes); `./bib links`: 0 links to missing anchors.
 
 
 (The fifth merger, Nov. 4, 2026, 1:40-2:10 a.m. Pacific, after the last runs of Kotz, Zelizer and Bernstein.)
 
-Merged, in order, each by `./bib merge --auto` (no `--legacy`), its pending witnesses folded alone (`fold.py FILE`; the
-edges were already in the by-work files), checked, committed and pushed: kotz-5 (33 ops; 12 witnesses), zelizer-3 (104
-ops; 57), bernstein-guns-8 (236 ops; 125) (`inbox/merged/`). The inbox is empty; the ledger too (every claim of the three
-landed). With these Kotz, Zelizer (but pp. 1-2) and Bernstein are read whole. For the next merger:
+Merged, in order, each by `./bib merge --auto` (no `--legacy`), its pending witnesses folded alone (`fold.py FILE`; the edges were already in the by-work files), checked, committed and pushed: kotz-5 (33 ops; 12 witnesses), zelizer-3 (104 ops; 57), bernstein-guns-8 (236 ops; 125) (`inbox/merged/`). The inbox is empty; the ledger too (every claim of the three landed). With these Kotz, Zelizer (but pp. 1-2) and Bernstein are read whole. For the next merger:
 
-- Every edit's base was current (kotz-5's two, zelizer-3's one, bernstein-guns-8's twelve, re-read after each merge):
-  applied as written, each diffed against the tree first (only the reader's additions, or Bernstein cut from "To check").
-- The "one event?" flags, 34, read pair by pair (`dups2.py` in the scratchpad's `merge5/`; `keepdups.py`). Combined: the
-  evening meeting of Nov. 3, 1967 (Bernstein's `cal.1967-11-03.elections-1968-2` into `cal.1967-11-03.elections-1968`,
-  which held it: Rowe added to unit B, the note joined, Bernstein's Check on the day kept, the oral history's via row on
-  B-C). All else kept apart: distinct acts of one day (the three memoranda of Aug. 4, 1965; Wirtz's and Connor's of Feb.
-  12, 1966; the conference report and Gardner's and Califano's memoranda of Dec. 11, 1967; Ray's purchases beside King's
-  call and the FBI's item, Mar. 27 and 29, 1968; Johnson's calls beside the hearings and news conferences of Mar. 12 and
-  24, 1968, and Dec. 31, 1966; Kotz's Allen-Scott column and Hoover to Jenkins beside the funeral and the meeting, Nov. 25
-  and Dec. 3, 1963), and the month-only entries beside others of their month. `cal.1968-03-31.elections-1968-11` (Robert
-  Kennedy's call to O'Brien) left beside `cal.1968-03-31.robert-kennedy`, whose Shesol parenthetical names the call
-  among the night's: one act, a reader may fold it in.
-- Mends: Johnson tagged on `cal.1968-03-15.elections-1968-4` (Names ambiguous); Stevens out of Names on
-  `cal.1962-11-29.program` (no name entry). In `notes/leads.md`, Zelizer's second-run leads it settled amended (chs.
-  7-9 now read; the sixteen cites pointed at the third run's table).
-- Leads and press: each run's section into `notes/leads.md` (Bernstein's paragraph split into bullets by hand) and
-  `notes/press.md` (Zelizer's four rows; Bernstein's four-column table given a kind).
-- For the owner: `cal.1968-09-17.economy` (Chrysler's prices, the statement of Sept. 17, 1968) has, with Bernstein cut,
-  the Public Papers alone and no bibliography (the audit's 13th); Kotz's pp. 77-84 done, the book whole.
+- Every edit's base was current (kotz-5's two, zelizer-3's one, bernstein-guns-8's twelve, re-read after each merge): applied as written, each diffed against the tree first (only the reader's additions, or Bernstein cut from "To check").
+- The "one event?" flags, 34, read pair by pair (`dups2.py` in the scratchpad's `merge5/`; `keepdups.py`). Combined: the evening meeting of Nov. 3, 1967 (Bernstein's `cal.1967-11-03.elections-1968-2` into `cal.1967-11-03.elections-1968`, which held it: Rowe added to unit B, the note joined, Bernstein's Check on the day kept, the oral history's via row on B-C). All else kept apart: distinct acts of one day (the three memoranda of Aug. 4, 1965; Wirtz's and Connor's of Feb. 12, 1966; the conference report and Gardner's and Califano's memoranda of Dec. 11, 1967; Ray's purchases beside King's call and the FBI's item, Mar. 27 and 29, 1968; Johnson's calls beside the hearings and news conferences of Mar. 12 and 24, 1968, and Dec. 31, 1966; Kotz's Allen-Scott column and Hoover to Jenkins beside the funeral and the meeting, Nov. 25 and Dec. 3, 1963), and the month-only entries beside others of their month. `cal.1968-03-31.elections-1968-11` (Robert Kennedy's call to O'Brien) left beside `cal.1968-03-31.robert-kennedy`, whose Shesol parenthetical names the call among the night's: one act, a reader may fold it in.
+- Mends: Johnson tagged on `cal.1968-03-15.elections-1968-4` (Names ambiguous); Stevens out of Names on `cal.1962-11-29.program` (no name entry). In `notes/leads.md`, Zelizer's second-run leads it settled amended (chs. 7-9 now read; the sixteen cites pointed at the third run's table).
+- Leads and press: each run's section into `notes/leads.md` (Bernstein's paragraph split into bullets by hand) and `notes/press.md` (Zelizer's four rows; Bernstein's four-column table given a kind).
+- For the owner: `cal.1968-09-17.economy` (Chrysler's prices, the statement of Sept. 17, 1968) has, with Bernstein cut, the Public Papers alone and no bibliography (the audit's 13th); Kotz's pp. 77-84 done, the book whole.
 
-- After the last merge: `./bib check` 0 errors, 26 warnings (the same standing set as before); `./bib audit-cal`
-  committed; a full `./bib build` clean (9 min 36 s); `./bib links`: 0 links to missing anchors.
+- After the last merge: `./bib check` 0 errors, 26 warnings (the same standing set as before); `./bib audit-cal` committed; a full `./bib build` clean (9 min 36 s); `./bib links`: 0 links to missing anchors.
 
 
-(The sixth merger, Nov. 4, 2026, 3:10-3:50 a.m. Pacific, after the third and fourth runs of Sorensen, Fursenko's *Gamble*,
-Thomas and Novak.)
+(The sixth merger, Nov. 4, 2026, 3:10-3:50 a.m. Pacific, after the third and fourth runs of Sorensen, Fursenko's *Gamble*, Thomas and Novak.)
 
-Merged, in order, each by `./bib merge --auto` (no `--legacy`), its pending witnesses folded alone (`fold.py FILE`; the
-edges already in the by-work files), checked, committed and pushed: sorensen-3 (96 ops; 9 witnesses), fursenko-gamble-2
-(139; 104), thomas-rfk-3 (282; 133), novak-agony-3 (347; 49), and, at the lead's word, sorensen-4 (149; 22 and one
-amendment; its by-work edges committed with it) (`inbox/merged/`). Every ledger claim of the five landed (none pruned
-by hand). Left in the inbox, being written: thomas-rfk-4, its pending file and its 51 ledger lines. For the next merger:
+Merged, in order, each by `./bib merge --auto` (no `--legacy`), its pending witnesses folded alone (`fold.py FILE`; the edges already in the by-work files), checked, committed and pushed: sorensen-3 (96 ops; 9 witnesses), fursenko-gamble-2 (139; 104), thomas-rfk-3 (282; 133), novak-agony-3 (347; 49), and, at the lead's word, sorensen-4 (149; 22 and one amendment; its by-work edges committed with it) (`inbox/merged/`). Every ledger claim of the five landed (none pruned by hand). Left in the inbox, being written: thomas-rfk-4, its pending file and its 51 ledger lines. For the next merger:
 
-- Every edit's base was current (novak-agony-3's two: Novak out of To check where he does not give the event): applied
-  as written.
-- One news conference is one entry (the lead's ruling for sorensen-3): a new entry holding one answer of a conference
-  the day already had an entry for was folded into that entry (the tree's id kept, the new its alias; c joined, the
-  new answer appended without its "News conference." lead; n joined: the Papers' pinpoint and topic, the works read, To
-  check, Checks, See, Names; the map re-lettered; the new thread into `also`): sorensen-3's Nov. 20, 1962 (into
-  `cal.1962-11-20.missile-crisis`), July 19, 1961, May 8, 1963, Aug. 1, 1963, Nov. 8, 1961, Apr. 11, 1962, June 27,
-  1962, Jan. 24, 1963, Dec. 12, 1962; sorensen-4's Jan. 15, 1962, Nov. 14, 1963 (two), Sept. 12, 1963, Oct. 9, 1963,
-  Jan. 25, 1961 (two), July 5, 1962. Helpers in the scratchpad's `merge6/`: `nc.py PATCH` (a patch's news-conference
-  adds beside the day's others), `nccomb.py` (drafts the joined c, n and map for review), `xdup.py PATCH` (same-day
-  entries of other threads sharing words). Entries already in the tree that split one conference by answer (Nov. 20,
-  1962's housing order; Oct. 9, 1963's Goldwater answer; and others) were not touched: a sweep for the owner.
-- The "one event?" flags, about 190, read pair by pair (`dups2.py`, `keepdups.py`), and the patches' adds set against
-  other threads' entries of the day (`xdup.py`). Combined besides the conferences (the tree's id kept): Robert Kennedy
-  at the Seattle World's Fair, Aug. 6, 1962 (Thomas's into Branch's); Goldwater's Hartford press conference, Oct. 24,
-  1963 (Novak's into White's; Novak's Check on the place kept); the Oregon schedule cancelled (Novak's Apr. 21, 1964 into
-  White's month-only `cal.1964-04.goldwater-2`, now dated Apr. 21 and moved; White's "middle of April" a Check); White
-  with Scranton's men in the Sheraton-Cleveland, June 6, 1964 (Novak's `cal.1964-06-06.goldwater` into
-  `cal.1964-06-06.elections-1964`; the hour a Check); the Executive Committee of Oct. 27, 1962, 4 p.m. (sorensen-4's
-  record of action into `cal.1962-10-27.missile-crisis-4`, which holds the tapes). Kept apart: the 9 p.m. ExComm of Oct.
-  27 (Thomas) beside the 4 p.m.; the Executive Committee's other meetings of Oct. 23-28 (none in the tree before);
-  Fursenko's 44 Soviet and Cuban acts; Novak's Mackinac meeting with Romney beside White's request to Goldwater's men.
-  Novak's three disagreements (Eugene and French Lick, Oct. 12, 1963; Concord and Hartford, Oct. 24; the *Times*'s
-  Lodge story, Dec. 1 and 8) left as written.
-- Mends on the way: See links to ids never made (`cal.1962-04-12.cuba` to `.soviet-union`, `cal.1962-05-11.cuba` to
-  `.soviet-union-2`, `cal.1960-12-21.transition-and-staff-2` to the one entry of the day); threads that do not exist
-  (`state-and-city-finance-mi` made `state-and-city-finance` with `state:mi`; `india-and-china` made `china`); name keys
-  (`acheson-dean-g`, `mcconaughy-walter-p-jr`); Names without an entry taken out (Maas; Herbert Hoover, whose bare name
-  would have linked J. Edgar). Fursenko's and Thomas's starred notes ("98–99 and n.*", "219 n.*") left as written, as
-  Bird's: two more [italics] warnings.
-- Leads and press: each run's section into `notes/leads.md` (Sorensen's and Novak's paragraphs by heading split into
-  bullets; Sorensen's "Defense" leads under National) and `notes/press.md` (Fursenko's four-column rows and Novak's
-  empty kinds given one). The Sorensen book-check carries the fourth run's sections after the third's: `presstab.py
-  --all --last` took the fourth run's rows while it was being written; take a run's section by its line range.
-- check: thomas-rfk-4's pending file showed three "id repeated" errors while its reader wrote (the registry's
-  `x.undated.burke-marshall-oral-history-jfk-library`, `x.undated.nicholas-katzenbach-oral-history-lbj-library`,
-  `x.2000-02-07.guthman-to-thomas`); gone by the last check.
-- For the owner: Sorensen presents the letter to Diệm of Sept. 24, 1963 as sent (FRUS IV, doc. 147: cabled, not
-  delivered); U Thant's second proposal, Oct. 26 by Sorensen, Oct. 25 in `cal.1962-10-25.missile-crisis-4` (a Check);
-  fighter escorts on Oct. 27, 1962, by Sorensen, against the record of action (a Check); `cal.1964-06-06.elections-1964`
-  bundles George Humphrey's call to Eisenhower with White's night in Scranton's suite (R17: two acts); the calendar's
-  older per-answer news-conference entries, for a sweep by the same rule.
+- Every edit's base was current (novak-agony-3's two: Novak out of To check where he does not give the event): applied as written.
+- One news conference is one entry (the lead's ruling for sorensen-3): a new entry holding one answer of a conference the day already had an entry for was folded into that entry (the tree's id kept, the new its alias; c joined, the new answer appended without its "News conference." lead; n joined: the Papers' pinpoint and topic, the works read, To check, Checks, See, Names; the map re-lettered; the new thread into `also`): sorensen-3's Nov. 20, 1962 (into `cal.1962-11-20.missile-crisis`), July 19, 1961, May 8, 1963, Aug. 1, 1963, Nov. 8, 1961, Apr. 11, 1962, June 27, 1962, Jan. 24, 1963, Dec. 12, 1962; sorensen-4's Jan. 15, 1962, Nov. 14, 1963 (two), Sept. 12, 1963, Oct. 9, 1963, Jan. 25, 1961 (two), July 5, 1962. Helpers in the scratchpad's `merge6/`: `nc.py PATCH` (a patch's news-conference adds beside the day's others), `nccomb.py` (drafts the joined c, n and map for review), `xdup.py PATCH` (same-day entries of other threads sharing words). Entries already in the tree that split one conference by answer (Nov. 20, 1962's housing order; Oct. 9, 1963's Goldwater answer; and others) were not touched: a sweep for the owner.
+- The "one event?" flags, about 190, read pair by pair (`dups2.py`, `keepdups.py`), and the patches' adds set against other threads' entries of the day (`xdup.py`). Combined besides the conferences (the tree's id kept): Robert Kennedy at the Seattle World's Fair, Aug. 6, 1962 (Thomas's into Branch's); Goldwater's Hartford press conference, Oct. 24, 1963 (Novak's into White's; Novak's Check on the place kept); the Oregon schedule cancelled (Novak's Apr. 21, 1964 into White's month-only `cal.1964-04.goldwater-2`, now dated Apr. 21 and moved; White's "middle of April" a Check); White with Scranton's men in the Sheraton-Cleveland, June 6, 1964 (Novak's `cal.1964-06-06.goldwater` into `cal.1964-06-06.elections-1964`; the hour a Check); the Executive Committee of Oct. 27, 1962, 4 p.m. (sorensen-4's record of action into `cal.1962-10-27.missile-crisis-4`, which holds the tapes). Kept apart: the 9 p.m. ExComm of Oct. 27 (Thomas) beside the 4 p.m.; the Executive Committee's other meetings of Oct. 23-28 (none in the tree before); Fursenko's 44 Soviet and Cuban acts; Novak's Mackinac meeting with Romney beside White's request to Goldwater's men. Novak's three disagreements (Eugene and French Lick, Oct. 12, 1963; Concord and Hartford, Oct. 24; the *Times*'s Lodge story, Dec. 1 and 8) left as written.
+- Mends on the way: See links to ids never made (`cal.1962-04-12.cuba` to `.soviet-union`, `cal.1962-05-11.cuba` to `.soviet-union-2`, `cal.1960-12-21.transition-and-staff-2` to the one entry of the day); threads that do not exist (`state-and-city-finance-mi` made `state-and-city-finance` with `state:mi`; `india-and-china` made `china`); name keys (`acheson-dean-g`, `mcconaughy-walter-p-jr`); Names without an entry taken out (Maas; Herbert Hoover, whose bare name would have linked J. Edgar). Fursenko's and Thomas's starred notes ("98–99 and n.*", "219 n.*") left as written, as Bird's: two more [italics] warnings.
+- Leads and press: each run's section into `notes/leads.md` (Sorensen's and Novak's paragraphs by heading split into bullets; Sorensen's "Defense" leads under National) and `notes/press.md` (Fursenko's four-column rows and Novak's empty kinds given one). The Sorensen book-check carries the fourth run's sections after the third's: `presstab.py --all --last` took the fourth run's rows while it was being written; take a run's section by its line range.
+- check: thomas-rfk-4's pending file showed three "id repeated" errors while its reader wrote (the registry's `x.undated.burke-marshall-oral-history-jfk-library`, `x.undated.nicholas-katzenbach-oral-history-lbj-library`, `x.2000-02-07.guthman-to-thomas`); gone by the last check.
+- For the owner: Sorensen presents the letter to Diệm of Sept. 24, 1963 as sent (FRUS IV, doc. 147: cabled, not delivered); U Thant's second proposal, Oct. 26 by Sorensen, Oct. 25 in `cal.1962-10-25.missile-crisis-4` (a Check); fighter escorts on Oct. 27, 1962, by Sorensen, against the record of action (a Check); `cal.1964-06-06.elections-1964` bundles George Humphrey's call to Eisenhower with White's night in Scranton's suite (R17: two acts); the calendar's older per-answer news-conference entries, for a sweep by the same rule.
 
 - After the last merge: `./bib check` 0 errors, 28 warnings (the standing 26 and the two starred notes).
 
 
 (The seventh merger, Nov. 4, 2026, 5:00-5:10 a.m. Pacific, after the fourth and fifth runs of Thomas.)
 
-Merged, in order, each by `./bib merge --auto` (no `--legacy`), its pending witnesses folded alone (`fold.py FILE`; the
-edges already in `sources/witnesses/by-work/thomas-robert-kennedy.yaml`), checked, committed and pushed: thomas-rfk-4
-(248 ops: 81 adds, 103 cites, 46 src, 18 checks; 177 witnesses) and thomas-rfk-5 (209 ops: 79 adds, 79 cites, 29 src, 22
-checks; 64 witnesses) (`inbox/merged/`). Neither had an edit. Every ledger claim of the two landed; the ledger and the
-inbox are empty. With these Thomas is read whole. For the next merger:
+Merged, in order, each by `./bib merge --auto` (no `--legacy`), its pending witnesses folded alone (`fold.py FILE`; the edges already in `sources/witnesses/by-work/thomas-robert-kennedy.yaml`), checked, committed and pushed: thomas-rfk-4 (248 ops: 81 adds, 103 cites, 46 src, 18 checks; 177 witnesses) and thomas-rfk-5 (209 ops: 79 adds, 79 cites, 29 src, 22 checks; 64 witnesses) (`inbox/merged/`). Neither had an edit. Every ledger claim of the two landed; the ledger and the inbox are empty. With these Thomas is read whole. For the next merger:
 
-- The "one event?" flags, 26 and 39, read pair by pair (`dups2.py`, `nc.py`, `xdup.py`, `keepdups.py` in the scratchpad's
-  `merge7/`). Combined (the tree's id kept, Thomas's its alias; c joined, Thomas's matter a unit or units of its own; the
-  note joined, each work given its parenthetical; the map rebuilt): Dutton's memorandum of May 12, 1965
-  (`cal.1965-05-12.robert-kennedy`, Shesol's; Thomas's "initiative on the spread of nuclear weapons" as unit B) and of
-  Apr. 6, 1966 (`cal.1966-04-06.robert-kennedy`; Thomas's "existential" politics, the kibbutz and Kennedy's note to Dolan
-  as D-F, Dolan named and tagged). No news conference among the adds. All else kept apart: distinct acts of one day or
-  month (the Rometsch weekend of Oct. 25-28, 1963, the FBI's, the White House log's and O'Donnell's; Robert Kennedy's
-  calls and meetings of Nov. 22, 1963; Evans on Rometsch beside Evans on the King taps, July 16, 1963; Salinger's
-  statement on the King tap, late May 1968, beside Pearson's column, May 24, and Pearson's call, May 23; Johnson with
-  McCarthy and with Pearson beside Johnson with Kennedy and with Humphrey, Apr. 3, 1968; the airport statement and
-  Smith's words in the car, Los Angeles, May 29, 1968).
-- The witnesses of the two Dutton memoranda left as two rows each, a copy a repository (Shesol's RFK Senate papers,
-  Thomas's Fred Dutton Papers): `x.1965-05-12.dutton-to-robert-kennedy` and `x.1965-05-12.dutton-to-rfk`;
-  `x.1966-04-06.dutton-to-rfk-adventure-and-bills` and `x.1966-04-06.dutton-to-rfk`. A reader may join them by `amend:`
-  (absorbs) if one document in two files is one witness.
-- Mends: `time_approx` without a time taken off `cal.1968-03-13.robert-kennedy-campaign-2` ("after midnight": no hour);
-  `cal.1968-04-09.robert-kennedy-3` ("about 1 a.m.", Atlanta, Eastern Standard) given `time: 1968-04-09T06:00Z`; Johnson
-  tagged on `cal.1967-01.robert-kennedy-2` and `cal.1967-12.press-and-broadcasting` (Names ambiguous); Edelman out of
-  Names on `cal.1968-05-23.robert-kennedy-campaign-2` (no entry).
-- Leads and press: the fourth and fifth runs' sections into `notes/leads.md` (their "- Heading: text" bullets sorted
-  under the headings, a Thomas section a run: `runleads.py BOOKCHECK FROM TO RUN`) and `notes/press.md` (15 and 19 rows,
-  taken by line range).
-- For the owner: `cal.1965-05-12.robert-kennedy` keeps the reader's forward "See [[cal.1965-06-23.robert-kennedy]]"
-  (the speech the memorandum proposed); `cal.1968-05.robert-kennedy-campaign-3` (Salinger's statement) is undated in
-  Thomas, a Check; the leads' undated scenes of 1965-68 (Thomas's notes name their sources).
+- The "one event?" flags, 26 and 39, read pair by pair (`dups2.py`, `nc.py`, `xdup.py`, `keepdups.py` in the scratchpad's `merge7/`). Combined (the tree's id kept, Thomas's its alias; c joined, Thomas's matter a unit or units of its own; the note joined, each work given its parenthetical; the map rebuilt): Dutton's memorandum of May 12, 1965 (`cal.1965-05-12.robert-kennedy`, Shesol's; Thomas's "initiative on the spread of nuclear weapons" as unit B) and of Apr. 6, 1966 (`cal.1966-04-06.robert-kennedy`; Thomas's "existential" politics, the kibbutz and Kennedy's note to Dolan as D-F, Dolan named and tagged). No news conference among the adds. All else kept apart: distinct acts of one day or month (the Rometsch weekend of Oct. 25-28, 1963, the FBI's, the White House log's and O'Donnell's; Robert Kennedy's calls and meetings of Nov. 22, 1963; Evans on Rometsch beside Evans on the King taps, July 16, 1963; Salinger's statement on the King tap, late May 1968, beside Pearson's column, May 24, and Pearson's call, May 23; Johnson with McCarthy and with Pearson beside Johnson with Kennedy and with Humphrey, Apr. 3, 1968; the airport statement and Smith's words in the car, Los Angeles, May 29, 1968).
+- The witnesses of the two Dutton memoranda left as two rows each, a copy a repository (Shesol's RFK Senate papers, Thomas's Fred Dutton Papers): `x.1965-05-12.dutton-to-robert-kennedy` and `x.1965-05-12.dutton-to-rfk`; `x.1966-04-06.dutton-to-rfk-adventure-and-bills` and `x.1966-04-06.dutton-to-rfk`. A reader may join them by `amend:` (absorbs) if one document in two files is one witness.
+- Mends: `time_approx` without a time taken off `cal.1968-03-13.robert-kennedy-campaign-2` ("after midnight": no hour); `cal.1968-04-09.robert-kennedy-3` ("about 1 a.m.", Atlanta, Eastern Standard) given `time: 1968-04-09T06:00Z`; Johnson tagged on `cal.1967-01.robert-kennedy-2` and `cal.1967-12.press-and-broadcasting` (Names ambiguous); Edelman out of Names on `cal.1968-05-23.robert-kennedy-campaign-2` (no entry).
+- Leads and press: the fourth and fifth runs' sections into `notes/leads.md` (their "- Heading: text" bullets sorted under the headings, a Thomas section a run: `runleads.py BOOKCHECK FROM TO RUN`) and `notes/press.md` (15 and 19 rows, taken by line range).
+- For the owner: `cal.1965-05-12.robert-kennedy` keeps the reader's forward "See [[cal.1965-06-23.robert-kennedy]]" (the speech the memorandum proposed); `cal.1968-05.robert-kennedy-campaign-3` (Salinger's statement) is undated in Thomas, a Check; the leads' undated scenes of 1965-68 (Thomas's notes name their sources).
 
-- After the last merge: `./bib check` 0 errors, 28 warnings (the same standing set); `./bib audit-cal` committed (18,174
-  dated entries; 11 with neither a bibliography nor a See).
+- After the last merge: `./bib check` 0 errors, 28 warnings (the same standing set); `./bib audit-cal` committed (18,174 dated entries; 11 with neither a bibliography nor a See).

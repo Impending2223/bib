@@ -1,71 +1,35 @@
 # William C. Westmoreland, *A Soldier Reports* (`w.westmoreland-soldier-reports`)
 
-Read Oct. 29, 2026, by the batch-3 reading (Vietnam: Westmoreland, then Berman). Patch:
-`inbox/2026-10-29-b3-westmoreland.yaml` (b3-westmoreland). No cited-records file: the book has no source notes (a
-handful of footnotes name books, Oberdorfer's *Tet!* among them, 322, or add a word), so there are no records to describe.
+Read Oct. 29, 2026, by the batch-3 reading (Vietnam: Westmoreland, then Berman). Patch: `inbox/2026-10-29-b3-westmoreland.yaml` (b3-westmoreland). No cited-records file: the book has no source notes (a handful of footnotes name books, Oberdorfer's *Tet!* among them, 322, or add a word), so there are no records to describe.
 
 ## The copy
 
-The owner's copy (Drive), Doubleday, Garden City, N.Y., 1976, the first edition (LC 74-27593); 499 PDF pages with a text
-layer, read from it. Printed page = PDF page less 16 to p. 110, less 24 from p. 111 (after the first plates, PDF pp.
-127-134), less 32 from p. 183 (plates 207-214), less 40 from p. 255 (plates 287-294), less 48 from p. 327 (plates
-367-374): checked by the running heads on each side of every insert and at pp. 63, 225, 318 and 451. The PDF was deleted
-once its text was taken. The commander's memoir: his own account throughout, his cables quoted at length (dated loosely:
-"in late January", "two days later"); entered "by Westmoreland's account" where no record bears him out, and set
-against FRUS where FRUS prints the paper or the meeting.
+The owner's copy (Drive), Doubleday, Garden City, N.Y., 1976, the first edition (LC 74-27593); 499 PDF pages with a text layer, read from it. Printed page = PDF page less 16 to p. 110, less 24 from p. 111 (after the first plates, PDF pp. 127-134), less 32 from p. 183 (plates 207-214), less 40 from p. 255 (plates 287-294), less 48 from p. 327 (plates 367-374): checked by the running heads on each side of every insert and at pp. 63, 225, 318 and 451. The PDF was deleted once its text was taken. The commander's memoir: his own account throughout, his cables quoted at length (dated loosely: "in late January", "two days later"); entered "by Westmoreland's account" where no record bears him out, and set against FRUS where FRUS prints the paper or the meeting.
 
 ## The cites it had
 
-None: no calendar entry cited the book before this reading (the card was listed only in Viet. II.H.2). Forty-one entries
-are pinned in the patch (the book treats them; no cite before). Twenty-six more are edited in other pending patches; their
-pinpoints are below, "For entries in pending patches", for the merger.
+None: no calendar entry cited the book before this reading (the card was listed only in Viet. II.H.2). Forty-one entries are pinned in the patch (the book treats them; no cite before). Twenty-six more are edited in other pending patches; their pinpoints are below, "For entries in pending patches", for the merger.
 
 ## New entries (61)
 
-1964: Nixon's visit (February); McNamara and Taylor with the Country Team (May 12); Westmoreland takes command (June 20);
-his message against Sullivan's panhandle concept (Aug. 28); the Rhade revolt and Bon Sar Pa (Sept. 20, 27); his request
-for American planes (Nov. 1); Kỳ in his office (November); his memorandum to Taylor (Nov. 24); the generals' dinner
-(Dec. 8); Taylor's Saigon 1939 and Throckmorton's calls (Dec. 25); Westmoreland in Washington (December). 1965: Taylor's
-five cables of Jan. 6 with Westmoreland's Section V; the Huế library (Jan. 23); the request for jets and JCS 004213 (late
-January, Jan. 27); MAC 1190 (Mar. 6); the broad authority asked (March); his estimate of the situation (March); the
-concept of May 8; MAC 3240 and MAC 3320 (June 24, 30); the President's interim authority (June); War Zone D (June 27);
-Edward Kennedy's visit (October). 1966: Đà Nẵng, July 12; Starbird at Clark (September). 1967: Johnson through Wheeler
-before Robert Kennedy's speech (late February); the General Assembly at Columbia (Apr. 25); Eisenhower at Palm Desert
-(April); Morton (April); Thiệu on the elections (May 7); Ichord and Jackson (November); Cam Ranh Bay (Dec. 23). 1968: the
-captured document made public (Jan. 5); Weyand (Jan. 10); the strategy conference (Jan. 13); the Mission Council (Jan.
-15); Wheeler's CM-2927-68 on the 36-hour truce (Jan. 20); the cable on Huế and the NBC interview (Jan. 22); the truce
-cancelled in the north (Jan. 29); the alert (Jan. 30); JCS 1154, CM-2944-68 and JCS 1272, Westmoreland's press
-conference (Feb. 1, 3); Wheeler's "personal matter" (Feb. 4) and the 525,000 ceiling (Feb. 5); the refugees' task
-force and MACV Forward (early February); MAC 1810 and 1812 (Feb. 8); JCS 1589 (Feb. 9); the nuclear planning ended (Feb.
-11); the single manager for air (March); Clark Air Base (Mar. 24); the M-16s (May); Nixon's call from the VFW (Aug.
-19); the Cabinet Room on the halt (Oct. 14); the 593d NSC (Oct. 31).
+1964: Nixon's visit (February); McNamara and Taylor with the Country Team (May 12); Westmoreland takes command (June 20); his message against Sullivan's panhandle concept (Aug. 28); the Rhade revolt and Bon Sar Pa (Sept. 20, 27); his request for American planes (Nov. 1); Kỳ in his office (November); his memorandum to Taylor (Nov. 24); the generals' dinner (Dec. 8); Taylor's Saigon 1939 and Throckmorton's calls (Dec. 25); Westmoreland in Washington (December). 1965: Taylor's five cables of Jan. 6 with Westmoreland's Section V; the Huế library (Jan. 23); the request for jets and JCS 004213 (late January, Jan. 27); MAC 1190 (Mar. 6); the broad authority asked (March); his estimate of the situation (March); the concept of May 8; MAC 3240 and MAC 3320 (June 24, 30); the President's interim authority (June); War Zone D (June 27); Edward Kennedy's visit (October). 1966: Đà Nẵng, July 12; Starbird at Clark (September). 1967: Johnson through Wheeler before Robert Kennedy's speech (late February); the General Assembly at Columbia (Apr. 25); Eisenhower at Palm Desert (April); Morton (April); Thiệu on the elections (May 7); Ichord and Jackson (November); Cam Ranh Bay (Dec. 23). 1968: the captured document made public (Jan. 5); Weyand (Jan. 10); the strategy conference (Jan. 13); the Mission Council (Jan. 15); Wheeler's CM-2927-68 on the 36-hour truce (Jan. 20); the cable on Huế and the NBC interview (Jan. 22); the truce cancelled in the north (Jan. 29); the alert (Jan. 30); JCS 1154, CM-2944-68 and JCS 1272, Westmoreland's press conference (Feb. 1, 3); Wheeler's "personal matter" (Feb. 4) and the 525,000 ceiling (Feb. 5); the refugees' task force and MACV Forward (early February); MAC 1810 and 1812 (Feb. 8); JCS 1589 (Feb. 9); the nuclear planning ended (Feb. 11); the single manager for air (March); Clark Air Base (Mar. 24); the M-16s (May); Nixon's call from the VFW (Aug. 19); the Cabinet Room on the halt (Oct. 14); the 593d NSC (Oct. 31).
 
 ## Disagreements
 
-- Biên Hòa, Nov. 1, 1964: Westmoreland, 88, two Americans and four Vietnamese killed, five B-57s destroyed; the calendar,
-  four Americans, 27 aircraft (Check, pending list below).
-- The Brink Hotel, Dec. 24, 1964: Westmoreland, 89, a Navy officer and a civilian killed, more than a hundred wounded,
-  sixty-six Americans; the calendar, 2 killed, 50 hurt (Check, pending list below).
-- Throckmorton's calls, Dec. 25, 1964: Westmoreland, 95, Kỳ, Thiệu, Thi and Cang; Saigon 1955, as FRUS gives it (1964-68,
-  I, doc. 471 n.2), Kỳ, Cang and Thiệu (Check).
-- Taylor's cable of Jan. 6, 1965: Westmoreland, 114, quotes "growing anti-U.S. feeling" and "directed at U.S.
-  personnel"; FRUS (II, doc. 9) prints "some anti-US feeling which could grow" and "directly at US personnel". The
-  entry quotes FRUS.
+- Biên Hòa, Nov. 1, 1964: Westmoreland, 88, two Americans and four Vietnamese killed, five B-57s destroyed; the calendar, four Americans, 27 aircraft (Check, pending list below).
+- The Brink Hotel, Dec. 24, 1964: Westmoreland, 89, a Navy officer and a civilian killed, more than a hundred wounded, sixty-six Americans; the calendar, 2 killed, 50 hurt (Check, pending list below).
+- Throckmorton's calls, Dec. 25, 1964: Westmoreland, 95, Kỳ, Thiệu, Thi and Cang; Saigon 1955, as FRUS gives it (1964-68, I, doc. 471 n.2), Kỳ, Cang and Thiệu (Check).
+- Taylor's cable of Jan. 6, 1965: Westmoreland, 114, quotes "growing anti-U.S. feeling" and "directed at U.S. personnel"; FRUS (II, doc. 9) prints "some anti-US feeling which could grow" and "directly at US personnel". The entry quotes FRUS.
 - Bình Giã: Westmoreland, 104, Dec. 27, 1964, to New Year's Day; the calendar, Dec. 28 (Check).
 - Pleiku, Feb. 7, 1965: Westmoreland, 115, eight Americans killed, five aircraft destroyed (Check).
-- The embassy bomb, Mar. 30, 1965: Westmoreland, 130, two Americans and fifteen Vietnamese killed, fifty-four Americans
-  wounded (Check).
-- Apr. 27, 1967: Westmoreland, 227, the minimum essential force 80,500 more, 550,500 in all; the calendar's 565,000
-  (Check).
+- The embassy bomb, Mar. 30, 1965: Westmoreland, 130, two Americans and fifteen Vietnamese killed, fifty-four Americans wounded (Check).
+- Apr. 27, 1967: Westmoreland, 227, the minimum essential force 80,500 more, 550,500 in all; the calendar's 565,000 (Check).
 - The cable on the enemy's "crucial decision": Westmoreland, 314, Dec. 20, 1967; the calendar, Dec. 19 (Check).
-- Johnson's call to Wheeler on Khe Sanh: Westmoreland, 350, Feb. 3, 1968; Wheeler's CM-2944-68 of Feb. 3 (FRUS VI, doc. 51),
-  the evening before (Check).
+- Johnson's call to Wheeler on Khe Sanh: Westmoreland, 350, Feb. 3, 1968; Wheeler's CM-2944-68 of Feb. 3 (FRUS VI, doc. 51), the evening before (Check).
 - MACV Forward: Westmoreland, 345, Phú Bài; Wheeler to the NSC, Feb. 7, 1968 (FRUS VI, doc. 60), Đà Nẵng (Check).
 - Wheeler's "strong resistance" cable: Westmoreland, 358, Mar. 8, 1968; JCS 2767, Mar. 9, in the Clifford patch (below).
 - The Khe Sanh link-up: Westmoreland, 347, Apr. 6, 1968; the calendar, Apr. 8 (Check).
-- The halt, Oct. 14, 1968: Westmoreland, 384, told the meeting the halt traded "an important military asset" for "a
-  questionable political result"; the notes FRUS prints (VII, doc. 69) have him say "Abrams' approach is very practical. I
-  see no problem" (Check).
+- The halt, Oct. 14, 1968: Westmoreland, 384, told the meeting the halt traded "an important military asset" for "a questionable political result"; the notes FRUS prints (VII, doc. 69) have him say "Abrams' approach is very practical. I see no problem" (Check).
 - The NSC of Oct. 31, 1968: Westmoreland, 384-85, sat along the wall with the Chiefs and was not asked; FRUS (VII, doc.
   167) has Johnson read his statement and every person agree (Check).
 
@@ -165,35 +129,23 @@ force and MACV Forward (early February); MAC 1810 and 1812 (Feb. 8); JCS 1589 (F
 
 - Nixon in South Vietnam, February 1964 (cal.1964-02.republican-party-2): the month; Nixon's own statements of the trip.
 - Westmoreland against the Joint Chiefs' proposal on the dependents and the Marines (112), late 1964: the message.
-- The White House's statement of June 1965 that the mission had not changed (135): its day; the Public Papers or the
-  press secretary's briefing.
-- The congressional committee on the M-16 in Saigon, mid-June 1967 (158): Ichord's subcommittee of House Armed
-  Services, its report and dates.
+- The White House's statement of June 1965 that the mission had not changed (135): its day; the Public Papers or the press secretary's briefing.
+- The congressional committee on the M-16 in Saigon, mid-June 1967 (158): Ichord's subcommittee of House Armed Services, its report and dates.
 - Mayborn and Bruce Clarke on the M-16 for Johnson, 1967 (202): the report.
 - Schlesinger's letter to the *Washington Post*, Mar. 22, 1968 (335), for the owner's ruling.
-- Johnson's answer on nuclear weapons, news conference of Feb. 16, 1968, 1968-69 Pub. Papers 230, at 234: the
-  entry is cal.1968-02-16.transition-and-staff (one entry, the news conference); the answer to be added to its `c`,
-  with `also: [vietnam-khe-sanh]`.
-- The single manager for air, March 1968 (cal.1968-03.vietnam-khe-sanh): the day of the order (Momyer's) and of the
-  cables to Wheeler and Sharp.
+- Johnson's answer on nuclear weapons, news conference of Feb. 16, 1968, 1968-69 Pub. Papers 230, at 234: the entry is cal.1968-02-16.transition-and-staff (one entry, the news conference); the answer to be added to its `c`, with `also: [vietnam-khe-sanh]`.
+- The single manager for air, March 1968 (cal.1968-03.vietnam-khe-sanh): the day of the order (Momyer's) and of the cables to Wheeler and Sharp.
 - Westmoreland's off-record briefing of August 1967 ("momentous decision") and his late-December interview (237-39, 312).
 
 ## Second reading (Nov. 3-4, 2026)
 
-Patch `inbox/2026-11-03-b3-westmoreland-2.yaml` (b3-westmoreland-2), witnesses `inbox/witnesses/2026-11-03-b3-westmoreland-2.yaml`.
-The same copy, downloaded again and read from its text layer at the pages below, the offsets as above; deleted when done.
+Patch `inbox/2026-11-03-b3-westmoreland-2.yaml` (b3-westmoreland-2), witnesses `inbox/witnesses/2026-11-03-b3-westmoreland-2.yaml`. The same copy, downloaded again and read from its text layer at the pages below, the offsets as above; deleted when done.
 
-The book names no cable by number and has no source notes: the numbers in the entries are FRUS's. Its quoted or recalled
-messages are registered as text-named witnesses (R38), each through a passage of the memoir (`x.1976.westmoreland-soldier-reports-<page>`,
-`part_of` the card, Westmoreland the agent, made 1976): pp. 113-14 (Taylor, Jan. 6, 1965), 122 (MAC 1190), 140 (his messages
-of June 7 and 24, 1965), 141 (MAC 3320), 350 (Wheeler's report of Johnson's call, Feb. 3, 1968), 353 (MAC 1810, JCS 1589),
-357 (Sharp's "crossroads"), 358 (JCS 2767); the entries resting on them take `via` rows. New FRUS-print witnesses, not
-yet read: MAC 1190 (II, 182), MAC 3240 (III, 17), MAC 3320 (III, 31).
+The book names no cable by number and has no source notes: the numbers in the entries are FRUS's. Its quoted or recalled messages are registered as text-named witnesses (R38), each through a passage of the memoir (`x.1976.westmoreland-soldier-reports-<page>`, `part_of` the card, Westmoreland the agent, made 1976): pp. 113-14 (Taylor, Jan. 6, 1965), 122 (MAC 1190), 140 (his messages of June 7 and 24, 1965), 141 (MAC 3320), 350 (Wheeler's report of Johnson's call, Feb. 3, 1968), 353 (MAC 1810, JCS 1589), 357 (Sharp's "crossroads"), 358 (JCS 2767); the entries resting on them take `via` rows. New FRUS-print witnesses, not yet read: MAC 1190 (II, 182), MAC 3240 (III, 17), MAC 3320 (III, 31).
 
 ### Passed over, ruled again (R14, R15, R48)
 
-The rows above that passed over operations "below the level" or events "undated" are ruled again here; the rows for
-private remarks, out of the brief, or already in stand.
+The rows above that passed over operations "below the level" or events "undated" are ruled again here; the rows for private remarks, out of the brief, or already in stand.
 
 | page | event | now |
 |---|---|---|
@@ -219,14 +171,11 @@ private remarks, out of the brief, or already in stand.
 | 357 | Sharp's "We are at a crossroads," early Mar. 1968 | entered (cal.1968-03.vietnam-205000-5) |
 | 382 | Eisenhower at Walter Reed, summer 1968 | in (cal.1968-07.elections-1968-2) |
 
-A ledger line claimed in error, before the tree was found to hold the event: cal.1964-12.vietnam-7 (b3-westmoreland-2):
-no entry written; for the merger to prune.
+A ledger line claimed in error, before the tree was found to hold the event: cal.1964-12.vietnam-7 (b3-westmoreland-2): no entry written; for the merger to prune.
 
 ### Where this run stopped
 
-Not done for this book: the witnesses for the other entries the first run made or pinned (some 120), and a fresh
-page-by-page reading of pp. 1-451 under R5-R18 beyond the rows above. The pages read again this run: 113-14, 122, 136,
-140-41, 144, 154, 158, 196, 198, 202, 317, 320, 348, 350, 353, 357-58, 382.
+Not done for this book: the witnesses for the other entries the first run made or pinned (some 120), and a fresh page-by-page reading of pp. 1-451 under R5-R18 beyond the rows above. The pages read again this run: 113-14, 122, 136, 140-41, 144, 154, 158, 196, 198, 202, 317, 320, 348, 350, 353, 357-58, 382.
 
 ### Leads (second reading)
 
@@ -237,38 +186,15 @@ page-by-page reading of pp. 1-451 under R5-R18 beyond the rows above. The pages 
 
 ## Third reading (Nov. 4, 2026): the witnesses
 
-Patch `inbox/2026-11-03-b3-westmoreland-3.yaml` (b3-westmoreland-3), witnesses
-`inbox/witnesses/2026-11-03-b3-westmoreland-3.yaml`, the book's edges `sources/witnesses/by-work/westmoreland-soldier-reports.yaml`
-(new). The same copy, downloaded again; the offsets as above, checked again at pp. 63, 110/111, 174/183, 238/255, 326/327; the
-text layer read at every page the calendar cites for the 205 entries that cite the book (the first two runs' 120-odd and the
-merger's and other readers' since); deleted when done.
+Patch `inbox/2026-11-03-b3-westmoreland-3.yaml` (b3-westmoreland-3), witnesses `inbox/witnesses/2026-11-03-b3-westmoreland-3.yaml`, the book's edges `sources/witnesses/by-work/westmoreland-soldier-reports.yaml` (new). The same copy, downloaded again; the offsets as above, checked again at pp. 63, 110/111, 174/183, 238/255, 326/327; the text layer read at every page the calendar cites for the 205 entries that cite the book (the first two runs' 120-odd and the merger's and other readers' since); deleted when done.
 
-How it was done: each cited page searched, sentence by sentence, for a record the text names, quotes or recalls (a cable,
-message, memorandum, request, report, letter, statement, press conference, briefing, interview, speech); the registry
-searched for it by date and words, and FRUS's documents of the day (the daybook, `sources/frus-text/`) for its print. Where the
-text tells an event without naming a record (his telephone calls, the meetings he sat in, the operations), no witness (R38):
-the book is his account. The preface names a diary, kept at Eisenhower's urging, "of special help in writing this account":
-registered (`x.1964.westmoreland-diary-vietnam`, the edge `viii n.preface`), no passage tied to it.
+How it was done: each cited page searched, sentence by sentence, for a record the text names, quotes or recalls (a cable, message, memorandum, request, report, letter, statement, press conference, briefing, interview, speech); the registry searched for it by date and words, and FRUS's documents of the day (the daybook, `sources/frus-text/`) for its print. Where the text tells an event without naming a record (his telephone calls, the meetings he sat in, the operations), no witness (R38): the book is his account. The preface names a diary, kept at Eisenhower's urging, "of special help in writing this account": registered (`x.1964.westmoreland-diary-vietnam`, the edge `viii n.preface`), no passage tied to it.
 
-- Witnesses: 50 new (46 text-named records, open: not found or not held; 4 FRUS prints, read: FRUS 1964–68, XXVIII, doc. 128;
-  II, docs. 258, 339; VI, doc. 21); 18 registered ones taken as the book's edges (State 1718, MAC JOO 5515, Saigon 473, State
-  1840, NSAM 328, McNamara to Johnson Apr. 21, 1965, State 753, the news conferences of July 28, 1965 and July 13, 1967,
-  COMUSMACV 09101, the AP speech and the address to Congress of Apr. 1967, MAC 12397, MAC 01849, MAC 1975, Wheeler to Johnson
-  Feb. 27, 1968, the *Times* of Mar. 10, 1968, Johnson's CAP 64375). 69 edges, Oberdorfer's *Tet!* among them (325).
-- Maps: 60 `src` ops with a `via` row; three left out where the entry already had the same via row (cal.1964-12-24.vietnam,
-  1965-04-06.vietnam, 1965-04-20.vietnam). The second run's eight entries (MAC 1190, 3240, 3320, Taylor's cable of Jan. 6, 1965,
-  CM-2944-68, MAC 1810, JCS 1589, JCS 2767, Sharp's "crossroads") not repeated.
-- Checks: cal.1965-02-22.vietnam (FRUS II, doc. 153 n.3: MAC JOO 5515 asks a Marine expeditionary brigade; the book, two
-  battalions); cal.1967-03-03.vietnam (the book: Wheeler's word "just after the first week of March").
-- Words the book gives as another's: the "program of measured and limited air action" (117) is State 1718's (FRUS II, doc.
-  115), not the White House's announcement; the "threatening posture" cable (319) is in Wheeler's CM-2927-68 (FRUS VI, doc.
-  21); the White House statement of June 9, 1965 (135) is quoted without "when other effective reserves are not available"
-  (FRUS II, doc. 339). Noted on the edges.
-- New entries (5, claimed in the ledger): Gavin's letter in *Harper's*, Feb. 1966 (129, cal.1966-02.war-opposition);
-  Westmoreland's televised press conference at Honolulu (159-60, cal.1966-02-06.vietnam-2); Johnson's suite at Honolulu, "several
-  years" (159-60, cal.1966-02-07.vietnam-2); the Council on Foreign Relations, Apr. 24, 1967 (226, cal.1967-04-24.vietnam-3); the
-  press conference at the embassy, Jan. 31, 1968 (325, cal.1968-01-31.vietnam-tet-5). Patch-check's "one event?" flags on them:
-  distinct events of the day (the conference's sessions, the AP luncheon, the offensive), kept apart.
+- Witnesses: 50 new (46 text-named records, open: not found or not held; 4 FRUS prints, read: FRUS 1964–68, XXVIII, doc. 128; II, docs. 258, 339; VI, doc. 21); 18 registered ones taken as the book's edges (State 1718, MAC JOO 5515, Saigon 473, State 1840, NSAM 328, McNamara to Johnson Apr. 21, 1965, State 753, the news conferences of July 28, 1965 and July 13, 1967, COMUSMACV 09101, the AP speech and the address to Congress of Apr. 1967, MAC 12397, MAC 01849, MAC 1975, Wheeler to Johnson Feb. 27, 1968, the *Times* of Mar. 10, 1968, Johnson's CAP 64375). 69 edges, Oberdorfer's *Tet!* among them (325).
+- Maps: 60 `src` ops with a `via` row; three left out where the entry already had the same via row (cal.1964-12-24.vietnam, 1965-04-06.vietnam, 1965-04-20.vietnam). The second run's eight entries (MAC 1190, 3240, 3320, Taylor's cable of Jan. 6, 1965, CM-2944-68, MAC 1810, JCS 1589, JCS 2767, Sharp's "crossroads") not repeated.
+- Checks: cal.1965-02-22.vietnam (FRUS II, doc. 153 n.3: MAC JOO 5515 asks a Marine expeditionary brigade; the book, two battalions); cal.1967-03-03.vietnam (the book: Wheeler's word "just after the first week of March").
+- Words the book gives as another's: the "program of measured and limited air action" (117) is State 1718's (FRUS II, doc. 115), not the White House's announcement; the "threatening posture" cable (319) is in Wheeler's CM-2927-68 (FRUS VI, doc. 21); the White House statement of June 9, 1965 (135) is quoted without "when other effective reserves are not available" (FRUS II, doc. 339). Noted on the edges.
+- New entries (5, claimed in the ledger): Gavin's letter in *Harper's*, Feb. 1966 (129, cal.1966-02.war-opposition); Westmoreland's televised press conference at Honolulu (159-60, cal.1966-02-06.vietnam-2); Johnson's suite at Honolulu, "several years" (159-60, cal.1966-02-07.vietnam-2); the Council on Foreign Relations, Apr. 24, 1967 (226, cal.1967-04-24.vietnam-3); the press conference at the embassy, Jan. 31, 1968 (325, cal.1968-01-31.vietnam-tet-5). Patch-check's "one event?" flags on them: distinct events of the day (the conference's sessions, the AP luncheon, the offensive), kept apart.
 
 ### Passed over (third reading)
 
@@ -307,27 +233,20 @@ registered (`x.1964.westmoreland-diary-vietnam`, the edge `viii n.preface`), no 
 
 National:
 - Westmoreland's CBS interview with Steve Rowan, Nov. 1967 (231, 234): the day and the broadcast; CBS's archive.
-- His press conferences: Saigon, on dissent, after Apr. 1967 (226); the northern provinces, Feb. 1968 (345); the White House
-  lawn, the link-up at Khe Sanh, Apr. 1968 (347): the days.
+- His press conferences: Saigon, on dissent, after Apr. 1967 (226); the northern provinces, Feb. 1968 (345); the White House lawn, the link-up at Khe Sanh, Apr. 1968 (347): the days.
 - Gavin's letter in *Harper's*, Feb. 1966 (129): the issue's pages; read the letter.
 
 Foreign:
 - The State cable of Feb. 1965 on a "climax" (118): FRUS 1964–68, II.
 - Vance to McNamara, July 17, 1965 (143): FRUS 1964–68, III.
-- Westmoreland's requests for B-52 strikes, Mar. and June 1965 (137), and for the Army brigade and the Phú Bài battalion, Mar.
-  1965 (125): the messages.
+- Westmoreland's requests for B-52 strikes, Mar. and June 1965 (137), and for the Army brigade and the Phú Bài battalion, Mar. 1965 (125): the messages.
 - Westmoreland's letter to Khánh on the hostage captain, Sept. 1964 (79).
 
 The Executive roster:
 - Wheeler's letter of late Dec. 1967 naming Westmoreland "the obvious candidate" for Chief of Staff (361).
 
-For the merger: three witnesses are one record, Johnson's news conference of July 28, 1965 (`x.1965-07-28.the-presidents-news-conference-july-28`,
-`x.1965-07-28.johnson-news-conference-of-july-28`, `x.1965-07-28.public-papers-of-the-presidents-lyndon`; each copies 1965 Pub.
-Papers 794): an `absorbs` amendment, not written here (other readers' rows).
+For the merger: three witnesses are one record, Johnson's news conference of July 28, 1965 (`x.1965-07-28.the-presidents-news-conference-july-28`, `x.1965-07-28.johnson-news-conference-of-july-28`, `x.1965-07-28.public-papers-of-the-presidents-lyndon`; each copies 1965 Pub. Papers 794): an `absorbs` amendment, not written here (other readers' rows).
 
 ### Where this run stopped
 
-The witnesses are done for every page cited by the 205 entries that cite the book. Not done: the FRUS prints the first two runs
-registered and did not read (MAC 1190, MAC 3240, MAC 3320: FRUS II, doc. 182; III, docs. 17, 31), the `?` row of
-cal.1964-12-24.vietnam (89: A; 113: B-E, as the first run's table had it), a fresh page-by-page reading of pp. 1-451 beyond the
-cited pages and the rows above, and Berman, *Lyndon Johnson's War*.
+The witnesses are done for every page cited by the 205 entries that cite the book. Not done: the FRUS prints the first two runs registered and did not read (MAC 1190, MAC 3240, MAC 3320: FRUS II, doc. 182; III, docs. 17, 31), the `?` row of cal.1964-12-24.vietnam (89: A; 113: B-E, as the first run's table had it), a fresh page-by-page reading of pp. 1-451 beyond the cited pages and the rows above, and Berman, *Lyndon Johnson's War*.

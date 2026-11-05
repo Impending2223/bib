@@ -1,59 +1,21 @@
 # *Congressional Quarterly Weekly Report*, Aug. 9, 1968 (vol. 26, no. 32): a reading against the calendar
 
-Card `w.cq-weekly-report`. Cited by issue date and printed page: "[[w.cq-weekly-report]], Aug. 9, 1968, 2103"; no
-link (no open copy). Read Nov. 1, 2026, from the owner's scan (53 PDF pages, no text layer), OCR'd a page a file
-(`scratchpad/cq68/pg/n68-32-NNN.txt`, page images beside them; PDF 49–53 rendered again, their images having been
-cut short by the disk, and OCR'd with tesseract). The images are about 600 dpi (4882 × 6369), not 150.
+Card `w.cq-weekly-report`. Cited by issue date and printed page: "[[w.cq-weekly-report]], Aug. 9, 1968, 2103"; no link (no open copy). Read Nov. 1, 2026, from the owner's scan (53 PDF pages, no text layer), OCR'd a page a file (`scratchpad/cq68/pg/n68-32-NNN.txt`, page images beside them; PDF 49–53 rendered again, their images having been cut short by the disk, and OCR'd with tesseract). The images are about 600 dpi (4882 × 6369), not 150.
 
-Offset: printed = PDF + 2092 throughout (PDF 1 the cover, "Pages 2094–2143"; PDF 2 p. 2094; PDF 52 the contents,
-PDF 53 the back). No page scanned twice. Checked on the running feet of pp. 2095, 2096, 2097, 2098, 2102, 2103,
-2104, 2105, 2106, 2107, 2108, 2109, 2110, 2111, 2112, 2114, 2116, 2118, 2119, 2120, 2125, 2140, 2141, 2142, 2143
-(the OCR misreads PDF 41's foot as "2139": it is p. 2133). PDF 43 (p. 2135) prints no foot; placed between 2134 and
-2136. Even pages carry the folio at the foot's left, odd at its right; a two-column page is one printed page (the
-chronology's spread, PDF 10, is p. 2102 across both columns).
+Offset: printed = PDF + 2092 throughout (PDF 1 the cover, "Pages 2094–2143"; PDF 2 p. 2094; PDF 52 the contents, PDF 53 the back). No page scanned twice. Checked on the running feet of pp. 2095, 2096, 2097, 2098, 2102, 2103, 2104, 2105, 2106, 2107, 2108, 2109, 2110, 2111, 2112, 2114, 2116, 2118, 2119, 2120, 2125, 2140, 2141, 2142, 2143 (the OCR misreads PDF 41's foot as "2139": it is p. 2133). PDF 43 (p. 2135) prints no foot; placed between 2134 and
+2136. Even pages carry the folio at the foot's left, odd at its right; a two-column page is one printed page (the chronology's spread, PDF 10, is p. 2102 across both columns).
 
-What it is: the convention (pp. 2095–98), the platform's analysis (2099–2101), CQ's hour-by-hour chronology, Aug. 1–8
-(2102–05, continued 2140–41; Aug. 1 begins here, the days before in the issue of Aug. 2, p. 2067), politics (the
-candidates, the Presidential Scoreboard, the primaries of Aug. 1 and 6, the Virginia elector suit: 2106–11), floor
-action (2112–16), committees (2117–18), around the Capitol (2119–20, 2142), the President's news conference of July
-31 and statements (2121–25), the platform's text (2126–34), Evans's keynote (2134–36), Nixon's acceptance (2137–39,
-2142), the index (2143). Not read for entries: the platform's, the keynote's and the acceptance's texts beyond the
-passages cited; the news conference beyond the passages cited.
+What it is: the convention (pp. 2095–98), the platform's analysis (2099–2101), CQ's hour-by-hour chronology, Aug. 1–8 (2102–05, continued 2140–41; Aug. 1 begins here, the days before in the issue of Aug. 2, p. 2067), politics (the candidates, the Presidential Scoreboard, the primaries of Aug. 1 and 6, the Virginia elector suit: 2106–11), floor action (2112–16), committees (2117–18), around the Capitol (2119–20, 2142), the President's news conference of July 31 and statements (2121–25), the platform's text (2126–34), Evans's keynote (2134–36), Nixon's acceptance (2137–39, 2142), the index (2143). Not read for entries: the platform's, the keynote's and the acceptance's texts beyond the passages cited; the news conference beyond the passages cited.
 
-Records: none. The *Weekly Report* has no notes; it names its sources in the text (UPI, CBS, NBC, the *New York
-Post*): no `sources/cited-records/` file. Primary record read: the Public Papers' text of Johnson's statement of July
-31 on the Census and BLS report (`sources/ppp-text`, item 423, p. 854), which bears out CQ's partial text (59
-percent). Found, not read: the Virginia court's opinion (Bryan), the Florida court's dismissal of Aug. 7, Public Law
-90-449, the roll calls of July 31 on Voteview, the States' canvasses of the primaries.
+Records: none. The *Weekly Report* has no notes; it names its sources in the text (UPI, CBS, NBC, the *New York Post*): no `sources/cited-records/` file. Primary record read: the Public Papers' text of Johnson's statement of July 31 on the Census and BLS report (`sources/ppp-text`, item 423, p. 854), which bears out CQ's partial text (59 percent). Found, not read: the Virginia court's opinion (Bryan), the Florida court's dismissal of Aug. 7, Public Law 90-449, the roll calls of July 31 on Voteview, the States' canvasses of the primaries.
 
-Patch: `inbox/2026-11-01-cq-1968-08-09.yaml`: 118 new entries, each claimed in the ledger; cites on 12 entries
-already in the calendar (and 7 Checks). patch-check: 0 errors; 83 warnings, each a same-day, same-thread set of
-distinct events (the convention's days: Aug. 4 holds 13 of them, the caucuses and statements CQ dates that day). A
-trial merge into a scratch copy of the tree flags the same sets as duplicates (72); each is a distinct event
-(`--take keep`).
+Patch: `inbox/2026-11-01-cq-1968-08-09.yaml`: 118 new entries, each claimed in the ledger; cites on 12 entries already in the calendar (and 7 Checks). patch-check: 0 errors; 83 warnings, each a same-day, same-thread set of distinct events (the convention's days: Aug. 4 holds 13 of them, the caucuses and statements CQ dates that day). A trial merge into a scratch copy of the tree flags the same sets as duplicates (72); each is a distinct event (`--take keep`).
 
 ## Checked against the page images (Nov. 1, 2026)
 
-Every figure, date, time, name, vote and quotation in the patch was read on the page image (crops at 560–1000 px a
-column, from the 600-dpi scans), not taken from the OCR: pp. 2096 (right column: the nominations, the first ballot,
-the changes), 2097 (right column: the vice-presidential ballot), 2102 (both columns), 2103 (both), 2104 (both), 2105
-(both), 2106 (whole), 2107 (the Scoreboard), 2108 (the Tennessee results, Flowers), 2109 (Michigan, Idaho, Kansas's
-governor), 2110 (Kansas, Missouri's Senate and governor, the 1st and 2nd Districts), 2111 (left column: the 2nd
-District's Republicans to the 10th), 2112 (the appropriation's totals), 2114 (whole: the transportation report's
-adoption, the foreign aid amendments), 2116 (whole), 2117 (the airport hearing), 2118 (the committee changes), 2119
-(whole), 2120 (both columns: the riot studies, the deficit, the ACIR), 2107's right column and 2108's left (McCarthy), 2115's
-right column (cotton), 2117's right column (air pollution), 2118's left column (boating), 2135 (the keynote's passage), 2140 (both),
-2141 (both), 2142 (left column: the adjournment, Rule 38, CORE, credentials). Not image-read, and so not used for a
-figure: pp. 2098 (the ballot chart), 2099–2101 (cited only for the plank's drafting, with 2097 and 2103–04, whose
-images were read), 2115's left column (cotton's provisions: Egypt and the Sudan, also on its right column, read),
-2121–24 (the transcript; its steel and Fortas
-passages agree with the Public Papers already cited), 2125 (the census statement; checked against the Papers' text
-instead), 2137 (the acceptance's "forgotten Americans" passage, against the Papers' wording already in the entry:
-CQ prints commas where the entry has a semicolon and a dash), 2118's right column (the boating industry's
-testimony: no figure or quotation used), 2142's right column (rules: no figure used).
+Every figure, date, time, name, vote and quotation in the patch was read on the page image (crops at 560–1000 px a column, from the 600-dpi scans), not taken from the OCR: pp. 2096 (right column: the nominations, the first ballot, the changes), 2097 (right column: the vice-presidential ballot), 2102 (both columns), 2103 (both), 2104 (both), 2105 (both), 2106 (whole), 2107 (the Scoreboard), 2108 (the Tennessee results, Flowers), 2109 (Michigan, Idaho, Kansas's governor), 2110 (Kansas, Missouri's Senate and governor, the 1st and 2nd Districts), 2111 (left column: the 2nd District's Republicans to the 10th), 2112 (the appropriation's totals), 2114 (whole: the transportation report's adoption, the foreign aid amendments), 2116 (whole), 2117 (the airport hearing), 2118 (the committee changes), 2119 (whole), 2120 (both columns: the riot studies, the deficit, the ACIR), 2107's right column and 2108's left (McCarthy), 2115's right column (cotton), 2117's right column (air pollution), 2118's left column (boating), 2135 (the keynote's passage), 2140 (both), 2141 (both), 2142 (left column: the adjournment, Rule 38, CORE, credentials). Not image-read, and so not used for a figure: pp. 2098 (the ballot chart), 2099–2101 (cited only for the plank's drafting, with 2097 and 2103–04, whose images were read), 2115's left column (cotton's provisions: Egypt and the Sudan, also on its right column, read), 2121–24 (the transcript; its steel and Fortas passages agree with the Public Papers already cited), 2125 (the census statement; checked against the Papers' text instead), 2137 (the acceptance's "forgotten Americans" passage, against the Papers' wording already in the entry: CQ prints commas where the entry has a semicolon and a dash), 2118's right column (the boating industry's testimony: no figure or quotation used), 2142's right column (rules: no figure used).
 
-The OCR agreed with the images in every figure checked. The images showed what the OCR lost: p. 2096's totals after
-the changes, "Nixon 1,238, Rockefeller 93, Reagan 2" (the OCR dropped Reagan 2).
+The OCR agreed with the images in every figure checked. The images showed what the OCR lost: p. 2096's totals after the changes, "Nixon 1,238, Rockefeller 93, Reagan 2" (the OCR dropped Reagan 2).
 
 ## Cites added to entries already in the calendar
 
@@ -85,19 +47,12 @@ the changes, "Nixon 1,238, Rockefeller 93, Reagan 2" (the OCR dropped Reagan 2).
 | cal.1968-08-04.opinion | Gallup, June 26–July 1, released Aug. 4 | released Aug. 3, "taken in mid-July"; May, 42 percent (2119) | *The Gallup Poll*, III, 2151 (cited) | Check added; the entry stands |
 | cal.1968-08-06.governors-ks | Harman over Crutcher, 133,454 to 128,635 (the State's canvass) | "Harmon 174,023 (59.2 percent); Crutcher 119,966 (40.8 percent)," almost complete returns (2109) | the canvass, cited in the entry | the canvass stands; no cite, no Check there; the Kansas Senate entry carries the Check on CQ's returns |
 
-Other things CQ gets wrong, not in any entry: Wisconsin's "50" votes (2096; 30 on 2095 and 2141); Dewey "the 1944
-and 1928" nominee (2105); New Jersey's poll at "1:27 p.m." (2141, among a.m. times); the keynote's text "see p.
-2134" (it begins there and runs to 2136); Loveland's count "12,67" (2109); the 6th District's "40 of 407 precincts"
-(2108).
+Other things CQ gets wrong, not in any entry: Wisconsin's "50" votes (2096; 30 on 2095 and 2141); Dewey "the 1944 and 1928" nominee (2105); New Jersey's poll at "1:27 p.m." (2141, among a.m. times); the keynote's text "see p. 2134" (it begins there and runs to 2136); Loveland's count "12,67" (2109); the 6th District's "40 of 407 precincts" (2108).
 
 ## For the orchestrator
 
-1. The President's news conference of July 31 (2121–24) is in the calendar twice already (steel, Fortas). Its
-   Vietnam passage, "a massive enemy effort is underway to re-equip ... and to retrain for massive attacks," the
-   infiltration "now greater than at any other time in this war" (2119, 2122), is in no entry. One event, one entry:
-   add `also: [vietnam]` and a sentence to one of them, or rule. Not done here.
-2. Entries pending in the legacy patches of Oct. 29 (not in the tree, not in the ledger; an additive op on them is
-   refused), which CQ bears on. Once they land, these ops:
+1. The President's news conference of July 31 (2121–24) is in the calendar twice already (steel, Fortas). Its Vietnam passage, "a massive enemy effort is underway to re-equip ... and to retrain for massive attacks," the infiltration "now greater than at any other time in this war" (2119, 2122), is in no entry. One event, one entry: add `also: [vietnam]` and a sentence to one of them, or rule. Not done here.
+2. Entries pending in the legacy patches of Oct. 29 (not in the tree, not in the ledger; an additive op on them is refused), which CQ bears on. Once they land, these ops:
 
 ```yaml
 - cite: {id: cal.1968-08-05.elections-1968-miami, item: '[[w.cq-weekly-report]], Aug. 9, 1968, 2105 (Goldwater''s speech, 10 p.m.; a four-minute ovation)', units: A}
@@ -109,8 +64,7 @@ and 1928" nominee (2105); New Jersey's poll at "1:27 p.m." (2141, among a.m. tim
 - check: {id: cal.1968-08.elections-1968-miami, text: 'Check: the same paper as Nixon''s statement on Vietnam for the Platform Committee, released Aug. 1, 9:37 a.m.? See [[cal.1968-08-01.elections-1968-miami-2]] (CQ gives no word of the NLF).'}
 ```
 
-3. The day blocks: Aug. 4 and Aug. 6 hold 13 and 14 new Miami Beach entries. Each is a distinct statement, caucus
-   or act CQ dates; none bundles two.
+3. The day blocks: Aug. 4 and Aug. 6 hold 13 and 14 new Miami Beach entries. Each is a distinct statement, caucus or act CQ dates; none bundles two.
 
 ## New entries (118)
 
@@ -235,10 +189,7 @@ and 1928" nominee (2105); New Jersey's poll at "1:27 p.m." (2141, among a.m. tim
 
 ## Passed over
 
-Made by reading every page but the three texts (platform, keynote, acceptance) and the transcript sentence by
-sentence for dated events, and the chronology hour by hour; each dated event not entered is a row. Events already
-in the calendar took their cites above, or are listed under "For the orchestrator" where an op waits on a pending
-entry.
+Made by reading every page but the three texts (platform, keynote, acceptance) and the transcript sentence by sentence for dated events, and the chronology hour by hour; each dated event not entered is a row. Events already in the calendar took their cites above, or are listed under "For the orchestrator" where an op waits on a pending entry.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -298,15 +249,8 @@ National
 - The federal court's dismissal of the Florida and Louisiana suits, Aug. 7: the case and the judge (CQ names neither).
 - The Proceedings (cited in cal.1968-08-07.elections-1968) on Reagan's motion: put to a vote or not (CQ says not).
 - Columnists: none named.
-- Persons without name entries named in the new entries: Robert T. Hood Jr. (N.C.), Orvas Beerman (Ind.), Barrington
-  D. Parker, Joy Rohm, William Murfin, Charles deGravelles, Von D. Mizell, Leslie Slote, Robert R. Douglass, Burns W.
-  Roper, Wainwright Dawson Jr., Cass S. Hough, John Millett, J. Robert Stassen,
-  Buena Chaney, Kenneth T. Lyons, John S. Andrews, Jack McDonald of the Young Republicans (not tagged: CQ names a
-  Michigan Representative Jack McDonald too, 2109; whether one man, not settled), Samuel C. Jackson (tagged; check the
-  tag is the same man). For Part III K–J Cong. III.K, where the owner wants them.
+- Persons without name entries named in the new entries: Robert T. Hood Jr. (N.C.), Orvas Beerman (Ind.), Barrington D. Parker, Joy Rohm, William Murfin, Charles deGravelles, Von D. Mizell, Leslie Slote, Robert R. Douglass, Burns W. Roper, Wainwright Dawson Jr., Cass S. Hough, John Millett, J. Robert Stassen, Buena Chaney, Kenneth T. Lyons, John S. Andrews, Jack McDonald of the Young Republicans (not tagged: CQ names a Michigan Representative Jack McDonald too, 2109; whether one man, not settled), Samuel C. Jackson (tagged; check the tag is the same man). For Part III K–J Cong. III.K, where the owner wants them.
 
 States and cities
-- The primaries of Aug. 1 (Tennessee) and Aug. 6 (Michigan, Idaho, Kansas, Missouri): CQ's figures are unofficial;
-  the States' canvasses (`sources/states.yaml`; Kansas's *Election Statistics, 1968*, KGI Online Library) to replace
-  them. CQ's Kansas governor's figures (2109) are far from the canvass the calendar already cites.
+- The primaries of Aug. 1 (Tennessee) and Aug. 6 (Michigan, Idaho, Kansas, Missouri): CQ's figures are unofficial; the States' canvasses (`sources/states.yaml`; Kansas's *Election Statistics, 1968*, KGI Online Library) to replace them. CQ's Kansas governor's figures (2109) are far from the canvass the calendar already cites.
 - Missouri's 1st District: CQ calls Clay's primary win the assurance of the State's first Negro Representative.

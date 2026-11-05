@@ -65,6 +65,15 @@ CAREER = {'career': 'Career Foreign Service officer', 'non-career': 'Non-career 
           'both': 'Career Foreign Service officer and non-career appointee'}
 
 
+
+def _unwrap(text):
+    """Markdown without hard wraps (tools/bib/mdwrap.py, its STYLE; the owner, Nov. 5, 2026)."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("mdwrap", os.path.join(os.path.join(HERE, '..', '..'), "tools", "bib", "mdwrap.py"))
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m.unwrap(text)
+
 def text(e, path):
     x = e.find(path)
     return (x.text or '').strip() if x is not None and x.text else ''
@@ -279,7 +288,7 @@ def main():
               f'{recs[i]["death"]}): {w}' for n, i, w in accepted]
     lines += ['', '## Refused', '']
     lines += [f'- {n}: {i}: {w}' for n, i, w in refused]
-    open(REPORT, 'w', encoding='utf-8').write('\n'.join(lines) + '\n')
+    open(REPORT, 'w', encoding='utf-8').write(_unwrap('\n'.join(lines)) + '\n')
     print(len(match), 'persons;', len(accepted), 'by name;', len(refused), 'refused', file=sys.stderr)
 
 

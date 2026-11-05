@@ -405,6 +405,12 @@ The thread index (Part I of the calendar) is generated from `thread` and
 
 ### House style (keep it)
 
+Markdown files (`.md`, the notes, briefs, memos, listings, READMEs) are not hard-wrapped: a paragraph or a list item is
+one line, so the in-app reader and GitHub break lines only at the screen's edge (the owner, Nov. 5, 2026: "unwrap them
+all, fix the scripts"). A generator of a `.md` passes its text through `unwrap` in `tools/bib/mdwrap.py` (its STYLE);
+`python3 -I tools/notes/unwrap_md.py FILE.md` unwraps one by hand. Code, YAML and this file's own source keep their
+wrap until it is unwrapped too.
+
 Short declarative sentences. A calendar note points back ("See [[id]]"), not forward; where an earlier entry
 must name a later one, it says what it is ("Reply: [[id]]", "The order: [[id]]", "Bibliography: [[id]]" where a
 thread's first entry is excepted, `ok:thread-first`). A law the entry reports enacted is cited in `c` after its name, linked, as a case's
@@ -437,10 +443,14 @@ quotation is not read, and an entry the form does not fit (several places on one
 `ok:result-form`. Not results: a convention's ballot of delegates, electoral votes, the polls, other countries'
 parliamentary elections.
 
-Leads (the owner's standing rule, Oct. 18, 2026): anything recalled but not placed or verified (an event without a
-date, a figure without a source read, a source not reached, an item left out as minor) is written into
-`notes/leads.md` under its heading (States and cities, National, Foreign, the Executive roster), with the entry it
-concerns and where to look; never into the calendar unchecked. A lead leaves the list when it is entered or settled. Every
+Leads (the owner's standing rule, Oct. 18, 2026; restated Nov. 5, 2026): a lead is what cannot yet go into the
+calendar on a source in hand: a source not reached or a host refused, an event no source read dates, a figure no source
+read gives, a thing recalled and not verified. It is written into `notes/leads.md` under its heading (States and cities,
+National, Foreign, the Executive roster), with the entry it concerns and where to look; never into the calendar
+unchecked. Not a lead: an event a source in hand dates, however loosely ("ten days before the convention"), which is an
+entry ("Check: the day" where the day is loose); a source in hand that disagrees with an entry, which is a variant
+(R41 of the reader's brief) or a "Check:"; an item passed over as minor, which is a row of "Passed over" with R18's
+ground, for the owner to rule (R44). A lead leaves the list when it is entered or settled. Every
 drafting brief asks its agents for their leads, and they go into the file when their work is merged.
 
 A run of calendar dates, wherever the series prints one (the thread index, the pointers under each member and holder in

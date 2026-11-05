@@ -26,6 +26,7 @@ import re
 from collections import defaultdict
 
 from . import store
+from .mdwrap import unwrap
 
 OUT = os.path.join(store.ROOT, "notes", "calendar-audit.md")
 
@@ -235,5 +236,5 @@ def report(series):
             "| Thread | Statement |", "|---|---|"]
     out += [f"| {s} | {c.replace('|', '/')} |" for _, s, c in sorted(threads, key=lambda x: x[1] or "")]
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    open(OUT, "w", encoding="utf-8").write("\n".join(out) + "\n")
+    open(OUT, "w", encoding="utf-8").write(unwrap("\n".join(out)) + "\n")
     return OUT, total, len(names), len(event), len(prim_none), len(prim_unlinked), len(threads)

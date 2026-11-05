@@ -1,25 +1,12 @@
 # *Congressional Quarterly Weekly Report*, June 21, 1968 (vol. 26, no. 25): a reading against the calendar
 
-Card `w.cq-weekly-report`. Cited by issue date and printed page: "[[w.cq-weekly-report]], June 21, 1968, 1533". Read
-Oct. 31–Nov. 1, 2026, from the owner's scan, 65 PDF pages without a text layer, OCR'd a page a file
-(`scratchpad/cq68/pg/n68-25-NNN.txt`, 150 dpi images beside them). Printed = PDF + 1504, checked on the running feet of
-pp. 1533, 1534, 1535, 1543, 1544, 1545, 1547. The prose's figures and quotations from the OCR, which reads the prose
-cleanly; checked against the page images: p. 1543 (the McCarthy column whole, "April 15" as printed), p. 1544 (the
-Senate primary table: the OCR lost Resnick's line, 217,141 and 29.6 on the page), p. 1545 (every House race table:
-Lowenstein 57.5, not the OCR's 97.5), p. 1548 (Inouye's support, "April 27"; the OCR read "April zi"). Every share
-in a `c` was recomputed from CQ's counts and agrees.
+Card `w.cq-weekly-report`. Cited by issue date and printed page: "[[w.cq-weekly-report]], June 21, 1968, 1533". Read Oct. 31–Nov. 1, 2026, from the owner's scan, 65 PDF pages without a text layer, OCR'd a page a file (`scratchpad/cq68/pg/n68-25-NNN.txt`, 150 dpi images beside them). Printed = PDF + 1504, checked on the running feet of pp. 1533, 1534, 1535, 1543, 1544, 1545, 1547. The prose's figures and quotations from the OCR, which reads the prose cleanly; checked against the page images: p. 1543 (the McCarthy column whole, "April 15" as printed), p. 1544 (the Senate primary table: the OCR lost Resnick's line, 217,141 and 29.6 on the page), p. 1545 (every House race table: Lowenstein 57.5, not the OCR's 97.5), p. 1548 (Inouye's support, "April 27"; the OCR read "April zi"). Every share in a `c` was recomputed from CQ's counts and agrees.
 
-Patch: `inbox/2026-10-31-cq-1968-06-21.yaml` (59 new entries, 5 cites, 1 check on a pending entry), each new id claimed
-in the ledger. `patch-check`: 0 errors; 49 warnings, all "one event?" for same-day entries in 1968 elections, each a
-distinct event (`--take keep`). Names tokens and `name:` tags held against the name index in memory: all resolve. No
-scratch merge: the disk was full (28 MB free) when tried.
+Patch: `inbox/2026-10-31-cq-1968-06-21.yaml` (59 new entries, 5 cites, 1 check on a pending entry), each new id claimed in the ledger. `patch-check`: 0 errors; 49 warnings, all "one event?" for same-day entries in 1968 elections, each a distinct event (`--take keep`). Names tokens and `name:` tags held against the name index in memory: all resolve. No scratch merge: the disk was full (28 MB free) when tried.
 
-What it is read for: the owner's request, the Fact Sheet on the candidates' organizations (pp. 1533–40) and the
-Politics notices (pp. 1540–49): every dated event in them. Then the Floor Action's lead story (p. 1507). The rest of
-the issue was not read in this run (Passed over, below, item by item).
+What it is read for: the owner's request, the Fact Sheet on the candidates' organizations (pp. 1533–40) and the Politics notices (pp. 1540–49): every dated event in them. Then the Floor Action's lead story (p. 1507). The rest of the issue was not read in this run (Passed over, below, item by item).
 
-Records: none. The *Weekly Report* has no notes; it names its sources in the text (the AP, the *New York Times*, a
-Wallace spokesman, *U.S. News and World Report*, the *Evening Star*): no `sources/cited-records/` file.
+Records: none. The *Weekly Report* has no notes; it names its sources in the text (the AP, the *New York Times*, a Wallace spokesman, *U.S. News and World Report*, the *Evening Star*): no `sources/cited-records/` file.
 
 ## The cites it had
 
@@ -44,32 +31,13 @@ None for this issue.
 
 ## New entries (59)
 
-The organizations (pp. 1533–40), each "by CQ's list" at mid-June, filed to the month (`date: '1968-06'`), its chief
-officers in `c`, the rest of CQ's list in `n` as raw material: Nixon, Rockefeller, Humphrey, McCarthy, Wallace (1968
-elections), Robert Kennedy's campaign (its thread). Dated events from the same pages: the Rockefeller for President
-Committee organized (May 1968); United Democrats for Humphrey's organizing committee (Apr. 11); Klein joins Nixon (June);
-Slote from Wagner to Rockefeller (Nov. 1965); Goodwin from McCarthy to Kennedy (Apr., after Apr. 2); Inouye for Humphrey
-(Apr. 27); the Liberal Party designates Javits (Mar. 30).
-Politics, June 11–20 (pp. 1540–49): Nixon (no debate, June 12; Chicago strategy, June 15–16; guns, June 17);
-Rockefeller (Town Hall and Watts, June 12; Commonwealth Club and Callaway, the debate challenge, his advertising, guns,
-June 13; *U.S. News*, June 16; federal aid, June 17; the congressional Republicans, June 18); ABC's invitations (June
-13); Stassen (headquarters, June 12; Minnesota convention, June 13); Humphrey (Poor People's Campaign, June 15; Press
-Club, June 20); Moyers (June 16), Sherman, Rowan, Mondale and Harris (June 18); McCarthy (the *Times*, the Fellowship of
-Reconciliation, June 13; Idaho Falls, June 14; Phoenix, June 15; guns and a third party, June 16; the Newspaper Guild,
-June 18; his strategists, June 20; Paris, Apr. 15, with Hanoi's diplomats' interest, June 17); ADA's board (June 15);
-Wallace's tour (June 11–17) and Charleston (June 18); Winthrop Rockefeller (June 17); Landon (June 17); Agnew (June 11);
-the Republican governors at Tulsa (June 14–15) and *Meet the Press* (June 16); North Dakota's Republican convention
-(June 13–15); Bailey's convention officers and Stephen Mitchell's answer (June 18); New York's primary: delegates,
-Senate, House (June 18); Maine's House primaries (June 17). Congress: Gross's resolution tabled (June 20).
+The organizations (pp. 1533–40), each "by CQ's list" at mid-June, filed to the month (`date: '1968-06'`), its chief officers in `c`, the rest of CQ's list in `n` as raw material: Nixon, Rockefeller, Humphrey, McCarthy, Wallace (1968 elections), Robert Kennedy's campaign (its thread). Dated events from the same pages: the Rockefeller for President Committee organized (May 1968); United Democrats for Humphrey's organizing committee (Apr. 11); Klein joins Nixon (June); Slote from Wagner to Rockefeller (Nov. 1965); Goodwin from McCarthy to Kennedy (Apr., after Apr. 2); Inouye for Humphrey (Apr. 27); the Liberal Party designates Javits (Mar. 30). Politics, June 11–20 (pp. 1540–49): Nixon (no debate, June 12; Chicago strategy, June 15–16; guns, June 17); Rockefeller (Town Hall and Watts, June 12; Commonwealth Club and Callaway, the debate challenge, his advertising, guns, June 13; *U.S. News*, June 16; federal aid, June 17; the congressional Republicans, June 18); ABC's invitations (June 13); Stassen (headquarters, June 12; Minnesota convention, June 13); Humphrey (Poor People's Campaign, June 15; Press Club, June 20); Moyers (June 16), Sherman, Rowan, Mondale and Harris (June 18); McCarthy (the *Times*, the Fellowship of Reconciliation, June 13; Idaho Falls, June 14; Phoenix, June 15; guns and a third party, June 16; the Newspaper Guild, June 18; his strategists, June 20; Paris, Apr. 15, with Hanoi's diplomats' interest, June 17); ADA's board (June 15); Wallace's tour (June 11–17) and Charleston (June 18); Winthrop Rockefeller (June 17); Landon (June 17); Agnew (June 11); the Republican governors at Tulsa (June 14–15) and *Meet the Press* (June 16); North Dakota's Republican convention (June 13–15); Bailey's convention officers and Stephen Mitchell's answer (June 18); New York's primary: delegates, Senate, House (June 18); Maine's House primaries (June 17). Congress: Gross's resolution tabled (June 20).
 
-For the orchestrator: the six organization entries are a state of affairs, not an event-day; they are filed to the
-month so the material is in the calendar. The Kennedy one in particular describes his campaign after it ended. The
-owner may prefer them as raw material under each campaign's first entry.
+For the orchestrator: the six organization entries are a state of affairs, not an event-day; they are filed to the month so the material is in the calendar. The Kennedy one in particular describes his campaign after it ended. The owner may prefer them as raw material under each campaign's first entry.
 
 ## Passed over
 
-Made by going through pp. 1533–49 sentence by sentence and listing every dated event within the span that CQ treats or
-mentions and that is not entered or cited above; then each item of the pages not read, from the page's headings.
+Made by going through pp. 1533–49 sentence by sentence and listing every dated event within the span that CQ treats or mentions and that is not entered or cited above; then each item of the pages not read, from the page's headings.
 
 | Page | Date | Event | Why |
 |---|---|---|---|

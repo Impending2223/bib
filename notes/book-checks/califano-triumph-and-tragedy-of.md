@@ -1,24 +1,10 @@
 # Joseph A. Califano Jr., *The Triumph and Tragedy of Lyndon Johnson* (1991): a reading against the calendar
 
-Card `w.califano-triumph-and-tragedy-of`. Read Nov. 3–4, 2026 (batch 3 resumed, staff group) from the owner's copy
-(Drive 1qh9YNGwqjzrSf7bgtfzWw_L6Hn0oa1Ek; the Internet Archive's scan, Simon & Schuster 1991, 424 PDF pages, a text
-layer): printed page = PDF page - 4 to p. 128, PDF page - 20 from p. 129 (the plates, sixteen leaves, fall between 128
-and 129 and are not counted in the folios); checked against the page images at 9, 41, 128, 129, 209, 262, 309 and the
-running heads. Every page of the text, 9–341, read in order, and the source notes, 345–82, for the passages cited.
+Card `w.califano-triumph-and-tragedy-of`. Read Nov. 3–4, 2026 (batch 3 resumed, staff group) from the owner's copy (Drive 1qh9YNGwqjzrSf7bgtfzWw_L6Hn0oa1Ek; the Internet Archive's scan, Simon & Schuster 1991, 424 PDF pages, a text layer): printed page = PDF page - 4 to p. 128, PDF page - 20 from p. 129 (the plates, sixteen leaves, fall between 128 and 129 and are not counted in the folios); checked against the page images at 9, 41, 128, 129, 209, 262, 309 and the running heads. Every page of the text, 9–341, read in order, and the source notes, 345–82, for the passages cited.
 
-Patches: `inbox/2026-11-03-b3-califano-2.yaml` (b3-califano-2: 397 ops, 199 new entries, 146 cites, 40 src, 12
-checks) and `inbox/2026-11-03-b3-califano-3.yaml` (b3-califano-3: 41 ops, 2 new entries, 36 cites, 3 checks): the
-second holds the events first ruled Passed over below that the calendar already holds (R44), which take the cite. Every
-new entry claimed in the ledger. Witnesses: `inbox/witnesses/2026-11-03-b3-califano-2.yaml` (179: Califano's own
-records, the memoranda, the Daily Diary's days, the transcripts and reports his notes give) and the work's edges,
-`sources/witnesses/by-work/califano-triumph-and-tragedy-of.yaml` (210).
+Patches: `inbox/2026-11-03-b3-califano-2.yaml` (b3-califano-2: 397 ops, 199 new entries, 146 cites, 40 src, 12 checks) and `inbox/2026-11-03-b3-califano-3.yaml` (b3-califano-3: 41 ops, 2 new entries, 36 cites, 3 checks): the second holds the events first ruled Passed over below that the calendar already holds (R44), which take the cite. Every new entry claimed in the ledger. Witnesses: `inbox/witnesses/2026-11-03-b3-califano-2.yaml` (179: Califano's own records, the memoranda, the Daily Diary's days, the transcripts and reports his notes give) and the work's edges, `sources/witnesses/by-work/califano-triumph-and-tragedy-of.yaml` (210).
 
-What the book is: Califano's memoir of his years as Johnson's chief domestic aide (July 1965-Jan. 1969), with the
-earlier chapters on the Pentagon (1961–65) in brief. Its author's account throughout, built on his own records: the
-source notes (345–82, numbered by chapter) cite his Day-at-a-Glance (DG), telephone logs (TL), steno pads (SP), the
-notes he dictated in 1969 (69N), his author interviews (AI), the oral histories (OH), the President's Daily Diary
-(PDD) and the memoranda in the LBJ Library. Califano's own records he says he gave to the Library with the book (345):
-not held here; each is a witness, `open: not held`.
+What the book is: Califano's memoir of his years as Johnson's chief domestic aide (July 1965-Jan. 1969), with the earlier chapters on the Pentagon (1961–65) in brief. Its author's account throughout, built on his own records: the source notes (345–82, numbered by chapter) cite his Day-at-a-Glance (DG), telephone logs (TL), steno pads (SP), the notes he dictated in 1969 (69N), his author interviews (AI), the oral histories (OH), the President's Daily Diary (PDD) and the memoranda in the LBJ Library. Califano's own records he says he gave to the Library with the book (345): not held here; each is a witness, `open: not held`.
 
 ## The citations it had (22)
 
@@ -53,8 +39,7 @@ not held here; each is a witness, `open: not held`.
 - `cal.1965-07-29.vietnam-support`: Califano names Wheeler, not Goldberg, among the briefers (47).
 - `cal.1965-08-10.voting-rights`: Califano names Mississippi among the week's poll-tax suits (58).
 - `cal.1965-10-03.desegregation-schools`: Califano puts Daley's meeting on Oct. 4, the morning Johnson met the Pope (72).
-- `cal.1965-11-06.economy`, `cal.1965-11-18.economy`: the aluminum stockpile's tonnages and the day of McNamara's
-  announcement (100, 102).
+- `cal.1965-11-06.economy`, `cal.1965-11-18.economy`: the aluminum stockpile's tonnages and the day of McNamara's announcement (100, 102).
 - `cal.1965-12-31.steel`: Califano gives $5 a ton (102).
 - `cal.1966-12-21.elections-1966`: the governors, Hearnes leading, on the school guidelines all afternoon (177–78).
 - `cal.1967-07-14.civil-disorders-newark-2`: the UPI report of Humphrey's offer, Saturday, July 15 (209–10).
@@ -62,43 +47,19 @@ not held here; each is a witness, `open: not held`.
 - `cal.1968-04-06.civil-disorders-baltimore`: the Baltimore proclamation and order handed Johnson at dinner, Apr. 7 (280–81).
 - `cal.1968-03-22.transition-and-staff`: the answer on the Kerner report at the news conference is not in the entry (262; the Papers print it).
 - `cal.1968-04-10.elections-1968`: Califano puts Johnson's word to Rockefeller at Cooke's installation Apr. 4, his "available" Apr. 10 (290).
-- New entries carrying their own Checks: Weaver's visit Oct. 17, 1965 (127; the DG has Oct. 27); the days of the
-  entries the book dates by month or season.
+- New entries carrying their own Checks: Weaver's visit Oct. 17, 1965 (127; the DG has Oct. 27); the days of the entries the book dates by month or season.
 
 ## New entries (201)
 
-By year: 1963, 2 (Nov. 23–24: Johnson's first calls); 1964, 7 (Yarmolinsky and the poverty bill, Aug. 7–15; the
-staff after the election); 1965, 71 (Califano's arrival in July; the July decision; Watts; the steel settlement; the
-aluminum and copper stockpiles; the highway beauty bill; Weaver; the Fed's discount rate; the 1966 program); 1966, 50
-(the steel prices; Demonstration Cities; the Mexican American leaders; the airline strike; Penn-Central; the press,
-McGrory's column; the population statement; the District's commissioners); 1967, 44 (the surcharge; the railroads;
-the draft; Newark and Detroit; Kerner; the District's reorganization, Walter Washington; Hunter's story in the *Times*);
-1968, 24 (JOBS; Kerner's report; the withdrawal; King's death and the riots; the surcharge's passage; Robert Kennedy's
-death; Chicago, the film and the message; the Pope's offer of the Vatican, Apr. 27); 1969, 3 (the surcharge's
-extension; Jan. 19). And in the third patch: the ICC's approval of the Penn-Central merger, Apr. 6, 1966 (159), and
-Bundy's memorandum on the French analogy, June 30, 1965 (34; FRUS 1964–68, III, doc. 33). The merge flags some
-thirty as possible duplicates of another entry of the day and thread; each is a separate event (a memorandum and the
-meeting it reports, a call and the reply).
+By year: 1963, 2 (Nov. 23–24: Johnson's first calls); 1964, 7 (Yarmolinsky and the poverty bill, Aug. 7–15; the staff after the election); 1965, 71 (Califano's arrival in July; the July decision; Watts; the steel settlement; the aluminum and copper stockpiles; the highway beauty bill; Weaver; the Fed's discount rate; the 1966 program); 1966, 50 (the steel prices; Demonstration Cities; the Mexican American leaders; the airline strike; Penn-Central; the press, McGrory's column; the population statement; the District's commissioners); 1967, 44 (the surcharge; the railroads; the draft; Newark and Detroit; Kerner; the District's reorganization, Walter Washington; Hunter's story in the *Times*); 1968, 24 (JOBS; Kerner's report; the withdrawal; King's death and the riots; the surcharge's passage; Robert Kennedy's death; Chicago, the film and the message; the Pope's offer of the Vatican, Apr. 27); 1969, 3 (the surcharge's extension; Jan. 19). And in the third patch: the ICC's approval of the Penn-Central merger, Apr. 6, 1966 (159), and Bundy's memorandum on the French analogy, June 30, 1965 (34; FRUS 1964–68, III, doc. 33). The merge flags some thirty as possible duplicates of another entry of the day and thread; each is a separate event (a memorandum and the meeting it reports, a call and the reply).
 
 ## The press (R13)
 
-Entered: McGrory's column in the *Evening Star*, Jan. 16, 1966 (170–71: `cal.1966-01-16.press-and-broadcasting`);
-Johnson at Camp David on "Communist infiltration" of the press, Oct. 1966 (173: `cal.1966-10-02.press-and-broadcasting`);
-Califano dates it to the month; `cal.1967-02-11.press-and-broadcasting` (the living quarters, the Pickles); Marjorie Hunter's
-front-page story on the education task force, *New York Times*, Aug. 21, 1967 (Califano's leak, 172:
-`cal.1967-08-21.press-and-broadcasting`); Stanton of CBS to Califano on the television side of the Detroit
-announcement, July 25, 1967 (218: `cal.1967-07-25.civil-disorders-detroit-2`); Reston's "guns and margarine" column
-in the surcharge's entry of Jan. 1967 (183–84); Bradlee to Califano on the District mayoralty and the FBI's check,
-Aug. 1967 (`cal.1967-08-22.states-and-cities`); the *Post*'s story on the Kerner report before its embargo (261–62, in
-the Kerner entries); Eartha Kitt's words at Mrs. Johnson's luncheon (258, a cite on `cal.1968-01-18.war-opposition`).
-Passed over below: the *Times*'s editorial on Demonstration Cities, May 15, 1966 (131).
+Entered: McGrory's column in the *Evening Star*, Jan. 16, 1966 (170–71: `cal.1966-01-16.press-and-broadcasting`); Johnson at Camp David on "Communist infiltration" of the press, Oct. 1966 (173: `cal.1966-10-02.press-and-broadcasting`); Califano dates it to the month; `cal.1967-02-11.press-and-broadcasting` (the living quarters, the Pickles); Marjorie Hunter's front-page story on the education task force, *New York Times*, Aug. 21, 1967 (Califano's leak, 172: `cal.1967-08-21.press-and-broadcasting`); Stanton of CBS to Califano on the television side of the Detroit announcement, July 25, 1967 (218: `cal.1967-07-25.civil-disorders-detroit-2`); Reston's "guns and margarine" column in the surcharge's entry of Jan. 1967 (183–84); Bradlee to Califano on the District mayoralty and the FBI's check, Aug. 1967 (`cal.1967-08-22.states-and-cities`); the *Post*'s story on the Kerner report before its embargo (261–62, in the Kerner entries); Eartha Kitt's words at Mrs. Johnson's luncheon (258, a cite on `cal.1968-01-18.war-opposition`). Passed over below: the *Times*'s editorial on Demonstration Cities, May 15, 1966 (131).
 
 ## Passed over
 
-Pages are printed pages. How the list was made: each dated event the text treats, page by page, noted as read and
-compared with the calendar's entries of its day and thread (`./bib find`, `./bib ledger find`); then a second pass, a
-script listing every date the text prints that no op of the two patches touches, each ruled by hand. Those the
-calendar holds took their cite (the third patch). What remains:
+Pages are printed pages. How the list was made: each dated event the text treats, page by page, noted as read and compared with the calendar's entries of its day and thread (`./bib find`, `./bib ledger find`); then a second pass, a script listing every date the text prints that no op of the two patches touches, each ruled by hand. Those the calendar holds took their cite (the third patch). What remains:
 
 | page | date | event | why |
 |---|---|---|---|
@@ -155,18 +116,14 @@ calendar holds took their cite (the third patch). What remains:
 
 ## Leads (for notes/leads.md)
 
-- National: the Penn-Central decisions: the ICC's report of Apr. 6, 1966 (327 I.C.C. 475?) and the examiner's of Mar.
-  1965; the U.S. Reports cites of the remand (Mar. 27, 1967) and the approval (Jan. 15, 1968) (Califano 159–65).
+- National: the Penn-Central decisions: the ICC's report of Apr. 6, 1966 (327 I.C.C. 475?) and the examiner's of Mar. 1965; the U.S. Reports cites of the remand (Mar. 27, 1967) and the approval (Jan. 15, 1968) (Califano 159–65).
 - National: the House's vote on the highway beauty bill, Oct. 7–8, 1965, the roll call (Califano 85).
 - National: Freeman's press conference on food prices, Mar. 1966 (138); Johnson's on Mexican Americans, Mar. 1966 (135).
 - National: Califano's memorandum on private wiretapping, Feb. 1966, and Long's hearings, May 1966 (187).
 - National: Johnson's order on the draft boards, Dec. 1966 (197); the railroad shopcraft award, Oct. 1967 (195).
-- National: Boyd's telegram to the governors on highway funds, 1967 (244); Lindsay's word of a Kerner Commission
-  interim report (260); the JOBS report of Dec. 1, 1968 (226); the message on the District, Mar. 1968 (259).
+- National: Boyd's telegram to the governors on highway funds, 1967 (244); Lindsay's word of a Kerner Commission interim report (260); the JOBS report of Dec. 1, 1968 (226); the message on the District, Mar. 1968 (259).
 - National: the King wiretap stopped, May 1965; the FBI's report of Apr. 19, 1967 (277): the LBJ Library's files.
-- National: Califano's own records (DG, TL, SP, 69N) at the LBJ Library (345), the witnesses' roots for some 150
-  entries: their finding aid, to read the dates where the book and the Daily Diary differ.
+- National: Califano's own records (DG, TL, SP, 69N) at the LBJ Library (345), the witnesses' roots for some 150 entries: their finding aid, to read the dates where the book and the Daily Diary differ.
 - National: the *Times*'s editorial on Demonstration Cities, May 15, 1966 (131), to enter it read.
 - Foreign: Andreas Papandreou's arrest, Apr. 1967, and Johnson's word to the junta (243).
-- Executive roster: Lee White to the Federal Power Commission, Mar. 1966 (140); Kerner to the Seventh Circuit, Mar.
-  1968 (220); Fowler's departure, Dec. 1968 (332).
+- Executive roster: Lee White to the Federal Power Commission, Mar. 1966 (140); Kerner to the Seventh Circuit, Mar. 1968 (220); Fowler's departure, Dec. 1968 (332).

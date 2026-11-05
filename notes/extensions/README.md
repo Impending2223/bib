@@ -1,14 +1,10 @@
 # Extensions: proposals, plans and shelved drafts
 
-The place for what the series might add and has not, or has begun and set aside (the owner, Oct. 28, 2026: "a place for
-future extension ideas and shelved drafts"). Three kinds:
+The place for what the series might add and has not, or has begun and set aside (the owner, Oct. 28, 2026: "a place for future extension ideas and shelved drafts"). Three kinds:
 
-- `memos/`: the research memos written before a part was built, each on what can be sourced and what to build. They
-  stay after the build as the record of why it was built so; the parts not built stay proposals.
-- `shelf/`: drafts set aside, code and data, each folder with a README: what it is, why shelved, what it waits on.
-  Nothing here is read by `./bib check` or `./bib build`.
-- This index: each item's state, kept by hand. A lead (an event, a figure, a source not reached) goes to
-  `notes/leads.md`, not here; a source to fetch, to `notes/procurement.md`.
+- `memos/`: the research memos written before a part was built, each on what can be sourced and what to build. They stay after the build as the record of why it was built so; the parts not built stay proposals.
+- `shelf/`: drafts set aside, code and data, each folder with a README: what it is, why shelved, what it waits on. Nothing here is read by `./bib check` or `./bib build`.
+- This index: each item's state, kept by hand. A lead (an event, a figure, a source not reached) goes to `notes/leads.md`, not here; a source to fetch, to `notes/procurement.md`.
 
 ## Memos
 
@@ -35,12 +31,7 @@ Named in CLAUDE.md as not yet done, here so they are found in one place:
 
 - *Issues and Answers* (ABC) in the Sunday programs.
 - The President's Daily Diary as a line in the day layout.
-- Each State's rule for proposing a constitutional amendment, for the legislatures' Article V shading (*Book of the
-  States*, 1960–67).
+- Each State's rule for proposing a constitutional amendment, for the legislatures' Article V shading (*Book of the States*, 1960–67).
 - The Congressional Staff Directory's 1965, 1967 and 1969 editions, for the 89th–91st Congresses' subcommittees.
 - NATO's own force tables.
-- Small multiples on the Indicators page: every series on the calendar's span, one scale each, both vintages, one
-  cursor across them all (the owner, Oct. 28, 2026, of the chart gallery's demo 8: "they might be nice in the indicators
-  page, but I haven't spent any time there yet"). The gallery: https://claude.ai/artifact/8da6JMvh2SXn5g7F1hHnsH.
-  Its demos 2 and 3 (tinted changes; a row that opens into a chart) went into the month tables Oct. 29, 2026
-  (`tools/bib/indchart.py`).
+- Small multiples on the Indicators page: every series on the calendar's span, one scale each, both vintages, one cursor across them all (the owner, Oct. 28, 2026, of the chart gallery's demo 8: "they might be nice in the indicators page, but I haven't spent any time there yet"). The gallery: https://claude.ai/artifact/8da6JMvh2SXn5g7F1hHnsH. Its demos 2 and 3 (tinted changes; a row that opens into a chart) went into the month tables Oct. 29, 2026 (`tools/bib/indchart.py`).

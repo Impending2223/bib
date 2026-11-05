@@ -1,21 +1,12 @@
 # Robert Alan Goldberg, *Barry Goldwater* (`w.goldberg-barry-goldwater`)
 
-Read Nov. 3-4, 2026, by the batch-3 reading, resumed (group gop: Kabaservice, then Goldberg, then Smith's *On His Own
-Terms*). Patch: `inbox/2026-11-03-b3-goldberg-2.yaml` (b3-goldberg-2). Witnesses: `inbox/witnesses/2026-11-03-b3-goldberg-2.yaml`
-(281 rows) and `sources/witnesses/by-work/goldberg-barry-goldwater.yaml` (481 edges).
+Read Nov. 3-4, 2026, by the batch-3 reading, resumed (group gop: Kabaservice, then Goldberg, then Smith's *On His Own Terms*). Patch: `inbox/2026-11-03-b3-goldberg-2.yaml` (b3-goldberg-2). Witnesses: `inbox/witnesses/2026-11-03-b3-goldberg-2.yaml` (281 rows) and `sources/witnesses/by-work/goldberg-barry-goldwater.yaml` (481 edges).
 
 ## The copy
 
-The owner's copy (Drive), Yale University Press, 1995: an Internet Archive scan (512 PDF pages) with its OCR layer, read
-from that layer (`pdftotext -layout`). Printed page = PDF page less 26 through p. 178; the plates after p. 178 (PDF
-205-220) make it PDF less 42 from p. 179 (checked by the running heads on pp. 95, 155, 177, 178, 179, 219, 249). The OCR
-garbles C as G ("Goldwater," "Gommittee"), 1 as i ("i960"), and the note numbers in the text ("i49," "^29"); quotations
-were read with that in mind and the folios checked against the running heads. The notes (pp. 339-420), by chapter,
-parsed from the same layer; a cite here gives the printed page where the note's number stands and the number ("145
-n.155"). The PDF deleted when its text was taken.
+The owner's copy (Drive), Yale University Press, 1995: an Internet Archive scan (512 PDF pages) with its OCR layer, read from that layer (`pdftotext -layout`). Printed page = PDF page less 26 through p. 178; the plates after p. 178 (PDF 205-220) make it PDF less 42 from p. 179 (checked by the running heads on pp. 95, 155, 177, 178, 179, 219, 249). The OCR garbles C as G ("Goldwater," "Gommittee"), 1 as i ("i960"), and the note numbers in the text ("i49," "^29"); quotations were read with that in mind and the folios checked against the running heads. The notes (pp. 339-420), by chapter, parsed from the same layer; a cite here gives the printed page where the note's number stands and the number ("145 n.155"). The PDF deleted when its text was taken.
 
-Read: chs. 6-10, pp. 136-257 (1959 to the inauguration of 1969), for entries; pp. 118-135 (to 1959) and 258-338 (1969
-on) not read for entries, out of the span.
+Read: chs. 6-10, pp. 136-257 (1959 to the inauguration of 1969), for entries; pp. 118-135 (to 1959) and 258-338 (1969 on) not read for entries, out of the span.
 
 ## The cites it had
 
@@ -39,34 +30,15 @@ Besides, 127 further entries the book treats take a cite with its page and paren
 
 ## New entries (130)
 
-By year: 1960, 17; 1961, 15; 1962, 17; 1963, 22; 1964, 37; 1965, 10; 1966, 2; 1967, 4; 1968, 4; 1969, 2. The chief:
-Goldwater's campaigning as Senate campaign chairman (Jan.-Feb., May 1960); Rehnquist's letter and Goldwater's reply on
-Arizona's delegation (Mar. 28, 31, 1960); Kitchel's resignation from the Birch Society (June 8, 1960); the Goldwater
-campaign of June-July 1960 (clubs, Shadegg's Yuma clearinghouse, the delegate counts, the Birchers' postcards, Welch at
-the eve-of-convention rally); Shadegg to Smoot (Sept. 16, 1960); Goldwater to Elizabeth Churchill Brown (Sept. 1, Dec.
-13, 1960; July 19, 1963); Goldwater and Johnson's exchange of July 1960; the Central Arizona Project bill (Jan. 1961);
-the Senate speeches and Record items, read on govinfo (Laos and Cuba, Apr. 20, 1961; the UPI editors, June 9, 1961; the
-school prayer amendment, June 19, 1963); the Birch Society controversy of 1961-62 (the Justice Department, *National
-Review*'s "The Uproar" and "The Question of Robert Welch," Kirk in *America*, Goldwater's letter, *Newsweek*); the
-Rockefeller-Goldwater breakfasts (early 1961) and their end (July 1963); *Why Not Victory?* (1962); the missile crisis
-(Goldwater at the White House; to Cotton, Oct. 30, 1962); Kitchel on Barnett (Nov. 12, 1962); the Arizona Senate primary
-of 1962 (Mecham over Shadegg); the press of 1963 (Wicker, Lippmann, *Life*, *Newsweek*); Harlow and Eisenhower (July 15,
-1963); the California primary's last weeks (Rockefeller's charges, the Field and Harris polls, the canvass of May 23,
-Loyola, the ministers, Jack Stewart to Hoover); Eisenhower to Scranton (June 10, 1964); the general campaign of 1964
-(Goldwater's tax cut, Chicago, the Southern swing, St. Louis, Knoxville and Charleston, Columbus, Salt Lake City; the
-ice-cream spot; Johnson to the Steelworkers and the IUE; the *Christian Century*, *Atlantic*, *Life*, *Reporter*,
-*Nation*; Reston on the result); Goldwater on Vietnam, Watts and King (1965-67); Reagan's call (Nov. 9, 1966);
-Humphrey's memorandum of Aug. 23, 1967; Goldwater's Senate race of 1968; his letters to Nixon of Jan. 10 and 18, 1969.
+By year: 1960, 17; 1961, 15; 1962, 17; 1963, 22; 1964, 37; 1965, 10; 1966, 2; 1967, 4; 1968, 4; 1969, 2. The chief: Goldwater's campaigning as Senate campaign chairman (Jan.-Feb., May 1960); Rehnquist's letter and Goldwater's reply on Arizona's delegation (Mar. 28, 31, 1960); Kitchel's resignation from the Birch Society (June 8, 1960); the Goldwater campaign of June-July 1960 (clubs, Shadegg's Yuma clearinghouse, the delegate counts, the Birchers' postcards, Welch at the eve-of-convention rally); Shadegg to Smoot (Sept. 16, 1960); Goldwater to Elizabeth Churchill Brown (Sept. 1, Dec. 13, 1960; July 19, 1963); Goldwater and Johnson's exchange of July 1960; the Central Arizona Project bill (Jan. 1961); the Senate speeches and Record items, read on govinfo (Laos and Cuba, Apr. 20, 1961; the UPI editors, June 9, 1961; the school prayer amendment, June 19, 1963); the Birch Society controversy of 1961-62 (the Justice Department, *National Review*'s "The Uproar" and "The Question of Robert Welch," Kirk in *America*, Goldwater's letter, *Newsweek*); the Rockefeller-Goldwater breakfasts (early 1961) and their end (July 1963); *Why Not Victory?* (1962); the missile crisis (Goldwater at the White House; to Cotton, Oct. 30, 1962); Kitchel on Barnett (Nov. 12, 1962); the Arizona Senate primary of 1962 (Mecham over Shadegg); the press of 1963 (Wicker, Lippmann, *Life*, *Newsweek*); Harlow and Eisenhower (July 15, 1963); the California primary's last weeks (Rockefeller's charges, the Field and Harris polls, the canvass of May 23, Loyola, the ministers, Jack Stewart to Hoover); Eisenhower to Scranton (June 10, 1964); the general campaign of 1964 (Goldwater's tax cut, Chicago, the Southern swing, St. Louis, Knoxville and Charleston, Columbus, Salt Lake City; the ice-cream spot; Johnson to the Steelworkers and the IUE; the *Christian Century*, *Atlantic*, *Life*, *Reporter*, *Nation*; Reston on the result); Goldwater on Vietnam, Watts and King (1965-67); Reagan's call (Nov. 9, 1966); Humphrey's memorandum of Aug. 23, 1967; Goldwater's Senate race of 1968; his letters to Nixon of Jan. 10 and 18, 1969.
 
-Several entries are Goldwater's words dated by the newspaper Goldberg cites, the day of the words not given: each says
-"Check: the day of the words."
+Several entries are Goldwater's words dated by the newspaper Goldberg cites, the day of the words not given: each says "Check: the day of the words."
 
 ## Disagreements
 
 - *The Conscience of a Conservative*: Goldberg, 138, has it appear in March 1960; the entry, first shipped Apr. 7.
 - Goldwater's speeches of fall 1960: Goldberg, 146, 126 in twenty-six States; the entry, by White, 177.
-- White and Thone with Goldwater: Goldberg, 162, Nov. 11, 1961; the entry, Nov. 17. The second meeting at Chicago:
-  Goldberg, 163, Dec. 12; the entry, Dec. 10.
+- White and Thone with Goldwater: Goldberg, 162, Nov. 11, 1961; the entry, Nov. 17. The second meeting at Chicago: Goldberg, 163, Dec. 12; the entry, Dec. 10.
 - White's $6,000: Goldberg, 164, borrowed from his son's college fund; the entry, of his own by November.
 - Cronkite's report: Goldberg, 168, Dec. 3, 1962; the entry, Dec. 5.
 - The meeting at Goldwater's apartment: Goldberg, 179, Dec. 12, 1963, one meeting; the entry, Dec. 8 (White gives two).
@@ -74,16 +46,14 @@ Several entries are Goldwater's words dated by the newspaper Goldberg cites, the
 - Rockefeller's announcement: Goldberg, 176, Nov. 6, 1963; the entry, Nov. 7.
 - Scranton's announcement: Goldberg, 198, June 11, 1964; the entry, June 12.
 - The Young Republicans' convention of June 1963: Goldberg, 172, at Denver; the entry, San Francisco.
-- The rally of July 4, 1963: Goldberg, 172, nine thousand, Fannin and Curtis speaking; the entry, police over 7,000,
-  Tower.
+- The rally of July 4, 1963: Goldberg, 172, nine thousand, Fannin and Curtis speaking; the entry, police over 7,000, Tower.
 - Gallup, May 1963: Goldberg, 171, Romney 16; the entry, 22.
 - The school prayer amendment: Goldberg's note cites the Record's page 11084; the Record prints it at 11088.
 - The 1968 Senate result: Goldberg, 255, "by fifty thousand votes"; the Clerk, 69,269.
 
 ## Passed over
 
-Made by reading pp. 136-257 page by page and listing every dated event; those already in the calendar took a cite,
-those not entered are below.
+Made by reading pp. 136-257 page by page and listing every dated event; those already in the calendar took a cite, those not entered are below.
 
 | page | date | event | why |
 |---|---|---|---|
@@ -161,16 +131,11 @@ those not entered are below.
 
 National:
 - The items of the Passed over table marked "a lead," each with Goldberg's page and note.
-- Eisenhower's telephone log, June-July 1964 (Appointment Book Series, Eisenhower Library; Goldberg 200 n.127): an entry a
-  call.
-- Goldberg's notes rest heavily on the Barker History Center's Goldwater Collection, the Arizona Historical Foundation's
-  Goldwater Papers (the Alpha File), the Hoover Institution's Kitchel, Brown and Free Society Association collections:
-  none open here.
+- Eisenhower's telephone log, June-July 1964 (Appointment Book Series, Eisenhower Library; Goldberg 200 n.127): an entry a call.
+- Goldberg's notes rest heavily on the Barker History Center's Goldwater Collection, the Arizona Historical Foundation's Goldwater Papers (the Alpha File), the Hoover Institution's Kitchel, Brown and Free Society Association collections: none open here.
 
-Persons named without a name entry: Stephen Shadegg's correspondents Dan Smoot and Elizabeth Churchill Brown; Roy Elson
-(has one); Jack Stewart; William Saufley; Gregory Shorey Jr.; Clarence Manion (has one).
+Persons named without a name entry: Stephen Shadegg's correspondents Dan Smoot and Elizabeth Churchill Brown; Roy Elson (has one); Jack Stewart; William Saufley; Gregory Shorey Jr.; Clarence Manion (has one).
 
 ## What remains
 
-Goldberg's pages 258-338 (1969 on) are out of the span. The State convention entries of 1964 (Oklahoma, North
-Carolina, Texas) and Nixon's acceptance (Aug. 8, 1968) await their cites.
+Goldberg's pages 258-338 (1969 on) are out of the span. The State convention entries of 1964 (Oklahoma, North Carolina, Texas) and Nixon's acceptance (Aug. 8, 1968) await their cites.

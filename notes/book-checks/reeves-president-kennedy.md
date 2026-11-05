@@ -1,173 +1,76 @@
 # Richard Reeves, *President Kennedy: Profile of Power* (1993): the calendar against the book
 
-Card `w.reeves-president-kennedy`. Read Oct. 28–29, 2026, from the copy on the Drive: the first Touchstone edition, the
-paperback of 1994 ("First Touchstone Edition 1994"; copyright 1993 by Reeves-O'Neill, Inc.). The Source Notes say they
-"reflect changes in the text and sources ... 1994". The pinpoints follow its pages, and the card's note now says so ("Cited
-by the pages of the Touchstone paperback (1994), its notes revised through April 1994"). Offset: printed page = PDF page −
-2 through PDF 322 (printed 320). The plates take PDF 323–338. From PDF 339 the printed page is PDF page − 18. Checked by the printed
-folios at pp. 100, 250, 320, 321, 400, 520, 662, and in the notes at 700 and 765. Text pp. 13–662; Source Notes pp.
-663–765. The notes are unnumbered. Each is keyed by the text page it serves and its catchphrase ("108 'Discussions
-revolved': NYT, 4/27/61"). `sources/cited-records/reeves-president-kennedy.yaml` keys each record by that page and the
-catchphrase's first words as a slug (`then-he-paused`). Several records under one note are lettered (`.a`, `.b`), as the
-Caro file does. In five notes (pp. 108, 204, 316, 600, 620) the scan's text runs the catchphrase into the note before.
-Those were keyed from the catchphrase as the notes print it.
+Card `w.reeves-president-kennedy`. Read Oct. 28–29, 2026, from the copy on the Drive: the first Touchstone edition, the paperback of 1994 ("First Touchstone Edition 1994"; copyright 1993 by Reeves-O'Neill, Inc.). The Source Notes say they "reflect changes in the text and sources ... 1994". The pinpoints follow its pages, and the card's note now says so ("Cited by the pages of the Touchstone paperback (1994), its notes revised through April 1994"). Offset: printed page = PDF page − 2 through PDF 322 (printed 320). The plates take PDF 323–338. From PDF 339 the printed page is PDF page − 18. Checked by the printed folios at pp. 100, 250, 320, 321, 400, 520, 662, and in the notes at 700 and 765. Text pp. 13–662; Source Notes pp. 663–765. The notes are unnumbered. Each is keyed by the text page it serves and its catchphrase ("108 'Discussions revolved': NYT, 4/27/61"). `sources/cited-records/reeves-president-kennedy.yaml` keys each record by that page and the catchphrase's first words as a slug (`then-he-paused`). Several records under one note are lettered (`.a`, `.b`), as the Caro file does. In five notes (pp. 108, 204, 316, 600, 620) the scan's text runs the catchphrase into the note before. Those were keyed from the catchphrase as the notes print it.
 
-Patch: `inbox/2026-10-29-book-reeves-selverstone.yaml` (book-reeves-selverstone), shared with Selverstone's reading. Where
-both books bear on one entry, the entry gets one edit.
+Patch: `inbox/2026-10-29-book-reeves-selverstone.yaml` (book-reeves-selverstone), shared with Selverstone's reading. Where both books bear on one entry, the entry gets one edit.
 
-What the book is for the calendar: the presidency day by day, Jan. 1961–Nov. 22, 1963, from the daily appointments log, the
-White House transcripts and tapes, the National Security Files and the oral histories at the Kennedy Library, and the
-author's interviews (51 cited). It is the informal record: the meetings, calls and memoranda behind the public acts. The
-FRUS volumes and the Library's tape transcripts it cites are the primary records to read first. Reeves quotes the
-recordings from the Library's transcripts; none were heard for this reading.
+What the book is for the calendar: the presidency day by day, Jan. 1961–Nov. 22, 1963, from the daily appointments log, the White House transcripts and tapes, the National Security Files and the oral histories at the Kennedy Library, and the author's interviews (51 cited). It is the informal record: the meetings, calls and memoranda behind the public acts. The FRUS volumes and the Library's tape transcripts it cites are the primary records to read first. Reeves quotes the recordings from the Library's transcripts; none were heard for this reading.
 
-How the list was made: every dated or datable event in the text, pp. 13–662, was taken in page order (the candidate list
-in the scratch notes, about 560 items). Each was set against every calendar entry of its day, ±3 days, in a fresh dump of
-the calendar (all threads; a dump of Oct. 28, 17:40, and, for the second patch, of Oct. 28, 18:45, after the first patch's merge) and against the pending patches in
-`inbox/`. Where the event was in, the page was added: its claim-map row, the `via` rows of the note's records, and a
-parenthetical where it bears part of the entry. Where Reeves differs, a Check was added. Where the event was not in, and
-the brief takes it, an entry was made from the page and its record, read in FRUS, the Public Papers or the recordings'
-catalogues where they hold it. The rest is "Passed over", below. Two entries were cited for Reeves before this reading.
-Jan. 20, 1961 (transition-and-staff) carried a prose cite ("begins here and runs day by day") with a matching
-malformed claim row. Both were replaced by the pinpoint, 34–41, and its rows. No other prior cite existed.
+How the list was made: every dated or datable event in the text, pp. 13–662, was taken in page order (the candidate list in the scratch notes, about 560 items). Each was set against every calendar entry of its day, ±3 days, in a fresh dump of the calendar (all threads; a dump of Oct. 28, 17:40, and, for the second patch, of Oct. 28, 18:45, after the first patch's merge) and against the pending patches in `inbox/`. Where the event was in, the page was added: its claim-map row, the `via` rows of the note's records, and a parenthetical where it bears part of the entry. Where Reeves differs, a Check was added. Where the event was not in, and the brief takes it, an entry was made from the page and its record, read in FRUS, the Public Papers or the recordings' catalogues where they hold it. The rest is "Passed over", below. Two entries were cited for Reeves before this reading. Jan. 20, 1961 (transition-and-staff) carried a prose cite ("begins here and runs day by day") with a matching malformed claim row. Both were replaced by the pinpoint, 34–41, and its rows. No other prior cite existed.
 
 ## Entries held, in part, or differing (162 edited)
 
 Reeves's page added, with its row, its records' `via` rows and To check items, and a parenthetical where it bears part:
 
 - 1960: Dec. 6.
-- 1961: Jan. 20 (two), 28, 31; Feb. 6, 22; Mar. 11, 13, 15, 23, 28, 30; Apr. 4, 7, 16, 19 (two), 20, 21, 22, 27 (two), 28;
-  May 9, 14, 16, 20, 21, 24, 25, 29, 31; June 3; July 5, 7, 8, 13, 24, 30; Aug. 13, 14, 16, 19, 21, 30; Sept. 5, 29;
-  Oct. 6, 11, 21, 22, 25, 27, Oct. (force levels); Nov. 2, 3, 4, 9, 13, 15, 23; Dec. 16, 21.
-- 1962: Feb. 18; Mar. 22, 31; Apr. 10, 11, 12, 13; May 12, 13, 28; June 7, 11; July 17; Aug. 6, 10, 22, 31; Sept. 4, 6,
-  7, 18, 27; Oct. 16, 18 (two), 20, 22, 24, 25, 26, 27, 28; Dec. 17, 18, 26, 29.
-- 1963: Jan. 2, 25; Feb. 12; Mar. 14; Apr. 20, 25, 26; May 4, 10, 12, 18; June 3, 5, 10, 11 (two), 12, 18, 22, 26, 27,
-  29; July 15, 25, 26, 29; Aug. 15, 20, 21, 23, 24, 26, 28 (two), 29, 31 (two); Sept. 2, 6, 9, 10, 11, 15, 17, 19, 21,
-  24, 29; Oct. 2, 5, 9, 10, 11, 24, 25, 27, 28, 29 (two); Nov. 1, 13, 20.
+- 1961: Jan. 20 (two), 28, 31; Feb. 6, 22; Mar. 11, 13, 15, 23, 28, 30; Apr. 4, 7, 16, 19 (two), 20, 21, 22, 27 (two), 28; May 9, 14, 16, 20, 21, 24, 25, 29, 31; June 3; July 5, 7, 8, 13, 24, 30; Aug. 13, 14, 16, 19, 21, 30; Sept. 5, 29; Oct. 6, 11, 21, 22, 25, 27, Oct. (force levels); Nov. 2, 3, 4, 9, 13, 15, 23; Dec. 16, 21.
+- 1962: Feb. 18; Mar. 22, 31; Apr. 10, 11, 12, 13; May 12, 13, 28; June 7, 11; July 17; Aug. 6, 10, 22, 31; Sept. 4, 6, 7, 18, 27; Oct. 16, 18 (two), 20, 22, 24, 25, 26, 27, 28; Dec. 17, 18, 26, 29.
+- 1963: Jan. 2, 25; Feb. 12; Mar. 14; Apr. 20, 25, 26; May 4, 10, 12, 18; June 3, 5, 10, 11 (two), 12, 18, 22, 26, 27, 29; July 15, 25, 26, 29; Aug. 15, 20, 21, 23, 24, 26, 28 (two), 29, 31 (two); Sept. 2, 6, 9, 10, 11, 15, 17, 19, 21, 24, 29; Oct. 2, 5, 9, 10, 11, 24, 25, 27, 28, 29 (two); Nov. 1, 13, 20.
 
-Every edit keeps what the entry held (each cite, each sentence of `c`, each claim row). Units added to `c` (a handful,
-where Reeves gives the act the entry lacked) go at the end, and the hash is recomputed. Each edit was diffed against the
-entry as it stood when the patch was built. Nothing of another run's is lost.
+Every edit keeps what the entry held (each cite, each sentence of `c`, each claim row). Units added to `c` (a handful, where Reeves gives the act the entry lacked) go at the end, and the hash is recomputed. Each edit was diffed against the entry as it stood when the patch was built. Nothing of another run's is lost.
 
 Differences, each a Check on the entry:
 
 - 1961-01-20 (civil rights the executive): Reeves has Goodwin call the Coast Guard's commandant (40).
-- 1961-03-30 (Cuba): Reeves has Fulbright asked aboard on the Thursday before Easter and the memorandum handed over on Air
-  Force One "the next day" (78–79).
+- 1961-03-30 (Cuba): Reeves has Fulbright asked aboard on the Thursday before Easter and the memorandum handed over on Air Force One "the next day" (78–79).
 - 1961-04-19 (Cuba): Reeves has the jets over the beach at 6:30, an hour before the B-26s (95).
-- 1961-04-20 (Bay of Pigs) and 1961-04-21 (King): Reeves puts the Nixon talk the afternoon of the meeting with the
-  Revolutionary Council, Apr. 19 (99), and the King visit the same day (100).
+- 1961-04-20 (Bay of Pigs) and 1961-04-21 (King): Reeves puts the Nixon talk the afternoon of the meeting with the Revolutionary Council, Apr. 19 (99), and the King visit the same day (100).
 - 1961-05-09 (Bolshakov): Reeves has the meeting "two weeks before the scheduled summit" (137).
 - 1961-05-16 (Ottawa): Reeves gives the trip as May 17 (120).
-- 1961-07-24 (Berlin): Reeves gives the economists' case as the reason the tax increase was dropped, not foreign aid
-  (197–98).
+- 1961-07-24 (Berlin): Reeves gives the economists' case as the reason the tax increase was dropped, not foreign aid (197–98).
 - 1961-10-27 (Checkpoint Charlie): Reeves has the Soviet tanks back off "twenty hours later," the morning of Oct. 28 (251).
 - 1961-11-13 (Vietnam): Reeves gives the words as Kennedy's to Hilsman, undated (262). The entry has them to Schlesinger.
 - 1962-05-13 (Laos): Reeves has McCone report Eisenhower's support on Saturday, May 12 (308).
 - 1962-10-26 (missile crisis): Reeves names Fomin, the name Feklisov went by in Washington (407–08).
 - 1963-06-05 (elections 1964): Reeves dates it June 6, at El Paso (508).
 - 1963-06-18 (Mississippi): Reeves's note dates the first call to Mayor Thompson June 17 (502); PRDE, June 18.
-- 1963-08-23 (foreign aid): Reeves has the House vote the day before Kennedy left for Hyannis Port, Aug. 22, 222 to 188
-  (560).
-  The entry's roll call, 224–186, is Voteview's.
-- 1963-09-11 (testing): Reeves has Dirksen bring the draft of the letter after the Huntley–Brinkley interview, Sept. 9
-  (593–94); entered as the new 1963-09-09.testing.
+- 1963-08-23 (foreign aid): Reeves has the House vote the day before Kennedy left for Hyannis Port, Aug. 22, 222 to 188 (560). The entry's roll call, 224–186, is Voteview's.
+- 1963-09-11 (testing): Reeves has Dirksen bring the draft of the letter after the Huntley–Brinkley interview, Sept. 9 (593–94); entered as the new 1963-09-09.testing.
 - 1963-10-10 (King): Reeves has Robert Kennedy sign the order for the wiretap on King's home on Oct. 7 (626–27).
 - 1963-10-24 (Cuba): Reeves gives the talk with Jean Daniel as Nov. 19 (659).
 
 Rulings:
 
-- Reeves (332) has "Senator Robert Byrd, a West Virginia Democrat" walk out when Stanley Surrey, not Dillon, came
-  before the Joint Committee on Internal Revenue Taxation in January 1961. The Joint Committee's Senate members in the
-  87th were Harry F. Byrd (Va.), its vice chairman, Kerr, Long, Williams and Carlson (Congressional Directory, Apr. 1961,
-  265; `congress/committees-cdir.yaml`). The senator is Harry F. Byrd. Not entered: the day not given, the
-  note giving no record. A lead.
+- Reeves (332) has "Senator Robert Byrd, a West Virginia Democrat" walk out when Stanley Surrey, not Dillon, came before the Joint Committee on Internal Revenue Taxation in January 1961. The Joint Committee's Senate members in the 87th were Harry F. Byrd (Va.), its vice chairman, Kerr, Long, Williams and Carlson (Congressional Directory, Apr. 1961, 265; `congress/committees-cdir.yaml`). The senator is Harry F. Byrd. Not entered: the day not given, the note giving no record. A lead.
 - Fomin is Feklisov (the Check above). The entry keeps Feklisov.
-- Where Reeves quotes a tape from the Library's transcript and PRDE or the Miller Center catalogue it, the catalogue's
-  page is the primary record. The quotation stays Reeves's, with "Check: the recording not heard". Where neither
-  catalogues the day (Feb.–Oct. 1963 has no Miller Center copies), the Check says so.
+- Where Reeves quotes a tape from the Library's transcript and PRDE or the Miller Center catalogue it, the catalogue's page is the primary record. The quotation stays Reeves's, with "Check: the recording not heard". Where neither catalogues the day (Feb.–Oct. 1963 has no Miller Center copies), the Check says so.
 
 ## New entries (30)
 
-- 1961: Jan. 26 (Heller's background briefing; the day "six days into" the presidency, a Check); Feb. 10 (ADA's officers
-  with Kennedy); Apr. 28 (the Brooklyn and Bronx leaders at the Carlyle); June 6 (the congressional leaders after Vienna);
-  July 19 (the NSC on Berlin, [FRUS 1961–63, XIV, doc. 77]).
+- 1961: Jan. 26 (Heller's background briefing; the day "six days into" the presidency, a Check); Feb. 10 (ADA's officers with Kennedy); Apr. 28 (the Brooklyn and Bronx leaders at the Carlyle); June 6 (the congressional leaders after Vienna); July 19 (the NSC on Berlin, [FRUS 1961–63, XIV, doc. 77]).
 - 1962: Oct. 22 (Kennedy telephones Eisenhower; the Miller Center's copy; "-5", a distinct call).
-- 1963: Jan. 30 (Louis Martin's memorandum); Apr. 21 (Harriman); May 20 (the recorded meetings on the bill); May 24
-  (Reedy to Johnson); June 18 (Mansfield on cloture); July 4 (the Buddhist crisis meeting, recorded); July 24 (Rusk on the
-  treaty and the Senate); July 26 (Truman, "-2"); Aug. 7 (the citizens' committee for the treaty); Aug. 7 (Griffiths on
-  the tax bill); Aug. 12 (Mansfield on the hearings, "-2"); Aug. 15 (Lodge's last meeting before Saigon); Aug. 19
-  (Mansfield's "long haul" memorandum); Sept. 9 (Dirksen with the draft letter); Sept. 12 (the news conference, "-2");
-  Sept. 30 (O'Brien on Gore and the tax bill); Oct. 21 (Sulzberger, Halberstam); Oct. 22 (Moore's motion in Judiciary);
-  Oct. 23 (the leaders on the bill, PRDE); Oct. 28 (Daley on Libonati, PRDE); Oct. 29 (Halleck, PRDE; Republican Party: In
-  Congress); Nov. 2 (the 9:35 meeting, [FRUS 1961–63, IV, doc. 274]); Nov. 6 (Lodge's last weekly report, FRUS IV, docs.
-  302, 304); Nov. 21 (Forrestal to go to Sihanouk).
+- 1963: Jan. 30 (Louis Martin's memorandum); Apr. 21 (Harriman); May 20 (the recorded meetings on the bill); May 24 (Reedy to Johnson); June 18 (Mansfield on cloture); July 4 (the Buddhist crisis meeting, recorded); July 24 (Rusk on the treaty and the Senate); July 26 (Truman, "-2"); Aug. 7 (the citizens' committee for the treaty); Aug. 7 (Griffiths on the tax bill); Aug. 12 (Mansfield on the hearings, "-2"); Aug. 15 (Lodge's last meeting before Saigon); Aug. 19 (Mansfield's "long haul" memorandum); Sept. 9 (Dirksen with the draft letter); Sept. 12 (the news conference, "-2"); Sept. 30 (O'Brien on Gore and the tax bill); Oct. 21 (Sulzberger, Halberstam); Oct. 22 (Moore's motion in Judiciary); Oct. 23 (the leaders on the bill, PRDE); Oct. 28 (Daley on Libonati, PRDE); Oct. 29 (Halleck, PRDE; Republican Party: In Congress); Nov. 2 (the 9:35 meeting, [FRUS 1961–63, IV, doc. 274]); Nov. 6 (Lodge's last weekly report, FRUS IV, docs. 302, 304); Nov. 21 (Forrestal to go to Sihanouk).
 
-Each was compared with every entry of its day. Four share day and thread with an entry of another event and carry `-2`
-or `-5` ids. The merge will flag them as possible duplicates (`./bib resolve ID --take keep`): 1962-10-22
-missile-crisis-5, 1963-07-26 testing-2, 1963-08-12 testing-2, 1963-09-12 vietnam-2.
+Each was compared with every entry of its day. Four share day and thread with an entry of another event and carry `-2` or `-5` ids. The merge will flag them as possible duplicates (`./bib resolve ID --take keep`): 1962-10-22 missile-crisis-5, 1963-07-26 testing-2, 1963-08-12 testing-2, 1963-09-12 vietnam-2.
 
 ## Records
 
-`sources/cited-records/reeves-president-kennedy.yaml`: 259 records from the notes the entries cite. By kind: memoranda
-74, interviews 51 (the author's; logged, and kept out of To check), oral histories 39, press 28, transcripts 19,
-telegrams 18, reports 10, files, notes, letters and recordings the rest. Published works (the published RFK oral history,
-the Pentagon Papers, the Church report, *CMC*, the memoirs and studies) are not logged, as the Caro file does not log
-them. 53 were found: FRUS documents, PRDE's and the Miller Center's catalogue pages. 47 of those were read and cited as
-the entries' primary record. The rest stand in the entries' To check, "(cited by [[w.reeves-president-kennedy]], PAGE)".
-Not found: the Library's daily appointments log and tape transcripts (by subscription, or not online), the NSF and POF
-memoranda FRUS does not print, the oral histories (the Library's, not read), and the press items, whose repository the
-notes do not give.
+`sources/cited-records/reeves-president-kennedy.yaml`: 259 records from the notes the entries cite. By kind: memoranda 74, interviews 51 (the author's; logged, and kept out of To check), oral histories 39, press 28, transcripts 19, telegrams 18, reports 10, files, notes, letters and recordings the rest. Published works (the published RFK oral history, the Pentagon Papers, the Church report, *CMC*, the memoirs and studies) are not logged, as the Caro file does not log them. 53 were found: FRUS documents, PRDE's and the Miller Center's catalogue pages. 47 of those were read and cited as the entries' primary record. The rest stand in the entries' To check, "(cited by [[w.reeves-president-kennedy]], PAGE)". Not found: the Library's daily appointments log and tape transcripts (by subscription, or not online), the NSF and POF memoranda FRUS does not print, the oral histories (the Library's, not read), and the press items, whose repository the notes do not give.
 
 ## Second patch: the dated events first passed over as leads
 
-The coordinator's ruling (Oct. 29, 2026): a lead is only what cannot be placed or verified; an event the book dates to the
-day or the month, within the brief, is an entry. Patch: `inbox/2026-10-29-book-reeves-2.yaml` (book-reeves-2), 121 ops,
-built on the tree after the first patch's merge. Each row of the Passed-over table marked "lead" was reread on its page,
-its day's entries compared, and its primary record read first where FRUS, the Public Papers, the bound Record, Voteview,
-PRDE or the Miller Center give it. A month-only date is an entry of the month with "Check: the day."
+The coordinator's ruling (Oct. 29, 2026): a lead is only what cannot be placed or verified; an event the book dates to the day or the month, within the brief, is an entry. Patch: `inbox/2026-10-29-book-reeves-2.yaml` (book-reeves-2), 121 ops, built on the tree after the first patch's merge. Each row of the Passed-over table marked "lead" was reread on its page, its day's entries compared, and its primary record read first where FRUS, the Public Papers, the bound Record, Voteview, PRDE or the Miller Center give it. A month-only date is an entry of the month with "Check: the day."
 
-- New entries (111): 1960, 2; 1961, 46; 1962, 30; 1963, 33. Among them: the members' and party figures' words (Capehart,
-  Aug. 27, 1962; Eisenhower's speeches, Nov. 1961, and on the tax cut, Jan. 1963; Rockefeller on civil defense, May 1961,
-  and on the Southern judges, Feb. 12, 1963; Truman and Pell on the deficit; Griffiths's letter; Van Zandt; Goldwater on
-  Tito and Madame Nhu; the RNC's resolution; Prescott Bush's amendment, tabled 61–25, Voteview roll call 44); the
-  President's speeches and remarks the Papers print (the news conferences of Feb. 8 and Nov. 8, 1961, June 27, July 5,
-  July 23 and Dec. 12, 1962, Jan. 24 and Apr. 24, 1963; the Chamber of Commerce, Apr. 30, 1962; Indianapolis for Bayh,
-  Oct. 13, 1962; the Emancipation centennial; the letter to the governors' civil defense committee, Oct. 6, 1961;
-  Churchill's citizenship; Tito's welcome); the calls and meetings (Rayburn's breakfast, Jan. 1961; the State of the
-  Union week's meetings with the party's members, Jan. 17–18, 1962; the senators at the NSC on Acheson's report, June 29,
-  1961; Davis, June 3, 1963, and Katzenbach, Mar. 7, 1963, from PRDE; the business leaders, Aug. 9, 1962, from the
-  Miller Center; Dirksen and Halleck, June 11, 1963; the three bills, June 18, 1963); the Democrats' galas of May 19,
-  1962 and Jan. 1963; and the documents FRUS prints (State to Saigon, Mar. 1, 1961; McNamara's Berlin planning, May 5,
-  1961; McCloy's cable, July 29, 1961; Kennedy to Macmillan, Aug. 3, 1961; the meetings of July 28 and Aug. 29, 1961;
-  NSAM 88; Rostow, Nov. 24, 1961; Frondizi, Dec. 24, 1961; the NIE and SNIE of 1963; the Standing Group, Apr. 16 and July
-  9, 1963; Rusk to Trueheart and Trueheart's reply, June 1963). Keating's speech of Oct. 10, 1962, already entered, now
-  carries its primary record, read in the bound Record: 108 Cong. Rec. 22957.
-- Edits (10): Dec. 13, 1960 (McNamara's letter of conditions); May 5, 1961 (the NSC: South Vietnam, by FRUS 1961–63, I,
-  doc. 46, British Guiana, Shepard, Trujillo); Aug. 1, Aug. 29, Oct. 10, 1962; Feb. 12, Mar. 6, Mar. 21, Apr. 4, July 17,
-  1963: the news conferences' answers added as units at the end, listed in their threads by `also:` (one event, one
-  entry). Each was diffed against the entry as it stands: no cite, unit or row of another run's lost.
-- Rulings: Reeves's "We test and test and test" (311) is of the news conference of Mar. 21, 1963, not May 17, 1962; the
-  letter to the governors (233) is the Papers' of Oct. 6, 1961; Indianapolis (368) the Papers' Oct. 13, 1962; the Meo of
-  NSAM 80 (221) are in Laos; the deniability memorandum of Apr. 16, 1963 (473) is a memorandum for the record, not Bundy's
-  to the President; the Feb. 15, 1961 passage on the Dominican contacts (140–41) is not in Rusk's memorandum of the day as
-  FRUS prints it. Each a Check on its entry.
-- Duplicate flags for the merger, distinct events (`./bib resolve ID --take keep`): 1960-12-08 transition-and-staff-cabinet
-  (McNamara, not Rusk), 1961-05 cuba-2, 1961-05-01 laos-2 (Mansfield on Laos, not his Cuba memorandum), 1962-07-12
-  economy (Sorensen's memorandum, not the depreciation guidelines), 1962-08-09 economy-2 and economy-3.
-- Cards made: `w.slusser-berlin-crisis-of-1961`, `w.ranelagh-agency`, `w.lieberson-john-fitzgerald-kennedy-as` (they warn
-  "nothing points to" until the patch is merged). Records: 97 more in `sources/cited-records/reeves-president-kennedy.yaml` (356 in all).
-- Left as leads, no date in the book or not verified: the taping system (304), Ervin's bill (467), Symington (625),
-  Eisenhower's *Post* article and "nuts" (457–58), the *Herald Tribune* cancelled (304), Bartlett's drink (484), the
-  Apr. 5, 1963 meeting, Surrey before the Joint Committee (332), Adzhubei and Gagarin (231).
+- New entries (111): 1960, 2; 1961, 46; 1962, 30; 1963, 33. Among them: the members' and party figures' words (Capehart, Aug. 27, 1962; Eisenhower's speeches, Nov. 1961, and on the tax cut, Jan. 1963; Rockefeller on civil defense, May 1961, and on the Southern judges, Feb. 12, 1963; Truman and Pell on the deficit; Griffiths's letter; Van Zandt; Goldwater on Tito and Madame Nhu; the RNC's resolution; Prescott Bush's amendment, tabled 61–25, Voteview roll call 44); the President's speeches and remarks the Papers print (the news conferences of Feb. 8 and Nov. 8, 1961, June 27, July 5, July 23 and Dec. 12, 1962, Jan. 24 and Apr. 24, 1963; the Chamber of Commerce, Apr. 30, 1962; Indianapolis for Bayh, Oct. 13, 1962; the Emancipation centennial; the letter to the governors' civil defense committee, Oct. 6, 1961; Churchill's citizenship; Tito's welcome); the calls and meetings (Rayburn's breakfast, Jan. 1961; the State of the Union week's meetings with the party's members, Jan. 17–18, 1962; the senators at the NSC on Acheson's report, June 29, 1961; Davis, June 3, 1963, and Katzenbach, Mar. 7, 1963, from PRDE; the business leaders, Aug. 9, 1962, from the Miller Center; Dirksen and Halleck, June 11, 1963; the three bills, June 18, 1963); the Democrats' galas of May 19, 1962 and Jan. 1963; and the documents FRUS prints (State to Saigon, Mar. 1, 1961; McNamara's Berlin planning, May 5, 1961; McCloy's cable, July 29, 1961; Kennedy to Macmillan, Aug. 3, 1961; the meetings of July 28 and Aug. 29, 1961; NSAM 88; Rostow, Nov. 24, 1961; Frondizi, Dec. 24, 1961; the NIE and SNIE of 1963; the Standing Group, Apr. 16 and July 9, 1963; Rusk to Trueheart and Trueheart's reply, June 1963). Keating's speech of Oct. 10, 1962, already entered, now carries its primary record, read in the bound Record: 108 Cong. Rec. 22957.
+- Edits (10): Dec. 13, 1960 (McNamara's letter of conditions); May 5, 1961 (the NSC: South Vietnam, by FRUS 1961–63, I, doc. 46, British Guiana, Shepard, Trujillo); Aug. 1, Aug. 29, Oct. 10, 1962; Feb. 12, Mar. 6, Mar. 21, Apr. 4, July 17, 1963: the news conferences' answers added as units at the end, listed in their threads by `also:` (one event, one entry). Each was diffed against the entry as it stands: no cite, unit or row of another run's lost.
+- Rulings: Reeves's "We test and test and test" (311) is of the news conference of Mar. 21, 1963, not May 17, 1962; the letter to the governors (233) is the Papers' of Oct. 6, 1961; Indianapolis (368) the Papers' Oct. 13, 1962; the Meo of NSAM 80 (221) are in Laos; the deniability memorandum of Apr. 16, 1963 (473) is a memorandum for the record, not Bundy's to the President; the Feb. 15, 1961 passage on the Dominican contacts (140–41) is not in Rusk's memorandum of the day as FRUS prints it. Each a Check on its entry.
+- Duplicate flags for the merger, distinct events (`./bib resolve ID --take keep`): 1960-12-08 transition-and-staff-cabinet (McNamara, not Rusk), 1961-05 cuba-2, 1961-05-01 laos-2 (Mansfield on Laos, not his Cuba memorandum), 1962-07-12 economy (Sorensen's memorandum, not the depreciation guidelines), 1962-08-09 economy-2 and economy-3.
+- Cards made: `w.slusser-berlin-crisis-of-1961`, `w.ranelagh-agency`, `w.lieberson-john-fitzgerald-kennedy-as` (they warn "nothing points to" until the patch is merged). Records: 97 more in `sources/cited-records/reeves-president-kennedy.yaml` (356 in all).
+- Left as leads, no date in the book or not verified: the taping system (304), Ervin's bill (467), Symington (625), Eisenhower's *Post* article and "nuts" (457–58), the *Herald Tribune* cancelled (304), Bartlett's drink (484), the Apr. 5, 1963 meeting, Surrey before the Joint Committee (332), Adzhubei and Gagarin (231).
 
 ## Passed over
 
-How the list was made: the candidate list above, every dated or datable event pp. 13–662. For each event not entered, the
-entries of its day (±3 days) were read in the calendar dump. "Already in as" names the entry that has it. Some were not
-cited here: the page adds nothing the entry lacks, or the entry is another thread's and stands. "Minor" means only what
-the brief's rule says: a repetition, private or social trivia, or an operation below the calendar's level. Nothing of a
-member's or party figure's dated word is "minor": the few left are "lead". Page | date | event | why.
+How the list was made: the candidate list above, every dated or datable event pp. 13–662. For each event not entered, the entries of its day (±3 days) were read in the calendar dump. "Already in as" names the entry that has it. Some were not cited here: the page adds nothing the entry lacks, or the entry is another thread's and stands. "Minor" means only what the brief's rule says: a repetition, private or social trivia, or an operation below the calendar's level. Nothing of a member's or party figure's dated word is "minor": the few left are "lead". Page | date | event | why.
 
 | page | date | event | why |
 |---|---|---|---|
@@ -400,9 +303,4 @@ member's or party figure's dated word is "minor": the few left are "lead". Page 
 
 ## Leads
 
-Written into `notes/leads.md`, National, with the pages above: Prescott Bush's amendment to school aid (May 1961, 133);
-Capehart, Keating and Van Zandt on Cuba before Oct. 1962 (343–44, 367, 404); Griffiths's letter of Sept. 17, 1962 (353);
-Eisenhower's attacks on the administration's fiscal record and space program, 1963 (454, 457–58); the DNC's galas of May
-19, 1962 and Jan. 1963 (314–15, 461); Goldwater on Tito and Madame Nhu, Oct. 1963 (633); Tito's visit, Oct. 1963
-(631–34, no thread); the taping system's installation (304); the appointments log as the source for the many meetings
-dated only by it.
+Written into `notes/leads.md`, National, with the pages above: Prescott Bush's amendment to school aid (May 1961, 133); Capehart, Keating and Van Zandt on Cuba before Oct. 1962 (343–44, 367, 404); Griffiths's letter of Sept. 17, 1962 (353); Eisenhower's attacks on the administration's fiscal record and space program, 1963 (454, 457–58); the DNC's galas of May 19, 1962 and Jan. 1963 (314–15, 461); Goldwater on Tito and Madame Nhu, Oct. 1963 (633); Tito's visit, Oct. 1963 (631–34, no thread); the taping system's installation (304); the appointments log as the source for the many meetings dated only by it.

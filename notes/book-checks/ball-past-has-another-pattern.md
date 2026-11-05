@@ -1,41 +1,21 @@
 # Ball, *The Past Has Another Pattern* (1982): the calendar's citations, and the book against the calendar
 
-Card `w.ball-past-has-another-pattern` (alias `-1982`). George W. Ball's memoir (Norton, first edition). The owner's copy
-(Drive, the file id in the batch brief; archive.org's scan `pasthasanotherpa00ball`, 552 PDF pages with a text layer),
-read with `pdftotext -layout`; cited by the printed page. Offset: printed page = PDF page - 18 throughout. The plates
-(PDF 253-273) are counted in the book's pagination as pp. 235-255: the text runs on from p. 234 to p. 256 without a
-break. Checked on the running folios and on the page images at PDF 402 (p. 384) and PDF 520 (the notes, p. 502). The
-PDF deleted when the run was done.
+Card `w.ball-past-has-another-pattern` (alias `-1982`). George W. Ball's memoir (Norton, first edition). The owner's copy (Drive, the file id in the batch brief; archive.org's scan `pasthasanotherpa00ball`, 552 PDF pages with a text layer), read with `pdftotext -layout`; cited by the printed page. Offset: printed page = PDF page - 18 throughout. The plates (PDF 253-273) are counted in the book's pagination as pp. 235-255: the text runs on from p. 234 to p. 256 without a break. Checked on the running folios and on the page images at PDF 402 (p. 384) and PDF 520 (the notes, p. 502). The PDF deleted when the run was done.
 
-The first run (Oct. 29, 2026, patch `b3-ball`, merged: 134 entries added, 86 edited) read the book within the span,
-pp. 152-447, and wrote no book-check file; this file is the second run's (Nov. 4, 2026, patch `b3-ball-2`).
+The first run (Oct. 29, 2026, patch `b3-ball`, merged: 134 entries added, 86 edited) read the book within the span, pp. 152-447, and wrote no book-check file; this file is the second run's (Nov. 4, 2026, patch `b3-ball-2`).
 
-The book has notes, by chapter, pp. 495-508: few, many of them Ball's own asides. Each note was placed on its page by
-the superscript in the scan's text layer (its small type); the notes' running heads, "(pages 253-306)", misprint the
-first page of that range (233). Chapter 29 on (p. 448) is after Jan. 20, 1969.
+The book has notes, by chapter, pp. 495-508: few, many of them Ball's own asides. Each note was placed on its page by the superscript in the scan's text layer (its small type); the notes' running heads, "(pages 253-306)", misprint the first page of that range (233). Chapter 29 on (p. 448) is after Jan. 20, 1969.
 
 ## The second run (Nov. 4, 2026)
 
-1. The pages the calendar did not cite, within the span: 150-185, 188-189, 197-199, 204-205, 208-210, 220-231,
-   259-260, 274-275, 286, 308-309, 316-322, 327-339, 359-364, 370-376, 384-387, 410-435, 448-452 (the plates aside),
-   read for each dated event (the whole of 150-185 and 188-209; elsewhere each sentence with a date, month, season or
-   day, and the paragraph around it where an event was dated), set against the tree and the ledger.
-2. The notes on the pages the calendar cites: each witness registered (R35), the studies and memoirs the conversion of
-   Nov. 3 left out among them.
+1. The pages the calendar did not cite, within the span: 150-185, 188-189, 197-199, 204-205, 208-210, 220-231, 259-260, 274-275, 286, 308-309, 316-322, 327-339, 359-364, 370-376, 384-387, 410-435, 448-452 (the plates aside), read for each dated event (the whole of 150-185 and 188-209; elsewhere each sentence with a date, month, season or day, and the paragraph around it where an event was dated), set against the tree and the ledger.
+2. The notes on the pages the calendar cites: each witness registered (R35), the studies and memoirs the conversion of Nov. 3 left out among them.
 
-Patch `inbox/2026-11-03-b3-ball-2.yaml` (18 ops; patch-check 0 errors, 2 warnings, both same-day flags of distinct
-events: `cal.1960-07-26.elections-1960` is the Republican convention, `cal.1961-09.transition-and-staff` Landis's
-resignation; `./bib resolve ID --take keep`).
+Patch `inbox/2026-11-03-b3-ball-2.yaml` (18 ops; patch-check 0 errors, 2 warnings, both same-day flags of distinct events: `cal.1960-07-26.elections-1960` is the Republican convention, `cal.1961-09.transition-and-staff` Landis's resignation; `./bib resolve ID --take keep`).
 
-New entries (7): Ball's letter to Stevenson, July 26, 1960 (159); Ball's first trip to Europe and Erhard, Mar. 1961
-(184-85); Ball's memorandum to Kennedy on Britain, May 1961 (209); Ball Acting Secretary, Aug. 4-10, 1961 (171); Rusk's
-division of the Under Secretaries' work, Sept. 1961 (171-72); Alsop's column and Ball's reply, Nov. 23, 1964 (384);
-Clifford's statement of Dec. 29, 1968 (414).
+New entries (7): Ball's letter to Stevenson, July 26, 1960 (159); Ball's first trip to Europe and Erhard, Mar. 1961 (184-85); Ball's memorandum to Kennedy on Britain, May 1961 (209); Ball Acting Secretary, Aug. 4-10, 1961 (171); Rusk's division of the Under Secretaries' work, Sept. 1961 (171-72); Alsop's column and Ball's reply, Nov. 23, 1964 (384); Clifford's statement of Dec. 29, 1968 (414).
 
-Cites on entries in the tree: the trade bill's votes, June 28 and Sept. 19, 1962 (198); Nkrumah at the White House, Mar.
-8, 1961 (185); the foreign aid message, Mar. 22, 1961 (183); Hammarskjöld's death, Sept. 18, 1961 (229); the Dominican
-coup, Sept. 25, 1963 (327); the guarantor powers' appeal on Cyprus, Dec. 24, 1963 (338); Wilson in Washington, Dec. 7,
-1964 (336); Stevenson's death, July 14, 1965 (151-52).
+Cites on entries in the tree: the trade bill's votes, June 28 and Sept. 19, 1962 (198); Nkrumah at the White House, Mar. 8, 1961 (185); the foreign aid message, Mar. 22, 1961 (183); Hammarskjöld's death, Sept. 18, 1961 (229); the Dominican coup, Sept. 25, 1963 (327); the guarantor powers' appeal on Cyprus, Dec. 24, 1963 (338); Wilson in Washington, Dec. 7, 1964 (336); Stevenson's death, July 14, 1965 (151-52).
 
 Ball's account against the record, "Check:" added:
 
@@ -46,32 +26,16 @@ Ball's account against the record, "Check:" added:
 
 ## Witnesses (R35)
 
-New rows in `inbox/witnesses/2026-11-03-b3-ball-2.yaml` (20); the edges in
-`sources/witnesses/by-work/ball-past-has-another-pattern.yaml` (35 added, one corrected):
+New rows in `inbox/witnesses/2026-11-03-b3-ball-2.yaml` (20); the edges in `sources/witnesses/by-work/ball-past-has-another-pattern.yaml` (35 added, one corrected):
 
-- Corrected: `233 n.8` is Schlesinger, *A Thousand Days*, 576 (the address of Dec. 19, 1961 as "the definitive statement"
-  of the Congo policy), not Ball's pamphlet; registered as a passage of Schlesinger's (`part_of` the card) resting on the
-  address, so the via row of `cal.1961-12-19.congo` still leads to the address. The pamphlet is `229 n.5`.
-- Cards: Martin, *Adlai Stevenson and the World*, 534 (160 n.2); Schlesinger, *A Thousand Days*, 157 (161 n.3); Macmillan,
-  *At the End of the Day*, 111 (218 n.4); Ball, *Discipline of Power*, 84-85 (268 n.3); Robert Kennedy, *Thirteen Days*,
-  89-90 and 87 (288 n.1, 307 n.4); Hilsman, 203, Allison, 141-42, and Chayes, 96f. (306 n.2: Ball's note disputes the
-  first two, and Abel's, on an order of August 1962 to remove the Jupiters; it quotes NSAM 181, registered); Valenti,
-  *A Very Human President*, 319-40 (399 n.9).
-- Rows: Watt's *Survey of International Affairs, 1961*; Cecil King's diary, Sept. 10, 1966; Martelli; Stebbins's
-  *United States in World Affairs*, 1961 and 1963; Security Council resolution S/4426 and Hoskyns's chronology; Gérard-
-  Libois; Piers Dixon's *Double Diploma*; Kulski; Abel's *Missile Crisis*; Bernstein in the *Political Science
-  Quarterly*; Lefever's *Spear and Scepter*; Crawford Young in *Africa Report*; Weintal and Bartlett's *Facing the
-  Brink*; Radvanyi's *Delusion and Reality*; Kennedy's address at American University (the Papers' item, not read);
-  Johnson's remark to Ball on Goldberg's mission to the Pope (405 n.3) and Clifford's account to Ball of his Asian tour
-  (407 n.6), both remarks known only by Ball's recollection.
-- Not registered: the notes that are Ball's asides with no source (161 n.1, 200 n.3, 369 n.13, 370 n.14, 400 n.10,
-  359 n.3, 359 n.5), literary quotations (276 n.2), and notes on pages outside the calendar's citations (pp. 1-151,
-  322 n.2, 361-364, 385-387, 410-423, 427, chs. 29-30).
+- Corrected: `233 n.8` is Schlesinger, *A Thousand Days*, 576 (the address of Dec. 19, 1961 as "the definitive statement" of the Congo policy), not Ball's pamphlet; registered as a passage of Schlesinger's (`part_of` the card) resting on the address, so the via row of `cal.1961-12-19.congo` still leads to the address. The pamphlet is `229 n.5`.
+- Cards: Martin, *Adlai Stevenson and the World*, 534 (160 n.2); Schlesinger, *A Thousand Days*, 157 (161 n.3); Macmillan, *At the End of the Day*, 111 (218 n.4); Ball, *Discipline of Power*, 84-85 (268 n.3); Robert Kennedy, *Thirteen Days*, 89-90 and 87 (288 n.1, 307 n.4); Hilsman, 203, Allison, 141-42, and Chayes, 96f. (306 n.2: Ball's note disputes the first two, and Abel's, on an order of August 1962 to remove the Jupiters; it quotes NSAM 181, registered); Valenti, *A Very Human President*, 319-40 (399 n.9).
+- Rows: Watt's *Survey of International Affairs, 1961*; Cecil King's diary, Sept. 10, 1966; Martelli; Stebbins's *United States in World Affairs*, 1961 and 1963; Security Council resolution S/4426 and Hoskyns's chronology; Gérard- Libois; Piers Dixon's *Double Diploma*; Kulski; Abel's *Missile Crisis*; Bernstein in the *Political Science Quarterly*; Lefever's *Spear and Scepter*; Crawford Young in *Africa Report*; Weintal and Bartlett's *Facing the Brink*; Radvanyi's *Delusion and Reality*; Kennedy's address at American University (the Papers' item, not read); Johnson's remark to Ball on Goldberg's mission to the Pope (405 n.3) and Clifford's account to Ball of his Asian tour (407 n.6), both remarks known only by Ball's recollection.
+- Not registered: the notes that are Ball's asides with no source (161 n.1, 200 n.3, 369 n.13, 370 n.14, 400 n.10, 359 n.3, 359 n.5), literary quotations (276 n.2), and notes on pages outside the calendar's citations (pp. 1-151, 322 n.2, 361-364, 385-387, 410-423, 427, chs. 29-30).
 
 ## Passed over
 
-Every dated event within the span on the pages read this run (step 1 above) that is not entered and not already in
-the calendar; the first run's passes over the cited pages were not logged and are not repeated here.
+Every dated event within the span on the pages read this run (step 1 above) that is not entered and not already in the calendar; the first run's passes over the cited pages were not logged and are not repeated here.
 
 | Page | Date | Event | Ruling |
 |---|---|---|---|
@@ -133,14 +97,6 @@ the calendar; the first run's passes over the cited pages were not logged and ar
 
 ## Leads
 
-- National: Kennedy's letter to the chiefs of mission, 1961 (Ball 171; the day); Fowler Hamilton named to AID (184);
-  the Cabinet Committee on Textiles and the defense mobilization finding (188-89); Herter and Blumenthal named, Nov.
-  1962 (198-99); the Balance of Payments Committee (204-05); Kennedy's press conference of July 17, 1963 (374; the
-  Papers); Johnson's "devil's advocate" (384); Alsop's column of Nov. 23, 1964 (384: the paper and page); Clifford's
-  statement of Dec. 29, 1968 (414: the occasion; the daybook's Sunday programs that day have Rostow and McGovern, not
-  Clifford); Ball's promise to Humphrey (451).
-- Foreign: the OECD's ratification, Mar. 16, 1961 (221); the political union scheme, Apr. 1962 (260); Mikoyan to Havana,
-  Nov. 2, 1962 (308); the Congo of 1963-64 (322); Makarios's proposals, Nov. 1963 (338); Johnson at Honolulu, Feb. 1966
-  (427); Macmillan to Eisenhower, 1960, on a "peripheral alliance" (209: the record, FRUS 1958-60).
-- Sources not held: Weintal and Bartlett, *Facing the Brink* (1967), and Abel, *The Missile Crisis* (1966), cited by Ball
-  and by Rusk's list of works (Rusk, 641), have no cards; Radvanyi, *Delusion and Reality* (1978), neither.
+- National: Kennedy's letter to the chiefs of mission, 1961 (Ball 171; the day); Fowler Hamilton named to AID (184); the Cabinet Committee on Textiles and the defense mobilization finding (188-89); Herter and Blumenthal named, Nov. 1962 (198-99); the Balance of Payments Committee (204-05); Kennedy's press conference of July 17, 1963 (374; the Papers); Johnson's "devil's advocate" (384); Alsop's column of Nov. 23, 1964 (384: the paper and page); Clifford's statement of Dec. 29, 1968 (414: the occasion; the daybook's Sunday programs that day have Rostow and McGovern, not Clifford); Ball's promise to Humphrey (451).
+- Foreign: the OECD's ratification, Mar. 16, 1961 (221); the political union scheme, Apr. 1962 (260); Mikoyan to Havana, Nov. 2, 1962 (308); the Congo of 1963-64 (322); Makarios's proposals, Nov. 1963 (338); Johnson at Honolulu, Feb. 1966 (427); Macmillan to Eisenhower, 1960, on a "peripheral alliance" (209: the record, FRUS 1958-60).
+- Sources not held: Weintal and Bartlett, *Facing the Brink* (1967), and Abel, *The Missile Crisis* (1966), cited by Ball and by Rusk's list of works (Rusk, 641), have no cards; Radvanyi, *Delusion and Reality* (1978), neither.

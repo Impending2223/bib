@@ -1,78 +1,32 @@
 # Evan Thomas, *Robert Kennedy: His Life* (2000): the calendar against the book
 
-Card `w.thomas-robert-kennedy`. Read Nov. 3, 2026 (batch 3 resumed), from the owner's copy on the Drive (a scan with a
-text layer). Printed page = PDF page − 2 to p. 160, − 18 from p. 161 (sixteen pages of plates between pp. 160 and
-161), by the running heads. Text pp. 1–392; Source Notes 395–470 (by page and lead words; abbreviations p. 395: "RK"
-is Schlesinger, *Robert Kennedy and His Times*). Patch: `inbox/2026-11-03-b3-thomas-rfk-2.yaml` (b3-thomas-rfk-2);
-witnesses `inbox/witnesses/2026-11-03-b3-thomas-rfk-2.yaml`; edges `sources/witnesses/by-work/thomas-robert-kennedy.yaml`.
+Card `w.thomas-robert-kennedy`. Read Nov. 3, 2026 (batch 3 resumed), from the owner's copy on the Drive (a scan with a text layer). Printed page = PDF page − 2 to p. 160, − 18 from p. 161 (sixteen pages of plates between pp. 160 and 161), by the running heads. Text pp. 1–392; Source Notes 395–470 (by page and lead words; abbreviations p. 395: "RK" is Schlesinger, *Robert Kennedy and His Times*). Patch: `inbox/2026-11-03-b3-thomas-rfk-2.yaml` (b3-thomas-rfk-2); witnesses `inbox/witnesses/2026-11-03-b3-thomas-rfk-2.yaml`; edges `sources/witnesses/by-work/thomas-robert-kennedy.yaml`.
 
-Where the run stopped: step 1 of R3 only (the cites already in the calendar). The whole book against the calendar
-(R3, step 2) is not yet done: the next run reads pp. 1–392 as Shesol's run did (the dated sentences, then the notes'
-dated papers against the calendar's days). Shesol was read first; Thomas's notes cite Shesol (315, 316 n.), and an
-entry from Shesol's patch on the same event takes Thomas's cite by an additive op on the pending id (R49).
+Where the run stopped: step 1 of R3 only (the cites already in the calendar). The whole book against the calendar (R3, step 2) is not yet done: the next run reads pp. 1–392 as Shesol's run did (the dated sentences, then the notes' dated papers against the calendar's days). Shesol was read first; Thomas's notes cite Shesol (315, 316 n.), and an entry from Shesol's patch on the same event takes Thomas's cite by an additive op on the pending id (R49).
 
 ## The cites already in the calendar (16)
 
-All 16 were behind "To check:", bare. Held and pinned with units: 1960-12-16 (109–11), 1961-05-06 (127: "early May",
-the University of Georgia; not the words), 1961-05-22 (156: Kennedy's note to Evans), 1962-05-07 (171: Edwards and
-Houston; Thomas adds the $150,000 contract), 1966-02-19 (315), 1966-06-04 (322), 1967-03-02 (334–35), 1967-04-10
-(339), 1968-01-30 (356), 1968-03-14 (359–60), 1968-04-04 (366–67), 1968-06-05 (387, 390).
+All 16 were behind "To check:", bare. Held and pinned with units: 1960-12-16 (109–11), 1961-05-06 (127: "early May", the University of Georgia; not the words), 1961-05-22 (156: Kennedy's note to Evans), 1962-05-07 (171: Edwards and Houston; Thomas adds the $150,000 contract), 1966-02-19 (315), 1966-06-04 (322), 1967-03-02 (334–35), 1967-04-10 (339), 1968-01-30 (356), 1968-03-14 (359–60), 1968-04-04 (366–67), 1968-06-05 (387, 390).
 
-Not found in the text by search (the OCR read in full, the words of the entry searched), left behind "To check:" for
-the owner's ruling: 1960-10-19 (King's arrest at Rich's: Thomas, 101, tells the sentence and the calls of Oct. 25–26,
-not the arrest; the card may belong to cal.1960-10-26.robert-kennedy); 1966-06-28 (the Surrogate's primary: no
-Silverman in the text); 1966-12-09 (P.S. 305: the Bedford-Stuyvesant program at 319–26, the day not found); 1968-02-08
-(the Chicago Book and Author Luncheon: not found).
+Not found in the text by search (the OCR read in full, the words of the entry searched), left behind "To check:" for the owner's ruling: 1960-10-19 (King's arrest at Rich's: Thomas, 101, tells the sentence and the calls of Oct. 25–26, not the arrest; the card may belong to cal.1960-10-26.robert-kennedy); 1966-06-28 (the Surrogate's primary: no Silverman in the text); 1966-12-09 (P.S. 305: the Bedford-Stuyvesant program at 319–26, the day not found); 1968-02-08 (the Chicago Book and Author Luncheon: not found).
 
 ## New entries (5)
 
-Pearson's columns of May 1968 and the King tap, by Thomas, 378–79, from the *Post*'s columns his note gives and the
-FBI's files he read: May 3 ("Voters Must Weigh Bobby's Know-How"), May 18 (Pearson with Johnson), May 22 ("Bobby v.
-Hoffa"), May 23 (DeLoach to Johnson), May 24 ("Kennedy Ordered King Wiretap"); the existing May 17 entry (DeLoach to
-Tolson) cited. This closes Navasky's lead (136): Navasky's page cited under May 24 by b3-navasky-2 (the answer,
-Salinger at Portland).
+Pearson's columns of May 1968 and the King tap, by Thomas, 378–79, from the *Post*'s columns his note gives and the FBI's files he read: May 3 ("Voters Must Weigh Bobby's Know-How"), May 18 (Pearson with Johnson), May 22 ("Bobby v. Hoffa"), May 23 (DeLoach to Johnson), May 24 ("Kennedy Ordered King Wiretap"); the existing May 17 entry (DeLoach to Tolson) cited. This closes Navasky's lead (136): Navasky's page cited under May 24 by b3-navasky-2 (the answer, Salinger at Portland).
 
 ## Records and witnesses
 
-Eight rows and 19 edges for the passages cited (the three columns among them): Pearson to Kennedy (Dec. 5, 1960), the *Times* of May 7, 1961, and of
-Feb. 20, 1966, Pearson's column of Mar. 3, 1967, John Bartlow Martin's campaign journal; edges to Schlesinger,
-Goodwin, Newfield, Stein and Plimpton, Witcover and Shesol, and to the Senate's Interim Report and Clifford's
-memorandum of Mar. 14, 1968 (registered by b3-shesol-2). Thomas's interviews are his own (not deposited).
+Eight rows and 19 edges for the passages cited (the three columns among them): Pearson to Kennedy (Dec. 5, 1960), the *Times* of May 7, 1961, and of Feb. 20, 1966, Pearson's column of Mar. 3, 1967, John Bartlow Martin's campaign journal; edges to Schlesinger, Goodwin, Newfield, Stein and Plimpton, Witcover and Shesol, and to the Senate's Interim Report and Clifford's memorandum of Mar. 14, 1968 (registered by b3-shesol-2). Thomas's interviews are his own (not deposited).
 
 ## Third run (Nov. 4, 2026): the book against the calendar, chapters 4-12
 
-Read Nov. 4, 2026, from the owner's copy again (fetched through drive.usercontent.google.com, the text layer read page by
-page, the PDF deleted once the pages within the span were rendered as images; the offset held: p. 120 = PDF 122, p. 163 =
-PDF 181, read off the images). Patch: `inbox/2026-11-04-b3-thomas-rfk-3.yaml` (b3-thomas-rfk-3): 282 ops, 137 new
-entries (claimed in the ledger), 100 cites to entries already in the calendar, 23 Checks, 22 `src` rows of `via`
-witnesses. Pending witnesses: `inbox/witnesses/2026-11-04-b3-thomas-rfk-3.yaml` (133 rows); edges appended to
-`sources/witnesses/by-work/thomas-robert-kennedy.yaml` (271 new, keyed by page and the note's lead words, slugged).
-`./bib patch-check`: 0 errors, 56 warnings, every one a "one event?" flag read and ruled distinct (a call apart from a
-meeting, a memorandum apart from its reply, the month-only entries beside others of their month). `./bib check`: 0 errors.
+Read Nov. 4, 2026, from the owner's copy again (fetched through drive.usercontent.google.com, the text layer read page by page, the PDF deleted once the pages within the span were rendered as images; the offset held: p. 120 = PDF 122, p. 163 = PDF 181, read off the images). Patch: `inbox/2026-11-04-b3-thomas-rfk-3.yaml` (b3-thomas-rfk-3): 282 ops, 137 new entries (claimed in the ledger), 100 cites to entries already in the calendar, 23 Checks, 22 `src` rows of `via` witnesses. Pending witnesses: `inbox/witnesses/2026-11-04-b3-thomas-rfk-3.yaml` (133 rows); edges appended to `sources/witnesses/by-work/thomas-robert-kennedy.yaml` (271 new, keyed by page and the note's lead words, slugged). `./bib patch-check`: 0 errors, 56 warnings, every one a "one event?" flag read and ruled distinct (a call apart from a meeting, a memorandum apart from its reply, the month-only entries beside others of their month). `./bib check`: 0 errors.
 
-Where the run stopped: the end of chapter 12 (p. 239, Mar.-Apr. 1963). Read: pp. 90-239 (chapters 4-12; pp. 90-91 are
-December 1959, out of the span) and their source notes (pp. 407-440). Not yet read against the calendar: pp. 240-392
-(chapters 13-21: Birmingham and the civil rights bill, Hoover and King, November 1963, the Senate race, the Senate, 1968),
-and the Prologue (pp. 17-23: the Grand Canyon trip of June 1967, within the span). The next run starts at p. 240.
+Where the run stopped: the end of chapter 12 (p. 239, Mar.-Apr. 1963). Read: pp. 90-239 (chapters 4-12; pp. 90-91 are December 1959, out of the span) and their source notes (pp. 407-440). Not yet read against the calendar: pp. 240-392 (chapters 13-21: Birmingham and the civil rights bill, Hoover and King, November 1963, the Senate race, the Senate, 1968), and the Prologue (pp. 17-23: the Grand Canyon trip of June 1967, within the span). The next run starts at p. 240.
 
-How it was read: each chapter's text whole, every event it dates (to the day, month or stretch) looked up in the tree and
-the ledger by day and by words (`./bib find`, a scratch lister of every entry in the range); an event the calendar holds
-took Thomas's cite with its pinpoint, a parenthetical for what Thomas bears out, and its units; an event it lacks became an
-entry. Thomas's own interviews are registered as witnesses (`x.undated.<name>-interview-thomas`, not deposited, `open: not
-held`); the oral histories, FBI and CIA files and other papers his notes name, as witnesses of their own; the works the
-series holds, as edges to their cards. `via` rows only where the edge reaches a registered witness (an edge to a card
-alone makes no `via` row: check refuses it).
+How it was read: each chapter's text whole, every event it dates (to the day, month or stretch) looked up in the tree and the ledger by day and by words (`./bib find`, a scratch lister of every entry in the range); an event the calendar holds took Thomas's cite with its pinpoint, a parenthetical for what Thomas bears out, and its units; an event it lacks became an entry. Thomas's own interviews are registered as witnesses (`x.undated.<name>-interview-thomas`, not deposited, `open: not held`); the oral histories, FBI and CIA files and other papers his notes name, as witnesses of their own; the works the series holds, as edges to their cards. `via` rows only where the edge reaches a registered witness (an edge to a card alone makes no `via` row: check refuses it).
 
-Chief new entries: the 1960 campaign as Robert Kennedy ran it (Vanocur, Apr. 4; Chafin's and Donahue's money; Rivkin,
-May 11; Baker, "You'll get yours"; the platform's "Don't fuzz it up"; Savannah; the first and second debates; Hunt's money
-returned; the Vandiver back channel on King, made public 1993; election night at Hyannis Port); the FBI's papers on the
-Kennedys, Giancana and Sinatra, 1960-64 (Mar. 23 and 29, 1960; Dec. 19, 1960; Apr. 17, July 13-14, Dec. 9 and 11, 1961;
-Feb. 2, 23, 26, Mar. 5, 15, 1962; June 8, 1964); the Maheu case (June 6, Aug., Oct. 5, 1961; May 9-10, 1962); Mongoose
-(Nov. 3, 22, 28-30, Dec. 7, 1961; Jan. 18, 1962, FRUS X, 291, read; Harvey and Rosselli; Oct. 16, 19, 24, 26, 1962);
-the counterinsurgency papers (Aug. 22, Sept. 11, 1961; July 13, 1962; Apr. 22, July 29, 1963; Mondlane, May 1963);
-the Freedom Rides' nights of May 21-22, 1961; the missile crisis as Thomas reads it (Oct. 16, three entries; Lovett,
-Oct. 18; the Chiefs and "falling apart," Oct. 19; Harriman and Robert Kennedy's notes, Oct. 22; the brothers' taped talk,
-Oct. 23; the Oval Office group and the late ExComm, Oct. 27; Dobrynin, Oct. 28); the prisoners (Sept., Nov. 1962).
+Chief new entries: the 1960 campaign as Robert Kennedy ran it (Vanocur, Apr. 4; Chafin's and Donahue's money; Rivkin, May 11; Baker, "You'll get yours"; the platform's "Don't fuzz it up"; Savannah; the first and second debates; Hunt's money returned; the Vandiver back channel on King, made public 1993; election night at Hyannis Port); the FBI's papers on the Kennedys, Giancana and Sinatra, 1960-64 (Mar. 23 and 29, 1960; Dec. 19, 1960; Apr. 17, July 13-14, Dec. 9 and 11, 1961; Feb. 2, 23, 26, Mar. 5, 15, 1962; June 8, 1964); the Maheu case (June 6, Aug., Oct. 5, 1961; May 9-10, 1962); Mongoose (Nov. 3, 22, 28-30, Dec. 7, 1961; Jan. 18, 1962, FRUS X, 291, read; Harvey and Rosselli; Oct. 16, 19, 24, 26, 1962); the counterinsurgency papers (Aug. 22, Sept. 11, 1961; July 13, 1962; Apr. 22, July 29, 1963; Mondlane, May 1963); the Freedom Rides' nights of May 21-22, 1961; the missile crisis as Thomas reads it (Oct. 16, three entries; Lovett, Oct. 18; the Chiefs and "falling apart," Oct. 19; Harriman and Robert Kennedy's notes, Oct. 22; the brothers' taped talk, Oct. 23; the Oval Office group and the late ExComm, Oct. 27; Dobrynin, Oct. 28); the prisoners (Sept., Nov. 1962).
 
 ### Disagreements and partial cites (R33)
 
@@ -106,8 +60,7 @@ The 100 cites otherwise hold with their parentheticals; where Thomas bears out p
 
 ## Passed over
 
-The second run ruled none. This run's list (pp. 90-239), made as the chapters were read: every dated event Thomas treats
-that is neither in the calendar (cited) nor entered, a row each. Page | date | event | why.
+The second run ruled none. This run's list (pp. 90-239), made as the chapters were read: every dated event Thomas treats that is neither in the calendar (cited) nor entered, a row each. Page | date | event | why.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -282,76 +235,28 @@ The second run: none. This run, the coverage and exchanges Thomas dates (date | 
 
 ### Leads (third run)
 
-- National: FRUS 1961-63, X, doc. 275, McCone's record of the meeting of Nov. 21, 1961 (the President, Robert Kennedy,
-  Lansdale, Goodwin; the plan of action on Cuba within two weeks): read, not in the calendar, not Thomas's event.
-- National: the Caribbean Survey Group's minutes of Mar. 25, 1962 (Robert Kennedy on "kidnapping some key people";
-  Thomas, 152 n.); McCone's memorandum of July 3, 1962 on the prisoners (FRUS X, 842; 178 n.); McManus to Helms, Nov.
-  5, 1962 (235 n.); Harvey's Church Committee testimony of July 11, 1975 (151 n.).
-- National: Jones to DeLoach, Mar. 24, 1961, on Schulberg's film of *The Enemy Within* (115 n.); McMillan's 48-page
-  memorandum on Sinatra, 1961-63, RFK Confidential File (173 n.); Summers, *Official and Confidential*, 289 (Hoover's
-  fear of replacement, Dec. 1961).
-- National: undated in Thomas, to date from the sources his notes give: Corbin in West Virginia (94); Singleton at Houston
-  and Graves at St. Louis (99); Sinatra's investigator's report on Nixon (107); the extortion schemes (108); the Keogh
-  stairway argument (113); "an attorney general we can't fix" (114); the Treasury's eavesdropping course (118); the
-  Georgetown police "academy" (142); Ball's Zanzibar memorandum (143); JM/WAVE's cost (151); Robert Kennedy and Harvey
-  (151-52); Guantánamo supplies for an underground (178); Abdullah and the Hotel Theresa (178); the Dunbar High pool
-  (185); the Hickory Hill seminars (188); Tretick's pictures (190); the denials to editors on Monroe (192); the FBI's
-  test of the Russians' wine (208); the tally of the ExComm (217); the CIA's stand-down of sabotage (234); Artime's
-  bases in Guatemala, Costa Rica and Nicaragua, 1963 (238).
-- National: the press figures without a name entry whom this run names or enters: Sander Vanocur (NBC), Murray Kempton,
-  Marguerite Higgins (*New York Herald Tribune*), Peter Maas (*Saturday Evening Post*), Frank Holeman (*New York Daily
-  News*), William Haddad (*New York Post*), Warren Rogers (*New York Herald Tribune*): proposed for Part III.
-- National: Thomas's interviews (some ninety persons) are not deposited: every such witness is open. The Stein and
-  Plimpton oral histories (STOH) and the Senate Historical Office's (SHO) are named but not read.
-- States and cities: the Wayne County, W. Va., case of 1960-63 (RFK to Burke Marshall, Sept. 23, 1963, Burke Marshall
-  Papers); Danville, Va., 1963, Geoghegan sent (Geoghegan OH, JFKL; 112); Savannah, Sept. 1960 (Scott Peek OH, SHO);
-  Chafin's *Just Good Politics*, 127-45 (Logan County, W. Va.?), not held.
-- Foreign: the *Indigirka* at Mariel, Oct. 4, 1962, and the *Marucla*, Oct. 26 (Fursenko and Naftali, 213, 426): for
-  the missile-crisis thread if not in.
+- National: FRUS 1961-63, X, doc. 275, McCone's record of the meeting of Nov. 21, 1961 (the President, Robert Kennedy, Lansdale, Goodwin; the plan of action on Cuba within two weeks): read, not in the calendar, not Thomas's event.
+- National: the Caribbean Survey Group's minutes of Mar. 25, 1962 (Robert Kennedy on "kidnapping some key people"; Thomas, 152 n.); McCone's memorandum of July 3, 1962 on the prisoners (FRUS X, 842; 178 n.); McManus to Helms, Nov. 5, 1962 (235 n.); Harvey's Church Committee testimony of July 11, 1975 (151 n.).
+- National: Jones to DeLoach, Mar. 24, 1961, on Schulberg's film of *The Enemy Within* (115 n.); McMillan's 48-page memorandum on Sinatra, 1961-63, RFK Confidential File (173 n.); Summers, *Official and Confidential*, 289 (Hoover's fear of replacement, Dec. 1961).
+- National: undated in Thomas, to date from the sources his notes give: Corbin in West Virginia (94); Singleton at Houston and Graves at St. Louis (99); Sinatra's investigator's report on Nixon (107); the extortion schemes (108); the Keogh stairway argument (113); "an attorney general we can't fix" (114); the Treasury's eavesdropping course (118); the Georgetown police "academy" (142); Ball's Zanzibar memorandum (143); JM/WAVE's cost (151); Robert Kennedy and Harvey (151-52); Guantánamo supplies for an underground (178); Abdullah and the Hotel Theresa (178); the Dunbar High pool (185); the Hickory Hill seminars (188); Tretick's pictures (190); the denials to editors on Monroe (192); the FBI's test of the Russians' wine (208); the tally of the ExComm (217); the CIA's stand-down of sabotage (234); Artime's bases in Guatemala, Costa Rica and Nicaragua, 1963 (238).
+- National: the press figures without a name entry whom this run names or enters: Sander Vanocur (NBC), Murray Kempton, Marguerite Higgins (*New York Herald Tribune*), Peter Maas (*Saturday Evening Post*), Frank Holeman (*New York Daily News*), William Haddad (*New York Post*), Warren Rogers (*New York Herald Tribune*): proposed for Part III.
+- National: Thomas's interviews (some ninety persons) are not deposited: every such witness is open. The Stein and Plimpton oral histories (STOH) and the Senate Historical Office's (SHO) are named but not read.
+- States and cities: the Wayne County, W. Va., case of 1960-63 (RFK to Burke Marshall, Sept. 23, 1963, Burke Marshall Papers); Danville, Va., 1963, Geoghegan sent (Geoghegan OH, JFKL; 112); Savannah, Sept. 1960 (Scott Peek OH, SHO); Chafin's *Just Good Politics*, 127-45 (Logan County, W. Va.?), not held.
+- Foreign: the *Indigirka* at Mariel, Oct. 4, 1962, and the *Marucla*, Oct. 26 (Fursenko and Naftali, 213, 426): for the missile-crisis thread if not in.
 
 ## Fourth run (Nov. 4, 2026): chapters 13-17 and the Prologue
 
-Read Nov. 4, 2026, from the owner's copy again (fetched through drive.usercontent.google.com; the text layer extracted
-page by page and the pages within the span rendered as images, the PDF deleted at once). The offset held: printed page =
-PDF page - 18 from p. 161 (p. 240 = PDF 258, p. 392 = PDF 410, by the running heads); the Prologue, PDF page - 2 (p. 17 =
-PDF 19). The Source Notes run to p. 478 (not 470): the Prologue's on pp. 396-97, chapter 13's from p. 440. Pinpoints
-checked against the images: p. 440 (the notes to chapter 13), p. 458 (the South America and *Saturday Evening Post*
-cites, which the OCR garbled).
+Read Nov. 4, 2026, from the owner's copy again (fetched through drive.usercontent.google.com; the text layer extracted page by page and the pages within the span rendered as images, the PDF deleted at once). The offset held: printed page = PDF page - 18 from p. 161 (p. 240 = PDF 258, p. 392 = PDF 410, by the running heads); the Prologue, PDF page - 2 (p. 17 = PDF 19). The Source Notes run to p. 478 (not 470): the Prologue's on pp. 396-97, chapter 13's from p. 440. Pinpoints checked against the images: p. 440 (the notes to chapter 13), p. 458 (the South America and *Saturday Evening Post* cites, which the OCR garbled).
 
-Patch: `inbox/2026-11-04-b3-thomas-rfk-4.yaml` (b3-thomas-rfk-4); witnesses
-`inbox/witnesses/2026-11-04-b3-thomas-rfk-4.yaml`; edges appended to `sources/witnesses/by-work/thomas-robert-kennedy.yaml`
-under the comment "edges, fourth run". New entries claimed in the ledger.
+Patch: `inbox/2026-11-04-b3-thomas-rfk-4.yaml` (b3-thomas-rfk-4); witnesses `inbox/witnesses/2026-11-04-b3-thomas-rfk-4.yaml`; edges appended to `sources/witnesses/by-work/thomas-robert-kennedy.yaml` under the comment "edges, fourth run". New entries claimed in the ledger.
 
-Where the run stopped: p. 319 (chapter 17, Bedford-Stuyvesant, Feb. 1966). Read: the Prologue (pp. 17-23) and pp.
-240-319, with their notes (pp. 396-97, 440-460). Not yet read against the calendar: pp. 320-392 (chapter 17 from p. 320,
-chapters 18-21: Bedford-Stuyvesant, the Senate, 1967, the campaign of 1968) and their notes (pp. 460-478). The next run
-starts at p. 320. The third run's pins in those pages stand (1966-06-04, 322; 1967-03-02, 334-35; 1967-04-10, 339;
-1968-01-30, 356; 1968-03-14, 359-60; 1968-04-04, 366-67; 1968-06-05, 387, 390).
+Where the run stopped: p. 319 (chapter 17, Bedford-Stuyvesant, Feb. 1966). Read: the Prologue (pp. 17-23) and pp. 240-319, with their notes (pp. 396-97, 440-460). Not yet read against the calendar: pp. 320-392 (chapter 17 from p. 320, chapters 18-21: Bedford-Stuyvesant, the Senate, 1967, the campaign of 1968) and their notes (pp. 460-478). The next run starts at p. 320. The third run's pins in those pages stand (1966-06-04, 322; 1967-03-02, 334-35; 1967-04-10, 339; 1968-01-30, 356; 1968-03-14, 359-60; 1968-04-04, 366-67; 1968-06-05, 387, 390).
 
-Counts: 248 ops, 81 new entries (each claimed in the ledger), 103 cites to entries already in the calendar (each
-with its pinpoint, a parenthetical where Thomas bears out part, and its units), 18 Checks on entries already in the calendar (and Checks of their own in the new entries), 46 `src` rows of `via` witnesses; 177 pending witnesses (Thomas's
-interviews, the oral histories and the FBI's, White House's and Justice Department's papers his notes name; three ids
-already registered were dropped from the pending file and take the edges as they stand); 393 edges appended to the
-by-work file. `./bib patch-check`: 0 errors, 28 warnings, every one a "one event?" flag read and ruled distinct (a
-telephone log apart from the FBI's memorandum and from O'Donnell's account, Oct. 26, 1963; two FBI and Evans memoranda of
-one day; a meeting apart from a call; a month-only entry beside others of its month).
+Counts: 248 ops, 81 new entries (each claimed in the ledger), 103 cites to entries already in the calendar (each with its pinpoint, a parenthetical where Thomas bears out part, and its units), 18 Checks on entries already in the calendar (and Checks of their own in the new entries), 46 `src` rows of `via` witnesses; 177 pending witnesses (Thomas's interviews, the oral histories and the FBI's, White House's and Justice Department's papers his notes name; three ids already registered were dropped from the pending file and take the edges as they stand); 393 edges appended to the by-work file. `./bib patch-check`: 0 errors, 28 warnings, every one a "one event?" flag read and ruled distinct (a telephone log apart from the FBI's memorandum and from O'Donnell's account, Oct. 26, 1963; two FBI and Evans memoranda of one day; a meeting apart from a call; a month-only entry beside others of its month).
 
-Chief new entries: the Birmingham meeting of May 12, 1963 (recorded); Robert Kennedy with the chain-store owners, May 24;
-the Drew-filmed scene of June 10; Marshall and Robert Kennedy with King, June 22, and the "proof" to Young; Sidey, the
-*Journal-American* and Suzy Chang, Frasca and Horan, Keeler and Rometsch (Mar.-July 1963); the skimming leak, Hoover's
-"skullduggery," Giancana's injunction (Apr.-July 1963); the Cuban press leaks and the Standing Group of July 16; Mollenhoff,
-Williams, the White House telephone logs and the FBI on the Rometsch story (Oct. 25-28, 1963); AMLASH and FitzGerald (Oct.
-11, early Nov.); Califano's account of "knocking off Castro"; Nov. 22, 1963 (the files and the taping system, McCone,
-Harry Williams, Sheridan and Draznin, the autopsy); Warren's letter of June 1964 and the reply; Scranton, Mar. 17, 1964;
-the Senate campaign of 1964 (Rosh Hashanah, the Warren report's day, Paley); Mount Kennedy, Concepción; Dutton's
-memoranda; the Medal of Honor reception (May 2, 1963, the Public Papers read) and the Grand Canyon (June-July 1, 1967).
+Chief new entries: the Birmingham meeting of May 12, 1963 (recorded); Robert Kennedy with the chain-store owners, May 24; the Drew-filmed scene of June 10; Marshall and Robert Kennedy with King, June 22, and the "proof" to Young; Sidey, the *Journal-American* and Suzy Chang, Frasca and Horan, Keeler and Rometsch (Mar.-July 1963); the skimming leak, Hoover's "skullduggery," Giancana's injunction (Apr.-July 1963); the Cuban press leaks and the Standing Group of July 16; Mollenhoff, Williams, the White House telephone logs and the FBI on the Rometsch story (Oct. 25-28, 1963); AMLASH and FitzGerald (Oct. 11, early Nov.); Califano's account of "knocking off Castro"; Nov. 22, 1963 (the files and the taping system, McCone, Harry Williams, Sheridan and Draznin, the autopsy); Warren's letter of June 1964 and the reply; Scranton, Mar. 17, 1964; the Senate campaign of 1964 (Rosh Hashanah, the Warren report's day, Paley); Mount Kennedy, Concepción; Dutton's memoranda; the Medal of Honor reception (May 2, 1963, the Public Papers read) and the Grand Canyon (June-July 1, 1967).
 
-How it was read: as the third run (each page whole; every dated event looked up in the tree and the ledger by day and by
-words; an event held took Thomas's cite with its pinpoint, a parenthetical and its units; an event lacking became an
-entry). Where Thomas's own note (not his text) dates a record and treats it, the entry cites the note's page (441, 447,
-449-51). Thomas's interviews are registered as witnesses, `open: not held`; the FBI's, the White House's and the Justice
-Department's papers his notes name, as witnesses of their own; the works the series holds, as edges to their cards.
-`via` rows only where an edge reaches a registered witness.
+How it was read: as the third run (each page whole; every dated event looked up in the tree and the ledger by day and by words; an event held took Thomas's cite with its pinpoint, a parenthetical and its units; an event lacking became an entry). Where Thomas's own note (not his text) dates a record and treats it, the entry cites the note's page (441, 447, 449-51). Thomas's interviews are registered as witnesses, `open: not held`; the FBI's, the White House's and the Justice Department's papers his notes name, as witnesses of their own; the works the series holds, as edges to their cards. `via` rows only where an edge reaches a registered witness.
 
 ### Disagreements and partial cites (R33), fourth run
 
@@ -530,52 +435,15 @@ Made as the chapters were read: every dated event Thomas treats in the pages rea
 
 ## Fifth run (Nov. 4, 2026): chapters 17-21 (pp. 320-394)
 
-Read Nov. 4, 2026, 4:10-5:00 a.m. Pacific, from the owner's copy again (fetched through drive.usercontent.google.com, the
-text layer extracted page by page, the pages within the span and the notes rendered as images at 90 dpi, the PDF deleted at
-once). The offset held: printed page = PDF page - 18 (p. 320 = PDF 338, p. 392 = PDF 410, p. 460 = PDF 478, p. 478 = PDF
-496, by the running heads). The text runs on to p. 394 (the funeral train and the grave), read too. Pinpoints and figures
-checked against the images: pp. 326, 331, 332, 335, 349 (and its footnote), 358, 375, 377, 378-79, 382, 387, and the notes
-on pp. 462, 464, 466. The image corrected the OCR once: the Oval Office meeting of Feb. 6, 1967, "at 4 p.m." (332), not
-"1 p.m."; no Check was written for it.
+Read Nov. 4, 2026, 4:10-5:00 a.m. Pacific, from the owner's copy again (fetched through drive.usercontent.google.com, the text layer extracted page by page, the pages within the span and the notes rendered as images at 90 dpi, the PDF deleted at once). The offset held: printed page = PDF page - 18 (p. 320 = PDF 338, p. 392 = PDF 410, p. 460 = PDF 478, p. 478 = PDF 496, by the running heads). The text runs on to p. 394 (the funeral train and the grave), read too. Pinpoints and figures checked against the images: pp. 326, 331, 332, 335, 349 (and its footnote), 358, 375, 377, 378-79, 382, 387, and the notes on pp. 462, 464, 466. The image corrected the OCR once: the Oval Office meeting of Feb. 6, 1967, "at 4 p.m." (332), not "1 p.m."; no Check was written for it.
 
-Patch: `inbox/2026-11-04-b3-thomas-rfk-5.yaml` (b3-thomas-rfk-5): 209 ops, 79 new entries (each claimed in the ledger),
-79 cites to entries already in the calendar (each with its pinpoint, a parenthetical where Thomas bears out part, and its
-units), 22 Checks on entries already in the calendar (and Checks of their own in the new entries), 29 `src` rows of `via`
-witnesses on cited entries (and `via` rows in the new entries' maps). Pending witnesses:
-`inbox/witnesses/2026-11-04-b3-thomas-rfk-5.yaml` (64 rows: Thomas's interviews not yet registered, the oral histories,
-the FBI's and the campaign's papers his notes name, the press items, the books without cards). Edges appended to
-`sources/witnesses/by-work/thomas-robert-kennedy.yaml` under "edges, fifth run" (186). `./bib patch-check`: 0 errors, 43
-warnings, every one a "one event?" flag read and ruled distinct (a month-only entry beside others of its month; the
-memoranda, calls and meetings of one day apart from one another). `./bib check`: 0 errors.
+Patch: `inbox/2026-11-04-b3-thomas-rfk-5.yaml` (b3-thomas-rfk-5): 209 ops, 79 new entries (each claimed in the ledger), 79 cites to entries already in the calendar (each with its pinpoint, a parenthetical where Thomas bears out part, and its units), 22 Checks on entries already in the calendar (and Checks of their own in the new entries), 29 `src` rows of `via` witnesses on cited entries (and `via` rows in the new entries' maps). Pending witnesses: `inbox/witnesses/2026-11-04-b3-thomas-rfk-5.yaml` (64 rows: Thomas's interviews not yet registered, the oral histories, the FBI's and the campaign's papers his notes name, the press items, the books without cards). Edges appended to `sources/witnesses/by-work/thomas-robert-kennedy.yaml` under "edges, fifth run" (186). `./bib patch-check`: 0 errors, 43 warnings, every one a "one event?" flag read and ruled distinct (a month-only entry beside others of its month; the memoranda, calls and meetings of one day apart from one another). `./bib check`: 0 errors.
 
-Where the run stopped: the end of the text (p. 394) and of the Source Notes (p. 478). With this run the book is read whole
-within the span (the second run's cites, the third run's chs. 4-12, the fourth run's chs. 13-17 to p. 319 and the
-Prologue, this run's pp. 320-394). The third run's pins in these pages stand (1966-06-04, 322; 1967-03-02, 334-35;
-1967-04-10, 339; 1968-01-30, 356; 1968-03-14, 359-60; 1968-04-04, 366-67; 1968-06-05, 387, 390).
+Where the run stopped: the end of the text (p. 394) and of the Source Notes (p. 478). With this run the book is read whole within the span (the second run's cites, the third run's chs. 4-12, the fourth run's chs. 13-17 to p. 319 and the Prologue, this run's pp. 320-394). The third run's pins in these pages stand (1966-06-04, 322; 1967-03-02, 334-35; 1967-04-10, 339; 1968-01-30, 356; 1968-03-14, 359-60; 1968-04-04, 366-67; 1968-06-05, 387, 390).
 
-How it was read: as the third and fourth runs (each page whole; every dated event looked up in the tree and the ledger by
-day and by words, a scratch lister over the months; an event held took Thomas's cite with its pinpoint, a parenthetical
-and its units; an event lacking became an entry, filed under its matter's thread). Where Thomas's note (not his text)
-dates a record and treats it, the entry cites the note's page (461-63, 466, 468, 470-72, 474, 478). Thomas's interviews
-are registered as witnesses, `open: not held`; the oral histories, the FBI's, the White House's and the campaign's papers
-his notes name, as witnesses of their own; the works the series holds, as edges to their cards. `via` rows only where an
-edge reaches a registered witness (an edge to a card alone makes none).
+How it was read: as the third and fourth runs (each page whole; every dated event looked up in the tree and the ledger by day and by words, a scratch lister over the months; an event held took Thomas's cite with its pinpoint, a parenthetical and its units; an event lacking became an entry, filed under its matter's thread). Where Thomas's note (not his text) dates a record and treats it, the entry cites the note's page (461-63, 466, 468, 470-72, 474, 478). Thomas's interviews are registered as witnesses, `open: not held`; the oral histories, the FBI's, the White House's and the campaign's papers his notes name, as witnesses of their own; the works the series holds, as edges to their cards. `via` rows only where an edge reaches a registered witness (an edge to a card alone makes none).
 
-Chief new entries: the FBI's papers on Kennedy and the microphones (Dec. 20 and 22, 1965; Jan. 5, June 2 and 28, 1966; Jan.
-17, 1967, the note on p. 462); Hoover's report on Marina Oswald, Feb. 17, 1964; Meyer and the Bedford-Stuyvesant board
-(Sept. 1966) and the March 1967 meeting with Sonny Carson; Manchester with Kennedy and Seigenthaler (Aug. 1966) and with
-Mrs. Kennedy (Sept. 1966); Reston's hour with Kennedy (Jan. 1967); the Gallup and Harris readings of March 1967; Kennedy on
-the Warren Commission and Garrison to Schlesinger (Oct. 1966, Feb. 1967), Sheridan and Guthman on Garrison, Gurvich (June
-1967), "the guy from New Orleans"; Frank Chavez's flight and the Court's refusal of Hoffa's appeal (Mar. 1, 1967); the CIA
-files and Helms's lunch (Mar. 4, 1967); Oklahoma's students; Coles (Nov. 1966, July 1967); Dolan's memoranda (May 12, July
-24, Nov. 11, Dec. 7, 1967); Goodwin's Homer (June 9, 1967); Bellow for *Life*; the reservations (July 1967, Jan. 1968);
-the King Cole Bar with George Stevens (Jan. 19, 1968); Lowenstein's last plea and the bathhouse weekend (Feb. 1968); Hackett,
-"I think I blew it," the Senators in Kennedy's office (Mar. 12-13, 1968); Jacqueline Kennedy to Schlesinger (Mar. 1968);
-Walinsky's "in the streets," Breslin and Daley, Harwood's "Crowd Madness" (Mar. 1968); Johnson with Pearson and with
-McCarthy (Apr. 3, 1968); John Lewis and King's body (Apr. 9); Lansing (Apr. 11); Martin's notes and advice; the Indiana
-medical students (Apr. 26); the campaign's Indiana analyses (May 8, 14) and Harris in *Newsweek* (May 20); Pearson's call
-and Marshall's talking points (May 23); O'Brien and the debate, the Portland zoo (May 25-26); McCarthy's King spots;
-Sirhan's ammunition (June 1); Goodwin in the bathroom (June 4); Johnson's "Cosa Nostra" note (June 4).
+Chief new entries: the FBI's papers on Kennedy and the microphones (Dec. 20 and 22, 1965; Jan. 5, June 2 and 28, 1966; Jan. 17, 1967, the note on p. 462); Hoover's report on Marina Oswald, Feb. 17, 1964; Meyer and the Bedford-Stuyvesant board (Sept. 1966) and the March 1967 meeting with Sonny Carson; Manchester with Kennedy and Seigenthaler (Aug. 1966) and with Mrs. Kennedy (Sept. 1966); Reston's hour with Kennedy (Jan. 1967); the Gallup and Harris readings of March 1967; Kennedy on the Warren Commission and Garrison to Schlesinger (Oct. 1966, Feb. 1967), Sheridan and Guthman on Garrison, Gurvich (June 1967), "the guy from New Orleans"; Frank Chavez's flight and the Court's refusal of Hoffa's appeal (Mar. 1, 1967); the CIA files and Helms's lunch (Mar. 4, 1967); Oklahoma's students; Coles (Nov. 1966, July 1967); Dolan's memoranda (May 12, July 24, Nov. 11, Dec. 7, 1967); Goodwin's Homer (June 9, 1967); Bellow for *Life*; the reservations (July 1967, Jan. 1968); the King Cole Bar with George Stevens (Jan. 19, 1968); Lowenstein's last plea and the bathhouse weekend (Feb. 1968); Hackett, "I think I blew it," the Senators in Kennedy's office (Mar. 12-13, 1968); Jacqueline Kennedy to Schlesinger (Mar. 1968); Walinsky's "in the streets," Breslin and Daley, Harwood's "Crowd Madness" (Mar. 1968); Johnson with Pearson and with McCarthy (Apr. 3, 1968); John Lewis and King's body (Apr. 9); Lansing (Apr. 11); Martin's notes and advice; the Indiana medical students (Apr. 26); the campaign's Indiana analyses (May 8, 14) and Harris in *Newsweek* (May 20); Pearson's call and Marshall's talking points (May 23); O'Brien and the debate, the Portland zoo (May 25-26); McCarthy's King spots; Sirhan's ammunition (June 1); Goodwin in the bathroom (June 4); Johnson's "Cosa Nostra" note (June 4).
 
 ### Disagreements and partial cites (R33), fifth run
 

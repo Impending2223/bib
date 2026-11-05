@@ -37,6 +37,15 @@ LABEL = {"cdh-1963": "Census, CDD 1963 (88th Cong.)", "cdh-1965": "Census, CDD S
          "cq-1966": "CQ Weekly Rep. no. 29, July 22, 1966", "cq-1968": "CQ Weekly Rep. no. 30, pt. 2, July 26, 1968"}
 
 
+
+def _unwrap(text):
+    """Markdown without hard wraps (tools/bib/mdwrap.py, its STYLE; the owner, Nov. 5, 2026)."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("mdwrap", os.path.join(ROOT, "tools", "bib", "mdwrap.py"))
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m.unwrap(text)
+
 def files():
     out = {}
     for f in sorted(glob.glob(os.path.join(HOUSE, "*.yaml"))):
@@ -171,7 +180,7 @@ def main():
                 else:
                     L.append(f"- {seat(st, d)}: redrawn; {why_missing(fs, st, d, y - 2)}")
             L.append("")
-    open(OUT, "w", encoding="utf-8").write("\n".join(L).rstrip() + "\n")
+    open(OUT, "w", encoding="utf-8").write(_unwrap("\n".join(L).rstrip()) + "\n")
     print(OUT)
 
 

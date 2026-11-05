@@ -1,28 +1,12 @@
 # Julian E. Zelizer, *The Fierce Urgency of Now* (2015): the calendar's citations held up, and what the book adds
 
-Card `w.zelizer-fierce-urgency-of-now`. Read Nov. 3–4, 2026 (batch 3, greatsociety reader, second run) from the owner's
-copy, with a good text layer; printed page = PDF page − 18 to p. 114, − 34 to p. 242, − 50 after (two inserts of
-plates), checked against the running heads. Read: the introduction from p. 3 and chs. 1–6 (pp. 3–224) page by page;
-ch. 7 (pp. 225–262) and ch. 8 (pp. 263–302) at the pages that date events (below, "Not read"); ch. 9 and the epilogue
-(pp. 303–324) skimmed for dates. Zelizer's notes are by page and number: the newspapers, the White House tapes (Miller
-Center and PRDE citations), the LBJ Library's memoranda, oral histories. Patch: `inbox/2026-11-03-b3-zelizer-2.yaml`
-(b3-zelizer-2), 216 ops: 103 entries added, 106 citations, 7 Checks. Witnesses:
-`inbox/witnesses/2026-11-03-b3-zelizer-2.yaml` (93 new: 71 press, 14 recordings, 3 oral histories, 2 studies, 2
-speeches, a report); edges `sources/witnesses/by-work/zelizer-fierce-urgency-of-now.yaml` (189). Records found
-registered already were edged to, not entered again (Graham, Anderson, McCormack, Albert, Morse, O'Brien of Mar. 3,
-1965, Cater, Wilson, Wilkins, McNamara, Fortas, Markman, Katzenbach, Cohen, McPherson, Valenti, *Time*'s "Covenant,"
-Humphrey of May 13).
+Card `w.zelizer-fierce-urgency-of-now`. Read Nov. 3–4, 2026 (batch 3, greatsociety reader, second run) from the owner's copy, with a good text layer; printed page = PDF page − 18 to p. 114, − 34 to p. 242, − 50 after (two inserts of plates), checked against the running heads. Read: the introduction from p. 3 and chs. 1–6 (pp. 3–224) page by page; ch. 7 (pp. 225–262) and ch. 8 (pp. 263–302) at the pages that date events (below, "Not read"); ch. 9 and the epilogue (pp. 303–324) skimmed for dates. Zelizer's notes are by page and number: the newspapers, the White House tapes (Miller Center and PRDE citations), the LBJ Library's memoranda, oral histories. Patch: `inbox/2026-11-03-b3-zelizer-2.yaml` (b3-zelizer-2), 216 ops: 103 entries added, 106 citations, 7 Checks. Witnesses: `inbox/witnesses/2026-11-03-b3-zelizer-2.yaml` (93 new: 71 press, 14 recordings, 3 oral histories, 2 studies, 2 speeches, a report); edges `sources/witnesses/by-work/zelizer-fierce-urgency-of-now.yaml` (189). Records found registered already were edged to, not entered again (Graham, Anderson, McCormack, Albert, Morse, O'Brien of Mar. 3, 1965, Cater, Wilson, Wilkins, McNamara, Fortas, Markman, Katzenbach, Cohen, McPherson, Valenti, *Time*'s "Covenant," Humphrey of May 13).
 
 ## The citations it had
 
-Held, pinned and moved out of "To check" where the pages read treat the entry, a parenthetical where they bear out
-part: 106 citations, chiefly the civil rights bill of 1963–64 (chs. 2–3), the tax cut and the budget of fiscal 1965
-(ch. 3), the war on poverty (ch. 4), the election of 1964 and the Eighty-ninth Congress's opening (chs. 5–6), Medicare,
-the education act and the voting rights act (ch. 6), and the surcharge of 1967–68 (ch. 8).
+Held, pinned and moved out of "To check" where the pages read treat the entry, a parenthetical where they bear out part: 106 citations, chiefly the civil rights bill of 1963–64 (chs. 2–3), the tax cut and the budget of fiscal 1965 (ch. 3), the war on poverty (ch. 4), the election of 1964 and the Eighty-ninth Congress's opening (chs. 5–6), Medicare, the education act and the voting rights act (ch. 6), and the surcharge of 1967–68 (ch. 8).
 
-Not located on the pages read, left behind "To check" (the date of the entry): 1963-12-30, 1964-10-03, 1965-07-28,
-1965-09-09, 1966-01-26, 1966-10-22, 1967-02-15, 1967-09-26, 1967-11-03, 1967-11-08, 1967-11-15, 1967-12-15,
-1968-01-17, 1968-01-23, 1968-07-10, 1969-01-14. Most fall in chs. 7–9, read only in part.
+Not located on the pages read, left behind "To check" (the date of the entry): 1963-12-30, 1964-10-03, 1965-07-28, 1965-09-09, 1966-01-26, 1966-10-22, 1967-02-15, 1967-09-26, 1967-11-03, 1967-11-08, 1967-11-15, 1967-12-15, 1968-01-17, 1968-01-23, 1968-07-10, 1969-01-14. Most fall in chs. 7–9, read only in part.
 
 Checks added, the entry standing on its record:
 
@@ -36,54 +20,26 @@ Checks added, the entry standing on its record:
 
 ## New entries (103)
 
-Dated by the record where one was read (a Miller Center recording, the Public Papers, the Record), else by the book's
-note (the newspaper's day). The chief:
+Dated by the record where one was read (a Miller Center recording, the Public Papers, the Record), else by the book's note (the newspaper's day). The chief:
 
-- 1963: the Republicans' civil rights bills and statements (Feb. 9, Mar. 2, 5, 28, June 3); Farmer (Apr.); McCulloch
-  and Burke Marshall (July 4; Oct.); the March's meeting in the Oval Office (Aug. 28); the DNC's Southern count (Sept.);
-  Robert Kennedy before Judiciary (Oct. 15); Johnson to McDonald (Nov. 29); the *Post*'s "Tyrant in the House" and the
-  Leadership Conference (Dec.); the end of the moratorium on demonstrations (Dec.); the budget under $100 billion (Dec.).
-- 1964: Johnson to Albert (Jan. 9); Otten in the *Journal* (Jan. 9); Byrd (Jan. 26); Carey (Feb. 23); Oren Harris's
-  motion (Feb. 7); CORE and Dirksen (Feb. 17); Krock on Motorola (Mar. 13); Humphrey (Mar. 20); Graham at Legion Field
-  (Mar. 29); Mudd in the Capitol (Mar. 30); King (Apr. 3); Eisenhower (Apr. 4); Dirksen on Wallace (Apr. 8); the
-  Senators' opening game (Apr. 13); Harris's poll (Apr. 27); Dirksen and the EEOC compromise; the Republicans' cloture
-  bargain (May); Holy Cross (June 10); the poverty bill's course in calls and memoranda, Daley, Landrum, Meany, Mahon,
-  Teague, Barr, O'Brien, Halleck, Talmadge, Rules 8–7 (Jan. 20–Aug.); the task forces (July 6); Goldwater on the poverty
-  bill (July 21) and the destroyers (Aug. 3); Atlantic City (Aug. 24, 27); Gallup (Sept. 6); Boggs, McCormack, Albert,
-  Reuther after the election (Nov. 4–24).
-- 1965: Reuther on 14(b) (Jan. 14); the Medicare bill introduced (Jan. 4); the education bill's course, Morse, the
-  Catholic spokesman, Perkins, Powell, O'Brien, Meany (Jan. 12–Apr. 1); the liaisons' meeting (Feb.); the Republican
-  Congressional Committee's *Newsletter* (Feb. 1, Mar.); Cohen on Mills's bill (Mar. 2); Harris's poll (Mar. 8); the
-  AMA's convention (June 20); the conference report (July 27); the voting bill, Wilkins, Mitchell and Douglas, Dirksen
-  and Katzenbach, ABC's *Judgment at Nuremberg*, McPherson, the leaders, Hartke, Albert, the Judiciary report, King (Jan.
-  4–July 23); Johnson to Wilkins (Oct. 30).
-- 1966: Henry Hall Wilson (Feb. 24); Markman and Katzenbach on open housing (Mar. 11–12); Dirksen against Title IV (May
-  2); Mathias's amendment (Aug. 3); the filibuster and Hart (Sept. 8, 19); Johnson to McNamara and to Fortas (Sept.
-  29, Oct. 3).
+- 1963: the Republicans' civil rights bills and statements (Feb. 9, Mar. 2, 5, 28, June 3); Farmer (Apr.); McCulloch and Burke Marshall (July 4; Oct.); the March's meeting in the Oval Office (Aug. 28); the DNC's Southern count (Sept.); Robert Kennedy before Judiciary (Oct. 15); Johnson to McDonald (Nov. 29); the *Post*'s "Tyrant in the House" and the Leadership Conference (Dec.); the end of the moratorium on demonstrations (Dec.); the budget under $100 billion (Dec.).
+- 1964: Johnson to Albert (Jan. 9); Otten in the *Journal* (Jan. 9); Byrd (Jan. 26); Carey (Feb. 23); Oren Harris's motion (Feb. 7); CORE and Dirksen (Feb. 17); Krock on Motorola (Mar. 13); Humphrey (Mar. 20); Graham at Legion Field (Mar. 29); Mudd in the Capitol (Mar. 30); King (Apr. 3); Eisenhower (Apr. 4); Dirksen on Wallace (Apr. 8); the Senators' opening game (Apr. 13); Harris's poll (Apr. 27); Dirksen and the EEOC compromise; the Republicans' cloture bargain (May); Holy Cross (June 10); the poverty bill's course in calls and memoranda, Daley, Landrum, Meany, Mahon, Teague, Barr, O'Brien, Halleck, Talmadge, Rules 8–7 (Jan. 20–Aug.); the task forces (July 6); Goldwater on the poverty bill (July 21) and the destroyers (Aug. 3); Atlantic City (Aug. 24, 27); Gallup (Sept. 6); Boggs, McCormack, Albert, Reuther after the election (Nov. 4–24).
+- 1965: Reuther on 14(b) (Jan. 14); the Medicare bill introduced (Jan. 4); the education bill's course, Morse, the Catholic spokesman, Perkins, Powell, O'Brien, Meany (Jan. 12–Apr. 1); the liaisons' meeting (Feb.); the Republican Congressional Committee's *Newsletter* (Feb. 1, Mar.); Cohen on Mills's bill (Mar. 2); Harris's poll (Mar. 8); the AMA's convention (June 20); the conference report (July 27); the voting bill, Wilkins, Mitchell and Douglas, Dirksen and Katzenbach, ABC's *Judgment at Nuremberg*, McPherson, the leaders, Hartke, Albert, the Judiciary report, King (Jan. 4–July 23); Johnson to Wilkins (Oct. 30).
+- 1966: Henry Hall Wilson (Feb. 24); Markman and Katzenbach on open housing (Mar. 11–12); Dirksen against Title IV (May 2); Mathias's amendment (Aug. 3); the filibuster and Hart (Sept. 8, 19); Johnson to McNamara and to Fortas (Sept. 29, Oct. 3).
 - 1967–68: Ford on the surcharge message (Aug. 3, 1967); Mills to Johnson (Sept. 19, 1967; Mar. 24, 1968).
 
 ## The press
 
-Seventy-one press witnesses registered from the notes, none read: the *New York Times* (16), the *Washington Post*
-(11), the *Baltimore Sun* and the *Los Angeles Times* (8 each), the *Chicago Tribune* (6), the *Chicago Daily Defender*
-(4), *Time* and the *Boston Globe* (3 each), the *Atlanta Daily World*, the *Afro-American* and the Republican
-Congressional Committee's *Newsletter* (2 each), and one each of the *Wall Street Journal*, *Life*, the *Peoria Journal
-Star*, the *Christian Science Monitor*, the *Hartford Courant* and the *Garden City Telegram*. Entered as events of their own, where the press itself acted or a member spoke to it (the reader's
-brief): the *Post*'s editorial "Tyrant in the House" (Dec. 6, 1963), Otten's article (Jan. 9, 1964), Krock (Mar. 13,
-1964), CBS's Mudd (Mar. 30, 1964), Allen and Scott's column (July 30, 1964), ABC's interruption (Mar. 7, 1965). The rest
-stand behind "To check" as the record of the entry they report.
+Seventy-one press witnesses registered from the notes, none read: the *New York Times* (16), the *Washington Post* (11), the *Baltimore Sun* and the *Los Angeles Times* (8 each), the *Chicago Tribune* (6), the *Chicago Daily Defender* (4), *Time* and the *Boston Globe* (3 each), the *Atlanta Daily World*, the *Afro-American* and the Republican Congressional Committee's *Newsletter* (2 each), and one each of the *Wall Street Journal*, *Life*, the *Peoria Journal Star*, the *Christian Science Monitor*, the *Hartford Courant* and the *Garden City Telegram*. Entered as events of their own, where the press itself acted or a member spoke to it (the reader's brief): the *Post*'s editorial "Tyrant in the House" (Dec. 6, 1963), Otten's article (Jan. 9, 1964), Krock (Mar. 13, 1964), CBS's Mudd (Mar. 30, 1964), Allen and Scott's column (July 30, 1964), ABC's interruption (Mar. 7, 1965). The rest stand behind "To check" as the record of the entry they report.
 
 ## Passed over
 
-Not kept row by row in this run. The pages read page by page (chs. 1–6) were entered wherever the brief makes an entry;
-what was left is analysis, background before the span, or undated narrative. The parts read only in part are listed
-below for the next reader.
+Not kept row by row in this run. The pages read page by page (chs. 1–6) were entered wherever the brief makes an entry; what was left is analysis, background before the span, or undated narrative. The parts read only in part are listed below for the next reader.
 
 ## Leads
 
 - The sixteen dated entries above whose Zelizer citation was not located: read chs. 7–9 for them.
-- Oct. 29, 1963, the Judiciary Committee's vote: 23–11 (*Times*, Oct. 30) against the entry's 20–12; the committee's
-  report.
+- Oct. 29, 1963, the Judiciary Committee's vote: 23–11 (*Times*, Oct. 30) against the entry's 20–12; the committee's report.
 - Aug. 13 or Aug. 9, 1966, the House's passage of the civil rights bill: the Record.
 - The AMA's meeting with Johnson, late June or July 29, 1965: the Daily Diary.
 
@@ -102,9 +58,7 @@ The patch: `inbox/2026-11-04-b3-zelizer-3.yaml` (patch `b3-zelizer-3`), 104 ops:
 
 ### New entries (third run)
 
-1966: the Research Council's paper on the "welfare state" (Jan. 11); Quayle's surveys of California's 22nd district (Mar.) and of Virginia (Apr.); Johnson to Donald Cook on a tax increase (May 14); Roche to Johnson (May 20, Oct. 5); Emlen of NAREB before Subcommittee No. 5 (May 24); Mathias's compromise with McCulloch, Celler and Katzenbach (June 24); House Judiciary's votes (June 28, 29); the Leadership Conference (July 26); NAREB's bulletin (July 28); Cecil King (Aug. 2); Daley to Johnson (Aug. 16); Waukegan (Aug.); Pucinski (Sept. 21); Hoellen (Sept. 25); Newark (Oct. 7); the Panzer estimates (Oct. 11); Staten Island (Oct. 12); Douglas to Johnson (Oct. 16); Nixon's "Price Protest Day" (Nov. 7); Nixon to his staff, 2:30 a.m. (Nov. 9); King on the elections (Nov. 9); the *Times*'s "Republican Renascence" (Nov. 13); Johnson to Humphrey, "hammer and tongs" (Dec. 31).
-1967: Johnson to Wilkins (Jan. 11); Mahon (Jan. 24); Dirksen's statement on the family budget (Feb. 2); Harris on cuts and the surcharge (Feb. 27); Johnson to Goldberg on Newark (July 15); the Republican leaders' statement on the riots (July 24); Hart (Aug. 5); Panzer's poll on the riots (Aug. 11); Cater, Wattenberg and Duggan on Scammon (Aug. 19).
-1968: Johnson to Dirksen (Mar. 12); Humphrey to Sanders (Mar. 13); the *Los Angeles Times*'s "The Gold Crisis Is Here" (Mar. 14); Nixon on the gold crisis (Mar. 15); Johnson to Reuther (Mar. 20), to Wirtz (Mar. 23), to Fowler (Mar. 24); Califano to Johnson (Apr. 10); Mitchell (Aug. 31); Nixon on the "tax of inflation" (Sept. 1); Califano's 435 programs (Dec. 9); Finch on HEW (Dec. 17).
+1966: the Research Council's paper on the "welfare state" (Jan. 11); Quayle's surveys of California's 22nd district (Mar.) and of Virginia (Apr.); Johnson to Donald Cook on a tax increase (May 14); Roche to Johnson (May 20, Oct. 5); Emlen of NAREB before Subcommittee No. 5 (May 24); Mathias's compromise with McCulloch, Celler and Katzenbach (June 24); House Judiciary's votes (June 28, 29); the Leadership Conference (July 26); NAREB's bulletin (July 28); Cecil King (Aug. 2); Daley to Johnson (Aug. 16); Waukegan (Aug.); Pucinski (Sept. 21); Hoellen (Sept. 25); Newark (Oct. 7); the Panzer estimates (Oct. 11); Staten Island (Oct. 12); Douglas to Johnson (Oct. 16); Nixon's "Price Protest Day" (Nov. 7); Nixon to his staff, 2:30 a.m. (Nov. 9); King on the elections (Nov. 9); the *Times*'s "Republican Renascence" (Nov. 13); Johnson to Humphrey, "hammer and tongs" (Dec. 31). 1967: Johnson to Wilkins (Jan. 11); Mahon (Jan. 24); Dirksen's statement on the family budget (Feb. 2); Harris on cuts and the surcharge (Feb. 27); Johnson to Goldberg on Newark (July 15); the Republican leaders' statement on the riots (July 24); Hart (Aug. 5); Panzer's poll on the riots (Aug. 11); Cater, Wattenberg and Duggan on Scammon (Aug. 19). 1968: Johnson to Dirksen (Mar. 12); Humphrey to Sanders (Mar. 13); the *Los Angeles Times*'s "The Gold Crisis Is Here" (Mar. 14); Nixon on the gold crisis (Mar. 15); Johnson to Reuther (Mar. 20), to Wirtz (Mar. 23), to Fowler (Mar. 24); Califano to Johnson (Apr. 10); Mitchell (Aug. 31); Nixon on the "tax of inflation" (Sept. 1); Califano's 435 programs (Dec. 9); Finch on HEW (Dec. 17).
 
 ### The sixteen cites not located before
 
@@ -229,19 +183,7 @@ Nothing of the text: pp. 3–324 are read. The prologue's pp. 1–2 as before.
 
 ## The leftovers run (left-zelizer), Nov. 4, 2026
 
-The sixteen cites the third run could not place (its table above, fourteen rows), held against the book's index and the
-pages it gives. The copy: the owner's Drive file 1jzLs1pgP-zyYZFareoqLZdj4LG6qrVkz, fetched again by Drive's download
-address (sharing unchanged), 424 PDF pages, the offsets as before (printed = PDF − 18 to p. 114, − 34 to p. 242, − 50
-after); pp. 191 and 283 checked against the page images. The index is pp. 351–370 of this printing (PDF 401–420), not
-383–404 as the third run's note had it; read with its columns split. The index has no entry for the Department of
-Housing and Urban Development, Weaver, foreign aid, manpower or JOBS, the Alliance of Businessmen, the housing act of
-1968, the adjournments, or the State of the Union of 1968 or 1969 (its State of the Union entries, 74, 79–80, 184, 192,
-225, are 1963's to 1966's); its entries for 14(b) (167–68), Model Cities (227), the War on Poverty, Prouty (275), Green
-(100), Clark (297), housing and its proposed legislation (242–46, 296–97), Congress and the economy (270–72, 278–83,
-288–90) and the tax surcharge were read at each page given. The patch: `inbox/2026-11-04-left-zelizer.yaml` (patch
-`left-zelizer`), 21 ops: 4 cites, 2 `src`, 2 to-check, 13 edits (each only the card taken out of "To check:", on the
-base read just before). Witnesses: `inbox/witnesses/2026-11-04-left-zelizer.yaml` (2 new), and 3 edges appended to
-`sources/witnesses/by-work/zelizer-fierce-urgency-of-now.yaml` (282 n.41, 282 n.43, 283 n.45).
+The sixteen cites the third run could not place (its table above, fourteen rows), held against the book's index and the pages it gives. The copy: the owner's Drive file 1jzLs1pgP-zyYZFareoqLZdj4LG6qrVkz, fetched again by Drive's download address (sharing unchanged), 424 PDF pages, the offsets as before (printed = PDF − 18 to p. 114, − 34 to p. 242, − 50 after); pp. 191 and 283 checked against the page images. The index is pp. 351–370 of this printing (PDF 401–420), not 383–404 as the third run's note had it; read with its columns split. The index has no entry for the Department of Housing and Urban Development, Weaver, foreign aid, manpower or JOBS, the Alliance of Businessmen, the housing act of 1968, the adjournments, or the State of the Union of 1968 or 1969 (its State of the Union entries, 74, 79–80, 184, 192, 225, are 1963's to 1966's); its entries for 14(b) (167–68), Model Cities (227), the War on Poverty, Prouty (275), Green (100), Clark (297), housing and its proposed legislation (242–46, 296–97), Congress and the economy (270–72, 278–83, 288–90) and the tax surcharge were read at each page given. The patch: `inbox/2026-11-04-left-zelizer.yaml` (patch `left-zelizer`), 21 ops: 4 cites, 2 `src`, 2 to-check, 13 edits (each only the card taken out of "To check:", on the base read just before). Witnesses: `inbox/witnesses/2026-11-04-left-zelizer.yaml` (2 new), and 3 edges appended to `sources/witnesses/by-work/zelizer-fierce-urgency-of-now.yaml` (282 n.41, 282 n.43, 283 n.45).
 
 | Entry | The calendar | Zelizer | Ruling |
 |---|---|---|---|
@@ -262,10 +204,6 @@ base read just before). Witnesses: `inbox/witnesses/2026-11-04-left-zelizer.yaml
 | `cal.1968-01-23.jobs-and-wages` | the manpower message, JOBS | not in the index or the text | out of "To check" |
 | `cal.1968-07-10.cities-and-housing` | the House's housing bill | not in the index; 320 is of later decades | out of "To check" |
 
-No Check was needed where the card was taken out: every one of those entries stands on its primary record (the Record,
-Voteview, the Public Papers), which the card never grounded. Searched besides in the whole text layer for each entry's
-matter (as the third run did) and for "adjourn," "sine die," "Department of Housing," "Weaver," "foreign aid,"
-"manpower," "Alliance of Business," "Prouty," "Edith Green," "jury," "rent supplement," "Model Cities," "State of the
-Union," "January 1968," "January 1969": nothing more. The PDF deleted at the end.
+No Check was needed where the card was taken out: every one of those entries stands on its primary record (the Record, Voteview, the Public Papers), which the card never grounded. Searched besides in the whole text layer for each entry's matter (as the third run did) and for "adjourn," "sine die," "Department of Housing," "Weaver," "foreign aid," "manpower," "Alliance of Business," "Prouty," "Edith Green," "jury," "rent supplement," "Model Cities," "State of the Union," "January 1968," "January 1969": nothing more. The PDF deleted at the end.
 
 Leads: none new.

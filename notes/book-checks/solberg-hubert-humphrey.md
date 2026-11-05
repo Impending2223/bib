@@ -1,33 +1,18 @@
 # Carl Solberg, *Hubert Humphrey: A Biography* (1984): the reading of Jan. 6, 1960–Jan. 20, 1969
 
-Card `w.solberg-hubert-humphrey`. Read Oct. 29, 2026 (batch 3), after Humphrey's own *Education of a Public Man* (its
-patch `inbox/2026-10-29-b3-humphrey.yaml`, pending). Patch: `inbox/2026-10-29-b3-solberg.yaml` (b3-solberg; 115 ops: 80
-entries added, 34 edited, one tag). Records: `sources/cited-records/solberg-hubert-humphrey.yaml` (105). Leads:
-`notes/leads.md`, National, "Solberg, *Hubert Humphrey*".
+Card `w.solberg-hubert-humphrey`. Read Oct. 29, 2026 (batch 3), after Humphrey's own *Education of a Public Man* (its patch `inbox/2026-10-29-b3-humphrey.yaml`, pending). Patch: `inbox/2026-10-29-b3-solberg.yaml` (b3-solberg; 115 ops: 80 entries added, 34 edited, one tag). Records: `sources/cited-records/solberg-hubert-humphrey.yaml` (105). Leads: `notes/leads.md`, National, "Solberg, *Hubert Humphrey*".
 
 ## The copy, and how it was read
 
-The owner's copy in Drive (file id 1rv7Q65c0Jia-lDppii4qe-QoW5Pn6EOJ): the Internet Archive's scan of the Norton first
-edition (1984), 584 PDF pages with a text layer, read with `pdftotext -layout` in the scratchpad only (the PDF deleted
-after). **Printed page = PDF page − 4** throughout: found by script on every page with a folio in its running head (no
-plates break the run), and checked by eye on the page image of p. 476 and against the running heads of pp. 212 and 305.
-Every page is cited by its folio.
+The owner's copy in Drive (file id 1rv7Q65c0Jia-lDppii4qe-QoW5Pn6EOJ): the Internet Archive's scan of the Norton first edition (1984), 584 PDF pages with a text layer, read with `pdftotext -layout` in the scratchpad only (the PDF deleted after). **Printed page = PDF page − 4** throughout: found by script on every page with a folio in its running head (no plates break the run), and checked by eye on the page image of p. 476 and against the running heads of pp. 212 and 305. Every page is cited by its folio.
 
-Read in full: chapters 20–34 (pp. 199–407: the 1960 primaries to the election of 1968) and the notes to them (pp.
-496–524). The earlier chapters (to 1959) and the last (1969–78) were not read for entries.
+Read in full: chapters 20–34 (pp. 199–407: the 1960 primaries to the election of 1968) and the notes to them (pp. 496–524). The earlier chapters (to 1959) and the last (1969–78) were not read for entries.
 
-**The notes.** Solberg's notes are keyed by page and catch phrase, not numbered; they give, for most passages, the
-Humphrey Papers (Minnesota Historical Society), the White House files and Daily Diary (LBJ Library), Edgar Berman's
-campaign diary of 1968, other diaries and papers, interviews by the author, and the press. A record is logged once for
-each passage the calendar cites (`note:` a key of the file's own under that page), and tied to the units by `via` rows.
-Where the series holds the record it is cited first: FRUS 1964–68, XII, docs. 128, 268, 308; XIII, doc. 244; XV, docs.
-206, 208 (the European trip of 1967); VII, doc. 168 (Johnson to Humphrey, Oct. 31, 1968, 6:52 p.m.). None of the
-Humphrey Papers, the Berman diary or the White House files Solberg cites was reached; they stand behind "To check:".
+**The notes.** Solberg's notes are keyed by page and catch phrase, not numbered; they give, for most passages, the Humphrey Papers (Minnesota Historical Society), the White House files and Daily Diary (LBJ Library), Edgar Berman's campaign diary of 1968, other diaries and papers, interviews by the author, and the press. A record is logged once for each passage the calendar cites (`note:` a key of the file's own under that page), and tied to the units by `via` rows. Where the series holds the record it is cited first: FRUS 1964–68, XII, docs. 128, 268, 308; XIII, doc. 244; XV, docs. 206, 208 (the European trip of 1967); VII, doc. 168 (Johnson to Humphrey, Oct. 31, 1968, 6:52 p.m.). None of the Humphrey Papers, the Berman diary or the White House files Solberg cites was reached; they stand behind "To check:".
 
 ## The citations it had (fifteen calendar entries; three with pages, all behind "To check:")
 
-Ten of the fifteen are edited by the pending Humphrey patch; their Solberg pinpoints are under "For entries in pending
-patches" below, not in this patch, to keep the two edits from colliding.
+Ten of the fifteen are edited by the pending Humphrey patch; their Solberg pinpoints are under "For entries in pending patches" below, not in this patch, to keep the two edits from colliding.
 
 | Entry | Ruling |
 |---|---|
@@ -50,83 +35,38 @@ patches" below, not in this patch, to keep the two edits from colliding.
 ## Disagreements and Checks added
 
 - Wisconsin, Apr. 5, 1960: Solberg gives Kennedy 474,024 to 366,753 (207); the calendar, from CQ, 476,024 (table below).
-- West Virginia, May 11, 1960: Solberg, a "four-hour running fight" with Mundt on the tax bill (212); Humphrey's memoir
-  gives eight (pending entry `cal.1960-05-11.congress`).
-- Cloture, 1964: Solberg dates it June 9, "the 75th day" (226), the record June 10; the Mansfield–Dirksen substitute
-  "March 26" (225), the record May 26.
-- Apr. 3, 1968: from Rostow's memorandum, Johnson said only that announcing was up to Humphrey (326); the entry has him
-  urge it at once.
-- Aug. 24–25, 1968: Solberg puts Daley's breakfast with Unruh the day before the Illinois caucus (358), Aug. 24; the pending
-  Chester entry, Sunday, Aug. 25.
-- The Chequers talk, Apr. 2, 1967: Solberg has Humphrey warn Wilson against "jeopardizing his relationship with the
-  President" (305); in Humphrey's report as FRUS prints it (XII, doc. 268) the words are Kosygin's advice to Wilson.
-- March 1968: the halt Humphrey called useless was at the twentieth parallel in Solberg (320), the nineteenth in Humphrey's
-  memoir (357).
+- West Virginia, May 11, 1960: Solberg, a "four-hour running fight" with Mundt on the tax bill (212); Humphrey's memoir gives eight (pending entry `cal.1960-05-11.congress`).
+- Cloture, 1964: Solberg dates it June 9, "the 75th day" (226), the record June 10; the Mansfield–Dirksen substitute "March 26" (225), the record May 26.
+- Apr. 3, 1968: from Rostow's memorandum, Johnson said only that announcing was up to Humphrey (326); the entry has him urge it at once.
+- Aug. 24–25, 1968: Solberg puts Daley's breakfast with Unruh the day before the Illinois caucus (358), Aug. 24; the pending Chester entry, Sunday, Aug. 25.
+- The Chequers talk, Apr. 2, 1967: Solberg has Humphrey warn Wilson against "jeopardizing his relationship with the President" (305); in Humphrey's report as FRUS prints it (XII, doc. 268) the words are Kosygin's advice to Wilson.
+- March 1968: the halt Humphrey called useless was at the twentieth parallel in Solberg (320), the nineteenth in Humphrey's memoir (357).
 - Stanford, Feb. 20, 1967: Solberg, four hundred mobbed the car (303); the entry, some 300.
-- Gallup, Dec. 1965: Solberg, 56 percent would prefer he never be President (284); the entry, 58 not wishing to see him
-  President.
+- Gallup, Dec. 1965: Solberg, 56 percent would prefer he never be President (284); the entry, 58 not wishing to see him President.
 - Qui Nhơn, Feb. 10, 1965: Solberg, a mortar attack (271); the entry, a bomb in a hotel.
-- Dates Solberg's text and notes give differently, each Checked in its entry: Humphrey's report on heckling (July 12 in the
-  text, July 16 in the note); the New Orleans speech (a week before Hough in the text, July 18 in the note, Hough's first
-  day); the National Defense Executive Reserve speech; the cable on Thiệu and Kỳ (after the inauguration in the text, Oct. 30
-  in the note); Kirkpatrick's "the major issue" (Oct. 4) and "soft" (Sept. 27).
+- Dates Solberg's text and notes give differently, each Checked in its entry: Humphrey's report on heckling (July 12 in the text, July 16 in the note); the New Orleans speech (a week before Hough in the text, July 18 in the note, Hough's first day); the National Defense Executive Reserve speech; the cable on Thiệu and Kỳ (after the inauguration in the text, Oct. 30 in the note); Kirkpatrick's "the major issue" (Oct. 4) and "soft" (Sept. 27).
 - Solberg's day names for Sept. 28–30, 1968, run a day late ("Saturday, September 29"); the notes' dates are followed.
 
 ## Other entries the book now cites (pinpoints added)
 
-`cal.1963-10-07.testing` (218, Kennedy to Humphrey: "Hubert, this is yours. I hope it works," added to `c`);
-`cal.1965-01-30.europe-and-the-alliance` (265–66); `cal.1965-02-10.vietnam` (271); `cal.1965-02-18.vietnam-congress-2` (274);
-`cal.1965-10-08.succession` (283); `cal.1965-12-12.opinion` (284); `cal.1965-12-30.vietnam` (284); `cal.1966-02-20.vietnam`
-(289–90); `cal.1966-02-23.vietnam-humphrey` (290); `cal.1966-02-24.vietnam-congress` (290); `cal.1966-02-25.vietnam` (290–91);
-`cal.1966-03-02.vietnam-congress` (291); `cal.1966-06-19.governors-mn`, `cal.1966-09-13.governors-mn` (298);
-`cal.1966-07-06.civil-rights-organizations` (297); `cal.1967-02-20.students` (303); `cal.1967-04-18.democratic-party`
-(306–07); `cal.1968-04-03.elections-1968` (325–26); `cal.1968-06-22.elections-1968-state-conventions-2` (342);
-`cal.1968-08-27.elections-1968-chicago-2` (360–61); `cal.1968-09-09.elections-1968` (375); `cal.1968-09-10.elections-1968`
-(376); `cal.1968-09.elections-1968-4` (377–78); `cal.1968-09.elections-1968-5` (378–79); `cal.1968-09-26.transition-and-staff`
-(380); `cal.1968-10-16.vietnam-paris` (391); `cal.1968-10-29.elections-1968` (398);
-`cal.1968-11-01.elections-1968-chennault-2` (397); `cal.1968-11-06.elections-1968` (405–06).
+`cal.1963-10-07.testing` (218, Kennedy to Humphrey: "Hubert, this is yours. I hope it works," added to `c`); `cal.1965-01-30.europe-and-the-alliance` (265–66); `cal.1965-02-10.vietnam` (271); `cal.1965-02-18.vietnam-congress-2` (274); `cal.1965-10-08.succession` (283); `cal.1965-12-12.opinion` (284); `cal.1965-12-30.vietnam` (284); `cal.1966-02-20.vietnam` (289–90); `cal.1966-02-23.vietnam-humphrey` (290); `cal.1966-02-24.vietnam-congress` (290); `cal.1966-02-25.vietnam` (290–91); `cal.1966-03-02.vietnam-congress` (291); `cal.1966-06-19.governors-mn`, `cal.1966-09-13.governors-mn` (298); `cal.1966-07-06.civil-rights-organizations` (297); `cal.1967-02-20.students` (303); `cal.1967-04-18.democratic-party` (306–07); `cal.1968-04-03.elections-1968` (325–26); `cal.1968-06-22.elections-1968-state-conventions-2` (342); `cal.1968-08-27.elections-1968-chicago-2` (360–61); `cal.1968-09-09.elections-1968` (375); `cal.1968-09-10.elections-1968` (376); `cal.1968-09.elections-1968-4` (377–78); `cal.1968-09.elections-1968-5` (378–79); `cal.1968-09-26.transition-and-staff` (380); `cal.1968-10-16.vietnam-paris` (391); `cal.1968-10-29.elections-1968` (398); `cal.1968-11-01.elections-1968-chennault-2` (397); `cal.1968-11-06.elections-1968` (405–06).
 
 ## New entries (80)
 
 The informal record and the papers, dated by the record the note gives:
 
-- 1960: the "Square Deal for Humphrey" advertisement (Mar. 31); Kennedy in Humphrey's office on the second place and
-  Humphrey's public "I do not want it" (late June).
-- 1963–64: the whip's-office meeting after the funeral, "the only way I can is to become vice president" (Nov. 28, by
-  Rosenberg's account); Johnson's signal through Rowe (Jan. 1964); **Rowe's memorandum to Johnson** (Aug. 20); Johnson's
-  interview on the Vice President he wants (Aug. 25); the Ranch planning session, by Andreas's notes (Aug. 28–29); the
-  Minneapolis homecoming, the net worth, the Houston Club, the Khrushchev call at Pittsburgh, "the men's room of the
-  Kremlin"; the education speech (Nov. 24); **Johnson to Humphrey on the civil rights council** (Dec. 2).
-- 1965: the Thomasville weekend (Feb. 12–14); **Humphrey's "Memo on South Vietnam"** (Mar. 31); the Dominican word from
-  Bundy (Apr. 28); Michigan State, the Bell interview, the governors' speech (June 2, 4, 11); the heckling report (July
-  16); Greene's 500,000 (July); **the Morse memorandum** (Aug. 13); **Watson's memorandum, "Half of it would be good"**
-  (Sept. 15); the council abolished (Sept. 22); **the Erlander and West Virginia State reports** (Nov. 8, 9); **Bundy's
-  "Send the VP"** (Nov. 27).
-- 1966: **the Saigon cable on Kỳ** (Feb. 12); the Columbia speech on China (Mar. 12); the ADA convention (Apr.); New
-  Orleans, "a mighty good revolt" (July 18).
-- 1967: the European trip, from Humphrey's reports as FRUS prints them: Brandt (Mar. 29), Saragat and Paul VI (Apr. 1),
-  Wilson at Chequers (Apr. 2), the Commons (Apr.), Kiesinger (Apr. 6), the Élysée (Apr.), **Johnson's cable** (Apr. 7);
-  **the Maddox report** (Apr. 17); Newark and Detroit, Humphrey's calls (July 14, 23–24); **the task force's memorandum on
-  the riots** (July 27); the "Marshall Plan" speech (Aug.); the National Defense Executive Reserve (Oct. 23); **the Saigon
-  cable on Thiệu and Kỳ** (Oct. 30); "our great adventure" (Oct. 31); **the McCarthy report** (Nov. 28).
-- 1968: "stop it all" (Mar.); the Kerner disclaimer (Mar. 23); the Waldorf and Citizens for Humphrey (Apr. 3); Key Largo
-  (Apr. 14–15); **the memorandum to Connell** (May 16); Pennsylvania's convention (May 27); the three hours with Johnson
-  (June 6); "You can't trust him" (June 17); **Tom Johnson's memorandum** (June 19); **Sanford's memorandum** (July);
-  "Don't go to California" (July 10); **Jones's memorandum, "heartbroken"** (July 18); **Freeman's plan** (Aug. 16);
-  **Jones's memorandum, Connally's "get to Daley"** (Aug. 24); the resignation plan refused (Aug. 28); Krim (Sept. 3); the
-  Oval Office (Sept. 5); "a referendum on human rights" (Sept. 8); **Katzenbach and Read's "Themes"** (Sept. 11); the Cabinet
-  of Sept. 18; **Kirkpatrick's memorandum** and Welsh on the intercepts (Sept. 27); the law-and-order telecast (Oct. 12);
-  Johnson declines Rowe (Oct. 16); the cancelled meeting and the night meeting (Oct. 19, 20); Newark and **Johnson's call of
-  6:52 p.m.** (Oct. 31, FRUS VII, doc. 168); the Corcoran channel (Nov. 1); the statement held back (Nov. 3).
+- 1960: the "Square Deal for Humphrey" advertisement (Mar. 31); Kennedy in Humphrey's office on the second place and Humphrey's public "I do not want it" (late June).
+- 1963–64: the whip's-office meeting after the funeral, "the only way I can is to become vice president" (Nov. 28, by Rosenberg's account); Johnson's signal through Rowe (Jan. 1964); **Rowe's memorandum to Johnson** (Aug. 20); Johnson's interview on the Vice President he wants (Aug. 25); the Ranch planning session, by Andreas's notes (Aug. 28–29); the Minneapolis homecoming, the net worth, the Houston Club, the Khrushchev call at Pittsburgh, "the men's room of the Kremlin"; the education speech (Nov. 24); **Johnson to Humphrey on the civil rights council** (Dec. 2).
+- 1965: the Thomasville weekend (Feb. 12–14); **Humphrey's "Memo on South Vietnam"** (Mar. 31); the Dominican word from Bundy (Apr. 28); Michigan State, the Bell interview, the governors' speech (June 2, 4, 11); the heckling report (July 16); Greene's 500,000 (July); **the Morse memorandum** (Aug. 13); **Watson's memorandum, "Half of it would be good"** (Sept. 15); the council abolished (Sept. 22); **the Erlander and West Virginia State reports** (Nov. 8, 9); **Bundy's "Send the VP"** (Nov. 27).
+- 1966: **the Saigon cable on Kỳ** (Feb. 12); the Columbia speech on China (Mar. 12); the ADA convention (Apr.); New Orleans, "a mighty good revolt" (July 18).
+- 1967: the European trip, from Humphrey's reports as FRUS prints them: Brandt (Mar. 29), Saragat and Paul VI (Apr. 1), Wilson at Chequers (Apr. 2), the Commons (Apr.), Kiesinger (Apr. 6), the Élysée (Apr.), **Johnson's cable** (Apr. 7); **the Maddox report** (Apr. 17); Newark and Detroit, Humphrey's calls (July 14, 23–24); **the task force's memorandum on the riots** (July 27); the "Marshall Plan" speech (Aug.); the National Defense Executive Reserve (Oct. 23); **the Saigon cable on Thiệu and Kỳ** (Oct. 30); "our great adventure" (Oct. 31); **the McCarthy report** (Nov. 28).
+- 1968: "stop it all" (Mar.); the Kerner disclaimer (Mar. 23); the Waldorf and Citizens for Humphrey (Apr. 3); Key Largo (Apr. 14–15); **the memorandum to Connell** (May 16); Pennsylvania's convention (May 27); the three hours with Johnson (June 6); "You can't trust him" (June 17); **Tom Johnson's memorandum** (June 19); **Sanford's memorandum** (July); "Don't go to California" (July 10); **Jones's memorandum, "heartbroken"** (July 18); **Freeman's plan** (Aug. 16); **Jones's memorandum, Connally's "get to Daley"** (Aug. 24); the resignation plan refused (Aug. 28); Krim (Sept. 3); the Oval Office (Sept. 5); "a referendum on human rights" (Sept. 8); **Katzenbach and Read's "Themes"** (Sept. 11); the Cabinet of Sept. 18; **Kirkpatrick's memorandum** and Welsh on the intercepts (Sept. 27); the law-and-order telecast (Oct. 12); Johnson declines Rowe (Oct. 16); the cancelled meeting and the night meeting (Oct. 19, 20); Newark and **Johnson's call of 6:52 p.m.** (Oct. 31, FRUS VII, doc. 168); the Corcoran channel (Nov. 1); the statement held back (Nov. 3).
 
 The papers of government (the owner's ruling, Oct. 28, 2026) are in bold; none was passed over as "below the level."
 
 ## Records (sources/cited-records/)
 
-105 records, every one the note's own: the Humphrey Papers (memoranda, cables and notes of Humphrey and his staff), the
-LBJ Library's files and the Daily Diary as Solberg cites them, Berman's diary, interviews (Rosenberg, Rowe, Van Dyk,
-McCandless, McClosky, Nathan, Beckington, McGovern), and the press. Seven read and cited as the primary record (`read:
-true`): FRUS XII, docs. 128, 268, 308; XV, doc. 208; IV, doc. 84; VII, doc. 173; the Public Papers' welcome of Feb. 23,
+105 records, every one the note's own: the Humphrey Papers (memoranda, cables and notes of Humphrey and his staff), the LBJ Library's files and the Daily Diary as Solberg cites them, Berman's diary, interviews (Rosenberg, Rowe, Van Dyk, McCandless, McClosky, Nathan, Beckington, McGovern), and the press. Seven read and cited as the primary record (`read: true`): FRUS XII, docs. 128, 268, 308; XV, doc. 208; IV, doc. 84; VII, doc. 173; the Public Papers' welcome of Feb. 23,
 1966. The rest stand behind "To check:" in their entries.
 
 ## Passed over
@@ -253,15 +193,11 @@ true`): FRUS XII, docs. 128, 268, 308; XV, doc. 208; IV, doc. 84; VII, doc. 173;
 | 402 | Nov. 4, 1968 | Los Angeles; the telethon | already in (pending `cal.1968-11-04.elections-1968-2`, table) |
 | 403–07 | Nov. 5–6, 1968 | election day and the concession | already in (`cal.1968-11-05`, `-11-06`) |
 
-By reason (119 rows, some rows more than one event; a row may give two reasons): already in 46; undated 47; private,
-social or private remarks 21; minor 5; a draft not sent 2; repetition 2; the date in conflict 2; out of the brief, a
-column without an act, a summary of weeks, cited at second hand, not treated in the text, 6. Of them, 29 are also leads
-(`notes/leads.md`).
+By reason (119 rows, some rows more than one event; a row may give two reasons): already in 46; undated 47; private, social or private remarks 21; minor 5; a draft not sent 2; repetition 2; the date in conflict 2; out of the brief, a column without an act, a summary of weeks, cited at second hand, not treated in the text, 6. Of them, 29 are also leads (`notes/leads.md`).
 
 ## For entries in pending patches
 
-Solberg's pinpoints for entries the pending Humphrey patch adds or edits, and for other agents' pending adds; the merger
-adds them (`entry id | card, page (parenthetical) | units`).
+Solberg's pinpoints for entries the pending Humphrey patch adds or edits, and for other agents' pending adds; the merger adds them (`entry id | card, page (parenthetical) | units`).
 
 | Entry | Card, page | Units |
 |---|---|---|
@@ -351,55 +287,17 @@ adds them (`entry id | card, page (parenthetical) | units`).
 
 ## Resumed, Nov. 3–4, 2026 (b3-solberg-2)
 
-Read again from the owner's copy (the same Drive file, downloaded into the scratchpad and deleted after; printed page =
-PDF page − 4 holds; checked on the page images of pp. 292, 295 and 386). The notes (pp. 496–526) were read in two
-ways: in the text layer, two columns side by side, and, for the study citations, by the words' boxes (`pdftotext
--bbox`), the columns split at the page's middle. Patch: `inbox/2026-11-03-b3-solberg-2.yaml` (36 ops: 36 entries
-added), new ids claimed in `inbox/new-entries.tsv`. Witnesses: 45 new rows in
-`inbox/witnesses/2026-11-03-b3-solberg-2.yaml` (the records the notes give for the new entries' passages, and eight
-studies and memoirs without cards: Ernst, Alexander's *Studies in Money and Politics*, Polsby's *Citizens Choice*,
-Koskoff, Graff's *Tuesday Cabinet*, Stewart's "Independence and Control"); 125 new edges in
-`sources/witnesses/by-work/solberg-hubert-humphrey.yaml`: the new entries' witnesses (via rows in their maps), and
-the studies, memoirs and collections the notes cite for pp. 204–297 and 386 (Eisele, Humphrey's *Education*, White's
-*Making of the President* 1960 and 1964, Evans and Novak, Martin's *Adlai Stevenson and the World*, O'Donnell and
-Powers, Sorensen, Parmet, Schlesinger, Johnson's *Vantage Point*, Ball, the *Pentagon Papers*, L. Berman, O'Brien,
-Valenti), each with the cited work's page as `pin`.
+Read again from the owner's copy (the same Drive file, downloaded into the scratchpad and deleted after; printed page = PDF page − 4 holds; checked on the page images of pp. 292, 295 and 386). The notes (pp. 496–526) were read in two ways: in the text layer, two columns side by side, and, for the study citations, by the words' boxes (`pdftotext -bbox`), the columns split at the page's middle. Patch: `inbox/2026-11-03-b3-solberg-2.yaml` (36 ops: 36 entries added), new ids claimed in `inbox/new-entries.tsv`. Witnesses: 45 new rows in `inbox/witnesses/2026-11-03-b3-solberg-2.yaml` (the records the notes give for the new entries' passages, and eight studies and memoirs without cards: Ernst, Alexander's *Studies in Money and Politics*, Polsby's *Citizens Choice*, Koskoff, Graff's *Tuesday Cabinet*, Stewart's "Independence and Control"); 125 new edges in `sources/witnesses/by-work/solberg-hubert-humphrey.yaml`: the new entries' witnesses (via rows in their maps), and the studies, memoirs and collections the notes cite for pp. 204–297 and 386 (Eisele, Humphrey's *Education*, White's *Making of the President* 1960 and 1964, Evans and Novak, Martin's *Adlai Stevenson and the World*, O'Donnell and Powers, Sorensen, Parmet, Schlesinger, Johnson's *Vantage Point*, Ball, the *Pentagon Papers*, L. Berman, O'Brien, Valenti), each with the cited work's page as `pin`.
 
-**Not finished: the studies the notes cite for pp. 298–407** (Edgar Berman's *Hubert*, White's *1968*, Chester,
-Christian, Kearns, Hersh, Schandler, Chennault and others) are not yet edges; nor are the Public Papers the notes cite.
-A machine pass over the notes (`studies.py` in the scratchpad, by the boxes) found the citations but could not tie
-them to their pages reliably (the box numbers of the Humphrey Papers break the page markers); the next run should
-read pp. 510–526 by eye, as pp. 497–509 and 523 were.
+**Not finished: the studies the notes cite for pp. 298–407** (Edgar Berman's *Hubert*, White's *1968*, Chester, Christian, Kearns, Hersh, Schandler, Chennault and others) are not yet edges; nor are the Public Papers the notes cite. A machine pass over the notes (`studies.py` in the scratchpad, by the boxes) found the citations but could not tie them to their pages reliably (the box numbers of the Humphrey Papers break the page markers); the next run should read pp. 510–526 by eye, as pp. 497–509 and 523 were.
 
 ### New entries led by Solberg (36)
 
-1960: `cal.1960-02-18.elections-1960` (the Herblock memo); `cal.1960-03-30.elections-1960` (Madison: "an independent
-merchant competing against a chain store"); `cal.1960-05-07.elections-1960-2` (the $750 check);
-`cal.1960-10.elections-1960-14` (the Rochester debate with Peterson). 1961: `cal.1961-07-14.berlin-and-vienna`
-(Humphrey's thirty-two pages to Kennedy); `cal.1961-11-09.latin-america` (the Latin American tour, Nov. 9–Dec. 5).
-1963: `cal.1963-07-13.europe-and-the-alliance` (Harpsund, dated by the note's "Participants at Harpsund"; Solberg's
-"prime ministers of Britain" Checked); `cal.1963-12-14.latin-america-2`, `cal.1963-12-16.latin-america` (the memoranda
-on Latin American personnel). 1964: `cal.1964-01.elections-1964-6` (the AP poll of county chairmen);
-`cal.1964-02.labor` (the AFL-CIO Executive Council at Miami); `cal.1964-04-16.civil-rights-bill` (Nelson's count of
-editorials); `cal.1964-07.elections-1964-5` (to William S. White: "kidnapped the Republican party"). 1965:
-`cal.1965-02-04.democratic-party`, `cal.1965-02-05.democratic-party` (the President's Club; Newark, $304,065);
-`cal.1965-03-12.voting-rights-2` ("You're not getting across," with the memoir's 493 n.1). 1966:
-`cal.1966-01-19.civil-rights-organizations`; `cal.1966-02-25.war-opposition` (the Niebuhr dinner);
-`cal.1966-03-05.vietnam`, `cal.1966-03-25.vietnam`, `cal.1966-04-05.vietnam-3` (the Shannon letter, Valenti's reply,
-the first Vietnam lunch); `cal.1966-03.opinion` (Harris, 54 percent); `cal.1966-04.economy` (the Cowles meeting);
-`cal.1966-04-01.press-and-broadcasting` (*Time*'s cover); `cal.1966-04-19.vietnam-2` (CBS, Sevareid: settles the
-memoir's undated *Meet the Press*); `cal.1966-04-29.press-and-broadcasting` (Reston, "Alas, Poor Hubert");
-`cal.1966-07-19.jobs-and-wages` (880,000 summer jobs). 1967: `cal.1967-03.war-opposition` (the National Book Award
-walkout); `cal.1967-06.korea` (Park's inauguration; Park and Satō); `cal.1967-07.civil-disorders-newark` (the letter
-to Johnson on Hughes); `cal.1967-08.civil-disorders-3`, `cal.1967-08.mayors` (Johnson's rebuke; the hundred mayors).
-1968: `cal.1968-10-01.elections-1968-4` (Nashville and Knoxville); `cal.1968-10.elections-1968-4` (the ADA board,
-73–13); `cal.1968-10-04.elections-1968` (with Johnson, 7 to 9:55 p.m., the note's Daily Diary); `cal.1968-10.labor`
-(COPE's drive, its figures).
+1960: `cal.1960-02-18.elections-1960` (the Herblock memo); `cal.1960-03-30.elections-1960` (Madison: "an independent merchant competing against a chain store"); `cal.1960-05-07.elections-1960-2` (the $750 check); `cal.1960-10.elections-1960-14` (the Rochester debate with Peterson). 1961: `cal.1961-07-14.berlin-and-vienna` (Humphrey's thirty-two pages to Kennedy); `cal.1961-11-09.latin-america` (the Latin American tour, Nov. 9–Dec. 5). 1963: `cal.1963-07-13.europe-and-the-alliance` (Harpsund, dated by the note's "Participants at Harpsund"; Solberg's "prime ministers of Britain" Checked); `cal.1963-12-14.latin-america-2`, `cal.1963-12-16.latin-america` (the memoranda on Latin American personnel). 1964: `cal.1964-01.elections-1964-6` (the AP poll of county chairmen); `cal.1964-02.labor` (the AFL-CIO Executive Council at Miami); `cal.1964-04-16.civil-rights-bill` (Nelson's count of editorials); `cal.1964-07.elections-1964-5` (to William S. White: "kidnapped the Republican party"). 1965: `cal.1965-02-04.democratic-party`, `cal.1965-02-05.democratic-party` (the President's Club; Newark, $304,065); `cal.1965-03-12.voting-rights-2` ("You're not getting across," with the memoir's 493 n.1). 1966: `cal.1966-01-19.civil-rights-organizations`; `cal.1966-02-25.war-opposition` (the Niebuhr dinner); `cal.1966-03-05.vietnam`, `cal.1966-03-25.vietnam`, `cal.1966-04-05.vietnam-3` (the Shannon letter, Valenti's reply, the first Vietnam lunch); `cal.1966-03.opinion` (Harris, 54 percent); `cal.1966-04.economy` (the Cowles meeting); `cal.1966-04-01.press-and-broadcasting` (*Time*'s cover); `cal.1966-04-19.vietnam-2` (CBS, Sevareid: settles the memoir's undated *Meet the Press*); `cal.1966-04-29.press-and-broadcasting` (Reston, "Alas, Poor Hubert"); `cal.1966-07-19.jobs-and-wages` (880,000 summer jobs). 1967: `cal.1967-03.war-opposition` (the National Book Award walkout); `cal.1967-06.korea` (Park's inauguration; Park and Satō); `cal.1967-07.civil-disorders-newark` (the letter to Johnson on Hughes); `cal.1967-08.civil-disorders-3`, `cal.1967-08.mayors` (Johnson's rebuke; the hundred mayors). 1968: `cal.1968-10-01.elections-1968-4` (Nashville and Knoxville); `cal.1968-10.elections-1968-4` (the ADA board, 73–13); `cal.1968-10-04.elections-1968` (with Johnson, 7 to 9:55 p.m., the note's Daily Diary); `cal.1968-10.labor` (COPE's drive, its figures).
 
 ### Passed over, ruled again (the Oct. 29 rows, in their order)
 
-"Month only" marks a row R15 now makes an entry, dated to the month the text gives, not entered this run for want of
-time: the next reader enters it.
+"Month only" marks a row R15 now makes an entry, dated to the month the text gives, not entered this run for want of time: the next reader enters it.
 
 | Page | Event | Ruling now |
 |---|---|---|
@@ -540,7 +438,6 @@ time: the next reader enters it.
 - Humphrey's "Trip to Germany," Oct. 24–27, 1963 (Solberg's note to 232, Humphrey Papers, Box 709): the trip.
 - The Cabinet of Jan. 22, 1965, Humphrey's note for the record (WHM u/p, Box 48): the meeting and Rusk's word.
 - Valenti's notes of the President's meeting on Vietnam, May 16, 1965 (Office files of the President, LBJ Library).
-- McGrory's column on "Lyndon Johnson's Eleanor Roosevelt" (the *New York Post*, July 1966) and the remark's day (the
-  *Times*, July 26 and 29, 1966).
+- McGrory's column on "Lyndon Johnson's Eleanor Roosevelt" (the *New York Post*, July 1966) and the remark's day (the *Times*, July 26 and 29, 1966).
 - The writers' press conference against Humphrey, 1966 (*Esquire*, Nov. 1966, 106).
 - The rows above marked "to enter" and "month only": 23 events the next run should enter.

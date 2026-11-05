@@ -4,29 +4,15 @@ Card: `w.cq-weekly-report`. Patch: `inbox/2026-11-01-cq-1968-06-07.yaml`. Reader
 
 ## The copy
 
-The owner's scan, 81 PDF pages, no text layer; OCR made for this run (tesseract), a text and a 150 dpi image a page.
-The cover reads "Part II of II Parts ... (Part I To Be Mailed June 10)", "Pages 1366-1443": this part is the week's
-regular Weekly Report, not a special supplement. Its contents: the murder of Robert Kennedy (1367-69); Politics, the
-primary results of June 4 (California, New Jersey, South Dakota, Alabama's runoff, Montana, Mississippi), the Texas
-and North Carolina runoffs of June 1, the Maine outlook, the candidates' week, the delegations (1370-83); Lobbying, the
-Poor People's Campaign (1384); New York's redistricting and primary outlook for June 18 (1385-94); the public record of
-Edward Kennedy (1395-98); federal mass-transit aid (1399-1402); Around the Capitol (1403-04); the trade message's text
-(1405-06); Committee Roundup, the food programs and hearings (1407-16); Floor Action, the surcharge, housing, the
-crime bill (1417-38); the vote charts (1439-43). PDF page 1 is the cover (p. [1365]); offset +1364 throughout, PDF 3 =
-1367, 30 = 1394, 79 = 1443 (the running feet read on every page; no page scanned twice). PDF 80-81: the back matter.
+The owner's scan, 81 PDF pages, no text layer; OCR made for this run (tesseract), a text and a 150 dpi image a page. The cover reads "Part II of II Parts ... (Part I To Be Mailed June 10)", "Pages 1366-1443": this part is the week's regular Weekly Report, not a special supplement. Its contents: the murder of Robert Kennedy (1367-69); Politics, the primary results of June 4 (California, New Jersey, South Dakota, Alabama's runoff, Montana, Mississippi), the Texas and North Carolina runoffs of June 1, the Maine outlook, the candidates' week, the delegations (1370-83); Lobbying, the Poor People's Campaign (1384); New York's redistricting and primary outlook for June 18 (1385-94); the public record of Edward Kennedy (1395-98); federal mass-transit aid (1399-1402); Around the Capitol (1403-04); the trade message's text (1405-06); Committee Roundup, the food programs and hearings (1407-16); Floor Action, the surcharge, housing, the crime bill (1417-38); the vote charts (1439-43). PDF page 1 is the cover (p. [1365]); offset +1364 throughout, PDF 3 = 1367, 30 = 1394, 79 = 1443 (the running feet read on every page; no page scanned twice). PDF 80-81: the back matter.
 
-Checked against the page images: 1367, 1368, 1369, 1370, 1371, 1372, 1373, 1374, 1375, 1376, 1377, 1378, 1379, 1380,
-1381, 1382, 1383, 1387. Every figure, date, name and quotation entered from those pages was read off the image. The
-House's 368-17 on the crime bill was read on 1369's image; 1433 (the same figure, and the 60-318 of June 5) from the
-OCR only.
+Checked against the page images: 1367, 1368, 1369, 1370, 1371, 1372, 1373, 1374, 1375, 1376, 1377, 1378, 1379, 1380, 1381, 1382, 1383, 1387. Every figure, date, name and quotation entered from those pages was read off the image. The House's 368-17 on the crime bill was read on 1369's image; 1433 (the same figure, and the 60-318 of June 5) from the OCR only.
 
 The magazine has no notes: no records cited (R35) to log.
 
 ## Recomputed votes
 
-None in this issue. The New York redistricting table (1387) gives each district's 1960 population, old lines and new;
-no earlier election's vote on the new lines. The district outlooks (1386-94) cite 1966 margins on the old lines in
-prose only. New York's filings by district: 1391.
+None in this issue. The New York redistricting table (1387) gives each district's 1960 population, old lines and new; no earlier election's vote on the new lines. The district outlooks (1386-94) cite 1966 margins on the old lines in prose only. New York's filings by district: 1391.
 
 ## Cites already made
 
@@ -54,22 +40,11 @@ None to this issue before this run.
 
 ## New entries
 
-58, all claimed in the ledger under `2026-11-01-cq-1968-06-07`. The patch-check's "one event?" warnings (and the
-merge's duplicate flags) are same-day entries in the same thread that are distinct events (several speeches,
-statements and State results a day); each wants `--take keep`. Chief: the Secret Service amendment and the Senate's
-75-0, H.J. Res. 1292 (June 5-6); Clark's order to the FBI; the candidates' suspension; the House primaries of June 4 in
-California (the south), New Jersey, South Dakota, Montana and Mississippi, and Alabama's runoff (Allen over Selden);
-North Carolina's Republican runoff (June 1); the New Jersey delegate primaries; the McCarthy-Kennedy exchanges of May
-28-June 2 (Davis, San Francisco, San Diego, *Issues and Answers*, *Face the Nation*); Humphrey's week (ILGWU, the
-Businessmen, Gettysburg, Arkansas, the task force, the Textile Workers, the AMA); Rockefeller's (Denver, Wyoming, Las
-Vegas, Milwaukee); Nixon's (Newark, Dallas, Atlanta); the Ripon report on Reagan and Reagan's answer; the State Polls of
-May 22 and June 2; the Republican delegations (Delaware, Nebraska, Pennsylvania, Florida); the Wallace campaign (Idaho,
-May 24; the aide, May 30); the RNC's fund drives (May 10).
+58, all claimed in the ledger under `2026-11-01-cq-1968-06-07`. The patch-check's "one event?" warnings (and the merge's duplicate flags) are same-day entries in the same thread that are distinct events (several speeches, statements and State results a day); each wants `--take keep`. Chief: the Secret Service amendment and the Senate's 75-0, H.J. Res. 1292 (June 5-6); Clark's order to the FBI; the candidates' suspension; the House primaries of June 4 in California (the south), New Jersey, South Dakota, Montana and Mississippi, and Alabama's runoff (Allen over Selden); North Carolina's Republican runoff (June 1); the New Jersey delegate primaries; the McCarthy-Kennedy exchanges of May 28-June 2 (Davis, San Francisco, San Diego, *Issues and Answers*, *Face the Nation*); Humphrey's week (ILGWU, the Businessmen, Gettysburg, Arkansas, the task force, the Textile Workers, the AMA); Rockefeller's (Denver, Wyoming, Las Vegas, Milwaukee); Nixon's (Newark, Dallas, Atlanta); the Ripon report on Reagan and Reagan's answer; the State Polls of May 22 and June 2; the Republican delegations (Delaware, Nebraska, Pennsylvania, Florida); the Wallace campaign (Idaho, May 24; the aide, May 30); the RNC's fund drives (May 10).
 
 ## Passed over
 
-Made from pages 1367-1394, read in full; each dated event the pages treat that is neither entered nor already in the
-calendar.
+Made from pages 1367-1394, read in full; each dated event the pages treat that is neither entered nor already in the calendar.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -100,11 +75,7 @@ calendar.
 
 ## Second run (patch `inbox/2026-11-01-cq-1968-06-07-b.yaml`)
 
-Pages read: 1384 and 1395-1443, every page in the OCR; checked against the image: 1384, 1395, 1396, 1401-04,
-1408-21, 1425, 1426, 1428, 1434, 1440. Pages read from the OCR only, nothing entered from them but as a lead below:
-1397-1400 (the rest of Edward Kennedy's record, the transit fact sheet), 1405-06 (the trade message's text; the
-message's own entry cites 1415, checked), 1407 (food programs' history), 1422-24 (H.R. 2158's provisions, the NSF,
-credit unions), 1427, 1429-33, 1435-39, 1441-43.
+Pages read: 1384 and 1395-1443, every page in the OCR; checked against the image: 1384, 1395, 1396, 1401-04, 1408-21, 1425, 1426, 1428, 1434, 1440. Pages read from the OCR only, nothing entered from them but as a lead below: 1397-1400 (the rest of Edward Kennedy's record, the transit fact sheet), 1405-06 (the trade message's text; the message's own entry cites 1415, checked), 1407 (food programs' history), 1422-24 (H.R. 2158's provisions, the NSF, credit unions), 1427, 1429-33, 1435-39, 1441-43.
 
 65 new entries, claimed in the ledger under `2026-11-01-cq-1968-06-07-b`; cites to 8 existing entries, 5 Checks.
 
@@ -119,9 +90,7 @@ credit unions), 1427, 1429-33, 1435-39, 1441-43.
 | cal.1968-05-28.congress (new) | the Justice Department | $448,384,000 recommended (1426), $488,384,000 in the passed bill's table (1428) | not entered; a lead |
 | cal.1968-05-28.trade, cal.1968-05-27.elections-1968, cal.1968-05-29.economy-surcharge, cal.1968-05-27.desegregation-schools, cal.1968-06-06.crime-and-hijacking-safe-streets, cal.1962-09-18.elections-1962 | | 1415, 1402, 1417, 1404, 1434, 1396 | Hold |
 
-The Public Papers read for two new entries: 1968-69 Pub. Papers 666 (Texas Christian University, the vote at 18) and
-670 (the news conference at the LBJ Ranch: the $6 billion, Westmoreland's "point of desperation", the message on the
-vote at 18).
+The Public Papers read for two new entries: 1968-69 Pub. Papers 666 (Texas Christian University, the vote at 18) and 670 (the news conference at the LBJ Ranch: the $6 billion, Westmoreland's "point of desperation", the message on the vote at 18).
 
 ### Passed over, second run
 
@@ -156,27 +125,22 @@ Made from the pages above: each dated event the pages treat, not entered and not
 ## Leads
 
 National
-- The Army's civil-disturbance directorate on alert, June 5 (CQ June 7, 1968, 1367): an entry, Defense or Civil
-  disorders.
+- The Army's civil-disturbance directorate on alert, June 5 (CQ June 7, 1968, 1367): an entry, Defense or Civil disorders.
 - Sirhan's arraignment, June 5, 7 a.m. (1367): an entry, Assassination; the court record.
 - The violence commission's members (1369): into cal.1968-06-10.civil-disorders; the Public Papers of June 6-10.
 - The Senate's 75-0 on H.R. 16489, June 6 (1368): its Voteview roll call, for cal.1968-06-06.assassination.
-- CQ's next Weekly Report (June 14, 1968): the House vote on the crime bill (promised at 1433) and the Northern
-  California House primaries (promised at 1373).
+- CQ's next Weekly Report (June 14, 1968): the House vote on the crime bill (promised at 1433) and the Northern California House primaries (promised at 1373).
 - The pages not read in this run (above).
 
 States and cities
-- New York: the Republican State committee, Mar. 27, and the Democratic, Mar. 30, 1968 (1385); the court's acceptance
-  of the districts, Mar. 20 (1386); the filing deadline, May 14.
+- New York: the Republican State committee, Mar. 27, and the Democratic, Mar. 30, 1968 (1385); the court's acceptance of the districts, Mar. 20 (1386); the filing deadline, May 14.
 - Florida: the revolt against Kirk, Mar. 28 (1383; CQ Weekly Report p. 741 of 1968).
 - Maine: Merrill's change of party, Dec. 1967 (1380).
 - California: the State's *Statement of Vote* for the House primaries of June 4 (CQ prints partial returns).
 - New Jersey, Mississippi, Montana, South Dakota, Alabama, North Carolina: the canvasses for the June 1 and 4 primaries.
 - (Second run) CQ's next Weekly Report: the House's votes of June 6 on the crime bill; the news conference's text.
-- The Puyallup case, the Supreme Court's ruling on net fishing, argued against at the Court May 29 (1384): the case
-  and its day.
-- The roll calls on Voteview for H.R. 17522 (May 28, 347-28; 223-154) and Javits's amendment to H.R. 16913 (May 29,
-  31-30).
+- The Puyallup case, the Supreme Court's ruling on net fishing, argued against at the Court May 29 (1384): the case and its day.
+- The roll calls on Voteview for H.R. 17522 (May 28, 347-28; 223-154) and Javits's amendment to H.R. 16913 (May 29, 31-30).
 - Justice's appropriation, H.R. 17522: $448,384,000 (1426) or $488,384,000 (1428); CQ's own figures differ.
 - A thread for science policy (the NSF bill, May 24) and for credit (H.R. 14907): the owner to rule.
 - Edward Kennedy's key votes, 1963-68 (1398): CQ's selection, each a roll call the calendar may hold.

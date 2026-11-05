@@ -1,15 +1,9 @@
 # Jacobson's district file, 1946–2014
 
-Gary C. Jacobson, replication data for "It's Nothing Personal: The Decline of the Incumbency Advantage in U.S. House
-Elections," Harvard Dataverse, version 1.0 (Mar. 20, 2015), [doi:10.7910/DVN/29559](https://doi.org/10.7910/DVN/29559).
-The article: 77 J. Pol. 861 (2015) (recalled, not read: Check the volume and page). License: CC0 1.0 (the Dataverse
-record), so the file is kept here whole. Fetched Oct. 31, 2026 (the owner: "Is there any way for me to get you the
-ICPSR or the Jacobson?"; "Please do go ahead").
+Gary C. Jacobson, replication data for "It's Nothing Personal: The Decline of the Incumbency Advantage in U.S. House Elections," Harvard Dataverse, version 1.0 (Mar. 20, 2015), [doi:10.7910/DVN/29559](https://doi.org/10.7910/DVN/29559). The article: 77 J. Pol. 861 (2015) (recalled, not read: Check the volume and page). License: CC0 1.0 (the Dataverse record), so the file is kept here whole. Fetched Oct. 31, 2026 (the owner: "Is there any way for me to get you the ICPSR or the Jacobson?"; "Please do go ahead").
 
-- `JOPrepfile1.tab`: Dataverse's tab-delimited copy of `JOPrepfile1.dta` (datafile 2547168; the original's MD5,
-  as the record gives it and as fetched, 6706739c5d27a68d52cad6604dc8516d). A row a House seat a year, 1946–2014.
-- `Documentation for JOPrepfile1 (aggregate data).doc`: his codebook and the Stata commands for the article's figures
-  (datafile 2547164, MD5 705561ec334ce222aaee982257799c7b).
+- `JOPrepfile1.tab`: Dataverse's tab-delimited copy of `JOPrepfile1.dta` (datafile 2547168; the original's MD5, as the record gives it and as fetched, 6706739c5d27a68d52cad6604dc8516d). A row a House seat a year, 1946–2014.
+- `Documentation for JOPrepfile1 (aggregate data).doc`: his codebook and the Stata commands for the article's figures (datafile 2547164, MD5 705561ec334ce222aaee982257799c7b).
 
 ## The variables (his codebook, as he gives them)
 
@@ -34,16 +28,12 @@ ICPSR or the Jacobson?"; "Please do go ahead").
 | `cexpx`, `iexpx` | the challenger's and the incumbent's expenditures, 2014 dollars |
 | `preswin` | not in the codebook (in the file) |
 
-His Gelman–King estimate (the codebook, Figure 1a): `reg dv dvp ptynow inc3 if redist==0`, a year at a time, the
-redistricting years left out; the "modified" one (1b) puts `dpres` for `dvp` and keeps every seat.
+His Gelman–King estimate (the codebook, Figure 1a): `reg dv dvp ptynow inc3 if redist==0`, a year at a time, the redistricting years left out; the "modified" one (1b) puts `dpres` for `dvp` and keeps every seat.
 
 ## What the series does with it
 
-- `tools/elections/jacobson.py` (its STYLE) holds his shares, lags and redrawn flags against the series' returns,
-  seat by seat: `notes/jacobson-compare.md` (generated; `check` warns when stale [jacobson]). The Clerk's figures
-  stand; each difference is a lead to the page.
+- `tools/elections/jacobson.py` (its STYLE) holds his shares, lags and redrawn flags against the series' returns, seat by seat: `notes/jacobson-compare.md` (generated; `check` warns when stale [jacobson]). The Clerk's figures stand; each difference is a lead to the page.
 - `tools/elections/make_baseline.py` runs the baseline three ways, one of them on his lags (`dvp`).
 - `tools/elections/make_pvi.py` takes his `dpres` for a district no Census volume prints, marked as his (its STYLE 13).
 
-What he says of his sources is in the article, not the codebook (not read: Check). The figures for the 1960s agree
-with the Clerk's in 97–99 percent of seats (the listing's table).
+What he says of his sources is in the article, not the codebook (not read: Check). The figures for the 1960s agree with the Clerk's in 97–99 percent of seats (the listing's table).

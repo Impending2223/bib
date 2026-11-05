@@ -1,13 +1,8 @@
 # Frankum, *Like Rolling Thunder* (2005): checks
 
-Ronald Bruce Frankum Jr., *Like Rolling Thunder: The Air War in Vietnam, 1964–1975* (2005), card
-`w.frankum-like-rolling-thunder`. Read Oct. 23, 2026, from the owner's copy (240 PDF pages). Printed page = PDF page
-less 28 throughout the text (p. 2 = PDF 30, p. 47 = PDF 75, p. 62 = PDF 90, p. 117 = PDF 145, checked against the
-page images). Each chapter's notes at its end; the sources are mostly the Air Force's CHECO reports and FRUS.
+Ronald Bruce Frankum Jr., *Like Rolling Thunder: The Air War in Vietnam, 1964–1975* (2005), card `w.frankum-like-rolling-thunder`. Read Oct. 23, 2026, from the owner's copy (240 PDF pages). Printed page = PDF page less 28 throughout the text (p. 2 = PDF 30, p. 47 = PDF 75, p. 62 = PDF 90, p. 117 = PDF 145, checked against the page images). Each chapter's notes at its end; the sources are mostly the Air Force's CHECO reports and FRUS.
 
-The calendar cited the book nowhere before this pass: no existing citation to hold up. The patch
-`inbox/2026-10-23-book-frankum.yaml` (patch `book-frankum`) adds it, with pinpoints, to 19 entries and makes 8 new
-ones. Below: every place the book and the calendar or the record part company, and the ruling.
+The calendar cited the book nowhere before this pass: no existing citation to hold up. The patch `inbox/2026-10-23-book-frankum.yaml` (patch `book-frankum`) adds it, with pinpoints, to 19 entries and makes 8 new ones. Below: every place the book and the calendar or the record part company, and the ruling.
 
 ## Where the book differs from the calendar
 
@@ -31,48 +26,25 @@ ones. Below: every place the book and the calendar or the record part company, a
 
 ## The book's sortie figures against The war table
 
-The war table's air war series (`indicators/war-air-attack.yaml`, `tools/indicators/make_war_air.py`) counts fixed-wing
-attack sorties by the target's country: "then," OSD's *Southeast Asia Analysis Report* (Thayer, vol. 5); "later," NARA's
-CACTA file. Frankum's tables are CHECO's, and count something else: all sorties over the North (his 1965 table
-separates "total sorties" from "strike sorties"), U.S. and VNAF.
+The war table's air war series (`indicators/war-air-attack.yaml`, `tools/indicators/make_war_air.py`) counts fixed-wing attack sorties by the target's country: "then," OSD's *Southeast Asia Analysis Report* (Thayer, vol. 5); "later," NARA's CACTA file. Frankum's tables are CHECO's, and count something else: all sorties over the North (his 1965 table separates "total sorties" from "strike sorties"), U.S. and VNAF.
 
-- **1968, by month (p. 62, CHECO, Overton, "Rolling Thunder—January 1967–November 1968," Fig. 12; read off the page
-  image):** Jan. 6,357; Feb. 3,228; Mar. 5,039; Apr. 7,259; May 9,739; June 10,375; July 14,339; Aug. 12,940; Sept.
-  10,593 (USAF, USN, USMC). Against OSD then: Apr. 7,259, May 9,739, July 14,339, Aug. 12,940 the same; June 10,376
-  (one more). Against CACTA: Jan. 5,912, Feb. 3,178, May 9,180, June 10,134, Aug. 12,482, Sept. 10,225, some 2 to 7
-  percent under. Jan.–Feb. together: CHECO 9,585, OSD 9,638, CACTA 9,090. So CHECO's table and OSD's *Report* print
-  the same monthly figures where both exist; CACTA's count runs under both.
-- Frankum's text is not his table: "about 3,350" in February (p. 60; table 3,228), and "27,406 sorties" in the second
-  quarter (p. 61; the table's April–June add to 27,373).
-- Clifford's figures at the lunch of May 25, 1968 (`cal.1968-05-25.vietnam`: 3,200 in February, 9,100 in May) sit
-  closer to CACTA's (3,178; May 9,180) than to CHECO's (3,228; 9,739); May was not over.
-- **1966:** "over 44,500 sorties over North Vietnam in 1966," 339 aircraft lost, 217 USAF, 122 USN (p. 54). CACTA counts
-  62,457 attack sorties against North Vietnam in the eleven months of 1966 it holds (August missing, July to the 15th
-  only). The book's figure is lower by a third or more on a narrower count, or is a different series; not used.
-- **1965:** 54,791 sorties, 23,194 strike sorties, 171 aircraft lost (p. 34, CHECO, Melyan and Bonetti, p. 23). CACTA
-  begins in Oct. 1965 (Oct.–Dec.: 8,827 attack sorties against the North); no comparison.
-- **B-52s (p. 79, CHECO, Trest, Fig. 4):** monthly from 1967, e.g. Feb. 1968 1,475, Mar. 1,877, Apr. 1,804, May 1,879;
-  quarterly before. The war table has no B-52 series (CACTA's files hold no B-52; make_war_air.py COUNT 5). A lead.
-- **Khe Sanh (p. 71):** 23,831 tactical strike sorties, 96,000 tons by air against 3,600 by artillery, siege lifted
-  Apr. 12 (see above).
+- **1968, by month (p. 62, CHECO, Overton, "Rolling Thunder—January 1967–November 1968," Fig. 12; read off the page image):** Jan. 6,357; Feb. 3,228; Mar. 5,039; Apr. 7,259; May 9,739; June 10,375; July 14,339; Aug. 12,940; Sept. 10,593 (USAF, USN, USMC). Against OSD then: Apr. 7,259, May 9,739, July 14,339, Aug. 12,940 the same; June 10,376 (one more). Against CACTA: Jan. 5,912, Feb. 3,178, May 9,180, June 10,134, Aug. 12,482, Sept. 10,225, some 2 to 7 percent under. Jan.–Feb. together: CHECO 9,585, OSD 9,638, CACTA 9,090. So CHECO's table and OSD's *Report* print the same monthly figures where both exist; CACTA's count runs under both.
+- Frankum's text is not his table: "about 3,350" in February (p. 60; table 3,228), and "27,406 sorties" in the second quarter (p. 61; the table's April–June add to 27,373).
+- Clifford's figures at the lunch of May 25, 1968 (`cal.1968-05-25.vietnam`: 3,200 in February, 9,100 in May) sit closer to CACTA's (3,178; May 9,180) than to CHECO's (3,228; 9,739); May was not over.
+- **1966:** "over 44,500 sorties over North Vietnam in 1966," 339 aircraft lost, 217 USAF, 122 USN (p. 54). CACTA counts 62,457 attack sorties against North Vietnam in the eleven months of 1966 it holds (August missing, July to the 15th only). The book's figure is lower by a third or more on a narrower count, or is a different series; not used.
+- **1965:** 54,791 sorties, 23,194 strike sorties, 171 aircraft lost (p. 34, CHECO, Melyan and Bonetti, p. 23). CACTA begins in Oct. 1965 (Oct.–Dec.: 8,827 attack sorties against the North); no comparison.
+- **B-52s (p. 79, CHECO, Trest, Fig. 4):** monthly from 1967, e.g. Feb. 1968 1,475, Mar. 1,877, Apr. 1,804, May 1,879; quarterly before. The war table has no B-52 series (CACTA's files hold no B-52; make_war_air.py COUNT 5). A lead.
+- **Khe Sanh (p. 71):** 23,831 tactical strike sorties, 96,000 tons by air against 3,600 by artillery, siege lifted Apr. 12 (see above).
 
 ## Left out
 
-- Operation Bolo, Jan. 2, 1967: seven MiGs shot down, none lost (p. 56). No record found in FRUS; a battle, not a
-  policy event. Not entered.
+- Operation Bolo, Jan. 2, 1967: seven MiGs shot down, none lost (p. 56). No record found in FRUS; a battle, not a policy event. Not entered.
 - The JCS's Feb. 12 (FRUS: Feb. 11) eight-week program, Khánh's targets of Feb. 17 (pp. 19–21): cited in the Feb. 13 entry.
-- Gate Guard (May 1966), Tally Ho (July 18, 1966), Combat Beaver and Fast Buck (Nov. 1966), the "30-day campaign" of
-  July 14–Aug. 16, 1968, in route package 1 (pp. 46, 50, 52–53, 64, 86–88), Truscott White (Apr. 7–June 29, 1968,
-  p. 85): operations without a Washington decision in the record read. Not entered.
+- Gate Guard (May 1966), Tally Ho (July 18, 1966), Combat Beaver and Fast Buck (Nov. 1966), the "30-day campaign" of July 14–Aug. 16, 1968, in route package 1 (pp. 46, 50, 52–53, 64, 86–88), Truscott White (Apr. 7–June 29, 1968, p. 85): operations without a Washington decision in the record read. Not entered.
 
 ## Claim maps, records, Oct. 29, 2026 (stage 5 backfill)
 
-The same copy and offset (printed page = PDF page less 28), every cited page reread against the entry's units
-(`./bib claims show`), a page image read where a note marker was in doubt (pp. 47–50). Patch:
-`inbox/2026-10-29-backfill-frankum-victory-johns.yaml`. Each of the 26 entries citing the book now has its map (`src`),
-the book's row narrowed to the units its page bears and the note's parenthetical saying which; the other works' rows
-kept. Pinpoints narrowed where the cited run went past the event (47–50 to 48–49; 59–62 to 59, 61; 76–79 to 76; 116–17,
-121–22 to 116–17; 126–28 to 126–27; and the like).
+The same copy and offset (printed page = PDF page less 28), every cited page reread against the entry's units (`./bib claims show`), a page image read where a note marker was in doubt (pp. 47–50). Patch: `inbox/2026-10-29-backfill-frankum-victory-johns.yaml`. Each of the 26 entries citing the book now has its map (`src`), the book's row narrowed to the units its page bears and the note's parenthetical saying which; the other works' rows kept. Pinpoints narrowed where the cited run went past the event (47–50 to 48–49; 59–62 to 59, 61; 76–79 to 76; 116–17, 121–22 to 116–17; 126–28 to 126–27; and the like).
 
 | Entry | Units the book bears | What the page does not give |
 |---|---|---|
@@ -103,24 +75,13 @@ kept. Pinpoints narrowed where the cited run went past the event (47–50 to 48�
 | `cal.1968-10-31.vietnam` | A (the end of Rolling Thunder, which he calls a proclamation of Nov. 1) | the talks, the call to the candidates, Bunker |
 | `cal.1968-11-15.laos` | A | Sullivan's figures of Nov. 4 |
 
-Added (step 2): `cal.1967-02-22.vietnam`, 70 (A–B): Junction City, Feb. 22, and the 173d's parachute assault, "the first
-airborne assault since the Korean War"; the jump was the one unit no source of the entry bore.
+Added (step 2): `cal.1967-02-22.vietnam`, 70 (A–B): Junction City, Feb. 22, and the 173d's parachute assault, "the first airborne assault since the Korean War"; the jump was the one unit no source of the entry bore.
 
-Records (`sources/cited-records/frankum-like-rolling-thunder.yaml`): the book's chapter notes are few and most of the
-cited passages carry none. Six records logged: the JCS's memorandum of Feb. 11, 1965 (FRUS II, doc. 109, read, now
-cited in `cal.1965-02-13.vietnam` for the program) and Rusk's paper of Feb. 23 (doc. 157, read, not a unit: no row);
-Taylor's diary of Apr. 20, 1965 and McNamara's report of Apr. 21 (FRUS II, docs. 264, 265, already the entry's primary
-record); two CHECO reports, not found (Feb. 7, 1965; Popeye), joined to the entries' "To check". The notes that ground
-nothing in an entry (n. 3 of chapter 2 on Gromyko; n. 4 on McCone's letter; n. 9 on McNamara's memorandum of July 30)
-were not logged.
+Records (`sources/cited-records/frankum-like-rolling-thunder.yaml`): the book's chapter notes are few and most of the cited passages carry none. Six records logged: the JCS's memorandum of Feb. 11, 1965 (FRUS II, doc. 109, read, now cited in `cal.1965-02-13.vietnam` for the program) and Rusk's paper of Feb. 23 (doc. 157, read, not a unit: no row); Taylor's diary of Apr. 20, 1965 and McNamara's report of Apr. 21 (FRUS II, docs. 264, 265, already the entry's primary record); two CHECO reports, not found (Feb. 7, 1965; Popeye), joined to the entries' "To check". The notes that ground nothing in an entry (n. 3 of chapter 2 on Gromyko; n. 4 on McCone's letter; n. 9 on McNamara's memorandum of July 30) were not logged.
 
 ## Passed over
 
-Made by a script over the text layer listing every day, month and year of 1960–Jan. 20, 1969 the text gives (217
-mentions after dropping the CHECO reports' own dates), each judged against the calendar (`./bib find`, date windows).
-Passed over without a row of their own: the figures dated by month or quarter (sortie rates, damage tables, B-52
-sorties, aircraft and SAM counts), the reports' and the bibliography's dates, and the book's 1972–75 chapters. The book
-is an operational history; nearly all of what follows is operations without a Washington decision in the record read.
+Made by a script over the text layer listing every day, month and year of 1960–Jan. 20, 1969 the text gives (217 mentions after dropping the CHECO reports' own dates), each judged against the calendar (`./bib find`, date windows). Passed over without a row of their own: the figures dated by month or quarter (sortie rates, damage tables, B-52 sorties, aircraft and SAM counts), the reports' and the bibliography's dates, and the book's 1972–75 chapters. The book is an operational history; nearly all of what follows is operations without a Washington decision in the record read.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -182,11 +143,8 @@ is an operational history; nearly all of what follows is operations without a Wa
 - National: the JCS's request to CINCPAC for a target list, June 1964, and the 94 targets (FRUS 1964–68, I).
 - National: Market Time's beginning, Mar. 11, 1965: the decision and its record (FRUS 1964–68, II).
 - National: a U-2's photograph of the first SAM site, April 1965 (FRUS 1964–68, II, the reports of early April).
-- National: the herbicide program's approval, November 1961 (NSAM 115; FRUS 1961–63, I); the calendar has only
-  Ranch Hand's first runs.
+- National: the herbicide program's approval, November 1961 (NSAM 115; FRUS 1961–63, I); the calendar has only Ranch Hand's first runs.
 - National: McNamara with Sharp, July 1, 1966 (Frankum, 49), and CINCPAC's Honolulu conference of Jan. 17–31, 1966 (35).
-- Foreign: the SC-47 shot down over the Plain of Jars, Mar. 24, 1961 (Frankum, 93; FRUS 1961–63, XXIV), and the
-  reconnaissance flights over Laos from May 19, 1964 (121; FRUS 1964–68, XXVIII).
+- Foreign: the SC-47 shot down over the Plain of Jars, Mar. 24, 1961 (Frankum, 93; FRUS 1961–63, XXIV), and the reconnaissance flights over Laos from May 19, 1964 (121; FRUS 1964–68, XXVIII).
 - National: the approval of the Thái Nguyên steel works as a target, 1967 (Frankum, 57).
-- National: the CHECO reports the book rests on (Project CHECO, Pacific Air Forces) are declassified and some are on
-  DTIC; not searched in this pass.
+- National: the CHECO reports the book rests on (Project CHECO, Pacific Air Forces) are declassified and some are on DTIC; not searched in this pass.

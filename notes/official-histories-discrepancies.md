@@ -1,22 +1,13 @@
 # The calendar against the official histories
 
-For the owner. The official histories read against the calendar, Oct. 23, 2026, by their open copies (archive.org's
-DTIC scans, the OSD Historical Office's PDF for vol. V), page by page, each page's folio read from its running head:
+For the owner. The official histories read against the calendar, Oct. 23, 2026, by their open copies (archive.org's DTIC scans, the OSD Historical Office's PDF for vol. V), page by page, each page's folio read from its running head:
 
-- OSD: Watson, *Into the Missile Age* (IV); Kaplan, Landa and Drea, *The McNamara Ascendancy* (V); Drea, *McNamara,
-  Clifford, and the Burdens of Vietnam* (VI).
-- JCS: Poole, *The Joint Chiefs of Staff and National Policy*, 1961–1964 (vol. 8) and 1965–1968 (vol. 9); *The Joint
-  Chiefs of Staff and the War in Vietnam, 1960–1968*, pts. 1 (Schulimson, as the title page prints the name), 2 and 3
-  (Cosmas).
-- Navy: Marolda and Fitzgerald, *From Military Assistance to Combat* (vol. II). Vol. I (Hooper, Allard and
-  Fitzgerald) has no open copy: not read.
-- Air Force: Futrell, *The Advisory Years*; Van Staaveren, *Gradual Failure* and *Interdiction in Southern Laos*;
-  Schlight, *The Years of the Offensive*; Anthony and Sexton, *The War in Northern Laos*.
+- OSD: Watson, *Into the Missile Age* (IV); Kaplan, Landa and Drea, *The McNamara Ascendancy* (V); Drea, *McNamara, Clifford, and the Burdens of Vietnam* (VI).
+- JCS: Poole, *The Joint Chiefs of Staff and National Policy*, 1961–1964 (vol. 8) and 1965–1968 (vol. 9); *The Joint Chiefs of Staff and the War in Vietnam, 1960–1968*, pts. 1 (Schulimson, as the title page prints the name), 2 and 3 (Cosmas).
+- Navy: Marolda and Fitzgerald, *From Military Assistance to Combat* (vol. II). Vol. I (Hooper, Allard and Fitzgerald) has no open copy: not read.
+- Air Force: Futrell, *The Advisory Years*; Van Staaveren, *Gradual Failure* and *Interdiction in Southern Laos*; Schlight, *The Years of the Offensive*; Anthony and Sexton, *The War in Northern Laos*.
 
-Read against the dated entries of Defense, Vietnam and its subthreads, Berlin and Vienna, Cuba, Laos, the Dominican
-Republic, the Middle East, NATO, testing and arms control, 1960–68: 1,585 entries; 899 carry a bibliography (the
-event's first entry) and were matched page by page; 317 take pinpoints (490 pages), in
-`inbox/2026-10-23-official-histories.yaml` (patch `official-histories`, every edit with its `base`).
+Read against the dated entries of Defense, Vietnam and its subthreads, Berlin and Vienna, Cuba, Laos, the Dominican Republic, the Middle East, NATO, testing and arms control, 1960–68: 1,585 entries; 899 carry a bibliography (the event's first entry) and were matched page by page; 317 take pinpoints (490 pages), in `inbox/2026-10-23-official-histories.yaml` (patch `official-histories`, every edit with its `base`).
 
 ## Disagreements
 
@@ -41,8 +32,4 @@ event's first entry) and were matched page by page; 317 take pinpoints (490 page
 
 ## Primary records added
 
-Three, as the histories cite them, marked "(as cited in …)": McNamara's memorandum to Wheeler on Program 5, Aug. 10,
-1967 (`cal.1967-08-14.vietnam-program-5`); JCSM-286-67 and JCSM-288-67, May 20, 1967
-(`cal.1967-05-20.vietnam-program-5`); JCSM-91-68, Feb. 12, 1968 (`cal.1968-02-12.vietnam-tet`). The JCS histories'
-notes cite some fifty other JCSMs on the days of entries; read against them, they are other matters of the same day,
-not the entries' acts, and are not added.
+Three, as the histories cite them, marked "(as cited in …)": McNamara's memorandum to Wheeler on Program 5, Aug. 10, 1967 (`cal.1967-08-14.vietnam-program-5`); JCSM-286-67 and JCSM-288-67, May 20, 1967 (`cal.1967-05-20.vietnam-program-5`); JCSM-91-68, Feb. 12, 1968 (`cal.1968-02-12.vietnam-tet`). The JCS histories' notes cite some fifty other JCSMs on the days of entries; read against them, they are other matters of the same day, not the entries' acts, and are not added.

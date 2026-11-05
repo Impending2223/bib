@@ -1,16 +1,8 @@
 # Rusk, *As I Saw It* (1990): the calendar's citations held up, and the book against the calendar
 
-Card `w.rusk-as-i-saw-it-1990`. Read Oct. 29, 2026, from the owner's copy (Drive, the file id in the brief: archive.org's
-scan `asisawit00rusk`, 680 PDF pages with a text layer), read with pdftotext; cited by the printed page. Offset:
-printed page = PDF page − 4, constant through the plates (pp. 297–320) to the end; checked on the running folios and on
-the page image at PDF 405 (p. 401). The PDF deleted once the text was out. Patch: `inbox/2026-10-29-b3-rusk.yaml`
-(patch `b3-rusk`: 31 new entries, 114 edits).
+Card `w.rusk-as-i-saw-it-1990`. Read Oct. 29, 2026, from the owner's copy (Drive, the file id in the brief: archive.org's scan `asisawit00rusk`, 680 PDF pages with a text layer), read with pdftotext; cited by the printed page. Offset: printed page = PDF page − 4, constant through the plates (pp. 297–320) to the end; checked on the running folios and on the page image at PDF 405 (p. 401). The PDF deleted once the text was out. Patch: `inbox/2026-10-29-b3-rusk.yaml` (patch `b3-rusk`: 31 new entries, 114 edits).
 
-Rusk's account, as told to Richard Rusk and edited by Daniel S. Papp, from taped interviews; Richard Rusk's own
-passages run between. **The book has no notes** (an index only, and a short list of Rusk's writings, p. 640): no
-records are cited for any page, so there is no `sources/cited-records/rusk-as-i-saw-it-1990.yaml` and no `via` rows.
-Every cite below is Rusk's account; where FRUS or another record of the day is in the series it is cited first, and
-where Rusk differs from it a Check says so.
+Rusk's account, as told to Richard Rusk and edited by Daniel S. Papp, from taped interviews; Richard Rusk's own passages run between. **The book has no notes** (an index only, and a short list of Rusk's writings, p. 640): no records are cited for any page, so there is no `sources/cited-records/rusk-as-i-saw-it-1990.yaml` and no `via` rows. Every cite below is Rusk's account; where FRUS or another record of the day is in the series it is cited first, and where Rusk differs from it a Check says so.
 
 ## The calendar's citations of the book
 
@@ -23,11 +15,7 @@ The calendar cited the book twice, both behind "To check:". Both read and pinned
 
 ## Cited by page in entries already in the tree (112 more)
 
-Each with its parenthetical and claim rows; the full list is the patch's edits. By stretch: the appointment
-(Dec. 1960: 201–05); the Bay of Pigs (208–15); Berlin, 1961–63 (219–28); the missile crisis (229–41; Oct. 14, 16, 18,
-20, 22, 23, 24, 26, 27, 28, 30); the test ban (250–59); NATO, Skybolt and the veto (263–68); the Congo (275–81); China
-(282–90); Laos (428–29); Vietnam, 1961–68 (432–89); the Dominican Republic, 1963–66 (369–76); the Middle East (379–89);
-the Pueblo (391–95); the NPT and Glassboro (341–50); Czechoslovakia (350–51); the consular convention (354–55).
+Each with its parenthetical and claim rows; the full list is the patch's edits. By stretch: the appointment (Dec. 1960: 201–05); the Bay of Pigs (208–15); Berlin, 1961–63 (219–28); the missile crisis (229–41; Oct. 14, 16, 18, 20, 22, 23, 24, 26, 27, 28, 30); the test ban (250–59); NATO, Skybolt and the veto (263–68); the Congo (275–81); China (282–90); Laos (428–29); Vietnam, 1961–68 (432–89); the Dominican Republic, 1963–66 (369–76); the Middle East (379–89); the Pueblo (391–95); the NPT and Glassboro (341–50); Czechoslovakia (350–51); the consular convention (354–55).
 
 ## Rusk's account against the record: "Check:" added
 
@@ -65,48 +53,27 @@ the Pueblo (391–95); the NPT and Glassboro (341–50); Czechoslovakia (350–5
 | `cal.1963-07-10.civil-rights-bill` (new) | the Digest: Commerce | "the Senate Judiciary Committee" (586) |
 | `cal.1963-10-10.berlin-and-vienna`, `cal.1963-11-04.berlin-and-vienna` (new) | Oct. and Nov. 1963 (FRUS XV) | the tailgate harassment "as late as September 1963" (227) |
 
-Other Checks give what Rusk adds (the leaders and Taft, Aug. 4, 1964; Seaborn's five trips; Glassboro's house chosen by
-Governor Hughes; the Dominican Republic, Apr. 24–May 15, 1965; Mar. 4, 11 and 28, 1968; Aug. 20, 1968).
+Other Checks give what Rusk adds (the leaders and Taft, Aug. 4, 1964; Seaborn's five trips; Glassboro's house chosen by Governor Hughes; the Dominican Republic, Apr. 24–May 15, 1965; Mar. 4, 11 and 28, 1968; Aug. 20, 1968).
 
 ## New entries (31)
 
-Primary record first where the series holds it: FRUS (1961–63, I, IV, V, VII, XI, XIII, XIV, XV, XX; 1964–68, II, VII),
-the Daily Digest, the Library of Congress's Meet the Press inventory.
+Primary record first where the series holds it: FRUS (1961–63, I, IV, V, VII, XI, XIII, XIV, XV, XX; 1964–68, II, VII), the Daily Digest, the Library of Congress's Meet the Press inventory.
 
-- Papers (the owner's ruling, Oct. 28): Rusk's Congo memorandum, Feb. 1, 1961 (XX, 17–18); the Soviet aide-mémoire to
-  Bonn, Feb. 17, 1961 (XIV, 73; its text not read: Check); the Western notes, July 17, 1961 (XIV, 73); Lodge's cable
-  375 and Rusk's 279, Aug. 29, 1963 (IV, 12, 17); Rusk's paper "Viet Nam," Feb. 23, 1965 (II, 157).
-- Meetings and talks: Paris quadripartite, Aug. 5–6, 1961 (XIV, 94, 99); Rusk–Gromyko, Sept. 21, 1961 (VII, 75);
-  Kennedy–de Gaulle by telephone, Dec. 12, 1961 (XIV, 239); the NATO ministers, Dec. 13–15, 1961 (XIII, 117); Geneva,
-  Mar. 11, 1962, the chaff (XV, 7); Rusk–Dobrynin, Apr. 16, 1962 (XV, 39); Pitsunda, Aug. 9, 1963 (XV, 208; V, 346);
-  the autobahn convoys, Oct. 10–12 and Nov. 4–5, 1963 (XV, 220–236); the Tuesday lunch, Oct. 29, 1968 (VII, 148).
-- Hearings: Rusk's confirmation, Jan. 12, 1961 (D11); Cuba before the American Republics subcommittee, May 1, 1961
-  (D184); the civil rights bill before Commerce, July 10, 1963 (D323); Asia policy before the Far East subcommittee,
-  Mar. 16, 1966 (D118); *Meet the Press*, Feb. 4, 1968 (LOT 13025-934).
-- By Rusk's account alone: China policy with Kennedy, May 1961; Chen Yi at Geneva, May 1961; Salinger and Trujillo,
-  May 31, 1961 (day a Check); the missile crisis, Oct. 15, 17, 22 (Dobrynin; the nonaligned ambassadors), 27 (Cordier,
-  with FRUS XI, 99, and "Made public: March 1987"); the Cabinet plane, Nov. 22, 1963; Rusk's offer to resign, Nov. 23,
-  1963 (day a Check).
+- Papers (the owner's ruling, Oct. 28): Rusk's Congo memorandum, Feb. 1, 1961 (XX, 17–18); the Soviet aide-mémoire to Bonn, Feb. 17, 1961 (XIV, 73; its text not read: Check); the Western notes, July 17, 1961 (XIV, 73); Lodge's cable 375 and Rusk's 279, Aug. 29, 1963 (IV, 12, 17); Rusk's paper "Viet Nam," Feb. 23, 1965 (II, 157).
+- Meetings and talks: Paris quadripartite, Aug. 5–6, 1961 (XIV, 94, 99); Rusk–Gromyko, Sept. 21, 1961 (VII, 75); Kennedy–de Gaulle by telephone, Dec. 12, 1961 (XIV, 239); the NATO ministers, Dec. 13–15, 1961 (XIII, 117); Geneva, Mar. 11, 1962, the chaff (XV, 7); Rusk–Dobrynin, Apr. 16, 1962 (XV, 39); Pitsunda, Aug. 9, 1963 (XV, 208; V, 346); the autobahn convoys, Oct. 10–12 and Nov. 4–5, 1963 (XV, 220–236); the Tuesday lunch, Oct. 29, 1968 (VII, 148).
+- Hearings: Rusk's confirmation, Jan. 12, 1961 (D11); Cuba before the American Republics subcommittee, May 1, 1961 (D184); the civil rights bill before Commerce, July 10, 1963 (D323); Asia policy before the Far East subcommittee, Mar. 16, 1966 (D118); *Meet the Press*, Feb. 4, 1968 (LOT 13025-934).
+- By Rusk's account alone: China policy with Kennedy, May 1961; Chen Yi at Geneva, May 1961; Salinger and Trujillo, May 31, 1961 (day a Check); the missile crisis, Oct. 15, 17, 22 (Dobrynin; the nonaligned ambassadors), 27 (Cordier, with FRUS XI, 99, and "Made public: March 1987"); the Cabinet plane, Nov. 22, 1963; Rusk's offer to resign, Nov. 23, 1963 (day a Check).
 
-The merge's dry run flags nine of them as possible duplicates of entries of the same day and thread
-(`cal.1961-05.china-2`, `cal.1962-10-22.missile-crisis-6`, `-7`, `cal.1962-10-27.missile-crisis-6`,
-`cal.1963-08-29.vietnam-2`, `-3`, `cal.1963-11-22.assassination-3`, `cal.1963-11-23.transition-and-staff-2`,
-`cal.1968-10-29.vietnam-paris`): each is a distinct event-day (another paper, meeting or act); `./bib resolve ID --take
-keep`.
+The merge's dry run flags nine of them as possible duplicates of entries of the same day and thread (`cal.1961-05.china-2`, `cal.1962-10-22.missile-crisis-6`, `-7`, `cal.1962-10-27.missile-crisis-6`, `cal.1963-08-29.vietnam-2`, `-3`, `cal.1963-11-22.assassination-3`, `cal.1963-11-23.transition-and-staff-2`, `cal.1968-10-29.vietnam-paris`): each is a distinct event-day (another paper, meeting or act); `./bib resolve ID --take keep`.
 
 ## For entries in pending patches
 
-- `cal.1961-11-01.vietnam-2` (`inbox/2026-10-29-b3-preston.yaml`): Rusk's telegram from Hakone, Nov. 1, 1961 (FRUS
-  1961–63, I, doc. 204). Add: [[w.rusk-as-i-saw-it-1990]], 431–32 (the cable, quoted).
-- The edits this patch shares with others (`./bib audit-patches`: Sorensen, Jones, Preston, Humphrey) are on `n` and
-  `src`: reconcile by keeping both books' pages (`./bib reconcile`).
+- `cal.1961-11-01.vietnam-2` (`inbox/2026-10-29-b3-preston.yaml`): Rusk's telegram from Hakone, Nov. 1, 1961 (FRUS 1961–63, I, doc. 204). Add: [[w.rusk-as-i-saw-it-1990]], 431–32 (the cable, quoted).
+- The edits this patch shares with others (`./bib audit-patches`: Sorensen, Jones, Preston, Humphrey) are on `n` and `src`: reconcile by keeping both books' pages (`./bib reconcile`).
 
 ## Passed over
 
-Made by reading every page of the book within the span (Oct. 29, 2026), each dated event set against the calendar;
-re-ruled Nov. 4, 2026 under R5, R7, R13, R15 and R18 (the first run's "undated" and "private remark" reasons gone over
-row by row: an event dated to a month or a season is entered; one dated only to a year, or not at all, is a lead).
-Rows that became entries or cites now say so.
+Made by reading every page of the book within the span (Oct. 29, 2026), each dated event set against the calendar; re-ruled Nov. 4, 2026 under R5, R7, R13, R15 and R18 (the first run's "undated" and "private remark" reasons gone over row by row: an event dated to a month or a season is entered; one dated only to a year, or not at all, is a lead). Rows that became entries or cites now say so.
 
 | Page | Date | Event | Ruling |
 |---|---|---|---|
@@ -203,23 +170,11 @@ Rows that became entries or cites now say so.
 
 ## Nov. 4, 2026: batch 3 resumed
 
-Read again from the owner's copy (Drive, the same file; downloaded through Drive's public download address, the
-connector refusing files over 10 MB): 680 PDF pages, the text layer; offset as above, checked on the page image at PDF
-481 (p. 477). Patch: `inbox/2026-11-03-b3-rusk-2.yaml` (169 ops: 12 new entries, 8 cites, 2 Checks, 147 `src` rows).
+Read again from the owner's copy (Drive, the same file; downloaded through Drive's public download address, the connector refusing files over 10 MB): 680 PDF pages, the text layer; offset as above, checked on the page image at PDF 481 (p. 477). Patch: `inbox/2026-11-03-b3-rusk-2.yaml` (169 ops: 12 new entries, 8 cites, 2 Checks, 147 `src` rows).
 
-- New entries (12), each claimed in the ledger: the McCloy–Zorin letter, Sept. 20, 1961 (the *Bulletin*, Oct. 9, 1961,
-  595, read); the Principals, summer 1962; Rusk's offer to step aside, summer 1963; Rusk and Dobrynin on the Potomac,
-  June 1963; the General Assembly's resolution on weapons in orbit, Oct. 1963; Runnymede, May 14, 1965 (the *Bulletin*,
-  June 7, 1965, 897, read); the draft NPT, Aug. 1965; Zhou's statement, May 10, 1966; Rusk and McNamara with the
-  members, late May 1967; Peggy Rusk's wedding, Sept. 1967; Montevideo, Nov. 1965; the Scali backgrounder, Feb. 1968.
-- Cites on entries in the tree: Dec. 16, 1960; Apr. 5, 1961; June 29, 1961; June 26, 1963; Nov. 1 and Dec. 24, 1964;
-  Jan. 27, 1965; July 22, 1968. Checks: Feb. 7, 1965 (Rusk away, ill); Nov. 4, 1968 (Rusk's advice on Chennault).
-- Witnesses (R35): the book has no notes. Its text is "derived" from the taped interviews with Richard Rusk, 1984 on,
-  at the University of Georgia (pp. 12, 639): registered (`x.1984.rusk-interviews-with-richard-rusk`, open: not held),
-  the edge in `sources/witnesses/by-work/rusk-as-i-saw-it-1990.yaml`, and a `via` row to it on every entry whose map
-  gives Rusk's page letters (139 in the tree, by `src` ops, and the new entries). Also registered: McCloy to Zorin,
-  Sept. 20, 1961, and Rusk's remarks at Runnymede (both read, in the *Bulletin*); the quoted Bundy memorandum of
-  Jan. 27, 1965 is an edge to its witness already registered. `inbox/witnesses/2026-11-03-b3-rusk-2.yaml`.
+- New entries (12), each claimed in the ledger: the McCloy–Zorin letter, Sept. 20, 1961 (the *Bulletin*, Oct. 9, 1961, 595, read); the Principals, summer 1962; Rusk's offer to step aside, summer 1963; Rusk and Dobrynin on the Potomac, June 1963; the General Assembly's resolution on weapons in orbit, Oct. 1963; Runnymede, May 14, 1965 (the *Bulletin*, June 7, 1965, 897, read); the draft NPT, Aug. 1965; Zhou's statement, May 10, 1966; Rusk and McNamara with the members, late May 1967; Peggy Rusk's wedding, Sept. 1967; Montevideo, Nov. 1965; the Scali backgrounder, Feb. 1968.
+- Cites on entries in the tree: Dec. 16, 1960; Apr. 5, 1961; June 29, 1961; June 26, 1963; Nov. 1 and Dec. 24, 1964; Jan. 27, 1965; July 22, 1968. Checks: Feb. 7, 1965 (Rusk away, ill); Nov. 4, 1968 (Rusk's advice on Chennault).
+- Witnesses (R35): the book has no notes. Its text is "derived" from the taped interviews with Richard Rusk, 1984 on, at the University of Georgia (pp. 12, 639): registered (`x.1984.rusk-interviews-with-richard-rusk`, open: not held), the edge in `sources/witnesses/by-work/rusk-as-i-saw-it-1990.yaml`, and a `via` row to it on every entry whose map gives Rusk's page letters (139 in the tree, by `src` ops, and the new entries). Also registered: McCloy to Zorin, Sept. 20, 1961, and Rusk's remarks at Runnymede (both read, in the *Bulletin*); the quoted Bundy memorandum of Jan. 27, 1965 is an edge to its witness already registered. `inbox/witnesses/2026-11-03-b3-rusk-2.yaml`.
 - For the merger: no new entry repeats an event of its day (each compared with the tree and the ledger).
 
 ## The press (R13)
@@ -232,16 +187,6 @@ connector refusing files over 10 MB): 680 PDF pages, the text layer; offset as a
 
 ## Leads (for `notes/leads.md`)
 
-- National: (the McCloy–Zorin statement entered Nov. 4); the Rusk–Dobrynin evening on the Potomac, June 1963, entered (Rusk 256; its day: FRUS 1961–63, VII?); Bundy to Johnson on
-  Rusk's rest, 1964 (Rusk 418; a staff memorandum: date it); the 1965 draft NPT and the 1967 safeguards offer (Rusk
-  341–44; dates); Peggy Rusk's wedding, Sept. 1967 (Rusk 581; the day, the press).
-- Foreign: Herter's MRBM offer, Dec. 1960 (Rusk 263); the Angola vote, Mar. 1961 (Rusk 274); Zhou's statement, May 10,
-  1966 (Rusk 289); Rusk to Dobrynin before the invasion, July 1968 (Rusk 361; FRUS 1964–68, XVII); Rusk at the General
-  Assembly, Oct. 1968 (Rusk 361–62); Rusk's eyes-only cable, mid-Dec. 1966 (Rusk 468); Rusk at Montevideo, Nov. 1965
-  (Rusk 571); Johnson's recognition of the Dominican junta, Dec. 1963 (Rusk 370).
-- Added Nov. 4. National: the Dean Rusk Collection's taped interviews (University of Georgia, Russell Library): whether
-  open online, and the tape for each passage the calendar cites (Rusk, 12, 639); the General Assembly resolution on weapons in orbit, Oct. 1963 (Rusk 345: the day and number);
-  the draft NPT tabled, Aug. 1965 (Rusk 341: the day; FRUS 1964–68, XI); Rusk's address to the General Assembly on the
-  Brezhnev doctrine, fall 1968 (Rusk 361–62); Peggy Rusk's wedding (*Time*, Sept. 1967: the issue). Foreign: Rusk and
-  Gromyko at Vienna, May 1965 (Rusk 358; FRUS 1964–68, XIV); Zhou Enlai's statement of May 10, 1966 (Rusk 289; its text);
-  the Montevideo incident, Nov. 1965 (Rusk 571; the day, the photograph).
+- National: (the McCloy–Zorin statement entered Nov. 4); the Rusk–Dobrynin evening on the Potomac, June 1963, entered (Rusk 256; its day: FRUS 1961–63, VII?); Bundy to Johnson on Rusk's rest, 1964 (Rusk 418; a staff memorandum: date it); the 1965 draft NPT and the 1967 safeguards offer (Rusk 341–44; dates); Peggy Rusk's wedding, Sept. 1967 (Rusk 581; the day, the press).
+- Foreign: Herter's MRBM offer, Dec. 1960 (Rusk 263); the Angola vote, Mar. 1961 (Rusk 274); Zhou's statement, May 10, 1966 (Rusk 289); Rusk to Dobrynin before the invasion, July 1968 (Rusk 361; FRUS 1964–68, XVII); Rusk at the General Assembly, Oct. 1968 (Rusk 361–62); Rusk's eyes-only cable, mid-Dec. 1966 (Rusk 468); Rusk at Montevideo, Nov. 1965 (Rusk 571); Johnson's recognition of the Dominican junta, Dec. 1963 (Rusk 370).
+- Added Nov. 4. National: the Dean Rusk Collection's taped interviews (University of Georgia, Russell Library): whether open online, and the tape for each passage the calendar cites (Rusk, 12, 639); the General Assembly resolution on weapons in orbit, Oct. 1963 (Rusk 345: the day and number); the draft NPT tabled, Aug. 1965 (Rusk 341: the day; FRUS 1964–68, XI); Rusk's address to the General Assembly on the Brezhnev doctrine, fall 1968 (Rusk 361–62); Peggy Rusk's wedding (*Time*, Sept. 1967: the issue). Foreign: Rusk and Gromyko at Vienna, May 1965 (Rusk 358; FRUS 1964–68, XIV); Zhou Enlai's statement of May 10, 1966 (Rusk 289; its text); the Montevideo incident, Nov. 1965 (Rusk 571; the day, the photograph).

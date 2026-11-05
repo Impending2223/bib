@@ -1,0 +1,30 @@
+# Sears's account that Nixon chose Agnew ten days before the convention (Chester, Hodgson and Page, 485, read off the
+# page image Nov. 5, 2026). The owner, Nov. 5, 2026: not a lead (the source is in hand); an entry, and a variant on
+# the night meetings' entry.
+patch: sears-agnew
+by: lead (Claude)
+ops:
+- add:
+    entry:
+      id: cal.1968-07.elections-1968-nixon
+      when: July, late
+      date: '1968-07'
+      thread: elections-1968-nixon
+      also: [elections-1968-miami]
+      c: Nixon settles on Agnew as his running mate, ten days before the convention, by Sears's later account to Chester, Hodgson and Page. Agnew not told; the choice left open.
+      n: '[[w.chester-american-melodrama]], 485 (Sears''s account; the authors: Agnew in Nixon''s mind since June, the night''s meetings no evidence of a change). Made public: [[w.chester-american-melodrama]] (1969). The choice announced: [[cal.1968-08-08.elections-1968-miami-2]]. Names: Nixon, Agnew, Sears. Check: the day (the account gives only "ten days before the convention," which opened Aug. 5).'
+      tags: [name:nixon-richard-m, name:agnew-spiro-t, name:sears-john-p, ok:thread-first]
+      src:
+        rows:
+          - 'w.chester-american-melodrama 485: all'
+          - 'via x.undated.sears-to-chester-hodgson-page-agnew: A'
+- edit:
+    id: cal.1968-08-08.elections-1968-miami-2
+    base: bf9e7faa
+    set:
+      n: '[[w.chester-american-melodrama]], 484–90 (the meetings and the names Nixon''s staff released; 485 also gives Sears''s account that Nixon had chosen Agnew ten days before: [[cal.1968-07.elections-1968-nixon]]); [[w.white-making-of-the-president-1969]], 250–53 (the staff of twenty-four; the leaders; the Jackie-of-Hearts Room at nine; Finch chosen and refusing; Agnew at 12:30). See [[cal.1968-08-08.elections-1968-miami]]. Names: Nixon, Thurmond, Dent, Goldwater, Nunn, Brock, Fannin, John J. Rhodes, James A. Rhodes, Jack Miller, Brownell, Finch, Graham, Rumsfeld, Baker, Volpe, Agnew, Bliss, Dirksen, Ford, Murphy, Bob Wilson, Rogers Morton, Tower, Peter O''Donnell, Lindsay, Reagan, Mitchell, Haldeman, Ellsworth, Sears.'
+      variants:
+        - unit: B
+          witness: x.undated.sears-to-chester-hodgson-page-agnew
+          reads: Nixon had decided on Agnew ten days before the convention; the night's meetings changed nothing
+          at: Chester, Hodgson and Page, 485

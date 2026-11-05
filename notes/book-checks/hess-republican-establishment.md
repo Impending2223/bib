@@ -1,28 +1,14 @@
 # Stephen Hess and David S. Broder, *The Republican Establishment* (1967): a first reading, pp. 1–70
 
-Card `w.hess-republican-establishment`. Read Oct. 29, 2026. Patch: `inbox/2026-10-29-republicans-hess-broder.yaml`
-(republicans-hess-broder). Records: `sources/cited-records/hess-republican-establishment.yaml` (none: below).
+Card `w.hess-republican-establishment`. Read Oct. 29, 2026. Patch: `inbox/2026-10-29-republicans-hess-broder.yaml` (republicans-hess-broder). Records: `sources/cited-records/hess-republican-establishment.yaml` (none: below).
 
 ## The copy, and how much of it was read
 
-The owner's copy in Drive (file id 1irnV_Id8SqRP-JSXe1U1TkRGmDnYIL7t) is the Internet Archive's scan of a Trent
-University Library copy (`republicanestabl0000hess`, a lending item, its text closed here: 401), 21 MB. The Drive
-tool will not download a file over 10 MB, and the file is not in the shared folder the other books came from, so it
-could not be fetched as a PDF (the public download link answers with Google's sign-in page). The Drive tool's text
-reading of it stops after 154,000 characters: the front matter, the Introduction, and chapters 1–3 and the start of
-chapter 4, **pp. 1–70 of 432**. Chapters 4 (the rest: the Free Society Association, the ACU, Republicans for
-Progress), 5–8 (Romney, Nixon, Percy, Reagan), 9–12 (the regions) and the conclusion are **not read**. The copy was
-not made link-readable to get round this: that is the owner's to decide (moving the file into the shared folder would
-let the next run fetch it whole).
+The owner's copy in Drive (file id 1irnV_Id8SqRP-JSXe1U1TkRGmDnYIL7t) is the Internet Archive's scan of a Trent University Library copy (`republicanestabl0000hess`, a lending item, its text closed here: 401), 21 MB. The Drive tool will not download a file over 10 MB, and the file is not in the shared folder the other books came from, so it could not be fetched as a PDF (the public download link answers with Google's sign-in page). The Drive tool's text reading of it stops after 154,000 characters: the front matter, the Introduction, and chapters 1–3 and the start of chapter 4, **pp. 1–70 of 432**. Chapters 4 (the rest: the Free Society Association, the ACU, Republicans for Progress), 5–8 (Romney, Nixon, Percy, Reagan), 9–12 (the regions) and the conclusion are **not read**. The copy was not made link-readable to get round this: that is the owner's to decide (moving the file into the shared folder would let the next run fetch it whole).
 
-Pages: the text layer carries the running heads and their folios ("38 The Republican Establishment", "THE VIEW FROM
-1625 EYE STREET 39"), so each passage is cited by the printed folio of the head above it; no offset was needed. No
-page image could be seen to check them: the folios run unbroken from 2 to 70 and each passage sits under the head the
-pagination predicts (the footnotes too). The OCR is damaged at one gutter, p. 52 (the Coordinating Committee's paper
-on Vietnam): its words are restored in the entry where the gaps are plain, and the entry carries "Check".
+Pages: the text layer carries the running heads and their folios ("38 The Republican Establishment", "THE VIEW FROM 1625 EYE STREET 39"), so each passage is cited by the printed folio of the head above it; no offset was needed. No page image could be seen to check them: the folios run unbroken from 2 to 70 and each passage sits under the head the pagination predicts (the footnotes too). The OCR is damaged at one gutter, p. 52 (the Coordinating Committee's paper on Vietnam): its words are restored in the entry where the gaps are plain, and the entry carries "Check".
 
-The book has no endnotes; its footnotes cite published works or carry the authors' reporting, and the documents it
-quotes in its text carry no note. So no record is logged (`sources/cited-records/`), and the `via` rows are none.
+The book has no endnotes; its footnotes cite published works or carry the authors' reporting, and the documents it quotes in its text carry no note. So no record is logged (`sources/cited-records/`), and the `via` rows are none.
 
 ## Citations it had
 
@@ -30,48 +16,23 @@ None in the calendar: `./bib works show` lists only its listing in Opp. II.A.
 
 ## Entries it now stands in (edits)
 
-- `cal.1964-12-04.elections-1964-us` (the governors at Denver). Hess and Broder, 1, give Smylie's opening words; 40
-  the statement's call for leaders who would practice "a policy of inclusion" (the OCR prints "inclusion; rather than
-  exclusion"), and Romney, Rockefeller and Scranton demanding Burch's removal; 40–41 Morton and Bob Wilson counselling
-  against it, Nixon the same by telephone to governors there. Added to `c` with the cite. "Smylie presses hardest" is
-  not theirs; the *Michigan Daily* stands for it.
-- `cal.1965-01-12.elections-1964` (Burch to go). Holds in part (42): the terms settled at Goldwater's home in Phoenix,
-  Bliss there with Burch and Goldwater; Bliss to be elected in January, Burch to stay until April. They give no date
-  and no day in April. A Check says so.
-- `cal.1966-12-09.elections-1968-us` (the Broadmoor). Holds for Love and Chafee (33); they make Chafee "the designated
-  successor to Love in 1968", which agrees with the entry's Dec. 1967 (Chafee chairman for 1968; `cal.1968-12.states-
-  and-cities-us`). Evans's "luxury of choice" (1) added to `c`.
-- `cal.1965-06-17.goldwater` (the Free Society Association). Holds for the founding by Goldwater and Kitchel (45),
-  "barely two months after Bliss's formal takeover". Their "rare burst of public anger" from Bliss is undated (leads).
-- `cal.1965-01-04.congress-2` (Ford over Halleck). Holds (25–27: a close fight; Laird, Goodell and Griffin behind
-  Ford). The count, 73–67, is the Record's.
-- `cal.1967-05-24.school-aid`. Hess and Broder, 28: in May 1967 the House Republicans, under Quie, tried to move the
-  act's control to the States, and lost. The Record dates it: Quie's amendment rejected by tellers, 168–197, May 24
-  (113 Cong. Rec. 13845). Added to `c`, the Record first.
-- `cal.1967-05-17.cities-and-housing` (rent supplements struck). Holds (29: "Johnson his first major setback of the
-  year").
+- `cal.1964-12-04.elections-1964-us` (the governors at Denver). Hess and Broder, 1, give Smylie's opening words; 40 the statement's call for leaders who would practice "a policy of inclusion" (the OCR prints "inclusion; rather than exclusion"), and Romney, Rockefeller and Scranton demanding Burch's removal; 40–41 Morton and Bob Wilson counselling against it, Nixon the same by telephone to governors there. Added to `c` with the cite. "Smylie presses hardest" is not theirs; the *Michigan Daily* stands for it.
+- `cal.1965-01-12.elections-1964` (Burch to go). Holds in part (42): the terms settled at Goldwater's home in Phoenix, Bliss there with Burch and Goldwater; Bliss to be elected in January, Burch to stay until April. They give no date and no day in April. A Check says so.
+- `cal.1966-12-09.elections-1968-us` (the Broadmoor). Holds for Love and Chafee (33); they make Chafee "the designated successor to Love in 1968", which agrees with the entry's Dec. 1967 (Chafee chairman for 1968; `cal.1968-12.states- and-cities-us`). Evans's "luxury of choice" (1) added to `c`.
+- `cal.1965-06-17.goldwater` (the Free Society Association). Holds for the founding by Goldwater and Kitchel (45), "barely two months after Bliss's formal takeover". Their "rare burst of public anger" from Bliss is undated (leads).
+- `cal.1965-01-04.congress-2` (Ford over Halleck). Holds (25–27: a close fight; Laird, Goodell and Griffin behind Ford). The count, 73–67, is the Record's.
+- `cal.1967-05-24.school-aid`. Hess and Broder, 28: in May 1967 the House Republicans, under Quie, tried to move the act's control to the States, and lost. The Record dates it: Quie's amendment rejected by tellers, 168–197, May 24 (113 Cong. Rec. 13845). Added to `c`, the Record first.
+- `cal.1967-05-17.cities-and-housing` (rent supplements struck). Holds (29: "Johnson his first major setback of the year").
 
 ## New entries (16)
 
-Republican Party: Feb. 1962 (the mail appeals, Miller and Warner, 46, 60); Dec. 1962 (the Ripon Society founded,
-68); Jan. 22, 1965 (Bliss elected, the Coordinating Committee approved, 42, 51, 54); June 1965 (Clay finance chairman,
-46–47); June 18, 1965 (Kelly caught at Kovac's desk, 45); Jan. 25, 1966 (the city chairmen; Cowger, 59 n.); Nov. 9,
-1966 (Bliss after the election, 54); Mar. 1967 (Huebner succeeds Saloma at Ripon, 68 n.); Apr. 28, 1967 (the
-governors' Washington office, 33 n.). In Congress: Jan. 1967 (Murphy over Scott, 27 n.); May 10, 1967 (Ford's
-"Southern Strategy" at Bowling Green: the Record, 113 Cong. Rec. 12611, as Burleson read it, and 29); May 15, 1967
-(Burleson and Ford on the floor: the Record alone). Elsewhere: June 17, 1964 (the fifty-four for Goldwater, 17;
-1964 elections); Dec. 13, 1965 (the Coordinating Committee on the war, 52; Vietnam); Mar. 1967 (Goldwater on the
-delegates, 20; 1968 elections); May 1967 (the Michigan delegation for Romney, Ford neutral, 30; 1968 elections).
-Three new persons in Opp. Part III: Kelly, William Cody and Warner, William S. (III.E); Kovac, Frank (III.F).
+Republican Party: Feb. 1962 (the mail appeals, Miller and Warner, 46, 60); Dec. 1962 (the Ripon Society founded, 68); Jan. 22, 1965 (Bliss elected, the Coordinating Committee approved, 42, 51, 54); June 1965 (Clay finance chairman, 46–47); June 18, 1965 (Kelly caught at Kovac's desk, 45); Jan. 25, 1966 (the city chairmen; Cowger, 59 n.); Nov. 9, 1966 (Bliss after the election, 54); Mar. 1967 (Huebner succeeds Saloma at Ripon, 68 n.); Apr. 28, 1967 (the governors' Washington office, 33 n.). In Congress: Jan. 1967 (Murphy over Scott, 27 n.); May 10, 1967 (Ford's "Southern Strategy" at Bowling Green: the Record, 113 Cong. Rec. 12611, as Burleson read it, and 29); May 15, 1967 (Burleson and Ford on the floor: the Record alone). Elsewhere: June 17, 1964 (the fifty-four for Goldwater, 17; 1964 elections); Dec. 13, 1965 (the Coordinating Committee on the war, 52; Vietnam); Mar. 1967 (Goldwater on the delegates, 20; 1968 elections); May 1967 (the Michigan delegation for Romney, Ford neutral, 30; 1968 elections). Three new persons in Opp. Part III: Kelly, William Cody and Warner, William S. (III.E); Kovac, Frank (III.F).
 
-The Bowling Green speech: Hess and Broder put it "a week before" the House's vote of May 17; the Record (Burleson,
-May 15: "on last Wednesday, May 10") gives the day.
+The Bowling Green speech: Hess and Broder put it "a week before" the House's vote of May 17; the Record (Burleson, May 15: "on last Wednesday, May 10") gives the day.
 
 ## Passed over
 
-Pages 1–70 only. Not listed: the background before 1960 (the convention of 1952, Dewey at Houston, Taft's memorandum,
-Bliss's Ohio years, the 1958 right-to-work fight), portraits and figures that are not events (the 1966 returns by
-city, Ford's speech counts, the finance committee's yearly totals beyond the entry, Ripon's budgets).
+Pages 1–70 only. Not listed: the background before 1960 (the convention of 1952, Dewey at Houston, Taft's memorandum, Bliss's Ohio years, the 1958 right-to-work fight), portraits and figures that are not events (the 1966 returns by city, Ford's speech counts, the finance committee's yearly totals beyond the entry, Ripon's budgets).
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -124,71 +85,25 @@ city, Ford's speech counts, the finance committee's yearly totals beyond the ent
 
 ## The rest, Oct. 29, 2026
 
-Patch: `inbox/2026-10-29-republicans-finish.yaml` (republicans-finish, with the rest of Young, *Two Suns*). Records:
-`sources/cited-records/hess-republican-establishment.yaml` (two, below).
+Patch: `inbox/2026-10-29-republicans-finish.yaml` (republicans-finish, with the rest of Young, *Two Suns*). Records: `sources/cited-records/hess-republican-establishment.yaml` (two, below).
 
-**The copy.** The owner's PDF, fetched whole this time by the brief's download line (drive.usercontent.google.com,
-the file id above) into a scratch directory outside the repo: 456 PDF pages, 21 MB, the Internet Archive's scan with
-its text layer, read with `pdftotext -layout`. Deleted when done; no copy in the repo, the Drive file's sharing not
-touched. **Read: pp. 71–420**, the rest of chapter 4 through the last chapter ("Looking for a Winner, 1968 and
-Beyond") and its schedule of the 1968 primaries (to 420); the bibliography (from 421) and the index not read. Offset: printed page = PDF page − 10 throughout, the running heads' folios checked
-at each chapter opening and every few pages (71 = PDF 81, 157 = PDF 167, 240 = PDF 250, 366 = PDF 376), the same as
-the first run's folios gave. The book has footnotes, no endnotes: they cite works and the authors' reporting but
-once, p. 157 n.*, which names two published accounts (Eisenhower's interview in the *Saturday Review*, 1966, and Nixon
-to Ted Lewis of the *New York Daily News*), logged as records `157 n.*a`, `*b` (press; found: no; read: no).
+**The copy.** The owner's PDF, fetched whole this time by the brief's download line (drive.usercontent.google.com, the file id above) into a scratch directory outside the repo: 456 PDF pages, 21 MB, the Internet Archive's scan with its text layer, read with `pdftotext -layout`. Deleted when done; no copy in the repo, the Drive file's sharing not touched. **Read: pp. 71–420**, the rest of chapter 4 through the last chapter ("Looking for a Winner, 1968 and Beyond") and its schedule of the 1968 primaries (to 420); the bibliography (from 421) and the index not read. Offset: printed page = PDF page − 10 throughout, the running heads' folios checked at each chapter opening and every few pages (71 = PDF 81, 157 = PDF 167, 240 = PDF 250, 366 = PDF 376), the same as the first run's folios gave. The book has footnotes, no endnotes: they cite works and the authors' reporting but once, p. 157 n.*, which names two published accounts (Eisenhower's interview in the *Saturday Review*, 1966, and Nixon to Ted Lewis of the *New York Daily News*), logged as records `157 n.*a`, `*b` (press; found: no; read: no).
 
-**Citations reread and rulings.** 25 existing entries now cite the book at its page, 64 new ones; the claim maps
-name the units each page grounds where it is not the whole entry (`cal.1964-12-04.elections-1964-us`: 221 for Percy,
-340 for Gavin; `cal.1966-12-09.elections-1968-us`: 277 for Reagan's press conference; `cal.1967-03-16.soviet-union`:
-87–88 and 235 for the Republicans' 23–13). Where the book and the calendar differ, a Check in the note, the entry's
-claim left as it stood:
-- `cal.1964-06-08.elections-1964`: the book has Nixon fly to Cleveland "on June 9" and the talks with Romney "that
-  Monday" (June 8).
+**Citations reread and rulings.** 25 existing entries now cite the book at its page, 64 new ones; the claim maps name the units each page grounds where it is not the whole entry (`cal.1964-12-04.elections-1964-us`: 221 for Percy, 340 for Gavin; `cal.1966-12-09.elections-1968-us`: 277 for Reagan's press conference; `cal.1967-03-16.soviet-union`: 87–88 and 235 for the Republicans' 23–13). Where the book and the calendar differ, a Check in the note, the entry's claim left as it stood:
+- `cal.1964-06-08.elections-1964`: the book has Nixon fly to Cleveland "on June 9" and the talks with Romney "that Monday" (June 8).
 - `cal.1966-03-12.vietnam-us`: the entry has Reed read Rhodes's resolution; the book (366) has Rhodes rise and read it.
 - `cal.1962-03-07.goldwater`: the book (77) gives nineteen thousand, ten thousand turned away.
 - `cal.1967-01-16.alabama-al`: the book (356) quotes "the final court of appeals."
-- `cal.1964-11-05.republican-party` (an entry another run added from Nixon's *RN* while this one read; this run's own
-  entry folded into it): the text has "two days after the election," the footnote "the November 6, 1964, press
-  conference."
-- `cal.1965-06.republican-party-2` (new): "Friends of Ronald Reagan" organized "in June, 1965" (254) and "in the winter
-  of 1965" (262).
-- `cal.1966-01-04.states-and-cities`: the day borne out (254); the entry's "Check the date" gives way to the fifteen
-  stations.
-- `cal.1967-01-20.students`, `cal.1967-05-02.republican-party`, `cal.1967-05-15.robert-kennedy`,
-  `cal.1966-07-07.vietnam-us` (Hatfield the one governor against), `cal.1960-09-10.conservative-movement`,
-  `cal.1961-11-18.goldwater`, `cal.1964-02-13.elections-1964`, `cal.1964-10-25.goldwater` and `-27` (Kitchel and
-  Baroody against the speech, by Shadegg's account), `cal.1966-11-04.elections-1966`, `cal.1967-03-23.vietnam-congress`,
-  `cal.1967-04-07.elections-1968`, `cal.1965-01-22.republican-party` (Nixon master of ceremonies; 172 bears out
-  Goldwater's thanks too), `cal.1960-10-31.elections-1960`, `cal.1964-07-19.elections-1964`,
-  `cal.1967-01.crime-and-hijacking-fl`: borne out, the page added.
+- `cal.1964-11-05.republican-party` (an entry another run added from Nixon's *RN* while this one read; this run's own entry folded into it): the text has "two days after the election," the footnote "the November 6, 1964, press conference."
+- `cal.1965-06.republican-party-2` (new): "Friends of Ronald Reagan" organized "in June, 1965" (254) and "in the winter of 1965" (262).
+- `cal.1966-01-04.states-and-cities`: the day borne out (254); the entry's "Check the date" gives way to the fifteen stations.
+- `cal.1967-01-20.students`, `cal.1967-05-02.republican-party`, `cal.1967-05-15.robert-kennedy`, `cal.1966-07-07.vietnam-us` (Hatfield the one governor against), `cal.1960-09-10.conservative-movement`, `cal.1961-11-18.goldwater`, `cal.1964-02-13.elections-1964`, `cal.1964-10-25.goldwater` and `-27` (Kitchel and Baroody against the speech, by Shadegg's account), `cal.1966-11-04.elections-1966`, `cal.1967-03-23.vietnam-congress`, `cal.1967-04-07.elections-1968`, `cal.1965-01-22.republican-party` (Nixon master of ceremonies; 172 bears out Goldwater's thanks too), `cal.1960-10-31.elections-1960`, `cal.1964-07-19.elections-1964`, `cal.1967-01.crime-and-hijacking-fl`: borne out, the page added.
 
-**New entries (64; Part III: Hall, Potter, Gladys O'Donnell, John H. Hughes, Hendricks, Charles P. Taft).** The
-parties and the members, as the owner's rule of Oct. 29 reads them: Potter's rocking chairs (Oct. 1963); the *Star* on
-Hall and Nixon (Dec. 5, 1963); the California Republican Assembly taken, the F.A.B. Society (Mar. 1964); Montauk
-(June 1964); the Committee to Support Moderate Republicans (Sept. 30, 1964, with Young); Republicans for Reagan at
-Owosso (Nov. 4, 1964); Goldwater and Romney's letters and Percy's NAM speech (Dec. 1964); Javits's background talk
-(Jan. 1965); Percy on open housing and Hughes's letter to Javits (May 14, 1965); Friends of Reagan (June 1965); Harris
-County (July 1, 1965); Rockefeller at Minneapolis (July 25, 1965); Kitchel on the Free Society Association (Aug.
-1965); Washington State's resolution on the Birch Society (Sept. 1965); the *Herald*'s Brooke story (Sept. 19, 1965);
-Morton on the Birch Society (Oct. 1, 1965); Ithaca (Oct. 26, 1965); Hendricks on Lindsay (Nov. 8, 1965); Brooke's
-announcement (Dec. 30–31, 1965); Nixon to Lawrence (Jan. 1966); Javits's inventory (Apr. 1966); McNamara's death and
-Griffin's appointment (Apr. 30, May 1966); YAF's fifth anniversary, Nixon and Percy at Jackson (May 1966); Garden City
-(May 23, 1966); Goldwater to the *Times Magazine* (June 1966); Reagan at the Press Club (June 16, 1966); Romney at Los
-Angeles on Vietnam (July 1966); Valerie Percy's murder (Sept. 18, 1966); Trenton (Nov. 1966); Percy (Nov. 9, 1966);
-Tower to Reagan (Dec. 30, 1966); the five freshmen on *Meet the Press* (Jan. 15, 1967, the program's guests from the
-Library of Congress's inventory); Goldwater on Wallace, Rhodes against his draft, Harris on a Mormon President, Romney
-at Anchorage (Feb. 1967); the Victory Gala, *Battle Line* and the *Forum* on Reagan, Goldberg and Deardourff, the Nixon
-for President Committee, McCall's letter, Goldwater in the *Post* (Mar. 1967); Percy at Concord, with Javits and Scott,
-on the bombing, on Dirksen, the Home Ownership plan (Apr. 1967); the Republican women's convention, Rockefeller to
-Agnew, Aiken, Nixon's headquarters, Spad (May 1967); the Young Republicans at Omaha, Reagan's banquet speech, Tower's
-committee, Chafee's committee, Rockefeller on favorite sons (June 1967). Each month-only entry carries "Check: the
-day" where the book gives none.
+**New entries (64; Part III: Hall, Potter, Gladys O'Donnell, John H. Hughes, Hendricks, Charles P. Taft).** The parties and the members, as the owner's rule of Oct. 29 reads them: Potter's rocking chairs (Oct. 1963); the *Star* on Hall and Nixon (Dec. 5, 1963); the California Republican Assembly taken, the F.A.B. Society (Mar. 1964); Montauk (June 1964); the Committee to Support Moderate Republicans (Sept. 30, 1964, with Young); Republicans for Reagan at Owosso (Nov. 4, 1964); Goldwater and Romney's letters and Percy's NAM speech (Dec. 1964); Javits's background talk (Jan. 1965); Percy on open housing and Hughes's letter to Javits (May 14, 1965); Friends of Reagan (June 1965); Harris County (July 1, 1965); Rockefeller at Minneapolis (July 25, 1965); Kitchel on the Free Society Association (Aug. 1965); Washington State's resolution on the Birch Society (Sept. 1965); the *Herald*'s Brooke story (Sept. 19, 1965); Morton on the Birch Society (Oct. 1, 1965); Ithaca (Oct. 26, 1965); Hendricks on Lindsay (Nov. 8, 1965); Brooke's announcement (Dec. 30–31, 1965); Nixon to Lawrence (Jan. 1966); Javits's inventory (Apr. 1966); McNamara's death and Griffin's appointment (Apr. 30, May 1966); YAF's fifth anniversary, Nixon and Percy at Jackson (May 1966); Garden City (May 23, 1966); Goldwater to the *Times Magazine* (June 1966); Reagan at the Press Club (June 16, 1966); Romney at Los Angeles on Vietnam (July 1966); Valerie Percy's murder (Sept. 18, 1966); Trenton (Nov. 1966); Percy (Nov. 9, 1966); Tower to Reagan (Dec. 30, 1966); the five freshmen on *Meet the Press* (Jan. 15, 1967, the program's guests from the Library of Congress's inventory); Goldwater on Wallace, Rhodes against his draft, Harris on a Mormon President, Romney at Anchorage (Feb. 1967); the Victory Gala, *Battle Line* and the *Forum* on Reagan, Goldberg and Deardourff, the Nixon for President Committee, McCall's letter, Goldwater in the *Post* (Mar. 1967); Percy at Concord, with Javits and Scott, on the bombing, on Dirksen, the Home Ownership plan (Apr. 1967); the Republican women's convention, Rockefeller to Agnew, Aiken, Nixon's headquarters, Spad (May 1967); the Young Republicans at Omaha, Reagan's banquet speech, Tower's committee, Chafee's committee, Rockefeller on favorite sons (June 1967). Each month-only entry carries "Check: the day" where the book gives none.
 
 ## Passed over (pp. 71–420)
 
-How made: every dated event the pages treat within the brief and its span, listed as read, page by page; not listed,
-the background before 1960, the portraits that are not events, the returns and counts by State or city, and the
-quoted press after the fact.
+How made: every dated event the pages treat within the brief and its span, listed as read, page by page; not listed, the background before 1960, the portraits that are not events, the returns and counts by State or city, and the quoted press after the fact.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -221,6 +136,4 @@ quoted press after the fact.
 
 ## Leads (in notes/leads.md, National, the Hess and Broder line)
 
-The Wednesday Group's founding; Scott's California speech; the House Republicans' "State of the Union" of Jan. 1967;
-Nixon's letter on extremism, Aug. 1964; Reagan on *Meet the Press* on Rumford; Florida's special legislative election,
-Apr. 1967; Wallace to Knap; Hatfield's "Prelude to Manila" and Harvard speech; Reagan's 1967 budget and tuition acts.
+The Wednesday Group's founding; Scott's California speech; the House Republicans' "State of the Union" of Jan. 1967; Nixon's letter on extremism, Aug. 1964; Reagan on *Meet the Press* on Rumford; Florida's special legislative election, Apr. 1967; Wallace to Knap; Hatfield's "Prelude to Manila" and Harvard speech; Reagan's 1967 budget and tuition acts.

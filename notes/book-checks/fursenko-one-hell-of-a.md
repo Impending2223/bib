@@ -1,83 +1,38 @@
 # Aleksandr Fursenko and Timothy Naftali, *"One Hell of a Gamble"* (1997): the readings
 
-Card `w.fursenko-one-hell-of-a`. First read Oct. 29, 2026 (batch 3, patch `b3-fursenko-gamble`, merged Nov. 3, 2026,
-the patch archived as `inbox/merged/2026-10-29-b3-fursenko-gamble.yaml`): pp. 38–353, entries and cites from 1960 to
-the end of 1962, with the records it cites as edges in `sources/witnesses/by-work/fursenko-one-hell-of-a.yaml` (155). No
-book-check was written then; this one records the state.
+Card `w.fursenko-one-hell-of-a`. First read Oct. 29, 2026 (batch 3, patch `b3-fursenko-gamble`, merged Nov. 3, 2026, the patch archived as `inbox/merged/2026-10-29-b3-fursenko-gamble.yaml`): pp. 38–353, entries and cites from 1960 to the end of 1962, with the records it cites as edges in `sources/witnesses/by-work/fursenko-one-hell-of-a.yaml` (155). No book-check was written then; this one records the state.
 
 ## The resumed reading, Nov. 3–4, 2026
 
-Nothing further of this book was read: the run went to *Khrushchev's Cold War*, which retells 1960–62 from a wider
-archive, and to Dobrynin. No patch `b3-fursenko-gamble-2` was written; the edges file is unchanged. The owner's copy in
-Drive (17DBFzR13FQP4qRmxOtYcw_rf32mKqG9v), 456 PDF pages, was downloaded, checked whole, and deleted.
+Nothing further of this book was read: the run went to *Khrushchev's Cold War*, which retells 1960–62 from a wider archive, and to Dobrynin. No patch `b3-fursenko-gamble-2` was written; the edges file is unchanged. The owner's copy in Drive (17DBFzR13FQP4qRmxOtYcw_rf32mKqG9v), 456 PDF pages, was downloaded, checked whole, and deleted.
 
 ## The third run, Nov. 4, 2026: pp. 1–37, 354–55, the notes, and Passed over for the whole book
 
-Batch 3, group soviet, resumed. Patch: `inbox/2026-11-04-b3-fursenko-gamble-2.yaml` (b3-fursenko-gamble-2; 139 ops: 124
-entries added, each claimed in the ledger; 8 cites with 4 claim-map rows; 3 Checks). Witnesses:
-`inbox/witnesses/2026-11-04-b3-fursenko-gamble-2.yaml` (104 rows: the archival records the notes give for the new
-entries, among them the SVR's Havana and Mexico City files, the Presidium's protocols, the Czech and American files,
-the authors' interviews). Edges: 149 appended to `sources/witnesses/by-work/fursenko-one-hell-of-a.yaml` under "#
-second run" (page and note to each witness; ten to witnesses *Khrushchev's Cold War*'s reader registered, Alekseyev's
-cables of Feb. 7 and Mar. 8, 1960, Shelepin's of June 24, 1960, Castro's letter of Sept. 4, 1961, Goodwin's of Aug.
-22, 1961, Alekseyev's of Oct. 29, 1962, among them). `./bib patch-check`: 0 errors (49 warnings, each a "one event?"
-flag on a day its thread already holds; every pair read against the tree's entry: all distinct acts). `./bib check`
-after: 0 errors.
+Batch 3, group soviet, resumed. Patch: `inbox/2026-11-04-b3-fursenko-gamble-2.yaml` (b3-fursenko-gamble-2; 139 ops: 124 entries added, each claimed in the ledger; 8 cites with 4 claim-map rows; 3 Checks). Witnesses: `inbox/witnesses/2026-11-04-b3-fursenko-gamble-2.yaml` (104 rows: the archival records the notes give for the new entries, among them the SVR's Havana and Mexico City files, the Presidium's protocols, the Czech and American files, the authors' interviews). Edges: 149 appended to `sources/witnesses/by-work/fursenko-one-hell-of-a.yaml` under "# second run" (page and note to each witness; ten to witnesses *Khrushchev's Cold War*'s reader registered, Alekseyev's cables of Feb. 7 and Mar. 8, 1960, Shelepin's of June 24, 1960, Castro's letter of Sept. 4, 1961, Goodwin's of Aug. 22, 1961, Alekseyev's of Oct. 29, 1962, among them). `./bib patch-check`: 0 errors (49 warnings, each a "one event?" flag on a day its thread already holds; every pair read against the tree's entry: all distinct acts). `./bib check` after: 0 errors.
 
 ### The copy
 
-The owner's copy in Drive (17DBFzR13FQP4qRmxOtYcw_rf32mKqG9v), the Internet Archive's scan
-(onehellofgamblek00furs), 456 PDF pages with a ClearScan text layer, fetched through drive.usercontent.google.com
-(sharing untouched), read with `pdftotext -layout` page by page. **Printed page = PDF page − 16 through p. 180 (PDF
-196); plates PDF 197–212; printed page = PDF page − 32 from p. 181 (PDF 213)**; the notes p. 356 = PDF 388 to p. 404.
-Found from the running heads on every page; pp. 36 and 304 checked by eye on their images. The PDF, its text and
-images deleted after the run.
+The owner's copy in Drive (17DBFzR13FQP4qRmxOtYcw_rf32mKqG9v), the Internet Archive's scan (onehellofgamblek00furs), 456 PDF pages with a ClearScan text layer, fetched through drive.usercontent.google.com (sharing untouched), read with `pdftotext -layout` page by page. **Printed page = PDF page − 16 through p. 180 (PDF 196); plates PDF 197–212; printed page = PDF page − 32 from p. 181 (PDF 213)**; the notes p. 356 = PDF 388 to p. 404. Found from the running heads on every page; pp. 36 and 304 checked by eye on their images. The PDF, its text and images deleted after the run.
 
 ### What was read
 
-- pp. 1–37 (chs. 1–2 and the opening of ch. 3) and their notes: chs. 1–2 are 1958–59 (out of the brief); ch. 3's
-  January–February 1960 entered (Aragonés, the KGB's Mexico City reports, the Presidium's Protocol 260 on the Czech
-  rifles, Shelepin's arrangements for Mikoyan's security, Soto, the reinvitation).
+- pp. 1–37 (chs. 1–2 and the opening of ch. 3) and their notes: chs. 1–2 are 1958–59 (out of the brief); ch. 3's January–February 1960 entered (Aragonés, the KGB's Mexico City reports, the Presidium's Protocol 260 on the Czech rifles, Shelepin's arrangements for Mikoyan's security, Soto, the reinvitation).
 - pp. 354–55 and their notes: Polyansky's indictment, entered as its own document (Oct. 13, 1964).
-- pp. 38–353 again, for Passed over: every sentence bearing a month, a year of the span or a relative day ("the next
-  day," "that evening") drawn out page by page by script and set against the cites the tree already makes to the work
-  (167 entries, 210 pages) and the tree and ledger on the day (`./bib ledger find`, `./bib find`); the pages that held
-  an uncited dated event read whole, with their notes. Each event: cited where the tree holds it, entered where it
-  does not, or a row below.
+- pp. 38–353 again, for Passed over: every sentence bearing a month, a year of the span or a relative day ("the next day," "that evening") drawn out page by page by script and set against the cites the tree already makes to the work (167 entries, 210 pages) and the tree and ledger on the day (`./bib ledger find`, `./bib find`); the pages that held an uncited dated event read whole, with their notes. Each event: cited where the tree holds it, entered where it does not, or a row below.
 
 ### What was entered
 
-The Soviet–Cuban record of 1960–64 the first run passed by: the KGB's reports and the Presidium's decisions on Cuba
-(Jan.–Mar. 1960; the honoraria; the arms of Mar.–June 1960; the war scare of Oct. 1960; the second scare, Dec. 1960;
-the KGB in Cuban intelligence after the Bay of Pigs; Condor and Candela, June–July 1961; the arms freeze and Alekseyev's
-reports, Sept.–Dec. 1961; Mar.–May 1962: the KGB's study, Feklisov's cables, the Escalante affair, Valdés in Moscow,
-Alekseyev made ambassador, Gusev, Castro's requests of May 18); Rashidov and Biryuzov in Havana, May 29–30, 1962;
-Novocherkassk; the Jupiters report of July 17; the commandant in Berlin abolished (FRUS XV, doc. 100, read); the crisis's
-Soviet and Cuban acts not yet entries (Pliyev's and Castro's orders of Oct. 26, the Presidium's message of Oct. 28 with
-Scali's proposal, Malinovsky's orders on the warheads, Castro and Mikoyan of Nov. 15, the plenum of Nov. 23); Castro's
-declaration of Apr. 16, 1961 and the Declaration of Havana; the Kennedys and Bolshakov (Holeman, Apr. 29–30, 1961);
-Sagatelyan and Feklisov on the test ban; 1963–64 (Rusk and Dobrynin, Feb. 9, 1963; Castro to Murmansk; Castro on the
-assassination; the KGB's reports on Johnson; Bartlett; Pearson; Alekseyev's warning; Polyansky).
+The Soviet–Cuban record of 1960–64 the first run passed by: the KGB's reports and the Presidium's decisions on Cuba (Jan.–Mar. 1960; the honoraria; the arms of Mar.–June 1960; the war scare of Oct. 1960; the second scare, Dec. 1960; the KGB in Cuban intelligence after the Bay of Pigs; Condor and Candela, June–July 1961; the arms freeze and Alekseyev's reports, Sept.–Dec. 1961; Mar.–May 1962: the KGB's study, Feklisov's cables, the Escalante affair, Valdés in Moscow, Alekseyev made ambassador, Gusev, Castro's requests of May 18); Rashidov and Biryuzov in Havana, May 29–30, 1962; Novocherkassk; the Jupiters report of July 17; the commandant in Berlin abolished (FRUS XV, doc. 100, read); the crisis's Soviet and Cuban acts not yet entries (Pliyev's and Castro's orders of Oct. 26, the Presidium's message of Oct. 28 with Scali's proposal, Malinovsky's orders on the warheads, Castro and Mikoyan of Nov. 15, the plenum of Nov. 23); Castro's declaration of Apr. 16, 1961 and the Declaration of Havana; the Kennedys and Bolshakov (Holeman, Apr. 29–30, 1961); Sagatelyan and Feklisov on the test ban; 1963–64 (Rusk and Dobrynin, Feb. 9, 1963; Castro to Murmansk; Castro on the assassination; the KGB's reports on Johnson; Bartlett; Pearson; Alekseyev's warning; Polyansky).
 
 ### Cites and Checks to entries in the tree (8)
 
-Held, pinned: cal.1960-02-07.cuba (38: the dinner of Feb. 3), cal.1960-03-06.cuba (41–42, 46), cal.1960-06-24.cuba
-(48–49), cal.1961-09-04.cuba (139, unit A), cal.1961-09-20.cuba (139–40, unit A: the Council of Ministers' approval, not
-the Presidium's), cal.1961-08-17.latin-america (142, unit B), cal.1961-12-02.cuba (151), cal.1962-03-09.intelligence
-(155). Checks: cal.1960-03-14.cuba (the Special Group's meeting dated Mar. 15, 43); cal.1961-08-17.latin-america (the
-Argentines' cornering of Goodwin at a birthday party, Aug. 16, 142); cal.1961-12-02.cuba (the declaration dated Dec. 1,
-151).
+Held, pinned: cal.1960-02-07.cuba (38: the dinner of Feb. 3), cal.1960-03-06.cuba (41–42, 46), cal.1960-06-24.cuba (48–49), cal.1961-09-04.cuba (139, unit A), cal.1961-09-20.cuba (139–40, unit A: the Council of Ministers' approval, not the Presidium's), cal.1961-08-17.latin-america (142, unit B), cal.1961-12-02.cuba (151), cal.1962-03-09.intelligence (155). Checks: cal.1960-03-14.cuba (the Special Group's meeting dated Mar. 15, 43); cal.1961-08-17.latin-america (the Argentines' cornering of Goodwin at a birthday party, Aug. 16, 142); cal.1961-12-02.cuba (the declaration dated Dec. 1, 151).
 
-Disagreements within the new entries, each a Check in its note: the Presidium's first message dated Mar. 15 in the text
-(44) and Mar. 12 in the note and at 45; Shelepin's request of Apr. 25, 1961 in the text, Apr. 26 in the note (98); the
-honorarium report dated Mar. 7, 1960, before the lunch of Mar. 6 was reported (45); Moscow to State "Oct. 25, 1950"
-(66 n.42); the Taiwanese U-2 shot down Sept. 8, 1962 (214), a lead.
+Disagreements within the new entries, each a Check in its note: the Presidium's first message dated Mar. 15 in the text (44) and Mar. 12 in the note and at 45; Shelepin's request of Apr. 25, 1961 in the text, Apr. 26 in the note (98); the honorarium report dated Mar. 7, 1960, before the lunch of Mar. 6 was reported (45); Moscow to State "Oct. 25, 1950" (66 n.42); the Taiwanese U-2 shot down Sept. 8, 1962 (214), a lead.
 
 ## Passed over
 
-How made: as above, "What was read." Every dated event within the span that the book treats and the patch neither
-entered nor cited, a row each; an event in the calendar already says so (R44: not passed over, but named so the owner
-can see where it went). Rows for pp. 38–353 that the first run's entries or cites already cover are not repeated.
+How made: as above, "What was read." Every dated event within the span that the book treats and the patch neither entered nor cited, a row each; an event in the calendar already says so (R44: not passed over, but named so the owner can see where it went). Rows for pp. 38–353 that the first run's entries or cites already cover are not repeated.
 
 | page | date | event | why |
 |---|---|---|---|
@@ -259,27 +214,15 @@ The work cites the papers mostly for public statements; no day's coverage is giv
 ## Leads
 
 Foreign:
-- The rows above marked "lead," each with its page and note; chiefly the KGB's and Presidium's acts the work dates only
-  to a month or a season (Castro's talks with Alekseyev of May 1960 and Feb. and Mar. 1962; Castro's purge of the
-  security services, Aug. 1960; the GRU in Havana, fall 1961; Moscow's monitoring of the landing, Apr. 15–18, 1961, from
-  Alekseyev's cables of Apr. 17 and 18, file 88631, vol. 3, 169–71).
+- The rows above marked "lead," each with its page and note; chiefly the KGB's and Presidium's acts the work dates only to a month or a season (Castro's talks with Alekseyev of May 1960 and Feb. and Mar. 1962; Castro's purge of the security services, Aug. 1960; the GRU in Havana, fall 1961; Moscow's monitoring of the landing, Apr. 15–18, 1961, from Alekseyev's cables of Apr. 17 and 18, file 88631, vol. 3, 169–71).
 - The Second Declaration of Havana (Feb. 4, 1962, to check), quoted at 168: not in the calendar.
 - A Taiwanese U-2 shot down over China, Sept. 8, 1962 (214): not in the calendar.
-- Barghoorn's arrest, Oct. 31, 1963 (344): to check against the calendar.
-National:
-- Schlesinger to Kennedy, May 3, 1961 ("Kennedy has lost his magic," POF, 102 n.2); U. A. Johnson's memorandum of
-  Mar. 16, 1962 (157 n.26); the six low-level flights authorized Oct. 23, 1962 (250); the CIA's halt of Mongoose, Oct.
-  28, 1962, 4:30 p.m. (Harvey's chronology of Nov. 14, 1962, 288 n.98); the Marine battalion from El Toro, Oct. 21, 1962
-  (244): to enter from their records.
-- Kennedy's Cuba economy request and Goodwin's economic-warfare proposal, Sept. 1961 (143 n.47–48): the days.
-The press:
-- Frank Holeman (*New York Daily News*, Nixon's beat and the Bolshakov channel; the work treats him at 110–12, 249,
-  275): a Part III entry; he is named in the new entries of Apr. 29–30, 1961, but not in Names.
+- Barghoorn's arrest, Oct. 31, 1963 (344): to check against the calendar. National:
+- Schlesinger to Kennedy, May 3, 1961 ("Kennedy has lost his magic," POF, 102 n.2); U. A. Johnson's memorandum of Mar. 16, 1962 (157 n.26); the six low-level flights authorized Oct. 23, 1962 (250); the CIA's halt of Mongoose, Oct. 28, 1962, 4:30 p.m. (Harvey's chronology of Nov. 14, 1962, 288 n.98); the Marine battalion from El Toro, Oct. 21, 1962 (244): to enter from their records.
+- Kennedy's Cuba economy request and Goodwin's economic-warfare proposal, Sept. 1961 (143 n.47–48): the days. The press:
+- Frank Holeman (*New York Daily News*, Nixon's beat and the Bolshakov channel; the work treats him at 110–12, 249, 275): a Part III entry; he is named in the new entries of Apr. 29–30, 1961, but not in Names.
 - Paul W. Ward (*Baltimore Sun*?), his article of early December 1963 on a right-wing plot (348): the day and paper.
 
 ## What remains unread
 
-Nothing of the book within the span: pp. 1–404 read (the bibliography and index not). The archival records behind it
-stand behind "To check:" (none reachable here). The Passed over list for pp. 38–353 rests on the dated sentences drawn
-out by script and the pages they flagged read whole; a page whose events carry no date word was read only where a
-flagged sentence sent the reader to it.
+Nothing of the book within the span: pp. 1–404 read (the bibliography and index not). The archival records behind it stand behind "To check:" (none reachable here). The Passed over list for pp. 38–353 rests on the dated sentences drawn out by script and the pages they flagged read whole; a page whose events carry no date word was read only where a flagged sentence sent the reader to it.

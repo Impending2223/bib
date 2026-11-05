@@ -1,51 +1,16 @@
 # *Congressional Quarterly Weekly Report*, July 26, 1968 (vol. 26, no. 30): a reading against the calendar
 
-Card `w.cq-weekly-report`. Cited by issue date and printed page: "[[w.cq-weekly-report]], July 26, 1968, 1939"; no
-link (no open copy). Read Oct. 31, 2026, from the owner's scan in two parts, OCR'd a page a file
-(`scratchpad/cq68/pg/n68-30-NNN.txt`, `n68-30a-NNN.txt`, 150 dpi images beside them). Part 1, "Elections of 1968",
-pp. 1856–1937: printed = PDF + 1852 from PDF 6 (PDF 2–5 the party line-up and the first pages, scanned twice),
-checked on the running feet of pp. 1857, 1872, 1937. Part 2, the week's issue, pp. 1938–2014: printed = PDF + 1936
-to PDF 44 (p. 1980); PDF 45–47 repeat pp. 1980–81, and PDF 58–59 pp. 1990–91 (scanned twice), so pp. 1982–1989 are
-PDF + 1934 and pp. 1992–2014 PDF + 1932; checked on the feet of pp. 1939, 1947, 1951, 1979, 1994, 2002, 2005.
-Checked against the page images: p. 1939 (the gun votes; the image added McClory's licensing amendment, 84–179, July
-23, which the OCR's page break hid) and p. 1994 (the Presidential Scoreboard, every figure). The prose's figures
-and quotations from the OCR, which reads the prose cleanly; the vote tables (pp. 2009–14) only for their
-descriptions of each roll call.
+Card `w.cq-weekly-report`. Cited by issue date and printed page: "[[w.cq-weekly-report]], July 26, 1968, 1939"; no link (no open copy). Read Oct. 31, 2026, from the owner's scan in two parts, OCR'd a page a file (`scratchpad/cq68/pg/n68-30-NNN.txt`, `n68-30a-NNN.txt`, 150 dpi images beside them). Part 1, "Elections of 1968", pp. 1856–1937: printed = PDF + 1852 from PDF 6 (PDF 2–5 the party line-up and the first pages, scanned twice), checked on the running feet of pp. 1857, 1872, 1937. Part 2, the week's issue, pp. 1938–2014: printed = PDF + 1936 to PDF 44 (p. 1980); PDF 45–47 repeat pp. 1980–81, and PDF 58–59 pp. 1990–91 (scanned twice), so pp. 1982–1989 are PDF + 1934 and pp. 1992–2014 PDF + 1932; checked on the feet of pp. 1939, 1947, 1951, 1979, 1994, 2002, 2005. Checked against the page images: p. 1939 (the gun votes; the image added McClory's licensing amendment, 84–179, July 23, which the OCR's page break hid) and p. 1994 (the Presidential Scoreboard, every figure). The prose's figures and quotations from the OCR, which reads the prose cleanly; the vote tables (pp. 2009–14) only for their descriptions of each roll call.
 
-What it is: Part 2, the week's floor and committee action, the surcharge's lobbying retold, around the Capitol,
-the Republican delegations State by State (pp. 1978–87, 2000), politics (pp. 1988–2000), Missouri's redistricting
-and primaries (pp. 2001–04), the Fortas hearings (p. 2005), the Honolulu statement and the President's statements
-(pp. 2007–08), the roll calls. Part 1, the outlook for 1968 State by State, the Senators up for re-election, the
-election calendar: mostly forecast.
+What it is: Part 2, the week's floor and committee action, the surcharge's lobbying retold, around the Capitol, the Republican delegations State by State (pp. 1978–87, 2000), politics (pp. 1988–2000), Missouri's redistricting and primaries (pp. 2001–04), the Fortas hearings (p. 2005), the Honolulu statement and the President's statements (pp. 2007–08), the roll calls. Part 1, the outlook for 1968 State by State, the Senators up for re-election, the election calendar: mostly forecast.
 
-Patch: `inbox/2026-10-31-cq-1968-07-26.yaml` (16 cites, 2 checks, 153 new entries, each claimed in the ledger).
-patch-check: 0 errors; 63 warnings, each a same-day, same-thread pair of distinct events (the campaign's days).
-Records: none. The *Weekly Report* has no notes; it names its sources in the text (the *Wall Street Journal*, UPI,
-the *New York Times*, *Life*, the Washington Post's counts): no `sources/cited-records/` file. Primary records read:
-*Preisler v. Secretary of State of Missouri*, 279 F. Supp. 952 (W.D. Mo. 1967), on case.law (its decree, 969–70;
-its headnote, probable jurisdiction noted Mar. 4, 1968, 88 S. Ct. 1053); the Public Papers' text of the Honolulu
-statement (sources/ppp-text). Not reached: Missouri's act of 1967 (Laws of Missouri), the Supreme Court's order.
-The Missouri table on p. 2002 (the 1966 vote by new district) left to the orchestrator, as assigned.
+Patch: `inbox/2026-10-31-cq-1968-07-26.yaml` (16 cites, 2 checks, 153 new entries, each claimed in the ledger). patch-check: 0 errors; 63 warnings, each a same-day, same-thread pair of distinct events (the campaign's days). Records: none. The *Weekly Report* has no notes; it names its sources in the text (the *Wall Street Journal*, UPI, the *New York Times*, *Life*, the Washington Post's counts): no `sources/cited-records/` file. Primary records read: *Preisler v. Secretary of State of Missouri*, 279 F. Supp. 952 (W.D. Mo. 1967), on case.law (its decree, 969–70; its headnote, probable jurisdiction noted Mar. 4, 1968, 88 S. Ct. 1053); the Public Papers' text of the Honolulu statement (sources/ppp-text). Not reached: Missouri's act of 1967 (Laws of Missouri), the Supreme Court's order. The Missouri table on p. 2002 (the 1966 vote by new district) left to the orchestrator, as assigned.
 
 ## Checked against the page images (Oct. 31, 2026, second pass)
 
-At the orchestrator's request every new entry and cite in the patch was held to the page image, not the OCR: each
-cited page's running foot read on the image (72 pages: pp. 1861, 1862, 1870, 1871, 1873, 1875–77, 1882, 1887,
-1939–42, 1944–47, 1951–68, 1974–80, 1982–2000, 2002–03, 2005, 2007, 2009–14); and each entry's figures, dates,
-names, votes and quotations read on crops of the image paragraphs that carry them (the crops found by a fresh OCR of
-the images with word boxes, then read by eye). The scan's double pages: PDF 45–47 repeat pp. 1980–81 and PDF 58–59
-pp. 1990–91; PDF 49 is p. 1983 whole, its running head "Republican Delegations - 6" set over the right column only,
-so the Mississippi, Minnesota and Missouri passages and Nixon's of June 26 are p. 1983.
+At the orchestrator's request every new entry and cite in the patch was held to the page image, not the OCR: each cited page's running foot read on the image (72 pages: pp. 1861, 1862, 1870, 1871, 1873, 1875–77, 1882, 1887, 1939–42, 1944–47, 1951–68, 1974–80, 1982–2000, 2002–03, 2005, 2007, 2009–14); and each entry's figures, dates, names, votes and quotations read on crops of the image paragraphs that carry them (the crops found by a fresh OCR of the images with word boxes, then read by eye). The scan's double pages: PDF 45–47 repeat pp. 1980–81 and PDF 58–59 pp. 1990–91; PDF 49 is p. 1983 whole, its running head "Republican Delegations - 6" set over the right column only, so the Mississippi, Minnesota and Missouri passages and Nixon's of June 26 are p. 1983.
 
-Corrected (33): the pages of 31 cites, most of them a page off where the OCR had run a passage onto the next file
-(Around the Capitol: Clifford in Saigon, the recess, the silver dollars, Gardner are p. 1977, not 1976; the politics
-pages: Gabrielson and Reagan's trip p. 1989, the platform committee p. 1993, Lindsay and the governors' resolution p.
-1995, Pedersen and Hawkins p. 1997; the delegations: Kentucky, Louisiana, Massachusetts p. 1982; Delaware, the Ripon
-Society p. 1979; the Callaway–Nixon exchange p. 1983); the gun bill of July 23 (McClory's licensing amendment,
-84–179, added from the image of p. 1939; Horton's amendment p. 1941); Alabama's Republican convention (Hooper's
-nomination and Martin's election June 29, the second day, not the convention's span). Nothing dropped: every
-claim was found on its page image. The Presidential Scoreboard (p. 1994) and the Honolulu transcript (p. 2007,
-675,000) as before.
+Corrected (33): the pages of 31 cites, most of them a page off where the OCR had run a passage onto the next file (Around the Capitol: Clifford in Saigon, the recess, the silver dollars, Gardner are p. 1977, not 1976; the politics pages: Gabrielson and Reagan's trip p. 1989, the platform committee p. 1993, Lindsay and the governors' resolution p. 1995, Pedersen and Hawkins p. 1997; the delegations: Kentucky, Louisiana, Massachusetts p. 1982; Delaware, the Ripon Society p. 1979; the Callaway–Nixon exchange p. 1983); the gun bill of July 23 (McClory's licensing amendment, 84–179, added from the image of p. 1939; Horton's amendment p. 1941); Alabama's Republican convention (Hooper's nomination and Martin's election June 29, the second day, not the convention's span). Nothing dropped: every claim was found on its page image. The Presidential Scoreboard (p. 1994) and the Honolulu transcript (p. 2007, 675,000) as before.
 
 ## Cites added to entries already in the calendar
 
@@ -233,8 +198,7 @@ claim was found on its page image. The Presidential Scoreboard (p. 1994) and the
 
 ## Passed over
 
-Made by reading Part 2 page by page (the floor action pp. 1939–62 by its sections and dated sentences), and Part 1
-by its dated sentences only; each dated event not entered is a row.
+Made by reading Part 2 page by page (the floor action pp. 1939–62 by its sections and dated sentences), and Part 1 by its dated sentences only; each dated event not entered is a row.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -343,13 +307,11 @@ by its dated sentences only; each dated event not entered is a row.
 ## Leads
 
 National
-- Part 1 (pp. 1856–1937) to be read in full: the State-by-State outlook and the Senators' biographies date many
-  events of 1968 not taken here (rows above).
+- Part 1 (pp. 1856–1937) to be read in full: the State-by-State outlook and the Senators' biographies date many events of 1968 not taken here (rows above).
 - The surcharge retrospective (pp. 1969–74): cites to the thread Economy: Surcharge, and the steps it may lack (row).
 - The Commission on Executive, Legislative and Judicial Salaries, named June 3, 1968 (p. 1945).
 - Columnists: none named.
-- The Missouri act of Aug. 22, 1967 (Laws of Missouri, Missouri Digital Heritage) and the Supreme Court's order of
-  Mar. 4, 1968 (U.S. Reports), for the entries' primary records.
+- The Missouri act of Aug. 22, 1967 (Laws of Missouri, Missouri Digital Heritage) and the Supreme Court's order of Mar. 4, 1968 (U.S. Reports), for the entries' primary records.
 
 States and cities
 - Iowa, Apr. 17: CQ calls the body that chose the delegation the State committee, then the State convention (p. 1980).

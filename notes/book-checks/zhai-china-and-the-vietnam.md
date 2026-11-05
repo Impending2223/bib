@@ -1,10 +1,6 @@
 # Qiang Zhai, *China and the Vietnam Wars, 1950–1975* (2000): the calendar's citations held up
 
-Card `w.zhai-china-and-the-vietnam`. Read Oct. 29, 2026, from the owner's copy (UNC Press; a scan with a ClearScan text
-layer, 321 PDF pages; printed page = PDF page − 17 throughout, text pp. 1–222, notes 223–66, bibliography 267–94; the
-folios checked in the text layer's running heads on every page and against the page image at p. 138). Read for
-1960–Jan. 20, 1969: chapter 3 from p. 82 (1960–61), chapters 4–7 (pp. 92–175), chapter 8 to p. 186, and their notes
-(pp. 236–58). Patch: `inbox/2026-10-29-book-zhai.yaml` (book-zhai). Records: `sources/cited-records/zhai-china-and-the-vietnam.yaml`.
+Card `w.zhai-china-and-the-vietnam`. Read Oct. 29, 2026, from the owner's copy (UNC Press; a scan with a ClearScan text layer, 321 PDF pages; printed page = PDF page − 17 throughout, text pp. 1–222, notes 223–66, bibliography 267–94; the folios checked in the text layer's running heads on every page and against the page image at p. 138). Read for 1960–Jan. 20, 1969: chapter 3 from p. 82 (1960–61), chapters 4–7 (pp. 92–175), chapter 8 to p. 186, and their notes (pp. 236–58). Patch: `inbox/2026-10-29-book-zhai.yaml` (book-zhai). Records: `sources/cited-records/zhai-china-and-the-vietnam.yaml`.
 
 ## The citations it had
 
@@ -15,97 +11,49 @@ None in the calendar. The book was listed only in Viet. II.E.3 (`vn.zhai-china-a
 Each takes Zhai's page in the run of works read, with a parenthetical where it bears out part, and a row in its map.
 
 - `cal.1961-05-16.laos`: 101 (the first session, May 16; Chen Yi spoke first for China). A.
-- `cal.1962-05-06.laos`: 104 (Nam Tha falls, May 6). A. Zhai adds the Kunming Military Region's supply train to the
-  Pathet Lao (2,149 soldiers, 1,772 workers, 203 trucks), from a Chinese article; not put in `c` (no trace in Washington).
+- `cal.1962-05-06.laos`: 104 (Nam Tha falls, May 6). A. Zhai adds the Kunming Military Region's supply train to the Pathet Lao (2,149 soldiers, 1,772 workers, 203 trucks), from a Chinese article; not put in `c` (no trace in Washington).
 - `cal.1962-07-23.laos`: 105 (the fourteen sign July 23). All.
-- `cal.1963-05-12.china`: 117 (Liu Shaoqi's visit, in May; no day). A. Liu's words in `c` are not in Zhai (his are
-  "you can regard China as your rear," 117, and the rally speech against peaceful coexistence, 124).
-- `cal.1964-08-02.vietnam`: 132 (Lê Duẩn to Mao, Aug. 13: the first attack the local commander's decision). B. Zhai's
-  note 11 gives "77 Conversations," 74; the series' copy of the working paper has nothing of Aug. 13 at 74, but its
-  editors' note 117 at 72 summarizes the conversation in Zhai's words. That summary, read, is cited too, linked, for B.
-- `cal.1964-08-05.china`: 132 (the cable of Aug. 5; the readiness order "shortly after," not dated). A–C. Zhai does not
-  mention the government's statement of Aug. 5 (D); the entry's Check on its day stands.
-- `cal.1964-11.china`: 148–49. Zhai gives the visit as Nov. 5–13 (the entry is month-only, "Check: the days of the
-  visit"): added to the Check, not to `when`, since no record read fixes the days. Malinovsky's remark "during a Soviet
-  reception"; Zhou's protest, "a serious political incident."
+- `cal.1963-05-12.china`: 117 (Liu Shaoqi's visit, in May; no day). A. Liu's words in `c` are not in Zhai (his are "you can regard China as your rear," 117, and the rally speech against peaceful coexistence, 124).
+- `cal.1964-08-02.vietnam`: 132 (Lê Duẩn to Mao, Aug. 13: the first attack the local commander's decision). B. Zhai's note 11 gives "77 Conversations," 74; the series' copy of the working paper has nothing of Aug. 13 at 74, but its editors' note 117 at 72 summarizes the conversation in Zhai's words. That summary, read, is cited too, linked, for B.
+- `cal.1964-08-05.china`: 132 (the cable of Aug. 5; the readiness order "shortly after," not dated). A–C. Zhai does not mention the government's statement of Aug. 5 (D); the entry's Check on its day stands.
+- `cal.1964-11.china`: 148–49. Zhai gives the visit as Nov. 5–13 (the entry is month-only, "Check: the days of the visit"): added to the Check, not to `when`, since no record read fixes the days. Malinovsky's remark "during a Soviet reception"; Zhou's protest, "a serious political incident."
 - `cal.1965-02-11.soviet-union`: 153 (Kosygin's proposal; Mao's 9,000 years, from Cong Jin, as Chen). All.
-- `cal.1965-04-09.vietnam`: 143. C–D. Zhai has Yang Chengwu report the flights over Hainan of Apr. 8–9 to Mao on Apr. 9,
-  and Mao approve: China "should resolutely strike American aircraft that overfly Hainan Island." The record (MZJW,
-  6:403) joins Chen's in the To check.
-- `cal.1965-04-14.south-asia`: 138. A. **Differs:** Zhai has Johnson "suddenly cancel" the invitation nine days before
-  Ayub's arrival; the letter (FRUS 1964–68, XXV, doc. 100) puts the visit off, and McConaughy (doc. 103) told Ayub it was
-  "a postponement, not a cancellation." FRUS settles it; the entry stands, Zhai's word quoted in the parenthetical.
-- `cal.1965-05-31.vietnam`: 138. A–E, G. Zhai's four points of Zhou to Ayub ((1) no provocation; (2) China means what it
-  says and honors its commitments; (3) prepared; (4) bombing means war without boundaries) differ slightly from Chen
-  Yi's to Hopson as FRUS gives them. **Differs (place):** Zhai, like Chen, has Zhou meet Ayub "during his visit to
-  Pakistan on April 2"; FRUS II, doc. 321, has Peking. Added to the entry's Check. Zhai's note 42 is FRUS's editorial
-  note itself (doc. 321, the entry's primary record).
-- `cal.1965-06-06.vietnam`: 135. C. **Differs (span):** Zhai gives the 320,000 for June 1965–March 1968 (the entry, by
-  Chen, "1965–69"); his note 25 cites *Beijing Review*, Nov. 30, 1979, 14, a public Chinese figure ten years before the
-  military histories the entry's "Made public" names. Both put in the Check and the To check, not in `c`.
-- `cal.1965-07-22.vietnam`: 139 (Johnson to the Chiefs: would China and Russia come in? MacArthur did not think so
-  either). A. Note 44: FRUS 1964–68, III, doc. 76, the entry's primary record, read: it bears Zhai's quotations.
+- `cal.1965-04-09.vietnam`: 143. C–D. Zhai has Yang Chengwu report the flights over Hainan of Apr. 8–9 to Mao on Apr. 9, and Mao approve: China "should resolutely strike American aircraft that overfly Hainan Island." The record (MZJW, 6:403) joins Chen's in the To check.
+- `cal.1965-04-14.south-asia`: 138. A. **Differs:** Zhai has Johnson "suddenly cancel" the invitation nine days before Ayub's arrival; the letter (FRUS 1964–68, XXV, doc. 100) puts the visit off, and McConaughy (doc. 103) told Ayub it was "a postponement, not a cancellation." FRUS settles it; the entry stands, Zhai's word quoted in the parenthetical.
+- `cal.1965-05-31.vietnam`: 138. A–E, G. Zhai's four points of Zhou to Ayub ((1) no provocation; (2) China means what it says and honors its commitments; (3) prepared; (4) bombing means war without boundaries) differ slightly from Chen Yi's to Hopson as FRUS gives them. **Differs (place):** Zhai, like Chen, has Zhou meet Ayub "during his visit to Pakistan on April 2"; FRUS II, doc. 321, has Peking. Added to the entry's Check. Zhai's note 42 is FRUS's editorial note itself (doc. 321, the entry's primary record).
+- `cal.1965-06-06.vietnam`: 135. C. **Differs (span):** Zhai gives the 320,000 for June 1965–March 1968 (the entry, by Chen, "1965–69"); his note 25 cites *Beijing Review*, Nov. 30, 1979, 14, a public Chinese figure ten years before the military histories the entry's "Made public" names. Both put in the Check and the To check, not in `c`.
+- `cal.1965-07-22.vietnam`: 139 (Johnson to the Chiefs: would China and Russia come in? MacArthur did not think so either). A. Note 44: FRUS 1964–68, III, doc. 76, the entry's primary record, read: it bears Zhai's quotations.
 - `cal.1965-12-29.vietnam`: 164 (Harriman's fourteen points to the Poles). A.
 - `cal.1966-02-24.africa`: 165 (Nkrumah reaches Peking Feb. 24 to the news). B.
-- `cal.1967-12-29.vietnam`: 168. A. Zhai: "Speaking at the Mongolian embassy in Hanoi"; the entry, "at a reception
-  for a Mongolian delegation" (FRUS V, doc. 451). Left; the parenthetical gives Zhai's place.
-- `cal.1968-10-17.china`: 173 (Chen Yi to Lê Đức Thọ: "legal recognition"; the Soviet revisionists' "compromising and
-  surrendering proposals"). A–B. Zhai's note cites "77 Conversations," 138–40; the entry links 136–37 (the same
-  conversation, doc. 38). Not C ("nothing more to talk about").
+- `cal.1967-12-29.vietnam`: 168. A. Zhai: "Speaking at the Mongolian embassy in Hanoi"; the entry, "at a reception for a Mongolian delegation" (FRUS V, doc. 451). Left; the parenthetical gives Zhai's place.
+- `cal.1968-10-17.china`: 173 (Chen Yi to Lê Đức Thọ: "legal recognition"; the Soviet revisionists' "compromising and surrendering proposals"). A–B. Zhai's note cites "77 Conversations," 138–40; the entry links 136–37 (the same conversation, doc. 38). Not C ("nothing more to talk about").
 
 ## New entries (14)
 
-Each where Washington met Peking's act, or where Zhai cites a Washington record, the record first where the daybook's
-FRUS holds it:
+Each where Washington met Peking's act, or where Zhai cites a Washington record, the record first where the daybook's FRUS holds it:
 
-- `cal.1961-01-23.laos`: the White House meeting on Laos (FRUS XXIV, doc. 10, Nitze's preliminary memorandum); Zhai,
-  106, for Rusk's answer to Kennedy, from the summary record at the National Security Archive (To check).
-- `cal.1962-07-22.laos`: Harriman and Ưng Văn Khiêm on North Vietnamese forces in Laos (Zhai's note, 242–43 n.78, from
-  Harriman's memorandum in his papers; To check). No FRUS document of the day found.
+- `cal.1961-01-23.laos`: the White House meeting on Laos (FRUS XXIV, doc. 10, Nitze's preliminary memorandum); Zhai, 106, for Rusk's answer to Kennedy, from the summary record at the National Security Archive (To check).
+- `cal.1962-07-22.laos`: Harriman and Ưng Văn Khiêm on North Vietnamese forces in Laos (Zhai's note, 242–43 n.78, from Harriman's memorandum in his papers; To check). No FRUS document of the day found.
 - `cal.1963-04-19.laos`: Rusk and Mićunović (FRUS XXIV, doc. 463 n.7, the editors' summary; Zhai, 243 n.85).
-- `cal.1963-07-31.china` (also Testing): Peking's statement against the test ban treaty (Zhai, 124); Washington's
-  knowledge: the 116th Warsaw meeting, Aug. 7 (FRUS XXII, doc. 183).
+- `cal.1963-07-31.china` (also Testing): Peking's statement against the test ban treaty (Zhai, 124); Washington's knowledge: the 116th Warsaw meeting, Aug. 7 (FRUS XXII, doc. 183).
 - `cal.1963-10-22.vietnam`: INR's RFE-90, Hughes to Rusk (FRUS IV, doc. 205); Zhai, 120.
-- `cal.1965-02-24.china`: the 124th Warsaw meeting, Wang Kuo-ch'uan to Cabot: China "will definitely not sit idly by"
-  (FRUS XXX, doc. 78). Zhai, 138, quotes the warning ("Chinese people will not sit idly by") from Schulzinger's essay
-  without the meeting's day: a Check asks whether it is this meeting's.
-- `cal.1965-05-07.vietnam-2` (also South Asia): Thomson to McGeorge Bundy on the Radhakrishnan plan (FRUS II, doc. 285);
-  Zhai, 160, for the plan (Apr. 24) and Peking's denunciation. The merge flags it a possible duplicate of
-  `cal.1965-05-07.vietnam` (the $700 million signed): a distinct event.
-- `cal.1965-06-05.vietnam-2` (also China): William Bundy to Rusk on Chen Yi's message (FRUS II, doc. 335); Zhai, 138–39.
-  The merge flags it beside `cal.1965-06-05.vietnam` (the State Department lunch): distinct. `cal.1965-06-04.vietnam`
-  cites doc. 335 too, in a parenthetical; left.
+- `cal.1965-02-24.china`: the 124th Warsaw meeting, Wang Kuo-ch'uan to Cabot: China "will definitely not sit idly by" (FRUS XXX, doc. 78). Zhai, 138, quotes the warning ("Chinese people will not sit idly by") from Schulzinger's essay without the meeting's day: a Check asks whether it is this meeting's.
+- `cal.1965-05-07.vietnam-2` (also South Asia): Thomson to McGeorge Bundy on the Radhakrishnan plan (FRUS II, doc. 285); Zhai, 160, for the plan (Apr. 24) and Peking's denunciation. The merge flags it a possible duplicate of `cal.1965-05-07.vietnam` (the $700 million signed): a distinct event.
+- `cal.1965-06-05.vietnam-2` (also China): William Bundy to Rusk on Chen Yi's message (FRUS II, doc. 335); Zhai, 138–39. The merge flags it beside `cal.1965-06-05.vietnam` (the State Department lunch): distinct. `cal.1965-06-04.vietnam` cites doc. 335 too, in a parenthetical; left.
 - `cal.1965-06-17.vietnam`: the Commonwealth mission announced (FRUS III, doc. 6); Zhai, 160.
 - `cal.1965-06-25.china` (also Vietnam): Peking rejects the mission (FRUS III, doc. 6); Zhai, 161.
-- `cal.1965-09-03.china` (also Vietnam): Lin Biao's "Long Live the Victory of People's War," by Zhai (145–46) written by
-  Luo Ruiqing's group with Kang Sheng's team, Lin taking no part; Washington's knowledge: the General Assembly strategy
-  session (FRUS XXXIII, doc. 367). The date is the *Peking Review* issue in Zhai's bibliography (285); Check: the day it
-  first appeared.
-- `cal.1965-09-15.china` (also Vietnam): the 127th Warsaw meeting, Cabot: Lin Biao's article "like Hitler's *Mein
-  Kampf*" (FRUS XXX, doc. 101); Zhai, 146.
+- `cal.1965-09-03.china` (also Vietnam): Lin Biao's "Long Live the Victory of People's War," by Zhai (145–46) written by Luo Ruiqing's group with Kang Sheng's team, Lin taking no part; Washington's knowledge: the General Assembly strategy session (FRUS XXXIII, doc. 367). The date is the *Peking Review* issue in Zhai's bibliography (285); Check: the day it first appeared.
+- `cal.1965-09-15.china` (also Vietnam): the 127th Warsaw meeting, Cabot: Lin Biao's article "like Hitler's *Mein Kampf*" (FRUS XXX, doc. 101); Zhai, 146.
 - `cal.1967-12-13.vietnam` (also Europe and the alliance): Stoessel and Michalowski (FRUS XVII, doc. 130); Zhai, 166.
-- `cal.1969-01-13.laos` (also China): the memorandum to Rostow on the Chinese road to Muong Sai (Zhai, 180; the record
-  at the LBJ Library, To check). Zhai names the author "William L. Lemnitzer, a National Security Council analyst"; a
-  Check keeps him apart from the general (not tagged). Muong Sai is not in the gazetteer; the entry, a memorandum in
-  Washington, takes no place tag.
+- `cal.1969-01-13.laos` (also China): the memorandum to Rostow on the Chinese road to Muong Sai (Zhai, 180; the record at the LBJ Library, To check). Zhai names the author "William L. Lemnitzer, a National Security Council analyst"; a Check keeps him apart from the general (not tagged). Muong Sai is not in the gazetteer; the entry, a memorandum in Washington, takes no place tag.
 
 ## Records
 
-Sixteen, in `sources/cited-records/zhai-china-and-the-vietnam.yaml`: found and read, eight (FRUS II, docs. 321, 335; III,
-doc. 76; IV (1961–63), doc. 205; XXIV, doc. 463 n.7; XVII, doc. 130; "77 Conversations," doc. 38 and 72 n.117); not
-reachable, eight (the National Security Archive's summary record of Jan. 23, 1961; Harriman's memorandum of July 22,
-1962; *Renmin ribao*, July 31, 1963; MZJW, 6:403; *Beijing Review*, Nov. 30, 1979; Zhai's interview of July 2, 1996; the
-Lemnitzer memorandum; Lin Biao's article in *Peking Review*). Most of Zhai's notes cite Chinese chronicles and histories
-(Zhou nianpu, Zhou waijiao dashiji, Li Ke and Hao Shengzhang, Xie Yixian, Guo Ming) by page; those are works, not records,
-except where the note names a dated document (a talk, a letter, a report).
+Sixteen, in `sources/cited-records/zhai-china-and-the-vietnam.yaml`: found and read, eight (FRUS II, docs. 321, 335; III, doc. 76; IV (1961–63), doc. 205; XXIV, doc. 463 n.7; XVII, doc. 130; "77 Conversations," doc. 38 and 72 n.117); not reachable, eight (the National Security Archive's summary record of Jan. 23, 1961; Harriman's memorandum of July 22, 1962; *Renmin ribao*, July 31, 1963; MZJW, 6:403; *Beijing Review*, Nov. 30, 1979; Zhai's interview of July 2, 1996; the Lemnitzer memorandum; Lin Biao's article in *Peking Review*). Most of Zhai's notes cite Chinese chronicles and histories (Zhou nianpu, Zhou waijiao dashiji, Li Ke and Hao Shengzhang, Xie Yixian, Guo Ming) by page; those are works, not records, except where the note names a dated document (a talk, a letter, a report).
 
 ## Passed over
 
-Made by reading pp. 82–186 and their notes page by page and listing every event dated within Jan. 6, 1960–Jan. 20, 1969
-that touches Peking, Hanoi, Moscow or Washington, each judged against `./bib find -l cal` (by day, thread and words).
-"Out of the brief": Peking's or Hanoi's own act or talk, no trace in Washington found. Not listed: the chapters' pre-1960
-background; the Chinese domestic campaigns (the Third Front, the Cultural Revolution) where they do not touch the war;
-issues of *Renmin ribao* and *Shijie zhishi* cited for wording.
+Made by reading pp. 82–186 and their notes page by page and listing every event dated within Jan. 6, 1960–Jan. 20, 1969 that touches Peking, Hanoi, Moscow or Washington, each judged against `./bib find -l cal` (by day, thread and words). "Out of the brief": Peking's or Hanoi's own act or talk, no trace in Washington found. Not listed: the chapters' pre-1960 background; the Chinese domestic campaigns (the Third Front, the Cultural Revolution) where they do not touch the war; issues of *Renmin ribao* and *Shijie zhishi* cited for wording.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -224,19 +172,11 @@ issues of *Renmin ribao* and *Shijie zhishi* cited for wording.
 
 Foreign:
 
-- The Warsaw talks, 1960–68: now three meetings in (124th, 127th; the 116th as Washington's knowledge of July 31,
-  1963); FRUS 1961–63, XXII and 1964–68, XXX print the rest (Chen's lead stands).
-- Peking's public acts Washington met but the calendar lacks: Mao's statement of Aug. 29, 1963; the nine polemics,
-  1963–64; Zhou's statement on the bombing of Khang Khay, June 16, 1964, and the T-28 strike on the Chinese mission
-  there; Ye Jianying's mission to Hanoi, Dec. 1961; Souvanna Phouma in Peking, Apr. 22–25, 1961; Zhou in Hanoi, May
-  9–14, 1960; the Moscow conference of Nov. 1960; Zhou's walkout from the Twenty-second Congress, Oct. 23, 1961.
-- The Laos conference, 1961–62: Sihanouk's proposal (Jan. 1, 1961), Zurich (June 22, 1961), Boun Oum's repudiation
-  (Dec. 27, 1961), the portfolios (June 12, 1962), Chen Yi's positions (May 24, June 26, 1961): FRUS XXIV.
-- The peace initiatives of 1965–66 and Peking's refusals: Gordon Walker (Mar.–Apr. 1965), the conference on Cambodia,
-  U Thant, Kosygin's proposal of Feb. 16, 1965, Armah's mission, Malraux (July 1965), Michalowski and Shelepin (Jan.
-  1966): FRUS II, III, IV, XXVII, XXVIII. Hanoi's Four Points (Apr. 8, 1965) not found in the calendar by that name.
+- The Warsaw talks, 1960–68: now three meetings in (124th, 127th; the 116th as Washington's knowledge of July 31, 1963); FRUS 1961–63, XXII and 1964–68, XXX print the rest (Chen's lead stands).
+- Peking's public acts Washington met but the calendar lacks: Mao's statement of Aug. 29, 1963; the nine polemics, 1963–64; Zhou's statement on the bombing of Khang Khay, June 16, 1964, and the T-28 strike on the Chinese mission there; Ye Jianying's mission to Hanoi, Dec. 1961; Souvanna Phouma in Peking, Apr. 22–25, 1961; Zhou in Hanoi, May 9–14, 1960; the Moscow conference of Nov. 1960; Zhou's walkout from the Twenty-second Congress, Oct. 23, 1961.
+- The Laos conference, 1961–62: Sihanouk's proposal (Jan. 1, 1961), Zurich (June 22, 1961), Boun Oum's repudiation (Dec. 27, 1961), the portfolios (June 12, 1962), Chen Yi's positions (May 24, June 26, 1961): FRUS XXIV.
+- The peace initiatives of 1965–66 and Peking's refusals: Gordon Walker (Mar.–Apr. 1965), the conference on Cambodia, U Thant, Kosygin's proposal of Feb. 16, 1965, Armah's mission, Malraux (July 1965), Michalowski and Shelepin (Jan. 1966): FRUS II, III, IV, XXVII, XXVIII. Hanoi's Four Points (Apr. 8, 1965) not found in the calendar by that name.
 - Mao and Edgar Snow, Jan. 9, 1965 (Snow's published account) and Washington's reading.
-- Burris to Johnson, Feb. 5, 1962 (National Security Archive, Vietnam/Laos Collection, box 1): the Vice President's
-  estimate of North Vietnamese troops in Laos.
+- Burris to Johnson, Feb. 5, 1962 (National Security Archive, Vietnam/Laos Collection, box 1): the Vice President's estimate of North Vietnamese troops in Laos.
 - The tacit understanding with Peking, 1965–66: Rostow to Dobrynin, June 1966 (Dobrynin, *In Confidence*, 142).
 - Muong Sai (Oudomxay) for the gazetteer, should an entry place an event there.
