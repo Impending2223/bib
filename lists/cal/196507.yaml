@@ -814,6 +814,18 @@ entries:
       rows:
         - 'w.macv-command-history-1965 132: all'
         - 'via w.macv-command-history-1965 132 n.661: all'
+  - id: cal.1965-07-12.vietnam-support
+    when: July 12
+    date: '1965-07-12'
+    thread: vietnam-support
+    also: [students]
+    c: 'Chester Cooper to Cater on the National Student Association''s coming resolution on Vietnam: Cater and Mondale to speak at its conference.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 29 n.88. Check: the memorandum''s words, not quoted in the copy read. See [[cal.1965-09-02.students]]. Names: Cooper, Cater, Mondale.'
+    src:
+      c: 29552b1f
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 29 n: all'
+    tags: [name:cooper-chester-l, name:cater-s-douglass, name:mondale-walter-f]
   - id: cal.1965-07-13.court
     when: July 13
     date: '1965-07-13'
@@ -2293,11 +2305,12 @@ entries:
     date: '1965-07-29'
     thread: vietnam-force-levels
     c: The 1st Brigade, 101st Airborne Division, lands at Cam Ranh Bay.
-    n: '[[w.macv-command-history-1965]], 41, 480.'
+    n: '[[w.macv-command-history-1965]], 41, 480; [[w.gibbons-u-s-government-and]], IV, 17.'
     src:
       c: d8e3b7d3
       rows:
         - 'w.macv-command-history-1965 41, 480: all'
+        - 'w.gibbons-u-s-government-and IV, 17: all'
     tags: [place:cam-ranh-bay]
   - id: cal.1965-07-29.robert-kennedy
     when: July 29
@@ -2336,6 +2349,31 @@ entries:
         - 'w.woods-fulbright 370: all'
         - 'via x.1965-07-29.fulbright-to-evans: all'
     tags: [name:fulbright-j-william, name:johnson-lyndon-b]
+  - id: cal.1965-07-29.press-and-broadcasting
+    when: July 29
+    date: '1965-07-29'
+    thread: press-and-broadcasting
+    also: [vietnam-july-decision]
+    c: 'The *New York Times*, editorial: "Few Americans will quarrel with President Johnson''s determined conclusion to hold on in Vietnam." The war could last years or decades; the minimum force needed to prove to Hanoi and Peking "that military aggression is not worthwhile and never will be."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 24. To check: *New York Times*, July 29, 1965 (cited by [[w.gibbons-u-s-government-and]], IV, 24 n.71). Names: Johnson.'
+    src:
+      c: b74fc8e7
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 24: all'
+        - 'via x.1965-07-29.new-york-times-july-29-1965-2: all'
+    tags: [name:johnson-lyndon-b]
+  - id: cal.1965-07-29.vietnam-pacification
+    when: July 29
+    date: '1965-07-29'
+    thread: vietnam-pacification
+    c: Lansdale to Lodge, "Your Working Paper on the 'Politico' Part of the Vietnam Problem."
+    n: '[[w.gibbons-u-s-government-and]], IV, 60 n.44. To check: Lansdale to Lodge, July 29, 1965, Lodge Papers, Massachusetts Historical Society (cited by [[w.gibbons-u-s-government-and]], IV, 60 n.44). Check: what Lansdale says. See [[cal.1965-07.vietnam-pacification]]. Names: Lansdale, Lodge.'
+    src:
+      c: 724b7f5e
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 60 n.44: all'
+        - 'via x.1965-07-29.lansdale-to-lodge-july-29-1965: all'
+    tags: [name:lansdale-edward-g, name:lodge-henry-cabot]
   - id: cal.1965-07-30.medicare
     when: July 30
     date: '1965-07-30'
@@ -2600,3 +2638,15 @@ entries:
         - 'w.woods-fulbright 373: all'
         - 'via x.1965-07.marcy-to-fulbright: all'
     tags: [name:marcy-carl, name:fulbright-j-william]
+  - id: cal.1965-07.vietnam-pacification
+    when: July
+    date: 1965-07
+    thread: vietnam-pacification
+    c: 'Lodge, Ambassador-designate, a working paper for Lansdale, "Solving the ''Politico'' Part of the ''Politico-Military'' Vietnam Problem": Lansdale to get Hợp Tác and the programs elsewhere "moving—always with solid, durable growth; never with bogus statistics." First drafted in May as instructions for McNaughton.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 58. To check: the paper, NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 58 n.40). Check: the day. Names: Lodge, Lansdale, McNaughton.'
+    src:
+      c: 1b7a4636
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 58: all'
+        - 'via x.undated.the-paper-nsf-country-file-vietnam-2: all'
+    tags: [name:lodge-henry-cabot, name:lansdale-edward-g, name:mcnaughton-john-t]
