@@ -1,14 +1,8 @@
 # Logevall, *Choosing War* (1999): the calendar's citations held up, and the book against the calendar
 
-Card `w.logevall-choosing-war`. Read Oct. 28–29, 2026, from the owner's copy (Drive, the file id in the brief), its text
-layer read with pdftotext; cited by the printed page. Offset: printed page = PDF page − 29, constant through the notes
-(pp. 417–98) and the index; checked on the page images at PDF 100 (p. 71), 230 (p. 201) and 400 (p. 371), and by the
-running folios of every page of the text layer. Patch: `inbox/2026-10-29-book-logevall-barrett.yaml` (with Barrett);
-records: `sources/cited-records/logevall-choosing-war.yaml` (50 records). Rebuilt Oct. 29 against the tree after the Herring merge (commit 745f720). The book runs from de Gaulle's statement of
-Aug. 29, 1963, to the Marines at Đà Nẵng and the spring of 1965; ch. 12 is argument, with no dated events of its own.
+Card `w.logevall-choosing-war`. Read Oct. 28–29, 2026, from the owner's copy (Drive, the file id in the brief), its text layer read with pdftotext; cited by the printed page. Offset: printed page = PDF page − 29, constant through the notes (pp. 417–98) and the index; checked on the page images at PDF 100 (p. 71), 230 (p. 201) and 400 (p. 371), and by the running folios of every page of the text layer. Patch: `inbox/2026-10-29-book-logevall-barrett.yaml` (with Barrett); records: `sources/cited-records/logevall-choosing-war.yaml` (50 records). Rebuilt Oct. 29 against the tree after the Herring merge (commit 745f720). The book runs from de Gaulle's statement of Aug. 29, 1963, to the Marines at Đà Nẵng and the spring of 1965; ch. 12 is argument, with no dated events of its own.
 
-The calendar cited the book 23 times, none by page. 19 now cite it by page, with a parenthetical where it holds in part;
-4 citations dropped. Each kept citation has its claim-map rows and, where the note gives a record, its `via` rows.
+The calendar cited the book 23 times, none by page. 19 now cite it by page, with a parenthetical where it holds in part; 4 citations dropped. Each kept citation has its claim-map rows and, where the note gives a record, its `via` rows.
 
 ## Not treated: citation dropped
 
@@ -57,36 +51,17 @@ The calendar cited the book 23 times, none by page. 19 now cite it by page, with
 
 ## New entries (25)
 
-Read first, where the series holds it, in the primary record: FRUS (1961–63, IV, doc. 37; 1964–68, I, doc. 21; II, docs.
-42–44; XXVII, doc. 53), the Public Papers (the news conference of July 24, Syracuse, Eufaula, Manchester).
-Where only Logevall was read, the record his note gives stands behind "To check:".
+Read first, where the series holds it, in the primary record: FRUS (1961–63, IV, doc. 37; 1964–68, I, doc. 21; II, docs. 42–44; XXVII, doc. 53), the Public Papers (the news conference of July 24, Syracuse, Eufaula, Manchester). Where only Logevall was read, the record his note gives stands behind "To check:".
 
-1963: Aug. 31, the State Department meeting, Kattenburg for withdrawal (`cal.1963-08-31.vietnam-2`); Dec. 2, Fulbright to
-Johnson for Geneva; Dec. 7, Russell, "We should get out" (`vietnam-congress`). 1964: Jan. 29, Ball's calls on the coup
-(two); May 27, Johnson to Bundy, "What in the hell is Vietnam worth to me?", and Lippmann at the White House; July 8,
-Thant's news conference; July 23, de Gaulle's (`europe-and-the-alliance-france`, also Vietnam); July 24, Johnson's,
-"ratify terror"; Aug. 5, Syracuse; Aug. 21, the Matthias memorandum released; Sept. 25,
-Eufaula, and Sept. 28, Manchester (`elections-1964`, also Vietnam); Sept. 29, William Bundy at Tokyo; Oct. 5, Ball's
-memorandum; Dec. 9, Fulbright at SMU. 1965: Jan. 3, Mansfield on *Meet the Press*; Jan. 11, Russell; Jan. 27, the
-Bundy–McNamara memorandum and the 11:30 meeting ("Khanh is our boy"); Feb. 16, the House leaders; Feb. 19, Couve de
-Murville; Feb. 25, Rusk's news conference; Mar. 6, Johnson to Ball, "get sick and leave town".
+1963: Aug. 31, the State Department meeting, Kattenburg for withdrawal (`cal.1963-08-31.vietnam-2`); Dec. 2, Fulbright to Johnson for Geneva; Dec. 7, Russell, "We should get out" (`vietnam-congress`). 1964: Jan. 29, Ball's calls on the coup (two); May 27, Johnson to Bundy, "What in the hell is Vietnam worth to me?", and Lippmann at the White House; July 8, Thant's news conference; July 23, de Gaulle's (`europe-and-the-alliance-france`, also Vietnam); July 24, Johnson's, "ratify terror"; Aug. 5, Syracuse; Aug. 21, the Matthias memorandum released; Sept. 25, Eufaula, and Sept. 28, Manchester (`elections-1964`, also Vietnam); Sept. 29, William Bundy at Tokyo; Oct. 5, Ball's memorandum; Dec. 9, Fulbright at SMU. 1965: Jan. 3, Mansfield on *Meet the Press*; Jan. 11, Russell; Jan. 27, the Bundy–McNamara memorandum and the 11:30 meeting ("Khanh is our boy"); Feb. 16, the House leaders; Feb. 19, Couve de Murville; Feb. 25, Rusk's news conference; Mar. 6, Johnson to Ball, "get sick and leave town".
 
 Two events first drafted as new entries were entered meanwhile by the Herring reading under the same ids, and are edited instead, Logevall's pages and sentences appended so that the units keep their letters: `cal.1964-08-06.vietnam-2` (Thant at the White House: Blair House, Rusk at lunch, the toast; Check: Logevall has Thant propose direct talks in the Oval Office, FRUS a private probe of Hồ) and `cal.1965-02-24.vietnam-2` (Thant's news conference: the "concrete ideas and proposals"; Check: Logevall, 353, "if only they know," Herring "knew"). Rusk's call to Thant that night is Herring's `cal.1965-02-24.vietnam-3`.
 
-The merge flags as possible duplicates the new entries that share a day and thread with another (`-2`, `-3` ids): each
-is a different event (a call, a meeting, a memorandum, a news conference); resolve with `--take keep`.
+The merge flags as possible duplicates the new entries that share a day and thread with another (`-2`, `-3` ids): each is a different event (a call, a meeting, a memorandum, a news conference); resolve with `--take keep`.
 
 ## Passed over
 
-How the list was made: the book read through in twelve-page passages, pp. 1–413, every dated event (a day or a month)
-noted with its page and note as it came; each then looked for in the calendar on its day (the calendar's dated entries,
-all threads, dumped Oct. 28 and again Oct. 29) and, where in, named by its id. Not listed: events before Aug. 1963 that
-the opening chapters recount in passing (the Kennedy years, 1961–63, as background), the British, French, Canadian,
-Soviet, Chinese and North Vietnamese governments' internal deliberations, which are out of the brief unless an
-American act or a meeting with Americans is dated, and newspaper editorials and columns that carried no act. "Below the
-calendar's level": staff and interagency memoranda that set no decision, an ambassador's or adviser's routine cable or
-conversation. "A lead": a dated event whose record the page does not give enough of to enter, or whose record was not
-read; the leads are in `notes/leads.md` (National; Foreign).
+How the list was made: the book read through in twelve-page passages, pp. 1–413, every dated event (a day or a month) noted with its page and note as it came; each then looked for in the calendar on its day (the calendar's dated entries, all threads, dumped Oct. 28 and again Oct. 29) and, where in, named by its id. Not listed: events before Aug. 1963 that the opening chapters recount in passing (the Kennedy years, 1961–63, as background), the British, French, Canadian, Soviet, Chinese and North Vietnamese governments' internal deliberations, which are out of the brief unless an American act or a meeting with Americans is dated, and newspaper editorials and columns that carried no act. "Below the calendar's level": staff and interagency memoranda that set no decision, an ambassador's or adviser's routine cable or conversation. "A lead": a dated event whose record the page does not give enough of to enter, or whose record was not read; the leads are in `notes/leads.md` (National; Foreign).
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -272,8 +247,4 @@ read; the leads are in `notes/leads.md` (National; Foreign).
 
 ## Leads
 
-Written into `notes/leads.md`: Nixon back from Saigon, early April 1964, calling the policy "soft" (135); the war game
-Sigma II-64, Sept. 8–17, 1964 (242); Hanoi's assent to Thant's talks, mid-September 1964, and the administration's
-silence (212–13); the White House meeting of Jan. 6, 1965 (FRUS 1964–68, II, doc. 17); Thant's news conference of Feb.
-12, 1965; Johnson with the Joint Chiefs, Mar. 15, 1965 ("Kill more Vietcong"); Gromyko and Rusk, Dec. 9, 1964;
-Goldwater's charge, late August 1964, that the Matthias memorandum showed a secret plan to negotiate (228, undated).
+Written into `notes/leads.md`: Nixon back from Saigon, early April 1964, calling the policy "soft" (135); the war game Sigma II-64, Sept. 8–17, 1964 (242); Hanoi's assent to Thant's talks, mid-September 1964, and the administration's silence (212–13); the White House meeting of Jan. 6, 1965 (FRUS 1964–68, II, doc. 17); Thant's news conference of Feb. 12, 1965; Johnson with the Joint Chiefs, Mar. 15, 1965 ("Kill more Vietcong"); Gromyko and Rusk, Dec. 9, 1964; Goldwater's charge, late August 1964, that the Matthias memorandum showed a secret plan to negotiate (228, undated).

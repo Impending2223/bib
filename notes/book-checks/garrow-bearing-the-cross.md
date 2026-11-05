@@ -1,10 +1,6 @@
 # Garrow, *Bearing the Cross* (1986): the calendar's citations held up
 
-Card `w.garrow-bearing-the-cross`. Read in the owner's copy (PDF, its text layer); printed folio = PDF page − 4
-throughout, the running heads checked (pp. 37, 550, 597, 634). Patch: `inbox/2026-10-24-book-garrow-cross.yaml`
-(book-garrow-cross). Every case below that is not a plain "holds"; the rulings are written into the notes as
-"Check: Garrow gives ..." or as a parenthetical saying what the pinpoint stands for. No entry's `c` was rewritten from
-the book alone, but one: Apr. 3, 1968, where Garrow bears out the court's order the entry marked "(Check)".
+Card `w.garrow-bearing-the-cross`. Read in the owner's copy (PDF, its text layer); printed folio = PDF page − 4 throughout, the running heads checked (pp. 37, 550, 597, 634). Patch: `inbox/2026-10-24-book-garrow-cross.yaml` (book-garrow-cross). Every case below that is not a plain "holds"; the rulings are written into the notes as "Check: Garrow gives ..." or as a parenthetical saying what the pinpoint stands for. No entry's `c` was rewritten from the book alone, but one: Apr. 3, 1968, where Garrow bears out the court's order the entry marked "(Check)".
 
 ## Step 1: entries that cited the book (35)
 
@@ -39,38 +35,23 @@ Held as written, pinpoint added: 14. Held in part or with another detail (21):
 Disagreements and partial bearings among them:
 
 - cal.1962-07-20.albany (Elliott's order, July 20): Garrow, 206, has it issued early Saturday, July 21. Check added.
-- cal.1964-06-19.desegregation-public-places-fl: the presentment made public the afternoon of June 18, King's refusal
-  June 19 (333–34). Check added.
+- cal.1964-06-19.desegregation-public-places-fl: the presentment made public the afternoon of June 18, King's refusal June 19 (333–34). Check added.
 - cal.1965-03-09.voting-rights: some 2,500 to the bridge; Garrow, 403, two thousand. Check added.
-- cal.1967-04-10.king: Garrow, 555, quotes the NAACP board's resolution ("a serious tactical mistake"), not "not a
-  peace organization." Check added; the entry's own Check stands.
-- cal.1968-03-28.king-memphis: Garrow bears out the march, the looting, the police and the shooting (609–11), not the
-  counts, the Guard or the curfew; he has the second march resolved that night and announced Mar. 29 (611, 613).
-- cal.1968-04-03.king: the restraining order (Judge Bailey Brown, ten days, served at the Lorraine, 619); the "(Check)"
-  in `c` taken out; *City of Memphis v. King*, No. C-68-80, joins the To check.
+- cal.1967-04-10.king: Garrow, 555, quotes the NAACP board's resolution ("a serious tactical mistake"), not "not a peace organization." Check added; the entry's own Check stands.
+- cal.1968-03-28.king-memphis: Garrow bears out the march, the looting, the police and the shooting (609–11), not the counts, the Guard or the curfew; he has the second march resolved that night and announced Mar. 29 (611, 613).
+- cal.1968-04-03.king: the restraining order (Judge Bailey Brown, ten days, served at the Lorraine, 619); the "(Check)" in `c` taken out; *City of Memphis v. King*, No. C-68-80, joins the To check.
 
 ## Step 3: new entries (66)
 
-Fifty-two from the earlier run, fourteen from this one; listed in the patch. The White House files, FBI serials and
-King Papers items Garrow cites for them are in each note's "To check". The FBI's acts carry "Made public: Check":
-Garrow had the files under the Freedom of Information Act (627); the Church Committee's Book III (1976), the likely
-first publication, could not be read here (intelligence.senate.gov refuses this environment; `notes/leads.md`).
+Fifty-two from the earlier run, fourteen from this one; listed in the patch. The White House files, FBI serials and King Papers items Garrow cites for them are in each note's "To check". The FBI's acts carry "Made public: Check": Garrow had the files under the Freedom of Information Act (627); the Church Committee's Book III (1976), the likely first publication, could not be read here (intelligence.senate.gov refuses this environment; `notes/leads.md`).
 
 ## Backfill, Oct. 29, 2026: the maps, the records, what the book passes over
 
-Stage 5 (brief-backfill, steps 1–3). Patch: `inbox/2026-10-29-backfill-garrow.yaml` (backfill-garrow): 149 edits, 15
-new entries. Records: `sources/cited-records/garrow-bearing-the-cross.yaml`, 502. The notes (pp. 633–723, numbered by
-chapter) read off the text layer, and off the page images where the layer garbles a note (7.28, 6.28, the figures in
-4.43–44); the abbreviations written out from Garrow's key, pp. 764–71.
+Stage 5 (brief-backfill, steps 1–3). Patch: `inbox/2026-10-29-backfill-garrow.yaml` (backfill-garrow): 149 edits, 15 new entries. Records: `sources/cited-records/garrow-bearing-the-cross.yaml`, 502. The notes (pp. 633–723, numbered by chapter) read off the text layer, and off the page images where the layer garbles a note (7.28, 6.28, the figures in 4.43–44); the abbreviations written out from Garrow's key, pp. 764–71.
 
 ### Rereads and maps
 
-Every calendar entry citing the book (149, the 148 of the earlier runs and Kallina's of June 23, 1960) reread against
-its units and given its map: Garrow's rows by page and letter, other runs' rows kept, the records tied by `via` rows
-(each note's interviews one record, not put in "To check"). The old-form "To check" items ("(NNN n.XX)") replaced by
-the records in the standard form. Units the book does not bear and no other source covers, left uncovered (the Check
-stands): 1963-05-07 C; 1963-06-19 D, G; 1964-12-18 C; 1965-01-22 D; 1965-02-18 E, F; 1966-01-26 B; 1966-09-12 G;
-1967-02-25 A.
+Every calendar entry citing the book (149, the 148 of the earlier runs and Kallina's of June 23, 1960) reread against its units and given its map: Garrow's rows by page and letter, other runs' rows kept, the records tied by `via` rows (each note's interviews one record, not put in "To check"). The old-form "To check" items ("(NNN n.XX)") replaced by the records in the standard form. Units the book does not bear and no other source covers, left uncovered (the Check stands): 1963-05-07 C; 1963-06-19 D, G; 1964-12-18 C; 1965-01-22 D; 1965-02-18 E, F; 1966-01-26 B; 1966-09-12 G; 1967-02-25 A.
 
 | Entry | Map (page: units) | `via` | Ruling |
 |---|---|---|---|
@@ -226,30 +207,16 @@ stands): 1963-05-07 C; 1963-06-19 D, G; 1964-12-18 C; 1965-01-22 D; 1965-02-18 E
 
 ### Records (rule A)
 
-502 records under 183 notes: press 173, memoranda 84, interviews 58, FBI and other files 35, letters 27, statements
-24, reports 23, speeches 20, transcripts 15, notes 12, telegrams 10, recordings 8, minutes 6, other 7. Found 23; read
-and cited first 16: the King Papers Project's copies (King's address of May 21, 1961; the statements of July 10 and 25,
-1962; the Director to the Attorney General, July 28, 1962; the answer to the presentment, June 19, 1964; the addresses
-of June 7 and July 10, 1966; the Meredith march manifesto; the statement of Aug. 26, 1966; King to Powell and King to
-Bowles, June 24, 1960, read at kinginstitute.stanford.edu), the Public Papers (1963 Pub. Papers 397, 681, 692), the
-Chicago demands and the Ayers report (crmvet.org). Found and not read: the Kennedy tapes Garrow cites (Meeting Tapes
-86.2, 88.6, 108.1–2, 111.7 and 112.1: PRDE's catalogue, PRDE only, not heard), the King Papers Project's catalogue
-rows for Diggs to King, June 27, 1963 (630627-002), and King's draft address to the Republican platform committee,
-July 7, 1964 (640707-005): these stay in "To check". Also read and cited, not from Garrow's notes: the President's
-Daily Diary, Mar. 14, 1965, images 2 and 3 (National Archives Catalog 192453). Not found: the FBI serials (Garrow's
-FOIA releases), the White House Central Files and the King Name File, the King Center's and Boston University's papers
-but those above, the Albany city files, the SNCC, SCLC, NAACP, Randolph and Wilkins papers, the newspapers.
+502 records under 183 notes: press 173, memoranda 84, interviews 58, FBI and other files 35, letters 27, statements 24, reports 23, speeches 20, transcripts 15, notes 12, telegrams 10, recordings 8, minutes 6, other 7. Found 23; read and cited first 16: the King Papers Project's copies (King's address of May 21, 1961; the statements of July 10 and 25, 1962; the Director to the Attorney General, July 28, 1962; the answer to the presentment, June 19, 1964; the addresses of June 7 and July 10, 1966; the Meredith march manifesto; the statement of Aug. 26, 1966; King to Powell and King to Bowles, June 24, 1960, read at kinginstitute.stanford.edu), the Public Papers (1963 Pub. Papers 397, 681, 692), the Chicago demands and the Ayers report (crmvet.org). Found and not read: the Kennedy tapes Garrow cites (Meeting Tapes 86.2, 88.6, 108.1–2, 111.7 and 112.1: PRDE's catalogue, PRDE only, not heard), the King Papers Project's catalogue rows for Diggs to King, June 27, 1963 (630627-002), and King's draft address to the Republican platform committee, July 7, 1964 (640707-005): these stay in "To check". Also read and cited, not from Garrow's notes: the President's Daily Diary, Mar. 14, 1965, images 2 and 3 (National Archives Catalog 192453). Not found: the FBI serials (Garrow's FOIA releases), the White House Central Files and the King Name File, the King Center's and Boston University's papers but those above, the Albany city files, the SNCC, SCLC, NAACP, Randolph and Wilkins papers, the newspapers.
 
 ### New entries (15)
 
-The White House's, the Justice Department's, the Bureau's and the members' dealings with King and the movement, and
-the parties', dated by the book (each entry's records in its "To check"):
+The White House's, the Justice Department's, the Bureau's and the members' dealings with King and the movement, and the parties', dated by the book (each entry's records in its "To check"):
 
 - `cal.1960-06-09.elections-1960`: King and Randolph announce the picketing of the conventions (138).
 - `cal.1960-06-19.king`: Powell at Buffalo, King and Randolph "captives" (138); King's telegram of June 24 read.
 - `cal.1962-08-31.georgia-albany`: King's telegram to Kennedy, unanswered (216; dated by the note).
-- `cal.1963-06-01.civil-rights-bill`: Robert Kennedy's meeting on the bill (268–69); Check against Caro and Dallek
-  on Johnson.
+- `cal.1963-06-01.civil-rights-bill`: Robert Kennedy's meeting on the bill (268–69); Check against Caro and Dallek on Johnson.
 - `cal.1963-06-27.march-on-washington`: Diggs to King (274).
 - `cal.1963-08-09.georgia-albany`: the Albany indictments (279).
 - `cal.1964-03-26.king`: King with Humphrey, Kuchel, Hart, Douglas, Javits; Malcolm X (319; Check the day).
@@ -260,23 +227,13 @@ the parties', dated by the book (each entry's records in its "To check"):
 - `cal.1964-12-31.king`: Andrew Young telephones DeLoach (371).
 - `cal.1965-02-05.voting-rights`: fifteen members of Congress at Selma (386; Check the members).
 - `cal.1965-02-05.king`: Lee White to Johnson, "avoid seeing King" (386–87; Check the memorandum's date).
-- `cal.1965-03-14.civil-rights-the-executive`: the bipartisan meeting, 5 to 6:30 p.m., by the Daily Diary, image 2;
-  the address agreed, by Garrow (408).
+- `cal.1965-03-14.civil-rights-the-executive`: the bipartisan meeting, 5 to 6:30 p.m., by the Daily Diary, image 2; the address agreed, by Garrow (408).
 
-The breakfast of June 23, 1960 was to be a sixteenth; Kallina's run entered it the same day
-(`cal.1960-06-23.elections-1960-2`), and it is mapped above instead. Threads chosen so the merge does not take a
-second entry on a day and thread for a duplicate (King's at the Capitol in King; the members at Selma in Voting rights;
-the leaders' meeting in Civil rights: the executive).
+The breakfast of June 23, 1960 was to be a sixteenth; Kallina's run entered it the same day (`cal.1960-06-23.elections-1960-2`), and it is mapped above instead. Threads chosen so the merge does not take a second entry on a day and thread for a duplicate (King's at the Capitol in King; the members at Selma in Voting rights; the leaders' meeting in Civil rights: the executive).
 
 ### Passed over
 
-How the list was made: every date the text gives, pp. 127–624 (432 mentions, the years supplied from the chapter and
-read again where the chapter's run of years misled), set against the calendar's entries of the day; 193 with no entry
-of the day in a related thread were read. Passed without rows, as classes: King's speeches, sermons, tours, rallies,
-trips and rests; the internal meetings, retreats, staff decisions and money of SCLC, SNCC, CORE, CCCO, the Albany
-Movement and the Chicago Freedom Movement; local mass meetings, marches, sit-ins and arrests below the calendar's level
-(Albany, Nov. 1961–Mar. 1962; Birmingham before April 1963; St. Augustine, Mar.–May 1964; Chicago and Louisville,
-1965–67); King's private life. Rows for the rest:
+How the list was made: every date the text gives, pp. 127–624 (432 mentions, the years supplied from the chapter and read again where the chapter's run of years misled), set against the calendar's entries of the day; 193 with no entry of the day in a related thread were read. Passed without rows, as classes: King's speeches, sermons, tours, rallies, trips and rests; the internal meetings, retreats, staff decisions and money of SCLC, SNCC, CORE, CCCO, the Albany Movement and the Chicago Freedom Movement; local mass meetings, marches, sit-ins and arrests below the calendar's level (Albany, Nov. 1961–Mar. 1962; Birmingham before April 1963; St. Augustine, Mar.–May 1964; Chicago and Louisville, 1965–67); King's private life. Rows for the rest:
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -316,17 +273,9 @@ Movement and the Chicago Freedom Movement; local mass meetings, marches, sit-ins
 
 ### Leads
 
-- The Church Committee's Book III (S. Rep. No. 94-755) on the FBI and King: where Garrow's FOIA files were first made
-  public; `Made public: Check` stands on the FBI entries until it is read for each.
-- The Kennedy tapes Garrow quotes (86.2, 88.4, 88.6, 108.1–2, 111.7, 112.1): PRDE only; the Miller Center has none.
-  Hearing them would settle Robert Kennedy's words (May 20–21, 1963) and the meetings of Aug. 28 and Sept. 19, 1963.
-  The meetings of May 20 and 21, 1963 on civil rights (Tapes 88.2, 88.6; JFK, Robert Kennedy, Marshall, Sorensen, White)
-  are not yet entries: dated by the catalogue alone.
-- Johnson and DeLoach, Nov. 20, 1964, 4:23 p.m. (PRDE 4005058), and Reedy and Lee White, Nov. 19, 10:50 a.m. (PRDE
-  4005056): catalogue rows only; whether either is on King is not known.
-- Reedy on a "strong recommendation" for voting legislation, Feb. 6, 1965 (Garrow 387; *New York Times*, Feb. 7, 1965):
-  undated in the text.
-- Judge Simpson's orders at St. Augustine, June 9 and Aug. 5, 1964 (Garrow cites *Young v. Davis*, 9 Race Rel. L. Rep.
-  1515, June 22, 1964), and the records of *Kelley v. Page* and *Williams v. Wallace*: not read.
-- Johnson's Daily Diary beyond the National Archives Catalog's fifty days (discoverlbj.org refuses this environment):
-  the dates Garrow gives for King's meetings at the White House to be set against it.
+- The Church Committee's Book III (S. Rep. No. 94-755) on the FBI and King: where Garrow's FOIA files were first made public; `Made public: Check` stands on the FBI entries until it is read for each.
+- The Kennedy tapes Garrow quotes (86.2, 88.4, 88.6, 108.1–2, 111.7, 112.1): PRDE only; the Miller Center has none. Hearing them would settle Robert Kennedy's words (May 20–21, 1963) and the meetings of Aug. 28 and Sept. 19, 1963. The meetings of May 20 and 21, 1963 on civil rights (Tapes 88.2, 88.6; JFK, Robert Kennedy, Marshall, Sorensen, White) are not yet entries: dated by the catalogue alone.
+- Johnson and DeLoach, Nov. 20, 1964, 4:23 p.m. (PRDE 4005058), and Reedy and Lee White, Nov. 19, 10:50 a.m. (PRDE 4005056): catalogue rows only; whether either is on King is not known.
+- Reedy on a "strong recommendation" for voting legislation, Feb. 6, 1965 (Garrow 387; *New York Times*, Feb. 7, 1965): undated in the text.
+- Judge Simpson's orders at St. Augustine, June 9 and Aug. 5, 1964 (Garrow cites *Young v. Davis*, 9 Race Rel. L. Rep. 1515, June 22, 1964), and the records of *Kelley v. Page* and *Williams v. Wallace*: not read.
+- Johnson's Daily Diary beyond the National Archives Catalog's fifty days (discoverlbj.org refuses this environment): the dates Garrow gives for King's meetings at the White House to be set against it.

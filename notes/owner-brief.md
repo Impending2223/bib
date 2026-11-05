@@ -1,9 +1,6 @@
 # The owner's instructions, verbatim
 
-The messages behind the brief in CLAUDE.md, copied from the owner's Claude Code sessions of Oct. 1-6, 2026 (times
-UTC). The calendar's first instructions were given in an earlier claude.ai chat, not kept here; the owner quoted
-them again on Oct. 1 (the second message below). Quoted passages are the owner's; nothing is paraphrased. Where a
-message also dealt with other work, only the part on the calendar or the notes is given, and the cut is marked [...].
+The messages behind the brief in CLAUDE.md, copied from the owner's Claude Code sessions of Oct. 1-6, 2026 (times UTC). The calendar's first instructions were given in an earlier claude.ai chat, not kept here; the owner quoted them again on Oct. 1 (the second message below). Quoted passages are the owner's; nothing is paraphrased. Where a message also dealt with other work, only the part on the calendar or the notes is given, and the cut is marked [...].
 
 ## The calendar extended
 
@@ -115,10 +112,7 @@ message also dealt with other work, only the part on the calendar or the notes i
 
 ## The rulings of Oct. 28-30, 2026
 
-Copied Oct. 30, 2026, from the session's transcript, for the provenance table of `notes/briefs/reader.md`. Times UTC;
-the series dates each ruling by the owner's day in Pacific time (00:22 UTC on Oct. 28 is the evening of Oct. 27
-there). The 22:26 message asked what gave the readers their view of military matters; the 22:32 "Please do"
-approved the ruling proposed in reply (CLAUDE.md, "Military matters"). Cuts marked [...].
+Copied Oct. 30, 2026, from the session's transcript, for the provenance table of `notes/briefs/reader.md`. Times UTC; the series dates each ruling by the owner's day in Pacific time (00:22 UTC on Oct. 28 is the evening of Oct. 27 there). The 22:26 message asked what gave the readers their view of military matters; the 22:32 "Please do" approved the ruling proposed in reply (CLAUDE.md, "Military matters"). Cuts marked [...].
 
 ### Records cited, units of claim, one event one entry
 

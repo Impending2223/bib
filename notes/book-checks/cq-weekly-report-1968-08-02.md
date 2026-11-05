@@ -1,64 +1,22 @@
 # *Congressional Quarterly Weekly Report*, Aug. 2, 1968 (vol. 26, no. 31): a reading against the calendar
 
-Card `w.cq-weekly-report`. Cited by issue date and printed page: "[[w.cq-weekly-report]], Aug. 2, 1968, 2073"; no link
-(no open copy). Read Nov. 1, 2026, from the owner's scan (81 PDF pages, no text layer), OCR'd a page a file
-(`scratchpad/cq68/pg/n68-31-NNN.txt`, page images beside them, 4882 × 6225, about 600 dpi).
+Card `w.cq-weekly-report`. Cited by issue date and printed page: "[[w.cq-weekly-report]], Aug. 2, 1968, 2073"; no link (no open copy). Read Nov. 1, 2026, from the owner's scan (81 PDF pages, no text layer), OCR'd a page a file (`scratchpad/cq68/pg/n68-31-NNN.txt`, page images beside them, 4882 × 6225, about 600 dpi).
 
-Offset: printed = PDF + 2014 throughout (PDF 1 the cover, "Pages 2016–2093"; PDF 2 the Boxscore, p. 2016; PDF 79 p.
-2093; PDF 80–81 the back cover). No page scanned twice. Checked on the running feet of pp. 2017, 2018, 2019, 2020,
-2022, 2023, 2025–36, 2038–47, 2050, 2052–60, 2062–64, 2066–68, 2070–80, 2082–93 (the OCR misreads PDF 7's foot as
-"0001" and PDF 23's as "9087": pp. 2021 and 2037, between their neighbors).
+Offset: printed = PDF + 2014 throughout (PDF 1 the cover, "Pages 2016–2093"; PDF 2 the Boxscore, p. 2016; PDF 79 p. 2093; PDF 80–81 the back cover). No page scanned twice. Checked on the running feet of pp. 2017, 2018, 2019, 2020, 2022, 2023, 2025–36, 2038–47, 2050, 2052–60, 2062–64, 2066–68, 2070–80, 2082–93 (the OCR misreads PDF 7's foot as "0001" and PDF 23's as "9087": pp. 2021 and 2037, between their neighbors).
 
-What it is: floor action (the foreign aid bill, military construction, Transportation, labor-management trusts,
-higher education, interest rates, Sprague, pipeline safety, food stamps, the housing act's summary, water pollution,
-continuing appropriations, Palmetto Bend, sea grants, rivers and harbors, juvenile delinquency, estuaries, fisheries,
-poultry, guns, mutual funds, postal assaults, power relicensing, highways: 2017–53); committees (2054–57); the voters
-of 1968 (2058–62, 2065); the Peace Corps and the draft (2063–65); the Republican convention's preliminaries, the
-platform hearings and CQ's chronology, July 29–31 (2066–68); politics (2069–75, the Presidential Scoreboard 2074,
-Louisiana's primary outlook 2072–73, Arkansas's primary of July 30, 2073–75); lobbying (2076–77, 2079); around the
-Capitol (2078–79); Public Laws (2080–81); the Presidential Report (2082); the Senate's and the House's vote charts
-(2083–93). Not read for entries: the Public Laws list (2080–81; the laws' signings are the calendar's signing entries,
-and its histories are each bill's) and the vote charts' member columns (only each roll call's heading and count).
+What it is: floor action (the foreign aid bill, military construction, Transportation, labor-management trusts, higher education, interest rates, Sprague, pipeline safety, food stamps, the housing act's summary, water pollution, continuing appropriations, Palmetto Bend, sea grants, rivers and harbors, juvenile delinquency, estuaries, fisheries, poultry, guns, mutual funds, postal assaults, power relicensing, highways: 2017–53); committees (2054–57); the voters of 1968 (2058–62, 2065); the Peace Corps and the draft (2063–65); the Republican convention's preliminaries, the platform hearings and CQ's chronology, July 29–31 (2066–68); politics (2069–75, the Presidential Scoreboard 2074, Louisiana's primary outlook 2072–73, Arkansas's primary of July 30, 2073–75); lobbying (2076–77, 2079); around the Capitol (2078–79); Public Laws (2080–81); the Presidential Report (2082); the Senate's and the House's vote charts (2083–93). Not read for entries: the Public Laws list (2080–81; the laws' signings are the calendar's signing entries, and its histories are each bill's) and the vote charts' member columns (only each roll call's heading and count).
 
-No redistricting table and no recomputed House vote by district in this issue: Louisiana's outlook (2072–73) prints
-only the candidates by district.
+No redistricting table and no recomputed House vote by district in this issue: Louisiana's outlook (2072–73) prints only the candidates by district.
 
-Records: none. The *Weekly Report* has no notes; it names its sources in the text (UPI, the *Des Moines Register*, the
-*Pittsburgh Press*, the Gallup and Harris polls): no `sources/cited-records/` file. Primary records read: Voteview's
-roll calls of July 15–31 (every Senate and House roll call the issue reports, 38 in all, read through its API: the
-Senate's CQ vote number + 315, the House's + 245, in the 90th Congress's numbering); the Public Papers' items 391
-(the postal commission), 408 (Fogarty), 409 (Air Quality Board), 425 (the news conference of July 31, its impacted
-school aid passage at 857), from `sources/ppp-text`. Found, not read: the Statutes at Large of the laws signed July
-26–27 (Interior appropriation, PL 90-425; S. 1752, PL 90-427; the veterans' bills).
+Records: none. The *Weekly Report* has no notes; it names its sources in the text (UPI, the *Des Moines Register*, the *Pittsburgh Press*, the Gallup and Harris polls): no `sources/cited-records/` file. Primary records read: Voteview's roll calls of July 15–31 (every Senate and House roll call the issue reports, 38 in all, read through its API: the Senate's CQ vote number + 315, the House's + 245, in the 90th Congress's numbering); the Public Papers' items 391 (the postal commission), 408 (Fogarty), 409 (Air Quality Board), 425 (the news conference of July 31, its impacted school aid passage at 857), from `sources/ppp-text`. Found, not read: the Statutes at Large of the laws signed July 26–27 (Interior appropriation, PL 90-425; S. 1752, PL 90-427; the veterans' bills).
 
-Patch: `inbox/2026-11-01-cq-1968-08-02.yaml`: 109 new entries, each claimed in the ledger; 30 ops on entries in the
-calendar (cites, Checks, one primary record, three edits, one `also`). patch-check: 0 errors, 58 warnings, each a same-day,
-same-thread set of distinct events (the platform sessions, the campaign's days). Merged into a scratch copy of the tree
-(duplicate flags taken `keep`): `./bib check` 0 errors, no new warning from these entries.
+Patch: `inbox/2026-11-01-cq-1968-08-02.yaml`: 109 new entries, each claimed in the ledger; 30 ops on entries in the calendar (cites, Checks, one primary record, three edits, one `also`). patch-check: 0 errors, 58 warnings, each a same-day, same-thread set of distinct events (the platform sessions, the campaign's days). Merged into a scratch copy of the tree (duplicate flags taken `keep`): `./bib check` 0 errors, no new warning from these entries.
 
 ## Checked against the page images (Nov. 1, 2026)
 
-Second pass, at the orchestrator's request: every figure, date, name, vote and quotation in the patch's new entries
-and ops read on the page image (crops of 560-820 px a column from the 600-dpi scans), page by page: pp. 2017, 2018,
-2019, 2021, 2022, 2023, 2024, 2026, 2027, 2028, 2029, 2030, 2031, 2038, 2039, 2040, 2041, 2043, 2044, 2045, 2046,
-2050, 2052, 2053, 2054, 2055, 2056, 2057, 2058, 2064, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075,
-2076, 2077, 2078, 2079, 2085, 2090. Roll-call counts: Voteview, as before, against CQ's (the image read for CQ's own
-figure where a Check cites it). Not read on the image, and not relied on for a figure: pp. 2042, 2047-49, 2051, 2092
-(the held ops' juvenile delinquency, gun and farm cites, and the postal bill, rest on the existing entries' figures or
-Voteview; their CQ pages bear out the acts, read in the OCR).
+Second pass, at the orchestrator's request: every figure, date, name, vote and quotation in the patch's new entries and ops read on the page image (crops of 560-820 px a column from the 600-dpi scans), page by page: pp. 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2026, 2027, 2028, 2029, 2030, 2031, 2038, 2039, 2040, 2041, 2043, 2044, 2045, 2046, 2050, 2052, 2053, 2054, 2055, 2056, 2057, 2058, 2064, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2085, 2090. Roll-call counts: Voteview, as before, against CQ's (the image read for CQ's own figure where a Check cites it). Not read on the image, and not relied on for a figure: pp. 2042, 2047-49, 2051, 2092 (the held ops' juvenile delinquency, gun and farm cites, and the postal bill, rest on the existing entries' figures or Voteview; their CQ pages bear out the acts, read in the OCR).
 
-Corrections made from the images (17): Sparkman's quotation completed ("ever considered"); the continuing resolution,
-"action completed on" three bills, not "enacted"; the rivers and harbors bill's 62 Republicans and 24 Democrats
-attributed to CQ (Voteview counts 85 nays); Watson's restrictions, an end to Saturday delivery "prepared for"; Green
-(William J. Green III) tagged by his own key, not his father's; the Crossley poll, Nixon carrying only 126 of the eight
-States' electoral votes; Hruska on Clark's "hesitance" in enforcing Congress's curbs on the Court's crime decisions,
-not "the crime act"; Tydings's date (July 28 is his statement; the request to the executive committee undated);
-Humphrey not driven away "from campaigning in Negro communities"; the Massachusetts and Oregon figures given as
-Humphrey's; Humphrey "a co-founder" of the ADA, not its founder; Brewer against Hoff's amendment, his words quoted;
-the day of Rampton's proposal a Check; Alexander's share 34.5 from the counts (CQ prints 35.5), a Check; the Alliance
-for Labor Action, Reuther's press conference in Chicago (not both men's), farm workers "in particular"; Bolsa Island,
-cancelled after Edison withdrew, the agencies' joint announcement; McClellan's amendment "as Bayh modified it".
-Nothing dropped.
+Corrections made from the images (17): Sparkman's quotation completed ("ever considered"); the continuing resolution, "action completed on" three bills, not "enacted"; the rivers and harbors bill's 62 Republicans and 24 Democrats attributed to CQ (Voteview counts 85 nays); Watson's restrictions, an end to Saturday delivery "prepared for"; Green (William J. Green III) tagged by his own key, not his father's; the Crossley poll, Nixon carrying only 126 of the eight States' electoral votes; Hruska on Clark's "hesitance" in enforcing Congress's curbs on the Court's crime decisions, not "the crime act"; Tydings's date (July 28 is his statement; the request to the executive committee undated); Humphrey not driven away "from campaigning in Negro communities"; the Massachusetts and Oregon figures given as Humphrey's; Humphrey "a co-founder" of the ADA, not its founder; Brewer against Hoff's amendment, his words quoted; the day of Rampton's proposal a Check; Alexander's share 34.5 from the counts (CQ prints 35.5), a Check; the Alliance for Labor Action, Reuther's press conference in Chicago (not both men's), farm workers "in particular"; Bolsa Island, cancelled after Edison withdrew, the agencies' joint announcement; McClellan's amendment "as Bayh modified it". Nothing dropped.
 
 ## Cites added to entries already in the calendar
 
@@ -78,9 +36,7 @@ Nothing dropped.
 
 ### Held out of the patch at first, now in it
 
-`claims.resolve` (tools/bib/claims.py) pairs every `src` row with the first item of its card in the note. An entry that
-already cites another issue of the *Weekly Report* (July 26 or Aug. 9) therefore fails the page check ("src row's
-pages ... not among the note's") when a second issue is cited, by `cite` or by an edit. With `resolve` fixed (the orchestrator, Nov. 1, 2026), all but the last are in the patch; the last, on Chester's pending entry, stays out until that entry lands:
+`claims.resolve` (tools/bib/claims.py) pairs every `src` row with the first item of its card in the note. An entry that already cites another issue of the *Weekly Report* (July 26 or Aug. 9) therefore fails the page check ("src row's pages ... not among the note's") when a second issue is cited, by `cite` or by an edit. With `resolve` fixed (the orchestrator, Nov. 1, 2026), all but the last are in the patch; the last, on Chester's pending entry, stays out until that entry lands:
 
 | Entry | Op | Units |
 |---|---|---|
@@ -99,18 +55,15 @@ pages ... not among the note's") when a second issue is cited, by `cite` or by a
 | cal.1968-07-24.elections-1968-3 | edit (base 1a1bdd34): c adds "At his news conference: security forces adequate for the convention"; n: July 26, 1995 (the endorsement); Aug. 2, 2069 (the news conference, security); Check: a police spokesman's "substantial number" of the city's 11,900 police, some 5,500 Guardsmen at "drills" in five armories (2069); also `elections-1968-chicago` | — |
 | cal.1968-07-31.elections-1968-miami (Chester's pending patch, `inbox/2026-10-29-b3-chester.yaml`, not in the ledger: Reagan before the Platform Committee) | cite `..., 2066, 2068 (before the full committee; applauded three times, the only witness so)` | B-D |
 
-Reagan's testimony of July 31 is therefore left out of this patch's entry for the session
-(cal.1968-07-31.elections-1968-miami-3), Chester's entry holding it.
+Reagan's testimony of July 31 is therefore left out of this patch's entry for the session (cal.1968-07-31.elections-1968-miami-3), Chester's entry holding it.
 
 ## Disagreements (CQ against itself or a third record)
 
 - The housing conference report, House, July 26: 227–135 (2031), 226–135 (2044), 228–135 (2090; Voteview RH0900405).
-- Military construction, Michel's recommittal, July 29: "32-50" in the story (2019, 2021; the image read), 32–350 in the
-  chart (2090) and Voteview (RH0900407).
+- Military construction, Michel's recommittal, July 29: "32-50" in the story (2019, 2021; the image read), 32–350 in the chart (2090) and Voteview (RH0900407).
 - Highway conference, Stratton's motion, July 26: CQ 166–167; Voteview 165–169 (RH0900406).
 - H.R. 15198, Fletcher Thompson's amendment, July 25: CQ 156–217; Voteview 155–218 (RH0900402).
-- Rivers and harbors, July 15: CQ 307–86; Voteview 307–85 (RH0900381). Palmetto Bend: CQ 295–104; Voteview 296–103
-  (RH0900385).
+- Rivers and harbors, July 15: CQ 307–86; Voteview 307–85 (RH0900381). Palmetto Bend: CQ 295–104; Voteview 296–103 (RH0900385).
 - Foreign aid, Morse's Alliance amendment, July 31: CQ 31–43 (2019, 2086); Voteview 30–44 (RS0900531).
 - Impacted school funds: $90,965,000 (2018), $96,665,000 (2087), "$91 million" (the Public Papers, 857).
 - The Crossley poll for Rockefeller: "nine heavily populated states" (2066); eight, 200 electoral votes (2067, 2075).
@@ -123,14 +76,7 @@ Reagan's testimony of July 31 is therefore left out of this patch's entry for th
 
 ## New entries
 
-109, every one from this issue alone (the Public Papers and Voteview where linked). The chief: the Senate
-Foreign Relations Committee's report of the aid bill, Fulbright voting against it (July 26); the Senate's Transportation
-appropriation (July 23), interest-rate bill (July 24), mutual fund bill and postal bill (July 26), poultry bill
-(July 29), Sprague's confirmation (July 30); the House's labor-management trusts (July 25), military construction and
-the Sentinel (July 29), food stamps (July 30); the platform committee's sessions of July 29–31 and Nixon's crime
-statement; the RNC's new rules (July 31); Humphrey's release of the unit-rule delegations (July 29); the State
-conventions of Kentucky, Utah and Virginia (July 27); the Alliance for Labor Action (July 23); the postal commission's
-report (July 16); *Humanae Vitae* (July 29).
+109, every one from this issue alone (the Public Papers and Voteview where linked). The chief: the Senate Foreign Relations Committee's report of the aid bill, Fulbright voting against it (July 26); the Senate's Transportation appropriation (July 23), interest-rate bill (July 24), mutual fund bill and postal bill (July 26), poultry bill (July 29), Sprague's confirmation (July 30); the House's labor-management trusts (July 25), military construction and the Sentinel (July 29), food stamps (July 30); the platform committee's sessions of July 29–31 and Nixon's crime statement; the RNC's new rules (July 31); Humphrey's release of the unit-rule delegations (July 29); the State conventions of Kentucky, Utah and Virginia (July 27); the Alliance for Labor Action (July 23); the postal commission's report (July 16); *Humanae Vitae* (July 29).
 
 | Id | Page | c (opening) |
 |---|---|---|
@@ -246,8 +192,7 @@ report (July 16); *Humanae Vitae* (July 29).
 
 ## Passed over
 
-Every dated event the issue treats that is not entered and not already in the calendar, read page by page through
-the issue (the Boxscore's and the vote charts' tables excepted, which date steps already entered).
+Every dated event the issue treats that is not entered and not already in the calendar, read page by page through the issue (the Boxscore's and the vote charts' tables excepted, which date steps already entered).
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -308,24 +253,15 @@ the issue (the Boxscore's and the vote charts' tables excepted, which date steps
 | 2082 | July 29 | Johnson with the officers of the National Association of Counties | lead: the Public Papers' item 416 not read |
 | 2022 | Mar. 28, Mar. 13 | Dominick's earlier gold amendments, 48–25 and 37–39 | lead: not checked against the calendar of March |
 
-Already in the calendar and not cited here (the issue only lists them): Johnson's statements of July 23 on restraint
-(cal.1968-07-23.economy) and on Margaret Price (cal.1968-07-23.democratic-party); the securities bills of July 29
-(cal.1968-07-29.consumers); the governors' conference remarks of July 23 (above).
+Already in the calendar and not cited here (the issue only lists them): Johnson's statements of July 23 on restraint (cal.1968-07-23.economy) and on Margaret Price (cal.1968-07-23.democratic-party); the securities bills of July 29 (cal.1968-07-29.consumers); the governors' conference remarks of July 23 (above).
 
 ## Leads
 
 National
-- Name entries wanted: John M. Bailey, chairman of the Democratic National Committee; Fletcher Thompson (R Ga.), 90th
-  Congress (no roster key found under "Thompson, Fletcher"); Joseph D. Duffey; Harold Willens; Robert F. Goheen;
-  Francis C. Turner, Lowell K. Bridwell (the Executive roster: Federal Highway Administration); Paul J. Tierney (ICC);
-  Jerome J. Keating (letter carriers); Frank Fitzsimmons (Teamsters); David J. McDonald (Steelworkers; no key fits him:
-  `mcdonald-david-l` is the admiral). Each is in an entry of this patch without a tag.
-- Voteview's House numbering for the 90th Congress, second session, at the end of July: CQ's vote number + 245; the
-  Senate's + 315 (checked on 38 roll calls). The CR numbers CQ prints for the House (287–294) do not map the same way.
-- The signings of July 26–27 (Interior appropriation, PL 90-425; S. 1752, PL 90-427; the veterans' bills): entries
-  wait for their Statutes at Large pages.
+- Name entries wanted: John M. Bailey, chairman of the Democratic National Committee; Fletcher Thompson (R Ga.), 90th Congress (no roster key found under "Thompson, Fletcher"); Joseph D. Duffey; Harold Willens; Robert F. Goheen; Francis C. Turner, Lowell K. Bridwell (the Executive roster: Federal Highway Administration); Paul J. Tierney (ICC); Jerome J. Keating (letter carriers); Frank Fitzsimmons (Teamsters); David J. McDonald (Steelworkers; no key fits him: `mcdonald-david-l` is the admiral). Each is in an entry of this patch without a tag.
+- Voteview's House numbering for the 90th Congress, second session, at the end of July: CQ's vote number + 245; the Senate's + 315 (checked on 38 roll calls). The CR numbers CQ prints for the House (287–294) do not map the same way.
+- The signings of July 26–27 (Interior appropriation, PL 90-425; S. 1752, PL 90-427; the veterans' bills): entries wait for their Statutes at Large pages.
 
 States and cities
-- Arkansas's primary of July 30: the 1st District's figures and Rockefeller's are CQ's unofficial returns; the State's
-  canvass (the *Historical Report of the Secretary of State*, as cal.1968-07-30.governors-ar cites it) for the official.
+- Arkansas's primary of July 30: the 1st District's figures and Rockefeller's are CQ's unofficial returns; the State's canvass (the *Historical Report of the Secretary of State*, as cal.1968-07-30.governors-ar cites it) for the official.
 - Louisiana's primary of Aug. 17 (outlook, 2072–73): the candidates by district are there for the day's entry.

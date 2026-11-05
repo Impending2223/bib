@@ -1,444 +1,181 @@
 # The reader's brief
 
-**In force from Oct. 30, 2026** (the owner: "I approve the memo. I approve R5."). This is the one text every agent
-that reads a source against the calendar, or drafts calendar entries, works from; a batch brief adds only its
-assignment (the sources and their copies, the entries, the patch's name, who else is at work). The briefs it replaced
-are kept in `notes/briefs/superseded/`, with CLAUDE.md's reading paragraphs as they stood (`claude-md-brief.md`).
-CLAUDE.md keeps the series' conventions (the files, the forms, the build) and points here; the owner's standing rules
-on reading go here, not into CLAUDE.md.
+**In force from Oct. 30, 2026** (the owner: "I approve the memo. I approve R5."). This is the one text every agent that reads a source against the calendar, or drafts calendar entries, works from; a batch brief adds only its assignment (the sources and their copies, the entries, the patch's name, who else is at work). The briefs it replaced are kept in `notes/briefs/superseded/`, with CLAUDE.md's reading paragraphs as they stood (`claude-md-brief.md`). CLAUDE.md keeps the series' conventions (the files, the forms, the build) and points here; the owner's standing rules on reading go here, not into CLAUDE.md.
 
-Each rule is numbered (R1, R2 ...). Where each comes from is the table at the foot, "The rulings": the owner's ruling,
-dated, with the owner's words, or "house rule" where the rule is the series' own practice. The owner's messages are in
-`notes/owner-brief.md`. To amend a rule: change its text here and add a row to the table. Never append a ruling to a
-rule's text.
+Each rule is numbered (R1, R2 ...). Where each comes from is the table at the foot, "The rulings": the owner's ruling, dated, with the owner's words, or "house rule" where the rule is the series' own practice. The owner's messages are in `notes/owner-brief.md`. To amend a rule: change its text here and add a row to the table. Never append a ruling to a rule's text.
 
 Where a rule says "CLAUDE.md, X", the convention is there, under that heading, and is not repeated here.
 
 ## A. The work
 
-**R1. What the calendar is.** A calendar of executive and legislative events, and of any other events that left a
-trace, or should have left a trace, on the political and policy histories of the Kennedy and Johnson Administrations,
-their Congresses, or those of their members; at least month by month. Its span: Jan. 6, 1960, to Jan. 20, 1969, and
-the primary seasons of 1972 and 1976. Each entry is a memory aid and a bibliographic record, not a narrative: a brief
-statement and its pointers, names and events. Each event carries a bibliography, or points to the entry that does.
+**R1. What the calendar is.** A calendar of executive and legislative events, and of any other events that left a trace, or should have left a trace, on the political and policy histories of the Kennedy and Johnson Administrations, their Congresses, or those of their members; at least month by month. Its span: Jan. 6, 1960, to Jan. 20, 1969, and the primary seasons of 1972 and 1976. Each entry is a memory aid and a bibliographic record, not a narrative: a brief statement and its pointers, names and events. Each event carries a bibliography, or points to the entry that does.
 
-**R2. The threads.** Every thread is its matter as Washington and its counterparts met it; "should have left a trace"
-takes in what Washington did not see. The threads, their scopes and the subthreads: `lists/cal/th.yaml` and
-`notes/threads.md`; the conventions (subthreads, ghosts, no name beginning "The"): CLAUDE.md, "Entries". A reader
-proposes a new thread or subthread by patch; never writes the thread index.
+**R2. The threads.** Every thread is its matter as Washington and its counterparts met it; "should have left a trace" takes in what Washington did not see. The threads, their scopes and the subthreads: `lists/cal/th.yaml` and `notes/threads.md`; the conventions (subthreads, ghosts, no name beginning "The"): CLAUDE.md, "Entries". A reader proposes a new thread or subthread by patch; never writes the thread index.
 
 **R3. A reading run.** For each source, in order:
 1. The cites the calendar already makes to it (`./bib works show <card>`): hold each up (R33).
-2. The whole source against the calendar over its span (Part B): each event the calendar holds that the source bears
-   on takes its cite (R29); each event it lacks is a new entry.
+2. The whole source against the calendar over its span (Part B): each event the calendar holds that the source bears on takes its cite (R29); each event it lacks is a new entry.
 3. What the source rests on (Part E).
 4. What you pass over (Part F).
-5. The patch, the book-check file (`notes/book-checks/<card without w.>.md`), the report (Part G).
-A run may be stopped at any time: finish each source's patch before the next source.
+5. The patch, the book-check file (`notes/book-checks/<card without w.>.md`), the report (Part G). A run may be stopped at any time: finish each source's patch before the next source.
 
-**R4. Read it; nothing from memory.** Every date, figure, name and quotation from a page you have read. What you
-recall and have not verified is a lead (R50), never an entry. A copy's page you have not checked against the image
-is not yet read (R54).
+**R4. Read it; nothing from memory.** Every date, figure, name and quotation from a page you have read. What you recall and have not verified is a lead (R50), never an entry. A copy's page you have not checked against the image is not yet read (R54).
 
 ## B. What is an entry
 
-**R5. The test.** A dated event within the span that a thread follows, or should, is an entry. Reading a work, take
-what the work dates and treats as an event: its notice is the test, whether or not the calendar holds the event yet.
-R6 to R16 name the kinds of event readers have passed over; each is an entry.
+**R5. The test.** A dated event within the span that a thread follows, or should, is an entry. Reading a work, take what the work dates and treats as an event: its notice is the test, whether or not the calendar holds the event yet. R6 to R16 name the kinds of event readers have passed over; each is an entry.
 
-**R6. The public record.** Messages, addresses, press conferences, orders, proclamations, signings, statutes, votes,
-hearings, reports, decisions, elections, nominations and appointments.
+**R6. The public record.** Messages, addresses, press conferences, orders, proclamations, signings, statutes, votes, hearings, reports, decisions, elections, nominations and appointments.
 
-**R7. The informal record.** For a person with a public role (executive, legislative, policy, foreign relations, the
-administration of justice, the campaigns and the parties' communications): informal meetings, calls, conversations
-and letters on public business or politics; lobbying; agreements and bargains; the planning of policy, personnel,
-operations and communications; strategy sessions; appointments settled; in the West Wing, the members' offices, the
-campaign headquarters. Their record is mostly memoirs, biographies, oral histories, recordings and diaries: date each
-by its source, cite it by page, and name whose account it is where it is one participant's (R24).
+**R7. The informal record.** For a person with a public role (executive, legislative, policy, foreign relations, the administration of justice, the campaigns and the parties' communications): informal meetings, calls, conversations and letters on public business or politics; lobbying; agreements and bargains; the planning of policy, personnel, operations and communications; strategy sessions; appointments settled; in the West Wing, the members' offices, the campaign headquarters. Their record is mostly memoirs, biographies, oral histories, recordings and diaries: date each by its source, cite it by page, and name whose account it is where it is one participant's (R24).
 
-**R8. The papers of government.** A staff or planning paper, a White House staff memorandum, an ambassador's,
-commander's or consulate's cable, an intelligence memorandum or estimate: each an entry, dated by the paper, the copy
-FRUS prints cited first where it prints one.
+**R8. The papers of government.** A staff or planning paper, a White House staff memorandum, an ambassador's, commander's or consulate's cable, an intelligence memorandum or estimate: each an entry, dated by the paper, the copy FRUS prints cited first where it prints one.
 
-**R9. The parties and the members.** Never "minor": the position-taking, messaging, organization, communication,
-policy formation and campaigning of either party in or out of the White House and of any member of Congress, leader or not:
-a party's statements, papers, declarations and platforms; its committees' and leaderships' meetings and decisions; the
-founding and doings of its factions and allied groups (the Ripon Society, the Free Society Association, Young Americans
-for Freedom, the American Conservative Union, the Democratic Study Group); and the dated public word (a speech,
-statement, press conference, interview, article or column under the person's own name) of a member, a governor, a
-party officer or a party figure out of office (Eisenhower, Nixon, Goldwater, Rockefeller, Romney, Scranton, Percy,
-Reagan) on policy or politics. Threads: Republican Party, its subthread In Congress, Democratic Party, Conservative
-movement; the President's party as he leads it (the national committee he runs, his campaign), the year's elections
-thread, also Democratic Party.
+**R9. The parties and the members.** Never "minor": the position-taking, messaging, organization, communication, policy formation and campaigning of either party in or out of the White House and of any member of Congress, leader or not: a party's statements, papers, declarations and platforms; its committees' and leaderships' meetings and decisions; the founding and doings of its factions and allied groups (the Ripon Society, the Free Society Association, Young Americans for Freedom, the American Conservative Union, the Democratic Study Group); and the dated public word (a speech, statement, press conference, interview, article or column under the person's own name) of a member, a governor, a party officer or a party figure out of office (Eisenhower, Nixon, Goldwater, Rockefeller, Romney, Scranton, Percy, Reagan) on policy or politics. Threads: Republican Party, its subthread In Congress, Democratic Party, Conservative movement; the President's party as he leads it (the national committee he runs, his campaign), the year's elections thread, also Democratic Party.
 
-**R10. The counterparts.** Every authority, movement or armed group that Washington or its counterparts dealt with,
-or later would, as a matter of foreign affairs, ally or adversary, recognized or not:
+**R10. The counterparts.** Every authority, movement or armed group that Washington or its counterparts dealt with, or later would, as a matter of foreign affairs, ally or adversary, recognized or not:
 - the sovereigns: Hanoi, Peking, Moscow, Saigon, Bonn, London, Havana, and every other;
-- the authorities without recognition: a secessionist state, a de facto regime, a government in exile (Biafra,
-  Katanga, Rhodesia);
-- the parties, movements, factions, officers' circles, insurgents, guerrillas, militias and bands, in power or out of
-  it, in arms or not (the NLF, the Ba'ath, Fatah and the PLO, the Muslim Brotherhood, the Kurds, the communist parties:
-  the PCI, the PCF, the JCP, the PKI).
-Their decisions, meetings, papers, orders, envoys and public word on a matter a thread follows, or later followed,
-each dated by its own record, with "Made public:" (R27) where the record was private (a Politburo resolution, a
-plenum, Mao with Hồ at Changsha). Read them in their own languages where the source is in one; the entry is in the
-calendar's English.
+- the authorities without recognition: a secessionist state, a de facto regime, a government in exile (Biafra, Katanga, Rhodesia);
+- the parties, movements, factions, officers' circles, insurgents, guerrillas, militias and bands, in power or out of it, in arms or not (the NLF, the Ba'ath, Fatah and the PLO, the Muslim Brotherhood, the Kurds, the communist parties: the PCI, the PCF, the JCP, the PKI). Their decisions, meetings, papers, orders, envoys and public word on a matter a thread follows, or later followed, each dated by its own record, with "Made public:" (R27) where the record was private (a Politburo resolution, a plenum, Mao with Hồ at Changsha). Read them in their own languages where the source is in one; the entry is in the calendar's English.
 
-*Before the radar.* Such a body, and its leaders, are followed from their beginnings, not from the day Washington took
-notice: the founding, the meetings, the plans, the recruiting, the contacts, the money and the arms, the splits and the
-purges; the officers before the coup, the leaders of an insurrection before the rising, the rebels before the
-rebellion, the party before its rule. The test is what the body became, then or later (a coup, a rising, a war, a
-government, a matter of foreign affairs at any date, after the span too), where the work being read dates the act and
-says what came of it: what came of it is the work's, never the reader's memory (R4). The first notice Washington took
-(the first cable, report or estimate naming the body, its leaders or its plot) is an entry of its own, tagged
-`notice:us`; a counterpart's first notice, where its record shows it, `notice:<the counterpart>` (`notice:uk`,
-`notice:ussr`).
+*Before the radar.* Such a body, and its leaders, are followed from their beginnings, not from the day Washington took notice: the founding, the meetings, the plans, the recruiting, the contacts, the money and the arms, the splits and the purges; the officers before the coup, the leaders of an insurrection before the rising, the rebels before the rebellion, the party before its rule. The test is what the body became, then or later (a coup, a rising, a war, a government, a matter of foreign affairs at any date, after the span too), where the work being read dates the act and says what came of it: what came of it is the work's, never the reader's memory (R4). The first notice Washington took (the first cable, report or estimate naming the body, its leaders or its plot) is an entry of its own, tagged `notice:us`; a counterpart's first notice, where its record shows it, `notice:<the counterpart>` (`notice:uk`, `notice:ussr`).
 
-**R11. The organized interests.** The unions and their officers (Meany, Reuther, Hoffa, Carey, Dubinsky, Randolph,
-Chavez); the business, farm and professional bodies (the Chamber of Commerce, the NAM, the Business Council, the Farm
-Bureau, the AMA, the ABA, the NEA); the lobbies and associations; the churches' bodies; the civil-rights and peace
-organizations; the foundations and study groups (the Ford Foundation's Gray Areas grants, Brookings, RAND, the CED);
-and their leaders. Entries: their dated public word on policy or politics (a statement, testimony, a resolution, an
-endorsement, a convention, a campaign); their dealings with officials and members; their acts that start, fund or
-shape a program, a bill or a campaign the calendar follows (a grant, a study taken up, a strike, a contribution); the
-investigations and prosecutions of them. Threads: Labor for the unions' politics; Labor disputes for strikes; the
-event's own otherwise.
+**R11. The organized interests.** The unions and their officers (Meany, Reuther, Hoffa, Carey, Dubinsky, Randolph, Chavez); the business, farm and professional bodies (the Chamber of Commerce, the NAM, the Business Council, the Farm Bureau, the AMA, the ABA, the NEA); the lobbies and associations; the churches' bodies; the civil-rights and peace organizations; the foundations and study groups (the Ford Foundation's Gray Areas grants, Brookings, RAND, the CED); and their leaders. Entries: their dated public word on policy or politics (a statement, testimony, a resolution, an endorsement, a convention, a campaign); their dealings with officials and members; their acts that start, fund or shape a program, a bill or a campaign the calendar follows (a grant, a study taken up, a strike, a contribution); the investigations and prosecutions of them. Threads: Labor for the unions' politics; Labor disputes for strikes; the event's own otherwise.
 
-**R12. The parties to an event.** A defendant, a witness or a plaintiff in an event the calendar records, on that
-event (Hoffa's interviews on his trials).
+**R12. The parties to an event.** A defendant, a witness or a plaintiff in an event the calendar records, on that event (Hoffa's interviews on his trials).
 
-**R13. The press.** The press is in where it treats politics or current events and has reach, influence or access:
-the networks' evening news, its anchors, correspondents and news presidents; columnists syndicated nationally on
-politics; the beat reporters in Vietnam, on national politics and with the candidates, on civil rights, on diplomacy
-and on the Court; the publishers, editors and bureau chiefs of the national papers, the wires and the newsweeklies;
-and the journals and magazines *National Review*, *Human Events*, *The New Republic*, *The Reporter*, *Commentary*,
-*Foreign Affairs*, *The New Yorker*, *Life*, *Look* and the *Saturday Evening Post*, others (*The Nation*, *Harper's*,
-*The Atlantic*, *The New York Review of Books*, *The Public Interest*, *Ramparts*) where two works treat them as a
-voice. The press's routine coverage of matters of interest is a daily list (each broadcast's segments, the front
-pages, the covers), as far as the record allows. Its comment, its decisions on what to cover, its coverage where a
-work or a primary record treats it as an event, and its figures' exchanges with other named figures on public
-business are entries.
+**R13. The press.** The press is in where it treats politics or current events and has reach, influence or access: the networks' evening news, its anchors, correspondents and news presidents; columnists syndicated nationally on politics; the beat reporters in Vietnam, on national politics and with the candidates, on civil rights, on diplomacy and on the Court; the publishers, editors and bureau chiefs of the national papers, the wires and the newsweeklies; and the journals and magazines *National Review*, *Human Events*, *The New Republic*, *The Reporter*, *Commentary*, *Foreign Affairs*, *The New Yorker*, *Life*, *Look* and the *Saturday Evening Post*, others (*The Nation*, *Harper's*, *The Atlantic*, *The New York Review of Books*, *The Public Interest*, *Ramparts*) where two works treat them as a voice. The press's routine coverage of matters of interest is a daily list (each broadcast's segments, the front pages, the covers), as far as the record allows. Its comment, its decisions on what to cover, its coverage where a work or a primary record treats it as an event, and its figures' exchanges with other named figures on public business are entries.
 
 How to apply it:
-- An entry still takes R5's test: the work being read, or a primary record (the tapes, the Daily Diary, FRUS), dates
-  and treats it. A column, a broadcast, a cover story, an editorial decision (a network's choice to air or drop, a
-  paper's to hold a story) or an exchange (a call, a dinner, a background session, an interview with a principal),
-  each its own entry (R17), filed under the thread of its matter; the exchanges on R7's terms.
-- Named so far: Part III's press sections (K–J Cong. III.J, Opp. III.J, 1968 III.O, Cong. III.M: Lippmann, Reston,
-  Krock, the Alsops, Pearson, Anderson, Evans and Novak, McGrory, Buckley, Rovere, Wicker, Sidey, Broder). Others the
-  rule takes in: the columnists Kraft, Childs, David Lawrence, Drummond, Kilpatrick, Fleeson, Kempton; the anchors and
-  correspondents Cronkite, Huntley, Brinkley, Sevareid, Howard K. Smith, Reasoner, Safer, Kalb, Scali; the news
-  presidents and executives Friendly, Stanton, Paley, Sarnoff, Kintner, Frank; in Vietnam Halberstam, Sheehan,
-  Browne, Arnett, Faas, Mohr, Ward Just, Braestrup, Beech; in national politics and with the candidates White, Witcover,
-  Germond, Apple, McGinniss, Newfield; on civil rights Sitton, Karl Fleming, Gene Roberts; on diplomacy and the Court
-  Max Frankel, Chalmers Roberts, Anthony Lewis; the publishers and editors Graham, Bradlee, Luce, Sulzberger, Otis
-  Chandler, Ascoli, Podhoretz. Enter what they did; tag only a name entry; propose in your leads a Part III entry for
-  each without one, and any other figure the rule takes in, with the works that treat the figure.
-- The daily list: where the work gives a day's coverage, write it in your book-check file under "## The press", a line
-  each: date | outlet | broadcast, front page or cover | the items, clipped, matters of interest only | page. The merger
-  copies the lines into `notes/press.md`, by date, until the list is built. A run of the papers or the broadcasts found
-  open (an index, transcripts, scans, a catalogue of segments): name it in your leads, its address, span and access.
+- An entry still takes R5's test: the work being read, or a primary record (the tapes, the Daily Diary, FRUS), dates and treats it. A column, a broadcast, a cover story, an editorial decision (a network's choice to air or drop, a paper's to hold a story) or an exchange (a call, a dinner, a background session, an interview with a principal), each its own entry (R17), filed under the thread of its matter; the exchanges on R7's terms.
+- Named so far: Part III's press sections (K–J Cong. III.J, Opp. III.J, 1968 III.O, Cong. III.M: Lippmann, Reston, Krock, the Alsops, Pearson, Anderson, Evans and Novak, McGrory, Buckley, Rovere, Wicker, Sidey, Broder). Others the rule takes in: the columnists Kraft, Childs, David Lawrence, Drummond, Kilpatrick, Fleeson, Kempton; the anchors and correspondents Cronkite, Huntley, Brinkley, Sevareid, Howard K. Smith, Reasoner, Safer, Kalb, Scali; the news presidents and executives Friendly, Stanton, Paley, Sarnoff, Kintner, Frank; in Vietnam Halberstam, Sheehan, Browne, Arnett, Faas, Mohr, Ward Just, Braestrup, Beech; in national politics and with the candidates White, Witcover, Germond, Apple, McGinniss, Newfield; on civil rights Sitton, Karl Fleming, Gene Roberts; on diplomacy and the Court Max Frankel, Chalmers Roberts, Anthony Lewis; the publishers and editors Graham, Bradlee, Luce, Sulzberger, Otis Chandler, Ascoli, Podhoretz. Enter what they did; tag only a name entry; propose in your leads a Part III entry for each without one, and any other figure the rule takes in, with the works that treat the figure.
+- The daily list: where the work gives a day's coverage, write it in your book-check file under "## The press", a line each: date | outlet | broadcast, front page or cover | the items, clipped, matters of interest only | page. The merger copies the lines into `notes/press.md`, by date, until the list is built. A run of the papers or the broadcasts found open (an index, transcripts, scans, a catalogue of segments): name it in your leads, its address, span and access.
 
-**R14. Military matters.** A military operation, action or incident the work dates and treats, in every theater
-(Vietnam, Laos, Cambodia, Thailand, the Korean DMZ, the Dominican Republic, Cuba, Berlin's convoys, the Congo airlift,
-the *Liberty*, the *Pueblo*, Palomares, Thule, SAC's alerts): a named operation, a battle, an engagement; a deployment,
-a unit's arrival or withdrawal, a base opened; a logistical decision or act (a port, an airlift, the munitions, the
-construction program); an order, a directive, the rules of engagement; an incident at sea or in the air; an alert, a
-nuclear accident. Its sorties, losses and strength go in `n` with their pages, whether or not the war table carries
-the series. Threads: Vietnam and its subthreads, Air war, Laos, Defense, the event's own.
+**R14. Military matters.** A military operation, action or incident the work dates and treats, in every theater (Vietnam, Laos, Cambodia, Thailand, the Korean DMZ, the Dominican Republic, Cuba, Berlin's convoys, the Congo airlift, the *Liberty*, the *Pueblo*, Palomares, Thule, SAC's alerts): a named operation, a battle, an engagement; a deployment, a unit's arrival or withdrawal, a base opened; a logistical decision or act (a port, an airlift, the munitions, the construction program); an order, a directive, the rules of engagement; an incident at sea or in the air; an alert, a nuclear accident. Its sorties, losses and strength go in `n` with their pages, whether or not the war table carries the series. Threads: Vietnam and its subthreads, Air war, Laos, Defense, the event's own.
 
-**R15. Trips and stretches.** A trip, tour, campaign swing or visit, its places named. An event the source dates only
-to a month, a season or a stretch of days: dated so (`date: '1961-03'`, or the first day with "Check: the day"), never
-"undated"; only what no source dates even to the month is undated, and it is a lead.
+**R15. Trips and stretches.** A trip, tour, campaign swing or visit, its places named. An event the source dates only to a month, a season or a stretch of days: dated so (`date: '1961-03'`, or the first day with "Check: the day"), never "undated"; only what no source dates even to the month is undated, and it is a lead.
 
-**R16. The operations of an event.** The days, stops, actions and incidents of an event the calendar records (the
-Bay of Pigs' landing and its days, the Freedom Rides' stops, a campaign's rallies).
+**R16. The operations of an event.** The days, stops, actions and incidents of an event the calendar records (the Bay of Pigs' landing and its days, the Freedom Rides' stops, a campaign's rallies).
 
-**R17. One event, one entry; an entry is an event-day.** Each act its own entry, dated by its own record: an
-announcement and the act it announces, hearings and the vote, a note and its reply; the first keeps the event's
-bibliography, the rest point back. Spans of two or three days are good, under a week tolerable, anything longer
-suspect. A meeting, document or address whose matter falls in several threads is one entry, filed under its chief
-thread (`thread:`), listed in the others (`also:`). Before adding an entry, compare it with every entry on its day in
-every thread, in the tree and in the ledger of new entries (`./bib ledger find D [--until D]`): where one records the
-event, add to it (R51's additive ops; a pending entry's id takes them too, R49); else claim the new entry in the ledger
-(`./bib ledger add D THREAD ID "a few words" PATCH`) before you write it. File each
-new entry under the thread its matter belongs to, even where that thread has an entry that day; never change an id or
-a thread to get around the merge's duplicate flag.
+**R17. One event, one entry; an entry is an event-day.** Each act its own entry, dated by its own record: an announcement and the act it announces, hearings and the vote, a note and its reply; the first keeps the event's bibliography, the rest point back. Spans of two or three days are good, under a week tolerable, anything longer suspect. A meeting, document or address whose matter falls in several threads is one entry, filed under its chief thread (`thread:`), listed in the others (`also:`). Before adding an entry, compare it with every entry on its day in every thread, in the tree and in the ledger of new entries (`./bib ledger find D [--until D]`): where one records the event, add to it (R51's additive ops; a pending entry's id takes them too, R49); else claim the new entry in the ledger (`./bib ledger add D THREAD ID "a few words" PATCH`) before you write it. File each new entry under the thread its matter belongs to, even where that thread has an entry that day; never change an id or a thread to get around the merge's duplicate flag.
 
 **R18. What is not an entry.** Only:
-- *Out of the brief*: outside the span (before Jan. 6, 1960, or after Jan. 20, 1969, the primary seasons aside); or
-  matter with no bearing on politics or policy anywhere, here or abroad (a sports result, a celebrity's marriage, a
-  finding no government took up). Another country's domestic politics is within the brief, under its country's
-  thread (R2: propose one where none is).
-- *Minor*: a repetition of a position already entered, with nothing new; private or social trivia (family and social
-  matters with no bearing on public business or politics); a unit's routine the work does not treat as an event (a
-  patrol without contact, a supply run).
-- *The passed-over papers*: a covering note or transmittal, a draft not sent, a meeting's preparation, a repetition,
-  private remarks.
-"Below the level" means only a unit's routine, as above. No class of event is passed over in a blanket (R48).
+- *Out of the brief*: outside the span (before Jan. 6, 1960, or after Jan. 20, 1969, the primary seasons aside); or matter with no bearing on politics or policy anywhere, here or abroad (a sports result, a celebrity's marriage, a finding no government took up). Another country's domestic politics is within the brief, under its country's thread (R2: propose one where none is).
+- *Minor*: a repetition of a position already entered, with nothing new; private or social trivia (family and social matters with no bearing on public business or politics); a unit's routine the work does not treat as an event (a patrol without contact, a supply run).
+- *The passed-over papers*: a covering note or transmittal, a draft not sent, a meeting's preparation, a repetition, private remarks. "Below the level" means only a unit's routine, as above. No class of event is passed over in a blanket (R48).
 
 ## C. Writing the entry
 
-**R19. The prose.** Compact, plain, compressed. Record what happened, not what it meant. No praise, blame, irony or
-color: no "for Moscow's benefit", "a good midterm", "the movement reads it as a defeat". Short declaratives and
-fragments; drop articles and verbs where the line still reads. Match the section you add to: read a few of its
-entries first. CLAUDE.md, "The brief", gives a before and after.
+**R19. The prose.** Compact, plain, compressed. Record what happened, not what it meant. No praise, blame, irony or color: no "for Moscow's benefit", "a good midterm", "the movement reads it as a defeat". Short declaratives and fragments; drop articles and verbs where the line still reads. Match the section you add to: read a few of its entries first. CLAUDE.md, "The brief", gives a before and after.
 
 **R20. The fields.** `id` from `./bib new-id cal <date> <thread>`; `when`, `date`, `thread`, `also`; no `s:`.
-- `c`: what happened, in one to three clipped sentences: who, what, the number. A memoir's account is said so in `c`
-  where it matters ("Johnson writes that ...").
+- `c`: what happened, in one to three clipped sentences: who, what, the number. A memoir's account is said so in `c` where it matters ("Johnson writes that ...").
 - `n`: the pointers (Part D).
-- `tags`, hidden: `name:<key>` for every person the entry names, or whose act it records, who has a name entry; the
-  President where the entry is his message, address, press conference, signature, order, proclamation, NSAM, meeting,
-  or a poll of his approval. Not a namesake, not a name in a case's title. `state:` and `city:` for the States and the
-  cities (CLAUDE.md, "The brief", and `notes/threads.md`); `place:` and `province:` for Indochina (CLAUDE.md, "Maps of
-  Indochina").
-- The forms: CLAUDE.md, "House style": the places ("Places in the calendar's entries"), the Vietnamese names
-  ("Vietnamese names and places"), the election results ("Election results in `c`"), a law in `c`; "Markup inside
-  text" for the links, cards and YAML quoting.
+- `tags`, hidden: `name:<key>` for every person the entry names, or whose act it records, who has a name entry; the President where the entry is his message, address, press conference, signature, order, proclamation, NSAM, meeting, or a poll of his approval. Not a namesake, not a name in a case's title. `state:` and `city:` for the States and the cities (CLAUDE.md, "The brief", and `notes/threads.md`); `place:` and `province:` for Indochina (CLAUDE.md, "Maps of Indochina").
+- The forms: CLAUDE.md, "House style": the places ("Places in the calendar's entries"), the Vietnamese names ("Vietnamese names and places"), the election results ("Election results in `c`"), a law in `c`; "Markup inside text" for the links, cards and YAML quoting.
 
-**R21. Names.** `n` ends with "Names:" and every person in `c` who has a name entry, by surname, commas between
-("Names: Heller, Tobin."). Where the tagged persons share a surname, the given name ("Martin Luther King", "Frank
-Johnson"); a son or father with his suffix ("Harry F. Byrd Jr."); a name in its own order as it stands ("Ngô Đình
-Diệm", "Satō", "Haile Selassie"). A justice is named only where the entry quotes his opinion or is about him, not for
-writing or joining one. Nothing after the names but a sentence of its own ("Check: …"); no list or section.
+**R21. Names.** `n` ends with "Names:" and every person in `c` who has a name entry, by surname, commas between ("Names: Heller, Tobin."). Where the tagged persons share a surname, the given name ("Martin Luther King", "Frank Johnson"); a son or father with his suffix ("Harry F. Byrd Jr."); a name in its own order as it stands ("Ngô Đình Diệm", "Satō", "Haile Selassie"). A justice is named only where the entry quotes his opinion or is about him, not for writing or joining one. Nothing after the names but a sentence of its own ("Check: …"); no list or section.
 
-**R22. Corrections.** Change `c` only where a record settles it beyond doubt, and say so in the note ("The Papers date
-it Aug. 26."; "the book's version said plainly"); propose the fix in the patch, saying what the entry said. Else a
-Check. Never rewrite an entry beyond what the source needs.
+**R22. Corrections.** Change `c` only where a record settles it beyond doubt, and say so in the note ("The Papers date it Aug. 26."; "the book's version said plainly"); propose the fix in the patch, saying what the entry said. Else a Check. Never rewrite an entry beyond what the source needs.
 
-**R23. Check.** "Check:" marks a detail to verify ("Check: the day"; "Check: Sorensen gives …"), a sentence of its
-own in `n`.
+**R23. Check.** "Check:" marks a detail to verify ("Check: the day"; "Check: Sorensen gives …"), a sentence of its own in `n`.
 
-**R24. Accounts.** A memoir is its author's account ("by Rusk's account", "Ball writes"), never plain fact against
-another record. Where the record (FRUS, the Public Papers, a tape, the Daily Diary) gives the same event, the record
-first. Where accounts differ, say so: "Check: Sorensen gives …". A journalist's narrative is a secondary source: date
-its events by the record where you can find one.
+**R24. Accounts.** A memoir is its author's account ("by Rusk's account", "Ball writes"), never plain fact against another record. Where the record (FRUS, the Public Papers, a tape, the Daily Diary) gives the same event, the record first. Where accounts differ, say so: "Check: Sorensen gives …". A journalist's narrative is a secondary source: date its events by the record where you can find one.
 
 **R25. The raw material.** Code nothing; keep what the later passes will code:
-- a position or an argument in the source's own words, briefly, with its page, in `n` ("Ball: 'a long protracted war'
-  ([[w.x]], 412)"), not only the clipped `c`;
-- the time and the sequence the source gives: `time:` (UTC, a full ISO instant), `time_approx: true` ("that evening",
-  "about 7"), `follows: [id]` ("afterward", "then"), from Nov. 2, 2026; until then, the words in `n` ("at about 7
-  p.m., p. 412");
-- every figure the source gives, with its page: votes, whip and head counts, dollars, troops, polls, tons, sorties,
-  losses, strength.
+- a position or an argument in the source's own words, briefly, with its page, in `n` ("Ball: 'a long protracted war' ([[w.x]], 412)"), not only the clipped `c`;
+- the time and the sequence the source gives: `time:` (UTC, a full ISO instant), `time_approx: true` ("that evening", "about 7"), `follows: [id]` ("afterward", "then"), from Nov. 2, 2026; until then, the words in `n` ("at about 7 p.m., p. 412");
+- every figure the source gives, with its page: votes, whip and head counts, dollars, troops, polls, tons, sorties, losses, strength.
 
 ## D. Citing
 
-**R26. The order of `n`.** The primary record, read and linked; the works read, each with its pinpoint and, where it
-stands for part, its parenthetical; "Made public:"; "To check:"; "See [[id]]"; "Names:".
+**R26. The order of `n`.** The primary record, read and linked; the works read, each with its pinpoint and, where it stands for part, its parenthetical; "Made public:"; "To check:"; "See [[id]]"; "Names:".
 
-**R27. Made public.** An event done in private and documented in records nobody saw at the time (a recording, a
-memorandum, an FBI file, a Politburo resolution) is dated by the record, and the note says where and when it became
-public: "Made public: Drew Pearson's column, May 24, 1968." ("Made public: [[w.department-of-state-bulletin]], Nov. 19,
-1973, 640–645.")
+**R27. Made public.** An event done in private and documented in records nobody saw at the time (a recording, a memorandum, an FBI file, a Politburo resolution) is dated by the record, and the note says where and when it became public: "Made public: Drew Pearson's column, May 24, 1968." ("Made public: [[w.department-of-state-bulletin]], Nov. 19, 1973, 640–645.")
 
 **R28. The primary record.** Cite it first, linked, in the series' forms:
 - the statute, "[77 Stat. 56](…)"; the session laws; a treaty by U.S.T. and U.N.T.S.;
-- the Public Papers, "Title, [1961 Pub. Papers 1](…) (Jan. 20, 1961)"; APP, linked, only where the Papers do not
-  print the document (orders, proclamations, platforms, the campaign of 1960), never read;
-- the Federal Register; the Congressional Record by chamber and day; a hearing (govinfo; the Daily Digest's rows,
-  `daybook/committees/`, for its day and page);
-- FRUS, with its volume's title and the document ("FRUS 1961–63, XXIV: Laos Crisis, doc. 4"; the text in
-  `sources/frus-text/`);
+- the Public Papers, "Title, [1961 Pub. Papers 1](…) (Jan. 20, 1961)"; APP, linked, only where the Papers do not print the document (orders, proclamations, platforms, the campaign of 1960), never read;
+- the Federal Register; the Congressional Record by chamber and day; a hearing (govinfo; the Daily Digest's rows, `daybook/committees/`, for its day and page);
+- FRUS, with its volume's title and the document ("FRUS 1961–63, XXIV: Laos Crisis, doc. 4"; the text in `sources/frus-text/`);
 - the case: the U.S. Reports; the lower courts on case.law's open PDFs;
-- the Attorney General's and OLC's opinions (`daybook/opinions.yaml`); the *Bulletin* (`daybook/bulletin/`,
-  `sources/dsb-pages.json`);
-- a recording: the Miller Center's free page (`daybook/recordings/millercenter.yaml`), PRDE's only where it has none
-  ("(PRDE only)"); never PRDE's transcripts;
-- Johnson's Daily Diary (`daybook/diary.yaml`, 50 days), "[President's Daily Diary, Aug. 4, 1964](…), images 3, 5
-  (LBJ Library; National Archives Catalog)";
-- the presidential library's file; a State's canvass or session laws (`sources/states.yaml`, `sources/state-law.yaml`).
-Where the record is found and the event's first entry lacks it, add it there too. Many events have no record of their
-own (a march, a strike, a riot, a speech the Papers do not print): leave them, and say so in your notes. A record found
-and not readable joins "To check:" with where it is. Where no record is reachable, the work is the bibliography and a
-detail it alone gives carries "Check".
+- the Attorney General's and OLC's opinions (`daybook/opinions.yaml`); the *Bulletin* (`daybook/bulletin/`, `sources/dsb-pages.json`);
+- a recording: the Miller Center's free page (`daybook/recordings/millercenter.yaml`), PRDE's only where it has none ("(PRDE only)"); never PRDE's transcripts;
+- Johnson's Daily Diary (`daybook/diary.yaml`, 50 days), "[President's Daily Diary, Aug. 4, 1964](…), images 3, 5 (LBJ Library; National Archives Catalog)";
+- the presidential library's file; a State's canvass or session laws (`sources/states.yaml`, `sources/state-law.yaml`). Where the record is found and the event's first entry lacks it, add it there too. Many events have no record of their own (a march, a strike, a riot, a speech the Papers do not print): leave them, and say so in your notes. A record found and not readable joins "To check:" with where it is. Where no record is reachable, the work is the bibliography and a detail it alone gives carries "Check".
 
-**R29. The bibliography.** An event is not a thread: the Bay of Pigs and Mongoose are two events in Cuba. The event's
-first entry carries its full bibliography; later entries of the event point back, `See [[id]]`; an entry that opens a
-new event carries its own. A work goes to the entries whose claims it bears out, with its pinpoint; where it treats
-the event as a whole, to the event's first entry, at the end of the run (the build orders the run). A work is its card,
-`[[w.id]]`, with its pinpoint after it (`[[w.gibbons-u-s-government-and]], II, 84–85`); no list or section. A work with
-no card: make the card first (R53).
+**R29. The bibliography.** An event is not a thread: the Bay of Pigs and Mongoose are two events in Cuba. The event's first entry carries its full bibliography; later entries of the event point back, `See [[id]]`; an entry that opens a new event carries its own. A work goes to the entries whose claims it bears out, with its pinpoint; where it treats the event as a whole, to the event's first entry, at the end of the run (the build orders the run). A work is its card, `[[w.id]]`, with its pinpoint after it (`[[w.gibbons-u-s-government-and]], II, 84–85`); no list or section. A work with no card: make the card first (R53).
 
-**R30. A pinpoint names a number.** A page, a volume and page, a document, a chapter or note by number, or a link to
-the place read, in Bluebook's form ("123–25"; "45, 211"). The pinpoint is the page that bears out the claims, not the
-page about the event: read it sentence by sentence against the entry's units. A pointer in words ("on Rusk", "for the
-arithmetic", a chapter's title) is not one: the work stands behind "To check:", the words its parenthetical. `check`
-fails on a new one.
+**R30. A pinpoint names a number.** A page, a volume and page, a document, a chapter or note by number, or a link to the place read, in Bluebook's form ("123–25"; "45, 211"). The pinpoint is the page that bears out the claims, not the page about the event: read it sentence by sentence against the entry's units. A pointer in words ("on Rusk", "for the arithmetic", a chapter's title) is not one: the work stands behind "To check:", the words its parenthetical. `check` fails on a new one.
 
-**R31. Hard and soft.** The sources read come first; every work not read stands behind "To check:", a sentence of its
-own before "See" and "Names:" ("To check: [[w.a]]; [[w.b]]."), the event's bibliography among them. Reading a work, move
-it out of "To check:" with its pinpoint (and its parenthetical); an emptied "To check:" goes. A source found and not
-read joins it.
+**R31. Hard and soft.** The sources read come first; every work not read stands behind "To check:", a sentence of its own before "See" and "Names:" ("To check: [[w.a]]; [[w.b]]."), the event's bibliography among them. Reading a work, move it out of "To check:" with its pinpoint (and its parenthetical); an emptied "To check:" goes. A source found and not read joins it.
 
-**R32. What each source stands for.** A source cited under an entry stands for the whole of `c`, its dates, numbers,
-names, quotations and facts, unless the note says otherwise. Where it does not, the entry and the note say which claim
-each source is for: a parenthetical after the cite ("[[w.x]], 123 (the vote)"), a label before it ("Votes: ..."), or
-the cite in the sentence of `c` it supports. Omission implies, determinately: under ABCD, "X; Y; Z (C)" says X and Y
-stand for A, B and D, and Z for C and C's tie to the rest, not for A, B and D. A source read that does not bear out a
-claim is no cite for it: the claim takes "Check:" or goes.
+**R32. What each source stands for.** A source cited under an entry stands for the whole of `c`, its dates, numbers, names, quotations and facts, unless the note says otherwise. Where it does not, the entry and the note say which claim each source is for: a parenthetical after the cite ("[[w.x]], 123 (the vote)"), a label before it ("Votes: ..."), or the cite in the sentence of `c` it supports. Omission implies, determinately: under ABCD, "X; Y; Z (C)" says X and Y stand for A, B and D, and Z for C and C's tie to the rest, not for A, B and D. A source read that does not bear out a claim is no cite for it: the claim takes "Check:" or goes.
 
 **R33. Holding up the cites already made.** For each entry citing your source:
 - the page bears it out: pin it, out of "To check:";
 - it bears out part: pin it with the parenthetical (and the letters, R34);
 - the page is off: the right page;
-- the source gives another date, figure, name or account: settle it against a third record where one exists (R22),
-  else "Check: <Surname> gives …";
-- the source does not treat the matter: the card may belong to another entry (move it), or was cited for the thread,
-  not the event; drop it only where the source plainly does not bear on the entry, and the claim it stood for takes a
-  Check.
-Every case not a plain "holds" is a row in your book-check file: entry id, what the entry says, what the source says
-(page), any third record, your ruling.
+- the source gives another date, figure, name or account: settle it against a third record where one exists (R22), else "Check: <Surname> gives …";
+- the source does not treat the matter: the card may belong to another entry (move it), or was cited for the thread, not the event; drop it only where the source plainly does not bear on the entry, and the claim it stood for takes a Check. Every case not a plain "holds" is a row in your book-check file: entry id, what the entry says, what the source says (page), any third record, your ruling.
 
-**R34. The claim map.** Each entry's `c` is lettered into units, split at its sentences' ends and its semicolons, never
-inside a quotation, parentheses or brackets (`./bib claims show ID`). For each entry you cite or edit, write its map by
-patch: set `src` (start from `./bib claims seed ID`; its `c:` the hash it prints, made again if your patch changes
-`c`), a row a source at a page with the letters it grounds: `'w.card 123: A, C-D'`, `'<the link's address>: all'`
-(a link covers all only where the record bears out the whole entry), and the rows of Part E. Every row names an item
-the note or `c` prints; `check` holds the two together. Keep the rows other runs wrote; re-letter only where `c`
-changes. Read the footnotes `./bib claims show ID --inline` makes of your map, in a scratch copy with your patch merged.
+**R34. The claim map.** Each entry's `c` is lettered into units, split at its sentences' ends and its semicolons, never inside a quotation, parentheses or brackets (`./bib claims show ID`). For each entry you cite or edit, write its map by patch: set `src` (start from `./bib claims seed ID`; its `c:` the hash it prints, made again if your patch changes `c`), a row a source at a page with the letters it grounds: `'w.card 123: A, C-D'`, `'<the link's address>: all'` (a link covers all only where the record bears out the whole entry), and the rows of Part E. Every row names an item the note or `c` prints; `check` holds the two together. Keep the rows other runs wrote; re-letter only where `c` changes. Read the footnotes `./bib claims show ID --inline` makes of your map, in a scratch copy with your patch merged.
 
 ## E. What the sources rest on
 
-R35-R43 are in force from Nov. 3, 2026: the registry is built (`tools/bib/witnesses.py`; the memo,
-`notes/extensions/memos/witnesses.md`). The rule of Oct. 28 (`sources/cited-records/`) is retired: its 8,198 records
-were converted that day into 7,509 witnesses and the works' edges, its files and module on the shelf
-(`notes/extensions/shelf/`).
+R35-R43 are in force from Nov. 3, 2026: the registry is built (`tools/bib/witnesses.py`; the memo, `notes/extensions/memos/witnesses.md`). The rule of Oct. 28 (`sources/cited-records/`) is retired: its 8,198 records were converted that day into 7,509 witnesses and the works' edges, its files and module on the shelf (`notes/extensions/shelf/`).
 
-**R35. The registry.** For each page you cite for an entry, each witness the work's note gives for that passage (a
-document, recording, interview, file; and the study, memoir or documentary collection it cites, R37) is a row of
-`sources/witnesses/<year of its date>.yaml` (`undated.yaml` without one): `id` (`x.<date>.<slug>`, permanent), `what`
-(as the note gives it), `kind`, `date`, `where`, `agent`, `made`, `form`, `from` (its upstream edges), `open` (why a
-root ends: closed archive, not found, not held, none known), `copies` (a copy the series holds: the daybook's FRUS
-document, the Papers' item, the recording), `read`; schema and check: `tools/bib/witnesses.py`, [witnesses]. The work's
-edge to it is a row of `sources/witnesses/by-work/<card without w.>.yaml`: `{at: '251 n.14', of: x.…, kind:
-citation}`. Look first (grep the year's file by date and words; a FRUS document by its `copies`): a witness already
-there takes your edge, never a second row. The map ties it to its units by a `via` row: `via
-x.1965-02-07.bundy-to-johnson: B, E`, or as before, `via w.dallek-flawed-giant 251 n.14: B, E` (the work's edge at that
-note leads to it). `./bib stemma ID [--unit B]` prints each unit's tree to its roots, `./bib stemma --leads` the open
-branches. A witness the series holds: read it; if it bears out its units, cite it first in `n` as the primary record,
-`read: true`. An unread one joins "To check:" with the work it comes from ("To check: Bundy to Johnson, Feb. 7, 1965,
-NSF, LBJ Library (cited by [[w.dallek-flawed-giant]], 251 n.14)."). A work with no notes: say so in the book-check file.
-A passage of a study that quotes or reports a document is a witness of its own, `part_of` the study's witness or card, `pin` its page, with its own `from`; an edge may name a card (`of: w.…`, `at:` its page), one work resting on another. To amend a registered witness (fill `agent`, `open`, `made`, `form`; set `read`; add a `from` or a copy) or join two that are one record, write an amendment row in your pending file: `{amend: x.…, set: {…}, add_from: […], add_copies: […], absorbs: x.…, why: …}` (witnesses.py's docstring). A witness that disputes a unit is no support: it goes in `variants` (R41), never a `via` row. Write your new witnesses to `inbox/witnesses/<your patch name>.yaml` (the same rows; never the year files, which other readers share; check reads them, the merger folds them in), and your work's edges to its by-work file.
+**R35. The registry.** For each page you cite for an entry, each witness the work's note gives for that passage (a document, recording, interview, file; and the study, memoir or documentary collection it cites, R37) is a row of `sources/witnesses/<year of its date>.yaml` (`undated.yaml` without one): `id` (`x.<date>.<slug>`, permanent), `what` (as the note gives it), `kind`, `date`, `where`, `agent`, `made`, `form`, `from` (its upstream edges), `open` (why a root ends: closed archive, not found, not held, none known), `copies` (a copy the series holds: the daybook's FRUS document, the Papers' item, the recording), `read`; schema and check: `tools/bib/witnesses.py`, [witnesses]. The work's edge to it is a row of `sources/witnesses/by-work/<card without w.>.yaml`: `{at: '251 n.14', of: x.…, kind: citation}`. Look first (grep the year's file by date and words; a FRUS document by its `copies`): a witness already there takes your edge, never a second row. The map ties it to its units by a `via` row: `via x.1965-02-07.bundy-to-johnson: B, E`, or as before, `via w.dallek-flawed-giant 251 n.14: B, E` (the work's edge at that note leads to it). `./bib stemma ID [--unit B]` prints each unit's tree to its roots, `./bib stemma --leads` the open branches. A witness the series holds: read it; if it bears out its units, cite it first in `n` as the primary record, `read: true`. An unread one joins "To check:" with the work it comes from ("To check: Bundy to Johnson, Feb. 7, 1965, NSF, LBJ Library (cited by [[w.dallek-flawed-giant]], 251 n.14)."). A work with no notes: say so in the book-check file. A passage of a study that quotes or reports a document is a witness of its own, `part_of` the study's witness or card, `pin` its page, with its own `from`; an edge may name a card (`of: w.…`, `at:` its page), one work resting on another. To amend a registered witness (fill `agent`, `open`, `made`, `form`; set `read`; add a `from` or a copy) or join two that are one record, write an amendment row in your pending file: `{amend: x.…, set: {…}, add_from: […], add_copies: […], absorbs: x.…, why: …}` (witnesses.py's docstring). A witness that disputes a unit is no support: it goes in `variants` (R41), never a `via` row. Write your new witnesses to `inbox/witnesses/<your patch name>.yaml` (the same rows; never the year files, which other readers share; check reads them, the merger folds them in), and your work's edges to its by-work file.
 
-**R36. Witnesses.** A witness is anything that bears on a claim: a document, a recording, a
-transcript; a print, edition or translation of any of them; a statement, a press account, a hearing; a study, a
-memoir, an oral history, an interview; a person's testimony. Works are witnesses (their cards); a documentary
-collection (FRUS, JMZW, *Current Documents*) is the print of each document it prints. The registry:
-`sources/witnesses/` (R35).
+**R36. Witnesses.** A witness is anything that bears on a claim: a document, a recording, a transcript; a print, edition or translation of any of them; a statement, a press account, a hearing; a study, a memoir, an oral history, an interview; a person's testimony. Works are witnesses (their cards); a documentary collection (FRUS, JMZW, *Current Documents*) is the print of each document it prints. The registry: `sources/witnesses/` (R35).
 
-**R37. Edges and roots.** Each witness is tied to what it derives from, and how: copy, print, edition, transcription,
-translation, quotation, citation, recollection, report. A root has nothing identifiable and recoverable upstream, for
-the claim; a claim often has several. An open upstream is a source named and not recovered: name it exactly and say
-why the branch ends (closed archive, not found, not held); it is a lead. Independence is counted by distinct roots and
-distinct agents, never by works. The tree is drawn for each unit of `c`, not for the entry; each unit's rows reach the
-witnesses by `via`.
+**R37. Edges and roots.** Each witness is tied to what it derives from, and how: copy, print, edition, transcription, translation, quotation, citation, recollection, report. A root has nothing identifiable and recoverable upstream, for the claim; a claim often has several. An open upstream is a source named and not recovered: name it exactly and say why the branch ends (closed archive, not found, not held); it is a lead. Independence is counted by distinct roots and distinct agents, never by works. The tree is drawn for each unit of `c`, not for the entry; each unit's rows reach the witnesses by `via`.
 
-**R38. Register everything.** Every witness you meet that bears on a claim, however well attested the claim is. A
-copy of a witness already registered (the same text, nothing added) is entered as its edge to that witness, one line:
-never counted as support, never dropped; the witness upstream is the one credited. A source the text names (a letter
-quoted, an interview held) is a witness as the text gives it; an event the text tells without naming a source makes
-none.
+**R38. Register everything.** Every witness you meet that bears on a claim, however well attested the claim is. A copy of a witness already registered (the same text, nothing added) is entered as its edge to that witness, one line: never counted as support, never dropped; the witness upstream is the one credited. A source the text names (a letter quoted, an interview held) is a witness as the text gives it; an event the text tells without naming a source makes none.
 
-**R39. Follow each branch.** As far as the series can: a card you hold, the daybook's FRUS, the Public Papers, a
-recording, the Diary, an open scan. Where you cannot, name the upstream and mark the branch open. A witness the series
-holds and you read, bearing out its units, is cited first in `n` as the primary record (R28); an unread one joins "To
-check:" with the witness it comes from (R35's form).
+**R39. Follow each branch.** As far as the series can: a card you hold, the daybook's FRUS, the Public Papers, a recording, the Diary, an open scan. Where you cannot, name the upstream and mark the branch open. A witness the series holds and you read, bearing out its units, is cited first in `n` as the primary record (R28); an unread one joins "To check:" with the witness it comes from (R35's form).
 
-**R40. Describe each witness.** As the witness gives it, nothing graded: whose account it is (`agent`); when it was
-made (`made`: contemporaneous, or later and when); its form (`form`); for each claim it bears on, whether its
-information is firsthand (`knows`).
+**R40. Describe each witness.** As the witness gives it, nothing graded: whose account it is (`agent`); when it was made (`made`: contemporaneous, or later and when); its form (`form`); for each claim it bears on, whether its information is firsthand (`knows`).
 
-**R41. Variants.** Where witnesses differ, each reading against its unit, in the witness's words, with its page.
-"Check: … gives …" stays in the note for the page's reader.
+**R41. Variants.** Where witnesses differ, each reading against its unit, in the witness's words, with its page. "Check: … gives …" stays in the note for the page's reader.
 
-**R42. The record that is the act.** Where the series cites the record that constitutes the act (the statute or
-session law, the order or proclamation, the regulation, the reported decision, the certified canvass, the release of a
-figure as first reported, the journal of a confirmation), the units it constitutes close on it and need no tree: the
-act, its text, its date, its number, the figure. Its circumstances keep their trees. A compilation, or a print of a
-text that is not the act (the Clerk's *Statistics*, CQ, the *Directory*, FRUS, the Record's text of a speech), closes
-nothing. Witnesses that agree with the record are not sought; one that disagrees is a variant. Where the record itself
-is in question (a contested election, a document dated other than the act, a disputed validity), the unit is
-`disputed` and takes a tree.
+**R42. The record that is the act.** Where the series cites the record that constitutes the act (the statute or session law, the order or proclamation, the regulation, the reported decision, the certified canvass, the release of a figure as first reported, the journal of a confirmation), the units it constitutes close on it and need no tree: the act, its text, its date, its number, the figure. Its circumstances keep their trees. A compilation, or a print of a text that is not the act (the Clerk's *Statistics*, CQ, the *Directory*, FRUS, the Record's text of a speech), closes nothing. Witnesses that agree with the record are not sought; one that disagrees is a variant. Where the record itself is in question (a contested election, a document dated other than the act, a disputed validity), the unit is `disputed` and takes a tree.
 
-**R43. Already in.** A witness to an entry already in the calendar goes into that entry's map; it is never a reason to
-pass the witness over.
+**R43. Already in.** A witness to an entry already in the calendar goes into that entry's map; it is never a reason to pass the witness over.
 
 ## F. What you pass over, and leads
 
-**R44. Passed over.** Your book-check file has a section "## Passed over": every dated event within the span that the
-source treats and you did not enter, a row each: page | date | event, a few words | why (one of R18's: out of the
-brief, minor, a passed-over paper; or a lead, only as R50 defines it: an event the source treats but does not date,
-however loosely, is a lead; one it dates loosely is an entry). Say in the file how the list was made. An event already in the calendar
-is not passed over: it takes its cite (R29) and its witnesses (R43). The owner rules on the list.
+**R44. Passed over.** Your book-check file has a section "## Passed over": every dated event within the span that the source treats and you did not enter, a row each: page | date | event, a few words | why (one of R18's: out of the brief, minor, a passed-over paper; or a lead, only as R50 defines it: an event the source treats but does not date, however loosely, is a lead; one it dates loosely is an entry). Say in the file how the list was made. An event already in the calendar is not passed over: it takes its cite (R29) and its witnesses (R43). The owner rules on the list.
 
 **R45–R47.** (Kept free.)
 
-**R48. No blanket exclusions.** Never a row or sentence passing over a class of event ("minor throughout", "not listed
-event by event"); `check` warns on one [passed-over].
+**R48. No blanket exclusions.** Never a row or sentence passing over a class of event ("minor throughout", "not listed event by event"); `check` warns on one [passed-over].
 
-**R49. Pending entries.** An event another reader has claimed in the ledger (`./bib ledger find`) is not added again:
-cite it, check it, name in it, by additive ops on its id (R51), which the merge applies once that entry lands. Within
-your own group of sources, a later source's patch adds to an earlier's entries the same way.
+**R49. Pending entries.** An event another reader has claimed in the ledger (`./bib ledger find`) is not added again: cite it, check it, name in it, by additive ops on its id (R51), which the merge applies once that entry lands. Within your own group of sources, a later source's patch adds to an earlier's entries the same way.
 
-**R50. Leads.** What cannot yet go into the calendar on a source in hand: a source not reached or a host refused, an
-event no source read dates, a figure no source read gives, a thing you recall and have not verified, a press figure to
-propose. Not a lead: an event a source in hand dates, however loosely ("ten days before the convention"): enter it, with
-"Check: the day" where the day is loose; a source in hand that disagrees with an entry: a variant (R41) or a "Check:";
-an item passed over as minor: a row of Passed over (R44). Leads go at the end of your book-check file under
-"Leads", by the headings of `notes/leads.md` (States and cities, National, Foreign, the Executive roster), with the
-entry it concerns and where to look. The merger copies them into `notes/leads.md`. Never into the calendar unchecked.
+**R50. Leads.** What cannot yet go into the calendar on a source in hand: a source not reached or a host refused, an event no source read dates, a figure no source read gives, a thing you recall and have not verified, a press figure to propose. Not a lead: an event a source in hand dates, however loosely ("ten days before the convention"): enter it, with "Check: the day" where the day is loose; a source in hand that disagrees with an entry: a variant (R41) or a "Check:"; an item passed over as minor: a row of Passed over (R44). Leads go at the end of your book-check file under "Leads", by the headings of `notes/leads.md` (States and cities, National, Foreign, the Executive roster), with the entry it concerns and where to look. The merger copies them into `notes/leads.md`. Never into the calendar unchecked.
 
 ## G. The mechanics
 
-**R51. By patch.** All calendar changes (and `th.yaml`'s) in one patch a source, `inbox/<date>-<name>.yaml` (CLAUDE.md,
-"Changing things"). What adds to an entry is an additive op, with no `base` (`tools/bib/addops.py`): `cite` (a work
-read, its pinpoint, its units: `{id, item: '[[w.card]], 123 (the vote)', units: 'A, C'}`), `primary` (the record,
-linked, first), `to-check`, `check`, `src`, `names` (the Names line and the `name:` tags), `also`. What changes an
-entry (its `c`, date, thread; a cite taken out) is an `edit` with the `base` read by `./bib show` just before you
-write it, keeping every cite, sentence and map row other runs wrote. A new entry is an `add`, claimed in the ledger
-first (R17). Before you finish: `./bib patch-check <patch>`, 0 errors. Never edit `lists/cal/*.yaml`, never merge,
-never run git.
+**R51. By patch.** All calendar changes (and `th.yaml`'s) in one patch a source, `inbox/<date>-<name>.yaml` (CLAUDE.md, "Changing things"). What adds to an entry is an additive op, with no `base` (`tools/bib/addops.py`): `cite` (a work read, its pinpoint, its units: `{id, item: '[[w.card]], 123 (the vote)', units: 'A, C'}`), `primary` (the record, linked, first), `to-check`, `check`, `src`, `names` (the Names line and the `name:` tags), `also`. What changes an entry (its `c`, date, thread; a cite taken out) is an `edit` with the `base` read by `./bib show` just before you write it, keeping every cite, sentence and map row other runs wrote. A new entry is an `add`, claimed in the ledger first (R17). Before you finish: `./bib patch-check <patch>`, 0 errors. Never edit `lists/cal/*.yaml`, never merge, never run git.
 
-**R52. Finish clean.** `./bib check`: 0 errors from your work (report others' errors without fixing them); `./bib
-audit-cal` for calendar entries.
+**R52. Finish clean.** `./bib check`: 0 errors from your work (report others' errors without fixing them); `./bib audit-cal` for calendar entries.
 
-**R53. The files.** Never read `build/`, nor a whole list: `./bib find`, `./bib show`, `grep -n`, and only the lines
-you need. Edit only your own book-check and records files; a shared file (a works letter, `notes/leads.md`) by small
-exact edits, re-read just before. A new card: CLAUDE.md, "The works catalogue" (author, title, year, the edition where
-the copy is not the first; `./bib works adopt`, or the lock script the batch brief names), its note by "Bibliography
-notes" (CLAUDE.md, "The brief": no reviews, no awards, no side labels).
+**R53. The files.** Never read `build/`, nor a whole list: `./bib find`, `./bib show`, `grep -n`, and only the lines you need. Edit only your own book-check and records files; a shared file (a works letter, `notes/leads.md`) by small exact edits, re-read just before. A new card: CLAUDE.md, "The works catalogue" (author, title, year, the edition where the copy is not the first; `./bib works adopt`, or the lock script the batch brief names), its note by "Bibliography notes" (CLAUDE.md, "The brief": no reviews, no awards, no side labels).
 
-**R54. The copies.** Into your own new directory under the scratchpad, never the repo; check it is what it says
-(`file`); read its text layer (`pdftotext -layout`), or OCR a scan (`ocrmypdf --sidecar`, or `pdftoppm` and
-`tesseract`) and say so; delete the PDF at once (and the page images), one at a time. Find the offset between PDF
-pages and printed folios on three pages, again where it may change (the front matter, the plates, a second volume),
-and check a few pinpoints against the page image (`pdftoppm -f N -l N -r 100 -png`); cite the printed page. Never
-change a Drive file's sharing. A Drive file over the Drive tool's limit (about 10 MB) is no dead end: find its id
-(`search_files`), then `curl -sSL -o <dir>/<short>.pdf
-"https://drive.usercontent.google.com/download?id=<ID>&export=download&confirm=t"`, the file as already shared (tried
-Nov. 4, 2026 on Gavin, 17 MB; Bernstein, 43 MB; Kaplan's *McNamara Ascendancy*, 34 MB).
+**R54. The copies.** Into your own new directory under the scratchpad, never the repo; check it is what it says (`file`); read its text layer (`pdftotext -layout`), or OCR a scan (`ocrmypdf --sidecar`, or `pdftoppm` and `tesseract`) and say so; delete the PDF at once (and the page images), one at a time. Find the offset between PDF pages and printed folios on three pages, again where it may change (the front matter, the plates, a second volume), and check a few pinpoints against the page image (`pdftoppm -f N -l N -r 100 -png`); cite the printed page. Never change a Drive file's sharing. A Drive file over the Drive tool's limit (about 10 MB) is no dead end: find its id (`search_files`), then `curl -sSL -o <dir>/<short>.pdf "https://drive.usercontent.google.com/download?id=<ID>&export=download&confirm=t"`, the file as already shared (tried Nov. 4, 2026 on Gavin, 17 MB; Bernstein, 43 MB; Kaplan's *McNamara Ascendancy*, 34 MB).
 
-**R55. Copyright.** The books are the owner's copies, for this research: nothing of their text into the repo beyond a
-short quotation an entry needs, marked and cited by page; never a paraphrase at length.
+**R55. Copyright.** The books are the owner's copies, for this research: nothing of their text into the repo beyond a short quotation an entry needs, marked and cited by page; never a paraphrase at length.
 
-**R56. Dead ends.** Not readable here: the newspapers (TimesMachine is a link by date, not a text),
-history.defense.gov, jcs.mil, HathiTrust's pages.
+**R56. Dead ends.** Not readable here: the newspapers (TimesMachine is a link by date, not a text), history.defense.gov, jcs.mil, HathiTrust's pages.
 
 **R57. Pronouns.** No gendered pronoun for an author in a note: "the note", the surname.
 
-**R58. The report.** Under 400 words, a source at a time: the copy and its offset; cites checked, by ruling (held,
-pinned in part, moved, cut, disputed), and the disagreements a line each; new entries (the count, the chief ones);
-records or witnesses (found and read, found and not read, open); Passed over, by reason; leads; what you checked and
-how; the patch written.
+**R58. The report.** Under 400 words, a source at a time: the copy and its offset; cites checked, by ruling (held, pinned in part, moved, cut, disputed), and the disagreements a line each; new entries (the count, the chief ones); records or witnesses (found and read, found and not read, open); Passed over, by reason; leads; what you checked and how; the patch written.
 
 ## The rulings
 
-"OB" is `notes/owner-brief.md` (the owner's messages, verbatim; its last section, "The rulings of Oct. 28–30, 2026",
-for the latest); "CL" is CLAUDE.md as it stood on Oct. 30, 2026; its reading paragraphs are now in `notes/briefs/superseded/claude-md-brief.md`. Dates, 2026, are the day of the message in OB's times (UTC); CLAUDE.md dates a few of the same rulings a day off, by Pacific time. "House rule": the series' practice,
-written by Claude or its agents, no ruling of the owner's.
+"OB" is `notes/owner-brief.md` (the owner's messages, verbatim; its last section, "The rulings of Oct. 28–30, 2026", for the latest); "CL" is CLAUDE.md as it stood on Oct. 30, 2026; its reading paragraphs are now in `notes/briefs/superseded/claude-md-brief.md`. Dates, 2026, are the day of the message in OB's times (UTC); CLAUDE.md dates a few of the same rulings a day off, by Pacific time. "House rule": the series' practice, written by Claude or its agents, no ruling of the owner's.
 
 | Rule | Ruling | The owner's words |
 |---|---|---|

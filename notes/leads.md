@@ -1,41 +1,22 @@
 # Leads
 
-Events, figures, dates and sources the drafting agents of Oct. 2026 could not place, find or verify, tested against the
-calendar and the Executive roster on Oct. 15, 2026; an entry id marks a lead entered with a "Check". A lead leaves this
-list when it is written into the calendar or the roster (or its Check settled there), or is found to be wrong. Persons
-in the calendar without a name entry, and entries without a primary record, are not listed here: `./bib audit-cal`
-reports them (`notes/calendar-audit.md`).
+Events, figures, dates and sources the drafting agents of Oct. 2026 could not place, find or verify, tested against the calendar and the Executive roster on Oct. 15, 2026; an entry id marks a lead entered with a "Check". A lead leaves this list when it is written into the calendar or the roster (or its Check settled there), or is found to be wrong. Persons in the calendar without a name entry, and entries without a primary record, are not listed here: `./bib audit-cal` reports them (`notes/calendar-audit.md`).
 
 ## States and cities
 
-- **The State register, four corrections from the procurement batch of Oct. 31, 2026** (`notes/procurement.md`, "The
-  House vote on new lines"): N.Y., the NYC Board of Elections' *Annual Report* on HathiTrust (006269729, 1952-65;
-  000549504, 1950-63; search only) and the *Legislative Manual* 1964/65-1975 (search only); Cal., the *Supplement to
-  the Statement of Vote* carries no House figures (1972 read); Ill., the *Official Vote*'s Chicago wards and Cook
-  townships are the statewide offices' only (1960 read); Mich., the Department of State's *Official Canvass of Votes*
-  (HathiTrust 102823787; 1960, 1962, 1964 full view) is not in the register. To enter in `sources/states.yaml` with
-  their basis, then `python3 tools/sources/make_listing.py`.
+- **The State register, four corrections from the procurement batch of Oct. 31, 2026** (`notes/procurement.md`, "The House vote on new lines"): N.Y., the NYC Board of Elections' *Annual Report* on HathiTrust (006269729, 1952-65; 000549504, 1950-63; search only) and the *Legislative Manual* 1964/65-1975 (search only); Cal., the *Supplement to the Statement of Vote* carries no House figures (1972 read); Ill., the *Official Vote*'s Chicago wards and Cook townships are the statewide offices' only (1960 read); Mich., the Department of State's *Official Canvass of Votes* (HathiTrust 102823787; 1960, 1962, 1964 full view) is not in the register. To enter in `sources/states.yaml` with their basis, then `python3 tools/sources/make_listing.py`.
 
 ### The States' laws and election sources (Oct. 28, 2026; sources/state-law.yaml, sources/states.yaml)
-- Recorded "other" after two failures, perhaps less than an hour apart: Kentucky's acts page (403), Missouri's molaws
-  (proxy 502), Utah's Pioneer service (503), docs.legis.wisconsin.gov (connection reset). Retry an hour apart.
-- No free copy found of Oklahoma's, Nebraska's or Rhode Island's session laws (Rhode Island's State Library's digital
-  run begins 1981).
-- Statutes to read for the authority: the Washington, Idaho and Wyoming session-law sections; the Code of Iowa 1958,
-  ch. 14; New York's, Mississippi's and Texas's codes (no open copy found).
-- The journal clauses of the remaining constitutions, from the open blue books of the 1960s (Georgia, Maryland,
-  Missouri, Iowa, Wisconsin).
-- The calendar's journal Checks naming journals the register lacks: Florida House 1968, Georgia House 1967, and the
-  Tennessee, Oklahoma, Maryland and Kentucky pointers.
-- 67 State-record Checks rest on an assumed source (notes/state-sources.md): most city boards' returns for mayors (New
-  York, Los Angeles, Pittsburgh, Chicago, Cleveland, Kansas City, St. Louis), and State archival series whose finding
-  aids are unread (Texas primaries, Michigan's canvassers, Alabama, Kentucky, Utah, Georgia, Oklahoma).
+- Recorded "other" after two failures, perhaps less than an hour apart: Kentucky's acts page (403), Missouri's molaws (proxy 502), Utah's Pioneer service (503), docs.legis.wisconsin.gov (connection reset). Retry an hour apart.
+- No free copy found of Oklahoma's, Nebraska's or Rhode Island's session laws (Rhode Island's State Library's digital run begins 1981).
+- Statutes to read for the authority: the Washington, Idaho and Wyoming session-law sections; the Code of Iowa 1958, ch. 14; New York's, Mississippi's and Texas's codes (no open copy found).
+- The journal clauses of the remaining constitutions, from the open blue books of the 1960s (Georgia, Maryland, Missouri, Iowa, Wisconsin).
+- The calendar's journal Checks naming journals the register lacks: Florida House 1968, Georgia House 1967, and the Tennessee, Oklahoma, Maryland and Kentucky pointers.
+- 67 State-record Checks rest on an assumed source (notes/state-sources.md): most city boards' returns for mayors (New York, Los Angeles, Pittsburgh, Chicago, Cleveland, Kansas City, St. Louis), and State archival series whose finding aids are unread (Texas primaries, Michigan's canvassers, Alabama, Kentucky, Utah, Georgia, Oklahoma).
 
 ### Governors barred from another term (Oct. 24, 2026; elections/term-limits.yaml)
-- Georgia's 1945 provision and when succession was allowed (legis.ga.gov bot-checked); Tennessee's art. III, § 4 as
-  amended (sos.tn.gov refuses this environment); New Mexico's art. V, § 1 as it stood in 1966.
-- The dates and ballot texts of the changes in Indiana (1972), Mississippi (1986), Pennsylvania (1967), Louisiana (1966)
-  and Alabama (Act 202 of 1967, ratified as Amendment 282?); South Carolina's 1926 bar, whether for life.
+- Georgia's 1945 provision and when succession was allowed (legis.ga.gov bot-checked); Tennessee's art. III, § 4 as amended (sos.tn.gov refuses this environment); New Mexico's art. V, § 1 as it stood in 1966.
+- The dates and ballot texts of the changes in Indiana (1972), Mississippi (1986), Pennsylvania (1967), Louisiana (1966) and Alabama (Act 202 of 1967, ratified as Amendment 282?); South Carolina's 1926 bar, whether for life.
 - Florida's, Virginia's, Maryland's and New Jersey's bars read only in their 1909 text or today's: a print of the 1960s.
 - North Carolina, 1960: whether Hodges, who succeeded to the office, was barred.
 - The result of Oklahoma's SQ 747 (2010). The *Book of the States*, 1960–68, would settle most (archive.org: borrow only).
@@ -338,53 +319,31 @@ reports them (`notes/calendar-audit.md`).
 
 ### Primary records, Cal. III (the Cal. III audit agent, Oct. 22, 2026)
 
-- Returns marked "Check" in Cal. III, 1966–68, with the State's own record not read: governors' primaries and
-  elections (Tex., Minn., Me., Idaho, Vt., N.Y., Pa., Mich., N.M., Kan., Wyo., Wis., Tenn., La., Miss., W. Va., Ind.),
-  the legislatures of Nov. 1966 and Nov. 1968, the State constitutions' votes (N.Y., Mich., La., Pa.), the mayors' races
-  (Chicago, Philadelphia, Boston, Cleveland, Gary, Memphis, Baltimore, Indianapolis, San Francisco, Milwaukee) and the
-  specials of 1966–68 (N.Y. 17th, 18th, 13th; R.I. 2d; Tex. 8th, 3d; Mich. 9th; Miss. 3d). Open copies listed in
-  `sources/states.yaml` and not yet read for these entries: Cal., *Statement of Vote*, 1966–68 (archive.org,
-  californiastate196668cali); Iowa, 1968gencanv.pdf (sos.iowa.gov a Cloudflare 403 from Oct. 23, 2026; the *Iowa
-  Official Register*, 1969–70, publications.iowa.gov 41454, open, prints the 1968 general by county); Minn., the Canvassing Board's reports
-  (lrl.mn.gov); S.C., the *Supplemental Report* of 1966; Mass., *Election Statistics*, 1967–68; Ill., *Official Vote*,
-  1968. The entries say which. Alaska's returns of 1962–68 (elections.alaska.gov, read with the issuer its certificate
-  names) now cite the 1966 general and the 1968 primary and general (patch reopen-states-2).
-- Session laws named and not linked: N.Y., *Laws of New York*, 1966 (the Divorce Reform Law; Medicaid), 1968, ch. 174 (the
-  Urban Development Corporation); Va. Acts 1966, c. 151 (the sales tax); N.J. L. 1966, c. 30; Fla. Laws 1968, Extraordinary Session (the teachers' strike, the constitution's joint resolutions);
-  Tex., *House Journal*, 60th Leg., 1st C.S. (1968); Md., *Journal of Proceedings*, Jan. 7, 1969 (Mandel's election).
+- Returns marked "Check" in Cal. III, 1966–68, with the State's own record not read: governors' primaries and elections (Tex., Minn., Me., Idaho, Vt., N.Y., Pa., Mich., N.M., Kan., Wyo., Wis., Tenn., La., Miss., W. Va., Ind.), the legislatures of Nov. 1966 and Nov. 1968, the State constitutions' votes (N.Y., Mich., La., Pa.), the mayors' races (Chicago, Philadelphia, Boston, Cleveland, Gary, Memphis, Baltimore, Indianapolis, San Francisco, Milwaukee) and the specials of 1966–68 (N.Y. 17th, 18th, 13th; R.I. 2d; Tex. 8th, 3d; Mich. 9th; Miss. 3d). Open copies listed in `sources/states.yaml` and not yet read for these entries: Cal., *Statement of Vote*, 1966–68 (archive.org, californiastate196668cali); Iowa, 1968gencanv.pdf (sos.iowa.gov a Cloudflare 403 from Oct. 23, 2026; the *Iowa Official Register*, 1969–70, publications.iowa.gov 41454, open, prints the 1968 general by county); Minn., the Canvassing Board's reports (lrl.mn.gov); S.C., the *Supplemental Report* of 1966; Mass., *Election Statistics*, 1967–68; Ill., *Official Vote*,
+  1968. The entries say which. Alaska's returns of 1962–68 (elections.alaska.gov, read with the issuer its certificate names) now cite the 1966 general and the 1968 primary and general (patch reopen-states-2).
+- Session laws named and not linked: N.Y., *Laws of New York*, 1966 (the Divorce Reform Law; Medicaid), 1968, ch. 174 (the Urban Development Corporation); Va. Acts 1966, c. 151 (the sales tax); N.J. L. 1966, c. 30; Fla. Laws 1968, Extraordinary Session (the teachers' strike, the constitution's joint resolutions); Tex., *House Journal*, 60th Leg., 1st C.S. (1968); Md., *Journal of Proceedings*, Jan. 7, 1969 (Mandel's election).
 
 ### From the CQ Weekly Report, 1968, and the Walker Report (read Oct. 31-Nov. 1, 2026; notes/book-checks/)
 
 CQ Weekly Report, 1968-06-07:
-- New York: the Republican State committee, Mar. 27, and the Democratic, Mar. 30, 1968 (1385); the court's acceptance
-  of the districts, Mar. 20 (1386); the filing deadline, May 14.
+- New York: the Republican State committee, Mar. 27, and the Democratic, Mar. 30, 1968 (1385); the court's acceptance of the districts, Mar. 20 (1386); the filing deadline, May 14.
 - Florida: the revolt against Kirk, Mar. 28 (1383; CQ Weekly Report p. 741 of 1968).
 - Maine: Merrill's change of party, Dec. 1967 (1380).
 - California: the State's *Statement of Vote* for the House primaries of June 4 (CQ prints partial returns).
 - New Jersey, Mississippi, Montana, South Dakota, Alabama, North Carolina: the canvasses for the June 1 and 4 primaries.
 - (Second run) CQ's next Weekly Report: the House's votes of June 6 on the crime bill; the news conference's text.
-- The Puyallup case, the Supreme Court's ruling on net fishing, argued against at the Court May 29 (1384): the case
-  and its day.
-- The roll calls on Voteview for H.R. 17522 (May 28, 347-28; 223-154) and Javits's amendment to H.R. 16913 (May 29,
-  31-30).
+- The Puyallup case, the Supreme Court's ruling on net fishing, argued against at the Court May 29 (1384): the case and its day.
+- The roll calls on Voteview for H.R. 17522 (May 28, 347-28; 223-154) and Javits's amendment to H.R. 16913 (May 29, 31-30).
 - Justice's appropriation, H.R. 17522: $448,384,000 (1426) or $488,384,000 (1428); CQ's own figures differ.
 - A thread for science policy (the NSF bill, May 24) and for credit (H.R. 14907): the owner to rule.
-- Edward Kennedy's key votes, 1963-68 (1398): CQ's selection, each a roll call the calendar may hold.
-CQ Weekly Report, 1968-07-26:
-- Iowa, Apr. 17: CQ calls the body that chose the delegation the State committee, then the State convention (p. 1980).
-CQ Weekly Report, 1968-08-02:
-- Arkansas's primary of July 30: the 1st District's figures and Rockefeller's are CQ's unofficial returns; the State's
-  canvass (the *Historical Report of the Secretary of State*, as cal.1968-07-30.governors-ar cites it) for the official.
-- Louisiana's primary of Aug. 17 (outlook, 2072–73): the candidates by district are there for the day's entry.
-CQ Weekly Report, 1968-08-09:
-- The primaries of Aug. 1 (Tennessee) and Aug. 6 (Michigan, Idaho, Kansas, Missouri): CQ's figures are unofficial;
-  the States' canvasses (`sources/states.yaml`; Kansas's *Election Statistics, 1968*, KGI Online Library) to replace
-  them. CQ's Kansas governor's figures (2109) are far from the canvass the calendar already cites.
-- Missouri's 1st District: CQ calls Clay's primary win the assurance of the State's first Negro Representative.
-CQ Weekly Report, 1968-08-16:
+- Edward Kennedy's key votes, 1963-68 (1398): CQ's selection, each a roll call the calendar may hold. CQ Weekly Report, 1968-07-26:
+- Iowa, Apr. 17: CQ calls the body that chose the delegation the State committee, then the State convention (p. 1980). CQ Weekly Report, 1968-08-02:
+- Arkansas's primary of July 30: the 1st District's figures and Rockefeller's are CQ's unofficial returns; the State's canvass (the *Historical Report of the Secretary of State*, as cal.1968-07-30.governors-ar cites it) for the official.
+- Louisiana's primary of Aug. 17 (outlook, 2072–73): the candidates by district are there for the day's entry. CQ Weekly Report, 1968-08-09:
+- The primaries of Aug. 1 (Tennessee) and Aug. 6 (Michigan, Idaho, Kansas, Missouri): CQ's figures are unofficial; the States' canvasses (`sources/states.yaml`; Kansas's *Election Statistics, 1968*, KGI Online Library) to replace them. CQ's Kansas governor's figures (2109) are far from the canvass the calendar already cites.
+- Missouri's 1st District: CQ calls Clay's primary win the assurance of the State's first Negro Representative. CQ Weekly Report, 1968-08-16:
 - New Mexico's districting act, Feb. 13, 1968 (CQ, Aug. 16, 1968, 2217): the session laws; thread Legislatures.
-- Chicago: Daley's committee on the April riots, its report's day (CQ, Aug. 16, 1968, 2216); the taxi and bus
-  strikes threatened for convention week (2183).
+- Chicago: Daley's committee on the April riots, its report's day (CQ, Aug. 16, 1968, 2216); the taxi and bus strikes threatened for convention week (2183).
 - Arkansas: the State's canvass for the 1st District's runoff of Aug. 13 (CQ's count partial).
 
 ### Kabaservice, *Rule and Ruin* (batch 3, Oct. 29, 2026; notes/book-checks/kabaservice-rule-and-ruin.md)
@@ -423,26 +382,18 @@ CQ Weekly Report, 1968-08-16:
 ### Branch, *Pillar of Fire* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-pillar-of-fire.md)
 
 - Mayor Shelley and Trinity's vestry: the campaign to impeach Judge Simpson (Colburn, *Racial Change*, 131–35).
-- Athens, Ga.: Benny Johnson's death by train, July 6, 1964, the FBI's inquiry (SAC Atlanta to Director, July 15 and 21,
-  1964, FLP-52, FLP-81; *Atlanta Constitution*, July 25, 1964).
-- McComb: the bombing at the end of August, the handyman arrested (U.S. Commission on Civil Rights, *Law Enforcement*
-  (1965), 30–35).
+- Athens, Ga.: Benny Johnson's death by train, July 6, 1964, the FBI's inquiry (SAC Atlanta to Director, July 15 and 21, 1964, FLP-52, FLP-81; *Atlanta Constitution*, July 25, 1964).
+- McComb: the bombing at the end of August, the handyman arrested (U.S. Commission on Civil Rights, *Law Enforcement* (1965), 30–35).
 - Greenwood's mass meeting on nonviolence after the hospital siege, late July (Belfrage, *Freedom Summer*, 183–88).
 - The Oakland meeting of the Friends of SNCC on Savio, Sept. 1964 (Mike Miller to Branch).
-- Selma: the morticians' and barbers' marches, January 1965; the Dunn's Rest Home seamstresses (Boynton to King, Nov.
-  30, 1963, A/KP21f10).
-- Atlanta: the business leaders and the King dinner, January 1965 (Pomerantz, *Where Peachtree Meets Sweet Auburn*,
-  334-40; Allen, *Mayor*, 95-99).
+- Selma: the morticians' and barbers' marches, January 1965; the Dunn's Rest Home seamstresses (Boynton to King, Nov. 30, 1963, A/KP21f10).
+- Atlanta: the business leaders and the King dinner, January 1965 (Pomerantz, *Where Peachtree Meets Sweet Auburn*, 334-40; Allen, *Mayor*, 95-99).
 - Marion: James Orange's arrest, Feb. 18, 1965, the morning (Fager, *Selma 1965*, 72-73).
 - Lowndes County: Rev. Lorenzo Harrison run out, Feb. 28, 1965 (NYT, Mar. 1, 1965, 17).
-- Hattiesburg: the near-riot at the courthouse (*Hattiesburg American*, Jan. 15, 1966, 1); the rebuilding (Jan. 22,
-  1966, 1); Wilkins's fund drive; the second and third confessions, Mar. 1966.
-- Athens, Ga.: Lackey and Guest acquitted, spring 1966 (Rosen to DeLoach, June 16, 1966, FLP-475); Sims and Myers to
-  prison, 1968.
-- Meridian: Price's race for sheriff, 1967; Cox's release of the convicted; two Negro churches burned, 1968 (Nelson,
-  *Terror in the Night*); the payment to Roberts (Jack Nelson, LAT, 1970: the article's day).
-- Hattiesburg, 1968-69: the second and third Dahmer murder convictions (NYT, July 20 and 29, 1968; Feb. 1, 1969);
-  Bowers's second mistrial (NYT, Jan. 26, 1969, 1): its day against the span's end.
+- Hattiesburg: the near-riot at the courthouse (*Hattiesburg American*, Jan. 15, 1966, 1); the rebuilding (Jan. 22, 1966, 1); Wilkins's fund drive; the second and third confessions, Mar. 1966.
+- Athens, Ga.: Lackey and Guest acquitted, spring 1966 (Rosen to DeLoach, June 16, 1966, FLP-475); Sims and Myers to prison, 1968.
+- Meridian: Price's race for sheriff, 1967; Cox's release of the convicted; two Negro churches burned, 1968 (Nelson, *Terror in the Night*); the payment to Roberts (Jack Nelson, LAT, 1970: the article's day).
+- Hattiesburg, 1968-69: the second and third Dahmer murder convictions (NYT, July 20 and 29, 1968; Feb. 1, 1969); Bowers's second mistrial (NYT, Jan. 26, 1969, 1): its day against the span's end.
 
 ### Branch, *At Canaan's Edge* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-at-canaans-edge.md)
 
@@ -454,24 +405,16 @@ CQ Weekly Report, 1968-08-16:
 
 ### Smith, *On His Own Terms* (batch 3, Oct. 29 and Nov. 4, 2026; notes/book-checks/smith-on-his-own-terms.md)
 
-- New York's session laws of 1960 for the dates the 1960 program was signed (minimum wage, Housing Finance Agency, arts
-  council).
-- New York's direct primary law of 1967, the State Historic Trust, the Office of Collective Bargaining (Sept.
-  1967): the session laws and the city's record (Smith 502).
-- Johnson at Buffalo, Oct. 1966, and the State's Erie County study three days before (Smith 490): the Public
-  Papers for the day.
+- New York's session laws of 1960 for the dates the 1960 program was signed (minimum wage, Housing Finance Agency, arts council).
+- New York's direct primary law of 1967, the State Historic Trust, the Office of Collective Bargaining (Sept. 1967): the session laws and the city's record (Smith 502).
+- Johnson at Buffalo, Oct. 1966, and the State's Erie County study three days before (Smith 490): the Public Papers for the day.
 - the legislators' pension law of Apr. 10, 1968 (Smith 526): *Laws of New York*, 1968, its chapter.
 - Logue and Rockefeller, Jan. 1968 (Smith 524; Benjamin and Hurd, *Rockefeller in Retrospect*).
-- New York's session laws of 1961, 1962, 1963 and 1964 for the days the governor signed the higher education
-  program, the Metcalf-Baker law, the Job Development Authority, the State University Construction Fund (Mar. 31, 1962, Smith's
-  date), the Albany County lease, the liquor bills; and the canvass of the bond issue of Nov. 1961.
-- the Liquor Authority scandal: Epstein's removal, Hostetter's appointment, the Walsh commission (Smith 391-92;
-  *Life*, Apr. 5, 1963).
+- New York's session laws of 1961, 1962, 1963 and 1964 for the days the governor signed the higher education program, the Metcalf-Baker law, the Job Development Authority, the State University Construction Fund (Mar. 31, 1962, Smith's date), the Albany County lease, the liquor bills; and the canvass of the bond issue of Nov. 1961.
+- the Liquor Authority scandal: Epstein's removal, Hostetter's appointment, the Walsh commission (Smith 391-92; *Life*, Apr. 5, 1963).
 - *Public Papers of Nelson A. Rockefeller*, 1962 (pp. 1036-39, 1120, 1132-35, 1159, 1208-12): find an open copy.
 - the appeals court's decision on the South Mall, June 30, 1962 (Smith 400): the court and the cite.
-- New York's session laws of 1965-68 for the days the 1965 sales tax, the death penalty law, the free legal
-  services bills, the transit settlement law (1966), the Rye-Oyster Bay Bridge law (1967), the Medicaid law and its cuts were
-  signed.
+- New York's session laws of 1965-68 for the days the 1965 sales tax, the death penalty law, the free legal services bills, the transit settlement law (1966), the Rye-Oyster Bay Bridge law (1967), the Medicaid law and its cuts were signed.
 - Storm King: the FPC's order of Mar. 1965 and Scenic Hudson v. FPC (2d Cir., Dec. 1965), for Conservation.
 
 ### Bernstein, *Guns or Butter* (batch 3, sixth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
@@ -481,8 +424,7 @@ CQ Weekly Report, 1968-08-16:
 
 ### Woods, *Fulbright: A Biography* (batch 3, Nov. 4, 2026; notes/book-checks/woods-fulbright.md)
 
-- Arkansas: the State Democratic Committee's minutes, June 27 and Aug. 10, 1968; the 1960 primary's candidates'
-  filings; the AFL-CIO convention of June 1968; the *Arkansas Gazette* run of 1960-68 (Woods's chief newspaper source).
+- Arkansas: the State Democratic Committee's minutes, June 27 and Aug. 10, 1968; the 1960 primary's candidates' filings; the AFL-CIO convention of June 1968; the *Arkansas Gazette* run of 1960-68 (Woods's chief newspaper source).
 
 ### Thomas, *Robert Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
 - The Wayne County, W. Va., case of 1960-63 (RFK to Burke Marshall, Sept. 23, 1963, Burke Marshall Papers); Danville, Va., 1963, Geoghegan sent (Geoghegan OH, JFKL; 112); Savannah, Sept. 1960 (Scott Peek OH, SHO); Chafin's *Just Good Politics*, 127-45 (Logan County, W. Va.?), not held.
@@ -502,55 +444,25 @@ CQ Weekly Report, 1968-08-16:
 ## National
 
 ### The building trades (Nov. 4, 2026; inbox/2026-11-04-building-trades.yaml)
-- The Cleveland Plan, 1966-67: the OFCC's pre-award manning requirements on federally assisted construction in
-  Cleveland, and their suspension; the days not found. Upheld in the State courts after the span: *Weiner v. Cuyahoga
-  Community College Dist.*, 19 Ohio St. 2d 35 (1969) (recalled; the page to check). Graham, *Civil Rights Era*;
-  Sugrue, *Affirmative Action from Below*.
-- The common-situs bills after the hearings of June 1965: whether House Education and Labor reported one in the 89th
-  or 90th Congress, and any floor action (the Daily Digest; CQ Almanac 1965-67).
-- The Douglas Commission's report, *Building the American City* (Dec. 1968), and the Kaiser Committee's technical
-  studies (1968), Dunlop and Mills on construction labor among them: the day each was transmitted; not in the
-  calendar beyond the commission's appointment (cal.1967-01-12.cities-and-housing) and the Kaiser report
-  (Jan. 1969).
-- The Downstate Medical Center protests, July-Aug. 1963: Rockefeller's agreement with the Brooklyn ministers, its
-  day (cal.1963-07.civil-rights-organizations); Taylor, *Black Churches of Brooklyn*; Biondi, *To Stand and Fight*.
-- Comptroller General Staats's opinion on the Philadelphia Pre-Award Plan, 48 Comp. Gen. 326 (1968): the day,
-  recalled as Nov. 18, 1968 (cal.1968-11.civil-rights-the-executive).
-- The Gateway Arch walkout of early 1966 and the injunction, *United States v. Building & Construction Trades Council
-  of St. Louis*, 271 F. Supp. 447 (E.D. Mo. 1966): the days (cal.1966-02-04.states-and-cities-st-louis).
+- The Cleveland Plan, 1966-67: the OFCC's pre-award manning requirements on federally assisted construction in Cleveland, and their suspension; the days not found. Upheld in the State courts after the span: *Weiner v. Cuyahoga Community College Dist.*, 19 Ohio St. 2d 35 (1969) (recalled; the page to check). Graham, *Civil Rights Era*; Sugrue, *Affirmative Action from Below*.
+- The common-situs bills after the hearings of June 1965: whether House Education and Labor reported one in the 89th or 90th Congress, and any floor action (the Daily Digest; CQ Almanac 1965-67).
+- The Douglas Commission's report, *Building the American City* (Dec. 1968), and the Kaiser Committee's technical studies (1968), Dunlop and Mills on construction labor among them: the day each was transmitted; not in the calendar beyond the commission's appointment (cal.1967-01-12.cities-and-housing) and the Kaiser report (Jan. 1969).
+- The Downstate Medical Center protests, July-Aug. 1963: Rockefeller's agreement with the Brooklyn ministers, its day (cal.1963-07.civil-rights-organizations); Taylor, *Black Churches of Brooklyn*; Biondi, *To Stand and Fight*.
+- Comptroller General Staats's opinion on the Philadelphia Pre-Award Plan, 48 Comp. Gen. 326 (1968): the day, recalled as Nov. 18, 1968 (cal.1968-11.civil-rights-the-executive).
+- The Gateway Arch walkout of early 1966 and the injunction, *United States v. Building & Construction Trades Council of St. Louis*, 271 F. Supp. 447 (E.D. Mo. 1966): the days (cal.1966-02-04.states-and-cities-st-louis).
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
-- Watson, *Into the Missile Age*, 350, names Gates's testimony of Jan. 25, 1960, before House Science and Astronautics:
-  narrow the Check on cal.1960-01-26.defense.
+- Watson, *Into the Missile Age*, 350, names Gates's testimony of Jan. 25, 1960, before House Science and Astronautics: narrow the Check on cal.1960-01-26.defense.
 - cal.1967-09-25.vietnam-congress: "47 other Republicans" against Gibbons's footnote list of 24 cosponsors; the Record.
-- No copy reached of Gibbons, pts. II and III, *Current Documents* 1963, or the Pentagon Papers (the Government's and
-  Gravel's editions): their pinpoints are unchecked.
+- No copy reached of Gibbons, pts. II and III, *Current Documents* 1963, or the Pentagon Papers (the Government's and Gravel's editions): their pinpoints are unchecked.
 - Futrell, *The Advisory Years*: archive.org's text is badly garbled; read from the page images.
-- cal.1967-10-23.vietnam: "Phúc Yên authorized Sept. 28 and cancelled" (from the Pennsylvania entry, folded in by the
-  duplicates sweep): FRUS 1964–68, V, doc. 312 (Sept. 11), cited for it, does not show it. Gibbons, IV, 793–96, or the
-  Joint Chiefs' history FRUS cites.
-- cal.1968-08-19.testing cites FRUS 1964–68, XIV, doc. 285, which is Rusk on the consulates, not Dobrynin's note
-  (doc. 286).
-- House roll calls: three entries now give the Record's printed tallies against Voteview's file (Aug. 24 and Sept. 17,
-  1965; June 13, 1967). The calendar's other roll calls probably take Voteview's counts: a pass holding each to the
-  Record's printed tally (notes/disagreements-2026-10-28.md).
-- The Daily Diary days the National Archives Catalog lacks would settle cal.1963-12-03.foreign-aid,
-  cal.1965-07-29.medicare, cal.1965-08-05.economy and cal.1965-08-09.vietnam-congress.
-- 134 disagreement Checks remain open after stage 2 (notes/disagreements-2026-10-28.md): the *New York Times* and the
-  hearings they name were not read.
+- cal.1967-10-23.vietnam: "Phúc Yên authorized Sept. 28 and cancelled" (from the Pennsylvania entry, folded in by the duplicates sweep): FRUS 1964–68, V, doc. 312 (Sept. 11), cited for it, does not show it. Gibbons, IV, 793–96, or the Joint Chiefs' history FRUS cites.
+- cal.1968-08-19.testing cites FRUS 1964–68, XIV, doc. 285, which is Rusk on the consulates, not Dobrynin's note (doc. 286).
+- House roll calls: three entries now give the Record's printed tallies against Voteview's file (Aug. 24 and Sept. 17, 1965; June 13, 1967). The calendar's other roll calls probably take Voteview's counts: a pass holding each to the Record's printed tally (notes/disagreements-2026-10-28.md).
+- The Daily Diary days the National Archives Catalog lacks would settle cal.1963-12-03.foreign-aid, cal.1965-07-29.medicare, cal.1965-08-05.economy and cal.1965-08-09.vietnam-congress.
+- 134 disagreement Checks remain open after stage 2 (notes/disagreements-2026-10-28.md): the *New York Times* and the hearings they name were not read.
 
-- Caro, *The Passage of Power* (`w.caro-passage-of-power`; `notes/book-checks/caro-passage-of-power.md`), events the
-  book gives without a day or that wait on a record: Johnson's secret meeting with Ben-Gurion at Fortas's house, Mar.
-  1960 (81-82); Connally's and India Edwards's press conference on Kennedy's Addison's disease, just before July 5,
-  1960 (96-97); the Texas canvassing board and the Republicans' petition for a recount, Nov. 11-Dec. 19, 1960
-  (152-54); the first leaders' breakfast, Jan. 24, 1961, Johnson with Kennedy beforehand by Evelyn Lincoln's account
-  (178); Rayburn's leave-taking of the House, Aug. 16, 1961 (190; the Record); Johnson at the East Room meeting with
-  the retail chains' executives on civil rights, the day after June 3, 1963 (261); Young's and Burdick's charges
-  against Baker, Nov. 15, 1963, and *Life*'s "Bobby Baker Case," Nov. 18 (296-98); the Joint Chiefs' budget meeting
-  at the Ranch, Dec. 30, 1963 (517); the record of Johnson's approval of OPLAN 34-A, Jan. 16, 1964 (535: no NSAM;
-  FRUS 1964-68, I, not found by date); the record of Smith's agreement in House Rules, Jan. 23, 1964, to end the
-  hearings Jan. 30 (560). New stations for the thread statements of Baker, Poverty and Press and
-  broadcasting (`c2`) when the patch is merged.
+- Caro, *The Passage of Power* (`w.caro-passage-of-power`; `notes/book-checks/caro-passage-of-power.md`), events the book gives without a day or that wait on a record: Johnson's secret meeting with Ben-Gurion at Fortas's house, Mar. 1960 (81-82); Connally's and India Edwards's press conference on Kennedy's Addison's disease, just before July 5, 1960 (96-97); the Texas canvassing board and the Republicans' petition for a recount, Nov. 11-Dec. 19, 1960 (152-54); the first leaders' breakfast, Jan. 24, 1961, Johnson with Kennedy beforehand by Evelyn Lincoln's account (178); Rayburn's leave-taking of the House, Aug. 16, 1961 (190; the Record); Johnson at the East Room meeting with the retail chains' executives on civil rights, the day after June 3, 1963 (261); Young's and Burdick's charges against Baker, Nov. 15, 1963, and *Life*'s "Bobby Baker Case," Nov. 18 (296-98); the Joint Chiefs' budget meeting at the Ranch, Dec. 30, 1963 (517); the record of Johnson's approval of OPLAN 34-A, Jan. 16, 1964 (535: no NSAM; FRUS 1964-68, I, not found by date); the record of Smith's agreement in House Rules, Jan. 23, 1964, to end the hearings Jan. 30 (560). New stations for the thread statements of Baker, Poverty and Press and broadcasting (`c2`) when the patch is merged.
 - The conventions (`elections/conventions.yaml`, `cal.1968-08-05.elections-1968`): how and when each Republican delegation of 1968 was chosen is Wikipedia's table ("1968 Republican primaries and state conventions"), each row from a newspaper; read it against the Senate Library's *Nomination and Election of the President and Vice President ... Including the Manner of Selecting Delegates* (Jan. 1968; archive.org `nominationelecti0000na`, borrow only; govinfo's Serial Set holds the 1988 and 1992 editions, not this one; HathiTrust bot-checked, 403 cloudflare, Oct. 23, 2026, twice). Open questions there: whether each primary bound its delegates; Alabama (CQ Guide 6th (2010) 409 says a delegate-selection primary was held; the table gives conventions); New York's ten at large; Michigan's and Texas's district delegates (the table gives the State convention alone); Puerto Rico and the Virgin Islands (not in the table); the table's own doubts (Tennessee's 9th district, Mar. 28; Louisiana's 1st and 2nd, May 30). Its delegate counts disagree with the Call in places (Florida 36, the Call 34) and were not taken.
 - The other conventions (`elections/conventions.yaml`): Republican 1964 (San Francisco: the Scott civil rights and extremism amendments' roll calls; *Twenty-eighth Republican National Convention*, archive.org `twentyeighthrepu0000unse`, borrow, may be the program); Democratic 1964 (Atlantic City: the Mississippi and Alabama seatings; *Official Report of the Proceedings of the Democratic National Convention and Committee*, `officialreportof0000chai`, borrow, 942 pp.); Democratic 1968 (Chicago: the unit rule, the Georgia, Mississippi, Texas, Alabama and North Carolina seatings, the minority Vietnam plank, the first ballot by State; Proceedings not found online, archive.org searched again Oct. 23, 2026; Wikipedia gives only the totals, Humphrey 1,759.25; how chosen, the Hughes Commission's Table I, 114 Cong. Rec. 31549 (Oct. 14, 1968), now in the file; the Call's apportionment not found); 1960 both (not found). Bain and Parris, *Convention Decisions and Voting Records* (2d ed. 1973; `conventiondecisi0000bain`, borrow; HathiTrust search-only) prints every roll call by State; CQ's *National Party Conventions, 1831-1972* (`nationalpartycon0000cong_n4e9`, borrow; HathiTrust search-only) the apportionments. The Republican Proceedings run on archive.org's `sim_republican-national-convention-proceedings_*` from 1968 only.
 - The Republican roll calls of 1968 in the Names: each delegation's vote is not yet a row in the candidates' records (as `primary_rows` does for the primaries).
@@ -578,11 +490,7 @@ CQ Weekly Report, 1968-08-16:
 - Johnson's Freedom House speech, Feb. 23, 1966: not written. APP.
 - The "Crisis and Commitment" statement of Wilkins, Randolph and others, Oct. 1966: no verified source.
 - The General Electric strike and the Taft-Hartley injunction, Oct. 2–18, 1966: no verified source.
-- Johnson's call to Mills, Nov. 12, 1966: its content behind PRDE's subscription. The Miller Center gives it free
-  (`daybook/recordings/millercenter.yaml`: 9:21 a.m., tape WH6611.04, citations 11035–11037), but millercenter.org
-  fails TLS verification from here (a self-signed certificate in the chain; Oct. 23, 2026, 00:2x and 00:56 UTC), so
-  the recording is not heard. No entry written. Listen in a browser; Johnson's Daily Diary for the day is not in the
-  National Archives Catalog's selection (see the Diary lead below).
+- Johnson's call to Mills, Nov. 12, 1966: its content behind PRDE's subscription. The Miller Center gives it free (`daybook/recordings/millercenter.yaml`: 9:21 a.m., tape WH6611.04, citations 11035–11037), but millercenter.org fails TLS verification from here (a self-signed certificate in the chain; Oct. 23, 2026, 00:2x and 00:56 UTC), so the recording is not heard. No entry written. Listen in a browser; Johnson's Daily Diary for the day is not in the National Archives Catalog's selection (see the Diary lead below).
 - Moyers's resignation, Dec. 1966: the date not verified.
 - A change in the Federal Reserve's policy, late Dec. 1966: not verified. FOMC minutes; *Federal Reserve Bulletin*.
 - The Southern Governors' Conference on civil rights; the Democratic governors' other meetings with Johnson; the National League of Cities' policy acts: no entries.
@@ -622,403 +530,137 @@ CQ Weekly Report, 1968-08-16:
 
 ### The books read again (stage 5, Oct. 29, 2026; the leads at the end of each book's notes/book-checks/ file)
 
-- Dittmer and Miller: de Gaulle's statement of Aug. 29, 1963; the *Washington Daily News* on Richardson, Oct. 2, 1963;
-  FRUS 1961-63, III, docs. 274-75; the Nolting-Diệm talks of Nov.-Dec. 1961; the Mississippi regulars' endorsement of
-  Goldwater; Kennedy's news conference of Mar. 21, 1963 on the Civil Rights Commission's hearings (an `also` and a
-  sentence on `cal.1963-03-21.cuba`); the Daily Diary's backup for Aug. 15-26, 1964; the FBI's file on the Freedom
-  Democrats.
+- Dittmer and Miller: de Gaulle's statement of Aug. 29, 1963; the *Washington Daily News* on Richardson, Oct. 2, 1963; FRUS 1961-63, III, docs. 274-75; the Nolting-Diệm talks of Nov.-Dec. 1961; the Mississippi regulars' endorsement of Goldwater; Kennedy's news conference of Mar. 21, 1963 on the Civil Rights Commission's hearings (an `also` and a sentence on `cal.1963-03-21.cuba`); the Daily Diary's backup for Aug. 15-26, 1964; the FBI's file on the Freedom Democrats.
 
-- Nixon, *RN* (1978), 1961-68: not read (Oct. 29, 2026). The owner's copy (Drive 1cSYO3uxBPW3hJnQlueDMCJn6m_LXjVij,
-  59 MB) is in a folder not shared by link, over the Drive tool's 10 MB limit and without a text layer it will return;
-  archive.org's four copies of the 1978 edition lend only. Waits on the owner's copy in the shared books folder. Its
-  1961-68 chapters: Republican Party, the elections threads, Vietnam, transition-and-staff.
-- Caro and Dallek: news conferences in the Public Papers not yet in the calendar; the notes of the NSC of Feb. 8, 1967
-  and the Cabinet meetings of July 19, 1967 and Aug. 22, 1968, not read; Evelyn Lincoln's diary; the hours of the calls
-  Caro quotes, McCormack on Nov. 29, 1963 and Bundy on Mar. 2, 1964; William Bundy's manuscript history; the 24
-  recordings the two books cite, found in the catalogues and not heard (the Miller Center's pages fail TLS here).
-- *A Thousand Days* and *The Vantage Point*: Laos's public record, Mar.-Apr. 1961; the messages of 1961; Hawkins's cable
-  (FRUS 1961-63, X, doc. 98); the breakfast meeting of Nov. 21, 1967; the Dominican Republic, the India food, the
-  Kennedy Round and the arms talks as Johnson tells them; four discrepancies kept as Checks (the Mundt vote, 57-36 by
-  Johnson; the reserve call-up of the Mar. 4, 1968 draft, about 245,000 by Johnson against FRUS's 262,000; the Rules
-  Committee of Mar. 19, 1968, "lost by one vote" by Johnson against the Digest's deferral; Mills's statement, Nov. 11,
-  1964 by Johnson against the calendar's Dec. 2).
-- Frankum, *Victory in Vietnam*, Johns: Hanoi's Politburo decisions not entered, and Hồ's appeals of 1965, 1966 and
-  1968; Nam Bắc, 1966-68; Market Time; the target list of June 1964; the herbicide decision of 1961; the Laos side of
-  Eisenhower and Kennedy's Camp David talk of Apr. 22, 1961; O'Donnell's account of Kennedy to Mansfield, Dec. 1962, and
-  its day; the Record's page for Cooper's Senate speech of Jan. 26, 1966; the Miller Center recordings Johns cites
-  (Johnson with Eisenhower, Feb. 15, 1965 and Oct. 3, 1966; with Russell, May 27, 1964), not heard.
-- Hess and Broder, *The Republican Establishment* (1967): read whole, pp. 1-420, Oct. 29, 2026 (two runs). Undated
-  or unsettled in pp. 71-420 (notes/book-checks/hess-republican-establishment.md, "The rest"): the Wednesday Group's
-  founding (mid-1963, 72); Scott's "in" and "out" groups to the California Republican League (1965, 73); the House
-  Republicans' "State of the Union" and tax sharing (Jan. 1967, 85); Nixon's letter to Goldwater on "extremism in
-  defense of liberty" (Aug. 1964, 171); Nixon to the ASNE (1964, 151); Reagan on *Meet the Press* on the Rumford Act
-  (267: the programs of Jan. 9 and Sept. 11, 1966 both list him); Reagan's 1967 budget, tuition and tax acts (283-87:
-  the session laws); Florida's court-ordered special election of the legislature (Apr. 1967, 352: the day and the
-  canvass); Wallace to Ted Knap, $1 million raised (Apr. 1967, 357: the column); Hatfield's "Prelude to Manila" on
-  statewide television (autumn 1966, 388) and his Harvard Young Republicans speech (389). Undated in pp. 1-70 (the rows of
-  notes/book-checks/hess-republican-establishment.md, "to leads"): Burch named chairman and the executive committee
-  remade (July 1964); Rhodes's release of Ohio's delegation to Goldwater (July 1964); Hugh Scott's call for Burch's
-  removal (Nov. 1964); Goldwater and Bliss at Goldwater's Washington apartment (Dec. 1964-Jan. 1965); Rhodes to the
-  House Policy Committee, Goodell's Planning and Research Committee, Ford's failed move against Arends (Jan. 1965);
-  Bliss's denunciation of the Free Society Association (June 1965); the Boosters Club (1965); the Coordinating
-  Committee's papers on civil rights, extremism and inflation, and Bliss's statement on Welch (1965-66); Bliss's
-  Opinion Research study (1966); Miller's endorsement of Rockefeller and Jackie Robinson (1966); Brooke on "the
-  extremists of black power and white power" and Agnew's turn against Mahoney (Oct. 1966); Nixon's answer to Johnson
-  of Nov. 1966; the national committee at New Orleans (Jan. 1967); Ford's "no such deals" speech (Jan. 1967); Morton's
-  moderates against Dirksen (1967); the Democratic National Committee's release on the rent supplements vote (May
-  1967); Ashbrook's speech and the ACU's report on the Ripon Society (the Record, 1966-67); Specter's election as
-  Philadelphia's district attorney (Nov. 1965); Campaign Consultants Incorporated (Jan. 1966; the owner to rule).
+- Nixon, *RN* (1978), 1961-68: not read (Oct. 29, 2026). The owner's copy (Drive 1cSYO3uxBPW3hJnQlueDMCJn6m_LXjVij, 59 MB) is in a folder not shared by link, over the Drive tool's 10 MB limit and without a text layer it will return; archive.org's four copies of the 1978 edition lend only. Waits on the owner's copy in the shared books folder. Its 1961-68 chapters: Republican Party, the elections threads, Vietnam, transition-and-staff.
+- Caro and Dallek: news conferences in the Public Papers not yet in the calendar; the notes of the NSC of Feb. 8, 1967 and the Cabinet meetings of July 19, 1967 and Aug. 22, 1968, not read; Evelyn Lincoln's diary; the hours of the calls Caro quotes, McCormack on Nov. 29, 1963 and Bundy on Mar. 2, 1964; William Bundy's manuscript history; the 24 recordings the two books cite, found in the catalogues and not heard (the Miller Center's pages fail TLS here).
+- *A Thousand Days* and *The Vantage Point*: Laos's public record, Mar.-Apr. 1961; the messages of 1961; Hawkins's cable (FRUS 1961-63, X, doc. 98); the breakfast meeting of Nov. 21, 1967; the Dominican Republic, the India food, the Kennedy Round and the arms talks as Johnson tells them; four discrepancies kept as Checks (the Mundt vote, 57-36 by Johnson; the reserve call-up of the Mar. 4, 1968 draft, about 245,000 by Johnson against FRUS's 262,000; the Rules Committee of Mar. 19, 1968, "lost by one vote" by Johnson against the Digest's deferral; Mills's statement, Nov. 11, 1964 by Johnson against the calendar's Dec. 2).
+- Frankum, *Victory in Vietnam*, Johns: Hanoi's Politburo decisions not entered, and Hồ's appeals of 1965, 1966 and 1968; Nam Bắc, 1966-68; Market Time; the target list of June 1964; the herbicide decision of 1961; the Laos side of Eisenhower and Kennedy's Camp David talk of Apr. 22, 1961; O'Donnell's account of Kennedy to Mansfield, Dec. 1962, and its day; the Record's page for Cooper's Senate speech of Jan. 26, 1966; the Miller Center recordings Johns cites (Johnson with Eisenhower, Feb. 15, 1965 and Oct. 3, 1966; with Russell, May 27, 1964), not heard.
+- Hess and Broder, *The Republican Establishment* (1967): read whole, pp. 1-420, Oct. 29, 2026 (two runs). Undated or unsettled in pp. 71-420 (notes/book-checks/hess-republican-establishment.md, "The rest"): the Wednesday Group's founding (mid-1963, 72); Scott's "in" and "out" groups to the California Republican League (1965, 73); the House Republicans' "State of the Union" and tax sharing (Jan. 1967, 85); Nixon's letter to Goldwater on "extremism in defense of liberty" (Aug. 1964, 171); Nixon to the ASNE (1964, 151); Reagan on *Meet the Press* on the Rumford Act (267: the programs of Jan. 9 and Sept. 11, 1966 both list him); Reagan's 1967 budget, tuition and tax acts (283-87: the session laws); Florida's court-ordered special election of the legislature (Apr. 1967, 352: the day and the canvass); Wallace to Ted Knap, $1 million raised (Apr. 1967, 357: the column); Hatfield's "Prelude to Manila" on statewide television (autumn 1966, 388) and his Harvard Young Republicans speech (389). Undated in pp. 1-70 (the rows of notes/book-checks/hess-republican-establishment.md, "to leads"): Burch named chairman and the executive committee remade (July 1964); Rhodes's release of Ohio's delegation to Goldwater (July 1964); Hugh Scott's call for Burch's removal (Nov. 1964); Goldwater and Bliss at Goldwater's Washington apartment (Dec. 1964-Jan. 1965); Rhodes to the House Policy Committee, Goodell's Planning and Research Committee, Ford's failed move against Arends (Jan. 1965); Bliss's denunciation of the Free Society Association (June 1965); the Boosters Club (1965); the Coordinating Committee's papers on civil rights, extremism and inflation, and Bliss's statement on Welch (1965-66); Bliss's Opinion Research study (1966); Miller's endorsement of Rockefeller and Jackie Robinson (1966); Brooke on "the extremists of black power and white power" and Agnew's turn against Mahoney (Oct. 1966); Nixon's answer to Johnson of Nov. 1966; the national committee at New Orleans (Jan. 1967); Ford's "no such deals" speech (Jan. 1967); Morton's moderates against Dirksen (1967); the Democratic National Committee's release on the rent supplements vote (May 1967); Ashbrook's speech and the ACU's report on the Ripon Society (the Record, 1966-67); Specter's election as Philadelphia's district attorney (Nov. 1965); Campaign Consultants Incorporated (Jan. 1966; the owner to rule).
 
 ### Primary records (stage 4, Oct. 29, 2026; notes/primary-records/<years>.md, each entry's record or why none)
 
-- 1960-62: the July 1960 recess resolution's record; the Rules Committee's vote count on school aid; the Mansfield
-  committee print; the Fulbright memorandum and the Kennedy Library's files (jfklibrary.org refuses this environment,
-  403); the TFX hearings, pt. 2; Utah's 1960 primary (only the congressional page online); the 1961-62 *Michigan
-  Manual* (no open copy); Wyoming's vote-totals PDF answers 404 (recheck `sources/states.yaml`); the East Berlin order
-  of Sept. 8, 1960; the Security Council's record of the Kuwait veto (its viewer a script); Rusk's talk at the CENTO
-  meeting; Faisal's ten-point program; Georgia's, New York's, Tennessee's and Michigan's session laws and journals (no
-  open copy); the Albany orders and Black's order in *Meredith v. Fair* (unreported).
+- 1960-62: the July 1960 recess resolution's record; the Rules Committee's vote count on school aid; the Mansfield committee print; the Fulbright memorandum and the Kennedy Library's files (jfklibrary.org refuses this environment, 403); the TFX hearings, pt. 2; Utah's 1960 primary (only the congressional page online); the 1961-62 *Michigan Manual* (no open copy); Wyoming's vote-totals PDF answers 404 (recheck `sources/states.yaml`); the East Berlin order of Sept. 8, 1960; the Security Council's record of the Kuwait veto (its viewer a script); Rusk's talk at the CENTO meeting; Faisal's ten-point program; Georgia's, New York's, Tennessee's and Michigan's session laws and journals (no open copy); the Albany orders and Black's order in *Meredith v. Fair* (unreported).
 
-- 1963-64: Illinois's *Official Vote* 1964, the at-large House table only in rotated page images (totals unread);
-  the Wisconsin Blue Books (the UW site refuses this environment); California's 1963 Journals and *Statutory Record*
-  (scans without text: the Rumford Act's passage and Unruh's lock-in); the *Minnesota Legislative Manual* for
-  Rolvaag's oath; Robert Kennedy's letter to the Senate Commerce Committee on Barnett's charges (the hearings on S.
-  1732, not on govinfo); the 1963 Article V applications, each by page in 109 Cong. Rec.; Lee White's memo of July 6,
-  1964 (named in the Daily Diary); the Miller Center recordings of Dec. 7 and 27, 1963 and Aug. 25, 1964, not heard
-  (its pages fail TLS here); no FRUS record found for the Tanganyika-Zanzibar union (Apr. 26, 1964) or the end of
-  martial law in Seoul (July 28, 1964).
-- 1965-66: the Foreign Relations Committee's *Executive Sessions* (Historical Series), vols. XVII (1965) and XVIII
-  (1966), not on govinfo; S. Rep. 89-1359 and the Delano and Ribicoff hearings (govinfo's search hit its demo key's
-  rate limit); the Miller Center's tape pages fail TLS through the proxy (two recordings, Dec. 3, 1965 and Mar. 14,
-  1966, linked behind "To check:", not heard); the Daily Diary for Aug. 9-11, 1965 and June 1, 1966 (not online);
-  Oregon's records system (ORMS) serves files only by byte ranges (the other years readable so); California's
-  Statutes are scans without text; Minnesota's veto list (lrl.mn.gov) did not answer: Rolvaag's veto of May 24, 1965;
-  web.archive.org refuses this environment: Vermont's 1966 primary; the Security Council's records of Dec. 5 and 8,
-  1966 (Rhodesia); New York's Laws and Manuals, Virginia's Acts, Florida's Laws, Oklahoma's House Journal, and the
-  N.M., Pa., Mich., Tenn., Wyo., Wis. and Vt. election publications (no open copy found). The audit does not count a
-  record on archive.org or a State or university host as a primary record (about ten entries a span).
+- 1963-64: Illinois's *Official Vote* 1964, the at-large House table only in rotated page images (totals unread); the Wisconsin Blue Books (the UW site refuses this environment); California's 1963 Journals and *Statutory Record* (scans without text: the Rumford Act's passage and Unruh's lock-in); the *Minnesota Legislative Manual* for Rolvaag's oath; Robert Kennedy's letter to the Senate Commerce Committee on Barnett's charges (the hearings on S. 1732, not on govinfo); the 1963 Article V applications, each by page in 109 Cong. Rec.; Lee White's memo of July 6, 1964 (named in the Daily Diary); the Miller Center recordings of Dec. 7 and 27, 1963 and Aug. 25, 1964, not heard (its pages fail TLS here); no FRUS record found for the Tanganyika-Zanzibar union (Apr. 26, 1964) or the end of martial law in Seoul (July 28, 1964).
+- 1965-66: the Foreign Relations Committee's *Executive Sessions* (Historical Series), vols. XVII (1965) and XVIII (1966), not on govinfo; S. Rep. 89-1359 and the Delano and Ribicoff hearings (govinfo's search hit its demo key's rate limit); the Miller Center's tape pages fail TLS through the proxy (two recordings, Dec. 3, 1965 and Mar. 14, 1966, linked behind "To check:", not heard); the Daily Diary for Aug. 9-11, 1965 and June 1, 1966 (not online); Oregon's records system (ORMS) serves files only by byte ranges (the other years readable so); California's Statutes are scans without text; Minnesota's veto list (lrl.mn.gov) did not answer: Rolvaag's veto of May 24, 1965; web.archive.org refuses this environment: Vermont's 1966 primary; the Security Council's records of Dec. 5 and 8, 1966 (Rhodesia); New York's Laws and Manuals, Virginia's Acts, Florida's Laws, Oklahoma's House Journal, and the N.M., Pa., Mich., Tenn., Wyo., Wis. and Vt. election publications (no open copy found). The audit does not count a record on archive.org or a State or university host as a primary record (about ten entries a span).
 
-- 1967: the Apollo 204 hearings, House Apr. 10 (D144) and Senate Apr. 11 (D145), not in the calendar; the day of
-  Mills's statement (Oct. 7-8?); S. Res. 180 adopted 82-0, Nov. 30 (FRUS 1964-68, V, doc. 421), not in the calendar;
-  the Record still to be searched for Robert Kennedy's speech of Feb. 8, Ryan's letter of Oct. 12, *Meet the Press* of
-  Nov. 19, McCarthy's statement of Nov. 30, Tower of May 2; Johnson and Fulbright by telephone, June 19, 10:57 p.m.,
-  recorded (FRUS V, doc. 207), not in the calendar; Thompson at the luncheon of June 14, against the calendar's June
-  13 (doc. 193 n.3); the Pell-Bộ follow-ups of May 27, June 29, July 31 and Aug. 30 (doc. 214); the Hanoi bombing
-  restriction extended through Sept. 7 (doc. 308); *Current Documents, 1967* (pp. 843-44, 892-93, 925-26, 1038-39),
-  no open copy; the 1967 session laws of Ark., Colo., Tenn., Or. and Nev. (HathiTrust, bot-checked); the Daily Diary
-  open for 11 days of 1967 only.
+- 1967: the Apollo 204 hearings, House Apr. 10 (D144) and Senate Apr. 11 (D145), not in the calendar; the day of Mills's statement (Oct. 7-8?); S. Res. 180 adopted 82-0, Nov. 30 (FRUS 1964-68, V, doc. 421), not in the calendar; the Record still to be searched for Robert Kennedy's speech of Feb. 8, Ryan's letter of Oct. 12, *Meet the Press* of Nov. 19, McCarthy's statement of Nov. 30, Tower of May 2; Johnson and Fulbright by telephone, June 19, 10:57 p.m., recorded (FRUS V, doc. 207), not in the calendar; Thompson at the luncheon of June 14, against the calendar's June 13 (doc. 193 n.3); the Pell-Bộ follow-ups of May 27, June 29, July 31 and Aug. 30 (doc. 214); the Hanoi bombing restriction extended through Sept. 7 (doc. 308); *Current Documents, 1967* (pp. 843-44, 892-93, 925-26, 1038-39), no open copy; the 1967 session laws of Ark., Colo., Tenn., Or. and Nev. (HathiTrust, bot-checked); the Daily Diary open for 11 days of 1967 only.
 
-- 1968-69: the Joint Economic Committee's 1969 hearings, to date Barr's testimony (the Digest of Jan. 17, 1969 lists
-  none); an open government copy of the Walker and Miami reports (archive.org lends them only); the Daily Diary's images
-  for Apr. 4-7, 1968, to be read; the Apollo 8 air-to-ground transcript; the Bureau of Mines' report on the Farmington
-  mine explosion; Kentucky's *Acts*, 1968, for the approval of H.B. 399; the 1968 legislatures countable race by race
-  from California's *Statement of Vote*, Alaska's Official Returns and Iowa's *Official Register*; the Peers Report's
-  figures for Mỹ Lai against the entry's (a Check there); the King Papers' texts of his speeches (not open here).
+- 1968-69: the Joint Economic Committee's 1969 hearings, to date Barr's testimony (the Digest of Jan. 17, 1969 lists none); an open government copy of the Walker and Miami reports (archive.org lends them only); the Daily Diary's images for Apr. 4-7, 1968, to be read; the Apollo 8 air-to-ground transcript; the Bureau of Mines' report on the Farmington mine explosion; Kentucky's *Acts*, 1968, for the approval of H.B. 399; the 1968 legislatures countable race by race from California's *Statement of Vote*, Alaska's Official Returns and Iowa's *Official Register*; the Peers Report's figures for Mỹ Lai against the entry's (a Check there); the King Papers' texts of his speeches (not open here).
 
 ### The official histories, reread (stage 3, Oct. 28-29, 2026; notes/book-checks/, one file a volume)
 
-Dated events the volumes give that the calendar lacks, each with the volume's page in its book-check file ("Passed
-over", "to leads"):
+Dated events the volumes give that the calendar lacks, each with the volume's page in its book-check file ("Passed over", "to leads"):
 
-- Watson, *Into the Missile Age*: Polaris to Congress (Aug. 8, 1960), the 19-ship program (Oct. 5), the limited-war
-  study (Aug. 3, Oct. 4), the Unified Command Plan (Dec. 30); Fylingdales (Feb. 17), the Berlin flights plan
-  (Feb.-Mar.), the U-2 overflight of Apr. 9, the Augusta NSC on NATO's missiles (Nov. 17; FRUS 1958-60, VII, pt. 1,
-  doc. 273), Norstad's atomic pool (Nov. 21), the Disarmament Administration (Sept. 9).
-- Kaplan, Landa and Drea, *The McNamara Ascendancy*: Kennedy rescinds the dependents directive and the first NSC
-  meeting (Feb. 1, 1961); the JCS's Bay of Pigs evaluation (Mar. 10); the 559,000 mobilization (July 6); reserve
-  call-up planning (Aug. 24, Sept. 7); the Berlin supplemental and appropriation (Aug.); Norstad's air access
-  authority (Aug. 31); the TFX decision (Sept. 1); 11 Air Guard squadrons to Europe (Oct. 10); Fort Bragg (Oct. 12);
-  NSAM 109 (Oct. 23); the first Honolulu conference (Dec. 16); the budget meeting with the Chiefs (Jan. 3, 1962);
-  McNamara's Vietnam program (June 5); Skybolt (Aug.-Nov.); the Clay committee (Dec. 6); the Wheeler team (Jan. 7,
-  1963); LeMay's extension (May 6); the first cost-reduction report (July 8); the procurement signing (Mar. 20, 1964);
-  NSAM 318 (Nov. 14). The base-closure entries (1961-64) rest on Kaplan alone: the Department's releases not found.
-- Drea, *McNamara, Clifford*: Vance and Sikes on the supplemental (Jan. 10, 1966); the FY1968 budget to Johnson
-  (Dec. 5, 1966); the news conference's Vietnam remarks (July 31, 1968); McNamara urges a pause (Dec. 2, 1965); the
-  DIA-CIA bombing assessment (Nov. 18, 1965); the Case I deployments (Feb. 9, 1966); the Honolulu air-war conference
-  (July 8, 1966); the Chiefs' 1967 proposals and their answer to Program 4 (Nov. 4, Dec. 2, 1966); McNaughton (May 6,
-  1967); Program 5 ordered (July 14); the bombing restrictions (May 29, Sept. 20-26); the Tuesday lunch of Feb. 13,
-  1968 (FRUS 1964-68, VI, 206-10); Johnson with Wheeler (July 30, Aug. 2, 1968); the NPT draft (Oct. 16, 1966); the
-  launcher freeze (Oct. 4, Nov. 2, 1967); the ABM speech and Thompson with Gromyko (Aug. 2, 19, 28, Sept. 12, 1967);
-  Kosygin's reply (May 12, 1968); the seabed proposal (June 3, 1968; FRUS 1964-68, XI, doc. 242); NATO (Aug. 26, 1966:
-  Drea prints 1965, Check the year; Sept. 23; July 8 and Aug. 23, 1966; Apr. 13, 1967); Israel's Phantoms (Nov. 7,
-  Dec. 11, 20, 21, 1968); Palomares (Jan. 21, Apr. 7, 1966).
-- The Air Force and Navy volumes: Johnson with McNamara and the Chiefs (Mar. 15, 1965; Marolda 531-32) and the enclave
-  meeting (Mar. 29); Rolling Thunder 6 and Blue Tree approved (Mar. 9, 1965; Van Staaveren 85); the address of May 13,
-  1965; the POL strikes put off for Ronning (June 10-15, 1966); the first open USAF jet missions in the South (Feb.
-  19-24, 1965) and the JCS order of Mar. 9 (Futrell 267); a Hanoi-area SAM site struck Aug. 9, 1965, the line moved
-  to 20°30′N Aug. 11 (Van Staaveren 167); OPLAN 34A approved by McNamara in Saigon (Dec. 20, 1963); the second 34A
-  raid (Aug. 3-4, 1964); MAAG Laos out (Oct. 6, 1962); Souvanna voted prime minister (Aug. 16, 1960); the Laos
-  coalition (June 11-24, 1962); JCSM-330-63 (Apr. 25, 1963); the first Barrel Roll mission (Dec. 14, 1964); the first
-  B-52 strike in Laos (*Interdiction* gives Dec. 10, 1965, p. 101, and Dec. 12, p. 133); the second Mụ Giạ B-52
-  strike (Apr. 21, 1966); Klusmann's escape (Aug. 21, 1964); MACTHAI apart from MACV (May 27, 1965).
-- The JCS volumes (Poole 8-9; *The JCS and the War in Vietnam*, pts. 1-3): Johnson's letter of instructions to
-  McNamara (Mar. 5, 1964); Wheeler Chairman (July 3, 1964); SIOP-63 approved (June 18-19, 1962); Taylor named Chairman
-  (July 20, 1962); Program Six approved (Mar. 13, 1968); Clifford sworn in (Mar. 1, 1968); the Montagnard revolt
-  (Sept. 19-20, 1964); Khánh's warning before his coup (Jan. 28, 1964); the White House meeting of Dec. 6, 1963; the
-  meeting of Mar. 15, 1965 on "losing"; the NLF's holiday truces (Nov. 25, 1966); the *Enterprise* speech (Nov. 11,
-  1967) and the five points (Dec. 19, 1967); the Khe Sanh withdrawal completed (July 7, 1968); the *Pueblo*'s mission
-  authorized (Jan. 2, 1968); the Yemeni revolution (Sept. 26-27, 1962). FRUS cited by page only, not yet matched to
-  documents: 1964-68, VI, 457-474, 523-534, 875-885. No open copy found of the Stennis hearings, *Air War against
-  North Vietnam* (1967), or of Cronkite's broadcast of Feb. 27, 1968; jcs.mil's PDFs refuse this environment (403).
-- Access: history.defense.gov's and media.defense.gov's PDFs refuse this environment (403); the DTIC scans on
-  archive.org served (Drea, DTIC_ADA552481; archive.org labels the leaf of p. 441 "457"; its pages for Anthony run one
-  high from p. 115 to p. 333). The OSD strategic-arms chronology not reached.
+- Watson, *Into the Missile Age*: Polaris to Congress (Aug. 8, 1960), the 19-ship program (Oct. 5), the limited-war study (Aug. 3, Oct. 4), the Unified Command Plan (Dec. 30); Fylingdales (Feb. 17), the Berlin flights plan (Feb.-Mar.), the U-2 overflight of Apr. 9, the Augusta NSC on NATO's missiles (Nov. 17; FRUS 1958-60, VII, pt. 1, doc. 273), Norstad's atomic pool (Nov. 21), the Disarmament Administration (Sept. 9).
+- Kaplan, Landa and Drea, *The McNamara Ascendancy*: Kennedy rescinds the dependents directive and the first NSC meeting (Feb. 1, 1961); the JCS's Bay of Pigs evaluation (Mar. 10); the 559,000 mobilization (July 6); reserve call-up planning (Aug. 24, Sept. 7); the Berlin supplemental and appropriation (Aug.); Norstad's air access authority (Aug. 31); the TFX decision (Sept. 1); 11 Air Guard squadrons to Europe (Oct. 10); Fort Bragg (Oct. 12); NSAM 109 (Oct. 23); the first Honolulu conference (Dec. 16); the budget meeting with the Chiefs (Jan. 3, 1962); McNamara's Vietnam program (June 5); Skybolt (Aug.-Nov.); the Clay committee (Dec. 6); the Wheeler team (Jan. 7, 1963); LeMay's extension (May 6); the first cost-reduction report (July 8); the procurement signing (Mar. 20, 1964); NSAM 318 (Nov. 14). The base-closure entries (1961-64) rest on Kaplan alone: the Department's releases not found.
+- Drea, *McNamara, Clifford*: Vance and Sikes on the supplemental (Jan. 10, 1966); the FY1968 budget to Johnson (Dec. 5, 1966); the news conference's Vietnam remarks (July 31, 1968); McNamara urges a pause (Dec. 2, 1965); the DIA-CIA bombing assessment (Nov. 18, 1965); the Case I deployments (Feb. 9, 1966); the Honolulu air-war conference (July 8, 1966); the Chiefs' 1967 proposals and their answer to Program 4 (Nov. 4, Dec. 2, 1966); McNaughton (May 6, 1967); Program 5 ordered (July 14); the bombing restrictions (May 29, Sept. 20-26); the Tuesday lunch of Feb. 13, 1968 (FRUS 1964-68, VI, 206-10); Johnson with Wheeler (July 30, Aug. 2, 1968); the NPT draft (Oct. 16, 1966); the launcher freeze (Oct. 4, Nov. 2, 1967); the ABM speech and Thompson with Gromyko (Aug. 2, 19, 28, Sept. 12, 1967); Kosygin's reply (May 12, 1968); the seabed proposal (June 3, 1968; FRUS 1964-68, XI, doc. 242); NATO (Aug. 26, 1966: Drea prints 1965, Check the year; Sept. 23; July 8 and Aug. 23, 1966; Apr. 13, 1967); Israel's Phantoms (Nov. 7, Dec. 11, 20, 21, 1968); Palomares (Jan. 21, Apr. 7, 1966).
+- The Air Force and Navy volumes: Johnson with McNamara and the Chiefs (Mar. 15, 1965; Marolda 531-32) and the enclave meeting (Mar. 29); Rolling Thunder 6 and Blue Tree approved (Mar. 9, 1965; Van Staaveren 85); the address of May 13, 1965; the POL strikes put off for Ronning (June 10-15, 1966); the first open USAF jet missions in the South (Feb. 19-24, 1965) and the JCS order of Mar. 9 (Futrell 267); a Hanoi-area SAM site struck Aug. 9, 1965, the line moved to 20°30′N Aug. 11 (Van Staaveren 167); OPLAN 34A approved by McNamara in Saigon (Dec. 20, 1963); the second 34A raid (Aug. 3-4, 1964); MAAG Laos out (Oct. 6, 1962); Souvanna voted prime minister (Aug. 16, 1960); the Laos coalition (June 11-24, 1962); JCSM-330-63 (Apr. 25, 1963); the first Barrel Roll mission (Dec. 14, 1964); the first B-52 strike in Laos (*Interdiction* gives Dec. 10, 1965, p. 101, and Dec. 12, p. 133); the second Mụ Giạ B-52 strike (Apr. 21, 1966); Klusmann's escape (Aug. 21, 1964); MACTHAI apart from MACV (May 27, 1965).
+- The JCS volumes (Poole 8-9; *The JCS and the War in Vietnam*, pts. 1-3): Johnson's letter of instructions to McNamara (Mar. 5, 1964); Wheeler Chairman (July 3, 1964); SIOP-63 approved (June 18-19, 1962); Taylor named Chairman (July 20, 1962); Program Six approved (Mar. 13, 1968); Clifford sworn in (Mar. 1, 1968); the Montagnard revolt (Sept. 19-20, 1964); Khánh's warning before his coup (Jan. 28, 1964); the White House meeting of Dec. 6, 1963; the meeting of Mar. 15, 1965 on "losing"; the NLF's holiday truces (Nov. 25, 1966); the *Enterprise* speech (Nov. 11,
+  1967) and the five points (Dec. 19, 1967); the Khe Sanh withdrawal completed (July 7, 1968); the *Pueblo*'s mission authorized (Jan. 2, 1968); the Yemeni revolution (Sept. 26-27, 1962). FRUS cited by page only, not yet matched to documents: 1964-68, VI, 457-474, 523-534, 875-885. No open copy found of the Stennis hearings, *Air War against North Vietnam* (1967), or of Cronkite's broadcast of Feb. 27, 1968; jcs.mil's PDFs refuse this environment (403).
+- Access: history.defense.gov's and media.defense.gov's PDFs refuse this environment (403); the DTIC scans on archive.org served (Drea, DTIC_ADA552481; archive.org labels the leaf of p. 441 "457"; its pages for Anthony run one high from p. 115 to p. 333). The OSD strategic-arms chronology not reached.
 
 ### One event, one entry (the folds agent, Oct. 28, 2026; notes/folds-2026-10-28.md)
 
-- `cal.1964-12-24.vietnam` cites FRUS 1964–68, I, doc. 465 for the Brink bombing and the reprisal refused; the
-  document is the cable on Taylor and Hương's threatened expulsion. Find the document that bears the refusal.
-- `cal.1965-08-11.court`: the Judiciary Committee's hearing on Fortas, Aug. 5, 1965, as the entry of July 28 had it;
-  no source read for the day.
+- `cal.1964-12-24.vietnam` cites FRUS 1964–68, I, doc. 465 for the Brink bombing and the reprisal refused; the document is the cable on Taylor and Hương's threatened expulsion. Find the document that bears the refusal.
+- `cal.1965-08-11.court`: the Judiciary Committee's hearing on Fortas, Aug. 5, 1965, as the entry of July 28 had it; no source read for the day.
 - `cal.1963-12-03` (the foreign-aid thread's entry): it names no foreign aid; the thread kept only as `also:`. Review.
 
 ### The districts' partisan voting index (the PVI agent, Oct. 28, 2026; notes/extensions/memos/pvi-districts.md)
 
-- 1964 by district (for 1966-72): the Census's supplements to the 88th Data Book, *Redistricted States*, Nos. 8-32,
-  full view on HathiTrust (`mdp.39015084491953`; Nos. 1-7, `mdp.39015084491797`, print 1952-60 only), bot-checked
-  here: whether they print 1964 is not known. Else CQ Weekly Report's district returns after the 1964 election; the
-  compilations since (Park-Egan's atlas, Jacobson's file) only as checks against the Census volumes.
-- 1968 on the 92d's lines (for 1970): *Congressional District Data, Districts of the 92d Congress* (CDD-92, 1971-72),
-  HathiTrust `uc1.c025786080`, pts. 1-46, bot-checked; whether it prints the vote is not known.
-- 1972 by district (for 1974): the Census's *Congressional District Data, 94th Congress* (1974; LCCN 74603410), the
-  NRCC's *Vote Comparison*, CQ, Barone's *Almanac of American Politics* 1974: none searched open.
-- The split-county districts left "n.a." in 1962 and 1964: no source found that recomputes CQ's 1956 and 1960 figures
-  on the new lines.
+- 1964 by district (for 1966-72): the Census's supplements to the 88th Data Book, *Redistricted States*, Nos. 8-32, full view on HathiTrust (`mdp.39015084491953`; Nos. 1-7, `mdp.39015084491797`, print 1952-60 only), bot-checked here: whether they print 1964 is not known. Else CQ Weekly Report's district returns after the 1964 election; the compilations since (Park-Egan's atlas, Jacobson's file) only as checks against the Census volumes.
+- 1968 on the 92d's lines (for 1970): *Congressional District Data, Districts of the 92d Congress* (CDD-92, 1971-72), HathiTrust `uc1.c025786080`, pts. 1-46, bot-checked; whether it prints the vote is not known.
+- 1972 by district (for 1974): the Census's *Congressional District Data, 94th Congress* (1974; LCCN 74603410), the NRCC's *Vote Comparison*, CQ, Barone's *Almanac of American Politics* 1974: none searched open.
+- The split-county districts left "n.a." in 1962 and 1964: no source found that recomputes CQ's 1956 and 1960 figures on the new lines.
 
 ### The 1960 Census and the reapportionment (Oct. 21, 2026)
 
 - `cal.1960-08.legislatures`: the day the Census Bureau released PC(P1)-1 (its press release; the *Times*, Aug. 1960).
-- `cal.1961-01-10.legislatures`: the House Document number of the President's statement and the day it was laid
-  before the House; the date of the Clerk's certificates to the governors under 2 U.S.C. § 2a(b); the apportionment
-  population (excluding the District), not entered.
+- `cal.1961-01-10.legislatures`: the House Document number of the President's statement and the day it was laid before the House; the date of the Clerk's certificates to the governors under 2 U.S.C. § 2a(b); the apportionment population (excluding the District), not entered.
 - `cal.1960-03-15.legislatures`: Proclamation 3337's Federal Register and Statutes at Large cites.
-- `cal.1960-04-01.legislatures`: "one household in four asked the longer questions": verify against the Bureau's
-  *1960 Censuses of Population and Housing: Procedural History* (1966); the enumerators and the mail-out not entered.
-- `cal.1966-12-12.georgia` (*Fortson v. Morris*, the Assembly choosing the governor) left out of Districting and
-  apportionment: a judgment to review.
+- `cal.1960-04-01.legislatures`: "one household in four asked the longer questions": verify against the Bureau's *1960 Censuses of Population and Housing: Procedural History* (1966); the enumerators and the mail-out not entered.
+- `cal.1966-12-12.georgia` (*Fortson v. Morris*, the Assembly choosing the governor) left out of Districting and apportionment: a judgment to review.
 
 ### The span splits (the spans agents, Oct. 20–21, 2026)
 
-Dates marked "Check" in the new parts, from recall or the old entry, and parts written with "Check: the record" where no
-document was found. Each under the entry it concerns; `./bib find -t check -l cal` lists the rest.
+Dates marked "Check" in the new parts, from recall or the old entry, and parts written with "Check: the record" where no document was found. Each under the entry it concerns; `./bib find -t check -l cal` lists the rest.
 
-- 1960: the cabinet's announcements (`cal.1960-12-01.transition-and-staff` and its parts): Hodges Dec. 3, Udall Dec. 7,
-  Freeman and Goldberg Dec. 15, Day Dec. 17; Stevenson Dec. 8 or 12. Herter and Harman, Dec. 9. The 1960 gold price
-  (Oct. 20): the record.
-- 1961: the Rusk–McNamara memorandum of Nov. 11 (`cal.1961-11-11.vietnam`): cited FRUS 1961–63, I, docs. 234, 236; not
-  in the daybook; the Pentagon Papers. Bridges's death (Nov. 26): the record.
-- 1962: Jimmy Carter's Georgia Senate primary, Oct. 16, and the Georgetown fraud: not in the calendar; Carter, *Turning
-  Point* (already on `cal.1962-09-27.georgia`). The Record page for Celebrezze's confirmation (July 31). The Maryland
-  Court of Appeals decision of July 23 and the Tennessee acts of 1962: their reports. Elliott's and Tuttle's Albany
-  orders; Barnett's interposition proclamation: the records.
-- 1963–65: test-ban hearing days, Aug. 15 and 20, 1963; Freedom Summer's second week of training; the Notasulga order;
-  the National Leadership Council's dates, June 1965. Spans kept for lack of dated stations: New York's special session,
-  Dec. 15–30, 1964; Maryland's, Oct. 11–21, 1965; Nevada's, Oct. 25–Nov. 13, 1965.
-- 1966: Quill's "drop dead" day (the transit strike); Bond's special election; Voteview RS0890265 (Jan. 26): its
-  description; the Business Council, Mar. 30 (no APP); the Schenley agreement; Connally at New Braunfels; "fox in a
-  chicken coop": its source; the Record's pages for the split roll calls.
-- 1967: the House's date for the OEO amendments (Nov. 15?); Ways and Means on the surcharge (Oct. 3?); the discount
-  rate, Nov. 19; the Johnson–Ramsey Clark tape, Jan. 20 or 21; the Stennis report's title; Hoover's (July 25) and
-  Dirksen's (July 26) tapes: their subjects.
-- 1968: the New York sanitation strike and the day of Rockefeller's proposal; Murton's digging and his firing; the East
-  Los Angeles thirteen, indicted May 31 or arrested Mar. 31; the days of the bills of Texas's special session and of
-  Florida's joint resolutions; Christian's "no breakthrough"; Rusk's testimony, Mar. 11–12: the hours and the words.
-- Single-day entries that still take in another day (a second pass): Jan. 26, 1960, Vietnam (Feb. 12); Feb. 4, 1960,
-  school aid (Feb. 3); May 13, 1960, the veto (the passage votes).
+- 1960: the cabinet's announcements (`cal.1960-12-01.transition-and-staff` and its parts): Hodges Dec. 3, Udall Dec. 7, Freeman and Goldberg Dec. 15, Day Dec. 17; Stevenson Dec. 8 or 12. Herter and Harman, Dec. 9. The 1960 gold price (Oct. 20): the record.
+- 1961: the Rusk–McNamara memorandum of Nov. 11 (`cal.1961-11-11.vietnam`): cited FRUS 1961–63, I, docs. 234, 236; not in the daybook; the Pentagon Papers. Bridges's death (Nov. 26): the record.
+- 1962: Jimmy Carter's Georgia Senate primary, Oct. 16, and the Georgetown fraud: not in the calendar; Carter, *Turning Point* (already on `cal.1962-09-27.georgia`). The Record page for Celebrezze's confirmation (July 31). The Maryland Court of Appeals decision of July 23 and the Tennessee acts of 1962: their reports. Elliott's and Tuttle's Albany orders; Barnett's interposition proclamation: the records.
+- 1963–65: test-ban hearing days, Aug. 15 and 20, 1963; Freedom Summer's second week of training; the Notasulga order; the National Leadership Council's dates, June 1965. Spans kept for lack of dated stations: New York's special session, Dec. 15–30, 1964; Maryland's, Oct. 11–21, 1965; Nevada's, Oct. 25–Nov. 13, 1965.
+- 1966: Quill's "drop dead" day (the transit strike); Bond's special election; Voteview RS0890265 (Jan. 26): its description; the Business Council, Mar. 30 (no APP); the Schenley agreement; Connally at New Braunfels; "fox in a chicken coop": its source; the Record's pages for the split roll calls.
+- 1967: the House's date for the OEO amendments (Nov. 15?); Ways and Means on the surcharge (Oct. 3?); the discount rate, Nov. 19; the Johnson–Ramsey Clark tape, Jan. 20 or 21; the Stennis report's title; Hoover's (July 25) and Dirksen's (July 26) tapes: their subjects.
+- 1968: the New York sanitation strike and the day of Rockefeller's proposal; Murton's digging and his firing; the East Los Angeles thirteen, indicted May 31 or arrested Mar. 31; the days of the bills of Texas's special session and of Florida's joint resolutions; Christian's "no breakthrough"; Rusk's testimony, Mar. 11–12: the hours and the words.
+- Single-day entries that still take in another day (a second pass): Jan. 26, 1960, Vietnam (Feb. 12); Feb. 4, 1960, school aid (Feb. 3); May 13, 1960, the veto (the passage votes).
 
 ### Federal finance (the fiscal agent, Oct. 21, 2026)
 
-- Appropriations (the bills agent, Oct. 22, 2026): each session's table is now in, read from the tables printed in the
-  bound Record (`congress/appropriations.yaml`). Still to do: the Senate's *Appropriations, Budget Estimates, Etc.* for
-  the 1960s, not found open (govinfo's Serial Set holds the editions of the 70th–82d Congresses and from the 91st's second session, SERIALSET-12888_02, none of 1959–69; archive.org only the 1980s'; HathiTrust bot-checked, Oct. 23, 2026), would give the House
-  and Senate columns and the supplementals of every session alike; 88th, 2d sess. (1964): the Record's summary prints
-  no estimates (the full table, 110 Cong. Rec. 24054–24055, does, bill by bill, its OCR poor); 89th, 1st (1965): the
-  table of Oct. 22, 1965, prints no bill numbers and no subtotal by fiscal year; 90th, 1st (1967): the table is as of
-  Dec. 11, 1967, before foreign assistance and the supplemental were enacted (a later table: the 1968 Index,
-  "Appropriations, 90th Congress, 1st session" not found; look in the Record of Jan. 1968).
-- Fiscal 1968's first-reported actual on the administrative basis, by source and by function: not in the budget of
-  January 1969 (unified only), nor in the Treasury's *Annual Report* for fiscal 1968 (archive.org, SecTreasAnnReport1968,
-  read Oct. 22, 2026: outlays on the unified basis, by agency, p. 6), nor in the *Treasury Bulletin* (FRASER, read
-  Oct. 23, 2026): its administrative budget tables, expenditures by function among them, run through the Jan. 1968
-  issue and stop (the cumulative contents, Feb. and Aug. 1968); from Feb. 1968 it reports the unified budget only. Left:
-  the Treasury's *Combined Statement of Receipts, Expenditures and Balances* for fiscal 1968, or the Annual Report's
-  statistical appendix (`budgets/budgets.yaml`, 1968 `actual: null`; its note still says the Bulletin is unread).
-- Fiscal 1967's expenditures by function, interest (13,524) and general government (2,708): read from the OCR text of
-  the Treasury's *Annual Report*, 1967, p. 484, not the page image (the lines add to the printed total).
-- Debt limit: the Senate's tabling of Gore's depletion amendment to H.R. 12381, June 18, 1960 (Johnson's motion,
-  39–26, RS0860354), left out as minor; the Senate's passage of H.R. 7677, June 28 or 29, 1961, without a roll call
-  (the 1961 History of Bills prints p. 11624, which falls on June 28, but the debate it cites runs to 11651, June 29);
-  CRS's *The Debt Limit: History and Recent Increases* (Austin, RL31967): crsreports.congress.gov 403 (cloudflare); read on everycrsreport.com (versions 2003–Nov. 2, 2015), Oct. 23, 2026: no account of the acts of 1960–68 one by one ("Since then, Congress has enacted 78 separate measures"; it points to OMB's Table 7.3, the table's source already). Settled.
-- Revenue effects not in Tempalski's OTA Working Paper 81: the Excise Tax Reduction Act of 1965 (cal.1965-06-21.economy),
-  the investment credit's suspension (cal.1966-11-08.economy) and restoration (cal.1967-06-13.economy). The Treasury's
-  estimates are in the next January's budgets (the receipts chapters) and the Treasury's Annual Reports.
-- Bill histories still to do (`congress/bills.yaml`, the plan's item 3; the Revenue Act of 1962 and the Tax Adjustment
-  Act done Oct. 22, 2026, with nine others): the
-  Interest Equalization Tax Act (H.R. 8000, 1963–64), the Excise Tax Reduction Act of 1965 (H.R. 8371), the
-  investment credit's suspension (H.R. 17607) and restoration (H.R. 6950), the
-  Foreign Investors Tax Act (H.R. 13103, 1966), and the twelve debt-limit acts. The History of Bills parts are on
-  govinfo (1960 pt15, 1961 pt17, 1962 pt18, 1963 pt20, 1964 pt19, 1965 pt22, 1966 pt22, 1967 pt28, 1968 pt25); the
-  pages turn to days by each part's granule records (printPageRange in the package's mods.xml). Senate Finance's
-  hearings on H.R. 8363 (Oct.–Dec. 1963) are not in the History and not yet in the calendar.
-- Bills' courses (the bills agent, Oct. 22, 2026), what the History of Bills misprints or omits: H.R. 7152's
-  introduction, printed p. 11227 (June 19, 1963), is on p. 11252 (June 20); H.R. 2362's Senate debate, printed from p.
-  7195 (a House page of Apr. 6, 1965), begins on the Senate's day of Apr. 7; H.R. 12752's conference report, printed
-  "submitted in House and agreed to" pp. 5775, 5778 (Mar. 14, 1966), was agreed to Mar. 15, p. 5788. Voteview dates
-  the Senate's passage of H.R. 10650 Sept. 5, 1962 (RS0870375); the Record prints the roll call in the proceedings of
-  Sept. 6. Not yet in the tables: the committees' hearings (Ways and Means on H.R. 6675, Judiciary on S. 1564 and H.R.
-  7152, Senate Finance on H.R. 10650 and H.R. 11970), which the History does not give; the House's Rules Committee
-  votes. The Senate's agreement to the conference reports on H.R. 11970 (Oct. 4, 1962) and H.R. 2580 (Sept. 30, 1965)
-  has no roll call in Voteview; the tables show none.
+- Appropriations (the bills agent, Oct. 22, 2026): each session's table is now in, read from the tables printed in the bound Record (`congress/appropriations.yaml`). Still to do: the Senate's *Appropriations, Budget Estimates, Etc.* for the 1960s, not found open (govinfo's Serial Set holds the editions of the 70th–82d Congresses and from the 91st's second session, SERIALSET-12888_02, none of 1959–69; archive.org only the 1980s'; HathiTrust bot-checked, Oct. 23, 2026), would give the House and Senate columns and the supplementals of every session alike; 88th, 2d sess. (1964): the Record's summary prints no estimates (the full table, 110 Cong. Rec. 24054–24055, does, bill by bill, its OCR poor); 89th, 1st (1965): the table of Oct. 22, 1965, prints no bill numbers and no subtotal by fiscal year; 90th, 1st (1967): the table is as of Dec. 11, 1967, before foreign assistance and the supplemental were enacted (a later table: the 1968 Index, "Appropriations, 90th Congress, 1st session" not found; look in the Record of Jan. 1968).
+- Fiscal 1968's first-reported actual on the administrative basis, by source and by function: not in the budget of January 1969 (unified only), nor in the Treasury's *Annual Report* for fiscal 1968 (archive.org, SecTreasAnnReport1968, read Oct. 22, 2026: outlays on the unified basis, by agency, p. 6), nor in the *Treasury Bulletin* (FRASER, read Oct. 23, 2026): its administrative budget tables, expenditures by function among them, run through the Jan. 1968 issue and stop (the cumulative contents, Feb. and Aug. 1968); from Feb. 1968 it reports the unified budget only. Left: the Treasury's *Combined Statement of Receipts, Expenditures and Balances* for fiscal 1968, or the Annual Report's statistical appendix (`budgets/budgets.yaml`, 1968 `actual: null`; its note still says the Bulletin is unread).
+- Fiscal 1967's expenditures by function, interest (13,524) and general government (2,708): read from the OCR text of the Treasury's *Annual Report*, 1967, p. 484, not the page image (the lines add to the printed total).
+- Debt limit: the Senate's tabling of Gore's depletion amendment to H.R. 12381, June 18, 1960 (Johnson's motion, 39–26, RS0860354), left out as minor; the Senate's passage of H.R. 7677, June 28 or 29, 1961, without a roll call (the 1961 History of Bills prints p. 11624, which falls on June 28, but the debate it cites runs to 11651, June 29); CRS's *The Debt Limit: History and Recent Increases* (Austin, RL31967): crsreports.congress.gov 403 (cloudflare); read on everycrsreport.com (versions 2003–Nov. 2, 2015), Oct. 23, 2026: no account of the acts of 1960–68 one by one ("Since then, Congress has enacted 78 separate measures"; it points to OMB's Table 7.3, the table's source already). Settled.
+- Revenue effects not in Tempalski's OTA Working Paper 81: the Excise Tax Reduction Act of 1965 (cal.1965-06-21.economy), the investment credit's suspension (cal.1966-11-08.economy) and restoration (cal.1967-06-13.economy). The Treasury's estimates are in the next January's budgets (the receipts chapters) and the Treasury's Annual Reports.
+- Bill histories still to do (`congress/bills.yaml`, the plan's item 3; the Revenue Act of 1962 and the Tax Adjustment Act done Oct. 22, 2026, with nine others): the Interest Equalization Tax Act (H.R. 8000, 1963–64), the Excise Tax Reduction Act of 1965 (H.R. 8371), the investment credit's suspension (H.R. 17607) and restoration (H.R. 6950), the Foreign Investors Tax Act (H.R. 13103, 1966), and the twelve debt-limit acts. The History of Bills parts are on govinfo (1960 pt15, 1961 pt17, 1962 pt18, 1963 pt20, 1964 pt19, 1965 pt22, 1966 pt22, 1967 pt28, 1968 pt25); the pages turn to days by each part's granule records (printPageRange in the package's mods.xml). Senate Finance's hearings on H.R. 8363 (Oct.–Dec. 1963) are not in the History and not yet in the calendar.
+- Bills' courses (the bills agent, Oct. 22, 2026), what the History of Bills misprints or omits: H.R. 7152's introduction, printed p. 11227 (June 19, 1963), is on p. 11252 (June 20); H.R. 2362's Senate debate, printed from p. 7195 (a House page of Apr. 6, 1965), begins on the Senate's day of Apr. 7; H.R. 12752's conference report, printed "submitted in House and agreed to" pp. 5775, 5778 (Mar. 14, 1966), was agreed to Mar. 15, p. 5788. Voteview dates the Senate's passage of H.R. 10650 Sept. 5, 1962 (RS0870375); the Record prints the roll call in the proceedings of Sept. 6. Not yet in the tables: the committees' hearings (Ways and Means on H.R. 6675, Judiciary on S. 1564 and H.R. 7152, Senate Finance on H.R. 10650 and H.R. 11970), which the History does not give; the House's Rules Committee votes. The Senate's agreement to the conference reports on H.R. 11970 (Oct. 4, 1962) and H.R. 2580 (Sept. 30, 1965) has no roll call in Voteview; the tables show none.
 
 ### Money, the foreign accounts, the debt's terms (the indicators agent, Oct. 22-23, 2026)
 
-The series `tools/indicators/make_finance.py` writes (its docstring; `tools/bib/finance.py`). FRASER was down Oct. 22,
-01:40-13:15 UTC; on its return (Oct. 23) the first printings were read for the exchange rates (the *Federal Reserve
-Bulletin*), the mortgage rates (the *Bulletin*, from July 1964), the debt's interest rate (the *Treasury Bulletin*,
-1960-68) and its average length for 1963-65 (the same). Still the next January's *Economic Report*, not the first
-printing, or not in at all (all on FRASER, open; not reached in the time):
-- First printings, the month after: the money stock and free reserves (the *Bulletin*, "Money supply and related
-  data"; "Reserves and borrowings of member banks": the text layers are too garbled for free reserves, read by eye),
-  the debt's holders and its average length for 1961-62 and 1966-68 (the *Treasury Bulletin*, "Ownership of Federal
-  securities"; Table 4 of "Public debt operations"), reserve assets (the *Treasury Bulletin*'s gold and reserve
-  table), the trade balances by quarter (the *Survey of Current Business*'s balance-of-payments articles, Mar., June,
-  Sept., Dec.). Reserve assets for 1961 and the IMF position for 1962-65 (the Reports print neither) and Q4 1968 (the
-  *Survey*, Mar. 1969) wait on the same reading.
-- FHA yields Jan. 1960-Mar. 1963: the *Bulletin*'s table begins in July 1964 at Apr. 1963; the Reports print the yield
-  from Feb. 1968 only. The FHA's own releases or the *Survey*'s "Home mortgage rates" may have them.
-- The *Bulletin* of June 1966: FRASER's copy lacks pp. 857-858 (security markets, mortgages); Apr.-May 1966 are taken
-  from July. Its Dec. 1965 *Treasury Bulletin* maturity figure for Nov. 1965 is illegible.
-- The London gold price (the fixing; the two-tier market from Mar. 17, 1968): not in the *Bulletin*'s tables read; the
-  IMF's *International Financial Statistics* or the Bank of England's *Quarterly Bulletin* (not reached). `gold-london`.
-- Liquid liabilities to foreign official institutions, monthly (*Treasury Bulletin*, "Capital movements"; the
-  *Bulletin*, "Gold reserves and dollar holdings") and foreign holders of the debt (*Treasury Bulletin*, "Treasury
-  survey of ownership"): no series yet (`liquid-liabilities` has its cell in finance.py).
-- Unit labor costs and hourly compensation as first published (BLS's quarterly releases; *Monthly Labor Review*,
-  "Current labor statistics"; the CEA's *Economic Indicators*, on FRASER): the rows carry today's figures only. BLS's
-  own sites refuse this environment (403, AkamaiGHost, Oct. 23, 2026, twice).
+The series `tools/indicators/make_finance.py` writes (its docstring; `tools/bib/finance.py`). FRASER was down Oct. 22, 01:40-13:15 UTC; on its return (Oct. 23) the first printings were read for the exchange rates (the *Federal Reserve Bulletin*), the mortgage rates (the *Bulletin*, from July 1964), the debt's interest rate (the *Treasury Bulletin*, 1960-68) and its average length for 1963-65 (the same). Still the next January's *Economic Report*, not the first printing, or not in at all (all on FRASER, open; not reached in the time):
+- First printings, the month after: the money stock and free reserves (the *Bulletin*, "Money supply and related data"; "Reserves and borrowings of member banks": the text layers are too garbled for free reserves, read by eye), the debt's holders and its average length for 1961-62 and 1966-68 (the *Treasury Bulletin*, "Ownership of Federal securities"; Table 4 of "Public debt operations"), reserve assets (the *Treasury Bulletin*'s gold and reserve table), the trade balances by quarter (the *Survey of Current Business*'s balance-of-payments articles, Mar., June, Sept., Dec.). Reserve assets for 1961 and the IMF position for 1962-65 (the Reports print neither) and Q4 1968 (the *Survey*, Mar. 1969) wait on the same reading.
+- FHA yields Jan. 1960-Mar. 1963: the *Bulletin*'s table begins in July 1964 at Apr. 1963; the Reports print the yield from Feb. 1968 only. The FHA's own releases or the *Survey*'s "Home mortgage rates" may have them.
+- The *Bulletin* of June 1966: FRASER's copy lacks pp. 857-858 (security markets, mortgages); Apr.-May 1966 are taken from July. Its Dec. 1965 *Treasury Bulletin* maturity figure for Nov. 1965 is illegible.
+- The London gold price (the fixing; the two-tier market from Mar. 17, 1968): not in the *Bulletin*'s tables read; the IMF's *International Financial Statistics* or the Bank of England's *Quarterly Bulletin* (not reached). `gold-london`.
+- Liquid liabilities to foreign official institutions, monthly (*Treasury Bulletin*, "Capital movements"; the *Bulletin*, "Gold reserves and dollar holdings") and foreign holders of the debt (*Treasury Bulletin*, "Treasury survey of ownership"): no series yet (`liquid-liabilities` has its cell in finance.py).
+- Unit labor costs and hourly compensation as first published (BLS's quarterly releases; *Monthly Labor Review*, "Current labor statistics"; the CEA's *Economic Indicators*, on FRASER): the rows carry today's figures only. BLS's own sites refuse this environment (403, AkamaiGHost, Oct. 23, 2026, twice).
 - The current account (BEA's BOPBCA, quarterly from 1960, on FRED): no contemporary figure read; left out.
 
 ### Oil (the oil agent, Oct. 21, 2026)
 
-- The Machiasport refinery fight, 1968 (Occidental's proposed foreign-trade-zone refinery at Machiasport, Me., and its
-  import quota): not verified, no record read; the Federal Register's Foreign-Trade Zones Board notices of 1968 and the
-  Cabinet Task Force on Oil Import Control, *The Oil Import Question* (Feb. 1970), would date it. govinfo's search answers by its web backend (Oct. 23, 2026): "Machiasport", 1968–70, 245 hits,
-  the bound Record's days (House, Oct. 14, 1968; 1969 passim) and two Coastal Zone Information Center reports of 1970,
-  not read; on the oil import question it holds House Interior's print, *Report on the Oil Import Question*
-  (CPRT-91HPRT48467), not the Task Force's report.
-- The Foreign Petroleum Supply Committee's plan of action, June 1967: awaiting Interior, the Office of Emergency
-  Planning and the Attorney General on June 24 (FRUS 1964–68, XXXIV, doc. 249); the day it was approved, or whether,
-  not found. Vietor, *Energy Policy in America since 1945*, likely gives it.
-- Proclamation 3279 (Mar. 10, 1959) and its amendments of 1959 (3290, Apr. 30; 3328, Dec. 10) fall before the calendar;
-  any amendment after Proclamation 3823 (Jan. 29, 1968) and before Jan. 20, 1969 not looked for (the Federal Register's
-  list of CFR parts affected, title 3).
-- The Bureau of Mines' own *Monthly Petroleum Statement* (Mineral Industry Surveys), earlier than the Survey of Current
-  Business's figures now used as "first": no open copy found (archive.org and govinfo none, searched again Oct. 23, 2026; HathiTrust 403, cloudflare).
-  The API's annual *Proved Reserves* reports (each spring) likewise; the Yearbook's reprint stands in.
-- The Minerals Yearbook pages for reserves (oil-reserves rows): 1960, 1965–68 checked against the page images; 1961–64
-  placed by the page headers in archive.org's OCR (II, 365, 382, 398, 391) Check.
-- The Kuwait and Saudi finds as they bore on policy, Algeria's and Nigeria's exports, Abu Dhabi's first oil, the
-  Iranian consortium's quotas: not entered (the memo's item 3, `notes/extensions/memos/military-oil-vietnam.md`).
+- The Machiasport refinery fight, 1968 (Occidental's proposed foreign-trade-zone refinery at Machiasport, Me., and its import quota): not verified, no record read; the Federal Register's Foreign-Trade Zones Board notices of 1968 and the Cabinet Task Force on Oil Import Control, *The Oil Import Question* (Feb. 1970), would date it. govinfo's search answers by its web backend (Oct. 23, 2026): "Machiasport", 1968–70, 245 hits, the bound Record's days (House, Oct. 14, 1968; 1969 passim) and two Coastal Zone Information Center reports of 1970, not read; on the oil import question it holds House Interior's print, *Report on the Oil Import Question* (CPRT-91HPRT48467), not the Task Force's report.
+- The Foreign Petroleum Supply Committee's plan of action, June 1967: awaiting Interior, the Office of Emergency Planning and the Attorney General on June 24 (FRUS 1964–68, XXXIV, doc. 249); the day it was approved, or whether, not found. Vietor, *Energy Policy in America since 1945*, likely gives it.
+- Proclamation 3279 (Mar. 10, 1959) and its amendments of 1959 (3290, Apr. 30; 3328, Dec. 10) fall before the calendar; any amendment after Proclamation 3823 (Jan. 29, 1968) and before Jan. 20, 1969 not looked for (the Federal Register's list of CFR parts affected, title 3).
+- The Bureau of Mines' own *Monthly Petroleum Statement* (Mineral Industry Surveys), earlier than the Survey of Current Business's figures now used as "first": no open copy found (archive.org and govinfo none, searched again Oct. 23, 2026; HathiTrust 403, cloudflare). The API's annual *Proved Reserves* reports (each spring) likewise; the Yearbook's reprint stands in.
+- The Minerals Yearbook pages for reserves (oil-reserves rows): 1960, 1965–68 checked against the page images; 1961–64 placed by the page headers in archive.org's OCR (II, 365, 382, 398, 391) Check.
+- The Kuwait and Saudi finds as they bore on policy, Algeria's and Nigeria's exports, Abu Dhabi's first oil, the Iranian consortium's quotas: not entered (the memo's item 3, `notes/extensions/memos/military-oil-vietnam.md`).
 
 ### Leaders and committees (the rosters of Oct. 21, 2026)
 
-- Senate Armed Services, 88th Congress: the *Directory* of Mar. 1, 1963 prints Stennis 2nd and Harry F. Byrd 3rd;
-  Nelson's file ranks Byrd 2nd. Nelson's order kept; settle from the Senate *Journal*, 1963.
-- Senate Commerce: Nelson codes it Interstate and Foreign Commerce (354) for all of the 87th; the *Directory* of Jan. 10,
-  1962 prints "Commerce" often. The rename's date.
-- Russell, President pro tempore to Jan. 21, 1971 (the day he died and the 92nd convened): left out of the 92nd (see
-  congress/committees-hand.yaml).
-- Subcommittees of the 89th-91st and 93rd Congresses: no open list found. The 92nd's are in (Oct. 23, 2026): the
-  *Congressional Staff Directory*, 1971 (`1971congressiona008514mbp`, open), read by make_subcommittees.py's RULES
-  unchanged: 267 subcommittees, 2,641 places. The *Directory* prints none to Mar. 1971; from Dec. 3, 1971 it prints
-  each subcommittee's chairman and ranking minority member, in two columns the OCR runs together (not read). The
-  *Staff Directory*'s 1965, 1967 and 1969 editions are not on archive.org (searched again Oct. 23, 2026, by title, by
-  Brownson, by date). HathiTrust's copies are bot-checked here (403, cloudflare). Other sources: the committees' own printed calendars (each lists its subcommittees),
-  and the Digest's reports of organizational meetings, which name some (House Post Office and Civil Service, Feb. 25,
-  1965; House Banking and Currency, Mar. 16, 1965; Senate Government Operations, Jan. 24, 1967).
-- The subcommittees of the 87th, 88th and 92nd (congress/subcommittees.yaml): 117 of 459 carry a Check (the 92nd's, 74 of 267) (a printed count the
-  names read do not make, a chairman's line not matched, a surname unread, a name not put right): read those leaves
-  by eye (each row links its leaf). The ex officio members the Staff Directory marks by a footnote are not marked.
-- Select committees the first- and second-session *Directories* do not print: the Senate's Select Committee on
-  National Water Resources (1959-61, the 86th: hearings in 1960), the House's Select Committee on Export Control
-  (hearings in 1962), the House select committee on the Powell case (H. Res. 1, 1967), the Joint Committee on
-  Inaugural Arrangements. Their hearings' rows are not linked.
+- Senate Armed Services, 88th Congress: the *Directory* of Mar. 1, 1963 prints Stennis 2nd and Harry F. Byrd 3rd; Nelson's file ranks Byrd 2nd. Nelson's order kept; settle from the Senate *Journal*, 1963.
+- Senate Commerce: Nelson codes it Interstate and Foreign Commerce (354) for all of the 87th; the *Directory* of Jan. 10, 1962 prints "Commerce" often. The rename's date.
+- Russell, President pro tempore to Jan. 21, 1971 (the day he died and the 92nd convened): left out of the 92nd (see congress/committees-hand.yaml).
+- Subcommittees of the 89th-91st and 93rd Congresses: no open list found. The 92nd's are in (Oct. 23, 2026): the *Congressional Staff Directory*, 1971 (`1971congressiona008514mbp`, open), read by make_subcommittees.py's RULES unchanged: 267 subcommittees, 2,641 places. The *Directory* prints none to Mar. 1971; from Dec. 3, 1971 it prints each subcommittee's chairman and ranking minority member, in two columns the OCR runs together (not read). The *Staff Directory*'s 1965, 1967 and 1969 editions are not on archive.org (searched again Oct. 23, 2026, by title, by Brownson, by date). HathiTrust's copies are bot-checked here (403, cloudflare). Other sources: the committees' own printed calendars (each lists its subcommittees), and the Digest's reports of organizational meetings, which name some (House Post Office and Civil Service, Feb. 25, 1965; House Banking and Currency, Mar. 16, 1965; Senate Government Operations, Jan. 24, 1967).
+- The subcommittees of the 87th, 88th and 92nd (congress/subcommittees.yaml): 117 of 459 carry a Check (the 92nd's, 74 of 267) (a printed count the names read do not make, a chairman's line not matched, a surname unread, a name not put right): read those leaves by eye (each row links its leaf). The ex officio members the Staff Directory marks by a footnote are not marked.
+- Select committees the first- and second-session *Directories* do not print: the Senate's Select Committee on National Water Resources (1959-61, the 86th: hearings in 1960), the House's Select Committee on Export Control (hearings in 1962), the House select committee on the Powell case (H. Res. 1, 1967), the Joint Committee on Inaugural Arrangements. Their hearings' rows are not linked.
 - Not yet built: ratios changed during a Congress.
 
 ### Ebooks and feeds
 
-- The Public Papers from GPO's volumes (`sources/ppp-text/`, Oct. 22, 2026): items the OCR lost, their text run into the
-  item before: 1968–69, items 110, 111 and 113 (the headings on pages the scan reads as photographs, PDF pp. 397–413
-  of PPP-1968-book1); and Kennedy 1963's item 480 (Johnson's, Dec. 6, 1963, after item 479). Read them off the pages
-  and split them by hand (a `HAND` table in `tools/ppp/make_ppp_text.py`).
-- The Public Papers: the APP documents no item matches (`unmatched_app` in `sources/ppp-matches.json`, 79) and
-  the items no APP document matches (`unmatched_ppp`, 89): most are a day apart or retitled; check a sample and
-  widen the rule, or match by hand. The headings whose day the OCR lost (152 items, `filed` dates) want their
-  dates read off the page.
-- The Public Papers of 1953–59 and 1969–74 (Eisenhower's first seven volumes, Nixon's and Ford's) are on govinfo the
-  same way: the Names' presidential documents and the Executive roster's sources of those years still link APP.
-- The Public Papers' text: misreadings no rule meets stand (names above all: "Ribicofi", "Pvanch"); the volumes' indexes
-  and the Appendix A lists of White House releases are not read. A spell pass against a name list (the series'
-  persons) would mend many names.
-- The Miller Center's audio links in the feeds come from the earlier JSON:API pull, unchecked: millercenter.org fails TLS
-  verification through this environment's proxy (a self-signed certificate in the chain; Oct. 23, 2026, twice; not
-  bypassed) and its audio host refused (403). Open a few in a browser.
+- The Public Papers from GPO's volumes (`sources/ppp-text/`, Oct. 22, 2026): items the OCR lost, their text run into the item before: 1968–69, items 110, 111 and 113 (the headings on pages the scan reads as photographs, PDF pp. 397–413 of PPP-1968-book1); and Kennedy 1963's item 480 (Johnson's, Dec. 6, 1963, after item 479). Read them off the pages and split them by hand (a `HAND` table in `tools/ppp/make_ppp_text.py`).
+- The Public Papers: the APP documents no item matches (`unmatched_app` in `sources/ppp-matches.json`, 79) and the items no APP document matches (`unmatched_ppp`, 89): most are a day apart or retitled; check a sample and widen the rule, or match by hand. The headings whose day the OCR lost (152 items, `filed` dates) want their dates read off the page.
+- The Public Papers of 1953–59 and 1969–74 (Eisenhower's first seven volumes, Nixon's and Ford's) are on govinfo the same way: the Names' presidential documents and the Executive roster's sources of those years still link APP.
+- The Public Papers' text: misreadings no rule meets stand (names above all: "Ribicofi", "Pvanch"); the volumes' indexes and the Appendix A lists of White House releases are not read. A spell pass against a name list (the series' persons) would mend many names.
+- The Miller Center's audio links in the feeds come from the earlier JSON:API pull, unchecked: millercenter.org fails TLS verification through this environment's proxy (a self-signed certificate in the chain; Oct. 23, 2026, twice; not bypassed) and its audio host refused (403). Open a few in a browser.
 - Recordings made at the LBJ Ranch are dated in Eastern time, not Central; FRUS images are not in the books.
 
 ### Committee hearings (the Daily Digest)
 
-- Hearings a calendar entry should cite by the Digest's line and the printed hearing: Senate Foreign Relations on
-  Vietnam, Feb. 1966; Ways and Means on the tax bill, 1963–64.
-- The four gaps (1966 June 9-15, Sept. 1-7; 1967 Jan. 18-24; 1968 Apr. 11-17), checked against the Digest's pages:
-  June 1966, a day heading the OCR ran together ("Tuesday.June14, 1966", D295); Sept. 1966, the Labor Day recess (no
-  meetings Sept. 2; the House's of Sept. 6 had been filed under the 7th); Jan. 1967, Monday, Jan. 23's heading lost by
-  the OCR (D14) and the Senate's and House's "Committee Meetings" headings misread; Apr. 1968, the Easter recess
-  (H. Con. Res. 761), with Apr. 23's meetings lost under a misread heading. Fixed by rule (make_committees.py STYLE
-  1-3) and every year rerun: 29,105 meetings where there were 26,103 (546 now filed under the day held, 341
-  subcommittee names put whole; 45 leads too garbled to name a committee, "committee (name unread)"). The gaps left: recesses (1967 Feb. 9-15,
-  Lincoln's Birthday; the summer and fall adjournments). Check a sample of 1960-65 by eye: the new rules add rows
-  there too.
-- A meeting reported inside another day's paragraph ("... On Friday, July 26, committee heard testimony from Ivan
-  Allen, Jr.": Senate Commerce, D358, 1963, filed July 29) stays with the paragraph's day; only a paragraph that opens
-  "On Friday, ..." is filed under the day held.
-- A Senate meeting filed as the House's where a chamber's heading the layout misplaces remains possible (1968-01-23,
-  Senate Judiciary's Antitrust and Monopoly Subcommittee, before the column rule); check the chamber of a meeting
-  whose subcommittee only the other chamber has.
-- The calendar's entries on hearings and testimony were checked against the Digest's days (the committee named, the
-  week around): none found that the Digest dates otherwise (Allen before Senate Commerce, July 26, 1963, is right).
+- Hearings a calendar entry should cite by the Digest's line and the printed hearing: Senate Foreign Relations on Vietnam, Feb. 1966; Ways and Means on the tax bill, 1963–64.
+- The four gaps (1966 June 9-15, Sept. 1-7; 1967 Jan. 18-24; 1968 Apr. 11-17), checked against the Digest's pages: June 1966, a day heading the OCR ran together ("Tuesday.June14, 1966", D295); Sept. 1966, the Labor Day recess (no meetings Sept. 2; the House's of Sept. 6 had been filed under the 7th); Jan. 1967, Monday, Jan. 23's heading lost by the OCR (D14) and the Senate's and House's "Committee Meetings" headings misread; Apr. 1968, the Easter recess (H. Con. Res. 761), with Apr. 23's meetings lost under a misread heading. Fixed by rule (make_committees.py STYLE 1-3) and every year rerun: 29,105 meetings where there were 26,103 (546 now filed under the day held, 341 subcommittee names put whole; 45 leads too garbled to name a committee, "committee (name unread)"). The gaps left: recesses (1967 Feb. 9-15, Lincoln's Birthday; the summer and fall adjournments). Check a sample of 1960-65 by eye: the new rules add rows there too.
+- A meeting reported inside another day's paragraph ("... On Friday, July 26, committee heard testimony from Ivan Allen, Jr.": Senate Commerce, D358, 1963, filed July 29) stays with the paragraph's day; only a paragraph that opens "On Friday, ..." is filed under the day held.
+- A Senate meeting filed as the House's where a chamber's heading the layout misplaces remains possible (1968-01-23, Senate Judiciary's Antitrust and Monopoly Subcommittee, before the column rule); check the chamber of a meeting whose subcommittee only the other chamber has.
+- The calendar's entries on hearings and testimony were checked against the Digest's days (the committee named, the week around): none found that the Digest dates otherwise (Allen before Senate Commerce, July 26, 1963, is right).
 - Not yet done: the *Monthly Catalog*'s titles of the printed hearings.
 
 ### State conventions and caucuses (the state conventions agent, Oct. 22, 2026)
 
-- Entered: the subthreads "1964 Elections: State conventions" (ten Republican conventions, Feb. 29 to June 19) and "1968
-  Elections: State conventions" (twelve Democratic, May 16 to July 13), from Wikipedia's tables ("1964 Republican Party
-  presidential primaries," "1968 Democratic Party presidential primaries"), each row from a paper of the day. The papers
-  (newspapers.com) and the *Times* (TimesMachine: 403, envoy, Oct. 23, 2026, a subscriber's login) not read: each entry's Check. The table is loose in
-  places (headline dates of 1972 for 1968; Minnesota 13½ chosen, Humphrey 14; Missouri's Times cite dated May 17).
-- 1960: no State convention entered. Kennedy's and Johnson's delegations (Texas, Michigan, Pennsylvania, Illinois, New
-  York, Missouri, Iowa, Kansas, Colorado …): no open source found; Wikipedia has no table for 1960. CQ Weekly Report 18
-  (1960), index (archive.org `sim_cq-weekly_january-december-1960_18_index`, open; the issues not found open): "Convention
-  delegates, how chosen"; Texas delegation 1141; New York delegation 635, 929, 1099; Missouri 568, 792; Alabama 684,
-  789; Maryland 790; California 1088; "Southerners send delegations". White, *Making of the President 1960*.
-- 1964, not entered: the district conventions (North Carolina, Kansas, Louisiana, Minnesota, Missouri, Tennessee,
-  Virginia), and the State conventions of North Carolina (Feb. 29), North Dakota, Kentucky, Iowa, Alaska, Nevada, Maine
-  (Smith), Delaware, Michigan (48, Romney's, uncommitted), Wyoming, Rhode Island, Vermont, Arkansas, Illinois (May 23),
-  Nebraska, Hawaii, Missouri, Connecticut, Idaho, Minnesota, New Mexico, Utah and Virginia (June 13), Puerto Rico and the
-  Virgin Islands (Rockefeller's). The AP's count of May 24 (Goldwater 304, Scranton 70, Rhodes 58, Lodge 44, Rockefeller
-  39, uncommitted 224; Wikipedia, citing the Times, May 25). The Democrats' Mississippi regulars' convention of July 28 (a
-  lead under Mississippi).
-- 1968, not entered: the Republican State conventions (their dates are in `elections/conventions.yaml`, 1968-R); the
-  Democrats' Nevada, South Carolina, Kansas, Alaska, Arizona, Maryland, Delaware, Wyoming, Hawaii, Maine, Vermont, Rhode
-  Island (committee), Louisiana, Idaho, Montana, Arkansas (committee), Illinois (June 28), Tennessee, New Mexico, North
-  Dakota, Oklahoma, Kentucky, Utah and Virginia conventions; Minnesota's and Colorado's district conventions; Pennsylvania's
-  State committee (not in the table). The Credentials Committee's hearings at Chicago before Aug. 26 (Georgia, Mississippi,
-  Texas, Alabama, North Carolina): dates not read. CQ Weekly Report 26 (1968), by its index: "Conn. delegate walkout" 1624;
-  "Minn. delegates" 1627, 2250; "Delegate count poll" 2176; "Delegate credentials" 2242–2254.
-- The Hughes Commission's report (114 Cong. Rec. 31544–31556) tells of a district convention in Missouri held in secret,
-  two counties' conventions in Oklahoma, and three Indiana district conventions taped by McCarthy's delegates (31551), and
-  Michigan's Sixth District: neither dated nor placed.
-- A State's row in a conventions table (`pqcv1968R-WA`) cannot be linked from an entry's note: the markup takes `[[id]]`
-  and outside links only. The 1968 Democratic entries cite the Hughes Commission's Table I instead.
+- Entered: the subthreads "1964 Elections: State conventions" (ten Republican conventions, Feb. 29 to June 19) and "1968 Elections: State conventions" (twelve Democratic, May 16 to July 13), from Wikipedia's tables ("1964 Republican Party presidential primaries," "1968 Democratic Party presidential primaries"), each row from a paper of the day. The papers (newspapers.com) and the *Times* (TimesMachine: 403, envoy, Oct. 23, 2026, a subscriber's login) not read: each entry's Check. The table is loose in places (headline dates of 1972 for 1968; Minnesota 13½ chosen, Humphrey 14; Missouri's Times cite dated May 17).
+- 1960: no State convention entered. Kennedy's and Johnson's delegations (Texas, Michigan, Pennsylvania, Illinois, New York, Missouri, Iowa, Kansas, Colorado …): no open source found; Wikipedia has no table for 1960. CQ Weekly Report 18 (1960), index (archive.org `sim_cq-weekly_january-december-1960_18_index`, open; the issues not found open): "Convention delegates, how chosen"; Texas delegation 1141; New York delegation 635, 929, 1099; Missouri 568, 792; Alabama 684, 789; Maryland 790; California 1088; "Southerners send delegations". White, *Making of the President 1960*.
+- 1964, not entered: the district conventions (North Carolina, Kansas, Louisiana, Minnesota, Missouri, Tennessee, Virginia), and the State conventions of North Carolina (Feb. 29), North Dakota, Kentucky, Iowa, Alaska, Nevada, Maine (Smith), Delaware, Michigan (48, Romney's, uncommitted), Wyoming, Rhode Island, Vermont, Arkansas, Illinois (May 23), Nebraska, Hawaii, Missouri, Connecticut, Idaho, Minnesota, New Mexico, Utah and Virginia (June 13), Puerto Rico and the Virgin Islands (Rockefeller's). The AP's count of May 24 (Goldwater 304, Scranton 70, Rhodes 58, Lodge 44, Rockefeller 39, uncommitted 224; Wikipedia, citing the Times, May 25). The Democrats' Mississippi regulars' convention of July 28 (a lead under Mississippi).
+- 1968, not entered: the Republican State conventions (their dates are in `elections/conventions.yaml`, 1968-R); the Democrats' Nevada, South Carolina, Kansas, Alaska, Arizona, Maryland, Delaware, Wyoming, Hawaii, Maine, Vermont, Rhode Island (committee), Louisiana, Idaho, Montana, Arkansas (committee), Illinois (June 28), Tennessee, New Mexico, North Dakota, Oklahoma, Kentucky, Utah and Virginia conventions; Minnesota's and Colorado's district conventions; Pennsylvania's State committee (not in the table). The Credentials Committee's hearings at Chicago before Aug. 26 (Georgia, Mississippi, Texas, Alabama, North Carolina): dates not read. CQ Weekly Report 26 (1968), by its index: "Conn. delegate walkout" 1624; "Minn. delegates" 1627, 2250; "Delegate count poll" 2176; "Delegate credentials" 2242–2254.
+- The Hughes Commission's report (114 Cong. Rec. 31544–31556) tells of a district convention in Missouri held in secret, two counties' conventions in Oklahoma, and three Indiana district conventions taped by McCarthy's delegates (31551), and Michigan's Sixth District: neither dated nor placed.
+- A State's row in a conventions table (`pqcv1968R-WA`) cannot be linked from an entry's note: the markup takes `[[id]]` and outside links only. The 1968 Democratic entries cite the Hughes Commission's Table I instead.
 
 ### Primary records, Cal. II (the Cal. II audit agent, Oct. 22, 2026)
 
@@ -1042,231 +684,86 @@ printing, or not in at all (all on FRASER, open; not reached in the time):
 ### Primary records, Cal. III (the Cal. III audit agent, Oct. 22, 2026)
 
 Searched in the Daily Digest (daybook/committees), the bound Record's days, the Public Papers and FRUS; not found:
-- Powell's select committee, Feb. 8 and 14, 1967 (`cal.1967-02-08.congress`, `cal.1967-02-14.congress-powell`): the
-  Digest prints no row for it; *In re Adam Clayton Powell*, the hearings, no open copy found (not on govinfo or archive.org by title, Oct. 23, 2026). Clark's subcommittee at
-  Jackson, Apr. 10, 1967 (`cal.1967-04-10.poverty`), and the Migratory Labor subcommittee at Delano, Mar. 16, 1966
-  (`cal.1966-03-16.jobs-and-wages-ca`): field hearings, not in the Digest; the printed hearings (govinfo holds
-  *Examination of the War on Poverty*, 1967, by part, and the Migratory Labor subcommittee's of 1967, not that of 1966;
-  the Jackson part not identified). Barr to the Joint
-  Economic Committee, Jan. 17, 1969 (`cal.1969-01-17.economy`): not in the Digest of the day. The Stennis
-  subcommittee's report, Aug. 31, 1967 (`cal.1967-08-31.vietnam-air-war`): the committee print (govinfo holds the
-  hearings, *Air War Against North Vietnam*, pts. 1–5, CHRG-90shrg83802p1–p5; the report not found by title).
-- The draft: the National Security Council's advice to Hershey, Feb. 16, 1968 (`cal.1968-02-16.draft`), and Hershey's
-  and Clark's statements of Dec. 9 and 11, 1967 (`cal.1967-12-09.draft`, `cal.1967-12-11.draft`): Selective Service's
-  and Justice's releases. The signers of the House Democrats' statement of Dec. 13, 1967, now linked
-  (`cal.1967-12-13.draft`): count them on the page.
+- Powell's select committee, Feb. 8 and 14, 1967 (`cal.1967-02-08.congress`, `cal.1967-02-14.congress-powell`): the Digest prints no row for it; *In re Adam Clayton Powell*, the hearings, no open copy found (not on govinfo or archive.org by title, Oct. 23, 2026). Clark's subcommittee at Jackson, Apr. 10, 1967 (`cal.1967-04-10.poverty`), and the Migratory Labor subcommittee at Delano, Mar. 16, 1966 (`cal.1966-03-16.jobs-and-wages-ca`): field hearings, not in the Digest; the printed hearings (govinfo holds *Examination of the War on Poverty*, 1967, by part, and the Migratory Labor subcommittee's of 1967, not that of 1966; the Jackson part not identified). Barr to the Joint Economic Committee, Jan. 17, 1969 (`cal.1969-01-17.economy`): not in the Digest of the day. The Stennis subcommittee's report, Aug. 31, 1967 (`cal.1967-08-31.vietnam-air-war`): the committee print (govinfo holds the hearings, *Air War Against North Vietnam*, pts. 1–5, CHRG-90shrg83802p1–p5; the report not found by title).
+- The draft: the National Security Council's advice to Hershey, Feb. 16, 1968 (`cal.1968-02-16.draft`), and Hershey's and Clark's statements of Dec. 9 and 11, 1967 (`cal.1967-12-09.draft`, `cal.1967-12-11.draft`): Selective Service's and Justice's releases. The signers of the House Democrats' statement of Dec. 13, 1967, now linked (`cal.1967-12-13.draft`): count them on the page.
 - Johnson's operations, Nov. 16, 1966 (`cal.1966-11-16.succession`): no Public Papers item; the White House's bulletins.
-- The Walker report, Dec. 1, 1968 (`cal.1968-12-01.civil-disorders`): archive.org's copy is lent only (`rightsinconflict0000dani`; not on govinfo, Oct. 23, 2026). The Kerner
-  report: the Bantam edition is open on archive.org (reportofnation00unit), now linked for the cities it profiles
-  (Tampa, Cincinnati, Atlanta, Newark, Plainfield, Detroit); GPO's edition not reached (Oct. 23, 2026: ncjrs.gov 301s to ojp.gov, where the old PDF's path 404s, and the old host's PDF answers 520; archive.org's other copies are Bantam's or Dutton's, lent only; govinfo none). Buffalo
-  and Milwaukee, 1967, it only lists (ch. 2).
-- The Daily Digest's days: `daybook/committees/1966-03.yaml` files the Senate rows of the Digest of Mar. 10, 1966 (D103–D104,
-  Fairbank's among them) under Mar. 9, and `1966-02.yaml` Rusk's of Feb. 18 (D59) under Feb. 17: a day heading the OCR lost
-  (tools/daybook/make_committees.py, STYLE 1–2).
-- Presidential primaries and conventions, 1972 and 1976 (the `elections-1972`, `elections-1976` entries): CQ's figures
-  only; the States' canvasses.
-- The rest of Cal. III's entries without a primary record are protests, riots, campaign appearances, broadcasts and
-  party meetings (civil disorders, war opposition, students, King, Robert Kennedy, the 1968 campaign): the record is the
-  press, a broadcast's transcript, or the organizations' papers.
+- The Walker report, Dec. 1, 1968 (`cal.1968-12-01.civil-disorders`): archive.org's copy is lent only (`rightsinconflict0000dani`; not on govinfo, Oct. 23, 2026). The Kerner report: the Bantam edition is open on archive.org (reportofnation00unit), now linked for the cities it profiles (Tampa, Cincinnati, Atlanta, Newark, Plainfield, Detroit); GPO's edition not reached (Oct. 23, 2026: ncjrs.gov 301s to ojp.gov, where the old PDF's path 404s, and the old host's PDF answers 520; archive.org's other copies are Bantam's or Dutton's, lent only; govinfo none). Buffalo and Milwaukee, 1967, it only lists (ch. 2).
+- The Daily Digest's days: `daybook/committees/1966-03.yaml` files the Senate rows of the Digest of Mar. 10, 1966 (D103–D104, Fairbank's among them) under Mar. 9, and `1966-02.yaml` Rusk's of Feb. 18 (D59) under Feb. 17: a day heading the OCR lost (tools/daybook/make_committees.py, STYLE 1–2).
+- Presidential primaries and conventions, 1972 and 1976 (the `elections-1972`, `elections-1976` entries): CQ's figures only; the States' canvasses.
+- The rest of Cal. III's entries without a primary record are protests, riots, campaign appearances, broadcasts and party meetings (civil disorders, war opposition, students, King, Robert Kennedy, the 1968 campaign): the record is the press, a broadcast's transcript, or the organizations' papers.
 
 ### Schlesinger, *Robert Kennedy and His Times* (the book agent, Oct. 23, 2026; notes/book-checks/w.schlesinger-robert-kennedy-and-his.md)
 
 - Kennedy to Johnson, late April 1965, urging a bombing pause (Schlesinger, 729, from Johnson's *Vantage Point*): no day.
-- The Hertz affair, 1965: Kraft and Kennedy with Guellal; the NLF's offer to free Gustav Hertz in Algiers, refused by
-  Taylor (Schlesinger, 731–32): no dates.
-- Kennedy's press conference at the University of Southern California, "early in November" 1965, on draft cards and
-  blood for the North Vietnamese (Schlesinger, 732); the Senate speech against refusing Robert Thompson burial at
-  Arlington, January 1966 (733): the Record for the day.
-- Kennedy's walk through Bedford-Stuyvesant, Feb. 4, 1966 (Schlesinger, 786), the start of the Bedford-Stuyvesant
-  project (`cal.1966-12-09.poverty-nyc`): no record found.
-- Kennedy and Joseph Clark with Freeman the day after the Delta tour (Apr. 12, 1967?), and the subcommittee's letter to
-  Johnson (Schlesinger, 795; Kotz, *Let Them Eat Promises*): the letter's date. Not entered.
-- Kennedy at the Oxford Union, end of January 1967, and with de Gaulle, Couve de Murville, Malraux, Sainteny,
-  Kiesinger, Brandt, Fanfani, Saragat and the Pope (Schlesinger, 764–66): days not given; the embassies' cables (FRUS
-  1964–68, V, XII?).
-- The Landon Lecture, Mar. 18, 1968 (`cal.1968-03-18.robert-kennedy`): its text, the JFK Library's speeches page
-  (bot-checked here). The China speech, Chicago, Feb. 8, 1967 (`cal.1967-02-08.robert-kennedy`): its full text and
-  its place.
-- The Alliance for Progress speech, May 9–10, 1966 (`cal.1966-05-09.robert-kennedy`): the pages each day runs to in
-  112 Cong. Rec. (the speech opens at 10090 and resumes at 10187).
-- From Zelizer, *Taxing America*, and Stein, *Fiscal Revolution* (book-zelizer-stein, Oct. 24, 2026;
-  `notes/book-checks/zelizer-taxing-america.md`, `stein-fiscal-revolution.md`): Kennedy, Mills, O'Brien and Dillon off
-  the record, July 29, 1963 (JFK Library, Presidential Recordings Transcripts, Tax Cut Proposals, vol. II, Audiotape
-  101; Zelizer, 191, 201): not in PRDE's or the Miller Center's catalogue. Dillon to the New York Financial Writers,
-  June 4, 1962 (`cal.1962-06-04.economy`): the Record's day for 108 Cong. Rec. 10299 (pt. 8; the Senate of June 12
-  runs 10197–10283, of June 13 from 10303). Fowler's visit to Mills in Arkansas, fall 1962 (Stein, 434), and their
-  three-and-a-half-hour meeting, Nov. 1962 (Zelizer, 196: Fowler to Dillon, Nov. 1962, JFK Library): no day. The
-  Labor-Management committee's call at the White House, early Feb. 1963 (Stein, 438, *Business Week*, Feb. 9, 1963):
-  no day. Mills, Ture and O'Brien in Mills's
-  office (Ture's account; Zelizer, 261) and Johnson's speaker call to Ackley with Mills in the room (Ackley's
-  account; Zelizer, 260), both 1967, no day. Mills's advice to Johnson, Sept. 1967, to choose guns over butter
-  (Zelizer, 263): no day. Martin's "worst financial crisis since 1931," Apr. 19, 1968 (Zelizer, 273, from the *Wall
-  Street Journal*, Apr. 24): the speech not found. Mills's announcement after the devaluation, Nov. 20, 1967 (*New York Times*, Nov. 21: texts of
-  his announcement and an address; Zelizer, 267–68): not read. Mills's "first public statement of support" at the
-  Golden Ring Council's luncheon (Zelizer, 242, gives no day; his sources, the *New York Times* and the *Wall Street
-  Journal* of Mar. 11, 1965): not entered. The bills.yaml step of Apr. 20, 1961 (`revenue-1962`) points to
-  `cal.1961-04-20.cuba`; it should point to the new `cal.1961-04-20.economy` once merged (the patch takes the tax
-  message out of the Cuba entry's `c` and `n`).
+- The Hertz affair, 1965: Kraft and Kennedy with Guellal; the NLF's offer to free Gustav Hertz in Algiers, refused by Taylor (Schlesinger, 731–32): no dates.
+- Kennedy's press conference at the University of Southern California, "early in November" 1965, on draft cards and blood for the North Vietnamese (Schlesinger, 732); the Senate speech against refusing Robert Thompson burial at Arlington, January 1966 (733): the Record for the day.
+- Kennedy's walk through Bedford-Stuyvesant, Feb. 4, 1966 (Schlesinger, 786), the start of the Bedford-Stuyvesant project (`cal.1966-12-09.poverty-nyc`): no record found.
+- Kennedy and Joseph Clark with Freeman the day after the Delta tour (Apr. 12, 1967?), and the subcommittee's letter to Johnson (Schlesinger, 795; Kotz, *Let Them Eat Promises*): the letter's date. Not entered.
+- Kennedy at the Oxford Union, end of January 1967, and with de Gaulle, Couve de Murville, Malraux, Sainteny, Kiesinger, Brandt, Fanfani, Saragat and the Pope (Schlesinger, 764–66): days not given; the embassies' cables (FRUS 1964–68, V, XII?).
+- The Landon Lecture, Mar. 18, 1968 (`cal.1968-03-18.robert-kennedy`): its text, the JFK Library's speeches page (bot-checked here). The China speech, Chicago, Feb. 8, 1967 (`cal.1967-02-08.robert-kennedy`): its full text and its place.
+- The Alliance for Progress speech, May 9–10, 1966 (`cal.1966-05-09.robert-kennedy`): the pages each day runs to in 112 Cong. Rec. (the speech opens at 10090 and resumes at 10187).
+- From Zelizer, *Taxing America*, and Stein, *Fiscal Revolution* (book-zelizer-stein, Oct. 24, 2026; `notes/book-checks/zelizer-taxing-america.md`, `stein-fiscal-revolution.md`): Kennedy, Mills, O'Brien and Dillon off the record, July 29, 1963 (JFK Library, Presidential Recordings Transcripts, Tax Cut Proposals, vol. II, Audiotape 101; Zelizer, 191, 201): not in PRDE's or the Miller Center's catalogue. Dillon to the New York Financial Writers, June 4, 1962 (`cal.1962-06-04.economy`): the Record's day for 108 Cong. Rec. 10299 (pt. 8; the Senate of June 12 runs 10197–10283, of June 13 from 10303). Fowler's visit to Mills in Arkansas, fall 1962 (Stein, 434), and their three-and-a-half-hour meeting, Nov. 1962 (Zelizer, 196: Fowler to Dillon, Nov. 1962, JFK Library): no day. The Labor-Management committee's call at the White House, early Feb. 1963 (Stein, 438, *Business Week*, Feb. 9, 1963): no day. Mills, Ture and O'Brien in Mills's office (Ture's account; Zelizer, 261) and Johnson's speaker call to Ackley with Mills in the room (Ackley's account; Zelizer, 260), both 1967, no day. Mills's advice to Johnson, Sept. 1967, to choose guns over butter (Zelizer, 263): no day. Martin's "worst financial crisis since 1931," Apr. 19, 1968 (Zelizer, 273, from the *Wall Street Journal*, Apr. 24): the speech not found. Mills's announcement after the devaluation, Nov. 20, 1967 (*New York Times*, Nov. 21: texts of his announcement and an address; Zelizer, 267–68): not read. Mills's "first public statement of support" at the Golden Ring Council's luncheon (Zelizer, 242, gives no day; his sources, the *New York Times* and the *Wall Street Journal* of Mar. 11, 1965): not entered. The bills.yaml step of Apr. 20, 1961 (`revenue-1962`) points to `cal.1961-04-20.cuba`; it should point to the new `cal.1961-04-20.economy` once merged (the patch takes the tax message out of the Cuba entry's `c` and `n`).
 
 ### Perlstein, *Before the Storm*, and Johns, *Vietnam's Second Front* (the book agent, Oct. 24, 2026; notes/book-checks/perlstein-before-the-storm.md, johns-vietnams-second-front.md)
 
-- White's group, its second meeting, December 1961 (Perlstein, 179: the map without the Northeast; 637 of 655 votes
-  "in the bag"): no day; White, *Suite 3505*; the *San Francisco Examiner*, Dec. 4, 1961 (his note, 187). Rusher and
-  Thone's call on Goldwater, late 1961 (179): no day.
-- Goldwater voted off the Senate Republican Policy Committee, the morning of Jan. 14, 1963 (Perlstein, 189): the
-  conference's minutes or the press.
+- White's group, its second meeting, December 1961 (Perlstein, 179: the map without the Northeast; 637 of 655 votes "in the bag"): no day; White, *Suite 3505*; the *San Francisco Examiner*, Dec. 4, 1961 (his note, 187). Rusher and Thone's call on Goldwater, late 1961 (179): no day.
+- Goldwater voted off the Senate Republican Policy Committee, the morning of Jan. 14, 1963 (Perlstein, 189): the conference's minutes or the press.
 - The Phoenix Country Club meeting on the draft, December 1962 (Perlstein, 189; Kitchel's "Questions," Dec. 23, 1962).
-- The Illinois delegation's caucus at the O'Hare Inn: Dirksen to nominate Goldwater, 48 for him (Perlstein, 365),
-  June–July 1964: no day; Scranton's call on Dirksen in Washington (365; White, *Suite 3505*, 373).
-- The Manchester Armory rally, Mar. 6, 1964, with Zimbalist, Brennan and Reagan on film (Perlstein, 297). The Senate's
-  vote to reopen the Baker inquiry, Sept. 10, 1964, 75–3, and its postponement, Oct. 12 (Perlstein, 438; the Record).
-- Burch's reply on NBC, Oct. 19, 1964, after the networks refused equal time (Perlstein, 493–94): the FCC's ruling and
-  the D.C. Circuit's.
-- The Republican joint leadership's statement on bipartisanship, May 31, 1963 (Johns, 31); Bob Wilson's "Kennedy Klan"
-  speech, Oct. 2, 1963 (37); Goldwater's Pikesville speech, "Lyndon Johnson's war," Sept. 1964 (71): days and texts.
-- Laird's speech of Jan. 29, 1966 (Johns, n. 110 to 105); the Republican Policy Committee's statement on the Democrats'
-  divisions, Mar. 2, 1966 (108); Eisenhower's call to Johnson, Oct. 3, 1966 (116; DDE Post-Presidential Papers).
-- Javits's change on the war, Feb. 12, 1967, and Morton's "I was wrong," August 1967 (Johns, 139); Findley's resolution
-  to send the war to the World Court, May 19, 1967 (154); Laird's House speech, July 17, 1967 (157); Laird's speech of
-  Sept. 11, 1967 and Dirksen's demand for a resolution of support at the Coordinating Committee, Laird and Ford against
-  (171): the Record and the Committee's papers.
+- The Illinois delegation's caucus at the O'Hare Inn: Dirksen to nominate Goldwater, 48 for him (Perlstein, 365), June–July 1964: no day; Scranton's call on Dirksen in Washington (365; White, *Suite 3505*, 373).
+- The Manchester Armory rally, Mar. 6, 1964, with Zimbalist, Brennan and Reagan on film (Perlstein, 297). The Senate's vote to reopen the Baker inquiry, Sept. 10, 1964, 75–3, and its postponement, Oct. 12 (Perlstein, 438; the Record).
+- Burch's reply on NBC, Oct. 19, 1964, after the networks refused equal time (Perlstein, 493–94): the FCC's ruling and the D.C. Circuit's.
+- The Republican joint leadership's statement on bipartisanship, May 31, 1963 (Johns, 31); Bob Wilson's "Kennedy Klan" speech, Oct. 2, 1963 (37); Goldwater's Pikesville speech, "Lyndon Johnson's war," Sept. 1964 (71): days and texts.
+- Laird's speech of Jan. 29, 1966 (Johns, n. 110 to 105); the Republican Policy Committee's statement on the Democrats' divisions, Mar. 2, 1966 (108); Eisenhower's call to Johnson, Oct. 3, 1966 (116; DDE Post-Presidential Papers).
+- Javits's change on the war, Feb. 12, 1967, and Morton's "I was wrong," August 1967 (Johns, 139); Findley's resolution to send the war to the World Court, May 19, 1967 (154); Laird's House speech, July 17, 1967 (157); Laird's speech of Sept. 11, 1967 and Dirksen's demand for a resolution of support at the Coordinating Committee, Laird and Ford against (171): the Record and the Committee's papers.
 - The Ripon Society's "The Realities of Vietnam": Johns gives September 1967 (171) and Oct. 2, 1967 (177).
 - Johnson's call to Nixon, Aug. 28, 1968 (Johns, 220; the LBJ Library's transcript): not in PRDE's August list read here.
 
 ### Young, *Two Suns of the Southwest* (the book agent, Oct. 29, 2026; notes/book-checks/young-two-suns.md)
 
-- The rest of the book read Oct. 29, 2026 (pp. 152-207 and the notes; notes/book-checks/young-two-suns.md, "The
-  rest"). Still to do: log the records the notes give for the first run's pages (1-151; notes pp. 225-246) and map
-  them as `via` rows. Leads from pp. 152-207: Kitchel on *Meet the Press*, June 14, 1964 (Spivak Papers, cited 247
-  n.33): the transcript and an entry; the Democratic Study Group's campaign work from 1963 (205): the dates;
-  Rockefeller's note after the election, Nov. 13, 1964 (203, 253 n.): its text and recipient; Carter to Johnson on
-  Bryant and Wallace (179; the note's day): the memorandum.
-- The Platform Committee's hearings at San Francisco, July 1964: Rockefeller, Romney, Scranton, Goldwater, Lodge,
-  Milton Eisenhower (Young, 99–100, undated): the days from the convention's *Proceedings*.
-- Nixon at the Waldorf-Astoria, Memorial Day weekend, 1964, plotting to take the convention, by Goldwater's account
-  (Young, 93–94): the day and Goldwater's text.
-- Johnson's calls on the Freedom Democrats with Reuther, Humphrey, Sanders and Connally (Young, 133–35, undated): match
-  to the Miller Center's rows of Aug. 25, 1964 (Sanders, 4:32 p.m., WH6408-37-5183, 5184; Sanders and Connally).
+- The rest of the book read Oct. 29, 2026 (pp. 152-207 and the notes; notes/book-checks/young-two-suns.md, "The rest"). Still to do: log the records the notes give for the first run's pages (1-151; notes pp. 225-246) and map them as `via` rows. Leads from pp. 152-207: Kitchel on *Meet the Press*, June 14, 1964 (Spivak Papers, cited 247 n.33): the transcript and an entry; the Democratic Study Group's campaign work from 1963 (205): the dates; Rockefeller's note after the election, Nov. 13, 1964 (203, 253 n.): its text and recipient; Carter to Johnson on Bryant and Wallace (179; the note's day): the memorandum.
+- The Platform Committee's hearings at San Francisco, July 1964: Rockefeller, Romney, Scranton, Goldwater, Lodge, Milton Eisenhower (Young, 99–100, undated): the days from the convention's *Proceedings*.
+- Nixon at the Waldorf-Astoria, Memorial Day weekend, 1964, plotting to take the convention, by Goldwater's account (Young, 93–94): the day and Goldwater's text.
+- Johnson's calls on the Freedom Democrats with Reuther, Humphrey, Sanders and Connally (Young, 133–35, undated): match to the Miller Center's rows of Aug. 25, 1964 (Sanders, 4:32 p.m., WH6408-37-5183, 5184; Sanders and Connally).
 - Johnson and Humphrey by telephone on Wallace and Maryland, spring 1964 (Young, 118): the recording.
-- Johnson and Humphrey at the White House, "like a marriage with no chance of divorce," "the day before" the
-  announcement (Young, 128): the day.
+- Johnson and Humphrey at the White House, "like a marriage with no chance of divorce," "the day before" the announcement (Young, 128): the day.
 - Humphrey's acceptance, Aug. 27, 1964, "But not Senator Goldwater!" (Young, 140): a text and an entry.
 - Johnson's Easter drive at the Ranch with four reporters, late March 1964, and *Time*'s story (Young, 144): the day.
 - Buckley's memorandum to *National Review*'s staff after New Hampshire, March 1964 (Young, 78–79): the day.
-- Smathers to Humphrey the night of Nov. 22, 1963, on "a liberal running with" Johnson, by Smathers's telling to
-  Johnson (Young, 125): the recording.
+- Smathers to Humphrey the night of Nov. 22, 1963, on "a liberal running with" Johnson, by Smathers's telling to Johnson (Young, 125): the recording.
 - Robert Kennedy to Rowland Evans at lunch, early December 1963, on staying and the ticket (Young, 48).
 - Johnson to Sorensen on the civil rights bill, and his urging a Southern tour, spring 1963 (Young, 40–41).
 
 ### Garrow, *Bearing the Cross* (the book agent, Oct. 24, 2026; notes/book-checks/garrow-bearing-the-cross.md)
 
-- The FBI's acts against King (`cal.1963-05-31.king`, `-10-05`, `-11-20`, `-12`, `cal.1964-01-05.king`,
-  `cal.1965-01-05.king`, `-01-11`, `cal.1967-04-19.king`, `cal.1967-07-10.king`, `cal.1968-03-28.king` and others) carry
-  "Made public: Check": the Church Committee's Book III (S. Rep. No. 94-755, 1976) is the likely first publication;
-  intelligence.senate.gov refuses this environment ("Access Denied," Akamai, Oct. 24, 2026). Read it elsewhere (govinfo's
-  Serial Set, archive.org) and date each.
-- SCLC's convention, Aug. 14–17, 1967: a resolution against every candidate for the war; King to go "all out" to defeat
-  Johnson in 1968 (Garrow, 575; the *Atlanta Constitution*, Aug. 17–18, 1967): the day.
-- The White House on the Poor People's Campaign: "Memorandum for Marvin Watson," Feb. 2, 1968, and Johnson's news
-  conference that day (Garrow, 595, 717 n.22); Temple to Johnson, Feb. 23, 1968, and Barefoot Sanders to Johnson (two),
-  Mar. 13, 1968 (718 nn.29, 31): not entered.
-- The march of Clergy and Laymen Concerned through Arlington Cemetery, Feb. 6, 1968, King at its head (Garrow, 595), and
-  King with Carmichael, Rap Brown and Courtland Cox, Feb. 7 (596): not entered; the war-opposition thread's February.
-- Hoover's SAC letter 68-16, Mar. 12, 1968, the "ghetto informant" program (Garrow, 607, 720 n.37): against
-  `cal.1968-03-04.black-nationalism`.
+- The FBI's acts against King (`cal.1963-05-31.king`, `-10-05`, `-11-20`, `-12`, `cal.1964-01-05.king`, `cal.1965-01-05.king`, `-01-11`, `cal.1967-04-19.king`, `cal.1967-07-10.king`, `cal.1968-03-28.king` and others) carry "Made public: Check": the Church Committee's Book III (S. Rep. No. 94-755, 1976) is the likely first publication; intelligence.senate.gov refuses this environment ("Access Denied," Akamai, Oct. 24, 2026). Read it elsewhere (govinfo's Serial Set, archive.org) and date each.
+- SCLC's convention, Aug. 14–17, 1967: a resolution against every candidate for the war; King to go "all out" to defeat Johnson in 1968 (Garrow, 575; the *Atlanta Constitution*, Aug. 17–18, 1967): the day.
+- The White House on the Poor People's Campaign: "Memorandum for Marvin Watson," Feb. 2, 1968, and Johnson's news conference that day (Garrow, 595, 717 n.22); Temple to Johnson, Feb. 23, 1968, and Barefoot Sanders to Johnson (two), Mar. 13, 1968 (718 nn.29, 31): not entered.
+- The march of Clergy and Laymen Concerned through Arlington Cemetery, Feb. 6, 1968, King at its head (Garrow, 595), and King with Carmichael, Rap Brown and Courtland Cox, Feb. 7 (596): not entered; the war-opposition thread's February.
+- Hoover's SAC letter 68-16, Mar. 12, 1968, the "ghetto informant" program (Garrow, 607, 720 n.37): against `cal.1968-03-04.black-nationalism`.
 - Louis Martin's call to Andrew Young, April 1967, asking whether King would see Johnson (Garrow, 558): the day.
 
 ### The Attorney General's and OLC's opinions (Oct. 24, 2026; daybook/opinions.yaml)
-- OLC's yearly count of opinions, 1960–68, from the Attorney General's *Annual Reports* (justice.gov's archive pages are
-  bot-checked here; look for open copies on HathiTrust's catalog or archive.org).
-- The four opinions the Public Papers name and the register lists under `known`, unread: the budget message of Jan. 18,
-  1960; refugee parole, July 14, 1960; copper, Mar. 21 and Dec. 2, 1966. Find the texts.
-- OLC memoranda the volumes do not print, in the Justice Department's and Katzenbach's files at the Kennedy and Johnson
-  Libraries (troops at Oxford, Sept. 1962, among them: recalled, not verified).
+- OLC's yearly count of opinions, 1960–68, from the Attorney General's *Annual Reports* (justice.gov's archive pages are bot-checked here; look for open copies on HathiTrust's catalog or archive.org).
+- The four opinions the Public Papers name and the register lists under `known`, unread: the budget message of Jan. 18, 1960; refugee parole, July 14, 1960; copper, Mar. 21 and Dec. 2, 1966. Find the texts.
+- OLC memoranda the volumes do not print, in the Justice Department's and Katzenbach's files at the Kennedy and Johnson Libraries (troops at Oxford, Sept. 1962, among them: recalled, not verified).
 - OLC's FOIA reading room and daybooks: not searched.
 
 ### Johnson, *The Vantage Point* (Oct. 24, 2026): dated by the book, not entered
-- Camp David on the nonproliferation treaty, Oct. 1–2, 1966 (478). Johnson's call to Chiari naming Anderson and Vaughn,
-  Apr. 3, 1964 (184). Christian and Connally on a withdrawal statement, Sept. 1967 (428). Ridgway at lunch, Feb. 1, 1968
-  (389). The meetings of Mar. 8, 10 and 15, 1968, and Russell on Mar. 29 (402–21). The Tuesday lunch of Aug. 20, 1968, on
-  Czechoslovakia (487; FRUS silent). Zwick's memorandum, Oct. 23, 1968, and the Cabinet of Dec. 4, 1968 (557). Nixon's
-  "prior consultation and prior agreement," mid-November 1968 (556–57).
-- From Dallek, *Flawed Giant* (book-dallek-giant, Oct. 24, 2026; `notes/book-checks/dallek-flawed-giant.md`): Johnson's
-  trip to Beirut and Tehran, Aug. 1962 (`cal.1962-08-23.middle-east`), has no bibliography now that Dallek, who does
-  not treat it, is dropped. Not entered, each to be dated or read in its record (Dallek's page): Bundy to Johnson, Oct. 1,
-  1964, to "give a hint of firmness" (240; FRUS 1964–68, I does not print it in the daybook); Johnson asks Lou Harris,
-  Nov. 1, 1964, whether a failure to answer Bien Hoa would cost votes (241); Russell's two and a half hours at the White
-  House, May 13, 1966 (367); Johnson and Russell on the three choices in the bombing, May 12, 1967 (469; a recording?);
-  Johnson off the record with Drew Pearson on Robert Kennedy, Mar. 13, 1967 (454); with Sen. McIntyre, Dec. 28, 1967
-  (501); the board of the Urban Institute, Apr. 26, 1968 (535); Bailey asks to see Johnson on the convention, July 29,
-  1968 (574); Johnson tells Clifford, Rusk and Rostow of the Nixon meeting's aims, then Nixon, July 26 (571; entered
-  for July 24 from FRUS). The day of Webb's resignation (`cal.1968-09-16.space`, 423–24) against the press. The
-  Leadership breakfast of Dec. 3, 1963 (`cal.1963-12-03.foreign-aid`), against the Diary Backup (Dallek's text says
-  Dec. 5). The AMA officers at the White House (`cal.1965-07-29.medicare`): the Daily Diary of July 29, 1965, not on the
-  Catalog.
+- Camp David on the nonproliferation treaty, Oct. 1–2, 1966 (478). Johnson's call to Chiari naming Anderson and Vaughn, Apr. 3, 1964 (184). Christian and Connally on a withdrawal statement, Sept. 1967 (428). Ridgway at lunch, Feb. 1, 1968 (389). The meetings of Mar. 8, 10 and 15, 1968, and Russell on Mar. 29 (402–21). The Tuesday lunch of Aug. 20, 1968, on Czechoslovakia (487; FRUS silent). Zwick's memorandum, Oct. 23, 1968, and the Cabinet of Dec. 4, 1968 (557). Nixon's "prior consultation and prior agreement," mid-November 1968 (556–57).
+- From Dallek, *Flawed Giant* (book-dallek-giant, Oct. 24, 2026; `notes/book-checks/dallek-flawed-giant.md`): Johnson's trip to Beirut and Tehran, Aug. 1962 (`cal.1962-08-23.middle-east`), has no bibliography now that Dallek, who does not treat it, is dropped. Not entered, each to be dated or read in its record (Dallek's page): Bundy to Johnson, Oct. 1, 1964, to "give a hint of firmness" (240; FRUS 1964–68, I does not print it in the daybook); Johnson asks Lou Harris, Nov. 1, 1964, whether a failure to answer Bien Hoa would cost votes (241); Russell's two and a half hours at the White House, May 13, 1966 (367); Johnson and Russell on the three choices in the bombing, May 12, 1967 (469; a recording?); Johnson off the record with Drew Pearson on Robert Kennedy, Mar. 13, 1967 (454); with Sen. McIntyre, Dec. 28, 1967 (501); the board of the Urban Institute, Apr. 26, 1968 (535); Bailey asks to see Johnson on the convention, July 29, 1968 (574); Johnson tells Clifford, Rusk and Rostow of the Nixon meeting's aims, then Nixon, July 26 (571; entered for July 24 from FRUS). The day of Webb's resignation (`cal.1968-09-16.space`, 423–24) against the press. The Leadership breakfast of Dec. 3, 1963 (`cal.1963-12-03.foreign-aid`), against the Diary Backup (Dallek's text says Dec. 5). The AMA officers at the White House (`cal.1965-07-29.medicare`): the Daily Diary of July 29, 1965, not on the Catalog.
 
 ### Kallina, *Kennedy v. Nixon* (the book agent, Oct. 29, 2026; notes/book-checks/kallina-kennedy-v-nixon.md)
-- Undated in Kallina, each to be dated from its record before entry (his page): Franklin D. Roosevelt Jr.'s charge on
-  Humphrey's war record, and Kennedy's warning through Eugene McCarthy (65; *NYT*, May 7, 1960); Johnson on Joseph
-  Kennedy and an aide's Addison's charge (72; India Edwards OHI; *NYT*, July 5); Daley's formal support, Docking's and
-  Loveless's withdrawals, Brown's release of his delegates, July 8–13 (72); Russell's "worst platform" (80); Rockefeller
-  telling Eisenhower of his stand on medical care for the aged (85–86; a memorandum of May 4, 1960, 233 n.11); Eisenhower
-  urging Anderson and Gruenther to run, early 1960 (87); Rockefeller's talk of a draft, April–May (88); Kennedy's "gap on
-  which we are gambling with our survival," February (89); Goldwater's assurance to Nixon before the convention (93);
-  Kennedy and the Negro delegates "the morning after the convention" (140; the note cites the *Post* of July 11);
-  Wilkins's praise of Nixon (143; *NYT*, June 21, 1960); Powell's dealings and his $50,000 (150); the King–Kennedy meeting
-  planned for Miami and dropped (152); Robert Kennedy's anger at Shriver and the three governors' threat (153–54);
-  Vandiver's "a sad day" (154); the "blue bomb" leaflets (155); Morrow's and Jackie Robinson's efforts to reach Nixon,
-  the Justice Department's draft statement, Rogers to Hagerty (155–56); ten Southern governors for Kennedy after the
-  first debate (124); Herter asked to have Nixon drop Quemoy (127); Kennedy's late-September Cuba speech and Riesman's
-  letter (127); Bissell's offers through Stevenson (129); Truman at San Antonio, Powell on the Klan, Robert Kennedy in the
-  Catskills (168–69); Harlow's, Flanigan's and Flemming's pleas on religion, Billy Graham's article for *Life* (170;
-  Graham to Nixon, Sept. 24, Oct. 17, Nov. 2); Eisenhower's October speeches on "fear mongering" (162; *NYT*, Oct.
-  11–21); Russell's return, Oct. 30, and his campaigning in Texas (167); Kennedy to Red Fay, "with every word he utters"
-  (164); the Democrats' thought of challenging California's absentee ballots (181; Leventhal to Robert Kennedy, Dec. 7);
-  the unpledged electors' effort, Dec. 1–15 (188); Kennedy and Johnson in Byrd's office (196).
-- Dated only in Kallina's notes: Claude Robinson's memoranda to Nixon on the debates, Aug. 1 and Sept. 1, 1960 (239–40
-  nn.8, 10), and his evaluations of Oct. 13 and Oct. 28 (241 n.25, 250–51 n.47); Harris's final State surveys, Nov. 2–4
-  (250 n.42); Tydings's report on Florida, Aug. 11 (254 n.50); Hillings to Nixon, Dec. 21, "stolen" (257 n.12).
-- The legislative leaders' meeting, late 1959 or early 1960, at which Halleck would have killed the bill suspending
-  section 315 and Nixon said "Let the bill go through" (119–20; Merriam's reminiscence): Kallina did not find it in the
-  leaders' records at Abilene. The suspension's day: Kallina gives June 27, 1960 (117); the joint resolution was approved
-  Aug. 24 (74 Stat. 554): find each chamber's vote in the Record.
-- The Gallup releases of 1960 (`cal.1960-07-06.opinion` ... `cal.1960-11-07.opinion`) stand on Kallina's notes; read
-  them in *The Gallup Poll*, III, 1675–90, and add the other 1960 releases (the poll of July 30–Aug. 4 entered by its
-  release, Aug. 17).
-- Texas: the Republicans' suit over the count dismissed Dec. 12, 1960 (Kallina, 252 n.21; the *Houston Chronicle*,
-  Nov. 22–24 and after). The calendar holds no entry on the Texas challenge: read the *Chronicle* and the State's canvass.
-- Chicago after the inauguration: the official recount of February–March 1961, Morris Wexler's report of Apr. 13, 1961,
-  and the indictment of some six hundred election judges (Kallina, 209–10; Special Prosecutor's Report, Chicago History
-  Museum): entries for `cal.1961` (Illinois, Chicago).
+- Undated in Kallina, each to be dated from its record before entry (his page): Franklin D. Roosevelt Jr.'s charge on Humphrey's war record, and Kennedy's warning through Eugene McCarthy (65; *NYT*, May 7, 1960); Johnson on Joseph Kennedy and an aide's Addison's charge (72; India Edwards OHI; *NYT*, July 5); Daley's formal support, Docking's and Loveless's withdrawals, Brown's release of his delegates, July 8–13 (72); Russell's "worst platform" (80); Rockefeller telling Eisenhower of his stand on medical care for the aged (85–86; a memorandum of May 4, 1960, 233 n.11); Eisenhower urging Anderson and Gruenther to run, early 1960 (87); Rockefeller's talk of a draft, April–May (88); Kennedy's "gap on which we are gambling with our survival," February (89); Goldwater's assurance to Nixon before the convention (93); Kennedy and the Negro delegates "the morning after the convention" (140; the note cites the *Post* of July 11); Wilkins's praise of Nixon (143; *NYT*, June 21, 1960); Powell's dealings and his $50,000 (150); the King–Kennedy meeting planned for Miami and dropped (152); Robert Kennedy's anger at Shriver and the three governors' threat (153–54); Vandiver's "a sad day" (154); the "blue bomb" leaflets (155); Morrow's and Jackie Robinson's efforts to reach Nixon, the Justice Department's draft statement, Rogers to Hagerty (155–56); ten Southern governors for Kennedy after the first debate (124); Herter asked to have Nixon drop Quemoy (127); Kennedy's late-September Cuba speech and Riesman's letter (127); Bissell's offers through Stevenson (129); Truman at San Antonio, Powell on the Klan, Robert Kennedy in the Catskills (168–69); Harlow's, Flanigan's and Flemming's pleas on religion, Billy Graham's article for *Life* (170; Graham to Nixon, Sept. 24, Oct. 17, Nov. 2); Eisenhower's October speeches on "fear mongering" (162; *NYT*, Oct. 11–21); Russell's return, Oct. 30, and his campaigning in Texas (167); Kennedy to Red Fay, "with every word he utters" (164); the Democrats' thought of challenging California's absentee ballots (181; Leventhal to Robert Kennedy, Dec. 7); the unpledged electors' effort, Dec. 1–15 (188); Kennedy and Johnson in Byrd's office (196).
+- Dated only in Kallina's notes: Claude Robinson's memoranda to Nixon on the debates, Aug. 1 and Sept. 1, 1960 (239–40 nn.8, 10), and his evaluations of Oct. 13 and Oct. 28 (241 n.25, 250–51 n.47); Harris's final State surveys, Nov. 2–4 (250 n.42); Tydings's report on Florida, Aug. 11 (254 n.50); Hillings to Nixon, Dec. 21, "stolen" (257 n.12).
+- The legislative leaders' meeting, late 1959 or early 1960, at which Halleck would have killed the bill suspending section 315 and Nixon said "Let the bill go through" (119–20; Merriam's reminiscence): Kallina did not find it in the leaders' records at Abilene. The suspension's day: Kallina gives June 27, 1960 (117); the joint resolution was approved Aug. 24 (74 Stat. 554): find each chamber's vote in the Record.
+- The Gallup releases of 1960 (`cal.1960-07-06.opinion` ... `cal.1960-11-07.opinion`) stand on Kallina's notes; read them in *The Gallup Poll*, III, 1675–90, and add the other 1960 releases (the poll of July 30–Aug. 4 entered by its release, Aug. 17).
+- Texas: the Republicans' suit over the count dismissed Dec. 12, 1960 (Kallina, 252 n.21; the *Houston Chronicle*, Nov. 22–24 and after). The calendar holds no entry on the Texas challenge: read the *Chronicle* and the State's canvass.
+- Chicago after the inauguration: the official recount of February–March 1961, Morris Wexler's report of Apr. 13, 1961, and the indictment of some six hundred election judges (Kallina, 209–10; Special Prosecutor's Report, Chicago History Museum): entries for `cal.1961` (Illinois, Chicago).
 
 ### Nixon, *RN* (the book agent, Oct. 29, 2026; notes/book-checks/nixon-rn.md)
-- Undated in *RN*, each to be dated from another record before entry (his page): Eisenhower's offer to help raise money
-  for recounts in Illinois and Texas, Nov. 1960 (224); a Kennedy adviser's call to Herter on Quemoy and Matsu after the
-  third debate (220); Nixon's talk with Eisenhower at the El Dorado Country Club and his letter to him on running for
-  governor, summer 1961 (237); Robert Kennedy's Justice Department inquiry into the Hughes loan, 1961 (247; the *New York
-  Times*, 1972); the IRS audit of Nixon's returns "three months after" Nov. 1962 (247; the supervisor's letter to Rose
-  Woods, 1973); Nixon's statement in Oakland and televised address from San Diego for Kennedy's Cuban quarantine, Oct.
-  1962 (244); Eisenhower's call to Hagerty against ABC's Hiss program, Nov. 1962 (246); the European and Middle Eastern
-  trip from June 12, 1963: Franco, de Gaulle's lunch, Nasser, Kennedy's call in Rome (248–50); Hoover's report that
-  Oswald had meant to kill Nixon (252; Marina Oswald's testimony); the Asian trip after Mar. 10, 1964, to Apr. 15:
-  Ayub Khan, Thanom, Pote Sarasin, the dinner with Lodge in Saigon, Chiang, Ikeda, Satō, Kishi (256–58; the Saigon days
-  in the press); the Nixon–Goldwater letters on "extremism," late July or early Aug. 1964 (261; Kitchel Papers, cited by
-  Perlstein); Rockefeller's statement of Nov. 4, 1964 (263); Bliss's refusal of the plane, 1966 (272); Nixon's column on
-  Manila, "a quest for peace or a quest for votes?", late Sept. or Oct. 1966 (273); Eisenhower's statement for Nixon
-  after Nov. 4, 1966 (276); the first Nixon for President Committee, announced in Washington, Mar. 1967 (279); Reagan's
-  Southern tour with White, July 1968 (309); Mitchell's and Nixon's tentative choice of Agnew, late July 1968 (312);
-  Haldeman's memorandum with Kissinger's forecast of a halt in mid-October, and Rusk's reassurance to Agnew, late
-  Sept.–early Oct. 1968 (324); Dirksen's confrontation with Johnson after Oct. 22, 1968 (326: FRUS 1964–68, VII, may hold
-  the call); Nixon's meeting with Humphrey and Muskie at Opa-locka and the UN post offered, between Nov. 6 and 11, 1968
-  (336); Humphrey's refusal of the UN, Jackson's of Defense, Shriver's conditions, Brooke's and Whitney Young's refusals
-  (338–39); Agnew at Key Biscayne and his West Wing office (340); Moynihan's and Burns's appointments (341–42); Hanoi's
-  reply through Sainteny and Nixon's second message, Dec. 1968–Jan. 1969 (349).
-- Dated in *RN*, the words to be read in the press before entry: Humphrey's "Richard the Silent," Oct. 15, 1968 (319);
-  Humphrey's "batten down the hatches," Oct. 28, 1968 (321).
-- The day of each month-only entry from *RN* (the Bohemian Grove, July 1967; the trips of March–June 1967; the Agnew
-  meeting, late March 1968; Kissinger's call of late September 1968): the press, the Nixon Library's schedules.
+- Undated in *RN*, each to be dated from another record before entry (his page): Eisenhower's offer to help raise money for recounts in Illinois and Texas, Nov. 1960 (224); a Kennedy adviser's call to Herter on Quemoy and Matsu after the third debate (220); Nixon's talk with Eisenhower at the El Dorado Country Club and his letter to him on running for governor, summer 1961 (237); Robert Kennedy's Justice Department inquiry into the Hughes loan, 1961 (247; the *New York Times*, 1972); the IRS audit of Nixon's returns "three months after" Nov. 1962 (247; the supervisor's letter to Rose Woods, 1973); Nixon's statement in Oakland and televised address from San Diego for Kennedy's Cuban quarantine, Oct. 1962 (244); Eisenhower's call to Hagerty against ABC's Hiss program, Nov. 1962 (246); the European and Middle Eastern trip from June 12, 1963: Franco, de Gaulle's lunch, Nasser, Kennedy's call in Rome (248–50); Hoover's report that Oswald had meant to kill Nixon (252; Marina Oswald's testimony); the Asian trip after Mar. 10, 1964, to Apr. 15: Ayub Khan, Thanom, Pote Sarasin, the dinner with Lodge in Saigon, Chiang, Ikeda, Satō, Kishi (256–58; the Saigon days in the press); the Nixon–Goldwater letters on "extremism," late July or early Aug. 1964 (261; Kitchel Papers, cited by Perlstein); Rockefeller's statement of Nov. 4, 1964 (263); Bliss's refusal of the plane, 1966 (272); Nixon's column on Manila, "a quest for peace or a quest for votes?", late Sept. or Oct. 1966 (273); Eisenhower's statement for Nixon after Nov. 4, 1966 (276); the first Nixon for President Committee, announced in Washington, Mar. 1967 (279); Reagan's Southern tour with White, July 1968 (309); Mitchell's and Nixon's tentative choice of Agnew, late July 1968 (312); Haldeman's memorandum with Kissinger's forecast of a halt in mid-October, and Rusk's reassurance to Agnew, late Sept.–early Oct. 1968 (324); Dirksen's confrontation with Johnson after Oct. 22, 1968 (326: FRUS 1964–68, VII, may hold the call); Nixon's meeting with Humphrey and Muskie at Opa-locka and the UN post offered, between Nov. 6 and 11, 1968 (336); Humphrey's refusal of the UN, Jackson's of Defense, Shriver's conditions, Brooke's and Whitney Young's refusals (338–39); Agnew at Key Biscayne and his West Wing office (340); Moynihan's and Burns's appointments (341–42); Hanoi's reply through Sainteny and Nixon's second message, Dec. 1968–Jan. 1969 (349).
+- Dated in *RN*, the words to be read in the press before entry: Humphrey's "Richard the Silent," Oct. 15, 1968 (319); Humphrey's "batten down the hatches," Oct. 28, 1968 (321).
+- The day of each month-only entry from *RN* (the Bohemian Grove, July 1967; the trips of March–June 1967; the Agnew meeting, late March 1968; Kissinger's call of late September 1968): the press, the Nixon Library's schedules.
 
 ### Logevall, *Choosing War*, and Barrett, *Uncertain Warriors* (the reading agent, Oct. 29, 2026; notes/book-checks/logevall-choosing-war.md, barrett-uncertain-warriors.md)
 
@@ -1320,17 +817,13 @@ CQ Weekly Report, 1968-03-01:
 - cal.1968-02-21.economy: the recommittal, 188–206 (CQ) or 189–205 (Voteview); the Record's roll call.
 - The card `w.cq-weekly-report`: the first volume's year, for a structured card.
 - The rows marked "lead" in Passed over above, each from the page given.
-- cal.1968-02-28.elections-1968-4: Romney at Boston on Feb. 28 (CQ 419) beside his withdrawal in Washington the same day (CQ 418): the day of the Boston remarks.
-CQ Weekly Report, 1968-06-07:
-- The Army's civil-disturbance directorate on alert, June 5 (CQ June 7, 1968, 1367): an entry, Defense or Civil
-  disorders.
+- cal.1968-02-28.elections-1968-4: Romney at Boston on Feb. 28 (CQ 419) beside his withdrawal in Washington the same day (CQ 418): the day of the Boston remarks. CQ Weekly Report, 1968-06-07:
+- The Army's civil-disturbance directorate on alert, June 5 (CQ June 7, 1968, 1367): an entry, Defense or Civil disorders.
 - Sirhan's arraignment, June 5, 7 a.m. (1367): an entry, Assassination; the court record.
 - The violence commission's members (1369): into cal.1968-06-10.civil-disorders; the Public Papers of June 6-10.
 - The Senate's 75-0 on H.R. 16489, June 6 (1368): its Voteview roll call, for cal.1968-06-06.assassination.
-- CQ's next Weekly Report (June 14, 1968): the House vote on the crime bill (promised at 1433) and the Northern
-  California House primaries (promised at 1373).
-- The pages not read in this run (above).
-CQ Weekly Report, 1968-06-21:
+- CQ's next Weekly Report (June 14, 1968): the House vote on the crime bill (promised at 1433) and the Northern California House primaries (promised at 1373).
+- The pages not read in this run (above). CQ Weekly Report, 1968-06-21:
 - cal.1968-06-18.elections-1968-ny, -ny-2, -ny-3: CQ's figures are unofficial and incomplete; New York's canvass of the June 18 primary (`sources/states.yaml`, NY) for the delegates, the Senate and the House races.
 - cal.1968-06-17.elections-1968-me: Maine's returns of the June 17 primary.
 - cal.1968-04-15.elections-1968: McCarthy at Phoenix, "April 15" as CQ prints it (p. 1543), beside his Phoenix remarks of June 15: the day.
@@ -1343,26 +836,15 @@ CQ Weekly Report, 1968-06-21:
 - R13: Carl T. Rowan (a name entry, `rowan-carl-t`; his column entered for carrying Humphrey's words): whether he is a named columnist.
 - The earlier *Weekly Reports* CQ points to: pp. 344, 714 (Campaign Consultants), 1060, 1222 (ADA's endorsement), 1315 (Shafer's hearings), 1337 (the convention), 1380, 1385, 1486 (Trammell); 1966, p. 1078 (Maguire).
 - The year-only rows of Passed over above (Haldeman 1960, 1962; Hood, Mardian 1964; McManus, Robinson, Douglass 1966; the Conference of Concerned Democrats' founding).
-- The pages not read in this run (1508–32, 1549–69): a second pass.
-CQ Weekly Report, 1968-07-26:
-- Part 1 (pp. 1856–1937) to be read in full: the State-by-State outlook and the Senators' biographies date many
-  events of 1968 not taken here (rows above).
+- The pages not read in this run (1508–32, 1549–69): a second pass. CQ Weekly Report, 1968-07-26:
+- Part 1 (pp. 1856–1937) to be read in full: the State-by-State outlook and the Senators' biographies date many events of 1968 not taken here (rows above).
 - The surcharge retrospective (pp. 1969–74): cites to the thread Economy: Surcharge, and the steps it may lack (row).
 - The Commission on Executive, Legislative and Judicial Salaries, named June 3, 1968 (p. 1945).
 - Columnists: none named.
-- The Missouri act of Aug. 22, 1967 (Laws of Missouri, Missouri Digital Heritage) and the Supreme Court's order of
-  Mar. 4, 1968 (U.S. Reports), for the entries' primary records.
-CQ Weekly Report, 1968-08-02:
-- Name entries wanted: John M. Bailey, chairman of the Democratic National Committee; Fletcher Thompson (R Ga.), 90th
-  Congress (no roster key found under "Thompson, Fletcher"); Joseph D. Duffey; Harold Willens; Robert F. Goheen;
-  Francis C. Turner, Lowell K. Bridwell (the Executive roster: Federal Highway Administration); Paul J. Tierney (ICC);
-  Jerome J. Keating (letter carriers); Frank Fitzsimmons (Teamsters); David J. McDonald (Steelworkers; no key fits him:
-  `mcdonald-david-l` is the admiral). Each is in an entry of this patch without a tag.
-- Voteview's House numbering for the 90th Congress, second session, at the end of July: CQ's vote number + 245; the
-  Senate's + 315 (checked on 38 roll calls). The CR numbers CQ prints for the House (287–294) do not map the same way.
-- The signings of July 26–27 (Interior appropriation, PL 90-425; S. 1752, PL 90-427; the veterans' bills): entries
-  wait for their Statutes at Large pages.
-CQ Weekly Report, 1968-08-09:
+- The Missouri act of Aug. 22, 1967 (Laws of Missouri, Missouri Digital Heritage) and the Supreme Court's order of Mar. 4, 1968 (U.S. Reports), for the entries' primary records. CQ Weekly Report, 1968-08-02:
+- Name entries wanted: John M. Bailey, chairman of the Democratic National Committee; Fletcher Thompson (R Ga.), 90th Congress (no roster key found under "Thompson, Fletcher"); Joseph D. Duffey; Harold Willens; Robert F. Goheen; Francis C. Turner, Lowell K. Bridwell (the Executive roster: Federal Highway Administration); Paul J. Tierney (ICC); Jerome J. Keating (letter carriers); Frank Fitzsimmons (Teamsters); David J. McDonald (Steelworkers; no key fits him: `mcdonald-david-l` is the admiral). Each is in an entry of this patch without a tag.
+- Voteview's House numbering for the 90th Congress, second session, at the end of July: CQ's vote number + 245; the Senate's + 315 (checked on 38 roll calls). The CR numbers CQ prints for the House (287–294) do not map the same way.
+- The signings of July 26–27 (Interior appropriation, PL 90-425; S. 1752, PL 90-427; the veterans' bills): entries wait for their Statutes at Large pages. CQ Weekly Report, 1968-08-09:
 - The Platform Committee's executive session of Aug. 2 (2097): the law-and-order and injustice language, to enter.
 - The President's news conference of July 31: its Vietnam passage (above).
 - The roll calls of July 31 on the foreign aid bill, Voteview, for the entry's links.
@@ -1371,86 +853,43 @@ CQ Weekly Report, 1968-08-09:
 - The federal court's dismissal of the Florida and Louisiana suits, Aug. 7: the case and the judge (CQ names neither).
 - The Proceedings (cited in cal.1968-08-07.elections-1968) on Reagan's motion: put to a vote or not (CQ says not).
 - Columnists: none named.
-- Persons without name entries named in the new entries: Robert T. Hood Jr. (N.C.), Orvas Beerman (Ind.), Barrington
-  D. Parker, Joy Rohm, William Murfin, Charles deGravelles, Von D. Mizell, Leslie Slote, Robert R. Douglass, Burns W.
-  Roper, Wainwright Dawson Jr., Cass S. Hough, John Millett, J. Robert Stassen,
-  Buena Chaney, Kenneth T. Lyons, John S. Andrews, Jack McDonald of the Young Republicans (not tagged: CQ names a
-  Michigan Representative Jack McDonald too, 2109; whether one man, not settled), Samuel C. Jackson (tagged; check the
-  tag is the same man). For Part III K–J Cong. III.K, where the owner wants them.
-CQ Weekly Report, 1968-08-16:
+- Persons without name entries named in the new entries: Robert T. Hood Jr. (N.C.), Orvas Beerman (Ind.), Barrington D. Parker, Joy Rohm, William Murfin, Charles deGravelles, Von D. Mizell, Leslie Slote, Robert R. Douglass, Burns W. Roper, Wainwright Dawson Jr., Cass S. Hough, John Millett, J. Robert Stassen, Buena Chaney, Kenneth T. Lyons, John S. Andrews, Jack McDonald of the Young Republicans (not tagged: CQ names a Michigan Representative Jack McDonald too, 2109; whether one man, not settled), Samuel C. Jackson (tagged; check the tag is the same man). For Part III K–J Cong. III.K, where the owner wants them. CQ Weekly Report, 1968-08-16:
 - Part I of no. 33 (Aug. 16, 1968): not in the scan; what it holds (a special report?) to find.
 - The House and Senate members' votes on the Aug. 1 roll calls (CQ, Aug. 16, 1968, 2225–27): Voteview for each.
-- The earlier steps of the bills above (State Technical Services, S. 752, grain standards, S. 1752, S. 3640, H.R.
-  3136, H.R. 17144, H.R. 13781, H.R. 18299): the Record and CQ's earlier issues (CQ, Aug. 16, 1968, 2209–14).
-- S. 355 in 1967: referred Mar. 9, its hearing Apr. 11, the House Republican Policy Committee's statement of May 10
-  (CQ, Aug. 16, 1968, 2201): the 1967 entries.
+- The earlier steps of the bills above (State Technical Services, S. 752, grain standards, S. 1752, S. 3640, H.R. 3136, H.R. 17144, H.R. 13781, H.R. 18299): the Record and CQ's earlier issues (CQ, Aug. 16, 1968, 2209–14).
+- S. 355 in 1967: referred Mar. 9, its hearing Apr. 11, the House Republican Policy Committee's statement of May 10 (CQ, Aug. 16, 1968, 2201): the 1967 entries.
 - The Statutes at Large cites of P.L. 90-422, 90-427, 90-433, 90-447, 90-472 (sources/statute-links.json).
-- The Public Papers for July 31 (Export Expansion Advisory Committee), Aug. 12 (the veto of H.R. 10915, H.R. 10864,
-  Bikini) and Dec. 12, 1967 (AFL-CIO): to add as each entry's primary record.
+- The Public Papers for July 31 (Export Expansion Advisory Committee), Aug. 12 (the veto of H.R. 10915, H.R. 10864, Bikini) and Dec. 12, 1967 (AFL-CIO): to add as each entry's primary record.
 - The Treasury's compilation of fiscal 1967 grants-in-aid (CQ, Aug. 16, 1968, 2193–99): its release.
-- Nixon's strategy for the fall (CQ, Aug. 16, 1968, 2181): a dated source.
-CQ Weekly Report, 1968-08-30:
-- The Democratic convention's roll calls by State, 1968: the first ballot (CQ, Aug. 30, 1968, 2288: 2,622 votes,
-  Humphrey 1,760¼, abstaining 14) and the Vietnam plank (2287: yeas 1,041¼, nays 1,567¾), for the `rollcall:1968-D-*`
-  tables until the *Official Proceedings* are found. Also the credentials roll calls (Texas, Georgia, Alabama), the
-  Unruh motion, the 1972 unit rule and the National Committee proposal: totals only in CQ (2286–87, 2293).
-- The Credentials Committee's decisions, Aug. 19–23, 1968: their days (CQ gives the hearings' days only). Where:
-  Chester, *American Melodrama*; the committee's report in the Proceedings.
+- Nixon's strategy for the fall (CQ, Aug. 16, 1968, 2181): a dated source. CQ Weekly Report, 1968-08-30:
+- The Democratic convention's roll calls by State, 1968: the first ballot (CQ, Aug. 30, 1968, 2288: 2,622 votes, Humphrey 1,760¼, abstaining 14) and the Vietnam plank (2287: yeas 1,041¼, nays 1,567¾), for the `rollcall:1968-D-*` tables until the *Official Proceedings* are found. Also the credentials roll calls (Texas, Georgia, Alabama), the Unruh motion, the 1972 unit rule and the National Committee proposal: totals only in CQ (2286–87, 2293).
+- The Credentials Committee's decisions, Aug. 19–23, 1968: their days (CQ gives the hearings' days only). Where: Chester, *American Melodrama*; the committee's report in the Proceedings.
 - The Platform Committee's votes on gun control and welfare (CQ, 2285): their day and count.
-- The favorite sons' withdrawals before the ballot of Aug. 28 (Connally, Ellington, McKeithen, Smathers, Moore) and
-  Daley's endorsement of Humphrey: their days (CQ, 2342, undated).
-- The Sunday programs of Aug. 25, 1968 (McCarthy, McGovern, Muskie and Harold Hughes, Richard Hughes, Humphrey at
-  4:05 p.m.): what was said; the transcripts. CQ gives a second Humphrey *Meet the Press* the same day.
+- The favorite sons' withdrawals before the ballot of Aug. 28 (Connally, Ellington, McKeithen, Smathers, Moore) and Daley's endorsement of Humphrey: their days (CQ, 2342, undated).
+- The Sunday programs of Aug. 25, 1968 (McCarthy, McGovern, Muskie and Harold Hughes, Richard Hughes, Humphrey at 4:05 p.m.): what was said; the transcripts. CQ gives a second Humphrey *Meet the Press* the same day.
 - The court injunction against Chicago's bus strike, Aug. 25–26, 1968: the court and the day.
 - Albert's address as permanent chairman, Aug. 27, 1968: its text (Proceedings).
-- Utah's State conventions, July 12–13 and July 26–27, 1968, and Rhode Island's Democratic committee, June 30, 1968:
-  the votes (CQ, 2311–12, gives none).
-- The lobbyist registrations of Apr. 1–June 30, 1968 (CQ, 2325–32, 101): a pass of their own, registrant by
-  registrant, if the owner wants the lobbies' filings in the calendar.
+- Utah's State conventions, July 12–13 and July 26–27, 1968, and Rhode Island's Democratic committee, June 30, 1968: the votes (CQ, 2311–12, gives none).
+- The lobbyist registrations of Apr. 1–June 30, 1968 (CQ, 2325–32, 101): a pass of their own, registrant by registrant, if the owner wants the lobbies' filings in the calendar.
 - The Harris poll released Aug. 19, 1968 (bombing halt, coalition): the field dates.
-- *Chicago Tribune*, first edition of Aug. 26 (dated Aug. 27), 1968: the report of Johnson's order on the plank;
-  Boggs's denial, its day.
-- The floor steps of July 24–30, 1968, on the public works, maritime, Virgin Islands and highway bills (CQ, Aug. 30,
-  2315–22): for the reader of the Aug. 2 issue, if not entered there; and the Virgin Islands bill's House committee
-  report, June 5, and passage, June 17 (2319–20).
+- *Chicago Tribune*, first edition of Aug. 26 (dated Aug. 27), 1968: the report of Johnson's order on the plank; Boggs's denial, its day.
+- The floor steps of July 24–30, 1968, on the public works, maritime, Virgin Islands and highway bills (CQ, Aug. 30, 2315–22): for the reader of the Aug. 2 issue, if not entered there; and the Virgin Islands bill's House committee report, June 5, and passage, June 17 (2319–20).
 - New Mexico's primary, Aug. 27, 1968: the counts (CQ printed none; the State's canvass).
-- Oklahoma's primary, Aug. 27, 1968: the State Election Board's figures against CQ's "almost complete" returns.
-Rights in Conflict (Walker Report):
-- The rows marked "lead" above, each from its page; first the Mobilization's police meetings (Aug. 7, 21, 23), the
-  Coalition's letters, the Free City group's June meetings, the preconvention publicity (Rubin, Rollins), the
-  press chapter's telegrams and arrests (pp. 317–28), Huntley's broadcast (Huntley has a name entry).
-- The records the report names and the series does not hold: the Joint Command Monitor Log, the Chicago police radio
-  log, the Illinois National Guard's After Action Report and duty officer's log, the FBI's 2,017 witness statements,
-  the Los Angeles police inspector's report (pp. 1–2), the Secret Service's intelligence summary of Aug. 8 (p. 113):
-  where they are now (the Commission's records, RG 283, National Archives; the Chicago police) not searched.
-- Judge William J. Lynch's opinion of Aug. 23, 1968, on the Mobilization's suit (the report quotes it, p. 67, but gives
-  no caption or reporter): to find, if reported, and cite as the primary record of
-  cal.1968-08-23.elections-1968-chicago-2.
-- The day the report was made public (Dec. 1, 1968, in the calendar): not in the report; the Commission's release or the
-  *Times*.
+- Oklahoma's primary, Aug. 27, 1968: the State Election Board's figures against CQ's "almost complete" returns. Rights in Conflict (Walker Report):
+- The rows marked "lead" above, each from its page; first the Mobilization's police meetings (Aug. 7, 21, 23), the Coalition's letters, the Free City group's June meetings, the preconvention publicity (Rubin, Rollins), the press chapter's telegrams and arrests (pp. 317–28), Huntley's broadcast (Huntley has a name entry).
+- The records the report names and the series does not hold: the Joint Command Monitor Log, the Chicago police radio log, the Illinois National Guard's After Action Report and duty officer's log, the FBI's 2,017 witness statements, the Los Angeles police inspector's report (pp. 1–2), the Secret Service's intelligence summary of Aug. 8 (p. 113): where they are now (the Commission's records, RG 283, National Archives; the Chicago police) not searched.
+- Judge William J. Lynch's opinion of Aug. 23, 1968, on the Mobilization's suit (the report quotes it, p. 67, but gives no caption or reporter): to find, if reported, and cite as the primary record of cal.1968-08-23.elections-1968-chicago-2.
+- The day the report was made public (Dec. 1, 1968, in the calendar): not in the report; the Commission's release or the *Times*.
 - The Bantam paperback (`w.rights-in-conflict`): its pages not compared with the Dutton's.
-- Persons the report names with no name entry: Conlisk, Stahl, Baugher, Barry (Park District), Brig. Gen. Richard T.
-  Dunn, Judge Lynch, Raymond Simon, Thomas Foran, Frank Sullivan, Dan Rather, Mike Wallace, Krassner, Ginsberg,
-  Carlos Russell, Clinton Deveaux, Martin Slate, Richard Neuhaus, Murray Kempton (a columnist, R13: to propose),
-  Donald Peterson (Wisconsin's chairman). Michaelis (Task Force III's commander, p. 116) may be the John H. Michaelis
-  who has an entry: not tagged, not confirmed.
+- Persons the report names with no name entry: Conlisk, Stahl, Baugher, Barry (Park District), Brig. Gen. Richard T. Dunn, Judge Lynch, Raymond Simon, Thomas Foran, Frank Sullivan, Dan Rather, Mike Wallace, Krassner, Ginsberg, Carlos Russell, Clinton Deveaux, Martin Slate, Richard Neuhaus, Murray Kempton (a columnist, R13: to propose), Donald Peterson (Wisconsin's chairman). Michaelis (Task Force III's commander, p. 116) may be the John H. Michaelis who has an entry: not tagged, not confirmed.
 
 ### Elections data and the recordings (Nov. 1, 2026)
 
-- The House lags for 1968 on New York's new lines (39 seats) and two of Louisiana's: no CQ table found (Mar. 1, June 7,
-  June 21, the Eastern roundup); the candidate is the *Election Index to Redistricted States* (1968). Louisiana: CQ's
-  outlook, July 26, 1968, 2072-73, prints no table; check the shapes in `congress/geo.json` (whether the State's lines
-  changed at all). The seats: `notes/house-lags.md`, 1968.
-- The 1964 presidential vote on the 93d Congress's lines: America Votes 6's county and ward figures, or the Census's
-  interim CDD-93 reports (`notes/extensions/memos/pvi-districts.md`).
-- The governors of 1960 still resting on weak sources (Ark., Del., Mass., Minn., Mo., Tex., W. Va.): America Votes 4
-  (1962) not found open.
-- Name entries wanted (CQ readers, Aug. 16, 1968): Jim Wright (the roster's "Wright, James C., Jr.": no key answers),
-  Blair Clark, John M. Bailey.
-- PRDE's transcripts: readable on its site by registered users only. For the owner: the 48-hour trial, a library's
-  Rotunda subscription, or individual purchase; and the printed volumes (Norton, *The Presidential Recordings*:
-  Kennedy's July-Oct. 1962, Johnson's from Nov. 1963 into 1964; check the volumes' spans), for Drive like the other
-  books. Its search API returns the text too; the series has not used it.
+- The House lags for 1968 on New York's new lines (39 seats) and two of Louisiana's: no CQ table found (Mar. 1, June 7, June 21, the Eastern roundup); the candidate is the *Election Index to Redistricted States* (1968). Louisiana: CQ's outlook, July 26, 1968, 2072-73, prints no table; check the shapes in `congress/geo.json` (whether the State's lines changed at all). The seats: `notes/house-lags.md`, 1968.
+- The 1964 presidential vote on the 93d Congress's lines: America Votes 6's county and ward figures, or the Census's interim CDD-93 reports (`notes/extensions/memos/pvi-districts.md`).
+- The governors of 1960 still resting on weak sources (Ark., Del., Mass., Minn., Mo., Tex., W. Va.): America Votes 4 (1962) not found open.
+- Name entries wanted (CQ readers, Aug. 16, 1968): Jim Wright (the roster's "Wright, James C., Jr.": no key answers), Blair Clark, John M. Bailey.
+- PRDE's transcripts: readable on its site by registered users only. For the owner: the 48-hour trial, a library's Rotunda subscription, or individual purchase; and the printed volumes (Norton, *The Presidential Recordings*: Kennedy's July-Oct. 1962, Johnson's from Nov. 1963 into 1964; check the volumes' spans), for Drive like the other books. Its search API returns the text too; the series has not used it.
 
 ### Bissell, *Reflections of a Cold Warrior* (batch 3, Oct. 29, 2026; notes/book-checks/bissell-reflections-of-a-cold.md)
 - Discoverer XI and XII, early 1960: the months (Bissell; the Air Force's and NRO's histories). Space.
@@ -1707,49 +1146,24 @@ Rights in Conflict (Walker Report):
 
 ### Branch, *Pillar of Fire* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-pillar-of-fire.md)
 
-- Steinbeck to Valenti, July 10 and Aug. 5, 1964, and "Notes and questions for J.V. about LBJ," Valenti Papers, AC 84-57,
-  LBJ Library; Johnson–Steinbeck call, Aug. 21, 1964, Cit. 5111 (Branch 467 n.): communications planning, R7; not entered.
-- Roy Cohn's slander suit against King and others over the July 30 statement on Commissioner Murphy (NYT Apr. 13, May 27,
-  June 3, 1965; Branch 423 n.).
-- Johnson's public acts of Aug. 3, 1964 (land transfer bill, International Hydrological Decade, the foreign-language
-  editors): the Papers' items to be checked against the calendar.
+- Steinbeck to Valenti, July 10 and Aug. 5, 1964, and "Notes and questions for J.V. about LBJ," Valenti Papers, AC 84-57, LBJ Library; Johnson–Steinbeck call, Aug. 21, 1964, Cit. 5111 (Branch 467 n.): communications planning, R7; not entered.
+- Roy Cohn's slander suit against King and others over the July 30 statement on Commissioner Murphy (NYT Apr. 13, May 27, June 3, 1965; Branch 423 n.).
+- Johnson's public acts of Aug. 3, 1964 (land transfer bill, International Hydrological Decade, the foreign-language editors): the Papers' items to be checked against the calendar.
 - Theodore White's CBS *The Making of the President 1964* (Peabody tape 65043): its broadcast date.
 - Goldwater's half-hour broadcast on nuclear weapons and his television spending (Edwards, *Goldwater*, 287, 319).
-- The White House recordings behind the new entries are open on the Miller Center's pages (each in "To check:"): a
-  listening run would move them to the primary record.
-- Part III entries to propose (persons the entries name who have none): James Bevel; Judge Bryan Simpson; Holsted "Hoss"
-  Manucy; Wallace D. Muhammad; Charles Sherrod; Aubrey Williams; Hobart Taylor Jr.; Clarence B. Jones; Harold DeWolf;
-  Eugene Carson Blake; Abraham Heschel; Robert Spike; Harry Belafonte; the Athens Klansmen (Sims, Myers, Lackey, Guest), as
-  defendants (R12). Press figures (R13): Paul Good (ABC), John Herbers (*NYT*), Bill Minor (*Times-Picayune*), John H.
-  Sengstacke (*Chicago Defender*), C. A. Scott (*Atlanta Daily World*), Larry Still (*Jet*).
-- The Christian Nationalist State Army's plot against King at Los Angeles, Feb. 24-25, 1965 (SAC, Los Angeles, to
-  Director, Feb. 24, 1965, FK-980, FK-954; LAT, Feb. 27, 1965, 12).
-- *Cooper v. Pate* (S.D. Ill.; the Supreme Court's order, 1964): Malcolm X as the State's witness, the trial set for
-  Feb. 22, 1965 (Chicago Tribune, June 8, 1965).
+- The White House recordings behind the new entries are open on the Miller Center's pages (each in "To check:"): a listening run would move them to the primary record.
+- Part III entries to propose (persons the entries name who have none): James Bevel; Judge Bryan Simpson; Holsted "Hoss" Manucy; Wallace D. Muhammad; Charles Sherrod; Aubrey Williams; Hobart Taylor Jr.; Clarence B. Jones; Harold DeWolf; Eugene Carson Blake; Abraham Heschel; Robert Spike; Harry Belafonte; the Athens Klansmen (Sims, Myers, Lackey, Guest), as defendants (R12). Press figures (R13): Paul Good (ABC), John Herbers (*NYT*), Bill Minor (*Times-Picayune*), John H. Sengstacke (*Chicago Defender*), C. A. Scott (*Atlanta Daily World*), Larry Still (*Jet*).
+- The Christian Nationalist State Army's plot against King at Los Angeles, Feb. 24-25, 1965 (SAC, Los Angeles, to Director, Feb. 24, 1965, FK-980, FK-954; LAT, Feb. 27, 1965, 12).
+- *Cooper v. Pate* (S.D. Ill.; the Supreme Court's order, 1964): Malcolm X as the State's witness, the trial set for Feb. 22, 1965 (Chicago Tribune, June 8, 1965).
 - The Nation of Islam's convention, Chicago, Feb. 26, 1965 (the Epilogue, 601).
-- Part III entries to propose: Louis Martin (DNC); Harry Wachtel; Clarence Jones (again); C. T. Vivian; James Bevel
-  (again); Hosea Williams has one; Wilson Baker has one; Archibald Carey; Raymond Sharrieff; Louis X (Farrakhan); Leon
-  4X Ameer, Talmadge Hayer has one; Jesse Morris; Albert Turner; F. D. Reese; Annie Lee Cooper; Frank Soracco. Press
-  (R13): Eugene Patterson (*Atlanta Constitution*), Richard Valeriani (NBC), Roy Reed and John Herbers (*NYT*), Irv
-  Kupcinet, Les Crane, Gordon Parks (*Life*).
-- Head Start's announcement, Feb. 19, 1965: the record (Levitan, *Great Society's Poor Law*, 136); the Papers print no
-  item that day.
-- The Nation of Islam: the arrests of Hayer's two co-defendants, Feb.-Mar. 1965 (Goldman, *Death and Life*); Hayer's
-  testimony at the trial, 1966 (ibid., 318-59); the Newark temple wrecked by the police (*Jet*, Jan. 13, 1966, 24-27);
-  the FBI's anonymous mailings on Temple No. 7, 1968 (Magida, *Prophet of Rage*, 105).
-- The Los Angeles police's shooting of Ronald Stokes and the Muslims, Apr. 1962, and the trial: not in the calendar
-  (for the reader of *Parting the Waters*); the convictions' days (LAT, Mar. 3, 1965).
-- Moses, 1965-68: the summer conference of antiwar activists in New York with Lowenstein (Chafe, 218-20); the Ghana
-  conference, autumn 1965; the "Roots" conference, New Orleans, spring 1966; his induction notice's date; Tanzania's
-  asylum, summer 1968.
-- Cager Lee's day: Branch's Aug. 20, 1965, against the examiners' first day, Aug. 10, in the calendar (Owens to
-  Blackwell, Aug. 21, 1965, A/SC146f5; Doar, Fla. St. U. L. Rev., Fall 1997, 14).
-- *The Autobiography of Malcolm X*: Doubleday's cancellation and Grove's publication day (Warren, Baltimore Sun, Nov.
-  16, 1992).
-- Part III entries to propose: Wallace D. Muhammad (W. D. Mohammed); Louis X (Farrakhan); Norman 3X Butler; Captain
-  Joseph (Yusuf Shah); J. C. Fairley; J. L. Martin (FBI); Roy K. Moore (FBI, Jackson); Lawrence Byrd; Billy Roy Pitts;
-  Charles Wilson (Laurel); Delmar Dennis; Thomas Tarrants; Kathy Ainsworth; Devours Nix; Cager Lee. Press (R13): Eliot
-  Fremont-Smith (*NYT*); I. F. Stone (*I. F. Stone's Weekly*, *NYRB*); Jack Nelson (*LAT*).
+- Part III entries to propose: Louis Martin (DNC); Harry Wachtel; Clarence Jones (again); C. T. Vivian; James Bevel (again); Hosea Williams has one; Wilson Baker has one; Archibald Carey; Raymond Sharrieff; Louis X (Farrakhan); Leon 4X Ameer, Talmadge Hayer has one; Jesse Morris; Albert Turner; F. D. Reese; Annie Lee Cooper; Frank Soracco. Press (R13): Eugene Patterson (*Atlanta Constitution*), Richard Valeriani (NBC), Roy Reed and John Herbers (*NYT*), Irv Kupcinet, Les Crane, Gordon Parks (*Life*).
+- Head Start's announcement, Feb. 19, 1965: the record (Levitan, *Great Society's Poor Law*, 136); the Papers print no item that day.
+- The Nation of Islam: the arrests of Hayer's two co-defendants, Feb.-Mar. 1965 (Goldman, *Death and Life*); Hayer's testimony at the trial, 1966 (ibid., 318-59); the Newark temple wrecked by the police (*Jet*, Jan. 13, 1966, 24-27); the FBI's anonymous mailings on Temple No. 7, 1968 (Magida, *Prophet of Rage*, 105).
+- The Los Angeles police's shooting of Ronald Stokes and the Muslims, Apr. 1962, and the trial: not in the calendar (for the reader of *Parting the Waters*); the convictions' days (LAT, Mar. 3, 1965).
+- Moses, 1965-68: the summer conference of antiwar activists in New York with Lowenstein (Chafe, 218-20); the Ghana conference, autumn 1965; the "Roots" conference, New Orleans, spring 1966; his induction notice's date; Tanzania's asylum, summer 1968.
+- Cager Lee's day: Branch's Aug. 20, 1965, against the examiners' first day, Aug. 10, in the calendar (Owens to Blackwell, Aug. 21, 1965, A/SC146f5; Doar, Fla. St. U. L. Rev., Fall 1997, 14).
+- *The Autobiography of Malcolm X*: Doubleday's cancellation and Grove's publication day (Warren, Baltimore Sun, Nov. 16, 1992).
+- Part III entries to propose: Wallace D. Muhammad (W. D. Mohammed); Louis X (Farrakhan); Norman 3X Butler; Captain Joseph (Yusuf Shah); J. C. Fairley; J. L. Martin (FBI); Roy K. Moore (FBI, Jackson); Lawrence Byrd; Billy Roy Pitts; Charles Wilson (Laurel); Delmar Dennis; Thomas Tarrants; Kathy Ainsworth; Devours Nix; Cager Lee. Press (R13): Eliot Fremont-Smith (*NYT*); I. F. Stone (*I. F. Stone's Weekly*, *NYRB*); Jack Nelson (*LAT*).
 
 ### Branch, *At Canaan's Edge* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-at-canaans-edge.md)
 
@@ -1780,57 +1194,34 @@ Rights in Conflict (Walker Report):
 
 - Eisenhower's two telephone calls to Rockefeller, spring 1960 (Smith 336): the Eisenhower Library's telephone logs.
 - Nixon to Hoover, Nov. 22, 1963 (Smith 418; Nixon, *RN*, 312): see whether the calendar has it.
-- Clif White's forecast, May 29, 1964 (Smith 447); Scranton to Rockefeller, Aug. 3, 1964, and Rockefeller to Hugh Scott,
-  Aug. 28, 1964 (RAC; Smith 452).
+- Clif White's forecast, May 29, 1964 (Smith 447); Scranton to Rockefeller, Aug. 3, 1964, and Rockefeller to Hugh Scott, Aug. 28, 1964 (RAC; Smith 452).
 - Nixon's endorsement of Rockefeller, Oct. 1966 (Smith 491): the day.
 - Miller's election as national chairman, 1961: no entry; the day from the national committee's record (Smith 357).
 - Laurance Rockefeller's $30,000 loan to Miller, 1961 (Smith 387 n.): the day.
 - Kennedy to Bradlee on Rockefeller and *Newsweek*'s cover (Bradlee, *Conversations with Kennedy*, 74-75): the day.
 - the Ideological Organizations Project of the IRS, late 1961 (Smith 379 n.; Andrew, *The Other Side of the Sixties*).
 - Goldwater on the divorce, Nov. 1961; Khrushchev on it (Smith 364-65): the days.
-- cards to make (no card yet, cited in full in "To check:"): Klein, *Lindsay's Promise* (1970); Benjamin and Hurd,
-  *Rockefeller in Retrospect* (1984); Schlesinger, *Journals, 1952-2000*; Hevesi, *Legislative Politics in New York State*;
-  Gordon, *Battery Park City* (1997); Robert David Johnson, *All the Way with LBJ*; *Public Papers of Nelson A. Rockefeller*
-  (a card a year, as the Bulletin's).
-- the Johnson-Rockefeller recording of Nov. 9, 1965, 9:15 p.m. (Miller Center, WH6511-05-9147): to hear and cite as
-  the primary record of cal.1965-11-09.states-and-cities-2.
-- the Public Papers of Governor Rockefeller (1959-73), cited by Smith throughout as "NR, PP": find a copy; the
-  statement of Apr. 5, 1968 (1968, 1039), the ASNE speech (1968, 1303-08), the postelection press conference (1964, 876).
+- cards to make (no card yet, cited in full in "To check:"): Klein, *Lindsay's Promise* (1970); Benjamin and Hurd, *Rockefeller in Retrospect* (1984); Schlesinger, *Journals, 1952-2000*; Hevesi, *Legislative Politics in New York State*; Gordon, *Battery Park City* (1997); Robert David Johnson, *All the Way with LBJ*; *Public Papers of Nelson A. Rockefeller* (a card a year, as the Bulletin's).
+- the Johnson-Rockefeller recording of Nov. 9, 1965, 9:15 p.m. (Miller Center, WH6511-05-9147): to hear and cite as the primary record of cal.1965-11-09.states-and-cities-2.
+- the Public Papers of Governor Rockefeller (1959-73), cited by Smith throughout as "NR, PP": find a copy; the statement of Apr. 5, 1968 (1968, 1039), the ASNE speech (1968, 1303-08), the postelection press conference (1964, 876).
 - Hirshhorn's gift (Smith, 464, May 1965): the day of Johnson's announcement.
-- Press: Murray Kempton, Victor Riesel, Gene Spagnoli (the *Daily News* at Albany), Jimmy Breslin: Part III entries to propose
-  (R13); Kempton's columns of Nov. 5, 1965, and June 16, 1966, entered.
+- Press: Murray Kempton, Victor Riesel, Gene Spagnoli (the *Daily News* at Albany), Jimmy Breslin: Part III entries to propose (R13); Kempton's columns of Nov. 5, 1965, and June 16, 1966, entered.
 
 ### Nixon, *Six Crises* (batch 3, second run, Nov. 4, 2026; notes/book-checks/nixon-six-crises.md)
 
-- *Six Crises*, xi–xii: April 1961, Adela Rogers St. Johns's call, Ken McCormick of Doubleday in California
-  the next day, the six crises chosen, the book undertaken. Not entered: the pinpoint test (`is_pin` in
-  `tools/bib/claims.py`) takes no roman folio, so "xi–xii" fails [claims]; a ruling or a fix would let the front matter
-  of any book be cited (*Rights in Conflict*'s "xiii–xiv" is in the same case). The entry would go under Republican
-  Party.
-- *Newsweek*'s informal poll of the reporters who covered the campaign, Kennedy 37, Nixon 13 (396): the
-  issue.
-- Willard Edwards's letter to Nixon on the coverage (419–20), and Dewey's counsel against decisions for
-  sixty days (423 n.15): the dates.
-- Press figures for Part III (R13), with the work that treats them (*Six Crises*, 359): David Lawrence, the
-  columnist; Sam Lubell; Ernest K. Lindley of *Newsweek*; Leon Pearson and Elmer Peterson of NBC. And Whittaker
-  Chambers, who has no name entry (cal.1961-02.elections-1962, cal.1961-07-09.conservative-movement).
-- The newsweeklies' forecasts (cal.1960-10-25.elections-1960-6 to -8) and Lubell's election-eve forecast:
-  the issues and the medium.
+- *Six Crises*, xi–xii: April 1961, Adela Rogers St. Johns's call, Ken McCormick of Doubleday in California the next day, the six crises chosen, the book undertaken. Not entered: the pinpoint test (`is_pin` in `tools/bib/claims.py`) takes no roman folio, so "xi–xii" fails [claims]; a ruling or a fix would let the front matter of any book be cited (*Rights in Conflict*'s "xiii–xiv" is in the same case). The entry would go under Republican Party.
+- *Newsweek*'s informal poll of the reporters who covered the campaign, Kennedy 37, Nixon 13 (396): the issue.
+- Willard Edwards's letter to Nixon on the coverage (419–20), and Dewey's counsel against decisions for sixty days (423 n.15): the dates.
+- Press figures for Part III (R13), with the work that treats them (*Six Crises*, 359): David Lawrence, the columnist; Sam Lubell; Ernest K. Lindley of *Newsweek*; Leon Pearson and Elmer Peterson of NBC. And Whittaker Chambers, who has no name entry (cal.1961-02.elections-1962, cal.1961-07-09.conservative-movement).
+- The newsweeklies' forecasts (cal.1960-10-25.elections-1960-6 to -8) and Lubell's election-eve forecast: the issues and the medium.
 
 ### White, *The Making of the President 1960* (batch 3, second run, Nov. 4, 2026; notes/book-checks/white-making-of-the-president.md)
 
-- the House Committee on Education's "testing" of the education bill on Mar. 9, 1961 (White,
-  375): the Digest's rows for March 1961 (`daybook/committees/1961-03.yaml`) show the education hearings on other days;
-  which day White meant.
-- the Congress's hearings on the National Purpose, 1960, and the *Times*'s front-page dispatch
-  from Moscow at the year's opening (White, 377): the days.
-- John Bartlow Martin and Joseph Kraft as the campaign's "editorial advance" (White, 324): when
-  they joined; Kraft and Martin for Part III (R13).
-- the figures of chapter 15 with no series to hold them: the stockpile at the end of 1960,
-  "thirty-five kilomegatons" (372–73, after Hadley, *The Nation's Safety and Arms Control*); the science appropriations
-  of 1960 (379).
-- For the merger (not applied: the AP's reading, White's Appendix A, not given): the AP's tabulation of Dec. 17, 1960 (`x.1960-12-17.associated-press-final-tabulation-of-the-presidential`)
-  is a variant of `cal.1960-11-08.elections-1960` unit A (R41).
+- the House Committee on Education's "testing" of the education bill on Mar. 9, 1961 (White, 375): the Digest's rows for March 1961 (`daybook/committees/1961-03.yaml`) show the education hearings on other days; which day White meant.
+- the Congress's hearings on the National Purpose, 1960, and the *Times*'s front-page dispatch from Moscow at the year's opening (White, 377): the days.
+- John Bartlow Martin and Joseph Kraft as the campaign's "editorial advance" (White, 324): when they joined; Kraft and Martin for Part III (R13).
+- the figures of chapter 15 with no series to hold them: the stockpile at the end of 1960, "thirty-five kilomegatons" (372–73, after Hadley, *The Nation's Safety and Arms Control*); the science appropriations of 1960 (379).
+- For the merger (not applied: the AP's reading, White's Appendix A, not given): the AP's tabulation of Dec. 17, 1960 (`x.1960-12-17.associated-press-final-tabulation-of-the-presidential`) is a variant of `cal.1960-11-08.elections-1960` unit A (R41).
 
 ### Zelizer, *The Fierce Urgency of Now* (batch 3, Nov. 4, 2026; notes/book-checks/zelizer-fierce-urgency-of-now.md)
 
@@ -1859,35 +1250,24 @@ Rights in Conflict (Walker Report):
 
 ### Bird, *The Color of Truth* (batch 3, Nov. 4, 2026; notes/book-checks/bird-color-of-truth.md)
 
-- The Public Broadcasting Laboratory's $10 million (1967), the Bedford-Stuyvesant Corporation's Ford grant (1966), the
-  Southwest Council of La Raza's (1968): the days, from the Ford Foundation's annual reports or the *Times*.
-- Forrestal's Kraft interviews (1964) and Joseph Kraft's papers; Bird's "Harriman/Bird Papers" (the Harriman papers held
-  by Bird), where they went.
+- The Public Broadcasting Laboratory's $10 million (1967), the Bedford-Stuyvesant Corporation's Ford grant (1966), the Southwest Council of La Raza's (1968): the days, from the Ford Foundation's annual reports or the *Times*.
+- Forrestal's Kraft interviews (1964) and Joseph Kraft's papers; Bird's "Harriman/Bird Papers" (the Harriman papers held by Bird), where they went.
 - I. F. Stone's "Reply to the White Paper": *I. F. Stone's Weekly*, Mar. 8, 1965 (the issue to confirm).
 - Kraft and I. F. Stone have no name entries: propose Part III entries (R13).
 
 ### Woods, *J. William Fulbright, Vietnam, and the Search for a Cold War Foreign Policy* (batch 3, Nov. 4, 2026; notes/book-checks/woods-j-william-fulbright-vietnam.md)
 
-- The Mount Vernon dinner (Woods 41, "June 11"): the date, against the Public Papers' account of Ayub Khan's visit (July
-  1961).
-- Woods's footnotes: Fulbright to Kennedy, June 28, 1961 (WHOF, box 639, Kennedy Papers); "Memorandum Submitted to
-  Department of Defense," Aug. 2, 1961 (SPF, series 4:19, box 26:1): the memorandum's record for
-  cal.1961-08-02.right-and-the-military.
-- Woods, second run: the papers of government on pp. 132-136 (Lodge, Apr. 29, 1966; Rostow to Harriman, Jan. 28; Rostow
-  to Johnson, Apr. 5 and June 1; Harriman to Rusk, May 10; the NSC of May 10 and June 17; Hoover to Tolson, July 1):
-  entries by R8, FRUS 1964-68, IV first where it prints them.
+- The Mount Vernon dinner (Woods 41, "June 11"): the date, against the Public Papers' account of Ayub Khan's visit (July 1961).
+- Woods's footnotes: Fulbright to Kennedy, June 28, 1961 (WHOF, box 639, Kennedy Papers); "Memorandum Submitted to Department of Defense," Aug. 2, 1961 (SPF, series 4:19, box 26:1): the memorandum's record for cal.1961-08-02.right-and-the-military.
+- Woods, second run: the papers of government on pp. 132-136 (Lodge, Apr. 29, 1966; Rostow to Harriman, Jan. 28; Rostow to Johnson, Apr. 5 and June 1; Harriman to Rusk, May 10; the NSC of May 10 and June 17; Hoover to Tolson, July 1): entries by R8, FRUS 1964-68, IV first where it prints them.
 - The Minutemen plot (Woods 125): Brooks's testimony in Kansas City, its day (the *Arkansas Gazette*, Apr. 8, 1966).
 - Athan G. Theoharis, *From the Secret Files of J. Edgar Hoover* (1991): no card; a witness row only (Woods 119 n.47).
-- The Fulbright Papers (SPF, University of Arkansas), the Marcy Papers (SFRC, RG 46) and the LBJ Library's files Woods
-  cites, item by item in the witness file: the archival copies of the new entries, none read.
+- The Fulbright Papers (SPF, University of Arkansas), the Marcy Papers (SFRC, RG 46) and the LBJ Library's files Woods cites, item by item in the witness file: the archival copies of the new entries, none read.
 - 113 Cong. Rec. 15018 (Senate, June 7, 1967): Fulbright's Pacem in Terris speech as printed, for its day and words.
-- Woods's account of Fulbright's questions to Russell (a declaration of war; a million men?): the Record of Feb.-Mar.
-  1967, the day not found (Woods's page cites Mar. 13, a letter).
+- Woods's account of Fulbright's questions to Russell (a declaration of war; a million men?): the Record of Feb.-Mar. 1967, the day not found (Woods's page cites Mar. 13, a letter).
 - *The Arrogance of Power*'s day of publication (Random House, Dec. 1966).
-- Part III entries to propose (R13): William S. White (columnist, *Washington Post*); Martin Agronsky (CBS); E. W.
-  Kenworthy and John W. Finney (*New York Times*, on the Tonkin inquiry); J. Russell Wiggins has one.
-- Persons without name entries named in the new entries: Seth Tillman, Carl Marcy's staff (William Bader, Don
-  Newhouse), Ben Grinage, Lee Williams, Cyrus Eaton, Erich Fromm, Martha Gellhorn, Igor Bubnov, David Ness.
+- Part III entries to propose (R13): William S. White (columnist, *Washington Post*); Martin Agronsky (CBS); E. W. Kenworthy and John W. Finney (*New York Times*, on the Tonkin inquiry); J. Russell Wiggins has one.
+- Persons without name entries named in the new entries: Seth Tillman, Carl Marcy's staff (William Bader, Don Newhouse), Ben Grinage, Lee Williams, Cyrus Eaton, Erich Fromm, Martha Gellhorn, Igor Bubnov, David Ness.
 
 ### Westmoreland, *A Soldier Reports* (batch 3, second and third readings, Nov. 3–4, 2026; notes/book-checks/westmoreland-soldier-reports.md)
 
@@ -1896,8 +1276,7 @@ Rights in Conflict (Walker Report):
 - State's cable to Lodge on pacification, Sept. 1965 (161): FRUS 1964-68, III.
 - The defector at Khe Sanh (Jan. 20, 1968) and the strategy conference of Jan. 27 (317-20): the entries, if any.
 - Westmoreland's CBS interview with Steve Rowan, Nov. 1967 (231, 234): the day and the broadcast; CBS's archive.
-- His press conferences: Saigon, on dissent, after Apr. 1967 (226); the northern provinces, Feb. 1968 (345); the White House
-  lawn, the link-up at Khe Sanh, Apr. 1968 (347): the days.
+- His press conferences: Saigon, on dissent, after Apr. 1967 (226); the northern provinces, Feb. 1968 (345); the White House lawn, the link-up at Khe Sanh, Apr. 1968 (347): the days.
 - Gavin's letter in *Harper's*, Feb. 1966 (129): the issue's pages; read the letter.
 
 ### Berman, *Lyndon Johnson's War* (batch 3, Nov. 4, 2026; notes/book-checks/berman-lyndon-johnsons-war.md)
@@ -1919,22 +1298,13 @@ Rights in Conflict (Walker Report):
 
 ### The MACV Command Histories, 1964, 1965, 1967, 1968 (batch 3, second runs, Nov. 3–4, 2026; notes/book-checks/macv-command-history.md)
 
-- Annex C of the 1968 volume (the Office of Information and the press, pp. 935-96): its dated incidents (above), to be
-  read off the page images. The 1967 volume's "Press and Public Opinion," 959-69: the Washington meeting on public
-  support (no date given); Westmoreland's instruction that TV crews be escorted (no date given).
-- Propose Part III entries for the press figures named here without one: Don Webster (CBS), Osborn Elliott
-  (*Newsweek*), John S. Carroll (*Baltimore Sun*), Alvin B. Webb Jr. (UPI); the History treats each.
+- Annex C of the 1968 volume (the Office of Information and the press, pp. 935-96): its dated incidents (above), to be read off the page images. The 1967 volume's "Press and Public Opinion," 959-69: the Washington meeting on public support (no date given); Westmoreland's instruction that TV crews be escorted (no date given).
+- Propose Part III entries for the press figures named here without one: Don Webster (CBS), Osborn Elliott (*Newsweek*), John S. Carroll (*Baltimore Sun*), Alvin B. Webb Jr. (UPI); the History treats each.
 - The congressional delegation of Schwengel and Cowger and its complaint to the press (1967 vol., 1201): no date given.
-- Westmoreland's "Historical Briefings" (1965: Sept. 4, Oct. 3, 25, 31, Nov. 21) and his Honolulu notebook (Apr. 18,
-  Aug. 20, 1965), cited by the 1965 volume's notes: whether CMH or the LBJ Library holds them open.
+- Westmoreland's "Historical Briefings" (1965: Sept. 4, Oct. 3, 25, 31, Nov. 21) and his Honolulu notebook (Apr. 18, Aug. 20, 1965), cited by the 1965 volume's notes: whether CMH or the LBJ Library holds them open.
 - Bob Hope's Christmas tour of 1964 (1964 vol., 20): the troupe's stops; the press.
-- Propose Part III entries (K–J Cong. III.J or Viet.) for the press figures the annex treats: Bill Tuohy (*Los Angeles
-  Times*), Donald Kirk (*Washington Star*), Peter Braestrup (*Washington Post*; a name entry wanted), John S. Carroll
-  (*Baltimore Sun*), Helen A. Musgrove (Jacksonville *Journal*), Joseph B. Treaster (*New York Times*), Gene Roberts
-  (*New York Times*), John Wheeler (AP), Everett G. Martin (*Newsweek*).
-- The 1968 volume's Annex C, its undated items: Gene Roberts's article on the press and the military; Wheeler's on Khe
-  Sanh; the Schlesinger-Alsop exchange; the *Tampa Tribune*'s editorial of Sept. 30 (983, not read off the page);
-  Clifford's message praising MACV's press work ("nine days later," 970).
+- Propose Part III entries (K–J Cong. III.J or Viet.) for the press figures the annex treats: Bill Tuohy (*Los Angeles Times*), Donald Kirk (*Washington Star*), Peter Braestrup (*Washington Post*; a name entry wanted), John S. Carroll (*Baltimore Sun*), Helen A. Musgrove (Jacksonville *Journal*), Joseph B. Treaster (*New York Times*), Gene Roberts (*New York Times*), John Wheeler (AP), Everett G. Martin (*Newsweek*).
+- The 1968 volume's Annex C, its undated items: Gene Roberts's article on the press and the military; Wheeler's on Khe Sanh; the Schlesinger-Alsop exchange; the *Tampa Tribune*'s editorial of Sept. 30 (983, not read off the page); Clifford's message praising MACV's press work ("nine days later," 970).
 
 ### Kotz, *Judgment Days* (batch 3, third run, Nov. 4, 2026; notes/book-checks/kotz-judgment-days.md)
 
@@ -1970,27 +1340,21 @@ Rights in Conflict (Walker Report):
 
 ### Fursenko and Naftali, *Khrushchev's Cold War* (batch 3, third run, Nov. 4, 2026; notes/book-checks/fursenko-khrushchevs-cold-war.md)
 
-- Oct. 24, 1962: McNamara's depth-charge rules and Kennedy's worry, from the morning ExComm's tape (Presidential
-  Recordings, III, 191–97): an entry for a reader of the tapes.
+- Oct. 24, 1962: McNamara's depth-charge rules and Kennedy's worry, from the morning ExComm's tape (Presidential Recordings, III, 191–97): an entry for a reader of the tapes.
 - Apr. 13, 1961, El Encanto; Aug. 14, 1961, Kennan's authorization (388): to enter from a record.
 - Kennedy's back, Ottawa, May 1961 (the work's "March," 367).
-- The press: a Part III entry for Warren Rogers (*Herald Tribune*, Pentagon pool), named in cal.1962-10-26.soviet-union,
-  and for Thomas J. Hamilton (*New York Times* at the UN), cal.1962-11-15.missile-crisis-2; both treated by this work
-  (486, 502).
+- The press: a Part III entry for Warren Rogers (*Herald Tribune*, Pentagon pool), named in cal.1962-10-26.soviet-union, and for Thomas J. Hamilton (*New York Times* at the UN), cal.1962-11-15.missile-crisis-2; both treated by this work (486, 502).
 
 ### Bernstein, *Guns or Butter* (batch 3, fifth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
 
 - The rows of the fifth run's Passed over marked "a lead".
 - The Juvenile Delinquency and Youth Offenses Control Act of 1961: its day and Statutes cite.
 - Lampman to Heller, June 10, 1963 (Administrative History of the Council, LBJ Library).
-- The poverty hearings' printed volumes (House, pt. 1, pp. 6–7, 64–65, 108–9, 114–15, 146, 184–85, 309, 314, 631–36)
-  and the Record of July 22–23 and Aug. 7, 1964, for the days of Green's, McNamara's and Kennedy's exchanges and
-  Smathers's amendment.
+- The poverty hearings' printed volumes (House, pt. 1, pp. 6–7, 64–65, 108–9, 114–15, 146, 184–85, 309, 314, 631–36) and the Record of July 22–23 and Aug. 7, 1964, for the days of Green's, McNamara's and Kennedy's exchanges and Smathers's amendment.
 - The Ways and Means hearings of 1963–64 (pt. 2, 644, 650–51) for Annis's day.
 - The Teaching Professions message of July 17, 1965 in the Public Papers.
 - The ABA's agreement (July 11 or later; Cater to Johnson, Aug. 25, 1965).
-- The press: Murrow's "Harvest of Shame"; Reston's "Franklin Delano Hoover twist"; Lippmann's 1963 column on
-  Goldwater; Henshaw's "Washington Pipeline" (attached to Spain to Manatos, July 30, 1964).
+- The press: Murrow's "Harvest of Shame"; Reston's "Franklin Delano Hoover twist"; Lippmann's 1963 column on Goldwater; Henshaw's "Washington Pipeline" (attached to Spain to Manatos, July 30, 1964).
 - Propose a Part III entry for Douglass Cater (White House staff, education and Medicare), who has no name entry.
 
 ### Bernstein, *Guns or Butter* (batch 3, sixth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
@@ -2003,38 +1367,24 @@ Rights in Conflict (Walker Report):
 - The Ford compromise of Dec. 17, 1965 (O'Brien to Califano, Dec. 29, registered).
 - The House's wilderness hearings of 1964 (pp. 1205 for Zahniser) and Zahniser's death.
 - Johnson's promise to the AFL-CIO, Nov. 18, 1965 (no Papers item that day: the record).
-- Propose a Part III entry for Abba P. Schwartz (State, Bureau of Security and Consular Affairs, 1962–66), whose name
-  entry comes from FRUS's lists only, and for Michael A. Feighan (House Judiciary, Subcommittee No. 1), whose comes
-  from the rosters.
+- Propose a Part III entry for Abba P. Schwartz (State, Bureau of Security and Consular Affairs, 1962–66), whose name entry comes from FRUS's lists only, and for Michael A. Feighan (House Judiciary, Subcommittee No. 1), whose comes from the rosters.
 
 ### Bernstein, *Guns or Butter* (batch 3, seventh run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
 
 - The rows of the seventh run's Passed over marked "a lead".
 - Kennedy's Charter Day address at Berkeley, Mar. 23, 1962 (1962 Pub. Papers 263).
 - The McNamara–Webb memorandum on the moon (1961).
-- Moyers's statement on Watts, Aug. 14, 1965: Kotz's entry (`cal.1965-08-14.civil-disorders-watts-2`, now merged), to be
-  cited from Bernstein.
+- Moyers's statement on Watts, Aug. 14, 1965: Kotz's entry (`cal.1965-08-14.civil-disorders-watts-2`, now merged), to be cited from Bernstein.
 - The Berkeley days of Sept. 20–30, Nov. 9, Dec. 4 and 7, 1964, and Jan. 2, 1965.
-- Propose Part III entries for the press figures David Wise (*Herald Tribune*), Charles Mohr (*New York Times*), Peter
-  Grose (*New York Times*); and for Hans J. Morgenthau, Louis Martin (Democratic National Committee), Norman Thomas,
-  James Bevel and Allard Lowenstein, named here without name entries.
+- Propose Part III entries for the press figures David Wise (*Herald Tribune*), Charles Mohr (*New York Times*), Peter Grose (*New York Times*); and for Hans J. Morgenthau, Louis Martin (Democratic National Committee), Norman Thomas, James Bevel and Allard Lowenstein, named here without name entries.
 
 ### Woods, *Fulbright: A Biography* (batch 3, Nov. 4, 2026; notes/book-checks/woods-fulbright.md)
 
-- Pat M. Holt's and Carl Marcy's oral histories (Senate Historical Office, 1980 and 1983): the source of a score of
-  entries here; open on senate.gov? To find and read.
+- Pat M. Holt's and Carl Marcy's oral histories (Senate Historical Office, 1980 and 1983): the source of a score of entries here; open on senate.gov? To find and read.
 - The Marcy Papers (SFRC, RG 46) and the Fulbright Papers (SPF, Arkansas), item by item in the witness files: none read.
-- The Record pages Woods cites and this run did not read (each a Check on its entry): June 27, 1962, 11879; Mar. 1,
-  1960, 3976-81; Mar. 18, 1964, 5639; Nov. 19, 1963, 22361; Dec. 6, 1963, 23726-28; Dec. 18, 1963, 25032-33; July 23,
-  1964, 16764; Mar. 21, 1966, 6416; Mar. 25, 1966, 6749-53; Aug. 22, 1966, 20191; Mar. 16, 1967, 7057; Apr. 27, 1967,
-  11042-43; Aug. 9, 1967, 22126-27; July 13, 1961 (Goldwater).
+- The Record pages Woods cites and this run did not read (each a Check on its entry): June 27, 1962, 11879; Mar. 1, 1960, 3976-81; Mar. 18, 1964, 5639; Nov. 19, 1963, 22361; Dec. 6, 1963, 23726-28; Dec. 18, 1963, 25032-33; July 23, 1964, 16764; Mar. 21, 1966, 6416; Mar. 25, 1966, 6749-53; Aug. 22, 1966, 20191; Mar. 16, 1967, 7057; Apr. 27, 1967, 11042-43; Aug. 9, 1967, 22126-27; July 13, 1961 (Goldwater).
 - The Senate's adoption of S. Res. 191 (Woods: Sept. 20, 1961): its day in the Record.
-- Part III entries to propose (R13 and the Names): Pat M. Holt, Seth Tillman, Lee Williams, Jack Yingling, Norvill Jones,
-  John Erickson (Fulbright's staff); Walter Pincus; Doris Fleeson, Holmes Alexander, Clayton Fritchey, Paul Harvey,
-  George Todt (columnists); Dan Smoot, Billy James Hargis, Kent Courtney (radical right); Sol Linowitz; Jim Johnson
-  ("Justice Jim"), Bobby K. Hayes, Winston G. Chandler, Kenneth G. Jones, Charles Bernard (Fulbright's opponents); Bill
-  Darby, Jack Pickens, Witt Stephens (Arkansas); H. L. Hunt; Isadore Hamlin, Maurice Boukstein; R. B. McCallum; John
-  A. Morsell.
+- Part III entries to propose (R13 and the Names): Pat M. Holt, Seth Tillman, Lee Williams, Jack Yingling, Norvill Jones, John Erickson (Fulbright's staff); Walter Pincus; Doris Fleeson, Holmes Alexander, Clayton Fritchey, Paul Harvey, George Todt (columnists); Dan Smoot, Billy James Hargis, Kent Courtney (radical right); Sol Linowitz; Jim Johnson ("Justice Jim"), Bobby K. Hayes, Winston G. Chandler, Kenneth G. Jones, Charles Bernard (Fulbright's opponents); Bill Darby, Jack Pickens, Witt Stephens (Arkansas); H. L. Hunt; Isadore Hamlin, Maurice Boukstein; R. B. McCallum; John A. Morsell.
 
 ### Kotz, *Judgment Days* (batch 3, fifth run, Nov. 4, 2026; notes/book-checks/kotz-judgment-days.md)
 
@@ -2053,14 +1403,12 @@ Rights in Conflict (Walker Report):
 ### Bernstein, *Guns or Butter* (batch 3, eighth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
 
 - The rows of the eighth run's Passed over marked "a lead".
-- The statutes of the National Council on the Arts and Cultural Development Act (Sept. 3, 1964) and the Hirshhorn act
-  (Nov. 7, 1966), and the House's vote of 1964 (213–135).
+- The statutes of the National Council on the Arts and Cultural Development Act (Sept. 3, 1964) and the Hirshhorn act (Nov. 7, 1966), and the House's vote of 1964 (213–135).
 - The Senate's vote on the arts and humanities bill, June 10, 1965.
 - The Social Security hearings of 1967 (Senate Finance, Aug. 22–Sept. 26), for Robert Kennedy's and Wiley's days.
 - Stanton's talk with Cater on the receiver tax (1967).
 - The Feb. 27, 1968 meeting at Rusk's dining room.
-- Propose Part III entries for Ripley, Stevens, Hirshhorn, Keeney, Heckscher, George Wiley, Elizabeth Wickenden, Maurice
-  Donahue (no name entries).
+- Propose Part III entries for Ripley, Stevens, Hirshhorn, Keeney, Heckscher, George Wiley, Elizabeth Wickenden, Maurice Donahue (no name entries).
 
 ### Sorensen, *Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/sorensen-kennedy.md)
 - The days of the leads in the third run's Passed over (Sorensen gives none; the calendar of the month to be read for each): Kennedy's order changing the *Fortune* writer's Air Force post (316 n.3); the sessions with Luce and the *Time* study (317); the publishers' committee of May 1961 (321); the news-contact restrictions of Oct. 1962 and the rule for aides (321); the USIA polls' release (322); the state-by-state White House luncheons with editors (327); Ellis's plan to see the Pope on church shelters, 1961 (613); Teller's $50 billion shelters (615); the shelter booklet toned down, Dec. 1961 (616); the Republican leadership seminars, Jan. 1962 (324); the news conference of Apr. 3, 1963 on Khrushchev's standing (555); Neustadt's Skybolt study, 1963 (569).
@@ -2115,67 +1463,21 @@ Rights in Conflict (Walker Report):
 
 ## Foreign
 
-- The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
-  own?
+- The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its own?
 
-- Meeker's memorandum on the legality of the United States' part in Vietnam (State's Legal Adviser, *Bulletin*, Mar. 1966)
-  is in daybook/opinions.yaml only: a pointer from the Senate Foreign Relations Committee's Vietnam hearings of Mar. 1966.
+- Meeker's memorandum on the legality of the United States' part in Vietnam (State's Legal Adviser, *Bulletin*, Mar. 1966) is in daybook/opinions.yaml only: a pointer from the Senate Foreign Relations Committee's Vietnam hearings of Mar. 1966.
 
-- The war in the field (patch `inbox/2026-10-22-vietnam-field.yaml`, thread Vietnam: Operations), leads left by the
-  drafting agent, Oct. 22, 2026:
-  - Long Tân, Aug. 18, 1966: not entered; Carland names only McNeill, *To Long Tan* (1993). The Australian official
-    history and the Australian War Memorial's records are the places to date and count it (awm.gov.au answers, Oct.
-    23, 2026; McNeill not open on archive.org: not read).
-  - Vietnamese forms not verified, so written plain or left out: the hamlets of Dai Do (Apr. 30-May 2, 1968; written
-    "the Dai Do hamlets", with a Check), Ho Bo Woods
-    (Crimp, left out), Long Nguyen (Ông Thành, left out), Ca Lu (Khe Sanh's closing), Ngok Tavak, Dak Seang. Ấp Bàu
-    Bàng's province (Bình Dương?) not tagged: no coordinates found. Suối Tre and Ấp Gù are written with marks the
-    sources (Rogers prints Suoi Tre, Ap Gu) do not give: check them against a Vietnamese source.
-  - Primary records for the field entries without one (the audit's list): the MACV Command Histories (Texas Tech:
-    www.vietnam.ttu.edu answers once the intermediate certificate its server omits, InCommon RSA Server CA 2, is
-    supplied, Oct. 23, 2026; the Virtual Vietnam Archive, vva.vietnam.ttu.edu, then asks a captcha: closed; no MACV
-    Command History of 1964–68 on archive.org, MACVSOG's of 1971–72 only; again 05:2x UTC: the search page a captcha,
-    "Validation request"; CINCPAC's Command Histories, 1962–69, on archive.org only as the National Security Archive's
-    extracts, `us-china-intel-CI01561` and the like, 4–5 pp.), the units' after-action reports and the Marine command
-    chronologies (NARA, series NAID 6160409, page images, open), CHECO reports: open on archive.org as DTIC's copies
-    (184 items, `DTIC_ADA…`, title "Project CHECO Southeast Asia Report"; 58 dated before 1969: Plei Me, Silver Bayonet,
-    Harvest Moon, Masher/White Wing, Hawthorne, Attleboro, Thayer/Irving, Paul Revere/Sam Houston, Dak To, Niagara, the
-    Tet offensive, Delaware, Rolling Thunder, Arc Light, The War in Vietnam for 1965, 1966 and 1967). Used for Plei Me
-    and Feb. 24, 1965 (patch `reopen-foreign-2`); the rest not read against the entries. The *Bulletin* and the daybook's
-    Thursday briefings not searched for them.
-  - Starlite (`cal.1965-08-18.vietnam`, Aug. 18-24): split the landing (Aug. 18) from the end (Aug. 24) once the end's
-    record is read (Shulimson, *U.S. Marines in Vietnam, 1965*). The other proposed splits and re-threadings were made
-    Oct. 23, 2026 (Ia Drang: X-Ray and Albany; Cedar Falls, Junction City, Đắk Tô, the DMZ of July 22, 1966).
-  - The air war: tonnage by country and month is in CACTA's load fields (LTONS, LCLAS), but the subroutine DLTNS that
-    converts them is not in NARA's documentation read (137.1DP.pdf); the other CACTA series (NAID 634496, the 1976
-    accession, bimonthly files) may fill the eight missing months (Aug. 1966; July, Nov. 1967; Mar., Apr., July, Nov.
-    1968). Thayer, vol. 5, prints the Report's monthly sorties for more months than were read (pp. 217-299, the
-    monthly "Aircraft Sorties and Losses"); and the U.S. aircraft lost by month (the same articles) are not yet a row.
-  - The Pentagon Papers (NARA, 2011): three parts carded (IV.C.5, IV.C.6.a, IV.C.6.b: `w.def-u-s-viet-rels-iv-c-6-b`,
-    read for Program 5's approval, Aug. 10 and 14, 1967, patch `reopen-foreign-2`); the other forty-four not. IV.C.6.c
-    and IV.C.10 are the next for the field: NARA's copies answer (Oct. 23, 2026; nara-media-001.s3.amazonaws.com/arcmedia/
-    research/pentagon-papers/Pentagon-Papers-Part-IV-C-6-c.pdf, -10; IV.C.7.a too), their title pages read: IV.C.6.b,
-    *U.S. Ground Strategy and Force Deployments: 1965–1967*, vol. II, *Program 5*; IV.C.6.c, vol. III, *Program 6*; IV.C.10,
-    *Statistical Survey of the War, North and South: 1965–1967*. Card each as IV.C.5's (`w.def-u-s-viet-rels-iv-c-5`)
-    when an entry first cites it (a card nothing points to draws a warning).
+- The war in the field (patch `inbox/2026-10-22-vietnam-field.yaml`, thread Vietnam: Operations), leads left by the drafting agent, Oct. 22, 2026:
+  - Long Tân, Aug. 18, 1966: not entered; Carland names only McNeill, *To Long Tan* (1993). The Australian official history and the Australian War Memorial's records are the places to date and count it (awm.gov.au answers, Oct. 23, 2026; McNeill not open on archive.org: not read).
+  - Vietnamese forms not verified, so written plain or left out: the hamlets of Dai Do (Apr. 30-May 2, 1968; written "the Dai Do hamlets", with a Check), Ho Bo Woods (Crimp, left out), Long Nguyen (Ông Thành, left out), Ca Lu (Khe Sanh's closing), Ngok Tavak, Dak Seang. Ấp Bàu Bàng's province (Bình Dương?) not tagged: no coordinates found. Suối Tre and Ấp Gù are written with marks the sources (Rogers prints Suoi Tre, Ap Gu) do not give: check them against a Vietnamese source.
+  - Primary records for the field entries without one (the audit's list): the MACV Command Histories (Texas Tech: www.vietnam.ttu.edu answers once the intermediate certificate its server omits, InCommon RSA Server CA 2, is supplied, Oct. 23, 2026; the Virtual Vietnam Archive, vva.vietnam.ttu.edu, then asks a captcha: closed; no MACV Command History of 1964–68 on archive.org, MACVSOG's of 1971–72 only; again 05:2x UTC: the search page a captcha, "Validation request"; CINCPAC's Command Histories, 1962–69, on archive.org only as the National Security Archive's extracts, `us-china-intel-CI01561` and the like, 4–5 pp.), the units' after-action reports and the Marine command chronologies (NARA, series NAID 6160409, page images, open), CHECO reports: open on archive.org as DTIC's copies (184 items, `DTIC_ADA…`, title "Project CHECO Southeast Asia Report"; 58 dated before 1969: Plei Me, Silver Bayonet, Harvest Moon, Masher/White Wing, Hawthorne, Attleboro, Thayer/Irving, Paul Revere/Sam Houston, Dak To, Niagara, the Tet offensive, Delaware, Rolling Thunder, Arc Light, The War in Vietnam for 1965, 1966 and 1967). Used for Plei Me and Feb. 24, 1965 (patch `reopen-foreign-2`); the rest not read against the entries. The *Bulletin* and the daybook's Thursday briefings not searched for them.
+  - Starlite (`cal.1965-08-18.vietnam`, Aug. 18-24): split the landing (Aug. 18) from the end (Aug. 24) once the end's record is read (Shulimson, *U.S. Marines in Vietnam, 1965*). The other proposed splits and re-threadings were made Oct. 23, 2026 (Ia Drang: X-Ray and Albany; Cedar Falls, Junction City, Đắk Tô, the DMZ of July 22, 1966).
+  - The air war: tonnage by country and month is in CACTA's load fields (LTONS, LCLAS), but the subroutine DLTNS that converts them is not in NARA's documentation read (137.1DP.pdf); the other CACTA series (NAID 634496, the 1976 accession, bimonthly files) may fill the eight missing months (Aug. 1966; July, Nov. 1967; Mar., Apr., July, Nov. 1968). Thayer, vol. 5, prints the Report's monthly sorties for more months than were read (pp. 217-299, the monthly "Aircraft Sorties and Losses"); and the U.S. aircraft lost by month (the same articles) are not yet a row.
+  - The Pentagon Papers (NARA, 2011): three parts carded (IV.C.5, IV.C.6.a, IV.C.6.b: `w.def-u-s-viet-rels-iv-c-6-b`, read for Program 5's approval, Aug. 10 and 14, 1967, patch `reopen-foreign-2`); the other forty-four not. IV.C.6.c and IV.C.10 are the next for the field: NARA's copies answer (Oct. 23, 2026; nara-media-001.s3.amazonaws.com/arcmedia/ research/pentagon-papers/Pentagon-Papers-Part-IV-C-6-c.pdf, -10; IV.C.7.a too), their title pages read: IV.C.6.b, *U.S. Ground Strategy and Force Deployments: 1965–1967*, vol. II, *Program 5*; IV.C.6.c, vol. III, *Program 6*; IV.C.10, *Statistical Survey of the War, North and South: 1965–1967*. Card each as IV.C.5's (`w.def-u-s-viet-rels-iv-c-5`) when an entry first cites it (a card nothing points to draws a warning).
 
-- The *Department of State Bulletin*, vol. 59 (July 1-Dec. 30, 1968, nos. 1514-1540): no open copy reached, so the
-  daybook's Bulletin list stops at June 24, 1968 (`tools/daybook/make_bulletin.py`). HathiTrust holds it in full view
-  (msu.31293008121893 July-Sept., msu.31293008121901 Oct.-Dec., mdp.39015077199605, coo.31924070261031; catalog API,
-  Oct. 22, 2026) but its pages are bot-checked here; archive.org has only the volume's semiannual index
-  (`sim_department-of-state-bulletin_july-01-december-30-1968_59_index`: a concordance by subject and person, no
-  titles, with the issues' pages); Google Books not reached (the API's daily quota spent); state.gov refused (403). A
-  person in a browser can read the HathiTrust copy; the owner could allow babel.hathitrust.org, or an archive.org
-  scan may appear (search `departmentofstat59`). Tried again Oct. 23, 2026: babel.hathitrust.org a Cloudflare 403 (the
-  catalog API answers); archive.org's `departmentofstat*` items stop at vol. 58 and resume with vol. 61
-  (`departmentofstat611969unit`), no vol. 59; Google Books' API 429 (quota); state.gov 403 (AmazonS3). Again at 05:1x
-  UTC: the same on every count (archive.org's `departmentofstat5*`/`6*` items, 29, hold vol. 58 and vol. 60, not 59).
-- The *Bulletin*'s issue indexes not in the archive.org copies (a leaf missing or unreadable): July 1, 1963; Sept. 6
-  and Nov. 22, 1965; July 18 and Nov. 28, 1966. The semiannual indexes (archive.org's `sim_` items, open) list their
-  items by subject and page; the HathiTrust copies have the issues (bot-checked, Oct. 23, 2026).
-- The *Bulletin*'s check lists of press releases (each issue's index page: number, date, subject) could date the
-  items whose page prints no single release (now filed by the issue's date): matching a subject to an item is fuzzy;
-  not done.
+- The *Department of State Bulletin*, vol. 59 (July 1-Dec. 30, 1968, nos. 1514-1540): no open copy reached, so the daybook's Bulletin list stops at June 24, 1968 (`tools/daybook/make_bulletin.py`). HathiTrust holds it in full view (msu.31293008121893 July-Sept., msu.31293008121901 Oct.-Dec., mdp.39015077199605, coo.31924070261031; catalog API, Oct. 22, 2026) but its pages are bot-checked here; archive.org has only the volume's semiannual index (`sim_department-of-state-bulletin_july-01-december-30-1968_59_index`: a concordance by subject and person, no titles, with the issues' pages); Google Books not reached (the API's daily quota spent); state.gov refused (403). A person in a browser can read the HathiTrust copy; the owner could allow babel.hathitrust.org, or an archive.org scan may appear (search `departmentofstat59`). Tried again Oct. 23, 2026: babel.hathitrust.org a Cloudflare 403 (the catalog API answers); archive.org's `departmentofstat*` items stop at vol. 58 and resume with vol. 61 (`departmentofstat611969unit`), no vol. 59; Google Books' API 429 (quota); state.gov 403 (AmazonS3). Again at 05:1x UTC: the same on every count (archive.org's `departmentofstat5*`/`6*` items, 29, hold vol. 58 and vol. 60, not 59).
+- The *Bulletin*'s issue indexes not in the archive.org copies (a leaf missing or unreadable): July 1, 1963; Sept. 6 and Nov. 22, 1965; July 18 and Nov. 28, 1966. The semiannual indexes (archive.org's `sim_` items, open) list their items by subject and page; the HathiTrust copies have the issues (bot-checked, Oct. 23, 2026).
+- The *Bulletin*'s check lists of press releases (each issue's index page: number, date, subject) could date the items whose page prints no single release (now filed by the issue's date): matching a subject to an item is fuzzy; not done.
 - Military aid cut off to allies trading with Cuba, Feb. 18, 1964: not verified.
 - The Rhodesian election, May 7, 1965: not entered.
 - China's nuclear test by missile, Oct. 27, 1966: no verified source.
@@ -2190,340 +1492,101 @@ Rights in Conflict (Walker Report):
 
 ### The span splits (the spans agents, Oct. 20–21, 2026)
 
-- 1960: Katanga's secession; Discoverer XIII; the East German pass rule; Lumumba's escape; Eqbal's resignation; Cuba's
-  nationalization of Oct. 24: the records. Yun's and Chang's elections (Aug. 12, 19); Boun Oum's investiture; the
-  Dominican break (Aug. 26); the San José walkout and vote (Aug. 28–29); the Act of Bogotá (Sept. 12 or 13): the days.
-- 1961: Mohamed V's death; Syria's recognition; the Soviet veto on Kuwait: the records. Dillon's pledge at Punta del
-  Este; the legs of Johnson's trip; Talbot's assurance to Lebanon's ambassador: the days.
+- 1960: Katanga's secession; Discoverer XIII; the East German pass rule; Lumumba's escape; Eqbal's resignation; Cuba's nationalization of Oct. 24: the records. Yun's and Chang's elections (Aug. 12, 19); Boun Oum's investiture; the Dominican break (Aug. 26); the San José walkout and vote (Aug. 28–29); the Act of Bogotá (Sept. 12 or 13): the days.
+- 1961: Mohamed V's death; Syria's recognition; the Soviet veto on Kuwait: the records. Dillon's pledge at Punta del Este; the legs of Johnson's trip; Talbot's assurance to Lebanon's ambassador: the days.
 - 1962: the Dryden–Blagonravov talks in New York: the record.
-- 1963–65: the East African mutinies, Jan. 1964; Tshombe's return, June 1964; the recognitions of Iraq and Syria,
-  Feb.–Mar. 1963; the Hard Surface statement, June 29, 1963: the records. Faisal's answer to Bunker (Mar. 1963; FRUS
-  1961–63, XVIII, docs. 180–181); Kim Chong-p'il's departure, 1964; Mansur's speech of Oct. 31, 1964; Gromyko's
-  "insulting," May 1965; who saw de Gaulle, Dec. 31, 1965: the days. Robert Kennedy in South America, Nov. 10–30, 1965:
-  the stations. `cal.1965-12-17.india-and-china-food`: the Food subthread's bibliography.
-- The peace offensive's January 1966 stations (Harriman with Tito, Jan. 1; Tokyo by Jan. 8; Humphrey back, Jan. 3; FRUS
-  1964–68, IV, docs. 7, 12): entries wanted in `jan66.yaml`.
-- 1966: the Luxembourg adjournment, Jan. 17–18; State's Nigeria statement, Jan. 27; the day Masher was renamed (Carland
-  203); Humphrey's stops; Fairbank's day (Mar. 10); Humphrey's words on *Meet the Press*, Mar. 13; Subandrio's arrest;
-  Johnson's congratulations to Aref (FRUS 1964–68, XXI, doc. 180, dated May 17); Kỳ's claim on Đà Nẵng; Lodge's words of
-  May 30; the first self-immolation (May 29); the Huế consulate burned; the relief of Nhuận and the removals of Đính and
-  Trí Quang; the Senators' appeal on prisoners (signers); the DMZ ground operations authorized (July 30); Johnson's
-  arrival in Thailand (Oct. 27 or 28); the Freeman team's report (FRUS ed. note, Nov. 14); Smith's cabinet rejecting
-  *Tiger* (Dec. 5); Britain's request to the Security Council (Dec. 8).
-- Places the map could not set (no coordinates in Wikipedia): Chấp Lễ and Chánh Hòa, the Flaming Dart barracks
-  (`cal.1965-02-07.vietnam`, `cal.1965-02-10.vietnam`); Xóm Bàng and Quảng Khê, the first Rolling Thunder targets
-  (`cal.1965-03-02.vietnam`; Wikipedia's Quảng Khê is a commune in Đắk Nông); Route 15, the Ranch Hand road
-  (`cal.1962-01-13.vietnam`). The Flaming Dart and Rolling Thunder studies; the Army Map Service sheets.
-- The Struggle Movement's Vietnamese name (the subthread "Vietnam: Buddhist Uprising"; Wikipedia gives "Military-Civilian
-  Struggle Committee" and, for the events, "Biến động Miền Trung"): Topmiller, *Lotus Unleashed*; Pham Van Minh,
-  *Vietnamese Engaged Buddhism*.
-- 1967: stations lost in the splits, to be entered again: Alliluyeva's arrival, Apr. 21; Talbot and Pattakos, Apr. 28
-  (FRUS 1964–68, XVI, doc. 282); Hill 875, Nov. 23. Also: the "letter of Jan. 27" of Mar. 2 (FRUS dates it Jan. 21);
-  de Gaulle's and Brussels's texts; Rostow's "intermediate strategy" memorandum of May 22; Trinh and Burchett, Jan. 28; Hanoi's rejection, Mar. 27; Pennsylvania's
-  visas refused, Aug. 21 and 31.
-- 1968: the Moscow protocol's signing (Aug. 26 entered); the Prague troop treaty's signing and ratification; Ellsworth
-  and Dobrynin (Dobrynin, *In Confidence* 186–87); Kissinger's NSC plan approved at Key Biscayne; Richardson's paper;
-  Peru's seizure of IPC; the second wave in Saigon (May 25); Pegasus reaching Khe Sanh: the days.
+- 1963–65: the East African mutinies, Jan. 1964; Tshombe's return, June 1964; the recognitions of Iraq and Syria, Feb.–Mar. 1963; the Hard Surface statement, June 29, 1963: the records. Faisal's answer to Bunker (Mar. 1963; FRUS 1961–63, XVIII, docs. 180–181); Kim Chong-p'il's departure, 1964; Mansur's speech of Oct. 31, 1964; Gromyko's "insulting," May 1965; who saw de Gaulle, Dec. 31, 1965: the days. Robert Kennedy in South America, Nov. 10–30, 1965: the stations. `cal.1965-12-17.india-and-china-food`: the Food subthread's bibliography.
+- The peace offensive's January 1966 stations (Harriman with Tito, Jan. 1; Tokyo by Jan. 8; Humphrey back, Jan. 3; FRUS 1964–68, IV, docs. 7, 12): entries wanted in `jan66.yaml`.
+- 1966: the Luxembourg adjournment, Jan. 17–18; State's Nigeria statement, Jan. 27; the day Masher was renamed (Carland 203); Humphrey's stops; Fairbank's day (Mar. 10); Humphrey's words on *Meet the Press*, Mar. 13; Subandrio's arrest; Johnson's congratulations to Aref (FRUS 1964–68, XXI, doc. 180, dated May 17); Kỳ's claim on Đà Nẵng; Lodge's words of May 30; the first self-immolation (May 29); the Huế consulate burned; the relief of Nhuận and the removals of Đính and Trí Quang; the Senators' appeal on prisoners (signers); the DMZ ground operations authorized (July 30); Johnson's arrival in Thailand (Oct. 27 or 28); the Freeman team's report (FRUS ed. note, Nov. 14); Smith's cabinet rejecting *Tiger* (Dec. 5); Britain's request to the Security Council (Dec. 8).
+- Places the map could not set (no coordinates in Wikipedia): Chấp Lễ and Chánh Hòa, the Flaming Dart barracks (`cal.1965-02-07.vietnam`, `cal.1965-02-10.vietnam`); Xóm Bàng and Quảng Khê, the first Rolling Thunder targets (`cal.1965-03-02.vietnam`; Wikipedia's Quảng Khê is a commune in Đắk Nông); Route 15, the Ranch Hand road (`cal.1962-01-13.vietnam`). The Flaming Dart and Rolling Thunder studies; the Army Map Service sheets.
+- The Struggle Movement's Vietnamese name (the subthread "Vietnam: Buddhist Uprising"; Wikipedia gives "Military-Civilian Struggle Committee" and, for the events, "Biến động Miền Trung"): Topmiller, *Lotus Unleashed*; Pham Van Minh, *Vietnamese Engaged Buddhism*.
+- 1967: stations lost in the splits, to be entered again: Alliluyeva's arrival, Apr. 21; Talbot and Pattakos, Apr. 28 (FRUS 1964–68, XVI, doc. 282); Hill 875, Nov. 23. Also: the "letter of Jan. 27" of Mar. 2 (FRUS dates it Jan. 21); de Gaulle's and Brussels's texts; Rostow's "intermediate strategy" memorandum of May 22; Trinh and Burchett, Jan. 28; Hanoi's rejection, Mar. 27; Pennsylvania's visas refused, Aug. 21 and 31.
+- 1968: the Moscow protocol's signing (Aug. 26 entered); the Prague troop treaty's signing and ratification; Ellsworth and Dobrynin (Dobrynin, *In Confidence* 186–87); Kissinger's NSC plan approved at Key Biscayne; Richardson's paper; Peru's seizure of IPC; the second wave in Saigon (May 25); Pegasus reaching Khe Sanh: the days.
 
 ### Gibbons, *The U.S. Government and the Vietnam War* (Oct. 21, 2026)
 
 Events Gibbons treats that the calendar lacks, not entered: no record reached and linked. His page, then his source.
 
-- The Kennedy Library's papers (Mansfield's memoranda, the leaders' meetings below; Fulbright's memorandum, under the Bay of
-  Pigs and Cal. I): jfklibrary.org refuses this environment (Cloudflare, 403; Oct. 23, 2026, 00:2x, 00:56 and 05:14 UTC). No
-  other open copy found: FRUS 1961–63 (the daybook's FRUS rows for those days) prints none of them; archive.org holds
-  only stray items of the Library's (`jfknsf-328-003-p-0001`, NSAM 2; perma.cc captures of a few of its pages); the
-  Wayback Machine is refused by this environment's egress policy. A person in a browser.
-- 1961: Mansfield's memoranda on neutralizing Laos, Jan. 21 and 23 (II, 10; Kennedy Library); Kennedy and Johnson with
-  the congressional leaders on Laos, Apr. 27 (II, 29); Fulbright on *Meet the Press*, Apr. 30, and after seeing
-  Kennedy, May 4 (II, 30; the *Times*, May 5–6); Johnson's report to the Senate, May 25 (II, 46); Fulbright's
-  "dangerous doctrine" speech, June 29 (II, 47; Cong. Rec.); Mansfield's lost memorandum of Sept. 20 (II, 85).
-- 1962: Mansfield's Senate reply to the critics, Feb. 15; Kennedy and the leaders on Laos, Feb. 21 (II, 109, 113);
-  Mansfield's speech of June 3 (II, 127: the place).
-- 1963: Foreign Relations in executive session with McNamara and Taylor, Rusk, McCone, Oct. 8–10 (II, 192–193; the
-  committee's transcripts; Dutton to Rusk, FRUS 1961–63, IV, doc. 190); the Zablocki mission's report (II, 194; H.
-  Rept. 88-893); the committee's substitute for the Church resolution, Oct. 22 (II, 194–195; S. Rept. 88-588; enacted in
-  the Foreign Assistance Act, `cal.1963-12-16.foreign-aid`): the report not reached online.
-- 1964: Zablocki's House reply to Mansfield, Feb. 20 (II, 220: the Record's page); McNamara and Taylor with Foreign
-  Relations, unrecorded, Mar. 26 (II, 241); William Bundy's closed testimony and Morse's speech, May 13 (II, 249–250);
-  Broomfield's resolution and Johnson with Dirksen and eight Republicans, May 21 (II, 264–265); the Capitol briefing of
-  25 Senators, Aug. 3 (II, 287); the meeting in Mansfield's office on the resolution, Aug. 5 (II, 304–305); Taylor
-  before Foreign Relations, Sept. 10 and Dec. 3 (II, 312; III, 23). (NSAM 308, June 22: entered from FRUS 1964–68, I,
-  doc. 219, by inbox patch `2026-10-23-lbj-library`, `cal.1964-06-22.vietnam`.)
-- 1965: Rusk before Foreign Relations, Jan. 8 and 15 (II, 399–400; III, 38–39); the Senate debate continued, Feb. 23,
-  Mar. 1 and 4, and 27 Representatives' speeches, Feb. 24 (III, 133–139; Cong. Rec. 111, 3346, 3775 ff.); Javits's
-  resolution, Mar. 25 (III, 209; Cong. Rec. 111, 5480); Rusk before Foreign Relations, no new authorization, Apr. 30
-  (III, 239–240); Laird on the leaders' meeting of May 3 (III, 244); Laird's statement, June 14 (III, 305); Morse's
-  memoranda to Johnson on the UN, June 26–29, and his speech of July 1 (III, 311–314); Lodge before Foreign Relations,
-  July 27 (III, 422). The committee's transcripts: its Executive Sessions (Historical Series), where printed.
-- `cal.1965-02-18.vietnam`: the Record's pages (Gibbons prints 2146 ff., not possible after 2869 on Feb. 17).
-  `cal.1965-01-15.vietnam`: Gibbons prints vol. 110 for McGovern's speech.
-- Parts I and IV: read from the owner's copies, Oct. 24–28, 2026 (inbox patch `2026-10-24-book-gibbons`;
-  `notes/book-checks/gibbons-u-s-government-and.md`). Still not found open: archive.org's GPO microfiche collection
-  has Parts II and III only. The Part I card `w.gibbons-u-s-government-and-1986` to be folded into the main card.
-- Part IV (Oct. 28, 2026), not entered (no day, or no record reached): Cal. 1960, the counterinsurgency plan's directive
-  of Oct. 20, 1960 (I); the Speaker's committee's trip, July 1966; Mansfield's proposal of a meeting with de Gaulle,
-  about Aug. 29, 1966; the Mansfield–U Thant meeting, Nov. 1966 (the day); Rusk's briefing on Brown's Moscow talks,
-  late Nov. 1966; Stennis's speech, about Dec. 8, 1966; Javits's shift (*Times*, Feb. 13, 1967); House Armed Services
-  with Rivers and Halleck, early Feb. 1967 (the day); Mansfield's Senate speech on the UN, Aug. 1967 (113 Cong. Rec.
-  21636; IV, 916); the Moyers–Rostow letters, Sept. 11 and 15, 1967 (IV, 907–08); the IVS resignations, Sept. 19–20,
-  and Luce at State, Oct. 9, 1967 (IV, 904); Morton at the White House after Sept. 27, 1967 (the day); Symington's
-  proposal, Oct. 3, 1967 (113 Cong. Rec. 28090–91); O'Neill's *Star* story and his meeting (the days); the Vint Hill
-  Farms group, Oct. 1967; Rostow and Rusk on Mansfield's resolution, Oct. 26–27 (IV, 919: the days unclear); Wheeler to
-  Westmoreland, JCS 9298, Oct. 31, Dec. 6 and Dec. 23, 1967 (IV, 931, 939–40; CMH, Westmoreland Papers); Westmoreland
-  at the White House dinner for House Democrats, Nov. 16, 1967 (IV, 897 n.: the transcript from tape, LBJ Library);
-  William Bundy to Rusk, Nov. 30, and Kohler, Dec. 2, on JCSM-663-67 (IV, 935); the Bermuda conference, Dec. 1–3, and
-  Freedom House's Asian scholars, Dec. 20, 1967 (IV, 893–94 n.); Rostow and Vann, early Dec. 1967 (IV, 908; Sheehan,
-  *Bright Shining Lie*, 700–701: the day); JASON's bombing study, Dec. 1967 (IV, 940); the CIA's follow-ups on the peace
-  movement, Dec. 21, 1967, and Jan. 5, 1968 (IV, 871 n.); Johnson's "Salute to the President" remarks, Oct. 7, 1967
-  (1967 Pub. Papers 909; IV, 906), not yet an entry.
+- The Kennedy Library's papers (Mansfield's memoranda, the leaders' meetings below; Fulbright's memorandum, under the Bay of Pigs and Cal. I): jfklibrary.org refuses this environment (Cloudflare, 403; Oct. 23, 2026, 00:2x, 00:56 and 05:14 UTC). No other open copy found: FRUS 1961–63 (the daybook's FRUS rows for those days) prints none of them; archive.org holds only stray items of the Library's (`jfknsf-328-003-p-0001`, NSAM 2; perma.cc captures of a few of its pages); the Wayback Machine is refused by this environment's egress policy. A person in a browser.
+- 1961: Mansfield's memoranda on neutralizing Laos, Jan. 21 and 23 (II, 10; Kennedy Library); Kennedy and Johnson with the congressional leaders on Laos, Apr. 27 (II, 29); Fulbright on *Meet the Press*, Apr. 30, and after seeing Kennedy, May 4 (II, 30; the *Times*, May 5–6); Johnson's report to the Senate, May 25 (II, 46); Fulbright's "dangerous doctrine" speech, June 29 (II, 47; Cong. Rec.); Mansfield's lost memorandum of Sept. 20 (II, 85).
+- 1962: Mansfield's Senate reply to the critics, Feb. 15; Kennedy and the leaders on Laos, Feb. 21 (II, 109, 113); Mansfield's speech of June 3 (II, 127: the place).
+- 1963: Foreign Relations in executive session with McNamara and Taylor, Rusk, McCone, Oct. 8–10 (II, 192–193; the committee's transcripts; Dutton to Rusk, FRUS 1961–63, IV, doc. 190); the Zablocki mission's report (II, 194; H. Rept. 88-893); the committee's substitute for the Church resolution, Oct. 22 (II, 194–195; S. Rept. 88-588; enacted in the Foreign Assistance Act, `cal.1963-12-16.foreign-aid`): the report not reached online.
+- 1964: Zablocki's House reply to Mansfield, Feb. 20 (II, 220: the Record's page); McNamara and Taylor with Foreign Relations, unrecorded, Mar. 26 (II, 241); William Bundy's closed testimony and Morse's speech, May 13 (II, 249–250); Broomfield's resolution and Johnson with Dirksen and eight Republicans, May 21 (II, 264–265); the Capitol briefing of 25 Senators, Aug. 3 (II, 287); the meeting in Mansfield's office on the resolution, Aug. 5 (II, 304–305); Taylor before Foreign Relations, Sept. 10 and Dec. 3 (II, 312; III, 23). (NSAM 308, June 22: entered from FRUS 1964–68, I, doc. 219, by inbox patch `2026-10-23-lbj-library`, `cal.1964-06-22.vietnam`.)
+- 1965: Rusk before Foreign Relations, Jan. 8 and 15 (II, 399–400; III, 38–39); the Senate debate continued, Feb. 23, Mar. 1 and 4, and 27 Representatives' speeches, Feb. 24 (III, 133–139; Cong. Rec. 111, 3346, 3775 ff.); Javits's resolution, Mar. 25 (III, 209; Cong. Rec. 111, 5480); Rusk before Foreign Relations, no new authorization, Apr. 30 (III, 239–240); Laird on the leaders' meeting of May 3 (III, 244); Laird's statement, June 14 (III, 305); Morse's memoranda to Johnson on the UN, June 26–29, and his speech of July 1 (III, 311–314); Lodge before Foreign Relations, July 27 (III, 422). The committee's transcripts: its Executive Sessions (Historical Series), where printed.
+- `cal.1965-02-18.vietnam`: the Record's pages (Gibbons prints 2146 ff., not possible after 2869 on Feb. 17). `cal.1965-01-15.vietnam`: Gibbons prints vol. 110 for McGovern's speech.
+- Parts I and IV: read from the owner's copies, Oct. 24–28, 2026 (inbox patch `2026-10-24-book-gibbons`; `notes/book-checks/gibbons-u-s-government-and.md`). Still not found open: archive.org's GPO microfiche collection has Parts II and III only. The Part I card `w.gibbons-u-s-government-and-1986` to be folded into the main card.
+- Part IV (Oct. 28, 2026), not entered (no day, or no record reached): Cal. 1960, the counterinsurgency plan's directive of Oct. 20, 1960 (I); the Speaker's committee's trip, July 1966; Mansfield's proposal of a meeting with de Gaulle, about Aug. 29, 1966; the Mansfield–U Thant meeting, Nov. 1966 (the day); Rusk's briefing on Brown's Moscow talks, late Nov. 1966; Stennis's speech, about Dec. 8, 1966; Javits's shift (*Times*, Feb. 13, 1967); House Armed Services with Rivers and Halleck, early Feb. 1967 (the day); Mansfield's Senate speech on the UN, Aug. 1967 (113 Cong. Rec. 21636; IV, 916); the Moyers–Rostow letters, Sept. 11 and 15, 1967 (IV, 907–08); the IVS resignations, Sept. 19–20, and Luce at State, Oct. 9, 1967 (IV, 904); Morton at the White House after Sept. 27, 1967 (the day); Symington's proposal, Oct. 3, 1967 (113 Cong. Rec. 28090–91); O'Neill's *Star* story and his meeting (the days); the Vint Hill Farms group, Oct. 1967; Rostow and Rusk on Mansfield's resolution, Oct. 26–27 (IV, 919: the days unclear); Wheeler to Westmoreland, JCS 9298, Oct. 31, Dec. 6 and Dec. 23, 1967 (IV, 931, 939–40; CMH, Westmoreland Papers); Westmoreland at the White House dinner for House Democrats, Nov. 16, 1967 (IV, 897 n.: the transcript from tape, LBJ Library); William Bundy to Rusk, Nov. 30, and Kohler, Dec. 2, on JCSM-663-67 (IV, 935); the Bermuda conference, Dec. 1–3, and Freedom House's Asian scholars, Dec. 20, 1967 (IV, 893–94 n.); Rostow and Vann, early Dec. 1967 (IV, 908; Sheehan, *Bright Shining Lie*, 700–701: the day); JASON's bombing study, Dec. 1967 (IV, 940); the CIA's follow-ups on the peace movement, Dec. 21, 1967, and Jan. 5, 1968 (IV, 871 n.); Johnson's "Salute to the President" remarks, Oct. 7, 1967 (1967 Pub. Papers 909; IV, 906), not yet an entry.
 
 ### The Bay of Pigs lead-up (the audit of Oct. 21, 2026)
 
-- No primary record yet: Kennedy and Fulbright on the Mar. 30, 1961 flight (`cal.1961-03-30.cuba`; the Kennedy Library's
-  POF; Schlesinger, *Thousand Days*); *La Hora*, Oct. 30, 1960, and *The Nation*, Nov. 19, 1960 (not read; the page);
-  the start of training in Guatemala.
+- No primary record yet: Kennedy and Fulbright on the Mar. 30, 1961 flight (`cal.1961-03-30.cuba`; the Kennedy Library's POF; Schlesinger, *Thousand Days*); *La Hora*, Oct. 30, 1960, and *The Nation*, Nov. 19, 1960 (not read; the page); the start of training in Guatemala.
 - The Times's cuts of Apr. 6, 1961, not checked against Clifton Daniel's text (June 1, 1966).
 - The year of the FRUS 1961–63, X–XII microfiche supplement (cited without one).
-- Not entered: the Oct. 31, 1960 cable for an assault force of at least 1,500 (a CIA message, by the National
-  Security Archive's chronology); whether Dulles briefed the President-elect again on Nov. 29, 1960; Eisenhower and
-  Kennedy on Cuba, Dec. 6, 1960 (Gleijeses, 26; for `cal.1960-12-06.transition-and-staff`); the Joint Staff told and
-  the working group formed, Jan. 11–13, 1961 (FRUS X, doc. 16); the JCS team at Retalhuleu, Feb. 24–27 (doc. 56);
-  the Revolutionary Council's announcement in New York, Mar. 22 (by the chronology); the meetings of Apr. 5 and 6
-  (docs. 83, 84); Esterline and Hawkins at Bissell's house, Apr. 8; Hawkins's cable of Apr. 13 (Taylor, par. 34);
-  Kennedy's approval of the landing, midday Apr. 16 (Taylor, par. 37); the prisoners, about 1,200 (no source read);
-  earlier releases of Schlesinger's memoranda of Feb. 11 and Apr. 5.
+- Not entered: the Oct. 31, 1960 cable for an assault force of at least 1,500 (a CIA message, by the National Security Archive's chronology); whether Dulles briefed the President-elect again on Nov. 29, 1960; Eisenhower and Kennedy on Cuba, Dec. 6, 1960 (Gleijeses, 26; for `cal.1960-12-06.transition-and-staff`); the Joint Staff told and the working group formed, Jan. 11–13, 1961 (FRUS X, doc. 16); the JCS team at Retalhuleu, Feb. 24–27 (doc. 56); the Revolutionary Council's announcement in New York, Mar. 22 (by the chronology); the meetings of Apr. 5 and 6 (docs. 83, 84); Esterline and Hawkins at Bissell's house, Apr. 8; Hawkins's cable of Apr. 13 (Taylor, par. 34); Kennedy's approval of the landing, midday Apr. 16 (Taylor, par. 37); the prisoners, about 1,200 (no source read); earlier releases of Schlesinger's memoranda of Feb. 11 and Apr. 5.
 
 ### Oil (the oil agent, Oct. 21, 2026)
 
-- The posted price of Arabian light: entered (sources/oil-world.yaml, oilworld.py; Oct. 22, 2026) from the *Oil and
-  Gas Journal* (archive.org, open, June 1959-Dec. 1961 only) and two CIA memoranda (June 1968, Mar. 1971). Left: the day
-  of Esso Export's restoration in September 1960 (the Journal, Sept. 19: "last week"; `cal.1960-09-12.oil` carries a
-  Check); the other companies' cuts of Aug. 10-19, 1960 (Shell, BP, Mobil, CFP, Getty: the Journal, Aug. 22, 62, and
-  Aug. 29), not entered; Venezuela's postings after Dec. 1961 and any change in them (the Journal's weekly table; the
-  1962-69 issues not open: a library, or HathiTrust in a browser; archive.org has the annual indexes of 1962-65 open,
-  `sim_oil-gas-journal_1962_60_index` and the like, which give the tables' pages, not the tables); OPEC's *Annual
-  Statistical Bulletin* and the Energy Institute's workbook still bot-checked here (opec.org, energyinst.org:
-  Cloudflare 403, Oct. 23, 2026).
-- The world table a year: built (oilworld.py). Left: proved reserves by country for 1962-68. The *Journal*'s year-end
-  tables of those years are not open; the Minerals Yearbook's country chapters (vol. IV, 1963-68, on archive.org)
-  cite them by issue and page country by country ("Oil and Gas Journal, V. 62, No. 52, Dec. 28, 1964, p. 106"), and
-  could be read for the main producers. No open series today counts crude by country in barrels for the 1960s.
-- OPEC's conferences after Geneva (June 1962) and the royalty-expensing settlement of 1964 (FRUS 1964-68, XXXIV, doc.
-  190 recounts it): not entered; nor the Eleventh Conference's Resolutions 71 and 72 (doc. 190). *OPEC Official Resolutions and Press Releases, 1960-1980* is on archive.org, borrow
-  only.
-- The 1967 embargo's other days: Saudi Arabia's stop (June 6–7; FRUS gives Yamani's line, not the order), Libya's
-  announcement (June 7), Boumediene's call for a year's cutoff (June 19), the Arab foreign ministers at Kuwait (June 17),
-  Libya's quiet resumption to West Germany (Aug. 9): in FRUS 1964–68, XXXIV, docs. 233, 239, 243, 263; not entered.
+- The posted price of Arabian light: entered (sources/oil-world.yaml, oilworld.py; Oct. 22, 2026) from the *Oil and Gas Journal* (archive.org, open, June 1959-Dec. 1961 only) and two CIA memoranda (June 1968, Mar. 1971). Left: the day of Esso Export's restoration in September 1960 (the Journal, Sept. 19: "last week"; `cal.1960-09-12.oil` carries a Check); the other companies' cuts of Aug. 10-19, 1960 (Shell, BP, Mobil, CFP, Getty: the Journal, Aug. 22, 62, and Aug. 29), not entered; Venezuela's postings after Dec. 1961 and any change in them (the Journal's weekly table; the 1962-69 issues not open: a library, or HathiTrust in a browser; archive.org has the annual indexes of 1962-65 open, `sim_oil-gas-journal_1962_60_index` and the like, which give the tables' pages, not the tables); OPEC's *Annual Statistical Bulletin* and the Energy Institute's workbook still bot-checked here (opec.org, energyinst.org: Cloudflare 403, Oct. 23, 2026).
+- The world table a year: built (oilworld.py). Left: proved reserves by country for 1962-68. The *Journal*'s year-end tables of those years are not open; the Minerals Yearbook's country chapters (vol. IV, 1963-68, on archive.org) cite them by issue and page country by country ("Oil and Gas Journal, V. 62, No. 52, Dec. 28, 1964, p. 106"), and could be read for the main producers. No open series today counts crude by country in barrels for the 1960s.
+- OPEC's conferences after Geneva (June 1962) and the royalty-expensing settlement of 1964 (FRUS 1964-68, XXXIV, doc. 190 recounts it): not entered; nor the Eleventh Conference's Resolutions 71 and 72 (doc. 190). *OPEC Official Resolutions and Press Releases, 1960-1980* is on archive.org, borrow only.
+- The 1967 embargo's other days: Saudi Arabia's stop (June 6–7; FRUS gives Yamani's line, not the order), Libya's announcement (June 7), Boumediene's call for a year's cutoff (June 19), the Arab foreign ministers at Kuwait (June 17), Libya's quiet resumption to West Germany (Aug. 9): in FRUS 1964–68, XXXIV, docs. 233, 239, 243, 263; not entered.
 
 ### The *Bulletin* and *Current Documents* (the printed-record agent, Oct. 21, 2026)
 
-- Kennedy's and Khrushchev's letters of Oct. 22–25, 1962 (FRUS 1961–63, VI, docs. 60–64; XI, doc. 44): private, and
-  printed in the *Bulletin*, Nov. 19, 1973, 635–639 (FRUS's source notes). No calendar entries for them; each would
-  carry "Made public: [[w.department-of-state-bulletin]], Nov. 19, 1973."
-- The MAYFLOWER message (`cal.1965-05-12.vietnam`; FRUS 1964–68, II, doc. 293): its text in *Current Documents, 1965*,
-  868–869. When it was first made public not read; then a "Made public:" line.
-- Johnson's reply to de Gaulle, Mar. 22, 1966 (`cal.1966-03-22.europe-and-the-alliance-france`; FRUS 1964–68, XIII,
-  doc. 146): in *Current Documents, 1966*, 321–323. Whether released at the time not read.
-- *Current Documents*' years of publication (the cards' `year`), from FRUS's bibliographies: 1956's "1957" (FRUS
-  1964–68, XX, alone), 1957's "1961" (a range, "1957–1967 ... 1961–1969"), 1965's "1969" (FRUS 1964–68, II, alone).
-  Check on the volumes' title pages; no open copy found (HathiTrust's catalog search bot-checked here; archive.org's
-  `americanforeignp0000vari`, dated 1958, lends only, its volume not named in its record; Oct. 23, 2026).
-- The *Bulletin*, vol. 59 (July–Dec. 1968): no copy on archive.org but the index; 52 of FRUS's citations unlinked.
-  HathiTrust holds it in full view (catalog only from here).
-- `departmentofstat4461unit` (Apr.–June 1961) and `departmentofstat581968unit` (Jan.–Mar. 1968): both are read in
-  `sources/dsb-pages.json` (no `unread`). archive.org/download still answers 500 for their text files (Oct. 23, 2026),
-  but the item's own data node serves them (`https://ia600903.us.archive.org/<dir>/<file>`, `d1` and `dir` in the
-  item's metadata): a rerun of `make_dsb_index.py` that fails so could fetch from there. Their issues' covers not found
-  (no `leaf`): Apr. 10 and May 8, 1961; Jan. 1-Mar. 18, 1968.
-- FRUS's own misprinted *Bulletin* citations, flagged Check in `daybook/printed.yaml` (28): e.g. "November 19, 1962,
-  pp. 646–649" (FRUS 1961–63, XI, doc. 91) and "November 19, 1963" (VI, doc. 69), both for Nov. 19, 1973.
-- The *Bulletin* as a daybook list (`daybook/bulletin/`): 1962 done (40 of 53 issues' indexes read); 1956–61 and
-  1963–69 remain (`python3 tools/daybook/make_bulletin.py YEAR`); 1962's issues of Mar. 26, June 25, Aug. 6, Sept. 3,
-  17, 24, Oct. 1, 8, 22, Nov. 12, 26, Dec. 24, 31 without an index read (cover not found, or no page numbers).
+- Kennedy's and Khrushchev's letters of Oct. 22–25, 1962 (FRUS 1961–63, VI, docs. 60–64; XI, doc. 44): private, and printed in the *Bulletin*, Nov. 19, 1973, 635–639 (FRUS's source notes). No calendar entries for them; each would carry "Made public: [[w.department-of-state-bulletin]], Nov. 19, 1973."
+- The MAYFLOWER message (`cal.1965-05-12.vietnam`; FRUS 1964–68, II, doc. 293): its text in *Current Documents, 1965*, 868–869. When it was first made public not read; then a "Made public:" line.
+- Johnson's reply to de Gaulle, Mar. 22, 1966 (`cal.1966-03-22.europe-and-the-alliance-france`; FRUS 1964–68, XIII, doc. 146): in *Current Documents, 1966*, 321–323. Whether released at the time not read.
+- *Current Documents*' years of publication (the cards' `year`), from FRUS's bibliographies: 1956's "1957" (FRUS 1964–68, XX, alone), 1957's "1961" (a range, "1957–1967 ... 1961–1969"), 1965's "1969" (FRUS 1964–68, II, alone). Check on the volumes' title pages; no open copy found (HathiTrust's catalog search bot-checked here; archive.org's `americanforeignp0000vari`, dated 1958, lends only, its volume not named in its record; Oct. 23, 2026).
+- The *Bulletin*, vol. 59 (July–Dec. 1968): no copy on archive.org but the index; 52 of FRUS's citations unlinked. HathiTrust holds it in full view (catalog only from here).
+- `departmentofstat4461unit` (Apr.–June 1961) and `departmentofstat581968unit` (Jan.–Mar. 1968): both are read in `sources/dsb-pages.json` (no `unread`). archive.org/download still answers 500 for their text files (Oct. 23, 2026), but the item's own data node serves them (`https://ia600903.us.archive.org/<dir>/<file>`, `d1` and `dir` in the item's metadata): a rerun of `make_dsb_index.py` that fails so could fetch from there. Their issues' covers not found (no `leaf`): Apr. 10 and May 8, 1961; Jan. 1-Mar. 18, 1968.
+- FRUS's own misprinted *Bulletin* citations, flagged Check in `daybook/printed.yaml` (28): e.g. "November 19, 1962, pp. 646–649" (FRUS 1961–63, XI, doc. 91) and "November 19, 1963" (VI, doc. 69), both for Nov. 19, 1973.
+- The *Bulletin* as a daybook list (`daybook/bulletin/`): 1962 done (40 of 53 issues' indexes read); 1956–61 and 1963–69 remain (`python3 tools/daybook/make_bulletin.py YEAR`); 1962's issues of Mar. 26, June 25, Aug. 6, Sept. 3, 17, 24, Oct. 1, 8, 22, Nov. 12, 26, Dec. 24, 31 without an index read (cover not found, or no page numbers).
 
 ### The war's dead and strength (indicators/war-*.yaml; tools/indicators/make_war.py)
 
-- The milestones as announced (the 1,000th, 10,000th, 20,000th, 30,000th American dead), for calendar entries in the
-  thread Vietnam, dated by the record: not entered, no record read. The figures printed then put the crossings of the
-  hostile dead (from Jan. 1, 1961) about early Nov. 1965 (267 through 1964; 1,369 in 1965), mid-May 1967 (6,644
-  through 1966; 9,480 through April, 10,713 through May, by the *Southeast Asia Analysis Report*, Oct. 1967), the second
-  half of March 1968 (16,022 through 1967; 20,891 through Mar. 31, 1968, *Statistical Abstract*, 1968) and about mid-Dec.
-  1968 (30,614 through 1968, *Statistical Abstract*, 1969); a Thursday release follows each. Read: the *Times* the Friday
-  after (TimesMachine; nytimes.com and TimesMachine refuse this environment, DataDome) or the DoD release. Tried here:
-  the University Daily Kansan (digital.lib.ku.edu, open, OCR; Sept.-Dec. 1965 carries no weekly figures; its spring
-  1967 and 1968 and fall 1968 batches not found by id), the Michigan Daily, CDNC, the Battalion (TAMU), the UNI
-  repository (bot-checked or refused), govinfo's search of the bound *Congressional Record* (works with DEMO_KEY, then
-  rate-limited; a key would serve: members inserted the weekly figures). Oct. 23, 2026: nytimes.com still DataDome
-  (403); govinfo's DEMO_KEY spent again within minutes.
-- The weekly announced dead and strength (the "then" columns by month): the Thursday releases as the *Times* printed
-  them, Jan. 1965-Jan. 1969, about 210 issues; only Jan.-Sept. 1967 (deaths) is read, from the *SEA Analysis Report*.
-- MACV's month-end strength (the "today" column by month): the MACV Command Histories (Texas Tech's Virtual Vietnam
-  Archive: a captcha, Oct. 23, 2026); the *SEA Analysis Report*'s deployment articles, Dec. 1966-Dec. 1968, give MACV's preliminary
-  strength at irregular dates (Thayer, *A Systems Analysis View*, vol. 2, pp. 131-167, DTIC ADA051609).
-- The *Statistical Abstract*, 1969, prints 14,500 for the forces at the end of 1962 ("1961-1962" column), against
-  11,300 in the 1967 and 1968 editions and the DoD's table of 1974: Check the column's meaning.
-- Deaths by province of South Vietnam (DCAS field 28, casualty province): a map a year beside the Indochina maps
-  (tools/bib/vnmap.py, another agent's).
+- The milestones as announced (the 1,000th, 10,000th, 20,000th, 30,000th American dead), for calendar entries in the thread Vietnam, dated by the record: not entered, no record read. The figures printed then put the crossings of the hostile dead (from Jan. 1, 1961) about early Nov. 1965 (267 through 1964; 1,369 in 1965), mid-May 1967 (6,644 through 1966; 9,480 through April, 10,713 through May, by the *Southeast Asia Analysis Report*, Oct. 1967), the second half of March 1968 (16,022 through 1967; 20,891 through Mar. 31, 1968, *Statistical Abstract*, 1968) and about mid-Dec. 1968 (30,614 through 1968, *Statistical Abstract*, 1969); a Thursday release follows each. Read: the *Times* the Friday after (TimesMachine; nytimes.com and TimesMachine refuse this environment, DataDome) or the DoD release. Tried here: the University Daily Kansan (digital.lib.ku.edu, open, OCR; Sept.-Dec. 1965 carries no weekly figures; its spring 1967 and 1968 and fall 1968 batches not found by id), the Michigan Daily, CDNC, the Battalion (TAMU), the UNI repository (bot-checked or refused), govinfo's search of the bound *Congressional Record* (works with DEMO_KEY, then rate-limited; a key would serve: members inserted the weekly figures). Oct. 23, 2026: nytimes.com still DataDome (403); govinfo's DEMO_KEY spent again within minutes.
+- The weekly announced dead and strength (the "then" columns by month): the Thursday releases as the *Times* printed them, Jan. 1965-Jan. 1969, about 210 issues; only Jan.-Sept. 1967 (deaths) is read, from the *SEA Analysis Report*.
+- MACV's month-end strength (the "today" column by month): the MACV Command Histories (Texas Tech's Virtual Vietnam Archive: a captcha, Oct. 23, 2026); the *SEA Analysis Report*'s deployment articles, Dec. 1966-Dec. 1968, give MACV's preliminary strength at irregular dates (Thayer, *A Systems Analysis View*, vol. 2, pp. 131-167, DTIC ADA051609).
+- The *Statistical Abstract*, 1969, prints 14,500 for the forces at the end of 1962 ("1961-1962" column), against 11,300 in the 1967 and 1968 editions and the DoD's table of 1974: Check the column's meaning.
+- Deaths by province of South Vietnam (DCAS field 28, casualty province): a map a year beside the Indochina maps (tools/bib/vnmap.py, another agent's).
 
 ### The enemy and the allies, the war table (tools/indicators/make_war_forces.py; the war-table agent, Oct. 22, 2026)
 
-- MACV's order of battle month by month as carried before Oct. 31, 1967 (the old format, militia and cadre counted):
-  only its October figure is read (Thayer, vol. 2, p. 8). The MACV monthly OB summaries and command histories (Texas
-  Tech, refused here). The 1965 rows of the new format's first vintage (Thayer, vol. 8, p. 24) are too faint in the
-  DTIC copy; Aug., Sept. and Dec. 1967 there partly (Check in the rows). Jul.-Dec. 1968 monthly: not found.
-- Enemy killed (body count) by month, 1965-68, and 1965's total: not found open (the OSD SEA Statistical Summary's
-  table; Thayer, *War Without Fronts* (1985): archive.org lends it; another copy there is a private upload, not a
-  library's, and not used). Found Oct. 23, 2026, by year: Thayer, *How to Analyze a War Without Fronts: Vietnam,
-  1965-72*, *Journal of Defense Research*, ser. B, vol. 7B, no. 3 (ARPA, 1975), open on archive.org from the Library of
-  Congress (`howtoanalyzewarw00thay`), table 51 (p. 847: Check the page), "VC/NVA deaths from hostile action" in
-  thousands, from OASD(C)'s *Southeast Asia Statistical Summary*, table 2: 1965, 35; 1966, 56; 1967, 88; 1968, 181. Not
-  entered (a later figure, rounded to thousands: `make_war_forces.py`'s enemy-killed rows). The quarters of 1968 as printed add to 180,958 against
-  the year's 180,966P (Thayer, vol. 1, p. 123).
-- Retrospective enemy figures: *Victory in Vietnam* (`w.vietnam-victory-in-vietnam`, the owner's copy read Oct. 23,
-  2026; patch `book-victory`) gives Hanoi's own counts, not entered as indicator rows: men sent down the trail, 7,664
-  in 1961 (456 n.26), over 40,000 by the end of 1963 since 1959 (115), almost 9,000 in 1964 (127), almost 50,000 in
-  1965 (170–71), 81,000 replacements in 1967 (466 n.13); full-time forces in the South 25,000 (1961), 40,000 (1962),
-  70,000 (1963) (459 n.41), 166,248 (1965) and 219,640 (1966) (191), but 204,000 at the end of 1966 and 278,000 at
-  the end of 1967 (211): the book's two figures for 1966 disagree. For the war table's "later" columns, if wanted.
-  Hanoi's statement of April 1995 on its losses (as the wire services reported it) not read.
-- Hanoi's decisions entered from *Victory in Vietnam* alone (Feb. 25, 1961; Sept. 1961; Dec. 6, 1962; the Ninth
-  Plenum, Dec. 1963; Sept. 1964; the Eleventh Plenum, Mar. 28, 1965; the Twelfth, Dec. 27, 1965; the Tet planning,
-  June, July, Oct. 1967, Jan. 1968): no primary record reached. The resolutions in English: the Vietnam Documents and
-  Research Notes series and the Pike collection (Texas Tech's Vietnam Center); Lien-Hang Nguyen, *Hanoi's War*, and
-  Asselin, *Hanoi's Road to the Vietnam War*, treat the Ninth Plenum and the Tet resolutions (read Oct. 24, 2026: their
-  pinpoints in `inbox/2026-10-24-book-asselin-nguyen.yaml`; the resolutions themselves still not reached). "Made public" written as the Hanoi edition of 1988 with a Check: an earlier printing may exist.
-- Phước Thành, Sept. 17–18, 1961 (`cal.1961-09-17.vietnam`): the capital's name (Phước Vĩnh?) not verified, so not
-  written and no `place:` tag; add it to the gazetteer with Wikipedia's coordinates and tag the entry.
-- From *Victory in Vietnam*, not entered: Bàu Bàng, Nov. 12, 1965, the 9th Division against the 1st Infantry
-  Division's 3d Brigade (160–61; the American record: Carland); the sapper raids on Chu Lai, Aug. 1965, and the
-  Metropole, Dec. 1965 (161); a 12-day sweep of Củ Chi by almost 10,000 Americans, early 1966, unnamed (177, 463
-  n.4: perhaps Crimp, which the entry `cal.1966-01-08.vietnam-operations` dates Jan. 8–14; not cited there); the
-  rocket attacks on Đà Nẵng air base, Feb. 22 [27?], 1967 (202), and on the base the history calls 241, Mar. 6–7,
-  1967 (200); Hồ Chí Minh's appeal of July 17, 1966 (182); Nam Bắc, Laos, Jan. 12–27, 1968 (213–14, the year
-  misprinted 1967); Headquarters 500 for Military Region 4, Oct. 28, 1968 (226).
-- RVNAF strength by service for 1965 and 1966 (Collins gives none) and quarterly before 1966: Thayer, vols. 6-7
-  (DTIC ADA039315, ADA051612), downloaded, not read page by page. RVNAF killed by month 1966: the months as read add
-  to 9,459 (OSD) and 11,933 (J-1) against the printed 9,469 and 11,953 (Thayer, vol. 8, p. 212; the earlier table of
-  Dec. 1967, p. 209, would settle the faint digits).
+- MACV's order of battle month by month as carried before Oct. 31, 1967 (the old format, militia and cadre counted): only its October figure is read (Thayer, vol. 2, p. 8). The MACV monthly OB summaries and command histories (Texas Tech, refused here). The 1965 rows of the new format's first vintage (Thayer, vol. 8, p. 24) are too faint in the DTIC copy; Aug., Sept. and Dec. 1967 there partly (Check in the rows). Jul.-Dec. 1968 monthly: not found.
+- Enemy killed (body count) by month, 1965-68, and 1965's total: not found open (the OSD SEA Statistical Summary's table; Thayer, *War Without Fronts* (1985): archive.org lends it; another copy there is a private upload, not a library's, and not used). Found Oct. 23, 2026, by year: Thayer, *How to Analyze a War Without Fronts: Vietnam, 1965-72*, *Journal of Defense Research*, ser. B, vol. 7B, no. 3 (ARPA, 1975), open on archive.org from the Library of Congress (`howtoanalyzewarw00thay`), table 51 (p. 847: Check the page), "VC/NVA deaths from hostile action" in thousands, from OASD(C)'s *Southeast Asia Statistical Summary*, table 2: 1965, 35; 1966, 56; 1967, 88; 1968, 181. Not entered (a later figure, rounded to thousands: `make_war_forces.py`'s enemy-killed rows). The quarters of 1968 as printed add to 180,958 against the year's 180,966P (Thayer, vol. 1, p. 123).
+- Retrospective enemy figures: *Victory in Vietnam* (`w.vietnam-victory-in-vietnam`, the owner's copy read Oct. 23, 2026; patch `book-victory`) gives Hanoi's own counts, not entered as indicator rows: men sent down the trail, 7,664 in 1961 (456 n.26), over 40,000 by the end of 1963 since 1959 (115), almost 9,000 in 1964 (127), almost 50,000 in 1965 (170–71), 81,000 replacements in 1967 (466 n.13); full-time forces in the South 25,000 (1961), 40,000 (1962), 70,000 (1963) (459 n.41), 166,248 (1965) and 219,640 (1966) (191), but 204,000 at the end of 1966 and 278,000 at the end of 1967 (211): the book's two figures for 1966 disagree. For the war table's "later" columns, if wanted. Hanoi's statement of April 1995 on its losses (as the wire services reported it) not read.
+- Hanoi's decisions entered from *Victory in Vietnam* alone (Feb. 25, 1961; Sept. 1961; Dec. 6, 1962; the Ninth Plenum, Dec. 1963; Sept. 1964; the Eleventh Plenum, Mar. 28, 1965; the Twelfth, Dec. 27, 1965; the Tet planning, June, July, Oct. 1967, Jan. 1968): no primary record reached. The resolutions in English: the Vietnam Documents and Research Notes series and the Pike collection (Texas Tech's Vietnam Center); Lien-Hang Nguyen, *Hanoi's War*, and Asselin, *Hanoi's Road to the Vietnam War*, treat the Ninth Plenum and the Tet resolutions (read Oct. 24, 2026: their pinpoints in `inbox/2026-10-24-book-asselin-nguyen.yaml`; the resolutions themselves still not reached). "Made public" written as the Hanoi edition of 1988 with a Check: an earlier printing may exist.
+- Phước Thành, Sept. 17–18, 1961 (`cal.1961-09-17.vietnam`): the capital's name (Phước Vĩnh?) not verified, so not written and no `place:` tag; add it to the gazetteer with Wikipedia's coordinates and tag the entry.
+- From *Victory in Vietnam*, not entered: Bàu Bàng, Nov. 12, 1965, the 9th Division against the 1st Infantry Division's 3d Brigade (160–61; the American record: Carland); the sapper raids on Chu Lai, Aug. 1965, and the Metropole, Dec. 1965 (161); a 12-day sweep of Củ Chi by almost 10,000 Americans, early 1966, unnamed (177, 463 n.4: perhaps Crimp, which the entry `cal.1966-01-08.vietnam-operations` dates Jan. 8–14; not cited there); the rocket attacks on Đà Nẵng air base, Feb. 22 [27?], 1967 (202), and on the base the history calls 241, Mar. 6–7, 1967 (200); Hồ Chí Minh's appeal of July 17, 1966 (182); Nam Bắc, Laos, Jan. 12–27, 1968 (213–14, the year misprinted 1967); Headquarters 500 for Military Region 4, Oct. 28, 1968 (226).
+- RVNAF strength by service for 1965 and 1966 (Collins gives none) and quarterly before 1966: Thayer, vols. 6-7 (DTIC ADA039315, ADA051612), downloaded, not read page by page. RVNAF killed by month 1966: the months as read add to 9,459 (OSD) and 11,933 (J-1) against the printed 9,469 and 11,953 (Thayer, vol. 8, p. 212; the earlier table of Dec. 1967, p. 209, would settle the faint digits).
 - Infiltration: CINCPAC's series (Thayer, vol. 2, p. 79) not taken; the months' later revisions after Sept. 1969.
-- The order-of-battle dispute, for calendar entries: the meetings in Washington of August 1967 (named in FRUS
-  1964-68, V, doc. 314); Adams's protests and memoranda as his memoir dates them (*War of Numbers*, not open); the leak
-  of the CIA's figures in the *New York Times*, spring 1968 (FRUS 1964-68, VI, doc. 202; the article not read); CBS's
-  "The Uncounted Enemy" (Jan. 23, 1982) and *Westmoreland v. CBS* (1984-85) as "Made public" (Adler, not open);
-  whether the Pentagon Papers print any of it; Westmoreland's press briefing of Nov. 22, 1967 (place, transcript) and
-  whether MACV's briefing of Nov. 24 was to the press.
-- The war table's day: the Thursday of the weekly casualty releases is the plan's (Oct. 20, 2026), not verified
-  against the papers (TimesMachine refused). Jan. 1969's figures (their first Thursday, Feb. 6, past the calendar) are
-  not shown.
-- Armed Forces Day: Eisenhower's proclamation for 1960 not read; Proclamations 3399 (1961) and 3655 (1965) name the
-  third Saturday of May "in each succeeding year", so no yearly proclamation is looked for; govinfo's Federal Register
-  search was rate-limited (DEMO_KEY; again Oct. 23, 2026). APP's proclamations of Jan.-May 1960 in the daybook run
-  3331-3349 without a gap and hold none for Armed Forces Day: 1960's may have had none; the *Federal Register* of
-  Mar.-May 1960 would settle it.
+- The order-of-battle dispute, for calendar entries: the meetings in Washington of August 1967 (named in FRUS 1964-68, V, doc. 314); Adams's protests and memoranda as his memoir dates them (*War of Numbers*, not open); the leak of the CIA's figures in the *New York Times*, spring 1968 (FRUS 1964-68, VI, doc. 202; the article not read); CBS's "The Uncounted Enemy" (Jan. 23, 1982) and *Westmoreland v. CBS* (1984-85) as "Made public" (Adler, not open); whether the Pentagon Papers print any of it; Westmoreland's press briefing of Nov. 22, 1967 (place, transcript) and whether MACV's briefing of Nov. 24 was to the press.
+- The war table's day: the Thursday of the weekly casualty releases is the plan's (Oct. 20, 2026), not verified against the papers (TimesMachine refused). Jan. 1969's figures (their first Thursday, Feb. 6, past the calendar) are not shown.
+- Armed Forces Day: Eisenhower's proclamation for 1960 not read; Proclamations 3399 (1961) and 3655 (1965) name the third Saturday of May "in each succeeding year", so no yearly proclamation is looked for; govinfo's Federal Register search was rate-limited (DEMO_KEY; again Oct. 23, 2026). APP's proclamations of Jan.-May 1960 in the daybook run 3331-3349 without a gap and hold none for Armed Forces Day: 1960's may have had none; the *Federal Register* of Mar.-May 1960 would settle it.
 
 ### The Johnson Plan (Middle East: Johnson Plan; the Johnson Plan agent, Oct. 22, 2026)
 
-- Johnson's reappointment: FRUS 1961–63, XVII, doc. 166 n. 3 gives Jan. 18, 1962; the PCC's twentieth report (A/5337,
-  para. 12) gives Mar. 2. Entered Jan. 18 with a Check (`cal.1962-01-18.middle-east-johnson-plan`); the PCC's records or
-  U Thant's cable of Jan. 24 (circular telegram 1315) may settle it.
-- The studies' pages on the plan not read: Gazit, Spiegel, Little ("Making of a Special Relationship"), Ben-Zvi
-  (*Decade of Transition*), Bass (*Support Any Friend*), cited on `cal.1961-08-21.middle-east-johnson-plan` from their
-  cards. archive.org's copies of Gazit and Ben-Zvi (presidentkennedy00gazi, decadeoftransiti0000benz) are borrow-only.
-  A study of the plan itself not found in the catalogue; look for one (and Johnson's papers, Carnegie Endowment).
-- Stations not entered: Johnson's draft proposals to State, July 17, 1962, and the talks of July 19–28 (FRUS XVIII,
-  doc. 9); Harman's protest to Feldman and Talbot, Sept. 13 (doc. 48); Rusk's "Next Steps," Oct. 4 (doc. 67); Rusk,
-  Talbot and Feldman with Kennedy, Nov. 28 (doc. 105); Barbour's refugee talks with Ben Gurion, Mar. 1963, and Rusk's
-  memorandum of Mar. 28, 1963 (docs. 166, 201).
-- The PCC's report of Dec. 7, 1962 (A/5337) is said by FRUS (XVIII, doc. 111 n.) to be printed in *Current Documents,
-  1962*, 757–760: the pages not seen. Johnson's draft report of Jan. 1963 and the plan's papers (FRUS's microfiche
-  Supplement, the Arab-Israeli compilation) not read.
-- The UN Digital Library's search answers 202 with an empty body here (still, Oct. 23, 2026); documents.un.org's
-  `api/symbol/access?s=SYMBOL&l=en&t=pdf` gives the PDFs.
+- Johnson's reappointment: FRUS 1961–63, XVII, doc. 166 n. 3 gives Jan. 18, 1962; the PCC's twentieth report (A/5337, para. 12) gives Mar. 2. Entered Jan. 18 with a Check (`cal.1962-01-18.middle-east-johnson-plan`); the PCC's records or U Thant's cable of Jan. 24 (circular telegram 1315) may settle it.
+- The studies' pages on the plan not read: Gazit, Spiegel, Little ("Making of a Special Relationship"), Ben-Zvi (*Decade of Transition*), Bass (*Support Any Friend*), cited on `cal.1961-08-21.middle-east-johnson-plan` from their cards. archive.org's copies of Gazit and Ben-Zvi (presidentkennedy00gazi, decadeoftransiti0000benz) are borrow-only. A study of the plan itself not found in the catalogue; look for one (and Johnson's papers, Carnegie Endowment).
+- Stations not entered: Johnson's draft proposals to State, July 17, 1962, and the talks of July 19–28 (FRUS XVIII, doc. 9); Harman's protest to Feldman and Talbot, Sept. 13 (doc. 48); Rusk's "Next Steps," Oct. 4 (doc. 67); Rusk, Talbot and Feldman with Kennedy, Nov. 28 (doc. 105); Barbour's refugee talks with Ben Gurion, Mar. 1963, and Rusk's memorandum of Mar. 28, 1963 (docs. 166, 201).
+- The PCC's report of Dec. 7, 1962 (A/5337) is said by FRUS (XVIII, doc. 111 n.) to be printed in *Current Documents, 1962*, 757–760: the pages not seen. Johnson's draft report of Jan. 1963 and the plan's papers (FRUS's microfiche Supplement, the Arab-Israeli compilation) not read.
+- The UN Digital Library's search answers 202 with an empty body here (still, Oct. 23, 2026); documents.un.org's `api/symbol/access?s=SYMBOL&l=en&t=pdf` gives the PDFs.
 
 ### Armed forces a year, and the estimates of the Soviet forces (forces/; the forces agent, Oct. 22, 2026)
 
-- The Secretary's posture statements, fiscal 1963–69 (McNamara's, Feb. 1962 to Jan. 1968: the "fiscal year 1963–1967
-  defense program" and the rest), are open on archive.org, history.defense.gov's declassified copies mirrored
-  (`RobertSMcNamaraFiscalYear19631967DefenseProgramand1963DefenseBudgetFebruary141962`, `...19641968...1964...`,
-  `...19651969...`, `...19661970...1966Defense`, `...19671971...`, `...19681972...`, `...19691973...`; the House
-  Armed Services copy of 1966 a duplicate): the strategic and general purpose forces, the divisions, NATO, by fiscal
-  year, actual and programmed. Their OCR is rough and some tables are excised: to be read off the page images, not the
-  text (Oct. 23, 2026). For the Armor, Annual Reports and world-table leads below.
-- Armor: no open source found for the Army's tanks and armored vehicles in inventory, or its divisions by type
-  (armored, mechanized, infantry, airborne, airmobile), 1960–68. The Secretary of Defense's *Annual Report* and the
-  posture statements print the divisions by type (history.defense.gov, refused here; HathiTrust full view, bot-checked);
-  the Army's *Green Book* and CMH's lineage volumes (history.army.mil, refused) the rest. Oct. 23, 2026: both hosts
-  AkamaiGHost 403 again; the Annual Reports of fiscal 1961-68 are not on archive.org (DTIC's there begin with fiscal
-  1979) nor found on govinfo. govinfo does hold, open, the OSD Historical Office's *The McNamara Ascendancy, 1961-1965*
-  (GOVPUB-D-PURL-gpo58482) and *McNamara, Clifford, and the Burdens of Vietnam, 1965-1969* (GOVPUB-D-PURL-gpo58528) and
-  CMH's *Advice and Support: The Middle Years* and *Combat Operations: Staying the Course* (GOVPUB-D114-...): later
-  histories whose appendices may give the divisions and forces by year, not read. Again 05:14 UTC: both AkamaiGHost
-  403. Open on archive.org: CMH Pub 60-7, Wilson, *Armies, Corps, Divisions, and Separate Brigades* (1999;
-  `cmh-pub-60-7-armies-corps-divisions-and-separate-brigades-by-john-wilson`), each division's lineage and its
-  reorganizations (the ROAD and airmobile conversions by date): a count by type and year could be compiled from it
-  (later, not printed then); Wilson's *Maneuver and Firepower* (1998) lends only. The posture statements (above).
-- Ships by type, 1966 and after (carriers, cruisers, destroyers, submarines, amphibious, auxiliaries, active fleet):
-  NHHC's "U.S. Ship Force Levels" (history.navy.mil: its server omits its intermediate certificate, DigiCert Global G2
-  TLS RSA SHA256 2020 CA1; supplied, the site answers 404 with an empty body (AWS) to every path, Oct. 23, 2026; the
-  Wayback Machine refused the connection the same day; again 05:2x UTC, the intermediate supplied: 404, empty body,
-  awselb, the root included; the Wayback Machine "Blocked by egress policy"; no copy of the tables on archive.org by
-  title). The *Statistical Abstract*'s class table ends
-  with June 30, 1965 (1966 ed., table 373); Jane's by type for 1967–68 is in the world table.
-- Navy and Marine aircraft by type: the Abstract printed them to Jan. 1, 1962 only (1965 ed., table 362; then withheld);
-  the Navy's own inventory (the *Navy Aircraft* statistics) not found open.
-- The SecDef *Annual Reports*, fiscal 1961–68: missiles on alert, Polaris boats at sea, bombers by type, as published
-  then. Not open here (history.defense.gov refused; not on archive.org or govinfo, Oct. 23, 2026; again 05:14 UTC,
-  Akamai 403; archive.org's title search finds DoD's Annual Reports from fiscal 1979 only). The posture statements
-  (above) give much of the same, as classified then.
-- The U.S. warhead stockpile, 1962–68, as the government released it: DoD's fact sheet of May 3, 2010 (defense.gov and
-  open.defense.gov refused; state.gov's later fact sheets refused or down; Oct. 23, 2026: defense.gov, open.defense.gov
-  AkamaiGHost 403, media.defense.gov 403, state.gov 403; again 05:14 UTC, the same; no copy on archive.org by title).
-  Only DOE's 1994 table (totals to 1961) and
-  FAS's series via Our World in Data are in.
-- U.S. strength by country: DMDC's own Sept. 30 reports (309A) for 1957–68 were not reached; the figures are troopdata's
-  transcription. Oct. 23, 2026: DMDC's site answers (its page API, `dwp/api/page?pageId=27`), but its historical files
-  by State and country begin with fiscal 1996 (`historical.zip`); 1957–68 are not there. The printed reports (the Comptroller's) would settle them; the 1968 rows marked "e/" in it.
-- The world table, then: NATO's Annual Review country chapters and force tables, the Defence Planning Committee's
-  papers, MC documents, force goals (archives.nato.int: connection reset Oct. 22; on Oct. 23, 2026, at 00:33 and 01:17
-  UTC, every path, the uploaded PDFs included, answers a "Verifying Your Browser" script challenge: a bot check, not
-  passed; archive.org's mirror `archives.nato.int_PDFS_2022` holds one document, AC/137-D/40; nato.int's new site drops
-  the old /docu and /cps pages, 404); NATO's published figures of defence spending (the *NATO Letter*, Jan. 1963; press
-  releases M4(67)2, Dec. 13, 1967, and M1(69)1, Jan. 16, 1969, as SIPRI cites them) not found open. Entered instead:
-  SIPRI's first yearbook (1969), the NATO and Warsaw Pact countries' spending, 1960-68, its NATO sources NATO's own
-  among them (forces/world.yaml, table `sipri`); *NATO Facts and Figures* (1969 ed., archive.org, lending only);
-  the UK's *Statement on the Defence Estimates*, Canada's 1964 *White Paper on Defence*, Australia's reports (not found
-  open); the Parallel History Project's Warsaw Pact documents (php.isn.ethz.ch: certificate mismatch;
-  parallelhistoryproject.org: refused); the *Military Balance* itself, 1959–68 (archive.org lends; HathiTrust search
-  only); the *Statistical Abstract*, 1966 ed.: census.gov serves it now (Oct. 23, 2026), and its international section
-  (sec. 33, tables 1286-1312, part 13; part 14 is the appendices) prints no table of the world's forces: the 1967
-  edition's is the first. Also tried Oct. 23: parallelhistoryproject.org (proxy 502), php.isn.ethz.ch (certificate
-  for another host), cvce.eu (WEU's Assembly documents; 403). Again Oct. 23, 05:06, 05:40 and 06:07 UTC:
-  archives.nato.int answers 200 with a page that sends the browser to `/challenge` (AtoM's script challenge) on every
-  path: the site's own bot check, not passed; the Wayback Machine "Blocked by egress policy"; archive.org holds no
-  NATO Annual Review, DPC or force-goal paper by title (its CIA reading-room copies are the CIA's own papers on NATO);
-  FRUS's NATO documents carry no force tables by country (sources/frus-text searched). parallelhistoryproject.org
-  proxy 502, php.isn.ethz.ch the certificate mismatch, again. Entered instead, an ally's own count: the British
-  government's regular forces at June 30 by service, 1960–68, from the *Annual Abstract of Statistics* (Central
-  Statistical Office, from the Ministry of Defence), each year as first printed, nos. 98–106 (1961–69), open on
-  archive.org (`annual-abstract-of-statistics-gb_1961_98` … `_1969_106`, read off the page images; forces/world.yaml,
-  table `uk`). Other allies' own figures: Canada's *Canada Year Book* is open on Statistics Canada's site
-  (www66.statcan.gc.ca, a PDF a page; the 1967 edition's defence chapter, pp. 1167–1183, gives no strength table by
-  service; the strengths may stand in its employment chapter: not read); the UK's *Annual Abstract* also prints the
-  reserves, the women's services and the intake (not entered); historic Hansard (api.parliament.uk) answers, for the
-  Defence Estimates debates; hansard.parliament.uk and parlinfo.aph.gov.au (Australia) a bot check and a WAF 403.
-- The world table, later: ACDA's *World Military Expenditures and Arms Transfers*, 1963–1973 ed. (not found open; the
-  1966 edition of Dec. 1968 is in; ACDA's second, *World Military Expenditures, 1964–1968* (1970), is on archive.org as
-  the ICPR's codebook and data listing of 1971, `DTIC_AD0731731`, spending by country a year, NATO and the Warsaw Pact
-  marked: not read); SIPRI's military expenditure database (sipri.org answers; not yet read; its first
-  yearbook's figures as printed then are in) and its
-  arms transfers database (deliveries of aircraft, armor, ships and missiles, by supplier and recipient).
-- The estimates: SNIE 11-14-61 (Nov. 21, 1961), NIE 11-4-60 (Dec. 1, 1960), NIE 11-3 (air defense, 1961–68), NIE
-  11-14-61 and the other general purpose estimates, and NIE 11-8-67 (not in FRUS) are not yet entries; the CIA's
-  reading room and Steury's volume print more. When each estimate was first released (before FRUS) not checked.
-- Armed Forces Day, 1968 figures: the tables count June 30 (and Sept. 30) of a year and stand under the next Armed
-  Forces Day, so the figures for 1968 (Armed Forces Day, May 17, 1969) fall outside the calendar: forces.block(1968)
-  renders them; no day carries them yet.
+- The Secretary's posture statements, fiscal 1963–69 (McNamara's, Feb. 1962 to Jan. 1968: the "fiscal year 1963–1967 defense program" and the rest), are open on archive.org, history.defense.gov's declassified copies mirrored (`RobertSMcNamaraFiscalYear19631967DefenseProgramand1963DefenseBudgetFebruary141962`, `...19641968...1964...`, `...19651969...`, `...19661970...1966Defense`, `...19671971...`, `...19681972...`, `...19691973...`; the House Armed Services copy of 1966 a duplicate): the strategic and general purpose forces, the divisions, NATO, by fiscal year, actual and programmed. Their OCR is rough and some tables are excised: to be read off the page images, not the text (Oct. 23, 2026). For the Armor, Annual Reports and world-table leads below.
+- Armor: no open source found for the Army's tanks and armored vehicles in inventory, or its divisions by type (armored, mechanized, infantry, airborne, airmobile), 1960–68. The Secretary of Defense's *Annual Report* and the posture statements print the divisions by type (history.defense.gov, refused here; HathiTrust full view, bot-checked); the Army's *Green Book* and CMH's lineage volumes (history.army.mil, refused) the rest. Oct. 23, 2026: both hosts AkamaiGHost 403 again; the Annual Reports of fiscal 1961-68 are not on archive.org (DTIC's there begin with fiscal
+  1979) nor found on govinfo. govinfo does hold, open, the OSD Historical Office's *The McNamara Ascendancy, 1961-1965* (GOVPUB-D-PURL-gpo58482) and *McNamara, Clifford, and the Burdens of Vietnam, 1965-1969* (GOVPUB-D-PURL-gpo58528) and CMH's *Advice and Support: The Middle Years* and *Combat Operations: Staying the Course* (GOVPUB-D114-...): later histories whose appendices may give the divisions and forces by year, not read. Again 05:14 UTC: both AkamaiGHost
+  403. Open on archive.org: CMH Pub 60-7, Wilson, *Armies, Corps, Divisions, and Separate Brigades* (1999; `cmh-pub-60-7-armies-corps-divisions-and-separate-brigades-by-john-wilson`), each division's lineage and its reorganizations (the ROAD and airmobile conversions by date): a count by type and year could be compiled from it (later, not printed then); Wilson's *Maneuver and Firepower* (1998) lends only. The posture statements (above).
+- Ships by type, 1966 and after (carriers, cruisers, destroyers, submarines, amphibious, auxiliaries, active fleet): NHHC's "U.S. Ship Force Levels" (history.navy.mil: its server omits its intermediate certificate, DigiCert Global G2 TLS RSA SHA256 2020 CA1; supplied, the site answers 404 with an empty body (AWS) to every path, Oct. 23, 2026; the Wayback Machine refused the connection the same day; again 05:2x UTC, the intermediate supplied: 404, empty body, awselb, the root included; the Wayback Machine "Blocked by egress policy"; no copy of the tables on archive.org by title). The *Statistical Abstract*'s class table ends with June 30, 1965 (1966 ed., table 373); Jane's by type for 1967–68 is in the world table.
+- Navy and Marine aircraft by type: the Abstract printed them to Jan. 1, 1962 only (1965 ed., table 362; then withheld); the Navy's own inventory (the *Navy Aircraft* statistics) not found open.
+- The SecDef *Annual Reports*, fiscal 1961–68: missiles on alert, Polaris boats at sea, bombers by type, as published then. Not open here (history.defense.gov refused; not on archive.org or govinfo, Oct. 23, 2026; again 05:14 UTC, Akamai 403; archive.org's title search finds DoD's Annual Reports from fiscal 1979 only). The posture statements (above) give much of the same, as classified then.
+- The U.S. warhead stockpile, 1962–68, as the government released it: DoD's fact sheet of May 3, 2010 (defense.gov and open.defense.gov refused; state.gov's later fact sheets refused or down; Oct. 23, 2026: defense.gov, open.defense.gov AkamaiGHost 403, media.defense.gov 403, state.gov 403; again 05:14 UTC, the same; no copy on archive.org by title). Only DOE's 1994 table (totals to 1961) and FAS's series via Our World in Data are in.
+- U.S. strength by country: DMDC's own Sept. 30 reports (309A) for 1957–68 were not reached; the figures are troopdata's transcription. Oct. 23, 2026: DMDC's site answers (its page API, `dwp/api/page?pageId=27`), but its historical files by State and country begin with fiscal 1996 (`historical.zip`); 1957–68 are not there. The printed reports (the Comptroller's) would settle them; the 1968 rows marked "e/" in it.
+- The world table, then: NATO's Annual Review country chapters and force tables, the Defence Planning Committee's papers, MC documents, force goals (archives.nato.int: connection reset Oct. 22; on Oct. 23, 2026, at 00:33 and 01:17 UTC, every path, the uploaded PDFs included, answers a "Verifying Your Browser" script challenge: a bot check, not passed; archive.org's mirror `archives.nato.int_PDFS_2022` holds one document, AC/137-D/40; nato.int's new site drops the old /docu and /cps pages, 404); NATO's published figures of defence spending (the *NATO Letter*, Jan. 1963; press releases M4(67)2, Dec. 13, 1967, and M1(69)1, Jan. 16, 1969, as SIPRI cites them) not found open. Entered instead: SIPRI's first yearbook (1969), the NATO and Warsaw Pact countries' spending, 1960-68, its NATO sources NATO's own among them (forces/world.yaml, table `sipri`); *NATO Facts and Figures* (1969 ed., archive.org, lending only); the UK's *Statement on the Defence Estimates*, Canada's 1964 *White Paper on Defence*, Australia's reports (not found open); the Parallel History Project's Warsaw Pact documents (php.isn.ethz.ch: certificate mismatch; parallelhistoryproject.org: refused); the *Military Balance* itself, 1959–68 (archive.org lends; HathiTrust search only); the *Statistical Abstract*, 1966 ed.: census.gov serves it now (Oct. 23, 2026), and its international section (sec. 33, tables 1286-1312, part 13; part 14 is the appendices) prints no table of the world's forces: the 1967 edition's is the first. Also tried Oct. 23: parallelhistoryproject.org (proxy 502), php.isn.ethz.ch (certificate for another host), cvce.eu (WEU's Assembly documents; 403). Again Oct. 23, 05:06, 05:40 and 06:07 UTC: archives.nato.int answers 200 with a page that sends the browser to `/challenge` (AtoM's script challenge) on every path: the site's own bot check, not passed; the Wayback Machine "Blocked by egress policy"; archive.org holds no NATO Annual Review, DPC or force-goal paper by title (its CIA reading-room copies are the CIA's own papers on NATO); FRUS's NATO documents carry no force tables by country (sources/frus-text searched). parallelhistoryproject.org proxy 502, php.isn.ethz.ch the certificate mismatch, again. Entered instead, an ally's own count: the British government's regular forces at June 30 by service, 1960–68, from the *Annual Abstract of Statistics* (Central Statistical Office, from the Ministry of Defence), each year as first printed, nos. 98–106 (1961–69), open on archive.org (`annual-abstract-of-statistics-gb_1961_98` … `_1969_106`, read off the page images; forces/world.yaml, table `uk`). Other allies' own figures: Canada's *Canada Year Book* is open on Statistics Canada's site (www66.statcan.gc.ca, a PDF a page; the 1967 edition's defence chapter, pp. 1167–1183, gives no strength table by service; the strengths may stand in its employment chapter: not read); the UK's *Annual Abstract* also prints the reserves, the women's services and the intake (not entered); historic Hansard (api.parliament.uk) answers, for the Defence Estimates debates; hansard.parliament.uk and parlinfo.aph.gov.au (Australia) a bot check and a WAF 403.
+- The world table, later: ACDA's *World Military Expenditures and Arms Transfers*, 1963–1973 ed. (not found open; the 1966 edition of Dec. 1968 is in; ACDA's second, *World Military Expenditures, 1964–1968* (1970), is on archive.org as the ICPR's codebook and data listing of 1971, `DTIC_AD0731731`, spending by country a year, NATO and the Warsaw Pact marked: not read); SIPRI's military expenditure database (sipri.org answers; not yet read; its first yearbook's figures as printed then are in) and its arms transfers database (deliveries of aircraft, armor, ships and missiles, by supplier and recipient).
+- The estimates: SNIE 11-14-61 (Nov. 21, 1961), NIE 11-4-60 (Dec. 1, 1960), NIE 11-3 (air defense, 1961–68), NIE 11-14-61 and the other general purpose estimates, and NIE 11-8-67 (not in FRUS) are not yet entries; the CIA's reading room and Steury's volume print more. When each estimate was first released (before FRUS) not checked.
+- Armed Forces Day, 1968 figures: the tables count June 30 (and Sept. 30) of a year and stand under the next Armed Forces Day, so the figures for 1968 (Armed Forces Day, May 17, 1969) fall outside the calendar: forces.block(1968) renders them; no day carries them yet.
 
 ### Primary records, Cal. II (the Cal. II audit agent, Oct. 22, 2026)
 
@@ -2547,177 +1610,84 @@ No document in the daybook's FRUS text, or item in the *Bulletin*'s index, names
 
 ### The maps of Indochina (the map agent, Oct. 22, 2026; sources/indochina/README.md, tools/vnmap/)
 
-- The 1960s provinces of North Vietnam, Laos and Cambodia: no open boundary set found; the map shows today's (CGAZ)
-  with a caveat. The DRV's units of the 1960s (Hà Đông, Sơn Tây, Kiến An, Hồng Quảng, Hải Ninh, Nghĩa Lộ; the Tây Bắc
-  and Việt Bắc autonomous regions) could be rebuilt from today's districts as the RVN's were (en and vi Wikipedia's
-  province articles give the mergers and dates); Laos's provinces of the 1960s (about thirteen) and Cambodia's (khet)
-  likewise. Look for the CIA's and the Army Map Service's maps of administrative divisions (University of Texas, PCL).
-- Cities: the DRV's 1960 census for its towns under 100,000 (Nam Định, Vinh, Thanh Hóa; the DRV's census volume);
-  Cambodia's 1962 census for Battambang and the provincial towns; the RVN's estimates for its provincial towns (the
-  RVN's *Niên giám thống kê*, Statistical Yearbook); Laos's towns other than Vientiane. The UN *Demographic Yearbook*
-  prints only capitals and cities of 100,000 and more (sources/indochina/cities.yaml).
-- HYDE's own files (geo.public.data.uu.nl) answer with a bot check here (Oct. 23, 2026, 05:14 UTC: "Making sure
-  you're not a bot!"); the population layer is ISIMIP3a's copy of
-  HYDE 3.2.1. HYDE 3.3 for 1960 and 1970, from a host that answers, would be the newer model.
-- Relief finer than ETOPO's 15″ (about 460 m) for the RVN: the Tilezen/Mapzen terrain tiles on AWS (SRTM, public
-  domain; `elevation-tiles-prod/terrarium`) answer here; a second `raster-dem` source at zoom 9 for the RVN would add
-  about 15 MB, but a source missing tiles at its top zoom leaves holes (tested), so it needs bounds and its own layer.
-  Copernicus GLO-90 (on AWS) answers too; its licence (ESA's, with a notice) was not read in full.
-- CRU CL 2.0 (crudata.uea.ac.uk) did not answer on Oct. 22, 2026: the rain grid covers lon 100–110.5, lat 8–23.5 only.
-  HydroSHEDS (data.hydrosheds.org) answered 403: the rivers and lakes were not remade or widened to the frame. Both
-  answer on Oct. 23, 2026 (range requests honored): `grid_10min_pre.dat.gz` 28.8 MB, `grid_10min_tmp.dat.gz` 11.0 MB;
-  HydroRIVERS Asia 90.5 MB, HydroLAKES 820 MB. To cover the frame (lon 97.5–113, lat 5.5–26): set `W0, E0, S0, N0` in
-  `tools/vnmap/layers.py` to the frame, rerun its steps `hydro`, `lakes` and `climate` on fresh downloads (SWORD's delta
-  reaches unchanged), then `climate.py` for `climate.geojson`; the grid goes from 93 rows × 63 columns to 123 × 93, and the
-  rivers and lakes files grow with the frame (`check`'s 50/60 MB limits to watch). Not done: the map agent's files.
-  Retested 05:2x UTC: CRU 200 (`grid_10min_pre.dat.gz`, 28,825,342 bytes), HydroRIVERS Asia 200 (90,510,995 bytes,
-  Cloudflare, no challenge). Not a small change: `W0, E0, S0, N0` are the whole script's extent (the superseded relief
-  steps read them too), and `hydro` also wants SWORD's reaches and `lakes` GRanD's dams downloaded again; so the
-  rain and rivers can now cover the frame, by that rerun, but it was left for the map agent.
+- The 1960s provinces of North Vietnam, Laos and Cambodia: no open boundary set found; the map shows today's (CGAZ) with a caveat. The DRV's units of the 1960s (Hà Đông, Sơn Tây, Kiến An, Hồng Quảng, Hải Ninh, Nghĩa Lộ; the Tây Bắc and Việt Bắc autonomous regions) could be rebuilt from today's districts as the RVN's were (en and vi Wikipedia's province articles give the mergers and dates); Laos's provinces of the 1960s (about thirteen) and Cambodia's (khet) likewise. Look for the CIA's and the Army Map Service's maps of administrative divisions (University of Texas, PCL).
+- Cities: the DRV's 1960 census for its towns under 100,000 (Nam Định, Vinh, Thanh Hóa; the DRV's census volume); Cambodia's 1962 census for Battambang and the provincial towns; the RVN's estimates for its provincial towns (the RVN's *Niên giám thống kê*, Statistical Yearbook); Laos's towns other than Vientiane. The UN *Demographic Yearbook* prints only capitals and cities of 100,000 and more (sources/indochina/cities.yaml).
+- HYDE's own files (geo.public.data.uu.nl) answer with a bot check here (Oct. 23, 2026, 05:14 UTC: "Making sure you're not a bot!"); the population layer is ISIMIP3a's copy of HYDE 3.2.1. HYDE 3.3 for 1960 and 1970, from a host that answers, would be the newer model.
+- Relief finer than ETOPO's 15″ (about 460 m) for the RVN: the Tilezen/Mapzen terrain tiles on AWS (SRTM, public domain; `elevation-tiles-prod/terrarium`) answer here; a second `raster-dem` source at zoom 9 for the RVN would add about 15 MB, but a source missing tiles at its top zoom leaves holes (tested), so it needs bounds and its own layer. Copernicus GLO-90 (on AWS) answers too; its licence (ESA's, with a notice) was not read in full.
+- CRU CL 2.0 (crudata.uea.ac.uk) did not answer on Oct. 22, 2026: the rain grid covers lon 100–110.5, lat 8–23.5 only. HydroSHEDS (data.hydrosheds.org) answered 403: the rivers and lakes were not remade or widened to the frame. Both answer on Oct. 23, 2026 (range requests honored): `grid_10min_pre.dat.gz` 28.8 MB, `grid_10min_tmp.dat.gz` 11.0 MB; HydroRIVERS Asia 90.5 MB, HydroLAKES 820 MB. To cover the frame (lon 97.5–113, lat 5.5–26): set `W0, E0, S0, N0` in `tools/vnmap/layers.py` to the frame, rerun its steps `hydro`, `lakes` and `climate` on fresh downloads (SWORD's delta reaches unchanged), then `climate.py` for `climate.geojson`; the grid goes from 93 rows × 63 columns to 123 × 93, and the rivers and lakes files grow with the frame (`check`'s 50/60 MB limits to watch). Not done: the map agent's files. Retested 05:2x UTC: CRU 200 (`grid_10min_pre.dat.gz`, 28,825,342 bytes), HydroRIVERS Asia 200 (90,510,995 bytes, Cloudflare, no challenge). Not a small change: `W0, E0, S0, N0` are the whole script's extent (the superseded relief steps read them too), and `hydro` also wants SWORD's reaches and `lakes` GRanD's dams downloaded again; so the rain and rivers can now cover the frame, by that rerun, but it was left for the map agent.
 - HYDE's host (geo.public.data.uu.nl): connection reset, Oct. 23, 2026.
 
 ### Primary records, Cal. III (the Cal. III audit agent, Oct. 22, 2026)
 
 Searched in FRUS by text and date (sources/frus-text), the *Bulletin*'s index and the Public Papers; not found:
-- Vietnam: the struggle movement at Huế, May 17, June 8, 10 and 15, 1966 (`cal.1966-05-17.vietnam-struggle`,
-  `cal.1966-06-08.vietnam`, `cal.1966-06-10.vietnam-struggle`, `cal.1966-06-15.vietnam-struggle`); Hanoi's parade of
-  prisoners, July 6, 1966; ground operations in the demilitarized zone authorized, July 30, 1966; McNamara's news conference on the barrier, Sept. 7, 1967 (DoD's transcript);
-  Hanoi's refusals of visas to Marcovich and Aubrac, Aug. 21 and 31, 1967, and their message of Aug. 25 (FRUS 1964–68, V
-  plans the trip, doc. 293); Trinh to Burchett, Jan. 28, 1967 (FRUS V, doc. 33, mentions it); Bunker and Westmoreland on
-  *Meet the Press*, Nov. 19, 1967 (not in the *Bulletin*'s index).
-- The UN: Egypt's request and Thant's order withdrawing UNEF, May 18, 1967 (`cal.1967-05-18.middle-east`): the
-  Secretary-General's report (FRUS XIX, doc. 19, describes it); Britain's request for sanctions on Rhodesia, Dec. 8,
-  1966: the Security Council's verbatim record.
-- Elsewhere: Nigeria, the Department's statement of Jan. 27, 1966 (not in the *Bulletin*'s index); Subandrio's arrest,
-  Mar. 18, 1966; Arif's death, Apr. 13, 1966; Smith's cabinet and the *Tiger* document, Dec. 5, 1966 (FRUS XXIV, doc.
-  549, is the day before); China's hydrogen bomb, June 17, 1967; the *Mikhail Frunze*, June 29, 1967 (*Current Documents*
-  cited); the Blue House raid, Jan. 21, 1968 (FRUS XXIX, pt. 1, doc. 213, mentions it); the revised draft of the
-  nonproliferation treaty, Mar. 11, 1968 (the Eighteen-Nation Committee's record; *Documents on Disarmament*, 1968);
-  Svoboda's election, the Action Program, the Moscow protocol and the stationing treaty, 1968 (FRUS XVII); Brezhnev at
-  Warsaw, Nov. 12, 1968; the Six's councils, Jan. 17, 1966 and Dec. 19, 1967, and de Gaulle's press conference of Nov. 27,
-  1967.
+- Vietnam: the struggle movement at Huế, May 17, June 8, 10 and 15, 1966 (`cal.1966-05-17.vietnam-struggle`, `cal.1966-06-08.vietnam`, `cal.1966-06-10.vietnam-struggle`, `cal.1966-06-15.vietnam-struggle`); Hanoi's parade of prisoners, July 6, 1966; ground operations in the demilitarized zone authorized, July 30, 1966; McNamara's news conference on the barrier, Sept. 7, 1967 (DoD's transcript); Hanoi's refusals of visas to Marcovich and Aubrac, Aug. 21 and 31, 1967, and their message of Aug. 25 (FRUS 1964–68, V plans the trip, doc. 293); Trinh to Burchett, Jan. 28, 1967 (FRUS V, doc. 33, mentions it); Bunker and Westmoreland on *Meet the Press*, Nov. 19, 1967 (not in the *Bulletin*'s index).
+- The UN: Egypt's request and Thant's order withdrawing UNEF, May 18, 1967 (`cal.1967-05-18.middle-east`): the Secretary-General's report (FRUS XIX, doc. 19, describes it); Britain's request for sanctions on Rhodesia, Dec. 8, 1966: the Security Council's verbatim record.
+- Elsewhere: Nigeria, the Department's statement of Jan. 27, 1966 (not in the *Bulletin*'s index); Subandrio's arrest, Mar. 18, 1966; Arif's death, Apr. 13, 1966; Smith's cabinet and the *Tiger* document, Dec. 5, 1966 (FRUS XXIV, doc. 549, is the day before); China's hydrogen bomb, June 17, 1967; the *Mikhail Frunze*, June 29, 1967 (*Current Documents* cited); the Blue House raid, Jan. 21, 1968 (FRUS XXIX, pt. 1, doc. 213, mentions it); the revised draft of the nonproliferation treaty, Mar. 11, 1968 (the Eighteen-Nation Committee's record; *Documents on Disarmament*, 1968); Svoboda's election, the Action Program, the Moscow protocol and the stationing treaty, 1968 (FRUS XVII); Brezhnev at Warsaw, Nov. 12, 1968; the Six's councils, Jan. 17, 1966 and Dec. 19, 1967, and de Gaulle's press conference of Nov. 27, 1967.
 
 ### Frankum, *Like Rolling Thunder* (the book agent, Oct. 23, 2026; notes/book-checks/w.frankum-like-rolling-thunder.md)
 
-- Barrel Roll's first mission: Frankum (p. 117) gives only "December 1964" and a first sortie for Vang Pao, Dec. 24;
-  FRUS I, doc. 456 (Dec. 21) has the program under way. The day of the first mission (`cal.1964-12-10.laos`) is in the
-  Air Force histories (Van Staaveren, *Interdiction in Southern Laos*; CHECO's Laos reports).
-- Tiger Hound's first day, Dec. 6, 1965 (Frankum, 119), not in FRUS; and Sullivan's part: "established at my
-  suggestion" (FRUS XXVIII, doc. 216) against Frankum's "strongly disagreed" (`cal.1965-12-06.laos`).
-- Popeye (`cal.1967-01-13.laos`): the day Rusk approved (a Feb. 7, 1967 memorandum, Kohler to Unger, cited in FRUS
-  XXVIII, doc. 274, n. 3); McNamara's memorandum to Ignatius "March 18" in the same note, its year unclear; when the
-  program was first made public, and the year FRUS 1964–68, XXVIII was published (for a "Made public" line).
-- The 19th-parallel limit of 1968: Frankum gives Apr. 3 (p. 61); FRUS VI doc. 189 shows it by Apr. 9. The order
-  itself (JCS to CINCPAC) not found (`cal.1968-04-03.vietnam-2`).
-- Flaming Dart II's South Vietnamese target (Chấp Lễ, or Frankum's target 32) and Pleiku's final count (Frankum: 8
-  killed, 128 wounded): MACV's or CINCPAC's reports.
+- Barrel Roll's first mission: Frankum (p. 117) gives only "December 1964" and a first sortie for Vang Pao, Dec. 24; FRUS I, doc. 456 (Dec. 21) has the program under way. The day of the first mission (`cal.1964-12-10.laos`) is in the Air Force histories (Van Staaveren, *Interdiction in Southern Laos*; CHECO's Laos reports).
+- Tiger Hound's first day, Dec. 6, 1965 (Frankum, 119), not in FRUS; and Sullivan's part: "established at my suggestion" (FRUS XXVIII, doc. 216) against Frankum's "strongly disagreed" (`cal.1965-12-06.laos`).
+- Popeye (`cal.1967-01-13.laos`): the day Rusk approved (a Feb. 7, 1967 memorandum, Kohler to Unger, cited in FRUS XXVIII, doc. 274, n. 3); McNamara's memorandum to Ignatius "March 18" in the same note, its year unclear; when the program was first made public, and the year FRUS 1964–68, XXVIII was published (for a "Made public" line).
+- The 19th-parallel limit of 1968: Frankum gives Apr. 3 (p. 61); FRUS VI doc. 189 shows it by Apr. 9. The order itself (JCS to CINCPAC) not found (`cal.1968-04-03.vietnam-2`).
+- Flaming Dart II's South Vietnamese target (Chấp Lễ, or Frankum's target 32) and Pleiku's final count (Frankum: 8 killed, 128 wounded): MACV's or CINCPAC's reports.
 - The first B-52 strike on the North: Apr. 11 (Frankum) or Apr. 12 (Staaveren), 1966.
-- B-52 (Arc Light) sorties a month, 1965–68: CHECO (Trest, "USAF SAC Operations in Support of SEAsia," Dec. 17, 1969,
-  Fig. 4) as Frankum prints it (p. 79), quarterly to 1966, monthly from 1967; the war table has no B-52 series (CACTA
-  holds none). OSD's *Southeast Asia Analysis Report* (Thayer, vol. 5) may print them then.
-- Gazetteer (sources/vn-provinces-1966/places.json): Uông Bí, the Thanh Hóa (Hàm Rồng) bridge, Xóm Bàng, Quảng Khê,
-  the Nape and Ban Karai passes, the Se Kong valley: not in it; the new entries carry no place tag for them.
+- B-52 (Arc Light) sorties a month, 1965–68: CHECO (Trest, "USAF SAC Operations in Support of SEAsia," Dec. 17, 1969, Fig. 4) as Frankum prints it (p. 79), quarterly to 1966, monthly from 1967; the war table has no B-52 series (CACTA holds none). OSD's *Southeast Asia Analysis Report* (Thayer, vol. 5) may print them then.
+- Gazetteer (sources/vn-provinces-1966/places.json): Uông Bí, the Thanh Hóa (Hàm Rồng) bridge, Xóm Bàng, Quảng Khê, the Nape and Ban Karai passes, the Se Kong valley: not in it; the new entries carry no place tag for them.
 - Operation Bolo, Jan. 2, 1967 (seven MiGs, Frankum, 56): no record of a Washington decision found; not entered.
 
 ### Miller, *Misalliance* (the book agent, Oct. 23, 2026; notes/book-checks/w.miller-misalliance.md)
 
-- Don tells Conein of the generals' plot at the Caravelle bar after the embassy's Fourth of July reception, 1963
-  (Miller, 284–85), but Miller, 286, has Nhu's JGS meeting of July 11 "three days after" it (July 8, the CIA report's
-  date). Conein's Church Committee testimony (June 20, 1975) and the CIA reports of July 8 (DDRS) settle the day; not
-  entered.
-- Nhu and Maneli at Gia Long Palace, Sept. 2, 1963 (Miller, 306; introduced Aug. 25); Nhu tells Alsop in mid-September
-  (Alsop's column, its date). De Gaulle's statement on Vietnam, Aug. 29, 1963 (Miller, 306): no calendar entry; its text
-  (*Current Documents, 1963*?) and Washington's answer. Not entered.
-- The *Times of Viet Nam*, Sept. 2, 1963, "CIA Financing Planned Coup D'Etat" (Miller, 295), and Oct. 7 against
-  Phillips (296); Richardson named in the *Washington Daily News*, Oct. 2, 1963 (Miller, 313); Madame Nhu leaves
-  Saigon Sept. 9, 1963, for Europe and the United States (298); Thục to Rome Sept. 7; Trần Kim Tuyến to Egypt, as consul-general, Sept. 12.
-  The papers themselves not read; not entered.
+- Don tells Conein of the generals' plot at the Caravelle bar after the embassy's Fourth of July reception, 1963 (Miller, 284–85), but Miller, 286, has Nhu's JGS meeting of July 11 "three days after" it (July 8, the CIA report's date). Conein's Church Committee testimony (June 20, 1975) and the CIA reports of July 8 (DDRS) settle the day; not entered.
+- Nhu and Maneli at Gia Long Palace, Sept. 2, 1963 (Miller, 306; introduced Aug. 25); Nhu tells Alsop in mid-September (Alsop's column, its date). De Gaulle's statement on Vietnam, Aug. 29, 1963 (Miller, 306): no calendar entry; its text (*Current Documents, 1963*?) and Washington's answer. Not entered.
+- The *Times of Viet Nam*, Sept. 2, 1963, "CIA Financing Planned Coup D'Etat" (Miller, 295), and Oct. 7 against Phillips (296); Richardson named in the *Washington Daily News*, Oct. 2, 1963 (Miller, 313); Madame Nhu leaves Saigon Sept. 9, 1963, for Europe and the United States (298); Thục to Rome Sept. 7; Trần Kim Tuyến to Egypt, as consul-general, Sept. 12. The papers themselves not read; not entered.
 - Don and Đính ask Diệm for generals in the cabinet, Sept. 5, 1963 (Miller, 314, from Don's memoirs): not entered.
-- Nhất Linh (Nguyễn Tường Tam) kills himself, July 7, 1963 (Miller, 273–74); the self-immolation at Phan Thiết, Aug. 4,
-  1963 (275); the rallies of Aug. 18 (17,000 at Xá Lợi, 275): not entered.
+- Nhất Linh (Nguyễn Tường Tam) kills himself, July 7, 1963 (Miller, 273–74); the self-immolation at Phan Thiết, Aug. 4, 1963 (275); the rallies of Aug. 18 (17,000 at Xá Lợi, 275): not entered.
 - Diệm breaks relations with Laos, Oct. 1962 (Miller, 251; no day given): FRUS 1961–63, II or XXIV for the day.
 - The Interministerial Committee for Strategic Hamlets (Miller, 238: "January 1962"; no day): the decree's date.
-- Phước Vĩnh (`cal.1961-09-18.vietnam`) is not in the gazetteer; tagged `province:binh-duong` (Phú Giáo district, with
-  Phước Vĩnh, joined Bình Dương in 1965: Wikipedia, "Phước Thành province"); its coordinates not found on Wikipedia.
-- "Made public" lines wanted for the new entries of Dec. 4, 1960, Sept. 18 and Nov. 17, 1961, Feb. 2, 1962, and May–July
-  1963 (FRUS gives no earlier printing for them): the year each FRUS volume came out.
+- Phước Vĩnh (`cal.1961-09-18.vietnam`) is not in the gazetteer; tagged `province:binh-duong` (Phú Giáo district, with Phước Vĩnh, joined Bình Dương in 1965: Wikipedia, "Phước Thành province"); its coordinates not found on Wikipedia.
+- "Made public" lines wanted for the new entries of Dec. 4, 1960, Sept. 18 and Nov. 17, 1961, Feb. 2, 1962, and May–July 1963 (FRUS gives no earlier printing for them): the year each FRUS volume came out.
 
 ### The official histories (the official-histories agent, Oct. 23, 2026; notes/official-histories-discrepancies.md)
 
-- Navy, vol. I: Hooper, Allard and Fitzgerald, *The Setting of the Stage to 1959* (1976), card
-  `w.hooper-united-states-navy-and`: archive.org holds only lending copies (`settingofstageto0000unse_V1` and others);
-  the Naval History and Heritage Command's PDF has no Wayback snapshot. Not read; the card links nowhere.
-- Air Force: Thompson, *To Hanoi and Back* (1966–73), card `w.thompson-to-hanoi-and-back`, not read; nor the other
-  Southeast Asia volumes (airlift, search and rescue; Nalty on South Vietnam, 1968–75).
-- JCSM-672-66, Oct. 14, 1966: the Chiefs' rebuttal of McNamara's memorandum of that day (Cosmas, pt. 2, 462, 534, and
-  its notes; Drea, 568, 577 nn.): no entry of its own. Cosmas, 462, gives the Chiefs' memorandum of Oct. 14 on the
-  war's progress; FRUS 1964–68, IV, for the text.
-- The JCS histories' notes cite some fifty JCSMs dated on the days of calendar entries on other matters; none
-  read for an entry of its own.
-- Pinpoints went on each event's first entry only; the later entries' `See` lines stand. Where a history treats a
-  later day at length (Junction City's battles, Khâm Đức, the Paris talks' stations), its pages are in the first
-  entry's run.
-- The publishers' sites (history.defense.gov, jcs.mil, media.defense.gov) answer 403 here (Akamai); the cards' links
-  were checked by the Wayback availability API (snapshots with status 200), not fetched.
-- Hanoi's side, from Asselin, *Hanoi's Road to the Vietnam War* (2013), and Nguyen, *Hanoi's War* (2012) (patch
-  `inbox/2026-10-24-book-asselin-nguyen.yaml`; `notes/book-checks/asselin-hanois-road.md`,
-  `nguyen-hanois-war.md`), Oct. 24, 2026, not entered:
-  - Hanoi asks the Geneva co-chairmen, Feb. 18, 1962, to "urgently study effective measures to end U.S. aggression"
-    (Asselin, 127, from a Foreign Office minute): the note's text, and whether FRUS 1961–63, II prints it.
+- Navy, vol. I: Hooper, Allard and Fitzgerald, *The Setting of the Stage to 1959* (1976), card `w.hooper-united-states-navy-and`: archive.org holds only lending copies (`settingofstageto0000unse_V1` and others); the Naval History and Heritage Command's PDF has no Wayback snapshot. Not read; the card links nowhere.
+- Air Force: Thompson, *To Hanoi and Back* (1966–73), card `w.thompson-to-hanoi-and-back`, not read; nor the other Southeast Asia volumes (airlift, search and rescue; Nalty on South Vietnam, 1968–75).
+- JCSM-672-66, Oct. 14, 1966: the Chiefs' rebuttal of McNamara's memorandum of that day (Cosmas, pt. 2, 462, 534, and its notes; Drea, 568, 577 nn.): no entry of its own. Cosmas, 462, gives the Chiefs' memorandum of Oct. 14 on the war's progress; FRUS 1964–68, IV, for the text.
+- The JCS histories' notes cite some fifty JCSMs dated on the days of calendar entries on other matters; none read for an entry of its own.
+- Pinpoints went on each event's first entry only; the later entries' `See` lines stand. Where a history treats a later day at length (Junction City's battles, Khâm Đức, the Paris talks' stations), its pages are in the first entry's run.
+- The publishers' sites (history.defense.gov, jcs.mil, media.defense.gov) answer 403 here (Akamai); the cards' links were checked by the Wayback availability API (snapshots with status 200), not fetched.
+- Hanoi's side, from Asselin, *Hanoi's Road to the Vietnam War* (2013), and Nguyen, *Hanoi's War* (2012) (patch `inbox/2026-10-24-book-asselin-nguyen.yaml`; `notes/book-checks/asselin-hanois-road.md`, `nguyen-hanois-war.md`), Oct. 24, 2026, not entered:
+  - Hanoi asks the Geneva co-chairmen, Feb. 18, 1962, to "urgently study effective measures to end U.S. aggression" (Asselin, 127, from a Foreign Office minute): the note's text, and whether FRUS 1961–63, II prints it.
   - Bernard Fall with Phạm Văn Đồng and Hồ Chí Minh, late July 1962 (Asselin, 134): the day, and Fall's printed account.
   - Ye Jianying's military mission to Hanoi, December 1961 (Asselin, 114–15): the days.
   - Hanoi with Beijing against the partial test-ban treaty, August 1963 (Asselin, 159): the day of its statement.
-  - Lê Duẩn and Lê Đức Thọ in Moscow after the Ninth Plenum, early 1964; Khrushchev refuses arms (Asselin, 180): the
-    days.
-  - Lê Duẩn, Nguyễn Chí Thanh and Nguyễn Văn Linh in Beijing, October 1966; Lê Đức Thọ and Nguyễn Duy Trinh in Moscow,
-    December 1966 (Nguyen, 80); Giáp and Phạm Văn Đồng with Mao and Zhou, April 1967 (Nguyen, 95): days.
-  - The National Assembly Standing Committee's decree on treason and espionage, Oct. 30, 1967 (Nguyen, 92–93): its
-    text.
-  - Zhou Enlai with Phạm Văn Đồng, Apr. 13 and 19, 1968; Zhou and Chen Yi with Xuân Thủy, May 7, 1968; Zhou with Phạm
-    Hùng, June 1968 (Nguyen, 117–19, from *77 Conversations*); Lê Duẩn with the Soviet chargé Chivilev, May 2, 1968
-    (Nguyen, 118): not read in the source.
-  - No name entry for Hoàng Minh Chính, Ưng Văn Khiêm, Phạm Hùng, Nguyễn Văn Linh, Trần Quốc Hoàn, or the men arrested
-    in 1967 (Nguyễn Văn Vịnh, Lê Trọng Nghĩa, Vũ Đình Huỳnh, Vũ Thư Hiên): Viet. Part III entries wanted.
-  - *Văn kiện Đảng toàn tập*: the volume and year of Lê Duẩn's letter of July 18, 1962 (Asselin, 134 n.122) and the
-    year of vol. 29 (the Politburo's cables of Oct. 10 and 20, 1968); no card for the collection yet.
-  - Asselin's date for the navy's war footing, July 6, 1964 (189 n.115), rests on the Defense Ministry's *Lịch sử quân
-    sự Việt Nam*, vol. 11, 172: not read.
-- Schwartz, *Lyndon Johnson and Europe*, and Chen Jian, *Mao's China and the Cold War* (patch
-  `inbox/2026-10-24-book-schwartz-chen.yaml`; notes/book-checks/schwartz-lyndon-johnson-and-europe.md, chen-maos-china.md),
-  Oct. 24, 2026:
-  - The consular convention with the Soviet Union signed, Moscow, June 1, 1964 (Schwartz, 19): no entry; the
-    Senate's entries of 1967 have nothing before them.
+  - Lê Duẩn and Lê Đức Thọ in Moscow after the Ninth Plenum, early 1964; Khrushchev refuses arms (Asselin, 180): the days.
+  - Lê Duẩn, Nguyễn Chí Thanh and Nguyễn Văn Linh in Beijing, October 1966; Lê Đức Thọ and Nguyễn Duy Trinh in Moscow, December 1966 (Nguyen, 80); Giáp and Phạm Văn Đồng with Mao and Zhou, April 1967 (Nguyen, 95): days.
+  - The National Assembly Standing Committee's decree on treason and espionage, Oct. 30, 1967 (Nguyen, 92–93): its text.
+  - Zhou Enlai with Phạm Văn Đồng, Apr. 13 and 19, 1968; Zhou and Chen Yi with Xuân Thủy, May 7, 1968; Zhou with Phạm Hùng, June 1968 (Nguyen, 117–19, from *77 Conversations*); Lê Duẩn with the Soviet chargé Chivilev, May 2, 1968 (Nguyen, 118): not read in the source.
+  - No name entry for Hoàng Minh Chính, Ưng Văn Khiêm, Phạm Hùng, Nguyễn Văn Linh, Trần Quốc Hoàn, or the men arrested in 1967 (Nguyễn Văn Vịnh, Lê Trọng Nghĩa, Vũ Đình Huỳnh, Vũ Thư Hiên): Viet. Part III entries wanted.
+  - *Văn kiện Đảng toàn tập*: the volume and year of Lê Duẩn's letter of July 18, 1962 (Asselin, 134 n.122) and the year of vol. 29 (the Politburo's cables of Oct. 10 and 20, 1968); no card for the collection yet.
+  - Asselin's date for the navy's war footing, July 6, 1964 (189 n.115), rests on the Defense Ministry's *Lịch sử quân sự Việt Nam*, vol. 11, 172: not read.
+- Schwartz, *Lyndon Johnson and Europe*, and Chen Jian, *Mao's China and the Cold War* (patch `inbox/2026-10-24-book-schwartz-chen.yaml`; notes/book-checks/schwartz-lyndon-johnson-and-europe.md, chen-maos-china.md), Oct. 24, 2026:
+  - The consular convention with the Soviet Union signed, Moscow, June 1, 1964 (Schwartz, 19): no entry; the Senate's entries of 1967 have nothing before them.
   - `cal.1968-06-11.berlin-and-vienna` (East German passports and visas) left with FRUS alone and no bibliography.
-  - The days Chen gives by month only: the Soviet experts recalled, July 1960 (82; his CWIHP Bulletin article, nos. 8–9,
-    246–50, not read); Zhou Enlai in Moscow, November 1964 (84). The Navy's record of the engagement off Hainan, Apr.
-    8–9, 1965. American knowledge of the Chinese antiaircraft divisions, Aug. 1965 (Whiting, *Chinese Calculus of
-    Deterrence*, 176–95, by Chen's notes: no card, not read).
-  - Chen's Beijing–Hanoi meetings with no trace in Washington found, not entered (the list in chen-maos-china.md): the
-    People's Daily editorial of Mar. 25, 1965 and Zhou at Tirana, Mar. 29, offering Chinese personnel, may have one
-    (the *Bulletin*, CIA's daily brief).
-  - *77 Conversations between Chinese and Foreign Leaders* (`w.77-conversations-between-chinese`): Zhou to Ayub Khan,
-    Apr. 2, 1965, 79–85, and to Subandrio, May 28, 88, not read; read them for the place of the Ayub meeting.
-  - Lào Cai and Lạng Sơn not in the gazetteer (Wikipedia's articles give no coordinates now); the entries name Yên Bái
-    and Kép.
+  - The days Chen gives by month only: the Soviet experts recalled, July 1960 (82; his CWIHP Bulletin article, nos. 8–9, 246–50, not read); Zhou Enlai in Moscow, November 1964 (84). The Navy's record of the engagement off Hainan, Apr. 8–9, 1965. American knowledge of the Chinese antiaircraft divisions, Aug. 1965 (Whiting, *Chinese Calculus of Deterrence*, 176–95, by Chen's notes: no card, not read).
+  - Chen's Beijing–Hanoi meetings with no trace in Washington found, not entered (the list in chen-maos-china.md): the People's Daily editorial of Mar. 25, 1965 and Zhou at Tirana, Mar. 29, offering Chinese personnel, may have one (the *Bulletin*, CIA's daily brief).
+  - *77 Conversations between Chinese and Foreign Leaders* (`w.77-conversations-between-chinese`): Zhou to Ayub Khan, Apr. 2, 1965, 79–85, and to Subandrio, May 28, 88, not read; read them for the place of the Ayub meeting.
+  - Lào Cai and Lạng Sơn not in the gazetteer (Wikipedia's articles give no coordinates now); the entries name Yên Bái and Kép.
 
 ### Chen Jian, *Mao's China and the Cold War* (the back-fill agent, Oct. 29, 2026; notes/book-checks/chen-maos-china.md)
 
-- Foreign: the Sino-American ambassadorial talks at Warsaw, 1960–68 (the 100th to the 133rd meetings): none in the
-  calendar; FRUS 1958–60, XIX, 1961–63, XXII, 1964–68, XXX print the reports. Goh, *Constructing the U.S.
-  Rapprochement*, treats them.
-- Foreign: Peking's public warnings of spring 1965 (the *People's Daily* editorial of Mar. 25; Zhou at Tirana, Mar. 29),
-  and Washington's reading of them: the daybook's FRUS II, March–April 1965, and INR's papers.
-- Foreign: the Chinese, Vietnamese and Laotian meeting of July 5–8, 1964, and Zhou in Hanoi, May 1960: whether
-  Washington knew (FRUS 1964–68, I; 1958–60, I).
+- Foreign: the Sino-American ambassadorial talks at Warsaw, 1960–68 (the 100th to the 133rd meetings): none in the calendar; FRUS 1958–60, XIX, 1961–63, XXII, 1964–68, XXX print the reports. Goh, *Constructing the U.S. Rapprochement*, treats them.
+- Foreign: Peking's public warnings of spring 1965 (the *People's Daily* editorial of Mar. 25; Zhou at Tirana, Mar. 29), and Washington's reading of them: the daybook's FRUS II, March–April 1965, and INR's papers.
+- Foreign: the Chinese, Vietnamese and Laotian meeting of July 5–8, 1964, and Zhou in Hanoi, May 1960: whether Washington knew (FRUS 1964–68, I; 1958–60, I).
 - Foreign: Zhou's four points to Subandrio, May 28, 1965 (77 Conversations, 88).
-- Foreign: the Chinese government's statement on the Warsaw talks after Nov. 25, 1968 (FRUS XXX, doc. 331 says one was
-  coming): its day and text.
+- Foreign: the Chinese government's statement on the Warsaw talks after Nov. 25, 1968 (FRUS XXX, doc. 331 says one was coming): its day and text.
 
 ### Asselin, *Hanoi's Road to the Vietnam War* (the back-fill agent, Oct. 29, 2026; notes/book-checks/asselin-hanois-road.md)
 
 - Foreign: the Control Commission's special report of June 1962 (Hanoi found in violation) and Washington's use of it.
-- Foreign: Ye Jianying in Hanoi, Dec. 1961; Lê Duẩn and Thọ in Moscow, early 1964; Gromyko's letter to Xuân Thủy, late
-  Dec. 1964 (Asselin, 204 n.210).
+- Foreign: Ye Jianying in Hanoi, Dec. 1961; Lê Duẩn and Thọ in Moscow, early 1964; Gromyko's letter to Xuân Thủy, late Dec. 1964 (Asselin, 204 n.210).
 - Foreign: An Lão, Dec. 6, 1964: the day and the American advisers' record.
 - Foreign: Seaborn's attempt at a third meeting with Phạm Văn Đồng, late 1964 (Asselin, 191 n.131).
 - Foreign: the "Former Resistance Fighters" declaration of March 1960 (Asselin, 75).
@@ -2732,56 +1702,34 @@ Searched in FRUS by text and date (sources/frus-text), the *Bulletin*'s index an
 
 ### Garrow, *Bearing the Cross* (the back-fill agent, Oct. 29, 2026; notes/book-checks/garrow-bearing-the-cross.md)
 
-- The Church Committee's Book III (S. Rep. No. 94-755) on the FBI and King: where Garrow's FOIA files were first made
-  public; `Made public: Check` stands on the FBI entries until it is read for each.
-- The Kennedy tapes Garrow quotes (86.2, 88.4, 88.6, 108.1–2, 111.7, 112.1): PRDE only; the Miller Center has none.
-  Hearing them would settle Robert Kennedy's words (May 20–21, 1963) and the meetings of Aug. 28 and Sept. 19, 1963.
-  The meetings of May 20 and 21, 1963 on civil rights (Tapes 88.2, 88.6; JFK, Robert Kennedy, Marshall, Sorensen, White)
-  are not yet entries: dated by the catalogue alone.
-- Johnson and DeLoach, Nov. 20, 1964, 4:23 p.m. (PRDE 4005058), and Reedy and Lee White, Nov. 19, 10:50 a.m. (PRDE
-  4005056): catalogue rows only; whether either is on King is not known.
-- Reedy on a "strong recommendation" for voting legislation, Feb. 6, 1965 (Garrow 387; *New York Times*, Feb. 7, 1965):
-  undated in the text.
-- Judge Simpson's orders at St. Augustine, June 9 and Aug. 5, 1964 (Garrow cites *Young v. Davis*, 9 Race Rel. L. Rep.
-  1515, June 22, 1964), and the records of *Kelley v. Page* and *Williams v. Wallace*: not read.
-- Johnson's Daily Diary beyond the National Archives Catalog's fifty days (discoverlbj.org refuses this environment):
-  the dates Garrow gives for King's meetings at the White House to be set against it.
+- The Church Committee's Book III (S. Rep. No. 94-755) on the FBI and King: where Garrow's FOIA files were first made public; `Made public: Check` stands on the FBI entries until it is read for each.
+- The Kennedy tapes Garrow quotes (86.2, 88.4, 88.6, 108.1–2, 111.7, 112.1): PRDE only; the Miller Center has none. Hearing them would settle Robert Kennedy's words (May 20–21, 1963) and the meetings of Aug. 28 and Sept. 19, 1963. The meetings of May 20 and 21, 1963 on civil rights (Tapes 88.2, 88.6; JFK, Robert Kennedy, Marshall, Sorensen, White) are not yet entries: dated by the catalogue alone.
+- Johnson and DeLoach, Nov. 20, 1964, 4:23 p.m. (PRDE 4005058), and Reedy and Lee White, Nov. 19, 10:50 a.m. (PRDE 4005056): catalogue rows only; whether either is on King is not known.
+- Reedy on a "strong recommendation" for voting legislation, Feb. 6, 1965 (Garrow 387; *New York Times*, Feb. 7, 1965): undated in the text.
+- Judge Simpson's orders at St. Augustine, June 9 and Aug. 5, 1964 (Garrow cites *Young v. Davis*, 9 Race Rel. L. Rep. 1515, June 22, 1964), and the records of *Kelley v. Page* and *Williams v. Wallace*: not read.
+- Johnson's Daily Diary beyond the National Archives Catalog's fifty days (discoverlbj.org refuses this environment): the dates Garrow gives for King's meetings at the White House to be set against it.
 
 ### Schlesinger, *Robert Kennedy and His Times*, second reading (the re-ruling agent, Oct. 29, 2026; notes/book-checks/w.schlesinger-robert-kennedy-and-his.md)
 
 National:
-- The RFK Papers' memoranda and the Johnson Papers' memoranda the book cites (Watson, Roche, Rowe, Califano, Manatos,
-  McPherson, Wilson to Johnson; Kennedy's dictated memoranda of 1961-64): each in its entry's To check.
+- The RFK Papers' memoranda and the Johnson Papers' memoranda the book cites (Watson, Roche, Rowe, Califano, Manatos, McPherson, Wilson to Johnson; Kennedy's dictated memoranda of 1961-64): each in its entry's To check.
 - The Church committee's Hearings, vol. 6 (1975), 495-96, 509-10 (DeLoach's report on Atlantic City): not reached.
-- The Congressional Record's daily-edition pages the book gives (S2995-S3000, Mar. 2, 1967; S14894-97, Oct. 17, 1967;
-  S667-70, Jan. 23, 1967; 9609-20, May 9, 1966) against the bound Record's: the bound pages to be found for the entries
-  that do not yet cite them.
-- Undated in the book, to be dated from the press or the Record: the Appalachia amendment for thirteen New York counties
-  (Feb. 1965); the Morrissey nomination and withdrawal (1965); the Kennedy-Clark jobs bill and the tax-incentive bill
-  (1967); the University of Oklahoma and the Catholic college speeches (1967); RFK in Alabama (Mar. 1968); the Oakland
-  meeting (May 1968); Johnson's statement and O'Connor's against Kennedy (Mar. 1968).
-- Moynihan's speech to the ADA (Sept. 1967); Westmoreland's "pig in a poke" (Feb. 1967), at Johnson's direction
-  (Westmoreland, *A Soldier Reports*, 224).
+- The Congressional Record's daily-edition pages the book gives (S2995-S3000, Mar. 2, 1967; S14894-97, Oct. 17, 1967; S667-70, Jan. 23, 1967; 9609-20, May 9, 1966) against the bound Record's: the bound pages to be found for the entries that do not yet cite them.
+- Undated in the book, to be dated from the press or the Record: the Appalachia amendment for thirteen New York counties (Feb. 1965); the Morrissey nomination and withdrawal (1965); the Kennedy-Clark jobs bill and the tax-incentive bill (1967); the University of Oklahoma and the Catholic college speeches (1967); RFK in Alabama (Mar. 1968); the Oakland meeting (May 1968); Johnson's statement and O'Connor's against Kennedy (Mar. 1968).
+- Moynihan's speech to the ADA (Sept. 1967); Westmoreland's "pig in a poke" (Feb. 1967), at Johnson's direction (Westmoreland, *A Soldier Reports*, 224).
 
 Foreign:
-- Kennedy's memoranda of his talks with Mitterrand, Malraux, Brandt and Saragat (Jan.-Feb. 1967), passed as repeating the
-  counsel entered; the Fanfani channel of Nov. 1965 (Kraslow and Loory, 132-33); Cabot's cable on the Polish visit
-  (1964); the South African government's refusal of visas (May 25, 1966).
+- Kennedy's memoranda of his talks with Mitterrand, Malraux, Brandt and Saragat (Jan.-Feb. 1967), passed as repeating the counsel entered; the Fanfani channel of Nov. 1965 (Kraslow and Loory, 132-33); Cabot's cable on the Polish visit (1964); the South African government's refusal of visas (May 25, 1966).
 
 Access:
-- www.intelligence.senate.gov refused this environment's requests for the Church committee's PDFs (a bot check); not
-  tried further. The reports were read from archive.org's copies; the series links the Senate's copies. The JFK Library's oral-history pages are behind a bot check here
-  (not tried further). The Department of Justice's PDFs of Kennedy's speeches open.
+- www.intelligence.senate.gov refused this environment's requests for the Church committee's PDFs (a bot check); not tried further. The reports were read from archive.org's copies; the series links the Senate's copies. The JFK Library's oral-history pages are behind a bot check here (not tried further). The Department of Justice's PDFs of Kennedy's speeches open.
 
 From the re-ruling of the "minor" rows (Oct. 29, 2026):
 - Castro in the Soviet Union, Apr. 27-June 3, 1963 (the book, 543): not in the calendar; its record for the Cuba thread.
-- Barghoorn's arrest, Oct. 31, 1963, and Kennedy's demand for his release (the book, 597): not in the calendar; FRUS 1961-63,
-  V, and the news conference of Nov. 14, 1963.
-- Harvey's protest to McCone of the Special Group's "tight controls" (the book, 479; Church committee, *Assassination
-  Plots*, 144-46): its day.
+- Barghoorn's arrest, Oct. 31, 1963, and Kennedy's demand for his release (the book, 597): not in the calendar; FRUS 1961-63, V, and the news conference of Nov. 14, 1963.
+- Harvey's protest to McCone of the Special Group's "tight controls" (the book, 479; Church committee, *Assassination Plots*, 144-46): its day.
 - Katzenbach's briefing of Russell on the FBI's King tapes (the book, 364; Katzenbach's interview with Hackman, 69-70): its day.
-- Cox's speech proposing a delay of vital price and wage increases (the book, 406): its day and place (the book: June 1962,
-  the day the market fell). Robert Kennedy's defense of it at the White House, by Cox's account: its day.
+- Cox's speech proposing a delay of vital price and wage increases (the book, 406): its day and place (the book: June 1962, the day the market fell). Robert Kennedy's defense of it at the White House, by Cox's account: its day.
 - Kennedy to Galbraith, Nov. 1961, "limits to the number of defeats" (the book, 705; Galbraith's interview of 1977): its day.
 
 ### Stein, *The Fiscal Revolution in America*, back-fill (the back-fill agent, Oct. 29, 2026; notes/book-checks/perlstein-before-the-storm.md)
@@ -2791,40 +1739,26 @@ The "to leads" rows above are the leads, each with what it wants. The chief of t
 ### Zelizer, *Taxing America*, back-fill (the back-fill agent, Oct. 29, 2026; notes/book-checks/zelizer-taxing-america.md)
 
 National:
-- The Revenue Act of 1962 in the House: reported mid-March, passed Mar. 29, 1962; Kennedy's letter of thanks to Mills,
-  Mar. 22 (JFK Library, POF, Box 50); the conference of May and September (John Martin's notes, RG 233, 87th Cong.,
-  Box 15). None of the act's course is in the calendar but its signing.
+- The Revenue Act of 1962 in the House: reported mid-March, passed Mar. 29, 1962; Kennedy's letter of thanks to Mills, Mar. 22 (JFK Library, POF, Box 50); the conference of May and September (John Martin's notes, RG 233, 87th Cong., Box 15). None of the act's course is in the calendar but its signing.
 - The Ways and Means hearings of April–May 1961 on the tax message, and of Jan. 27, 1965 on H.R. 1: the Daily Digest.
-- The Ways and Means Republicans' paper of Oct. 1, 1962, "Reasons for a Vote Against: The Medicare Program" (JMIC);
-  their statement against the investment credit, 1961 (JFK Library, POF, Box 107).
-- Mills's speeches whose words Zelizer does not give: Pulaski County Bar, Oct. 30, 1964; Chamber of Commerce, Aug. 27,
-  1968; National Association of Accountants, Dec. 10, 1968 (Mills Papers); his *Issues and Answers* of Feb. 11, 1968
-  (transcript, LBJ Library); his *U.S. News* interview of Oct. 9, 1967.
-- Zelizer's dates that differ from the record: the depreciation guidelines (July 1961 for July 1962); Dillon's warning
-  (Nov. 24 in the text, Nov. 25 in the note); the conference vote of June 20, 1968 (268–159; Voteview 268–150).
+- The Ways and Means Republicans' paper of Oct. 1, 1962, "Reasons for a Vote Against: The Medicare Program" (JMIC); their statement against the investment credit, 1961 (JFK Library, POF, Box 107).
+- Mills's speeches whose words Zelizer does not give: Pulaski County Bar, Oct. 30, 1964; Chamber of Commerce, Aug. 27, 1968; National Association of Accountants, Dec. 10, 1968 (Mills Papers); his *Issues and Answers* of Feb. 11, 1968 (transcript, LBJ Library); his *U.S. News* interview of Oct. 9, 1967.
+- Zelizer's dates that differ from the record: the depreciation guidelines (July 1961 for July 1962); Dillon's warning (Nov. 24 in the text, Nov. 25 in the note); the conference vote of June 20, 1968 (268–159; Voteview 268–150).
 
 ### Schwartz, *Lyndon Johnson and Europe*, back-fill (the back-fill agent, Oct. 29, 2026; notes/book-checks/schwartz-lyndon-johnson-and-europe.md)
 
 Foreign:
 - The Consular Convention with the Soviet Union: signed June 1, 1964; the Senate's consent and ratification (1967–68).
-- The T-39 shot down over East Germany, Jan. 28, 1964, Johnson's call to Walker Stone; the RB-66, Mar. 1964 (FRUS
-  1964–68, XIV, docs. 22–23).
-- The NATO ministerial meeting of Dec. 1964 and its press ("rug-pulling"); the Soviet statement against the MLF of Nov.
-  15, 1964; de Gaulle's press conference on gold, Feb. 4, 1965; the British draft nonproliferation treaty, June 1965.
-- The British records Schwartz cites for 1965–68 (PREM 13, the Public Record Office): McNamara and Healey, Rusk and
-  Stewart, June 1965; the talks of Apr. 15, July 27–31, Sept. 9, 1965; Feb. 8–9, 1968. Not open here.
-- Kosygin's letter of Jan. 1966 (Bator to Johnson, Jan. 12, 1966); the Acheson committee's report, June 1966; the
-  NSAM of Aug. 14, 1965 on a French withdrawal; Eugene Rostow on the border tax, Jan. 8, 1968 (FRUS VIII, doc. 175).
+- The T-39 shot down over East Germany, Jan. 28, 1964, Johnson's call to Walker Stone; the RB-66, Mar. 1964 (FRUS 1964–68, XIV, docs. 22–23).
+- The NATO ministerial meeting of Dec. 1964 and its press ("rug-pulling"); the Soviet statement against the MLF of Nov. 15, 1964; de Gaulle's press conference on gold, Feb. 4, 1965; the British draft nonproliferation treaty, June 1965.
+- The British records Schwartz cites for 1965–68 (PREM 13, the Public Record Office): McNamara and Healey, Rusk and Stewart, June 1965; the talks of Apr. 15, July 27–31, Sept. 9, 1965; Feb. 8–9, 1968. Not open here.
+- Kosygin's letter of Jan. 1966 (Bator to Johnson, Jan. 12, 1966); the Acheson committee's report, June 1966; the NSAM of Aug. 14, 1965 on a French withdrawal; Eugene Rostow on the border tax, Jan. 8, 1968 (FRUS VIII, doc. 175).
 - Johnson's interview with a German magazine, Apr. 1964: not identified.
 
 ### Gibbons, *The U.S. Government and the Vietnam War*, Part IV, 1967–Jan. 1968 (the back-fill agent, Oct. 29, 2026; notes/book-checks/gibbons-u-s-government-and.md)
 
-- The Foreign Relations Committee's executive-session transcripts Gibbons cites as unpublished (Jan. 10 and 11, Oct. 31,
-  Nov. 1, 2, 7, 16 and 30, 1967): whether the committee's Historical Series has printed them since; each entry that
-  rests on one has it in "To check:".
-- The Record pages Gibbons gives and the run did not reach: Javits and Aiken, Mar. 1 (4938, 4870); the conference report,
-  Mar. 8 (5768–72); the executives' letter, Feb. 7 (4892–94); Case and Cooper on the 45,000, Aug. (n.134); Findley's
-  discussion, Oct. 30 (30465 ff.); McCormack on Hồ, Mar. 22 (no page given).
+- The Foreign Relations Committee's executive-session transcripts Gibbons cites as unpublished (Jan. 10 and 11, Oct. 31, Nov. 1, 2, 7, 16 and 30, 1967): whether the committee's Historical Series has printed them since; each entry that rests on one has it in "To check:".
+- The Record pages Gibbons gives and the run did not reach: Javits and Aiken, Mar. 1 (4938, 4870); the conference report, Mar. 8 (5768–72); the executives' letter, Feb. 7 (4892–94); Case and Cooper on the 45,000, Aug. (n.134); Findley's discussion, Oct. 30 (30465 ff.); McCormack on Hồ, Mar. 22 (no page given).
 - Laird's letter to Johnson of Feb. 9, 1967, printed in House Armed Services' hearings on military posture, 46–48.
 - Fulbright's "Congress and Foreign Policy," July 20, 1967, *Separation of Powers*, Hearings, pt. 1, 41–53.
 - The stag dinners of Sept. 12 and 26, Oct. 4 and 25, Nov. 2 and 16, 1967: the Daily Diary's lists of those present.
@@ -2834,8 +1768,7 @@ Foreign:
 
 ### Gibbons, *The U.S. Government and the Vietnam War*, Parts I–III (the back-fill agent, Oct. 29, 2026; notes/book-checks/gibbons-u-s-government-and.md)
 
-- The executive sessions of Foreign Relations, 1961–65 (RG 46), behind every "To check:" here: the transcripts since
-  published in the committee's *Executive Sessions* (Historical Series) would let these entries cite the record.
+- The executive sessions of Foreign Relations, 1961–65 (RG 46), behind every "To check:" here: the transcripts since published in the committee's *Executive Sessions* (Historical Series) would let these entries cite the record.
 - Dodd's speech "later that same day" (III, 283, the note): the day may be another; the Record's index under Dodd.
 - The House's executive sessions of Oct. 8, 1963 (Foreign Affairs) and Jan. 27 and 29, 1964 (Armed Services): closed.
 - *Department of Defense Appropriations for 1965*, pt. 4 (1964), pp. 12, 101, 117: the hearing of Feb. 17, 1964, printed.
@@ -2845,20 +1778,12 @@ Foreign:
 
 Foreign:
 
-- The Warsaw talks, 1960–68: now three meetings in (124th, 127th; the 116th as Washington's knowledge of July 31,
-  1963); FRUS 1961–63, XXII and 1964–68, XXX print the rest (Chen's lead stands).
-- Peking's public acts Washington met but the calendar lacks: Mao's statement of Aug. 29, 1963; the nine polemics,
-  1963–64; Zhou's statement on the bombing of Khang Khay, June 16, 1964, and the T-28 strike on the Chinese mission
-  there; Ye Jianying's mission to Hanoi, Dec. 1961; Souvanna Phouma in Peking, Apr. 22–25, 1961; Zhou in Hanoi, May
-  9–14, 1960; the Moscow conference of Nov. 1960; Zhou's walkout from the Twenty-second Congress, Oct. 23, 1961.
-- The Laos conference, 1961–62: Sihanouk's proposal (Jan. 1, 1961), Zurich (June 22, 1961), Boun Oum's repudiation
-  (Dec. 27, 1961), the portfolios (June 12, 1962), Chen Yi's positions (May 24, June 26, 1961): FRUS XXIV.
-- The peace initiatives of 1965–66 and Peking's refusals: Gordon Walker (Mar.–Apr. 1965), the conference on Cambodia,
-  U Thant, Kosygin's proposal of Feb. 16, 1965, Armah's mission, Malraux (July 1965), Michalowski and Shelepin (Jan.
-  1966): FRUS II, III, IV, XXVII, XXVIII. Hanoi's Four Points (Apr. 8, 1965) not found in the calendar by that name.
+- The Warsaw talks, 1960–68: now three meetings in (124th, 127th; the 116th as Washington's knowledge of July 31, 1963); FRUS 1961–63, XXII and 1964–68, XXX print the rest (Chen's lead stands).
+- Peking's public acts Washington met but the calendar lacks: Mao's statement of Aug. 29, 1963; the nine polemics, 1963–64; Zhou's statement on the bombing of Khang Khay, June 16, 1964, and the T-28 strike on the Chinese mission there; Ye Jianying's mission to Hanoi, Dec. 1961; Souvanna Phouma in Peking, Apr. 22–25, 1961; Zhou in Hanoi, May 9–14, 1960; the Moscow conference of Nov. 1960; Zhou's walkout from the Twenty-second Congress, Oct. 23, 1961.
+- The Laos conference, 1961–62: Sihanouk's proposal (Jan. 1, 1961), Zurich (June 22, 1961), Boun Oum's repudiation (Dec. 27, 1961), the portfolios (June 12, 1962), Chen Yi's positions (May 24, June 26, 1961): FRUS XXIV.
+- The peace initiatives of 1965–66 and Peking's refusals: Gordon Walker (Mar.–Apr. 1965), the conference on Cambodia, U Thant, Kosygin's proposal of Feb. 16, 1965, Armah's mission, Malraux (July 1965), Michalowski and Shelepin (Jan. 1966): FRUS II, III, IV, XXVII, XXVIII. Hanoi's Four Points (Apr. 8, 1965) not found in the calendar by that name.
 - Mao and Edgar Snow, Jan. 9, 1965 (Snow's published account) and Washington's reading.
-- Burris to Johnson, Feb. 5, 1962 (National Security Archive, Vietnam/Laos Collection, box 1): the Vice President's
-  estimate of North Vietnamese troops in Laos.
+- Burris to Johnson, Feb. 5, 1962 (National Security Archive, Vietnam/Laos Collection, box 1): the Vice President's estimate of North Vietnamese troops in Laos.
 - The tacit understanding with Peking, 1965–66: Rostow to Dobrynin, June 1966 (Dobrynin, *In Confidence*, 142).
 - Muong Sai (Oudomxay) for the gazetteer, should an entry place an event there.
 
@@ -2873,68 +1798,47 @@ Foreign:
 
 ### Gifford, *The Center Cannot Hold* (the reading agent, Oct. 28, 2026; notes/book-checks/gifford-center-cannot-hold.md)
 
-- Nixon's Policy Advisory Group and the announcement of his position papers, August 1960 (Gifford, 48; Campaign 1960
-  Position Papers, Box 2, Nixon Library): the day.
-- The RNC Research Division's "Preliminary Analysis of the 1960 Presidential Vote" (Rockefeller Papers, RG 4, J.1, Box
-  11, Folder 96) and its report "The 1960 Elections," April 1961 (RG 4, Series G, Box 27, Folder 316): the days and
-  findings (Gifford, 54–55, 88, 141).
-- Nixon's committee on government contracts announces a drive on employers and unions, March 1960 (Gifford, 70; the
-  *Afro-American*, Mar. 5, 1960): the day; the committee's release.
-- Goldwater to Mississippi Republicans, spring 1960, his "Confederate" speech (the *Afro-American*, May 28, 1960, 4;
-  Gifford, 72); and his invitations from the Minnesota, North Dakota and Mississippi conventions (*NR*, Apr. 9; 115).
-- The airlift of African students: State's refusal, the Kennedy Foundation's grant, August 1960 (Gifford, 82; Rampersad,
-  346–47).
+- Nixon's Policy Advisory Group and the announcement of his position papers, August 1960 (Gifford, 48; Campaign 1960 Position Papers, Box 2, Nixon Library): the day.
+- The RNC Research Division's "Preliminary Analysis of the 1960 Presidential Vote" (Rockefeller Papers, RG 4, J.1, Box 11, Folder 96) and its report "The 1960 Elections," April 1961 (RG 4, Series G, Box 27, Folder 316): the days and findings (Gifford, 54–55, 88, 141).
+- Nixon's committee on government contracts announces a drive on employers and unions, March 1960 (Gifford, 70; the *Afro-American*, Mar. 5, 1960): the day; the committee's release.
+- Goldwater to Mississippi Republicans, spring 1960, his "Confederate" speech (the *Afro-American*, May 28, 1960, 4; Gifford, 72); and his invitations from the Minnesota, North Dakota and Mississippi conventions (*NR*, Apr. 9; 115).
+- The airlift of African students: State's refusal, the Kennedy Foundation's grant, August 1960 (Gifford, 82; Rampersad, 346–47).
 - Robinson joins Nixon's campaign, September 1960 (*California Eagle*, Sept. 8; Gifford, 83): the day.
 - Nixon to the Booker T. Washington Political Club, Portland, Ore., September 1960 (*Defender*, Sept. 15; Gifford, 84).
 - Lodge's forty-five-minute meeting with Nixon after the Harlem promise, Oct. 13–16 (the *Times*, Oct. 17, 1; Gifford, 85).
-- Morrow's draft telegram on King's jailing and Robinson's plea to Nixon, by Safire's account, late October (Morrow,
-  *Forty Years*, 206–208; Rampersad, 351; Gifford, 87).
+- Morrow's draft telegram on King's jailing and Robinson's plea to Nixon, by Safire's account, late October (Morrow, *Forty Years*, 206–208; Rampersad, 351; Gifford, 87).
 - Val Washington's resignation from the RNC after the election (Gifford, 89).
 - Rockefeller at a $100-a-plate Republican dinner, early 1960, not naming Nixon (*NR*, Feb. 13, 1960; Gifford, 114).
-- Draft Rockefeller's proposal of Goldwater for second place; Rhodes sounds Goldwater, July 1960 (Rockefeller Papers,
-  RG 15, Series 22, Subseries 4, Box 50, Folder 1200; Gifford, 52).
-- Rockefeller's readiness for a floor fight on civil rights, his press release of July 23, 1960 (RG 15, Series 25, Box
-  6, Folder 109; Gifford, 76), and Scott's seconding: the days.
+- Draft Rockefeller's proposal of Goldwater for second place; Rhodes sounds Goldwater, July 1960 (Rockefeller Papers, RG 15, Series 22, Subseries 4, Box 50, Folder 1200; Gifford, 52).
+- Rockefeller's readiness for a floor fight on civil rights, his press release of July 23, 1960 (RG 15, Series 25, Box 6, Folder 109; Gifford, 76), and Scott's seconding: the days.
 - Croll and Youth for Goldwater against Rockefeller's ten points, June 1960 (Gifford, 134; Evans, 91–92).
 - Young Americans for Freedom's decision to endorse no one in 1960 (Gifford, 138; Andrew, 71).
 - Kennedy on retraining textile and garment workers, New York, Oct. 12, 1960 (Gifford, 163): the APP record.
 - South Carolina's Republicans impound the State's ballots after the election (Gifford, 165; Shorey to Gifford, 2004).
 - Bridges: Nixon threw away a won election (cited by Valiukas to Hermann, Jan. 1, 1961; Gifford, 193): the day.
-- Lodge, Milton Eisenhower and Romney before the Republican platform committee, July 1964 (Gifford, 145; Blair, 112;
-  Perlstein, 374): the day.
-- A *U.S. News* poll of May 1960, Nixon the choice of 84 percent of Republicans (Gifford, 43), and Gallup's of late
-  April 1960 on which party does more for Negroes (Gifford, 70): whether the Opinion thread wants them.
+- Lodge, Milton Eisenhower and Romney before the Republican platform committee, July 1964 (Gifford, 145; Blair, 112; Perlstein, 374): the day.
+- A *U.S. News* poll of May 1960, Nixon the choice of 84 percent of Republicans (Gifford, 43), and Gallup's of late April 1960 on which party does more for Negroes (Gifford, 70): whether the Opinion thread wants them.
 
 ### Herring, *LBJ and Vietnam* (the reading agent, Oct. 28, 2026; notes/book-checks/herring-lbj-and-vietnam.md)
 
 National:
-- The President's Vietnam Group of 1966 (agendas of Mar. 3, 11 and May 16, 1966, NSF Country File, Vietnam, box 28;
-  Memos to the President, Rostow, box 7): its meetings, if FRUS IV prints any.
-- Komer's "A Strategic Plan for 1967 in Vietnam," Nov. 29, 1966, and "Strategic Guidelines for 1967," Dec. 10, 1966 (NSF
-  Komer Files, boxes 5, 7): FRUS 1964–68, IV, doc. 318 (Komer to McNamara, Nov. 29) may be the first. An entry.
+- The President's Vietnam Group of 1966 (agendas of Mar. 3, 11 and May 16, 1966, NSF Country File, Vietnam, box 28; Memos to the President, Rostow, box 7): its meetings, if FRUS IV prints any.
+- Komer's "A Strategic Plan for 1967 in Vietnam," Nov. 29, 1966, and "Strategic Guidelines for 1967," Dec. 10, 1966 (NSF Komer Files, boxes 5, 7): FRUS 1964–68, IV, doc. 318 (Komer to McNamara, Nov. 29) may be the first. An entry.
 - The Non-Group: Herring dates its founding May 1967 at Johnson's instance (15, 189 n.44); the calendar names it Nov. 15,
   1966. Settle the dates.
-- The Goodpaster study group's report, "Intensification of the Military Operations in Vietnam: Concept and Appraisal,"
-  July 14, 1965 (NSF Country File, Vietnam, box 20): look in FRUS III; an entry.
-- The meetings of Sept. 13, 1965 (the Chiefs' SAM targets refused), Dec. 6–7, 1965 (Bundy's notes), Aug. 19, 1967 (Meeting
-  Notes File), the NSC of Nov. 29, 1967 ("no divisions"), and June 9, 1968 (Tom Johnson's notes): look in FRUS for each.
-- Westmoreland's record of the White House meeting of Nov. 22, 1967 (Westmoreland Papers, USAMHI, box 29): the same
-  meeting as FRUS V, doc. 409 (Nov. 21) or another?
+- The Goodpaster study group's report, "Intensification of the Military Operations in Vietnam: Concept and Appraisal," July 14, 1965 (NSF Country File, Vietnam, box 20): look in FRUS III; an entry.
+- The meetings of Sept. 13, 1965 (the Chiefs' SAM targets refused), Dec. 6–7, 1965 (Bundy's notes), Aug. 19, 1967 (Meeting Notes File), the NSC of Nov. 29, 1967 ("no divisions"), and June 9, 1968 (Tom Johnson's notes): look in FRUS for each.
+- Westmoreland's record of the White House meeting of Nov. 22, 1967 (Westmoreland Papers, USAMHI, box 29): the same meeting as FRUS V, doc. 409 (Nov. 21) or another?
 - Clifford's press conference of Apr. 11, 1968 (the ceiling on troops): Department of Defense release; an entry.
-- The Democratic National Committee and the Young Democrats for the war: Moyers to Johnson, May 27, 1965 (Aides Files,
-  Moyers, box 11); the Young Democrats' convention of 1965 (the party's campaign; an entry where dated).
-- Members' word Herring gives undated: Fulbright, Mansfield and John Sherman Cooper for a full bombing halt after San
-  Antonio (Oct. 1967); Thruston Morton's and Tip O'Neill's breaks with the war (1967): date them and enter them if not in.
-- Eisenhower's memorandum of Sept. 16, 1966 (NSF Memos to the President, Rostow, box 10): Eisenhower on limited war; an
-  informal-record entry if FRUS or Goodpaster's notes date it.
-- McNaughton's death, July 19, 1967: the place and his office (named Secretary of the Navy?) from a source read; the
-  entry carries a Check.
+- The Democratic National Committee and the Young Democrats for the war: Moyers to Johnson, May 27, 1965 (Aides Files, Moyers, box 11); the Young Democrats' convention of 1965 (the party's campaign; an entry where dated).
+- Members' word Herring gives undated: Fulbright, Mansfield and John Sherman Cooper for a full bombing halt after San Antonio (Oct. 1967); Thruston Morton's and Tip O'Neill's breaks with the war (1967): date them and enter them if not in.
+- Eisenhower's memorandum of Sept. 16, 1966 (NSF Memos to the President, Rostow, box 10): Eisenhower on limited war; an informal-record entry if FRUS or Goodpaster's notes date it.
+- McNaughton's death, July 19, 1967: the place and his office (named Secretary of the Navy?) from a source read; the entry carries a Check.
 - *Look*, Nov. 30, 1965: the day it reached the newsstands (FRUS's editors: by Nov. 16).
 - Edward Kennedy's speech of Jan. 25, 1968: the place and the words (the *Congressional Record* or the press).
 
 Foreign:
-- Fanfani's letter of Nov. 20, 1965 and the exchange to Dec. 4 (FRUS III, docs. 205, 207; XII, doc. 120): entries for the
-  letter and Rusk's reply, the release already entered.
+- Fanfani's letter of Nov. 20, 1965 and the exchange to Dec. 4 (FRUS III, docs. 205, 207; XII, doc. 120): entries for the letter and Rusk's reply, the release already entered.
 - The Hanoi Foreign Ministry's statement of Jan. 4, 1966, and Hồ's letter broadcast Jan. 28, 1966: entries if not in.
 - Marigold's mid-November steps (Harriman and Cooper in Rome; State's proposals to Lodge; Read's restricted list).
 
@@ -2942,57 +1846,30 @@ Foreign:
 
 National:
 - The Republican Coordinating Committee's statement on the riots, 1967 (Longley 4; date not given).
-- The leaders' briefing before the State of the Union, Jan. 17, 1968 (Daily Diary; Longley 21), and Connally's note
-  (Lady Bird Johnson, *White House Diary*, 617–18).
-- Members on the *Pueblo*, Jan. 23–27: Rivers (*Washington Post*, Jan. 27; *New York Times*, Jan. 24), Fulbright (Jan.
-  24), Nixon (*Chicago Tribune*, Jan. 28); Allott in the Senate, Jan. 10, 1969 (115 Cong. Rec. 432); Humphrey, Aug. 13?
-  (*New York Times*, Aug. 14).
-- FRUS XXIX:1 docs. 225, 226 (the *Pueblo* lunch and evening meetings, Jan. 25); FRUS VI doc. 65 (Feb. 10); FRUS XVII
-  doc. 93 (NSC, Sept. 4); FRUS VII, Nov. 2 (Rusk to Jones, 525): not yet entries.
-- Recordings not yet entered: McNamara to Johnson, Jan. 31, 7:24 a.m. (tape F68.02); Clifford, Mar. 31, 16:54; the
-  calls of Aug. 29 to Humphrey, Criswell, Sanford, Clark, Muskie, Daley (Miller Center, WH6808.04–.05).
-- The Fortas campaign's undated or ill-dated moves: Dirksen's news conference (early July; Goldstein to Jones, July 2);
-  Russell's word to Griffin (Murphy, *Fortas*, 358–59); Griffin's "cronyism" and Rockefeller's defense (*Rocky Mountain
-  News*, June 28); Nixon's "fresh mandate" (*Chicago Sun-Times*, Aug. 15); Humphrey and Nixon on the filibuster, mid-Sept.;
-  Porter's visit to Califano before Sept. 13; Hart to Manatos, July 16; Shaffer's count, Aug. 5.
-- The Chicago convention's informal record: Tom Johnson on Merriman Smith (May 20), Reedy (July 24), Stephen Smith on the
-  film (July 30), Jones to Johnson (Aug. 21, 24), Humphrey's plank cleared (Aug. 24), Connally to O'Brien (Aug. 26), the
-  birthday speech (Califano to Johnson, Aug. 26), vanden Heuvel (Aug. 28), Watson's names for Vice President.
-- Chennault after Nov. 5: Hoover to Bromley Smith, Nov. 7; Rostow, Nov. 8, Dec. 10; Smith, Nov. 27 (Anna Chennault Record,
-  LBJ Library); an aide to Humphrey, Sept. 27 (Solberg, 394); Deepe's memorandum, Oct. 28.
+- The leaders' briefing before the State of the Union, Jan. 17, 1968 (Daily Diary; Longley 21), and Connally's note (Lady Bird Johnson, *White House Diary*, 617–18).
+- Members on the *Pueblo*, Jan. 23–27: Rivers (*Washington Post*, Jan. 27; *New York Times*, Jan. 24), Fulbright (Jan. 24), Nixon (*Chicago Tribune*, Jan. 28); Allott in the Senate, Jan. 10, 1969 (115 Cong. Rec. 432); Humphrey, Aug. 13? (*New York Times*, Aug. 14).
+- FRUS XXIX:1 docs. 225, 226 (the *Pueblo* lunch and evening meetings, Jan. 25); FRUS VI doc. 65 (Feb. 10); FRUS XVII doc. 93 (NSC, Sept. 4); FRUS VII, Nov. 2 (Rusk to Jones, 525): not yet entries.
+- Recordings not yet entered: McNamara to Johnson, Jan. 31, 7:24 a.m. (tape F68.02); Clifford, Mar. 31, 16:54; the calls of Aug. 29 to Humphrey, Criswell, Sanford, Clark, Muskie, Daley (Miller Center, WH6808.04–.05).
+- The Fortas campaign's undated or ill-dated moves: Dirksen's news conference (early July; Goldstein to Jones, July 2); Russell's word to Griffin (Murphy, *Fortas*, 358–59); Griffin's "cronyism" and Rockefeller's defense (*Rocky Mountain News*, June 28); Nixon's "fresh mandate" (*Chicago Sun-Times*, Aug. 15); Humphrey and Nixon on the filibuster, mid-Sept.; Porter's visit to Califano before Sept. 13; Hart to Manatos, July 16; Shaffer's count, Aug. 5.
+- The Chicago convention's informal record: Tom Johnson on Merriman Smith (May 20), Reedy (July 24), Stephen Smith on the film (July 30), Jones to Johnson (Aug. 21, 24), Humphrey's plank cleared (Aug. 24), Connally to O'Brien (Aug. 26), the birthday speech (Califano to Johnson, Aug. 26), vanden Heuvel (Aug. 28), Watson's names for Vice President.
+- Chennault after Nov. 5: Hoover to Bromley Smith, Nov. 7; Rostow, Nov. 8, Dec. 10; Smith, Nov. 27 (Anna Chennault Record, LBJ Library); an aide to Humphrey, Sept. 27 (Solberg, 394); Deepe's memorandum, Oct. 28.
 - The Daily Diary of Apr. 7, 1968 (Catalog, scanned) for the hour Johnson signed the Baltimore proclamation (Longley 128: 10:15 p.m.).
 - Whether the Gun Control Act's signing (Oct. 22, 1968) and the news conference of Oct. 24 are in the calendar.
 
 Foreign:
-- Goldberg to Johnson, Feb. 22, 1968 (NA 2, POL 33-6); the Navy's plan to retake the *Pueblo* and the F-105 mission; Ball's
-  committee on the *Pueblo* (Ball, 436); the inquiries about North Korea's Dutch-built fishing ship (Lerner, 211).
-- Rusk and Clifford to Bùi Diễm, Mar. 20 (FRUS VI doc. 140 n.3; Clifford, 508); McNamara on Kosygin's invitation, Nov. 11
-  (Christian, 145).
+- Goldberg to Johnson, Feb. 22, 1968 (NA 2, POL 33-6); the Navy's plan to retake the *Pueblo* and the F-105 mission; Ball's committee on the *Pueblo* (Ball, 436); the inquiries about North Korea's Dutch-built fishing ship (Lerner, 211).
+- Rusk and Clifford to Bùi Diễm, Mar. 20 (FRUS VI doc. 140 n.3; Clifford, 508); McNamara on Kosygin's invitation, Nov. 11 (Christian, 145).
 
 ### Gavin, *Gold, Dollars, and Power* (the reading agent, Oct. 28, 2026; notes/book-checks/gavin-gold-dollars-and-power.md)
 
-- National: Dillon before the Joint Economic Committee, Aug. 17, 1962: the daybook's committees file has the hearing
-  under Aug. 16 (Daily Digest D475; the Digest's day against the hearing's to be read again). The memoranda above marked
-  "a lead", most in UPA's microfilms or the presidential libraries (each with Gavin's note in the table). Gilpatric's
-  UPI speech of Oct. 19, 1963: the text not read (the entry rests on Gavin, 109). Eisenhower's *Saturday Evening Post*
-  article on the troops, Oct. 1963: the issue.
-- Foreign: McNamara–von Hassel, May 1966: no record found. The text of de Gaulle's press conference of Feb. 4, 1965
-  (*Discours et messages*, IV). Johnson's telegram to Califano, Dec. 23, 1967, as Gavin quotes it, is not in FRUS
-  (FRUS prints another message; the entry's Check). The date France left the gold pool, 1967. Fowler's European
-  mission, Aug.–Sept. 1965: the dates and the record.
-- To read: the 8 FRUS and Public Papers items found and in To check; the Bulletin's text of Rusk at Frankfurt read (Nov.
-  11, 1963, 726, 729), the text of Kennedy's Oct. 31, 1960 statement as Gavin gives it (Sorensen, 406).
+- National: Dillon before the Joint Economic Committee, Aug. 17, 1962: the daybook's committees file has the hearing under Aug. 16 (Daily Digest D475; the Digest's day against the hearing's to be read again). The memoranda above marked "a lead", most in UPA's microfilms or the presidential libraries (each with Gavin's note in the table). Gilpatric's UPI speech of Oct. 19, 1963: the text not read (the entry rests on Gavin, 109). Eisenhower's *Saturday Evening Post* article on the troops, Oct. 1963: the issue.
+- Foreign: McNamara–von Hassel, May 1966: no record found. The text of de Gaulle's press conference of Feb. 4, 1965 (*Discours et messages*, IV). Johnson's telegram to Califano, Dec. 23, 1967, as Gavin quotes it, is not in FRUS (FRUS prints another message; the entry's Check). The date France left the gold pool, 1967. Fowler's European mission, Aug.–Sept. 1965: the dates and the record.
+- To read: the 8 FRUS and Public Papers items found and in To check; the Bulletin's text of Rusk at Frankfurt read (Nov. 11, 1963, 726, 729), the text of Kennedy's Oct. 31, 1960 statement as Gavin gives it (Sorensen, 406).
 
 ### Moyar, *Triumph Forsaken* (the reading agent, Oct. 28, 2026; notes/book-checks/moyar-triumph-forsaken.md)
 
-- Foreign: Diệm's request for American combat units, Oct. 13, 1961 (Saigon to State, RG 218, CJCS 091; Moyar 135
-  n.54); Galbraith to Kennedy, Nov. 21, 1961 (Pike collection; Pentagon Papers, USVNR bk. 11, 406–09); Khánh's rally
-  for the march north, July 19, 1964 (*New York Times*, July 20, 24, 1964); Vũng Rô, Feb. 16, 1965, and Market Time
-  (Moyar 357–58); Gen. Harold K. Johnson's report of Mar. 14, 1965 (NSF, VNCF, box 191, LBJ Library); the Conein–Đôn
-  meeting at the bistro, July 4, 1963 (Moyar 226–27; Miller 284–86); Diệm's expulsions of Bigart and Sully, Mar. 1962.
-- National: Kennedy's lunch with Sulzberger on Halberstam, Oct. 1963 (undated in Moyar, 253); McGeorge Bundy to Johnson,
-  Oct. 1, 1964, on the peace talk of the campaign (NSF, Memos to the President, box 2, LBJ Library); McNamara with the
-  Joint Chiefs, Nov. 2, 1964 (Greene Papers); Madame Nhu on CBS, Aug. 1, 1963 (the date; the transcript).
+- Foreign: Diệm's request for American combat units, Oct. 13, 1961 (Saigon to State, RG 218, CJCS 091; Moyar 135 n.54); Galbraith to Kennedy, Nov. 21, 1961 (Pike collection; Pentagon Papers, USVNR bk. 11, 406–09); Khánh's rally for the march north, July 19, 1964 (*New York Times*, July 20, 24, 1964); Vũng Rô, Feb. 16, 1965, and Market Time (Moyar 357–58); Gen. Harold K. Johnson's report of Mar. 14, 1965 (NSF, VNCF, box 191, LBJ Library); the Conein–Đôn meeting at the bistro, July 4, 1963 (Moyar 226–27; Miller 284–86); Diệm's expulsions of Bigart and Sully, Mar. 1962.
+- National: Kennedy's lunch with Sulzberger on Halberstam, Oct. 1963 (undated in Moyar, 253); McGeorge Bundy to Johnson, Oct. 1, 1964, on the peace talk of the campaign (NSF, Memos to the President, box 2, LBJ Library); McNamara with the Joint Chiefs, Nov. 2, 1964 (Greene Papers); Madame Nhu on CBS, Aug. 1, 1963 (the date; the transcript).
 - To read: the 23 FRUS documents in To check (found, not read); Moyar's sequel, *Triumph Regained*, for Aug. 1965 on.
 
 ### Gibbons, *The U.S. Government and the Vietnam War*, Part IV, 1965–66 (the back-fill agent, Oct. 29, 2026; notes/book-checks/gibbons-u-s-government-and.md)
@@ -3011,49 +1888,33 @@ Foreign:
 
 ### Palermo, *In His Own Right* (the reading agent, Oct. 28, 2026; notes/book-checks/palermo-in-his-own-right.md)
 
-- The FBI's leak of the King wiretap papers, May 1968 (`cal.1968-05-17.robert-kennedy`): the paper, the columnist (Drew
-  Pearson's?) and the day. DeLoach to Tolson, May 17, is the record Palermo cites; its contents not given.
+- The FBI's leak of the King wiretap papers, May 1968 (`cal.1968-05-17.robert-kennedy`): the paper, the columnist (Drew Pearson's?) and the day. DeLoach to Tolson, May 17, is the record Palermo cites; its contents not given.
 - Wheeler to Reuss on Loan, Feb. 3, 1968, NSF Country File, Vietnam, Box 102, LBJ Library (106 n.29): an entry once read.
-- The Young Democrats' national convention, Hollywood, Fla., Nov. 1967, and the White House's and DNC's steps there
-  (70, nn.59–61): the days.
-- Bailey's remarks to the DNC, Chicago, Jan. 8, 1968 (96 n.93), and the DNC's form letter of Feb. 20, 1968 (n.95): the
-  words.
+- The Young Democrats' national convention, Hollywood, Fla., Nov. 1967, and the White House's and DNC's steps there (70, nn.59–61): the days.
+- Bailey's remarks to the DNC, Chicago, Jan. 8, 1968 (96 n.93), and the DNC's form letter of Feb. 20, 1968 (n.95): the words.
 - Johnson's "grandstanding little runt," Apr. 1, 1968 (Shesol, *Mutual Contempt*, 441, as Palermo cites it): read Shesol.
-- The House resolution of Mar. 18, 1968 (132 members): its number and sponsors in the Record (Palermo cites *The
-  Pentagon Papers*, 591, the edition unnamed).
+- The House resolution of Mar. 18, 1968 (132 members): its number and sponsors in the Record (Palermo cites *The Pentagon Papers*, 591, the edition unnamed).
 - The ADA board's meeting, September 1967, which voted down alternative candidates: the day.
 - The National Conference for New Politics, Chicago, Labor Day weekend 1967: the days (the entry has Sept. 2–4, a Check).
-- The Conference of Concerned Democrats, Chicago: Palermo gives Nov. 30, 1967 and "two days," the rally "of the weekend";
-  the days.
+- The Conference of Concerned Democrats, Chicago: Palermo gives Nov. 30, 1967 and "two days," the rally "of the weekend"; the days.
 - The FBI File on Robert F. Kennedy (microform, series 1–4): when it was released, for the entries' "Made public".
-- Guthman and Allen, *RFK: Collected Speeches* (1993), and Dooley, *Robert Kennedy: The Final Years* (1995), cited by the
-  book and by the new entries' To check: no cards yet.
+- Guthman and Allen, *RFK: Collected Speeches* (1993), and Dooley, *Robert Kennedy: The Final Years* (1995), cited by the book and by the new entries' To check: no cards yet.
 
 ### Reeves, *President Kennedy: Profile of Power* (the reading agent, Oct. 29, 2026; notes/book-checks/reeves-president-kennedy.md)
 
-- Entered by the second patch (book-reeves-2), and out of this list: Prescott Bush's amendment, Capehart, Keating's
-  Record, Van Zandt, Griffiths, Gore, Eisenhower on the tax cut, the RNC's resolution, Goldwater on Tito, the galas, the
-  Massachusetts convention, Tito's visit.
-- Undated in the book or not verified: Eisenhower's *Saturday Evening Post* article and his "nuts" on the moon program
-  (457–58); Symington on the tax bill (625: Audiotape 101.4, which PRDE and the Miller Center do not catalogue); Ervin's
-  bill to cut Bernhard's pay (467: the Record); the *Herald Tribune* cancelled at the White House (304); Bartlett's drink,
-  "can't give up ... and get reelected" (484); the meeting of Apr. 5, 1963 dated by the schedule (not identified).
-- The Joint Committee on Internal Revenue Taxation's walkout at Surrey's appearance, Jan. 1961 (332): Reeves writes
-  "Robert Byrd, a West Virginia Democrat"; the senator is Harry F. Byrd. The day.
-- Adzhubei and Gagarin at the White House, by Reeves August and July 1961 (231): Adzhubei saw Kennedy Nov. 25, 1961 and
-  Jan. 30, 1962; Gagarin's visit not verified.
+- Entered by the second patch (book-reeves-2), and out of this list: Prescott Bush's amendment, Capehart, Keating's Record, Van Zandt, Griffiths, Gore, Eisenhower on the tax cut, the RNC's resolution, Goldwater on Tito, the galas, the Massachusetts convention, Tito's visit.
+- Undated in the book or not verified: Eisenhower's *Saturday Evening Post* article and his "nuts" on the moon program (457–58); Symington on the tax bill (625: Audiotape 101.4, which PRDE and the Miller Center do not catalogue); Ervin's bill to cut Bernhard's pay (467: the Record); the *Herald Tribune* cancelled at the White House (304); Bartlett's drink, "can't give up ... and get reelected" (484); the meeting of Apr. 5, 1963 dated by the schedule (not identified).
+- The Joint Committee on Internal Revenue Taxation's walkout at Surrey's appearance, Jan. 1961 (332): Reeves writes "Robert Byrd, a West Virginia Democrat"; the senator is Harry F. Byrd. The day.
+- Adzhubei and Gagarin at the White House, by Reeves August and July 1961 (231): Adzhubei saw Kennedy Nov. 25, 1961 and Jan. 30, 1962; Gagarin's visit not verified.
 - The taping system's installation, 1962 (304): the date.
-- The many meetings Reeves dates only by the President's daily appointments log (the Kennedy Library): the log is not
-  online; each such entry's day rests on Reeves.
+- The many meetings Reeves dates only by the President's daily appointments log (the Kennedy Library): the log is not online; each such entry's day rests on Reeves.
 
 ### Selverstone, *The Kennedy Withdrawal* (the reading agent, Oct. 29, 2026; notes/book-checks/selverstone-kennedy-withdrawal.md)
 
-- Phước Vĩnh taken by the PLAF, Sept. 18, 1961 (34); Taylor's warning cable, Oct. 24, 1961 (39); Galbraith to Kennedy,
-  Nov. 20, 1961 (47): FRUS 1961–63, I.
+- Phước Vĩnh taken by the PLAF, Sept. 18, 1961 (34); Taylor's warning cable, Oct. 24, 1961 (39); Galbraith to Kennedy, Nov. 20, 1961 (47): FRUS 1961–63, I.
 - State's circular on the war as a Vietnamese war, Apr. 11, 1962 (68): FRUS 1961–63, II.
 - The Clay Committee's report: Selverstone gives its release as Mar. 22, 1963 (111); cal.1963-03-24.foreign-aid.
-- Krulak's inspection, June 25–July 1, 1963 (133); Felt's thousand-man plan to the Chiefs, July 21, 1963 (136); the
-  Chiefs' revised composition, Nov. 4–5, 1963 (193); Felt's "no longer valid," Feb. 15, 1964 (221): the JCS files.
+- Krulak's inspection, June 25–July 1, 1963 (133); Felt's thousand-man plan to the Chiefs, July 21, 1963 (136); the Chiefs' revised composition, Nov. 4–5, 1963 (193); Felt's "no longer valid," Feb. 15, 1964 (221): the JCS files.
 - Hilsman's tracks, Sept. 14–15, 1963 (157); Diệm's end of martial law, Sept. 16, 1963 (158): FRUS 1961–63, IV.
 - De Gaulle's statement on Vietnam, Aug. 29, 1963 (157); Sihanouk's proposal of a conference, Nov. 30, 1963 (211).
 - Defense's "reaffirmation" of the thousand, Nov. 20, 1963 (200): the release.
@@ -3061,8 +1922,7 @@ Foreign:
 ### From the CQ Weekly Report, 1968, and the Walker Report (read Oct. 31-Nov. 1, 2026; notes/book-checks/)
 
 CQ Weekly Report, 1968-08-16:
-- Nguyễn Thành Lê's statement on Nixon and the Republican platform: the day (CQ, Aug. 16, 1968, 2181).
-CQ Weekly Report, 1968-08-30:
+- Nguyễn Thành Lê's statement on Nixon and the Republican platform: the day (CQ, Aug. 16, 1968, 2181). CQ Weekly Report, 1968-08-30:
 - The shelling of Saigon and Biên Hòa, Aug. 22, 1968 (CQ, 2337): MACV's or the papers' account, the casualties.
 - Nguyễn Thanh Lê's news conference, Aug. 26, 1968: the delegation's own text (CQ quotes a translation).
 
@@ -3177,11 +2037,9 @@ CQ Weekly Report, 1968-08-30:
 
 ### Branch, *Pillar of Fire* (batch 3, Oct. 29 and Nov. 3–4, 2026; notes/book-checks/branch-pillar-of-fire.md)
 
-- Taylor's cable, "Khanh has a 50/50 chance of lasting out the year," and Khánh's state of siege, Aug. 7, 1964 (Gravel ed.,
-  *Pentagon Papers*, II, 329; III, 530–33).
+- Taylor's cable, "Khanh has a 50/50 chance of lasting out the year," and Khánh's state of siege, Aug. 7, 1964 (Gravel ed., *Pentagon Papers*, II, 329; III, 530–33).
 - Rusk's cable, "a pervasive infusion of Americans" (Karnow, *Vietnam*, 361).
-- Bundy from Saigon, Feb. 4, 1965, "a civil war within a civil war" (McNamara, *In Retrospect*, 170): the calendar's
-  Feb. 4 entries not checked against it.
+- Bundy from Saigon, Feb. 4, 1965, "a civil war within a civil war" (McNamara, *In Retrospect*, 170): the calendar's Feb. 4 entries not checked against it.
 - Malcolm X in Paris refused, Feb. 9, 1965 (Legat, Paris, to Director, Feb. 11, 1965, FMX-233): France's record.
 - Tanzania's tacit asylum to Moses, summer 1968 (int. Moses, Feb. 15, 1991): the government's record.
 
@@ -3191,83 +2049,56 @@ CQ Weekly Report, 1968-08-30:
 
 ### Nixon, *Six Crises* (batch 3, second run, Nov. 4, 2026; notes/book-checks/nixon-six-crises.md)
 
-- Venezuela, December 1961: the newspaper Nixon calls "Clarion" (223 n.3), its name and the day of its
-  suspension; the days of the demonstrations and the deaths.
+- Venezuela, December 1961: the newspaper Nixon calls "Clarion" (223 n.3), its name and the day of its suspension; the days of the demonstrations and the deaths.
 - Peru, December 1961: where and how the two students' statement was made (231 n.4).
-- The Kennedy administration's retention of Thompson at Moscow (248): the roster holds his tenure; no date
-  given here.
+- The Kennedy administration's retention of Thompson at Moscow (248): the roster holds his tenure; no date given here.
 
 ### Bird, *The Color of Truth* (batch 3, Nov. 4, 2026; notes/book-checks/bird-color-of-truth.md)
 
-- Indonesia, 1965-66 (Bird 351-354): the CIA's assessment of Jan. 3, 1966, and Komer's report to Johnson of Feb. 10,
-  1966 ("some 100,000 Communists have been killed"): to set against the Indonesia thread.
+- Indonesia, 1965-66 (Bird 351-354): the CIA's assessment of Jan. 3, 1966, and Komer's report to Johnson of Feb. 10, 1966 ("some 100,000 Communists have been killed"): to set against the Indonesia thread.
 
 ### Woods, *J. William Fulbright, Vietnam, and the Search for a Cold War Foreign Policy* (batch 3, Nov. 4, 2026; notes/book-checks/woods-j-william-fulbright-vietnam.md)
 
-- Trần Văn Đỗ's and the South Vietnamese embassy's protest of Fulbright's charge, Feb.-Mar. 1967: the day (Fulbright
-  to Đỗ, Mar. 3, 1967).
+- Trần Văn Đỗ's and the South Vietnamese embassy's protest of Fulbright's charge, Feb.-Mar. 1967: the day (Fulbright to Đỗ, Mar. 3, 1967).
 - Ness's letter from Cairo, early Feb. 1967: whether the *Baltimore Sun* of June 11, 1967 printed it (Made public?).
 
 ### Westmoreland, *A Soldier Reports* (batch 3, second and third readings, Nov. 3–4, 2026; notes/book-checks/westmoreland-soldier-reports.md)
 
 - The State cable of Feb. 1965 on a "climax" (118): FRUS 1964–68, II.
 - Vance to McNamara, July 17, 1965 (143): FRUS 1964–68, III.
-- Westmoreland's requests for B-52 strikes, Mar. and June 1965 (137), and for the Army brigade and the Phú Bài battalion, Mar.
-  1965 (125): the messages.
+- Westmoreland's requests for B-52 strikes, Mar. and June 1965 (137), and for the Army brigade and the Phú Bài battalion, Mar. 1965 (125): the messages.
 - Westmoreland's letter to Khánh on the hostage captain, Sept. 1964 (79).
 
 ### The MACV Command Histories, 1964, 1965, 1967, 1968 (batch 3, second runs, Nov. 3–4, 2026; notes/book-checks/macv-command-history.md)
 
-- The 1967 volume's J5 studies (1024-29), undated in the text: Crystal Ball, the casualties after a bombing halt, a
-  token withdrawal, operations in Cambodia, American forces into Laos, Cambodian rice; their dates in the notes.
+- The 1967 volume's J5 studies (1024-29), undated in the text: Crystal Ball, the casualties after a bombing halt, a token withdrawal, operations in Cambodia, American forces into Laos, Cambodian rice; their dates in the notes.
 - The saga of Nguyễn Văn Bé (1967 vol., 669-72): the day of his return to his hamlet.
-- The 1967 volume's Annexes B (civilian casualties), C (the Montagnards), D (international political developments and
-  the constitution), I (the list of operations); the 1968 volume's Annexes A (Tet in retrospect) and B (the barrier) and
-  its Chs. III, VI-XII: not read.
-- Kỳ's decree making the Military Academy a four-year school, Dec. 13, 1966 (1967 vol., 181); Westmoreland's reply on
-  the general reserve battalions, Mar. 3, 1967 (193).
+- The 1967 volume's Annexes B (civilian casualties), C (the Montagnards), D (international political developments and the constitution), I (the list of operations); the 1968 volume's Annexes A (Tet in retrospect) and B (the barrier) and its Chs. III, VI-XII: not read.
+- Kỳ's decree making the Military Academy a four-year school, Dec. 13, 1966 (1967 vol., 181); Westmoreland's reply on the general reserve battalions, Mar. 3, 1967 (193).
 - The 1966 volume (still not among the copies).
-- SEACOORD (1964 vol., 166-67, nn.61-64): Saigon 870 (Sept. 16), 913 (Sept. 19), State 727 (Sept. 25), Saigon 1080 (Oct.
-  10), 1415 (Nov. 6), 1964: not in the daybook's FRUS; the State files.
+- SEACOORD (1964 vol., 166-67, nn.61-64): Saigon 870 (Sept. 16), 913 (Sept. 19), State 727 (Sept. 25), Saigon 1080 (Oct. 10), 1415 (Nov. 6), 1964: not in the daybook's FRUS; the State files.
 - The television plan for South Vietnam (1964 vol., 76-77, 176): the Mission's TV subcommittee; its 1965 sequel.
-- The 1964 volume: the sector intelligence centers before Bình Giã and Đại Ngãi (39); the airfields' change "when the
-  25th Division" moved (114); Northern Toll (178); the radio retrofit (179); the RVNAF promotion study (26).
-- The 1965 volume: the PBRs' arrival (57); the Vietnamese Marines' five-year plan (70); the tailored corps concept, April
-  (96); the Washington meeting on combined command, mid-March (100); the 2d Signal Group and the 18th Engineer Brigade
-  (106); the Secretary of the Army's direction of Nov. 19 (115); the April reprogramming (125); "special strike zones"
-  (188); Saigon's 1966 defense budget approved Jan. 17, 1966 (132).
+- The 1964 volume: the sector intelligence centers before Bình Giã and Đại Ngãi (39); the airfields' change "when the 25th Division" moved (114); Northern Toll (178); the radio retrofit (179); the RVNAF promotion study (26).
+- The 1965 volume: the PBRs' arrival (57); the Vietnamese Marines' five-year plan (70); the tailored corps concept, April (96); the Washington meeting on combined command, mid-March (100); the 2d Signal Group and the 18th Engineer Brigade (106); the Secretary of the Army's direction of Nov. 19 (115); the April reprogramming (125); "special strike zones" (188); Saigon's 1966 defense budget approved Jan. 17, 1966 (132).
 - The *Muskingum* at Đà Nẵng, Oct. 30, 1964: what happened (the History has only CINCPACFLT's question).
-- 1968 vol., Ch. III: the weapons first found or used (106-19) and the terror incidents (140-48), each with its page;
-  the corps-by-corps attacks (155-95) not entered; the NLF's statement of Nov. 3 (40); Hanoi's flour request (52).
-- 1968 vol., Ch. IV: the weapons programs' approvals (261-70), the mobilization decrees (270-75), the RVNAF's units and
-  pay (281-308, 316-43); the Free World section (348-55) is not in the copy: another copy needed.
-- 1968 vol., Ch. V: Combat Lancer's F-111As (Apr. 5, 10); Capt. Gerald O. Young's rescue (431); the merchant ships
-  attacked in the channel to Saigon (Aug. 10-Dec. 4, 459-60); the Mobile Riverine Force's operations (466-72); Turnpike's
-  first day (407, the columns garbled); the Đức Lập battle's size (403 against the pending entry of Aug. 23).
-- 1968 vol., Ch. XI: New Castle, the prisoner study, the 142-page report, the cease-fire and verification studies, POSEC,
-  the Long Range Planning Task Group (783-95): their days and subjects in J-5's monthly histories (the notes).
-- 1968 vol., Ch. XII: the ICRC's telegram to Hanoi on 40 sick and wounded prisoners, Jan. 16 (859); Sgt. Buddy Wright's
-  escape, Sept. 22 (849).
+- 1968 vol., Ch. III: the weapons first found or used (106-19) and the terror incidents (140-48), each with its page; the corps-by-corps attacks (155-95) not entered; the NLF's statement of Nov. 3 (40); Hanoi's flour request (52).
+- 1968 vol., Ch. IV: the weapons programs' approvals (261-70), the mobilization decrees (270-75), the RVNAF's units and pay (281-308, 316-43); the Free World section (348-55) is not in the copy: another copy needed.
+- 1968 vol., Ch. V: Combat Lancer's F-111As (Apr. 5, 10); Capt. Gerald O. Young's rescue (431); the merchant ships attacked in the channel to Saigon (Aug. 10-Dec. 4, 459-60); the Mobile Riverine Force's operations (466-72); Turnpike's first day (407, the columns garbled); the Đức Lập battle's size (403 against the pending entry of Aug. 23).
+- 1968 vol., Ch. XI: New Castle, the prisoner study, the 142-page report, the cease-fire and verification studies, POSEC, the Long Range Planning Task Group (783-95): their days and subjects in J-5's monthly histories (the notes).
+- 1968 vol., Ch. XII: the ICRC's telegram to Hanoi on 40 sick and wounded prisoners, Jan. 16 (859); Sgt. Buddy Wright's escape, Sept. 22 (849).
 - The 1968 volume's unread chapters and annexes (above, "Where I stopped").
 
 ### Fursenko and Naftali, *Khrushchev's Cold War* (batch 3, third run, Nov. 4, 2026; notes/book-checks/fursenko-khrushchevs-cold-war.md)
 
-- The rows above marked "lead," each with its page and note; chiefly: the Presidium's and Khrushchev's acts the work
-  dates only to a month (the Minister of Agriculture, March 1963; Kozlov's stroke; the plot's beginnings, 1963; the
-  boundary message, Dec. 31, 1963 or Jan. 1964; Khrushchev's Scandinavian and Egyptian days, May–June 1964, entered by
-  month only).
-- Khrushchev's Berlin speech: the day (Jan. 15 or 16, 1963) by the Sixth SED Congress's record; the publication of the
-  December letters (the work's "next day").
-- The Volkogonov Collection, Library of Congress (Malinovsky's, Zakharov's, Ivanov's papers of Sept. 1962): its finding
-  aid, for copies the series could cite.
-- BBC Scotland's interviews of Shumkov and Chebrasov; David Coleman's transcripts of the ExComm of Nov. 14 and 16,
-  1962 (the work's note: to appear in vol. 4 of the Miller Center's *Presidential Recordings*, 619 n.58).
+- The rows above marked "lead," each with its page and note; chiefly: the Presidium's and Khrushchev's acts the work dates only to a month (the Minister of Agriculture, March 1963; Kozlov's stroke; the plot's beginnings, 1963; the boundary message, Dec. 31, 1963 or Jan. 1964; Khrushchev's Scandinavian and Egyptian days, May–June 1964, entered by month only).
+- Khrushchev's Berlin speech: the day (Jan. 15 or 16, 1963) by the Sixth SED Congress's record; the publication of the December letters (the work's "next day").
+- The Volkogonov Collection, Library of Congress (Malinovsky's, Zakharov's, Ivanov's papers of Sept. 1962): its finding aid, for copies the series could cite.
+- BBC Scotland's interviews of Shumkov and Chebrasov; David Coleman's transcripts of the ExComm of Nov. 14 and 16, 1962 (the work's note: to appear in vol. 4 of the Miller Center's *Presidential Recordings*, 619 n.58).
 - Kroll's summer visit of 1963 and Khrushchev's letter to Adenauer (621 n.111).
 
 ### Woods, *Fulbright: A Biography* (batch 3, Nov. 4, 2026; notes/book-checks/woods-fulbright.md)
 
-- Trujillo's contract with Igor Cassini (Woods 307): the Dominican files Pincus photographed; Cassini's indictment's
-  day (1963).
+- Trujillo's contract with Igor Cassini (Woods 307): the Dominican files Pincus photographed; Cassini's indictment's day (1963).
 - The Thai Foreign Minister's statement of Dec. 1967: its day and words.
 
 ### Sorensen, *Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/sorensen-kennedy.md)
@@ -3334,8 +2165,7 @@ CQ Weekly Report, 1968-08-30:
 
 ### White, *The Making of the President 1960* (batch 3, second run, Nov. 4, 2026; notes/book-checks/white-making-of-the-president.md)
 
-- Frank B. Ellis sworn in as Director of the Office of Civil and Defense
-  Mobilization, Mar. 9, 1961 (White, 375, unnamed; the roster's date is Wikipedia's): a record of the oath.
+- Frank B. Ellis sworn in as Director of the Office of Civil and Defense Mobilization, Mar. 9, 1961 (White, 375, unnamed; the roster's date is Wikipedia's): a record of the oath.
 
 ### Westmoreland, *A Soldier Reports* (batch 3, second and third readings, Nov. 3–4, 2026; notes/book-checks/westmoreland-soldier-reports.md)
 
@@ -3343,5 +2173,4 @@ CQ Weekly Report, 1968-08-30:
 
 ### The MACV Command Histories, 1964, 1965, 1967, 1968 (batch 3, second runs, Nov. 3–4, 2026; notes/book-checks/macv-command-history.md)
 
-- MACV's staff and commanders by date, from the chronologies (1967, 1255-85; 1968, 1025-66) and the 1967 volume's Annex H
-  (1207): the J-staff and field commanders' changes, not in the roster.
+- MACV's staff and commanders by date, from the chronologies (1967, 1255-85; 1968, 1025-66) and the 1967 volume's Annex H (1207): the J-staff and field commanders' changes, not in the roster.

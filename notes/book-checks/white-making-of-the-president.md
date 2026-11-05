@@ -1,25 +1,14 @@
 # Theodore H. White, *The Making of the President 1960* (`w.white-making-of-the-president`)
 
-Read Oct. 29, 2026, by the batch-3 reading (1960: Nixon, *Six Crises*, then White). Patch:
-`inbox/2026-10-29-b3-white-1960.yaml` (b3-white-1960). Records: `sources/cited-records/white-making-of-the-president.yaml`.
-Read again Nov. 3–4, 2026 (batch 3 resumed): patch `inbox/2026-11-03-b3-white-1960-2.yaml` (b3-white-1960-2; 15
-entries added, 7 cites, checks and map rows, 3 edits), witnesses `inbox/witnesses/2026-11-03-b3-white-1960-2.yaml` (6
-new, 7 amended); "The second reading", below.
+Read Oct. 29, 2026, by the batch-3 reading (1960: Nixon, *Six Crises*, then White). Patch: `inbox/2026-10-29-b3-white-1960.yaml` (b3-white-1960). Records: `sources/cited-records/white-making-of-the-president.yaml`. Read again Nov. 3–4, 2026 (batch 3 resumed): patch `inbox/2026-11-03-b3-white-1960-2.yaml` (b3-white-1960-2; 15 entries added, 7 cites, checks and map rows, 3 edits), witnesses `inbox/witnesses/2026-11-03-b3-white-1960-2.yaml` (6 new, 7 amended); "The second reading", below.
 
 ## The copy
 
-The owner's copy (Drive), Atheneum, New York, 1961, the first edition (LC 61-9259); 420 PDF pages with a text layer, read
-from it. Printed page = PDF page less 16, the same throughout: checked by the running heads on pp. 6, 158, 208, 258, 308
-and 358. The PDF was deleted once its text was taken. A journalist's narrative, much of it from White's own notes and
-interviews; he quotes the candidates from the campaigns' stenotype transcripts (258 n.4) and names his few printed
-sources in the notes (Carleton Kent, 207 n.4; Mary McGrory, 113 n.13; Robert Novak, 126). Its pages differ from the
-printing Perlstein cites (Perlstein's 357–58 for the Phoenix footnote is this copy's 327–28).
+The owner's copy (Drive), Atheneum, New York, 1961, the first edition (LC 61-9259); 420 PDF pages with a text layer, read from it. Printed page = PDF page less 16, the same throughout: checked by the running heads on pp. 6, 158, 208, 258, 308 and 358. The PDF was deleted once its text was taken. A journalist's narrative, much of it from White's own notes and interviews; he quotes the candidates from the campaigns' stenotype transcripts (258 n.4) and names his few printed sources in the notes (Carleton Kent, 207 n.4; Mary McGrory, 113 n.13; Robert Novak, 126). Its pages differ from the printing Perlstein cites (Perlstein's 357–58 for the Phoenix footnote is this copy's 327–28).
 
 ## The cites it had
 
-Twenty-four calendar entries cited the book, all but three without a page. Eighteen are edited in other pending patches
-(Sorensen's, Humphrey's, Branch's, McPherson's, *Suite 3505*'s, and this run's *Six Crises*); their pinpoints are below,
-"For entries in pending patches", for the merger. Of the rest:
+Twenty-four calendar entries cited the book, all but three without a page. Eighteen are edited in other pending patches (Sorensen's, Humphrey's, Branch's, McPherson's, *Suite 3505*'s, and this run's *Six Crises*); their pinpoints are below, "For entries in pending patches", for the merger. Of the rest:
 
 | entry | ruling |
 |---|---|
@@ -31,47 +20,24 @@ Twenty-four calendar entries cited the book, all but three without a page. Eight
 | cal.1960-07.elections-1960-3 | already pinned (309); in a pending patch |
 | cal.1960-10-25.elections-1960 | already pinned (301, 311–12); left |
 
-Edited besides (the book treats them; no cite before): cal.1960-03-24.elections-1960 (42, 39; "Check the date" taken
-out), cal.1960-05.elections-1960 (142: the visit May 21), cal.1960-05-12.republican-party (181), cal.1960-05.elections-1960-2
-(181), cal.1960-05-23.elections-1960 (181), cal.1960-05-25.elections-1960-2 (181), cal.1960-07.elections-1960-2 (192–93),
-cal.1960-07-24.elections-1960-2 (200), cal.1960-07-25.elections-1960 (205–6), cal.1960-07-26.republican-party (204–5),
-cal.1960-07.elections-1960-4 (245–49), cal.1960-09-05.elections-1960 (252–53), cal.1960-10-31.elections-1960 (309),
-cal.1960-11-06.elections-1960 (314).
+Edited besides (the book treats them; no cite before): cal.1960-03-24.elections-1960 (42, 39; "Check the date" taken out), cal.1960-05.elections-1960 (142: the visit May 21), cal.1960-05-12.republican-party (181), cal.1960-05.elections-1960-2 (181), cal.1960-05-23.elections-1960 (181), cal.1960-05-25.elections-1960-2 (181), cal.1960-07.elections-1960-2 (192–93), cal.1960-07-24.elections-1960-2 (200), cal.1960-07-25.elections-1960 (205–6), cal.1960-07-26.republican-party (204–5), cal.1960-07.elections-1960-4 (245–49), cal.1960-09-05.elections-1960 (252–53), cal.1960-10-31.elections-1960 (309), cal.1960-11-06.elections-1960 (314).
 
 ## New entries (73)
 
-The West Virginia organization (Apr. 6, Apr. 11); Nixon's leak on Rockefeller (May 1); Rockefeller and Hughes at
-Tarrytown (May 30); Draft Stevenson (early June; July 4 week end); Lehman left off New York's delegation, and Wagner's
-reception for Kennedy (June 16); New York's delegation polled (late June); Montana's convention (June 27); Draft
-Rockefeller, from Brinton's start to the mail at Chicago (June 27–29, July 8, July 18, July 23–25); Lawrence, Kennedy and
-Stevenson (July 9–10); California's split, Kansas and Iowa, and Stevenson's two days (July 12–13); Stevenson and Daley
-(July 13); Jackson named chairman (July 16); the Republican platform committee (July 18–20, July 23, July 24), the
-Rockefeller strategy board and its statement (July 21, 22), Morton's release of the planks (July 23), the defense plank
-settled with Newport (July 25–26); Kennedy's opening (Sept. 2–3) and California train (Sept. 8–9); the Southern
-governors' telegram (Sept. 26); the Hyannis Port conference (Oct. 1); Quemoy and Matsu in New York (Oct. 12); Wittenberg,
-Miami Beach and Tampa (Oct. 17, 18); the Broadway parade (Oct. 19); the Justice Department's statement on King, never
-issued (Oct. 25); the elephants (Nov. 5); Waterbury (Nov. 6); Nixon's tally (Nov. 7); the Secret Service (Nov. 9).
-Campaign speeches carry their APP record (by the index; APP not read). And thirty-two more under the owner's ruling of
-Oct. 28 (late), listed under "Entered" below.
+The West Virginia organization (Apr. 6, Apr. 11); Nixon's leak on Rockefeller (May 1); Rockefeller and Hughes at Tarrytown (May 30); Draft Stevenson (early June; July 4 week end); Lehman left off New York's delegation, and Wagner's reception for Kennedy (June 16); New York's delegation polled (late June); Montana's convention (June 27); Draft Rockefeller, from Brinton's start to the mail at Chicago (June 27–29, July 8, July 18, July 23–25); Lawrence, Kennedy and Stevenson (July 9–10); California's split, Kansas and Iowa, and Stevenson's two days (July 12–13); Stevenson and Daley (July 13); Jackson named chairman (July 16); the Republican platform committee (July 18–20, July 23, July 24), the Rockefeller strategy board and its statement (July 21, 22), Morton's release of the planks (July 23), the defense plank settled with Newport (July 25–26); Kennedy's opening (Sept. 2–3) and California train (Sept. 8–9); the Southern governors' telegram (Sept. 26); the Hyannis Port conference (Oct. 1); Quemoy and Matsu in New York (Oct. 12); Wittenberg, Miami Beach and Tampa (Oct. 17, 18); the Broadway parade (Oct. 19); the Justice Department's statement on King, never issued (Oct. 25); the elephants (Nov. 5); Waterbury (Nov. 6); Nixon's tally (Nov. 7); the Secret Service (Nov. 9). Campaign speeches carry their APP record (by the index; APP not read). And thirty-two more under the owner's ruling of Oct. 28 (late), listed under "Entered" below.
 
 ## Disagreements
 
 - Maryland's primary: White, 118 and 114, "Friday, May 15th"; the calendar and CQ, Tuesday, May 17.
-- Pennsylvania: White, 161, "sixty-four for Kennedy" at the caucus of July 11; cal.1960-07-11.elections-1960-3, sixty-eight on
-  the first ballot. Perhaps both; Check.
+- Pennsylvania: White, 161, "sixty-four for Kennedy" at the caucus of July 11; cal.1960-07-11.elections-1960-3, sixty-eight on the first ballot. Perhaps both; Check.
 - Oregon: White, 118, "a 60 to 40 margin" over Morse; the calendar's 51.0 percent is of all the votes, 61.5 of the two.
 - Jackson's appointment: White, 179, "Saturday morning, July 17th"; July 17, 1960, was a Sunday. Entered July 16, Check.
-- Section 315: White, 282, "on June 27th, Section 315 was officially suspended"; the joint resolution was signed Aug. 24,
-  74 Stat. 554 (cal.1960-08-24.press-and-broadcasting). June 27 may be a vote in Congress. Check.
-- The platform committee's civil rights vote: White, 204, 50 to 35 on hearing Nixon's plank; Perlstein, 56–28 for the
-  plank (cal.1960-07-26.republican-party, Check added).
-- Eisenhower's last week: White, 311, a telecast "out of Pittsburgh on Saturday, October 29th"; the Public Papers give
-  Philadelphia, Oct. 28, and Pittsburgh and Cleveland, Nov. 4 (1960–61 Pub. Papers 815, 836–51).
-- The popular vote: White, 350, Kennedy 34,221,463 to Nixon 34,108,582, a 112,881 margin (the AP's tabulation of Dec.
-  17, 1960, 386); the calendar's figures are the Clerk's (cal.1960-11-08.elections-1960).
+- Section 315: White, 282, "on June 27th, Section 315 was officially suspended"; the joint resolution was signed Aug. 24, 74 Stat. 554 (cal.1960-08-24.press-and-broadcasting). June 27 may be a vote in Congress. Check.
+- The platform committee's civil rights vote: White, 204, 50 to 35 on hearing Nixon's plank; Perlstein, 56–28 for the plank (cal.1960-07-26.republican-party, Check added).
+- Eisenhower's last week: White, 311, a telecast "out of Pittsburgh on Saturday, October 29th"; the Public Papers give Philadelphia, Oct. 28, and Pittsburgh and Cleveland, Nov. 4 (1960–61 Pub. Papers 815, 836–51).
+- The popular vote: White, 350, Kennedy 34,221,463 to Nixon 34,108,582, a 112,881 margin (the AP's tabulation of Dec. 17, 1960, 386); the calendar's figures are the Clerk's (cal.1960-11-08.elections-1960).
 - White, 294, Kennedy's remark "on the Monday following election, November 12th": Nov. 12, 1960, was a Saturday.
-- Rockefeller's convention offer: White, 181, the week of May 1; Gifford, mid-May (cal.1960-05-12.republican-party, Check
-  added).
+- Rockefeller's convention offer: White, 181, the week of May 1; Gifford, mid-May (cal.1960-05-12.republican-party, Check added).
 
 ## For entries in pending patches
 
@@ -131,10 +97,7 @@ Oct. 28 (late), listed under "Entered" below.
 
 ## Passed over
 
-Under the owner's rulings of Oct. 28 (the papers of government; and, late, the dated stretch, the trip, the private
-meeting and the event's incidents as entries), re-ruled Nov. 3–4, 2026, under the reader's brief (R5, R7, R13, R18):
-the rows now entered are in the tables after this one; chapter 15 (366–82), passed over whole before, is read and its
-rows added. Made page by page from the book against the calendar's entries for 1960–61 and the ledger.
+Under the owner's rulings of Oct. 28 (the papers of government; and, late, the dated stretch, the trip, the private meeting and the event's incidents as entries), re-ruled Nov. 3–4, 2026, under the reader's brief (R5, R7, R13, R18): the rows now entered are in the tables after this one; chapter 15 (366–82), passed over whole before, is read and its rows added. Made page by page from the book against the calendar's entries for 1960–61 and the ledger.
 
 | page | date | event | why |
 |---|---|---|---|
@@ -172,8 +135,7 @@ rows added. Made page by page from the book against the calendar's entries for 1
 | 377 | Nov. 16, 1960 | the outgoing President's paper on the National Goals | already in (cal.1960-11-16.program) |
 | 379 | 1960 | the science appropriations: $750 million for basic research, $8 billion for research and development | lead: figures with no series to hold them |
 
-By reason: out of the brief 3; already in 11; minor 12 (private or a remark 3, social or family 2, ceremonial 1, no act
-or analysis 4, a date in the law 1, repetitions 1); a passed-over paper 2; leads 5.
+By reason: out of the brief 3; already in 11; minor 12 (private or a remark 3, social or family 2, ceremonial 1, no act or analysis 4, a date in the law 1, repetitions 1); a passed-over paper 2; leads 5.
 
 ## Entered (the owner's ruling, Oct. 28, late)
 
@@ -215,12 +177,7 @@ In this patch (b3-white-1960), from rows first passed over as undated, private, 
 
 ## The second reading (Nov. 3–4, 2026)
 
-The same copy, fetched again from Drive's public download address (19 MB; `file`: PDF 1.5), text by `pdftotext
--layout`, deleted when done; printed = PDF − 16 holds, checked on the images of pp. 126 (PDF 142) and 375 (PDF 391).
-Read now: chapter 15 (366–82), the pages the first run passed over (126–27, 259–60, 283–86, 309, 319, 324–25), the
-notes (every footnote naming a source: 90 n.3, 113 n.13, 192 n.2, 198 n.8, 207 n.4, 258 n.4, 261 n.6, 292 n.4, 350
-n.8, 368 n.1, 373 n.3) and the appendices (A, 386; B, 388–90; C, 391–94), and the four entries where the card still
-stood behind "To check:".
+The same copy, fetched again from Drive's public download address (19 MB; `file`: PDF 1.5), text by `pdftotext -layout`, deleted when done; printed = PDF − 16 holds, checked on the images of pp. 126 (PDF 142) and 375 (PDF 391). Read now: chapter 15 (366–82), the pages the first run passed over (126–27, 259–60, 283–86, 309, 319, 324–25), the notes (every footnote naming a source: 90 n.3, 113 n.13, 192 n.2, 198 n.8, 207 n.4, 258 n.4, 261 n.6, 292 n.4, 350 n.8, 368 n.1, 373 n.3) and the appendices (A, 386; B, 388–90; C, 391–94), and the four entries where the card still stood behind "To check:".
 
 ### Cites, checks and edits
 
@@ -245,22 +202,12 @@ stood behind "To check:".
 | 309 | Sept. 26 | Eisenhower to the Catholic Charities, the debate's evening (1960–61 Pub. Papers 728: 9:52 p.m., the Statler Hilton) | cal.1960-09-26.elections-1960-5 |
 | 374–77 | Mar. 9, 1961 | "a typical Thursday" of "early winter of 1961": the House's feed grain vote (Voteview, roll calls 7 and 8); Truman; Seaborg, Wiesner and Bell; Finletter; Gavin; the cotton growers; the Peace Corps film; the OCDM Director sworn; Bell, Bundy, Wiesner and Sorensen; the housing message (1961 Pub. Papers 162); Kennedy to White at the day's end | cal.1961-03-09.farm, .democratic-party, .economy-2, .europe-and-the-alliance, .europe-and-the-alliance-france, .trade, .peace-corps, .defense, .economy-3, .cities-and-housing, .press-and-broadcasting |
 
-The day: White gives "a typical Thursday" of "early winter of 1961". The records fix it at Thursday, Mar. 9: the
-Laos meeting with Felt, 3:30 to 4:44 p.m. (FRUS 1961–63, XXIV, doc. 25; White's "one and one quarter hours"); the
-House's vote on the feed grain bill, 209 to 202 (White: "by only seven votes"); Nkrumah at the White House the day
-before (cal.1961-03-08.africa); the housing message of Mar. 9; the Executive roster's Frank B. Ellis in office from Mar.
-9. Each entry carries the Check. One variant: White's "House Committee on Education" trying the education bill that
-morning; the Daily Digest has Education and Labor in executive session on the minimum wage (H.R. 3935), nothing on
-education (Leads). The housing message was not in the calendar; it is entered from the Public Papers' text.
+The day: White gives "a typical Thursday" of "early winter of 1961". The records fix it at Thursday, Mar. 9: the Laos meeting with Felt, 3:30 to 4:44 p.m. (FRUS 1961–63, XXIV, doc. 25; White's "one and one quarter hours"); the House's vote on the feed grain bill, 209 to 202 (White: "by only seven votes"); Nkrumah at the White House the day before (cal.1961-03-08.africa); the housing message of Mar. 9; the Executive roster's Frank B. Ellis in office from Mar.
+9. Each entry carries the Check. One variant: White's "House Committee on Education" trying the education bill that morning; the Daily Digest has Education and Labor in executive session on the minimum wage (H.R. 3935), nothing on education (Leads). The housing message was not in the calendar; it is entered from the Public Papers' text.
 
 ### Witnesses (R35-R43)
 
-New: Novak's column (126 n.text); the AP's final tabulation of Dec. 17, 1960 (350 n.8, 386 n.text; it differs from
-the Clerk's figures of `cal.1960-11-08.elections-1960` unit A, so it is a variant there, not a `via` row: left for the
-merger, there being no additive op for `variants`); Percy's committee's *Decisions for a Better America* (192 n.2);
-Kennedy's Quemoy and Matsu speech (292 n.4); his Houston remarks (261 n.6; printed in Appendix C, 391 n.text);
-Kennedy's conversation with White, Mar. 9, 1961 (376 n.text). An edge for Appendix B's print of Rockefeller's
-statement of July 22 (388 n.text). Amended: the seven witnesses the conversion made (agent, made, form, `open`).
+New: Novak's column (126 n.text); the AP's final tabulation of Dec. 17, 1960 (350 n.8, 386 n.text; it differs from the Clerk's figures of `cal.1960-11-08.elections-1960` unit A, so it is a variant there, not a `via` row: left for the merger, there being no additive op for `variants`); Percy's committee's *Decisions for a Better America* (192 n.2); Kennedy's Quemoy and Matsu speech (292 n.4); his Houston remarks (261 n.6; printed in Appendix C, 391 n.text); Kennedy's conversation with White, Mar. 9, 1961 (376 n.text). An edge for Appendix B's print of Rockefeller's statement of July 22 (388 n.text). Amended: the seven witnesses the conversion made (agent, made, form, `open`).
 
 ## The press
 
@@ -271,25 +218,15 @@ date | outlet | broadcast, front page or cover | items | page
 
 ## Leads
 
-Entered now with a Check on the day (the owner's ruling, Oct. 28, late): the Stevenson headquarters, Monroney and
-Sharon's tour, Brown's call, the Plans Board, the mountain-State conventions, the Congo statement, the debate
-negotiations, Klein's press conference, Nixon's estimate, Goldwater on 1964 (the ids above). Left:
+Entered now with a Check on the day (the owner's ruling, Oct. 28, late): the Stevenson headquarters, Monroney and Sharon's tour, Brown's call, the Plans Board, the mountain-State conventions, the Congo statement, the debate negotiations, Klein's press conference, Nixon's estimate, Goldwater on 1964 (the ids above). Left:
 
 - National: the Oct. 12 Quemoy speech (White, 292 n.4): which of the day's APP documents carries it.
 - National: Gallup's readings White gives (250, 264, 319–20), to be set against *The Gallup Poll*, vol. III.
 - National: Section 315, "June 27th" (White, 282): a vote in Congress that day? The *Record*.
-- (Nov. 3–4.) National: the House Committee on Education's "testing" of the education bill on Mar. 9, 1961 (White,
-  375): the Digest's rows for March 1961 (`daybook/committees/1961-03.yaml`) show the education hearings on other days;
-  which day White meant.
-- (Nov. 3–4.) National: the Congress's hearings on the National Purpose, 1960, and the *Times*'s front-page dispatch
-  from Moscow at the year's opening (White, 377): the days.
-- (Nov. 3–4.) National: John Bartlow Martin and Joseph Kraft as the campaign's "editorial advance" (White, 324): when
-  they joined; Kraft and Martin for Part III (R13).
-- (Nov. 3–4.) National: the figures of chapter 15 with no series to hold them: the stockpile at the end of 1960,
-  "thirty-five kilomegatons" (372–73, after Hadley, *The Nation's Safety and Arms Control*); the science appropriations
-  of 1960 (379).
-- (Nov. 3–4.) The merger: the AP's tabulation of Dec. 17, 1960 (`x.1960-12-17.associated-press-final-tabulation-of-the-presidential`)
-  is a variant of `cal.1960-11-08.elections-1960` unit A (R41).
-- (Nov. 3–4.) The Executive roster: Frank B. Ellis sworn in as Director of the Office of Civil and Defense
-  Mobilization, Mar. 9, 1961 (White, 375, unnamed; the roster's date is Wikipedia's): a record of the oath.
+- (Nov. 3–4.) National: the House Committee on Education's "testing" of the education bill on Mar. 9, 1961 (White, 375): the Digest's rows for March 1961 (`daybook/committees/1961-03.yaml`) show the education hearings on other days; which day White meant.
+- (Nov. 3–4.) National: the Congress's hearings on the National Purpose, 1960, and the *Times*'s front-page dispatch from Moscow at the year's opening (White, 377): the days.
+- (Nov. 3–4.) National: John Bartlow Martin and Joseph Kraft as the campaign's "editorial advance" (White, 324): when they joined; Kraft and Martin for Part III (R13).
+- (Nov. 3–4.) National: the figures of chapter 15 with no series to hold them: the stockpile at the end of 1960, "thirty-five kilomegatons" (372–73, after Hadley, *The Nation's Safety and Arms Control*); the science appropriations of 1960 (379).
+- (Nov. 3–4.) The merger: the AP's tabulation of Dec. 17, 1960 (`x.1960-12-17.associated-press-final-tabulation-of-the-presidential`) is a variant of `cal.1960-11-08.elections-1960` unit A (R41).
+- (Nov. 3–4.) The Executive roster: Frank B. Ellis sworn in as Director of the Office of Civil and Defense Mobilization, Mar. 9, 1961 (White, 375, unnamed; the roster's date is Wikipedia's): a record of the oath.
 

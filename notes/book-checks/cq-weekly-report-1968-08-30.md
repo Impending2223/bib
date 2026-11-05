@@ -1,58 +1,20 @@
 # *Congressional Quarterly Weekly Report*, Aug. 30, 1968 (vol. 26, no. 35): a reading against the calendar
 
-Card `w.cq-weekly-report`. Cited by issue date and printed page: "[[w.cq-weekly-report]], Aug. 30, 1968, 2293"; no
-link (no open copy). Read Nov. 1, 2026, from the owner's scan (65 PDF pages, no text layer), OCR'd a page a file
-(`scratchpad/cq68/pg/n68-35-NNN.txt`, page images beside them, about 4880 × 6280 px). No calendar entry cited this
-issue before this run (R3 step 1: nothing to hold up).
+Card `w.cq-weekly-report`. Cited by issue date and printed page: "[[w.cq-weekly-report]], Aug. 30, 1968, 2293"; no link (no open copy). Read Nov. 1, 2026, from the owner's scan (65 PDF pages, no text layer), OCR'd a page a file (`scratchpad/cq68/pg/n68-35-NNN.txt`, page images beside them, about 4880 × 6280 px). No calendar entry cited this issue before this run (R3 step 1: nothing to hold up).
 
-Offset: printed = PDF + 2280 throughout (PDF 1 the cover, "Pages 2282–2343"; PDF 2 p. 2282, the Boxscore; PDF 63
-p. 2343; PDF 64 the contents on the back cover; PDF 65 blank). No page scanned twice. Checked on the running feet of
-pp. 2284–2312, 2315, 2320–2328, 2337, 2338, 2342, 2343 (the OCR misreads 2283's foot as "2268", 2311's as "2811",
-2317's as "2017", 2319's as "2010"; 2313, 2314, 2316, 2318 lost to the OCR, read on the images at 2313, 2314).
+Offset: printed = PDF + 2280 throughout (PDF 1 the cover, "Pages 2282–2343"; PDF 2 p. 2282, the Boxscore; PDF 63 p. 2343; PDF 64 the contents on the back cover; PDF 65 blank). No page scanned twice. Checked on the running feet of pp. 2284–2312, 2315, 2320–2328, 2337, 2338, 2342, 2343 (the OCR misreads 2283's foot as "2268", 2311's as "2811", 2317's as "2017", 2319's as "2010"; 2313, 2314, 2316, 2318 lost to the OCR, read on the images at 2313, 2314).
 
-What it is: the convention (pp. 2283–88: summary, Humphrey, Muskie, the platform's floor fight, credentials, the
-unit rule, the first ballot by State and the Vietnam plank's roll call by State), the platform's analysis (2289–91),
-CQ's hour-by-hour chronology, Aug. 22–30 (2292–93, continued 2338), Inouye's keynote (2294–96), the platform's text
-(2296–2308), politics (the outlooks for the primaries of Sept. 10–11, Wallace, Nixon's chronology from Aug. 20, the
-Texas special, the Oklahoma, Alaska and New Mexico primaries of Aug. 27: 2309–14, 2342), floor action (public
-works-AEC, the Eye Institute, maritime authorization, the Virgin Islands governor, the highway act: 2315–22), the
-work facing Congress (2323–24), lobby registrations (2325–32), communications studies (2333–36), around the Capitol
-(2337), Humphrey's acceptance (2339–41), the President's statements (2343). Not read for entries beyond the passages
-cited: the platform's text, the keynote, the acceptance, the outlooks, the registrations, the communications study.
+What it is: the convention (pp. 2283–88: summary, Humphrey, Muskie, the platform's floor fight, credentials, the unit rule, the first ballot by State and the Vietnam plank's roll call by State), the platform's analysis (2289–91), CQ's hour-by-hour chronology, Aug. 22–30 (2292–93, continued 2338), Inouye's keynote (2294–96), the platform's text (2296–2308), politics (the outlooks for the primaries of Sept. 10–11, Wallace, Nixon's chronology from Aug. 20, the Texas special, the Oklahoma, Alaska and New Mexico primaries of Aug. 27: 2309–14, 2342), floor action (public works-AEC, the Eye Institute, maritime authorization, the Virgin Islands governor, the highway act: 2315–22), the work facing Congress (2323–24), lobby registrations (2325–32), communications studies (2333–36), around the Capitol (2337), Humphrey's acceptance (2339–41), the President's statements (2343). Not read for entries beyond the passages cited: the platform's text, the keynote, the acceptance, the outlooks, the registrations, the communications study.
 
-Records: none. The *Weekly Report* has no notes; it names its sources in the text (UPI, CBS, the *Chicago Tribune*):
-no `sources/cited-records/` file. Primary records read and cited first: the Public Papers' items 429, 430, 434, 449
-and 457 of 1968–69 (`sources/ppp-text`), which bear out CQ's list (2343) and its text of the balance-of-payments
-statement; the Statutes at Large, 82 Stat. 692, 705, 771 and 837, read on govinfo (each act's approval line: 90-471
-Aug. 9, 90-479 Aug. 12, 90-489 Aug. 16, 90-496 Aug. 23). Found, not read: the convention's *Official Proceedings*
-(Democratic 1968: not found, `notes/leads.md`), the Oklahoma State Election Board's returns (linked, behind "To
-check:"), New Mexico's canvass, the Harris release of Aug. 19, the *Tribune* of Aug. 26–27.
+Records: none. The *Weekly Report* has no notes; it names its sources in the text (UPI, CBS, the *Chicago Tribune*): no `sources/cited-records/` file. Primary records read and cited first: the Public Papers' items 429, 430, 434, 449 and 457 of 1968–69 (`sources/ppp-text`), which bear out CQ's list (2343) and its text of the balance-of-payments statement; the Statutes at Large, 82 Stat. 692, 705, 771 and 837, read on govinfo (each act's approval line: 90-471 Aug. 9, 90-479 Aug. 12, 90-489 Aug. 16, 90-496 Aug. 23). Found, not read: the convention's *Official Proceedings* (Democratic 1968: not found, `notes/leads.md`), the Oklahoma State Election Board's returns (linked, behind "To check:"), New Mexico's canvass, the Harris release of Aug. 19, the *Tribune* of Aug. 26–27.
 
-Patch: `inbox/2026-11-01-cq-1968-08-30.yaml`: 80 new entries, each claimed in the ledger; cites on 13 entries already
-in the calendar and 11 Checks; full `src` maps on the 24 new entries whose CQ cite carries a parenthetical (the cite
-standing for all of `c`, or for its units where the Papers or the Statutes carry the rest). patch-check: 0 errors;
-55 warnings, each a same-day, same-thread set of distinct events (the convention's days: Aug. 26 holds 16 entries in
-the Chicago thread, Aug. 27 fifteen). A trial merge into a scratch copy of the tree flags the same 55 as duplicates
-and nothing else; `check` there: no other error, no names or result-form warning from these entries; `audit-cal`
-there: namesakes only (Vance, Anderson, Jack Don Nixon), and a Johnson untagged, put right.
+Patch: `inbox/2026-11-01-cq-1968-08-30.yaml`: 80 new entries, each claimed in the ledger; cites on 13 entries already in the calendar and 11 Checks; full `src` maps on the 24 new entries whose CQ cite carries a parenthetical (the cite standing for all of `c`, or for its units where the Papers or the Statutes carry the rest). patch-check: 0 errors; 55 warnings, each a same-day, same-thread set of distinct events (the convention's days: Aug. 26 holds 16 entries in the Chicago thread, Aug. 27 fifteen). A trial merge into a scratch copy of the tree flags the same 55 as duplicates and nothing else; `check` there: no other error, no names or result-form warning from these entries; `audit-cal` there: namesakes only (Vance, Anderson, Jack Don Nixon), and a Johnson untagged, put right.
 
 ## Checked against the page images (Nov. 1, 2026)
 
-Every figure, date, time, name, vote and quotation in the patch was read on the page image (crops of 800–1100 px a
-column), not taken from the OCR: pp. 2284 (left column lower: Muskie's choice, 4:34 p.m., Bond; right column: the
-vice-presidential vote, Muskie's acceptance), 2285 (left column whole; right column: the debate, the vote, the
-armbands, O'Donnell, Boggs's hearings), 2286 (both columns: the challenges, the committee, the floor votes), 2287
-(left column whole; the table's totals), 2288 (the table's head and totals), 2289 (left column: the plank's history,
-the *Tribune*, Boggs; right column lower: O'Donnell's four motions), 2292 (both columns), 2293 (both columns), 2294
-(the keynote's opening), 2313 (Nixon), 2314 (both columns: Wallace, the Texas special, Oklahoma), 2315 (left column
-upper and middle), 2318 (right column lower), 2319 (both columns), 2320 (both columns upper), 2322 (right column
-lower), 2333 (top), 2337 (both columns), 2338 (both columns), 2340 (right column lower: the acceptance's passage),
-2342 (whole), 2343 (right column lower: the list of statements). Not image-read, and so not used for a figure:
-2283 beyond its summary's 1,760¼ (also on 2288, read), 2290–91, 2295–2312 but 2309–13 scanned for dates only,
-2316–17, 2321, 2323–36 but 2333's top.
+Every figure, date, time, name, vote and quotation in the patch was read on the page image (crops of 800–1100 px a column), not taken from the OCR: pp. 2284 (left column lower: Muskie's choice, 4:34 p.m., Bond; right column: the vice-presidential vote, Muskie's acceptance), 2285 (left column whole; right column: the debate, the vote, the armbands, O'Donnell, Boggs's hearings), 2286 (both columns: the challenges, the committee, the floor votes), 2287 (left column whole; the table's totals), 2288 (the table's head and totals), 2289 (left column: the plank's history, the *Tribune*, Boggs; right column lower: O'Donnell's four motions), 2292 (both columns), 2293 (both columns), 2294 (the keynote's opening), 2313 (Nixon), 2314 (both columns: Wallace, the Texas special, Oklahoma), 2315 (left column upper and middle), 2318 (right column lower), 2319 (both columns), 2320 (both columns upper), 2322 (right column lower), 2333 (top), 2337 (both columns), 2338 (both columns), 2340 (right column lower: the acceptance's passage), 2342 (whole), 2343 (right column lower: the list of statements). Not image-read, and so not used for a figure: 2283 beyond its summary's 1,760¼ (also on 2288, read), 2290–91, 2295–2312 but 2309–13 scanned for dates only, 2316–17, 2321, 2323–36 but 2333's top.
 
-The OCR agreed with the images in every figure checked but the fractions, which it drops or garbles ("1,041'" for
-1,041½; "883 '2" for 883½); each was read on the image.
+The OCR agreed with the images in every figure checked but the fractions, which it drops or garbles ("1,041'" for 1,041½; "883 '2" for 883½); each was read on the image.
 
 ## Cites added to entries already in the calendar
 
@@ -89,29 +51,15 @@ The OCR agreed with the images in every figure checked but the fractions, which 
 | cal.1968-08-23.elections-1968-chicago-4 | some 5,000 Guardsmen mobilized | the first of 5,600 arriving Aug. 23 (2292) | none | Check |
 | cal.1968-08-05.africa | the message of Aug. 5 | lists also an Aug. 3 message to Haile Selassie on Nigeria's food shortage (2343) | the Papers print none of Aug. 3 | Check |
 
-CQ's own slips, kept out of the entries: the floor's first try at the Vietnam debate dated "1:03 a.m. (C.D.T.)
-Aug. 23" (2285; its chronology, 1:04–1:17 a.m., Aug. 28, 2338); the balloting "began 11:19 p.m." (2342; its
-chronology, the roll for nominations from 8:11 p.m.); the Texas special's general election "Nov. 3" (2314); the Rules
-Committee "adjourned at 11:13 p.m." on Aug. 22 after meeting from 10:16 a.m. and again at 2:13 p.m. (2292); Beasley's
-share 60.0 and Sokolsky's 31.1 percent, the counts giving 60.2 and 26.0 (2314).
+CQ's own slips, kept out of the entries: the floor's first try at the Vietnam debate dated "1:03 a.m. (C.D.T.) Aug. 23" (2285; its chronology, 1:04–1:17 a.m., Aug. 28, 2338); the balloting "began 11:19 p.m." (2342; its chronology, the roll for nominations from 8:11 p.m.); the Texas special's general election "Nov. 3" (2314); the Rules Committee "adjourned at 11:13 p.m." on Aug. 22 after meeting from 10:16 a.m. and again at 2:13 p.m. (2292); Beasley's share 60.0 and Sokolsky's 31.1 percent, the counts giving 60.2 and 26.0 (2314).
 
 ## For the orchestrator
 
-1. cal.1968-08-27.elections-1968-chicago bundles two acts: the unit rule's abolition for 1968 (Aug. 26, by CQ, now
-   `cal.1968-08-26.elections-1968-chicago-15`) and the minority report on 1972 (Aug. 27, 11:38 p.m., 1,350–1,206).
-   An `edit` to drop "The unit rule abolished, and" from `c` (and re-hash its map) is yours to rule; not done here.
-2. cal.1968-08-26.elections-1968-2 bundles the committee's decisions (its hearings ended Aug. 23) and the floor's
-   (Aug. 26–27). The floor's roll calls are now entries of their own (Texas, Georgia, Alabama, Aug. 27); the
-   Mississippi seating by voice vote, Aug. 26, 11:19 p.m., is in `cal.1968-08-26.elections-1968-chicago-16`. The
-   committee's decisions have no day in CQ: a lead.
-3. The roll calls by State (the first ballot, 2288; the Vietnam plank, 2287) are raw material for the `rollcall:` and
-   `conventions:` tables of 1968-D: a lead, not entered row by row.
-4. The floor steps of July 24–30 on the bills signed in August (public works, maritime, the Virgin Islands, the
-   highway act's Senate adoption of July 29, 66–6) are CQ's of Aug. 2, the other reader's issue; kept here in the
-   signing entries' notes and not entered, to keep the two runs apart. If that reader has not entered them, they are
-   leads.
-5. Same-day sets (patch-check's 55 warnings, the trial merge's 55 duplicate flags): each a distinct act CQ dates and
-   times; none bundles two. `--take keep` on each.
+1. cal.1968-08-27.elections-1968-chicago bundles two acts: the unit rule's abolition for 1968 (Aug. 26, by CQ, now `cal.1968-08-26.elections-1968-chicago-15`) and the minority report on 1972 (Aug. 27, 11:38 p.m., 1,350–1,206). An `edit` to drop "The unit rule abolished, and" from `c` (and re-hash its map) is yours to rule; not done here.
+2. cal.1968-08-26.elections-1968-2 bundles the committee's decisions (its hearings ended Aug. 23) and the floor's (Aug. 26–27). The floor's roll calls are now entries of their own (Texas, Georgia, Alabama, Aug. 27); the Mississippi seating by voice vote, Aug. 26, 11:19 p.m., is in `cal.1968-08-26.elections-1968-chicago-16`. The committee's decisions have no day in CQ: a lead.
+3. The roll calls by State (the first ballot, 2288; the Vietnam plank, 2287) are raw material for the `rollcall:` and `conventions:` tables of 1968-D: a lead, not entered row by row.
+4. The floor steps of July 24–30 on the bills signed in August (public works, maritime, the Virgin Islands, the highway act's Senate adoption of July 29, 66–6) are CQ's of Aug. 2, the other reader's issue; kept here in the signing entries' notes and not entered, to keep the two runs apart. If that reader has not entered them, they are leads.
+5. Same-day sets (patch-check's 55 warnings, the trial merge's 55 duplicate flags): each a distinct act CQ dates and times; none bundles two. `--take keep` on each.
 
 ## New entries (80)
 
@@ -198,9 +146,7 @@ share 60.0 and Sokolsky's 31.1 percent, the counts giving 60.2 and 26.0 (2314).
 
 ## Passed over
 
-Made by reading every page's OCR for a dated act and every chronology line on the images (2292–93, 2338); the
-outlooks and fact sheets (2309–13, 2323–36) by a search of their text for dates, then reading the passages found.
-Events already in the calendar are not listed (they took cites, above).
+Made by reading every page's OCR for a dated act and every chronology line on the images (2292–93, 2338); the outlooks and fact sheets (2309–13, 2323–36) by a search of their text for dates, then reading the passages found. Events already in the calendar are not listed (they took cites, above).
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -246,29 +192,18 @@ Events already in the calendar are not listed (they took cites, above).
 ## Leads
 
 ### National
-- The Democratic convention's roll calls by State, 1968: the first ballot (CQ, Aug. 30, 1968, 2288: 2,622 votes,
-  Humphrey 1,760¼, abstaining 14) and the Vietnam plank (2287: yeas 1,041¼, nays 1,567¾), for the `rollcall:1968-D-*`
-  tables until the *Official Proceedings* are found. Also the credentials roll calls (Texas, Georgia, Alabama), the
-  Unruh motion, the 1972 unit rule and the National Committee proposal: totals only in CQ (2286–87, 2293).
-- The Credentials Committee's decisions, Aug. 19–23, 1968: their days (CQ gives the hearings' days only). Where:
-  Chester, *American Melodrama*; the committee's report in the Proceedings.
+- The Democratic convention's roll calls by State, 1968: the first ballot (CQ, Aug. 30, 1968, 2288: 2,622 votes, Humphrey 1,760¼, abstaining 14) and the Vietnam plank (2287: yeas 1,041¼, nays 1,567¾), for the `rollcall:1968-D-*` tables until the *Official Proceedings* are found. Also the credentials roll calls (Texas, Georgia, Alabama), the Unruh motion, the 1972 unit rule and the National Committee proposal: totals only in CQ (2286–87, 2293).
+- The Credentials Committee's decisions, Aug. 19–23, 1968: their days (CQ gives the hearings' days only). Where: Chester, *American Melodrama*; the committee's report in the Proceedings.
 - The Platform Committee's votes on gun control and welfare (CQ, 2285): their day and count.
-- The favorite sons' withdrawals before the ballot of Aug. 28 (Connally, Ellington, McKeithen, Smathers, Moore) and
-  Daley's endorsement of Humphrey: their days (CQ, 2342, undated).
-- The Sunday programs of Aug. 25, 1968 (McCarthy, McGovern, Muskie and Harold Hughes, Richard Hughes, Humphrey at
-  4:05 p.m.): what was said; the transcripts. CQ gives a second Humphrey *Meet the Press* the same day.
+- The favorite sons' withdrawals before the ballot of Aug. 28 (Connally, Ellington, McKeithen, Smathers, Moore) and Daley's endorsement of Humphrey: their days (CQ, 2342, undated).
+- The Sunday programs of Aug. 25, 1968 (McCarthy, McGovern, Muskie and Harold Hughes, Richard Hughes, Humphrey at 4:05 p.m.): what was said; the transcripts. CQ gives a second Humphrey *Meet the Press* the same day.
 - The court injunction against Chicago's bus strike, Aug. 25–26, 1968: the court and the day.
 - Albert's address as permanent chairman, Aug. 27, 1968: its text (Proceedings).
-- Utah's State conventions, July 12–13 and July 26–27, 1968, and Rhode Island's Democratic committee, June 30, 1968:
-  the votes (CQ, 2311–12, gives none).
-- The lobbyist registrations of Apr. 1–June 30, 1968 (CQ, 2325–32, 101): a pass of their own, registrant by
-  registrant, if the owner wants the lobbies' filings in the calendar.
+- Utah's State conventions, July 12–13 and July 26–27, 1968, and Rhode Island's Democratic committee, June 30, 1968: the votes (CQ, 2311–12, gives none).
+- The lobbyist registrations of Apr. 1–June 30, 1968 (CQ, 2325–32, 101): a pass of their own, registrant by registrant, if the owner wants the lobbies' filings in the calendar.
 - The Harris poll released Aug. 19, 1968 (bombing halt, coalition): the field dates.
-- *Chicago Tribune*, first edition of Aug. 26 (dated Aug. 27), 1968: the report of Johnson's order on the plank;
-  Boggs's denial, its day.
-- The floor steps of July 24–30, 1968, on the public works, maritime, Virgin Islands and highway bills (CQ, Aug. 30,
-  2315–22): for the reader of the Aug. 2 issue, if not entered there; and the Virgin Islands bill's House committee
-  report, June 5, and passage, June 17 (2319–20).
+- *Chicago Tribune*, first edition of Aug. 26 (dated Aug. 27), 1968: the report of Johnson's order on the plank; Boggs's denial, its day.
+- The floor steps of July 24–30, 1968, on the public works, maritime, Virgin Islands and highway bills (CQ, Aug. 30, 2315–22): for the reader of the Aug. 2 issue, if not entered there; and the Virgin Islands bill's House committee report, June 5, and passage, June 17 (2319–20).
 - New Mexico's primary, Aug. 27, 1968: the counts (CQ printed none; the State's canvass).
 - Oklahoma's primary, Aug. 27, 1968: the State Election Board's figures against CQ's "almost complete" returns.
 

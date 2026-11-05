@@ -1,30 +1,18 @@
 # Robert D. Novak, *The Agony of the G.O.P. 1964* (`w.novak-agony-of-the-g`)
 
-Begun Nov. 4, 2026, by the batch-3 reading resumed (group 1964), after *Suite 3505* and Theodore White. Patch
-`inbox/2026-11-03-b3-novak-agony-2.yaml` (b3-novak-agony-2: 9 ops, 1 new entry claimed in the ledger, 5 cites, 2
-checks, 1 src row). Witnesses `inbox/witnesses/2026-11-03-b3-novak-agony-2.yaml` (1); edges
-`sources/witnesses/by-work/novak-agony-of-the-g.yaml` (1).
+Begun Nov. 4, 2026, by the batch-3 reading resumed (group 1964), after *Suite 3505* and Theodore White. Patch `inbox/2026-11-03-b3-novak-agony-2.yaml` (b3-novak-agony-2: 9 ops, 1 new entry claimed in the ledger, 5 cites, 2 checks, 1 src row). Witnesses `inbox/witnesses/2026-11-03-b3-novak-agony-2.yaml` (1); edges `sources/witnesses/by-work/novak-agony-of-the-g.yaml` (1).
 
 ## The copy
 
-The owner's PDF from Drive (Macmillan, 1965), 488 PDF pages, with a text layer; printed page = PDF page − 14 (the
-running heads at PDF 30, 60, 100, 200, 300, 400, 450). Read with `pdftotext`. Deleted when done.
+The owner's PDF from Drive (Macmillan, 1965), 488 PDF pages, with a text layer; printed page = PDF page − 14 (the running heads at PDF 30, 60, 100, 200, 300, 400, 450). Read with `pdftotext`. Deleted when done.
 
 ## What was read
 
-Only the passages bearing on the cites the calendar makes to it, found by search and read in context: 52, 55, 66,
-126, 202, 220–21, 445, 448. **The book is otherwise not yet read** (pp. 1–460, the whole narrative from 1960 to the
-convention, and its notes): the next run should read it through against the calendar (R3, R5).
+Only the passages bearing on the cites the calendar makes to it, found by search and read in context: 52, 55, 66, 126, 202, 220–21, 445, 448. **The book is otherwise not yet read** (pp. 1–460, the whole narrative from 1960 to the convention, and its notes): the next run should read it through against the calendar (R3, R5).
 
 ## The cites it had
 
-Fifteen entries cite it, all behind "To check:". Held and pinned: cal.1962-01.republican-party (52, 55),
-cal.1962-02.elections-1964 (66; Novak gives Feb. 2, 1962: Check added), cal.1963-09-07.republican-party (220–21),
-cal.1963-07-14.elections-1964 (202), cal.1964-07-09.elections-1964 (448; 42 of Ohio's 58 at once: Check added). Not yet
-held: cal.1961-10-08.goldwater (Novak's Avenue Motel meeting at 126 is October 1962, a later meeting: entered as
-cal.1962-10.goldwater-5), cal.1963-04-08.elections-1964, cal.1963-05-04.elections-1964, cal.1963-05-09.goldwater,
-cal.1963-07-04.elections-1964, cal.1964-02-29.elections-1964-state-conventions, cal.1964-06-12.elections-1964 (445 n.2
-names Baltimore only), cal.1964-07-13.elections-1964, cal.1964-08-12.elections-1964, cal.1964-11-03.elections-1964.
+Fifteen entries cite it, all behind "To check:". Held and pinned: cal.1962-01.republican-party (52, 55), cal.1962-02.elections-1964 (66; Novak gives Feb. 2, 1962: Check added), cal.1963-09-07.republican-party (220–21), cal.1963-07-14.elections-1964 (202), cal.1964-07-09.elections-1964 (448; 42 of Ohio's 58 at once: Check added). Not yet held: cal.1961-10-08.goldwater (Novak's Avenue Motel meeting at 126 is October 1962, a later meeting: entered as cal.1962-10.goldwater-5), cal.1963-04-08.elections-1964, cal.1963-05-04.elections-1964, cal.1963-05-09.goldwater, cal.1963-07-04.elections-1964, cal.1964-02-29.elections-1964-state-conventions, cal.1964-06-12.elections-1964 (445 n.2 names Baltimore only), cal.1964-07-13.elections-1964, cal.1964-08-12.elections-1964, cal.1964-11-03.elections-1964.
 
 ## Passed over
 
@@ -40,25 +28,15 @@ None this run beyond the unread book.
 
 # Third run (Nov. 4, 2026, batch 3, group 1964)
 
-Patch `inbox/2026-11-04-b3-novak-agony-3.yaml` (b3-novak-agony-3: 347 ops: 154 new entries, each claimed in the
-ledger; 153 cites; 24 checks; 13 src; 1 names; 2 edits, Novak out of "To check:" where the book does not treat the
-event). Witnesses `inbox/witnesses/2026-11-04-b3-novak-agony-3.yaml` (49 new rows); edges appended to
-`sources/witnesses/by-work/novak-agony-of-the-g.yaml` (53 in all). `./bib patch-check`: 0 errors; `./bib check`: 0
-errors.
+Patch `inbox/2026-11-04-b3-novak-agony-3.yaml` (b3-novak-agony-3: 347 ops: 154 new entries, each claimed in the ledger; 153 cites; 24 checks; 13 src; 1 names; 2 edits, Novak out of "To check:" where the book does not treat the event). Witnesses `inbox/witnesses/2026-11-04-b3-novak-agony-3.yaml` (49 new rows); edges appended to `sources/witnesses/by-work/novak-agony-of-the-g.yaml` (53 in all). `./bib patch-check`: 0 errors; `./bib check`: 0 errors.
 
 ## The copy
 
-The same PDF (Drive id 1OBjMPaii-8qeHVydUAqV4MgtgCwzp9bL, fetched again by drive.usercontent; sharing untouched), 488
-PDF pages, the Internet Archive's text layer, read with `pdftotext -layout` page by page. Printed page = PDF page − 14
-throughout (pp. 1, 16, 286, 326, 447 checked; pp. 326 and 447 read off the page image as well: the New Hampshire
-returns and the Illinois caucus of June 30). The text ends at p. 469; no notes but the footnotes, which were read with
-their pages. Deleted when done.
+The same PDF (Drive id 1OBjMPaii-8qeHVydUAqV4MgtgCwzp9bL, fetched again by drive.usercontent; sharing untouched), 488 PDF pages, the Internet Archive's text layer, read with `pdftotext -layout` page by page. Printed page = PDF page − 14 throughout (pp. 1, 16, 286, 326, 447 checked; pp. 326 and 447 read off the page image as well: the New Hampshire returns and the Illinois caucus of June 30). The text ends at p. 469; no notes but the footnotes, which were read with their pages. Deleted when done.
 
 ## What was read
 
-The whole book, pp. 1–469 (chs. I–XXIV), page by page, against the calendar: each dated event found by date and
-words (`./bib find`, the tree's month, and `./bib ledger find` the day), then cited, or entered when the calendar
-lacked it.
+The whole book, pp. 1–469 (chs. I–XXIV), page by page, against the calendar: each dated event found by date and words (`./bib find`, the tree's month, and `./bib ledger find` the day), then cited, or entered when the calendar lacked it.
 
 ## The cites it had (the ten not held in the second run)
 
@@ -107,33 +85,15 @@ lacked it.
 
 ## The new entries
 
-154, from 1960 to 1964: Rockefeller's and Goldwater's private autopsies of 1960; the Senate conference and the
-national committee of January 1961; Goldwater on *Issues and Answers*; Morhouse's memoranda and interview; the
-committee's meetings and the Southern chairmen's moves of 1962; White's memoranda of Aug. 1962; the governors' races
-of 1962 (Indio, Warren, the eve of New York's election); the Romney boomlet and the remarriage's days (May 1963); the
-breakfasts on Foxhall Road; Omaha, Milwaukee, Cincinnati; the Denver meeting and the declaration of July 14 and its
-answers (Curtis, July 18); Goldwater's autumn (Dodger Stadium, Hartford, the TVA memorandum); Nov. 22 at the
-Sheraton-Carlton; the Lodge story of Dec. 1; the Arizona command and the January meeting; New Hampshire (Gregg and
-Teague, Hanover, the *Union Leader*, Cotton); the state conventions (North Carolina, Nevada, Georgia's meetings); the
-Illinois governor's race; Oregon (Appling and Lodge, Portland, Durno); California (Flournoy, Catalina, Humphrey's call,
-the Milton Eisenhower breakfast); Cleveland and Scranton's decision (June 3–11); Rockefeller's withdrawal (June 15),
-the O'Hare caucus (June 30), Dirksen (July 1); and the press, R13: some twenty columns, editorials and covers.
+154, from 1960 to 1964: Rockefeller's and Goldwater's private autopsies of 1960; the Senate conference and the national committee of January 1961; Goldwater on *Issues and Answers*; Morhouse's memoranda and interview; the committee's meetings and the Southern chairmen's moves of 1962; White's memoranda of Aug. 1962; the governors' races of 1962 (Indio, Warren, the eve of New York's election); the Romney boomlet and the remarriage's days (May 1963); the breakfasts on Foxhall Road; Omaha, Milwaukee, Cincinnati; the Denver meeting and the declaration of July 14 and its answers (Curtis, July 18); Goldwater's autumn (Dodger Stadium, Hartford, the TVA memorandum); Nov. 22 at the Sheraton-Carlton; the Lodge story of Dec. 1; the Arizona command and the January meeting; New Hampshire (Gregg and Teague, Hanover, the *Union Leader*, Cotton); the state conventions (North Carolina, Nevada, Georgia's meetings); the Illinois governor's race; Oregon (Appling and Lodge, Portland, Durno); California (Flournoy, Catalina, Humphrey's call, the Milton Eisenhower breakfast); Cleveland and Scranton's decision (June 3–11); Rockefeller's withdrawal (June 15), the O'Hare caucus (June 30), Dirksen (July 1); and the press, R13: some twenty columns, editorials and covers.
 
 ## Witnesses (R35)
 
-The book has no source notes: its sources are its interviews and the records its text quotes. Each record the text
-names and quotes is a witness, its edge `n.text` (or the footnote that names it): the Goldwater, Rockefeller and
-Morhouse papers and statements, White's memoranda of May 29, Aug. 24 and Oct. 18, 1962, Curtis's speech, the letters
-and telegrams (Goldwater to Miller, Lodge to Appling, Goldwater to Scranton), and the press items quoted (forty in all,
-`open: not held` or `not found`). Already registered and taken as edges: the *Times* of Apr. 15, 1963
-(x.1963-04-15.new-york-times-apr-15-1963), Alsop's *Post* article (x.1963-08-24.can-goldwater-win-1964); Schlafly's
-book by its card. Via rows tie them to the units they ground. None is held by the series (no FRUS, Papers or tape
-among them); none read.
+The book has no source notes: its sources are its interviews and the records its text quotes. Each record the text names and quotes is a witness, its edge `n.text` (or the footnote that names it): the Goldwater, Rockefeller and Morhouse papers and statements, White's memoranda of May 29, Aug. 24 and Oct. 18, 1962, Curtis's speech, the letters and telegrams (Goldwater to Miller, Lodge to Appling, Goldwater to Scranton), and the press items quoted (forty in all, `open: not held` or `not found`). Already registered and taken as edges: the *Times* of Apr. 15, 1963 (x.1963-04-15.new-york-times-apr-15-1963), Alsop's *Post* article (x.1963-08-24.can-goldwater-win-1964); Schlafly's book by its card. Via rows tie them to the units they ground. None is held by the series (no FRUS, Papers or tape among them); none read.
 
 ## Passed over (R44)
 
-Made page by page as the book was read: every dated event in the span the book treats that is neither entered nor
-cited, a row each; a "lead" where the book gives no date to the month (R15) or the matter needs a record to place it.
+Made page by page as the book was read: every dated event in the span the book treats that is neither entered nor cited, a row each; a "lead" where the book gives no date to the month (R15) or the matter needs a record to place it.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -265,48 +225,21 @@ cited, a row each; a "lead" where the book gives no date to the month (R15) or t
 
 ## The press (R13)
 
-date | outlet | broadcast, front page or cover | the items | page
---- | --- | --- | --- | ---
-1960-10 | *Chicago Tribune* | column | Willard Edwards: Nixon's train like Hoover's of 1932 | 7
-1963 | Washington *Evening Star* | column | Gould Lincoln, "Rocky No New Frontiersman" | 103
-1963-05-03 | *Detroit News* | editorial | "George—Come Home" (cited on its entry) | 162
-1963-05-05 | *Washington Post* | | CQ's poll of the 1960 delegates beside the news of the remarriage | 174 n.11
-1963-09-17 | *New York Times* | | Cabell Phillips on Dodger Stadium, "a welcome such as is usually reserved for a Presidential candidate" | 226
-1963-10 | Washington *Evening Star* | column | McGrory on Goldwater's first visit to New Hampshire | 304
-1964-01-07 | *Concord Daily Monitor* | front page, banner | "GOLDWATER SETS GOALS: END SOCIAL SECURITY, HIT CASTRO" | 310
-1964-01-24 | *Concord Daily Monitor* | editorial | "I. M. Undecided" | 323
-1964-04-10 | *Washington Post* | front page | "SCRANTON ALL BUT QUITS RACE" | 341
-1964-04-29 | United Press International | | Durno on Goldwater's Oregon schedule (entered) | 377
-1964-05-03 | Associated Press | | from Dallas: Lodge's write-in in Texas the surprise | 366 n.12
-1964-05-25 | *New York Herald Tribune* | front page | Eisenhower's article; Drummond's column beside it (cited on its entry) | 399-400
-1964-06-02 | *National Review* | | Shadegg's letter on Oregon | 378
-1964-06-17 | *New York Times* | | Loftus on Scranton's decision (a witness) | 436-37
-1964-11-04 | *New York Herald Tribune* | column | Breslin from Phoenix on Goldwater's concession | 3
+date | outlet | broadcast, front page or cover | the items | page --- | --- | --- | --- | --- 1960-10 | *Chicago Tribune* | column | Willard Edwards: Nixon's train like Hoover's of 1932 | 7 1963 | Washington *Evening Star* | column | Gould Lincoln, "Rocky No New Frontiersman" | 103 1963-05-03 | *Detroit News* | editorial | "George—Come Home" (cited on its entry) | 162 1963-05-05 | *Washington Post* | | CQ's poll of the 1960 delegates beside the news of the remarriage | 174 n.11 1963-09-17 | *New York Times* | | Cabell Phillips on Dodger Stadium, "a welcome such as is usually reserved for a Presidential candidate" | 226 1963-10 | Washington *Evening Star* | column | McGrory on Goldwater's first visit to New Hampshire | 304 1964-01-07 | *Concord Daily Monitor* | front page, banner | "GOLDWATER SETS GOALS: END SOCIAL SECURITY, HIT CASTRO" | 310 1964-01-24 | *Concord Daily Monitor* | editorial | "I. M. Undecided" | 323 1964-04-10 | *Washington Post* | front page | "SCRANTON ALL BUT QUITS RACE" | 341 1964-04-29 | United Press International | | Durno on Goldwater's Oregon schedule (entered) | 377 1964-05-03 | Associated Press | | from Dallas: Lodge's write-in in Texas the surprise | 366 n.12 1964-05-25 | *New York Herald Tribune* | front page | Eisenhower's article; Drummond's column beside it (cited on its entry) | 399-400 1964-06-02 | *National Review* | | Shadegg's letter on Oregon | 378 1964-06-17 | *New York Times* | | Loftus on Scranton's decision (a witness) | 436-37 1964-11-04 | *New York Herald Tribune* | column | Breslin from Phoenix on Goldwater's concession | 3
 
 ## Leads (R50)
 
 National:
-- Press figures for Part III entries (R13), each named by Novak: Willard Edwards (7), Paul Duke (99), Gould Lincoln
-  (103), Robert C. Albright (236), Jack Bell (34, 211), Cabell Phillips (104, 132, 216, 226), Felix Belair Jr. (259),
-  Warren Weaver Jr. (147), Leo Egan (70), Alan L. Otten (295, 430), Richard Dougherty (403), Jack Steele (401), Samuel
-  Lubell (379), Mervin Shoemaker (375), Joseph A. Loftus (436), James Burnham (355), Murray Kempton (450).
-- Party figures the calendar names and Part III lacks (K–J Cong. III.K or Opp. III): Wirt Yerger, Tony Smith, Victor
-  Johnston, Bert Teague, Stewart Lamprey, William Loeb, Doloris Bridges, Ione Harrington, Charles Barr, Tad Smith, Tom
-  Fairfield Brown, William Keisling, Craig Truax, Walter Alessandroni, Robert Mullen, Paul Grindle, David Goldberg,
-  Alexander Lankler, Mary Scranton, Charles Carpentier, Bruce Chapman, Harry O'Donnell, Fred Young, Jean Tool, Mort
-  Frayne, Charles Moore, Houston Flournoy, Joseph Martin Jr., Edwin Durno, Howell Appling, Robert C. Albright.
-- Gallup figures Novak gives that the calendar's poll entries do not match: Rockefeller 43, Goldwater 26 before the
-  remarriage, Goldwater 40, Rockefeller 29 after (148); Romney 13, 16, 18 (161); Lodge 42, 36, 28 (380); June 6, 1964
-  (441). Gallup's releases to place them.
+- Press figures for Part III entries (R13), each named by Novak: Willard Edwards (7), Paul Duke (99), Gould Lincoln (103), Robert C. Albright (236), Jack Bell (34, 211), Cabell Phillips (104, 132, 216, 226), Felix Belair Jr. (259), Warren Weaver Jr. (147), Leo Egan (70), Alan L. Otten (295, 430), Richard Dougherty (403), Jack Steele (401), Samuel Lubell (379), Mervin Shoemaker (375), Joseph A. Loftus (436), James Burnham (355), Murray Kempton (450).
+- Party figures the calendar names and Part III lacks (K–J Cong. III.K or Opp. III): Wirt Yerger, Tony Smith, Victor Johnston, Bert Teague, Stewart Lamprey, William Loeb, Doloris Bridges, Ione Harrington, Charles Barr, Tad Smith, Tom Fairfield Brown, William Keisling, Craig Truax, Walter Alessandroni, Robert Mullen, Paul Grindle, David Goldberg, Alexander Lankler, Mary Scranton, Charles Carpentier, Bruce Chapman, Harry O'Donnell, Fred Young, Jean Tool, Mort Frayne, Charles Moore, Houston Flournoy, Joseph Martin Jr., Edwin Durno, Howell Appling, Robert C. Albright.
+- Gallup figures Novak gives that the calendar's poll entries do not match: Rockefeller 43, Goldwater 26 before the remarriage, Goldwater 40, Rockefeller 29 after (148); Romney 13, 16, 18 (161); Lodge 42, 36, 28 (380); June 6, 1964 (441). Gallup's releases to place them.
 - Goldwater's school-tax bill of 1961, put in the Record by a colleague (33–34 & n.2): its day in the Record.
 - Rockefeller's letters and wire on long-term foreign aid financing, 1961 (70): the House vote's day.
 - Javits's protest on the Senate floor against "The White Man's Party?" (195 n.13): the Record, June–July 1963.
 - The undated rows of Passed over marked "lead," each with its page.
 
 States and cities:
-- Pennsylvania: the Scranton-Dilworth debates and Dilworth's empty chair at WNEP, fall 1962 (96–98); Scranton's men
-  against Hugus, Allegheny County, to the primary of Apr. 28, 1964 (275–76); Hugus's and Robertson's elections as
-  county chairmen, 1962 (118–20).
+- Pennsylvania: the Scranton-Dilworth debates and Dilworth's empty chair at WNEP, fall 1962 (96–98); Scranton's men against Hugus, Allegheny County, to the primary of Apr. 28, 1964 (275–76); Hugus's and Robertson's elections as county chairmen, 1962 (118–20).
 - Michigan: Swainson's veto on Detroit's income tax, 1962 (92); the day Romney's tax program died, 1963 (228–29).
 - Virginia: the Lake Barcroft district convention, Fairfax County, 1964 (346–47).
 - Washington: the King and Spokane county caucuses, 1964 (352–53).
@@ -316,6 +249,4 @@ Foreign:
 
 ## What remains
 
-Nothing of the book unread. For the next reader: 45 of the cites carry a parenthetical but no units (their map rows
-seed as `?`, chiefly the California and Cleveland entries of May–July 1964), to be lettered; the witnesses' `open`
-are filled.
+Nothing of the book unread. For the next reader: 45 of the cites carry a parenthetical but no units (their map rows seed as `?`, chiefly the California and Cleveland entries of May–July 1964), to be lettered; the witnesses' `open` are filled.

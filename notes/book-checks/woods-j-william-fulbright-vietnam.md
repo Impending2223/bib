@@ -1,64 +1,26 @@
 # Woods, *J. William Fulbright, Vietnam, and the Search for a Cold War Foreign Policy* (1998): the book against the calendar
 
-Card `w.woods-j-william-fulbright-vietnam`. Randall Bennett Woods, *J. William Fulbright, Vietnam, and the Search for a
-Cold War Foreign Policy* (Cambridge University Press, 1998), the shorter book after the biography of 1995
-(`w.woods-fulbright`, which the calendar cites some thirty times: none of those cites is to this book, and none was held
-up here). The owner's copy (Drive, the file id in `notes/briefs/batch3-resume.md`, row "advisers"), 302 PDF pages with a
-born-digital text layer, read with `pdftotext -layout`; footnotes at the foot of each page, no endnotes. Offset: printed
-page = PDF page - 8 throughout (checked at pp. 1, 16, 143 and 193 against the contents and the running heads). The PDF
-deleted when the run was done.
+Card `w.woods-j-william-fulbright-vietnam`. Randall Bennett Woods, *J. William Fulbright, Vietnam, and the Search for a Cold War Foreign Policy* (Cambridge University Press, 1998), the shorter book after the biography of 1995 (`w.woods-fulbright`, which the calendar cites some thirty times: none of those cites is to this book, and none was held up here). The owner's copy (Drive, the file id in `notes/briefs/batch3-resume.md`, row "advisers"), 302 PDF pages with a born-digital text layer, read with `pdftotext -layout`; footnotes at the foot of each page, no endnotes. Offset: printed page = PDF page - 8 throughout (checked at pp. 1, 16, 143 and 193 against the contents and the running heads). The PDF deleted when the run was done.
 
-No earlier run read the book. This run: Nov. 4, 2026, patch `inbox/2026-11-03-b3-woods-2.yaml` (24 ops: 13 entries, 11
-cites; patch-check 0 errors, 5 warnings, each a same-day flag of a distinct event).
+No earlier run read the book. This run: Nov. 4, 2026, patch `inbox/2026-11-03-b3-woods-2.yaml` (24 ops: 13 entries, 11 cites; patch-check 0 errors, 5 warnings, each a same-day flag of a distinct event).
 
 ## How it was read, and what remains
 
-Chapters 2-12, pp. 16-181 (Jan. 1959 to Nov. 1968), sentence by sentence for a day or a month with its year (228
-sentences, footnotes among them), each event set against the tree and the ledger, the paragraph read where an event was
-dated. Not done, and to be done by the next reader:
-- every dated sentence was not followed through: those of pp. 106-181 (1966-68) were read but most not set against
-  the calendar (the hearings of Feb. 1966, the Storrs lecture of Mar. 1966, the CIA oversight fight of 1966, the
-  national commitments resolution, the Tonkin Gulf hearings of Feb. 1968, the Arkansas primary of 1968);
+Chapters 2-12, pp. 16-181 (Jan. 1959 to Nov. 1968), sentence by sentence for a day or a month with its year (228 sentences, footnotes among them), each event set against the tree and the ledger, the paragraph read where an event was dated. Not done, and to be done by the next reader:
+- every dated sentence was not followed through: those of pp. 106-181 (1966-68) were read but most not set against the calendar (the hearings of Feb. 1966, the Storrs lecture of Mar. 1966, the CIA oversight fight of 1966, the national commitments resolution, the Tonkin Gulf hearings of Feb. 1968, the Arkansas primary of 1968);
 - sentences with a season or a month alone were not extracted;
-- the footnotes' witnesses (R35) are not registered: Woods's footnotes give the Senatorial Papers of Fulbright (SPF), the
-  Marcy Papers (SFRC, RG 46, National Archives) and the presidential libraries, file by file;
+- the footnotes' witnesses (R35) are not registered: Woods's footnotes give the Senatorial Papers of Fulbright (SPF), the Marcy Papers (SFRC, RG 46, National Archives) and the presidential libraries, file by file;
 - pp. 1-15 (to 1959) and 182-286 (1969 on) are outside the span.
 
 ## Second run (Nov. 4, 2026): pp. 106-140, and the footnotes' witnesses
 
-Patch `inbox/2026-11-03-b3-woods-3.yaml` (32 ops: 8 entries, 7 cites, 3 checks, 8 src, 6 to-check; patch-check 0 errors,
-4 warnings, each a same-day flag of a distinct event: Jan. 13, 1966, the State Department luncheon; Feb. 19, Katzenbach
-on the Lawyers Committee; Mar. 1966, McGovern in *Mademoiselle* and the admiral's letter; Apr. 1966, Cooper). The
-dated sentences of pp. 106-181 extracted again (197, with seasons and months alone), those of pp. 106-140 set against
-the tree and the ledger. Withdrawn after the claim: `cal.1966-01-27.vietnam-congress-5` (Stennis to the Mississippi
-legislature): the same speech as cal.1966-01-29.vietnam-congress-2, which Gibbons dates Jan. 29; Woods's cite and a
-Check went there. For the merger: prune the claim.
+Patch `inbox/2026-11-03-b3-woods-3.yaml` (32 ops: 8 entries, 7 cites, 3 checks, 8 src, 6 to-check; patch-check 0 errors, 4 warnings, each a same-day flag of a distinct event: Jan. 13, 1966, the State Department luncheon; Feb. 19, Katzenbach on the Lawyers Committee; Mar. 1966, McGovern in *Mademoiselle* and the admiral's letter; Apr. 1966, Cooper). The dated sentences of pp. 106-181 extracted again (197, with seasons and months alone), those of pp. 106-140 set against the tree and the ledger. Withdrawn after the claim: `cal.1966-01-27.vietnam-congress-5` (Stennis to the Mississippi legislature): the same speech as cal.1966-01-29.vietnam-congress-2, which Gibbons dates Jan. 29; Woods's cite and a Check went there. For the merger: prune the claim.
 
-New entries: cal.1966-01-13.vietnam-congress-2 (Petit's letter from Bangkok, 106), cal.1966-02-14.press-and-broadcasting
-(the BBC runs Kennan, 121), cal.1966-02-19.vietnam-support-2 (Johnson to Hoover on the hearings, 119),
-cal.1966-03.vietnam-congress-3 (Storrs, the McMahon lecture, 124), cal.1966-03.right-and-the-military (the Minutemen,
-125), cal.1966-04.vietnam-congress-2 (New York, the AP and the ANPA, 125), cal.1966-05-14.vietnam (McNamara to
-Harriman, 132), cal.1966-05-17.vietnam-congress (the National Press Club, 131).
-Cites: cal.1966-01-29.vietnam-congress-2 (114; Check: Woods dates it Jan. 27), cal.1966-02-03.vietnam-congress (114),
-cal.1966-02-10.vietnam-hearings (117, CBS; Check: Woods gives Feb. 11 for Kennan), cal.1966-02-18.vietnam-hearings
-(118), cal.1966-05-09.vietnam-congress (132), cal.1966-05-12.vietnam-congress-2 (126; Check: Woods's wording of the
-second remark, 123), cal.1966-03.vietnam-congress-2 (166, Admiral True's letter).
-Witnesses: 7 new (`inbox/witnesses/2026-11-03-b3-woods-3.yaml`), 11 edges
-(`sources/witnesses/by-work/woods-j-william-fulbright-vietnam.yaml`): the footnotes of the passages cited above
-(Fulbright to Johnson, May 9, 1966, already registered, takes its edge). Not registered: the footnotes of b3-woods-2's
-entries (pp. 16-105, 134, 153, 154, 164, 176, 178): a reader to follow.
+New entries: cal.1966-01-13.vietnam-congress-2 (Petit's letter from Bangkok, 106), cal.1966-02-14.press-and-broadcasting (the BBC runs Kennan, 121), cal.1966-02-19.vietnam-support-2 (Johnson to Hoover on the hearings, 119), cal.1966-03.vietnam-congress-3 (Storrs, the McMahon lecture, 124), cal.1966-03.right-and-the-military (the Minutemen, 125), cal.1966-04.vietnam-congress-2 (New York, the AP and the ANPA, 125), cal.1966-05-14.vietnam (McNamara to Harriman, 132), cal.1966-05-17.vietnam-congress (the National Press Club, 131). Cites: cal.1966-01-29.vietnam-congress-2 (114; Check: Woods dates it Jan. 27), cal.1966-02-03.vietnam-congress (114), cal.1966-02-10.vietnam-hearings (117, CBS; Check: Woods gives Feb. 11 for Kennan), cal.1966-02-18.vietnam-hearings (118), cal.1966-05-09.vietnam-congress (132), cal.1966-05-12.vietnam-congress-2 (126; Check: Woods's wording of the second remark, 123), cal.1966-03.vietnam-congress-2 (166, Admiral True's letter). Witnesses: 7 new (`inbox/witnesses/2026-11-03-b3-woods-3.yaml`), 11 edges (`sources/witnesses/by-work/woods-j-william-fulbright-vietnam.yaml`): the footnotes of the passages cited above (Fulbright to Johnson, May 9, 1966, already registered, takes its edge). Not registered: the footnotes of b3-woods-2's entries (pp. 16-105, 134, 153, 154, 164, 176, 178): a reader to follow.
 
-Set against the calendar and not cited (Woods's sentence too thin for the entry's units): cal.1966-01-24 and -28
-(Rusk before the committee, 112, 115), cal.1966-02-26.vietnam (the Cabinet Room meeting, 122: Woods's matter, Moyers's
-poll and Komer on New York business, not in `c`), cal.1966-06-15.vietnam (133-34), the oil strikes of June 29-30 (134).
+Set against the calendar and not cited (Woods's sentence too thin for the entry's units): cal.1966-01-24 and -28 (Rusk before the committee, 112, 115), cal.1966-02-26.vietnam (the Cabinet Room meeting, 122: Woods's matter, Moyers's poll and Komer on New York business, not in `c`), cal.1966-06-15.vietnam (133-34), the oil strikes of June 29-30 (134).
 
-Still to do: pp. 141-181 (1967-68): the dated sentences are extracted but not set against the calendar, but for
-b3-woods-2's cites and entries (July 8-9 and 25, 1967; Mar. 7, June 7, Aug. 20, 1968). Among them: Clark's amendment
-(late Feb. 1967), Aiken's speech (late spring 1967), Fulbright at Walter Reed (May 1967) and in Geneva, Russell in the
-Senate on the Congo planes (July 10, 1967), the Peace Corps letter in the Record (Mar. 1967), Katzenbach before the
-committee (Aug. 1967), the release of William Bundy's testimony (mid-Dec. 1967), the staff's Tonkin inquiry (early Jan.
-1968), the Tonkin hearing and Kenworthy's story (Feb. 20, 25, 1968), Cowles, the Rusk hearings (Mar. 1968), the filing
-in Little Rock (late Mar. 1968), Jim Johnson's filing (May 1, 1968), Grinage (mid-June 1968).
+Still to do: pp. 141-181 (1967-68): the dated sentences are extracted but not set against the calendar, but for b3-woods-2's cites and entries (July 8-9 and 25, 1967; Mar. 7, June 7, Aug. 20, 1968). Among them: Clark's amendment (late Feb. 1967), Aiken's speech (late spring 1967), Fulbright at Walter Reed (May 1967) and in Geneva, Russell in the Senate on the Congo planes (July 10, 1967), the Peace Corps letter in the Record (Mar. 1967), Katzenbach before the committee (Aug. 1967), the release of William Bundy's testimony (mid-Dec. 1967), the staff's Tonkin inquiry (early Jan. 1968), the Tonkin hearing and Kenworthy's story (Feb. 20, 25, 1968), Cowles, the Rusk hearings (Mar. 1968), the filing in Little Rock (late Mar. 1968), Jim Johnson's filing (May 1, 1968), Grinage (mid-June 1968).
 
 ## The calendar's citations (R33)
 
@@ -79,10 +41,7 @@ None to this book. The 1995 biography's cites stand as they were.
 - 1968-06-07 `cal.1968-06-07.elections-1968-2`: McCarthy to Marcy (176)
 - 1968-08-20 `cal.1968-08-20.elections-1968-6`: Fulbright before the platform committee (178)
 
-Cites on entries the calendar holds: cal.1960-02.voting-rights (48), cal.1961-03-30.cuba and cal.1961-04-04.cuba (28),
-cal.1961-08-02.right-and-the-military (43), cal.1964-03-02.vietnam (67), cal.1964-03-25.latin-america (59),
-cal.1964-12-09.vietnam-congress (83), cal.1965-06-15.vietnam (91-92), cal.1965-07-27.vietnam-congress-3 (94),
-cal.1967-07-25.vietnam (154), cal.1968-03-07.vietnam-congress (164).
+Cites on entries the calendar holds: cal.1960-02.voting-rights (48), cal.1961-03-30.cuba and cal.1961-04-04.cuba (28), cal.1961-08-02.right-and-the-military (43), cal.1964-03-02.vietnam (67), cal.1964-03-25.latin-america (59), cal.1964-12-09.vietnam-congress (83), cal.1965-06-15.vietnam (91-92), cal.1965-07-27.vietnam-congress-3 (94), cal.1967-07-25.vietnam (154), cal.1968-03-07.vietnam-congress (164).
 
 ## Passed over
 
@@ -112,102 +71,35 @@ Made from the dated sentences of pp. 16-140 (those of 141-181: above, "Still to 
 
 ## The press (R13)
 
-1966-02-10 | CBS | daytime broadcast | the hearings dropped for reruns, *I Love Lucy* among them | 117
-1966-02-14 | BBC | broadcast | Kennan's testimony and Fulbright's questioning, almost verbatim; Labour members on the talk shows | 121
+1966-02-10 | CBS | daytime broadcast | the hearings dropped for reruns, *I Love Lucy* among them | 117 1966-02-14 | BBC | broadcast | Kennan's testimony and Fulbright's questioning, almost verbatim; Labour members on the talk shows | 121
 
 ## Leads
 
 National
-- The Mount Vernon dinner (Woods 41, "June 11"): the date, against the Public Papers' account of Ayub Khan's visit (July
-  1961).
-- Woods's footnotes: Fulbright to Kennedy, June 28, 1961 (WHOF, box 639, Kennedy Papers); "Memorandum Submitted to
-  Department of Defense," Aug. 2, 1961 (SPF, series 4:19, box 26:1): the memorandum's record for
-  cal.1961-08-02.right-and-the-military.
-- Woods, second run: the papers of government on pp. 132-136 (Lodge, Apr. 29, 1966; Rostow to Harriman, Jan. 28; Rostow
-  to Johnson, Apr. 5 and June 1; Harriman to Rusk, May 10; the NSC of May 10 and June 17; Hoover to Tolson, July 1):
-  entries by R8, FRUS 1964-68, IV first where it prints them.
+- The Mount Vernon dinner (Woods 41, "June 11"): the date, against the Public Papers' account of Ayub Khan's visit (July 1961).
+- Woods's footnotes: Fulbright to Kennedy, June 28, 1961 (WHOF, box 639, Kennedy Papers); "Memorandum Submitted to Department of Defense," Aug. 2, 1961 (SPF, series 4:19, box 26:1): the memorandum's record for cal.1961-08-02.right-and-the-military.
+- Woods, second run: the papers of government on pp. 132-136 (Lodge, Apr. 29, 1966; Rostow to Harriman, Jan. 28; Rostow to Johnson, Apr. 5 and June 1; Harriman to Rusk, May 10; the NSC of May 10 and June 17; Hoover to Tolson, July 1): entries by R8, FRUS 1964-68, IV first where it prints them.
 - The Minutemen plot (Woods 125): Brooks's testimony in Kansas City, its day (the *Arkansas Gazette*, Apr. 8, 1966).
 - Athan G. Theoharis, *From the Secret Files of J. Edgar Hoover* (1991): no card; a witness row only (Woods 119 n.47).
 
 ## Third run (Nov. 4, 2026): pp. 132-181, the papers of pp. 132-136, the notes' witnesses
 
-Patch `inbox/2026-11-03-b3-woods-4.yaml` (228 ops: 76 entries claimed in the ledger, b3-woods-4; 26 cites, 8 checks,
-12 to-check, 106 src; patch-check 0 errors, 36 warnings, each a same-day or same-month flag of a distinct act). The
-witnesses: `inbox/witnesses/2026-11-03-b3-woods-4.yaml` (109 rows), the edges appended to
-`sources/witnesses/by-work/woods-j-william-fulbright-vietnam.yaml` (130). The copy as before (printed page = PDF page
-- 8, checked at 143 by the running head); the pages read off the text layer, sentence by sentence, every dated
-sentence set against the tree and the ledger. The bound Record read on govinfo (page images checked) for Mar. 7, Mar.
-13, May 24, June 6 and Aug. 14, 1967, and Feb. 26, 1968 (House); FRUS read for 1964-68, IV, docs. 115, 135, 159, 208;
-XIX, docs. 53, 54, 488; XXXIII, doc. 250; VI, doc. 225; the Daily Digest's rows of May 12 and 17, 1966, and July 14, 19
-and 26, 1967; the daybook's Sunday programs. Ops on b3-woods-2's ids (src rows, to-check) wait in the deferred file
-until that patch lands; merge b3-woods-2 and -3 first. A scratch merge of the three (in the scratchpad, not the
-repo) applied cleanly but for the duplicate flags.
+Patch `inbox/2026-11-03-b3-woods-4.yaml` (228 ops: 76 entries claimed in the ledger, b3-woods-4; 26 cites, 8 checks, 12 to-check, 106 src; patch-check 0 errors, 36 warnings, each a same-day or same-month flag of a distinct act). The witnesses: `inbox/witnesses/2026-11-03-b3-woods-4.yaml` (109 rows), the edges appended to `sources/witnesses/by-work/woods-j-william-fulbright-vietnam.yaml` (130). The copy as before (printed page = PDF page
+- 8, checked at 143 by the running head); the pages read off the text layer, sentence by sentence, every dated sentence set against the tree and the ledger. The bound Record read on govinfo (page images checked) for Mar. 7, Mar. 13, May 24, June 6 and Aug. 14, 1967, and Feb. 26, 1968 (House); FRUS read for 1964-68, IV, docs. 115, 135, 159, 208; XIX, docs. 53, 54, 488; XXXIII, doc. 250; VI, doc. 225; the Daily Digest's rows of May 12 and 17, 1966, and July 14, 19 and 26, 1967; the daybook's Sunday programs. Ops on b3-woods-2's ids (src rows, to-check) wait in the deferred file until that patch lands; merge b3-woods-2 and -3 first. A scratch merge of the three (in the scratchpad, not the repo) applied cleanly but for the duplicate flags.
 
 What the book's own citations were found to say:
-- 145 n.9 cites 113 Cong. Rec. 6427-29 (Mar. 13, 1967) for Fulbright's questions to Russell on a declaration of war;
-  those pages are Fulbright putting in a second lieutenant's letter ("Fallacies of Vietnam Policies"): entered
-  (cal.1967-03-13.vietnam-congress); a Check on cal.1967-02-28.vietnam-supplemental.
-- 170 n.39 cites "Congressional Record, Senate, Feb. 26, 1968, 4009" for William S. White's column: the page is the
-  House's; Representative Robert Taft Jr. put the column in, with his Lincoln Club remarks of Feb. 12 asking
-  Fulbright's "voluntary withdrawal" as chairman. Three entries (Feb. 12, Feb. 26 twice).
-- The papers of pp. 132-136 (R8): Rostow to Johnson, Apr. 5, 1966 (FRUS IV, doc. 115), the NSC of May 10 (doc. 135)
-  and of June 17 (doc. 159) are in the calendar: cited (Apr. 5, May 10), a Check (June 17: Woods has Johnson
-  authorize the strikes at the meeting; the notes leave the decision to wait). Lodge to Johnson, Apr. 29, Rostow to
-  Harriman, Jan. 28, Harriman to Rusk, May 10, 1966: FRUS prints none; entered from Woods, the archival copies To
-  check. Rostow to Johnson, June 1, 1966 (Raborn and the CIA watchdog): FRUS XXXIII, doc. 250, read; entered, with
-  Fulbright's letter to Raborn of June 13 that its note quotes. Hoover to Tolson, July 1, 1966: entered from Woods.
-- Woods dates Rusk's backgrounder ("whose side are you on?") Feb. 26, 1968, and cites the *Times* of Feb. 24; dates
-  the McNamara hearing Feb. 20 in the text, Feb. 21 in the note; sets Fulbright's remarks of May 1967 ("These are
-  our elections") and his letter to Fendler of May 14, 1966, among the events of late 1967: Checks.
+- 145 n.9 cites 113 Cong. Rec. 6427-29 (Mar. 13, 1967) for Fulbright's questions to Russell on a declaration of war; those pages are Fulbright putting in a second lieutenant's letter ("Fallacies of Vietnam Policies"): entered (cal.1967-03-13.vietnam-congress); a Check on cal.1967-02-28.vietnam-supplemental.
+- 170 n.39 cites "Congressional Record, Senate, Feb. 26, 1968, 4009" for William S. White's column: the page is the House's; Representative Robert Taft Jr. put the column in, with his Lincoln Club remarks of Feb. 12 asking Fulbright's "voluntary withdrawal" as chairman. Three entries (Feb. 12, Feb. 26 twice).
+- The papers of pp. 132-136 (R8): Rostow to Johnson, Apr. 5, 1966 (FRUS IV, doc. 115), the NSC of May 10 (doc. 135) and of June 17 (doc. 159) are in the calendar: cited (Apr. 5, May 10), a Check (June 17: Woods has Johnson authorize the strikes at the meeting; the notes leave the decision to wait). Lodge to Johnson, Apr. 29, Rostow to Harriman, Jan. 28, Harriman to Rusk, May 10, 1966: FRUS prints none; entered from Woods, the archival copies To check. Rostow to Johnson, June 1, 1966 (Raborn and the CIA watchdog): FRUS XXXIII, doc. 250, read; entered, with Fulbright's letter to Raborn of June 13 that its note quotes. Hoover to Tolson, July 1, 1966: entered from Woods.
+- Woods dates Rusk's backgrounder ("whose side are you on?") Feb. 26, 1968, and cites the *Times* of Feb. 24; dates the McNamara hearing Feb. 20 in the text, Feb. 21 in the note; sets Fulbright's remarks of May 1967 ("These are our elections") and his letter to Fendler of May 14, 1966, among the events of late 1967: Checks.
 
-New entries (76), by thread: the CIA's oversight, 1966 (Marcy on Carver, Fulbright to Raborn, Russell's refusal Apr.
-30, Foreign Relations' 14-5 vote of May 17 from the Digest, Rostow's memorandum of June 1, Fulbright to Raborn June
-13, the staff's memorandum June 29, Hoover to Tolson July 1); the papers of 1966 (Rostow to Harriman, Lodge Apr. 29,
-Harriman to Rusk, the elections paper May 12, Fulbright to Fendler); 1967 (Meet the Press Jan. 22, the effigies,
-Ness and Fulbright's reply, Marcy to Bader, the Peace Corps letter, the lieutenant's letter, Russell to Grice,
-Citizens for Kennedy-Fulbright in New Hampshire, Marcy to Aiken, Phaler and the reply, Marcy's Summary Proposal,
-"These are our elections," Rusk with Foreign Relations May 23, the NSC of May 24, Fulbright in the Senate May 24,
-"hypocritical," Pacem in Terris, the constitution June 6, Marcy's Security Council paper June 9, the delegates'
-letter, Rusk on aid July 14, Separation of Powers July 19, the float trip, Marcy to Morse July 24, McNamara on aid
-July 26, the aid bill Aug. 14, the raids near China, the UN, Johnson with Eban Oct. 24, Cowles, John White, Marcy to
-McCarthy, Bundy's testimony released, *The Arrogance of Power* Dec. 1966); 1968 (the Tonkin inquiry announced,
-Fulbright on Clifford, Pine Bluff on the *Pueblo*, the *Post* Jan. 27, Fulbright to Fromm, the *Journal* Feb. 6,
-"controlled exhibitions," Brinkley, Temple's paper, Mansfield's compromise, Johnson to Rusk, Taft, White's column,
-Hearst, Marcy to the staff, the filing in Little Rock, Cleveland Mar. 31, the call and the remarks of Apr. 1, Marcy
-with Bubnov, Ashmore, Gellhorn, Jim Johnson's filing and Fulbright to Eaton, Grinage, "pin-up boy").
+New entries (76), by thread: the CIA's oversight, 1966 (Marcy on Carver, Fulbright to Raborn, Russell's refusal Apr. 30, Foreign Relations' 14-5 vote of May 17 from the Digest, Rostow's memorandum of June 1, Fulbright to Raborn June 13, the staff's memorandum June 29, Hoover to Tolson July 1); the papers of 1966 (Rostow to Harriman, Lodge Apr. 29, Harriman to Rusk, the elections paper May 12, Fulbright to Fendler); 1967 (Meet the Press Jan. 22, the effigies, Ness and Fulbright's reply, Marcy to Bader, the Peace Corps letter, the lieutenant's letter, Russell to Grice, Citizens for Kennedy-Fulbright in New Hampshire, Marcy to Aiken, Phaler and the reply, Marcy's Summary Proposal, "These are our elections," Rusk with Foreign Relations May 23, the NSC of May 24, Fulbright in the Senate May 24, "hypocritical," Pacem in Terris, the constitution June 6, Marcy's Security Council paper June 9, the delegates' letter, Rusk on aid July 14, Separation of Powers July 19, the float trip, Marcy to Morse July 24, McNamara on aid July 26, the aid bill Aug. 14, the raids near China, the UN, Johnson with Eban Oct. 24, Cowles, John White, Marcy to McCarthy, Bundy's testimony released, *The Arrogance of Power* Dec. 1966); 1968 (the Tonkin inquiry announced, Fulbright on Clifford, Pine Bluff on the *Pueblo*, the *Post* Jan. 27, Fulbright to Fromm, the *Journal* Feb. 6, "controlled exhibitions," Brinkley, Temple's paper, Mansfield's compromise, Johnson to Rusk, Taft, White's column, Hearst, Marcy to the staff, the filing in Little Rock, Cleveland Mar. 31, the call and the remarks of Apr. 1, Marcy with Bubnov, Ashmore, Gellhorn, Jim Johnson's filing and Fulbright to Eaton, Grinage, "pin-up boy").
 
-Cites on entries the calendar holds (R33; each holds unless said): cal.1966-04-05.vietnam (133), 1966-05-10.vietnam
-(133), 1966-07-14.defense (135-36: the members, three each, bear out the Check in `c`; the vote 61-28), 1966-08-10.
-vietnam-3 (158), 1967-02-28.vietnam-supplemental (145; Check above), 1967-04-04.king (155), 1967-06-30.vietnam-congress
-(158), 1967-07-10.congo (153: other words of Russell's, from Fite), 1967-07-14.vietnam-commitments (153), 1967-07-31.
-vietnam (155), 1967-08-17.vietnam-commitments (166, 172: McCarthy's words to Marcy and Kenworthy, from Marcy's oral
-history, other than the *Times*'s), 1967-08.vietnam-congress (167), 1967-08-17.foreign-aid (159), 1967-09-03.vietnam
-(158), 1968-01-31.vietnam-congress (168), 1968-02-07.vietnam-congress (162), 1968-02.press-and-broadcasting (163;
-Check), 1968-02-20.vietnam (168-69; Check), 1968-02-22.vietnam-congress (169-70; Check: Woods splits the answer, Feb.
-21, from Cowles, Feb. 22, as CQ does), 1968-03-04.vietnam (171), 1968-03-11.vietnam (164-65), 1968-03-12.elections-1968
-(172), 1968-05-06.vietnam-paris (175), 1968-07-30.governors-ar (177-78), 1968-08-20.elections-1968-chicago-3 (178).
-Checks without a cite: 1966-06-17.vietnam-2, 1967-05.republican-party-congress (Aiken's speech, perhaps Marcy's
-draft), 1967-05.middle-east-six-day-war, 1968-03-30.vietnam-congress (Woods: Clifford told Fulbright of a halt).
+Cites on entries the calendar holds (R33; each holds unless said): cal.1966-04-05.vietnam (133), 1966-05-10.vietnam (133), 1966-07-14.defense (135-36: the members, three each, bear out the Check in `c`; the vote 61-28), 1966-08-10. vietnam-3 (158), 1967-02-28.vietnam-supplemental (145; Check above), 1967-04-04.king (155), 1967-06-30.vietnam-congress (158), 1967-07-10.congo (153: other words of Russell's, from Fite), 1967-07-14.vietnam-commitments (153), 1967-07-31. vietnam (155), 1967-08-17.vietnam-commitments (166, 172: McCarthy's words to Marcy and Kenworthy, from Marcy's oral history, other than the *Times*'s), 1967-08.vietnam-congress (167), 1967-08-17.foreign-aid (159), 1967-09-03.vietnam (158), 1968-01-31.vietnam-congress (168), 1968-02-07.vietnam-congress (162), 1968-02.press-and-broadcasting (163; Check), 1968-02-20.vietnam (168-69; Check), 1968-02-22.vietnam-congress (169-70; Check: Woods splits the answer, Feb. 21, from Cowles, Feb. 22, as CQ does), 1968-03-04.vietnam (171), 1968-03-11.vietnam (164-65), 1968-03-12.elections-1968 (172), 1968-05-06.vietnam-paris (175), 1968-07-30.governors-ar (177-78), 1968-08-20.elections-1968-chicago-3 (178). Checks without a cite: 1966-06-17.vietnam-2, 1967-05.republican-party-congress (Aiken's speech, perhaps Marcy's draft), 1967-05.middle-east-six-day-war, 1968-03-30.vietnam-congress (Woods: Clifford told Fulbright of a halt).
 
-Set against the calendar and not cited (Woods's sentence too thin for the entry's units, or his source a study the
-series cites already): cal.1966-04-04.vietnam-struggle-3 (132), cal.1967-08-05.vietnam (159: Johnson widens the
-targets on Clifford's advice, not in `c`), cal.1968-01-24.japan-and-korea-pueblo-2 (167), cal.1968-03-19.vietnam-205000
-(172: Rusk and Rostow's remarks, not in `c`), cal.1968-05-21.vietnam-paris (175: Woods cites a Rostow memorandum of
-that day, not the lunch), cal.1967-11-08.vietnam (176 n.65), the Tet and Huế entries (160-61), the Six-Day War's
-(150-51), the New Hampshire, Kennedy, Humphrey and convention entries of 1968 (172-79), the bombing halt and the
-election (180).
+Set against the calendar and not cited (Woods's sentence too thin for the entry's units, or his source a study the series cites already): cal.1966-04-04.vietnam-struggle-3 (132), cal.1967-08-05.vietnam (159: Johnson widens the targets on Clifford's advice, not in `c`), cal.1968-01-24.japan-and-korea-pueblo-2 (167), cal.1968-03-19.vietnam-205000 (172: Rusk and Rostow's remarks, not in `c`), cal.1968-05-21.vietnam-paris (175: Woods cites a Rostow memorandum of that day, not the lunch), cal.1967-11-08.vietnam (176 n.65), the Tet and Huế entries (160-61), the Six-Day War's (150-51), the New Hampshire, Kennedy, Humphrey and convention entries of 1968 (172-79), the bombing halt and the election (180).
 
-Witnesses (R35-R43), 109 new rows: every note of pp. 132-181 behind an entry or cite above, and the notes behind
-b3-woods-2's entries and cites (27 n.34, 28 n.35, 37 n.5, 43 nn.24-25, 48 nn.50-51, 49 n.52, 54 n.5, 55 n.7, 60 n.16,
-68 nn.6-7, 83 n.8, 92 n.35, 93 n.40, 94 n.43, 134 n.34, 153 n.8, 154 n.12, 164 n.16, 176 n.62, 178 n.72), reusing
-the registered rows where they stood (Rostow Apr. 5, 1966; the NSC of May 10 and June 17, 1966; Lodge 3129; Russell
-in the Senate Feb. 28, 1967; Fulbright to Russell July 14 and to Johnson June 30, 1967; the notes of July 25, 1967,
-and Mar. 4, 1968; the Senate of Mar. 7, 1968; the meeting of May 6, 1968; the Tonkin hearing; Fulbright's "old myths"
-and June 15, 1965 speeches). Read and cited as the primary record: the Record's pages above, FRUS XIX, docs. 53, 54,
-488, XXXIII, doc. 250, the Digest's rows. The rest are open (not held: the Fulbright Papers at Arkansas, the Marcy
-Papers in RG 46, the LBJ Library's files, the Harriman Papers, the Arkansas and national papers). Edges to cards (Fite,
-DeBenedetti, Karnow, Berman, Kearns, Johnson and Gwertzman) are in the by-work file; the claim maps carry no `via`
-row for them (the registry resolves a `via` only to a witness row).
+Witnesses (R35-R43), 109 new rows: every note of pp. 132-181 behind an entry or cite above, and the notes behind b3-woods-2's entries and cites (27 n.34, 28 n.35, 37 n.5, 43 nn.24-25, 48 nn.50-51, 49 n.52, 54 n.5, 55 n.7, 60 n.16, 68 nn.6-7, 83 n.8, 92 n.35, 93 n.40, 94 n.43, 134 n.34, 153 n.8, 154 n.12, 164 n.16, 176 n.62, 178 n.72), reusing the registered rows where they stood (Rostow Apr. 5, 1966; the NSC of May 10 and June 17, 1966; Lodge 3129; Russell in the Senate Feb. 28, 1967; Fulbright to Russell July 14 and to Johnson June 30, 1967; the notes of July 25, 1967, and Mar. 4, 1968; the Senate of Mar. 7, 1968; the meeting of May 6, 1968; the Tonkin hearing; Fulbright's "old myths" and June 15, 1965 speeches). Read and cited as the primary record: the Record's pages above, FRUS XIX, docs. 53, 54, 488, XXXIII, doc. 250, the Digest's rows. The rest are open (not held: the Fulbright Papers at Arkansas, the Marcy Papers in RG 46, the LBJ Library's files, the Harriman Papers, the Arkansas and national papers). Edges to cards (Fite, DeBenedetti, Karnow, Berman, Kearns, Johnson and Gwertzman) are in the by-work file; the claim maps carry no `via` row for them (the registry resolves a `via` only to a witness row).
 
 ### Passed over (third run, pp. 132-181)
 
@@ -268,36 +160,22 @@ Made from every dated sentence of pp. 132-181 and their notes, after the entries
 
 ### The press (R13), third run
 
-1966-04 | CBS | morning news | Agronsky on Raborn's and Fulbright's letters over Carver's article | 134
-1967-03-01 | *New York Times* | page | Herbers, "Fulbright Backs Vietnam Limit of 500,000 G.I.'s" | 145 n.8
-1967-05-05 | *Arkansas Gazette* | page | "RFK-Fulbright Group to Ignore Objections, Run in New Hampshire" | 149 n.21
-1967-07-15 | *Chicago Tribune* | page | "Senate's Cuts in Aid Irk Rusk" | 159 n.33
-1967-08-01 | *Baltimore Sun* | page | "Bid to Curb Executive's Role Gains" | 155 n.14
-1968-01-31 | *Arkansas Gazette* | page | "Senate Panel to Re-examine Tonkin Case" | 168 n.30
-1968-02-25 | *New York Times* | page | Finney (Woods: Kenworthy), "McNamara Says Destroyers in Gulf of Tonkin Warned of Enemy"; "9 on Fulbright Panel Feel U.S. Over Reacted to Tonkin Attack" | 170
-1968-07-28 | *Arkansas Gazette* | page | Bill Lewis, "Fulbright Faces Most Serious Challenge of His (24-Year) Career Tuesday" | 177 n.69
-1968-08-27 | *New York Times* | page | Finney, "How Johnson Got the Vietnam Plank He Wanted" | 178 n.74
+1966-04 | CBS | morning news | Agronsky on Raborn's and Fulbright's letters over Carver's article | 134 1967-03-01 | *New York Times* | page | Herbers, "Fulbright Backs Vietnam Limit of 500,000 G.I.'s" | 145 n.8 1967-05-05 | *Arkansas Gazette* | page | "RFK-Fulbright Group to Ignore Objections, Run in New Hampshire" | 149 n.21 1967-07-15 | *Chicago Tribune* | page | "Senate's Cuts in Aid Irk Rusk" | 159 n.33 1967-08-01 | *Baltimore Sun* | page | "Bid to Curb Executive's Role Gains" | 155 n.14 1968-01-31 | *Arkansas Gazette* | page | "Senate Panel to Re-examine Tonkin Case" | 168 n.30 1968-02-25 | *New York Times* | page | Finney (Woods: Kenworthy), "McNamara Says Destroyers in Gulf of Tonkin Warned of Enemy"; "9 on Fulbright Panel Feel U.S. Over Reacted to Tonkin Attack" | 170 1968-07-28 | *Arkansas Gazette* | page | Bill Lewis, "Fulbright Faces Most Serious Challenge of His (24-Year) Career Tuesday" | 177 n.69 1968-08-27 | *New York Times* | page | Finney, "How Johnson Got the Vietnam Plank He Wanted" | 178 n.74
 
 ### Leads (third run)
 
 National
-- The Fulbright Papers (SPF, University of Arkansas), the Marcy Papers (SFRC, RG 46) and the LBJ Library's files Woods
-  cites, item by item in the witness file: the archival copies of the new entries, none read.
+- The Fulbright Papers (SPF, University of Arkansas), the Marcy Papers (SFRC, RG 46) and the LBJ Library's files Woods cites, item by item in the witness file: the archival copies of the new entries, none read.
 - 113 Cong. Rec. 15018 (Senate, June 7, 1967): Fulbright's Pacem in Terris speech as printed, for its day and words.
-- Woods's account of Fulbright's questions to Russell (a declaration of war; a million men?): the Record of Feb.-Mar.
-  1967, the day not found (Woods's page cites Mar. 13, a letter).
+- Woods's account of Fulbright's questions to Russell (a declaration of war; a million men?): the Record of Feb.-Mar. 1967, the day not found (Woods's page cites Mar. 13, a letter).
 - *The Arrogance of Power*'s day of publication (Random House, Dec. 1966).
-- Part III entries to propose (R13): William S. White (columnist, *Washington Post*); Martin Agronsky (CBS); E. W.
-  Kenworthy and John W. Finney (*New York Times*, on the Tonkin inquiry); J. Russell Wiggins has one.
-- Persons without name entries named in the new entries: Seth Tillman, Carl Marcy's staff (William Bader, Don
-  Newhouse), Ben Grinage, Lee Williams, Cyrus Eaton, Erich Fromm, Martha Gellhorn, Igor Bubnov, David Ness.
+- Part III entries to propose (R13): William S. White (columnist, *Washington Post*); Martin Agronsky (CBS); E. W. Kenworthy and John W. Finney (*New York Times*, on the Tonkin inquiry); J. Russell Wiggins has one.
+- Persons without name entries named in the new entries: Seth Tillman, Carl Marcy's staff (William Bader, Don Newhouse), Ben Grinage, Lee Williams, Cyrus Eaton, Erich Fromm, Martha Gellhorn, Igor Bubnov, David Ness.
 
 Foreign
-- Trần Văn Đỗ's and the South Vietnamese embassy's protest of Fulbright's charge, Feb.-Mar. 1967: the day (Fulbright
-  to Đỗ, Mar. 3, 1967).
+- Trần Văn Đỗ's and the South Vietnamese embassy's protest of Fulbright's charge, Feb.-Mar. 1967: the day (Fulbright to Đỗ, Mar. 3, 1967).
 - Ness's letter from Cairo, early Feb. 1967: whether the *Baltimore Sun* of June 11, 1967 printed it (Made public?).
 
 ### Still to do
 
-Nothing of pp. 16-181 is left unread against the calendar. Not done: the archival witnesses (all open); the pages
-before 16 and after 181 lie outside the span. The PDF and every scratch copy deleted when the run was done.
+Nothing of pp. 16-181 is left unread against the calendar. Not done: the archival witnesses (all open); the pages before 16 and after 181 lie outside the span. The PDF and every scratch copy deleted when the run was done.

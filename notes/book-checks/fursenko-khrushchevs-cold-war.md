@@ -1,48 +1,27 @@
 # Aleksandr Fursenko and Timothy Naftali, *Khrushchev's Cold War* (2006): the reading of Jan. 6, 1960–Nov. 1964
 
-Card `w.fursenko-khrushchevs-cold-war`. Read Nov. 3–4, 2026 (batch 3, group soviet; resumed after a container restart
-with the files on disk intact). Patch: `inbox/2026-11-03-b3-fursenko-cold-war-2.yaml` (b3-fursenko-cold-war-2; 300 ops:
-165 entries added, 109 cites, 12 Checks, 13 claim-map rows, one To check). Witnesses:
-`inbox/witnesses/2026-11-03-b3-fursenko-cold-war-2.yaml` (156, pending the fold). Edges:
-`sources/witnesses/by-work/fursenko-khrushchevs-cold-war.yaml` (254). No book-check existed before this one.
+Card `w.fursenko-khrushchevs-cold-war`. Read Nov. 3–4, 2026 (batch 3, group soviet; resumed after a container restart with the files on disk intact). Patch: `inbox/2026-11-03-b3-fursenko-cold-war-2.yaml` (b3-fursenko-cold-war-2; 300 ops: 165 entries added, 109 cites, 12 Checks, 13 claim-map rows, one To check). Witnesses: `inbox/witnesses/2026-11-03-b3-fursenko-cold-war-2.yaml` (156, pending the fold). Edges: `sources/witnesses/by-work/fursenko-khrushchevs-cold-war.yaml` (254). No book-check existed before this one.
 
 ## The copy, and how it was read
 
-The owner's copy in Drive (15i7_Os1UTxm4-EzLRK8JcR0Dp6R_oCXW), 696 PDF pages with a text layer, read with `pdftotext
--layout` in the scratchpad (the PDF deleted after). **Printed page = PDF page − 6 through p. 318; the plates fill PDF
-325–340; printed page = PDF page − 22 from p. 319**, the notes too ("Notes" begins PDF 571, p. 549). Found from the
-running heads; the first two batches (pp. 241–262) were first written with PDF pages and corrected before patch-check.
-p. 252 checked by eye on its page image. Every page cited is the folio.
+The owner's copy in Drive (15i7_Os1UTxm4-EzLRK8JcR0Dp6R_oCXW), 696 PDF pages with a text layer, read with `pdftotext -layout` in the scratchpad (the PDF deleted after). **Printed page = PDF page − 6 through p. 318; the plates fill PDF 325–340; printed page = PDF page − 22 from p. 319**, the notes too ("Notes" begins PDF 571, p. 549). Found from the running heads; the first two batches (pp. 241–262) were first written with PDF pages and corrected before patch-check. p. 252 checked by eye on its page image. Every page cited is the folio.
 
-Read: chapters 11–18 to p. 451 (Sept. 1959 to the summer of 1962: the troop cut, the U-2 and Paris, the Congo, Cuba
-in 1960, Laos, Vienna, the wall, Checkpoint Charlie, the tests, the decision for Anadyr), and the notes to them, in the
-second run; pp. 451–545 (the end of ch. 18, ch. 19, the missile crisis, chs. 20–21, Nov. 1962 to Oct. 1964) and their
-notes, pp. 612–23, in the third (Nov. 4, 2026; below). The whole book within the span is now read.
+Read: chapters 11–18 to p. 451 (Sept. 1959 to the summer of 1962: the troop cut, the U-2 and Paris, the Congo, Cuba in 1960, Laos, Vienna, the wall, Checkpoint Charlie, the tests, the decision for Anadyr), and the notes to them, in the second run; pp. 451–545 (the end of ch. 18, ch. 19, the missile crisis, chs. 20–21, Nov. 1962 to Oct. 1964) and their notes, pp. 612–23, in the third (Nov. 4, 2026; below). The whole book within the span is now read.
 
-**The notes.** The authors cite the Presidium's protocols and stenograms (`w.prezidium-tsk-kpss-1954` where printed),
-the Presidential Archive (APRF), the GRU's and KGB's files they were shown, FRUS, and the memoirs. Each archival record
-the calendar now rests on is a witness row (156); none was reached, and each stands behind "To check:" with the page
-and note it is cited by. Works without a card (Talbott's *Last Testament*, Sergei Khrushchev's *Creation of a
-Superpower*, Schecter and Deriabin, Sulzberger's *Last of the Giants*, Spaak's *Combats inachevés*) are witness rows,
-not cards.
+**The notes.** The authors cite the Presidium's protocols and stenograms (`w.prezidium-tsk-kpss-1954` where printed), the Presidential Archive (APRF), the GRU's and KGB's files they were shown, FRUS, and the memoirs. Each archival record the calendar now rests on is a witness row (156); none was reached, and each stands behind "To check:" with the page and note it is cited by. Works without a card (Talbott's *Last Testament*, Sergei Khrushchev's *Creation of a Superpower*, Schecter and Deriabin, Sulzberger's *Last of the Giants*, Spaak's *Combats inachevés*) are witness rows, not cards.
 
 ## Disagreements and Checks added
 
 Checks on entries in the tree (12), each with its page:
 
 - Jan. 14, 1960: the work has Eisenhower call Khrushchev's speech "very tough" (252); the NSC record gives Dulles the words.
-- Apr. 1960: the day; the work gives Apr. 9 (261). Feb. 1960: the work puts the words at the approval of one more U-2
-  flight at the end of March (261).
-- Cuba: the refineries nationalized June 10, 1960, by the work (304). Congo: Lumumba with Herter July 29 (309); Mobutu
-  closes the Soviet and Czechoslovak embassies Sept. 17 (316); Lumumba captured Dec. 2 (321).
+- Apr. 1960: the day; the work gives Apr. 9 (261). Feb. 1960: the work puts the words at the approval of one more U-2 flight at the end of March (261).
+- Cuba: the refineries nationalized June 10, 1960, by the work (304). Congo: Lumumba with Herter July 29 (309); Mobutu closes the Soviet and Czechoslovak embassies Sept. 17 (316); Lumumba captured Dec. 2 (321).
 - Laos: Kong Le hands power to Souvanna Phouma Aug. 17, 1960 (328).
-- May 26, 1961: from the stenogram, Khrushchev sets a new course on Berlin at the Presidium, not approving the paper as
-  written (355–59). TASS publishes the aide-mémoire June 9, 1961 (365). The test decision of July 1961: July 10 (366 n.95).
+- May 26, 1961: from the stenogram, Khrushchev sets a new course on Berlin at the Presidium, not approving the paper as written (355–59). TASS publishes the aide-mémoire June 9, 1961 (365). The test decision of July 1961: July 10 (366 n.95).
 - Apr. 1962: the Presidium's decision on Cuba Apr. 9, 2,500 troops (429 and n.53).
 
-In the new entries, the days the work gives loosely ("four days after," "the next day") and its disagreements with the
-record (the *Times*'s transcript of Feb. 4, 1960, for Feb. 3; Clay's cable of Oct. 23 or 24, 1961; no Kremlin record
-of the cable of Oct. 27, 1961, nor a line in Robert Kennedy's date diary) are Checks in each note.
+In the new entries, the days the work gives loosely ("four days after," "the next day") and its disagreements with the record (the *Times*'s transcript of Feb. 4, 1960, for Feb. 3; Clay's cable of Oct. 23 or 24, 1961; no Kremlin record of the cable of Oct. 27, 1961, nor a line in Robert Kennedy's date diary) are Checks in each note.
 
 ## Passed over
 
@@ -85,9 +64,7 @@ Chapters 14–18 (pp. 338–451): the rows the second run did not log are in the
 
 ## The press
 
-The work cites the *New York Times* and *Pravda* for the public statements (Khrushchev's speeches, the TASS releases);
-each is cited with the entry it bears on, the paper's page behind "To check:" where the note gives one. No press
-account was read.
+The work cites the *New York Times* and *Pravda* for the public statements (Khrushchev's speeches, the TASS releases); each is cited with the entry it bears on, the paper's page behind "To check:" where the note gives one. No press account was read.
 
 ## Leads (to notes/leads.md, Foreign, and National)
 
@@ -101,95 +78,37 @@ The "lead" rows above, each with where to look; and:
 
 # The third run: pp. 451–545 and the rows for pp. 338–451 (Nov. 4, 2026)
 
-Batch 3, group soviet, resumed. Patch: `inbox/2026-11-04-b3-fursenko-cold-war-3.yaml` (b3-fursenko-cold-war-3; 184 ops:
-114 entries added, 53 cites, 9 claim-map rows, 7 Checks, 1 To check), its 114 new entries claimed in the ledger.
-Witnesses: `inbox/witnesses/2026-11-04-b3-fursenko-cold-war-3.yaml` (211 rows: 125 records and 86 passages of the
-work, `part_of` its card, so that the maps' `via` rows reach the records before the edges are appended); at its foot,
-under "# edges for w.fursenko-khrushchevs-cold-war", 242 edges, page and note, for the merger to append to
-`sources/witnesses/by-work/fursenko-khrushchevs-cold-war.yaml` (not written there: a merger is at work in the tree).
-`./bib patch-check`: 0 errors (24 warnings, each a "one event?" flag on a day the thread already holds; each pair read,
-all distinct acts). Merged in a scratch copy of the tree: `./bib check` 0 errors; the maps' footnotes read with
-`./bib claims show --inline`, the trees with `./bib stemma`.
+Batch 3, group soviet, resumed. Patch: `inbox/2026-11-04-b3-fursenko-cold-war-3.yaml` (b3-fursenko-cold-war-3; 184 ops: 114 entries added, 53 cites, 9 claim-map rows, 7 Checks, 1 To check), its 114 new entries claimed in the ledger. Witnesses: `inbox/witnesses/2026-11-04-b3-fursenko-cold-war-3.yaml` (211 rows: 125 records and 86 passages of the work, `part_of` its card, so that the maps' `via` rows reach the records before the edges are appended); at its foot, under "# edges for w.fursenko-khrushchevs-cold-war", 242 edges, page and note, for the merger to append to `sources/witnesses/by-work/fursenko-khrushchevs-cold-war.yaml` (not written there: a merger is at work in the tree). `./bib patch-check`: 0 errors (24 warnings, each a "one event?" flag on a day the thread already holds; each pair read, all distinct acts). Merged in a scratch copy of the tree: `./bib check` 0 errors; the maps' footnotes read with `./bib claims show --inline`, the trees with `./bib stemma`.
 
 ## The copy
 
-The same copy, fetched again (drive.usercontent.google.com, the sharing untouched): printed page = PDF page − 22 held
-to p. 545 (PDF 567); the notes, p. 549 = PDF 571, to p. 623. pp. 451–545 read with `pdftotext -layout`; pages 458, 514
-checked by eye on their images (70 dpi), and the quotations taken from the page image where the text layer had OCR
-dashes ("brink—agreement or war?", "Podgorny—such different people"). The PDF deleted after extraction, the images and
-text after the run.
+The same copy, fetched again (drive.usercontent.google.com, the sharing untouched): printed page = PDF page − 22 held to p. 545 (PDF 567); the notes, p. 549 = PDF 571, to p. 623. pp. 451–545 read with `pdftotext -layout`; pages 458, 514 checked by eye on their images (70 dpi), and the quotations taken from the page image where the text layer had OCR dashes ("brink—agreement or war?", "Podgorny—such different people"). The PDF deleted after extraction, the images and text after the run.
 
 ## What was entered
 
-- The crisis's Soviet side, from the Presidium's protocols, Serov's notes and Mikoyan's unpublished memoir, and the
-  navy's papers in the Volkogonov Collection: the navy's convoy plan of Sept. 18 and Khrushchev's cut to four Foxtrots;
-  the *Indigirka*'s sailing (Sept. 16); Ivanov's correction of Anadyr (Sept. 13); the B-75 (Sept. 25); the GRU's and
-  KGB's reports of Oct. 22 and 26; Penkovsky's arrest; the NSA's intercepts; C-19 (Oct. 23, 26); the Presidium at the
-  dacha (Oct. 28); Ulbricht in Moscow (Oct. 27); Castro's letter of Oct. 26–27; Alekseyev's and the KGB's reports from
-  Havana; Mikoyan with Castro (Nov. 3, 5, 19); the haggling over the Il-28s (Nov. 13, 14, 15, 16); the postmortem of
-  Dec. 3.
-- Berlin and Bonn: Kroll with Khrushchev (Jan. 8, 1960; Sept. 11, 1962), Burris to Johnson, SNIE 11-15-62, Kroll's
-  interview of Sept. 28, Couve de Murville with Kennedy (Oct. 9), Khrushchev's Berlin speech of Jan. 1963, Gromyko to
-  Kohler, Kroll and Adenauer with Smirnov (Apr.–Oct. 1963), the Presidium's "Rapallo" of June 13, 1963.
-- China and the split: the *People's Daily* and Peking's marches (Oct. 31–Nov. 7, 1962), Pravda on India (Nov. 5),
-  the Presidium on the Chinese (Nov. 15, 1962; Jan. 29, Mar. 12, July 23, 1963), Peking's invitation (Mar. 9), the
-  party talks of July 5, 1963.
+- The crisis's Soviet side, from the Presidium's protocols, Serov's notes and Mikoyan's unpublished memoir, and the navy's papers in the Volkogonov Collection: the navy's convoy plan of Sept. 18 and Khrushchev's cut to four Foxtrots; the *Indigirka*'s sailing (Sept. 16); Ivanov's correction of Anadyr (Sept. 13); the B-75 (Sept. 25); the GRU's and KGB's reports of Oct. 22 and 26; Penkovsky's arrest; the NSA's intercepts; C-19 (Oct. 23, 26); the Presidium at the dacha (Oct. 28); Ulbricht in Moscow (Oct. 27); Castro's letter of Oct. 26–27; Alekseyev's and the KGB's reports from Havana; Mikoyan with Castro (Nov. 3, 5, 19); the haggling over the Il-28s (Nov. 13, 14, 15, 16); the postmortem of Dec. 3.
+- Berlin and Bonn: Kroll with Khrushchev (Jan. 8, 1960; Sept. 11, 1962), Burris to Johnson, SNIE 11-15-62, Kroll's interview of Sept. 28, Couve de Murville with Kennedy (Oct. 9), Khrushchev's Berlin speech of Jan. 1963, Gromyko to Kohler, Kroll and Adenauer with Smirnov (Apr.–Oct. 1963), the Presidium's "Rapallo" of June 13, 1963.
+- China and the split: the *People's Daily* and Peking's marches (Oct. 31–Nov. 7, 1962), Pravda on India (Nov. 5), the Presidium on the Chinese (Nov. 15, 1962; Jan. 29, Mar. 12, July 23, 1963), Peking's invitation (Mar. 9), the party talks of July 5, 1963.
 - Iraq: the Soviet Red Cross, the charges, ar-Radi's arrest (Feb. 1963), Khrushchev with Amer (June 9).
-- The test ban: Khrushchev's letter of Sept. 28, 1962, Dean and Kuznetsov (Oct. 30), Roberts's farewell (Nov. 12),
-  Cousins in Moscow (Dec. 1962) and at Pitsunda (Apr. 12, 1963), Kennedy's meeting of Feb. 8, 1963, the Presidium's
-  partial ban (Apr. 25), the American University speech's making (May).
-- Khrushchev's fall: the schools (Dec. 23, 1963; July 30, Aug. 1964), the plot (spring 1964; Galyukov's warning), the
-  Presidium of Oct. 8, Oct. 12, 13, 14, 1964, the NSC of Oct. 16, Trevelyan's paper of Nov. 2.
-- From pp. 338–451, the events the second run passed without a row: the $133 million for Cuba (Feb. 8, 1962), the
-  Titans (Apr. 20, 1962), Ulbricht's messages of Oct. 27–28, 1961, Acheson to Truman (Sept. 21, 1961); and cites for
-  the Adzhubei interview, Mongoose and Athens.
+- The test ban: Khrushchev's letter of Sept. 28, 1962, Dean and Kuznetsov (Oct. 30), Roberts's farewell (Nov. 12), Cousins in Moscow (Dec. 1962) and at Pitsunda (Apr. 12, 1963), Kennedy's meeting of Feb. 8, 1963, the Presidium's partial ban (Apr. 25), the American University speech's making (May).
+- Khrushchev's fall: the schools (Dec. 23, 1963; July 30, Aug. 1964), the plot (spring 1964; Galyukov's warning), the Presidium of Oct. 8, Oct. 12, 13, 14, 1964, the NSC of Oct. 16, Trevelyan's paper of Nov. 2.
+- From pp. 338–451, the events the second run passed without a row: the $133 million for Cuba (Feb. 8, 1962), the Titans (Apr. 20, 1962), Ulbricht's messages of Oct. 27–28, 1961, Acheson to Truman (Sept. 21, 1961); and cites for the Adzhubei interview, Mongoose and Athens.
 
 ## Cites to entries in the tree (53), and the Checks
 
-Held, pinned, with the units the pages bear out: Aug. 29, Sept. 4 (both), 7 (both), 6, 7–9 (Frost), 11, 1962; the
-crisis's entries of Oct. 16–28 (address, Russell, Rusk and Dobrynin, OAS, the ships, the letters, Stevenson and Zorin,
-Feklisov and Scali, the U-2 and Robert Kennedy's talk, the broadcast; Castro's five points in the parenthetical of Oct.
-28); Nov. 2–29 (the Il-28s, the quarantine lifted, Laos, Mikoyan with Kennedy); Dec. 19; Jan. 14, Feb. 8, Apr. 3,
-20, 26, June 10, July 2, Sept. 30, Nov. 26, 1963; Oct. 15, 1964; Apr. 25, 1963 (the Jupiters, Ryzhov at the sites).
-Pinned in part (units given): Sept. 7, 1962 (Khrushchev's decisions: the twelve Lunas, not the Il-28s' bombs); Oct.
-22 and 23 and 25, 1962 (the Presidium: the later account, from Serov's notes and Mikoyan's memoir, differs).
+Held, pinned, with the units the pages bear out: Aug. 29, Sept. 4 (both), 7 (both), 6, 7–9 (Frost), 11, 1962; the crisis's entries of Oct. 16–28 (address, Russell, Rusk and Dobrynin, OAS, the ships, the letters, Stevenson and Zorin, Feklisov and Scali, the U-2 and Robert Kennedy's talk, the broadcast; Castro's five points in the parenthetical of Oct. 28); Nov. 2–29 (the Il-28s, the quarantine lifted, Laos, Mikoyan with Kennedy); Dec. 19; Jan. 14, Feb. 8, Apr. 3, 20, 26, June 10, July 2, Sept. 30, Nov. 26, 1963; Oct. 15, 1964; Apr. 25, 1963 (the Jupiters, Ryzhov at the sites). Pinned in part (units given): Sept. 7, 1962 (Khrushchev's decisions: the twelve Lunas, not the Il-28s' bombs); Oct. 22 and 23 and 25, 1962 (the Presidium: the later account, from Serov's notes and Mikoyan's memoir, differs).
 
-Checks added (7): Sept. 7, 1962 (twelve Lunas, the Volkogonov copy); Oct. 22 (the session at 10 p.m.; the instruction
-revised after Mikoyan and Kosygin, sent 11:55 p.m.; Gamble had it held on Malinovsky's advice); Oct. 23 (three
-sessions; the submarines' order never received; the R-14 ships turned only Oct. 25); Oct. 25 (the vote "that night");
-Nov. 11 (the letter dated Nov. 10, its words); Apr. 1963 (Cousins's report dated Apr. 22 by the tape); Apr. 24, 1963
-(the meeting Apr. 23, by Khrushchev's account).
+Checks added (7): Sept. 7, 1962 (twelve Lunas, the Volkogonov copy); Oct. 22 (the session at 10 p.m.; the instruction revised after Mikoyan and Kosygin, sent 11:55 p.m.; Gamble had it held on Malinovsky's advice); Oct. 23 (three sessions; the submarines' order never received; the R-14 ships turned only Oct. 25); Oct. 25 (the vote "that night"); Nov. 11 (the letter dated Nov. 10, its words); Apr. 1963 (Cousins's report dated Apr. 22 by the tape); Apr. 24, 1963 (the meeting Apr. 23, by Khrushchev's account).
 
-Disagreements in the new entries, each a Check in its note: Bolshakov with Robert Kennedy dated Oct. 8 (the calendar
-has Oct. 4 and 6); Couve de Murville's words given to Kennedy (the American memorandum, FRUS XV, doc. 130, gives them to
-Couve); the Presidium of Oct. 28 numbered 64 here, 63 in *One Hell of a Gamble*; Mikoyan's first meeting with Castro
-Nov. 3, its memorandum Nov. 4; the KGB's New York report dated Dec. 15 in the note, read Nov. 15 in the text; the notes
-on Khrushchev's words to Kohler and to a British diplomat perhaps transposed (618 n.26, n.27); Khrushchev's Berlin
-speech put "the day after" the State of the Union (Jan. 15; the congress's day, Jan. 16, to check); Gromyko's telegram
-cited to FRUS V (it is XV, doc. 171); the Presidium of Oct. 14, 1964 printed 1962 in the note; the spacecraft of Oct.
-12, 1964 called *Vostok 3* (the first three-man craft); Stalin's body taken out Oct. 30, 1961 (410; the calendar's Oct. 31).
+Disagreements in the new entries, each a Check in its note: Bolshakov with Robert Kennedy dated Oct. 8 (the calendar has Oct. 4 and 6); Couve de Murville's words given to Kennedy (the American memorandum, FRUS XV, doc. 130, gives them to Couve); the Presidium of Oct. 28 numbered 64 here, 63 in *One Hell of a Gamble*; Mikoyan's first meeting with Castro Nov. 3, its memorandum Nov. 4; the KGB's New York report dated Dec. 15 in the note, read Nov. 15 in the text; the notes on Khrushchev's words to Kohler and to a British diplomat perhaps transposed (618 n.26, n.27); Khrushchev's Berlin speech put "the day after" the State of the Union (Jan. 15; the congress's day, Jan. 16, to check); Gromyko's telegram cited to FRUS V (it is XV, doc. 171); the Presidium of Oct. 14, 1964 printed 1962 in the note; the spacecraft of Oct. 12, 1964 called *Vostok 3* (the first three-man craft); Stalin's body taken out Oct. 30, 1961 (410; the calendar's Oct. 31).
 
 ## The notes, and the witnesses
 
-The work cites the Presidium's protocols and stenograms (AOK; printed in `w.prezidium-tsk-kpss-1954` where the volumes
-hold them: registered with that copy), the APRF, the MFA (AVPRF), the GRU, the SVR and FSB, RGANI and RGASPI, the
-Volkogonov Collection at the Library of Congress, the British and French archives (PREM, FO; *Documents Diplomatiques
-Français*), the JFK Library's tapes (draft transcripts by David Coleman), BBC Scotland's interviews, the authors' own
-interviews (Semichastny, Feklisov, Scali, Critchfield, Ryzhov, the Kremlin guards), and the press. None of the Soviet,
-British or French records reached; each is a witness row, `open` closed archive or not held, and stands behind "To
-check:" with its page and note. FRUS read where it prints the record (V, docs. 235, 280, 309, 313; VI, doc. 56; VII,
-doc. 262; XV, docs. 119, 130, 171; 1964–68, XIV, doc. 53): those entries cite it first. Records the series held through
-*One Hell of a Gamble* (Malin's notes of Oct. 22, 25, 27, 28, Nov. 10, 16, 21; Mikoyan's memorandum of Nov. 4; Robert
-Kennedy to the President, Apr. 3, 1963; the Harriman memorandum of Apr. 26, 1963) take this work's edges, no second
-row. Cards edged: `w.presidential-recordings` (II, 25–29, 413, 512–72; III, 184–97), `w.kennedy-tapes` (173),
-`w.cousins-improbable-triumvirate`, `w.schlesinger-thousand-days-1965`, `w.sorensen-kennedy`, `w.taubman-khrushchev`,
-`w.dallek-unfinished-life`, `w.schlesinger-robert-kennedy-and-his`, `w.batatu-old-social-classes-and`,
-`w.harrison-driving-the-soviets-up`, `w.reeve-robert-frost-in-russia`, `w.fursenko-one-hell-of-a`.
+The work cites the Presidium's protocols and stenograms (AOK; printed in `w.prezidium-tsk-kpss-1954` where the volumes hold them: registered with that copy), the APRF, the MFA (AVPRF), the GRU, the SVR and FSB, RGANI and RGASPI, the Volkogonov Collection at the Library of Congress, the British and French archives (PREM, FO; *Documents Diplomatiques Français*), the JFK Library's tapes (draft transcripts by David Coleman), BBC Scotland's interviews, the authors' own interviews (Semichastny, Feklisov, Scali, Critchfield, Ryzhov, the Kremlin guards), and the press. None of the Soviet, British or French records reached; each is a witness row, `open` closed archive or not held, and stands behind "To check:" with its page and note. FRUS read where it prints the record (V, docs. 235, 280, 309, 313; VI, doc. 56; VII, doc. 262; XV, docs. 119, 130, 171; 1964–68, XIV, doc. 53): those entries cite it first. Records the series held through *One Hell of a Gamble* (Malin's notes of Oct. 22, 25, 27, 28, Nov. 10, 16, 21; Mikoyan's memorandum of Nov. 4; Robert Kennedy to the President, Apr. 3, 1963; the Harriman memorandum of Apr. 26, 1963) take this work's edges, no second row. Cards edged: `w.presidential-recordings` (II, 25–29, 413, 512–72; III, 184–97), `w.kennedy-tapes` (173), `w.cousins-improbable-triumvirate`, `w.schlesinger-thousand-days-1965`, `w.sorensen-kennedy`, `w.taubman-khrushchev`, `w.dallek-unfinished-life`, `w.schlesinger-robert-kennedy-and-his`, `w.batatu-old-social-classes-and`, `w.harrison-driving-the-soviets-up`, `w.reeve-robert-frost-in-russia`, `w.fursenko-one-hell-of-a`.
 
 ## Passed over (pp. 451–545)
 
-How made: every dated event of the pages, read page by page against the calendar (`./bib find`, the ledger), each
-entered, cited, or a row here.
+How made: every dated event of the pages, read page by page against the calendar (`./bib find`, the ledger), each entered, cited, or a row here.
 
 | page | date | event | why |
 |---|---|---|---|
@@ -230,8 +149,7 @@ entered, cited, or a row here.
 
 ## Passed over (pp. 338–451), the rows the second run did not log
 
-How made: every sentence of the pages bearing a date (377) set against the second run's adds and cites and the
-calendar; the pages it cited nowhere (338–39, 342, 367–68, 387, 411, 413–17, 427, 437) read again whole.
+How made: every sentence of the pages bearing a date (377) set against the second run's adds and cites and the calendar; the pages it cited nowhere (338–39, 342, 367–68, 387, 411, 413–17, 427, 437) read again whole.
 
 | page | date | event | why |
 |---|---|---|---|
@@ -303,25 +221,14 @@ The work cites the papers for Peking's and Moscow's public word; no day's covera
 ## Leads (third run; to notes/leads.md)
 
 Foreign:
-- The rows above marked "lead," each with its page and note; chiefly: the Presidium's and Khrushchev's acts the work
-  dates only to a month (the Minister of Agriculture, March 1963; Kozlov's stroke; the plot's beginnings, 1963; the
-  boundary message, Dec. 31, 1963 or Jan. 1964; Khrushchev's Scandinavian and Egyptian days, May–June 1964, entered by
-  month only).
-- Khrushchev's Berlin speech: the day (Jan. 15 or 16, 1963) by the Sixth SED Congress's record; the publication of the
-  December letters (the work's "next day").
-- The Volkogonov Collection, Library of Congress (Malinovsky's, Zakharov's, Ivanov's papers of Sept. 1962): its finding
-  aid, for copies the series could cite.
-- BBC Scotland's interviews of Shumkov and Chebrasov; David Coleman's transcripts of the ExComm of Nov. 14 and 16,
-  1962 (the work's note: to appear in vol. 4 of the Miller Center's *Presidential Recordings*, 619 n.58).
-- Kroll's summer visit of 1963 and Khrushchev's letter to Adenauer (621 n.111).
-National:
-- Oct. 24, 1962: McNamara's depth-charge rules and Kennedy's worry, from the morning ExComm's tape (Presidential
-  Recordings, III, 191–97): an entry for a reader of the tapes.
+- The rows above marked "lead," each with its page and note; chiefly: the Presidium's and Khrushchev's acts the work dates only to a month (the Minister of Agriculture, March 1963; Kozlov's stroke; the plot's beginnings, 1963; the boundary message, Dec. 31, 1963 or Jan. 1964; Khrushchev's Scandinavian and Egyptian days, May–June 1964, entered by month only).
+- Khrushchev's Berlin speech: the day (Jan. 15 or 16, 1963) by the Sixth SED Congress's record; the publication of the December letters (the work's "next day").
+- The Volkogonov Collection, Library of Congress (Malinovsky's, Zakharov's, Ivanov's papers of Sept. 1962): its finding aid, for copies the series could cite.
+- BBC Scotland's interviews of Shumkov and Chebrasov; David Coleman's transcripts of the ExComm of Nov. 14 and 16, 1962 (the work's note: to appear in vol. 4 of the Miller Center's *Presidential Recordings*, 619 n.58).
+- Kroll's summer visit of 1963 and Khrushchev's letter to Adenauer (621 n.111). National:
+- Oct. 24, 1962: McNamara's depth-charge rules and Kennedy's worry, from the morning ExComm's tape (Presidential Recordings, III, 191–97): an entry for a reader of the tapes.
 - Apr. 13, 1961, El Encanto; Aug. 14, 1961, Kennan's authorization (388): to enter from a record.
-- Kennedy's back, Ottawa, May 1961 (the work's "March," 367).
-The press: a Part III entry for Warren Rogers (*Herald Tribune*, Pentagon pool), named in cal.1962-10-26.soviet-union,
-and for Thomas J. Hamilton (*New York Times* at the UN), cal.1962-11-15.missile-crisis-2; both treated by this work
-(486, 502).
+- Kennedy's back, Ottawa, May 1961 (the work's "March," 367). The press: a Part III entry for Warren Rogers (*Herald Tribune*, Pentagon pool), named in cal.1962-10-26.soviet-union, and for Thomas J. Hamilton (*New York Times* at the UN), cal.1962-11-15.missile-crisis-2; both treated by this work (486, 502).
 
 ## What remains unread
 

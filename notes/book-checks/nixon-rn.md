@@ -1,37 +1,16 @@
 # Richard M. Nixon, *RN: The Memoirs of Richard Nixon* (1978): the reading of Jan. 6, 1960–Jan. 20, 1969
 
-Card `w.nixon-rn`. Read Oct. 28–29, 2026. Patch: `inbox/2026-10-29-book-nixon-rn.yaml` (book-nixon-rn; 114 ops: 52
-entries added, 57 edited, 5 tag ops). Records: `sources/cited-records/nixon-rn.yaml` (5). Leads: `notes/leads.md`,
-National, "Nixon, *RN*".
+Card `w.nixon-rn`. Read Oct. 28–29, 2026. Patch: `inbox/2026-10-29-book-nixon-rn.yaml` (book-nixon-rn; 114 ops: 52 entries added, 57 edited, 5 tag ops). Records: `sources/cited-records/nixon-rn.yaml` (5). Leads: `notes/leads.md`, National, "Nixon, *RN*".
 
 ## The copy, and how much of it was read
 
-The owner's copy in Drive (file id 1cSYO3uxBPW3hJnQlueDMCJn6m_LXjVij, 59 MB): the Internet Archive's scan of the 1978
-edition (`rnmemoirsofricha00nixo`), 1,192 PDF pages with a ClearScan text layer, read with `pdftotext -layout` in the
-scratchpad only (the PDF deleted after). The printed folios stand at the foot of each text page; the offset changes at
-each gathering of plates, which carry no folios: **printed page = PDF page − 16** for pp. 3–212 (PDF 19–228), **− 32**
-for pp. 213–532 (PDF 245–580, after the plates at PDF 229–244), − 48 and − 64 later (outside the span). Found by script
-on every page with a folio; checked by eye on the page images of p. 197 (PDF 213), p. 222 (PDF 254) and p. 325 (PDF 357).
-Every page is cited by its printed folio.
+The owner's copy in Drive (file id 1cSYO3uxBPW3hJnQlueDMCJn6m_LXjVij, 59 MB): the Internet Archive's scan of the 1978 edition (`rnmemoirsofricha00nixo`), 1,192 PDF pages with a ClearScan text layer, read with `pdftotext -layout` in the scratchpad only (the PDF deleted after). The printed folios stand at the foot of each text page; the offset changes at each gathering of plates, which carry no folios: **printed page = PDF page − 16** for pp. 3–212 (PDF 19–228), **− 32** for pp. 213–532 (PDF 245–580, after the plates at PDF 229–244), − 48 and − 64 later (outside the span). Found by script on every page with a folio; checked by eye on the page images of p. 197 (PDF 213), p. 222 (PDF 254) and p. 325 (PDF 357). Every page is cited by its printed folio.
 
-Read in full: pp. 197–228 (1958 to the inauguration of 1961, with the 1960 campaign at 214–28), "Private Citizen
-1961–1967" (231–89), and "1968 Campaign and Election" to the eve of the inauguration (297–362). The earlier chapters
-were not read; nothing before 1960 is entered.
+Read in full: pp. 197–228 (1958 to the inauguration of 1961, with the 1960 campaign at 214–28), "Private Citizen 1961–1967" (231–89), and "1968 Campaign and Election" to the eve of the inauguration (297–362). The earlier chapters were not read; nothing before 1960 is entered.
 
-The memoir has no notes. A record is logged only where the text quotes or names a document that grounds an entry
-(`note: text`; five, all `found: null`: none is in the daybook, FRUS or the Papers). The other documents the text quotes
-ground no entry and are not logged: Nixon's memorandum on Castro, Apr. 1959 (202; before the span); Chambers to Nixon,
-Feb. 1961 (238); Nixon to Eisenhower on running for governor, summer 1961 (237); Nixon to Jacqueline Kennedy, Nov. 23,
-1963, and her reply (253–55); Goldwater to Nixon on "extremism," Aug. 1964 (261; in `cal.1964-08-12`'s To check, from
-Perlstein); Eisenhower to Nixon on the ASNE speech, Apr. 1968 (302); Romney's note of Aug. 9, 1968 (314); Haldeman's
-memorandum with Kissinger's forecast, autumn 1968 (324); the IRS supervisor's letter to Rose Woods, 1973 (247); Nixon's
-diary, 1972 (226).
+The memoir has no notes. A record is logged only where the text quotes or names a document that grounds an entry (`note: text`; five, all `found: null`: none is in the daybook, FRUS or the Papers). The other documents the text quotes ground no entry and are not logged: Nixon's memorandum on Castro, Apr. 1959 (202; before the span); Chambers to Nixon, Feb. 1961 (238); Nixon to Eisenhower on running for governor, summer 1961 (237); Nixon to Jacqueline Kennedy, Nov. 23, 1963, and her reply (253–55); Goldwater to Nixon on "extremism," Aug. 1964 (261; in `cal.1964-08-12`'s To check, from Perlstein); Eisenhower to Nixon on the ASNE speech, Apr. 1968 (302); Romney's note of Aug. 9, 1968 (314); Haldeman's memorandum with Kissinger's forecast, autumn 1968 (324); the IRS supervisor's letter to Rose Woods, 1973 (247); Nixon's diary, 1972 (226).
 
-Where a primary record held by the series bears the same transaction, it is cited first: FRUS 1964–68, VII, doc. 80
-and the Miller Center's recording for the conference call of Oct. 16, 1968; doc. 187 (already the record of
-`cal.1968-11-03.elections-1968-chennault`) bears Nixon's account of that call's subject, Finch's remarks; doc. 166 the
-call of Oct. 31. The Library of Congress's Meet the Press inventory (`daybook/sunday.yaml`) has Nixon on Sept. 12 and Nov.
-21, 1965, which dates (with a Check) the program Nixon puts after his September visit to Saigon.
+Where a primary record held by the series bears the same transaction, it is cited first: FRUS 1964–68, VII, doc. 80 and the Miller Center's recording for the conference call of Oct. 16, 1968; doc. 187 (already the record of `cal.1968-11-03.elections-1968-chennault`) bears Nixon's account of that call's subject, Finch's remarks; doc. 166 the call of Oct. 31. The Library of Congress's Meet the Press inventory (`daybook/sunday.yaml`) has Nixon on Sept. 12 and Nov. 21, 1965, which dates (with a Check) the program Nixon puts after his September visit to Saigon.
 
 ## The citations it had (nine calendar entries; two by page)
 
@@ -51,72 +30,35 @@ call of Oct. 31. The Library of Congress's Meet the Press inventory (`daybook/su
 
 - `cal.1960-07-27.elections-1960`: thirty-two party leaders (215) against "some twenty" (Kallina).
 - `cal.1960-10-31.elections-1960`: "several additional stops" (222), not three.
-- `cal.1968-03-21.elections-1968`: the entry has Rockefeller ready to "answer a draft"; the words Nixon quotes (299) say
-  only that he will "do nothing ... to encourage" one. Check added; the entry's "(Check the words)" replaced by the
-  quotation.
+- `cal.1968-03-21.elections-1968`: the entry has Rockefeller ready to "answer a draft"; the words Nixon quotes (299) say only that he will "do nothing ... to encourage" one. Check added; the entry's "(Check the words)" replaced by the quotation.
 - `cal.1968-04-02.elections-1968`: Nixon gives his Wisconsin share as 79.4 percent (301), the entry 79.7. Check.
 - `cal.1968-05-14`, `-05-28`: Nixon's Nebraska and Oregon shares (303) added as Checks; the entries give no shares.
 - `cal.1964-05-12.elections-1964`: Nixon's write-in vote in Nebraska, 42,800 (259), not in the entry. Check.
 - `cal.1968-08-08.elections-1968-miami`: Agnew 1,128 votes (314) against the Proceedings' 1,119. Check.
 - `cal.1968-11-05.elections-1968`: 43.3 percent (351) against the Clerk's 43.4. Check.
-- `cal.1968-12-18.testing-missile-talks`: Nixon calls Kissinger's Soviet contact "a Soviet UN diplomat" (346); FRUS
-  names Sedov of the embassy. Check.
-- `cal.1968-07-18.elections-1968`: the entry's "Check the day" settled: Nixon's visit of July 15 and the release of July
-  18 (307); new entry for July 15.
+- `cal.1968-12-18.testing-missile-talks`: Nixon calls Kissinger's Soviet contact "a Soviet UN diplomat" (346); FRUS names Sedov of the embassy. Check.
+- `cal.1968-07-18.elections-1968`: the entry's "Check the day" settled: Nixon's visit of July 15 and the release of July 18 (307); new entry for July 15.
 - New entries carry "Check: the day" wherever *RN* dates by the month or by reckoning ("two days before the election").
 
 ## Entries newly citing the book (edits, by page)
 
-1960: `03-17.cuba` (203, Nixon present; no date), `07-22` (215, the meeting; Nixon's offer of second place, added to
-`c`), `07-28` (216), `08-24` (219; Eisenhower's call of regret that afternoon added to `c`), `08-29` (218), `09-12-2`
-(218), `09-26` (217–19), `10-07` (219–20), `10-13` (220), `10-20.cuba` (220), `10-21` (220–21), `11-07` (221–22), `11-09`
-(223). 1961: `04-20.cuba-bay-of-pigs` (233–35). 1962: `03` (241), `06-05` (241), `11-07` (244–46). 1963: `11-21` (252).
-1964: `03-10` (256), `07-15` (259–60), `08-12` (261–62). 1965: `01-22.republican-party` (265–66; Goldwater's
-introduction of Nixon added to `c`), `01-26.vietnam` (270). 1966: `11-04` (274–75). 1967: `04-17.vietnam` (282–83), `10`
-(285). 1968: `02-28` (298–99), `03-12` (299), `03-21` (299–300; the words, Agnew's reaction), `04-09.king` (301),
-`04-30-2` (302), `05-14` (302–3), `05-28` (303), `07-18` (307), `08-05-2` (309), `08-07` (309–11), `08-08-miami`
-(311–14), `08-10` (316), `09-04` (317; the crowd added), `10-31.vietnam` (322), `11-03.elections-1968-chennault` (329;
-Johnson on Finch's remarks added from FRUS doc. 187), `11-06` (334–35; Humphrey's call added), `11-25.soviet-union`
-(345), `12-12.transition-and-staff` (357–58; the Oval Office talk added: one visit, one entry), `12-18` (346), `12-20`
-(349).
+1960: `03-17.cuba` (203, Nixon present; no date), `07-22` (215, the meeting; Nixon's offer of second place, added to `c`), `07-28` (216), `08-24` (219; Eisenhower's call of regret that afternoon added to `c`), `08-29` (218), `09-12-2` (218), `09-26` (217–19), `10-07` (219–20), `10-13` (220), `10-20.cuba` (220), `10-21` (220–21), `11-07` (221–22), `11-09` (223). 1961: `04-20.cuba-bay-of-pigs` (233–35). 1962: `03` (241), `06-05` (241), `11-07` (244–46). 1963: `11-21` (252). 1964: `03-10` (256), `07-15` (259–60), `08-12` (261–62). 1965: `01-22.republican-party` (265–66; Goldwater's introduction of Nixon added to `c`), `01-26.vietnam` (270). 1966: `11-04` (274–75). 1967: `04-17.vietnam` (282–83), `10` (285). 1968: `02-28` (298–99), `03-12` (299), `03-21` (299–300; the words, Agnew's reaction), `04-09.king` (301), `04-30-2` (302), `05-14` (302–3), `05-28` (303), `07-18` (307), `08-05-2` (309), `08-07` (309–11), `08-08-miami` (311–14), `08-10` (316), `09-04` (317; the crowd added), `10-31.vietnam` (322), `11-03.elections-1968-chennault` (329; Johnson on Finch's remarks added from FRUS doc. 187), `11-06` (334–35; Humphrey's call added), `11-25.soviet-union` (345), `12-12.transition-and-staff` (357–58; the Oval Office talk added: one visit, one entry), `12-18` (346), `12-20` (349).
 
 ## New entries (52)
 
-1960: Nov. 9, Dirksen's call and the concession telegram (`-5`). 1961: Dulles at Nixon's house, Apr. 19; Nixon with the
-Republican leaders, Apr. 20; the Executives Club, May 5; Hall and Folger, Aug.; the announcement for governor, Sept. 27.
-1962: the joint appearance and the Hughes loan, Oct. 1; ABC's "Political Obituary," Nov. 11. 1963: Nixon's call to
-Hoover, Nov. 22. 1964: Nixon presents Goldwater, July 16; Gettysburg, Aug. 6; "a spoilsport and a divider," Nov. 5.
-1965: *Meet the Press*, Sept. 12. 1966: Buchanan, Jan.; the Manila statement, Nov. 3; Waterville, Nov. 4; NBC and
-*Issues and Answers*, Nov. 6; the day after, Nov. 9; the Nixon for President club, Nov. 23. 1967: the CIA briefing
-refused, Adenauer, Ceaușescu (Mar.); Chiang (Apr.); Haldeman's memorandum, Rabin (June); the Lakeside Speech, Reagan and
-Murphy (July); Eisenhower at Gettysburg, July 17. 1968: the AP, Mar. 14; Agnew, Mar.; "the year of the dropouts," Mar.
-31; the King family, Apr. 7; the ASNE, Apr. 19; Atlanta and Thurmond, May 31–June 1; Rockefeller's telegram, July 9;
-Walter Reed, July 15; Kissinger's offer, Sept. 12, his call, Sept., his report, Oct. 12; the conference call and the Al
-Smith Dinner, Oct. 16; Rochester, Oct. 17; Boston, Oct. 18; Harlow's memorandum, Oct. 22; Harlow's source, Oct. 24; the
-statement of Oct. 26; Madison Square Garden, Oct. 31; Texas, Nov. 2; the telethon, Nov. 4; Kissinger at the Pierre,
-Nov. 25 and 27.
+1960: Nov. 9, Dirksen's call and the concession telegram (`-5`). 1961: Dulles at Nixon's house, Apr. 19; Nixon with the Republican leaders, Apr. 20; the Executives Club, May 5; Hall and Folger, Aug.; the announcement for governor, Sept. 27. 1962: the joint appearance and the Hughes loan, Oct. 1; ABC's "Political Obituary," Nov. 11. 1963: Nixon's call to Hoover, Nov. 22. 1964: Nixon presents Goldwater, July 16; Gettysburg, Aug. 6; "a spoilsport and a divider," Nov. 5. 1965: *Meet the Press*, Sept. 12. 1966: Buchanan, Jan.; the Manila statement, Nov. 3; Waterville, Nov. 4; NBC and *Issues and Answers*, Nov. 6; the day after, Nov. 9; the Nixon for President club, Nov. 23. 1967: the CIA briefing refused, Adenauer, Ceaușescu (Mar.); Chiang (Apr.); Haldeman's memorandum, Rabin (June); the Lakeside Speech, Reagan and Murphy (July); Eisenhower at Gettysburg, July 17. 1968: the AP, Mar. 14; Agnew, Mar.; "the year of the dropouts," Mar. 31; the King family, Apr. 7; the ASNE, Apr. 19; Atlanta and Thurmond, May 31–June 1; Rockefeller's telegram, July 9; Walter Reed, July 15; Kissinger's offer, Sept. 12, his call, Sept., his report, Oct. 12; the conference call and the Al Smith Dinner, Oct. 16; Rochester, Oct. 17; Boston, Oct. 18; Harlow's memorandum, Oct. 22; Harlow's source, Oct. 24; the statement of Oct. 26; Madison Square Garden, Oct. 31; Texas, Nov. 2; the telethon, Nov. 4; Kissinger at the Pierre, Nov. 25 and 27.
 
-**The merge's duplicate flags (14) are distinct events**, each filed under its own thread as the brief asks, and to be
-kept (`./bib resolve ID --take keep`): `cal.1960-11-09.elections-1960-5`, `1961-04-19.cuba-bay-of-pigs`,
-`1963-11-22.assassination-2`, `1964-07-16.elections-1964-2`, `1966-11-04.elections-1966-2`, `1966-11-06.elections-1966-2`,
-`1967-03.elections-1968-2`, `1967-07.elections-1968-2`, `1968-03-31.elections-1968-2`, `1968-07-09.elections-1968-2`,
-`1968-09-12.elections-1968-2`, `1968-09.elections-1968-2`, `1968-10-16.vietnam-paris-2`, `1968-10-26.elections-1968-2`.
-Checked in a scratch copy: merged, kept, `./bib check` 0 errors.
+**The merge's duplicate flags (14) are distinct events**, each filed under its own thread as the brief asks, and to be kept (`./bib resolve ID --take keep`): `cal.1960-11-09.elections-1960-5`, `1961-04-19.cuba-bay-of-pigs`, `1963-11-22.assassination-2`, `1964-07-16.elections-1964-2`, `1966-11-04.elections-1966-2`, `1966-11-06.elections-1966-2`, `1967-03.elections-1968-2`, `1967-07.elections-1968-2`, `1968-03-31.elections-1968-2`, `1968-07-09.elections-1968-2`, `1968-09-12.elections-1968-2`, `1968-09.elections-1968-2`, `1968-10-16.vietnam-paris-2`, `1968-10-26.elections-1968-2`. Checked in a scratch copy: merged, kept, `./bib check` 0 errors.
 
-One question for the owner: `cal.1968-10-22.elections-1968-2` (Harlow's memorandum and Nixon's orders, by his account)
-and `cal.1968-10-22.elections-1968` (Haldeman's notes of Nixon's instructions by telephone, the Chennault subthread) may
-record one conversation; *RN* names no Chennault. A Check in the new entry.
+One question for the owner: `cal.1968-10-22.elections-1968-2` (Harlow's memorandum and Nixon's orders, by his account) and `cal.1968-10-22.elections-1968` (Haldeman's notes of Nixon's instructions by telephone, the Chennault subthread) may record one conversation; *RN* names no Chennault. A Check in the new entry.
 
 ## Claim maps
 
-Every entry cited or edited carries a reader's `src` (109): 45 of them map *RN* finer than the whole entry. Existing
-rows are kept; where `c` grew, an old row's `all` became the old units' range. Five `via` rows, one for each logged
-record.
+Every entry cited or edited carries a reader's `src` (109): 45 of them map *RN* finer than the whole entry. Existing rows are kept; where `c` grew, an old row's `all` became the old units' range. Five `via` rows, one for each logged record.
 
 ## Passed over
 
-Made by reading the span page by page and listing every dated event; "already in" checked with `./bib find -l cal`
-by day.
+Made by reading the span page by page and listing every dated event; "already in" checked with `./bib find -l cal` by day.
 
 | Page | Date | Event | Why |
 |---|---|---|---|

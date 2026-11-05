@@ -1,95 +1,58 @@
 # Thomas Alan Schwartz, *Lyndon Johnson and Europe* (2003): the calendar's citations held up
 
-Card `w.schwartz-lyndon-johnson-and-europe`. Read Oct. 24, 2026, from the owner's copy (357 PDF pages, archive.org's
-scan with a text layer; printed page = PDF page − 14 throughout the text and notes, checked against the page image at
-p. 165). Text pp. 1–239, notes 247–308. Patch: `inbox/2026-10-24-book-schwartz-chen.yaml` (book-schwartz-chen).
+Card `w.schwartz-lyndon-johnson-and-europe`. Read Oct. 24, 2026, from the owner's copy (357 PDF pages, archive.org's scan with a text layer; printed page = PDF page − 14 throughout the text and notes, checked against the page image at p. 165). Text pp. 1–239, notes 247–308. Patch: `inbox/2026-10-24-book-schwartz-chen.yaml` (book-schwartz-chen).
 
 ## The 34 citations it had
 
-Seven hold whole and take their pages: Apr. 10, 1964 (40–41); May 31, 1965 (52–53); Mar. 7, 1966 (100–02); July 29,
-1966 (119–21); Oct. 7, 1966 (133–36); Apr. 19, 1967 (159–64: the death, then the funeral trip and the talks with
-Kiesinger, which `cal.1967-04-24` points back for); Aug. 15–16, 1967 (183–85).
+Seven hold whole and take their pages: Apr. 10, 1964 (40–41); May 31, 1965 (52–53); Mar. 7, 1966 (100–02); July 29, 1966 (119–21); Oct. 7, 1966 (133–36); Apr. 19, 1967 (159–64: the death, then the funeral trip and the talks with Kiesinger, which `cal.1967-04-24` points back for); Aug. 15–16, 1967 (183–85).
 
 Fifteen hold in part and take their pages with what they stand for:
 
-- `cal.1963-12-28` (Erhard at the Ranch): 22–23 (Johnson presses détente on Erhard), 65 (the six divisions tied to the
-  offset). Schwartz says nothing of the multilateral force at the Ranch.
-- `cal.1964-01-27` (France recognizes Peking): 31, Johnson to Russell, Jan. 15, "we've really got no control over their
-  foreign policy." Nothing on Chiang or de Gaulle's remarks of Jan. 31.
-- `cal.1964-06-12` (Erhard, June 1964): 41 (the year-end deadline for the multilateral force), 87 (Erhard's promise
-  of help in South Vietnam). 65 also has the offset, which the entry does not report.
+- `cal.1963-12-28` (Erhard at the Ranch): 22–23 (Johnson presses détente on Erhard), 65 (the six divisions tied to the offset). Schwartz says nothing of the multilateral force at the Ranch.
+- `cal.1964-01-27` (France recognizes Peking): 31, Johnson to Russell, Jan. 15, "we've really got no control over their foreign policy." Nothing on Chiang or de Gaulle's remarks of Jan. 31.
+- `cal.1964-06-12` (Erhard, June 1964): 41 (the year-end deadline for the multilateral force), 87 (Erhard's promise of help in South Vietnam). 65 also has the offset, which the entry does not report.
 - `cal.1964-10-15` (Britain votes): 67, Labour's narrow victory only; no seat counts.
-- `cal.1964-12-07` (Wilson, Dec. 1964): 43–45 (the talks, the ANF, Johnson's "the hell with it"), 69 (sterling at the
-  same meetings). NSAM 322 stands on FRUS.
-- `cal.1965-06-30` (the empty chair): 94–95, the walkout "in the early-morning hours of July 1" and its issues; nothing
-  on the Commission's proposal of Mar. 31. 95–96 go on to the Luxembourg settlement.
-- `cal.1965-12-20` (Erhard, Dec. 1965): 88–90 (the offset and Vietnam, by McGhee's memoir and the German record),
-  112 (Erhard's nuclear proposals).
+- `cal.1964-12-07` (Wilson, Dec. 1964): 43–45 (the talks, the ANF, Johnson's "the hell with it"), 69 (sterling at the same meetings). NSAM 322 stands on FRUS.
+- `cal.1965-06-30` (the empty chair): 94–95, the walkout "in the early-morning hours of July 1" and its issues; nothing on the Commission's proposal of Mar. 31. 95–96 go on to the Luxembourg settlement.
+- `cal.1965-12-20` (Erhard, Dec. 1965): 88–90 (the offset and Vietnam, by McGhee's memoir and the German record), 112 (Erhard's nuclear proposals).
 - `cal.1966-06-06` (NATO at Brussels): 106, 109, the French forces in Germany only; the meeting itself not treated.
-- `cal.1966-09-26` (Erhard, Sept. 1966): 127–32 (the meeting, the communiqué, Johnson to McNamara that evening), 143
-  (McCloy chosen).
-- `cal.1966-12-01` (Kiesinger elected): 147, 149, the Grand Coalition. Disagrees: 132 has the Free Democrats leave "and
-  Erhard resigned at the end of October." The entry has the FDP out Oct. 27 and Erhard resigning Nov. 30; Check added.
-- `cal.1967-04-28` (the trilateral talks end): 156–58, 164–65 (the rotation of two brigades, the 96 aircraft, the
-  Bundesbank's "Blessing Brief," German purchases in Britain). Not in Schwartz: the 35,000 men, the $500 million.
-- `cal.1967-06-23` (Glassboro): 181–83, 206 (the meeting; the nonproliferation treaty; missiles). Nothing on the
-  Middle East or Phạm Văn Đồng's answer.
+- `cal.1966-09-26` (Erhard, Sept. 1966): 127–32 (the meeting, the communiqué, Johnson to McNamara that evening), 143 (McCloy chosen).
+- `cal.1966-12-01` (Kiesinger elected): 147, 149, the Grand Coalition. Disagrees: 132 has the Free Democrats leave "and Erhard resigned at the end of October." The entry has the FDP out Oct. 27 and Erhard resigning Nov. 30; Check added.
+- `cal.1967-04-28` (the trilateral talks end): 156–58, 164–65 (the rotation of two brigades, the 96 aircraft, the Bundesbank's "Blessing Brief," German purchases in Britain). Not in Schwartz: the 35,000 men, the $500 million.
+- `cal.1967-06-23` (Glassboro): 181–83, 206 (the meeting; the nonproliferation treaty; missiles). Nothing on the Middle East or Phạm Văn Đồng's answer.
 - `cal.1967-11-27` (de Gaulle's press conference): 194, Britain's entry refused for American influence on London.
 - `cal.1967-12-12` (the Harmel report): 212–13.
 - `cal.1968-08-20` (Czechoslovakia invaded): 216–18 (Dobrynin with Johnson, the Cabinet, "The Cold War is not over").
 
 Twelve are not treated, and the card leaves them (the "To check"):
 
-- Cyprus, four entries: `cal.1963-10-17`, `cal.1964-01-25`, `cal.1964-03-04`, `cal.1964-08-08`. Cyprus is named once,
-  28, in a list of early crises.
+- Cyprus, four entries: `cal.1963-10-17`, `cal.1964-01-25`, `cal.1964-03-04`, `cal.1964-08-08`. Cyprus is named once, 28, in a list of early crises.
 - `cal.1965-11-11` (Rhodesia): not in the book.
-- `cal.1966-12-14` (NATO, Dec. 1966; the Nuclear Planning Group set up; Harmel's proposal): not treated; 150 has
-  Brandt with Rusk at that meeting, which the entry does not report.
-- `cal.1967-01-20`, `cal.1967-03-16` (the consular convention before the Senate): the book has only the signing, June 1,
-  1964, 19. The calendar has no entry for the signing (a lead).
-- `cal.1968-05-22` (May in France): one clause, 204, on the franc's losses; the card goes to `cal.1968-06-06` (the
-  franc's crisis) instead.
-- `cal.1968-06-11` (East German passports and visas): not in the book. The entry is left with FRUS alone and no
-  bibliography; the audit lists it.
-- `cal.1968-07-15` (the Warsaw letter): not treated. 213–14 treat the Prague Spring's opening, and the card goes to
-  `cal.1968-03-22` (Novotný; Beam's telegram, which Schwartz quotes).
+- `cal.1966-12-14` (NATO, Dec. 1966; the Nuclear Planning Group set up; Harmel's proposal): not treated; 150 has Brandt with Rusk at that meeting, which the entry does not report.
+- `cal.1967-01-20`, `cal.1967-03-16` (the consular convention before the Senate): the book has only the signing, June 1, 1964, 19. The calendar has no entry for the signing (a lead).
+- `cal.1968-05-22` (May in France): one clause, 204, on the franc's losses; the card goes to `cal.1968-06-06` (the franc's crisis) instead.
+- `cal.1968-06-11` (East German passports and visas): not in the book. The entry is left with FRUS alone and no bibliography; the audit lists it.
+- `cal.1968-07-15` (the Warsaw letter): not treated. 213–14 treat the Prague Spring's opening, and the card goes to `cal.1968-03-22` (Novotný; Beam's telegram, which Schwartz quotes).
 - `cal.1968-11-14` (NATO, Nov. 1968): not treated (219–20 have Johnson with Birrenbach, Sept. 1968).
 
 ## Other entries it now bears on
 
-`cal.1964-11-23.economy` (68), `cal.1965-01-21.testing` (53), `cal.1965-02-10.economy` (72), `cal.1967-05-15.trade`
-(168–71), `cal.1967-08-24.testing` (183), `cal.1967-08-26.economy` (179–80), `cal.1967-11-18.economy` (191–93),
-`cal.1968-01-01.economy` (195–97), `cal.1968-03-14.economy` (200–02), `cal.1968-03-22.soviet-union` (213–14),
-`cal.1968-06-06.europe-and-the-alliance-france` (204).
+`cal.1964-11-23.economy` (68), `cal.1965-01-21.testing` (53), `cal.1965-02-10.economy` (72), `cal.1967-05-15.trade` (168–71), `cal.1967-08-24.testing` (183), `cal.1967-08-26.economy` (179–80), `cal.1967-11-18.economy` (191–93), `cal.1968-01-01.economy` (195–97), `cal.1968-03-14.economy` (200–02), `cal.1968-03-22.soviet-union` (213–14), `cal.1968-06-06.europe-and-the-alliance-france` (204).
 
 - `cal.1967-05-15.trade`: the entry's industrial cuts, 33 to 35 percent; Schwartz, 171, quoting a later study, 36 to
   39. Check added; the entry's figure is the record's of the day.
 
 ## New entries (16), each with its primary record where one was reachable
 
-Feb. 15, 1964 (Johnson to Heller on Douglas-Home, the Miller Center's tape); June 28–30, 1965 (Callaghan in
-Washington, FRUS XII); Aug. 5, 1965 (Johnson to Black and Martin, the tapes; Bator that night; his notes are dated
-Aug. 6, a Check); Sept. 10, 1965 (the sterling package: FRUS XII, doc. 249, $900 million to $1 billion; Schwartz, 81,
-$925 million, a Check); Apr. 4, Apr. 17, May 19, 1966 (France and NATO: the meeting at State, McCloy with Erhard, the
-Cabinet Room and Acheson's outburst, FRUS XIII); July 5, 1966 (Erhard's letter, FRUS XV); Aug. 23 and Aug. 25–26,
-1966 (the meeting on the offset and the proposal of trilateral talks, FRUS XIII; Schwartz puts the meeting at the Ranch
-"in late August," Bator's briefing is dated Washington, Aug. 23, a Check); Aug. 31, 1966 (Mansfield's S. Res. 300, the
-Daily Digest); Sept. 1, 1966 (Johnson to Russell Long, FRUS XV); Mar. 1, Mar. 8, Mar. 11, 1967 (the trilateral talks:
-the instructions to McCloy, the meeting on the $40 million gap, the letter to Kiesinger, FRUS XIII; Schwartz's text
-puts McCloy's meeting with Johnson on Mar. 1, his notes the memorandum of Mar. 2, a Check).
+Feb. 15, 1964 (Johnson to Heller on Douglas-Home, the Miller Center's tape); June 28–30, 1965 (Callaghan in Washington, FRUS XII); Aug. 5, 1965 (Johnson to Black and Martin, the tapes; Bator that night; his notes are dated Aug. 6, a Check); Sept. 10, 1965 (the sterling package: FRUS XII, doc. 249, $900 million to $1 billion; Schwartz, 81, $925 million, a Check); Apr. 4, Apr. 17, May 19, 1966 (France and NATO: the meeting at State, McCloy with Erhard, the Cabinet Room and Acheson's outburst, FRUS XIII); July 5, 1966 (Erhard's letter, FRUS XV); Aug. 23 and Aug. 25–26, 1966 (the meeting on the offset and the proposal of trilateral talks, FRUS XIII; Schwartz puts the meeting at the Ranch "in late August," Bator's briefing is dated Washington, Aug. 23, a Check); Aug. 31, 1966 (Mansfield's S. Res. 300, the Daily Digest); Sept. 1, 1966 (Johnson to Russell Long, FRUS XV); Mar. 1, Mar. 8, Mar. 11, 1967 (the trilateral talks: the instructions to McCloy, the meeting on the $40 million gap, the letter to Kiesinger, FRUS XIII; Schwartz's text puts McCloy's meeting with Johnson on Mar. 1, his notes the memorandum of Mar. 2, a Check).
 
 ## Backfill, Oct. 29, 2026: the maps, the records, what the book passes over
 
-Stage 5 of the second pass (brief-backfill.md), read again from the owner's copy (the same scan; printed page = PDF page
-− 14), the endnotes (pp. 247–308) by chapter and number. Schwartz cites FRUS by volume and page: each was resolved to its
-document by the volume's TEI and, where it bears on the entry, read and cited first. Patch:
-`inbox/2026-10-29-backfill-stein-zelizer-schwartz.yaml` (with Stein and Zelizer); records:
-`sources/cited-records/schwartz-lyndon-johnson-and-europe.yaml`.
+Stage 5 of the second pass (brief-backfill.md), read again from the owner's copy (the same scan; printed page = PDF page − 14), the endnotes (pp. 247–308) by chapter and number. Schwartz cites FRUS by volume and page: each was resolved to its document by the volume's TEI and, where it bears on the entry, read and cited first. Patch: `inbox/2026-10-29-backfill-stein-zelizer-schwartz.yaml` (with Stein and Zelizer); records: `sources/cited-records/schwartz-lyndon-johnson-and-europe.yaml`.
 
 ### Rereads and maps
 
-Every calendar entry citing the book by page (47) was reread against its units and given its map. Columns: the entry;
-Schwartz's rows (page: units); the records tied to it by `via` rows; the ruling.
+Every calendar entry citing the book by page (47) was reread against its units and given its map. Columns: the entry; Schwartz's rows (page: units); the records tied to it by `via` rows; the ruling.
 
 | Entry | Map (page: units) | `via` | Ruling |
 |---|---|---|---|
@@ -143,40 +106,15 @@ Schwartz's rows (page: units); the records tied to it by `via` rows; the ruling.
 
 ### Records (rule A)
 
-93 records the notes give for the calendar's claims: 43 found and read (FRUS documents by volume and page, the
-recordings the entries cite, the Public Papers), 6 found and not read (FRUS documents the entries do not rest on, among
-them the letter of Mar. 4, 1964, XV, doc. 15, that Schwartz, 23, quotes as if from the talks of Dec. 1963), 44 not found:
-the British records (PREM 13, the Public Record Office), the German (*Akten zur Auswärtigen Politik*, the CDU's
-archive), Bruce's diary (Virginia Historical Society), Bator's papers and the NSF files at the LBJ Library, oral
-histories. Those unread stand in the entries' "To check:".
+93 records the notes give for the calendar's claims: 43 found and read (FRUS documents by volume and page, the recordings the entries cite, the Public Papers), 6 found and not read (FRUS documents the entries do not rest on, among them the letter of Mar. 4, 1964, XV, doc. 15, that Schwartz, 23, quotes as if from the talks of Dec. 1963), 44 not found: the British records (PREM 13, the Public Record Office), the German (*Akten zur Auswärtigen Politik*, the CDU's archive), Bruce's diary (Virginia Historical Society), Bator's papers and the NSF files at the LBJ Library, oral histories. Those unread stand in the entries' "To check:".
 
 ### New entries
 
-From the notes and the dated mentions: `cal.1963-10-24.europe-and-the-alliance` (Kennedy on European matters; NSAM 270,
-FRUS read); `cal.1964-04-20.europe-and-the-alliance-france` (NSAM 294, FRUS read); `cal.1964-05-23.europe-and-the-alliance`
-(Lexington: "build bridges," the Public Papers read); `cal.1964-10-02.europe-and-the-alliance` (Grewe brings Erhard's
-letter; Rusk's answer, FRUS read); `cal.1965-02-10.europe-and-the-alliance` (Wilson and Johnson by telephone after
-Pleiku); the sterling dealings of 1965, by the British records: `cal.1965-03-30.economy`, `cal.1965-04-15.economy`,
-`cal.1965-07-27.economy`, `cal.1965-07-28.economy` (Bundy's "British Brigade"), `cal.1965-07-30.economy` (Trend's visit),
-`cal.1965-09-09.economy` (Ball and Fowler with Wilson); `cal.1965-06-28.testing` (NSAM 335, FRUS read);
-`cal.1965-08-06.europe-and-the-alliance-france` (NSAM 336, after Pierrelatte); `cal.1965-10-08.europe-and-the-alliance-france`
-(France and NATO, FRUS read); `cal.1966-07-08.europe-and-the-alliance` (NSAM 352); `cal.1966-11-30.europe-and-the-alliance`
-(Bator's East-West institute); `cal.1966-12-16.europe-and-the-alliance` (Rusk on Brandt, FRUS read);
-`cal.1967-05-08.trade` (the canned hams); `cal.1967-06-19.economy` (Fowler and Schiller, FRUS read);
-`cal.1967-07.europe-and-the-alliance` (Johnson to two German journalists); `cal.1967-12-18.economy-gold` (Mansfield and
-Johnson, by FRUS's summary of the recording); `cal.1968-01-11.europe-and-the-alliance` (Brown to Rusk; Johnson to
-Wilson, FRUS read); `cal.1968-02-08.europe-and-the-alliance` (Wilson in Washington); `cal.1968-06-04.soviet-union`
-(Glassboro, the Public Papers read); `cal.1968-06.europe-and-the-alliance` (Reykjavik). Added to an entry already in:
-`cal.1965-01-21.testing`, "Made public: the report, *New York Times*, July 1, 1965" (56).
+From the notes and the dated mentions: `cal.1963-10-24.europe-and-the-alliance` (Kennedy on European matters; NSAM 270, FRUS read); `cal.1964-04-20.europe-and-the-alliance-france` (NSAM 294, FRUS read); `cal.1964-05-23.europe-and-the-alliance` (Lexington: "build bridges," the Public Papers read); `cal.1964-10-02.europe-and-the-alliance` (Grewe brings Erhard's letter; Rusk's answer, FRUS read); `cal.1965-02-10.europe-and-the-alliance` (Wilson and Johnson by telephone after Pleiku); the sterling dealings of 1965, by the British records: `cal.1965-03-30.economy`, `cal.1965-04-15.economy`, `cal.1965-07-27.economy`, `cal.1965-07-28.economy` (Bundy's "British Brigade"), `cal.1965-07-30.economy` (Trend's visit), `cal.1965-09-09.economy` (Ball and Fowler with Wilson); `cal.1965-06-28.testing` (NSAM 335, FRUS read); `cal.1965-08-06.europe-and-the-alliance-france` (NSAM 336, after Pierrelatte); `cal.1965-10-08.europe-and-the-alliance-france` (France and NATO, FRUS read); `cal.1966-07-08.europe-and-the-alliance` (NSAM 352); `cal.1966-11-30.europe-and-the-alliance` (Bator's East-West institute); `cal.1966-12-16.europe-and-the-alliance` (Rusk on Brandt, FRUS read); `cal.1967-05-08.trade` (the canned hams); `cal.1967-06-19.economy` (Fowler and Schiller, FRUS read); `cal.1967-07.europe-and-the-alliance` (Johnson to two German journalists); `cal.1967-12-18.economy-gold` (Mansfield and Johnson, by FRUS's summary of the recording); `cal.1968-01-11.europe-and-the-alliance` (Brown to Rusk; Johnson to Wilson, FRUS read); `cal.1968-02-08.europe-and-the-alliance` (Wilson in Washington); `cal.1968-06-04.soviet-union` (Glassboro, the Public Papers read); `cal.1968-06.europe-and-the-alliance` (Reykjavik). Added to an entry already in: `cal.1965-01-21.testing`, "Made public: the report, *New York Times*, July 1, 1965" (56).
 
 ### Passed over
 
-How the list was made: a script over the text layer (pp. 1–239) listed every mention of a month and day, and of a month
-and year, 203 in all, each with its page, an inferred year and the calendar's entries of that day (±1) in the
-foreign-policy and economic threads; each was read in context, its note resolved, and judged against the calendar.
-Classes passed over without a row: dates outside the span (1933–45, 1969–71); retrospective dates the text names to
-place another event; the photographs' captions, unless they date a meeting the text does not; the dates of the entries
-Schwartz is already cited for.
+How the list was made: a script over the text layer (pp. 1–239) listed every mention of a month and day, and of a month and year, 203 in all, each with its page, an inferred year and the calendar's entries of that day (±1) in the foreign-policy and economic threads; each was read in context, its note resolved, and judged against the calendar. Classes passed over without a row: dates outside the span (1933–45, 1969–71); retrospective dates the text names to place another event; the photographs' captions, unless they date a meeting the text does not; the dates of the entries Schwartz is already cited for.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -257,12 +195,8 @@ By reason: already in, 28; a lead, 21; out of the brief, 15; minor, 2; below the
 
 Foreign:
 - The Consular Convention with the Soviet Union: signed June 1, 1964; the Senate's consent and ratification (1967–68).
-- The T-39 shot down over East Germany, Jan. 28, 1964, Johnson's call to Walker Stone; the RB-66, Mar. 1964 (FRUS
-  1964–68, XIV, docs. 22–23).
-- The NATO ministerial meeting of Dec. 1964 and its press ("rug-pulling"); the Soviet statement against the MLF of Nov.
-  15, 1964; de Gaulle's press conference on gold, Feb. 4, 1965; the British draft nonproliferation treaty, June 1965.
-- The British records Schwartz cites for 1965–68 (PREM 13, the Public Record Office): McNamara and Healey, Rusk and
-  Stewart, June 1965; the talks of Apr. 15, July 27–31, Sept. 9, 1965; Feb. 8–9, 1968. Not open here.
-- Kosygin's letter of Jan. 1966 (Bator to Johnson, Jan. 12, 1966); the Acheson committee's report, June 1966; the
-  NSAM of Aug. 14, 1965 on a French withdrawal; Eugene Rostow on the border tax, Jan. 8, 1968 (FRUS VIII, doc. 175).
+- The T-39 shot down over East Germany, Jan. 28, 1964, Johnson's call to Walker Stone; the RB-66, Mar. 1964 (FRUS 1964–68, XIV, docs. 22–23).
+- The NATO ministerial meeting of Dec. 1964 and its press ("rug-pulling"); the Soviet statement against the MLF of Nov. 15, 1964; de Gaulle's press conference on gold, Feb. 4, 1965; the British draft nonproliferation treaty, June 1965.
+- The British records Schwartz cites for 1965–68 (PREM 13, the Public Record Office): McNamara and Healey, Rusk and Stewart, June 1965; the talks of Apr. 15, July 27–31, Sept. 9, 1965; Feb. 8–9, 1968. Not open here.
+- Kosygin's letter of Jan. 1966 (Bator to Johnson, Jan. 12, 1966); the Acheson committee's report, June 1966; the NSAM of Aug. 14, 1965 on a French withdrawal; Eugene Rostow on the border tax, Jan. 8, 1968 (FRUS VIII, doc. 175).
 - Johnson's interview with a German magazine, Apr. 1964: not identified.

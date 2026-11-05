@@ -9,6 +9,15 @@ PL = json.load(open(os.path.join(ROOT, "build/places_check.json")))
 U = {u["id"]: u for u in UNITS}
 
 
+
+def _unwrap(text):
+    """Markdown without hard wraps (tools/bib/mdwrap.py, its STYLE; the owner, Nov. 5, 2026)."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("mdwrap", os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "tools", "bib", "mdwrap.py"))
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m.unwrap(text)
+
 def fold(s):
     s = unicodedata.normalize("NFD", (s or "").replace("Đ", "D").replace("đ", "d"))
     return re.sub(r"[^a-z]", "", "".join(c for c in s if unicodedata.category(c) != "Mn").lower())
@@ -238,7 +247,7 @@ def main():
       "scholar.harvard.edu/dell and openicpsr.org answer **403**.")
     w("- With HES points, each modern district's share of each 1966 province's hamlets would replace the area judgments above "
       "(Ea H'leo, Vĩnh Cửu, Trảng Bom, Phụng Hiệp, Tân Phước, Tân Phú Đông, Mang Thít, U Minh Thượng, Cát Tiên, Quế Sơn/Nông Sơn).\n")
-    open(os.path.join(ROOT, "validate.md"), "w").write("\n".join(L) + "\n")
+    open(os.path.join(ROOT, "validate.md"), "w").write(_unwrap("\n".join(L)) + "\n")
     print("disagreements", [(e["name"], e["province"], e["_article_province"]) for e in dis])
     print("area outliers", [(u, round(r, 2)) for u, r in off])
 

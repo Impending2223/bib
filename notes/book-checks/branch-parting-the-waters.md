@@ -1,15 +1,10 @@
 # Branch, *Parting the Waters* (w.branch-parting-the-waters)
 
-Readers: b3-branch-ptw-1 (Oct. 28–29, 2026: pp. 271–559, 1960–61; no book-check file was written that run); b3-branch-ptw-2
-(Nov. 3–4, 2026, this file: from p. 556); b3-branch-ptw-4 (Nov. 4, 2026: pp. 729–922 and their notes, patches b3-branch-ptw-4 and -5).
+Readers: b3-branch-ptw-1 (Oct. 28–29, 2026: pp. 271–559, 1960–61; no book-check file was written that run); b3-branch-ptw-2 (Nov. 3–4, 2026, this file: from p. 556); b3-branch-ptw-4 (Nov. 4, 2026: pp. 729–922 and their notes, patches b3-branch-ptw-4 and -5).
 
 ## The copy
 
-The owner's PDF (Drive id 1l7D-yekFQPD_jSriaoHbXlRgA44Co0tD), Internet Archive's scan (partingwatersame00tayl_0) with its
-text layer, 1,120 PDF pages. Read with `pdftotext -layout`; pinpoints checked against the page images. The offset changes
-at the plates: PDF 300 = p. 282 (18), PDF 600 = p. 566 (34), PDF 800 = p. 750 and PDF 900 = p. 850 (50). The notes
-(PDF 976–1059) are keyed by page and phrase, not numbered. They are cited here, as in the first run, "556 n.2": the
-second note under that page, with a letter for each source a note names ("n.4a").
+The owner's PDF (Drive id 1l7D-yekFQPD_jSriaoHbXlRgA44Co0tD), Internet Archive's scan (partingwatersame00tayl_0) with its text layer, 1,120 PDF pages. Read with `pdftotext -layout`; pinpoints checked against the page images. The offset changes at the plates: PDF 300 = p. 282 (18), PDF 600 = p. 566 (34), PDF 800 = p. 750 and PDF 900 = p. 850 (50). The notes (PDF 976–1059) are keyed by page and phrase, not numbered. They are cited here, as in the first run, "556 n.2": the second note under that page, with a letter for each source a note names ("n.4a").
 
 ## Progress
 

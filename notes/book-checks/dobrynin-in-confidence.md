@@ -1,31 +1,18 @@
 # Anatoly Dobrynin, *In Confidence* (1995): the reading of Jan. 6, 1960–Jan. 20, 1969
 
-Card `w.dobrynin-in-confidence`. Read Nov. 3–4, 2026 (batch 3, group soviet). Patch: `inbox/2026-11-03-b3-dobrynin-2.yaml`
-(b3-dobrynin-2; 125 ops: 52 entries added, 55 cites, 18 Checks). No witness rows and no edges: the book has no notes,
-so each entry rests on Dobrynin's account itself ("By Dobrynin's account"), or on the FRUS record where the series has
-it, Dobrynin cited for what the record lacks. No book-check existed before this one.
+Card `w.dobrynin-in-confidence`. Read Nov. 3–4, 2026 (batch 3, group soviet). Patch: `inbox/2026-11-03-b3-dobrynin-2.yaml` (b3-dobrynin-2; 125 ops: 52 entries added, 55 cites, 18 Checks). No witness rows and no edges: the book has no notes, so each entry rests on Dobrynin's account itself ("By Dobrynin's account"), or on the FRUS record where the series has it, Dobrynin cited for what the record lacks. No book-check existed before this one.
 
 ## The copy, and how it was read
 
-The owner's copy in Drive (10QgMAGW7kkUW26I6daKc37iUP9Dk4ol2): the Times Books paperback of the first edition (1995,
-"originally published in hardcover ... in 1995"), 697 PDF pages with a text layer, read with `pdftotext -layout` in the
-scratchpad (the PDF deleted after). **Printed page = PDF page − 14** over the pages read (pp. 40–193); checked by eye on
-the page images of pp. 175 and 191. Every page cited is the folio.
+The owner's copy in Drive (10QgMAGW7kkUW26I6daKc37iUP9Dk4ol2): the Times Books paperback of the first edition (1995, "originally published in hardcover ... in 1995"), 697 PDF pages with a text layer, read with `pdftotext -layout` in the scratchpad (the PDF deleted after). **Printed page = PDF page − 14** over the pages read (pp. 40–193); checked by eye on the page images of pp. 175 and 191. Every page cited is the folio.
 
-Read: pp. 40–193: his years at the Foreign Ministry's American desk from 1960 (pp. 40–52), the Kennedy presidency (pp.
-53–118) and the Johnson presidency (pp. 119–193). Not read: his life before 1960, and the Nixon years on.
+Read: pp. 40–193: his years at the Foreign Ministry's American desk from 1960 (pp. 40–52), the Kennedy presidency (pp. 53–118) and the Johnson presidency (pp. 119–193). Not read: his life before 1960, and the Nixon years on.
 
-**The pagination of the cites already in the tree does not match this copy.** `cal.1966-10-10.soviet-union` cites 144–145
-(this copy, 149–50); `cal.1968-03-31.soviet-union` 170–72 (this copy, 175–77); `cal.1968-11-26.testing-missile-talks`
-186–87 (this copy, 191–92). A Check on each names the pages read; another printing, or an error, to be settled.
+**The pagination of the cites already in the tree does not match this copy.** `cal.1966-10-10.soviet-union` cites 144–145 (this copy, 149–50); `cal.1968-03-31.soviet-union` 170–72 (this copy, 175–77); `cal.1968-11-26.testing-missile-talks` 186–87 (this copy, 191–92). A Check on each names the pages read; another printing, or an error, to be settled.
 
 ## Disagreements and Checks added (18)
 
-Among them, each with its page: Dobrynin dates the Vienna summit July 3–4 (44–45); Johnson's ABM letter of Jan. 1967
-June 27, 1966 (156); Kosygin's message of June 5, 1968, July 5 (179); the Soviet answer on the Johnson visit two days
-after Aug. 15, 1968, against the note of Aug. 19 (183); Mar. 31, 1968, "just two of us in the room" (175), where the
-record has Harriman and Rostow; Aug. 20, 1968, at the White House at 8 P.M. (185), the record 8:15; the NPT signed by
-"fifty more countries" (153); Glassboro arranged first at McGuire Air Force Base (168).
+Among them, each with its page: Dobrynin dates the Vienna summit July 3–4 (44–45); Johnson's ABM letter of Jan. 1967 June 27, 1966 (156); Kosygin's message of June 5, 1968, July 5 (179); the Soviet answer on the Johnson visit two days after Aug. 15, 1968, against the note of Aug. 19 (183); Mar. 31, 1968, "just two of us in the room" (175), where the record has Harriman and Rostow; Aug. 20, 1968, at the White House at 8 P.M. (185), the record 8:15; the NPT signed by "fifty more countries" (153); Glassboro arranged first at McGuire Air Force Base (168).
 
 ## New entries (52)
 
@@ -128,9 +115,7 @@ Dobrynin cites no newspapers; the *Times*'s stories of the meetings he describes
 
 ## Leads (to notes/leads.md, Foreign)
 
-- Khrushchev's announcement of the cut of 600 million rubles in military spending, Dec. 13, 1963 (to the plenum; the
-  Supreme Soviet, Dec. 16): not in the calendar (152).
-- The civil air agreement with the Soviet Union, signed Nov. 4, 1966: its U.S.T. cite and an entry; the first Aeroflot
-  flight to New York, July 15, 1968 (150).
+- Khrushchev's announcement of the cut of 600 million rubles in military spending, Dec. 13, 1963 (to the plenum; the Supreme Soviet, Dec. 16): not in the calendar (152).
+- The civil air agreement with the Soviet Union, signed Nov. 4, 1966: its U.S.T. cite and an entry; the first Aeroflot flight to New York, July 15, 1968 (150).
 - The undated talks above, each with the FRUS volume to look in (1964–68, XIV).
 - The pagination of the three earlier Dobrynin cites (above).

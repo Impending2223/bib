@@ -69,6 +69,15 @@ ABBR = {"Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "Aug", "Sept", "Oct", "vol", "
         "Ill", "Mich", "Miss", "Ala", "Fla", "Wis", "Wash", "Ind", "Mass", "Tenn", "Minn", "Okla", "Ariz"}
 
 
+
+def _unwrap(text):
+    """Markdown without hard wraps (tools/bib/mdwrap.py, its STYLE; the owner, Nov. 5, 2026)."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("mdwrap", os.path.join(ROOT, "tools", "bib", "mdwrap.py"))
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m.unwrap(text)
+
 def sha(path):
     return hashlib.sha256(open(path, "rb").read()).hexdigest()[:16] if os.path.exists(path) else "none"
 
@@ -439,7 +448,7 @@ def main():
             if not os.path.exists(out) or f"<!-- register: {h} -->" not in open(out, encoding="utf-8").readline():
                 stale.append(out)
             continue
-        text = fn(load(src), h)
+        text = _unwrap(fn(load(src), h))
         open(out, "w", encoding="utf-8").write(text)
         print(f"wrote {os.path.relpath(out, ROOT)} ({text.count(chr(10))} lines)")
     if stale:

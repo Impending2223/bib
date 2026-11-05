@@ -46,6 +46,15 @@ TOL = 0.5
 _CACHE = {}
 
 
+
+def _unwrap(text):
+    """Markdown without hard wraps (tools/bib/mdwrap.py, its STYLE; the owner, Nov. 5, 2026)."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("mdwrap", os.path.join(ROOT, "tools", "bib", "mdwrap.py"))
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m.unwrap(text)
+
 def _yaml(path):
     """The parse, through the series' cache (tools/bib/store.py, .cache/yaml) where it can be had."""
     try:
@@ -285,7 +294,7 @@ def main():
         print(y, r["counts"], "share", len(r["share"]), "lag", len(r["lag"]), "redist", len(r["redist"]))
     if "--write" in sys.argv:
         with open(OUT, "w", encoding="utf-8") as f:
-            f.write(listing(cmp))
+            f.write(_unwrap(listing(cmp)))
         print("wrote", os.path.relpath(OUT, ROOT))
 
 

@@ -1,113 +1,48 @@
 # James L. Sundquist, *Politics and Policy* (1968): the calendar's citations held up, and what the book adds
 
-Card `w.sundquist-politics-and-policy`. Read Oct. 29, 2026 (batch 3, b3-greatsociety) from the owner's copy, the
-Brookings edition of 1968 (the third printing, Mar. 1970), 560 PDF pages with a good text layer; printed page = PDF
-page − 16 throughout, checked against the page image at p. 200. Part I (chs. II–VIII, pp. 13–381) is the record of
-1953–66 by field: fiscal policy (II), the structural measures against unemployment (III), poverty and welfare (IV),
-schools and colleges (V), civil rights (VI), Medicare (VII), the outdoor environment (VIII). Part II (chs. IX–XII) is
-analysis of the parties and Congress, dated only in passing. Much rests on interviews, unnamed, and on the Congressional Record, the hearings and the committee
-reports, which the notes cite by page. Every Record page read here was found through govinfo's bound Record
-(granule and page by the page tables); the Public Papers cited are GPO's volumes. Patch:
-`inbox/2026-10-29-b3-sundquist.yaml` (b3-sundquist). Records: `sources/cited-records/sundquist-politics-and-policy.yaml`.
+Card `w.sundquist-politics-and-policy`. Read Oct. 29, 2026 (batch 3, b3-greatsociety) from the owner's copy, the Brookings edition of 1968 (the third printing, Mar. 1970), 560 PDF pages with a good text layer; printed page = PDF page − 16 throughout, checked against the page image at p. 200. Part I (chs. II–VIII, pp. 13–381) is the record of 1953–66 by field: fiscal policy (II), the structural measures against unemployment (III), poverty and welfare (IV), schools and colleges (V), civil rights (VI), Medicare (VII), the outdoor environment (VIII). Part II (chs. IX–XII) is analysis of the parties and Congress, dated only in passing. Much rests on interviews, unnamed, and on the Congressional Record, the hearings and the committee reports, which the notes cite by page. Every Record page read here was found through govinfo's bound Record (granule and page by the page tables); the Public Papers cited are GPO's volumes. Patch: `inbox/2026-10-29-b3-sundquist.yaml` (b3-sundquist). Records: `sources/cited-records/sundquist-politics-and-policy.yaml`.
 
 ## The 26 citations it had
 
-Held, pinned and moved out of "To check" (a parenthetical where the book bears out part): Jan. 18, 1960 (33–34);
-Feb. 4, 1960 (184–85, 189 n.115); May 13, 1960 (71–72); Aug. 8, 1960 (254); Sept. 1, 1960 (307, 513 n.6); Feb. 2, 1961
-(35, 126); Sept. 27, 1961 (90 n.69); Oct. 13, 1962 (475–76); Jan. 14, 1963 (46, 134); Jan. 29, 1963 (206–07); Feb. 14,
-1963 (134); Apr. 10, 1963 (134); Dec. 30, 1963 (52, 210, 265–66, 316, 355); Jan. 8, 1964 (52, 111); Mar. 16, 1964
-(143–45, 153); Oct. 3, 1964 (104, 316–17); Jan. 4, 1965 (271); Mar. 25, 1965 (109–10).
+Held, pinned and moved out of "To check" (a parenthetical where the book bears out part): Jan. 18, 1960 (33–34); Feb. 4, 1960 (184–85, 189 n.115); May 13, 1960 (71–72); Aug. 8, 1960 (254); Sept. 1, 1960 (307, 513 n.6); Feb. 2, 1961 (35, 126); Sept. 27, 1961 (90 n.69); Oct. 13, 1962 (475–76); Jan. 14, 1963 (46, 134); Jan. 29, 1963 (206–07); Feb. 14, 1963 (134); Apr. 10, 1963 (134); Dec. 30, 1963 (52, 210, 265–66, 316, 355); Jan. 8, 1964 (52, 111); Mar. 16, 1964 (143–45, 153); Oct. 3, 1964 (104, 316–17); Jan. 4, 1965 (271); Mar. 25, 1965 (109–10).
 
-Not treated, the citation dropped: May 3, 1960 (the program); June 30, 1960 (jobs and wages); July 20, 1960 (economy);
-Aug. 18, 1960 (jobs and wages); July 9, 1964 (cities and housing); Aug. 31, 1964 (farm); Mar. 2, 1965 (cities and
-housing); July 14, 1965 (welfare).
+Not treated, the citation dropped: May 3, 1960 (the program); June 30, 1960 (jobs and wages); July 20, 1960 (economy); Aug. 18, 1960 (jobs and wages); July 9, 1964 (cities and housing); Aug. 31, 1964 (farm); Mar. 2, 1965 (cities and housing); July 14, 1965 (welfare).
 
-Checks added where the book differs from the entry, the entry standing on its record: Sept. 27, 1961 (Sundquist has
-the session adjourn Sept. 26); Mar. 16, 1964 ($962.5 million, the bill's authorization); Feb. 20, 1961 (Spellman's
-statement of Jan. 17 and the bishops' of Mar. 1); Oct. 29, 1963 (a broadened Part III in the compromise); Jan. 5, 1961
-(the Samuelson report issued Jan. 6); Sept. 22, 1961 (the delinquency act "enacted in August"); Feb. 9, 1965 (King at
-the White House Feb. 8, by the *Times* of Feb. 9). A Check settled: June 22, 1960, the 7–5 vote (186).
+Checks added where the book differs from the entry, the entry standing on its record: Sept. 27, 1961 (Sundquist has the session adjourn Sept. 26); Mar. 16, 1964 ($962.5 million, the bill's authorization); Feb. 20, 1961 (Spellman's statement of Jan. 17 and the bishops' of Mar. 1); Oct. 29, 1963 (a broadened Part III in the compromise); Jan. 5, 1961 (the Samuelson report issued Jan. 6); Sept. 22, 1961 (the delinquency act "enacted in August"); Feb. 9, 1965 (King at the White House Feb. 8, by the *Times* of Feb. 9). A Check settled: June 22, 1960, the 7–5 vote (186).
 
 ## Pinpoints added to events' first entries (79)
 
-Among them: the 1960 civil rights act (Feb. 15, Mar. 8, Mar. 24, Apr. 8, 1960: 246–50); the school bill of 1960
-(May 26, June 22); Medicare from Mar. 31, 1960, to July 30, 1965 (303–21); the area redevelopment and public works acts
-(May 1, 1961; Sept. 14, 1962; June 12, 1963; Sept. 25, 1964; Aug. 26, 1965); the manpower act (Mar. 15, 1962); the
-tax cut (June 7, June 11, Aug. 13, Dec. 14, 1962; Jan. 24, Sept. 24–25, 1963; Feb. 7, 1964: 39–52); the education acts
-(Feb. 20, July 18, Aug. 30, 1961; Sept. 20, 1962; Dec. 16, 1963; Jan. 12, Mar. 26, 1965); the war on poverty (May 1,
-Nov. 19, Nov. 23, 1963; July 23, Aug. 8, 1964); the civil rights acts (June 11, June 19, Oct. 29, 1963; Feb. 10, June
-10, June 19, 1964; Mar. 15, May 11, 1965; Sept. 14, 19, 1966); the rules fights (Jan. 11, 1961; Jan. 31, Feb. 7,
-1963); conservation (Feb. 22, 25, 1960; Sept. 6, 1961; Dec. 17, 1963; Sept. 3, 1964; Jan. 28, Feb. 8, May 24, Oct. 2,
-Oct. 20, Oct. 22, 1965; Oct. 15, 1966); and the Governors' Conference of June 27–29, 1960 (305). Three news conferences
-already entered under another thread take Sundquist's matter as one entry, listed in both (the owner's ruling of Oct.
-28): Apr. 21, 1961 (Medicare, the Senate first), May 8, 1963 (Birmingham), May 22, 1963 (civil rights proposals).
+Among them: the 1960 civil rights act (Feb. 15, Mar. 8, Mar. 24, Apr. 8, 1960: 246–50); the school bill of 1960 (May 26, June 22); Medicare from Mar. 31, 1960, to July 30, 1965 (303–21); the area redevelopment and public works acts (May 1, 1961; Sept. 14, 1962; June 12, 1963; Sept. 25, 1964; Aug. 26, 1965); the manpower act (Mar. 15, 1962); the tax cut (June 7, June 11, Aug. 13, Dec. 14, 1962; Jan. 24, Sept. 24–25, 1963; Feb. 7, 1964: 39–52); the education acts (Feb. 20, July 18, Aug. 30, 1961; Sept. 20, 1962; Dec. 16, 1963; Jan. 12, Mar. 26, 1965); the war on poverty (May 1, Nov. 19, Nov. 23, 1963; July 23, Aug. 8, 1964); the civil rights acts (June 11, June 19, Oct. 29, 1963; Feb. 10, June 10, June 19, 1964; Mar. 15, May 11, 1965; Sept. 14, 19, 1966); the rules fights (Jan. 11, 1961; Jan. 31, Feb. 7, 1963); conservation (Feb. 22, 25, 1960; Sept. 6, 1961; Dec. 17, 1963; Sept. 3, 1964; Jan. 28, Feb. 8, May 24, Oct. 2, Oct. 20, Oct. 22, 1965; Oct. 15, 1966); and the Governors' Conference of June 27–29, 1960 (305). Three news conferences already entered under another thread take Sundquist's matter as one entry, listed in both (the owner's ruling of Oct. 28): Apr. 21, 1961 (Medicare, the Senate first), May 8, 1963 (Birmingham), May 22, 1963 (civil rights proposals).
 
 Where the records and the book differ, the record stands (no Check added; for the owner):
 
-- Feb. 25, 1960, the override of the water pollution veto: Sundquist, 331, prints 249–137; Voteview, 249–157, the
-  count his "twenty-two votes short" fits.
+- Feb. 25, 1960, the override of the water pollution veto: Sundquist, 331, prints 249–137; Voteview, 249–157, the count his "twenty-two votes short" fits.
 - 1960, the Clark–Monroney amendment: Sundquist has four years of grants; Voteview's description, two.
 - June 29, 1960, the Governors' Conference resolution: Sundquist, 305, 30–11; the *Proceedings*, 30–13.
-- Mar. 3, 1965: the "great stampede rather than the Great Society" is Cramer quoting "a Member" (111 Cong. Rec.
-  4019), not Cramer's own, as Sundquist, 105, has it.
+- Mar. 3, 1965: the "great stampede rather than the Great Society" is Cramer quoting "a Member" (111 Cong. Rec. 4019), not Cramer's own, as Sundquist, 105, has it.
 - Mar. 24, 1965: Sundquist's "James J." Cahill is William T. Cahill (the Record and the roster).
 - Sundquist, 514, has Howard Smith beaten in the primary "the preceding November"; the primary was in July 1966.
-- Jan. 1, 1961: Sundquist has the Douglas task force report to Kennedy at Palm Beach on New Year's Day; Flood (107 Cong.
-  Rec. 100) has Kennedy receive it Jan. 2. Check left on the new entry.
+- Jan. 1, 1961: Sundquist has the Douglas task force report to Kennedy at Palm Beach on New Year's Day; Flood (107 Cong. Rec. 100) has Kennedy receive it Jan. 2. Check left on the new entry.
 - Mar. 16, 1964: Sundquist has Powell introduce the bill and then Landrum sponsor it; the entry stands.
 - May 29, 1962: Sundquist, 43 n.93, prints Javits's page as 9880, not found on the day's pages read; Humphrey's, 9508, read, defends the economy and asks no cut in what was read. Only McCarthy's (9515) is entered.
 
 ## New entries (96)
 
-Dated by the record where one was read (the Record's day, the Public Papers' item), else by the book. The informal
-record and the members' and parties' word, per the briefs; the staff papers and reports per the owner's ruling of Oct.
-28 (the Heller, Cannon and Wirtz memoranda; the Budget Bureau's paper on the youth corps; the ad hoc welfare committee;
-the McCarthy committee; the Muskie subcommittee's *Steps Toward Clean Air*; the natural beauty working group). The
-chief:
+Dated by the record where one was read (the Record's day, the Public Papers' item), else by the book. The informal record and the members' and parties' word, per the briefs; the staff papers and reports per the owner's ruling of Oct. 28 (the Heller, Cannon and Wirtz memoranda; the Budget Bureau's paper on the youth corps; the ad hoc welfare committee; the McCarthy committee; the Muskie subcommittee's *Steps Toward Clean Air*; the natural beauty working group). The chief:
 
-- 1960: Mar. 22 (the leadership meeting on Flemming's plan, the McPhee notes); Jan. 13 (Eisenhower: "I don't even know
-  whether it is constitutional"); Jan. 27 (the House Democrats on the discharge petition); Mar. (the McCarthy
-  committee's report and the Republican minority's); May 4 (Flemming's "medicare"); May (Clark at the American
-  Assembly); June 9 (the Republican leaders with Eisenhower, no school conference); June 29 (Clark's college bill); June
-  30 (Saltonstall's bill); Aug. (Flemming's last appeal); Sept. 25 (Nixon's study paper); Nov. 16 (*Goals for
-  Americans*).
-- 1961: Jan. 1 and 4 (the Douglas task force; S. 1 and Flood's bill); Jan. 10 (Proxmire, "phrenology"); Jan. (the
-  Budget Bureau's paper); Feb. 20 (Clark's public works bill); Mar. 15, 29 (area redevelopment); Mar. 16 (Hackett's
-  conference); May 2 (the Joint Economic Committee); May 4 (Lindsay; Keating); May 11 (Javits); May 16, 25 (school
-  aid); May 29 (the manpower bill); June 7 (the youth bill); June 21, 27 (Miller; Goldwater); July (the National
-  Council of Senior Citizens); Aug. 4 (Keating on Newburgh); Aug. 14 (the House Republican task force); Aug. 22
-  (Mills); Aug. 23 (the manpower act through the Senate); Aug. 30 (Javits's Part III); Sept. (the ad hoc welfare
-  committee); Sept. 26 (Clarence Cannon).
-- 1962: Jan. (Javits's Medicare bill); Jan. 30, Feb. 6 (the college bill); Feb. 1 (the welfare message); Feb. 28
-  (the manpower act through the House); Mar. 15 (the welfare bill, 320–69); Mar. 26 (the standby public works
-  letter); May 1 (the Senate Republican Policy Committee); May 28, Aug. 29, Sept. 19 (public works; youth employment);
-  May 29 (McCarthy for a tax cut); Dec. 17 (Mills in *U.S. News*); Dec. (Kennedy asks Heller about poverty).
-- 1963: May 6 (Cooper on Birmingham); May 8 (Celler's hearings open); June 5 (the Senate Republican conference); June
-  26 (area redevelopment); Oct. 16 (Muskie's water bill, 69–11); Oct. 21, Dec. 12 (the college and vocational bills);
-  Oct. 30 (Curtis); Nov. 5 (Heller's memorandum); Nov. 13 (Flemming's committee on health care for the aged); Dec.
-  (Cannon's memorandum); Dec. 19 (the manpower amendments signed, 77 Stat. 422).
-- 1964: Jan. (Wirtz's memorandum); Jan. 27 (Governor Brown to Muskie's subcommittee); Feb. 4 (Shriver's first
-  meeting); Mar. 17 (Shriver and Taft before the House subcommittee); July 30 (Morse's bill, Keppel); Aug. 5–6 (Smith,
-  Hoeven, Goodell on the poverty bill); Oct. (*Steps Toward Clean Air*); Nov. (the natural beauty working group).
-- 1965: Jan. (Muskie's air bill); Feb. (the Republican leaders' Selma statement, 111 Cong. Rec. 3746–47); Feb. (HEW's
-  exhaust standards dropped); Feb. 9 (Diggs on Selma); Mar. 3 (the Appalachian act through the House); Mar. 8–9
-  (Mondale, Yarborough, Pastore); Mar. 24 (Goodell, Perkins, Carey on the education bill); Apr. 6, 9 (Quigley before
-  Muskie); May 25 (the roadside panel, Neuberger); July 20 (Connor on billboards); Sept. 15, 16 (the highway beauty bill
-  in the Senate: Margaret Chase Smith; Randolph's amendment, 44–40; Cooper's, 29–45); Sept. 24 (Javits on the poverty
-  program and the riots).
-- 1966: Jan. 18 (the wild rivers bill, 71–1; Jackson; Aspinall); Mar. 29 (HEW's exhaust standards); July 19
-  (Humphrey, "a mighty good revolt"); July 27 (Goldwater); July 28 (the Joint Committee on the Organization of the
-  Congress); Aug. 1 (Weaver); Aug. 22 (Lindsay's $50 billion); Sept. 20 (Ford at the Illinois State Fair); Oct. 3 (the
-  Republican Coordinating Committee on crime); Oct. 26 (the freedom budget).
+- 1960: Mar. 22 (the leadership meeting on Flemming's plan, the McPhee notes); Jan. 13 (Eisenhower: "I don't even know whether it is constitutional"); Jan. 27 (the House Democrats on the discharge petition); Mar. (the McCarthy committee's report and the Republican minority's); May 4 (Flemming's "medicare"); May (Clark at the American Assembly); June 9 (the Republican leaders with Eisenhower, no school conference); June 29 (Clark's college bill); June 30 (Saltonstall's bill); Aug. (Flemming's last appeal); Sept. 25 (Nixon's study paper); Nov. 16 (*Goals for Americans*).
+- 1961: Jan. 1 and 4 (the Douglas task force; S. 1 and Flood's bill); Jan. 10 (Proxmire, "phrenology"); Jan. (the Budget Bureau's paper); Feb. 20 (Clark's public works bill); Mar. 15, 29 (area redevelopment); Mar. 16 (Hackett's conference); May 2 (the Joint Economic Committee); May 4 (Lindsay; Keating); May 11 (Javits); May 16, 25 (school aid); May 29 (the manpower bill); June 7 (the youth bill); June 21, 27 (Miller; Goldwater); July (the National Council of Senior Citizens); Aug. 4 (Keating on Newburgh); Aug. 14 (the House Republican task force); Aug. 22 (Mills); Aug. 23 (the manpower act through the Senate); Aug. 30 (Javits's Part III); Sept. (the ad hoc welfare committee); Sept. 26 (Clarence Cannon).
+- 1962: Jan. (Javits's Medicare bill); Jan. 30, Feb. 6 (the college bill); Feb. 1 (the welfare message); Feb. 28 (the manpower act through the House); Mar. 15 (the welfare bill, 320–69); Mar. 26 (the standby public works letter); May 1 (the Senate Republican Policy Committee); May 28, Aug. 29, Sept. 19 (public works; youth employment); May 29 (McCarthy for a tax cut); Dec. 17 (Mills in *U.S. News*); Dec. (Kennedy asks Heller about poverty).
+- 1963: May 6 (Cooper on Birmingham); May 8 (Celler's hearings open); June 5 (the Senate Republican conference); June 26 (area redevelopment); Oct. 16 (Muskie's water bill, 69–11); Oct. 21, Dec. 12 (the college and vocational bills); Oct. 30 (Curtis); Nov. 5 (Heller's memorandum); Nov. 13 (Flemming's committee on health care for the aged); Dec. (Cannon's memorandum); Dec. 19 (the manpower amendments signed, 77 Stat. 422).
+- 1964: Jan. (Wirtz's memorandum); Jan. 27 (Governor Brown to Muskie's subcommittee); Feb. 4 (Shriver's first meeting); Mar. 17 (Shriver and Taft before the House subcommittee); July 30 (Morse's bill, Keppel); Aug. 5–6 (Smith, Hoeven, Goodell on the poverty bill); Oct. (*Steps Toward Clean Air*); Nov. (the natural beauty working group).
+- 1965: Jan. (Muskie's air bill); Feb. (the Republican leaders' Selma statement, 111 Cong. Rec. 3746–47); Feb. (HEW's exhaust standards dropped); Feb. 9 (Diggs on Selma); Mar. 3 (the Appalachian act through the House); Mar. 8–9 (Mondale, Yarborough, Pastore); Mar. 24 (Goodell, Perkins, Carey on the education bill); Apr. 6, 9 (Quigley before Muskie); May 25 (the roadside panel, Neuberger); July 20 (Connor on billboards); Sept. 15, 16 (the highway beauty bill in the Senate: Margaret Chase Smith; Randolph's amendment, 44–40; Cooper's, 29–45); Sept. 24 (Javits on the poverty program and the riots).
+- 1966: Jan. 18 (the wild rivers bill, 71–1; Jackson; Aspinall); Mar. 29 (HEW's exhaust standards); July 19 (Humphrey, "a mighty good revolt"); July 27 (Goldwater); July 28 (the Joint Committee on the Organization of the Congress); Aug. 1 (Weaver); Aug. 22 (Lindsay's $50 billion); Sept. 20 (Ford at the Illinois State Fair); Oct. 3 (the Republican Coordinating Committee on crime); Oct. 26 (the freedom budget).
 
-Primary records read for them: 31 pages of the bound Record (1961–66), eleven items of the Public Papers, Voteview's
-roll calls, 77 Stat. 422. The rest stand on Sundquist with the record his note gives behind "To check".
+Primary records read for them: 31 pages of the bound Record (1961–66), eleven items of the Public Papers, Voteview's roll calls, 77 Stat. 422. The rest stand on Sundquist with the record his note gives behind "To check".
 
 ## For entries in pending patches
 
-- May 9, 1961, the White House disavows the Clark–Celler bills (Salinger; Sundquist, 256 n.113): in
-  `inbox/2026-10-29-b3-branch-ptw-1.yaml`, `cal.1961-05-09.civil-rights-bill`. Not added; Sundquist, 256, could be
-  pinned there once merged.
+- May 9, 1961, the White House disavows the Clark–Celler bills (Salinger; Sundquist, 256 n.113): in `inbox/2026-10-29-b3-branch-ptw-1.yaml`, `cal.1961-05-09.civil-rights-bill`. Not added; Sundquist, 256, could be pinned there once merged.
 
 ## Passed over
 
@@ -158,9 +93,7 @@ roll calls, 77 Stat. 422. The rest stand on Sundquist with the record his note g
 
 ## Entered (the owner's ruling, Oct. 28, late)
 
-Rows of the Passed over list the ruling makes entries (a month or season is a date; a private meeting, call or paper of a
-public person is an entry), in `inbox/2026-10-29-b3-sundquist-more.yaml` (b3-sundquist-more), to merge after the main
-patch. The last column is the entry.
+Rows of the Passed over list the ruling makes entries (a month or season is a date; a private meeting, call or paper of a public person is an entry), in `inbox/2026-10-29-b3-sundquist-more.yaml` (b3-sundquist-more), to merge after the main patch. The last column is the entry.
 
 | Page | Date | Event | Entry |
 | --- | --- | --- | --- |
@@ -206,48 +139,24 @@ patch. The last column is the entry.
 
 ## Leads (copied into `notes/leads.md`, National)
 
-- The Appalachian governors' two meetings of 1960 (Tawes) and their meeting with Feldman, May 1961 (Sundquist, 100):
-  the Conference of Appalachian Governors' own records; the *Times*.
-- The DSG's leak of the discharge petition's signatures, Feb.–Mar. 1960 (247; Berman, *A Bill Becomes a Law*, 72–78):
-  the day the *Times* printed the list.
+- The Appalachian governors' two meetings of 1960 (Tawes) and their meeting with Feldman, May 1961 (Sundquist, 100): the Conference of Appalachian Governors' own records; the *Times*.
+- The DSG's leak of the discharge petition's signatures, Feb.–Mar. 1960 (247; Berman, *A Bill Becomes a Law*, 72–78): the day the *Times* printed the list.
 - The DSG's telegram on the civil rights proposals, June 1963 (263): its day and text.
-- The Republican leaders' study committees on automation (the question of Apr. 21, 1961, 1961 Pub. Papers 307): the
-  day they were named.
+- The Republican leaders' study committees on automation (the question of Apr. 21, 1961, 1961 Pub. Papers 307): the day they were named.
 - Randolph's public works project cancelled, July 1962 (Sorensen, 345; Sundquist, 312–13): the day and the project.
-- Stephen Young on Hough, "112 Cong. Rec. 16246 (July 26, 1966)" (284 n.197): the page tables do not put that page on
-  that day's Senate; find the speech.
-- The Record pages of the members' words listed above as leads (Mills, June 8, 1961; Proxmire, Mar. 9, 1961; Forand,
-  June 22, 1960; Edith Green, Feb. 25, 1960; Weltner, July 2, 1964; Inouye, Jan. 25, 1967; and the rest): to read and
-  enter.
+- Stephen Young on Hough, "112 Cong. Rec. 16246 (July 26, 1966)" (284 n.197): the page tables do not put that page on that day's Senate; find the speech.
+- The Record pages of the members' words listed above as leads (Mills, June 8, 1961; Proxmire, Mar. 9, 1961; Forand, June 22, 1960; Edith Green, Feb. 25, 1960; Weltner, July 2, 1964; Inouye, Jan. 25, 1967; and the rest): to read and enter.
 
 ## Second run (Nov. 3–4, 2026): b3-sundquist-2
 
-The patch of the "Entered" table above, `b3-sundquist-more`, never reached the tree (not in `inbox/` nor merged). Its
-rows are redone, read again off the pages and the records, in `inbox/2026-11-03-b3-sundquist-2.yaml` (b3-sundquist-2,
-66 ops: 55 entries added, 5 edited, 4 citations, a primary record, a Check), with the records it rests on registered
-under the witness rule (`inbox/witnesses/2026-11-03-b3-sundquist-2.yaml`, 39 rows, the Record's pages marked read; edges
-in `sources/witnesses/by-work/sundquist-politics-and-policy.yaml`, 125). Where the table's id and the new one differ:
+The patch of the "Entered" table above, `b3-sundquist-more`, never reached the tree (not in `inbox/` nor merged). Its rows are redone, read again off the pages and the records, in `inbox/2026-11-03-b3-sundquist-2.yaml` (b3-sundquist-2, 66 ops: 55 entries added, 5 edited, 4 citations, a primary record, a Check), with the records it rests on registered under the witness rule (`inbox/witnesses/2026-11-03-b3-sundquist-2.yaml`, 39 rows, the Record's pages marked read; edges in `sources/witnesses/by-work/sundquist-politics-and-policy.yaml`, 125). Where the table's id and the new one differ:
 
-- `cal.1960-04.program` is `cal.1960-04.jobs-and-wages`; `cal.1962-06-06.economy` is `-2`; `cal.1960-02.voting-rights`
-  and `cal.1963-06.civil-rights-bill` are `-2`; `cal.1960-11-02.elections-1960-2` is `cal.1960-11-02.elections-1960-4`;
-  `cal.1964-02-01.poverty` is `cal.1964-02-02.poverty` (the Sunday briefing's day).
-- The Appalachia rows are four entries: `cal.1963-01.jobs-and-wages` (Batt summoned), `cal.1963-03.jobs-and-wages` (after
-  the floods of Mar. 11–12), `cal.1963-04-09.jobs-and-wages` (Kennedy with the governors), `cal.1963-12.jobs-and-wages`.
-- `cal.1960-08-20.medicare`: Javits's words are of Aug. 23 in the Record; cited, with the page, on
-  `cal.1960-08-23.medicare` (a citation, the primary record and a Check), no new entry.
-- Kennedy at USC, Nov. 1, 1960, the lead above, is entered (`cal.1960-11-01.elections-1960`), and Kennedy at Warren,
-  Ohio, Oct. 9, 1960 (`cal.1960-10-09.elections-1960`).
+- `cal.1960-04.program` is `cal.1960-04.jobs-and-wages`; `cal.1962-06-06.economy` is `-2`; `cal.1960-02.voting-rights` and `cal.1963-06.civil-rights-bill` are `-2`; `cal.1960-11-02.elections-1960-2` is `cal.1960-11-02.elections-1960-4`; `cal.1964-02-01.poverty` is `cal.1964-02-02.poverty` (the Sunday briefing's day).
+- The Appalachia rows are four entries: `cal.1963-01.jobs-and-wages` (Batt summoned), `cal.1963-03.jobs-and-wages` (after the floods of Mar. 11–12), `cal.1963-04-09.jobs-and-wages` (Kennedy with the governors), `cal.1963-12.jobs-and-wages`.
+- `cal.1960-08-20.medicare`: Javits's words are of Aug. 23 in the Record; cited, with the page, on `cal.1960-08-23.medicare` (a citation, the primary record and a Check), no new entry.
+- Kennedy at USC, Nov. 1, 1960, the lead above, is entered (`cal.1960-11-01.elections-1960`), and Kennedy at Warren, Ohio, Oct. 9, 1960 (`cal.1960-10-09.elections-1960`).
 - Sundquist's Morse at "7377" (Apr. 1965) is 111 Cong. Rec. 7317.
 
-Rows of the Passed over list the reader's brief of Oct. 30 (R5, R18: the organized interests, the press, the counterparts)
-now makes entries: Samuelson on *Meet the Press* (`cal.1961-03-05.economy`); Logan of the AVA
-(`cal.1961-06-05.jobs-and-wages`); the American Public Welfare Association (`cal.1961-08-11.welfare`); Keyserling's
-*Poverty and Deprivation* (`cal.1962-04.poverty`); Bigart in the *Times* (`cal.1963-10-20.poverty`); Spellman, the
-National Council of Churches, the land-grant circular, the bishops, Knoff (`cal.1961-01-17`, `-02-22`, `-02-24`,
-`-03-01`, `-03-16.school-aid`); the five school organizations (`cal.1962-06-16.school-aid`); the AMA's strategy meeting
-(`cal.1961-04.medicare`); and Rayburn to Mills on Medicare (`cal.1960-04.medicare`). Also new: the bishops and the
-White House through an intermediary (`cal.1961-04.school-aid`) and Ribicoff of Apr. 8, 1965
-(`cal.1965-04-08.school-aid`). A citation to `cal.1963-10.poverty`, b3-sorensen-2's claim, waits for it.
+Rows of the Passed over list the reader's brief of Oct. 30 (R5, R18: the organized interests, the press, the counterparts) now makes entries: Samuelson on *Meet the Press* (`cal.1961-03-05.economy`); Logan of the AVA (`cal.1961-06-05.jobs-and-wages`); the American Public Welfare Association (`cal.1961-08-11.welfare`); Keyserling's *Poverty and Deprivation* (`cal.1962-04.poverty`); Bigart in the *Times* (`cal.1963-10-20.poverty`); Spellman, the National Council of Churches, the land-grant circular, the bishops, Knoff (`cal.1961-01-17`, `-02-22`, `-02-24`, `-03-01`, `-03-16.school-aid`); the five school organizations (`cal.1962-06-16.school-aid`); the AMA's strategy meeting (`cal.1961-04.medicare`); and Rayburn to Mills on Medicare (`cal.1960-04.medicare`). Also new: the bishops and the White House through an intermediary (`cal.1961-04.school-aid`) and Ribicoff of Apr. 8, 1965 (`cal.1965-04-08.school-aid`). A citation to `cal.1963-10.poverty`, b3-sorensen-2's claim, waits for it.
 
-Stray ledger lines of this patch, claimed and not used: `cal.1960-04.youth` (claimed under the wrong thread; the entry
-is `cal.1960-04.jobs-and-wages`) and `cal.1963-10.poverty-2` (b3-sorensen-2's `cal.1963-10.poverty` is the same event).
+Stray ledger lines of this patch, claimed and not used: `cal.1960-04.youth` (claimed under the wrong thread; the entry is `cal.1960-04.jobs-and-wages`) and `cal.1963-10.poverty-2` (b3-sorensen-2's `cal.1963-10.poverty` is the same event).

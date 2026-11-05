@@ -1,26 +1,16 @@
 # Spot check, Oct. 28, 2026: the book and official-history runs against the page
 
-The first stage of the second reading pass (the owner's approval, Oct. 28, 2026). An independent check of the merged
-patches of the book agents and the official-histories agent. It works from the printed pages alone. The agents' own
-notes in `notes/book-checks/` were not used as evidence. The fixes are in one patch, `inbox/2026-10-28-spot-check.yaml`.
+The first stage of the second reading pass (the owner's approval, Oct. 28, 2026). An independent check of the merged patches of the book agents and the official-histories agent. It works from the printed pages alone. The agents' own notes in `notes/book-checks/` were not used as evidence. The fixes are in one patch, `inbox/2026-10-28-spot-check.yaml`.
 
 ## Method
 
-- **Population.** The ops of the merged patches `inbox/merged/2026-10-23-book-*.yaml`,
-  `2026-10-23-official-histories.yaml`, `2026-10-24-book-*.yaml` and `2026-10-24-book-gibbons.yaml` (merged 01:09
-  Oct. 28). For each op, the pinpoints `[[w.card]], PAGES` that are new against the op's base (`find_base`,
-  `tools/bib/merge.py`), and every quotation in `c` that is added or newly set.
+- **Population.** The ops of the merged patches `inbox/merged/2026-10-23-book-*.yaml`, `2026-10-23-official-histories.yaml`, `2026-10-24-book-*.yaml` and `2026-10-24-book-gibbons.yaml` (merged 01:09 Oct. 28). For each op, the pinpoints `[[w.card]], PAGES` that are new against the op's base (`find_base`, `tools/bib/merge.py`), and every quotation in `c` that is added or newly set.
   - The book and official-history patches give 1,649 pinpoints and 366 quotations.
   - The Gibbons patch gives 555 pinpoints and 666 quotations.
-  - Four edits had no base to be found (Miller, cal.1960-01-26.vietnam and cal.1963-01-02.vietnam; Dallek,
-    cal.1967-06-23.soviet-union and cal.1964-08-02.vietnam). For these, every pinpoint was counted.
-- **Sample.** Seed 20261028. Stratified by work: 5 percent of each work's pinpoints, rounded up, with at least 5
-  (or every pinpoint where a work has fewer), drawn by `random.Random(seed).sample` in sorted card order. The main
-  sample is 185 pinpoints. The Gibbons patch, drawn the same way, adds 61. Gibbons, pt. IV is one stratum, and each
-  other work the Gibbons run cites is its own.
+  - Four edits had no base to be found (Miller, cal.1960-01-26.vietnam and cal.1963-01-02.vietnam; Dallek, cal.1967-06-23.soviet-union and cal.1964-08-02.vietnam). For these, every pinpoint was counted.
+- **Sample.** Seed 20261028. Stratified by work: 5 percent of each work's pinpoints, rounded up, with at least 5 (or every pinpoint where a work has fewer), drawn by `random.Random(seed).sample` in sorted card order. The main sample is 185 pinpoints. The Gibbons patch, drawn the same way, adds 61. Gibbons, pt. IV is one stratum, and each other work the Gibbons run cites is its own.
 - **Grades.**
-  - Pinpoints were read against the page, and the claim taken was what `c` attributes to the source under the house
-    rule (a source stands for the whole entry unless its parenthetical narrows it):
+  - Pinpoints were read against the page, and the claim taken was what `c` attributes to the source under the house rule (a source stands for the whole entry unless its parenthetical narrows it):
     - HOLDS: the page bears the claim out.
     - PARTIAL: the page bears out part of the entry and the cite carries no parenthetical.
     - PAGE OFF: the matter is on a neighbouring page.
@@ -30,19 +20,14 @@ notes in `notes/book-checks/` were not used as evidence. The fixes are in one pa
     - UNREAD: a pinpoint correctly behind "To check:" or in a "Made public:" pointer.
     - NO COPY: no copy of the work could be reached.
     - SECONDHAND: a work cited as read whose page the agent had only through another book's quotation.
-  - Quotations were read letter for letter, and for whose words they are: EXACT, MINOR (punctuation, a bracket or a
-    trailing clause dropped, the sense and the words intact), WRONG, NOT FOUND.
+  - Quotations were read letter for letter, and for whose words they are: EXACT, MINOR (punctuation, a bracket or a trailing clause dropped, the sense and the words intact), WRONG, NOT FOUND.
 - **Copies used.**
-  - The books: the owner's Drive scans as text (the scratchpad's `drive/*.txt`, and Zelizer and Stein fetched by
-    `book-ids.txt` and deleted after use), with printed folios mapped from the running heads.
-  - The official histories: the DTIC and Government Printing Office scans on archive.org (Kaplan, Drea, Watson, the
-    Joint Chiefs' histories, Marolda, Futrell, Van Staaveren, Anthony, Schlight).
+  - The books: the owner's Drive scans as text (the scratchpad's `drive/*.txt`, and Zelizer and Stein fetched by `book-ids.txt` and deleted after use), with printed folios mapped from the running heads.
+  - The official histories: the DTIC and Government Printing Office scans on archive.org (Kaplan, Drea, Watson, the Joint Chiefs' histories, Marolda, Futrell, Van Staaveren, Anthony, Schlight).
   - Gibbons: pts. I and IV.
   - FRUS: the TEI text (`sources/frus-text/`). The Public Papers: GPO's scans (`sources/ppp-text/`).
-  - Not reached: Gibbons, pts. II and III; *Current Documents*, 1963; the Pentagon Papers (USG and Gravel eds.);
-    Cooper, Califano, Perry, Clifford and the other works the Gibbons run cites from Gibbons's notes.
-- **Rates.** Rates are failures over pinpoints checked (HOLDS through WRONG), with Wilson 95 percent intervals.
-  "Serious" means PAGE OFF, NOT THERE and WRONG.
+  - Not reached: Gibbons, pts. II and III; *Current Documents*, 1963; the Pentagon Papers (USG and Gravel eds.); Cooper, Califano, Perry, Clifford and the other works the Gibbons run cites from Gibbons's notes.
+- **Rates.** Rates are failures over pinpoints checked (HOLDS through WRONG), with Wilson 95 percent intervals. "Serious" means PAGE OFF, NOT THERE and WRONG.
 
 ## Results by work
 
@@ -140,10 +125,8 @@ Totals for all 246 sampled pinpoints:
 
 Weighted by each work's population, the estimates are:
 
-- **The official-histories run:** about 46 percent of its 494 pinpoints fail (some 230), and about 17 percent fail
-  seriously (some 85).
-- **The book runs other than Gibbons:** about 16 percent of 1,133 fail, nearly all PARTIAL, and about 1 percent fail
-  seriously.
+- **The official-histories run:** about 46 percent of its 494 pinpoints fail (some 230), and about 17 percent fail seriously (some 85).
+- **The book runs other than Gibbons:** about 16 percent of 1,133 fail, nearly all PARTIAL, and about 1 percent fail seriously.
 
 ## Every failure
 
@@ -218,38 +201,30 @@ Each line gives the entry, the card, the pages, the grade, and what the page say
   - `cal.1963-12-02.civil-rights-bill`: "has got to go"; the source has "I think it's got to go."
   - `cal.1963-12-13.economy`: "working on my budget"; the source prints "working in [sic] my budget".
   - `cal.1968-09-24.elections-1968`: "wanting "guts"" is not the source's phrase. Now in paraphrase.
-  - `cal.1961-04-21.king`: "try again in late April" is O'Donnell's advice as the author reports it, not his words.
-    Now in paraphrase.
+  - `cal.1961-04-21.king`: "try again in late April" is O'Donnell's advice as the author reports it, not his words. Now in paraphrase.
   - `cal.1965-01-05.king`: "You know what it is"; the source has "You know what this is."
 - About 17 are MINOR and are left as they stand.
-- "Symbol and Substance" (cal.1966-05-09.robert-kennedy) was checked against the Record's heading, 112 Cong. Rec.,
-  May 9, 1966.
+- "Symbol and Substance" (cal.1966-05-09.robert-kennedy) was checked against the Record's heading, 112 Cong. Rec., May 9, 1966.
 - The statement of Oct. 23, 1962, was checked against the *Bulletin*, Nov. 12, 1962, 723.
 
 **Gibbons patch: 666 quotations, every one checked.**
 
-- 501 match exactly. 7 differ in case only. 94 match letter for letter but differ in the scan's OCR, punctuation or
-  spacing. 7 more match piece by piece around an ellipsis.
-- The 57 left were read by eye against Gibbons, FRUS and the Public Papers: 44 EXACT (OCR damage: "tom" for "torn",
-  "T ou" for "You"), 11 MINOR and 2 WRONG.
+- 501 match exactly. 7 differ in case only. 94 match letter for letter but differ in the scan's OCR, punctuation or spacing. 7 more match piece by piece around an ellipsis.
+- The 57 left were read by eye against Gibbons, FRUS and the Public Papers: 44 EXACT (OCR damage: "tom" for "torn", "T ou" for "You"), 11 MINOR and 2 WRONG.
 - The two WRONG, both corrected:
-  - `cal.1967-02-13.vietnam`: McNamara's "if they come back with a moderated no". Gibbons quotes only from "moderated
-    no" on and gives the rest in his own words.
-  - `cal.1967-06-13.defense`: Mahon's "the House of Representatives is in support of the war effort" is a
-    paraphrase. Gibbons, IV, 761 prints "... in support of the prosecution of the war for freedom in Southeast Asia."
+  - `cal.1967-02-13.vietnam`: McNamara's "if they come back with a moderated no". Gibbons quotes only from "moderated no" on and gives the rest in his own words.
+  - `cal.1967-06-13.defense`: Mahon's "the House of Representatives is in support of the war effort" is a paraphrase. Gibbons, IV, 761 prints "... in support of the prosecution of the war for freedom in Southeast Asia."
 - Three of the MINOR are mended to the letter:
   - `cal.1967-06-07.economy-surcharge`: "a deficit for the magnitude projected", as printed.
   - `cal.1967-10-23.vietnam`: FRUS's "rid of all the excuses".
   - `cal.1967-12-04.vietnam`: Katzenbach's "a 'firebreak' issue", singular and said of York II alone.
-- Attribution: 114 matches stood outside quotation marks in the nearest 260 characters, and all were read. Each is a
-  block quotation or the speaker's own words, and none is Gibbons's narration put in another's mouth.
+- Attribution: 114 matches stood outside quotation marks in the nearest 260 characters, and all were read. Each is a block quotation or the speaker's own words, and none is Gibbons's narration put in another's mouth.
 
 ## Judgment
 
 **The official-histories run (2026-10-23-official-histories): recheck it whole.**
 
-- Its pages are mostly right, but the cites rarely carry the parenthetical the house rule needs: a history that gives
-  the battle is cited for the entry's units, hours and aftermath too.
+- Its pages are mostly right, but the cites rarely carry the parenthetical the house rule needs: a history that gives the battle is cited for the entry's units, hours and aftermath too.
 - One in six pinpoints is wrong on a fact, a date or a page:
   - Cosmas pt. 3, 449: Hastings dated June 15.
   - Futrell, 260: Bình Giã, the North Vietnamese regiments and Dec. 27.
@@ -265,40 +240,30 @@ Each line gives the entry, the card, the pages, the grade, and what the page say
 **The Gibbons run (2026-10-24-book-gibbons): Gibbons IV holds well.**
 
 - 24 of 25 hold, and one is PARTIAL.
-- It cited works it never had as read cites with pinpoints: Califano, 244; Cooper, 373–74 and 375 (twice); Perry,
-  162–64, 169, marked "(by Gibbons's quotation)" or "Cooper's account". The patch moves them behind "To check:",
-  "(cited by Gibbons, IV, N)".
+- It cited works it never had as read cites with pinpoints: Califano, 244; Cooper, 373–74 and 375 (twice); Perry, 162–64, 169, marked "(by Gibbons's quotation)" or "Cooper's account". The patch moves them behind "To check:", "(cited by Gibbons, IV, N)".
 - Recheck its other cites to other works the same way: 39 such pinpoints, most already behind "To check:".
-- The "Made public:" pointers to the Pentagon Papers and *U.S.–Vietnam Relations* (Book 10) are taken from Gibbons's
-  notes and not checked here.
+- The "Made public:" pointers to the Pentagon Papers and *U.S.–Vietnam Relations* (Book 10) are taken from Gibbons's notes and not checked here.
 
 **The book runs: their pages hold.**
 
 - Clean: Garrow (0/8), Caro, Zelizer, Schwartz, Nguyen, Perlstein, Jian (0/5 each).
-- Every failure but one is PARTIAL, a missing parenthetical. The exception is Schlesinger, *Robert Kennedy*, 840:
-  the entry's "foreseeable" where the book prints "conceivable".
-- Recheck for parentheticals: Dittmer (3/5), Frankum (3/5), *Victory in Vietnam* (2/5), Johns (2/5) and Anthony (3/5,
-  official histories).
+- Every failure but one is PARTIAL, a missing parenthetical. The exception is Schlesinger, *Robert Kennedy*, 840: the entry's "foreseeable" where the book prints "conceivable".
+- Recheck for parentheticals: Dittmer (3/5), Frankum (3/5), *Victory in Vietnam* (2/5), Johns (2/5) and Anthony (3/5, official histories).
 
 ## The patch
 
-`inbox/2026-10-28-spot-check.yaml`, `patch: spot-check`: 68 edits, each with its base from `./bib show`.
-`./bib merge --dry-run` gives 68 edited and no conflicts. It does four things:
+`inbox/2026-10-28-spot-check.yaml`, `patch: spot-check`: 68 edits, each with its base from `./bib show`. `./bib merge --dry-run` gives 68 edited and no conflicts. It does four things:
 
 - Adds a parenthetical where the page bears out part of the entry.
 - Puts the right page where the page is off: Cosmas, 390–93, 10–12; Schlight, 99–103; Marolda, 472–73.
 - Drops a cite the page does not bear out: Kaplan, 213; Poole vol. 9, 120.
 - Adds "Check: <Surname> gives ..." where the page disagrees.
 
-It also moves the secondhand cites behind "To check:", and corrects the seven quotations above and the three MINOR.
-Nothing else is rewritten.
+It also moves the secondhand cites behind "To check:", and corrects the seven quotations above and the three MINOR. Nothing else is rewritten.
 
 ## Leads
 
-- Watson, 350 names Gates's testimony before House Science and Astronautics, Jan. 25, 1960. The Check on
-  cal.1960-01-26.defense can be narrowed.
-- Gibbons, pts. II and III; *Current Documents*, 1963; the Pentagon Papers, USG and Gravel eds.: no copy reached.
-  Their pinpoints (UNREAD or NO COPY above) are unchecked.
-- cal.1967-09-25.vietnam-congress: "47 other Republicans" against Gibbons's footnote list of 24 cosponsors (IV, 803
-  n.13). It was not in the sample. Check against the Record.
+- Watson, 350 names Gates's testimony before House Science and Astronautics, Jan. 25, 1960. The Check on cal.1960-01-26.defense can be narrowed.
+- Gibbons, pts. II and III; *Current Documents*, 1963; the Pentagon Papers, USG and Gravel eds.: no copy reached. Their pinpoints (UNREAD or NO COPY above) are unchecked.
+- cal.1967-09-25.vietnam-congress: "47 other Republicans" against Gibbons's footnote list of 24 cosponsors (IV, 803 n.13). It was not in the sample. Check against the Record.
 - Futrell's archive.org OCR is badly garbled. Read it from the page images.

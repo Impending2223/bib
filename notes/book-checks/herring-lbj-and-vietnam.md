@@ -1,21 +1,12 @@
 # George C. Herring, *LBJ and Vietnam: A Different Kind of War* (1994): the calendar's citations held up
 
-Card `w.herring-lbj-and-vietnam`. Read Oct. 29, 2026 from the owner's copy (Drive file 1Yi6bz-0NYZ94J3bZPTSiQlN36VJRjc39,
-an Internet Archive scan of the University of Texas Press edition, 256 PDF pages, with a text layer). The printed page is
-the PDF page less 20 throughout, text and notes alike (p. 1 = PDF 21, p. 92 = PDF 112, checked against the page image;
-p. 187 = PDF 207, the notes; the running heads "Notes to Pages ..." agree). The whole text and the notes (pp. 187–219)
-were read. Calendar changes: `inbox/2026-10-29-book-herring.yaml` (patch `book-herring`); the records the notes give:
-`sources/cited-records/herring-lbj-and-vietnam.yaml`.
+Card `w.herring-lbj-and-vietnam`. Read Oct. 29, 2026 from the owner's copy (Drive file 1Yi6bz-0NYZ94J3bZPTSiQlN36VJRjc39, an Internet Archive scan of the University of Texas Press edition, 256 PDF pages, with a text layer). The printed page is the PDF page less 20 throughout, text and notes alike (p. 1 = PDF 21, p. 92 = PDF 112, checked against the page image; p. 187 = PDF 207, the notes; the running heads "Notes to Pages ..." agree). The whole text and the notes (pp. 187–219) were read. Calendar changes: `inbox/2026-10-29-book-herring.yaml` (patch `book-herring`); the records the notes give: `sources/cited-records/herring-lbj-and-vietnam.yaml`.
 
-The book is a study of management, not a narrative: most of its dated matter is already in the calendar from FRUS and
-the other studies; its yield is pages for the decisions and meetings, the peace contacts of 1964–66 the calendar lacked,
-and the records its notes give (the Meeting Notes File, Tom Johnson's notes, the Westmoreland backchannel file, the
-Harriman Papers), many of which FRUS prints and the calendar already cites.
+The book is a study of management, not a narrative: most of its dated matter is already in the calendar from FRUS and the other studies; its yield is pages for the decisions and meetings, the peace contacts of 1964–66 the calendar lacked, and the records its notes give (the Meeting Notes File, Tom Johnson's notes, the Westmoreland backchannel file, the Harriman Papers), many of which FRUS prints and the calendar already cites.
 
 ## 1. The 21 citations already there
 
-All 21 stood in "To check:". Held, with the page (moved out of To check, the parenthetical where the page bears out
-only part):
+All 21 stood in "To check:". Held, with the page (moved out of To check, the parenthetical where the page bears out only part):
 
 | entry | page | ruling |
 |---|---|---|
@@ -48,89 +39,42 @@ Not treated: the cite taken out (the book does not bear on the event):
 
 ## 2. Disagreements and Checks written into the notes
 
-- cal.1964-08-06.vietnam-2 (new): Herring has Thant with Johnson, Rusk and Stevenson proposing envoys' talks on neutral
-  ground (91); Cleveland's memorandum (FRUS 1964–68, I, doc. 298) has no Rusk (a like talk with Rusk at lunch at State)
-  and a private probe of Hồ.
-- cal.1965-02-16.vietnam-2 (new): Herring, a seven-nation conference (92); FRUS's editorial notes, a paper for the
-  Security Council.
-- cal.1965-02-24.vietnam-3 (new): Herring has "procedural" from Rusk's press conference (93); FRUS's note, from his call
-  to Thant that night.
-- cal.1965-09-01.vietnam-2 (new): Herring dates Bộ's retreat Sept. 3 (99); FRUS (III, docs. 112, 133), the last meeting
-  Sept. 1.
-- cal.1965-12-17.vietnam-2 (new): Herring dates Rusk's reply to Fanfani Dec. 6 (94); FRUS III, doc. 235 n. 5, the
-  exchange of Nov. 20–Dec. 4.
-- cal.1966-02-18.vietnam (new): Herring dates Byroade's answer Feb. 19 (101); Byroade's telegram (FRUS IV, doc. 76 n. 4),
-  Feb. 18.
+- cal.1964-08-06.vietnam-2 (new): Herring has Thant with Johnson, Rusk and Stevenson proposing envoys' talks on neutral ground (91); Cleveland's memorandum (FRUS 1964–68, I, doc. 298) has no Rusk (a like talk with Rusk at lunch at State) and a private probe of Hồ.
+- cal.1965-02-16.vietnam-2 (new): Herring, a seven-nation conference (92); FRUS's editorial notes, a paper for the Security Council.
+- cal.1965-02-24.vietnam-3 (new): Herring has "procedural" from Rusk's press conference (93); FRUS's note, from his call to Thant that night.
+- cal.1965-09-01.vietnam-2 (new): Herring dates Bộ's retreat Sept. 3 (99); FRUS (III, docs. 112, 133), the last meeting Sept. 1.
+- cal.1965-12-17.vietnam-2 (new): Herring dates Rusk's reply to Fanfani Dec. 6 (94); FRUS III, doc. 235 n. 5, the exchange of Nov. 20–Dec. 4.
+- cal.1966-02-18.vietnam (new): Herring dates Byroade's answer Feb. 19 (101); Byroade's telegram (FRUS IV, doc. 76 n. 4), Feb. 18.
 - cal.1966-08-02.vietnam: Herring dates Harriman's appointment August 1966 (102); the entry has July, and Gibbons May.
 - cal.1967-09-01.vietnam: Herring has 300 of 350 targets "hit" (56); the transcript (1967 Pub. Papers 816), authorized.
-- cal.1967-09-05.vietnam-air-war (new): Herring has Cẩm Phả and Hòn Gai approved over McNamara's and Rusk's opposition
-  (57); Jones's notes (FRUS V, doc. 305) show McNamara unsure the order could be carried out and Rusk shaping it.
-- cal.1967-10-16.vietnam: Herring has Johnson wondering aloud how the war would go if he announced he would not run
-  (115–16), from Tom Johnson's notes of Oct. 3 and 16; not in the entry's c.
-- cal.1967-10-25.vietnam-support: Herring dates the Douglas committee's going public Oct. 23, "the day after the antiwar
-  march" (144); the entry, Oct. 25.
-- cal.1967-11-21.vietnam-2: Herring has a White House meeting the next day, Nov. 22, on holding public support, by
-  Westmoreland's record (147, 214 n.141); the entry's meeting is the morning of Nov. 21 (FRUS V, doc. 409). Not settled.
-- cal.1968-01-29.vietnam-khe-sanh: Herring has the Chiefs' assurances spoken (152); the memorandum (FRUS VI, doc. 30) is
-  in writing.
+- cal.1967-09-05.vietnam-air-war (new): Herring has Cẩm Phả and Hòn Gai approved over McNamara's and Rusk's opposition (57); Jones's notes (FRUS V, doc. 305) show McNamara unsure the order could be carried out and Rusk shaping it.
+- cal.1967-10-16.vietnam: Herring has Johnson wondering aloud how the war would go if he announced he would not run (115–16), from Tom Johnson's notes of Oct. 3 and 16; not in the entry's c.
+- cal.1967-10-25.vietnam-support: Herring dates the Douglas committee's going public Oct. 23, "the day after the antiwar march" (144); the entry, Oct. 25.
+- cal.1967-11-21.vietnam-2: Herring has a White House meeting the next day, Nov. 22, on holding public support, by Westmoreland's record (147, 214 n.141); the entry's meeting is the morning of Nov. 21 (FRUS V, doc. 409). Not settled.
+- cal.1968-01-29.vietnam-khe-sanh: Herring has the Chiefs' assurances spoken (152); the memorandum (FRUS VI, doc. 30) is in writing.
 - cal.1968-10-29.vietnam: Herring puts the meeting with Abrams at 2:30 a.m. (18) and at 2:45 a.m. (173).
-- cal.1967-08-25.defense: Herring gives Perry's source as an unnamed "former JCS flag rank officer" and Greene's and
-  Moorer's denials (198 n.120).
-- cal.1967-11-17.vietnam: the APP link replaced by the Public Papers' item, read: 1967 Pub. Papers 1045 (item 495, which
-  the matching file had missed).
+- cal.1967-08-25.defense: Herring gives Perry's source as an unnamed "former JCS flag rank officer" and Greene's and Moorer's denials (198 n.120).
+- cal.1967-11-17.vietnam: the APP link replaced by the Public Papers' item, read: 1967 Pub. Papers 1045 (item 495, which the matching file had missed).
 
 ## 3. Pages added to other entries (the card with its page and the records of its notes)
 
-cal.1965-07-21.vietnam (129); cal.1965-07-22.vietnam (35); cal.1965-07-27.vietnam (35, 129, 131); cal.1965-07-28.vietnam
-(1–2, 131); cal.1965-08-03.vietnam-support (126, 130, 132); cal.1965-08-05.vietnam (133–34); cal.1965-08-27.vietnam (41);
-cal.1965-12-17.vietnam (42, 96, 99–100); cal.1966-03-02.transition-and-staff (12–13); cal.1966-03-28.vietnam (71);
-cal.1966-08-02.vietnam (102–03); cal.1966-10-14.vietnam (47, 76–77); cal.1967-02-06.robert-kennedy (113–14);
-cal.1967-02-08.vietnam (108–09); cal.1967-04-27.vietnam-program-5 (52, 54); cal.1967-05-09.vietnam (80–82);
-cal.1967-08-09.vietnam (55, 57); cal.1967-08-25.vietnam-air-war (56); cal.1967-08-25.defense (56); cal.1967-09-01.vietnam
-(56); cal.1967-09-12.vietnam-pennsylvania (58, 116); cal.1967-10-16.vietnam (115–16); cal.1967-10-17.vietnam-2 (146);
-cal.1967-10-25.vietnam-support (144); cal.1967-11-01.vietnam (58–59); cal.1967-11-02.vietnam (59); cal.1967-11-17.vietnam
-(146–47); cal.1967-11-21.vietnam-2 (147); cal.1968-01-29.vietnam-khe-sanh (152–53); cal.1968-02-28.vietnam-205000 (158);
-cal.1968-03-04.vietnam (160, 162); cal.1968-10-29.vietnam (18, 173).
+cal.1965-07-21.vietnam (129); cal.1965-07-22.vietnam (35); cal.1965-07-27.vietnam (35, 129, 131); cal.1965-07-28.vietnam (1–2, 131); cal.1965-08-03.vietnam-support (126, 130, 132); cal.1965-08-05.vietnam (133–34); cal.1965-08-27.vietnam (41); cal.1965-12-17.vietnam (42, 96, 99–100); cal.1966-03-02.transition-and-staff (12–13); cal.1966-03-28.vietnam (71); cal.1966-08-02.vietnam (102–03); cal.1966-10-14.vietnam (47, 76–77); cal.1967-02-06.robert-kennedy (113–14); cal.1967-02-08.vietnam (108–09); cal.1967-04-27.vietnam-program-5 (52, 54); cal.1967-05-09.vietnam (80–82); cal.1967-08-09.vietnam (55, 57); cal.1967-08-25.vietnam-air-war (56); cal.1967-08-25.defense (56); cal.1967-09-01.vietnam (56); cal.1967-09-12.vietnam-pennsylvania (58, 116); cal.1967-10-16.vietnam (115–16); cal.1967-10-17.vietnam-2 (146); cal.1967-10-25.vietnam-support (144); cal.1967-11-01.vietnam (58–59); cal.1967-11-02.vietnam (59); cal.1967-11-17.vietnam (146–47); cal.1967-11-21.vietnam-2 (147); cal.1968-01-29.vietnam-khe-sanh (152–53); cal.1968-02-28.vietnam-205000 (158); cal.1968-03-04.vietnam (160, 162); cal.1968-10-29.vietnam (18, 173).
 
 ## 4. New entries (23)
 
-The U Thant initiative, 1964–65: cal.1964-08-06.vietnam-2 (Thant at the White House; FRUS I, 298; the Public Papers),
-cal.1965-01-30.vietnam (Stevenson's refusal; Herring alone for the day), cal.1965-02-16.vietnam-2,
-cal.1965-02-17.vietnam-5 (Stevenson to Johnson), cal.1965-02-24.vietnam-2 (Thant's press conference),
-cal.1965-02-24.vietnam-3 (Rusk's call), cal.1965-11-16.vietnam (Sevareid in *Look*). XYZ: cal.1965-08-06.vietnam,
-cal.1965-09-01.vietnam-2. La Pira: cal.1965-12-17.vietnam-2 (Dudman's story; the letters released). The pause:
-cal.1965-12-29.vietnam-pause (McNamara with the Chiefs, by Greene's account). Pinta: cal.1966-01-31.vietnam-2,
-cal.1966-02-18.vietnam. Pacification: cal.1966-03.vietnam (PROVN), cal.1966-11.vietnam (the Office of Civil Operations).
-Marigold made public: cal.1967-02-02.vietnam-marigold (Estabrook). The informal record: cal.1967-03-02.vietnam (Johnson
-to Lilienthal), cal.1967-09-05.vietnam-air-war (the Tuesday lunch on Cẩm Phả and Hòn Gai). Support at home:
-cal.1965-11-06.vietnam-support (Proclamation 3686, the day of prayer), cal.1967-08.vietnam-support (the Vietnam
-Information Group). The Joint Chiefs' article: cal.1965-02-21.vietnam (Baldwin in the *Times Magazine*, by Herring
-"planted"). A member's word: cal.1968-01-25.vietnam-congress (Edward Kennedy on the ground strategy). Personnel:
-cal.1967-07-19.transition-and-staff (McNaughton's death; Check where and his office).
+The U Thant initiative, 1964–65: cal.1964-08-06.vietnam-2 (Thant at the White House; FRUS I, 298; the Public Papers), cal.1965-01-30.vietnam (Stevenson's refusal; Herring alone for the day), cal.1965-02-16.vietnam-2, cal.1965-02-17.vietnam-5 (Stevenson to Johnson), cal.1965-02-24.vietnam-2 (Thant's press conference), cal.1965-02-24.vietnam-3 (Rusk's call), cal.1965-11-16.vietnam (Sevareid in *Look*). XYZ: cal.1965-08-06.vietnam, cal.1965-09-01.vietnam-2. La Pira: cal.1965-12-17.vietnam-2 (Dudman's story; the letters released). The pause: cal.1965-12-29.vietnam-pause (McNamara with the Chiefs, by Greene's account). Pinta: cal.1966-01-31.vietnam-2, cal.1966-02-18.vietnam. Pacification: cal.1966-03.vietnam (PROVN), cal.1966-11.vietnam (the Office of Civil Operations). Marigold made public: cal.1967-02-02.vietnam-marigold (Estabrook). The informal record: cal.1967-03-02.vietnam (Johnson to Lilienthal), cal.1967-09-05.vietnam-air-war (the Tuesday lunch on Cẩm Phả and Hòn Gai). Support at home: cal.1965-11-06.vietnam-support (Proclamation 3686, the day of prayer), cal.1967-08.vietnam-support (the Vietnam Information Group). The Joint Chiefs' article: cal.1965-02-21.vietnam (Baldwin in the *Times Magazine*, by Herring "planted"). A member's word: cal.1968-01-25.vietnam-congress (Edward Kennedy on the ground strategy). Personnel: cal.1967-07-19.transition-and-staff (McNaughton's death; Check where and his office).
 
-The merge flags six of them as possible duplicates of other entries of the same day (cal.1964-08-06.vietnam,
-1965-02-17.vietnam to -4, 1965-02-24.vietnam, 1965-12-29.vietnam, 1966-01-31.vietnam): each is a different event
-(the Tonkin testimony; the Senate debate, Eisenhower's meeting, Humphrey's memorandum; the strikes near An Khê; Harriman
-at Warsaw; the bombing resumed). `./bib resolve ID --take keep`.
+The merge flags six of them as possible duplicates of other entries of the same day (cal.1964-08-06.vietnam, 1965-02-17.vietnam to -4, 1965-02-24.vietnam, 1965-12-29.vietnam, 1966-01-31.vietnam): each is a different event (the Tonkin testimony; the Senate debate, Eisenhower's meeting, Humphrey's memorandum; the strikes near An Khê; Harriman at Warsaw; the bombing resumed). `./bib resolve ID --take keep`.
 
 ## 5. The records (rule A)
 
-79 records described in `sources/cited-records/herring-lbj-and-vietnam.yaml`, each tied to the units it grounds by a
-`via` row (80 rows). Found and read, and cited in the entry as its primary record: 26 (FRUS documents from the Meeting
-Notes File, Tom Johnson's notes and the NSC Meetings File; NSAMs 343 and 362; JCSM-652-65; the Public Papers items).
-Found and not read: 0. Not found in the series: 53 (the Westmoreland backchannel file, the Harriman Papers, the Dudman
-Papers, oral histories, Herring's own interviews, the press), each joined to the entry's "To check:" with the page and
-note it comes from. Secondary works the notes give (memoirs, studies, the Pentagon Papers as such, Herring's *Secret
-Diplomacy*) are not records and are not listed.
+79 records described in `sources/cited-records/herring-lbj-and-vietnam.yaml`, each tied to the units it grounds by a `via` row (80 rows). Found and read, and cited in the entry as its primary record: 26 (FRUS documents from the Meeting Notes File, Tom Johnson's notes and the NSC Meetings File; NSAMs 343 and 362; JCSM-652-65; the Public Papers items). Found and not read: 0. Not found in the series: 53 (the Westmoreland backchannel file, the Harriman Papers, the Dudman Papers, oral histories, Herring's own interviews, the press), each joined to the entry's "To check:" with the page and note it comes from. Secondary works the notes give (memoirs, studies, the Pentagon Papers as such, Herring's *Secret Diplomacy*) are not records and are not listed.
 
-Entries mapped: 53 edited and 23 new, each with a stored map; all finer than the whole entry where the book bears out
-only part (some 40).
+Entries mapped: 53 edited and 23 new, each with a stored map; all finer than the whole entry where the book bears out only part (some 40).
 
 ## 6. Passed over
 
-Made by reading the text and the notes through, page by page, and listing every dated event of Jan. 6, 1960–Jan. 20,
-1969 the book treats that the patch neither enters nor cites; each checked against the calendar by `./bib find` on its
-day. "Already in" means the calendar holds the event under another id and the book adds nothing it needs.
+Made by reading the text and the notes through, page by page, and listing every dated event of Jan. 6, 1960–Jan. 20, 1969 the book treats that the patch neither enters nor cites; each checked against the calendar by `./bib find` on its day. "Already in" means the calendar holds the event under another id and the book adds nothing it needs.
 
 | page | date | event | why |
 |---|---|---|---|
@@ -258,38 +202,27 @@ day. "Already in" means the calendar holds the event under another id and the bo
 | 175 | Oct.–Nov. 1968 | the Republicans and Thiệu | already in (Chennault) |
 | 175–76 | Dec. 1968 | Abrams's battalion for the DMZ; a company sent; Harriman's notes, Dec. 10, 14 | to leads |
 
-By reason (123 rows): already in, 37 (five of them in part, the rest to leads); to leads, 56; undated, 18; minor, 8;
-press comment, 4.
+By reason (123 rows): already in, 37 (five of them in part, the rest to leads); to leads, 56; undated, 18; minor, 8; press comment, 4.
 
 ## 7. Leads
 
 National:
-- The President's Vietnam Group of 1966 (agendas of Mar. 3, 11 and May 16, 1966, NSF Country File, Vietnam, box 28;
-  Memos to the President, Rostow, box 7): its meetings, if FRUS IV prints any.
-- Komer's "A Strategic Plan for 1967 in Vietnam," Nov. 29, 1966, and "Strategic Guidelines for 1967," Dec. 10, 1966 (NSF
-  Komer Files, boxes 5, 7): FRUS 1964–68, IV, doc. 318 (Komer to McNamara, Nov. 29) may be the first. An entry.
+- The President's Vietnam Group of 1966 (agendas of Mar. 3, 11 and May 16, 1966, NSF Country File, Vietnam, box 28; Memos to the President, Rostow, box 7): its meetings, if FRUS IV prints any.
+- Komer's "A Strategic Plan for 1967 in Vietnam," Nov. 29, 1966, and "Strategic Guidelines for 1967," Dec. 10, 1966 (NSF Komer Files, boxes 5, 7): FRUS 1964–68, IV, doc. 318 (Komer to McNamara, Nov. 29) may be the first. An entry.
 - The Non-Group: Herring dates its founding May 1967 at Johnson's instance (15, 189 n.44); the calendar names it Nov. 15,
   1966. Settle the dates.
-- The Goodpaster study group's report, "Intensification of the Military Operations in Vietnam: Concept and Appraisal,"
-  July 14, 1965 (NSF Country File, Vietnam, box 20): look in FRUS III; an entry.
-- The meetings of Sept. 13, 1965 (the Chiefs' SAM targets refused), Dec. 6–7, 1965 (Bundy's notes), Aug. 19, 1967 (Meeting
-  Notes File), the NSC of Nov. 29, 1967 ("no divisions"), and June 9, 1968 (Tom Johnson's notes): look in FRUS for each.
-- Westmoreland's record of the White House meeting of Nov. 22, 1967 (Westmoreland Papers, USAMHI, box 29): the same
-  meeting as FRUS V, doc. 409 (Nov. 21) or another?
+- The Goodpaster study group's report, "Intensification of the Military Operations in Vietnam: Concept and Appraisal," July 14, 1965 (NSF Country File, Vietnam, box 20): look in FRUS III; an entry.
+- The meetings of Sept. 13, 1965 (the Chiefs' SAM targets refused), Dec. 6–7, 1965 (Bundy's notes), Aug. 19, 1967 (Meeting Notes File), the NSC of Nov. 29, 1967 ("no divisions"), and June 9, 1968 (Tom Johnson's notes): look in FRUS for each.
+- Westmoreland's record of the White House meeting of Nov. 22, 1967 (Westmoreland Papers, USAMHI, box 29): the same meeting as FRUS V, doc. 409 (Nov. 21) or another?
 - Clifford's press conference of Apr. 11, 1968 (the ceiling on troops): Department of Defense release; an entry.
-- The Democratic National Committee and the Young Democrats for the war: Moyers to Johnson, May 27, 1965 (Aides Files,
-  Moyers, box 11); the Young Democrats' convention of 1965 (the party's campaign; an entry where dated).
-- Members' word Herring gives undated: Fulbright, Mansfield and John Sherman Cooper for a full bombing halt after San
-  Antonio (Oct. 1967); Thruston Morton's and Tip O'Neill's breaks with the war (1967): date them and enter them if not in.
-- Eisenhower's memorandum of Sept. 16, 1966 (NSF Memos to the President, Rostow, box 10): Eisenhower on limited war; an
-  informal-record entry if FRUS or Goodpaster's notes date it.
-- McNaughton's death, July 19, 1967: the place and his office (named Secretary of the Navy?) from a source read; the
-  entry carries a Check.
+- The Democratic National Committee and the Young Democrats for the war: Moyers to Johnson, May 27, 1965 (Aides Files, Moyers, box 11); the Young Democrats' convention of 1965 (the party's campaign; an entry where dated).
+- Members' word Herring gives undated: Fulbright, Mansfield and John Sherman Cooper for a full bombing halt after San Antonio (Oct. 1967); Thruston Morton's and Tip O'Neill's breaks with the war (1967): date them and enter them if not in.
+- Eisenhower's memorandum of Sept. 16, 1966 (NSF Memos to the President, Rostow, box 10): Eisenhower on limited war; an informal-record entry if FRUS or Goodpaster's notes date it.
+- McNaughton's death, July 19, 1967: the place and his office (named Secretary of the Navy?) from a source read; the entry carries a Check.
 - *Look*, Nov. 30, 1965: the day it reached the newsstands (FRUS's editors: by Nov. 16).
 - Edward Kennedy's speech of Jan. 25, 1968: the place and the words (the *Congressional Record* or the press).
 
 Foreign:
-- Fanfani's letter of Nov. 20, 1965 and the exchange to Dec. 4 (FRUS III, docs. 205, 207; XII, doc. 120): entries for the
-  letter and Rusk's reply, the release already entered.
+- Fanfani's letter of Nov. 20, 1965 and the exchange to Dec. 4 (FRUS III, docs. 205, 207; XII, doc. 120): entries for the letter and Rusk's reply, the release already entered.
 - The Hanoi Foreign Ministry's statement of Jan. 4, 1966, and Hồ's letter broadcast Jan. 28, 1966: entries if not in.
 - Marigold's mid-November steps (Harriman and Cooper in Rome; State's proposals to Lodge; Read's restricted list).

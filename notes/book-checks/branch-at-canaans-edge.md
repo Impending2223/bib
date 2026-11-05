@@ -1,23 +1,12 @@
 # Branch, *At Canaan's Edge* (w.branch-at-canaans-edge): book check
 
-Taylor Branch, *At Canaan's Edge: America in the King Years, 1965–68* (2006). Read from the PDF the owner keeps on Drive (id
-1lLz_NMbtg0wjtg3iIsMfmcR62IhAIDJU, fetched by Drive's public download address, sharing unchanged); the folio read off the
-page: the PDF's page less 16 to p. 299, less 40 after the plates. Notes by page and lead phrase, pp. 773 ff.
+Taylor Branch, *At Canaan's Edge: America in the King Years, 1965–68* (2006). Read from the PDF the owner keeps on Drive (id 1lLz_NMbtg0wjtg3iIsMfmcR62IhAIDJU, fetched by Drive's public download address, sharing unchanged); the folio read off the page: the PDF's page less 16 to p. 299, less 40 after the plates. Notes by page and lead phrase, pp. 773 ff.
 
-First run (b3-branch-ace-1, merged Nov. 3, 2026): pp. 1–420. Second run (b3-branch3, Nov. 3–4, 2026): pp. 415–771, the
-whole of the text to the epilogue, in three patches, `inbox/2026-11-03-b3-branch-ace-2.yaml`, `-3`, `-4`; pending
-witnesses `inbox/witnesses/2026-11-03-b3-branch-ace-2.yaml`; edges in `sources/witnesses/by-work/branch-at-canaans-edge.yaml`.
-The second run also logged, as witnesses and edges only (no claim rows), the notes on every page of pp. 8–420 the first
-run's entries cite. Every Branch cite added gives its page; a parenthetical where the page bears out only part of the
-entry; a Check where Branch's day or wording differs from the entry or from the FRUS text read (the FRUS documents marked
-read in the pending file were read in `sources/frus-text/`).
+First run (b3-branch-ace-1, merged Nov. 3, 2026): pp. 1–420. Second run (b3-branch3, Nov. 3–4, 2026): pp. 415–771, the whole of the text to the epilogue, in three patches, `inbox/2026-11-03-b3-branch-ace-2.yaml`, `-3`, `-4`; pending witnesses `inbox/witnesses/2026-11-03-b3-branch-ace-2.yaml`; edges in `sources/witnesses/by-work/branch-at-canaans-edge.yaml`. The second run also logged, as witnesses and edges only (no claim rows), the notes on every page of pp. 8–420 the first run's entries cite. Every Branch cite added gives its page; a parenthetical where the page bears out only part of the entry; a Check where Branch's day or wording differs from the entry or from the FRUS text read (the FRUS documents marked read in the pending file were read in `sources/frus-text/`).
 
 ## Rulings other than "holds"
 
-Recorded in the entries as Checks: Rusk's testimony "Jan. 27" against the entry's Jan. 28, 1966; the Tonkin repeal vote,
-Mar. 2 against Mar. 1, 1966; the call Branch dates Feb. 20, 1966, which is FRUS 1964–68, IV, doc. 81, Feb. 22; Robert
-Kennedy's Alabama address, Mar. 18, 1966, by the notes. The days Branch gives only by "that month" or a newspaper's date
-carry "Check: the day."
+Recorded in the entries as Checks: Rusk's testimony "Jan. 27" against the entry's Jan. 28, 1966; the Tonkin repeal vote, Mar. 2 against Mar. 1, 1966; the call Branch dates Feb. 20, 1966, which is FRUS 1964–68, IV, doc. 81, Feb. 22; Robert Kennedy's Alabama address, Mar. 18, 1966, by the notes. The days Branch gives only by "that month" or a newspaper's date carry "Check: the day."
 
 ## Passed over
 
@@ -117,8 +106,7 @@ States and cities:
 - Chicago, Feb.–Mar. 1966: the Warren Avenue mass meeting with the landlords Condor and Costalis (Branch, 441–42; Ralph, *Northern Protest*, 63; Look, June 14, 1966); Hoover's agents warn Archbishop Cody (Garrow, *FBI and Martin Luther King*, 176); AFSC testing teams in the suburbs; Clay Evans's Breadbasket chapter and his church's cancelled permits (Frady, *Jesse*, 196–98). No days given.
 - Lowndes County, Feb. 1966: the case name and day of Frank Johnson's school order of Feb. 11 and of the dismissal of the eviction suit (Branch, 438; Eagles, *Outside Agitator*, 255; Southern Courier, June 18–19, 1966).
 - Memphis, Feb.–Apr. 1968: the City Council's resolution of Feb. 23 and the injunctions against Wurf and AFSCME (Branch, 699, 755; Beifuss, *At the River I Stand*, 83ff.); Robert Clark's day in the Mississippi House, Jan. 1968 (cal.1968-01.mississippi-2).
-- Oakland, Feb. 17, 1968: the "Free Huey" rally's day (cal.1968-02-17.black-nationalism; Carmichael, *Stokely Speaks*, 111–30).
-National:
+- Oakland, Feb. 17, 1968: the "Free Huey" rally's day (cal.1968-02-17.black-nationalism; Carmichael, *Stokely Speaks*, 111–30). National:
 - Birmingham, Jan. 24, 1966: the Attorney General's certification for federal examiners in Jefferson County, Federal Register, January 1966 (cal.1966-01-24.voting-rights).
 - Motley's nomination to the Southern District of New York: the day (cal.1966-01.civil-rights-the-executive-2; Washington Post, Jan. 26, 1966, 2).
 - Postage from 5 to 6 cents, Jan. 7, 1968: the Postal Revenue and Federal Salary Act of 1967 and its effective day (Branch, 666).
@@ -126,11 +114,9 @@ National:
 - Komer's announcement of Jan. 25, 1968, two-thirds of South Vietnam's people secure (NYT, Jan. 25 or 26, 1968; Branch, 676).
 - The FBI's papers of Feb.–Apr. 1968 on King (Parade, Feb. 29; the propaganda of late March; SAC Jackson, Apr. 4): FBI King file, as Branch's notes give them (734–35).
 - Johnson at St. Patrick's Cathedral, Apr. 4, 1968, Cooke's installation (Branch, 764).
-- The National Guard's drive for Negro members, Mar. 31, 1968 (NYT, Mar. 31, 1968, 1; Branch, 751).
-Foreign:
+- The National Guard's drive for Negro members, Mar. 31, 1968 (NYT, Mar. 31, 1968, 1; Branch, 751). Foreign:
 - Tiger Force, 101st Airborne, 1967–68: the dates of its operations in Quảng Ngãi and Quảng Tín and of the Army's inquiry (Toledo *Blade*, Oct. 19–22, 2003; Branch, 713).
 
 ## Not read
 
-Nothing of the text in the span. The notes for pp. 421–771 are logged where the entries cite them; notes the parser could not
-split (five duplicate lead phrases, pp. 386 and others) were left.
+Nothing of the text in the span. The notes for pp. 421–771 are logged where the entries cite them; notes the parser could not split (five duplicate lead phrases, pp. 386 and others) were left.

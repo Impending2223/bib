@@ -405,6 +405,12 @@ The thread index (Part I of the calendar) is generated from `thread` and
 
 ### House style (keep it)
 
+Markdown files (`.md`, the notes, briefs, memos, listings, READMEs) are not hard-wrapped: a paragraph or a list item is
+one line, so the in-app reader and GitHub break lines only at the screen's edge (the owner, Nov. 5, 2026: "unwrap them
+all, fix the scripts"). A generator of a `.md` passes its text through `unwrap` in `tools/bib/mdwrap.py` (its STYLE);
+`python3 -I tools/notes/unwrap_md.py FILE.md` unwraps one by hand. Code, YAML and this file's own source keep their
+wrap until it is unwrapped too.
+
 Short declarative sentences. A calendar note points back ("See [[id]]"), not forward; where an earlier entry
 must name a later one, it says what it is ("Reply: [[id]]", "The order: [[id]]", "Bibliography: [[id]]" where a
 thread's first entry is excepted, `ok:thread-first`). A law the entry reports enacted is cited in `c` after its name, linked, as a case's

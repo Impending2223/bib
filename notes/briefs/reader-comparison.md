@@ -1,9 +1,6 @@
 # The reader's brief against the texts it replaces
 
-Reviewed Oct. 30, 2026. Old texts: CLAUDE.md lines 8–186 (the brief section as it stands on disk; "CL") and the seven
-files in `notes/briefs/superseded/` (common, books, onebook, backfill, batch3, histories, primary). New: `notes/briefs/reader.md`.
-Line numbers are the old files'. Formatting conventions left to CLAUDE.md are flagged only where the pointer is missing
-or wrong.
+Reviewed Oct. 30, 2026. Old texts: CLAUDE.md lines 8–186 (the brief section as it stands on disk; "CL") and the seven files in `notes/briefs/superseded/` (common, books, onebook, backfill, batch3, histories, primary). New: `notes/briefs/reader.md`. Line numbers are the old files'. Formatting conventions left to CLAUDE.md are flagged only where the pointer is missing or wrong.
 
 ## Dropped
 
@@ -114,25 +111,12 @@ In the old, not in the new.
 
 ## Assignment matter, correctly left out
 
-The Drive download commands (curl, the Google Drive tool), the scratchpad paths of `add_cards.py` and its lock, the
-patch names and dates (`2026-10-24-book-*`, `2026-10-29-b3-*`, `-backfill-`, `-histories-`, `-primary-`), the
-`notes/primary-records/` deliverable and its direct edits to `sources/cited-records/`, the counts of agents at work
-and what each is doing, the "fifteen" and "seventy" books, the files other agents hold (build.py, check.py and the
-rest), the spot-check's figures, the histories' list of Chiefs' matters, the memoir and journalist lists, the YYYYMM
-renaming notice, the builder's duties (document what you build, `problems(series)` hooks), and the owner's working
-hours (left to CLAUDE.md "Working hours").
+The Drive download commands (curl, the Google Drive tool), the scratchpad paths of `add_cards.py` and its lock, the patch names and dates (`2026-10-24-book-*`, `2026-10-29-b3-*`, `-backfill-`, `-histories-`, `-primary-`), the `notes/primary-records/` deliverable and its direct edits to `sources/cited-records/`, the counts of agents at work and what each is doing, the "fifteen" and "seventy" books, the files other agents hold (build.py, check.py and the rest), the spot-check's figures, the histories' list of Chiefs' matters, the memoir and journalist lists, the YYYYMM renaming notice, the builder's duties (document what you build, `problems(series)` hooks), and the owner's working hours (left to CLAUDE.md "Working hours").
 
 ## Disposition (the second draft, Oct. 30, 2026)
 
-- Dropped: D1–D41 folded into the rules named, but D35's before-and-after example, left in CLAUDE.md and pointed to
-  (R19), and D36's thread conventions, pointed to (R2). The rules are renumbered (R1–R58; R45–R47 kept free).
-- Rule A: E1–E6 are R35, in force now; Part E's witness rules (R36–R43) are marked not in force until the registry is
-  built. Studies, memoirs and collections the notes cite are logged under R35 meanwhile.
-- Changed: C1 kept and flagged for the owner (R5's row); C2–C9, C13 (kept), C14 restored; C10 and C11 deliberate (the
-  Oct. 30 ruling; batch 3); C12 stated in the preamble; C15 in R38 (the copy as an edge, the upstream credited).
-- Provenance: P1, and the words behind P5, are the owner's, from the session's transcript (Oct. 29 and 30); they are
-  now copied verbatim into `notes/owner-brief.md`, "The rulings of Oct. 28–30, 2026", with the other rulings of those
-  days, and the table cites them there. P2–P4, P6–P11 corrected: house rules marked as such, rows added.
-- Contradictions: X1 (R35 in force now), X2 (R50: leads in the book-check file, copied by the merger), X3 ("already
-  in" is no reason to pass over: R44), X4 (the pointers name CLAUDE.md's headings), X5 (CLAUDE.md now says the time
-  fields come Nov. 2), X6 (the preamble says "superseded on approval").
+- Dropped: D1–D41 folded into the rules named, but D35's before-and-after example, left in CLAUDE.md and pointed to (R19), and D36's thread conventions, pointed to (R2). The rules are renumbered (R1–R58; R45–R47 kept free).
+- Rule A: E1–E6 are R35, in force now; Part E's witness rules (R36–R43) are marked not in force until the registry is built. Studies, memoirs and collections the notes cite are logged under R35 meanwhile.
+- Changed: C1 kept and flagged for the owner (R5's row); C2–C9, C13 (kept), C14 restored; C10 and C11 deliberate (the Oct. 30 ruling; batch 3); C12 stated in the preamble; C15 in R38 (the copy as an edge, the upstream credited).
+- Provenance: P1, and the words behind P5, are the owner's, from the session's transcript (Oct. 29 and 30); they are now copied verbatim into `notes/owner-brief.md`, "The rulings of Oct. 28–30, 2026", with the other rulings of those days, and the table cites them there. P2–P4, P6–P11 corrected: house rules marked as such, rows added.
+- Contradictions: X1 (R35 in force now), X2 (R50: leads in the book-check file, copied by the merger), X3 ("already in" is no reason to pass over: R44), X4 (the pointers name CLAUDE.md's headings), X5 (CLAUDE.md now says the time fields come Nov. 2), X6 (the preamble says "superseded on approval").

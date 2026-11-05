@@ -717,7 +717,8 @@ def cmd_works(series, a):
         return
     if cmd == "inventory":
         path = os.path.join(store.ROOT, "notes", "works-inventory.md")
-        open(path, "w", encoding="utf-8").write(works.inventory(series))
+        from .mdwrap import unwrap
+        open(path, "w", encoding="utf-8").write(unwrap(works.inventory(series)))
         print(f"wrote {path}")
         return
     a.query = args

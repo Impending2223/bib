@@ -1,25 +1,14 @@
 # Edmund F. Kallina Jr., *Kennedy v. Nixon: The Presidential Election of 1960* (2010): a first reading
 
-Card `w.kallina-kennedy-v-nixon`. Read Oct. 29, 2026. Patch: `inbox/2026-10-29-republicans-kallina.yaml`
-(republicans-kallina; 111 ops: 76 entries added, 35 edited). Records: `sources/cited-records/kallina-kennedy-v-nixon.yaml`
-(109). Leads: `notes/leads.md`, National, "Kallina, *Kennedy v. Nixon*".
+Card `w.kallina-kennedy-v-nixon`. Read Oct. 29, 2026. Patch: `inbox/2026-10-29-republicans-kallina.yaml` (republicans-kallina; 111 ops: 76 entries added, 35 edited). Records: `sources/cited-records/kallina-kennedy-v-nixon.yaml` (109). Leads: `notes/leads.md`, National, "Kallina, *Kennedy v. Nixon*".
 
 ## The copy, and how much of it was read
 
-The owner's copy in Drive (file id 1gOKSo-mP-2XQZ2FU9W9kw5IGd1JVOOAR, 1.5 MB), fetched with the Drive connector (the public
-download link answers with Google's sign-in page); saved to the scratchpad only. It is the publisher's ebook as a
-print replica, 305 PDF pages with the publisher's own text layer (no OCR): the running heads and folios are on every
-page. **Printed page = PDF page − 15** throughout: checked by script on all 285 pages that carry a folio (front matter
-ix–xiv, text 1–214, notes 217–60, sources 261–, index 279–), no exception; and by eye on the page image of p. 92 (PDF
-107). Every page is cited by its printed folio.
+The owner's copy in Drive (file id 1gOKSo-mP-2XQZ2FU9W9kw5IGd1JVOOAR, 1.5 MB), fetched with the Drive connector (the public download link answers with Google's sign-in page); saved to the scratchpad only. It is the publisher's ebook as a print replica, 305 PDF pages with the publisher's own text layer (no OCR): the running heads and folios are on every page. **Printed page = PDF page − 15** throughout: checked by script on all 285 pages that carry a folio (front matter ix–xiv, text 1–214, notes 217–60, sources 261–, index 279–), no exception; and by eye on the page image of p. 92 (PDF 107). Every page is cited by its printed folio.
 
-Read in full: chapters 3–10, pp. 49–214 (the nominations, the campaign, civil rights, the last weeks, the count and the
-challenges, the "myths"), and their notes, pp. 226–59. Chapters 1–2 (pp. 4–48: the 1950s, the two men before 1960) were
-searched for 1960 events only; the Introduction (pp. 1–3) was not read. Nothing is entered from memory.
+Read in full: chapters 3–10, pp. 49–214 (the nominations, the campaign, civil rights, the last weeks, the count and the challenges, the "myths"), and their notes, pp. 226–59. Chapters 1–2 (pp. 4–48: the 1950s, the two men before 1960) were searched for 1960 events only; the Introduction (pp. 1–3) was not read. Nothing is entered from memory.
 
-The book's notes are numbered by chapter; a record is keyed by the printed page its note number stands on and the
-number (lettered a, b … where a note gives several records, in the note's order). Kallina writes "Simulactics" for
-the Kennedy campaign's polling contractor; the entry keeps his spelling with a Check.
+The book's notes are numbered by chapter; a record is keyed by the printed page its note number stands on and the number (lettered a, b … where a note gives several records, in the note's order). Kallina writes "Simulactics" for the Kennedy campaign's polling contractor; the entry keeps his spelling with a Check.
 
 ## Citations it had (eleven, all behind "To check")
 
@@ -39,94 +28,34 @@ the Kennedy campaign's polling contractor; the entry keeps his spelling with a C
 
 ## Entries it now stands in (edits)
 
-Held up by pages with a parenthetical where it bears part: `cal.1960-03.economy` (89–90: Burns's warning; the
-administration against Nixon and Burns; not "to the cabinet"), `cal.1960-04.elections-1960` (62–63, see below),
-`cal.1960-04-08.elections-1960-2` (64, see below), `cal.1960-06-08.elections-1960` (88), `cal.1960-07-11.elections-1960-2`
-(76: Graham and Alsop among six who urged Johnson on Kennedy, July 11–12; Check for the others and the *Post*'s story of
-July 12), `cal.1960-07-13.elections-1960` (72–73: Wyoming, 806, 761; not the others' counts), `cal.1960-07-14.elections-1960`
-(77–79: the offer; Robert Kennedy's two calls on Johnson between 2 and 4 p.m.; Lawrence's nominating speech and Dawson's
-seconding, not the acclamation), `cal.1960-07-15.elections-1960` (79–80), `cal.1960-07-25.republican-party` (92),
-`cal.1960-07-26.elections-1960` (93), `cal.1960-07-28.elections-1960` (94–95), `cal.1960-08-29.elections-1960` (115–16: Aug.
-29 to Sept. 9, settling the entry's "Check the date he left," removed), `cal.1960-10-07`, `-10-13` (126–27: Quemoy and Matsu),
-`cal.1960-10-21.elections-1960` (130), `cal.1960-10-10.elections-1960` (131–32), `cal.1960-10-25.king` (153–55),
-`cal.1960-11-04.elections-1960` (166–67), `cal.1960-11-14.transition-and-staff` (187, Nixon's account),
-`cal.1960-12-06.transition-and-staff` (187–88), `cal.1960-12-19.elections-1960` (188), `cal.1960-12-28.elections-1960`
-(181–82: the recount ran Dec. 13–30), `cal.1961-01-06.elections-1960` (188–89), `cal.1960-08-24.press-and-broadcasting`
-(117, see below).
+Held up by pages with a parenthetical where it bears part: `cal.1960-03.economy` (89–90: Burns's warning; the administration against Nixon and Burns; not "to the cabinet"), `cal.1960-04.elections-1960` (62–63, see below), `cal.1960-04-08.elections-1960-2` (64, see below), `cal.1960-06-08.elections-1960` (88), `cal.1960-07-11.elections-1960-2` (76: Graham and Alsop among six who urged Johnson on Kennedy, July 11–12; Check for the others and the *Post*'s story of July 12), `cal.1960-07-13.elections-1960` (72–73: Wyoming, 806, 761; not the others' counts), `cal.1960-07-14.elections-1960` (77–79: the offer; Robert Kennedy's two calls on Johnson between 2 and 4 p.m.; Lawrence's nominating speech and Dawson's seconding, not the acclamation), `cal.1960-07-15.elections-1960` (79–80), `cal.1960-07-25.republican-party` (92), `cal.1960-07-26.elections-1960` (93), `cal.1960-07-28.elections-1960` (94–95), `cal.1960-08-29.elections-1960` (115–16: Aug. 29 to Sept. 9, settling the entry's "Check the date he left," removed), `cal.1960-10-07`, `-10-13` (126–27: Quemoy and Matsu), `cal.1960-10-21.elections-1960` (130), `cal.1960-10-10.elections-1960` (131–32), `cal.1960-10-25.king` (153–55), `cal.1960-11-04.elections-1960` (166–67), `cal.1960-11-14.transition-and-staff` (187, Nixon's account), `cal.1960-12-06.transition-and-staff` (187–88), `cal.1960-12-19.elections-1960` (188), `cal.1960-12-28.elections-1960` (181–82: the recount ran Dec. 13–30), `cal.1961-01-06.elections-1960` (188–89), `cal.1960-08-24.press-and-broadcasting` (117, see below).
 
-**Held back:** `cal.1960-10-19.king`: Kallina, 152–53, bears the arrest of Oct. 19 (B) and Hartsfield's agreement (D).
-`inbox/2026-10-29-backfill-garrow.yaml` edits the same entry (its `src`) and is not yet merged; once it is, add
-"[[w.kallina-kennedy-v-nixon]], 152–53 (the arrest; Hartsfield's agreement)" to the read sources and the rows
-`w.kallina-kennedy-v-nixon 152: B`, `w.kallina-kennedy-v-nixon 152–53: D` (no records: his notes 47–48 cite books).
+**Held back:** `cal.1960-10-19.king`: Kallina, 152–53, bears the arrest of Oct. 19 (B) and Hartsfield's agreement (D). `inbox/2026-10-29-backfill-garrow.yaml` edits the same entry (its `src`) and is not yet merged; once it is, add "[[w.kallina-kennedy-v-nixon]], 152–53 (the arrest; Hartsfield's agreement)" to the read sources and the rows `w.kallina-kennedy-v-nixon 152: B`, `w.kallina-kennedy-v-nixon 152–53: D` (no records: his notes 47–48 cite books).
 
 ## Disagreements (each a Check in the patch)
 
-- `cal.1960-10-25.king`: Kallina, 153, has Judge Mitchell sentence King on **Monday, Oct. 24**; the entry has Oct. 25. He
-  makes the call to Mrs. King Shriver's and Louis Martin's idea, Shriver placing it (the entry: urged by Wofford and
-  Shriver). And, after Vandiver's oral history (154), Kennedy first called Governor Vandiver, who arranged through Robert
-  Russell and George Stewart that Mitchell would free King on Robert Kennedy's call. Third records not read (Branch, Garrow
-  give Oct. 25: not read here).
-- `cal.1960-11-04.elections-1960`: Kallina, 166, puts the Adolphus Hotel incident in **late October**; the entry (Caro, and
-  the *Times* of Nov. 5 Caro cites) has Nov. 4. The entry stands.
-- `cal.1960-08-24.press-and-broadcasting`: Kallina, 117, dates the suspension of section 315 **June 27, 1960**; the
-  statute is of Aug. 24 (74 Stat. 554). The statute settles the law's date; June 27 may be one chamber's passage. Check.
-- `cal.1960-04.elections-1960`: the April poll Kallina reads (62, 228–29 n.38) was of **Kanawha County alone**, 60–40 or
-  64–36 as White prints it in two places; the December–January poll statewide 54–23, 70–30 without the undecided.
-- `cal.1960-04-08.elections-1960-2`: Kallina read the meeting's minutes (229 n.41): only five counties reported trouble
-  from religion, most said it no great problem. Schlesinger's account in the entry ("He's a Catholic. That's our
-  God-damned problem") is the usual one Kallina disputes. Check.
-- `cal.1960-12-19.elections-1960`: Kallina, 188, counts Hawaii both ways, Kennedy 303, Nixon 222; the entry's 300 and 219
-  leave Hawaii out. Check.
-- `cal.1960-10-10.elections-1960`: Kallina calls the train the "Cornpone Special" (132): eight States, forty-nine stops,
-  fifty-seven speeches. Check.
-- `cal.1960-10-26.opinion`: Kallina gives Gallup's Oct. 26 release as 49–45 (134, 242 n.44) and elsewhere 51–45 "at the
-  end of the debates" (158, 176). Check.
+- `cal.1960-10-25.king`: Kallina, 153, has Judge Mitchell sentence King on **Monday, Oct. 24**; the entry has Oct. 25. He makes the call to Mrs. King Shriver's and Louis Martin's idea, Shriver placing it (the entry: urged by Wofford and Shriver). And, after Vandiver's oral history (154), Kennedy first called Governor Vandiver, who arranged through Robert Russell and George Stewart that Mitchell would free King on Robert Kennedy's call. Third records not read (Branch, Garrow give Oct. 25: not read here).
+- `cal.1960-11-04.elections-1960`: Kallina, 166, puts the Adolphus Hotel incident in **late October**; the entry (Caro, and the *Times* of Nov. 5 Caro cites) has Nov. 4. The entry stands.
+- `cal.1960-08-24.press-and-broadcasting`: Kallina, 117, dates the suspension of section 315 **June 27, 1960**; the statute is of Aug. 24 (74 Stat. 554). The statute settles the law's date; June 27 may be one chamber's passage. Check.
+- `cal.1960-04.elections-1960`: the April poll Kallina reads (62, 228–29 n.38) was of **Kanawha County alone**, 60–40 or 64–36 as White prints it in two places; the December–January poll statewide 54–23, 70–30 without the undecided.
+- `cal.1960-04-08.elections-1960-2`: Kallina read the meeting's minutes (229 n.41): only five counties reported trouble from religion, most said it no great problem. Schlesinger's account in the entry ("He's a Catholic. That's our God-damned problem") is the usual one Kallina disputes. Check.
+- `cal.1960-12-19.elections-1960`: Kallina, 188, counts Hawaii both ways, Kennedy 303, Nixon 222; the entry's 300 and 219 leave Hawaii out. Check.
+- `cal.1960-10-10.elections-1960`: Kallina calls the train the "Cornpone Special" (132): eight States, forty-nine stops, fifty-seven speeches. Check.
+- `cal.1960-10-26.opinion`: Kallina gives Gallup's Oct. 26 release as 49–45 (134, 242 n.44) and elsewhere 51–45 "at the end of the debates" (158, 176). Check.
 
 ## New entries (76)
 
-Elections of 1960, the Democrats: Jan. (DiSalle pledges Ohio, 53–54); Mar. 24 (Johnson's campaign on the western
-States, 69); Apr. 5 (primary night on CBS; the Kennedys and Cronkite, Kirk, Watson, Stanton, 59); Apr. (Humphrey's
-"little black bag," 65); May 13 (Larry King's Wyoming report, 68–69); May 25 (Robert Kennedy's count, 777, 69–70); June
-(Baker to Sorensen, 76); June 23 (Kennedy and King meet, 139); July (Kennedy and Jackie Robinson, 145); July 3–4 (Johnson
-will not rule out second place, 76); July 8 (Robert Kennedy and Lawrence, 72); July 11 (Pennsylvania's caucus, 72); July
-13–14 (Clifford's deal for Symington, 76–77); July (Hyannis Port strategy, 98–99); Aug. 2 (the Civil Rights Section,
-APP; 147); Aug. (Kennedy and Vandiver, 154); Aug. 25 (the Simulactics report, 104–05); Sept. 22 (the Corn Palace, APP;
-194); Sept. 27 (Lausche joins the motorcade, 123–24); Oct. (Bissell, 129); Oct. (Patterson's warning, 129–30); Oct. 6
-(Johnson through Reedy on Little Rock, 147–48); Oct. 12 (the National Conference on Constitutional Rights, APP; 147); Oct.
-22 (Hartsfield credits Kennedy, 152–53); Oct. 25 ("invasion fever," 130); Nov. 8 (Daley to Kennedy, by Bradlee, 207–08);
-Nov. 9 (the Hyannis Port meeting on a challenge, 186–87); Nov. (Kennedy: "the count has been accurate," 187).
+Elections of 1960, the Democrats: Jan. (DiSalle pledges Ohio, 53–54); Mar. 24 (Johnson's campaign on the western States, 69); Apr. 5 (primary night on CBS; the Kennedys and Cronkite, Kirk, Watson, Stanton, 59); Apr. (Humphrey's "little black bag," 65); May 13 (Larry King's Wyoming report, 68–69); May 25 (Robert Kennedy's count, 777, 69–70); June (Baker to Sorensen, 76); June 23 (Kennedy and King meet, 139); July (Kennedy and Jackie Robinson, 145); July 3–4 (Johnson will not rule out second place, 76); July 8 (Robert Kennedy and Lawrence, 72); July 11 (Pennsylvania's caucus, 72); July 13–14 (Clifford's deal for Symington, 76–77); July (Hyannis Port strategy, 98–99); Aug. 2 (the Civil Rights Section, APP; 147); Aug. (Kennedy and Vandiver, 154); Aug. 25 (the Simulactics report, 104–05); Sept. 22 (the Corn Palace, APP; 194); Sept. 27 (Lausche joins the motorcade, 123–24); Oct. (Bissell, 129); Oct. (Patterson's warning, 129–30); Oct. 6 (Johnson through Reedy on Little Rock, 147–48); Oct. 12 (the National Conference on Constitutional Rights, APP; 147); Oct. 22 (Hartsfield credits Kennedy, 152–53); Oct. 25 ("invasion fever," 130); Nov. 8 (Daley to Kennedy, by Bradlee, 207–08); Nov. 9 (the Hyannis Port meeting on a challenge, 186–87); Nov. (Kennedy: "the count has been accurate," 187).
 
-Elections of 1960, the Republicans (also Republican Party where the President and the national committee act): Feb. 17
-(Eisenhower's "despicable," Defense thread; the Public Papers, 189; 89); May 9 (Eisenhower to Hobby, 88); June 11
-(Rockefeller's call, 88); June (Rockefeller on missile attack, 91); July (Percy and Rockefeller on the platform, 91);
-July 19 (Hauge and Eisenhower on Rockefeller for second place, 94); July 24 (Eisenhower and Nixon on "no price ceiling,"
-92); July 27 (the choice of Lodge, 94–95); July (Newport: Eisenhower's role agreed, 161); Aug. 16 (the Hall–Finch
-memorandum on religion, 106); Aug. 26 (Atlanta, APP; 115–16); Sept. 25 (Nixon to "play it low key," 125); Oct. 17–18
-(Eisenhower in Detroit, the Public Papers, 769; his heart, 162, 164); Oct. 21 and Nov. 5 (Claude Robinson's evaluations,
-175); Oct. 25 (Cincinnati, the television campaign, APP; 160, 165); Oct. (Pearson's Hughes loan story, 166); Oct. 31 (the
-White House lunch, 162–63); Nov. 2 (Hoover on Ball and Alphand, 130); Nov. 6 (Nixon's East Europe proposal, 172); Nov. 7
-(the telethon; the election-eve half hour, APP and the Public Papers, 852; 165); Nov. 8 (Alger's advertisement, 168;
-Suthers's charge, 183); Nov. 9 (Nixon's 3:20 a.m. statement, 179–80; Eisenhower and Nixon, 182; Eisenhower's reckoning,
-182–83); Nov. 10–11 (Morton and the eleven States, 184); Nov. 13 (Connell's charge, 184; Hoover's call to Nixon, 187); Nov.
-16 and 21 (California's count, 181); Nov. 18 (the national committee's men in eight States, 184); Nov. 30 (Eisenhower to
-the Attorney General, 185); Dec. (Morton in Chicago, 184); Dec. 4–7 (Mazo's series, 185, 208); Dec. 14 (the Illinois
-State Electoral Board certifies, 211); Dec. 28 (Eisenhower on the Negro vote, 151–52); Dec. 30 (Nixon to Maxwell, 186).
+Elections of 1960, the Republicans (also Republican Party where the President and the national committee act): Feb. 17 (Eisenhower's "despicable," Defense thread; the Public Papers, 189; 89); May 9 (Eisenhower to Hobby, 88); June 11 (Rockefeller's call, 88); June (Rockefeller on missile attack, 91); July (Percy and Rockefeller on the platform, 91); July 19 (Hauge and Eisenhower on Rockefeller for second place, 94); July 24 (Eisenhower and Nixon on "no price ceiling," 92); July 27 (the choice of Lodge, 94–95); July (Newport: Eisenhower's role agreed, 161); Aug. 16 (the Hall–Finch memorandum on religion, 106); Aug. 26 (Atlanta, APP; 115–16); Sept. 25 (Nixon to "play it low key," 125); Oct. 17–18 (Eisenhower in Detroit, the Public Papers, 769; his heart, 162, 164); Oct. 21 and Nov. 5 (Claude Robinson's evaluations, 175); Oct. 25 (Cincinnati, the television campaign, APP; 160, 165); Oct. (Pearson's Hughes loan story, 166); Oct. 31 (the White House lunch, 162–63); Nov. 2 (Hoover on Ball and Alphand, 130); Nov. 6 (Nixon's East Europe proposal, 172); Nov. 7 (the telethon; the election-eve half hour, APP and the Public Papers, 852; 165); Nov. 8 (Alger's advertisement, 168; Suthers's charge, 183); Nov. 9 (Nixon's 3:20 a.m. statement, 179–80; Eisenhower and Nixon, 182; Eisenhower's reckoning, 182–83); Nov. 10–11 (Morton and the eleven States, 184); Nov. 13 (Connell's charge, 184; Hoover's call to Nixon, 187); Nov. 16 and 21 (California's count, 181); Nov. 18 (the national committee's men in eight States, 184); Nov. 30 (Eisenhower to the Attorney General, 185); Dec. (Morton in Chicago, 184); Dec. 4–7 (Mazo's series, 185, 208); Dec. 14 (the Illinois State Electoral Board certifies, 211); Dec. 28 (Eisenhower on the Negro vote, 151–52); Dec. 30 (Nixon to Maxwell, 186).
 
-Democratic Party: Jan. (Wisconsin's delegate formula, 61). Governors: Jan. (Daley picks Kerner, 199). Electoral
-College: Nov. 18 (R. Lea Harris calls the Southern electors, 188). Opinion (Gallup's releases, by Kallina's notes):
-July 6, Aug. 17, Sept. 14, Sept. 25, Oct. 12, Oct. 26, Nov. 7.
+Democratic Party: Jan. (Wisconsin's delegate formula, 61). Governors: Jan. (Daley picks Kerner, 199). Electoral College: Nov. 18 (R. Lea Harris calls the Southern electors, 188). Opinion (Gallup's releases, by Kallina's notes): July 6, Aug. 17, Sept. 14, Sept. 25, Oct. 12, Oct. 26, Nov. 7.
 
-The merge flags 25 of the new entries as possible duplicates (the same day and thread as another entry): each is a
-distinct event; `./bib resolve ID --take keep`.
+The merge flags 25 of the new entries as possible duplicates (the same day and thread as another entry): each is a distinct event; `./bib resolve ID --take keep`.
 
 ## Records (109)
 
-Logged in `sources/cited-records/kallina-kennedy-v-nixon.yaml`, each tied to its units by a `via` row. Found in the
-series: the transcript of Eisenhower's news conference of Aug. 24, 1960 (114 n.37a = 1960–61 Pub. Papers 647; read,
-cited as the entry's primary record); the transcript of Sept. 7, 1960 (98 n.2b = 1960–61 Pub. Papers 677; read: it is
-Eisenhower's verdict on the August session, not the entry's claim, so logged and not tied to a unit); Kennedy's statement
-of Oct. 20 (128 n.29, a web copy; the APP document the entry already cites; not read here). The rest (archival letters,
-memoranda, diaries, oral histories, newspapers) are not held by the series and stand in the entries' To check.
+Logged in `sources/cited-records/kallina-kennedy-v-nixon.yaml`, each tied to its units by a `via` row. Found in the series: the transcript of Eisenhower's news conference of Aug. 24, 1960 (114 n.37a = 1960–61 Pub. Papers 647; read, cited as the entry's primary record); the transcript of Sept. 7, 1960 (98 n.2b = 1960–61 Pub. Papers 677; read: it is Eisenhower's verdict on the August session, not the entry's claim, so logged and not tied to a unit); Kennedy's statement of Oct. 20 (128 n.29, a web copy; the APP document the entry already cites; not read here). The rest (archival letters, memoranda, diaries, oral histories, newspapers) are not held by the series and stand in the entries' To check.
 
 ## Passed over
 

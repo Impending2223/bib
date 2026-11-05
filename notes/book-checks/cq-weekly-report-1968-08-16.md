@@ -1,45 +1,20 @@
 # *Congressional Quarterly Weekly Report*, Aug. 16, 1968 (vol. 26, no. 33, Part II): a reading against the calendar
 
-Card `w.cq-weekly-report`. Cited by issue date and printed page: "[[w.cq-weekly-report]], Aug. 16, 1968, 2183"; no
-link (no open copy). Read Nov. 1, 2026, from the owner's scan (57 PDF pages, no text layer), OCR'd a page a file
-(`scratchpad/cq68/pg/n68-33-NNN.txt`), and the pages again with word boxes (tesseract, half size) to crop the lines
-used. The images are about 600 dpi (4882 × 6169).
+Card `w.cq-weekly-report`. Cited by issue date and printed page: "[[w.cq-weekly-report]], Aug. 16, 1968, 2183"; no link (no open copy). Read Nov. 1, 2026, from the owner's scan (57 PDF pages, no text layer), OCR'd a page a file (`scratchpad/cq68/pg/n68-33-NNN.txt`), and the pages again with word boxes (tesseract, half size) to crop the lines used. The images are about 600 dpi (4882 × 6169).
 
-What it is. The cover reads "No. 33 Part II of II Parts," "Pages 2174–2227": this Part II is the regular weekly issue,
-not a special report (Boxscore; Politics; Fact Sheets on the job controls, federal grants-in-aid and congressional
-reform; Floor Action; Committee Roundup; Around the Capitol; the New Mexico redistricting report; the Presidential
-Report; Lobbying Activities; the vote charts; the index on PDF 56). Part I of the issue is not in the scan; what it
-was, the scan does not say (a lead).
+What it is. The cover reads "No. 33 Part II of II Parts," "Pages 2174–2227": this Part II is the regular weekly issue, not a special report (Boxscore; Politics; Fact Sheets on the job controls, federal grants-in-aid and congressional reform; Floor Action; Committee Roundup; Around the Capitol; the New Mexico redistricting report; the Presidential Report; Lobbying Activities; the vote charts; the index on PDF 56). Part I of the issue is not in the scan; what it was, the scan does not say (a lead).
 
-Offset: printed = PDF + 2172 throughout (PDF 2 the Boxscore, p. 2174; PDF 55 p. 2227; PDF 56 the index; PDF 57 the
-back). No page scanned twice. Checked on the running feet of pp. 2175, 2176, 2178, 2179, 2181, 2182, 2183, 2184, 2185,
-2186, 2187, 2188, 2189, 2190, 2191, 2192, 2193, 2195, 2198, 2199, 2200, 2203, 2204, 2206, 2207, 2208, 2209, 2210, 2211,
-2212, 2213, 2214, 2215, 2216, 2217, 2218, 2219, 2220, 2221, 2223, 2224, 2225, 2227 (the OCR misreads some: "9181" for
-2181, "2303" for 2203, "9917" for 2217). The OCR files run each page's left column, then its foot, then its right
-column: a passage after the foot is still that page.
+Offset: printed = PDF + 2172 throughout (PDF 2 the Boxscore, p. 2174; PDF 55 p. 2227; PDF 56 the index; PDF 57 the back). No page scanned twice. Checked on the running feet of pp. 2175, 2176, 2178, 2179, 2181, 2182, 2183, 2184, 2185, 2186, 2187, 2188, 2189, 2190, 2191, 2192, 2193, 2195, 2198, 2199, 2200, 2203, 2204, 2206, 2207, 2208, 2209, 2210, 2211, 2212, 2213, 2214, 2215, 2216, 2217, 2218, 2219, 2220, 2221, 2223, 2224, 2225, 2227 (the OCR misreads some: "9181" for 2181, "2303" for 2203, "9917" for 2217). The OCR files run each page's left column, then its foot, then its right column: a passage after the foot is still that page.
 
 ## Checked against the page images (Nov. 1, 2026)
 
-Every figure, date, name, vote and quotation in the patch was read on the page image, in crops of the lines used
-(about 260 lines in 21 composite images), not taken from the OCR: pp. 2175, 2176, 2177, 2178, 2179, 2180, 2181, 2182,
-2183, 2184, 2185, 2186, 2187, 2188, 2189, 2190, 2191, 2192, 2198, 2199, 2200, 2202, 2203, 2204, 2206, 2207, 2208,
-2209, 2210, 2211, 2212, 2213, 2214, 2215, 2216, 2219, 2220, 2221, 2222, 2223, 2224, 2225, 2226. Details the crops
-did not show were cut from the entries before the patch was written (the sea grant's sums, the metric study's term,
-the higher-education contingency, the hunger committee's date to report, Madden's Title I, the grain bill's
-inspection terms, a cite for Daley's endorsement of July 24, quotations in three chronology cites).
+Every figure, date, name, vote and quotation in the patch was read on the page image, in crops of the lines used (about 260 lines in 21 composite images), not taken from the OCR: pp. 2175, 2176, 2177, 2178, 2179, 2180, 2181, 2182, 2183, 2184, 2185, 2186, 2187, 2188, 2189, 2190, 2191, 2192, 2198, 2199, 2200, 2202, 2203, 2204, 2206, 2207, 2208, 2209, 2210, 2211, 2212, 2213, 2214, 2215, 2216, 2219, 2220, 2221, 2222, 2223, 2224, 2225, 2226. Details the crops did not show were cut from the entries before the patch was written (the sea grant's sums, the metric study's term, the higher-education contingency, the hunger committee's date to report, Madden's Title I, the grain bill's inspection terms, a cite for Daley's endorsement of July 24, quotations in three chronology cites).
 
-The images showed what the OCR lost or misread: the Census's rise in family income "6½ percent" (the OCR: "62
-percent"); "Hoff (D Va.)" as printed (a misprint for Vt.); "June 23" for the Senate's passage of H.R. 18188 (July 23).
+The images showed what the OCR lost or misread: the Census's rise in family income "6½ percent" (the OCR: "62 percent"); "Hoff (D Va.)" as printed (a misprint for Vt.); "June 23" for the Senate's passage of H.R. 18188 (July 23).
 
 ## Records
 
-The *Weekly Report* has no notes. It points to its own earlier issues ("Weekly Report p. 61") and to the Almanac and
-*Congress and the Nation*; no `sources/cited-records/` file (the same work). Each new entry from the chronology of
-pp. 2186–89 carries "To check: CQ's report at the time, Weekly Report p. N" from CQ's pointer. Primary records found
-and not read: the Public Papers for the veto of H.R. 10915 and the signing of H.R. 10864 (Aug. 12), the Bikini
-statement (Aug. 12), the order and statement on the Export Expansion Advisory Committee (July 31), Johnson's address
-to the AFL-CIO (Dec. 12, 1967); the statutes of P.L. 90-422, 90-427, 90-433, 90-447, 90-472 (each entry "Check: the
-statute's cite"); the Record's days for the votes; Voteview for the roll calls of Aug. 1 (CQ votes 168–170, 222–223).
+The *Weekly Report* has no notes. It points to its own earlier issues ("Weekly Report p. 61") and to the Almanac and *Congress and the Nation*; no `sources/cited-records/` file (the same work). Each new entry from the chronology of pp. 2186–89 carries "To check: CQ's report at the time, Weekly Report p. N" from CQ's pointer. Primary records found and not read: the Public Papers for the veto of H.R. 10915 and the signing of H.R. 10864 (Aug. 12), the Bikini statement (Aug. 12), the order and statement on the Export Expansion Advisory Committee (July 31), Johnson's address to the AFL-CIO (Dec. 12, 1967); the statutes of P.L. 90-422, 90-427, 90-433, 90-447, 90-472 (each entry "Check: the statute's cite"); the Record's days for the votes; Voteview for the roll calls of Aug. 1 (CQ votes 168–170, 222–223).
 
 ## Cites added to entries already in the calendar (52, 8 Checks)
 
@@ -61,17 +36,9 @@ All rule "holds" for the part the parenthetical names, but these:
 
 ## New entries (164)
 
-Each claimed in the ledger. patch-check: 0 errors, 79 warnings, each a same-day, same-thread set of distinct events
-("one event?"). A trial merge into a scratch copy flagged 69 duplicates, each distinct (`--take keep`), and `check`
-then failed only on three name keys, since dropped (Jim Wright, Blair Clark, John M. Bailey: no name entry answers).
+Each claimed in the ledger. patch-check: 0 errors, 79 warnings, each a same-day, same-thread set of distinct events ("one event?"). A trial merge into a scratch copy flagged 69 duplicates, each distinct (`--take keep`), and `check` then failed only on three name keys, since dropped (Jim Wright, Blair Clark, John M. Bailey: no name entry answers).
 
-The chief: McGovern's week (Aug. 11–13); UPI's delegate count (Aug. 14); Humphrey on *Issues and Answers* and to Kerr
-(July 27, Aug. 12); McCarthy's party reforms (Aug. 11); Nixon at Miami Beach on Agnew and the South (Aug. 9); the
-Republican National Committee re-elects Bliss (Aug. 9); Agnew's first days (Aug. 11–12); Wallace on NET (Aug. 12);
-the Democrats' convention quarrels (Criswell, Stephen Mitchell, Bailey; the Hugheses); the job controls of the
-surcharge act (June 28–Aug. 1); congressional reform's end (Feb. 29–Aug. 1); the Senate's Sentinel vote (Aug. 1);
-the veto of H.R. 10915 (Aug. 12); the pipeline safety bill's course (1965–68); and 45 events of CQ's chronology of
-Nov. 1967–July 1968 (pp. 2186–89) the calendar lacked.
+The chief: McGovern's week (Aug. 11–13); UPI's delegate count (Aug. 14); Humphrey on *Issues and Answers* and to Kerr (July 27, Aug. 12); McCarthy's party reforms (Aug. 11); Nixon at Miami Beach on Agnew and the South (Aug. 9); the Republican National Committee re-elects Bliss (Aug. 9); Agnew's first days (Aug. 11–12); Wallace on NET (Aug. 12); the Democrats' convention quarrels (Criswell, Stephen Mitchell, Bailey; the Hugheses); the job controls of the surcharge act (June 28–Aug. 1); congressional reform's end (Feb. 29–Aug. 1); the Senate's Sentinel vote (Aug. 1); the veto of H.R. 10915 (Aug. 12); the pipeline safety bill's course (1965–68); and 45 events of CQ's chronology of Nov. 1967–July 1968 (pp. 2186–89) the calendar lacked.
 
 - `cal.1968-08-11.elections-1968`
 - `cal.1968-08-12.elections-1968-2`
@@ -240,28 +207,17 @@ Nov. 1967–July 1968 (pp. 2186–89) the calendar lacked.
 
 ## For the orchestrator
 
-1. Name keys: Jim Wright (roster "Wright, James C., Jr."), Blair Clark and John M. Bailey have no key that `check`
-   accepts; they stand in `c` untagged (cal.1968-08-04.elections-1968, cal.1968-08-06.elections-1968-6, and four
-   Chicago entries naming Bailey).
-2. The chronology (pp. 2186–89) bears on many entries already in the calendar that this run did not cite (below,
-   "In the calendar, not cited"). CQ's one-line summaries add nothing to them but its date; they can take the cite
-   at its page in a later pass.
+1. Name keys: Jim Wright (roster "Wright, James C., Jr."), Blair Clark and John M. Bailey have no key that `check` accepts; they stand in `c` untagged (cal.1968-08-04.elections-1968, cal.1968-08-06.elections-1968-6, and four Chicago entries naming Bailey).
+2. The chronology (pp. 2186–89) bears on many entries already in the calendar that this run did not cite (below, "In the calendar, not cited"). CQ's one-line summaries add nothing to them but its date; they can take the cite at its page in a later pass.
 3. Entries of June 11, 16 and 23 from the chronology may meet the June 7 reader's; none was in the ledger at claim.
 
 ## In the calendar, not cited
 
-The chronology's items on: the New Hampshire primary (Mar. 12), Robert Kennedy's entry (Mar. 16) and the commission
-offer (Mar. 17), Johnson's withdrawal (Mar. 31), Wisconsin (Apr. 2), King's murder (Apr. 4), Pennsylvania (Apr. 23),
-Massachusetts (Apr. 30), the Paris agreement (May 3), Indiana, D.C. (May 7), Nebraska and Maryland's constitution
-(May 14), Oregon and Florida (May 28), California and South Dakota (June 4), Kennedy's shooting (June 5), New York
-(June 18), Bailey's officers and Stephen Mitchell (June 18), the coalition at Chicago (June 29–30), Rockefeller's poll
-(July 9), Reagan's Southern tour (July 19), the governors' conference (July 21–24), the Republican platform committee
-(July 22), Daley's endorsement of Edward Kennedy (July 24).
+The chronology's items on: the New Hampshire primary (Mar. 12), Robert Kennedy's entry (Mar. 16) and the commission offer (Mar. 17), Johnson's withdrawal (Mar. 31), Wisconsin (Apr. 2), King's murder (Apr. 4), Pennsylvania (Apr. 23), Massachusetts (Apr. 30), the Paris agreement (May 3), Indiana, D.C. (May 7), Nebraska and Maryland's constitution (May 14), Oregon and Florida (May 28), California and South Dakota (June 4), Kennedy's shooting (June 5), New York (June 18), Bailey's officers and Stephen Mitchell (June 18), the coalition at Chicago (June 29–30), Rockefeller's poll (July 9), Reagan's Southern tour (July 19), the governors' conference (July 21–24), the Republican platform committee (July 22), Daley's endorsement of Edward Kennedy (July 24).
 
 ## Passed over
 
-Made by reading every page's text and its image where an event was used; each dated event not entered and not in the
-calendar is a row.
+Made by reading every page's text and its image where an event was used; each dated event not entered and not in the calendar is a row.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -304,19 +260,13 @@ calendar is a row.
 National
 - Part I of no. 33 (Aug. 16, 1968): not in the scan; what it holds (a special report?) to find.
 - The House and Senate members' votes on the Aug. 1 roll calls (CQ, Aug. 16, 1968, 2225–27): Voteview for each.
-- The earlier steps of the bills above (State Technical Services, S. 752, grain standards, S. 1752, S. 3640, H.R.
-  3136, H.R. 17144, H.R. 13781, H.R. 18299): the Record and CQ's earlier issues (CQ, Aug. 16, 1968, 2209–14).
-- S. 355 in 1967: referred Mar. 9, its hearing Apr. 11, the House Republican Policy Committee's statement of May 10
-  (CQ, Aug. 16, 1968, 2201): the 1967 entries.
+- The earlier steps of the bills above (State Technical Services, S. 752, grain standards, S. 1752, S. 3640, H.R. 3136, H.R. 17144, H.R. 13781, H.R. 18299): the Record and CQ's earlier issues (CQ, Aug. 16, 1968, 2209–14).
+- S. 355 in 1967: referred Mar. 9, its hearing Apr. 11, the House Republican Policy Committee's statement of May 10 (CQ, Aug. 16, 1968, 2201): the 1967 entries.
 - The Statutes at Large cites of P.L. 90-422, 90-427, 90-433, 90-447, 90-472 (sources/statute-links.json).
-- The Public Papers for July 31 (Export Expansion Advisory Committee), Aug. 12 (the veto of H.R. 10915, H.R. 10864,
-  Bikini) and Dec. 12, 1967 (AFL-CIO): to add as each entry's primary record.
+- The Public Papers for July 31 (Export Expansion Advisory Committee), Aug. 12 (the veto of H.R. 10915, H.R. 10864, Bikini) and Dec. 12, 1967 (AFL-CIO): to add as each entry's primary record.
 - The Treasury's compilation of fiscal 1967 grants-in-aid (CQ, Aug. 16, 1968, 2193–99): its release.
-- Nixon's strategy for the fall (CQ, Aug. 16, 1968, 2181): a dated source.
-States and cities
+- Nixon's strategy for the fall (CQ, Aug. 16, 1968, 2181): a dated source. States and cities
 - New Mexico's districting act, Feb. 13, 1968 (CQ, Aug. 16, 1968, 2217): the session laws; thread Legislatures.
-- Chicago: Daley's committee on the April riots, its report's day (CQ, Aug. 16, 1968, 2216); the taxi and bus
-  strikes threatened for convention week (2183).
-- Arkansas: the State's canvass for the 1st District's runoff of Aug. 13 (CQ's count partial).
-Foreign
+- Chicago: Daley's committee on the April riots, its report's day (CQ, Aug. 16, 1968, 2216); the taxi and bus strikes threatened for convention week (2183).
+- Arkansas: the State's canvass for the 1st District's runoff of Aug. 13 (CQ's count partial). Foreign
 - Nguyễn Thành Lê's statement on Nixon and the Republican platform: the day (CQ, Aug. 16, 1968, 2181).

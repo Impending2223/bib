@@ -1,22 +1,12 @@
 # Bird, *The Color of Truth* (1998): the book against the calendar
 
-Card `w.bird-color-of-truth`. Kai Bird, *The Color of Truth: McGeorge Bundy and William Bundy: Brothers in Arms* (Simon
-& Schuster, 1998). The owner's copy (Drive, the file id in `notes/briefs/batch3-resume.md`, row "advisers"), a scan of
-519 PDF pages with an OCR text layer (ragged spacing; a few folios misread), read with `pdftotext -layout`; cited by the
-printed page. Offset: printed page = PDF page - 3 to p. 224 (PDF 227); the plates PDF 228-243, unpaginated; then printed
-page = PDF page - 19 to the end (p. 225 = PDF 244; checked at the chapter openings, pp. 185, 226, 250, 270, 301, 350,
-376, 396, and the notes, p. 410, against the contents). The PDF deleted when the run was done.
+Card `w.bird-color-of-truth`. Kai Bird, *The Color of Truth: McGeorge Bundy and William Bundy: Brothers in Arms* (Simon & Schuster, 1998). The owner's copy (Drive, the file id in `notes/briefs/batch3-resume.md`, row "advisers"), a scan of 519 PDF pages with an OCR text layer (ragged spacing; a few folios misread), read with `pdftotext -layout`; cited by the printed page. Offset: printed page = PDF page - 3 to p. 224 (PDF 227); the plates PDF 228-243, unpaginated; then printed page = PDF page - 19 to the end (p. 225 = PDF 244; checked at the chapter openings, pp. 185, 226, 250, 270, 301, 350, 376, 396, and the notes, p. 410, against the contents). The PDF deleted when the run was done.
 
-No earlier run read the book (the first batch's Preston reader cited it through Preston's notes only). This run: Nov.
-4, 2026, patch `inbox/2026-11-03-b3-bird-2.yaml` (96 ops: 69 entries, 21 cites, 5 checks, 1 edit; patch-check 0
-errors, 31 warnings, each a same-day flag of a distinct event, read pair by pair).
+No earlier run read the book (the first batch's Preston reader cited it through Preston's notes only). This run: Nov. 4, 2026, patch `inbox/2026-11-03-b3-bird-2.yaml` (96 ops: 69 entries, 21 cites, 5 checks, 1 edit; patch-check 0 errors, 31 warnings, each a same-day flag of a distinct event, read pair by pair).
 
 ## How it was read
 
-Chapters 8 (from 1960) to 16, pp. 181-409, sentence by sentence for a date (a day, a month, a season or a year with an
-event), 440 sentences; each event set against the tree and the ledger (`./bib ledger find`), the paragraph around it
-read where an event was dated. Chapter 15 (the Ford Foundation) and 16 (after 1969) read so too. Pages 1-180 (to 1960)
-out of the span but for pp. 140-153 and 181-182 (Harvard and the Goals commission, 1960), read the same way.
+Chapters 8 (from 1960) to 16, pp. 181-409, sentence by sentence for a date (a day, a month, a season or a year with an event), 440 sentences; each event set against the tree and the ledger (`./bib ledger find`), the paragraph around it read where an event was dated. Chapter 15 (the Ford Foundation) and 16 (after 1969) read so too. Pages 1-180 (to 1960) out of the span but for pp. 140-153 and 181-182 (Harvard and the Goals commission, 1960), read the same way.
 
 ## The calendar's citations (R33)
 
@@ -36,17 +26,9 @@ out of the span but for pp. 140-153 and 181-182 (Harvard and the Goals commissio
 | cal.1967-06-07.middle-east | To check | not treated (the war of June 1967 named once, 384, on Podhoretz) | taken out (edit, base 48bf15d0) |
 | cal.1968-10-12.vietnam | To check | 371 | cited |
 
-Also cited: cal.1964-12-09.vietnam-congress (296; Check: Bird dates Fulbright's warning Dec. 4), cal.1965-06-21.vietnam-support
-(321), cal.1965-06-30.vietnam (330-31), cal.1965-07-01.vietnam (334, unit E), cal.1965-11-07 and -14.transition-and-staff
-(343-44), cal.1966-01-06.vietnam (345), cal.1966-03-01.transition-and-staff (347; the Preston run's new entry),
-cal.1967-05-03.vietnam-program-5 (357; Check: Bird dates the letter May 4), cal.1964-07-29.robert-kennedy-2 (297),
-cal.1967-07.states-and-cities-nyc (383), and Branch's pending cal.1966-08-01.press-and-broadcasting (378) and
-cal.1966-08-02.civil-rights-organizations (380) (R49: the same events, claimed first).
+Also cited: cal.1964-12-09.vietnam-congress (296; Check: Bird dates Fulbright's warning Dec. 4), cal.1965-06-21.vietnam-support (321), cal.1965-06-30.vietnam (330-31), cal.1965-07-01.vietnam (334, unit E), cal.1965-11-07 and -14.transition-and-staff (343-44), cal.1966-01-06.vietnam (345), cal.1966-03-01.transition-and-staff (347; the Preston run's new entry), cal.1967-05-03.vietnam-program-5 (357; Check: Bird dates the letter May 4), cal.1964-07-29.robert-kennedy-2 (297), cal.1967-07.states-and-cities-nyc (383), and Branch's pending cal.1966-08-01.press-and-broadcasting (378) and cal.1966-08-02.civil-rights-organizations (380) (R49: the same events, claimed first).
 
-Withdrawn after the claim (duplicates found after `./bib ledger add`; the claims stand in the ledger, no entry follows):
-cal.1964-12-04.vietnam-congress (Fulbright's warning: cal.1964-12-09.vietnam-congress), cal.1964-07.elections-1964-7
-(Bundy's call to Robert Kennedy: cal.1964-07-29.robert-kennedy-2), cal.1966-01-06.vietnam-2 (McNamara at Schlesinger's:
-cal.1966-01-06.vietnam). For the merger: prune them.
+Withdrawn after the claim (duplicates found after `./bib ledger add`; the claims stand in the ledger, no entry follows): cal.1964-12-04.vietnam-congress (Fulbright's warning: cal.1964-12-09.vietnam-congress), cal.1964-07.elections-1964-7 (Bundy's call to Robert Kennedy: cal.1964-07-29.robert-kennedy-2), cal.1966-01-06.vietnam-2 (McNamara at Schlesinger's: cal.1966-01-06.vietnam). For the merger: prune them.
 
 ## New entries (69)
 
@@ -122,37 +104,9 @@ cal.1966-01-06.vietnam). For the merger: prune them.
 
 ## Witnesses (R35)
 
-Second run, Nov. 4, 2026 (patch `inbox/2026-11-03-b3-bird-3.yaml`, 105 ops: 53 src (via rows), 33 to-check, 10 cites
-repeated from b3-bird-2 so the via rows have their item, 6 checks, 3 primary; patch-check 0 errors, 0 warnings). The
-notes (pp. 410-462, numbered by chapter) parsed from the text layer and each matched to its call in the text (the
-calls found by their numbers in sequence, chapter by chapter; 692 of 851 calls in chapters 7-16 placed; the rest
-between their neighbours), the passage read where a note was in doubt; checked on the image of p. 447 (notes 12.48-68).
-For each page the calendar cites (the tree's and b3-bird-2's entries), the notes of the passage: 57 new witnesses
-(`inbox/witnesses/2026-11-03-b3-bird-3.yaml`), 107 edges (`sources/witnesses/by-work/bird-color-of-truth.yaml`), ten
-witnesses already registered taking the edge (Forrestal's memorandum of May 11, 1962; the White House statement of Oct.
-2, 1963; Bundy to Johnson, Jan. 7 and June 1, 1964, and Jan. 27, 1965; Forrestal to McNaughton, May 1, 1964; the
-Memorandum for the Record of Sept. 15, 1964 (FRUS XXX, doc. 49); the Kraft interviews of Forrestal; the *Post* of May
-15, 1965; the *Times* of Aug. 3, 1966; William Bundy's Vietnam manuscript). A document Bird's text or footnote names
-without a note (the Riesman-Fromm letter, Raskin's memorandum of July 6, 1961, Bundy's July 24, 1964 report, the April
-16, 1965 letter, Bundy's Camp David notes) registered as the text gives it (R38), `open: not found`. Works in the
-catalogue cited by a note (Kahin, Gardner, Gibbons, Prados, Adams, Taking Charge, Goodwin, Steel, Berman, DiLeo, Moise,
-Cooper, Manchester, Schlesinger, Clifford, *Robert Kennedy in His Own Words*, the *Bulletin*) are edges to their cards
-and join the entry's "To check:" with Bird's note; the unread documents join it the same way.
-FRUS read and cited first: 1964-68, I, docs. 266 (Forrestal, Aug. 3, 1964) and 368 (SNIE 53-2-64), XXX, doc. 49.
-Edges only, no via (the note does not bear on the entry's units): 259 n.28 (the White House statement, for the CINCPAC
-message; Check written), 297 n.74a-b, 294 n.65b, 287 n.47c, 275 n.12b-c and 13b, 271 n.2c, 318 n.35, 321 n.46 for all
-but A, 332 n.74, 344 n.105 and 107b-d, 345 n.109, 348 n.120a, 381 n.20b, 313 n.27b-c.
-No note found for the passage (no witness): 218 (*The Liberal Papers*), 265 (William Bundy's confirmation), 293 (Biên
-Hòa; the call after the paragraph is the manuscript's), 296 (note 70 is printed blank: Fulbright's warning of Dec. 4,
-1964), 324 (Bosch, Bundy's mission), 334 (William Bundy to the ambassadors), 343 (McCloy's offer,
-the Sheraton-Carlton breakfast), 357 (the letter of May 1967), 364 (Bundy after the Wise Men), 383 (Ocean Hill), 387
-(the fellowships), 347 (cal.1966-03-01.transition-and-staff is not in the tree: the notes 13.116-119 there are the
-*Post*'s and Lippmann's of Feb. 27-Mar. 2, 1966): a reader with the image may place them.
+Second run, Nov. 4, 2026 (patch `inbox/2026-11-03-b3-bird-3.yaml`, 105 ops: 53 src (via rows), 33 to-check, 10 cites repeated from b3-bird-2 so the via rows have their item, 6 checks, 3 primary; patch-check 0 errors, 0 warnings). The notes (pp. 410-462, numbered by chapter) parsed from the text layer and each matched to its call in the text (the calls found by their numbers in sequence, chapter by chapter; 692 of 851 calls in chapters 7-16 placed; the rest between their neighbours), the passage read where a note was in doubt; checked on the image of p. 447 (notes 12.48-68). For each page the calendar cites (the tree's and b3-bird-2's entries), the notes of the passage: 57 new witnesses (`inbox/witnesses/2026-11-03-b3-bird-3.yaml`), 107 edges (`sources/witnesses/by-work/bird-color-of-truth.yaml`), ten witnesses already registered taking the edge (Forrestal's memorandum of May 11, 1962; the White House statement of Oct. 2, 1963; Bundy to Johnson, Jan. 7 and June 1, 1964, and Jan. 27, 1965; Forrestal to McNaughton, May 1, 1964; the Memorandum for the Record of Sept. 15, 1964 (FRUS XXX, doc. 49); the Kraft interviews of Forrestal; the *Post* of May 15, 1965; the *Times* of Aug. 3, 1966; William Bundy's Vietnam manuscript). A document Bird's text or footnote names without a note (the Riesman-Fromm letter, Raskin's memorandum of July 6, 1961, Bundy's July 24, 1964 report, the April 16, 1965 letter, Bundy's Camp David notes) registered as the text gives it (R38), `open: not found`. Works in the catalogue cited by a note (Kahin, Gardner, Gibbons, Prados, Adams, Taking Charge, Goodwin, Steel, Berman, DiLeo, Moise, Cooper, Manchester, Schlesinger, Clifford, *Robert Kennedy in His Own Words*, the *Bulletin*) are edges to their cards and join the entry's "To check:" with Bird's note; the unread documents join it the same way. FRUS read and cited first: 1964-68, I, docs. 266 (Forrestal, Aug. 3, 1964) and 368 (SNIE 53-2-64), XXX, doc. 49. Edges only, no via (the note does not bear on the entry's units): 259 n.28 (the White House statement, for the CINCPAC message; Check written), 297 n.74a-b, 294 n.65b, 287 n.47c, 275 n.12b-c and 13b, 271 n.2c, 318 n.35, 321 n.46 for all but A, 332 n.74, 344 n.105 and 107b-d, 345 n.109, 348 n.120a, 381 n.20b, 313 n.27b-c. No note found for the passage (no witness): 218 (*The Liberal Papers*), 265 (William Bundy's confirmation), 293 (Biên Hòa; the call after the paragraph is the manuscript's), 296 (note 70 is printed blank: Fulbright's warning of Dec. 4, 1964), 324 (Bosch, Bundy's mission), 334 (William Bundy to the ambassadors), 343 (McCloy's offer, the Sheraton-Carlton breakfast), 357 (the letter of May 1967), 364 (Bundy after the Wise Men), 383 (Ocean Hill), 387 (the fellowships), 347 (cal.1966-03-01.transition-and-staff is not in the tree: the notes 13.116-119 there are the *Post*'s and Lippmann's of Feb. 27-Mar. 2, 1966): a reader with the image may place them.
 
-Dates the notes give that the entries do not (Checks written): William Bundy to Kennedy, Nov. 11, 1960 (182 n.97;
-cal.1960-11.program); the two memoranda on *Meet the Press* and *Newsweek*, both Dec. 2, 1964 (300 n.82); the successor
-memorandum, Feb. 2, 1965 (301 n.1, 348 n.120; cal.1965-01.transition-and-staff-nsc, dated January); Bundy to Lodge
-(258 n.24) against FRUS's telegram 533; Harriman to Kennedy printed "Sept. 1, 1991" (213 n.107).
+Dates the notes give that the entries do not (Checks written): William Bundy to Kennedy, Nov. 11, 1960 (182 n.97; cal.1960-11.program); the two memoranda on *Meet the Press* and *Newsweek*, both Dec. 2, 1964 (300 n.82); the successor memorandum, Feb. 2, 1965 (301 n.1, 348 n.120; cal.1965-01.transition-and-staff-nsc, dated January); Bundy to Lodge (258 n.24) against FRUS's telegram 533; Harriman to Kennedy printed "Sept. 1, 1991" (213 n.107).
 
 ## Passed over
 
@@ -177,18 +131,13 @@ Made from the 440 dated sentences, pp. 140-409; an event the calendar holds took
 
 ## The press (R13)
 
-None: Bird gives no day's coverage. Press entries made: Chalmers Roberts (Nov. 1962), Lippmann (autumn 1961; Feb. 17,
-1965), Kraft in *Harper's* (Dec. 1964), I. F. Stone (Mar. 8, 1965), the *Saturday Review* (July 3, 1965).
+None: Bird gives no day's coverage. Press entries made: Chalmers Roberts (Nov. 1962), Lippmann (autumn 1961; Feb. 17, 1965), Kraft in *Harper's* (Dec. 1964), I. F. Stone (Mar. 8, 1965), the *Saturday Review* (July 3, 1965).
 
 ## Leads
 
 National
-- The Public Broadcasting Laboratory's $10 million (1967), the Bedford-Stuyvesant Corporation's Ford grant (1966), the
-  Southwest Council of La Raza's (1968): the days, from the Ford Foundation's annual reports or the *Times*.
-- Forrestal's Kraft interviews (1964) and Joseph Kraft's papers; Bird's "Harriman/Bird Papers" (the Harriman papers held
-  by Bird), where they went.
+- The Public Broadcasting Laboratory's $10 million (1967), the Bedford-Stuyvesant Corporation's Ford grant (1966), the Southwest Council of La Raza's (1968): the days, from the Ford Foundation's annual reports or the *Times*.
+- Forrestal's Kraft interviews (1964) and Joseph Kraft's papers; Bird's "Harriman/Bird Papers" (the Harriman papers held by Bird), where they went.
 - I. F. Stone's "Reply to the White Paper": *I. F. Stone's Weekly*, Mar. 8, 1965 (the issue to confirm).
-- Kraft and I. F. Stone have no name entries: propose Part III entries (R13).
-Foreign
-- Indonesia, 1965-66 (Bird 351-354): the CIA's assessment of Jan. 3, 1966, and Komer's report to Johnson of Feb. 10,
-  1966 ("some 100,000 Communists have been killed"): to set against the Indonesia thread.
+- Kraft and I. F. Stone have no name entries: propose Part III entries (R13). Foreign
+- Indonesia, 1965-66 (Bird 351-354): the CIA's assessment of Jan. 3, 1966, and Komer's report to Johnson of Feb. 10, 1966 ("some 100,000 Communists have been killed"): to set against the Indonesia thread.

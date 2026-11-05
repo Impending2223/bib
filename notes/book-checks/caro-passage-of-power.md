@@ -1,89 +1,49 @@
 # Caro, *The Passage of Power* (2012): the calendar's citations held up
 
-`w.caro-passage-of-power`. Read from the owner's copy (archive.org's scan, its OCR), Oct. 24-28, 2026; pages are the
-printed folios (the PDF's offset changes at the two plate sections; folios checked against the page images at pp. 476
-and 559). Patch: `inbox/2026-10-24-book-caro-passage.yaml`.
+`w.caro-passage-of-power`. Read from the owner's copy (archive.org's scan, its OCR), Oct. 24-28, 2026; pages are the printed folios (the PDF's offset changes at the two plate sections; folios checked against the page images at pp. 476 and 559). Patch: `inbox/2026-10-24-book-caro-passage.yaml`.
 
-Twenty-four calendar entries cited the book, all behind "To check" or without a pinpoint. Nine hold as written and take
-their pages (Mar. 6, 1961; May 30, Oct. 7, Nov. 22 (succession, Baker), Nov. 27, Dec. 24, 1963; Jan. 8, Jan. 15,
-1964). The rest:
+Twenty-four calendar entries cited the book, all behind "To check" or without a pinpoint. Nine hold as written and take their pages (Mar. 6, 1961; May 30, Oct. 7, Nov. 22 (succession, Baker), Nov. 27, Dec. 24, 1963; Jan. 8, Jan. 15, 1964). The rest:
 
 ## Held in part
 
-- `cal.1960-07-12.elections-1960` (the platform). Caro treats the convention's days (98-108), not the platform; cited
-  with the convention's works, "(the convention; not the platform)".
-- `cal.1960-08-08.congress` (Congress back after the conventions). Caro gives the recess as Johnson's and Rayburn's plan
-  (94) and the session's yield (144); nothing on Eisenhower's message. Cited "(the plan)".
-- `cal.1961-01-03.rules` (the conference lets Johnson preside, 46-17). Caro, 164-69: the vote taken, but no count; the
-  next day's conference Mansfield's. Cited "(no count given)"; the count stands on the entry's other record.
-- `cal.1961-04-25.space` (the Space Council statute; Johnson's memo of Apr. 28). Caro treats the chairmanship and the
-  Council's emptiness (163, 172-73), not the statute or the memo. Cited "(the chairmanship)".
-- `cal.1961-08-19.berlin-and-vienna`. Caro mentions Johnson in Berlin on the weekend of Aug. 18 only in passing (190).
-  Cited "(Johnson in Berlin)".
-- `cal.1963-12-27.succession` (the Ranch news conference, $731 million and 10,000 jobs). Caro describes the Ranch press
-  conferences and an employment order, undated (512-13), and the Joint Chiefs' budget meeting of Dec. 30 (517); not the
-  figures. Cited "(the budget work at the Ranch; not the figures)".
-- `cal.1964-02-10.civil-rights-bill` (House passage). Caro, 558-60: the bill out of Rules and passed Feb. 10; no vote
-  counts. Cited "(the bill to the floor and passed)".
-- `cal.1964-02-26.economy` (the Revenue Act signed). Caro, 552-57, takes the bill through Finance to the Senate's
-  passage, Feb. 7; not the signing. Cited "(the bill through Finance; not the signing)".
+- `cal.1960-07-12.elections-1960` (the platform). Caro treats the convention's days (98-108), not the platform; cited with the convention's works, "(the convention; not the platform)".
+- `cal.1960-08-08.congress` (Congress back after the conventions). Caro gives the recess as Johnson's and Rayburn's plan (94) and the session's yield (144); nothing on Eisenhower's message. Cited "(the plan)".
+- `cal.1961-01-03.rules` (the conference lets Johnson preside, 46-17). Caro, 164-69: the vote taken, but no count; the next day's conference Mansfield's. Cited "(no count given)"; the count stands on the entry's other record.
+- `cal.1961-04-25.space` (the Space Council statute; Johnson's memo of Apr. 28). Caro treats the chairmanship and the Council's emptiness (163, 172-73), not the statute or the memo. Cited "(the chairmanship)".
+- `cal.1961-08-19.berlin-and-vienna`. Caro mentions Johnson in Berlin on the weekend of Aug. 18 only in passing (190). Cited "(Johnson in Berlin)".
+- `cal.1963-12-27.succession` (the Ranch news conference, $731 million and 10,000 jobs). Caro describes the Ranch press conferences and an employment order, undated (512-13), and the Joint Chiefs' budget meeting of Dec. 30 (517); not the figures. Cited "(the budget work at the Ranch; not the figures)".
+- `cal.1964-02-10.civil-rights-bill` (House passage). Caro, 558-60: the bill out of Rules and passed Feb. 10; no vote counts. Cited "(the bill to the floor and passed)".
+- `cal.1964-02-26.economy` (the Revenue Act signed). Caro, 552-57, takes the bill through Finance to the Senate's passage, Feb. 7; not the signing. Cited "(the bill through Finance; not the signing)".
 
 ## Disagreements
 
-- `cal.1960-07-14.elections-1960`: "nominated by acclamation that night, the rules suspended over shouts from the
-  galleries." Caro (143): the voice vote in the hall about evenly divided, Rayburn calling "Say 'aye'!", Collins ruling
-  the rules suspended; nothing of the galleries. Caro also puts that night's session in the Coliseum (141-43); the
-  calendar puts the acceptances there on July 15. Ruling: a Check added; the entry not rewritten.
-- `cal.1960-10-10.elections-1960`: "Oct. 10-13". Caro: "mid-October", five days, eight Southern States (145, 148).
-  The entry already carried "Check the dates"; Caro's figure added to it.
-- `cal.1963-11-26.trade`: the Senate tables Mundt's bill 57-35. Caro gives "57 to 36" (425). Voteview (RS0880203),
-  linked in the entry, settles it: 57-35 stands; no change.
-- `cal.1963-12-07.economy`: "The tax bill to take effect Jan. 1 whenever passed; Byrd agrees, at lunch." Caro (475-77):
-  the lunch was Dec. 5; Byrd held to his terms (the budget under $100 billion, in writing, seen by him and Williams)
-  and agreed only that the bill might then come out; Valenti's accounts make it a commitment. Caro does not give the
-  Jan. 1 date. The news conference (1963-64 Pub. Papers 34) is the record for what Johnson said of Byrd; a Check added
-  with Caro's account. The lunch is now an entry of its own (`cal.1963-12-05.economy`).
-- `cal.1963-11-12.elections-1964` (Schlesinger's Nov. 12): Caro dates the first planning meeting for 1964 Nov. 13 (295,
-  539). A Check added.
-- `cal.1963-11-25.assassination-2` (new): the Miller Center and PRDE catalogue Johnson's calls to Hoover and Alsop on
-  Nov. 25, 10:30 and 10:40 a.m.; Caro puts Fortas's advice "on the evening of November 25" and the calls after it
-  (441-42). A Check in the entry.
+- `cal.1960-07-14.elections-1960`: "nominated by acclamation that night, the rules suspended over shouts from the galleries." Caro (143): the voice vote in the hall about evenly divided, Rayburn calling "Say 'aye'!", Collins ruling the rules suspended; nothing of the galleries. Caro also puts that night's session in the Coliseum (141-43); the calendar puts the acceptances there on July 15. Ruling: a Check added; the entry not rewritten.
+- `cal.1960-10-10.elections-1960`: "Oct. 10-13". Caro: "mid-October", five days, eight Southern States (145, 148). The entry already carried "Check the dates"; Caro's figure added to it.
+- `cal.1963-11-26.trade`: the Senate tables Mundt's bill 57-35. Caro gives "57 to 36" (425). Voteview (RS0880203), linked in the entry, settles it: 57-35 stands; no change.
+- `cal.1963-12-07.economy`: "The tax bill to take effect Jan. 1 whenever passed; Byrd agrees, at lunch." Caro (475-77): the lunch was Dec. 5; Byrd held to his terms (the budget under $100 billion, in writing, seen by him and Williams) and agreed only that the bill might then come out; Valenti's accounts make it a commitment. Caro does not give the Jan. 1 date. The news conference (1963-64 Pub. Papers 34) is the record for what Johnson said of Byrd; a Check added with Caro's account. The lunch is now an entry of its own (`cal.1963-12-05.economy`).
+- `cal.1963-11-12.elections-1964` (Schlesinger's Nov. 12): Caro dates the first planning meeting for 1964 Nov. 13 (295, 539). A Check added.
+- `cal.1963-11-25.assassination-2` (new): the Miller Center and PRDE catalogue Johnson's calls to Hoover and Alsop on Nov. 25, 10:30 and 10:40 a.m.; Caro puts Fortas's advice "on the evening of November 25" and the calls after it (441-42). A Check in the entry.
 - `cal.1963-11-25.trade` (new): the catalogue's time for the call to O'Brien is 4:04 p.m.; Caro gives 4:40 (414).
 
 ## Not treated
 
 - `cal.1961-05-09.vietnam` (the Asian trip): the book never mentions it. Card dropped from the note.
 - `cal.1963-01-14.rules` (the cloture fight of 1963): not treated. Dropped.
-- `cal.1964-01-23.baker` (Johnson's news conference on the insurance): not treated (Reynolds's return to Williams is
-  mentioned, 604). Dropped.
+- `cal.1964-01-23.baker` (Johnson's news conference on the insurance): not treated (Reynolds's return to Williams is mentioned, 604). Dropped.
 
 ## Also noted
 
-- Caro, 76, gives the cloture vote of Mar. 10, 1960 as "55-42 against"; the calendar (`cal.1960-03-08.voting-rights`)
-  has Voteview's 42-53. Voteview stands; the book is cited on `cal.1960-02-15.voting-rights` for the bill's course.
-- Caro, 263: a meeting of the equal employment committee before July 18, 1963, at which Robert Kennedy questioned
-  Hobart Taylor, is undated in the text; not tied to `cal.1963-05-29.civil-rights-the-executive`.
+- Caro, 76, gives the cloture vote of Mar. 10, 1960 as "55-42 against"; the calendar (`cal.1960-03-08.voting-rights`) has Voteview's 42-53. Voteview stands; the book is cited on `cal.1960-02-15.voting-rights` for the bill's course.
+- Caro, 263: a meeting of the equal employment committee before July 18, 1963, at which Robert Kennedy questioned Hobart Taylor, is undated in the text; not tied to `cal.1963-05-29.civil-rights-the-executive`.
 
 
 ## Backfill, Oct. 29, 2026: the maps, the records, what the book passes over
 
-Stage 5 of the second pass (brief-backfill.md), read from the owner's copy (Drive, the same file id), by the printed
-page. Patch: `inbox/2026-10-29-backfill-caro-dallek.yaml`; records: `sources/cited-records/caro-passage-of-power.yaml`.
+Stage 5 of the second pass (brief-backfill.md), read from the owner's copy (Drive, the same file id), by the printed page. Patch: `inbox/2026-10-29-backfill-caro-dallek.yaml`; records: `sources/cited-records/caro-passage-of-power.yaml`.
 
 ### Rereads and maps
 
-Every calendar entry citing the book by page (87) was reread against its units and given its map (`src`): Caro's
-rows by page and letter, other runs' rows kept, the primary records' rows where read. Four entries already mapped by a
-reader were left as they stood (`cal.1961-08-19.berlin-and-vienna`, `cal.1963-11-24.vietnam`, `cal.1963-12-21.vietnam`,
-`cal.1964-01-16.vietnam`). Two take no map: on `cal.1964-02-26.economy` Caro grounds no unit of the entry, and on
-`cal.1960-07-12.elections-1960` a merge had attached Caro's "98–108 (the convention; not the platform)" to
-Schlesinger's citation; the pages are given back to Caro ("[[w.caro-passage-of-power]], 98–108 (the convention; not
-the platform)") and Caro taken out of "To check"; no map written, the entry's other sources unread here.
-Three entries had a "Check" inside `c` (`cal.1963-11-22.baker`, `cal.1963-11-26.trade`,
-`cal.1964-01-30.civil-rights-bill`); it is moved to the note. On `cal.1963-12-25.press` Caro's note settles "which
-call Caro quotes": the 1:55 p.m. call to Valenti. On `cal.1963-12-03.civil-rights-bill` Caro dates Johnson's call to
-Albert on the whips' count 3:00 p.m. (PRDE only), not the 5:56 p.m. call the entry gives; both cited. Columns: the
-entry; Caro's rows (page: units); the records tied by `via` rows; the ruling.
+Every calendar entry citing the book by page (87) was reread against its units and given its map (`src`): Caro's rows by page and letter, other runs' rows kept, the primary records' rows where read. Four entries already mapped by a reader were left as they stood (`cal.1961-08-19.berlin-and-vienna`, `cal.1963-11-24.vietnam`, `cal.1963-12-21.vietnam`, `cal.1964-01-16.vietnam`). Two take no map: on `cal.1964-02-26.economy` Caro grounds no unit of the entry, and on `cal.1960-07-12.elections-1960` a merge had attached Caro's "98–108 (the convention; not the platform)" to Schlesinger's citation; the pages are given back to Caro ("[[w.caro-passage-of-power]], 98–108 (the convention; not the platform)") and Caro taken out of "To check"; no map written, the entry's other sources unread here. Three entries had a "Check" inside `c` (`cal.1963-11-22.baker`, `cal.1963-11-26.trade`, `cal.1964-01-30.civil-rights-bill`); it is moved to the note. On `cal.1963-12-25.press` Caro's note settles "which call Caro quotes": the 1:55 p.m. call to Valenti. On `cal.1963-12-03.civil-rights-bill` Caro dates Johnson's call to Albert on the whips' count 3:00 p.m. (PRDE only), not the 5:56 p.m. call the entry gives; both cited. Columns: the entry; Caro's rows (page: units); the records tied by `via` rows; the ruling.
 
 | Entry | Map (page: units) | `via` | Ruling |
 |---|---|---|---|
@@ -177,37 +137,15 @@ entry; Caro's rows (page: units); the records tied by `via` rows; the ruling.
 
 ### Records (rule A)
 
-Caro's notes are unnumbered, keyed by page and catchphrase. Each record is keyed by the text page it serves and a slug
-of the catchphrase (`kennedy-paid-a-call`, lettered `.a`, `.b` where one catchphrase gives several records); the file's
-header says so. 121 records: found 24 (the Miller Center's and PRDE's copies of the recordings Caro cites from *The
-Presidential Recordings*, FRUS for the ExComm's), none of them heard (millercenter.org fails TLS here; the recordings
-are cited "not heard here" in the entries' "To check"); not found 97 (the LBJ Library's files: the Diary Backup, the
-Office Files of the aides, the Senate papers; the oral histories; the newspapers Caro cites, 41 of them, logged as
-press). Caro's own interviews are logged and kept out of "To check".
+Caro's notes are unnumbered, keyed by page and catchphrase. Each record is keyed by the text page it serves and a slug of the catchphrase (`kennedy-paid-a-call`, lettered `.a`, `.b` where one catchphrase gives several records); the file's header says so. 121 records: found 24 (the Miller Center's and PRDE's copies of the recordings Caro cites from *The Presidential Recordings*, FRUS for the ExComm's), none of them heard (millercenter.org fails TLS here; the recordings are cited "not heard here" in the entries' "To check"); not found 97 (the LBJ Library's files: the Diary Backup, the Office Files of the aides, the Senate papers; the oral histories; the newspapers Caro cites, 41 of them, logged as press). Caro's own interviews are logged and kept out of "To check".
 
 ### New entries
 
-Fifteen: the informal record Caro dates to the day, and the members' word (the owner's rule of Oct. 29):
-`cal.1960-10-18.elections-1960` (Johnson to Connally), `cal.1961-01-24.congress` (the first leaders' breakfast),
-`cal.1962-10-21.missile-crisis` (McCone briefs Johnson), `cal.1963-03-11.civil-rights-the-executive` (St. Augustine),
-`cal.1963-10-04.baker` (Mansfield), `cal.1963-10-15.economy` (Finance's hearings), `cal.1963-11-15.baker` (Young and
-Burdick), `cal.1963-11-21.trade` (the leaders' breakfast on Mundt's bill), `cal.1963-11-21.congress` (Clark's
-motion), `cal.1963-12-30.defense` (the Chiefs at the ranch), `cal.1964-03-08.civil-rights-bill` (Humphrey on *Meet
-the Press*), `cal.1964-04-29.civil-rights-bill` (Dirksen at the White House), `cal.1964-05-13.republican-party-congress`
-(the call to Dirksen), `cal.1964-05-13.civil-rights-bill` (Gruening to Humphrey), `cal.1964-05-20.civil-rights-bill`
-(Dirksen's "idea whose time has come," by Caro's date).
+Fifteen: the informal record Caro dates to the day, and the members' word (the owner's rule of Oct. 29): `cal.1960-10-18.elections-1960` (Johnson to Connally), `cal.1961-01-24.congress` (the first leaders' breakfast), `cal.1962-10-21.missile-crisis` (McCone briefs Johnson), `cal.1963-03-11.civil-rights-the-executive` (St. Augustine), `cal.1963-10-04.baker` (Mansfield), `cal.1963-10-15.economy` (Finance's hearings), `cal.1963-11-15.baker` (Young and Burdick), `cal.1963-11-21.trade` (the leaders' breakfast on Mundt's bill), `cal.1963-11-21.congress` (Clark's motion), `cal.1963-12-30.defense` (the Chiefs at the ranch), `cal.1964-03-08.civil-rights-bill` (Humphrey on *Meet the Press*), `cal.1964-04-29.civil-rights-bill` (Dirksen at the White House), `cal.1964-05-13.republican-party-congress` (the call to Dirksen), `cal.1964-05-13.civil-rights-bill` (Gruening to Humphrey), `cal.1964-05-20.civil-rights-bill` (Dirksen's "idea whose time has come," by Caro's date).
 
 ### Passed over
 
-How the list was made: a script over the text layer (pp. 1–628) listed every mention of a month and day, 286 in all,
-with its page, an inferred year and the calendar's entries of that month and day in every year; those on a page an
-entry already cites for that day (74) were set aside; the remaining 201 (page, date) pairs were read in context, their
-years put right by hand (the inferred year runs wrong across the book's returns to 1960 and its notes), and judged
-against the calendar. Classes passed over without a row: births and dates outside the span; dates named only as
-deadlines (the budget's calendar, fiscal years, the convention's opening as a target); the dates of the records
-themselves (the Secret Service reports, the files' spans). Months alone were not listed. "Minor" is used only as the
-owner's rule of Oct. 29 allows; "below the calendar's level" marks staff memoranda and the like; "not an entry (a
-column)" a column that carried no act.
+How the list was made: a script over the text layer (pp. 1–628) listed every mention of a month and day, 286 in all, with its page, an inferred year and the calendar's entries of that month and day in every year; those on a page an entry already cites for that day (74) were set aside; the remaining 201 (page, date) pairs were read in context, their years put right by hand (the inferred year runs wrong across the book's returns to 1960 and its notes), and judged against the calendar. Classes passed over without a row: births and dates outside the span; dates named only as deadlines (the budget's calendar, fiscal years, the convention's opening as a target); the dates of the records themselves (the Secret Service reports, the files' spans). Months alone were not listed. "Minor" is used only as the owner's rule of Oct. 29 allows; "below the calendar's level" marks staff memoranda and the like; "not an entry (a column)" a column that carried no act.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -316,14 +254,9 @@ column)" a column that carried no act.
 ### Leads
 
 National:
-- Evelyn Lincoln's diary (her *Kennedy and Johnson*, 1968, has no card): Kennedy on the ticket of 1964, Nov. 14 and
-  about Nov. 20, 1963 (Caro 295; Dallek 43), disputed.
-- Johnson's two calls with McCormack of Nov. 29, 1963 (12:04 and 4:55 p.m.) and with Bundy of Mar. 2, 1964 (12:35,
-  5:20, 5:22 p.m.): Caro quotes one of each without the hour.
-- Reynolds's account of the $109,000 from McCloskey, Oct. 17, 1960, and the photostat Williams obtained; *Life*'s
-  unpublished story on Johnson's money (November 1963; Sackett, Lambert).
-- Kennedy's last news conference (Nov. 14, 1963) and statement on the tax bill (Nov. 16); Johnson's news conferences
-  of Jan. 25 and Mar. 7, 1964: the Public Papers.
-- The agreement on Dirksen's amendments, May 12–13, 1964, and the Republican conference of May 19–20; the Leadership
-  Conference's prayer services and the Interreligious Convocation of Apr. 28, 1964.
+- Evelyn Lincoln's diary (her *Kennedy and Johnson*, 1968, has no card): Kennedy on the ticket of 1964, Nov. 14 and about Nov. 20, 1963 (Caro 295; Dallek 43), disputed.
+- Johnson's two calls with McCormack of Nov. 29, 1963 (12:04 and 4:55 p.m.) and with Bundy of Mar. 2, 1964 (12:35, 5:20, 5:22 p.m.): Caro quotes one of each without the hour.
+- Reynolds's account of the $109,000 from McCloskey, Oct. 17, 1960, and the photostat Williams obtained; *Life*'s unpublished story on Johnson's money (November 1963; Sackett, Lambert).
+- Kennedy's last news conference (Nov. 14, 1963) and statement on the tax bill (Nov. 16); Johnson's news conferences of Jan. 25 and Mar. 7, 1964: the Public Papers.
+- The agreement on Dirksen's amendments, May 12–13, 1964, and the Republican conference of May 19–20; the Leadership Conference's prayer services and the Interreligious Convocation of Apr. 28, 1964.
 - Montana's Democratic convention, June 27, 1960, and its delegation (Caro 91, 96).

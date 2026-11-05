@@ -1,12 +1,6 @@
 # Barrett, *Uncertain Warriors* (1993): the calendar's citations held up, and the book against the calendar
 
-Card `w.barrett-uncertain-warriors`. Read Oct. 28–29, 2026, from the owner's copy (Drive, the file id in the brief), its
-text layer read with pdftotext; cited by the printed page. Offset: printed page = PDF page − 15, constant through the
-notes (pp. 197–260); checked on the page images at PDF 100 (p. 85), 130 (p. 115) and 250 (p. 235), and by the running
-folios of the text layer. Patch: `inbox/2026-10-29-book-logevall-barrett.yaml` (with Logevall); records:
-`sources/cited-records/barrett-uncertain-warriors.yaml` (15 records). The book's chapters are 1965 (13–61), 1967 (62–108)
-and 1968 (109–59), on the advisers in and out of government, Congress among them; chapters 5–6 and the afterword are
-argument.
+Card `w.barrett-uncertain-warriors`. Read Oct. 28–29, 2026, from the owner's copy (Drive, the file id in the brief), its text layer read with pdftotext; cited by the printed page. Offset: printed page = PDF page − 15, constant through the notes (pp. 197–260); checked on the page images at PDF 100 (p. 85), 130 (p. 115) and 250 (p. 235), and by the running folios of the text layer. Patch: `inbox/2026-10-29-book-logevall-barrett.yaml` (with Logevall); records: `sources/cited-records/barrett-uncertain-warriors.yaml` (15 records). The book's chapters are 1965 (13–61), 1967 (62–108) and 1968 (109–59), on the advisers in and out of government, Congress among them; chapters 5–6 and the afterword are argument.
 
 The calendar cited the book six times, none by page. Three now cite it by page, each in part; three dropped.
 
@@ -36,31 +30,15 @@ The calendar cited the book six times, none by page. Three now cite it by page, 
 
 ## New entries (7), and two of Longley's entries added to
 
-Read first in the primary record where the series holds it: FRUS 1964–68, II, doc. 307 (Clifford, May 17, 1965); III,
-docs. 7 and 11 (Ball's memorandum of June 18, 1965, and Moyers's report of Johnson's answer, June 21); V, doc. 96
-(Johnson and Russell, Mar. 2, 1967); VI, doc. 35 (the Democratic leaders, Jan. 30, 1968). Clifford's "quagmire" letter
-(`cal.1965-05-17.vietnam`); Ball's "Keeping the Power of Decision" and Johnson's "I don't think I should go over
-100,000" (`vietnam-july-decision`, June 18 and 21); Johnson and Eisenhower, July 2, 1965; Ford and Eisenhower, Aug. 24,
-1965 (`republican-party-congress`); Johnson asks Russell to answer Robert Kennedy, Mar. 2, 1967; Johnson with the
-Democratic leaders, Long's "soft," Jan. 30, 1968 (`cal.1968-01-30.vietnam-congress`).
+Read first in the primary record where the series holds it: FRUS 1964–68, II, doc. 307 (Clifford, May 17, 1965); III, docs. 7 and 11 (Ball's memorandum of June 18, 1965, and Moyers's report of Johnson's answer, June 21); V, doc. 96 (Johnson and Russell, Mar. 2, 1967); VI, doc. 35 (the Democratic leaders, Jan. 30, 1968). Clifford's "quagmire" letter (`cal.1965-05-17.vietnam`); Ball's "Keeping the Power of Decision" and Johnson's "I don't think I should go over 100,000" (`vietnam-july-decision`, June 18 and 21); Johnson and Eisenhower, July 2, 1965; Ford and Eisenhower, Aug. 24, 1965 (`republican-party-congress`); Johnson asks Russell to answer Robert Kennedy, Mar. 2, 1967; Johnson with the Democratic leaders, Long's "soft," Jan. 30, 1968 (`cal.1968-01-30.vietnam-congress`).
 
-Rebuilt Oct. 29 after the Longley merge (commit c864629): two events first drafted as new entries were entered by the
-Longley reading, and Barrett's page and sentences are appended to Longley's entries instead, the units keeping their
-letters: `cal.1968-01-30.republican-party-congress` (Dirksen and Ford: the hours, 6:04 to 7:55 p.m., the messages from
-the embassy read out; also Vietnam: Tet) and `cal.1968-02-06.vietnam-tet` (the leaders' breakfast: Russell Long on the
-*Pueblo*, Byrd's words by Tom Johnson's notes, Johnson on the "mismanagement"). The accounts agree; no Check added.
+Rebuilt Oct. 29 after the Longley merge (commit c864629): two events first drafted as new entries were entered by the Longley reading, and Barrett's page and sentences are appended to Longley's entries instead, the units keeping their letters: `cal.1968-01-30.republican-party-congress` (Dirksen and Ford: the hours, 6:04 to 7:55 p.m., the messages from the embassy read out; also Vietnam: Tet) and `cal.1968-02-06.vietnam-tet` (the leaders' breakfast: Russell Long on the *Pueblo*, Byrd's words by Tom Johnson's notes, Johnson on the "mismanagement"). The accounts agree; no Check added.
 
-The book's 1967–68 meetings with members are almost all in the calendar already (Gibbons, IV; the FRUS volumes); they
-are listed below as "already in". Barrett's pages were not added to those entries: the reading cites a page only where
-it is the entry's source or adds to it.
+The book's 1967–68 meetings with members are almost all in the calendar already (Gibbons, IV; the FRUS volumes); they are listed below as "already in". Barrett's pages were not added to those entries: the reading cites a page only where it is the entry's source or adds to it.
 
 ## Passed over
 
-How the list was made: the book read through in twelve-page passages, pp. 1–196, and the notes, pp. 197–260, every dated
-event noted with its page and note; each looked for in the calendar on its day (all threads) and, where in, named by
-its id. Not listed: the Kennedy years and the Nixon years, which the book names only for comparison; the scholarly
-argument of chs. 5–6. "Below the calendar's level": staff memoranda and an aide's notes that set nothing; "a lead": a
-dated event whose record was not read or whose content the book does not give; the leads are in `notes/leads.md`.
+How the list was made: the book read through in twelve-page passages, pp. 1–196, and the notes, pp. 197–260, every dated event noted with its page and note; each looked for in the calendar on its day (all threads) and, where in, named by its id. Not listed: the Kennedy years and the Nixon years, which the book names only for comparison; the scholarly argument of chs. 5–6. "Below the calendar's level": staff memoranda and an aide's notes that set nothing; "a lead": a dated event whose record was not read or whose content the book does not give; the leads are in `notes/leads.md`.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -153,7 +131,4 @@ dated event whose record was not read or whose content the book does not give; t
 
 ## Leads
 
-Written into `notes/leads.md`: Brooke's letter to Johnson, May 19, 1967 (87 n.85); Mansfield's letter of May 29, 1967,
-for a bombing halt and a barrier (92 n.114); Fulbright to Johnson, June 30, 1967 (94 n.120); Vance's cable to McNamara,
-July 17, 1965 (43 n.107); Fulbright on the Senate floor, Apr. 1, 1968 (the Record, Apr. 2, 8569); Acheson with Johnson,
-the night of Feb. 28, 1968.
+Written into `notes/leads.md`: Brooke's letter to Johnson, May 19, 1967 (87 n.85); Mansfield's letter of May 29, 1967, for a bombing halt and a barrier (92 n.114); Fulbright to Johnson, June 30, 1967 (94 n.120); Vance's cable to McNamara, July 17, 1965 (43 n.107); Fulbright on the Senate floor, Apr. 1, 1968 (the Record, Apr. 2, 8569); Acheson with Johnson, the night of Feb. 28, 1968.

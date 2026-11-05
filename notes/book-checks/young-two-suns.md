@@ -1,27 +1,14 @@
 # Nancy Beck Young, *Two Suns of the Southwest* (2019): a first reading, pp. 1–151
 
-Card `w.young-two-suns-of-the` (made for this reading, Oct. 28, 2026; title and year from the copyright page's
-cataloging data: University Press of Kansas, 2019, the American Presidential Elections series). Patch:
-`inbox/2026-10-29-republicans-young.yaml` (republicans-young).
+Card `w.young-two-suns-of-the` (made for this reading, Oct. 28, 2026; title and year from the copyright page's cataloging data: University Press of Kansas, 2019, the American Presidential Elections series). Patch: `inbox/2026-10-29-republicans-young.yaml` (republicans-young).
 
 ## The copy, and how far it was read
 
-The owner's copy in Drive (file 1kHiV9VyIYNv836xZHo8ZmDd4bDSaVp3H, 20 MB, Internet Archive's scan with its OCR). The
-file is not link-shared, so it was read through the Drive connector's `read_file_content`, which returned the text of
-the first 170 PDF pages only (410,000 characters) and stops there. **Read: printed pp. 1–151** (the Introduction;
-chapters 1–5; chapter 6, "Backlash, Frontlash, Smearlash," to the top of p. 152). **Not read:** the rest of chapter
-6 (152–170), chapter 7, "'Government Is Not an Enemy of the People'" (171–199), the Conclusion (200–208), the
-appendices of returns and the inaugural address (209–224), the notes (225–256), the bibliographic essay and the index.
-Nothing past p. 151 is cited. The file's sharing was not touched.
+The owner's copy in Drive (file 1kHiV9VyIYNv836xZHo8ZmDd4bDSaVp3H, 20 MB, Internet Archive's scan with its OCR). The file is not link-shared, so it was read through the Drive connector's `read_file_content`, which returned the text of the first 170 PDF pages only (410,000 characters) and stops there. **Read: printed pp. 1–151** (the Introduction; chapters 1–5; chapter 6, "Backlash, Frontlash, Smearlash," to the top of p. 152). **Not read:** the rest of chapter 6 (152–170), chapter 7, "'Government Is Not an Enemy of the People'" (171–199), the Conclusion (200–208), the appendices of returns and the inaugural address (209–224), the notes (225–256), the bibliographic essay and the index. Nothing past p. 151 is cited. The file's sharing was not touched.
 
-Pages: the connector's text marks each PDF page ("Page N"); the OCR keeps the folios at the foot of the odd pages
-(and the running heads). Printed page = PDF page − 18 throughout, read at 43 folios from p. 3 (PDF 21) to p. 151 (PDF
-169), the chapter openings agreeing with the contents (13, 30, 50, 80, 110, 142). No page image could be seen (the
-connector gives text, the download is refused over 10 MB), so the pinpoints rest on those folios; a page break
-falling mid-sentence was read from the text on both sides.
+Pages: the connector's text marks each PDF page ("Page N"); the OCR keeps the folios at the foot of the odd pages (and the running heads). Printed page = PDF page − 18 throughout, read at 43 folios from p. 3 (PDF 21) to p. 151 (PDF 169), the chapter openings agreeing with the contents (13, 30, 50, 80, 110, 142). No page image could be seen (the connector gives text, the download is refused over 10 MB), so the pinpoints rest on those folios; a page break falling mid-sentence was read from the text on both sides.
 
-The notes were not reached, so no record the book cites could be logged: no `sources/cited-records/` file, no `via`
-rows. The claim maps name the book at its pages only.
+The notes were not reached, so no record the book cites could be logged: no `sources/cited-records/` file, no `via` rows. The claim maps name the book at its pages only.
 
 ## Citations held up
 
@@ -29,76 +16,36 @@ None: the book had no card and the calendar did not cite it.
 
 ## Where the book and the calendar differ (each a Check in the entry's note, the entry left as it was)
 
-- `cal.1960-07-26.elections-1960`. The entry quotes Goldwater's withdrawal "Let's grow up, conservatives, if we want to
-  take this party back." Young, 28: "Let's get to work if we want to take this party back—and I think we can." The
-  Proceedings settle it. Check added.
-- `cal.1961-10-08.goldwater`. The entry: Oct. 8, "some two dozen ... most from the Young Republicans." Young, 57: Oct.
-  3, 1961, twenty-two, "mainly business figures and a smattering of politicians." Perlstein, 178, has twenty-two
-  present. Check added; the day unsettled.
-- `cal.1963-02.goldwater`. The entry: February, after Feb. 5, "Check the date." Young, 64: the National Draft Goldwater
-  Committee formed Feb. 17, 1963, and the resolve to "draft the son of a bitch." Check added (the date not changed:
-  Young's alone).
-- `cal.1963-07-04.elections-1964`. The entry: police count over 7,000. Young, 65: almost 9,000; forty-three buses from
-  New York. Check added.
-- `cal.1963-11-12.elections-1964`. The entry lists the meeting without Kennedy. Young, 42–43, puts Kennedy at the
-  strategy discussions of that fall (Scammon's advice to "Kennedy and his political team"; Kennedy and his advisers on
-  the platform in November). Check added (Caro gives Nov. 13).
-- `cal.1964-04-07.elections-1964`. The entry: Wallace 266,136 (CQ). Young, 117, quotes Wallace's own claim of 264,000.
-  Check added; the official count stands.
-- `cal.1964-05-05.elections-1964`. The entry gives Welsh in Indiana, no share. Young, 118: Wallace 30 percent. Check
-  added (the count).
-- `cal.1964-05-14.elections-1964`. The entry: Mrs. Johnson's memorandum of May 14 (Johnson, *Vantage Point*, 93–94).
-  Young, 136–37, puts the exchange "in January" and quotes her advice to announce "in Feb. or Mar. 1968" that he would
-  not run again. Check added.
-- `cal.1964-06-12.elections-1964`. Young, 95–96: the decision June 11, the letter to Goldwater the next day, the
-  announcement at the Maryland convention; then "He told a national television audience on June 28 that" the party
-  faced catastrophe, and Rockefeller endorsed him "four days after Scranton announced ... on June 15." The book
-  contradicts itself; the entry's June 12 and June 15 agree with "four days." Check added.
-- `cal.1964-07-19.elections-1964`. The entry: four days after the nomination. Young, 99: three days. Check added
-  (July 15 to July 19 is four).
+- `cal.1960-07-26.elections-1960`. The entry quotes Goldwater's withdrawal "Let's grow up, conservatives, if we want to take this party back." Young, 28: "Let's get to work if we want to take this party back—and I think we can." The Proceedings settle it. Check added.
+- `cal.1961-10-08.goldwater`. The entry: Oct. 8, "some two dozen ... most from the Young Republicans." Young, 57: Oct. 3, 1961, twenty-two, "mainly business figures and a smattering of politicians." Perlstein, 178, has twenty-two present. Check added; the day unsettled.
+- `cal.1963-02.goldwater`. The entry: February, after Feb. 5, "Check the date." Young, 64: the National Draft Goldwater Committee formed Feb. 17, 1963, and the resolve to "draft the son of a bitch." Check added (the date not changed: Young's alone).
+- `cal.1963-07-04.elections-1964`. The entry: police count over 7,000. Young, 65: almost 9,000; forty-three buses from New York. Check added.
+- `cal.1963-11-12.elections-1964`. The entry lists the meeting without Kennedy. Young, 42–43, puts Kennedy at the strategy discussions of that fall (Scammon's advice to "Kennedy and his political team"; Kennedy and his advisers on the platform in November). Check added (Caro gives Nov. 13).
+- `cal.1964-04-07.elections-1964`. The entry: Wallace 266,136 (CQ). Young, 117, quotes Wallace's own claim of 264,000. Check added; the official count stands.
+- `cal.1964-05-05.elections-1964`. The entry gives Welsh in Indiana, no share. Young, 118: Wallace 30 percent. Check added (the count).
+- `cal.1964-05-14.elections-1964`. The entry: Mrs. Johnson's memorandum of May 14 (Johnson, *Vantage Point*, 93–94). Young, 136–37, puts the exchange "in January" and quotes her advice to announce "in Feb. or Mar. 1968" that he would not run again. Check added.
+- `cal.1964-06-12.elections-1964`. Young, 95–96: the decision June 11, the letter to Goldwater the next day, the announcement at the Maryland convention; then "He told a national television audience on June 28 that" the party faced catastrophe, and Rockefeller endorsed him "four days after Scranton announced ... on June 15." The book contradicts itself; the entry's June 12 and June 15 agree with "four days." Check added.
+- `cal.1964-07-19.elections-1964`. The entry: four days after the nomination. Young, 99: three days. Check added (July 15 to July 19 is four).
 - `cal.1964-08-26.elections-1964`. Young, 139: Humphrey nominated by acclamation at 12:24 a.m., Aug. 27. Check added.
 
 In entries from Perlstein's reading (merged after this reading began), each a Check, Young cited at its page:
 
-- `cal.1963-06-25.republican-party` (the Young Republicans' convention, San Francisco, June 25–29, 1963). Young, 67,
-  puts it in August 1963 (Goldwater's "rigor mortis," a Goldwater man elected). Check added.
+- `cal.1963-06-25.republican-party` (the Young Republicans' convention, San Francisco, June 25–29, 1963). Young, 67, puts it in August 1963 (Goldwater's "rigor mortis," a Goldwater man elected). Check added.
 - `cal.1963-03.goldwater` (Kitchel brought to Washington, March). Young, 69: August 1963. Check added.
 - `cal.1964-05-25.elections-1964` (Eisenhower's statement in the *Herald Tribune*). Young, 88: May 24. Check added.
-- `cal.1964-07-10.elections-1964` (the civil rights march in San Francisco, Friday, July 10). Young, 97: over 40,000
-  on Market Street "on the eve of the Republican National Convention." Check added.
-- `cal.1964-06-07.elections-1964` (Scranton on *Face the Nation* after Eisenhower drew back). Young, 95: *Meet the
-  Press*. Check added.
-- `cal.1963-06.republican-party` (the national committee at Denver, June 1963). Young, 64, adds the luncheon's racist
-  talk, "the White Man's Party." Cited.
+- `cal.1964-07-10.elections-1964` (the civil rights march in San Francisco, Friday, July 10). Young, 97: over 40,000 on Market Street "on the eve of the Republican National Convention." Check added.
+- `cal.1964-06-07.elections-1964` (Scranton on *Face the Nation* after Eisenhower drew back). Young, 95: *Meet the Press*. Check added.
+- `cal.1963-06.republican-party` (the national committee at Denver, June 1963). Young, 64, adds the luncheon's racist talk, "the White Man's Party." Cited.
 
 ## Entries citing the book (42: the 36 below and the six above)
 
-Its pages, with a parenthetical where it bears out part: June 8, 1960 (27, undated); July 5, 1960 (34); July 22, 1960
-(27); July 26–27, 1960 (27–28); Oct. 8, 1961 (57); Nov. 18, 1961 (56); Dec. 2, 1962 (64); Feb. 1963 (64); June 5,
-1963 (44); July 4, 1963 (65); July 14, 1963 (66); Nov. 12, 1963 (42–43); Nov. 27, 1963 (110–12); Jan. 3, 1964 (70);
-Jan. 7, 1964 (75); Mar. 10, 1964 (77); Apr. 7 (117); May 5 (117–18); May 14 (136–37); May 15 (85); May 19 (118–19);
-June 2 (91); June 12 (95–96); July 12, twice (98–99, 102); July 14 (103); July 15–16 (104–6); July 19 (99); July 24
-(122–23); July 29 (126–27); July 31 (127); Aug. 22 (130–33); Aug. 25, twice (135–36, 137); Aug. 26 (139); Aug. 27
-(139–40). Sixteen of these were also edited by Perlstein's reading, since merged; this patch builds on the tree as it
-now stands.
+Its pages, with a parenthetical where it bears out part: June 8, 1960 (27, undated); July 5, 1960 (34); July 22, 1960 (27); July 26–27, 1960 (27–28); Oct. 8, 1961 (57); Nov. 18, 1961 (56); Dec. 2, 1962 (64); Feb. 1963 (64); June 5, 1963 (44); July 4, 1963 (65); July 14, 1963 (66); Nov. 12, 1963 (42–43); Nov. 27, 1963 (110–12); Jan. 3, 1964 (70); Jan. 7, 1964 (75); Mar. 10, 1964 (77); Apr. 7 (117); May 5 (117–18); May 14 (136–37); May 15 (85); May 19 (118–19); June 2 (91); June 12 (95–96); July 12, twice (98–99, 102); July 14 (103); July 15–16 (104–6); July 19 (99); July 24 (122–23); July 29 (126–27); July 31 (127); Aug. 22 (130–33); Aug. 25, twice (135–36, 137); Aug. 26 (139); Aug. 27 (139–40). Sixteen of these were also edited by Perlstein's reading, since merged; this patch builds on the tree as it now stands.
 
 ## New entries (28)
 
-1962: July, Goldwater to a Young Republicans' breakfast (59); Nov., Rockefeller to Goldwater by letter (60). 1963:
-Apr., Citizens for Goldwater's petitions (64–65); May, O'Donnell's 320 electoral votes (60–61); Aug., the Birch
-Society against Rockefeller (66); Sept. 13, Cronkite and Goldwater on CBS (67–68); Nov., the Draft committee's
-moratorium (69); Nov. 18, Kennedy in Florida (Public Papers; 43–44); Nov. 21, Kennedy in Texas (`cal.1963-11-21.assassination`; Public Papers; 44–45);
-Dec. 5, Robert Kennedy and Schlesinger to Boston (116); Dec., Eisenhower calls on Scranton (65). 1964: Jan., Johnson
-with Rauh and Mitchell (119); Jan. 18, Goldwater on the Birch Society (71); Jan. 26, Howard Smith on *Meet the Press*
-(the Library of Congress's inventory; 114); Feb. 7, Johnson to Long (116; recording to check); Feb. 8, Johnson to
-Connally (113; recording to check); Feb. 19, Wallace at Madison (117); Apr., Schlafly's book (71, 90); Apr. 11, Price
-to Rockefeller on Oregon (83–84); May 29, Goldwater on Steve Allen's show (89); June 3 and June 4, Rockefeller's staff
-after California (92–93); June 6, Eisenhower and Scranton at Gettysburg (94–95); June 22, Johnson to Halleck (120–21;
-recording to check); June 24, Scranton aboard his plane (96); July 16, Keating's walkout (106); July 17, Eisenhower and
-Goldwater the morning after (107); July 23–24, Johnson and Galbraith (126); Aug. 22, Aaron Henry to Johnson (130).
+1962: July, Goldwater to a Young Republicans' breakfast (59); Nov., Rockefeller to Goldwater by letter (60). 1963: Apr., Citizens for Goldwater's petitions (64–65); May, O'Donnell's 320 electoral votes (60–61); Aug., the Birch Society against Rockefeller (66); Sept. 13, Cronkite and Goldwater on CBS (67–68); Nov., the Draft committee's moratorium (69); Nov. 18, Kennedy in Florida (Public Papers; 43–44); Nov. 21, Kennedy in Texas (`cal.1963-11-21.assassination`; Public Papers; 44–45); Dec. 5, Robert Kennedy and Schlesinger to Boston (116); Dec., Eisenhower calls on Scranton (65). 1964: Jan., Johnson with Rauh and Mitchell (119); Jan. 18, Goldwater on the Birch Society (71); Jan. 26, Howard Smith on *Meet the Press* (the Library of Congress's inventory; 114); Feb. 7, Johnson to Long (116; recording to check); Feb. 8, Johnson to Connally (113; recording to check); Feb. 19, Wallace at Madison (117); Apr., Schlafly's book (71, 90); Apr. 11, Price to Rockefeller on Oregon (83–84); May 29, Goldwater on Steve Allen's show (89); June 3 and June 4, Rockefeller's staff after California (92–93); June 6, Eisenhower and Scranton at Gettysburg (94–95); June 22, Johnson to Halleck (120–21; recording to check); June 24, Scranton aboard his plane (96); July 16, Keating's walkout (106); July 17, Eisenhower and Goldwater the morning after (107); July 23–24, Johnson and Galbraith (126); Aug. 22, Aaron Henry to Johnson (130).
 
-The Miller Center's recordings (Feb. 7, Feb. 8, June 22) are named by their catalogue rows under "To check:", not
-heard: millercenter.org fails TLS verification from this environment.
+The Miller Center's recordings (Feb. 7, Feb. 8, June 22) are named by their catalogue rows under "To check:", not heard: millercenter.org fails TLS verification from this environment.
 
 ## Passed over
 
@@ -222,56 +169,23 @@ Within Jan. 6, 1960–Jan. 20, 1969 and pp. 1–151 only (chapter 1's 1950s are 
 
 ## The rest, Oct. 29, 2026
 
-Patch: `inbox/2026-10-29-republicans-finish.yaml` (republicans-finish, with the rest of Hess and Broder). Records:
-`sources/cited-records/young-two-suns-of-the.yaml` (31 rows).
+Patch: `inbox/2026-10-29-republicans-finish.yaml` (republicans-finish, with the rest of Hess and Broder). Records: `sources/cited-records/young-two-suns-of-the.yaml` (31 rows).
 
-**The copy.** The owner's PDF, fetched whole by the brief's download line (drive.usercontent.google.com, the file id
-above) into a scratch directory outside the repo: 312 PDF pages, 20 MB, the Internet Archive's scan with its text
-layer, read with `pdftotext -layout`. Deleted when done; no copy in the repo; the file's sharing not touched. **Read:
-pp. 152–207** (the rest of chapter 6, chapter 7, the Conclusion) **and the notes, pp. 225–255**; the appendices of
-returns and the inaugural address (209–224), the bibliographic essay and the index not read. Offset: printed page =
-PDF page − 18 throughout, as the first run found (152 = PDF 170, 171 = PDF 189, 200 = PDF 218; the notes, 246 = PDF
-264, headed by the text pages they serve). The notes are numbered by chapter; a note citing several records is logged
-a row a record, lettered in the note's order (`20c`, `29b`, `57a`, `57b`).
+**The copy.** The owner's PDF, fetched whole by the brief's download line (drive.usercontent.google.com, the file id above) into a scratch directory outside the repo: 312 PDF pages, 20 MB, the Internet Archive's scan with its text layer, read with `pdftotext -layout`. Deleted when done; no copy in the repo; the file's sharing not touched. **Read: pp. 152–207** (the rest of chapter 6, chapter 7, the Conclusion) **and the notes, pp. 225–255**; the appendices of returns and the inaugural address (209–224), the bibliographic essay and the index not read. Offset: printed page = PDF page − 18 throughout, as the first run found (152 = PDF 170, 171 = PDF 189, 200 = PDF 218; the notes, 246 = PDF 264, headed by the text pages they serve). The notes are numbered by chapter; a note citing several records is logged a row a record, lettered in the note's order (`20c`, `29b`, `57a`, `57b`).
 
-**Citations reread and rulings.** Thirteen existing entries now cite pp. 152–207, each with its claim map (the units
-each page grounds; `via` rows for the records its notes give: the Unity Conference's transcript, the Truax memorandum,
-the Reuther and Moyers calls, the White House memoranda). Where the book and the calendar differ, a Check, the entry's
-claim left as it stood:
+**Citations reread and rulings.** Thirteen existing entries now cite pp. 152–207, each with its claim map (the units each page grounds; `via` rows for the records its notes give: the Unity Conference's transcript, the Truax memorandum, the Reuther and Moyers calls, the White House memoranda). Where the book and the calendar differ, a Check, the entry's claim left as it stood:
 - `cal.1964-08-12.elections-1964`: Goldwater at Hershey, "of the left or of the right" (159, from the transcript).
-- `cal.1964-10-06.elections-1964`: Young, 188, from Goldman and Woods, gives "Nigger, Nigger, Nigger!"; the Public
-  Papers print "Negro."
-- `cal.1964-11-03.elections-1964`: Young, 196, gives 43,128,956 to 27,177,873; the entry's figures stand, and 196–97
-  is cited only for the electoral votes, the six States and the Congress.
-- `cal.1964-09-03.goldwater`, `-09-07` (Cadillac Square; the Daisy spot shown once, 174–76), `-09-14`, `-09-16`,
-  `-10-14` (the arrests, 191–92), `-10-27`, `-11-04`, `cal.1964-10.goldwater` (Jaffa and Rehnquist, 189),
-  `cal.1964-05-24.goldwater` (165–66): borne out, the page added.
+- `cal.1964-10-06.elections-1964`: Young, 188, from Goldman and Woods, gives "Nigger, Nigger, Nigger!"; the Public Papers print "Negro."
+- `cal.1964-11-03.elections-1964`: Young, 196, gives 43,128,956 to 27,177,873; the entry's figures stand, and 196–97 is cited only for the electoral votes, the six States and the Congress.
+- `cal.1964-09-03.goldwater`, `-09-07` (Cadillac Square; the Daisy spot shown once, 174–76), `-09-14`, `-09-16`, `-10-14` (the arrests, 191–92), `-10-27`, `-11-04`, `cal.1964-10.goldwater` (Jaffa and Rehnquist, 189), `cal.1964-05-24.goldwater` (165–66): borne out, the page added.
 
-**New entries (29).** The staff memoranda, entered at the coordinator's ruling of Oct. 29 (the informal record, not
-"minor"; first listed here as Passed over), each by its writer, addressee and the note's date, the record in "To
-check:": Louis Martin to Valenti on the Negro Democrats of the South (July 7); Moyers on the religious groups (July
-17); Welsh on the ethnic backlash (July 27); Gronouski on the ethnic campaign (Aug. 10); Cater, the frontlash two to
-one (Aug. 12); Reedy on the bureau chiefs (Aug. 18); Valenti on the Sunday programs and Popple on the schedule (Aug.
-20; Young gives Popple's words to Gronouski: Check); John Bartlow Martin on Illinois (Oct. 1); Cater on the evening
-news and Manatos on Goldwater's churchgoing (Oct. 16; Young sets Cater's among September's decisions). And the 18
-first entered: the campaign's informal record, from the White House files and the recordings the notes cite:
-Doyle Dane Bernbach signed (Mar. 19, 1964); Truax's survey of the States for Burch (Aug. 3); Johnson to Reuther by
-telephone (Aug. 9, the Miller Center's catalogue); Moyers on Gallup's confidential help (Aug. 15); O'Brien's estimate of
-the races for Congress (Aug. 22); Fortas and Clifford against the Sunday programs (Sept. 3); Johnson to Moyers on the
-Labor Day speech (Sept. 5); Valenti's "AGAINST Goldwater" (Sept. 7) and the Chandlers (Sept. 10); Goldwater in South
-Carolina (Sept. 17); *My Hope for America* (Sept. 19); the Gettysburg film (Sept. 22); Johnson in New England (Sept.
-28, the Public Papers' items); *Fail Safe* (Sept. 29); the Committee to Support Moderate Republicans (Sept. 30, with
-Hess and Broder); McGill on Grenier's men (Sept. 30); O'Brien's report from the States (Oct. 4); *Brunch with Barry*
-(Oct.). The records are none of them read: each stands in the note's "To check:" with the page and note it comes from;
-the two recordings the Miller Center holds are cited by their pages there, the catalogue read, the audio not heard.
+**New entries (29).** The staff memoranda, entered at the coordinator's ruling of Oct. 29 (the informal record, not "minor"; first listed here as Passed over), each by its writer, addressee and the note's date, the record in "To check:": Louis Martin to Valenti on the Negro Democrats of the South (July 7); Moyers on the religious groups (July 17); Welsh on the ethnic backlash (July 27); Gronouski on the ethnic campaign (Aug. 10); Cater, the frontlash two to one (Aug. 12); Reedy on the bureau chiefs (Aug. 18); Valenti on the Sunday programs and Popple on the schedule (Aug. 20; Young gives Popple's words to Gronouski: Check); John Bartlow Martin on Illinois (Oct. 1); Cater on the evening news and Manatos on Goldwater's churchgoing (Oct. 16; Young sets Cater's among September's decisions). And the 18 first entered: the campaign's informal record, from the White House files and the recordings the notes cite: Doyle Dane Bernbach signed (Mar. 19, 1964); Truax's survey of the States for Burch (Aug. 3); Johnson to Reuther by telephone (Aug. 9, the Miller Center's catalogue); Moyers on Gallup's confidential help (Aug. 15); O'Brien's estimate of the races for Congress (Aug. 22); Fortas and Clifford against the Sunday programs (Sept. 3); Johnson to Moyers on the Labor Day speech (Sept. 5); Valenti's "AGAINST Goldwater" (Sept. 7) and the Chandlers (Sept. 10); Goldwater in South Carolina (Sept. 17); *My Hope for America* (Sept. 19); the Gettysburg film (Sept. 22); Johnson in New England (Sept. 28, the Public Papers' items); *Fail Safe* (Sept. 29); the Committee to Support Moderate Republicans (Sept. 30, with Hess and Broder); McGill on Grenier's men (Sept. 30); O'Brien's report from the States (Oct. 4); *Brunch with Barry* (Oct.). The records are none of them read: each stands in the note's "To check:" with the page and note it comes from; the two recordings the Miller Center holds are cited by their pages there, the catalogue read, the audio not heard.
 
-**Not done.** The first run's entries (pp. 1–151) still have no `via` rows: the notes for chapters 1–6 are now in hand
-(pp. 225–246), and the next run can log their records and map them.
+**Not done.** The first run's entries (pp. 1–151) still have no `via` rows: the notes for chapters 1–6 are now in hand (pp. 225–246), and the next run can log their records and map them.
 
 ## Passed over (pp. 152–207)
 
-How made: every dated event in the pages, listed as read; the summaries of polls and returns after the election and
-the historiography of the Conclusion not listed.
+How made: every dated event in the pages, listed as read; the summaries of polls and returns after the election and the historiography of the Conclusion not listed.
 
 | page | date | event | why |
 |---|---|---|---|
@@ -290,5 +204,4 @@ the historiography of the Conclusion not listed.
 
 ## Leads (in notes/leads.md, under Young)
 
-Kitchel on *Meet the Press*, June 14, 1964 (Spivak Papers, cited 247 n.33); the Democratic Study Group's campaign
-work from 1963; Rockefeller's note of Nov. 13, 1964; the first run's notes, to be logged.
+Kitchel on *Meet the Press*, June 14, 1964 (Spivak Papers, cited 247 n.33); the Democratic Study Group's campaign work from 1963; Rockefeller's note of Nov. 13, 1964; the first run's notes, to be logged.

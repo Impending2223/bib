@@ -1,75 +1,30 @@
 # F. Clifton White with William J. Gill, *Suite 3505: The Story of the Draft Goldwater Movement* (`w.white-suite-3505`)
 
-Read Oct. 29, 2026, by the batch-3 reading (1964: *Suite 3505*, then Novak, then Theodore White). Patches:
-`inbox/2026-10-29-b3-suite-3505.yaml` (b3-suite-3505) and, under the owner's ruling of Oct. 28, late,
-`inbox/2026-10-29-b3-suite-3505-more.yaml` (b3-suite-3505-more, 109 entries; merge after the first). Records: `sources/cited-records/white-suite-3505.yaml`.
+Read Oct. 29, 2026, by the batch-3 reading (1964: *Suite 3505*, then Novak, then Theodore White). Patches: `inbox/2026-10-29-b3-suite-3505.yaml` (b3-suite-3505) and, under the owner's ruling of Oct. 28, late, `inbox/2026-10-29-b3-suite-3505-more.yaml` (b3-suite-3505-more, 109 entries; merge after the first). Records: `sources/cited-records/white-suite-3505.yaml`.
 
 ## The copy
 
-The owner's copy (Drive), Arlington House, New Rochelle, N.Y., 1967 (LC 67-12950); 457 printed pages read, a PDF with a
-text layer. Printed page = PDF page less 2, the same throughout (checked by the running heads and folios, and by the page
-image of p. 249). The PDF was deleted once its text was taken. White's own account, from his files: his memoranda to the
-group and to Kitchel, letters to and from Goldwater, Rusher, O'Donnell and others, quoted at length; his notes cite the
-press (the *Times*, the *Herald Tribune*, *Time*, the *Star*) and a few books (Novak, Shadegg, Theodore White, Bell). Every
-entry it alone grounds is marked "by White's account" where it is his account of a meeting.
+The owner's copy (Drive), Arlington House, New Rochelle, N.Y., 1967 (LC 67-12950); 457 printed pages read, a PDF with a text layer. Printed page = PDF page less 2, the same throughout (checked by the running heads and folios, and by the page image of p. 249). The PDF was deleted once its text was taken. White's own account, from his files: his memoranda to the group and to Kitchel, letters to and from Goldwater, Rusher, O'Donnell and others, quoted at length; his notes cite the press (the *Times*, the *Herald Tribune*, *Time*, the *Star*) and a few books (Novak, Shadegg, Theodore White, Bell). Every entry it alone grounds is marked "by White's account" where it is his account of a meeting.
 
 ## The cites it had
 
-Fourteen calendar entries cited the book, most without a page, behind "To check:". All are pinned and moved out:
-cal.1961-10-08.goldwater (37–42), cal.1962-04-13.goldwater (56–60), cal.1962-09.republican-party (73–75; redated Sept.
-27–28, moved), cal.1963-01-14.goldwater (115–18), cal.1963-02-05.goldwater (120–22), cal.1963-02.goldwater (122–26; redated
-Feb. 17, the "Check the date" taken out of `c`, moved), cal.1963-04-08.elections-1964 (130–34), cal.1963-05-09.goldwater
-(149–50), cal.1963-07-04.elections-1964 (181–87), cal.1963-12-08.goldwater (254), cal.1963-12-11.elections-1964
-(256–57), cal.1964-01-03.elections-1964 (264–65), cal.1964-03-18.goldwater (302–03; split: the apartment meeting "days
-later" is now an entry of its own, cal.1964-03.goldwater-2), cal.1964-07-13.elections-1964 (396). None cut.
+Fourteen calendar entries cited the book, most without a page, behind "To check:". All are pinned and moved out: cal.1961-10-08.goldwater (37–42), cal.1962-04-13.goldwater (56–60), cal.1962-09.republican-party (73–75; redated Sept. 27–28, moved), cal.1963-01-14.goldwater (115–18), cal.1963-02-05.goldwater (120–22), cal.1963-02.goldwater (122–26; redated Feb. 17, the "Check the date" taken out of `c`, moved), cal.1963-04-08.elections-1964 (130–34), cal.1963-05-09.goldwater (149–50), cal.1963-07-04.elections-1964 (181–87), cal.1963-12-08.goldwater (254), cal.1963-12-11.elections-1964 (256–57), cal.1964-01-03.elections-1964 (264–65), cal.1964-03-18.goldwater (302–03; split: the apartment meeting "days later" is now an entry of its own, cal.1964-03.goldwater-2), cal.1964-07-13.elections-1964 (396). None cut.
 
-Pinned besides (the book treats them; no cite before), 54 entries, and one given a Check only (cal.1963-11-07): the conventions and primaries of 1964 (Mar. 21–June
-19), the Denver meeting of the national committee (Bliss and O'Donnell added), the Young Republicans at San Francisco,
-the Dodger Stadium rally, the moratorium, the Scranton letter, the convention's sessions, Burch's election, "Choice";
-1960's South Carolina convention and Goldwater's withdrawal; the acceptance's words (13–14) in cal.1964-07-15. The list:
-the patch's edits.
+Pinned besides (the book treats them; no cite before), 54 entries, and one given a Check only (cal.1963-11-07): the conventions and primaries of 1964 (Mar. 21–June 19), the Denver meeting of the national committee (Bliss and O'Donnell added), the Young Republicans at San Francisco, the Dodger Stadium rally, the moratorium, the Scranton letter, the convention's sessions, Burch's election, "Choice"; 1960's South Carolina convention and Goldwater's withdrawal; the acceptance's words (13–14) in cal.1964-07-15. The list: the patch's edits.
 
 ## New entries (182)
 
-The draft's meetings, 1961–64, by White's account: Rusher and Ashbrook (July 10, 1961), Rusher and White (July 13), the
-twenty-six chosen (Sept. 7), Rusher's letter (Nov. 9), White and Thone with Goldwater (Nov. 17), the second Chicago
-meeting (Dec. 10); the national committee's caucus (Jan. and June 1962), the women leaders (Apr. 1962), Helena, the
-Americana (Nov. 12), Miller to White (Dec. 6); Dominick's refusal and O'Donnell's acceptance (Feb. 28, Mar. 6, 1963), White's
-memorandum of Mar. 27, the Mayflower (May 8, 9), the office opened (June 10), the Steering Committee (July 28, Sept. 8, Oct.
-4–6, Jan. 12, 1964), the Hay-Adams meeting and the *Times*'s "boarding party", Goldwater's word to White (Oct. 1963), O'Donnell's
-two memoranda (Nov. 1963) and letter (Jan. 12, 1964), White's report and memorandum to Kitchel (Dec. 1963), Kleindienst's
-appointment (Jan. 2), the Mayflower meetings (Jan. 5), the finance committee and the deals with Bliss and Cramer (Jan.),
-the O'Hare Inn (Feb. 15–16), Operation Q and the Keene letter (Mar. 4), Kitchel kept (Mar.), the apartment meeting (Mar.),
-the motel near the San Francisco airport (Apr. 4), the national committee at the Twin Bridges (May 24–25), the Illinois
-caucus. The party's men on the record: Goldwater (*Time*, June 23, 1961; to Yerger; the timetable; *Issues and Answers*;
-Phillips's interview; "reluctant tiger"; on Rockefeller's statement; "stop chewing"; Hershey; Eugene; the TVA letter;
-Pittsburgh; Nov. 22; "I goofed"; ASNE; *Der Spiegel*; the platform committee), Eisenhower (June 22, 1962; the ECO luncheon;
-June 1, 1964), Rockefeller (Apr. 9 and July 16–17, 1963; Eugene), Nixon (Idlewild; Frankfurt; the pamphlet), Romney (May 2,
-1963; the telegram), Scranton (favorite son; Dec. 23; Jan. 9; the letter of May 26; Dirksen), Tower, Curtis, Keating,
-Hatfield and Taft, Ashbrook in the House, Cotton, Percy, Robertson, Andersen, Morhouse's memorandum (Aug. 14, 1962),
-Dirksen and Halleck on Estes (May 1962), the Senate Republicans' Policy Committee (Jan. 1963), Goldwater's amendments to the
-civil rights bill (July 16, 1963). The State conventions of 1964 the calendar lacked (the Virgin Islands, North Dakota,
-Kentucky, Louisiana, Kansas, Iowa, Nevada, Illinois, Tennessee, Maine, Michigan, Wyoming, Vermont, Alaska, Nebraska, New
-Mexico, Idaho, Missouri, Virginia, Connecticut, Minnesota, Utah, Arkansas, Hawaii) and the Oregon affidavits (Mar. 9). The
-polls White prints (AP, Sept. 1962 and Nov. 1963; Texas, Sept. 1962; CQ, Apr. 1963; the *Los Angeles Times*; *U.S. News*;
-the *Chicago Tribune*; the *Houston Chronicle*). Kennedy's press conference of Oct. 9, 1963, by its Public Papers item.
-The Bay of Pigs: Goldwater with Kennedy (Apr. 1961), by White's account.
+The draft's meetings, 1961–64, by White's account: Rusher and Ashbrook (July 10, 1961), Rusher and White (July 13), the twenty-six chosen (Sept. 7), Rusher's letter (Nov. 9), White and Thone with Goldwater (Nov. 17), the second Chicago meeting (Dec. 10); the national committee's caucus (Jan. and June 1962), the women leaders (Apr. 1962), Helena, the Americana (Nov. 12), Miller to White (Dec. 6); Dominick's refusal and O'Donnell's acceptance (Feb. 28, Mar. 6, 1963), White's memorandum of Mar. 27, the Mayflower (May 8, 9), the office opened (June 10), the Steering Committee (July 28, Sept. 8, Oct. 4–6, Jan. 12, 1964), the Hay-Adams meeting and the *Times*'s "boarding party", Goldwater's word to White (Oct. 1963), O'Donnell's two memoranda (Nov. 1963) and letter (Jan. 12, 1964), White's report and memorandum to Kitchel (Dec. 1963), Kleindienst's appointment (Jan. 2), the Mayflower meetings (Jan. 5), the finance committee and the deals with Bliss and Cramer (Jan.), the O'Hare Inn (Feb. 15–16), Operation Q and the Keene letter (Mar. 4), Kitchel kept (Mar.), the apartment meeting (Mar.), the motel near the San Francisco airport (Apr. 4), the national committee at the Twin Bridges (May 24–25), the Illinois caucus. The party's men on the record: Goldwater (*Time*, June 23, 1961; to Yerger; the timetable; *Issues and Answers*; Phillips's interview; "reluctant tiger"; on Rockefeller's statement; "stop chewing"; Hershey; Eugene; the TVA letter; Pittsburgh; Nov. 22; "I goofed"; ASNE; *Der Spiegel*; the platform committee), Eisenhower (June 22, 1962; the ECO luncheon; June 1, 1964), Rockefeller (Apr. 9 and July 16–17, 1963; Eugene), Nixon (Idlewild; Frankfurt; the pamphlet), Romney (May 2, 1963; the telegram), Scranton (favorite son; Dec. 23; Jan. 9; the letter of May 26; Dirksen), Tower, Curtis, Keating, Hatfield and Taft, Ashbrook in the House, Cotton, Percy, Robertson, Andersen, Morhouse's memorandum (Aug. 14, 1962), Dirksen and Halleck on Estes (May 1962), the Senate Republicans' Policy Committee (Jan. 1963), Goldwater's amendments to the civil rights bill (July 16, 1963). The State conventions of 1964 the calendar lacked (the Virgin Islands, North Dakota, Kentucky, Louisiana, Kansas, Iowa, Nevada, Illinois, Tennessee, Maine, Michigan, Wyoming, Vermont, Alaska, Nebraska, New Mexico, Idaho, Missouri, Virginia, Connecticut, Minnesota, Utah, Arkansas, Hawaii) and the Oregon affidavits (Mar. 9). The polls White prints (AP, Sept. 1962 and Nov. 1963; Texas, Sept. 1962; CQ, Apr. 1963; the *Los Angeles Times*; *U.S. News*; the *Chicago Tribune*; the *Houston Chronicle*). Kennedy's press conference of Oct. 9, 1963, by its Public Papers item. The Bay of Pigs: Goldwater with Kennedy (Apr. 1961), by White's account.
 
-Under the owner's ruling on papers (brief-batch3 rule 5), entered as papers: Rusher to Goldwater (Nov. 9, 1961), Goldwater
-to Miller (July 1962), Morhouse to the county chairmen (Aug. 14, 1962), Goldwater to Yerger (Sept. 19, 1962), White's
-memorandum of Mar. 27, 1963 (passed at first as a meeting's preparation; it directs the State organizations), Failor to
-White (July 1963), O'Donnell to Goldwater (two, Nov. 1963; Jan. 12, 1964), White to Kitchel (Dec. 1963, Dec. 17), Harrington's
-plan (Sept. 10, 1963), Humes's letter (Mar. 4, 1964), Scranton to Goldwater (May 26, 1964).
+Under the owner's ruling on papers (brief-batch3 rule 5), entered as papers: Rusher to Goldwater (Nov. 9, 1961), Goldwater to Miller (July 1962), Morhouse to the county chairmen (Aug. 14, 1962), Goldwater to Yerger (Sept. 19, 1962), White's memorandum of Mar. 27, 1963 (passed at first as a meeting's preparation; it directs the State organizations), Failor to White (July 1963), O'Donnell to Goldwater (two, Nov. 1963; Jan. 12, 1964), White to Kitchel (Dec. 1963, Dec. 17), Harrington's plan (Sept. 10, 1963), Humes's letter (Mar. 4, 1964), Scranton to Goldwater (May 26, 1964).
 
 ## Disagreements
 
 - Nixon and Rockefeller, 1960: White, 22, "Saturday, July 23"; the calendar, July 22 (Friday night into Saturday). Check.
 - Dodger Stadium: White, 213, "Tuesday night, September 17", nearly 50,000; cal.1963-09-16. Check added.
 - Rockefeller's announcement: White, 240, Nov. 6, on NBC's *Today*; cal.1963-11-07, at Albany. Check added.
-- Eisenhower and Scranton: White, 259, Dec. 15 at Harrisburg, "three days" after Dec. 12; cal.1963-12.elections-1964 is
-  month-dated. Check added.
-- The meeting at Goldwater's apartment, Dec. 8, 1963: White, 254, puts Tower, O'Donnell, Baroody and Grenier there, not
-  Curtis or Rhodes; Curtis with Cotton at the office two days later. Check added.
+- Eisenhower and Scranton: White, 259, Dec. 15 at Harrisburg, "three days" after Dec. 12; cal.1963-12.elections-1964 is month-dated. Check added.
+- The meeting at Goldwater's apartment, Dec. 8, 1963: White, 254, puts Tower, O'Donnell, Baroody and Grenier there, not Curtis or Rhodes; Curtis with Cotton at the office two days later. Check added.
 - Oklahoma's convention: White, 194–95, 301, Feb. 28; the calendar, Feb. 29. Check added.
 - New Hampshire: White, 297, Lodge 33,521 of 94,641, Goldwater 21,775, Rockefeller 19,496, Nixon 15,752. Check added.
 - Knott's Berry Farm: White, 347, Sunday, May 31; the calendar, May 30. Check added.
@@ -78,26 +33,16 @@ plan (Sept. 10, 1963), Humes's letter (Mar. 4, 1964), Scranton to Goldwater (May
 - The July 4 rally: White, 183, more than 9,000 inside; the *Star* 8,000, the *Sun* 6,000 (187). Check added.
 - The Phoenix women's convention, 1962: Sept. 27–28 (White, 73), not the month alone; redated.
 - The acceptance's line: White, 407, gives it to Jaffa, from a memorandum for the platform committee. Check added.
-- Gallup, May 1963: White, 145–49, prints Rockefeller 43, Goldwater 26, then Goldwater 40, Rockefeller 29 (the *Herald
-  Tribune*, May 26); the calendar's Gallup entries take *The Gallup Poll*'s volumes; not entered, the figures to compare.
+- Gallup, May 1963: White, 145–49, prints Rockefeller 43, Goldwater 26, then Goldwater 40, Rockefeller 29 (the *Herald Tribune*, May 26); the calendar's Gallup entries take *The Gallup Poll*'s volumes; not entered, the figures to compare.
 - Elmer L. Andersen: White, 260, spells him Anderson. Check added.
 
 ## For entries in pending patches
 
-None of this patch's new entries is added in another pending patch (compared by date with every inbox file, Oct. 29). The
-patch edits entries that `inbox/2026-10-29-b3-kabaservice.yaml` also edits (twenty-one: cal.1960-07-22, 1960-07-26,
-1962-12-02, 1963-04-08, 1963-05-04, 1963-06, 1963-06-25, 1963-07-14, 1964-03-10, 1964-05-15, 1964-05-24, 1964-05-25,
-1964-06-02, 1964-06-07.republican-party, 1964-06-12, 1964-06-19.civil-rights-bill, 1964-07-12, 1964-07-13, 1964-07-14,
-1964-07-15, 1964-07-17), and `b3-humphrey`, `b3-sundquist` (cal.1964-06-19.civil-rights-bill) and `b3-six-crises`
-(cal.1960-07-22.elections-1960) do too: the merge will make conflicts on `n` and `src`; take both, each patch's cites in
-order. The merge also flags 54 of this patch's adds as possible duplicates by their ids (the same day and thread): every
-one is a distinct event; `./bib resolve ID --take keep`.
+None of this patch's new entries is added in another pending patch (compared by date with every inbox file, Oct. 29). The patch edits entries that `inbox/2026-10-29-b3-kabaservice.yaml` also edits (twenty-one: cal.1960-07-22, 1960-07-26, 1962-12-02, 1963-04-08, 1963-05-04, 1963-06, 1963-06-25, 1963-07-14, 1964-03-10, 1964-05-15, 1964-05-24, 1964-05-25, 1964-06-02, 1964-06-07.republican-party, 1964-06-12, 1964-06-19.civil-rights-bill, 1964-07-12, 1964-07-13, 1964-07-14, 1964-07-15, 1964-07-17), and `b3-humphrey`, `b3-sundquist` (cal.1964-06-19.civil-rights-bill) and `b3-six-crises` (cal.1960-07-22.elections-1960) do too: the merge will make conflicts on `n` and `src`; take both, each patch's cites in order. The merge also flags 54 of this patch's adds as possible duplicates by their ids (the same day and thread): every one is a distinct event; `./bib resolve ID --take keep`.
 
 ## Passed over
 
-Made from the running notes kept page by page through the whole book (every dated event, with its page and the ruling),
-and checked again against the owner's rules on the parties and the members, on papers (Oct. 28) and on what is an entry
-(Oct. 28, late). What the first table passed and the late ruling calls an entry is now under "Entered" below.
+Made from the running notes kept page by page through the whole book (every dated event, with its page and the ruling), and checked again against the owner's rules on the parties and the members, on papers (Oct. 28) and on what is an entry (Oct. 28, late). What the first table passed and the late ruling calls an entry is now under "Entered" below.
 
 | page | date | event | why |
 |---|---|---|---|
@@ -139,10 +84,7 @@ and checked again against the owner's rules on the parties and the members, on p
 
 ## Entered (the owner's ruling, Oct. 28, late)
 
-The rows the first reading passed as undated (dated by the book to a month or a season), private, below the level, an itinerary,
-a meeting's preparation or a repetition, entered under the ruling in `inbox/2026-10-29-b3-suite-3505-more.yaml`
-(b3-suite-3505-more), and some besides that the first table did not list (the trips' stops, the campaigns' staffs, the
-Florida and Pennsylvania fights). The supplementary patch builds on the first: merge it after.
+The rows the first reading passed as undated (dated by the book to a month or a season), private, below the level, an itinerary, a meeting's preparation or a repetition, entered under the ruling in `inbox/2026-10-29-b3-suite-3505-more.yaml` (b3-suite-3505-more), and some besides that the first table did not list (the trips' stops, the campaigns' staffs, the Florida and Pennsylvania fights). The supplementary patch builds on the first: merge it after.
 
 | page | date | event | entry |
 |---|---|---|---|
@@ -258,30 +200,15 @@ Florida and Pennsylvania fights). The supplementary patch builds on the first: m
 
 ## Leads
 
-For `notes/leads.md` (National), at the merge: the plane crash of spring 1962 with $70,000 in a candidate's man's baggage
-(62–63; White names neither the flight nor the candidate); Romney and White at Lansing on Durant, between Oct. 1963 and May
-1964 (212–13); Arkansas's deadline for requesting a presidential primary, 1964, passed without Goldwater's request (261
-n.3); the Billie Sol Estes affair is not in the calendar at all (63: only Dirksen and Halleck's demand entered, May 1962);
-the acceptance of July 16, 1964, is bundled in cal.1964-07-15.elections-1964 with the nomination and Miller's (the spans
-rule: three events).
+For `notes/leads.md` (National), at the merge: the plane crash of spring 1962 with $70,000 in a candidate's man's baggage (62–63; White names neither the flight nor the candidate); Romney and White at Lansing on Durant, between Oct. 1963 and May 1964 (212–13); Arkansas's deadline for requesting a presidential primary, 1964, passed without Goldwater's request (261 n.3); the Billie Sol Estes affair is not in the calendar at all (63: only Dirksen and Halleck's demand entered, May 1962); the acceptance of July 16, 1964, is bundled in cal.1964-07-15.elections-1964 with the nomination and Miller's (the spans rule: three events).
 
 ## The second run (Nov. 3–4, 2026; batch 3 resumed)
 
-Patch `inbox/2026-11-03-b3-suite-3505-2.yaml` (b3-suite-3505-2, 15 adds, claimed in the ledger); witnesses
-`inbox/witnesses/2026-11-03-b3-suite-3505-2.yaml` (17 rows); the work's edges added to
-`sources/witnesses/by-work/white-suite-3505.yaml` (22). The copy fetched again from Drive (the same file, 456 PDF pages,
-offset unchanged, printed page = PDF page − 2), deleted when done.
+Patch `inbox/2026-11-03-b3-suite-3505-2.yaml` (b3-suite-3505-2, 15 adds, claimed in the ledger); witnesses `inbox/witnesses/2026-11-03-b3-suite-3505-2.yaml` (17 rows); the work's edges added to `sources/witnesses/by-work/white-suite-3505.yaml` (22). The copy fetched again from Drive (the same file, 456 PDF pages, offset unchanged, printed page = PDF page − 2), deleted when done.
 
-The press (R13): the rows the first run passed as "a column," "the press" or "a newspaper's editorial" are entries now,
-each dated and quoted from the page: the *Herald Tribune*'s editorial of Dec. 5, 1962 (107); Trohan, Mar. 26, 1963
-(130–31); Bergholz, Apr. 30 (160); the *Detroit News*, May 3 (147–48); Steele, and Evans and Novak, June 24 (164–65);
-the *Star*'s two stories on the Armory rally, July 5 (187); Krock, July 6 (187–88); Riesel, Sept. 16 (237); *Time*,
-Oct. 4 (234–35); Reston, Oct. 12 (235); Sevareid, Oct. 13 (235); the *Saturday Evening Post* and Stewart Alsop, Jan.
-18, 1964 (356–57); *Time*, May 8 (319–20); John S. Knight, June 21 (372).
+The press (R13): the rows the first run passed as "a column," "the press" or "a newspaper's editorial" are entries now, each dated and quoted from the page: the *Herald Tribune*'s editorial of Dec. 5, 1962 (107); Trohan, Mar. 26, 1963 (130–31); Bergholz, Apr. 30 (160); the *Detroit News*, May 3 (147–48); Steele, and Evans and Novak, June 24 (164–65); the *Star*'s two stories on the Armory rally, July 5 (187); Krock, July 6 (187–88); Riesel, Sept. 16 (237); *Time*, Oct. 4 (234–35); Reston, Oct. 12 (235); Sevareid, Oct. 13 (235); the *Saturday Evening Post* and Stewart Alsop, Jan. 18, 1964 (356–57); *Time*, May 8 (319–20); John S. Knight, June 21 (372).
 
-Witnesses (R35): the studies the notes cite, left out by the conversion, are edges now: Shadegg, *What Happened to
-Goldwater?*, 44 (at 37 n.1) and 103 (at 206 n.2); Novak, 455 (at 12 n.1); Theodore White, 205 (at 18 n.3); Jack Bell,
-*Mr. Conservative* (1962), 147 (at 250 n.3, a row of its own: no card, not held); and each press item above.
+Witnesses (R35): the studies the notes cite, left out by the conversion, are edges now: Shadegg, *What Happened to Goldwater?*, 44 (at 37 n.1) and 103 (at 206 n.2); Novak, 455 (at 12 n.1); Theodore White, 205 (at 18 n.3); Jack Bell, *Mr. Conservative* (1962), 147 (at 250 n.3, a row of its own: no card, not held); and each press item above.
 
 Passed over, this run (the first run's rows stand, as revised here):
 
@@ -296,12 +223,8 @@ Passed over, this run (the first run's rows stand, as revised here):
 
 ## The press (R13), this run
 
-1963-07-05 | *Washington Evening Star* | front page | the Armory rally: two stories, McGrory's and Broder's | Suite 3505, 187
-1963-07-05 | *Baltimore Sun* | front page | the Armory rally, a crowd of 6,000 | Suite 3505, 187
+1963-07-05 | *Washington Evening Star* | front page | the Armory rally: two stories, McGrory's and Broder's | Suite 3505, 187 1963-07-05 | *Baltimore Sun* | front page | the Armory rally, a crowd of 6,000 | Suite 3505, 187
 
 ## Leads, this run
 
-National: Part III entries proposed (R13) for Walter Trohan (*Chicago Tribune*), Jack Steele (Scripps-Howard), Victor
-Riesel (labor columnist), John S. Knight (*Detroit Free Press*, the Knight papers), Richard Bergholz (*Los Angeles
-Times*), Carlton Kent (*Chicago Sun-Times*), each treated by White, *Suite 3505*, at the pages above. Lee Minton (Glass
-Bottle Blowers, AFL-CIO vice president): no name entry; Riesel's column of Sept. 16, 1963.
+National: Part III entries proposed (R13) for Walter Trohan (*Chicago Tribune*), Jack Steele (Scripps-Howard), Victor Riesel (labor columnist), John S. Knight (*Detroit Free Press*, the Knight papers), Richard Bergholz (*Los Angeles Times*), Carlton Kent (*Chicago Sun-Times*), each treated by White, *Suite 3505*, at the pages above. Lee Minton (Glass Bottle Blowers, AFL-CIO vice president): no name entry; Riesel's column of Sept. 16, 1963.

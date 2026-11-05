@@ -1,15 +1,10 @@
 # Richard Norton Smith, *On His Own Terms* (`w.smith-on-his-own-terms`)
 
-Begun Nov. 4, 2026, by the batch-3 reading, resumed (group gop), after Kabaservice and Goldberg. Patch:
-`inbox/2026-11-03-b3-smith-rockefeller-2.yaml` (b3-smith-rockefeller-2). **A partial run: stopped at a clean point, the
-patch consistent and checked; most of the book within the span still to read (below, "Where the run stopped").**
+Begun Nov. 4, 2026, by the batch-3 reading, resumed (group gop), after Kabaservice and Goldberg. Patch: `inbox/2026-11-03-b3-smith-rockefeller-2.yaml` (b3-smith-rockefeller-2). **A partial run: stopped at a clean point, the patch consistent and checked; most of the book within the span still to read (below, "Where the run stopped").**
 
 ## The copy
 
-The owner's copy (Drive), Random House, 2014: 920 PDF pages, a scan with a text layer, read from that layer. Printed page
-= PDF page less 54 from p. 276 through at least p. 548 (running heads checked on pp. 277, 322, 412, 457, 547; p. 412
-against the page image); later plates change the offset (p. 676 = PDF 746, less 70). The notes (pp. 729-802) are by page
-and catchword. The PDF deleted at the run's end.
+The owner's copy (Drive), Random House, 2014: 920 PDF pages, a scan with a text layer, read from that layer. Printed page = PDF page less 54 from p. 276 through at least p. 548 (running heads checked on pp. 277, 322, 412, 457, 547; p. 412 against the page image); later plates change the offset (p. 676 = PDF 746, less 70). The notes (pp. 729-802) are by page and catchword. The PDF deleted at the run's end.
 
 ## The cites it had
 
@@ -23,28 +18,19 @@ Fifteen calendar entries cited the book, all behind "To check:" without a page. 
 | cal.1962-09-17.governors-ny | pinned in part: 379 (the Democrats at Syracuse; Donovan) |
 | cal.1963-07-14.elections-1964 | pinned: 412 (the statement's words; Goldwater warned July 13) |
 
-Not yet held up (the pages not read): cal.1963-05-04.elections-1964, cal.1963-11-07.elections-1964,
-cal.1964-07-13.elections-1964, cal.1966-09-07.governors-ny, cal.1966-11-08.elections-1966,
-cal.1967-04-21.jobs-and-wages-ny, cal.1968-02-02.jobs-and-wages-nyc, cal.1968-03-21.elections-1968,
-cal.1968-04-09.cities-and-housing-ny, cal.1968-09-10.governors-ny. Their pages, found by search: 405-7, 416-19, 447-52,
-488-93, 502-3, 506, 517, 523-25, 541.
+Not yet held up (the pages not read): cal.1963-05-04.elections-1964, cal.1963-11-07.elections-1964, cal.1964-07-13.elections-1964, cal.1966-09-07.governors-ny, cal.1966-11-08.elections-1966, cal.1967-04-21.jobs-and-wages-ny, cal.1968-02-02.jobs-and-wages-nyc, cal.1968-03-21.elections-1968, cal.1968-04-09.cities-and-housing-ny, cal.1968-09-10.governors-ny. Their pages, found by search: 405-7, 416-19, 447-52, 488-93, 502-3, 506, 517, 523-25, 541.
 
-Besides, eleven entries of 1960 the pages read treat take a cite with page: cal.1960-05-01, -05-12 (republican-party),
--05-25-2, -05-30, -05 (-2), -06-11, -07-08-5, -07-18, -07-19-2, -07 (-2, -12), -07-21-2.
+Besides, eleven entries of 1960 the pages read treat take a cite with page: cal.1960-05-01, -05-12 (republican-party), -05-25-2, -05-30, -05 (-2), -06-11, -07-08-5, -07-18, -07-19-2, -07 (-2, -12), -07-21-2.
 
 ## New entries (9)
 
-New York, 1960: Rockefeller's veto of the one-year residence bar to welfare (Mar. 22); the pension law and the Loyalty
-Day parade with Wagner (Mar. 23); the settlement with Wagner, $40 million (Mar. 26); Mahoney's killing of the housing
-discrimination bill (Mar. 30). The pre-convention season: Finch to Bixby (early March); Hinman to Keating (mid-May);
-Hinman's memorandum of May 20; Hinman with Brinton (June 16); Rockefeller's memorandum to Percy (July 9).
+New York, 1960: Rockefeller's veto of the one-year residence bar to welfare (Mar. 22); the pension law and the Loyalty Day parade with Wagner (Mar. 23); the settlement with Wagner, $40 million (Mar. 26); Mahoney's killing of the housing discrimination bill (Mar. 30). The pre-convention season: Finch to Bixby (early March); Hinman to Keating (mid-May); Hinman's memorandum of May 20; Hinman with Brinton (June 16); Rockefeller's memorandum to Percy (July 9).
 
 ## Disagreements
 
 - Rockefeller's call to Eisenhower: Smith, 341, June 9, returned two days later; the entry, June 11 (a Check added).
 - Rockefeller before the platform committee: Smith, 343, Monday, July 18; the entry, July 19 (a Check added).
-- Rockefeller and the convention, mid-May 1960: Smith, 338-39, has him decide at Albany to go at the head of an
-  uncommitted delegation; the entry, that he will not go (a Check added).
+- Rockefeller and the convention, mid-May 1960: Smith, 338-39, has him decide at Albany to go at the head of an uncommitted delegation; the entry, that he will not go (a Check added).
 
 ## Passed over (pp. 333-45)
 
@@ -67,34 +53,22 @@ Hinman's memorandum of May 20; Hinman with Brinton (June 16); Rockefeller's memo
 
 ## Witnesses
 
-Not registered this run: Smith's notes (by page and catchword) for pp. 333-45, 379 and 412 are still to be read and
-their witnesses written to `inbox/witnesses/` and `sources/witnesses/by-work/smith-on-his-own-terms.yaml`. The entries'
-maps carry the book's rows only.
+Not registered this run: Smith's notes (by page and catchword) for pp. 333-45, 379 and 412 are still to be read and their witnesses written to `inbox/witnesses/` and `sources/witnesses/by-work/smith-on-his-own-terms.yaml`. The entries' maps carry the book's rows only.
 
 ## Where the run stopped
 
-Read for entries: pp. 333-45 (Jan.-July 1960). Read for the cites only: 379, 412. Not yet read: pp. 305-32 (the
-1959-60 session's beginnings and the withdrawal of December 1959, out of the span before Jan. 6, 1960), 346-411 (the
-convention of 1960 to June 1963: the 1961 and 1962 sessions, the divorce, the campaign of 1962), 413-548 (July 1963 to
-the inauguration of 1969: the campaign for 1964, the convention, the governorship of 1965-68, the campaign of 1966, the
-campaign of 1968). The next reader should begin at p. 346, then the ten entries above still to hold up.
+Read for entries: pp. 333-45 (Jan.-July 1960). Read for the cites only: 379, 412. Not yet read: pp. 305-32 (the 1959-60 session's beginnings and the withdrawal of December 1959, out of the span before Jan. 6, 1960), 346-411 (the convention of 1960 to June 1963: the 1961 and 1962 sessions, the divorce, the campaign of 1962), 413-548 (July 1963 to the inauguration of 1969: the campaign for 1964, the convention, the governorship of 1965-68, the campaign of 1966, the campaign of 1968). The next reader should begin at p. 346, then the ten entries above still to hold up.
 
 ## Leads
 
-- New York's session laws of 1960 for the dates the 1960 program was signed (minimum wage, Housing Finance Agency, arts
-  council).
+- New York's session laws of 1960 for the dates the 1960 program was signed (minimum wage, Housing Finance Agency, arts council).
 - Eisenhower's two telephone calls to Rockefeller, spring 1960 (Smith 336): the Eisenhower Library's telephone logs.
 
 # Third run (Nov. 4, 2026; b3-smith-rockefeller-3)
 
-Patch `inbox/2026-11-03-b3-smith-rockefeller-3.yaml` (47 ops: 31 cites, 4 checks, 6 to-checks, 3 src rows on entries, 12 new
-entries claimed in the ledger); witnesses `inbox/witnesses/2026-11-03-b3-smith-rockefeller-3.yaml` (12); Smith's edges
-`sources/witnesses/by-work/smith-on-his-own-terms.yaml` (22). **A partial run, stopped at a clean point for want of context: the
-ten cites held up, and the pages they sent me to read for entries; pp. 346-404 and most of 420-548 still unread.**
+Patch `inbox/2026-11-03-b3-smith-rockefeller-3.yaml` (47 ops: 31 cites, 4 checks, 6 to-checks, 3 src rows on entries, 12 new entries claimed in the ledger); witnesses `inbox/witnesses/2026-11-03-b3-smith-rockefeller-3.yaml` (12); Smith's edges `sources/witnesses/by-work/smith-on-his-own-terms.yaml` (22). **A partial run, stopped at a clean point for want of context: the ten cites held up, and the pages they sent me to read for entries; pp. 346-404 and most of 420-548 still unread.**
 
-The copy: the same Drive PDF, fetched by its public download address; offset 54 confirmed on pp. 346, 396, 446, 496, 546, 548;
-the notes, printed page = PDF page less 70 (pp. 731-800). Pages 414 and 526 checked against the page images (the declaration of
-Nov. 7, 1963 on *Today*; the Assembly's 86 to 45). Text read from the layer; the PDF and images deleted.
+The copy: the same Drive PDF, fetched by its public download address; offset 54 confirmed on pp. 346, 396, 446, 496, 546, 548; the notes, printed page = PDF page less 70 (pp. 731-800). Pages 414 and 526 checked against the page images (the declaration of Nov. 7, 1963 on *Today*; the Assembly's 86 to 45). Text read from the layer; the PDF and images deleted.
 
 ## The ten cites held up
 
@@ -111,34 +85,22 @@ Nov. 7, 1963 on *Today*; the Assembly's 86 to 45). Text read from the layer; the
 | cal.1968-04-09.cities-and-housing-ny | pinned in part: 523-26 (the Assembly's second vote, 86 to 45, before midnight Apr. 9, settles half the entry's "Check the votes"; Logue) |
 | cal.1968-09-10.governors-ny | pinned in part: 541; Smith gives the choice Sept. 9 (Check added) |
 
-Cites added to other entries the pages bear on: cal.1963-09-07.republican-party (413), 1963-11-13.democratic-party (414-15),
-1963-11-22.goldwater (418), 1963-11-22.elections-1964-2 (pending, 417-18), 1964-05-30.elections-1964-2 (pending, 446),
-1964-06-02.elections-1964 (447: the California figures), 1964-07-14 (451), 1964-07-15.goldwater (pending, 451: Wednesday night,
-July 15), 1964-07-16 (452), 1964-07-17.elections-1964-2 (452), 1966-11-08.governors-ny (493-94), 1966-11-08.states-and-cities-nyc
-(492-93), 1968-03-18.republican-party (516), 1968-03-19.republican-party-congress (516).
+Cites added to other entries the pages bear on: cal.1963-09-07.republican-party (413), 1963-11-13.democratic-party (414-15), 1963-11-22.goldwater (418), 1963-11-22.elections-1964-2 (pending, 417-18), 1964-05-30.elections-1964-2 (pending, 446), 1964-06-02.elections-1964 (447: the California figures), 1964-07-14 (451), 1964-07-15.goldwater (pending, 451: Wednesday night, July 15), 1964-07-16 (452), 1964-07-17.elections-1964-2 (452), 1966-11-08.governors-ny (493-94), 1966-11-08.states-and-cities-nyc (492-93), 1968-03-18.republican-party (516), 1968-03-19.republican-party-congress (516).
 
 ## Disagreements
 
 - Rockefeller's declaration, 1963: Smith, 414, Nov. 7 on NBC's *Today*; the entry, at Albany (Check).
-- The decision not to run, 1968: the entry (cal.1968-03-19.republican-party-congress) has Rockefeller decide on his jet that
-  night; Smith, 516, at Fifty-fifth Street by one o'clock that day, after Hughes and Braun at 11:30 (Check). Smith's witnesses:
-  Riland's diary, Mar. 20; Braun, "History," 4; Hughes, HMI, 6.
+- The decision not to run, 1968: the entry (cal.1968-03-19.republican-party-congress) has Rockefeller decide on his jet that night; Smith, 516, at Fifty-fifth Street by one o'clock that day, after Hughes and Braun at 11:30 (Check). Smith's witnesses: Riland's diary, Mar. 20; Braun, "History," 4; Hughes, HMI, 6.
 - Goodell: Smith, 541, named Sept. 9; the entry, Sept. 10, the certificate's date (Check).
-- Agnew and the call list, Mar. 1968: Smith, 517 and n., by Braun (HMI, 43) Agnew was excluded; David Cargo says Agnew was on
-  it (Smith's note to 517). Not in the entry's units; noted here.
+- Agnew and the call list, Mar. 1968: Smith, 517 and n., by Braun (HMI, 43) Agnew was excluded; David Cargo says Agnew was on it (Smith's note to 517). Not in the entry's units; noted here.
 
 ## New entries (12)
 
-Aug. 5, 1963 (no pledge to Goldwater "if he were a captive of the radical right"); Sept. 1963, Roanoke and the Illinois and
-Virginia visits; Sept. 1963, the European tour (de Gaulle, Adenauer, Berlin, Paul VI, Macmillan at Chequers); Sept. 25, 1964,
-Goldwater and Rockefeller at Albany; Sept. 3-5, 1966, the beaches, "the big blooper"; mid-Oct. 1966, Quayle's poll for NBC; Oct.
-21, 1966, the *Daily News* straw poll; Oct. 28, 1966, "to mug, to purse-snatch"; Mar. 23, 1968, Nixon to Safire, "It was the
-polls"; Apr. 10, 1968, the legislators' pension plan; Oct. 28, 1968, Nixon and Rockefeller at Albany; Nov. 5, 1968, the Pierre.
+Aug. 5, 1963 (no pledge to Goldwater "if he were a captive of the radical right"); Sept. 1963, Roanoke and the Illinois and Virginia visits; Sept. 1963, the European tour (de Gaulle, Adenauer, Berlin, Paul VI, Macmillan at Chequers); Sept. 25, 1964, Goldwater and Rockefeller at Albany; Sept. 3-5, 1966, the beaches, "the big blooper"; mid-Oct. 1966, Quayle's poll for NBC; Oct. 21, 1966, the *Daily News* straw poll; Oct. 28, 1966, "to mug, to purse-snatch"; Mar. 23, 1968, Nixon to Safire, "It was the polls"; Apr. 10, 1968, the legislators' pension plan; Oct. 28, 1968, Nixon and Rockefeller at Albany; Nov. 5, 1968, the Pierre.
 
 ## Passed over (the pages read this run)
 
-Made by reading each page read this run (405-7, 413-19, 446-47, 451-53, 487-94, 502-3, 506, 516-17, 523-26, 541) for every dated
-event and setting each against the calendar and the ledger.
+Made by reading each page read this run (405-7, 413-19, 446-47, 451-53, 487-94, 502-3, 506, 516-17, 523-26, 541) for every dated event and setting each against the calendar and the ledger.
 
 | page | date | event | why |
 |---|---|---|---|
@@ -184,83 +146,45 @@ event and setting each against the calendar and the ledger.
 
 ## Witnesses
 
-Registered for the passages cited (12 new rows; the *Time* of July 24, 1964, already registered, takes Smith's edge); the edges
-of Smith's notes to cards: Novak, *Agony*, 216; Heath, *Course of My Life*, 244; Sorensen, *Kennedy* (2009 ed.), 754; White, *Making
-of the President, 1964*, 6-7; Nixon, *RN*, 312; Perlstein, *Before the Storm*, 389; Safire, *Before the Fall*, 18; Persico,
-*Imperial Rockefeller*, 113; Kramer and Roberts, 86-87. Most of Smith's notes for these pages are author's interviews (AI) and
-Hugh Morrow's interviews (HMI, Rockefeller Archive Center): roots not held. The notes for pp. 333-45, 379 and 412 (the second run's
-cites) are still to register. The maps were not read inline in a scratch merge this run.
+Registered for the passages cited (12 new rows; the *Time* of July 24, 1964, already registered, takes Smith's edge); the edges of Smith's notes to cards: Novak, *Agony*, 216; Heath, *Course of My Life*, 244; Sorensen, *Kennedy* (2009 ed.), 754; White, *Making of the President, 1964*, 6-7; Nixon, *RN*, 312; Perlstein, *Before the Storm*, 389; Safire, *Before the Fall*, 18; Persico, *Imperial Rockefeller*, 113; Kramer and Roberts, 86-87. Most of Smith's notes for these pages are author's interviews (AI) and Hugh Morrow's interviews (HMI, Rockefeller Archive Center): roots not held. The notes for pp. 333-45, 379 and 412 (the second run's cites) are still to register. The maps were not read inline in a scratch merge this run.
 
 ## Where the run stopped
 
-Read: pp. 405-7, 413-19, 446-47, 451-53, 487-94, 502-3, 506, 516-17, 523-26, 541, and their notes. Not yet read: pp. 346-404
-(the convention of 1960 to the spring of 1963), 408-12, 420-45 (the primaries of 1964), 448-50 (plates), 454-86 (1964-66),
-495-501, 504-5, 507-15 (the sanitation strike, 1967-68), 518-22, 527-40, 542-48 (the convention of 1968; the close of 1968). The
-next reader: begin at p. 346; the rows above marked "the next reader".
+Read: pp. 405-7, 413-19, 446-47, 451-53, 487-94, 502-3, 506, 516-17, 523-26, 541, and their notes. Not yet read: pp. 346-404 (the convention of 1960 to the spring of 1963), 408-12, 420-45 (the primaries of 1964), 448-50 (plates), 454-86 (1964-66), 495-501, 504-5, 507-15 (the sanitation strike, 1967-68), 518-22, 527-40, 542-48 (the convention of 1968; the close of 1968). The next reader: begin at p. 346; the rows above marked "the next reader".
 
 ## Leads (third run)
 
 - National: Nixon to Hoover, Nov. 22, 1963 (Smith 418; Nixon, *RN*, 312): see whether the calendar has it.
-- National: Clif White's forecast, May 29, 1964 (Smith 447); Scranton to Rockefeller, Aug. 3, 1964, and Rockefeller to Hugh Scott,
-  Aug. 28, 1964 (RAC; Smith 452).
-- States and cities: New York's direct primary law of 1967, the State Historic Trust, the Office of Collective Bargaining (Sept.
-  1967): the session laws and the city's record (Smith 502).
-- States and cities: Johnson at Buffalo, Oct. 1966, and the State's Erie County study three days before (Smith 490): the Public
-  Papers for the day.
+- National: Clif White's forecast, May 29, 1964 (Smith 447); Scranton to Rockefeller, Aug. 3, 1964, and Rockefeller to Hugh Scott, Aug. 28, 1964 (RAC; Smith 452).
+- States and cities: New York's direct primary law of 1967, the State Historic Trust, the Office of Collective Bargaining (Sept. 1967): the session laws and the city's record (Smith 502).
+- States and cities: Johnson at Buffalo, Oct. 1966, and the State's Erie County study three days before (Smith 490): the Public Papers for the day.
 - States and cities: the legislators' pension law of Apr. 10, 1968 (Smith 526): *Laws of New York*, 1968, its chapter.
 - States and cities: Logue and Rockefeller, Jan. 1968 (Smith 524; Benjamin and Hurd, *Rockefeller in Retrospect*).
 - National: Nixon's endorsement of Rockefeller, Oct. 1966 (Smith 491): the day.
 
 # Fourth run (Nov. 4, 2026; b3-smith-rockefeller-4)
 
-Patch `inbox/2026-11-03-b3-smith-rockefeller-4.yaml` (102 ops: 42 cites, 3 checks, 4 to-checks, 2 src ops, 51 new entries
-claimed in the ledger); witnesses `inbox/witnesses/2026-11-03-b3-smith-rockefeller-4.yaml` (32); Smith's edges appended to
-`sources/witnesses/by-work/smith-on-his-own-terms.yaml` (38: the 32 witnesses and 6 to cards, Rorabaugh, Alsop, Caro's *Power
-Broker*, Novak's *Agony* twice, Bleecker). The assignment: pp. 346-453, the pages the earlier runs left unread (346-404,
-408-12, 420-45) and the rows "the next reader" on 447 and 452. **Read for entries: pp. 346-404, 408-12, 420-47, 452, and their
-notes.** Offset 54 confirmed again on pp. 346, 376, 404, 420, 445; the notes, less 70. Page 425 checked against the image (Feb.
-22, Franconia; $750; ninety-five thousand). Text read from the layer; the PDF and the image deleted.
+Patch `inbox/2026-11-03-b3-smith-rockefeller-4.yaml` (102 ops: 42 cites, 3 checks, 4 to-checks, 2 src ops, 51 new entries claimed in the ledger); witnesses `inbox/witnesses/2026-11-03-b3-smith-rockefeller-4.yaml` (32); Smith's edges appended to `sources/witnesses/by-work/smith-on-his-own-terms.yaml` (38: the 32 witnesses and 6 to cards, Rorabaugh, Alsop, Caro's *Power Broker*, Novak's *Agony* twice, Bleecker). The assignment: pp. 346-453, the pages the earlier runs left unread (346-404, 408-12, 420-45) and the rows "the next reader" on 447 and 452. **Read for entries: pp. 346-404, 408-12, 420-47, 452, and their notes.** Offset 54 confirmed again on pp. 346, 376, 404, 420, 445; the notes, less 70. Page 425 checked against the image (Feb. 22, Franconia; $750; ninety-five thousand). Text read from the layer; the PDF and the image deleted.
 
 ## New entries (51)
 
-1960: Eisenhower's "personal treachery" and Hagerty to Percy on the defense plank (July 23); Herter and Gates's $4 billion, by
-Alsop (July); Rockefeller to Nixon (Nov. 15); Hinman's "Washington Intelligence" (Dec. 12). 1961: the tugboat strike and the
-inauguration (Jan. 20); Kennedy to Rockefeller (Jan. 24); the higher education message (Jan.) and its passage (Mar.); Hinman on
-Clif White (Feb. 25); after the Bay of Pigs (Apr.); Hinman to Morhouse (July 19); Chicago, the Department of Urban Affairs (Aug.);
-Hinman, "Ike" (Sept. 10); the National Indignation Convention, Reagan (Nov.); the separation (Nov. 17); Hinman on the midwestern
-conference (Dec. 4), "The Great Republican Issue" (Dec. 11), Goldwater's "I would hire you" (Dec. 14). 1962: Agron (Feb. 7);
-Niagara Falls (Feb. 15); Reno (Mar. 16); the South Mall: the taking (Mar. 27), Harrison (May 24), the appeal (June 30); the
-Construction Fund (Mar. 31); Wagner out (May); Harris and Morgenthau (Aug.); Oct. 22 and 23 in Albany; the debate (Nov. 4);
-Moses (Nov. 27, 28); Morhouse (Dec. 27). 1963: the budget of fees (Jan.); Kansas and Omaha (Apr.); the Albany County lease (Apr.
-16); Evans and Novak, "Hinman to the Rescue" (May 20); Denver (June 22); Gregg (Aug.). 1964: the calls to Lodge (Feb. 20, 22);
-"a victory for moderation" (Mar. 10); Price (Mar.); the liquor bills (Mar.; Apr. 7, 14); the California publishers (Apr.);
-Salem (May 7); *The Extremists* (May 28); Scranton to Rockefeller (Aug. 3); Rockefeller to Scott (Aug. 28).
+1960: Eisenhower's "personal treachery" and Hagerty to Percy on the defense plank (July 23); Herter and Gates's $4 billion, by Alsop (July); Rockefeller to Nixon (Nov. 15); Hinman's "Washington Intelligence" (Dec. 12). 1961: the tugboat strike and the inauguration (Jan. 20); Kennedy to Rockefeller (Jan. 24); the higher education message (Jan.) and its passage (Mar.); Hinman on Clif White (Feb. 25); after the Bay of Pigs (Apr.); Hinman to Morhouse (July 19); Chicago, the Department of Urban Affairs (Aug.); Hinman, "Ike" (Sept. 10); the National Indignation Convention, Reagan (Nov.); the separation (Nov. 17); Hinman on the midwestern conference (Dec. 4), "The Great Republican Issue" (Dec. 11), Goldwater's "I would hire you" (Dec. 14). 1962: Agron (Feb. 7); Niagara Falls (Feb. 15); Reno (Mar. 16); the South Mall: the taking (Mar. 27), Harrison (May 24), the appeal (June 30); the Construction Fund (Mar. 31); Wagner out (May); Harris and Morgenthau (Aug.); Oct. 22 and 23 in Albany; the debate (Nov. 4); Moses (Nov. 27, 28); Morhouse (Dec. 27). 1963: the budget of fees (Jan.); Kansas and Omaha (Apr.); the Albany County lease (Apr. 16); Evans and Novak, "Hinman to the Rescue" (May 20); Denver (June 22); Gregg (Aug.). 1964: the calls to Lodge (Feb. 20, 22); "a victory for moderation" (Mar. 10); Price (Mar.); the liquor bills (Mar.; Apr. 7, 14); the California publishers (Apr.); Salem (May 7); *The Extremists* (May 28); Scranton to Rockefeller (Aug. 3); Rockefeller to Scott (Aug. 28).
 
 ## Cites added (42, to 41 entries; pending ids: cal.1961-01.goldwater-2, 1963-07.goldwater-5, 1964-05-27 and -28.elections-1964)
 
-The July 1960 convention (07-22, 07-23-2, 07-24, 07-26.republican-party); Javits and the Senatorial committee (1961-01); YAF at
-the Manhattan Center; Honolulu, 1961, and Hershey, 1962 (the civil rights resolutions); King at Albany (1961-06); the city
-election of 1961; the shelter session (1961-11-09); the Conservative Party (1962-02); the conventions of 1962 (two cites); Oct. 27,
-1962; the election of 1962; the Gallup polls of Feb. and May 1963; Apr. 9, 1963 (Cuba); the Young Republicans at San Francisco;
-"no more breakfasts"; Dec. 8, 1963; Jan. 3 and 7, 1964; New Hampshire (Gregg; the bus; the Lodge write-in, its mailings and film;
-the letter to Lodge; the primary; Mar. 11); California (the committee); Oregon (Price; the last week; the primary); Grindle's
-money; May 24, 25, 27, 28, 29, 1964.
+The July 1960 convention (07-22, 07-23-2, 07-24, 07-26.republican-party); Javits and the Senatorial committee (1961-01); YAF at the Manhattan Center; Honolulu, 1961, and Hershey, 1962 (the civil rights resolutions); King at Albany (1961-06); the city election of 1961; the shelter session (1961-11-09); the Conservative Party (1962-02); the conventions of 1962 (two cites); Oct. 27, 1962; the election of 1962; the Gallup polls of Feb. and May 1963; Apr. 9, 1963 (Cuba); the Young Republicans at San Francisco; "no more breakfasts"; Dec. 8, 1963; Jan. 3 and 7, 1964; New Hampshire (Gregg; the bus; the Lodge write-in, its mailings and film; the letter to Lodge; the primary; Mar. 11); California (the committee); Oregon (Price; the last week; the primary); Grindle's money; May 24, 25, 27, 28, 29, 1964.
 
 ## Disagreements
 
-- Price and Oregon: the entry (cal.1964-04-11.elections-1964) dates Price's report Apr. 11; Smith, 429, has him fly to Portland
-  Apr. 5 and report at 521 Fifth Avenue Apr. 1, the two dates at odds with each other (Check).
-- Rockefeller's California committee: the entry (cal.1964-03.elections-1964-2) is March; Smith, 428, has Hinman unveil it more
-  than a month before New Hampshire (Hinman to Capehart, Feb. 5, 1964) (Check).
+- Price and Oregon: the entry (cal.1964-04-11.elections-1964) dates Price's report Apr. 11; Smith, 429, has him fly to Portland Apr. 5 and report at 521 Fifth Avenue Apr. 1, the two dates at odds with each other (Check).
+- Rockefeller's California committee: the entry (cal.1964-03.elections-1964-2) is March; Smith, 428, has Hinman unveil it more than a month before New Hampshire (Hinman to Capehart, Feb. 5, 1964) (Check).
 - Loyola, May 27, 1964: the pending entry has the trustees withdraw the invitation; Smith, 444-45, Cardinal McIntyre (Check).
 - Kennedy's reply of 1961: Smith's text, three days after the inauguration; the note, Jan. 24 (Check in the entry).
-- The Oregon count: Smith, 438, ninety-three thousand to seventy-eight thousand; the entry, 94,190 to 79,169 (no Check: Smith
-  rounds; the entry's figures stand).
+- The Oregon count: Smith, 438, ninety-three thousand to seventy-eight thousand; the entry, 94,190 to 79,169 (no Check: Smith rounds; the entry's figures stand).
 
 ## Passed over (pp. 346-447, 452)
 
-Made by reading each page for every dated event and setting each against the calendar and the ledger (`./bib ledger find`, and a
-grep of the calendar's `c` for names and words).
+Made by reading each page for every dated event and setting each against the calendar and the ledger (`./bib ledger find`, and a grep of the calendar's `c` for names and words).
 
 | page | date | event | why |
 |---|---|---|---|
@@ -370,18 +294,11 @@ grep of the calendar's `c` for names and words).
 
 ## Witnesses
 
-32 registered in `inbox/witnesses/2026-11-03-b3-smith-rockefeller-4.yaml`: the Rockefeller Archive Center's letters and
-memoranda (Hinman's above all), the Governor's *Public Papers* for 1962, the papers and magazines Smith's notes name, and
-Bleecker's study (no card). None read: all open, "not held." Edges to cards: Rorabaugh, 111; Alsop, 416-18; Caro, *Power
-Broker*, 1072-81; Novak, *Agony*, 176-77 and 212. The maps of the new entries carry `via` rows to the x. witnesses; works reached
-only through a card edge stand in "To check:". Most of Smith's other notes are interviews (AI, HMI): not registered, as no entry
-here rests on them alone.
+32 registered in `inbox/witnesses/2026-11-03-b3-smith-rockefeller-4.yaml`: the Rockefeller Archive Center's letters and memoranda (Hinman's above all), the Governor's *Public Papers* for 1962, the papers and magazines Smith's notes name, and Bleecker's study (no card). None read: all open, "not held." Edges to cards: Rorabaugh, 111; Alsop, 416-18; Caro, *Power Broker*, 1072-81; Novak, *Agony*, 176-77 and 212. The maps of the new entries carry `via` rows to the x. witnesses; works reached only through a card edge stand in "To check:". Most of Smith's other notes are interviews (AI, HMI): not registered, as no entry here rests on them alone.
 
 ## Where the run stopped
 
-Read: pp. 346-404, 408-12, 420-47, 452 (the assignment, pp. 346-453, done but 448-50, plates). Not yet read: pp. 305-32 (out of
-the span but for early January 1960), 454-86, 495-501, 504-5, 507-15, 518-22, 527-40, 542-48. The next reader: the rows above
-marked "the next reader"; then p. 454.
+Read: pp. 346-404, 408-12, 420-47, 452 (the assignment, pp. 346-453, done but 448-50, plates). Not yet read: pp. 305-32 (out of the span but for early January 1960), 454-86, 495-501, 504-5, 507-15, 518-22, 527-40, 542-48. The next reader: the rows above marked "the next reader"; then p. 454.
 
 ## Leads (fourth run)
 
@@ -390,34 +307,22 @@ marked "the next reader"; then p. 454.
 - National: Kennedy to Bradlee on Rockefeller and *Newsweek*'s cover (Bradlee, *Conversations with Kennedy*, 74-75): the day.
 - National: the Ideological Organizations Project of the IRS, late 1961 (Smith 379 n.; Andrew, *The Other Side of the Sixties*).
 - National: Goldwater on the divorce, Nov. 1961; Khrushchev on it (Smith 364-65): the days.
-- States and cities: New York's session laws of 1961, 1962, 1963 and 1964 for the days the governor signed the higher education
-  program, the Metcalf-Baker law, the Job Development Authority, the State University Construction Fund (Mar. 31, 1962, Smith's
-  date), the Albany County lease, the liquor bills; and the canvass of the bond issue of Nov. 1961.
-- States and cities: the Liquor Authority scandal: Epstein's removal, Hostetter's appointment, the Walsh commission (Smith 391-92;
-  *Life*, Apr. 5, 1963).
+- States and cities: New York's session laws of 1961, 1962, 1963 and 1964 for the days the governor signed the higher education program, the Metcalf-Baker law, the Job Development Authority, the State University Construction Fund (Mar. 31, 1962, Smith's date), the Albany County lease, the liquor bills; and the canvass of the bond issue of Nov. 1961.
+- States and cities: the Liquor Authority scandal: Epstein's removal, Hostetter's appointment, the Walsh commission (Smith 391-92; *Life*, Apr. 5, 1963).
 - States and cities: *Public Papers of Nelson A. Rockefeller*, 1962 (pp. 1036-39, 1120, 1132-35, 1159, 1208-12): find an open copy.
 - States and cities: the appeals court's decision on the South Mall, June 30, 1962 (Smith 400): the court and the cite.
 
 # Fifth run (Nov. 4, 2026; b3-smith-rockefeller-5)
 
-Assigned pp. 454-548 only (after the 1964 convention to Jan. 1969), the pages the earlier runs left unread (454-86, 495-501,
-504-5, 507-15, 518-22, 527-40, 542-48) and the "next reader" rows of those pages (523-24, Logue; 526, Singletary). Another
-reader has pp. 346-453 (patch -4). Patch `inbox/2026-11-03-b3-smith-rockefeller-5.yaml`; witnesses
-`inbox/witnesses/2026-11-03-b3-smith-rockefeller-5.yaml`, Smith's edges at its foot, commented, for the merger to append to
-`sources/witnesses/by-work/smith-on-his-own-terms.yaml` (the other Smith reader writes that file now).
+Assigned pp. 454-548 only (after the 1964 convention to Jan. 1969), the pages the earlier runs left unread (454-86, 495-501, 504-5, 507-15, 518-22, 527-40, 542-48) and the "next reader" rows of those pages (523-24, Logue; 526, Singletary). Another reader has pp. 346-453 (patch -4). Patch `inbox/2026-11-03-b3-smith-rockefeller-5.yaml`; witnesses `inbox/witnesses/2026-11-03-b3-smith-rockefeller-5.yaml`, Smith's edges at its foot, commented, for the merger to append to `sources/witnesses/by-work/smith-on-his-own-terms.yaml` (the other Smith reader writes that file now).
 
-The copy: the same Drive PDF, by its public download address; offset 54 confirmed on pp. 454, 486, 548 (running heads);
-the notes, printed page = PDF page less 70 (pp. 773-784). Text read from the layer (pdftotext); no pinpoint needed the image
-this run (each page's running head and folio read in the layer). The PDF deleted at the run's end.
+The copy: the same Drive PDF, by its public download address; offset 54 confirmed on pp. 454, 486, 548 (running heads); the notes, printed page = PDF page less 70 (pp. 773-784). Text read from the layer (pdftotext); no pinpoint needed the image this run (each page's running head and folio read in the layer). The PDF deleted at the run's end.
 
 (Sections below written as the run went; see "Where the run stopped".)
 
 ## Read this run
 
-Pp. 454-86, 495-501, 504-5, 507-22, 523-24 (Logue), 526 (Singletary), 527-40, 542-47, and their notes (pp. 773-84);
-p. 548 and the end of 547 skimmed only so far as to see they treat 1969 (after Jan. 20, out of the span). Each page read for
-every dated event, set against the calendar (`./bib find`, `./bib ledger find` by day) before it was entered or cited.
-Not read: 487-94, 502-3, 506, 516-17, 523-26 (but for the two rows above) and 541 (the third run's; their cites stand).
+Pp. 454-86, 495-501, 504-5, 507-22, 523-24 (Logue), 526 (Singletary), 527-40, 542-47, and their notes (pp. 773-84); p. 548 and the end of 547 skimmed only so far as to see they treat 1969 (after Jan. 20, out of the span). Each page read for every dated event, set against the calendar (`./bib find`, `./bib ledger find` by day) before it was entered or cited. Not read: 487-94, 502-3, 506, 516-17, 523-26 (but for the two rows above) and 541 (the third run's; their cites stand).
 
 ## Cites to entries already in (or in the ledger)
 
@@ -454,20 +359,7 @@ Not read: 487-94, 502-3, 506, 516-17, 523-26 (but for the two rows above) and 54
 
 ## New entries (91)
 
-1964-65: Rockefeller's postelection press conference and his answer to Nixon (Nov. 1964); the Assembly Democrats' caucus,
-Dec. 22; the annual message, Jan. 5; the sales tax proposed (Jan.); the call to Wagner (Feb.); the Washington breakfast, Feb.
-25, and Lindsay's refusal, Feb. 26; the in-house polls (May); Lindsay at the Executive Mansion, May 11; Rockefeller on Lindsay
-and the White House, Oct. 31; election night at the Roosevelt Hotel, Nov. 2; Kempton's column, Nov. 5; the one-day trips (from
-Nov.); Johnson's call in the blackout, Nov. 9 (the recording on the Miller Center, to check). 1966: the $100 million after the
-transit strike (Jan.); the Lincoln Day dinner, Feb. 16; Riesel's column, Feb. 23; the announcement in Harlem, Apr. 8; Lindsay's
-budget and challenge, Apr. 15, 17; Price at Albany (May); June 8; the Executive Mansion talks, June 14-16; Kempton, June 16; the
-delegation and Medicaid (June); Dorado Beach (Nov.); Hinman, Dec. 28; Lindsay's Christmas letter (Dec.). 1967: Moses and the
-MTA, three entries (Mar.); Seidman at Pocantico (Apr.); Agnew, July 1; Hinman, July 7, Oct. 6, Oct. 19; Larry King (Oct.);
-*Time*, Oct. 20; Agnew to Rockefeller, Nov. 24; the Central Park allée, Dec. 6. 1968: Logue (Jan.); Rockefeller to Reagan,
-Jan. 12; Hinman, Jan. 23, Jan. 29; the sanitation strike, Feb. 6, 7, 8, 9 (two), 11, 17; Triborough into the MTA, Feb. 9; the
-MTA (Mar.); Schlesinger's lunch, Feb. 16; Feb. 21; Jackie Robinson, Feb. 26; Mar. 9, 11-14, 15, 16, 20, 27; King, Apr. 5, 6;
-Apr. 11, 12, 18, 25; May 16, 17, 20, 27; June 6 (two), 7, 9, 10, 13, the Senate seat (June), June 24; July (David
-Rockefeller), July 8; Aug. 7, 8, 13, 20; Nov. (Safire), Nov. 22, 26, 29.
+1964-65: Rockefeller's postelection press conference and his answer to Nixon (Nov. 1964); the Assembly Democrats' caucus, Dec. 22; the annual message, Jan. 5; the sales tax proposed (Jan.); the call to Wagner (Feb.); the Washington breakfast, Feb. 25, and Lindsay's refusal, Feb. 26; the in-house polls (May); Lindsay at the Executive Mansion, May 11; Rockefeller on Lindsay and the White House, Oct. 31; election night at the Roosevelt Hotel, Nov. 2; Kempton's column, Nov. 5; the one-day trips (from Nov.); Johnson's call in the blackout, Nov. 9 (the recording on the Miller Center, to check). 1966: the $100 million after the transit strike (Jan.); the Lincoln Day dinner, Feb. 16; Riesel's column, Feb. 23; the announcement in Harlem, Apr. 8; Lindsay's budget and challenge, Apr. 15, 17; Price at Albany (May); June 8; the Executive Mansion talks, June 14-16; Kempton, June 16; the delegation and Medicaid (June); Dorado Beach (Nov.); Hinman, Dec. 28; Lindsay's Christmas letter (Dec.). 1967: Moses and the MTA, three entries (Mar.); Seidman at Pocantico (Apr.); Agnew, July 1; Hinman, July 7, Oct. 6, Oct. 19; Larry King (Oct.); *Time*, Oct. 20; Agnew to Rockefeller, Nov. 24; the Central Park allée, Dec. 6. 1968: Logue (Jan.); Rockefeller to Reagan, Jan. 12; Hinman, Jan. 23, Jan. 29; the sanitation strike, Feb. 6, 7, 8, 9 (two), 11, 17; Triborough into the MTA, Feb. 9; the MTA (Mar.); Schlesinger's lunch, Feb. 16; Feb. 21; Jackie Robinson, Feb. 26; Mar. 9, 11-14, 15, 16, 20, 27; King, Apr. 5, 6; Apr. 11, 12, 18, 25; May 16, 17, 20, 27; June 6 (two), 7, 9, 10, 13, the Senate seat (June), June 24; July (David Rockefeller), July 8; Aug. 7, 8, 13, 20; Nov. (Safire), Nov. 22, 26, 29.
 
 ## Disagreements
 
@@ -479,17 +371,14 @@ Rockefeller), July 8; Aug. 7, 8, 13, 20; Nov. (Safire), Nov. 22, 26, 29.
 - Gallup, fall 1967: Smith, 497, Rockefeller-Reagan 57 to 43; the entry, 55 to 41 (Check).
 - Romney's "brainwashing": Smith, 497, a Detroit radio host; the entry, television (Check).
 - The Press Club speech: Smith, 532, "Tuesday, June 1"; the entry, June 11 (Check).
-- Rockefeller's statement on King: Smith, 521-22, the night of Apr. 4; his note, the statement of Apr. 5 (the entry dated Apr. 5,
-  Check).
-- Rockefeller's note to Nixon, "Ours is a turbulent world": Smith, 543, Jan. 20, 1969; the note, NAR-RMN, June 20, 1969 (not
-  entered; a lead).
+- Rockefeller's statement on King: Smith, 521-22, the night of Apr. 4; his note, the statement of Apr. 5 (the entry dated Apr. 5, Check).
+- Rockefeller's note to Nixon, "Ours is a turbulent world": Smith, 543, Jan. 20, 1969; the note, NAR-RMN, June 20, 1969 (not entered; a lead).
 - The "Dear Ted" telegram on the Super Bowl: Smith, 542, after the game of Jan. 12, 1969; the note, Jan. 19, 1969 (not entered).
 - Smith's note to 462 dates the *Times* on Spad and Young Feb. 5, 1968, for 1965 (a misprint; the edge goes to Feb. 5, 1965).
 
 ## Passed over (the pages read this run)
 
-Made by reading each page above for every dated event, then setting each against the calendar and the ledger; what follows is
-each event the pages treat and the run did not enter or cite.
+Made by reading each page above for every dated event, then setting each against the calendar and the ledger; what follows is each event the pages treat and the run did not enter or cite.
 
 | page | date | event | why |
 |---|---|---|---|
@@ -573,8 +462,7 @@ each event the pages treat and the run did not enter or cite.
 | 544 | Nov. 1968 | Slote summoned over his words on Nixon; to Sarnoff's offer | a lead: the day |
 | 546 | Dec. 1967 | Rockefeller: "strike a balance between what is desirable and what is do-able" (*Public Papers of Nelson A. Rockefeller*, 1967, 1189) | a lead: the speech and its day |
 
-From p. 543 on, the events are after Jan. 20, 1969 (the Latin American mission, the budget of 1969, the Bar Association, the Urban
-Affairs Council, the 1969 session): out of the brief.
+From p. 543 on, the events are after Jan. 20, 1969 (the Latin American mission, the budget of 1969, the Bar Association, the Urban Affairs Council, the 1969 session): out of the brief.
 
 ## The press
 
@@ -600,35 +488,18 @@ Affairs Council, the 1969 session): out of the brief.
 
 ## Witnesses (fifth run)
 
-85 new rows in `inbox/witnesses/2026-11-03-b3-smith-rockefeller-5.yaml`, and 128 edges of Smith's notes at its foot, commented,
-for `sources/witnesses/by-work/smith-on-his-own-terms.yaml` (to cards: Javits, *Javits*, 372-77; Cannato, 21; Hentoff, 129,
-207-10; Persico, *Imperial Rockefeller*, 113, 208; Caro, *Power Broker*, 1134-44; White, *Making of the President, 1968*,
-272-75; Safire, *Before the Fall*, 33). Most of Smith's notes for these pages are his own interviews (AI), Hugh Morrow's (HMI)
-and Cary Reich's (CRI), Riland's diary (KRD) and the Rockefeller Archive Center's files: roots not held. The witnesses of the
-third run (Slote, Douglass, Ronan, Braun, Hughes, Riland, Mar. 20, 1968, *Newsweek*, Apr. 1, 1968) take this run's edges, no
-second rows. One witness the series holds, the Johnson-Rockefeller call of Nov. 9, 1965 (Miller Center), was not heard: it
-stands behind "To check:". The maps were not read inline in a scratch merge this run.
+85 new rows in `inbox/witnesses/2026-11-03-b3-smith-rockefeller-5.yaml`, and 128 edges of Smith's notes at its foot, commented, for `sources/witnesses/by-work/smith-on-his-own-terms.yaml` (to cards: Javits, *Javits*, 372-77; Cannato, 21; Hentoff, 129, 207-10; Persico, *Imperial Rockefeller*, 113, 208; Caro, *Power Broker*, 1134-44; White, *Making of the President, 1968*, 272-75; Safire, *Before the Fall*, 33). Most of Smith's notes for these pages are his own interviews (AI), Hugh Morrow's (HMI) and Cary Reich's (CRI), Riland's diary (KRD) and the Rockefeller Archive Center's files: roots not held. The witnesses of the third run (Slote, Douglass, Ronan, Braun, Hughes, Riland, Mar. 20, 1968, *Newsweek*, Apr. 1, 1968) take this run's edges, no second rows. One witness the series holds, the Johnson-Rockefeller call of Nov. 9, 1965 (Miller Center), was not heard: it stands behind "To check:". The maps were not read inline in a scratch merge this run.
 
 ## Leads (fifth run)
 
-- National: cards to make (no card yet, cited in full in "To check:"): Klein, *Lindsay's Promise* (1970); Benjamin and Hurd,
-  *Rockefeller in Retrospect* (1984); Schlesinger, *Journals, 1952-2000*; Hevesi, *Legislative Politics in New York State*;
-  Gordon, *Battery Park City* (1997); Robert David Johnson, *All the Way with LBJ*; *Public Papers of Nelson A. Rockefeller*
-  (a card a year, as the Bulletin's).
-- National: the Johnson-Rockefeller recording of Nov. 9, 1965, 9:15 p.m. (Miller Center, WH6511-05-9147): to hear and cite as
-  the primary record of cal.1965-11-09.states-and-cities-2.
-- National: the Public Papers of Governor Rockefeller (1959-73), cited by Smith throughout as "NR, PP": find a copy; the
-  statement of Apr. 5, 1968 (1968, 1039), the ASNE speech (1968, 1303-08), the postelection press conference (1964, 876).
-- States and cities: New York's session laws of 1965-68 for the days the 1965 sales tax, the death penalty law, the free legal
-  services bills, the transit settlement law (1966), the Rye-Oyster Bay Bridge law (1967), the Medicaid law and its cuts were
-  signed.
+- National: cards to make (no card yet, cited in full in "To check:"): Klein, *Lindsay's Promise* (1970); Benjamin and Hurd, *Rockefeller in Retrospect* (1984); Schlesinger, *Journals, 1952-2000*; Hevesi, *Legislative Politics in New York State*; Gordon, *Battery Park City* (1997); Robert David Johnson, *All the Way with LBJ*; *Public Papers of Nelson A. Rockefeller* (a card a year, as the Bulletin's).
+- National: the Johnson-Rockefeller recording of Nov. 9, 1965, 9:15 p.m. (Miller Center, WH6511-05-9147): to hear and cite as the primary record of cal.1965-11-09.states-and-cities-2.
+- National: the Public Papers of Governor Rockefeller (1959-73), cited by Smith throughout as "NR, PP": find a copy; the statement of Apr. 5, 1968 (1968, 1039), the ASNE speech (1968, 1303-08), the postelection press conference (1964, 876).
+- States and cities: New York's session laws of 1965-68 for the days the 1965 sales tax, the death penalty law, the free legal services bills, the transit settlement law (1966), the Rye-Oyster Bay Bridge law (1967), the Medicaid law and its cuts were signed.
 - States and cities: Storm King: the FPC's order of Mar. 1965 and Scenic Hudson v. FPC (2d Cir., Dec. 1965), for Conservation.
 - National: Hirshhorn's gift (Smith, 464, May 1965): the day of Johnson's announcement.
-- Press: Murray Kempton, Victor Riesel, Gene Spagnoli (the *Daily News* at Albany), Jimmy Breslin: Part III entries to propose
-  (R13); Kempton's columns of Nov. 5, 1965, and June 16, 1966, entered.
+- Press: Murray Kempton, Victor Riesel, Gene Spagnoli (the *Daily News* at Albany), Jimmy Breslin: Part III entries to propose (R13); Kempton's columns of Nov. 5, 1965, and June 16, 1966, entered.
 
 ## Where the run stopped
 
-The assigned range is read through: pp. 454-548 (548 and the end of 547 only to see that they treat 1969), with their notes.
-Nothing in the range is left unread but the pages the third run read (487-94, 502-3, 506, 516-17, 523-26, 541). Not done: a
-scratch merge to read the maps inline (R34); the cites the leads above name.
+The assigned range is read through: pp. 454-548 (548 and the end of 547 only to see that they treat 1969), with their notes. Nothing in the range is left unread but the pages the third run read (487-94, 502-3, 506, 516-17, 523-26, 541). Not done: a scratch merge to read the maps inline (R34); the cites the leads above name.

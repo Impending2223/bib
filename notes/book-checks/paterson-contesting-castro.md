@@ -1,23 +1,10 @@
 # Paterson, *Contesting Castro* (1994): the calendar's citations, and what the book adds
 
-`w.paterson-contesting-castro`. Thomas G. Paterson, *Contesting Castro: The United States and the Triumph of the Cuban
-Revolution* (Oxford, 1994), read Nov. 3–4, 2026 (batch 3 resumed, group "cuba") from the owner's copy: the Internet
-Archive's scan of a World Affairs Council library copy (Drive, 25 MB, 390 PDF pages, with an OCR text layer), fetched
-through Drive's download link (the connector refuses files over 10 MB, and its text stops at PDF page 71), read with
-`pdftotext -layout`, the PDF deleted when done. Pages are the printed folios: printed page = PDF page − 15 through
-p. 180, − 31 after (the plates follow p. 180), checked at pp. 3 (PDF 18), 225 (PDF 256), 241 (PDF 272), 264 (PDF 295),
-317 (PDF 348), and against the contents' chapter openings. Patch: `inbox/2026-11-03-b3-paterson-2.yaml` (`b3-paterson-2`,
-57 ops: 22 new entries, 28 additive ops, 7 edits). Witnesses: `inbox/witnesses/2026-11-03-b3-paterson-2.yaml`
-(25 rows); edges: `sources/witnesses/by-work/paterson-contesting-castro.yaml` (41).
+`w.paterson-contesting-castro`. Thomas G. Paterson, *Contesting Castro: The United States and the Triumph of the Cuban Revolution* (Oxford, 1994), read Nov. 3–4, 2026 (batch 3 resumed, group "cuba") from the owner's copy: the Internet Archive's scan of a World Affairs Council library copy (Drive, 25 MB, 390 PDF pages, with an OCR text layer), fetched through Drive's download link (the connector refuses files over 10 MB, and its text stops at PDF page 71), read with `pdftotext -layout`, the PDF deleted when done. Pages are the printed folios: printed page = PDF page − 15 through p. 180, − 31 after (the plates follow p. 180), checked at pp. 3 (PDF 18), 225 (PDF 256), 241 (PDF 272), 264 (PDF 295), 317 (PDF 348), and against the contents' chapter openings. Patch: `inbox/2026-11-03-b3-paterson-2.yaml` (`b3-paterson-2`, 57 ops: 22 new entries, 28 additive ops, 7 edits). Witnesses: `inbox/witnesses/2026-11-03-b3-paterson-2.yaml` (25 rows); edges: `sources/witnesses/by-work/paterson-contesting-castro.yaml` (41).
 
 ## What was read
 
-The book is a history of 1952 to January 1959; the calendar's span opens Jan. 6, 1960. Read for the span: every page
-naming a date from 1960 on (found by searching the whole text for 1960–1969 and the calendar's matters of 1960: Coubre,
-Mikoyan, San José, 5412, Gray, Guantanamo, Texaco, sugar quota), that is pp. 50, 80, 206–11, 235–37, and chs. 21–22
-(241–63) whole, with their notes (304–18). Ch. 20 (226–40) is January 1959, out of the span. Ch. 22's pages 255–58 are
-1959; 258–63 survey 1960–93 in a few sentences each, so most of what Paterson says of the span is a pointer, not a
-treatment; the notes, though, name records not in the calendar, and those became entries.
+The book is a history of 1952 to January 1959; the calendar's span opens Jan. 6, 1960. Read for the span: every page naming a date from 1960 on (found by searching the whole text for 1960–1969 and the calendar's matters of 1960: Coubre, Mikoyan, San José, 5412, Gray, Guantanamo, Texaco, sugar quota), that is pp. 50, 80, 206–11, 235–37, and chs. 21–22 (241–63) whole, with their notes (304–18). Ch. 20 (226–40) is January 1959, out of the span. Ch. 22's pages 255–58 are 1959; 258–63 survey 1960–93 in a few sentences each, so most of what Paterson says of the span is a pointer, not a treatment; the notes, though, name records not in the calendar, and those became entries.
 
 ## The calendar's cites, held up (R33)
 
@@ -25,8 +12,7 @@ Ten entries had the card behind "To check:". Paterson treats three of them (cite
 
 - `cal.1960-03-17.cuba`: 258 (in March 1960 Eisenhower orders the CIA to train exiles for an invasion): A, E.
 - `cal.1960-07-06.cuba-2`: 258 (the quota suspended in July): B.
-- `cal.1961-01-03.cuba`: 258 n.29 (the demand, the embassy a "nest of spies"; the break): A–B. Disagreement: Paterson
-  dates Castro's demand Jan. 3; the entry, from FRUS 1961–63, X, doc. 1, has Castro's note of Jan. 2. Check written.
+- `cal.1961-01-03.cuba`: 258 n.29 (the demand, the embassy a "nest of spies"; the break): A–B. Disagreement: Paterson dates Castro's demand Jan. 3; the entry, from FRUS 1961–63, X, doc. 1, has Castro's note of Jan. 2. Check written.
 
 The other seven are not treated by Paterson at all; the card was cited for the thread. Taken out (edits with base):
 
@@ -40,28 +26,11 @@ The other seven are not treated by Paterson at all; the card was cited for the t
 | cal.1960-08-22.cuba | San José | not treated | cut |
 | cal.1960-11-01.cuba | Eisenhower on Guantanamo | the base "remained in U.S. hands" (262), no more | cut |
 
-Cites added where the pages bear on an entry (additive ops, with units): Feb. 13, 1960 (258, A); Oct. 19, 1960 (258,
-A); Nov. 29, 1960 (206 n.1: Eisenhower's view of Pawley in the memorandum of the meeting, A); Jan. 31, 1962 (259, A);
-Feb. 3, 1962 (259, A); Feb. 20, 1962 (259–60 n.35, A); Mar. 14, 1962 (260 n.36, C; Check: Paterson calls Taylor
-"chairman of the Joint Chiefs" in the spring of 1962, the roster has him chairman from Oct. 1, 1962); May 24, 1962
-(259, B); July 1962, missile crisis (259, A–B); Jan. 8, 1963 (261, B); June 19, 1963 (261, A); Sept. 5, 1963 (261, A);
-Sept. 18, 1963 (261 n.46, A, with Attwood's two books and Schlesinger's *Robert Kennedy* behind To check); Oct. 24, 1963
-(261 n.47, B); Nov. 18, 1963 (261 n.48, B); Nov. 22, 1963 (261–62 n.51, A–B, D).
+Cites added where the pages bear on an entry (additive ops, with units): Feb. 13, 1960 (258, A); Oct. 19, 1960 (258, A); Nov. 29, 1960 (206 n.1: Eisenhower's view of Pawley in the memorandum of the meeting, A); Jan. 31, 1962 (259, A); Feb. 3, 1962 (259, A); Feb. 20, 1962 (259–60 n.35, A); Mar. 14, 1962 (260 n.36, C; Check: Paterson calls Taylor "chairman of the Joint Chiefs" in the spring of 1962, the roster has him chairman from Oct. 1, 1962); May 24, 1962 (259, B); July 1962, missile crisis (259, A–B); Jan. 8, 1963 (261, B); June 19, 1963 (261, A); Sept. 5, 1963 (261, A); Sept. 18, 1963 (261 n.46, A, with Attwood's two books and Schlesinger's *Robert Kennedy* behind To check); Oct. 24, 1963 (261 n.47, B); Nov. 18, 1963 (261 n.48, B); Nov. 22, 1963 (261–62 n.51, A–B, D).
 
 ## New entries (22)
 
-Records found and read: Dec. 19, 1963, Johnson's briefing on Cuba (Paterson's "Meeting with the President" is FRUS
-1961–63, XI, doc. 388); Feb. 28, 1963, the "Review of the Cuban Situation and Policy" ("tighten the noose": FRUS 1961–63,
-X–XII, microfiche supp., doc. 629, Bundy's covering memorandum of Mar. 11); Apr. 10, 1962, Miró Cardona with Kennedy
-(Hurwitch's memorandum of Apr. 19, FRUS 1961–63, X, doc. 329, bears on it). On Paterson alone, each with its record
-behind To check: Pawley and Smathers to Trujillo (Jan. 1960) and Eisenhower's errand for Pawley (Nov. 1960), from
-Pawley's unpublished memoir; the FBI on Pawley (Jan. 20, 1960); Pawley before the Internal Security Subcommittee (Sept.
-2, 8, 1960); Earl Smith to Kennedy on the religious issue (Sept. 12, 1960, a memorandum of a telephone call); the Swiss
-embassy offered to Smith and Kennedy's order against the Swiss (Jan. 1961, the second by Bowles's oral history); the
-CIA's paper of Feb. 21, 1961; the exercise near Puerto Rico (Apr. 1962); Montecristi's raid (May 1962); the Army's
-Spanish-speaking units (summer 1962); Castro, July 26, 1962; the DRE's raid (Aug. 1962); Guevara in Moscow (late Aug.
-1962); Castro to the Soviet Union (late Apr. 1963); McCone to the Standing Group (May 1, 1963); Herbert Matthews in Cuba
-(Oct. 24–Nov. 3, 1963); Daniel with Castro, Nov. 22, 1963; Bundy to Ball, Dec. 18, 1963.
+Records found and read: Dec. 19, 1963, Johnson's briefing on Cuba (Paterson's "Meeting with the President" is FRUS 1961–63, XI, doc. 388); Feb. 28, 1963, the "Review of the Cuban Situation and Policy" ("tighten the noose": FRUS 1961–63, X–XII, microfiche supp., doc. 629, Bundy's covering memorandum of Mar. 11); Apr. 10, 1962, Miró Cardona with Kennedy (Hurwitch's memorandum of Apr. 19, FRUS 1961–63, X, doc. 329, bears on it). On Paterson alone, each with its record behind To check: Pawley and Smathers to Trujillo (Jan. 1960) and Eisenhower's errand for Pawley (Nov. 1960), from Pawley's unpublished memoir; the FBI on Pawley (Jan. 20, 1960); Pawley before the Internal Security Subcommittee (Sept. 2, 8, 1960); Earl Smith to Kennedy on the religious issue (Sept. 12, 1960, a memorandum of a telephone call); the Swiss embassy offered to Smith and Kennedy's order against the Swiss (Jan. 1961, the second by Bowles's oral history); the CIA's paper of Feb. 21, 1961; the exercise near Puerto Rico (Apr. 1962); Montecristi's raid (May 1962); the Army's Spanish-speaking units (summer 1962); Castro, July 26, 1962; the DRE's raid (Aug. 1962); Guevara in Moscow (late Aug. 1962); Castro to the Soviet Union (late Apr. 1963); McCone to the Standing Group (May 1, 1963); Herbert Matthews in Cuba (Oct. 24–Nov. 3, 1963); Daniel with Castro, Nov. 22, 1963; Bundy to Ball, Dec. 18, 1963.
 
 ## Passed over
 
@@ -85,9 +54,7 @@ page | date | event | why
 
 ## The press
 
-No day's coverage given. The press acts entered: Matthews's trip (Oct. 24–Nov. 3, 1963); Daniel with Castro (Nov. 22,
-1963). Proposed for Part III: Herbert L. Matthews (*New York Times*), whom Paterson treats throughout (69–80, 207, 226)
-and Jones and Bissell name; Jean Daniel (*L'Express*), treated by Paterson (261), Schlesinger and Reeves.
+No day's coverage given. The press acts entered: Matthews's trip (Oct. 24–Nov. 3, 1963); Daniel with Castro (Nov. 22, 1963). Proposed for Part III: Herbert L. Matthews (*New York Times*), whom Paterson treats throughout (69–80, 207, 226) and Jones and Bissell name; Jean Daniel (*L'Express*), treated by Paterson (261), Schlesinger and Reeves.
 
 ## Leads
 

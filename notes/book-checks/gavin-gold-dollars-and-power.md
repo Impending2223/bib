@@ -1,104 +1,47 @@
 # Francis J. Gavin, *Gold, Dollars, and Power: The Politics of International Monetary Relations, 1958–1971* (2004): the calendar against the book
 
-Card `w.gavin-gold-dollars-and-power`. Read Oct. 29, 2026, from the owner's copy on the Drive (a scan, 288 PDF pages,
-its text by OCR). Printed page = PDF page − 20 throughout the text and the notes, checked on the page images and by the
-running heads at pp. 2, 46, 100–116, 160, 183 (the OCR misreads some folios: p. 113's head reads "112"). The text runs
-pp. 1–198; the notes (pp. 215–46) are endnotes by chapter, and each note's text page was found from its number in the
-text. Gavin cites FRUS 1958–60, IV as "14" ("FRUS, 1958–60, 14:129"); those documents are in vol. IV. Patch:
-`inbox/2026-10-29-book-gavin.yaml` (book-gavin). Records: `sources/cited-records/gavin-gold-dollars-and-power.yaml`.
+Card `w.gavin-gold-dollars-and-power`. Read Oct. 29, 2026, from the owner's copy on the Drive (a scan, 288 PDF pages, its text by OCR). Printed page = PDF page − 20 throughout the text and the notes, checked on the page images and by the running heads at pp. 2, 46, 100–116, 160, 183 (the OCR misreads some folios: p. 113's head reads "112"). The text runs pp. 1–198; the notes (pp. 215–46) are endnotes by chapter, and each note's text page was found from its number in the text. Gavin cites FRUS 1958–60, IV as "14" ("FRUS, 1958–60, 14:129"); those documents are in vol. IV. Patch: `inbox/2026-10-29-book-gavin.yaml` (book-gavin). Records: `sources/cited-records/gavin-gold-dollars-and-power.yaml`.
 
-Ground: chapters 2–7 (pp. 33–184), Oct. 1960 to Nov. 1968. The book's argument, as the calendar states it: the gold
-outflow and the dollar's position were bound to the forces in Europe and to the German question; Washington used the
-troops and the offset as levers with Bonn and pressed Bonn not to convert dollars. Where its account differs from FRUS,
-the Public Papers, or Schwartz's *Lyndon Johnson and Europe*, the entry carries a Check that names Gavin.
+Ground: chapters 2–7 (pp. 33–184), Oct. 1960 to Nov. 1968. The book's argument, as the calendar states it: the gold outflow and the dollar's position were bound to the forces in Europe and to the German question; Washington used the troops and the offset as levers with Bonn and pressed Bonn not to convert dollars. Where its account differs from FRUS, the Public Papers, or Schwartz's *Lyndon Johnson and Europe*, the entry carries a Check that names Gavin.
 
 ## The citations it had (21 in the calendar, 1 in K–J Adm. II.B)
 
-Each stood in "To check" without a page. Thirteen are read and pinned, out of To check; eight are taken out, the book
-not treating the entry's event (a source read that does not bear it out is no cite for it):
+Each stood in "To check" without a page. Thirteen are read and pinned, out of To check; eight are taken out, the book not treating the entry's event (a source read that does not bear it out is no cite for it):
 
-- Pinned: `cal.1960-10-20.economy` (46; FRUS 1958–60, IV, doc. 56 added as the primary record, Anderson to Eisenhower,
-  Oct. 25: "a peak of about $40.60 per ounce on October 20th"; its "Check: the record." so answered and taken out; Check
-  added: Gavin has the market explode on Oct. 25), `cal.1960-11-16.economy` (48–49: the meeting of Nov. 9, the decision
-  at Augusta), `cal.1960-11-19.economy` (50–51), `cal.1961-03-04.economy` (66; Check: Gavin's 5 percent against the
-  entry's figure), `cal.1963-07-18.economy` (103, 108), `cal.1965-02-10.economy` (125), `cal.1966-09-26.europe-and-the-
-  alliance` (149–51, 153), `cal.1967-04-28.europe-and-the-alliance` (162–63; Check: Gavin has one division rotated),
-  `cal.1967-08-26.economy` (129–30; Check: Gavin puts the acceptance of the SDR in September), `cal.1967-11-18.economy`
-  (171), `cal.1968-01-01.economy` (4, 177–78), `cal.1968-03-14.economy` (180–81), `cal.1968-11-18.economy` (183).
-- Taken out (not in the book): `cal.1961-01-05.economy`, `cal.1961-01-14.economy`, `cal.1961-02-06.defense`,
-  `cal.1963-08-01.japan-and-korea`, `cal.1965-02-09.economy`, `cal.1968-02-21.economy`,
-  `cal.1968-05-22.europe-and-the-alliance`, `cal.1968-06-19.economy`.
+- Pinned: `cal.1960-10-20.economy` (46; FRUS 1958–60, IV, doc. 56 added as the primary record, Anderson to Eisenhower, Oct. 25: "a peak of about $40.60 per ounce on October 20th"; its "Check: the record." so answered and taken out; Check added: Gavin has the market explode on Oct. 25), `cal.1960-11-16.economy` (48–49: the meeting of Nov. 9, the decision at Augusta), `cal.1960-11-19.economy` (50–51), `cal.1961-03-04.economy` (66; Check: Gavin's 5 percent against the entry's figure), `cal.1963-07-18.economy` (103, 108), `cal.1965-02-10.economy` (125), `cal.1966-09-26.europe-and-the- alliance` (149–51, 153), `cal.1967-04-28.europe-and-the-alliance` (162–63; Check: Gavin has one division rotated), `cal.1967-08-26.economy` (129–30; Check: Gavin puts the acceptance of the SDR in September), `cal.1967-11-18.economy` (171), `cal.1968-01-01.economy` (4, 177–78), `cal.1968-03-14.economy` (180–81), `cal.1968-11-18.economy` (183).
+- Taken out (not in the book): `cal.1961-01-05.economy`, `cal.1961-01-14.economy`, `cal.1961-02-06.defense`, `cal.1963-08-01.japan-and-korea`, `cal.1965-02-09.economy`, `cal.1968-02-21.economy`, `cal.1968-05-22.europe-and-the-alliance`, `cal.1968-06-19.economy`.
 - K–J Adm. II.B: the listing stands; no page to give.
 
 ## Entries newly citing it (26)
 
-Pinned with a parenthetical where the page bears part; every cite and row another run put there is kept (diffed
-against the entries read just before the patch was written):
+Pinned with a parenthetical where the page bears part; every cite and row another run put there is kept (diffed against the entries read just before the patch was written):
 
-1960: Oct. 31 (Kennedy's statement on gold, 62), Nov. 28 (51–52), Dec. 6 (the transition meeting, 55–56, 62), Dec. 16
-(Herter at the NATO ministers, 54–55; `c` extended at its end with Herter's "some redeployment may become a
-necessity"; the existing rows re-lettered from `all` to A–C). 1963: Jan. 22 (95), Oct. 24 (113–14), Oct. 31 (the news
-conference, 113; `c` extended at its end with the troop answer, `also: europe-and-the-alliance`), Dec. 28 (Erhard at the
-Ranch, 113, 139–40; `c` gains the offset clause after the divisions, no existing row naming the shifted units; Check:
-Gavin quotes the communiqué of Dec. 21, 1965, "fully executed and continued", as if it were this one's). 1964: Nov. 23
-(131, 167; Check: Bank rate Nov. 21), Dec. 7 (131–32). 1965: Sept. 10 (132; Check: Gavin's $2.5 billion, the
-"Cromer-Martin plan"), Dec. 20 (140). 1966: July 5 (142–43), July 29 (132–33), Aug. 23 (143–45), Aug. 25 (145), Aug.
-31 (149), Sept. 1 (149), Dec. 1 (157). 1967: Mar. 1 (160–61; Check: Gavin has Johnson favor Rusk's rotation of one
-division and three air wings, not a cut of two divisions), Mar. 8 (162–63), Mar. 11 (162), Nov. 26 (172). 1968: Mar. 16
-(180–81), Nov. 20 (183–84), Nov. 23 (184).
+1960: Oct. 31 (Kennedy's statement on gold, 62), Nov. 28 (51–52), Dec. 6 (the transition meeting, 55–56, 62), Dec. 16 (Herter at the NATO ministers, 54–55; `c` extended at its end with Herter's "some redeployment may become a necessity"; the existing rows re-lettered from `all` to A–C). 1963: Jan. 22 (95), Oct. 24 (113–14), Oct. 31 (the news conference, 113; `c` extended at its end with the troop answer, `also: europe-and-the-alliance`), Dec. 28 (Erhard at the Ranch, 113, 139–40; `c` gains the offset clause after the divisions, no existing row naming the shifted units; Check: Gavin quotes the communiqué of Dec. 21, 1965, "fully executed and continued", as if it were this one's). 1964: Nov. 23 (131, 167; Check: Bank rate Nov. 21), Dec. 7 (131–32). 1965: Sept. 10 (132; Check: Gavin's $2.5 billion, the "Cromer-Martin plan"), Dec. 20 (140). 1966: July 5 (142–43), July 29 (132–33), Aug. 23 (143–45), Aug. 25 (145), Aug. 31 (149), Sept. 1 (149), Dec. 1 (157). 1967: Mar. 1 (160–61; Check: Gavin has Johnson favor Rusk's rotation of one division and three air wings, not a cut of two divisions), Mar. 8 (162–63), Mar. 11 (162), Nov. 26 (172). 1968: Mar. 16 (180–81), Nov. 20 (183–84), Nov. 23 (184).
 
-Schwartz: where Schwartz's pages stood (Dec. 28, 1963; the trilateral talks of 1966–67), they are kept, and Gavin's
-added beside them; the differences are the Checks above (Mar. 1 and Apr. 28, 1967 above all).
+Schwartz: where Schwartz's pages stood (Dec. 28, 1963; the trilateral talks of 1966–67), they are kept, and Gavin's added beside them; the differences are the Checks above (Mar. 1 and Apr. 28, 1967 above all).
 
 ## New entries (49)
 
-Each with its primary record, linked, where one was found and read (FRUS, the Public Papers, the Miller Center's tapes,
-the Daily Digest, the *Bulletin*):
+Each with its primary record, linked, where one was found and read (FRUS, the Public Papers, the Miller Center's tapes, the Daily Digest, the *Bulletin*):
 
-- 1960: Bowie to Eisenhower on the NATO study (Aug. 16); NSC 457th, nuclear sharing (Aug. 25); Eisenhower to Adenauer
-  on the stationing costs (Oct. 7) and the reply (Oct. 20); NSC 465th, military assistance and Anderson's protest (Oct.
-  31); Herter on military aid (Nov. 13); Ford's offer for its British shares (Nov. 14); NSC 467th at Augusta (Nov. 17);
-  Eisenhower on the mutual security budget (Nov. 30); the Ball task force's report (Dec. 27; Check: the date, Gavin
-  gives the file's two ways).
+- 1960: Bowie to Eisenhower on the NATO study (Aug. 16); NSC 457th, nuclear sharing (Aug. 25); Eisenhower to Adenauer on the stationing costs (Oct. 7) and the reply (Oct. 20); NSC 465th, military assistance and Anderson's protest (Oct. 31); Herter on military aid (Nov. 13); Ford's offer for its British shares (Nov. 14); NSC 467th at Augusta (Nov. 17); Eisenhower on the mutual security budget (Nov. 30); the Ball task force's report (Dec. 27; Check: the date, Gavin gives the file's two ways).
 - 1961: Brentano with Kennedy (Feb. 17); Heller's "reverse lend-lease" (Aug. 17); the Gilpatric–Strauss offset (Oct. 24).
-- 1962: Kennedy with Malraux (May 11); Giscard d'Estaing in Washington (July 20); Ball's "Fresh Approach" (July 24);
-  Dillon against the interim plan (Aug. 7); the interim arrangement (Aug. 9); the gold and dollar meetings taped (Aug.
-  10, 16, 20); Dillon before the Joint Economic Committee (Aug. 17); Bundy to Kaysen (Aug. 21); the Leddy–Johnson mission
-  (Aug. 24) and its report (Sept. 12); Kennedy to the Bank and Fund (Sept. 20).
-- 1963: the ExComm on Europe (Jan. 25, Jan. 31, Feb. 5; Check on Jan. 25: Gavin and FRUS give McNamara's and Dillon's
-  remarks to different meetings); Acheson's report (Feb. 26; Check: Gavin dates the talk Feb. 27); the Chiefs on force
-  levels in Europe (Feb. 28); the balance of payments meeting (Apr. 18) and Kennedy's memorandum (Apr. 20); McNamara's
-  cuts (July 16); Galbraith's papers (Aug. 28); the $190 million (Sept. 19); Gilpatric to the UPI (Oct. 19); Rusk at
-  Frankfurt (Oct. 27).
-- 1964–65: the Kaysen task force (Nov. 25, 1964); de Gaulle's press conference (Feb. 4, 1965; Check: the text);
-  Deming in Bonn and London (Feb. 19); Johnson's forward planning study (June 16); Fowler at Hot Springs, Va. (July 10).
-- 1967–68: Ansiaux's call to Martin (Dec. 15); the Cabinet Committee on the 1968 program (Dec. 21); Califano's cable
-  (Dec. 22) and Johnson's reply (Dec. 23, by Gavin's account; Check: FRUS's other message); the sterling balances
-  meeting (July 1, 1968); the Basel credit (Sept. 8, 1968).
+- 1962: Kennedy with Malraux (May 11); Giscard d'Estaing in Washington (July 20); Ball's "Fresh Approach" (July 24); Dillon against the interim plan (Aug. 7); the interim arrangement (Aug. 9); the gold and dollar meetings taped (Aug. 10, 16, 20); Dillon before the Joint Economic Committee (Aug. 17); Bundy to Kaysen (Aug. 21); the Leddy–Johnson mission (Aug. 24) and its report (Sept. 12); Kennedy to the Bank and Fund (Sept. 20).
+- 1963: the ExComm on Europe (Jan. 25, Jan. 31, Feb. 5; Check on Jan. 25: Gavin and FRUS give McNamara's and Dillon's remarks to different meetings); Acheson's report (Feb. 26; Check: Gavin dates the talk Feb. 27); the Chiefs on force levels in Europe (Feb. 28); the balance of payments meeting (Apr. 18) and Kennedy's memorandum (Apr. 20); McNamara's cuts (July 16); Galbraith's papers (Aug. 28); the $190 million (Sept. 19); Gilpatric to the UPI (Oct. 19); Rusk at Frankfurt (Oct. 27).
+- 1964–65: the Kaysen task force (Nov. 25, 1964); de Gaulle's press conference (Feb. 4, 1965; Check: the text); Deming in Bonn and London (Feb. 19); Johnson's forward planning study (June 16); Fowler at Hot Springs, Va. (July 10).
+- 1967–68: Ansiaux's call to Martin (Dec. 15); the Cabinet Committee on the 1968 program (Dec. 21); Califano's cable (Dec. 22) and Johnson's reply (Dec. 23, by Gavin's account; Check: FRUS's other message); the sterling balances meeting (July 1, 1968); the Basel credit (Sept. 8, 1968).
 
-Three new entries share a day and thread with an existing one and draw the merge's duplicate flag; each is another
-event and should be kept (`./bib resolve ID --take keep`): `cal.1960-10-20.economy-2` (Adenauer's reply; the gold
-price is `cal.1960-10-20.economy`), `cal.1960-10-31.economy-2` (NSC 465th; Kennedy's statement is
-`cal.1960-10-31.economy`), `cal.1963-07-16.economy-2` (McNamara's memorandum; the discount rate is
-`cal.1963-07-16.economy`). The existing `cal.1963-01-29.europe-and-the-alliance` still says "Jan. 31: the ExComm
-reappraises policy toward Europe"; that meeting is now its own entry, `cal.1963-01-31.europe-and-the-alliance`, and
-the clause is left for the owner to rule on.
+Three new entries share a day and thread with an existing one and draw the merge's duplicate flag; each is another event and should be kept (`./bib resolve ID --take keep`): `cal.1960-10-20.economy-2` (Adenauer's reply; the gold price is `cal.1960-10-20.economy`), `cal.1960-10-31.economy-2` (NSC 465th; Kennedy's statement is `cal.1960-10-31.economy`), `cal.1963-07-16.economy-2` (McNamara's memorandum; the discount rate is `cal.1963-07-16.economy`). The existing `cal.1963-01-29.europe-and-the-alliance` still says "Jan. 31: the ExComm reappraises policy toward Europe"; that meeting is now its own entry, `cal.1963-01-31.europe-and-the-alliance`, and the clause is left for the owner to rule on.
 
 Names: Ansiaux has no name entry and is not in the Names line; Giscard d'Estaing tagged `giscard-destaing-valery`.
 
 ## Records (123)
 
-`sources/cited-records/gavin-gold-dollars-and-power.yaml`: 70 found (62 read and cited, in FRUS, the Public Papers, the
-Miller Center's tapes; 8 found and not read, in To check), 53 not found (the Kennedy, Johnson and Eisenhower libraries,
-the Truman Library's Acheson papers, Princeton's Ball papers, the National Archives' RG 59, the Public Record Office,
-UPA's microfilms, DDRS, a dissertation), all in To check with the note they come from. Published works the notes cite
-are not logged.
+`sources/cited-records/gavin-gold-dollars-and-power.yaml`: 70 found (62 read and cited, in FRUS, the Public Papers, the Miller Center's tapes; 8 found and not read, in To check), 53 not found (the Kennedy, Johnson and Eisenhower libraries, the Truman Library's Acheson papers, Princeton's Ball papers, the National Archives' RG 59, the Public Record Office, UPA's microfilms, DDRS, a dissertation), all in To check with the note they come from. Published works the notes cite are not logged.
 
 ## Passed over
 
-Made from the log of the reading, page by page through chapters 2–7 (every paragraph with a date or a named document,
-then the notes for each), set against the calendar by `./bib find` on each date. Out of the span and left out: chapter 1
-and the background before 1960 (pp. 1–32), and 1969–71 (pp. 185–98).
+Made from the log of the reading, page by page through chapters 2–7 (every paragraph with a date or a named document, then the notes for each), set against the calendar by `./bib find` on each date. Out of the span and left out: chapter 1 and the background before 1960 (pp. 1–32), and 1969–71 (pp. 185–98).
 
 | page | date | event | why |
 |---|---|---|---|
@@ -157,14 +100,6 @@ and the background before 1960 (pp. 1–32), and 1969–71 (pp. 185–98).
 
 ## Leads
 
-- National: Dillon before the Joint Economic Committee, Aug. 17, 1962: the daybook's committees file has the hearing
-  under Aug. 16 (Daily Digest D475; the Digest's day against the hearing's to be read again). The memoranda above marked
-  "a lead", most in UPA's microfilms or the presidential libraries (each with Gavin's note in the table). Gilpatric's
-  UPI speech of Oct. 19, 1963: the text not read (the entry rests on Gavin, 109). Eisenhower's *Saturday Evening Post*
-  article on the troops, Oct. 1963: the issue.
-- Foreign: McNamara–von Hassel, May 1966: no record found. The text of de Gaulle's press conference of Feb. 4, 1965
-  (*Discours et messages*, IV). Johnson's telegram to Califano, Dec. 23, 1967, as Gavin quotes it, is not in FRUS
-  (FRUS prints another message; the entry's Check). The date France left the gold pool, 1967. Fowler's European
-  mission, Aug.–Sept. 1965: the dates and the record.
-- To read: the 8 FRUS and Public Papers items found and in To check; the Bulletin's text of Rusk at Frankfurt read (Nov.
-  11, 1963, 726, 729), the text of Kennedy's Oct. 31, 1960 statement as Gavin gives it (Sorensen, 406).
+- National: Dillon before the Joint Economic Committee, Aug. 17, 1962: the daybook's committees file has the hearing under Aug. 16 (Daily Digest D475; the Digest's day against the hearing's to be read again). The memoranda above marked "a lead", most in UPA's microfilms or the presidential libraries (each with Gavin's note in the table). Gilpatric's UPI speech of Oct. 19, 1963: the text not read (the entry rests on Gavin, 109). Eisenhower's *Saturday Evening Post* article on the troops, Oct. 1963: the issue.
+- Foreign: McNamara–von Hassel, May 1966: no record found. The text of de Gaulle's press conference of Feb. 4, 1965 (*Discours et messages*, IV). Johnson's telegram to Califano, Dec. 23, 1967, as Gavin quotes it, is not in FRUS (FRUS prints another message; the entry's Check). The date France left the gold pool, 1967. Fowler's European mission, Aug.–Sept. 1965: the dates and the record.
+- To read: the 8 FRUS and Public Papers items found and in To check; the Bulletin's text of Rusk at Frankfurt read (Nov. 11, 1963, 726, 729), the text of Kennedy's Oct. 31, 1960 statement as Gavin gives it (Sorensen, 406).

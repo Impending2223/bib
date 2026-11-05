@@ -1,34 +1,18 @@
 # Theodore H. White, *The Making of the President 1968* (`w.white-making-of-the-president-1969`)
 
-Read Nov. 3–4, 2026, by the batch-3 reading resumed (group 1968). The copy: the owner's PDF on Drive
-(1Rwfq9JHrB1pdef9seI3MfblwJ5Gj7omm), Atheneum, 1969, 488 PDF pages, with a text layer (`pdftotext -layout`). Printed page
-= PDF page − 20 throughout (checked on PDF 31 = 11, 101 = 81, 301 = 281, and against the page images of pp. 89, 246 and
-396). Read whole, pp. 1–433 and the appendices (Appendix A, the AP's vote by State; B and C, the convention ballots,
-images the text layer garbles, not used). The PDF, its images and its text deleted when done.
+Read Nov. 3–4, 2026, by the batch-3 reading resumed (group 1968). The copy: the owner's PDF on Drive (1Rwfq9JHrB1pdef9seI3MfblwJ5Gj7omm), Atheneum, 1969, 488 PDF pages, with a text layer (`pdftotext -layout`). Printed page = PDF page − 20 throughout (checked on PDF 31 = 11, 101 = 81, 301 = 281, and against the page images of pp. 89, 246 and 396). Read whole, pp. 1–433 and the appendices (Appendix A, the AP's vote by State; B and C, the convention ballots, images the text layer garbles, not used). The PDF, its images and its text deleted when done.
 
-The book has few notes (author's footnotes, numbered by chapter); its sources are White's own reporting and interviews,
-named in the text where named at all. Witnesses: `inbox/witnesses/2026-11-03-b3-white-1968-2.yaml` (the footnoted
-sources: the McCone Commission's report, 28 n.5; Humphrey's New York friend, 279 n.5; Coffey, 299 n.7; Whiteside, 299
-n.8; the Ridders' unpublished reporting, 300 n.9; Harris's poll of Aug. 26; the private New Hampshire poll of December
-1967; and passages of White reporting McPherson's and Rowe's memoranda of Mar. 18–19, 1968, Roche's of September 1967 and
-Haldeman's memorandum), edges in `sources/witnesses/by-work/white-making-of-the-president-1969.yaml`. White's own
-interviews (Johnson, Mar. 26, 1968; Nixon, Nov. 10, 1967, Mar. 12, 1968, May 28, 1968, December 1968; McCarthy, Dec. 5,
-1967; O'Brien, December 1967; Robert Kennedy, June 4, 1968) are entries of their own (R13), White tagged.
+The book has few notes (author's footnotes, numbered by chapter); its sources are White's own reporting and interviews, named in the text where named at all. Witnesses: `inbox/witnesses/2026-11-03-b3-white-1968-2.yaml` (the footnoted sources: the McCone Commission's report, 28 n.5; Humphrey's New York friend, 279 n.5; Coffey, 299 n.7; Whiteside, 299 n.8; the Ridders' unpublished reporting, 300 n.9; Harris's poll of Aug. 26; the private New Hampshire poll of December 1967; and passages of White reporting McPherson's and Rowe's memoranda of Mar. 18–19, 1968, Roche's of September 1967 and Haldeman's memorandum), edges in `sources/witnesses/by-work/white-making-of-the-president-1969.yaml`. White's own interviews (Johnson, Mar. 26, 1968; Nixon, Nov. 10, 1967, Mar. 12, 1968, May 28, 1968, December 1968; McCarthy, Dec. 5, 1967; O'Brien, December 1967; Robert Kennedy, June 4, 1968) are entries of their own (R13), White tagged.
 
-Patch: `inbox/2026-11-03-b3-white-1968-2.yaml` (b3-white-1968-2): 94 new entries, 111 cites, 18 Checks, 9 map rows, 2
-To check, 3 edits. patch-check: 0 errors.
+Patch: `inbox/2026-11-03-b3-white-1968-2.yaml` (b3-white-1968-2): 94 new entries, 111 cites, 18 Checks, 9 map rows, 2 To check, 3 edits. patch-check: 0 errors.
 
 ## The citations it had (20)
 
-- Pinned (cite ops, with units): Jan. 7–8, 1967 (52–53); Apr. 7, 1967 (56–57); Nov. 30, 1967 (74–76, 80); Feb. 1–2, 1968
-  (5–6, 128); Feb. 28 (61); Mar. 12 (89, 131); Mar. 21 (231); Mar. 31 (117–19, 123–24); Apr. 27 (169, 270); May 16,
-  Georgia's slate (274: the rule only); June 5–6 (181–83); Aug. 26, credentials (274); Sept. 2 (334); Oct. 23,
-  Chennault (380–81, the FBI's watch only); Nov. 5 (396–97, 399).
+- Pinned (cite ops, with units): Jan. 7–8, 1967 (52–53); Apr. 7, 1967 (56–57); Nov. 30, 1967 (74–76, 80); Feb. 1–2, 1968 (5–6, 128); Feb. 28 (61); Mar. 12 (89, 131); Mar. 21 (231); Mar. 31 (117–19, 123–24); Apr. 27 (169, 270); May 16, Georgia's slate (274: the rule only); June 5–6 (181–83); Aug. 26, credentials (274); Sept. 2 (334); Oct. 23, Chennault (380–81, the FBI's watch only); Nov. 5 (396–97, 399).
 - Already pinned: Sept. 4, 1967 (58–60).
 - Cut (the book does not treat the matter; edits with base):
   - cal.1967-11-18.elections-1968 | Romney's announcement at Detroit | White does not describe it | cut.
-  - cal.1968-08-05.elections-1968-2 | Reagan declares at Miami Beach | White, 240, has Reagan's late blitz, not the
-    declaration | cut.
+  - cal.1968-08-05.elections-1968-2 | Reagan declares at Miami Beach | White, 240, has Reagan's late blitz, not the declaration | cut.
   - cal.1968-11-03.elections-1968 | the Astrodome rally | not in White (Houston only at 259, 324, 335) | cut.
 
 ## Where the book differs (Checks added)
@@ -56,35 +40,15 @@ To check, 3 edits. patch-check: 0 errors.
 
 ## Cites added to entries already in (93)
 
-From the escalation of 1965 (Pleiku, Humphrey's dissent, Watts) through Nixon's return (1962–66), Romney, McCarthy's
-start, Robert Kennedy's decision (Mar. 10–16), the renunciation (Mar. 18–31), the primaries, Miami Beach (ballot,
-nominations, running mate, acceptance), Chicago (Smith and McCarthy, Rather, the Hilton, the nomination, the
-acceptance, the raid), the fall (Waverly, Philadelphia, Salt Lake City, LeMay, Key Biscayne, Paris, the halt, Dirksen,
-the telethons, election night).
+From the escalation of 1965 (Pleiku, Humphrey's dissent, Watts) through Nixon's return (1962–66), Romney, McCarthy's start, Robert Kennedy's decision (Mar. 10–16), the renunciation (Mar. 18–31), the primaries, Miami Beach (ballot, nominations, running mate, acceptance), Chicago (Smith and McCarthy, Rather, the Hilton, the nomination, the acceptance, the raid), the fall (Waverly, Philadelphia, Salt Lake City, LeMay, Key Biscayne, Paris, the halt, Dirksen, the telethons, election night).
 
 ## New entries (94)
 
-1963: the delegates doubled (Nov. 11). 1966: Congress '66's last meeting (Nov. 13); Reagan's inner circle (Nov. 17),
-Reed and F. Clifton White; Rockefeller and Shafer; Romney at Dorado Beach; Harris's poll; the Greenbrier breakfast;
-the Waldorf plan. 1967: Johnson's praise of Hartford; Reagan's staff purged; Bloomfield Hills (Aug. 31); the *Times*'
-story (Sept. 5); Bailey and McNamara; the *Detroit News*; the *Independence*; ACT-68 and Gans; the Christian draft
-(Oct.); Rowe's and O'Brien's memoranda, the old friends (Nov.); White with Nixon (Nov. 10) and McCarthy (Dec. 5); Clark
-takes over; Sam Brown at Cleveland; "not particularly significant" (Dec. 27); the train; the Dec. 16 memorandum;
-Canberra (Dec. 21); O'Brien to White; Busby; no muscle; Sun Valley and RAND; La Guardia (Dec. 28); the Mobilization
-(Dec.). 1968: Concord's storefront; the SMC conference; the Mobilization, Jan. 27; Johnson's evening, Jan. 31; Feb. 3,
-St. Anselm's, Concord, Hillsboro, Gavin; Kleindienst; Brown, the buses; Rockefeller's suite (Feb. 25); Unruh's poll;
-Nixon's tour; Schlesinger (Mar. 10–11); White with Nixon (Mar. 12); McCarthy, Mar. 13; Kings Point; Hickory Hill; O'Brien's
-Cabinet; Califano; Clark Field; White with Johnson (Mar. 26); Mrs. Johnson; the campaign meeting, Whitewater,
-Waukesha (Mar. 31); Draft Rockefeller (Apr. 23); the London Grill; Key Biscayne (June); Malibu (June 4); Finch offered
-the Vice Presidency; Hughes with Reagan; the Montauk call; the Deauville; Lindsay's message; the Mobilization's plans;
-Aug. 20 (Johnson and Humphrey; the summit note); Aug. 23–29 (Smith, Humphrey's call, Harris, Knight, breakfast, lunch,
-McCarthy's window, the Southern governors); Aug. 31; Antoine's; Cicero; Oct. 2–5; the New York channel; Connally;
-Deshler; Las Vegas; Johnson and Nixon (Nov. 3); the Pierre (Dec.).
+1963: the delegates doubled (Nov. 11). 1966: Congress '66's last meeting (Nov. 13); Reagan's inner circle (Nov. 17), Reed and F. Clifton White; Rockefeller and Shafer; Romney at Dorado Beach; Harris's poll; the Greenbrier breakfast; the Waldorf plan. 1967: Johnson's praise of Hartford; Reagan's staff purged; Bloomfield Hills (Aug. 31); the *Times*' story (Sept. 5); Bailey and McNamara; the *Detroit News*; the *Independence*; ACT-68 and Gans; the Christian draft (Oct.); Rowe's and O'Brien's memoranda, the old friends (Nov.); White with Nixon (Nov. 10) and McCarthy (Dec. 5); Clark takes over; Sam Brown at Cleveland; "not particularly significant" (Dec. 27); the train; the Dec. 16 memorandum; Canberra (Dec. 21); O'Brien to White; Busby; no muscle; Sun Valley and RAND; La Guardia (Dec. 28); the Mobilization (Dec.). 1968: Concord's storefront; the SMC conference; the Mobilization, Jan. 27; Johnson's evening, Jan. 31; Feb. 3, St. Anselm's, Concord, Hillsboro, Gavin; Kleindienst; Brown, the buses; Rockefeller's suite (Feb. 25); Unruh's poll; Nixon's tour; Schlesinger (Mar. 10–11); White with Nixon (Mar. 12); McCarthy, Mar. 13; Kings Point; Hickory Hill; O'Brien's Cabinet; Califano; Clark Field; White with Johnson (Mar. 26); Mrs. Johnson; the campaign meeting, Whitewater, Waukesha (Mar. 31); Draft Rockefeller (Apr. 23); the London Grill; Key Biscayne (June); Malibu (June 4); Finch offered the Vice Presidency; Hughes with Reagan; the Montauk call; the Deauville; Lindsay's message; the Mobilization's plans; Aug. 20 (Johnson and Humphrey; the summit note); Aug. 23–29 (Smith, Humphrey's call, Harris, Knight, breakfast, lunch, McCarthy's window, the Southern governors); Aug. 31; Antoine's; Cicero; Oct. 2–5; the New York channel; Connally; Deshler; Las Vegas; Johnson and Nixon (Nov. 3); the Pierre (Dec.).
 
 ## Passed over
 
-Made by reading the notes taken page by page against the calendar; each dated event the book treats and not entered or
-cited, a row.
+Made by reading the notes taken page by page against the calendar; each dated event the book treats and not entered or cited, a row.
 
 - 7 | Jan. 30, 1968 | Humphrey learns of Tet from the papers | minor (no act).
 - 7 | Jan. 31, 1968 | McCarthy at Foreign Relations' executive session (the Tonkin resolution, the *Pueblo*); New Jersey supporters | lead: the session from the Daily Digest.
@@ -168,14 +132,8 @@ cited, a row.
 - National: Nov. 5, 1968: the AP's totals (396, App. A) against the Clerk's.
 - National: Dec. 1964: White's New York meeting of Nixon, Eisenhower and Goldwater on Burch (32) against Phoenix, Jan. 12, 1965.
 - Foreign: Dec. 21, 1967, Canberra: FRUS or the Australian record for Johnson's briefing of the cabinet.
-- Press, a Part III entry proposed: Theodore H. White holds one; Lou Gordon (WKBD), Jerry Flint (*New York Times*,
-  Detroit), Walter Ridder (Ridder Publications), Mary McGrory, Charles Bailey (*Minneapolis Tribune*), Paul Jablow
-  (*Charlotte Observer*), Raymond Coffey (*Chicago Daily News*), Thomas Whiteside: none tagged.
+- Press, a Part III entry proposed: Theodore H. White holds one; Lou Gordon (WKBD), Jerry Flint (*New York Times*, Detroit), Walter Ridder (Ridder Publications), Mary McGrory, Charles Bailey (*Minneapolis Tribune*), Paul Jablow (*Charlotte Observer*), Raymond Coffey (*Chicago Daily News*), Thomas Whiteside: none tagged.
 
 ## Chester (the same group): what remains
 
-Chester's book-check (`chester-american-melodrama.md`) shows the whole book read on Oct. 29. Not done in this run: the
-witnesses (R35) for the entries the first run made or cited. Chester has no notes; the records its text names (Rauh's
-paper, Walinsky's memorandum of Nov. 9, 1966, Schlesinger's letter of Nov. 3, 1967, Hoeh and Studds's memorandum,
-Hughes's of May 19, 1968, O'Brien's of Sept. 28, Connell's three, the Opinion Research panels, Daley's report) are to
-be registered as passages part_of the card, from their entries' pages, by the next run.
+Chester's book-check (`chester-american-melodrama.md`) shows the whole book read on Oct. 29. Not done in this run: the witnesses (R35) for the entries the first run made or cited. Chester has no notes; the records its text names (Rauh's paper, Walinsky's memorandum of Nov. 9, 1966, Schlesinger's letter of Nov. 3, 1967, Hoeh and Studds's memorandum, Hughes's of May 19, 1968, O'Brien's of Sept. 28, Connell's three, the Opinion Research panels, Daley's report) are to be registered as passages part_of the card, from their entries' pages, by the next run.

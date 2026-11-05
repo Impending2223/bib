@@ -1,28 +1,14 @@
 # Hubert H. Humphrey, *The Education of a Public Man: My Life and Politics* (1976): the reading of Jan. 6, 1960–Jan. 20, 1969
 
-Card `w.humphrey-education-of-a-public-1976`. Read Oct. 29, 2026 (batch 3). Patch: `inbox/2026-10-29-b3-humphrey.yaml`
-(b3-humphrey; 98 ops: 48 entries added, 50 edited). Records: `sources/cited-records/humphrey-education-of-a-public-1976.yaml`
-(5). Leads: `notes/leads.md`, National, "Humphrey, *Education of a Public Man*".
+Card `w.humphrey-education-of-a-public-1976`. Read Oct. 29, 2026 (batch 3). Patch: `inbox/2026-10-29-b3-humphrey.yaml` (b3-humphrey; 98 ops: 48 entries added, 50 edited). Records: `sources/cited-records/humphrey-education-of-a-public-1976.yaml` (5). Leads: `notes/leads.md`, National, "Humphrey, *Education of a Public Man*".
 
 ## The copy, and how it was read
 
-The owner's copy in Drive (file id 1JUe2RzlXd_nfLsJXMBy3H6WH49vgF-D0, 21 MB): the Internet Archive's scan of the Doubleday first
-edition (1976, ed. Norman Sherman), 560 PDF pages with a text layer, read with `pdftotext -layout` in the scratchpad only (the
-PDF deleted after). The folios stand in the running heads; the offset changes at each gathering of plates (four pages, no
-folios): **printed page = PDF page − 18** to p. 60, **− 22** to p. 130, **− 26** to p. 202, **− 30** for pp. 203–98, **− 34**
-for pp. 299–370, **− 38** for pp. 371–440, **− 42** for the notes (441–96). Found by script on every page with a folio; checked
-by eye on the page images of p. 78 (PDF 100), p. 306 (PDF 340) and p. 382 (PDF 420). Every page is cited by its folio.
+The owner's copy in Drive (file id 1JUe2RzlXd_nfLsJXMBy3H6WH49vgF-D0, 21 MB): the Internet Archive's scan of the Doubleday first edition (1976, ed. Norman Sherman), 560 PDF pages with a text layer, read with `pdftotext -layout` in the scratchpad only (the PDF deleted after). The folios stand in the running heads; the offset changes at each gathering of plates (four pages, no folios): **printed page = PDF page − 18** to p. 60, **− 22** to p. 130, **− 26** to p. 202, **− 30** for pp. 203–98, **− 34** for pp. 299–370, **− 38** for pp. 371–440, **− 42** for the notes (441–96). Found by script on every page with a folio; checked by eye on the page images of p. 78 (PDF 100), p. 306 (PDF 340) and p. 382 (PDF 420). Every page is cited by its folio.
 
-Read in full: chapters 25–38 (pp. 195–438: the 1960 primaries to the Senate return of 1971) and every note to them (pp.
-470–95). The earlier chapters (to 1958) were not read for entries; nothing before 1960 is entered.
+Read in full: chapters 25–38 (pp. 195–438: the 1960 primaries to the Senate return of 1971) and every note to them (pp. 470–95). The earlier chapters (to 1958) were not read for entries; nothing before 1960 is entered.
 
-**The memoir has no source notes.** Its notes (441–96) are Humphrey's asides, printed apart at the publisher's wish (441). A
-record is logged only where the text or such a note prints or quotes a document that grounds an entry (`note: text` or the
-note's number). Where the series holds a record of the same transaction, it is cited first: FRUS (1964–68, I, doc. 208; II,
-doc. 134; XIV, doc. 147; XXVIII, doc. 200), the Public Papers (Gemini 4, June 17, 1965; the Ne Win dinner), the bound
-*Congressional Record* (May 11–12, 1960; Aug. 27, 1963), the Library of Congress's Meet the Press inventory (Aug. 23, 1964),
-and Johnson's Daily Diary, read off the Catalog's images (Nov. 22 and 24, 1963; Mar. 31, 1968). The Miller Center's pages
-refused this environment (a TLS failure through the proxy); recordings found in its catalogue stand behind "To check:".
+**The memoir has no source notes.** Its notes (441–96) are Humphrey's asides, printed apart at the publisher's wish (441). A record is logged only where the text or such a note prints or quotes a document that grounds an entry (`note: text` or the note's number). Where the series holds a record of the same transaction, it is cited first: FRUS (1964–68, I, doc. 208; II, doc. 134; XIV, doc. 147; XXVIII, doc. 200), the Public Papers (Gemini 4, June 17, 1965; the Ne Win dinner), the bound *Congressional Record* (May 11–12, 1960; Aug. 27, 1963), the Library of Congress's Meet the Press inventory (Aug. 23, 1964), and Johnson's Daily Diary, read off the Catalog's images (Nov. 22 and 24, 1963; Mar. 31, 1968). The Miller Center's pages refused this environment (a TLS failure through the proxy); recordings found in its catalogue stand behind "To check:".
 
 ## The citations it had (fifteen calendar entries; three with pages, all behind "To check:")
 
@@ -50,68 +36,33 @@ refused this environment (a TLS failure through the proxy); recordings found in 
 - `cal.1968-08-26.elections-1968-chicago`: Watson's message Tuesday, Aug. 27, by Humphrey (389).
 - `cal.1960-12.rules`: the Sheraton-Carlton meeting "shortly after I became majority whip" (243), so after Jan. 3, 1961.
 - `cal.1961-01-03.congress`: Johnson "presided at the first meeting of the caucus" (243), against "never uses the role."
-- `cal.1962-10-22.missile-crisis-4`: Humphrey puts Kennedy in Minnesota, at the State fairgrounds, the weekend before (248–49);
-  the calendar (Oct. 20) has him leaving Chicago.
+- `cal.1962-10-22.missile-crisis-4`: Humphrey puts Kennedy in Minnesota, at the State fairgrounds, the weekend before (248–49); the calendar (Oct. 20) has him leaving Chicago.
 - `cal.1964-12-29.congress`: Humphrey resigned "early in December 1964" (350 n.); the Record gives Dec. 29.
-- `cal.1965-09-24.civil-rights-the-executive`: Humphrey makes the council's end Califano's doing, the President hearing no
-  appeal (408–09); the Public Papers' memorandum gives it as on Humphrey's recommendation.
+- `cal.1965-09-24.civil-rights-the-executive`: Humphrey makes the council's end Califano's doing, the President hearing no appeal (408–09); the Public Papers' memorandum gives it as on Humphrey's recommendation.
 - `cal.1966-02-08.vietnam-humphrey`: from Los Angeles to Hawaii first, for Ky and Thieu (330).
 - `cal.1966-02-22.vietnam-humphrey`: "fifty thousand troops" (334).
 - `cal.1966-03-13.india-and-china`: the program "in late March" (484 n.10); the LOC inventory, Mar. 13.
 - `cal.1967-10-31.vietnam`: the inauguration "late November 1967" (347).
-- `cal.1968-03-31.elections-1968-4`: Watson, not Jones, called before the speech (359). The Daily Diary bears the visit (10:50
-  a.m., from St. Dominic's to the Vice President's residence with the Nugents and Jones).
-- New entries carrying Checks on the memoir's dates: S. 910 "passed" the day after West Virginia (the Record: debated May
-  11, passed May 12); the Nov. 22, 1963 leaders (Humphrey names Arends; the Diary McCormack and Morton); the Gemini 4 evening
-  (Humphrey: Friday; the Papers: Thursday, June 17, 1965); Kosygin at New Delhi (Humphrey adds Harriman); the King dinner
-  ("Tuesday" of that week); Souvanna's "bomb the dikes" (not in FRUS's memorandum of Oct. 18, 1965); the June 1964
-  memorandum (Humphrey prints "(not we)", FRUS "(not us)").
+- `cal.1968-03-31.elections-1968-4`: Watson, not Jones, called before the speech (359). The Daily Diary bears the visit (10:50 a.m., from St. Dominic's to the Vice President's residence with the Nugents and Jones).
+- New entries carrying Checks on the memoir's dates: S. 910 "passed" the day after West Virginia (the Record: debated May 11, passed May 12); the Nov. 22, 1963 leaders (Humphrey names Arends; the Diary McCormack and Morton); the Gemini 4 evening (Humphrey: Friday; the Papers: Thursday, June 17, 1965); Kosygin at New Delhi (Humphrey adds Harriman); the King dinner ("Tuesday" of that week); Souvanna's "bomb the dikes" (not in FRUS's memorandum of Oct. 18, 1965); the June 1964 memorandum (Humphrey prints "(not we)", FRUS "(not us)").
 
 ## Other entries the book now cites (pinpoints added)
 
-`cal.1960-04-05.elections-1960`, `cal.1960-12.rules`, `cal.1961-01-03.congress`, `cal.1960-12-15.transition-and-staff-cabinet`,
-`cal.1960-12-12.transition-and-staff-cabinet`, `cal.1961-09-26.testing`, `cal.1962-10-22.missile-crisis-4`, `cal.1963-08-05.testing`,
-`cal.1963-11-26.trade`, `cal.1964-02-26`, `-03-08`, `-03-30`, `-06-10`, `-06-19.civil-rights-bill`, `cal.1964-08-24.democratic-party`,
-`cal.1964-08-25.mississippi`, `cal.1964-08-26.elections-1964`, `cal.1964-12-29.congress`, `cal.1965-01-20.transition-and-staff`,
-`cal.1965-02-05` and `-09-24.civil-rights-the-executive`, `cal.1965-07.vietnam`, `cal.1966-02-08`, `-02-17`, `-02-18`, `-02-22`,
-`-03-03.vietnam-humphrey`, `cal.1966-03-13.india-and-china`, `cal.1966-06-17.vietnam-2`, `cal.1967-10-31.vietnam`,
-`cal.1968-03-31.elections-1968-4` (and the Daily Diary as its record), `cal.1968-08-29`, `-09-30`, `-11-03`, `-11-05.elections-1968`.
+`cal.1960-04-05.elections-1960`, `cal.1960-12.rules`, `cal.1961-01-03.congress`, `cal.1960-12-15.transition-and-staff-cabinet`, `cal.1960-12-12.transition-and-staff-cabinet`, `cal.1961-09-26.testing`, `cal.1962-10-22.missile-crisis-4`, `cal.1963-08-05.testing`, `cal.1963-11-26.trade`, `cal.1964-02-26`, `-03-08`, `-03-30`, `-06-10`, `-06-19.civil-rights-bill`, `cal.1964-08-24.democratic-party`, `cal.1964-08-25.mississippi`, `cal.1964-08-26.elections-1964`, `cal.1964-12-29.congress`, `cal.1965-01-20.transition-and-staff`, `cal.1965-02-05` and `-09-24.civil-rights-the-executive`, `cal.1965-07.vietnam`, `cal.1966-02-08`, `-02-17`, `-02-18`, `-02-22`, `-03-03.vietnam-humphrey`, `cal.1966-03-13.india-and-china`, `cal.1966-06-17.vietnam-2`, `cal.1967-10-31.vietnam`, `cal.1968-03-31.elections-1968-4` (and the Daily Diary as its record), `cal.1968-08-29`, `-09-30`, `-11-03`, `-11-05.elections-1968`.
 
 ## New entries (48)
 
-1960: Apr. 5 (Milwaukee, the advisers); May 11–12 (S. 910, the Record); May and July (Rose, Goldberg and the labor leaders'
-offer of second place, declined); June (the DFL dinner, Heller introduced to Kennedy); July 12 (the night before the
-nominations, Stevenson); Nov. (Heller to the CEA); Dec. (Agriculture; Benton's lunch, Stevenson to the UN, Johnson's call:
-the whip). 1963: Aug. 27 (Humphrey's Senate statement on the March, the Record); Nov. 22 (the leaders at the EOB, the
-Diary); Nov. 23 (the television interviews); Nov. 24 (Johnson's call on the Mundt bill, the Diary); Nov. 26 (the Elms: the
-joint-session speech redrafted). 1964: Feb. (Johnson on floor management); Mar. (the clergy); May (Johnson's preference);
-June 8 (the memorandum, FRUS I, 208); June 10 (Mitchell walks Russell back); Aug. 23 (Meet the Press with McCarthy); Aug.
-25 (Rowe at dinner); Aug. 26 (the Cabinet Room: "a marriage with no chance of divorce"); Aug. 27 (the acceptance); Sept.
-(the *New York Times Magazine* article). 1965: Jan. 23 (Johnson in Bethesda; Humphrey kept on his weekend); Feb. (Pacem in
-Terris); June 17 (Gemini 4, the Paris Air Show); Oct. 18 (Souvanna, FRUS XXVIII, 200); Dec. (the Asian trip called off).
-1966: Jan. 13 (Kosygin at New Delhi, FRUS XIV, 147); Sept. 8 (Ne Win after dinner). 1967: Oct. 29–Nov. 1 (Thieu). 1968: Mar.
-31 (Connell's calls); Apr. 1, 2 (Andrews and the apartment; Meany); Apr. 4 (the congressional dinner, King's death); May
-(O'Donnell's breakfast); June 5 (Colorado Springs); Aug. (McCarthy: mid-September); Aug. 24 (the plank agreed, read to Rusk,
-Rostow, Meany); Aug. 25 (the Ranch on the line); Aug. 30 (Waverly, O'Brien to manage); Sept. (the Rice Hotel); Sept. 28
-(Seattle); Sept. 29 (the Salt Lake City speech's making); Nov. 2 (the White House meeting refused); Nov. 4 (Los Angeles, the
-telethon).
+1960: Apr. 5 (Milwaukee, the advisers); May 11–12 (S. 910, the Record); May and July (Rose, Goldberg and the labor leaders' offer of second place, declined); June (the DFL dinner, Heller introduced to Kennedy); July 12 (the night before the nominations, Stevenson); Nov. (Heller to the CEA); Dec. (Agriculture; Benton's lunch, Stevenson to the UN, Johnson's call: the whip). 1963: Aug. 27 (Humphrey's Senate statement on the March, the Record); Nov. 22 (the leaders at the EOB, the Diary); Nov. 23 (the television interviews); Nov. 24 (Johnson's call on the Mundt bill, the Diary); Nov. 26 (the Elms: the joint-session speech redrafted). 1964: Feb. (Johnson on floor management); Mar. (the clergy); May (Johnson's preference); June 8 (the memorandum, FRUS I, 208); June 10 (Mitchell walks Russell back); Aug. 23 (Meet the Press with McCarthy); Aug. 25 (Rowe at dinner); Aug. 26 (the Cabinet Room: "a marriage with no chance of divorce"); Aug. 27 (the acceptance); Sept. (the *New York Times Magazine* article). 1965: Jan. 23 (Johnson in Bethesda; Humphrey kept on his weekend); Feb. (Pacem in Terris); June 17 (Gemini 4, the Paris Air Show); Oct. 18 (Souvanna, FRUS XXVIII, 200); Dec. (the Asian trip called off). 1966: Jan. 13 (Kosygin at New Delhi, FRUS XIV, 147); Sept. 8 (Ne Win after dinner). 1967: Oct. 29–Nov. 1 (Thieu). 1968: Mar. 31 (Connell's calls); Apr. 1, 2 (Andrews and the apartment; Meany); Apr. 4 (the congressional dinner, King's death); May (O'Donnell's breakfast); June 5 (Colorado Springs); Aug. (McCarthy: mid-September); Aug. 24 (the plank agreed, read to Rusk, Rostow, Meany); Aug. 25 (the Ranch on the line); Aug. 30 (Waverly, O'Brien to manage); Sept. (the Rice Hotel); Sept. 28 (Seattle); Sept. 29 (the Salt Lake City speech's making); Nov. 2 (the White House meeting refused); Nov. 4 (Los Angeles, the telethon).
 
 The merge flags fifteen as possible duplicates (same day, same thread); each is a different event from the entries named.
 
 ## Records (sources/cited-records/)
 
-Five: the memorandum of Feb. 15, 1965 (found and read: FRUS II, 134, the later version); the memorandum of June 1964
-(found and read: FRUS I, 208); the Senate statement of Aug. 27, 1963 (found and read: 109 Cong. Rec. 15917–18); the *New York
-Times Magazine* article, Sept. 1964 (not found: To check); the Salt Lake City speech (the *Times*'s text linked in the entry,
-not read). Documents the memoir prints that ground no entry: Humphrey's memorandum for his files, the weekend of Nov. 23–24,
-1963 (262–63); his report to Johnson after Saigon, Nov. 1967 (349: lead); the 1964 intelligence reports on Thieu shown him in
-1967 (486–87 n.19); Nixon's letter on the New York speech, late 1967 (487 n.20); Evans and Novak's column of Oct. 1, 1967
-(486 n.16).
+Five: the memorandum of Feb. 15, 1965 (found and read: FRUS II, 134, the later version); the memorandum of June 1964 (found and read: FRUS I, 208); the Senate statement of Aug. 27, 1963 (found and read: 109 Cong. Rec. 15917–18); the *New York Times Magazine* article, Sept. 1964 (not found: To check); the Salt Lake City speech (the *Times*'s text linked in the entry, not read). Documents the memoir prints that ground no entry: Humphrey's memorandum for his files, the weekend of Nov. 23–24, 1963 (262–63); his report to Johnson after Saigon, Nov. 1967 (349: lead); the 1964 intelligence reports on Thieu shown him in 1967 (486–87 n.19); Nixon's letter on the New York speech, late 1967 (487 n.20); Evans and Novak's column of Oct. 1, 1967 (486 n.16).
 
 ## Passed over
 
-How the list was made: every dated event of 1960–Jan. 20, 1969 in chapters 25–38 and their notes, page by page, from the
-reading notes; checked against the calendar with `./bib find` and the day's entries.
+How the list was made: every dated event of 1960–Jan. 20, 1969 in chapters 25–38 and their notes, page by page, from the reading notes; checked against the calendar with `./bib find` and the day's entries.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -208,9 +159,7 @@ reading notes; checked against the calendar with `./bib find` and the day's entr
 | 493 n.1 | Mar. 1965 | Humphrey urges the joint-session address on Selma | undated; already in (the address) |
 | 494 n.1 | Jan. 1969 | the Wilson Center's chairmanship | undated |
 
-By reason (92 rows): undated 56; already in 13; private, social, ceremonial or a private paper 11; below the level 5;
-out of the span 2; not placed or not found in the record 2; the date in conflict with the record 1; not borne out by the
-record 1; attendance only 1. Of them, 28 are also leads (`notes/leads.md`).
+By reason (92 rows): undated 56; already in 13; private, social, ceremonial or a private paper 11; below the level 5; out of the span 2; not placed or not found in the record 2; the date in conflict with the record 1; not borne out by the record 1; attendance only 1. Of them, 28 are also leads (`notes/leads.md`).
 
 ## For entries in pending patches
 
@@ -218,46 +167,19 @@ None (the first book of the group).
 
 ## Resumed, Nov. 3–4, 2026 (b3-humphrey-2)
 
-Read again from the owner's copy (the same Drive file, downloaded into the scratchpad and deleted after; the offsets
-above hold; checked on the page images of pp. 361 and 404–05's neighbour 361, and the text of every page cited). The
-Oct. 29 list of Passed over was made under the rules then; under R5, R15, R16 and R18 as they stand ("undated" means
-no month, "below the level" a unit's routine only, private or social trivia only where it bears on nothing public)
-every row was ruled again, below. Patch: `inbox/2026-11-03-b3-humphrey-2.yaml` (33 ops: 29 entries added, 2 cites, 2
-Checks, 1 combine), the memoir leading; the Solberg patch (`b3-solberg-2`) carries the entries Solberg leads, several
-citing this memoir. All new ids claimed in `inbox/new-entries.tsv`.
+Read again from the owner's copy (the same Drive file, downloaded into the scratchpad and deleted after; the offsets above hold; checked on the page images of pp. 361 and 404–05's neighbour 361, and the text of every page cited). The Oct. 29 list of Passed over was made under the rules then; under R5, R15, R16 and R18 as they stand ("undated" means no month, "below the level" a unit's routine only, private or social trivia only where it bears on nothing public) every row was ruled again, below. Patch: `inbox/2026-11-03-b3-humphrey-2.yaml` (33 ops: 29 entries added, 2 cites, 2 Checks, 1 combine), the memoir leading; the Solberg patch (`b3-solberg-2`) carries the entries Solberg leads, several citing this memoir. All new ids claimed in `inbox/new-entries.tsv`.
 
-**The memoir has no source notes** (above): its witnesses are the documents its text prints, registered Oct. 29.
-One edge added to `sources/witnesses/by-work/humphrey-education-of-a-public-1976.yaml`: 216, the quotation of
-O'Brien's *No Final Victories* (card `w.obrien-no-final-victories`) on the slating money.
+**The memoir has no source notes** (above): its witnesses are the documents its text prints, registered Oct. 29. One edge added to `sources/witnesses/by-work/humphrey-education-of-a-public-1976.yaml`: 216, the quotation of O'Brien's *No Final Victories* (card `w.obrien-no-final-victories`) on the slating money.
 
 ### New entries led by the memoir (29)
 
-`cal.1964-07.elections-1964-6` (Rowe's porch, 298) and `cal.1964-08.elections-1964-3` (the call: "I will be loyal," 298); `cal.1960-03.elections-1960-4` (Alsop's poll at Wausau, 208); `-5` (the attack on Kennedy's farm votes, 208); `-6`
-(Robert Kennedy's Hoffa story, 208–09, with Solberg 205); `-7` (the anti-Catholic tracts, 209);
-`cal.1960-04.elections-1960-4` (Johnson's people refuse money, 213); `-5` (Waters's $25,000 for slating, 213–15); `-6`
-(the judge before the "Franklin County" banquet, 215); `-7` (the second $2,500 refused, 215–16);
-`cal.1960-10.elections-1960-13` (Thief River Falls, 233); `cal.1961-08.testing` (the pool and the Rose Garden, 251);
-`cal.1963-08.testing` (Gorky Park, NBC's film taken, 253–55); `cal.1963-08-28.march-on-washington-2` (the UCC
-breakfast, the Minnesota delegation, 271–72); `cal.1963-12.economy` (Byrd at the White House, 290–93: the date in
-conflict, Checked); `cal.1964-07.mississippi` (the warning, 299); `cal.1964-11-04.elections-1968` (Johnson at the
-Ranch: he will not run again, 361 n.); `cal.1965-07-14.vietnam` (the advisers' meeting Humphrey is not asked to, 327);
-`cal.1965-07-15.transition-and-staff` (Stevenson's body brought home, 421–22); `cal.1966-02-14.vietnam-humphrey`
-(Bangkok, the meeting with Thanom's cabinet: FRUS XXVII, 308, read); `-2` (Martin's communiqué, Wicker, 332);
-`cal.1966-02-18.vietnam-humphrey-2` (the backgrounder on the flight to Australia, 333); `cal.1967-07.korea` (the
-Korean Prime Minister on the curfew, 334 n.); `cal.1968-01.elections-1968-2` (Rusk's aside, 361 n.);
-`cal.1968-10.elections-1968-5` (Boston, the druggists, 403); `-6` (downstate Illinois, 398);
-`cal.1968-11-02.elections-1968-5` (Suffolk County and the boroughs, 404).
+`cal.1964-07.elections-1964-6` (Rowe's porch, 298) and `cal.1964-08.elections-1964-3` (the call: "I will be loyal," 298); `cal.1960-03.elections-1960-4` (Alsop's poll at Wausau, 208); `-5` (the attack on Kennedy's farm votes, 208); `-6` (Robert Kennedy's Hoffa story, 208–09, with Solberg 205); `-7` (the anti-Catholic tracts, 209); `cal.1960-04.elections-1960-4` (Johnson's people refuse money, 213); `-5` (Waters's $25,000 for slating, 213–15); `-6` (the judge before the "Franklin County" banquet, 215); `-7` (the second $2,500 refused, 215–16); `cal.1960-10.elections-1960-13` (Thief River Falls, 233); `cal.1961-08.testing` (the pool and the Rose Garden, 251); `cal.1963-08.testing` (Gorky Park, NBC's film taken, 253–55); `cal.1963-08-28.march-on-washington-2` (the UCC breakfast, the Minnesota delegation, 271–72); `cal.1963-12.economy` (Byrd at the White House, 290–93: the date in conflict, Checked); `cal.1964-07.mississippi` (the warning, 299); `cal.1964-11-04.elections-1968` (Johnson at the Ranch: he will not run again, 361 n.); `cal.1965-07-14.vietnam` (the advisers' meeting Humphrey is not asked to, 327); `cal.1965-07-15.transition-and-staff` (Stevenson's body brought home, 421–22); `cal.1966-02-14.vietnam-humphrey` (Bangkok, the meeting with Thanom's cabinet: FRUS XXVII, 308, read); `-2` (Martin's communiqué, Wicker, 332); `cal.1966-02-18.vietnam-humphrey-2` (the backgrounder on the flight to Australia, 333); `cal.1967-07.korea` (the Korean Prime Minister on the curfew, 334 n.); `cal.1968-01.elections-1968-2` (Rusk's aside, 361 n.); `cal.1968-10.elections-1968-5` (Boston, the druggists, 403); `-6` (downstate Illinois, 398); `cal.1968-11-02.elections-1968-5` (Suffolk County and the boroughs, 404).
 
 ### Cites and corrections
 
-- `cal.1964-03.civil-rights-bill-2` (Mansfield against round-the-clock sessions): 275, unit A. (The draft entry for the
-  same announcement was dropped: the tree holds it.)
-- `cal.1965-03-31.vietnam` ("Memo on South Vietnam"): 319–20 (the late-March NSC meeting and the staff's list of
-  unilateral steps), and a Check: whether the memorandum is that list.
-- `cal.1968-10-19.elections-1968` (Jones: "Cancel the appointment"): 404–05 n.; **combined** with
-  `cal.1968-11-02.elections-1968-4`, which the Oct. 29 reading made from the same passage and dated Nov. 2. The memoir
-  puts the visit "during October," from New York; Solberg (392) and his note (Jim Jones to Johnson, Oct. 19, 1968) the
-  Saturday, Oct. 19. A Check says so. The merge will raise the text conflict on KEEP; take KEEP's `c`.
+- `cal.1964-03.civil-rights-bill-2` (Mansfield against round-the-clock sessions): 275, unit A. (The draft entry for the same announcement was dropped: the tree holds it.)
+- `cal.1965-03-31.vietnam` ("Memo on South Vietnam"): 319–20 (the late-March NSC meeting and the staff's list of unilateral steps), and a Check: whether the memorandum is that list.
+- `cal.1968-10-19.elections-1968` (Jones: "Cancel the appointment"): 404–05 n.; **combined** with `cal.1968-11-02.elections-1968-4`, which the Oct. 29 reading made from the same passage and dated Nov. 2. The memoir puts the visit "during October," from New York; Solberg (392) and his note (Jim Jones to Johnson, Oct. 19, 1968) the Saturday, Oct. 19. A Check says so. The merge will raise the text conflict on KEEP; take KEEP's `c`.
 
 ### Passed over, ruled again (the Oct. 29 rows, in their order)
 

@@ -1,38 +1,14 @@
 # *Rights in Conflict: Convention Week in Chicago, August 25–29, 1968* (the Walker Report): a reading against the calendar
 
-Card: the copy is the E. P. Dutton hardcover (© 1968 Bantam Books; "Published in association with Bantam Books"; Max
-Frankel's "Special Introduction"). The catalogue's `w.rights-in-conflict` carries the Bantam paperback's subtitle ("The
-Violent Confrontation of Demonstrators and Police ..."), so this edition has a card of its own,
-`w.rights-in-conflict-convention-week` (`edition_of: w.rights-in-conflict`, `paren: Dutton ed. 1968`; added to
-`works/r.yaml`), and every cite is to it: "[[w.rights-in-conflict-convention-week]], 123". Where the old card stood
-behind "To check:" (Aug. 22 and Dec. 1, 1968) it is taken out by `edit`, the Dutton card read and pinned in its place.
+Card: the copy is the E. P. Dutton hardcover (© 1968 Bantam Books; "Published in association with Bantam Books"; Max Frankel's "Special Introduction"). The catalogue's `w.rights-in-conflict` carries the Bantam paperback's subtitle ("The Violent Confrontation of Demonstrators and Police ..."), so this edition has a card of its own, `w.rights-in-conflict-convention-week` (`edition_of: w.rights-in-conflict`, `paren: Dutton ed. 1968`; added to `works/r.yaml`), and every cite is to it: "[[w.rights-in-conflict-convention-week]], 123". Where the old card stood behind "To check:" (Aug. 22 and Dec. 1, 1968) it is taken out by `edit`, the Dutton card read and pinned in its place.
 
-Copy: the owner's scan (archive.org, 488 PDF pages, with ABBYY's text layer), read Nov. 1, 2026, in the scratchpad.
-Offsets, from the folios printed on every page (read by script on all pages, and on the images of pp. 5, 67, 109,
-208, 210, 211, 217, 222, 230, 233, 236, 255, 265, 267, 321, 327, 328, 333, 335, 339, 341, 344, 348, 350, xiii, xiv,
-49, 59): front matter PDF 9–24 = pp. v–xx (xiii = PDF 17); pp. 1–172 = PDF 25–196 (printed = PDF − 24); the
-"Photographic Chronology," A-1 to A-96, PDF 197–292; pp. 173–362 = PDF 293–482 (printed = PDF − 120).
+Copy: the owner's scan (archive.org, 488 PDF pages, with ABBYY's text layer), read Nov. 1, 2026, in the scratchpad. Offsets, from the folios printed on every page (read by script on all pages, and on the images of pp. 5, 67, 109, 208, 210, 211, 217, 222, 230, 233, 236, 255, 265, 267, 321, 327, 328, 333, 335, 339, 341, 344, 348, 350, xiii, xiv, 49, 59): front matter PDF 9–24 = pp. v–xx (xiii = PDF 17); pp. 1–172 = PDF 25–196 (printed = PDF − 24); the "Photographic Chronology," A-1 to A-96, PDF 197–292; pp. 173–362 = PDF 293–482 (printed = PDF − 120).
 
-What it is: the Chicago Study Team's report to the National Commission on the Causes and Prevention of Violence,
-signed by Walker Nov. 18, 1968 (xiv): the movement's and the Yippies' planning (pp. 13–58), the permit negotiations
-and the three suits (59–75), the eleventh hour (77–94), the city's, the Guard's and the Army's preparations (95–128),
-convention week day by day, often to the minute from the police, Secret Service and Guard logs (129–350), the police
-and the press (287–332), injuries, weapons and arrests (351–358). No notes: it names its sources in the text (3,437
-witness statements, 2,017 of them the FBI's; the Joint Command Monitor Log; the police radio log; the Guard's After
-Action Report; films), so there is no `sources/cited-records/` file (R35). The records it names are leads below.
+What it is: the Chicago Study Team's report to the National Commission on the Causes and Prevention of Violence, signed by Walker Nov. 18, 1968 (xiv): the movement's and the Yippies' planning (pp. 13–58), the permit negotiations and the three suits (59–75), the eleventh hour (77–94), the city's, the Guard's and the Army's preparations (95–128), convention week day by day, often to the minute from the police, Secret Service and Guard logs (129–350), the police and the press (287–332), injuries, weapons and arrests (351–358). No notes: it names its sources in the text (3,437 witness statements, 2,017 of them the FBI's; the Joint Command Monitor Log; the police radio log; the Guard's After Action Report; films), so there is no `sources/cited-records/` file (R35). The records it names are leads below.
 
-How it was checked: every new entry and cite drawn from the text layer, page by page; then each entry's figures,
-times and quotations held to the page images, two ways: (1) a fresh tesseract OCR of the page image (200 dpi) for the
-pages of the planning and of Aug. 18–27 (52 pages), every number and quotation in `c` found there, but for the
-July 17 quotation, which carries an ellipsis (read by eye); (2) the pages of Aug. 27–30, the press, the front matter
-and pp. 49, 59 read by eye on 90-dpi images (the list above). Corrected on the image: Apr. 25 (21 arrested; the Free
-City Survival Committee formed after the May meeting, not then); Sullivan's "target" (after Johnson's withdrawal).
-The photographic chronology's captions not used.
+How it was checked: every new entry and cite drawn from the text layer, page by page; then each entry's figures, times and quotations held to the page images, two ways: (1) a fresh tesseract OCR of the page image (200 dpi) for the pages of the planning and of Aug. 18–27 (52 pages), every number and quotation in `c` found there, but for the July 17 quotation, which carries an ellipsis (read by eye); (2) the pages of Aug. 27–30, the press, the front matter and pp. 49, 59 read by eye on 90-dpi images (the list above). Corrected on the image: Apr. 25 (21 arrested; the Free City Survival Committee formed after the May meeting, not then); Sullivan's "target" (after Johnson's withdrawal). The photographic chronology's captions not used.
 
-Patch: `inbox/2026-11-01-walker-rights-in-conflict.yaml`: 84 new entries (each claimed in the ledger), 6 cites
-(additive), 3 checks, 3 edits (with base). patch-check: 0 errors, 51 warnings: 49 same-day, same-thread pairs of
-distinct events (the days of Aug. 19–29 in the Chicago subthread), and 2 edits that set only `n` (they take the
-Bantam card out of "To check:", which an additive op cannot).
+Patch: `inbox/2026-11-01-walker-rights-in-conflict.yaml`: 84 new entries (each claimed in the ledger), 6 cites (additive), 3 checks, 3 edits (with base). patch-check: 0 errors, 51 warnings: 49 same-day, same-thread pairs of distinct events (the days of Aug. 19–29 in the Chicago subthread), and 2 edits that set only `n` (they take the Bantam card out of "To check:", which an additive op cannot).
 
 ## The citations it had (2 entries), and the entries it bears on
 
@@ -138,10 +114,7 @@ Bantam card out of "To check:", which an additive op cannot).
 | cal.1968-07.war-opposition | Early July | Hayden in Paris, two weeks: consultations with the North Vietnamese.… | 25 |
 ## Passed over
 
-Made by reading the report's dated sentences page by page (every sentence naming a month, a weekday or a clock time,
-pp. 13–358, extracted from the text layer and read in place), and the narrative of each day's sections. Each dated
-event within the span not entered is a row. "Lead" here means an event that is an entry under R5–R16 and was not
-entered for want of time on this run: the next reader of this card should enter it from the page given.
+Made by reading the report's dated sentences page by page (every sentence naming a month, a weekday or a clock time, pp. 13–358, extracted from the text layer and read in place), and the narrative of each day's sections. Each dated event within the span not entered is a row. "Lead" here means an event that is an entry under R5–R16 and was not entered for want of time on this run: the next reader of this card should enter it from the page given.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -233,21 +206,9 @@ entered for want of time on this run: the next reader of this card should enter 
 ## Leads
 
 National
-- The rows marked "lead" above, each from its page; first the Mobilization's police meetings (Aug. 7, 21, 23), the
-  Coalition's letters, the Free City group's June meetings, the preconvention publicity (Rubin, Rollins), the
-  press chapter's telegrams and arrests (pp. 317–28), Huntley's broadcast (Huntley has a name entry).
-- The records the report names and the series does not hold: the Joint Command Monitor Log, the Chicago police radio
-  log, the Illinois National Guard's After Action Report and duty officer's log, the FBI's 2,017 witness statements,
-  the Los Angeles police inspector's report (pp. 1–2), the Secret Service's intelligence summary of Aug. 8 (p. 113):
-  where they are now (the Commission's records, RG 283, National Archives; the Chicago police) not searched.
-- Judge William J. Lynch's opinion of Aug. 23, 1968, on the Mobilization's suit (the report quotes it, p. 67, but gives
-  no caption or reporter): to find, if reported, and cite as the primary record of
-  cal.1968-08-23.elections-1968-chicago-2.
-- The day the report was made public (Dec. 1, 1968, in the calendar): not in the report; the Commission's release or the
-  *Times*.
+- The rows marked "lead" above, each from its page; first the Mobilization's police meetings (Aug. 7, 21, 23), the Coalition's letters, the Free City group's June meetings, the preconvention publicity (Rubin, Rollins), the press chapter's telegrams and arrests (pp. 317–28), Huntley's broadcast (Huntley has a name entry).
+- The records the report names and the series does not hold: the Joint Command Monitor Log, the Chicago police radio log, the Illinois National Guard's After Action Report and duty officer's log, the FBI's 2,017 witness statements, the Los Angeles police inspector's report (pp. 1–2), the Secret Service's intelligence summary of Aug. 8 (p. 113): where they are now (the Commission's records, RG 283, National Archives; the Chicago police) not searched.
+- Judge William J. Lynch's opinion of Aug. 23, 1968, on the Mobilization's suit (the report quotes it, p. 67, but gives no caption or reporter): to find, if reported, and cite as the primary record of cal.1968-08-23.elections-1968-chicago-2.
+- The day the report was made public (Dec. 1, 1968, in the calendar): not in the report; the Commission's release or the *Times*.
 - The Bantam paperback (`w.rights-in-conflict`): its pages not compared with the Dutton's.
-- Persons the report names with no name entry: Conlisk, Stahl, Baugher, Barry (Park District), Brig. Gen. Richard T.
-  Dunn, Judge Lynch, Raymond Simon, Thomas Foran, Frank Sullivan, Dan Rather, Mike Wallace, Krassner, Ginsberg,
-  Carlos Russell, Clinton Deveaux, Martin Slate, Richard Neuhaus, Murray Kempton (a columnist, R13: to propose),
-  Donald Peterson (Wisconsin's chairman). Michaelis (Task Force III's commander, p. 116) may be the John H. Michaelis
-  who has an entry: not tagged, not confirmed.
+- Persons the report names with no name entry: Conlisk, Stahl, Baugher, Barry (Park District), Brig. Gen. Richard T. Dunn, Judge Lynch, Raymond Simon, Thomas Foran, Frank Sullivan, Dan Rather, Mike Wallace, Krassner, Ginsberg, Carlos Russell, Clinton Deveaux, Martin Slate, Richard Neuhaus, Murray Kempton (a columnist, R13: to propose), Donald Peterson (Wisconsin's chairman). Michaelis (Task Force III's commander, p. 116) may be the John H. Michaelis who has an entry: not tagged, not confirmed.

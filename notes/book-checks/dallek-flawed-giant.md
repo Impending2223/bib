@@ -1,8 +1,6 @@
 # Dallek, *Flawed Giant* (1998): the calendar's citations held up
 
-Card `w.dallek-flawed-giant` (the 1999 card folded in). Read from the owner's copy, Oct. 24, 2026; cited by the printed
-page (PDF page = printed + 15 to p. 442, + 31 after the plates). Patch: `inbox/2026-10-24-book-dallek-giant.yaml`.
-Only the cases that are not a plain "holds" are listed. Each ruling went into the patch as written here.
+Card `w.dallek-flawed-giant` (the 1999 card folded in). Read from the owner's copy, Oct. 24, 2026; cited by the printed page (PDF page = printed + 15 to p. 442, + 31 after the plates). Patch: `inbox/2026-10-24-book-dallek-giant.yaml`. Only the cases that are not a plain "holds" are listed. Each ruling went into the patch as written here.
 
 ## Not treated: citation dropped
 
@@ -54,16 +52,11 @@ Only the cases that are not a plain "holds" are listed. Each ruling went into th
 
 ## Backfill, Oct. 29, 2026: the maps, the records, what the book passes over
 
-Stage 5 of the second pass (brief-backfill.md), read from the owner's copy (Drive, the same file id), by the printed
-page. Patch: `inbox/2026-10-29-backfill-caro-dallek.yaml`; records: `sources/cited-records/dallek-flawed-giant.yaml`.
+Stage 5 of the second pass (brief-backfill.md), read from the owner's copy (Drive, the same file id), by the printed page. Patch: `inbox/2026-10-29-backfill-caro-dallek.yaml`; records: `sources/cited-records/dallek-flawed-giant.yaml`.
 
 ### Rereads and maps
 
-Every calendar entry citing the book by page (123) was reread against its units (`./bib claims show`) and given its
-map (`src`): Dallek's rows by page and letter, the rows other runs or readers wrote kept, the primary records' rows
-added where the page's note is printed in FRUS or the Public Papers and was read. Where the page bears out only part,
-the note's parenthetical now says which part; where it bears out another figure or account, a "Check:". Columns: the
-entry; Dallek's rows (page: units); the records tied to it by `via` rows; the ruling.
+Every calendar entry citing the book by page (123) was reread against its units (`./bib claims show`) and given its map (`src`): Dallek's rows by page and letter, the rows other runs or readers wrote kept, the primary records' rows added where the page's note is printed in FRUS or the Public Papers and was read. Where the page bears out only part, the note's parenthetical now says which part; where it bears out another figure or account, a "Check:". Columns: the entry; Dallek's rows (page: units); the records tied to it by `via` rows; the ruling.
 
 | Entry | Map (page: units) | `via` | Ruling |
 |---|---|---|---|
@@ -192,53 +185,21 @@ entry; Dallek's rows (page: units); the records tied to it by `via` rows; the ru
 | `cal.1969-01-14.program` | 597–98: A, N | 0 | parenthetical (the address in person; the closing words) |
 | `cal.1968-03-19.open-housing` | 533: A | 1 | parenthetical (the deferral, 8 to 7) |
 
-Further rulings, made in the parentheticals: Dallek's House count of Feb. 10, 1964, 290 to 110, is not the roll
-call's (`cal.1964-02-10.crb`); he has eight advisers killed at Pleiku (`cal.1965-02-07`), five killed and seventy-six
-wounded at Biên Hòa (`cal.1964-11-01.vietnam`), and a fifteen-minute meeting with King on Feb. 9, 1965
-(`cal.1965-02-09`). Five entries had a "Check" inside `c` (`cal.1964-01-09.latin-america`, `cal.1964-08-22.mississippi`,
-`cal.1964-08-26.elections-1964`, `cal.1964-10-14.elections-1964`, `cal.1967-02-06.robert-kennedy`): moved to the
-note, or dropped where the page settles it (Katzenbach and Rostow present on Feb. 6, 1967: 448). Three notes' labels
-or groupings that the claims reader could not take ("Fortas: [[...]]", a work's pages each with its own parenthetical)
-were rewritten in the form "[[card]], 37, 75 (a, 37; b, 75)" so the rows can name them.
+Further rulings, made in the parentheticals: Dallek's House count of Feb. 10, 1964, 290 to 110, is not the roll call's (`cal.1964-02-10.crb`); he has eight advisers killed at Pleiku (`cal.1965-02-07`), five killed and seventy-six wounded at Biên Hòa (`cal.1964-11-01.vietnam`), and a fifteen-minute meeting with King on Feb. 9, 1965 (`cal.1965-02-09`). Five entries had a "Check" inside `c` (`cal.1964-01-09.latin-america`, `cal.1964-08-22.mississippi`, `cal.1964-08-26.elections-1964`, `cal.1964-10-14.elections-1964`, `cal.1967-02-06.robert-kennedy`): moved to the note, or dropped where the page settles it (Katzenbach and Rostow present on Feb. 6, 1967: 448). Three notes' labels or groupings that the claims reader could not take ("Fortas: [[...]]", a work's pages each with its own parenthetical) were rewritten in the form "[[card]], 37, 75 (a, 37; b, 75)" so the rows can name them.
 
 ### Records (rule A)
 
-184 records described once each, by the text page and the note's number (a note giving several records lettered: 58a,
-58b); the author's own interviews logged and kept out of "To check". Found and read: 24 (FRUS's printings of the Tom
-Johnson notes, the NSC and Cabinet Room records, McGeorge and William Bundy's memoranda and manuscript history as FRUS
-quotes them); found and not read: 20 (FRUS or the Miller Center holding them; the recordings fail TLS here and are
-cited "not heard here"); not found: 140, each in its entry's "To check" with Dallek's page (the LBJ Library's files:
-Diary Backup, the Meeting Notes File, NSF, WHCF; the Tom Johnson Papers; the oral histories; the Russell, Ball and
-Clifford papers).
+184 records described once each, by the text page and the note's number (a note giving several records lettered: 58a, 58b); the author's own interviews logged and kept out of "To check". Found and read: 24 (FRUS's printings of the Tom Johnson notes, the NSC and Cabinet Room records, McGeorge and William Bundy's memoranda and manuscript history as FRUS quotes them); found and not read: 20 (FRUS or the Miller Center holding them; the recordings fail TLS here and are cited "not heard here"); not found: 140, each in its entry's "To check" with Dallek's page (the LBJ Library's files: Diary Backup, the Meeting Notes File, NSF, WHCF; the Tom Johnson Papers; the oral histories; the Russell, Ball and Clifford papers).
 
 ### New entries
 
-Twenty-two, the informal record Dallek dates to the day and the parties' and members' word (the owner's rule of Oct.
-29): `cal.1964-06-01.vietnam-congress` (Smathers's call), `cal.1964-08-03.vietnam` (Fulbright to Ball),
-`cal.1964-08-10.vietnam-commitments` (FRUS 1964–68, I, doc. 307), `cal.1964-11-11.medicare` (Mills),
-`cal.1965-02-08.school-aid` (Powell), `cal.1965-02-11.vietnam-congress` (Fulbright to Krock),
-`cal.1965-04-03.vietnam-pause` (Pearson at Camp David), `cal.1965-04-21.vietnam` (Baldwin's story),
-`cal.1965-07-08.vietnam-july-decision` (the panel; FRUS III, doc. 55), `cal.1966-02-08.vietnam-humphrey`,
-`cal.1966-05-13.intelligence` (Russell, Hoover), `cal.1966-07-11.vietnam-congress`, `cal.1966-12-19.vietnam` (Goldberg
-to U Thant), `cal.1967-03-13.robert-kennedy` (Johnson to Drew Pearson), `cal.1967-08-07.vietnam` (Apple's
-"stalemate"), `cal.1967-11-01.democratic-party` (the West Side meeting), `cal.1967-11-02.vietnam-support`,
-`cal.1967-11-22.war-opposition` (Ford's statement),
-`cal.1968-04-10.elections-1968` (Rockefeller "available"), `cal.1968-05-16.elections-1968` (Riesel's column),
-`cal.1968-10-26.elections-1968` and `cal.1968-10-27.elections-1968` (the campaign).
+Twenty-two, the informal record Dallek dates to the day and the parties' and members' word (the owner's rule of Oct. 29): `cal.1964-06-01.vietnam-congress` (Smathers's call), `cal.1964-08-03.vietnam` (Fulbright to Ball), `cal.1964-08-10.vietnam-commitments` (FRUS 1964–68, I, doc. 307), `cal.1964-11-11.medicare` (Mills), `cal.1965-02-08.school-aid` (Powell), `cal.1965-02-11.vietnam-congress` (Fulbright to Krock), `cal.1965-04-03.vietnam-pause` (Pearson at Camp David), `cal.1965-04-21.vietnam` (Baldwin's story), `cal.1965-07-08.vietnam-july-decision` (the panel; FRUS III, doc. 55), `cal.1966-02-08.vietnam-humphrey`, `cal.1966-05-13.intelligence` (Russell, Hoover), `cal.1966-07-11.vietnam-congress`, `cal.1966-12-19.vietnam` (Goldberg to U Thant), `cal.1967-03-13.robert-kennedy` (Johnson to Drew Pearson), `cal.1967-08-07.vietnam` (Apple's "stalemate"), `cal.1967-11-01.democratic-party` (the West Side meeting), `cal.1967-11-02.vietnam-support`, `cal.1967-11-22.war-opposition` (Ford's statement), `cal.1968-04-10.elections-1968` (Rockefeller "available"), `cal.1968-05-16.elections-1968` (Riesel's column), `cal.1968-10-26.elections-1968` and `cal.1968-10-27.elections-1968` (the campaign).
 
 On `cal.1968-03-19.open-housing`, entered meanwhile by another run, Dallek's page and count (8 to 7) are added.
 
 ### Passed over
 
-How the list was made: a script over the text layer (pp. 3–628) listed every mention of a month and day, 572 in all,
-with its page, a year inferred from the text and the calendar's entries of that month and day in every year; those on
-a page an entry already cites for that day (108) were set aside; the remaining 451 (page, date) pairs were read in
-context, their years put right by hand, and judged against the calendar (`./bib find`, the day's entries). Classes
-passed over without a row: dates outside the span (the 1970s, births); dates named only as deadlines or periods
-(fiscal years, a surcharge's dates); a day mentioned only to place another event. Months alone ("in March 1966") were
-not listed. "Minor" is used only as the owner's rule of Oct. 29 allows (private or social trivia; the same position
-again); "below the calendar's level" marks staff memoranda, estimates and the President's background talks;
-"a lead" a dated event whose record or matter the page does not give enough of to enter.
+How the list was made: a script over the text layer (pp. 3–628) listed every mention of a month and day, 572 in all, with its page, a year inferred from the text and the calendar's entries of that month and day in every year; those on a page an entry already cites for that day (108) were set aside; the remaining 451 (page, date) pairs were read in context, their years put right by hand, and judged against the calendar (`./bib find`, the day's entries). Classes passed over without a row: dates outside the span (the 1970s, births); dates named only as deadlines or periods (fiscal years, a surcharge's dates); a day mentioned only to place another event. Months alone ("in March 1966") were not listed. "Minor" is used only as the owner's rule of Oct. 29 allows (private or social trivia; the same position again); "below the calendar's level" marks staff memoranda, estimates and the President's background talks; "a lead" a dated event whose record or matter the page does not give enough of to enter.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -490,19 +451,9 @@ again); "below the calendar's level" marks staff memoranda, estimates and the Pr
 ### Leads
 
 National:
-- The news conferences and addresses Dallek dates and the calendar does not yet hold (the Public Papers have them):
-  Feb. 29 and Mar. 15, 1964; Apr. 1 and July 9, 1965; May 21 and Oct. 6, 1966; Nov. 1, 1967; May 3, 1968; and
-  Johnson's speeches of July 23, 1966 (Indiana, Kentucky, Illinois) and of Aug.–Sept. 1968.
-- The meetings whose notes Dallek cites and the series has not read: the NSC of Feb. 8, 1967; the Cabinet of July 19,
-  1967 and Aug. 22, 1968; Johnson's lunch of Mar. 22, 1968 ("a dramatic shift in public opinion"); the meetings with
-  Representatives of Feb. 15, 1967, and with Senators of Apr. 12–14, 1966; Rusk and Clifford on the bombing, May 8,
-  15, 21, 1968; Clifford's notes of Oct. 2, 1967.
-- Bailey's request of July 29, 1968, to see Johnson on the convention (WHCF: EX/PL1); the *Times*'s and Pearson's
-  stories on the platform plank, Aug. 27 and Sept. 2, 1968.
+- The news conferences and addresses Dallek dates and the calendar does not yet hold (the Public Papers have them): Feb. 29 and Mar. 15, 1964; Apr. 1 and July 9, 1965; May 21 and Oct. 6, 1966; Nov. 1, 1967; May 3, 1968; and Johnson's speeches of July 23, 1966 (Indiana, Kentucky, Illinois) and of Aug.–Sept. 1968.
+- The meetings whose notes Dallek cites and the series has not read: the NSC of Feb. 8, 1967; the Cabinet of July 19, 1967 and Aug. 22, 1968; Johnson's lunch of Mar. 22, 1968 ("a dramatic shift in public opinion"); the meetings with Representatives of Feb. 15, 1967, and with Senators of Apr. 12–14, 1966; Rusk and Clifford on the bombing, May 8, 15, 21, 1968; Clifford's notes of Oct. 2, 1967.
+- Bailey's request of July 29, 1968, to see Johnson on the convention (WHCF: EX/PL1); the *Times*'s and Pearson's stories on the platform plank, Aug. 27 and Sept. 2, 1968.
 - Johnson's background talk with two *Star* reporters, Oct. 13, 1967, on Ford and Laird (WHCF: Aides: Christian).
-- William Bundy's manuscript history of the war (LBJ Library), cited for the July decisions of 1965 and the pause of
-  1965–66: FRUS quotes parts; the whole not open here.
-Foreign:
-- Kỳ's words of July 27, 1966, and Feb. 1, 1967; the Dominican cease-fire of May 5, 1965; Thiệu and Kỳ's request of
-  Nov. 5, 1968; the Saigon delegation's arrival, Dec. 8, 1968; the back channel to Moscow, Dec. 9, 1968; the warning to
-  Thiệu, Jan. 7, 1969; the Soviet initiative of June 4, 1968, and Ball's swearing in at the UN.
+- William Bundy's manuscript history of the war (LBJ Library), cited for the July decisions of 1965 and the pause of 1965–66: FRUS quotes parts; the whole not open here. Foreign:
+- Kỳ's words of July 27, 1966, and Feb. 1, 1967; the Dominican cease-fire of May 5, 1965; Thiệu and Kỳ's request of Nov. 5, 1968; the Saigon delegation's arrival, Dec. 8, 1968; the back channel to Moscow, Dec. 9, 1968; the warning to Thiệu, Jan. 7, 1969; the Soviet initiative of June 4, 1968, and Ball's swearing in at the UN.

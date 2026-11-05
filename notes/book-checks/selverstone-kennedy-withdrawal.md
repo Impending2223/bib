@@ -1,56 +1,28 @@
 # Marc J. Selverstone, *The Kennedy Withdrawal: Camelot and the American Commitment to Vietnam* (2022): the calendar against the book
 
-Card `w.selverstone-kennedy-withdrawal`. Read Oct. 28–29, 2026, from the owner's copy on the Drive: Harvard University
-Press's PDF of the first printing (2022; the cloth ISBN 9780674048812), paginated as the print. Printed page = PDF page −
-10 throughout, checked by the printed folios at pp. 20, 100, 150, 200, 240, 252 and 290. Text pp. 1–248; notes pp.
-249–310, numbered by chapter, each headed "Notes to Pages ...". `sources/cited-records/selverstone-kennedy-withdrawal.yaml`
-keys each note by the text page it serves and its number. Several records under one note are lettered (`3a`, `3b`).
+Card `w.selverstone-kennedy-withdrawal`. Read Oct. 28–29, 2026, from the owner's copy on the Drive: Harvard University Press's PDF of the first printing (2022; the cloth ISBN 9780674048812), paginated as the print. Printed page = PDF page − 10 throughout, checked by the printed folios at pp. 20, 100, 150, 200, 240, 252 and 290. Text pp. 1–248; notes pp. 249–310, numbered by chapter, each headed "Notes to Pages ...". `sources/cited-records/selverstone-kennedy-withdrawal.yaml` keys each note by the text page it serves and its number. Several records under one note are lettered (`3a`, `3b`).
 
-Patch: `inbox/2026-10-29-book-reeves-selverstone.yaml` (book-reeves-selverstone), shared with Reeves's reading. An entry
-both books bear on gets one edit, built on the entry as it now stands.
+Patch: `inbox/2026-10-29-book-reeves-selverstone.yaml` (book-reeves-selverstone), shared with Reeves's reading. An entry both books bear on gets one edit, built on the entry as it now stands.
 
-What the book is for the calendar: the withdrawal of the thousand and the 1965 target, from planning in 1962 to the
-Model Plan's end in March 1964. It draws on the recorded meetings (the Miller Center's draft transcripts), the NSF and the
-Defense and JCS files, FRUS, and the Public Papers. Its thesis, stated as the book states it: the withdrawal was McNamara's
-plan as much as Kennedy's, a hedge kept conditional on the war's progress. It served as pressure on Saigon and as cover at
-home more than as a decision to leave. The memory of it after 1963 made "Camelot's" Vietnam. The thread it most concerns
-is Force levels (`vietnam-force-levels`). Its statement for Cal. II (`c2`) now names the 1963 stations: the May
-conference and the thousand, the White House statement of Oct. 2 and NSAM 263, Harkins's announcement of the first 300,
-and the Model Plan superseded in March 1964. Those stations had been in `c`, which speaks to Cal. I. Cal. I keeps
-Krock, Honolulu 1962 and the October conference. `c3` is unchanged.
+What the book is for the calendar: the withdrawal of the thousand and the 1965 target, from planning in 1962 to the Model Plan's end in March 1964. It draws on the recorded meetings (the Miller Center's draft transcripts), the NSF and the Defense and JCS files, FRUS, and the Public Papers. Its thesis, stated as the book states it: the withdrawal was McNamara's plan as much as Kennedy's, a hedge kept conditional on the war's progress. It served as pressure on Saigon and as cover at home more than as a decision to leave. The memory of it after 1963 made "Camelot's" Vietnam. The thread it most concerns is Force levels (`vietnam-force-levels`). Its statement for Cal. II (`c2`) now names the 1963 stations: the May conference and the thousand, the White House statement of Oct. 2 and NSAM 263, Harkins's announcement of the first 300, and the Model Plan superseded in March 1964. Those stations had been in `c`, which speaks to Cal. I. Cal. I keeps Krock, Honolulu 1962 and the October conference. `c3` is unchanged.
 
-How the list was made: every date in the text, pp. 1–248, was scanned in page order (147 dated mentions), the year taken
-from the chapter's span where the sentence does not give it (and corrected by hand where the scan erred: pp. 157, 161,
-200, 201, 209). Each was set against every entry of its day in a fresh dump of the calendar (all threads; Oct. 28, 18:30)
-and against the pending patches. Where the event was in, the page was added, with its row, its records' `via` rows and a
-parenthetical where it bears part. Where it was not in and the brief takes it, an entry was made from the page and its
-records, read first in FRUS, the Public Papers, the Record and the recordings' catalogues. Four of the adds first planned
-had meanwhile been entered by other runs (Jan. 3 and Feb. 21, 1962, Vietnam; Feb. 13, 1962, Republican Party; Aug. 31
-and Sept. 23, 1963, Vietnam). Those became edits of the entries now in, keeping their text, cites and rows. Selverstone's
-page and rows were added, and a Check where he differs. Three entries cited the book before this reading, without a
-pinpoint (Sept. 2, Sept. 21 and Oct. 11, 1963). Each was read and pinned.
+How the list was made: every date in the text, pp. 1–248, was scanned in page order (147 dated mentions), the year taken from the chapter's span where the sentence does not give it (and corrected by hand where the scan erred: pp. 157, 161, 200, 201, 209). Each was set against every entry of its day in a fresh dump of the calendar (all threads; Oct. 28, 18:30) and against the pending patches. Where the event was in, the page was added, with its row, its records' `via` rows and a parenthetical where it bears part. Where it was not in and the brief takes it, an entry was made from the page and its records, read first in FRUS, the Public Papers, the Record and the recordings' catalogues. Four of the adds first planned had meanwhile been entered by other runs (Jan. 3 and Feb. 21, 1962, Vietnam; Feb. 13, 1962, Republican Party; Aug. 31 and Sept. 23, 1963, Vietnam). Those became edits of the entries now in, keeping their text, cites and rows. Selverstone's page and rows were added, and a Check where he differs. Three entries cited the book before this reading, without a pinpoint (Sept. 2, Sept. 21 and Oct. 11, 1963). Each was read and pinned.
 
 ## Entries held, in part, or differing (35 edited)
 
 - 1961: Jan. 28; May 11; Nov. 3, 11, 15, 22.
 - 1962: Jan. 3; Feb. 13 (Republican Party), 21 (Laos), 21 (Vietnam); Apr. 4; May 1; July 23; Dec. 26.
-- 1963: Feb. 24; Mar. 6 (economy: the news conference's answer on aid to South Vietnam added at the end); May 17; July
-  17 (the news conference's Vietnam answer, the same); Aug. 31 (vietnam-2); Sept. 2, 21, 23; Oct. 2, 8, 9 (trade), 11, 31 (elections
-  1964); Nov. 20, 24, 26; Dec. 21.
+- 1963: Feb. 24; Mar. 6 (economy: the news conference's answer on aid to South Vietnam added at the end); May 17; July 17 (the news conference's Vietnam answer, the same); Aug. 31 (vietnam-2); Sept. 2, 21, 23; Oct. 2, 8, 9 (trade), 11, 31 (elections 1964); Nov. 20, 24, 26; Dec. 21.
 - 1964: Feb. 3, 29 (defense); Mar. 17.
 - The thread statement, Force levels (above).
 
-Eleven of these are also Reeves's edits; each entry is one op. Units added to `c` (eight entries: Feb. 13 and Feb. 21,
-1962; Mar. 6, July 17, Sept. 23, Oct. 9 and Oct. 31, 1963; Feb. 29, 1964; each news conference's Vietnam answer is listed in
-Vietnam by `also:`, one event, one entry) go at the end, and the hash is recomputed. Every edit was diffed against the
-entry as it now stands. No cite, sentence or row of another run's is lost.
+Eleven of these are also Reeves's edits; each entry is one op. Units added to `c` (eight entries: Feb. 13 and Feb. 21, 1962; Mar. 6, July 17, Sept. 23, Oct. 9 and Oct. 31, 1963; Feb. 29, 1964; each news conference's Vietnam answer is listed in Vietnam by `also:`, one event, one entry) go at the end, and the hash is recomputed. Every edit was diffed against the entry as it now stands. No cite, sentence or row of another run's is lost.
 
 Differences, each a Check:
 
 - 1962-02-13 (Republican Party): the day. Selverstone gives Feb. 13; the *Times* reports it Feb. 14.
 - 1962-05-01 (Ball's speech): the day and place. Selverstone gives Apr. 30, the Economic Club of Detroit (69).
-- 1963-09-23 (the McNamara–Taylor mission's sendoff, recorded): the recording not heard; the words are Selverstone's
-  transcript's.
+- 1963-09-23 (the McNamara–Taylor mission's sendoff, recorded): the recording not heard; the words are Selverstone's transcript's.
 - 1964-01-31 (Lindsay, new): Selverstone dates it Jan. 28; the Record's page is the House's of Jan. 31.
 - 1963-10-05 (vietnam-2, new): the hour. Forrestal gives 9:30 a.m., PRDE 11 a.m.
 - 1963-12-03 (Johnson on the withdrawal, new): the day is the memorandum's.
@@ -58,39 +30,19 @@ Differences, each a Check:
 ## New entries (32)
 
 - 1961: Dec. 16 (Honolulu, McNamara's first conference on Vietnam).
-- 1962: Apr. 6 (Kennedy and Harriman on Galbraith's memorandum); May 1 (vietnam-2, the White House meeting); Sept. 25
-  (Taylor's report, recorded); Oct. 8 (Honolulu).
-- 1963: Jan. 30 (Felt at the Pentagon, "three years"); Feb. 1 (the recorded meeting); Feb. 4 (Wheeler); Apr. 4 (Robert
-  Thompson with Kennedy); Apr. 29 (McNamara with the Chiefs on the thousand); May 6 (Honolulu, the eighth conference); May
-  7 (McNamara to Kennedy, recorded); May 22 (the news conference); Sept. 3 (the plan approved for planning); Sept. 6 (the
-  Model Plan approved); Sept. 11 (vietnam-2, the 6 p.m. meeting at State); Sept. 19 (the recorded meeting on the mission);
-  Oct. 5 (vietnam-2, the Cabinet Room); Nov. 14 (the news conference); Dec. 2 (Harkins's announcement); Dec. 3 (Johnson
-  questions the withdrawal).
-- 1964: Jan. 31 (Lindsay in the House; Republican Party: In Congress); Feb. 25 (Johnson to McNamara, recorded); Feb. 26
-  (Bundy to the overseas writers); Feb. 27 (Dirksen and Halleck for the joint leadership; In Congress); Mar. 2 (Johnson to
-  McNamara, recorded); Mar. 5 (McNamara's news conference); Mar. 7 (Johnson's news conference); Mar. 9 (Keating's "20
-  Questions"; In Congress); Mar. 15 (the networks' interview); Mar. 26 (McNamara to the Forrestal dinner); Mar. 27 (the
-  Model Plan's phase-down superseded).
+- 1962: Apr. 6 (Kennedy and Harriman on Galbraith's memorandum); May 1 (vietnam-2, the White House meeting); Sept. 25 (Taylor's report, recorded); Oct. 8 (Honolulu).
+- 1963: Jan. 30 (Felt at the Pentagon, "three years"); Feb. 1 (the recorded meeting); Feb. 4 (Wheeler); Apr. 4 (Robert Thompson with Kennedy); Apr. 29 (McNamara with the Chiefs on the thousand); May 6 (Honolulu, the eighth conference); May 7 (McNamara to Kennedy, recorded); May 22 (the news conference); Sept. 3 (the plan approved for planning); Sept. 6 (the Model Plan approved); Sept. 11 (vietnam-2, the 6 p.m. meeting at State); Sept. 19 (the recorded meeting on the mission); Oct. 5 (vietnam-2, the Cabinet Room); Nov. 14 (the news conference); Dec. 2 (Harkins's announcement); Dec. 3 (Johnson questions the withdrawal).
+- 1964: Jan. 31 (Lindsay in the House; Republican Party: In Congress); Feb. 25 (Johnson to McNamara, recorded); Feb. 26 (Bundy to the overseas writers); Feb. 27 (Dirksen and Halleck for the joint leadership; In Congress); Mar. 2 (Johnson to McNamara, recorded); Mar. 5 (McNamara's news conference); Mar. 7 (Johnson's news conference); Mar. 9 (Keating's "20 Questions"; In Congress); Mar. 15 (the networks' interview); Mar. 26 (McNamara to the Forrestal dinner); Mar. 27 (the Model Plan's phase-down superseded).
 
-Each was compared with every entry of its day. Three share day and thread with an entry of another event, a distinct
-meeting each, and carry `-2` ids. The merge will flag them as possible duplicates (`./bib resolve ID --take keep`): 1962-05-01
-vietnam-2, 1963-09-11 vietnam-2, 1963-10-05 vietnam-2.
+Each was compared with every entry of its day. Three share day and thread with an entry of another event, a distinct meeting each, and carry `-2` ids. The merge will flag them as possible duplicates (`./bib resolve ID --take keep`): 1962-05-01 vietnam-2, 1963-09-11 vietnam-2, 1963-10-05 vietnam-2.
 
 ## Records
 
-`sources/cited-records/selverstone-kennedy-withdrawal.yaml`: 99 records from the notes the entries cite. Memoranda 36,
-transcripts 17, recordings 13, minutes 6, reports 5, press 5, speeches 4, and the rest. 64 were found: FRUS documents,
-the Public Papers, the bound Record, PRDE's and the Miller Center's pages. 29 were read and stand as the entries'
-primary records. The recordings were not heard; their catalogue pages are cited, the quotation with "Check: the recording
-not heard". The unread records stand in To check, "(cited by [[w.selverstone-kennedy-withdrawal]], PAGE n.N)". Not found
-(paper only, or not online): the NSF and Defense files the notes give by box (JFK Library; RG 218 and RG 330, National
-Archives), the JCS files, and the Miller Center's draft transcripts (Selverstone's own, not public).
+`sources/cited-records/selverstone-kennedy-withdrawal.yaml`: 99 records from the notes the entries cite. Memoranda 36, transcripts 17, recordings 13, minutes 6, reports 5, press 5, speeches 4, and the rest. 64 were found: FRUS documents, the Public Papers, the bound Record, PRDE's and the Miller Center's pages. 29 were read and stand as the entries' primary records. The recordings were not heard; their catalogue pages are cited, the quotation with "Check: the recording not heard". The unread records stand in To check, "(cited by [[w.selverstone-kennedy-withdrawal]], PAGE n.N)". Not found (paper only, or not online): the NSF and Defense files the notes give by box (JFK Library; RG 218 and RG 330, National Archives), the JCS files, and the Miller Center's draft transcripts (Selverstone's own, not public).
 
 ## Passed over
 
-How the list was made: the date scan above. Each dated mention not cited by an entry was read in its paragraph and set
-against the entries of its day (±3 days). "Already in as" names the entry that has it: cited where Selverstone adds
-something, otherwise left. "Minor" means only what the brief's rule says. Page | date | event | why.
+How the list was made: the date scan above. Each dated mention not cited by an entry was read in its paragraph and set against the entries of its day (±3 days). "Already in as" names the entry that has it: cited where Selverstone adds something, otherwise left. "Minor" means only what the brief's rule says. Page | date | event | why.
 
 | page | date | event | why |
 |---|---|---|---|
@@ -165,8 +117,4 @@ something, otherwise left. "Minor" means only what the brief's rule says. Page |
 
 ## Leads
 
-Written into `notes/leads.md`, Foreign: Phước Vĩnh, Sept. 18, 1961; Taylor's cable of Oct. 24, 1961, and Galbraith's
-letter of Nov. 20, 1961 (FRUS 1961–63, I); State's circular of Apr. 11, 1962; Krulak's inspection, June 25–July 1, 1963;
-Felt's plan of July 21, 1963, and his message of Feb. 15, 1964; Hilsman's tracks, Sept. 14–15, 1963; de Gaulle's
-statement of Aug. 29, 1963; Diệm's end of martial law, Sept. 16, 1963; Sihanouk's proposal of Nov. 30, 1963; the Clay
-report's release day.
+Written into `notes/leads.md`, Foreign: Phước Vĩnh, Sept. 18, 1961; Taylor's cable of Oct. 24, 1961, and Galbraith's letter of Nov. 20, 1961 (FRUS 1961–63, I); State's circular of Apr. 11, 1962; Krulak's inspection, June 25–July 1, 1963; Felt's plan of July 21, 1963, and his message of Feb. 15, 1964; Hilsman's tracks, Sept. 14–15, 1963; de Gaulle's statement of Aug. 29, 1963; Diệm's end of martial law, Sept. 16, 1963; Sihanouk's proposal of Nov. 30, 1963; the Clay report's release day.
