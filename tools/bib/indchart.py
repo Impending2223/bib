@@ -19,7 +19,8 @@ STYLE (settled; keep it):
     cold"), once a table.
  3. The chart. A tap or click in a charted row's name cell (CELL, the pointer a hand) opens a row beneath it, but on
     the name's own link, which goes to its statement of concepts as any link does (the owner, Nov. 4, 2026: "Make that
-    change") (the owner's request, Nov. 4, 2026: "Clicking on the cells containing the
+    change"). The period beside the name carries an empty onclick: a phone's touch adjustment otherwise snaps a tap
+    on it to the nearby link (indicators.py, name_cell) (the owner's request, Nov. 4, 2026: "Clicking on the cells containing the
     name of a graphed indicator should expand the graph"); the small button before the name (▸, "Chart" to screen
     readers) stays, the keyboard's way in. The opened row is the table's width: the series over the calendar's span, as first
     reported (solid, the accent) and today (dashed, muted), a band at the row's period; a switch Level | Year over

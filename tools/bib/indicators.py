@@ -450,7 +450,7 @@ def def_href(sid):
 def name_cell(sid, s, r, href=None, text=None):
     """A row's name, linked to its concepts and sources (its servant on the page, else the master), and its period."""
     return (f'<a href="{esc((href or def_href)(sid))}">{esc(text or s["name"])}</a> '
-            f'<span class="per">{esc(period_label(r["p"]))}</span>')
+            f'<span class="per" onclick="">{esc(period_label(r["p"]))}</span>')
 
 
 def _tattr(t, own=""):
@@ -464,7 +464,7 @@ def rate_row(sid, s, r, year, href=None, label=None, chart=False):
     """A rate (STYLE 13): its name and month, then the one figure: the discount rate as the Board set it (its change,
     the day announced and the day it took effect, in a month it changed), a market rate as FRED gives it today.
     label: the first cell's text in place of the name (the Indicators page's tables, by month)."""
-    name = f'<span class="per">{esc(label)}</span>' if label else name_cell(sid, s, r, href)
+    name = f'<span class="per" onclick="">{esc(label)}</span>' if label else name_cell(sid, s, r, href)
     if "first" in r:
         rr = dict(r)
         if r.get("released") and sid not in finance.SERIES:   # "(announced Nov. 23; effective Nov. 24)"
