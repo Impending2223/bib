@@ -124,3 +124,119 @@ papers. The cartoon of Eisenhower crying (154). The *Sun-Times*'s plant-gate pol
 Eisenhower's administration, seven of his Cabinet, against Goldwater, July 1964 (196): the statement and its day.
 Part III entries proposed (R13): Chalmers Roberts (*Washington Post*), Russell Baker (*New York Times*), Loye Miller
 (*Time*), Jimmy Breslin (*Herald Tribune*), Charles Seib (*Washington Star*).
+
+## The leftovers run (left-white-1964), Nov. 4, 2026
+
+**The copy.** The owner's PDF (Drive 1heqak_1ped-w7tPu0oOA1xWyZfw3O7sK), fetched again by Drive's download address
+(sharing unchanged), the offset as before (printed = PDF − 20), its text layer (`pdftotext -layout`); deleted at the end.
+Primary records read: the Public Papers' items of Sept. 16, 25, 29, Oct. 7, 14 and 29, 1964, Apr. 23, 1964 and Mar. 1,
+1965 (GPO's volumes, `sources/ppp-text/`).
+
+**Read in full, page by page, this run:** the essays the second run read only by their dated sentences: 61–69, 74–83,
+161–167, 170–171, 207–213, 216–231, 238–246, 294–347, 350–392; app. B, 408–15 (the Graham memorandum). Scanned by their
+dated sentences only: 393–404 (the Great Society's three thrusts; the events dated there entered or cited). App. A
+(405–06) is the AP's vote by State: figures, no events. **Still not read in full** (read before by dated sentences
+only): 8–12, 14–27, 30–42, 51–55, 58–59, 89–91, 98–99, 116–117, 119, 129–131, 133–136, 144, 148, 151, 172–186,
+190–194, 232–237, 250–273, 275–276, 278–293, 348–349 aside, 393–404.
+
+**The patch:** `inbox/2026-11-04-left-white-1964.yaml` (patch `left-white-1964`), 80 ops: 32 new entries, each claimed
+in the ledger; 34 cites; 5 Checks; 9 `src` ops (the Graham memorandum, `x.1960-07-19.philip-l-graham-notes-on-the`, on
+six July 1960 entries; Goodwin's draft; Mrs. Johnson's statement; Reichley's memorandum). Witnesses:
+`inbox/witnesses/2026-11-04-left-white-1964.yaml` (2: Goodwin's draft of Mar. 2, 1964; Mrs. Johnson's statement of Oct.
+14, 1964), 2 edges appended to `sources/witnesses/by-work/white-making-of-the-president-1965.yaml`. The book has no
+source notes; its witnesses are those the text names.
+
+**Cites added** (moved out of "To check" where the card stood there; else joined to the run of works): the Rockefellers'
+separation announced (77); New York's governor, 1962 (77, the margin and the Conservatives' vote); the Presbytery and
+Prescott Bush (80); Gallup of May 1963 (82); Rockefeller's July statement and his European trip (82); Greensboro (165);
+the Birmingham bombings (170); Harlem (222–23, 231); the FBI's riot report (231); Proposition 14 (239, 304 n.4); Berkeley's
+referendum (239 n.6); the Hickory Hill party (245 n.1); Salinger's decision (246); Concord, Jan. 6, 1964 (303 and n.3);
+Illinois's at-large House (327); the ice-cream spot (322–23); Los Angeles and Chicago speeches of September (330); New
+England, Sept. 28 (347, 362–67); New Orleans (363–64); Albuquerque and Los Angeles (361, 373–75); the address of Oct. 7
+(356–57); Chamizal (355); Quayle's poll (369–70); Buffalo and Brooklyn (370–71); Austin, Nov. 2 (376–77); Bliss (385); Ann
+Arbor (390–91); the educators, Mar. 1, 1965 (399–400); the task forces (397); the Texas debate and the choosing of
+Johnson, July 12 and 14, 1960 (409–15, Graham's account).
+
+**New entries (32).** 1960: Graham with Stevenson (July 10); the *Post*'s "word in Los Angeles," Steve Smith to Graham at
+Alsop's party (July 12); Graham with Kennedy in the car (July 13). 1963: the Young Adults for Rockefeller disband (May);
+White with Rockefeller after the assassination (Dec.). 1964: Goodwin's "great society" draft (Mar. 2); Goldwater's talk
+of withdrawing after New Hampshire (Mar.); the Chicago dinner, "a great society" (Apr. 23); the Network Election Service
+(July); Reichley's memorandum (Aug.); Interpublic's task force (Aug. 20); Humphrey at Doland and on to Denver (Sept.);
+the Columbia River Treaty (Sept. 16); the Oklahoma State Fair (Sept. 25); Offutt with Brosio (Sept. 29); the whistle-stop
+at Hammond, Effingham, La Salle, Percy aboard (Sept., end); Burch cancels the polls, the Citizens' five States (Oct.,
+mid-month); Mrs. Johnson's statement and the Al Smith dinner (Oct. 14); Goldwater's flight over Phoenix (Oct. 22), southern
+California (Oct. 23), Texas (Oct. 24); Johnson with the correspondents (Oct. 28); the Mormon Tabernacle (Oct. 29);
+Goldwater with the press at the Camelback Inn (Nov. 2). 1965: New York's elementary schools, white children 49.2 percent
+(Jan. 15).
+
+**Disagreements (Checks added).**
+- Harlem: White, 223, five successive nights of riots; the calendar, four.
+- Proposition 14: White, 304 n.4, a margin of 1.5 million, "almost two to one"; the *Statement of Vote*, 4,526,460 to 2,395,747.
+- The ice-cream spot: White, 322, ten days after "Daisy"; the calendar (Goldberg), Sept. 12, five days after.
+- Hickory Hill: White, 245 n.1, a party in honor of Robert Kennedy's mother; the *Times* (by Thomas), for Glenn.
+- The Chicago dinner: White, 331, Oct. 16; `cal.1964-10.goldwater` (month only, Jaffa and Rehnquist's text) and
+  `cal.1964-10-16.goldwater` are probably one speech: a Check on the first, for the merger.
+- The whistle-stop: White, 324, four days at the end of September; Goldberg, five; the Ohio, Indiana and Illinois stops
+  dated by month only.
+
+### Passed over (this run)
+
+Made from notes kept page by page for the pages read in full this run.
+
+| page | date | event | why |
+|---|---|---|---|
+| 69–70 | 1964, after the convention | Eisenhower to White: "I was never trained in politics" | passed-over paper: private remarks to White |
+| 74 | 1963 | Rockefeller's gifts to SCLC ($5,000, $10,000) and the $20,000 loan to SNCC through the Chase | lead (no month) |
+| 79 | summer 1964 | Mrs. Rockefeller goes to court again on custody | minor (family) |
+| 80 | spring 1963 | Hinman and Hughes, then McManus and Ronan, warn Rockefeller against remarrying | lead (no month) |
+| 81 | spring 1963 | Hinman's survey of the Rockefeller machinery, State by State | lead (no month) |
+| 171 | May–Aug. 1963 | the Department of Justice's count: 758 demonstrations in ten weeks; 13,786 arrests in seventy-five Southern cities | lead (a count; the Department's release, its day) |
+| 171 | 1963 | Gardner Taylor's "crimson carnage" | lead (no date) |
+| 219 | 1964 | Smylie to White on the Western revolt | passed-over paper: private remarks to White, no date |
+| 230 n.1 | end of 1964 | HARYOU taken over by Powell | lead (the day) |
+| 230 n.2 | 1963–64 | Wilkins on the "teen-age Negro hoodlums" | lead (the day) |
+| 240 n.7 | 1954 | the early survey of New York's schools | out of the brief (before the span) |
+| 241 | July 1964 | a Wagner aide on the "undermuck of Harlem" | passed-over paper: private remarks, no date |
+| 296 n.1 | Sept. 1964 | the Goldwater managers' gloss, "commanders in chief" | lead (the day) |
+| 296 | Jan. 1964 | the Rockefeller research staff takes up the "bomb" | lead (the day) |
+| 300 | 1964 | "In your heart, you know he might," a North Carolinian's suggestion | lead (no date) |
+| 302 | 1964 | Goldwater's campaign statement on Social Security | lead (the day) |
+| 305 | 1965 | Calvin Gross dismissed as New York's superintendent | lead (no date) |
+| 306 | fall 1964 | the auto workers' settlement, retirement at sixty at $100 a week | lead (the day) |
+| 315 | Nov. 1964 | Goldwater: "If I had had a pint of brains" | passed-over paper: private remarks, recollection |
+| 316 | June 1964 | at Cleveland a Goldwater man tells a Scranton lieutenant Pennsylvania is written off | lead (the day) |
+| 318–19 | Sept.–Oct. 1964 | the strategy board's Sunday meetings; Cordiner cancels the last ten days' television time | lead (the days) |
+| 322 | Sept. 1964 | Moyers's directive to Doyle Dane Bernbach: "Attack" | lead (the day) |
+| 323 n.3 | fall 1964 | Paul Wagner and Vic Gold with the press | minor (staff) |
+| 334 | fall 1964 | Romney and Milton Young decline to appear with Goldwater; Keating's run ahead | lead (the days) |
+| 339 n.11 | fall 1964 | the Democrats' spots by State: Texas 1,345, California 823, New York 410 | minor (a count; no act of its own) |
+| 343 | spring 1964 | Goldwater talks of withdrawing with Kitchel during the civil rights struggle | lead (no month) |
+| 350 | fall 1964 | Team E's 9:30 meetings; Hayes to review the television | lead (no date) |
+| 351–53 | fall 1964 | the National Independent Committee (Fowler); Scientists and Engineers; Spock; Inez Robb's column | lead (the days) |
+| 358 | Dec. 1963 | Johnson visits Aubrey Williams in the hospital | minor (personal) |
+| 367 | Sept. 28, 1964 | a New England Senator asked to tell the press the crowds beat Kennedy's | minor (an aside; unnamed) |
+| 371–72 | Oct. 16, 1964 | the tree-planting on the South Lawn, 1963–64 Pub. Papers 1355 | minor (a ceremony) |
+| 380 n.3 | 1965 | the Ripon Society's *Election '64* | lead (the day) |
+| 390 | spring 1964 | Johnson in the White House pool with Moyers, Busby and Goodwin | lead (no date) |
+| 410 | July 12, 1960 | Rowe and Connally put the Stevenson question to Johnson the night before | entered within `cal.1960-07-12.elections-1960-2`'s cite |
+| 415 | July 14, 1960 | Robert Kennedy offers Johnson the national chairmanship first, by Rayburn's telling | entered within `cal.1960-07-14.elections-1960`'s cite (411–15) |
+
+### The press (this run)
+
+1960-07-12 | *Washington Post* | front page not given | "the word in Los Angeles is that Kennedy will offer the VPship to Lyndon Johnson" | White 1964, 409
+1964-09-07 | NBC | *Monday Night at the Movies* | the Democrats' "Daisy" spot | White 1964, 322
+1964-10-14 | UPI | wire, 8:25 p.m. | the Jenkins story moved | White 1964, 368
+1964-10-15 | *Washington Star* | Mary McGrory | Johnson at Buffalo and Brooklyn | White 1964, 370–71
+1964-11-03 | *New York Herald Tribune* | Jimmy Breslin | Fredonia, the last rally | White 1964, 341–42
+
+### Leads (this run)
+
+- National: the days of the Department of Justice's count of demonstrations (171); the National Independent Committee
+  for Johnson and Humphrey, Scientists and Engineers for Johnson-Humphrey and Spock's joining (351–53); the Ripon
+  Society's *Election '64* (380 n.3); HARYOU's takeover (230 n.1); Calvin Gross's dismissal (305); Goldwater's official
+  Social Security statement (302); the auto workers' settlement of 1964 (306); Herbert Hoover's death and funeral, Oct.
+  20 and 22, 1964, not in the calendar (335); the Columbia River Treaty's U.S.T. and U.N.T.S. cites
+  (`cal.1964-09-16.conservation`); the days of the Goldwater whistle-stop's Indiana and Illinois stops (324–29) and of
+  Humphrey's Doland trip (308–13), from the papers.
+- Threads: a Canada thread, for the Columbia River Treaty (filed under Conservation, also 1964 elections).
+- Part III (R13): Charles Mohr (*New York Times*), Inez Robb (Scripps-Howard).

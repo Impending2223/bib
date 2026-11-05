@@ -226,3 +226,46 @@ National:
 ### What remains unread (third run)
 
 Nothing of the text: pp. 3–324 are read. The prologue's pp. 1–2 as before.
+
+## The leftovers run (left-zelizer), Nov. 4, 2026
+
+The sixteen cites the third run could not place (its table above, fourteen rows), held against the book's index and the
+pages it gives. The copy: the owner's Drive file 1jzLs1pgP-zyYZFareoqLZdj4LG6qrVkz, fetched again by Drive's download
+address (sharing unchanged), 424 PDF pages, the offsets as before (printed = PDF − 18 to p. 114, − 34 to p. 242, − 50
+after); pp. 191 and 283 checked against the page images. The index is pp. 351–370 of this printing (PDF 401–420), not
+383–404 as the third run's note had it; read with its columns split. The index has no entry for the Department of
+Housing and Urban Development, Weaver, foreign aid, manpower or JOBS, the Alliance of Businessmen, the housing act of
+1968, the adjournments, or the State of the Union of 1968 or 1969 (its State of the Union entries, 74, 79–80, 184, 192,
+225, are 1963's to 1966's); its entries for 14(b) (167–68), Model Cities (227), the War on Poverty, Prouty (275), Green
+(100), Clark (297), housing and its proposed legislation (242–46, 296–97), Congress and the economy (270–72, 278–83,
+288–90) and the tax surcharge were read at each page given. The patch: `inbox/2026-11-04-left-zelizer.yaml` (patch
+`left-zelizer`), 21 ops: 4 cites, 2 `src`, 2 to-check, 13 edits (each only the card taken out of "To check:", on the
+base read just before). Witnesses: `inbox/witnesses/2026-11-04-left-zelizer.yaml` (2 new), and 3 edges appended to
+`sources/witnesses/by-work/zelizer-fierce-urgency-of-now.yaml` (282 n.41, 282 n.43, 283 n.45).
+
+| Entry | The calendar | Zelizer | Ruling |
+|---|---|---|---|
+| `cal.1963-12-30.congress` | the first session's end; the tax bill in Finance, civil rights in Rules | 74 (the bill "lying inert" in Byrd's Finance Committee); 91 (Smith's hearings promised for January, the discharge petition at 165) | pinned, 74, 91, unit C |
+| `cal.1964-10-03.congress` | the 88th's end; Medicare left in conference | 191 ("In 1964, when the Senate added a version of Medicare as an amendment to Social Security legislation that the House had passed, Mills killed the amendment in conference committee") | pinned, 191, unit C |
+| `cal.1965-07-28.jobs-and-wages` | the House repeals 14(b), 221–203 | 167–68: Johnson tables repeal in January 1965, his word to Reuther; the index's only pages for 14(b), Taft-Hartley and right-to-work | the card out of "To check" (the vote not in the book; the entry stands on the Record and Voteview) |
+| `cal.1965-09-09.cities-and-housing` | the HUD act signed | not in the index; 232 names the department only as a channel of funds | out of "To check" |
+| `cal.1966-01-26.cities-and-housing` | the cities message | 227 (Model Cities as enacted, about $900 million), the index's only page | out of "To check" (227 already on `cal.1966-11-03.cities-and-housing`) |
+| `cal.1966-10-22.congress` | the 89th's end, McCormack's "fabulous" | 227 lists the session's acts; nothing of the adjournment or the East Room; "Fabulous" the chapter's title | out of "To check" |
+| `cal.1967-02-15.open-housing` | the equal justice message | 296–97: the bill redrafted "for more than a year," the act of 1968; 236 is the bill of 1966 | out of "To check" |
+| `cal.1967-09-26.poverty` | the Senate's votes on the Economic Opportunity Amendments | 275–77: Prouty's telegram, the rat bill, Education and Labor's delay in the summer of 1967; no vote | out of "To check" |
+| `cal.1967-11-15.poverty` | the House's votes, Green's amendment | the same; Green indexed at 100 only (1963) | out of "To check" |
+| `cal.1967-11-03.cities-and-housing` | the HUD appropriation signed | not in the index or the text | out of "To check" |
+| `cal.1967-11-08.foreign-aid` | the foreign aid conference report | not in the index or the text | out of "To check" |
+| `cal.1967-12-15.congress` | the session's end, no tax increase | 282–83: Ways and Means sets the surcharge aside in early October, "the legislation was going nowhere"; in January 1968 "the fate of the tax surcharge still uncertain" | pinned, 282–83, unit B; the notes' three press items (282 n.41–43) as via rows and To check |
+| `cal.1968-01-17.program` | the State of the Union, 1968 | not in the index; 283 gives the budget of January 1968, $186.1 billion, which is the budget message's | out of "To check"; 283 cited on `cal.1968-01-29.economy` (units A, C), with 283 n.45 (the *Economic Report*, Feb. 1968, 11) as via row and To check |
+| `cal.1969-01-14.program` | the State of the Union, 1969 | not in the index or the text | out of "To check" |
+| `cal.1968-01-23.jobs-and-wages` | the manpower message, JOBS | not in the index or the text | out of "To check" |
+| `cal.1968-07-10.cities-and-housing` | the House's housing bill | not in the index; 320 is of later decades | out of "To check" |
+
+No Check was needed where the card was taken out: every one of those entries stands on its primary record (the Record,
+Voteview, the Public Papers), which the card never grounded. Searched besides in the whole text layer for each entry's
+matter (as the third run did) and for "adjourn," "sine die," "Department of Housing," "Weaver," "foreign aid,"
+"manpower," "Alliance of Business," "Prouty," "Edith Green," "jury," "rent supplement," "Model Cities," "State of the
+Union," "January 1968," "January 1969": nothing more. The PDF deleted at the end.
+
+Leads: none new.

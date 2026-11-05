@@ -2048,7 +2048,6 @@ Rights in Conflict (Walker Report):
 
 - The recordings this run names, not heard (Miller Center): Cook, May 14, 1966; Daley, Aug. 16, 1966; Douglas, Oct. 16, 1966; Humphrey, Dec. 31, 1966; Dirksen, Mar. 12 and Oct. 31, 1968; Fowler, Mar. 24, 1968; and those already registered (Wilkins, Goldberg, Wirtz, Reuther).
 - Works the notes cite without a card: Watson, *Lion in the Lobby*; Gould, *Grand Old Party* (2012); Mathias and Morris, "Fair Housing Legislation," *Cityscape* (1999); von Hoffman, "Let Us Continue" (2009); Hulsey, *Everett Dirksen and His Presidents*; Matusow, *The Unraveling of America*; Hayward, *The Age of Reagan*; Gould, *1968*.
-- The sixteen cites the third run could not locate (the book-check's table, "The sixteen cites not located before"): a reader with the book's index (pp. 383–404).
 - Press figures for Part III (R13): Ben A. Franklin, Gene Roberts, John Herbers (*New York Times*); Philip Potter (*Baltimore Sun*); Edwin Dale (*New Republic*, *Times*); Lyn Shepard (*Christian Science Monitor*).
 
 ### Bernstein, *Guns or Butter* (batch 3, eighth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
