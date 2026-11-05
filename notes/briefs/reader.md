@@ -370,7 +370,8 @@ pass the witness over.
 
 **R44. Passed over.** Your book-check file has a section "## Passed over": every dated event within the span that the
 source treats and you did not enter, a row each: page | date | event, a few words | why (one of R18's: out of the
-brief, minor, a passed-over paper; or a lead). Say in the file how the list was made. An event already in the calendar
+brief, minor, a passed-over paper; or a lead, only as R50 defines it: an event the source treats but does not date,
+however loosely, is a lead; one it dates loosely is an entry). Say in the file how the list was made. An event already in the calendar
 is not passed over: it takes its cite (R29) and its witnesses (R43). The owner rules on the list.
 
 **R45–R47.** (Kept free.)
@@ -382,8 +383,11 @@ event by event"); `check` warns on one [passed-over].
 cite it, check it, name in it, by additive ops on its id (R51), which the merge applies once that entry lands. Within
 your own group of sources, a later source's patch adds to an earlier's entries the same way.
 
-**R50. Leads.** What you recall and could not place or verify (an event without a date, a figure without a source
-read, a source not reached, a host refused, a press figure to propose): at the end of your book-check file under
+**R50. Leads.** What cannot yet go into the calendar on a source in hand: a source not reached or a host refused, an
+event no source read dates, a figure no source read gives, a thing you recall and have not verified, a press figure to
+propose. Not a lead: an event a source in hand dates, however loosely ("ten days before the convention"): enter it, with
+"Check: the day" where the day is loose; a source in hand that disagrees with an entry: a variant (R41) or a "Check:";
+an item passed over as minor: a row of Passed over (R44). Leads go at the end of your book-check file under
 "Leads", by the headings of `notes/leads.md` (States and cities, National, Foreign, the Executive roster), with the
 entry it concerns and where to look. The merger copies them into `notes/leads.md`. Never into the calendar unchecked.
 
@@ -476,7 +480,7 @@ written by Claude or its agents, no ruling of the owner's.
 | R36–R41, R43 | Oct. 30 (OB, "Witnesses") | "a trace/map of *all* the *ultimate*, or *root*, materials that bear on a fact or event"; "even after a fact or event is 'sufficiently' attested"; "credit the matter that has a strictly superior claim to being upstream"; "Please do. Don't drop the first rule." |
 | R42 | Oct. 30 (OB, "Witnesses") | "Where we have the record, and the record is sufficient and complete attestation of the fact or event for which it's cited ... the 'witness' collapses to the record itself" |
 | R44, R49 | Oct. 28 (OB, "Records cited ..."); house rule | "What are we leaving on the cutting-room floor? What were the agents leaving there?" |
-| R50 | Oct. 18 (CL, "Leads") | the owner's standing rule as CL states it; the book-check file and the merger: house rule |
+| R50 | Oct. 18 (CL, "Leads"); Nov. 5 (OB, "What a lead is") | the owner's standing rule as CL states it, restated Nov. 5: "What's a lead, again? I thought it was where we needed a source that isn't in hand."; "Yes, please write the fix."; the book-check file and the merger: house rule |
 | R17, R49, R51 | Oct. 30 (OB, "The brief approved") | "Is there a performant, compute-economizing solution here? Can you implement it and follow it?" The ops, the ledger and the checks: house rules (notes/extensions/memos/volume.md, §6) |
 | R51–R58 | house rules (CL, "Changing things", "Do not"; the batch briefs; the sites' own terms) | |
 | R56 | Nov. 1 (OB, "The network") | "Drop R56."; "Remove the part that's still there. ... Keep the list of dead ends." |

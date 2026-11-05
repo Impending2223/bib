@@ -433,3 +433,18 @@ approved the ruling proposed in reply (CLAUDE.md, "Military matters"). Cuts mark
 2026-11-01, session "1968 series".
 
 > No, I like what you removed. Remove the part that's still there. Don't brief your agents to, in either the brief mechanics or the batch brief. Keep the list of dead ends.
+
+### What a lead is
+
+2026-11-05, session "1968 series" (on the Sears account of Nixon's choice of Agnew, filed by a reader as a lead).
+
+> Why is the Seats account left as a lead and not an entry? What's a "lead", again? I thought it was where we needed a source that isn't in hand. What would be the source for the Sears account if not Chester et al. itself?
+
+2026-11-05, session "1968 series".
+
+> "What's a lead, again?" was a genuine question; if my recollection isn't consistent with the rule as written, please tell me. (We should fix the rule then, right?)
+
+2026-11-05, session "1968 series".
+
+> Yes, please write the fix.
+

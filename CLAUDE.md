@@ -437,10 +437,14 @@ quotation is not read, and an entry the form does not fit (several places on one
 `ok:result-form`. Not results: a convention's ballot of delegates, electoral votes, the polls, other countries'
 parliamentary elections.
 
-Leads (the owner's standing rule, Oct. 18, 2026): anything recalled but not placed or verified (an event without a
-date, a figure without a source read, a source not reached, an item left out as minor) is written into
-`notes/leads.md` under its heading (States and cities, National, Foreign, the Executive roster), with the entry it
-concerns and where to look; never into the calendar unchecked. A lead leaves the list when it is entered or settled. Every
+Leads (the owner's standing rule, Oct. 18, 2026; restated Nov. 5, 2026): a lead is what cannot yet go into the
+calendar on a source in hand: a source not reached or a host refused, an event no source read dates, a figure no source
+read gives, a thing recalled and not verified. It is written into `notes/leads.md` under its heading (States and cities,
+National, Foreign, the Executive roster), with the entry it concerns and where to look; never into the calendar
+unchecked. Not a lead: an event a source in hand dates, however loosely ("ten days before the convention"), which is an
+entry ("Check: the day" where the day is loose); a source in hand that disagrees with an entry, which is a variant
+(R41 of the reader's brief) or a "Check:"; an item passed over as minor, which is a row of "Passed over" with R18's
+ground, for the owner to rule (R44). A lead leaves the list when it is entered or settled. Every
 drafting brief asks its agents for their leads, and they go into the file when their work is merged.
 
 A run of calendar dates, wherever the series prints one (the thread index, the pointers under each member and holder in
