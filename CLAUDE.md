@@ -127,7 +127,7 @@ calendar however it is divided (volume.md §4, built Nov. 4, 2026; `tools/bib/st
 true of every part; a sentence that belongs to some years only, tagged with a hidden span, the indicators' syntax
 (`{{1961..1962-06|...}}`, `{{..1962|...}}`, `{{1966..|...}}`, `{{1961-04|...}}`), shown untagged on each part its span
 meets; then, made by the build, the names of the thread's events in the part, in date order, a clipped sentence of
-names, each linked ("Bay of Pigs; Mongoose."): each event's `short:` on its first entry (an entry filed under the thread
+names, plain text, unlinked ("Bay of Pigs; Mongoose."; the owner, Nov. 4, 2026): each event's `short:` on its first entry (an entry filed under the thread
 or a ghost subthread of it; not one held by `also:`, nor a subthread's that has its own statement). No dates shown, no
 label, no "Stations:". A thread still holding the old `c2`, `c3` (a statement a part) keeps them until converted:
 `python3 -I tools/statements/apply.py FRAGMENT.yaml` writes its `c` and the events' names and drops `c2`, `c3`;

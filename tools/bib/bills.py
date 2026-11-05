@@ -84,7 +84,7 @@ def rec_link(s):
         return ""
     pkg = re.match(r"(GPO-CRECB-\d{4}-pt\d+)", g).group(1)
     y = int(g[10:14])
-    page = f", {s['page']}" if s.get("page") else ""
+    page = f" {s['page']}" if s.get("page") else ""   # Bluebook 13.5: "111 Cong. Rec. 627", no comma
     return f'<a href="{esc(REC.format(pkg=pkg, g=g))}">{VOL.get(y, "")} Cong. Rec.{page}</a>'
 
 
