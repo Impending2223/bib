@@ -32,8 +32,8 @@ STYLE (settled; keep it):
     owner's ruling, Nov. 4, 2026: "Don't drop the parent thread events unless the child has a thread summary. Repeat
     them. Everything needs to be in plain Roman text somewhere"): a State of the Union listed in Vietnam by `also:` is
     named in the Program's statement and in Vietnam's; the only event a thread does not name is one filed under a
-    subthread of it that has its own statement, where it is named. Each name linked to its entry
-    (`[[id|name]]`), a semicolon between, a full stop at the end, the first letter a capital (a name is written as it
+    subthread of it that has its own statement, where it is named. Each name plain text, not
+    linked (the owner, Nov. 4, 2026: "Please unlink the event names"), a semicolon between, a full stop at the end, the first letter a capital (a name is written as it
     reads within the sentence: "the second round", "Resolution 1725"); no label, no dates. An entry dated by month
     alone falls on its month's first day for the order, and in every part its month meets (a month-only entry of January
     1960 shows though the calendar opens Jan. 6). In date order, then file order.
@@ -149,13 +149,13 @@ def events(lst, slug, lo, hi):
 
 
 def events_sentence(evs):
-    """'[[id|Bay of Pigs]]; [[id|Mongoose]].' -- or '' where there are none."""
+    """'Bay of Pigs; Mongoose.' -- or '' where there are none: plain text, unlinked (STYLE 3)."""
     if not evs:
         return ""
     names = [name for _, name in evs]
     names[0] = re.sub(r"^(\W*)([a-z])", lambda m: m.group(1) + m.group(2).upper(), names[0])   # the sentence's capital
-    t = "; ".join(f"[[{eid}|{name}]]" for (eid, _), name in zip(evs, names))
-    return t if re.search(r"[.!?]\]\]$", t) else t + "."
+    t = "; ".join(names)
+    return t if re.search(r"[.!?]$", t) else t + "."
 
 
 def render(lst, e, lo, hi):

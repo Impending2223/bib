@@ -75,6 +75,17 @@ entries:
     c: 'McNamara orders Dennison, commander in chief of the Atlantic Fleet, "to be prepared to institute a blockade of Cuba." That evening Dennison to his fleet commanders: "maximum readiness to execute CINCLANT OPLAN 312 [an air strike] by October 20." A large amphibious exercise announced as cover.'
     n: '[[w.bird-color-of-truth]], 244. Names: McNamara, Dennison.'
     tags: [name:mcnamara-robert-s, name:dennison-robert-l]
+  - id: cal.1962-10-01.defense
+    when: Oct. 1
+    date: '1962-10-01'
+    thread: defense
+    c: 'Taylor succeeds Lemnitzer as Chairman of the Joint Chiefs. McNamara meets the Chiefs and their new chairman the same day: reconsider their endorsement of the RS-70. Arends charges McNamara means to kill it by "study and re-study, and re-study of the studies."'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 115. Names: Taylor, Lemnitzer, McNamara, Arends.'
+    src:
+      c: fc498f94
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 115: all'
+    tags: [name:taylor-maxwell, name:lemnitzer-lyman-l, name:mcnamara-robert-s, name:arends-leslie-c]
   - id: cal.1962-10-02.mayors-cleveland
     when: Oct. 2
     date: '1962-10-02'
@@ -303,6 +314,29 @@ entries:
         - 'w.woods-fulbright 271: all'
         - 'via x.1962-10-05.fulbright-to-clayton: all'
     tags: [name:fulbright-j-william]
+  - id: cal.1962-10-05.berlin-and-vienna
+    when: Oct. 5
+    date: '1962-10-05'
+    thread: berlin-and-vienna
+    also: [congress]
+    c: 'The House passes the concurrent resolution on Berlin, 311 to 0: "whatever means may be necessary" to defend the Allied rights in West Berlin. The Senate adopts it by voice vote, Oct. 10.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 168. Check: the Record''s days; the Senate''s vote its own entry.'
+    src:
+      c: fab49471
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 168: all'
+  - id: cal.1962-10-05.missile-crisis
+    when: Oct. 5
+    date: '1962-10-05'
+    thread: missile-crisis
+    also: [defense]
+    c: 'The Defense Intelligence Agency: the reports of Soviet surface-to-air missiles in Cuba still allegations; very short range; "no evidence to suggest that the missiles can be used offensively."'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 202. To check: Brig. Gen. L. A. Hall for the DASD(ISA), Oct. 5, 1962, fldr Cuba Oct 1-7, 1962, box 440, Subject files, OSD Hist (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 202 n.31).'
+    src:
+      c: 09d2e1f9
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 202: all'
+        - 'via x.1962-10-05.brig-gen-l-a-hall-for-the: all'
   - id: cal.1962-10-06.governors-hi
     when: Oct. 6
     date: '1962-10-06'
@@ -342,12 +376,13 @@ entries:
     date: '1962-10-06'
     thread: laos
     c: 'MAAG Laos ended, the seventy-fifth day after the accords: General Tucker and a small group pass the control commission''s checkpoint, most of the men gone before. Forty North Vietnamese soldiers pass the checkpoints; intelligence has several thousand gone and several thousand staying.'
-    n: '[[w.anthony-war-in-northern-laos]], 73. To check: History, CINCPAC, 1962, p. 218 (cited by [[w.anthony-war-in-northern-laos]], 73 n.57a); [[w.dommen-conflict-in-laos]], 239–40 (cited by [[w.anthony-war-in-northern-laos]], 73 n.57b). See [[cal.1962-07-23.laos]].'
+    n: '[[w.anthony-war-in-northern-laos]], 73; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 256 (the MAAG dismantled from mid-August to the deadline of Oct. 7; the troops out of Thailand by November). To check: History, CINCPAC, 1962, p. 218 (cited by [[w.anthony-war-in-northern-laos]], 73 n.57a); [[w.dommen-conflict-in-laos]], 239–40 (cited by [[w.anthony-war-in-northern-laos]], 73 n.57b). See [[cal.1962-07-23.laos]].'
     src:
       c: 51cd21f9
       rows:
         - 'w.anthony-war-in-northern-laos 73: all'
         - 'via w.anthony-war-in-northern-laos 73 n.57a: all'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 256: A'
   - id: cal.1962-10-06.vietnam
     when: Oct. 6
     date: '1962-10-06'
@@ -637,7 +672,7 @@ entries:
     date: '1962-10-14'
     thread: missile-crisis
     c: Heyser's U-2 photographs MRBM sites near San Cristóbal.
-    n: '[FRUS 1961–63, XI, doc. 16](https://history.state.gov/historicaldocuments/frus1961-63v11/d16). [[w.fursenko-one-hell-of-a]], 221; [[w.rusk-as-i-saw-it-1990]], 230; [[w.sorensen-kennedy]], 672. See [[cal.1962-05-24.missile-crisis]]. Names: Heyser.'
+    n: '[FRUS 1961–63, XI, doc. 16](https://history.state.gov/historicaldocuments/frus1961-63v11/d16). [[w.fursenko-one-hell-of-a]], 221; [[w.rusk-as-i-saw-it-1990]], 230; [[w.sorensen-kennedy]], 672; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 202–4 (Bundy on television the same day; the two U-2s). See [[cal.1962-05-24.missile-crisis]]. Names: Heyser.'
     src:
       c: e27a20be
       rows:
@@ -646,6 +681,7 @@ entries:
         - 'w.rusk-as-i-saw-it-1990 230: A'
         - 'w.sorensen-kennedy 672: all'
         - 'via x.1984.rusk-interviews-with-richard-rusk: A'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 202–4: all'
     tags: [name:heyser-richard-s]
   - id: cal.1962-10-14.opinion
     when: Oct. 14
@@ -1289,6 +1325,33 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d37: all'
         - 'w.sorensen-kennedy 697: B'
     tags: [name:kennedy-john-f, name:ormsby-gore-david]
+  - id: cal.1962-10-21.missile-crisis-7
+    when: Oct. 21
+    date: '1962-10-21'
+    thread: missile-crisis
+    also: [europe-and-the-alliance-jupiters]
+    c: 'William Bundy of ISA, "Generalized Negotiation of Bases as a Possible Face-Saver to the Soviets for Withdrawal of Missiles from Cuba": the Soviets out of Cuba, the United States out of Turkey and Italy or elsewhere; "hitherto we have considered the subject of ''foreign military bases'' an untouchable subject for negotiation"; the political cost perhaps too high.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 220. To check: William Bundy, "Generalized Negotiation of Bases as a Possible Face-Saver to the Soviets for Withdrawal of Missiles from Cuba," Oct. 21, 1962, OSD Hist (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 220 n.117). Names: William Bundy.'
+    src:
+      c: aaeedbe1
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 220: all'
+        - 'via x.1962-10-21.william-bundy-generalized-negotiation-of-bases-as: all'
+    tags: [name:bundy-william]
+  - id: cal.1962-10-21.missile-crisis-8
+    when: Oct. 21
+    date: '1962-10-21'
+    thread: missile-crisis
+    also: [europe-and-the-alliance-jupiters, defense]
+    c: 'An ISA memorandum to Nitze, "The Implications of Withdrawal of Our Ballistic Missiles From Turkey": Turks man the Jupiters; "Removal of the weapons, in the most real sense, is an act of disarming our friend"; capitulation to blackmail. The Joint Chiefs the same day against a presidential order that no Jupiter be fired from Italy or Turkey without further authority, even under Soviet attack.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 221. To check: ISA memorandum to Nitze, "The Implications of Withdrawal of Our Ballistic Missiles From Turkey," Oct. 21, 1962, fldr R&R Unit, Cuban Missile Crisis, Nitze Black Book II, box 2, Cuba Sensitive files, Acc 71A-2896 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 221 n.120); JCSM-800-62, Vice Adm. Herbert D. Riley for SecDef, Oct. 21, 1962, fldr R&R Unit, Cuban Missile Crisis, box 3, Cuba Sensitive files, Acc 71A-2896 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 221 n.121). Names: Nitze.'
+    src:
+      c: ccc1c315
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 221: all'
+        - 'via x.1962-10-21.isa-memorandum-to-nitze-the-implications-of: A'
+        - 'via x.1962-10-21.jcsm-800-62-vice-adm-herbert-d: B'
+    tags: [name:nitze-paul]
   - id: cal.1962-10-22.missile-crisis-2
     when: Oct. 22
     date: '1962-10-22'
@@ -1689,6 +1752,45 @@ entries:
       rows:
         - 'w.sorensen-kennedy 704: all'
     tags: [name:zorin-valerian]
+  - id: cal.1962-10-22.missile-crisis-27
+    when: Oct. 22
+    date: '1962-10-22'
+    thread: missile-crisis
+    also: [defense]
+    c: The armed forces to DEFCON 3. The President gives McNamara latitude in carrying out the quarantine, ships refusing to identify their cargo or accept search to be taken into custody; preparations for an air strike and a landing go on.
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 210. See [[cal.1962-10-22.missile-crisis]]. Names: McNamara.'
+    src:
+      c: 1fb2f512
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 210: all'
+    tags: [name:kennedy-john-f, name:mcnamara-robert-s]
+  - id: cal.1962-10-22.missile-crisis-28
+    when: Oct. 22
+    date: '1962-10-22'
+    thread: missile-crisis
+    also: [defense]
+    c: 'The Joint Chiefs to SACLANT, JCS 6848, on the "blockade": "forceful boarding and control of the ship''s operation may be necessary. If boarding meets with organized resistance, the ship will be destroyed." That afternoon, McNamara approving, they tell Power, CINCSAC, to be ready to go to DEFCON 2 at 10 a.m., Oct. 23, the quarantine''s hour.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 211. To check: JCS 6848 to CINCLANT, Oct. 22, 1962, fldr Cuba Oct 22, 1962, box 440, Subject files, OSD Hist (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 211 n.68); McNaughton for SecDef, Oct. 22, 1962, fldr Cuba Oct 22, 1962, box 440, Subject files, OSD Hist (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 211 n.68). See [[cal.1962-10-22.missile-crisis]]. Check: Kaplan''s note names CINCLANT; the quarantine began Oct. 24. Names: McNamara.'
+    src:
+      c: 9a7b189d
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 211: all'
+        - 'via x.1962-10-22.jcs-6848-to-cinclant-oct-22-1962: A'
+        - 'via x.1962-10-22.mcnaughton-for-secdef-oct-22-1962: all'
+    tags: [name:mcnamara-robert-s]
+  - id: cal.1962-10-22.missile-crisis-29
+    when: Oct. 22
+    date: '1962-10-22'
+    thread: missile-crisis
+    also: [europe-and-the-alliance-jupiters, defense]
+    c: 'Taylor to Norstad: no missile to be fired from Italy or Turkey without the President''s authority. Kennedy at the White House that morning, 11:30: "What we''ve got to do is make sure these fellows ... don''t fire them off and think the United States is under attack. I don''t think we ought to accept the Chiefs'' word on that one."'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 221. To check: White House meeting, Oct. 22, 1962, 11:30 a.m., recorded, May et al., Presidential Recordings, III, 34–35 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 221 n.122). See [[cal.1962-10-21.missile-crisis-8]]. Names: Taylor, Norstad, Kennedy.'
+    src:
+      c: 08611898
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 221: all'
+        - 'via x.1962-10-22.white-house-meeting-oct-22-1962-11: B'
+    tags: [name:taylor-maxwell, name:norstad-lauris, name:kennedy-john-f]
   - id: cal.1962-10-23.missile-crisis
     when: Oct. 23
     date: '1962-10-23'
@@ -1945,7 +2047,7 @@ entries:
     date: '1962-10-24'
     thread: missile-crisis
     c: 'Soviet ships stop or turn back. Rusk: "the other fellow just blinked."'
-    n: '[FRUS 1961–63, XI, doc. 55](https://history.state.gov/historicaldocuments/frus1961-63v11/d55). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 210–11, 213 (the ships turned back, by Oct. 25); [[w.poole-joint-chiefs-of-staff]], 177; [[w.schlesinger-robert-kennedy-and-his]], 514–15 (the ships stopped, at the morning''s ExComm); [[w.rusk-as-i-saw-it-1990]], 237; [[w.sorensen-kennedy]], 709–10 (the ships); [[w.fursenko-khrushchevs-cold-war]], 481–82 (McCone: "they either stopped them or reversed direction"; Rusk to Bundy); [[w.thomas-robert-kennedy]], 224–25 (10 a.m.; the submarine; Robert Kennedy on his brother''s face; McCone: the ships stopped; Rusk''s "eyeball to eyeball"). [[w.reeves-president-kennedy]], 400–401. [[w.ball-past-has-another-pattern]], 300 (a dozen of the twenty-five ships, word reaching the Cabinet Room). To check: [[w.dobbs-one-minute-to-midnight]]. See [[cal.1962-10-16.missile-crisis]]. Names: Rusk. Check: Rusk puts the ships'' stopping on the Thursday (237).'
+    n: '[FRUS 1961–63, XI, doc. 55](https://history.state.gov/historicaldocuments/frus1961-63v11/d55). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 210–11, 213 (the ships turned back, by Oct. 25); [[w.poole-joint-chiefs-of-staff]], 177; [[w.schlesinger-robert-kennedy-and-his]], 514–15 (the ships stopped, at the morning''s ExComm); [[w.rusk-as-i-saw-it-1990]], 237; [[w.sorensen-kennedy]], 709–10 (the ships); [[w.fursenko-khrushchevs-cold-war]], 481–82 (McCone: "they either stopped them or reversed direction"; Rusk to Bundy); [[w.thomas-robert-kennedy]], 224–25 (10 a.m.; the submarine; Robert Kennedy on his brother''s face; McCone: the ships stopped; Rusk''s "eyeball to eyeball"); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 210 (the OAS, 19 to 0, Oct. 24). [[w.reeves-president-kennedy]], 400–401. [[w.ball-past-has-another-pattern]], 300 (a dozen of the twenty-five ships, word reaching the Cabinet Room). To check: [[w.dobbs-one-minute-to-midnight]]. See [[cal.1962-10-16.missile-crisis]]. Names: Rusk. Check: Rusk puts the ships'' stopping on the Thursday (237).'
     src:
       c: 65977b68
       rows:
@@ -1962,6 +2064,7 @@ entries:
         - 'via x.1984.rusk-interviews-with-richard-rusk: A-B'
         - 'w.fursenko-khrushchevs-cold-war 481–82: all'
         - 'w.thomas-robert-kennedy 224–25: A-B'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 210: A'
     tags: [name:rusk-dean]
   - id: cal.1962-10-24.missile-crisis-2
     when: Oct. 24
@@ -2076,6 +2179,19 @@ entries:
         - 'w.sorensen-kennedy 710: B, D-F'
         - 'via x.1962-10-24.knox-report-of-khrushchev-conversation: all'
     tags: [name:khrushchev-nikita-s, name:kennedy-john-f, name:hilsman-roger]
+  - id: cal.1962-10-24.missile-crisis-7
+    when: Oct. 24
+    date: '1962-10-24'
+    thread: missile-crisis
+    also: [berlin-and-vienna]
+    c: 'The ExComm''s Berlin-NATO subcommittee, Nitze in the chair, 11 a.m., its first meeting: the allies to be told that the Soviet acts in Cuba heightened the Berlin crisis; no dramatic initiatives, nuclear weapons into Berlin among them, to force the Soviets out of Cuba.'
+    n: '[FRUS 1961–63, XV: Berlin Crisis, 1962–1963, doc. 140](https://history.state.gov/historicaldocuments/frus1961-63v15/d140). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 219 (no dramatic initiatives). Names: Nitze.'
+    src:
+      c: 4aa30e93
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v15/d140: A-B'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 219: A'
+    tags: [name:nitze-paul]
   - id: cal.1962-10-25.missile-crisis
     when: Oct. 25
     date: '1962-10-25'
@@ -2669,6 +2785,42 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d100: all'
         - 'w.sorensen-kennedy 715: all'
+  - id: cal.1962-10-27.missile-crisis-13
+    when: Oct. 27
+    date: '1962-10-27'
+    thread: missile-crisis
+    also: [berlin-and-vienna, defense]
+    c: 'The Berlin-NATO subcommittee to the President, "Buildup and Deployment in Phase II of a Berlin Contingency," NSAM 109''s second phase: Defense''s outline plan, forces on call by increments. The first a corps of three Army divisions, a Marine division and ten Air Force fighter squadrons with naval units; then a second large increment.'
+    n: '[FRUS 1961–63, XV: Berlin Crisis, 1962–1963, doc. 143](https://history.state.gov/historicaldocuments/frus1961-63v15/d143). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 219 (the increments). See [[cal.1962-10-24.missile-crisis-7]]. Names: Nitze.'
+    src:
+      c: 45f8b586
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v15/d143: A'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 219: all'
+    tags: [name:nitze-paul]
+  - id: cal.1962-10-27.missile-crisis-14
+    when: Oct. 27
+    date: '1962-10-27'
+    thread: missile-crisis
+    also: [defense]
+    c: American ships force the Soviet submarine B-59 to the surface. It carries a nuclear-tipped torpedo; its commander, thinking himself attacked, is tempted to arm it and does not. Washington learns of the submarines' nuclear weapons only in 2002.
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 212–13. Check: Kaplan gives the submarine''s mission as a naval base at Mariel.'
+    src:
+      c: 6b9c1a21
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 212–13: all'
+  - id: cal.1962-10-27.missile-crisis-15
+    when: Oct. 27
+    date: '1962-10-27'
+    thread: missile-crisis
+    also: [defense]
+    c: 'The forces poised for the invasion of Cuba: two carriers with nine escorts and a task force of 12 destroyers and cruisers; three Marine battalions reinforcing Guantánamo, a Marine expeditionary brigade on its way from California; some 850 Tactical Air Command aircraft in the Southeast; four Army divisions assigned to CINCLANT. SAC: 52 B-52s airborne with 196 nuclear weapons, 611 bombers on 15-minute alert.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 213. To check: Anatoli I. Gribkov and William Y. Smith, Operation ANADYR (1994), 141-42, Gribkov and Smith, *Operation ANADYR*, 141–42 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 213 n.78).'
+    src:
+      c: e5aa775f
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 213: all'
+        - 'via x.1994.anatoli-i-gribkov-and-william-y-smith: all'
   - id: cal.1962-10-28.missile-crisis
     when: Oct. 28
     date: '1962-10-28'

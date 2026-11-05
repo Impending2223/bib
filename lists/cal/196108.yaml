@@ -46,12 +46,13 @@ entries:
     date: '1961-08-01'
     thread: berlin-and-vienna
     c: Congress authorizes the call-up of up to 250,000 reservists for a year, [75 Stat. 242](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg242-3.pdf).
-    n: CQ Almanac 1961. [[w.sorensen-kennedy]], 627; [[w.sorensen-kennedy]], 627 (up to 250,000; some 158,000 called up; 300,000 more men before winter; 40,000 to Europe). See [[cal.1961-07-25.berlin-and-vienna]].
+    n: CQ Almanac 1961. [[w.sorensen-kennedy]], 627; [[w.sorensen-kennedy]], 627 (up to 250,000; some 158,000 called up; 300,000 more men before winter; 40,000 to Europe); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 154 (the authority granted). See [[cal.1961-07-25.berlin-and-vienna]].
     src:
       c: 5c162bec
       rows:
         - 'https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg242-3.pdf: A'
         - 'w.sorensen-kennedy 627: A'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 154: A'
   - id: cal.1961-08-01.jobs-and-wages-mo
     when: Aug. 1
     date: '1961-08-01'
@@ -99,6 +100,18 @@ entries:
       rows:
         - 'w.white-suite-3505 33–34: all'
     tags: [name:white-f-clifton, name:rusher-william-a, city:nyc]
+  - id: cal.1961-08-01.defense
+    when: Aug. 1
+    date: '1961-08-01'
+    thread: defense
+    also: [congress]
+    c: 'McNamara before a House subcommittee on civil defense in the third amended fiscal 1962 budget: the money chiefly for identifying and marking public shelters, $93 million, and for stocking them; the effort under civilian control, "integrated with all aspects of military defense against thermonuclear" attack. Congress approves $207.6 million Aug. 10; with $49.2 million transferred, $256.8 million in all.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 31. See [[cal.1961-07-20.defense]]. Names: McNamara.'
+    src:
+      c: 57a955ce
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 31: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1961-08-02.right-and-the-military
     when: Aug. 2
     date: '1961-08-02'
@@ -154,6 +167,19 @@ entries:
         - 'w.woods-fulbright 316: all'
         - 'via x.1961-08-03.fulbright-quote-creates-storm: all'
     tags: [name:fulbright-j-william, name:brandt-willy, name:rusk-dean]
+  - id: cal.1961-08-02.berlin-and-vienna-2
+    when: Aug. 2
+    date: '1961-08-02'
+    thread: berlin-and-vienna
+    also: [defense]
+    c: 'McNamara to Stahr, Secretary of the Army: the plans for two more divisions to Europe tentative; their supplies and equipment to be shipped ahead; the divisions part of the normal rotation unless the Berlin situation worsens.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 155. Army personnel in Europe up negligibly in August; 3,000 earmarked for three divisions there; reinforcements on a contingency basis ([[w.kaplan-mcnamara-ascendancy-1961-1965]], 154–55). To check: McNamara for the Secretary of the Army (Stahr), Aug. 2, 1961, fldr Reading File, box 113, McNamara Records, RG 200 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 155 n.52). See [[cal.1961-07-24.berlin-and-vienna-2]]. Names: McNamara, Stahr.'
+    src:
+      c: 81bb24ba
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 155: all'
+        - 'via x.1961-08-02.mcnamara-for-the-secretary-of-the-army: all'
+    tags: [name:mcnamara-robert-s, name:stahr-elvis-j-jr]
   - id: cal.1961-08-03.crime-and-hijacking
     when: Aug. 3
     date: '1961-08-03'
@@ -205,6 +231,19 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 381: all'
     tags: [name:khrushchev-nikita-s, name:ulbricht-walter]
+  - id: cal.1961-08-03.defense
+    when: Aug. 3
+    date: '1961-08-03'
+    thread: defense
+    also: [congress, berlin-and-vienna]
+    c: The additional authorization for aircraft, missiles and naval vessels signed, [75 Stat. 243](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg243.pdf), passed unanimously in both houses.
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 68. See [[cal.1961-07-28.defense]].'
+    src:
+      c: 3f522fdb
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg243.pdf: all'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 68: all'
+    tags: [name:kennedy-john-f]
   - id: cal.1961-08-04.welfare
     when: Aug. 4
     date: '1961-08-04'
@@ -242,6 +281,17 @@ entries:
         - 'w.woods-fulbright 285: all'
         - 'via x.1961-08-04.investigation-urged-on-fulbright-memo: all'
     tags: [name:bridges-henry-s, name:sikes-robert-l, name:fulbright-j-william]
+  - id: cal.1961-08-04.defense
+    when: Aug. 4
+    date: '1961-08-04'
+    thread: defense
+    also: [congress, berlin-and-vienna]
+    c: 'The Senate passes the Defense appropriation, 85 to 0: more than $48.848 billion, with the whole $3.454 billion the President asked the week before.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 68. Check: the day; the note cites the Record of Aug. 3. Conference and passage: [[cal.1961-08-10.defense]].'
+    src:
+      c: 194f38a1
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 68: all'
   - id: cal.1961-08-05.latin-america
     when: Aug. 5–7
     date: '1961-08-05'
@@ -465,6 +515,30 @@ entries:
         - 'via w.fursenko-khrushchevs-cold-war 381 n.71: A'
         - 'via w.fursenko-khrushchevs-cold-war 382 n.76: C'
     tags: [name:ulbricht-walter, name:khrushchev-nikita-s, name:konev-ivan-stepanovich]
+  - id: cal.1961-08-10.defense
+    when: Aug. 10
+    date: '1961-08-10'
+    thread: defense
+    also: [berlin-and-vienna, congress]
+    c: Congress completes the fiscal 1962 Defense appropriation, the budget three times amended.
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 154.'
+    src:
+      c: f2394d21
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 154: all'
+  - id: cal.1961-08-10.laos
+    when: Aug. 10
+    date: '1961-08-10'
+    thread: laos
+    also: [defense]
+    c: Lemnitzer briefs Kennedy, McNamara, Taylor and others on three plans, two with SEATO forces in Laos; the third, still being drawn, to drive the enemy from southern Laos with the armies of Thailand, South Vietnam and Laos, American forces behind them, South Vietnam thought impossible to save without southern Laos.
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 250. To check: Editorial note, FRUS 1961-63, XXIV, 358-59, FRUS 1961–63, XXIV, 358–59 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 250 n.83). Names: Lemnitzer, Kennedy, McNamara, Taylor.'
+    src:
+      c: 7e940c94
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 250: all'
+        - 'via x.1961-08-10.editorial-note-frus-1961-63-xxiv-358: all'
+    tags: [name:lemnitzer-lyman-l, name:kennedy-john-f, name:mcnamara-robert-s, name:taylor-maxwell]
   - id: cal.1961-08-11.japan-and-korea
     when: Aug. 11
     date: '1961-08-11'
@@ -493,6 +567,18 @@ entries:
       c: 49799fce
       rows:
         - 'w.sundquist-politics-and-policy 129: all'
+  - id: cal.1961-08-11.vietnam
+    when: Aug. 11
+    date: '1961-08-11'
+    thread: vietnam
+    also: [vietnam-force-levels]
+    c: 'NSAM 65, on the Staley report: equipment and training for the Vietnamese forces up to 200,000 if a review before they reach 170,000 shows the larger number can be met. No decision on American combat troops.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 269.'
+    src:
+      c: b72a778b
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 269: all'
+    tags: [name:kennedy-john-f]
   - id: cal.1961-08-12.japan-and-korea
     when: Aug. 12
     date: '1961-08-12'
@@ -568,6 +654,19 @@ entries:
         - 'w.sundquist-politics-and-policy 86: A-B'
         - 'via w.sundquist-politics-and-policy 86 n.61: A-B'
     tags: [name:curtis-thomas-b, name:byrnes-john-w, name:rhodes-john-j]
+  - id: cal.1961-08-14.berlin-and-vienna-2
+    when: Aug. 14
+    date: '1961-08-14'
+    thread: berlin-and-vienna
+    also: [defense]
+    c: 'McNamara to an interviewer, the day after the wall: "Western determination to defend the freedom of Berlin and to defend the Allied rights in Berlin," to build up military power; the move to "blockade East Berliners" unrelated to any American action, a violation of the treaties, a strong protest to come.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 158. To check: McNamara Public Statements, 1961, III, 1103-04, OSD Historical Office (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 158 n.64). Names: McNamara.'
+    src:
+      c: d4a92a80
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 158: all'
+        - 'via x.1961-08-14.mcnamara-public-statements-1961-iii-1103-04: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1961-08-15.transition-and-staff
     when: Aug. 15
     date: '1961-08-15'
@@ -722,6 +821,32 @@ entries:
         - 'w.preston-war-council 87: all'
         - 'via w.preston-war-council 87 n.32: all'
     tags: [name:rostow-walt-w, name:kennedy-john-f]
+  - id: cal.1961-08-17.defense
+    when: Aug. 17
+    date: '1961-08-17'
+    thread: defense
+    also: [berlin-and-vienna]
+    c: Department of Defense Appropriation Act, 1962, signed, [75 Stat. 365](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg365.pdf).
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 154 (signed a week after its passage, Aug. 10). See [[cal.1961-08-10.defense]].'
+    src:
+      c: 2ef8816f
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg365.pdf: all'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 154: all'
+    tags: [name:kennedy-john-f]
+  - id: cal.1961-08-18.berlin-and-vienna
+    when: Aug. 18
+    date: '1961-08-18'
+    thread: berlin-and-vienna
+    also: [defense]
+    c: McNamara asks the services what they can do to advance the deployment of up to six divisions and their air units from Jan. 1, 1962, to Nov. 15, 1961. He had opposed the convoy decision of Aug. 17.
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 160. To check: McNamara for the service secretaries, Aug. 18, 1961, fldr Reading File, box 113, McNamara Records, RG 200 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 160 n.74). See [[cal.1961-07-24.berlin-and-vienna-2]]. Names: McNamara.'
+    src:
+      c: 2c0aaa1f
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 160: all'
+        - 'via x.1961-08-18.mcnamara-for-the-service-secretaries-aug-18: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1961-08-19.berlin-and-vienna
     when: Aug. 19–20
     date: '1961-08-19'
@@ -931,6 +1056,19 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 385–86: all'
     tags: [name:pervukhin-mikhail-georgievich, name:konev-ivan-stepanovich, name:ulbricht-walter]
+  - id: cal.1961-08-24.berlin-and-vienna-3
+    when: Aug. 24
+    date: '1961-08-24'
+    thread: berlin-and-vienna
+    also: [defense]
+    c: 'McNamara lists for Kennedy the Army, Navy and Air Force reserve units to be called to active duty: over 76,500 men. Preparation for reinforcing Europe, not yet a commitment.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 161. To check: McNamara for the President, Aug. 24, 1961, fldr Reading File, box 113, McNamara Records, RG 200 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 161 n.77). See [[cal.1961-08-01.berlin-and-vienna]]. Names: McNamara, Kennedy.'
+    src:
+      c: ddfb3be6
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 161: all'
+        - 'via x.1961-08-24.mcnamara-for-the-president-aug-24-1961: all'
+    tags: [name:mcnamara-robert-s, name:kennedy-john-f]
   - id: cal.1961-08-25.latin-america
     when: Aug. 25
     date: '1961-08-25'
@@ -1014,7 +1152,7 @@ entries:
     date: '1961-08-29'
     thread: laos
     c: 'The Cabinet Room, 11 a.m., on Southeast Asia: Kennedy with Rusk, McNamara, Robert Kennedy, Harriman, Dulles, Lemnitzer and others; Harriman to see Souvanna. NSAM 80: the mobile training teams in Laos raised to 500, advisers down to the company; 2,000 more Meo supported, 11,000 in all; photo-reconnaissance over Laos by Thai or sanitized aircraft. Lemnitzer, on a force for southern Laos: the first, by Reeves, 13,000.'
-    n: '[FRUS 1961–63, XXIV, doc. 172](https://history.state.gov/historicaldocuments/frus1961-63v24/d172) (the meeting); [doc. 173](https://history.state.gov/historicaldocuments/frus1961-63v24/d173) (NSAM 80). [[w.reeves-president-kennedy]], 221; [[w.mcnamara-in-retrospect]], ch. 2 at n.10 (Rusk for diplomacy and readiness under SEATO''s plan, some 30,000 troops; McNamara: Laos weighed against Berlin and six divisions for Europe, no war in Southeast Asia without total mobilization; Kennedy: no commitment to the plan "without regard to whatever else might happen in the world"). To check: NSAM 80, Aug. 29, 1961, National Security Files, box 331, Kennedy Library; Memorandum of conversation, meeting on Southeast Asia, Aug. 29, 1961, National Security Files, box 317, Kennedy Library (cited by [[w.reeves-president-kennedy]], 221). Check: Reeves has the Meo army in the Vietnamese highlands (221); NSAM 80''s Meo are in Laos. Names: Rusk, McNamara, Robert Kennedy, Harriman, Dulles, Lemnitzer, Souvanna Phouma, Kennedy.'
+    n: '[FRUS 1961–63, XXIV, doc. 172](https://history.state.gov/historicaldocuments/frus1961-63v24/d172) (the meeting); [doc. 173](https://history.state.gov/historicaldocuments/frus1961-63v24/d173) (NSAM 80). [[w.reeves-president-kennedy]], 221; [[w.mcnamara-in-retrospect]], ch. 2 at n.10 (Rusk for diplomacy and readiness under SEATO''s plan, some 30,000 troops; McNamara: Laos weighed against Berlin and six divisions for Europe, no war in Southeast Asia without total mobilization; Kennedy: no commitment to the plan "without regard to whatever else might happen in the world"). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 250 (the Johnson plan; the President''s decisions: contingency planning, 500 American advisers and as many Thai, 2,000 more Hmong to 11,000, photo reconnaissance twice a week). To check: NSAM 80, Aug. 29, 1961, National Security Files, box 331, Kennedy Library; Memorandum of conversation, meeting on Southeast Asia, Aug. 29, 1961, National Security Files, box 317, Kennedy Library (cited by [[w.reeves-president-kennedy]], 221). Check: Reeves has the Meo army in the Vietnamese highlands (221); NSAM 80''s Meo are in Laos. Names: Rusk, McNamara, Robert Kennedy, Harriman, Dulles, Lemnitzer, Souvanna Phouma, Kennedy.'
     src:
       c: 958955a6
       rows:
@@ -1025,6 +1163,7 @@ entries:
         - 'via w.reeves-president-kennedy 221 n.the-first-force-would-be-13: A-B, F'
         - 'w.mcnamara-in-retrospect ch. 2 at n.10: A'
         - 'via x.1961-08-29.memorandum-of-conversation-meeting-on-southeast: A'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 250: A'
     tags: [name:rusk-dean, name:mcnamara-robert-s, name:kennedy-robert-f, name:harriman-w-averell, name:dulles-allen-w, name:lemnitzer-lyman-l, name:souvanna-phouma, name:kennedy-john-f]
   - id: cal.1961-08-29.berlin-and-vienna
     when: Aug. 29
@@ -1074,7 +1213,7 @@ entries:
     date: '1961-08-30'
     thread: berlin-and-vienna
     c: Clay named the President's personal representative in Berlin. The Soviet Union announces it will resume nuclear testing.
-    n: 'News Conference, [1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630) (Aug. 30, 1961). White House Statement on Soviet Resumption of Nuclear Weapons Tests, [1961 Pub. Papers 580](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=638). [FRUS 1961–63, VII, doc. 58](https://history.state.gov/historicaldocuments/frus1961-63v07/d58). The first test: [[cal.1961-09-01.testing]]. [[w.reeves-president-kennedy]], 223; [[w.shesol-mutual-contempt]], 74 (Clay''s condition: never to work with Robert Kennedy); [[w.fursenko-khrushchevs-cold-war]], 385 (the end of the moratorium announced; the tests at Semipalatinsk two days later); [[w.sorensen-kennedy]], 594–95 (Clay''s return as the President''s emissary). See [[cal.1961-08-19.berlin-and-vienna]]. Names: Clay.'
+    n: 'News Conference, [1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630) (Aug. 30, 1961). White House Statement on Soviet Resumption of Nuclear Weapons Tests, [1961 Pub. Papers 580](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=638). [FRUS 1961–63, VII, doc. 58](https://history.state.gov/historicaldocuments/frus1961-63v07/d58). The first test: [[cal.1961-09-01.testing]]. [[w.reeves-president-kennedy]], 223; [[w.shesol-mutual-contempt]], 74 (Clay''s condition: never to work with Robert Kennedy); [[w.fursenko-khrushchevs-cold-war]], 385 (the end of the moratorium announced; the tests at Semipalatinsk two days later); [[w.sorensen-kennedy]], 594–95 (Clay''s return as the President''s emissary); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 159 (Clay effective Sept. 15; Lemnitzer and McNamara had recommended him as chief of mission). See [[cal.1961-08-19.berlin-and-vienna]]. Names: Clay.'
     src:
       c: 8008019c
       rows:
@@ -1086,6 +1225,7 @@ entries:
         - 'w.shesol-mutual-contempt 74: A'
         - 'w.fursenko-khrushchevs-cold-war 385: B'
         - 'w.sorensen-kennedy 594–95: A'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 159: A'
     tags: [name:kennedy-john-f, name:clay-lucius-d]
   - id: cal.1961-08-30.testing
     when: Aug. 30
@@ -1118,13 +1258,27 @@ entries:
     thread: cuba-bay-of-pigs
     also: [press-and-broadcasting]
     c: 'News conference. Asked of *Time*''s version of the invasion, out that day, that Rusk canceled the air support for the landing and the President backed him: no comment; "the most inaccurate of all the articles that have appeared on Cuba."'
-    n: 'The President''s News Conference, [1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630) (Aug. 30, 1961), at 580. [[w.sorensen-kennedy]], 316 (the answer; the article *Time*''s, or *Fortune*''s, from which it was condensed). See [[cal.1961-04-17.cuba]]. Names: Rusk, Kennedy.'
+    n: 'The President''s News Conference, [1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630) (Aug. 30, 1961), at 580. [[w.sorensen-kennedy]], 316 (the answer; the article *Time*''s, or *Fortune*''s, from which it was condensed); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 191 (the news conference of Aug. 30 on *Time*''s version). See [[cal.1961-04-17.cuba]]. Names: Rusk, Kennedy.'
     src:
       c: 4f55f686
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630: all'
         - 'w.sorensen-kennedy 316: B'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 191: A-B'
     tags: [name:kennedy-john-f, name:rusk-dean]
+  - id: cal.1961-08-30.cuba-bay-of-pigs-2
+    when: Aug. 30
+    date: '1961-08-30'
+    thread: cuba-bay-of-pigs
+    also: [press-and-broadcasting, defense]
+    c: 'McNamara to Kennedy on Murphy''s *Fortune* article: "shocked by the general impression left by the story." "At no time during the planning was I aware of any such assumption" of American military help; the Cubans told it would not come. "The operation failed because you acted on faulty advice from your advisors, particularly the representatives of CIA and DOD, including myself."'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 190–91. To check: McNamara for the President, Aug. 30, 1961, fldr Reading File, Dec. 1960-Nov. 1961, box 113, McNamara Records, RG 200 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 190 n.68). See [[cal.1961-08-30.cuba-bay-of-pigs]]. Check: the day, from the notes. Names: McNamara, Kennedy.'
+    src:
+      c: 1bdb7fc7
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 190–91: all'
+        - 'via x.1961-08-30.mcnamara-for-the-president-aug-30-1961: all'
+    tags: [name:mcnamara-robert-s, name:kennedy-john-f]
   - id: cal.1961-08-31.rules
     when: Aug. 31
     date: '1961-08-31'
@@ -1158,13 +1312,14 @@ entries:
     thread: berlin-and-vienna
     also: [robert-kennedy, testing]
     c: 'The day after the Soviet announcement that testing will resume, the President on interference with air access to Berlin. If a military plane is forced or shot down, fighters to cover the transports; Lemnitzer and Taylor for firing back at anti-aircraft guns; the President overrules them until a first such attack. By Robert Kennedy''s notes, the gloomiest meeting since early in the crisis. To his brother after: "I said I wanted to get off. ... Get off the planet."'
-    n: '[FRUS 1961–63, XIV, doc. 135](https://history.state.gov/historicaldocuments/frus1961-63v14/d135) (Bundy''s memorandum of decisions). [[w.schlesinger-robert-kennedy-and-his]], 429–30. To check: Robert Kennedy, dictated Sept. 1, 1961, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 430 n.54). See [[cal.1961-08-13.berlin-and-vienna]]. Names: Kennedy, Lemnitzer, Taylor, Robert Kennedy, McNamara. Check: Robert Kennedy''s notes do not date the meeting; Bundy''s memorandum is of Aug. 31.'
+    n: '[FRUS 1961–63, XIV, doc. 135](https://history.state.gov/historicaldocuments/frus1961-63v14/d135) (Bundy''s memorandum of decisions). [[w.schlesinger-robert-kennedy-and-his]], 429–30; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 161 (Norstad authorized to replace civil aircraft with military and to let fighters take "aggressive protective measures"; no authority against anti-aircraft and missile fire, the allies refusing). To check: Robert Kennedy, dictated Sept. 1, 1961, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 430 n.54). See [[cal.1961-08-13.berlin-and-vienna]]. Names: Kennedy, Lemnitzer, Taylor, Robert Kennedy, McNamara. Check: Robert Kennedy''s notes do not date the meeting; Bundy''s memorandum is of Aug. 31.'
     src:
       c: c80dc1e7
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v14/d135: B-C'
         - 'w.schlesinger-robert-kennedy-and-his 429–30: A, C-E'
         - 'via w.schlesinger-robert-kennedy-and-his 430 n.54: A, C-E'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 161: B-D'
     tags: [name:kennedy-john-f, name:lemnitzer-lyman-l, name:taylor-maxwell, name:kennedy-robert-f, name:mcnamara-robert-s, name:bundy-mcgeorge]
   - id: cal.1961-08-31.cuba
     when: Aug. 31
