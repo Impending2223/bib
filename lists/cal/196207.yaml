@@ -41,6 +41,16 @@ entries:
       c: 44afc5dd
       rows:
         - 'w.marolda-united-states-navy-and 255: all'
+  - id: cal.1962-07-01.vietnam-diplomacy
+    when: July 1
+    date: '1962-07-01'
+    thread: vietnam-diplomacy
+    c: The NLF's memorandum to the co-chairmen of the 1954 conference, endorsing Sihanouk's proposal of March.
+    n: '[[w.asselin-hanois-road-to-the]], 127–28. See [[cal.1962-03.vietnam-diplomacy]]. Check: the memorandum''s text; Asselin gives no note for it.'
+    src:
+      c: f5925a87
+      rows:
+        - 'w.asselin-hanois-road-to-the 127–28: all'
   - id: cal.1962-07-02.republican-party
     when: July 2
     date: '1962-07-02'
@@ -772,7 +782,7 @@ entries:
     date: '1962-07-19'
     thread: vietnam
     c: 'The National Liberation Front proposes, in a public statement: a cease-fire; the American military out; a provisional government of national concord until elections under the Geneva accords; South Vietnam neutral, with Cambodia and Laos, under an international guarantee.'
-    n: '[[w.asselin-hanois-road-to-the]], 136–37. To check: the Australian government''s report "South Vietnam: Communist Proposals for an International Conference," Aug. 3, 1962, FO 371/166763 (cited by [[w.asselin-hanois-road-to-the]], 136 n.124). See [[cal.1962-07-18.vietnam]]. Check: the statement''s text and where it was printed.'
+    n: '[[w.asselin-hanois-road-to-the]], 136–37. Check: Asselin, 136, has the statement July 19; his note to 128 dates the Front''s declaration of its willingness for a coalition July 20 (128 n.63). To check: the Australian government''s report "South Vietnam: Communist Proposals for an International Conference," Aug. 3, 1962, FO 371/166763 (cited by [[w.asselin-hanois-road-to-the]], 136 n.124); t; h; e; N; L; F; C; n; r; a; l; o; m; i; ''; s; d; c; ,; J; u; y; 2; 0; 1; 9; 6; (; x; p; ); H; ồ; ơ; 3; V; A; v; b; [; w; -; ]; 8. See [[cal.1962-07-18.vietnam]]. Check: the statement''s text and where it was printed.'
     src:
       c: 5de24106
       rows:
@@ -1010,6 +1020,7 @@ entries:
         - 'via x.1984.rusk-interviews-with-richard-rusk: A-B'
         - 'w.fursenko-khrushchevs-cold-war 449: A'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 256: all'
+        - 'via x.2001.dommen-indochinese-experience-of-the-443-54: A-B'
     tags: [name:harriman-w-averell]
     short: the neutrality declaration
   - id: cal.1962-07-23.vietnam
@@ -1786,3 +1797,32 @@ entries:
       c: 7712c2f1
       rows:
         - 'w.schulimson-joint-chiefs-of-staff 238: all'
+  - id: cal.1962-07.vietnam-diplomacy
+    when: July
+    date: 1962-07
+    thread: vietnam-diplomacy
+    also: [laos]
+    c: 'Geneva. North Vietnam''s diplomats to Souvanna Phouma and Sihanouk: South Vietnam''s neutrality to be discussed right after the talks on Laos; by one report, the Laos agreement will not work "so long as there is still a dangerous situation" in the South.'
+    n: '[[w.asselin-hanois-road-to-the]], 127. To check: the Foreign Office''s paper "Vietnam," July 5, 1962, FO 371/166763 (cited by [[w.asselin-hanois-road-to-the]], 127 n.62). Names: Souvanna Phouma, Sihanouk. Check: the day; by July 5.'
+    src:
+      c: 8b2bac1a
+      rows:
+        - 'w.asselin-hanois-road-to-the 127: all'
+        - 'via x.1962-07-05.fo-vietnam-5-july-1962: all'
+    tags: [name:souvanna-phouma, name:norodom-sihanouk]
+  - id: cal.1962-07.vietnam-diplomacy-2
+    when: July
+    date: 1962-07
+    thread: vietnam-diplomacy
+    c: 'Hanoi. Bernard Fall with Phạm Văn Đồng: "We do not want to give pretexts" for an American intervention in the North; "No, no, and no, we are not isolationists." After a meeting with Hồ Chí Minh and Đồng late in the month, Fall concludes Hanoi would accept a neutral Saigon and put off reunification, to keep the Americans out.'
+    n: '[[w.asselin-hanois-road-to-the]], 104, 134. To check: the French General Delegation at Hanoi, "Visite de M. Bernard Fall au Président Pham Van Dong," July 16, 1962 (cited by [[w.asselin-hanois-road-to-the]], 104 n.80, 134 n.119); Bernard B. Fall, ed., *Ho Chi Minh on Revolution* (1967), 352–58 (cited by [[w.asselin-hanois-road-to-the]], 134 n.121). Names: Fall, Phạm Văn Đồng, Hồ Chí Minh. Check: the days; the French report of Fall''s visit with Đồng is of July 16 (134 n.119).'
+    src:
+      c: 0dd7c7b1
+      rows:
+        - 'w.asselin-hanois-road-to-the 134: A, C'
+        - 'w.asselin-hanois-road-to-the 104: B'
+        - 'via x.1962-07-16.fgdh-visite-de-bernard-fall: A'
+        - 'via x.1962-07-16.fgdh-visite-de-bernard-fall: B'
+        - 'via x.1967.fall-ho-chi-minh-on-revolution: C'
+        - 'via x.2002.guan-vietnam-war-from-the-64: C'
+    tags: [name:fall-bernard-b, name:pham-van-dong, name:ho-chi-minh, place:hanoi]
