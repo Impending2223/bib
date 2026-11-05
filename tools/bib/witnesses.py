@@ -289,7 +289,10 @@ def problems(series):
             if reach is None:
                 reach = reachable(cards, rows, edges, parts)
             if m.group(1) not in reach:
-                errors.append((e["id"], f"via {m.group(1)}: no item of the note leads to it"))
+                errors.append((e["id"], f"via {m.group(1)}: no item of the note leads to it (cite in "
+                                        "the note the work whose edge reaches it, sources/witnesses/by-work/<card>.yaml, "
+                                        "or give that work the edge; else drop the row and put the record behind "
+                                        "\"To check:\")"))
         if e.get("variants"):
             n_units = len(claims.units(e.get("c") or ""))
             for v in e["variants"]:

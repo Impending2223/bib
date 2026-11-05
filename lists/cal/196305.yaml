@@ -2023,13 +2023,26 @@ entries:
         - 'via w.branch-parting-the-waters 809 n.2a: A'
         - 'w.thomas-robert-kennedy 244: A'
     tags: [name:kennedy-robert-f, name:baldwin-james, name:reston-james]
+  - id: cal.1963-05-25.economy
+    when: May 25
+    date: '1963-05-25'
+    thread: economy
+    also: [europe-and-the-alliance-france]
+    c: 'Couve de Murville with Kennedy at the White House, 11 a.m. Kennedy: the United States $2.5 billion short again this year; the danger a run on gold. Couve asks whether Washington has considered changing the international price of gold; agreed beforehand, he says, it would bring no run. The United States, he says, has no real deficit, only too much export of capital.'
+    n: '[FRUS 1961–63, IX: Foreign Economic Policy, doc. 71](https://history.state.gov/historicaldocuments/frus1961-63v09/d71) (editorial note, quoting the memorandum of conversation; printed in full, FRUS 1961–63, XIII, 769–75). [[w.gavin-gold-dollars-and-power]], 75–76 (Couve for raising the dollar price of gold). Made public: FRUS 1961–63, IX (1995). To check: Ball with Couve, May 25, 1963, Department of State, Central Files, POL FR-US (cited by FRUS 1961–63, IX, doc. 71). See [[cal.1962-07-20.economy]]. Names: Couve de Murville, Kennedy.'
+    src:
+      c: 4281d088
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v09/d71: all'
+        - 'w.gavin-gold-dollars-and-power 75–76: D'
+    tags: [name:couve-de-murville-maurice, name:kennedy-john-f]
   - id: cal.1963-05-26.opinion-5
     when: May 26
     date: '1963-05-26'
     thread: opinion
     also: [elections-1964-polls]
     c: 'Gallup, May 8–13: Republicans'' choice for 1964: Goldwater 35, Rockefeller 30, Romney 22; others, no preference 13. Independents: Goldwater 33, Rockefeller 28. Goldwater''s first lead.'
-    n: '[[w.gallup-poll]], III, 1819; [[w.goldberg-barry-goldwater]], 171 (Goldwater 35, Rockefeller 30, Romney 16, Goldberg''s figures); [[w.smith-on-his-own-terms]], 409 (before May 4, Rockefeller 43, Goldwater 26; at the end of May, Goldwater 35, Rockefeller 30); [[w.white-making-of-the-president-1965]], 82 (Goldwater 35, Rockefeller 30, from 26 and 43 before the remarriage). Check: Goldberg, 171, gives Romney 16 percent. Names: Goldwater, Nelson Rockefeller, Romney.'
+    n: '[[w.gallup-poll]], III, 1819; [[w.goldberg-barry-goldwater]], 171 (Goldwater 35, Rockefeller 30, Romney 16, Goldberg''s figures); [[w.smith-on-his-own-terms]], 409 (before May 4, Rockefeller 43, Goldwater 26; at the end of May, Goldwater 35, Rockefeller 30); [[w.white-making-of-the-president-1965]], 82 (Goldwater 35, Rockefeller 30, from 26 and 43 before the remarriage). Check: Goldberg, 171, gives Romney 16 percent. Check: Novak gives the first postmarriage poll as Goldwater 40, Rockefeller 29 (148), and Romney 16 percent in early May, 18 in mid-May (161); Gallup''s release (III, 1819) stands. Names: Goldwater, Nelson Rockefeller, Romney.'
     src:
       c: 755362ec
       rows:
@@ -2038,6 +2051,15 @@ entries:
         - 'w.smith-on-his-own-terms 409: A'
         - 'w.white-making-of-the-president-1965 82: A, D'
     tags: [name:goldwater-barry-m, name:rockefeller-nelson, name:romney-george-w]
+    variants:
+      - unit: A
+        witness: w.novak-agony-of-the-g
+        reads: the postmarriage results giving Goldwater 40 percent and Rockefeller 29 percent
+        at: '148'
+      - unit: A
+        witness: w.novak-agony-of-the-g
+        reads: Romney from 13 percent in April to 16 percent in early May to 18 percent in mid-May
+        at: '161'
   - id: cal.1963-05-26.king
     when: May 26
     date: '1963-05-26'

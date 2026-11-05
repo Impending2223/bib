@@ -17,6 +17,13 @@ STYLE
  7. `add` of a thread (`cal.thread.<slug>`, th.yaml): not a dated entry, so neither date, `c`, `n` nor the ledger; its
     name (`s`), not in the tree, its `parent` a thread of the tree or added earlier in the patch, and its place
     (`section` the threads section, `after`); `check` [thread-order] holds the order once merged.
+ 8. The entries the patch adds, edits or adds to, as they stand after it (applied in memory, as in 6), held to
+    `./bib check`'s rules for an entry, by its own functions, so a patch that passes here passes `check` once merged:
+    check.entry_problems (`when` against `date`, check.when_matches_date; `thread`, `also` and `to` naming a thread's
+    slug, not an alias; every `[[id]]` an entry, every `[[w.id]]` a card; the date within the section the entry lands
+    in, January 1966's two sections among them), witnesses.problems (a `via x.` row's witness reached from an item of
+    the note; a variant's unit and witness) and claims.problems (6: a `src` row naming what the note prints). An error
+    the tree already had is not the patch's. Each message says the fix. A conflict the merge leaves is a warning.
 """
 import collections
 import os
@@ -25,7 +32,8 @@ from . import store
 
 
 def check(series, path, legacy=False):
-    from . import addops, claims, ledger, merge, patchaudit
+    from . import addops, claims, ledger, merge, patchaudit, witnesses
+    from . import check as chk
     errors, warnings = [], []
     try:
         d = store.load_yaml(path) or {}
@@ -97,13 +105,39 @@ def check(series, path, legacy=False):
                                 "(cite, to-check, check, src, names, also: tools/bib/addops.py)")
     for head, lines in patchaudit.audit(series, [path])[:1]:
         errors += lines
-    # STYLE 6: the claim maps, before and after
+    # STYLE 6 and 8: the claim maps, the witnesses, and the entries the patch touches, before and after
+    touched = []
+    for op in ops:
+        if isinstance(op, dict) and len(op) == 1:
+            (kind, body), = op.items()
+            eid = (body or {}).get("id") or ((body or {}).get("entry") or {}).get("id")
+            if eid and kind not in ("delete", "combine") and eid not in touched:
+                touched.append(eid)
+
+    def entry_errs():
+        out = set()
+        for eid in touched:
+            hit = series.get(eid)
+            if hit:
+                out |= {(eid, lvl, msg) for lvl, msg, _ in chk.entry_problems(series, *hit) if lvl == chk.ERROR}
+        return out
     before = {(i, m) for i, m in claims.problems(series)[0]}
+    wbefore = set(witnesses.problems(series)[0])
+    ebefore = entry_errs()
     rep = merge.Report()
     merge.apply_patch(series, d, name, rep, dry=True)
     addops.join_clean(series, name, save=False)          # as the rolling merge will join them
     after = {(i, m) for i, m in claims.problems(series)[0]}
     errors += [f"claims {i}: {m}" for i, m in sorted(after - before)]
+    errors += [f"witnesses {i}: {m}" for i, m in sorted(set(witnesses.problems(series)[0]) - wbefore, key=str)]
+    for eid, lvl, msg in sorted(entry_errs() - ebefore):
+        if msg.startswith("unresolved merge conflict"):     # the merge's to settle, not the patch's to refuse
+            cs = (series.get(eid)[2].get("conflict") or []) if series.get(eid) else []
+            what = "; ".join(f"a duplicate of {', '.join(c.get('of') or [])}?" if c.get("kind") == "duplicate"
+                             else f"a conflict on {c.get('field')}" for c in cs if isinstance(c, dict))
+            warnings.append(f"{eid}: {what or 'a conflict'} at the merge (./bib resolve {eid} --take ...; keep, for a duplicate that is distinct)")
+        else:
+            errors.append(f"{eid}: {msg}")
     for l in rep.lines:
         if l.startswith("error"):
             msg = l.split(None, 1)[1]

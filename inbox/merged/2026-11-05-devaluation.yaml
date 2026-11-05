@@ -1,0 +1,857 @@
+patch: devaluation
+by: 'Claude (the event pass on the devaluation question, 1960–Jan. 20, 1969, and the Canadian exemption of 1968: FRUS 1961–63, IX; 1964–68, VIII, XII; the Public Papers; Gavin, *Gold, Dollars, and Power*; Meltzer, *History of the Federal Reserve*, vol. 2, bk. 1), Nov. 5, 2026'
+ops:
+  - primary:
+      id: cal.1967-12-23.economy
+      text: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 165](https://history.state.gov/historicaldocuments/frus1964-68v08/d165) (sent 1900Z; Point II: "This will result in a 2-price structure")'
+      units: all
+  - cite:
+      id: cal.1968-05-21.economy-surcharge-3
+      item: '[[w.gavin-gold-dollars-and-power]], 165 & n.1 (the memorandum, "Explanation of Possible World Financial Crisis," dated May 21)'
+      units: A
+  - src:
+      id: cal.1968-05-21.economy-surcharge-3
+      rows:
+        - 'via w.gavin-gold-dollars-and-power 165 n.1: A'
+  - cite:
+      id: cal.1967-11-18.economy
+      item: '[[w.meltzer-history-of-the-federal]], 524 (14.3 percent, to $2.40)'
+      units: A
+  - cite:
+      id: cal.1968-03-16.economy-gold
+      item: '[[w.meltzer-history-of-the-federal]], 536 & n.76 (the meeting in Washington; gold among the monetary authorities from their stocks, the rest at the market''s price)'
+      units: A-C
+  - cite:
+      id: cal.1965-08-05.economy
+      item: '[[w.meltzer-history-of-the-federal]], 440 n.291 (the conversation with Martin: "we simply can''t go on bailing them out"; Johnson: "how we can protect the dollar")'
+      units: C
+  - primary:
+      id: cal.1968-11-20.economy-franc
+      text: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 214](https://history.state.gov/historicaldocuments/frus1964-68v08/d214) (Bonn, 0255Z, Nov. 21: the first plenary; Schiller against revaluing, the tax package; Jenkins: not enough); [FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 218](https://history.state.gov/historicaldocuments/frus1964-68v08/d218) (the credit package, $2 billion)'
+      units: A-B
+  - src:
+      id: cal.1968-11-20.economy-franc
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d218: C'
+  - check:
+      id: cal.1968-11-20.economy-franc
+      text: 'Check: Zijlstra''s breakdown of the credit, qualified, gives the United States $525 million of $2,100 million ([FRUS 1964–68, VIII, doc. 218](https://history.state.gov/historicaldocuments/frus1964-68v08/d218)).'
+  - add:
+      entry:
+        id: cal.1961-02-06.economy-gold
+        when: Feb. 6
+        date: '1961-02-06'
+        thread: economy-gold
+        c: Special message on gold and the balance of payments deficit. The basic deficit about $1.5 billion in 1960, the over-all $3.8 billion; the gold reserve $17.5 billion. "The United States official dollar price of gold can and will be maintained at $35 an ounce"; no exchange controls; the drawing rights in the Fund to be used "if and when appropriate"; the Treasury to study how the Fund may be strengthened.
+        n: 'Special Message to the Congress on Gold and the Balance of Payments Deficit, [1961 Pub. Papers 57](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=115) (Feb. 6, 1961). [[w.meltzer-history-of-the-federal]], 342 (the commitment to $35 renewed). To check: [[w.roosa-dollar-and-world-liquidity]]; [[w.solomon-international-monetary-system-1945]]; [[w.coombs-arena-of-international-finance]]; [[w.james-international-monetary-cooperation-since]]. See [[cal.1960-10-31.economy]]. Names: Kennedy.'
+        src:
+          c: bad84b95
+          rows:
+            - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=115: all'
+            - 'w.meltzer-history-of-the-federal 342: D'
+        tags: [name:kennedy-john-f]
+  - add:
+      entry:
+        id: cal.1961-05-05.economy-gold
+        when: May 5
+        date: '1961-05-05'
+        thread: economy-gold
+        also: [europe-and-the-alliance-france]
+        c: 'Paris. Rueff to de Gaulle, the first of his letters on the monetary system: end the dollar''s role as a reserve currency, force a devaluation of the dollar, convert France''s dollars into gold.'
+        n: '[[w.gavin-gold-dollars-and-power]], 76–77 & n.60. To check: Rueff to de Gaulle, May 5, 1961, Wilfrid Baumgartner Papers, box 3BA34, folder Dr 5, Fondation des sciences politiques (cited by [[w.gavin-gold-dollars-and-power]], 77 n.60, from Gavin and Mahan, "Hegemony or Vulnerability?"). See [[cal.1961-02-06.economy-gold]]. Names: Rueff, de Gaulle.'
+        src:
+          c: 4f6ee45f
+          rows:
+            - 'w.gavin-gold-dollars-and-power 76–77: all'
+            - 'via w.gavin-gold-dollars-and-power 77 n.60: all'
+        tags: [name:rueff-jacques, name:de-gaulle-charles]
+  - add:
+      entry:
+        id: cal.1961-06-23.economy-gold
+        when: June 23–29
+        date: '1961-06-23'
+        thread: economy-gold
+        also: [europe-and-the-alliance-france, press-and-broadcasting]
+        c: 'Paris. Rueff in *Le Monde*, three articles, reprinted in the London *Times*: "Deux Pyramides du crédit sur le stock d''or des États-Unis" (June 23), "Un danger pour l''occident: Le Gold-Exchange standard" (June 27), "Comment sortir du système?" (June 29). The gold exchange standard "a prodigious collective error"; de Gaulle to bypass Parliament, end the dollar''s reserve role and force its devaluation.'
+        n: '[[w.gavin-gold-dollars-and-power]], 76–77 & n.60. Check: Gavin''s text dates the articles "early June 1961," its note June 23–29. To check: *Le Monde*, June 23, 27, 29, 1961 (cited by [[w.gavin-gold-dollars-and-power]], 77 n.60). See [[cal.1961-05-05.economy-gold]]. Names: Rueff, de Gaulle.'
+        src:
+          c: 3d411708
+          rows:
+            - 'w.gavin-gold-dollars-and-power 76–77: all'
+            - 'via w.gavin-gold-dollars-and-power 77 n.60b: all'
+        tags: [name:rueff-jacques, name:de-gaulle-charles]
+  - add:
+      entry:
+        id: cal.1961-10-04.economy
+        when: Oct. 4
+        date: '1961-10-04'
+        thread: economy
+        c: 'The Committee of Under Secretaries on Foreign Economic Policy on the balance of payments, Ball presiding. Fowler: the program rests on the message of Feb. 6. Roosa on short-term capital movements under convertibility. Tobin: the balance will worsen as recovery draws in imports; the question is protecting the dollar from runs meanwhile, and later the supply of liquidity. Coppock: with devaluation, exchange controls and new import restrictions ruled out, the burden falls on exports and monetary restraint.'
+        n: '[FRUS 1961–63, IX: Foreign Economic Policy, doc. 6](https://history.state.gov/historicaldocuments/frus1961-63v09/d6) (summary minutes; the Treasury paper, "The Balance of Payments and our Foreign Economic Policy," dated Sept. 29). Made public: FRUS 1961–63, IX (1995). See [[cal.1961-02-06.economy-gold]]. Names: Ball, Fowler, Roosa, Tobin.'
+        src:
+          c: fc798463
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1961-63v09/d6: all'
+        tags: [name:ball-george-w, name:fowler-henry-h, name:roosa-robert-v, name:tobin-james]
+  - add:
+      entry:
+        id: cal.1961-12.economy-gold
+        when: Dec.
+        date: 1961-12
+        thread: economy-gold
+        c: 'The gold pool. Eight central banks to share the London gold market: the Bank of England to intervene from its own gold, keeping the price below $35.20, the others repaying it monthly by their shares; the United States half of $270 million, West Germany $30 million, Britain, France and Italy $25 million each, Switzerland, the Netherlands and Belgium $10 million each. The members to buy gold from the Treasury or from one another, not in the market.'
+        n: '[[w.meltzer-history-of-the-federal]], 359 & n.156. Check: the day. To check: [[w.coombs-arena-of-international-finance]], 62 (cited by [[w.meltzer-history-of-the-federal]], 359 & n.156); [[w.solomon-international-monetary-system-1945]]. See [[cal.1960-10-25.economy]].'
+        src:
+          c: 6d2530d9
+          rows:
+            - 'w.meltzer-history-of-the-federal 359 & n.156: all'
+            - 'via x.2010.meltzer-history-federal-reserve-p359: all'
+  - add:
+      entry:
+        id: cal.1962-01-23.economy
+        when: Jan. 23
+        date: '1962-01-23'
+        thread: economy
+        c: 'The Open Market Committee votes, ten to two, for the System''s own operations in foreign currencies, an "experiment," Balderston''s motion; talks with the Treasury on the Exchange Stabilization Fund''s operations authorized. Robertson and Mitchell against: no clear statutory authority.'
+        n: '[[w.meltzer-history-of-the-federal]], 352 & nn.141, 143. To check: FOMC Minutes, Dec. 5, 1961 (cited by [[w.meltzer-history-of-the-federal]], 352); Board of Governors, *Annual Report* (1962), 56–57 (cited by {M}, 352 n.141). See [[cal.1961-12.economy-gold]]. Names: Balderston, Robertson, Mitchell.'
+        src:
+          c: d3bfa723
+          rows:
+            - 'w.meltzer-history-of-the-federal 352 & nn.141, 143: all'
+            - 'via x.2010.meltzer-history-federal-reserve-p352: all'
+        tags: [name:balderston-c-canby, name:robertson-j-l, name:mitchell-george-w]
+  - add:
+      entry:
+        id: cal.1962-02-13.economy
+        when: Feb. 13
+        date: '1962-02-13'
+        thread: economy
+        c: 'The Open Market Committee approves the operating rules for its foreign currency operations and their coordination with the Treasury; the Committee, not the Board, to direct them. Martin: a "lubricating device," not a cure for a basic deficit. The Exchange Stabilization Fund sells the System its first currencies: $7 million in marks, $1 million each in French and Swiss francs, lire, pounds and guilders.'
+        n: '[[w.meltzer-history-of-the-federal]], 354–56. To check: FOMC Minutes, Feb. 13, 1962, 55–93 (cited by [[w.meltzer-history-of-the-federal]], 353–56). See [[cal.1962-01-23.economy]]. Names: Martin.'
+        src:
+          c: 29ffd733
+          rows:
+            - 'w.meltzer-history-of-the-federal 354–56: all'
+            - 'via x.2010.meltzer-history-federal-reserve-p355: all'
+        tags: [name:martin-william-mcchesney-jr]
+  - add:
+      entry:
+        id: cal.1962-02-28.economy
+        when: Feb. 28
+        date: '1962-02-28'
+        thread: economy
+        c: 'The Open Market Committee, by telephone vote, nine to two, approves the first swap: $50 million for three months with the Bank of France. King and Robertson against, Mitchell abstaining.'
+        n: '[[w.meltzer-history-of-the-federal]], 356 & n.151. To check: [[w.coombs-arena-of-international-finance]], 74–75 (cited by [[w.meltzer-history-of-the-federal]], 352 n.143). See [[cal.1962-01-23.economy]]. Names: Robertson, Mitchell.'
+        src:
+          c: ae26aa39
+          rows:
+            - 'w.meltzer-history-of-the-federal 356 & n.151: all'
+        tags: [name:robertson-j-l, name:mitchell-george-w]
+  - add:
+      entry:
+        id: cal.1962-03-06.economy
+        when: Mar. 6
+        date: '1962-03-06'
+        thread: economy
+        c: 'The Open Market Committee approves Coombs''s swaps with Switzerland and Britain. Coombs: they give the market confidence that the central banks will hold their rates. Balderston: the gold stock to fall to $15 billion from $16.7 billion.'
+        n: '[[w.meltzer-history-of-the-federal]], 356–57. To check: FOMC Minutes, Mar. 6, 1962 (cited by [[w.meltzer-history-of-the-federal]], 355, 357). See [[cal.1962-02-28.economy]]. Names: Coombs, Balderston.'
+        src:
+          c: 37435a09
+          rows:
+            - 'w.meltzer-history-of-the-federal 356–57: all'
+            - 'via x.2010.meltzer-history-federal-reserve-p357: all'
+        tags: [name:coombs-charles-a, name:balderston-c-canby]
+  - add:
+      entry:
+        id: cal.1962-03.economy-gold
+        when: Mar.
+        date: 1962-03
+        thread: economy-gold
+        c: 'The gold pool''s members agree to share purchases as well as sales and give up competing for gold: the Bank of England the single buyer for the group, at no more than $35.08.'
+        n: '[[w.meltzer-history-of-the-federal]], 359–60. Check: the day. To check: [[w.coombs-arena-of-international-finance]]; [[w.solomon-international-monetary-system-1945]]. See [[cal.1961-12.economy-gold]].'
+        src:
+          c: faaa6f26
+          rows:
+            - 'w.meltzer-history-of-the-federal 359–60: all'
+  - add:
+      entry:
+        id: cal.1962-07-06.economy-gold
+        when: July 6
+        date: '1962-07-06'
+        thread: economy-gold
+        c: 'Kaysen to Kennedy, "Gold," with the papers of the past two weeks: Louchheim''s plan for agreed ratios of gold to reserves, the 25 percent cover to go; Tobin and Roosa on it, Dillon added. Tobin: practical, and needed soon; Roosa doubts it. The Treasury sure it has the situation in hand; the Council for a fundamental change in the payments mechanism. Among the papers, by Gavin''s account, an essay of Keynes''s on a payments system without gold. Roosa had not answered Kennedy on Saager''s idea of raising the price of gold in all currencies: it creates "something of the same problems for us that devaluation would create."'
+        n: '[FRUS 1961–63, IX: Foreign Economic Policy, doc. 56](https://history.state.gov/historicaldocuments/frus1961-63v09/d56). [[w.gavin-gold-dollars-and-power]], 81 & n.76 (the essay of Keynes''s). Made public: FRUS 1961–63, IX (1995). See [[cal.1962-05-29.economy]]. Names: Kaysen, Kennedy, Tobin, Roosa, Dillon.'
+        src:
+          c: 24359e90
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1961-63v09/d56: all'
+            - 'w.gavin-gold-dollars-and-power 81: G'
+            - 'via w.gavin-gold-dollars-and-power 81 n.76: all'
+        tags: [name:kaysen-carl, name:kennedy-john-f, name:tobin-james, name:roosa-robert-v, name:dillon-c-douglas]
+  - add:
+      entry:
+        id: cal.1962-07-06.economy-gold-2
+        when: July 6
+        date: '1962-07-06'
+        thread: economy-gold
+        c: 'Kennedy to David Rockefeller, answering his letter on the balance of payments: "this country will not—I repeat not—increase the price of gold, thereby devaluating the dollar," nor impose exchange controls or import barriers. The deficit smaller this year; speculation virtually ended.'
+        n: 'Letter to David Rockefeller on the Balance of Payments Question, [1962 Pub. Papers 547](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=607) (July 6, 1962). See [[cal.1962-07-06.economy-gold]]. Names: Kennedy, David Rockefeller.'
+        src:
+          c: 1d4e731e
+          rows:
+            - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=607: all'
+        tags: [name:kennedy-john-f, name:rockefeller-david]
+  - add:
+      entry:
+        id: cal.1962-07-18.economy-gold
+        when: July 18
+        date: '1962-07-18'
+        thread: economy-gold
+        c: 'Kaysen and Gordon, "Gold Guarantees": a devaluation of the dollar might stay a profitable action for the United States even after a gold guarantee of official balances was paid off.'
+        n: '[[w.gavin-gold-dollars-and-power]], 84 & n.86. To check: Kaysen and Gordon, "Gold Guarantees," July 18, 1962, POF, Treasury (cited by [[w.gavin-gold-dollars-and-power]], 84 n.86). See [[cal.1962-07-06.economy-gold]]. Names: Kaysen, Gordon.'
+        src:
+          c: 44a2df79
+          rows:
+            - 'w.gavin-gold-dollars-and-power 84: all'
+            - 'via w.gavin-gold-dollars-and-power 84 n.86: all'
+        tags: [name:kaysen-carl, name:gordon-kermit]
+  - add:
+      entry:
+        id: cal.1963-02-11.economy
+        when: Feb. 11
+        date: '1963-02-11'
+        thread: economy
+        c: 'Dillon to Kennedy, on Walt Rostow''s memorandum of Feb. 4: repeal of the 25 percent gold cover favored by all, but not pressed, the conservative opposition "intense and emotional"; ten-year loans from Europe would put the United States in the place of Brazil or Argentina stretching out their debts. "We must maintain the value of our currency and cannot allow it to be devalued as if we were Brazil, Canada or Argentina."'
+        n: '[FRUS 1961–63, IX: Foreign Economic Policy, doc. 68](https://history.state.gov/historicaldocuments/frus1961-63v09/d68). Made public: FRUS 1961–63, IX (1995). See [[cal.1963-02-26.economy]]. Names: Dillon, Kennedy, Walt Rostow.'
+        src:
+          c: 7a2bba32
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1961-63v09/d68: all'
+        tags: [name:dillon-c-douglas, name:kennedy-john-f, name:rostow-walt-w]
+  - add:
+      entry:
+        id: cal.1963-05-25.economy
+        when: May 25
+        date: '1963-05-25'
+        thread: economy
+        also: [europe-and-the-alliance-france]
+        c: 'Couve de Murville with Kennedy at the White House, 11 a.m. Kennedy: the United States $2.5 billion short again this year; the danger a run on gold. Couve asks whether Washington has considered changing the international price of gold; agreed beforehand, he says, it would bring no run. The United States, he says, has no real deficit, only too much export of capital.'
+        n: '[FRUS 1961–63, IX: Foreign Economic Policy, doc. 71](https://history.state.gov/historicaldocuments/frus1961-63v09/d71) (editorial note, quoting the memorandum of conversation; printed in full, FRUS 1961–63, XIII, 769–75). [[w.gavin-gold-dollars-and-power]], 75–76 (Couve for raising the dollar price of gold). Made public: FRUS 1961–63, IX (1995). To check: Ball with Couve, May 25, 1963, Department of State, Central Files, POL FR-US (cited by FRUS 1961–63, IX, doc. 71). See [[cal.1962-07-20.economy]]. Names: Couve de Murville, Kennedy.'
+        src:
+          c: 4281d088
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1961-63v09/d71: all'
+            - 'w.gavin-gold-dollars-and-power 75–76: D'
+        tags: [name:couve-de-murville-maurice, name:kennedy-john-f]
+  - add:
+      entry:
+        id: cal.1963-09-30.economy-gold
+        when: Sept. 30
+        date: '1963-09-30'
+        thread: economy-gold
+        c: 'Kennedy to the annual meeting of the Fund and the Bank: the American gold reserves "a healthy but not excessive 40 percent" of the world''s; "to maintain the firm relationship of gold and the dollar at the present price of $35 an ounce, and I can assure you we will do just that."'
+        n: 'Address at the Meeting of the International Monetary Fund, [1963 Pub. Papers 749](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=807) (Sept. 30, 1963). See [[cal.1962-09-20.economy]]. Names: Kennedy.'
+        src:
+          c: b0933379
+          rows:
+            - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=807: all'
+        tags: [name:kennedy-john-f]
+  - add:
+      entry:
+        id: cal.1964-12.economy
+        when: Dec., early
+        date: 1964-12
+        thread: economy
+        c: 'Martin with Johnson, Wilson and Dillon at the White House, by Bremner''s account: the overseas commitments will force a devaluation of the dollar in the end; Johnson to "declare yourself" against it. Dillon: the United States has not done enough.'
+        n: '[[w.meltzer-history-of-the-federal]], 440. Check: the day (Wilson in Washington Dec. 7–9). To check: Bremner (2004), 159 (cited by [[w.meltzer-history-of-the-federal]], 440). See [[cal.1964-11-23.economy]]. Names: Martin, Johnson, Wilson, Dillon.'
+        src:
+          c: 67aec7fe
+          rows:
+            - 'w.meltzer-history-of-the-federal 440: all'
+        tags: [name:martin-william-mcchesney-jr, name:johnson-lyndon-b, name:wilson-harold, name:dillon-c-douglas]
+  - add:
+      entry:
+        id: cal.1965-01-05.economy
+        when: Jan. 5
+        date: '1965-01-05'
+        thread: economy
+        c: 'Dillon to Johnson on the balance of payments: the 1964 deficit about $2.8 billion, the fourth quarter at over $4 billion a year; $172 million in gold lost in the quarter; gold in London at its highest since the Cuban crisis. For a special message reaffirming "that a change in the price of gold is out of the question": the Gore amendment imposed on bank loans, the interest equalization tax extended two years, a $100 tax on travel abroad.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 26](https://history.state.gov/historicaldocuments/frus1964-68v08/d26). Made public: FRUS 1964–68, VIII (1998). See [[cal.1964-11-25.economy]]. Names: Dillon, Johnson.'
+        src:
+          c: ef40cc96
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d26: all'
+        tags: [name:dillon-c-douglas, name:johnson-lyndon-b]
+  - add:
+      entry:
+        id: cal.1965-03-27.economy
+        when: Mar. 27
+        date: '1965-03-27'
+        thread: economy
+        c: 'Sterling. Dillon to Johnson: a French attack on the pound, Mar. 26, the rate below $2.79; the Europeans may force London by June to choose between further restraint and devaluation. The dollar could now ride out a devaluation that was not too extreme; the Continent thinks $2.50 right, and Washington agrees the pound should go no lower, Johnson to intercede with Wilson if need be.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 56](https://history.state.gov/historicaldocuments/frus1964-68v08/d56). [[w.meltzer-history-of-the-federal]], 440 (the speculators; Dillon could accept $2.50). Made public: FRUS 1964–68, VIII (1998). See [[cal.1965-03-30.economy]]. Names: Dillon, Johnson, Wilson.'
+        src:
+          c: 984f78f0
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d56: all'
+            - 'w.meltzer-history-of-the-federal 440: C-E'
+        tags: [name:dillon-c-douglas, name:johnson-lyndon-b, name:wilson-harold]
+  - add:
+      entry:
+        id: cal.1965-07-28.economy-2
+        when: July 28
+        date: '1965-07-28'
+        thread: economy
+        c: 'Sterling. Ball to Fowler, "Some Thoughts on the British Crisis": if a run comes, $3 to $4 billion of multilateral support for the pound, half or three-quarters American, on hard conditions, raised by telephone among the Ten. "Appalled" at the suggestion in the Treasury''s talks that London be told a devaluation would be tolerated: "any change in the sterling rate is out of the question."'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 65](https://history.state.gov/historicaldocuments/frus1964-68v08/d65). Made public: FRUS 1964–68, VIII (1998). See [[cal.1965-07-27.economy]]. Names: Ball, Fowler.'
+        src:
+          c: db4de67f
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d65: all'
+        tags: [name:ball-george-w, name:fowler-henry-h]
+  - add:
+      entry:
+        id: cal.1966-07-06.economy
+        when: July 6
+        date: '1966-07-06'
+        thread: economy
+        c: 'Bator to Johnson on the balance of payments: about $1.5 billion of debt prepayment and long-term investment arranged, "useful cosmetics"; no drastic action needed, a run on gold unlikely before November. The danger a run on sterling; if Wilson''s prices run further out of line, devaluation "increasingly hard to avoid." Some advisers think a British devaluation a near disaster; Bator, after November, a chance "to force a change in the rules of the game on gold."'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 100](https://history.state.gov/historicaldocuments/frus1964-68v08/d100). Made public: FRUS 1964–68, VIII (1998). See [[cal.1965-09-10.economy]]. Names: Bator, Johnson, Wilson.'
+        src:
+          c: bcc8d6c7
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d100: all'
+        tags: [name:bator-francis-m, name:johnson-lyndon-b, name:wilson-harold]
+  - add:
+      entry:
+        id: cal.1966-09-20.economy
+        when: Sept. 20
+        date: '1966-09-20'
+        thread: economy
+        c: 'The Federal Reserve Board''s Division of International Finance, "Contingency Planning—Sterling," top secret, after the summer''s run: a devaluation of 10 to 20 percent, 15 the likeliest, would bring a bear attack on the dollar, a run on American gold, the gold pool overwhelmed. The responses: hold the new rates, with capital controls and the surplus countries revaluing; change gold''s role, ending sales to central banks, separating the private and official markets or raising the price; or a new par value for the dollar, or a float.'
+        n: '[[w.gavin-gold-dollars-and-power]], 168–69 & nn.3–5 (Solomon and Young of the Board''s staff quoted). To check: "Contingency Planning—Sterling," Sept. 20, 1966, Bator Papers, box 8, LBJ Library (cited by [[w.gavin-gold-dollars-and-power]], 168 nn.3–5). See [[cal.1966-07-29.europe-and-the-alliance]].'
+        src:
+          c: 8d3ea18e
+          rows:
+            - 'w.gavin-gold-dollars-and-power 168–69: all'
+            - 'via w.gavin-gold-dollars-and-power 168 n.3: all'
+  - add:
+      entry:
+        id: cal.1966-09-21.economy-2
+        when: Sept. 21
+        date: '1966-09-21'
+        thread: economy
+        c: 'The Division of International Finance, "Contingency Plan X": a sterling devaluation "a ready-made, welcome opportunity to get the gold and the balance of payments monkey off our back"; all gold sales and purchases suspended, the dollar left to float, "to make the Europeans fish or cut bait." Bator''s marginalia, by Gavin''s reading, favorable.'
+        n: '[[w.gavin-gold-dollars-and-power]], 169–70 & nn.6–7. To check: "Contingency Plan X: A Proposal to Force Major Surplus Countries to Support the Dollar at Present Parities or to Allow a Relative Appreciation of Their Currencies," Sept. 21, 1966, Bator Papers, box 8, LBJ Library (cited by [[w.gavin-gold-dollars-and-power]], 169 nn.6–7). See [[cal.1966-09-20.economy]]. Names: Bator.'
+        src:
+          c: 35480fb4
+          rows:
+            - 'w.gavin-gold-dollars-and-power 169–70: all'
+            - 'via w.gavin-gold-dollars-and-power 169 n.6: A-B'
+        tags: [name:bator-francis-m]
+  - add:
+      entry:
+        id: cal.1967-04-27.economy
+        when: Apr. 27
+        date: '1967-04-27'
+        thread: economy
+        also: [europe-and-the-alliance]
+        c: 'Bonn, after Adenauer''s funeral. Schiller to Walt Rostow on the Six''s Munich agreement on reserve creation: a political achievement, the French brought along; negotiate a drawing-rights scheme by stages. Rostow: a technical problem, or "a traumatic event." Schiller, on the lawn: "We know you are not going to change the price of gold. We are supporting the dollar with our commitment on gold."'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 121](https://history.state.gov/historicaldocuments/frus1964-68v08/d121) (Rostow''s memorandum, supplementing Bonn''s telegram 12850). Made public: FRUS 1964–68, VIII (1998). See [[cal.1967-08-26.economy]]. Names: Adenauer, Schiller, Walt Rostow.'
+        src:
+          c: 9c1f11bf
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d121: all'
+        tags: [name:adenauer-konrad, name:schiller-karl, name:rostow-walt-w]
+  - add:
+      entry:
+        id: cal.1967-05-26.economy-gold
+        when: May 26
+        date: '1967-05-26'
+        thread: economy-gold
+        c: 'Fowler and Deming with Schweitzer of the Fund, 4:15 p.m., on the gold market and the Middle East: go on supporting the market, dangerous to let the price above $35.20; no startling announcement. Deming: at Bellagio a professor proposed a $10 billion pool; the pool has acquired $1 billion over time. Schweitzer: the Bank of France would be very unhappy to see the price rise in London.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 125](https://history.state.gov/historicaldocuments/frus1964-68v08/d125). Made public: FRUS 1964–68, VIII (1998). See [[cal.1967-06-19.economy]]. Names: Fowler, Deming, Schweitzer.'
+        src:
+          c: 5150f4b7
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d125: all'
+        tags: [name:fowler-henry-h, name:deming-frederick-l, name:schweitzer-pierre-paul]
+  - add:
+      entry:
+        id: cal.1967-06.economy-gold
+        when: June
+        date: 1967-06
+        thread: economy-gold
+        c: France out of the gold pool, without announcement; the United States takes up its share.
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 155](https://history.state.gov/historicaldocuments/frus1964-68v08/d155) (Rostow, Nov. 22: the withdrawal "actually took place in June"). [[w.gavin-gold-dollars-and-power]], 171–72 (June; never announced, the Americans picking up the share); [[w.meltzer-history-of-the-federal]], 536 n.76 (the summer). Made public: FRUS 1964–68, VIII (1998). Check: the day. See [[cal.1961-12.economy-gold]].'
+        src:
+          c: 75ec42ae
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d155: all'
+            - 'w.gavin-gold-dollars-and-power 171–72: all'
+            - 'w.meltzer-history-of-the-federal 536 n.76: A'
+  - add:
+      entry:
+        id: cal.1967-10-19.economy-2
+        when: Oct. 19
+        date: '1967-10-19'
+        thread: economy
+        c: 'Sterling. Walt Rostow to Johnson, 7:05 p.m., "Contingency Support for Sterling": the day''s rise in Bank rate "part of the last ditch British effort to hold the sterling rate"; Fowler asks $100 million more from the Exchange Stabilization Fund for market operations, $160 million on hand, the funds guaranteed against loss from devaluation. Deming, Okun, Daane and Fried concur.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 147](https://history.state.gov/historicaldocuments/frus1964-68v08/d147). Made public: FRUS 1964–68, VIII (1998). See [[cal.1966-07-29.europe-and-the-alliance]]. Names: Walt Rostow, Johnson, Fowler, Deming, Okun, Daane, Fried.'
+        src:
+          c: 768db3eb
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d147: all'
+        tags: [name:rostow-walt-w, name:johnson-lyndon-b, name:fowler-henry-h, name:deming-frederick-l, name:okun-arthur-m, name:daane-j-dewey, name:fried-edward-r]
+  - add:
+      entry:
+        id: cal.1967-11-12.economy
+        when: Nov. 12
+        date: '1967-11-12'
+        thread: economy
+        c: 'Sterling. Fowler to Johnson, "Sterling Crisis": Callaghan''s aide Rickett and an official of the Bank of England with Fowler, Nov. 11: without long-term credit they may devalue "perhaps within a week"; $2 billion of short-term credit used, $600 to $800 million left. Letting the pound go "tempting," but "the risks for us are just too great": France might follow to force a rise in the price of gold; the dollar attacked, the gold market might explode. A package: $1.4 billion from the Fund, $1 billion in guaranteed sterling. The central bankers at Basel prefer a $3 billion standby.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 150](https://history.state.gov/historicaldocuments/frus1964-68v08/d150). [[w.gavin-gold-dollars-and-power]], 171 & n.10 (the package). Made public: FRUS 1964–68, VIII (1998). See [[cal.1967-10-19.economy-2]]. Names: Fowler, Johnson, Callaghan.'
+        src:
+          c: cec54287
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d150: all'
+            - 'w.gavin-gold-dollars-and-power 171: F'
+            - 'via w.gavin-gold-dollars-and-power 171 n.10: F'
+        tags: [name:fowler-henry-h, name:johnson-lyndon-b, name:callaghan-james]
+  - add:
+      entry:
+        id: cal.1967-11-13.economy
+        when: Nov. 13
+        date: '1967-11-13'
+        thread: economy
+        c: 'Sterling. Walt Rostow to Johnson, before Fowler at noon: without long-term credit the British may devalue within a week. "The main point is the risks for us are just too great to be worth the gamble"; a multilateral package, the IMF standby or bilateral credits and swaps, the last try. Johnson with Fowler, 1:05 to 2:10 p.m.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 151](https://history.state.gov/historicaldocuments/frus1964-68v08/d151) (drafted by Fried; its note: the Daily Diary for the meeting). [[w.gavin-gold-dollars-and-power]], 171 & nn.8–9 (Rostow''s words; Fowler, "The Gold Situation," Nov. 13: "The dollar will be affected strongly"). Made public: FRUS 1964–68, VIII (1998). To check: Fowler to Johnson, "The Gold Situation," Nov. 13, 1967, NSF, Gold Crisis, box 53, LBJ Library (cited by [[w.gavin-gold-dollars-and-power]], 171 n.9). See [[cal.1967-11-12.economy]]. Names: Walt Rostow, Johnson, Fowler.'
+        src:
+          c: 5270d69b
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d151: all'
+            - 'w.gavin-gold-dollars-and-power 171: C'
+            - 'via w.gavin-gold-dollars-and-power 171 n.8: C'
+        tags: [name:rostow-walt-w, name:johnson-lyndon-b, name:fowler-henry-h]
+  - add:
+      entry:
+        id: cal.1967-11-16.economy
+        when: Nov. 16
+        date: '1967-11-16'
+        thread: economy
+        c: 'Sterling. Walt Rostow to Johnson: Deming in Paris on the support operation; the Ten for a $1.4 billion drawing or standby for Britain, perhaps $2 billion, a package of $2.4 to $3 billion in all. Sounded out, the Ten would hold their rates if sterling were devalued; the French "until they were hurt."'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 152](https://history.state.gov/historicaldocuments/frus1964-68v08/d152). Made public: FRUS 1964–68, VIII (1998). See [[cal.1967-11-12.economy]]. Names: Walt Rostow, Johnson, Deming.'
+        src:
+          c: d8ff93d1
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d152: all'
+        tags: [name:rostow-walt-w, name:johnson-lyndon-b, name:deming-frederick-l]
+  - add:
+      entry:
+        id: cal.1967-11-22.economy-gold
+        when: Nov. 22
+        date: '1967-11-22'
+        thread: economy-gold
+        c: 'Walt Rostow to Johnson at the Ranch: the gold pool lost $28 million Monday, $45 million Tuesday, $104 million today, the United States supplying 60 percent; rumors that the London price will not be held, fed by leaks from Paris of France''s withdrawal from the pool. Martin to ask the other governors to affirm business as usual.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 155](https://history.state.gov/historicaldocuments/frus1964-68v08/d155). Made public: FRUS 1964–68, VIII (1998). See [[cal.1967-11-18.economy]]. Names: Walt Rostow, Johnson, Martin.'
+        src:
+          c: 2f22cb6d
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d155: all'
+        tags: [name:rostow-walt-w, name:johnson-lyndon-b, name:martin-william-mcchesney-jr]
+  - add:
+      entry:
+        id: cal.1967-11.economy-gold
+        when: Nov., the week after the devaluation
+        date: 1967-11
+        thread: economy-gold
+        also: [press-and-broadcasting]
+        c: 'Paris. Fabra in *Le Monde*: France has left the gold pool. Other matters of the Ten''s secret meetings in the French papers.'
+        n: '[[w.gavin-gold-dollars-and-power]], 171 & n.11. Check: the day. To check: "Paris Press on Gold Situation," Dec. 8, 1967, NSF, Gold Crisis, box 53, LBJ Library; Central Intelligence Agency, Directorate of Intelligence, "French Actions in the Recent Gold Crisis," Mar. 20, 1968 (both cited by [[w.gavin-gold-dollars-and-power]], 171 n.11). See [[cal.1967-06.economy-gold]].'
+        src:
+          c: 65df831e
+          rows:
+            - 'w.gavin-gold-dollars-and-power 171: all'
+            - 'via w.gavin-gold-dollars-and-power 171 n.11: all'
+  - add:
+      entry:
+        id: cal.1967-11-30.economy
+        when: Nov. 30
+        date: '1967-11-30'
+        thread: economy
+        c: The Federal Reserve raises its swap lines with foreign central banks by $1.75 billion, to $6.8 billion.
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 155](https://history.state.gov/historicaldocuments/frus1964-68v08/d155) (n.3). Check: the Federal Reserve''s release. See [[cal.1962-02-28.economy]].'
+        src:
+          c: 702207ff
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d155: all'
+  - add:
+      entry:
+        id: cal.1967-01-08.economy
+        when: Jan. 8–9
+        date: '1967-01-08'
+        thread: economy
+        also: [europe-and-the-alliance-france]
+        c: Paris. Debré, the Finance Minister, interviewed in *Le Monde* on gold and the reform of the monetary system.
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 116](https://history.state.gov/historicaldocuments/frus1964-68v08/d116) (n.4: the interview''s translation in the Deming Group''s papers, DG/67/58). To check: *Le Monde*, Jan. 8–9, 1967; DG/67/58, Deming Group, RG 56, OASIA (cited by FRUS 1964–68, VIII, doc. 116, n.4). Check: the day. See [[cal.1965-02-04.europe-and-the-alliance-france]]. Names: Debré.'
+        src:
+          c: fdcc0a24
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d116: all'
+        tags: [name:debre-michel]
+  - add:
+      entry:
+        id: cal.1967-01-10.economy-2
+        when: Jan. 10
+        date: '1967-01-10'
+        thread: economy
+        c: Fowler, by circular telegram 115957, makes it explicit that raising the price of gold is unacceptable to the United States.
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 113](https://history.state.gov/historicaldocuments/frus1964-68v08/d113) (editorial note, from the Treasury''s release of Jan. 16). Made public: FRUS 1964–68, VIII (1998). To check: circular telegram 115957, Jan. 10, 1967, Department of State, Central Files, FN 19 (cited by FRUS 1964–68, VIII, doc. 113). See [[cal.1967-01-08.economy]]. Names: Fowler.'
+        src:
+          c: a7946190
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d113: all'
+        tags: [name:fowler-henry-h]
+  - add:
+      entry:
+        id: cal.1967-01-21.economy
+        when: Jan. 21–22
+        date: '1967-01-21'
+        thread: economy
+        also: [europe-and-the-alliance]
+        c: 'Chequers. Callaghan''s meeting of five finance ministers, Debré, Schiller, Colombo, Fowler and Callaghan: the communiqué, each "within the limits of their respective responsibilities" to cooperate so that interest rates may be "lower than they otherwise would be." Callaghan and Fowler, Jan. 21: France using monetary questions politically, its moves on gold; press on with the liquidity talks. The Treasury''s release of Jan. 16: the meeting on interest rates, not the price of gold.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 115](https://history.state.gov/historicaldocuments/frus1964-68v08/d115) (record of the meeting, Jan. 21); [FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 116](https://history.state.gov/historicaldocuments/frus1964-68v08/d116) (Fowler to Johnson, Jan. 23, with the communiqué); [FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 113](https://history.state.gov/historicaldocuments/frus1964-68v08/d113) (editorial note: the release). Made public: FRUS 1964–68, VIII (1998). To check: Fowler with Debré, Jan. 22, 1967, Fowler Papers, box 58, LBJ Library (cited by FRUS 1964–68, VIII, doc. 116, n.4). See [[cal.1967-01-10.economy-2]]. Names: Callaghan, Debré, Schiller, Fowler.'
+        src:
+          c: 1d4f2195
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d115: C-D'
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d116: A-B'
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d113: E'
+        tags: [name:callaghan-james, name:debre-michel, name:schiller-karl, name:fowler-henry-h]
+  - add:
+      entry:
+        id: cal.1967-12-06.economy-gold
+        when: Dec. 6
+        date: '1967-12-06'
+        thread: economy-gold
+        c: 'Johnson to the Business Council: after the pound''s devaluation a speculative attack "decisively repelled" because the United States stood behind its pledge, "which I reaffirm today—to convert the dollar to gold at $35 an ounce"; liquidity need not rest on gold, "we must look beyond gold."'
+        n: 'Remarks at a Meeting of the Business Council, [1967 Pub. Papers 1102](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=494) (Dec. 6, 1967). See [[cal.1967-11-18.economy]]. Names: Johnson.'
+        src:
+          c: cb00c3c0
+          rows:
+            - 'https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=494: all'
+        tags: [name:johnson-lyndon-b]
+  - add:
+      entry:
+        id: cal.1967-12-10.economy-gold
+        when: Dec. 10
+        date: '1967-12-10'
+        thread: economy-gold
+        c: Basel. The European central bankers meet; support for the gold pool weakening; no communiqué on it. In the week after, the pool loses $548 million.
+        n: '[[w.gavin-gold-dollars-and-power]], 172 & n.15. To check: "The Gold Crisis: Nov. 1967–March 1968," NSF, Gold Crisis, box 53, LBJ Library (cited by [[w.gavin-gold-dollars-and-power]], 172 n.15). See [[cal.1967-11-26.economy]].'
+        src:
+          c: 99cb4861
+          rows:
+            - 'w.gavin-gold-dollars-and-power 172: all'
+            - 'via w.gavin-gold-dollars-and-power 172 n.15: all'
+  - add:
+      entry:
+        id: cal.1967-12-16.economy-gold
+        when: Dec. 16
+        date: '1967-12-16'
+        thread: economy-gold
+        c: 'Fowler and Martin: "The United States stands firm in its determination to maintain the gold value of the dollar"; the central banks of Belgium, Germany, Italy, the Netherlands, Switzerland and the United Kingdom support it, "the price of gold at $35 an ounce"; the London market to go on unchanged. Sent to all posts.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 159](https://history.state.gov/historicaldocuments/frus1964-68v08/d159) (circular telegram 85849, drafted by Widman; the text agreed with the Europeans). See [[cal.1967-12-15.economy-gold]]. Names: Fowler, Martin.'
+        src:
+          c: dd0e3246
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d159: all'
+        tags: [name:fowler-henry-h, name:martin-william-mcchesney-jr]
+  - add:
+      entry:
+        id: cal.1968-02-14.economy-gold
+        when: Feb. 14
+        date: '1968-02-14'
+        thread: economy-gold
+        c: 'Walt Rostow to Johnson: the gold losses could become "a crisis of confidence" feeding on itself, "much like a run on a bank." Three courses: a paper reserve in place of gold, the pool kept and losses made good in certificates; a higher price of gold; or an end to fixed rates. A two-price market unlikely to last; suspending convertibility the most risky.'
+        n: '[[w.gavin-gold-dollars-and-power]], 178–80 & nn.29–32. To check: Rostow to Johnson, Feb. 14, 1968, NSF, Gold Crisis, box 53, LBJ Library (cited by [[w.gavin-gold-dollars-and-power]], 179 n.29). See [[cal.1968-01-01.economy]]. Names: Walt Rostow, Johnson.'
+        src:
+          c: 2252d00a
+          rows:
+            - 'w.gavin-gold-dollars-and-power 178–80: all'
+            - 'via w.gavin-gold-dollars-and-power 179 n.29: all'
+        tags: [name:rostow-walt-w, name:johnson-lyndon-b]
+  - add:
+      entry:
+        id: cal.1968-03-04.economy-gold
+        when: Mar. 4
+        date: '1968-03-04'
+        thread: economy-gold
+        c: 'Fowler to Johnson, "Gold Problem": "our clear preference is to beat back the current speculative attack," the pool''s members to "firmly oppose any increase in the price of gold." If they drop out: the London market alone, a two-price market, or licensing. A gold embargo "would lead to exchange rate wars and trading blocs."'
+        n: '[[w.gavin-gold-dollars-and-power]], 180 & nn.33–34. To check: Memo for the President, "Gold Problem," Mar. 4, 1968, NSF, Gold Crisis, box 53, LBJ Library (cited by [[w.gavin-gold-dollars-and-power]], 180 nn.33–34). See [[cal.1968-02-14.economy-gold]]. Names: Fowler, Johnson.'
+        src:
+          c: 32d27474
+          rows:
+            - 'w.gavin-gold-dollars-and-power 180: all'
+            - 'via w.gavin-gold-dollars-and-power 180 n.33: all'
+        tags: [name:fowler-henry-h, name:johnson-lyndon-b]
+  - add:
+      entry:
+        id: cal.1968-03-08.economy-gold
+        when: Mar. 8
+        date: '1968-03-08'
+        thread: economy-gold
+        c: 'New York. Fowler''s advisory committee, informally, on gold and the balance of payments: Dillon, Roosa, Heller, Gordon, David Rockefeller, Bernstein, Wilde, Mayer, Bator. The tax bill a must; "unanimously opposed to an increase in the price of gold"; the pool cannot be held without arrangements the Europeans will not accept, so close it and let the market price go, with the partners, within thirty days. Heller to Walt Rostow, who reports to Johnson Mar. 9.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 187](https://history.state.gov/historicaldocuments/frus1964-68v08/d187) (Rostow to Johnson, Mar. 9, 4:45 p.m.). Made public: FRUS 1964–68, VIII (1998). See [[cal.1968-02-14.economy-gold]]. Names: Fowler, Dillon, Roosa, Heller, Gordon, David Rockefeller, Bator, Walt Rostow, Johnson.'
+        src:
+          c: b3b25b73
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d187: all'
+        tags: [name:fowler-henry-h, name:dillon-c-douglas, name:roosa-robert-v, name:heller-walter-w, name:gordon-kermit, name:rockefeller-david, name:bator-francis-m, name:rostow-walt-w, name:johnson-lyndon-b]
+  - add:
+      entry:
+        id: cal.1968-03-10.economy-gold
+        when: Mar. 10
+        date: '1968-03-10'
+        thread: economy-gold
+        c: 'Basel. The central banks of the London gold pool reaffirm "their determination to continue their support to the pool, based on the fixed price of $35 per ounce of gold." Martin there: $500 million more for the pool, another $500 million contingent.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 188](https://history.state.gov/historicaldocuments/frus1964-68v08/d188) (Rostow to Johnson, Mar. 12, and its n.2, the communiqué). Made public: FRUS 1964–68, VIII (1998). To check: *New York Times*, Mar. 11, 1968, 60 (cited by FRUS 1964–68, VIII, doc. 188, n.2). See [[cal.1968-03-08.economy-gold]]. Names: Martin.'
+        src:
+          c: b6a6ba16
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d188: all'
+        tags: [name:martin-william-mcchesney-jr]
+  - add:
+      entry:
+        id: cal.1968-03-12.economy-gold
+        when: Mar. 12
+        date: '1968-03-12'
+        thread: economy-gold
+        c: 'Walt Rostow to Johnson, 6:25 p.m., on Martin''s report from Basel: on a change in the price of gold the British and Dutch inclined to "flirt with this option," the Germans "wobbly," the Italians, Belgians and Swiss strongly against. The Europeans ready to close the London market and let the free price float, the two-price system not thought through. An operational scenario drafted at Fried''s insistence: commitments from the members before the pool is closed, then a monetary conference. "The moment of truth is close upon us."'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 188](https://history.state.gov/historicaldocuments/frus1964-68v08/d188). Made public: FRUS 1964–68, VIII (1998). See [[cal.1968-03-10.economy-gold]]. Names: Walt Rostow, Johnson, Martin, Fried.'
+        src:
+          c: 0c87a7fa
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d188: all'
+        tags: [name:rostow-walt-w, name:johnson-lyndon-b, name:martin-william-mcchesney-jr, name:fried-edward-r]
+  - add:
+      entry:
+        id: cal.1968-03-13.economy-gold
+        when: Mar. 13
+        date: '1968-03-13'
+        thread: economy-gold
+        c: '"Next Steps in International Monetary Policy," for Johnson: "we cannot go on selling gold indefinitely to speculators and hoarders"; "a visible mobilization of overwhelming force," or "a choice among even more difficult and disagreeable alternatives."'
+        n: '[[w.gavin-gold-dollars-and-power]], 180 & n.35 (Rostow''s, by Gavin). Check: the author. To check: "Next Steps in International Monetary Policy," Mar. 13, 1968, NSF, Gold Crisis, box 53, LBJ Library (cited by [[w.gavin-gold-dollars-and-power]], 180 n.35). See [[cal.1968-03-12.economy-gold]]. Names: Johnson.'
+        src:
+          c: 0a877ccb
+          rows:
+            - 'w.gavin-gold-dollars-and-power 180: all'
+            - 'via w.gavin-gold-dollars-and-power 180 n.35: all'
+        tags: [name:johnson-lyndon-b]
+  - add:
+      entry:
+        id: cal.1968-03-29.economy
+        when: Mar. 29–30
+        date: '1968-03-29'
+        thread: economy
+        c: 'Stockholm. The finance ministers and central bank governors of the Ten agree the amendments to the Fund''s Articles creating special drawing rights, for the Governors'' vote; Debré against the drafts, France reserving its position. The communiqué: exchange stability "based on the present official price of gold." Fowler leads for the United States.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 193](https://history.state.gov/historicaldocuments/frus1964-68v08/d193) (editorial note). Made public: FRUS 1964–68, VIII (1998). To check: the communiqué, *Annual Report of the Secretary of the Treasury* (1968), 372; De Vries, *The International Monetary Fund, 1966–1971*, I, 170–72 (both cited by FRUS 1964–68, VIII, doc. 193). See [[cal.1967-08-26.economy]]. Names: Debré, Fowler.'
+        src:
+          c: 55e5433e
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d193: all'
+        tags: [name:debre-michel, name:fowler-henry-h]
+  - add:
+      entry:
+        id: cal.1968-04-02.economy-2
+        when: Apr. 2
+        date: '1968-04-02'
+        thread: economy
+        c: 'Walt Rostow to Johnson on Stockholm: France kept from stalling the plan, which would have meant "a major drive to raise the official price of gold"; concessions to help the Four take the heat at home, the Community a veto on later quota increases. France abstained; it has "come out publicly for an increase in the price of gold." The tax bill "as much of a world issue as the controversy over the price of gold."'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 194](https://history.state.gov/historicaldocuments/frus1964-68v08/d194) (drafted by Fried). Made public: FRUS 1964–68, VIII (1998). See [[cal.1968-03-29.economy]]. Names: Walt Rostow, Johnson.'
+        src:
+          c: 302415fe
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d194: all'
+        tags: [name:rostow-walt-w, name:johnson-lyndon-b]
+  - add:
+      entry:
+        id: cal.1968-11-15.economy-franc
+        when: Nov. 15
+        date: '1968-11-15'
+        thread: economy-franc
+        c: 'Walt Rostow to Johnson, 4:55 p.m.: the franc under heavy pressure, the pound less, money flowing to Germany. Ideally the pound and the franc stay, the mark is revalued, the lira and the guilder less; Strauss may resist on political grounds. Fowler, Deming and Fried in Europe; the central bankers at Basel tomorrow. The aim: no further devaluation of the pound, and if possible none of the franc.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 205](https://history.state.gov/historicaldocuments/frus1964-68v08/d205). Made public: FRUS 1964–68, VIII (1998). See [[cal.1968-06-06.europe-and-the-alliance-france]]. Names: Walt Rostow, Johnson, Strauss, Fowler, Deming, Fried.'
+        src:
+          c: 0a85936c
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d205: all'
+        tags: [name:rostow-walt-w, name:johnson-lyndon-b, name:strauss-franz-josef, name:fowler-henry-h, name:deming-frederick-l, name:fried-edward-r]
+  - add:
+      entry:
+        id: cal.1968-11-15.economy-franc-2
+        when: Nov. 15
+        date: '1968-11-15'
+        thread: economy-franc
+        c: 'Fried to Walt Rostow from Brussels, the Fowler mission''s quiet talks on parities. The British: no moves now; they would stand still for a French devaluation of up to 10 percent with German and Italian moves up; any change multilateral, the Ten in Washington. Larre to Deming: France does not want to devalue, Couve and de Gaulle firm; but no stability without action on the mark; with a meeting, a credit package and no other upward moves, the franc could hold. Van Lennep and Zijlstra: a large enough German move would help the French hold. Ansiaux: worried for the pound.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 206](https://history.state.gov/historicaldocuments/frus1964-68v08/d206) (Brussels 3310, 2144Z). Made public: FRUS 1964–68, VIII (1998). See [[cal.1968-11-15.economy-franc]]. Names: Fried, Walt Rostow, Deming, Couve de Murville, de Gaulle, Fowler.'
+        src:
+          c: cc745b09
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d206: all'
+        tags: [name:fried-edward-r, name:rostow-walt-w, name:deming-frederick-l, name:couve-de-murville-maurice, name:de-gaulle-charles, name:fowler-henry-h]
+  - add:
+      entry:
+        id: cal.1968-11-17.economy-franc
+        when: Nov. 17
+        date: '1968-11-17'
+        thread: economy-franc
+        c: 'Walt Rostow to Fowler in Rome, 2258Z, from Basel''s weekend: Brunet of the Bank of France thinks France cannot hold its rate; Blessing still against a change in the mark; the Fund''s management sees a strong case for revaluing the mark and fears a French devaluation without it. Larre, from Paris: in a general change of European rates the United States "needs to decide" whether to raise the price of gold or demonetize it. Washington hopes for a German revaluation of not less than 10 percent.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 207](https://history.state.gov/historicaldocuments/frus1964-68v08/d207) (CAP 82761). Made public: FRUS 1964–68, VIII (1998). See [[cal.1968-11-15.economy-franc-2]]. Names: Walt Rostow, Fowler, Blessing.'
+        src:
+          c: c521ac97
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d207: all'
+        tags: [name:rostow-walt-w, name:fowler-henry-h, name:blessing-karl]
+  - add:
+      entry:
+        id: cal.1968-11-18.economy-franc
+        when: Nov. 18
+        date: '1968-11-18'
+        thread: economy-franc
+        c: 'Johnson to Wilson, approved 9:25 p.m.: Fowler to stay in Europe to persuade the Germans to revalue and prevent a large unilateral French devaluation; Bonn proposes border-tax changes instead, which would not do. The aim: about 10 percent up for the mark, 5 percent down for the franc, small moves by Italy and the Netherlands; a meeting of the Ten in Europe, Schweitzer present; London not to move meanwhile.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 210](https://history.state.gov/historicaldocuments/frus1964-68v08/d210) (CAP 82769, sent 0230Z, Nov. 19; its note: Rostow to Johnson, Nov. 18, 7:10 p.m., "Approved, 9:25 p.m."). Made public: FRUS 1964–68, VIII (1998). See [[cal.1968-11-18.economy]]. Names: Johnson, Wilson, Fowler, Schweitzer.'
+        src:
+          c: 8ab61c51
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d210: all'
+        tags: [name:johnson-lyndon-b, name:wilson-harold, name:fowler-henry-h, name:schweitzer-pierre-paul]
+  - add:
+      entry:
+        id: cal.1968-11-25.economy-franc
+        when: Nov. 25
+        date: '1968-11-25'
+        thread: economy-franc
+        c: 'The National Security Council, 12:06 p.m., after de Gaulle''s measures. Fowler: money out of Germany into France, the franc and the pound up, the dollar strong, the gold market calm; the French exchange controls tough. Martin with Blessing; the British Treasury "very glad there was no franc devaluation"; Schweitzer saw "some case for devaluation" but called the move "a gracious move."'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 222](https://history.state.gov/historicaldocuments/frus1964-68v08/d222) (record of the meeting). Made public: FRUS 1964–68, VIII (1998). See [[cal.1968-11-24.economy-franc]]. Names: Fowler, de Gaulle, Martin, Blessing, Schweitzer.'
+        src:
+          c: 5b09f05a
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d222: all'
+        tags: [name:fowler-henry-h, name:de-gaulle-charles, name:martin-william-mcchesney-jr, name:blessing-karl, name:schweitzer-pierre-paul]
+  - add:
+      entry:
+        id: cal.1968-11-19.economy-franc
+        when: Nov. 19
+        date: '1968-11-19'
+        thread: economy-franc
+        c: 'Walt Rostow to Johnson in New York, late evening: a second message from Wilson, handled with Barr; Wilson "pulling out all stops" to get the Germans above 4 percent, wrong to treat the French problem as secondary. Hold the French, or hold them to a modest devaluation with big short-term loans, and the pound can be protected; de Gaulle has "staked so much on a policy of "no devaluation.""'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 213](https://history.state.gov/historicaldocuments/frus1964-68v08/d213) (CAP 82725, sent 0357Z, Nov. 20; Wilson''s messages not printed). Made public: FRUS 1964–68, VIII (1998). See [[cal.1968-11-18.economy-franc]]. Names: Walt Rostow, Johnson, Wilson, Barr, de Gaulle.'
+        src:
+          c: 669e3406
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d213: all'
+        tags: [name:rostow-walt-w, name:johnson-lyndon-b, name:wilson-harold, name:barr-joseph-w, name:de-gaulle-charles]
+  - add:
+      entry:
+        id: cal.1968-09-30.economy-gold
+        when: Sept. 30
+        date: '1968-09-30'
+        thread: economy-gold
+        c: 'Johnson to the annual meeting of the World Bank and the Fund: when Britain devalued, "we closed ranks to prevent a senseless round of competitive actions"; when speculators bet they could force a rise in the official price of gold, "we set up the two-tier system."'
+        n: 'Remarks at a Meeting of the World Bank and the International Monetary Fund, [1968–69 Pub. Papers 987](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=297) (Sept. 30, 1968). See [[cal.1968-03-16.economy-gold]]. Names: Johnson.'
+        src:
+          c: d1d7248b
+          rows:
+            - 'https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=297: all'
+        tags: [name:johnson-lyndon-b]
+  - add:
+      entry:
+        id: cal.1968-02-29.economy
+        when: Feb. 29
+        date: '1968-02-29'
+        thread: economy
+        c: Ottawa, the Canadian dollar under pressure, draws $425 million from the Fund for the Bank of Canada's reserves.
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 185](https://history.state.gov/historicaldocuments/frus1964-68v08/d185) (editorial note). To check: *Current Economic Developments*, No. 801, Mar. 12, 1968, 4–6 (cited by FRUS 1964–68, VIII, doc. 185). See [[cal.1968-01-01.economy]].'
+        src:
+          c: f88717da
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d185: all'
+  - add:
+      entry:
+        id: cal.1968-03-01.economy
+        when: Mar. 1
+        date: '1968-03-01'
+        thread: economy
+        c: 'Sharp, the Canadian Finance Minister, with Fowler, Friday evening, the visit kept from the press. The Canadian dollar pressed by the British devaluation and the American program; $900 million, a third of the reserves, spent since Jan. 1. An American import surcharge would force Canada to devalue; a border tax Canada would match. Ottawa wants to avoid devaluation: it asks an exemption from the investment program and a $1 billion Export-Import Bank line. Fowler: the exemption a problem; an early answer.'
+        n: '[FRUS 1964–68, XII: Western Europe, doc. 347](https://history.state.gov/historicaldocuments/frus1964-68v12/d347) (Walt Rostow to Johnson, Mar. 4). [FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 185](https://history.state.gov/historicaldocuments/frus1964-68v08/d185) (editorial note: Sharp and Fowler on the border tax, Mar. 1). Made public: FRUS 1964–68, XII (2001). See [[cal.1968-02-29.economy]]. Names: Sharp, Fowler.'
+        src:
+          c: ec3209f4
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v12/d347: all'
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d185: A'
+        tags: [name:sharp-mitchell-w, name:fowler-henry-h]
+  - add:
+      entry:
+        id: cal.1968-03-04.economy
+        when: Mar. 4
+        date: '1968-03-04'
+        thread: economy
+        c: 'Walt Rostow to Johnson, "Pressure on the Canadian Dollar," on Sharp''s visit: an Export-Import Bank standby in a multilateral operation with the Europeans, and a statement that the investment guidelines would be looked at again if they proved a serious problem for Canada, being explored.'
+        n: '[FRUS 1964–68, XII: Western Europe, doc. 347](https://history.state.gov/historicaldocuments/frus1964-68v12/d347) (drafted by Fried). Made public: FRUS 1964–68, XII (2001). See [[cal.1968-03-01.economy]]. Names: Walt Rostow, Johnson, Sharp.'
+        src:
+          c: 9fd85c2c
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v12/d347: all'
+        tags: [name:rostow-walt-w, name:johnson-lyndon-b, name:sharp-mitchell-w]
+  - add:
+      entry:
+        id: cal.1968-03-07.economy
+        when: Mar. 7
+        date: '1968-03-07'
+        thread: economy
+        c: Ottawa announces $900 million in standby credits, $500 million of it from the Export-Import Bank.
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 185](https://history.state.gov/historicaldocuments/frus1964-68v08/d185) (editorial note: "one week" after Feb. 29). Check: the day. To check: *Current Economic Developments*, No. 801, Mar. 12, 1968, 4–6 (cited by FRUS 1964–68, VIII, doc. 185). See [[cal.1968-03-04.economy]].'
+        src:
+          c: '13460781'
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d185: all'
+  - add:
+      entry:
+        id: cal.1968-03-08.economy
+        when: Mar. 8
+        date: '1968-03-08'
+        thread: economy
+        c: 'Fowler and Sharp agree: Canada exempt from the capital measures of the payments program administered by Commerce and the Federal Reserve, free to borrow in the American market for its current deficit. Canada to keep itself from becoming a "pass through" for American funds bound elsewhere. Announced in Washington.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 185](https://history.state.gov/historicaldocuments/frus1964-68v08/d185) (editorial note). To check: *Current Economic Developments*, No. 801, Mar. 12, 1968, 4–6 (cited by FRUS 1964–68, VIII, doc. 185); the joint statement, the Treasury''s release and the *Bulletin*. See [[cal.1968-03-01.economy]]. Names: Fowler, Sharp.'
+        src:
+          c: cc57633b
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d185: all'
+        tags: [name:fowler-henry-h, name:sharp-mitchell-w]
+  - add:
+      entry:
+        id: cal.1968-03-12.economy
+        when: Mar. 12
+        date: '1968-03-12'
+        thread: economy
+        c: 'Pearson to Johnson, by letter: pleased with the exemption; on the border tax, after Sharp''s talk with Fowler of Mar. 1, Canada wants "an international discussion of the issues involved" and has suggestions for an initiative.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 185](https://history.state.gov/historicaldocuments/frus1964-68v08/d185) (editorial note, quoting the letter). To check: Pearson to Johnson, Mar. 12, 1968, Department of State, Central Files, FN 12 US (cited by FRUS 1964–68, VIII, doc. 185). See [[cal.1968-03-08.economy]]. Names: Pearson, Johnson, Sharp, Fowler.'
+        src:
+          c: bf479214
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d185: all'
+        tags: [name:pearson-lester-b, name:johnson-lyndon-b, name:sharp-mitchell-w, name:fowler-henry-h]
+  - add:
+      entry:
+        id: cal.1968-03-27.economy
+        when: Mar. 27
+        date: '1968-03-27'
+        thread: economy
+        c: 'Johnson to Pearson: he shares the "view that the exemption, together with the measures Canada is taking, will benefit both our countries"; the GATT Council meets that week on a working party on border tax adjustments.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 185](https://history.state.gov/historicaldocuments/frus1964-68v08/d185) (editorial note, quoting the letter). To check: Johnson to Pearson, Mar. 27, 1968, Department of State, Central Files, FN 12 US (cited by FRUS 1964–68, VIII, doc. 185). See [[cal.1968-03-12.economy]]. Names: Johnson, Pearson.'
+        src:
+          c: 455f1d9a
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d185: all'
+        tags: [name:johnson-lyndon-b, name:pearson-lester-b]

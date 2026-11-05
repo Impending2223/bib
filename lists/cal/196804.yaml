@@ -471,6 +471,17 @@ entries:
       c: b8a22fde
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 190, 193: all'
+  - id: cal.1968-04-02.economy-2
+    when: Apr. 2
+    date: '1968-04-02'
+    thread: economy
+    c: 'Walt Rostow to Johnson on Stockholm: France kept from stalling the plan, which would have meant "a major drive to raise the official price of gold"; concessions to help the Four take the heat at home, the Community a veto on later quota increases. France abstained; it has "come out publicly for an increase in the price of gold." The tax bill "as much of a world issue as the controversy over the price of gold."'
+    n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 194](https://history.state.gov/historicaldocuments/frus1964-68v08/d194) (drafted by Fried). Made public: FRUS 1964–68, VIII (1998). See [[cal.1968-03-29.economy]]. Names: Walt Rostow, Johnson.'
+    src:
+      c: 302415fe
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d194: all'
+    tags: [name:rostow-walt-w, name:johnson-lyndon-b]
   - id: cal.1968-04-03.vietnam
     when: Apr. 3
     date: '1968-04-03'
@@ -2166,7 +2177,7 @@ entries:
     date: '1968-04-17'
     thread: elections-1968-state-conventions
     c: Iowa's Republican delegation, 24, uncommitted; Gross substituted at large for Joy Rohm under a suspension of the rules.
-    n: '[[w.cq-weekly-report]], July 26, 1968, 1980. Names: Gross. Check: CQ gives the State committee and the State convention; which.'
+    n: '[[w.cq-weekly-report]], July 26, 1968, 1980. Check: the series'' table of the delegations (elections/conventions.yaml, from Wikipedia''s table, its rows from the papers of the day) has the district conventions of Apr. 16 and the State convention of Apr. 17; no record of the choosing read. Names: Gross. Check: CQ gives the State committee and the State convention; which.'
     tags: [name:gross-h-r, state:ia]
   - id: cal.1968-04-17.vietnam-congress
     when: Apr. 17
@@ -2358,12 +2369,17 @@ entries:
     date: '1968-04-23'
     thread: elections-1968
     c: 'Pennsylvania primary. Republican: Nixon (write-in) over Rockefeller (write-in), 171,815 to 52,915, 59.7 percent. Democratic: McCarthy over Kennedy (write-in), 428,259 to 65,430, 71.7 percent.'
-    n: 'CQ Guide 6th (2010) 409. [[w.chester-american-melodrama]], 153–54 (McCarthy 428,259; Kennedy 65,430 write-ins; Humphrey or Johnson 73,263; the delegation, Humphrey''s 135 of 160 seats). See [[cal.1968-03-12.elections-1968]]. Names: McCarthy, Rockefeller, Nixon, Kennedy.'
+    n: 'CQ Guide 6th (2010) 409. [[w.chester-american-melodrama]], 153–54 (McCarthy 428,259; Kennedy 65,430 write-ins; Humphrey or Johnson 73,263; the delegation, Humphrey''s 135 of 160 seats). Check: Chester prints McCarthy''s vote two ways, 428,259 (153) and 428,239, "78.5 per cent of the turnout" (548), and Humphrey-Johnson 73,263 (153) and 72,263 (548); CQ''s 428,259, and Humphrey 51,998 with Johnson 21,265, agree with 153. The State''s canvass not read. See [[cal.1968-03-12.elections-1968]]. Names: McCarthy, Rockefeller, Nixon, Kennedy.'
     src:
       c: 4e8ba02a
       rows:
         - 'w.chester-american-melodrama 153–54: A, C'
     tags: [primary:1968-04-23, name:mccarthy-eugene-j, name:rockefeller-nelson, name:nixon-richard-m, name:kennedy-robert-f]
+    variants:
+      - unit: C
+        witness: w.chester-american-melodrama
+        reads: McCarthy received 428,239 votes (78.5 per cent of the turnout), against 65,430 for Robert Kennedy, and 72,263 for Johnson-Humphrey
+        at: '548'
   - id: cal.1968-04-23.students
     when: Apr. 23–24
     date: '1968-04-23'

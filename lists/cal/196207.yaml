@@ -231,6 +231,30 @@ entries:
       c: 7b99bc60
       rows:
         - 'w.poole-joint-chiefs-of-staff 260: all'
+  - id: cal.1962-07-06.economy-gold
+    when: July 6
+    date: '1962-07-06'
+    thread: economy-gold
+    c: 'Kaysen to Kennedy, "Gold," with the papers of the past two weeks: Louchheim''s plan for agreed ratios of gold to reserves, the 25 percent cover to go; Tobin and Roosa on it, Dillon added. Tobin: practical, and needed soon; Roosa doubts it. The Treasury sure it has the situation in hand; the Council for a fundamental change in the payments mechanism. Among the papers, by Gavin''s account, an essay of Keynes''s on a payments system without gold. Roosa had not answered Kennedy on Saager''s idea of raising the price of gold in all currencies: it creates "something of the same problems for us that devaluation would create."'
+    n: '[FRUS 1961–63, IX: Foreign Economic Policy, doc. 56](https://history.state.gov/historicaldocuments/frus1961-63v09/d56). [[w.gavin-gold-dollars-and-power]], 81 & n.76 (the essay of Keynes''s). Made public: FRUS 1961–63, IX (1995). See [[cal.1962-05-29.economy]]. Names: Kaysen, Kennedy, Tobin, Roosa, Dillon.'
+    src:
+      c: 24359e90
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v09/d56: all'
+        - 'w.gavin-gold-dollars-and-power 81: G'
+        - 'via w.gavin-gold-dollars-and-power 81 n.76: all'
+    tags: [name:kaysen-carl, name:kennedy-john-f, name:tobin-james, name:roosa-robert-v, name:dillon-c-douglas]
+  - id: cal.1962-07-06.economy-gold-2
+    when: July 6
+    date: '1962-07-06'
+    thread: economy-gold
+    c: 'Kennedy to David Rockefeller, answering his letter on the balance of payments: "this country will not—I repeat not—increase the price of gold, thereby devaluating the dollar," nor impose exchange controls or import barriers. The deficit smaller this year; speculation virtually ended.'
+    n: 'Letter to David Rockefeller on the Balance of Payments Question, [1962 Pub. Papers 547](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=607) (July 6, 1962). See [[cal.1962-07-06.economy-gold]]. Names: Kennedy, David Rockefeller.'
+    src:
+      c: 1d4e731e
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=607: all'
+    tags: [name:kennedy-john-f, name:rockefeller-david]
   - id: cal.1962-07-07.missile-crisis
     when: July 7
     date: '1962-07-07'
@@ -462,7 +486,7 @@ entries:
     date: '1962-07-12'
     thread: economy
     c: Treasury's new depreciation guidelines. Faster write-offs, by ruling.
-    n: 'Statement by the President on the New Tax Depreciation Schedules, [1962 Pub. Papers 553](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=613) (July 12, 1962). Rev. Proc. 62-21. [[w.zelizer-taxing-america]], 186, 190 (faster write-offs). To check: [[w.heller-new-dimensions-of-political]]. See [[cal.1961-01-05.economy]]. Names: Dillon.'
+    n: 'Statement by the President on the New Tax Depreciation Schedules, [1962 Pub. Papers 553](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=613) (July 12, 1962). Rev. Proc. 62-21. [[w.zelizer-taxing-america]], 186, 190 (faster write-offs). Check: Zelizer has the liberalized depreciation allowances announced by the Treasury "in July 1961" (186); the Papers date the statement July 12, 1962. To check: [[w.heller-new-dimensions-of-political]]. See [[cal.1961-01-05.economy]]. Names: Dillon.'
     src:
       c: 3ed2728d
       rows:
@@ -470,6 +494,11 @@ entries:
         - 'w.zelizer-taxing-america 190: all'
         - 'w.zelizer-taxing-america 186: B'
     tags: [name:dillon-c-douglas]
+    variants:
+      - unit: A
+        witness: w.zelizer-taxing-america
+        reads: the depreciation allowances "announced by the Treasury in July 1961"
+        at: '186'
   - id: cal.1962-07-12.confirmations
     when: July 12
     date: '1962-07-12'
@@ -826,17 +855,34 @@ entries:
         - 'w.branch-parting-the-waters 608: all'
         - 'via w.branch-parting-the-waters 608 n.1: all'
     tags: [state:ga, city:albany-ga]
+  - id: cal.1962-07-18.economy-gold
+    when: July 18
+    date: '1962-07-18'
+    thread: economy-gold
+    c: 'Kaysen and Gordon, "Gold Guarantees": a devaluation of the dollar might stay a profitable action for the United States even after a gold guarantee of official balances was paid off.'
+    n: '[[w.gavin-gold-dollars-and-power]], 84 & n.86. To check: Kaysen and Gordon, "Gold Guarantees," July 18, 1962, POF, Treasury (cited by [[w.gavin-gold-dollars-and-power]], 84 n.86). See [[cal.1962-07-06.economy-gold]]. Names: Kaysen, Gordon.'
+    src:
+      c: 44a2df79
+      rows:
+        - 'w.gavin-gold-dollars-and-power 84: all'
+        - 'via w.gavin-gold-dollars-and-power 84 n.86: all'
+    tags: [name:kaysen-carl, name:gordon-kermit]
   - id: cal.1962-07-19.vietnam
     when: July 19
     date: '1962-07-19'
     thread: vietnam
     c: 'The National Liberation Front proposes, in a public statement: a cease-fire; the American military out; a provisional government of national concord until elections under the Geneva accords; South Vietnam neutral, with Cambodia and Laos, under an international guarantee.'
-    n: '[[w.asselin-hanois-road-to-the]], 136–37. Check: Asselin, 136, has the statement July 19; his note to 128 dates the Front''s declaration of its willingness for a coalition July 20 (128 n.63). To check: the Australian government''s report "South Vietnam: Communist Proposals for an International Conference," Aug. 3, 1962, FO 371/166763 (cited by [[w.asselin-hanois-road-to-the]], 136 n.124); t; h; e; N; L; F; C; n; r; a; l; o; m; i; ''; s; d; c; ,; J; u; y; 2; 0; 1; 9; 6; (; x; p; ); H; ồ; ơ; 3; V; A; v; b; [; w; -; ]; 8. See [[cal.1962-07-18.vietnam]]. Check: the statement''s text and where it was printed.'
+    n: '[[w.asselin-hanois-road-to-the]], 136–37. Check: Asselin, 136, has the statement July 19; his note to 128 dates the Front''s declaration of its willingness for a coalition July 20 (128 n.63). To check: the Australian government''s report "South Vietnam: Communist Proposals for an International Conference," Aug. 3, 1962, FO 371/166763 (cited by [[w.asselin-hanois-road-to-the]], 136 n.124); the NLF Central Committee''s declaration, July 20, 1962 (excerpt), Hồ sơ 231, VNAC3 (cited by [[w.asselin-hanois-road-to-the]], 128 n.63). See [[cal.1962-07-18.vietnam]]. Check: the statement''s text and where it was printed.'
     src:
       c: 5de24106
       rows:
         - 'w.asselin-hanois-road-to-the 136: all'
         - 'via w.asselin-hanois-road-to-the 136 n.124: all'
+    variants:
+      - unit: A
+        witness: x.1962-07-20.trich-tuyen-bo-ub-twmtdtgpmn
+        reads: '"Trich tuyen bo cua UB TWMTDTGPMN, 20.7.1962" [Excerpt from the Declaration of the Central Committee of the National Liberation Front for South Vietnam, 20 July 1962]'
+        at: Asselin, 285 (128 n.63)
   - id: cal.1962-07-19.berlin-and-vienna
     when: July 19
     date: '1962-07-19'
