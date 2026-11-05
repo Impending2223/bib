@@ -168,3 +168,48 @@ Foreign
 
 National
 - The accidents of 1968 Drea lists (483): the Marine transport in Nevada, Jan. 11; the SR-71, Jan. 12; the trainer into the Bay Bridge, Feb. 11; another June 30 (the sentence runs onto the next page, not read).
+
+## The military re-read, fourth run (Nov. 5, 2026): chs. II, III, V, VII, VIII, X; pp. 424–36, 449–54
+
+The brief `notes/briefs/military-reread.md` (R14; R8 for the papers of government; R50 as restated Nov. 5). The copy as before (DTIC_ADA552481, archive.org), its hOCR search text split by leaf (`_hocr_searchtext.txt.gz`, `_hocr_pageindex.json.gz`), each folio set by the offsets above (leaf − 17, − 29, − 45), checked by the folios printed at the leaves' heads and feet; the notes by "Notes to Pages" and number, matched to their passages by content. Pages checked against their images: below.
+
+What was read: every sentence carrying a date in chs. II (21–50), III (51–85), V (113–42), VII (172–201), VIII (202–32), X (261–88) and pp. 424–36, 449–54, listed by script; the pages of each event entered read whole (pp. 22–47, 56–59, 64, 69–70, 116, 196–97, 277, 280–81 in full; the rest by the sentences around each date). Each event held against the calendar by its day and thread. 1965's decisions, the 1966 oil strikes and the air war of 1967–68 were largely in the calendar; they take cites. The Joint Chiefs' papers, OSD's planning and the Vance committee of July 1965, the barrier's history, the civil-disturbance planning of 1967–68 and Israel's aircraft were largely missing.
+
+The page images of pp. 29, 30, 280 and 453 were OCR'd (tesseract) and their dates matched: the text layer reads p. 30's "15 April" (the directive's dispatch) as "1 3 April"; the image, and FRUS 1964–68, II, doc. 256 (DEF 9164, Apr. 15, 6:39 p.m.), give Apr. 15. FRUS docs. 183, 217, 252, 256, 258 and 262 read and cited first on their entries.
+
+Patches: `inbox/2026-11-05-mil4-drea.yaml` (chs. II, III, V; 238 ops, 104 new entries) and `inbox/2026-11-05-mil4-drea-2.yaml` (chs. VII, VIII, X, XVI, and the items added after the first pass; 213 ops, 125 new). The chief new entries: the Chiefs' and MACV's papers and meetings of Feb.–July 1965 (Feb. 15, 17; Mar. 16, 17, 20, 27; Apr. 3, 5, 8, 12–19, 30; May 15; June 18, 25; July 2, 30), the directive of Apr. 15 and Taylor's cables, the July planning (McNamara's cable to Taylor and the OSD meetings of July 7–12, the Vance committee of July 13–20, McNaughton's and Goodpaster's papers, the CIA's assessment of July 20, McNamara with the Chiefs July 24, Norman Paul's draft calls July 26); the air war's papers 1965–66 (Feb. 17, Mar. 20, Apr. 2, 13, May 22, Sept. 2, 22, 30, Oct. 1965; the oil campaign Nov. 10, Dec. 2, 28, 30, 1965; Feb. 26, Mar. 10, 21, 31, May 2, June 5–8, 28, July 10, Aug. 11, 22, 24, Sept. 4, 7, 1966); the deployments of 1965–67 (DePuy's briefings Oct. 15, 18, 1965; Nov. 10, 11, 15, 17, 18, 23, Dec. 10, 1965; June–Dec. 1966; Mar. 28, Apr. 24, May 6, July 14, 1967) and the barrier (June 23, Sept. 3, 8, Oct., Dec. 1966; Apr. 1966; Sept. 1967; Oct. 1968); 1967–68 (Vance's resignation, the Tet and post-Tet papers, Program 6, Khe Sanh's closing approved June 20, McCain for Sharp, the bombing's restriction and halt); the home front (the reserve reorganization of Sept. 1965 and June 1967, the Reserve Forces Bill of Rights, 81 Stat. 521, Dec. 1, 1967; Project 100,000; McGiffert's task force, Cabinet Maker and the planning for the March on the Pentagon; the Civil Disturbance Plan and Directorate, 1968; the troops to Chicago, Aug. 25–26, 1968; the riots of 1968 Drea names by month); the Middle East (the arms of 1965–67, the crisis of May 14–June 1, 1967, Israel's A-4s and F-4s, Dec. 1967–Dec. 27, 1968).
+
+The rows of the earlier Passed over ruled "to leads" or "lead" that this run entered: p. 47, July 30, 1965 (JCSM-590-65; ruled minor before, now an entry under R8); p. 56, Feb. 17, 1965 (minor before; entered); p. 66, Dec. 2, 1965 (cited, cal.1965-12-02.vietnam-pause-2) and Dec. 24, 1965 (Vance's cable, entered) and Jan. 3, 1966 (entered); p. 76, July 8, 1966 (cited); p. 118, Nov. 18, 1965 (entered); p. 123, Feb. 9, 1966 (cited); p. 132–33, Nov. 4, Dec. 2, 1966 (cited; entered); p. 138, May 6, 1967 (entered); p. 142, July 14, 1967 (entered); p. 183, Feb. 13, 1968 (minor before; entered); p. 187, Mar. 5, 8 (Mar. 5 entered); p. 196, July 10, 1968 (minor before; entered); p. 197, July 30, Aug. 1–2, 1968 (entered); p. 210, May 29, 1967 (cited); p. 219, Sept. 20, 26, 1967 (entered); p. 223, Feb. 13, 1968 (not entered: see below); pp. 437–48 rows stand, those pages outside this run; p. 453, Nov. 7 and Dec. 11, 20, 21, 1968 (entered).
+
+Witnesses: `inbox/witnesses/2026-11-05-mil4-drea.yaml`, 10 new rows and an amendment (Bundy's memorandum of Mar. 6, 1965, its copy FRUS II, doc. 183, read), the edges in `sources/witnesses/by-work/drea-mcnamara-clifford-and-the-2011.yaml` (14, ch. II's notes 6–30 and 89); each new entry of ch. II resting on them carries its `via` row and, where unread, its "To check:". The notes of the other chapters not registered in this run: a lead.
+
+### Passed over (the fourth run)
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 22–49 | Feb.–Sept. 1965 | the meetings and decisions already in (Feb. 7, 13, 17, 26; Mar. 6, 10, 11, 15; Apr. 1, 6, 7, 20, 21; May 4–7; June 5–24; July 1–28; Aug. 23; Sept. 1, 22, 29) | already in, cited |
+| 35 | June 20, 1965 | a columnist on the 75,000 "gossiped about weeks ago" | lead: the columnist not named on the page (35 n.45 may name him) |
+| 60 | Apr. 1965, early | Pearson's speech for a halt | already in (cal.1965-04-03.vietnam-pause); not cited, the page gives no more |
+| 71 | Feb.–Mar. 1966 | a poll; Reston's "imprecision" column | lead: neither dated on the page |
+| 79 | Aug. 1966 | Wheeler with Johnson at the Ranch on bombing the panhandle | not entered in this run: for the next (R50) |
+| 172 | Aug. 1967 | Johnson counts fifteen crises in two months | minor: a count, no event |
+| 173 | July 1967 | McNamara's wife in hospital | minor: private |
+| 179 | Jan. 18, 1968 | an American action near Khe Sanh (the sentence runs over p. 179) | not read whole in this run: for the next |
+| 191 | May 7, 23, 1968 | Clifford's speech and his testimony | not checked against the calendar in this run: for the next |
+| 205, 213 | Feb. 17, July 1967, mid | Rostow's funnel; Johnson on the bombing and public opinion | already in (cal.1967-02-17.vietnam); the July discussion undated to the day, for the next |
+| 217 | Aug. 25, 1967 | the alleged meeting of the Chiefs to resign | out of the brief: Drea finds it could not have taken place (Wheeler abroad) |
+| 222 | 1967, late | the CIA/DIA appraisal of the bombing | lead: not dated on the page |
+| 223 | Feb. 13, 1968 | Tuesday lunch on heavier bombing | not entered in this run (FRUS VI, 206–10, to read): for the next |
+| 229 | July 17, 1968 | a meeting on the bombing north of the 19th parallel | not read whole: who spoke not on the extract; for the next |
+| 265, 270 | Dec. 31, 1966; June 30, 1966–68 | the Guard's racial count; the draftees in Vietnam | figures, not events: for the entries on Project 100,000 and the draft, by page |
+| 287 | Aug. 22, 1968 | the White House meeting on troops for Chicago (the sentence cut short) | not read whole: for the next |
+| 426–36 | 1958–67 | the UAR's founding; the arms of 1964 | out of the span (1958); the rest entered or already in |
+| 449–54 | June 19, 1967 | Kosygin at the General Assembly | already in the Six-Day War's aftermath, not checked one by one |
+
+### Leads (the fourth run)
+
+National
+- The witnesses of the new entries of chs. III, V, VII, VIII, X and XVI (the notes, pp. 562–653).
+- The rows above marked "for the next".
+- Drea's columnist of June 20, 1965 (35 n.45), to be named from the note.
+- Reston's column on the "imprecision" of the administration's statements, early 1966 (Drea, 71 n.72): the day.

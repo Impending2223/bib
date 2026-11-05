@@ -38,7 +38,7 @@ entries:
     date: '1961-05-01'
     thread: laos
     c: The 481st NSC, on Laos. McNamara proposes a SEATO move into the panhandle, "recognizing that if we do we must be prepared to win"; to win in Southeast Asia might take nuclear weapons. Taylor against American troops in Laos; Dulles warns of a Chinese response. No decision while the cease-fire is negotiated; the President ready under certain conditions to send forces to Thailand; the Chiefs to present the military implications May 2.
-    n: '[FRUS 1961–63, XXIV, doc. 73](https://history.state.gov/historicaldocuments/frus1961-63v24/d73) (McNamara''s notes; NSC Action 2417). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 242 (all but the forces for Thailand). [[w.sorensen-kennedy]], 644 (the NSC on Laos). See [[cal.1961-04-26.laos]]. Names: McNamara, Taylor, Dulles.'
+    n: '[FRUS 1961–63, XXIV, doc. 73](https://history.state.gov/historicaldocuments/frus1961-63v24/d73) (McNamara''s notes; NSC Action 2417). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 242 (all but the forces for Thailand); [[w.poole-joint-chiefs-of-staff]], 130. [[w.sorensen-kennedy]], 644 (the NSC on Laos). See [[cal.1961-04-26.laos]]. Names: McNamara, Taylor, Dulles.'
     src:
       c: e9e4558d
       rows:
@@ -46,6 +46,7 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 242: A-F, H'
         - 'via w.kaplan-mcnamara-ascendancy-1961-1965 242 n.53: A-F, H'
         - 'w.sorensen-kennedy 644: A'
+        - 'w.poole-joint-chiefs-of-staff 130: A'
     tags: [name:mcnamara-robert-s, name:taylor-maxwell, name:dulles-allen-w, name:kennedy-john-f]
   - id: cal.1961-05-01.cuba
     when: May 1
@@ -161,12 +162,13 @@ entries:
     thread: laos
     also: [defense]
     c: 'McNamara and Gilpatric to Kennedy, "Alternative Courses of Action in Laos," the Chiefs'' and two service secretaries'' views attached. Laos "one of the least favorable places in the world for direct U.S. military intervention," but intervention: 48 hours for a cease-fire at the present line, then forces to hold the vital centers. "At some point, we may have to initiate the use of nuclear weapons." Burke: troops to Thailand and South Vietnam at once, into Laos in 48 hours; White: ground forces a "maldeployment," air power.'
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 242–43. To check: SecDef (McNamara) and DepSecDef (Gilpatric) for the President, May 2, 1961, NSF, JFKL; abridged in FRUS 1961–63, XXIV, 166–70 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 243 n.54). See [[cal.1961-05-01.laos]]. Names: McNamara, Gilpatric, Kennedy, Burke, White.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 242–43; [[w.poole-joint-chiefs-of-staff]], 130–31 (Lemnitzer: only immediate military action can keep the key areas; the NSC''s contingency planning that afternoon). To check: SecDef (McNamara) and DepSecDef (Gilpatric) for the President, May 2, 1961, NSF, JFKL; abridged in FRUS 1961–63, XXIV, 166–70 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 243 n.54). See [[cal.1961-05-01.laos]]. Names: McNamara, Gilpatric, Kennedy, Burke, White.'
     src:
       c: ef2c5e75
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 242–43: all'
         - 'via x.1961-05-02.secdef-mcnamara-and-depsecdef-gilpatric-for-the: all'
+        - 'w.poole-joint-chiefs-of-staff 130–31: ?'
     tags: [name:mcnamara-robert-s, name:gilpatric-roswell-l, name:kennedy-john-f, name:burke-arleigh-a, name:white-thomas-d]
   - id: cal.1961-05-02.laos-2
     when: May 2
@@ -464,6 +466,16 @@ entries:
         - 'via x.1961-04-13.lemnitzer-to-dennison-apr-13-1961: B'
         - 'via x.1961-04-28.jcsm-287-61-burke-for-the-jcs: B'
     tags: [name:acheson-dean-g]
+  - id: cal.1961-05-04.laos
+    when: May 4
+    date: '1961-05-04'
+    thread: laos
+    c: 'State and Defense circulate a draft plan: 12,000 to 13,000 SEATO troops to hold points along the Mekong still under the government; the Pathet Lao and their supply lines under air attack if their offensive goes on.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 131.'
+    src:
+      c: 8e7450ef
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 131: all'
   - id: cal.1961-05-05.space
     when: May 5
     date: '1961-05-05'
@@ -608,6 +620,17 @@ entries:
         - 'w.woods-fulbright 270: all'
         - 'w.woods-fulbright 270: B'
     tags: [name:kennedy-john-f, name:fulbright-j-william]
+  - id: cal.1961-05-05.korea
+    when: May 5
+    date: '1961-05-05'
+    thread: korea
+    c: The NSC orders a State-led task force to review policy on Korea. Eleven days later officers overthrow Chang Myon's government.
+    n: '[[w.poole-joint-chiefs-of-staff]], 284. Names: name:chang-myon.'
+    src:
+      c: f712df98
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 284: all'
+    tags: [name:chang-myon]
   - id: cal.1961-05-06.robert-kennedy
     when: May 6
     date: '1961-05-06'
@@ -1058,6 +1081,18 @@ entries:
         - 'w.fursenko-one-hell-of-a 116: all'
         - 'via w.fursenko-one-hell-of-a 116 n.41: all'
     tags: [name:khrushchev-nikita-s, name:kennedy-john-f]
+  - id: cal.1961-05-12.laos
+    when: May 12
+    date: '1961-05-12'
+    thread: laos
+    also: [defense]
+    c: 'The Joint Chiefs to McNamara: "full-scale non-nuclear war" possible in Laos and North Vietnam, not against China; conventional war in Southeast Asia would weaken capabilities elsewhere until mobilization.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 131. Names: McNamara.'
+    src:
+      c: 519cd22a
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 131: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1961-05-13.vietnam-johnson-asia
     when: May 13
     date: '1961-05-13'
@@ -2255,6 +2290,18 @@ entries:
       c: ba34c51c
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 268: all'
+    tags: [name:kennedy-john-f]
+  - id: cal.1961-05-27.cuba-bay-of-pigs
+    when: May 27
+    date: '1961-05-27'
+    thread: cuba-bay-of-pigs
+    also: [defense]
+    c: 'Kennedy with the Joint Chiefs: the failure "as one involving all of us"; "to improve our ways of doing business together."'
+    n: '[[w.poole-joint-chiefs-of-staff]], 118. Names: Kennedy.'
+    src:
+      c: 7f6633f2
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 118: all'
     tags: [name:kennedy-john-f]
   - id: cal.1961-05-28.opinion
     when: May 28–June 2
