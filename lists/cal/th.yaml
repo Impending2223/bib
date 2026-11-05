@@ -146,6 +146,30 @@ entries:
   - id: cal.thread.missile-crisis
     s: Cuban Missile Crisis
     c: The Soviet missiles in Cuba, from the decision to the aftermath. {{1962-08-22..1962-12|McCone's warning; Keating's charges; the Cuba resolution; the U-2's find; the ExComm; the address and the quarantine; the letters; Black Saturday; the withdrawal; the IL-28s; the Stevenson story.}} {{1963-01-07..1963-02-18|The joint letter to U Thant; Keating's caves; McNamara's photographs; the Soviet troops.}}
+  - id: cal.thread.missile-crisis-anadyr
+    s: Anadyr
+    c: 'The Soviet operation: the Presidium''s decisions, the forces, missiles and warheads sent to Cuba, the submarines, the Cubans'' part, and the warheads'' withdrawal.'
+    parent: missile-crisis
+  - id: cal.thread.missile-crisis-diplomacy
+    s: Diplomacy
+    c: The letters between Kennedy and Khrushchev, the United Nations, the OAS and the allies, and the back channels, from the address to the broadcast.
+    parent: missile-crisis
+  - id: cal.thread.missile-crisis-excomm
+    s: ExComm
+    c: 'The President and his advisers in Washington from the photographs to Khrushchev''s broadcast: the Executive Committee''s meetings, the choice of the quarantine, the address, the briefings of the leaders and the former Presidents.'
+    parent: missile-crisis
+  - id: cal.thread.missile-crisis-quarantine
+    s: Quarantine
+    c: 'The quarantine at sea and the forces'' alert: the proclamation, the ships stopped, turned or boarded, the submarines, the reconnaissance, the reserves.'
+    parent: missile-crisis
+  - id: cal.thread.missile-crisis-settlement
+    s: Settlement
+    c: 'From Khrushchev''s broadcast to the year''s end: inspection, the Il-28s, the talks in New York, Mikoyan in Havana, the pledge against invasion, the Stevenson affair.'
+    parent: missile-crisis
+  - id: cal.thread.missile-crisis-warnings
+    s: Warnings
+    c: 'Before the photographs of Oct. 14: the reports from Cuba, McCone''s warnings, Keating''s charges, the President''s statements, the estimates, the Cuba resolution.'
+    parent: missile-crisis
   - id: cal.thread.cyprus
     s: Cyprus
     c: 'Cyprus: the republic, its two communities, the guarantor powers. {{1961-08-23..1961-09-25|NSAM 71; NSAM 98.}} {{1962-06-05..1962-08-30|Makarios at the White House; NSAM 169; Johnson at Nicosia.}} {{1963-10-17..1963-12-28|NSAM 266; Makarios''s thirteen amendments; the Nicosia fighting; the guarantors'' appeal; Cyprus to the Security Council.}} {{1964-02-09..1964-09-08|The London conference broken down; Ball''s mission; the UN force; Johnson to Inonu; Inonu and Papandreou at the White House; Acheson''s plans at Geneva; the Turkish strikes at Kokkina; the plans refused.}} {{1966-04-19|Demirel to Rusk at Ankara.}} {{1967-11-15..1967-12-05|The National Guard at Ayios Theodoros and Kophinou; Vance''s mission; the withdrawals agreed; Johnson''s statement.}}'
@@ -211,6 +235,50 @@ entries:
     c: The 1960 election, from the announcements to the count. {{1960-10-19..1960-10-25|King's arrest.}} {{1960-12-09..1960-12-28|Illinois's recount; the electors; Hawaii's recount.}} {{1961-01-06|The count, Jan. 6.}}
     tags: [ok:statements]
     sort: Elections of 1960
+  - id: cal.thread.elections-1960-chicago
+    s: Chicago
+    c: 'The Republican convention: the platform, Eisenhower''s address, Nixon''s nomination, Lodge for second place.'
+    parent: elections-1960
+  - id: cal.thread.elections-1960-count
+    s: Count
+    c: 'Election night and after: the returns, Nixon''s concession, the charges of fraud, the recounts in Illinois and Hawaii, California''s absentee ballots, the electors'' votes.'
+    parent: elections-1960
+  - id: cal.thread.elections-1960-debates
+    s: Debates
+    c: 'The four Kennedy–Nixon debates on television: the negotiations, the studios, the questions, the reactions.'
+    parent: elections-1960
+  - id: cal.thread.elections-1960-nomination
+    s: Democratic nomination
+    c: 'The race for the Democratic nomination outside the primaries: Johnson, Symington, the Stevenson draft, Truman, the delegations and their counts, the talk of second place, to Los Angeles.'
+    parent: elections-1960
+  - id: cal.thread.elections-1960-kennedy
+    s: Kennedy's campaign
+    c: 'The Democratic campaign from Los Angeles to the election: Kennedy''s travels and speeches, his staff and strategy, Johnson''s and Robert Kennedy''s parts, the South.'
+    parent: elections-1960
+  - id: cal.thread.elections-1960-king
+    s: King's arrest
+    c: King's arrest in Atlanta and his sentence, the calls to Coretta King and the judge, his release, the campaign's pamphlet.
+    parent: elections-1960
+  - id: cal.thread.elections-1960-los-angeles
+    s: Los Angeles
+    c: 'The Democratic convention: the caucuses and the delegations, the platform, Kennedy''s nomination, Johnson''s choice for second place, the acceptance.'
+    parent: elections-1960
+  - id: cal.thread.elections-1960-nixon
+    s: Nixon's campaign
+    c: 'Nixon''s campaign from his announcement to the election: his staff and polls, the fifty States, his travels and speeches, Eisenhower''s and Lodge''s parts.'
+    parent: elections-1960
+  - id: cal.thread.elections-1960-primaries
+    s: Primaries
+    c: 'The primaries, Wisconsin and West Virginia above all: the campaigns, the money, the returns, Humphrey''s withdrawal.'
+    parent: elections-1960
+  - id: cal.thread.elections-1960-religion
+    s: Religion
+    c: 'Kennedy''s religion in the campaign: the tracts, the Peale group, the Houston ministers, the bishops.'
+    parent: elections-1960
+  - id: cal.thread.elections-1960-rockefeller
+    s: Rockefeller
+    c: 'Rockefeller''s challenge to Nixon: his withdrawal and his statements, Draft Rockefeller, the second place offered and refused, the Fifth Avenue compact.'
+    parent: elections-1960
   - id: cal.thread.elections-1961
     s: 1961 elections
     c: 'The off-year elections of 1961. Governors: Hughes in New Jersey, Harrison in Virginia. Mayors: Yorty over Poulson; Wagner against DeSapio and Tammany, then re-elected over Lefkowitz; Allen over Maddox in Atlanta; Cavanagh over Miriani in Detroit; Cowger in Louisville. New York City''s new charter.'
@@ -232,14 +300,56 @@ entries:
     sort: Elections of 1964
     see_also:
       - goldwater
+  - id: cal.thread.elections-1964-atlantic-city
+    s: Atlantic City
+    c: 'The Democratic convention: the opening and the keynote, Johnson''s nomination, Humphrey''s, the acceptances.'
+    parent: elections-1964
+  - id: cal.thread.elections-1964-freedom-democrats
+    s: Freedom Democrats
+    c: 'The Mississippi Freedom Democratic Party''s challenge to the regulars: the credentials committee, the White House''s calls, the two-seat compromise and its refusal.'
+    parent: elections-1964
+  - id: cal.thread.elections-1964-goldwater
+    s: Goldwater's campaign
+    c: 'The Republican campaign after San Francisco: the Hershey meeting, Goldwater''s speeches and broadcasts, Thurmond''s switch, Reagan''s address.'
+    parent: elections-1964
+  - id: cal.thread.elections-1964-jenkins
+    s: Jenkins
+    parent: elections-1964
+  - id: cal.thread.elections-1964-johnson
+    s: Johnson's campaign
+    c: 'The Democratic campaign: the plans and the staff, the advertisements, Johnson''s and Humphrey''s travels and speeches, the Lady Bird Special, the backlash, the polls.'
+    parent: elections-1964
+  - id: cal.thread.elections-1964-new-york
+    s: New York Senate race
+    c: 'Robert Kennedy against Keating: the nomination, the carpetbagger charge, the General Aniline settlement, the debates, the result.'
+    parent: elections-1964
   - id: cal.thread.elections-1964-polls
     s: '1964 elections: polls'
     c: Gallup on 1964, the Republicans' choice and the President against each. {{1961-08-27..1961-12-31|Nixon first; Rockefeller over Goldwater; Kennedy 62, Nixon 38.}} {{1962-03-04..1962-12-12|Kennedy 65, Nixon 35; Rockefeller ahead, Nov. 1962.}} {{1963-01-13..1963-12-20|Rockefeller first; Goldwater past Rockefeller, May 1963; the tickets; Goldwater even with Rockefeller, August; Johnson after Nov. 22.}} {{1964-01-19..1964-11-02|The county chairmen; Lodge after New Hampshire; Scranton over Goldwater among Republicans; Johnson 65, Goldwater 29, August; the final poll, 64–29.}}
     tags: [ok:statements]
     sort: 'Elections of 1964: polls'
+  - id: cal.thread.elections-1964-primaries
+    s: Republican primaries
+    c: 'The race for the Republican nomination to the California primary: Goldwater, Rockefeller, Smith, the Lodge write-ins, Nixon''s waiting, the returns.'
+    parent: elections-1964
+  - id: cal.thread.elections-1964-san-francisco
+    s: San Francisco
+    c: 'The Republican convention at the Cow Palace: the platform committee and the platform fight, Goldwater''s nomination, Miller, the acceptance.'
+    parent: elections-1964
+  - id: cal.thread.elections-1964-scranton
+    s: Scranton
+    c: 'The last effort to stop Goldwater: the governors at Cleveland, Eisenhower''s part, Scranton''s candidacy, Rockefeller''s withdrawal, the delegations to the eve of the convention.'
+    parent: elections-1964
   - id: cal.thread.elections-1964-state-conventions
     s: State conventions
     c: The Republican State conventions that chose delegates to San Francisco, as the papers counted them.
+    parent: elections-1964
+  - id: cal.thread.elections-1964-vice-presidency
+    s: Vice Presidency
+    c: 'Johnson''s choice of a running mate: Robert Kennedy''s hopes and the statement that ruled out the Cabinet, McNamara, McCarthy, Humphrey''s testing and choice.'
+    parent: elections-1964
+  - id: cal.thread.elections-1964-wallace
+    s: Wallace
     parent: elections-1964
   - id: cal.thread.elections-1965
     s: 1965 elections
@@ -263,16 +373,59 @@ entries:
   - id: cal.thread.elections-1968-chicago
     s: Chicago
     parent: elections-1968
+  - id: cal.thread.elections-1968-chicago-credentials
+    s: Credentials and rules
+    c: 'The challenges to the delegations and the rules: the unit rule, the Coalition for an Open Convention, the Credentials Committee''s cases, Mississippi, Georgia, Alabama and Texas on the floor.'
+    parent: elections-1968-chicago
+  - id: cal.thread.elections-1968-chicago-kennedy
+    s: Edward Kennedy
+    parent: elections-1968-chicago
+  - id: cal.thread.elections-1968-chicago-platform
+    s: Platform
+    c: 'The platform: the committee''s hearings and drafting, the plank on Vietnam and the minority plank, the vote.'
+    parent: elections-1968-chicago
+  - id: cal.thread.elections-1968-chicago-streets
+    s: Streets
+    c: 'The demonstrations at the convention and their policing: the permits refused, the suits, the Guard and the Army, Lincoln Park, Grant Park and the Hilton, Daley''s report.'
+    parent: elections-1968-chicago
+  - id: cal.thread.elections-1968-congress
+    s: Congress and the States
+    c: 'The year''s races below the Presidency: the retirements and the filings, the primaries for the Senate, the House and the governorships, and their results.'
+    parent: elections-1968
+  - id: cal.thread.elections-1968-humphrey
+    s: Humphrey's campaign
+    c: 'Humphrey''s campaign from his announcement to the election: the organization and the money, his position papers, his ties to Johnson, the Salt Lake City speech, the last weeks.'
+    parent: elections-1968
+  - id: cal.thread.elections-1968-johnson
+    s: Johnson's candidacy
+    c: 'Johnson''s campaign for renomination and its end: the write-in in New Hampshire, his advisers'' memoranda on McCarthy and Robert Kennedy, the drafts of the statement, the withdrawal.'
+    parent: elections-1968
+  - id: cal.thread.elections-1968-mccarthy
+    s: McCarthy
+    c: 'McCarthy''s campaign: New Hampshire''s students, the primaries against Kennedy, the summer''s delegate hunt and debates, his silence after Chicago and his endorsement of Humphrey.'
+    parent: elections-1968
   - id: cal.thread.elections-1968-miami
     s: Miami Beach
+    parent: elections-1968
+  - id: cal.thread.elections-1968-nixon
+    s: Nixon's campaign
+    c: 'Nixon''s campaign from his announcement to the election: New Hampshire, the delegates and the Southern chairmen, Agnew''s choice, the fall''s tour, the telethons.'
     parent: elections-1968
   - id: cal.thread.elections-1968-polls
     s: '1968 elections: polls'
     c: 'Gallup on the coming presidential election: the parties'' choices and the trial heats. {{1965|Nixon first among Republicans, Lodge and Goldwater behind; the county chairmen''s choice; Romney even with Humphrey, behind Johnson; Romney or Nixon at the convention; Robert Kennedy and his brother.}} {{1966|Robert Kennedy over Nixon; the county chairmen for Nixon; Wallace as a third party''s candidate; Romney first among Republicans.}} {{1967|Robert Kennedy over Johnson among Democrats; Romney ahead of Johnson; Romney before and after "brainwashing"; Nixon first again.}} {{1968|McCarthy, Kennedy and Humphrey after Mar. 31; Nixon, Humphrey and Wallace through the fall; the final poll.}}'
     sort: 'Elections of 1968: polls'
+  - id: cal.thread.elections-1968-republican-nomination
+    s: Republican nomination
+    c: 'The challenges to Nixon: Romney''s campaign and withdrawal, Rockefeller''s withdrawal and return, Reagan''s favorite son and his soundings, Stassen, the endorsements, to Miami Beach.'
+    parent: elections-1968
   - id: cal.thread.elections-1968-state-conventions
     s: State conventions
     c: The Democratic State conventions and committees that chose delegates to Chicago, as the papers counted them. Georgia's slate, the State chairman's; Iowa for Kennedy; Missouri and Michigan uncommitted; Moore's North Carolina; Connally's Texas; the McCarthy walkouts in Connecticut and New York; Minnesota; Mississippi's two delegations; Colorado and Washington, July 13.
+    parent: elections-1968
+  - id: cal.thread.elections-1968-wallace
+    s: Wallace
+    c: 'Wallace''s campaign outside the two parties: his announcement, the ballots State by State, his tours, the American Independent Party, LeMay.'
     parent: elections-1968
   - id: cal.thread.elections-1972
     s: 1972 elections
@@ -373,6 +526,18 @@ entries:
   - id: cal.thread.robert-kennedy-campaign
     s: Campaign for the nomination
     parent: robert-kennedy
+  - id: cal.thread.robert-kennedy-campaign-california
+    s: California
+    c: 'The California primary: Unruh''s slate, the Mexican-American vote, the debate with McCarthy, the last days, the night at the Ambassador.'
+    parent: robert-kennedy-campaign
+  - id: cal.thread.robert-kennedy-campaign-decision
+    s: Decision
+    c: 'Whether to run, to the announcement: the advisers'' memoranda and meetings, McCarthy''s New Hampshire, the commission offer.'
+    parent: robert-kennedy-campaign
+  - id: cal.thread.robert-kennedy-campaign-primaries
+    s: Primaries
+    c: The primaries before California, Indiana, Nebraska, Oregon and South Dakota, and the hunt for delegates in the States without them.
+    parent: robert-kennedy-campaign
   - id: cal.thread.king
     s: King
     c: Martin Luther King, Jr. The President, the Attorney General, the Bureau. {{1960-06|Kennedy and King meet.}} {{1963-04..1963-08|Birmingham and the jail letter; the settlement; the March.}} {{1964-03..1964-11|St. Augustine; the FBI's tape.}} {{1967-02..1967-10|Before the Kerner Commission.}} {{1968-04|The riots.}}
@@ -406,7 +571,9 @@ entries:
   - id: cal.thread.labor
     s: Labor
     c: 'The unions and their leaders in politics and policy: the AFL-CIO, its conventions and its Committee on Political Education; the Auto Workers, the Teamsters, the Mine Workers; endorsements, lobbying, the leaders'' dealings with the White House and the Congress.'
-    see_also: [labor-disputes, crime-and-hijacking]
+    see_also:
+      - labor-disputes
+      - crime-and-hijacking
   - id: cal.thread.labor-disputes
     s: Labor disputes
     c: 'Strikes and lockouts: the emergency boards, the injunctions, the settlements. {{1968-02..1968-10|New York''s three teachers'' strikes.}} {{1969-01|San Francisco State''s teachers.}}'
@@ -662,6 +829,10 @@ entries:
   - id: cal.thread.vietnam-asian-trip
     s: Asian trip
     parent: vietnam
+  - id: cal.thread.vietnam-barrier
+    s: Barrier
+    c: 'The anti-infiltration barrier below the demilitarized zone and in Laos: Practice Nine, Dye Marker, the strong points and the sensors.'
+    parent: vietnam
   - id: cal.thread.vietnam-pause
     s: Bombing pause
     parent: vietnam
@@ -671,9 +842,42 @@ entries:
   - id: cal.thread.vietnam-buttercup
     s: Buttercup
     parent: vietnam
+  - id: cal.thread.vietnam-clifford-trip
+    s: Clifford's trip
+    parent: vietnam
+  - id: cal.thread.vietnam-clifford-taylor
+    s: Clifford–Taylor mission
+    parent: vietnam
   - id: cal.thread.vietnam-congress
     s: Congress and the President
     c: 'The war as Congress met it: hearings and reports, the votes on its money, the briefings at the White House, the members'' speeches and statements, their letters, memoranda and talks with the President. {{1963-08-19|Mansfield''s "Observations."}} {{1966-04-21|Fulbright''s "arrogance of power."}}'
+    parent: vietnam
+  - id: cal.thread.vietnam-congress-armed-services
+    s: Armed Services
+    c: 'Russell, Stennis, Symington and Jackson: the Armed Services and Preparedness members'' trips, hearings and statements, for more force or against the war''s conduct.'
+    parent: vietnam-congress
+  - id: cal.thread.vietnam-congress-foreign-relations
+    s: Foreign Relations
+    c: 'Fulbright and his committee: the executive sessions and the hearings, the staff''s memoranda, Fulbright''s speeches, letters and books, his break with Johnson, the Tonkin incidents reexamined.'
+    parent: vietnam-congress
+  - id: cal.thread.vietnam-congress-mansfield
+    s: Mansfield
+    c: 'The majority leader''s counsel and proposals: his memoranda and letters to Johnson and the replies, his speeches, the Security Council resolution.'
+    parent: vietnam-congress
+  - id: cal.thread.vietnam-congress-republicans
+    s: Republicans
+    c: 'The Republican members on the war: the policy committees'' papers, Findley''s and Percy''s resolutions, Ford, Morton, Javits and Cooper.'
+    parent: vietnam-congress
+  - id: cal.thread.vietnam-34a
+    s: Covert operations
+    c: 'OPLAN 34A: the raids, the agents and the patrols against the North, and the reports on them.'
+    parent: vietnam
+  - id: cal.thread.vietnam-diplomacy
+    s: Diplomacy
+    c: 'The approaches to Hanoi and the talk of a settlement outside the named channels: neutralization, de Gaulle, U Thant''s and the third countries'' proposals, the Negotiations Committee, the allies'' troops and aid.'
+    parent: vietnam
+  - id: cal.thread.vietnam-eisenhower
+    s: Eisenhower's counsel
     parent: vietnam
   - id: cal.thread.vietnam-force-levels
     s: Force levels
@@ -691,6 +895,20 @@ entries:
   - id: cal.thread.vietnam-hearings
     s: Fulbright hearings
     parent: vietnam
+  - id: cal.thread.vietnam-guam
+    s: Guam conference
+    parent: vietnam
+  - id: cal.thread.vietnam-tonkin
+    s: Gulf of Tonkin
+    c: The attacks reported on the Maddox and the Turner Joy, the reprisal, the resolution, and the patrols after.
+    parent: vietnam
+  - id: cal.thread.vietnam-hanoi
+    s: Hanoi
+    c: 'The North''s decisions and its allies'' aid: the Party''s plenums and resolutions, the forces sent south, its charges and answers, the Chinese troops in the North, the arrests at home.'
+    parent: vietnam
+  - id: cal.thread.vietnam-honolulu
+    s: Honolulu conference
+    parent: vietnam
   - id: cal.thread.vietnam-humphrey
     s: Humphrey in Asia
     parent: vietnam
@@ -699,6 +917,10 @@ entries:
     parent: vietnam
   - id: cal.thread.vietnam-johnson-asia
     s: LBJ in Asia
+    parent: vietnam
+  - id: cal.thread.vietnam-macv
+    s: MACV
+    c: 'The Military Assistance Command in the South: its organization and commanders, its plans and directives, its advisers, its rules of engagement, and the arming and training of the South''s forces.'
     parent: vietnam
   - id: cal.thread.vietnam-marigold
     s: Marigold
@@ -710,6 +932,9 @@ entries:
   - id: cal.thread.vietnam-mayflower
     s: Mayflower
     parent: vietnam
+  - id: cal.thread.vietnam-montagnards
+    s: Montagnards
+    parent: vietnam
   - id: cal.thread.vietnam-commitments
     s: National commitments
     parent: vietnam
@@ -720,6 +945,10 @@ entries:
   - id: cal.thread.vietnam-order-of-battle
     s: Order of battle
     c: The count of the enemy, MACV's order of battle against the CIA's estimate.
+    parent: vietnam
+  - id: cal.thread.vietnam-pacification
+    s: Pacification
+    c: 'The programs for the countryside and its people: the hamlets, Hop Tac, civic action, Chiêu Hồi and national reconciliation, Revolutionary Development, and their management in Saigon and Washington, to CORDS.'
     parent: vietnam
   - id: cal.thread.vietnam-packers
     s: Packers
@@ -733,6 +962,9 @@ entries:
     parent: vietnam
   - id: cal.thread.vietnam-prisoners
     s: Prisoners
+    parent: vietnam
+  - id: cal.thread.vietnam-rfk-front
+    s: Robert Kennedy and the Front
     parent: vietnam
   - id: cal.thread.vietnam-saigon
     s: Saigon's governments
