@@ -501,6 +501,24 @@ CQ Weekly Report, 1968-08-16:
 
 ## National
 
+### The building trades (Nov. 4, 2026; inbox/2026-11-04-building-trades.yaml)
+- The Cleveland Plan, 1966-67: the OFCC's pre-award manning requirements on federally assisted construction in
+  Cleveland, and their suspension; the days not found. Upheld in the State courts after the span: *Weiner v. Cuyahoga
+  Community College Dist.*, 19 Ohio St. 2d 35 (1969) (recalled; the page to check). Graham, *Civil Rights Era*;
+  Sugrue, *Affirmative Action from Below*.
+- The common-situs bills after the hearings of June 1965: whether House Education and Labor reported one in the 89th
+  or 90th Congress, and any floor action (the Daily Digest; CQ Almanac 1965-67).
+- The Douglas Commission's report, *Building the American City* (Dec. 1968), and the Kaiser Committee's technical
+  studies (1968), Dunlop and Mills on construction labor among them: the day each was transmitted; not in the
+  calendar beyond the commission's appointment (cal.1967-01-12.cities-and-housing) and the Kaiser report
+  (Jan. 1969).
+- The Downstate Medical Center protests, July-Aug. 1963: Rockefeller's agreement with the Brooklyn ministers, its
+  day (cal.1963-07.civil-rights-organizations); Taylor, *Black Churches of Brooklyn*; Biondi, *To Stand and Fight*.
+- Comptroller General Staats's opinion on the Philadelphia Pre-Award Plan, 48 Comp. Gen. 326 (1968): the day,
+  recalled as Nov. 18, 1968 (cal.1968-11.civil-rights-the-executive).
+- The Gateway Arch walkout of early 1966 and the injunction, *United States v. Building & Construction Trades Council
+  of St. Louis*, 271 F. Supp. 447 (E.D. Mo. 1966): the days (cal.1966-02-04.states-and-cities-st-louis).
+
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
 - Watson, *Into the Missile Age*, 350, names Gates's testimony of Jan. 25, 1960, before House Science and Astronautics:
   narrow the Check on cal.1960-01-26.defense.

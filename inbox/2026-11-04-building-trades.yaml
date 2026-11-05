@@ -1,0 +1,122 @@
+# The building trades, 1961-68: the AFL-CIO's censure of Randolph, the job-site protests of 1963, the Davis-Bacon
+# amendment of 1964, the Gateway Arch and the St. Louis suit, the common-situs hearings of 1965, and the Philadelphia
+# Pre-Award Plan and its suspension. Written in a claude.ai chat of Nov. 4, 2026, from a conversation on the building
+# trades' industrial relations; no book read. Hard: the pages read in that chat (the King Papers Project's headnote and
+# note 1; the Encyclopedia of Greater Philadelphia; the Gateway Arch Park Foundation; the Civil Rights Litigation
+# Clearinghouse's case page; govinfo's hearing record and the 2001 Code's amendment notes; the American Presidency
+# Project's text of the Davis-Bacon remarks, cited by the Public Papers' item it matches, sources/ppp-matches.json;
+# 442 F.2d 159, notes 7 and 10, at law.resource.org). Soft, recalled: every work behind "To check:", and each "(Check)"
+# in c. The cases' PDFs were not opened. New cards in works/ (same commit): goldberg-black-power-at-work,
+# maclean-freedom-is-not-enough, marshall-negro-and-apprenticeship, mills-industrial-relations-and-manpower,
+# pfeffer-philip-randolph-pioneer, skrentny-ironies-of-affirmative-action, taylor-black-churches-of-brooklyn,
+# thieblot-davis-bacon-act. Leads: notes/leads.md, National, "The building trades" (same commit).
+patch: building-trades
+by: Claude (claude.ai chat, Nov. 4, 2026)
+ops:
+- add:
+    entry:
+      id: cal.1961-10-12.labor
+      when: Oct. 12
+      date: '1961-10-12'
+      thread: labor
+      also: [civil-rights-organizations]
+      c: 'AFL-CIO Executive Council censures Randolph, on the report of Potofsky, Harrison and Walsh, dated Oct. 12; every member but Randolph for. He had asked that the federation require its national and international unions to desegregate. The report disputes his charges; the Brotherhood of Sleeping Car Porters said to employ only nonwhite workers.'
+      n: '[King Papers Project, "Press Release, Statement in Defense of A. Philip Randolph," Oct. 13, 1961](https://kinginstitute.stanford.edu/king-papers/documents/press-release-statement-defense-philip-randolph), headnote and n.1. To check: Jacob S. Potofsky, George M. Harrison and Richard F. Walsh, "Report to the Executive Council of the AFL-CIO," Oct. 12, 1961; AFL-CIO press release, Oct. 13, 1961; Stanley Levey, [*New York Times*, Oct. 13, 1961](https://timesmachine.nytimes.com/timesmachine/1961/10/13/issue.html) (all cited by the King Papers Project, n.1); ["Meany and the Unions," *Harvard Crimson*, Oct. 19, 1961](https://www.thecrimson.com/article/1961/10/19/meany-and-the-unions-pgeorge-meany); [[w.anderson-philip-randolph]]; [[w.pfeffer-philip-randolph-pioneer]]. Names: Randolph. Check: the day of the vote (the report is dated Oct. 12; the Project says the October quarterly meeting).'
+      tags: [name:randolph-a-philip]
+- add:
+    entry:
+      id: cal.1961-10-13.labor
+      when: Oct. 13
+      date: '1961-10-13'
+      thread: labor
+      also: [civil-rights-organizations]
+      c: 'Atlanta. King, by press release, for Randolph: the Executive Council''s report inaccurate and insulting; Randolph "second to none, not only in our nation but in the world."'
+      n: '[King, "Press Release, Statement in Defense of A. Philip Randolph," Oct. 13, 1961](https://kinginstitute.stanford.edu/king-papers/documents/press-release-statement-defense-philip-randolph) (King Papers Project). See [[cal.1961-10-12.labor]]. Names: King, Randolph.'
+      tags: [name:king-martin-luther-jr, name:randolph-a-philip]
+- add:
+    entry:
+      id: cal.1963-05.civil-rights-organizations
+      when: May
+      date: '1963-05'
+      thread: civil-rights-organizations
+      c: 'Philadelphia. Protesters at a school construction site at Thirty-first and Dauphin Streets, Strawberry Mansion, over jobs in the building trades. Cecil Moore, president of the NAACP''s branch (Check), at a protest at City Hall over building jobs.'
+      n: '[*Encyclopedia of Greater Philadelphia*, "Philadelphia Plan"](https://philadelphiaencyclopedia.org/essays/philadelphia-plan-2). To check: [[w.sugrue-affirmative-action-from-below]]; [[w.countryman-up-south]]; [[w.goldberg-black-power-at-work]]. Names: Moore. Check: the days; the NAACP''s part.'
+      tags: [state:pa, city:philadelphia, name:moore-cecil-b]
+- add:
+    entry:
+      id: cal.1963-07.civil-rights-organizations
+      when: July
+      date: '1963-07'
+      thread: civil-rights-organizations
+      c: 'New York and Newark. Picket lines and sit-ins at public construction sites against the building trades'' exclusion of Negroes (Check): Harlem Hospital; the Downstate Medical Center, Brooklyn; Barringer High School, Newark (Check).'
+      n: 'To check: [[w.sugrue-affirmative-action-from-below]]; [[w.taylor-black-churches-of-brooklyn]]; [[w.biondi-to-stand-and-fight]]; [[w.freeman-working-class-new-york]]. See [[cal.1963-05.civil-rights-organizations]]. Check: the sites, the days and the leaders, recalled; the agreement with Rockefeller on Downstate.'
+      tags: [state:ny, city:nyc, state:nj, city:newark]
+- add:
+    entry:
+      id: cal.1964-07-02.jobs-and-wages
+      when: July 2
+      date: '1964-07-02'
+      thread: jobs-and-wages
+      c: 'Davis-Bacon Act amended, [78 Stat. 238](https://www.govinfo.gov/content/pkg/STATUTE-78/pdf/STATUTE-78-Pg238.pdf): the prevailing wage on federal construction to count fringe benefits, medical and hospital care, pensions, unemployment benefits, vacation and holiday pay among them. Johnson, signing H.R. 6041: such benefits not common when the act passed some thirty years before.'
+      n: 'Remarks Upon Signing Bill Broadening the Prevailing Wage Section of the Davis-Bacon Act, [1963–64 Pub. Papers 840](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=80) (July 2, 1964). The amendment: [40 U.S.C. § 276a, source credits and notes, in govinfo''s 2001 Code](https://www.govinfo.gov/content/pkg/USCODE-2001-title40/html/USCODE-2001-title40-chap3-sec276a.htm). To check: [[w.thieblot-davis-bacon-act]]; [[w.mills-industrial-relations-and-manpower]]. Names: Johnson. Check: the statute''s file on govinfo (the link built, not opened).'
+      tags: [name:johnson-lyndon-b]
+- add:
+    entry:
+      id: cal.1964-07-14.states-and-cities-st-louis
+      when: July 14
+      date: '1964-07-14'
+      thread: states-and-cities
+      also: [civil-rights-organizations]
+      c: 'St. Louis. Percy Green and Richard Daly, of CORE (Check), climb a 125-foot construction ladder on the unfinished north leg of the Gateway Arch and stay about six hours, against the exclusion of Negroes from its crews. Both arrested.'
+      n: '[Gateway Arch Park Foundation, "Percy Green: The Man Who Climbed the Gateway Arch"](https://www.archpark.org/updates/news/percy-green-the-man-who-climbed-the-gateway-arch). To check: [[w.lang-grassroots-at-the-gateway]]. See [[cal.1963-08-30.states-and-cities-st-louis]]. Check: CORE''s part (the page names ACTION, which Green founded after).'
+      tags: [state:mo, city:st-louis]
+- add:
+    entry:
+      id: cal.1965-06-21.labor
+      when: June 21–30
+      date: '1965-06-21'
+      thread: labor
+      c: 'House Education and Labor''s Special Subcommittee on Labor opens hearings on H.R. 6411 and like bills, common situs picketing: section 8(b)(4) of the National Labor Relations Act amended. To June 30. The bills to let a building trades union picket a whole site in a dispute with one contractor on it (Check).'
+      n: '[Common situs picketing, hearings on H.R. 6411 and similar bills, Special Subcommittee on Labor, House Committee on Education and Labor, 89th Cong., June 21–30, 1965](https://www.govinfo.gov/app/details/CHRG-89hhrg51317) (govinfo; the record''s description read, not the text). To check: [[w.mills-industrial-relations-and-manpower]]; the hearing''s text; the Daily Digest''s rows for the days; *NLRB v. Denver Bldg. & Constr. Trades Council*, [341 U.S. 675](https://tile.loc.gov/storage-services/service/ll/usrep/usrep341/usrep341675/usrep341675.pdf) (1951) (the rule the bills would undo). Check: the chairman; whether a bill was reported in the 89th or 90th Congress.'
+- add:
+    entry:
+      id: cal.1966-02-04.states-and-cities-st-louis
+      when: Feb. 4
+      date: '1966-02-04'
+      thread: states-and-cities
+      also: [civil-rights-the-executive]
+      c: 'St. Louis. The United States sues six of the city''s labor organizations under Title VII for a pattern or practice of discrimination against Negroes, the Building and Construction Trades Council, Local 1 of the Electrical Workers and Local 36 of the Sheet Metal Workers among them. Its first suit under Title VII for discrimination in hiring. Before it, the crafts had refused to work on the Gateway Arch beside Negro craftsmen of an independent union, and a court enjoined the boycott (Check the days).'
+      n: '[Civil Rights Litigation Clearinghouse, *United States v. Sheet Metal Workers Int''l Ass''n, Local Union No. 36*, No. 66C 58(2) (E.D. Mo.)](https://clearinghouse.net/case/10879/) (the suit, its day, parties and charge; the Arch); [Gateway Arch Park Foundation, "Percy Green"](https://www.archpark.org/updates/news/percy-green-the-man-who-climbed-the-gateway-arch) (the first suit). To check: [[w.lang-grassroots-at-the-gateway]]; [[w.graham-civil-rights-era]]; the complaint; *United States v. Building & Constr. Trades Council of St. Louis*, [271 F. Supp. 447](https://static.case.law/f-supp/271/case-pdfs/0447-01.pdf) (E.D. Mo. 1966) (the boycott enjoined; cited by the Clearinghouse). See [[cal.1964-07-14.states-and-cities-st-louis]]. Check: the walkout''s days; the six defendants'' names.'
+      tags: [state:mo, city:st-louis]
+- add:
+    entry:
+      id: cal.1967-11-30.civil-rights-the-executive
+      when: Nov. 30
+      date: '1967-11-30'
+      thread: civil-rights-the-executive
+      c: 'Philadelphia. The Federal Executive Board puts the Philadelphia Pre-Award Plan into effect: the apparent low bidder on a construction contract or subcontract to submit, before award, a written affirmative action program for minority representation in eight trades.'
+      n: '*Contractors Ass''n of E. Pa. v. Sec''y of Labor*, [442 F.2d 159](https://static.case.law/f2d/442/case-pdfs/0159-01.pdf) (3d Cir. 1971), n.7, read in [law.resource.org''s text](https://law.resource.org/pub/us/case/reporter/F2/442/442.F2d.159.19027.html). To check: [[w.graham-civil-rights-era]]; [[w.skrentny-ironies-of-affirmative-action]]; [[w.kotlowski-nixons-civil-rights]]; [[w.maclean-freedom-is-not-enough]]; [[w.goldberg-black-power-at-work]]; [[w.sugrue-affirmative-action-from-below]]. See [[cal.1965-09-24.civil-rights-the-executive]]. Check: the page of n.7; the eight trades.'
+      tags: [state:pa, city:philadelphia]
+- add:
+    entry:
+      id: cal.1968-03-07.civil-rights-the-executive
+      when: Mar. 7
+      date: '1968-03-07'
+      thread: civil-rights-the-executive
+      c: 'St. Louis. The District Court gives judgment for Local 36 of the Sheet Metal Workers and Local 1 of the Electrical Workers in the Title VII suit, dismissing it with prejudice: the Act prospective, no penalty for practices before it took effect.'
+      n: '[Civil Rights Litigation Clearinghouse, case 10879](https://clearinghouse.net/case/10879/) (the judgment, its day and ground). To check: *United States v. Sheet Metal Workers Int''l Ass''n*, [280 F. Supp. 719](https://static.case.law/f-supp/280/case-pdfs/0719-01.pdf) (E.D. Mo. 1968); the reversal, *United States v. Sheet Metal Workers Int''l Ass''n*, [416 F.2d 123](https://static.case.law/f2d/416/case-pdfs/0123-01.pdf) (8th Cir. 1969). See [[cal.1966-02-04.states-and-cities-st-louis]].'
+      tags: [state:mo, city:st-louis]
+- add:
+    entry:
+      id: cal.1968-11.civil-rights-the-executive
+      when: Nov.
+      date: '1968-11'
+      thread: civil-rights-the-executive
+      c: 'The Comptroller General: the Philadelphia Pre-Award Plan violates the principles of competitive bidding, and may conflict with Title VII. The Plan suspended.'
+      n: '*Contractors Ass''n of E. Pa. v. Sec''y of Labor*, [442 F.2d 159](https://static.case.law/f2d/442/case-pdfs/0159-01.pdf) (3d Cir. 1971), nn.7, 10, read in [law.resource.org''s text](https://law.resource.org/pub/us/case/reporter/F2/442/442.F2d.159.19027.html) (the opinion, 48 Comp. Gen. 326 (1968), and the suspension). To check: 48 Comp. Gen. 326 (1968). See [[cal.1967-11-30.civil-rights-the-executive]]. Check: the day (Nov. 18, recalled); Staats.'
+- to-check:
+    id: cal.1963-06-04.civil-rights-the-executive
+    add: ['[[w.marshall-negro-and-apprenticeship]]', '[[w.goldberg-black-power-at-work]]']
+- to-check:
+    id: cal.1965-09-24.civil-rights-the-executive
+    add: ['[[w.skrentny-ironies-of-affirmative-action]]', '[[w.maclean-freedom-is-not-enough]]']
