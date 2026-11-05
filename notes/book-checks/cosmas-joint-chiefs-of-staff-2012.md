@@ -179,5 +179,5 @@ Every dated military event of the volume not entered and not already in, a row e
 
 National:
 - The JCS records the notes cite by JMF and OCJCS file (RG 218, National Archives): every JCS, CINCPAC and COMUSMACV message of the new entries; and the CINCPAC Command Histories of 1964–66, the MACV Command Histories of 1965–66 and the SAC History of 1965–66 by page. Where found open, read them against the entries' "To check:".
-- Places for the gazetteer (`sources/vn-provinces-1966/places.json`), for the tags: Phúc Yên airfield, Tuy Hòa, the Quảng Khê naval base, Xóm Bàng, Đồng Tâm.
-- Name entries proposed (Part III): Paul R. Ignatius (the air munitions task force, 1966), David A. Burchinal (Director, Joint Staff, 1965), Carroll H. Dunn (MACV's construction director, 1966), Norvell G. Ward (Naval Forces, Vietnam, 1966).
+- Places for the gazetteer (`sources/vn-provinces-1966/places.json`), for the tags: Phúc Yên airfield, Tuy Hòa, the Quảng Khê naval base, Xóm Bàng, Đồng Tâm. Settled Nov. 5, 2026: Phúc Yên, Tuy Hòa and Đồng Tâm added and their entries tagged; Quảng Khê and Xóm Bàng have no Wikipedia coordinates found (notes/leads.md, Foreign).
+- Name entries proposed (Part III): Paul R. Ignatius (the air munitions task force, 1966), David A. Burchinal (Director, Joint Staff, 1965), Carroll H. Dunn (MACV's construction director, 1966), Norvell G. Ward (Naval Forces, Vietnam, 1966). Settled Nov. 5, 2026: Ignatius, Burchinal and Dunn had name entries (the Executive roster) and are now tagged; Ward added to Viet. III.D and tagged.

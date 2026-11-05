@@ -10,7 +10,9 @@ every pending patch before the first is merged and lists what a person must sett
 
 STYLE
  1. Refused outright: an edit or delete without a base (the merge would let the last writer win); an edit whose base
-    is in neither the tree nor git's history (the merge would treat every field it names as a conflict); one patch
+    is in neither the tree nor git's history (the merge would treat every field it names as a conflict; a base written
+    unquoted, all digits, loads as a number: it is read back as the rev, merge._base, and the refusal says to quote it);
+    one patch
     editing an entry twice (its second edit would conflict with its first); an edit whose base is the entry as it now
     stands but whose note would drop a work the note cites as read, or one of its Checks: a value built from an older
     text paired with the current rev, which would erase another patch's merged work (drops()).
@@ -55,7 +57,7 @@ def drops(cur, new):
 
 def audit(series, paths):
     """The findings, as lines grouped under headings (STYLE 1-4)."""
-    from .merge import find_base
+    from .merge import _base, find_base
     patches = load(paths)
     refused, overlaps, collide, near = [], [], [], []
     edits = collections.defaultdict(list)              # id -> [(patch, fields)]
@@ -72,11 +74,13 @@ def audit(series, paths):
             if kind in ("edit", "delete"):
                 eid = body.get("id")
                 seen[eid] += 1
+                base = _base(body.get("base"))
+                hint = "" if isinstance(body.get("base"), str) else " (written unquoted, it loads as a number: quote it)"
                 if not body.get("base"):
                     refused.append(f"{name}: {kind} {eid} has no base")
-                elif series.get(eid) and find_base(series, eid, body["base"]) is None:
-                    refused.append(f"{name}: {kind} {eid}: base {body['base']} not in the tree or git history")
-                if kind == "edit" and series.get(eid) and body.get("base") == store.rev(series.get(eid)[2]):
+                elif series.get(eid) and find_base(series, eid, base) is None:
+                    refused.append(f"{name}: {kind} {eid}: base {base} not in the tree or git history{hint}")
+                if kind == "edit" and series.get(eid) and base == store.rev(series.get(eid)[2]):
                     lost = drops(series.get(eid)[2].get("n") or "", (body.get("set") or {}).get("n"))
                     if lost:
                         refused.append(f"{name}: edit {eid} would drop what the note now holds: {'; '.join(lost)}")

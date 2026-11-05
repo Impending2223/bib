@@ -1674,7 +1674,7 @@ Searched in FRUS by text and date (sources/frus-text), the *Bulletin*'s index an
   - The days Chen gives by month only: the Soviet experts recalled, July 1960 (82; his CWIHP Bulletin article, nos. 8–9, 246–50, not read); Zhou Enlai in Moscow, November 1964 (84). The Navy's record of the engagement off Hainan, Apr. 8–9, 1965. American knowledge of the Chinese antiaircraft divisions, Aug. 1965 (Whiting, *Chinese Calculus of Deterrence*, 176–95, by Chen's notes: no card, not read).
   - Chen's Beijing–Hanoi meetings with no trace in Washington found, not entered (the list in chen-maos-china.md): the People's Daily editorial of Mar. 25, 1965 and Zhou at Tirana, Mar. 29, offering Chinese personnel, may have one (the *Bulletin*, CIA's daily brief).
   - *77 Conversations between Chinese and Foreign Leaders* (`w.77-conversations-between-chinese`): Zhou to Ayub Khan, Apr. 2, 1965, 79–85, and to Subandrio, May 28, 88, not read; read them for the place of the Ayub meeting.
-  - Lào Cai and Lạng Sơn not in the gazetteer (Wikipedia's articles give no coordinates now); the entries name Yên Bái and Kép.
+  - Lạng Sơn not in the gazetteer (Wikipedia's article gives no coordinates now); the entries name Yên Bái and Kép. Lào Cai added Nov. 5, 2026, from "Lào Cai (city)" (`place:lao-cai`).
 
 ### Chen Jian, *Mao's China and the Cold War* (the back-fill agent, Oct. 29, 2026; notes/book-checks/chen-maos-china.md)
 
@@ -2122,6 +2122,12 @@ CQ Weekly Report, 1968-08-16:
 
 ### Thomas, *Robert Kennedy* (batch 3, fourth run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
 - Robert Kennedy's London stop on the way home from the Far East, late Jan. or Feb. 1964 (Thomas: February; the Bruces' dinner, Ann Fleming's letter in Amory, ed., *The Letters of Ann Fleming*).
+
+### The gazetteer and the name entries from the readers' leads (Nov. 5, 2026; Cosmas and Asselin book-checks)
+
+- Xóm Bàng (the ammunition depot of Rolling Thunder's first strike, `cal.1965-03-02.vietnam`, `cal.1965-03-01.vietnam-air-war-2`) and the Quảng Khê naval base (`cal.1964-07-03.vietnam-34a`, `cal.1965-03-02.vietnam`): not in the gazetteer, no Wikipedia article giving their coordinates found (en "Quảng Khê" is a commune of Lâm Đồng; vi.wikipedia puts the base "near the mouth of the Gianh River", and the Gianh River's article gives one point, not the mouth's). An Army Map Service sheet (L7014) or a USAF target list would place them; then tag those two entries.
+- Nguyễn Văn Linh (COSVN's head, `cal.1961-03-14.vietnam-hanoi`), Hoàng Văn Hoan (`cal.1964-06-27.vietnam-hanoi`) and Trần Quốc Hoàn (Asselin's lead): the calendar names the first two in notes only and the third nowhere, so no name entry was made; add one when an entry's `c` names them.
+- Lt. (j.g.) Karl Phaler's letter "from near Tuy Hòa" (`cal.1967-05.vietnam-congress`) left without `place:tuy-hoa`: the letter's place is approximate and the event is its receipt by Fulbright.
 
 ## The Executive roster
 

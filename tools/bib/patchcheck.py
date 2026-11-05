@@ -6,7 +6,8 @@
 STYLE
  1. Every op a known kind (tools/bib/merge.py OPS, tools/bib/addops.py).
  2. `edit` and `delete`: patchaudit's refusals (no base; a base the tree and git do not know; an edit dropping what the
-    note now holds; one entry edited twice). An `edit` that only adds to `n`, `src`, `tags` or `also` is a warning:
+    note now holds; one entry edited twice). A base written unquoted, all digits (69735970), loads as a number: it
+    is read back as the rev (merge._base), and accepted where it is one, with a warning to quote it. An `edit` that only adds to `n`, `src`, `tags` or `also` is a warning:
     write it as additive ops (addops), which need no base and do not collide.
  3. `add`: the entry's id, date, thread, `c` and `n`; not in the tree; claimed in the ledger (tools/bib/ledger.py) by
     this patch. A new entry on a day and thread the tree or the ledger already holds is a warning (the same event?).
@@ -98,7 +99,11 @@ def check(series, path, legacy=False):
             _, err = addops.FNS[kind](hit[2], body)
             if err:
                 errors.append(f"{kind} {eid}: {err}")
-        elif kind == "edit":
+        if kind in ("edit", "delete") and body.get("base") is not None and not isinstance(body["base"], str):
+            # YAML reads an all-digit rev as a number (STYLE 2): read back as the rev, merge._base; quote it
+            warnings.append(f"{kind} {eid}: base {body['base']!r} loads as a number; quote it: base: "
+                            f"'{merge._base(body['base'])}'")
+        if kind == "edit":
             sets = set((body.get("set") or {}).keys())
             if sets and sets <= {"n", "src", "tags", "also"} and not body.get("unset"):
                 warnings.append(f"edit {eid}: sets only {', '.join(sorted(sets))}; if it only adds, write additive ops "

@@ -1,0 +1,41 @@
+patch: 2026-11-05-places-names
+by: Claude (the readers' leads, Cosmas and Asselin book-checks)
+ops:
+  # Names: the name tags and the Names line
+  - names: {id: cal.1960-04-15.vietnam-hanoi, add: [Tôn Đức Thắng], tags: ['name:ton-duc-thang']}
+  - names: {id: cal.1961-03.vietnam-hanoi, add: [Hoàng Văn Thái], tags: ['name:hoang-van-thai']}
+  - names: {id: cal.1964-05.vietnam-hanoi, add: [Hoàng Văn Thái], tags: ['name:hoang-van-thai']}
+  - names: {id: cal.1961-04.vietnam-hanoi-2, add: [Ưng Văn Khiêm], tags: ['name:ung-van-khiem']}
+  - names: {id: cal.1961-10-24.vietnam-hanoi, add: [Ưng Văn Khiêm], tags: ['name:ung-van-khiem']}
+  - names: {id: cal.1962-07-22.laos, add: [Ưng Văn Khiêm], tags: ['name:ung-van-khiem']}
+  - names: {id: cal.1962-10-23.vietnam-hanoi, add: [Ưng Văn Khiêm], tags: ['name:ung-van-khiem']}
+  - names: {id: cal.1963-01.vietnam-hanoi, add: [Ưng Văn Khiêm], tags: ['name:ung-van-khiem']}
+  - names: {id: cal.1963-05-12.china, add: [Ưng Văn Khiêm], tags: ['name:ung-van-khiem']}
+  - names: {id: cal.1961-12.vietnam-hanoi-2, add: [Lê Quang Đạo], tags: ['name:le-quang-dao']}
+  - names: {id: cal.1963-11.vietnam-hanoi-2, add: [Hoàng Minh Chính], tags: ['name:hoang-minh-chinh']}
+  - names: {id: cal.1967-07-27.vietnam, add: [Hoàng Minh Chính], tags: ['name:hoang-minh-chinh']}
+  - names: {id: cal.1964-02.europe-and-the-alliance, add: [Burchinal], tags: ['name:burchinal-david-a']}
+  - names: {id: cal.1964-08-04.vietnam-3, add: [Burchinal], tags: ['name:burchinal-david-a']}
+  - names: {id: cal.1965-12-18.vietnam-force-levels, add: [Dunn], tags: ['name:dunn-carroll-h']}
+  - names: {id: cal.1966-02-15.vietnam-force-levels, add: [Dunn], tags: ['name:dunn-carroll-h']}
+  - names: {id: cal.1966-04-15.defense, add: [Ignatius], tags: ['name:ignatius-paul-r']}
+  - names: {id: cal.1966-02-14.vietnam-macv, add: [Ward], tags: ['name:ward-norvell-g']}
+  # Places: the gazetteer's new rows (sources/vn-provinces-1966/places.json), where the entry's event happened
+  - tag: {id: cal.1964-08-07.vietnam-air-war, add: ['place:phuc-yen']}
+  - tag: {id: cal.1967-10-24.vietnam-air-war, add: ['place:phuc-yen']}
+  - tag: {id: cal.1967-12-11.vietnam-air-war, add: ['place:phuc-yen']}
+  - tag: {id: cal.1968-02-10.vietnam-air-war, add: ['place:phuc-yen']}
+  - tag: {id: cal.1966-11.vietnam-force-levels, add: ['place:tuy-hoa']}
+  - tag: {id: cal.1967-01-09.vietnam-operations-2, add: ['place:dong-tam'], remove: ['province:dinh-tuong']}
+  - tag: {id: cal.1967-04-10.vietnam-operations, add: ['place:dong-tam'], remove: ['province:dinh-tuong']}
+  - tag: {id: cal.1961-07.vietnam-hanoi-2, add: ['place:lao-cai']}
+  - tag: {id: cal.1961-08.vietnam-hanoi, add: ['place:dong-anh', 'place:viet-tri']}
+  - tag: {id: cal.1961-08.vietnam-hanoi-2, add: ['place:lao-cai', 'place:viet-tri', 'place:hoa-binh']}
+  - tag: {id: cal.1961-09.vietnam-hanoi, add: ['place:son-la', 'place:lai-chau', 'place:sa-pa']}
+  - tag: {id: cal.1965-06-25.vietnam-air-war, add: ['place:son-la']}
+  - tag: {id: cal.1964-12-06.vietnam-hanoi, add: ['place:an-lao']}
+  - tag: {id: cal.1964-12-07.vietnam-operations, add: ['place:an-lao']}
+  - tag: {id: cal.1964-12-09.vietnam-operations, add: ['place:an-lao']}
+  - tag: {id: cal.1964-12-09.vietnam-operations-3, add: ['place:an-lao']}
+  - tag: {id: cal.1966-01-24.vietnam, add: ['place:an-lao']}
+  - tag: {id: cal.1967-04-08.vietnam-operations, add: ['place:an-lao'], remove: ['province:binh-dinh']}

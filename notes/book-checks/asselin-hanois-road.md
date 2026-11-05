@@ -237,11 +237,11 @@ None: the book gives no day's coverage. Its *Nhân Dân* and *Học Tập* items
 ### Leads
 
 - Foreign: the dated undated: each row above marked "a lead," with its note.
-- Foreign: places for the gazetteer (`sources/vn-provinces-1966/places.json`), Wikipedia's coordinates wanted: Đông Anh, Việt Trì, Lào Cai, Hòa Bình, Sơn La, Lai Châu, Sa Pa, An Lão (the 1961 entries and Dec. 6, 1964 left untagged there).
+- Foreign: places for the gazetteer (`sources/vn-provinces-1966/places.json`), Wikipedia's coordinates wanted: Đông Anh, Việt Trì, Lào Cai, Hòa Bình, Sơn La, Lai Châu, Sa Pa, An Lão (the 1961 entries and Dec. 6, 1964 left untagged there). Settled Nov. 5, 2026: all eight added (Lai Châu at the old provincial town, Mường Lay today) and the entries tagged.
 - Foreign: `cal.1962-07-19.vietnam`, July 19 or 20: the Front's statement (Asselin 136) and its declaration (128 n.63, VNAC3); the *Bulletin* or Liberation Radio's text would settle it.
 - Foreign: the NLF's memorandum to the co-chairmen of July 1, 1962 (Asselin 127–28, no note).
 - Foreign: Chen Yi and Nguyễn Duy Trinh, Peking, Dec. 17, 1965, *77 Conversations* (the card is held), 89.
-- Foreign: name entries wanted for Tôn Đức Thắng, Ưng Văn Khiêm, Hoàng Văn Hoan, Lê Quang Đạo, Hoàng Minh Chính, Nguyễn Văn Linh, Trần Quốc Hoàn, Hoàng Văn Thái (named in the new entries, no name entry; Part III, Viet.).
+- Foreign: name entries wanted for Tôn Đức Thắng, Ưng Văn Khiêm, Hoàng Văn Hoan, Lê Quang Đạo, Hoàng Minh Chính, Nguyễn Văn Linh, Trần Quốc Hoàn, Hoàng Văn Thái (named in the new entries, no name entry; Part III, Viet.). Settled Nov. 5, 2026: Tôn Đức Thắng, Ưng Văn Khiêm, Lê Quang Đạo, Hoàng Minh Chính and Hoàng Văn Thái added to Viet. III.H and tagged; Hoàng Văn Hoan, Nguyễn Văn Linh and Trần Quốc Hoàn are named in no entry's `c` (notes/leads.md, Foreign).
 - Foreign: Turley's *Second Indochina War* is carded in its 1986 edition; Asselin cites the 2d ed. (2009); Brocheux's *Ho Chi Minh* in French (2000), the card the English (2007); Szalontai's *Kim Il Sung in the Khrushchev Era* (2005), Grossheim's "'Revisionism' in the DRVN" (2005), the Party's history (1995) and the Defense Ministry's military history, vol. 11 (2005) have no cards: registered as study rows.
 
 Time: about five hours, two of them the mechanics.
