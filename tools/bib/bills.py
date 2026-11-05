@@ -8,7 +8,8 @@ STYLE
     where a day has more than one ("recommittal 199–226; passage 271–155"). A step with no roll call leaves the cell
     empty: the History of Bills does not say "voice vote", so neither does the table.
  3. The Record: the page as the History of Bills prints it, linked to the day's granule of that chamber's proceedings
-    on govinfo; a step the History misprints says so in its note (shown under the table).
+    on govinfo, no chamber after it: the H or S column names it (the owner, Nov. 4, 2026: "drop them in these tables,
+    where they're always and necessarily duplicative"); a step the History misprints says so in its note (shown under the table).
  4. The last row: approved, the Statutes cite linked to govinfo, the public law. The sources under the table: the
     History of Bills, by year, linked; Voteview.
  5. A step the History does not give (the message that asked for the bill, a run of roll calls on amendments) is
@@ -84,8 +85,7 @@ def rec_link(s):
     pkg = re.match(r"(GPO-CRECB-\d{4}-pt\d+)", g).group(1)
     y = int(g[10:14])
     page = f", {s['page']}" if s.get("page") else ""
-    ch = "House" if s.get("chamber") == "House" else "Senate"
-    return f'<a href="{esc(REC.format(pkg=pkg, g=g))}">{VOL.get(y, "")} Cong. Rec.{page}</a> ({ch})'
+    return f'<a href="{esc(REC.format(pkg=pkg, g=g))}">{VOL.get(y, "")} Cong. Rec.{page}</a>'
 
 
 def votes(s):
