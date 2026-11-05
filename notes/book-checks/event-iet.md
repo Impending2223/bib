@@ -24,10 +24,9 @@ entry, `cal.1963-07-18.economy`; every new entry points back by `See`.
   page images of PDF 431, 437 and 441 (pp. 418, 424, 428). Read: every page naming the tax, Eurobonds, direct investment
   or mandatory controls (pp. 277, 400, 413, 417–24, 428, 443, 460–61, 533). In-text citations, not notes: its sources go
   in as passages (`part_of` the card), not by-work edges.
-- **Not read.** Gavin, `w.gavin-gold-dollars-and-power`: the Drive copy is 16.7 MB, over the download limit (10 MB), and
-  the Drive's text rendering stops after the front matter; the cites already pinned (103, 108, 125) stand. Bernstein's
-  *Guns or Butter* on the Drive (43 MB) likewise. Roosa, Solomon, Coombs, Eichengreen and Kunz: no copy on the Drive;
-  they stay behind "To check:" on the first entry.
+- **Not read by the first reader.** Gavin, `w.gavin-gold-dollars-and-power`, and Bernstein, *Guns or Butter*: over the
+  Drive tool's limit; read by the second reader (below, "The second reader"). Roosa, Solomon, Coombs, Eichengreen and
+  Kunz: no copy on the Drive; they stay behind "To check:" on the first entry.
 
 ## Cites held up
 
@@ -137,8 +136,6 @@ and the Record's pages read for the votes. Rows in date order.
 - Ōhira on Aug. 1, 1963: FRUS IX, doc. 81 has him with Ball and Rusk separately; the entry names Ball only.
 - The printed hearings: Ways and Means, Aug. 1963 and Feb. 1967; Senate Finance, June–July 1964 and July 1967 (govinfo
   or HathiTrust).
-- Gavin's book is over the Drive tool's 10 MB limit; Bernstein's too. A smaller copy, or a split, would let them be
-  read for this event.
 
 ### Foreign
 
@@ -151,3 +148,108 @@ and the Record's pages read for the votes. Rows in date order.
 ### The Executive roster
 
 - None.
+
+## The second reader (Nov. 5, 2026): Gavin and Bernstein
+
+Patch `inbox/2026-11-04-iet-2.yaml` (iet-2); witnesses `inbox/witnesses/2026-11-04-iet-2.yaml`; edges appended to
+`sources/witnesses/by-work/gavin-gold-dollars-and-power.yaml` and `bernstein-guns-or-butter.yaml`.
+
+### The copies
+
+- **Gavin**, *Gold, Dollars, and Power* (2004): the owner's Drive copy (archive.org's scan, 288 PDF pages, text layer),
+  fetched by `curl` (R54). Printed page = PDF page − 20 throughout (pp. 90, 101–10, 117–25, 172–78, 204, the notes
+  228–31, 234, 242), checked on the page images of PDF 123, 129, 145 (pp. 103, 109, 125) and 224 (p. 204). Deleted.
+- **Bernstein**, *Guns or Butter* (1996): the owner's Drive copy (649 PDF pages, text layer). The offset changes at the
+  plates: PDF − 11 to p. 189, − 27 at pp. 363–77, − 43 at p. 479 and the notes (565–66); checked on the page images of
+  PDF 394, 400, 609 (pp. 367, 373, 566). Deleted.
+
+### What the books say of the event
+
+- **Gavin** treats the tax in one sentence: after the meeting of Apr. 18, 1963, Kennedy's memorandum to the Cabinet
+  Committee (Apr. 20) has the Treasury prepare opinion for a drawing on the Fund, "In addition, the interest
+  equalization tax was developed to discourage the use of U.S. capital markets by foreign borrowers" (103). The
+  appendix names "the Interest Equalization Act of 1963" as the first of the controls on foreign investment that ended in
+  the program of 1968 (204): the act is the Interest Equalization Tax Act, 78 Stat. 809, signed Sept. 2, 1964, the tax
+  running from July 19, 1963; settled by the record, no Check. Nothing on the Canadian exemption (1963 or 1968), the
+  bills of 1964, 1965 and 1967, or the voluntary program of 1965 ("voluntary" first at 173, of late 1967). The 1967–68
+  measures: 172–78 (the gold pool after devaluation; the Cabinet Committee in December; the program of Jan. 1, 1968;
+  the officials sent to Europe, Japan and Canada, 178), all but the missions already pinned by earlier readers. The
+  devaluation question: Acheson's cover letter of Feb. 25, 1963 (98 n.22, already a Check on `cal.1963-02-26.economy`);
+  after sterling's devaluation, ending the pool would raise the official price of gold, "validating de Gaulle's monetary
+  policy" (172); the fear of going off gold (174): no dated event not already entered.
+- **Bernstein** never names the tax. Its pages on the balance of payments (365, 367, 369, 371, 373; 479 on Fowler and
+  the reserves, Mar. 4, 1968) are all in the surcharge story and already pinned by the surcharge readers, but for
+  Okun's memorandum (367) and Smathers's letter (373), entered below.
+
+### Cites held up
+
+| entry | what it says | the book | ruling |
+|---|---|---|---|
+| `cal.1963-07-18.economy` | Gavin 103 (the tax and the drawing on the Fund prepared) for B–C | 103: the memorandum of Apr. 20 directs the IMF request's preparation; the tax "developed" | holds, as its parenthetical says (not for the rates or the dates); kept |
+| `cal.1963-07-18.economy` | Gavin 108 (the cuts in Defense's spending abroad) for D, "about $1 billion by 1965" | 108: McNamara's cuts presented July 16, "only a beginning" (n.76: FRUS IX, doc. 28); no figure, no message | cut (edit, base b4a23016): the page is the July 16 memorandum's, already cited on `cal.1963-07-16.economy-2`; D stands on the Papers and FRUS IX, doc. 29 |
+| `cal.1965-02-10.economy` | Gavin 125 (the message, against "a system based on gold alone") for A | 125: "A week after de Gaulle's press conference," the message, the quotation (n.36: the Treasury's administrative history) | holds; Gavin gives no deficit figure (the parenthetical says so) |
+| `cal.1963-09-12.economy` | (not cited) | 109 & nn.78–79 (FRUS IX, 87–88): McNamara to present further cuts; the Treasury a contingency plan for direct capital controls | pinned, A, C |
+| `cal.1968-03-22.economy-surcharge` | (not cited) | Bernstein 373–74 & n.7 (Fowler to Johnson, Mar. 22, 1968): Fowler's report, Mills and Mahon's jurisdiction | pinned, C |
+
+No IET entry cited Bernstein or held either book behind "To check:".
+
+### Entries added (7)
+
+- 1967: Smathers to Johnson, back from Europe: cut appropriations and raise taxes (Oct. 2; Bernstein 373 & n.7; the day
+  from the note, Check).
+- 1968: Katzenbach, Deming and Roth in Europe, Jan. 2–6, London to Chequers (FRUS VIII, docs. 172, 174; XII, doc. 286;
+  XIII, doc. 284 n.2; Gavin 178); Eugene Rostow with Satō, Tokyo (Jan. 3; FRUS VIII, doc. 169; thread Japan); Walt
+  Rostow to Johnson, the first reactions, Australia asking loans free of the tax (Jan. 5; doc. 172); the European
+  report (Jan. 7; doc. 174); Eugene Rostow to Rusk (Jan. 8; doc. 175); Okun to Johnson, interest rates and prices (May
+  22; Bernstein 367; the day a Check, below).
+
+The merge flags `cal.1967-10-02.economy-surcharge-2` beside `cal.1967-10-02.economy-surcharge` (Rostenkowski through
+Roche): two acts; `--take keep`.
+
+Disagreements: Bernstein dates Okun's memorandum May 23, 1968 in the text (367), May 22 in both notes that list it (566
+nn.5, 8); entered May 22 with the Check. FRUS VIII, doc. 172 n.8 dates Eugene Rostow's meeting with McEwen Jan. 7,
+though the telegram of Jan. 6, 0044Z, already reports Australia's reaction: not entered (the day unsettled).
+
+### Records and witnesses
+
+Read and cited first: FRUS 1964–68, VIII, docs. 169, 172, 174, 175; XII, doc. 286; XIII, doc. 284 (sources/frus-text).
+Registered: Kennedy's memorandum for the record, Sept. 12, 1963 (FRUS IX, doc. 33; read; Gavin 109 nn.78–79);
+Smathers to Johnson, Oct. 2, 1967, and Okun to Johnson, May 22, 1968 (LBJ Library, not held). Edge to the registered
+Fowler to Johnson, Mar. 22, 1968 (Bernstein 373 n.7b). Gavin 178 (the missions) carries no note. Named by FRUS's notes
+and not registered (FRUS is no card): the telegrams from Brussels, Rome, Paris and London of Jan. 3–7, 1968; the
+memorandum of the Satō conversation and Katzenbach's summary to Mills (in "To check:"); Cross and Pelikan to Fowler,
+Jan. 8 (in "To check:").
+
+### Passed over
+
+Made by reading Gavin 90, 101–10, 117–25, 172–78, 204 and Bernstein 363–77, 479, and checking each dated event against
+the ledger and the tree. Rows in date order.
+
+| page | date | event, a few words | why |
+|---|---|---|---|
+| Gavin 104 n.48 | May 10, 1963 | Klein to Bundy: withdrawals from Europe would have the administration "come out looking like good Gaullists" | a lead (Defense, redeployment; not in the calendar) |
+| Gavin 107–8 n.75 | May 17, 1963 | U. Alexis Johnson to Rusk, the report on military retrenchment in Europe | a lead (Defense, redeployment; not in the calendar) |
+| Gavin 104 n.47 | May 20, 1963 | Kaysen to Bundy: withdrawals from the Far East mean "an immediate nuclear response" | a lead (Defense; not in the calendar) |
+| Gavin 107 n.74 | June 18, 1963 | Rusk to the NATO missions: major withdrawals "contrary to U.S. interests" | a lead (Defense; FRUS IX, 596–97; not in the calendar) |
+| Gavin 104 n.46 | July 24, 1963 | Schaetzel to Kitchen, balance of payments and force withdrawal | a lead (Defense; FRUS 1961–63, VIII, mf. doc. 336) |
+| Gavin 108 n.77 | Sept. 4, 1963 | memorandum for the record, "Troop Withdrawals": the Defense program "only a beginning" | a lead (Defense; RG 59, not held) |
+| Gavin 109 n.83 | Oct. 29, 1963 | Norris in the *Washington Post*: the Pentagon to seek a showdown on NATO strategy | a lead (Press; Defense) |
+| Gavin 109 | Oct. 1963 | Eisenhower in the *Saturday Evening Post*: all but one division home from Europe | a lead (Republican Party; the day) |
+| Bernstein 366 | Sept. 17, Nov. 8, 1966 | Ackley to Johnson: the week's price increases; "a bad day for prices" | a lead (Economy; the surcharge pass) |
+| Bernstein 368 | Feb. 1967 | Proxmire inclined against a tax increase until Ackley persuades him | a lead (Economy: Surcharge; the day) |
+| Bernstein 369 | May 1967 | the Business Council's committee on the CEA votes down the surcharge at Hot Springs, Va. | a lead (Economy: Surcharge; the day) |
+| Bernstein 369 | June 1967 | Califano to Johnson: the tax proposal not before the recess | a lead (Economy: Surcharge; perhaps Califano to Johnson, June 17, 1967, 566 n.6) |
+| Bernstein 369 | late July 1967 | Martin publicly for a 10 percent surtax; Reuther to Ackley | a lead (Economy: Surcharge; the day) |
+| Bernstein 367 | Jan. 1968 | Ackley to Johnson: American and European inflation compared | a lead (Economy; the day) |
+
+### Leads
+
+#### National
+
+- The program of Jan. 1, 1968 abroad: the Canadian mission Gavin names (178) is in no FRUS document of Jan. 1968 read;
+  who went and when. The Canadian exemption of 1968 from the capital controls: Sharp with Fowler, Mar. 1; W. Rostow to
+  Johnson, Mar. 4 (FRUS 1964–68, XII, doc. 347); the exemption announced Mar. 8; Pearson to Johnson, Mar. 12; Johnson's
+  reply, Mar. 27 (FRUS 1964–68, VIII, doc. 185, editorial note). Not entered here (not in the books read); the record
+  is open in sources/frus-text.
+- Eugene Rostow with McEwen and the Australians, Jan. 7, 1968 (FRUS VIII, doc. 172 n.8), and in New Zealand: the days.
+- The Joint Committee's subcommittee at Honolulu, Jan. 25, 1968 (FRUS VIII, doc. 169): the border tax and Japan.
