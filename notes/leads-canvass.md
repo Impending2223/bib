@@ -4289,180 +4289,180 @@ Passed over rows ruled a lead, `notes/book-checks/zhai-china-and-the-vietnam.md`
 
 ### asselin-hanois-road (1) — `notes/book-checks/asselin-hanois-road.md`
 
-- `notes/book-checks/asselin-hanois-road.md:354` Foreign: `cal.1962-07-19.vietnam`, July 19 or 20: the Front's statement (Asselin 136) … — Asselin, 128 n.63, 136: July 19 or 20, 1962, for cal.1962-07-19.vietnam
+- `notes/book-checks/asselin-hanois-road.md:354` Foreign: `cal.1962-07-19.vietnam`, July 19 or 20: the Front's statement (Asselin 136) … — Asselin, 128 n.63, 136: July 19 or 20, 1962, for cal.1962-07-19.vietnam **Outcome:** variant on unit A (the declaration's "20.7.1962", 128 n.63); the Check kept; the garbled To check mended (canvass-c).
 
 ### berman-lyndon-johnsons-war (1) — `notes/book-checks/berman-lyndon-johnsons-war.md`
 
-- `notes/leads.md:1916` Johnson on NBC and the *Times* (183), "an interview on September 20, 1967": whether the … — Berman, 183 ("an interview on September 20, 1967") against the Check in cal.1967-09-20.vietnam-2
+- `notes/leads.md:1916` Johnson on NBC and the *Times* (183), "an interview on September 20, 1967": whether the … — Berman, 183 ("an interview on September 20, 1967") against the Check in cal.1967-09-20.vietnam-2 **Outcome:** left open: Berman's 183 has no note; a Check added saying so (canvass-c).
 
 ### branch-pillar-of-fire (1) — `notes/book-checks/branch-pillar-of-fire.md`
 
-- `notes/leads.md:1745` Cager Lee's day: Branch's Aug. 20, 1965, against the examiners' first day, Aug. 10, in … — Branch's Aug. 20, 1965 (Cager Lee) against the calendar's Aug. 10 (the examiners' first day): a variant
+- `notes/leads.md:1745` Cager Lee's day: Branch's Aug. 20, 1965, against the examiners' first day, Aug. 10, in … — Branch's Aug. 20, 1965 (Cager Lee) against the calendar's Aug. 10 (the examiners' first day): a variant **Outcome:** variant on cal.1965-08-10.voting-rights (Branch, 605); the Check there stands (canvass-c).
 
 ### chester-american-melodrama (1) — `notes/book-checks/chester-american-melodrama.md`
 
-- `notes/leads.md:1470` Pennsylvania's Democratic primary, Apr. 23, 1968: Chester prints the McCarthy and … — Chester, 153 and 548, print the Pennsylvania primary's figures two ways: a Check on the entry of Apr. 23, 1968
+- `notes/leads.md:1470` Pennsylvania's Democratic primary, Apr. 23, 1968: Chester prints the McCarthy and … — Chester, 153 and 548, print the Pennsylvania primary's figures two ways: a Check on the entry of Apr. 23, 1968 **Outcome:** variant (548: 428,239, 72,263, read on the page image) and a Check; CQ agrees with 153; the canvass not read (canvass-c).
 
 ### cq-weekly-report-1968-03-01 (1) — `notes/book-checks/cq-weekly-report-1968-03-01.md`
 
-- `notes/leads.md:1320` cal.1968-02-21.economy: the recommittal, 188–206 (CQ) or 189–205 (Voteview); the … — CQ's 188-206 against Voteview's 189-205 on the recommittal of cal.1968-02-21.economy
+- `notes/leads.md:1320` cal.1968-02-21.economy: the recommittal, 188–206 (CQ) or 189–205 (Voteview); the … — CQ's 188-206 against Voteview's 189-205 on the recommittal of cal.1968-02-21.economy **Outcome:** corrected to 188-206 by the bound Record (114 Cong. Rec. 3696, roll no. 30); Voteview's 189-205 a Check (canvass-c).
 
 ### cq-weekly-report-1968-06-21 (2) — `notes/book-checks/cq-weekly-report-1968-06-21.md`
 
-- `notes/leads.md:1336` cal.1968-04-15.elections-1968: McCarthy at Phoenix, "April 15" as CQ prints it (p. … — CQ, 1543, prints "April 15" for McCarthy at Phoenix beside his remarks of June 15: a Check on cal.1968-04-15.elections-1968
-- `notes/leads.md:1338` cal.1968-06.elections-1968-4: CQ prints "George A. Hinman"; Part III has George L. — CQ prints "George A. Hinman"; Part III has George L.: a Check on cal.1968-06.elections-1968-4
+- `notes/leads.md:1336` cal.1968-04-15.elections-1968: McCarthy at Phoenix, "April 15" as CQ prints it (p. … — CQ, 1543, prints "April 15" for McCarthy at Phoenix beside his remarks of June 15: a Check on cal.1968-04-15.elections-1968 **Outcome:** left open: no record read gives the day; the Check stands.
+- `notes/leads.md:1338` cal.1968-06.elections-1968-4: CQ prints "George A. Hinman"; Part III has George L. — CQ prints "George A. Hinman"; Part III has George L.: a Check on cal.1968-06.elections-1968-4 **Outcome:** left open: no record read gives the initial; the Check stands (c names Hinman only).
 
 ### cq-weekly-report-1968-07-26 (1) — `notes/book-checks/cq-weekly-report-1968-07-26.md`
 
-- `notes/leads.md:374` Iowa, Apr. 17: CQ calls the body that chose the delegation the State committee, then the … — CQ, 1980, names the body two ways (State committee, State convention): a Check on the Iowa entry of Apr. 17
+- `notes/leads.md:374` Iowa, Apr. 17: CQ calls the body that chose the delegation the State committee, then the … — CQ, 1980, names the body two ways (State committee, State convention): a Check on the Iowa entry of Apr. 17 **Outcome:** left open: a Check added pointing to the series' convention table (State convention, Apr. 17); no record of the choosing read (canvass-c).
 
 ### cq-weekly-report-1968-08-09 (1) — `notes/book-checks/cq-weekly-report-1968-08-09.md`
 
-- `notes/leads.md:380` The primaries of Aug. 1 (Tennessee) and Aug. 6 (Michigan, Idaho, Kansas, Missouri): CQ's … — CQ, 2109: the Kansas governor's figures far from the canvass the calendar cites: a variant (the other primaries' official counts stay leads)
+- `notes/leads.md:380` The primaries of Aug. 1 (Tennessee) and Aug. 6 (Michigan, Idaho, Kansas, Missouri): CQ's … — CQ, 2109: the Kansas governor's figures far from the canvass the calendar cites: a variant (the other primaries' official counts stay leads) **Outcome:** variant (CQ 2109: Harmon 174,023, Crutcher 119,966) and a Check; the canvass stands (canvass-c).
 
 ### event-iet (1) — `notes/book-checks/event-iet.md`
 
-- `notes/book-checks/event-iet.md:136` Ōhira on Aug. 1, 1963: FRUS IX, doc. 81 has him with Ball and Rusk separately; the entry … — FRUS 1961-63, IX, doc. 81 has Ōhira with Ball and Rusk; the entry of Aug. 1, 1963 names Ball only
+- `notes/book-checks/event-iet.md:136` Ōhira on Aug. 1, 1963: FRUS IX, doc. 81 has him with Ball and Rusk separately; the entry … — FRUS 1961-63, IX, doc. 81 has Ōhira with Ball and Rusk; the entry of Aug. 1, 1963 names Ball only **Outcome:** corrected: Rusk added to c and Names by FRUS IX, doc. 81 (canvass-c).
 
 ### fursenko-khrushchevs-cold-war (3) — `notes/book-checks/fursenko-khrushchevs-cold-war.md`
 
-- `notes/leads.md:1976` Kennedy's back, Ottawa, May 1961 (the work's "March," 367). — Fursenko and Naftali, 367, give "March" for Kennedy's back at Ottawa (May 1961): a Check
-- `notes/leads.md:3152` Sept. 16–17, 1960: Mobutu's troops clear the Parliament; Lumumba in UN custody (316): … — Fursenko and Naftali, 316 (Sept. 16-17, 1960) against the calendar's Sept. 14
-- `notes/book-checks/fursenko-khrushchevs-cold-war.md:97` Mobutu's troops and Lumumba, Sept. 16–17, 1960: the calendar has Sept. 14; to check … — repeats leads.md:3152 (316); counted once
-- `notes/book-checks/fursenko-khrushchevs-cold-war.md:321` Kennedy's back, Ottawa, May 1961 (the work's "March," 367). The press: a Part III entry … — repeats leads.md:1976 (367); counted once
+- `notes/leads.md:1976` Kennedy's back, Ottawa, May 1961 (the work's "March," 367). — Fursenko and Naftali, 367, give "March" for Kennedy's back at Ottawa (May 1961): a Check **Outcome:** variant on cal.1961-05-16.transition-and-staff, unit B (367), and a Check; the Papers date the visit May 16 (canvass-c).
+- `notes/leads.md:3152` Sept. 16–17, 1960: Mobutu's troops clear the Parliament; Lumumba in UN custody (316): … — Fursenko and Naftali, 316 (Sept. 16-17, 1960) against the calendar's Sept. 14 **Outcome:** no conflict on the coup (316 gives Sept. 14); the embassies' order a variant (Sept. 17), FRUS XIV doc. 216 (announced Sept. 14, to close within 48 hours) added to the note (canvass-c). The parliament cleared Sept. 16 is a B item.
+- `notes/book-checks/fursenko-khrushchevs-cold-war.md:97` Mobutu's troops and Lumumba, Sept. 16–17, 1960: the calendar has Sept. 14; to check … — repeats leads.md:3152 (316); counted once **Outcome:** see above.
+- `notes/book-checks/fursenko-khrushchevs-cold-war.md:321` Kennedy's back, Ottawa, May 1961 (the work's "March," 367). The press: a Part III entry … — repeats leads.md:1976 (367); counted once **Outcome:** see above.
 
 Passed over rows ruled a lead, `notes/book-checks/fursenko-khrushchevs-cold-war.md`, by line:
 
-- l. 52: p. 316, Sept. 16–17, 1960: Mobutu's troops clear the Parliament; Lumumba in UN custody — lead: Sept. 16–17 entries to check against Kalb and Hoskyns (the calendar has Sept. 14)
+- l. 52: p. 316, Sept. 16–17, 1960: Mobutu's troops clear the Parliament; Lumumba in UN custody — lead: Sept. 16–17 entries to check against Kalb and Hoskyns (the calendar has Sept. 14) **Outcome:** see above (cal.1960-09-14.congo).
 
 ### garrow-bearing-the-cross (1) — `notes/book-checks/garrow-bearing-the-cross.md`
 
-- `notes/leads.md:1175` Hoover's SAC letter 68-16, Mar. 12, 1968, the "ghetto informant" program (Garrow, 607, … — Garrow, 607, 720 n.37: SAC letter 68-16, Mar. 12, 1968, against cal.1968-03-04.black-nationalism
+- `notes/leads.md:1175` Hoover's SAC letter 68-16, Mar. 12, 1968, the "ghetto informant" program (Garrow, 607, … — Garrow, 607, 720 n.37: SAC letter 68-16, Mar. 12, 1968, against cal.1968-03-04.black-nationalism **Outcome:** no conflict: another document (SAC letter 68-16, Mar. 12) on another program, the "ghetto informant"; a B item.
 
 ### gibbons-u-s-government-and (2) — `notes/book-checks/gibbons-u-s-government-and.md`
 
-- `notes/leads.md:525` cal.1967-09-25.vietnam-congress: "47 other Republicans" against Gibbons's footnote list … — Gibbons's footnote (24 cosponsors) against cal.1967-09-25.vietnam-congress ("47 other Republicans") [repeats the file's Passed over rows: counted there]
-- `notes/leads.md:2259` `cal.1965-02-18.vietnam`: the Record's pages (Gibbons prints 2146 ff., not possible … — Gibbons's Record pages against the Record's page tables (cal.1965-02-18.vietnam; vol. 110 for cal.1965-01-15.vietnam)
-- `notes/leads.md:2839` Dodd's speech "later that same day" (III, 283, the note): the day may be another; the … — Gibbons, III, 283 n.: Dodd's speech "later that same day": the day a Check on its entry
+- `notes/leads.md:525` cal.1967-09-25.vietnam-congress: "47 other Republicans" against Gibbons's footnote list … — Gibbons's footnote (24 cosponsors) against cal.1967-09-25.vietnam-congress ("47 other Republicans") [repeats the file's Passed over rows: counted there] **Outcome:** no conflict: Gibbons's 24 (IV, 803 n.13) cosponsored the earlier resolution (113 Cong. Rec. 22281-82); n.14 lists H. Con. Res. 509's.
+- `notes/leads.md:2259` `cal.1965-02-18.vietnam`: the Record's pages (Gibbons prints 2146 ff., not possible … — Gibbons's Record pages against the Record's page tables (cal.1965-02-18.vietnam; vol. 110 for cal.1965-01-15.vietnam) **Outcome:** already settled in both entries (3146-48, 784-86, Gibbons's misprints noted); the pages verified on govinfo.
+- `notes/leads.md:2839` Dodd's speech "later that same day" (III, 283, the note): the day may be another; the … — Gibbons, III, 283 n.: Dodd's speech "later that same day": the day a Check on its entry **Outcome:** corrected: the Record has the speech June 10, 1965, 13083 ff.; entry moved to June 10, Gibbons a variant (canvass-c).
 
 ### herring-lbj-and-vietnam (1) — `notes/book-checks/herring-lbj-and-vietnam.md`
 
-- `notes/leads.md:2915` The Non-Group: Herring dates its founding May 1967 at Johnson's instance (15, 189 n.44); … — Herring, 15, 189 n.44 (the Non-Group founded May 1967) against the calendar's Nov. 15, 1966 [repeats the file's Passed over rows: counted there]
-- `notes/leads.md:2921` Westmoreland's record of the White House meeting of Nov. 22, 1967 (Westmoreland Papers, … — Westmoreland's record of a meeting of Nov. 22, 1967 against FRUS V, doc. 409 (Nov. 21): one meeting or two
+- `notes/leads.md:2915` The Non-Group: Herring dates its founding May 1967 at Johnson's instance (15, 189 n.44); … — Herring, 15, 189 n.44 (the Non-Group founded May 1967) against the calendar's Nov. 15, 1966 [repeats the file's Passed over rows: counted there] **Outcome:** variant (Herring, 15) and a Check citing FRUS IV, doc. 319 (Nov. 30, 1966: the committee already set up) (canvass-c).
+- `notes/leads.md:2921` Westmoreland's record of the White House meeting of Nov. 22, 1967 (Westmoreland Papers, … — Westmoreland's record of a meeting of Nov. 22, 1967 against FRUS V, doc. 409 (Nov. 21): one meeting or two **Outcome:** left open: variant (Westmoreland's record, registered, by Herring 147, 214 n.141) and a Check: the same matters as FRUS V, doc. 409 (canvass-c).
 
 ### humphrey-education-of-a-public-1976 (3) — `notes/book-checks/humphrey-education-of-a-public-1976.md`
 
-- `notes/leads.md:1287` Feb. 6–7, 1965: Humphrey, Ball and Stevenson against the strikes in a Cabinet Room … — Humphrey, 319: Humphrey, Ball and Stevenson against the strikes, Feb. 6-7, 1965, against FRUS II, docs. 76-81, which do not list him: a variant on the entries of those days
+- `notes/leads.md:1287` Feb. 6–7, 1965: Humphrey, Ball and Stevenson against the strikes in a Cabinet Room … — Humphrey, 319: Humphrey, Ball and Stevenson against the strikes, Feb. 6-7, 1965, against FRUS II, docs. 76-81, which do not list him: a variant on the entries of those days **Outcome:** variant on cal.1965-02-07.vietnam, unit E, and a Check: FRUS's lists name neither Humphrey nor Stevenson, Ball for the strike (doc. 77) (canvass-c).
 
 Passed over rows ruled a lead, `notes/book-checks/humphrey-education-of-a-public-1976.md`, by line:
 
-- l. 107: p. 319, Feb. 6–7, 1965: Humphrey, Ball and Stevenson against bombing in a Cabinet Room meeting — not borne out: FRUS's participants (II, docs. 76–78, 80–81) do not include him; lead
-- l. 226: p. 319, no date: Feb. 6–7, 1965, the Cabinet Room — not borne out by FRUS's participants; Check stays a lead
+- l. 107: p. 319, Feb. 6–7, 1965: Humphrey, Ball and Stevenson against bombing in a Cabinet Room meeting — not borne out: FRUS's participants (II, docs. 76–78, 80–81) do not include him; lead **Outcome:** see above.
+- l. 226: p. 319, no date: Feb. 6–7, 1965, the Cabinet Room — not borne out by FRUS's participants; Check stays a lead **Outcome:** see above.
 
 ### mann-grand-delusion (1) — `notes/book-checks/mann-grand-delusion.md`
 
-- `notes/book-checks/mann-grand-delusion.md:115` Nixon's statement of February 1964 (in, as `cal.1964-01-31.republican-party`, from Mann … — Mann (Feb. 1964) against cal.1964-01-31.republican-party: the day
+- `notes/book-checks/mann-grand-delusion.md:115` Nixon's statement of February 1964 (in, as `cal.1964-01-31.republican-party`, from Mann … — Mann (Feb. 1964) against cal.1964-01-31.republican-party: the day **Outcome:** corrected: Mann, 312, has it "the day before" Johnson's call to Knight of Feb. 3; moved to Feb. 2, the "Reply" made "See" (canvass-c).
 
 ### mcpherson-political-education (2) — `notes/book-checks/mcpherson-political-education.md`
 
-- `notes/leads.md:1463` The escape-clause tariffs on watches and sheet glass rolled back, Jan. 1967 (the … — McPherson, 291-92 (the rollback, Jan. 1967) against the Public Papers' statement of Oct. 12, 1967: a Check [repeats the file's Passed over rows: counted there]
-- `notes/leads.md:3323` McPherson (batch 3, Oct. 29, 2026; notes/book-checks/mcpherson-political-education.md): … — McPherson (Aug. 26, 1964; Mar. 1965) against the roster (Aug. 23, 1964; Aug. 1965)
-- `notes/leads.md:3333` McPherson's swearing-in as Assistant Secretary of State (the book: his birthday, the … — repeats leads.md:3323; counted once
+- `notes/leads.md:1463` The escape-clause tariffs on watches and sheet glass rolled back, Jan. 1967 (the … — McPherson, 291-92 (the rollback, Jan. 1967) against the Public Papers' statement of Oct. 12, 1967: a Check [repeats the file's Passed over rows: counted there] **Outcome:** no conflict: McPherson gives only "1967" (291); the glass action is the Papers' item of Oct. 12, 1967 (1967 Pub. Papers 923); no entry yet, a B item.
+- `notes/leads.md:3323` McPherson (batch 3, Oct. 29, 2026; notes/book-checks/mcpherson-political-education.md): … — McPherson (Aug. 26, 1964; Mar. 1965) against the roster (Aug. 23, 1964; Aug. 1965) **Outcome:** left open for the Executive roster (not the calendar): the book has the swearing-in on his "thirty-fifth birthday" (228), the White House "in March 1965" (389).
+- `notes/leads.md:3333` McPherson's swearing-in as Assistant Secretary of State (the book: his birthday, the … — repeats leads.md:3323; counted once **Outcome:** see above.
 
 Passed over rows ruled a lead, `notes/book-checks/mcpherson-political-education.md`, by line:
 
-- l. 101: p. 291–92, 1967: Johnson rolls back the window glass and watch tariffs — the year only in the book; the Papers' Oct. 12 statement differs; lead
+- l. 101: p. 291–92, 1967: Johnson rolls back the window glass and watch tariffs — the year only in the book; the Papers' Oct. 12 statement differs; lead **Outcome:** see above.
 
 ### novak-agony-of-the-g (1) — `notes/book-checks/novak-agony-of-the-g.md`
 
-- `notes/leads.md:2084` Gallup figures Novak gives that the calendar's poll entries do not match: Rockefeller … — Novak, 148, 161, 380, 441: Gallup figures the calendar's poll entries do not match
+- `notes/leads.md:2084` Gallup figures Novak gives that the calendar's poll entries do not match: Rockefeller … — Novak, 148, 161, 380, 441: Gallup figures the calendar's poll entries do not match **Outcome:** variants (148: Goldwater 40, Rockefeller 29; 161: Romney 16, 18) and a Check on cal.1963-05-26.opinion-5; Gallup's release stands; 380's April matches Apr. 5, 1964; 441 already cited (canvass-c).
 
 ### reeves-president-kennedy (1) — `notes/book-checks/reeves-president-kennedy.md`
 
-- `notes/leads.md:3043` Adzhubei and Gagarin at the White House, by Reeves August and July 1961 (231): Adzhubei … — Reeves, 231 (Aug. and July 1961) against Adzhubei's visits of Nov. 25, 1961 and Jan. 30, 1962
+- `notes/leads.md:3043` Adzhubei and Gagarin at the White House, by Reeves August and July 1961 (231): Adzhubei … — Reeves, 231 (Aug. and July 1961) against Adzhubei's visits of Nov. 25, 1961 and Jan. 30, 1962 **Outcome:** left open: a Check on cal.1962-01-30.soviet-union; Reeves's year not plain on the page (canvass-c).
 
 ### selverstone-kennedy-withdrawal (1) — `notes/book-checks/selverstone-kennedy-withdrawal.md`
 
-- `notes/leads.md:3054` The Clay Committee's report: Selverstone gives its release as Mar. 22, 1963 (111); … — Selverstone, 111 (the Clay report released Mar. 22, 1963) against cal.1963-03-24.foreign-aid
+- `notes/leads.md:3054` The Clay Committee's report: Selverstone gives its release as Mar. 22, 1963 (111); … — Selverstone, 111 (the Clay report released Mar. 22, 1963) against cal.1963-03-24.foreign-aid **Outcome:** corrected the note: the Papers print the reply "Released March 24, 1963"; Selverstone a variant and a Check (canvass-c).
 
 ### staaveren-u-s-air-force (1) — `notes/book-checks/staaveren-u-s-air-force.md`
 
-- `notes/book-checks/staaveren-u-s-air-force.md:64` The B-52s' first strike in Laos: Van Staaveren gives Dec. 10, 1965 (101) and Dec. 12 … — Van Staaveren, 101 and 133: Dec. 10 and Dec. 12, 1965, for the first B-52 strike in Laos
+- `notes/book-checks/staaveren-u-s-air-force.md:64` The B-52s' first strike in Laos: Van Staaveren gives Dec. 10, 1965 (101) and Dec. 12 … — Van Staaveren, 101 and 133: Dec. 10 and Dec. 12, 1965, for the first B-52 strike in Laos **Outcome:** variant (133, Dec. 12) on cal.1965-12-10.laos; the Check stands (canvass-c).
 
 ### stein-fiscal-revolution (1) — `notes/book-checks/stein-fiscal-revolution.md`
 
-- `notes/book-checks/stein-fiscal-revolution.md:180` The day of Kennedy's statement on the dollar in 1960: Stein, 378, Oct. 30; the calendar, … — Stein, 378 (Oct. 30, 1960) against the calendar's Oct. 31 for Kennedy's statement on the dollar
+- `notes/book-checks/stein-fiscal-revolution.md:180` The day of Kennedy's statement on the dollar in 1960: Stein, 378, Oct. 30; the calendar, … — Stein, 378 (Oct. 30, 1960) against the calendar's Oct. 31 for Kennedy's statement on the dollar **Outcome:** variant (378; 507 n.11, the *Times* of Oct. 31) and a Check; APP's Oct. 31 stands (canvass-c).
 
 ### sundquist-politics-and-policy (1) — `notes/book-checks/sundquist-politics-and-policy.md`
 
-- `notes/leads.md:1298` Stephen Young on Hough, "112 Cong. Rec. 16246 (July 26, 1966)" (Sundquist, 284 n.197): … — Sundquist, 284 n.197, gives 112 Cong. Rec. 16246 for July 26, 1966; the page tables put it on another day: a Check
-- `notes/book-checks/sundquist-politics-and-policy.md:217` Stephen Young on Hough, "112 Cong. Rec. 16246 (July 26, 1966)" (284 n.197): the page … — repeats leads.md:1298
+- `notes/leads.md:1298` Stephen Young on Hough, "112 Cong. Rec. 16246 (July 26, 1966)" (Sundquist, 284 n.197): … — Sundquist, 284 n.197, gives 112 Cong. Rec. 16246 for July 26, 1966; the page tables put it on another day: a Check **Outcome:** already settled: the entry cites 17041, verified on govinfo (Senate, July 26, 1966); Sundquist's misprint in its Check.
+- `notes/book-checks/sundquist-politics-and-policy.md:217` Stephen Young on Hough, "112 Cong. Rec. 16246 (July 26, 1966)" (284 n.197): the page … — repeats leads.md:1298 **Outcome:** see above.
 
 ### thomas-robert-kennedy (1) — `notes/book-checks/thomas-robert-kennedy.md`
 
 Passed over rows ruled a lead, `notes/book-checks/thomas-robert-kennedy.md`, by line:
 
-- l. 188: p. 231, 1962-10-28: The ExComm at 11 a.m.: Bundy, "the day of the doves"; Ball and O'Keeffe's rose — lead (Kennedy Tapes, 635; to set against the calendar's Oct. 28 entries)
+- l. 188: p. 231, 1962-10-28: The ExComm at 11 a.m.: Bundy, "the day of the doves"; Ball and O'Keeffe's rose — lead (Kennedy Tapes, 635; to set against the calendar's Oct. 28 entries) **Outcome:** cited (231) on cal.1962-10-28.missile-crisis-6, and Bundy's words as Thomas gives them a variant (canvass-c).
 
 ### w.frankum-like-rolling-thunder (4) — `notes/book-checks/w.frankum-like-rolling-thunder.md`
 
-- `notes/leads.md:2602` Barrel Roll's first mission: Frankum (p. 117) gives only "December 1964" and a first … — Frankum, 117 (Dec. 1964; Dec. 24) and FRUS 1964-68, I, doc. 456 (Dec. 21) against cal.1964-12-10.laos
-- `notes/leads.md:2605` Tiger Hound's first day, Dec. 6, 1965 (Frankum, 119), not in FRUS; and Sullivan's part: … — Frankum, 119 ("strongly disagreed") against FRUS XXVIII, doc. 216 ("established at my suggestion") on cal.1965-12-06.laos
-- `notes/leads.md:2610` The 19th-parallel limit of 1968: Frankum gives Apr. 3 (p. 61); FRUS VI doc. 189 shows it … — Frankum, 61 (Apr. 3) against FRUS VI, doc. 189 (by Apr. 9) on cal.1968-04-03.vietnam-2
-- `notes/leads.md:2614` The first B-52 strike on the North: Apr. 11 (Frankum) or Apr. 12 (Staaveren), 1966. — Frankum (Apr. 11) against Van Staaveren (Apr. 12, 1966): the first B-52 strike on the North
+- `notes/leads.md:2602` Barrel Roll's first mission: Frankum (p. 117) gives only "December 1964" and a first … — Frankum, 117 (Dec. 1964; Dec. 24) and FRUS 1964-68, I, doc. 456 (Dec. 21) against cal.1964-12-10.laos **Outcome:** no conflict; a Check on the first mission's day: FRUS I, docs. 456, 465 have missions by Dec. 21 and one Dec. 24 (canvass-c).
+- `notes/leads.md:2605` Tiger Hound's first day, Dec. 6, 1965 (Frankum, 119), not in FRUS; and Sullivan's part: … — Frankum, 119 ("strongly disagreed") against FRUS XXVIII, doc. 216 ("established at my suggestion") on cal.1965-12-06.laos **Outcome:** variant: Sullivan's "established at my suggestion" (Vientiane 703, FRUS XXVIII, doc. 216) on unit A; Frankum's 118 Check stands (canvass-c).
+- `notes/leads.md:2610` The 19th-parallel limit of 1968: Frankum gives Apr. 3 (p. 61); FRUS VI doc. 189 shows it … — Frankum, 61 (Apr. 3) against FRUS VI, doc. 189 (by Apr. 9) on cal.1968-04-03.vietnam-2 **Outcome:** no conflict: FRUS VI, docs. 172, 189 give no day for the 19th; the entry's Apr. 3 is Frankum's; the Check stands.
+- `notes/leads.md:2614` The first B-52 strike on the North: Apr. 11 (Frankum) or Apr. 12 (Staaveren), 1966. — Frankum (Apr. 11) against Van Staaveren (Apr. 12, 1966): the first B-52 strike on the North **Outcome:** variant (Frankum, 47) on cal.1966-04-12.vietnam; Van Staaveren's Interdiction gives Apr. 12; the Check stands (canvass-c).
 
 ### w.miller-misalliance (1) — `notes/book-checks/w.miller-misalliance.md`
 
-- `notes/leads.md:2624` Don tells Conein of the generals' plot at the Caravelle bar after the embassy's Fourth … — Miller, 284-86: the Caravelle meeting after the Fourth of July and "three days before" July 11 (July 8): the day a Check
+- `notes/leads.md:2624` Don tells Conein of the generals' plot at the Caravelle bar after the embassy's Fourth … — Miller, 284-86: the Caravelle meeting after the Fourth of July and "three days before" July 11 (July 8): the day a Check **Outcome:** entered (cal.1963-07-04.vietnam-saigon, claimed), July 4 by 284-85, with 286's "three days" a variant and a Check (canvass-c).
 
 ### watson-into-the-missile-age (1) — `notes/book-checks/watson-into-the-missile-age.md`
 
-- `notes/leads.md:523` Watson, *Into the Missile Age*, 350, names Gates's testimony of Jan. 25, 1960, before … — Watson, 350: Gates's testimony of Jan. 25, 1960, against cal.1960-01-26.defense
+- `notes/leads.md:523` Watson, *Into the Missile Age*, 350, names Gates's testimony of Jan. 25, 1960, before … — Watson, 350: Gates's testimony of Jan. 25, 1960, against cal.1960-01-26.defense **Outcome:** a Check added with the Daily Digest's row (House Science and Astronautics, Jan. 25, D28); Watson not on the Drive (canvass-c).
 
 ### white-making-of-the-president (2) — `notes/book-checks/white-making-of-the-president.md`
 
-- `notes/leads.md:1822` the House Committee on Education's "testing" of the education bill on Mar. 9, 1961 … — White, 375 (Mar. 9, 1961) against the Digest's rows of March 1961: a Check
-- `notes/leads.md:1832` For the merger (not applied: the AP's reading, White's Appendix A, not given): the AP's … — the AP's tabulation of Dec. 17, 1960: a variant of cal.1960-11-08.elections-1960, unit A (R41), not applied
+- `notes/leads.md:1822` the House Committee on Education's "testing" of the education bill on Mar. 9, 1961 … — White, 375 (Mar. 9, 1961) against the Digest's rows of March 1961: a Check **Outcome:** left open: White gives "a typical Thursday" only; a Check on cal.1961-03-09.defense: the Digest has no education session Mar. 9, school aid from Mar. 13 (canvass-c).
+- `notes/leads.md:1832` For the merger (not applied: the AP's reading, White's Appendix A, not given): the AP's … — the AP's tabulation of Dec. 17, 1960: a variant of cal.1960-11-08.elections-1960, unit A (R41), not applied **Outcome:** applied: variant on unit A (White, 350 n.8; App. A, 385: Kennedy 34,221,463, Nixon 34,108,582) and a Check (canvass-c).
 
 ### white-making-of-the-president-1965 (1) — `notes/book-checks/white-making-of-the-president-1965.md`
 
-- `notes/leads.md:1615` Rowe's questioning of Humphrey: White has an August weekend, Humphrey's memoir July … — White (an August weekend) against Humphrey's memoir (July) on cal.1964-07.elections-1964-6: a variant
+- `notes/leads.md:1615` Rowe's questioning of Humphrey: White has an August weekend, Humphrey's memoir July … — White (an August weekend) against Humphrey's memoir (July) on cal.1964-07.elections-1964-6: a variant **Outcome:** variant (White, 274) and a Check; Humphrey gives no month ("Early on," 298) (canvass-c).
 
 ### white-making-of-the-president-1969 (1) — `notes/book-checks/white-making-of-the-president-1969.md`
 
-- `notes/leads.md:1564` Mar. 12, 1968, New Hampshire: White's figures differ from the entry's (89, 131); check … — White, 89, 131: New Hampshire's figures against the entry of Mar. 12, 1968; 396 (the AP's totals) against the Clerk's; 32 (Dec. 1964, New York) against Phoenix, Jan. 12, 1965
+- `notes/leads.md:1564` Mar. 12, 1968, New Hampshire: White's figures differ from the entry's (89, 131); check … — White, 89, 131: New Hampshire's figures against the entry of Mar. 12, 1968; 396 (the AP's totals) against the Clerk's; 32 (Dec. 1964, New York) against Phoenix, Jan. 12, 1965 **Outcome:** variants on cal.1968-03-12.elections-1968 (the canvass stands), on cal.1968-11-05.elections-1968 (396, the AP's totals) and on cal.1965-01-12.elections-1964 (32, the New York meeting), each with a Check (canvass-c).
 
 ### woods-j-william-fulbright-vietnam (1) — `notes/book-checks/woods-j-william-fulbright-vietnam.md`
 
-- `notes/leads.md:1871` The Mount Vernon dinner (Woods 41, "June 11"): the date, against the Public Papers' … — Woods, 41 ("June 11") against the Public Papers' account of Ayub Khan's visit (July 1961): the Mount Vernon dinner's date
+- `notes/leads.md:1871` The Mount Vernon dinner (Woods 41, "June 11"): the date, against the Public Papers' … — Woods, 41 ("June 11") against the Public Papers' account of Ayub Khan's visit (July 1961): the Mount Vernon dinner's date **Outcome:** variant on cal.1961-07-11.right-and-the-military; the Papers' July 11 stands (canvass-c).
 
 ### zelizer-fierce-urgency-of-now (3) — `notes/book-checks/zelizer-fierce-urgency-of-now.md`
 
-- `notes/leads.md:1837` Oct. 29, 1963, the Judiciary Committee's vote: 23–11 (*Times*, Oct. 30) against the … — the Times's 23-11 (Oct. 30, 1963) against the entry's 20-12 on the Judiciary Committee's vote
-- `notes/leads.md:1838` Aug. 13 or Aug. 9, 1966, the House's passage of the civil rights bill: the Record. — Aug. 13 or Aug. 9, 1966, the House's passage: a Check on the entry (the Record)
-- `notes/leads.md:1839` The AMA's meeting with Johnson, late June or July 29, 1965: the Daily Diary. — late June or July 29, 1965, the AMA with Johnson: a Check on cal.1965-07-29.medicare
+- `notes/leads.md:1837` Oct. 29, 1963, the Judiciary Committee's vote: 23–11 (*Times*, Oct. 30) against the … — the Times's 23-11 (Oct. 30, 1963) against the entry's 20-12 on the Judiciary Committee's vote **Outcome:** left open: variant (Zelizer, 59; 60 n.62); the Digest (D522) prints no vote; the committee's report not read; the Checks stand (canvass-c).
+- `notes/leads.md:1838` Aug. 13 or Aug. 9, 1966, the House's passage of the civil rights bill: the Record. — Aug. 13 or Aug. 9, 1966, the House's passage: a Check on the entry (the Record) **Outcome:** settled: the Record has the passage Aug. 9 (112 Cong. Rec. 18739), added as primary; Zelizer's Aug. 13 a variant (canvass-c).
+- `notes/leads.md:1839` The AMA's meeting with Johnson, late June or July 29, 1965: the Daily Diary. — late June or July 29, 1965, the AMA with Johnson: a Check on cal.1965-07-29.medicare **Outcome:** left open: the Diary for the day not in the Catalog; Zelizer's "late June" (200) a variant; the Checks stand (canvass-c).
 
 ### zelizer-taxing-america (1) — `notes/book-checks/zelizer-taxing-america.md`
 
-- `notes/leads.md:2803` Zelizer's dates that differ from the record: the depreciation guidelines (July 1961 for … — Zelizer's dates against the record: the depreciation guidelines (1961 for 1962); Dillon's warning (Nov. 24 / 25); the conference vote (268-159; Voteview 268-150)
+- `notes/leads.md:2803` Zelizer's dates that differ from the record: the depreciation guidelines (July 1961 for … — Zelizer's dates against the record: the depreciation guidelines (1961 for 1962); Dillon's warning (Nov. 24 / 25); the conference vote (268-159; Voteview 268-150) **Outcome:** the conference vote settled by the Record (114 Cong. Rec. 18086: 268-150), added as primary, Zelizer's 268-159 (276) a variant; the depreciation guidelines a variant (186, "July 1961") and a Check; Dillon's memorandum dated Nov. 25 in the note (202 n.94), no conflict with the entry (canvass-c).
 
 ### (FRUS and the Bulletin; no reader file) (1) — no reader file
 
-- `notes/leads.md:1032` The Alpha 66 attack on the *Lvov* (`cal.1963-03-17.cuba`): the Department's statement of … — the Department's statement of Mar. 19 and FRUS put the Lvov attack the night of Mar. 18; cal.1963-03-17.cuba is dated Mar. 17 (the date to correct)
+- `notes/leads.md:1032` The Alpha 66 attack on the *Lvov* (`cal.1963-03-17.cuba`): the Department's statement of … — the Department's statement of Mar. 19 and FRUS put the Lvov attack the night of Mar. 18; cal.1963-03-17.cuba is dated Mar. 17 (the date to correct) **Outcome:** corrected: moved to Mar. 18 by both records (canvass-c).
 
 ### (FRUS; no reader file) (3) — no reader file
 
-- `notes/leads.md:529` cal.1967-10-23.vietnam: "Phúc Yên authorized Sept. 28 and cancelled" (from the … — FRUS 1964-68, V, doc. 312, cited for cal.1967-10-23.vietnam, does not show "Phúc Yên authorized Sept. 28": the claim takes "Check:" or goes
-- `notes/leads.md:532` cal.1968-08-19.testing cites FRUS 1964–68, XIV, doc. 285, which is Rusk on the … — cal.1968-08-19.testing cites FRUS 1964-68, XIV, doc. 285 (Rusk on the consulates) for Dobrynin's note (doc. 286): the cite to correct
-- `notes/leads.md:769` `cal.1964-12-24.vietnam` cites FRUS 1964–68, I, doc. 465 for the Brink bombing and the … — cal.1964-12-24.vietnam cites FRUS 1964-68, I, doc. 465, which is the cable on Taylor and Hương: the cite does not bear out the claim
+- `notes/leads.md:529` cal.1967-10-23.vietnam: "Phúc Yên authorized Sept. 28 and cancelled" (from the … — FRUS 1964-68, V, doc. 312, cited for cal.1967-10-23.vietnam, does not show "Phúc Yên authorized Sept. 28": the claim takes "Check:" or goes **Outcome:** settled: doc. 312's n. 2 does show it; the pinpoint and its parenthetical added (canvass-c).
+- `notes/leads.md:532` cal.1968-08-19.testing cites FRUS 1964–68, XIV, doc. 285, which is Rusk on the … — cal.1968-08-19.testing cites FRUS 1964-68, XIV, doc. 285 (Rusk on the consulates) for Dobrynin's note (doc. 286): the cite to correct **Outcome:** corrected: doc. 285 taken out, doc. 286 cited for the note (canvass-c).
+- `notes/leads.md:769` `cal.1964-12-24.vietnam` cites FRUS 1964–68, I, doc. 465 for the Brink bombing and the … — cal.1964-12-24.vietnam cites FRUS 1964-68, I, doc. 465, which is the cable on Taylor and Hương: the cite does not bear out the claim **Outcome:** corrected: doc. 465 kept for its n. 5 only (the bomb), its map row cut to A; doc. 477 given its own row (canvass-c).
 
 ### (Voteview; no reader file) (1) — no reader file
 
-- `notes/leads.md:611` The House's vote on the poll tax amendment, Aug. 27, 1962: 294–86 as written, 295 yeas … — Voteview's 295 yeas against cal.1962-08-27.voting-rights's 294-86: a Check (the bound Record to settle)
+- `notes/leads.md:611` The House's vote on the poll tax amendment, Aug. 27, 1962: 294–86 as written, 295 yeas … — Voteview's 295 yeas against cal.1962-08-27.voting-rights's 294-86: a Check (the bound Record to settle) **Outcome:** settled by the bound Record (108 Cong. Rec. 17670, roll no. 202: 294-86); Voteview and Mann's 295 a Check and a variant (canvass-c).
 
 ### (the Cal. II audit; no reader file) (1) — no reader file
 
-- `notes/leads.md:2534` American jets against the Viet Cong between An Khê and Pleiku, Feb. 24, 1965 … — given their record (CHECO, patch reopen-foreign-2); CHECO's "near the An Khe Pass" against the entry's Mang Yang pass: the Check left
+- `notes/leads.md:2534` American jets against the Viet Cong between An Khê and Pleiku, Feb. 24, 1965 … — given their record (CHECO, patch reopen-foreign-2); CHECO's "near the An Khe Pass" against the entry's Mang Yang pass: the Check left **Outcome:** left open: CHECO's reading a variant (the report registered); the Check stands (canvass-c).
 
 ## D: minor, out of the brief or outside the span, filed as a lead (to Passed over with R18's ground)
 

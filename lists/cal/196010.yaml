@@ -1705,7 +1705,7 @@ entries:
     thread: economy
     also: [elections-1960]
     c: 'Kennedy on the balance of payments, at Philadelphia: "If elected President I shall not devalue the dollar from the present rate."'
-    n: '[Statement by Senator John F. Kennedy on Balance of Payments, Philadelphia, PA](https://www.presidency.ucsb.edu/documents/statement-senator-john-f-kennedy-balance-payments-philadelphia-pa) (Oct. 31, 1960). [[w.gavin-gold-dollars-and-power]], 62 (the statement, on the price of gold at $35). [[w.sorensen-kennedy]], 406 (the statement). See [[cal.1960-10-20.economy]]. Names: Kennedy.'
+    n: '[Statement by Senator John F. Kennedy on Balance of Payments, Philadelphia, PA](https://www.presidency.ucsb.edu/documents/statement-senator-john-f-kennedy-balance-payments-philadelphia-pa) (Oct. 31, 1960). [[w.gavin-gold-dollars-and-power]], 62 (the statement, on the price of gold at $35). [[w.sorensen-kennedy]], 406 (the statement). Check: Stein dates the statement Oct. 30 (378), citing the *New York Times* of Oct. 31 (507 n.11); APP dates it Oct. 31. See [[cal.1960-10-20.economy]]. Names: Kennedy.'
     src:
       c: b860ef44
       rows:
@@ -1713,6 +1713,11 @@ entries:
         - 'w.gavin-gold-dollars-and-power 62: A'
         - 'w.sorensen-kennedy 406: A'
     tags: [name:kennedy-john-f]
+    variants:
+      - unit: A
+        witness: w.stein-fiscal-revolution-in-america
+        reads: a statement on the dollar "on October 30"
+        at: 378; 507 n.11
   - id: cal.1960-10.elections-1960
     when: Oct.
     date: 1960-10

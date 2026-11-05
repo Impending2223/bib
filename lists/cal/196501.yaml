@@ -377,6 +377,17 @@ entries:
       rows:
         - 'w.cosmas-joint-chiefs-of-staff-2012 210: all'
         - 'via w.cosmas-joint-chiefs-of-staff-2012 210 n.25: all'
+  - id: cal.1965-01-05.economy
+    when: Jan. 5
+    date: '1965-01-05'
+    thread: economy
+    c: 'Dillon to Johnson on the balance of payments: the 1964 deficit about $2.8 billion, the fourth quarter at over $4 billion a year; $172 million in gold lost in the quarter; gold in London at its highest since the Cuban crisis. For a special message reaffirming "that a change in the price of gold is out of the question": the Gore amendment imposed on bank loans, the interest equalization tax extended two years, a $100 tax on travel abroad.'
+    n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 26](https://history.state.gov/historicaldocuments/frus1964-68v08/d26). Made public: FRUS 1964–68, VIII (1998). See [[cal.1964-11-25.economy]]. Names: Dillon, Johnson.'
+    src:
+      c: ef40cc96
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d26: all'
+    tags: [name:dillon-c-douglas, name:johnson-lyndon-b]
   - id: cal.1965-01-06.legislatures-ny
     when: Jan. 6
     date: '1965-01-06'
@@ -827,13 +838,18 @@ entries:
     thread: elections-1964
     also: [goldwater, republican-party]
     c: Burch to leave the Republican national chairmanship Apr. 1, after meeting Goldwater in Phoenix; Bliss, the Ohio chairman, to succeed him. Check the date.
-    n: '[[w.hess-republican-establishment]], 42 (the terms, settled at Goldwater''s home in Phoenix, Bliss and Burch there, Bliss to be elected in January, Burch to stay until April). [[w.kabaservice-rule-and-ruin]], 133–34 (Burch to go, Bliss to succeed him; no meeting in Phoenix, no day). Check: Hess and Broder give no date and no day in April. To check: [[w.rae-decline-and-fall-of]]. See [[cal.1964-11-04.elections-1964]]. Names: Burch, Bliss, Goldwater.'
+    n: '[[w.hess-republican-establishment]], 42 (the terms, settled at Goldwater''s home in Phoenix, Bliss and Burch there, Bliss to be elected in January, Burch to stay until April). [[w.kabaservice-rule-and-ruin]], 133–34 (Burch to go, Bliss to succeed him; no meeting in Phoenix, no day). Check: Hess and Broder give no date and no day in April. Check: White has Nixon and Eisenhower meeting Goldwater at a New York hotel in December 1964, Burch''s dismissal and Bliss agreed there ([[w.white-making-of-the-president-1969]], 32). To check: [[w.rae-decline-and-fall-of]]. See [[cal.1964-11-04.elections-1964]]. Names: Burch, Bliss, Goldwater.'
     src:
       c: e99420ee
       rows:
         - 'w.hess-republican-establishment 42: A-B'
         - 'w.kabaservice-rule-and-ruin 133–34: B'
     tags: [name:burch-dean, name:bliss-ray-c, name:goldwater-barry-m]
+    variants:
+      - unit: A
+        witness: w.white-making-of-the-president-1969
+        reads: 'Nixon, Eisenhower and Goldwater at a New York hotel, December 1964: Burch dismissed, Bliss agreed'
+        at: '32'
   - id: cal.1965-01-12.japan-and-korea
     when: Jan. 12–13
     date: '1965-01-12'

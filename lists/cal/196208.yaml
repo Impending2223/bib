@@ -1199,16 +1199,21 @@ entries:
     date: '1962-08-27'
     thread: voting-rights
     also: [amendments]
-    c: House passes the poll tax amendment, [294–86](https://voteview.com/rollcall/RH0870193) (Voteview counts 295 yeas; Check the Record). To the states, [76 Stat. 1259](https://www.govinfo.gov/content/pkg/STATUTE-76/pdf/STATUTE-76-Pg1259.pdf); ratified Jan. 23, 1964.
-    n: '[108 Cong. Rec. (1962)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt13/pdf/GPO-CRECB-1962-pt13-7-1.pdf). [[w.mann-walls-of-jericho]], 322 (the House''s vote, 295–86; Celler; ratification in January 1964). See [[cal.1962-03-27.voting-rights]]. Check: the page.'
+    c: House passes the poll tax amendment, [294–86](https://voteview.com/rollcall/RH0870193). To the states, [76 Stat. 1259](https://www.govinfo.gov/content/pkg/STATUTE-76/pdf/STATUTE-76-Pg1259.pdf); ratified Jan. 23, 1964.
+    n: '[108 Cong. Rec. 17670 (1962)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt13/pdf/GPO-CRECB-1962-pt13-7-1.pdf#page=20) (roll no. 202: yeas 294, nays 86, "present" 1, not voting 54). [[w.mann-walls-of-jericho]], 322 (the House''s vote, 295–86; Celler; ratification in January 1964). See [[cal.1962-03-27.voting-rights]]. Check: Voteview counts 295 yeas, and Mann gives 295–86 (322); the Record''s tally stands.'
     src:
-      c: 0d9ecce2
+      c: 07d80b79
       rows:
-        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt13/pdf/GPO-CRECB-1962-pt13-7-1.pdf: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt13/pdf/GPO-CRECB-1962-pt13-7-1.pdf#page=20: A'
         - 'https://voteview.com/rollcall/RH0870193: A'
         - 'https://www.govinfo.gov/content/pkg/STATUTE-76/pdf/STATUTE-76-Pg1259.pdf: B'
         - 'w.mann-walls-of-jericho 322: A, C'
     short: the poll tax amendment through Congress
+    variants:
+      - unit: A
+        witness: w.mann-walls-of-jericho
+        reads: the House's vote, 295–86 (as the note records it)
+        at: '322'
   - id: cal.1962-08-27.elections-1962
     when: Aug. 27
     date: '1962-08-27'

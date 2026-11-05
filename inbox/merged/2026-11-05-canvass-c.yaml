@@ -1,0 +1,514 @@
+# Leads canvass, class C (notes/leads-canvass.md): each item where a source in hand disagrees with a calendar entry,
+# settled against the record or the source at its page, Nov. 5, 2026. Corrections say so in the note; two accounts
+# standing, a variant (R41) and a Check; a FRUS cite that does not bear out its entry, corrected.
+patch: canvass-c
+by: canvass-c reader (Claude)
+ops:
+- edit:
+    id: cal.1968-08-19.testing
+    base: bff847f9
+    set:
+      n: 'FRUS 1964–68, XIV, doc. [286](https://history.state.gov/historicaldocuments/frus1964-68v14/d286) (Rostow''s cable to Johnson, CAP 82080, with the note''s text; n. 3, Johnson back at the White House 11:08 p.m.). Doc. 285, cited here before, is Rusk to Johnson the same day on the consulates; taken out (canvass, Nov. 5, 2026). [[w.johnson-vantage-point]], 487 (the note, the cable, the decision that night); [[w.dobrynin-in-confidence]], 183 (a positive reply, inviting Johnson to Moscow). [[w.ball-past-has-another-pattern]], 440 (the visit in the first ten days of October). Made public: FRUS 1964–68, XIV (2001). Check: Dobrynin: the reply two days after Aug. 15 (183). See [[cal.1968-07-25.testing]]. Names: Dobrynin, Rusk, Johnson, Rostow.'
+      src:
+        c: 60db1368
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v14/d286: A-D'
+        - 'w.johnson-vantage-point 487: A, C-E'
+        - 'w.ball-past-has-another-pattern 440: A'
+        - 'w.dobrynin-in-confidence 183: A'
+- edit:
+    id: cal.1964-12-24.vietnam
+    base: 0e438a71
+    set:
+      n: 'FRUS 1964–68, I, doc. [465](https://history.state.gov/historicaldocuments/frus1964-68v01/d465) (the cable on Hương and Taylor; for the bomb only, its n. 5: 6 p.m., 2 killed, 50 injured); doc. [477](https://history.state.gov/historicaldocuments/frus1964-68v01/d477) (Johnson to Taylor, CAP 64375, Dec. 30); docs. [468](https://history.state.gov/historicaldocuments/frus1964-68v01/d468), [472](https://history.state.gov/historicaldocuments/frus1964-68v01/d472) (Taylor, Dec. 25 and 28); [475](https://history.state.gov/historicaldocuments/frus1964-68v01/d475) (the refusal, Dec. 29). [[w.gibbons-u-s-government-and]], II, 382–83, III, 25 (two killed, 38 Americans and 13 Vietnamese hurt; the reprisal urged and refused; Johnson''s message of Dec. 30); [[w.vietnam-victory-in-vietnam]], 136 (the Brink Hotel among the sappers'' targets); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 528–29; [[w.cosmas-joint-chiefs-of-staff-2012]], 195–98; [[w.macv-command-history-1964]], 20, 106 (the bombing, Dec. 24); [[w.westmoreland-soldier-reports]], 89, 113 (the bomb; Taylor and Westmoreland for a reprisal; Washington''s refusal; Johnson''s cable to Taylor, for Rangers and Special Forces rather than bombing); [[w.rusk-as-i-saw-it-1990]], 447 (Rusk against retaliation); [[w.mcnamara-in-retrospect]], ch. 6 at n.20 (CAP 64375: "Every time I get a military recommendation it calls for large-scale bombing"; "appropriate military strength on the ground"). [[w.ball-past-has-another-pattern]], 392 (the bomb; Johnson''s reluctance at Christmas). Check: Westmoreland gives two killed, a Navy officer and a civilian, and more than a hundred wounded, sixty-six of them Americans (89). See [[cal.1964-11-01.vietnam]]; [[cal.1964-12-20.vietnam]]. Check: the hurt. Taylor (doc. 468) gives two dead among some 66 casualties; Cosmas, 195, 63 American servicemen and civilians injured, with an Australian officer and 43 Vietnamese. Names: Taylor, Johnson. Check: Kaplan gives 2 Americans killed and 66 Americans and Vietnamese wounded (528). Check: the History''s chronology, 193, dates it Dec. 25: 2 Americans killed, 108 Americans and Vietnamese wounded. Check: Ball (392) gives two killed, fifty-eight wounded.'
+      src:
+        c: 29892d17
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v01/d465: A'
+        - 'w.vietnam-victory-in-vietnam 136: A'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 528–29: all'
+        - 'via w.kaplan-mcnamara-ascendancy-1961-1965 528 n.136: A-C'
+        - 'via w.kaplan-mcnamara-ascendancy-1961-1965 529 n.137: D-E'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v01/d468: A-B'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v01/d475: C'
+        - 'w.cosmas-joint-chiefs-of-staff-2012 195–98: all'
+        - 'via w.cosmas-joint-chiefs-of-staff-2012 195 n.32: B'
+        - 'via w.cosmas-joint-chiefs-of-staff-2012 196 n.35: B'
+        - 'via w.cosmas-joint-chiefs-of-staff-2012 197 n.37: C'
+        - 'via w.cosmas-joint-chiefs-of-staff-2012 198 n.39: D-E'
+        - 'w.gibbons-u-s-government-and II, 382–83: all'
+        - 'w.gibbons-u-s-government-and III, 25: A-D'
+        - 'via w.gibbons-u-s-government-and II, 382 n.110: D-E'
+        - 'w.ball-past-has-another-pattern 392: A, C'
+        - 'w.macv-command-history-1964 20, 106: A'
+        - 'w.westmoreland-soldier-reports 89, 113: ?'
+        - 'w.rusk-as-i-saw-it-1990 447: C'
+        - 'via x.1984.rusk-interviews-with-richard-rusk: C'
+        - 'w.mcnamara-in-retrospect ch. 6 at n.20: D-E'
+        - 'via x.1964-12-30.johnson-to-taylor-cap-64375-dec: D-E'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v01/d477: B-E'
+- edit:
+    id: cal.1967-10-23.vietnam
+    base: 0fa59830
+    set:
+      n: 'FRUS 1964–68, V, doc. [363](https://history.state.gov/historicaldocuments/frus1964-68v05/d363) (all but the Joint Chiefs'' report); doc. [312](https://history.state.gov/historicaldocuments/frus1964-68v05/d312), n. 2 (Phúc Yên authorized Sept. 28 and cancelled). [[w.gibbons-u-s-government-and]], IV, 793–94, 868–69, 927–28 (the report, by the Pentagon Papers); [[w.cosmas-joint-chiefs-of-staff]], 81–82 (the decision of Oct. 23: Phúc Yên authorized, the Hanoi suspension lifted, the power plant once with Walleye, the two bridges and nine other targets in the prohibited area); [[w.drea-mcnamara-clifford-and-the-2011]], 220 (after the Pentagon demonstrations; the ban of Aug. 24 lifted). Made public: FRUS 1964–68, V (2002). To check: [[w.pentagon-papers]], IV, 536 (the report); CINCPAC to JCS, 080726Z Oct 67, JCS IN 32563 (cited by [[w.cosmas-joint-chiefs-of-staff]], 81 n.35); CM-2684-67 to SecDef, 1 Oct 67, OCJCS File 091 Vietnam Oct 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 81 n.35); JCS 9674 to CINCPAC, 232212Z Oct 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 81 n.35); NMCC OPSUMs 249-, 250-, and 251-67, 24, 25, and 26 Oct 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 81 n.35); CM-2676-67 to SecDef, 4 Oct 67, OCJCS File 091 Vietnam Oct 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 82 n.37); JCS 8239 to CINCPAC, 061826Z Oct 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 82 n.37); JCS 9045 to CINCPAC, 170003Z Oct 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 82 n.37); NMCC OPSUMs 236-67 through 248-67, 9 through 23 Oct 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 82 n.37); JCS 9674 to CINCPAC, 232212Z Oct 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 82 n.37). See [[cal.1967-10-20.vietnam-pennsylvania]]; [[cal.1967-08-24.vietnam-air-war]]. Names: Johnson, Rusk, McNamara, Rostow, Wheeler, Christian, Helms.'
+      src:
+        c: 32253a88
+        rows:
+        - 'w.gibbons-u-s-government-and IV, 793: A-B'
+        - 'w.gibbons-u-s-government-and IV, 794: C-G'
+        - 'w.gibbons-u-s-government-and IV, 868: H'
+        - 'w.gibbons-u-s-government-and IV, 869: D-E'
+        - 'w.gibbons-u-s-government-and IV, 927: I'
+        - 'w.gibbons-u-s-government-and IV, 928: I'
+        - 'via w.gibbons-u-s-government-and IV, 868 n.68: A-H'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d363: all'
+        - 'w.cosmas-joint-chiefs-of-staff 81–82: C'
+        - 'via x.1967-10-08.cincpac-to-jcs-080726z-oct-67: C'
+        - 'via x.1967-10-01.cm-2684-67-to-secdef-1-oct: C'
+        - 'via x.1967-10-23.jcs-9674-to-cincpac-232212z-oct-67: C'
+        - 'via x.1967-10-26.nmcc-opsums-249-250-and-251-67: C'
+        - 'via x.1967-10-04.cm-2676-67-to-secdef-4-oct: C'
+        - 'via x.1967-10-06.jcs-8239-to-cincpac-061826z-oct-67: C'
+        - 'via x.1967-10-17.jcs-9045-to-cincpac-170003z-oct-67: C'
+        - 'via x.1967-10-23.nmcc-opsums-236-67-through-248-67: C'
+        - 'w.drea-mcnamara-clifford-and-the-2011 220: ?'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d312: C'
+- edit:
+    id: cal.1963-03-17.cuba
+    base: 77f670bb
+    set:
+      n: 'Department of State statement, press release 144, Mar. 19, the attack "alleged to have happened on the night of March 18": [[w.department-of-state-bulletin]], [Apr. 8, 1963, 520](https://archive.org/details/departmentofstat4863unit/page/520/mode/1up). [FRUS 1961–63, XI, doc. 297](https://history.state.gov/historicaldocuments/frus1961-63v11/d297), n. 1 (Mar. 18). See [[cal.1963-01-08.cuba]]. Check: the date, Mar. 17 or 18. Settled: Mar. 18, as both records give it; the entry, dated Mar. 17 before, which no source read gives, moved (canvass, Nov. 5, 2026).'
+      when: Mar. 18
+      date: '1963-03-18'
+- edit:
+    id: cal.1962-08-27.voting-rights
+    base: 88631b8a
+    set:
+      n: '[108 Cong. Rec. 17670 (1962)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt13/pdf/GPO-CRECB-1962-pt13-7-1.pdf#page=20) (roll no. 202: yeas 294, nays 86, "present" 1, not voting 54). [[w.mann-walls-of-jericho]], 322 (the House''s vote, 295–86; Celler; ratification in January 1964). See [[cal.1962-03-27.voting-rights]]. Check: the page. The page: 17670, roll no. 202 (canvass, Nov. 5, 2026). Check: Voteview counts 295 yeas, and Mann gives 295–86 (322); the Record''s tally stands.'
+      c: House passes the poll tax amendment, [294–86](https://voteview.com/rollcall/RH0870193). To the states, [76 Stat. 1259](https://www.govinfo.gov/content/pkg/STATUTE-76/pdf/STATUTE-76-Pg1259.pdf); ratified Jan. 23, 1964.
+      variants:
+      - unit: A
+        witness: w.mann-walls-of-jericho
+        reads: the House's vote, 295–86 (as the note records it)
+        at: '322'
+      src:
+        c: 07d80b79
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt13/pdf/GPO-CRECB-1962-pt13-7-1.pdf#page=20: A'
+        - 'https://voteview.com/rollcall/RH0870193: A'
+        - 'https://www.govinfo.gov/content/pkg/STATUTE-76/pdf/STATUTE-76-Pg1259.pdf: B'
+        - 'w.mann-walls-of-jericho 322: A, C'
+- edit:
+    id: cal.1968-02-21.economy
+    base: 5813b6d4
+    set:
+      n: '[114 Cong. Rec. 3696 (1968)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt3/pdf/GPO-CRECB-1968-pt3-8-1.pdf#page=30) (Fino''s motion to recommit, roll no. 30: yeas 188, nays 206, "present" 1; passage, roll no. 31: yeas 199, nays 190). FRUS 1964–68, VIII, doc. [180](https://history.state.gov/historicaldocuments/frus1964-68v08/d180). [[w.cq-weekly-report]], Mar. 1, 1968, 382. On the floor, by its account (382–83): Blackburn''s amendment, a 12.5 percent cover, refused 39–73 standing; Albert W. Johnson''s, 18.75 percent, by voice; Mills: defeat "could create the greatest run on our gold stocks that has ever occurred"; Ford: "to cure cancer with a band aid." The House Republican Policy Committee against "sanctioning in advance the dissipation of our remaining gold supply"; Fowler and Martin, by letter to Patman, against a partial cover. Check: [[w.cq-weekly-report]], Mar. 1, 1968, 382, gives the recommittal 188–206. The recommittal corrected to the Record''s 188–206, as CQ gives it (canvass, Nov. 5, 2026). Check: Voteview counts 189–205. To check: [[w.solomon-international-monetary-system-1945]]; [[w.coombs-arena-of-international-finance]]. See [[cal.1968-01-01.economy]]. Names: Fowler, Johnson.'
+      c: 'The House, H.R. 14743: the 25 percent gold reserve behind Federal Reserve notes ended. Recommittal refused, [188–206](https://voteview.com/rollcall/RH0900257); passed, [199–190](https://voteview.com/rollcall/RH0900258). Fowler to Johnson, Feb. 7: talk in the City of London of a new international financial crisis in March.'
+      src:
+        c: 6db000e7
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d180: all'
+        - 'https://voteview.com/rollcall/RH0900257: B'
+        - 'https://voteview.com/rollcall/RH0900258: C'
+        - 'w.cq-weekly-report Mar. 1, 1968, 382: A-C'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt3/pdf/GPO-CRECB-1968-pt3-8-1.pdf#page=30: B-C'
+- edit:
+    id: cal.1962-07-19.vietnam
+    base: 2b1e61b6
+    set:
+      n: '[[w.asselin-hanois-road-to-the]], 136–37. Check: Asselin, 136, has the statement July 19; his note to 128 dates the Front''s declaration of its willingness for a coalition July 20 (128 n.63). To check: the Australian government''s report "South Vietnam: Communist Proposals for an International Conference," Aug. 3, 1962, FO 371/166763 (cited by [[w.asselin-hanois-road-to-the]], 136 n.124); the NLF Central Committee''s declaration, July 20, 1962 (excerpt), Hồ sơ 231, VNAC3 (cited by [[w.asselin-hanois-road-to-the]], 128 n.63). See [[cal.1962-07-18.vietnam]]. Check: the statement''s text and where it was printed.'
+      variants:
+      - unit: A
+        witness: x.1962-07-20.trich-tuyen-bo-ub-twmtdtgpmn
+        reads: '"Trich tuyen bo cua UB TWMTDTGPMN, 20.7.1962" [Excerpt from the Declaration of the Central Committee of the National Liberation Front for South Vietnam, 20 July 1962]'
+        at: Asselin, 285 (128 n.63)
+- check:
+    id: cal.1967-09-20.vietnam-2
+    text: 'Check: Berman''s passage at 183 carries no note; the interview''s source and audience not given (read Nov. 5, 2026).'
+- check:
+    id: cal.1968-04-23.elections-1968
+    text: 'Check: Chester prints McCarthy''s vote two ways, 428,259 (153) and 428,239, "78.5 per cent of the turnout" (548), and Humphrey-Johnson 73,263 (153) and 72,263 (548); CQ''s 428,259, and Humphrey 51,998 with Johnson 21,265, agree with 153. The State''s canvass not read.'
+- edit:
+    id: cal.1968-04-23.elections-1968
+    base: 3b9ac4bc
+    set:
+      variants:
+      - unit: C
+        witness: w.chester-american-melodrama
+        reads: McCarthy received 428,239 votes (78.5 per cent of the turnout), against 65,430 for Robert Kennedy, and 72,263 for Johnson-Humphrey
+        at: '548'
+- check:
+    id: cal.1961-05-16.transition-and-staff
+    text: 'Check: Fursenko and Naftali put the injury at Ottawa "in March" (367); the arrival remarks in the Papers date the visit May 16.'
+- edit:
+    id: cal.1961-05-16.transition-and-staff
+    base: bace26ab
+    set:
+      variants:
+      - unit: B
+        witness: w.fursenko-khrushchevs-cold-war
+        reads: his back twisted "in March during a tree-planting ceremony" at Ottawa
+        at: '367'
+- edit:
+    id: cal.1960-09-14.congo
+    base: 7e7e41a6
+    set:
+      n: 'FRUS 1958–60, XIV, docs. [215](https://history.state.gov/historicaldocuments/frus1958-60v14/d215), [216](https://history.state.gov/historicaldocuments/frus1958-60v14/d216) (NSC, Sept. 15; the editors: Mobutu''s radio address of Sept. 14 and, at a press conference that evening, the Soviet and Czech embassies to close within 48 hours). [[w.fursenko-khrushchevs-cold-war]], 316 (Mobutu''s coup, "a truce"; the embassies ordered out the next day); [[w.poole-joint-chiefs-of-staff]], 256 (Mobutu takes power in the army''s name and ejects the Soviet and Czech missions, mid-September). Check: Fursenko and Naftali date Mobutu''s order to close the Soviet and Czechoslovak embassies Sept. 17 (316). See [[cal.1960-06-30.congo]]. Names: Mobutu, Kasavubu, Lumumba.'
+      variants:
+      - unit: A
+        witness: w.fursenko-khrushchevs-cold-war
+        reads: On September 16 Mobutu's forces chased the elected representatives out of the parliament building in Leopoldville, and the next day he ordered the Soviets and the Czechs to close their embassies
+        at: '316'
+- edit:
+    id: cal.1965-06-09.vietnam-congress
+    base: 6a744592
+    set:
+      n: '[111 Cong. Rec. 13083–99 (1965)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt10/pdf/GPO-CRECB-1965-pt10-2-1.pdf#page=3) (Senate, June 10; "The Press—and Criticism of the Press," 13087; Javits, 13098). [[w.gibbons-u-s-government-and]], III, 283 n.19. Check: the speech not found in the Senate''s day of June 9, 1965 (111 Cong. Rec. 12963–13075); its day and page. Found in the Senate''s day of June 10; the entry, dated June 9 before, moved (canvass, Nov. 5, 2026). Check: Gibbons has the speech "later that same day" as Javits''s of June 9 (III, 283 n.19). See [[cal.1965-06-09.vietnam-2]]. Names: Dodd.'
+      c: 'Dodd in the Senate, "Vietnam and the Far East—A Report by Senator Dodd": for the President and against the press. Javits in the colloquy.'
+      when: June 10
+      date: '1965-06-10'
+      variants:
+      - unit: A
+        witness: w.gibbons-u-s-government-and
+        reads: the speech by Dodd "later that same day" (June 9, the day of Javits's speech)
+        at: III, 283 n.19
+      src:
+        c: 734b2528
+        rows:
+        - 'w.gibbons-u-s-government-and III, 283 n: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt10/pdf/GPO-CRECB-1965-pt10-2-1.pdf#page=3: all'
+- check:
+    id: cal.1966-11-15.vietnam
+    text: 'Check: Herring has the Non-Group "established in May 1967 at Johnson''s instance" (15; 189 n.44, his interviews with William Bundy and Katzenbach, 1988); Rostow to Johnson, Nov. 30, 1966 ([FRUS 1964–68, IV, doc. 319](https://history.state.gov/historicaldocuments/frus1964-68v04/d319)), names "the special committee you set up, chaired by Nick Katzenbach."'
+- edit:
+    id: cal.1966-11-15.vietnam
+    base: 3c9cee96
+    set:
+      variants:
+      - unit: B
+        witness: w.herring-lbj-and-vietnam
+        reads: the Non-Group "established in May 1967 at Johnson's instance"
+        at: 15; 189 n.44
+- check:
+    id: cal.1967-11-21.vietnam-2
+    text: 'Check: the matters Herring gives the meeting of Nov. 22 (the periodic reports to the nation, the casualty figures) are those of FRUS''s notes of the morning of Nov. 21 (doc. 409); one meeting, recorded the next day, or two.'
+- edit:
+    id: cal.1967-11-21.vietnam-2
+    base: b6f2c004
+    set:
+      variants:
+      - unit: C
+        witness: x.1967-11-22.westmoreland-record-of-white-house-meeting
+        reads: 'a top-level meeting at the White House "the following day" after the Press Club speech: casualties, visitors, the ARVN "center stage," periodic reports to the nation'
+        at: Herring, 147; 214 n.141
+- check:
+    id: cal.1965-02-07.vietnam
+    text: 'Check: Humphrey has an ad hoc meeting in the Cabinet Room "the first weekend of February 1965," Ball, Stevenson and he against the bombing (319); FRUS''s lists of those present (II, docs. 76–78, 80–81) name neither Humphrey nor Stevenson, and give Ball for a retaliatory strike (doc. 77); McNamara''s record has the President asking the Vice President to the meeting of the evening of Feb. 6 (doc. 78).'
+- edit:
+    id: cal.1965-02-07.vietnam
+    base: ca6f1e8a
+    set:
+      variants:
+      - unit: E
+        witness: w.humphrey-education-of-a-public-1976
+        reads: a Cabinet Room meeting "the first weekend of February 1965," Ball, Stevenson and Humphrey opposed to the bombing
+        at: '319'
+- edit:
+    id: cal.1964-01-31.republican-party
+    base: eca17638
+    set:
+      n: '[[w.mann-grand-delusion]], 312 ("only the day before" Johnson''s telephone conversation with John Knight of Feb. 3; dated Jan. 31 before, on a misreading of the page, and moved: canvass, Nov. 5, 2026). To check: [[w.taking-charge]], 213–14 (cited by [[w.mann-grand-delusion]], 312 n.31). Check: the day and the words. See [[cal.1964-02-01.vietnam]]. Names: Nixon, Goldwater, Johnson, de Gaulle.'
+      when: Feb. 2
+      date: '1964-02-02'
+- check:
+    id: cal.1963-05-26.opinion-5
+    text: 'Check: Novak gives the first postmarriage poll as Goldwater 40, Rockefeller 29 (148), and Romney 16 percent in early May, 18 in mid-May (161); Gallup''s release (III, 1819) stands.'
+- edit:
+    id: cal.1963-05-26.opinion-5
+    base: 5a363f08
+    set:
+      variants:
+      - unit: A
+        witness: w.novak-agony-of-the-g
+        reads: the postmarriage results giving Goldwater 40 percent and Rockefeller 29 percent
+        at: '148'
+      - unit: A
+        witness: w.novak-agony-of-the-g
+        reads: Romney from 13 percent in April to 16 percent in early May to 18 percent in mid-May
+        at: '161'
+- move:
+    id: cal.1964-01-31.republican-party
+    section: '196402'
+- check:
+    id: cal.1962-01-30.soviet-union
+    text: 'Check: Reeves has Adzhubei brought into the White House by the back door with Bolshakov "that same August," the year not plain on the page, and Gagarin met the same way the month before (231); no such visit of either is in the records read.'
+- edit:
+    id: cal.1963-03-24.foreign-aid
+    base: 9336da41
+    set:
+      n: 'Letter to General Clay in Response to a Report on the U.S. Military and Economic Assistance Programs, [1963 Pub. Papers 288](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=346) (released Mar. 24, 1963; the note: the report dated Mar. 20; the release date corrected from Mar. 22: canvass, Nov. 5, 2026). [FRUS 1961–63, IX, doc. 160](https://history.state.gov/historicaldocuments/frus1961-63v09/d160). [[w.poole-joint-chiefs-of-staff]], 221 (the Clay committee: military aid down to $1 billion "in a few years"). To check: [[w.world-scope-and-distribution-of]]; [[w.ruttan-united-states-development-assistance]]; [[w.smith-lucius-d-clay]]. See [[cal.1962-08-01.foreign-aid]]. Names: Clay, Meany.'
+      variants:
+      - unit: D
+        witness: w.selverstone-kennedy-withdrawal
+        reads: Clay's report "Released on March 22"
+        at: '111'
+- check:
+    id: cal.1963-03-24.foreign-aid
+    text: 'Check: Selverstone has the report released Mar. 22 (111); the Papers print the reply "Released March 24, 1963."'
+- check:
+    id: cal.1960-10-31.economy
+    text: 'Check: Stein dates the statement Oct. 30 (378), citing the *New York Times* of Oct. 31 (507 n.11); APP dates it Oct. 31.'
+- edit:
+    id: cal.1960-10-31.economy
+    base: 02586152
+    set:
+      variants:
+      - unit: A
+        witness: w.stein-fiscal-revolution-in-america
+        reads: a statement on the dollar "on October 30"
+        at: 378; 507 n.11
+- edit:
+    id: cal.1965-08-10.voting-rights
+    base: 78f28d35
+    set:
+      variants:
+      - unit: A
+        witness: w.branch-pillar-of-fire
+        reads: the federal voting registrars "who opened doors in nine counties on August 20, 1965"
+        at: 605; 753 (Owens to Blackwell, Aug. 21, 1965, A/SC146f5)
+- check:
+    id: cal.1968-08-06.governors-ks
+    text: 'Check: CQ''s unofficial returns, "almost complete," give Harmon 174,023 (59.2 percent), Crutcher 119,966 (40.8 percent) ([[w.cq-weekly-report]], Aug. 9, 1968, 2109); the canvass stands.'
+- edit:
+    id: cal.1968-08-06.governors-ks
+    base: 2946fb28
+    set:
+      variants:
+      - unit: A
+        witness: w.cq-weekly-report
+        reads: Harmon 174,023 (59.2 percent); Crutcher 119,966 (40.8 percent), almost complete returns
+        at: Aug. 9, 1968, 2109
+- check:
+    id: cal.1968-04-17.elections-1968-state-conventions
+    text: 'Check: the series'' table of the delegations (elections/conventions.yaml, from Wikipedia''s table, its rows from the papers of the day) has the district conventions of Apr. 16 and the State convention of Apr. 17; no record of the choosing read.'
+- edit:
+    id: cal.1963-08-01.japan-and-korea
+    base: eb8f16e6
+    set:
+      n: '[110 Cong. Rec. 18026 (1964)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt14/pdf/GPO-CRECB-1964-pt14-1-2.pdf#page=62) (Fong, Aug. 4, 1964: Ōhira came "to dissuade our Government from enacting the bill"). [FRUS 1961–63, IX: Foreign Economic Policy, doc. 81](https://history.state.gov/historicaldocuments/frus1961-63v09/d81) (editorial note: Ōhira with Ball and, separately, Rusk, Aug. 1, and with Kennedy, Aug. 2; Rusk added: canvass, Nov. 5, 2026). FRUS 1961–63, XXII, docs. [376](https://history.state.gov/historicaldocuments/frus1961-63v22/d376), [377](https://history.state.gov/historicaldocuments/frus1961-63v22/d377), [378](https://history.state.gov/historicaldocuments/frus1961-63v22/d378). To check: [[w.schaller-altered-states]]. See [[cal.1963-07-18.economy]]. Names: Ōhira, Ikeda, Ball, Kennedy.'
+      c: 'Ōhira in Washington on the interest equalization tax: Ball and, apart, Rusk, Aug. 1; Kennedy, Aug. 2, with Ikeda''s letter. Japan needs a regular inflow of capital. The communiqué: if "serious economic difficulties" arise in Japan, "some form of exemption" for new issues.'
+      src:
+        c: 2e5d829d
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v22/d376: all'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v09/d81: A-B'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt14/pdf/GPO-CRECB-1964-pt14-1-2.pdf#page=62: A'
+- names:
+    id: cal.1963-08-01.japan-and-korea
+    add:
+    - Rusk
+    tags:
+    - name:rusk-dean
+- edit:
+    id: cal.1965-02-24.vietnam
+    base: 673808ea
+    set:
+      variants:
+      - unit: A
+        witness: x.1967-01-25.project-checo-war-in-vietnam-1965
+        reads: near the An Khe Pass in Binh Dinh Province
+        at: '17'
+- check:
+    id: cal.1964-12-10.laos
+    text: 'Check: the first Barrel Roll mission''s day. FRUS has the operation under way by Dec. 21, the next mission "not scheduled until 24 December" (I, doc. 456), and Washington "proceeding with Barrel Roll mission tonight," Dec. 24 (I, doc. 465); Frankum, the first sortie for Vang Pao''s irregulars Dec. 24 (117).'
+- edit:
+    id: cal.1965-12-06.laos
+    base: 6eac8934
+    set:
+      variants:
+      - unit: A
+        witness: x.1966-01-03.vientiane-to-washington-703-jan-3
+        reads: Tiger Hound "established at my suggestion" (Sullivan)
+        at: FRUS 1964–68, XXVIII, doc. 216, par. 2
+- edit:
+    id: cal.1966-04-12.vietnam
+    base: b3cfc211
+    set:
+      variants:
+      - unit: A
+        witness: w.frankum-like-rolling-thunder
+        reads: the first B-52 sorties over North Vietnam "On April 11, 1966"
+        at: '47'
+- edit:
+    id: cal.1965-12-10.laos
+    base: 2f5ddbe1
+    set:
+      variants:
+      - unit: A
+        witness: w.staaveren-u-s-air-force
+        reads: B-52 operations in Laos from their inception "on December 12, 1965"
+        at: '133'
+- add:
+    entry:
+      id: cal.1963-07-04.vietnam-saigon
+      when: July 4
+      date: '1963-07-04'
+      thread: vietnam-saigon
+      c: 'Saigon, the embassy''s Fourth of July reception. Trần Văn Đôn takes Conein to the Caravelle Hotel bar: a generals'' plot to remove the whole Ngô family, all but "one or two" generals in it, a coup perhaps within ten days; the American reaction? No answer given.'
+      n: '[[w.miller-misalliance]], 284–85. Check: the day: Miller has the talk after the reception (284–85), and Nhu''s meeting with the generals of July 11 "just three days after" it (286). To check: "Testimony of Lucien Conein," Senate Select Committee on Intelligence, June 20, 1975, 20, box 47, Church Committee Records, JFK Assassination Collection, NARA (cited by [[w.miller-misalliance]], 396 n.22). Names: Trần Văn Đôn, Conein.'
+      tags:
+      - name:tran-van-don
+      - name:conein-lucien
+      - place:saigon
+      variants:
+      - unit: A
+        witness: w.miller-misalliance
+        reads: Nhu's meeting of July 11 "just three days after" Don revealed the plot to Conein
+        at: '286'
+    section: '196307'
+- check:
+    id: cal.1960-01-26.defense
+    text: 'Check: which testimony is meant: the Daily Digest has Gates before the House Committee on Science and Astronautics, Jan. 25, on outer space, hearings continuing Jan. 26 ([106 Cong. Rec. D28](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=26)); the leads give Watson, 350, for it (the book not read here).'
+- check:
+    id: cal.1961-03-09.defense
+    text: 'Check: White''s same sentence has the morning''s first trial of the education bill in the House Committee on Education (375); the Daily Digest has no education session Mar. 9 (Education and Labor ordered the minimum wage bill reported, D84), the school aid hearings beginning Mar. 13 (D90).'
+- check:
+    id: cal.1960-11-08.elections-1960
+    text: 'Check: White, by the AP''s "final official figures," gives Kennedy 34,221,463 (49.7 percent), Nixon 34,108,582 (49.6) ([[w.white-making-of-the-president]], 350 and n.8; App. A, 385).'
+- edit:
+    id: cal.1960-11-08.elections-1960
+    base: 04cbced2
+    set:
+      variants:
+      - unit: A
+        witness: x.1960-12-17.associated-press-final-tabulation-of-the-presidential
+        reads: Kennedy 34,221,463 (49.7 per cent), Nixon 34,108,582 (49.6)
+        at: White, 350 n.8; App. A, 385
+- edit:
+    id: cal.1964-07.elections-1964-6
+    base: 3768bacd
+    set:
+      variants:
+      - unit: A
+        witness: w.white-making-of-the-president-1965
+        reads: a weekend at Rowe's home, "a week after the elimination" of Robert Kennedy
+        at: '274'
+- check:
+    id: cal.1964-07.elections-1964-6
+    text: 'Check: Humphrey gives no month ("Early on," 298); White a weekend a week after Johnson ruled out the Cabinet, July 30 (274).'
+- edit:
+    id: cal.1968-03-12.elections-1968
+    base: 735609d1
+    set:
+      variants:
+      - unit: C
+        witness: w.white-making-of-the-president-1969
+        reads: Johnson 27,243 (49.5 percent), McCarthy 23,280 (42.4)
+        at: '89'
+      - unit: B
+        witness: w.white-making-of-the-president-1969
+        reads: Nixon 80,667
+        at: '131'
+- check:
+    id: cal.1968-11-05.elections-1968
+    text: 'Check: White, by the AP''s "final official totals," gives Nixon 31,770,237 (43.40 percent), Humphrey 31,270,533 (42.72), Wallace 9,906,141 (13.53) ([[w.white-making-of-the-president-1969]], 396).'
+- edit:
+    id: cal.1968-11-05.elections-1968
+    base: 95c8f099
+    set:
+      variants:
+      - unit: A
+        witness: w.white-making-of-the-president-1969
+        reads: Nixon 31,770,237 (43.40 percent), Humphrey 31,270,533 (42.72), the AP's final totals
+        at: '396'
+- check:
+    id: cal.1965-01-12.elections-1964
+    text: 'Check: White has Nixon and Eisenhower meeting Goldwater at a New York hotel in December 1964, Burch''s dismissal and Bliss agreed there ([[w.white-making-of-the-president-1969]], 32).'
+- edit:
+    id: cal.1965-01-12.elections-1964
+    base: 3338b182
+    set:
+      variants:
+      - unit: A
+        witness: w.white-making-of-the-president-1969
+        reads: 'Nixon, Eisenhower and Goldwater at a New York hotel, December 1964: Burch dismissed, Bliss agreed'
+        at: '32'
+- edit:
+    id: cal.1961-07-11.right-and-the-military
+    base: c269ac91
+    set:
+      variants:
+      - unit: A
+        witness: w.woods-j-william-fulbright-vietnam
+        reads: '"The evening of June 11"'
+        at: '41'
+- edit:
+    id: cal.1963-10-29.civil-rights-bill
+    base: f7bd6a59
+    set:
+      variants:
+      - unit: A
+        witness: w.zelizer-fierce-urgency-of-now
+        reads: the substitute "passed 23 to 11"
+        at: 59; 60 n.62
+- primary:
+    id: cal.1966-08-09.open-housing
+    text: '[112 Cong. Rec. 18739 (1966)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt14/pdf/GPO-CRECB-1966-pt14-5-2.pdf#page=40) (House, Aug. 9: passage, yeas 259, nays 157).'
+    units: A
+- edit:
+    id: cal.1966-08-09.open-housing
+    base: 2f3971af
+    set:
+      variants:
+      - unit: A
+        witness: w.zelizer-fierce-urgency-of-now
+        reads: the House passed the bill "On August 13"
+        at: '245'
+- edit:
+    id: cal.1965-07-29.medicare
+    base: e88bf15e
+    set:
+      variants:
+      - unit: A
+        witness: w.zelizer-fierce-urgency-of-now
+        reads: the AMA's representatives at the White House "In late June"
+        at: '200'
+- primary:
+    id: cal.1968-06-20.economy
+    text: '[114 Cong. Rec. 18086 (1968)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt14/pdf/GPO-CRECB-1968-pt14-2-1.pdf#page=128) (the conference report: yeas 268, nays 150).'
+    units: C
+- edit:
+    id: cal.1968-06-20.economy
+    base: c91580ee
+    set:
+      variants:
+      - unit: C
+        witness: w.zelizer-taxing-america
+        reads: the conference report passed "by a 268-159 vote"
+        at: '276'
+- check:
+    id: cal.1962-07-11.economy
+    text: 'Check: Zelizer has the liberalized depreciation allowances announced by the Treasury "in July 1961" (186); the Papers date the statement July 12, 1962.'
+- edit:
+    id: cal.1962-07-11.economy
+    base: 355b4476
+    set:
+      variants:
+      - unit: A
+        witness: w.zelizer-taxing-america
+        reads: the depreciation allowances "announced by the Treasury in July 1961"
+        at: '186'
+- cite:
+    id: cal.1962-10-28.missile-crisis-6
+    item: '[[w.thomas-robert-kennedy]], 231 (the meeting at 11; Bundy on the doves)'
+    units: A-B
+- edit:
+    id: cal.1962-10-28.missile-crisis-6
+    base: 3e913569
+    set:
+      variants:
+      - unit: B
+        witness: w.thomas-robert-kennedy
+        reads: '"today is the day of the doves"'
+        at: '231'
