@@ -64,7 +64,7 @@ Entries mapped: 51; records logged: 88 (found and read 45, found and not read or
 
 ## Passed over
 
-Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and the calendar does not take, a row each, for the owner to rule on. Method: every dated mention on the pages read for the entries (not the whole volume) was found by pattern; a mention on a day the calendar holds an entry of a related thread (Vietnam, Laos, Defense, Cuba, Berlin, Korea, the alliance, the Middle East and the like) was taken as already in and is not listed; the rest were read and ruled here, the calendar checked by day where the ruling says "already in". Operational detail (single missions, sorties, losses, unit moves) is passed over as minor throughout.
+Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and the calendar does not take, a row each, for the owner to rule on. Method: every dated mention on the pages read for the entries (not the whole volume) was found by pattern; a mention on a day the calendar holds an entry of a related thread (Vietnam, Laos, Defense, Cuba, Berlin, Korea, the alliance, the Middle East and the like) was taken as already in and is not listed; the rest were read and ruled here, the calendar checked by day where the ruling says "already in". The military re-read of Nov. 5, 2026 (below) read the whole volume for operations, actions, incidents, orders and deployments and re-ruled the rows of that kind; its own rows follow the first pass's.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -80,44 +80,104 @@ Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and
 | 36 | Mar. 14, 1964 | the Joint Chiefs concur in McNamara's recommendations, with reservations | lead |
 | 75 | June 1–2, 1964 | the Honolulu conference | already in under cal.1964-06-01.vietnam |
 | 83 | June 19, 1964 | Lodge's letter of resignation | already in under cal.1964-06-23.vietnam |
-| 83 | July 3, 1964 | Wheeler takes office as Chairman; Harold K. Johnson Army Chief of Staff | lead: personnel |
+| 83 | July 3, 1964 | Wheeler takes office as Chairman; Harold K. Johnson Army Chief of Staff | entered (military re-read): cal.1964-07-03.defense |
 | 106 | Aug. 3, 1964 | Hanoi's protest through the ICC | already in under cal.1964-08-02.vietnam (Aug. 2–3) |
 | 120 | Aug. 29, 1964 | Khánh steps aside for an acting premier | already in under cal.1964-08-27.vietnam |
-| 121 | Sept. 19–20, 1964 | the Montagnard CIDG revolt at four camps | lead |
+| 121 | Sept. 19–20, 1964 | the Montagnard CIDG revolt at four camps | already in under cal.1964-09-20.vietnam |
 | 133 | Sept. 15, 1964 | the DESOTO patrol resumed | already in under cal.1964-09-18.vietnam |
-| 133 | Sept. 19, 1964 | CINCPAC told to prepare strikes on five targets | minor |
-| 134 | Sept. 30, 1964 | the Joint Chiefs for T-28 strikes in Laos | minor |
-| 150 | Oct. 28, 1964 | CINCPAC's revised order | minor |
+| 133 | Sept. 19, 1964 | CINCPAC told to prepare strikes on five targets | already in under cal.1964-09-18.vietnam (strikes prepared, then called off); the suspension of the patrols entered, cal.1964-09-19.vietnam-tonkin |
+| 134 | Sept. 30, 1964 | the Joint Chiefs for T-28 strikes in Laos | lead: a JCS paper on operations in Laos (R8); the strikes themselves already in under cal.1964-10-13.laos |
+| 146, 150 | Oct. 7 and 28, 1964 | the Joint Chiefs' instructions on reprisal for a Desoto incident; CINCPAC's revised mission orders, never executed | lead: orders (R14), to enter with JCS 2343/476 and CINCPAC's order of Oct. 28 read (146 nn.9–10) |
 | 157 | Oct. 27, Nov. 14, 1964 | the Joint Chiefs on the enemy's reactions to strikes on the North | minor: staff papers |
 | 158 | Nov. 18, 1964 | the Joint Chiefs' second statement to the working group | lead |
 | 161 | Nov. 10, 1964 | Taylor's Mission Council on the minimum government needed | minor |
 | 162 | Nov. 16, 1964 | Rostow to McNamara on the aim of bombing | minor |
 | 180–82 | Nov. 29–Dec. 3, 1964 | the principals' meetings and the President's approval of the program | already in under cal.1964-12-01.vietnam |
-| 189 | Dec. 12, 1964 | the principals approve the first Barrel Roll missions, napalm excluded | lead: the Laos thread not checked for the day |
+| 189 | Dec. 12, 1964 | the principals approve the first Barrel Roll missions, napalm excluded | already in under cal.1964-12-12.laos |
 | 196 | Dec. 26 and 30, 1964 | Sharp for reprisal; the strike planned for Dec. 30 and not executed | already in under cal.1964-12-24.vietnam |
 | 198 | Jan. 6, 1965 | Taylor on the number of American advisers | minor |
 | 206 | Feb. 21, 1965 | the Armed Forces Council ousts Khánh | already in under cal.1965-02-19.vietnam |
 | 213 | Jan. 28, 1965 | the caretaker government | already in under cal.1965-01-27.vietnam |
 | 213 | Feb. 2, 1965 | McGeorge Bundy leaves for Saigon | lead: his mission's days not checked |
-| 214 | Feb. 3, 1965 | reprisal options sent to CINCPAC | minor |
-| 226 | Feb. 12, 1965 | the Joint Chiefs ask CINCPAC for reprisal plans | minor |
+| 214 | Feb. 3, 1965 | reprisal options sent to CINCPAC | lead: an order (R14); the message (JCS 4484, 3 Feb 65, 210 n.22) not read |
+| 226 | Feb. 12 and 16, 1965 | the Joint Chiefs ask CINCPAC for reprisal plans with three options; approve another set for planning | lead: orders (R14); JCS 5095, 5332, 5349 (226 n.13) not read |
 | 241 | Mar. 6, 1965 | General Johnson arrives in Saigon | already in under cal.1965-03-02.vietnam |
 | 273 | Mar. 15, 1965 | the meeting at which, by Wheeler, it was agreed the United States was losing | lead |
 | 273 | Apr. 1, 1965 | the meeting of the principals | already in under cal.1965-04-06.vietnam |
-| 298 | May 6, 1965 | SAC and CINCPAC agree in Hawaii on B-52 targeting | minor |
+| 298 | May 6, 1965 | SAC and CINCPAC agree in Hawaii on B-52 targeting | entered (military re-read): cal.1965-05-06.vietnam-air-war |
 | 302 | June 21, 1965 | Johnson to McNamara by telephone: hard to fight a war so far from home | lead: a recording |
 | 306 | June 29, 1965 | McNamara, through Wheeler, asks what forces 1966 will need | lead |
 | 309 | July 9, 1965 | Johnson's news conference: manpower needs increasing | already in under cal.1965-07-08.vietnam |
-| 310 | July 30, 1965 | MACV's adjusted requirements | minor |
-| 345 | Sept. 17–21, 1965 | Gibraltar, Bình Định | minor: operations |
-| 345 | Nov. 5–9, 1965 | Hump | minor: operations |
+| 310 | July 30, 1965 | MACV's adjusted requirements | lead: a commander's requirements (R8), for the papers pass |
+| 345 | Sept. 17–21, 1965 | Gibraltar, Bình Định | already in under cal.1965-09-18.vietnam-operations (cited, with Cosmas's dates as a Check) |
+| 345 | Nov. 5–9, 1965 | Hump | already in under cal.1965-11-08.vietnam-operations (cited, Cosmas's figures as a Check) |
 | 365 | May 22, 1965 | the Joint Chiefs for CINCPAC's concept of bombing | minor |
 | 391 | Dec. 13, 1965 | State to Saigon on the Viet Cong's truce offer | already in under cal.1965-12-24.vietnam |
 | 391 | Jan. 21–23, 1966 | the Mission Council's policy for the Tet truce | lead: the Tet truce of 1966 not checked |
 | 391–94 | Dec. 19–26, 1965 | the truce's making, extension and end | already in under cal.1965-12-24.vietnam |
-| 456 | Sept. 13, Oct. 1, Nov. 18, 1966 | MACV's piaster directive; Lodge's ceiling; McNamara's quarterly limits | minor |
+| 456 | Sept. 13, Oct. 1, Nov. 18, 1966 | MACV's piaster directive; Lodge's ceiling; McNamara's quarterly limits | lead: a directive and limits on military spending (R14's orders); the papers pass |
 | 531 | Aug. 30–Sept. 2, 1966 | de Gaulle in Cambodia | already in under cal.1966-09-01.vietnam |
 | 531 | Sept. 24, 1966 | Hanoi and Peking reject the American position | lead |
 | 536 | Nov. 25, 1966 | the Front announces its holiday truces | lead |
-| 536 | Nov. 26 and Dec. 4, 1966 | the State-Defense message; the Joint Chiefs' instructions to CINCPAC | minor |
+| 536 | Nov. 26 and Dec. 4, 1966 | the State-Defense message; the Joint Chiefs' instructions to CINCPAC | already in under cal.1966-12-24.vietnam (its witnesses, 536 n.22, 537 n.24) |
 | 536 | Dec. 31, 1966–Feb. 12, 1967 | the New Year and Tet truces announced Nov. 30 | lead |
+
+## The military re-read (Nov. 5, 2026)
+
+R14 (the owner's ruling of Oct. 30) and `notes/briefs/military-reread.md`. The copy: DTIC's scan on archive.org, DTIC_ADA557393, its OCR text (`_djvu.txt`) split into pages by the printed folios, the endnotes looked up by chapter and number; the page images checked at leaves n80 (p. 70), n197 (189), n347 (345), n365 (363) and n524 (527): the scan omits blank pages, so the offset falls from +10 to -3 across the volume. The whole volume within the span was read for every dated operation, action, incident, order, directive, rule of engagement, deployment and logistical act (every sentence with a date, by pattern, then the passages read in full); the policy papers and deliberations the first pass ruled stay as it ruled them. The rulings of the first pass on the pages already cited were not reread against the images.
+
+Patch `inbox/2026-11-04-mil-cosmas-pt2.yaml` (patch `mil-cosmas-pt2`, 214 ops): 138 new entries, claimed in the ledger; 47 entries already in the calendar take this volume's cite (with its parenthetical and units), a Check where Cosmas differs (Gibraltar's dates, Hump's figures, the B-52s of Silver Bayonet, the Hawk battalion's diversion, the Australian advance party, the Mụ Giạ strike, the strikes in the DMZ, Tuy Hòa's contract), and the records its notes give. Among the new: the Yankee Team and cross-border orders of 1964, the F-100s to Tân Sơn Nhứt and Đà Nẵng, Felt's and Taylor's successors, the B-57s to Biên Hòa and the MiGs at Phúc Yên after the Gulf of Tonkin, the reinforcement schedule of August 1964, the Desoto orders of September, 34A's Package One and its increments, the Hawk battalion, the B-52 deployment to Guam and the Arc Light orders and rates, the Rolling Thunder execute orders and postponements of February and March 1965 and the blocks after, napalm, Market Time's start, the Chu Lai airfield, the rules of engagement, the SAM sites and SA-2 regiment, the Free Bomb Zones, Shining Brass, Game Warden, the authorities at the Cambodian and Laotian borders, the construction boss, the naval command, the air munitions shortage of April 1966, the oil strikes' authority and cancellation, Programs Case I and #3, Robin, the 9th Division, the Philippine and Australian contingents, Sea Dragon, and the Yên Viên suspension. Sorties, losses and strengths in `n` by page (Yankee Team's 880 missions; Rolling Thunder to April and to October 1965; Arc Light to July 15 and Sept. 30, 1966; the SAMs fired; the air losses to Dec. 24, 1966; Sea Dragon's craft sunk).
+
+Witnesses: 114 new rows in `inbox/witnesses/2026-11-04-mil-cosmas-pt2.yaml` (the JCS, CINCPAC, COMUSMACV and Defense messages and memoranda, the NMCC summaries and command histories the notes give), three already registered taken as they stand; 118 edges in `sources/witnesses/by-work/cosmas-joint-chiefs-of-staff-2012.yaml`. None held by the series or read: the JCS files (JMF, OCJCS) are cited by number only; each joins its entry's "To check:".
+
+### Passed over (the military re-read)
+
+Every dated military event of the volume not entered and not already in, a row each. "Lead" where the order or record is to be entered once its message is read or its day checked.
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 46 | May 20, 1964 | VNAF aerial mine-laying training to resume; A-1s for the VNAF and Farm Gate on schedule | minor: a status report within the JCS memorandum of May 23 |
+| 78 | May 22, 1964 | the Joint Chiefs ask a one-time low-level reconnaissance of the North about May 27; not granted | lead: JCSM-444-64 (78 n.32) |
+| 78 | June 5 and 15, 1964 | the Joint Chiefs for surveillance of five routes into Laos; McNamara keeps plans ready | lead: JCSM-489-64 (78 n.33) |
+| 82 | July 29, 1964 | the Joint Chiefs approve OPLAN 38-64 | lead: the plan is cal.1964-06.vietnam; its approval not checked |
+| 97 | 1964 | Philippine medical and civic action teams; Thai iron sheets and cement | lead: no date |
+| 146 | Oct. 2 and 5, 1964 | PACOM briefs the Chiefs and McNamara on the air strike plan | lead |
+| 147 | 1964 | CINCPAC OPLAN 39-65 submitted | lead: no date on the page |
+| 192 | Nov. 25, 1964 | Sharp for early deployment of the Hawk battalion less a battery | lead: registered as a record under cal.1964-11-14.vietnam-force-levels |
+| 215 | Feb. 7, 1965 | ten squadrons alerted; Flaming Dart's results (22 of 275 buildings, one plane down, seven damaged) | lead: the figures for cal.1965-02-07.vietnam |
+| 246 | Mar. 18, 1965 | Westmoreland asks Taylor's agreement to land the third BLT at Phu Bai | lead: a commander's request |
+| 249 | Mar. 31, 1965 | the Director, Joint Staff: deployments approved to 32,686 | lead: a figure for a force-levels entry |
+| 290 | May 30, 1965 | CINCPAC's case for Cam Ranh Bay as the major port and logistic complex | lead |
+| 326 | May 1965, late | MACTHAI made a separate command | already in under cal.1965-05-27.vietnam-force-levels |
+| 328 | Sept. 1965, late | Australia adds a battery, engineers, carriers and signals | lead: no day |
+| 329 | Mar. 1965 | the South Korean engineer task force | already in under cal.1965-03-16.japan-and-korea-korean-troops |
+| 338 | June 7, 1965 | airborne troops on search and destroy around Biên Hòa; over 50,000 Americans in the country | lead: no event-day |
+| 338 | Aug. 1965, mid-month | the first regimental battle, near Chu Lai | already in under cal.1965-08-18.vietnam |
+| 345 | Nov. 28–Dec. 9, 1965 | Bushmaster II, the 1st Division in the Michelin plantation | lead: the B-52 approval entered (cal.1965-12-03.vietnam-air-war); the operation's days not checked |
+| 347 | Aug. 21, 1965 | the Joint Chiefs ask execution authority for seven Arc Light targets | lead |
+| 348 | Nov. 6, 1965 | CINCPAC for a fixed monthly number of B-52 sorties | lead |
+| 356 | Feb. 15, 1966 | Vance lets CINCPAC repeat approved 34A missions | lead |
+| 369 | Aug. 1965 | Rolling Thunder 26/27: a bridge on the road to China; berthing areas and airfields | lead: no day |
+| 380–81 | Nov. 10, Dec. 1, 1965 | the Joint Chiefs for the oil strikes; RT 44/45 cut to four bridges | lead: papers |
+| 394 | Dec. 27, 1965 | Arc Light and some reconnaissance resumed | lead: not checked against cal.1965-12-24.vietnam |
+| 397 | Jan. 14, 1966 | the Joint General Staff's Tet cease-fire directive | lead: the Tet truce of 1966 not checked |
+| 414 | Mar. 2, 1966 | a Viet Cong attack on a vessel in the Saigon channel | lead |
+| 421 | Apr. 14, 16, June 7, 1966 | McNamara's and CINCPAC's orders on the priority of air effort | lead: orders |
+| 446 | June 10–16, 1966 | the last resistance in Huế put down | lead: the Buddhist uprising thread not checked for the days |
+| 449 | July 30, 1966 | Westmoreland: the 324B Division "dispersed and apparently demoralized" | lead |
+| 449 | Oct. 1966, early | units redeployed or diverted to I Corps | lead: no day |
+| 451 | Apr. 1966, late | American and ARVN strikes into the base area | lead: no day |
+| 466–68 | Oct.–Dec. 1966; Jan. 17, 1967 | B-52 basing: McNamara at Andersen; the plans of Dec. 3 and 8; Rusk to Bangkok on U Tapao | lead |
+| 469 | Nov. 11, 1966 | 800 Arc Light sorties a month from Feb. 1, 1967, approved for planning | lead |
+| 471 | 1966 | Market Time's year: 60 junks and 22 sampans destroyed, 129 of the enemy killed, 54 captured | lead: figures, no day |
+| 483 | Nov. 29, 1966 | the Joint Chiefs on the fortifications in the zone | lead: a paper |
+| 485–90 | Apr.–Dec. 1966 | the barrier: Starbird's task force, the plans | lead: the Barrier thread not checked against these pages |
+| 518 | Dec. 2, 4, 13–14, 1966 | Yên Viên and Văn Điển struck | already in under cal.1966-12-02.vietnam-marigold and cal.1966-12-13.vietnam-air-war |
+| 520 | Jan. 24, 1967 | Rolling Thunder 53 approved | lead |
+
+## Leads
+
+National:
+- The JCS records the notes cite by JMF and OCJCS file (RG 218, National Archives): every JCS, CINCPAC and COMUSMACV message of the new entries; and the CINCPAC Command Histories of 1964–66, the MACV Command Histories of 1965–66 and the SAC History of 1965–66 by page. Where found open, read them against the entries' "To check:".
+- Places for the gazetteer (`sources/vn-provinces-1966/places.json`), for the tags: Phúc Yên airfield, Tuy Hòa, the Quảng Khê naval base, Xóm Bàng, Đồng Tâm.
+- Name entries proposed (Part III): Paul R. Ignatius (the air munitions task force, 1966), David A. Burchinal (Director, Joint Staff, 1965), Carroll H. Dunn (MACV's construction director, 1966), Norvell G. Ward (Naval Forces, Vietnam, 1966).
