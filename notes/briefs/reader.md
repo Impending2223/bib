@@ -412,7 +412,10 @@ notes" (CLAUDE.md, "The brief": no reviews, no awards, no side labels).
 `tesseract`) and say so; delete the PDF at once (and the page images), one at a time. Find the offset between PDF
 pages and printed folios on three pages, again where it may change (the front matter, the plates, a second volume),
 and check a few pinpoints against the page image (`pdftoppm -f N -l N -r 100 -png`); cite the printed page. Never
-change a Drive file's sharing.
+change a Drive file's sharing. A Drive file over the Drive tool's limit (about 10 MB) is no dead end: find its id
+(`search_files`), then `curl -sSL -o <dir>/<short>.pdf
+"https://drive.usercontent.google.com/download?id=<ID>&export=download&confirm=t"`, the file as already shared (tried
+Nov. 4, 2026 on Gavin, 17 MB; Bernstein, 43 MB; Kaplan's *McNamara Ascendancy*, 34 MB).
 
 **R55. Copyright.** The books are the owner's copies, for this research: nothing of their text into the repo beyond a
 short quotation an entry needs, marked and cited by page; never a paraphrase at length.

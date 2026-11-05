@@ -166,8 +166,8 @@ entries:
   - id: cal.1965-07-02.vietnam
     when: July 2
     date: '1965-07-02'
-    thread: vietnam
-    also: [vietnam-july-decision, vietnam-congress]
+    thread: vietnam-july-decision
+    also: [vietnam-congress]
     c: 'Johnson and McNamara by telephone, 8:41 a.m. By Beschloss''s transcript as Moyar quotes it, Johnson on the Tonkin Gulf resolution: "we know ourselves, in our own conscience, that when we asked for this resolution, we had no intention of committing this many ground troops. We''re doing so now, and we know it''s going to be bad."'
     n: '[Johnson and McNamara, 8:41 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-july-2-1965), Conversation WH6507.01-8302 (Miller Center; not heard). [[w.moyar-triumph-forsaken]], 416. To check: [[w.reaching-for-glory]], 381–83 (cited by [[w.moyar-triumph-forsaken]], 416 n.67). See [[cal.1964-08-10.vietnam]]. Names: Johnson, McNamara.'
     src:
@@ -229,7 +229,7 @@ entries:
   - id: cal.1965-07-03.vietnam
     when: July 3
     date: '1965-07-03'
-    thread: vietnam
+    thread: vietnam-diplomacy
     also: [soviet-union]
     c: 'Rusk and Dobrynin, before Dobrynin''s leave: has Moscow accepted Hanoi''s veto? Gromyko''s "You stop first, then we''ll see" to Kohler; every American attempt at a confidential channel to Hanoi has failed; war and peace in Soviet and American hands. Dobrynin, under instructions: American policy changed for the worse since Kennedy; Rusk hurt. In Moscow, the Politburo: relations with the United States the priority, Vietnam not vital, but "international solidarity." By Dobrynin''s account.'
     n: '[[w.dobrynin-in-confidence]], 144–45. Names: Rusk, Dobrynin, Gromyko, Kohler.'
@@ -416,7 +416,7 @@ entries:
   - id: cal.1965-07-07.vietnam
     when: July 7
     date: '1965-07-07'
-    thread: vietnam
+    thread: vietnam-diplomacy
     c: 'Bundy to Johnson, again for diplomacy: the case for negotiations.'
     n: '[[w.preston-war-council]], 195. To check: Bundy to Johnson, July 7, 1965, NSF, Files of McGeorge Bundy, Chron., boxes 10–11, LBJ Library (cited by [[w.preston-war-council]], 195 n.13). Names: Bundy, Johnson. Check: what it proposes; Preston gives no words.'
     src:
@@ -658,7 +658,7 @@ entries:
   - id: cal.1965-07-09.vietnam
     when: July 9
     date: '1965-07-09'
-    thread: vietnam
+    thread: vietnam-macv
     c: 'MACV Directive 380-8, military security: physical security, in place of OPLAN 61-64.'
     n: '[[w.macv-command-history-1965]], 159.'
     src:
@@ -750,6 +750,17 @@ entries:
         - 'w.bernstein-guns-or-butter 209: all'
         - 'via x.1965-07-11.cater-to-johnson-bankers: A'
     tags: [name:anderson-robert-b, name:johnson-lyndon-b]
+  - id: cal.1965-07-11.latin-america-dominican-republic
+    when: July 11
+    date: '1965-07-11'
+    thread: latin-america-dominican-republic
+    c: The first of the two airborne battalions agreed by Palmer and Alvim returns to Fort Bragg; the second eight days later. The American contingent down to about 10,250, the Latin American about 1,750.
+    n: '[[w.poole-joint-chiefs-of-staff-2012]], 147. See [[cal.1965-05-27.latin-america-dominican-republic]]. Names: Palmer.'
+    src:
+      c: 2e05559e
+      rows:
+        - 'w.poole-joint-chiefs-of-staff-2012 147: all'
+    tags: [name:palmer-bruce-jr]
   - id: cal.1965-07-12.european-community
     when: July 12
     date: '1965-07-12'
@@ -843,7 +854,7 @@ entries:
   - id: cal.1965-07-13.vietnam
     when: July 13
     date: '1965-07-13'
-    thread: vietnam
+    thread: vietnam-macv
     c: Brig. Gen. J. A. McChristian, Army, appointed MACV's J2, the Marines having no successor for Youngdale.
     n: '[[w.macv-command-history-1965]], 93. To check: Msg, DA, WDC 1576, Feb 65 (cited by [[w.macv-command-history-1965]], 93 n.405).'
     src:
@@ -1496,7 +1507,7 @@ entries:
   - id: cal.1965-07-22.vietnam-2
     when: July 22
     date: '1965-07-22'
-    thread: vietnam
+    thread: vietnam-pacification
     c: USAID and Westmoreland issue Joint Directive 1-65 on provincial rural reconstruction reports, for the Mission Council's measure of progress.
     n: '[[w.macv-command-history-1965]], 236, 247. Names: Westmoreland.'
     src:
@@ -1517,6 +1528,16 @@ entries:
         - 'w.bernstein-guns-or-butter 256–57: all'
         - 'via x.1965-07-22.valenti-to-johnson-immigration: B-D'
     tags: [name:mccormack-john-w, name:celler-emanuel, name:feighan-michael-a, name:valenti-jack, name:rodino-peter-w-jr]
+  - id: cal.1965-07-22.laos
+    when: July 22
+    date: '1965-07-22'
+    thread: laos
+    c: 'Keo Fa Mut, the hill between Na Khang and Hua Muong: the FAR and the Meo take its south slope, after over forty T-28 sorties from July 21, mostly white phosphorus, and Bango/Whiplash bombs; the two North Vietnamese companies on the summit ordered to hold.'
+    n: '[[w.anthony-war-in-northern-laos]], 169. See [[cal.1965-02-14.laos]].'
+    src:
+      c: bd892022
+      rows:
+        - 'w.anthony-war-in-northern-laos 169: all'
   - id: cal.1965-07-23.economy
     when: July 23
     date: '1965-07-23'
@@ -1596,9 +1617,9 @@ entries:
   - id: cal.1965-07-24.vietnam
     when: July 24
     date: '1965-07-24'
-    thread: vietnam
+    thread: vietnam-air-war
     c: An F-4C, the first American plane lost to a SAM.
-    n: '[FRUS 1964–68, III, doc. 84](https://history.state.gov/historicaldocuments/frus1964-68v03/d84). Check: the record. [[w.gibbons-u-s-government-and]], III, 419 (an American plane shot down by a SAM, July 24); [[w.vietnam-victory-in-vietnam]], 165, 167 (two battalions of the new missile force, at 3:53 p.m.: one F-4C down, a pilot captured); [[w.staaveren-gradual-failure]], 163. See [[cal.1965-03-02.vietnam]].'
+    n: '[FRUS 1964–68, III, doc. 84](https://history.state.gov/historicaldocuments/frus1964-68v03/d84). Check: the record. [[w.gibbons-u-s-government-and]], III, 419 (an American plane shot down by a SAM, July 24); [[w.vietnam-victory-in-vietnam]], 165, 167 (two battalions of the new missile force, at 3:53 p.m.: one F-4C down, a pilot captured); [[w.staaveren-gradual-failure]], 163; [[w.staaveren-gradual-failure]], 163 (the first SA-2s fired, from near the Hanoi sanctuary; the F-4C and its crew of two lost). See [[cal.1965-03-02.vietnam]].'
     src:
       c: 89b555be
       rows:
@@ -1606,6 +1627,7 @@ entries:
         - 'w.vietnam-victory-in-vietnam 165, 167: A'
         - 'w.staaveren-gradual-failure 163: all'
         - 'w.gibbons-u-s-government-and III, 419: A'
+        - 'w.staaveren-gradual-failure 163: ?'
   - id: cal.1965-07-24.vietnam-support
     when: July 24
     date: '1965-07-24'
@@ -1713,8 +1735,7 @@ entries:
   - id: cal.1965-07-26.vietnam-2
     when: July 26
     date: '1965-07-26'
-    thread: vietnam
-    also: [vietnam-july-decision]
+    thread: vietnam-july-decision
     c: 'Johnson and Russell by telephone, 5:46 p.m. By Beschloss''s transcript as Moyar quotes it, Johnson will not call up the reserves: "it commits me where I can''t get out."'
     n: '[Johnson and Russell, 5:46 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-july-26-1965), Conversation WH6507.08-8399 (Miller Center; not heard). [[w.moyar-triumph-forsaken]], 415. To check: [[w.reaching-for-glory]], 410 (cited by [[w.moyar-triumph-forsaken]], 415 n.64). See [[cal.1965-07-21.vietnam]]. Names: Johnson, Russell.'
     src:
@@ -1819,7 +1840,7 @@ entries:
   - id: cal.1965-07-27.vietnam-2
     when: July 27
     date: '1965-07-27'
-    thread: vietnam
+    thread: vietnam-air-war
     c: 'American planes strike two SAM sites in the North, west of Hanoi: six of the 54 aircraft lost, neither site occupied.'
     n: 'The decision, July 26: [FRUS 1964–68, III, doc. 90](https://history.state.gov/historicaldocuments/frus1964-68v03/d90); the F-4 lost July 24: [doc. 87](https://history.state.gov/historicaldocuments/frus1964-68v03/d87), n. 2. [[w.frankum-like-rolling-thunder]], 31 (the strike; six of 54 aircraft lost; neither site occupied); [[w.vietnam-victory-in-vietnam]], 167 (decoy sites ringed with 120 guns: five aircraft destroyed of 48 sorties); [[w.staaveren-gradual-failure]], 164–65; [[w.branch-at-canaans-edge]], 266–67. To check: Hist, CINCPAC, 1965, Vol II, p 378 (cited by [[w.staaveren-gradual-failure]], 165 n.6a); JCS Prong Tong Study Rpt, Vol II, App 1 (cited by [[w.staaveren-gradual-failure]], 165 n.6b). See [[cal.1965-03-02.vietnam]]. Check: Van Staaveren, 164–65, gives forty-six F-105s on the sites and the barracks with fifty-eight supporting aircraft, six lost, a dummy missile in one site and the other empty. Check: Branch gives six of forty-four aircraft, all F-105s (267).'
     src:
@@ -1970,7 +1991,7 @@ entries:
     date: '1965-07-28'
     thread: jobs-and-wages
     c: House passes H.R. 77, repealing section 14(b) of the Taft-Hartley Act, the States' right-to-work laws, [221–203](https://voteview.com/rollcall/RH0890101); recommittal lost, [200–223](https://voteview.com/rollcall/RH0890100). The rule taken July 26, [248–171](https://voteview.com/rollcall/RH0890096). To the Senate.
-    n: '[111 Cong. Rec., House, July 28, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-1-2.pdf). Repeal of section 14(b) (K–J Cong. II.J.2). [[w.bernstein-guns-or-butter]], 310 (182 Northern Democrats, 18 Southern and 21 Republicans for; 117 Republicans, 78 Southern and 8 Northern Democrats against; the farm-labor bargain, Humphrey''s part). To check: [[w.zelizer-fierce-urgency-of-now]].'
+    n: '[111 Cong. Rec., House, July 28, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt14/pdf/GPO-CRECB-1965-pt14-1-2.pdf). Repeal of section 14(b) (K–J Cong. II.J.2). [[w.bernstein-guns-or-butter]], 310 (182 Northern Democrats, 18 Southern and 21 Republicans for; 117 Republicans, 78 Southern and 8 Northern Democrats against; the farm-labor bargain, Humphrey''s part).'
     src:
       c: 6f74974b
       rows:
@@ -2107,6 +2128,16 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=264: A'
         - 'w.califano-triumph-and-tragedy-of 47: B-C'
     tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr, name:moyers-bill]
+  - id: cal.1965-07-28.laos
+    when: July 28
+    date: '1965-07-28'
+    thread: laos
+    c: 'The FAR and the Meo take Keo Fa Mut unopposed: four killed, thirty-three wounded; eighty-three enemy dead found.'
+    n: '[[w.anthony-war-in-northern-laos]], 169. See [[cal.1965-07-22.laos]].'
+    src:
+      c: 42a7d788
+      rows:
+        - 'w.anthony-war-in-northern-laos 169: all'
   - id: cal.1965-07-29.medicare
     when: July 29
     date: '1965-07-29'
@@ -2425,7 +2456,7 @@ entries:
   - id: cal.1965-07.vietnam-2
     when: July
     date: 1965-07
-    thread: vietnam
+    thread: vietnam-macv
     c: Combat losses so high that 11 of the 15 South Vietnamese battalions in training are disbanded for the time, as fillers for the older battalions.
     n: '[[w.macv-command-history-1965]], 60. Check: the day.'
     src:
@@ -2435,7 +2466,7 @@ entries:
   - id: cal.1965-07.vietnam-3
     when: July
     date: 1965-07
-    thread: vietnam
+    thread: vietnam-macv
     c: 'The Coastal Junk Force, Regional Force men, integrated into the South Vietnamese navy: 3,444 men. The navy about 14,274 at the year''s end.'
     n: '[[w.macv-command-history-1965]], 69. Check: the day. To check: Historical Review, NAVGP, Subj: NAVGP Activities, Jul 65 (cited by [[w.macv-command-history-1965]], 69 n.242).'
     src:
@@ -2446,7 +2477,7 @@ entries:
   - id: cal.1965-07.vietnam-4
     when: July
     date: 1965-07
-    thread: vietnam
+    thread: vietnam-macv
     c: The Joint General Staff proposes another Marine battalion, for a balance among the services; on the senior Marine adviser's advice Westmoreland has it held to 1966.
     n: '[[w.macv-command-history-1965]], 70. Check: the day. To check: Interview with Maj W. J. Pederson, USMC, Assistant Senior Advisor, Marine Advisory Unit, by Maj J. Duncan, 10 Jan 66 (cited by [[w.macv-command-history-1965]], 70 n.245). Names: Westmoreland.'
     src:

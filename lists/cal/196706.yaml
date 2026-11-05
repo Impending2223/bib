@@ -39,7 +39,7 @@ entries:
   - id: cal.1967-06-01.vietnam
     when: June 1
     date: '1967-06-01'
-    thread: vietnam
+    thread: vietnam-macv
     c: Maj. Gen. Robert E. Cushman relieves Lt. Gen. Lewis W. Walt as commander of III MAF and I Corps at Đà Nẵng. The first F-5 jets turned over to the South Vietnamese air force.
     n: '[[w.macv-command-history-1967]], 1269. Names: Cushman, Walt.'
     src:
@@ -47,6 +47,16 @@ entries:
       rows:
         - 'w.macv-command-history-1967 1269: all'
     tags: [name:cushman-robert-e-jr, name:walt-lewis-w, place:da-nang]
+  - id: cal.1967-06-01.middle-east-six-day-war
+    when: June 1
+    date: '1967-06-01'
+    thread: middle-east-six-day-war
+    c: 'New orders for the *Liberty*: in to 12½ nautical miles of the UAR coast.'
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 446. See [[cal.1967-05-23.middle-east-six-day-war-2]].'
+    src:
+      c: 31839e13
+      rows:
+        - 'w.drea-mcnamara-clifford-and-the-2011 446: all'
   - id: cal.1967-06-02.vietnam
     when: June 2–3
     date: '1967-06-02'
@@ -137,11 +147,12 @@ entries:
     date: '1967-06-04'
     thread: vietnam-operations
     c: The Mobile Riverine Force, the 2d Brigade, 9th Division, with the Navy's Task Force 117, begins Coronado in Định Tường.
-    n: '[[w.macv-command-history-1967]], 395, 483. Check: the History, 483, has the Force committed June 1.'
+    n: '[[w.macv-command-history-1967]], 395, 483; [[w.cosmas-joint-chiefs-of-staff]], 89. Check: the History, 483, has the Force committed June 1.'
     src:
       c: a5cae162
       rows:
         - 'w.macv-command-history-1967 395, 483: all'
+        - 'w.cosmas-joint-chiefs-of-staff 89: A'
     tags: [province:dinh-tuong, place:mekong-delta]
   - id: cal.1967-06-05.middle-east
     when: June 5
@@ -294,7 +305,7 @@ entries:
   - id: cal.1967-06-06.vietnam-congress
     when: June 6
     date: '1967-06-06'
-    thread: vietnam-congress
+    thread: vietnam-congress-foreign-relations
     also: [vietnam-elections]
     c: 'Fulbright in the Senate puts in the Legislative Reference Service''s comparison of South Vietnam''s new constitution with that of 1956: "little reason for optimism"; it "only perpetuates the political grievances of a decade ago"; "under the guise of protecting the ''national interest,''" political life to be "regulated to suit the whim of the government in power."'
     n: '[113 Cong. Rec. 14758](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt11/pdf/GPO-CRECB-1967-pt11-6-1.pdf#page=34) (Senate, June 6, 1967). [[w.woods-j-william-fulbright-vietnam]], 157 (Fulbright''s warning to the Senate). Names: Fulbright.'
@@ -381,13 +392,38 @@ entries:
       rows:
         - 'w.mcpherson-political-education 417: all'
     tags: [name:mcpherson-harry]
+  - id: cal.1967-06-07.middle-east-six-day-war-3
+    when: June 7
+    date: '1967-06-07'
+    thread: middle-east-six-day-war
+    c: McDonald worried for the *Liberty*, the Joint Reconnaissance Center sends USCINCEUR, 6:30 p.m. Washington time, an order keeping her 15 miles from Israel and 20 from Egypt. Misrouted by the Army Communications Center to a naval station, it reaches USCINCEUR at 4:11 a.m. June 8, the Sixth Fleet at 6:55; the ship never has it.
+    n: '[[w.poole-joint-chiefs-of-staff-2012]], 175. See [[cal.1967-05-23.middle-east-six-day-war-2]]. Names: McDonald.'
+    src:
+      c: ece1f08c
+      rows:
+        - 'w.poole-joint-chiefs-of-staff-2012 175: all'
+    tags: [name:mcdonald-david-l]
+  - id: cal.1967-06-07.middle-east-six-day-war-4
+    when: June 7
+    date: '1967-06-07'
+    time: 1967-06-07T22:30Z
+    thread: middle-east-six-day-war
+    c: 'The Special Committee of the NSC, set up by the President June 6, meets at 6:30 p.m.: Johnson, Rusk, McNamara, Fowler, Clifford, Katzenbach, McGeorge Bundy, Wheeler, Helms, Walt Rostow. Johnson: the committee''s work "ahead of anything else."'
+    n: '[FRUS 1964–68, XIX: Arab-Israeli Crisis and War, 1967, doc. 197](https://history.state.gov/historicaldocuments/frus1964-68v19/d197) (A). [[w.drea-mcnamara-clifford-and-the-2011]], 444–45 (B; the committee set up June 6, announced June 7). Made public: FRUS 1964–68, XIX (2004). See [[cal.1967-06-05.middle-east]]. Names: Johnson, Rusk, McNamara, Fowler, Clifford, Katzenbach, McGeorge Bundy, Wheeler, Helms, Walt Rostow.'
+    src:
+      c: 40f76cc5
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v19/d197: A'
+        - 'w.drea-mcnamara-clifford-and-the-2011 444–45: all'
+        - 'via x.1967-06-07.notes-special-committee-nsc: A'
+    tags: [name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s, name:fowler-henry-h, name:clifford-clark, name:katzenbach-nicholas, name:bundy-mcgeorge, name:wheeler-earle, name:helms-richard, name:rostow-walt-w]
   - id: cal.1967-06-08.middle-east
     when: June 8–10
     date: '1967-06-08'
     thread: middle-east-six-day-war
     also: [defense, soviet-union]
     c: 'The *Liberty*, a Navy intelligence ship, some 13 miles off the Sinai coast northwest of El Arish, attacked by Israeli jet aircraft and three torpedo boats, about 8 a.m. Eastern time: 34 killed, more than 170 wounded. The Sixth Fleet launches aircraft to defend her; Johnson tells Kosygin over the hot line why. Israel apologizes the same day: a mistake. Rusk''s note to Harman, June 10: the attack "quite literally incomprehensible," "an act of military recklessness reflecting wanton disregard for human life."'
-    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 446–447 (the attack, the dead and wounded; the aircraft launched; the hot line; the apology accepted); [[w.rusk-as-i-saw-it-1990]], 388 (the attack); [[w.califano-triumph-and-tragedy-of]], 205–06 (Clifford: "as if the Arabs or Russians had done it," "inconceivable that it was an accident"; Rusk: "incomprehensible"; Johnson privately "one hundred percent" with Clifford). [[w.clifford-counsel-to-the-president-2]], 445–47 (the Situation Room, 6:40 a.m.; the hot-line message; Israel''s word of a mistake; Clifford''s inquiry). [FRUS 1964–68, XIX, doc. 204](https://history.state.gov/historicaldocuments/frus1964-68v19/d204); [doc. 207](https://history.state.gov/historicaldocuments/frus1964-68v19/d207); [doc. 210](https://history.state.gov/historicaldocuments/frus1964-68v19/d210); [doc. 212](https://history.state.gov/historicaldocuments/frus1964-68v19/d212); [doc. 219](https://history.state.gov/historicaldocuments/frus1964-68v19/d219); [doc. 256](https://history.state.gov/historicaldocuments/frus1964-68v19/d256). To check: [[w.ennes-assault-on-the-liberty]]; [[w.cristol-liberty-incident]]; [[w.oren-six-days-of-war]]. See [[cal.1967-06-05.middle-east]]. Names: Johnson, Kosygin, Rusk, Harman. Check: Rusk gives ten American dead ([[w.rusk-as-i-saw-it-1990]], 388).'
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 446–447 (the attack, the dead and wounded; the aircraft launched; the hot line; the apology accepted); [[w.rusk-as-i-saw-it-1990]], 388 (the attack); [[w.califano-triumph-and-tragedy-of]], 205–06 (Clifford: "as if the Arabs or Russians had done it," "inconceivable that it was an accident"; Rusk: "incomprehensible"; Johnson privately "one hundred percent" with Clifford); [[w.poole-joint-chiefs-of-staff-2012]], 175–76 (her identification erased from the Israeli naval plot at 11 a.m.; strafing about 2 p.m., the torpedo boats about half an hour later; at 2:50 p.m. the Sixth Fleet orders aircraft from the *Saratoga* and *America*). [[w.clifford-counsel-to-the-president-2]], 445–47 (the Situation Room, 6:40 a.m.; the hot-line message; Israel''s word of a mistake; Clifford''s inquiry). [FRUS 1964–68, XIX, doc. 204](https://history.state.gov/historicaldocuments/frus1964-68v19/d204); [doc. 207](https://history.state.gov/historicaldocuments/frus1964-68v19/d207); [doc. 210](https://history.state.gov/historicaldocuments/frus1964-68v19/d210); [doc. 212](https://history.state.gov/historicaldocuments/frus1964-68v19/d212); [doc. 219](https://history.state.gov/historicaldocuments/frus1964-68v19/d219); [doc. 256](https://history.state.gov/historicaldocuments/frus1964-68v19/d256). To check: [[w.ennes-assault-on-the-liberty]]; [[w.cristol-liberty-incident]]; [[w.oren-six-days-of-war]]. See [[cal.1967-06-05.middle-east]]. Names: Johnson, Kosygin, Rusk, Harman. Check: Rusk gives ten American dead ([[w.rusk-as-i-saw-it-1990]], 388).'
     src:
       c: 381bf181
       rows:
@@ -401,6 +437,7 @@ entries:
         - 'w.rusk-as-i-saw-it-1990 388: A'
         - 'via x.1984.rusk-interviews-with-richard-rusk: A'
         - 'w.califano-triumph-and-tragedy-of 205–06: ?'
+        - 'w.poole-joint-chiefs-of-staff-2012 175–76: A, C'
     tags: [name:johnson-lyndon-b, name:kosygin-aleksei, name:rusk-dean, name:harman-avraham]
     short: the *Liberty*
   - id: cal.1967-06-08.oil
@@ -411,6 +448,31 @@ entries:
     n: 'FRUS 1964–68, XXXIV, docs. [235](https://history.state.gov/historicaldocuments/frus1964-68v34/d235) (Rusk), [234](https://history.state.gov/historicaldocuments/frus1964-68v34/d234) (Finlay). See [[cal.1967-06-06.oil]]. Names: Rusk, Udall, Moore.'
     tags: [name:rusk-dean, name:udall-stewart-l, name:moore-j-cordell]
     short: Rusk to Udall
+  - id: cal.1967-06-08.vietnam
+    when: June 8
+    date: '1967-06-08'
+    thread: vietnam
+    c: The Joint Chiefs again doubt the barrier's cost and timing; if McNamara executes it, CINCPAC and COMUSMACV to have the widest latitude with its resources. Wheeler, dissenting, for leaving Westmoreland to use them as he needs.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 43. To check: JCSM-322-67 to SecDef, 8 Jun 67, end A to JCS 2471/3-9, 8 Jun 67, JMF 911/321 (9 Jan 67), sec 7 (cited by [[w.cosmas-joint-chiefs-of-staff]], 43 n.31). See [[cal.1967-04-17.vietnam-2]]. Names: McNamara, Wheeler, Westmoreland.'
+    src:
+      c: 8d8cddfa
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 43: all'
+        - 'via x.1967-06-08.jcsm-322-67-to-secdef-8-jun: all'
+    tags: [name:mcnamara-robert-s, name:wheeler-earle, name:westmoreland-william]
+  - id: cal.1967-06-08.middle-east-six-day-war
+    when: June 8
+    date: '1967-06-08'
+    thread: middle-east-six-day-war
+    c: 'McNamara to Bundy, the rules on arms for the Middle East: no more matériel released to any Middle Eastern state, by military assistance or a sale Defense controls, without the approval of a representative of the Secretary of Defense or of State.'
+    n: '[FRUS 1964–68, XIX: Arab-Israeli Crisis and War, 1967, doc. 225](https://history.state.gov/historicaldocuments/frus1964-68v19/d225). [[w.drea-mcnamara-clifford-and-the-2011]], 445 (the instructions of June 8; the states that broke relations cut off). Made public: FRUS 1964–68, XIX (2004). See [[cal.1967-06-07.middle-east-six-day-war-4]]. Names: McNamara, McGeorge Bundy.'
+    src:
+      c: 01a3f298
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v19/d225: all'
+        - 'w.drea-mcnamara-clifford-and-the-2011 445: all'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v19/d225: all'
+    tags: [name:mcnamara-robert-s, name:bundy-mcgeorge]
   - id: cal.1967-06-09.middle-east
     when: June 9–11
     date: '1967-06-09'
@@ -471,6 +533,16 @@ entries:
         - 'w.thomas-robert-kennedy 344, 466: all'
         - 'via w.thomas-robert-kennedy 344 n.translation-from-homer: all'
     tags: [name:goodwin-richard-n, name:kennedy-robert-f]
+  - id: cal.1967-06-09.middle-east-six-day-war-2
+    when: June 9
+    date: '1967-06-09'
+    thread: middle-east-six-day-war
+    c: 'The Special Committee: shipments already in the pipeline to Saudi Arabia and Israel to go on. The White House extends the embargo to Jordan and Lebanon.'
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 446. To check: [Notes of the Special Committee, June 9, 1967, FRUS 1964–68, XIX: Arab-Israeli Crisis and War, 1967, doc. 236](https://history.state.gov/historicaldocuments/frus1964-68v19/d236), not read. See [[cal.1967-06-07.middle-east-six-day-war-4]].'
+    src:
+      c: e97f55b2
+      rows:
+        - 'w.drea-mcnamara-clifford-and-the-2011 446: all'
   - id: cal.1967-06-10.oil
     when: June 10
     date: '1967-06-10'
@@ -491,6 +563,33 @@ entries:
         - 'w.berman-lyndon-johnsons-war 50: all'
         - 'via x.1967-06-10.sharp-to-westmoreland-jx-242: all'
     tags: [name:sharp-u-s-grant, name:westmoreland-william]
+  - id: cal.1967-06-10.middle-east-six-day-war
+    when: June 10
+    date: '1967-06-10'
+    thread: middle-east-six-day-war
+    also: [soviet-union]
+    c: 'Kosygin to Johnson on the hot line, 8:48 a.m.: unless military actions stop "in the next few hours," an "independent decision," including military, though it might "bring us into a clash." Johnson, in the Situation Room, answers that Washington is pressing Israel to honor the cease-fire; Kosygin within five minutes: the Israelis advancing on Damascus. McNamara asks whether the Sixth Fleet should move east; all agree.'
+    n: '[FRUS 1964–68, XIX: Arab-Israeli Crisis and War, 1967, doc. 243](https://history.state.gov/historicaldocuments/frus1964-68v19/d243) (A). [[w.drea-mcnamara-clifford-and-the-2011]], 447–48 (the exchange; the Sixth Fleet). Nineteen messages over the hot line June 5–10 (Drea, 441). Made public: FRUS 1964–68, XIX (2004). See [[cal.1967-06-09.middle-east]]. Names: Kosygin, Johnson, McNamara.'
+    src:
+      c: 42b28c31
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v19/d243: A'
+        - 'w.drea-mcnamara-clifford-and-the-2011 447–48: all'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v19/d243: A'
+    tags: [name:kosygin-aleksei, name:johnson-lyndon-b, name:mcnamara-robert-s]
+  - id: cal.1967-06-10.middle-east-six-day-war-2
+    when: June 10
+    date: '1967-06-10'
+    thread: middle-east-six-day-war
+    c: 'The Joint Chiefs to Lemnitzer, 1522Z, JCS 7628, "Sixth Fleet Movement": the Soviets having declared the possible use of force against Israel, Task Groups 60.1 and 60.2 to steam at moderate speed toward 33° N, 33° E, no farther east or south unless directed. Precautionary.'
+    n: '[FRUS 1964–68, XIX: Arab-Israeli Crisis and War, 1967, doc. 253](https://history.state.gov/historicaldocuments/frus1964-68v19/d253). [[w.drea-mcnamara-clifford-and-the-2011]], 447–48 (the fleet eastward; the Soviet submarines shadowing it). Made public: FRUS 1964–68, XIX (2004). See [[cal.1967-06-10.middle-east-six-day-war]]. Names: Lemnitzer.'
+    src:
+      c: '76335850'
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v19/d253: all'
+        - 'w.drea-mcnamara-clifford-and-the-2011 447–48: all'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v19/d253: all'
+    tags: [name:lemnitzer-lyman-l]
   - id: cal.1967-06-11.civil-disorders
     when: June 11
     date: '1967-06-11'
@@ -709,8 +808,7 @@ entries:
   - id: cal.1967-06-13.vietnam
     when: June 13
     date: '1967-06-13'
-    thread: vietnam
-    also: [vietnam-air-war]
+    thread: vietnam-air-war
     c: 'Tuesday lunch, 1:10 to 2:35 p.m., Johnson with McNamara, Katzenbach, Rostow and Christian, McGeorge Bundy and Thompson joining, on the three bombing options: the Joint Chiefs'' wider program, McNamara''s south of the 20th, Harold Brown''s refinement of the present one. The present level to hold until McNamara is back from Vietnam. Helms: none would affect the war in the South.'
     n: '[[w.gibbons-u-s-government-and]], IV, 667 (by Read''s memorandum to Rusk, June 15). To check: Read to Rusk, June 15, 1967, State, Lot File 74 D 164 (cited by [[w.gibbons-u-s-government-and]], IV, 667 nn.123–124). See [[cal.1967-06-12.vietnam]]. Names: Johnson, McNamara, Katzenbach, Rostow, Christian, McGeorge Bundy, Thompson, Harold Brown, Helms.'
     src:
@@ -741,7 +839,7 @@ entries:
   - id: cal.1967-06-13.vietnam-congress
     when: June 13
     date: '1967-06-13'
-    thread: vietnam-congress
+    thread: vietnam-congress-foreign-relations
     c: 'Fulbright to a friend: "It is really a mystery to me how the President can be persuaded that he is doing the Lord''s work in continuing to slaughter those poor people in Vietnam, and to sacrifice so many of the best people in our country."'
     n: '[[w.mann-grand-delusion]], 544. To check: Fulbright to W. S. Atkins, June 13, 1967, FR—Vietnam, 48:18, 51:1, Fulbright Papers (cited by [[w.mann-grand-delusion]], 544 n.9). Names: Fulbright.'
     src:
@@ -753,7 +851,7 @@ entries:
   - id: cal.1967-06-13.vietnam-2
     when: June 13
     date: '1967-06-13'
-    thread: vietnam
+    thread: vietnam-pacification
     c: 'McPherson to Johnson, 8:15 p.m., after two weeks in Vietnam: the campus question, whether to be there, "almost beside the point"; "We are there in such enormous force." Kỳ on corruption: "You live with it in Chicago and New York"; on a program, "We''ll all sound like Roosevelts." Pacification needs "constant pressure from here." A lieutenant general: "we were at minus fifty. Now we are at zero"; were he a young peasant offered the chance to strike at "my Frenchified oppressors and their American allies ... I would join up."'
     n: 'FRUS 1964–68, V, doc. [197](https://history.state.gov/historicaldocuments/frus1964-68v05/d197). [[w.mcpherson-political-education]], 404–13 (the trip; the memorandum, quoted in part); [[w.branch-at-canaans-edge]], 614, 621–22 (the lieutenant general, the peasant: the memorandum as Branch quotes it, McPherson Papers, Box 29, LBJ Library). Made public: FRUS 1964–68, V (2002). Names: McPherson, Johnson, Nguyễn Cao Kỳ.'
     src:
@@ -781,18 +879,21 @@ entries:
   - id: cal.1967-06-13.vietnam-3
     when: June 13
     date: '1967-06-13'
-    thread: vietnam
+    thread: vietnam-barrier
     c: McNamara's memorandum authorizing the resources of Practice Nine's strong point and obstacle system for MACV's Requirements Plan. The same day, the nickname compromised, it is dropped in unclassified use; Illinois City, then Dye Marker from July 14.
-    n: '[[w.macv-command-history-1967]], 1082, 1093. Names: McNamara.'
+    n: '[[w.macv-command-history-1967]], 1082, 1093; [[w.cosmas-joint-chiefs-of-staff]], 43 (the resources of the strong point obstacle sector for the plan of Jan. 26, too late for completion by Nov. 1). To check: Memo, SecDef to CJCS, 13 Jun 67, att to JCS 2471/3-10, 16 Jun 67, JMF 911/321 (9 Jan 67), sec 7. , SEA Br, J-5, OCJCS, interviewed by author on 3 Apr 69 (cited by [[w.cosmas-joint-chiefs-of-staff]], 43 n.32); Memo, DCPG to SecDef, 23 May 67, end B to JCS 2471/3-9, 8 Jun 67, JMF 911/321 (9 Jan 67), sec 7. , SEA Br, J-5, OCJCS, interviewed by author on 3 Apr 69 (cited by [[w.cosmas-joint-chiefs-of-staff]], 43 n.32). Names: McNamara.'
     src:
       c: d895f2dd
       rows:
         - 'w.macv-command-history-1967 1082, 1093: all'
+        - 'w.cosmas-joint-chiefs-of-staff 43: A'
+        - 'via x.1967-06-13.memo-secdef-to-cjcs-13-jun-67: A'
+        - 'via x.1967-05-23.memo-dcpg-to-secdef-23-may-67: A'
     tags: [name:mcnamara-robert-s]
   - id: cal.1967-06-14.vietnam-congress
     when: June 14
     date: '1967-06-14'
-    thread: vietnam-congress
+    thread: vietnam-congress-foreign-relations
     also: [soviet-union]
     c: 'Thompson calls on Fulbright, sent by Johnson and Katzenbach, Johnson having "sought out" Fulbright at a reception the evening before: Kosygin may come, a chance to begin an understanding with Moscow. Fulbright: reduce the bombing, for fear of China and Russia; the war''s effect at home.'
     n: '[[w.gibbons-u-s-government-and]], IV, 719. To check: Thompson''s memorandum of the meeting, June 14, 1967, State, Lot File 74 D 164 (cited by [[w.gibbons-u-s-government-and]], IV, 719 nn.34–35). Names: Thompson, Fulbright, Johnson, Katzenbach, Kosygin.'
@@ -837,8 +938,7 @@ entries:
   - id: cal.1967-06-15.vietnam
     when: June 15
     date: '1967-06-15'
-    thread: vietnam
-    also: [vietnam-air-war]
+    thread: vietnam-air-war
     c: 'Johnson with Rusk, McNamara, Walt and Eugene Rostow, Wheeler, Helms, Christian and McGeorge Bundy, 11:55 a.m. to 1:06 p.m., on the bombing. No notes. Walt Rostow''s memorandum, 10:45 a.m.: McNamara expects the war through 1968, low-key; give Moscow some weeks, perhaps through Kosygin''s visit, and decide troops and bombing together when McNamara returns.'
     n: 'FRUS 1964–68, V, doc. [203](https://history.state.gov/historicaldocuments/frus1964-68v05/d203) (Rostow''s memorandum). [[w.gibbons-u-s-government-and]], IV, 667–69. Made public: FRUS 1964–68, V (2002). See [[cal.1967-06-13.vietnam]]. Names: Johnson, Rusk, McNamara, Walt Rostow, Eugene Rostow, Wheeler, Helms, Christian, McGeorge Bundy, Kosygin.'
     src:
@@ -865,7 +965,7 @@ entries:
   - id: cal.1967-06-16.vietnam
     when: June 16
     date: '1967-06-16'
-    thread: vietnam
+    thread: vietnam-macv
     c: 'Westmoreland to the Ambassador''s Special Assistant (CAS), on his idea of a separate battalion, regiment or brigade of Vietnamese of Chinese descent: not palatable to the Vietnamese, given their "historic fear and dislike of the Chinese"; general mobilization, which would take them in, the better course.'
     n: '[[w.macv-command-history-1967]], 201. Names: Westmoreland.'
     src:
@@ -876,7 +976,7 @@ entries:
   - id: cal.1967-06-16.vietnam-2
     when: June 16
     date: '1967-06-16'
-    thread: vietnam
+    thread: vietnam-pacification
     c: Westmoreland approves CORDS's proposal for a joint American civil and military program against the Viet Cong infrastructure, with the intelligence services of both countries and a system of coordinating committees and centers at every level.
     n: '[[w.macv-command-history-1967]], 603. Names: Westmoreland.'
     src:
@@ -884,6 +984,17 @@ entries:
       rows:
         - 'w.macv-command-history-1967 603: all'
     tags: [name:westmoreland-william]
+  - id: cal.1967-06-16.middle-east-six-day-war-aftermath
+    when: June 16
+    date: '1967-06-16'
+    thread: middle-east-six-day-war-aftermath
+    c: McNamara asks the Joint Chiefs to assess what the Middle East's polarization means for the contingency plans, communications, logistics and posture in North Africa, the Mediterranean and the Middle East.
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 449. See [[cal.1967-06-10.middle-east-six-day-war]]. Names: McNamara.'
+    src:
+      c: f2a43fc0
+      rows:
+        - 'w.drea-mcnamara-clifford-and-the-2011 449: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1967-06-17.testing
     when: June 17
     date: '1967-06-17'
@@ -908,7 +1019,7 @@ entries:
   - id: cal.1967-06-17.vietnam-congress
     when: June 17
     date: '1967-06-17'
-    thread: vietnam-congress
+    thread: vietnam-congress-foreign-relations
     also: [soviet-union]
     c: 'Fulbright to Johnson: meet Kosygin, on the Middle East, Vietnam and the two powers'' view of each other. Received 3:25 p.m., read to Johnson by Watson at 3:45; Johnson sends it to Rusk and telephones Fulbright that night. No record of the call.'
     n: '[[w.gibbons-u-s-government-and]], IV, 719. To check: Fulbright to Johnson, June 17, 1967, WHCF, Ex ND 19/CO 1-6, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 719 n.36). Check: whether a call that night was made; FRUS prints from the recording a call of Johnson to Fulbright on Kosygin of June 19, 10:57 p.m. (Editorial Note, [FRUS 1964–68, V: Vietnam, 1967, doc. 207](https://history.state.gov/historicaldocuments/frus1964-68v05/d207)). See [[cal.1967-06-14.vietnam-congress]]. Names: Fulbright, Johnson, Kosygin, Watson, Rusk.'
@@ -1005,7 +1116,7 @@ entries:
   - id: cal.1967-06-19.vietnam-congress-2
     when: June 19
     date: '1967-06-19'
-    thread: vietnam-congress
+    thread: vietnam-congress-foreign-relations
     also: [soviet-union]
     c: 'Fulbright writes Johnson again to meet Kosygin. Johnson''s reply, dictated by himself: "We are ready to meet with him if there is any indication that he wishes and is willing to discuss with us substantive problems of common interest."'
     n: '[[w.gibbons-u-s-government-and]], IV, 719. To check: the letters, WHCF, Ex FO/Kosygin, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 719 n.38). See [[cal.1967-06-17.vietnam-congress]]. Names: Fulbright, Johnson, Kosygin.'
@@ -1064,12 +1175,13 @@ entries:
     date: '1967-06-19'
     thread: vietnam-operations
     c: Coronado. The whole Mobile Riverine Force's first major action, a riverine assault into Long An with the 3d Brigade, 9th Division, blocking; 256 of the enemy, the 5th Viet Cong Battalion, killed the first day. Coronado ends July 25, 478 killed.
-    n: '[[w.macv-command-history-1967]], 395–96 (COMNAVFORV, 483: in Cần Giuộc District, June 19–20, the toughest fight yet, over 250 of the enemy killed, 46 Americans, 140 wounded). To check: CG II FFORCEV to COMUSMACV, letter, "Monthly Evaluation Report, Jun 67," July 16, 1967 (cited by [[w.macv-command-history-1967]], 396 n.91). See [[cal.1967-06-04.vietnam-operations]].'
+    n: '[[w.macv-command-history-1967]], 395–96 (COMNAVFORV, 483: in Cần Giuộc District, June 19–20, the toughest fight yet, over 250 of the enemy killed, 46 Americans, 140 wounded); [[w.cosmas-joint-chiefs-of-staff]], 89 (a fight with a battalion-size element, June 19). To check: CG II FFORCEV to COMUSMACV, letter, "Monthly Evaluation Report, Jun 67," July 16, 1967 (cited by [[w.macv-command-history-1967]], 396 n.91). See [[cal.1967-06-04.vietnam-operations]].'
     src:
       c: 82f07250
       rows:
         - 'w.macv-command-history-1967 395–96: all'
         - 'via w.macv-command-history-1967 396 n.91: all'
+        - 'w.cosmas-joint-chiefs-of-staff 89: A'
     tags: [province:long-an]
   - id: cal.1967-06-19.robert-kennedy
     when: June 19
@@ -1125,7 +1237,7 @@ entries:
   - id: cal.1967-06-20.vietnam-congress-2
     when: June 20
     date: '1967-06-20'
-    thread: vietnam-congress
+    thread: vietnam-congress-mansfield
     c: 'Mansfield to a constituent: "The president has the constitutional responsibility in our government for making the fundamental decisions of foreign policy"; the Senate''s role "primarily that of advice and consent."'
     n: '[[w.mann-grand-delusion]], 545. To check: Mansfield to Lauren McKinsey, June 20, 1967, XIII, 75, Mansfield Papers (cited by [[w.mann-grand-delusion]], 545 n.12). Names: Mansfield.'
     src:
@@ -1259,7 +1371,7 @@ entries:
   - id: cal.1967-06-23.vietnam
     when: June 23
     date: '1967-06-23'
-    thread: vietnam
+    thread: vietnam-support
     also: [war-opposition]
     c: 'Johnson at the President''s Club dinner in Los Angeles, of the war''s critics: "Those who do not smell the powder or hear the blast of cannon ... really do not understand the burdens"; "God, forgive them for they know not really what they do"; "I just cannot negotiate with myself. And these protesters haven''t been able to deliver Ho Chi Minh any place yet."'
     n: 'Remarks at a President''s Club Dinner in Los Angeles, [1967 Pub. Papers 645](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=713), 648–49 (June 23, 1967). [[w.mann-grand-delusion]], 546. See [[cal.1967-06-23.war-opposition]]. Names: Johnson, Hồ Chí Minh.'
@@ -1371,13 +1483,28 @@ entries:
         - 'w.mann-grand-delusion 547: A'
         - 'via w.mann-grand-delusion 547 n.16: A'
     tags: [name:bunker-ellsworth, name:johnson-lyndon-b]
+  - id: cal.1967-06-28.vietnam-air-war
+    when: June 28
+    date: '1967-06-28'
+    thread: vietnam-air-war
+    c: The Misty FACs, F-100Fs controlling strikes north of the DMZ, fly their first missions; unopposed a week, fired on July 5 and from then on half their missions.
+    n: '[[w.schlight-united-states-air-force]], 268.'
+    src:
+      c: 2fe43e14
+      rows:
+        - 'w.schlight-united-states-air-force 268: all'
   - id: cal.1967-06-29.vietnam-air-war
     when: June 29
     date: '1967-06-29'
     thread: vietnam-air-war
     also: [soviet-union]
     c: The Soviet freighter *Mikhail Frunze* damaged near Haiphong.
-    n: '[[w.current-documents-1967]], 945. See [[cal.1967-06-02.vietnam]].'
+    n: '[[w.current-documents-1967]], 945; [[w.cosmas-joint-chiefs-of-staff]], 26 (Navy planes attacking an automatic weapons site in the port; Johnson alarmed, relations strained over the Middle East war). See [[cal.1967-06-02.vietnam]].'
+    src:
+      c: 2a8421d1
+      rows:
+        - 'w.current-documents-1967 945: all'
+        - 'w.cosmas-joint-chiefs-of-staff 26: A'
     tags: [place:haiphong]
     short: the *Mikhail Frunze*
   - id: cal.1967-06-30.draft
@@ -1426,7 +1553,7 @@ entries:
   - id: cal.1967-06-30.vietnam-congress
     when: June 30
     date: '1967-06-30'
-    thread: vietnam-congress
+    thread: vietnam-congress-foreign-relations
     c: 'Fulbright to Johnson, after Glassboro and his talks with Rusk: the bombing "quietly and progressively reduced over a period of, say, a week or two and then terminated," no announcement; "great caution" on more troops before South Vietnam''s September elections.'
     n: '[[w.gibbons-u-s-government-and]], IV, 724–25; [[w.woods-j-william-fulbright-vietnam]], 158 (the letter: "a major reassessment of our position" in view of the "unsatisfactory political situation"). To check: Fulbright to Johnson, June 30, 1967, with Rostow''s reply, July 7, Ex ND 19/CO 312, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 725 n.49). See [[cal.1967-06-23.soviet-union]]. Names: Fulbright, Johnson, Rusk.'
     src:
@@ -1619,7 +1746,7 @@ entries:
   - id: cal.1967-06.vietnam
     when: June, early
     date: 1967-06
-    thread: vietnam
+    thread: vietnam-pacification
     c: 'Komer to Johnson, after a month in Vietnam: "we are gaining momentum"; by the end of the winter "we have gained the upper hand"; "The real question is not whether we need more US troops to ''win'' the war in the south, but rather how fast we want to win it." A 50-50 chance of a "clear upper hand" by mid-1968 without large additions, "if everything else breaks our way."'
     n: '[[w.berman-lyndon-johnsons-war]], 50–51. To check: Komer to Johnson, June 1967, LBJ Library (quoted by [[w.berman-lyndon-johnsons-war]], 50–51). Check: the day. Names: Komer, Johnson.'
     src:

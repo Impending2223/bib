@@ -41,7 +41,7 @@ Entries mapped: 28; records logged: 57 (found and read 38, found and not read or
 
 ## Passed over
 
-Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and the calendar does not take, a row each, for the owner to rule on. Method: every dated mention on the pages read for the entries (not the whole volume) was found by pattern; a mention on a day the calendar holds an entry of a related thread (Vietnam, Laos, Defense, Cuba, Berlin, Korea, the alliance, the Middle East and the like) was taken as already in and is not listed; the rest were read and ruled here, the calendar checked by day where the ruling says "already in". Operational detail (single missions, sorties, losses, unit moves) is passed over as minor throughout.
+Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and the calendar does not take, a row each, for the owner to rule on. Method: every dated mention on the pages read for the entries (not the whole volume) was found by pattern; a mention on a day the calendar holds an entry of a related thread (Vietnam, Laos, Defense, Cuba, Berlin, Korea, the alliance, the Middle East and the like) was taken as already in and is not listed; the rest were read and ruled here, the calendar checked by day where the ruling says "already in". (The sentence that stood here, passing over operational detail as a class, is struck: the military re-read below, R14 and R48.)
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -68,3 +68,50 @@ Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and
 | 383–84 | Oct. 6 and 10, 1963 | Lodge on the pressures; rumors of attempts on Americans | minor |
 | 393 | Oct. 29, 1963 | Diệm with Lodge | already in under cal.1963-10-27.vietnam and cal.1963-10-29.robert-kennedy? lead: the day not checked |
 | 393 | Nov. 1, 1963 | Lodge and Felt with Diệm | already in under the coup's entries |
+
+## The military re-read (Nov. 5, 2026)
+
+The owner's ruling of Oct. 30 (R14, R48; `notes/briefs/military-reread.md`). Copy: DTIC_ADA543332 on archive.org, its PDF's own text layer (`pdftotext -layout`; the PDF deleted at once). The offset of PDF page to printed folio changes with the plates (11 at p. 90, 10 at p. 191, 8 at p. 293); each page was given the folio it prints, the gaps filled from its neighbours. Notes, pp. 405–477; the index from p. 478. No page image was checked in this run (a lead).
+
+How the volume was read: every sentence of pp. 1–400 carrying a date and a military word (an operation's name, a unit, a ship, an aircraft, a deployment, an order, a strike) was pulled out by pattern (409 sentences) and read; for each military operation, action, incident, deployment or order the page around it was read, and the calendar searched by day in every thread and in the ledger. Patch `inbox/2026-11-04-mil-shulimson.yaml` (25 ops): 22 new entries, claimed in the ledger (the Special Forces teams of March 1960; the C-47 down over the Plain of Jars; Muong Kasi and Task Force 116; the brigades planned for Thailand and South Vietnam; the alert's end; the helicopter lost at Padong and Padong's fall; Farm Gate's C-123s and Jungle Jim at Biên Hòa; the helicopter companies' orders; Nolting's protest of the 2nd Air Division; Nha Trang; the AD-6s' napalm; the Marine squadron and Sóc Trăng; the authority to intercept; the *Valley Forge*, Bangkok, Udorn and the Marines' departure; Diệm's command directive of Nov. 26, 1962; the aircraft of Dec. 20–31, 1962; the Wheeler team); 3 cites (Thi's coup, Phước Thành, Ấp Bắc), each with its units.
+
+Witnesses: not registered in this run. The OCR's note superscripts in this volume are too garbled to tie the cited sentences to their notes without the page images (on p. 147 "26", "28", "32" read; elsewhere quotation marks); a lead for the next run, with the images.
+
+### Passed over (the military re-read)
+
+Every dated military event of the sentences read that the patch neither enters nor cites. The rows marked "lead" were found and not placed in this run: each to be held against the calendar's Laos and Vietnam entries of its day and entered or ruled.
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 14, 20 | 1954; Jan. 1959 | Radford's study; Lê Duẩn's report to the Politburo | out of the brief: before Jan. 6, 1960 |
+| 38 | Jan. 7, 1961 | Felt: a task force would "deploy rapidly to Laos and make an airborne and airlanded operation" | lead |
+| 49 | Mar. 20, 1961 | the Joint Chiefs to CINCPAC: the Royalists must retake the crossroads | lead |
+| 64 | Apr. 1961 | eight B-26s ready, sixteen more by mid-April | minor: a readiness figure; already in under the Laos entries of March–April (not checked) |
+| 66 | Apr. 3–4, 1961 | the Chiefs' report on the measures of Mar. 9; McNamara asks Thai leave for B-26 flights over Laos | lead |
+| 78 | Apr. 27, 1961 | the request at Bangkok for SEATO's Code Yellow | lead |
+| 83 | May 2, 1961 | the Chiefs tell Felt SEATO Plan 5 questioned "at high levels" | lead |
+| 105–11 | Aug. 14–Sept. 15, 1961 | the Joint Chiefs' team under Craig to Thailand, Laos and South Vietnam; its report | lead |
+| 106 | Aug. 29, 1961 | Lemnitzer presents the revised SEATO Plan 5 | lead |
+| 148, 150 | Nov. 3, Nov. 30, 1961 | Lemnitzer's defoliation programs; NSAM 115 authorizing defoliation | lead |
+| 157 | Nov. 16, 1961 | the Joint Staff's draft order for a joint command in Saigon | lead |
+| 163–66 | Nov. 8–Dec. 14, 1961 | McGarr's national operation plan; Diệm rejects the Zone D command arrangements | lead |
+| 184 | Feb. 22, 1962 | Felt's appraisal of the war to the Joint Chiefs | lead |
+| 190 | Mar. 16, 1962 | Diệm signs the strategic hamlet order | lead |
+| 198, 206 | Jan. 21–Feb. 7, May 5, 1962 | the fighting round Nam Tha; Nam Ha overrun | lead |
+| 210, 212 | Oct. 3, Dec. 26, 1961 | Lemnitzer's "outline program for limited holding actions"; the Chiefs approve CINCPAC's plan for SEATO | lead |
+| 214 | Mar. 28, 1962 | Felt directs MAAG's addendum for the advisers' return from Laos | lead |
+| 219 | May 2, 1962 | Muong Sing captured | lead |
+| 224 | May 11, 1962 | Decker, acting Chairman, on the Laos measures | lead |
+| 233–36 | May 24–June 4, 1962 | the meetings and plans for operations in Laos | lead |
+| 247 | week ending June 1, 1962 | 174 enemy attacks, the year's high | lead: a figure, to an existing entry |
+| 254 | Aug. 1, 1962 | McNamara recommends herbicides on the mangroves | lead |
+| 262 | Oct. 1, 1962 | troops and marshals at Oxford, Miss. | already in (the Mississippi thread) |
+| 271 | Oct. 29, Nov. 5, 1962 | McNamara and the Chiefs on MACV's plan ("too thin") | lead |
+| 287 | Feb. 23, Mar. 14, 1963 | Harkins's and Krulak's figures on the Viet Cong's incidents | lead |
+| 290 | Apr. 10, 1963 | the NSC on Kong Lê's position | lead |
+| 352–54 | Aug. 20, Aug. 30, 1963 | Taylor forwards CINCPAC's plan for withdrawing 1,000; the Joint Chiefs' reevaluation | lead |
+
+## Leads (the military re-read)
+
+- National: the volume's notes to be read off the page images (archive.org, DTIC_ADA543332) and the witnesses of this run's 25 entries registered.
+- National: the "lead" rows above.

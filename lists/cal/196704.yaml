@@ -42,7 +42,7 @@ entries:
   - id: cal.1967-04-01.vietnam-2
     when: Apr. 1
     date: '1967-04-01'
-    thread: vietnam
+    thread: vietnam-diplomacy
     also: [europe-and-the-alliance]
     c: 'The Vatican. Humphrey alone with Paul VI more than an hour: the Pope admires Johnson and prays for him, but the bombing of the North is "eroding America''s moral position." Humphrey explains the pauses.'
     n: 'Humphrey to Johnson and Rusk from Florence, Apr. 2: FRUS 1964–68, XII, doc. [308](https://history.state.gov/historicaldocuments/frus1964-68v12/d308). [[w.solberg-hubert-humphrey]], 304–05. See [[cal.1967-03-29.europe-and-the-alliance]]. Names: Humphrey, Paul VI, Johnson.'
@@ -282,11 +282,12 @@ entries:
     date: '1967-04-05'
     thread: vietnam-operations
     c: Sam Houston ends, 733 of the enemy counted killed. Mar. 22, near the Cambodian border, the 1st Battalion, 8th Infantry, had killed 136 of a North Vietnamese battalion.
-    n: '[[w.macv-command-history-1967]], 375–76. See [[cal.1967-01-01.vietnam-operations]].'
+    n: '[[w.macv-command-history-1967]], 375–76; [[w.cosmas-joint-chiefs-of-staff]], 35 (ended Apr. 5, 733 claimed, 172 Americans dead and 767 wounded; Mar. 22, a battalion against a battalion near the border; 2,184 tactical and 213 Arc Light sorties). See [[cal.1967-01-01.vietnam-operations]].'
     src:
       c: 847a26bb
       rows:
         - 'w.macv-command-history-1967 375–76: all'
+        - 'w.cosmas-joint-chiefs-of-staff 35: A'
     tags: [province:pleiku]
   - id: cal.1967-04-05.king-2
     when: Apr. 5
@@ -372,7 +373,7 @@ entries:
   - id: cal.1967-04-06.vietnam
     when: Apr. 6
     date: '1967-04-06'
-    thread: vietnam
+    thread: vietnam-macv
     c: The White House announces General Creighton W. Abrams as Westmoreland's deputy. He arrives in Saigon May 5 with Komer, and takes up the post May 19.
     n: '[[w.macv-command-history-1967]], 1264, 1266, 1268. Names: Abrams, Westmoreland, Komer.'
     src:
@@ -465,6 +466,19 @@ entries:
         - 'w.kotz-judgment-days 375: all'
         - 'via x.1967-04-07.nyt-editorial-dr-kings-error: all'
     tags: [name:king-martin-luther-jr]
+  - id: cal.1967-04-07.vietnam-force-levels
+    when: Apr. 7
+    date: '1967-04-07'
+    thread: vietnam-force-levels
+    also: [vietnam-operations]
+    c: Westmoreland puts MACV's contingency plan North Carolina into effect, a division-size Task Force Oregon to take over Chu Lai and free Marines for the north. I Field Force loses its reserve, a brigade of the 101st Airborne.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 36. Check: MACV''s History dates the order Apr. 12 ([[cal.1967-04-12.vietnam-force-levels]]). To check: COMUSMACV to CINCPAC, 7 Apr 67, JCS IN 53337 (cited by [[w.cosmas-joint-chiefs-of-staff]], 36 n.14). Names: Westmoreland.'
+    src:
+      c: fd157f57
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 36: all'
+        - 'via x.1967-04-07.comusmacv-to-cincpac-7-apr-67: all'
+    tags: [name:westmoreland-william, place:chu-lai]
   - id: cal.1967-04-08.civil-disorders
     when: Apr. 8–10
     date: '1967-04-08'
@@ -524,7 +538,7 @@ entries:
   - id: cal.1967-04-08.vietnam
     when: Apr. 8
     date: '1967-04-08'
-    thread: vietnam
+    thread: vietnam-macv
     c: Westmoreland's guidance to his commanders, on Sharp's and the Joint Chiefs' policies, for leaflet operations over Cambodia against the Viet Cong and North Vietnamese using it as sanctuary and route, in Vietnamese only, each mission held for approval. The spokesman's line, if asked, that leaflets dropped near the border may drift into Cambodia.
     n: '[[w.macv-command-history-1967]], 665, 669. Names: Westmoreland, Sharp.'
     src:
@@ -557,6 +571,18 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 433: all'
         - 'via x.1967-04-08.republican-coordinating-committee-statement-on-social-security: all'
+  - id: cal.1967-04-08.vietnam-2
+    when: Apr. 8
+    date: '1967-04-08'
+    thread: vietnam
+    c: McNamara approves for planning the forces the Joint Chiefs recommend for the linear barrier, less 531 men; authorized strength in South Vietnam up 7,522 spaces, offshore Navy strength 300.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 41. To check: Memo, Sec Def to CJCS, 8 Apr 67, att to JCS 2471/3-7, 10 Apr 67, JMF 911/321 (9 Jan 67), sec. 3 (cited by [[w.cosmas-joint-chiefs-of-staff]], 41 n.27). See [[cal.1967-01-26.vietnam]]. Names: McNamara.'
+    src:
+      c: c745f0a9
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 41: all'
+        - 'via x.1967-04-08.memo-sec-def-to-cjcs-8-apr: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1967-04-09.opinion
     when: Apr. 9
     date: '1967-04-09'
@@ -608,6 +634,29 @@ entries:
         - 'w.kotz-judgment-days 375: all'
         - 'via x.1967-04-10.nyt-javits-criticizes-dr-king: all'
     tags: [name:javits-jacob-k, name:king-martin-luther-jr]
+  - id: cal.1967-04-09.laos-2
+    when: Apr. 9
+    date: '1967-04-09'
+    thread: laos
+    c: The Meo take Chik Mok Lok, a four-thousand-foot hill over Muong Peun and Route 6, by noon, after hand-to-hand fighting, twelve A-1Es and ten F-105s dropping napalm and antipersonnel bomblets. Earlier tries Mar. 15, 28 and 29 had failed; Nong Khang had been attacked again the night of Apr. 3–4.
+    n: '[[w.anthony-war-in-northern-laos]], 218. To check: JANAF Attaches Laos to DIA, 295, 080535Z Apr. 67 (cited by [[w.anthony-war-in-northern-laos]], 218 n.103); DOD/PRO to CINCPAC, 111630Z Apr. 67 (cited by [[w.anthony-war-in-northern-laos]], 218 n.105a); DIA to AIG 7011, 130510Z Apr. 67 (cited by [[w.anthony-war-in-northern-laos]], 218 n.105b).'
+    src:
+      c: '50326499'
+      rows:
+        - 'w.anthony-war-in-northern-laos 218: all'
+        - 'via w.anthony-war-in-northern-laos 218 n.103: all'
+        - 'via w.anthony-war-in-northern-laos 218 n.105a: all'
+        - 'via w.anthony-war-in-northern-laos 218 n.105b: all'
+  - id: cal.1967-04-09.vietnam
+    when: Apr. 9–14
+    date: '1967-04-09'
+    thread: vietnam
+    c: Air Force C-130s fly the 196th Light Infantry Brigade's 3,500 men and 4,000 tons of equipment three hundred miles from Tay Ninh to Chu Lai, the core of the Americal Division; heavier equipment by Navy LSTs.
+    n: '[[w.schlight-united-states-air-force]], 261.'
+    src:
+      c: f58165b9
+      rows:
+        - 'w.schlight-united-states-air-force 261: all'
   - id: cal.1967-04-10.railroads
     when: Apr. 10
     date: '1967-04-10'
@@ -712,11 +761,12 @@ entries:
     date: '1967-04-10'
     thread: vietnam-air-war
     c: The first B-52s land at U Tapao, Thailand. The hospital ship *Sanctuary* arrives at Đà Nẵng.
-    n: '[[w.macv-command-history-1967]], 1264. See [[cal.1967-03-11.vietnam-air-war]].'
+    n: '[[w.macv-command-history-1967]], 1264; [[w.schlight-united-states-air-force]], 256 (three B-52s from Guam land at U Tapao after the Junction City mission). See [[cal.1967-03-11.vietnam-air-war]].'
     src:
       c: 50860a48
       rows:
         - 'w.macv-command-history-1967 1264: all'
+        - 'w.schlight-united-states-air-force 256: ?'
   - id: cal.1967-04-10.robert-kennedy
     when: Apr. 10
     date: '1967-04-10'
@@ -808,13 +858,16 @@ entries:
   - id: cal.1967-04-11.vietnam
     when: Apr. 11
     date: '1967-04-11'
-    thread: vietnam
+    thread: vietnam-macv
     c: The Joint Chiefs delegate program directive and review authority, reprogramming included, over the Defense-funded aid projects to Sharp, who passes it to Westmoreland, a Washington meeting of Mar. 20–24 having refused it.
-    n: '[[w.macv-command-history-1967]], 722–23 (Westmoreland''s task force on the projects, Jan. 14; his recommendation to Sharp, Feb. 26). Names: Sharp, Westmoreland.'
+    n: '[[w.macv-command-history-1967]], 722–23 (Westmoreland''s task force on the projects, Jan. 14; his recommendation to Sharp, Feb. 26); [[w.cosmas-joint-chiefs-of-staff]], 101 (Westmoreland''s recommendation of Feb. 26, the joint AID–Defense committee''s refusal in late March, the Chiefs'' delegation of Apr. 11 of "program directive and review authority"). To check: CINCPAC Command History, 1967, II, pp. 722-723, 853 (cited by [[w.cosmas-joint-chiefs-of-staff]], 101 n.36); JCS 2478 to CINCPAC, 112316ZApr67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 101 n.36). Names: Sharp, Westmoreland.'
     src:
       c: bb6ef7ff
       rows:
         - 'w.macv-command-history-1967 722–23: all'
+        - 'w.cosmas-joint-chiefs-of-staff 101: A'
+        - 'via x.1967.cincpac-command-history-1967-ii-pp-722: A'
+        - 'via x.undated.jcs-2478-to-cincpac-112316zapr67: A'
     tags: [name:sharp-u-s-grant, name:westmoreland-william]
   - id: cal.1967-04-11.press-and-broadcasting
     when: Apr. 11
@@ -899,12 +952,14 @@ entries:
     date: '1967-04-12'
     thread: vietnam-force-levels
     c: 'Westmoreland to Sharp and Wheeler, MAC 347, "Situation I Corps": the deteriorating situation there; Quảng Trị and Thừa Thiên under the North Vietnamese army''s Military Region 4 at Vinh, the DMZ "obliterated in a practical sense." He has ordered contingency plan Oregon into effect and asks the Marine brigade on Okinawa for III MAF until at least September.'
-    n: '[[w.macv-command-history-1967]], 336–38. Westmoreland: "the forthcoming summer campaign in I Corps could be a decisive period of the war" (338). To check: Westmoreland (MAC 347) to Sharp and Wheeler, 121248Z Apr 67, "Situation I Corps" (cited by [[w.macv-command-history-1967]], 338 n.20). See [[cal.1967-04-12.vietnam-force-levels]]. Names: Westmoreland, Sharp, Wheeler.'
+    n: '[[w.macv-command-history-1967]], 336–38; [[w.cosmas-joint-chiefs-of-staff]], 36–37 (the redeployments under way probably not "enough to decisively reverse the present trend"; the 9th Marine Amphibious Brigade asked). Westmoreland: "the forthcoming summer campaign in I Corps could be a decisive period of the war" (338). To check: Westmoreland (MAC 347) to Sharp and Wheeler, 121248Z Apr 67, "Situation I Corps" (cited by [[w.macv-command-history-1967]], 338 n.20); COMUSMACV MAC 3474 to CINCPAC, 12 Apr 67, OCJCS File 091 Vietnam Apr 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 37 n.15). See [[cal.1967-04-12.vietnam-force-levels]]. Names: Westmoreland, Sharp, Wheeler.'
     src:
       c: 279e75bf
       rows:
         - 'w.macv-command-history-1967 336–38: all'
         - 'via w.macv-command-history-1967 338 n.20: all'
+        - 'w.cosmas-joint-chiefs-of-staff 36–37: C'
+        - 'via x.1967-04-12.msg-gen-westmoreland-mac-347-to-adm: C'
     tags: [name:westmoreland-william, name:sharp-u-s-grant, name:wheeler-earle, province:quang-tri, province:thua-thien]
   - id: cal.1967-04-12.vietnam-operations
     when: Apr. 12–14
@@ -943,6 +998,31 @@ entries:
     c: 'The Senate, on H.R. 6950, the investment credit bill: Gore''s amendment repealing the Presidential Election Campaign Fund Act from July 1, [48–42](https://voteview.com/rollcall/RS0900059).'
     n: 'Check: the Record''s page. To check: [[w.mann-legacy-to-power]]. See [[cal.1966-10-12.program]]; [[cal.1967-03-09.economy]]. Names: Gore.'
     tags: [name:gore-albert-sr]
+  - id: cal.1967-04-13.vietnam-air-war
+    when: Apr. 13
+    date: '1967-04-13'
+    thread: vietnam-air-war
+    c: Sharp to Wheeler, asking leave to strike all of North Vietnam's airfields, to drive the MiGs to fields in China, where they could be intercepted along the buffer zone. Hot pursuit into China, he grants, would not be allowed.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 20–21. To check: CINCPAC to JCS, 130432Z Apr 67, JMF 9155 (18 Feb 65) ROLLING THUNDER 54, sec 15 (cited by [[w.cosmas-joint-chiefs-of-staff]], 21 n.14). See [[cal.1967-03-23.vietnam-air-war]]. Names: Sharp, Wheeler.'
+    src:
+      c: 866f0d27
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 20–21: all'
+        - 'via x.1967-04-13.cincpac-to-jcs-130432z-apr-67: all'
+    tags: [name:sharp-u-s-grant, name:wheeler-earle]
+  - id: cal.1967-04-13.vietnam-force-levels
+    when: Apr. 13
+    date: '1967-04-13'
+    thread: vietnam-force-levels
+    c: The Joint Chiefs, after consulting CINCPAC, endorse Westmoreland's request to McNamara. Two battalion landing teams of the 9th Marine Amphibious Brigade off the coast, to be committed as he needs them; the third on Okinawa, at fifteen days' readiness.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 37. Check: the memorandum, JCSM-208-67, is dated Apr. 14. To check: JCSM-208-67 to SecDef, 14 Apr 67 (derived from JCS 2472/45), JMF 911/377 (14 Apr 67) (cited by [[w.cosmas-joint-chiefs-of-staff]], 37 n.16); JCS 2843 to CINCPAC, 15 Apr 67, JMF 911/377 (14 Apr 67) (cited by [[w.cosmas-joint-chiefs-of-staff]], 37 n.16). See [[cal.1967-04-12.vietnam-force-levels-2]]. Names: Westmoreland, McNamara.'
+    src:
+      c: b727ede1
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 37: all'
+        - 'via x.1967-04-14.jcsm-208-67-to-secdef-14-apr: all'
+        - 'via x.1967-04-15.jcs-2843-to-cincpac-15-apr-67: all'
+    tags: [name:westmoreland-william, name:mcnamara-robert-s]
   - id: cal.1967-04-14.state-and-city-finance-md
     when: Apr. 14
     date: '1967-04-14'
@@ -1011,16 +1091,19 @@ entries:
     date: '1967-04-15'
     thread: vietnam-force-levels
     c: The Joint Chiefs authorize Sharp to use elements of the 9th Marine Amphibious Brigade for Westmoreland in I Corps, a second Special Landing Force; one at 24 hours' reaction, one at 26, the rest on Okinawa at 15 days'.
-    n: '[[w.macv-command-history-1967]], 368. To check: CINCPAC to CINCPACFLT, 160457Z Apr 67, "Marine Corps Reinforcement in I CTZ" (cited by [[w.macv-command-history-1967]], 369 n.43). Names: Sharp, Westmoreland.'
+    n: '[[w.macv-command-history-1967]], 368; [[w.cosmas-joint-chiefs-of-staff]], 37 (McNamara''s approval of Apr. 15). To check: CINCPAC to CINCPACFLT, 160457Z Apr 67, "Marine Corps Reinforcement in I CTZ" (cited by [[w.macv-command-history-1967]], 369 n.43). Names: Sharp, Westmoreland.'
     src:
       c: 6d71bd99
       rows:
         - 'w.macv-command-history-1967 368: all'
+        - 'w.cosmas-joint-chiefs-of-staff 37: A'
+        - 'via x.1967-04-14.jcsm-208-67-to-secdef-14-apr: A'
+        - 'via x.1967-04-15.jcs-2843-to-cincpac-15-apr-67: A'
     tags: [name:sharp-u-s-grant, name:westmoreland-william]
   - id: cal.1967-04-15.vietnam
     when: Apr. 15
     date: '1967-04-15'
-    thread: vietnam
+    thread: vietnam-barrier
     c: Saigon announces a plan to move 20,000 civilians from the area near the DMZ, for a fortified barrier.
     n: '[[w.macv-command-history-1967]], 1264.'
     src:
@@ -1154,10 +1237,22 @@ entries:
         - 'w.shesol-mutual-contempt 362: all'
         - 'via x.1967-04-17.bendiner-history-and-malapropaganda: all'
     tags: [name:manchester-william]
+  - id: cal.1967-04-17.vietnam-2
+    when: Apr. 17
+    date: '1967-04-17'
+    thread: vietnam
+    c: 'The Joint Chiefs to McNamara: put off executing the barrier plan to about Apr. 1, 1968; meanwhile approvals for Practice Nine''s construction and wider Prairie Fire operations, the forces added to Program 4, the funds allocated.'
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 42. To check: JCSM-204-67 to SecDef, 17 Apr 67 (derived from JCS 2471/11/1), JMF 911/321 (9 Jan 67), sec 6 (cited by [[w.cosmas-joint-chiefs-of-staff]], 42 n.29). See [[cal.1967-01-26.vietnam]]. Names: McNamara.'
+    src:
+      c: e8bd1ada
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 42: all'
+        - 'via x.1967-04-17.jcsm-204-67-to-secdef-17-apr: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1967-04-18.vietnam-2
     when: Apr. 18–21
     date: '1967-04-18'
-    thread: vietnam
+    thread: vietnam-diplomacy
     c: 'The SEATO Council meets in Washington, Apr. 18–20; the seven nations with troops in Vietnam, Apr. 20–21: their efforts to go on.'
     n: 'FRUS 1964–68, V, doc. [142](https://history.state.gov/historicaldocuments/frus1964-68v05/d142). Check: the communiqués, *Dep''t St. Bull.* See [[cal.1966-10-17.vietnam]].'
   - id: cal.1967-04-18.democratic-party
@@ -1257,7 +1352,7 @@ entries:
   - id: cal.1967-04-19.vietnam
     when: Apr. 19
     date: '1967-04-19'
-    thread: vietnam
+    thread: vietnam-diplomacy
     c: The United States proposes that both sides pull their forces back ten miles from the DMZ, then talks; the Canadians' plan of Apr. 11 alike. By Cooper's account, an hour later he learns of strikes on Haiphong set for the day, and cannot stop them; Hanoi rejects the proposal the next day.
     n: 'Department Statement, read to the press Apr. 19: [[w.department-of-state-bulletin]], [May 15, 1967, 750](https://archive.org/details/departmentofstat5667unit/page/750/mode/1up) (the proposal; Paul Martin''s four-point proposal of Apr. 11). Harriman with the Soviet chargé, Apr. 20: [FRUS 1964–68, V: Vietnam, 1967, doc. 140](https://history.state.gov/historicaldocuments/frus1964-68v05/d140), n. 2 (the proposal; Hanoi''s rejection). [[w.gibbons-u-s-government-and]], IV, 573. To check: [[w.cooper-lost-crusade]], 373–74 (the strikes, the rejection; cited by Gibbons, IV, 573). Check: FRUS''s note has Hanoi reject the proposal two days later. See [[cal.1967-04-18.vietnam]]. Names: Cooper.'
     src:
@@ -1374,7 +1469,7 @@ entries:
   - id: cal.1967-04-20.vietnam
     when: Apr. 20
     date: '1967-04-20'
-    thread: vietnam
+    thread: vietnam-macv
     c: The chief of the Joint General Staff asks Westmoreland to lend the South Vietnamese army 50 armored personnel carriers; refused, the American forces short of them.
     n: '[[w.macv-command-history-1967]], 196. Names: Westmoreland.'
     src:
@@ -1438,12 +1533,29 @@ entries:
     date: '1967-04-22'
     thread: vietnam-air-war
     c: Rolling Thunder Program 55 authorized; 56 on May 2. Program 54, of Feb. 24, held back by the weather; from 55 on, a steady effort in Route Package 6. In five weeks, Sharp reports at midyear, more damage in the northeast quadrant than in all before.
-    n: '[[w.macv-command-history-1967]], 430. Names: Sharp.'
+    n: '[[w.macv-command-history-1967]], 430; [[w.cosmas-joint-chiefs-of-staff]], 20 (55: ten fixed targets in the Hanoi–Haiphong complex, Kép and Hòa Lạc among them; the Hanoi thermal power plant struck out). To check: JCS 3451 to CINCPAC, 222239Z Apr 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 20 n.11). Names: Sharp.'
     src:
       c: 858d7e96
       rows:
         - 'w.macv-command-history-1967 430: all'
+        - 'w.cosmas-joint-chiefs-of-staff 20: A'
+        - 'via x.1967-04-22.jcs-3451-to-cincpac-222239z-apr-67: A'
     tags: [name:sharp-u-s-grant]
+  - id: cal.1967-04-22.vietnam
+    when: Apr. 22
+    date: '1967-04-22'
+    thread: vietnam
+    c: McNamara, holding to the barrier's date of Nov. 1, starts State's negotiations with Laos and Thailand for Practice Nine's bases and wider Prairie Fire, and approves for planning the forces, less nearly 1,800 spaces; Nam Phong refused.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 42–43. To check: Memo, SecDef to CJCS, 22 Apr 67, att to JCS 2471/11-2, 28 Apr 67, JMF 911/321 (9 Jan 67), sees 6 and 7 (cited by [[w.cosmas-joint-chiefs-of-staff]], 43 n.30); Memo, SecDef to CJCS, 8 May 67, att to JCS 2471/11-3, 10 May 67, JMF 911/321 (9 Jan 67), sees 6 and 7 (cited by [[w.cosmas-joint-chiefs-of-staff]], 43 n.30); JCSM-400-67 to SecDef, 15 Jul 67 (derived from JCS 2471/11-5), JMF 911/321 (9 Jan 67), sees 6 and 7 (cited by [[w.cosmas-joint-chiefs-of-staff]], 43 n.30); Memo, SecDef to CJCS, 25 Jul 67, att to JCS 2471/11-6, 27 Jul 67, JMF 911/321 (9 Jan 67), sees 6 and 7 (cited by [[w.cosmas-joint-chiefs-of-staff]], 43 n.30). See [[cal.1967-04-17.vietnam-2]]. Names: McNamara.'
+    src:
+      c: 3417f5cd
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 42–43: all'
+        - 'via x.1967-04-22.memo-secdef-to-cjcs-22-apr-67: all'
+        - 'via x.1967-05-08.memo-secdef-to-cjcs-8-may-67: all'
+        - 'via x.1967-07-15.jcsm-400-67-to-secdef-15-jul: all'
+        - 'via x.1967-07-25.memo-secdef-to-cjcs-25-jul-67: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1967-04-23.opinion
     when: Apr. 23
     date: '1967-04-23'
@@ -1455,7 +1567,7 @@ entries:
   - id: cal.1967-04-23.vietnam-congress
     when: Apr. 23
     date: '1967-04-23'
-    thread: vietnam-congress
+    thread: vietnam-congress-republicans
     also: [republican-party-congress]
     c: 'Percy and Whalen, interviewed together on Dayton''s WHIO: the bombing of the North ineffective; the war political, not military; a settlement through a conference of all the Asian nations. Percy: both parties "unite on the fact that we would be opposed to unilateral withdrawal."'
     n: '[[w.kabaservice-rule-and-ruin]], 218. To check: WHIO Reports, interview with Charles Percy and Charles W. Whalen Jr., Apr. 23, 1967, Whalen Papers, University of Dayton, L205 (cited by [[w.kabaservice-rule-and-ruin]], 218 n.116). Names: Percy, Whalen.'
@@ -1483,7 +1595,7 @@ entries:
   - id: cal.1967-04-24.vietnam
     when: Apr. 24
     date: '1967-04-24'
-    thread: vietnam
+    thread: vietnam-support
     also: [war-opposition]
     c: 'Westmoreland home. New York, to the Associated Press: the enemy "sees every protest as evidence of crumbling morale and diminishing resolve" (Check the place).'
     n: 'FRUS 1964–68, V, doc. [141](https://history.state.gov/historicaldocuments/frus1964-68v05/d141). Text: [113 Cong. Rec. 10699–700](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt8/pdf/GPO-CRECB-1967-pt8-7-1.pdf#page=95) (Senate, Apr. 25, 1967). [[w.gibbons-u-s-government-and]], IV, 617 (the words); [[w.woods-fulbright]], 447 (the "noisy minority"; "recent unpatriotic acts"). [[w.mann-grand-delusion]], 536–37. [[w.westmoreland-soldier-reports]], 224–26 (the luncheon at the Waldorf-Astoria, at Johnson''s order; "dismayed, and so am I, by recent unpatriotic acts here at home," added to the text; the Council on Foreign Relations that afternoon). To check: [[w.sorley-westmoreland]]. See [[cal.1967-03-18.vietnam]]. Names: Westmoreland.'
@@ -1504,11 +1616,15 @@ entries:
     date: '1967-04-24'
     thread: vietnam-air-war
     c: The airfields at Kép and Hòa Lạc struck for the first time.
-    n: '[[w.macv-command-history-1967]], 1266 (Kép, by Task Force 77''s Navy planes, the first attack on North Vietnam''s airfields; Kiến An, southwest of Haiphong, first hit May 10). Check: the Defense Department''s announcement. See [[cal.1967-04-18.vietnam]].'
+    n: '[[w.macv-command-history-1967]], 1266 (Kép, by Task Force 77''s Navy planes, the first attack on North Vietnam''s airfields; Kiến An, southwest of Haiphong, first hit May 10); [[w.cosmas-joint-chiefs-of-staff]], 21 (on receiving 55, a strike on each airfield, three of the sixteen aircraft lost; the attacks limited to "small and random harassment strikes"). Check: the Defense Department''s announcement. To check: JCS 3451 to CINCPAC, 222239Z Apr 67, JMF 9155 (18 Feb 65) ROLLING THUNDER 55, sec 16 (cited by [[w.cosmas-joint-chiefs-of-staff]], 21 n.15); JCS 3011-67 to CINCPAC, 24 Apr 67, JMF 9155 (18 Feb 65) ROLLING THUNDER 55, sec 16 (cited by [[w.cosmas-joint-chiefs-of-staff]], 21 n.15); CINCPAC to JCS 250402Z Apr 67, JMF 9155 (18 Feb 65) ROLLING THUNDER 55, sec 16 (cited by [[w.cosmas-joint-chiefs-of-staff]], 21 n.15). See [[cal.1967-04-18.vietnam]].'
     src:
       c: 29b946a8
       rows:
         - 'w.macv-command-history-1967 1266: A'
+        - 'w.cosmas-joint-chiefs-of-staff 21: A'
+        - 'via x.1967-04-22.jcs-3451-to-cincpac-222239z-apr-67: A'
+        - 'via x.1967-04-24.jcs-3011-67-to-cincpac-24-apr: A'
+        - 'via x.1967-04-25.cincpac-to-jcs-250402z-apr-67: A'
     tags: [place:kep, place:hoa-lac]
     short: Kép and Hòa Lạc
   - id: cal.1967-04-24.europe-and-the-alliance
@@ -1533,13 +1649,20 @@ entries:
     date: '1967-04-24'
     thread: vietnam-operations
     c: 'The hill fights at Khe Sanh begin: a Marine patrol sent to set up an observation post on Hill 861 meets North Vietnamese troops; one man of the post escapes. Hill 861 taken Apr. 28, Hill 881 South May 2.'
-    n: '[[w.telfer-u-s-marines-in]], 34–45. To check: [[w.andrew-hill-fights]].'
+    n: '[[w.telfer-u-s-marines-in]], 34–45; [[w.cosmas-joint-chiefs-of-staff]], 37 (a Marine patrol meets the enemy in strength northwest of the base, Apr. 24; three battalions flown in; Hills 881, 881S, 881N secured by May 3). To check: [[w.andrew-hill-fights]]; JCS 4549 to CINCPAC, 5 May 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 38 n.17); FMFPAC, Operations of US Marine Forces, Vietnam, May 1967, pp. 11-20, OCJCS File 091 Vietnam, Jun 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 38 n.17).'
+    src:
+      c: b40f32d4
+      rows:
+        - 'w.telfer-u-s-marines-in 34–45: all'
+        - 'w.cosmas-joint-chiefs-of-staff 37: A'
+        - 'via x.1967-05-05.jcs-4549-to-cincpac-5-may-67: A'
+        - 'via x.1967.fmfpac-operations-of-us-marine-forces-vietnam: A'
     tags: [place:khe-sanh]
     short: the hill fights at Khe Sanh
   - id: cal.1967-04-24.vietnam-2
     when: Apr. 24
     date: '1967-04-24'
-    thread: vietnam
+    thread: vietnam-diplomacy
     c: 'Rusk to Brandt, privately: stronger in Vietnam "on the military side," but no sign of peace from Hanoi; the trouble at home "not with the ''doves,''" but the growing impatience of Americans, 2,500 killed since January. "Something must give, and give shortly."'
     n: '[[w.gibbons-u-s-government-and]], IV, 613. To check: memorandum of conversation, Rusk and Brandt, Apr. 24, 1967 State Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 613 n.22). Names: Rusk, Brandt.'
     src:
@@ -1627,7 +1750,7 @@ entries:
   - id: cal.1967-04-24.vietnam-3
     when: Apr. 24
     date: '1967-04-24'
-    thread: vietnam
+    thread: vietnam-support
     c: 'New York, that afternoon, after the Associated Press luncheon: Westmoreland to the Council on Foreign Relations, McGeorge Bundy and Forrestal in the audience. The war''s facets political, sociological, psychological, economic and military; the war fundamentally political. By Westmoreland''s account.'
     n: '[[w.westmoreland-soldier-reports]], 226. See [[cal.1967-04-24.vietnam]]. Names: Westmoreland, McGeorge Bundy, Forrestal.'
     src:
@@ -1703,7 +1826,7 @@ entries:
   - id: cal.1967-04-25.vietnam
     when: Apr. 25
     date: '1967-04-25'
-    thread: vietnam
+    thread: vietnam-diplomacy
     also: [war-opposition]
     c: 'Bonn, at the luncheon after Adenauer''s funeral, by Rostow''s note: Erlander "desperately anxious" to explain to Johnson why Sweden''s laws let the Russell Tribunal meet there. Johnson sends Rostow in the night to find him and hear him out.'
     n: '[President''s Daily Diary, Apr. 25, 1967](https://catalog.archives.gov/id/192467), images 2, 3 (LBJ Library; National Archives Catalog; the luncheon at the Villa Hammerschmidt; Rostow''s note: the Prime Minister of Sweden "desperately anxious" to explain "why they are accepting a Bertrand Russell ... investigation in Sweden due to their complex laws"; Rostow sent "in the middle of the night"; image 3, Rostow''s list of those at the luncheon, Erlander among them). [[w.gibbons-u-s-government-and]], IV, 701. Names: Erlander, Johnson, Rostow, Adenauer.'
@@ -1717,7 +1840,7 @@ entries:
   - id: cal.1967-04-25.vietnam-2
     when: Apr. 25
     date: '1967-04-25'
-    thread: vietnam
+    thread: vietnam-support
     c: 'Westmoreland to the South Carolina General Assembly, at McNair''s invitation: the black soldier in Vietnam has served "with distinction equal to his white comrades in arms." The University of South Carolina gives him an honorary degree; a protester''s placard, "Doctor of War."'
     n: '[[w.westmoreland-soldier-reports]], 226. Check: the day. Names: Westmoreland, McNair.'
     src:
@@ -1802,7 +1925,7 @@ entries:
   - id: cal.1967-04-27.vietnam-congress
     when: Apr. 27
     date: '1967-04-27'
-    thread: vietnam-congress
+    thread: vietnam-congress-foreign-relations
     c: 'Fulbright in the Senate: the committee''s invitation to Westmoreland declined, his schedule too full. Symington: if he has time for talks in Washington and New York, he should answer the Armed Services Committee. Morton: is he here "to put a sort of a sack ... over discussion"?'
     n: '[113 Cong. Rec. 11042](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt8/pdf/GPO-CRECB-1967-pt8-9-1.pdf#page=66); [11049–51](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt8/pdf/GPO-CRECB-1967-pt8-9-1.pdf#page=73) (Senate, Apr. 27, 1967). [[w.gibbons-u-s-government-and]], IV, 618–19; [[w.woods-fulbright]], 447 (his request to appear refused). See [[cal.1967-03-24.vietnam-congress]]. Names: Fulbright, Westmoreland, Symington, Morton.'
     src:
@@ -1832,7 +1955,7 @@ entries:
   - id: cal.1967-04-27.vietnam
     when: Apr. 27
     date: '1967-04-27'
-    thread: vietnam
+    thread: vietnam-macv
     c: An inspection team of the Army Materiel Command arrives to check the M16A1's performance; few or no problems with the rifle, an extraction problem to some degree.
     n: '[[w.macv-command-history-1967]], 738. See [[cal.1967-05.vietnam-operations]].'
     src:
@@ -1854,7 +1977,7 @@ entries:
   - id: cal.1967-04-28.vietnam
     when: Apr. 28
     date: '1967-04-28'
-    thread: vietnam
+    thread: vietnam-support
     c: 'Westmoreland to a joint meeting of Congress: "we will prevail in Vietnam over the Communist aggressor." Johnson''s luncheon for him, the governors and the members of the foreign policy, armed services and appropriations committees. After it, he and Wheeler call on Russell, Stennis, Fulbright and Mahon.'
     n: 'The address to Congress, [113 Cong. Rec. 11153–55](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt9/pdf/GPO-CRECB-1967-pt9-1-1.pdf#page=1) (joint meeting, Apr. 28, 1967); 56 *Dep''t St. Bull.* 738 (1967). Remarks at a Luncheon for General Westmoreland, [1967 Pub. Papers 469](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=537) (Apr. 28, 1967). [[w.gibbons-u-s-government-and]], IV, 619–20; [[w.branch-at-canaans-edge]], 602 ("They believe in what they are doing"); [[w.berman-lyndon-johnsons-war]], 36 ("we will prevail in Vietnam over the Communist aggressor"); [[w.woods-fulbright]], 447 (a prolonged standing ovation). [[w.mann-grand-delusion]], 538. [[w.westmoreland-soldier-reports]], 228–29 (the address, rewritten through the night at Wheeler''s quarters; the luncheon). To check: "Westmoreland Tells Congress U.S. Will Prevail," NYT, April 29, 1967, pp. 1, 10 (cited by [[w.branch-at-canaans-edge]], 602); "Westmoreland Before Congress," T79:0321, MOB (cited by [[w.branch-at-canaans-edge]], 602). See [[cal.1967-04-24.vietnam]]. Names: Westmoreland, Johnson, Wheeler, Russell, Stennis, Fulbright, Mahon.'
     src:
@@ -1970,7 +2093,7 @@ entries:
   - id: cal.1967-04-29.vietnam-congress
     when: Apr. 29
     date: '1967-04-29'
-    thread: vietnam-congress
+    thread: vietnam-congress-mansfield
     c: 'Mansfield to Johnson, "Vietnam": invite Hanoi, the NLF and China with Saigon to put their views to the Security Council; ask the World Court''s advisory opinion on the Geneva accords'' bearing. The bombing makes Hanoi ever more dependent on China; "the road to settlement with Hanoi, now, very likely runs by way of Peking." He offers to approach Peking himself.'
     n: 'Mansfield to Johnson, "Vietnam," Apr. 29, [FRUS 1964–68, V: Vietnam, 1967, doc. 151](https://history.state.gov/historicaldocuments/frus1964-68v05/d151). [[w.gibbons-u-s-government-and]], IV, 677; [[w.bernstein-guns-or-butter]], 415 ("the hour is growing very, very late"). Names: Mansfield, Johnson.'
     src:
@@ -1991,7 +2114,7 @@ entries:
   - id: cal.1967-04-30.vietnam-congress
     when: Apr. 30
     date: '1967-04-30'
-    thread: vietnam-congress
+    thread: vietnam-congress-mansfield
     c: 'Rostow to Johnson on Mansfield''s proposal: Katzenbach and Goldberg "agree it''s a gimmick. Nick leans against; Arthur for." Rusk: ready to take it to the Security Council, but Thant and others will oppose; the World Court lacks jurisdiction; "strongly opposed" to a Mansfield mission to China, Mansfield being "an officer of the United States Government."'
     n: 'Rostow to Johnson, Apr. 30, [FRUS 1964–68, V: Vietnam, 1967, doc. 152](https://history.state.gov/historicaldocuments/frus1964-68v05/d152) (Rusk''s views; n. 3: Rostow''s memorandum of 11:45 a.m., Katzenbach''s "gimmick," Goldberg for). [[w.gibbons-u-s-government-and]], IV, 677–78. See [[cal.1967-04-29.vietnam-congress]]. Names: Rostow, Johnson, Mansfield, Katzenbach, Goldberg, Rusk.'
     src:
@@ -2146,7 +2269,7 @@ entries:
   - id: cal.1967-04.vietnam-congress
     when: Apr., late
     date: 1967-04
-    thread: vietnam-congress
+    thread: vietnam-congress-republicans
     also: [republican-party-congress]
     c: 'Thruston Morton, by Westmoreland''s account: Westmoreland''s "unpatriotic acts," not telling flag- and draft-card burners from legitimate dissent, only add fuel to the controversy over the war.'
     n: '[[w.westmoreland-soldier-reports]], 226. Check: the day and the words. See [[cal.1967-04-24.vietnam]]. Names: Morton, Westmoreland.'
@@ -2237,7 +2360,7 @@ entries:
   - id: cal.1967-04.vietnam
     when: Apr.
     date: 1967-04
-    thread: vietnam
+    thread: vietnam-barrier
     c: Kỳ drafts a letter to the heads of the troop-contributing countries asking more troops to man a strong point and obstacle system in Quảng Trị; Rusk holds the letter.
     n: '[[w.macv-command-history-1967]], 247. Names: Nguyễn Cao Kỳ, Rusk. Check: the day (the History: late April).'
     src:

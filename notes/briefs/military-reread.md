@@ -1,0 +1,27 @@
+# The military re-read (item 3b; Nov. 4, 2026)
+
+The owner's ruling of Oct. 30 (R14 of `notes/briefs/reader.md`; the owner: "The agents seem to think operational,
+logistical, and other military matters are below the level or outside the brief." "Please do."). Fourteen volumes'
+book-check files pass over operations in a blanket ("minor throughout", "not listed event by event"); `./bib check`
+[passed-over] names them. Re-read each:
+
+1. Read `CLAUDE.md`, then `notes/briefs/reader.md` in full (R5, R14, R17, R18, R35-R43, R44, R48, R49-R51, R54).
+   Never read `build/` or a whole list file.
+2. The volume's book-check file in `notes/book-checks/` says which copy was read (DTIC's scans on archive.org, by
+   identifier: OCR text `/download/<id>/<id>_djvu.txt`, page images `/download/<id>/page/n<N>.jpg`) and how its folios
+   map to the scan's leaves. Download into a new empty directory under the session's scratchpad `books/mil-<group>/`;
+   delete your copies when you finish.
+3. First the pages already cited (`./bib works show <card>`, `grep -rn <card> lists/cal`), then the whole volume within
+   the span (1960 to Jan. 20, 1969): every dated operation, action and incident it treats is an entry (R14), or a row
+   of its own in Passed over with the R18 ground; the sorties, losses and strengths it gives go in the entry's `n` by
+   page (or the entry's `c` where they are the event). Read each page you cite off the page image as well as the text.
+4. Strike the blanket sentence in the book-check file; Passed over row by row (R44, R48); "## Leads" (R50).
+5. Witnesses under R35-R43: each record the volume's notes give for an entry's units, to
+   `inbox/witnesses/2026-11-04-mil-<card-short>.yaml` (never the year files); the volume's edges to
+   `sources/witnesses/by-work/<card>.yaml`.
+6. One patch a volume, `inbox/2026-11-04-mil-<card-short>.yaml` (a second if it passes some 400 ops): new entries
+   claimed first in the ledger (`./bib ledger find`, `./bib ledger add`); additive ops wherever you only add (R51);
+   `edit` with a fresh base only where you change `c` or rewrite `n`. `./bib patch-check` until no errors. Do not merge,
+   fold or commit: the merger does.
+7. Working hours: CLAUDE.md, "Working hours". If told to pause, stop at a clean point, leave your files consistent,
+   and say where you stopped in the book-check file.

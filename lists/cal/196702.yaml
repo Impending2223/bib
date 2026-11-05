@@ -67,6 +67,19 @@ entries:
         - 'w.macv-command-history-1967 357–58: all'
         - 'via w.macv-command-history-1967 358 n.16: all'
     tags: [province:quang-tri, place:dmz]
+  - id: cal.1967-02-01.vietnam-air-war
+    when: Feb. 1
+    date: '1967-02-01'
+    thread: vietnam-air-war
+    c: The B-52 sortie rate raised to 800 a month, from 725.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 32. To check: CINCPAC Command History, 1967, Vol. II, pp. 685-694 (cited by [[w.cosmas-joint-chiefs-of-staff]], 32 n.7); Bangkok 11165 to State, 2 Mar 67, JCS IN 41885 (cited by [[w.cosmas-joint-chiefs-of-staff]], 32 n.7); JCS 7903 to CINCPAC and CINCSAC, 2 Mar 67, JMF 9158 (24 May 66), sec. 5 (cited by [[w.cosmas-joint-chiefs-of-staff]], 32 n.7).'
+    src:
+      c: 21c1c602
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 32: all'
+        - 'via x.1967.cincpac-command-history-1967-vol-ii-pp: all'
+        - 'via x.1967-03-02.bangkok-11165-to-state-2-mar-67: all'
+        - 'via x.1967-03-02.jcs-7903-to-cincpac-and-cincsac-2: all'
   - id: cal.1967-02-02.india-and-china
     when: Feb. 2
     date: '1967-02-02'
@@ -100,7 +113,7 @@ entries:
   - id: cal.1967-02-02.vietnam-congress
     when: Feb. 2
     date: '1967-02-02'
-    thread: vietnam-congress
+    thread: vietnam-congress-foreign-relations
     c: 'Salisbury before the Foreign Relations Committee in public session: the bombing has not cut infiltration nor moved Hanoi to talk; the war at a "turning point" toward a settlement or a dangerous escalation. Fulbright, Mansfield, Morse, Gore, Clark, Pell and McCarthy on one side of the questioning; Sparkman, Lausche and Symington on the other.'
     n: 'Daily Digest, [113 Cong. Rec. D36](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=34). [[w.gibbons-u-s-government-and]], IV, 501. To check: Senate Comm. on Foreign Relations, *Harrison E. Salisbury''s Trip to North Vietnam: Hearing*, 90th Cong., 1st Sess. (1967) (cited by [[w.gibbons-u-s-government-and]], IV, 501 n.65). See [[cal.1967-01-13.vietnam]]. Names: Salisbury, Fulbright, Mansfield, Morse, Gore, Clark, Pell, McCarthy, Sparkman, Lausche, Symington.'
     src:
@@ -238,7 +251,7 @@ entries:
   - id: cal.1967-02-05.vietnam
     when: Feb. 5
     date: '1967-02-05'
-    thread: vietnam
+    thread: vietnam-macv
     c: The first defoliation mission flown in the southern half of the DMZ. A record 565 sorties over South Vietnam by Air Force and Marine pilots.
     n: '[[w.macv-command-history-1967]], 1258.'
     src:
@@ -491,8 +504,7 @@ entries:
   - id: cal.1967-02-09.vietnam
     when: Feb. 9
     date: '1967-02-09'
-    thread: vietnam
-    also: [vietnam-air-war]
+    thread: vietnam-air-war
     c: 'The Tet cease-fire, from 8 a.m. Feb. 8. North Vietnam''s supply effort quickens at once: by noon Feb. 9, 40 junks, 44 logistics craft and a barge headed south near the Sông Giang; an estimated 300 craft enter the Kiến Giang in a day. The *Stoddard* fired on by shore batteries Feb. 8. Sharp asks authority to resume Sea Dragon.'
     n: '[[w.macv-command-history-1967]], 494–95 (Feb. 10, Sharp adds that trucks are moving; a pilot: "Route 1 looked like the New Jersey Turnpike"). Names: Sharp.'
     src:
@@ -759,7 +771,7 @@ entries:
   - id: cal.1967-02-13.vietnam-2
     when: Feb. 13
     date: '1967-02-13'
-    thread: vietnam
+    thread: vietnam-macv
     c: The Joint Chiefs find Westmoreland's herbicide requirements supportable, but orange and white herbicides by July 1 no more than 5.3 million gallons from current production unless the cabinet acts; fiscal 1968's nine million gallons not to be met, 3.65 million by the end of 1967.
     n: '[[w.macv-command-history-1967]], 411. To check: JCS to CINCPAC, 061846Z Jan 67, "COMUSMACV Herbicide Requirements"; CINCPAC to COMUSMACV, 082057Z Jan 67, "Status of Herbicides" (cited by [[w.macv-command-history-1967]], 411 n.123). Names: Westmoreland.'
     src:
@@ -773,15 +785,16 @@ entries:
     date: '1967-02-13'
     thread: vietnam-air-war
     c: Rolling Thunder resumes at 4 p.m. after the Tet stand-down, first set for 0700 Feb. 8 to 0700 Feb. 12, extended by the international political situation. Pacific Air Forces had urged Route Package 1 opened to strikes and left out of future truces.
-    n: '[[w.macv-command-history-1967]], 429. Check: the hour, the History''s "131600W."'
+    n: '[[w.macv-command-history-1967]], 429; [[w.cosmas-joint-chiefs-of-staff]], 17 (the resumption, a day after the Tet stand-down). Check: the hour, the History''s "131600W."'
     src:
       c: 85d128ab
       rows:
         - 'w.macv-command-history-1967 429: all'
+        - 'w.cosmas-joint-chiefs-of-staff 17: A'
   - id: cal.1967-02-13.vietnam-3
     when: Feb. 13
     date: '1967-02-13'
-    thread: vietnam
+    thread: vietnam-macv
     c: 'Court-martial jurisdiction over all civilians serving with or accompanying the American forces announced. Mar. 3, the Defense Department: it will not apply to newsmen.'
     n: '[[w.macv-command-history-1967]], 1259–60.'
     src:
@@ -827,7 +840,7 @@ entries:
     date: '1967-02-15'
     thread: open-housing
     c: 'Message on equal justice, the civil rights program of 1967. Discrimination in housing outlawed by stages: at once, housing under the order of 1962; in 1968, dwellings sold or rented by others than their occupants and buildings for five or more families; all housing in 1969. Crimes of violence against those exercising named rights made federal, with civil suits for the victims. Discrimination in choosing federal and State juries barred, the Attorney General to sue. The Equal Employment Opportunity Commission to issue enforceable cease-and-desist orders. The Civil Rights Commission extended five years.'
-    n: 'Special Message to the Congress on Equal Justice, [1967 Pub. Papers 184](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=252) (Feb. 15, 1967). To check: [[w.graham-civil-rights-era]]; [[w.zelizer-fierce-urgency-of-now]]. See [[cal.1966-09-14.open-housing]]; [[cal.1967-01-10.program]]. Names: Johnson.'
+    n: 'Special Message to the Congress on Equal Justice, [1967 Pub. Papers 184](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=252) (Feb. 15, 1967). To check: [[w.graham-civil-rights-era]]. See [[cal.1966-09-14.open-housing]]; [[cal.1967-01-10.program]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
   - id: cal.1967-02-15.vietnam-congress
     when: Feb. 15
@@ -888,6 +901,18 @@ entries:
       c: d489f933
       rows:
         - 'w.macv-command-history-1967 1259: all'
+  - id: cal.1967-02-15.economy
+    when: Feb. 15–16
+    date: '1967-02-15'
+    thread: economy
+    c: 'Ways and Means hearings on H.R. 3813, the tax extended: Fowler and Deming, Feb. 15; public witnesses, Feb. 16.'
+    n: 'Daily Digest, [113 Cong. Rec. D51](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=49); [113 Cong. Rec. D54](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=52). To check: the printed hearings. See [[cal.1967-01-25.economy]]. Names: Fowler, Deming.'
+    src:
+      c: be537ecd
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=49: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=52: all'
+    tags: [name:fowler-henry-h, name:deming-frederick-l]
   - id: cal.1967-02-16.consumers
     when: Feb. 16
     date: '1967-02-16'
@@ -898,7 +923,7 @@ entries:
   - id: cal.1967-02-16.vietnam-congress
     when: Feb. 16
     date: '1967-02-16'
-    thread: vietnam-congress
+    thread: vietnam-congress-armed-services
     also: [war-opposition]
     c: 'Stennis in the Senate on the march of Women Strike for Peace on the Pentagon the day before: the demonstrators "badly misguided and uninformed"; the march "plays into the hands of and provides tremendous propaganda ammunition for our enemies." The war to be fought to win.'
     n: '[113 Cong. Rec. 3665](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt3/pdf/GPO-CRECB-1967-pt3-5-2.pdf#page=38) (Senate, Feb. 16, 1967). [[w.gibbons-u-s-government-and]], IV, 554. To check: *New York Times*, Feb. 16, 1967 (cited by [[w.gibbons-u-s-government-and]], IV, 554 n.93, for the march). Names: Stennis.'
@@ -935,21 +960,22 @@ entries:
   - id: cal.1967-02-17.vietnam
     when: Feb. 17
     date: '1967-02-17'
-    thread: vietnam
-    also: [vietnam-air-war]
+    thread: vietnam-air-war
     c: 'Johnson with McNamara, Wheeler, Taylor and Rostow, 12:25 to 2:04 p.m., no one from State. Wheeler for bombing the steel and cement plants and the North''s power grid, 138,000 kilowatts: pressure on the economy and on Hanoi''s will, no major direct military effect. Johnson wants courses of action for Feb. 22.'
-    n: 'FRUS 1964–68, V, doc. [84](https://history.state.gov/historicaldocuments/frus1964-68v05/d84). [[w.gibbons-u-s-government-and]], IV, 558–60 (the hour; Wheeler''s cables to Sharp and Westmoreland, JCS 1284-67, Feb. 17, and of Feb. 18: "a new sense of urgency in the atmosphere"). To check: Wheeler to Sharp and Westmoreland, JCS 1337-67, Feb. 18, 1967, Westmoreland Papers, Message Files, CMH (cited by [[w.gibbons-u-s-government-and]], IV, 560 n.7). Made public: FRUS 1964–68, V (2002). Names: Johnson, McNamara, Wheeler, Taylor, Rostow.'
+    n: 'FRUS 1964–68, V, doc. [84](https://history.state.gov/historicaldocuments/frus1964-68v05/d84). [[w.gibbons-u-s-government-and]], IV, 558–60 (the hour; Wheeler''s cables to Sharp and Westmoreland, JCS 1284-67, Feb. 17, and of Feb. 18: "a new sense of urgency in the atmosphere"); [[w.cosmas-joint-chiefs-of-staff]], 18 (Wheeler for striking the power net, "even to the point of destroying the entire system"). To check: Wheeler to Sharp and Westmoreland, JCS 1337-67, Feb. 18, 1967, Westmoreland Papers, Message Files, CMH (cited by [[w.gibbons-u-s-government-and]], IV, 560 n.7). Made public: FRUS 1964–68, V (2002). Names: Johnson, McNamara, Wheeler, Taylor, Rostow.'
     src:
       c: 817e072a
       rows:
         - 'w.gibbons-u-s-government-and IV, 560: A-C'
         - 'via w.gibbons-u-s-government-and IV, 560 n.7: C'
         - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d84: all'
+        - 'w.cosmas-joint-chiefs-of-staff 18: B'
+        - 'via x.1967-02-18.wheeler-to-sharp-and-westmoreland-jcs: B'
     tags: [name:johnson-lyndon-b, name:mcnamara-robert-s, name:wheeler-earle, name:taylor-maxwell, name:rostow-walt-w]
   - id: cal.1967-02-17.vietnam-congress
     when: Feb. 17
     date: '1967-02-17'
-    thread: vietnam-congress
+    thread: vietnam-congress-republicans
     also: [republican-party-congress]
     c: 'Tower''s report to Russell on his trip to Vietnam, excerpts in the Record: "We are winning, but we can win much more rapidly by an intensification of military pressure." Every major military target to be bombed, steel mills and power plants among them; Haiphong closed; no more truces until the North shows it will keep them. He had spoken of it with Johnson the evening before.'
     n: '[113 Cong. Rec. 3815](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt3/pdf/GPO-CRECB-1967-pt3-6-1.pdf#page=76) (Senate, Feb. 17, 1967). [[w.gibbons-u-s-government-and]], IV, 550 (the report). Names: Tower, Russell, Johnson.'
@@ -1087,7 +1113,7 @@ entries:
   - id: cal.1967-02-20.vietnam-congress
     when: Feb. 20
     date: '1967-02-20'
-    thread: vietnam-congress
+    thread: vietnam-congress-foreign-relations
     c: 'Commager before the Foreign Relations Committee, "Changing American Attitudes Toward Foreign Policy": the war a mistake, supported by neither the SEATO Treaty nor the Tonkin Gulf resolution; turn it over to the United Nations. Of the intellectuals: no war "where the hostility was so deep or so widespread."'
     n: 'Daily Digest, [113 Cong. Rec. D57](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=55). [[w.gibbons-u-s-government-and]], IV, 582–83. To check: Senate Comm. on Foreign Relations, *Changing American Attitudes Toward Foreign Policy: Hearing*, 90th Cong., 1st Sess. (1967), 3–18, 47–48 (cited by [[w.gibbons-u-s-government-and]], IV, 582–83 nn.66–68). See [[cal.1967-01-30.vietnam-congress]].'
     src:
@@ -1176,7 +1202,7 @@ entries:
   - id: cal.1967-02-21.vietnam-congress
     when: Feb. 21
     date: '1967-02-21'
-    thread: vietnam-congress
+    thread: vietnam-congress-foreign-relations
     c: 'Gavin before the Foreign Relations Committee, "Conflicts Between United States Capabilities and Foreign Commitments," the last of the series: "What is now needed is a political solution"; against the bombing of the North; talks with Hồ and the NLF for a neutral, non-Communist Vietnam on the Laos model of 1962. "I am afraid that our society is going to be torn apart."'
     n: 'Daily Digest, [113 Cong. Rec. D59](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=57). [[w.gibbons-u-s-government-and]], IV, 583–84. To check: Senate Comm. on Foreign Relations, *Conflicts Between United States Capabilities and Foreign Commitments: Hearing*, 90th Cong., 1st Sess. (1967), 3–4, 25–27 (cited by [[w.gibbons-u-s-government-and]], IV, 583–84 nn.70–72). See [[cal.1967-01-30.vietnam-congress]]. Names: Gavin.'
     src:
@@ -1218,12 +1244,13 @@ entries:
     date: '1967-02-22'
     thread: vietnam-operations
     c: 'Junction City, in War Zone C, Tây Ninh Province, toward the Cambodian border, begins: the 1st and 25th Infantry Divisions and other units, against the Viet Cong''s headquarters for the South. A battalion of the 173rd Airborne Brigade parachutes in, the first American combat jump of the war (Check).'
-    n: '[[w.vietnam-victory-in-vietnam]], 198–99, 465 nn.30–32 (the operation, from Feb. 22, on the Dương Minh Châu base); [[w.frankum-like-rolling-thunder]], 70 (the operation, Feb. 22, War Zone C; the 173d''s parachute assault, "the first airborne assault since the Korean War"). To check: [[w.rogers-cedar-falls-junction-city]]. See [[cal.1967-01-08.vietnam]]. Check: *Victory in Vietnam* gives the attackers as 45,000 men, 11,000 vehicles and 600 aircraft; their losses 14,000 men, 112 guns, 775 tanks and armored vehicles, and 160 aircraft; the defenders'' dead 280 (198–99, 465 n.32).'
+    n: '[[w.vietnam-victory-in-vietnam]], 198–99, 465 nn.30–32 (the operation, from Feb. 22, on the Dương Minh Châu base); [[w.frankum-like-rolling-thunder]], 70 (the operation, Feb. 22, War Zone C; the 173d''s parachute assault, "the first airborne assault since the Korean War"); [[w.cosmas-joint-chiefs-of-staff]], 33 (36 American and South Vietnamese battalions; the 1st and 25th Divisions, the 173rd Airborne Brigade, two Vietnamese Marine battalions). To check: [[w.rogers-cedar-falls-junction-city]]. See [[cal.1967-01-08.vietnam]]. Check: *Victory in Vietnam* gives the attackers as 45,000 men, 11,000 vehicles and 600 aircraft; their losses 14,000 men, 112 guns, 775 tanks and armored vehicles, and 160 aircraft; the defenders'' dead 280 (198–99, 465 n.32).'
     src:
       c: 76ab72ff
       rows:
         - 'w.vietnam-victory-in-vietnam 198–99, 465 nn.30–32: A'
         - 'w.frankum-like-rolling-thunder 70: A-B'
+        - 'w.cosmas-joint-chiefs-of-staff 33: A'
     tags: [place:junction-city, place:war-zone-c]
     short: Junction City, its battles and its end
   - id: cal.1967-02-22.vietnam-2
@@ -1264,6 +1291,20 @@ entries:
     also: [draft, health]
     c: 'Gallup, Jan. 7–12: young women drafted for medical service, as young men are for war service, against a shortage of 500,000 nurses, aides and helpers: approve 34 percent, disapprove 58. Those 21 to 29: 27 and 70.'
     n: '[[w.gallup-poll]], III, 2051–52.'
+  - id: cal.1967-02-22.vietnam-air-war
+    when: Feb. 22
+    date: '1967-02-22'
+    thread: vietnam-air-war
+    c: Johnson, accepting the Joint Chiefs' recommendation of Dec. 8, 1966, asks Thailand's approval to base B-52s at U Tapao, within 400 miles of their targets, against 2,600 from Guam.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 32. To check: CINCPAC Command History, 1967, Vol. II, pp. 685-694 (cited by [[w.cosmas-joint-chiefs-of-staff]], 32 n.7); Bangkok 11165 to State, 2 Mar 67, JCS IN 41885 (cited by [[w.cosmas-joint-chiefs-of-staff]], 32 n.7); JCS 7903 to CINCPAC and CINCSAC, 2 Mar 67, JMF 9158 (24 May 66), sec. 5 (cited by [[w.cosmas-joint-chiefs-of-staff]], 32 n.7). Names: Johnson.'
+    src:
+      c: f0faf25b
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 32: all'
+        - 'via x.1967.cincpac-command-history-1967-vol-ii-pp: all'
+        - 'via x.1967-03-02.bangkok-11165-to-state-2-mar-67: all'
+        - 'via x.1967-03-02.jcs-7903-to-cincpac-and-cincsac-2: all'
+    tags: [name:johnson-lyndon-b]
   - id: cal.1967-02-23.congress-powell
     when: Feb. 23
     date: '1967-02-23'
@@ -1332,18 +1373,31 @@ entries:
   - id: cal.1967-02-23.vietnam
     when: Feb. 23
     date: '1967-02-23'
-    thread: vietnam
-    also: [vietnam-air-war]
+    thread: vietnam-air-war
     c: The Joint Chiefs authorize wider interdiction of North Vietnam's supply and infiltration network. Sea Dragon extended north to 20 degrees; naval surface operations against targets ashore and in the coastal waters, radars, antiaircraft sites and other military targets.
-    n: '[[w.macv-command-history-1967]], 496. See [[cal.1967-02.vietnam-2]].'
+    n: '[[w.macv-command-history-1967]], 496; [[w.cosmas-joint-chiefs-of-staff]], 19 (Sea Dragon to 20 degrees, with Rolling Thunder 54). See [[cal.1967-02.vietnam-2]].'
     src:
       c: 94cd7603
       rows:
         - 'w.macv-command-history-1967 496: all'
+        - 'w.cosmas-joint-chiefs-of-staff 19: B'
+  - id: cal.1967-02-23.vietnam-air-war
+    when: Feb. 23
+    date: '1967-02-23'
+    thread: vietnam-air-war
+    c: Rolling Thunder 54 approved, ten days after the resumption. Five new targets, four thermal power plants and the Thái Nguyên steel plant, and the targets of 53 not yet struck, six of nine; sorties a month from 13,200 to 14,500. Three more power plants, the Hanoi transformer station and the Haiphong cement plant, asked by the Joint Chiefs, refused.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 18–19. With it Sea Dragon to the 20th parallel, the mining of inland waterways, naval gunfire on shore targets, and artillery from the South at targets north of the DMZ (19): [[cal.1967-02-23.vietnam]]. Check: Cosmas dates the approval Feb. 22 at 35; the execute message, JCS 6955, is of 230308Z Feb. 67. To check: JCS 6955 to CINCPAC, 230308Z Feb 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 18 n.6); Memo, J-3 to CJCS, ROLLING THUNDER with draft execute message, 21 Feb 67, same file (cited by [[w.cosmas-joint-chiefs-of-staff]], 18 n.6). Names: Johnson.'
+    src:
+      c: 941047fc
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 18–19: all'
+        - 'via x.1967-02-23.jcs-6955-to-cincpac-230308z-feb-67: all'
+        - 'via x.1967-02-21.memo-j-3-to-cjcs-rolling-thunder: all'
+    tags: [name:johnson-lyndon-b]
   - id: cal.1967-02-24.vietnam-congress
     when: Feb. 24
     date: '1967-02-24'
-    thread: vietnam-congress
+    thread: vietnam-congress-foreign-relations
     c: 'Marcy to Fulbright: to keep "the initiative of influence," invite witnesses who disagree, McCone, McGeorge Bundy, LeMay, Shoup; a committee trip to Tokyo, Hong Kong, Saigon and Bangkok; a declaration of the minimum terms of a settlement, his draft attached, the bombing to cease. None done; instead four coffees for interested Senators at the committee''s offices.'
     n: '[[w.gibbons-u-s-government-and]], IV, 584–85 (and Fulbright''s account of the coffees, CRS interview, Feb. 18, 1983). To check: Marcy to Fulbright, Feb. 24, 1967, with the draft declaration, RG 46, Marcy Chron File, National Archives (cited by [[w.gibbons-u-s-government-and]], IV, 584 nn.74, 76). Names: Marcy, Fulbright, McCone, McGeorge Bundy, LeMay, Shoup.'
     src:
@@ -1358,7 +1412,7 @@ entries:
   - id: cal.1967-02-24.vietnam-congress-2
     when: Feb. 24
     date: '1967-02-24'
-    thread: vietnam-congress
+    thread: vietnam-congress-armed-services
     c: 'Jackson in the Senate for the bombing of the North: it "demonstrates that the Soviet Union cannot prevent the United States from bombing a brother Communist state"; one of the few "bargaining levers" the United States holds.'
     n: 'Jackson''s speech, [113 Cong. Rec. 4444 (1967)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt4/pdf/GPO-CRECB-1967-pt4-2-1.pdf#page=22) (Senate, Feb. 24, 1967). [[w.palermo-in-his-own-right]], 55. Names: Jackson.'
     src:
@@ -1435,6 +1489,32 @@ entries:
       rows:
         - 'w.macv-command-history-1967 486–87: all'
     tags: [name:sharp-u-s-grant, name:westmoreland-william]
+  - id: cal.1967-02-25.vietnam-operations-2
+    when: Feb. 25–28
+    date: '1967-02-25'
+    thread: vietnam-operations
+    c: Westmoreland authorizes III MAF to fire on artillery north of the DMZ, under Johnson's authority for artillery and naval gunfire on North Vietnamese weapons firing from beyond the line. From Feb. 25, four days, the Marines fire 2,171 rounds north of the demarcation line.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 35–36. In March, nine attacks on the Marine artillery positions; a two-battalion assault on the firebases thrown back; more than 500 bodies counted around Camp Carroll, Cam Lộ, Cồn Tiên and Gio Linh (36). To check: JCS 1422-67 and JCS 6957 to CINCPAC, 22 and 23 Feb 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 36 n.13); FMFPAC, Operations of US Marine Forces Vietnam, April 67, pp. 17-21, OCJCS File 091 Vietnam Jun 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 36 n.13). Names: Westmoreland.'
+    src:
+      c: 256f432c
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 35–36: all'
+        - 'via x.1967-02-23.wheeler-to-sharp-and-westmoreland-jcs: all'
+        - 'via x.1967-04.fmfpac-operations-of-us-marine-forces-vietnam: all'
+    tags: [name:westmoreland-william, place:gio-linh, place:con-thien, place:camp-carroll]
+  - id: cal.1967-02-25.laos
+    when: Feb. 25
+    date: '1967-02-25'
+    thread: laos
+    c: The Joint Chiefs widen Shining Brass's zone, the cross-border forays into Laos by teams of irregulars under Special Forces, to more of eastern Laos. Renamed Prairie Fire from Mar. 1.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 98. In 1967 an average of 3,219 attack sorties a month in the Steel Tiger and Tiger Hound areas (98). To check: CINCPAC Command History, 1967, II, pp. 741-745 (cited by [[w.cosmas-joint-chiefs-of-staff]], 98 n.28); JCS 7248 to CINCPAC, 251907Z Feb 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 98 n.28); JCS 6319 to CINCSAC et al., 142123Z Feb 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 98 n.28).'
+    src:
+      c: 4491c2c1
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 98: all'
+        - 'via x.1967.cincpac-command-history-1967-ii-pp-741: all'
+        - 'via x.1967-02-25.jcs-7248-to-cincpac-251907z-feb-67: all'
+        - 'via x.1967-02-14.jcs-6319-to-cincsac-et-al-142123z: all'
   - id: cal.1967-02-26.opinion
     when: Feb. 26
     date: '1967-02-26'
@@ -1488,7 +1568,7 @@ entries:
   - id: cal.1967-02-27.vietnam
     when: Feb. 27
     date: '1967-02-27'
-    thread: vietnam
+    thread: vietnam-air-war
     c: 'News conference. Reported from Saigon over the weekend: naval gunfire against the North''s coast, mines in its rivers, long-range artillery fire into the North. Johnson: activity "that we would not say has been normal through the past weeks"; no recognition of a failure of diplomacy, "None whatever."'
     n: 'The President''s News Conference, [1967 Pub. Papers 219](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=287) (Feb. 27, 1967). [[w.gibbons-u-s-government-and]], IV, 568 (not the question of diplomacy); [[w.macv-command-history-1967]], 496–97 (the Joint Chiefs'' authority of Feb. 23 for naval surface operations against targets ashore; the first minefield laid Feb. 26, announced to newsmen Feb. 27). See [[cal.1967-02-22.vietnam-2]]. Names: Johnson.'
     src:
@@ -1566,7 +1646,7 @@ entries:
   - id: cal.1967-02-27.vietnam-3
     when: Feb. 27
     date: '1967-02-27'
-    thread: vietnam
+    thread: vietnam-diplomacy
     c: The ambassadors of the seven Manila Conference nations meet in Saigon.
     n: '[[w.macv-command-history-1967]], 1260.'
     src:
@@ -1613,6 +1693,19 @@ entries:
         - 'via w.zelizer-fierce-urgency-of-now 272 n.16a: all'
         - 'via w.zelizer-fierce-urgency-of-now 272 n.16b: all'
     tags: [name:harris-louis, ok:result-form]
+  - id: cal.1967-02-27.economy
+    when: Feb. 27
+    date: '1967-02-27'
+    thread: economy
+    c: Ways and Means orders reported H.R. 6098, the extension, after executive sessions Feb. 20–23.
+    n: Daily Digest, [113 Cong. Rec. D58](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=56); [113 Cong. Rec. D61](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=59); [113 Cong. Rec. D64](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=62); [113 Cong. Rec. D68](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=66). See [[cal.1967-02-15.economy]].
+    src:
+      c: b60a84a6
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=56: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=59: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=62: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=66: all'
   - id: cal.1967-02-28.court
     when: Feb. 28
     date: '1967-02-28'
@@ -1725,7 +1818,7 @@ entries:
   - id: cal.1967-02.vietnam-congress
     when: Feb.
     date: 1967-02
-    thread: vietnam-congress
+    thread: vietnam-congress-foreign-relations
     also: [vietnam]
     c: 'Johnson to Fulbright, at a White House function, of Ashmore and Baggs and their report from Hanoi: "You know, Bill, I can''t see everybody that goes over there and talks to Ho Chi Minh."'
     n: '[[w.mann-grand-delusion]], 529. Check: the day; Mann has Ashmore and Baggs a month without word after their report. To check: [[w.miller-lyndon]], 472–76 (cited by [[w.mann-grand-delusion]], 529 n.26). See [[cal.1967-01-12.vietnam]]. Names: Johnson, Fulbright, Ashmore, Baggs.'
@@ -1737,7 +1830,7 @@ entries:
   - id: cal.1967-02.vietnam-congress-2
     when: Feb.
     date: 1967-02
-    thread: vietnam-congress
+    thread: vietnam-congress-foreign-relations
     also: [vietnam]
     c: 'At the State Department, Fulbright with Ashmore and Baggs, Katzenbach, Harriman and William Bundy, on the report from Hanoi. By Ashmore''s account, Fulbright: "All you guys are committed to a military settlement. You don''t want to negotiate." The officials help draft a letter from Ashmore and Baggs to Hồ Chí Minh.'
     n: '[[w.mann-grand-delusion]], 529 (Ashmore''s account). Check: the day; Mann sets the meeting "within days" of Johnson''s remark, the letter to Hồ about the time of Johnson''s of Feb. 8. To check: [[w.miller-lyndon]], 472–76 (cited by [[w.mann-grand-delusion]], 529 n.26); [[w.ashmore-mission-to-hanoi]]. See [[cal.1967-02.vietnam-congress]]. Names: Fulbright, Ashmore, Baggs, Katzenbach, Harriman, William Bundy, Hồ Chí Minh.'
@@ -1788,7 +1881,7 @@ entries:
   - id: cal.1967-02.vietnam-2
     when: Feb.
     date: 1967-02
-    thread: vietnam
+    thread: vietnam-macv
     c: Pre-emptive fire into the DMZ approved, on Westmoreland's pleas.
     n: '[[w.westmoreland-soldier-reports]], 196, 201; [[w.macv-command-history-1967]], 353, 357 (the Joint Chiefs'' authority, late February: artillery from South Vietnam against military targets in the DMZ and in North Vietnam above it; Westmoreland''s, Feb. 23; in five days some 74 105mm howitzer and 116 175mm gun missions; naval gunfire allowed between 17 and 20 degrees north). Check: the day. Names: Westmoreland.'
     src:
@@ -1879,7 +1972,7 @@ entries:
   - id: cal.1967-02.vietnam-congress-3
     when: Feb., late
     date: 1967-02
-    thread: vietnam-congress
+    thread: vietnam-congress-foreign-relations
     c: Saigon. At a rally, militant Catholic youths burn Fulbright and others in effigy. South Vietnam's ambassador delivers an official protest of Fulbright's charge.
     n: '[[w.woods-j-william-fulbright-vietnam]], 157. Check: the days. To check: "Fulbright, Others Burned in Effigy at Rally in Saigon," *Arkansas Gazette*, Feb. 26, 1967; Fulbright to Trần Văn Đỗ, Mar. 3, 1967, Fulbright Papers (SPF), series 48:18, box 53:4, University of Arkansas (cited by [[w.woods-j-william-fulbright-vietnam]], 157 n.26). See [[cal.1967-01-22.vietnam-congress]]. Names: Fulbright.'
     src:
@@ -1918,11 +2011,12 @@ entries:
     date: '1967-02-28'
     thread: vietnam-operations
     c: Junction City. The 1st Battalion, 16th Infantry, engages an enemy battalion from noon to near midnight; 167 of the enemy left dead, 21 Americans killed, 29 wounded.
-    n: '[[w.macv-command-history-1967]], 388. See [[cal.1967-02-22.vietnam]].'
+    n: '[[w.macv-command-history-1967]], 388; [[w.cosmas-joint-chiefs-of-staff]], 33 (an enemy battalion against a company of the 3rd Brigade, 1st Division; 167 dead left). See [[cal.1967-02-22.vietnam]].'
     src:
       c: ebf6abeb
       rows:
         - 'w.macv-command-history-1967 388: all'
+        - 'w.cosmas-joint-chiefs-of-staff 33: A'
     tags: [province:tay-ninh, place:war-zone-c]
   - id: cal.1967-02-28.vietnam-air-war
     when: Feb. 28

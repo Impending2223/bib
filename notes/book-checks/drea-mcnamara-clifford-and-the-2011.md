@@ -56,7 +56,7 @@ Dated meetings, memoranda and messages Drea gives that the calendar lacked, each
 
 ## Passed over
 
-Dated events of Jan. 6, 1960–Jan. 20, 1969 on the pages read for this pass that the calendar does not take, a row each, for the owner to rule on. The pages read are those the calendar cites, not the volume cover to cover; the operational narrative (single actions, unit moves, casualty counts) is passed over as minor and not listed event by event. "To leads": in the brief, worth an entry, its record not read in this pass.
+Dated events of Jan. 6, 1960–Jan. 20, 1969 on the pages read for this pass that the calendar does not take, a row each, for the owner to rule on. The first pass read the pages the calendar cites; the military re-read of Nov. 5, 2026 (below) read chapters XI, XVI (pp. 437–49) and XVIII whole and entered their operations, and lists here row by row what it did not enter. The chapters not yet re-read are named below. "To leads": in the brief, worth an entry, its record not read in this pass.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -107,6 +107,64 @@ Dated events of Jan. 6, 1960–Jan. 20, 1969 on the pages read for this pass tha
 | 409 | July 8, Aug. 23, 1966 | the Chiefs against further cuts in Europe; McNamara asks again | to leads |
 | 453 | Nov. 7, 1968 | Rusk and Clifford with Johnson on the Phantoms and Israel's nuclear weapons | to leads |
 | 453 | Dec. 11, 20, 21, 1968 | Wheeler on the F-4 deliveries; Warnke to the Israelis; Clifford to Johnson | to leads |
-| 484 | Jan. 21, Apr. 7, 1966 | Palomares: the Air Force's statement; the bomb recovered | to leads |
-| 485 | Jan. 22, 1968 | the Defense Department's statement on the Thule crash | minor (cal.1968-01-21.defense) |
+| 484 | Jan. 21, Mar. 15, Apr. 7, 1966 | Palomares: the Air Force's statement; the bomb found; the bomb recovered | entered (cal.1966-01-21.defense, 1966-03-15, 1966-04-07) |
+| 485 | Jan. 22, 1968 | the Defense Department's statement on the Thule crash | entered (cal.1968-01-22.defense-thule) |
 | 331, 338 | Mar. 13, 1969; 1970; 1972 | the Senate's consent to the NPT and its entry into force; the seabed treaty | after the calendar's span |
+| 292 | Apr. 25, 1965, afternoon | Johnson with his civilian advisers on Santo Domingo | lead (the meeting's record; Johnson, *Vantage Point*, 190–91) |
+| 294–95 | Apr. 28, 1965, night | Johnson's call to Bennett, gunfire heard; his later tellings of it | lead (the call's record; Drea's note on 294) |
+| 297–98 | Apr. 30, 1965 | Johnson dispatches John Bartlow Martin | lead (cal.1965-04-30.latin-america-dominican-republic has Martin's account) |
+| 298 | May 1–2, 1965 | the CIA's two lists of 58 communists, released | lead (the lists' day of release) |
+| 300 | Apr. 30, 1965 | Wheeler sends Palmer: "Your unstated mission is to prevent the Dominican Republic from going communist" | lead (Palmer's account; the cable's day) |
+| 301 | Apr. 30, 1965 | the new reporting system to McNamara takes effect | minor (a staff arrangement with nothing new) |
+| 305 | May 6, 1965 | McNamara, at Bundy's committee, for withdrawing some forces | lead (the committee's action memo, 305 n.55) |
+| 306 | May 10–12, 1965 | the Chiefs ask the commanders' estimate; State and Defense ask a plan to clear the northern sector | lead (msgs of May 11–12, 306 nn.58–59) |
+| 308 | May 14, 1965 | Johnson names Vance and Bundy his emissaries | already in (cal.1965-05-15.latin-america) |
+| 309 | May 18, 1965 | the officials in Santo Domingo recommend interposing American forces | lead (Santo Domingo's cables of May 18) |
+| 310 | May 22, June 2, 1965 | the OAS asks Brazil to name the force's commander; the IAF renamed | in cal.1965-05-23.latin-america-dominican-republic |
+| 312 | June 9–12, 22, July 3, 1965 | the talks on 1,500 more troops out; Vance's query of June 22; Johnson announces the next reduction | lead (the Public Papers for July 3; JCSM-476-65) |
+| 313 | Apr.–Sept. 1966 | the 82d's rotation; the last American troops out by late September 1966 | lead (the month; the JCS's records) |
+| 313 | July 15, 1966 | the 196th Infantry Brigade sails from Boston for Vietnam | lead (the USCONARC summary, 313 n.*) |
+| 437 | May 31, 1967 | Vance and McNamara on the President's request for Sixth Fleet recommendations | lead (cal.1967-05-31.middle-east-six-day-war, pending, holds the *Intrepid*) |
+| 438 | June 2, 1967 | the Chiefs' longer-range scenario for naval action; ISA for a political settlement | lead (R8: the papers, 438–39 n.47) |
+| 439 | June 2, 1967 | the British delegation with McNamara and Rusk | already in (cal.1967-06-02.middle-east, Wilson's visit) |
+| 440 | June 4, 1967 | the Control Group from late morning into the evening, with Rusk and McNamara | lead (the group's record) |
+| 443 | June 3 (6?), 1967 | Defense's denial; Radio Cairo's charge that American and British carriers' planes struck | lead (Drea prints "3 June"; Check the day) |
+| 444 | June 9, 1967 | the Defense Fuel Supply Center's month of POL bought or reallocated | lead (R14, logistics: the contracts' record) |
+| 448 | June 12, 1967 | some 140 Soviet transports and 78 jets to the UAR or Iraq | lead (the CIA's count, 448 n.82) |
+| 483 | June 30, 1968 | another accident (the sentence runs over the page; not read) | lead (p. 484's first line; the image) |
+| 486 | Jan. 27, 1968 | State tells the Danish ambassador no weapons stored, no overflights | already in (cal.1968-01-27.defense-thule) |
+| 488 | Jan. 24–25, 1968 | McNamara's show of force, the call-up, the Black Shield flight, 303 aircraft | already in (cal.1968-01-24.japan-and-korea-pueblo-2, cal.1968-01-25.japan-and-korea) |
+| 489 | Jan. 26, 1968 | the Security Council convenes on the *Pueblo* | lead (the Council's record) |
+| 491 | Dec. 23, 1968 | the apology signed at Panmunjom | already in (cal.1968-12-22.japan-and-korea) |
+| 492 | Jan. 23, Feb. 7, 1968 | State's instructions at Panmunjom; Johnson's letter to Park | lead (FRUS 1964–68, XXIX, pt. 1) |
+| 494–95 | Dec. 1967–Mar. 1968 | Park's light division for Vietnam; the offer of more troops by Mar. 1 | lead (the National Assembly's vote) |
+| 495 | Mar. 22, 1968 | Novotný resigns | lead (R10: the Czechoslovak record; cal.1968-03 under Soviet Union) |
+| 497 | Aug. 5, 1968 | Clifford thinks the Czechoslovak crisis past | a passed-over paper (private remarks) |
+| 497 | Aug. 19, 1968 | Dobrynin to Rusk: the Soviets ready to talk on missiles, a summit to be announced Aug. 21 | already in (cal.1968-08-15.testing-missile-talks; the talks' thread) |
+| 498 | Aug. 22–23, 1968 | the Cabinet on Czechoslovakia; Clifford in the Cabinet Room | already in (cal.1968-08-23.soviet-union-czechoslovakia) |
+| 499 | Aug. 31, 1968 | Dobrynin at Rusk's home: no Soviet move on Romania | in cal.1968-09-04.soviet-union-czechoslovakia |
+| 501 | June 1968 | Harlan Cleveland against cutting the small units in NATO | lead (USNATO's cables, 501 n.60) |
+| 503 | Aug. 21, 1968 | the Chiefs ask REFORGER I put off | in cal.1968-08-17.europe-and-the-alliance |
+| 504 | Sept. 2 and 12, 1968 | Rusk and Clifford on the rotation and REDCOSTE | lead (the letters, 504 n.64) |
+| 505 | Jan.–Feb. 1969 | REFORGER/CRESTED CAP | out of the brief (after Jan. 20, 1969, the exercise's dates) |
+
+## The military re-read (Nov. 5, 2026)
+
+The brief `notes/briefs/military-reread.md` (R14). The copy as before (DTIC_ADA552481, archive.org): the text by its hOCR split by leaf, each folio set by the offsets above (leaf − 17, − 29, − 45), checked by the running heads (23 of 696 pages without a number in the head, by plates and chapter openings); the notes by "Notes to Pages" and number, the OCR's note numbers matched to their passages by content. Read whole for this run: ch. XI, "Another Cuba?" (289–315); ch. XVI, pp. 437–49 (the war and the *Liberty*); ch. XVIII, "Year of Crises" (483–507). The dated mentions in every chapter were listed by script for the next run. Every page cited was OCR'd again from its page image and its dates and figures matched.
+
+Not yet re-read (stopped at a clean point): chs. II, III, V, VII and VIII (the ground and air war in Vietnam, Khe Sanh and Tet), X (the home front: the March on the Pentagon, the 1968 riots and the troops sent), and the rest of XVI (pp. 424–36, 449–54). The calendar's entries there were held up in the first pass; their operations are the next run's.
+
+Patch `inbox/2026-11-04-mil-drea.yaml`: 43 new entries, 10 cites. The Dominican Republic: Apr. 26, 27, 29 (the 7:30 p.m. meeting), 30 (two), May 1 (two), 2 (two), 13, 15, 16, 23, 26; cites on the entries another reader has pending from Poole (Apr. 25, 29, May 3, 19, 27) and on Apr. 30, June 1 and 15. Defense: Palomares, Jan. 21, Mar. 15, Apr. 7, 1966; the accidents of Jan. 11, 12 and Feb. 11, 1968. Thule: Jan. 22 (two), 26, 29, May 31, 1968. The *Pueblo*: the F-105s, Jan. 23; the advisory group, Jan. 29; Johnson to Kosygin, Feb. 5; a cite on the aircraft movements, Jan. 28 (Poole's). The Six-Day War: the *Liberty*'s orders, June 1; the Special Committee, June 7, 9; McNamara's rules on arms, June 8; the hot line and the Sixth Fleet, June 10 (two); June 16. Czechoslovakia: the Warsaw Pact exercises, June 19–30; the CIA's estimate, Aug. 10; the 590th NSC, Sept. 4, 1968. REDCOSTE: March, June 6, Aug. 17, Sept. 18, Dec. 10, 1968.
+
+Witnesses: `inbox/witnesses/2026-11-04-mil-drea.yaml`, 35; the edges in `sources/witnesses/by-work/drea-mcnamara-clifford-and-the-2011.yaml`. Read: FRUS 1964–68, XII, doc. 22; XVII, doc. 93; XIX, docs. 197, 225, 243, 253; XXIX, pt. 1, docs. 242, 268; XXXII, docs. 41, 99 (McNamara's buildup memorandum of May 26, 1965, cited first on four Dominican entries). Not read: the JCS's and the embassy's messages, the WSEG study, OSD's files, the LBJ Library's NSC History (closed or not found open), each in its entry's "To check:".
+
+## Leads
+
+Foreign
+- The Dominican intervention: Johnson's announcement of July 3, 1965 (the Public Papers); the last troops out, September 1966 (the JCS's records); the 196th Infantry Brigade from Boston for Vietnam, July 15, 1966 (USCONARC's summary, Drea 313 n.*).
+- Radio Cairo's charge of American and British air strikes, June 1967: Drea prints the denial "3 June"; the day, from the Bulletin or FRUS 1964–68, XIX.
+- The Soviet airlift to the UAR and Iraq by June 12, 1967 (Drea 448 n.82): the CIA's count.
+- Novotný's resignation, Mar. 22, 1968 (Drea 495).
+
+National
+- The accidents of 1968 Drea lists (483): the Marine transport in Nevada, Jan. 11; the SR-71, Jan. 12; the trainer into the Bay Bridge, Feb. 11; another June 30 (the sentence runs onto the next page, not read).

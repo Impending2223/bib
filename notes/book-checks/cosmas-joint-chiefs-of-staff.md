@@ -50,7 +50,7 @@ Entries mapped: 37; records logged: 65 (found and read 13, found and not read or
 
 ## Passed over
 
-Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and the calendar does not take, a row each, for the owner to rule on. Method: every dated mention on the pages read for the entries (not the whole volume) was found by pattern; a mention on a day the calendar holds an entry of a related thread (Vietnam, Laos, Defense, Cuba, Berlin, Korea, the alliance, the Middle East and the like) was taken as already in and is not listed; the rest were read and ruled here, the calendar checked by day where the ruling says "already in". Operational detail (single missions, sorties, losses, unit moves) is passed over as minor throughout.
+Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and the calendar does not take, a row each, for the owner to rule on. Method: every dated mention on the pages read for the entries (not the whole volume) was found by pattern; a mention on a day the calendar holds an entry of a related thread (Vietnam, Laos, Defense, Cuba, Berlin, Korea, the alliance, the Middle East and the like) was taken as already in and is not listed; the rest were read and ruled here, the calendar checked by day where the ruling says "already in". (The sentence that stood here, passing over operational detail as a class, is struck: the military re-read below, R14 and R48.)
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -77,3 +77,86 @@ Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and
 | 216 | July 30, Aug. 2, 1968 | Johnson with Wheeler on bombing to the 20th if the enemy attacks | lead |
 | 216 | Aug. 12, 1968 | McConnell to Clifford: Abrams expects an offensive about Aug. 15 | minor |
 | 243 | Nov. 1 and 30, 1968 | Sea Lords; Speedy Express | lead: operations |
+
+## The military re-read (Nov. 4–5, 2026)
+
+The owner's ruling of Oct. 30 (R14, R48; `notes/briefs/military-reread.md`). Copy: DTIC_ADA517916 on archive.org, its PDF's own text layer (`pdftotext -layout`, the PDF deleted at once), page by page: printed folio = PDF page − 13 throughout (pp. 8, 103, 308 checked), archive.org leaf = folio + 12; p. 81 read off the page image against the text (the words and note numbers 34–36 agree). Notes, pp. 263–295; the index from p. 297.
+
+How the volume was read: every sentence of pp. 1–255 that carries a date to the day, a month or a season was pulled out by pattern (869 sentences) and read; for each military operation, action, incident, deployment, order, directive, logistic decision, commander's message and estimate (R8, R14), the whole page was read, and the calendar searched by day in every thread (`./bib ledger find`), the cards' entries and the ledger. Policy debates already mapped by the run of Oct. 29 were not re-read. Patch `inbox/2026-11-04-mil-cosmas-pt3.yaml` (219 ops): 83 new entries (claimed in the ledger), 42 cites to entries in the tree with their units (a parenthetical where the page bears out part), Checks where Cosmas differs. Witnesses: each cited page's note, its records one a row (278 new, `inbox/witnesses/2026-11-04-mil-cosmas-pt3.yaml`; 316 edges in `sources/witnesses/by-work/cosmas-joint-chiefs-of-staff.yaml`), tied to the units by `via` rows, the unread joining "To check:". The JCS files (JMF, OCJCS), the NMCC's summaries and the commands' messages are not open (`open: not held`). Secondary works in the notes are edges to their cards where the catalogue holds them (MacGarrigle, *Victory in Vietnam*, MACV's History of 1967), else not logged.
+
+New entries, by kind: the air war over the North, Rolling Thunder 52 to the halt (Rolling Thunder 52, 54, 56, 57; the Haiphong and Hanoi power plants; Kép and Hòa Lạc; the buffer zone, Cẩm Phả, the Haiphong rings, Phúc Yên, the Doumer bridge, the MK-36; the suspensions of Jan. 3 and 16, 1968; the execute order of Mar. 30, 1968; Goulding; Lai Châu; the B-52 rates and U Tapao, 1967–68); the ground war (the artillery north of the DMZ, Feb. 25, 1967; North Carolina; Cồn Tiên, May 8; the Mobile Riverine Force, July 29; Greene's and Westmoreland's DMZ papers, Sept. 21–27; the strongpoint system's delay; Daniel Boone; Shining Brass widened; IV Corps, Mar. 6, 1968; the rockets on Saigon; the Military Governor; MACV Forward; Khe Sanh, Feb. 23; the DMZ after the halt; Sea Lords, Speedy Express; the 1st Cavalry to III Corps; AB 144); the barrier papers of April–June 1967; the allies' forces (Thailand, New Zealand); the logistic base (AID's cargoes, the common supply system); South Vietnam's forces (the 685,739, the M-16s, 717,214, 801,215).
+
+### Rulings of this run
+
+| Entry | Ruling | The volume |
+|---|---|---|
+| `cal.1967-01-26.vietnam-operations` | partial; figures differ | Cosmas, 33: 720 of the enemy killed, 200 captured; the entry has nearly 750 and 280 prisoners. Check added. |
+| `cal.1967-05-14.vietnam-operations` | date differs | Cosmas, 34, has Junction City ended Apr. 15 (2,700 counted dead, 282 allied killed); the entry, May 14. Check added; not cited. |
+| `cal.1967-05-22.vietnam-air-war` | partial; date | Cosmas, 25: Johnson's withdrawal of authority May 21, McNamara's directive May 22. Check added. |
+| `cal.1967-10-24.vietnam-air-war` | partial; figure differs | Cosmas, 81: three MiGs destroyed, three damaged; the entry, ten. Check added. |
+| `cal.1967-11-06.vietnam-force-levels` | partial | Cosmas, 95: Resor had asked both units sent by air; the entry has the brigade by sea. The approval of Nov. 6 cited only. |
+| `cal.1967-12-19.vietnam-4` | partial; date | Cosmas, 136: the stand-down rules promulgated Dec. 15. Check added. |
+| `cal.1968-01-27.vietnam-tet-2` | partial; date | Cosmas, 136: the Viet Cong's ceasefires announced in mid-November, Tet to Feb. 2. Check added. |
+| `cal.1968-03-08.vietnam-khe-sanh` | partial; date | Cosmas, 147: Provisional Corps announced in mid-February. Check added. |
+| `cal.1968-06-24.vietnam-air-war` | partial; date | Cosmas, 212: Turnpike discontinued June 15. Check added. |
+| `cal.1968-11-01.vietnam-air-war` | figure differs | Cosmas, 241: 263 armed reconnaissance and 48 strike sorties Nov. 1; the entry, 346 attack sorties. Check added. |
+| `cal.1968-11-05.vietnam` | date differs | Cosmas, 194: Nitze's approval of the 850,000 Nov. 1. Check added. |
+| `cal.1967-02-23.vietnam-air-war` (new) | his dates differ | Rolling Thunder 54 approved Feb. 23 (18), Feb. 22 (35). Check in the entry. |
+| `cal.1966-11-11.vietnam-air-war` (new) | dates differ | Cosmas: Rolling Thunder 52 approved Nov. 11; FRUS's editorial note, the targets near Hanoi authorized Nov. 10. Check in the entry. |
+| `cal.1967-04-07.vietnam-force-levels` (new) | dates differ | Cosmas: North Carolina put into effect Apr. 7; MACV's History, the order of Apr. 12. Check in the entry. |
+
+### Passed over (the military re-read)
+
+Every dated military event of pp. 1–255 that the patch neither enters nor cites, a row each. Non-military dated events on pages this run did not cite (the diplomacy of Marigold, Sunflower and Paris, the force-level debate, pacification) were not listed here: what is left of them is under "Leads" as unread for this run.
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 19 | Mar. 6, 1967 | Wheeler cautions CINCPAC and COMUSMACV against repeated strikes on high-value targets | minor: a repetition of the position entered Feb. 23 |
+| 21 | late Apr. 1967 | 183 sorties in eight days against nine of RT 55's ten targets | already in under cal.1967-04-22.vietnam-air-war (the program); the figure undated |
+| 22 | late Apr. 1967 | Wheeler suggests Walleye for the Hanoi plant; Sharp does not concur | lead: dated only to late April |
+| 23 | May 19–21, 1967 | the bombing near Hanoi at its most intense | already in under cal.1967-05-19.vietnam-air-war |
+| 26 | June 17, 1967 | Wheeler refuses CINCPAC's request to strike five fertilizer plants | minor: a target request refused, the plants already without power |
+| 34 | Mar.–Apr. 1967 | three regimental attacks on American battalions in Junction City's second phase | already in under cal.1967-03-21.vietnam-operations (Suối Tre); the others undated here |
+| 36 | Mar. 1967 | nine attacks on the Marine artillery positions; a two-battalion assault on the firebases | already in under the new entry of Feb. 25 (its note) |
+| 37 | Apr. 27–28, 1967 | the enemy's fire-support and diversionary phases at Khe Sanh | already in under cal.1967-04-24.vietnam-operations |
+| 38 | early Jan. 1967 | the Joint Chiefs ask COMUSMACV and CINCPAC for barrier requirements plans | lead: dated only to early January |
+| 41 | Mar. 11, Apr. 3, 1967 | MACV's air-supported anti-infiltration plan forwarded to CINCPAC, then to the Chiefs | passed-over paper: transmittals |
+| 43 | late June 1967 | III MAF's barrier planning complete | lead: dated only to late June |
+| 77 | July 29, Aug. 3, 1967 | Sharp's buffer zone plan; Wheeler's reply; Sharp's list | passed-over paper: the preparation of the decision of Aug. 9 |
+| 79 | Aug. 3, 1967 | Sharp on the Air Force's plan to isolate Haiphong | passed-over paper: the preparation of Aug. 5–6 |
+| 80 | Sept. 16, 1967 | MiGs down an American plane; eleven MiG-21s at Phúc Yên | lead: a single loss, its record not found |
+| 81 | Oct. 4, 1967 | Wheeler's appeal for Phúc Yên refused | already in under the new entry of Oct. 6 |
+| 81 | Oct. 17, 1967 | another target near Haiphong authorized, bombed five days later | already in under the new entry of Oct. 6 |
+| 83 | Aug., Dec. 1967 | Route Package VI's share of the sorties, 25 percent of 11,744; 14 percent of 5,758 | already in: figures, in the note of the new entry of Nov. 8 |
+| 84 | end of Mar. 1968 | Sharp's assessment: 331 of 372 targets struck, 245 destroyed | lead: dated only to the end of March |
+| 86 | Jan. 31, 1968 | the Joint Chiefs to McNamara on the bombing's "heavy and accumulating pressure" | lead: the paper not checked against the calendar's Tet entries |
+| 88 | to end Sept. 1967 | Paul Bunyan: 75,000 acres cleared | lead: no day |
+| 90 | Sept. 1967 | the enemy pushes down on Tuy Hòa and Phú Yên; the allies counterattack | lead: dated only to September |
+| 94 | Oct. 1, 1967 | Sharp concurs in Westmoreland's assessments and requests | passed-over paper: a concurrence forwarding the request of Sept. 27 |
+| 96 | about Oct. 15, 1967 | two destroyers and a cruiser diverted to the DMZ; a target acquisition battery ordered | lead: no day |
+| 100 | Dec. 1967 | Saigon's plan to move the AID cargoes from MACV | minor: the sequel of the entry of Aug. 19 |
+| 101 | Dec. 12, 1966; Feb. 8, May 9, 1967 | McNamara's directive for a single common supply system; the Army's two plans | already in under the new entry of July 21 (the plans); the directive: lead |
+| 112 | Jan. 13, May 4, 1967 | the services to budget for their South Vietnamese counterparts; the Army to fund common items for fiscal 1968 | lead |
+| 135 | Oct. 13, Oct. 23, 1967 | Bunker raises the holiday truces; the Joint Chiefs against any stand-down | lead |
+| 137 | Dec. 28, 1967 | State proposes the New Year extension | already in under cal.1967-12-31.vietnam |
+| 140–41 | mid-Jan. 1968 | the 1st Cavalry's headquarters and two brigades to Huế–Phú Bài | lead: dated only to mid-January |
+| 144 | Jan. 8–9, 1968 | Westmoreland to Viên against a Tet truce; Weyand on the threat to Saigon | lead |
+| 157 | Feb. 16, 1968 | Rostow to Wheeler: a call-up of 40,000 under consideration | lead |
+| 178 | Apr. 12, 1968 | the VNAF proposes its F-5s for missions north of the DMZ | minor (as ruled Oct. 29) |
+| 180 | Apr. 14–15, 22, 1968 | photographs of the repaired bridges; a SAM site near Hanoi | already in under the new entry of Apr. 18 (the bridges); the SAM site: minor, one of several sightings |
+| 181 | Apr. 28, 30, 1968 | Johnson and Wheeler on resuming the bombing between the parallels | lead |
+| 185–99 | Nov. 12, 1967–Jan. 4, 1969 | the RVNAF modernization papers: Westmoreland's outline (Nov. 12, 1967), the JGS's leave directive (Jan. 11, 1968), the M16 request (Feb. 3), Thiệu's recall of reservists (Feb. 10), Westmoreland's report of Feb. 29, Bunker (Mar. 11), the Chiefs' directive to MACV (Apr. 17), Steadman (July 30), Phase I (Aug. 29), Phase II (Nov. 15), the essential conditions (Dec. 12), accelerated Phase II (Jan. 4, 1969) | lead: each to be held against MACV's History of 1968 and the calendar's entries of those days; Feb. 10 already in under cal.1968-02-09.vietnam-khe-sanh |
+| 198 | July 25, Sept. 3, Dec. 13, Dec. 30, 1968 | the redeployment directives, schedules and OPLAN 69-69 | lead |
+| 205 | May 6, 1968 | Westmoreland's directive for "a major breakthrough toward military victory" | lead |
+| 209 | June 4, 1968 | Wheeler to Abrams: Clifford asks less destructive ways of fighting in the cities | lead |
+| 210 | June 14, 1968 | the combined MACV–JGS study of urban combat | minor: a staff study, not taken up as an event by the work |
+| 212 | May–July 1968 | Duck Blind, the sensor tests | lead: no day |
+| 216 | July 31, 1968 | Johnson's news conference on record infiltration | lead: the Papers to be read for it |
+
+## Leads (the military re-read)
+
+- National: the Joint Chiefs' files (JMF 9155, 911/321, 911/535, OCJCS File 091 Vietnam) and the NMCC's operational summaries, the records behind nearly every entry of this run, are at the National Archives (RG 218), not open here; the "1968 Year-End Review of Vietnam" (OCJCS Study Group, Jan. 15, 1969) likewise.
+- National: the rows marked "lead" under Passed over above, each with its page.
+- National: Cosmas's own manuscript, "MACV, the Joint Command in the Years of Withdrawal" (CMH), cited in place of records for Abrams's command, 1968; the published *MACV: The Joint Command in the Years of Withdrawal, 1968–1973* (CMH, 2007) is the place to look.
+- Foreign: Thompson, *To Hanoi and Back* (2000), cited by Cosmas for the strikes of 1967 (64–65, 69–71, 84–85, 90, 92–93), has no card: a card proposed.
+- Unread in this run: the non-military dated events of the pages not cited (ch. 2, 5, 9, 11, 15), held already by the run of Oct. 29 where they were cited.

@@ -1,0 +1,135 @@
+patch: iet-2
+by: 'Claude (the event pass on the Interest Equalization Tax, second reader: Gavin, *Gold, Dollars, and Power*; Bernstein, *Guns or Butter*; FRUS 1964–68, VIII, XII, XIII), Nov. 5, 2026'
+ops:
+  - edit:
+      id: cal.1963-07-18.economy
+      base: b4a23016
+      set:
+        n: '[FRUS 1961–63, IX: Foreign Economic Policy, doc. 29](https://history.state.gov/historicaldocuments/frus1961-63v09/d29) (editorial note). Special Message to the Congress on Balance of Payments, [1963 Pub. Papers 574](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=632) (July 18, 1963). [[w.gavin-gold-dollars-and-power]], 103 (the tax and the drawing on the Fund prepared); [[w.meltzer-history-of-the-federal]], 418 & n.255 (the message; the tax on securities of three years or more, 2.75 to 15 percent); [[w.meltzer-history-of-the-federal]], 417 (the discount rate, effective July 17). [[w.sorensen-kennedy]], 409 (the interest equalization tax). To check: [[w.roosa-dollar-and-world-liquidity]]; [[w.solomon-international-monetary-system-1945]]; [[w.coombs-arena-of-international-finance]]; [[w.eichengreen-globalizing-capital]]; [[w.kunz-butter-and-guns]]. See [[cal.1961-01-05.economy]].'
+        src:
+          c: 455f7566
+          rows:
+            - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=632: all'
+            - 'w.gavin-gold-dollars-and-power 103: B-C'
+            - 'via w.gavin-gold-dollars-and-power 103 n.42: B-C'
+            - 'w.sorensen-kennedy 409: A-B'
+            - 'w.meltzer-history-of-the-federal 418 & n.255: A-B'
+            - 'w.meltzer-history-of-the-federal 417: E'
+            - 'https://history.state.gov/historicaldocuments/frus1961-63v09/d29: A-D'
+  - cite:
+      id: cal.1963-09-12.economy
+      item: '[[w.gavin-gold-dollars-and-power]], 109 (Defense to cut further; the Treasury''s contingency plan for direct capital controls)'
+      units: A, C
+  - src:
+      id: cal.1963-09-12.economy
+      rows:
+        - 'via w.gavin-gold-dollars-and-power 109 n.78: A'
+        - 'via w.gavin-gold-dollars-and-power 109 n.79: A, C'
+  - cite:
+      id: cal.1968-03-22.economy-surcharge
+      item: '[[w.bernstein-guns-or-butter]], 373–74 (Fowler''s report to Johnson; Fowler with Mills, Mahon''s jurisdiction over expenditures)'
+      units: C
+  - src:
+      id: cal.1968-03-22.economy-surcharge
+      rows:
+        - 'via w.bernstein-guns-or-butter 373 n.7b: C'
+  - add:
+      entry:
+        id: cal.1967-10-02.economy-surcharge-2
+        when: Oct. 2
+        date: '1967-10-02'
+        thread: economy-surcharge
+        c: 'Smathers to Johnson, by letter, back from Europe: the United States "must demonstrate that we have sufficient self-discipline to cut our appropriations and raise our taxes in order to meet the enormous problems of Vietnam, rebellion in the cities, and inflation."'
+        n: '[[w.bernstein-guns-or-butter]], 373 (the letter, its words). Check: the day; Bernstein''s text dates the trip "the fall of 1967" and the letter not at all; its note names one letter of Smathers to Johnson, Oct. 2, 1967 (373 n.7, at 566). To check: Smathers to Johnson, Oct. 2, 1967, LE FI 11-4 File, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 373 n.7). See [[cal.1967-01-10.economy]]. Names: Smathers, Johnson.'
+        src:
+          c: 876056a5
+          rows:
+            - 'w.bernstein-guns-or-butter 373: all'
+            - 'via w.bernstein-guns-or-butter 373 n.7a: all'
+        tags: [name:smathers-george-a, name:johnson-lyndon-b]
+  - add:
+      entry:
+        id: cal.1968-01-02.economy
+        when: Jan. 2–6
+        date: '1968-01-02'
+        thread: economy
+        also: [europe-and-the-alliance]
+        c: 'Katzenbach, Deming and Roth in Europe on the program of Jan. 1: London, Jan. 2, Jenkins; Bonn; the Swiss officials and bankers, Jan. 3; the Commission at Brussels, Rey, Jan. 3–4; the Belgians and the Dutch, Jan. 4; Rome, Jan. 5, Fanfani; Paris, Debré and American businessmen; Chequers, Jan. 6, Wilson. Leaving Rome, Katzenbach answers Fanfani, who has tied the deficit to Vietnam: the deficit would be there without the war. Trezise in Scandinavia and Luxembourg.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 174](https://history.state.gov/historicaldocuments/frus1964-68v08/d174) (the report; Bonn, Brussels and The Hague; Paris, Debré and the businessmen; Trezise; its notes: the Swiss, Jan. 3, Wilson); [doc. 172](https://history.state.gov/historicaldocuments/frus1964-68v08/d172) (the Belgians, the Commission and Rey, the Dutch, Fanfani and the answer at the airport; its notes: Jan. 3–5); [FRUS 1964–68, XII: Western Europe, doc. 286](https://history.state.gov/historicaldocuments/frus1964-68v12/d286) (Chequers, Jan. 6; Jenkins "last Tuesday," Jan. 2; its note: the Community''s capitals and Switzerland, Jan. 2–6); [FRUS 1964–68, XIII: Western Europe Region, doc. 284](https://history.state.gov/historicaldocuments/frus1964-68v13/d284), n.2 (Bonn, reported Jan. 3). [[w.gavin-gold-dollars-and-power]], 178 (officials sent to Europe, Japan and Canada to explain the program). Made public: FRUS 1964–68, VIII (1998). Check: the days in Bonn and Paris; where the Swiss were seen (reported from Brussels). To check: Katzenbach''s country-by-country summary, sent to Mills, Jan. 16, 1968, Department of State, Central Files, ORG 7 U (cited by FRUS 1964–68, VIII, doc. 174, n.1). See [[cal.1968-01-01.economy]]. Names: Katzenbach, Deming, Roth, Jenkins, Rey, Fanfani, Debré, Wilson, Trezise.'
+        src:
+          c: d8cd0d94
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d174: A-C, G-H, J'
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d172: D-F, I'
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v12/d286: A, H'
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v13/d284: B'
+            - 'w.gavin-gold-dollars-and-power 178: A'
+        tags: [name:katzenbach-nicholas, name:deming-frederick-l, name:roth-william-m, name:jenkins-roy-h, name:rey-jean, name:fanfani-amintore, name:debre-michel, name:wilson-harold, name:trezise-philip-h]
+  - add:
+      entry:
+        id: cal.1968-01-03.japan
+        when: Jan. 3
+        date: '1968-01-03'
+        thread: japan
+        also: [economy]
+        c: 'Tokyo. Eugene Rostow with Satō, two and a half hours, on the payments program. Satō: he admires the President''s "courage and candor"; the President has cut neither security spending nor aid. At Rostow''s request the Cabinet''s secretary general tells the press Japan will cooperate to keep the world monetary system stable. Rostow: a border tax, if proposed, of 2 to 2.5 percent; he asks assurance that Japan will take no step in the field. Miki: Japan''s reaction to a border tax to be taken up at the Cabinets'' joint subcommittee, Honolulu, Jan. 25.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 169](https://history.state.gov/historicaldocuments/frus1964-68v08/d169) (Rostow''s telegram, 1145Z). Made public: FRUS 1964–68, VIII (1998). To check: the memorandum of the conversation, 15 pages, and those with other Japanese officials, Jan. 2–4, Department of State, Conference Files, Lot 69 D 182, CF 270 (cited by FRUS 1964–68, VIII, doc. 169, n.2). See [[cal.1968-01-01.economy]]. Names: Eugene Rostow, Satō, Miki.'
+        src:
+          c: 369f98e7
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d169: all'
+        tags: [name:rostow-eugene, name:sato-eisaku, name:miki-takeo]
+  - add:
+      entry:
+        id: cal.1968-01-05.economy
+        when: Jan. 5
+        date: '1968-01-05'
+        thread: economy
+        c: 'Walt Rostow to Johnson at the Ranch, by telegram, received 8:12 p.m.: the reactions to the program. The gold pool sold nothing Jan. 4. Belgium fears the cut in American investment; the Commission sympathetic, no commitment; the Dutch cooperative. Australia asks special treatment: capital inflow not below 1966''s, exemption from the 5 percent cut in lending, loans floated here free of the interest equalization tax; restrictions might make its part in Vietnam harder. Norway asks to be counted among the countries dependent on American capital.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 172](https://history.state.gov/historicaldocuments/frus1964-68v08/d172) (CAP 80132, Jan. 6, 0044Z; received at the Ranch Jan. 5, 8:12 p.m. CST). Made public: FRUS 1964–68, VIII (1998). See [[cal.1968-01-01.economy]]. Names: Walt Rostow, Johnson.'
+        src:
+          c: 130b3f78
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d172: all'
+        tags: [name:rostow-walt-w, name:johnson-lyndon-b]
+  - add:
+      entry:
+        id: cal.1968-01-07.economy
+        when: Jan. 7
+        date: '1968-01-07'
+        thread: economy
+        also: [europe-and-the-alliance]
+        c: 'Katzenbach, Deming and Roth report to Johnson on the European trip: the program "regarded as necessary and desirable"; the central bankers approve, the governments critical of the payments measures; everywhere, success depends on the tax increase and the cuts in spending. A border tax of 2 to 2.5 percent may stay within the GATT. Investment controls approved, grudgingly; Belgium worried. Wilson: no British troops in Germany without a £100 million offset. An advisory committee, perhaps Dillon''s, to examine the American and British measures.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 174](https://history.state.gov/historicaldocuments/frus1964-68v08/d174) (sent to the Ranch by CAP 80173). Made public: FRUS 1964–68, VIII (1998). See [[cal.1968-01-02.economy]]. Names: Katzenbach, Deming, Roth, Johnson, Wilson, Dillon.'
+        src:
+          c: f1aa8876
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d174: all'
+        tags: [name:katzenbach-nicholas, name:deming-frederick-l, name:roth-william-m, name:johnson-lyndon-b, name:wilson-harold, name:dillon-c-douglas]
+  - add:
+      entry:
+        id: cal.1968-01-08.economy
+        when: Jan. 8
+        date: '1968-01-08'
+        thread: economy
+        c: 'Eugene Rostow to Rusk, written on the plane from Japan, Australia and New Zealand: governments and central bankers call the program necessary, but fear a shortage of funds, higher interest rates, protectionism; a border tax "effectively a devaluation pro tanto." He proposes negotiating down Europe''s border taxes while the decision on an American one waits, a couple of months at most.'
+        n: '[FRUS 1964–68, VIII: International Monetary and Trade Policy, doc. 175](https://history.state.gov/historicaldocuments/frus1964-68v08/d175). Made public: FRUS 1964–68, VIII (1998). To check: Cross and Pelikan to Fowler, Jan. 8, 1968, Fowler Papers, LBJ Library (cited by FRUS 1964–68, VIII, doc. 175, n.1). See [[cal.1968-01-03.japan]]. Names: Eugene Rostow, Rusk.'
+        src:
+          c: 6746a4d6
+          rows:
+            - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d175: all'
+        tags: [name:rostow-eugene, name:rusk-dean]
+  - add:
+      entry:
+        id: cal.1968-05-22.economy
+        when: May 22
+        date: '1968-05-22'
+        thread: economy
+        c: 'Okun to Johnson: "Many interest rates are now at their highest level in nearly fifty years," up 1½ to 2 points since late 1965; mortgages 7 percent, 8 in many places, perhaps soon 10; prices rising 4 percent a year, "the worst performance in 17 years."'
+        n: '[[w.bernstein-guns-or-butter]], 367 (Bernstein adds: the trade deficit a record in March 1968; "talk of a flight from the dollar and even of a world financial crisis"). Check: the day; Bernstein''s text gives May 23, 1968 (367); its notes list Okun to Johnson, May 22, 1968, EX FG 11-3 File (566 nn.5, 8). To check: Okun to Johnson, May 22, 1968, EX FG 11-3 File, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 367 n.5). See [[cal.1967-01-10.economy]]. Names: Okun, Johnson.'
+        src:
+          c: 76521e7c
+          rows:
+            - 'w.bernstein-guns-or-butter 367: all'
+            - 'via w.bernstein-guns-or-butter 367 n.5d: all'
+        tags: [name:okun-arthur-m, name:johnson-lyndon-b]

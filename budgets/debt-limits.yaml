@@ -14,6 +14,21 @@
 #   pl        the public law            terms  [from, to, limit in $ billions]: each period the act sets; `to` null for
 #   permanent the permanent limit after the act (where it changed)                         a permanent limit
 #   entry     the calendar entry of the signing (none for the act of 1969, after the calendar ends)
+# section21: where the note under the table cites section 21 (budgets.py STYLE 6): the act that last wrote the limit
+#   before the table opens, the Public Debt Act of 1959 (Pub. L. 86-74, sec. 1), which amended the first sentence of
+#   section 21 "to read as follows" (printed on p. 157; the act begins on p. 156); read on govinfo Nov. 5, 2026, the
+#   granule's MODS (pp. 156-157, H.R. 7749) and its text layer. Section 21 is not in the act of 1917 (40 Stat. 288,
+#   sections 1-13, read): it was added by the act of Feb. 4, 1935, ch. 5, sec. 5, 49 Stat. 20, 21 (a limit on
+#   certificates, bills and notes), made the limit on all the act's obligations by the Public Debt Act of 1941 (55
+#   Stat. 7), written whole as it stood in the 1960s by the Public Debt Act of 1946 (60 Stat. 316) and the act of Sept.
+#   2, 1958 (72 Stat. 1758); the figure in its first sentence struck and replaced by the acts of June 30, 1967 and Apr. 7, 1969
+#   (above; both read).
+section21:
+  act: Public Debt Act of 1959
+  stat: '73|156|157'
+  year: '1959'
+  granule: STATUTE-73-Pg156-2
+  pdf_page: 2
 source:
   title: 'OMB, *Historical Tables*, Table 7.3, Statutory Limits on Federal Debt'
   url: https://www.govinfo.gov/content/pkg/BUDGET-2025-TAB/xls/BUDGET-2025-TAB-8-3.xlsx

@@ -50,7 +50,7 @@ Entries mapped: 37; records logged: 34 (found and read 16, found and not read or
 
 ## Passed over
 
-Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and the calendar does not take, a row each, for the owner to rule on. Method: every dated mention on the pages read for the entries (not the whole volume) was found by pattern; a mention on a day the calendar holds an entry of a related thread (Vietnam, Laos, Defense, Cuba, Berlin, Korea, the alliance, the Middle East and the like) was taken as already in and is not listed; the rest were read and ruled here, the calendar checked by day where the ruling says "already in". Operational detail (single missions, sorties, losses, unit moves) is passed over as minor throughout.
+Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and the calendar does not take, a row each, for the owner to rule on. Method: every dated mention on the pages read for the entries (not the whole volume) was found by pattern; a mention on a day the calendar holds an entry of a related thread (Vietnam, Laos, Defense, Cuba, Berlin, Korea, the alliance, the Middle East and the like) was taken as already in and is not listed; the rest were read and ruled here, the calendar checked by day where the ruling says "already in". (The sentence that stood here, passing over operational detail as a class, is struck: the military re-read below, R14 and R48.)
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -87,3 +87,28 @@ Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and
 | 242 | Sept. 17 and 26–27, 1962 | Imam Ahmad dies; the Yemeni revolution | lead: the Middle East thread not checked |
 | 242 | Nov. 9, Dec. 30, 1962 | the Joint Chiefs on Saudi Arabia; Egyptian bombing of Nejran | minor |
 | 246 | Oct. 7, 1963 | Gilpatric asks the Joint Chiefs on a limited war in the Middle East | minor |
+
+## The military re-read (Nov. 5, 2026): chapters 10–11 only
+
+The owner's ruling of Oct. 30 (R14, R48; `notes/briefs/military-reread.md`). Copy: DTIC_ADA551509 on archive.org, its PDF's own text layer (`pdftotext -layout`; the PDF deleted at once), each page given the folio it prints. No page image checked in this run.
+
+What was read: chapters 10 and 11 (pp. 139–201, Berlin and the missile crisis), every sentence carrying a date and a military word, and the pages around each event entered, each held against the calendar by day. Both chapters' events are nearly all in the calendar already (the Berlin and missile-crisis threads hold some 360 entries); the patch `inbox/2026-11-04-mil-poole-1961-64.yaml` (4 ops) adds the four the calendar lacked: the call-up announced Sept. 19, 1961; the European Command's augmentation of late September 1961; the Chiefs' turn to OPLAN 316, Oct. 26, 1962; Kennedy's "thin," Nov. 5, 1962. Witnesses not registered (a lead). The rest of the volume (chapters 1–9, 12–20: the Bay of Pigs, Laos, the Congo, the Dominican Republic and Panama, the Middle East, South Asia, the Far East, NATO, the forces) was not re-read in this run.
+
+### Passed over (the military re-read, chapters 10–11)
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 147 | Aug. 1, 1961 | Congress authorizes calling up 250,000 reservists | lead: the Berlin entries of July–August not checked for it |
+| 149–50 | Aug. 23, Sept. 1, 1961 | Moscow's charge on the air corridors; Kennedy's orders of Sept. 1 | lead |
+| 151–53 | Sept. 7, 11, 18, 1961 | McNamara's sequence of actions; Lemnitzer's and Norstad's views; the Chiefs' meeting of Sept. 18 | already in under cal.1961-09-07.berlin-and-vienna (Sept. 7); the rest: lead |
+| 156 | Oct. 20, 1961 | Kennedy approves a policy statement on Berlin | lead |
+| 160 | Mar. 5, 1962 | Lansdale asks the Chiefs for pretexts for intervention in Cuba | lead |
+| 162–64 | Aug. 29, Sept. 19, Oct. 1, Oct. 14, 1962 | the U-2 over Cuba; the SNIE; the JSSC's revised report; Heyser's flight | already in under the missile crisis's entries of those days (not each checked) |
+| 169 | Oct. 1962 | a Marine battalion to Guantánamo, Opa-locka reopened, twenty interceptors to Florida | lead: the day not read |
+| 175–77 | Oct. 23–25, 1962 | the low-level reconnaissance decided; the ships turned back | already in under cal.1962-10-23.missile-crisis-15 and cal.1962-10-24.missile-crisis |
+| 180 | Oct. 27, 1962 | the Chiefs recommend OPLAN 312 by Oct. 29; the U-2 down | already in under the entries of Oct. 27 |
+
+## Leads (the military re-read)
+
+- National: chapters 1–9 and 12–20 of this volume not re-read.
+- National: the witnesses of this run's four entries (the notes, pp. 313 ff.) to be registered.

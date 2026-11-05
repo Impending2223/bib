@@ -14,6 +14,9 @@ STYLE
     the tree lacks is an error, unless the ledger claims it (then deferred at the merge, addops STYLE 7).
  5. A patch written before the ledger (`--legacy`): an add the ledger does not claim is a warning, not an error.
  6. The claim maps: the patch applied in memory, `claims.problems` before and after; an error it adds is an error here.
+ 7. `add` of a thread (`cal.thread.<slug>`, th.yaml): not a dated entry, so neither date, `c`, `n` nor the ledger; its
+    name (`s`), not in the tree, its `parent` a thread of the tree or added earlier in the patch, and its place
+    (`section` the threads section, `after`); `check` [thread-order] holds the order once merged.
 """
 import collections
 import os
@@ -50,7 +53,20 @@ def check(series, path, legacy=False):
             errors.append(f"op {k}: unknown kind {kind!r}")
             continue
         eid = body.get("id") or (body.get("entry") or {}).get("id")
-        if kind == "add":
+        if kind == "add" and lst and str(eid or "").startswith(f"{lst.key}.thread."):
+            # a thread (th.yaml): its name, and its parent a thread the tree or the patch holds (STYLE 7)
+            e = body.get("entry") or {}
+            if not e.get("s"):
+                errors.append(f"add {eid}: a thread takes s, its name")
+            if series.get(eid):
+                errors.append(f"add {eid}: the tree has it")
+            par = e.get("parent")
+            if par and par not in lst.threads() and f"{lst.key}.thread.{par}" not in added:
+                errors.append(f"add {eid}: parent {par!r} is no thread of the tree or the patch")
+            if body.get("section") != lst.data.get("threads_section", "th") or not body.get("after"):
+                errors.append(f"add {eid}: a thread goes in the threads section, after the thread it follows")
+            added.add(eid)
+        elif kind == "add":
             e = body.get("entry") or {}
             miss = [f for f in ("id", "date", "thread", "c", "n") if not e.get(f)]
             if miss:

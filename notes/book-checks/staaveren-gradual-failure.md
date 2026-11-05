@@ -22,7 +22,7 @@ The rest hold for the units their maps give; where the page bears out only part 
 
 ## Passed over
 
-Dated events of 1960–Jan. 20, 1969 on the pages read for this pass that the calendar does not take, a row each, for the owner to rule on. The volume's operational narrative (single missions, sortie and loss counts, unit moves, tactics, logistics, base construction) is passed over as minor throughout and not listed event by event; the volume was not reread cover to cover in this pass.
+Dated events of 1960–Jan. 20, 1969 that the volume treats and the calendar does not take, a row each, for the owner to rule on. The rows here are the stage-3 pass's (Oct. 28); those under "The military re-read" below are the re-read's (Nov. 5, 2026).
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -44,3 +44,39 @@ Dated events of 1960–Jan. 20, 1969 on the pages read for this pass that the ca
 | 259 | Apr. 8, 1966 | the JCS execute message for the B-52s on Mụ Giạ | in cal.1966-04-12.vietnam |
 | 285–86 | June 10–15, 1966 | the POL strikes put off for Ronning's visit; June 15 other targets approved | to leads |
 | 288 | June 18, 1966 | Johnson's news conference: "raise the cost of aggression" | to leads |
+
+## The military re-read (Nov. 5, 2026)
+
+The brief: `notes/briefs/military-reread.md` (R14). The same copy (govinfo, GOVPUB-D301-PURL-LPS47818; printed page = PDF page less 14), its text layer read page by page, pp. 1–324: every sentence dating an event listed by script (some 177,000 characters), then searched for the operations, firsts, strikes and losses the volume dates, and the paragraph read for each event entered or cited. Checked off the page image: p. 125.
+
+Patch: `inbox/2026-11-04-mil-staaveren-gf.yaml` (patch `mil-staaveren-gf`): 13 ops; 9 new entries in the Air war subthread, claimed in the ledger; cites to 4 entries (Thanh Hoa bridge, the first SA-2 site, the first SAM loss). The calendar's Air war thread holds most of the volume's decisions of 1965–66 (the Chiefs' programs, the pause, the oil strikes); this run read for the strikes and the firsts.
+
+Witnesses: none registered this run. The endnotes (pp. 325–354) are in a good text layer and were not mapped; the next reader can tie each new entry's passage to its note.
+
+This pass did not reach every dated event of the volume. Its dated-sentence list, by chapter, holds several hundred more: each Rolling Thunder program's opening (6 to 47, 1965), the weekly strikes and losses, the leaflet missions, the B-52 strikes on Mu Gia (Apr. 1966), the MiG engagements of 1966. They stand as "not entered" until a run reads them; rows below for the chief of them.
+
+### Passed over (the re-read)
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 47 | June 27, 1964 | the first two pilots trained (the VNAF jet program) | minor |
+| 78–81 | Feb. 8, 20, 1965 | McNamara asks an eight-week program; Rolling Thunder 1 ordered for Feb. 20 | not entered (check the calendar) |
+| 89–94 | Mar. 8, 19, 22, 1965 | the Marines at Da Nang; Rolling Thunder 7's first mission (Phu Van, Vinh Son); the radar site (in the calendar, Mar. 22) | not entered (Mar. 19) |
+| 97 | Apr. 3, 1965 | Moore's two missions against trucks in southern Laos | not entered |
+| 112–13 | Apr. 16, 20, 1965 | the bridge raids; eight A-1Hs and eight F-100s on the My Duc bridge | not entered |
+| 117 | Apr. 4, 9, 1965 | Big Eye EC-121s arrive; the F-4s' first MiG patrol | not entered |
+| 129, 140 | Apr. 14, June 28, 1965 | the first major leaflet mission over the North; leaflets on five towns | not entered |
+| 136–37 | May 20, 1965 | the first target above the 20th parallel (Quang Soui barracks) canceled for weather | not entered |
+| 144 | Apr. 9, June 17, 20, 1965 | the first loss to a Chinese MiG; the first MiG kills (in the calendar, June 17, 20) | not entered (Apr. 9) |
+| 158 | July 11, 1965 | the restrikes on Dien Bien Phu, Yen Bai and Yen Son | not entered |
+| 167–70 | July 27, Aug. 6–Sept. 2, Aug. 23–24, 1965 | the strike on the SAM sites (in the calendar, July 27); Rolling Thunder 26/27 and 28/29, the first with Iron Hand | not entered (the programs) |
+| 179–83 | Aug. 2, Aug. 16, late Oct.–Nov. 1965 | the F-4Cs' first armed reconnaissance; a pilot captured near Thanh Hoa; locks and dams excluded | not entered |
+| 192–96 | Oct. 17, Nov. 6–7, late Nov. 1965 | the first SAM site destroyed (in the calendar, Oct. 17); the Hai Duong and Me Xa bridges; the 41st TRS to Takhli | not entered (Nov.) |
+| 225–36 | Jan. 31, Mar. 26, 1966 | Rolling Thunder 48 (in the calendar, Jan. 31); McNamara's sortie levels | not cited this run |
+| 252 | Mar. 25, 1966 | the 2d Air Division made Seventh Air Force | not entered (lead: check the calendar) |
+| 275 | June 12, 29, 1966 | MiG-17s jump a Navy strike force; MiGs attack four F-105s northwest of Hanoi | not entered |
+| 288 | June 24, 1966 | the oil strikes ordered for first light June 24 (then put off) | in the calendar (the oil thread), not cited |
+
+## Leads (the re-read)
+
+- The Seventh Air Force's activation, Apr. 1, 1966 (252 n.): check the calendar.

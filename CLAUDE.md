@@ -345,10 +345,15 @@ listed in the others (`also:`), never one entry a thread. Its bibliography is in
 
 Subthreads: a thread in `th.yaml` may name a `parent:` ("Defense: McNamara to Clifford", `id:
 cal.thread.defense-clifford`, `s: McNamara to Clifford`, `parent: defense`). Its entries are the parent's too (the
-index's dates, the ⟨⟨ ⟩⟩ line, the highlight); the rubric, the ⟨⟨ ⟩⟩ line and the Continuing line give its full name. A
+⟨⟨ ⟩⟩ line, the highlight, the index's years on `cal.html`); the rubric, the ⟨⟨ ⟩⟩ line and the Continuing line give its full name. A
 subthread without a statement (`c`) is a ghost: named where it is under way, and in the thread index by a line under its parent: its
 full name ("Vietnam: Pennsylvania") muted, not underlined, as the A–Z bibliography's ghosts are, then its dates as any
-thread's (its rubric links there; STYLE 9 in `tools/bib/calsplit.py`); give it a `c` to promote it. A renamed thread
+thread's (its rubric links there; STYLE 9 in `tools/bib/calsplit.py`); give it a `c` to promote it. In the index a parent's
+dates are its own entries only: one filed under a subthread (`thread:` the subthread, a ghost's too) is dated on the subthread's
+line, not the parent's, unless `also:` lists it in the parent (volume.md §2: "The ⟨⟨ ⟩⟩ line and the highlight keep the family
+together as now; only the index is pruned"; STYLE 15 in `tools/bib/calsplit.py`, `index_members` in `tools/bib/build.py`).
+`check` warns on a thread with more than 150 entries of its own in one year's page, a prompt to split it, never a rule
+[thread-size]; the splits come by patch, for the owner to rule. A renamed thread
 may keep its old name in the index, muted, a link to the thread, naming it ("Desegregation: schools: School desegregation"; `s:`
 the old name, `see:` the slug), or, where the old name went to several threads, the old name in the text's color and the
 threads muted, linked, a middle dot between ("Legislatures: Districting and apportionment · State legislatures"; `see:` a
@@ -1628,7 +1633,9 @@ the series index, the README and the top bar (数; at first kept out of the bar,
   unemployment falling, a real rate falling, a gap below zero) and brown on the cold (`HOT`); the price indexes (CPI,
   WPI, deflator: `YOY`) by the change from a year earlier, the figure the cell prints, the rest by the change from the period before; the Released
   cell in its figure's tint (the owner, Nov. 4, 2026); a key under the table. A
-  ▸ before a row's name opens its chart in a row beneath (uPlot, vendored, `sources/vendor/uplot-1.6.30/`): as first
+  tap in a charted row's name cell (the owner, Nov. 4, 2026: "Clicking on the cells containing the name of a graphed
+  indicator should expand the graph"), but on the name's own link, which goes to its servant, or on the ▸ before it
+  (the keyboard's button), opens its chart in a row beneath, and closes it (indchart STYLE 3). The chart (uPlot, vendored, `sources/vendor/uplot-1.6.30/`): as first
   reported and today over the span, Level | Year over year, year over year by default but for the rates and ratios in
   percent; the figures in `build/ind/charts-<hash>.json`, fetched at the first tap.
 - Real rates (`tools/indicators/make_derived.py`, its docstring; group "Real rates", the owner's rename, Nov. 4, 2026): the

@@ -133,7 +133,7 @@ entries:
   - id: cal.1960-12-04.elections-1960
     when: Dec. 4–7
     date: '1960-12-04'
-    thread: elections-1960
+    thread: elections-1960-count
     c: 'Earl Mazo''s four articles in the New York Herald Tribune, carried in other papers across the country: massive fraud in the election, in Texas and Illinois above all. Nixon asks him to cut the series short.'
     n: '[[w.kallina-kennedy-v-nixon]], 185, 208. To check: New York Herald Tribune, Dec. 4–7, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 208 n.16). Names: Nixon. Check: the day Nixon asked Mazo to stop; Kallina gives none (185).'
     src:
@@ -183,13 +183,15 @@ entries:
     thread: laos
     also: [soviet-union]
     c: 'The first Soviet supplies land at Vientiane: five Il-14s, forty drums of oil. Dec. 3 the embassy had announced a first shipment; the plane carried only pilots "on a familiarization run."'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 333. To check: Jacques Nevard, *New York Times*, Dec. 4 and 5, 1960 (cited by [[w.fursenko-khrushchevs-cold-war]], 333 nn.36–37). See [[cal.1960-11-23.laos]]. Names: Abramov.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 333; [[w.anthony-war-in-northern-laos]], 33 (the Soviet airlift from Hanoi, from Dec. 4, food, fuel and military hardware). Check: Anthony dates the airlift''s start Dec. 4 (33). To check: Jacques Nevard, *New York Times*, Dec. 4 and 5, 1960 (cited by [[w.fursenko-khrushchevs-cold-war]], 333 nn.36–37); [[w.dommen-conflict-in-laos]], 166–67 (cited by [[w.anthony-war-in-northern-laos]], 33 n.2a); AmEmb Vientiane to SECSTATE, 1057, Dec. 6, 1960 (cited by [[w.anthony-war-in-northern-laos]], 33 n.2b). See [[cal.1960-11-23.laos]]. Names: Abramov.'
     src:
       c: e645cd1c
       rows:
         - 'w.fursenko-khrushchevs-cold-war 333: all'
         - 'via w.fursenko-khrushchevs-cold-war 333 n.37: A'
         - 'via w.fursenko-khrushchevs-cold-war 333 n.36: B'
+        - 'w.anthony-war-in-northern-laos 33: ?'
+        - 'via w.anthony-war-in-northern-laos 33 n.2b: all'
     tags: [name:abramov-aleksandr-n, place:vientiane]
   - id: cal.1960-12-06.transition-and-staff
     when: Dec. 6
@@ -270,12 +272,15 @@ entries:
     date: '1960-12-08'
     thread: laos
     c: Kouprasith's coup in Vientiane, Dec. 8; Souvanna Phouma to Phnom Penh, Dec. 9. Soviet aircraft bring Kong Le howitzers.
-    n: 'FRUS 1958–60, XVI, doc. [479](https://history.state.gov/historicaldocuments/frus1958-60v16/d479) (editorial note). [[w.fursenko-khrushchevs-cold-war]], 334–35 (Vientiane not to be defended, Dec. 9; the first Soviet howitzers to Kong Le Dec. 12). See [[cal.1960-08-09.laos]]. Names: Kouprasith, Souvanna Phouma, Kong Le.'
+    n: 'FRUS 1958–60, XVI, doc. [479](https://history.state.gov/historicaldocuments/frus1958-60v16/d479) (editorial note). [[w.fursenko-khrushchevs-cold-war]], 334–35 (Vientiane not to be defended, Dec. 9; the first Soviet howitzers to Kong Le Dec. 12); [[w.anthony-war-in-northern-laos]], 33. To check: CINCUSARPAC to ACS/Intel, DA 100220Z Dec. 60 (cited by [[w.anthony-war-in-northern-laos]], 33 n.3a); Hugh S. Cumming to SECSTATE, "Laos: Implications of December 8 Coup in Vientiane by Colonel Kouprasith," Dec. 8, 1960 (cited by [[w.anthony-war-in-northern-laos]], 33 n.3b). See [[cal.1960-08-09.laos]]. Names: Kouprasith, Souvanna Phouma, Kong Le.'
     src:
       c: 9c032113
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1958-60v16/d479: all'
         - 'w.fursenko-khrushchevs-cold-war 334–35: C'
+        - 'w.anthony-war-in-northern-laos 33: A-B'
+        - 'via w.anthony-war-in-northern-laos 33 n.3a: A-B'
+        - 'via w.anthony-war-in-northern-laos 33 n.3b: A-B'
     tags: [name:kouprasith-abhay, name:souvanna-phouma, name:kong-le, place:vientiane, place:phnom-penh]
   - id: cal.1960-12-08.middle-east
     when: Dec. 8
@@ -369,7 +374,7 @@ entries:
   - id: cal.1960-12-09.elections-1960-chicago
     when: Dec. 9
     date: '1960-12-09'
-    thread: elections-1960
+    thread: elections-1960-count
     also: [states-and-cities]
     c: Chicago. The recount of the State's Attorney's race, which Adamowski asked and the Republicans meant as a test of the presidential count, ends. A county judge had ordered twenty-five teams of counters and every race on the ballots counted. Errors of ten votes or more in Kennedy's favor in 3.1 percent of the precincts recounted, in Nixon's 2.6. Ward's election stands; Adamowski wins a second recount in 1961, his race alone.
     n: '[[w.kallina-courthouse-over-white-house]], 114–117. See [[cal.1960-11-08.governors-il]]; [[cal.1960-12-19.elections-1960]]. Names: Adamowski, Ward, Kennedy, Nixon.'
@@ -475,7 +480,14 @@ entries:
     date: '1960-12-13'
     thread: laos
     c: Phoumi's troops take Vientiane, the American embassy burned; Kong Le withdraws north.
-    n: 'FRUS 1958–60, XVI, doc. [487](https://history.state.gov/historicaldocuments/frus1958-60v16/d487) (Eisenhower and Herter, Dec. 14). See [[cal.1960-08-09.laos]]. Names: Phoumi Nosavan, Kong Le.'
+    n: 'FRUS 1958–60, XVI, doc. [487](https://history.state.gov/historicaldocuments/frus1958-60v16/d487) (Eisenhower and Herter, Dec. 14). [[w.anthony-war-in-northern-laos]], 34 (the assault Dec. 13, Wattay Dec. 14, the Soviet airlift ended at seventy flights; over five hundred civilian casualties; Dec. 15, Kong Le''s column of some seven hundred north on Route 13). To check: [[w.fall-anatomy-of-a-crisis]], 198 (cited by [[w.anthony-war-in-northern-laos]], 34 n.5a); AmEmb Bangkok to SECSTATE, 1016, Dec. 15, 1960 (cited by [[w.anthony-war-in-northern-laos]], 34 n.5b); CINCPAC to JCS, 180612Z Dec. 60 (cited by [[w.anthony-war-in-northern-laos]], 34 n.5c). See [[cal.1960-08-09.laos]]. Names: Phoumi Nosavan, Kong Le.'
+    src:
+      c: 44eed1e7
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v16/d487: all'
+        - 'w.anthony-war-in-northern-laos 34: ?'
+        - 'via w.anthony-war-in-northern-laos 34 n.5b: all'
+        - 'via w.anthony-war-in-northern-laos 34 n.5c: all'
     tags: [name:phoumi-nosavan, name:kong-le, name:eisenhower-dwight-d, place:vientiane]
     short: the battle of Vientiane
   - id: cal.1960-12-13.goldwater
@@ -510,7 +522,7 @@ entries:
   - id: cal.1960-12-14.elections-1960
     when: Dec. 14
     date: '1960-12-14'
-    thread: elections-1960
+    thread: elections-1960-count
     c: Illinois's State Electoral Board, four Republicans, Governor Stratton among them, and one Democrat, Lohman. Connell and George Dapples, for the Cook County Republicans, ask it not to certify Kennedy's electors, on charges of fraud. The board certifies them, unanimously.
     n: '[[w.kallina-kennedy-v-nixon]], 211. To check: Chicago Tribune, Dec. 15, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 211 n.19); [[w.kallina-courthouse-over-white-house]], 138–44. See [[cal.1960-11-13.elections-1960]]. Names: Stratton, Lohman, Kennedy.'
     src:
@@ -519,6 +531,16 @@ entries:
         - 'w.kallina-kennedy-v-nixon 211: all'
         - 'via w.kallina-kennedy-v-nixon 211 n.19: all'
     tags: [name:stratton-william-g, name:lohman-joseph-d, name:kennedy-john-f, state:il]
+  - id: cal.1960-12-14.laos
+    when: Dec. 14
+    date: '1960-12-14'
+    thread: laos
+    c: CINCPAC alerts all the units of Joint Task Force 116, should the United States intervene in Laos.
+    n: '[[w.futrell-united-states-air-force]], 58.'
+    src:
+      c: 7ee13045
+      rows:
+        - 'w.futrell-united-states-air-force 58: all'
   - id: cal.1960-12-15.transition-and-staff-cabinet
     when: Dec. 15
     date: '1960-12-15'
@@ -619,7 +641,7 @@ entries:
   - id: cal.1960-12-19.elections-1960
     when: Dec. 19
     date: '1960-12-19'
-    thread: elections-1960
+    thread: elections-1960-count
     also: [electoral-college]
     c: 'The electors vote in the State capitals. Kennedy 300, Nixon 219; Byrd 15: Mississippi''s eight unpledged electors, six of Alabama''s eleven, and one Oklahoma Republican, who gives Goldwater his vote for Vice President; Thurmond 14. Hawaii''s two slates both vote, its recount unfinished.'
     n: '[The 1960 certificates](https://www.archives.gov/electoral-college/1960) (National Archives). Illinois, the Chicago recount, and the Republicans'' challenges: [[w.kallina-courthouse-over-white-house]]. [[w.kallina-kennedy-v-nixon]], 188 (the electors'' day; Byrd''s fifteen; Irwin; Hawaii). See [[cal.1960-11-08.elections-1960]]. Names: Kennedy, Nixon, Byrd, Thurmond, Goldwater. Check: Kallina, 188, counts Hawaii both ways, Kennedy 303 and Nixon 222.'
@@ -641,12 +663,23 @@ entries:
         - 'w.thomas-robert-kennedy 161 n.: all'
         - 'via x.1960-12-19.mcand-thomas: all'
     tags: [name:hoover-j-edgar, name:giancana-sam, city:chicago]
+  - id: cal.1960-12-19.space
+    when: Dec. 19
+    date: '1960-12-19'
+    thread: space
+    c: 'Mercury-Redstone: a capsule on a suborbital flight of 235 miles lands within 18 miles of the target.'
+    n: '[[w.watson-into-the-missile-age]], 400. To check: [[w.swenson-this-new-ocean]], 293–301; *New York Times*, Dec. 20, 1960 (cited by [[w.watson-into-the-missile-age]], 400 n.222). Check: the note prints the years "58".'
+    src:
+      c: 6518e848
+      rows:
+        - 'w.watson-into-the-missile-age 400: all'
+        - 'via x.1960-12-20.new-york-times-mercury-redstone: all'
   - id: cal.1960-12-20.vietnam
     when: Dec. 20
     date: '1960-12-20'
     thread: vietnam
     c: The National Front for the Liberation of South Vietnam founded at a congress in Tây Ninh province, as the Lao Động party's congress in Hanoi resolved in September. Its manifesto and ten-point program against Diệm's government and the American presence.
-    n: 'The manifesto and program: [[w.vietnam-and-america]]. [[w.moyar-triumph-forsaken]], 103–04 (sixty of the party''s officials in the South, Dec. 20, near the Cambodian border; the founding program). Made public: Hanoi radio, Jan. 29, 1961 (Check). [[w.vietnam-victory-in-vietnam]], 67 (the Front born, Dec. 20, 1960); [[w.schulimson-joint-chiefs-of-staff]], 70 (the founding, Dec. 20, near the Cambodian border); [[w.asselin-hanois-road-to-the]], 87–89 (the Front''s founding in December; its ten points). The war itself: Viet. II.B. To check: [[w.pike-viet-cong]]; [[w.thayer-war-by-other-means]]; [[w.brigham-guerrilla-diplomacy]]; [[w.tang-vietcong-memoir]]; [[w.elliott-vietnamese-war]]; [[w.race-war-comes-to-long]]; the Front''s manifesto and program, as an undated pamphlet prints them (cited by [[w.asselin-hanois-road-to-the]], 88 nn.99–100); "Program of the South Viet Nam National Front for Liberation," Dec. 20, 1960, TTU, Pike Collection, Unit V, box 1 (cited by [[w.moyar-triumph-forsaken]], 104 n.46). Check: Asselin, 88, has the program adopted in February 1961.'
+    n: 'The manifesto and program: [[w.vietnam-and-america]]. [[w.moyar-triumph-forsaken]], 103–04 (sixty of the party''s officials in the South, Dec. 20, near the Cambodian border; the founding program); [[w.futrell-united-states-air-force]], 58. Made public: Hanoi radio, Jan. 29, 1961 (Check). [[w.vietnam-victory-in-vietnam]], 67 (the Front born, Dec. 20, 1960); [[w.schulimson-joint-chiefs-of-staff]], 70 (the founding, Dec. 20, near the Cambodian border); [[w.asselin-hanois-road-to-the]], 87–89 (the Front''s founding in December; its ten points). The war itself: Viet. II.B. To check: [[w.pike-viet-cong]]; [[w.thayer-war-by-other-means]]; [[w.brigham-guerrilla-diplomacy]]; [[w.tang-vietcong-memoir]]; [[w.elliott-vietnamese-war]]; [[w.race-war-comes-to-long]]; the Front''s manifesto and program, as an undated pamphlet prints them (cited by [[w.asselin-hanois-road-to-the]], 88 nn.99–100); "Program of the South Viet Nam National Front for Liberation," Dec. 20, 1960, TTU, Pike Collection, Unit V, box 1 (cited by [[w.moyar-triumph-forsaken]], 104 n.46). Check: Asselin, 88, has the program adopted in February 1961.'
     src:
       c: 09de93c0
       rows:
@@ -658,6 +691,7 @@ entries:
         - 'via w.asselin-hanois-road-to-the 88 n.100: B'
         - 'w.moyar-triumph-forsaken 103–04: A-B'
         - 'via w.moyar-triumph-forsaken 104 n.46: B'
+        - 'w.futrell-united-states-air-force 58: all'
     tags: [province:tay-ninh]
     short: the National Liberation Front
   - id: cal.1960-12-20.middle-east-dimona
@@ -699,6 +733,18 @@ entries:
         - 'w.sorensen-kennedy 238–39: all'
         - 'via x.1960-12.sorensen-check-list-for-the-president-elect: A'
     tags: [name:kennedy-john-f, name:sorensen-theodore-c]
+  - id: cal.1960-12-21.laos
+    when: Dec. 21
+    date: '1960-12-21'
+    thread: laos
+    c: 'Over Vang Vieng. Lieutenant Colonel Butler Toland, the air attaché in Saigon, in his VC-47 within a hundred feet of a Soviet Il-14 dropping supplies, photographs it with a hand-held camera, fifteen minutes in its pattern. His Dec. 20 pictures: eighteen parachutes on the ground, heavy road traffic some twenty-two miles north of Vientiane.'
+    n: '[[w.anthony-war-in-northern-laos]], 34. To check: CINCPAC to Actg CHPEO Savannakhet, 172359Z Dec. 60 (cited by [[w.anthony-war-in-northern-laos]], 34 n.6a); Butler B. Toland, Jr., interview by Robert G. Zimmerman, Nov. 18, 1974 (cited by [[w.anthony-war-in-northern-laos]], 34 n.6b).'
+    src:
+      c: 88d38231
+      rows:
+        - 'w.anthony-war-in-northern-laos 34: all'
+        - 'via w.anthony-war-in-northern-laos 34 n.6a: all'
+        - 'via w.anthony-war-in-northern-laos 34 n.6b: all'
   - id: cal.1960-12-22.railroads
     when: Dec. 22
     date: '1960-12-22'
@@ -797,10 +843,23 @@ entries:
         - 'via w.gavin-gold-dollars-and-power 56 n.66: A-D'
         - 'via w.gavin-gold-dollars-and-power 62 n.10: E'
     tags: [name:kennedy-john-f]
+  - id: cal.1960-12-27.laos
+    when: Dec. 27
+    date: '1960-12-27'
+    thread: laos
+    c: Defense and State tell CINCPAC to begin T-6 training for the Laotian air arm; ten Thai T-6s to be transferred, none to Phoumi unless he protests the Soviet airlift at the UN and says he will act unless it stops. Brown agrees.
+    n: '[[w.anthony-war-in-northern-laos]], 35. To check: SECSTATE/SECDEF to AmEmb Vientiane, 688, Dec. 27, 1960 (cited by [[w.anthony-war-in-northern-laos]], 35 n.11a); AmEmb Vientiane to SECSTATE, 1191, Dec. 28, 1960 (cited by [[w.anthony-war-in-northern-laos]], 35 n.11b). Names: Phoumi Nosavan, Brown.'
+    src:
+      c: 4452a104
+      rows:
+        - 'w.anthony-war-in-northern-laos 35: all'
+        - 'via w.anthony-war-in-northern-laos 35 n.11a: all'
+        - 'via w.anthony-war-in-northern-laos 35 n.11b: all'
+    tags: [name:phoumi-nosavan, name:brown-winthrop-g]
   - id: cal.1960-12-28.elections-1960
     when: Dec. 28–30
     date: '1960-12-28'
-    thread: elections-1960
+    thread: elections-1960-count
     also: [electoral-college]
     c: 'Hawaii''s recount, ordered by Judge Jamieson, ends: Kennedy over Nixon, 92,410 to 92,295, 50.0 percent, a 115-vote margin, where the first count gave Nixon 141. Jamieson declares the Kennedy electors appointed, Dec. 30.'
     n: 'Haw. *Result of Votes Cast, General Election*, Nov. 8, 1960, ["Result of Recount"](https://archive.org/download/HI-hist/1960_General.pdf#page=23), [totals](https://archive.org/download/HI-hist/1960_General.pdf#page=28). Votes: [Clerk of the House, *Statistics of the Presidential and Congressional Election of November 8, 1960*, 11](https://clerk.house.gov/member_info/electionInfo/1960election.pdf) (Elections, 1960). [[w.kallina-kennedy-v-nixon]], 181–82 (the recount, Dec. 13–30, and its figures). To check: A. A. Smyser, "How Kennedy Won 1960 Recount in Hawaii," Honolulu Star-Bulletin, June 8, 1963; Ronald B. Jamieson Papers, JFK Library (cited by [[w.kallina-kennedy-v-nixon]], 182 n.14). See [[cal.1960-11-08.elections-1960]]. Names: Kennedy, Nixon, Jamieson.'
@@ -816,7 +875,7 @@ entries:
   - id: cal.1960-12-28.elections-1960-2
     when: Dec. 28
     date: '1960-12-28'
-    thread: elections-1960
+    thread: elections-1960-count
     also: [republican-party]
     c: 'Eisenhower meets Nixon, Morton, Persons and others. Eisenhower: "we have made civil rights a main part of our effort these past eight years but have lost Negro support instead of increasing it."'
     n: '[[w.kallina-kennedy-v-nixon]], 151–52. To check: Bryce Harlow, memorandum for the record of a meeting among Eisenhower, Nixon, Thruston Morton, General Persons and others, Dec. 28, 1960, Eisenhower Library; Claude Robinson to Nixon, Hall, Finch, Oct. 21, 1960, "Campaign Evaluation as of October 14, 1960," p. 12, Nixon Library (cited by [[w.kallina-kennedy-v-nixon]], 152 n.45). Names: Eisenhower, Nixon, Morton, Persons. Check: the day, from Kallina''s note (246 n.45); his text has the remark "after the election."'
@@ -842,7 +901,7 @@ entries:
   - id: cal.1960-12-30.elections-1960
     when: Dec. 30
     date: '1960-12-30'
-    thread: elections-1960
+    thread: elections-1960-count
     c: 'Nixon to Don Maxwell of the Chicago Tribune: "The time to stop vote fraud is before and on election day and not after."'
     n: '[[w.kallina-kennedy-v-nixon]], 186. To check: Nixon to W. D. Maxwell, Dec. 30, 1960, Nixon Library (cited by [[w.kallina-kennedy-v-nixon]], 186 n.24). Names: Nixon.'
     src:
@@ -864,12 +923,35 @@ entries:
         - 'via w.bird-color-of-truth 153 n.105a: all'
         - 'via w.bird-color-of-truth 153 n.105b: all'
     tags: [name:bundy-mcgeorge]
+  - id: cal.1960-12-30.defense
+    when: Dec. 30
+    date: '1960-12-30'
+    thread: defense
+    also: [congo]
+    c: 'Eisenhower approves the revised Unified Command Plan: CINCLANT responsible for planning and operations in Africa south of the Sahara.'
+    n: '[[w.watson-into-the-missile-age]], 762. To check: Memorandum on Command Responsibility for Africa South of the Sahara, Feb. 25, 1961, Navy Department, OSD CCS files 1960, Acc 64-B2093; Cole et al., *History of the Unified Command Plan*, 29–30 (cited by [[w.watson-into-the-missile-age]], 762 n.139). See [[cal.1960-11-21.defense]]. Names: Eisenhower.'
+    src:
+      c: e27346c7
+      rows:
+        - 'w.watson-into-the-missile-age 762: all'
+        - 'via x.1961-02-25.navy-memorandum-africa-command: all'
+    tags: [name:eisenhower-dwight-d]
+  - id: cal.1960-12-30.defense-2
+    when: Dec. 30
+    date: '1960-12-30'
+    thread: defense
+    c: The *Patrick Henry* joins the *George Washington* on Polaris patrol.
+    n: '[[w.watson-into-the-missile-age]], 379. To check: [[w.polmar-death-of-the-thresher]] (cited by [[w.watson-into-the-missile-age]], 379 n.107 as "Polmar, 131"; the card''s work not certain). See [[cal.1960-11-15.defense]].'
+    src:
+      c: 959fbf1d
+      rows:
+        - 'w.watson-into-the-missile-age 379: all'
   - id: cal.1960-12-31.laos
     when: Dec. 31
     date: '1960-12-31'
     thread: laos
     c: 'Eisenhower with his advisers on Laos: Pathet Lao and Kong Le columns converging on Xieng Khouang, the Soviet airlift going on. More must be known before overt action, but Laos is not to be let fall. The Seventh Fleet''s marines and the 503rd at Okinawa alerted; Boun Oum to be pressed to have the assembly invest him.'
-    n: 'FRUS 1958–60, XVI, docs. [492](https://history.state.gov/historicaldocuments/frus1958-60v16/d492) (NSC, Dec. 20), [496](https://history.state.gov/historicaldocuments/frus1958-60v16/d496) (NSC, Dec. 29), [498](https://history.state.gov/historicaldocuments/frus1958-60v16/d498). [[w.moyar-triumph-forsaken]], 118–19 (the meeting; "We cannot let Laos fall to the Communists, even if we have to fight"); [[w.fursenko-khrushchevs-cold-war]], 335 (Dec. 31, the resupplied forces on the offensive; by late January central Laos retaken). See [[cal.1960-08-09.laos]]. Names: Eisenhower, Kong Le, Boun Oum na Champassak.'
+    n: 'FRUS 1958–60, XVI, docs. [492](https://history.state.gov/historicaldocuments/frus1958-60v16/d492) (NSC, Dec. 20), [496](https://history.state.gov/historicaldocuments/frus1958-60v16/d496) (NSC, Dec. 29), [498](https://history.state.gov/historicaldocuments/frus1958-60v16/d498). [[w.moyar-triumph-forsaken]], 118–19 (the meeting; "We cannot let Laos fall to the Communists, even if we have to fight"); [[w.fursenko-khrushchevs-cold-war]], 335 (Dec. 31, the resupplied forces on the offensive; by late January central Laos retaken); [[w.futrell-united-states-air-force]], 58 (Felt, on Washington''s direction, raises the alert of Joint Task Force 116 and asks a C-130 squadron). See [[cal.1960-08-09.laos]]. Names: Eisenhower, Kong Le, Boun Oum na Champassak.'
     src:
       c: b682e9c1
       rows:
@@ -877,6 +959,7 @@ entries:
         - 'w.moyar-triumph-forsaken 118–19: A-B'
         - 'via w.moyar-triumph-forsaken 119 n.83: A-B'
         - 'w.fursenko-khrushchevs-cold-war 335: all'
+        - 'w.futrell-united-states-air-force 58: ?'
     tags: [name:eisenhower-dwight-d, name:kong-le, name:boun-oum-na-champassak]
   - id: cal.1960-12.oil
     when: Dec.
@@ -916,7 +999,7 @@ entries:
   - id: cal.1960-12.elections-1960
     when: Dec.
     date: 1960-12
-    thread: elections-1960
+    thread: elections-1960-count
     also: [republican-party]
     c: 'Early December. Morton in Chicago: at a press conference he charges Democratic fraud and announces a National Recount and Fair Elections Committee.'
     n: '[[w.kallina-kennedy-v-nixon]], 184. To check: [[w.kallina-courthouse-over-white-house]], 96–144. See [[cal.1960-11-10.elections-1960]]. Names: Morton. Check: the day.'
@@ -1166,3 +1249,14 @@ entries:
         - 'w.sorensen-kennedy 602–03: all'
         - 'via x.1960-12.kennedy-to-mcnamara-defense-questions: all'
     tags: [name:kennedy-john-f, name:mcnamara-robert-s]
+  - id: cal.1960-12-31.laos-2
+    when: Dec. 31–Jan. 3
+    date: '1960-12-31'
+    thread: laos
+    c: The Plain of Jars lost. The North Vietnamese from the east, Kong Le's paratroopers flown in by the Soviets from the west; the FAL at Xieng Khouangville, surprised, flees to Tha Thom and Paksane. Jan. 3, Phoumi's paratroopers dropped to restore it scatter. Vang Pao's Meo withdraw to the mountains in order.
+    n: '[[w.anthony-war-in-northern-laos]], 39. Names: Kong Le, Phoumi Nosavan, Vang Pao.'
+    src:
+      c: e15ae2b0
+      rows:
+        - 'w.anthony-war-in-northern-laos 39: all'
+    tags: [name:kong-le, name:phoumi-nosavan, name:vang-pao]

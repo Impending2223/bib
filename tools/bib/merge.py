@@ -198,6 +198,12 @@ def find_duplicates(series, lst, e):
                                            or similar(plain(x.get("c", "")), plain(e.get("c", ""))) > 0.6):
                 out.append(x["id"])
             continue
+        th = f"{lst.key}.thread."
+        if lst.kind == "calendar" and str(e.get("id", "")).startswith(th) and x["id"].startswith(th):
+            # threads: one name under one parent ("Chicago" of 1960 is not of 1968), not a person's or a work's key
+            if store.fold(plain(x.get("s", ""))) == store.fold(plain(e.get("s", ""))) and x.get("parent") == e.get("parent"):
+                out.append(x["id"])
+            continue
         wk = set(refs.work_keys(e)) & set(refs.work_keys(x))
         nk = e.get("s") and x.get("s") and refs.name_key(e) and refs.name_key(e) == refs.name_key(x)
         if wk or nk:

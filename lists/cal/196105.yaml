@@ -147,13 +147,14 @@ entries:
     date: '1961-05-03'
     thread: laos
     c: Cease-fire in Laos.
-    n: FRUS 1961–63, XXIV, docs. [78](https://history.state.gov/historicaldocuments/frus1961-63v24/d78), [80](https://history.state.gov/historicaldocuments/frus1961-63v24/d80). [[w.moyar-triumph-forsaken]], 128; [[w.sorensen-kennedy]], 646. See [[cal.1961-03-23.laos]].
+    n: FRUS 1961–63, XXIV, docs. [78](https://history.state.gov/historicaldocuments/frus1961-63v24/d78), [80](https://history.state.gov/historicaldocuments/frus1961-63v24/d80). [[w.moyar-triumph-forsaken]], 128; [[w.sorensen-kennedy]], 646; [[w.anthony-war-in-northern-laos]], 51 (the cease-fire agreed by May 3; the Pathet Lao take Muong Phalane that morning). See [[cal.1961-03-23.laos]].
     src:
       c: ced87af0
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v24/d78: all'
         - 'w.moyar-triumph-forsaken 128: A'
         - 'w.sorensen-kennedy 646: A'
+        - 'w.anthony-war-in-northern-laos 51: ?'
     short: the cease-fire
   - id: cal.1961-05-03.africa
     when: May 3–5
@@ -1009,6 +1010,17 @@ entries:
     c: Johnson in Manila, Taipei, Bangkok, New Delhi and Karachi. Check the days.
     n: 'FRUS 1961–63, XIX, docs. [20](https://history.state.gov/historicaldocuments/frus1961-63v19/d20) (New Delhi, May 18), [22](https://history.state.gov/historicaldocuments/frus1961-63v19/d22) (Karachi, May 20). See [[cal.1961-05-09.vietnam]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1961-05-14.laos
+    when: May 14
+    date: '1961-05-14'
+    thread: laos
+    c: Felt ends the alert of the naval forces in the South China Sea and the Gulf of Siam.
+    n: '[[w.schulimson-joint-chiefs-of-staff]], 87. The Seventh Fleet''s commander, May 18: "we can pick up the pieces... [and be] ready to jump again" (87). Names: Felt.'
+    src:
+      c: 2ca8c91d
+      rows:
+        - 'w.schulimson-joint-chiefs-of-staff 87: all'
+    tags: [name:felt-harry-d]
   - id: cal.1961-05-15.robert-kennedy
     when: May 15
     date: '1961-05-15'
@@ -1278,6 +1290,17 @@ entries:
         - 'w.fursenko-one-hell-of-a 126: all'
         - 'via w.fursenko-one-hell-of-a 126 n.61: all'
     tags: [name:stevenson-adlai-e, name:menshikov-mikhail, name:kennedy-john-f]
+  - id: cal.1961-05-18.vietnam
+    when: May 18
+    date: '1961-05-18'
+    thread: vietnam
+    c: 'Burke directs the Bureau of Ships and the Deputy CNO (Logistics) to study craft for guerrilla and counterguerrilla war: "boats of many kinds and sizes for real fighting." The Bureau sets up a body for it June 1.'
+    n: '[[w.marolda-united-states-navy-and]], 116. Names: Burke.'
+    src:
+      c: 6ef15c60
+      rows:
+        - 'w.marolda-united-states-navy-and 116: all'
+    tags: [name:burke-arleigh-a]
   - id: cal.1961-05-19.civil-rights-the-executive
     when: May 19
     date: '1961-05-19'
@@ -2087,6 +2110,30 @@ entries:
         - 'w.preston-war-council 84: all'
         - 'via w.preston-war-council 84 n.26d: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b]
+  - id: cal.1961-05-30.laos
+    when: May 30
+    date: '1961-05-30'
+    thread: laos
+    c: Ban Padong, the Meo redoubt south of the Plain of Jars, under Pathet Lao shelling since mid-May, some four hundred rounds May 26–27; an Air America H-34 crashes there in the mist. The Joint Chiefs approve T-6 strikes at Ban Padong while the Pathet Lao violate the cease-fire; clearance needed elsewhere, or for bombs.
+    n: '[[w.anthony-war-in-northern-laos]], 53. To check: CHMAAG Laos to CINCPAC, DA IN 116915, May 27, 1961 (cited by [[w.anthony-war-in-northern-laos]], 53 n.89); CINCPAC to CHMAAG Laos, 280546Z May 61 (cited by [[w.anthony-war-in-northern-laos]], 53 n.91a); AmEmb Vientiane to SECSTATE, 2158, May 27, 1961 (cited by [[w.anthony-war-in-northern-laos]], 53 n.91b); JCS to CINCPAC, 996, May 30, 1961 (cited by [[w.anthony-war-in-northern-laos]], 53 n.91c). See [[cal.1961-05-03.laos]].'
+    src:
+      c: b320eeed
+      rows:
+        - 'w.anthony-war-in-northern-laos 53: all'
+        - 'via w.anthony-war-in-northern-laos 53 n.89: all'
+        - 'via w.anthony-war-in-northern-laos 53 n.91a: all'
+        - 'via w.anthony-war-in-northern-laos 53 n.91b: all'
+        - 'via w.anthony-war-in-northern-laos 53 n.91c: all'
+  - id: cal.1961-05-30.laos-2
+    when: May 30
+    date: '1961-05-30'
+    thread: laos
+    c: Two American "volunteer" pilots killed when their helicopter crashes trying to land supplies for the Hmong besieged by the Pathet Lao at Padong.
+    n: '[[w.schulimson-joint-chiefs-of-staff]], 87.'
+    src:
+      c: eee9cecf
+      rows:
+        - 'w.schulimson-joint-chiefs-of-staff 87: all'
   - id: cal.1961-05-31.states-and-cities
     when: May 31
     date: '1961-05-31'

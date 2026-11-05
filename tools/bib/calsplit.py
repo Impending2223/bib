@@ -61,7 +61,8 @@ STYLE:
     first entry in the part; then its dates there, by year (1, 2), as any thread's are, links and all (the owner's
     ruling, Oct. 21, 2026: the name muted, not the links); no line in a part where it has no entries. A rubric naming
     it links to that line, and a tap on it lights the ghost's entries (7). Given a statement, it is a thread's entry
-    like any other (`ghost_thread_html` in build.py).
+    like any other (`ghost_thread_html` in build.py). Its line stands in a part where it, or a ghost under it, has
+    entries; its dates are its own (15).
 10. A thread's old name stays in the index where the reader may look for it: a th.yaml entry with `s:` the old name
     and `see:` the thread's slug ("Desegregation: schools", see desegregation-schools), in its alphabetical place,
     muted and not underlined, the whole of it a link to the thread's entry in the part; nothing else, and no line in
@@ -98,6 +99,15 @@ STYLE:
     the old parts' own (cal63.thread.cuba, th2, ind-cal63-cpi: the first year over the old part's span that holds the
     like). On the index an anchor it holds stays; one nothing places, there too; an old part's page without one goes
     to the index.
+15. The index's dates are a thread's own entries (the owner's memo, Nov. 4, 2026: volume.md, section 2): those whose
+    `thread:` names it, or whose `also:` does. An entry filed under a subthread is dated on the subthread's line, a
+    ghost's included (9), not on its parent's, unless `also:` lists it in the parent too (`index_members` in build.py).
+    So every entry is dated, in plain text, on one line at least: its own thread's. A parent keeps its line, its
+    statement and its seam links (2: to its own entries) in a part where only its subthreads have entries; its
+    statement names its ghosts' events as before (statements.py, STYLE 3). The family stays together everywhere else:
+    the thread-nav line under each entry, the highlight (7), the statements, `entry_threads`, `thread_members`. On the
+    index (13) a thread's years stay its family's: each links to the thread's entry in that year's index, which stands
+    while the family has entries there.
 """
 import datetime
 import re
