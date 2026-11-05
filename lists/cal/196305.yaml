@@ -64,6 +64,17 @@ entries:
         - 'w.branch-parting-the-waters 754-55: all'
         - 'via w.branch-parting-the-waters 755 n.1: B'
     tags: [name:king-martin-luther-jr, name:shuttlesworth-fred, state:al, city:birmingham]
+  - id: cal.1963-05-01.europe-and-the-alliance
+    when: May 1
+    date: '1963-05-01'
+    thread: europe-and-the-alliance
+    c: 'The Joint Chiefs, Taylor away at CENTO, tentatively: neither the advisability nor inadvisability of the multilateral force "clearly substantiated." May 2, with McNamara and Gilpatric, a memorandum the civilians read as endorsement: no military need, but "feasible" and "a militarily effective and useful augmentation of NATO nuclear strength," given the allies'' full support.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 204–05. Names: Taylor, McNamara, Gilpatric.'
+    src:
+      c: 624b3f14
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 204–05: all'
+    tags: [name:taylor-maxwell, name:mcnamara-robert-s, name:gilpatric-roswell-l]
   - id: cal.1963-05-02.alabama
     when: May 2
     date: '1963-05-02'
@@ -575,11 +586,12 @@ entries:
     date: '1963-05-06'
     thread: defense
     c: Kennedy extends LeMay's term by one year, not the customary two, and announces that Anderson will be replaced as Chief of Naval Operations. Gilpatric and Korth see key members of Congress hours before.
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 48. Names: Kennedy, LeMay, Anderson, Gilpatric, Korth.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 48; [[w.poole-joint-chiefs-of-staff]], 4. Names: Kennedy, LeMay, Anderson, Gilpatric, Korth.'
     src:
       c: 9163f899
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 48: all'
+        - 'w.poole-joint-chiefs-of-staff 4: A'
     tags: [name:kennedy-john-f, name:lemay-curtis-e, name:anderson-george-w-jr, name:gilpatric-roswell-l, name:korth-fred]
   - id: cal.1963-05-07.mayors-baltimore
     when: May 7
@@ -1630,7 +1642,12 @@ entries:
     date: '1963-05-18'
     thread: middle-east-dimona
     c: 'Kennedy to Ben Gurion on Dimona: no more urgent business for the world than the control of nuclear weapons; the United States seeks periodic visits to the reactor. Ben Gurion replies May 27.'
-    n: 'FRUS 1961–63, XVIII, docs. [252](https://history.state.gov/historicaldocuments/frus1961-63v18/d252), [289](https://history.state.gov/historicaldocuments/frus1961-63v18/d289). Made public: FRUS 1961–63, XVIII (1995). To check: [[w.hersh-samson-option]]; [[w.cohen-israel-and-the-bomb]]; [[w.bass-support-any-friend]]. See [[cal.1961-05-30.middle-east]]. Names: Ben Gurion.'
+    n: 'FRUS 1961–63, XVIII, docs. [252](https://history.state.gov/historicaldocuments/frus1961-63v18/d252), [289](https://history.state.gov/historicaldocuments/frus1961-63v18/d289). [[w.poole-joint-chiefs-of-staff]], 241. Made public: FRUS 1961–63, XVIII (1995). To check: [[w.hersh-samson-option]]; [[w.cohen-israel-and-the-bomb]]; [[w.bass-support-any-friend]]. See [[cal.1961-05-30.middle-east]]. Names: Ben Gurion.'
+    src:
+      c: 8cdbd78e
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v18/d252: all'
+        - 'w.poole-joint-chiefs-of-staff 241: A'
     tags: [name:kennedy-john-f, name:ben-gurion-david]
     short: the letters on Dimona
   - id: cal.1963-05-18.alabama
@@ -1967,6 +1984,17 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 244: all'
     tags: [name:kennedy-robert-f, city:nyc, state:ny]
+  - id: cal.1963-05-24.europe-and-the-alliance
+    when: May 24
+    date: '1963-05-24'
+    thread: europe-and-the-alliance
+    c: Ottawa. The North Atlantic Council assigns SACEUR the British bomber force and three Polaris submarines, gives him a Nuclear Deputy, and arranges allied officers in operational planning at SAC's headquarters at Omaha, McNamara having overridden the Joint Chiefs.
+    n: '[[w.poole-joint-chiefs-of-staff]], 205. Names: McNamara.'
+    src:
+      c: 0d29d289
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 205: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1963-05-25.elections-1964
     when: May 25
     date: '1963-05-25'
@@ -2112,6 +2140,17 @@ entries:
         - 'w.thomas-robert-kennedy 441: all'
         - 'via w.thomas-robert-kennedy 441 n.re-sit-ins: all'
     tags: [name:kennedy-robert-f, name:levison-stanley-d]
+  - id: cal.1963-05-27.testing
+    when: May 27
+    date: '1963-05-27'
+    thread: testing
+    c: 'Humphrey and Dodd, with 32 cosponsors, introduce a resolution: try again for a ban on tests in the atmosphere and under water; no American tests while the Soviets refrain, the sites kept "in a state of constant readiness."'
+    n: '[[w.poole-joint-chiefs-of-staff]], 101. Names: Humphrey, Dodd.'
+    src:
+      c: 7b873261
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 101: all'
+    tags: [name:humphrey-hubert-h, name:dodd-thomas-j]
   - id: cal.1963-05-28.mississippi
     when: May 28
     date: '1963-05-28'
@@ -2677,3 +2716,47 @@ entries:
         - 'w.asselin-hanois-road-to-the 155–56: all'
         - 'via x.1963-09-25.note-conversation-avec-la-boissiere: all'
     tags: [name:ngo-dinh-nhu, place:saigon]
+  - id: cal.1963-05.defense
+    when: May
+    date: 1963-05
+    thread: defense
+    c: Anderson, his relief announced, hears that OSD's officials are spreading their version of his exchange with McNamara in Flag Plot during the missile crisis; he gives McNamara "a lecture on integrity."
+    n: '[[w.poole-joint-chiefs-of-staff]], 299. Check: the day; Poole dates it only after the announcement of May 6. See [[cal.1963-05-06.defense]]. Names: Anderson, McNamara.'
+    src:
+      c: 601f0125
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 299: all'
+    tags: [name:anderson-george-w-jr, name:mcnamara-robert-s]
+  - id: cal.1963-05.defense-2
+    when: May
+    date: 1963-05
+    thread: defense
+    c: 'McNamara answers Kennedy on tactical air forces: "fair to say that we have sufficient aircraft programmed." His figures, a Sino-Soviet edge of 12,965 to 11,564 in 1963, a Free World edge of 10,367 to 6,980 in 1968.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 73. See [[cal.1962-11-09.defense]]. Names: McNamara, Kennedy.'
+    src:
+      c: d80cee0b
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 73: all'
+    tags: [name:mcnamara-robert-s, name:kennedy-john-f]
+  - id: cal.1963-05.china
+    when: May
+    date: 1963-05
+    thread: china
+    c: 'The Joint Chiefs to McNamara: early nuclear response would not change force levels; the Nationalists on Taiwan "a continuing deterrent threat" and a strategic reserve. Rusk: Nationalists in Southeast Asia would almost surely bring Chinese intervention.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 281. Names: McNamara, Rusk.'
+    src:
+      c: eaacc821
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 281: all'
+    tags: [name:mcnamara-robert-s, name:rusk-dean]
+  - id: cal.1963-05.japan
+    when: May
+    date: 1963-05
+    thread: japan
+    c: 'Reischauer foresees de facto integration of Japan and the Ryukyus; accommodation the prudent course, administration perhaps returned with the bases kept. The Joint Chiefs: concessions would "risk undermining the US military position"; no return even as a fallback.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 292. Names: Reischauer.'
+    src:
+      c: 2eebfea7
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 292: all'
+    tags: [name:reischauer-edwin-o]
