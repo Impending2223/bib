@@ -30,34 +30,70 @@ The rest hold for the units their maps give; where the page bears out only part 
 
 ## Passed over
 
-Dated events of 1960–Jan. 20, 1969 on the pages read for this pass that the calendar does not take, a row each, for the owner to rule on. The volume's operational narrative (single missions, sortie and loss counts, unit moves, tactics, logistics, base construction) is passed over as minor throughout and not listed event by event; the volume was not reread cover to cover in this pass.
+Dated events of 1960–Jan. 20, 1969 on the pages read for this pass that the calendar does not take, a row each, for the owner to rule on. The first pass read the pages the calendar cites; the military re-read of Nov. 5, 2026 (below) entered the dated operations its script and reading found and lists the rest here row by row.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
-| 46 | Aug. 11 and 18, 1960 | Felt has JTF 116's staff assembled after Kong Le's coup; Pacific Fleet units to the South China Sea | minor (fleet movements) |
+| 46 | Aug. 11 and 18, 1960 | Felt has JTF 116's staff assembled after Kong Le's coup; Pacific Fleet units to the South China Sea | entered (cal.1960-08-11.laos, cal.1960-08-18.laos) |
 | 46 | Aug. 16, 1960 | the Assembly votes Souvanna prime minister | to leads (the calendar has the coup, Aug. 9, not the vote) |
-| 84 | July 2, 1962 | the Geneva conference reconvenes to ratify the Laos agreement | minor (the signing, July 23, is in) |
-| 84 | Oct. 6, 1962 | the last of MAAG Laos leaves the country | to leads (the withdrawal under the Geneva agreement) |
-| 89 | Mar. 14, 1960 | Felt proposes an antiguerrilla capability in the South Vietnamese forces | minor (CINCPAC planning) |
+| 84 | July 2, 1962 | the Geneva conference reconvenes to ratify the Laos agreement | lead (the conference's record; the signing, July 23, is in) |
+| 84 | Oct. 6, 1962 | the last of MAAG Laos leaves the country | already in (cal.1962-10-06.laos) |
+| 89 | Mar. 14, 1960 | Felt proposes an antiguerrilla capability in the South Vietnamese forces | lead (R8: CINCPAC's paper, 89 n.5) |
 | 98 | Feb. 2, 1961 | Kennedy reads Lansdale's report on Vietnam | already in (cal.1961-01-28.vietnam, the thread's first) |
-| 100 | Feb. 1961 | Burke's message to Felt on Kennedy's counterguerrilla charge to the services | minor |
+| 100 | Feb. 1961 | Burke's message to Felt on Kennedy's counterguerrilla charge to the services | lead (R8: the message's day) |
 | 127 | Nov. 14, 1961 | Kennedy directs Nolting to tell Diệm the United States is "prepared to join" in a sharply increased effort | to leads (the instruction, FRUS 1961–63, I, not checked) |
-| 219–20 | Nov. 1961–Jan. 1962 | the Navy's and CINCPAC's opposition to a separate command; MACV subordinate to CINCPAC | minor (in the MACV entry's note) |
-| 272 | Oct. 29–31, 1963 | the JCS send the Oriskany group and an amphibious ready group toward Vũng Tàu | minor (precautionary fleet movement) |
-| 273 | Nov. 1, 1963 | Captain Quyền, the Vietnamese Navy's chief, killed by a fellow officer | minor |
-| 335 | Dec. 18–20, 1963 | the Subic conference on the PTF boats; McNamara approves the concept of OPLAN 34A in Saigon, Dec. 20 | to leads (34A's approval; the calendar has the Honolulu order of Nov. 20 in its note) |
-| 375 | Apr. 22–23, 1964 | the Kitty Hawk group sent toward the South China Sea during the Vientiane coup | minor |
-| 379 | May 21, 1964 | the Navy's first Yankee Team mission; an RF-8A hit | minor |
-| 382 | Aug. 21, 1964 | Klusmann escapes from the Pathet Lao | to leads |
-| 386 | June 8–10, 1964 | Lynn rescued; McNamara questions the escort tactics; Nitze's answer | minor |
+| 219–20 | Nov. 1961–Jan. 1962 | the Navy's and CINCPAC's opposition to a separate command; MACV subordinate to CINCPAC | lead (R8: the papers' days; the MACV entry's note) |
+| 272 | Oct. 29–31, 1963 | the JCS send the Oriskany group and an amphibious ready group toward Vũng Tàu | lead (R14: the JCS's order, its day, 272) |
+| 273 | Nov. 1, 1963 | Captain Quyền, the Vietnamese Navy's chief, killed by a fellow officer | lead (R10: the coup's day, cal.1963-11-01.vietnam; add by cite once read again) |
+| 335 | Dec. 18–20, 1963 | the Subic conference on the PTF boats; McNamara approves the concept of OPLAN 34A in Saigon, Dec. 20 | entered (cal.1963-12-20.vietnam); the Subic conference a lead (its record) |
+| 375 | Apr. 22–23, 1964 | the Kitty Hawk group sent toward the South China Sea during the Vientiane coup | entered (cal.1964-04-22.laos) |
+| 379 | May 21, 1964 | the Navy's first Yankee Team mission; an RF-8A hit | entered (cal.1964-05-21.laos) |
+| 382 | Aug. 21, 1964 | Klusmann escapes from the Pathet Lao | entered (cal.1964-08-21.laos) |
+| 386 | June 8–10, 1964 | Lynn rescued; McNamara questions the escort tactics; Nitze's answer | lead (R14: the rescue's day; the memoranda, 386) |
 | 424 | Aug. 3–4, 1964 | the second 34A raid, on Vinh Sơn and the Ròn River | to leads (the calendar has the raids of July 30–31 only) |
-| 440 | Aug. 4, 1964 | McNamara orders mines flown to the carriers | minor |
-| 453 | Aug. 8 and 17, 1964 | CINCPAC proposes another destroyer patrol; Sharp's program of follow-up pressures | minor (planning) |
-| 459 | Sept. 21–23, 1964 | the Navy's Barton investigation of the Sept. 18 incident; its preliminary report | minor |
-| 495–96 | Feb. 11–16, 1965 | a seaplane detachment at Đà Nẵng, opened and withdrawn | minor |
-| 505 | Mar. 15, 1965 | the Navy's first Rolling Thunder strike, on the Phú Quí depot | minor (operations) |
+| 440 | Aug. 4, 1964 | McNamara orders mines flown to the carriers | lead (R14: the order; cal.1964-08-04.vietnam, by cite) |
+| 453 | Aug. 8 and 17, 1964 | CINCPAC proposes another destroyer patrol; Sharp's program of follow-up pressures | lead (R8: CINCPAC's messages, 453) |
+| 459 | Sept. 21–23, 1964 | the Navy's Barton investigation of the Sept. 18 incident; its preliminary report | entered (cal.1964-09-21.vietnam) |
+| 495–96 | Feb. 11–16, 1965 | a seaplane detachment at Đà Nẵng, opened and withdrawn | entered (cal.1965-02-11.vietnam-operations) |
+| 505 | Mar. 15, 1965 | the Navy's first Rolling Thunder strike, on the Phú Quí depot | entered (cal.1965-03-15.vietnam-air-war) |
 | 512 | Mar. 15, 1965 | the White House conference approves turning Barrel Roll to interdiction | to leads (the meeting of Mar. 15, below) |
 | 531 | Feb. 26, 1965 | the White House meeting that evening sends Harold K. Johnson to Vietnam | already in (cal.1965-03-02.vietnam, D) |
 | 531–32 | Mar. 15, 1965 | Johnson with McNamara and the Joint Chiefs: South Vietnam to be held with whatever it takes, ground troops included | to leads (no FRUS document filed that day; Cosmas and the Pentagon Papers to be read) |
 | 532 | Mar. 29, 1965 | McNamara, Taylor and the Chiefs: enclaves on the coast, decided tentatively | to leads |
-| 532 | Mar. 30, 1965 | Moorer gives the Pacific Fleet to Roy Johnson | minor |
+| 532 | Mar. 30, 1965 | Moorer gives the Pacific Fleet to Roy Johnson | lead (the change of command; the Executive roster's military officers) |
+| 10 | June 30, 1960 | the Navy's active strength 618,000, down 59,000 in three years | minor (a figure, not an event; the Armed Forces Day tables) |
+| 116 | June 1, 1961 | the Bureau of Ships' body on small craft set up | in cal.1961-05-18.vietnam |
+| 147 | Apr. 2, 1960 | the Vietnamese Naval Academy's eighth class graduates | minor (the institution's routine) |
+| 154 | Aug. 8, 1961 | the LSIL *Long Dan* (as the OCR prints it) aground at Phú Quốc on a resupply run | minor (a supply run, R18) |
+| 182 | Jan. 27, 1963 | Task Force 76, MACV and the naval attaché coordinate the beach surveys | minor (a staff meeting with nothing new) |
+| 185 | Jan. 3–Feb. 17, 1963 | the Navy's EA-1Fs on air alert again at Tân Sơn Nhứt | lead (R14: the deployment's orders) |
+| 197 | Oct. 21, 1963 | a SEABEE team moves to Plei Me | minor (a unit's routine) |
+| 199 | Feb. 13, 1964 | thirteen bridges rebuilt | minor (a unit's routine) |
+| 224 | Dec. 28, 1961 | King to Vietnam to plan the Vietnamese navy's supply | minor (a posting) |
+| 225 | Apr. 1, 1962 | the Joint General Staff creates the naval staff's intelligence department | lead (R10: the order) |
+| 241–42 | Aug. 29–Sept. 6, 1962; Apr. 7–14, 1963 | the *Queenfish* and *Capitaine* train with the Vietnamese navy | minor (exercises the work does not treat as events) |
+| 245, 247 | Sept. 1962; June 1, 1963 | the 22d River Assault Group; the Vietnamese navy's river decision | lead (the orders' days) |
+| 253 | Feb. 9, 1962 | Anderson to Felt on the Navy's logistic support in Vietnam | lead (R8: the letter, 253) |
+| 257 | Aug. 15, 1962 | the armed forces' radio station's first broadcast in Saigon | lead (the station; Check its name) |
+| 285, 289 | Mar. 2–Apr. 12, Mar. 5, 1962 | an exercise; the CNO's directive on the PGM prototypes | lead (R14: the exercise's name, 285) |
+| 340 | Feb. 1–Mar. 3, 1964 | the Nastys from Bergen to the Philippines | in cal.1964-01-19.vietnam |
+| 346, 350 | Jan. 7, 1964 | CINCPAC's conference on the SEABEEs and Army engineers; Oxley in Saigon | minor (a staff conference; a posting) |
+| 376 | May 9, 1964 | CINCPAC orders the fleet's reconnaissance survey | lead (the order's matter, 376) |
+
+## The military re-read (Nov. 5, 2026)
+
+The brief `notes/briefs/military-reread.md` (R14). The copy as before (`unitedstatesnavy02maro`, archive.org): the text by its hOCR split by leaf, folio = leaf − 20 (checked on 100, 300, 505 and every page cited, by the running head). The full dates of 1960–Jan. 20, 1969 were listed by script, read against the calendar's days (`./bib ledger find`), and each date the calendar lacks was read on its page with its footnotes. Every page cited was OCR'd again from its page image and its dates and figures matched.
+
+Not yet re-read: the dates the volume gives without a year ("on 22 April") and the chapters' undated passages; chs. XIV–XV (the Gulf of Tonkin, held up in the first pass) were not read again.
+
+Patch `inbox/2026-11-04-mil-marolda.yaml`: 28 new entries. Laos: Task Force 116's staff, Aug. 11, 1960; the fleet to the South China Sea, Aug. 18, 1960; the *Kitty Hawk* group, Apr. 22, 1964; the Navy's first Yankee Team mission, May 21, 1964; Klusmann's escape, Aug. 21, 1964; Mụ Giạ Pass, Feb. 28, 1965. Vietnam: the AD-6s shipped, Sept. 1, 1960; the small-craft study, May 18, 1961; the junk force's clash, July 9, 1961; Felt with Diệm, Sept. 29, 1961; the SEAL teams, Jan. 1, 1962; the *Cook*'s surveys, Jan. 4–27, 1962; the patrol at the 17th parallel, Feb. 17–Aug. 1, 1962; Honolulu and the junk force, Feb. 19, 1962; HSAS, July 1, 1962; the PT boats for covert operations, Sept. 27 and Oct. 6, 1962; the naval zones, Oct. 16, 1963; 34A approved, Dec. 20, 1963; the Desoto directive, Jan. 7, 1964; the PTFs shipped, Jan. 19, 1964; MACSOG, Jan. 24, 1964; OPLAN 37-64, Apr. 21, 1964; the Barton investigation, Sept. 21, 1964; the Desoto patrol renewed, Jan. 28, 1965; the seaplane detachment, Feb. 11–16, 1965; the Navy's first Rolling Thunder strike, Mar. 15, 1965.
+
+Witnesses: `inbox/witnesses/2026-11-04-mil-marolda.yaml`, three (the messages and the Secretary's conference record the footnotes give for those entries); the edges in `sources/witnesses/by-work/marolda-united-states-navy-and.yaml`. The OCR runs the footnotes together and mangles their numbers, so the other entries' records stand in their notes' "To check:" where the passage's note could be told, and are left for the next run where it could not.
+
+## Leads
+
+Foreign
+- The Oriskany group and the amphibious ready group toward Vũng Tàu, Oct. 29–31, 1963 (Marolda 272): the JCS's order.
+- Lynn's rescue, June 8, 1964, and McNamara's question on the escort tactics (386).
+- The mines flown to the carriers, Aug. 4, 1964 (440): McNamara's order, for cal.1964-08-04.vietnam.
+- The armed forces' radio station's first broadcast, Saigon, Aug. 15, 1962 (257): its name.

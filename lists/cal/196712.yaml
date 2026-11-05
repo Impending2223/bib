@@ -1186,13 +1186,30 @@ entries:
     date: '1967-12-19'
     thread: vietnam
     c: Military operations in Southeast Asia to be curtailed for Christmas, New Year's and Tet 1968; Sharp's operating authorities for the stand-downs.
-    n: '[[w.macv-command-history-1967]], 354 (the Joint Chiefs'' announcement). To check: CINCPAC to COMUSMACV, 192234Z Dec 67, "Military Operating Authorities During Holiday Stand-down" (cited by [[w.macv-command-history-1967]], 354 n.11). Names: Sharp. Check: the day of the Joint Chiefs'' announcement.'
+    n: '[[w.macv-command-history-1967]], 354 (the Joint Chiefs'' announcement); [[w.cosmas-joint-chiefs-of-staff]], 136–37 (the rules of engagement for the stand-downs, drafted by the Joint Chiefs, made "slightly more restrictive" by the civilians, promulgated Dec. 15; Sharp''s authority south and north of the 20th parallel). Check: Cosmas dates the promulgation Dec. 15 (136). To check: CINCPAC to COMUSMACV, 192234Z Dec 67, "Military Operating Authorities During Holiday Stand-down" (cited by [[w.macv-command-history-1967]], 354 n.11); JCSM-687-67 to SecDef, 9 Dec 67 (derived from JCS 2472/197), JMF 911/305 (6 Oct 67) (cited by [[w.cosmas-joint-chiefs-of-staff]], 137 n.14); Memo, DepASD(ISA) to LTG Brown, 15 Dec 67, JMF 911/305 (6 Oct 67) (cited by [[w.cosmas-joint-chiefs-of-staff]], 137 n.14); JCS 5343 to CINCPAC and CINCSAC, 160120Z Dec 67, JMF 911/305 (6 Oct 67) (cited by [[w.cosmas-joint-chiefs-of-staff]], 137 n.14). Names: Sharp. Check: the day of the Joint Chiefs'' announcement.'
     src:
       c: b114e5dd
       rows:
         - 'w.macv-command-history-1967 354: all'
         - 'via w.macv-command-history-1967 354 n.11: all'
+        - 'w.cosmas-joint-chiefs-of-staff 136–37: A-B'
+        - 'via x.1967-12-09.jcsm-687-67-to-secdef-9-dec: A-B'
+        - 'via x.1967-12-15.memo-depasd-isa-to-ltg-brown-15: A-B'
+        - 'via x.1967-12-16.jcs-5343-to-cincpac-and-cincsac-160120z: A-B'
     tags: [name:sharp-u-s-grant]
+  - id: cal.1967-12-19.laos
+    when: Dec. 19
+    date: '1967-12-19'
+    thread: laos
+    c: 'McNamara gives the Chiefs Defense''s study comparing propeller and jet aircraft in Laos, ten days for a reply; the Seventh Air Force''s answer: on the same missions the jets did better.'
+    n: '[[w.anthony-war-in-northern-laos]], 242. To check: Working Paper 67/16, Dir/Ops Analysis, 7th AF, Comparative Analysis of Propeller and Jet Aircraft, Dec. 18, 1967 (cited by [[w.anthony-war-in-northern-laos]], 242 n.45a); JCS to CINCPAC, 5606, 201740Z Dec. 67, "The Use of Propeller and Jet Aircraft in SEA" (cited by [[w.anthony-war-in-northern-laos]], 242 n.45b). Names: McNamara.'
+    src:
+      c: b5df6050
+      rows:
+        - 'w.anthony-war-in-northern-laos 242: all'
+        - 'via w.anthony-war-in-northern-laos 242 n.45a: all'
+        - 'via w.anthony-war-in-northern-laos 242 n.45b: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1967-12-20.opinion
     when: Dec. 20
     date: '1967-12-20'
@@ -1423,16 +1440,30 @@ entries:
       rows:
         - 'w.macv-command-history-1967 263–64: all'
     tags: [name:sharp-u-s-grant, name:westmoreland-william, name:johnson-lyndon-b, name:park-chung-hee]
+  - id: cal.1967-12-23.laos
+    when: Dec. 23
+    date: '1967-12-23'
+    thread: laos
+    c: Nam Bac. All 880 men of GM 15 lifted by Laotian and Air America helicopters to Muong Ngoi, joining Vang Pao; the Laotian air force's fourteen sorties against the mortars that answer.
+    n: '[[w.anthony-war-in-northern-laos]], 237. Names: Vang Pao.'
+    src:
+      c: f39ce856
+      rows:
+        - 'w.anthony-war-in-northern-laos 237: all'
+    tags: [name:vang-pao]
   - id: cal.1967-12-24.vietnam
     when: Dec. 24–25
     date: '1967-12-24'
     thread: vietnam
     c: The Christmas stand-down, 24 hours, 6 p.m. Dec. 24 to 6 p.m. Dec. 25.
-    n: '[[w.macv-command-history-1967]], 354. See [[cal.1967-12-19.vietnam-4]].'
+    n: '[[w.macv-command-history-1967]], 354; [[w.cosmas-joint-chiefs-of-staff]], 137 (118 violations, 40 "major"; at least 750 trucks moving south between Thanh Hóa and Đồng Hới; Sharp does not strike). To check: NMCC OPSUM 300-67,26 Dec 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 137 n.15); DIA IB 251-67,28 Dec 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 137 n.15). See [[cal.1967-12-19.vietnam-4]].'
     src:
       c: 4549db30
       rows:
         - 'w.macv-command-history-1967 354: all'
+        - 'w.cosmas-joint-chiefs-of-staff 137: A-C'
+        - 'via x.1967-12-26.nmcc-opsum-300-67-26-dec-67: A-C'
+        - 'via x.1967-12-28.dia-ib-251-67-28-dec-67: A-C'
   - id: cal.1967-12-25.vietnam
     when: Dec. 25
     date: '1967-12-25'
@@ -1459,6 +1490,16 @@ entries:
         - 'w.macv-command-history-1967 367: all'
         - 'via w.macv-command-history-1967 367 n.38: all'
     tags: [province:quang-tri]
+  - id: cal.1967-12-25.laos
+    when: Dec. 25
+    date: '1967-12-25'
+    thread: laos
+    c: 'Christmas Day: the Pathet Lao 14th and 18th Battalions overrun the tacan site at Muong Phalane; two Air Force technicians, a Filipino and three Thai employees of Air America killed. Reoccupied without resistance Dec. 29.'
+    n: '[[w.anthony-war-in-northern-laos]], 264–65.'
+    src:
+      c: 88cd4479
+      rows:
+        - 'w.anthony-war-in-northern-laos 264–65: all'
   - id: cal.1967-12-26.crime-and-hijacking-miami
     when: Dec. 26
     date: '1967-12-26'
@@ -1867,11 +1908,19 @@ entries:
     date: '1967-12-31'
     thread: vietnam
     c: The New Year's stand-down, 36 hours, from 6 p.m. Dec. 31.
-    n: '[[w.macv-command-history-1967]], 354 (to 0600, Jan. 2, 1968). See [[cal.1967-12-19.vietnam-4]].'
+    n: '[[w.macv-command-history-1967]], 354 (to 0600, Jan. 2, 1968); [[w.cosmas-joint-chiefs-of-staff]], 137 (set for 6 p.m. Dec. 31 to the same hour Jan. 1; at the Pope''s appeal State proposes Dec. 28 twelve hours more, to 6 a.m. Jan. 2; Abrams reluctant, Westmoreland for more daylight, the Joint Chiefs against). To check: State 90178 to Saigon, 28 Dec 67, OCJCS File 091 Vietnam Dec 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 137 n.16); Saigon 14540 to State, 280945Z Dec 67, OCJCS File 091 Vietnam Dec 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 137 n.16); DEPCOMUSMACV to CINCPAC, 282216Z Dec 67, OCJCS File 091 Vietnam Dec 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 137 n.16); Memo, Actg CJCS to Actg SecDef, "New Year''s Ceasefire ," 28 Dec 67, OCJCS File 091 Vietnam Dec 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 137 n.17); AFSSO 13AF to SSO CINCPAC, 291155Z Dec 67 (readdressed by CINCPAC, info Actg CJCS, 291912Z Dec 67), OCJCS File 091 Vietnam Dec 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 137 n.17); Saigon 14610 to State, 290721Z Dec 67, OCJCS File 091 Vietnam Dec 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 137 n.17); State 90905 to Saigon, 29 Dec 67, OCJCS File 091 Vietnam Dec 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 137 n.17). See [[cal.1967-12-19.vietnam-4]].'
     src:
       c: c08da2cf
       rows:
         - 'w.macv-command-history-1967 354: all'
+        - 'w.cosmas-joint-chiefs-of-staff 137: A-B'
+        - 'via x.1967-12-28.state-90178-to-saigon-28-dec-67: A-B'
+        - 'via x.1967-12-28.saigon-14540-to-state-280945z-dec-67: A-B'
+        - 'via x.1967-12-28.depcomusmacv-to-cincpac-282216z-dec-67: A-B'
+        - 'via x.1967-12-28.memo-actg-cjcs-to-actg-secdef-new: A-B'
+        - 'via x.1967-12-29.afsso-13af-to-sso-cincpac-291155z-dec: A-B'
+        - 'via x.1967-12-29.saigon-14610-to-state-290721z-dec-67: A-B'
+        - 'via x.1967-12-29.state-90905-to-saigon-29-dec-67: A-B'
   - id: cal.1967-12-31.vietnam-2
     when: Dec. 31
     date: '1967-12-31'

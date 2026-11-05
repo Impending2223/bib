@@ -201,7 +201,15 @@ entries:
     date: '1968-06-02'
     thread: vietnam
     c: 'Saigon. A rocket from an American helicopter strikes a South Vietnamese command post: six officials killed, among them the police chief, the port director, a brother-in-law of Kỳ and the commander of the 5th Ranger Group; the mayor wounded.'
-    n: '[[w.cq-weekly-report]], June 7, 1968, 1404. Names: Kỳ.'
+    n: '[[w.cq-weekly-report]], June 7, 1968, 1404; [[w.cosmas-joint-chiefs-of-staff]], 209. To check: MFR, DepDir for Opns, NMCC, "Ground Operations SVN, 2 Jun 68," 2 Jun 68, OCJCS File 091 Vietnam Jun 68 (cited by [[w.cosmas-joint-chiefs-of-staff]], 209 n.21); Memo, DepDir for Opns, NMCC, to CJCS, "Accidental Delivery of Ordnance," 4 Jun 68, OCJCS File 091 Vietnam Jun 68 (cited by [[w.cosmas-joint-chiefs-of-staff]], 209 n.21); COMUSMACV 16447 to JCS and CINCPAC, 080817Z Jun 68, OCJCS File 091 Vietnam Jun 68 (cited by [[w.cosmas-joint-chiefs-of-staff]], 209 n.21). Names: Kỳ.'
+    src:
+      c: f78ca8d8
+      rows:
+        - 'w.cq-weekly-report June 7, 1968, 1404: all'
+        - 'w.cosmas-joint-chiefs-of-staff 209: A'
+        - 'via x.1968-06-02.mfr-depdir-for-opns-nmcc-ground-operations: A'
+        - 'via x.1968-06-04.memo-depdir-for-opns-nmcc-to-cjcs: A'
+        - 'via x.1968-06-08.comusmacv-16447-to-jcs-and-cincpac-080817z: A'
     tags: [name:nguyen-cao-ky, place:saigon]
   - id: cal.1968-06-03.court
     when: June 3
@@ -279,6 +287,17 @@ entries:
       c: df42bb81
       rows:
         - 'w.macv-command-history-1968 77: all'
+  - id: cal.1968-06-03.vietnam-may-offensive
+    when: June 3
+    date: '1968-06-03'
+    thread: vietnam-may-offensive
+    c: Thiệu, after long American urging, unifies the command of all his forces defending the capital under a Military Governor of Saigon and Gia Định. MACV sets up a Capital Military Assistance Command under the deputy commander of II Field Force, over all American units and advisers there.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 209. By late June, 27 American and South Vietnamese maneuver battalions in Gia Định; Saigon''s defense taking, by Abrams''s estimate, over half the allied maneuver battalions (209). Names: Nguyễn Văn Thiệu.'
+    src:
+      c: fb75f3aa
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 209: all'
+    tags: [name:nguyen-van-thieu, place:saigon]
   - id: cal.1968-06-04.elections-1968
     when: June 4
     date: '1968-06-04'
@@ -868,6 +887,17 @@ entries:
         - 'w.shesol-mutual-contempt 458: all'
         - 'via x.1968-06-06.agenda-evening-meeting-funeral: all'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:humphrey-hubert-h]
+  - id: cal.1968-06-06.europe-and-the-alliance
+    when: June 6
+    date: '1968-06-06'
+    thread: europe-and-the-alliance
+    c: Clifford sends the REDCOSTE draft proposals to the Joint Chiefs and the services for comment.
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 501. See [[cal.1968-03.europe-and-the-alliance]]. Names: Clifford.'
+    src:
+      c: 92933c0e
+      rows:
+        - 'w.drea-mcnamara-clifford-and-the-2011 501: all'
+    tags: [name:clifford-clark]
   - id: cal.1968-06-07.republican-party
     when: June 7
     date: '1968-06-07'
@@ -1281,12 +1311,13 @@ entries:
     date: '1968-06-11'
     thread: vietnam-may-offensive
     c: Twenty-five rockets on Saigon, the most in a day. In June 102 rockets on the city, 58 civilians and four soldiers killed; the last attack June 21. The Viet Cong had boasted "100 rockets a day for 100 days."
-    n: '[[w.macv-command-history-1968]], 133; The morning of June 11 the most destructive series of mortar and rocket attacks on Saigon to date (140). To check: Unpublished Rpt, MACJ031, 30 Jun 68 (cited by [[w.macv-command-history-1968]], 133 n.197).'
+    n: '[[w.macv-command-history-1968]], 133; The morning of June 11 the most destructive series of mortar and rocket attacks on Saigon to date (140). [[w.cosmas-joint-chiefs-of-staff]], 209 (the last rocket attack on Saigon June 21). To check: Unpublished Rpt, MACJ031, 30 Jun 68 (cited by [[w.macv-command-history-1968]], 133 n.197).'
     src:
       c: 6e3c8978
       rows:
         - 'w.macv-command-history-1968 133: all'
         - 'via w.macv-command-history-1968 133 n.197: all'
+        - 'w.cosmas-joint-chiefs-of-staff 209: C'
     tags: [place:saigon]
   - id: cal.1968-06-12.testing
     when: June 12
@@ -1987,6 +2018,16 @@ entries:
       rows:
         - 'w.macv-command-history-1968 1050: all'
     tags: [name:nguyen-van-thieu, place:hue]
+  - id: cal.1968-06-19.soviet-union-czechoslovakia
+    when: June 19–30
+    date: '1968-06-19'
+    thread: soviet-union-czechoslovakia
+    c: The Warsaw Pact's exercises, announced in May, in Czechoslovakia and other East European states; Soviet troops stay in Czechoslovakia after them.
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 496. To check: the sources of 496 nn.40–41 (Grabo, "Soviet Deception"; Eugene Rostow to Rusk, May 10, 1968, FRUS 1964–68, XVII, 193–94). See [[cal.1968-07-15.soviet-union]].'
+    src:
+      c: '54226124'
+      rows:
+        - 'w.drea-mcnamara-clifford-and-the-2011 496: all'
   - id: cal.1968-06-20.economy
     when: June 20
     date: '1968-06-20'
@@ -2226,6 +2267,18 @@ entries:
         - 'w.woods-fulbright 491: all'
         - 'via x.1968-06-23.hayes-ties-fulbright-to-lloyds: all'
     tags: [name:fulbright-j-william, state:ar]
+  - id: cal.1968-06-22.vietnam-air-war
+    when: June 22
+    date: '1968-06-22'
+    thread: vietnam-air-war
+    c: Nitze approves for planning up to 1,800 B-52 sorties a month through December, to be reviewed within 60 days, and more B-52s in Thailand, the Thai government consenting. The review never takes place.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 214, 243. To check: Memo, DepSecDef to CJCS, "B-52 Sortie Rate," 22 Jun 68, Att to JCS 2472/274-2, 24 Jun 68, JMF 911/323 (15 Apr 68) (cited by [[w.cosmas-joint-chiefs-of-staff]], 214 n.39). See [[cal.1968-03-22.vietnam-air-war]]. Names: Nitze.'
+    src:
+      c: b388f011
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 214, 243: all'
+        - 'via x.1968-06-22.memo-depsecdef-to-cjcs-b-52-sortie: all'
+    tags: [name:nitze-paul]
   - id: cal.1968-06-23.opinion
     when: June 23
     date: '1968-06-23'
@@ -2333,12 +2386,16 @@ entries:
     thread: vietnam-air-war
     also: [laos]
     c: Turnpike, the tactical air and B-52 campaign against the enemy's movement through Route Package I and the Steel Tiger and Tiger Hound areas of Laos, ends; MACV judges its objectives largely met.
-    n: '[[w.macv-command-history-1968]], 407–08. Check: the day Turnpike began (the History''s page, its columns garbled in the copy, not read for it). To check: COMUSMACV to CJCS, 120929Z Jun 68, "Operation TURNPIKE" (cited by [[w.macv-command-history-1968]], 407 n.143).'
+    n: '[[w.macv-command-history-1968]], 407–08; [[w.cosmas-joint-chiefs-of-staff]], 212 (Turnpike, the regular use of B-52s against the trail in Laos, discontinued June 15; Arc Light case by case thereafter). Check: the day Turnpike began (the History''s page, its columns garbled in the copy, not read for it). Check: Cosmas has Turnpike discontinued June 15 (212). To check: COMUSMACV to CJCS, 120929Z Jun 68, "Operation TURNPIKE" (cited by [[w.macv-command-history-1968]], 407 n.143); OASD (SA), "Interdiction Campaign since March 31," 22 Aug 68, OCJCS File 091 Vietnam Aug 68 (cited by [[w.cosmas-joint-chiefs-of-staff]], 212 n.31); COMUSMACV 18202 to CDR 7th AF, 250141Z Jun 68, JCS IN 92362 (cited by [[w.cosmas-joint-chiefs-of-staff]], 212 n.31); Combat Analysis Group, J-3, "Statistical Digest of Military Developments in Southeast Asia," CAG Statistical Series, vol. I, no. 7, 3 Feb 69 (cited by [[w.cosmas-joint-chiefs-of-staff]], 212 n.31).'
     src:
       c: 5574e7cb
       rows:
         - 'w.macv-command-history-1968 407–08: all'
         - 'via w.macv-command-history-1968 407 n.143: all'
+        - 'w.cosmas-joint-chiefs-of-staff 212: A'
+        - 'via x.1968-08-22.oasd-sa-interdiction-campaign-since-march-31: A'
+        - 'via x.1968-06-25.comusmacv-18202-to-cdr-7th-af-250141z: A'
+        - 'via x.1969-02-03.combat-analysis-group-j-3-statistical-digest: A'
   - id: cal.1968-06-25.vietnam
     when: June 25–26
     date: '1968-06-25'

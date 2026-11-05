@@ -470,12 +470,17 @@ entries:
     date: '1967-11-06'
     thread: vietnam-force-levels
     c: McNamara approves the Secretary of the Army's request to send the 11th Infantry Brigade to Vietnam by sea in December, to close by Dec. 24 with 4,659 men, its training there in a low-risk area.
-    n: '[[w.macv-command-history-1967]], 153. To check: JCS to CINCPAC, 072232Z Nov 67, "Deployment of Army Units to SVN" (cited by [[w.macv-command-history-1967]], 153 n.27). Names: McNamara.'
+    n: '[[w.macv-command-history-1967]], 153; [[w.cosmas-joint-chiefs-of-staff]], 95 (McNamara''s approval of Nov. 6; Resor had asked both units sent by air). To check: JCS to CINCPAC, 072232Z Nov 67, "Deployment of Army Units to SVN" (cited by [[w.macv-command-history-1967]], 153 n.27). Names: McNamara.'
     src:
       c: fad6d64b
       rows:
         - 'w.macv-command-history-1967 153: all'
         - 'via w.macv-command-history-1967 153 n.27: all'
+        - 'w.cosmas-joint-chiefs-of-staff 95: A'
+        - 'via x.1967-10-16.memo-seca-to-secdef-16-oct-67: A'
+        - 'via x.1967-10-20.memo-seca-to-secdef-20-oct-67: A'
+        - 'via x.1967-10-31.memo-seca-to-secdef-31-oct-67: A'
+        - 'via x.1967-11-06.memo-secdef-to-seca-6-nov-67: A'
     tags: [name:mcnamara-robert-s]
   - id: cal.1967-11-06.vietnam-operations
     when: Nov. 6
@@ -809,6 +814,33 @@ entries:
         - 'via x.1967-11-09.mcmath-criticizes-fulbright: A'
         - 'via x.1967-11-02.fulbrights-stand-tested-tv-poll: B'
     tags: [name:mcmath-sidney-s, name:fulbright-j-william, state:ar, ok:result-form]
+  - id: cal.1967-11-08.vietnam-air-war
+    when: Nov. 8
+    date: '1967-11-08'
+    thread: vietnam-air-war
+    c: Johnson authorizes seventeen new targets round Hanoi and Haiphong, the air defense control facilities at Bạch Mai airfield, three shipyards in each city, rail yards, two plants and three POL sites. Stray bombs from the Bạch Mai raid kill an Indian sergeant of the International Control Commission in downtown Hanoi.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 82. Wheeler to Sharp: strike them in a "measured and deliberate manner" to keep the "noise level" down (82). Oct. 23–Nov. 20, 48 aircraft lost over North Vietnam, 39 in Route Package VI (83). To check: CJCS 9610-67 to CINCPAC, 8 Nov 67, OCJCS File 091 Vietnam Nov 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 82 n.39); Memo, DepDir for Ops, NMCC to SecDef, "Aircraft Losses over North Vietnam, 17-20 November 1967," 20 Nov 67, OCJCS File 091 Vietnam Nov 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 83 n.41). See [[cal.1967-10-23.vietnam]]. Names: Johnson, Wheeler, Sharp.'
+    src:
+      c: 5f10a1b2
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 82: all'
+        - 'via x.1967-11-08.cjcs-9610-67-to-cincpac-8-nov: all'
+        - 'via x.1967-11-20.memo-depdir-for-ops-nmcc-to-secdef: all'
+    tags: [name:johnson-lyndon-b, name:wheeler-earle, name:sharp-u-s-grant, place:hanoi]
+  - id: cal.1967-11-08.vietnam-air-war-2
+    when: Nov. 8
+    date: '1967-11-08'
+    thread: vietnam-air-war
+    c: McNamara declares the MK-36 Destructor mine "just another weapon," authorized against all permissible targets, the prohibited zones included. Operational since April, it had been treated as a mine, for waters south of the 20th parallel only.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 82. To check: J-3 Briefing Sheet for CJCS, "JCS 2343/751-1," 21 Dec 66, JMF 9155.3 (7 Dec 65) (cited by [[w.cosmas-joint-chiefs-of-staff]], 82 n.40); JCS 2729 to CINCPAC, 14 Apr 67, OCJCS File 091 Vietnam Nov 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 82 n.40); JCS 2385 to CINCPAC, 082343Z Nov 67, OCJCS File 091 Vietnam Nov 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 82 n.40). Names: McNamara.'
+    src:
+      c: 1ee7f25d
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 82: all'
+        - 'via x.1966-12-21.j-3-briefing-sheet-for-cjcs-jcs: all'
+        - 'via x.1967-04-14.jcs-2729-to-cincpac-14-apr-67: all'
+        - 'via x.1967-11-08.jcs-2385-to-cincpac-082343z-nov-67: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1967-11-09.space
     when: Nov. 9
     date: '1967-11-09'
@@ -933,6 +965,30 @@ entries:
     c: 'New York, Nixon''s apartment, Theodore White''s first call: no "new Nixon," only time to read these eight years, Moynihan among others; a book with Price nearly done, on the last third of the century; of the feud with Rockefeller, two quantities too large for one party; "I''ve always thought this country could run itself domestically without a President ... the President makes foreign policy."'
     n: '[[w.white-making-of-the-president-1969]], 144, 146–47. Names: Nixon, Theodore White, Price, Rockefeller, Moynihan.'
     tags: [name:nixon-richard-m, name:white-theodore-h, name:price-raymond-k-jr, name:rockefeller-nelson, name:moynihan-daniel-patrick, state:ny, city:nyc]
+  - id: cal.1967-11-10.laos
+    when: Nov. 10
+    date: '1967-11-10'
+    thread: laos
+    also: [vietnam-air-war]
+    c: The first Commando Club strike on North Vietnam directed from the radar on Phou Pha Thi, Lima Site 85, operational in early November; such strikes 13 percent of those on the North in November, 55 percent by February 1968.
+    n: '[[w.anthony-war-in-northern-laos]], 252–53. See [[cal.1966-07-14.laos]].'
+    src:
+      c: 0e5bbdd3
+      rows:
+        - 'w.anthony-war-in-northern-laos 252–53: all'
+  - id: cal.1967-11-10.vietnam-air-war
+    when: Nov. 10
+    date: '1967-11-10'
+    thread: vietnam-air-war
+    c: McNamara approves the Joint Chiefs' surge to 1,200 B-52 sorties a month and more B-52s at U Tapao, 25 not 30.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 96. To check: JCSM-55-4-67 to SecDef, 14 Oct 67 (derived from JCS 2477/166-5), JMF 907/323 (4 Oct 67) (cited by [[w.cosmas-joint-chiefs-of-staff]], 96 n.20); Memo, SecDef to SecAF, CJCS, ASD(ISA), 10 Nov 67, Att to JCS 2472/166-7, 14 Nov 67, JMF 907/323 (4 Oct 67) (cited by [[w.cosmas-joint-chiefs-of-staff]], 96 n.20). See [[cal.1967-10-14.vietnam-air-war]]. Names: McNamara.'
+    src:
+      c: a00eb374
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 96: all'
+        - 'via x.1967-10-14.jcsm-55-4-67-to-secdef-14: all'
+        - 'via x.1967-11-10.memo-secdef-to-secaf-cjcs-asd-isa: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1967-11-11.war-opposition
     when: Nov. 11
     date: '1967-11-11'
@@ -2289,6 +2345,19 @@ entries:
         - 'w.thomas-robert-kennedy 350: A'
         - 'via w.thomas-robert-kennedy 350 n.november-27-rfk-meeting-with-mcnamara: A'
     tags: [name:kennedy-robert-f, name:mcnamara-robert-s, name:kennedy-edward-m, name:johnson-lyndon-b]
+  - id: cal.1967-11-28.vietnam-air-war
+    when: Nov. 28
+    date: '1967-11-28'
+    thread: vietnam-air-war
+    c: McNamara delegates to the Joint Chiefs, for CINCPAC and CINCSAC, the approval of Arc Light strikes in southern North Vietnam up to the 17th parallel, as they asked Oct. 2.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 96. To check: JCSM-532-67 to SecDef, 2 Oct 67 (derived from JCS 2472/157), JMF 912/323 (11 Sep 67) (cited by [[w.cosmas-joint-chiefs-of-staff]], 96 n.21); Memo, SecDef to CJCS, 28 Nov 67, Att to JCS 2472/157-1, 30 Nov 67, JMF 912/323 (11 Sep 67) (cited by [[w.cosmas-joint-chiefs-of-staff]], 96 n.21). Names: McNamara.'
+    src:
+      c: cbca9bbb
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 96: all'
+        - 'via x.1967-10-02.jcsm-532-67-to-secdef-2-oct: all'
+        - 'via x.1967-11-28.memo-secdef-to-cjcs-28-nov-67: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1967-11-29.defense
     when: Nov. 29
     date: '1967-11-29'

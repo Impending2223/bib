@@ -91,3 +91,12 @@ Dated events of Jan. 20, 1961–1965 in the volume that the calendar does not ta
 | 472 | Oct. 15, 1964 | the first F-111A rolled out | minor |
 | 415 | Nov. 14, 1964 | NSAM 318: one voice on the MLF | to leads (the thread has Dec. 7) |
 | 465 | Nov. 19, 1964 | the base closures of November 1964 | entered (cal.1964-11-19.defense) |
+
+## The military re-read (Nov. 5, 2026): not done
+
+The brief `notes/briefs/military-reread.md` (R14) reached this volume last in group osd, and no copy could be read: archive.org's `mcnamaraascendan0005unse` is borrow-only (its text, page index and page images answer 401), there is no DTIC scan of it on archive.org (searched by title and by "DTIC"), history.defense.gov refuses this environment (403), and the owner's copy on Drive (`OSDSeries_Vol5.pdf`, 34 MB, found by search) is served by the connector only inline, as base64, too large to take into the session; not tried. The blanket sentence in "Passed over" above stands until the volume is re-read: its classes (the testimony days, the services' and OSD's program memoranda, the budget's internal calendar, the reserve reorganization's steps, military assistance's hearings) and the operations of Cuba, Berlin, Laos and Vietnam the first pass checked only by date are the next run's, row by row.
+
+## Leads
+
+National
+- A readable copy of the volume for the military re-read: the owner's Drive PDF, downloaded on the owner's machine into the session's scratchpad, or archive.org's borrowed copy read by a person.

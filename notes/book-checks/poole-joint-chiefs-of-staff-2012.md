@@ -37,7 +37,7 @@ Entries mapped: 24; records logged: 18 (found and read 9, found and not read or 
 
 ## Passed over
 
-Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and the calendar does not take, a row each, for the owner to rule on. Method: every dated mention on the pages read for the entries (not the whole volume) was found by pattern; a mention on a day the calendar holds an entry of a related thread (Vietnam, Laos, Defense, Cuba, Berlin, Korea, the alliance, the Middle East and the like) was taken as already in and is not listed; the rest were read and ruled here, the calendar checked by day where the ruling says "already in". Operational detail (single missions, sorties, losses, unit moves) is passed over as minor throughout.
+Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and the calendar does not take, a row each, for the owner to rule on. Method: every dated mention on the pages read for the entries (not the whole volume) was found by pattern; a mention on a day the calendar holds an entry of a related thread (Vietnam, Laos, Defense, Cuba, Berlin, Korea, the alliance, the Middle East and the like) was taken as already in and is not listed; the rest were read and ruled here, the calendar checked by day where the ruling says "already in". (The sentence that stood here, passing over operational detail as a class, is struck: the military re-read below, R14 and R48.)
 
 | Page | Date | Event | Why |
 |---|---|---|---|
@@ -59,3 +59,36 @@ Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and
 | 241 | Jan. 28–Feb. 2, 1968 | 182 aircraft to South Korea | minor |
 | 244 | Mar. 1, 1968 | the Joint Chiefs on J-3's report on Korea | minor |
 | 244 | Apr. 17, 1968 | Johnson and Park at Honolulu | already in under cal.1968-04-15.japan-and-korea |
+
+## The military re-read (Nov. 5, 2026): pp. 137–252
+
+The owner's ruling of Oct. 30 (R14, R48; `notes/briefs/military-reread.md`). Copy: DTIC_ADA562566 on archive.org, its PDF's own text layer (`pdftotext -layout`; the PDF deleted at once); printed folio = PDF page − 11 throughout; notes pp. 263–316, the index from p. 317. No page image checked in this run.
+
+What was read: chapters 9–13 (pp. 137–252: the Dominican Republic, Panama, the Middle East and the *Liberty*, the Congo, South Asia, East Asia, Korea and the *Pueblo*), every sentence carrying a date and a military word (pulled by pattern) and the pages around each event entered. Chapters 1–8 (pp. 1–136: Vietnam's impact, the strategic forces, the ABM, conventional forces, arms control, NATO, military assistance) were not read in this run: left for the next. Patch `inbox/2026-11-04-mil-poole-1965-68.yaml` (21 ops): 16 new entries (claimed in the ledger): the Dominican intervention from the Chiefs' order of Apr. 25, 1965, to the airborne battalions' return in July; the *Liberty*'s orders of May 23 and June 7, 1967, the *Intrepid* through Suez; the Congo's air operations suspended, Dragon Rouge promulgated, Dragon Noir; the DMZ ambush of Nov. 2, 1966; the deployments after the *Pueblo*. 5 cites with their units (Apr. 28, 1965; the *Liberty*; Stanleyville; the *Pueblo*'s seizure and release).
+
+Witnesses: not registered in this run (the notes not mapped to the sentences for want of time): a lead.
+
+### Passed over (the military re-read)
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 140 | Apr. 30, 1965 | the OAS votes an International Security Zone in the diplomatic quarter | already in under cal.1965-04-30.latin-america |
+| 143 | May 13, 1965 | Palmer, with Bennett, proposes widening the corridor to take the radio station | lead |
+| 145–46 | May 22–23, 1965 | Palmer and Vance: a Marine battalion offshore once the Brazilians arrive; the Inter-American Peace Force's act signed | lead |
+| 147 | June 8–18, 1965 | the Joint Chiefs and the Palmer–Alvim talks on Phase III | lead |
+| 148 | Sept. 2–4, Sept. 29, 1965 | the Chiefs' residual force, 7,137, a tank company in, an airborne battalion out; the artillery battalion refused | lead |
+| 149 | Jan. 6, Jan. 17, May 9, 1966 | Alvim refuses to evict soldiers from the radio station; Braga takes command; the Chiefs on the force's withdrawal | lead |
+| 151–52 | Jan. 13–17, Mar. 2, 1964 | Panama: four American soldiers dead; the F-102s and a Marine BLT kept near the Zone; the Chiefs on the canal | lead: the Panama entries of January 1964 not checked |
+| 167–68 | Dec. 5, 1966; Feb. 1967 | the Chiefs on arms for Israel after Es Samu; equipment airlifted to Jordan | lead |
+| 174 | June 8, 1967 | McNamara stops military sales and grant aid to Israel and seven Arab states; the F-4s out of Wheelus | lead |
+| 201–04 | Oct. 23, 1964; Jan. 14, Feb. 19, mid-Feb. 1965 | the Congo's air rules eased; Godley's request; the restrictions lifted; the Congolese army's napalm | lead |
+| 211 | Sept. 7, 1965 | military aid to India and Pakistan suspended | lead: the Kashmir war's entries not checked |
+| 236 | Nov. 27, 1967 | CINCPAC forwards the Counter-Infiltration Plan for Korea | lead |
+| 236–37 | Dec. 17–29, 1967; Jan. 2, 8, 1968 | the *Pueblo*'s mission approved by CINCPACFLT, CINCPAC and the Chiefs; she leaves Japan | lead: cal.1967-11-06.japan-and-korea-pueblo and the January entries to be held against them |
+| 239–44 | Jan. 24, 29–31, mid-Feb., Mar. 1, Mar. 21, 1968 | the J-3's analyses; the exercise refused; ammunition for 18 ROK divisions; the strike options | lead |
+
+## Leads (the military re-read)
+
+- National: chapters 1–8 of this volume (pp. 1–136) not read in the re-read.
+- National: this run's 21 entries' witnesses (the volume's notes, pp. 263–316) to be registered.
+- National: the "lead" rows above, each with its page.

@@ -28,11 +28,12 @@ entries:
     date: '1967-01-01'
     thread: vietnam-operations
     c: The 4th Infantry Division begins Sam Houston, border surveillance and search and destroy in western Pleiku. The 1st and 10th North Vietnamese Divisions, some 9,300, in Cambodia near the Pleiku–Kontum border.
-    n: '[[w.macv-command-history-1967]], 375.'
+    n: '[[w.macv-command-history-1967]], 375; [[w.cosmas-joint-chiefs-of-staff]], 35.'
     src:
       c: 009bc780
       rows:
         - 'w.macv-command-history-1967 375: all'
+        - 'w.cosmas-joint-chiefs-of-staff 35: A'
     tags: [province:pleiku]
   - id: cal.1967-01-02.states-and-cities
     when: Jan. 2
@@ -311,6 +312,16 @@ entries:
       rows:
         - 'w.macv-command-history-1967 1256: all'
     tags: [province:kien-hoa]
+  - id: cal.1967-01-06.laos
+    when: Jan. 6
+    date: '1967-01-06'
+    thread: laos
+    c: Six to eight hundred North Vietnamese attack Na Khang, Lima Site 36, after infiltrating its perimeter the night of Jan. 5–6, aiming at the command post. The F-105s held off by a two-hundred-foot ceiling; two A-1s of the 602d Fighter Squadron Commando from Udorn break through over the site. Repulsed.
+    n: '[[w.anthony-war-in-northern-laos]], 212–13, 216. See [[cal.1966-05-23.laos]].'
+    src:
+      c: fbb13500
+      rows:
+        - 'w.anthony-war-in-northern-laos 212–13, 216: all'
   - id: cal.1967-01-07.elections-1968
     when: Jan. 7–8
     date: '1967-01-07'
@@ -329,7 +340,7 @@ entries:
     date: '1967-01-08'
     thread: vietnam-operations
     c: 'Cedar Falls begins: some 30,000 American and South Vietnamese troops in the Iron Triangle, northwest of Saigon; the 1st and 25th Divisions, the 173rd Airborne and 196th Infantry Brigades, the 11th Armored Cavalry. Tunnels and stores destroyed. Bến Súc, some 3,500 people, moved out and razed; about 6,000 civilians taken from the area; the area made a free-fire zone.'
-    n: '[[w.vietnam-victory-in-vietnam]], 196–97 (the operation, Jan. 8; over 30,000 troops); [[w.branch-at-canaans-edge]], 570 (B-52s, bulldozers and defoliants; four villages burned, forty square miles flattened; ten thousand people to camps; American casualties 1,194 for the week). Check: *Victory in Vietnam* gives more than 3,000 American and South Vietnamese casualties (196). [[w.gibbons-u-s-government-and]], IV, 541–42 (the operation in the Iron Triangle; the tunnels and stores; Bến Súc razed, not its count; 5,987 evacuated; the free-fire zone; not the units). Check: Branch gives ten thousand inhabitants to be moved. To check: [[w.rogers-cedar-falls-junction-city]]; [[w.schell-village-of-ben-suc]]; "Allies Press Attack," NYT, Jan. 13, 1967, p. 6 (cited by [[w.branch-at-canaans-edge]], 570); Schell, *The Village ofBen Suc* (1967), passim (cited by [[w.branch-at-canaans-edge]], 570); [[w.karnow-vietnam]], 454, 477–78 (cited by [[w.branch-at-canaans-edge]], 570); [[w.appy-patriots]], 202–9 (cited by [[w.branch-at-canaans-edge]], 570); New York Times, Jan. 20, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 570). Check: Gibbons has the operation launched Jan. 9 (IV, 541).'
+    n: '[[w.vietnam-victory-in-vietnam]], 196–97 (the operation, Jan. 8; over 30,000 troops); [[w.branch-at-canaans-edge]], 570 (B-52s, bulldozers and defoliants; four villages burned, forty square miles flattened; ten thousand people to camps; American casualties 1,194 for the week); [[w.cosmas-joint-chiefs-of-staff]], 32–33 (B-52 strikes from Jan. 4; after four days twenty-three battalions under II Field Force, the 1st and 25th Divisions and the 11th Armored Cavalry; the civilians removed and resettled). Check: *Victory in Vietnam* gives more than 3,000 American and South Vietnamese casualties (196). [[w.gibbons-u-s-government-and]], IV, 541–42 (the operation in the Iron Triangle; the tunnels and stores; Bến Súc razed, not its count; 5,987 evacuated; the free-fire zone; not the units). Check: Branch gives ten thousand inhabitants to be moved. To check: [[w.rogers-cedar-falls-junction-city]]; [[w.schell-village-of-ben-suc]]; "Allies Press Attack," NYT, Jan. 13, 1967, p. 6 (cited by [[w.branch-at-canaans-edge]], 570); Schell, *The Village ofBen Suc* (1967), passim (cited by [[w.branch-at-canaans-edge]], 570); [[w.karnow-vietnam]], 454, 477–78 (cited by [[w.branch-at-canaans-edge]], 570); [[w.appy-patriots]], 202–9 (cited by [[w.branch-at-canaans-edge]], 570); New York Times, Jan. 20, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 570). Check: Gibbons has the operation launched Jan. 9 (IV, 541).'
     src:
       c: d85e17be
       rows:
@@ -340,6 +351,7 @@ entries:
         - 'via x.1967-01-13.allies-press-attack-nyt-jan-13: A, C-D'
         - 'via x.1967.schell-jonathan-the-village-ofben-suc: A, C-D'
         - 'via x.1967-01-20.new-york-times-jan-20-1967: A, C-D'
+        - 'w.cosmas-joint-chiefs-of-staff 32–33: A, E'
     tags: [place:iron-triangle, place:ben-suc]
     short: Cedar Falls
   - id: cal.1967-01-08.republican-party-congress
@@ -1035,6 +1047,19 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 506: all'
         - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d19: A-B'
     tags: [name:johnson-lyndon-b, name:mansfield-mike, name:dirksen-everett, name:fulbright-j-william, name:hickenlooper-bourke-b, name:russell-richard-b, name:aiken-george-d, name:rostow-walt-w, name:smith-margaret-chase]
+  - id: cal.1967-01-18.vietnam-air-war
+    when: Jan. 18
+    date: '1967-01-18'
+    thread: vietnam-air-war
+    c: 'Sharp''s plan to the Joint Chiefs for Route Package VI: steady pressure on six target systems, electric power, war-supporting industry, transportation, military complexes, petroleum, Haiphong and the other ports, to destroy the North''s "war making potential"; "general disruption" enough.'
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 18. To check: CINCPAC to JCS, 02224Z Feb 67, OCJCS File 091 Vietnam, Feb 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 18 n.3); CINCPAC to JCS, 182210Z Jan 67, JCS IN 53524 (cited by [[w.cosmas-joint-chiefs-of-staff]], 18 n.3). Names: Sharp.'
+    src:
+      c: dd490e9c
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 18: all'
+        - 'via x.1967-02.cincpac-to-jcs-02224z-feb-67: all'
+        - 'via x.1967-01-18.cincpac-to-jcs-182210z-jan-67: all'
+    tags: [name:sharp-u-s-grant]
   - id: cal.1967-01-19.vietnam-congress
     when: Jan. 19
     date: '1967-01-19'
@@ -1189,6 +1214,18 @@ entries:
         - 'w.woods-j-william-fulbright-vietnam 157: all'
         - 'via x.1967-01-24.notes-on-fulbright-meet-the-press: all'
     tags: [name:fulbright-j-william, name:nguyen-cao-ky]
+  - id: cal.1967-01-22.laos
+    when: Jan. 22–23
+    date: '1967-01-22'
+    thread: laos
+    c: Two North Vietnamese battalions attack Nong Khang, Lima Site 52, fifteen miles north of Samneua, about 3 a.m., hand to hand; they break off at dawn when Laotian T-28s and American A-1s arrive.
+    n: '[[w.anthony-war-in-northern-laos]], 216. To check: JANAF Attaches Laos to DIA, 4-67, 280610Z Jan. 67 (cited by [[w.anthony-war-in-northern-laos]], 216 n.95a); DIA to AIG 7010, 310210Z Jan. 67 (cited by [[w.anthony-war-in-northern-laos]], 216 n.95b).'
+    src:
+      c: 77a72d12
+      rows:
+        - 'w.anthony-war-in-northern-laos 216: all'
+        - 'via w.anthony-war-in-northern-laos 216 n.95a: all'
+        - 'via w.anthony-war-in-northern-laos 216 n.95b: all'
   - id: cal.1967-01-23.welfare
     when: Jan. 23
     date: '1967-01-23'
@@ -1400,24 +1437,27 @@ entries:
     date: '1967-01-26'
     thread: vietnam-operations
     c: 'Cedar Falls ends at midnight, after nineteen days. Counted: nearly 750 of the enemy dead, 280 prisoners, 540 ralliers, 512 suspects detained, 5,987 refugees moved; 3,700 tons of rice taken. American losses 72 killed, 337 wounded; South Vietnamese 11 killed, 8 wounded.'
-    n: '[[w.rogers-cedar-falls-junction-city]], 59, 74–75; [[w.thayer-systems-analysis-view]], vol. 4, 132. [[w.macv-command-history-1967]], 386–87 (Jan. 19, the "underground city"; 1,113 tactical air strikes and 96 B-52 missions; ended Jan. 26, 720 of the enemy killed, 3,702 tons of rice taken or destroyed, almost 6,000 refugees moved). Check: MACV''s History, 387, gives 720 of the enemy killed. See [[cal.1967-01-08.vietnam]].'
+    n: '[[w.rogers-cedar-falls-junction-city]], 59, 74–75; [[w.thayer-systems-analysis-view]], vol. 4, 132. [[w.macv-command-history-1967]], 386–87 (Jan. 19, the "underground city"; 1,113 tactical air strikes and 96 B-52 missions; ended Jan. 26, 720 of the enemy killed, 3,702 tons of rice taken or destroyed, almost 6,000 refugees moved); [[w.cosmas-joint-chiefs-of-staff]], 33 (ended Jan. 26; the losses). Check: MACV''s History, 387, gives 720 of the enemy killed. Check: Cosmas gives 720 of the enemy killed and 200 captured (33). See [[cal.1967-01-08.vietnam]].'
     src:
       c: 6b23576c
       rows:
         - 'w.rogers-cedar-falls-junction-city 59, 74–75: all'
         - 'w.thayer-systems-analysis-view vol. 4, 132: all'
         - 'w.macv-command-history-1967 386–87: A, C'
+        - 'w.cosmas-joint-chiefs-of-staff 33: A, D-E'
     tags: [place:iron-triangle]
   - id: cal.1967-01-26.vietnam
     when: Jan. 26
     date: '1967-01-26'
     thread: vietnam
     c: MACV's Practice Nine Requirements Plan, after detailed study, for a strong point and obstacle system south of the DMZ; to man it, a division more and an armored cavalry regiment. Presented to McNamara in February.
-    n: '[[w.macv-command-history-1967]], 1076–77, 1087, 1092. See [[cal.1967-01-13.vietnam-2]].'
+    n: '[[w.macv-command-history-1967]], 1076–77, 1087, 1092; [[w.cosmas-joint-chiefs-of-staff]], 38 (forwarded to CINCPAC Jan. 26, to the Joint Chiefs a week later; drawn from III MAF''s plan). To check: MACV PRACTICE NINE Requirements Plan, 26 Jan 67, end to Ltr, CINCPAC to JCS, Ser 00057, 3 Feb 67, att to JCS 2471/3, 6 Feb 67, JMF 911/321 (9 Jan 67) (cited by [[w.cosmas-joint-chiefs-of-staff]], 38 n.19). See [[cal.1967-01-13.vietnam-2]].'
     src:
       c: 6946138f
       rows:
         - 'w.macv-command-history-1967 1076–77, 1087, 1092: all'
+        - 'w.cosmas-joint-chiefs-of-staff 38: A'
+        - 'via x.1967-01-26.macv-practice-nine-requirements-plan-26-jan: A'
     tags: [place:dmz]
   - id: cal.1967-01-27.space
     when: Jan. 27
