@@ -45,28 +45,28 @@ Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and
 
 | Page | Date | Event | Why |
 |---|---|---|---|
-| 26 | Oct. 6, 1960 | State and Defense agree on a joint message to Durbrow and McGarr | lead |
-| 70 | Apr. 16, 1961 | Gromyko's counterproposal to the British on a Laos cease-fire | lead |
+| 26 | Oct. 6, 1960 | State and Defense agree on a joint message to Durbrow and McGarr | entered (cal.1960-10-06.vietnam; second run) |
+| 70 | Apr. 16, 1961 | Gromyko's counterproposal to the British on a Laos cease-fire | entered (cal.1961-04-16.laos; second run) |
 | 70 | May 12, 1961 | the Geneva conference on Laos called | already in under cal.1961-05-16.laos (the opening) |
 | 87 | May 20, 1961 | Rusk leaves Geneva, Harriman heads the delegation | already in under cal.1961-05-16.laos |
 | 87 | June 2–3, 1961 (as the page dates the talks) | Kennedy and Khrushchev on Laos at Vienna | already in under the Vienna Summit entries |
 | 120 | Oct. 13, 1961 | the *Times*'s Saigon story | minor |
-| 187 | Mar. 1, 1962 | Kennedy with McNamara and the Joint Chiefs after the bombing of the palace | lead |
+| 187 | Mar. 1, 1962 | Kennedy with McNamara and the Joint Chiefs after the bombing of the palace | entered (cal.1962-03-01.vietnam; second run) |
 | 241 | May 11, 1962 | McNamara's press conference in Saigon | already in under cal.1962-05-09.vietnam |
-| 251 | July 20, 1962 | the White House announces Taylor as Chairman | lead |
+| 251 | July 20, 1962 | the White House announces Taylor as Chairman | entered (cal.1962-07-20.defense-2; second run) |
 | 251 | Sept. 20 [30], 1962 | Lemnitzer's term ends | minor |
-| 280–86 | Dec. 31, 1962–Feb. 9, 1963 | Hilsman and Forrestal in Vietnam; the Wheeler team in Saigon (Jan. 18); Wheeler with the President (Feb. 1); Forrestal's proposals | lead: the Wheeler mission's days |
+| 280–86 | Dec. 31, 1962–Feb. 9, 1963 | Hilsman and Forrestal in Vietnam; the Wheeler team in Saigon (Jan. 18); Wheeler with the President (Feb. 1); Forrestal's proposals | Jan. 18 entered (cal.1963-01-18.vietnam; second run); the rest in the calendar (cal.1962-12-31.vietnam, cal.1963-01-07.vietnam, cal.1963-01-25.vietnam, cal.1963-02-01.vietnam) |
 | 290 | Apr. 14, 1963 | Vientiane on the Plain of Jars | minor |
-| 290–92 | Apr. 19–21, 1963 | Kennedy's meeting on Laos; his call to Harriman | already in under cal.1963-04-20.laos (the NSC); the call: lead |
+| 290–92 | Apr. 19–21, 1963 | Kennedy's meeting on Laos; his call to Harriman | in the calendar (cal.1963-04-19.laos-2, cal.1963-04-20.laos, cal.1963-04-21.laos) |
 | 305 | May 10–15, 1963 | the Huế clergy and the government | minor: the Buddhist crisis is in |
 | 314 | May 23, 1963 | Nolting's concurrence | minor |
-| 314 | June 1, 1963 | Diệm replaces three officials | lead |
-| 314 | June 12, 1963 | Rusk's instructions to Trueheart | lead |
-| 329 | Aug. 16–18, 1963 | three more self-immolations; the rally at Xá Lợi | lead |
+| 314 | June 1, 1963 | Diệm replaces three officials | entered (cal.1963-06-01.vietnam-2; second run) |
+| 314 | June 12, 1963 | Rusk's instructions to Trueheart | in the calendar (cal.1963-06-12.vietnam) |
+| 329 | Aug. 16–18, 1963 | three more self-immolations; the rally at Xá Lợi | entered (cal.1963-08-16.vietnam-2; second run) |
 | 335 | Aug. 25, 1963 | State agrees to Lodge's modifications | already in under cal.1963-08-24.vietnam |
 | 340–42 | Aug. 27–28, 1963 | the meetings at the White House | already in under cal.1963-08-26.vietnam |
 | 383–84 | Oct. 6 and 10, 1963 | Lodge on the pressures; rumors of attempts on Americans | minor |
-| 393 | Oct. 29, 1963 | Diệm with Lodge | already in under cal.1963-10-27.vietnam and cal.1963-10-29.robert-kennedy? lead: the day not checked |
+| 393 | Oct. 29, 1963 | Diệm with Lodge | entered (cal.1963-10-29.vietnam-saigon; the page is 394; second run) |
 | 393 | Nov. 1, 1963 | Lodge and Felt with Diệm | already in under the coup's entries |
 
 ## The military re-read (Nov. 5, 2026)
@@ -84,34 +84,49 @@ Every dated military event of the sentences read that the patch neither enters n
 | Page | Date | Event | Why |
 |---|---|---|---|
 | 14, 20 | 1954; Jan. 1959 | Radford's study; Lê Duẩn's report to the Politburo | out of the brief: before Jan. 6, 1960 |
-| 38 | Jan. 7, 1961 | Felt: a task force would "deploy rapidly to Laos and make an airborne and airlanded operation" | lead |
-| 49 | Mar. 20, 1961 | the Joint Chiefs to CINCPAC: the Royalists must retake the crossroads | lead |
+| 38 | Jan. 7, 1961 | Felt: a task force would "deploy rapidly to Laos and make an airborne and airlanded operation" | entered (cal.1961-01-07.laos; second run) |
+| 49 | Mar. 20, 1961 | the Joint Chiefs to CINCPAC: the Royalists must retake the crossroads | entered (cal.1961-03-20.laos-2, cal.1961-03-21.laos-3; second run) |
 | 64 | Apr. 1961 | eight B-26s ready, sixteen more by mid-April | minor: a readiness figure; already in under the Laos entries of March–April (not checked) |
-| 66 | Apr. 3–4, 1961 | the Chiefs' report on the measures of Mar. 9; McNamara asks Thai leave for B-26 flights over Laos | lead |
-| 78 | Apr. 27, 1961 | the request at Bangkok for SEATO's Code Yellow | lead |
-| 83 | May 2, 1961 | the Chiefs tell Felt SEATO Plan 5 questioned "at high levels" | lead |
-| 105–11 | Aug. 14–Sept. 15, 1961 | the Joint Chiefs' team under Craig to Thailand, Laos and South Vietnam; its report | lead |
-| 106 | Aug. 29, 1961 | Lemnitzer presents the revised SEATO Plan 5 | lead |
-| 148, 150 | Nov. 3, Nov. 30, 1961 | Lemnitzer's defoliation programs; NSAM 115 authorizing defoliation | lead |
-| 157 | Nov. 16, 1961 | the Joint Staff's draft order for a joint command in Saigon | lead |
-| 163–66 | Nov. 8–Dec. 14, 1961 | McGarr's national operation plan; Diệm rejects the Zone D command arrangements | lead |
-| 184 | Feb. 22, 1962 | Felt's appraisal of the war to the Joint Chiefs | lead |
-| 190 | Mar. 16, 1962 | Diệm signs the strategic hamlet order | lead |
-| 198, 206 | Jan. 21–Feb. 7, May 5, 1962 | the fighting round Nam Tha; Nam Ha overrun | lead |
-| 210, 212 | Oct. 3, Dec. 26, 1961 | Lemnitzer's "outline program for limited holding actions"; the Chiefs approve CINCPAC's plan for SEATO | lead |
-| 214 | Mar. 28, 1962 | Felt directs MAAG's addendum for the advisers' return from Laos | lead |
-| 219 | May 2, 1962 | Muong Sing captured | lead |
-| 224 | May 11, 1962 | Decker, acting Chairman, on the Laos measures | lead |
-| 233–36 | May 24–June 4, 1962 | the meetings and plans for operations in Laos | lead |
-| 247 | week ending June 1, 1962 | 174 enemy attacks, the year's high | lead: a figure, to an existing entry |
-| 254 | Aug. 1, 1962 | McNamara recommends herbicides on the mangroves | lead |
+| 66 | Apr. 3–4, 1961 | the Chiefs' report on the measures of Mar. 9; McNamara asks Thai leave for B-26 flights over Laos | entered (cal.1961-04-03.laos-2, cal.1961-04-04.laos; second run) |
+| 78 | Apr. 27, 1961 | the request at Bangkok for SEATO's Code Yellow | entered (cal.1961-04-27.laos-3; second run) |
+| 83 | May 2, 1961 | the Chiefs tell Felt SEATO Plan 5 questioned "at high levels" | entered (cal.1961-05-02.laos-2; second run) |
+| 105–11 | Aug. 14–Sept. 15, 1961 | the Joint Chiefs' team under Craig to Thailand, Laos and South Vietnam; its report | entered (cal.1961-08-14.laos, cal.1961-09-15.laos; second run) |
+| 106 | Aug. 29, 1961 | Lemnitzer presents the revised SEATO Plan 5 | in the calendar (cal.1961-08-29.laos): cited, 106 (second run) |
+| 148, 150 | Nov. 3, Nov. 30, 1961 | Lemnitzer's defoliation programs; NSAM 115 authorizing defoliation | entered (cal.1961-11-03.vietnam-2, cal.1961-11-30.vietnam; second run) |
+| 157 | Nov. 16, 1961 | the Joint Staff's draft order for a joint command in Saigon | entered (cal.1961-11-16.vietnam-macv; second run) |
+| 163–66 | Nov. 8–Dec. 14, 1961 | McGarr's national operation plan; Diệm rejects the Zone D command arrangements | entered (cal.1961-12-14.vietnam (McGarr's plan of Nov. 8 not dated on the pages read: a row below); second run) |
+| 184 | Feb. 22, 1962 | Felt's appraisal of the war to the Joint Chiefs | entered (cal.1962-02-22.vietnam; second run) |
+| 190 | Mar. 16, 1962 | Diệm signs the strategic hamlet order | entered (cal.1962-03-16.vietnam; second run) |
+| 198, 206 | Jan. 21–Feb. 7, 1962 | the fighting round Nam Tha | in the calendar (cal.1962-01.laos-2, cal.1962-02-01.laos): cited, 205–6 (second run). Nam Ha (198) undated on the page; no "May 5" on 206 |
+| 210, 212 | Oct. 3, Dec. 26, 1961 | Lemnitzer's "outline program for limited holding actions"; the Chiefs approve CINCPAC's plan for SEATO | entered (cal.1961-10-03.laos-2, cal.1961-12-26.laos; second run) |
+| 214 | Mar. 28, 1962 | Felt directs MAAG's addendum for the advisers' return from Laos | entered (cal.1962-03-28.laos; second run) |
+| 219 | May 2, 1962 | Muong Sing captured | entered (cal.1962-05-02.laos; second run) |
+| 224 | May 11, 1962 | Decker, acting Chairman, on the Laos measures | in the calendar (cal.1962-05-11.laos-2) |
+| 233–36 | May 24–June 4, 1962 | the meetings and plans for operations in Laos | in the calendar (cal.1962-05-24.laos and the Laos entries to June 4); not reread in the second run |
+| 247 | week ending June 1, 1962 | 174 enemy attacks, the year's high | entered (cal.1962-06-01.vietnam-operations; second run) |
+| 254 | Aug. 1, 1962 | McNamara recommends herbicides on the mangroves | entered (cal.1962-08-01.vietnam (FRUS 1961–63, II, doc. 254 its record); second run) |
 | 262 | Oct. 1, 1962 | troops and marshals at Oxford, Miss. | already in (the Mississippi thread) |
-| 271 | Oct. 29, Nov. 5, 1962 | McNamara and the Chiefs on MACV's plan ("too thin") | lead |
-| 287 | Feb. 23, Mar. 14, 1963 | Harkins's and Krulak's figures on the Viet Cong's incidents | lead |
-| 290 | Apr. 10, 1963 | the NSC on Kong Lê's position | lead |
-| 352–54 | Aug. 20, Aug. 30, 1963 | Taylor forwards CINCPAC's plan for withdrawing 1,000; the Joint Chiefs' reevaluation | lead |
+| 271 | Oct. 29, Nov. 5, 1962 | McNamara and the Chiefs on MACV's plan; Kennedy on the Cuba plan ("too thin") | entered: cal.1962-10-29.vietnam; Nov. 5 in the calendar (cal.1962-11-05.missile-crisis-2) (second run) |
+| 287 | Feb. 23, Mar. 14, 1963 | Harkins's and Krulak's figures on the Viet Cong's incidents | entered (cal.1963-02-23.vietnam, cal.1963-03-14.vietnam; second run) |
+| 290 | Apr. 10, 1963 | the NSC on Kong Lê's position | entered (cal.1963-04-10.laos (FRUS 1961–63, XXIV, doc. 452 its record); second run) |
+| 352–54 | Aug. 20, Aug. 30, 1963 | Taylor forwards CINCPAC's plan for withdrawing 1,000; Riley's report on the Marine brigade | Aug. 20 in the calendar (cal.1963-08-20.vietnam-force-levels); Aug. 30 entered (cal.1963-08-30.vietnam-saigon; second run) |
+
+## The military re-read, second run (Nov. 5, 2026)
+
+The same copy (`DTIC_ADA543332`), its hOCR search text split by leaf, each leaf given the folio it prints (the offset 10 at p. 90, 9 at p. 191, 7 at p. 293, 6 at p. 354, interpolated between). Read: each row of both Passed over tables marked "lead", its page and the passage round it, held against the calendar by day in every thread and in the ledger; the endnotes (pp. 404–477, headed "Notes to Pages ...") searched for each entry's record by the page and the date. FRUS read where the daybook files a document of the day: 1961–63, I, doc. 131 (Craig's briefing), II, doc. 254 (the herbicides), XXIV, doc. 452 (the NSC of Apr. 10, 1963), each cited first.
+
+Patch `inbox/2026-11-05-mil2-shulimson.yaml` (patch `mil2-shulimson`): 37 ops, 35 new entries claimed in the ledger; 2 cites (cal.1961-08-29.laos, 106, the revised SEATO Plan 5; cal.1962-01.laos-2, 205–6, Nam Tha's garrison and losses). Witnesses: `inbox/witnesses/2026-11-05-mil2-shulimson.yaml`, 7 (JCS 992240 and CINCPAC's answer, Mar. 20–21, 1961; JCS 993269 and 993343, Apr. 3–4, 1961; JCS 1126 to Craig; Craig's report; the Chiefs' approval of Dec. 26, 1961), their edges in `sources/witnesses/by-work/schulimson-joint-chiefs-of-staff.yaml`. The other entries' notes were not matched (the OCR's note numbers too broken to tie without the images): a lead.
+
+### Passed over (the second run)
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 163–64 | Nov. 1961 | McGarr's national operation plan; his dispute with Thompson; Nolting's cable of Nov. 30 | the plan and the dispute not dated on the pages read (a lead); Nolting's cable entered (cal.1961-11-30.vietnam-2, FRUS 1961–63, I, doc. 299) |
+| 280 | Jan. 7, 1963 | the Wheeler team authorized | in the calendar (cal.1963-01-07.vietnam) |
 
 ## Leads (the military re-read)
 
 - National: the volume's notes to be read off the page images (archive.org, DTIC_ADA543332) and the witnesses of this run's 25 entries registered.
 - National: the "lead" rows above.
+- National: the witnesses of the second run's 27 entries without one (the endnotes, pp. 404–477, by the page images) and the first run's 25.
+- National: McGarr's national operation plan of November 1961 and its day (Shulimson 163–64; the notes there).

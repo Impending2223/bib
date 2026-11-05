@@ -17,6 +17,9 @@ line under the holder's dates, every source linked where it can be:
     Federal Register, Jan. 20, 1953   the issue (govinfo)
     BD 1415                      the printed Biographical Directory of Congress (2005), by page (govinfo; the pages
                                  from sources/bd/, tools/lives/make_bd.py)
+    Hearing CHRG-87shrg64577     the printed hearing on the nomination (sources/nomination-hearings.yaml, govinfo's
+                                 Congressional Hearings), shown "Hearing, Jan. 17, 1961", the title on hover
+                                 (tools/bib/hearings.py, STYLE 2)
     a URL                        the page, labeled by its site
     anything else                sources/executive-sources.yaml, the register of named works: each a pattern,
                                  the full citation, and its link; else shown as written
@@ -112,7 +115,7 @@ def fmt_month(d):
 
 # ---------------------------------------------------------------- reading the list
 
-KNOWN = re.compile(r"^(CDIR|Congressional Directory|Cong\. Rec|CR,|Wikipedia|POCOM|FRUS|APP|https?://|Federal Register"
+KNOWN = re.compile(r"^(Hearing CHRG-|CDIR|Congressional Directory|Cong\. Rec|CR,|Wikipedia|POCOM|FRUS|APP|https?://|Federal Register"
                    r"|K–J |Viet\. |Wg\. |Adm\. |Opp\. |Cong\. |1968 |Part III|cal\.|executive/)")
 FRAGMENT = re.compile(r"^(exhibit \d+|p\. \d+|pp\. [\d, –-]+|app\. [IVX]+|[IVXL]+|\d{4}–\d{4}|\d{4}\)|\d{4}-\d{2})$")
 
@@ -367,6 +370,11 @@ def one(s, h, ctx=None):
     if m:
         hit = bd_pages().get(int(m.group(1)))
         return None, (a(BD_PDF.format(*hit), s) if hit else s)
+    m = re.match(r"^Hearing (CHRG-\S+)$", s)
+    if m:
+        from . import hearings
+        t = hearings.src_html(m.group(1))
+        return ("Hearing", t) if t else (None, esc(s))
     m = re.match(r"^CDIR (\d{4}-\d{2})(?: to (\d{4}-\d{2}))?$", s)
     if m:
         t = cdir_link(m.group(1))
@@ -500,6 +508,8 @@ KINDS = [
     ("APP", "Gerhard Peters and John T. Woolley, *The American Presidency Project* (presidency.ucsb.edu): "
             "nominations, appointments, resignations, and orders, by date."),
     ("FR", "*Federal Register* (govinfo): executive orders and designations, by issue."),
+    ("Hearing", "The hearings before the Senate's committees on the nomination, as GPO printed them (govinfo, "
+                "Congressional Hearings; the catalogue's days held), by the first day held."),
     ("BD", "*Biographical Directory of the United States Congress, 1774–2005*, H. Doc. 108-222 (Government Printing "
            "Office, 2005; govinfo): a member's later offices, by page."),
 ]
@@ -544,7 +554,7 @@ def kind(s):
     for pre, k in (("CDIR", "CDir."), ("Congressional Directory", "CDir."), ("Cong. Rec", "CR"),
                    ("CR,", "CR"), ("POCOM", "POCOM"), ("FRUS", "FRUS"), ("Wikipedia", "Wikipedia"),
                    ("APP", "APP"), ("https://www.presidency.ucsb.edu", "APP"), ("https://history.state.gov", "FRUS"),
-                   ("Federal Register", "FR"), ("BD ", "BD")):
+                   ("Federal Register", "FR"), ("BD ", "BD"), ("Hearing CHRG-", "Hearing")):
         if s.startswith(pre):
             return k
     for r in register():

@@ -1,0 +1,1363 @@
+# The printed nomination hearings (govinfo's Congressional Hearings) as the primary record of the calendar's
+# entries on the nominations, and an entry for each hearing of a nominee the calendar names that has none.
+# Made by the pass of Nov. 5, 2026 (tools/sources/make_nomination_hearings.py; tools/bib/hearings.py). Each
+# hearing cited was opened (GPO's PDF, its text layer): the day by its heading, the nominee's testimony by his
+# statement or first answer, the page by its folio. Not merged.
+patch: nomination-hearings
+by: Claude (the printed nomination hearings, govinfo; Nov. 5, 2026)
+ops:
+- add:
+    entry:
+      id: cal.1961-01-17.defense-2
+      when: Jan. 17
+      date: '1961-01-17'
+      thread: defense
+      c: The Senate Armed Services Committee hears Roswell L. Gilpatric on his nomination as Deputy Secretary of Defense.
+      n: '[*Nomination of Roswell L. Gilpatric: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64585),
+        1. Names: Gilpatric.'
+      tags:
+      - name:gilpatric-roswell-l
+- add:
+    entry:
+      id: cal.1961-01-17.defense-3
+      when: Jan. 17
+      date: '1961-01-17'
+      thread: defense
+      c: The Senate Armed Services Committee hears Elvis J. Stahr Jr. on his nomination as Secretary of the Army.
+      n: '[*Nomination of Elvis J. Stahr: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64586),
+        1. Names: Stahr.'
+      tags:
+      - name:stahr-elvis-j-jr
+- add:
+    entry:
+      id: cal.1961-01-18.defense
+      when: Jan. 18
+      date: '1961-01-18'
+      thread: defense
+      c: The Senate Armed Services Committee hears John Connally on his nomination as Secretary of the Navy.
+      n: '[*Nomination of John B. Connally, Jr.: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64582),
+        3. Names: Connally.'
+      tags:
+      - name:connally-john
+- add:
+    entry:
+      id: cal.1961-01-18.transition-and-staff
+      when: Jan. 18
+      date: '1961-01-18'
+      thread: transition-and-staff
+      c: The Senate Judiciary Committee hears Byron R. White on his nomination as Deputy Attorney General.
+      n: '[*Byron R. White, Deputy Attorney General-Designate: Hearing Before the S. Comm. on the Judiciary*, 87th Cong.
+        (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64584), 1. Names: White.'
+      tags:
+      - name:white-byron-r
+- add:
+    entry:
+      id: cal.1961-01-18.defense-2
+      when: Jan. 18
+      date: '1961-01-18'
+      thread: defense
+      c: The Senate Armed Services Committee hears Eugene M. Zuckert on his nomination as Secretary of the Air Force.
+      n: '[*Nomination of Eugene M. Zuckert: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64587),
+        1. Names: Zuckert.'
+      tags:
+      - name:zuckert-eugene-m
+- add:
+    entry:
+      id: cal.1961-01-18.defense-3
+      when: Jan. 18
+      date: '1961-01-18'
+      thread: defense
+      c: 'The Senate Armed Services Committee hears nominees: Paul Nitze, Assistant Secretary of Defense (International
+        Security Affairs); Charles J. Hitch, Assistant Secretary of Defense (Comptroller); Cyrus Vance, General Counsel
+        of the Department of Defense; Arthur Sylvester, Assistant Secretary of Defense (Public Affairs); Thomas D. Morris,
+        Assistant Secretary of Defense (Supply and Logistics).'
+      n: '[*Nominations: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64588),
+        1 (Nitze), 13 (Hitch), 20 (Vance), 22 (Sylvester), 26 (Morris). Names: Nitze, Hitch, Vance, Sylvester, Morris.'
+      tags:
+      - name:hitch-charles-j
+      - name:morris-thomas-d
+      - name:nitze-paul
+      - name:sylvester-arthur
+      - name:vance-cyrus
+- add:
+    entry:
+      id: cal.1961-01-18.transition-and-staff-2
+      when: Jan. 18
+      date: '1961-01-18'
+      thread: transition-and-staff
+      c: The Senate Judiciary Committee hears William H. Orrick Jr. on his nomination as Assistant Attorney General.
+      n: '[*William H. Orrick, Jr., Assistant Attorney General-Designate: Hearing Before the S. Comm. on the Judiciary*,
+        87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64922), 1. Names: Orrick.'
+      tags:
+      - name:orrick-william-h-jr
+- add:
+    entry:
+      id: cal.1961-01-24.transition-and-staff-2
+      when: Jan. 24
+      date: '1961-01-24'
+      thread: transition-and-staff
+      c: 'The Senate Foreign Relations Committee hears nominees: Murat W. Williams, Ambassador to El Salvador; George W.
+        Ball, Under Secretary of State for Economic Affairs; Roger W. Jones, Deputy Under Secretary of State for Administration;
+        G. Mennen Williams, Assistant Secretary of State for African Affairs.'
+      n: '[*Nominations of Murat W. Williams, George W. Ball, Roger W. Jones, and G. Mennen Williams: Hearing Before the
+        S. Comm. on Foreign Relations*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64718), 2 (Williams),
+        10 (Ball), 54 (Jones), 74 (Williams). Names: Murat Williams, Ball, Jones, G. Williams.'
+      tags:
+      - name:ball-george-w
+      - name:jones-roger-w
+      - name:williams-g-mennen
+      - name:williams-murat-w
+- add:
+    entry:
+      id: cal.1961-01-25.jobs-and-wages
+      when: Jan. 25
+      date: '1961-01-25'
+      thread: jobs-and-wages
+      c: 'The Senate Labor and Public Welfare Committee hears nominees: W. Willand Wirtz, Under Secretary of Labor; Jerry
+        R. Holleman, Assistant Secretary of Labor; Esther Peterson, Director of the Women''s Bureau.'
+      n: '[*Nominations: Hearing Before the S. Comm. on Labor and Public Welfare*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64853),
+        1 (Wirtz), 6 (Holleman), 9 (Peterson). Names: Holleman, Peterson.'
+      tags:
+      - name:holleman-jerry-r
+      - name:peterson-esther
+- add:
+    entry:
+      id: cal.1961-01-25.economy
+      when: Jan. 25
+      date: '1961-01-25'
+      thread: economy
+      c: 'The Senate Interstate and Foreign Commerce Committee hears nominees: Edward Gudeman, Under Secretary of Commerce;
+        Rowland Burnstan, Assistant Secretary of Commerce for International Affairs; Clarence D. Martin Jr., Under Secretary
+        of Commerce for Transportation.'
+      n: '[*Nominations—Commerce Department: Hearing Before the S. Comm. on Interstate and Foreign Commerce*, 87th Cong.
+        (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64883), 3 (Gudeman), 9 (Burnstan), 22 (Martin). Names: Gudeman,
+        Martin.'
+      tags:
+      - name:gudeman-edward
+      - name:martin-clarence-d-jr
+- add:
+    entry:
+      id: cal.1961-01-26.defense
+      when: Jan. 26
+      date: '1961-01-26'
+      thread: defense
+      c: The Senate Armed Services Committee hears Frank B. Ellis on his nomination as Director of the Office of Civil and
+        Defense Mobilization.
+      n: '[*Nomination of Frank Burton Ellis: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64884),
+        1. Names: Ellis.'
+      tags:
+      - name:ellis-frank-b
+- add:
+    entry:
+      id: cal.1961-01-26.defense-2
+      when: Jan. 26
+      date: '1961-01-26'
+      thread: defense
+      c: The Senate Armed Services Committee hears Paul B. Fay Jr. on his nomination as Under Secretary of the Navy.
+      n: '[*Nomination of Paul Burgess Fay, Jr.: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64885),
+        2. Names: Fay.'
+      tags:
+      - name:fay-paul-b-jr
+- add:
+    entry:
+      id: cal.1961-02-06.transition-and-staff
+      when: Feb. 6
+      date: '1961-02-06'
+      thread: transition-and-staff
+      c: The Senate Judiciary Committee hears Louis F. Oberdorfer on his nomination as an Assistant Attorney General.
+      n: '[*Nomination of Louis Falk Oberdorfer: Hearing Before the S. Comm. on the Judiciary*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg65298),
+        1. Names: Oberdorfer.'
+      tags:
+      - name:oberdorfer-louis-f
+- add:
+    entry:
+      id: cal.1961-02-08.press-and-broadcasting
+      when: Feb. 8
+      date: '1961-02-08'
+      thread: press-and-broadcasting
+      c: The Senate Interstate and Foreign Commerce Committee hears Newton N. Minow on his nomination as a member of the
+        Federal Communications Commission.
+      n: '[*Nomination of Newton N. Minow to Be a Member of the Federal Communications Commission: Hearing Before the S.
+        Comm. on Interstate and Foreign Commerce*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg65498),
+        1. Names: Minow.'
+      tags:
+      - name:minow-newton-n
+- add:
+    entry:
+      id: cal.1961-02-09.transition-and-staff
+      when: Feb. 9
+      date: '1961-02-09'
+      thread: transition-and-staff
+      c: The Senate Judiciary Committee hears Nicholas Katzenbach on his nomination as Assistant Attorney General.
+      n: '[*Nomination of Nicholas De B. Katzenbach: Hearings Before the S. Comm. on the Judiciary*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg65843),
+        2. Names: Katzenbach.'
+      tags:
+      - name:katzenbach-nicholas
+- add:
+    entry:
+      id: cal.1961-02-23.defense-2
+      when: Feb. 23
+      date: '1961-02-23'
+      thread: defense
+      c: 'The Senate Armed Services Committee hears nominees: Stephen Ailes, Under Secretary of the Army; Richard S. Morse,
+        Assistant Secretary of the Army; William F. Schaub, Assistant Secretary of the Army.'
+      n: '[*Nominations: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg66187),
+        1 (Ailes), 7 (Morse), 18 (Schaub). Names: Ailes, Morse, Schaub.'
+      tags:
+      - name:ailes-stephen
+      - name:morse-richard-s
+      - name:schaub-william-f
+- add:
+    entry:
+      id: cal.1961-02-24.trade
+      when: Feb. 24
+      date: '1961-02-24'
+      thread: trade
+      c: The Senate Banking and Currency Committee hears Harold F. Linder on his nomination as President of the Export-Import
+        Bank of Washington.
+      n: '[*Nomination of Harold F. Linder: Hearing Before the S. Comm. on Banking and Currency*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg66160),
+        4. Names: Linder.'
+      tags:
+      - name:linder-harold-f
+- add:
+    entry:
+      id: cal.1961-03-15.farm
+      when: Mar. 15
+      date: '1961-03-15'
+      thread: farm
+      c: The Senate Agriculture and Forestry Committee hears James T. Ralph on his nomination as an Assistant Secretary
+        of Agriculture. Also before it, the nomination of Charles S. Murphy, Under Secretary of Agriculture.
+      n: '[*Nominations of Charles S. Murphy and James T. Ralph: Hearing Before the S. Comm. on Agriculture and Forestry*,
+        87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg67113), 1. Names: Murphy, Ralph.'
+      tags:
+      - name:murphy-charles-s
+      - name:ralph-james-t
+- add:
+    entry:
+      id: cal.1961-03-23.transition-and-staff
+      when: Mar. 23
+      date: '1961-03-23'
+      thread: transition-and-staff
+      c: 'The Senate Foreign Relations Committee hears nominees: Edwin O. Reischauer, Ambassador to Japan; Anthony J. Drexel
+        Biddle Jr., Ambassador to Spain; William Attwood, Ambassador to Guinea; Aaron S. Brown, Ambassador to Nicaragua.'
+      n: '[*Ambassadorial Nominations: Hearings Before the S. Comm. on Foreign Relations*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg67590),
+        1 (Reischauer), 21 (Biddle), 25 (Attwood), 30 (Brown). Names: Reischauer, Biddle, Attwood, Brown.'
+      tags:
+      - name:attwood-william
+      - name:biddle-anthony-j-drexel-jr
+      - name:brown-aaron-s
+      - name:reischauer-edwin-o
+- add:
+    entry:
+      id: cal.1961-03-24.transition-and-staff
+      when: Mar. 24
+      date: '1961-03-24'
+      thread: transition-and-staff
+      c: 'The Senate Foreign Relations Committee hears nominees: John Kenneth Galbraith, Ambassador to India; Edward G.
+        Stockdale, Ambassador to Ireland; William M. Blair Jr., Ambassador to Denmark; John S. Rice, Ambassador to The Netherlands;
+        Kenneth T. Young Jr., Ambassador to Thailand.'
+      n: '[*Ambassadorial Nominations: Hearings Before the S. Comm. on Foreign Relations*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg67590),
+        34 (Galbraith), 51 (Stockdale), 52 (Blair), 60 (Rice), 66 (Young). Names: Galbraith, Stockdale, Blair, Rice, Young.'
+      tags:
+      - name:blair-william-m-jr
+      - name:galbraith-john-kenneth
+      - name:rice-john-s
+      - name:stockdale-edward-g
+      - name:young-kenneth-t-jr
+- add:
+    entry:
+      id: cal.1961-03-28.farm
+      when: Mar. 28
+      date: '1961-03-28'
+      thread: farm
+      c: 'The Senate Agriculture and Forestry Committee hears nominees: Willard Cochrane, a member of the Board of Directors
+        of the Commodity Credit Corporation; John C. Bagwell, General Counsel of the Department of Agriculture. Also before
+        it, the nomination of Charles S. Murphy, a member of the Board of Directors of the Commodity Credit Corporation.'
+      n: '[*Nominations to the Board of Directors, Commodity Credit Corporation, and General Counsel, Department of Agriculture:
+        Hearing Before the S. Comm. on Agriculture and Forestry*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg68025),
+        3 (Bagwell), 5 (Cochrane). Names: Murphy, Bagwell.'
+      tags:
+      - name:bagwell-john-c
+      - name:murphy-charles-s
+- add:
+    entry:
+      id: cal.1961-03-28.transition-and-staff
+      when: Mar. 28
+      date: '1961-03-28'
+      thread: transition-and-staff
+      c: 'The Senate Labor and Public Welfare Committee hears nominees: Sterling M. McMurrin, Commissioner of Education;
+        William E. Simkin, Director of the Federal Mediation and Conciliation Service.'
+      n: '[*Nominations: Hearing Before the S. Comm. on Labor and Public Welfare*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg68133),
+        2 (McMurrin), 7 (Simkin). Names: McMurrin, Simkin.'
+      tags:
+      - name:mcmurrin-sterling-m
+      - name:simkin-william-e
+- add:
+    entry:
+      id: cal.1961-04-07.defense
+      when: Apr. 7
+      date: '1961-04-07'
+      thread: defense
+      c: 'The Senate Armed Services Committee hears nominees: Harold Brown, Director of Defense Research and Engineering;
+        Joseph S. Imirie, Assistant Secretary of the Air Force.'
+      n: '[*Nominations: Hearings Before the S. Comm. on Armed Services*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg70337),
+        1 (Brown), 5 (Imirie). Names: Brown, Imirie.'
+      tags:
+      - name:brown-harold
+      - name:imirie-joseph-s
+- add:
+    entry:
+      id: cal.1961-04-11.oil
+      when: Apr. 11
+      date: '1961-04-11'
+      thread: oil
+      c: The Senate Interstate and Foreign Commerce Committee hears Joseph C. Swidler on his nomination as a member of the
+        Federal Power Commission.
+      n: '[*Nomination of Joseph C. Swidler, to Be a Member of the Federal Power Commission: Hearings Before the S. Comm.
+        on Interstate and Foreign Commerce*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg69389), 1.
+        Names: Swidler.'
+      tags:
+      - name:swidler-joseph-c
+- add:
+    entry:
+      id: cal.1961-05-18.defense
+      when: May 18
+      date: '1961-05-18'
+      thread: defense
+      c: 'The Senate Armed Services Committee hears nominees: Paul R. Ignatius, Assistant Secretary of the Army; Edward
+        A. McDermott, Deputy Director of the Office of Civil and Defense Mobilization; Brockway McMillan, Assistant Secretary
+        of the Air Force; John R. Rubel, an Assistant Secretary of Defense.'
+      n: '[*Nominations: Hearings Before the S. Comm. on Armed Services*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg70337),
+        12 (McDermott), 16 (Rubel), 20 (Ignatius), 22 (McMillan). Names: Ignatius, McDermott, McMillan.'
+      tags:
+      - name:ignatius-paul-r
+      - name:mcdermott-edward-a
+      - name:mcmillan-brockway
+- add:
+    entry:
+      id: cal.1961-06-08.defense
+      when: June 8
+      date: '1961-06-08'
+      thread: defense
+      c: The Senate Armed Services Committee hears Curtis E. LeMay on his nomination as Chief of Staff of the Air Force.
+      n: '[*Nomination of General Curtis E. LeMay: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg71280),
+        2. Names: LeMay.'
+      tags:
+      - name:lemay-curtis-e
+- add:
+    entry:
+      id: cal.1961-06-29.defense
+      when: June 29
+      date: '1961-06-29'
+      thread: defense
+      c: 'The Senate Armed Services Committee hears nominees: George W. Anderson Jr., Chief of Naval Operations; Charles
+        S. Brewton, an Assistant Director of the Office of Civil and Defense Mobilization.'
+      n: '[*Nominations, and H.R. 5490 and H.R. 4324: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg72385),
+        3 (Anderson), 10 (Brewton). Names: Anderson, Brewton.'
+      tags:
+      - name:anderson-george-w-jr
+      - name:brewton-charles-s
+- add:
+    entry:
+      id: cal.1961-09-21.economy
+      when: Sept. 21
+      date: '1961-09-21'
+      thread: economy
+      c: 'The Senate Banking and Currency Committee hears nominees: Manuel F. Cohen, a member of the Securities and Exchange
+        Commission; Jack M. Whitney II, a member of the Securities and Exchange Commission.'
+      n: '[*Nominations of Manuel F. Cohen and Jack M. Whitney II: Hearing Before the S. Comm. on Banking and Currency*,
+        87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg75385), 3 (Cohen), 4 (Whitney). Names: Cohen,
+        Whitney.'
+      tags:
+      - name:cohen-manuel-f
+      - name:whitney-jack-m-ii
+- add:
+    entry:
+      id: cal.1962-01-18.transition-and-staff
+      when: Jan. 18
+      date: '1962-01-18'
+      thread: transition-and-staff
+      c: 'The Senate Armed Services Committee hears nominees: John A. McCone, Director of Central Intelligence; Fred Korth,
+        Secretary of the Navy; Neil E. Harlan, Assistant Secretary of the Air Force.'
+      n: '[*Nominations of McCone, Korth, and Harlan: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg78722),
+        2 (Korth), 11 (Harlan), 22 (McCone). Names: McCone, Korth, Harlan.'
+      tags:
+      - name:harlan-neil-e
+      - name:korth-fred
+      - name:mccone-john-a
+- add:
+    entry:
+      id: cal.1962-02-06.economy
+      when: Feb. 6
+      date: '1962-02-06'
+      thread: economy
+      c: The Senate Banking and Currency Committee hears James J. Saxon on his nomination as Comptroller of the Currency.
+      n: '[*Nomination of James J. Saxon: Hearing Before the S. Comm. on Banking and Currency*, 87th Cong. (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg79547),
+        1. Names: Saxon.'
+      tags:
+      - name:saxon-james-j
+- add:
+    entry:
+      id: cal.1962-03-29.intelligence
+      when: Mar. 29
+      date: '1962-03-29'
+      thread: intelligence
+      c: The Senate Armed Services Committee hears Marshall S. Carter on his nomination as Deputy Director of Central Intelligence.
+      n: '[*Maj. Gen. Marshall S. Carter, Deputy Director, CIA: Hearing Before the S. Comm. on Armed Services*, 87th Cong.
+        (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg82275), 4. Names: Carter.'
+      tags:
+      - name:carter-marshall-s
+- add:
+    entry:
+      id: cal.1962-06-14.defense-2
+      when: June 14
+      date: '1962-06-14'
+      thread: defense
+      c: The Senate Armed Services Committee hears John T. McNaughton on his nomination as General Counsel of the Department
+        of Defense.
+      n: '[*Nomination of John T. McNaughton ; Development of Ryukyu Islands: Hearing Before the S. Comm. on Armed Services*,
+        87th Cong. (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg89825), 2. Names: McNaughton.'
+      tags:
+      - name:mcnaughton-john-t
+- add:
+    entry:
+      id: cal.1962-07-17.space
+      when: July 17
+      date: '1962-07-17'
+      thread: space
+      c: The Senate Labor and Public Welfare Committee hears Jerome B. Wiesner on his nomination as Director of the Office
+        of Science and Technology.
+      n: '[*Nomination: Hearing Before the S. Comm. on Labor and Public Welfare*, 87th Cong. (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg86922),
+        2. Names: Wiesner.'
+      tags:
+      - name:wiesner-jerome-b
+- add:
+    entry:
+      id: cal.1962-07-20.economy-2
+      when: July 20
+      date: '1962-07-20'
+      thread: economy
+      c: The Senate Banking and Currency Committee hears Gardner Ackley on his nomination as a member of the Council of
+        Economic Advisers.
+      n: '[*Nomination of Gardner Ackley: Hearing Before the S. Comm. on Banking and Currency*, 87th Cong. (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg86866),
+        1. Names: Ackley.'
+      tags:
+      - name:ackley-gardner
+- add:
+    entry:
+      id: cal.1962-07-31.transportation
+      when: July 31
+      date: '1962-07-31'
+      thread: transportation
+      c: The Senate Commerce Committee hears Alan S. Boyd on his nomination as a member of the Civil Aeronautics Board.
+      n: '[*Sundry Nominations: Hearings Before the S. Comm. on Commerce*, 87th Cong. (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg91496),
+        187. Names: Boyd.'
+      tags:
+      - name:boyd-alan-s
+- add:
+    entry:
+      id: cal.1962-08-09.defense-2
+      when: Aug. 9
+      date: '1962-08-09'
+      thread: defense
+      c: 'The Senate Armed Services Committee hears nominees: Maxwell Taylor, Chairman of the Joint Chiefs of Staff; Earle
+        Wheeler, Army Chief of Staff.'
+      n: '[*Nominations of Gen. Maxwell D. Taylor and Gen. Earle G. Wheeler: Hearing Before the S. Comm. on Armed Services*,
+        87th Cong. (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg88290), 4 (Taylor), 22 (Wheeler). Names: Taylor,
+        Wheeler.'
+      tags:
+      - name:taylor-maxwell
+      - name:wheeler-earle
+- add:
+    entry:
+      id: cal.1962-10-04.transition-and-staff
+      when: Oct. 4
+      date: '1962-10-04'
+      thread: transition-and-staff
+      c: 'The Senate Commerce Committee hears nominees: Ashton C. Barrett, a member of the Federal Maritime Commission;
+        A. Leon Higginbotham Jr., a member of the Federal Trade Commission.'
+      n: '[*Sundry Nominations: Hearings Before the S. Comm. on Commerce*, 87th Cong. (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg91496),
+        219 (Higginbotham), 222 (Barrett). Names: Barrett, Higginbotham.'
+      tags:
+      - name:barrett-ashton-c
+      - name:higginbotham-a-leon-jr
+- add:
+    entry:
+      id: cal.1963-03-01.transition-and-staff
+      when: Mar. 1
+      date: '1963-03-01'
+      thread: transition-and-staff
+      c: 'The Senate Labor and Public Welfare Committee hears nominees: Howard G. Gamser, a member of the National Mediation
+        Board; Francis Keppel, Commissioner of Education; Daniel Patrick Moynihan, an Assistant Secretary of Labor; George
+        C. Trevorrow, a member of the Federal Coal Mine Safety Board of Review.'
+      n: '[*Nominations: Hearing Before the S. Comm. on Labor and Public Welfare*, 88th Cong. (1963)](https://www.govinfo.gov/app/details/CHRG-88shrg96179),
+        2 (Moynihan), 4 (Keppel), 6 (Gamser), 10 (Trevorrow). Names: Gamser, Keppel, Moynihan.'
+      tags:
+      - name:gamser-howard-g
+      - name:keppel-francis
+      - name:moynihan-daniel-patrick
+- add:
+    entry:
+      id: cal.1963-03-12.economy
+      when: Mar. 12
+      date: '1963-03-12'
+      thread: economy
+      c: 'The Senate Commerce Committee hears nominees: Richard H. Holton, Assistant Secretary of Commerce; Franklin D.
+        Roosevelt Jr., Under Secretary of Commerce.'
+      n: '[*Holton and Roosevelt Nominations: Hearings Before the S. Comm. on Commerce*, 88th Cong. (1963)](https://www.govinfo.gov/app/details/CHRG-88shrg95988),
+        3 (Holton), 16 (Roosevelt). Names: Holton, Roosevelt.'
+      tags:
+      - name:holton-richard-h
+      - name:roosevelt-franklin-d-jr
+- add:
+    entry:
+      id: cal.1963-06-27.defense
+      when: June 27
+      date: '1963-06-27'
+      thread: defense
+      c: 'The Senate Armed Services Committee hears nominees: Alexander H. Flax, an Assistant Secretary of the Air Force;
+        Eugene G. Fubini, an Assistant Secretary of Defense; David L. McDonald, Chief of Naval Operations.'
+      n: '[*Nominations: Flax, Fubini, McDonald, Pratt: Hearings Before the S. Comm. on Armed Services*, 88th Cong. (1963)](https://www.govinfo.gov/app/details/CHRG-88shrg24632),
+        8 (McDonald), 14 (Fubini), 25 (Flax). Names: Flax, Fubini, McDonald.'
+      tags:
+      - name:flax-alexander-h
+      - name:fubini-eugene-g
+      - name:mcdonald-david-l
+- add:
+    entry:
+      id: cal.1963-07-30.transition-and-staff
+      when: July 30
+      date: '1963-07-30'
+      thread: transition-and-staff
+      c: 'The Senate Banking and Currency Committee hears nominees: John E. Horne, a member of the Federal Home Loan Bank
+        Board; Eugene P. Foley, Administrator of the Small Business Administration.'
+      n: '[*Nominations of John E. Horne and Eugene P. Foley: Hearing Before the S. Comm. on Banking and Currency*, 88th
+        Cong. (1963)](https://www.govinfo.gov/app/details/CHRG-88shrg21792), 4 (Horne), 10 (Foley). Names: Horne, Foley.'
+      tags:
+      - name:foley-eugene-p
+      - name:horne-john-e
+- add:
+    entry:
+      id: cal.1963-10-10.defense
+      when: Oct. 10
+      date: '1963-10-10'
+      thread: defense
+      c: The Senate Armed Services Committee hears Wallace M. Greene Jr. on his nomination as Commandant of the Marine Corps.
+      n: '[*Nominations of Gen. Wallace M. Greene, Jr., Willis M. Hawkins, Jr., and Robert H. Charles: Hearings Before the
+        S. Comm. on Armed Services*, 88th Cong. (1963)](https://www.govinfo.gov/app/details/CHRG-88shrg25787), 4. Names:
+        Greene.'
+      tags:
+      - name:greene-wallace-m-jr
+- add:
+    entry:
+      id: cal.1963-12-12.defense-2
+      when: Dec. 12
+      date: '1963-12-12'
+      thread: defense
+      c: The Senate Armed Services Committee hears Andrew J. Goodpaster on his nomination as Assistant to the Chairman,
+        Joint Chiefs of Staff.
+      n: '[*Nomination of Maj. Gen. A.J. Goodpaster and Miscellaneous Bills: Hearing Before the S. Comm. on Armed Services*,
+        88th Cong. (1963)](https://www.govinfo.gov/app/details/CHRG-88shrg27068), 7. Names: Goodpaster.'
+      tags:
+      - name:goodpaster-andrew-j
+- add:
+    entry:
+      id: cal.1964-01-16.economy
+      when: Jan. 16
+      date: '1964-01-16'
+      thread: economy
+      c: The Senate Banking and Currency Committee hears Joseph W. Barr on his nomination as a member of the Board of Directors
+        of the Federal Deposit Insurance Corporation.
+      n: '[*Nomination of Joseph W. Barr: Hearing Before the S. Comm. on Banking and Currency*, 88th Cong. (1964)](https://www.govinfo.gov/app/details/CHRG-88shrg27612),
+        1. Names: Barr.'
+      tags:
+      - name:barr-joseph-w
+- add:
+    entry:
+      id: cal.1964-07-02.defense
+      when: July 2
+      date: '1964-07-02'
+      thread: defense
+      c: The Senate Armed Services Committee hears Harold K. Johnson on his nomination as Army Chief of Staff.
+      n: '[*Nomination of Lt. Gen. Harold K. Johnson to Be Chief of Staff, Army: Hearing Before the S. Comm. on Armed Services*,
+        88th Cong. (1964)](https://www.govinfo.gov/app/details/CHRG-88shrg38380), 2. Names: Johnson.'
+      tags:
+      - name:johnson-harold-k
+- add:
+    entry:
+      id: cal.1964-08-13.economy
+      when: Aug. 13
+      date: '1964-08-13'
+      thread: economy
+      c: 'The Senate Banking and Currency Committee hears nominees: Francis M. Wheat, a member of the Securities and Exchange
+        Commission; Otto Eckstein, a member of the Council of Economic Advisers.'
+      n: '[*Nominations of Wheat and Eckstein: Hearing Before the S. Comm. on Banking and Currency*, 88th Cong. (1964)](https://www.govinfo.gov/app/details/CHRG-88shrg37064),
+        1 (Wheat), 5 (Eckstein). Names: Wheat, Eckstein.'
+      tags:
+      - name:eckstein-otto
+      - name:wheat-francis-m
+- add:
+    entry:
+      id: cal.1964-09-09.poverty
+      when: Sept. 9
+      date: '1964-09-09'
+      thread: poverty
+      c: The Senate Labor and Public Welfare Committee hears R. Sargent Shriver on his nomination as Director of the Office
+        of Economic Opportunity.
+      n: '[*Nomination: Hearing Before the S. Comm. on Labor and Public Welfare*, 88th Cong. (1964)](https://www.govinfo.gov/app/details/CHRG-88shrg37833),
+        1. Names: Shriver.'
+      tags:
+      - name:shriver-r-sargent
+- add:
+    entry:
+      id: cal.1965-02-18.defense
+      when: Feb. 18
+      date: '1965-02-18'
+      thread: defense
+      c: 'The Senate Armed Services Committee hears nominees: Buford Ellington, Director of the Office of Emergency Planning;
+        Kenneth E. BeLieu, Under Secretary of the Navy; Graeme C. Bannerman, an Assistant Secretary of the Navy.'
+      n: '[*Ellington, BeLieu, and Bannerman Nominations: Hearing Before the S. Comm. on Armed Services*, 89th Cong. (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg44197),
+        4 (Ellington), 4 (BeLieu), 9 (Bannerman). Names: Ellington, BeLieu, Bannerman.'
+      tags:
+      - name:bannerman-graeme-c
+      - name:belieu-kenneth-e
+      - name:ellington-buford
+- add:
+    entry:
+      id: cal.1965-02-18.economy-3
+      when: Feb. 18
+      date: '1965-02-18'
+      thread: economy
+      c: The Senate Commerce Committee hears Andrew F. Brimmer on his nomination as Assistant Secretary of Commerce.
+      n: '[*Brimmer Nomination: Hearing Before the S. Comm. on Commerce*, 89th Cong. (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg44404),
+        1. Names: Brimmer.'
+      tags:
+      - name:brimmer-andrew-f
+- add:
+    entry:
+      id: cal.1965-03-02.transition-and-staff
+      when: Mar. 2
+      date: '1965-03-02'
+      thread: transition-and-staff
+      c: 'The Senate Foreign Relations Committee hears nominees: Thomas C. Mann, Under Secretary of State for Economic Affairs;
+        Douglas MacArthur II, Assistant Secretary of State for Congressional Relations; Robert C. Good, Ambassador to Zambia;
+        C. Robert Moore, Ambassador to Mali; Raymond R. Guest, Ambassador to Ireland; Angier B. Duke, Ambassador to Spain;
+        Geoffrey W. Lewis, Ambassador to Mauritania; James W. Lamont, Foreign Service Officer.'
+      n: '[*State Department and Diplomatic Nominations: Hearing Before the S. Comm. on Foreign Relations*, 89th Cong. (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg44168),
+        2 (MacArthur), 6 (Good), 15 (Moore), 18 (Guest), 21 (Duke), 23 (Mann), 26 (Lewis), 31 (Lamont). Names: Mann, MacArthur,
+        Good, Moore, Guest, Duke, Lewis.'
+      tags:
+      - name:duke-angier-b
+      - name:good-robert-c
+      - name:guest-raymond-r
+      - name:lewis-geoffrey-w
+      - name:macarthur-douglas-ii
+      - name:mann-thomas-c
+      - name:moore-c-robert
+- add:
+    entry:
+      id: cal.1965-04-13.transition-and-staff
+      when: Apr. 13
+      date: '1965-04-13'
+      thread: transition-and-staff
+      c: 'The Senate Commerce Committee hears nominees: John G. Adams, a member of the Civil Aeronautics Board; Carl E.
+        Bagge, a member of the Federal Power Commission; Charles R. Ross, a member of the Federal Power Commission; Alexander
+        B. Trowbridge, Assistant Secretary of Commerce for Domestic and International Business; James J. Wadsworth, a member
+        of the Federal Communications Commission.'
+      n: '[*Adams, Bagge, Donner, Ross, Trowbridge, and Wadsworth Nominations: Hearings Before the S. Comm. on Commerce*,
+        89th Cong. (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg48484), 1 (Bagge), 11 (Adams), 26 (Ross), 31 (Wadsworth),
+        39 (Trowbridge). Names: Adams, Bagge, Ross, Trowbridge, Wadsworth.'
+      tags:
+      - name:adams-john-g
+      - name:bagge-carl-e
+      - name:ross-charles-r
+      - name:trowbridge-alexander-b
+      - name:wadsworth-james-j
+- add:
+    entry:
+      id: cal.1965-04-27.space
+      when: Apr. 27
+      date: '1965-04-27'
+      thread: space
+      c: The Senate Commerce Committee hears Frederic G. Donner on his nomination as a director of the Communications Satellite
+        Corporation.
+      n: '[*Adams, Bagge, Donner, Ross, Trowbridge, and Wadsworth Nominations: Hearings Before the S. Comm. on Commerce*,
+        89th Cong. (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg48484), 50. Names: Donner.'
+      tags:
+      - name:donner-frederic-g
+- add:
+    entry:
+      id: cal.1965-05-24.transition-and-staff
+      when: May 24
+      date: '1965-05-24'
+      thread: transition-and-staff
+      c: 'The Senate Commerce Committee hears nominees: Alan S. Boyd, Under Secretary of Commerce for Transportation; Charles
+        S. Murphy, a member of the Civil Aeronautics Board.'
+      n: '[*Boyd, Day, Harllee, McKee, Murphy, and Thomas Nominations: Hearings Before the S. Comm. on Commerce*, 89th Cong.
+        (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg52323), 1 (Boyd), 1 (Murphy). Names: Boyd, Murphy.'
+      tags:
+      - name:boyd-alan-s
+      - name:murphy-charles-s
+- add:
+    entry:
+      id: cal.1965-05-25.civil-rights-the-executive
+      when: May 25
+      date: '1965-05-25'
+      thread: civil-rights-the-executive
+      c: 'The Senate Labor and Public Welfare Committee hears nominees: Franklin D. Roosevelt Jr., a member of the Equal
+        Employment Opportunity Commission; Luther Holcomb, a member of the Equal Employment Opportunity Commission. Also
+        before it, the nomination of Samuel C. Jackson, a member of the Equal Employment Opportunity Commission.'
+      n: '[*Nominations: Hearing Before the S. Comm. on Labor and Public Welfare*, 89th Cong. (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg49344),
+        3 (Roosevelt), 6 (Holcomb). Names: Roosevelt, Jackson, Holcomb.'
+      tags:
+      - name:holcomb-luther
+      - name:jackson-samuel-c
+      - name:roosevelt-franklin-d-jr
+- add:
+    entry:
+      id: cal.1965-06-28.economy-2
+      when: June 28
+      date: '1965-06-28'
+      thread: economy
+      c: The Senate Commerce Committee hears LeRoy Collins on his nomination as Under Secretary of Commerce.
+      n: '[*Baldwin, Black, and Collins Nominations: Hearings Before the S. Comm. on Commerce*, 89th Cong. (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg52322),
+        2. Names: Collins.'
+      tags:
+      - name:collins-leroy
+- add:
+    entry:
+      id: cal.1965-06-28.transportation
+      when: June 28
+      date: '1965-06-28'
+      thread: transportation
+      c: 'The Senate Commerce Committee hears nominees: William F. McKee, Administrator of the Federal Aviation Agency;
+        David D. Thomas, Deputy Administrator of the Federal Aviation Agency.'
+      n: '[*Boyd, Day, Harllee, McKee, Murphy, and Thomas Nominations: Hearings Before the S. Comm. on Commerce*, 89th Cong.
+        (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg52323), 38 (McKee), 64 (Thomas). Names: McKee, Thomas.'
+      tags:
+      - name:mckee-william-f
+      - name:thomas-david-d
+- add:
+    entry:
+      id: cal.1965-07-15.defense
+      when: July 15
+      date: '1965-07-15'
+      thread: defense
+      c: 'The Senate Armed Services Committee hears nominees: Alain C. Enthoven, Assistant Secretary of Defense; Robert
+        N. Anthony, Assistant Secretary of Defense.'
+      n: '[*Nominations of Alain C. Enthoven and Robert N. Anthony to Be Assistant Secretaries of Defense, and H.R. 8484:
+        Hearing Before the S. Comm. on Armed Services*, 89th Cong. (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg51295),
+        3 (Enthoven), 9 (Anthony). Names: Enthoven, Anthony.'
+      tags:
+      - name:anthony-robert-n
+      - name:enthoven-alain-c
+- add:
+    entry:
+      id: cal.1965-08-23.conservation
+      when: Aug. 23
+      date: '1965-08-23'
+      thread: conservation
+      c: The Senate Interior and Insular Affairs Committee hears J. Cordell Moore on his nomination as Assistant Secretary
+        of the Interior for Mineral Resources.
+      n: '[*Interior Nomination: Hearing Before the S. Comm. on Interior and Insular Affairs*, 89th Cong. (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg52764),
+        3. Names: Moore.'
+      tags:
+      - name:moore-j-cordell
+- add:
+    entry:
+      id: cal.1965-09-02.trade
+      when: Sept. 2
+      date: '1965-09-02'
+      thread: trade
+      c: The Senate Banking and Currency Committee hears Hobart Taylor Jr. on his nomination as a member of the Board of
+        Directors of the Export-Import Bank of Washington.
+      n: '[*Nomination of Hobart Taylor, Jr.: Hearing Before the S. Comm. on Banking and Currency*, 89th Cong. (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg53065),
+        2. Names: Taylor.'
+      tags:
+      - name:taylor-hobart-jr
+- add:
+    entry:
+      id: cal.1966-01-27.cities-and-housing
+      when: Jan. 27
+      date: '1966-01-27'
+      thread: cities-and-housing
+      c: 'The Senate Banking and Currency Committee hears nominees: Philip N. Brownstein, an Assistant Secretary of Housing
+        and Urban Development; Charles M. Haar, an Assistant Secretary of Housing and Urban Development.'
+      n: '[*Nominations of Philip N. Brownstein and Charles M. Haar: Hearing Before the S. Comm. on Banking and Currency*,
+        89th Cong. (1966)](https://www.govinfo.gov/app/details/CHRG-89shrg58385), 3 (Brownstein), 3 (Haar). Names: Brownstein,
+        Haar.'
+      tags:
+      - name:brownstein-philip-n
+      - name:haar-charles-m
+- add:
+    entry:
+      id: cal.1966-02-09.peace-corps
+      when: Feb. 9
+      date: '1966-02-09'
+      thread: peace-corps
+      c: The Senate Foreign Relations Committee hears Jack H. Vaughn on his nomination as Director of the Peace Corps.
+      n: '[*Nomination of Jack Hood Vaughn to Be Director of the Peace Corps: Hearing Before the S. Comm. on Foreign Relations*,
+        89th Cong. (1966)](https://www.govinfo.gov/app/details/CHRG-89shrg59105), 1. Names: Vaughn.'
+      tags:
+      - name:vaughn-jack-h
+- add:
+    entry:
+      id: cal.1966-02-23.oil
+      when: Feb. 23
+      date: '1966-02-23'
+      thread: oil
+      c: The Senate Commerce Committee hears Lee C. White on his nomination as a member of the Federal Power Commission.
+      n: '[*Lee C. White Nomination: Hearing Before the S. Comm. on Commerce*, 89th Cong. (1966)](https://www.govinfo.gov/app/details/CHRG-89shrg60038),
+        4. Names: White.'
+      tags:
+      - name:white-lee-c
+- add:
+    entry:
+      id: cal.1966-03-02.economy
+      when: Mar. 2
+      date: '1966-03-02'
+      thread: economy
+      c: 'The Senate Banking and Currency, United State Senate Committee hears nominees: Andrew F. Brimmer, a member of
+        the Board of Governors of the Federal Reserve System; William W. Sherrill, a member of the Board of Directors of
+        the Federal Deposit Insurance Corporation.'
+      n: '[*Nominations of Dr. Andrew F. Brimmer and William W. Sherrill: Hearing Before the S. Comm. on Banking and Currency*,
+        89th Cong. (1966)](https://www.govinfo.gov/app/details/CHRG-89shrg59943), 3 (Sherrill), 4 (Brimmer). Check: GPO''s
+        catalogue dates the hearing Mar. 3; its heading, Mar. 2. Names: Brimmer, Sherrill.'
+      tags:
+      - name:brimmer-andrew-f
+      - name:sherrill-william-w
+- add:
+    entry:
+      id: cal.1966-05-11.transition-and-staff
+      when: May 11
+      date: '1966-05-11'
+      thread: transition-and-staff
+      c: 'The Senate Banking and Currency Committee hears nominees: Bernard L. Boutin, Administrator of the Small Business
+        Administration; Don Hummel, an Assistant Secretary of Housing and Urban Development; H. Ralph Taylor, an Assistant
+        Secretary of Housing and Urban Development; Francis M. Wheat, a member of the Securities and Exchange Commission.'
+      n: '[*Nominations of Bernard L. Boutin, Don Hummel, H. Ralph Taylor, and Francis M. Wheat: Hearing Before the S. Comm.
+        on Banking and Currency*, 89th Cong. (1966)](https://www.govinfo.gov/app/details/CHRG-89shrg63235), 3 (Boutin),
+        10 (Hummel), 12 (Taylor), 20 (Wheat). Names: Boutin, Hummel, Taylor, Wheat.'
+      tags:
+      - name:boutin-bernard-l
+      - name:hummel-don
+      - name:taylor-h-ralph
+      - name:wheat-francis-m
+- add:
+    entry:
+      id: cal.1966-06-02.poverty
+      when: June 2
+      date: '1966-06-02'
+      thread: poverty
+      c: The Senate Labor and Public Welfare Committee hears Bertrand M. Harding on his nomination as Deputy Director of
+        the Office of Economic Opportunity.
+      n: '[*Nomination: Hearing Before the S. Comm. on Labor and Public Welfare*, 89th Cong. (1966)](https://www.govinfo.gov/app/details/CHRG-89shrg65250),
+        1. Names: Harding.'
+      tags:
+      - name:harding-bertrand-m
+- add:
+    entry:
+      id: cal.1966-09-16.defense
+      when: Sept. 16
+      date: '1966-09-16'
+      thread: defense
+      c: 'The Senate Armed Services Committee hears nominees: Paul Warnke, General Counsel of the Department of Defense;
+        Russell D. O''Neal, an Assistant Secretary of the Army.'
+      n: '[*Nominations of Paul C. Warnke and Russell D. O''Neal: Hearing Before the S. Comm. on Armed Services*, 89th Cong.
+        (1966)](https://www.govinfo.gov/app/details/CHRG-89shrg70052), 2 (Warnke), 4 (O''Neal). Names: Warnke, O''Neal.'
+      tags:
+      - name:oneal-russell-d
+      - name:warnke-paul
+- add:
+    entry:
+      id: cal.1967-01-26.transition-and-staff
+      when: Jan. 26
+      date: '1967-01-26'
+      thread: transition-and-staff
+      c: 'The Senate Commerce Committee hears nominees: Everett Hutchinson, Under Secretary of Transportation; John E. Robson,
+        General Counsel of the Department of Transportation; Joseph W. Bartlett, General Counsel of the Department of Commerce.'
+      n: '[*Nominations: Hearings Before the S. Comm. on Commerce*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg89620),
+        5 (Bartlett), 6 (Hutchinson), 15 (Robson). Names: Hutchinson, Robson, Bartlett.'
+      tags:
+      - name:bartlett-joseph-w
+      - name:hutchinson-everett
+      - name:robson-john-e
+- add:
+    entry:
+      id: cal.1967-02-02.jobs-and-wages
+      when: Feb. 2
+      date: '1967-02-02'
+      thread: jobs-and-wages
+      c: 'The Senate Labor and Public Welfare Committee hears nominees: James J. Reynolds, Under Secretary of Labor; Thomas
+        R. Donahue, an Assistant Secretary of Labor.'
+      n: '[*Nominations: Hearing Before the S. Comm. on Labor and Public Welfare*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg74884),
+        2 (Reynolds), 6 (Donahue). Names: Reynolds, Donahue.'
+      tags:
+      - name:donahue-thomas-r
+      - name:reynolds-james-j
+- add:
+    entry:
+      id: cal.1967-02-15.transportation
+      when: Feb. 15
+      date: '1967-02-15'
+      thread: transportation
+      c: 'The Senate Commerce Committee hears nominees: Donald G. Agger, Assistant Secretary of Transportation for International
+        Affairs; M. Cecil Mackey, Assistant Secretary of Transportation for Policy; John L. Sweeney, Assistant Secretary
+        of Transportation for Intergovernmental Relations.'
+      n: '[*Nominations: Hearings Before the S. Comm. on Commerce*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg89620),
+        20 (Agger), 31 (Mackey), 39 (Sweeney). Names: Agger, Mackey, Sweeney.'
+      tags:
+      - name:agger-donald-g
+      - name:mackey-m-cecil
+      - name:sweeney-john-l
+- add:
+    entry:
+      id: cal.1967-02-16.defense
+      when: Feb. 16
+      date: '1967-02-16'
+      thread: defense
+      c: The Senate Armed Services Committee hears Phil G. Goulding on his nomination as an Assistant Secretary of Defense.
+      n: '[*Nomination of Phil G. Goulding: Hearing Before the S. Comm. on Armed Services*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg76785),
+        2. Names: Goulding.'
+      tags:
+      - name:goulding-phil-g
+- add:
+    entry:
+      id: cal.1967-04-06.defense
+      when: Apr. 6
+      date: '1967-04-06'
+      thread: defense
+      c: The Senate Armed Services Committee hears Endicott Peabody on his nomination as an Assistant Director of the Office
+        of Emergency Planning.
+      n: '[*Nomination of Endicott Peabody: Hearing Before the S. Comm. on Armed Services*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg77908),
+        2. Names: Peabody.'
+      tags:
+      - name:peabody-endicott
+- add:
+    entry:
+      id: cal.1967-04-17.transportation
+      when: Apr. 17
+      date: '1967-04-17'
+      thread: transportation
+      c: 'The Senate Commerce Committee hears nominees: Joseph J. O''Connell Jr., Chairman of the National Transportation
+        Safety Board; Francis H. McAdams, a member of the National Transportation Safety Board; Louis N. Thayer, a member
+        of the National Transportation Safety Board; John H. Reed, a member of the National Transportation Safety Board;
+        Oscar M. Laurel, a member of the National Transportation Safety Board.'
+      n: '[*Nominations for National Transportation Safety Board: Hearing Before the S. Comm. on Commerce*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg78214),
+        7 (O''Connell), 10 (McAdams), 20 (Thayer), 20 (Reed), 24 (Laurel). Names: O''Connell, McAdams, Reed, Laurel.'
+      tags:
+      - name:laurel-oscar-m
+      - name:mcadams-francis-h
+      - name:oconnell-joseph-j-jr
+      - name:reed-john-h
+- add:
+    entry:
+      id: cal.1967-06-07.economy-2
+      when: June 7
+      date: '1967-06-07'
+      thread: economy
+      c: The Senate Commerce Committee hears Alexander B. Trowbridge on his nomination as Secretary of Commerce.
+      n: '[*Nomination of Alexander B. Trowbridge to Be Secretary of Commerce: Hearing Before the S. Comm. on Commerce*,
+        90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg80614), 1. Names: Trowbridge.'
+      tags:
+      - name:trowbridge-alexander-b
+- add:
+    entry:
+      id: cal.1967-06-08.defense
+      when: June 8
+      date: '1967-06-08'
+      thread: defense
+      c: 'The Senate Armed Services Committee hears nominees: Eugene M. Becker, an Assistant Secretary of the Army; Thomas
+        Moorer, Chief of Naval Operations.'
+      n: '[*Nominations: Hearings Before the S. Comm. on Armed Services*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg82763),
+        2 (Becker), 6 (Moorer). Names: Becker, Moorer.'
+      tags:
+      - name:becker-eugene-m
+      - name:moorer-thomas
+- add:
+    entry:
+      id: cal.1967-06-28.defense
+      when: June 28
+      date: '1967-06-28'
+      thread: defense
+      c: 'The Senate Armed Services Committee hears nominees: Charles F. Baird, Under Secretary of the Navy; John T. McNaughton,
+        Secretary of the Navy; Paul Nitze, Deputy Secretary of Defense; Paul Warnke, an Assistant Secretary of Defense.'
+      n: '[*Nominations: Hearings Before the S. Comm. on Armed Services*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg82763),
+        10 (Nitze), 19 (McNaughton), 32 (Baird), 33 (Warnke). Names: Baird, McNaughton, Nitze, Warnke.'
+      tags:
+      - name:baird-charles-f
+      - name:mcnaughton-john-t
+      - name:nitze-paul
+      - name:warnke-paul
+- add:
+    entry:
+      id: cal.1967-07-17.conservation
+      when: July 17
+      date: '1967-07-17'
+      thread: conservation
+      c: The Senate Interior and Insular Affairs Committee hears David S. Black on his nomination as Under Secretary of
+        the Interior.
+      n: '[*Interior Nomination: Hearing Before the S. Comm. on Interior and Insular Affairs*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg82220),
+        1. Names: Black.'
+      tags:
+      - name:black-david-s
+- add:
+    entry:
+      id: cal.1967-07-27.civil-rights-the-executive
+      when: July 27
+      date: '1967-07-27'
+      thread: civil-rights-the-executive
+      c: The Senate Labor and Public Welfare Committee hears Clifford L. Alexander Jr. on his nomination as a member of
+        the Equal Employment Opportunity Commission.
+      n: '[*Nomination: Hearing Before the S. Comm. on Labor and Public Welfare*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg84441),
+        2. Names: Alexander.'
+      tags:
+      - name:alexander-clifford-l-jr
+- add:
+    entry:
+      id: cal.1967-08-17.defense
+      when: Aug. 17
+      date: '1967-08-17'
+      thread: defense
+      c: 'The Senate Armed Services Committee hears nominees: Paul R. Ignatius, Secretary of the Navy; Townsend W. Hoopes,
+        Under Secretary of the Air Force.'
+      n: '[*Nominations of Paul R. Ignatius to Be Secretary of the Navy, and Townsend Hoopes to Be Under Secretary of the
+        Air Force: Hearing Before the S. Comm. on Armed Services*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg83180),
+        2 (Ignatius), 11 (Hoopes). Names: Ignatius, Hoopes.'
+      tags:
+      - name:hoopes-townsend-w
+      - name:ignatius-paul-r
+- add:
+    entry:
+      id: cal.1967-09-21.defense
+      when: Sept. 21
+      date: '1967-09-21'
+      thread: defense
+      c: 'The Senate Armed Services Committee hears nominees: Price Daniel, Director of the Office of Emergency Planning;
+        Alfred B. Fitt, an Assistant Secretary of Defense.'
+      n: '[*Nominations: Hearings Before the S. Comm. on Armed Services*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg85461),
+        8 (Daniel), 12 (Fitt). Names: Daniel, Fitt.'
+      tags:
+      - name:daniel-price
+      - name:fitt-alfred-b
+- add:
+    entry:
+      id: cal.1967-10-19.economy
+      when: Oct. 19
+      date: '1967-10-19'
+      thread: economy
+      c: The Senate Commerce Committee hears Howard J. Samuels on his nomination as Under Secretary of Commerce.
+      n: '[*Nominations: Hearings Before the S. Comm. on Commerce*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg89620),
+        95. Names: Samuels.'
+      tags:
+      - name:samuels-howard-j
+- add:
+    entry:
+      id: cal.1967-12-12.defense
+      when: Dec. 12
+      date: '1967-12-12'
+      thread: defense
+      c: 'The Senate Armed Services Committee hears nominees: Leonard F. Chapman Jr., Commandant of the Marine Corps; Charles
+        A. Bowsher, an Assistant Secretary of the Navy.'
+      n: '[*Nominations of Lt. Gen. Leonard F. Chapman, Jr. and Charles A. Bowsher: Hearing Before the S. Comm. on Armed
+        Services*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg87785), 3 (Chapman), 8 (Bowsher). Names:
+        Chapman, Bowsher.'
+      tags:
+      - name:bowsher-charles-a
+      - name:chapman-leonard-f-jr
+- add:
+    entry:
+      id: cal.1968-02-29.transition-and-staff
+      when: Feb. 29
+      date: '1968-02-29'
+      thread: transition-and-staff
+      c: 'The Senate Commerce Committee hears nominees: C. R. Smith, Secretary of Commerce; John H. Crooker Jr., Chairman
+        of the Civil Aeronautics Board.'
+      n: '[*Nominations—1968: Hearings Before the S. Comm. on Commerce*, 90th Cong. (1967–68)](https://www.govinfo.gov/app/details/CHRG-90shrg91649),
+        18 (Crooker), 25 (Smith). Names: Smith, Crooker.'
+      tags:
+      - name:crooker-john-h-jr
+      - name:smith-c-r
+- add:
+    entry:
+      id: cal.1968-07-16.economy
+      when: July 16
+      date: '1968-07-16'
+      thread: economy
+      c: The Senate Banking and Currency Committee hears Howard J. Samuels on his nomination as Administrator of the Small
+        Business Administration.
+      n: '[*Nomination of Howard J. Samuels: Hearing Before the S. Comm. on Banking and Currency*, 90th Cong. (1968)](https://www.govinfo.gov/app/details/CHRG-90shrg97256),
+        3. Names: Samuels.'
+      tags:
+      - name:samuels-howard-j
+- add:
+    entry:
+      id: cal.1968-09-30.transition-and-staff
+      when: Sept. 30
+      date: '1968-09-30'
+      thread: transition-and-staff
+      c: The Senate Foreign Relations Committee hears James R. Wiggins on his nomination as Representative to the United
+        Nations.
+      n: '[*Nomination of James Russell Wiggins: Hearing Before the S. Comm. on Foreign Relations*, 90th Cong. (1968)](https://www.govinfo.gov/app/details/CHRG-90shrg20207),
+        2. Names: Wiggins.'
+      tags:
+      - name:wiggins-james-r
+- add:
+    entry:
+      id: cal.1969-01-14.transition-and-staff
+      when: Jan. 14
+      date: '1969-01-14'
+      thread: transition-and-staff
+      c: 'The Senate Finance Committee hears nominees: David M. Kennedy, Secretary of the Treasury; Robert H. Finch, Secretary
+        of Health, Education, and Welfare.'
+      n: '[*Nominations of David M. Kennedy, of Illinois, to Be Secretary of the Treasury, and Robert H. Finch, of California,
+        to Be Secretary of Health, Education, and Welfare: Hearing Before the S. Comm. on Finance*, 91st Cong. (1969)](https://www.govinfo.gov/app/details/CHRG-91shrg23662),
+        2 (Kennedy), 33 (Finch). Names: Kennedy, Finch.'
+      tags:
+      - name:finch-robert-h
+      - name:kennedy-david-m
+- add:
+    entry:
+      id: cal.1969-01-16.farm
+      when: Jan. 16
+      date: '1969-01-16'
+      thread: farm
+      c: 'The Senate Agriculture and Forestry Committee hears nominees: Clifford M. Hardin, Secretary of Agriculture; J.
+        Phil Campbell, Under Secretary of Agriculture; Clarence D. Palmby, an Assistant Secretary of Agriculture.'
+      n: '[*Prospective Nominations of Dr. Clifford M. Hardin, J. Phil Campbell, and Clarence D. Palmby: Hearing Before
+        the S. Comm. on Agriculture and Forestry*, 91st Cong. (1969)](https://www.govinfo.gov/app/details/CHRG-91shrg23860),
+        1 (Hardin), 13 (Campbell), 18 (Palmby). Names: Hardin, Campbell, Palmby.'
+      tags:
+      - name:campbell-j-phil
+      - name:hardin-clifford-m
+      - name:palmby-clarence-d
+- add:
+    entry:
+      id: cal.1969-01-16.jobs-and-wages
+      when: Jan. 16
+      date: '1969-01-16'
+      thread: jobs-and-wages
+      c: The Senate Labor and Public Welfare Committee hears George P. Shultz on his nomination as Secretary of Labor.
+      n: '[*Nomination: Hearing Before the S. Comm. on Labor and Public Welfare*, 91st Cong. (1969)](https://www.govinfo.gov/app/details/CHRG-91shrg24234),
+        3. Names: Shultz.'
+      tags:
+      - name:shultz-george-p
+- add:
+    entry:
+      id: cal.1969-01-15.conservation
+      when: Jan. 15
+      date: '1969-01-15'
+      thread: conservation
+      c: The Senate Interior and Insular Affairs Committee opens its hearings on Walter J. Hickel's nomination as Secretary
+        of the Interior; he testifies morning and afternoon. The hearings continue Jan. 16.
+      n: 'Daily Digest, [115 Cong. Rec. D12](https://www.govinfo.gov/content/pkg/GPO-CRECB-1969-pt32/pdf/GPO-CRECB-1969-pt32-1.pdf#page=10),
+        [D14](https://www.govinfo.gov/content/pkg/GPO-CRECB-1969-pt32/pdf/GPO-CRECB-1969-pt32-1.pdf#page=12) (1969). [*Interior
+        Nomination, pt. 1: Hearings Before the S. Comm. on Interior and Insular Affairs*, 91st Cong. (1969)](https://www.govinfo.gov/app/details/CHRG-91shrg23654p1),
+        6; [*Interior Nomination, pt. 2: Hearings Before the S. Comm. on Interior and Insular Affairs*, 91st Cong. (1969)](https://www.govinfo.gov/app/details/CHRG-91shrg23654p2).
+        Names: Hickel.'
+      tags:
+      - name:hickel-walter-j
+- primary:
+    id: cal.1960-12-01.transition-and-staff
+    text: 'The hearing: [*Nominations of Murat W. Williams, George W. Ball, Roger W. Jones, and G. Mennen Williams: Hearing
+      Before the S. Comm. on Foreign Relations*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64718),
+      2 (Williams, Jan. 24).'
+- primary:
+    id: cal.1961-01-20.transition-and-staff
+    text: 'The hearings: [*Nomination of Arthur J. Goldberg to Be Secretary of Labor: Hearing Before the S. Comm. on Labor
+      and Public Welfare*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64361), 1 (Goldberg, Jan. 13);
+      [*Interior Nomination: Hearing Before the S. Comm. on Interior and Insular Affairs*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64523),
+      2 (Udall, Jan. 13); [*Nomination of Robert S. McNamara: Hearing Before the S. Comm. on Armed Services*, 87th Cong.
+      (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64577), 2 (McNamara, Jan. 17); [*Nomination of Luther Hartwell
+      Hodges to Be Secretary of Commerce: Hearing Before the S. Comm. on Interstate and Foreign Commerce*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64550),
+      3 (Hodges, Jan. 18); [*Proposed Nomination of Adlai E. Stevenson as United States Representative to the United Nations:
+      Hearing Before the S. Comm. on Foreign Relations*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64525),
+      1 (Stevenson, Jan. 18).'
+- primary:
+    id: cal.1961-02-09.civil-rights-the-executive
+    text: 'The hearing: [*Nomination of Robert C. Weaver: Hearings Before the S. Comm. on Banking and Currency*, 87th Cong.
+      (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg65384), 9 (Weaver, Feb. 7).'
+- src:
+    id: cal.1961-04-27.japan-and-korea
+    rows:
+    - 'https://history.state.gov/departmenthistory/people/reischauer-edwin-oldfather: all'
+- primary:
+    id: cal.1961-04-27.japan-and-korea
+    text: 'The hearing: [*Ambassadorial Nominations: Hearings Before the S. Comm. on Foreign Relations*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg67590),
+      1 (Reischauer, Mar. 23).'
+- src:
+    id: cal.1961-06-13.confirmations
+    rows:
+    - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt8/pdf/GPO-CRECB-1961-pt8-3-2.pdf: all'
+    - 'https://voteview.com/rollcall/RS0870076: A'
+- primary:
+    id: cal.1961-06-13.confirmations
+    text: 'The hearing: [*Nomination of Howard Morgan to Be a Member of the Federal Power Commission: Hearings Before the
+      S. Comm. on Interstate and Foreign Commerce*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg69326),
+      6 (Morgan, Apr. 11).'
+- src:
+    id: cal.1961-08-09.confirmations
+    rows:
+    - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt11/pdf/GPO-CRECB-1961-pt11-8-1.pdf: all'
+    - 'https://voteview.com/rollcall/RS0870127: A'
+- primary:
+    id: cal.1961-08-09.confirmations
+    text: 'The hearing: [*O''Connor and Gilmore Nominations: Hearing Before the S. Comm. on Commerce*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg73078),
+      13 (O''Connor, July 26).'
+- src:
+    id: cal.1962-01-31.confirmations
+    rows:
+    - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt1/pdf/GPO-CRECB-1962-pt1-14-1.pdf: all'
+    - 'https://voteview.com/rollcall/RS0870208: A'
+- primary:
+    id: cal.1962-01-31.confirmations
+    text: 'The hearing: [*Nominations of McCone, Korth, and Harlan: Hearing Before the S. Comm. on Armed Services*, 87th
+      Cong. (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg78722), 22 (McCone, Jan. 18).'
+- primary:
+    id: cal.1962-03-30.court
+    text: 'The hearing: [*Nomination of Byron R. White: Hearing Before the S. Comm. on Judiciary*, 87th Cong. (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg85587),
+      21 (White, Apr. 11).'
+- src:
+    id: cal.1963-11-22.transition-and-staff
+    rows:
+    - 'w.bird-color-of-truth 265: all'
+- primary:
+    id: cal.1963-11-22.transition-and-staff
+    text: 'The hearings: [*Nominations of Paul H. Nitze and William P. Bundy: Hearings Before the S. Comm. on Armed Services*,
+      88th Cong. (1963)](https://www.govinfo.gov/app/details/CHRG-88shrg25242), 2 (Nitze, Nov. 7), 90 (Bundy, Nov. 14).'
+- src:
+    id: cal.1964-12-16.transition-and-staff
+    rows:
+    - 'https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=900: all'
+    - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=137: all'
+- primary:
+    id: cal.1964-12-16.transition-and-staff
+    text: 'The hearing: [*Nomination of John T. Connor: Hearing Before the S. Comm. on Commerce*, 89th Cong. (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg41544),
+      1 (Connor, Jan. 12).'
+- src:
+    id: cal.1965-02-13.transition-and-staff
+    rows:
+    - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=258: all'
+    - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-1965/pdf/GPO-CRECB-1965-pt2-9-2.pdf: all'
+- primary:
+    id: cal.1965-02-13.transition-and-staff
+    text: 'The hearing: [*Nomination of Nicholas deB. Katzenbach to Be Attorney General: Hearing Before the S. Comm. on
+      the Judiciary*, 89th Cong. (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg43003), 3 (Katzenbach, Feb. 8).'
+- primary:
+    id: cal.1965-03-18.voting-rights-2
+    text: 'The hearing: [*Adams, Bagge, Donner, Ross, Trowbridge, and Wadsworth Nominations: Hearings Before the S. Comm.
+      on Commerce*, 89th Cong. (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg48484), 1 (Bagge, Apr. 13).'
+- primary:
+    id: cal.1965-10-21.confirmations
+    text: 'The hearing: [*Nomination of Francis X. Morrissey: Hearing Before a Subcomm. of the S. Comm. on the Judiciary*,
+      89th Cong. (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg54737), 5 (Morrissey, Oct. 12).'
+- src:
+    id: cal.1966-01-17.cities-and-housing
+    rows:
+    - 'https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=100: all'
+    - 'https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=101: all'
+    - 'w.califano-triumph-and-tragedy-of 130: ?'
+- primary:
+    id: cal.1966-01-17.cities-and-housing
+    text: 'The hearings: [*Nominations of Robert C. Weaver and Robert C. Wood: Hearing Before the S. Comm. on Banking and
+      Currency*, 89th Cong. (1966)](https://www.govinfo.gov/app/details/CHRG-89shrg57923), 3 (Weaver, Jan. 17), 8 (Wood,
+      Jan. 17).'
+- src:
+    id: cal.1966-06-28.transition-and-staff
+    rows:
+    - 'https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=753: all'
+- primary:
+    id: cal.1966-06-28.transition-and-staff
+    text: 'The hearing: [*Nominations of Robert A. Frosch, Assistant Secretary of the Navy; Myron R. Blee, Deputy Director
+      of Office of Emergency Planning; Richard Helms, Director of Central Intelligence: Hearing Before the S. Comm. on Armed
+      Services*, 89th Cong. (1966)](https://www.govinfo.gov/app/details/CHRG-89shrg65449), 7 (Helms, June 23).'
+- primary:
+    id: cal.1966-11-06.transportation
+    text: 'The hearing: [*Nomination of Alan S. Boyd to Be Secretary of Transportation: Hearing Before the S. Comm. on Commerce*,
+      90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg75440), 6 (Boyd, Jan. 11).'
+- primary:
+    id: cal.1968-03-23.vietnam-abrams
+    text: 'The hearing: [*Nominations of Gen. William C. Westmoreland, Ernest Louis Massad, and Robert C. Moot: Hearings
+      Before the S. Comm. on Armed Services*, 90th Cong. (1968)](https://www.govinfo.gov/app/details/CHRG-90shrg96707),
+      2 (Westmoreland, June 4).'
+- primary:
+    id: cal.1968-12-17.transition-and-staff
+    text: 'The hearing: [*Nominations of David M. Kennedy, of Illinois, to Be Secretary of the Treasury, and Robert H. Finch,
+      of California, to Be Secretary of Health, Education, and Welfare: Hearing Before the S. Comm. on Finance*, 91st Cong.
+      (1969)](https://www.govinfo.gov/app/details/CHRG-91shrg23662), 33 (Finch, Jan. 14).'
+- src:
+    id: cal.1963-04-25.confirmations
+    rows:
+    - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt6/pdf/GPO-CRECB-1963-pt6-1-1.pdf: all'
+    - 'https://archive.org/details/op-atty-gen/042/page/n189/mode/1up: all'
+    - 'https://voteview.com/rollcall/RS0880038: C'
+- primary:
+    id: cal.1963-04-25.confirmations
+    text: 'The hearing: [*Communications Satellite Incorporators: Hearing Before the S. Comm. on Commerce*, 88th Cong. (1963)](https://www.govinfo.gov/app/details/CHRG-88shrg95977)
+      (the incorporators, Mar. 11).'
+- primary:
+    id: cal.1966-01-25.civil-rights-the-executive
+    text: '[*Wilkins Nomination: Hearing Before the S. Comm. on Commerce*, 89th Cong. (1966)](https://www.govinfo.gov/app/details/CHRG-89shrg59221),
+      1–2 (Robert Kennedy for him), 3 (Wilkins).'
+    units: A, C
+- src:
+    id: cal.1964-07-09.civil-rights-bill
+    rows:
+    - 'https://www.senate.gov/artandhistory/history/minute/pinned.htm: all'
+- primary:
+    id: cal.1964-07-09.civil-rights-bill
+    text: 'The hearing, July 7: [*Nomination of Leroy Collins: Hearing Before the S. Comm. on Commerce*, 88th Cong. (1964)](https://www.govinfo.gov/app/details/CHRG-88shrg35416),
+      5 (Collins).'
+- check:
+    id: cal.1964-07-09.civil-rights-bill
+    text: 'Check: the printed hearing is of July 7, Collins before the committee; the session of July 9 is not in it.'
+- edit:
+    id: cal.1961-01-13.robert-kennedy
+    base: fb2ce0f8
+    set:
+      n: '[*Robert F. Kennedy, Attorney-General-Designate: Hearing Before the S. Comm. on the Judiciary*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg64451),
+        3, 5–6, 30. Daily Digest, [107 Cong. Rec. D13](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=11)
+        (1961). [[w.schlesinger-robert-kennedy-and-his]], 235–36; [[w.shesol-mutual-contempt]], 68 (the hearing; Kennedy
+        on his inexperience: "I would not have given up one year of experience"). See [[cal.1960-12-16.robert-kennedy]].
+        Names: Robert Kennedy, Dirksen, Hruska.'
+      src:
+        c: 9b7b05d1
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=11: A, C'
+        - 'w.schlesinger-robert-kennedy-and-his 235–36: A-C'
+        - 'via w.schlesinger-robert-kennedy-and-his 235 n.55: B'
+        - 'w.shesol-mutual-contempt 68: A'
+        - 'https://www.govinfo.gov/app/details/CHRG-87shrg64451: A-C'
+- edit:
+    id: cal.1968-01-25.defense-clifford
+    base: b73c8c80
+    set:
+      n: 'FRUS 1964–68, VI, doc. [27](https://history.state.gov/historicaldocuments/frus1964-68v06/d27). [*Nomination of
+        Clark M. Clifford to Be Secretary of Defense: Hearing Before the S. Comm. on Armed Services*, 90th Cong. (1968)](https://www.govinfo.gov/app/details/CHRG-90shrg89748),
+        3, 21. [[w.clifford-counsel-to-the-president-2]], 470–71 (the hearing from 10:30 a.m.; the exchange with Thurmond,
+        quoted; Rusk and Rostow for a clarification, refused). See [[cal.1968-01-19.defense]]. Names: Clifford.'
+      src:
+        c: a058bde8
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d27: all'
+        - 'w.clifford-counsel-to-the-president-2 470–71: B'
+        - 'https://www.govinfo.gov/app/details/CHRG-90shrg89748: all'
+- edit:
+    id: cal.1968-02-17.press-and-broadcasting
+    base: 263d69a8
+    set:
+      c: 'Johnson names the Corporation for Public Broadcasting''s board: Frank Pace, Jr., chairman; Killian, Hobby, Valenti,
+        Robert S. Benjamin, Sanders, Joseph D. Hughes of Pennsylvania, Milton Eisenhower, Schooley, Gammino, Haas, John
+        D. Rockefeller 3d, Leinsdorf, Roscoe C. Carroll, Beirne.'
+      n: 'The hearing, Mar. 8: [*Nominations—1968: Hearings Before the S. Comm. on Commerce*, 90th Cong. (1967–68)](https://www.govinfo.gov/app/details/CHRG-90shrg91649),
+        39 (the fifteen nominees, by State and term). [[w.bernstein-guns-or-butter]], 456. To check: Cater to Johnson, Feb.
+        16, 1968, Legislative Background, Public Broadcasting, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 457
+        n.8). Check: "Joseph D. Hughes of New Jersey," as Bernstein has him. The hearing prints him "of Pennsylvania," and
+        the entry follows it. See [[cal.1967-11-07.press-and-broadcasting]]. Names: Johnson, Killian, Hobby, Valenti, Sanders,
+        Milton Eisenhower.'
+      src:
+        c: 9e9de7bb
+        rows:
+        - 'w.bernstein-guns-or-butter 456: all'
+        - 'via x.1968-02-16.cater-to-johnson-legislative-background-public-broadcasting: all'
+        - 'https://www.govinfo.gov/app/details/CHRG-90shrg91649: B'

@@ -49,15 +49,40 @@ This pass did not reach every dated event of the volume: the Shining Brass and P
 | Page | Date | Event | Why |
 |---|---|---|---|
 | 22–25 | Apr. 10, May 19, 1964 | the rightist coup attempt; the first Able Mable mission over Laos (Lucky Dragon) | in the calendar (`cal.1964-04-19.laos`, `cal.1964-05-17.laos`) |
-| 56 | Mar. 23, 1965 | the Chiefs ask an operational plan for Steel Tiger's first missions | not entered |
-| 61–63 | Apr. 1, 2, 8, May 3, 1965 | Green Python's first missions; the airfield near Tchepone struck; Sullivan's rule on secondary targets | not entered |
+| 56 | Mar. 23, 1965 | the Chiefs ask an operational plan for Steel Tiger's first missions | entered (cal.1965-03-23.laos, second run) |
+| 61–63 | Apr. 1, 2, 8, May 3, 1965 | Green Python's first missions; the airfield near Tchepone struck; Sullivan's rule on secondary targets | entered (second run) |
 | 78 | June 1–Aug. 19, 1965 | some 22,000 troops counted on Route 23 | not entered |
-| 89–93 | Sept. 15, Sept. 29, Oct. 11, Nov. 2–11, 1965 | F-4s hit a bridge by accident; CINCPAC's Shining Brass order; the second team; eighty-three sorties | not entered |
+| 89–93 | Sept. 15, Sept. 29, Oct. 11, Nov. 2–11, 1965 | the bridge struck; the short rounds of Sept. 29–30; the briefing at MACV; the second team; eighty-three sorties | entered (second run: Sept. 15 in the Oct. 1 entry), but Oct. 11, a briefing (minor) |
 | 101–03 | Dec. 6–31, 1965; Dec. 13, Dec. 16, Dec. 23, 1965 | 809 Tiger Hound sorties; the *Daily News* and the *Post* on the bombing of Laos; the first mission of a new unit; the attrition estimate | not entered (the press: below) |
 | 112–17 | Mar., June 1, June 16, Jan. 5, Apr. 27, 1966 | Cricket's problems; the 23d TASS; a truck convoy struck; an O-1 destroyed at Khe Sanh; the 1,000th truck | not entered (Apr. 27 minor) |
 | 120–24 | Jan. 6–7, Jan. 24, Feb. 17–18, May 26, June 7, 1966 | Shining Brass teams Ohio and Maine; the first guerrilla penetration on Route 110 | not entered |
 | 128 | Jan. 1966 | unidentified aircraft hit nonapproved targets | not entered |
 | 134–37 | Jan. 8, 1967; Mar. 30, Apr. 8, 12, 21, 1966 | SAC's advanced echelon in Saigon; Souvanna against B-52s at Attopeu; the Mu Gia strikes | in the calendar (Apr. 12), the rest not entered |
+
+## The military re-read, second run (Nov. 5, 2026)
+
+The same copy (`DTIC_ADA439950`), its hOCR search text split by leaf, each leaf given the folio it prints (leaf less 18). Read: the dated sentences of pp. 52–302 listed by script (506); those of pp. 56–140 (Steel Tiger's first year to the B-52 strikes of 1966) read in their passages and held against the calendar by day in Laos, Vietnam and its Air war. Pages 141–302 (the Shining Brass and Prairie Fire launches of 1966–68, Cricket's later work, Tally Ho's operations, Igloo White and Muscle Shoals, Turnpike, Commando Hunt) were not reached in this run: some 250 dated sentences, left for the next.
+
+Patch `inbox/2026-11-05-mil2-staaveren-sl.yaml` (patch `mil2-staaveren-sl`): 45 ops, 40 new entries in Laos (and the Air war) claimed in the ledger: Steel Tiger's planning and first missions (Mar. 23, Apr. 1, 5, 8, 12, May 1, 3, 1965), Red Haze, the short rounds and halts of May 11 and 22, Sept. 29–30, Oct. 1 and Nov. 20–21, 1965, and Feb. 5, 1966, and their easing (June 7, Oct. 6, Nov. 3, 1965; Feb. 25, 1966); the buffer zone deleted (July 19); the passes struck (July 16–17); SEACOORD (July 23–24); the strikes planned Sept. 12 and Shining Brass approved in principle (Sept. 20); the RF-4Cs (Oct. 30); the second Shining Brass team (Nov. 2); the O-1Es (Nov. 20); the Christmas resumption; Bond; the Steel Tiger area narrowed (Jan. 14, 1966); the O-1 detachment at Nakhon Phanom; the sorties after the pause; teams Maine, Idaho and Dakota; Attopeu (Mar. 3); B-52 approval to PACOM and SAC (Mar. 15); Route 110 (May 26); the 23d TASS (June 1); Tally Ho (July 20); Mụ Giạ again (Dec. 12, 1966). Cites: cal.1965-05-09.laos (65, the Bango debut); cal.1965-12.laos-2 (101; a pending entry of `mil2-schlight`, with a Check giving Dec. 6); cal.1966-05-18.laos (123, with a Check: Van Staaveren dates Sullivan's assent May 24).
+
+Witnesses: none in this run; the endnotes (pp. 303–334) not mapped (a lead).
+
+### Passed over (the second run, pp. 56–140)
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 58 | Mar. 30, Apr. 3, 1965 | Sullivan with Souvanna; CINCPAC's first order | in the calendar (cal.1965-03-30.laos, cal.1965-04-03.laos) |
+| 61 | Apr. 17, 1965 | the Chiefs' authority to Sharp | in the calendar (cal.1965-04-17.laos) |
+| 68 | June 5, 1965 | Taylor's report on the deteriorating situation | in the calendar's Vietnam entries of June 5 (not checked line by line) |
+| 69 | Apr. 24–May 24, 1965 | 179 trucks attacked, 51 destroyed or damaged, six sorties a truck | not entered (the next run): an analysts' count over a month, for an entry of May 24 |
+| 73 | May 12, 1965 | Westmoreland to Sharp and the Chiefs: Shining Brass scrapped unless Sullivan relents | not entered (the next run) |
+| 78 | June 1–Aug. 19, 1965 | some 22,000 troops counted on Route 23 | not entered (the next run): the roadwatch teams' count, an entry of Aug. 19 |
+| 91 | Oct. 11, 1965 | the airmen briefed at MACV on Shining Brass | minor (a briefing) |
+| 101–03 | Dec. 23, 1965 | the attrition estimate | not entered (the next run) |
+| 110–17 | Mar., June 16, Jan. 5, Apr. 27, 1966 | Cricket's problems; the convoy struck; the O-1 destroyed at Khe Sanh; the 1,000th truck | not entered (the next run); Apr. 27 minor |
+| 120 | Jan. 6–7, Jan. 24, 1966 | team Ohio; nine missions by Jan. 24 | not entered (the next run) |
+| 128 | Jan. 1966, first week | unidentified aircraft on nonapproved targets | not entered (the next run) |
+| 133–38 | Dec. 12, 1965; Apr. 25–26, 1966 | the publicity after the first B-52 strike in Laos; the B-52s bomb through a Navy mission | the first in the calendar (cal.1965-12-10.laos, its Check); Apr. 25–26 not entered (the next run) |
 
 ## Leads (the re-read)
 
@@ -69,3 +94,5 @@ This pass did not reach every dated event of the volume: the Shining Brass and P
 |---|---|---|---|---|
 | 1965-12-13 | *New York Daily News* | — | American air operations over Laos up fifty percent; defoliants on the trail | 101 |
 | 1965-12-20 | *Washington Post* | — | the first B-52 strike in Laos disclosed | 101 |
+- Pages 141–302 of the volume not reached in the second run (about 250 dated sentences): the next run.
+- The volume's endnotes (pp. 303–334) for the 49 entries of the two runs: unmapped.

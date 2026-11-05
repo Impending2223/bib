@@ -266,6 +266,20 @@ def cmd_build(series, a):
         print(os.path.relpath(p, HERE), f"{os.path.getsize(p) // 1024} KB")
 
 
+def cmd_hearings(series, a):
+    """The printed nomination hearings' nominees and who each is (tools/bib/hearings.py): all, or the open ones."""
+    from . import hearings
+    read = {(r["package"], r["name"]) for r in hearings.hand_open()}
+    for h, n, p, how, hd in hearings.matches(series):
+        if a.action == "open" and (p or how == "no name entry fits"):
+            continue
+        if (h["package"], n["name"]) in read:
+            how += "; read, left open (sources/nomination-hearing-matches.yaml)"
+        day = (h.get("held") or [h.get("issued")])[0]
+        print(f"{h['package']}  {day}  {n['name']}  ({n.get('office') or ''})  -> {p or '-'}  [{how}]"
+              + (f"  holder {hd[0]}.{hd[1]}" if hd else ""))
+
+
 def cmd_executive(series, a):
     from . import executive
     units = executive.load()
@@ -848,6 +862,8 @@ def main(argv=None):
     x = sub.add_parser("build", help="write build/<key>.html and build/series.html")
     x.add_argument("which", nargs="?", help="a list key, or 'series'; default all")
     x.add_argument("--force", action="store_true")
+    x = sub.add_parser("hearings", help="the printed nomination hearings: all | open (a name only, for the hand file)")
+    x.add_argument("action", nargs="?", choices=["all", "open"], default="all")
     x = sub.add_parser("executive", help="the Executive Branch roster: check | who NAME | names [cal|part3|daybook] | sources [all]")
     x.add_argument("action", choices=["check", "who", "names", "sources"])
     x.add_argument("args", nargs="*")

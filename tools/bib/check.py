@@ -407,6 +407,10 @@ def run(series, only=None):
     from . import committees
     for where, msg in committees.problems():
         add(ERROR, "daybook/committees/", f"{where}: {msg}", "committees")
+    # the printed nomination hearings (sources/nomination-hearings.yaml; tools/bib/hearings.py)
+    from . import hearings
+    for level, where, msg in hearings.problems(series):
+        add(ERROR if level == "error" else WARN, where, msg, "hearings")
     # the leaders and the standing committees at each Congress (congress/committees.yaml, tools/bib/committee_rosters.py)
     from . import committee_rosters
     for level, msg in committee_rosters.problems(series):

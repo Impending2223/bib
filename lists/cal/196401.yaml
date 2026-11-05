@@ -1117,6 +1117,13 @@ entries:
         - 'w.goldberg-barry-goldwater 184: all'
         - 'via w.goldberg-barry-goldwater 184 n.21: all'
     tags: [name:goldwater-barry-m, state:ny, city:nyc]
+  - id: cal.1964-01-16.economy
+    when: Jan. 16
+    date: '1964-01-16'
+    thread: economy
+    c: The Senate Banking and Currency Committee hears Joseph W. Barr on his nomination as a member of the Board of Directors of the Federal Deposit Insurance Corporation.
+    n: '[*Nomination of Joseph W. Barr: Hearing Before the S. Comm. on Banking and Currency*, 88th Cong. (1964)](https://www.govinfo.gov/app/details/CHRG-88shrg27612), 1. Names: Barr.'
+    tags: [name:barr-joseph-w]
   - id: cal.1964-01-17.opinion
     when: Jan. 17
     date: '1964-01-17'
@@ -1541,6 +1548,19 @@ entries:
       rows:
         - 'w.novak-agony-of-the-g 319–20: all'
     tags: [name:rockefeller-nelson]
+  - id: cal.1964-01-22.vietnam-2
+    when: Jan. 22
+    date: '1964-01-22'
+    thread: vietnam
+    also: [vietnam-34a]
+    c: Moorer, commanding the Seventh Fleet, schedules the *Radford* for the first week of February off North Vietnam, for the first time allowed within four miles of Communist territory, a MACV officer aboard. Then put off past mid-February, for the 34A missions of the month's first two weeks.
+    n: '[[w.marolda-united-states-navy-and]], 395. To check: msg, COM7FLT 220602Z Jan 1964 (cited by [[w.marolda-united-states-navy-and]], 395 n.6). See [[cal.1964-01.vietnam-34a]]. Names: Moorer.'
+    src:
+      c: 1e6be738
+      rows:
+        - 'w.marolda-united-states-navy-and 395: all'
+        - 'via x.1964-01-22.msg-com7flt-220602z-jan-1964: all'
+    tags: [name:moorer-thomas]
   - id: cal.1964-01-23.voting-rights
     when: Jan. 23
     date: '1964-01-23'
@@ -1680,6 +1700,19 @@ entries:
         - 'w.asselin-hanois-road-to-the 189: all'
         - 'via x.1964-01-24.chi-thi-73-ct-tw: A'
         - 'via x.1964-01-24.chi-thi-73-ct-tw: B'
+  - id: cal.1964-01-24.vietnam-34a
+    when: Jan. 24
+    date: '1964-01-24'
+    thread: vietnam-34a
+    also: [vietnam]
+    c: 'Felt to the Joint Chiefs: a "continuing requirement" for intelligence on the North Vietnamese forces able to resist operations under OPLAN 34A; the Desoto ship "excellent means for obtaining this INTEL."'
+    n: '[[w.marolda-united-states-navy-and]], 395. To check: msg, CP 240124Z Jan 1964 (cited by [[w.marolda-united-states-navy-and]], 395 n.5). See [[cal.1964-01.vietnam-34a]]. Names: Felt.'
+    src:
+      c: d10b3663
+      rows:
+        - 'w.marolda-united-states-navy-and 395: all'
+        - 'via x.1964-01-24.msg-cp-240124z-jan-1964: all'
+    tags: [name:felt-harry-d]
   - id: cal.1964-01-25.europe-and-the-alliance
     when: Jan. 25–28
     date: '1964-01-25'
@@ -2668,3 +2701,27 @@ entries:
         - 'via x.1964-01.tran-quoc-tu-peace-and-revolution: A'
         - 'via x.1964-01.tran-quoc-tu-peace-and-revolution: B'
         - 'via x.1964-01.hoc-tap-balance-of-forces: C'
+  - id: cal.1964-01.vietnam-34a
+    when: Jan., mid
+    date: 1964-01
+    thread: vietnam-34a
+    also: [vietnam]
+    c: Harkins asks that the Desoto Patrol of February be designed to give the coming 34A program its intelligence.
+    n: '[[w.marolda-united-states-navy-and]], 395. See [[cal.1964-01-07.vietnam]]. Names: Harkins.'
+    src:
+      c: 6d760326
+      rows:
+        - 'w.marolda-united-states-navy-and 395: all'
+    tags: [name:harkins-paul-d]
+  - id: cal.1964-01-31.vietnam
+    when: Jan. 31
+    date: '1964-01-31'
+    thread: vietnam
+    c: 'Sharp, commanding the Pacific Fleet, orders the *John R. Craig* on the postponed patrol, Feb. 25 to Mar. 12: twelve miles from China, eight from North Vietnam''s mainland, four from its islands. No carrier air cover, the threat "almost non-existent"; the *Ingersoll* at the gulf''s entrance.'
+    n: '[[w.marolda-united-states-navy-and]], 396. To check: msg, CPFLT 311834Z Jan 1964 (cited by [[w.marolda-united-states-navy-and]], 396 n.9). See [[cal.1964-01.vietnam-34a]]. Names: Sharp.'
+    src:
+      c: 2a44f1e9
+      rows:
+        - 'w.marolda-united-states-navy-and 396: all'
+        - 'via x.1964-01-31.msg-cpflt-311834z-jan-1964: all'
+    tags: [name:sharp-u-s-grant]
