@@ -1628,9 +1628,9 @@ the series index, the README and the top bar (数; at first kept out of the bar,
   unemployment falling, a real rate falling, a gap below zero) and brown on the cold (`HOT`); the price indexes (CPI,
   WPI, deflator: `YOY`) by the change from a year earlier, the figure the cell prints, the rest by the change from the period before; the Released
   cell in its figure's tint (the owner, Nov. 4, 2026); a key under the table. A
-  tap anywhere in a charted row's name cell, the name included (the owner, Nov. 4, 2026: "Clicking on the cells
-  containing the name of a graphed indicator should expand the graph"), or on the ▸ before it (the keyboard's button),
-  opens its chart in a row beneath, and closes it (indchart STYLE 3). The chart (uPlot, vendored, `sources/vendor/uplot-1.6.30/`): as first
+  tap in a charted row's name cell (the owner, Nov. 4, 2026: "Clicking on the cells containing the name of a graphed
+  indicator should expand the graph"), but on the name's own link, which goes to its servant, or on the ▸ before it
+  (the keyboard's button), opens its chart in a row beneath, and closes it (indchart STYLE 3). The chart (uPlot, vendored, `sources/vendor/uplot-1.6.30/`): as first
   reported and today over the span, Level | Year over year, year over year by default but for the rates and ratios in
   percent; the figures in `build/ind/charts-<hash>.json`, fetched at the first tap.
 - Real rates (`tools/indicators/make_derived.py`, its docstring; group "Real rates", the owner's rename, Nov. 4, 2026): the

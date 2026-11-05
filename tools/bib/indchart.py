@@ -17,8 +17,9 @@ STYLE (settled; keep it):
     zero takes no tint. The Released cell takes its first-reported figure's tint (the owner's request, Nov. 4, 2026).
  2. The key: one muted line under the indicators table names the tint ("Tint: green, the hot side ...; brown, the
     cold"), once a table.
- 3. The chart. A tap or click anywhere in a charted row's name cell (CELL, the pointer a hand), the name and its
-    period included, opens a row beneath it (the owner's request, Nov. 4, 2026: "Clicking on the cells containing the
+ 3. The chart. A tap or click in a charted row's name cell (CELL, the pointer a hand) opens a row beneath it, but on
+    the name's own link, which goes to its statement of concepts as any link does (the owner, Nov. 4, 2026: "Make that
+    change") (the owner's request, Nov. 4, 2026: "Clicking on the cells containing the
     name of a graphed indicator should expand the graph"); the small button before the name (▸, "Chart" to screen
     readers) stays, the keyboard's way in. The opened row is the table's width: the series over the calendar's span, as first
     reported (solid, the accent) and today (dashed, muted), a band at the row's period; a switch Level | Year over
@@ -205,7 +206,7 @@ def button(sid):
 
 KEY = ('<p class="ind-key"><span class="sw tH" style="--tz:60%"></span> the hot side (prices, output, jobs, money, '
        'debt or rates rising; unemployment falling; a real rate falling) · <span class="sw tC" style="--tz:60%"></span> '
-       'the cold; deeper, a rarer move. A tap on a row\'s name (▸) opens its chart.</p>')
+       'the cold; deeper, a rarer move. A tap beside a row\'s name, or on ▸, opens its chart.</p>')
 
 
 def css():
@@ -224,7 +225,6 @@ div.ind button.ich{all:unset;cursor:pointer;color:var(--muted);font-size:.8em;pa
 div.ind button.ich[aria-expanded="true"]{transform:rotate(90deg)}
 div.ind button.ich:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
 div.ind td.ichc{cursor:pointer;-webkit-tap-highlight-color:transparent}
-div.ind td.ichc a{cursor:pointer}
 div.ind tr.ichd>td{padding:.4rem 0 .8rem;white-space:normal}
 div.ind .ich-tools{display:flex;flex-wrap:wrap;gap:.3rem .8rem;align-items:center;font-size:.75rem;color:var(--muted);margin-bottom:.3rem}
 div.ind .ich-seg{display:inline-flex;border:1px solid var(--rule);border-radius:5px;overflow:hidden}
@@ -283,7 +283,7 @@ function open(btn,cfg){
 document.addEventListener("click",function(e){
   if(!e.target.closest||e.button>0)return;
   var b=e.target.closest("button.ich");
-  if(!b){var c=e.target.closest("td.ichc");if(!c)return;b=c.querySelector("button.ich");if(!b)return;}
+  if(!b){var c=e.target.closest("td.ichc");if(!c||e.target.closest("a[href]"))return;b=c.querySelector("button.ich");if(!b)return;}
   e.preventDefault();e.stopPropagation();open(b,window.ICH);},true);   /* capture: before the reader's link handler (STYLE 3) */
 })();
 </script>"""
