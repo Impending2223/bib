@@ -110,7 +110,7 @@ What was read: chapters 10 and 11 (pp. 139–201, Berlin and the missile crisis)
 
 ## Leads (the military re-read)
 
-- National: chapters 1–7, 12–14 and 20 of this volume not re-read (the fourth run, below, read 8–9 and 15–19).
+- National: chapters 1–7, 12–14 and 20 of this volume not re-read (the fourth run, below, read 8–9 and 15–19). Done in the fifth run, below.
 - National: the witnesses of this run's four entries (the notes, pp. 313 ff.) to be registered.
 
 ## The military re-read, fourth run (Nov. 5, 2026): chapters 8–9 and 15–19
@@ -147,6 +147,109 @@ Witnesses: none registered in this run (the notes, pp. 309 ff., not matched to t
 ### Leads (the fourth run)
 
 National
-- Chapters 1–7 (strategy, the strategic and continental forces, conventional forces, disarmament, testing), 12–14 (NATO, military assistance) and 20 not re-read: their papers (the JCSMs, OSD's memoranda) are entries under R8; the next run.
-- The rows above marked "for the next": dated in the volume, entries to write.
+- Chapters 1–7 (strategy, the strategic and continental forces, conventional forces, disarmament, testing), 12–14 (NATO, military assistance) and 20 not re-read: their papers (the JCSMs, OSD's memoranda) are entries under R8; the next run. Done in the fifth run, below.
+- The rows above marked "for the next": dated in the volume, entries to write. Done in the fifth run, below.
 - The witnesses of the fourth run's entries (the notes, pp. 309–62).
+
+## The military re-read, fifth run (Nov. 5, 2026): chapters 1–7, 12–14, 20, and the rows left for the next
+
+The brief `notes/briefs/military-reread.md` (R14; R8 for the papers of government, the Chiefs' and OSD's memoranda, studies and plans, under the owner's rulings of Oct. 28; R50 as restated Nov. 5). Copy: DTIC_ADA551509 on archive.org, its hOCR search text split by leaf (`_hocr_searchtext.txt.gz`, `_hocr_pageindex.json.gz`), each leaf given its folio by `_page_numbers.json` and checked by the folio printed at the leaf's foot; offset 12 at p. 2 (leaf 14), falling at each chapter opening (p. 17 leaf 28, p. 51 leaf 61, p. 187 leaf 196, p. 225 leaf 232, p. 289 leaf 294). Page images read for pp. 3 (leaf 15: White retired "30 June 1961", the text layer reading "20"), 18 (leaf 29: McNamara to the President "28 March 1961", the message "eight days later"), 31 (leaf 42), 85 (leaf 95: Mar. 9 and Apr. 12, 1962) and 210 (leaf 218: Kennedy approved the overseas cuts "16 July"); the other pages cited not checked against the image, a lead for the merger's spot check (R54). The text layer misreads digits (p. 97 prints "80 August" for 30; p. 151 "57,000" where the calendar has 37,000): the dates used were held against the calendar's day and, where FRUS or the Papers print the document, against it. Copies deleted.
+
+What was read: every sentence carrying a date in chapters 1 (pp. 1–14), 2 (17–34), 3 (35–50), 4 (51–60), 5 (61–80), 6 (81–92), 7 (93–106), 12 (187–202), 13 (203–216), 14 (217–224) and 20 (297–302), listed by script, the paragraphs around each read whole; and the pages the fourth run left "for the next" (225–31, 237–41, 245–50, 251–58, 265–66, 273–78, 279–83, 289–96), with the first pass's and the first re-read's lead rows in chapters 9–11 (pp. 135, 147–53, 156, 160–61, 169). Each event held against the calendar by its day, the days on either side for appointments, and its thread (`./bib find`, the tree's index, `./bib ledger find`).
+
+Patches: `inbox/2026-11-05-mil5-poole-1961-64.yaml` (chs. 1–7: 228 new entries, 36 cites, 7 checks) and `inbox/2026-11-05-mil5b-poole-1961-64.yaml` (chs. 9–20: 203 new entries, 43 cites, 11 checks); 431 entries claimed in the ledger. Threads: Defense (the PPBS cycle, JSOPs, JSCPs, SIOPs, the BNSP, the strategic, continental and general purpose forces, counterinsurgency), Defense: ABM, Arms control and testing (disarmament, the test ban), Space (orbiting weapons), Europe and the alliance (NATO strategy, the MRBM and MLF, the cuts in Europe), Foreign aid (military assistance), Latin America, Middle East (Iraq, Israel, Iran, CENTO), Dimona, Africa, the Congo, South Asia (Pakistan and India, the Indian Ocean), China (the nuclear program, Taiwan), Japan (the bases, the Ryukyus), Indonesia, Berlin and Vienna (Aug.–Sept. 1961), Cuba (Mongoose, Mar.–Apr. 1962), the missile crisis (Oct. 18, 1962).
+
+Primary records read and cited first: FRUS 1961–63, VIII, docs. 10 (Rusk to McNamara, Feb. 4, 1961), 27 (McNamara to Kennedy, May 10, 1961), 30 (Kaysen, June 16, 1961), 66 (the Palm Beach meeting, Jan. 3, 1962); FRUS 1964–68, X, docs. 71 (the LBJ Ranch, Dec. 22, 1964), 75 (JCSM-84-65, Feb. 4, 1965, and its n.5, McNamara to Wheeler, Mar. 3, 1965); the News Conference of Oct. 31, 1963, 1963 Pub. Papers 826. FRUS VIII, doc. 137 (July 24, 1963) prints the Chiefs' meeting with Kennedy but leaves out the test-ban talk Poole gives: not cited.
+
+### Rulings (the cites already made, not a plain "holds")
+
+| Entry | Ruling | The volume, and what was done |
+|---|---|---|
+| `cal.1961-02.defense-3` | disagrees | The "Ninety-nine Trombones" (McNamara's account): Poole, 7, 63, dates the queries Mar. 8 and counts 96. Cited for A with the date as parenthetical; Check. |
+| `cal.1961-02-04.defense` | date differs | Poole, 36, has McNamara at Omaha Feb. 5–6; the entry, by Kaplan, Feb. 4. Check only; not cited (the page gives nothing of A–B). |
+| `cal.1961-07-25.berlin-and-vienna` | date differs | Poole, 66, dates the request for $3.2 billion July 26. Cited for A; Check. |
+| `cal.1961-08-19.berlin-and-vienna` | date differs | Poole, 149, has the battle group on the autobahn Aug. 20, dawn to dark, 350 vehicles, 1,600 men, a serial held at Babelsberg. Cited for B; Check. |
+| `cal.1961-08-24.berlin-and-vienna-3` | date differs | Poole, 149, dates the mobilization orders Aug. 25: 76,600 men. Cited for A; Check. |
+| `cal.1961-12-13.europe-and-the-alliance` | date differs | Poole, 191: the meeting opened Dec. 11, McNamara spoke three days later. Cited for A; Check. |
+| `cal.1962-05-04.europe-and-the-alliance` | date differs | Poole, 198, dates Kennedy's approval of State's nuclear program Apr. 16; NSAM 147 is of Apr. 18. Check. |
+| `cal.1962-09-28.defense` | holds in part | Poole, 43–44: McNamara's memorandum of Sept. 28 on the RS-70, $3 billion over the Air Force's $8.2 billion, three B-70s for not more than $1.3 billion. Cited for A, C. (A new entry for it was dropped as a duplicate.) |
+| `cal.1962-11-20.defense` | date differs | Poole, 46, dates Kennedy's approval of the five-year strategic program (950 Minuteman, Skybolt cancelled, six Polaris) Nov. 23. Cited for A; Check. |
+| `cal.1962-12-27.defense` | two Checks | Poole, 55, puts a Palm Beach discussion of missile defense "late in December" (Kennedy: Nike-Zeus "too expensive"), and, 207, a warning to the Chiefs "late in December 1962" that the forces in Europe would be "thinned out": this meeting? Checks; cited at 12 for A. |
+| `cal.1963-02-28.europe-and-the-alliance` | holds | Poole, 207, the direction "two months" after the December warning; Check. |
+| `cal.1963-07-30.defense` | date differs | Poole, 4, 299: Anderson left and McDonald succeeded Aug. 1. Cited for A; Check. (A new entry was dropped as a duplicate.) |
+| `cal.1963-08-15.testing` | date given | The entry's "Check the date": Poole, 105, has Taylor testify the day after McNamara's Aug. 13: Aug. 14. Cited; Check. |
+| `cal.1960-07-11.congo`, `cal.1960-07-13.congo` | date differs | Poole, 256, dates Katanga's secession July 10 and the Security Council's resolution July 14. Cited; Checks. |
+| `cal.1964-04-10.europe-and-the-alliance` | loose | Poole, 206: "In April 1964" Johnson approved a "tentative" schedule, the MLF by July 1965. Cited for A; Check. |
+| `cal.1964-07-04.middle-east` | loose | Poole, 247, dates the memorandum "July 1964": $250 million, F-5s, 460 M-60s, a Hawk battalion. Cited for B; Check. |
+| `cal.1964-09-15.china` | disagrees | Poole, 283, puts Johnson at the discussion; FRUS (the entry's record) is Bundy's memorandum for the President. Cited; Check. |
+| `cal.1962-06-10.missile-crisis` | holds in part | Poole, 161: by June 10 a plan ready, 36 R-12s on 24 launchers, 24 R-14s on 16. Cited for A, C. |
+| `cal.1961-09-07.berlin-and-vienna-2` | holds in part | Poole, 151; its text layer reads "57,000" for the European Command, not checked against the image. Cited for A, C, D only. |
+
+Other cites (holds, for the units given in the patch): Dec. 27, 1962, Dec. 30, 1963, Oct. 1, 1962 and Nov. 22, 1963 (Defense); July 3 and June 23, 1964; Feb. 1, 1961; May 6, 1963; Jan. 6, 1961 (Berlin and Vienna); Apr. 20, 1961 (the NATO directive); Dec. 8, 1961, Jan. 18, 1962, Mar. 5, 1962 and Aug. 24, 1962 (counterinsurgency); Mar. 21 and Nov. 6, 1962 (the RS-70); May 25, 1961 (Space); Sept. 19, 1961; Oct. 17, 1963 (Space); June 20, 1963 (the hot line); the test-ban entries of Sept. 5 and Oct. 30, 1961, Mar. 2, Apr. 25 and Dec. 19, 1962, Feb. 8, June 10, July 2, July 15 and Sept. 24, 1963; Jan. 24, 1963 (Merchant, Feb. 21); Oct. 24, 1963; Mar. 22, 1961 and Mar. 24, 1963 (Foreign aid); May 5 and Oct. 12, 1961; Apr. 18 and Nov. 18, 1963, May 30 and May 19, 1961, May 18 and July 4, 1963 (Middle East); Feb. 8, 1963 (Iraq); the Congo's June 30 and July 10, 1960, Sept. 14, 1960, Feb. 1 and 13, 1961; Africa's Mar. 15, 1961, July 31, Aug. 7 and Aug. 30, 1963, Apr. 24, 1964; Sept. 6, 1963 (Ball); July 22, 1964 (the Tunku); Aug. 1, Aug. 31, Sept. 9 and Oct. 20, 1961 (Berlin); Mar. 13 and 14, 1962 (Mongoose).
+
+Witnesses: the notes to chapters 1 and 2 (pp. 309–314) read and matched to the passages: 45 witnesses written to `inbox/witnesses/2026-11-05-mil5-poole-1961-64.yaml` (the JCSMs, CMs, SMs and OSD memoranda in RG 218's Joint Master File, `open: not held`; FRUS's prints read where the series holds them) and an amendment row (the Gilpatric memorandum of Jan. 3, 1962, already registered from FRUS II, doc. 2, takes FRUS VIII, doc. 66 as a copy); 47 edges added to `sources/witnesses/by-work/poole-joint-chiefs-of-staff.yaml`, among them one to the card `w.fursenko-khrushchevs-cold-war` (31 n.49). Each entry so traced carries its `via` row and its unread record behind "To check:". The notes to chapters 3–7, 9–19 not matched in this run: a lead.
+
+### Passed over (the fifth run)
+
+How the list was made: every dated sentence in the chapters read, held against the entries written and the calendar; what is neither entered nor cited is a row here.
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 2–3 | 1944–1959 | the Chiefs' earlier careers | out of the brief (before the span) |
+| 5 | 1964 | LeMay's term extended to Feb. 1, 1965 | lead: no month given |
+| 8 | Apr. 19 and 24, 1961 | the Director of the Joint Staff's and White's memoranda on the fiscal 1963 budget (notes 16–17) | a passed-over paper: the preparation of the Chiefs' position of May 10 |
+| 13 | Jan. 1963 | Taylor to the Joint Staff officers drafting JSOP-68: an agreed rationale "imperative" | a passed-over paper: a paper's preparation |
+| 13–14 | 1963–64 | McNamara's fiscal 1966 timetable (JSOP-69 by Mar. 1, 1964) | lead: undated |
+| 21 | 1962 | State's "short" BNSP | lead: undated |
+| 25 | to Sept. 1962 | seven more countries assigned to the Special Group (CI) | lead: undated |
+| 31 | to Sept. 1963 | Minuteman and Polaris able to form a protected reserve | not an event (a state of the forces) |
+| 36 | 1961 | the Chiefs' statement "Our strengths are adequate to deter" | lead: undated |
+| 37 | Feb.–Mar. 1961 | the R&D task force on Skybolt and the B-70, approved by McNamara and Kennedy | lead: undated; its outcome in the message of Mar. 28 (in) |
+| 42–43 | 1962 | McNamara's study of strategic requirements; Taylor on population loss | lead: undated |
+| 47 | 1963 | LeMay's methodological critique of JSOP-68 | lead: undated |
+| 56 | 1963 | Wiesner against ABM deployment | lead: undated |
+| 57–59 | 1964 | the Chiefs reaffirm their interceptor views; F-102 retirements put off; Nike-Hercules redeployment refused | lead: undated |
+| 63–64 | 1961 | the Navy's and a DOD group's ASW assessments; the Chiefs' findings | lead: undated |
+| 70 | Dec. 27, 1962 | Kennedy orders a review of strategic mobility | already in (`cal.1962-12-27.defense`); not in its `c` |
+| 74 | Dec. 1963 | McNamara's airlift plan, the CX-4 | lead: undated; in the DPMs of the month (entered) |
+| 84 | autumn 1961 | Foster's panel on delivery vehicles | lead: undated; answered in the Chiefs' paper of Dec. 6 (entered) |
+| 86 | 1962 | the Kennedy–Khrushchev correspondence on non-diffusion | lead: undated |
+| 88 | Jan. 1964 | Johnson: "willing to shut down more plants" | lead: the occasion not named (the State of the Union?) |
+| 90–91 | early 1964 | the Committee of Principals' deputies ("a riot"); the task force on prototype testing | lead: undated |
+| 94–96 | spring–summer 1961 | McCloy for resuming underground tests; Gilpatric to McCloy; the Chiefs on Panofsky; Ball's and Taylor's views | lead: undated |
+| 97 | Nov. 1961 | Lemnitzer before the Joint Committee on Atomic Energy | lead: undated |
+| 99–100 | 1962 | the laboratories' review of the Soviet tests; Brown to McNamara; ACDA's comprehensive draft and the Chiefs' critique | lead: undated |
+| 102 | June 1963 | ISA's draft statement for Senate Armed Services | a passed-over paper: a draft not sent |
+| 102–04 | July–Aug. 1963 | the White Papers; the Chiefs' poll of McCone, Seaborg, Wiesner, Brown, Foster and Bradbury | lead: undated (the poll in the entry of July 24) |
+| 188 | Feb. 1961 | Rusk appoints Acheson's review group | lead: undated |
+| 190 | autumn 1961 | the NATO commanders' goals for 1966; the Chiefs' advice | lead: undated |
+| 191 | 1962 | Norstad on a sixty-division attack | lead: undated |
+| 196–97 | early 1962 | ISA and Ruffner on the MLF; Kennedy on France; Lemnitzer and Rusk on aid to France | lead: undated |
+| 199 | June 1962 | Macmillan's diary on the American rockets | lead: undated |
+| 200 | late 1962 | Rusk on the special relationship; Kennedy's reassessment of France; the Skipjack | lead: undated |
+| 200 | Oct. 1962 | Kennedy approves withdrawing the Jupiters | already in (the missile crisis) |
+| 204–05 | spring 1963 | surface ships chosen; Anderson's warning; Merchant at Bonn and London; Schlesinger on British reactions | lead: undated |
+| 206 | Sept. 1964 | the Director of the Joint Staff to Wheeler: the British will fight the MLF | minor: a private opinion to the Chairman |
+| 206 | Nov. 1964 | Lemnitzer to McNamara and Wheeler on the ANF | lead: undated |
+| 208–09 | 1963 | the US-UK staff studies; NATO's force goals for 1970; the British and Belgian cuts; France's carrier and destroyers out of NATO from Jan. 1, 1964 | lead: undated (France's announcement not dated) |
+| 211 | Oct. 1963 | Exercise Big Lift | lead: Poole gives no date |
+| 218 | spring 1961 | OSD's reassessment of military aid; Kennedy's request for $1.885 billion | lead: undated |
+| 221 | 1963 | Wood's $1.7 billion; the request of $1.405 billion | lead: undated |
+| 245–46 | 1961 | Nitze's question to the Chiefs on Iran, their answer | lead: undated |
+| 266–73 | 1961–63 | Pakistan's requests; the Sino-Indian war's aid | already in (the fourth run) |
+| 282 | 1963 | the Special Studies Group on Southeast Asia and Korea | lead: dated only to the year |
+| 292 | 1964 | the Japanese-American Consultative Committee | lead: "two years later," no month |
+| 294 | 1962 | Kennedy's call for measures on Indonesia; the Chiefs' list | lead: undated |
+| 294 | late 1963 | Congress bars aid to Indonesia without a presidential determination | lead: the act not named (the Foreign Assistance Act of 1963?) |
+| 300 | 1968 | LeMay's *America Is in Danger* | lead: no month |
+
+The first pass's and the first re-read's rows ruled "lead" that this run entered or cited: p. 31, June 18–19, 1962 (entered); p. 85, Mar. 9 and Apr. 12, 1962 (entered); p. 88, Oct. 17, 1963 (cited, `cal.1963-10-17.space`), the orbit papers of Sept. 14–15, 1962 (entered; 1962, not 1963) and Oct. 2, 1963 (entered); p. 89, Jan. 14, 1964 (entered); p. 147, Aug. 1, 1961 (cited); pp. 149–50, Aug. 23 and Sept. 1, 1961 (entered); pp. 151–53, Sept. 11, 16, 18, 22, 1961 (entered); p. 156, Oct. 20, 1961 (cited); p. 160, Mar. 5, 1962 (entered); p. 161, Apr. 5, 10, 11, 1962 (entered); p. 169, the Chiefs' meeting of Oct. 18, 1962 (entered); p. 198, Apr. 16, 1962 (a Check on May 4); p. 199, June 13 and Oct. 17, 1962 (entered); p. 201, Dec. 16, 1962 (entered; Dec. 21 in `cal.1962-12-18.europe-and-the-alliance`); pp. 206–07, Dec. 5–6, 9 and 15–17, 1964 (entered); p. 31, Jan. 1, 1964, ruled minor, and pp. 37, 82, 88, 90, ruled minor (entered: R8); p. 31, July 1, 1962, ruled out of the brief (entered: R10, the Presidium); p. 135, May 12, 1962 (already in, `cal.1962-05-12.laos`).
+
+### Leads (the fifth run)
+
+National
+- The notes to chapters 3–7 and 9–20 (pp. 314–362) not matched to the entries of this run: the witnesses to register (R35).
+- The page images of the pages cited, but pp. 3, 18, 31, 85 and 210, not checked (R54); the text layer misreads digits.
+- FRUS 1961–63, VIII and XIII, and 1964–68, X, print many of the papers entered here by Poole alone (his notes give "Also in FRUS" with pages, not documents): the documents to find and read, and cite first.
+- p. 32 n.52: McNamara's "damage-limiting" testimony of January 1964, cited to "Hearings on Military Posture, Senate Com on Armed Services," 88th Cong., 2d sess., 6920: the committee (House or Senate) and the day.
+- The undated rows above marked "lead": FRUS, the Public Papers and Kaplan, *McNamara Ascendancy*, to date them.

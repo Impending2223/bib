@@ -377,11 +377,12 @@ entries:
     date: '1960-07-10'
     thread: congo
     c: Belgium sends troops to the Congo to protect the Europeans, the Force Publique having mutinied against its white officers; the independence accord bars it without the new government's consent.
-    n: '[[w.fursenko-khrushchevs-cold-war]], 307. To check: [[w.hoskyns-congo-since-independence]], 95–96 (cited by [[w.fursenko-khrushchevs-cold-war]], 307 n.64). See [[cal.1960-06-30.congo]].'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 307; [[w.poole-joint-chiefs-of-staff]], 256. To check: [[w.hoskyns-congo-since-independence]], 95–96 (cited by [[w.fursenko-khrushchevs-cold-war]], 307 n.64). See [[cal.1960-06-30.congo]].'
     src:
       c: 101c7eda
       rows:
         - 'w.fursenko-khrushchevs-cold-war 307: all'
+        - 'w.poole-joint-chiefs-of-staff 256: A'
   - id: cal.1960-07-10.elections-1960-6
     when: July 10
     date: '1960-07-10'
@@ -399,12 +400,13 @@ entries:
     date: '1960-07-11'
     thread: congo
     c: Tshombe declares Katanga independent.
-    n: 'FRUS 1958–60, XIV, doc. [114](https://history.state.gov/historicaldocuments/frus1958-60v14/d114). [[w.fursenko-khrushchevs-cold-war]], 307 (Katanga, with Belgian encouragement; Belgian paratroops at Elisabethville). See [[cal.1960-06-30.congo]]. Names: Tshombe.'
+    n: 'FRUS 1958–60, XIV, doc. [114](https://history.state.gov/historicaldocuments/frus1958-60v14/d114). [[w.fursenko-khrushchevs-cold-war]], 307 (Katanga, with Belgian encouragement; Belgian paratroops at Elisabethville); [[w.poole-joint-chiefs-of-staff]], 256. Check: Poole, 256, dates Tshombe''s declaration July 10. See [[cal.1960-06-30.congo]]. Names: Tshombe.'
     src:
       c: f738db9a
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1958-60v14/d114: all'
         - 'w.fursenko-khrushchevs-cold-war 307: all'
+        - 'w.poole-joint-chiefs-of-staff 256: A'
     tags: [name:tshombe-moise]
   - id: cal.1960-07-11.elections-1960
     when: July 11
@@ -696,13 +698,14 @@ entries:
     date: '1960-07-13'
     thread: congo
     c: 'Security Council, overnight: a UN force for the Congo, Belgium to withdraw its troops; 8–0, China, France, Britain abstaining.'
-    n: '[S.C. Res. 143](https://docs.un.org/S/RES/143%281960%29). FRUS 1958–60, XIV, doc. [122](https://history.state.gov/historicaldocuments/frus1958-60v14/d122) (the instructions to Lodge). [[w.fursenko-khrushchevs-cold-war]], 308 (the Soviet delegate instructed to support it; 8–0). See [[cal.1960-06-30.congo]].'
+    n: '[S.C. Res. 143](https://docs.un.org/S/RES/143%281960%29). FRUS 1958–60, XIV, doc. [122](https://history.state.gov/historicaldocuments/frus1958-60v14/d122) (the instructions to Lodge). [[w.fursenko-khrushchevs-cold-war]], 308 (the Soviet delegate instructed to support it; 8–0); [[w.poole-joint-chiefs-of-staff]], 256. Check: Poole, 256, dates the resolution July 14. See [[cal.1960-06-30.congo]].'
     src:
       c: 8a914d97
       rows:
         - 'https://docs.un.org/S/RES/143%281960%29: all'
         - 'https://history.state.gov/historicaldocuments/frus1958-60v14/d122: all'
         - 'w.fursenko-khrushchevs-cold-war 308: all'
+        - 'w.poole-joint-chiefs-of-staff 256: A'
     tags: [name:lodge-henry-cabot]
   - id: cal.1960-07-13.elections-1960
     when: July 13
@@ -1967,3 +1970,13 @@ entries:
         - 'w.asselin-hanois-road-to-the 76: all'
         - 'via x.2005.khuat-bien-hoa-dai-tuong-le-duc-anh: B'
         - 'via x.1960-07.nghi-quyet-xu-uy-nam-bo-lan-v: all'
+  - id: cal.1960-07.congo
+    when: July
+    date: 1960-07
+    thread: congo
+    c: American aircraft begin flying the UN's contingents into Léopoldville. By the end of August the Belgian units gone and the UN force near 20,000.
+    n: '[[w.poole-joint-chiefs-of-staff]], 256. Check: the day; Poole: "promptly," after the Security Council''s resolution. See [[cal.1960-07-13.congo]].'
+    src:
+      c: '77438321'
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 256: all'

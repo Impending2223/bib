@@ -34,7 +34,7 @@ entries:
     thread: defense
     also: [transition-and-staff-nsc]
     c: 'The National Security Council''s first meeting under Kennedy, its 475th. He directs McNamara to examine means of placing more emphasis on counterguerrilla forces. McNamara: five Polaris submarines sooner, fifty more transports, the fiscal 1962 military budget reappraised by Mar. 1.'
-    n: 'Record of Actions, [FRUS 1961–63, VIII, doc. 8](https://history.state.gov/historicaldocuments/frus1961-63v08/d8) (Feb. 1, 1961). [[w.schlesinger-robert-kennedy-and-his]], 461 (the direction); [[w.futrell-united-states-air-force]], 63 (Kennedy directs McNamara to expand the counterinsurgency forces). To check: Special Group (Counterinsurgency), "Memorandum for the Record ... from January 18, 1962, to November 21, 1963," May 13, 1964, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 461 n.59). Names: Kennedy, McNamara.'
+    n: 'Record of Actions, [FRUS 1961–63, VIII, doc. 8](https://history.state.gov/historicaldocuments/frus1961-63v08/d8) (Feb. 1, 1961). [[w.schlesinger-robert-kennedy-and-his]], 461 (the direction); [[w.futrell-united-states-air-force]], 63 (Kennedy directs McNamara to expand the counterinsurgency forces); [[w.poole-joint-chiefs-of-staff]], 23 (Kennedy asks McNamara to examine ways of emphasizing counterguerrilla capabilities). To check: Special Group (Counterinsurgency), "Memorandum for the Record ... from January 18, 1962, to November 21, 1963," May 13, 1964, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 461 n.59). Names: Kennedy, McNamara.'
     src:
       c: 48f0d2ba
       rows:
@@ -42,6 +42,7 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 461: A, B'
         - 'via w.schlesinger-robert-kennedy-and-his 461 n.59: B'
         - 'w.futrell-united-states-air-force 63: ?'
+        - 'w.poole-joint-chiefs-of-staff 23: B'
     tags: [name:kennedy-john-f, name:mcnamara-robert-s]
   - id: cal.1961-02-01.vietnam
     when: Feb. 1
@@ -96,7 +97,7 @@ entries:
     date: '1961-02-01'
     thread: congo
     c: Rusk to Kennedy, "Suggested New United States Policy on the Congo." A new UN mandate to bring the Congo's armed forces under control, by force if need be; a middle-of-the-road government under Ileo, failing that one taking in Lumumba's followers but not Lumumba; a larger UN hand in its administration. Rusk sums it up at the NSC that day; Kennedy approves it after.
-    n: '[FRUS 1961–63, XX, doc. 17](https://history.state.gov/historicaldocuments/frus1961-63v20/d17); [doc. 18](https://history.state.gov/historicaldocuments/frus1961-63v20/d18) (the NSC; the approval). [[w.rusk-as-i-saw-it-1990]], 277. Names: Rusk, Kennedy, Ileo, Lumumba.'
+    n: '[FRUS 1961–63, XX, doc. 17](https://history.state.gov/historicaldocuments/frus1961-63v20/d17); [doc. 18](https://history.state.gov/historicaldocuments/frus1961-63v20/d18) (the NSC; the approval). [[w.rusk-as-i-saw-it-1990]], 277; [[w.poole-joint-chiefs-of-staff]], 257. Names: Rusk, Kennedy, Ileo, Lumumba.'
     src:
       c: 130df690
       rows:
@@ -104,6 +105,7 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d18: E-F'
         - 'w.rusk-as-i-saw-it-1990 277: A-D'
         - 'via x.1984.rusk-interviews-with-richard-rusk: A-D'
+        - 'w.poole-joint-chiefs-of-staff 257: A, C'
     tags: [name:rusk-dean, name:kennedy-john-f, name:ileo-joseph, name:lumumba-patrice]
   - id: cal.1961-02-01.cuba
     when: Feb. 1
@@ -141,6 +143,27 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 125: all'
     tags: [name:gilpatric-roswell-l, name:lemnitzer-lyman-l, name:felt-harry-d]
+  - id: cal.1961-02-01.defense-2
+    when: Feb. 1
+    date: '1961-02-01'
+    thread: defense
+    c: A Minuteman ICBM's first flight test, fully successful.
+    n: '[[w.poole-joint-chiefs-of-staff]], 35–36.'
+    src:
+      c: 2c35fcbb
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 35–36: all'
+  - id: cal.1961-02-01.defense-3
+    when: Feb. 1
+    date: '1961-02-01'
+    thread: defense
+    c: 'The Deputy Assistant Secretary for International Security Affairs tells the Joint Chiefs to assume two concurrent aggressions, by not more than five lightly armed divisions each, in Laos and the Congo. The J-5: 45,000 more men in fiscal 1961 and 74,000 in 1962. White: strength "more than adequate," but for airlift.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 62. Names: White.'
+    src:
+      c: 6bf4f8a5
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 62: all'
+    tags: [name:white-thomas-d]
   - id: cal.1961-02-02.program
     when: Feb. 2
     date: '1961-02-02'
@@ -162,6 +185,17 @@ entries:
     to:
       - welfare
       - cities-and-housing
+  - id: cal.1961-02-02.testing
+    when: Feb. 2
+    date: '1961-02-02'
+    thread: testing
+    c: 'McCloy circulates a position for the reconvened Geneva test ban conference: an atmospheric ban with a three-year moratorium on underground tests below 4.75 on the Richter scale; seventeen control posts on each side''s soil; twenty on-site inspections a year, ten as a fallback.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 93. Names: McCloy.'
+    src:
+      c: 967771bf
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 93: all'
+    tags: [name:mccloy-john-j]
   - id: cal.1961-02-03.immigration
     when: Feb. 3
     date: '1961-02-03'
@@ -216,12 +250,26 @@ entries:
     date: '1961-02-04'
     thread: defense
     c: 'McNamara at SAC''s headquarters, Omaha: alarmed by the rigidity of the Single Integrated Operational Plan and the civilians'' slight control of the strategic forces; the danger of missiles fired by accident or without the White House''s sanction.'
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 20. Names: McNamara.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 20. Check: Poole, 36, has McNamara at Omaha Feb. 5–6. Names: McNamara.'
     src:
       c: e85e7370
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 20: all'
     tags: [name:mcnamara-robert-s]
+  - id: cal.1961-02-04.defense-2
+    when: Feb. 4
+    date: '1961-02-04'
+    thread: defense
+    also: [europe-and-the-alliance]
+    c: 'Rusk to McNamara: "raising the threshold" for nuclear response "the greatest importance"; the general war deterrent "effective, invulnerable, and reliable"; "a mobile, substantial, and flexible capability for operations short of general war is essential," forward in the western Pacific; in Europe, conventional strength to enforce a pause for negotiation.'
+    n: 'Rusk to McNamara, [FRUS 1961–63, VIII: National Security Policy, doc. 10](https://history.state.gov/historicaldocuments/frus1961-63v08/d10) (Feb. 4, 1961). [[w.poole-joint-chiefs-of-staff]], 17–18, 188. Names: Rusk, McNamara.'
+    src:
+      c: cdaf72a9
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v08/d10: all'
+        - 'w.poole-joint-chiefs-of-staff 17–18, 188: all'
+        - 'via w.poole-joint-chiefs-of-staff 17 n.1: all'
+    tags: [name:rusk-dean, name:mcnamara-robert-s]
   - id: cal.1961-02-06.defense
     when: Feb. 6
     date: '1961-02-06'
@@ -265,6 +313,17 @@ entries:
     c: The Senate Judiciary Committee hears Louis F. Oberdorfer on his nomination as an Assistant Attorney General.
     n: '[*Nomination of Louis Falk Oberdorfer: Hearing Before the S. Comm. on the Judiciary*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg65298), 1. Names: Oberdorfer.'
     tags: [name:oberdorfer-louis-f]
+  - id: cal.1961-02-06.defense-2
+    when: Feb. 6
+    date: '1961-02-06'
+    thread: defense
+    c: Kennedy meets the Joint Chiefs and asks for detailed rundowns of what is being done against guerrillas in Latin America and Southeast Asia.
+    n: '[[w.poole-joint-chiefs-of-staff]], 23–24. Names: Kennedy.'
+    src:
+      c: d0a98734
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 23–24: all'
+    tags: [name:kennedy-john-f]
   - id: cal.1961-02-07.king
     when: Feb. 7
     date: '1961-02-07'
@@ -408,6 +467,17 @@ entries:
     c: The Senate Judiciary Committee hears Nicholas Katzenbach on his nomination as Assistant Attorney General.
     n: '[*Nomination of Nicholas De B. Katzenbach: Hearings Before the S. Comm. on the Judiciary*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg65843), 2. Names: Katzenbach.'
     tags: [name:katzenbach-nicholas]
+  - id: cal.1961-02-09.defense
+    when: Feb. 9
+    date: '1961-02-09'
+    thread: defense
+    c: 'The Joint Chiefs answer Nitze''s request to compare deployment capabilities at crisis points, ninety days into a war: 10 American divisions to 43 Communist in Central Europe; 3 to 4 in the Congo; 5 to 14 in Iran; 3 to 23 in South Vietnam.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 62. Names: Nitze.'
+    src:
+      c: dd8295c1
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 62: all'
+    tags: [name:nitze-paul]
   - id: cal.1961-02-10.opinion
     when: Feb. 10–15
     date: '1961-02-10'
@@ -493,7 +563,7 @@ entries:
     date: '1961-02-13'
     thread: congo
     c: 'Katanga announces Lumumba''s death. Feb. 15: demonstrators break up the Security Council during Stevenson''s first speech there.'
-    n: '[FRUS vol. 20](https://history.state.gov/historicaldocuments/frus1961-63v20). S. Rep. No. 94-465 (K–J Adm. II.H.3) on the CIA''s earlier plot. translated as *The Assassination of Lumumba* (2001); it led to the Belgian parliamentary inquiry of 2000–01. [[w.rusk-as-i-saw-it-1990]], 277 (the death); [[w.sorensen-kennedy]], 636; [[w.sorensen-kennedy]], 636 (the Soviets demand the UN''s and Hammarskjöld''s removal, and recognize Gizenga). Check: Rusk has Lumumba killed on Feb. 13 (277); see [[cal.1961-01-17.congo]]. To check: [[w.witte-de-moord-op-lumumba]]; [[w.kalb-congo-cables]]; [[w.martin-adlai-stevenson-and-the]]. Names: Lumumba, Stevenson.'
+    n: '[FRUS vol. 20](https://history.state.gov/historicaldocuments/frus1961-63v20). S. Rep. No. 94-465 (K–J Adm. II.H.3) on the CIA''s earlier plot. translated as *The Assassination of Lumumba* (2001); it led to the Belgian parliamentary inquiry of 2000–01. [[w.rusk-as-i-saw-it-1990]], 277 (the death); [[w.sorensen-kennedy]], 636; [[w.sorensen-kennedy]], 636 (the Soviets demand the UN''s and Hammarskjöld''s removal, and recognize Gizenga); [[w.poole-joint-chiefs-of-staff]], 257. Check: Rusk has Lumumba killed on Feb. 13 (277); see [[cal.1961-01-17.congo]]. To check: [[w.witte-de-moord-op-lumumba]]; [[w.kalb-congo-cables]]; [[w.martin-adlai-stevenson-and-the]]. Names: Lumumba, Stevenson.'
     src:
       c: 52aed301
       rows:
@@ -501,6 +571,7 @@ entries:
         - 'w.rusk-as-i-saw-it-1990 277: A'
         - 'via x.1984.rusk-interviews-with-richard-rusk: A'
         - 'w.sorensen-kennedy 636: A'
+        - 'w.poole-joint-chiefs-of-staff 257: A'
     tags: [name:stevenson-adlai-e, name:lumumba-patrice]
     short: Lumumba's death
   - id: cal.1961-02-13.vietnam
@@ -587,6 +658,17 @@ entries:
         - 'via w.fursenko-khrushchevs-cold-war 344 n.22: B'
         - 'via w.fursenko-khrushchevs-cold-war 344 n.26: C'
     tags: [name:khrushchev-nikita-s]
+  - id: cal.1961-02-16.defense
+    when: Feb. 16–17
+    date: '1961-02-16'
+    thread: defense
+    c: The Joint Chiefs discuss the strategic forces task force's report with McNamara; no disagreement found.
+    n: '[[w.poole-joint-chiefs-of-staff]], 37. See [[cal.1961-02.defense-4]]. Names: McNamara.'
+    src:
+      c: 0509eb88
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 37: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1961-02-17.economy
     when: Feb. 17
     date: '1961-02-17'
@@ -629,6 +711,17 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v14/d73: A'
         - 'w.rusk-as-i-saw-it-1990 219: all'
         - 'via x.1984.rusk-interviews-with-richard-rusk: all'
+  - id: cal.1961-02-17.defense
+    when: Feb. 17
+    date: '1961-02-17'
+    thread: defense
+    c: 'Nitze''s limited war task force reports: 3,000 more men for the Army''s Special Forces, 2,000 to bring the 1st Infantry Division toward combat readiness, 2,000 Marines; nothing more in fiscal 1961, $775 million more in 1962, chiefly for readiness and training, airlift and procurement.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 62–63. See [[cal.1961-01-24.defense]]. Names: Nitze.'
+    src:
+      c: 35e745bf
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 62–63: all'
+    tags: [name:nitze-paul]
   - id: cal.1961-02-18.transition-and-staff
     when: Feb. 18
     date: '1961-02-18'
@@ -739,6 +832,28 @@ entries:
       rows:
         - 'w.paterson-contesting-castro 258 n.26: all'
         - 'via x.1961-02-21.cia-why-the-cuban-revolution-of-1958: all'
+  - id: cal.1961-02-21.testing
+    when: Feb. 21
+    date: '1961-02-21'
+    thread: testing
+    c: 'The Joint Chiefs reaffirm their recommendation to resume testing: the 1958 proposals for verification technically inadequate, "a constant erosion" of the American position since; without agreement within 60 days of the conference''s reopening, test in outer space, underground and under water. Fallout''s hazards given "importance far in excess of its significance." McNamara reserves judgment.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 93–94. Names: McNamara.'
+    src:
+      c: 98a9eaca
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 93–94: all'
+    tags: [name:mcnamara-robert-s]
+  - id: cal.1961-02-21.congo
+    when: Feb. 21
+    date: '1961-02-21'
+    thread: congo
+    c: 'The Security Council strengthens the UN''s mandate in the Congo, calls for the withdrawal of foreign military and political advisers and the parliament''s convening. The Joint Chiefs, the same day: the Gizenga regime "the one factor which is most seriously aggravating the situation"; support the Sudan against Nasser''s pressure for transit rights.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 258. Names: Gizenga, Nasser.'
+    src:
+      c: dffc1fbd
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 258: all'
+    tags: [name:gizenga-antoine, name:nasser-gamal-abdel]
   - id: cal.1961-02-22.berlin-and-vienna
     when: Feb. 22
     date: '1961-02-22'
@@ -822,6 +937,17 @@ entries:
     c: 'The Senate Armed Services Committee hears nominees: Stephen Ailes, Under Secretary of the Army; Richard S. Morse, Assistant Secretary of the Army; William F. Schaub, Assistant Secretary of the Army.'
     n: '[*Nominations: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg66187), 1 (Ailes), 7 (Morse), 18 (Schaub). Names: Ailes, Morse, Schaub.'
     tags: [name:ailes-stephen, name:morse-richard-s, name:schaub-william-f]
+  - id: cal.1961-02-23.defense-3
+    when: Feb. 23
+    date: '1961-02-23'
+    thread: defense
+    c: Kennedy again with the Joint Chiefs, for rundowns of what is being done against guerrillas in Latin America and Southeast Asia.
+    n: '[[w.poole-joint-chiefs-of-staff]], 23–24. See [[cal.1961-02-06.defense-2]]. Names: Kennedy.'
+    src:
+      c: bad32f9c
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 23–24: all'
+    tags: [name:kennedy-john-f]
   - id: cal.1961-02-24.crime-and-hijacking
     when: Feb. 24
     date: '1961-02-24'
@@ -940,6 +1066,17 @@ entries:
       c: 62c65aa4
       rows:
         - 'w.poole-joint-chiefs-of-staff 110: all'
+  - id: cal.1961-02-25.foreign-aid
+    when: Feb. 25
+    date: '1961-02-25'
+    thread: foreign-aid
+    c: 'William Bundy, Deputy Assistant Secretary of Defense, urges Rusk and McNamara to support the original $2.4 billion military assistance program for fiscal 1962, Eisenhower having cut it to $1.8 billion: limited war and counterinsurgency first; prosperous allies to carry more; Greece, Turkey, South Korea and Taiwan to "compact" forces. Lemnitzer, for the Chiefs, endorses the figure, not yet the rationale.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 217–18. Names: William Bundy, Rusk, McNamara, Eisenhower, Lemnitzer.'
+    src:
+      c: 0d55ccef
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 217–18: all'
+    tags: [name:bundy-william, name:rusk-dean, name:mcnamara-robert-s, name:eisenhower-dwight-d, name:lemnitzer-lyman-l]
   - id: cal.1961-02-26.africa
     when: Feb. 26
     date: '1961-02-26'
@@ -1119,7 +1256,12 @@ entries:
     date: 1961-02
     thread: defense
     c: 'McNamara''s list of over a hundred studies for the department, "Ninety-nine Trombones": the threats, the forces to meet them, the major weapons, the nuclear strike plan.'
-    n: '[[w.mcnamara-in-retrospect]], ch. 1. Check: the day. Names: McNamara.'
+    n: '[[w.mcnamara-in-retrospect]], ch. 1. [[w.poole-joint-chiefs-of-staff]], 7, 63 (the queries, Mar. 8). Check: the day. Check: Poole (7, 63) dates the queries Mar. 8 and counts 96, "the 96 trombones.". Names: McNamara.'
+    src:
+      c: 3164a8dd
+      rows:
+        - 'w.mcnamara-in-retrospect ch. 1: all'
+        - 'w.poole-joint-chiefs-of-staff 7, 63: A'
     tags: [name:mcnamara-robert-s]
   - id: cal.1961-02.republican-party-2
     when: Feb.
@@ -1199,3 +1341,57 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 235: all'
         - 'via x.1961-02-15.jcs-990386-to-cincpac-feb-15-1961: B'
         - 'via x.1961-02-06.haydn-williams-dasd-isa-to-ball-feb: B'
+  - id: cal.1961-02.defense-4
+    when: Feb., mid-month
+    date: 1961-02
+    thread: defense
+    c: 'Hitch''s task force on the strategic retaliatory and continental defense forces, drawing on a WSEG report, completes its draft: speed up both Minuteman and Polaris.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 36–37. See [[cal.1961-01-24.defense]]. Names: Hitch.'
+    src:
+      c: 63d7dabd
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 36–37: all'
+    tags: [name:hitch-charles-j]
+  - id: cal.1961-02.defense-abm
+    when: Feb., early
+    date: 1961-02
+    thread: defense-abm
+    c: 'The Joint Chiefs'' split recommendations to McNamara on Nike-Zeus. Lemnitzer, Burke and Decker for limited production, units deployed by early 1965: "an indispensable element in deterrence," "an urgent requirement." White against a costly and inadequate system; research for "a truly effective" one.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 51–52. Names: McNamara, Lemnitzer, Burke, Decker, White.'
+    src:
+      c: acd61ce0
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 51–52: all'
+    tags: [name:mcnamara-robert-s, name:lemnitzer-lyman-l, name:burke-arleigh-a, name:decker-george-h, name:white-thomas-d]
+  - id: cal.1961-02.latin-america
+    when: Feb.
+    date: 1961-02
+    thread: latin-america
+    c: 'State proposes a new concept of hemispheric security: the United States "primary (though not exclusive) responsibility" for external defense, Latin forces for internal tasks; an Inter-American Police Force; partial disarmament for development. The Joint Chiefs: internal security yes, the rest unrealistic, the savings "relatively insignificant."'
+    n: '[[w.poole-joint-chiefs-of-staff]], 225–26.'
+    src:
+      c: b23b47e8
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 225–26: all'
+  - id: cal.1961-02.congo
+    when: Feb.
+    date: 1961-02
+    thread: congo
+    c: 'The Joint Chiefs, on the task force''s "new" policies, a broad coalition would push Lumumba "to the forefront"; Kasavubu''s strong central government best. To Nitze: UN forces regionally organized and mobile; American intervention possible, two Army divisions and a Marine division/wing team, CINCLANT''s plan to occupy Léopoldville and a line to the sea.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 257. Check: the days. See [[cal.1961-02-01.congo]]. Names: Lumumba, Kasavubu, Nitze.'
+    src:
+      c: 1558dbcb
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 257: all'
+    tags: [name:lumumba-patrice, name:kasavubu-joseph, name:nitze-paul]
+  - id: cal.1961-02.defense-5
+    when: Feb.
+    date: 1961-02
+    thread: defense
+    c: 'Rusk suggests a more visible American presence around the Asian periphery, the threatened nations to shed some of the burden of external defense for the fight against insurgency. The Joint Chiefs: it would sap Asians'' will; American power in the western Pacific would have to rise "demonstrably."'
+    n: '[[w.poole-joint-chiefs-of-staff]], 279. Names: Rusk.'
+    src:
+      c: c116edaf
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 279: all'
+    tags: [name:rusk-dean]

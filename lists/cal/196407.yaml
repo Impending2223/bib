@@ -133,6 +133,17 @@ entries:
       rows:
         - 'w.novak-agony-of-the-g 448 & n.5: all'
     tags: [name:dirksen-everett, name:goldwater-barry-m]
+  - id: cal.1964-07-01.defense
+    when: July 1
+    date: '1964-07-01'
+    thread: defense
+    c: 'Taylor, leaving the chairmanship for Saigon, to McNamara by letter: the Joint Staff "marginally adequate"; "the Services are still not putting their best people on the Joint Staff"; Army–Air Force relations worse; land commanders must have air power under their operational control.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 300. Names: Taylor, McNamara.'
+    src:
+      c: ca1e2d6b
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 300: all'
+    tags: [name:taylor-maxwell, name:mcnamara-robert-s]
   - id: cal.1964-07-02.civil-rights-bill
     when: July 2
     date: '1964-07-02'
@@ -371,11 +382,12 @@ entries:
     date: '1964-07-03'
     thread: defense
     c: Wheeler takes up the chairmanship of the Joint Chiefs from Taylor, gone to Saigon. Harold K. Johnson succeeds him as Army Chief of Staff.
-    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 83. Names: Wheeler, Taylor, Harold K. Johnson.'
+    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 83; [[w.poole-joint-chiefs-of-staff]], 5. Names: Wheeler, Taylor, Harold K. Johnson.'
     src:
       c: bb4bba55
       rows:
         - 'w.cosmas-joint-chiefs-of-staff-2012 83: all'
+        - 'w.poole-joint-chiefs-of-staff 5: A, B'
     tags: [name:wheeler-earle, name:taylor-maxwell, name:johnson-harold-k]
   - id: cal.1964-07-03.vietnam-34a
     when: July 3
@@ -409,7 +421,12 @@ entries:
     date: '1964-07-04'
     thread: middle-east
     c: 'Tehran. Holmes and the Minister of Court sign the memorandum of understanding on arms: $200 million in credit, $50 million in cash, for the modernization of Iran''s forces. The Shah: the most to be spent on present revenues; free to ask for more if revenues rise.'
-    n: '[FRUS 1964–68, XXII, doc. 49](https://history.state.gov/historicaldocuments/frus1964-68v22/d49). To check: [[w.mcglinchey-us-arms-policies-towards]]. See [[cal.1964-06-05.middle-east]]. Names: Holmes, Pahlavi.'
+    n: '[FRUS 1964–68, XXII, doc. 49](https://history.state.gov/historicaldocuments/frus1964-68v22/d49). [[w.poole-joint-chiefs-of-staff]], 247 ($250 million over fiscal 1965–69, $50 million cash and $200 million credit; F-5s, 460 M-60s, a Hawk battalion). Check: Poole dates the memorandum only "July 1964.". To check: [[w.mcglinchey-us-arms-policies-towards]]. See [[cal.1964-06-05.middle-east]]. Names: Holmes, Pahlavi.'
+    src:
+      c: 4b610f63
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v22/d49: all'
+        - 'w.poole-joint-chiefs-of-staff 247: B'
     tags: [name:holmes-julius-c, name:pahlavi-mohammed-reza]
   - id: cal.1964-07-04.vietnam-operations
     when: July 4
@@ -2450,13 +2467,14 @@ entries:
     date: '1964-07-22'
     thread: indonesia
     c: 'The Tunku, Malaysia''s Prime Minister, with Johnson. Joint statement: support for a free and independent Malaysia; military training in the United States for Malaysians, and credit sales of military equipment considered "promptly and sympathetically."'
-    n: 'Remarks of Welcome at the White House to Prime Minister Rahman of Malaysia, [1963–64 Pub. Papers 877](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=117) (July 22, 1964); Joint Statement Following Discussions With the Prime Minister of Malaysia, [1963–64 Pub. Papers 885](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=125) (July 23, 1964). [[w.schlesinger-robert-kennedy-and-his]], 635 (the footnote). To check: [[w.jones-indonesia-impossible-dream]], 312, 342–43; W. Averell Harriman, oral history interview by Schlesinger, June 6, 1965, 28–30, JFK Library (cited by [[w.schlesinger-robert-kennedy-and-his]], 635, the footnote). Names: Johnson.'
+    n: 'Remarks of Welcome at the White House to Prime Minister Rahman of Malaysia, [1963–64 Pub. Papers 877](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=117) (July 22, 1964); Joint Statement Following Discussions With the Prime Minister of Malaysia, [1963–64 Pub. Papers 885](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=125) (July 23, 1964). [[w.schlesinger-robert-kennedy-and-his]], 635 (the footnote); [[w.poole-joint-chiefs-of-staff]], 295. To check: [[w.jones-indonesia-impossible-dream]], 312, 342–43; W. Averell Harriman, oral history interview by Schlesinger, June 6, 1965, 28–30, JFK Library (cited by [[w.schlesinger-robert-kennedy-and-his]], 635, the footnote). Names: Johnson.'
     src:
       c: e073491f
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=117: A'
         - 'https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=125: all'
         - 'w.schlesinger-robert-kennedy-and-his 635: A, C'
+        - 'w.poole-joint-chiefs-of-staff 295: A, C'
     tags: [name:johnson-lyndon-b]
     short: the Tunku at the White House
   - id: cal.1964-07-22.vietnam-saigon
@@ -4145,3 +4163,33 @@ entries:
       rows:
         - 'w.marolda-united-states-navy-and 410–11: all'
         - 'via x.1964-07-31.msg-ctu72-1-2-311320z-jul: all'
+  - id: cal.1964-07.defense
+    when: July
+    date: 1964-07
+    thread: defense
+    c: JLRSS-73 appears on schedule. Civilians reviewing its draft early in the year had rated it "a great improvement," still doubting its purpose and use.
+    n: '[[w.poole-joint-chiefs-of-staff]], 9–10.'
+    src:
+      c: 37a0c5fa
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 9–10: all'
+  - id: cal.1964-07.testing
+    when: July, late
+    date: 1964-07
+    thread: testing
+    c: 'The Committee of Principals approves a freeze plan: missiles, rocket engines, motors, stages and mobile launchers limited to one-for-one replacement; inspection of closed and operating plants and of undeclared places.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 91–92.'
+    src:
+      c: 967d5f64
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 91–92: all'
+  - id: cal.1964-07.south-asia
+    when: July, early
+    date: 1964-07
+    thread: south-asia
+    c: 'Adams asks the Joint Chiefs whether the joint exercise with Pakistan should go on. They: Pakistan aims at a commitment of American forces; let it make the next move.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 276.'
+    src:
+      c: f2718db9
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 276: all'
