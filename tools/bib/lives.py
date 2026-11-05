@@ -18,6 +18,9 @@ Each entry: the name as Part III writes it, the Directory's description, the poi
                        Face the Nation, 1959–70), by date
   Testimony            the committee meetings the Daily Digest names the person a witness at (daybook/committees;
                        tools/bib/committees.py, STYLE 2-3: who is whom), one a line, by date
+  Nomination hearings  the printed hearings on his nominations (sources/nomination-hearings.yaml, govinfo; who is
+                       whom: tools/bib/hearings.py, RULES, and sources/nomination-hearing-matches.yaml), one a line,
+                       by the first day held, the title linked to govinfo
   Recordings           the White House recordings PRDE lists the person as a speaker on, one a line, by year
                        (recording_speakers: who is whom)
 
@@ -36,6 +39,11 @@ STYLE:
     unlinked and in ink. Each letter's
     page opens with the index's opening paragraphs, the count of its persons ("1,024 persons."), the bar,
     and the index's list for that letter, linked to the entries below.
+ 8. "Nomination hearings" (the owner's request, Nov. 5, 2026), after "Testimony before Congress": the printed
+    hearings on the person's nominations, a line each, by the first day held (linked to the calendar's day within its
+    span), the title as printed to "hearing before", linked to govinfo; the committee, Congress and session, and the
+    office named, muted; one line of source under the list. Every matched nominee has it, the calendar's own
+    included. Who is whom and the line's form: tools/bib/hearings.py, RULES and STYLE 1.
 """
 import datetime
 import functools
@@ -2760,6 +2768,9 @@ def entry(series, linker, ptrs, p):
     cm = committees.testimony_list(series, name, SITE)
     section("Testimony before Congress", cm, "None found.", "lvb lvnb", fold=f"{len(cm):,}" if len(cm) > 12 else None,
             foot=("From the Daily Digest of the <i>Congressional Record</i>, bound edition, by page.",) if cm else ())
+    from . import hearings                # the printed hearings on his nominations (hearings.py, STYLE 1)
+    nh = hearings.person_items(series, name, SITE)
+    section("Nomination hearings", nh, "None found.", "lvb lvnb", foot=(hearings.FOOT,) if nh else ())
     section("Television interviews", tv, "None found.", "lvb lvnb", fold=f"{len(tv):,}" if len(tv) > 12 else None,
             foot=tv_src)
     nr = sum(x.count('class="lvad"') for x in rec)

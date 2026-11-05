@@ -1,0 +1,241 @@
+# Kept by hand: the nominees of sources/nomination-hearings.yaml whom the rules of tools/bib/hearings.py cannot
+# settle (its RULES 1 and 4). Read Nov. 5, 2026, each against the hearing's own text (govinfo's PDF, its text layer).
+#
+#   matches   {package, name, person, why}: `name` as the generated file gives the nominee; `person` the name entry's
+#             name (people() in tools/bib/lives.py), or null where the nominee is no one the series holds; `why`
+#             the ground, with the hearing's words or the series' record that gives it
+#   open      {package, name, why}: not settled; why, and what would settle it. `./bib hearings open` lists every
+#             nominee whom only a name fits; a row here says it has been read and left
+#
+# `check` [hearings] fails on a row whose package or name the file does not hold, a person who names no one, a row
+# without its reason.
+
+matches:
+- package: CHRG-88shrg95977
+  name: Joseph V. Charyk
+  person: Charyk, Joseph V.
+  why: 'The hearing (Senate Commerce, Mar. 11, 1963): "Dr. Joseph V. Charyk, Under Secretary of the Air Force," named
+    the corporation''s president; the roster''s Under Secretary of the Air Force, 1960-63.'
+- package: CHRG-88shrg95977
+  name: John T. Connor
+  person: Connor, John T.
+  why: 'The hearing''s biography: "John T. Connor, President, Merck & Co., Inc."; the calendar''s Connor, "president of
+    Merck," named Secretary of Commerce (cal.1964-12-16.transition-and-staff).'
+- package: CHRG-88shrg95977
+  name: Leonard Marks
+  person: Marks, Leonard H.
+  why: 'The hearing prints his "Biographical Sketch of Leonard H. Marks," a Washington lawyer; the roster''s Director of
+    the USIA, 1965-68, is Leonard H. Marks, and no other Leonard H. Marks is in the series (Leonard Marks, Jr., of the
+    Air Force, is his namesake).'
+- package: CHRG-89shrg48484
+  name: Frederic G. Donner
+  person: Donner, Frederic G.
+  why: 'The hearing: "Frederic G. Donner, board chairman of the General Motors Corp."; Part III (K–J Cong. III.K):
+    Chairman of General Motors, 1958–67.'
+- package: CHRG-92shrg68476
+  name: Frederic G. Donner
+  person: Donner, Frederic G.
+  why: 'The hearing''s biographical sketch: retired Nov. 1, 1967, "as Board Chairman and Chief Executive Officer of
+    General Motors"; Part III, the same.'
+- package: CHRG-90shrg91649
+  name: Frank Pace, Jr
+  person: Pace, Frank, Jr.
+  why: 'The hearing''s biography: "1950-1953, Appointed United States Secretary of the Army by President Truman"; the
+    roster''s Secretary of the Army, 1950-53.'
+- package: CHRG-90shrg91649
+  name: Oveta Culp Hobby
+  person: Hobby, Oveta Culp
+  why: 'The hearing: Oveta Culp Hobby, of Texas, nominated to the Corporation for Public Broadcasting''s board for 4
+    years; the calendar tags her among Johnson''s nominees to that board (cal.1968-02-17.press-and-broadcasting).'
+- package: CHRG-90shrg91649
+  name: Carl E. Sanders
+  person: Sanders, Carl E.
+  why: 'The hearing: "Carl E. Sanders, of Georgia," for the board; Part III, Governor of Georgia, 1963–67; the calendar
+    tags him among Johnson''s nominees to the board (cal.1968-02-17.press-and-broadcasting).'
+- package: CHRG-90shrg91649
+  name: Jack J. Valenti
+  person: Valenti, Jack
+  why: 'The hearing''s biography: "From November 22, 1963, to May 16, 1966, served as Special Assistant to the
+    President of the United States"; the roster''s special assistant from Nov. 22, 1963.'
+- package: CHRG-90shrg91649
+  name: Milton S. Eisenhower
+  person: Eisenhower, Milton S.
+  why: 'The hearing: Milton S. Eisenhower, for the board''s six-year term; the calendar tags him among Johnson''s
+    nominees to the board (cal.1968-02-17.press-and-broadcasting).'
+- package: CHRG-90shrg91649
+  name: James R. Killian, Jr
+  person: Killian, James R., Jr.
+  why: 'The hearing''s biography: "From November, 1957, to July, 1959, Dr. Killian was on leave from M.I.T., serving as
+    Special Assistant for Science and Technology to President Eisenhower"; the roster''s Special Assistant, 1957-59.'
+- package: CHRG-90shrg82763
+  name: John T. McNaughton
+  person: McNaughton, John T.
+  why: 'The hearing (Senate Armed Services, June 1967), Byrd to him: "During the past 3 years ... you have been the
+    Assistant Secretary of Defense for International Security Affairs." "That is correct." The roster''s ASD (ISA),
+    1964-67.'
+- package: CHRG-90shrg82541
+  name: Robert E. Lee
+  person: Lee, Robert E.
+  why: 'The hearing: "Commissioner Robert E. Lee, reappointment to Federal Communications Commission"; the roster''s
+    FCC commissioner from 1953.'
+- package: CHRG-92shrg64977
+  name: John Volpe
+  person: Volpe, John A.
+  why: 'The hearing: "representing Secretary Volpe" on the board of the National Railroad Passenger Corporation; the
+    roster''s Secretary of Transportation, 1969-73.'
+- package: CHRG-92shrg64977
+  name: John J. Gilhooley
+  person: Gilhooley, John J.
+  why: 'The hearing''s biography: Eisenhower appointed him "Assistant Secretary of Labor for Labor-Management Relations,
+    in which post he served from 1957 to 1960"; the roster''s Assistant Secretary of Labor, 1957-61.'
+- package: CHRG-91shrg54661
+  name: John J. Gilhooley
+  person: Gilhooley, John J.
+  why: 'The hearing: "I knew him when he was Assistant Secretary of Labor from 1957 to 1960"; the roster''s Assistant
+    Secretary of Labor.'
+- package: CHRG-92shrg64977
+  name: David W. Kendall
+  person: Kendall, David W.
+  why: 'The hearing''s biography: "From 1954 to 1955 was General Counsel of the Department of the Treasury; 1955-57
+    Assistant Secretary of the Treasury"; the roster''s Treasury General Counsel and Assistant Secretary.'
+- package: CHRG-91shrg54661
+  name: David W. Kendall
+  person: Kendall, David W.
+  why: 'The hearing: Eisenhower''s Special Counsel, "following several years as a high ranking official of the Treasury
+    Department"; the roster''s Treasury General Counsel and Assistant Secretary, 1955-57.'
+- package: CHRG-92shrg64977
+  name: Roger Lewis
+  person: Lewis, Roger
+  why: 'The hearing''s biography: "He was appointed an Assistant Secretary of the Air Force in March, 1953"; the
+    roster''s Assistant Secretary of the Air Force (Materiel), 1953-55.'
+- package: CHRG-91shrg54661
+  name: Catherine May
+  person: May, Catherine D.
+  why: 'The hearing: "May, Hon. Catherine, U.S. Representative from Washington"; the Congress rosters'' Catherine D.
+    May of Washington.'
+- package: CHRG-92shrg59915p1
+  name: Robert D. Moran
+  person: Moran, Robert D.
+  why: 'The hearing: "Robert D. Moran presently holds two positions in the U.S. Department of Labor. He was appointed
+    Administrator of the Wage and Hour Division ... in February 1969"; the roster''s Wage and Hour Administrator.'
+- package: CHRG-93shrg98088
+  name: David Luke Norman
+  person: Norman, David L.
+  why: 'The hearing: "until last February, assistant attorney general in charge of the Civil Rights Division"; the
+    roster''s Assistant Attorney General (Civil Rights), 1971-73.'
+- package: CHRG-91shrg32998
+  name: Carter L. Burgess
+  person: Burgess, Carter L.
+  why: 'The hearing: "Mr. Burgess'' previous government service includes service as Assistant Secretary of Defense for
+    Manpower and Ambassador to Argentina"; the roster''s holder of both.'
+- package: CHRG-92shrg83373
+  name: Admiral John S. McCain
+  person: McCain, John S., Jr.
+  why: 'The hearing''s witness list: "Adm. John S. McCain, former commander in chief, Pacific"; the roster''s CINCPAC,
+    1968-72.'
+
+open:
+- package: CHRG-88shrg95977
+  name: George Feldman
+  why: The hearing's biography (a New York lawyer, once secretary to Senator Walsh) does not tie him to the roster's
+    George J. Feldman, ambassador to Malta and Luxembourg. The Directory of 1965 or POCOM's biography would.
+- package: CHRG-88shrg95977
+  name: David M. Kennedy
+  why: The hearing's biography (a Chicago banker, born in Utah, 1905) does not tie him to the roster's David M.
+    Kennedy (Ambassador at Large, NATO). POCOM's biography would.
+- package: CHRG-88shrg95977
+  name: Leo D. Welch
+  why: The hearing's biography (chairman of Standard Oil of New Jersey) names nothing the series' Leo Welch's entry
+    holds.
+- package: CHRG-88shrg95977
+  name: Edgar F. Kaiser
+  why: The hearing's résumé (Kaiser Industries) and Part III's role (Chairman of the President's Committee on Urban
+    Housing, 1967-68) share nothing; the Committee's report or a biography naming both would settle it.
+- package: CHRG-88shrg95977
+  name: Sam Harris
+  why: 'The name fits no one but by a short form the series does not give him (Harris, Michael S.); the hearing has
+    him "of New York," vice chairman of the incorporators, nothing the series'' Harris holds.'
+- package: CHRG-89shrg68900
+  name: Howard G. Gamser
+  why: GPO's title names the National Labor Relations Board; the hearing's text, the National Mediation Board, where the
+    roster has him. Which board the nomination was to is to read in the Senate's Executive Journal for 1966.
+- package: CHRG-92shrg84538
+  name: Thomas B. Curtis
+  why: The hearing's biographical sketch was not read past its index (the text layer is poor there); Part III gives a
+    Representative from Missouri. Read pp. 40-47 against the page image.
+- package: CHRG-92shrg64977
+  name: Catherine Bedell
+  why: The series holds "May, Catherine D." (the Congress rosters) and "Bedell, Catherine" (the Tariff Commission) as
+    two; whether they are one is not settled by the hearing read, nor by this file.
+- package: CHRG-87shrg68025
+  name: 'John P. Duncan, Jr'
+  why: 'Only the name fits (Duncan, John P., Jr.); the office named, Members of the Board of Directors of the Commodity Credit Corporation, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-87shrg68025
+  name: 'Frank J. Welch'
+  why: 'Only the name fits (Welch, Frank J.); the office named, Members of the Board of Directors of the Commodity Credit Corporation, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-87shrg68025
+  name: 'James T. Ralph'
+  why: 'Only the name fits (Ralph, James T.); the office named, Members of the Board of Directors of the Commodity Credit Corporation, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-87shrg68025
+  name: 'Willard Cochrane'
+  why: 'Only the name fits (Cochrane, Willard W.); the office named, Members of the Board of Directors of the Commodity Credit Corporation, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-89shrg52322
+  name: 'John W. Black'
+  why: 'Only the name fits (Black, John W.); the office named, Director of the U.S. Travel Service, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-89shrg52046
+  name: 'Admiral H. Arnold Karo'
+  why: 'Only the name fits (Karo, H. Arnold); the office named, Deputy Administrator of Environmental Science Services Administration, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-90shrg89620
+  name: 'William L. Morrison'
+  why: 'Only the name fits (Morrison, W. L.); the office named, Rear Admiral, U.S. Coast Guard, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-91shrg28219
+  name: 'W. Donald Brewer'
+  why: 'Only the name fits (Brewer, W. Donald); the office named, Federal Cochairman of the Four Corners Regional Commission, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-91shrg47067
+  name: 'Ellis L. Perry'
+  why: 'Only the name fits (Perry, Ellis L.); the office named, Rear Admirals, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-91shrg52478
+  name: 'Rudolph A. Peterson'
+  why: 'Only the name fits (Peterson, Rudolph A.); the office named, a Member of the Board of Directors of the Communications Satellite Cor, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-92shrg57265O
+  name: 'Howard W. Pollock'
+  why: 'Only the name fits (Pollock, Howard W.); the office named, Deputy Administrator of the National Oceanic and Atmospheric Administr, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-92shrg57265O
+  name: 'John W. Townsend, Jr'
+  why: 'Only the name fits (Townsend, John W., Jr.); the office named, Associate Administrator of the Nationnal Oceanic and Atmospheric Admin, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-92shrg70825
+  name: 'Joseph M. F. Ryan'
+  why: 'Only the name fits (Ryan, Joseph M. F.); the office named, the Superior Court and Public Service Commission, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-92shrg78012
+  name: 'Mary Hamilton'
+  why: 'Only the name fits (Hamilton, Pierpont M.); the office named, a Member of the Price Commission, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-92shrg79698
+  name: 'Gloria Anderson'
+  why: 'Only the name fits (Anderson, D. G.); the office named, Member of the Board of Director of the Corporation for Public Broadcas, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-92shrg84731O
+  name: 'Rockwood H. Foster'
+  why: 'Only the name fits (Foster, Rockwood H.); the office named, To Increase the Compensation of Members of the District of Columbia Co, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-93shrg23814
+  name: 'John R. Stevenson'
+  why: 'Only the name fits (Stevenson, John R.); the office named, Special Representative of the President for the Law of the Sea Confere, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-93shrg24724O
+  name: 'Marjorie W. Lynch'
+  why: 'Only the name fits (Lynch, Marjorie); the office named, an Associate Director of Action for Domestic and Antipoverty Operation, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-93shrg23684O
+  name: 'William R. Stratton'
+  why: 'Only the name fits (Stratton, A. W.); the office named, the District of Columbia Public Service Commission, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-93shrg34416
+  name: 'David P. Taylor'
+  why: 'Only the name fits (Taylor, David P.); the office named, Assistant Secretary of the Air Force for Manpower and Reserve Affairs, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-93shrg35299
+  name: 'Robert R. Elliott'
+  why: 'Only the name fits (Elliott, J. Robert); the office named, General Counsel of the Department of Housing and Urban Development, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-93shrgX647658
+  name: 'Stephen S. Gardner'
+  why: 'Only the name fits (Gardner, Stephen); the office named, Deputy Secretary of the Treasury, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-93shrgX647658
+  name: 'Charles A. Cooper'
+  why: 'Only the name fits (Cooper, Charles A.); the office named, an Assistant Secretary of the Treasury, shares no word with his record, and the hearing was not read for him.'
+- package: CHRG-93shrg41172
+  name: 'Jack W. Carlson'
+  why: 'Only the name fits (Carlson, Jack W.); the office named, Assistant Secretary of the Interior for Energy and Minerals, shares no word with his record, and the hearing was not read for him.'

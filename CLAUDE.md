@@ -200,6 +200,10 @@ sources/jacobson/         Gary C. Jacobson's district file, 1946-2014, and its c
                           returns by tools/elections/jacobson.py (notes/jacobson-compare.md, generated)
 sources/witnesses/        the witness registry: what each claim rests on, to its roots, a file a year, and by-work/, each
                           work's edges (kept by agent; tools/bib/witnesses.py)
+sources/nomination-hearings.yaml  every printed hearing on a nomination in govinfo's Congressional Hearings, held 1953–Aug.
+                          31, 1974: title, committee, days held, nominees and offices, link (generated from GPO's MODS by
+                          tools/sources/make_nomination_hearings.py; never edit); who each nominee is: tools/bib/hearings.py
+sources/nomination-hearing-matches.yaml  kept by hand: the nominees the rules cannot settle, each with its reason
 notes/extensions/         proposals and shelved drafts: memos/ (the research memos before a part was built), shelf/ (drafts
                           set aside, code and data, not read by check or build), README.md (the index, by hand)
 notes/leads.md            leads to check later: events, figures and sources the drafting agents could not place
@@ -885,7 +889,10 @@ sources/vote-matches.yaml     kept by hand: what the rules cannot settle (a miss
   `FRUS 1961–63, IX, doc. 144`, `Wikipedia: Title`, `APP[ YYYY-MM-DD]` (shown as the Public Papers' items of that day
   that name the holder, where APP's documents match them; an APP address likewise: `ppp_on_day`, `url_html` in
   `tools/bib/executive_sources.py`), `Federal Register, Jan. 20, 1953`,
-  `BD 1415` (the printed Biographical Directory of Congress, by page: a member's later offices), a URL,
+  `BD 1415` (the printed Biographical Directory of Congress, by page: a member's later offices), `Hearing
+  CHRG-87shrg64577` (the printed hearing on the nomination, sources/nomination-hearings.yaml; shown "Hearing, Jan. 17,
+  1961", linked to govinfo, the title on hover; written into the holders the hearings' rules find by
+  `tools/executive/add_hearing_src.py`, rerunnable, Nov. 5, 2026), a URL,
   or a work in `sources/executive-sources.yaml` (add it there first). Quote an item holding a comma: a flow list
   splits it.
 - State and the chiefs of mission come from POCOM (the Office of the Historian): commission, credentials,
@@ -1070,6 +1077,21 @@ POCOM in a life: the years of birth and death where the Directory gives none; "C
 "Non-career appointee", with the home State; and the State posts the roster does not hold (ended before Jan. 20,
 1953, or begun after Aug. 31, 1974), each cited POCOM and linked to the person's page. The roster's own POCOM ties
 decide who is whom; anyone else is matched by name only with evidence (the rules: the script's docstring).
+
+Nomination hearings (the owner's request, Nov. 4–5, 2026: "we should be linking"): every printed hearing on a
+nomination govinfo holds, 1953–Aug. 31, 1974 (429 hearings, 908 nominees; `sources/nomination-hearings.yaml`, from GPO's
+MODS by `tools/sources/make_nomination_hearings.py --cache DIR [--fetch]`, its docstring the sources, rules and what is
+left out), each nominee matched to a person by `tools/bib/hearings.py` (RULES): the Executive roster's holder of the
+name, the office named and the dates agreeing, else the name entry whose roles share a word with the office named; what
+the rules cannot settle is in `sources/nomination-hearing-matches.yaml`, by hand, each with the hearing's words
+(`./bib hearings open` lists the nominees only a name fits). Every matched person's entry has "Nomination hearings",
+after "Testimony before Congress": a hearing a line, the days held (the first linked to the calendar's day), the title
+as printed, linked to govinfo, the committee and Congress, the office (lives STYLE 8; hearings STYLE 1); the holder the
+roster rule finds carries `Hearing CHRG-...` in his `src` (Executive Branch, above). In the calendar a hearing is cited
+in the Bluebook's form, `hearings.cite()`: "*Nomination of Robert S. McNamara: Hearing Before the S. Comm. on Armed
+Services*, 87th Cong. (1961)", linked to the details page. `check` [hearings] fails on a hearing without its link, a
+hand row naming no hearing, nominee or person, a `Hearing` source naming no package; warns on a matched holder whose
+`src` lacks his hearing.
 
 Rerun `frus_names.py --all` and `app_names.py` after adding people; the build needs no network.
 
