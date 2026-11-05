@@ -1630,8 +1630,7 @@ the series index, the README and the top bar (数; at first kept out of the bar,
   cell in its figure's tint (the owner, Nov. 4, 2026); a key under the table. A
   tap anywhere in a charted row's name cell, the name included (the owner, Nov. 4, 2026: "Clicking on the cells
   containing the name of a graphed indicator should expand the graph"), or on the ▸ before it (the keyboard's button),
-  opens its chart in a row beneath, and closes it (the name's link to its servant then reached from the opened row,
-  "Concepts and sources": indchart STYLE 3). The chart (uPlot, vendored, `sources/vendor/uplot-1.6.30/`): as first
+  opens its chart in a row beneath, and closes it (indchart STYLE 3). The chart (uPlot, vendored, `sources/vendor/uplot-1.6.30/`): as first
   reported and today over the span, Level | Year over year, year over year by default but for the rates and ratios in
   percent; the figures in `build/ind/charts-<hash>.json`, fetched at the first tap.
 - Real rates (`tools/indicators/make_derived.py`, its docstring; group "Real rates", the owner's rename, Nov. 4, 2026): the

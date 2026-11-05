@@ -20,9 +20,7 @@ STYLE (settled; keep it):
  3. The chart. A tap or click anywhere in a charted row's name cell (CELL, the pointer a hand), the name and its
     period included, opens a row beneath it (the owner's request, Nov. 4, 2026: "Clicking on the cells containing the
     name of a graphed indicator should expand the graph"); the small button before the name (▸, "Chart" to screen
-    readers) stays, the keyboard's way in. The name's link to its statement of concepts would fight the toggle, so a
-    plain click on it toggles too, and the statement is reached from the opened row ("Concepts and sources", at the
-    right of its switch) or the link with a modifier key held (a new tab). The opened row is the table's width: the series over the calendar's span, as first
+    readers) stays, the keyboard's way in. The opened row is the table's width: the series over the calendar's span, as first
     reported (solid, the accent) and today (dashed, muted), a band at the row's period; a switch Level | Year over
     year, the default year over year but where the series is a rate or ratio in percent (unemployment, the interest
     rates, the real rates and gaps, the ratios to GNP: LEVEL_DEFAULT, every series whose change is in points); a
@@ -227,7 +225,6 @@ div.ind button.ich[aria-expanded="true"]{transform:rotate(90deg)}
 div.ind button.ich:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
 div.ind td.ichc{cursor:pointer;-webkit-tap-highlight-color:transparent}
 div.ind td.ichc a{cursor:pointer}
-div.ind .ich-src{color:inherit;text-decoration-color:var(--rule);margin-left:auto}
 div.ind tr.ichd>td{padding:.4rem 0 .8rem;white-space:normal}
 div.ind .ich-tools{display:flex;flex-wrap:wrap;gap:.3rem .8rem;align-items:center;font-size:.75rem;color:var(--muted);margin-bottom:.3rem}
 div.ind .ich-seg{display:inline-flex;border:1px solid var(--rule);border-radius:5px;overflow:hidden}
@@ -258,10 +255,8 @@ function open(btn,cfg){
   if(nx&&nx.classList.contains("ichd")){nx.remove();btn.setAttribute("aria-expanded","false");return;}
   btn.setAttribute("aria-expanded","true");
   var d=document.createElement("tr");d.className="ichd";var td=document.createElement("td");td.colSpan=tr.children.length;d.appendChild(td);tr.after(d);
-  td.innerHTML='<div class="ich-tools"><span class="ich-seg"><button type="button" data-m="level">Level</button><button type="button" data-m="yoy">Year over year</button></span><span class="ich-key"><i></i>as first reported<i class="d"></i>today</span><a class="ich-src"></a></div><div class="ich-box"></div><div class="ich-ro">Loading…</div>';
+  td.innerHTML='<div class="ich-tools"><span class="ich-seg"><button type="button" data-m="level">Level</button><button type="button" data-m="yoy">Year over year</button></span><span class="ich-key"><i></i>as first reported<i class="d"></i>today</span></div><div class="ich-box"></div><div class="ich-ro">Loading…</div>';
   var sid=btn.dataset.s,per=(tr.querySelector(".per")||{}).textContent||"";
-  var nm=tr.querySelector("td.ichc a[href]"),sa=td.querySelector(".ich-src");
-  if(nm){sa.href=nm.getAttribute("href");sa.textContent="Concepts and sources";}else sa.remove();
   load(cfg).then(function(all){
     var S=all[sid];if(!S){td.querySelector(".ich-ro").textContent="No figures to chart.";return;}
     var mode=S.lv?"level":"yoy",u=null,box=td.querySelector(".ich-box"),ro=td.querySelector(".ich-ro");
@@ -288,7 +283,7 @@ function open(btn,cfg){
 document.addEventListener("click",function(e){
   if(!e.target.closest||e.button>0)return;
   var b=e.target.closest("button.ich");
-  if(!b){var c=e.target.closest("td.ichc");if(!c||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;b=c.querySelector("button.ich");if(!b)return;}
+  if(!b){var c=e.target.closest("td.ichc");if(!c)return;b=c.querySelector("button.ich");if(!b)return;}
   e.preventDefault();e.stopPropagation();open(b,window.ICH);},true);   /* capture: before the reader's link handler (STYLE 3) */
 })();
 </script>"""
