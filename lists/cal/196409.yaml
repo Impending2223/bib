@@ -916,12 +916,13 @@ entries:
     date: '1964-09-10'
     thread: vietnam-tonkin
     c: Under NSAM 314, the Joint Chiefs authorize CINCPAC a three-day Desoto patrol in the Gulf of Tonkin from Sept. 15, Saigon time. If attacked, ships and aircraft may pursue into territorial waters and air space, but "will confine their actions to the attacking ships and/or aircraft."
-    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 133. To check: JCS 8518 to CINCPAC, Sept. 10, 1964 (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 133 n.22). See [[cal.1964-08-02.vietnam]].'
+    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 133; [[w.marolda-united-states-navy-and]], 453–54 (the three-day patrol, mid-September; hot pursuit). Check: Marolda, 453–54, dates the approval Sept. 9 and has the ships no closer than twenty miles to the mainland, twelve to the islands, aircraft allowed into North Vietnamese air space in hot pursuit. To check: JCS 8518 to CINCPAC, Sept. 10, 1964 (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 133 n.22). See [[cal.1964-08-02.vietnam]].'
     src:
       c: 1fdc8db1
       rows:
         - 'w.cosmas-joint-chiefs-of-staff-2012 133: all'
         - 'via w.cosmas-joint-chiefs-of-staff-2012 133 n.22: all'
+        - 'w.marolda-united-states-navy-and 453–54: A'
   - id: cal.1964-09-11.vietnam
     when: Sept. 11
     date: '1964-09-11'
@@ -1296,6 +1297,17 @@ entries:
         - 'via w.branch-pillar-of-fire 493 n.democratic-chairman-questioned: all'
         - 'via w.branch-pillar-of-fire 493 n.minimized-the-switch: all'
     tags: [name:thurmond-strom, name:goldwater-barry-m, state:sc]
+  - id: cal.1964-09-17.vietnam-tonkin
+    when: Sept. 17
+    date: '1964-09-17'
+    thread: vietnam-tonkin
+    c: The *Morton* and the *Richard S. Edwards*, under Hollyfield, enter the gulf an hour after dawn on the September patrol; the *Morton* had left Subic Sept. 13. Guest, in the *Constellation*, in operational control.
+    n: '[[w.marolda-united-states-navy-and]], 454. To check: msg, CPFLT 090916Z Sep 1964 (cited by [[w.marolda-united-states-navy-and]], 454 n.36). See [[cal.1964-09-10.vietnam-tonkin]].'
+    src:
+      c: 54699f2f
+      rows:
+        - 'w.marolda-united-states-navy-and 454: all'
+        - 'via x.1964-09-09.msg-cpflt-090916z-sep-1964: all'
   - id: cal.1964-09-18.vietnam
     when: Sept. 18–19
     date: '1964-09-18'
@@ -1423,12 +1435,24 @@ entries:
     date: '1964-09-19'
     thread: vietnam-tonkin
     c: 'The Joint Chiefs tell Sharp to await further instructions before another Desoto patrol: the patrols in effect suspended. The *Morton* and *Edwards* end theirs without further incident.'
-    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 134. See [[cal.1964-09-18.vietnam]]. Names: Sharp.'
+    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 134; [[w.marolda-united-states-navy-and]], 460–61 (the patrol ended Sept. 19). Check: Marolda, 461: in September Johnson ordered the Desoto Patrols in Southeast Asia suspended. See [[cal.1964-09-18.vietnam]]. Names: Sharp.'
     src:
       c: 61586ebd
       rows:
         - 'w.cosmas-joint-chiefs-of-staff-2012 134: all'
+        - 'w.marolda-united-states-navy-and 460–61: B'
     tags: [name:sharp-u-s-grant]
+  - id: cal.1964-09-19.vietnam-tonkin-2
+    when: Sept. 19
+    date: '1964-09-19'
+    thread: vietnam-tonkin
+    c: McDonald fully supports Hollyfield's decision to fire first.
+    n: '[[w.marolda-united-states-navy-and]], 459 n.54. See [[cal.1964-09-18.vietnam]]. Names: McDonald.'
+    src:
+      c: 555eb431
+      rows:
+        - 'w.marolda-united-states-navy-and 459 n.54: all'
+    tags: [name:mcdonald-david-l]
   - id: cal.1964-09-20.elections-1964
     when: Sept. 20
     date: '1964-09-20'
@@ -1576,6 +1600,31 @@ entries:
       c: c8b0028d
       rows:
         - 'w.marolda-united-states-navy-and 459: all'
+  - id: cal.1964-09-21.vietnam-tonkin
+    when: Sept. 21
+    date: '1964-09-21'
+    thread: vietnam-tonkin
+    c: 'Sharp to the Joint Chiefs on resuming the patrols: intelligence the military reason; politically "our right to go anyplace we desire on the high seas"; "if they can keep us out of the Gulf of Tonkin what do we do when they try to stop us using the straits of Malacca."'
+    n: '[[w.marolda-united-states-navy-and]], 460. To check: msg, CP 210025Z Sep 1964 (cited by [[w.marolda-united-states-navy-and]], 460 n.57). See [[cal.1964-09-19.vietnam-tonkin]]. Names: Sharp.'
+    src:
+      c: 6315de87
+      rows:
+        - 'w.marolda-united-states-navy-and 460: all'
+        - 'via x.1964-09-21.cincpac-to-cjcs-210025z-sep-64: all'
+    tags: [name:sharp-u-s-grant]
+  - id: cal.1964-09-21.vietnam-tonkin-2
+    when: Sept. 21
+    date: '1964-09-21'
+    thread: vietnam-tonkin
+    also: [vietnam-34a]
+    c: 'Westmoreland on resuming the patrols: to reestablish an American presence off the North, tie down its forces, and "provide provocation to Commie if he chooses to take bait for retaliatory actions"; best mixed with 34A raids for "max harassment and confusion."'
+    n: '[[w.marolda-united-states-navy-and]], 460. To check: msg, COMUSMACV 211422Z Sep 1964 (cited by [[w.marolda-united-states-navy-and]], 460 n.58). See [[cal.1964-09-19.vietnam-tonkin]]. Names: Westmoreland.'
+    src:
+      c: 11b882af
+      rows:
+        - 'w.marolda-united-states-navy-and 460: all'
+        - 'via x.1964-09-21.msg-comusmacv-211422z-sep-1964: all'
+    tags: [name:westmoreland-william]
   - id: cal.1964-09-22.latin-america
     when: Sept. 22
     date: '1964-09-22'
@@ -1703,6 +1752,18 @@ entries:
       rows:
         - 'w.goldberg-barry-goldwater 227: all'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1964-09-23.vietnam-tonkin
+    when: Sept. 23
+    date: '1964-09-23'
+    thread: vietnam-tonkin
+    c: 'Moorer: the patrols'' military value significant; without them "the CHICOMS could claim that the United States stood down to their threat and is in fact a paper tiger."'
+    n: '[[w.marolda-united-states-navy-and]], 461. To check: msg, CPFLT 230639Z Sep 1964 (cited by [[w.marolda-united-states-navy-and]], 461 n.59). See [[cal.1964-09-19.vietnam-tonkin]]. Names: Moorer.'
+    src:
+      c: d49d983c
+      rows:
+        - 'w.marolda-united-states-navy-and 461: all'
+        - 'via x.1964-09-23.msg-cpflt-230639z-sep-1964: all'
+    tags: [name:moorer-thomas]
   - id: cal.1964-09-24.assassination
     when: Sept. 24
     date: '1964-09-24'
@@ -1936,6 +1997,18 @@ entries:
       rows:
         - 'w.macv-command-history-1964 87–88: all'
         - 'via w.macv-command-history-1964 88 n.94: all'
+  - id: cal.1964-09-26.vietnam-tonkin
+    when: Sept. 26
+    date: '1964-09-26'
+    thread: vietnam-tonkin
+    also: [defense]
+    c: 'The Joint Chiefs relax the Seventh Fleet''s readiness: the *Constellation* to Japan, the *Ticonderoga* to Subic, the *Kearsarge* group to Hong Kong, the *Bon Homme Richard* kept at Yankee Station for Laos; the antisubmarine barrier and the patrols on the Communist periphery ended; Task Force 76 and the 9th MEB to port. One amphibious ready group off South Vietnam.'
+    n: '[[w.marolda-united-states-navy-and]], 460. To check: msg, CP 280001Z Sep 1964 (cited by [[w.marolda-united-states-navy-and]], 460 n.56). See [[cal.1964-09-19.vietnam-tonkin]].'
+    src:
+      c: 9ee4792a
+      rows:
+        - 'w.marolda-united-states-navy-and 460: all'
+        - 'via x.1964-09-28.msg-cp-280001z-sep-1964: all'
   - id: cal.1964-09-27.vietnam
     when: Sept. 27
     date: '1964-09-27'

@@ -2,15 +2,15 @@
 
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-19227 dated entries.
+19315 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 2027 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 2040 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 168 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 11 |
-| No primary record linked or named | 12108 |
-| A primary record named but not linked | 314 |
+| No primary record linked or named | 12103 |
+| A primary record named but not linked | 313 |
 | Threads (statements listed for review) | 294 |
 
 ## Names
@@ -372,6 +372,8 @@ Each person found in `c` by a surname that has a Part III entry, and the entries
   - Perkins: Perkins, Carl D. (K–J Cong. III.D)
 - `cal.1961-01-22.cuba` (Jan. 22, XIV 196101.yaml): Rusk's meeting at the State Department, 10 a.m. Rusk, McNamara, Robert Kennedy, Bowles told of the program by
   - Swan: Swan, Jimmy (K–J Cong. III.K)
+- `cal.1961-01-25.jobs-and-wages` (Jan. 25, XIV 196101.yaml): The Senate Labor and Public Welfare Committee hears nominees: W. Willand Wirtz, Under Secretary of Labor; Jerr
+  - Wirtz: Wirtz, W. Willard (K–J Adm. III.G)
 - `cal.1961-01-27.king` (Jan. 27, XIV 196101.yaml): New York, Carnegie Hall. Sinatra's five-hour tribute to King: Sammy Davis, Dean Martin, Count Basie among the
   - Davis: Davis, James T. (K–J Adm. III.F); Davis, Deane C. (K–J Cong. III.F); Davis, Ilus W. (K–J Cong. III.F); Davis, Jimmie H. (K–J Cong. III.F); Davis, Rennie (K–J Cong. III.K); Davis, John E. (Opp. III.H)
   - Dean: Dean, Arthur H. (K–J Adm. III.E); Dean, Ernest H. (K–J Cong. III.K); Dean, John W., III (Adm. III.B, Wg. III.A)
@@ -393,6 +395,10 @@ Each person found in `c` by a surname that has a Part III entry, and the entries
   - MacArthur: MacArthur, Douglas, II (Opp. III.E)
 - `cal.1961-02-07.king` (Feb. 7, XV 196102.yaml): The FBI's first notice of King. *The Nation*'s issue of Feb. 4 prints his "Equality Now": "If, for instance, t
   - Jones: Jones, Walter B., Sr. (K–J Cong. III.D); Jones, J. Raymond (K–J Cong. III.K); Jones, Walter H. (K–J Cong. III.K); Jones, Jim (1968 III.A)
+- `cal.1961-02-08.press-and-broadcasting` (Feb. 8, XV 196102.yaml): The Senate Interstate and Foreign Commerce Committee hears Newton N. Minow on his nomination as a member of th
+  - Newton: Newton, Huey P. (K–J Cong. III.K)
+- `cal.1961-02-09.transition-and-staff` (Feb. 9, XV 196102.yaml): The Senate Judiciary Committee hears Nicholas Katzenbach on his nomination as Assistant Attorney General.
+  - Nicholas: Nicholas, William H. (K–J Cong. III.K)
 - `cal.1961-02-22.robert-kennedy` (Feb. 22, XV 196102.yaml): Robert Kennedy's memorandum: Goldfine, ready to talk through Edward Bennett Williams, claims Sherman Adams had
   - Bennett: Bennett, W. Tapley, Jr. (K–J Adm. III.E); Bennett, Bruce (K–J Cong. III.K)
   - Williams: Williams, G. Mennen (K–J Adm. III.E); Williams, John B. (K–J Cong. III.D); Williams, Jack (K–J Cong. III.F); Williams, Gene Hal (K–J Cong. III.K); Williams, Hosea (K–J Cong. III.K); Williams, John J. (Opp. III.B)
@@ -839,6 +845,8 @@ Each person found in `c` by a surname that has a Part III entry, and the entries
   - Gray: Gray, Fred D. (K–J Cong. III.K); Gray, Victoria Jackson (K–J Cong. III.K); Gray, Gordon (Opp. III.E); Gray, L. Patrick, III (Adm. III.H, Wg. III.I)
 - `cal.1962-07-20.georgia-albany` (July 20, XXXII 196207.yaml): King, back in Albany, at the night's mass meeting: "I understand that the city attorney has gone to Atlanta to
   - Gandhi: Gandhi, Indira (K–J Adm. III.J)
+- `cal.1962-07-20.economy-2` (July 20, XXXII 196207.yaml): The Senate Banking and Currency Committee hears Gardner Ackley on his nomination as a member of the Council of
+  - Gardner: Gardner, John W. (K–J Adm. III.G)
 - `cal.1962-07-21.robert-kennedy` (July 21, XXXII 196207.yaml): Robert Kennedy to King by telephone, on Elliott's order. King feels "impelled" to march; Kennedy: Southern gov
   - Elliott: Elliott, Carl A. (K–J Cong. III.D); Elliott, J. Robert (K–J Cong. III.G); Elliott, Douglas H. (K–J Cong. III.K)
   - Jones: Jones, Walter B., Sr. (K–J Cong. III.D); Jones, J. Raymond (K–J Cong. III.K); Jones, Walter H. (K–J Cong. III.K); Jones, Jim (1968 III.A)
@@ -1119,6 +1127,9 @@ Each person found in `c` by a surname that has a Part III entry, and the entries
   - Romney: Romney, George W. (Opp. III.H, Adm. III.F)
 - `cal.1963-03-01.voting-rights` (Mar. 1, XL 196303.yaml): Branton to the President by telegram, on the shooting of Travis: "This can no longer be tolerated. We are acco
   - Travis: Travis, Brenda (K–J Cong. III.K); Travis, James (K–J Cong. III.K)
+- `cal.1963-03-01.transition-and-staff` (Mar. 1, XL 196303.yaml): The Senate Labor and Public Welfare Committee hears nominees: Howard G. Gamser, a member of the National Media
+  - Francis: Francis, E. Lee (K–J Cong. III.K)
+  - Daniel: Daniel, Price (K–J Cong. III.F, 1968 III.B)
 - `cal.1963-03-06.mississippi` (Mar. 6, XL 196303.yaml): Greenwood. Night riders fire a shotgun into a car carrying Sam Block and Willie Peacock. Mayor Charles Sampson
   - Travis: Travis, Brenda (K–J Cong. III.K); Travis, James (K–J Cong. III.K)
 - `cal.1963-03-07.goldwater` (Mar. 7, XL 196303.yaml): Dayton. White asks Katherine Kennedy Brown, Ohio's national committeewoman, to be the draft's co-chairman; she
@@ -1422,6 +1433,8 @@ Each person found in `c` by a surname that has a Part III entry, and the entries
   - Jones: Jones, Walter B., Sr. (K–J Cong. III.D); Jones, J. Raymond (K–J Cong. III.K); Jones, Walter H. (K–J Cong. III.K); Jones, Jim (1968 III.A)
 - `cal.1963-07-30.specials` (July 30, XLIV 196307.yaml): Pennsylvania 15th, special. Fred B. Rooney (D) holds the seat of Francis E. Walter (D), who died May 31, over
   - Francis: Francis, E. Lee (K–J Cong. III.K)
+- `cal.1963-07-30.transition-and-staff` (July 30, XLIV 196307.yaml): The Senate Banking and Currency Committee hears nominees: John E. Horne, a member of the Federal Home Loan Ban
+  - Small: Small, Frank, Jr. (K–J Cong. III.K)
 - `cal.1963-07.robert-kennedy` (July, XLIV 196307.yaml): New York, Morgenthau's office, then the Feldman–Landis office. Katzenbach with James Landis's lawyers, William
   - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
   - Feldman: Feldman, Myer (K–J Adm. III.B)
@@ -1549,6 +1562,8 @@ Each person found in `c` by a surname that has a Part III entry, and the entries
 - `cal.1963-10-10.cuba` (Oct. 10, XLVII 196310.yaml): Nolan to Robert Kennedy: Harry Williams wants to see him, for a "green light" from Somoza to form an anti-Cast
   - Williams: Williams, G. Mennen (K–J Adm. III.E); Williams, John B. (K–J Cong. III.D); Williams, Jack (K–J Cong. III.F); Williams, Gene Hal (K–J Cong. III.K); Williams, Hosea (K–J Cong. III.K); Williams, John J. (Opp. III.B)
   - Castro: Castro, Fidel (K–J Adm. III.J); Castro, Raúl (K–J Adm. III.J); Castro, Sal (K–J Cong. III.K)
+- `cal.1963-10-10.defense` (Oct. 10, XLVII 196310.yaml): The Senate Armed Services Committee hears Wallace M. Greene Jr. on his nomination as Commandant of the Marine
+  - Wallace: Wallace, George C. (K–J Cong. III.F, 1968 III.L, Cong. III.G, Cong. III.H); Wallace, Lurleen B. (K–J Cong. III.K)
 - `cal.1963-10-19.elections-1964` (Oct. 19, XLVII 196310.yaml): Rockefeller's first campaign trip to New Hampshire, by Gregg's rule: at Manchester's airport without a single
   - Manchester: Manchester, William (K–J Cong. III.K)
 - `cal.1963-10-24.goldwater-2` (Oct. 24, XLVII 196310.yaml): Hartford, Conn., the Hartford Club, a press conference after a caucus with the State's Republican leaders. Ask
@@ -2219,6 +2234,8 @@ Each person found in `c` by a surname that has a Part III entry, and the entries
   - Bernstein: Bernstein, Carl (Wg. III.H)
 - `cal.1964-08-13.king` (Aug. 13, LVII 196408.yaml): The FBI's tap on King: King to Clarence Jones, the leaders' moratorium on demonstrations "a wise thing, becaus
   - Jones: Jones, Walter B., Sr. (K–J Cong. III.D); Jones, J. Raymond (K–J Cong. III.K); Jones, Walter H. (K–J Cong. III.K); Jones, Jim (1968 III.A)
+- `cal.1964-08-13.economy` (Aug. 13, LVII 196408.yaml): The Senate Banking and Currency Committee hears nominees: Francis M. Wheat, a member of the Securities and Exc
+  - Francis: Francis, E. Lee (K–J Cong. III.K)
 - `cal.1964-08-14.king` (Aug. 14, LVII 196408.yaml): The FBI reports to the White House, from its tap, King's instructions to Rustin for his talk with Lee White: "
   - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Joseph E. (K–J Adm. III.E); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, June (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Virginia (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1964-08-15.mississippi` (Aug. 15, LVII 196408.yaml): Greenwood, 8:45 p.m. Silas McGhee shot in the head through a car window outside Lula's Restaurant; segregation
@@ -3075,6 +3092,9 @@ Each person found in `c` by a surname that has a Part III entry, and the entries
   - Mosk: Mosk, Stanley (K–J Cong. III.K)
 - `cal.1966-05-11.vietnam` (May 11, LXXIX 196605.yaml): Johnson on the war's critics, at the Woodrow Wilson School, Princeton, N.J.: "The exercise of power in this ce
   - Wilson: Wilson, Henry Hall (K–J Adm. III.C); Wilson, Harold (K–J Adm. III.J); Wilson, Will R. (K–J Cong. III.K); Wilson, Bob (Opp. III.C)
+- `cal.1966-05-11.transition-and-staff` (May 11, LXXIX 196605.yaml): The Senate Banking and Currency Committee hears nominees: Bernard L. Boutin, Administrator of the Small Busine
+  - Small: Small, Frank, Jr. (K–J Cong. III.K)
+  - Francis: Francis, E. Lee (K–J Cong. III.K)
 - `cal.1966-05-13.vietnam-congress-2` (May 13, LXXIX 196605.yaml): Brock Brower, "The Roots of the Arkansas Questioner," in *Life*: "Senator Fulbright belongs at this critical m
   - Brock: Brock, Art (K–J Cong. III.K); Brock, Bill (Cong. III.C)
 - `cal.1966-05-16.civil-rights-organizations` (May 16, LXXIX 196605.yaml): SNCC's staff, meeting at Kingston Springs, Tenn., re-elects Lewis chairman, then, after Worth Long challenges
@@ -3428,6 +3448,8 @@ Each person found in `c` by a surname that has a Part III entry, and the entries
   - Williams: Williams, G. Mennen (K–J Adm. III.E); Williams, John B. (K–J Cong. III.D); Williams, Jack (K–J Cong. III.F); Williams, Gene Hal (K–J Cong. III.K); Williams, Hosea (K–J Cong. III.K); Williams, John J. (Opp. III.B)
 - `cal.1967-04-12.king-2` (Apr. 12, XC 196704.yaml): Andrew Young on a conference call, the FBI's tap on Levison: within the civil rights community "the best frien
   - Levison: Levison, Stanley D. (K–J Cong. III.K)
+- `cal.1967-04-17.transportation` (Apr. 17, XC 196704.yaml): The Senate Commerce Committee hears nominees: Joseph J. O'Connell Jr., Chairman of the National Transportation
+  - Francis: Francis, E. Lee (K–J Cong. III.K)
 - `cal.1967-04-18.robert-kennedy` (Apr. 18, XC 196704.yaml): Robert Kennedy to party regulars, Emma Guffey Miller among them, on Citizens for Kennedy-Fulbright: "I was ele
   - Miller: Miller, Herbert J., Jr. (K–J Adm. III.I); Miller, Clement W. (K–J Cong. III.K); Miller, David J. (K–J Cong. III.K); Miller, Jack R. (Opp. III.B); Miller, William E. (Opp. III.E)
 - `cal.1967-04-28.draft` (Apr. 28, XC 196704.yaml): Houston. Muhammad Ali, called for induction, does not step forward at his name; he claims exemption as a minis
@@ -3525,6 +3547,8 @@ Each person found in `c` by a surname that has a Part III entry, and the entries
   - MacArthur: MacArthur, Douglas, II (Opp. III.E)
 - `cal.1967-07-26.amendments` (July 26, XCIII 196707.yaml): Ramsey Clark to House Judiciary for the District's representation in Congress: "What perfect irony that our gr
   - Ramsey: Ramsey, Claude (K–J Cong. III.K)
+- `cal.1967-07-27.civil-rights-the-executive` (July 27, XCIII 196707.yaml): The Senate Labor and Public Welfare Committee hears Clifford L. Alexander Jr. on his nomination as a member of
+  - Clifford: Clifford, Clark (1968 III.E); Clifford, Clark M. (Viet. III.A)
 - `cal.1967-07.elections-1968-4` (July, summer, XCIII 196707.yaml): Sacramento. A key aide of Reagan's 1966 campaign, now in the governor's office, found a homosexual placing oth
   - Smith: Smith, Stephen E. (K–J Adm. III.A); Smith, Ian Douglas (K–J Adm. III.J); Smith, Benjamin A., II (K–J Cong. III.B); Smith, Howard W. (K–J Cong. III.D); Smith, Hulett C. (K–J Cong. III.F); Smith, Preston (K–J Cong. III.F); Smith, Frank E. (K–J Cong. III.K); Smith, Howard K. (K–J Cong. III.K); Smith, Robert R. (K–J Cong. III.K); Smith, Tommie (K–J Cong. III.K); Smith, Vernon K. (K–J Cong. III.K); Smith, Margaret Chase (Opp. III.A, Cong. III.A); Smith, Gerard C. (Adm. III.D)
 - `cal.1967-08-01.vietnam` (Aug. 1, XCIV 196708.yaml): The Southeast Asia Coordinating Committee, Bunker, Martin and Sullivan with Sharp and Westmoreland: concern at
@@ -4270,6 +4294,8 @@ Each person found in `c` by a surname that has a Part III entry, and the entries
   - Wallace: Wallace, George C. (K–J Cong. III.F, 1968 III.L, Cong. III.G, Cong. III.H); Wallace, Lurleen B. (K–J Cong. III.K)
 - `cal.1968-07-16.transportation` (July 16, CV 196807.yaml): Wilson, of the Federal Highway Administration, to House Public Works on the truck bill, S. 2658: "personally a
   - Wilson: Wilson, Henry Hall (K–J Adm. III.C); Wilson, Harold (K–J Adm. III.J); Wilson, Will R. (K–J Cong. III.K); Wilson, Bob (Opp. III.C)
+- `cal.1968-07-16.economy` (July 16, CV 196807.yaml): The Senate Banking and Currency Committee hears Howard J. Samuels on his nomination as Administrator of the Sm
+  - Small: Small, Frank, Jr. (K–J Cong. III.K)
 - `cal.1968-07-17.opinion` (July 17, CV 196807.yaml): James Farmer releases a "black voters preference poll," 1,198 persons in six cities, by the Howard Sanders age
   - Sanders: Sanders, Carl E. (K–J Cong. III.K)
 - `cal.1968-07-17.elections-1968-2` (July 17, CV 196807.yaml): Gabrielson, Republican national chairman once, for Goldwater in 1964, endorses Rockefeller: "the best chance o
@@ -4584,6 +4610,8 @@ Each person found in `c` by a surname that has a Part III entry, and the entries
   - Clifford: Clifford, Clark (1968 III.E); Clifford, Clark M. (Viet. III.A)
 - `cal.1969-01-15.transition-and-staff` (Jan. 15, CXI 196901.yaml): Rogers, Nixon's nominee for Secretary of State, before Foreign Relations. Fulbright: "a broad-gauged man, not
   - Nixon: Nixon, Richard M. (Opp. III.E, 1968 III.M, Wg. III.A, Viet. III.B); Nixon, Pat (Adm. III.A)
+- `cal.1969-01-16.farm` (Jan. 16, CXI 196901.yaml): The Senate Agriculture and Forestry Committee hears nominees: Clifford M. Hardin, Secretary of Agriculture; J.
+  - Clifford: Clifford, Clark (1968 III.E); Clifford, Clark M. (Viet. III.A)
 - `cal.1969-01-17.students` (Jan. 17, CXI 196901.yaml): McGhee to Rusk, the report of the Student Unrest Study Group, ordered at Johnson's direction, on more than 30
   - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Joseph E. (K–J Adm. III.E); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, June (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Virginia (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 
@@ -5330,7 +5358,6 @@ Some events have none (a speech outside the Public Papers, a march, a strike); t
 - `cal.1960-11.elections-1960-6` (Nov., early, XII 196011.yaml): The campaign's last week. Robert Kennedy has Haddad, a New York Post reporter he uses as an investigator, work
 - `cal.1960-11.press-and-broadcasting` (Nov., XII 196011.yaml): After the election. Kempton asks Robert Kennedy whether he is glad he called King's judge. Robert Kennedy: "Su
 - `cal.1960-11.vietnam-hanoi` (Nov., XII 196011.yaml): Moscow, the meeting of the communist parties. Hồ Chí Minh's address: the unity of the socialist countries and
-- `cal.1960-12-01.transition-and-staff` (Dec. 1, XIII 196012.yaml): The cabinet named, the first of it. Kennedy names Ribicoff to HEW; Williams to African affairs.
 - `cal.1960-12-01.transition-and-staff-2` (Dec. 1, XIII 196012.yaml): Schlesinger with the President-elect at noon, his Senate office, then Georgetown, by Schlesinger's account. Ho
 - `cal.1960-12-01.transition-and-staff-cabinet` (Dec. 1, XIII 196012.yaml): Lovett with the President-elect, by Clifford's account: offered State, Defense or the Treasury, he declines ag
 - `cal.1960-12-01.transition-and-staff-3` (Dec. 1, XIII 196012.yaml): 10 a.m., the transition office. Robert Kennedy, thirty minutes with "Mr. B." of *Izvestia*, of the KGB's New Y
@@ -8268,7 +8295,6 @@ Some events have none (a speech outside the Public Papers, a march, a strike); t
 - `cal.1963-11-22.assassination-6` (Nov. 22, XLVIII 196311.yaml): Johnson, fearing that Wade, the Dallas district attorney, might rush to a public judgment of Oswald in a Commu
 - `cal.1963-11-22.succession-6` (Nov. 22, XLVIII 196311.yaml): Johnson, having looked for Russell at Andrews ("Where's Dick?"), telephones him several hours later; ten minut
 - `cal.1963-11-22.press-and-broadcasting-2` (Nov. 22, XLVIII 196311.yaml): CBS News, Cronkite: Goldwater on his way to Muncie, Ind., for a political rally; he was bound for his mother-i
-- `cal.1963-11-22.transition-and-staff` (Nov. 22, XLVIII 196311.yaml): William Bundy confirmed Assistant Secretary of Defense for International Security Affairs, by voice vote, 1 p.
 - `cal.1963-11-22.medicare` (Nov. 22, XLVIII 196311.yaml): The morning of the assassination. Mills reaches agreement with the administration on a formula for financing h
 - `cal.1963-11-22.succession-7` (Nov. 22, XLVIII 196311.yaml): Fulbright, at lunch with Eugene Black of the World Bank at the F Street Club when the news comes, is called to
 - `cal.1963-11-22.goldwater-4` (Nov. 22, XLVIII 196311.yaml): Washington, the Sheraton-Carlton. Kitchel and Tony Smith at a long lunch with two political reporters: no impe
@@ -11798,7 +11824,6 @@ Some events have none (a speech outside the Public Papers, a march, a strike); t
 - `cal.1966-01-25.vietnam-congress` (Jan. 25, LXXV 196601b.yaml): The White House's survey of Congress: Wilson, Jan. 21, of 251 of the 295 House Democrats, majority sentiment f
 - `cal.1966-01-25.republican-party` (Jan. 25, LXXV 196601b.yaml): Washington. Republican city chairmen, in a closed meeting. Cowger, former mayor of Louisville: his administrat
 - `cal.1966-01-25.vietnam-air-war` (Jan. 25, LXXV 196601b.yaml): SEACOORD, the ambassadors and commanders in Southeast Asia, from Bangkok: the enemy expected to turn from the
-- `cal.1966-01-25.civil-rights-the-executive` (Jan. 25, LXXV 196601b.yaml): Roger Wilkins before the Senate Commerce Committee for the Community Relations Service. An "urgent" White Hous
 - `cal.1966-01-26.open-housing` (Jan. 26, LXXV 196601b.yaml): King moves into a flat on South Hamlin Avenue in Lawndale, on Chicago's West Side: the Chicago Freedom Movemen
 - `cal.1966-01-26.vietnam` (Jan. 26, LXXV 196601b.yaml): Cooper with Johnson in the Oval Office, against resuming the bombing. Johnson gives no assurance he will pursu
 - `cal.1966-01-26.robert-kennedy` (Jan. 26, LXXV 196601b.yaml): McGovern to Robert Kennedy: "I do hope you will continue to raise questions about Vietnam. Your voice is one o
@@ -14523,7 +14548,6 @@ Some events have none (a speech outside the Public Papers, a march, a strike); t
 - `cal.1968-02-17.black-nationalism` (Feb. 17, C 196802.yaml): Oakland, the "Free Huey" rally on Newton's birthday. Carmichael: "The vote in this country is, has been, and a
 - `cal.1968-02-17.jobs-and-wages-nyc` (Feb. 17, C 196802.yaml): New York. Both sides accept the arbitration of McDonnell, chairman of the State Mediation Board: the sanitatio
 - `cal.1968-02-17.vietnam` (Feb. 17, C 196802.yaml): The highest weekly American casualties of the war, the seven days ending Feb. 17, 543 killed and 2,547 wounded
-- `cal.1968-02-17.press-and-broadcasting` (Feb. 17, C 196802.yaml): Johnson names the Corporation for Public Broadcasting's board: Frank Pace, Jr., chairman; Killian, Hobby, Vale
 - `cal.1968-02-18.consumers` (Feb. 18, C 196802.yaml): The ABA's judicial administration section: it will ask the House of Delegates for a resolution favoring reform
 - `cal.1968-02-18.trade` (Feb. 18, C 196802.yaml): The Canadian-American Committee, 78 business, labor and farm leaders of both countries, warns Congress against
 - `cal.1968-02-18.vietnam-tet` (Feb. 18, C 196802.yaml): The Pentagon's week: 543 Americans killed, 2,547 wounded, the most yet; American losses for the first time pro
@@ -16663,7 +16687,6 @@ Some events have none (a speech outside the Public Papers, a march, a strike); t
 - `cal.1968-12-15.republican-party` (Dec. 15, CX 196812.yaml): New York, the Plaza Hotel. The Ripon Society's sixth anniversary dinner, more than 400 guests; its hosts Kissi
 - `cal.1968-12-16.vietnam-prisoners` (Dec. 16, CX 196812.yaml): The *Duluth* carries seven North Vietnamese civilian seamen and a provisioned junk from Đà Nẵng to thirteen mi
 - `cal.1968-12-17.vietnam` (Dec. 17, CX 196812.yaml): The 1969 Pacification and Development Guidelines signed by 16 ministers, the Prime Minister among them, and th
-- `cal.1968-12-17.transition-and-staff` (Dec. 17, CX 196812.yaml): Finch, named Secretary of Health, Education, and Welfare: under him the department to rationalize the programs
 - `cal.1968-12-18.vietnam` (Dec. 18, CX 196812.yaml): Clifford approves the Accelerated Phase II plan for the South Vietnamese army and air force, not the navy; uni
 - `cal.1968-12-18.laos` (Dec. 18, CX 196812.yaml): The Meo reach the helipad and the abandoned radar sites on Phou Pha Thi's summit.
 - `cal.1968-12-19.vietnam-prisoners` (Dec. 19, CX 196812.yaml): Two Liberation Radio broadcasts: American prisoners to be released; the Eastern Nam Bộ Military Zone proposes
@@ -16918,7 +16941,6 @@ Some events have none (a speech outside the Public Papers, a march, a strike); t
 - `cal.1965-09-07.vietnam` (Sept. 7, LXX 196509.yaml): MACV Directive 525-3, on keeping down noncombatant casualties: "unnecessary force" in the areas the Viet Cong  — names "Directive"
 - `cal.1965-09-10.war-opposition-2` (Sept. 10, LXX 196509.yaml): Dodd, by press statement, on King's proposals at the UN: King's "intemperate alignment with the forces of appe — names "Cong. Rec."
 - `cal.1965-10-01.states-and-cities-jacksonville` (Oct. 1, LXXI 196510.yaml): Jacksonville. The Local Government Study Commission of Duval County, created by the 1965 legislature, establis — names "Laws of "
-- `cal.1965-10-21.confirmations` (Oct. 21, LXXI 196510.yaml): Edward Kennedy, in the Senate, defends Morrissey's nomination to the district court and moves that it go back  — names "Cong. Rec."
 - `cal.1965-11-02.legislatures-ny` (Nov. 2, LXXII 196511.yaml): New York. The legislature elected again, under the plan of December 1964, for one year, the only legislative e — names "Legislative Manual"
 - `cal.1965-11-02.state-constitutions-ny` (Nov. 2, LXXII 196511.yaml): New York's voters call a constitutional convention for 1967, and approve a bond issue of $1 billion for sewage — names "Legislative Manual"
 - `cal.1965-11-18.jobs-and-wages-14b` (Nov. 18, LXXII 196511.yaml): Johnson promises the AFL-CIO to "finish the unfinished battle" for repeal. — names "Public Papers"

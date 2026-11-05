@@ -73,22 +73,29 @@ Witnesses: not registered in this run (the notes not mapped to the sentences for
 | Page | Date | Event | Why |
 |---|---|---|---|
 | 140 | Apr. 30, 1965 | the OAS votes an International Security Zone in the diplomatic quarter | already in under cal.1965-04-30.latin-america |
-| 143 | May 13, 1965 | Palmer, with Bennett, proposes widening the corridor to take the radio station | lead |
-| 145–46 | May 22–23, 1965 | Palmer and Vance: a Marine battalion offshore once the Brazilians arrive; the Inter-American Peace Force's act signed | lead |
-| 147 | June 8–18, 1965 | the Joint Chiefs and the Palmer–Alvim talks on Phase III | lead |
-| 148 | Sept. 2–4, Sept. 29, 1965 | the Chiefs' residual force, 7,137, a tank company in, an airborne battalion out; the artillery battalion refused | lead |
-| 149 | Jan. 6, Jan. 17, May 9, 1966 | Alvim refuses to evict soldiers from the radio station; Braga takes command; the Chiefs on the force's withdrawal | lead |
+| 143 | May 13, 1965 | Palmer, with Bennett, proposes widening the corridor to take the radio station | in the calendar (cal.1965-05-13.latin-america-dominican-republic): cited, 143 (second run) |
+| 145–46 | May 22–23, 1965 | Palmer and Vance: a Marine battalion offshore once the Brazilians arrive; the Inter-American Peace Force's act signed | May 23 in the calendar (cal.1965-05-23.latin-america-dominican-republic): cited, 145 (second run); May 22 not reread |
+| 147 | June 8–18, 1965 | the Joint Chiefs and the Palmer–Alvim talks on Phase III | entered (cal.1965-06-08, cal.1965-06-10, second run) |
+| 148 | Sept. 2–4, Sept. 29, 1965 | the Chiefs' residual force, 7,137, a tank company in, an airborne battalion out; the artillery battalion refused | entered (second run) |
+| 149 | Jan. 6, Jan. 17, May 9, 1966 | Alvim refuses to evict soldiers from the radio station; Braga takes command; the Chiefs on the force's withdrawal | entered (second run) |
 | 151–52 | Jan. 13–17, Mar. 2, 1964 | Panama: four American soldiers dead; the F-102s and a Marine BLT kept near the Zone; the Chiefs on the canal | lead: the Panama entries of January 1964 not checked |
-| 167–68 | Dec. 5, 1966; Feb. 1967 | the Chiefs on arms for Israel after Es Samu; equipment airlifted to Jordan | lead |
-| 174 | June 8, 1967 | McNamara stops military sales and grant aid to Israel and seven Arab states; the F-4s out of Wheelus | lead |
-| 201–04 | Oct. 23, 1964; Jan. 14, Feb. 19, mid-Feb. 1965 | the Congo's air rules eased; Godley's request; the restrictions lifted; the Congolese army's napalm | lead |
-| 211 | Sept. 7, 1965 | military aid to India and Pakistan suspended | lead: the Kashmir war's entries not checked |
-| 236 | Nov. 27, 1967 | CINCPAC forwards the Counter-Infiltration Plan for Korea | lead |
-| 236–37 | Dec. 17–29, 1967; Jan. 2, 8, 1968 | the *Pueblo*'s mission approved by CINCPACFLT, CINCPAC and the Chiefs; she leaves Japan | lead: cal.1967-11-06.japan-and-korea-pueblo and the January entries to be held against them |
-| 239–44 | Jan. 24, 29–31, mid-Feb., Mar. 1, Mar. 21, 1968 | the J-3's analyses; the exercise refused; ammunition for 18 ROK divisions; the strike options | lead |
+| 167–68 | Dec. 5, 12, 13, 1966; Feb. 1967 | the Chiefs on arms for Israel and Jordan after Es Samu; the package to Khammash; equipment airlifted to Jordan | Dec. 5, 12, 13 entered (second run); Feb. 1967 not reread |
+| 174 | June 8, 1967 | McNamara stops military sales and grant aid to Israel and seven Arab states; the F-4s out of Wheelus | in the calendar (cal.1967-06-08.middle-east-six-day-war); the F-4s not reread |
+| 201–04 | Oct. 23, 1964; Jan. 14, Feb. 19, mid-Feb. 1965 | the Congo's air rules eased; Godley's request; the restrictions lifted; the Congolese army's napalm | Jan. 14 and Feb. 19, 1965 entered (second run); Oct. 23, 1964 not found on p. 201 by the search; the napalm not reread |
+| 211 | Sept. 7, 1965 | military aid to India and Pakistan suspended | entered (cal.1965-09-07.india-and-china-kashmir, second run) |
+| 236 | Nov. 27, 1967 | CINCPAC forwards the Counter-Infiltration Plan for Korea | entered (cal.1967-11-27.korea, second run) |
+| 236–37 | Dec. 17–29, 1967; Jan. 2, 8, 1968 | the *Pueblo*'s mission approved by CINCPACFLT, CINCPAC and the Chiefs; she leaves Japan | Dec. 17 and Dec. 29 entered (second run); Jan. 2 and 8 not reread |
+| 239–44 | Jan. 24, 29–31, mid-Feb., Mar. 1, Mar. 21, 1968 | the J-3's analyses; the exercise refused; ammunition for 18 ROK divisions; the strike options | Jan. 24, Jan. 29 and Mar. 21 entered (second run); the rest not reread |
+
+## The military re-read, second run (Nov. 5, 2026)
+
+The same copy (`DTIC_ADA562566`), its hOCR search text split by leaf, each leaf given the folio it prints (leaf less 11). Read: the passages of the re-read's Passed over rows marked "lead" (pp. 143–244), each held against the calendar by day. Chapters 1–8 (pp. 1–136) still not read.
+
+Patch `inbox/2026-11-05-mil2-poole-1965-68.yaml` (patch `mil2-poole-1965-68`): 21 ops, 19 new entries claimed in the ledger (the Dominican withdrawals, June 8, 10, Sept. 2, 29, 1965, and the force's last months, Jan. 6, 17, May 9, 1966; the Chiefs on Israel and Jordan, Dec. 5, 12, 13, 1966; the Congo's air rules, Jan. 14 and Feb. 19, 1965; aid to India and Pakistan suspended, Sept. 7, 1965; the Korean counter-infiltration plan, Nov. 27, 1967; the *Pueblo*'s approvals, Dec. 17 and 29, 1967; the J-3 and McConnell on Korea, Jan. 24, 29 and Mar. 21, 1968); 2 cites (May 13 and May 23, 1965). Witnesses: none in this run (the notes, pp. 263–316, not mapped).
 
 ## Leads (the military re-read)
 
 - National: chapters 1–8 of this volume (pp. 1–136) not read in the re-read.
 - National: this run's 21 entries' witnesses (the volume's notes, pp. 263–316) to be registered.
 - National: the "lead" rows above, each with its page.
+- National: the second run's 19 entries' witnesses (the notes, pp. 263–316); the rows above still marked "not reread".
