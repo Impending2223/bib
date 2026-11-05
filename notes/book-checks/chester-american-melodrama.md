@@ -10,6 +10,39 @@ interviews; where a passage is one participant's account, the entry says whose. 
 `inbox/2026-10-29-b3-chester-more.yaml` (b3-chester-more; 38 entries). Records: `sources/cited-records/chester-american-melodrama.yaml`
 (none: no notes).
 
+## Witnesses (wit-chester, Nov. 5, 2026)
+
+The witnesses the text names, for the 249 entries citing the book (R35–R43). The copy: the owner's Drive file "An
+American melodrama ; the presidential campaign of 1968 -- Chester et al.pdf" (the other Drive file of that title
+answers with a sign-in page), 840 PDF pages with a text layer; printed page = PDF page − 20, checked on the running
+heads of ten pages from p. 11 to p. 781; no page image read; the PDF deleted at once. How it was done: every page an
+entry cites, searched sentence by sentence for a source named (a memorandum, letter, telegram, paper, poll, report,
+broadcast, newspaper; "told us", "recalls", "remembers", "says", "said later", "according to"), each hit read against
+the entry's units. An event the text tells without naming a source makes no witness (R38); a remark to a reporter that
+is itself the event (Kennedy on his plane, 145; Klein's briefing, 457) makes none either.
+
+The book having no notes, the edges are its passages: a row a page cited, `x.1969.chester-american-melodrama-p<page>`,
+`part_of` the card and pinned, its `from` the records and accounts that page names (91 pages). Behind them, 115
+witnesses in `inbox/witnesses/2026-11-05-wit-chester.yaml`: the documents quoted (Walinsky's memorandum, Nov. 9, 1966;
+Schlesinger's letter, Nov. 3, 1967; Rauh's paper; Hoeh and Studds's memorandum; Hamill's letter; Hughes's memorandum of
+May 19 and his draft of Mar. 18; Tinker's strategy paper; the Program for the Urban Crisis; the Sparling report;
+Daley's "Strategy of Confrontation"; Connell's four memoranda and notes, Napolitan's; De Vries to Mitchell;
+Chennault's letter and the marginal "No!"; Hill's letter and McCarthy's notes on its envelope), the speeches,
+statements and broadcasts (the address of Mar. 31, the row already registered; Vanderbilt; the Cow Palace; Davis;
+the National Press Club; the Cronkite interview; Schoumacher's report), the press named (the *Times* of Jan. 31,
+Oct. 6 and Oct. 9; Broder; Orfield; the *Chicago Tribune*; Walters and Shellum), the tape of Nixon with the Southern
+delegations and the *Herald*'s transcript of it, the authors' own observation at Wallace's meeting (290), and 25
+interviews or accounts given the authors ("told us": Rauh, McGovern, Hoeh, Gans, Moyers, Roy Harris, Whipple, Hill,
+Duffey, Dent, O'Donnell, Sanford, Stephen Smith, Kopelman; and the unnamed: a White House aide, a Tinker adman, someone
+who saw draft ten, a UAW official, one of Humphrey's top aides, one of Nixon's staff) and later accounts as reported
+(Edward Kennedy, White, Tower, Chandler). 125 `via` rows on 90 entries, and a "To check" item for each document,
+broadcast or newspaper (not for the interviews or the authors' observation, which nothing holds), in
+`inbox/2026-11-05-wit-chester.yaml`. Not tied, as the page names no source for the unit or the source bears on a
+matter the entry does not state: the polls in passing (79, 98, 117, 176, 289, 300, 304, 346, 544, 645, 739, 751),
+Lucey's account (117, 304), Christian's account of the Legion speech (634), Sears's that Nixon chose Agnew ten days
+before the convention (485: a variant to "I have brought no names to Miami", for cal.1968-08-08.elections-1968-miami-2,
+not entered), the doctor's on Kennedy's death (358), Reddin's (349).
+
 ## The citations it had
 
 Nineteen entries named the book behind "To check:". The card is also listed in Opp. II.E and 1968 II.A.
