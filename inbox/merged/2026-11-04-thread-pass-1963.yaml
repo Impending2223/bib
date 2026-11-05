@@ -1,0 +1,539 @@
+# The thread pass, 1963 (notes/proposals/thread-pass.md, "1963"): the owner's instruction of Nov. 4, 2026, "File the
+# 1963 Vietnam entries under the existing subthreads where appropriate." No new subthread. Not merged.
+patch: thread-pass-1963
+by: Claude (thread pass, 1963), for the owner to rule; not merged
+ops:
+- edit:
+    id: cal.1963-01.vietnam
+    base: '820d0fde'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-02-03.vietnam
+    base: '0cdae028'
+    set:
+      thread: vietnam-operations
+- edit:
+    id: cal.1963-02-04.vietnam
+    base: 'a53131e1'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-02-08.vietnam
+    base: '1240ee7c'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-02-12.vietnam
+    base: 'f8be892b'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-02-24.vietnam
+    base: 'a7250648'
+    set:
+      thread: vietnam-congress
+- edit:
+    id: cal.1963-02-26.vietnam
+    base: '4fb4a168'
+    set:
+      thread: vietnam-diplomacy
+- edit:
+    id: cal.1963-03-04.vietnam
+    base: '3731f62d'
+    set:
+      thread: vietnam-macv
+- edit:
+    id: cal.1963-03-08.vietnam
+    base: 'a1f2d3e0'
+    set:
+      thread: vietnam-congress
+    unset:
+    - also
+- edit:
+    id: cal.1963-03-09.vietnam
+    base: '2f8ddb13'
+    set:
+      thread: vietnam-force-levels
+    unset:
+    - also
+- edit:
+    id: cal.1963-04-04.vietnam
+    base: '8d9625ff'
+    set:
+      thread: vietnam-pacification
+- edit:
+    id: cal.1963-05-12.vietnam
+    base: '356efcbc'
+    set:
+      thread: vietnam-force-levels
+- edit:
+    id: cal.1963-05-17.vietnam
+    base: '0dc49174'
+    set:
+      thread: vietnam-pacification
+- edit:
+    id: cal.1963-06-08.vietnam
+    base: '2461fa74'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-06-11.vietnam
+    base: '2fd8c0f3'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-06-12.vietnam
+    base: '6335aae8'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-06-14.vietnam
+    base: '6cf77492'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-06-14.vietnam-2
+    base: 'f57b3ab6'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-06-16.vietnam
+    base: 'fb45b2ae'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-06-17.vietnam
+    base: '0fee9297'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-07-04.vietnam
+    base: '06af6ab9'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-07-07.vietnam
+    base: 'a412f300'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-07-08.vietnam
+    base: 'aabd0d8d'
+    set:
+      thread: vietnam-macv
+- edit:
+    id: cal.1963-07-10.vietnam
+    base: 'd00dc447'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-07-11.vietnam
+    base: 'ded56d76'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-08-06.vietnam
+    base: '2fbc649c'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-08-16.vietnam
+    base: '609c5056'
+    set:
+      thread: vietnam-operations
+- edit:
+    id: cal.1963-08-19.vietnam
+    base: '99298037'
+    set:
+      thread: vietnam-congress
+    unset:
+    - also
+- edit:
+    id: cal.1963-08-21.vietnam
+    base: '9384a14d'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-08-24.vietnam-2
+    base: '2a064773'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-08-25.vietnam-2
+    base: '3399c2c1'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-08-25.vietnam-3
+    base: 'fc8b61c1'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-08-28.vietnam
+    base: 'ef7329b5'
+    set:
+      thread: vietnam-saigon
+    unset:
+    - also
+- edit:
+    id: cal.1963-08-29.vietnam
+    base: '36c514a5'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-08-29.vietnam-2
+    base: '1255e71c'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-08-29.vietnam-3
+    base: 'd0ef04b9'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-08-29.vietnam-4
+    base: 'b20ee2b6'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-08-31.vietnam
+    base: '562993a8'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-08-31.vietnam-3
+    base: 'bc381640'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-02.vietnam-2
+    base: '4238c434'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-06.vietnam
+    base: '84b0c272'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-11.vietnam
+    base: '0819264c'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-11.vietnam-2
+    base: '70a4a50d'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-11.vietnam-3
+    base: 'ececd946'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-11.vietnam-4
+    base: '2fa7dd5d'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-11.vietnam-5
+    base: '58a4f145'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-12.vietnam
+    base: 'e5d99693'
+    set:
+      thread: vietnam-congress
+- edit:
+    id: cal.1963-09-12.vietnam-2
+    base: '513d9c8e'
+    set:
+      thread: vietnam-congress
+      also: [testing, goldwater]
+- edit:
+    id: cal.1963-09-13.vietnam
+    base: '40d860dc'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-13.vietnam-2
+    base: '8939c705'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-16.vietnam
+    base: '7d943e09'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-17.vietnam
+    base: 'f9e2f6ed'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-18.vietnam
+    base: '2f91adfd'
+    set:
+      thread: vietnam-diplomacy
+- edit:
+    id: cal.1963-09-18.vietnam-4
+    base: '93e55af1'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-19.vietnam
+    base: '1c3eeade'
+    set:
+      thread: vietnam-force-levels
+    unset:
+    - also
+- edit:
+    id: cal.1963-09-23.vietnam
+    base: '6a50afed'
+    set:
+      thread: vietnam-force-levels
+      also: [press-and-broadcasting]
+- edit:
+    id: cal.1963-09-24.vietnam
+    base: '34b447e9'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-26.vietnam
+    base: '19383c35'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-29.vietnam
+    base: 'ae8ce498'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-29.vietnam-2
+    base: '71b1c57d'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09.vietnam
+    base: '2225167d'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-09-30.vietnam
+    base: 'd61a3e35'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-10-02.vietnam
+    base: 'b5b90e76'
+    set:
+      thread: vietnam-force-levels
+    unset:
+    - also
+- edit:
+    id: cal.1963-10-05.vietnam
+    base: '78267850'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-10-05.vietnam-2
+    base: '0073156e'
+    set:
+      thread: vietnam-force-levels
+    unset:
+    - also
+- edit:
+    id: cal.1963-10-05.vietnam-3
+    base: 'c60c5355'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-10-05.vietnam-4
+    base: 'e3e50ea2'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-10-08.vietnam
+    base: '05c907a2'
+    set:
+      thread: vietnam-force-levels
+    unset:
+    - also
+- edit:
+    id: cal.1963-10-09.vietnam
+    base: '11b03fce'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-10-11.vietnam
+    base: '7cb619c0'
+    set:
+      thread: vietnam-force-levels
+    unset:
+    - also
+- edit:
+    id: cal.1963-10-16.vietnam
+    base: 'f570231d'
+    set:
+      thread: vietnam-macv
+- edit:
+    id: cal.1963-10-23.vietnam
+    base: '00ab5094'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-10-24.vietnam
+    base: '7900d493'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-10-25.vietnam
+    base: 'aecfeee9'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-10-25.vietnam-2
+    base: '2f79767e'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-10-25.vietnam-4
+    base: '31ddf66e'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-10-25.vietnam-3
+    base: '33ba44e9'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-10-27.vietnam
+    base: '36efa0ef'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-10-28.vietnam
+    base: '09b275aa'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-10-29.vietnam-3
+    base: 'e6bf2fb4'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-10-29.vietnam
+    base: 'f8b70bc5'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-10-30.vietnam
+    base: 'f76acb5a'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-10-30.vietnam-2
+    base: 'dba4d392'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-11-01.vietnam-3
+    base: 'dd6a2e2f'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-11-01.vietnam-2
+    base: '3dd33f49'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-11-02.vietnam
+    base: '91be6aa4'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-11-02.vietnam-2
+    base: 'a6675500'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-11-02.vietnam-3
+    base: '63cc318c'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-11-04.vietnam-3
+    base: 'da1bd2b9'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-11-04.vietnam-2
+    base: '190d61e7'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-11-06.vietnam
+    base: '813797d9'
+    set:
+      thread: vietnam-saigon
+- edit:
+    id: cal.1963-11-07.vietnam
+    base: '2bdbc88d'
+    set:
+      thread: vietnam-diplomacy
+- edit:
+    id: cal.1963-11-13.vietnam-2
+    base: '2dde7f5f'
+    set:
+      thread: vietnam-diplomacy
+- edit:
+    id: cal.1963-11-14.vietnam-2
+    base: 'b34770c5'
+    set:
+      thread: vietnam-diplomacy
+- edit:
+    id: cal.1963-11.vietnam
+    base: '137cc22b'
+    set:
+      thread: vietnam-congress
+- edit:
+    id: cal.1963-12-02.vietnam
+    base: '98c2b51b'
+    set:
+      thread: vietnam-congress
+    unset:
+    - also
+- edit:
+    id: cal.1963-12-07.vietnam
+    base: 'faa808d2'
+    set:
+      thread: vietnam-congress
+- edit:
+    id: cal.1963-12-10.vietnam
+    base: 'eec57d1a'
+    set:
+      thread: vietnam-diplomacy
+- edit:
+    id: cal.1963-12-16.vietnam
+    base: 'f31eda04'
+    set:
+      thread: vietnam-diplomacy
+- edit:
+    id: cal.1963-12-20.vietnam
+    base: 'c4eb4157'
+    set:
+      thread: vietnam-34a
+- edit:
+    id: cal.1963-12-23.vietnam
+    base: '8b5db73d'
+    set:
+      thread: vietnam-congress
+    unset:
+    - also
+- edit:
+    id: cal.1963-12.vietnam
+    base: '1bdde270'
+    set:
+      thread: vietnam-hanoi

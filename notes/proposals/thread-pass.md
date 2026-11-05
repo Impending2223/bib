@@ -212,6 +212,48 @@ Left in the parent: 1968 68 (164).
 - **Robert Kennedy: Campaign for the nomination: Primaries** (`robert-kennedy-campaign-primaries`; new). The primaries before California, Indiana, Nebraska, Oregon and South Dakota, and the hunt for delegates in the States without them.
   Moved: 1968 23. Its own, after: 1968 23. Samples: `cal.1968-03-16.robert-kennedy-3`, `cal.1968-04-27.robert-kennedy`, `cal.1968-05-15.robert-kennedy`.
 
+## 1963
+
+The owner's instruction (Nov. 4, 2026): "File the 1963 Vietnam entries under the existing subthreads where
+appropriate." No new subthread. The patch: `inbox/2026-11-04-thread-pass-1963.yaml` (not merged; `./bib patch-check`
+0 errors, 0 warnings; `./bib merge --dry-run` 102 edited, no conflicts; merged in a scratch copy, `./bib check` 0
+errors, the [thread-size] warning gone). The same rules as above; an entry listed by `also:` in Vietnam: Congress
+and the President moves to it this year, the thread being well under the line in 1963.
+
+Left in the parent: 1963 55 (157). Kept there: the five events named by `short:` (Ấp Bắc, the Buddhist crisis,
+cable 243, the coup, NSAM 273); the assessments of the war (Hilsman and Forrestal, Wheeler, Krulak and Mendenhall,
+the estimates, INR, DIA, McCone's and McNamara's of December); the dispatch of the McNamara–Taylor mission; the
+embassy's staffing; the President's broadcast interviews and the press; Washington's own quarrel over cable 243.
+
+- **Vietnam: Saigon's governments** (`vietnam-saigon`; existing, ghost). The Diệm government and its fall as
+  Washington and the embassy met them: the contacts with the opposition, the Buddhist crisis after May 8, the
+  pressures on Diệm and Nhu, the generals' plotting and the cables on it, the coup's aftermath and the new government.
+  Moved: 1963 69. Its own, after: 1963 84. Samples: `cal.1963-01.vietnam`, `cal.1963-09-13.vietnam`, `cal.1963-11-06.vietnam`.
+- **Vietnam: Congress and the President** (`vietnam-congress`; existing). Mansfield's report and his memoranda,
+  Church's resolution, Morse with Kennedy, Valeo.
+  Moved: 1963 9. Its own, after: 1963 27. Samples: `cal.1963-02-24.vietnam`, `cal.1963-09-12.vietnam-2`, `cal.1963-12-23.vietnam`.
+- **Vietnam: Force levels** (`vietnam-force-levels`; existing). The withdrawal of the thousand: the statement of
+  Oct. 2, NSAM 263, CINCPAC's plan, the meetings on the McNamara–Taylor mission; Nhu's call for fewer Americans.
+  Moved: 1963 8. Its own, after: 1963 23. Samples: `cal.1963-03-09.vietnam`, `cal.1963-10-02.vietnam`, `cal.1963-10-11.vietnam`.
+- **Vietnam: Diplomacy** (`vietnam-diplomacy`; existing). Neutralization: Zinchuk, the Maneli affair, Reston's and the
+  Times's Geneva, Alphand, the French plan.
+  Moved: 1963 7. Its own, after: 1963 7. Samples: `cal.1963-02-26.vietnam`, `cal.1963-09-18.vietnam`, `cal.1963-12-16.vietnam`.
+- **Vietnam: MACV** (`vietnam-macv`; existing). The National Campaign Plan, Farm Gate made a squadron, the navy's zones.
+  Moved: 1963 3. Its own, after: 1963 3. Samples: `cal.1963-03-04.vietnam`, `cal.1963-07-08.vietnam`, `cal.1963-10-16.vietnam`.
+- **Vietnam: Operations** (`vietnam-operations`; existing). Two aircraft lost in action, Feb. 3 and Aug. 16.
+  Moved: 1963 2. Its own, after: 1963 6. Samples: `cal.1963-02-03.vietnam`, `cal.1963-08-16.vietnam`.
+- **Vietnam: Pacification** (`vietnam-pacification`; existing). The counterinsurgency fund for the strategic hamlets,
+  Nolting with Diệm and the agreement.
+  Moved: 1963 2. Its own, after: 1963 2. Samples: `cal.1963-04-04.vietnam`, `cal.1963-05-17.vietnam`.
+- **Vietnam: Covert operations** (`vietnam-34a`; existing). McNamara approves 34A's concept, Dec. 20.
+  Moved: 1963 1. Its own, after: 1963 1. Samples: `cal.1963-12-20.vietnam`.
+- **Vietnam: Hanoi** (`vietnam-hanoi`; existing). The Ninth Plenum.
+  Moved: 1963 1. Its own, after: 1963 1. Samples: `cal.1963-12.vietnam`.
+
+For the owner, 1963: `cal.1963-08-06.vietnam` (Hilsman's "Buddhist Problem") is listed by `also:` in Buddhist
+Uprising, 1966's subthread; it goes to Saigon's governments with the other entries of the 1963 crisis, the `also:`
+left as it stands. Drop the Saigon's governments ops to keep Washington's deliberations on the coup in the parent.
+
 ## For the owner
 
 - The names, the statements, and every move are proposals: rule a subthread out and its entries go back by
