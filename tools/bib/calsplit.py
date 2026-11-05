@@ -42,7 +42,10 @@ STYLE:
     it, and its last, none below, take one while lit, drawn inside the box; the same tap again clears it, a tap on another thread moves it. The
     links (⟨⟨ and ⟩⟩) go where they go and leave the highlight as it is. A rubric's thread name, a link to the thread's
     entry in the index, goes there and lights the thread too; it never clears it. It holds across the parts and
-    the reader for the session (sessionStorage), and is the reader's alone: nothing in the address.
+    the reader for the session (sessionStorage), and is the reader's alone: nothing in the address. While a thread is
+    lit, the left and right arrow keys go to its entry before and after the one at the top of the screen (the owner,
+    Nov. 5, 2026): that entry's ⟨⟨ or ⟩⟩ followed, so the thread's own order and across the parts; where no lit entry
+    is at the top, the nearest above or below it in the thread's order. Not with a modifier, nor in a field, a map or a chart.
  6. Each part's lede names the year before and the year after by their `called` words ("The calendar of 1960 precedes
     it; the calendar of 1962 follows; every year in the calendar's index"), each linked to its page's top, or its
     block's in the reader, and "the calendar's index" to the index (other_link).
@@ -597,6 +600,46 @@ SCRIPT = """<script>
     var el=ev.target.closest('li[data-thread],.tnl[data-t]'); if(!el) return;
     var t=el.dataset.thread||el.dataset.t; if(!/^[a-z0-9-]+$/.test(t)) return;
     now = (now===t) ? '' : t; set(now);
+  });
+  /* the arrow keys, while a thread is lit: the ⟨⟨ or ⟩⟩ of its entry at the top, else the lit entry next below or above
+     the top (STYLE 7) */
+  var cur=null, curY=-1;
+  function link(li,fwd){
+    var ln=li.querySelector('.tnl[data-t="'+now+'"]'), as=ln?ln.querySelectorAll('a.tnb'):[], i;
+    for(i=0;i<as.length;i++) if(as[i].textContent.trim()===(fwd?'⟩⟩':'⟨⟨')) return as[i];
+    return null;
+  }
+  function tid(a){ return a?decodeURIComponent((a.getAttribute('href')||'').split('#')[1]||''):''; }
+  function order(els){                   // the page's lit entries in the thread's order, by their ⟨⟨ ⟩⟩ (a month's undated last)
+    var by={}, out=[], seen={}, i, k, e;
+    for(i=0;i<els.length;i++) by[els[i][1].id]=els[i];
+    for(i=0;i<els.length;i++){
+      e=els[i]; if(seen[e[1].id]||by[tid(link(e[1],false))]) continue;      // a head: its ⟨⟨ not on the page
+      for(k=e;k&&!seen[k[1].id];k=by[tid(link(k[1],true))]){ seen[k[1].id]=1; out.push(k); }
+    }
+    for(i=0;i<els.length;i++) if(!seen[els[i][1].id]) out.push(els[i]);
+    return out;
+  }
+  document.addEventListener('keydown', function(ev){
+    if(!now||(ev.key!=='ArrowLeft'&&ev.key!=='ArrowRight')||ev.altKey||ev.ctrlKey||ev.metaKey||ev.shiftKey||ev.defaultPrevented) return;
+    var tg=ev.target; if(tg&&tg.closest&&tg.closest('input,textarea,select,[contenteditable],canvas,.maplibregl-map,.uplot')) return;
+    var top=parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop)||0, fwd=ev.key==='ArrowRight', els=[], i, r, at=null;
+    var all=document.querySelectorAll('li[data-threads~="'+now+'"]');
+    for(i=0;i<all.length;i++){ r=all[i].getBoundingClientRect(); if(r.height){ els.push([r.top,all[i]]); if(Math.abs(r.top-top)<3) at=all[i]; } }
+    if(!els.length) return;
+    if(cur&&cur.isConnected&&Math.abs(window.scrollY-curY)<3) at=cur;     // where the last key left it (the page's foot)
+    var a=at&&link(at,fwd), go=null, sq, j;
+    ev.preventDefault();
+    if(a){
+      var id=decodeURIComponent((a.getAttribute('href')||'').split('#')[1]||''); go=document.getElementById(id);
+      a.click();                         // the thread's own order, on this page or the next part
+    } else if(!(at&&at.querySelector('.tnl[data-t="'+now+'"]'))){   // none at the top: the nearest in the thread's order
+      sq=order(els);
+      if(fwd){ for(j=0;j<sq.length;j++) if(sq[j][0]>top+2){ go=sq[j][1]; break; } }
+      else { for(j=sq.length-1;j>=0;j--) if(sq[j][0]<top-2){ go=sq[j][1]; break; } }
+      if(go) go.scrollIntoView({block:'start'});
+    }
+    cur=go; setTimeout(function(){ curY=window.scrollY; },250);
   });
   /* a mark for each lit entry, fixed at the right in the thumb's column, at the thumb's place that brings the entry to
      the top: while a thread is lit; amber while the headings show, white once they go; a click on one goes to its entry
