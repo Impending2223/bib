@@ -32,7 +32,14 @@ STYLE
     to the page of FRASER's scan; for the second, OMB's tables, linked, and the edition.
  6. The debt-limit table: one row an act, in order: the day approved (linked to its calendar entry), the Statutes cite
     (linked to govinfo) with the bill under it, muted (four columns, to fit a phone without scrolling), the limits it set, each with its term, and the permanent limit after it. Limits in
-    whole $bn ("$308bn"), terms as dates in the series' form; a limit with no end date is permanent.
+    whole $bn ("$308bn"), terms as dates in the series' form; a limit with no end date is permanent. The note under
+    it cites section 21 by a Statutes pincite, "XX Stat. YYY, ZZZ (YYYY),", the act's first page, then the page where
+    the section is printed, the sentence going on after the comma (the owner's request, Nov. 4, 2026), linked to the
+    act's govinfo file at that page (`section21` in budgets/debt-limits.yaml, `s21_cite`). Section 21 is not in the act
+    of 1917 (40 Stat. 288); it was added in 1935 and rewritten since. As the Bluebook cites an amended provision in the
+    version in force at the time, through the session law that gave it that text ("as amended by", T8), the note cites
+    the act that last wrote the limit before the table opens: the Public Debt Act of 1959, 73 Stat. 156, 157 (1959),
+    which amended section 21's first sentence to read as it stood, but for the figure the acts of the table changed.
  7. The budget block's title ("Budget, fiscal 1964", contents STYLE 5) between 〈〈 and 〉〉, the fiscal years' blocks
     before and after, on whatever page, the entry's date on hover (indicators STYLE 18; the owner, Nov. 4, 2026).
 """
@@ -260,6 +267,18 @@ def limit_text(t):
     return f"${lim:g}bn, {date(frm)}–{date(to)}"
 
 
+def s21_cite():
+    """Section 21 as it stood over the table's span, by the act that last wrote it (STYLE 6): 'as amended by the Public
+    Debt Act of 1959, 73 Stat. 156, 157 (1959)', the cite linked to the act's page on govinfo."""
+    c = load("debt-limits.yaml").get("section21") or {}
+    if not c:
+        return ""
+    vol, page, pin = str(c["stat"]).split("|")
+    url = STAT.format(vol=vol, granule=c["granule"]) + (f'#page={c["pdf_page"]}' if c.get("pdf_page") else "")
+    return (f'as amended by the {esc(c["act"])}, <a href="{esc(url)}">{vol} Stat. {page}, {pin}</a> '
+            f'({esc(str(c["year"]))})')
+
+
 def debt_block():
     rows, perm = [], load("debt-limits.yaml").get("permanent")
     for a in acts():
@@ -276,8 +295,8 @@ def debt_block():
     return ('<div class="bg" id="bgdebt"><p class="bgh">The debt limit: the acts of 1960–69</p><div class="bgw"><table>'
             '<thead><tr><th>Approved</th><th>Statute, bill</th><th>Limit and term</th><th>Permanent</th></tr></thead>'
             f'<tbody>{"".join(rows)}</tbody></table></div>'
-            '<p class="bgn">The limit in section 21 of the Second Liberty Bond Act on the public debt outstanding; each '
-            'temporary limit lapsed at the end of its term to the permanent one.</p>'
+            f'<p class="bgn">The limit in section 21 of the Second Liberty Bond Act, {s21_cite()}, on the public debt '
+            'outstanding; each temporary limit lapsed at the end of its term to the permanent one.</p>'
             f'<p class="bgsrc">The limits: <a href="{esc(src.get("url", ""))}">{ital(src.get("title", ""))}</a>; each act '
             'read in the Statutes at Large.</p></div>')
 
@@ -368,6 +387,11 @@ def problems(series=None):
             s = sum(r[1] or 0 for r in t[part]["rows"])
             if abs(s - t[part]["total"]) > len(t[part]["rows"]):
                 out.append(("budgets/today.yaml", f"fiscal {fy} {part}: the lines add to {s}, the total is {t[part]['total']}"))
+    c = load("debt-limits.yaml").get("section21")
+    if not (isinstance(c, dict) and re.match(r"^\d+\|\d+\|\d+$", str(c.get("stat", "")))
+            and str(c.get("granule", "")).startswith("STATUTE-{0}-Pg{1}".format(*str(c.get("stat", "|")).split("|")))
+            and c.get("act") and re.match(r"^\d{4}$", str(c.get("year", "")))):
+        out.append(("budgets/debt-limits.yaml", "section21: the act, its cite 'vol|page|pin', its granule and year"))
     last, perm = "", load("debt-limits.yaml").get("permanent")
     for a in acts():
         where = f"budgets/debt-limits.yaml {a.get('date')}"

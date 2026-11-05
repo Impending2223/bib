@@ -481,7 +481,8 @@ def rate_row(sid, s, r, year, href=None, label=None, chart=False):
         tip = now.get("source", "") + (": " + exact(r["now"], now.get("unit")) if r.get("now") is not None else "")
     t = indchart.tint(sid, s, r, "first" if "first" in r else "now") if chart else ("", "")
     btn = indchart.button(sid) if chart and indchart.chartable(sid, s) else ""
-    return f'<tr><td class="iname">{btn}{name}</td><td{_tattr(t)}><span title="{esc(tip)}">{val}</span></td></tr>'
+    nc = indchart.CELL if btn else "iname"
+    return f'<tr><td class="{nc}">{btn}{name}</td><td{_tattr(t)}><span title="{esc(tip)}">{val}</span></td></tr>'
 
 
 def cells(sid, s, r, year):
@@ -588,7 +589,7 @@ def block(data, sec_from, sec_to, prev_to, year, next_from=None, href=None, sec_
         btn = indchart.button(sid) if indchart.chartable(sid, s) else ""
         ta, tb = indchart.tint(sid, s, r, "first"), indchart.tint(sid, s, r, "now")
         rel_t = ta if rel != "—" else ("", "")          # Released shares its figure's tint (indchart STYLE 1)
-        trs.append(f'<tr><td class="iname">{btn}{name}</td><td{_tattr(ta)}>{first}</td><td{_tattr(rel_t, "rel")}>{rel}</td>'
+        trs.append(f'<tr><td class="{indchart.CELL if btn else "iname"}">{btn}{name}</td><td{_tattr(ta)}>{first}</td><td{_tattr(rel_t, "rel")}>{rel}</td>'
                    f'<td{_tattr(tb)}>{nowv}</td></tr>')
     out = ""
     if trs:
