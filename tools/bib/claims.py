@@ -304,7 +304,9 @@ def problems(series):
                 errors.append((e["id"], f"src row names a unit the entry lacks ({n_units} units): {r!r}"))
                 continue
             if item is None:
-                errors.append((e["id"], f"src row names nothing the note prints: {r!r}"))
+                errors.append((e["id"], f"src row names nothing the note prints: {r!r} (a row names "
+                                        "a card the note cites at that page, a link the note or c prints, or a record "
+                                        "the note names: add the item to the note, or mend or drop the row)"))
                 continue
             if kind == "via" and (key, str(pin), str(note)) not in reg:
                 errors.append((e["id"], f"src row names a record sources/witnesses/ does not hold at that note: {r!r}"))

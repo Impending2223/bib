@@ -28,6 +28,110 @@ def when_matches_date(when, date):
     return (m.group(2) is None) == (len(date) == 7) and (m.group(2) is None or int(m.group(2)) == int(date[8:10]))
 
 
+
+ABBR = {v: k for k, v in MONTHS.items()}
+
+
+def when_for_date(date):
+    """The `when` a date takes: its month as the series writes it, and its day where it has one ('Apr.', 'July 28')."""
+    if not re.match(r"^\d{4}-\d{2}(-\d{2})?$", date or "") or not 1 <= int(date[5:7]) <= 12:
+        return None
+    mo = ABBR[int(date[5:7])]
+    return mo if len(date) == 7 else f"{mo} {int(date[8:10])}"
+
+
+def thread_fix(lst, slug):
+    """For an unknown thread: the thread it is an alias of, said as the fix, or ''."""
+    for t, te in lst.threads().items():
+        if f"{lst.key}.thread.{slug}" in te.get("aliases", []):
+            return f": {lst.key}.thread.{slug} is an alias of {lst.key}.thread.{t}; write {t!r}"
+    return ""
+
+
+def ref_fix(r, idx):
+    """For a [[ref]] naming no entry: the id meant, where a doubled suffix ('-5-5') or a near spelling gives one."""
+    import difflib
+    m = re.match(r"^(.*?)((-\d+)\3+)$", r)
+    if m and m.group(1) + m.group(3) in idx:
+        return f" (a doubled suffix: [[{m.group(1) + m.group(3)}]]?)"
+    head = r.rsplit(".", 1)[0] + "."
+    near = difflib.get_close_matches(r, [k for k in idx if k.startswith(head)], n=1, cutoff=0.8)
+    return f" ([[{near[0]}]]?)" if near else ""
+
+
+def section_fix(lst, d):
+    """For an entry outside its section: the section its date belongs in."""
+    for s in lst.walk():
+        lo, hi = s.extra.get("from"), s.extra.get("to")
+        if lo and hi and lo[:len(d)] <= d <= hi[:len(d)]:
+            return f": its date belongs in section {s.id} (section: {s.id}, or no section and the merge places it by date)"
+    return ": no section holds that date"
+
+
+def entry_problems(series, lst, sec, e, idx=None, threads=None):
+    """(level, message, rule) for one entry, as `run` holds every entry; tools/bib/patchcheck.py holds the entries a
+    patch adds or edits to the same rules, by this function. The order of a section's dates is `run`'s alone."""
+    idx = series.index() if idx is None else idx
+    threads = lst.threads() if threads is None else threads
+    eid = e.get("id", "?")
+    out = []
+    if e.get("conflict"):
+        out.append((ERROR, "unresolved merge conflict (./bib conflicts)", "general"))
+    texts = [e.get("s"), e.get("r"), e.get("n")] + store.as_list(e.get("c")) + store.as_list(e.get("c2")) + store.as_list(e.get("c3"))
+    for t in texts:
+        for r in markup_refs(t or ""):
+            if r.startswith("w."):
+                if series.works.get(r) is None:
+                    out.append((ERROR, f"[[{r}]] points to no card in works/ (make the card first: works/, or ./bib works adopt)", "general"))
+            elif r not in idx:
+                out.append((ERROR, f"[[{r}]] points to no entry{ref_fix(r, idx)}", "general"))
+        if t and t.count("*") % 2:
+            out.append((WARN, "odd number of '*': an italic span is not closed", "italics"))
+    is_thread = lst.kind == "calendar" and eid.startswith(f"{lst.key}.thread.")
+    if not is_thread and not e.get("c") and not (e.get("s") and (e.get("r") or e.get("n"))):
+        out.append((ERROR, "needs a 'c' line (or, for a person, 's' with 'r' or 'n')", "general"))
+    if lst.kind != "calendar" or is_thread:
+        return out
+    for f in ("when", "date", "thread"):
+        if not e.get(f):
+            out.append((ERROR, f"calendar entry needs '{f}'", "general"))
+    if e.get("s"):
+        out.append((WARN, "calendar entries take no 's'; it is built from when + thread", "cal-s"))
+    if e.get("thread") and e["thread"] not in threads:
+        out.append((ERROR, f"unknown thread {e['thread']!r} (threads live in {lst.key}/{lst.data.get('threads_section')})"
+                           f"{thread_fix(lst, e['thread'])}", "general"))
+    for t in e.get("also", []):
+        if t not in threads:
+            out.append((ERROR, f"unknown thread {t!r} in 'also'{thread_fix(lst, t)}", "general"))
+    # to: the threads an address sets going (build.py, program_links), each resolving to a later entry
+    for item in e.get("to") or []:
+        slug, tid = (next(iter(item.items())) if isinstance(item, dict) else (item, None))
+        if slug not in threads:
+            out.append((ERROR, f"unknown thread {slug!r} in 'to'{thread_fix(lst, slug)}", "general"))
+        elif tid is not None:
+            hit = series.get(tid)
+            te = hit[2] if hit else None
+            if not te or slug not in [s for x in [te.get("thread")] + te.get("also", []) for s in lst.thread_line(x)]:
+                out.append((ERROR, f"to: {tid} is not an entry of thread {slug!r}", "general"))
+            elif str(te.get("date", "")) <= str(e.get("date", "")):
+                out.append((ERROR, f"to: {tid} is not after this entry", "general"))
+    if e.get("to") and not e.get("short"):
+        out.append((ERROR, "an entry with 'to' needs 'short', its name for the From line ('State of the Union')", "general"))
+    if e.get("when") and e.get("date") and not when_matches_date(e["when"], e["date"]):
+        want = when_for_date(str(e["date"]))
+        m = re.match(r"^(Jan\.|Feb\.|Mar\.|Apr\.|May|June|July|Aug\.|Sept\.|Oct\.|Nov\.|Dec\.)\s*(\d+)", e["when"])
+        first = (f"{str(e['date'])[:4]}-{MONTHS[m.group(1)]:02d}-{int(m.group(2)):02d}" if m else None)
+        out.append((ERROR, f"when {e['when']!r} and date {e['date']!r} disagree: when opens with date's month as the "
+                           "series writes it and, where date has a day, that day; a span's date is its first day"
+                           + (f": when {want!r} (or {want}–… for a span)" if want else ": date is YYYY-MM-DD or YYYY-MM")
+                           + (f", or date '{first}'" if first and first != str(e["date"]) else "")
+                           + "; a qualifier follows the month ('July, late') or goes in c ('Early', 'Late', 'By')", "general"))
+    lo, hi = sec.extra.get("from"), sec.extra.get("to")
+    d = str(e.get("date") or "")
+    if lo and hi and d and not (lo[:len(d)] <= d <= hi[:len(d)]):
+        out.append((ERROR, f"dated {d}, outside section {sec.id} ({lo} to {hi}){section_fix(lst, d)}", "general"))
+    return out
+
 def run(series, only=None):
     out = []
     tags = {e["id"]: set(e.get("tags", [])) for l in series.lists.values() for _, e in l.entries() if "id" in e}
@@ -69,52 +173,10 @@ def run(series, only=None):
         prev_date = {}
         for sec, e in lst.entries():
             eid = e.get("id", "?")
-            if e.get("conflict"):
-                add(ERROR, eid, "unresolved merge conflict (./bib conflicts)")
-            texts = [e.get("s"), e.get("r"), e.get("n")] + store.as_list(e.get("c")) + store.as_list(e.get("c2")) + store.as_list(e.get("c3"))
-            for t in texts:
-                for r in markup_refs(t or ""):
-                    if r.startswith("w."):
-                        if series.works.get(r) is None:
-                            add(ERROR, eid, f"[[{r}]] points to no card in works/")
-                    elif r not in idx:
-                        add(ERROR, eid, f"[[{r}]] points to no entry")
-                if t and t.count("*") % 2:
-                    add(WARN, eid, "odd number of '*': an italic span is not closed", "italics")
-            is_thread = lst.kind == "calendar" and eid.startswith(f"{lst.key}.thread.")
-            if not is_thread and not e.get("c") and not (e.get("s") and (e.get("r") or e.get("n"))):
-                add(ERROR, eid, "needs a 'c' line (or, for a person, 's' with 'r' or 'n')")
-            if lst.kind == "calendar" and not is_thread:
-                for f in ("when", "date", "thread"):
-                    if not e.get(f):
-                        add(ERROR, eid, f"calendar entry needs '{f}'")
-                if e.get("s"):
-                    add(WARN, eid, "calendar entries take no 's'; it is built from when + thread", "cal-s")
-                if e.get("thread") and e["thread"] not in threads:
-                    add(ERROR, eid, f"unknown thread {e['thread']!r} (threads live in {lst.key}/{lst.data.get('threads_section')})")
-                for t in e.get("also", []):
-                    if t not in threads:
-                        add(ERROR, eid, f"unknown thread {t!r} in 'also'")
-                # to: the threads an address sets going (build.py, program_links), each resolving to a later entry
-                for item in e.get("to") or []:
-                    slug, tid = (next(iter(item.items())) if isinstance(item, dict) else (item, None))
-                    if slug not in threads:
-                        add(ERROR, eid, f"unknown thread {slug!r} in 'to'")
-                    elif tid is not None:
-                        hit = series.get(tid)
-                        te = hit[2] if hit else None
-                        if not te or slug not in [s for x in [te.get("thread")] + te.get("also", []) for s in lst.thread_line(x)]:
-                            add(ERROR, eid, f"to: {tid} is not an entry of thread {slug!r}")
-                        elif str(te.get("date", "")) <= str(e.get("date", "")):
-                            add(ERROR, eid, f"to: {tid} is not after this entry")
-                if e.get("to") and not e.get("short"):
-                    add(ERROR, eid, "an entry with 'to' needs 'short', its name for the From line ('State of the Union')")
-                if e.get("when") and e.get("date") and not when_matches_date(e["when"], e["date"]):
-                    add(ERROR, eid, f"when {e['when']!r} and date {e['date']!r} disagree")
-                lo, hi = sec.extra.get("from"), sec.extra.get("to")
+            for lvl, msg, rule in entry_problems(series, lst, sec, e, idx, threads):
+                add(lvl, eid, msg, rule)
+            if lst.kind == "calendar" and not eid.startswith(f"{lst.key}.thread."):
                 d = e.get("date") or ""
-                if lo and hi and d and not (lo[:len(d)] <= d <= hi[:len(d)]):
-                    add(ERROR, eid, f"dated {d}, outside section {sec.id} ({lo} to {hi})")
                 if len(d) == 10:
                     p = prev_date.get(sec.id)
                     if p and d < p:

@@ -373,7 +373,7 @@ def cmd_patch_check(series, a):
     from . import patchcheck
     bad = False
     for path in a.patches:
-        text, err = patchcheck.report(store.Series(), path)
+        text, err = patchcheck.report(store.Series(), path, legacy=a.legacy)
         print(text)
         bad = bad or err
     return 1 if bad else 0
@@ -881,6 +881,7 @@ def main(argv=None):
     x.add_argument("--legacy", action="store_true", help="with --auto: a patch written before the ledger")
     x = sub.add_parser("patch-check", help="a patch held to the rules before it is handed in (tools/bib/patchcheck.py)")
     x.add_argument("patches", nargs="+")
+    x.add_argument("--legacy", action="store_true", help="a patch written before the ledger: an unclaimed add warns")
     x = sub.add_parser("ledger", help="the ledger of new entries: add DATE THREAD ID WORDS PATCH | find DATE | prune")
     x.add_argument("what", choices=["add", "find", "prune"])
     x.add_argument("args", nargs="*")
