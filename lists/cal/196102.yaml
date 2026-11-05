@@ -34,13 +34,14 @@ entries:
     thread: defense
     also: [transition-and-staff-nsc]
     c: 'The National Security Council''s first meeting under Kennedy, its 475th. He directs McNamara to examine means of placing more emphasis on counterguerrilla forces. McNamara: five Polaris submarines sooner, fifty more transports, the fiscal 1962 military budget reappraised by Mar. 1.'
-    n: 'Record of Actions, [FRUS 1961–63, VIII, doc. 8](https://history.state.gov/historicaldocuments/frus1961-63v08/d8) (Feb. 1, 1961). [[w.schlesinger-robert-kennedy-and-his]], 461 (the direction). To check: Special Group (Counterinsurgency), "Memorandum for the Record ... from January 18, 1962, to November 21, 1963," May 13, 1964, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 461 n.59). Names: Kennedy, McNamara.'
+    n: 'Record of Actions, [FRUS 1961–63, VIII, doc. 8](https://history.state.gov/historicaldocuments/frus1961-63v08/d8) (Feb. 1, 1961). [[w.schlesinger-robert-kennedy-and-his]], 461 (the direction); [[w.futrell-united-states-air-force]], 63 (Kennedy directs McNamara to expand the counterinsurgency forces). To check: Special Group (Counterinsurgency), "Memorandum for the Record ... from January 18, 1962, to November 21, 1963," May 13, 1964, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 461 n.59). Names: Kennedy, McNamara.'
     src:
       c: 48f0d2ba
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v08/d8: all'
         - 'w.schlesinger-robert-kennedy-and-his 461: A, B'
         - 'via w.schlesinger-robert-kennedy-and-his 461 n.59: B'
+        - 'w.futrell-united-states-air-force 63: ?'
     tags: [name:kennedy-john-f, name:mcnamara-robert-s]
   - id: cal.1961-02-01.vietnam
     when: Feb. 1
@@ -110,11 +111,12 @@ entries:
     thread: cuba
     also: [defense]
     c: 'Wheeler, Director of the Joint Staff, reports the military evaluation of Trinidad to Lemnitzer without Gray''s figure for "fair chance": "thirty in favor and seventy against." The Chiefs'' suggestion: an independent evaluation of the force''s combat effectiveness and of the logistics plans by a team of officers.'
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 177. See [[cal.1961-02-03.cuba]]. Names: Wheeler, Gray, Lemnitzer.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 177; [[w.poole-joint-chiefs-of-staff]], 109–10 (the working group of J-2 to J-5 and the services formed Feb. 1; Gray''s "thirty in favor and seventy against"). See [[cal.1961-02-03.cuba]]. Names: Wheeler, Gray, Lemnitzer.'
     src:
       c: 2460ed5d
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 177: all'
+        - 'w.poole-joint-chiefs-of-staff 109–10: ?'
     tags: [name:wheeler-earle, name:gray-david-w, name:lemnitzer-lyman-l]
   - id: cal.1961-02-01.economy
     when: Feb. 1
@@ -128,6 +130,17 @@ entries:
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 450: all'
     tags: [name:gilpatric-roswell-l, name:kennedy-john-f, name:eisenhower-dwight-d]
+  - id: cal.1961-02-01.laos
+    when: Feb. 1
+    date: '1961-02-01'
+    thread: laos
+    c: 'Gilpatric to Lemnitzer: a Military Assistance Advisory Group ruled out, for fear of the political repercussions; Felt''s request to fly supplies straight into Vientiane rejected.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 125. Names: Gilpatric, Lemnitzer, Felt.'
+    src:
+      c: 72149f5b
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 125: all'
+    tags: [name:gilpatric-roswell-l, name:lemnitzer-lyman-l, name:felt-harry-d]
   - id: cal.1961-02-02.program
     when: Feb. 2
     date: '1961-02-02'
@@ -917,6 +930,16 @@ entries:
         - 'w.smith-on-his-own-terms 357: all'
         - 'via x.1961-02-25.hinman-to-rockefeller: all'
     tags: [name:hinman-george-l, name:rockefeller-nelson, name:white-f-clifton]
+  - id: cal.1961-02-25.cuba
+    when: Feb. 25–26
+    date: '1961-02-25'
+    thread: cuba
+    c: Three Joint Staff officers visit two training areas in Guatemala and the air base in Nicaragua. Colonel John R. Wright, the ground force evaluator, favorably impressed by Brigade 2506.
+    n: '[[w.poole-joint-chiefs-of-staff]], 110.'
+    src:
+      c: 62c65aa4
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 110: all'
   - id: cal.1961-02-26.africa
     when: Feb. 26
     date: '1961-02-26'

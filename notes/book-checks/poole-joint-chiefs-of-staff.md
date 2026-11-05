@@ -110,5 +110,43 @@ What was read: chapters 10 and 11 (pp. 139–201, Berlin and the missile crisis)
 
 ## Leads (the military re-read)
 
-- National: chapters 1–9 and 12–20 of this volume not re-read.
+- National: chapters 1–7, 12–14 and 20 of this volume not re-read (the fourth run, below, read 8–9 and 15–19).
 - National: the witnesses of this run's four entries (the notes, pp. 313 ff.) to be registered.
+
+## The military re-read, fourth run (Nov. 5, 2026): chapters 8–9 and 15–19
+
+The brief `notes/briefs/military-reread.md` (R14; R8 for the papers of government; R50 as restated Nov. 5: an event the volume dates, however loosely, is an entry). Copy: DTIC_ADA551509 on archive.org, its hOCR search text split by leaf (`_hocr_searchtext.txt.gz` with `_hocr_pageindex.json.gz`), each leaf given its folio by archive.org's `_page_numbers.json`, an unnumbered chapter-opening leaf the folio before the next numbered one. The offset falls from 12 (leaf 14, p. 2) to 1 (leaf 367, p. 366) at the chapter openings, the blank versos not scanned; p. 1 is leaf 13. Checked by the folio printed at each leaf's foot. The page images of pp. 243 and 259 were OCR'd (tesseract) and their dates matched the text layer's (Jan. 2 and Feb. 25, 1963; Sept. 13, 18, Nov. 21, Dec. 5, 11, 1961); the other pages cited not checked against the image, a lead for the merger's spot check (R54).
+
+What was read: every sentence carrying a date in chapters 8 (pp. 107–20), 9 (121–38), 15 (225–36), 16 (237–50), 17 (251–62), 18 (265–78) and 19 (279–96), listed by script, and the sentences around each event entered, read whole; each event held against the calendar by its day and thread (`./bib find`, the ledger empty). Most of the Bay of Pigs and the Laos crisis of 1961–62 were in the calendar already; they take cites. The Congo airlifts, Yemen and Hard Surface, the Sino-Indian war's aid, Korea's force reductions, Venezuela's arms and the Indian Ocean force were largely missing.
+
+Patch `inbox/2026-11-05-mil4-poole-1961-64.yaml`: 97 new entries, 47 cites (144 ops). New: Cuba, the 5412 Committee's supply drops (Sept. 1960), Trinidad chosen (Dec. 1960), the CIA's briefing of Bonesteel and Gray (Jan. 11, 1961), Gray's answer (Jan. 19), the Joint Staff's visit to Guatemala and Nicaragua (Feb. 25–26), the five alternatives (Mar. 14), Lemnitzer's rules of engagement to Dennison (Mar. 24), the warships' search ended (Apr. 26), Kennedy with the Chiefs (May 27), the Study Group's draft (June); Laos, Aug. 19 and 23, Oct. 1960, Nov. 11, Dec. 16, 22 and 30, 1960; Jan. 14, 24, Feb. 1, Mar. 18, 28, 31, Apr. 5, 24, 25, May 4, 12, July 12, Aug. and Sept. 1961; Mar. 21, 1962; Latin America, the carriers and Marines after Trujillo (June 1, 1961), the Trujillos' attempt (Nov. 1961), Cottrell's objectives (Jan. 24, 1963), more forces for 312 and 316 (Apr. 1963), Johnson on the raids (Jan. 18, Mar. 4, 1964), Venezuela's arms (Nov. 3, 1963; Jan. 20, 1964); the Middle East, Yemen and Saudi Arabia (Sept. 17, Nov. 9, Dec. 30, 1962; Feb. 25, Apr. 19, May 3, July 5, Oct. 7, Dec. 21, 1963), the Shah's program (Sept. 19, 1962), Israel's Hawks and tanks (July 12, 1962; June and Aug. 1963; Feb. 1964); the Congo (Sept. 18, Dec. 5, 11, 1961; July 6–12, Sept. 14, Nov. 7, 29, Dec. 11, 22, 31, 1962); South Asia, the Sino-Indian war and its aid (Oct. 25, 29, 31, Nov. 3, 11, 16, 19, 22, Dec. 2, 3, 5, 10, 18, 1962; Mar. 9, 29, Apr. 1, 25, Nov. 1963), the Indian Ocean force (Nov. 1963; Mar. 19, 1964); China's nuclear plants (July and Dec. 1963); Korea (May 5, Aug. 2, 1961; Mar. 6, Apr. 20, June 1, 4, 1963; May 5, 1964); Japan (July 16, 1963); Indonesia (Jan. 7, Sept. 3, 8, 1964).
+
+The rows of the first pass's Passed over ruled "lead" that this run entered or cited: p. 118, May 27, 1961 (entered); p. 126, Mar. 18, 1961 (entered; Mar. 3 and 9 cited); p. 135, Apr. 19, 1962 (cited); p. 136, May 22–June 4, 1962 (cited on May 24 and June 2); p. 242, Sept. 17 and 26–27, 1962 (entered; cited); p. 242, Nov. 9 and Dec. 30, 1962, ruled minor (entered: R8, the Chiefs' papers).
+
+Witnesses: none registered in this run (the notes, pp. 309 ff., not matched to the passages): a lead.
+
+### Passed over (the fourth run)
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 108 | Mar. 17, Nov. 4, 1960; Jan. 3, 1961 | Eisenhower's approval; the mission changed; the force enlarged | already in (cal.1960-03-17.cuba, cal.1960-11-04.cuba; cal.1961-01-03.cuba), cited where the page bears them |
+| 114–16 | Apr. 15–21, 1961 | the strikes, the landing, the beachhead's fall, the Study Group | already in, cited in the first pass |
+| 120 | May 5, 1961 | the NSC on Castro's downfall | already in (cal.1961-05-05.cuba); not cited, the page gives only the aim |
+| 225–30 | Feb. 1961–June 1965 | the hemispheric security papers, NSAM 118, the civic action projects, the Panama conference of September 1962 | not entered in this run: dated by month, an entry each for the next run (R50) |
+| 234 | Feb. 17, 1964 | the scheme for interdicting arms to Venezuela | in the entry of Jan. 20, 1964, with a Check (who presented it) |
+| 237–41 | Feb. 1963–Jan. 1964 | Iraq's coups and requests; Israel's Hawks (May 1961, May 1962); Dimona's inspections (Apr. 1961, Jan. 1964) | not entered in this run: for the next (R50) |
+| 245–50 | Jan. 1961–Apr. 1964 | Iran's task force (May 15, 1961), Gilpatric on a limited war (Oct. 7, 1961), CENTO's meetings | not entered in this run: for the next (R50) |
+| 251–55 | Oct. 1960–Jan. 1965 | Africa's arms, the Azores, Angola, South Africa | not entered in this run: for the next (R50) |
+| 256–58 | June 30, 1960–Aug. 1, 1961 | the Congo's independence, Katanga, Lumumba, the UN resolutions | already in the Congo thread for the most part; not checked one by one |
+| 265–66 | July 15, 1961 | Ayub with Lemnitzer and William Bundy on his way to the Ranch | not entered in this run: for the next (R50) |
+| 274–77 | Dec. 1963–Aug. 5, 1964 | the Indian and Pakistani programs; Musa's letters; Wheeler to Musa (Aug. 1, 1964) | not entered in this run: for the next (R50) |
+| 279–83 | Dec. 1960–Oct. 22, 1963 | the Far East strategy papers, the Taiwan force objectives | not entered in this run: for the next (R50) |
+| 289–92 | Oct. 1961–Dec. 1964 | Japan's and the Ryukyus' papers (Dec. 7, 1962; the Marine air group, June 1964) | not entered in this run: for the next (R50) |
+| 293–95 | Oct. 1961–Aug. 17, 1964 | Indonesia and Malaysia: LeMay's concern, West Irian (Aug. 15, 1962), confrontation, CINCPAC's orders of Feb. 9, 1963 (their matter not read), Malaysia's founding (Sept. 16, 1963), Rahman's visit | not entered in this run: for the next (R50) |
+
+### Leads (the fourth run)
+
+National
+- Chapters 1–7 (strategy, the strategic and continental forces, conventional forces, disarmament, testing), 12–14 (NATO, military assistance) and 20 not re-read: their papers (the JCSMs, OSD's memoranda) are entries under R8; the next run.
+- The rows above marked "for the next": dated in the volume, entries to write.
+- The witnesses of the fourth run's entries (the notes, pp. 309–62).

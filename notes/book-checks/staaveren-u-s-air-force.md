@@ -42,7 +42,7 @@ Patch: `inbox/2026-11-04-mil-staaveren-sl.yaml` (patch `mil-staaveren-sl`): 11 o
 
 Witnesses: none registered this run; the endnotes (pp. 303–334) were not mapped.
 
-This pass did not reach every dated event of the volume: the Shining Brass and Prairie Fire team launches of 1966–68, Cricket's later work, the B-52 strikes on Mu Gia (Apr. 1966; Apr. 12 in the calendar), Tally Ho, Igloo White and Muscle Shoals (1967–68), the Turnpike and Commando Hunt programs. They stand as "not entered"; rows below for the chief of them.
+This pass did not reach every dated event of the volume: the Shining Brass and Prairie Fire team launches of 1966–68, Cricket's later work, the B-52 strikes on Mu Gia (Apr. 1966; Apr. 12 in the calendar), Tally Ho, Igloo White and Muscle Shoals (1967–68), the Turnpike and Commando Hunt programs. The third run (below) took them up.
 
 ### Passed over (the re-read)
 
@@ -61,7 +61,7 @@ This pass did not reach every dated event of the volume: the Shining Brass and P
 
 ## The military re-read, second run (Nov. 5, 2026)
 
-The same copy (`DTIC_ADA439950`), its hOCR search text split by leaf, each leaf given the folio it prints (leaf less 18). Read: the dated sentences of pp. 52–302 listed by script (506); those of pp. 56–140 (Steel Tiger's first year to the B-52 strikes of 1966) read in their passages and held against the calendar by day in Laos, Vietnam and its Air war. Pages 141–302 (the Shining Brass and Prairie Fire launches of 1966–68, Cricket's later work, Tally Ho's operations, Igloo White and Muscle Shoals, Turnpike, Commando Hunt) were not reached in this run: some 250 dated sentences, left for the next.
+The same copy (`DTIC_ADA439950`), its hOCR search text split by leaf, each leaf given the folio it prints (leaf less 18). Read: the dated sentences of pp. 52–302 listed by script (506); those of pp. 56–140 (Steel Tiger's first year to the B-52 strikes of 1966) read in their passages and held against the calendar by day in Laos, Vietnam and its Air war. Pages 141–302 were taken up by the third run (below).
 
 Patch `inbox/2026-11-05-mil2-staaveren-sl.yaml` (patch `mil2-staaveren-sl`): 45 ops, 40 new entries in Laos (and the Air war) claimed in the ledger: Steel Tiger's planning and first missions (Mar. 23, Apr. 1, 5, 8, 12, May 1, 3, 1965), Red Haze, the short rounds and halts of May 11 and 22, Sept. 29–30, Oct. 1 and Nov. 20–21, 1965, and Feb. 5, 1966, and their easing (June 7, Oct. 6, Nov. 3, 1965; Feb. 25, 1966); the buffer zone deleted (July 19); the passes struck (July 16–17); SEACOORD (July 23–24); the strikes planned Sept. 12 and Shining Brass approved in principle (Sept. 20); the RF-4Cs (Oct. 30); the second Shining Brass team (Nov. 2); the O-1Es (Nov. 20); the Christmas resumption; Bond; the Steel Tiger area narrowed (Jan. 14, 1966); the O-1 detachment at Nakhon Phanom; the sorties after the pause; teams Maine, Idaho and Dakota; Attopeu (Mar. 3); B-52 approval to PACOM and SAC (Mar. 15); Route 110 (May 26); the 23d TASS (June 1); Tally Ho (July 20); Mụ Giạ again (Dec. 12, 1966). Cites: cal.1965-05-09.laos (65, the Bango debut); cal.1965-12.laos-2 (101; a pending entry of `mil2-schlight`, with a Check giving Dec. 6); cal.1966-05-18.laos (123, with a Check: Van Staaveren dates Sullivan's assent May 24).
 
@@ -94,5 +94,46 @@ Witnesses: none in this run; the endnotes (pp. 303–334) not mapped (a lead).
 |---|---|---|---|---|
 | 1965-12-13 | *New York Daily News* | — | American air operations over Laos up fifty percent; defoliants on the trail | 101 |
 | 1965-12-20 | *Washington Post* | — | the first B-52 strike in Laos disclosed | 101 |
-- Pages 141–302 of the volume not reached in the second run (about 250 dated sentences): the next run.
-- The volume's endnotes (pp. 303–334) for the 49 entries of the two runs: unmapped.
+- (Pages 141–302: read by the third run, below.)
+- The volume's endnotes (pp. 303–334) for the 49 entries of the first two runs: unmapped (the third run mapped its own).
+
+## The military re-read, third run (Nov. 5, 2026)
+
+The same copy (`DTIC_ADA439950`), its hOCR search text split by leaf, each leaf given the folio it prints (leaf less 18; checked on pp. 101, 141, 250; pp. 120 and 248 read off the page images, archive.org's `page/n138` and `n266`). Read: the dated sentences of pp. 141–302 listed by script (201), each held against the calendar's entries of its day, tree and ledger, every thread; the passage of each event read and entered or cited; and the rows of pp. 69–138 the second run left "not entered (the next run)". The endnotes (pp. 303–334) read by their OCR, matched to the passages by the date each passage gives.
+
+Patch `inbox/2026-11-05-mil3-staaveren-sl.yaml` (patch `mil3-staaveren-sl`): 115 ops; 100 new entries claimed in the ledger (Laos, the barrier and the Air war): Shining Brass's fate in May 1965; the truck counts of May 24, 1965 and the roadwatch count of Aug. 19; the attrition estimate of Dec. 23, 1965; the short rounds (Dec. 31, 1965; January 1966; Sept. 29, Nov. 2, Nov. 25, 1966; Feb. 13, Mar. 21, Mar. 23, 1967) and the rules after them (Mar. 2, Mar. 18, Apr. 5, Apr. 25, 1967); Tiger Hound's losses (Jan. 5, 14, 1966), team Ohio, the convoy of June 16 and the 1,000th truck; McConnell's testimony of May 9, 1966; Tally Ho's days (July 25–26, Aug. 3, Aug. 28); the Shining Brass and Spike teams of July–November 1966, the renamings, Slam I and II (Oct. 7, 13); the A-26Ks (June 21, July 1), Cricket West (July 24, Sept. 27), the MSQ-77 (June 3, July 6), the RC-47 relay, the targeting meetings, the Barrel Roll diversion of Oct. 25; the helicopters in Thailand (June 16, Aug. 8); Arc Light in Laos and the DMZ (Aug. 2, Sept. 13, Sept. 26, Oct. 13, November 1966); Popeye (Aug. 10, Sept. 13, 17, 23, Oct. 27, Dec. 5, December 1966); Aderholt and the Zorros; the Udorn meeting of Jan. 14, 1967; the night strikes of Mar. 4 and 10; the Steel Tiger Task Force; the defector of Apr. 21; Shock I; Commando Lava (May 17, Oct. 21); the B-52s at U Tapao (Mar. 22, July 9, Sept. 1, September, Dec. 5, Dec. 30, 1967); the barrier and Igloo White (Apr. 26, June 13, Sept. 19, Sept. 26, Nov. 21, Dec. 22, 1966; Jan. 7, June 14, July 6, July 14, Sept. 8, Oct. 18, Nov. 1, 15, 25, Dec. 1, Dec. 27, 1967; Jan. 13, 17, 20, 25, Feb. 1, 1968); Saravane and Muong Phalane (Dec. 6, Dec. 31, 1967). Cites with parentheticals to 14 entries in the calendar (Tally Ho, Thao Ma's coup, Slam III, Shock II and III, McNamara's testimony of Aug. 25, 1967, the Thai B-52s of Mar. 2 and Nov. 13, 1967, the barrier's decisions of Nov. 14, 1966, Jan. 13, Jan. 26, Mar. 11, Apr. 22, 1967, Muong Phalane); a Check on `cal.1967-04-10.vietnam-air-war` (the volume prints Apr. 30 for the first B-52s at Sattahip). Each long passage was split into its event-days.
+
+Witnesses: `inbox/witnesses/mil3-staaveren-sl.yaml`, 84 rows (the messages, memoranda, command histories, CHECO studies and interviews the notes give), none held (`open: not held`); 84 edges appended to `sources/witnesses/by-work/staaveren-u-s-air-force.yaml`; each joins its entry's "To check:" with its note, its map by a `via` row marked `?`. 60 of the 100 new entries carry them; the rest are month-dated entries or passages whose note call the date matching did not reach. The OCR of the notes runs some messages together ("Msgs, A, date, B, date"): such a note's item is one row, as printed.
+
+### Passed over (the third run)
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 141 | Mar. 30, June 30, 1966 | McNamara's monthly B-52 sortie limits for South Vietnam and Laos (400, 450, 600) | not entered (the decision's day not given) |
+| 143 | July 23, 1964 | Washington's napalm instruction for Laos | not entered (check the calendar) |
+| 152 | July 1966, end | an intelligence report: Hanoi believes its transport can withstand more bombing | not entered |
+| 155 | Dec. 18, 1965 | Game Warden inaugurated | not entered here (a note; check the calendar) |
+| 167 | Sept. 2–5, 1966 | a second platoon near an area the B-52s had saturated | not entered |
+| 174, 209 | Mar. 8, 1966 | the 606th Air Commando Squadron set up at Nakhon Phanom | not entered |
+| 174 | July 29–Aug. 12, 1966 | forty-six A-26K sorties canceled for weather | minor (a count) |
+| 181 | Jan. 19, 1967 | McConnell to McNamara: keep the UH-1Fs at Nakhon Phanom | not entered |
+| 183 | July 25, 1966 | Souvanna expected back in Vientiane | minor |
+| 188 | Oct. 1, 1966 | a roadwatch team to be reinserted | minor |
+| 197 | Jan. 1967 | Momyer: the propeller aircraft obsolescent | not entered (the day not given) |
+| 201–02 | Feb. 8–13, 1967 | the Tet truce's "free ride" | in the calendar (`cal.1967-02-13.vietnam-air-war`), not cited |
+| 202–04 | Feb. 22, Feb. 24, Mar. 14, Apr. 5, 1967 | Westmoreland's complaint of the rules; McNamara on a "midpoint strike"; the test's extension asked; "skimpy" data | not entered |
+| 206 | Jan. 7–mid-Mar. 1967; May 13, 1967 | the roadwatch teams' 130 trucks on Route 110; USARPAC's estimate | minor (counts) |
+| 215 | Nov. 15, 1967 | the Steel Tiger Task Force's functions merged into Task Force Alpha | not entered |
+| 217–18 | Jan. 14, 29, 1967 | two more short rounds investigated | not entered (the page does not describe them) |
+| 219 | July 13, 1967 | two unexploded bombs found | minor |
+| 228 | July 5, 1972 | the weather-making phase in Laos ends | out of the brief (after the span) |
+| 230 | Mar. 1967 | the proposal of an ARVN battalion for the sensor system | not entered |
+| 241 | June 30, 1967 | 89 Skyraiders in the Air Force | minor (a count) |
+| 244 | Dec. 26, 1967 | the FAR commander of Military Region IV fears a thrust near Attopeu | not entered |
+| 247 | Aug. 25, 1967 | McNamara's attrition figure | cited (`cal.1967-08-25.vietnam-air-war`) |
+| 251 | Feb. 1, June 1, 1968 | the SAC-PACOM plan's dates for the 1,200-sortie rate | not entered (dates of a plan) |
+| 256–57 | Feb. 1, Apr. 18, 1966 | McNamara asks a general about a barrier; Westmoreland for ground forces in Laos | not entered (check the calendar) |
+| 267 | Nov. 1966 | the Air Staff begins designing the command and control facility | not entered |
+| 287 | 1967 | the DIA's 82,500 infiltrators for the year | minor (a count) |
+| 290 | Jan. 9, 18, 1968 | Momyer expects a general offensive; Niagara I | not entered (Niagara: check the calendar) |
+| 299–300 | 1964–68 | the appendices: ordnance and aircraft losses in Laos | not events (tables) |

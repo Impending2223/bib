@@ -111,3 +111,42 @@ National:
 Foreign:
 - The palace bombing of Feb. 26, 1962 (129) and Khánh's coup of Jan. 30, 1964 (198): check the calendar for entries; Futrell treats both.
 - Futrell's endnotes for the 30 new entries: unmapped (above).
+
+## The military re-read, third run (Nov. 5, 2026)
+
+The same copy (govinfo, GOVPUB-D301-PURL-gpo113231; printed page = PDF page less 16, checked on pp. 120, 200), its text layer read by page, the words it drops noted in the entries' Checks. Method: every sentence of pp. 50–275 carrying a date listed by script (272), and each row the re-read left "not entered" or ruled a lead (and each class B row of `notes/leads-canvass.md` for this volume) held against the calendar's entries of its day, every thread, tree and ledger; the passage read and entered or cited.
+
+Patch `inbox/2026-11-05-mil3-futrell.yaml` (patch `mil3-futrell`): 51 ops; 39 new entries claimed in the ledger: the Chiefs' objectives of May 19, 1961; Zuckert's Jungle Jim recommendation (Sept. 19, 1961); the tactical air control airlift (Jan. 2–14, 1962); the prisoner rescue (Jan. 5, 1962); the strikes of Mar. 1, 2 and 4, 1962, and Nolting's meeting of Mar. 3; the fire brigade (June 5) and the C-123s (June 15, 1962); the AD-5Qs (July 21, 1962); Cambodia's appeal and Sihanouk's charges (Aug. 20, Sept. 10, 1962; Feb. 11, 1964); Farm Gate's losses (Aug. 28, 1962); the Đà Nẵng heliborne attack (Sept. 22); the Zone D campaign (Oct. 3, Nov. 20, 1962); Harkins's Mohawks; the OV-1 of Jan. 10, 1963; the Sóc Trăng fights of Oct. 19 and Nov. 7, 1963; Cambodia's break and U Thant's letter (August 1963); recognition of the new government (Nov. 8, 1963); Dec. 6, 1963; Ben Cau (Feb. 6, 1964); Hergert's and Shank's deaths; the T-28s to Laos and their retirement; Ranch Hand (Apr. 30, Oct. 30, 1964); the A-1Es lost Sept. 23 and McNamara's rule of Sept. 25; the 602d Squadron; the armed C-47; the target center of Dec. 20; the 516th's strike of Dec. 9 and Long Mỹ (Dec. 10, 1964); the 7th Airborne at Bình Giã (Jan. 2, 1965); Moore's A-1Es to Qui Nhơn (Feb. 13, 1965). Cites to 10 entries (the counterinsurgency directive of Feb. 1, 1961; the palace bombing, with a Check: Futrell dates it Feb. 26, 1962; the Honolulu conference of May 6, 1963; Johnson's study of Feb. 20, 1964; McNamara's address of Mar. 26, 1964; the O-1 of Mar. 19, 1964 and the border rules of Mar. 27, which turned out to be in the calendar; Taylor's crop authority; Bình Giã; Westmoreland's jets, Mar. 9, 1965); Checks on the palace bombing and on de Gaulle's offer (`cal.1963-08.vietnam-diplomacy`).
+
+Witnesses: none registered this run. govinfo's text layer drops the note calls, and the DTIC copy (whose OCR keeps them) was not fetched for this run; the endnotes (pp. 289–323) for the 39 new entries and the 30 of the first re-read stand for the next reader.
+
+### Passed over (the third run)
+
+The rows of "Passed over (the re-read)" above marked "not entered" or "lead" were taken up as listed; these remain, each with its ground.
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 53–55 | Feb. 1960; Sept. 1960; Aug.–Oct. 1960 | Diệm asks trailwatchers; the first AD-6s; the VNAF's sorties | not entered |
+| 56 | Sept. 10, 1960; Jan. 6, 1961 | the Lao Dong's call for a front; Khrushchev on wars of national liberation | not entered (check the calendar's Hanoi and Soviet threads) |
+| 68–69 | May 10, 11, 1961 | the Air Staff against early commitment; Felt with his commanders | not entered |
+| 71 | June 2, 21, 1961 | the expanded MAAG; the Chiefs for a larger force | not entered |
+| 72–73 | Sept. 18, 29, Oct. 2, Aug. 5, 1961 | Phuoc Thanh; Diệm's treaty request; his address; the CDTC's tests | not entered (check the calendar) |
+| 84–91 | Oct. 12–14, Nov. 3, 8, 11, 13, Dec. 5, 7, 26, 1961 | Zhou's warning; Hanoi's protest; the Taylor report and its reception | in the calendar (the Taylor mission's days), not checked line by line |
+| 96 | Nov. 1961, late | Farm Gate's armed reconnaissance of the railroad | not entered |
+| 98–101 | Feb. 20, Apr. 20, May 12, May 20, June 7, July 19, Dec. 1, 1962 | MACV's air arrangements; Anthis's posts; the detachments redesignated | not entered |
+| 106–07 | Dec. 30, 1961 | the radar sets at Clark | minor |
+| 112 | Dec. 6, 1961; Nov. 3, 7, 30, 1961 | Ranch Hand at Clark; the defoliation decisions | not entered (Nov. 30: check the calendar) |
+| 122 | Dec. 14, 1961–Feb. 11, 1962 | Farm Gate's seven leaflet and broadcast missions | not entered |
+| 133–34 | Aug., Oct., Dec. 1962 | four more B-26s; Felt with Anthis | not entered (days not given) |
+| 147–48 | Oct. 20, 1962 | an RB-26 out of action in a ground accident | minor |
+| 152–57 | Nov. 26, Dec. 29–Jan. 2, 1962–63 | Diệm's approval of the campaign plan (in the calendar); the 7th Division's operation set for Jan. 2 (Ấp Bắc, in the calendar) | in the calendar, not cited |
+| 161–65 | Jan. 7, 14, 1963 | the Chiefs' team; the State of the Union | in the calendar, not cited |
+| 167–68, 175–78 | 1963 | the units' arrivals and the divisions' operations by month | not entered (days not given) |
+| 171 | July 8, 1963 | Farm Gate made the 1st Air Commando Squadron | in the calendar (`cal.1963-07-08.vietnam`) |
+| 186–91 | June–Nov. 1963 | the Buddhist crisis and the coup | in the calendar, not cited |
+| 196–97 | Nov. 24, Dec. 3, 8, 14, 1963 | the actions in the delta and III Corps; Von Hake's flight | not entered |
+| 205–10 | May 12–13, 15, June 18, 1964 | McNamara in Saigon; the MAAG closed out; the directorate | in the calendar (most), not cited |
+| 212, 218–21 | Mar. 30, Apr. 21, 23, 29, May 18, 28, June 17, July 24, 1964 | the night raid planned; the Chiefs and Felt on the VNAF's growth; the rangers at Trung Lap; the air center's move | not entered |
+| 228–36 | June 25–Sept. 17, 1964 | the Tonkin Gulf and the deployments after it | in the calendar (and the Gradual Failure run's entries of Aug. 5–9) |
+| 254–57 | Nov. 1, Dec. 18, 1964; Barrel Roll's missions | the Chiefs' recommendations; Barrel Roll | in the calendar (Barrel Roll), the Chiefs' of Dec. 18 not checked |
+| 263 | Jan. 12–13, 1965 | PACAF on air assets; a briefing | not entered |

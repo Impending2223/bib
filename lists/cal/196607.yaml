@@ -164,13 +164,49 @@ entries:
       rows:
         - 'w.schlight-united-states-air-force 139: all'
     tags: [name:momyer-william-w]
+  - id: cal.1966-07-01.laos
+    when: July 1
+    date: '1966-07-01'
+    thread: laos
+    c: The A-26Ks at Nakhon Phanom begin a ninety-day night combat test against trucks.
+    n: '[[w.staaveren-u-s-air-force]], 170. To check: Msgs, COMUSMACV to CINCPAC, 051035Z Jul 66, USARPAC to CINCPAC, 180402Z Jul 66; Mission Briefing, 23d TASS, Oct 66 (cited by [[w.staaveren-u-s-air-force]], 170 n.57). See [[cal.1966-06-21.laos]].'
+    src:
+      c: 862fa89d
+      rows:
+        - 'w.staaveren-u-s-air-force 170: all'
+        - 'via x.1966-07-05.msgs-comusmacv-to-cincpac-051035z-jul-66: ?'
+        - 'via x.1966-10.mission-briefing-23d-tass-oct-66: ?'
+  - id: cal.1966-07-01.vietnam-air-war-3
+    when: July 1
+    date: '1966-07-01'
+    thread: vietnam-air-war
+    c: 'Westmoreland: the allies have begun to win the war. Kỳ: the bombing will end it in six months, the North asking a cease-fire.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 377. To check: *New York Times*, July 2, 3, 1966 (cited by [[w.gibbons-u-s-government-and]], IV, 377 n.74). Check: the days of each statement. See [[cal.1966-06-29.vietnam]]. Names: Westmoreland, Nguyễn Cao Kỳ.'
+    src:
+      c: 6079adce
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 377: all'
+        - 'w.gibbons-u-s-government-and IV, 377 n: all'
+        - 'via x.1966.new-york-times-july-2-3: all'
+    tags: [name:westmoreland-william, name:nguyen-cao-ky]
+  - id: cal.1966-07-01.vietnam-diplomacy
+    when: July 1
+    date: '1966-07-01'
+    thread: vietnam-diplomacy
+    c: 'Kissinger to Habib, the Mission''s political officer, a copy to Lodge: the "major use of my visit" to enable him "to speak with some authority" at home.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 384 n.99. Check: the letter''s file. Names: Kissinger, Habib, Lodge.'
+    src:
+      c: e583bfbc
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 384 n: all'
+    tags: [name:kissinger-henry-a, name:habib-philip-c, name:lodge-henry-cabot]
   - id: cal.1966-07-02.defense
     when: July 2
     date: '1966-07-02'
     thread: defense
     also: [vietnam]
     c: 'Executive order: a National Advisory Commission on Selective Service, twenty members, Burke Marshall chairman; McCone, Shoup, and Reedy among them. Classification, deferments, exemptions, the local boards, and "other systems of national service" to be studied; the report by about Jan. 1, 1967.'
-    n: '[Executive Order 11289—National Advisory Commission on Selective Service](https://www.presidency.ucsb.edu/documents/executive-order-11289-national-advisory-commission-selective-service) (July 2, 1966); Statement by the President Upon Establishing a Commission To Study the Draft and Other Systems of National Service, [1966 Pub. Papers 698](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=72) (July 2, 1966). [[w.drea-mcnamara-clifford-and-the-2011]], 272 (the commission created July 2). To check: [[w.flynn-draft-1940-1973]]; [[w.baskir-chance-and-circumstance]]. Names: Marshall, McCone, Reedy, Shoup.'
+    n: '[Executive Order 11289—National Advisory Commission on Selective Service](https://www.presidency.ucsb.edu/documents/executive-order-11289-national-advisory-commission-selective-service) (July 2, 1966); Statement by the President Upon Establishing a Commission To Study the Draft and Other Systems of National Service, [1966 Pub. Papers 698](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=72) (July 2, 1966). [[w.drea-mcnamara-clifford-and-the-2011]], 272 (the commission created July 2); [[w.drea-mcnamara-clifford-and-the-2011]], 272 (the commission created July 2; its report of February 1967). To check: [[w.flynn-draft-1940-1973]]; [[w.baskir-chance-and-circumstance]]. Names: Marshall, McCone, Reedy, Shoup.'
     src:
       c: 904e78c0
       rows:
@@ -178,6 +214,7 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=72: all'
         - 'w.drea-mcnamara-clifford-and-the-2011 272: A'
         - 'via w.drea-mcnamara-clifford-and-the-2011 272 n.38c: A'
+        - 'w.drea-mcnamara-clifford-and-the-2011 272: ?'
     tags: [name:johnson-lyndon-b, name:marshall-burke, name:mccone-john-a, name:shoup-david-m, name:reedy-george-e]
     short: the Marshall commission
   - id: cal.1966-07-02.states-and-cities-omaha
@@ -229,12 +266,14 @@ entries:
     date: '1966-07-02'
     thread: vietnam-force-levels
     c: 'McNamara issues Southeast Asia Deployment Program #3: 391,000 Americans in South Vietnam by the end of 1966; 82 maneuver battalions by June 1967, 431,000 men. Nine more battalions in the second half of 1966, three meant for the Dominican Republic and six of the new 9th Infantry Division, for 79 by the year''s end.'
-    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 316–17. See [[cal.1966-03-10.vietnam-force-levels]]. Names: McNamara.'
+    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 316–17; [[w.drea-mcnamara-clifford-and-the-2011]], 124 (the 431,000 by June 30, 1967). See [[cal.1966-03-10.vietnam-force-levels]]. Names: McNamara.'
     src:
       c: b6f7fc1d
       rows:
         - 'w.cosmas-joint-chiefs-of-staff-2012 316–17: all'
+        - 'w.drea-mcnamara-clifford-and-the-2011 124: B'
     tags: [name:mcnamara-robert-s]
+    aliases: [cal.1966-07-02.vietnam-force-levels-2]
   - id: cal.1966-07-03.opinion
     when: July 3
     date: '1966-07-03'
@@ -363,6 +402,16 @@ entries:
         - 'w.kotz-judgment-days 362: all'
         - 'via x.1966-07-05.johnson-and-young-telephone-3-48: all'
     tags: [name:johnson-lyndon-b, name:young-whitney-m-jr]
+  - id: cal.1966-07-05.vietnam-air-war
+    when: July 5
+    date: '1966-07-05'
+    thread: vietnam-air-war
+    c: 'The last day of Rolling Thunder 50: at least twenty-six SAMs fired at aircraft northwest of Hanoi, none hits. About 115 sites known, twenty to twenty-five firing battalions, against 99 sites and twelve to fifteen at the end of 1965.'
+    n: '[[w.staaveren-gradual-failure]], 268, 272. See [[cal.1966-04-24.vietnam-air-war]].'
+    src:
+      c: 1ae9d705
+      rows:
+        - 'w.staaveren-gradual-failure 268, 272: all'
   - id: cal.1966-07-06.vietnam
     when: July 6
     date: '1966-07-06'
@@ -414,6 +463,19 @@ entries:
       rows:
         - 'w.cosmas-joint-chiefs-of-staff-2012 469: all'
     tags: [name:mcnamara-robert-s]
+  - id: cal.1966-07-06.laos
+    when: July 6
+    date: '1966-07-06'
+    thread: laos
+    c: The first MSQ-77-directed strike in Laos, by Air Force aircraft; by Aug. 18, 350 ordnance-dropping Skyspot sorties in Cricket and other Steel Tiger areas.
+    n: '[[w.staaveren-u-s-air-force]], 178. To check: Maj Richard A. Durkee, Combat Skyspot (Project CHECO, Hickam AFB, Hawaii, 1967), p 6; msgs, AmEmb Vientiane to COMUSMACV, 3000530Z Jun 66, COMUSMACV to CINCPAC, 300131Z Jun 66, CINCPAC to CINCPACAF, 230008Z Aug 66; PACAF Commanders’ Conference Summary, Dec 66, pp 71-72 (cited by [[w.staaveren-u-s-air-force]], 178 n.82). See [[cal.1966-06-03.laos]].'
+    src:
+      c: 5520468f
+      rows:
+        - 'w.staaveren-u-s-air-force 178: all'
+        - 'via x.1966-06-30.msgs-amemb-vientiane-to-comusmacv-3000530z-jun: ?'
+        - 'via x.1966-12.pacaf-commanders-conference-summary-dec-66-pp: ?'
+        - 'via x.1967.maj-richard-a-durkee-combat-skyspot-project: ?'
   - id: cal.1966-07-07.vietnam-us
     when: July 7
     date: '1966-07-07'
@@ -463,12 +525,14 @@ entries:
     date: '1966-07-08'
     thread: vietnam
     c: 'Honolulu. McNamara with CINCPAC''s officers on the goals of February: attrition as fast as the enemy puts men in the field "unlikely to be achieved"; the denial of base areas possible only at the cost of other goals.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 353 n.1. See [[cal.1966-02-10.vietnam-force-levels]]. Names: McNamara.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 353 n.1; [[w.staaveren-gradual-failure]], 294, 297 (McNamara and his aides confer with Sharp and the commanders at Honolulu, July 8; no change in the bombing near China; "extreme sensitivity" to violations of its air space); [[w.drea-mcnamara-clifford-and-the-2011]], 76 (McNamara, Sharp and their staffs at Honolulu on future air operations). See [[cal.1966-02-10.vietnam-force-levels]]. Names: McNamara.'
     src:
       c: 23b44295
       rows:
         - 'w.gibbons-u-s-government-and IV, 353: all'
         - 'via w.gibbons-u-s-government-and IV, 353 n.1: all'
+        - 'w.staaveren-gradual-failure 294, 297: ?'
+        - 'w.drea-mcnamara-clifford-and-the-2011 76: A'
     tags: [name:mcnamara-robert-s]
   - id: cal.1966-07-09.mississippi-meredith
     when: July 8–10
@@ -485,6 +549,17 @@ entries:
         - 'via x.undated.mississippians-accused-ibid-p-8-a: all'
         - 'via x.1966-07-11.negroes-clubbed-in-grenada-miss-nyt: all'
     tags: [name:king-martin-luther-jr, name:williams-hosea]
+  - id: cal.1966-07-08.vietnam-force-levels
+    when: July 8
+    date: '1966-07-08'
+    thread: vietnam-force-levels
+    c: 'The Joint Chiefs answer Johnson''s call to speed the deployments: they have already hastened units to meet MACV''s request of February, 389,000 in the country by the year''s end; the war has stretched the services to the limit.'
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 126. See [[cal.1966-06-28.vietnam-force-levels]]. Names: Johnson.'
+    src:
+      c: 055659c8
+      rows:
+        - 'w.drea-mcnamara-clifford-and-the-2011 126: all'
+    tags: [name:johnson-lyndon-b]
   - id: cal.1966-07-09.japan-and-korea
     when: July 9
     date: '1966-07-09'
@@ -506,6 +581,19 @@ entries:
         - 'w.bernstein-guns-or-butter 562–63: all'
         - 'via w.bernstein-guns-or-butter 563 n.1f: A-B'
     tags: [name:goldman-eric-f, name:johnson-lyndon-b]
+  - id: cal.1966-07-09.vietnam-air-war
+    when: July 9
+    date: '1966-07-09'
+    thread: vietnam-air-war
+    c: 'Rolling Thunder 51, from the Chiefs the day after Honolulu: dispersed oil sites in the Hanoi-Haiphong sanctuary, with notice; armed reconnaissance of seven rail segments between Hanoi and China and Hanoi and Vinh; five bridges. Monthly armed reconnaissance sorties for the North and Laos from 8,100 to 10,100.'
+    n: '[[w.staaveren-gradual-failure]], 297. To check: Hist, CINCPAC, 1966, pp 500–01; Sum of Air Ops, SEA, 1966, Vol XXIV, pp 1-4 and 1-8 (cited by [[w.staaveren-gradual-failure]], 297 n.47). See [[cal.1966-07-08.vietnam]]. Names: McNamara.'
+    src:
+      c: 370b32b4
+      rows:
+        - 'w.staaveren-gradual-failure 297: all'
+        - 'via x.1966.hist-cincpac-1966-pp-500-01: ?'
+        - 'via x.1966.sum-of-air-ops-sea-1966-vol: ?'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1966-07-10.open-housing
     when: July 10–11
     date: '1966-07-10'
@@ -537,6 +625,17 @@ entries:
     c: 'Gallup, June 16–21: the convention''s choice between Romney and Nixon: Romney 45 percent, Nixon 43. Republicans: Nixon 55, Romney 40. Independents: Nixon 44, Romney 43. Democrats: Romney 50, Nixon 36. The best candidate of five: Republicans, Romney 38, Scranton 20, Reagan 17, Lindsay 6, Hatfield 5; independents, Romney 30, Scranton 19, Reagan 15, Lindsay 7, Hatfield 6.'
     n: '[[w.gallup-poll]], III, 2018. Names: Romney, Scranton, Nixon, Reagan, Lindsay, Hatfield.'
     tags: [name:romney-george-w, name:nixon-richard-m, name:scranton-william-w, name:reagan-ronald, name:lindsay-john-v, name:hatfield-mark-o]
+  - id: cal.1966-07-10.vietnam-air-war
+    when: July 10
+    date: '1966-07-10'
+    thread: vietnam-air-war
+    c: Wheeler urges Sharp to step up the oil attacks.
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 77. Names: Wheeler, Sharp.'
+    src:
+      c: 89a42f9d
+      rows:
+        - 'w.drea-mcnamara-clifford-and-the-2011 77: all'
+    tags: [name:wheeler-earle, name:sharp-u-s-grant]
   - id: cal.1966-07-11.crime-and-hijacking-nyc
     when: July 11
     date: '1966-07-11'
@@ -562,7 +661,7 @@ entries:
     date: '1966-07-11'
     thread: opinion
     c: 'Harris, in the *Washington Post*: Johnson''s handling of the war excellent or good 54 percent, fair or poor 46, after the heavier bombing of the North; in June 42 and 58. The strikes on the oil stores: approve 62 percent, oppose 11, no opinion 27.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 337, 378. To check: *Washington Post*, July 11, 1966 (the Harris Survey) (cited by [[w.gibbons-u-s-government-and]], IV, 337 n.77; IV, 378 n.79). Names: Harris, Johnson.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 337, 378. Check: Van Staaveren cites a Harris poll taken July 11: 62 percent for the oil bombings, 11 against, 27 undecided (293). To check: *Washington Post*, July 11, 1966 (the Harris Survey) (cited by [[w.gibbons-u-s-government-and]], IV, 337 n.77; IV, 378 n.79). Names: Harris, Johnson.'
     src:
       c: ee721417
       rows:
@@ -634,6 +733,16 @@ entries:
         - 'w.bernstein-guns-or-butter 570 n.3: all'
         - 'via x.1966-07-11.califano-to-ackley-legislative-background-social-security: all'
     tags: [name:califano-joseph-a-jr, name:ackley-gardner]
+  - id: cal.1966-07-11.laos
+    when: July 11–30
+    date: '1966-07-11'
+    thread: laos
+    c: Nine air-supported Shining Brass teams probe the trail, July 11–30, flown in and out by VNAF CH-34s, covered by Tiger Hound aircraft and Army UH-1Bs; twelve forays in August.
+    n: '[[w.staaveren-u-s-air-force]], 165. Check: the span; the page reads "July 1 1 and 30." See [[cal.1966-05-26.laos]].'
+    src:
+      c: 40223f78
+      rows:
+        - 'w.staaveren-u-s-air-force 165: all'
   - id: cal.1966-07-12.open-housing
     when: July 12–15
     date: '1966-07-12'
@@ -688,6 +797,30 @@ entries:
       rows:
         - 'w.westmoreland-soldier-reports 197: all'
     tags: [name:westmoreland-william, name:walt-lewis-w, place:da-nang]
+  - id: cal.1966-07-12.vietnam-struggle
+    when: July 12
+    date: '1966-07-12'
+    thread: vietnam-struggle
+    c: 'Thi, Đính, Huỳnh Văn Cao, Nhuận and Chuẩn before a special tribunal: sixty days'' confinement, retired; Đính dishonorably discharged.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 332. To check: Saigon to Washington, telegram 819, July 12, 1966, Pol 2 Viet S, State Department (cited by [[w.gibbons-u-s-government-and]], IV, 332 n.64). Check: the tribunal''s day; the cable''s. Names: Nguyễn Chánh Thi, Tôn Thất Đính, Huỳnh Văn Cao.'
+    src:
+      c: c34038cb
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 332: all'
+        - 'w.gibbons-u-s-government-and IV, 332 n: all'
+        - 'via x.1966-07-12.saigon-to-washington-telegram-819-july: all'
+    tags: [name:nguyen-chanh-thi, name:ton-that-dinh, name:huynh-van-cao]
+  - id: cal.1966-07-12.europe-and-the-alliance
+    when: July 12
+    date: '1966-07-12'
+    thread: europe-and-the-alliance
+    c: 'London 229: the embassy explains Wilson''s position on the oil strikes, and the dissidence in the Labour Party had he supported the decision or held his statement.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 371. To check: London to Washington, telegram 229, July 12, 1966, NSF Country File, United Kingdom, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 371). See [[cal.1966-07-04.europe-and-the-alliance]]. Names: Wilson.'
+    src:
+      c: 1b65e34d
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 371: all'
+    tags: [name:wilson-harold]
   - id: cal.1966-07-13.opinion
     when: July 13
     date: '1966-07-13'
@@ -873,6 +1006,17 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 397: all'
     tags: [name:king-martin-luther-jr, name:daley-richard-j, city:chicago]
+  - id: cal.1966-07-15.vietnam-force-levels
+    when: July 15
+    date: '1966-07-15'
+    thread: vietnam-force-levels
+    c: 'McNamara to Johnson, back from Hawaii: the Chiefs'' "strenuous efforts" praised, their warning of strain omitted; authority asked for 355,000 in South Vietnam by Oct. 1, 395,000 by the year''s end, as Westmoreland and Sharp asked in April.'
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 126. See [[cal.1966-07-08.vietnam-force-levels]]. Names: McNamara, Johnson, Westmoreland, Sharp.'
+    src:
+      c: 57fc6d8a
+      rows:
+        - 'w.drea-mcnamara-clifford-and-the-2011 126: all'
+    tags: [name:mcnamara-robert-s, name:johnson-lyndon-b, name:westmoreland-william, name:sharp-u-s-grant]
   - id: cal.1966-07-16.states-and-cities-los-angeles
     when: July 16
     date: '1966-07-16'
@@ -1153,11 +1297,12 @@ entries:
     thread: vietnam-air-war
     also: [laos]
     c: Tally Ho launched, against infiltration through the corner of North Vietnam above the DMZ.
-    n: '[[w.staaveren-u-s-air-force]], 119.'
+    n: '[[w.staaveren-u-s-air-force]], 119; [[w.staaveren-u-s-air-force]], 151–55, 158 (the infiltration''s shift toward the DMZ; Momyer''s staff briefs Westmoreland July 19; by Nov. 30: 72 trucks destroyed and 61 damaged, 1,208 structures and 624, 85 watercraft and 132, 22 gun positions and 92; 139 troops killed by air, 339 roads cut, 1,414 secondary explosions).'
     src:
       c: 6e8d8edf
       rows:
         - 'w.staaveren-u-s-air-force 119: all'
+        - 'w.staaveren-u-s-air-force 151–55, 158: ?'
   - id: cal.1966-07-21.vietnam
     when: July 21
     date: '1966-07-21'
@@ -1306,13 +1451,14 @@ entries:
     date: '1966-07-23'
     thread: vietnam-air-war
     c: 'The CIA, an appraisal of the bombing: the strikes on the Hanoi-Haiphong area "do not appear to have weakened the North Vietnamese leadership''s resolve to continue to prosecute the war."'
-    n: '[FRUS 1964–68, IV, doc. 186](https://history.state.gov/historicaldocuments/frus1964-68v04/d186). [[w.mann-grand-delusion]], 514.'
+    n: '[FRUS 1964–68, IV, doc. 186](https://history.state.gov/historicaldocuments/frus1964-68v04/d186). [[w.mann-grand-delusion]], 514; [[w.drea-mcnamara-clifford-and-the-2011]], 77 (two weeks of expanded strikes, Hanoi''s determination not weakened).'
     src:
       c: 6dffa22b
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d186: all'
         - 'w.mann-grand-delusion 514: all'
         - 'via w.mann-grand-delusion 514 n.47: all'
+        - 'w.drea-mcnamara-clifford-and-the-2011 77: A'
   - id: cal.1966-07-23.civil-disorders
     when: July 23
     date: '1966-07-23'
@@ -1356,6 +1502,27 @@ entries:
       c: 897cbbfb
       rows:
         - 'w.schlight-united-states-air-force 208: all'
+  - id: cal.1966-07-24.vietnam-air-war-2
+    when: July 24
+    date: '1966-07-24'
+    thread: vietnam-air-war
+    c: Sharp's directive launching the oil strangulation campaign. By the end of July the Air Force has hit sixteen dispersed sites holding some 55,000 metric tons, destroying some 42,600 near Hanoi, and a tank plant at Thai Nguyen; the Navy, sites of 114,800 tons.
+    n: '[[w.staaveren-gradual-failure]], 299–300. See [[cal.1966-06-29.vietnam]]. Names: Sharp.'
+    src:
+      c: 7f8ad39a
+      rows:
+        - 'w.staaveren-gradual-failure 299–300: all'
+    tags: [name:sharp-u-s-grant]
+  - id: cal.1966-07-24.laos
+    when: July 24
+    date: '1966-07-24'
+    thread: laos
+    c: The first major Cricket West operations, after gunners down a Laotian T-28 supporting a FAR unit at Thakhek; two Air Force O-1s answer its call.
+    n: '[[w.staaveren-u-s-air-force]], 173. See [[cal.1966-06-21.laos]].'
+    src:
+      c: 944e3a20
+      rows:
+        - 'w.staaveren-u-s-air-force 173: all'
   - id: cal.1966-07-25.vietnam
     when: July 25
     date: '1966-07-25'
@@ -1409,6 +1576,28 @@ entries:
         - 'w.sundquist-politics-and-policy 280: all'
         - 'via x.1966-07-25.smith-cong-record-vol-112-july: all'
     tags: [name:smith-howard-w]
+  - id: cal.1966-07-25.vietnam-air-war
+    when: July 25–26
+    date: '1966-07-25'
+    thread: laos
+    c: 'Tally Ho. Several targets hit July 24 and 25; July 25–26, Abersold and Smyth, flying near Dong Ha some four miles above the DMZ, call in a strike on what look like trucks: a stack of supplies 200 feet long, an ammunition dump; some fifty Air Force and Marine strikes that day from Đà Nẵng, Chu Lai, Cam Ranh Bay and Pleiku.'
+    n: '[[w.staaveren-u-s-air-force]], 156. See [[cal.1966-07-20.vietnam-air-war]].'
+    src:
+      c: 71062e04
+      rows:
+        - 'w.staaveren-u-s-air-force 156: all'
+  - id: cal.1966-07-25.vietnam-saigon
+    when: July 25
+    date: '1966-07-25'
+    thread: vietnam-saigon
+    also: [press-and-broadcasting]
+    c: 'Kỳ, interviewed in *U.S. News and World Report*: if the North persists in its "aggression," an invasion of North Vietnam may become necessary to win the war.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 396 n.34. To check: *U.S. News and World Report*, July 25, 1966. Names: Nguyễn Cao Kỳ.'
+    src:
+      c: '81822967'
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 396 n: all'
+    tags: [name:nguyen-cao-ky]
   - id: cal.1966-07-26.elections-1966
     when: July 26
     date: '1966-07-26'
@@ -1629,6 +1818,19 @@ entries:
         - 'via w.anthony-war-in-northern-laos 216 n.92a: all'
         - 'via w.anthony-war-in-northern-laos 216 n.92b: all'
         - 'via w.anthony-war-in-northern-laos 216 n.92c: all'
+  - id: cal.1966-07-29.vietnam-saigon
+    when: July 29
+    date: '1966-07-29'
+    thread: vietnam-saigon
+    c: 'Saigon''s airgram A-41: Kissinger''s conversations with eleven South Vietnamese political, governmental and religious leaders.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 384 n.100. To check: Saigon to Washington, airgram A-41, July 29, 1966, Central File, Pol 27 Viet S, State Department (cited by [[w.gibbons-u-s-government-and]], IV, 384 n.100). See [[cal.1966-07-01.vietnam-diplomacy]]. Names: Kissinger.'
+    src:
+      c: 24a8e00e
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 384 n: all'
+        - 'w.gibbons-u-s-government-and IV, 384 n: all'
+        - 'via x.1966-07-29.saigon-to-washington-airgram-a-41: all'
+    tags: [name:kissinger-henry-a]
   - id: cal.1966-07-30.vietnam
     when: July 30
     date: '1966-07-30'
@@ -1672,6 +1874,18 @@ entries:
         - 'w.shesol-mutual-contempt 343: all'
         - 'via x.1966-07-30.connell-to-watson-emerging-pattern-new-york: all'
     tags: [name:watson-w-marvin, name:rockefeller-nelson, name:kennedy-robert-f, state:ny]
+  - id: cal.1966-07-30.laos
+    when: July 30
+    date: '1966-07-30'
+    thread: laos
+    c: Team Montana, lifted out in haste after a firefight at thirty feet, leaves two Special Forces team leaders and three tribesmen missing. Team Texas, July 30–Aug. 1, brings out two women who tell of some 100 troops carrying supplies south from a nearby valley.
+    n: '[[w.staaveren-u-s-air-force]], 166–67. To check: msg, AmEmb Saigon to SECSTATE, 090230Z Oct 66; memo, Leonard Unger, Dep Asst SECSTATE for Far Eastern Affairs to Under SECSTATE, subj: Expansion of Shining Brass Operations in Laos, Dec 2, 1966 (cited by [[w.staaveren-u-s-air-force]], 167 n.49). See [[cal.1966-07-11.laos]].'
+    src:
+      c: 5653b80c
+      rows:
+        - 'w.staaveren-u-s-air-force 166–67: all'
+        - 'via x.1966-10-09.msg-amemb-saigon-to-secstate-090230z-oct: ?'
+        - 'via x.1966.memo-leonard-unger-dep-asst-secstate-for: ?'
   - id: cal.1966-07-31.jobs-and-wages-airlines
     when: July 31
     date: '1966-07-31'
@@ -1851,3 +2065,57 @@ entries:
         - 'w.woods-fulbright 431–32: all'
         - 'via x.1966-07-29.cia-chief-rebuked: all'
     tags: [name:helms-richard, name:fulbright-j-william]
+  - id: cal.1966-07.opinion
+    when: July
+    date: 1966-07
+    thread: opinion
+    c: 'Gallup on the oil strikes: approve 70 percent, disapprove 11, no opinion 19.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 378 (from *Vietnam War, A Compilation: 1964–1990*). Check: the poll''s field dates and release. See [[cal.1966-06-29.vietnam]].'
+    src:
+      c: cba40a78
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 378: all'
+  - id: cal.1966-07.foreign-aid
+    when: July
+    date: 1966-07
+    thread: foreign-aid
+    also: [vietnam-congress-foreign-relations]
+    c: 'S. Rep. No. 89-1359, Foreign Relations on the foreign aid bill: furnishing aid "does not constitute a back-door commitment of military forces to a potential series of brushfire wars."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 415. Check: the report''s day. Names: Fulbright.'
+    src:
+      c: d2ad58ee
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 415: all'
+    tags: [name:fulbright-j-william]
+  - id: cal.1966-07.vietnam-congress-foreign-relations
+    when: July, mid-month
+    date: 1966-07
+    thread: vietnam-congress-foreign-relations
+    c: 'Moyers''s dinner party: Fulbright and Rostow in a long talk on policy in Asia.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 415. Check: the day; Gibbons: "several days" before July 18; no records of it. Names: Moyers, Fulbright, Rostow.'
+    src:
+      c: 8b3acbff
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 415: all'
+    tags: [name:moyers-bill, name:fulbright-j-william, name:rostow-walt-w]
+  - id: cal.1966-07.vietnam-order-of-battle
+    when: July
+    date: 1966-07
+    thread: vietnam-order-of-battle
+    c: 'A National Intelligence Estimate: the Viet Cong and North Vietnamese to gain 50,000 men in 1966, to a force of about 125,000.'
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 125.'
+    src:
+      c: 6763adf9
+      rows:
+        - 'w.drea-mcnamara-clifford-and-the-2011 125: all'
+  - id: cal.1966-07.draft
+    when: July
+    date: 1966-07
+    thread: draft
+    c: 'McNamara and his aides briefed on the Marine Corps'' Special Training Branch: remedial training making low-aptitude inductees effective Marines, within the normal budget.'
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 268. Names: McNamara.'
+    src:
+      c: 3b4d1bfe
+      rows:
+        - 'w.drea-mcnamara-clifford-and-the-2011 268: all'
+    tags: [name:mcnamara-robert-s]
