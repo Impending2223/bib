@@ -1,0 +1,17 @@
+# The Garrow variant (notes/book-checks/branch-parting-the-waters.md, the run of Nov. 5, wit-branch-ptw): Branch's
+# note (405 n.1) dates the Mayflower meeting to spring 1961 against Garrow's early 1962 (The FBI and Martin Luther King,
+# 44, 240). Garrow's pages were registered (x.1981.garrow-fbi-and-martin-luther-p44-240, Branch's edge at 405 n.1e) and
+# tied to no unit: a variant on unit A (R41), never a via row (R35). Garrow not read: behind "To check:" as before, with
+# his pages; the note's Check already names the disagreement ("Garrow ... dates the meeting early 1962").
+patch: garrow-variant
+by: Claude
+ops:
+- edit:
+    id: cal.1961-04-21.robert-kennedy
+    base: c882380e
+    set:
+      variants:
+        - unit: A
+          witness: x.1981.garrow-fbi-and-martin-luther-p44-240
+          reads: the meeting dated early 1962
+          at: Branch, 405 n.1 (Garrow, 44, 240, not read)
