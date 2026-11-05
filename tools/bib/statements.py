@@ -26,9 +26,9 @@ STYLE (settled; keep it):
  3. The events: a calendar entry carrying `short:` (the event's name, on its first entry, until the event record of
     §5) whose primary `thread:` is the thread, or a ghost subthread of it (a subthread without a statement: its events
     have no statement of their own to stand in, so its parent's carries them, through any depth of ghosts). A subthread
-    with a statement names its own events, under its parent in the index, and the parent does not repeat them (the
-    index's dates count a subthread's entries as its parent's; the statements do not, or Vietnam's would name every
-    event of its twenty-odd subthreads). An entry the thread holds through `also:` is named there too, repeated (the
+    with a statement names its own events, under its parent in the index, and the parent does not repeat them (or
+    Vietnam's would name every event of its twenty-odd subthreads; the index's dates, too, give a parent its own
+    entries only since Nov. 4, 2026, calsplit.py STYLE 15, but a ghost's events stay in its parent's statement). An entry the thread holds through `also:` is named there too, repeated (the
     owner's ruling, Nov. 4, 2026: "Don't drop the parent thread events unless the child has a thread summary. Repeat
     them. Everything needs to be in plain Roman text somewhere"): a State of the Union listed in Vietnam by `also:` is
     named in the Program's statement and in Vietnam's; the only event a thread does not name is one filed under a

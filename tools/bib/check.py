@@ -13,6 +13,7 @@ from .markup import refs as markup_refs, plain, ITAL_RE
 from .refs import Refs
 
 ERROR, WARN = "error", "warn"
+THREAD_SIZE = 150     # [thread-size]: a thread's own entries in one part of the calendar, before a warning
 MONTHS = {"Jan.": 1, "Feb.": 2, "Mar.": 3, "Apr.": 4, "May": 5, "June": 6, "July": 7,
           "Aug.": 8, "Sept.": 9, "Oct.": 10, "Nov.": 11, "Dec.": 12}
 
@@ -149,6 +150,20 @@ def run(series, only=None):
             for t in threads:
                 if t not in members and not threads[t].get("see"):
                     add(WARN, f"{lst.key}.thread.{t}", "thread has no entries", "thread-empty")
+            # a thread with more than THREAD_SIZE entries of its own (`thread:` it, not its subthreads') in one part
+            # of the calendar (a `split:` part, a year's page): a prompt to split it, never a rule (volume.md, section 2)
+            from . import calsplit
+            if calsplit.cfg(lst):
+                own = {}
+                for sec, e in lst.entries():
+                    if e.get("thread") and e.get("date"):
+                        k = (e["thread"], calsplit.half_of_date(lst, e["date"]))
+                        own[k] = own.get(k, 0) + 1
+                for (t, half), n in sorted(own.items(), key=lambda x: (x[0][0], x[0][1] or 0)):
+                    if n > THREAD_SIZE and half and "ok:thread-size" not in (threads.get(t, {}).get("tags") or []):
+                        add(WARN, f"{lst.key}.thread.{t}",
+                            f"{n} entries of its own in {calsplit.page_key(lst, half)} (over {THREAD_SIZE}): split it into subthreads?",
+                            "thread-size")
 
     # section references that point nowhere, and works cited under the wrong section
     from .build import Linker, names_line, names_tokens

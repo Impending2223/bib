@@ -91,6 +91,27 @@ def thread_members(lst):
     return out
 
 
+_OWN = {}
+
+
+def index_members(lst):
+    """thread slug -> the entries the thread index dates under it: those that name it as their `thread` or in `also`,
+    in document order. Not a subthread's: an entry filed under a subthread is dated on the subthread's line (a ghost's
+    too), not its parent's, unless `also:` lists it in the parent (the owner's memo, Nov. 4, 2026: volume.md, section 2;
+    calsplit.py, STYLE 15). The thread-nav line, the highlight and the statements keep the family (thread_members)."""
+    key = (id(lst), tuple(len(s.entries) for s in lst.walk()))
+    if _OWN.get(id(lst), (None,))[0] == key:
+        return _OWN[id(lst)][1]
+    out = {}
+    for sec, e in lst.entries():
+        if "when" not in e:
+            continue
+        for t in dict.fromkeys([e["thread"]] + list(e.get("also") or [])):
+            out.setdefault(t, []).append(e)
+    _OWN[id(lst)] = (key, out)
+    return out
+
+
 _NAV = {}
 
 
@@ -250,7 +271,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         from . import works
         n = works.with_first_cites(series, e, works.ordered(series, n))
     if is_thread:                       # the dates by year, and across the divide (tools/bib/calsplit.py)
-        dates = calsplit.thread_dates_html(lst, slug, members, esc)
+        dates = calsplit.thread_dates_html(lst, slug, index_members(lst).get(slug, []), esc)   # its own (STYLE 15)
         if dates:
             parts.append(f'<span class="n">{dates}</span>')
         parts.append(contents.thread_slot(lst, slug))   # its tables and maps (tools/bib/contents.py, STYLE 4)
@@ -287,8 +308,11 @@ def ghost_thread_html(lst, e):
     (calsplit.py, STYLE 9)."""
     slug = e["id"].split(".", 2)[2]
     half = calsplit.CUR["half"]
-    members = thread_members(lst).get(slug, [])
-    mine = [m for m in members if not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half]
+    members = index_members(lst).get(slug, [])          # its dates: its own entries (calsplit.py, STYLE 15)
+
+    def here(ms):
+        return [m for m in ms if not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half]
+    mine = here(members) or here(thread_members(lst).get(slug, []))   # a line where its family has entries
     if not mine:
         return ""
     anchor = calsplit.thread_anchor(lst, slug, half)

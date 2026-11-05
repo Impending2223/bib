@@ -1,0 +1,223 @@
+# The thread pass
+
+The proposal for the owner to rule (notes/extensions/memos/volume.md, section 2): for every thread `check`
+[thread-size] names (more than 150 entries of its own in one year's page), the subthreads proposed and the entries
+moved to them. The patch: `inbox/2026-11-04-thread-pass.yaml` (not merged; `./bib patch-check` 0 errors, 0 warnings;
+`./bib merge --dry-run` 60 added, 2,747 edited, no conflicts; merged in a scratch copy, `./bib check` 0 errors and no
+[thread-size], [thread-order] or [statements] warning left).
+
+Rules of the pass. Entries were assigned by reading their `c`. An entry carrying `short:` (an event's first entry,
+named in the parent's statement) stays in the parent. An entry already listed in an existing subthread of its own
+thread by `also:` moves to that subthread (and leaves `also:`), but not into Vietnam: Congress and the President or
+1968 elections: Chicago, which were themselves over the line. What a subthread does not take stays in the parent:
+its headline entries and what no strand holds. A subthread with a statement names its own events in the index; a
+ghost (no statement) leaves its events in its parent's. "Counts" are own entries (`thread:`) a year's page, after
+the pass; in brackets, before.
+
+## Cuban Missile Crisis
+
+Left in the parent: 1962 16 (208).
+
+- **Cuban Missile Crisis: Anadyr** (`missile-crisis-anadyr`; new). The Soviet operation: the Presidium's decisions, the forces, missiles and warheads sent to Cuba, the submarines, the Cubans' part, and the warheads' withdrawal.
+  Moved: 1962 32. Its own, after: 1962 32. Samples: `cal.1962-04.missile-crisis`, `cal.1962-08.missile-crisis`, `cal.1962-10-10.missile-crisis-2`.
+- **Cuban Missile Crisis: Diplomacy** (`missile-crisis-diplomacy`; new). The letters between Kennedy and Khrushchev, the United Nations, the OAS and the allies, and the back channels, from the address to the broadcast.
+  Moved: 1962 40. Its own, after: 1962 40. Samples: `cal.1962-10-17.missile-crisis`, `cal.1962-10-22.missile-crisis-9`, `cal.1962-10-24.missile-crisis-6`.
+- **Cuban Missile Crisis: ExComm** (`missile-crisis-excomm`; new). The President and his advisers in Washington from the photographs to Khrushchev's broadcast: the Executive Committee's meetings, the choice of the quarantine, the address, the briefings of the leaders and the former Presidents.
+  Moved: 1962 48. Its own, after: 1962 48. Samples: `cal.1962-10-15.missile-crisis`, `cal.1962-10-19.missile-crisis-4`, `cal.1962-10-22.missile-crisis-25`.
+- **Cuban Missile Crisis: Quarantine** (`missile-crisis-quarantine`; new). The quarantine at sea and the forces' alert: the proclamation, the ships stopped, turned or boarded, the submarines, the reconnaissance, the reserves.
+  Moved: 1962 13. Its own, after: 1962 13. Samples: `cal.1962-10-20.missile-crisis-5`, `cal.1962-10-23.missile-crisis-10`, `cal.1962-10-25.missile-crisis-6`.
+- **Cuban Missile Crisis: Settlement** (`missile-crisis-settlement`; new). From Khrushchev's broadcast to the year's end: inspection, the Il-28s, the talks in New York, Mikoyan in Havana, the pledge against invasion, the Stevenson affair.
+  Moved: 1962 35. Its own, after: 1962 35. Samples: `cal.1962-10-29.missile-crisis`, `cal.1962-11-09.missile-crisis`, `cal.1962-11-19.missile-crisis`.
+- **Cuban Missile Crisis: Warnings** (`missile-crisis-warnings`; new). Before the photographs of Oct. 14: the reports from Cuba, McCone's warnings, Keating's charges, the President's statements, the estimates, the Cuba resolution.
+  Moved: 1962 24. Its own, after: 1962 24. Samples: `cal.1962-03.missile-crisis`, `cal.1962-09-04.missile-crisis`, `cal.1962-09-14.missile-crisis`.
+
+## Vietnam
+
+Left in the parent: 1964 126 (381); 1965 138 (334); 1966 111 (291); 1967 101 (271).
+
+- **Vietnam: Air war** (`vietnam-air-war`; existing). The bombing of North Vietnam, its targets and restrictions: the Chiefs' programs, the estimates of its effects, the strikes.
+  Moved: 1964 33, 1965 25, 1966 8, 1967 20. Its own, after: 1964 36, 1965 59, 1966 50, 1967 77. Samples: `cal.1964-01-22.vietnam`, `cal.1964-11-23.vietnam-2`, `cal.1965-12-14.vietnam`.
+- **Vietnam: Barrier** (`vietnam-barrier`; new). The anti-infiltration barrier below the demilitarized zone and in Laos: Practice Nine, Dye Marker, the strong points and the sensors.
+  Moved: 1966 3, 1967 14. Its own, after: 1966 3, 1967 14. Samples: `cal.1966-09-15.vietnam`, `cal.1967-03-06.vietnam-3`, `cal.1967-06-13.vietnam-3`.
+- **Vietnam: Bombing pause** (`vietnam-pause`; existing, ghost). No statement.
+  Moved: 1965 3, 1966 4. Its own, after: 1965 43, 1966 29. Samples: `cal.1965-11-03.vietnam-2`, `cal.1965-11-09.vietnam-2`, `cal.1966-01-07.vietnam`.
+- **Vietnam: Buddhist Uprising** (`vietnam-struggle`; existing, ghost). No statement.
+  Moved: 1966 5. Its own, after: 1966 102. Samples: `cal.1966-04-06.vietnam`, `cal.1966-04-09.vietnam`, `cal.1966-04-11.vietnam`.
+- **Vietnam: Clifford's trip** (`vietnam-clifford-trip`; new, ghost). No statement.
+  Moved: 1965 9. Its own, after: 1965 9. Samples: `cal.1965-10-21.vietnam-2`, `cal.1965-11-02.vietnam`, `cal.1965-11-11.vietnam`.
+- **Vietnam: Clifford–Taylor mission** (`vietnam-clifford-taylor`; new, ghost). No statement.
+  Moved: 1967 6. Its own, after: 1967 6. Samples: `cal.1967-07-14.vietnam`, `cal.1967-07.vietnam-2`, `cal.1967-08-05.vietnam`.
+- **Vietnam: Covert operations** (`vietnam-34a`; new). OPLAN 34A: the raids, the agents and the patrols against the North, and the reports on them.
+  Moved: 1964 7, 1965 1. Its own, after: 1964 7, 1965 1. Samples: `cal.1964-01-03.vietnam`, `cal.1964-01-21.vietnam-2`, `cal.1964-05-19.vietnam`.
+- **Vietnam: Diplomacy** (`vietnam-diplomacy`; new). The approaches to Hanoi and the talk of a settlement outside the named channels: neutralization, de Gaulle, U Thant's and the third countries' proposals, the Negotiations Committee, the allies' troops and aid.
+  Moved: 1964 16, 1965 49, 1966 60, 1967 13. Its own, after: 1964 16, 1965 49, 1966 60, 1967 13. Samples: `cal.1964-02-01.vietnam`, `cal.1965-05-15.vietnam`, `cal.1966-08-02.vietnam`.
+- **Vietnam: Eisenhower's counsel** (`vietnam-eisenhower`; new, ghost). No statement.
+  Moved: 1965 8, 1966 1. Its own, after: 1965 8, 1966 1. Samples: `cal.1965-02-17.vietnam-3`, `cal.1965-06-16.vietnam-2`, `cal.1965-08-17.vietnam`.
+- **Vietnam: Force levels** (`vietnam-force-levels`; existing). The decisions on American troop strength in Vietnam.
+  Moved: 1964 3, 1965 8, 1966 1, 1967 2. Its own, after: 1964 63, 1965 129, 1966 26, 1967 57. Samples: `cal.1964-01-09.vietnam-2`, `cal.1965-05-05.vietnam`, `cal.1965-10-23.vietnam-2`.
+- **Vietnam: Force levels: July decision** (`vietnam-july-decision`; existing, ghost). No statement.
+  Moved: 1965 3. Its own, after: 1965 43. Samples: `cal.1965-06-21.vietnam`, `cal.1965-07-02.vietnam`, `cal.1965-07-26.vietnam-2`.
+- **Vietnam: Fulbright hearings** (`vietnam-hearings`; existing, ghost). No statement.
+  Moved: 1966 1. Its own, after: 1966 18. Samples: `cal.1966-02-03.vietnam-2`.
+- **Vietnam: Guam conference** (`vietnam-guam`; new, ghost). No statement.
+  Moved: 1967 4. Its own, after: 1967 4. Samples: `cal.1967-03-13.vietnam`, `cal.1967-03-18.vietnam-2`, `cal.1967-03-20.vietnam`.
+- **Vietnam: Gulf of Tonkin** (`vietnam-tonkin`; new). The attacks reported on the Maddox and the Turner Joy, the reprisal, the resolution, and the patrols after.
+  Moved: 1964 23. Its own, after: 1964 23. Samples: `cal.1964-08-03.vietnam`, `cal.1964-08-04.vietnam-4`, `cal.1964-08-05.vietnam-7`.
+- **Vietnam: Hanoi** (`vietnam-hanoi`; new). The North's decisions and its allies' aid: the Party's plenums and resolutions, the forces sent south, its charges and answers, the Chinese troops in the North, the arrests at home.
+  Moved: 1964 7, 1965 4, 1966 5, 1967 7. Its own, after: 1964 7, 1965 4, 1966 5, 1967 7. Samples: `cal.1964-03-27.vietnam`, `cal.1965-03-28.vietnam`, `cal.1966-08-02.vietnam-2`.
+- **Vietnam: Honolulu conference** (`vietnam-honolulu`; new, ghost). No statement.
+  Moved: 1966 5. Its own, after: 1966 5. Samples: `cal.1966-02-03.vietnam-3`, `cal.1966-02-06.vietnam-2`, `cal.1966-02-07.vietnam`.
+- **Vietnam: MACV** (`vietnam-macv`; new). The Military Assistance Command in the South: its organization and commanders, its plans and directives, its advisers, its rules of engagement, and the arming and training of the South's forces.
+  Moved: 1964 124, 1965 49, 1966 17, 1967 44. Its own, after: 1964 124, 1965 49, 1966 17, 1967 44. Samples: `cal.1964-01-27.vietnam`, `cal.1964-09.vietnam-9`, `cal.1965-08-31.vietnam`.
+- **Vietnam: Montagnards** (`vietnam-montagnards`; new, ghost). No statement.
+  Moved: 1965 5, 1966 1. Its own, after: 1965 5, 1966 1. Samples: `cal.1965-08.vietnam`, `cal.1965-09-15.vietnam-2`, `cal.1965-12.vietnam-2`.
+- **Vietnam: Operations** (`vietnam-operations`; existing). The fighting in South Vietnam, its battles and large operations, each dated by the record of the field: the start, the main day, the end.
+  Moved: 1964 3, 1965 4, 1966 5, 1967 1. Its own, after: 1964 42, 1965 63, 1966 15, 1967 130. Samples: `cal.1964-11-01.vietnam`, `cal.1965-02-24.vietnam`, `cal.1966-07-12.vietnam`.
+- **Vietnam: Order of battle** (`vietnam-order-of-battle`; existing). The count of the enemy, MACV's order of battle against the CIA's estimate.
+  Moved: 1966 1, 1967 5. Its own, after: 1966 3, 1967 45. Samples: `cal.1966-06-05.vietnam-2`, `cal.1967-07-22.vietnam-2`, `cal.1967-11-17.vietnam-3`.
+- **Vietnam: Pacification** (`vietnam-pacification`; new). The programs for the countryside and its people: the hamlets, Hop Tac, civic action, Chiêu Hồi and national reconciliation, Revolutionary Development, and their management in Saigon and Washington, to CORDS.
+  Moved: 1964 30, 1965 21, 1966 42, 1967 15. Its own, after: 1964 30, 1965 21, 1966 42, 1967 15. Samples: `cal.1964-01-21.vietnam`, `cal.1965-09-10.vietnam`, `cal.1966-09-26.vietnam`.
+- **Vietnam: Pennsylvania** (`vietnam-pennsylvania`; existing, ghost). No statement.
+  Moved: 1967 3. Its own, after: 1967 26. Samples: `cal.1967-10-03.vietnam`, `cal.1967-10-16.vietnam`, `cal.1967-10-17.vietnam-2`.
+- **Vietnam: Prisoners** (`vietnam-prisoners`; existing, ghost). No statement.
+  Moved: 1967 1. Its own, after: 1967 11. Samples: `cal.1967-12-23.vietnam-2`.
+- **Vietnam: Robert Kennedy and the Front** (`vietnam-rfk-front`; new, ghost). No statement.
+  Moved: 1966 9. Its own, after: 1966 9. Samples: `cal.1966-02-19.vietnam`, `cal.1966-02-21.vietnam`, `cal.1966-02-22.vietnam-3`.
+- **Vietnam: Saigon's governments** (`vietnam-saigon`; existing, ghost). No statement.
+  Moved: 1964 9, 1965 7, 1966 10, 1967 1. Its own, after: 1964 75, 1965 36, 1966 10, 1967 17. Samples: `cal.1964-01-01.vietnam`, `cal.1965-01-12.vietnam`, `cal.1966-02-21.vietnam-2`.
+- **Vietnam: South Vietnam's elections** (`vietnam-elections`; existing, ghost). No statement.
+  Moved: 1966 2, 1967 1. Its own, after: 1966 3, 1967 22. Samples: `cal.1966-05-06.vietnam`, `cal.1966-09-11.vietnam`, `cal.1967-09-05.vietnam`.
+- **Vietnam: Support at home** (`vietnam-support`; existing). The administration's campaign for support of the war at home and against its critics, and the war's supporters' statements.
+  Moved: 1967 30. Its own, after: 1967 44. Samples: `cal.1967-04-24.vietnam`, `cal.1967-08-24.vietnam`, `cal.1967-11-13.vietnam-2`.
+- **Vietnam: Tet** (`vietnam-tet`; existing, ghost). No statement.
+  Moved: 1967 2. Its own, after: 1967 7. Samples: `cal.1967-11-27.vietnam-2`, `cal.1967-12-19.vietnam-2`.
+- **Vietnam: Thant's proposal** (`vietnam-thant`; existing, ghost). No statement.
+  Moved: 1967 1. Its own, after: 1967 6. Samples: `cal.1967-03-07.vietnam`.
+
+## Vietnam: Congress and the President
+
+Left in the parent: 1966 63 (167); 1967 51 (154).
+
+- **Vietnam: Congress and the President: Armed Services** (`vietnam-congress-armed-services`; new). Russell, Stennis, Symington and Jackson: the Armed Services and Preparedness members' trips, hearings and statements, for more force or against the war's conduct.
+  Moved: 1966 18, 1967 8. Its own, after: 1966 18, 1967 8. Samples: `cal.1966-01-04.vietnam-congress`, `cal.1966-04-17.vietnam-congress`, `cal.1966-12-08.vietnam-congress`.
+- **Vietnam: Congress and the President: Foreign Relations** (`vietnam-congress-foreign-relations`; new). Fulbright and his committee: the executive sessions and the hearings, the staff's memoranda, Fulbright's speeches, letters and books, his break with Johnson, the Tonkin incidents reexamined.
+  Moved: 1966 57, 1967 52. Its own, after: 1966 57, 1967 52. Samples: `cal.1966-01-07.vietnam-congress-2`, `cal.1966-06-01.vietnam-congress`, `cal.1967-03-24.vietnam-congress`.
+- **Vietnam: Congress and the President: Mansfield** (`vietnam-congress-mansfield`; new). The majority leader's counsel and proposals: his memoranda and letters to Johnson and the replies, his speeches, the Security Council resolution.
+  Moved: 1966 16, 1967 18. Its own, after: 1966 16, 1967 18. Samples: `cal.1966-01-31.vietnam-congress-2`, `cal.1966-10-13.vietnam-congress-2`, `cal.1967-05-15.vietnam-congress-2`.
+- **Vietnam: Congress and the President: Republicans** (`vietnam-congress-republicans`; new). The Republican members on the war: the policy committees' papers, Findley's and Percy's resolutions, Ford, Morton, Javits and Cooper.
+  Moved: 1967 25. Its own, after: 1967 25. Samples: `cal.1967-02-17.vietnam-congress`, `cal.1967-08-10.vietnam-congress-2`, `cal.1967-09-27.vietnam-congress`.
+- **Vietnam: Supplemental appropriation** (`vietnam-supplemental`; existing, ghost, not under Vietnam: Congress and the President: its entries leave that family). No statement.
+  Moved: 1966 13. Its own, after: 1966 23. Samples: `cal.1966-01-28.vietnam-congress`, `cal.1966-02-23.vietnam-congress`, `cal.1966-03-01.vietnam-congress-3`.
+
+## 1960 elections
+
+Left in the parent: 1960 43 (466).
+
+- **1960 elections: Chicago** (`elections-1960-chicago`; new). The Republican convention: the platform, Eisenhower's address, Nixon's nomination, Lodge for second place.
+  Moved: 1960 7. Its own, after: 1960 7. Samples: `cal.1960-07-20.elections-1960`, `cal.1960-07-26.elections-1960`, `cal.1960-07-28.elections-1960`.
+- **1960 elections: Count** (`elections-1960-count`; new). Election night and after: the returns, Nixon's concession, the charges of fraud, the recounts in Illinois and Hawaii, California's absentee ballots, the electors' votes.
+  Moved: 1960 33. Its own, after: 1960 33. Samples: `cal.1960-11-08.elections-1960-3`, `cal.1960-11-09.elections-1960-3`, `cal.1960-11-30.elections-1960`.
+- **1960 elections: Debates** (`elections-1960-debates`; new). The four Kennedy–Nixon debates on television: the negotiations, the studios, the questions, the reactions.
+  Moved: 1960 18. Its own, after: 1960 18. Samples: `cal.1960-07.elections-1960-7`, `cal.1960-09-27.elections-1960`, `cal.1960-10-13.elections-1960`.
+- **1960 elections: Democratic nomination** (`elections-1960-nomination`; new). The race for the Democratic nomination outside the primaries: Johnson, Symington, the Stevenson draft, Truman, the delegations and their counts, the talk of second place, to Los Angeles.
+  Moved: 1960 51. Its own, after: 1960 51. Samples: `cal.1960-01-14.elections-1960`, `cal.1960-05.elections-1960-12`, `cal.1960-06.elections-1960-11`.
+- **1960 elections: Kennedy's campaign** (`elections-1960-kennedy`; new). The Democratic campaign from Los Angeles to the election: Kennedy's travels and speeches, his staff and strategy, Johnson's and Robert Kennedy's parts, the South.
+  Moved: 1960 68. Its own, after: 1960 68. Samples: `cal.1960-07-15.elections-1960-3`, `cal.1960-09-05.elections-1960`, `cal.1960-10-12.elections-1960-3`.
+- **1960 elections: King's arrest** (`elections-1960-king`; new). King's arrest in Atlanta and his sentence, the calls to Coretta King and the judge, his release, the campaign's pamphlet.
+  Moved: 1960 13. Its own, after: 1960 13. Samples: `cal.1960-10-17.elections-1960-2`, `cal.1960-10-25.elections-1960-3`, `cal.1960-10-30.elections-1960`.
+- **1960 elections: Los Angeles** (`elections-1960-los-angeles`; new). The Democratic convention: the caucuses and the delegations, the platform, Kennedy's nomination, Johnson's choice for second place, the acceptance.
+  Moved: 1960 49. Its own, after: 1960 49. Samples: `cal.1960-07-04.elections-1960-2`, `cal.1960-07-11.elections-1960-3`, `cal.1960-07-13.elections-1960-4`.
+- **1960 elections: Nixon's campaign** (`elections-1960-nixon`; new). Nixon's campaign from his announcement to the election: his staff and polls, the fifty States, his travels and speeches, Eisenhower's and Lodge's parts.
+  Moved: 1960 96. Its own, after: 1960 96. Samples: `cal.1960-01-12.elections-1960`, `cal.1960-09-12.elections-1960-2`, `cal.1960-10-22.elections-1960-2`.
+- **1960 elections: Primaries** (`elections-1960-primaries`; new). The primaries, Wisconsin and West Virginia above all: the campaigns, the money, the returns, Humphrey's withdrawal.
+  Moved: 1960 47. Its own, after: 1960 47. Samples: `cal.1960-01-21.elections-1960`, `cal.1960-04-11.elections-1960`, `cal.1960-05-07.elections-1960-3`.
+- **1960 elections: Religion** (`elections-1960-religion`; new). Kennedy's religion in the campaign: the tracts, the Peale group, the Houston ministers, the bishops.
+  Moved: 1960 15. Its own, after: 1960 15. Samples: `cal.1960-03.elections-1960-7`, `cal.1960-08-01.elections-1960-2`, `cal.1960-09.elections-1960-3`.
+- **1960 elections: Rockefeller** (`elections-1960-rockefeller`; new). Rockefeller's challenge to Nixon: his withdrawal and his statements, Draft Rockefeller, the second place offered and refused, the Fifth Avenue compact.
+  Moved: 1960 26. Its own, after: 1960 26. Samples: `cal.1960-05-01.elections-1960`, `cal.1960-06-11.elections-1960`, `cal.1960-07-19.elections-1960-2`.
+
+## 1964 elections
+
+Left in the parent: 1964 28 (345).
+
+- **1964 elections: Atlantic City** (`elections-1964-atlantic-city`; new). The Democratic convention: the opening and the keynote, Johnson's nomination, Humphrey's, the acceptances.
+  Moved: 1964 15. Its own, after: 1964 15. Samples: `cal.1964-08-22.elections-1964-3`, `cal.1964-08-25.elections-1964-2`, `cal.1964-08-27.elections-1964`.
+- **1964 elections: Freedom Democrats** (`elections-1964-freedom-democrats`; new). The Mississippi Freedom Democratic Party's challenge to the regulars: the credentials committee, the White House's calls, the two-seat compromise and its refusal.
+  Moved: 1964 29. Its own, after: 1964 29. Samples: `cal.1964-07-20.elections-1964`, `cal.1964-08-17.elections-1964`, `cal.1964-08-23.elections-1964-2`.
+- **1964 elections: Goldwater's campaign** (`elections-1964-goldwater`; new). The Republican campaign after San Francisco: the Hershey meeting, Goldwater's speeches and broadcasts, Thurmond's switch, Reagan's address.
+  Moved: 1964 15. Its own, after: 1964 15. Samples: `cal.1964-08-03.elections-1964-2`, `cal.1964-09-17.elections-1964`, `cal.1964-10-04.elections-1964`.
+- **1964 elections: Jenkins** (`elections-1964-jenkins`; new, ghost). No statement.
+  Moved: 1964 6. Its own, after: 1964 6. Samples: `cal.1964-10-14.elections-1964`, `cal.1964-10-15.elections-1964-2`, `cal.1964-10.elections-1964-3`.
+- **1964 elections: Johnson's campaign** (`elections-1964-johnson`; new). The Democratic campaign: the plans and the staff, the advertisements, Johnson's and Humphrey's travels and speeches, the Lady Bird Special, the backlash, the polls.
+  Moved: 1964 65. Its own, after: 1964 65. Samples: `cal.1964-02-08.elections-1964`, `cal.1964-09-05.elections-1964`, `cal.1964-10-03.elections-1964`.
+- **1964 elections: New York Senate race** (`elections-1964-new-york`; new). Robert Kennedy against Keating: the nomination, the carpetbagger charge, the General Aniline settlement, the debates, the result.
+  Moved: 1964 17. Its own, after: 1964 17. Samples: `cal.1964-08-06.elections-1964-2`, `cal.1964-09-08.elections-1964`, `cal.1964-10-02.elections-1964`.
+- **1964 elections: Republican primaries** (`elections-1964-primaries`; new). The race for the Republican nomination to the California primary: Goldwater, Rockefeller, Smith, the Lodge write-ins, Nixon's waiting, the returns.
+  Moved: 1964 86. Its own, after: 1964 86. Samples: `cal.1964-01-03.elections-1964`, `cal.1964-03-08.elections-1964`, `cal.1964-05-13.elections-1964`.
+- **1964 elections: San Francisco** (`elections-1964-san-francisco`; new). The Republican convention at the Cow Palace: the platform committee and the platform fight, Goldwater's nomination, Miller, the acceptance.
+  Moved: 1964 23. Its own, after: 1964 23. Samples: `cal.1964-07-07.elections-1964`, `cal.1964-07-11.elections-1964`, `cal.1964-07-14.elections-1964`.
+- **1964 elections: Scranton** (`elections-1964-scranton`; new). The last effort to stop Goldwater: the governors at Cleveland, Eisenhower's part, Scranton's candidacy, Rockefeller's withdrawal, the delegations to the eve of the convention.
+  Moved: 1964 33. Its own, after: 1964 33. Samples: `cal.1964-06-03.elections-1964`, `cal.1964-06-08.elections-1964`, `cal.1964-06-16.elections-1964`.
+- **1964 elections: Vice Presidency** (`elections-1964-vice-presidency`; new). Johnson's choice of a running mate: Robert Kennedy's hopes and the statement that ruled out the Cabinet, McNamara, McCarthy, Humphrey's testing and choice.
+  Moved: 1964 23. Its own, after: 1964 23. Samples: `cal.1964-01.elections-1964`, `cal.1964-07-23.elections-1964`, `cal.1964-07.elections-1964-4`.
+- **1964 elections: Wallace** (`elections-1964-wallace`; new, ghost). No statement.
+  Moved: 1964 5. Its own, after: 1964 5. Samples: `cal.1964-02-19.elections-1964`, `cal.1964-03-06.elections-1964`, `cal.1964-05-13.elections-1964-2`.
+
+## 1968 elections
+
+Left in the parent: 1968 125 (721).
+
+- **1968 elections: Chennault** (`elections-1968-chennault`; existing, ghost). No statement.
+  Moved: 1968 5. Its own, after: 1968 27. Samples: `cal.1968-09-12.elections-1968-2`, `cal.1968-09.elections-1968-2`, `cal.1968-10-12.elections-1968`.
+- **1968 elections: Congress and the States** (`elections-1968-congress`; new). The year's races below the Presidency: the retirements and the filings, the primaries for the Senate, the House and the governorships, and their results.
+  Moved: 1968 55. Its own, after: 1968 55. Samples: `cal.1968-02-07.elections-1968-il`, `cal.1968-05-26.elections-1968`, `cal.1968-06.elections-1968-10`.
+- **1968 elections: Humphrey's campaign** (`elections-1968-humphrey`; new). Humphrey's campaign from his announcement to the election: the organization and the money, his position papers, his ties to Johnson, the Salt Lake City speech, the last weeks.
+  Moved: 1968 149. Its own, after: 1968 149. Samples: `cal.1968-03-27.elections-1968-4`, `cal.1968-07-12.elections-1968-3`, `cal.1968-09-09.elections-1968`.
+- **1968 elections: Johnson's candidacy** (`elections-1968-johnson`; new). Johnson's campaign for renomination and its end: the write-in in New Hampshire, his advisers' memoranda on McCarthy and Robert Kennedy, the drafts of the statement, the withdrawal.
+  Moved: 1968 62. Its own, after: 1968 62. Samples: `cal.1968-01-14.elections-1968`, `cal.1968-03-14.elections-1968-3`, `cal.1968-03-25.elections-1968`.
+- **1968 elections: McCarthy** (`elections-1968-mccarthy`; new). McCarthy's campaign: New Hampshire's students, the primaries against Kennedy, the summer's delegate hunt and debates, his silence after Chicago and his endorsement of Humphrey.
+  Moved: 1968 92. Its own, after: 1968 92. Samples: `cal.1968-01-02.elections-1968`, `cal.1968-04-15.elections-1968`, `cal.1968-07-17.elections-1968-3`.
+- **1968 elections: Nixon's campaign** (`elections-1968-nixon`; new). Nixon's campaign from his announcement to the election: New Hampshire, the delegates and the Southern chairmen, Agnew's choice, the fall's tour, the telethons.
+  Moved: 1968 92. Its own, after: 1968 92. Samples: `cal.1968-02-03.elections-1968-2`, `cal.1968-06-12.elections-1968`, `cal.1968-08-20.elections-1968-5`.
+- **1968 elections: polls** (`elections-1968-polls`; existing, not under 1968 elections: its entries leave that family). Gallup on the coming presidential election: the parties' choices and the trial heats.
+  Moved: 1968 1. Its own, after: 1968 2. Samples: `cal.1968-10.elections-1968-6`.
+- **1968 elections: Republican nomination** (`elections-1968-republican-nomination`; new). The challenges to Nixon: Romney's campaign and withdrawal, Rockefeller's withdrawal and return, Reagan's favorite son and his soundings, Stassen, the endorsements, to Miami Beach.
+  Moved: 1968 103. Its own, after: 1968 103. Samples: `cal.1968-01-09.elections-1968`, `cal.1968-03-11.elections-1968-3`, `cal.1968-06-11.elections-1968-5`.
+- **1968 elections: State conventions** (`elections-1968-state-conventions`; existing). The Democratic State conventions and committees that chose delegates to Chicago, as the papers counted them. Georgia's slate, the State chairman's; Iowa for Kennedy; Missouri and Michigan uncommitted; Moore's North Carolina; Connally's Texas; the McCarthy walkouts in Connecticut and New York; Minnesota; Mississippi's two delegations; Colorado and Washington, July 13.
+  Moved: 1968 3. Its own, after: 1968 59. Samples: `cal.1968-06-01.elections-1968-6`, `cal.1968-06-14.elections-1968-2`, `cal.1968-07-13.elections-1968`.
+- **1968 elections: Wallace** (`elections-1968-wallace`; new). Wallace's campaign outside the two parties: his announcement, the ballots State by State, his tours, the American Independent Party, LeMay.
+  Moved: 1968 26. Its own, after: 1968 26. Samples: `cal.1968-01-22.elections-1968-2`, `cal.1968-06-11.elections-1968-3`, `cal.1968-08-12.elections-1968-9`.
+
+## 1968 elections: Chicago
+
+Left in the parent: 1968 53 (168).
+
+- **1968 elections: Chicago: Credentials and rules** (`elections-1968-chicago-credentials`; new). The challenges to the delegations and the rules: the unit rule, the Coalition for an Open Convention, the Credentials Committee's cases, Mississippi, Georgia, Alabama and Texas on the floor.
+  Moved: 1968 25. Its own, after: 1968 25. Samples: `cal.1968-06-29.elections-1968-chicago`, `cal.1968-07-30.elections-1968-chicago`, `cal.1968-08-23.elections-1968-chicago-6`.
+- **1968 elections: Chicago: Edward Kennedy** (`elections-1968-chicago-kennedy`; new, ghost). No statement.
+  Moved: 1968 3. Its own, after: 1968 11. Samples: `cal.1968-08-23.elections-1968-chicago-9`, `cal.1968-08-26.elections-1968-chicago-8`, `cal.1968-08-28.elections-1968-chicago-6`.
+- **1968 elections: Chicago: Platform** (`elections-1968-chicago-platform`; new). The platform: the committee's hearings and drafting, the plank on Vietnam and the minority plank, the vote.
+  Moved: 1968 16. Its own, after: 1968 16. Samples: `cal.1968-07.elections-1968-chicago`, `cal.1968-08-22.elections-1968-chicago-2`, `cal.1968-08-25.elections-1968-chicago-4`.
+- **1968 elections: Chicago: Streets** (`elections-1968-chicago-streets`; new). The demonstrations at the convention and their policing: the permits refused, the suits, the Guard and the Army, Lincoln Park, Grant Park and the Hilton, Daley's report.
+  Moved: 1968 71. Its own, after: 1968 71. Samples: `cal.1968-01.elections-1968-chicago`, `cal.1968-08-16.elections-1968-chicago-2`, `cal.1968-08-26.elections-1968-chicago-6`.
+
+## Robert Kennedy: Campaign for the nomination
+
+Left in the parent: 1968 68 (164).
+
+- **Robert Kennedy: Campaign for the nomination: California** (`robert-kennedy-campaign-california`; new). The California primary: Unruh's slate, the Mexican-American vote, the debate with McCarthy, the last days, the night at the Ambassador.
+  Moved: 1968 27. Its own, after: 1968 27. Samples: `cal.1968-03-19.robert-kennedy`, `cal.1968-04-23.robert-kennedy`, `cal.1968-05-30.robert-kennedy`.
+- **Robert Kennedy: Campaign for the nomination: Decision** (`robert-kennedy-campaign-decision`; new). Whether to run, to the announcement: the advisers' memoranda and meetings, McCarthy's New Hampshire, the commission offer.
+  Moved: 1968 46. Its own, after: 1968 46. Samples: `cal.1968-01-02.robert-kennedy`, `cal.1968-02-01.robert-kennedy`, `cal.1968-03-10.robert-kennedy`.
+- **Robert Kennedy: Campaign for the nomination: Primaries** (`robert-kennedy-campaign-primaries`; new). The primaries before California, Indiana, Nebraska, Oregon and South Dakota, and the hunt for delegates in the States without them.
+  Moved: 1968 23. Its own, after: 1968 23. Samples: `cal.1968-03-16.robert-kennedy-3`, `cal.1968-04-27.robert-kennedy`, `cal.1968-05-15.robert-kennedy`.
+
+## For the owner
+
+- The names, the statements, and every move are proposals: rule a subthread out and its entries go back by
+  dropping its ops from the patch (each edit sets only `thread:` and, where it changes, `also:`).
+- The supplemental's entries leave Vietnam: Congress and the President for Vietnam: Supplemental appropriation, a
+  sibling; they keep their place in Vietnam. Reparenting the supplemental under Congress is the alternative.
+- 1968 elections: Humphrey's campaign has 150 of its own in 1968, at the line, not over it.
+- `patch-check` learned thread adds (STYLE 7: a th.yaml entry is not a dated entry), and the merge's duplicate
+  test now compares threads by name under one parent (1960's Chicago is not 1968's).
