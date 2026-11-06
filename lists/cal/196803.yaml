@@ -1921,12 +1921,13 @@ entries:
     date: '1968-03-14'
     thread: vietnam
     c: 'The Pentagon: 509 Americans killed in the week; 139,801 casualties in all, 19,670 killed and 120,131 wounded, more than in Korea.'
-    n: '[[w.branch-at-canaans-edge]], 710. Check: the day; Branch, Thursday, the *New York Times* of Mar. 15. To check: New York Times, March 15, 1968, p. 1 (cited by [[w.branch-at-canaans-edge]], 710); [[w.zaroulis-who-spoke-up]], 159 (cited by [[w.branch-at-canaans-edge]], 710).'
+    n: '[[w.branch-at-canaans-edge]], 710; [[w.zaroulis-who-spoke-up]], 159. Check: the day; Branch, Thursday, the *New York Times* of Mar. 15. Check: Zaroulis and Sullivan, 159, date the figures Mar. 15. To check: New York Times, March 15, 1968, p. 1 (cited by [[w.branch-at-canaans-edge]], 710).'
     src:
       c: cac6597f
       rows:
         - 'w.branch-at-canaans-edge 710: all'
         - 'via x.1968-03-15.new-york-times-march-15-1968: all'
+        - 'w.zaroulis-who-spoke-up 159: all'
   - id: cal.1968-03-14.king-poor-peoples
     when: Mar. 14
     date: '1968-03-14'
@@ -2625,11 +2626,12 @@ entries:
     thread: vietnam-congress
     also: [republican-party-congress]
     c: 'The House: 132 members, 91 Republicans and 41 Democrats, sponsor a resolution for an immediate congressional review of the policy in Southeast Asia.'
-    n: '[[w.palermo-in-his-own-right]], 151. To check: [[w.pentagon-papers]], 591 (cited by [[w.palermo-in-his-own-right]], 151 n.106; the edition not given). Names: . Check: the resolution and its sponsors in the Record.'
+    n: '[[w.palermo-in-his-own-right]], 151; [[w.zaroulis-who-spoke-up]], 155 (139 members, 98 Republicans and 41 Democrats; Udall among the sponsors; held in Rules since the autumn). Check: Zaroulis and Sullivan, 155, give 139 members, 98 Republicans and 41 Democrats. To check: [[w.pentagon-papers]], 591 (cited by [[w.palermo-in-his-own-right]], 151 n.106; the edition not given). Check: the resolution and its sponsors in the Record.'
     src:
       c: 701bdcfc
       rows:
         - 'w.palermo-in-his-own-right 151: all'
+        - 'w.zaroulis-who-spoke-up 155: ?'
     short: the 132 members' resolution for a review
   - id: cal.1968-03-18.elections-1968
     when: Mar. 18
@@ -4164,6 +4166,29 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d185: all'
     tags: [name:johnson-lyndon-b, name:pearson-lester-b]
+  - id: cal.1968-03-27.vietnam-congress
+    when: Mar. 27
+    date: '1968-03-27'
+    thread: vietnam-congress
+    also: [vietnam-tonkin]
+    c: 'Twenty-one Representatives urge repeal of the Tonkin Gulf Resolution: a "national debate"; Congress to "play a major role in the determination of the policy." No action.'
+    n: '[[w.zaroulis-who-spoke-up]], 155.'
+    src:
+      c: 9f2fefd7
+      rows:
+        - 'w.zaroulis-who-spoke-up 155: all'
+  - id: cal.1968-03-27.students
+    when: Mar. 27
+    date: '1968-03-27'
+    thread: students
+    also: [war-opposition]
+    c: 'Lexington, Ky. SDS''s National Council, 102 delegates, 19 new chapters, some 280 in all: nothing decided on the Student Mobilization Committee''s ten days in April; each chapter to choose. Oglesby on the Kerner report.'
+    n: '[[w.zaroulis-who-spoke-up]], 161–62. Names: Oglesby.'
+    src:
+      c: c7daa2e4
+      rows:
+        - 'w.zaroulis-who-spoke-up 161–62: all'
+    tags: [name:oglesby-carl]
   - id: cal.1968-03-28.vietnam
     when: Mar. 28
     date: '1968-03-28'

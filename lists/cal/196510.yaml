@@ -705,7 +705,7 @@ entries:
     thread: students
     also: [vietnam]
     c: 'International Days of Protest against the war, planned by Berkeley''s Vietnam Day Committee and the National Coordinating Committee to End the War in Vietnam (Check): marches, rallies, teach-ins in many cities. Oct. 15, at the Whitehall Street induction center in New York, David Miller, 24, a Catholic Worker, burns his draft card, the first to do so under the law of Aug. 30. The Berkeley march on the Oakland Army Terminal turned back by police at the Oakland line, Oct. 15 and again Oct. 16 (Check).'
-    n: '[[w.gibbons-u-s-government-and]], IV, 28, 89 (the days of protest and their sponsors, 89; Miller, 28 n.86); [[w.branch-at-canaans-edge]], 356–57 (Miller''s draft card); [[w.bernstein-guns-or-butter]], 382 (nearly 100,000 in 80 cities; a young man burns his card in Manhattan; counter-demonstrations); [[w.wells-war-within]], 51, 57 (the Days proposed by Rubin at the Assembly of Unrepresented People, the NCC formed there; some 100,000 in several dozen cities, 25,000 in New York; Miller''s card in New York; 15,000 from the Berkeley teach-in turned back at the Oakland line; not Oct. 16). To check: [[w.debenedetti-american-ordeal]]; [[w.zaroulis-who-spoke-up]]; [[w.foley-confronting-the-war-machine]]; [[w.rorabaugh-berkeley-at-war]]. See [[cal.1965-08-30.students]]. Names: Miller.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 28, 89 (the days of protest and their sponsors, 89; Miller, 28 n.86); [[w.branch-at-canaans-edge]], 356–57 (Miller''s draft card); [[w.bernstein-guns-or-butter]], 382 (nearly 100,000 in 80 cities; a young man burns his card in Manhattan; counter-demonstrations); [[w.wells-war-within]], 51, 57 (the Days proposed by Rubin at the Assembly of Unrepresented People, the NCC formed there; some 100,000 in several dozen cities, 25,000 in New York; Miller''s card in New York; 15,000 from the Berkeley teach-in turned back at the Oakland line; not Oct. 16); [[w.zaroulis-who-spoke-up]], 51, 55–56 (the Vietnam Day Committee''s and the National Coordinating Committee''s days; Berkeley, as many as 10,000, turned back Friday evening and Saturday afternoon; Miller at Whitehall Street). Check: Zaroulis and Sullivan, 56, give Miller as twenty-two; New York, 20,000 to 25,000 down Fifth Avenue, Oct. 16; some 100,000 in fifty cities. To check: [[w.debenedetti-american-ordeal]]; [[w.foley-confronting-the-war-machine]]; [[w.rorabaugh-berkeley-at-war]]. See [[cal.1965-08-30.students]]. Names: Miller.'
     src:
       c: 45d32029
       rows:
@@ -714,6 +714,7 @@ entries:
         - 'w.branch-at-canaans-edge 356–57: B'
         - 'w.bernstein-guns-or-butter 382: A-B'
         - 'w.wells-war-within 51, 57: A-C'
+        - 'w.zaroulis-who-spoke-up 51, 55–56: A, C'
     tags: [name:miller-david-j]
     short: the Days of Protest
   - id: cal.1965-10-15.vietnam-congress
@@ -1601,6 +1602,18 @@ entries:
         - 'w.bernstein-guns-or-butter 453: all'
         - 'via x.1965-10-28.pifer-to-johnson-legislative-background-public-broadcasting: A'
     tags: [name:killian-james-r-jr, name:hobby-oveta-culp, name:sanford-terry]
+  - id: cal.1965-10-28.draft
+    when: Oct. 28
+    date: '1965-10-28'
+    thread: draft
+    also: [war-opposition]
+    c: 'New York, Foley Square. Some 200 at the federal courthouse to see Tom Cornell and Marc Paul Edelman burn their draft cards; the police require a flag; the press so thick they cannot; Muste calls it off. A hostile crowd: "Burn him, not his draft card."'
+    n: '[[w.zaroulis-who-spoke-up]], 59, 62. Names: Muste.'
+    src:
+      c: c44ee9dc
+      rows:
+        - 'w.zaroulis-who-spoke-up 59, 62: all'
+    tags: [name:muste-a-j, state:ny, city:nyc]
   - id: cal.1965-10-29.africa
     when: Oct. 29
     date: '1965-10-29'
@@ -1913,12 +1926,14 @@ entries:
     date: 1965-10
     thread: war-opposition
     c: 'Spock and H. Stuart Hughes, SANE''s co-chairmen, cable Hồ Chí Minh: SANE sponsors the march; accept the American offers of negotiations.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 93. To check: [*New York Times*, Oct. 29, 1965](https://timesmachine.nytimes.com/timesmachine/1965/10/29/issue.html) (cited by [[w.gibbons-u-s-government-and]], IV, 93 n.50). Check: the day. See [[cal.1965-10-26.war-opposition]]. Names: Spock, Hồ Chí Minh.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 93; [[w.zaroulis-who-spoke-up]], 64 (the cable to Hồ, sent Oct. 28). Check: Zaroulis and Sullivan, 64, date the cable Oct. 28. To check: [*New York Times*, Oct. 29, 1965](https://timesmachine.nytimes.com/timesmachine/1965/10/29/issue.html) (cited by [[w.gibbons-u-s-government-and]], IV, 93 n.50). Check: the day. See [[cal.1965-10-26.war-opposition]]. Names: Spock, Hồ Chí Minh.'
     src:
       c: 6d71a95e
       rows:
         - 'w.gibbons-u-s-government-and IV, 93: all'
         - 'via x.1965-10-29.new-york-times-oct-29-1965: all'
+        - 'w.zaroulis-who-spoke-up 64: A'
+        - 'via x.1965-10-29.new-york-times-oct-29-1965: A'
     tags: [name:spock-benjamin, name:ho-chi-minh]
   - id: cal.1965-10-31.vietnam-air-war
     when: Oct. 31
@@ -1986,3 +2001,26 @@ entries:
       rows:
         - 'w.wells-war-within 56: all'
     tags: [name:katzenbach-nicholas]
+  - id: cal.1965-10.students-2
+    when: Oct.
+    date: 1965-10
+    thread: students
+    also: [draft]
+    c: 'SDS''s National Office puts to its members a program on the draft: conscientious objection; no class rank for the boards; demonstrations at local boards. Dodd: the movement under Communist control; Katzenbach: Communists in SDS; Stennis: "pull the anti-draft movement up by the roots and grind it to bits."'
+    n: '[[w.zaroulis-who-spoke-up]], 59–60. The members'' vote, later: of 3,139 polled, 243 for, 279 against, 35 abstaining (60). Check: the day.'
+    src:
+      c: 6646fad2
+      rows:
+        - 'w.zaroulis-who-spoke-up 59–60: all'
+  - id: cal.1965-10.students-3
+    when: Oct.
+    date: 1965-10
+    thread: students
+    also: [draft]
+    c: 'Washington. Booth and Oglesby of SDS, at a press conference: alternative service, conscientious objection, "build not burn."'
+    n: '[[w.zaroulis-who-spoke-up]], 60. Check: the day. Names: Oglesby.'
+    src:
+      c: 723031d3
+      rows:
+        - 'w.zaroulis-who-spoke-up 60: all'
+    tags: [name:oglesby-carl]

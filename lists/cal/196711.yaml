@@ -721,7 +721,12 @@ entries:
     thread: state-constitutions
     also: [war-opposition]
     c: San Francisco's voters reject Proposition P, a declaration of policy for a cease-fire and the withdrawal of American troops from Vietnam, put on the ballot by the State Supreme Court's order (Check the figures).
-    n: '*Farley v. Healey*, [67 Cal. 2d 325](https://static.case.law/cal-2d/67/case-pdfs/0325-01.pdf) (1967), the order. Check: the Registrar of Voters'' statement of the vote. To check: [[w.wells-war-within]]; [[w.debenedetti-american-ordeal]]. See [[cal.1967-10-16.war-opposition]].'
+    n: '*Farley v. Healey*, [67 Cal. 2d 325](https://static.case.law/cal-2d/67/case-pdfs/0325-01.pdf) (1967), the order. [[w.zaroulis-who-spoke-up]], 145 (no, 63.34 percent, yes, 36.66). Check: the Registrar of Voters'' statement of the vote. To check: [[w.wells-war-within]]; [[w.debenedetti-american-ordeal]]. See [[cal.1967-10-16.war-opposition]].'
+    src:
+      c: 4d96ce06
+      rows:
+        - 'https://static.case.law/cal-2d/67/case-pdfs/0325-01.pdf: all'
+        - 'w.zaroulis-who-spoke-up 145: A'
     tags: [state:ca, city:san-francisco]
     short: Proposition P at San Francisco
   - id: cal.1967-11-07.mayors-san-diego
@@ -1005,6 +1010,17 @@ entries:
       rows:
         - 'w.macv-command-history-1967 1281: all'
     tags: [name:nguyen-van-loc]
+  - id: cal.1967-11-09.war-opposition
+    when: Nov. 9
+    date: '1967-11-09'
+    thread: war-opposition
+    c: New York, the Hotel Americana. After Johnson's appearance at a dinner for Meany, a Revolutionary Solidarity Committee burns him in effigy.
+    n: '[[w.zaroulis-who-spoke-up]], 142. Names: Johnson, Meany.'
+    src:
+      c: f3863670
+      rows:
+        - 'w.zaroulis-who-spoke-up 142: all'
+    tags: [name:johnson-lyndon-b, name:meany-george, state:ny, city:nyc]
   - id: cal.1967-11-10.governors-tx
     when: Nov. 10
     date: '1967-11-10'
@@ -1358,13 +1374,14 @@ entries:
     date: '1967-11-14'
     thread: war-opposition
     c: 'New York, the Hilton, the Foreign Policy Association''s fiftieth anniversary, Rusk speaking. About 4,000 outside: traffic stopped, steer blood thrown; three hours of chaos in midtown; 46 arrested, 21 demonstrators and 5 policemen hurt.'
-    n: '[[w.bernstein-guns-or-butter]], 421; [[w.wells-war-within]], 213 (Nov. 14, midtown Manhattan "a combat zone"). To check: Zaroulis and Sullivan, *Who Spoke Up?* (1984), 133–35, 137 (cited by [[w.bernstein-guns-or-butter]], 421 n.11). Names: Rusk.'
+    n: '[[w.bernstein-guns-or-butter]], 421; [[w.wells-war-within]], 213 (Nov. 14, midtown Manhattan "a combat zone"); [[w.zaroulis-who-spoke-up]], 142–43 (about three thousand; the blood; midtown). Check: Zaroulis and Sullivan, 143, give about three thousand. To check: Zaroulis and Sullivan, *Who Spoke Up?* (1984), 133–35, 137 (cited by [[w.bernstein-guns-or-butter]], 421 n.11). Names: Rusk.'
     src:
       c: b528ad10
       rows:
         - 'w.bernstein-guns-or-butter 421: all'
         - 'via x.1984.zaroulis-and-sullivan-who-spoke-up: all'
         - 'w.wells-war-within 213: A, C'
+        - 'w.zaroulis-who-spoke-up 142–43: A, C'
     tags: [name:rusk-dean, city:nyc]
   - id: cal.1967-11-14.welfare
     when: Nov. 14
@@ -1940,7 +1957,7 @@ entries:
     thread: vietnam-support
     also: [press-and-broadcasting]
     c: 'Westmoreland at the National Press Club: "We have reached an important point when the end begins to come into view"; a phasing down of the American effort conceivable "within two years or less" (Check the words). The same morning, the President with Bunker, Westmoreland and his advisers: more allied troops, and the troops approved, as fast as possible. "I am beginning to agree with Bob McNamara that it does not appear the targets are worth the loss in planes."'
-    n: 'FRUS 1964–68, V, doc. [409](https://history.state.gov/historicaldocuments/frus1964-68v05/d409). The address: [[w.department-of-state-bulletin]], [Dec. 11, 1967, 785–87](https://archive.org/details/departmentofstat5767unit/page/785/mode/1up) (Nov. 21, the National Press Club; "the end begins to come into view"; the text printed has U.S. units to "begin to phase down," not "within two years or less"). [[w.gibbons-u-s-government-and]], IV, 896–99 (the meeting; the speech, by the *Times* of Nov. 20); [[w.herring-lbj-and-vietnam]], 147 (the speech to the Press Club, Nov. 21: "the end begins to come into view"); [[w.berman-lyndon-johnsons-war]], 115–16 ("whereas in 1965 the enemy was winning, today he is certainly losing"; "the enemy has not won a major battle in more than a year"). [[w.westmoreland-soldier-reports]], 234 (the address; the phases to come, the last a "phase down"; to a question: "it is conceivable to me that within two years or less, it will be possible for us to phase down our level of commitment"). Check: the matters Herring gives the meeting of Nov. 22 (the periodic reports to the nation, the casualty figures) are those of FRUS''s notes of the morning of Nov. 21 (doc. 409); one meeting, recorded the next day, or two. To check: Tom Johnson''s notes of the meeting, Nov. 24, 1967, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 898 n.125). Gibbons dates the speech to the Press Club Nov. 19 (IV, 896). See [[cal.1967-11-13.vietnam]]. Names: Westmoreland, Bunker, Johnson, McNamara. Check: Herring, 147, has a meeting at the White House the next day, Nov. 22, on holding public support, by Westmoreland''s record of it.'
+    n: 'FRUS 1964–68, V, doc. [409](https://history.state.gov/historicaldocuments/frus1964-68v05/d409). The address: [[w.department-of-state-bulletin]], [Dec. 11, 1967, 785–87](https://archive.org/details/departmentofstat5767unit/page/785/mode/1up) (Nov. 21, the National Press Club; "the end begins to come into view"; the text printed has U.S. units to "begin to phase down," not "within two years or less"). [[w.gibbons-u-s-government-and]], IV, 896–99 (the meeting; the speech, by the *Times* of Nov. 20); [[w.herring-lbj-and-vietnam]], 147 (the speech to the Press Club, Nov. 21: "the end begins to come into view"); [[w.berman-lyndon-johnsons-war]], 115–16 ("whereas in 1965 the enemy was winning, today he is certainly losing"; "the enemy has not won a major battle in more than a year"); [[w.zaroulis-who-spoke-up]], 145. [[w.westmoreland-soldier-reports]], 234 (the address; the phases to come, the last a "phase down"; to a question: "it is conceivable to me that within two years or less, it will be possible for us to phase down our level of commitment"). Check: the matters Herring gives the meeting of Nov. 22 (the periodic reports to the nation, the casualty figures) are those of FRUS''s notes of the morning of Nov. 21 (doc. 409); one meeting, recorded the next day, or two. To check: Tom Johnson''s notes of the meeting, Nov. 24, 1967, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 898 n.125). Gibbons dates the speech to the Press Club Nov. 19 (IV, 896). See [[cal.1967-11-13.vietnam]]. Names: Westmoreland, Bunker, Johnson, McNamara. Check: Herring, 147, has a meeting at the White House the next day, Nov. 22, on holding public support, by Westmoreland''s record of it.'
     src:
       c: 8e28b516
       rows:
@@ -1955,6 +1972,7 @@ entries:
         - 'w.herring-lbj-and-vietnam 147: A'
         - 'w.westmoreland-soldier-reports 234: B'
         - 'w.berman-lyndon-johnsons-war 115–16: A'
+        - 'w.zaroulis-who-spoke-up 145: A-B'
     tags: [name:westmoreland-william, name:bunker-ellsworth, name:johnson-lyndon-b, name:mcnamara-robert-s]
     variants:
       - unit: C
@@ -2110,12 +2128,13 @@ entries:
     thread: war-opposition
     also: [republican-party-congress]
     c: 'Ford: the President has told House Republicans the march of Oct. 21 was "basically organized by international Communism"; let him release the evidence. Johnson will not; Ramsey Clark sent to argue against it.'
-    n: '[[w.dallek-flawed-giant]], 490. To check: Ford''s news release, Nov. 22, 1967, WHCF: Aides: Nimitz, LBJ Library (cited by [[w.dallek-flawed-giant]], 490). See [[cal.1967-10-21.war-opposition]]; [[cal.1967-11-15.war-opposition]]. Names: Ford, Johnson, Ramsey Clark.'
+    n: '[[w.dallek-flawed-giant]], 490; [[w.zaroulis-who-spoke-up]], 142 (Ford and two other Republicans; the report Johnson read them Oct. 24). To check: Ford''s news release, Nov. 22, 1967, WHCF: Aides: Nimitz, LBJ Library (cited by [[w.dallek-flawed-giant]], 490). See [[cal.1967-10-21.war-opposition]]; [[cal.1967-11-15.war-opposition]]. Names: Ford, Johnson, Ramsey Clark.'
     src:
       c: 0d458cf8
       rows:
         - 'w.dallek-flawed-giant 490: all'
         - 'via w.dallek-flawed-giant 490 n.136: A'
+        - 'w.zaroulis-who-spoke-up 142: A-C'
     tags: [name:ford-gerald-r, name:johnson-lyndon-b, name:clark-ramsey]
   - id: cal.1967-11-22.war-opposition-2
     when: Nov. 22

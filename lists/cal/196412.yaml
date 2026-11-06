@@ -748,7 +748,7 @@ entries:
     date: '1964-12-09'
     thread: vietnam-congress
     c: 'Fulbright at Southern Methodist University, Dallas: to widen the war in Vietnam a "senseless effort"; the United States should never have gone in.'
-    n: '[[w.logevall-choosing-war]], 286 (the speech, Dec. 9); [[w.bird-color-of-truth]], 296 (escalation "senseless"); [[w.woods-j-william-fulbright-vietnam]], 83 (Southern Methodist University); [[w.woods-fulbright]], 362 (and a press conference after: MacArthur, no land war in Asia). Check: the text; Logevall gives no source. Check: Bird, 296, dates the warning Dec. 4. See [[cal.1964-12-09.vietnam]]. Names: Fulbright.'
+    n: '[[w.logevall-choosing-war]], 286 (the speech, Dec. 9); [[w.bird-color-of-truth]], 296 (escalation "senseless"); [[w.woods-j-william-fulbright-vietnam]], 83 (Southern Methodist University); [[w.woods-fulbright]], 362 (and a press conference after: MacArthur, no land war in Asia); [[w.zaroulis-who-spoke-up]], 26–27 (undated there). Check: the text; Logevall gives no source. Check: Bird, 296, dates the warning Dec. 4. See [[cal.1964-12-09.vietnam]]. Names: Fulbright.'
     src:
       c: a0157a90
       rows:
@@ -757,6 +757,7 @@ entries:
         - 'w.woods-j-william-fulbright-vietnam 83: ?'
         - 'w.woods-fulbright 362: all'
         - 'via x.1964-12-09.upi-27-fulbright-smu: all'
+        - 'w.zaroulis-who-spoke-up 26–27: all'
     tags: [name:fulbright-j-william]
   - id: cal.1964-12-09.vietnam-operations
     when: Dec. 9
@@ -1459,6 +1460,17 @@ entries:
       rows:
         - 'w.macv-command-history-1964 87: all'
         - 'via w.macv-command-history-1964 87 n.92: all'
+  - id: cal.1964-12-19.war-opposition
+    when: Dec. 19
+    date: '1964-12-19'
+    thread: war-opposition
+    c: New York, Washington Square. Some 1,000 hear Norman Thomas, Muste and A. Philip Randolph call for an end to the war; organized by McReynolds of the War Resisters League, Muste, the Committee for Nonviolent Action and the Fellowship of Reconciliation. Demonstrations also in Boston, Philadelphia, Chicago, San Francisco and Seattle.
+    n: '[[w.zaroulis-who-spoke-up]], 26. Names: Muste, Randolph.'
+    src:
+      c: e8f8339e
+      rows:
+        - 'w.zaroulis-who-spoke-up 26: all'
+    tags: [name:muste-a-j, name:randolph-a-philip, state:ny, city:nyc]
   - id: cal.1964-12-20.vietnam
     when: Dec. 20
     date: '1964-12-20'
@@ -2071,6 +2083,18 @@ entries:
         - 'via w.macv-command-history-1964 106 n.144: all'
         - 'via w.macv-command-history-1964 106 n.145: all'
     tags: [name:westmoreland-william]
+  - id: cal.1964-12-29.students
+    when: Dec. 29
+    date: '1964-12-29'
+    thread: students
+    also: [war-opposition]
+    c: 'New York, Cloakmakers'' Hall. Students for a Democratic Society''s National Council, after I. F. Stone on the war: SDS to organize a march on Washington against it, Apr. 17, Easter weekend, open to all.'
+    n: '[[w.zaroulis-who-spoke-up]], 27, 32. Check: the days of the meeting. Names: Stone.'
+    src:
+      c: 388e3c95
+      rows:
+        - 'w.zaroulis-who-spoke-up 27, 32: all'
+    tags: [name:stone-i-f, state:ny, city:nyc]
   - id: cal.1964-12-30.legislatures-mo
     when: Dec. 30
     date: '1964-12-30'
@@ -2547,3 +2571,25 @@ entries:
       rows:
         - 'w.meltzer-history-of-the-federal 440: all'
     tags: [name:martin-william-mcchesney-jr, name:johnson-lyndon-b, name:wilson-harold, name:dillon-c-douglas]
+  - id: cal.1964-12.vietnam-congress
+    when: Dec., late
+    date: 1964-12
+    thread: vietnam-congress
+    c: 'Richard Russell: Armed Services to evaluate the American position in South Vietnam, "in view of the lack of support" for the Saigon regime; "a terrible mistake getting involved in Vietnam."'
+    n: '[[w.zaroulis-who-spoke-up]], 27. Check: the day. Names: Russell.'
+    src:
+      c: c0ab4bb5
+      rows:
+        - 'w.zaroulis-who-spoke-up 27: all'
+    tags: [name:russell-richard-b]
+  - id: cal.1964-12.opinion
+    when: Dec., mid-month
+    date: 1964-12
+    thread: opinion
+    also: [vietnam]
+    c: 'The University of Michigan''s Survey Research Center: 28 percent do not know that Communists rule mainland China; 26 percent do not know there is a war in South Vietnam. Of those who know, 53 percent against withdrawal.'
+    n: '[[w.zaroulis-who-spoke-up]], 27. Check: the day.'
+    src:
+      c: 4d57ebbf
+      rows:
+        - 'w.zaroulis-who-spoke-up 27: all'

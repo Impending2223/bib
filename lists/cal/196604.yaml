@@ -1203,12 +1203,13 @@ entries:
     date: '1966-04-16'
     thread: vietnam
     c: 'The New York Times: 1,361 Americans killed in the first ninety-nine days of 1966, as many as in the five years before.'
-    n: '[[w.branch-at-canaans-edge]], 452. To check: New York Times, April 16, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 452); [[w.zaroulis-who-spoke-up]], 82 (cited by [[w.branch-at-canaans-edge]], 452).'
+    n: '[[w.branch-at-canaans-edge]], 452; [[w.zaroulis-who-spoke-up]], 82 (1,361 dead in the first three months of 1966). Check: Zaroulis and Sullivan, 82, give 1,361 for the first three months, half the number of the five years before. To check: New York Times, April 16, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 452).'
     src:
       c: a1450ada
       rows:
         - 'w.branch-at-canaans-edge 452: all'
         - 'via x.1966-04-16.new-york-times-april-16-1966: all'
+        - 'w.zaroulis-who-spoke-up 82: ?'
   - id: cal.1966-04-17.opinion
     when: Apr. 17
     date: '1966-04-17'
@@ -2283,13 +2284,14 @@ entries:
     date: 1966-04
     thread: war-opposition
     c: 'A. J. Muste and five other American pacifists in Saigon: harassed, and forced out after a week.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 341 n.85. To check: *New York Times*, Apr. 20, 22, 1966 (cited by [[w.gibbons-u-s-government-and]], IV, 341 n.85). Check: the days. Names: Muste.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 341 n.85; [[w.zaroulis-who-spoke-up]], 81 (Muste, Lyttle, Deming, Meyer, Davidon and Thurber; the press conference broken up Apr. 20; arrested and expelled Apr. 21). To check: *New York Times*, Apr. 20, 22, 1966 (cited by [[w.gibbons-u-s-government-and]], IV, 341 n.85). Check: the days. Names: Muste.'
     src:
       c: 57ad7c37
       rows:
         - 'w.gibbons-u-s-government-and IV, 341 n: all'
         - 'w.gibbons-u-s-government-and IV, 341 n: all'
         - 'via x.1966.new-york-times-apr-20-22: all'
+        - 'w.zaroulis-who-spoke-up 81: all'
     tags: [name:muste-a-j]
   - id: cal.1966-04.war-opposition-2
     when: Apr., late
@@ -2390,3 +2392,26 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d128: all'
         - 'w.gibbons-u-s-government-and IV, 232 n.53: A'
         - 'via w.gibbons-u-s-government-and IV, 232 n.53j: A'
+  - id: cal.1966-04.war-opposition-3
+    when: Apr.
+    date: 1966-04
+    thread: war-opposition
+    c: Muste, Joan Baez and some 300 others announce they will not pay federal income tax, against the war; Muste's nineteenth year of refusal. The Internal Revenue Service promises to prosecute.
+    n: '[[w.zaroulis-who-spoke-up]], 82. Check: the day. Names: Muste.'
+    src:
+      c: c5d5cb42
+      rows:
+        - 'w.zaroulis-who-spoke-up 82: all'
+    tags: [name:muste-a-j]
+  - id: cal.1966-04.draft
+    when: Apr.
+    date: 1966-04
+    thread: draft
+    also: [war-opposition]
+    c: 'Big Lake, Minn. Barry Bondhus breaks into his local draft board and pours two buckets of human feces over hundreds of 1-A files: "Big Lake One," the first of the raids on draft boards.'
+    n: '[[w.zaroulis-who-spoke-up]], 82. Check: the month; Zaroulis and Sullivan, 82, give "the spring of 1966."'
+    src:
+      c: 8fbc89f1
+      rows:
+        - 'w.zaroulis-who-spoke-up 82: all'
+    tags: [state:mn]

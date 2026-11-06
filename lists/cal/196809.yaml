@@ -861,6 +861,19 @@ entries:
         - 'w.wells-war-within 208: all'
         - 'via x.1968-09-18.minutes-of-the-cabinet-meeting: all'
     tags: [name:helms-richard]
+  - id: cal.1968-09-19.elections-1968
+    when: Sept. 19
+    date: '1968-09-19'
+    thread: elections-1968
+    also: [war-opposition]
+    c: Boston, a noon rally on Washington Street. Edward Kennedy, introducing Humphrey, booed and catcalled half an hour by opponents of the war.
+    n: '[[w.zaroulis-who-spoke-up]], 201. Names: Edward Kennedy, Humphrey.'
+    src:
+      c: facbed4d
+      rows:
+        - 'w.zaroulis-who-spoke-up 201: all'
+        - 'via x.1968-09-22.new-york-times-september-22-1968: all'
+    tags: [name:kennedy-edward-m, name:humphrey-hubert-h, state:ma, city:boston]
   - id: cal.1968-09-20.students-ca
     when: Sept. 20
     date: '1968-09-20'
@@ -1215,6 +1228,17 @@ entries:
         - 'w.solberg-hubert-humphrey 381: all'
         - 'w.white-making-of-the-president-1969 353–54: all'
     tags: [name:humphrey-hubert-h, state:wa]
+  - id: cal.1968-09-28.war-opposition
+    when: Sept. 28
+    date: '1968-09-28'
+    thread: war-opposition
+    c: 'Chicago. 10,000 to 25,000 march through the city, called by the Chicago Peace Council and Citizens for a Free Chicago: withdrawal from Vietnam, against police repression. No arrests.'
+    n: '[[w.zaroulis-who-spoke-up]], 200.'
+    src:
+      c: 9d95d60d
+      rows:
+        - 'w.zaroulis-who-spoke-up 200: all'
+    tags: [state:il, city:chicago]
   - id: cal.1968-09-29.opinion
     when: Sept. 29
     date: '1968-09-29'
@@ -1674,3 +1698,27 @@ entries:
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=297: all'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1968-09.republican-party
+    when: Sept.
+    date: 1968-09
+    thread: republican-party
+    also: [elections-1968]
+    c: 'Hatfield, in the *Ripon Forum*, on Nixon''s "honorable peace": "voters should not be forced to go to the polls with their fingers crossed."'
+    n: '[[w.zaroulis-who-spoke-up]], 202. Check: the issue; Zaroulis and Sullivan cite the New York Times of Sept. 29, 1968. Names: Hatfield, Nixon.'
+    src:
+      c: d706c969
+      rows:
+        - 'w.zaroulis-who-spoke-up 202: all'
+        - 'via x.1968-09-29.new-york-times-september-29-1968: all'
+    tags: [name:hatfield-mark-o, name:nixon-richard-m]
+  - id: cal.1968-09.war-opposition
+    when: Sept.
+    date: 1968-09
+    thread: war-opposition
+    c: The National Mobilization's administrative committee calls a "strike" on election day, Nov. 5, as Hayden and Rennie Davis proposed, with SDS's student strike of Nov. 4–5.
+    n: '[[w.zaroulis-who-spoke-up]], 203. Check: the day. Names: Hayden, Davis.'
+    src:
+      c: aee26e46
+      rows:
+        - 'w.zaroulis-who-spoke-up 203: all'
+    tags: [name:hayden-tom, name:davis-rennie]
