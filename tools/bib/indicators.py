@@ -19,7 +19,7 @@ STYLE (settled; keep it, and fix anything that drifts from it):
     tools/bib/indchart.py, STYLE 1). Gallup's approval (kind: poll) in a table
     of its own under it (and under Money and credit, 13), set off by a double gray rule, centered, three-quarters of the table's width (the last row above a rule has none)
     and its own caption ("Presidential approval, Gallup"; the first table's
-    "Economic indicators"; every caption centered, the owner, Nov. 4, 2026), on the same plan: Reading (with the field dates) | As published | Released | Today. "Released" is the date the
+    "Economic indicators"; the set's caption centered, the owner, Nov. 4, 2026; its divisions' headings, Oil, Exchange rates and gold, Money and credit, Presidential approval, left-aligned, Nov. 5, 2026: .ind-div), on the same plan: Reading (with the field dates) | As published | Released | Today. "Released" is the date the
     first-reported figure was published (or the Economic Report transmitted); its source shows on
     hover.
  2. Periods: "Mar. 1961", "Q1 1961", "FY1962" (July 1961-June 1962), "1961".
@@ -555,8 +555,9 @@ def block(data, sec_from, sec_to, prev_to, year, next_from=None, href=None, sec_
 
     def cap(kind):
         p, n = (nav or (None, None)) if not capped else (None, None)
+        div = bool(capped)               # a division of the set: its heading left-aligned (STYLE 18; Nov. 5, 2026)
         capped.append(kind)
-        return caption(TABLES[kind], p, n)
+        return caption(TABLES[kind], p, n, "ind-cap ind-div" if div else "ind-cap")
 
     def aid(kind):
         return f' id="{anchor(sec_id)}"' if sec_id and capped == [kind] else ""
@@ -642,6 +643,7 @@ div.ind td.iname a{color:inherit;text-decoration-color:var(--rule)}
 div.ind .kv{display:inline-grid;grid-template-columns:minmax(3.5em,7.5em) auto;column-gap:.4rem}
 div.ind .kv .v{text-align:right}
 div.ind .ind-cap{margin:0 0 .15rem;font-family:var(--sans);font-size:.72rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;text-align:center}
+div.ind .ind-cap.ind-div{text-align:left}
 div.ind .ind-cap a.tnb,div.ind .ind-cap a.tnb:hover{color:var(--muted);text-decoration:none}
 div.ind:has(+ div.ind) tbody tr:last-child td{border-bottom:0}
 div.ind.ind-sep{margin-top:1.1rem}

@@ -216,7 +216,7 @@ def table(rows, year, name, cells, aid="", cap=None):
             lab = f"As first reported, {when}" if when else "As first reported"
         trs.append(f'<tr><td class="iname">{nm}</td><td>{fig}</td>'
                    f'<td class="rel"><span title="{esc(src)}">{esc(lab)}</span></td></tr>')
-    out = f'<div class="ind ind-sep ind-oil"{aid}>' + (cap or '<p class="ind-cap">Oil</p>')
+    out = f'<div class="ind ind-sep ind-oil"{aid}>' + (cap or '<p class="ind-cap ind-div">Oil</p>')
     if both:
         out += ('<table><thead><tr><th>Indicator</th><th>As first reported</th><th>Released</th><th>Revised, today</th>'
                 '</tr></thead><tbody>' + "".join(both) + "</tbody></table>")

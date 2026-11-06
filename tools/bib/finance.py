@@ -157,7 +157,7 @@ def fx_table(rows, year, name, cells, aid="", cap=None):
         trs.append(f'<tr><td class="iname">{name(sid, s, r)}</td><td>{first}</td><td class="rel">{rel}</td></tr>')
     if not trs:
         return ""
-    return (f'<div class="ind ind-sep ind-fx"{aid}>' + (cap or '<p class="ind-cap">Exchange rates and gold</p>')
+    return (f'<div class="ind ind-sep ind-fx"{aid}>' + (cap or '<p class="ind-cap ind-div">Exchange rates and gold</p>')
             + '<table><thead><tr><th>Rate</th><th aria-label="Figure"></th><th>Released</th></tr></thead><tbody>'
             + "".join(trs) + "</tbody></table></div>")
 
