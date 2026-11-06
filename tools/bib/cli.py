@@ -622,6 +622,9 @@ WORKS_HELP = """The works catalogue (works/*.yaml; tools/bib/works.py).
   ./bib works tag ID... +TAG -TAG
   ./bib works set ID FIELD=VALUE ...   change a card's field (title=..., year=..., n=...; FIELD= to remove it)
   ./bib works attrs              the attributes in use, with counts
+  ./bib works new --author "A[; B]" --title "T: S" --year Y [--editor E] [--n NOTE] [--kind K] [--force --why W]
+                                 a new card, under a lock: refused, naming the card, where one already matches the
+                                 first author and main title (a reader makes the card before citing: R53)
   ./bib works adopt ID... | --all   an entry citing works as text (c): make the cards (or find them), point to them
   ./bib works combine KEEP DROP  one work on two cards: fold DROP into KEEP (DROP stays an alias; listings, notes,
                                  [[w.…]] links and containers follow)
@@ -720,6 +723,47 @@ def cmd_works(series, a):
         for eid, ids, new in done:
             print(f"{eid}: {' '.join(ids)}" + (f"   (new: {' '.join(new)})" if new else ""))
         print(f"{len(done)} entries adopted")
+        return
+    if cmd == "new":
+        # A card a reader makes before citing a work (the owner, Nov. 5, 2026: a card first, never conflicting pointers):
+        # under a lock, the catalogue re-read; a card already matching the first author and the main title is named
+        # and nothing written (--force to write all the same, with the reason in --why).
+        import fcntl
+        f, i, why = {}, 0, None
+        while i < len(rest):
+            k = rest[i].lstrip("-")
+            v = rest[i + 1] if i + 1 < len(rest) else ""
+            if k in ("author", "editor", "translator", "director"):
+                f[k] = [x.strip() for x in v.split(";") if x.strip()]
+            elif k in ("title", "year", "n", "journal", "vol", "page", "link", "in", "online", "kind", "paren", "c"):
+                f[k] = v
+            elif k == "why":
+                why = v
+            elif k == "force":
+                f["_force"] = True; i -= 1
+            else:
+                raise SystemExit(f"works new: unknown option {rest[i]}")
+            i += 2
+        if not (f.get("title") or f.get("c")):
+            raise SystemExit('works new --author "Given Surname[; ...]" --title "Title: Subtitle" --year 1989 [--n note]')
+        os.makedirs(os.path.join(store.ROOT, "works"), exist_ok=True)
+        with open(os.path.join(store.ROOT, "works", ".lock"), "w") as lk:
+            fcntl.flock(lk, fcntl.LOCK_EX)
+            fresh = works.Catalogue()
+            hits = works.likely_same(fresh, f)
+            if hits and not f.get("_force"):
+                for h in hits:
+                    print(f"{h}   {plain(fresh.render(h))}")
+                raise SystemExit("works new: a card already matches (above): cite it; --force --why '...' if it is another work")
+            card = {k: v for k, v in f.items() if not k.startswith("_")}
+            card["id"] = works.new_id(works.fields_of(card["c"]) if card.get("c") and not card.get("title") else card,
+                                      set(fresh.cards) | set(fresh.alias))
+            if f.get("_force") and not why:
+                raise SystemExit("works new --force: say why it is another work (--why '...')")
+            fresh.cards[card["id"]] = card
+            fresh.file_of[card["id"]] = f"{works.letter(card['id'])}.yaml"
+            fresh.save(card["id"])
+        print(f"{card['id']}   {plain(works.render(card))}")
         return
     if cmd == "combine":
         if len(rest) != 2:

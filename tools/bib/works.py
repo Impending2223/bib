@@ -1099,6 +1099,27 @@ def new_id(f, taken):
     return cid
 
 
+def likely_same(cat, f):
+    """The cards that are probably the work `f` describes: the same first author's surname (or both without an author)
+    and the main titles (before a colon, leading article dropped) alike, two-thirds of the longer's words shared."""
+    def main(t):
+        t = re.split(r":\s", plain(t or ""), 1)[0]
+        return set(re.findall(r"[a-z0-9]{3,}", store.fold(t))) - {"the", "and", "for", "with", "from"}
+    want = main(f.get("title") or (fields_of(f["c"]) or {}).get("title") if f.get("c") else f.get("title"))
+    who = store.fold(surname(f["author"][0])) if f.get("author") else None
+    out = []
+    for cid in cat.cards:
+        g = cat.fields(cid) or {}
+        ga = g.get("author") or g.get("editor")
+        gw = store.fold(surname(ga[0])) if isinstance(ga, list) and ga else None
+        if (who or gw) and who != gw:
+            continue
+        have = main(g.get("title"))
+        if want and have and len(want & have) * 3 >= 2 * max(len(want), len(have)):
+            out.append(cid)
+    return out
+
+
 def adoptable(series, lst, sec, e):
     """The fields of each citation line of an entry that cites works as text, or None (no `c`, a pointer already,
     the calendar, a person in Part III, or a line that is no work: a case, a law, a speech)."""
