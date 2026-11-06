@@ -1461,6 +1461,9 @@ CQ Weekly Report, 1968-03-01:
 - Thomas's undated scenes of 1966-68 to date from the sources his notes name: Daley's "M-O-N-E-Y" to the White House (Lemann, 122-29); the Ford grant of $750,000; Fay's manuscript (Myrick Land Papers, Boston University); Ginsberg in Kennedy's office (Schlesinger, 819); Kennedy and Paul VI, June 1966 (Schlesinger, 749-50); the Billings threat of 1966; Meany's "jitterbug"; the Oakland Black Caucus; the Queens boss; Buddy Young in Memphis; Dutton's Goldwater file for Johnson, 1964.
 - proposed for Part III (R13), where no entry is: Jimmy Breslin, Richard Harwood (*Washington Post*), Warren Rogers (*Look*), Jayne Ikard (*Newsweek*), Martin Nolan (*Boston Globe*), Hays Gorey (*Time*), Joseph Kraft, Jack Newfield (*Village Voice*).
 
+### Wells, *The War Within* (batch 4, Nov. 5, 2026; notes/book-checks/wells-war-within.md)
+- the witness `x.1965-04-14.bundy-to-johnson-left-wing-student-protest` (Wells, for cal.1965-04-14.students) may be one memorandum with `x.1965-04-14.mcgeorge-bundy-to-johnson-further-peace`: read both citations against the LBJ Library's file and join them by `amend:` if one document.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its own?
