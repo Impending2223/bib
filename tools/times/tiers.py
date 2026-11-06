@@ -19,6 +19,17 @@ digest   The bound Record's Daily Digest, one part a year (VOLS in tools/daybook
          is not the standing one); the OCR's digits put right (I, l, r for 1; o, O for 0; s for 5), a time that will
          not read left out. An adjournment in the small hours (before 6 a.m.) is the next calendar day's. The page:
          the folio printed (D123) and the PDF's page, linked.
+         The hour a chamber met (`orders`, for propose_ranges.py), read where the Digest prints it, never assumed:
+         the session's standing order ("S. Res. 3, setting the hour of 12 o'clock meridian as the hour of daily
+         meeting of the Senate unless otherwise ordered"; "H. Res. 10, fixing the hour of meeting ... at 12 o'clock
+         noon"; kind standing, from the day it was adopted); an order naming a later day's hour ("when Senate
+         completes its business today it adjourn until 10 a.m. Monday, February 14"; "Senate will meet at 10 a.m.
+         tomorrow, Tuesday, August 16"; "it will adjourn to meet at 11 a.m." on a weekday named; kind order, the
+         target day, the chamber the clause names, both for "the two Houses", else the section's; "convene at 9
+         a.m. every day this week", each weekday left of the week, or of the next); and the
+         committees' leave to sit "while Senate is in session until noon" on a day (kind early: the chamber met
+         before that hour that day, the hour not given). A weekday that does not agree with its date, or a clause
+         about a committee, the record, the Capitol's doors or a debate's time, is left out.
 unsc     The Dag Hammarskjold Library's research guide, "Meetings conducted by the Security Council in <year>"
          (research.un.org: the record's symbol, the date, the topic, the outcome and the resolutions), and each
          meeting's verbatim record, S/PV.<n>, in English (documents.un.org, by symbol), on the days the calendar
@@ -168,8 +179,101 @@ def read_time(h, m, ap):
     return hhmm(h.translate(OCR_DIGITS), (m or "0").translate(OCR_DIGITS), "p.m." if ap_l.startswith("p") else "a.m.")
 
 
-def digest_year(year, txt):
-    """The days of one volume: [{date, ch, kind, local, folio, pdf, raw}]."""
+O_HOUR = r"(noon|[1Il]2\s?o.?\s?clock(?:\s(?:noon|meridian))?|[0-9IlioO]{1,2}(?:\s?[:.]\s?[0-9IlioOS]{2})?\s?(?:a|p)\.\s?m\.?)"
+O_RX = re.compile(r"\b(until|meet at|convene at|reconvene at|meets at|convenes at|to meet at)\s+" + O_HOUR + r"(?=[\s,.;])")
+O_AFTER = re.compile(r"^[,\s]*(?:on\s+)?(?:(tomorrow)[,\s]*)?(?:(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)"
+                     r"[,.\s]*)?(?:(" + "|".join(MONTHS) + r")\.?,?\s+([0-9IlOo]{1,2})\b)?")
+O_CUE = re.compile(r"adjourn|recess|stand adjourned|go over|Senate (?:will )?meet|House (?:will )?meet|convene|"
+                   r"it (?:will|shall) be|Senate meets|House meets|when the House|when Senate", re.I)
+O_BAD = re.compile(r"authorized to me|may meet|ommittee|record (?:would|will)|remain open|Capitol|statements|testimony|"
+                   r"debate|equally divided|vote|hearing|written|filed|file reports", re.I)
+O_WEEK = re.compile(r"\b(?:convene|meet|meets|convenes)\s+at\s+" + O_HOUR + r"\s+(?:on\s+)?(every day (?:this|next) week|"
+                    r"each day (?:for the (?:balance|remainder) of the|this|next) week|daily for the (?:balance|"
+                    r"remainder) of the week)")
+O_EARLY = re.compile(r"(?:authorized to me\S*|may meet)\b", re.I)
+O_STANDING = re.compile(r"(?:fixing|setting)[^.]{0,100}?hour\s?\.?\s?of (?:daily )?meeting[^.]{0,80}?at\s+" + O_HOUR +
+                        r"|setting the hour of\s+" + O_HOUR + r"\s+as the hour of daily meeting"
+                        r"|(o.?\s?clock meridian) as the hour\s?\.?\s?of daily meeting")          # meridian: noon
+
+
+def order_hour(h):
+    hl = h.lower().replace(" ", "")
+    if hl.startswith("noon") or re.match(r"[1il]2o", hl):
+        return "12:00"
+    m = re.match(r"([0-9ilo]{1,2})(?:[:.]([0-9ilos]{2}))?([ap])", hl)
+    if not m:
+        return None
+    return hhmm(m.group(1).translate(OCR_DIGITS), (m.group(2) or "0").translate(OCR_DIGITS), m.group(3) + ".m.")
+
+
+def digest_orders(text, day, ch, year):
+    """The hours of meeting a chamber's text of one day orders or fixes (the docstring, digest): [{kind, target, ch,
+    local, raw}]."""
+    out = []
+    d0 = datetime.date.fromisoformat(day)
+    for m in O_STANDING.finditer(text):
+        h = order_hour(m.group(1) or m.group(2)) if not m.group(3) else "12:00"
+        cl = text[max(0, m.start() - 60):m.end()]
+        who = "H" if re.search(r"\bH\. Res\.|House", cl) else "S" if re.search(r"\bS\. Res\.|Senate", cl) else ch
+        if h:
+            out.append({"kind": "standing", "target": day, "ch": who, "local": h, "raw": m.group(0)[-120:]})
+    for m in O_WEEK.finditer(text):           # "convene at 9 a.m. every day this week": each day left of the week
+        h = order_hour(m.group(1))
+        nxt = bool(m.group(2) and "next" in m.group(2))
+        if not h:
+            continue
+        start = d0 + datetime.timedelta(days=(7 - d0.weekday()) if nxt else 1)
+        t = start
+        while t.weekday() < 6 and (t - start).days < 7:
+            out.append({"kind": "order", "target": t.isoformat(), "ch": ch, "local": h,
+                        "raw": re.sub(r"\s+", " ", text[max(0, m.start() - 60):m.end()]).strip()[-200:]})
+            t += datetime.timedelta(days=1)
+    for m in O_RX.finditer(text):
+        before = text[max(0, m.start() - 170):m.start()]
+        cl = re.split(r"(?<=[a-z0-9)])\.\s+(?=[A-Z])|;\s|:\s", before)[-1]
+        early = bool(O_EARLY.search(cl) and re.search(r"in session", cl + text[m.end():m.end() + 70]))
+        if not early and (not O_CUE.search(cl + " " + m.group(1)) or O_BAD.search(cl)):
+            continue
+        a = O_AFTER.match(text[m.end():m.end() + 60])
+        tom, wd, mon, dd = a.groups()
+        if mon:
+            try:
+                t = datetime.date(year, MONTHS.index(mon) + 1, int(dd.translate(OCR_DIGITS)))
+            except ValueError:
+                continue
+            if t < d0:
+                t = t.replace(year=year + 1) if t.month == 1 and d0.month == 12 else None
+                if t is None:
+                    continue
+            if wd and WEEKDAYS[t.weekday()] != wd:
+                continue
+        elif tom:
+            t = d0 + datetime.timedelta(days=1)
+            if wd and WEEKDAYS[t.weekday()] != wd:
+                continue
+        elif wd:
+            t = d0 + datetime.timedelta(days=(WEEKDAYS.index(wd) - d0.weekday()) % 7 or 7)
+        else:
+            continue
+        if not 0 <= (t - d0).days <= 45:
+            continue
+        h = order_hour(m.group(2))
+        if not h:
+            continue
+        who = re.findall(r"\b(two Houses|both Houses|Senate and House|House and Senate|adjournment of Congress|"
+                         r"Congress adjourn|Senate|House)\b", cl)
+        c = {"Senate": "S", "House": "H"}.get(who[-1], "SH") if who else ch
+        if early:
+            c = "S" if re.search(r"Senate", cl + text[m.end():m.end() + 70]) else ch
+        raw = (cl[-90:] + " " + m.group(0) + text[m.end():m.end() + a.end()]).strip()
+        out.append({"kind": "early" if early else "order", "target": t.isoformat(), "ch": c, "local": h,
+                    "raw": re.sub(r"\s+", " ", raw).rstrip(" ,")[-200:]})
+    return out
+
+
+def digest_year(year, txt, orders=None):
+    """The days of one volume: [{date, ch, kind, local, folio, pdf, raw}]; the hours of meeting ordered or fixed
+    appended to `orders` where it is given ([{kind, day, target, ch, local, raw, folio, pdf}])."""
     rows = []
     day, ch, folio, prev = None, None, None, None
     pages = txt.split("\f")
@@ -210,6 +314,9 @@ def digest_year(year, txt):
                 head = None
             if ln is None or m or head:
                 text = re.sub(r"\s+", " ", " ".join(buf))
+                if day and ch and orders is not None:
+                    for o in digest_orders(text, day, ch, year):
+                        orders.append({**o, "day": day, "folio": folio, "pdf": pno})
                 if day and ch:
                     for a in D_ACT.finditer(text):
                         kind = {"a": "adjourned", "r": "recessed", "m": "met", "c": "met"}[a.group(3)[0].lower()]
@@ -270,7 +377,7 @@ def digest_year(year, txt):
 
 def digest(cache, do_fetch):
     from tools.daybook.make_committees import VOLS, URL
-    out, years = {}, {}
+    out, years, orders = {}, {}, []
     for year in sorted(VOLS):
         gz = os.path.join(cache, "digest", f"digest-{year}.txt.gz")
         if not os.path.exists(gz):
@@ -285,16 +392,32 @@ def digest(cache, do_fetch):
             os.rename(gz + ".part", gz)
             os.remove(pdf)
         txt = gzip.open(gz, "rt", encoding="utf-8", errors="replace").read()
-        rows = digest_year(year, txt)
+        ords = []
+        rows = digest_year(year, txt, ords)
         url = URL.format(y=year, p=VOLS[year])
         days = set()
         for r in rows:
             r["url"] = f"{url}#page={r['pdf']}"
             out.setdefault(r["date"], []).append(r)
             days.add(r["day"])
-        years[year] = {"days": len(days), "hours": len(rows)}
-        print(f"digest {year}: {len(days)} days, {len(rows)} hours", file=sys.stderr)
-    write("digest", {"source": "the bound Congressional Record's Daily Digest (govinfo)", "years": years, "by_date": out})
+        # A session's standing order the day's blocks missed (its day heading lost to the OCR): read from the
+        # volume's first pages, dated to the first day read.
+        first = min(days) if days else None
+        for chm in ("S", "H"):
+            if first and not any(o["kind"] == "standing" and o["ch"] == chm for o in ords):
+                for pno, page in enumerate(txt.split("\f")[:12], 1):
+                    hit = [o for o in digest_orders(re.sub(r"\s+", " ", page), first, chm, year)
+                           if o["kind"] == "standing" and o["ch"] == chm]
+                    if hit:
+                        ords.append({**hit[0], "day": first, "folio": None, "pdf": pno})
+                        break
+        for o in ords:
+            o["url"] = f"{url}#page={o['pdf']}"
+        orders += ords
+        years[year] = {"days": len(days), "hours": len(rows), "orders": len(ords)}
+        print(f"digest {year}: {len(days)} days, {len(rows)} hours, {len(ords)} hours of meeting", file=sys.stderr)
+    write("digest", {"source": "the bound Congressional Record's Daily Digest (govinfo)", "years": years, "by_date": out,
+                     "orders": orders})
 
 
 # --------------------------------------------------------------------------------------------------------- unsc

@@ -2,6 +2,8 @@
 do a pass over the entries that might have a time of day and get them started?"; the hand-off of Nov. 1, item 0c).
 
     python3 -I tools/times/propose.py            writes notes/times-proposals.yaml and prints the counts
+    python3 -I tools/times/propose.py --ranges   then the ranges for the entries left without an hour
+                                                 (tools/times/propose_ranges.py: notes/times-ranges.yaml)
 
 The mechanical tier (no agents), for each calendar entry dated to a day:
   rec   a White House recording the note cites (the Miller Center's page, or PRDE's), its catalogued time; the zone
@@ -360,3 +362,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    if "--ranges" in sys.argv[1:]:
+        from tools.times import propose_ranges
+        propose_ranges.main()
