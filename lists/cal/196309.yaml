@@ -472,21 +472,24 @@ entries:
     date: '1963-09-09'
     thread: vietnam
     also: [press-and-broadcasting]
-    c: 'Huntley and Brinkley, for NBC''s first half-hour news. The domino theory: "I believe it." A cut in aid to Saigon not "helpful at this time."'
-    n: 'Transcript of Broadcast on NBC''s "Huntley-Brinkley Report.", [1963 Pub. Papers 658](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=716) (Sept. 9, 1963). Kennedy, interview with Chet Huntley and David Brinkley (Viet. II.J). [[w.gibbons-u-s-government-and]], II, 163 (the interview with Huntley; the domino theory); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 288 (the interview; the domino principle); [[w.mcnamara-in-retrospect]], ch. 3 at n.19. [[w.reeves-president-kennedy]], 592–93. [[w.sorensen-kennedy]], 658 (the interview). To check: [[w.watson-expanding-vista]]. See [[cal.1963-09-02.vietnam]]. Names: Huntley, Brinkley.'
+    c: 'Huntley and Brinkley, for NBC''s first half-hour news. The domino theory: "I believe it." A cut in aid to Saigon not "helpful at this time." The President alone, the night the network''s evening news goes from fifteen minutes to thirty.'
+    n: 'Transcript of Broadcast on NBC''s "Huntley-Brinkley Report.", [1963 Pub. Papers 658](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=716) (Sept. 9, 1963). Kennedy, interview with Chet Huntley and David Brinkley (Viet. II.J). [[w.gibbons-u-s-government-and]], II, 163 (the interview with Huntley; the domino theory); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 288 (the interview; the domino principle); [[w.mcnamara-in-retrospect]], ch. 3 at n.19. [[w.reeves-president-kennedy]], 592–93. [[w.sorensen-kennedy]], 658 (the interview). [[w.branch-parting-the-waters]], 888 (the first half-hour news). To check: [[w.watson-expanding-vista]]; Manchester, *The Glory and the Dream*, 1228; Newsweek, Sept. 23, 1963, 62–65 (cited by [[w.branch-parting-the-waters]], 888 n.3). See [[cal.1963-09-02.vietnam]]. Names: Huntley, Brinkley, Kennedy.'
     src:
-      c: 173f2eea
+      c: 7493e13b
       rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=716: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=716: A-C'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 288: A-B'
         - 'via w.kaplan-mcnamara-ascendancy-1961-1965 288 n.108: A-C'
         - 'w.gibbons-u-s-government-and II, 163: A-B'
         - 'via w.gibbons-u-s-government-and II, 163 n.75: A-B'
-        - 'w.reeves-president-kennedy 592–93: all'
+        - 'w.reeves-president-kennedy 592–93: A-C'
         - 'w.sorensen-kennedy 658: A'
         - 'w.mcnamara-in-retrospect ch. 3 at n.19: A-B'
         - 'via x.1963-09-09.transcript-of-broadcast-on-nbcs-huntley: A-B'
+        - 'w.branch-parting-the-waters 888: D'
+        - 'via w.branch-parting-the-waters 888 n.3b: D'
     tags: [name:kennedy-john-f, name:huntley-chet, name:brinkley-david]
+    aliases: [cal.1963-09-09.press-and-broadcasting]
   - id: cal.1963-09-09.alabama
     when: Sept. 9–10
     date: '1963-09-09'
@@ -545,19 +548,6 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v19/d331: all'
         - 'w.ball-past-has-another-pattern 285: A'
     tags: [name:kennedy-john-f, name:rusk-dean, name:ball-george-w, name:harriman-w-averell, name:johnson-u-alexis, name:talbot-phillips, name:mcnamara-robert-s, name:nitze-paul, name:quinn-william-w, name:mccone-john-a, name:bundy-mcgeorge, name:komer-robert-w, name:ayub-khan-mohammad]
-  - id: cal.1963-09-09.press-and-broadcasting
-    when: Sept. 9
-    date: '1963-09-09'
-    thread: press-and-broadcasting
-    c: The President on NBC's *Huntley-Brinkley Report*, alone, the night the network's evening news goes from fifteen minutes to thirty.
-    n: '[[w.branch-parting-the-waters]], 888. To check: Manchester, *The Glory and the Dream*, 1228; Newsweek, Sept. 23, 1963, 62–65 (cited by [[w.branch-parting-the-waters]], 888 n.3). Names: Kennedy, Huntley, Brinkley.'
-    src:
-      c: a441c76d
-      rows:
-        - 'w.branch-parting-the-waters 888: all'
-        - 'via w.branch-parting-the-waters 888 n.3b: all'
-    tags: [name:kennedy-john-f, name:huntley-chet, name:brinkley-david]
-    short: the networks' first half-hour news
   - id: cal.1963-09-09.testing-2
     when: Sept. 9
     date: '1963-09-09'
@@ -924,8 +914,10 @@ entries:
     time: 1963-09-12T20:00Z
     thread: vietnam-congress
     also: [testing, goldwater]
+    follows:
+      - cal.1963-09-12.vietnam
     c: 'News conference. On Vietnam: "we want the war to be won, the Communists to be contained, and the Americans to go home." Church''s resolution "reflects his concern"; "we should stay there." The opening statement on the test ban treaty: "if this small clearly beneficial step cannot be approved by the widest possible margin in the Senate, then this Nation cannot offer much leadership." On Goldwater''s Chicago speech, that not ten men know the truth about Cuba and the treaty: "There are no commitments." Further comment? "No, no. Not yet, not yet."'
-    n: 'The President''s News Conference of September 12, 1963, [1963 Pub. Papers 672](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=730), items 5, 18. [[w.reeves-president-kennedy]], 597–98 (the press conference; "the Americans to go home"). [[w.sorensen-kennedy]], 739 & n.4 (the margin; the answer on Goldwater). See [[cal.1963-09-02.vietnam]]. Names: Church, Kennedy, Goldwater.'
+    n: 'The President''s News Conference of September 12, 1963, [1963 Pub. Papers 672](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=730), items 5, 18. [[w.reeves-president-kennedy]], 597–98 (the press conference; "the Americans to go home"). [[w.sorensen-kennedy]], 739 & n.4 (the margin; the answer on Goldwater). After Church''s resolution: [[cal.1963-09-12.vietnam]]. See [[cal.1963-09-02.vietnam]]. Names: Church, Kennedy, Goldwater.'
     src:
       c: 4419dce5
       rows:

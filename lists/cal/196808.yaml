@@ -3705,8 +3705,10 @@ entries:
     time: 1968-08-26T21:30Z
     thread: elections-1968-chicago-platform
     also: [vietnam]
+    follows:
+      - cal.1968-08-26.elections-1968-chicago-17
     c: Chicago, 4:30 p.m. The drafting subcommittee releases its plank on Vietnam, close to the Administration's policy; it had met in closed session from 10:15 a.m.
-    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2293. See [[cal.1968-08-25.elections-1968-chicago-3]].'
+    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2293. After [[cal.1968-08-26.elections-1968-chicago-17]] (the sources above). See [[cal.1968-08-25.elections-1968-chicago-3]].'
     tags: [state:il, city:chicago]
   - id: cal.1968-08-26.elections-1968-chicago-11
     when: Aug. 26
@@ -4218,17 +4220,6 @@ entries:
         - 'w.cq-weekly-report Aug. 30, 1968, 2283, 2338: all'
         - 'w.cohen-american-pharaoh 475: G-H'
     tags: [name:burton-phillip, name:albert-carl, name:daley-richard-j, state:il, city:chicago]
-  - id: cal.1968-08-28.elections-1968-chicago-6
-    when: Aug. 28
-    date: '1968-08-28'
-    thread: elections-1968-chicago-kennedy
-    c: Edward Kennedy, in the morning, asks his backers to "cease all activity on my behalf."
-    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2342 (his telegram read to the convention at 8:02 p.m., not available, 2338). See [[cal.1968-08-26.elections-1968-chicago-8]]. Names: Edward Kennedy.'
-    src:
-      c: 52b8afa3
-      rows:
-        - 'w.cq-weekly-report Aug. 30, 1968, 2342: all'
-    tags: [name:kennedy-edward-m]
   - id: cal.1968-08-28.elections-1968-chicago-7
     when: Aug. 28
     date: '1968-08-28'
@@ -4304,15 +4295,17 @@ entries:
     date: '1968-08-28'
     thread: elections-1968-chicago-kennedy
     also: [elections-1968-chicago]
-    c: '9:30 a.m. Edward Kennedy, by telephone to Humphrey, Daley and Unruh, will withdraw his name even if it is put forward; a statement to the wire services. Unruh tells the California caucus; Daley, from the Illinois caucus at the Sherman House: 112 of its 118 votes for Humphrey.'
-    n: '[[w.chester-american-melodrama]], 575, 578; [[w.white-making-of-the-president-1969]], 290; [[w.wofford-of-kennedys-and-kings]], 431 (Edward Kennedy, from Hyannis Port, to Humphrey Wednesday). See [[cal.1968-08-25.elections-1968-2]]. Names: Edward Kennedy, Humphrey, Daley, Unruh, Sherman.'
+    c: '9:30 a.m. Edward Kennedy, by telephone to Humphrey, Daley and Unruh, will withdraw his name even if it is put forward; a statement to the wire services. Unruh tells the California caucus; Daley, from the Illinois caucus at the Sherman House: 112 of its 118 votes for Humphrey. His backers asked to "cease all activity on my behalf."'
+    n: '[[w.chester-american-melodrama]], 575, 578; [[w.white-making-of-the-president-1969]], 290; [[w.wofford-of-kennedys-and-kings]], 431 (Edward Kennedy, from Hyannis Port, to Humphrey Wednesday); [[w.cq-weekly-report]], Aug. 30, 1968, 2342 (his telegram read to the convention at 8:02 p.m., not available, 2338). See [[cal.1968-08-25.elections-1968-2]]. Names: Edward Kennedy, Humphrey, Daley, Unruh, Sherman.'
     src:
-      c: 78fadce7
+      c: 28daba61
       rows:
-        - 'w.chester-american-melodrama 575, 578: all'
-        - 'w.white-making-of-the-president-1969 290: all'
+        - 'w.chester-american-melodrama 575, 578: A-E'
+        - 'w.white-making-of-the-president-1969 290: A-E'
         - 'w.wofford-of-kennedys-and-kings 431: B'
+        - 'w.cq-weekly-report Aug. 30, 1968, 2342: F'
     tags: [name:kennedy-edward-m, name:humphrey-hubert-h, name:daley-richard-j, name:unruh-jesse-m, name:sherman-norman]
+    aliases: [cal.1968-08-28.elections-1968-chicago-6]
   - id: cal.1968-08-28.elections-1968-chicago-13
     when: Aug. 28, morning
     date: '1968-08-28'

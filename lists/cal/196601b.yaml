@@ -50,8 +50,10 @@ entries:
     date: '1966-01-10'
     time: 1966-01-10T18:10Z
     thread: vietnam-pause
+    follows:
+      - cal.1966-01-10.georgia-bond
     c: 'Johnson with Rusk, McNamara, Ball, McGeorge Bundy, Wheeler, Taylor and Helms, 1:10 to 2:10 p.m.: resuming the bombing in a few days, or after Tet; Wheeler, "Every day makes a difference." Briefing Congress: Johnson would rather Rusk and McNamara appear "at as many hearings as possible"; Rusk proposes a luncheon for the leaders and the senior committee members, and Johnson agrees.'
-    n: '[FRUS 1964–68, IV, doc. 14](https://history.state.gov/historicaldocuments/frus1964-68v04/d14) (Valenti''s notes). [[w.gibbons-u-s-government-and]], IV, 135; [[w.drea-mcnamara-clifford-and-the-2011]], 68 (Wheeler disputes McNamara: a few more days do matter. The Chiefs had asked resumption within 48 hours of the Soviet visitor''s departure from Hanoi, Jan. 12). Made public: FRUS 1964–68, IV (1998). [[w.preston-war-council]], 229 (Bundy: to publicize the Communists'' use of the pause, to "clear the way for bombing resumption"). See [[cal.1966-01-03.vietnam-pause]]. Names: Johnson, Rusk, McNamara, Ball, McGeorge Bundy, Wheeler, Taylor, Helms.'
+    n: '[FRUS 1964–68, IV, doc. 14](https://history.state.gov/historicaldocuments/frus1964-68v04/d14) (Valenti''s notes). [[w.gibbons-u-s-government-and]], IV, 135; [[w.drea-mcnamara-clifford-and-the-2011]], 68 (Wheeler disputes McNamara: a few more days do matter. The Chiefs had asked resumption within 48 hours of the Soviet visitor''s departure from Hanoi, Jan. 12). Made public: FRUS 1964–68, IV (1998). [[w.preston-war-council]], 229 (Bundy: to publicize the Communists'' use of the pause, to "clear the way for bombing resumption"). After [[cal.1966-01-10.georgia-bond]]: the House adjourned at 1:01, the meeting at 1:10 (the sources above). See [[cal.1966-01-03.vietnam-pause]]. Names: Johnson, Rusk, McNamara, Ball, McGeorge Bundy, Wheeler, Taylor, Helms.'
     src:
       c: 23fb09d6
       rows:
@@ -1181,15 +1183,18 @@ entries:
     when: Jan. 20
     date: '1966-01-20'
     thread: vietnam
-    also: [press-and-broadcasting]
-    c: 'Bundy to Johnson, of his talk with Lippmann: Lippmann "genuinely believes it is a civil war, and that it was not started by Hanoi"; "the best answer is to let the place go Communist as gracefully as possible." Bundy: he looks "at our troubles and not the troubles of the enemy"; the Viet Cong hurting.'
-    n: '[[w.preston-war-council]], 232–33. To check: Bundy to Johnson, Jan. 20, 1966, NSF, Memos to the President, Bundy, box 6, LBJ Library (cited by [[w.preston-war-council]], 233 n.60). Names: Bundy, Johnson, Lippmann.'
+    also: [press-and-broadcasting, vietnam-pause]
+    c: 'Bundy to Johnson, of his talk with Lippmann: Lippmann "genuinely believes it is a civil war, and that it was not started by Hanoi"; "the best answer is to let the place go Communist as gracefully as possible." Bundy: he looks "at our troubles and not the troubles of the enemy"; the Viet Cong hurting. At lunch: "Lippmann and I discovered, as usual, that we have radically different views of the reality of the situation there."'
+    n: '[[w.preston-war-council]], 232–33; [[w.gibbons-u-s-government-and]], IV, 153–54 (the lunch). To check: Bundy to Johnson, Jan. 20, 1966, NSF, Memos to the President, Bundy, box 6, LBJ Library (cited by [[w.preston-war-council]], 233 n.60; [[w.gibbons-u-s-government-and]], IV, 153 n.121). Names: Bundy, Johnson, Lippmann.'
     src:
-      c: f12b09dd
+      c: 248d9a5c
       rows:
-        - 'w.preston-war-council 232–33: all'
-        - 'via w.preston-war-council 233 n.60a: all'
+        - 'w.preston-war-council 232–33: A-D'
+        - 'via w.preston-war-council 233 n.60a: A-D'
+        - 'w.gibbons-u-s-government-and IV, 153–54: E'
+        - 'via x.1966-01-20.mcgeorge-bundy-to-johnson-jan-20: E'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:lippmann-walter]
+    aliases: [cal.1966-01-20.vietnam-pause-4]
   - id: cal.1966-01-20.intelligence
     when: Jan. 20
     date: '1966-01-20'
@@ -1216,19 +1221,6 @@ entries:
         - 'w.branch-at-canaans-edge 420: all'
         - 'via x.1966-01-21.deloach-to-tolson-jan-21-1966: all'
     tags: [name:katzenbach-nicholas, name:long-edward-v, name:deloach-cartha]
-  - id: cal.1966-01-20.vietnam-pause-4
-    when: Jan. 20
-    date: '1966-01-20'
-    thread: vietnam-pause
-    also: [press-and-broadcasting]
-    c: 'McGeorge Bundy at lunch with Lippmann; his memorandum to Johnson: "Lippmann and I discovered, as usual, that we have radically different views of the reality of the situation there. He says he genuinely believes it is a civil war."'
-    n: '[[w.gibbons-u-s-government-and]], IV, 153–54. To check: McGeorge Bundy to Johnson, Jan. 20, 1966, NSF Memos to the President—McGeorge Bundy, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 153 n.121). Names: McGeorge Bundy, Lippmann, Johnson.'
-    src:
-      c: 458375dd
-      rows:
-        - 'w.gibbons-u-s-government-and IV, 153–54: all'
-        - 'via x.1966-01-20.mcgeorge-bundy-to-johnson-jan-20: all'
-    tags: [name:bundy-mcgeorge, name:lippmann-walter, name:johnson-lyndon-b]
   - id: cal.1966-01-20.vietnam-air-war
     when: Jan. 20
     date: '1966-01-20'
@@ -1985,13 +1977,15 @@ entries:
     time: 1966-01-26T14:54Z
     thread: vietnam-pause
     c: '9:54 a.m., Johnson to Fortas by telephone, the pause''s thirty-third day: "The problem is not communicating. We understand them, and they understand us." The leaders: "You can either fight or run"; Eisenhower calling "when are we going to fight?" "I don''t know how much longer I can wait ... what in the hell am I waiting on?"'
-    n: '[[w.branch-at-canaans-edge]], 425–26. To check: [Johnson and Abe Fortas, 9:54 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-abe-fortas-january-26-1966), Conversation WH6601-11-9535 (Miller Center) (cited by [[w.branch-at-canaans-edge]], 425). See [[cal.1966-01-25.vietnam]]. Names: Johnson, Fortas, Eisenhower.'
+    n: '[[w.branch-at-canaans-edge]], 425–26; [[w.gibbons-u-s-government-and]], IV, 155 n.126 (the morning''s call, by the Daily Diary). To check: [Johnson and Abe Fortas, 9:54 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-abe-fortas-january-26-1966), Conversation WH6601-11-9535 (Miller Center) (cited by [[w.branch-at-canaans-edge]], 425); the President''s Daily Diary, Jan. 26, 1966, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 155 n.126). See [[cal.1966-01-25.vietnam]]. Names: Johnson, Fortas, Eisenhower.'
     src:
       c: 85acdb81
       rows:
         - 'w.branch-at-canaans-edge 425–26: all'
         - 'via x.1966-01-26.lbj-phone-call-with-abe-fortas: all'
+        - 'w.gibbons-u-s-government-and IV, 155 n.126: A'
     tags: [name:johnson-lyndon-b, name:fortas-abe, name:eisenhower-dwight-d]
+    aliases: [cal.1966-01-26.vietnam-pause-3]
   - id: cal.1966-01-26.vietnam-congress-2
     when: Jan. 26
     date: '1966-01-26'
@@ -2005,18 +1999,6 @@ entries:
         - 'w.shesol-mutual-contempt 380: all'
         - 'via x.1966-01-26.reston-johnson-and-fulbright: all'
     tags: [name:reston-james, name:johnson-lyndon-b, name:fulbright-j-william]
-  - id: cal.1966-01-26.vietnam-pause-3
-    when: Jan. 26
-    date: '1966-01-26'
-    thread: vietnam-pause
-    c: Morning. Johnson telephones Justice Fortas on resuming the bombing.
-    n: '[[w.gibbons-u-s-government-and]], IV, 155 n.126 (by the Daily Diary). To check: the President''s Daily Diary, Jan. 26, 1966, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 155 n.126). Names: Johnson, Fortas.'
-    src:
-      c: 71fe77e9
-      rows:
-        - 'w.gibbons-u-s-government-and IV, 155 n.126: all'
-        - 'via x.1966-01-26.the-presidents-daily-diary-jan-26: all'
-    tags: [name:johnson-lyndon-b, name:fortas-abe]
   - id: cal.1966-01-26.vietnam-air-war
     when: Jan. 26
     date: '1966-01-26'
@@ -2731,8 +2713,10 @@ entries:
     date: '1966-01-31'
     time: 1966-01-31T14:20Z
     thread: vietnam-air-war
+    follows:
+      - cal.1966-01-31.vietnam
     c: '9:20 a.m., McNamara to Johnson by telephone, on the first strikes: 225 sorties aborted by weather, 75 flown, three aircraft lost; in Masher, 312 enemy and 68 Americans killed. Johnson: "Did we get much results in your judgment?" McNamara: "No. My judgment is we accomplished practically nothing."'
-    n: '[[w.branch-at-canaans-edge]], 433. To check: President''s Daily Diary, Jan. 31, 1966, p. 1, LBJ (cited by [[w.branch-at-canaans-edge]], 433); [Johnson and Robert McNamara, 9:20 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-january-31-1966), Conversation WH6601-11-9543 (Miller Center) (cited by [[w.branch-at-canaans-edge]], 433). See [[cal.1966-01-31.vietnam]]. Names: McNamara, Johnson.'
+    n: '[[w.branch-at-canaans-edge]], 433. To check: President''s Daily Diary, Jan. 31, 1966, p. 1, LBJ (cited by [[w.branch-at-canaans-edge]], 433); [Johnson and Robert McNamara, 9:20 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-january-31-1966), Conversation WH6601-11-9543 (Miller Center) (cited by [[w.branch-at-canaans-edge]], 433). After [[cal.1966-01-31.vietnam]] (the sources above). See [[cal.1966-01-31.vietnam]]. Names: McNamara, Johnson.'
     src:
       c: c07fc9d1
       rows:
