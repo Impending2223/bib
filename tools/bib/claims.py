@@ -156,7 +156,8 @@ def note_parts(n):
     return src, other
 
 
-CARD_ITEM = re.compile(r"^\[\[(w\.[^\]|]+)(?:\|[^\]]*)?\]\](?:, ([^(]+?))?\s*(\((?:[^()]|\([^()]*\))*\))?$")
+CARD_ITEM = re.compile(r"^\[\[(w\.[^\]|]+)(?:\|[^\]]*)?\]\](?:, ((?:\[[^\]]*\]\([^)\s]*\)|[^(])+?))?\s*(\((?:[^()]|\([^()]*\))*\))?$")
+# (a pinpoint may be a link, "[77–81](…#page=75)", and still take its parenthetical: the Chen test, point 9)
 
 
 def is_pin(text):

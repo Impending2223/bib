@@ -14,6 +14,8 @@ cite taken out) stays an `edit` with its `base`.
     - src:      {id, rows: ['w.card 123: A', 'via w.card 123 n.4: A']}
     - names:    {id, add: ['Rusk'], tags: ['name:rusk-dean']}
     - also:     {id, add: [vietnam-congress]}
+    - variant:  {id, unit: C, witness: w.card, reads: 'Oct. 26', at: '710'}    a variant (R41), added once
+    - follows:  {id, add: [cal.1964-08-04.vietnam]}                         the day's order (dayorder STYLE 2)
 
 STYLE
  1. `cite`: the card leaves "To check:" (the sentence goes when empty) and joins the run of works read: at the end of
@@ -199,7 +201,32 @@ def src(e, body):
     return new, None
 
 
-FNS = {"cite": cite, "primary": primary, "to-check": to_check, "check": check, "names": names, "also": also,
+def variant(e, body):
+    """A variant (R41) added: {id, unit, witness, reads, at}; one already there the same is not added twice (the Chen
+    test, point 6: variants were an `edit`, with a base, on entries others were adding to)."""
+    row = {k: body[k] for k in ("unit", "witness", "reads", "at") if body.get(k) not in (None, "")}
+    if not row.get("witness") or not row.get("reads"):
+        return None, "variant: give at least witness and reads (and unit, at)"
+    new = dict(e)
+    vs = list(e.get("variants") or [])
+    if row not in vs:
+        vs.append(row)
+    new["variants"] = vs
+    return new, None
+
+
+def follows(e, body):
+    """`follows` ids added (dayorder STYLE 2); its basis goes in the note by a `check`-like sentence the patch writes
+    with an edit, or is already there."""
+    new = dict(e)
+    fs = list(store.as_list(e.get("follows")))
+    fs += [f for f in body.get("add") or [] if f not in fs and f != e.get("id")]
+    if fs:
+        new["follows"] = fs
+    return new, None
+
+
+FNS = {"variant": variant, "follows": follows, "cite": cite, "primary": primary, "to-check": to_check, "check": check, "names": names, "also": also,
        "src": src, "via": src}
 
 
