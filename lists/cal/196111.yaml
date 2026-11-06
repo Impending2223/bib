@@ -448,7 +448,13 @@ entries:
     thread: state-constitutions
     also: [elections-1961]
     c: 'New York City''s voters approve a new charter, in force Jan. 1, 1963: the mayor''s powers over the budget and the city''s departments enlarged, the borough presidents'' public works moved to city departments; the City Council to have two members at large from each borough, one seat each for the minority. Check the vote.'
-    n: '[The charter as revised, 1963](https://archive.org/details/newyorkcitychart00newy_0). [Wikipedia, "New York City Charter"](https://en.wikipedia.org/wiki/New_York_City_Charter). Check: [*New York Times*, Nov. 8, 1961](https://timesmachine.nytimes.com/timesmachine/1961/11/08/issue.html). To check: [[w.sayre-governing-new-york-city]]; [[w.morris-cost-of-good-intentions]]. See [[cal.1961-11-07.states-and-cities]].'
+    n: '[The charter as revised, 1963](https://archive.org/details/newyorkcitychart00newy_0). [Wikipedia, "New York City Charter"](https://en.wikipedia.org/wiki/New_York_City_Charter). [[w.smith-on-his-own-terms]], 336 n. (approved in Nov. 1961: power to city hall at the expense of the Board of Estimate and the borough presidents; the mayor alone to estimate the city''s revenues; Rockefeller had quietly ceded the revision to Wagner). Check: [*New York Times*, Nov. 8, 1961](https://timesmachine.nytimes.com/timesmachine/1961/11/08/issue.html). To check: [[w.sayre-governing-new-york-city]]; [[w.morris-cost-of-good-intentions]]. See [[cal.1961-11-07.states-and-cities]].'
+    src:
+      c: bb6ced2c
+      rows:
+        - 'https://archive.org/details/newyorkcitychart00newy_0: all'
+        - 'https://en.wikipedia.org/wiki/New_York_City_Charter: all'
+        - 'w.smith-on-his-own-terms 336 n.: A'
     tags: [state:ny, city:nyc]
     short: New York City's charter
   - id: cal.1961-11-07.mayors-detroit
@@ -539,6 +545,17 @@ entries:
         - 'w.thomas-robert-kennedy 166: all'
         - 'via x.1962-02-23.eb223-thomas: all'
     tags: [name:campbell-judith, name:lincoln-evelyn]
+  - id: cal.1961-11-07.state-constitutions
+    when: Nov. 7
+    date: '1961-11-07'
+    thread: state-constitutions
+    c: New York's voters narrowly reject Rockefeller's bond issue of $500 million for the State University.
+    n: '[[w.smith-on-his-own-terms]], 375 (the Housing Finance Agency''s moral obligation bonds, Mitchell''s device, after it). Check: the count (the State''s canvass). See [[cal.1961-11-07.states-and-cities]]. Names: Rockefeller.'
+    src:
+      c: a456135f
+      rows:
+        - 'w.smith-on-his-own-terms 375: all'
+    tags: [name:rockefeller-nelson, state:ny]
   - id: cal.1961-11-08.vietnam
     when: Nov. 8
     date: '1961-11-08'
@@ -1293,6 +1310,18 @@ entries:
       rows:
         - 'w.futrell-united-states-air-force 95: all'
     tags: [name:anthis-rollen-h, name:nolting-frederick-e-jr]
+  - id: cal.1961-11-20.elections-1964
+    when: Nov. 20
+    date: '1961-11-20'
+    thread: elections-1964
+    c: 'Benton to Rockefeller, by letter: Stevenson, divorced himself, had more angry letters over his Unitarian faith.'
+    n: '[[w.smith-on-his-own-terms]], 364. To check: Benton to Rockefeller, Nov. 20, 1961, Rockefeller Archive Center (cited by [[w.smith-on-his-own-terms]], 364). See [[cal.1961-11-17.elections-1964]]. Names: Benton, Rockefeller, Stevenson.'
+    src:
+      c: a4666e9c
+      rows:
+        - 'w.smith-on-his-own-terms 364: all'
+        - 'via x.1961-11-20.benton-to-rockefeller: all'
+    tags: [name:benton-william, name:rockefeller-nelson, name:stevenson-adlai-e]
   - id: cal.1961-11-21.vietnam
     when: Nov. 21
     date: '1961-11-21'
@@ -2041,3 +2070,38 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 411: all'
         - 'via w.fursenko-khrushchevs-cold-war 411 n.8: all'
     tags: [name:souvanna-phouma]
+  - id: cal.1961-11.goldwater
+    when: Nov., after the separation
+    date: 1961-11
+    thread: goldwater
+    c: 'Goldwater: Rockefeller''s "family troubles" should not sway the voters in 1964.'
+    n: '[[w.smith-on-his-own-terms]], 364. Check: the day. See [[cal.1961-11-17.elections-1964]]. Names: Goldwater, Rockefeller.'
+    src:
+      c: 3444f06b
+      rows:
+        - 'w.smith-on-his-own-terms 364: all'
+    tags: [name:goldwater-barry-m, name:rockefeller-nelson]
+  - id: cal.1961-11.soviet-union-2
+    when: Nov., after the separation
+    date: 1961-11
+    thread: soviet-union
+    also: [berlin-and-vienna]
+    c: Khrushchev links the news of the Rockefellers' separation to the American troops in West Berlin.
+    n: '[[w.smith-on-his-own-terms]], 365 ("a torturous link"; the words not given). Check: the day and the words. See [[cal.1961-11-17.elections-1964]]. Names: Khrushchev.'
+    src:
+      c: 04363869
+      rows:
+        - 'w.smith-on-his-own-terms 365: all'
+    tags: [name:khrushchev-nikita-s]
+  - id: cal.1961-11.elections-1962-2
+    when: Nov., a year before the election
+    date: 1961-11
+    thread: elections-1962
+    c: Rockefeller asks Pfeiffer, once a Representative from Buffalo, to manage his campaign for re-election. Pfeiffer, earning $75,000, cannot afford it; Rockefeller offers more, from his own pocket, not the State's or the State committee's. Pfeiffer accepts.
+    n: '[[w.smith-on-his-own-terms]], 382 (two hundred paid workers in the campaign). Check: the month. Names: Rockefeller.'
+    src:
+      c: e728e1a0
+      rows:
+        - 'w.smith-on-his-own-terms 382: all'
+        - 'via x.undated.pfeiffer-interview-by-morrow: all'
+    tags: [name:rockefeller-nelson, state:ny]

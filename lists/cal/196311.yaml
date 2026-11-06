@@ -1783,13 +1783,14 @@ entries:
     follows:
       - cal.1963-11-22.assassination
     c: 'New York. Nixon, home from Dallas, telephones Hoover, by Nixon''s account: "Was it one of the right-wing nuts?" Hoover: "No, it was a Communist."'
-    n: '[[w.nixon-rn]], 252; [[w.white-making-of-the-president-1965]], 6–7 (Nixon left Dallas at 9:05 a.m., at Idlewild by 1 p.m.); [[w.perlstein-before-the-storm]], 247 (home from Dallas; the call to Hoover: "What happened, was it one of the right-wing nuts?"). After the news from Dallas. See [[cal.1963-11-22.assassination]]. Names: Nixon, Hoover.'
+    n: '[[w.nixon-rn]], 252; [[w.white-making-of-the-president-1965]], 6–7 (Nixon left Dallas at 9:05 a.m., at Idlewild by 1 p.m.); [[w.perlstein-before-the-storm]], 247 (home from Dallas; the call to Hoover: "What happened, was it one of the right-wing nuts?"); [[w.smith-on-his-own-terms]], 418 (the call; "was it one of the right wing nuts?"). After the news from Dallas. See [[cal.1963-11-22.assassination]]. Names: Nixon, Hoover.'
     src:
       c: 7ee59135
       rows:
         - 'w.nixon-rn 252: all'
         - 'w.white-making-of-the-president-1965 6–7: A'
         - 'w.perlstein-before-the-storm 247: A-B'
+        - 'w.smith-on-his-own-terms 418: B'
     tags: [name:nixon-richard-m, name:hoover-j-edgar]
   - id: cal.1963-11-22.right-and-the-military
     when: Nov. 22
@@ -2122,11 +2123,12 @@ entries:
     thread: press-and-broadcasting
     also: [goldwater, assassination]
     c: 'CBS News, Cronkite: Goldwater on his way to Muncie, Ind., for a political rally; he was bound for his mother-in-law''s burial.'
-    n: '[[w.goldberg-barry-goldwater]], 178 n.173 (the note). See [[cal.1963-11-22.goldwater-3]]. Names: Cronkite, Goldwater.'
+    n: '[[w.goldberg-barry-goldwater]], 178 n.173 (the note); [[w.smith-on-his-own-terms]], 418 (Cronkite''s report, mistaken, and his apology on the air; Goldwater at Muncie for his mother-in-law''s funeral). Check: Smith, 418, has Cronkite report that a political function would keep Goldwater from the President''s funeral. See [[cal.1963-11-22.goldwater-3]]. Names: Cronkite, Goldwater.'
     src:
       c: fb964ca9
       rows:
         - 'w.goldberg-barry-goldwater 178 n.173: all'
+        - 'w.smith-on-his-own-terms 418: B'
     tags: [name:cronkite-walter, name:goldwater-barry-m]
   - id: cal.1963-11-22.transition-and-staff
     when: Nov. 22
@@ -4292,3 +4294,15 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 161: all'
     tags: [name:johnson-lyndon-b, name:mills-wilbur-d]
+  - id: cal.1963-11.goldwater-5
+    when: Nov., after the assassination
+    date: 1963-11
+    thread: goldwater
+    also: [elections-1964]
+    c: 'Goldwater to reporters: short of a majority at San Francisco, he would flip a coin between Nixon and Scranton.'
+    n: '[[w.smith-on-his-own-terms]], 419 (and, in private, of Johnson: he would "slap you on the back today and stab you in the back tomorrow"; to his wife, he is not running). Check: the day. See [[cal.1963-11-22.goldwater]]. Names: Goldwater, Nixon, Scranton.'
+    src:
+      c: e854d93a
+      rows:
+        - 'w.smith-on-his-own-terms 419: all'
+    tags: [name:goldwater-barry-m, name:nixon-richard-m, name:scranton-william-w]

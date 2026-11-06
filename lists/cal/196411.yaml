@@ -671,6 +671,18 @@ entries:
         - 'w.graham-uncertain-triumph 70–71: all'
         - 'via w.graham-uncertain-triumph 70 n.34: all'
     tags: [name:cater-s-douglass, name:johnson-lyndon-b, name:gardner-john-w]
+  - id: cal.1964-11-03.elections-1964-4
+    when: Nov. 3, election night
+    date: '1964-11-03'
+    thread: elections-1964
+    also: [vietnam]
+    c: 'Johnson to Moyers: "I''m afraid of Vietnam."'
+    n: '[[w.smith-on-his-own-terms]], 456. To check: [[w.perlstein-before-the-storm]], 512 (cited by [[w.smith-on-his-own-terms]], 456). See [[cal.1964-11-03.elections-1964]]. Names: Johnson, Moyers.'
+    src:
+      c: 451debf6
+      rows:
+        - 'w.smith-on-his-own-terms 456: all'
+    tags: [name:johnson-lyndon-b, name:moyers-bill]
   - id: cal.1964-11-04.elections-1964
     when: Nov. 4
     date: '1964-11-04'
@@ -1196,7 +1208,7 @@ entries:
     date: '1964-11-11'
     thread: opinion
     c: 'Gallup, Oct. 16–21: with one party for liberals and one for conservatives, liberal 37 percent, conservative 34, undecided 29. The undecided asked to choose: liberal 51, conservative 49.'
-    n: '[[w.gallup-poll]], III, 1907.'
+    n: '[[w.gallup-poll]], III, 1907. Check: Smith, 456, after Robert David Johnson, *All the Way with LBJ*, 302, has a Gallup poll "taken one week after the election" showing self-described liberals and conservatives virtually tied.'
   - id: cal.1964-11-11.medicare
     when: Nov. 11
     date: '1964-11-11'
@@ -2726,3 +2738,27 @@ entries:
       c: 0287fa6a
       rows:
         - 'w.debenedetti-american-ordeal 100: all'
+  - id: cal.1964-11.press-and-broadcasting
+    when: Nov., after the election
+    date: 1964-11
+    thread: press-and-broadcasting
+    also: [elections-1964]
+    c: 'Lippmann on the election: it dispels the claims of "a great silent latent majority" of conservatives; in America one can govern only from the center.'
+    n: '[[w.smith-on-his-own-terms]], 456. Check: the day. See [[cal.1964-11-03.elections-1964]]. Names: Lippmann.'
+    src:
+      c: 7796c20e
+      rows:
+        - 'w.smith-on-his-own-terms 456: all'
+    tags: [name:lippmann-walter]
+  - id: cal.1964-11.state-legislatures
+    when: Nov.–Dec., before the session
+    date: 1964-11
+    thread: state-legislatures
+    c: 'New York. Rockefeller to the Democratic legislators, in private, between the election and the session: "I''ve got the program. You''ve got the power. Together we can do business."'
+    n: '[[w.smith-on-his-own-terms]], 459. To check: *Newsweek*, July 12, 1965 (cited by [[w.smith-on-his-own-terms]], 459). Check: the days. See [[cal.1964-11-03.legislatures-ny]]. Names: Rockefeller.'
+    src:
+      c: 7678577f
+      rows:
+        - 'w.smith-on-his-own-terms 459: all'
+        - 'via x.1965-07-12.hughes-untold-tale-newsweek: all'
+    tags: [name:rockefeller-nelson, state:ny]
