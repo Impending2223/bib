@@ -49,47 +49,47 @@ Dated events of Jan. 20, 1961–1965 in the volume that the calendar does not ta
 
 | Page | Date | Event | Why |
 |---|---|---|---|
-| 75 | Feb. 1, 1961 | the first NSC meeting of the administration, mostly on the Defense budget | to leads (FRUS; the NSC's record of action) |
-| 450 | Feb. 1, 1961 | Kennedy, on Gilpatric's advice, rescinds Eisenhower's directive cutting dependents abroad | to leads (the Public Papers; follows cal.1960-11-16.economy) |
+| 75 | Feb. 1, 1961 | the first NSC meeting of the administration, mostly on the Defense budget | to leads (FRUS; the NSC's record of action); batch 5 (Nov. 5): cited under cal.1961-02-01.defense, 75, unit A (the first meeting); the page gives the budget talk, the entry the record of action |
+| 450 | Feb. 1, 1961 | Kennedy, on Gilpatric's advice, rescinds Eisenhower's directive cutting dependents abroad | to leads (the Public Papers; follows cal.1960-11-16.economy); batch 5 (Nov. 5): already in, cited (cal.1961-02-01.economy, 450): holds |
 | 25 | Mar. 23 and July 11, 1961 | Vance's committee on common supply appointed; its report | minor (cal.1961-08-31.defense) |
-| 178 | Mar. 10, 1961 | the Joint Chiefs to McNamara: a landing could succeed at first, its success hanging on an uprising | to leads (FRUS 1961–63, X; the Cuba thread has the Chiefs' evaluation of Feb. 3) |
+| 178 | Mar. 10, 1961 | the Joint Chiefs to McNamara: a landing could succeed at first, its success hanging on an uprising | to leads (FRUS 1961–63, X; the Cuba thread has the Chiefs' evaluation of Feb. 3); batch 5 (Nov. 5): already in, cited (cal.1961-03-10.cuba) |
 | 463 | Mar. 31, 1961; May 3, 1961 | the Installations and Relocation Planning Committee; the Office of Economic Adjustment | minor (cal.1961-03-30.defense) |
 | 44 | Apr. 1, 1961 | the Air Force Systems Command begins under Schriever | minor |
 | 197 | May 5, 1961 | the President's directive to take Cuban exiles into the services | minor |
 | 427 | May 26, 1961 | Gilpatric proposes a group on military aid to Latin America | minor |
-| 152 | July 6, 1961 | the Joint Chiefs propose mobilizing 559,000 for Berlin | to leads (FRUS 1961–63, XIV; the thread has July 8 and July 25) |
+| 152 | July 6, 1961 | the Joint Chiefs propose mobilizing 559,000 for Berlin | to leads (FRUS 1961–63, XIV; the thread has July 8 and July 25); batch 5 (Nov. 5): already in, cited (cal.1961-07-06.berlin-and-vienna-2) |
 | 31 | July 31 and Sept. 20, 1961 | Yarmolinsky interim head of civil defense; Pittman takes office | minor (cal.1961-07-20.defense) |
-| 68–69 | Aug. 3–17, 1961 | the Berlin supplemental: authorization, conference, the appropriation of $46.66 billion signed Aug. 17 | to leads (the statutes; the session's appropriations table) |
-| 161 | Aug. 24, 1961 | McNamara lists for Kennedy the reserve units to be called | to leads (the call-up of Aug.–Oct. 1961 has no entry) |
-| 161 | Aug. 31, 1961 | Norstad, as CINCEUR, authorized to deal with interference with air access | to leads |
+| 68–69 | Aug. 3–17, 1961 | the Berlin supplemental: authorization, conference, the appropriation of $46.66 billion signed Aug. 17 | to leads (the statutes; the session's appropriations table); batch 5 (Nov. 5): already in, cited (cal.1961-08-03.defense, -08-04, -08-10, -08-17.defense) |
+| 161 | Aug. 24, 1961 | McNamara lists for Kennedy the reserve units to be called | to leads (the call-up of Aug.–Oct. 1961 has no entry); batch 5 (Nov. 5): already in, cited (cal.1961-08-24.berlin-and-vienna-3) |
+| 161 | Aug. 31, 1961 | Norstad, as CINCEUR, authorized to deal with interference with air access | to leads; batch 5 (Nov. 5): already in, cited (cal.1961-08-31.berlin-and-vienna) |
 | 23 | Oct. 1, 1961 | the Defense Intelligence Agency operating | already in (cal.1961-10-01.defense) |
-| 161 | Sept. 7, 1961 | McNamara proposes ordering National Guard divisions to duty | to leads (with Aug. 24) |
+| 161 | Sept. 7, 1961 | McNamara proposes ordering National Guard divisions to duty | to leads (with Aug. 24); batch 5 (Nov. 5): already in, cited (cal.1961-09-07.berlin-and-vienna-2) |
 | 164 | Sept. 13, 1961 | the White House: Norstad's plans approved if the allies concur | minor |
-| 164 | Oct. 10, 1961 | Kennedy approves sending 11 Air National Guard squadrons to Europe from Nov. 1 | to leads |
+| 164 | Oct. 10, 1961 | Kennedy approves sending 11 Air National Guard squadrons to Europe from Nov. 1 | to leads; batch 5 (Nov. 5): already in, cited (cal.1961-10-10.berlin-and-vienna) |
 | 39 | Oct. 12, 1961 | Kennedy at Fort Bragg, N.C., the Special Forces | to leads (the Public Papers) |
-| 163 | Oct. 23, 1961 | NSAM 109, the Berlin contingency plan in four phases | to leads (FRUS 1961–63, XIV) |
-| 274 | Dec. 16, 1961 | the first of McNamara's Honolulu conferences on Vietnam | to leads (the Pentagon Papers; FRUS 1961–63, I) |
+| 163 | Oct. 23, 1961 | NSAM 109, the Berlin contingency plan in four phases | to leads (FRUS 1961–63, XIV); batch 5 (Nov. 5): already in, cited (cal.1961-10-23.berlin-and-vienna-2) |
+| 274 | Dec. 16, 1961 | the first of McNamara's Honolulu conferences on Vietnam | to leads (the Pentagon Papers; FRUS 1961–63, I); batch 5 (Nov. 5): already in, cited (cal.1961-12-16.vietnam) |
 | 26 | Jan. 1, 1962 | the Defense Supply Agency begins operating | already in (cal.1961-08-31.defense, its Check) |
-| 90 | Jan. 3, 1962 | Kennedy with the Joint Chiefs and McNamara on the fiscal 1963 budget | to leads |
+| 90 | Jan. 3, 1962 | Kennedy with the Joint Chiefs and McNamara on the fiscal 1963 budget | to leads; batch 5 (Nov. 5): cited under cal.1962-01-03.defense, 90–91 (A-C, E; Decker's ceiling "rather tight", no figure) |
 | 41 | Mar. 5, 1962 | Kennedy to the new Special Warfare generals: counterinsurgency "the most pressing" | minor |
 | 463 | Mar. 31, 1962 | the second round of base closures | entered (cal.1962-03-31.defense) |
 | 305 | May 5, 1962 | McNamara to the NATO ministers at Athens | already in (cal.1962-05-04.europe-and-the-alliance) |
 | 431 | May 31, 1962 | NSAM 159 on AID's program | minor |
-| 517 | June 5, 1962 | McNamara's program for South Vietnam to Kennedy | to leads |
+| 517 | June 5, 1962 | McNamara's program for South Vietnam to Kennedy | to leads; batch 5 (Nov. 5): entered, cal.1964-06-05.vietnam-4 (the row's year is 1964: p. 517; FRUS 1964-68, I, doc. 201 read) |
 | 186–87 | June 13, 1961 | the Taylor report on the Bay of Pigs | already in (cal.1961-06-13.cuba) |
-| 468 | Sept. 1, 1961 | McNamara directs one aircraft, the TFX, for the Air Force and the Navy | to leads (the TFX's first decision; cal.1962-11-24.defense) |
-| 379–81 | Aug. 24–Nov. 26, 1962 | Skybolt: McNamara and Hitch agree to drop it; Ormsby Gore told, Nov. 8; the Chiefs for it, Nov. 20 | to leads (the thread has Dec. 11 and Dec. 18) |
-| 431 | Dec. 6, 1962 | the Clay committee on foreign aid established | to leads (the Public Papers) |
-| 282 | Jan. 7, 1963 | Wheeler's team sent to South Vietnam | to leads |
+| 468 | Sept. 1, 1961 | McNamara directs one aircraft, the TFX, for the Air Force and the Navy | to leads (the TFX's first decision; cal.1962-11-24.defense); batch 5 (Nov. 5): already in, cited (cal.1961-09-01.defense) |
+| 379–81 | Aug. 24–Nov. 26, 1962 | Skybolt: McNamara and Hitch agree to drop it; Ormsby Gore told, Nov. 8; the Chiefs for it, Nov. 20 | to leads (the thread has Dec. 11 and Dec. 18); batch 5 (Nov. 5): entered: cal.1962-08-24.defense-2 (Aug. 24), cal.1962-11-03.europe-and-the-alliance (Nov. 3), cal.1962-11-05.europe-and-the-alliance (Nov. 5), cal.1962-11-24.europe-and-the-alliance (Nov. 24), cal.1962-11-28.defense (Nov. 28), and cal.1962-10-31.europe-and-the-alliance (State's paper of Oct. 31, FRUS 1961-63, XIII, doc. 398); Nov. 8 and Nov. 20 already in, cited |
+| 431 | Dec. 6, 1962 | the Clay committee on foreign aid established | to leads (the Public Papers); batch 5 (Nov. 5): already in, cited (cal.1962-12-06.foreign-aid) |
+| 282 | Jan. 7, 1963 | Wheeler's team sent to South Vietnam | to leads; batch 5 (Nov. 5): already in, cited (cal.1963-01-07.vietnam) |
 | 405 | Feb. 18–21, 1963 | Kennedy's doubts on the MLF; the Merchant team | minor (the MLF's entries) |
-| 48 | May 6, 1963 | Kennedy extends LeMay's term by one year | to leads |
-| 458 | July 8, 1963 | McNamara's first cost reduction report to Kennedy | to leads (the cost reduction program has no entry) |
+| 48 | May 6, 1963 | Kennedy extends LeMay's term by one year | to leads; batch 5 (Nov. 5): already in, cited (cal.1963-05-06.defense) |
+| 458 | July 8, 1963 | McNamara's first cost reduction report to Kennedy | to leads (the cost reduction program has no entry); batch 5 (Nov. 5): already in, cited (cal.1963-07-08.defense) |
 | 463–64 | Dec. 7 and 12, 1963 | the base closures of December 1963 | entered (cal.1963-12-07.defense, cal.1963-12-12.defense) |
 | 464 | Dec. 27, 1963 | Johnson has McNamara name a board on the Navy yards | minor |
-| 486 | Mar. 20, 1964 | Johnson signs the military procurement authorization, a tribute to Vinson | to leads (the Public Papers) |
+| 486 | Mar. 20, 1964 | Johnson signs the military procurement authorization, a tribute to Vinson | to leads (the Public Papers); batch 5 (Nov. 5): entered, cal.1964-03-20.defense (the Public Papers and 78 Stat. 167 read) |
 | 464 | Apr. 24, 1964 | the base closures of April 1964 | entered (cal.1964-04-24.defense) |
 | 472 | Oct. 15, 1964 | the first F-111A rolled out | minor |
-| 415 | Nov. 14, 1964 | NSAM 318: one voice on the MLF | to leads (the thread has Dec. 7) |
+| 415 | Nov. 14, 1964 | NSAM 318: one voice on the MLF | to leads (the thread has Dec. 7); batch 5 (Nov. 5): entered, cal.1964-11-14.europe-and-the-alliance (NSAM 318, by FRUS 1964-68, XIII, doc. 46 n.3), and cal.1964-11-08.europe-and-the-alliance (Bundy's memorandum of Nov. 8, the recommendation the NSAM issues) |
 | 465 | Nov. 19, 1964 | the base closures of November 1964 | entered (cal.1964-11-19.defense) |
 
 ## The military re-read (Nov. 5, 2026)
@@ -108,135 +108,135 @@ Each a row; the grounds R18's, or a lead.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
-| 146 | Oct. 7, 1960 | State asks Defense for measures from a checklist on Berlin | lead: State's request (n.15) not read; named in cal.1961-01-26.berlin-and-vienna |
-| 146 | Feb. 17, 1961 | Kennedy with Brentano: no retreat on West Berlin; again to Brandt in March, Adenauer in April | lead: the meetings (FRUS 1961–63, XIV, 8–11, 25–30) not checked against the calendar |
-| 148 | Mar. 30 and Apr. 3, 1961 | State's paper "The Problem of Berlin"; ISA's objection | lead (n.19–20) |
-| 150 | May 31, 1961 | Kennedy with de Gaulle in Paris on Berlin contingency plans | lead: the Paris meetings not checked |
+| 146 | Oct. 7, 1960 | State asks Defense for measures from a checklist on Berlin | lead: State's request (n.15) not read; named in cal.1961-01-26.berlin-and-vienna; batch 5 (Nov. 5): entered, cal.1960-10-07.berlin-and-vienna (no record in the note) |
+| 146 | Feb. 17, 1961 | Kennedy with Brentano: no retreat on West Berlin; again to Brandt in March, Adenauer in April | lead: the meetings (FRUS 1961–63, XIV, 8–11, 25–30) not checked against the calendar; batch 5 (Nov. 5): Feb. 17 cited under cal.1961-02-17.economy (146, unit A); Mar. 13 entered, cal.1961-03-13.berlin-and-vienna (FRUS 1961-63, XIV, doc. 10); Apr. 13 entered, cal.1961-04-13.berlin-and-vienna (the joint statement, 1961 Pub. Papers 265) |
+| 148 | Mar. 30 and Apr. 3, 1961 | State's paper "The Problem of Berlin"; ISA's objection | lead (n.19–20); batch 5 (Nov. 5): entered, cal.1961-03-30.berlin-and-vienna (State's paper) and cal.1961-04-03.berlin-and-vienna (ISA's objection, Check: the day) |
+| 150 | May 31, 1961 | Kennedy with de Gaulle in Paris on Berlin contingency plans | lead: the Paris meetings not checked; batch 5 (Nov. 5): already in, cited (cal.1961-05-31.berlin-and-vienna, 150) |
 | 150 | June 3, 1961 | Finletter to the North Atlantic Council on the Berlin threat | minor |
 | 152 | July 7, 1961 | Schlesinger's memorandum against Acheson's approach | already in (cal.1961-07-07.berlin-and-vienna) |
 | 154 | July 26–27, 1961 | McCloy with Khrushchev at his dacha | already in (cal.1961-07-26.berlin-and-vienna), cited |
-| 154 | Aug. 11, 1961 | Khrushchev's public warning: NATO bases struck if the West goes to war over a treaty | lead: the speech (Current Digest, Sept. 6, 1961) not checked |
-| 155 | July 29–30, 1961 | Acheson with Strauss at Nitze's farm | lead |
+| 154 | Aug. 11, 1961 | Khrushchev's public warning: NATO bases struck if the West goes to war over a treaty | lead: the speech (Current Digest, Sept. 6, 1961) not checked; batch 5 (Nov. 5): entered, cal.1961-08-11.berlin-and-vienna-2 |
+| 155 | July 29–30, 1961 | Acheson with Strauss at Nitze's farm | lead; batch 5 (Nov. 5): entered, cal.1961-07-29.berlin-and-vienna |
 | 157 | Aug. 13, 1961 | Rusk's statement on the wall | already in (cal.1961-08-13.berlin-and-vienna) |
 | 159 | Aug. 20, 1961 | the battle group dismounts for the Soviet count at the checkpoint, a precedent | already in (cal.1961-08-19.berlin-and-vienna, its Check on the day) |
 | 159 | Aug. 22, 1961 | new rules curtailing West Berliners' entry to East Berlin | already in (cal.1961-08-22.berlin-and-vienna) |
-| 160 | Aug. 23 and 26, 1961 | the Soviet note on the air corridors; the American warning | lead: the notes (Documents on Germany, 783–86) not checked |
-| 160 | Aug. 28, 1961 | Bundy to Kennedy on possible compromises | lead |
+| 160 | Aug. 23 and 26, 1961 | the Soviet note on the air corridors; the American warning | lead: the notes (Documents on Germany, 783–86) not checked; batch 5 (Nov. 5): Aug. 23 cited under cal.1961-08-23.berlin-and-vienna (160); Aug. 26 entered, cal.1961-08-26.berlin-and-vienna |
+| 160 | Aug. 28, 1961 | Bundy to Kennedy on possible compromises | lead; batch 5 (Nov. 5): entered, cal.1961-08-28.berlin-and-vienna (Kaplan from Bundy's *Danger and Survival*; the memorandum not cited) |
 | 160 | Aug. 3 and 26, 1961 | Stikker's complaint to Norstad; the Ambassadorial Group on LIVE OAK and NATO | minor |
 | 162 | Oct. 21, 1961 | Gilpatric's speech at Hot Springs | already in (cal.1961-10-21.defense) |
-| 163 | Sept. 29, 1961 | ISA's "Estimate of the Situation #2" | lead (n.85) |
-| 164 | Sept. 13, 1961 | Kennedy announces Rusk will meet Gromyko at the UN | lead: the Papers (1961 Pub. Papers 601) not checked against the calendar |
+| 163 | Sept. 29, 1961 | ISA's "Estimate of the Situation #2" | lead (n.85); batch 5 (Nov. 5): entered, cal.1961-09-29.berlin-and-vienna; and the draft of Oct. 12, cal.1961-10-12.berlin-and-vienna |
+| 164 | Sept. 13, 1961 | Kennedy announces Rusk will meet Gromyko at the UN | lead: the Papers (1961 Pub. Papers 601) not checked against the calendar; batch 5 (Nov. 5): entered, cal.1961-09-13.berlin-and-vienna-2 (the statement of Sept. 13, which cal.1961-09-12.africa had named in passing) |
 | 164 | Oct. 17, 1961 | Khrushchev drops the deadline | already in (cal.1961-10-17.berlin-and-vienna) |
 | 165 | Sept. 19, 1961 | Clay back in Berlin steps up the patrols on the autobahn | already in (cal.1961-09-19.berlin-and-vienna) |
 | 165–66 | Oct. 22–28, 1961 | Lightner at Checkpoint Charlie; the decree; the tanks | already in (cal.1961-10-22, -10-23, -10-25, -10-27.berlin-and-vienna) |
-| 166 | Oct. 26–28, 1961 | Dowling's and Clay's cables for new probes; JCS 2029 to SACEUR | lead (n.99–101) |
-| 167 | Nov. 1961; Jan. 1962 | Clay home for consultations | lead: the days |
-| 167 | Mar. 6–9, 1962 | State's draft modus vivendi; the President's approval for Rusk's talks | lead (FRUS 1961–63, XV, docs. 1–2) |
-| 167 | Apr. 1962 | Clay and Konev leave Berlin | lead: the days |
-| 168 | late summer 1962 | Soviets carried to their memorial in West Berlin in armored carriers | lead: the days |
-| 169 | Nov. 8–14, 1963 | Taylor, Lemnitzer and Freeman on the convoy incidents | lead: the text names Norstad, retired Jan. 1963; the messages (n.110) not read |
+| 166 | Oct. 26–28, 1961 | Dowling's and Clay's cables for new probes; JCS 2029 to SACEUR | lead (n.99–101); batch 5 (Nov. 5): entered: cal.1961-10-26.berlin-and-vienna, cal.1961-10-26.berlin-and-vienna-2, cal.1961-10-28.berlin-and-vienna-2 |
+| 167 | Nov. 1961; Jan. 1962 | Clay home for consultations | lead: the days; batch 5 (Nov. 5): entered, cal.1961-11.berlin-and-vienna and cal.1962-01.berlin-and-vienna (Check: the day); Macmillan's letter of Nov. 10, cal.1961-11-10.europe-and-the-alliance |
+| 167 | Mar. 6–9, 1962 | State's draft modus vivendi; the President's approval for Rusk's talks | lead (FRUS 1961–63, XV, docs. 1–2); batch 5 (Nov. 5): entered, cal.1962-03-06.berlin-and-vienna (the draft) and cal.1962-03-09.berlin-and-vienna (FRUS 1961-63, XV, doc. 1) |
+| 167 | Apr. 1962 | Clay and Konev leave Berlin | lead: the days; batch 5 (Nov. 5): entered, cal.1962-04.berlin-and-vienna (Check: the days) |
+| 168 | late summer 1962 | Soviets carried to their memorial in West Berlin in armored carriers | lead: the days; batch 5 (Nov. 5): entered, cal.1962-08.berlin-and-vienna (Check: the day: "late summer and early fall") |
+| 169 | Nov. 8–14, 1963 | Taylor, Lemnitzer and Freeman on the convoy incidents | lead: the text names Norstad, retired Jan. 1963; the messages (n.110) not read; batch 5 (Nov. 5): entered, cal.1963-11-12.berlin-and-vienna and cal.1963-11-14.berlin-and-vienna; Check on the volume's "Norstad" |
 | 173 | Nov. 18 and 29, 1960 | Dulles and Bissell brief Kennedy; Eisenhower endorses the paramilitary concept | already in (cal.1960-11-18.cuba, cal.1960-11-29.cuba) |
 | 175 | Jan. 22, 1961 | Rusk's meeting on Cuba, the Chiefs' first formal look | already in (cal.1961-01-22.cuba) |
-| 175 | Jan. 25, 1961 | Kennedy's press conference: no relations while the revolution is held by "external forces" | lead: the conference is cal.1961-01-25.press-and-broadcasting; Cuba not checked in it |
+| 175 | Jan. 25, 1961 | Kennedy's press conference: no relations while the revolution is held by "external forces" | lead: the conference is cal.1961-01-25.press-and-broadcasting; Cuba not checked in it; batch 5 (Nov. 5): edited cal.1961-01-25.press-and-broadcasting (base 23e1c986): the Cuba answer added to `c` from the Public Papers, pp. 10–11; Kaplan 175 cited for it; `also: cuba` |
 | 178 | Feb. 24–27, 1961 | the Chiefs' team in Guatemala | already in (cal.1961-03-10.cuba) |
 | 180 | Mar. 30 and Apr. 4, 1961 | Fulbright's memorandum; the meeting at State | already in (cal.1961-03-30.cuba, cal.1961-04-04.cuba) |
 | 180 | Mar. 15, 1961 | Bundy to Kennedy: "now I think we are on the edge of a good answer" | already in (cal.1961-03-15.cuba, its note: FRUS 1961–63, X, doc. 64) |
 | 183 | Apr. 5, 10, 17, 1961 | D-Day put back; formal approval Apr. 16; the D-2 strikes, the diversion, the defector story | already in (the Bay of Pigs entries of Apr. 15–17) |
 | 185 | Apr. 17–19, 1961 | the landing and its collapse; 1,400 against 20,000; destroyers take off survivors | already in (cal.1961-04-19.cuba-2 and the entries of Apr. 17–19) |
-| 187 | Apr. 19, 1961 | Lemnitzer's comments to the congressional leaders at the White House | lead (his handwritten notes, n.55) |
+| 187 | Apr. 19, 1961 | Lemnitzer's comments to the congressional leaders at the White House | lead (his handwritten notes, n.55); batch 5 (Nov. 5): entered, cal.1961-04-19.cuba-11 |
 | 187 | June 13, 1961 | the Strategic Resources Group proposed; the Special Group (Augmented) under Taylor | already in (cal.1961-06-13.cuba-2) |
-| 191 | Sept. 1961 | Luce's meeting with Taylor in New York, Murphy present | lead: the day (Ewell's record of Sept. 14) |
+| 191 | Sept. 1961 | Luce's meeting with Taylor in New York, Murphy present | lead: the day (Ewell's record of Sept. 14); batch 5 (Nov. 5): entered, cal.1961-09.cuba-bay-of-pigs (Check: the day) |
 | 193 | Apr. 21, 1961 | Rostow's "The Problem We Face" | already in (cal.1961-04-21.cuba-3) |
 | 193 | May 4, 1961 | the interagency task force's paper | already in (cal.1961-05-04.cuba) |
 | 197 | 1961–62 | Miró Cardona to Gilpatric on discrimination; Spanish-language training units, more recruiting stations | lead: the days |
 | 198 | Nov. 1961 | Mongoose established | already in (the Cuba thread, Nov. 1961) |
-| 198 | Jan. 1962 | Helms's meeting: "no limitations put on the means" | lead: the day |
-| 199 | Nov. 1961 | the CIA's report: Castro to survive; $357 million in bloc credits | lead: the day |
-| 199 | summer 1962 | State's Mongoose officer: a revolt by late 1963 needs American force; Defense needs 18 or 12 days | lead: the day |
+| 198 | Jan. 1962 | Helms's meeting: "no limitations put on the means" | lead: the day; batch 5 (Nov. 5): entered, cal.1962-01.cuba-4 (by Helms's account; Check: the day) |
+| 199 | Nov. 1961 | the CIA's report: Castro to survive; $357 million in bloc credits | lead: the day; batch 5 (Nov. 5): entered, cal.1961-11-03.cuba-3 (the report is Kent's of Nov. 3, FRUS 1961-63, X, doc. 271) |
+| 199 | summer 1962 | State's Mongoose officer: a revolt by late 1963 needs American force; Defense needs 18 or 12 days | lead: the day; batch 5 (Nov. 5): entered, cal.1962-07-26.cuba-2 (the memorandum is Hurwitch's of July 26, FRUS 1961-63, X, doc. 361) |
 | 199 | Oct. 30, 1962 | Mongoose's sabotage halted | already in (cal.1962-10-30.cuba) |
-| 199–200 | summer–Nov. 1961 | State's "Guidelines of U.S. Policy Toward Cuba"; Defense's complaint in September; U. Alexis Johnson to William Bundy in November | lead: the days |
+| 199–200 | summer–Nov. 1961 | State's "Guidelines of U.S. Policy Toward Cuba"; Defense's complaint in September; U. Alexis Johnson to William Bundy in November | lead: the days; batch 5 (Nov. 5): entered, cal.1961-07.cuba-3 (the guidelines, Check: the month), cal.1961-09-28.cuba (Defense's complaint, dated by the note), cal.1961-11.cuba (Johnson to Bundy, Check: the day) |
 | 201 | Aug. 10, 23, 29, 1962 | McCone's warning; NSAM 181; the U-2 finds SAM sites | already in (cal.1962-08-10.cuba, cal.1962-08-22.missile-crisis, cal.1962-08-29.missile-crisis) |
 | 202 | Sept. 19, 1962 | SNIE 85-3-62 | already in (cal.1962-09-19.missile-crisis) |
 | 203 | Oct. 1–2, 1962 | McNamara with the Chiefs; his six contingencies | already in (cal.1962-10-01.cuba, cal.1962-10-02.missile-crisis) |
-| 203 | Oct. 1962 | the Chiefs' list of plans for a blockade, an air strike and invasion, days before the discovery | lead: the day |
+| 203 | Oct. 1962 | the Chiefs' list of plans for a blockade, an air strike and invasion, days before the discovery | lead: the day; batch 5 (Nov. 5): entered, cal.1962-10.cuba-2 (Check: the day) |
 | 204 | Aug. 27, 1962 | Capehart for an invasion | already in (cal.1962-08-27.republican-party-congress) |
 | 204–9 | Oct. 15–21, 1962 | the photographs read; the ExComm's first phase; the quarantine chosen Oct. 20 | already in (the missile-crisis entries of Oct. 15–21) |
 | 210–11 | Oct. 23–25, 1962 | the low-level flights find the buildup accelerating; the ships turn back; Van Zandt and the *Bucharest* | already in (cal.1962-10-24.missile-crisis, cal.1962-10-25.republican-party-congress, cal.1962-10-25.missile-crisis-8) |
-| 211 | Oct. 1962 | the Chiefs against Brazil's proposal of nuclear-free zones; against Argentine and Venezuelan offers outside CINCLANT | lead: the days (n.69–72) |
-| 212 | Oct. 24, 1962 | McNamara and Anderson in the Navy's control room | lead: the calendar's entries of Oct. 24 not checked for it by text; the accounts (McNamara, Gilpatric, Anderson) differ |
+| 211 | Oct. 1962 | the Chiefs against Brazil's proposal of nuclear-free zones; against Argentine and Venezuelan offers outside CINCLANT | lead: the days (n.69–72); batch 5 (Nov. 5): entered, cal.1962-10-25.missile-crisis-10, cal.1962-10-26.missile-crisis-11, cal.1962-10-28.missile-crisis-8 (each dated by its note) |
+| 212 | Oct. 24, 1962 | McNamara and Anderson in the Navy's control room | lead: the calendar's entries of Oct. 24 not checked for it by text; the accounts (McNamara, Gilpatric, Anderson) differ; batch 5 (Nov. 5): entered, cal.1962-10-24.missile-crisis-8 (the accounts' variance in Check) |
 | 213 | Oct. 27, 1962 | the U-2 down; another over Siberia | already in (cal.1962-10-27.missile-crisis) |
 | 214–15 | Oct. 28, 1962 | Khrushchev's acceptance; the *Grozny* stops; the President's statement; the ExComm's morning meeting; Castro's statement | already in (the entries of Oct. 28) |
-| 215 | Nov. 1962 | the DIA's estimate of the Il-28s: 33 at San Julián, 13 uncrated, 7 flyable | lead: the day |
-| 216 | Nov. 1962 | McNaughton: "a serious look ... at the possibilities of sabotaging the IL-28s" | lead: the day |
+| 215 | Nov. 1962 | the DIA's estimate of the Il-28s: 33 at San Julián, 13 uncrated, 7 flyable | lead: the day; batch 5 (Nov. 5): entered, cal.1962-11.missile-crisis (Check: the day) |
+| 216 | Nov. 1962 | McNaughton: "a serious look ... at the possibilities of sabotaging the IL-28s" | lead: the day; batch 5 (Nov. 5): entered, cal.1962-11-09.missile-crisis-2 (the memorandum is of Nov. 9, by the note) |
 | 216–17 | Nov. 6, 12, 15, 20, 1962 | Kennedy's letters; Khrushchev's reply; Robert Kennedy and Dobrynin; the ExComm of Nov. 12; the Il-28s out | already in (cal.1962-11-06, -11-12, -11-15, -11-20.missile-crisis) |
 | 218 | Sept. 28 and Oct. 18, 1962 | Khrushchev's promise on Berlin; Gromyko's warning | already in (cal.1962-09-28.testing; the entries of Oct. 18) |
-| 219 | Oct. 19, 1962 | the SNIE on Berlin and Cuba; Bundy's memorandum | lead: the day's entries not checked for them |
+| 219 | Oct. 19, 1962 | the SNIE on Berlin and Cuba; Bundy's memorandum | lead: the day's entries not checked for them; batch 5 (Nov. 5): entered, cal.1962-10-19.missile-crisis-6 (SNIE 11-18-62, FRUS 1961-63, XI, doc. 32), cal.1962-10-19.missile-crisis-7 (Bundy), and cal.1962-10-20.missile-crisis-6 (ISA's paper of Oct. 20, the note's) |
 | 224 | Jan. 8, 1963 | the Interdepartmental Committee on Cuba | already in (cal.1963-01-08.cuba) |
 | 224 | Mar. 1963 | an exile raid on a Soviet ship | already in (cal.1963-03-17.cuba, cal.1963-03-27.cuba) |
 | 224 | 1963 | Robert Kennedy's proposal of a speaking tour for exile leaders; USIA against | lead: the day |
-| 225 | Apr. 24, 1963 | McNamara: the Chiefs want "no precommitment against an invasion of Cuba" | lead (n.143) |
+| 225 | Apr. 24, 1963 | McNamara: the Chiefs want "no precommitment against an invasion of Cuba" | lead (n.143); batch 5 (Nov. 5): entered, cal.1963-04-24.cuba |
 | 225–26 | 1963 | Vance's proposals of non-attributable action against Cuba's petroleum, contamination, counterfeit currency | lead: the days |
 | 226 | 1963–64 | the CIA's proposal to cripple the Matanzas power plant, rejected | lead: the day |
 | 226 | Feb. 1964 | Guantánamo's water; the desalination plant ordered | already in (cal.1964-02-06.cuba, cal.1964-02-07.cuba) |
-| 226 | Jan. 1964 | Panama: the riots; the Canal Zone sealed; McNamara's contingency plans | lead: the Panama thread not checked for the contingency plans |
+| 226 | Jan. 1964 | Panama: the riots; the Canal Zone sealed; McNamara's contingency plans | lead: the Panama thread not checked for the contingency plans; batch 5 (Nov. 5): cited under cal.1964-01-09.latin-america (226, unit D); the sealing, the evacuation and the contingency plans entered, cal.1964-01.latin-america-panama-2 (Check: the days) |
 | 231 | Jan. 2, 1961 | Eisenhower's White House meeting on Laos | already in (cal.1961-01-02.laos) |
 | 232 | Jan. 21–23, 1961 | the State-Defense-CIA-ICA task force report; the meeting of Jan. 23 | already in (cal.1961-01-23.laos) |
-| 233 | Jan. 25, 1961 | Kennedy's first meeting with the Joint Chiefs, Laos first on their list | lead: the meeting is cal.1961-01-25.cuba; Laos not in it |
-| 234 | early Mar. 1961 | Thompson reports Khrushchev convinced of the American interest in a neutral Laos: "It will fall into our laps like a ripe apple" | lead: the day |
-| 235 | spring 1961 | the American threat to cut payments; Phoumi's six special battalions made replacements | lead: the day |
-| 236 | Apr. 1961 | ISA's analysis: $30 million, not $19.8 million, for fiscal 1962 | lead: the day |
+| 233 | Jan. 25, 1961 | Kennedy's first meeting with the Joint Chiefs, Laos first on their list | lead: the meeting is cal.1961-01-25.cuba; Laos not in it; batch 5 (Nov. 5): edited cal.1961-01-25.cuba (base 3f15f008): the Laos half of the meeting added from FRUS 1961-63, XXIV, doc. 12; Kaplan 233 cited for it; `also: laos` |
+| 234 | early Mar. 1961 | Thompson reports Khrushchev convinced of the American interest in a neutral Laos: "It will fall into our laps like a ripe apple" | lead: the day; batch 5 (Nov. 5): entered, cal.1961-03-10.laos (dated by Moscow's 2139 of Mar. 10, the note; Check: the day) |
+| 235 | spring 1961 | the American threat to cut payments; Phoumi's six special battalions made replacements | lead: the day; batch 5 (Nov. 5): entered, cal.1961-03.laos (Check: the day; the note's messages run Feb. 6-Mar. 2) |
+| 236 | Apr. 1961 | ISA's analysis: $30 million, not $19.8 million, for fiscal 1962 | lead: the day; batch 5 (Nov. 5): entered, cal.1961-04-05.laos-3 (dated by the note) |
 | 237 | Mar. 20, 1961 | the meeting with the President | already in (cal.1961-03-20.laos) |
 | 238 | Mar. 26, 1961 | Kennedy and Macmillan at Key West | already in (cal.1961-03-26.laos) |
-| 239 | Mar. 21 and Apr. 20, 1961 | Harriman with Souvanna in India; Souvanna invited, the meeting not held | lead: not checked against the calendar |
-| 240 | Apr. 1961 | Nitze: the Vietnam control commission to inspect Hanoi's airfield and the routes | lead: the day |
-| 241 | Apr. 17, 1961 | a cease-fire agreed and not kept | lead: the calendar has the cease-fire May 3 |
+| 239 | Mar. 21 and Apr. 20, 1961 | Harriman with Souvanna in India; Souvanna invited, the meeting not held | lead: not checked against the calendar; batch 5 (Nov. 5): entered, cal.1961-03-21.laos-4 and cal.1961-04-20.laos-4 |
+| 240 | Apr. 1961 | Nitze: the Vietnam control commission to inspect Hanoi's airfield and the routes | lead: the day; batch 5 (Nov. 5): entered, cal.1961-04-03.laos-3 (dated by the note) |
+| 241 | Apr. 17, 1961 | a cease-fire agreed and not kept | lead: the calendar has the cease-fire May 3; batch 5 (Nov. 5): a variant: Check on cal.1961-04-16.laos (Kaplan, 241: "a cease-fire they had agreed to on 17 April"); not entered, the page giving no act of that day |
 | 241–42 | Apr. 26, 29, May 1, 1961 | the naval forces moved; the meeting of Apr. 29; the 481st NSC | already in (cal.1961-04-26.laos, cal.1961-04-29.laos, cal.1961-05-01.laos) |
 | 243 | May 16, 1961 | the conference opens | already in (cal.1961-05-16.laos) |
 | 246 | May 20, 1961 | Rusk leaves Geneva; Harriman heads the delegation | already in (cal.1961-05-16.laos) |
 | 246 | June 3–4, 1961 | Vienna on Laos | already in (the Vienna entries) |
-| 248 | summer 1961 | arms and support for 7,700 Hmong | lead: the day |
-| 249 | July–Aug. 1961 | the tripartite meetings on a cease-fire, the commission and a neutral government | lead: the days |
-| 251–52 | Aug.–Sept. 1961 | Craig's visit to Southeast Asia and his report | lead: the days; in the note to cal.1961-10-19.laos |
-| 252 | Nov. 1961 | U. Alexis Johnson to William Bundy against funding Phoumi's changes | lead: the day |
-| 252 | Nov. 29, 1961 | Harriman Assistant Secretary for Far Eastern Affairs | lead: the appointments not checked |
-| 252 | late Dec. 1961 | Boyle: Phoumi stronger than in May | lead: the day |
+| 248 | summer 1961 | arms and support for 7,700 Hmong | lead: the day; batch 5 (Nov. 5): entered, cal.1961-06-26.laos-3 (the "summer" is McConaughy's memorandum of June 26, FRUS 1961-63, XXIV, doc. 123) |
+| 249 | July–Aug. 1961 | the tripartite meetings on a cease-fire, the commission and a neutral government | lead: the days; batch 5 (Nov. 5): cited under cal.1961-08.laos (249): the tripartite meetings' outcome is that entry; the meetings themselves not dated on the page |
+| 251–52 | Aug.–Sept. 1961 | Craig's visit to Southeast Asia and his report | lead: the days; in the note to cal.1961-10-19.laos; batch 5 (Nov. 5): the visit cited under cal.1961-08-14.laos (251-52); the report entered, cal.1961-09-26.laos (Taylor's summary of Sept. 26, FRUS 1961-63, XXIV, doc. 187) |
+| 252 | Nov. 1961 | U. Alexis Johnson to William Bundy against funding Phoumi's changes | lead: the day; batch 5 (Nov. 5): entered, cal.1961-11-18.laos (dated by the note) |
+| 252 | Nov. 29, 1961 | Harriman Assistant Secretary for Far Eastern Affairs | lead: the appointments not checked; batch 5 (Nov. 5): a variant: Check on cal.1961-11-26.transition-and-staff (the reshuffle); the roster has Dec. 4 |
+| 252 | late Dec. 1961 | Boyle: Phoumi stronger than in May | lead: the day; batch 5 (Nov. 5): entered, cal.1961-12-20.laos (dated by the note) |
 | 254 | May 1962 | part of the Seventh Fleet to the Gulf of Siam | already in (cal.1962-05-11.laos) |
-| 256 | Aug.–Oct. 1962 | Air America stops dropping arms to the tribes; the attaché office takes the MAAG's work; a nonresident MAAG for Laos in Bangkok proposed | lead: the days |
+| 256 | Aug.–Oct. 1962 | Air America stops dropping arms to the tribes; the attaché office takes the MAAG's work; a nonresident MAAG for Laos in Bangkok proposed | lead: the days; batch 5 (Nov. 5): the MAAG's end already in (cal.1962-10-06.laos); entered cal.1962-08-03.laos (the nonresident MAAG, dated by the note) and cal.1962-10.laos (Air America, Check: the day) |
 | 257 | 1963 | troops mobilized in Thailand in Souvanna's support; Kong Le's break with the Pathet Lao | lead: the days |
 | 263 | Jan. 28, 1961 | the President on Lansdale's report | already in (cal.1961-01-28.vietnam) |
-| 264 | Jan. 1961 | Durbrow on Diệm's procrastination | lead: the day |
-| 265 | Feb.–Mar. 1961 | McGarr's letters against the ambassador in military affairs | lead: the days |
-| 268 | May 6, 1961 | the task force's final report, State's position; Lansdale's protest | lead: not checked against cal.1961-05-06.vietnam |
+| 264 | Jan. 1961 | Durbrow on Diệm's procrastination | lead: the day; batch 5 (Nov. 5): entered, cal.1961-01-31.vietnam (Saigon's 1329 of Jan. 31, FRUS 1961-63, I, doc. 8) |
+| 265 | Feb.–Mar. 1961 | McGarr's letters against the ambassador in military affairs | lead: the days; batch 5 (Nov. 5): entered, cal.1961-02-27.vietnam and cal.1961-03-03.vietnam (the two letters of the note; the second FRUS 1961-63, I, doc. 17) |
+| 268 | May 6, 1961 | the task force's final report, State's position; Lansdale's protest | lead: not checked against cal.1961-05-06.vietnam; batch 5 (Nov. 5): entered, cal.1961-05-06.vietnam-2 (the final report) and cal.1961-05.vietnam (Lansdale's protest, Check: the day); Rostow on the report is cal.1961-05-06.vietnam |
 | 268–69 | May 1961 | Johnson in Saigon | already in (cal.1961-05-09.vietnam, cal.1961-05-12.vietnam) |
 | 270 | Oct. 1, 1961 | Diệm's appeal for a bilateral treaty | already in (cal.1961-09-30.vietnam) |
 | 271–73 | Oct. 18–Nov. 8, 1961 | the Taylor mission; its report; McNamara's memorandum | already in (cal.1961-10-18, -11-03, -11-08.vietnam) |
 | 272 | Nov. 1961 | Jungle Jim, Farm Gate, to South Vietnam | already in (cal.1961-11-05, -11-14, -11-16, -12-06.vietnam) |
-| 275 | June 1962 | Harriman's task force for Southeast Asia; McNamara's qualified support | lead: the day |
+| 275 | June 1962 | Harriman's task force for Southeast Asia; McNamara's qualified support | lead: the day; batch 5 (Nov. 5): entered, cal.1962-06-16.vietnam and cal.1962-06-19.vietnam (dated by the letters of the note) |
 | 276 | 1962 | the "Operation Beef-Up" status reports; Nitze to Dworshak on the advisers' roles | lead: the days |
-| 279 | Mar. 1962 | McGarr's valedictory report | lead: the day |
-| 280 | June and Nov. 1962 | status reports on the strategic hamlets | lead: the days |
+| 279 | Mar. 1962 | McGarr's valedictory report | lead: the day; batch 5 (Nov. 5): entered, cal.1962-03-06.vietnam (dated by the note) |
+| 280 | June and Nov. 1962 | status reports on the strategic hamlets | lead: the days; batch 5 (Nov. 5): entered, cal.1962-06-27.vietnam and cal.1962-11-17.vietnam (FRUS 1961-63, II, docs. 230 and 319) |
 | 281–82 | Jan. 2, 1963 | Ấp Bắc | already in (cal.1963-01-02.vietnam) |
-| 282 | Jan. 14, 1963 | the State of the Union: "the spearpoint of aggression has been blunted" | lead: the address's entry not checked for Vietnam |
-| 284 | May 1963 | the Chiefs tell CINCPAC to rework the fiscal 1964 program | lead: the day |
+| 282 | Jan. 14, 1963 | the State of the Union: "the spearpoint of aggression has been blunted" | lead: the address's entry not checked for Vietnam; batch 5 (Nov. 5): edited cal.1963-01-14.program (base b710fba0): Vietnam and Laos added to `c` from the Public Papers; Kaplan 282 cited for it; `also: vietnam` |
+| 284 | May 1963 | the Chiefs tell CINCPAC to rework the fiscal 1964 program | lead: the day; batch 5 (Nov. 5): entered, cal.1963-05-08.vietnam-2 (McNamara's memorandum of May 8, FRUS 1961-63, III, doc. 111) and cal.1963-05.vietnam (the Chiefs' instruction, Check: the day) |
 | 285–86 | Aug. 21–24, 1963 | the pagoda raids; Thuần to Lodge; the cable of Aug. 24 | already in (cal.1963-08-21.vietnam, cal.1963-08-24.vietnam) |
-| 286–87 | Aug. 29 and 31, 1963 | Rusk's instructions; McNamara: "no valid alternative to the Diem regime"; the meeting at State with Kattenburg | lead: the entries of Aug. 29 and 31 not checked for these |
+| 286–87 | Aug. 29 and 31, 1963 | Rusk's instructions; McNamara: "no valid alternative to the Diem regime"; the meeting at State with Kattenburg | lead: the entries of Aug. 29 and 31 not checked for these; batch 5 (Nov. 5): cited under cal.1963-08-29.vietnam-4 (287, A, E; a Check on McNamara's words) and cal.1963-08-31.vietnam-2 (287, A-B, D-E); Rusk's instructions are State's 272 and 279 (n.102), 279 being cal.1963-08-29.vietnam-3, whose units the page does not bear out: not cited there |
 | 288 | Sept. 2 and 9, 1963 | the President's interviews | already in (the entries of Sept. 2 and 9) |
 | 288–89 | Sept. 21–Oct. 2, 1963 | the McNamara-Taylor mission and the announcement | already in (cal.1963-09-21.vietnam, cal.1963-10-02.vietnam) |
-| 289 | Oct. 30, 1963 | Harkins against getting rid of Diệm | lead: the day's entries not checked |
+| 289 | Oct. 30, 1963 | Harkins against getting rid of Diệm | lead: the day's entries not checked; batch 5 (Nov. 5): entered, cal.1963-10-30.vietnam-3 (MAC 2028, FRUS 1961-63, IV, doc. 240) |
 | 290 | Nov. 1–2, 1963 | Felt's call; the coup; the brothers dead | already in (the entries of Nov. 1–2) |
 | 499 | Nov. 24 and 26, 1963 | Johnson's first meeting on Vietnam; NSAM 273 | already in (cal.1963-11-24.vietnam, cal.1963-11-26.vietnam) |
-| 499 | Nov. 27, 1963 | Johnson to the joint session: "this nation will keep its commitments from South Vietnam to West Berlin" | lead: the address's entry not checked for Vietnam |
+| 499 | Nov. 27, 1963 | Johnson to the joint session: "this nation will keep its commitments from South Vietnam to West Berlin" | lead: the address's entry not checked for Vietnam; batch 5 (Nov. 5): edited cal.1963-11-27.succession (base 7a8851c9): the line on South Vietnam and West Berlin added to `c` from the Public Papers; Kaplan 499 cited for it; the rows that stood for "all" kept to A-B; `also: vietnam` |
 | 499–500 | Dec. 19–21, 1963 | McNamara and Taylor in Saigon; the report | already in (cal.1963-12-21.vietnam) |
 | 500 | Jan. 6, 1964 | Mansfield's proposals | already in (the entries of Jan. 6) |
 | 501 | Jan. 2 and 16, 1964 | the Krulak committee's report; 34A approved | already in (cal.1964-01-16.vietnam) |
 | 502–3 | Jan. 30, 1964 | Khánh's coup | already in (cal.1964-01-30.vietnam) |
-| 503 | Feb. 4, 1964 | the press's "Harkins' Days Numbered" | lead: the day and paper |
+| 503 | Feb. 4, 1964 | the press's "Harkins' Days Numbered" | lead: the day and paper; batch 5 (Nov. 5): entered, cal.1964-01-26.press-and-broadcasting (the article is S. L. A. Marshall's of Jan. 26, 1964, by the note, not Feb. 4); Forrestal's memorandum of Feb. 4 cited under cal.1964-02-04.vietnam (503) |
 | 505 | Jan. 22 and 28, 1964 | the Chiefs' JCSM-46-64; McNamara sends it to Rusk | already in (cal.1964-01-22.vietnam); the sending, minor (a transmittal) |
 | 514 | May 26–June 2, 1964 | the President's call for joint meetings; Honolulu | already in (cal.1964-05-26.vietnam-2, cal.1964-06-01.vietnam) |
-| 516 | June 6 and 8, 1964 | Greene on McNamara's field-marshaling | lead: the entries of the days not checked |
+| 516 | June 6 and 8, 1964 | Greene on McNamara's field-marshaling | lead: the entries of the days not checked; batch 5 (Nov. 5): Greene's "field-marshaled" is from his notes of the meetings of Apr. 17 and May 18 (516 n.86), already in cal.1964-05-18.laos-2; June 6 is cal.1964-06-06.laos, cited; June 8 cited under cal.1964-06-08.laos (516) |
 | 519 | July 30–31, 1964 | the 34A raid on two islands | already in (cal.1964-08-02.vietnam) |
 | 519–23 | Aug. 2–7, 1964 | the Gulf of Tonkin, Pierce Arrow, the testimony and the resolution | already in (the entries of Aug. 2–7) |
-| 523 | Aug. 7, 1964 | the control commission tells Westmoreland it will investigate at Đà Nẵng; the fast patrol boats hidden | lead: not checked against the day's entries |
+| 523 | Aug. 7, 1964 | the control commission tells Westmoreland it will investigate at Đà Nẵng; the fast patrol boats hidden | lead: not checked against the day's entries; batch 5 (Nov. 5): entered, cal.1964-08-07.vietnam-tonkin-4 |
 | 525 | Sept. 13–14 and 18, 1964 | the attempted coup; the *Morton* and *Edwards* | already in (cal.1964-09-13.vietnam, cal.1964-09-18.vietnam) |
 | 526–27 | Nov. 1, 1964 | Biên Hòa; the working group | already in (cal.1964-11-01.vietnam, cal.1964-11-03.vietnam) |
 | 527 | Aug. 31, 1964 | Bundy suggests American units | already in (cal.1964-08-31.vietnam) |
@@ -244,72 +244,88 @@ Each a row; the grounds R18's, or a lead.
 | 528 | Dec. 20 and 24, 1964; Jan. 27 and Feb. 19–20, 1965 | the Huong government falls; the Brink bombing; the ouster of Khánh | already in (the entries of those days) |
 | 529–31 | Feb. 2–20, 1965 | Bundy's mission; Pleiku; Flaming Dart; the Chiefs' plan of Feb. 11; Eisenhower's advice; the strike of Feb. 20 cancelled | already in (the entries of Feb. 2–20) |
 | 531–32 | Mar. 2 and 8, 1965 | Rolling Thunder's first strike; the Marines at Đà Nẵng | already in (cal.1965-03-02.vietnam, cal.1965-03-08.vietnam) |
-| 4–9 | Nov.–Dec. 1960 | McNamara president of Ford, Nov. 9; meets the President-elect; named Dec. 13 | lead: the transition entries not checked for them |
-| 10 | Jan. 3, 1961 | McNamara and Gilpatric move into the Pentagon beside Gates | lead |
-| 11 | Jan. 20, 1961 | McNamara confirmed by voice vote | lead: the confirmations thread not checked |
-| 14 | Feb.–May 1961 | the task forces' deadlines, Feb. 13 and 20 and Mar. 25; Lemnitzer's requirements for strategic delivery vehicles by May 15 | lead: the year and the papers |
-| 17 | Dec. 5, 1960 | the Symington committee's plan for revising the military establishment | lead: not checked against the calendar |
-| 20 | Mar. 8, 1961 | studies directed, to be done by Sept. 1 | lead: the studies not named on the page read |
-| 20 | Jan. 29 and 31, 1961 | the Assistant Secretary for Installations and Logistics; health and medical to manpower | lead: the Executive roster |
-| 20 | May 19, 1961 | the Partridge committee's report | lead |
-| 22 | Feb. 8, 1961 | McNamara to the Chiefs: the NSC requires changes in military intelligence; a defense intelligence agency proposed | lead: cal.1961-10-01.defense not checked for it |
+| 4–9 | Nov.–Dec. 1960 | McNamara president of Ford, Nov. 9; meets the President-elect; named Dec. 13 | lead: the transition entries not checked for them; batch 5 (Nov. 5): Nov. 9 entered, cal.1960-11-09.transition-and-staff-cabinet; Dec. 8 and 13 already in, cited (4-5) |
+| 10 | Jan. 3, 1961 | McNamara and Gilpatric move into the Pentagon beside Gates | lead; batch 5 (Nov. 5): entered, cal.1961-01-03.defense; and the first meeting with the Chiefs, Jan. 9, cal.1961-01-09.defense |
+| 11 | Jan. 20, 1961 | McNamara confirmed by voice vote | lead: the confirmations thread not checked; batch 5 (Nov. 5): cited under cal.1961-01-20.transition-and-staff (11, unit B) |
+| 14 | Feb.–May 1961 | the task forces' deadlines, Feb. 13 and 20 and Mar. 25; Lemnitzer's requirements for strategic delivery vehicles by May 15 | lead: the year and the papers; batch 5 (Nov. 5): the task forces already in (cal.1961-01-24.defense), cited (14); Lemnitzer's requirement entered with the projects of Mar. 8, cal.1961-03-08.defense |
+| 17 | Dec. 5, 1960 | the Symington committee's plan for revising the military establishment | lead: not checked against the calendar; batch 5 (Nov. 5): entered, cal.1960-12-05.defense |
+| 20 | Mar. 8, 1961 | studies directed, to be done by Sept. 1 | lead: the studies not named on the page read; batch 5 (Nov. 5): entered with l. 250, cal.1961-03-08.defense (the projects of Mar. 8, Vance's due Sept. 1) |
+| 20 | Jan. 29 and 31, 1961 | the Assistant Secretary for Installations and Logistics; health and medical to manpower | lead: the Executive roster; batch 5 (Nov. 5): entered, cal.1961-01-29.defense and cal.1961-01-31.defense |
+| 20 | May 19, 1961 | the Partridge committee's report | lead; batch 5 (Nov. 5): not borne out as dated: May 19, 1961 is the footnote's date for the Assistant Secretary (Research and Engineering), p. 20; the Partridge report is of Nov. 17, 1961 (318), entered with l. 295, cal.1961-11-17.defense-2 |
+| 22 | Feb. 8, 1961 | McNamara to the Chiefs: the NSC requires changes in military intelligence; a defense intelligence agency proposed | lead: cal.1961-10-01.defense not checked for it; batch 5 (Nov. 5): entered, cal.1961-02-08.defense-2; the Chiefs' answer of Mar. 2, cal.1961-03-02.defense |
 | 23 | Aug. 1 and Oct. 1, 1961 | the Defense Intelligence Agency established; operating | already in (cal.1961-10-01.defense) |
 | 25–26 | Mar. 23–Aug. 31, 1961 | Vance's committee on common supply; the Defense Supply Agency announced | already in (cal.1961-08-31.defense) |
-| 26 | Sept. 12, 1961 | the Supply Agency's director called back from Korea | lead |
+| 26 | Sept. 12, 1961 | the Supply Agency's director called back from Korea | lead; batch 5 (Nov. 5): entered, cal.1961-09-12.defense-2 |
 | 26–27 | Jan. 1–July 1, 1962; Feb. 28, 1962 | the Supply Agency operating, six supply centers then nine; 10,129 personnel | already in (cal.1961-08-31.defense, its Check) |
-| 29 | May 1962 | Saltonstall's hearings on the Supply Agency | lead: the day |
+| 29 | May 1962 | Saltonstall's hearings on the Supply Agency | lead: the day; batch 5 (Nov. 5): entered, cal.1962-05.defense (Check: the day), and the House hearing of May 11, cal.1962-05-11.defense |
 | 30–31 | May 25, July 20 and 25, 1961 | the urgent needs message; Executive Order 10952; the Office of Emergency Planning | already in (cal.1961-05-25.space, cal.1961-07-20.defense) |
-| 31 | July 31 and Sept. 20, 1961 | Yarmolinsky interim civil defense head; Pittman takes office | lead: the Executive roster |
-| 32 | Nov. 24, 1963 | Johnson's advisers on the shelter program | lead: the day's entries not checked |
-| 33 | Mar. 31, 1964 | Pittman resigns | lead: the Executive roster |
+| 31 | July 31 and Sept. 20, 1961 | Yarmolinsky interim civil defense head; Pittman takes office | lead: the Executive roster; batch 5 (Nov. 5): entered, cal.1961-07-31.defense-2, cal.1961-08-31.defense-2 (the directive of Aug. 31) and cal.1961-09-20.defense-2 |
+| 32 | Nov. 24, 1963 | Johnson's advisers on the shelter program | lead: the day's entries not checked; batch 5 (Nov. 5): the meeting is of Nov. 24, 1961, not 1963 (32): already in, cited under cal.1961-11-24.defense |
+| 33 | Mar. 31, 1964 | Pittman resigns | lead: the Executive roster; batch 5 (Nov. 5): entered, cal.1964-03-31.defense |
 | 35 | Jan. 2–14, 1961 | Lansdale in South Vietnam for Gates; his report | already in (cal.1961-01-28.vietnam) |
 | 38 | Feb. 1961 | McNamara tasks the Chiefs and ISA on more emphasis on counterguerrilla forces | already in (cal.1961-02-01.defense) |
-| 39 | Jan. 1962; June 30, 1964 | the 4400th made a group; the Air Force's special forces 3,900 men, 184 aircraft | lead: the days |
+| 39 | Jan. 1962; June 30, 1964 | the 4400th made a group; the Air Force's special forces 3,900 men, 184 aircraft | lead: the days; batch 5 (Nov. 5): entered, cal.1962-01.defense-5 (Check: the day; the figures of June 30, 1964 in it) |
 | 40 | spring 1962 | HMM-362 to Vietnam | already in (the Shufly entries, Apr. 1962) |
-| 41 | Jan. 11, 1962 | the President's directive on counterinsurgency training | lead: not checked against cal.1962-01-18.defense |
-| 41 | Feb. 14, 1962 | McNamara to Senate Defense Appropriations on the guerrilla forces | lead: the hearing's day not checked |
+| 41 | Jan. 11, 1962 | the President's directive on counterinsurgency training | lead: not checked against cal.1962-01-18.defense; batch 5 (Nov. 5): already in as cal.1962-01.defense; cited (41) with a Check on the day (Jan. 11, FRUS 1961-63, VIII, doc. 67) |
+| 41 | Feb. 14, 1962 | McNamara to Senate Defense Appropriations on the guerrilla forces | lead: the hearing's day not checked; batch 5 (Nov. 5): entered, cal.1962-02-14.defense |
 | 41–42 | June 6 and July 3, 1962 | West Point; the counterinsurgency course's first graduates at the White House | already in (the West Point entry); the graduates: lead |
 | 46 | Jan. 12, 1961 | Wiesner's committee on space | already in (the space thread) |
-| 53 | Jan. 12 and 16, 1961 | Eisenhower's last State of the Union and budget | lead: not checked against the calendar |
-| 53 | Mar. 31 and May 29, 1961 | the third supplemental enacted; a fourth requested | lead: the statutes |
-| 56–57 | Feb.–Mar. 1961 | the House Armed Services and Mahon's hearings on fiscal 1962, Feb. 16–Mar. 28 | lead: the hearings' days (the year printed by the script uncertain) |
+| 53 | Jan. 12 and 16, 1961 | Eisenhower's last State of the Union and budget | lead: not checked against the calendar; batch 5 (Nov. 5): already in (cal.1961-01-12.program, cal.1961-01-16.economy), cited (53) |
+| 53 | Mar. 31 and May 29, 1961 | the third supplemental enacted; a fourth requested | lead: the statutes; batch 5 (Nov. 5): entered, cal.1961-03-31.defense (75 Stat. 20, read on govinfo) and cal.1961-05-29.defense |
+| 56–57 | Feb.–Mar. 1961 | the House Armed Services and Mahon's hearings on fiscal 1962, Feb. 16–Mar. 28 | lead: the hearings' days (the year printed by the script uncertain); batch 5 (Nov. 5): House Armed Services' first day (Feb. 23) already in (cal.1961-02-23.defense); Mahon's opening entered, cal.1961-02-16.defense-2 |
 | 57 | Feb. 1, 1961 | the first NSC meeting, on the Defense budget | already in (cal.1961-02-01.defense) |
 | 61 | Jan. 17, 1961 | the Army's preemptive budget proposals | minor (a service's submission) |
 | 62–63 | Mar. 28–Apr. 28, 1961 | the budget message; the added $1.5 billion; the hearings of Apr. 6 and 18; McNamara with Vinson | already in (cal.1961-03-28.defense); the hearings: lead |
-| 64 | May 15–June 12, 1961 | the fiscal 1962 authorization through both houses and conference | lead: the statute (75 Stat. 94, June 21) and the Record |
-| 64–66 | May 25–June 1961 | the reserve divisions' readiness; Flood on two reserve divisions in two weeks | lead: the days |
-| 67 | June 28, July 13, 1961 | the House passes the appropriation; McNamara to Zuckert "shocked and embarrassed" | lead: the year and matter not settled on the pages read |
-| 69 | Oct. 27, 1961 | McNamara announces a decision the President approved (n.61, News Release 1220-61) | lead: the decision not read on the page |
-| 75–92 | 1961 | the programming system: Hitch's recommendation accepted Jan. 18; the program packages; the service submissions of July 3–Aug. 31; McNamara's guidance of Sept. 22; the reviews of Oct.–Dec.; the budget settled with the President, Jan. 3, 1962 | lead: the budget's internal calendar, its papers not read; Jan. 3, 1962 already in (cal.1962-01-03.vietnam) |
-| 97–100 | Jan. 19–Feb. 26, 1962 | the posture statement and the armed services committees' hearings on fiscal 1963; the Air Force's unhappiness with the RS-70 decision | lead: the hearings' days |
+| 64 | May 15–June 12, 1961 | the fiscal 1962 authorization through both houses and conference | lead: the statute (75 Stat. 94, June 21) and the Record; batch 5 (Nov. 5): entered: cal.1961-05-15.defense, cal.1961-05-24.defense, cal.1961-06-12.defense, cal.1961-06-21.defense (75 Stat. 94, read on govinfo) |
+| 64–66 | May 25–June 1961 | the reserve divisions' readiness; Flood on two reserve divisions in two weeks | lead: the days; batch 5 (Nov. 5): entered, cal.1961-05-26.defense and cal.1961-05-31.defense (dated by the note, May 31) |
+| 67 | June 28, July 13, 1961 | the House passes the appropriation; McNamara to Zuckert "shocked and embarrassed" | lead: the year and matter not settled on the pages read; batch 5 (Nov. 5): the year is 1961: entered, cal.1961-06-28.defense, cal.1961-07-10.defense, cal.1961-07-13.defense, cal.1961-07-18.defense |
+| 69 | Oct. 27, 1961 | McNamara announces a decision the President approved (n.61, News Release 1220-61) | lead: the decision not read on the page; batch 5 (Nov. 5): the decision read on p. 69: entered, cal.1961-10-27.defense (the announcement) and cal.1961-08-16.defense (the recommendation of Aug. 16) |
+| 75–92 | 1961 | the programming system: Hitch's recommendation accepted Jan. 18; the program packages; the service submissions of July 3–Aug. 31; McNamara's guidance of Sept. 22; the reviews of Oct.–Dec.; the budget settled with the President, Jan. 3, 1962 | lead: the budget's internal calendar, its papers not read; Jan. 3, 1962 already in (cal.1962-01-03.vietnam); batch 5 (Nov. 5): entered cal.1961-01-18.defense-4 (Jan. 18), cal.1961-05-13.defense (May 13), cal.1961-08-29.defense (Aug. 29); Sept. 22 cited under cal.1961-09-22.defense (82); Jan. 3, 1962 already in |
+| 97–100 | Jan. 19–Feb. 26, 1962 | the posture statement and the armed services committees' hearings on fiscal 1963; the Air Force's unhappiness with the RS-70 decision | lead: the hearings' days; batch 5 (Nov. 5): entered, cal.1962-01-19.defense, cal.1962-01-24.defense, cal.1962-02-26.defense, cal.1962-02-27.defense, cal.1962-02-28.defense |
 | 101–4 | Feb.–Mar. 1962 | the RS-70: Vinson's committee directs the spending; McNamara's press conference of Mar. 7; the Chiefs asked Mar. 5; McNamara before the committee Mar. 14; McNamara to the Speaker Mar. 20 | already in (cal.1962-03-21.defense); the days before: lead |
-| 119–31 | 1962 | the fiscal 1964 budget's making: the projections of May 23; the JSOP; the services' estimates of Oct. 1; McNamara's memorandum of Oct. 24; the Chiefs against cancelling Skybolt; Wiesner's criticism; the White House meeting of Dec. 5 | lead: the internal papers; Skybolt's cancellation already in (the alliance thread, Dec. 1962) |
+| 119–31 | 1962 | the fiscal 1964 budget's making: the projections of May 23; the JSOP; the services' estimates of Oct. 1; McNamara's memorandum of Oct. 24; the Chiefs against cancelling Skybolt; Wiesner's criticism; the White House meeting of Dec. 5 | lead: the internal papers; Skybolt's cancellation already in (the alliance thread, Dec. 1962); batch 5 (Nov. 5): entered, cal.1962-05-23.defense, cal.1962-10-01.defense-2, cal.1962-10-24.defense, cal.1962-12-04.defense-3, cal.1962-12-05.defense (the recording behind To check); the Chiefs on Skybolt are cal.1962-11-20.europe-and-the-alliance |
 | 132 | Jan. 30–Feb. 4, 1963 | McNamara before House Armed Services, 17 hours | already in (cal.1963-01-30.missile-crisis, the same hearing, entered from p. 218) |
-| 136 | Feb. 6–13, 1963 | McNamara before Mahon's subcommittee; the hearings close May 20 | lead: the hearings' days |
-| 139 | Sept. 24, 1963 | the Senate passes the appropriation after the test ban | lead: the vote not read on the page |
-| 296–97 | 1961–63 | the Basic National Security Policy drafts: Gilpatric circulates one May 5, 1961; Rostow's drafts at Policy Planning; Smith to Taylor Aug. 1 | lead: papers of government, the years not settled on the pages read |
+| 136 | Feb. 6–13, 1963 | McNamara before Mahon's subcommittee; the hearings close May 20 | lead: the hearings' days; batch 5 (Nov. 5): Feb. 6 cited under cal.1963-02-06.europe-and-the-alliance-jupiters (136); the hearings' close entered, cal.1963-05-20.defense |
+| 139 | Sept. 24, 1963 | the Senate passes the appropriation after the test ban | lead: the vote not read on the page; batch 5 (Nov. 5): entered, cal.1963-09-24.defense (the votes from Kaplan; Check: the roll calls) |
+| 296–97 | 1961–63 | the Basic National Security Policy drafts: Gilpatric circulates one May 5, 1961; Rostow's drafts at Policy Planning; Smith to Taylor Aug. 1 | lead: papers of government, the years not settled on the pages read; batch 5 (Nov. 5): May 5, 1961, May 7, 1962 and Jan. 17, 1963 already in, cited (296-97); Smith's memorandum of Aug. 1, 1962 entered, cal.1962-08-01.defense |
 | 299–300 | Feb. 6, 1961 | McNamara's background session: no missile gap | already in (cal.1961-02-06.defense) |
-| 303–4 | Apr. 10–21, 1961 | Acheson's NATO report; the Chiefs and Norstad | lead: not checked against the alliance thread |
+| 303–4 | Apr. 10–21, 1961 | Acheson's NATO report; the Chiefs and Norstad | lead: not checked against the alliance thread; batch 5 (Nov. 5): entered, cal.1961-04-10.europe-and-the-alliance (Apr. 10, 1961 Pub. Papers 254) and cal.1961-03-28.europe-and-the-alliance (the Chiefs on the draft, Mar. 28); the directive already in, cited (303-04) |
 | 305–8 | May 5 and June 16, 1962 | McNamara at Athens; Ann Arbor | already in (cal.1962-05-04.europe-and-the-alliance, cal.1962-06-16.defense) |
-| 311 | Apr. 18 and Aug. 18, 1961 | Lemnitzer's note to McNamara; the Chiefs' report on damage criteria | lead: papers of government |
-| 317–18 | Aug. 24, Nov. 17, Dec. 1, 1961 | McNamara on command and control; the command structure; the Chiefs on nuclear planning | lead: papers of government |
-| 319–20 | Nov.–Dec. 1963 | the draft memorandum "Recommended FY 1965–FY 1969 Strategic Retaliatory Forces," Dec. 6; the shelter program | lead: papers of government |
-| 325–52 | 1961–63 | the test ban: McCloy's review; the Committee of Principals of Mar. 2, 1961; the Chiefs' deadline; Taylor for resuming tests, Aug. 7–8, 1961; the Irish resolution; the meetings of June 20, 1962 and July 26–Aug. 1, 1962; the treaty drafts of Aug. 27, 1962; the Chiefs and ACDA, Feb.–June 1963; LeMay with McNamara June 24, 1963; the Harriman mission and the treaty; the Stennis report Sept. 9, 1963 | lead: the testing thread not checked by text for these days |
-| 359–66 | 1961–62 | NATO: McNamara to the Military Committee Apr. 10, 1961; the State-Defense meetings of Feb. 1961; Gilpatric to Bundy June 15, 1961; the five Polaris for NATO, May 5, 1962 | lead: the alliance thread not checked by text; the Polaris commitment already in (cal.1962-05-04.europe-and-the-alliance) |
-| 370 | Dec. 20, 1961 | the trade agreement in force | lead |
-| 379–83 | Aug.–Dec. 1962 | Skybolt: Nitze's memorandum of Nov. 3; McNamara's note of Nov. 5; Thorneycroft's group; the failure of the fifth test flight, Nov. 28 | lead: the days' records; the entries of Nov. 7, 8, 20 and Dec. 10–18 hold the rest |
+| 311 | Apr. 18 and Aug. 18, 1961 | Lemnitzer's note to McNamara; the Chiefs' report on damage criteria | lead: papers of government; batch 5 (Nov. 5): already in (cal.1961-04-18.defense, cal.1961-08-18.defense), cited (311) |
+| 317–18 | Aug. 24, Nov. 17, Dec. 1, 1961 | McNamara on command and control; the command structure; the Chiefs on nuclear planning | lead: papers of government; batch 5 (Nov. 5): entered: cal.1961-08-24.defense (Aug. 24), cal.1961-11-17.defense-2 (Nov. 17, the Partridge task force), cal.1961-12-01.defense-2 (Dec. 1, the second Hickey report) |
+| 319–20 | Nov.–Dec. 1963 | the draft memorandum "Recommended FY 1965–FY 1969 Strategic Retaliatory Forces," Dec. 6; the shelter program | lead: papers of government; batch 5 (Nov. 5): entered, cal.1963-12-06.defense-2; the shelter passage (320) gives no act of the days |
+| 325–52 | 1961–63 | the test ban: McCloy's review; the Committee of Principals of Mar. 2, 1961; the Chiefs' deadline; Taylor for resuming tests, Aug. 7–8, 1961; the Irish resolution; the meetings of June 20, 1962 and July 26–Aug. 1, 1962; the treaty drafts of Aug. 27, 1962; the Chiefs and ACDA, Feb.–June 1963; LeMay with McNamara June 24, 1963; the Harriman mission and the treaty; the Stennis report Sept. 9, 1963 | lead: the testing thread not checked by text for these days; batch 5 (Nov. 5): entered cal.1961-03-11.testing (Mar. 11, 1961), cal.1961-07-28.testing (July 28), cal.1961-08-07.testing (Aug. 7), cal.1961-12-04.testing (Dec. 4), cal.1962-06-20.testing (June 20, 1962), cal.1963-06-24.testing (June 24, 1963), cal.1963-09-09.testing-3 (Sept. 9, 1963); Aug. 8, 1961 and Aug. 27, 1962 cited; the Committee of Principals of Mar. 2, 1961 is in cal.1961-03-02.testing; the press conference of Aug. 1, 1962 (cal.1962-08-01.albany) not checked for its test ban answer: left for a reader |
+| 359–66 | 1961–62 | NATO: McNamara to the Military Committee Apr. 10, 1961; the State-Defense meetings of Feb. 1961; Gilpatric to Bundy June 15, 1961; the five Polaris for NATO, May 5, 1962 | lead: the alliance thread not checked by text; the Polaris commitment already in (cal.1962-05-04.europe-and-the-alliance); batch 5 (Nov. 5): entered, cal.1961-02-20.europe-and-the-alliance (Spaak, Feb. 20, 1961, the "State-Defense meetings of February"), cal.1961-05-01.europe-and-the-alliance (May 1), cal.1961-06-15.europe-and-the-alliance (June 15); Apr. 10, 1961 is the President's remarks, entered with l. 292; May 5, 1962 already in (cal.1962-05-04.europe-and-the-alliance) |
+| 370 | Dec. 20, 1961 | the trade agreement in force | lead; batch 5 (Nov. 5): entered, cal.1961-12-20.europe-and-the-alliance (the agreement, 12 U.S.T. 3132, not yet read) |
+| 379–83 | Aug.–Dec. 1962 | Skybolt: Nitze's memorandum of Nov. 3; McNamara's note of Nov. 5; Thorneycroft's group; the failure of the fifth test flight, Nov. 28 | lead: the days' records; the entries of Nov. 7, 8, 20 and Dec. 10–18 hold the rest; batch 5 (Nov. 5): with l. 81: Nitze Nov. 3, McNamara Nov. 5, the fifth flight Nov. 28 entered; Thorneycroft's group is the call of Nov. 9, in cal.1962-11-08.europe-and-the-alliance. Passed over: the trip put off Nov. 26 and settled Dec. 6 (381), a meeting's preparation |
 | 387–418 | 1962–65 | the multilateral force: the State-ISA meeting of Feb. 21, 1962; MC 99 and the Chiefs' study due Aug. 31, 1962; Kissinger's consultancy; the Merchant team, Feb. 22–Mar. 17, 1963; the President's meeting of Feb. 18 and note of Feb. 21, 1963; Norstad's and the State statement of Apr. 16–18, 1963; NSAM 318, Nov. 14, 1964; the Johnson-Wilson meetings of Dec. 1964 | lead: the MLF's entries not checked by text; the Merchant team passed over by the first run as minor |
-| 423–45 | 1961–64 | military assistance: the Foreign Assistance Act of 1961 (passed Aug. 31, signed Sept. 4) and its appropriation (Sept. 30); AID set up Nov. 3, 1961; the NSC of Jan. 18, 1963; NSAM 159; the Clay committee's meetings; Passman's cuts; the acts of Dec. 16, 1963 and Oct. 1964; the fiscal 1966 program | lead: the foreign aid thread not checked by text; Clay's report already in (cal.1963-03-24.foreign-aid) |
-| 449–52 | 1960–65 | the balance of payments: Gates's order of Nov. 25, 1960; the offset negotiations; the review of July 18, 1963 | lead: the economy thread not checked by text |
+| 423–45 | 1961–64 | military assistance: the Foreign Assistance Act of 1961 (passed Aug. 31, signed Sept. 4) and its appropriation (Sept. 30); AID set up Nov. 3, 1961; the NSC of Jan. 18, 1963; NSAM 159; the Clay committee's meetings; Passman's cuts; the acts of Dec. 16, 1963 and Oct. 1964; the fiscal 1966 program | lead: the foreign aid thread not checked by text; Clay's report already in (cal.1963-03-24.foreign-aid); batch 5 (Nov. 5): entered cal.1961-08-31.foreign-aid, cal.1961-09-01.foreign-aid, cal.1961-09-30.foreign-aid, cal.1961-11-03.foreign-aid; the NSC of "Jan. 18, 1963" is of Jan. 18, 1962 (429), cal.1962-01-18.foreign-aid, cited; Sept. 4, 1961 and Dec. 16, 1963 cited; the acts of October 1964 already in (cal.1964-10-07.foreign-aid); Passman's cuts and the fiscal 1966 program give no act of a day on the pages read |
+| 449–52 | 1960–65 | the balance of payments: Gates's order of Nov. 25, 1960; the offset negotiations; the review of July 18, 1963 | lead: the economy thread not checked by text; batch 5 (Nov. 5): entered cal.1960-11-25.economy (Gates, Nov. 25, 1960), cal.1962-07-16.economy (NSAM 171), cal.1961-11-27.economy (the offset, Nov. 1961), cal.1962-09.economy (its extension, Sept. 1962); the "review of July 18, 1963" not on pp. 449-52 (the message of that day is cal.1963-07-18.economy) |
 | 456–61 | 1963–64 | the cost reduction program: Morris's report and the staff meetings of Jan. 7 and 21, 1963; the savings targets | minor (staff meetings); the reports entered |
 | 462–65 | 1961–64 | base closures: the report of Mar. 1, 1961; the Office of Economic Adjustment May 3, 1961; McNamara's press conference of Jan. 28, 1964 on the Navy yards; the civilians displaced | already in (the closures entered by the first run); the press conference: lead |
-| 466–72 | 1960–64 | the TFX: Gates halts both planes Nov. 11, 1960; McNamara to York Feb. 14, 1961; the evaluations of Feb. 1 and June 20–21, 1962; Gilpatric's letter of July 13, 1962; the McClellan hearings and letters of 1963; the Navy's design reviews of Aug. 14 and Oct. 1, 1964 | lead: the evaluations are the services' internal papers; the award and the hearings already in (cal.1962-11-24.defense, cal.1963-02-26.defense) |
-| 477–97 | 1963–65 | the fiscal 1965 and 1966 budgets: the Air Force's budget to Zuckert Oct. 7; the House Armed Services report of Feb. 13, 1964; Russell's suspended hearings; McNamara with the President Dec. 11, 1964; the President's meeting of Jan. 18, 1965 | lead: the budget's steps; the Record and the statutes to read |
+| 466–72 | 1960–64 | the TFX: Gates halts both planes Nov. 11, 1960; McNamara to York Feb. 14, 1961; the evaluations of Feb. 1 and June 20–21, 1962; Gilpatric's letter of July 13, 1962; the McClellan hearings and letters of 1963; the Navy's design reviews of Aug. 14 and Oct. 1, 1964 | lead: the evaluations are the services' internal papers; the award and the hearings already in (cal.1962-11-24.defense, cal.1963-02-26.defense); batch 5 (Nov. 5): entered: cal.1960-11-11.defense, cal.1961-02-14.defense, cal.1961-10-01.defense-2, cal.1962-02-01.defense, cal.1962-06-20.defense, cal.1962-07-13.defense, cal.1964-08-14.defense, cal.1964-10-01.defense; the award and the hearings already in |
+| 477–97 | 1963–65 | the fiscal 1965 and 1966 budgets: the Air Force's budget to Zuckert Oct. 7; the House Armed Services report of Feb. 13, 1964; Russell's suspended hearings; McNamara with the President Dec. 11, 1964; the President's meeting of Jan. 18, 1965 | lead: the budget's steps; the Record and the statutes to read; batch 5 (Nov. 5): entered: cal.1963-10-07.defense, cal.1964-02-13.defense, cal.1964-02-20.defense, cal.1964-02-25.defense, cal.1964-02-27.defense, cal.1964-03-05.defense, cal.1964-03-09.defense, cal.1964-05-27.defense, cal.1964-12-11.defense, cal.1965-01-18.defense (pending, the b5-kotz patch: cited) |
 | 547 | Sept. 30, 1962–July 25, 1963 | the troops at Oxford, the last gone by July 25, 1963 | already in (the Ole Miss thread) |
+
+## Batch 5 (Nov. 5, 2026): the rows sent back
+
+The owner's ruling of Nov. 5 (`notes/briefs/batch5.md`): the 122 rows of `notes/leads-canvass.md`, "B", under this work (the Passed over rows ruled a lead, and the two Leads lines that repeat them), each settled on the page. Copy: the owner's Drive file `OSDSeries_Vol5.pdf` (34 MB, 714 pages), by the direct route (R54), into the session's scratchpad; its text layer (`pdftotext -layout`); folios as above (PDF less 18, 34, 50); pp. 486 and 517 checked on the page image; the copy, its text and the images deleted when done. Each row: the calendar searched on its day and the days around it, in the tree and the ledger; the page read with its note; the record the note names read where the series holds it (FRUS's documents, the Public Papers, the Statutes at Large on govinfo: 75 Stat. 20, 75 Stat. 94, 78 Stat. 167). Each row's ruling is written into its Why cell above ("batch 5 (Nov. 5): ..."). Where a row's year or day was wrong, the page's is used and said (l. 78: 1964, not 1962; l. 254: the Partridge report Nov. 17, 1961, not May 19; l. 263: Nov. 24, 1961, not 1963; l. 281: 1961; l. 302: the NSC of Jan. 18, 1962).
+
+The patch `inbox/2026-11-05-b5-kaplan-mcnamara-ascendancy-1961-1965.yaml`: 172 new entries, each claimed in the ledger; cites to entries already in (additive `cite`); four edits with a fresh base, adding to `c` what the record and the page give (`cal.1961-01-25.press-and-broadcasting`, Cuba; `cal.1961-01-25.cuba`, Laos, FRUS 1961–63, XXIV, doc. 12; `cal.1963-01-14.program`, Vietnam and Laos; `cal.1963-11-27.succession`, South Vietnam to West Berlin); three Checks on variants (`cal.1961-04-16.laos`, the cease-fire's day; `cal.1961-11-26.transition-and-staff`, Harriman's day; `cal.1963-08-29.vietnam-4`, McNamara's words) and one on a day (`cal.1962-01.defense`, Jan. 11, 1962). The pending `cal.1965-01-18.defense` (the b5-kotz patch) takes Kaplan's cite, not a second entry. Witnesses: `inbox/witnesses/2026-11-05-b5-kaplan-mcnamara-ascendancy-1961-1965.yaml` (117 rows); the edges in `sources/witnesses/by-work/kaplan-mcnamara-ascendancy-1961-1965.yaml` (124 added). A new card, `w.ausland-kennedy-khrushchev-and-the` (Ausland, *Kennedy, Khrushchev, and the Berlin-Cuba Crisis, 1961–1964* (1996), from the volume's bibliography), in `works/a.yaml`. The patch-check's same-day flags were read: each new entry is a separate act of its day.
+
+### Passed over (batch 5)
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 381 | Nov. 26 and Dec. 6, 1962 | McNamara puts off his trip to London; decides to stop there on the way to Paris | a meeting's preparation (R18): the meeting is cal.1962-12-11.europe-and-the-alliance |
+
+### Not settled
+
+- The press conference of Aug. 1, 1962 (`cal.1962-08-01.albany`) holds the test ban answer Kaplan gives (339) but its `c` does not; the Public Papers to be read for it, and the entry edited or a sibling entry made.
+- The fiscal 1966 Defense authorization and appropriation (pp. 487–97) read only for the dates entered; the fiscal 1965 appropriation's steps (pp. 487–88: Mahon's hearings Jan. 20–Mar. 19, 1964, the House's report and passage of Apr. 17–22, the reclama of May 12) not entered.
+- The test ban rows: the Chiefs' deadline of June 1 ("a week later," 329) and the Harriman mission's instructions (347) not entered; the Committee of Principals of Mar. 2, 1961 is in `cal.1961-03-02.testing` but not cited (its units not read against p. 329).
 
 ## Leads
 
 - National: the witnesses for the entries of chs. XI–XIX and of the budget chapters (I–VI, XVII–XVIII) from this run not registered; the notes give OSD's, ISA's and the JCS's files by folder.
-- National: the Defense budgets' legislative steps of 1961 and 1964–65 (the authorization of June 21, 1961, 75 Stat. 94; the acts of fiscal 1965 and 1966) not entered; the Record's days and the statutes to read.
-- National: Kaplan's dates that differ from the calendar's, each a Check in its entry: the Phước Vĩnh attack (Sept. 18), the PEO made a MAAG (Apr. 19), Millpond approved (Mar. 9 against Mar. 13), the RS-70 vote (224–179), the quarantine's hour (Oct. 23).
 

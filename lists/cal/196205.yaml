@@ -373,12 +373,13 @@ entries:
     date: '1962-05-07'
     thread: defense
     c: State's draft of the Basic National Security Policy adds "tentative guidelines" for tactical nuclear weapons.
-    n: '[[w.poole-joint-chiefs-of-staff]], 20. To check: State Dept. Draft, "BNSP," May 7, 1962, National Archives, RG 218, JCS Records, JMF 3001 (26 May 62) sec. 1 (cited by [[w.poole-joint-chiefs-of-staff]], 20 n.10).'
+    n: '[[w.poole-joint-chiefs-of-staff]], 20; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 297 (Rostow''s drafts, the last of May 7, 166 pages). To check: State Dept. Draft, "BNSP," May 7, 1962, National Archives, RG 218, JCS Records, JMF 3001 (26 May 62) sec. 1 (cited by [[w.poole-joint-chiefs-of-staff]], 20 n.10).'
     src:
       c: c2817cd3
       rows:
         - 'w.poole-joint-chiefs-of-staff 20: all'
         - 'via w.poole-joint-chiefs-of-staff 20 n.10: all'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 297: A'
   - id: cal.1962-05-08.governors-oh
     when: May 8
     date: '1962-05-08'
@@ -645,6 +646,17 @@ entries:
         - 'via x.1962-05-11.presidium-protocol-30-continued: A-F'
         - 'via x.1962-05-11.presidium-resolution-defense-note: G'
     tags: [name:malinovsky-rodion-yakovlevich, name:khrushchev-nikita-s]
+  - id: cal.1962-05-11.defense
+    when: May 11
+    date: '1962-05-11'
+    thread: defense
+    also: [congress]
+    c: 'Hearings on the Defense Supply Agency before a subcommittee of House Government Operations: "a single manager for the single managers." Its director: "I have a clear path to the Secretary."'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 26. To check: House, Subcommittee of the Committee on Government Operations, *Hearings: Defense Supply Agency*, 87th Cong., 2d sess., May 11, 1962, 107 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 26 n.36). See [[cal.1961-08-31.defense]].'
+    src:
+      c: d16eb30e
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 26: all'
   - id: cal.1962-05-12.laos
     when: May 12
     date: '1962-05-12'
@@ -1038,6 +1050,18 @@ entries:
       rows:
         - 'w.perlstein-before-the-storm 166: all'
     tags: [name:shell-joseph-c, name:nixon-richard-m, state:ca, city:los-angeles]
+  - id: cal.1962-05-23.defense
+    when: May 23
+    date: '1962-05-23'
+    thread: defense
+    c: 'McNamara to Bell: projections for fiscal 1964, $55.26 billion in new obligational authority for the major military functions.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 119. To check: McNamara to Bell, May 23, 1962, SecDef Subject Decimal files, Acc 66A-3542 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 119 n.6; the note prints 1963). Names: McNamara, Bell.'
+    src:
+      c: 3f798c8b
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 119: all'
+        - 'via x.1962-05-23.mcnamara-to-bell-projections: all'
+    tags: [name:mcnamara-robert-s, name:bell-david-e]
   - id: cal.1962-05-24.missile-crisis
     when: May 24
     date: '1962-05-24'
@@ -1660,3 +1684,15 @@ entries:
       c: 1e278b4c
       rows:
         - 'w.debenedetti-american-ordeal 57: all'
+  - id: cal.1962-05.defense
+    when: May
+    date: 1962-05
+    thread: defense
+    also: [congress]
+    c: Saltonstall, in a subcommittee of Senate Appropriations, smooths the way for the Defense Supply Agency's funds, the final appropriation for supply operations passed.
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 26. To check: Senate Appropriations, *Department of Defense Appropriations for 1963*, 1259 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 26 n.48). Check: the day. Names: Saltonstall.'
+    src:
+      c: 9bacd458
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 26: all'
+    tags: [name:saltonstall-leverett]
