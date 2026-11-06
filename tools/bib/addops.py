@@ -87,9 +87,13 @@ def cite(e, body):
     from . import claims
     item = (body.get("item") or "").strip()
     k = claims.item_key(item)
-    if k[0] != "card" or not k[2]:
+    lm = claims.CARD_LINKED.match(item)
+    if lm:                                     # a linked pinpoint with its parenthetical: the row is the link's
+        k = ("card", lm.group(1).strip(), lm.group(3), lm.group(4))
+    elif k[0] != "card" or not k[2]:
         return None, f"cite needs a card with a pinpoint (a number or a link): {item!r}"
     card = k[1]
+    row_key = k[2] if lm else f"{card} {k[2]}"
     if body.get("units") and not _units_ok(e, body["units"]):
         return None, f"units {body['units']!r} not in the entry's {len(claims.units(e.get('c') or ''))}"
     parts = nm.parse(e.get("n") or "")
@@ -106,9 +110,9 @@ def cite(e, body):
     new = dict(e)
     new["n"] = nm.render(_clean(parts))
     if body.get("units"):
-        new["src"] = _with_row(new, f"{card} {k[2]}: {body['units']}", replaces=f"{card} {k[2]}")
+        new["src"] = _with_row(new, f"{row_key}: {body['units']}", replaces=row_key)
     elif e.get("src"):                         # a stored map takes the item's mechanical row, as a seeding would
-        new["src"] = _with_row(new, f"{card} {k[2]}: {'?' if k[3] else 'all'}")
+        new["src"] = _with_row(new, f"{row_key}: {'?' if k[3] else 'all'}")
     return new, None
 
 
