@@ -310,8 +310,8 @@ entries:
     src:
       c: e228c48d
       rows:
-        - 'w.kotz-judgment-days 375: all'
         - 'via x.1967-04-06.nyt-jewish-veterans-attack-dr-king: all'
+        - 'w.kotz-judgment-days 375: A'
     tags: [name:king-martin-luther-jr]
   - id: cal.1967-04-05.laos
     when: Apr. 5
@@ -700,8 +700,8 @@ entries:
     src:
       c: b6015b47
       rows:
-        - 'w.kotz-judgment-days 375: all'
         - 'via x.1967-04-10.nyt-javits-criticizes-dr-king: all'
+        - 'w.kotz-judgment-days 375: A'
     tags: [name:javits-jacob-k, name:king-martin-luther-jr]
   - id: cal.1967-04-09.laos-2
     when: Apr. 9
@@ -1286,6 +1286,18 @@ entries:
         - 'w.debenedetti-american-ordeal 177: all'
         - 'via w.debenedetti-american-ordeal 177 n.35: all'
     tags: [name:rusk-dean]
+  - id: cal.1967-04-16.civil-rights-organizations
+    when: Apr. 16
+    date: '1967-04-16'
+    thread: civil-rights-organizations
+    also: [king]
+    c: 'At the civil rights leaders'' next meeting, Wilkins to King: "Well, Martin, I see you were out there demonstrating yesterday." King: "Yehhhs ... where were you, Roy?"'
+    n: '[[w.kotz-judgment-days]], 377 n. To check: Leslie Dunbar, interview by Kotz (cited by [[w.kotz-judgment-days]], 377 n.). Check: the day; Kotz: "yesterday," after a demonstration; the note stands at the Spring Mobilization of Apr. 15 ([[cal.1967-04-15.war-opposition]]). Names: Wilkins, Martin Luther King.'
+    src:
+      c: b5d76447
+      rows:
+        - 'w.kotz-judgment-days 377: all'
+    tags: [name:wilkins-roy, name:king-martin-luther-jr]
   - id: cal.1967-04-17.vietnam
     when: Apr. 17
     date: '1967-04-17'
@@ -2846,3 +2858,27 @@ entries:
       rows:
         - 'w.debenedetti-american-ordeal 182: all'
     tags: [name:lowenstein-allard]
+  - id: cal.1967-04.king
+    when: Apr.
+    date: 1967-04
+    thread: king
+    also: [war-opposition]
+    c: Jackie Robinson criticizes King's Riverside speech against the war.
+    n: '[[w.kotz-judgment-days]], 375. Check: the day; Kotz: among the critics after Apr. 4. See [[cal.1967-04-04.king]]. Names: Robinson, Martin Luther King.'
+    src:
+      c: 6d87103b
+      rows:
+        - 'w.kotz-judgment-days 375: all'
+    tags: [name:robinson-jackie, name:king-martin-luther-jr]
+  - id: cal.1967-04.king-2
+    when: Apr.
+    date: 1967-04
+    thread: king
+    also: [civil-rights-organizations, war-opposition]
+    c: 'Whitney Young of the Urban League on King''s Riverside speech: Negroes are more "concerned about the rat tonight and the job tomorrow. The limited resources and personnel available to civil rights agencies should not be diverted into other channels."'
+    n: '[[w.kotz-judgment-days]], 375. Check: the day; Kotz: among the critics after Apr. 4. See [[cal.1967-04-04.king]]. Names: Whitney Young, Martin Luther King.'
+    src:
+      c: 005f0319
+      rows:
+        - 'w.kotz-judgment-days 375: all'
+    tags: [name:young-whitney-m-jr, name:king-martin-luther-jr]

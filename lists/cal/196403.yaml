@@ -2265,7 +2265,7 @@ entries:
     date: '1964-03-21'
     thread: civil-rights-bill
     c: 'Eastland to Humphrey in the Senate: the bill "takes us back to Stalin, Khrushchev, Nasser, Hitler, and a dictatorship." Humphrey: "What is closer to Stalin and Hitler and Khrushchev is discrimination on the basis of race."'
-    n: '[110 Cong. Rec. 5865](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-3-1.pdf#page=29) (1964) (Mar. 21, 1964). [[w.mann-walls-of-jericho]], 403; [[w.zelizer-fierce-urgency-of-now]], 105–6 (Eastland). See [[cal.1964-03-09.civil-rights-bill]]. Names: Eastland, Humphrey.'
+    n: '[110 Cong. Rec. 5865](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-3-1.pdf#page=29) (1964) (Mar. 21, 1964). [[w.mann-walls-of-jericho]], 403; [[w.zelizer-fierce-urgency-of-now]], 105–6 (Eastland); [[w.kotz-judgment-days]], 134. Check: Kotz, 134, dates it Mar. 24; his note (134 n.69) and the Record, Mar. 21. See [[cal.1964-03-09.civil-rights-bill]]. Names: Eastland, Humphrey.'
     src:
       c: f0682c96
       rows:
@@ -2273,6 +2273,7 @@ entries:
         - 'w.mann-walls-of-jericho 403: all'
         - 'via w.mann-walls-of-jericho 403 n.eastland-told-humphrey: all'
         - 'w.zelizer-fierce-urgency-of-now 105–6: ?'
+        - 'w.kotz-judgment-days 134: A-B'
     tags: [name:eastland-james-o, name:humphrey-hubert-h]
   - id: cal.1964-03-21.economy
     when: Mar. 21
@@ -2532,6 +2533,19 @@ entries:
         - 'w.taking-charge 298: all'
         - 'via x.1964-03-24.johnson-abe-fortas-telephone-1805: all'
     tags: [name:fortas-abe, name:johnson-lyndon-b]
+  - id: cal.1964-03-24.desegregation-public-places
+    when: Mar. 24
+    date: '1964-03-24'
+    thread: desegregation-public-places
+    also: [civil-rights-bill]
+    c: 'Lee White to Johnson on St. Augustine, Fla.: the "situation could be used in showing the need for the civil rights bill." Burke Marshall advises against acting on King''s request for federal intervention, by Kotz''s account.'
+    n: '[[w.kotz-judgment-days]], 126. To check: Lee White to Johnson, Mar. 24, 1964, LBJ Library (cited by [[w.kotz-judgment-days]], 126 n.38). Names: White, Johnson, Marshall, Martin Luther King.'
+    src:
+      c: 18345ab1
+      rows:
+        - 'w.kotz-judgment-days 126: all'
+        - 'via w.kotz-judgment-days 126 n.38: A'
+    tags: [name:white-lee-c, name:johnson-lyndon-b, name:marshall-burke, name:king-martin-luther-jr, state:fl, city:st-augustine]
   - id: cal.1964-03-25.latin-america
     when: Mar. 25
     date: '1964-03-25'
@@ -3622,3 +3636,29 @@ entries:
       c: e5439d8d
       rows:
         - 'w.debenedetti-american-ordeal 95: all'
+  - id: cal.1964-03.king
+    when: Mar.
+    date: 1964-03
+    thread: king
+    also: [civil-rights-bill]
+    c: 'Detroit. King to a religious group: should the civil rights bill fail, "I''m afraid our many pleas of nonviolence in fighting segregation will fall on deaf ears."'
+    n: '[[w.kotz-judgment-days]], 125. To check: *Detroit Free Press*, Mar. 20, 1964; [[w.garrow-bearing-the-cross]], 319–20 (cited by [[w.kotz-judgment-days]], 125 n.33). Check: the day; Kotz''s note cites the *Free Press* of Mar. 20. Names: Martin Luther King.'
+    src:
+      c: 7f5f5f92
+      rows:
+        - 'w.kotz-judgment-days 125: all'
+        - 'via w.kotz-judgment-days 125 n.33c: all'
+    tags: [name:king-martin-luther-jr]
+  - id: cal.1964-03.desegregation-public-places
+    when: Mar.
+    date: 1964-03
+    thread: desegregation-public-places
+    also: [king]
+    c: 'Orlando, SCLC''s Florida convention. Robert Hayling, a dentist of St. Augustine, Fla., asks King''s help for his town: Klansmen shooting up Negro homes, Hayling himself beaten nearly to death at a cross burning; of six Negro families enrolling children in white schools, two homes firebombed and a third family''s car burned; the city council will not talk with the civil rights groups.'
+    n: '[[w.kotz-judgment-days]], 125–26. To check: William Taylor, Civil Rights Commission, to Lee White, May 19, 1964, HU2, LBJ Library; [[w.colburn-racial-change-and-community]], 41–42; C. T. Vivian, interview by Kotz (cited by [[w.kotz-judgment-days]], 125–26 nn.34–36). Check: the day; Kotz: before Easter week, no date. See [[cal.1964-02-14.desegregation-public-places]]. Names: Hayling, Martin Luther King.'
+    src:
+      c: 545f7a12
+      rows:
+        - 'w.kotz-judgment-days 125–26: all'
+        - 'via w.kotz-judgment-days 125 n.34: B'
+    tags: [name:hayling-robert-b, name:king-martin-luther-jr, state:fl, city:st-augustine]

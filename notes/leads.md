@@ -1148,7 +1148,7 @@ CQ Weekly Report, 1968-03-01:
 - The FBI King file (100-106670) and Hoover's Official and Confidential File, as Kotz cites them; the Stokes Committee's and the Church Committee's printed volumes print some (Kotz's notes).
 - Steve Horn's log of the Senate's bill, 1964 (Manuscript Division, Library of Congress): many days of April–June 1964 (Kotz, 131–50).
 - Kotz's interviews (more than 150 persons, on the record; his interview list, 475–479): not deposited, so far as the book says.
-- Belfrage, *Freedom Summer* (1965), and Colburn, *Racial Change and Community Crisis* (1985), cited by Kotz: no cards.
+- Belfrage, *Freedom Summer* (1965), cited by Kotz: no card. (Colburn, *Racial Change and Community Crisis* (1985), has one: `w.colburn-racial-change-and-community`.)
 - Pages 42–84 and 187–434 read by their dated passages only (chapters 8 to 14): to be read in full (the book-check, "What remains unread").
 
 ### Mann, *The Walls of Jericho* (batch 3, second run, Nov. 4, 2026; notes/book-checks/mann-walls-of-jericho.md)

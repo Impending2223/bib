@@ -67,6 +67,18 @@ entries:
         - 'w.taking-charge 80: all'
         - 'via x.1963-12-01.johnson-walter-lippmann-recording-1746: all'
     tags: [name:johnson-lyndon-b, name:lippmann-walter]
+  - id: cal.1963-12-01.poverty
+    when: Dec. 1
+    date: '1963-12-01'
+    thread: poverty
+    c: 'The Elms, Sunday supper. Johnson with Elizabeth Wickenden and Arthur Goldschmidt, friends from the New Deal: "I feel a moral obligation to carry on the things that Kennedy proposed, but I have to have issues I can take on as my own. I have to get reelected in a year." Poverty perhaps his issue.'
+    n: '[[w.kotz-judgment-days]], 27 (Kotz spells her Wickendon). To check: [[w.lemann-promised-land]], 142; Arthur Goldschmidt and Elizabeth Wickenden, oral history, tape 2, LBJ Library (cited by [[w.kotz-judgment-days]], 27 n.34). Check: the day; Kotz gives a Sunday supper at The Elms after Heller''s visit of Nov. 23, no date (Johnson at The Elms to Dec. 7: Nov. 24 or Dec. 1). See [[cal.1963-11-23.poverty-2]]. Names: Johnson, Goldschmidt, Kennedy.'
+    src:
+      c: 1c4e5e2c
+      rows:
+        - 'w.kotz-judgment-days 27: all'
+        - 'via w.kotz-judgment-days 27 n.34b: all'
+    tags: [name:johnson-lyndon-b, name:goldschmidt-arthur-e, name:kennedy-john-f]
   - id: cal.1963-12-02.africa
     when: Dec. 2
     date: '1963-12-02'
@@ -419,6 +431,19 @@ entries:
         - 'w.taking-charge 89–90: all'
         - 'via x.1963-12-03.johnson-carl-albert-telephone-1756: all'
     tags: [name:albert-carl, name:johnson-lyndon-b, name:halleck-charles-a, name:mcculloch-william-m]
+  - id: cal.1963-12-03.congress
+    when: Dec. 3
+    date: '1963-12-03'
+    thread: congress
+    also: [republican-party-congress]
+    c: Dirksen brings Johnson a turkey from the National Turkey Growers' Association, with a note asking his help for an Illinois radio station owner whose license the Federal Communications Commission is about to revoke.
+    n: '[[w.kotz-judgment-days]], 116. To check: Dirksen to O''Brien, Dec. 6, 1963; Manatos to O''Brien, Dec. 16, 1963 (a White House aide takes the matter to Commissioner Kenneth Cox), Office Files of Larry O''Brien, box 27, LBJ Library (cited by [[w.kotz-judgment-days]], 116 n.6 and note). Check: Kotz''s note dates Dirksen''s letter Dec. 6. See [[cal.1963-12-20.congress]]. Names: Dirksen, Johnson.'
+    src:
+      c: f9d4a498
+      rows:
+        - 'w.kotz-judgment-days 116: all'
+        - 'via w.kotz-judgment-days 116 n.6: all'
+    tags: [name:dirksen-everett, name:johnson-lyndon-b]
   - id: cal.1963-12-04.africa
     when: Dec. 4
     date: '1963-12-04'
@@ -549,12 +574,14 @@ entries:
     thread: civil-rights-bill
     also: [civil-rights-organizations]
     c: 'Farmer of CORE with Johnson, after Dirksen. Johnson for public accommodations: the story of Zephyr Wright, his cook, who would not take the beagle on the drive to Texas, "Driving through the South is tough enough."'
-    n: '[[w.whalen-longest-debate]], 82. To check: Farmer, interview by Harri Baker, Oct. 1969, LBJ Library (cited by [[w.whalen-longest-debate]], 253). Names: Farmer, Johnson.'
+    n: '[[w.whalen-longest-debate]], 82; [[w.kotz-judgment-days]], 22 (Farmer with Johnson in the Oval Office; the story of Zephyr Wright, his cook, kept from "whites only" restrooms; Johnson lobbying senators by telephone during the talk; no date given). To check: Farmer, interview by Harri Baker, Oct. 1969, LBJ Library (cited by [[w.whalen-longest-debate]], 253). Names: Farmer, Johnson.'
     src:
       c: 6cea39e2
       rows:
         - 'w.whalen-longest-debate 82: all'
         - 'via x.1969-10.farmer-oral-history: all'
+        - 'w.kotz-judgment-days 22: A-B'
+        - 'via w.kotz-judgment-days 22 n.20: A-B'
     tags: [name:farmer-james, name:johnson-lyndon-b]
   - id: cal.1963-12-04.civil-rights-bill-4
     when: Dec. 4
@@ -3355,3 +3382,39 @@ entries:
       c: 3cff8f72
       rows:
         - 'w.perlstein-before-the-storm 258: all'
+  - id: cal.1963-12.civil-rights-organizations-2
+    when: Dec.
+    date: 1963-12
+    thread: civil-rights-organizations
+    also: [civil-rights-bill]
+    c: 'Dorothy Height, president of the National Council of Negro Women, with Johnson. Johnson on Mary McLeod Bethune at the NYA: she "put my integration diapers on me during my NYA days"; "From that point on, I never questioned. I was an agent of the federal government."'
+    n: '[[w.kotz-judgment-days]], 24–25. To check: Dorothy Height, interview by Kotz (cited by [[w.kotz-judgment-days]], 25 n.28). Check: the day, and the month; Kotz gives neither, among Johnson''s meetings with the Negro leaders after the assassination. See [[cal.1963-11-29.civil-rights-bill]]. Names: Johnson.'
+    src:
+      c: 4427c3eb
+      rows:
+        - 'w.kotz-judgment-days 24–25: all'
+        - 'via w.kotz-judgment-days 25 n.28: all'
+    tags: [name:johnson-lyndon-b]
+  - id: cal.1963-12.poverty-2
+    when: Dec.
+    date: 1963-12
+    thread: poverty
+    c: 'Johnson, by a public letter to the National Welfare Association: "a national assault on the causes of poverty."'
+    n: '[[w.kotz-judgment-days]], 27. To check: [[w.dallek-flawed-giant]], 61 (cited by [[w.kotz-judgment-days]], 27 n.35); the letter (not in the Public Papers, 1963–64). Check: the day, and the body''s name; Kotz: "Less than two weeks after becoming president." See [[cal.1963-11-23.poverty-2]]. Names: Johnson.'
+    src:
+      c: f4cdecc4
+      rows:
+        - 'w.kotz-judgment-days 27: all'
+    tags: [name:johnson-lyndon-b]
+  - id: cal.1963-12.civil-rights-bill-4
+    when: Dec.
+    date: 1963-12
+    thread: civil-rights-bill
+    c: 'Douglas of Illinois at the LBJ Ranch, at Johnson''s invitation; Johnson apologizes for his treatment of him in the 1950s. Douglas: "He said we''d had many disputes, but in looking back, he felt that it was mostly his own fault."'
+    n: '[[w.kotz-judgment-days]], 30–31. To check: Paul Douglas, oral history, LBJ Library (cited by [[w.kotz-judgment-days]], 30–31 nn.46–49). Check: the date; Kotz gives none, among Johnson''s approaches to the Senate liberals after the assassination (his first stay at the Ranch as President from Dec. 24). Names: Douglas, Johnson.'
+    src:
+      c: 72a13355
+      rows:
+        - 'w.kotz-judgment-days 30–31: all'
+        - 'via w.kotz-judgment-days 30 n.46: all'
+    tags: [name:douglas-paul-h, name:johnson-lyndon-b]
