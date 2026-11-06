@@ -314,6 +314,8 @@ entries:
   - id: cal.1960-07-09.elections-1960-2
     when: July 9
     date: '1960-07-09'
+    time: 1960-07-09T22:00Z
+    time_approx: true
     thread: elections-1960-los-angeles
     c: 'Los Angeles, Suite 8315 of the Biltmore, about 3 p.m. Robert Kennedy to Guthman of the *Seattle Times*: Jackson "my choice, and Jack likes him"; he and Symington the strongest, Freeman a possibility; Jackson must convince Daley, Lawrence and Bailey. Jackson''s men setting up a headquarters at the Statler.'
     n: '[[w.guthman-we-band-of-brothers]], 74–75; [[w.shesol-mutual-contempt]], 43 (Guthman''s account, at a late lunch: Jackson Kennedy''s choice; the leaders to convince). Names: Robert Kennedy, Guthman, Jackson, Symington, Freeman, Daley, Lawrence.'
@@ -595,6 +597,7 @@ entries:
   - id: cal.1960-07-12.elections-1960-2
     when: July 12
     date: '1960-07-12'
+    time: 1960-07-12T22:00Z
     thread: elections-1960-los-angeles
     c: 'The Biltmore''s Crystal Ballroom, 3 p.m. Johnson, by telegram and at a press conference, challenges Kennedy to debate before the Texas and Massachusetts delegations. Kennedy comes, nearly alone. Johnson on quorum calls and roll calls missed; Kennedy: "I assume he was talking about some other candidate."'
     n: '[[w.caro-passage-of-power]], 102–05; [[w.shesol-mutual-contempt]], 39 (the debate before the two delegations; Kennedy: "I don''t think Senator Johnson and I disagree on the great issues"); [[w.white-making-of-the-president-1965]], 409–10 (by Graham''s account: the form telegram sent to the Texas delegation by clerical error; Graham at lunch with Johnson, 1:30, puts him to bed for a nap and writes him notes on the world; Kennedy''s speech; Johnson''s opening from the notes). [[w.sorensen-kennedy]], 156–57 (Johnson''s challenge before the two delegations; Kennedy''s reply). To check: Kennedy''s and Johnson''s telegrams, July 12, 1960, "Special File on Lyndon B. Johnson''s Campaigns," LBJ Library; the transcript of the debate, July 12, 1960, Statements of Lyndon Baines Johnson, LBJ Library; San Antonio Light, July 13, 1960; Washington Evening Star, July 13, 1960 (McGrory) (cited by [[w.caro-passage-of-power]], 103–04). See [[cal.1960-07-12.elections-1960]]. Names: Johnson, Kennedy, Robert Kennedy.'
@@ -746,8 +749,10 @@ entries:
     when: July 13
     date: '1960-07-13'
     thread: elections-1960-los-angeles
+    follows:
+      - cal.1960-07-13.elections-1960-5
     c: 'Kennedy nominated on the first ballot, Wyoming''s votes putting him over: Kennedy 806, Johnson 409, Symington 86, Stevenson 79½. 761 needed.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 205–06 (Robert Kennedy''s count, Wednesday, 740: 21 short, by Schlesinger''s journal); [[w.white-making-of-the-president]], 165–70 (McCarthy''s speech for Stevenson; the count; Wyoming; the final tally, 169 n.9); [[w.guthman-we-band-of-brothers]], 74, 76–77 (761 needed; Wyoming''s 15 votes putting him over; not the totals). [[w.kallina-kennedy-v-nixon]], 72–73 (Wyoming''s votes; 806; 761 needed). [[w.sorensen-kennedy]], 158–61. To check: Schlesinger, journal, July 14, 1960 (cited by [[w.schlesinger-robert-kennedy-and-his]], 206 n.64); Hugh Sidey OHI, Apr. 7, 1964, JFK Library; Joseph D. Tydings OHI, Sept. 30, 1965, JFK Library (cited by [[w.kallina-kennedy-v-nixon]], 73 n.59). See [[cal.1960-07-12.elections-1960]]. Names: Kennedy, Johnson, Symington, Stevenson.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 205–06 (Robert Kennedy''s count, Wednesday, 740: 21 short, by Schlesinger''s journal); [[w.white-making-of-the-president]], 165–70 (McCarthy''s speech for Stevenson; the count; Wyoming; the final tally, 169 n.9); [[w.guthman-we-band-of-brothers]], 74, 76–77 (761 needed; Wyoming''s 15 votes putting him over; not the totals). [[w.kallina-kennedy-v-nixon]], 72–73 (Wyoming''s votes; 806; 761 needed). [[w.sorensen-kennedy]], 158–61. After [[cal.1960-07-13.elections-1960-5|Johnson''s plea of the morning]]. To check: Schlesinger, journal, July 14, 1960 (cited by [[w.schlesinger-robert-kennedy-and-his]], 206 n.64); Hugh Sidey OHI, Apr. 7, 1964, JFK Library; Joseph D. Tydings OHI, Sept. 30, 1965, JFK Library (cited by [[w.kallina-kennedy-v-nixon]], 73 n.59). See [[cal.1960-07-12.elections-1960]]. Names: Kennedy, Johnson, Symington, Stevenson.'
     src:
       c: 4424f56c
       rows:
@@ -929,6 +934,8 @@ entries:
   - id: cal.1960-07-14.elections-1960-2
     when: July 14
     date: '1960-07-14'
+    time: 1960-07-14T16:30Z
+    time_approx: true
     thread: elections-1960-los-angeles
     c: 'Suite 8315, the Biltmore, about 9:30 a.m.: Salter, Jackson''s assistant, gives Kennedy and Robert Kennedy four reasons for Jackson; two hours later Jackson and Salter with Kennedy, fifteen minutes, no decision. Nearly three hours after, Kennedy telephones Jackson: it will be Johnson; he asks Jackson to be national chairman. Jackson asks for time.'
     n: '[[w.guthman-we-band-of-brothers]], 79–80. See [[cal.1960-07-14.elections-1960]]. Names: Salter, Jackson, Kennedy, Robert Kennedy, Johnson.'
@@ -1533,6 +1540,7 @@ entries:
   - id: cal.1960-07-26.elections-1960
     when: July 26–27
     date: '1960-07-26'
+    time: 1960-07-27T02:42Z
     thread: elections-1960-chicago
     also: [goldwater]
     c: 'Eisenhower addresses the convention, July 26. July 27, the platform adopted; Fannin, Arizona''s governor, nominates Goldwater, Shorey of South Carolina seconding; Goldwater withdraws his name: "Let''s grow up, conservatives, if we want to take this party back." Nixon nominated, 1,321 to Goldwater''s 10.'
