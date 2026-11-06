@@ -20,6 +20,19 @@ STYLE
 4. check [day-order]: an error on a `time` not in the form, or more than a day from the entry's date; `time_approx`
    without `time`, or not true; a `follows` id that names nothing, an entry of another day, itself, a cycle; a pair
    whose times contradict the link (the follower's time before the one it follows).
+5. `time_range: [<from>, <to>]`, optional, hidden (the owner's ruling, Nov. 5, 2026: "Yes, add the ranges and sort by
+   time first"): where the record places an event in a span of the day but gives no hour, the earliest and latest
+   instants it allows, in UTC as `time` is; its basis in the note (the chamber sat from noon to 6:07 p.m.: the Daily
+   Digest's page; "that evening": the work's page). Never with `time`: an exact hour is a `time`, a loose one a `time`
+   with `time_approx`. A clock in doubt (a place whose 1960s daylight time is not settled) is a range of the two
+   readings, an hour wide. `time_band:` beside it, optional, names the band the range was drawn from (BANDS: the owner's
+   list, Nov. 5, 2026), in the place's zone (`time_zone:`, IANA), so a page can say "evening, Saigon" or "workday
+   afternoon ET"; band_range() turns a date, a band and a zone into the range.
+6. The order, from Nov. 5, 2026 (the owner: "sort by time first"): a day's entries by their place in the day (a `time`,
+   or the middle of a `time_range`, in UTC), then by the key of 1; the entries with neither after the placed ones, by
+   the key of 1; `follows` honored over both (2). A month's undated block keeps 1. check adds: a `time_range` not two
+   instants in order, more than a day from the date or wider than 36 hours, beside a `time`; a `time_band` not in
+   BANDS or without its range and zone; a `follows` whose ranges contradict it (the follower's range wholly before).
 """
 import datetime
 import re
@@ -27,6 +40,39 @@ import re
 from . import store
 
 TIME = re.compile(r"^(\d{4}-\d{2}-\d{2})T(\d{2}):(\d{2})(?::(\d{2}))?Z$")
+
+# The bands of a day, local time (STYLE 5; the owner's list, Nov. 5, 2026, and the looser words a source uses): name ->
+# (start hour, end hour), the end 24 for midnight.
+BANDS = {
+    "predawn": (0, 6), "pre-work morning": (6, 9), "workday morning": (9, 12), "workday midday": (12, 14),
+    "workday afternoon": (14, 17), "workday daytime": (9, 17), "after-workday daytime": (17, 19), "evening": (19, 22),
+    "night": (22, 24), "morning": (6, 12), "afternoon": (12, 18), "daytime": (6, 19), "day": (0, 24),
+}
+
+
+def band_range(date, band, zone):
+    """[from, to] in UTC for a band of a local day: band_range('1964-08-04', 'evening', 'America/New_York')."""
+    import zoneinfo
+    a, b = BANDS[band]
+    z = zoneinfo.ZoneInfo(zone)
+    d = datetime.date.fromisoformat(date)
+    lo = datetime.datetime.combine(d, datetime.time(a), z)
+    hi = datetime.datetime.combine(d, datetime.time(0), z) + datetime.timedelta(hours=b)
+    f = lambda t: t.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
+    return [f(lo), f(hi)]
+
+
+def place(e):
+    """The entry's place in its day, a UTC datetime: its `time`, or the middle of its `time_range`; None where neither."""
+    t = _instant(e.get("time")) if e.get("time") else None
+    if t:
+        return t
+    r = e.get("time_range")
+    if isinstance(r, (list, tuple)) and len(r) == 2:
+        a, b = _instant(r[0]), _instant(r[1])
+        if a and b:
+            return a + (b - a) / 2
+    return None
 
 
 def plain_c(e):
@@ -54,10 +100,16 @@ def key(lst, e, cache=None):
     return (tk, plain_c(e), e.get("id", ""))
 
 
-def order(lst, entries):
-    """The day's (or the month block's) entries in their order: alphabetical (STYLE 1), `follows` honored (STYLE 2)."""
+def order(lst, entries, by_time=True):
+    """The day's entries in their order: by their place in the day, then the key of 1, the unplaced after (STYLE 6),
+    `follows` honored (STYLE 2). by_time=False (a month's undated block): the key of 1 alone."""
     cache = {}
-    keys = {e["id"]: key(lst, e, cache) for e in entries}
+    far = datetime.datetime.max
+
+    def k(e):
+        p = place(e) if by_time else None
+        return (0 if p else 1, p or far) + key(lst, e, cache)
+    keys = {e["id"]: k(e) for e in entries}
     ids = {e["id"] for e in entries}
     before = {e["id"]: [f for f in store.as_list(e.get("follows")) if f in ids and f != e["id"]] for e in entries}
     if not any(before.values()):
@@ -67,7 +119,7 @@ def order(lst, entries):
     out, done = [], set()
     while len(out) < len(entries):
         ready = [i for i in by_id if i not in done and not (waiting[i] - done)]
-        if not ready:                       # a cycle (check fails on it): the rest alphabetically
+        if not ready:                       # a cycle (check fails on it): the rest in key order
             ready = [i for i in by_id if i not in done]
         nxt = min(ready, key=lambda i: keys[i])
         done.add(nxt)
@@ -109,6 +161,26 @@ def problems(series):
                 out.append((eid, "time_approx: true, or leave it out"))
             if t is None:
                 out.append((eid, "time_approx without a time"))
+        r = e.get("time_range")
+        if r is not None:
+            rr = [_instant(x) for x in r] if isinstance(r, (list, tuple)) and len(r) == 2 else None
+            if not rr or None in rr:
+                out.append((eid, f"time_range {r!r}: two UTC instants, ['1961-10-17T14:00Z', '1961-10-17T22:00Z']"))
+            elif rr[1] < rr[0]:
+                out.append((eid, f"time_range {r!r}: its end before its start"))
+            elif (rr[1] - rr[0]).total_seconds() > 36 * 3600:
+                out.append((eid, f"time_range {r!r}: wider than 36 hours"))
+            else:
+                d = str(e.get("date", ""))
+                if len(d) == 10 and abs((rr[0].date() - datetime.date.fromisoformat(d)).days) > 1:
+                    out.append((eid, f"time_range {r!r} is more than a day from the entry's date {d}"))
+            if t is not None:
+                out.append((eid, "time and time_range both: an exact hour is a time, a span a time_range"))
+        if e.get("time_band") is not None:
+            if e["time_band"] not in BANDS:
+                out.append((eid, f"time_band {e['time_band']!r}: one of {', '.join(BANDS)}"))
+            if r is None or not e.get("time_zone"):
+                out.append((eid, "time_band without its time_range and time_zone"))
         for f in store.as_list(e.get("follows")):
             g = idx.get(f) or idx.get(aliases.get(f, ""))
             if f == eid:
@@ -121,6 +193,10 @@ def problems(series):
                 a, b = _instant(g.get("time")), _instant(e.get("time"))
                 if a and b and b < a:
                     out.append((eid, f"follows {f} but its time {e['time']} is before {g['time']}"))
+                ga = _instant((g.get("time_range") or [None])[0]) if g.get("time_range") else a
+                eb = _instant((e.get("time_range") or [None, None])[1]) if e.get("time_range") else b
+                if ga and eb and eb < ga and not (a and b):
+                    out.append((eid, f"follows {f} but its range ends before the other's begins"))
     # cycles
     graph = {eid: [f for f in store.as_list(e.get("follows")) if f in idx and f != eid] for eid, e in idx.items() if e.get("follows")}
     state = {}
