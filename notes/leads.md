@@ -451,6 +451,14 @@ CQ Weekly Report, 1968-06-07:
 - CCCO's founding (1962), Doris Baker's firing and TFIS (1961): the year only (9, 17).
 - The Gautreaux suit (1966): filing day (228).
 
+### Anderson and Pickering, *Confronting the Color Line* (batch 4, Nov. 5, 2026; notes/book-checks/anderson-confronting-the-color-line.md)
+
+- The Illinois Supreme Court's decision striking down the Armstrong Act (1967; the *Tometz* case from Waukegan, n.12.16): the report and the day, for cal.1967-06.desegregation-schools; Illinois's reports (`sources/state-law.yaml`).
+- The New Rochelle opinions (Kaufman, January 1961; the Court of Appeals, Aug. 2, 1961; the Supreme Court's refusal of a stay, Aug. 29, 1961): Anderson cites only the Civil Rights Commission's summary (n.3.22); the reports to find and link.
+- Kerner's executive order of July 1966 and the two injunctions against it (216, 223, 232): the order's text and the courts.
+- The *Webb* and *Burroughs* files (N.D. Ill. 61 C 1569; 62 C 206): the dockets, for the filing, dismissal and settlement days.
+- The Chicago school bond votes of April 1962 and Nov. 8, 1966, and Daley's bonds of June 14, 1966: the Board of Election Commissioners' canvass for the counts.
+
 ## National
 
 ### The building trades (Nov. 4, 2026; inbox/2026-11-04-building-trades.yaml)
@@ -1486,6 +1494,12 @@ CQ Weekly Report, 1968-03-01:
 - Cotton's endorsement, Mar. 1965, 111 Cong. Rec. 4743 (III, 140 n.34): its day.
 - the Speaker's Committee's trip and its meeting with Johnson, July 1966 (IV, 351): their days (112 Cong. Rec. 15364–76, 16688–91).
 - others in Congress on the Buddhist crisis, May 1966, 112 Cong. Rec. 10666–12105 passim (IV, 319 n.16): speakers and days.
+
+### Anderson and Pickering, *Confronting the Color Line* (batch 4, Nov. 5, 2026; notes/book-checks/anderson-confronting-the-color-line.md)
+
+- Feb. 1963, Daley "reportedly" hangs up on Willis (107): undated and unsourced in the text; the note (4.8, *Chicago Defender*, Feb. 2–8, 1963) to read.
+- Late July 1966, Archbishop Cody asks a conference with King and Raby (222): the day not given.
+- Summer 1965, Daley's appeal, "with tears in his eyes," to the South Shore Commission (159): undated.
 
 ## Foreign
 

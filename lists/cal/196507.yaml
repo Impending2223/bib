@@ -240,12 +240,13 @@ entries:
     thread: states-and-cities
     also: [desegregation-schools]
     c: 'Chicago. Daley, after nineteen days of demonstrations: "We know Communists infiltrate all these organizations."'
-    n: '[[w.branch-at-canaans-edge]], 250. To check: [*New York Times*, July 1, 1965](https://timesmachine.nytimes.com/timesmachine/1965/07/01/issue.html), 27 (cited by [[w.branch-at-canaans-edge]], 250). Check: the day; Branch gives July 2, citing the *Times* of July 1. See [[cal.1965-06-10.desegregation-schools]]. Names: Daley.'
+    n: '[[w.branch-at-canaans-edge]], 250; [[w.anderson-confronting-the-color-line]], 159 (Daley joins the charge of Communist influence in the marches). Check: Anderson puts Daley''s charge the day after his meeting with Raby and the board of June 29 (159). To check: [*New York Times*, July 1, 1965](https://timesmachine.nytimes.com/timesmachine/1965/07/01/issue.html), 27 (cited by [[w.branch-at-canaans-edge]], 250). Check: the day; Branch gives July 2, citing the *Times* of July 1. See [[cal.1965-06-10.desegregation-schools]]. Names: Daley.'
     src:
       c: 920d4a04
       rows:
         - 'w.branch-at-canaans-edge 250: all'
         - 'via w.branch-at-canaans-edge 250 n.fresh-outburst-from: all'
+        - 'w.anderson-confronting-the-color-line 159: B'
     tags: [name:daley-richard-j, state:il, city:chicago]
   - id: cal.1965-07-02.vietnam-saigon
     when: July 2
@@ -451,6 +452,18 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d52: all'
         - 'w.gibbons-u-s-government-and III, 315–17: all'
     tags: [name:rusk-dean, name:johnson-lyndon-b, name:morse-wayne, name:dobrynin-anatoly, name:pearson-drew, name:stevenson-adlai-e, name:u-thant]
+  - id: cal.1965-07-06.desegregation-schools
+    when: July 6
+    date: '1965-07-06'
+    thread: desegregation-schools
+    c: 'Chicago. The Commission on Human Relations, in the school controversy for the first time, six suggestions to the Board of Education: make public its search for a new superintendent; an assistant superintendent for integration; bar the discriminating unions from Washburne Trade School; redistrict the high schools; carry out Hauser and Havighurst; more compensatory education.'
+    n: '[[w.anderson-confronting-the-color-line]], 160. Check: the day; Anderson: "within two days" of the complaint. To check: Chicago Sun-Times, 7 July 1965 (cited by [[w.anderson-confronting-the-color-line]], 160 n.27).'
+    src:
+      c: 32dae5b6
+      rows:
+        - 'w.anderson-confronting-the-color-line 160: all'
+        - 'via w.anderson-confronting-the-color-line 160 n.27: all'
+    tags: [state:il, city:chicago]
   - id: cal.1965-07-07.vietnam-force-levels
     when: July 7
     date: '1965-07-07'
@@ -468,13 +481,15 @@ entries:
     thread: king
     also: [states-and-cities]
     c: 'Chicago, the Palmer House. King: he will "spend some time in Chicago, beginning July 24"; many "persons of good will" do not yet understand the movement, "a great job of interpretation to be done." Al Raby has asked the Office of Education to withhold federal aid from Chicago''s schools under Title VI, the first such complaint against a Northern district.'
-    n: '[[w.branch-at-canaans-edge]], 250–52; [[w.ralph-northern-protest]], 28 (King''s announcement; the Coordinating Council''s Title VI complaint). To check: *Chicago Tribune*, July 7, 1965, 3; "Investigator''s Report/Intelligence Division/Chicago Police Department," July 7, 1965, file 951, Red Squad files, Chicago Historical Society (cited by [[w.branch-at-canaans-edge]], 250). See [[cal.1965-06-10.desegregation-schools]]. Check: the day of Raby''s complaint; Branch gives it as "just filed." Names: Martin Luther King, Raby.'
+    n: '[[w.branch-at-canaans-edge]], 250–52; [[w.ralph-northern-protest]], 28 (King''s announcement; the Coordinating Council''s Title VI complaint); [[w.anderson-confronting-the-color-line]], 160 (the joint press conference with Raby; King''s words). Check: Anderson dates the Coordinating Council''s complaint July 4 (159–60; n.26, Raby to Keppel, letter, and the complaint, July 4, 1965). To check: *Chicago Tribune*, July 7, 1965, 3; "Investigator''s Report/Intelligence Division/Chicago Police Department," July 7, 1965, file 951, Red Squad files, Chicago Historical Society (cited by [[w.branch-at-canaans-edge]], 250); Albert A. Raby to Commissioner Francis Keppel, U.S. Office of Education, letter, and "Complaint of the Coordinating Council of Community Organizations," 4 July 1965 (cited by [[w.anderson-confronting-the-color-line]], 160 n.26). See [[cal.1965-06-10.desegregation-schools]]. Check: the day of Raby''s complaint; Branch gives it as "just filed." Names: Martin Luther King, Raby.'
     src:
       c: 0bda606f
       rows:
         - 'w.branch-at-canaans-edge 250–52: all'
         - 'via w.branch-at-canaans-edge 250 n.king-parried-both: all'
         - 'w.ralph-northern-protest 28: ?'
+        - 'w.anderson-confronting-the-color-line 160: B-C'
+        - 'via w.anderson-confronting-the-color-line 160 n.26: B-C'
     tags: [name:king-martin-luther-jr, name:raby-albert, state:il, city:chicago]
   - id: cal.1965-07-07.voting-rights-2
     when: July 7
@@ -976,6 +991,19 @@ entries:
         - 'w.gibbons-u-s-government-and III, 306 n: all'
         - 'via x.1965-07-11.washington-post-july-11-1965: all'
     tags: [name:nixon-richard-m, name:ford-gerald-r]
+  - id: cal.1965-07-11.desegregation-schools
+    when: July 11
+    date: '1965-07-11'
+    thread: desegregation-schools
+    also: [civil-rights-the-executive]
+    c: Chicago. The Office of Education's investigator, John E. Coons, has verified most of the Coordinating Council's grievances, though "severely handicapped" by Willis. Fifteen marchers arrested July 7, more than six hundred in the month.
+    n: '[[w.anderson-confronting-the-color-line]], 160. Check: the day; Anderson: "By 11 July." To check: Chicago Sun-Times, 8 July 1965 (cited by [[w.anderson-confronting-the-color-line]], 160 n.28). Names: Willis.'
+    src:
+      c: dc0d8a10
+      rows:
+        - 'w.anderson-confronting-the-color-line 160: all'
+        - 'via w.anderson-confronting-the-color-line 160 n.28: all'
+    tags: [name:willis-benjamin-c, state:il, city:chicago]
   - id: cal.1965-07-12.european-community
     when: July 12
     date: '1965-07-12'
@@ -2120,7 +2148,7 @@ entries:
     thread: king
     also: [states-and-cities]
     c: 'King in Chicago: to 220 clergy at an interfaith breakfast, "If you want a movement to move, you''ve got to have the preachers behind you"; eight rallies on the South and West Sides; at Winnetka, July 25, some 10,000. July 26, from Buckingham Fountain, some 20,000 march with him and Raby to City Hall: Chicago "a city in dire need of redemption and reform." Daley: "There can be no disagreement that we must root out poverty."'
-    n: '[[w.branch-at-canaans-edge]], 262–66; [[w.ralph-northern-protest]], 34–35. Check: Ralph gives nearly ten thousand at Winnetka and fifteen thousand marching July 26 (35). To check: "Schedule of Martin Luther King''s Visit to Chicago, July 23–26, 1965," SCLC Records, King Library and Archives; [*New York Times*, July 25, 1965](https://timesmachine.nytimes.com/timesmachine/1965/07/25/issue.html), 39 (cited by [[w.branch-at-canaans-edge]], 263); [[w.anderson-confronting-the-color-line]], 161 (cited by [[w.branch-at-canaans-edge]], 262). See [[cal.1965-07-07.king]]. Names: Martin Luther King, Raby, Daley.'
+    n: '[[w.branch-at-canaans-edge]], 262–66; [[w.ralph-northern-protest]], 34–35; [[w.anderson-confronting-the-color-line]], 161 (the clergy at breakfast; eight rallies; Winnetka; the march to City Hall, July 26). Check: Ralph gives nearly ten thousand at Winnetka and fifteen thousand marching July 26 (35). Check: Anderson gives "more than ten thousand" for the march to City Hall and puts the clergy''s breakfast at El Bethel Baptist Church (161; pl. 7). To check: "Schedule of Martin Luther King''s Visit to Chicago, July 23–26, 1965," SCLC Records, King Library and Archives; [*New York Times*, July 25, 1965](https://timesmachine.nytimes.com/timesmachine/1965/07/25/issue.html), 39 (cited by [[w.branch-at-canaans-edge]], 263); Chicago Sun-Times, 27 July 1965; personal observation (cited by [[w.anderson-confronting-the-color-line]], 161 n.30). See [[cal.1965-07-07.king]]. Names: Martin Luther King, Raby, Daley.'
     src:
       c: 5e87bb0c
       rows:
@@ -2128,6 +2156,8 @@ entries:
         - 'via w.branch-at-canaans-edge 263 n.three-car-motorcade: A'
         - 'via w.branch-at-canaans-edge 263 n.covering-186-miles: A'
         - 'w.ralph-northern-protest 34–35: all'
+        - 'w.anderson-confronting-the-color-line 161: A-D'
+        - 'via w.anderson-confronting-the-color-line 161 n.30: A-D'
     tags: [name:king-martin-luther-jr, name:raby-albert, name:daley-richard-j, state:il, city:chicago]
   - id: cal.1965-07-24.vietnam-july-decision
     when: July 24
@@ -2514,6 +2544,20 @@ entries:
     c: 'Cleveland. King on the East Side, at a breakfast with the clergy, an evening address: "the Negro is not free in the North."'
     n: '[[w.ralph-northern-protest]], 35. See [[cal.1965-07-24.king]]. Names: King.'
     tags: [state:oh, city:cleveland, name:king-martin-luther-jr]
+  - id: cal.1965-07-27.desegregation-schools
+    when: July 27–28
+    date: '1965-07-27'
+    thread: desegregation-schools
+    also: [congress]
+    c: 'Washington. Powell''s hearings on segregation in Chicago''s schools, the House Committee on Education and Labor''s Ad Hoc Subcommittee on Poverty: Willis''s charts against Hauser''s. No new evidence.'
+    n: 'Daily Digest, [111 Cong. Rec. D418](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=416) (July 27, 1965), [D422](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=420) (July 28) (the subcommittee''s hearings, public witnesses). [[w.anderson-confronting-the-color-line]], 161. To check: Chicago Sun-Times, 28 July 1965 (cited by [[w.anderson-confronting-the-color-line]], 161 n.31). Names: Powell, Willis.'
+    src:
+      c: be66fa8c
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=416: A-B'
+        - 'w.anderson-confronting-the-color-line 161: all'
+        - 'via w.anderson-confronting-the-color-line 161 n.31: all'
+    tags: [name:powell-adam-clayton-jr, name:willis-benjamin-c, state:il]
   - id: cal.1965-07-28.vietnam
     when: July 28
     date: '1965-07-28'
@@ -2924,6 +2968,18 @@ entries:
       rows:
         - 'w.zaroulis-who-spoke-up 51, 53: all'
     tags: [state:ny, city:nyc]
+  - id: cal.1965-07-29.desegregation-schools
+    when: July 29
+    date: '1965-07-29'
+    thread: desegregation-schools
+    also: [mayors]
+    c: Chicago. The marchers, Gregory leading, go into Bridgeport, Daley's neighborhood, at night, to his home.
+    n: '[[w.anderson-confronting-the-color-line]], 161. See [[cal.1965-06-10.desegregation-schools]]. Names: Gregory, Daley.'
+    src:
+      c: 628c7736
+      rows:
+        - 'w.anderson-confronting-the-color-line 161: all'
+    tags: [name:gregory-dick, name:daley-richard-j, state:il, city:chicago]
   - id: cal.1965-07-30.medicare
     when: July 30
     date: '1965-07-30'
@@ -3267,7 +3323,13 @@ entries:
     date: 1965-07
     thread: desegregation-schools
     c: 'Chicago. Joseph Block of Inland Steel, Peter Peterson of Bell and Howell, Ben Heineman of the Chicago and North Western and others, a public letter: "equal access to our schools by all races, with a positive policy and program to eliminate segregation."'
-    n: '[[w.ralph-northern-protest]], 27–28. Check: the day. Names: Heineman.'
+    n: '[[w.ralph-northern-protest]], 27–28; [[w.anderson-confronting-the-color-line]], 161 (businessmen to the board; "a positive policy and program to eliminate segregation"). Check: the day. Check: Anderson gives forty-eight businessmen, unnamed (161). To check: Chicago Sun-Times, 8, 11, 13 July 1965 (cited by [[w.anderson-confronting-the-color-line]], 161 n.29). Names: Heineman.'
+    src:
+      c: 922f486f
+      rows:
+        - 'w.ralph-northern-protest 27–28: all'
+        - 'w.anderson-confronting-the-color-line 161: A-B'
+        - 'via w.anderson-confronting-the-color-line 161 n.29: A-B'
     tags: [state:il, city:chicago, name:heineman-ben-w]
   - id: cal.1965-07.king
     when: July, late

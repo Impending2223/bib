@@ -124,6 +124,18 @@ entries:
       rows:
         - 'w.mann-grand-delusion 312: all'
     tags: [name:nixon-richard-m, name:goldwater-barry-m, name:johnson-lyndon-b, name:de-gaulle-charles]
+  - id: cal.1964-02-02.civil-rights-organizations
+    when: Feb. 2
+    date: '1964-02-02'
+    thread: civil-rights-organizations
+    also: [desegregation-schools]
+    c: Chicago, the Coordinating Council. The Reverend James McDaniels's motion to hold the boycott "in abeyance" for talks with the board. "Today Mayor Daley has divided us."
+    n: '[[w.anderson-confronting-the-color-line]], 131. See [[cal.1964-01-18.civil-rights-organizations]].'
+    src:
+      c: c3b90e78
+      rows:
+        - 'w.anderson-confronting-the-color-line 131: all'
+    tags: [state:il, city:chicago]
   - id: cal.1964-02-03.assassination
     when: Feb. 3
     date: '1964-02-03'
@@ -693,6 +705,18 @@ entries:
       c: be42b196
       rows:
         - 'w.macv-command-history-1964 189: all'
+  - id: cal.1964-02-09.desegregation-schools
+    when: Feb. 9
+    date: '1964-02-09'
+    thread: desegregation-schools
+    also: [civil-rights-organizations]
+    c: Chicago. The Coordinating Council's delegation with Roddewig in the morning, congenial, nothing gained. In the afternoon the council votes to hold the boycott Feb. 25, seventeen organizations to three, one abstaining.
+    n: '[[w.anderson-confronting-the-color-line]], 132. See [[cal.1964-01-18.civil-rights-organizations]].'
+    src:
+      c: ea9ccf5f
+      rows:
+        - 'w.anderson-confronting-the-color-line 132: all'
+    tags: [state:il, city:chicago]
   - id: cal.1964-02-10.civil-rights-bill
     when: Feb. 10
     date: '1964-02-10'
@@ -1648,6 +1672,17 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 425: all'
     tags: [name:rockefeller-nelson, name:lodge-henry-cabot, state:nh]
+  - id: cal.1964-02-22.desegregation-schools
+    when: Feb. 22
+    date: '1964-02-22'
+    thread: desegregation-schools
+    c: Chicago. A delegation of the Coordinating Council with Judge Abraham L. Marovitz, now hearing *Webb*, Roddewig present. Marovitz wants the boycott called off.
+    n: '[[w.anderson-confronting-the-color-line]], 132. Check: the day; Anderson: "By 22 February." See [[cal.1964-02-09.desegregation-schools]].'
+    src:
+      c: 0dadcae0
+      rows:
+        - 'w.anderson-confronting-the-color-line 132: all'
+    tags: [state:il, city:chicago]
   - id: cal.1964-02-23.opinion
     when: Feb. 23
     date: '1964-02-23'
@@ -1715,7 +1750,13 @@ entries:
     thread: desegregation-schools
     also: [civil-rights-organizations]
     c: Chicago. The Coordinating Council's second boycott of the schools, against Willis. Fewer out than Oct. 22 (Check the figures and the date).
-    n: '[[w.ralph-northern-protest]], 22. Check: Ralph gives roughly 175,000 out (22), against nearly 225,000 on Oct. 22, 1963 (21). See [[cal.1963-10-22.desegregation-schools-chicago]]; [[cal.1964-02-03.desegregation-schools]]. Names: Willis.'
+    n: '[[w.ralph-northern-protest]], 22; [[w.anderson-confronting-the-color-line]], 133; [[w.anderson-confronting-the-color-line]], pl. 5 (175,000; the caption). Check: Ralph gives roughly 175,000 out (22), against nearly 225,000 on Oct. 22, 1963 (21). Check: Anderson: 175,000 absences, 22 percent fewer than in October (133). See [[cal.1963-10-22.desegregation-schools-chicago]]; [[cal.1964-02-03.desegregation-schools]]. Names: Willis.'
+    src:
+      c: d377b5dc
+      rows:
+        - 'w.ralph-northern-protest 22: all'
+        - 'w.anderson-confronting-the-color-line 133: A-C'
+        - 'w.anderson-confronting-the-color-line pl. 5: C'
     tags: [state:il, city:chicago, name:willis-benjamin-c]
   - id: cal.1964-02-25.trade
     when: Feb. 25
@@ -2433,3 +2474,15 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 278: all'
     tags: [name:ayub-khan-mohammad, name:taylor-maxwell]
+  - id: cal.1964-02.desegregation-schools-2
+    when: Feb.
+    date: 1964-02
+    thread: desegregation-schools
+    also: [mayors]
+    c: 'Chicago. A delegation of the Coordinating Council with Daley: he wants the boycott called off, will only "consider" the demands, keeps his hands off Willis. Any progress "after the Hauser Report." The delegation: the mayor has given them nothing.'
+    n: '[[w.anderson-confronting-the-color-line]], 132. Check: the day; before Feb. 15. See [[cal.1964-02-09.desegregation-schools]]. Names: Daley, Willis.'
+    src:
+      c: 00af8332
+      rows:
+        - 'w.anderson-confronting-the-color-line 132: all'
+    tags: [name:daley-richard-j, name:willis-benjamin-c, state:il, city:chicago]

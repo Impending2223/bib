@@ -1088,6 +1088,20 @@ entries:
       c: a4c30677
       rows:
         - 'w.staaveren-u-s-air-force 255: all'
+  - id: cal.1967-06-14.open-housing
+    when: June 14
+    date: '1967-06-14'
+    thread: open-housing
+    also: [congress]
+    c: Washington. The Joint Committee on Atomic Energy, in executive session, approves the Commission's authorizations for fiscal 1968, the preliminary work on the accelerator at Weston, Ill., among them, eleven to three, overriding Pastore, its chairman, who asked it to wait until Illinois passed a fair housing law.
+    n: 'Daily Digest, [113 Cong. Rec. D291](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=289) (June 15, 1967) (the executive session of Wednesday, June 14, and the authorizations, S. 1963, approved). [[w.anderson-confronting-the-color-line]], 331. To check: Chicago Daily News, 16 June 1967; Chicago Sun-Times, 15 June 1967 (cited by [[w.anderson-confronting-the-color-line]], 331 n.14). See [[cal.1966-07-18.open-housing-2]]. Names: Pastore.'
+    src:
+      c: 8bc80404
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=289: A-B'
+        - 'w.anderson-confronting-the-color-line 331: all'
+        - 'via w.anderson-confronting-the-color-line 331 n.14: all'
+    tags: [name:pastore-john-o, state:il]
   - id: cal.1967-06-15.health-ca
     when: June 15
     date: '1967-06-15'
@@ -2203,5 +2217,37 @@ entries:
     date: 1967-06
     thread: open-housing
     c: 'Weston, Ill. Raby and the Coordinating Council against federal funds for the atomic accelerator, the village having no fair housing ordinance: a "tent-in," a handful camping.'
-    n: '[[w.ralph-northern-protest]], 223. Check: the day. Names: Raby.'
+    n: '[[w.ralph-northern-protest]], 223; [[w.anderson-confronting-the-color-line]], 331 (the tent-in). Check: the day. Check: Anderson dates the tent-in''s start June 22, 1967, and has Bishop Montgomery, Rabbi Marx, Monsignor Egan and Edgar Chandler ask Kerner for a special session on open housing (331; pl. 16). To check: Chicago Daily News, 23 June 1967 (cited by [[w.anderson-confronting-the-color-line]], 331 n.15). Names: Raby.'
+    src:
+      c: 960eb715
+      rows:
+        - 'w.ralph-northern-protest 223: all'
+        - 'w.anderson-confronting-the-color-line 331: A-B'
+        - 'via w.anderson-confronting-the-color-line 331 n.15: A-B'
     tags: [state:il, name:raby-albert]
+  - id: cal.1967-06.open-housing-2
+    when: June
+    date: 1967-06
+    thread: open-housing
+    also: [legislatures]
+    c: Springfield, Ill. Open housing dead in the General Assembly, within a week of the Joint Committee's vote.
+    n: '[[w.anderson-confronting-the-color-line]], 331. Check: the day; the bill. To check: Chicago Daily News, 16 June 1967; Chicago Sun-Times, 15 June 1967 (cited by [[w.anderson-confronting-the-color-line]], 331 n.14). See [[cal.1967-06-14.open-housing]].'
+    src:
+      c: e7838c59
+      rows:
+        - 'w.anderson-confronting-the-color-line 331: all'
+        - 'via w.anderson-confronting-the-color-line 331 n.14: all'
+    tags: [state:il]
+  - id: cal.1967-06.desegregation-schools-2
+    when: June
+    date: 1967-06
+    thread: desegregation-schools
+    also: [court]
+    c: 'Springfield, Ill. The Illinois Supreme Court strikes down the Armstrong Act of 1963. Raby: "particularly cruel."'
+    n: '[[w.anderson-confronting-the-color-line]], 331. Check: the day; the case. To check: Chicago Daily News, 23 June 1967 (cited by [[w.anderson-confronting-the-color-line]], 331 n.16). See [[cal.1963-02.desegregation-schools-3]]. Names: Raby.'
+    src:
+      c: 7e7de846
+      rows:
+        - 'w.anderson-confronting-the-color-line 331: all'
+        - 'via w.anderson-confronting-the-color-line 331 n.16: all'
+    tags: [name:raby-albert, state:il]
