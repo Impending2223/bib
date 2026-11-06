@@ -45,6 +45,17 @@ entries:
       rows:
         - 'w.macv-command-history-1967 1085: all'
     tags: [name:sullivan-william-h, name:bunker-ellsworth, name:sharp-u-s-grant, name:westmoreland-william]
+  - id: cal.1967-08-01.civil-disorders-detroit
+    when: Aug. 1
+    date: '1967-08-01'
+    thread: civil-disorders-detroit
+    c: Detroit. The curfew lifted; the National Guard leaves. Forty dead, 2,000 injured, 5,000 arrested, 5,000 homeless.
+    n: '[[w.bernstein-guns-or-butter]], 419. See [[cal.1967-07-29.civil-disorders-detroit]].'
+    src:
+      c: 9c213897
+      rows:
+        - 'w.bernstein-guns-or-butter 419: all'
+    tags: [city:detroit, state:mi]
   - id: cal.1967-08-02.opinion
     when: Aug. 2
     date: '1967-08-02'
@@ -1043,13 +1054,14 @@ entries:
     date: '1967-08-14'
     thread: economy-surcharge
     c: 'Ways and Means hearings on the President''s tax proposals: Fowler, Schultze and Ackley.'
-    n: 'Daily Digest, [113 Cong. Rec. D415](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=413), [D419](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=417) (House, Aug. 14 and 15, 1967). [[w.gibbons-u-s-government-and]], IV, 755 (two days of hearings). To check: House Ways and Means Committee, *President''s 1967 Tax Proposal*, Hearings (1967) (cited by [[w.gibbons-u-s-government-and]], IV, 759 n.136). Names: Fowler, Schultze, Ackley.'
+    n: 'Daily Digest, [113 Cong. Rec. D415](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=413), [D419](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=417) (House, Aug. 14 and 15, 1967). [[w.gibbons-u-s-government-and]], IV, 755 (two days of hearings); [[w.bernstein-guns-or-butter]], 370 (Mills''s hearings, August and September). To check: House Ways and Means Committee, *President''s 1967 Tax Proposal*, Hearings (1967) (cited by [[w.gibbons-u-s-government-and]], IV, 759 n.136). Names: Fowler, Schultze, Ackley.'
     src:
       c: '26003306'
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=413: all'
         - 'w.gibbons-u-s-government-and IV, 755: A'
         - 'via x.1967.house-ways-and-means-committee-presidents: A'
+        - 'w.bernstein-guns-or-butter 370: A'
     tags: [name:fowler-henry-h, name:schultze-charles-l, name:ackley-gardner]
   - id: cal.1967-08-14.vietnam-support
     when: Aug. 14
@@ -2053,6 +2065,19 @@ entries:
       rows:
         - 'w.gibbons-u-s-government-and IV, 761: all'
     tags: [name:findley-paul, name:clark-joseph-s]
+  - id: cal.1967-08-23.economy-surcharge
+    when: Aug. 23
+    date: '1967-08-23'
+    thread: economy-surcharge
+    also: [labor]
+    c: 'Ways and Means, the President''s tax proposals: Meany for the AFL-CIO, and public witnesses.'
+    n: 'Daily Digest, [113 Cong. Rec. D440](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=438) (House, Aug. 23, 1967). [[w.bernstein-guns-or-butter]], 370 (the AFL-CIO for the surtax). See [[cal.1967-08-14.economy-surcharge]]. Names: Meany.'
+    src:
+      c: 95d91c61
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=438: all'
+        - 'w.bernstein-guns-or-butter 370: all'
+    tags: [name:meany-george]
   - id: cal.1967-08-24.testing
     when: Aug. 24
     date: '1967-08-24'
@@ -2897,3 +2922,24 @@ entries:
       rows:
         - 'w.debenedetti-american-ordeal 188: all'
     tags: [name:dellinger-david, name:rubin-jerry, name:hoffman-abbie]
+  - id: cal.1967-08.economy-surcharge
+    when: Aug.–Sept.
+    date: 1967-08
+    thread: economy-surcharge
+    c: Pechman of Brookings submits to Ways and Means a petition of 320 academic economists for the surtax.
+    n: '[[w.bernstein-guns-or-butter]], 370 ("Mills did hold hearings in August and September"). Check: the day; the hearings ran Aug. 14 to Sept. 14 (the Daily Digest). See [[cal.1967-08-14.economy-surcharge]].'
+    src:
+      c: 55967e25
+      rows:
+        - 'w.bernstein-guns-or-butter 370: all'
+  - id: cal.1967-08.welfare
+    when: Aug., early
+    date: 1967-08
+    thread: welfare
+    c: 'Gardner against Ways and Means''s welfare amendments: children required "to pay for the real or supposed sins of their parents"; mothers forced into job training, their children into day care.'
+    n: '[[w.bernstein-guns-or-butter]], 434. Check: the day; between the report of Aug. 7 and the rule of Aug. 16. See [[cal.1967-08-07.welfare]]. Names: Gardner.'
+    src:
+      c: c21c4fd9
+      rows:
+        - 'w.bernstein-guns-or-butter 434: all'
+    tags: [name:gardner-john-w]

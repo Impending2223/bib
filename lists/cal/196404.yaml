@@ -903,7 +903,12 @@ entries:
     thread: opinion
     also: [elections-1964-polls]
     c: 'Gallup, Mar. 27–Apr. 1, Democrats'' choice for Vice President: Robert Kennedy 47, Stevenson 18, Humphrey 10, Shriver 7, Brown 3, Fulbright 3, Wagner 2; others, no preference 7. Kennedy in the East 55; in the South 38.'
-    n: '[[w.gallup-poll]], III, 1874–75. Names: Robert Kennedy, Stevenson, Humphrey, Shriver, Brown, Wagner, Fulbright.'
+    n: '[[w.gallup-poll]], III, 1874–75; [[w.bernstein-guns-or-butter]], 134 ("in April"). Names: Robert Kennedy, Stevenson, Humphrey, Shriver, Brown, Wagner, Fulbright.'
+    src:
+      c: baba1fd9
+      rows:
+        - 'w.gallup-poll III, 1874–75: all'
+        - 'w.bernstein-guns-or-butter 134: A'
     tags: [name:kennedy-robert-f, name:stevenson-adlai-e, name:humphrey-hubert-h, name:shriver-r-sargent, name:brown-edmund-g, name:fulbright-j-william, name:wagner-robert-f-jr]
   - id: cal.1964-04-12.black-nationalism
     when: Apr. 12
@@ -2122,6 +2127,17 @@ entries:
       rows:
         - 'w.whalen-longest-debate 170: all'
     tags: [name:allott-gordon-l]
+  - id: cal.1964-04-27.conservation
+    when: Apr. 27–30
+    date: '1964-04-27'
+    thread: conservation
+    c: 'House Interior''s Subcommittee on Public Lands hears the wilderness bills, S. 4, H.R. 9070 and H.R. 9162, in Washington, after hearings at Olympia, Denver and Las Vegas from January. Zahniser on the last day: "for perpetuity, ... that surely is our challenge."'
+    n: 'Daily Digest, [110 Cong. Rec. D189](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=187) (House, Apr. 27, 1964). [[w.bernstein-guns-or-butter]], 277 (B; the hearings "between January and May 1964"). Check: the day of Zahniser''s testimony. See [[cal.1964-03-03.conservation]].'
+    src:
+      c: f6db6793
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=187: A'
+        - 'w.bernstein-guns-or-butter 277: all'
   - id: cal.1964-04-28.elections-1964
     when: Apr. 28
     date: '1964-04-28'
@@ -2982,3 +2998,37 @@ entries:
         - 'w.kotz-judgment-days 125: all'
         - 'via w.kotz-judgment-days 125 n.33b: all'
     tags: [name:king-martin-luther-jr]
+  - id: cal.1964-04.defense
+    when: Apr.
+    date: 1964-04
+    thread: defense
+    c: McNamara asks Califano, general counsel of the Army, to succeed Yarmolinsky as his special assistant, Yarmolinsky expected to go to the poverty program. Califano takes the post.
+    n: '[[w.bernstein-guns-or-butter]], 318. Check: the day. Names: McNamara, Califano, Yarmolinsky.'
+    src:
+      c: c96f08cb
+      rows:
+        - 'w.bernstein-guns-or-butter 318: all'
+    tags: [name:mcnamara-robert-s, name:califano-joseph-a-jr, name:yarmolinsky-adam]
+  - id: cal.1964-04.civil-rights-bill-3
+    when: Apr., early
+    date: 1964-04
+    thread: civil-rights-bill
+    c: 'The churches on Capitol Hill: a prayer service each day at the Lutheran Church of the Reformation, a prominent clergyman leading, at Humphrey''s urging.'
+    n: '[[w.bernstein-guns-or-butter]], 69. To check: [[w.whalen-longest-debate]] (cited by [[w.bernstein-guns-or-butter]], 69 n.6). Check: the first day. See [[cal.1964-03-30.civil-rights-bill]]. Names: Humphrey.'
+    src:
+      c: 00ccbfaa
+      rows:
+        - 'w.bernstein-guns-or-butter 69: all'
+    tags: [name:humphrey-hubert-h]
+  - id: cal.1964-04.poverty
+    when: Apr.
+    date: 1964-04
+    thread: poverty
+    c: 'Whitney Young of the Urban League before the House poverty subcommittee: the Negro''s plight "a catastrophe, a disaster, and it is fast becoming a national disgrace"; the demonstrations "fostered by despair and hopelessness."'
+    n: '[[w.bernstein-guns-or-butter]], 106. To check: *Economic Opportunity Act of 1964: Hearings Before the Subcommittee on the War on Poverty Program of the H. Comm. on Education and Labor*, 88th Cong. (1964) (cited by [[w.bernstein-guns-or-butter]], 106 n.8). Check: the day; the Daily Digest has public witnesses on several days, Apr. 9–28. Names: Whitney Young.'
+    src:
+      c: 49d95133
+      rows:
+        - 'w.bernstein-guns-or-butter 106: all'
+        - 'via x.1964-03-17.economic-opportunity-act-house-hearings: all'
+    tags: [name:young-whitney-m-jr]

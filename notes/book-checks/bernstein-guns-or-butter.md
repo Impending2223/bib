@@ -38,40 +38,38 @@ Near matches for a reader: Heller's "Case" (GEN-CEA File) and `x.1963-11-25.walt
 
 | Page | Date | Event | Why |
 | --- | --- | --- | --- |
-| 360 | Sept. 9, 1965 | Ackley's speech on the war's cost, checked with McNamara | a lead (the speech's place) |
+| 360 | Sept. 9, 1965 | Ackley's speech on the war's cost, checked with McNamara | settled (b5): entered, Sept. 9, 1965 |
 | 360 | 1965 | McNamara orders Anthony to assume the war ends June 30, 1967 | undated |
-| 362 | Nov. 1965 | Harriman to Santiago; 200,000 tons of copper from the stockpile | a lead (the days) |
+| 362 | Nov. 1965 | Harriman to Santiago; 200,000 tons of copper from the stockpile | settled (b5): entered, Nov. 15 and 17, 1965 (FRUS read); cited, Nov. 1, 12, 18, 19 |
 | 363 | 1965 | Blough "worked over" in the Oval Office (Ackley's oral history) | undated |
 | 365 | Dec. 1965 | Heller for a 5 percent surtax; Barr back from Southeast Asia | undated |
-| 366 | Aug. 17, 1966 | the Fed presses the large banks to "ration their loans" | "a week later": a lead |
-| 366 | Sept. 17, Nov. 8, 1966 | Ackley's reports of price increases | leads (the memoranda unread) |
-| 366 | Jan. 1966 | Lindsay's transit settlement, 6.3 percent | a lead (the day) |
-| 366 | Aug. 1966 | Reuss's hearings on the guideposts | a lead (the days) |
+| 366 | Aug. 17, 1966 | the Fed presses the large banks to "ration their loans" | settled (b5): entered, Aug. 17, 1966 (Check: the day) |
+| 366 | Sept. 17, Nov. 8, 1966 | Ackley's reports of price increases | settled (b5): entered, Sept. 17 and Nov. 8, 1966 |
+| 366 | Jan. 1966 | Lindsay's transit settlement, 6.3 percent | settled (b5): cited, Jan. 13, 1966 |
+| 366 | Aug. 1966 | Reuss's hearings on the guideposts | settled (b5): entered, Aug. 1966 (Check: the days and the committee) |
 | 366 | May 1966 | Ackley and Schultze for a 10 percent surtax | undated |
-| 367 | Jan. 1968, May 23, 1968 | Ackley's comparison of prices abroad; Okun's summary of interest rates | leads |
+| 367 | Jan. 1968, May 23, 1968 | Ackley's comparison of prices abroad; Okun's summary of interest rates | settled (b5): entered, Jan. 1968 (Check: the note's Okun memorandum) and May 23, 1968 (Check: the note's May 22) |
 | 368 | 1967 | Ackley's "The Disaster Toll"; the construction settlements | undated |
-| 368–69 | Feb., May, June 1967 | Proxmire's draft; the Business Council at Hot Springs; Califano's "after the recess" | leads (the days) |
-| 369 | late July 1967 | Martin for a 10 percent surtax in public | a lead |
-| 370 | Aug.–Sept. 1967 | Mills's hearings; Pechman's petition of 320 economists | leads (the days) |
-| 373 | Mar. 1968 | the Finance Committee refuses the surtax, 12–5 and 9–8; the bill reported Mar. 15 | leads (the votes' days; `cal.1968-03-15.economy-surcharge` is Sanders's memorandum) |
-| 373 | Mar. 1968 | Fowler's four days on the Hill; Dirksen, "no commitment" | a lead (Fowler to Johnson, Mar. 22) |
-| 374 | Apr. 12, 1968 | the excise bill signed | a lead (the statute's entry) |
-| 374 | May 2, 1968 | Mills moves 14-6-6 | a lead (the forum: the conference or Ways and Means) |
-| 375 | May 9, 1968 | Sanders and Fowler to Johnson on the conference report | `cal.1968-05-09.economy-surcharge-2` holds Sanders's; Fowler's a lead |
-| 376 | May 21, 1968 | Johnson with Mills, the House leadership, Okun, Fowler, Zwick (Okun's oral history) | a lead: whether it is the leadership breakfast of `cal.1968-05-21.economy-surcharge` |
-| 376 | May 27, 1968 | the ABA's telegram to its 13,500 banks | a lead |
+| 368–69 | Feb., May, June 1967 | Proxmire's draft; the Business Council at Hot Springs; Califano's "after the recess" | settled (b5): entered, Feb. 24, May and June 17, 1967 |
+| 369 | late July 1967 | Martin for a 10 percent surtax in public | settled (b5): entered, July 1967 |
+| 370 | Aug.–Sept. 1967 | Mills's hearings; Pechman's petition of 320 economists | settled (b5): cited, Aug. 14, 1967; entered, Aug. 23 and Sept. 14, 1967 (the Daily Digest) and Aug. 1967 (Pechman) |
+| 373 | Mar. 1968 | the Finance Committee refuses the surtax, 12–5 and 9–8; the bill reported Mar. 15 | settled (b5): entered, Mar. 14 (the Daily Digest) and Mar. 15, 1968 |
+| 373 | Mar. 1968 | Fowler's four days on the Hill; Dirksen, "no commitment" | settled (b5): entered, Mar. 22, 1968 |
+| 374 | Apr. 12, 1968 | the excise bill signed | settled (b5): entered, Apr. 12, 1968, 82 Stat. 92 (read) |
+| 374 | May 2, 1968 | Mills moves 14-6-6 | settled (b5): entered, May 2, 1968 (Check: the forum) |
+| 375 | May 9, 1968 | Sanders and Fowler to Johnson on the conference report | settled (b5): entered, May 9, 1968 (Fowler's) |
+| 376 | May 21, 1968 | Johnson with Mills, the House leadership, Okun, Fowler, Zwick (Okun's oral history) | settled (b5): entered, May 21, 1968 (Check: perhaps the leadership breakfast) |
+| 376 | May 27, 1968 | the ABA's telegram to its 13,500 banks | settled (b5): entered, May 27, 1968 |
 | 377 | — | Johnson's refusal to cut until Congress acted; fiscal 1969's surplus | Califano's later account |
 
 ## The press
 
-None entered. Named and passed over: the *Times* on Johnson "sputtering mad" (aluminum, Nov. 1965, 362: a lead, the day); the *Financial Times* on McNamara (p. 359, not read closely); *Congressional Quarterly*'s "Lobbying by Business Key to Passage" (June 1968, 376: a lead).
+None entered. Named and passed over: the *Times* on Johnson "sputtering mad" (aluminum, Nov. 1965, 362: cited under Nov. 1, 1965, b5); the *Financial Times* on McNamara (p. 359, not read closely); *Congressional Quarterly*'s "Lobbying by Business Key to Passage" (June 1968, 376: a lead).
 
 ## Leads
 
 The Passed over rows marked "a lead," and:
 
-- Ways and Means's hearings of Jan. 22–23, 1968 (Fowler, Schultze, Martin, Ackley; 372): the hearing record.
-- The Finance Committee's votes of Mar. 1968 (12–5; 9–8) and its report of Mar. 15 (373): the committee's report and the *CQ Almanac*, 1968, 263–78.
 - Nov. 22, 1966, the Ranch: the fiscal year of McNamara's $20 billion and the deficit's $1.8 and $9 billion (360): Shapley, 367–74.
 
 ## Third run (b3-bernstein-guns-3), Nov. 3–4, 2026
@@ -105,21 +103,21 @@ Stray ledger line of this run, claimed and not used: `cal.1963-12-08.democratic-
 | 11 | 1961–63 | Johnson unhappy; McPherson and the zoo; Edwards the chauffeur | private |
 | 17 | Nov. 22, 1963 | Johnson's calls from the plane to Rose Kennedy and Nellie Connally | minor (condolences) |
 | 18 | Nov. 22, 1963 | Mrs. Johnson and Carpenter in the car; Rayburn's photograph | private remarks |
-| 21 | Nov.–Dec. 1963 | O'Brien asked to stay; Fortas, Clifford, Rowe consulted; the apology to Rowe | a lead (the days) |
-| 22 | Nov. 25–28, 1963 | Johnson and Fortas approve Katzenbach's commission; Fortas and Katzenbach agree on seven names | a lead (the day) |
-| 24 | Nov. 1963 | the debate over the address's forum; Humphrey for the Hill | a lead (the day) |
-| 24 | Nov.–Dec. 1963 | Johnson sees 3,000 people in his first month, by Moyers | a lead |
-| 25 | Nov.–Dec. 1963 | Robert Anderson consulted; Dirksen by telephone, "you know I will" | a lead (the days) |
+| 21 | Nov.–Dec. 1963 | O'Brien asked to stay; Fortas, Clifford, Rowe consulted; the apology to Rowe | settled (b5): entered, Nov. 1963 (O'Brien asked to stay); cited, Dec. 1, 1963 (Rowe); the consultations with Fortas and Clifford no act dated |
+| 22 | Nov. 25–28, 1963 | Johnson and Fortas approve Katzenbach's commission; Fortas and Katzenbach agree on seven names | settled (b5): entered, Nov. 25–28, 1963 (Check: the days) |
+| 24 | Nov. 1963 | the debate over the address's forum; Humphrey for the Hill | settled (b5): entered, Nov. 1963 |
+| 24 | Nov.–Dec. 1963 | Johnson sees 3,000 people in his first month, by Moyers | settled (b5): entered, Dec. 1963 |
+| 25 | Nov.–Dec. 1963 | Robert Anderson consulted; Dirksen by telephone, "you know I will" | settled (b5): entered, Nov. 1963 (Anderson; Dirksen's call) |
 | 26 | Dec. 12–17, 1963 | Gallup: approval 79, disapproval 3 | the approval table, not an entry |
-| 26 | Dec. 1963 | Hatfield's letter to Carpenter on Texas opinion | a lead (undated letter) |
-| 27 | Aug. 1963 | Mills tells the President and the Treasury most reforms must go | a lead (the day) |
-| 29–30 | Nov.–Dec. 1963 | Johnson tells the press $101–102 billion; reporters feel deceived, by Gordon | a lead (the day) |
-| 33 | Jan. 1964 | Johnson to Byrd: 14 percent withholding in fiscal 1964 | a lead (the letter) |
-| 36 | Nov. 1963–Feb. 1964 | the leaders' breakfasts on the bill; O'Brien's, Manatos's, Barr's memoranda | a lead (each memorandum's day) |
+| 26 | Dec. 1963 | Hatfield's letter to Carpenter on Texas opinion | settled (b5): entered, Dec. 1963 (Check: the note gives the letter n.d.) |
+| 27 | Aug. 1963 | Mills tells the President and the Treasury most reforms must go | settled (b5): entered, Aug. 1963 |
+| 29–30 | Nov.–Dec. 1963 | Johnson tells the press $101–102 billion; reporters feel deceived, by Gordon | settled (b5): entered, Dec. 1963 |
+| 33 | Jan. 1964 | Johnson to Byrd: 14 percent withholding in fiscal 1964 | settled (b5): entered, Jan. 1964 |
+| 36 | Nov. 1963–Feb. 1964 | the leaders' breakfasts on the bill; O'Brien's, Manatos's, Barr's memoranda | settled (b5): cited, Jan. 7, 1964 (the breakfasts); the memoranda Bernstein dates are in the tree (Nov. 26, 1963; Jan. 9–10, 13, 1964) |
 | 39 | spring 1964 | Lewis's clipping on waiters' tips | minor |
 | 39–42 | 1964–65 | the economy's figures | the indicators tables |
 | 318 | Jan. 1961 | Califano writes Vance for a job; hired | minor (before his public role) |
-| 318 | 1962; Apr. 1964 | Califano to the Army; to McNamara's staff | a lead (the days) |
+| 318 | 1962; Apr. 1964 | Califano to the Army; to McNamara's staff | settled (b5): entered, Apr. 1964; the Army post (1962, a year only): a lead |
 | 319 | late July 1965 | Califano at work | in `cal.1965-07-08.transition-and-staff` (cited) |
 | 320 | Dec. 1965 | Steinbeck's lines tossed | minor |
 | 563 | 1966 | Goldman's rift and departure | a lead (the day) |
@@ -166,20 +164,20 @@ Ch. 3: Oct. 1963 (Dirksen and Katzenbach on Air Force One); Dec. 31, 1963, and J
 
 | Page | Date | Event | Why |
 | --- | --- | --- | --- |
-| 44 | June 21–26, 1963; Jan. 1964 | Gallup on public accommodations, 49–42, 61 by January | the polls (Opinion): a lead, the releases' days |
-| 44 | Nov. 20, 1963 | Judiciary reports H.R. 7152, 20 to 14 | a lead: the tree's Oct. 29 entry has the committee's vote 20–12; the report's day to check |
-| 48 | Dec. 1963 | the leadership weighs the discharge petition, Calendar Wednesday and Rule 11 | a lead (the day) |
+| 44 | June 21–26, 1963; Jan. 1964 | Gallup on public accommodations, 49–42, 61 by January | settled (b5): cited, July 10 and July 19, 1963, Feb. 2, 1964 |
+| 44 | Nov. 20, 1963 | Judiciary reports H.R. 7152, 20 to 14 | settled (b5): entered, Nov. 20, 1963 (the Record read; Check: Bernstein's 20 to 14) |
+| 48 | Dec. 1963 | the leadership weighs the discharge petition, Calendar Wednesday and Rule 11 | settled (b5): entered, Dec. 1963 |
 | 49 | Jan. 29, 1964 | Smith at "the end of the line" | in cal.1964-01-23 and 01-30 (repetition) |
 | 52 | Feb. 7, 1964 | Title VI: seven other amendments defeated | in Zelizer's pending Feb. 7 entry (cited) |
-| 55 | Feb. 8, 1964 | two more Title VII amendments adopted (retraining; a commission) | a lead: the day's other votes, the Record |
-| 56 | Feb. 10, 1964 | Ashmore's Title X, the Community Relations Service, accepted by Celler and McCulloch | a lead: the vote, the Record (the Feb. 10 entry does not name it) |
+| 55 | Feb. 8, 1964 | two more Title VII amendments adopted (retraining; a commission) | settled (b5): cited, Whalen's pending Feb. 8, 1964 entry (the page has retraining and the church schools' exemption, not a commission) |
+| 56 | Feb. 10, 1964 | Ashmore's Title X, the Community Relations Service, accepted by Celler and McCulloch | settled (b5): entered, Feb. 10, 1964 (the day's amendments; Ashmore's Title X) |
 | 56 | Feb. 17, 26, Mar. 9, 1964 | the Senate's schedule moved for the tax bill | a repetition (the tax bill's entries) |
-| 63 | late May or early June 1963 | Kennedy has Burke Marshall talk to Johnson on the bill | a lead (the day) |
-| 64 | Feb. 1964 | Gallup 61, Harris 68 for H.R. 7152 | the polls: a lead |
-| 66 | Mar. 1964 | businessmen and conservatives on quotas | undated: a lead |
-| 69 | Apr. 1964 | the daily prayer services at the Church of the Reformation | a lead (the first day) |
+| 63 | late May or early June 1963 | Kennedy has Burke Marshall talk to Johnson on the bill | settled (b5): entered, June 1963 (Check: Bernstein's late May or early June) |
+| 64 | Feb. 1964 | Gallup 61, Harris 68 for H.R. 7152 | settled (b5): cited, Feb. 2, 1964 (Gallup); entered, Feb. 1964 (Harris) |
+| 66 | Mar. 1964 | businessmen and conservatives on quotas | settled (b5): in the tree (Mar. 30, 1964, Humphrey on quotas, with its Check); the complaints no act dated |
+| 69 | Apr. 1964 | the daily prayer services at the Church of the Reformation | settled (b5): entered, Apr. 1964 |
 | 73 | June 2, 1964 | the California primary delays the vote | in the elections thread (repetition) |
-| 73 | June 1964 | Hickenlooper's demands: the vote moved to June 10; his three amendments June 9; Hruska, Curtis, Mundt, Cotton for cloture | a lead: the agreement's day |
+| 73 | June 1964 | Hickenlooper's demands: the vote moved to June 10; his three amendments June 9; Hruska, Curtis, Mundt, Cotton for cloture | settled (b5): cited, June 5, 1964 (Check: Curtis) |
 | 74 | Jan. 27, 1964 | Bryant's hearing in the Myart case | in the Mar. 5 entry |
 | 74 | 1964 | the *Chicago Tribune* and Krock on the Motorola ruling | the press: a lead (the days) |
 | 77 | June 18–19, 1964 | the Southerners' last amendments | in the June 19 entry's cite |
@@ -187,24 +185,24 @@ Ch. 3: Oct. 1963 (Dirksen and Katzenbach on Air Force One); Dec. 31, 1963, and J
 | 547 n.6 | 1964 | the rumor of a payoff, the accelerator for the cloture votes | in the Dec. 31, 1963 entry's note (Manatos's denial) |
 | 459 | 1964 | Johnson renews the proposal for a Department of Housing and Urban Development | a lead (the message's day; the tree's Mar. 2, 1965 entry) |
 | 461 | 1965 | Mayor Cavanagh shows Reuther the demonstration cities proposal | in the May 13, 1965 entry |
-| 461 | June 9, 1965 | Haar to Goodwin | registered; its matter not stated: a lead |
+| 461 | June 9, 1965 | Haar to Goodwin | settled (b5): entered, June 9, 1965 (its matter on p. 461) |
 | 462 | Aug. 1965 | Watts turns Johnson to demonstration cities | Bernstein's reading, no act |
-| 463 | Dec. 1965–Jan. 1966 | Wirtz on the report; Califano's briefing; the wire stories "abominable" | a lead (the briefing's day) |
-| 464 | May 1966 | the *Times*: the bill "dead"; Wilson's three problems | the press and a staff paper: a lead (the days) |
-| 466 | Aug. 1966 | Tower's amendment, no State over 15 percent of the planning money | a lead: the day, the Record (the Aug. 19 entry's) |
-| 466 | Sept.–Oct. 1966 | telegrams from 22 businessmen, Ford and David Rockefeller | a lead (the day) |
+| 463 | Dec. 1965–Jan. 1966 | Wirtz on the report; Califano's briefing; the wire stories "abominable" | settled (b5): entered, Dec. 1965 (Wirtz) and Jan. 1966 (the briefing) |
+| 464 | May 1966 | the *Times*: the bill "dead"; Wilson's three problems | settled (b5): entered, May 1966 (the *Times*; Wilson) |
+| 466 | Aug. 1966 | Tower's amendment, no State over 15 percent of the planning money | settled (b5): entered, Aug. 19, 1966 (Check: the day) |
+| 466 | Sept.–Oct. 1966 | telegrams from 22 businessmen, Ford and David Rockefeller | settled (b5): entered, Oct. 1966 |
 | 468 | 1967–68 | HUD's weekly reports on Austin; the grants to Maine, Montana, Oklahoma | undated: a lead |
-| 468 | Sept. 27, 1968 | Califano's letter to the departments on a coordinated federal response | in the Oct. 7 entry (Wirtz's answer); the letter itself a lead |
+| 468 | Sept. 27, 1968 | Califano's letter to the departments on a coordinated federal response | settled (b5): entered, Sept. 27, 1968 |
 | 469 | Jan. 1969 | eight more plans approved before Jan. 20 | in the Dec. 23, 1968 entry |
-| 432 | Jan. 23, 1967 | the message on older Americans (Social Security) | not entered or held here: ch. 16 not read; a lead |
+| 432 | Jan. 23, 1967 | the message on older Americans (Social Security) | settled (b5): in the tree (Jan. 23, 1967, cited by the eighth run) |
 
 ### The press (fourth run)
 
-None entered. Named: the *Chicago Tribune* and Arthur Krock in the *New York Times* "outraged" at the Motorola ruling (1964, 74: a lead, the days); the *Times* on the price tag of demonstration cities, double the estimate (1966, 464), and calling the bill "dead" (May 1966, 464): leads; the wire stories on Califano's briefing (1966, 464); the extreme right's broadcasts against the bill, Smoot's (1966, 466): a lead.
+None entered. Named: the *Chicago Tribune* and Arthur Krock in the *New York Times* "outraged" at the Motorola ruling (1964, 74: a lead, the days); the *Times* on the price tag of demonstration cities, double the estimate (1966, 464), and calling the bill "dead" (May 1966, 464: entered, b5): the price tag a lead; the wire stories on Califano's briefing (1966, 464); the extreme right's broadcasts against the bill, Smoot's (1966, 466): a lead.
 
 ### Leads (fourth run)
 
-National: the rows above marked "a lead"; the roll calls of Tower's amendment, June 11, 1964 (49 to 38), and the Senate Republicans' policy luncheon of Apr. 28 (Voteview; the Record); Califano's letter of Sept. 27, 1968, to the departments (Task Force Subject File, LBJ Library); the 1965 task force report, printed as appendix 2 of Haar, *Between the Idea and the Reality*: a card the series holds (`w.haar-between-the-idea-and`), its pages to read.
+National: the rows above marked "a lead"; the 1965 task force report, printed as appendix 2 of Haar, *Between the Idea and the Reality*: a card the series holds (`w.haar-between-the-idea-and`), its pages to read.
 
 ## Fifth run (b3-bernstein-guns-5), Nov. 4, 2026
 
@@ -242,53 +240,53 @@ Near matches for a reader: `x.undated.sargent-shriver-oral-history-interview-lbj
 | 89 | 1961 | Lewis, *The Children of Sanchez* | out of the brief (a study, no act) |
 | 90 | 1960 | Murrow's "Harvest of Shame" on CBS | the press: a lead (the day) |
 | 90–91 | 1962 | Caudill's *Night Comes to the Cumberlands*; Harrington's *The Other America* | a lead (the months) |
-| 92 | spring 1963 | Kennedy on the poor not angrier; Schlesinger on a broad war on poverty | a lead (undated) |
-| 97 | Dec. 1963–Jan. 1964 | the Cabinet Room meeting on the program's name; Hesburgh | a lead (the day) |
-| 100–102 | Feb.–Mar. 1964 | Yarmolinsky's deputy post; Shriver to Lee; Harrington's "nickels and dimes"; the Job Corps fight | a lead (the days) |
+| 92 | spring 1963 | Kennedy on the poor not angrier; Schlesinger on a broad war on poverty | not borne out (b5): Kennedy's remark undated; Schlesinger's an account of Kennedy's thinking, no act: a lead (the remark's day) |
+| 97 | Dec. 1963–Jan. 1964 | the Cabinet Room meeting on the program's name; Hesburgh | settled (b5): entered, Jan. 1964 |
+| 100–102 | Feb.–Mar. 1964 | Yarmolinsky's deputy post; Shriver to Lee; Harrington's "nickels and dimes"; the Job Corps fight | settled (b5): entered, Feb. 1964 (Yarmolinsky's post; Shriver to Lee; Harrington); cited, Feb. 1964 (the Cabinet meeting, the cigarette tax) |
 | 105–6 | 1964 | Rovere to Johnson; the Cabinet on a cigarette tax; Reston's "Franklin Delano Hoover twist"; Lady Bird Johnson in the anthracite district | a lead (the days) |
-| 106 | Mar.–Apr. 1964 | Whitney Young before the House subcommittee | a lead (the day: the hearings) |
+| 106 | Mar.–Apr. 1964 | Whitney Young before the House subcommittee | settled (b5): entered, Apr. 1964 (Check: the day) |
 | 107 | 1964 | Johnson to Meany on Landrum; Powell and Haryou | a lead (the days) |
-| 108 | Mar.–Apr. 1964 | Green and Shriver on women in the Job Corps | a lead (the day) |
-| 110 | July 1964 | Smith holds the rule past the convention; Halleck to each Republican | a lead; Halleck in Zelizer's July 31 entry |
+| 108 | Mar.–Apr. 1964 | Green and Shriver on women in the Job Corps | settled (b5): entered, Mar. 1964 (Check: the days) |
+| 110 | July 1964 | Smith holds the rule past the convention; Halleck to each Republican | settled (b5): entered, July 1964 (Smith); cited, July 31, 1964 (Halleck) |
 | 113 | 1980 | Yarmolinsky's later views | out of the brief (after the span) |
 | 117 | 1962 | Morhouse on the "slough of defeat" | a lead (the day) |
 | 118–21 | 1944–57 | the conservative books and journals | out of the brief (before the span) |
 | 123 | 1963 | Lippmann's column on Goldwater; Kennedy asks him to hold off; Goldwater to Stewart Alsop | the press: a lead (the days) |
 | 124 | 1960 | Goldwater's column, 162 papers; *The Conscience of a Conservative* | a lead (the months) |
 | 125 | 1961–62 | Rockefeller and Goldwater meet regularly | a lead (the days) |
-| 127 | May 1963 | Gallup: Goldwater 40, Rockefeller 29 | the polls: a lead (the release) |
-| 134 | Mar. 1964 | Jenkins to O'Brien at the Gridiron dinner | a lead (the day) |
+| 127 | May 1963 | Gallup: Goldwater 40, Rockefeller 29 | settled (b5): a Check on May 26, 1963 (Bernstein's 40 to 29) |
+| 134 | Mar. 1964 | Jenkins to O'Brien at the Gridiron dinner | a lead (b5): the page gives no month, "earlier that year" |
 | 134 | 1964 | Henshaw's "Washington Pipeline" on Johnson and Kennedy | the press: a lead (registered: Spain to Manatos, July 30) |
-| 134 | Mar.–Apr. 1964 | the Vice Presidential write-in in New Hampshire (Bernstein's 29,600 to 25,900); Gallup of Democrats, Kennedy 47 | a lead (the figures, the release) |
-| 136 | July 30–31, 1964 | Kennedy's call to Johnson after the luncheon; Rowe tells Stevenson; "Hubert, it's you" | a lead (the days) |
+| 134 | Mar.–Apr. 1964 | the Vice Presidential write-in in New Hampshire (Bernstein's 29,600 to 25,900); Gallup of Democrats, Kennedy 47 | settled (b5): a Check on Mar. 10, 1964 (the figures); cited, Apr. 12, 1964 (Gallup) |
+| 136 | July 30–31, 1964 | Kennedy's call to Johnson after the luncheon; Rowe tells Stevenson; "Hubert, it's you" | settled (b5): cited, July 31, 1964 (Kennedy's call); entered, July 1964 (Rowe tells Stevenson) |
 | 139–40 | 1964 | Connally and Jenkins against Humphrey; Lady Bird Johnson for McCarthy; Gallup of county chairmen; Harris on Humphrey and Miller | a lead (the days) |
-| 143–45 | Sept. 1964 | Goldwater at Hammond, Dodger Stadium, Prescott, Boise, Fargo, Milwaukee; Rovere with him in the South | a lead (the days) |
-| 145–46 | Sept.–Oct. 1964 | Team D, Feldman and Dutton; the DNC; Rowe's citizens' committees; Fowler's committee | a lead (the days; Feldman to Moyers, Sept. 10) |
-| 147 | Oct. 1963 | Goldwater: commanders to use tactical nuclear weapons | a lead (the day) |
-| 149 | Sept. 1964 | St. Petersburg; the Crampton Bowl rally | a lead (the days) |
-| 153 | Sept.–Oct. 1964 | Humphrey's stops, Sept. 27–Oct. 2; the polls for Rockefeller ("September 31," Oct. 30) | a lead |
-| 154 | Sept.–Oct. 1964 | *Fact*'s poll of psychiatrists; the newspapers' and church papers' endorsements | the press: a lead (the days) |
+| 143–45 | Sept. 1964 | Goldwater at Hammond, Dodger Stadium, Prescott, Boise, Fargo, Milwaukee; Rovere with him in the South | settled (b5): cited, Sept. 3, Sept. 4, Sept. 15–18 (Rovere), Sept. 1964 (Knoxville; Hammond); entered, Sept. 1964 (Boise, Fargo, Milwaukee) |
+| 145–46 | Sept.–Oct. 1964 | Team D, Feldman and Dutton; the DNC; Rowe's citizens' committees; Fowler's committee | settled (b5): entered, Sept. 1964 (Team D; Rowe's committees, Fowler's; the DNC) |
+| 147 | Oct. 1963 | Goldwater: commanders to use tactical nuclear weapons | settled (b5): cited, Oct. 24, 1963 |
+| 149 | Sept. 1964 | St. Petersburg; the Crampton Bowl rally | settled (b5): cited, Sept. 15–18, 1964 |
+| 153 | Sept.–Oct. 1964 | Humphrey's stops, Sept. 27–Oct. 2; the polls for Rockefeller ("September 31," Oct. 30) | settled (b5): entered, Sept. 27–Oct. 2 and Oct. 30, 1964 |
+| 154 | Sept.–Oct. 1964 | *Fact*'s poll of psychiatrists; the newspapers' and church papers' endorsements | settled (b5): cited, Sept. 1964 (*Fact*, a Check) and Oct. 4, 1964; entered, Oct. 1964 (the papers; the church papers) |
 | 155 | Dec. 12, 1964 | Cormier's $5 bet | minor |
 | 156–58 | 1934–61 | Cohen's career; Kerr-Mills; Forand's bill | out of the brief (before the span) |
 | 160 | 1960, 1962 | Ways and Means's votes, 17 to 8, 14 to 11 | a lead (the days) |
-| 161 | Nov. 1963 | the Millses to dinner at the White House | a lead (the day) |
-| 162 | Jan. 1964 | Javits to Johnson, Jan. 27; Cohen to Feldman, Jan. 29, on the Javits bill | a lead (the memoranda) |
+| 161 | Nov. 1963 | the Millses to dinner at the White House | settled (b5): entered, Nov. 1963 |
+| 162 | Jan. 1964 | Javits to Johnson, Jan. 27; Cohen to Feldman, Jan. 29, on the Javits bill | settled (b5): entered, Jan. 29, 1964 (Cohen to Feldman); Javits to Johnson, Jan. 27: its matter not stated, a lead |
 | 164 | 1964 | Johnson reminds Clark Thompson of his 2,500 letters | a lead (the day) |
-| 168 | Sept. 1964 | the conference's two weeks; Smathers and Long brought round | a lead (O'Brien to Johnson, Sept. 13, 24) |
+| 168 | Sept. 1964 | the conference's two weeks; Smathers and Long brought round | settled (b5): entered, Sept. 1964 |
 | 170 | Jan. 1965 | Bow to the House Republicans; Ford for Halleck | in the tree (Bow, Jan. 5; the leadership) |
 | 172 | Mar. 1965 | Ackley on the fiscal drag | in the tree (Mar. 17); Ackley to Johnson, Mar. 11, a lead |
-| 176 | July 1965 | the Senate's floor amendments (Hartke, Ribicoff, Gore's for doctors) | a lead (the days) |
+| 176 | July 1965 | the Senate's floor amendments (Hartke, Ribicoff, Gore's for doctors) | settled (b5): entered, July 1 and July 1965 |
 | 179 | 1965 | the Ohio Medical Association's boycott resolution | a lead (the day) |
 | 181 | 1965–66 | beds, nurses, medical schools; Gordon's advisory council | a lead |
 | 183–84 | 1920–30s | Johnson's schooling | out of the brief (before the span) |
 | 184 | 1960–62 | the Hovde task force; Kennedy's bills of 1961–62; Keppel commissioner | a lead (the days) |
 | 186 | 1964 | Pechman's task force in the *Times* | the press: a lead |
-| 190 | late 1964 | Keppel's dinners with the lobbies | a lead (the days) |
-| 193 | Jan. 1965 | POAU; the Conference of Mayors; Cater's count of telegrams | a lead (Cohen to Moyers, Jan. 14) |
-| 196 | Mar. 1965 | Green at lunch and in the Oval Office; Green and the Appalachia bill | a lead (the days) |
-| 197–98 | Mar. 23–26, 1965 | Celebrezze's and O'Brien's counts; Valenti on Green and the Jewish vote; Powell "burning mad" | a lead (Valenti to Johnson, Mar. 23, 24; Cater to Johnson, Mar. 26, 30) |
-| 207 | Feb.–Mar. 1965 | Green's subcommittee hearings, 15 days; the ABA's testimony | a lead (the days) |
-| 209 | Mar., June, Aug. 1965 | Morse's hearings on higher education; the Republicans stalling | a lead (the days) |
+| 190 | late 1964 | Keppel's dinners with the lobbies | settled (b5): entered, Oct.–Dec. 1964 |
+| 193 | Jan. 1965 | POAU; the Conference of Mayors; Cater's count of telegrams | settled (b5): entered, Jan. 1965 (POAU; the mayors) and Jan. 14, 1965 (Cater's count) |
+| 196 | Mar. 1965 | Green at lunch and in the Oval Office; Green and the Appalachia bill | settled (b5): entered, Mar. 1 and Mar. 1965 |
+| 197–98 | Mar. 23–26, 1965 | Celebrezze's and O'Brien's counts; Valenti on Green and the Jewish vote; Powell "burning mad" | settled (b5): entered, Mar. 2, 23, 24, 1965 (the counts); cited, Graham's pending Mar. 24 (Valenti) and Mar. 30, 1965 (Powell) entries |
+| 207 | Feb.–Mar. 1965 | Green's subcommittee hearings, 15 days; the ABA's testimony | settled (b5): entered, Feb. 1965 (Check: the days) |
+| 209 | Mar., June, Aug. 1965 | Morse's hearings on higher education; the Republicans stalling | settled (b5): entered, Mar. 1965 (Check: the days) |
 
 ### The press (fifth run)
 
@@ -302,7 +300,7 @@ Near matches for a reader: `x.undated.sargent-shriver-oral-history-interview-lbj
 
 ### Leads (fifth run)
 
-National: the rows above marked "a lead"; the Juvenile Delinquency and Youth Offenses Control Act of 1961, its day and Statutes cite; Lampman to Heller, June 10, 1963 (Administrative History of the Council, LBJ Library); the poverty hearings' printed volumes (House, pt. 1, pp. 6–7, 64–65, 108–9, 114–15, 146, 184–85, 309, 314, 631–36) and the Record of July 22–23 and Aug. 7, 1964, for the days of Green's, McNamara's and Kennedy's exchanges and Smathers's amendment; the Ways and Means hearings of 1963–64 (pt. 2, 644, 650–51) for Annis's day; the Teaching Professions message of July 17, 1965 in the Public Papers; the ABA's agreement (July 11 or later; Cater to Johnson, Aug. 25, 1965). The press: Murrow's "Harvest of Shame"; Reston's "Franklin Delano Hoover twist"; Lippmann's 1963 column on Goldwater; Henshaw's "Washington Pipeline" (attached to Spain to Manatos, July 30, 1964). Propose a Part III entry for Douglass Cater (White House staff, education and Medicare), who has no name entry.
+National: the rows above marked "a lead"; the Juvenile Delinquency and Youth Offenses Control Act of 1961, its day and Statutes cite; Lampman to Heller, June 10, 1963 (Administrative History of the Council, LBJ Library); the poverty hearings' printed volumes (House, pt. 1, pp. 6–7, 64–65, 108–9, 114–15, 146, 184–85, 309, 314, 631–36) and the Record of July 22–23 and Aug. 7, 1964, for the days of Green's, McNamara's and Kennedy's exchanges and Smathers's amendment; the Ways and Means hearings of 1963–64 (pt. 2, 644, 650–51) for Annis's day; the ABA's agreement (July 11 or later; Cater to Johnson, Aug. 25, 1965). The press: Murrow's "Harvest of Shame"; Reston's "Franklin Delano Hoover twist"; Lippmann's 1963 column on Goldwater; Henshaw's "Washington Pipeline" (attached to Spain to Manatos, July 30, 1964). Propose a Part III entry for Douglass Cater (White House staff, education and Medicare), who has no name entry.
 
 ## Sixth run (b3-bernstein-guns-6), Nov. 4, 2026
 
@@ -355,21 +353,21 @@ Near matches for a reader: `x.1965-03-22.califano-to-mcnamara-et-al-reports-nos-
 
 | Page | Date | Event | Why |
 | --- | --- | --- | --- |
-| 214–15 | 1817–1960 | Selma's history; Clark, Hare, Smitherman, Baker; Smeltzer; Ouellet; the Lewises | out of the brief (before the span) or undated: a lead |
+| 214–15 | 1817–1960 | Selma's history; Clark, Hare, Smitherman, Baker; Smeltzer; Ouellet; the Lewises | out of the brief (b5, R18): before the span; the sketches of the persons no events |
 | 215 | 1961 | Dallas County: 15,115 Negroes of voting age, 156 registered | figures: a lead (the Commission's report) |
 | 216 | Dec. 1964 | Abernathy's jealousy; the party in the Oslo hotel lobby | private |
 | 218 | 1964 | Judge Hare's injunction on 15 organizations and 50 persons | a lead (the day) |
 | 218 | 1964 | the Holiday Inn's rooms; Smeltzer to Smitherman in October | a lead (the days) |
-| 218 | late 1964 | SCLC's Montgomery meeting of about 100: Selma the start | a lead (the day) |
-| 220 | Feb. 3, 1965 | Hammermill's plant announced for Selma | a lead (the announcement's day) |
-| 222 | Mar. 1965 | Clark in hospital, "The niggers are givin' me a heart attack"; Baker to Louisiana; King in bed | a lead (the days) |
+| 218 | late 1964 | SCLC's Montgomery meeting of about 100: Selma the start | settled (b5): entered, Dec. 1964 |
+| 220 | Feb. 3, 1965 | Hammermill's plant announced for Selma | settled (b5): entered, Feb. 3, 1965 |
+| 222 | Mar. 1965 | Clark in hospital, "The niggers are givin' me a heart attack"; Baker to Louisiana; King in bed | settled (b5): entered, Mar. 1965 (Clark); Baker's respite and King in bed: private |
 | 228 | Mar. 8–9, 1965 | Reeb's journey from Boston | minor (his travel; the attack entered) |
-| 230 | Mar. 1965 | sympathy marches in Boston, New York, Chicago, Los Angeles | a lead (the days) |
-| 234 | Mar. 21–25, 1965 | the march's incidents: a guardsman relieved for spitting on a priest; a driver punched | a lead (the days) |
-| 234 | Mar. 24, 1965 | King flies to Cleveland for a fund-raising rally | a lead (the rally's record) |
-| 237 | Mar.–Apr. 1965 | Perez's testimony, Dirksen's "stupid," McKeithen's disavowal | a lead (the day: the hearings, pt. 1) |
-| 238 | Mar.–May 1965 | Wagner, Javits, Robert Kennedy for the Puerto Ricans; Katzenbach on Dirksen; Johnson refuses to see them | a lead (the days) |
-| 242 | June 1966 | over 250,000 registered by local officials | a lead (Katzenbach to Kintner, May 13, 1966, registered) |
+| 230 | Mar. 1965 | sympathy marches in Boston, New York, Chicago, Los Angeles | settled (b5): entered, Mar. 1965; a Check on Mar. 9, 1965 (Detroit) |
+| 234 | Mar. 21–25, 1965 | the march's incidents: a guardsman relieved for spitting on a priest; a driver punched | settled (b5): entered, Mar. 21–25, 1965 |
+| 234 | Mar. 24, 1965 | King flies to Cleveland for a fund-raising rally | settled (b5): entered, Mar. 24, 1965 |
+| 237 | Mar.–Apr. 1965 | Perez's testimony, Dirksen's "stupid," McKeithen's disavowal | settled (b5): entered, Mar. 30, 1965 (the Daily Digest; Check: the day and the Governor named) and Apr. 1965 (McKeithen) |
+| 238 | Mar.–May 1965 | Wagner, Javits, Robert Kennedy for the Puerto Ricans; Katzenbach on Dirksen; Johnson refuses to see them | settled (b5): entered, Apr. 1965 |
+| 242 | June 1966 | over 250,000 registered by local officials | settled (b5): entered, June 1966 |
 | 243 | 1966 | *United States v. Alabama*, 252 F. Supp. 95 (M.D. Ala. 1966) | a lead (the decision's day) |
 | 244 | later | Lee White's and Burke Marshall's reflections | later accounts |
 | 245–50 | 1882–1959 | immigration history | out of the brief (before the span) |
@@ -379,9 +377,9 @@ Near matches for a reader: `x.1965-03-22.califano-to-mcnamara-et-al-reports-nos-
 | 253 | 1964 | Celler, with O'Brien, has Feighan's funds denied | a lead (the day) |
 | 253–54 | 1964 | H.R. 7700's drafting; Schlei's estimate, 157,000 to 165,000 | a lead (the days) |
 | 254 | 1964 | the American Legion lining up a filibuster | a lead |
-| 255 | Jan. 1965 | Judiciary 24–11; the subcommittee from 5 to 9 | a lead (the day of organization) |
+| 255 | Jan. 1965 | Judiciary 24–11; the subcommittee from 5 to 9 | settled (b5): entered, Jan. 28, 1965 (the Daily Digest) |
 | 255 | 1965 | Eastland to Manatos: "Ted Kennedy is in charge of immigration" | a lead (the day) |
-| 256 | May 1965 | Rusk to Valenti: "absolutely could not live with a numerical ceiling"; the 350,000 offer | a lead (the days) |
+| 256 | May 1965 | Rusk to Valenti: "absolutely could not live with a numerical ceiling"; the 350,000 offer | settled (b5): entered, May 1965 (Rusk; the 350,000 offer) |
 | 256 | 1965 | Celler's public fight with Feighan over the joint committee | a lead (the days) |
 | 559 n.5 | 1964 | Schwartz campaigns for Robert Kennedy without clearance | a lead (the days) |
 | 559 n.5 | 1965 | Brody to Califano; Wilson's instructions to Schwartz | a lead (the days) |
@@ -389,39 +387,39 @@ Near matches for a reader: `x.1965-03-22.califano-to-mcnamara-et-al-reports-nos-
 | 261–63 | 1907–62 | Carson's life and books | out of the brief (before the span) |
 | 263–64 | 1962–63 | the chemical industry's campaign; Mumford's election of Carson | a lead (the days) |
 | 265 | 1963 | Ribicoff's hearings, Carson a witness | a lead (the day) |
-| 270 | July 1962; 1963 | the hearings on the fund, House and Senate | a lead (the days: the Digest) |
+| 270 | July 1962; 1963 | the hearings on the fund, House and Senate | settled (b5): entered, July 11–12, 1962; Mar. 7–8 and May 23, 28, 1963 (the Daily Digest) |
 | 273 | 1967 | Interior, Budget and the committees on the fund's financing | a lead |
 | 274–76 | 1890–1960 | wilderness history; Humphrey's bill of 1956 | out of the brief (before the span) |
-| 276 | Mar. 1964 | Manatos: Aspinall "precariously balanced" | a lead (Manatos to Moyers, Mar. 3, 1964, registered) |
-| 277 | summer 1963 | Aspinall's new version with Interior and Agriculture | a lead (the days) |
-| 277 | Jan.–May 1964 | Aspinall's hearings in five cities; Zahniser's last testimony, his death six days after | a lead (the days) |
+| 276 | Mar. 1964 | Manatos: Aspinall "precariously balanced" | settled (b5): entered, Mar. 3, 1964 |
+| 277 | summer 1963 | Aspinall's new version with Interior and Agriculture | settled (b5): entered, July 1963 |
+| 277 | Jan.–May 1964 | Aspinall's hearings in five cities; Zahniser's last testimony, his death six days after | settled (b5): entered, Apr. 27–30, 1964 (the Daily Digest) and May 1964 (Zahniser's death; Check: the day) |
 | 277 | 1964 | Aspinall's floor tribute to Zahniser | a lead (the day) |
 | 279–82 | 1948–64 | water pollution's history, Lake Erie | out of the brief, or figures |
-| 284 | Mar. 1965 | Cohen: "very weak ineffectual bill" | a lead (Cohen to O'Brien, Mar. 18, registered; Check in the Apr. 8 entry) |
+| 284 | Mar. 1965 | Cohen: "very weak ineffectual bill" | settled (b5): entered, Mar. 18, 1965 |
 | 286 | 1966 | Udall: "the most significant action ... since the Department was created" | a lead (the day) |
 | 286 | 1966 | Johnson offers $50 million a year; Muskie to $3.35 billion | a lead (the days) |
 | 286–87 | 1966–68 | Quigley's tenure; Moore in 1968 | a lead (the days) |
-| 287 | 1966; summer 1967 | the York River spill; oil on Cape Cod | a lead (the days) |
+| 287 | 1966; summer 1967 | the York River spill; oil on Cape Cod | settled (b5): entered, July 1967 (Cape Cod); the York River spill (1966, a year only): a lead |
 | 290 | 1960–61 | California's Motor Vehicle Pollution Control Act; blowby systems on 1961 cars | a lead (the session law's day) |
-| 291 | Feb. 1963 | Kennedy's air pollution bill | a lead (the message's day) |
+| 291 | Feb. 1963 | Kennedy's air pollution bill | settled (b5): entered, Feb. 7, 1963 (the health message, the Papers read; Bernstein, 290) |
 | 291 | Dec. 1963 | the Clean Air Act | in the tree (`cal.1963-12-17.program`); Bernstein gives no detail of the day |
-| 292 | Apr. 1965 | the papers on Johnson's "love affair" with the auto industry | the press: a lead |
+| 292 | Apr. 1965 | the papers on Johnson's "love affair" with the auto industry | settled (b5): cited, Apr. 9, 1965 |
 | 294 | 1966 | Califano sets up Ackley's task force; Watson of IBM to Johnson | a lead (the days) |
 | 296 | 1967 | Gardner's fuel tank and carburetor standards, the sulfur report; Udall on low-sulfur crude | a lead (the days) |
-| 297 | Nov. 20, 1967 | the population reaches 200 million | a lead |
+| 297 | Nov. 20, 1967 | the population reaches 200 million | settled (b5): entered, Nov. 20, 1967 (Check: the record) |
 | 298–300 | 1912–64 | Lady Bird Johnson's life; the Interstate System, 1956, the billboard bonus, 1958 | out of the brief |
 | 300 | 1963–64 | the talks with the Outdoor Advertising Association; Moyers and Tocker | a lead (the days) |
-| 301–02 | late Aug. 1965 | the White House's word to the committees; "Take over the highway beautification bill" | a lead (Califano, 81–85) |
-| 303 | Jan. 28, July 1, 1966; Jan. 16, 1967 | Commerce's proposed regulations, refused by Congress | a lead (each its own entry, from the Federal Register) |
-| 304 | Oct. 1, 1967 | the task force's report | a lead |
-| 304–05 | Jan. 1969 | Pierson and Venezuelan oil; Pierson to Udall, Jan. 17 | a lead (Udall's oral history, IV) |
+| 301–02 | late Aug. 1965 | the White House's word to the committees; "Take over the highway beautification bill" | settled (b5): entered, Aug. 1965 |
+| 303 | Jan. 28, July 1, 1966; Jan. 16, 1967 | Commerce's proposed regulations, refused by Congress | settled (b5): entered, Jan. 28, July 1, 1966, Jan. 16, 1967 (Check: the Federal Register) |
+| 304 | Oct. 1, 1967 | the task force's report | settled (b5): entered, Oct. 1, 1967 |
+| 304–05 | Jan. 1969 | Pierson and Venezuelan oil; Pierson to Udall, Jan. 17 | settled (b5): entered, Jan. 1969 and Jan. 17, 1969 (two) |
 | 307–09 | 1935–1964 | union security, Taft-Hartley, the right-to-work States | out of the brief (before the span) |
 | 309 | 1965 | Meany asks Johnson's support; "willing to wait" | a lead (the days) |
-| 310 | July 1965 | the farm-labor coalition | a lead (the days) |
-| 311 | Aug.–Sept. 1965 | Dirksen to Johnson, "I'm committed"; Meany to Dirksen; Mansfield, "no pajama sessions"; Johnson, "a saint" | a lead (the days) |
-| 312 | Jan.–Feb. 1966 | Lindsay: the strike the "death warrant"; Meany's anger; Johnson's 61 Senators | a lead (the days) |
+| 310 | July 1965 | the farm-labor coalition | settled (b5): entered, July 1965 |
+| 311 | Aug.–Sept. 1965 | Dirksen to Johnson, "I'm committed"; Meany to Dirksen; Mansfield, "no pajama sessions"; Johnson, "a saint" | settled (b5): entered, Aug. 1965 (Dirksen with Johnson), Sept. 1965 (Meany and Dirksen; Mansfield); Johnson's "a saint": private remarks |
+| 312 | Jan.–Feb. 1966 | Lindsay: the strike the "death warrant"; Meany's anger; Johnson's 61 Senators | settled (b5): entered, Feb. 1966 (Lindsay; Meany and Johnson) |
 | 312–13 | later | O'Brien's and Mansfield's reflections | later accounts |
-| 314 | Sept. 29, 1965 | Dirksen, Morse and Albert on the House's home rule bill | a lead (the Record) |
+| 314 | Sept. 29, 1965 | Dirksen, Morse and Albert on the House's home rule bill | settled (b5): entered, Sept. 1965 |
 
 ### The press (sixth run)
 
@@ -480,70 +478,70 @@ Not registered (the next reader's): the records of chs. 13 and 15 behind passage
 | 324–26 | 1887–1959 | Indochina under the French; Hồ Chí Minh; Geneva; Diệm's return; the Trail made a highway | out of the brief (before the span) |
 | 327 | 1961–63 | Salinger: Kennedy, and Johnson later, tighten the rules for correspondents in the field | a lead (the days) |
 | 335 | 1961 | McNamara and Webb back Johnson's recommendation of the moon program, "national prestige" | a lead (the memorandum's day; Logsdon and Dupas, n.3) |
-| 335 | early 1964; June 1964 | State drafts a joint resolution at Rostow's urging; Johnson interested, then drops it | a lead (the days) |
-| 335 | late 1963 | OPLAN 34-A revived and enlarged | a lead (the day) |
+| 335 | early 1964; June 1964 | State drafts a joint resolution at Rostow's urging; Johnson interested, then drops it | settled (b5): cited, Feb. 1964 and June 10, 1964 |
+| 335 | late 1963 | OPLAN 34-A revived and enlarged | settled (b5): cited, Dec. 20, 1963 |
 | 337 | Aug. 4, 1964 | Chayes works over the resolution, Ball approving | passed-over paper (a draft) |
-| 339–40 | Aug.–Nov. 1964 | the triumvirate; Khánh restored; Hương | a lead (Bernstein's sequence does not fit the tree's days) |
+| 339–40 | Aug.–Nov. 1964 | the triumvirate; Khánh restored; Hương | settled (b5): cited, Aug. 27 and Oct. 24, 1964, each with a Check |
 | 341 | 1964–65 | Mansfield's four letters | a lead (the days; the tree's Dec. 9, 1964, and 1965 letters may be they) |
-| 343 | June 1965, early | the military ask to bomb Hanoi–Haiphong; Mansfield opposes | a lead (the day) |
+| 343 | June 1965, early | the military ask to bomb Hanoi–Haiphong; Mansfield opposes | settled (b5): cited, June 5, 1965 |
 | 343 | 1965 | Russell warns Johnson the war "would never work" | a lead (undated; Halberstam) |
-| 343–44 | July 1965 | Johnson: "like being in a plane without a parachute" | a lead (the meeting) |
-| 347 | July 24, 1965 | Bundy: approve only the proposals through the fall | a lead (FRUS 1964–68, III, doc. 83, of that day, is not it) |
-| 349 | Jan., June 1964 | Westmoreland in Vietnam; takes over the command | a lead (the days) |
+| 343–44 | July 1965 | Johnson: "like being in a plane without a parachute" | settled (b5): entered, July 1965 (Check: the meeting) |
+| 347 | July 24, 1965 | Bundy: approve only the proposals through the fall | settled (b5): entered, July 24, 1965 |
+| 349 | Jan., June 1964 | Westmoreland in Vietnam; takes over the command | settled (b5): cited, Jan. 27 and June 20, 1964 |
 | 350 | 1966 | Roche's six or eight weeks in South Vietnam | a lead (the days) |
 | 351 | 1965; 1967 | Hanoi's debate on the American build-up; Giáp's change to small units | a lead (the days) |
 | 351–52 | 1965–73 | Thayer's and the Pentagon Papers' bombing figures: sorties, tons, losses, costs | figures without a day: a lead (the war table) |
-| 354 | spring 1967 | McNaughton's memoranda: victory no longer an option | a lead (the tree's May 1967 entries; Bernstein gives no day) |
+| 354 | spring 1967 | McNaughton's memoranda: victory no longer an option | settled (b5): entered, Apr.–May 1967 |
 | 355 | July 1967 | Margaret McNamara at Johns Hopkins | private |
 | 355 | Feb. 16, 1967 | a close-up photograph of McNamara | minor |
 | 355–56 | 1967 | Allen's briefing of McNamara; Brehm sees him weep | private (undated) |
 | 356 | 1968–69 | Gelb carries a set to McNamara at the World Bank; refused | a lead (the day) |
-| 357 | Nov. 1967 | Fowler told to clear McNamara's name; Robert Kennedy urges him to resign with a blast | a lead (the days) |
+| 357 | Nov. 1967 | Fowler told to clear McNamara's name; Robert Kennedy urges him to resign with a blast | settled (b5): cited, Nov. 13 and Nov. 28, 1967 |
 | 379 | 1964 | Lippmann and Reston uneasy at the drift to war | a lead (the columns) |
 | 380 | 1965 | Johnson to Church at a dinner: "go talk to Walter Lippmann" | a lead (the day) |
-| 380–81 | late 1965 | antiwar mail from women at the White House | a lead |
+| 380–81 | late 1965 | antiwar mail from women at the White House | settled (b5): entered, Oct.–Dec. 1965 |
 | 385 | Aug. 14, 1965 | Moyers's statement, "tragic and shocking" | Kotz's pending `cal.1965-08-14.civil-disorders-watts-2`; not cited, its units unread |
-| 388 | Aug. 1965 | Brown names McCone's commission, Christopher vice chairman | a lead (the day) |
-| 389 | Aug. 13, 1965 | King in Miami, on to San Juan; Rustin against going to Los Angeles | a lead (the days) |
-| 390 | June 1965 | *The Negro Family* published | a lead (the release's day; the tree's April entry has copies circulating) |
+| 388 | Aug. 1965 | Brown names McCone's commission, Christopher vice chairman | settled (b5): entered, Aug. 1965 |
+| 389 | Aug. 13, 1965 | King in Miami, on to San Juan; Rustin against going to Los Angeles | settled (b5): entered, Aug. 13, 15, 17, 1965 |
+| 390 | June 1965 | *The Negro Family* published | settled (b5): entered, June 1965; cited, May 1965 |
 | 391 | 1965–66 | Katzenbach's interagency task force on the 1966 bill | a lead (the days) |
-| 394 | summer 1965 | Johnson presses Califano and Keppel on the Southern districts; 3,800 pledges | a lead (the days) |
-| 396 | Oct. 1965 | the White House meeting on Chicago; Keppel; Cohen to Chicago, an hour's agreement | a lead (the days) |
+| 394 | summer 1965 | Johnson presses Califano and Keppel on the Southern districts; 3,800 pledges | settled (b5): entered, July–Aug. 1965 |
+| 396 | Oct. 1965 | the White House meeting on Chicago; Keppel; Cohen to Chicago, an hour's agreement | settled (b5): cited, Oct. 4, 1965 (two) |
 | 396–97 | 1965 | King's choice of Chicago; Powell, Rustin, Brazier; Daley's words; SCLC with the Council | a lead (the days) |
-| 398 | Aug. 19, 1966 | Daley's injunction; King's threat of Cicero | a lead (the tree's Aug. 19 entry is the testing of offices) |
+| 398 | Aug. 19, 1966 | Daley's injunction; King's threat of Cicero | settled (b5): cited, Aug. 19, 1966; entered, Aug. 1966 (Cicero) |
 | 399 | 1967 | Johnson has Helms look for a Communist hand; the CIA's report | a lead (the days) |
 | 400 | 1960 | SLID takes the name Students for a Democratic Society | a lead (the day) |
-| 401 | Mar. 23, 1962 | Kennedy at Berkeley, 92,000 in Memorial Stadium | a lead (not found in the tree; 1962 Pub. Papers 263) |
+| 401 | Mar. 23, 1962 | Kennedy at Berkeley, 92,000 in Memorial Stadium | settled (b5): entered, Mar. 23, 1962 (1962 Pub. Papers 263, read) |
 | 401 | 1963 | Gitlin president of SDS; a dozen chapters, 1,100 members | a lead |
 | 401–02 | 1963 | Kerr's Godkin Lectures at Harvard | a lead |
-| 402 | May 1960 | Berkeley students at the HUAC hearings in San Francisco | a lead (the day) |
-| 402–03 | spring 1964 | the San Francisco pickets: the Sheraton-Palace, the car dealers, the Bank of America | a lead (the days) |
-| 403 | Sept. 20, 29, 30, 1964 | the United Front's vote; the tables; the Sproul Hall sit-in | a lead (the days; not found by name in the tree) |
-| 405 | Nov. 9, Dec. 4, Dec. 7, 1964; Jan. 2, 1965 | the talks broken off; the strike; the Greek Theatre; Strong replaced by Meyerson | a lead (the days) |
+| 402 | May 1960 | Berkeley students at the HUAC hearings in San Francisco | settled (b5): cited, May 12–14, 1960 |
+| 402–03 | spring 1964 | the San Francisco pickets: the Sheraton-Palace, the car dealers, the Bank of America | settled (b5): cited, Mar. 6–7, 1964; entered, Mar.–Apr. 1964 |
+| 403 | Sept. 20, 29, 30, 1964 | the United Front's vote; the tables; the Sproul Hall sit-in | settled (b5): entered, Sept. 20, 29, 30, 1964 |
+| 405 | Nov. 9, Dec. 4, Dec. 7, 1964; Jan. 2, 1965 | the talks broken off; the strike; the Greek Theatre; Strong replaced by Meyerson | settled (b5): entered, Nov. 9, Dec. 4, Dec. 7, 1964, Jan. 2, 1965 |
 | 407 | 1966–67 | Reagan's campaign on Berkeley; Kerr dismissed | a lead (the days) |
 | 407 | 1966 | Heller's memorandum on the war's end; McPherson's comment | a lead (the day) |
-| 408 | 1966 | McNamara's and Rusk's children against the war; Rusk at an Army hospital in Saigon | private; the visit a lead |
+| 408 | 1966 | McNamara's and Rusk's children against the war; Rusk at an Army hospital in Saigon | Rusk's son and McNamara's children: private (b5, R18); Rusk at the Army hospital (1966, a year only): a lead |
 | 408 | 1966 | McPherson's two weeks in Vietnam; his memorandum on the bombing | a lead (the days) |
-| 409 | Oct. 1966 | Mansfield's formula: the bombing ended, a cease-fire, 30,000 out | a lead (the tree's Oct. 13 entry, units unread) |
+| 409 | Oct. 1966 | Mansfield's formula: the bombing ended, a cease-fire, 30,000 out | settled (b5): cited, Oct. 13, 1966 |
 | 409 | 1966 | Cater on the college loan fund; Mayor Lee to Cater | a lead (the days) |
-| 410 | summer 1966 | McPherson in Rhode Island: "Nobody I talked to was affirmative about Vietnam" | a lead (McPherson to Moyers, Aug. 4, 1966?) |
+| 410 | summer 1966 | McPherson in Rhode Island: "Nobody I talked to was affirmative about Vietnam" | settled (b5): entered, Aug. 4, 1966 (dated by the note's memorandum) |
 | 410 | 1966 | the National Council of Churches approaches the Synagogue Council | a lead |
 | 411 | 1966 | O'Brien's swings; Daley's worry; lunch with the *Times*'s editors | a lead (the days) |
 | 412 | 1966 | pickets at the Met and the San Francisco Opera, in New Zealand and Australia | a lead (the days) |
 | 412 | 1966 | Wicker turns against the war | a lead |
-| 413 | Jan. 1967 | Salisbury back: Johnson will not see him; Rostow; Rusk and William Bundy | a lead (the days) |
+| 413 | Jan. 1967 | Salisbury back: Johnson will not see him; Rostow; Rusk and William Bundy | settled (b5): cited, Jan. 13, 1967 |
 | 413–14 | 1967 | Clergy and Laymen Concerned, Coffin, King co-chairman | a lead (the founding) |
 | 416 | 1967 | Lowenstein's letter of the student presidents; Johnson refuses them; Bundy sees them | a lead (the days) |
-| 417 | late Feb. 1967 | King and Whitney Young quarrel | a lead (the day) |
-| 417 | June 1967 | Atlanta's confrontation | a lead |
-| 418 | Dec. 4, 1967 | the rat extermination bill passes | a lead |
-| 419 | July 28–Aug. 1, 1967 | Detroit: the paratroopers out, the Guard gone, the curfew lifted | a lead (the days) |
-| 422 | Oct. 1967 | Johnson orders the intelligence agencies to track the Mobilization | a lead |
+| 417 | late Feb. 1967 | King and Whitney Young quarrel | settled (b5): entered, Feb. 1967 |
+| 417 | June 1967 | Atlanta's confrontation | settled (b5): cited, June 17–20, 1967 |
+| 418 | Dec. 4, 1967 | the rat extermination bill passes | settled (b5): entered, Dec. 4, 1967 (Check: the bill and the vote) |
+| 419 | July 28–Aug. 1, 1967 | Detroit: the paratroopers out, the Guard gone, the curfew lifted | settled (b5): entered, July 29 and Aug. 1, 1967 |
+| 422 | Oct. 1967 | Johnson orders the intelligence agencies to track the Mobilization | settled (b5): entered, Oct. 1967 |
 | 424 | Oct. 22, 1967 | the Johnsons drive round the Lincoln Memorial | private |
-| 424 | Nov. 22, 1967 | Pollak to Clark: the marshals' force | a lead |
-| 531 | Oct. 1965 | Califano to the universities for ideas; the task forces | a lead (the days) |
+| 424 | Nov. 22, 1967 | Pollak to Clark: the marshals' force | settled (b5): entered, Nov. 22, 1967 |
+| 531 | Oct. 1965 | Califano to the universities for ideas; the task forces | settled (b5): entered, Oct. 1965 |
 | 532–35 | 1965–76 | the war's costs (deaths, wounds, PTSD, Stevens's $882 billion) | figures, later accounts |
-| 541 | Nov. 22, 1963 | Johnson's decision on Air Force One | Bernstein's inference, no record: a lead |
+| 541 | Nov. 22, 1963 | Johnson's decision on Air Force One | settled (b5): entered, Nov. 22, 1963 (Check: Bernstein's inference, no record) |
 | 542 | Nov. 1964 | Reedy: Johnson's style changes | a later account |
 
 ### The press (seventh run)
@@ -561,7 +559,7 @@ Not registered (the next reader's): the records of chs. 13 and 15 behind passage
 
 ### Leads (seventh run)
 
-National: the rows above marked "a lead"; Kennedy's Charter Day address at Berkeley, Mar. 23, 1962 (1962 Pub. Papers 263); the McNamara–Webb memorandum on the moon (1961); Moyers's statement on Watts, Aug. 14, 1965 (Kotz's pending entry to be cited); the Berkeley days of Sept. 20–30, Nov. 9, Dec. 4 and 7, 1964, and Jan. 2, 1965. Propose Part III entries for the press figures David Wise (*Herald Tribune*), Charles Mohr (*New York Times*), Peter Grose (*New York Times*); and for Hans J. Morgenthau, Louis Martin (Democratic National Committee), Norman Thomas, James Bevel and Allard Lowenstein, named here without name entries.
+National: the rows above marked "a lead"; the McNamara–Webb memorandum on the moon (1961). Propose Part III entries for the press figures David Wise (*Herald Tribune*), Charles Mohr (*New York Times*), Peter Grose (*New York Times*); and for Hans J. Morgenthau, Louis Martin (Democratic National Committee), Norman Thomas, James Bevel and Allard Lowenstein, named here without name entries.
 
 ## Eighth run (b3-bernstein-guns-8), Nov. 4, 2026
 
@@ -593,14 +591,14 @@ How the list was made: as above; each row an event the pages date and treat that
 | --- | --- | --- | --- |
 | 426 | 1966–68 | Califano to the universities each year for ideas; for 1968, "criticism of the war" | a lead (the days) |
 | 429 | 1965–66 | Dent replaces Roosevelt as the subcommittee's chairman; Wilson has Albert oversee the bill | a lead (the days; Wilson to Johnson, Jan. 14, 1966) |
-| 430 | Feb.–Mar. 1966 | Dubinsky and Potofsky refuse the Ackley–Connor formula; the AFL-CIO for $1.60 in 1967 | a lead (the day) |
+| 430 | Feb.–Mar. 1966 | Dubinsky and Potofsky refuse the Ackley–Connor formula; the AFL-CIO for $1.60 in 1967 | settled (b5): entered, Feb. 1966 |
 | 431 | 1966 | Cohen's 10 percent proposal; Johnson: "Come on, Wilbur, you can do better than that" | a lead (the day; Derthick, 342) |
-| 433 | Jan.–June 1967 | Budget, the Council and the Treasury for a split bill, 12–13 percent, retroactive, as a stimulus; Cohen for 15; dropped | a lead (the days) |
-| 434 | Aug. 1967 | Gardner's attack on the House's welfare amendments, "the real or supposed sins of their parents" | a lead (the day) |
+| 433 | Jan.–June 1967 | Budget, the Council and the Treasury for a split bill, 12–13 percent, retroactive, as a stimulus; Cohen for 15; dropped | settled (b5): entered, Mar.–June 1967 |
+| 434 | Aug. 1967 | Gardner's attack on the House's welfare amendments, "the real or supposed sins of their parents" | settled (b5): entered, Aug. 1967 |
 | 434 | Sept. 2–14, 1967 | Cohen in Bolivia: the embassy's dinner; his son, a Peace Corps volunteer, at Cochabamba | private |
 | 434–35 | Oct. 25, 1967 | Cohen to Wickenden: "I have never experienced frustration as I am now" | private remarks (registered) |
 | 437 | Dec. 1967 | Meany and Reuther urge Johnson not to sign | in the Jan. 2, 1968 entry's cite; the day a lead |
-| 570 n.3 | Dec. 7, 1966 | Duesenberry to Califano (the Council on the benefits' cost in inflation) | a lead (its matter; registered) |
+| 570 n.3 | Dec. 7, 1966 | Duesenberry to Califano (the Council on the benefits' cost in inflation) | a lead (b5): the note does not state the memorandum's matter |
 | 570 n.4 | Aug. 11, Dec. 19, 1967 | Levine to Califano et al.; Cohen to Cater et al. | registered; their matter not stated |
 | 439–40 | 1959–70 | Lincoln Center; the Los Angeles Music Center, its units opened 1963–67 | a lead (the days; their public money) |
 | 440 | 1951–58 | Truman's request; the Fine Arts Commission's report, May 15, 1953; the National Cultural Center Act, Sept. 2, 1958 | out of the brief (before the span) |
@@ -610,14 +608,14 @@ How the list was made: as above; each row an event the pages date and treat that
 | 442 | 1962 | Schlesinger and Salinger for Heckscher; Heckscher named special consultant | a lead (the day) |
 | 442 | 1963 | Kennedy sends up the arts foundation bill | a lead (the day) |
 | 443–44 | 1965–66 | Ripley chairman of the Federal Council on the Arts and Humanities; Stevens; Keeney from 1966, Moe meanwhile; the councils' members | a lead (the days) |
-| 444 | Sept. 1965 | Stevens's council meets before the signing | a lead (the day) |
+| 444 | Sept. 1965 | Stevens's council meets before the signing | settled (b5): entered, Sept. 1965 |
 | 444 | 1965–68 | the arts endowment's first grants, the State programs | a lead (the days) |
 | 444–45 | 1900–64 | Hirshhorn's life and collection; the offers of New York, London, Rockefeller's at Purchase | a lead (Rockefeller's offer, the day) |
-| 445 | Feb. 1964 | Ripley Secretary of the Smithsonian | a lead (the day) |
+| 445 | Feb. 1964 | Ripley Secretary of the Smithsonian | settled (b5): entered, Feb. 1964 (read off the page image: the text layer drops the line) |
 | 446 | 1965 | Ripley to Fortas for a luncheon; to Carpenter on the Eakins; to Hirshhorn on the viewers; the four on the site; Ripley to the White House, "frightfully important" | a lead (the days; Ripley to Goodwin, July 25, 1965, in the note) |
 | 448 | 1965–67 | the year's negotiation; McPherson for Fortas; Mrs. Johnson's Eakins, 1967 | a lead (the days) |
 | 449–50 | 1967–68 | the pathologists' refusals; McPherson's "arithmetic"; $803,000 for the architects; Skidmore, Owings and Merrill, Bunshaft | a lead (the days) |
-| 450 | 1968 | the plans ready in July; $14,197,000; the completion date deferred; Ripley's installment plan, $2 million for fiscal 1969 (Ripley to McPherson, Mar. 14, 1968) | a lead (the days) |
+| 450 | 1968 | the plans ready in July; $14,197,000; the completion date deferred; Ripley's installment plan, $2 million for fiscal 1969 (Ripley to McPherson, Mar. 14, 1968) | settled (b5): entered, Mar. 14 and July 1968; the completion's deferral in the July entry |
 | 450 | Oct. 1, 1974 | the museum opens | out of the brief (after the span) |
 | 451 | July 1978 | the East Building opens | out of the brief |
 | 451–53 | 1930s–1966 | broadcasting's history; the FCC's freeze; Ford's grants; the educational stations | out of the brief before 1960; the 1960s counts the indicators' kind, not entries |
@@ -626,33 +624,33 @@ How the list was made: as above; each row an event the pages date and treat that
 | 456 | Feb. 1969 | Macy president of the Corporation | out of the brief (after the span) |
 | 457 | 1969 | PBS incorporated | out of the brief |
 | 471–72 | Jan. 1968 | Gardner's decision not to back Johnson's running, "in early January" | in the Jan. 25, 1968 entry's cite |
-| 472 | Jan.–Mar. 1968 | Daley's concern about the war (O'Brien) | a lead (the day) |
+| 472 | Jan.–Mar. 1968 | Daley's concern about the war (O'Brien) | settled (b5): entered, Jan.–Mar. 1968 |
 | 472 | Dec. 1966, Jan. 29, 1967 | Bucher's orders; his first sight of the *Pueblo* | minor (a unit's routine) |
-| 473 | Jan. 1968 | the apology for the violation of Cambodia's neutrality | a lead (the day) |
+| 473 | Jan. 1968 | the apology for the violation of Cambodia's neutrality | not borne out (b5): the page has the violation "demanded a public apology," no apology dated; the incident in the tree (Jan. 19, 1968) |
 | 474 | Oct. 1967–Jan. 1968 | Con Thien, Lộc Ninh, Song Be, Đắk Tô, the Delta, Khe Sanh | the tree's entries (not cited: Bernstein's summary) |
-| 477 | Jan.–Mar. 1968 | Johnson's approval 48 to 36, the war 40 to 26; the papers and networks against the war | the polls and the press: a lead (the releases) |
-| 477 | Feb. 27, 1968 | Califano and McPherson at Rusk's dining room; McNamara on the bombing | a lead: the tree's Feb. 27 entries hold Cronkite and the Kerner report; this meeting, by Califano's and Shapley's accounts, to place |
-| 479 | Mar. 1968 | Clifford and Wheeler with Russell, Stennis, Jackson and Symington; Mansfield to Clifford | a lead (the day) |
+| 477 | Jan.–Mar. 1968 | Johnson's approval 48 to 36, the war 40 to 26; the papers and networks against the war | settled (b5): entered, Feb.–Mar. 1968 (the papers and networks); the approval figures the approval table's kind |
+| 477 | Feb. 27, 1968 | Califano and McPherson at Rusk's dining room; McNamara on the bombing | settled (b5): cited, Feb. 27, 1968 (the same meeting, by McPherson's notes) |
+| 479 | Mar. 1968 | Clifford and Wheeler with Russell, Stennis, Jackson and Symington; Mansfield to Clifford | settled (b5): cited, Mar. 8, 1968 |
 | 479 | Mar. 13, 1968 | the gold outflow | the economy-gold thread (not checked here) |
 | 482 | summer 1967 | Johnson asks O'Brien for a campaign plan | in the Sept. 29, 1967 entry |
-| 484 | Jan.–Mar. 1968 | McCarthy's New Hampshire campaign; the students; McGrory's column | a lead (the days) |
-| 484–85 | Mar. 1968 | Boutin to O'Brien: "I'm under instruction not to be involved with you" | a lead (the day) |
+| 484 | Jan.–Mar. 1968 | McCarthy's New Hampshire campaign; the students; McGrory's column | settled (b5): cited, Feb. 12, 1968 (the students); entered, Mar. 1968 (McGrory) |
+| 484–85 | Mar. 1968 | Boutin to O'Brien: "I'm under instruction not to be involved with you" | settled (b5): entered, Mar. 1968 |
 | 486 | Mar. 30, 1968 | O'Brien, Breslin and Unruh at Toots Shor's; Unruh's apology the next day | private |
 | 487 | 1964–67 | Lady Bird Johnson's view, spring 1964; Connally, early 1967; Westmoreland, Nov. 1967; Clifford's memorandum on Truman, fall 1967 | a lead (the days) |
 | 487–89 | Mar. 1968 | Johnson's health; Mrs. Johnson's diary of Mar. 10, 14, 17; Kearns on his nights | private |
 | 490 | Mar. 31, 1968 | Lynda back from California; St. Dominic's; the Humphreys; the Krims | in the Mar. 31 entries (cited) |
-| 492 | May 5–18, 1968 | 1,800 Americans killed, 18,000 wounded | the war table's kind; a lead (the source) |
+| 492 | May 5–18, 1968 | 1,800 Americans killed, 18,000 wounded | settled (b5): cited, May 5, 1968 |
 | 494 | Apr. 1967 | Ray's escape | in the Mar. 17, 1968 entry |
-| 496 | Apr. 1968 | Carmichael on Radio Havana; Dohrn in Times Square; Johnson's trip to Hawaii and Saigon canceled | a lead (the days) |
-| 496 | Mar. 1968 | the cities' and the Army's plans for summer riots; H. K. Johnson to Congress | a lead (the days; the *Times*, Mar. 2, 1968, registered) |
+| 496 | Apr. 1968 | Carmichael on Radio Havana; Dohrn in Times Square; Johnson's trip to Hawaii and Saigon canceled | settled (b5): entered, Apr. 1968 (Carmichael) and Apr. 4, 1968 (Dohrn); cited, Apr. 6–7, 1968 (the trip put off) |
+| 496 | Mar. 1968 | the cities' and the Army's plans for summer riots; H. K. Johnson to Congress | settled (b5): entered, Mar. 1968 |
 | 501 | Mar. 1968 | Jacqueline Kennedy to Schlesinger; Gary to Salinger | private remarks |
-| 504–05 | June 1968 | Sirhan's practice, June 2; the funeral; Edward Kennedy's letter to Younger (1969) | a lead (the funeral's day); the letter out of the span |
+| 504–05 | June 1968 | Sirhan's practice, June 2; the funeral; Edward Kennedy's letter to Younger (1969) | settled (b5): entered, June 2, 1968 (Sirhan); the funeral in the tree (June 8, 1968); the letter after the span (out of the brief) |
 | 509 | Apr. 1968 | Humphrey's calls to the governors and mayors; Johnson to stay neutral | in the Apr. 1–3 entries |
 | 512–13 | Aug. 1968 | the Mobilization's and the Yippies' permits refused; Lincoln Park | the Chicago thread's entries (not cited here) |
-| 515 | Sept. 1968 | Edward Kennedy: a Boston speech "premature" | a lead (the day) |
-| 517 | Sept.–Oct. 1968 | the oil and textile offers refused; the President's Club's $600,000 | a lead (the days) |
+| 515 | Sept. 1968 | Edward Kennedy: a Boston speech "premature" | settled (b5): entered, Sept. 1968 |
+| 517 | Sept.–Oct. 1968 | the oil and textile offers refused; the President's Club's $600,000 | settled (b5): entered, Oct. 1968 (two) |
 | 518 | Oct. 1968 | labor's campaign against Wallace | in `cal.1968-10.labor` |
-| 518 | Nov. 4, 1968 | Harris, Humphrey 43, Nixon 40 | the polls: a lead |
+| 518 | Nov. 4, 1968 | Harris, Humphrey 43, Nixon 40 | settled (b5): entered, Nov. 4, 1968 |
 | 532–33 | 1973–94 | the armistice; the casualties; PTSD; Stevens's costs | out of the brief (after the span) |
 | 538–42 | — | Johnson's character, by Reedy, Califano, McPherson, Goodwin | not events |
 
@@ -667,8 +665,39 @@ How the list was made: as above; each row an event the pages date and treat that
 
 ### Leads (eighth run)
 
-National: the rows above marked "a lead"; the statutes of the National Council on the Arts and Cultural Development Act (Sept. 3, 1964) and the Hirshhorn act (Nov. 7, 1966), and the House's vote of 1964 (213–135); the Senate's vote on the arts and humanities bill, June 10, 1965; the Social Security hearings of 1967 (Senate Finance, Aug. 22–Sept. 26), for Robert Kennedy's and Wiley's days; Stanton's talk with Cater on the receiver tax (1967); the Feb. 27, 1968 meeting at Rusk's dining room. Propose Part III entries for Ripley, Stevens, Hirshhorn, Keeney, Heckscher, George Wiley, Elizabeth Wickenden, Maurice Donahue (no name entries).
+National: the rows above marked "a lead"; the statute of the Hirshhorn act (Nov. 7, 1966); the Social Security hearings of 1967 (Senate Finance, Aug. 22–Sept. 26), for Robert Kennedy's and Wiley's days; Stanton's talk with Cater on the receiver tax (1967); the Feb. 27, 1968 meeting at Rusk's dining room. Propose Part III entries for Ripley, Stevens, Hirshhorn, Keeney, Heckscher, George Wiley, Elizabeth Wickenden, Maurice Donahue (no name entries).
 
 ## Not read
 
 Nothing. The book is read whole, chs. 1–20 with their notes (the eighth run took chs. 16, 17 and 19, the middle of p. 420 and ch. 20's pp. 532–35 and 538–42). The twelve cites behind "To check" are settled (cut).
+
+## Ninth run (b5-bernstein-guns-or-butter), Nov. 5–6, 2026: the leads sent back
+
+Batch 5 (`notes/briefs/batch5.md`): the canvass's 158 rows for this work (`notes/leads-canvass.md`, "bernstein-guns-or-butter": 147 Passed over rows ruled a lead, 11 items of `notes/leads.md`), the three D rows (ll. 358, 525, 649) and two of its E rows (ll. 175, 197), each read again on its page. Copy: the owner's (Drive `12qiEzZniU-FNF4O8HocS9TpLHFn6xQfT`, 649 PDF pages), by the direct route; the offsets hold (−11 to p. 244, −27 to p. 404, −43 after), checked against the running heads of every page read and off the page images at pp. 373 and 445–46. The text layer drops lines: at the foot of p. 445 it loses "tion in February 1964, entered the bidding. An ornithologist, he had been a" (Ripley's appointment), read off the image. Copy deleted at the end.
+
+How it was done: each row's page and its note read; the day held against the tree and the ledger (`./bib ledger find`, the day and the month, every thread); where the event was in, Bernstein cited under it (R29, R43); where not, an entry dated as the page dates it, "Check: the day" where loosely (R15, R50 as restated Nov. 5); the primary record read where the series holds it: FRUS 1964–68, XXXI, docs. 286–288 (Harriman and Frei), the Public Papers (1962 Pub. Papers 263; 1963 Pub. Papers 140; 1965 Pub. Papers 763), the Daily Digest's rows (Jan. 22–23 and Mar. 14, 1968; Aug. 23, Sept. 14, 1967; July 11–12, 1962; Mar. 7–8, May 23, 28, 1963; Apr. 27, 1964; Jan. 28, Mar. 30, 1965), the Record (109 Cong. Rec. 22550, H. Rept. 914, read in the granule), the Statutes (82 Stat. 92; 78 Stat. 905, both read), Voteview's roll calls (the Senate's 316 of June 11, 1964; the House's 221 of Aug. 20, 1964; no roll call on the arts bill, June 10, 1965). Every row is ruled in its table above ("settled (b5)", "not borne out (b5)", "a lead (b5)", or an R18 ground).
+
+Patch `inbox/2026-11-05-b5-bernstein-guns-or-butter.yaml`, 238 ops: 171 entries added (1962, 2; 1963, 18; 1964, 38; 1965, 47; 1966, 17; 1967, 20; 1968, 26; 1969, 3), 54 cites, 8 Checks, 3 primary records (the Teaching Professions letter; Tower's roll call; the arts council statute and the House's vote), 1 To check, 1 claim-map row. Witnesses `inbox/witnesses/2026-11-05-b5-bernstein-guns-or-butter.yaml` (18 new); 34 edges appended to `sources/witnesses/by-work/bernstein-guns-or-butter.yaml` under "# b5-bernstein-guns-or-butter". patch-check: 0 errors, 142 warnings, each a "one event?" or duplicate flag on a day or month that holds other entries, read against its neighbors and distinct. Three entries first written were other readers' pending events and were withdrawn for cites (R49): Whalen's Feb. 8, 1964 (the Title VII amendments), Graham's Mar. 24, 1965 (Valenti on Green) and Mar. 30, 1965 (Cater: Powell "burning mad"); their ledger lines removed.
+
+### Not borne out, or still leads
+
+- l. 245 (p. 92): Kennedy's remark on the poor undated; Schlesinger's account of his thinking no act. A lead (the remark's day).
+- l. 260 (p. 134): Jenkins and O'Brien at the Gridiron dinner, "earlier that year": no month. A lead.
+- l. 275 (p. 162): Javits to Johnson, Jan. 27, 1964: the note names it, the text does not give its matter. A lead.
+- l. 404 (p. 287): the York River spill (1966, a year only). A lead.
+- l. 525 (p. 408): Rusk at an Army hospital in Saigon (1966, a year only). A lead; the children's views private.
+- l. 603 (p. 570 n.3): Duesenberry to Califano, Dec. 7, 1966: its matter not stated. A lead.
+- l. 631 (p. 473): no apology to Cambodia dated; the incursion is in the tree (Jan. 19, 1968).
+- l. 122 (p. 318): Califano to the Army (1962, a year only). A lead.
+
+### Checks and variants added
+
+May 26, 1963 (Bernstein's Goldwater 40, Rockefeller 29); Mar. 10, 1964 (the Vice Presidential write-in figures, 29,600 to 25,900); June 5, 1964 (Curtis among the four); Aug. 27 and Oct. 24, 1964 (Khánh's restoration in September; Hương in November); Mar. 9, 1965 (the Detroit march after Reeb's death); Sept. 1964 (*Fact*'s 12,350 psychiatrists); June 10, 1965 (no roll call). In the new entries: Bernstein's 20 to 14 for Judiciary (Nov. 20, 1963; the tree's Oct. 29 has 20–12); Okun's memorandum dated May 23 in the text, May 22 in the note; the Jan. 1968 comparison of prices "Ackley's" in the text, Okun's memorandum in the note; the Digest's "Governor Davis" for Perez (Mar. 30, 1965); the May 21, 1968 meeting perhaps the leadership breakfast; Dirksen's "you know I will" perhaps the recorded call of Nov. 23, 1963; the Air Force One decision (Nov. 22, 1963) Bernstein's inference.
+
+### leads.md items settled
+
+1845 (Ways and Means, Jan. 22–23, 1968); 1846 (Finance's votes and report, Mar. 14–15, 1968); 1951 (Tower's roll call, June 11, 1964, 38–49; the luncheon of Apr. 28 is in the tree); 1952 (Califano's letter, Sept. 27, 1968); 1990 (the Teaching Professions letter, 1965 Pub. Papers 763); 2013 (Berkeley, Mar. 23, 1962); 2015 (Moyers on Watts, cited); 2058 (no roll call); 2056 in part (78 Stat. 905 and the House's 213–135; the Hirshhorn act's statute still open). The press items of 1850 and 1954: the *Times*'s "sputtering mad" cited (Nov. 1, 1965), its "dead" entered (May 1966); the rest stay.
+
+### Leads (ninth run)
+
+National: the Hirshhorn act's Statutes cite (Nov. 7, 1966); Reuss's guidepost hearings, Aug. 1966 (no Digest row found by the word); the rat extermination bill's day and vote (Dec. 1967); the Commerce Department's highway beauty regulations (Jan. 28, July 1, 1966; Jan. 16, 1967: the Federal Register); the Cape Cod slicks and the York River spill (the days); Finance's report on H.R. 15414 (Mar. 15, 1968: the report's number). Foreign: none.

@@ -636,12 +636,13 @@ entries:
     thread: congress
     also: [civil-rights-bill]
     c: 'The White House, the leaders'' breakfast, the day before the State of the Union: the tax cut and the civil rights bill through the House by the end of February, then all-out for the bill in the Senate before the conventions; Congress back after them if need be.'
-    n: '[[w.kotz-judgment-days]], 90. To check: *Washington Post*, Jan. 12, 1964, 1 (cited by [[w.kotz-judgment-days]], 90 n.9). Names: Johnson.'
+    n: '[[w.kotz-judgment-days]], 90; [[w.bernstein-guns-or-butter]], 36 (at the weekly breakfasts, Johnson to Mansfield and Smathers on the tax bill: "give it the old college try," "get some leadership"). To check: *Washington Post*, Jan. 12, 1964, 1 (cited by [[w.kotz-judgment-days]], 90 n.9). Names: Johnson.'
     src:
       c: 3f99b97c
       rows:
         - 'w.kotz-judgment-days 90: all'
         - 'via w.kotz-judgment-days 90 n.9: all'
+        - 'w.bernstein-guns-or-butter 36: A'
     tags: [name:johnson-lyndon-b]
   - id: cal.1964-01-07.press-and-broadcasting
     when: Jan. 7
@@ -2574,12 +2575,13 @@ entries:
     date: '1964-01-27'
     thread: vietnam-macv
     c: Saigon. Westmoreland takes up the new post of deputy to Harkins at the Military Assistance Command. His survey of its staff leads to his recommendation to fold the advisory group into the command.
-    n: '[[w.macv-command-history-1964]], 9, 188 (the day, 188). Check: the History''s chronology, 189, has him named Jan. 14. Names: Westmoreland, Harkins.'
+    n: '[[w.macv-command-history-1964]], 9, 188 (the day, 188); [[w.bernstein-guns-or-butter]], 349. Check: the History''s chronology, 189, has him named Jan. 14. Names: Westmoreland, Harkins.'
     src:
       c: 6f68fadf
       rows:
         - 'w.macv-command-history-1964 9: all'
         - 'w.macv-command-history-1964 188: B'
+        - 'w.bernstein-guns-or-butter 349: B'
     tags: [name:westmoreland-william, name:harkins-paul-d, place:saigon]
   - id: cal.1964-01-27.conservation
     when: Jan. 27
@@ -2860,6 +2862,18 @@ entries:
         - 'w.taking-charge 194: all'
         - 'via x.1964-01-29.johnson-jack-valenti-recording-1850: all'
     tags: [name:valenti-jack, name:johnson-lyndon-b, name:pearson-drew, name:eisenhower-dwight-d]
+  - id: cal.1964-01-29.medicare
+    when: Jan. 29
+    date: '1964-01-29'
+    thread: medicare
+    c: 'Cohen to Feldman on Javits''s Health Care Insurance Act, the Republican liberals'' alternative: "not a single Republican on the Ways and Means Committee has introduced ... the Javits bill. Nor has Mr. Mills in our discussions with him indicated any interest."'
+    n: '[[w.bernstein-guns-or-butter]], 162. To check: Cohen to Feldman, Jan. 29, 1964, EX LE/IS File, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 162 n.2). Names: Cohen, Feldman, Javits, Mills.'
+    src:
+      c: 72aa5ef4
+      rows:
+        - 'w.bernstein-guns-or-butter 162: all'
+        - 'via x.1964-01-29.cohen-to-feldman-jan-29-1964: all'
+    tags: [name:cohen-wilbur-j, name:feldman-myer, name:javits-jacob-k, name:mills-wilbur-d]
   - id: cal.1964-01-30.vietnam
     when: Jan. 30
     date: '1964-01-30'
@@ -3753,3 +3767,26 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 378: all'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1964-01.economy-4
+    when: Jan.
+    date: 1964-01
+    thread: economy
+    c: 'Johnson to Byrd, by letter: the withholding rate at 14 percent from fiscal 1964. Written into the Senate bill.'
+    n: '[[w.bernstein-guns-or-butter]], 33. Check: the day. See [[cal.1964-01.economy]]. Names: Johnson, Byrd.'
+    src:
+      c: 591c9915
+      rows:
+        - 'w.bernstein-guns-or-butter 33: all'
+    tags: [name:johnson-lyndon-b, name:byrd-harry-f]
+  - id: cal.1964-01.poverty-2
+    when: Jan., early
+    date: 1964-01
+    thread: poverty
+    c: 'The Cabinet Room: Johnson''s advisers, Fortas, Clifford, O''Brien, Gordon and several Cabinet members among them, search at length for another name than "poverty," Hesburgh having called "War on Poverty" "a terrible title"; they keep it. By Gordon''s account.'
+    n: '[[w.bernstein-guns-or-butter]], 97. To check: Gordon, Oral History Interview, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 97 n.5); Hesburgh, Oral History Interview, 9 (cited by [[w.bernstein-guns-or-butter]], 97 n.5). Check: the day; Bernstein places it after the Ranch, before the State of the Union. See [[cal.1963-12-29.poverty]]. Names: Johnson, Fortas, Clifford, O''Brien, Gordon, Hesburgh.'
+    src:
+      c: ff211c64
+      rows:
+        - 'w.bernstein-guns-or-butter 97: all'
+        - 'via x.undated.kermit-gordon-oral-history-interview-lbj: all'
+    tags: [name:johnson-lyndon-b, name:fortas-abe, name:clifford-clark, name:obrien-lawrence-f, name:gordon-kermit, name:hesburgh-theodore-m]

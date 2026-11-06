@@ -134,12 +134,13 @@ entries:
     thread: opinion
     also: [desegregation-public-places, civil-rights-bill]
     c: 'Gallup, Jan. 2–7: a law giving all persons, Negro and white, the right to be served in hotels, restaurants, theaters, and the like, 61 percent for, 31 against. Whites outside the South 71 for; Southern whites 20 for, 72 against.'
-    n: '[[w.gallup-poll]], III, 1863; [[w.whalen-longest-debate]], 155.'
+    n: '[[w.gallup-poll]], III, 1863; [[w.whalen-longest-debate]], 155; [[w.bernstein-guns-or-butter]], 44, 64 (61 percent by January; the South''s opposition 72; "in early February 1964").'
     src:
       c: f0e6b445
       rows:
         - 'w.gallup-poll III, 1863: all'
         - 'w.whalen-longest-debate 155: A'
+        - 'w.bernstein-guns-or-butter 44, 64: A, C'
   - id: cal.1964-02-02.vietnam
     when: Feb. 2
     date: '1964-02-02'
@@ -979,12 +980,13 @@ entries:
     date: '1964-02-08'
     thread: civil-rights-bill
     c: 'House, Title VII, after the "sex" amendment: job retraining and the church colleges'' amendments accepted, four rejected; Ashbrook''s, no unlawful practice to refuse an atheist, carried 137–98 standing. A Sunday session refused, 220–175.'
-    n: '[[w.whalen-longest-debate]], 118. To check: 110 Cong. Rec. 2548–2616 (Feb. 8, 1964) (cited by [[w.whalen-longest-debate]], 256). See [[cal.1964-02-08.women]]. Names: Ashbrook.'
+    n: '[[w.whalen-longest-debate]], 118; [[w.bernstein-guns-or-butter]], 55 (retraining; the church schools'' exemption over Celler and McCulloch; Ashbrook''s, later dropped). To check: 110 Cong. Rec. 2548–2616 (Feb. 8, 1964) (cited by [[w.whalen-longest-debate]], 256). See [[cal.1964-02-08.women]]. Names: Ashbrook.'
     src:
       c: 0ebe7eba
       rows:
         - 'w.whalen-longest-debate 118: all'
         - 'via x.1964-02-08.congressional-record-2548: all'
+        - 'w.bernstein-guns-or-butter 55: A-B'
     tags: [name:ashbrook-john-m]
   - id: cal.1964-02-08.baker
     when: Feb. 8
@@ -1235,6 +1237,18 @@ entries:
         - 'w.whalen-longest-debate 122: all'
         - 'via x.1964-02-12.knapp-new-york-world-telegram: all'
     tags: [name:celler-emanuel]
+  - id: cal.1964-02-10.civil-rights-bill-5
+    when: Feb. 10
+    date: '1964-02-10'
+    thread: civil-rights-bill
+    c: 'House, Committee of the Whole: 22 amendments refused, four accepted, Colmer''s against Communists and front members who will not register among them, over Celler. Ashmore''s Title X, a Community Relations Service, accepted by Celler and McCulloch before he can speak for it.'
+    n: '[[w.bernstein-guns-or-butter]], 55. To check: Equal Employment Opportunity Commission, *Legislative History of Titles VII and XI of the Civil Rights Act of 1964* (cited by [[w.bernstein-guns-or-butter]], 55 n.3). See [[cal.1964-02-10.civil-rights-bill]]. Names: Colmer, Celler, McCulloch.'
+    src:
+      c: 1a92218e
+      rows:
+        - 'w.bernstein-guns-or-butter 55: all'
+        - 'via x.undated.eeoc-legislative-history-titles-vii-and-xi: all'
+    tags: [name:colmer-william-m, name:celler-emanuel, name:mcculloch-william-m]
   - id: cal.1964-02-11.school-aid
     when: Feb. 11
     date: '1964-02-11'
@@ -2917,11 +2931,12 @@ entries:
     thread: vietnam-congress
     also: [vietnam]
     c: Rostow to Rusk, a series of memoranda for a congressional resolution.
-    n: '[[w.preston-war-council]], 149. To check: Johns''s article of 1997 on the resolution, 178, 180 (cited by [[w.preston-war-council]], 149 n.46). See [[cal.1963-12.vietnam-congress]]. Names: Rostow, Rusk. Check: the days.'
+    n: '[[w.preston-war-council]], 149; [[w.bernstein-guns-or-butter]], 335 ("in early 1964, at Rostow''s urging"). To check: Johns''s article of 1997 on the resolution, 178, 180 (cited by [[w.preston-war-council]], 149 n.46). See [[cal.1963-12.vietnam-congress]]. Names: Rostow, Rusk. Check: the days.'
     src:
       c: 1c2b265d
       rows:
         - 'w.preston-war-council 149: all'
+        - 'w.bernstein-guns-or-butter 335: A'
     tags: [name:rostow-walt-w, name:rusk-dean]
   - id: cal.1964-02.labor
     when: Feb.
@@ -2963,11 +2978,12 @@ entries:
     date: 1964-02
     thread: poverty
     c: 'A Cabinet meeting. Shriver''s jobs program on the model of the WPA, a tobacco tax to pay for it, refused by Johnson: no addition to the budget while taxes are cut.'
-    n: '[[w.sundquist-politics-and-policy]], 143–44. Check: the day. See [[cal.1964-02-04.poverty]]. Names: Shriver, Johnson.'
+    n: '[[w.sundquist-politics-and-policy]], 143–44; [[w.bernstein-guns-or-butter]], 106 (the cigarette tax; Yarmolinsky: "I have never seen a colder reception from the President"). Check: the day. See [[cal.1964-02-04.poverty]]. Names: Shriver, Johnson.'
     src:
       c: 8fbabb2f
       rows:
         - 'w.sundquist-politics-and-policy 143–44: all'
+        - 'w.bernstein-guns-or-butter 106: A-B'
     tags: [name:shriver-r-sargent, name:johnson-lyndon-b]
   - id: cal.1964-02-29.transition-and-staff
     when: Feb. 29
@@ -3263,3 +3279,58 @@ entries:
         - 'w.kotz-judgment-days 118–19: all'
         - 'via w.kotz-judgment-days 119 n.14: all'
     tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:young-milton-r]
+  - id: cal.1964-02.opinion
+    when: Feb.
+    date: 1964-02
+    thread: opinion
+    also: [civil-rights-bill]
+    c: 'Harris: 68 percent for the civil rights bill, H.R. 7152.'
+    n: '[[w.bernstein-guns-or-butter]], 64. Check: the field dates and the release.'
+    src:
+      c: 51ae4677
+      rows:
+        - 'w.bernstein-guns-or-butter 64: all'
+  - id: cal.1964-02.poverty-2
+    when: Feb.
+    date: 1964-02
+    thread: poverty
+    c: 'Yarmolinsky, giving up his Pentagon post for the task force, asks to be a deputy special assistant to the President; Johnson agrees, then sends Moyers to say he has changed his mind: deputy head of the task force, and deputy director of the agency once the bill is signed.'
+    n: '[[w.bernstein-guns-or-butter]], 100. To check: Yarmolinsky, Oral History Interview, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 100 n.6). Check: the day. See [[cal.1964-02-02.poverty]]. Names: Yarmolinsky, Johnson, Moyers.'
+    src:
+      c: 21e2b20b
+      rows:
+        - 'w.bernstein-guns-or-butter 100: all'
+        - 'via x.undated.adam-yarmolinsky-oral-history-interview-lbj: all'
+    tags: [name:yarmolinsky-adam, name:johnson-lyndon-b, name:moyers-bill]
+  - id: cal.1964-02.poverty-3
+    when: Feb.
+    date: 1964-02
+    thread: poverty
+    c: 'Shriver to Mayor Lee of New Haven by telephone: what would New Haven spend on community action with "the rubber band off the bankroll"? Projected to the nation, half a billion; Shriver concludes the money needs programs beyond community action.'
+    n: '[[w.bernstein-guns-or-butter]], 101. Check: the day. See [[cal.1964-02-02.poverty]]. Names: Shriver, Lee.'
+    src:
+      c: 895bf7fc
+      rows:
+        - 'w.bernstein-guns-or-butter 101: all'
+    tags: [name:shriver-r-sargent, name:lee-richard-c]
+  - id: cal.1964-02.poverty-4
+    when: Feb.–Mar.
+    date: 1964-02
+    thread: poverty
+    c: 'Michael Harrington to Shriver: "you''ve been given nickels and dimes for this program." Shriver: "this will be my first experience at spending a billion dollars, and I''m quite excited about it." The budget $962.5 million.'
+    n: '[[w.bernstein-guns-or-butter]], 102. Check: the day; during the task force, Feb. 2 to mid-March. See [[cal.1964-02-02.poverty]]. Names: Shriver.'
+    src:
+      c: c5f1a8a3
+      rows:
+        - 'w.bernstein-guns-or-butter 102: all'
+    tags: [name:shriver-r-sargent]
+  - id: cal.1964-02.program
+    when: Feb.
+    date: 1964-02
+    thread: program
+    c: S. Dillon Ripley becomes Secretary of the Smithsonian Institution.
+    n: '[[w.bernstein-guns-or-butter]], 445 (read off the page image; the text layer drops the line). Check: the day.'
+    src:
+      c: d6f41098
+      rows:
+        - 'w.bernstein-guns-or-butter 445: all'

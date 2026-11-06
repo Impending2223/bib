@@ -1242,12 +1242,10 @@ CQ Weekly Report, 1968-03-01:
 ### Bernstein, *Guns or Butter* (batch 3, Nov. 3–4, 2026, the second and third runs; notes/book-checks/bernstein-guns-or-butter.md)
 
 - The Passed over rows marked "a lead" (the second and third runs).
-- Ways and Means's hearings of Jan. 22–23, 1968 (Fowler, Schultze, Martin, Ackley; Bernstein 372): the hearing record.
-- The Finance Committee's votes of Mar. 1968 (12–5; 9–8) and its report of Mar. 15 (373): the committee's report and the *CQ Almanac*, 1968, 263–78.
 - Nov. 22, 1966, the Ranch: the fiscal year of McNamara's $20 billion and the deficit's $1.8 and $9 billion (360): Shapley, 367–74.
 - Califano's oral histories as Bernstein numbers them (I, XXIV, XL, XLI, LVII) against `x.undated.joseph-a-califano-jr-oral-history` (Mar. 16, Dec. 21, 1988, June 13, 1989): perhaps one series.
 - The Kennedy Center act's Statutes cite (`cal.1964-01-23.program`, Check); the Finance Committee's report of Jan. 28, 1964 (S. Rep. No. 830, registered, not read).
-- The press, named and passed over: the *Times* on Johnson "sputtering mad" (aluminum, Nov. 1965, 362: the day); *Congressional Quarterly*'s "Lobbying by Business Key to Passage" (June 1968, 376); a Karachi columnist on Bashir's invitation (1961, 10); the White House reporters on the $101–102 billion figure (Nov.–Dec. 1963, 30).
+- The press, named and passed over: *Congressional Quarterly*'s "Lobbying by Business Key to Passage" (June 1968, 376); a Karachi columnist on Bashir's invitation (1961, 10); the White House reporters on the $101–102 billion figure (Nov.–Dec. 1963, 30).
 - Heller to Johnson, Nov. 25, 1963: `x.1963-11-25.heller-to-johnson-case-for-a-101-102` ("Case for a $101-102 billion Budget," GEN-CEA File, LBJ Library; Bernstein 32 n.2d) and `x.1963-11-25.walter-heller-to-lyndon-johnson-nov` (Kermit Gordon Papers, Box 13, "The Tax Bill and Budget Expenditures," JFK Library; Zelizer, *Taxing America*, 202 n.95) may be one memorandum in two files: left apart by the merger (two repositories, the second row's description only the folder's), for a reader with either copy.
 
 ### Preston, *The War Council* (batch 3, second run, Nov. 4, 2026; notes/book-checks/preston-war-council.md)
@@ -1327,10 +1325,8 @@ CQ Weekly Report, 1968-03-01:
 ### Bernstein, *Guns or Butter* (batch 3, fourth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
 
 - The fourth run's Passed over rows marked "a lead".
-- The roll calls of Tower's amendment, June 11, 1964 (49 to 38), and the Senate Republicans' policy luncheon of Apr. 28, 1964 (Voteview; the Record).
-- Califano's letter of Sept. 27, 1968, to the departments (Task Force Subject File, LBJ Library).
 - The 1965 task force report on the cities, printed as appendix 2 of Haar, *Between the Idea and the Reality* (`w.haar-between-the-idea-and`): its pages to read.
-- The press, named and passed over: the *Chicago Tribune* and Arthur Krock in the *New York Times* "outraged" at the Motorola ruling (1964, 74: the days); the *Times* on the price of demonstration cities, double the estimate, and calling the bill "dead" (May 1966, 464); the wire stories on Califano's briefing (1966, 464); Smoot's broadcasts against the bill (1966, 466).
+- The press, named and passed over: the *Chicago Tribune* and Arthur Krock in the *New York Times* "outraged" at the Motorola ruling (1964, 74: the days); the wire stories on Califano's briefing (1966, 464); Smoot's broadcasts against the bill (1966, 466).
 
 ### Shesol, *Mutual Contempt* (batch 3, third run, Nov. 4, 2026; notes/book-checks/shesol-mutual-contempt.md)
 
@@ -1359,7 +1355,6 @@ CQ Weekly Report, 1968-03-01:
 - Lampman to Heller, June 10, 1963 (Administrative History of the Council, LBJ Library).
 - The poverty hearings' printed volumes (House, pt. 1, pp. 6–7, 64–65, 108–9, 114–15, 146, 184–85, 309, 314, 631–36) and the Record of July 22–23 and Aug. 7, 1964, for the days of Green's, McNamara's and Kennedy's exchanges and Smathers's amendment.
 - The Ways and Means hearings of 1963–64 (pt. 2, 644, 650–51) for Annis's day.
-- The Teaching Professions message of July 17, 1965 in the Public Papers.
 - The ABA's agreement (July 11 or later; Cater to Johnson, Aug. 25, 1965).
 - The press: Murrow's "Harvest of Shame"; Reston's "Franklin Delano Hoover twist"; Lippmann's 1963 column on Goldwater; Henshaw's "Washington Pipeline" (attached to Spain to Manatos, July 30, 1964).
 - Propose a Part III entry for Douglass Cater (White House staff, education and Medicare), who has no name entry.
@@ -1379,9 +1374,7 @@ CQ Weekly Report, 1968-03-01:
 ### Bernstein, *Guns or Butter* (batch 3, seventh run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
 
 - The rows of the seventh run's Passed over marked "a lead".
-- Kennedy's Charter Day address at Berkeley, Mar. 23, 1962 (1962 Pub. Papers 263).
 - The McNamara–Webb memorandum on the moon (1961).
-- Moyers's statement on Watts, Aug. 14, 1965: Kotz's entry (`cal.1965-08-14.civil-disorders-watts-2`, now merged), to be cited from Bernstein.
 - The Berkeley days of Sept. 20–30, Nov. 9, Dec. 4 and 7, 1964, and Jan. 2, 1965.
 - Propose Part III entries for the press figures David Wise (*Herald Tribune*), Charles Mohr (*New York Times*), Peter Grose (*New York Times*); and for Hans J. Morgenthau, Louis Martin (Democratic National Committee), Norman Thomas, James Bevel and Allard Lowenstein, named here without name entries.
 
@@ -1410,8 +1403,7 @@ CQ Weekly Report, 1968-03-01:
 ### Bernstein, *Guns or Butter* (batch 3, eighth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
 
 - The rows of the eighth run's Passed over marked "a lead".
-- The statutes of the National Council on the Arts and Cultural Development Act (Sept. 3, 1964) and the Hirshhorn act (Nov. 7, 1966), and the House's vote of 1964 (213–135).
-- The Senate's vote on the arts and humanities bill, June 10, 1965.
+- The Hirshhorn act's Statutes cite (Nov. 7, 1966).
 - The Social Security hearings of 1967 (Senate Finance, Aug. 22–Sept. 26), for Robert Kennedy's and Wiley's days.
 - Stanton's talk with Cater on the receiver tax (1967).
 - The Feb. 27, 1968 meeting at Rusk's dining room.
@@ -2117,8 +2109,6 @@ CQ Weekly Report, 1968-08-16:
 - The Second Declaration of Havana (Feb. 4, 1962, to check), quoted at 168: not in the calendar.
 - A Taiwanese U-2 shot down over China, Sept. 8, 1962 (214): not in the calendar.
 - Barghoorn's arrest, Oct. 31, 1963 (344): to check against the calendar.
-
-### Thomas, *Robert Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
 
 ### Novak, *The Agony of the G.O.P. 1964* (batch 3, third run, Nov. 4, 2026; notes/book-checks/novak-agony-of-the-g.md)
 - The *Athens Post*'s interview with Goldwater before Greece's election of Nov. 1963 (243 n.4).

@@ -79,6 +79,17 @@ entries:
       c: 0ea00596
       rows:
         - 'w.futrell-united-states-air-force 261: all'
+  - id: cal.1965-01-02.students
+    when: Jan. 2
+    date: '1965-01-02'
+    thread: students
+    c: The University of California's regents dismiss Strong, chancellor at Berkeley, for Martin Meyerson, dean of Environmental Design. The Free Speech Movement disbands.
+    n: '[[w.bernstein-guns-or-butter]], 406. See [[cal.1964-12-08.students]].'
+    src:
+      c: d6edf18a
+      rows:
+        - 'w.bernstein-guns-or-butter 406: all'
+    tags: [city:berkeley, state:ca]
   - id: cal.1965-01-03.opinion
     when: Jan. 3
     date: '1965-01-03'
@@ -1151,6 +1162,18 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=120: all'
         - 'w.kotz-judgment-days 261: A'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1965-01-14.school-aid
+    when: Jan. 14
+    date: '1965-01-14'
+    thread: school-aid
+    c: 'Cater to Johnson: telegrams on the education message three to one in favor; the opposition "exclusively directed at aid to parochial schools."'
+    n: '[[w.bernstein-guns-or-butter]], 193. To check: Cater to Johnson, Jan. 14, 1965, Cater Papers, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 193 n.2). Check: the day; the note lists Cater to Johnson, Jan. 14 and 26. See [[cal.1965-01-12.school-aid]]. Names: Cater, Johnson.'
+    src:
+      c: 9b996c18
+      rows:
+        - 'w.bernstein-guns-or-butter 193: all'
+        - 'via x.1965-01-14.cater-to-johnson-jan-14-1965: all'
+    tags: [name:cater-s-douglass, name:johnson-lyndon-b]
   - id: cal.1965-01-15.opinion
     when: Jan. 15
     date: '1965-01-15'
@@ -2187,6 +2210,18 @@ entries:
       rows:
         - 'w.marolda-united-states-navy-and 494: all'
         - 'w.cosmas-joint-chiefs-of-staff-2012 209–10: A'
+  - id: cal.1965-01-28.immigration
+    when: Jan. 28
+    date: '1965-01-28'
+    thread: immigration
+    c: 'House Judiciary organizes, 24 Democrats to 11 Republicans, from 21 and 14: subcommittee assignments approved, the immigration subcommittee enlarged from five to nine, a majority for the administration; Gilbert, Donohue and Jack Brooks among the new Democrats.'
+    n: 'Daily Digest, [111 Cong. Rec. D26](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=24) (House, Jan. 28, 1965). [[w.bernstein-guns-or-butter]], 255 (A–B). Check: the day of the subcommittee''s enlargement. See [[cal.1965-01-13.immigration]]. Names: Gilbert, Brooks.'
+    src:
+      c: dd60db12
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=24: A'
+        - 'w.bernstein-guns-or-butter 255: all'
+    tags: [name:gilbert-jacob-h, name:brooks-jack-b]
   - id: cal.1965-01-29.succession
     when: Jan. 29
     date: '1965-01-29'
@@ -2630,3 +2665,25 @@ entries:
       rows:
         - 'w.kotz-judgment-days 263: all'
     tags: [name:rostow-eugene, name:johnson-lyndon-b, name:clark-james-g-jr]
+  - id: cal.1965-01.school-aid
+    when: Jan.
+    date: 1965-01
+    thread: school-aid
+    c: 'Protestants and Other Americans United for Separation of Church and State, on the education message: "federal aid to parochial schools by a method which attempts to circumvent the constitutional issue."'
+    n: '[[w.bernstein-guns-or-butter]], 193. To check: Cohen to Moyers, "Reaction to President Johnson''s Message on Education," Jan. 14, 1965, Cater Papers, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 193 n.2). Check: the day. See [[cal.1965-01-12.school-aid]].'
+    src:
+      c: b1b6a0e1
+      rows:
+        - 'w.bernstein-guns-or-butter 193: all'
+        - 'via x.1965-01-14.cohen-to-moyers-reaction-to-the-message: all'
+  - id: cal.1965-01.school-aid-2
+    when: Jan.
+    date: 1965-01
+    thread: school-aid
+    also: [mayors]
+    c: The U.S. Conference of Mayors endorses the education proposals unanimously.
+    n: '[[w.bernstein-guns-or-butter]], 193. Check: the day. See [[cal.1965-01-12.school-aid]].'
+    src:
+      c: fb1a7b5f
+      rows:
+        - 'w.bernstein-guns-or-butter 193: all'
