@@ -275,6 +275,7 @@ entries:
   - id: cal.1967-03-02.robert-kennedy
     when: Mar. 2
     date: '1967-03-02'
+    time: 1967-03-02T20:40Z
     thread: robert-kennedy
     also: [vietnam]
     c: 'Robert Kennedy in the Senate on the war: stop the bombing of the North and say the United States is ready to negotiate within a week; the talks not to run on long without agreement; neither side to enlarge the war in the South; an international presence to replace American troops by degrees; every major political group in the South a part of the settlement. Rusk the same evening: such proposals made before, Hanoi refusing them (Check). Johnson''s news conference, and his letter to Senator Jackson of Mar. 1 on the reasons for the bombing, released the same day.'
@@ -307,11 +308,6 @@ entries:
         - 'via x.1998.russo-gus-live-by-the-sword: A, G'
     tags: [name:kennedy-robert-f, name:rusk-dean, name:johnson-lyndon-b, name:jackson-henry-m]
     short: against the bombing
-    time_range:
-      - 1967-03-02T17:00Z
-      - 1967-03-02T23:32Z
-    time_zone: America/New_York
-    range_basis: record
   - id: cal.1967-03-02.soviet-union
     when: Mar. 2
     date: '1967-03-02'
@@ -359,6 +355,7 @@ entries:
   - id: cal.1967-03-02.economy-debt-limit
     when: Mar. 2
     date: '1967-03-02'
+    time: 1967-03-03T03:45Z
     thread: economy-debt-limit
     c: The debt limit to $336 billion to June 30 signed at 10:45 p.m., [81 Stat. 4](https://www.govinfo.gov/content/pkg/STATUTE-81/pdf/STATUTE-81-Pg4-2.pdf).
     n: Statute (K–J Cong. II.J.2). See [[cal.1967-02-08.economy]].
@@ -1825,8 +1822,10 @@ entries:
     when: Mar. 16
     date: '1967-03-16'
     thread: economy
+    follows:
+      - cal.1967-03-16.economy-investment-credit
     c: The House passes H.R. 6950, the investment credit restored, [386–2](https://voteview.com/rollcall/RH0900023).
-    n: 'Check: the Record''s page. See [[cal.1967-03-09.economy]].'
+    n: 'Check: the Record''s page. Order: the vote after the day''s debate ([[cal.1967-03-16.economy-investment-credit]]). See [[cal.1967-03-09.economy]].'
     time_range:
       - 1967-03-16T19:00Z
       - 1967-03-16T22:00Z
