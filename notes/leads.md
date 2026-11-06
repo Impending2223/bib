@@ -1095,10 +1095,6 @@ CQ Weekly Report, 1968-03-01:
 - Salinger's Portland statement on the King tap: its day (Thomas 379 n. cites Witcover, *85 Days*, 212; `cal.1968-05-24.king`).
 - The FBI files Thomas reads for May 17, 18 and 23, 1968, not cited by folder (379).
 
-### Fursenko and Naftali, *Khrushchev's Cold War* (batch 3, second run, Nov. 4, 2026; notes/book-checks/fursenko-khrushchevs-cold-war.md)
-- Jan.–Feb. 1960: Twining and Gates on the 1961 defense budget; Russell: "I can't accept the statement that there is no missile gap" (253): the hearing's day (Jackson, vol. 5, 94, n.40).
-- Feb. 1960: Gates to Congress: Power's estimate "is unrealistic" (254): the day (the *Times*, Feb. 7, 1960, n.43).
-
 ### McNamara, *In Retrospect* (batch 3, second run, Nov. 4, 2026; notes/book-checks/mcnamara-in-retrospect.md)
 - A paginated copy of *In Retrospect* (Times Books 1995 or Vintage 1996), to turn the chapter-and-note pinpoints into pages, and to hold up the hardcover pages other readers cite (176–77, 186–87, 215, 283, 311–14).
 - *Public Statements of Robert S. McNamara*, 1961–68 (OSD), cited by volume and page throughout: where a copy can be read (DTIC? the Pentagon Library), for the press conferences of Feb. 5, 1962, Apr. 24, 1964, June 16, 1965, and the remarks of July 23 and Oct. 9, 1962, Dec. 21, 1963, Mar. 9, 1964, Nov. 29, 1965.
@@ -1354,8 +1350,6 @@ CQ Weekly Report, 1968-03-01:
 ### Fursenko and Naftali, *Khrushchev's Cold War* (batch 3, third run, Nov. 4, 2026; notes/book-checks/fursenko-khrushchevs-cold-war.md)
 
 - Oct. 24, 1962: McNamara's depth-charge rules and Kennedy's worry, from the morning ExComm's tape (Presidential Recordings, III, 191–97): an entry for a reader of the tapes.
-- Apr. 13, 1961, El Encanto; Aug. 14, 1961, Kennan's authorization (388): to enter from a record.
-- Kennedy's back, Ottawa, May 1961 (the work's "March," 367).
 - The press: a Part III entry for Warren Rogers (*Herald Tribune*, Pentagon pool), named in cal.1962-10-26.soviet-union, and for Thomas J. Hamilton (*New York Times* at the UN), cal.1962-11-15.missile-crisis-2; both treated by this work (486, 502).
 
 ### Bernstein, *Guns or Butter* (batch 3, fifth run, Nov. 4, 2026; notes/book-checks/bernstein-guns-or-butter.md)
@@ -2036,20 +2030,6 @@ CQ Weekly Report, 1968-08-16:
 - The 303 Committee's record of June 2, 1965 (Raborn's request): FRUS 1964–68, XXXII, doc. 302 n. 2 names it.
 
 ### Fursenko and Naftali, *Khrushchev's Cold War* (batch 3, second run, Nov. 4, 2026; notes/book-checks/fursenko-khrushchevs-cold-war.md)
-- Apr. 1960: Eisenhower alerts Khrushchev he may leave Paris for Lisbon, Nixon to head the delegation (271): the day.
-- May 1960: Macmillan's diary: "The Americans have created a great folly" (276): the day (Horne, *Macmillan*, II, 225–26).
-- Apr.–May 1960: NATO meetings on the French plan; Herter: "embarrassing to the West" (280): which meeting (FRUS 1958–60, IX, 318, 415, n.56).
-- May 1960: Thompson and Bohlen to Sulzberger: the U-2 a pretext (289): the day (Sulzberger, *The Last of the Giants*, 669–70).
-- Jan. 1960: the Belgian–Congolese agreement: independence June 30 (298): the day (the Round Table, Jan. 1960; not dated in the work).
-- spring 1960: the CIA's LSD cigar and depilatory schemes (304): the day (S. Rep. No. 94-465, 72).
-- May 1960: Cuba and the Soviet Union establish diplomatic relations (304): the day (not given).
-- late July 1960: Lumumba with Kuznetsov at the UN; with Aroutunian in Ottawa (309–10): the days (Kalb, *Congo Cables*, 35–41).
-- Sept. 16–17, 1960: Mobutu's troops clear the Parliament; Lumumba in UN custody (316): Sept. 16–17 entries to check against Kalb and Hoskyns (the calendar has Sept. 14).
-- Sept. 1960: Khrushchev: "I spit on the UN"; Zorin's instructions (317): the day (Taubman, *Khrushchev*, 477).
-- Sept. 24, 1960: Dulles: "eliminat[e] Lumumba" (318): S. Rep. No. 94-465, 24, to enter.
-- Aug.–Oct. 1, 1960: Castro's purge of his security service; the block surveillance system (320): the days.
-- Nov. 1960: the CIA's contract killer to Stanleyville (321): the day.
-- spring 1960: Khrushchev's second trip to Southeast Asia, Burma and Indonesia (324): the days (Feb.–Mar. 1960).
 - Aug.–Oct. 1960: Brown's and State's views on Souvanna; Eisenhower's dominoes (memoir) (329): the days (Eliades; *Waging Peace*, 607).
 - The rest of the work, pp. 451–545, unread.
 
@@ -2126,10 +2106,9 @@ CQ Weekly Report, 1968-08-16:
 ### Fursenko and Naftali, *Khrushchev's Cold War* (batch 3, third run, Nov. 4, 2026; notes/book-checks/fursenko-khrushchevs-cold-war.md)
 
 - The rows above marked "lead," each with its page and note; chiefly: the Presidium's and Khrushchev's acts the work dates only to a month (the Minister of Agriculture, March 1963; Kozlov's stroke; the plot's beginnings, 1963; the boundary message, Dec. 31, 1963 or Jan. 1964; Khrushchev's Scandinavian and Egyptian days, May–June 1964, entered by month only).
-- Khrushchev's Berlin speech: the day (Jan. 15 or 16, 1963) by the Sixth SED Congress's record; the publication of the December letters (the work's "next day").
+- Khrushchev's Berlin speech, Jan. 16, 1963 (by FRUS 1961–63, V, doc. 280): the publication of the December letters (the work's "next day").
 - The Volkogonov Collection, Library of Congress (Malinovsky's, Zakharov's, Ivanov's papers of Sept. 1962): its finding aid, for copies the series could cite.
 - BBC Scotland's interviews of Shumkov and Chebrasov; David Coleman's transcripts of the ExComm of Nov. 14 and 16, 1962 (the work's note: to appear in vol. 4 of the Miller Center's *Presidential Recordings*, 619 n.58).
-- Kroll's summer visit of 1963 and Khrushchev's letter to Adenauer (621 n.111).
 
 ### Woods, *Fulbright: A Biography* (batch 3, Nov. 4, 2026; notes/book-checks/woods-fulbright.md)
 

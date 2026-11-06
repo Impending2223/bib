@@ -1,0 +1,1048 @@
+patch: 2026-11-05-b5-fursenko-khrushchevs-cold-war
+by: Claude (batch 5 reading, the leads sent back), Nov. 5, 2026
+ops:
+- check:
+    id: cal.1963-01-16.berlin-and-vienna
+    text: 'Check: the CIA''s review of Jan. 18 (FRUS V, doc. 280) puts the speech "on 16 January."'
+- primary:
+    id: cal.1961-09-18.berlin-and-vienna-2
+    text: Taylor, memorandum for the record, [FRUS 1961–63, XIV, doc. 154](https://history.state.gov/historicaldocuments/frus1961-63v14/d154)
+      (Sept. 18, 1961).
+    units: A, D-E
+- cite:
+    id: cal.1961-09-18.berlin-and-vienna-2
+    item: '[[w.fursenko-khrushchevs-cold-war]], 397 (the Pentagon for six divisions)'
+    units: D
+- check:
+    id: cal.1961-09-18.berlin-and-vienna-2
+    text: 'Check: Fursenko and Naftali have Kennedy decide on one more division for Europe, not six (397, citing this meeting,
+      397 n.48); Taylor''s memorandum gives the call-up of two Guard divisions approved, and one division to Europe only as
+      Defense''s and Rusk''s recommendation.'
+- src:
+    id: cal.1961-09-18.berlin-and-vienna-2
+    rows:
+    - 'via w.fursenko-khrushchevs-cold-war 397 n.48: D'
+- cite:
+    id: cal.1962-04-12.soviet-union
+    item: '[[w.fursenko-khrushchevs-cold-war]], 438 (Moscow relents in April on the Sopka, one battery of the three asked)'
+    units: B
+- cite:
+    id: cal.1962-08-30.missile-crisis-2
+    item: '[[w.fursenko-khrushchevs-cold-war]], 455 (Castro''s proposal in August to announce the treaty; Moscow demurs)'
+    units: A
+- cite:
+    id: cal.1962-04-11.cuba
+    item: '[[w.fursenko-khrushchevs-cold-war]], 428 (the Soviet press denounces Escalante''s "sectarianism"; Castro pleased)'
+    units: A
+- check:
+    id: cal.1962-04-11.cuba
+    text: 'Check: Fursenko and Naftali give *Izvestia*, within a week of Escalante''s arrival (428).'
+- cite:
+    id: cal.1962-03.cuba-4
+    item: '[[w.fursenko-khrushchevs-cold-war]], 428 (Valdés asks the KGB for a center to train Latin American guerrillas;
+      "We do not help national-liberation movements")'
+    units: A
+- check:
+    id: cal.1962-03.cuba-4
+    text: 'Check: Fursenko and Naftali (2006) put Valdés''s visit and the KGB''s answer in April (428).'
+- check:
+    id: cal.1962-11-27.laos
+    text: 'Check: Fursenko and Naftali have the Pathet Lao shoot down an American supply plane for Souvanna Phouma in early
+      November, announced Nov. 21 (505).'
+- cite:
+    id: cal.1961-04-15.cuba
+    item: '[[w.fursenko-khrushchevs-cold-war]], 348 (explosions at Havana, Santiago and San Antonio de los Baños early Apr.
+      15)'
+    units: A-B
+- edit:
+    id: cal.1963-02-06.cuba
+    base: 21e9b19f
+    set:
+      c: 'Castro to Alekseyev: complaints of indiscipline among the Soviet troops, and of drunkenness. On peaceful coexistence:
+        "I am generally not against it," where the peaceful path to socialism is possible, as in Italy and France, "But in
+        general in Latin America there aren''t the necessary conditions for such an approach." Escalante "was the leader of
+        those who believed in the peaceful coexistence approach for Latin America."'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 514; [[w.fursenko-khrushchevs-cold-war]], 427 (coexistence; Escalante). Check:
+        the work sets the talk on coexistence and Escalante in early 1962 (427); its note dates it Feb. 6, 1963 (427 n.47).
+        To check: memcon, Alekseyev and Castro, Feb. 6, 1963, MFA (cited by [[w.fursenko-khrushchevs-cold-war]], 514 n.82;
+        APRF, 427 n.47). See [[cal.1962-12-03.soviet-union]]. Names: Castro.'
+      src:
+        c: 5e9b2297
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 514: A'
+        - 'via x.2006.kcw-p514-1963-02-06: A'
+        - 'w.fursenko-khrushchevs-cold-war 427: B-C'
+        - 'via w.fursenko-khrushchevs-cold-war 427 n.47: B-C'
+- add:
+    entry:
+      id: cal.1960-01-19.defense
+      when: Jan. 19
+      date: '1960-01-19'
+      thread: defense
+      c: 'Senate Armed Services, Russell in the chair, opens executive hearings on the defense posture: Gates, Secretary-designate,
+        and Twining. Their case, by Fursenko and Naftali: the Soviets may have more ICBMs, but American bombers and submarines
+        carry more nuclear firepower; a missile gap, no deterrence gap. Russell: "I can''t accept the statement that there
+        is no missile gap. I think there is."'
+      n: '[Daily Digest, 106 Cong. Rec. D16](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=14)
+        (Jan. 19, 1960). [[w.fursenko-khrushchevs-cold-war]], 253 (the testimony; Russell). Check: the day: the work gives
+        Russell''s words and the testimony only as on the 1961 defense budget (253); the Digest has Gates and Twining before
+        Senate Armed Services Jan. 19, before House Armed Services Jan. 21–22 and before the Senate Appropriations subcommittee
+        Feb. 1. To check: Wayne G. Jackson, "Allen Welsh Dulles as Director of Central Intelligence," vol. 5, CIA history
+        (1973), 94 (cited by [[w.fursenko-khrushchevs-cold-war]], 253 nn.40–41). See [[cal.1960-01-26.defense]]. Names: Russell,
+        Gates, Twining.'
+      tags:
+      - name:russell-richard-b
+      - name:gates-thomas-s-jr
+      - name:twining-nathan-f
+      src:
+        c: d21cbbeb
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=14: A'
+        - 'w.fursenko-khrushchevs-cold-war 253: all'
+        - 'via w.fursenko-khrushchevs-cold-war 253 n.40: B-C'
+        - 'via w.fursenko-khrushchevs-cold-war 253 n.41: D'
+- add:
+    entry:
+      id: cal.1960-02.defense-2
+      when: Feb., by the 7th
+      date: 1960-02
+      thread: defense
+      c: 'Gates to Congress on Power''s estimate that 300 Soviet ballistic missiles could wipe out the American retaliatory
+        force in thirty minutes: it "is unrealistic."'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 254. Check: the day and the committee: the work cites the *New York Times*,
+        Feb. 7, 1960, "The Great Debate over the Adequacy of Our Defense" (254 n.43). To check: the *Times*, Feb. 7, 1960
+        (cited by [[w.fursenko-khrushchevs-cold-war]], 254 n.43). See [[cal.1960-01-18.defense]]. Names: Gates, Power.'
+      tags:
+      - name:gates-thomas-s-jr
+      src:
+        c: 552d64e9
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 254: all'
+        - 'via w.fursenko-khrushchevs-cold-war 254 n.43: all'
+- add:
+    entry:
+      id: cal.1960-04-16.soviet-union-u2
+      when: Apr. 16
+      date: '1960-04-16'
+      thread: soviet-union-u2
+      also:
+      - europe-and-the-alliance
+      c: 'Eisenhower''s letter to Khrushchev goes to Moscow by telegram for delivery: after the summit he goes to Lisbon;
+        should the conference run on, Nixon to take his place in Paris.'
+      n: '[FRUS 1958–60, IX, doc. 127](https://history.state.gov/historicaldocuments/frus1958-60v09/d127) (Herter to Couve
+        de Murville, Apr. 15: the letter; n.2, sent in telegram 2102, Apr. 16). [[w.fursenko-khrushchevs-cold-war]], 271 (Eisenhower
+        alerts Khrushchev in April; Nixon to head the delegation). To check: Eisenhower to Khrushchev, telegram 2102, Apr.
+        16, 1960, Presidential Correspondence, Lot 66 D 204 (cited by FRUS 1958–60, IX, doc. 127 n.2). Names: Eisenhower,
+        Khrushchev, Nixon.'
+      tags:
+      - name:eisenhower-dwight-d
+      - name:khrushchev-nikita-s
+      - name:nixon-richard-m
+      src:
+        c: 1fcf70c7
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v09/d127: all'
+        - 'w.fursenko-khrushchevs-cold-war 271: all'
+- add:
+    entry:
+      id: cal.1960-05-07.soviet-union-u2-3
+      when: May 7–9
+      date: '1960-05-07'
+      thread: soviet-union-u2
+      also:
+      - europe-and-the-alliance
+      c: 'Macmillan, after State''s word of an unauthorized flight, to his diary: "The Americans have created a great folly."
+        He had suspended the British overflights weeks before. To Eisenhower, by word sent: take a leaf from the British book;
+        say nothing.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 276. Check: the day: the work puts it between State''s statement of May 7 and
+        Herter''s of May 9 (276). To check: Horne, *Macmillan, 1957–1986* (1989), 225–26 (cited by [[w.fursenko-khrushchevs-cold-war]],
+        276 n.46). See [[cal.1960-05-05.soviet-union]]. Names: Macmillan, Eisenhower.'
+      tags:
+      - name:macmillan-harold
+      - name:eisenhower-dwight-d
+      src:
+        c: d6163107
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 276: all'
+        - 'via w.fursenko-khrushchevs-cold-war 276 n.46: A-B'
+- add:
+    entry:
+      id: cal.1960-05-15.soviet-union-u2-2
+      when: May 15
+      date: '1960-05-15'
+      thread: soviet-union-u2
+      also:
+      - testing
+      - europe-and-the-alliance-france
+      c: 'Paris, 11 a.m. Eisenhower with Herter, Gates and others before the day''s meetings. Herter on the French disarmament
+        proposal: "embarrassing to the West"; no notice of it to NATO, the American position reserved. Gates: challenge de
+        Gaulle on it. Eisenhower: no disagreement in concept; the question is phasing.'
+      n: '[FRUS 1958–60, IX, doc. 159](https://history.state.gov/historicaldocuments/frus1958-60v09/d159). [[w.fursenko-khrushchevs-cold-war]],
+        280 (Herter: "embarrassing to the West"). Check: the work sets Herter''s words at the NATO meetings of late April
+        and early May (280); its note cites this memorandum (280 n.56). See [[cal.1960-05-15.soviet-union-u2]]. Names: Eisenhower,
+        Herter, Gates, de Gaulle.'
+      tags:
+      - name:eisenhower-dwight-d
+      - name:herter-christian-a
+      - name:gates-thomas-s-jr
+      - name:de-gaulle-charles
+      src:
+        c: 0f1ebe1f
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v09/d159: all'
+        - 'w.fursenko-khrushchevs-cold-war 280: C'
+- add:
+    entry:
+      id: cal.1960-05.soviet-union-u2
+      when: May, after the summit
+      date: 1960-05
+      thread: soviet-union-u2
+      also:
+      - press-and-broadcasting
+      c: 'Paris. Thompson, before leaving, with Sulzberger of the *Times*: Khrushchev, facing his military, needed a breakthrough
+        on Berlin; told in April the West would not give way, he looked for a pretext to call off the summit, and the U-2
+        gave it.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 289. Check: the day. To check: Sulzberger, *The Last of the Giants* (1970),
+        669–70 (cited by [[w.fursenko-khrushchevs-cold-war]], 289 n.85). See [[cal.1960-05-15.soviet-union]]. Names: Thompson,
+        Sulzberger, Khrushchev.'
+      tags:
+      - name:thompson-llewellyn-e
+      - name:sulzberger-c-l
+      - name:khrushchev-nikita-s
+      src:
+        c: 61a54fca
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 289: all'
+        - 'via w.fursenko-khrushchevs-cold-war 289 n.85: all'
+- add:
+    entry:
+      id: cal.1960-01.congo
+      when: Jan.
+      date: 1960-01
+      thread: congo
+      c: 'Brussels. The Congolese negotiators and the Belgian government agree: independence June 30, the first parliamentary
+        election in May.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 298. Check: the day. Independence: [[cal.1960-06-30.congo]].'
+      src:
+        c: 7fdb5999
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 298: all'
+- add:
+    entry:
+      id: cal.1960-03.cuba-2
+      when: Mar., after the 16th
+      date: 1960-03
+      thread: cuba
+      also:
+      - intelligence
+      c: 'The CIA, its assassination plans frozen, works on schemes to embarrass Castro: a cigar sprayed with LSD to be handed
+        him before a speech; a depilatory powder for his shoes, to make his beard fall out, a hotel attendant to be recruited
+        abroad.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 304. Check: the day: the work puts the schemes after the 5412 Committee of
+        Mar. 16 (304). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: S. Rep. No. 94-465, 72
+        (1975) (cited by [[w.fursenko-khrushchevs-cold-war]], 304 n.53). Names: Castro.'
+      tags:
+      - name:castro-fidel
+      src:
+        c: 25fe5d2c
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 304: all'
+        - 'via w.fursenko-khrushchevs-cold-war 304 n.53: all'
+- add:
+    entry:
+      id: cal.1960-05.cuba
+      when: May
+      date: 1960-05
+      thread: cuba
+      also:
+      - soviet-union
+      c: Cuba and the Soviet Union establish diplomatic relations; a Soviet embassy to open in Havana. The same month Castro
+        tells the American oil companies they must refine 300,000 tons of Soviet crude.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 304. Check: the day. Names: Castro.'
+      tags:
+      - name:castro-fidel
+      src:
+        c: e83d1f0e
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 304: all'
+- add:
+    entry:
+      id: cal.1960-07-25.congo-2
+      when: July 25
+      date: '1960-07-25'
+      thread: congo
+      also:
+      - soviet-union
+      c: 'New York. Lumumba at the UN: Hammarskjöld, the ambassadors, and Kuznetsov, the Soviet Deputy Foreign Minister.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 309–10. Check: the day: the work gives July 25, July 31 and Aug. 1 for his
+        talks with Soviet representatives, without saying which is which (310). To check: [[w.kalb-congo-cables]], 35 (cited
+        by [[w.fursenko-khrushchevs-cold-war]], 309 n.73). See [[cal.1960-07-27.congo]]. Names: Lumumba, Hammarskjöld, Kuznetsov.'
+      tags:
+      - name:lumumba-patrice
+      - name:hammarskjold-dag
+      - name:kuznetsov-vasily-v
+      src:
+        c: d5eebd10
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 309–10: all'
+- add:
+    entry:
+      id: cal.1960-07-31.congo
+      when: July 31
+      date: '1960-07-31'
+      thread: congo
+      also:
+      - soviet-union
+      c: Ottawa. Lumumba, the Canadian government no help, calls on Aroutunian, the Soviet Ambassador.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 310. Check: the day: the work gives July 25, July 31 and Aug. 1 for his talks
+        with Soviet representatives (310). To check: [[w.kalb-congo-cables]], 37–41 (cited by [[w.fursenko-khrushchevs-cold-war]],
+        310 n.76). See [[cal.1960-07-25.congo-2]]. Names: Lumumba.'
+      tags:
+      - name:lumumba-patrice
+      src:
+        c: fcdc96a8
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 310: all'
+- add:
+    entry:
+      id: cal.1960-08-01.congo-2
+      when: Aug. 1
+      date: '1960-08-01'
+      thread: congo
+      also:
+      - soviet-union
+      c: New York. Lumumba, back for more lobbying at the UN, with Kuznetsov again; then to Western Europe.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 310. Check: the day: the work gives July 25, July 31 and Aug. 1 for his talks
+        with Soviet representatives (310). To check: [[w.kalb-congo-cables]], 37–41 (cited by [[w.fursenko-khrushchevs-cold-war]],
+        310 n.76). See [[cal.1960-07-25.congo-2]]. Names: Lumumba, Kuznetsov.'
+      tags:
+      - name:lumumba-patrice
+      - name:kuznetsov-vasily-v
+      src:
+        c: eb3b4dd0
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 310: all'
+- add:
+    entry:
+      id: cal.1960-09-16.congo
+      when: Sept. 16
+      date: '1960-09-16'
+      thread: congo
+      c: 'Leopoldville. Mobutu''s troops chase the elected deputies out of the parliament building. Lumumba puts himself in
+        the UN''s protective custody: UN guards; free to walk about the city.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 316–17. See [[cal.1960-09-14.congo]]. Names: Mobutu, Lumumba.'
+      tags:
+      - name:mobutu-joseph-d
+      - name:lumumba-patrice
+      src:
+        c: 9516d06d
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 316–17: all'
+- add:
+    entry:
+      id: cal.1960-09.soviet-union-un
+      when: Sept.
+      date: 1960-09
+      thread: soviet-union-un
+      also:
+      - congo
+      c: 'Khrushchev on the news from the Congo, after Mobutu''s coup: "I spit on the UN. It''s not our organization. . .
+        . That good-for-nothing Ham is sticking his nose in important affairs which are none of his business. . . . We''ll
+        really make it hot for him."'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 317. Check: the day. To check: [[w.taubman-khrushchev]], 477 (cited by [[w.fursenko-khrushchevs-cold-war]],
+        317 n.112). See [[cal.1960-09-09.soviet-union-un]]. Names: Khrushchev, Hammarskjöld.'
+      tags:
+      - name:khrushchev-nikita-s
+      - name:hammarskjold-dag
+      src:
+        c: 9959b944
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 317: all'
+- add:
+    entry:
+      id: cal.1960-09.congo
+      when: Sept.
+      date: 1960-09
+      thread: congo
+      also:
+      - soviet-union
+      c: Moscow orders the Soviet pilots and planes, their flights for the Lumumbists already suspended, home with its diplomats.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 317. Check: the day. To check: [[w.hoskyns-congo-since-independence]], 248
+        (cited by [[w.fursenko-khrushchevs-cold-war]], 317 n.115). See [[cal.1960-09-14.congo]].'
+      src:
+        c: 039e276f
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 317: all'
+- add:
+    entry:
+      id: cal.1960-09-24.congo-lumumba
+      when: Sept. 24
+      date: '1960-09-24'
+      thread: congo-lumumba
+      c: Allen Dulles reaffirms the wish to see Lumumba eliminated "from any possibility of resuming [a] government position."
+      n: '[[w.fursenko-khrushchevs-cold-war]], 318. Made public: the Church Committee''s interim report, Nov. 20, 1975. To
+        check: S. Rep. No. 94-465, 24 (1975) (cited by [[w.fursenko-khrushchevs-cold-war]], 318 n.117). See [[cal.1960-09-19.congo]].
+        Names: Dulles, Lumumba.'
+      tags:
+      - name:dulles-allen-w
+      - name:lumumba-patrice
+      src:
+        c: 184fc923
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 318: all'
+        - 'via w.fursenko-khrushchevs-cold-war 318 n.117: all'
+- add:
+    entry:
+      id: cal.1960-08.cuba
+      when: Aug.
+      date: 1960-08
+      thread: cuba
+      c: Castro purges his own security service.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 320. Check: the day. To check: [[w.fursenko-one-hell-of-a]], 65–70 (cited by
+        [[w.fursenko-khrushchevs-cold-war]], 320 n.130). Names: Castro.'
+      tags:
+      - name:castro-fidel
+      src:
+        c: ea9a3f04
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 320: all'
+- add:
+    entry:
+      id: cal.1960-10-01.cuba-2
+      when: Oct. 1
+      date: '1960-10-01'
+      thread: cuba
+      c: Cuba begins a block surveillance system, on an East German model, neighbors to watch neighbors.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 320. To check: [[w.fursenko-one-hell-of-a]], 65–70 (cited by [[w.fursenko-khrushchevs-cold-war]],
+        320 n.130). See [[cal.1960-10-01.cuba]].'
+      src:
+        c: 719a209e
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 320: all'
+- add:
+    entry:
+      id: cal.1960-11.congo-lumumba
+      when: Nov., late
+      date: 1960-11
+      thread: congo-lumumba
+      c: After Lumumba's flight of Nov. 27, the CIA sends a contract killer, a European with a criminal record, to Stanleyville
+        with orders to murder him. UN headquarters orders its force to stand aside.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 321. Check: the day. See [[cal.1960-11-27.congo]]. Names: Lumumba.'
+      tags:
+      - name:lumumba-patrice
+      src:
+        c: f5f81ced
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 321: all'
+- add:
+    entry:
+      id: cal.1960-02.soviet-union-2
+      when: Feb.–Mar.
+      date: 1960-02
+      thread: soviet-union
+      also:
+      - south-asia
+      - indonesia
+      c: 'Khrushchev''s second trip to South and Southeast Asia: India, Burma, Indonesia, and Afghanistan, Mar. 2–5. With
+        Daud, a joint communiqué, Mar. 4: self-determination for the Pushtu people "a reasonable way."'
+      n: '[FRUS 1958–60, XV, doc. 159](https://history.state.gov/historicaldocuments/frus1958-60v15/d159) (editorial note:
+        Afghanistan, Mar. 2–5; the communiqué). [[w.fursenko-khrushchevs-cold-war]], 324 and n.2 (Burma and Indonesia; his
+        second visit to Burma). Check: the days in India, Burma and Indonesia. Names: Khrushchev.'
+      tags:
+      - name:khrushchev-nikita-s
+      src:
+        c: 5a9fc7b7
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v15/d159: A-B'
+        - 'w.fursenko-khrushchevs-cold-war 324: A'
+- add:
+    entry:
+      id: cal.1961-01.berlin-and-vienna
+      when: Jan.
+      date: 1961-01
+      thread: berlin-and-vienna
+      also:
+      - transition-and-staff
+      c: 'Hillenbrand, State''s German specialist, for the Acheson group on Berlin: "We can live with the status quo in Berlin
+        but can take no real initiative to change it for the better"; the Soviets and East Germans can change it for the worse
+        whenever they will bear the consequences. "the ineluctable facts of the situation strictly limit the practical courses
+        of actions open to the West."'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 342. Check: the day. To check: Hillenbrand''s paper, Jan. 1961, as quoted in
+        David G. Coleman, "The Greatest Issue of All: Berlin, National Security and the Cold War" (PhD diss., University of
+        Queensland, 2000), 236–37 (cited by [[w.fursenko-khrushchevs-cold-war]], 342 nn.18–19). Names: Hillenbrand, Acheson.'
+      tags:
+      - name:hillenbrand-martin-j
+      - name:acheson-dean-g
+      src:
+        c: e25d2d3c
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 342: all'
+        - 'via w.fursenko-khrushchevs-cold-war 342 n.18: all'
+- add:
+    entry:
+      id: cal.1960-11.transition-and-staff-4
+      when: Nov.–Jan.
+      date: 1960-11
+      thread: transition-and-staff
+      also:
+      - soviet-union
+      c: 'The transition''s experts on relations with the Soviet Union: more cultural exchanges; trade beyond crab meat; cooperation
+        in space. No new idea on Berlin.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 342. Check: the days and the groups: the work gives the ten weeks of the transition
+        only (342).'
+      src:
+        c: 642a4510
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 342: all'
+- add:
+    entry:
+      id: cal.1961-04-13.cuba-6
+      when: Apr. 13
+      date: '1961-04-13'
+      thread: cuba
+      c: Havana. El Encanto, Cuba's largest department store, destroyed by arson, in a month of bombings and fires.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 346. To check: Canadian Embassy, Havana, to Ottawa, Apr. 26, 1961, in "Bay
+        of Pigs 40 Days After" (briefing book, Havana conference, 2001) (cited by [[w.fursenko-khrushchevs-cold-war]], 346
+        n.41). See [[cal.1961-04-14.cuba-2]].'
+      src:
+        c: e5105295
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 346: all'
+        - 'via w.fursenko-khrushchevs-cold-war 346 n.41: all'
+- add:
+    entry:
+      id: cal.1961-04.berlin-and-vienna-2
+      when: Apr.
+      date: 1961-04
+      thread: berlin-and-vienna
+      c: 'West Berlin''s registration center: twice as many refugees from East Germany as in April 1960.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 353. Check: the figures.'
+      src:
+        c: 7d830455
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 353: all'
+- add:
+    entry:
+      id: cal.1961-07.testing-2
+      when: July, early
+      date: 1961-07
+      thread: testing
+      also:
+      - soviet-union
+      c: 'Geneva. Tsarapkin, the Soviet negotiator at the test ban talks: Moscow considers the talks a waste of time, given
+        American attitudes.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 368. Check: the day. To check: [[w.dallek-unfinished-life]], 418 (cited by
+        [[w.fursenko-khrushchevs-cold-war]], 368 n.7). Names: Tsarapkin.'
+      tags:
+      - name:tsarapkin-semen-k
+      src:
+        c: 84bfe3aa
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 368: all'
+- add:
+    entry:
+      id: cal.1961-05.berlin-and-vienna
+      when: May
+      date: 1961-05
+      thread: berlin-and-vienna
+      also:
+      - soviet-union
+      - intelligence
+      c: The Kremlin has copies of the papers France delivered to NATO on the allies' positions on Berlin; the Presidium also
+        reads the West German Ambassador's correspondence with Bonn.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 374. Check: the day: the work cites the Presidium''s stenogram of May 26 for
+        the intelligence (374 nn.39–40). To check: the stenogram, May 26, 1961 (cited by [[w.fursenko-khrushchevs-cold-war]],
+        374 nn.39–40). Discussed: [[cal.1961-05-26.soviet-union]].'
+      src:
+        c: 4c7af422
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 374: all'
+        - 'via w.fursenko-khrushchevs-cold-war 374 n.39: all'
+- add:
+    entry:
+      id: cal.1961-06.soviet-union
+      when: June, late
+      date: 1961-06
+      thread: soviet-union
+      also:
+      - berlin-and-vienna
+      c: The Presidium sets a meeting of the Warsaw Pact for Aug. 3 on Berlin.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 375. Check: the day. The meeting: [[cal.1961-08-03.soviet-union]].'
+      src:
+        c: 4a332396
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 375: all'
+- add:
+    entry:
+      id: cal.1961-08.berlin-and-vienna-2
+      when: Aug.
+      date: 1961-08
+      thread: berlin-and-vienna
+      c: 'Kennan, back from Belgrade, to Schlesinger: "I do not propose to let the future of mankind be settled, or ended,
+        by a group of men operating on the basis of limited perspectives and short-run calculations. I figure that the only
+        thing I have left in life is to do everything I can to stop the war."'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 387. Check: the day. To check: [[w.schlesinger-thousand-days-1965]], 397 (cited
+        by [[w.fursenko-khrushchevs-cold-war]], 387 n.96). Names: Kennan, Schlesinger.'
+      tags:
+      - name:kennan-george-f
+      - name:schlesinger-arthur-m-jr
+      src:
+        c: f5515012
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 387: all'
+- add:
+    entry:
+      id: cal.1961-08-14.berlin-and-vienna-3
+      when: Aug. 14
+      date: '1961-08-14'
+      thread: berlin-and-vienna
+      also:
+      - soviet-union
+      c: 'Rusk to Kennan: approach the Soviet Ambassador at Belgrade for an opening to Khrushchev. Moscow not ready.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 388. To check: Rusk to Kennan, Aug. 14, 1961, in Rolf Steininger, *Der Mauerbau*
+        (2001), 267–68 (cited by [[w.fursenko-khrushchevs-cold-war]], 388 n.3). See [[cal.1961-09.laos]]. Names: Rusk, Kennan,
+        Khrushchev.'
+      tags:
+      - name:rusk-dean
+      - name:kennan-george-f
+      - name:khrushchev-nikita-s
+      src:
+        c: b70c6030
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 388: all'
+        - 'via w.fursenko-khrushchevs-cold-war 388 n.3: A'
+- add:
+    entry:
+      id: cal.1961-07.berlin-and-vienna-2
+      when: July, late
+      date: 1961-07
+      thread: berlin-and-vienna
+      also:
+      - europe-and-the-alliance
+      c: 'Brussels. Spaak, Belgium''s Foreign Minister, by way of the Polish Embassy, first through Lambiotte, a Belgian official,
+        then in person: a settlement possible, a free West Berlin. The first former NATO official to say so.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 388 and n.5. Check: the day. To check: memcon, Firyubin and the Polish Ambassador,
+        July 29, 1961, 0570, 7/5/14, MFA (cited by [[w.fursenko-khrushchevs-cold-war]], 388 n.5). Names: Spaak.'
+      tags:
+      - name:spaak-paul-henri
+      src:
+        c: 4ca124aa
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 388: all'
+        - 'via w.fursenko-khrushchevs-cold-war 388 n.5: all'
+- add:
+    entry:
+      id: cal.1961-07-29.berlin-and-vienna-2
+      when: July 29
+      date: '1961-07-29'
+      thread: berlin-and-vienna
+      also:
+      - soviet-union
+      c: Moscow. The Polish Ambassador, at his asking, reports the Belgian feelers on West Berlin to Firyubin, the Deputy
+        Foreign Minister.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 388 n.5. To check: memcon, Firyubin and the Polish Ambassador, July 29, 1961,
+        0570, 7/5/14, MFA (cited by [[w.fursenko-khrushchevs-cold-war]], 388 n.5). See [[cal.1961-07.berlin-and-vienna-2]].'
+      src:
+        c: d0aa8390
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 388 n.5: all'
+        - 'via w.fursenko-khrushchevs-cold-war 388 n.5: all'
+- add:
+    entry:
+      id: cal.1961-09.europe-and-the-alliance
+      when: Sept., end
+      date: 1961-09
+      thread: europe-and-the-alliance
+      also:
+      - berlin-and-vienna
+      c: 'Spaak to a special session of the NATO Council on his talk with Khrushchev: no deadline in mind; Khrushchev "preferred
+        delayed negotiations to a hasty war."'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 394. Check: the day. To check: Sydney Gruson, "Spaak Says Soviet Backs Wide
+        Talks with No Deadline," *New York Times*, Sept. 25, 1961; Spaak, *Combats inachevés* (1969), II, 338 (cited by [[w.fursenko-khrushchevs-cold-war]],
+        394 n.29). See [[cal.1961-09.berlin-and-vienna-2]]. Names: Spaak, Khrushchev.'
+      tags:
+      - name:spaak-paul-henri
+      - name:khrushchev-nikita-s
+      src:
+        c: 1b5201a7
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 394: all'
+        - 'via w.fursenko-khrushchevs-cold-war 394 n.29: all'
+- add:
+    entry:
+      id: cal.1961-07-05.laos
+      when: July 5–6
+      date: '1961-07-05'
+      thread: laos
+      also:
+      - china
+      - soviet-union
+      c: 'Moscow. Chen Yi, China''s Foreign Minister, with Gromyko: the fear that the Soviets will give way on Laos for a
+        better deal in Central Europe.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 394. To check: memcons, Chen Yi and Gromyko, July 5 and 6, 1961, 0570, 7/5/14,
+        MFA (cited by [[w.fursenko-khrushchevs-cold-war]], 394 n.32). Names: Chen Yi, Gromyko.'
+      tags:
+      - name:chen-yi
+      - name:gromyko-andrei
+      src:
+        c: b792e12d
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 394: all'
+        - 'via w.fursenko-khrushchevs-cold-war 394 n.32: all'
+- add:
+    entry:
+      id: cal.1961-11-11.cuba
+      when: Nov. 11
+      date: '1961-11-11'
+      thread: cuba
+      also:
+      - soviet-union
+      c: 'Alekseyev, the KGB''s man in Havana, to Moscow: "From reliable sources, the U.S. is preparing [an] intervention
+        against Cuba for the end of November or the beginning of December and, from other data, for January 1962." Castro''s
+        arms request stays tabled.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 396. Check: the work sets the cable among the events of September (396); its
+        note dates it Nov. 11 (396 n.42). To check: Alekseyev to Moscow, Nov. 11, 1961, SVR (cited by [[w.fursenko-khrushchevs-cold-war]],
+        396 n.42). See [[cal.1961-09-20.cuba-2]]. Names: Castro.'
+      tags:
+      - name:castro-fidel
+      src:
+        c: 998d4fa3
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 396: all'
+        - 'via w.fursenko-khrushchevs-cold-war 396 n.42: A'
+- add:
+    entry:
+      id: cal.1961-11.laos
+      when: Nov.
+      date: 1961-11
+      thread: laos
+      also:
+      - china
+      c: Peking intercedes with the Pathet Lao and scuttles an agreement for a coalition under Souvanna Phouma.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 411. Check: the day. To check: Marek Thee, *Notes of a Witness* (1973), 180–205;
+        spravka, before Souphanouvong''s visit to the USSR, Jan. 26, 1962, 0570, 8/8/15, MFA (cited by [[w.fursenko-khrushchevs-cold-war]],
+        411 n.8). Names: Souvanna Phouma.'
+      tags:
+      - name:souvanna-phouma
+      src:
+        c: 4ef901eb
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 411: all'
+        - 'via w.fursenko-khrushchevs-cold-war 411 n.8: all'
+- add:
+    entry:
+      id: cal.1962-01-05.berlin-and-vienna
+      when: Jan. 5
+      date: '1962-01-05'
+      thread: berlin-and-vienna
+      also:
+      - soviet-union
+      c: 'Thompson, from Moscow, to Kennan, by letter: given real improvement on access, Washington could go much further
+        with its allies; "The difficulty here of course is that the Soviets will almost never reveal their side of a bargain
+        first." Sharp differences in the Soviet leadership.'
+      n: '[FRUS 1961–63, V, doc. 142](https://history.state.gov/historicaldocuments/frus1961-63v05/d142). [[w.fursenko-khrushchevs-cold-war]],
+        418 (the difficulty). Names: Thompson, Kennan.'
+      tags:
+      - name:thompson-llewellyn-e
+      - name:kennan-george-f
+      src:
+        c: e07924dd
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v05/d142: all'
+        - 'w.fursenko-khrushchevs-cold-war 418: B'
+- add:
+    entry:
+      id: cal.1962-02.soviet-union
+      when: Feb.
+      date: 1962-02
+      thread: soviet-union
+      also:
+      - defense
+      c: 'Khrushchev briefed: the R-16 no match for the Minuteman, hours to ready against minutes. The chief of the rocket
+        forces: "Before we managed to move the R-16 and lift it into place, nothing would be left of us." Sergei Khrushchev
+        there.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 429. Check: the day. To check: Sergei Khrushchev, *Nikita Khrushchev and the
+        Creation of a Superpower* (2000), 468–82, 474 (cited by [[w.fursenko-khrushchevs-cold-war]], 429 nn.54–55). Names:
+        Khrushchev.'
+      tags:
+      - name:khrushchev-nikita-s
+      src:
+        c: 72f869ab
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 429: all'
+        - 'via w.fursenko-khrushchevs-cold-war 429 n.54: all'
+- add:
+    entry:
+      id: cal.1962-01.soviet-union
+      when: Jan.
+      date: 1962-01
+      thread: soviet-union
+      also:
+      - defense
+      c: Early in the year, the first of a few dozen R-16 ICBMs deployed.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 430. Check: the months.'
+      src:
+        c: 2db91d95
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 430: all'
+- add:
+    entry:
+      id: cal.1962-07-03.missile-crisis-anadyr
+      when: July 3
+      date: '1962-07-03'
+      thread: missile-crisis-anadyr
+      also:
+      - cuba
+      - soviet-union
+      c: Moscow. Raúl Castro, Cuba's defense minister, with Khrushchev, the first of two talks, to settle the Soviet commitment
+        in detail. General Dementyev, head of the Soviet military mission, raises again the U-2s.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 444 (no Russian notes found; the Cuban record sealed). See [[cal.1962-07.missile-crisis]].
+        Names: Raúl Castro, Khrushchev.'
+      tags:
+      - name:castro-raul
+      - name:khrushchev-nikita-s
+      src:
+        c: 129ff569
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 444: all'
+- add:
+    entry:
+      id: cal.1962-07-08.missile-crisis-anadyr
+      when: July 8
+      date: '1962-07-08'
+      thread: missile-crisis-anadyr
+      also:
+      - cuba
+      - soviet-union
+      c: Moscow. Raúl Castro with Khrushchev, the second talk.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 444 (no Russian notes found; the Cuban record sealed). See [[cal.1962-07-03.missile-crisis-anadyr]].
+        Names: Raúl Castro, Khrushchev.'
+      tags:
+      - name:castro-raul
+      - name:khrushchev-nikita-s
+      src:
+        c: 9f60b3ed
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 444: all'
+- add:
+    entry:
+      id: cal.1962-10-24.missile-crisis-excomm
+      when: Oct. 24
+      date: '1962-10-24'
+      thread: missile-crisis-excomm
+      also:
+      - berlin-and-vienna
+      c: 'The ExComm, morning. McNamara on the Navy''s rules for Soviet submarines: practice depth charges the warning to
+        surface. Kennedy''s "time of greatest worry," by Robert Kennedy''s notes. Kennedy would rather the first ship attacked
+        be a merchant ship; McNamara against deferring; the Navy''s instructions left. Kennedy on a Soviet reply at Berlin:
+        "no movement in or out of Berlin—a blockade."'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 481–82. To check: [Executive Committee Meeting of the National Security Council](https://millercenter.org/the-presidency/secret-white-house-tapes/executive-committee-meeting-national-security-council-4),
+        10 a.m., Tape 36.3 (Miller Center); [[w.presidential-recordings]], III, 191–95 (cited by [[w.fursenko-khrushchevs-cold-war]],
+        481 nn.58–62); [[w.schlesinger-robert-kennedy-and-his]], 514 (cited by [[w.fursenko-khrushchevs-cold-war]], 481 n.59).
+        See [[cal.1962-10-24.missile-crisis]]. Names: McNamara, Kennedy, Robert Kennedy.'
+      tags:
+      - name:mcnamara-robert-s
+      - name:kennedy-john-f
+      - name:kennedy-robert-f
+      src:
+        c: fd12ca75
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 481–82: all'
+- add:
+    entry:
+      id: cal.1962-10.south-asia
+      when: Oct.
+      date: 1962-10
+      thread: south-asia
+      also:
+      - soviet-union
+      - china
+      c: 'Moscow cancels India''s order for twelve MiG-21s, due in early December. The *Washington Post*, Oct. 30: "MiG Deal
+        with India Appears Off."'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 497. Check: the day: the work cites the Presidium''s protocols of Oct. 11 and
+        14 (497 n.21) and the *Post* of Oct. 30 (n.22). To check: Protocols 58 and 59, Oct. 11 and 14, 1962, AOK (cited by
+        [[w.fursenko-khrushchevs-cold-war]], 497 n.21); "MiG Deal with India Appears Off," *Washington Post*, Oct. 30, 1962
+        (cited by [[w.fursenko-khrushchevs-cold-war]], 497 n.22). See [[cal.1962-10-11.south-asia]].'
+      src:
+        c: 8f845cb9
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 497: all'
+        - 'via w.fursenko-khrushchevs-cold-war 497 n.21: A'
+        - 'via w.fursenko-khrushchevs-cold-war 497 n.22: B'
+- add:
+    entry:
+      id: cal.1962-11.south-asia
+      when: Nov., early
+      date: 1962-11
+      thread: south-asia
+      also:
+      - soviet-union
+      - china
+      c: 'Khrushchev to Nehru, a public letter: Moscow must go on supporting the Chinese position on the border.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 497. Check: the day: the *Times* reported it Nov. 4 (497 n.23). To check: A.
+        M. Rosenthal, "India''s Hope for Support by Soviet All but Ended," *New York Times*, Nov. 4, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]],
+        497 n.23). See [[cal.1962-10.south-asia]]. Names: Khrushchev, Nehru.'
+      tags:
+      - name:khrushchev-nikita-s
+      - name:nehru-jawaharlal
+      src:
+        c: 120b8d3d
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 497: all'
+        - 'via w.fursenko-khrushchevs-cold-war 497 n.23: all'
+- add:
+    entry:
+      id: cal.1962-12.china
+      when: Dec.
+      date: 1962-12
+      thread: china
+      also:
+      - soviet-union
+      c: Khrushchev calls on Peking to end the daily criticism of the Kremlin in its papers; the Soviet papers to do the same.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 510. Check: the year: the text prints December 1963 (510); its context is December
+        1962, before the Presidium of Jan. 29, 1963 (510 n.61). Names: Khrushchev.'
+      tags:
+      - name:khrushchev-nikita-s
+      src:
+        c: 51f58c3e
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 510: all'
+- add:
+    entry:
+      id: cal.1963-03.soviet-union
+      when: Mar., early
+      date: 1963-03
+      thread: soviet-union
+      c: A collection of Khrushchev's speeches on agriculture published without the "catch and surpass" campaign of 1957.
+        Meat production in 1962 reported at 40 percent of what he had called for.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 513. Check: the day: the *Times* reported it Mar. 4 (513 n.78). To check: Harry
+        Schwartz, "Soviet Wipes Out Promise to Raise Meat Allowances," *New York Times*, Mar. 4, 1963 (cited by [[w.fursenko-khrushchevs-cold-war]],
+        513 n.78). See [[cal.1963-02-27.soviet-union]]. Names: Khrushchev.'
+      tags:
+      - name:khrushchev-nikita-s
+      src:
+        c: 7f80bb80
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 513: all'
+        - 'via w.fursenko-khrushchevs-cold-war 513 n.78: all'
+- add:
+    entry:
+      id: cal.1963-03.soviet-union-2
+      when: Mar., mid-month
+      date: 1963-03
+      thread: soviet-union
+      c: Khrushchev fires his Minister of Agriculture.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 513. Check: the day and the minister''s name. Names: Khrushchev.'
+      tags:
+      - name:khrushchev-nikita-s
+      src:
+        c: c53f41a2
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 513: all'
+- add:
+    entry:
+      id: cal.1963-01.soviet-union
+      when: Jan.–Mar.
+      date: 1963-01
+      thread: soviet-union
+      c: 'Khrushchev''s three major addresses on ideology: bourgeois influences on Soviet life.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 514. Check: the days. To check: Harrison E. Salisbury, "The Khrushchev Line,"
+        *New York Times*, Mar. 12, 1963 (cited by [[w.fursenko-khrushchevs-cold-war]], 514 n.79). Names: Khrushchev.'
+      tags:
+      - name:khrushchev-nikita-s
+      src:
+        c: f00bf5ed
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 514: all'
+        - 'via w.fursenko-khrushchevs-cold-war 514 n.79: all'
+- add:
+    entry:
+      id: cal.1963-05.soviet-union
+      when: May
+      date: 1963-05
+      thread: soviet-union
+      c: 'Late spring. Kozlov, once thought Khrushchev''s successor, suffers a major stroke. Khrushchev to his son: "I''ve
+        gotten old"; he means to stay on to the Twenty-third Congress.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 529. Check: the day. To check: Sergei Khrushchev, *Khrushchev on Khrushchev*
+        (1990), 30–32 (cited by [[w.fursenko-khrushchevs-cold-war]], 529 n.1). Names: Kozlov, Khrushchev.'
+      tags:
+      - name:kozlov-frol-r
+      - name:khrushchev-nikita-s
+      src:
+        c: eb3de81f
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 529: all'
+        - 'via w.fursenko-khrushchevs-cold-war 529 n.1: all'
+- add:
+    entry:
+      id: cal.1964-01.china
+      when: Jan.
+      date: 1964-01
+      thread: china
+      also:
+      - soviet-union
+      c: 'Khrushchev to most of the world''s leaders: boundary disputes to be settled peacefully. Peking ignores it.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 530. Check: the day. Names: Khrushchev.'
+      tags:
+      - name:khrushchev-nikita-s
+      src:
+        c: 33732e8c
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 530: all'
+- add:
+    entry:
+      id: cal.1964-10.soviet-union-2
+      when: Oct., first week
+      date: 1964-10
+      thread: soviet-union
+      c: Khrushchev, warned of a plot, keeps to his holiday at Pitsunda; after talking with Galyukov he invites Mikoyan to
+        join him.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 535. Check: the day. Names: Khrushchev, Mikoyan.'
+      tags:
+      - name:khrushchev-nikita-s
+      - name:mikoyan-anastas
+      src:
+        c: b5c2cdae
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 535: all'
+- add:
+    entry:
+      id: cal.1964-10.vietnam-hanoi
+      when: Oct., after the 16th
+      date: 1964-10
+      thread: vietnam-hanoi
+      also:
+      - soviet-union
+      c: 'Paris. North Vietnam''s representative to a French official: Soviet policy in Southeast Asia long misinformed by
+        Khrushchev''s "lack of interest."'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 539. Check: the day: reported from Paris Oct. 24 (539 n.35). To check: H. A.
+        F. Hohler, British Embassy, Paris, Oct. 24, 1964, FO 371/177667, National Archives (UK) (cited by [[w.fursenko-khrushchevs-cold-war]],
+        539 n.35). Names: Khrushchev.'
+      tags:
+      - name:khrushchev-nikita-s
+      src:
+        c: 6e73882e
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 539: all'
+        - 'via w.fursenko-khrushchevs-cold-war 539 n.35: all'
+- add:
+    entry:
+      id: cal.1963-07.berlin-and-vienna
+      when: July
+      date: 1963-07
+      thread: berlin-and-vienna
+      also:
+      - soviet-union
+      c: Summer. Kroll, the West German Ambassador, in the Soviet Union; Khrushchev gives him a personal letter for Adenauer.
+        Adenauer never answers.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 621 n.111. Check: the days. To check: Smirnov to MFA, June 14, 1963, 0757,
+        8/35/4–5, MFA (cited by [[w.fursenko-khrushchevs-cold-war]], 621 n.111). See [[cal.1963-06-13.soviet-union]]. Names:
+        Kroll, Khrushchev, Adenauer.'
+      tags:
+      - name:kroll-hans-s
+      - name:khrushchev-nikita-s
+      - name:adenauer-konrad
+      src:
+        c: d99ed4bd
+        rows:
+        - 'w.fursenko-khrushchevs-cold-war 621 n.111: all'
