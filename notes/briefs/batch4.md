@@ -76,4 +76,4 @@ The owner put some seventy books into the shared Drive folder on Nov. 5, 2026, m
 | 54 | harrison-driving | w.harrison-driving-the-soviets-up (10 to check) | 1qdkFnU9EFjshJUBA1iuwhlPt5VY-euY- (2 MB) |
 | 55 | pair-garbade-goldwater | w.garbade-after-the-accord (1 to check); w.goldwater-with-no-apologies (9 to check) | 1xYf4QjO7whceduc2yGvIwAUg43MGonY_ (8 MB); 1QXL9uw3Q6MpJ-ziwSw9XAYULwjBqoVHA (21 MB) |
 | 56 | pair-stein-trachtenberg | w.stein-presidential-economics (1 to check); w.trachtenberg-constructed-peace (8 to check) | 1AjCJAHMIwrl2XLSEYQNKvXOjOFZeJ3v3 (26 MB); 1UotA9yg8Om4DJzTHrvjCDgzqvuLU6-Ji (11 MB) |
-| 57 | pair-W:w.steinberg-baker | NEW: w.steinberg-sam-rayburn (Alfred Steinberg, *Sam Rayburn: A Biography*, 1975) (0 to check); w.baker-wheeling-and-dealing (6 to check) | 1Happ-gVQIsyGce90BJKH-qQ4hTgG1u3a (29 MB); 1BI3MROhq4uoUY2iT3l33xz4EU6HZ0jwS (30 MB) |
+| 57 | pair-steinberg-baker | NEW: w.steinberg-sam-rayburn (Alfred Steinberg, *Sam Rayburn: A Biography*, 1975) (0 to check); w.baker-wheeling-and-dealing (6 to check) | 1Happ-gVQIsyGce90BJKH-qQ4hTgG1u3a (29 MB); 1BI3MROhq4uoUY2iT3l33xz4EU6HZ0jwS (30 MB) |
