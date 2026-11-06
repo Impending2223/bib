@@ -469,6 +469,13 @@ entries:
         - 'w.staaveren-u-s-air-force 142: all'
         - 'via x.1966-04-08.msg-secdef-to-comusmacv-081853z-apr-66: ?'
     tags: [name:mcconnell-john-p]
+  - id: cal.1966-05-09.open-housing
+    when: May 9
+    date: '1966-05-09'
+    thread: open-housing
+    c: 'Chicago. SCLC''s workshop for some four hundred Blackstone Rangers: a film of the Watts riot; Bevel: the gangs are playing Daley''s game, "fighting each other while he gets free."'
+    n: '[[w.ralph-northern-protest]], 94. Names: Daley.'
+    tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1966-05-10.open-housing-ca
     when: May 10
     date: '1966-05-10'
@@ -648,6 +655,14 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 359 n: all'
         - 'via x.1966-05-11.westmoreland-to-sharp-mac-3797-may: all'
     tags: [name:westmoreland-william, name:sharp-u-s-grant]
+  - id: cal.1966-05-11.open-housing
+    when: May 11
+    date: '1966-05-11'
+    thread: open-housing
+    also: [king]
+    c: 'Chicago. King with a large gathering of South Side gang members: to help in the coming voter registration and to end the gang wars.'
+    n: '[[w.ralph-northern-protest]], 94. See [[cal.1966-05-09.open-housing]]. Names: King.'
+    tags: [state:il, city:chicago, name:king-martin-luther-jr]
   - id: cal.1966-05-12.vietnam-congress
     when: May 12
     date: '1966-05-12'
@@ -843,12 +858,13 @@ entries:
     thread: open-housing
     also: [king]
     c: Chicago. Blackstone Rangers and East Side Disciples exchange gunfire in a YMCA before King's speech there; King defends Bevel's workshops with the gangs.
-    n: '[[w.branch-at-canaans-edge]], 467. To check: [[w.ralph-northern-protest]], 94–95 (cited by [[w.branch-at-canaans-edge]], 467); [[w.garrow-bearing-the-cross]], 471 (cited by [[w.branch-at-canaans-edge]], 467); [[w.cohen-american-pharaoh]], 378–79 (cited by [[w.branch-at-canaans-edge]], 467); Chicago LHM dated May 23, 1966, FK-2541 (cited by [[w.branch-at-canaans-edge]], 467). Names: King.'
+    n: '[[w.branch-at-canaans-edge]], 467; [[w.ralph-northern-protest]], 94–95. To check: [[w.garrow-bearing-the-cross]], 471 (cited by [[w.branch-at-canaans-edge]], 467); [[w.cohen-american-pharaoh]], 378–79 (cited by [[w.branch-at-canaans-edge]], 467); Chicago LHM dated May 23, 1966, FK-2541 (cited by [[w.branch-at-canaans-edge]], 467). Names: King.'
     src:
       c: b656ffc4
       rows:
         - 'w.branch-at-canaans-edge 467: all'
         - 'via x.1966-05-23.chicago-lhm-dated-may-23-1966: all'
+        - 'w.ralph-northern-protest 94–95: A-B'
     tags: [name:king-martin-luther-jr, state:il, city:chicago]
   - id: cal.1966-05-13.vietnam-congress-2
     when: May 13
@@ -2162,11 +2178,12 @@ entries:
     thread: open-housing
     also: [king]
     c: 'Chicago. King: a coalition of some 163 organizations to begin the movement''s "action phase" against the slums; a first march down State Street June 26 to present the demands, "if I have to tack them on the door."'
-    n: '[[w.branch-at-canaans-edge]], 469. To check: [[w.anderson-confronting-the-color-line]], 193–94 (cited by [[w.branch-at-canaans-edge]], 469); [[w.garrow-bearing-the-cross]], 472 (cited by [[w.branch-at-canaans-edge]], 469). Names: King.'
+    n: '[[w.branch-at-canaans-edge]], 469; [[w.ralph-northern-protest]], 95–96 (the rally set for June 26, then put off to July 10). To check: [[w.anderson-confronting-the-color-line]], 193–94 (cited by [[w.branch-at-canaans-edge]], 469); [[w.garrow-bearing-the-cross]], 472 (cited by [[w.branch-at-canaans-edge]], 469). Names: King.'
     src:
       c: d35e6032
       rows:
         - 'w.branch-at-canaans-edge 469: all'
+        - 'w.ralph-northern-protest 95–96: ?'
     tags: [name:king-martin-luther-jr, state:il, city:chicago]
   - id: cal.1966-05-27.vietnam-5
     when: May 27
@@ -2624,3 +2641,17 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt12/pdf/GPO-CRECB-1966-pt12-2-2.pdf#page=8: B'
         - 'w.gibbons-u-s-government-and IV, 246 n.96: all'
     tags: [name:javits-jacob-k, name:long-russell-b]
+  - id: cal.1966-05.open-housing
+    when: May, mid
+    date: 1966-05
+    thread: open-housing
+    c: 'Oak Park, Ill. Project Open Communities, the AFSC''s: after two months'' testing of real estate offices, marches every Saturday, fifty to a hundred, to the offices and the village hall for a fair housing ordinance; Bevel, LaFayette and Jesse Jackson join them. Through July.'
+    n: '[[w.ralph-northern-protest]], 100–101, 125. Check: the day.'
+    tags: [state:il, city:oak-park]
+  - id: cal.1966-05.desegregation-schools
+    when: May, late
+    date: 1966-05
+    thread: desegregation-schools
+    c: Chicago. Willis announces he will retire early.
+    n: '[[w.ralph-northern-protest]], 98. Check: the day. Names: Willis.'
+    tags: [state:il, city:chicago, name:willis-benjamin-c]

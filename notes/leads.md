@@ -441,6 +441,16 @@ CQ Weekly Report, 1968-06-07:
 ### Thomas, *Robert Kennedy* (batch 3, fifth run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
 - Bedford-Stuyvesant: IBM's plant; Frank Thomas named director; the Pei and Johnson superblock (Thomas, 326, 341-42; Goldman, 1969, 26-32).
 
+### Ralph, *Northern Protest* (batch 4, Nov. 5, 2026; notes/book-checks/ralph-northern-protest.md)
+
+- The Webb suit's filing (1961) and its docket: Ralph gives no day (15); the federal court's records. Concerns cal.1961-09.desegregation-schools.
+- The Illinois fair employment practices act of 1961, the Chicago Fair Housing Ordinance of Sept. 1963 (the City Council's *Journal of Proceedings*), Kerner's executive order on housing (July 1966; Kerner papers, ISHL): each needs its day and text. Concerns the new entries of Sept. 1963 and July 14, 1966.
+- The Illinois Rally for Civil Rights, Soldier Field, 1964 (King to 75,000): Ralph dates it to the year only (39, 48).
+- The Chicago bond referendum of June 1966: the day and the result (the Board of Election Commissioners' canvass). Concerns cal.1966-06.state-and-city-finance.
+- The two Negro independents elected to the State Senate, Nov. 1966, and the two to the City Council, early 1967: names and counts (Ralph 230 names none). Concerns the new entries of Nov. 8, 1966 and Feb. 28, 1967.
+- CCCO's founding (1962), Doris Baker's firing and TFIS (1961): the year only (9, 17).
+- The Gautreaux suit (1966): filing day (228).
+
 ## National
 
 ### The building trades (Nov. 4, 2026; inbox/2026-11-04-building-trades.yaml)
@@ -1462,7 +1472,13 @@ CQ Weekly Report, 1968-03-01:
 - proposed for Part III (R13), where no entry is: Jimmy Breslin, Richard Harwood (*Washington Post*), Warren Rogers (*Look*), Jayne Ikard (*Newsweek*), Martin Nolan (*Boston Globe*), Hays Gorey (*Time*), Joseph Kraft, Jack Newfield (*Village Voice*).
 
 ### Wells, *The War Within* (batch 4, Nov. 5, 2026; notes/book-checks/wells-war-within.md)
+
 - the witness `x.1965-04-14.bundy-to-johnson-left-wing-student-protest` (Wells, for cal.1965-04-14.students) may be one memorandum with `x.1965-04-14.mcgeorge-bundy-to-johnson-further-peace`: read both citations against the LBJ Library's file and join them by `amend:` if one document.
+
+### Ralph, *Northern Protest* (batch 4, Nov. 5, 2026; notes/book-checks/ralph-northern-protest.md)
+
+- Katzenbach's call to King on the marches and Douglas's race (183): undated; LBJ Library.
+- Carmichael's "a sham" on the 1966 bill (175): undated.
 
 ## Foreign
 

@@ -468,12 +468,13 @@ entries:
     thread: king
     also: [states-and-cities]
     c: 'Chicago, the Palmer House. King: he will "spend some time in Chicago, beginning July 24"; many "persons of good will" do not yet understand the movement, "a great job of interpretation to be done." Al Raby has asked the Office of Education to withhold federal aid from Chicago''s schools under Title VI, the first such complaint against a Northern district.'
-    n: '[[w.branch-at-canaans-edge]], 250–52. To check: *Chicago Tribune*, July 7, 1965, 3; "Investigator''s Report/Intelligence Division/Chicago Police Department," July 7, 1965, file 951, Red Squad files, Chicago Historical Society (cited by [[w.branch-at-canaans-edge]], 250). See [[cal.1965-06-10.desegregation-schools]]. Check: the day of Raby''s complaint; Branch gives it as "just filed." Names: Martin Luther King, Raby.'
+    n: '[[w.branch-at-canaans-edge]], 250–52; [[w.ralph-northern-protest]], 28 (King''s announcement; the Coordinating Council''s Title VI complaint). To check: *Chicago Tribune*, July 7, 1965, 3; "Investigator''s Report/Intelligence Division/Chicago Police Department," July 7, 1965, file 951, Red Squad files, Chicago Historical Society (cited by [[w.branch-at-canaans-edge]], 250). See [[cal.1965-06-10.desegregation-schools]]. Check: the day of Raby''s complaint; Branch gives it as "just filed." Names: Martin Luther King, Raby.'
     src:
       c: 0bda606f
       rows:
         - 'w.branch-at-canaans-edge 250–52: all'
         - 'via w.branch-at-canaans-edge 250 n.king-parried-both: all'
+        - 'w.ralph-northern-protest 28: ?'
     tags: [name:king-martin-luther-jr, name:raby-albert, state:il, city:chicago]
   - id: cal.1965-07-07.voting-rights-2
     when: July 7
@@ -2119,13 +2120,14 @@ entries:
     thread: king
     also: [states-and-cities]
     c: 'King in Chicago: to 220 clergy at an interfaith breakfast, "If you want a movement to move, you''ve got to have the preachers behind you"; eight rallies on the South and West Sides; at Winnetka, July 25, some 10,000. July 26, from Buckingham Fountain, some 20,000 march with him and Raby to City Hall: Chicago "a city in dire need of redemption and reform." Daley: "There can be no disagreement that we must root out poverty."'
-    n: '[[w.branch-at-canaans-edge]], 262–66. To check: "Schedule of Martin Luther King''s Visit to Chicago, July 23–26, 1965," SCLC Records, King Library and Archives; [*New York Times*, July 25, 1965](https://timesmachine.nytimes.com/timesmachine/1965/07/25/issue.html), 39 (cited by [[w.branch-at-canaans-edge]], 263); [[w.anderson-confronting-the-color-line]], 161 (cited by [[w.branch-at-canaans-edge]], 262). See [[cal.1965-07-07.king]]. Names: Martin Luther King, Raby, Daley.'
+    n: '[[w.branch-at-canaans-edge]], 262–66; [[w.ralph-northern-protest]], 34–35. Check: Ralph gives nearly ten thousand at Winnetka and fifteen thousand marching July 26 (35). To check: "Schedule of Martin Luther King''s Visit to Chicago, July 23–26, 1965," SCLC Records, King Library and Archives; [*New York Times*, July 25, 1965](https://timesmachine.nytimes.com/timesmachine/1965/07/25/issue.html), 39 (cited by [[w.branch-at-canaans-edge]], 263); [[w.anderson-confronting-the-color-line]], 161 (cited by [[w.branch-at-canaans-edge]], 262). See [[cal.1965-07-07.king]]. Names: Martin Luther King, Raby, Daley.'
     src:
       c: 5e87bb0c
       rows:
         - 'w.branch-at-canaans-edge 262–66: all'
         - 'via w.branch-at-canaans-edge 263 n.three-car-motorcade: A'
         - 'via w.branch-at-canaans-edge 263 n.covering-186-miles: A'
+        - 'w.ralph-northern-protest 34–35: all'
     tags: [name:king-martin-luther-jr, name:raby-albert, name:daley-richard-j, state:il, city:chicago]
   - id: cal.1965-07-24.vietnam-july-decision
     when: July 24
@@ -2505,6 +2507,13 @@ entries:
         - 'w.gibbons-u-s-government-and III, 431: all'
         - 'w.gibbons-u-s-government-and III, 431 n: all'
     tags: [name:humphrey-hubert-h, name:johnson-lyndon-b]
+  - id: cal.1965-07-27.king
+    when: July 27
+    date: '1965-07-27'
+    thread: king
+    c: 'Cleveland. King on the East Side, at a breakfast with the clergy, an evening address: "the Negro is not free in the North."'
+    n: '[[w.ralph-northern-protest]], 35. See [[cal.1965-07-24.king]]. Names: King.'
+    tags: [state:oh, city:cleveland, name:king-martin-luther-jr]
   - id: cal.1965-07-28.vietnam
     when: July 28
     date: '1965-07-28'
@@ -2732,6 +2741,13 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d65: all'
     tags: [name:ball-george-w, name:fowler-henry-h]
+  - id: cal.1965-07-28.king
+    when: July 28
+    date: '1965-07-28'
+    thread: king
+    c: 'Cleveland. King to over three thousand: a "grand alliance" of "intellectuals, liberals, labor, management, churches."'
+    n: '[[w.ralph-northern-protest]], 35. See [[cal.1965-07-27.king]]. Names: King.'
+    tags: [state:oh, city:cleveland, name:king-martin-luther-jr]
   - id: cal.1965-07-29.medicare
     when: July 29
     date: '1965-07-29'
@@ -3233,3 +3249,26 @@ entries:
       rows:
         - 'w.wells-war-within 49: all'
     tags: [name:cooper-chester-l]
+  - id: cal.1965-07.desegregation-schools
+    when: July, mid
+    date: 1965-07
+    thread: desegregation-schools
+    c: 'Chicago. Joseph Block of Inland Steel, Peter Peterson of Bell and Howell, Ben Heineman of the Chicago and North Western and others, a public letter: "equal access to our schools by all races, with a positive policy and program to eliminate segregation."'
+    n: '[[w.ralph-northern-protest]], 27–28. Check: the day. Names: Heineman.'
+    tags: [state:il, city:chicago, name:heineman-ben-w]
+  - id: cal.1965-07.king
+    when: July, late
+    date: 1965-07
+    thread: king
+    also: [civil-rights-organizations]
+    c: 'Powell to reporters: he has told King not to come to New York; "go to cities where they had no real Negro leadership—like Chicago, Cleveland, and Washington." The New York stop of King''s tour is called off.'
+    n: '[[w.ralph-northern-protest]], 35–36. Check: the day. Names: Powell, King.'
+    tags: [name:powell-adam-clayton-jr, name:king-martin-luther-jr]
+  - id: cal.1965-07.king-2
+    when: July, late
+    date: 1965-07
+    thread: king
+    also: [civil-rights-organizations]
+    c: Philadelphia. Cecil Moore of the NAACP's branch against King's visit, "an unwitting tool" of the "egghead white power structure"; King has Fauntroy call it off; Moore, under criticism, endorses a new invitation.
+    n: '[[w.ralph-northern-protest]], 35–36. Check: the day. Names: King.'
+    tags: [state:pa, city:philadelphia, name:king-martin-luther-jr]
