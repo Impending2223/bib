@@ -290,6 +290,18 @@ entries:
         - 'https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-downtown-rally-fresno-ca: all'
         - 'w.nixon-six-crises 370: all'
     tags: [name:nixon-richard-m, name:kennedy-john-f]
+  - id: cal.1960-11-04.elections-1960-kennedy
+    when: Nov. 4
+    date: '1960-11-04'
+    thread: elections-1960-kennedy
+    also: [elections-1960-chicago]
+    c: 'Chicago, Friday night. The organization''s torchlight parade, Kennedy and Daley leading, from Michigan and Madison to the Chicago Stadium, where 28,000 hear Daley: Kennedy will carry Chicago by half a million votes.'
+    n: '[[w.cohen-american-pharaoh]], 264. Names: John F. Kennedy, Daley.'
+    src:
+      c: 00858587
+      rows:
+        - 'w.cohen-american-pharaoh 264: all'
+    tags: [state:il, city:chicago, name:kennedy-john-f, name:daley-richard-j]
   - id: cal.1960-11-05.elections-1960
     when: Nov. 5
     date: '1960-11-05'
@@ -339,6 +351,18 @@ entries:
       rows:
         - 'w.novak-agony-of-the-g 13–14 & n.2: all'
     tags: [name:goldwater-barry-m, name:nixon-richard-m, name:lodge-henry-cabot]
+  - id: cal.1960-11-05.transportation
+    when: Nov. 5
+    date: '1960-11-05'
+    thread: transportation
+    also: [cities-and-housing]
+    c: Chicago. The Northwest Expressway, toll-free by Daley's agreement with the Toll Commission and the Cook County Board, completed; federal funds 90 percent of its $300 million.
+    n: '[[w.cohen-american-pharaoh]], 235–36. Names: Daley.'
+    src:
+      c: 1be588a9
+      rows:
+        - 'w.cohen-american-pharaoh 235–36: all'
+    tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1960-11-06.elections-1960
     when: Nov. 6
     date: '1960-11-06'
@@ -639,7 +663,12 @@ entries:
     thread: governors
     also: [elections-1960]
     c: Illinois. Kerner (D) over Stratton (R), 2,594,731 to 2,070,479, 55.5 percent; Kennedy carries the State, 2,377,846 to 2,368,988, 50.0 percent, an 8,858-vote margin. Cook County. Ward (D) over State's Attorney Adamowski (R).
-    n: 'Votes: [Ill. *Official Vote*, 1960, p. 16](https://archive.org/details/officialvote1960illi/page/n17); the State''s Attorney''s race is the county''s, not in the volume. The presidential vote: the Clerk''s *Statistics*, 1960 (Elections, 1960). To check: [[w.barnhart-kerner]]; [[w.kenney-political-passage]]; [[w.kallina-courthouse-over-white-house]]; [[w.peirce-megastates-of-america]]. See [[cal.1960-04-12.governors-il]]; [[cal.1960-11-08.elections-1960]]. Names: Kerner, Stratton, Adamowski, Kennedy, Ward.'
+    n: 'Votes: [Ill. *Official Vote*, 1960, p. 16](https://archive.org/details/officialvote1960illi/page/n17); the State''s Attorney''s race is the county''s, not in the volume. The presidential vote: the Clerk''s *Statistics*, 1960 (Elections, 1960). [[w.cohen-american-pharaoh]], 265–66 (Kennedy''s margin, 8,858 of 4,657,394; his edge in Chicago, 456,312; Ward over Adamowski by 25,000). To check: [[w.barnhart-kerner]]; [[w.kenney-political-passage]]; [[w.kallina-courthouse-over-white-house]]; [[w.peirce-megastates-of-america]]. See [[cal.1960-04-12.governors-il]]; [[cal.1960-11-08.elections-1960]]. Names: Kerner, Stratton, Adamowski, Kennedy, Ward.'
+    src:
+      c: 37b0b8c9
+      rows:
+        - 'https://archive.org/details/officialvote1960illi/page/n17: all'
+        - 'w.cohen-american-pharaoh 265–66: C-E'
     tags: [state:il, city:chicago, name:kerner-otto, name:stratton-william-g, name:kennedy-john-f, name:ward-daniel-p, name:adamowski-benjamin-s]
   - id: cal.1960-11-08.state-constitutions-mi
     when: Nov. 8
@@ -899,6 +928,17 @@ entries:
         - 'https://archive.org/stream/officialmontanag1960montrich#page/n1/mode/2up: A, B'
         - 'w.peirce-mountain-states-of-america 116: B'
     tags: [state:mt, name:nutter-donald-g, name:cannon-paul]
+  - id: cal.1960-11-08.elections-1960-chicago
+    when: Nov. 8
+    date: '1960-11-08'
+    thread: elections-1960-chicago
+    c: 'Chicago, election night. Daley to Robert Kennedy at about 1 a.m., by Theodore White''s account: Illinois will go Democratic. Daley to O''Donnell, by O''Donnell''s: "We''re trying to hold back our returns. Every time we announce two hundred more votes for Kennedy in Chicago, they come up out of nowhere downstate with another three hundred votes for Nixon."'
+    n: '[[w.cohen-american-pharaoh]], 265. Turnout in Chicago 89.3 percent (264–65). To check: [[w.white-making-of-the-president]]; [[w.odonnell-johnny-we-hardly-knew]] (cited by [[w.cohen-american-pharaoh]], 265). Names: Daley, Robert Kennedy, O''Donnell.'
+    src:
+      c: f3e27b99
+      rows:
+        - 'w.cohen-american-pharaoh 265: all'
+    tags: [state:il, city:chicago, name:daley-richard-j, name:kennedy-robert-f, name:odonnell-kenneth-p]
   - id: cal.1960-11-09.transition-and-staff
     when: Nov. 9–10
     date: '1960-11-09'
@@ -1037,11 +1077,12 @@ entries:
     date: '1960-11-09'
     thread: elections-1960-count
     c: 'Los Angeles, 2:30 a.m. Hall to Nixon: Kennedy''s lead in Illinois down to 35,000; the Democrats hold back some 200 Cook County precincts, waiting on the downstate count.'
-    n: '[[w.nixon-six-crises]], 391 (by Nixon''s account). See [[cal.1960-11-09.elections-1960]]. Names: Hall, Nixon, Kennedy.'
+    n: '[[w.nixon-six-crises]], 391 (by Nixon''s account); [[w.cohen-american-pharaoh]], 266. See [[cal.1960-11-09.elections-1960]]. Names: Hall, Nixon, Kennedy.'
     src:
       c: 0b8095ae
       rows:
         - 'w.nixon-six-crises 391: all'
+        - 'w.cohen-american-pharaoh 266: A, C'
     tags: [name:hall-leonard-w, name:nixon-richard-m, name:kennedy-john-f, city:chicago, state:il]
   - id: cal.1960-11-09.elections-1960-7
     when: Nov. 9
@@ -1234,6 +1275,17 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 122: all'
     tags: [name:phoumi-nosavan]
+  - id: cal.1960-11-11.elections-1960-count
+    when: Nov. 11
+    date: '1960-11-11'
+    thread: elections-1960-count
+    c: 'Herbert Klein, Nixon''s press secretary: "The Vice-President ran the race and accepts the decision of the voters. The decision made on Tuesday stands."'
+    n: '[[w.cohen-american-pharaoh]], 267. Names: Klein, Nixon.'
+    src:
+      c: 74c18fed
+      rows:
+        - 'w.cohen-american-pharaoh 267: all'
+    tags: [name:klein-herbert-g, name:nixon-richard-m]
   - id: cal.1960-11-12.transition-and-staff
     when: Nov. 12
     date: '1960-11-12'
@@ -2297,3 +2349,15 @@ entries:
         - 'via x.1962.honey-position-of-the-drv-leadership: C'
         - 'via x.1962-02-15.british-embassy-paris-to-fo: D-E'
     tags: [name:ho-chi-minh, name:zhou-enlai, name:khrushchev-nikita-s]
+  - id: cal.1960-11.elections-1960-chicago
+    when: Nov.
+    date: 1960-11
+    thread: elections-1960-chicago
+    also: [elections-1960-count]
+    c: 'Chicago. Adamowski: Daley stole 100,000 votes in ten wards, "the most powerful political boss in America through a rigged election contest." Daley: "Hitler type" propaganda; the Democrats would help pay for a recount of the State; the charges "a joint effort by Republican conservatives in the north and Dixiecrats in the south."'
+    n: '[[w.cohen-american-pharaoh]], 268. Check: the days. Names: Adamowski, Daley.'
+    src:
+      c: dd18f162
+      rows:
+        - 'w.cohen-american-pharaoh 268: all'
+    tags: [state:il, city:chicago, name:adamowski-benjamin-s, name:daley-richard-j]

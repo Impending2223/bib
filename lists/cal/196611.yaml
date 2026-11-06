@@ -568,6 +568,18 @@ entries:
       rows:
         - 'w.staaveren-u-s-air-force 166: all'
     tags: [name:westmoreland-william]
+  - id: cal.1966-11-07.elections-1966-2
+    when: Nov. 7
+    date: '1966-11-07'
+    thread: elections-1966
+    also: [king]
+    c: 'Chicago, the eve of the election. Daley: King has come to tell Negroes not to vote Democratic; Bevel has urged them to leave the party. King, from Atlanta: "totally unfounded," but "shrewd and timely . . . for his purposes."'
+    n: '[[w.cohen-american-pharaoh]], 426. Check: the day. Names: Daley, Martin Luther King.'
+    src:
+      c: e113a69b
+      rows:
+        - 'w.cohen-american-pharaoh 426: all'
+    tags: [state:il, city:chicago, name:daley-richard-j, name:king-martin-luther-jr]
   - id: cal.1966-11-08.elections-1966
     when: Nov. 8
     date: '1966-11-08'
@@ -1171,6 +1183,17 @@ entries:
     c: 'Illinois. Two Negro independents elected to the State Senate from Chicago. Check: the names and the counts.'
     n: '[[w.ralph-northern-protest]], 230.'
     tags: [state:il, city:chicago]
+  - id: cal.1966-11-08.elections-1966-3
+    when: Nov. 8
+    date: '1966-11-08'
+    thread: elections-1966
+    c: 'Illinois, Cook County. Douglas carries Chicago by 184,000 and loses the State to Percy by 400,000. Ogilvie, the sheriff, elected president of the county board; Republicans county treasurer and sheriff; Stevenson III, Daley''s choice, State treasurer. Pucinski re-elected by 4,700, 31,000 in 1964: "I''m the first to admit now I was dead wrong." Daley: "the good people of Chicago are still Democratic."'
+    n: '[[w.cohen-american-pharaoh]], 426–27. Check: the counts. Names: Douglas, Percy, Ogilvie, Stevenson, Pucinski, Daley.'
+    src:
+      c: 3276ade5
+      rows:
+        - 'w.cohen-american-pharaoh 426–27: all'
+    tags: [state:il, city:chicago, name:douglas-paul-h, name:percy-charles-h, name:ogilvie-richard-b, name:stevenson-adlai-e-iii, name:pucinski-roman-c, name:daley-richard-j]
   - id: cal.1966-11-09.republican-party
     when: Nov. 9
     date: '1966-11-09'
@@ -1240,13 +1263,15 @@ entries:
     thread: mayors
     also: [open-housing]
     c: 'Chicago. Thomas Keane, Daley''s negotiator, to the City Council: the summit agreement only "certain suggestions put down and goals to be sought." King: "Any attempt to destroy that hope is an act of cruelty." Ogilvie''s sheriff''s victory takes 18,000 county patronage jobs from the Daley organization.'
-    n: '[[w.branch-at-canaans-edge]], 550. Check: Ralph puts Keane''s denial that the summit accord was a full agreement in late November (211). To check: [[w.cohen-american-pharaoh]], 426–27, 484 (cited by [[w.branch-at-canaans-edge]], 550); Chicago Tribune, Nov. 2, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 550); New York Times, Nov. 2, 1966, p. 25 (cited by [[w.branch-at-canaans-edge]], 550); [[w.cohen-american-pharaoh]], 427 (cited by [[w.branch-at-canaans-edge]], 550). See [[cal.1966-08-26.open-housing]]. Names: King, Daley.'
+    n: '[[w.branch-at-canaans-edge]], 550; [[w.cohen-american-pharaoh]], 426–27. Check: Ralph puts Keane''s denial that the summit accord was a full agreement in late November (211). To check: Chicago Tribune, Nov. 2, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 550); New York Times, Nov. 2, 1966, p. 25 (cited by [[w.branch-at-canaans-edge]], 550). See [[cal.1966-08-26.open-housing]]. Names: King, Daley.'
     src:
       c: 4ba53988
       rows:
         - 'w.branch-at-canaans-edge 550: all'
         - 'via x.1966-11-02.chicago-tribune-nov-2-1966-p: all'
         - 'via x.1966-11-02.new-york-times-nov-2-1966: all'
+        - 'w.cohen-american-pharaoh 426–27: A-D'
+        - 'via w.cohen-american-pharaoh 427 n.43: B'
     tags: [name:daley-richard-j, name:king-martin-luther-jr, state:il, city:chicago]
   - id: cal.1966-11-14.king-2
     when: Nov. 9–14
@@ -2596,3 +2621,15 @@ entries:
     c: 'Hughes of Iowa, re-elected, breaks with Johnson after the midterms: to reporters, the confidence Johnson has lost among the Democratic governors. He begins to part from the administration''s Vietnam policy.'
     n: '[[w.peirce-great-plains-states-of]], 96–97. Check: the day; Peirce has it "shortly after that election," Nov. 8 (perhaps at White Sulphur Springs, Dec. 16–17). See [[cal.1966-12-16.elections-1966]]. Names: Hughes, Johnson.'
     tags: [state:ia, name:hughes-harold-e, name:johnson-lyndon-b]
+  - id: cal.1966-11.open-housing-2
+    when: Nov.
+    date: 1966-11
+    thread: open-housing
+    also: [mayors]
+    c: 'Chicago. Daley, after Keane: no enforceable agreement came out of the summit, only a "gentleman''s agreement under a moral banner."'
+    n: '[[w.cohen-american-pharaoh]], 427–28. Check: the day. Names: Daley.'
+    src:
+      c: d56cd1a6
+      rows:
+        - 'w.cohen-american-pharaoh 427–28: all'
+    tags: [state:il, city:chicago, name:daley-richard-j]

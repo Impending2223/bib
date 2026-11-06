@@ -226,6 +226,17 @@ entries:
       rows:
         - 'w.futrell-united-states-air-force 241, 260: all'
     tags: [name:lemay-curtis-e]
+  - id: cal.1964-11-02.elections-1964-2
+    when: Nov. 2
+    date: '1964-11-02'
+    thread: elections-1964
+    c: 'Chicago, the eve of the election. The organization''s torchlight parade, three thousand torches; Johnson at the Chicago Stadium: "Mayor Daley is the greatest politician in the country."'
+    n: '[[w.cohen-american-pharaoh]], 323. Check: the day; Cohen and Taylor: the eve of the election. Names: Johnson, Daley.'
+    src:
+      c: 21fda4b3
+      rows:
+        - 'w.cohen-american-pharaoh 323: all'
+    tags: [state:il, city:chicago, name:johnson-lyndon-b, name:daley-richard-j]
   - id: cal.1964-11-03.vietnam
     when: Nov. 3
     date: '1964-11-03'
@@ -386,7 +397,12 @@ entries:
     thread: governors
     also: [elections-1964]
     c: Illinois. Kerner (D) re-elected over Percy (R), 2,418,394 to 2,239,095, 51.9 percent; Johnson carries the State. Percy carries 59 counties to Kerner's 43.
-    n: 'Votes: [Ill. *Official Vote*, 1964, p. 14](https://archive.org/details/officialvoteof1964illi/page/n19). See [[cal.1964-04-14.governors-il]]; [[cal.1964-11-03.elections-1964-2]]. Names: Kerner, Percy, Johnson.'
+    n: 'Votes: [Ill. *Official Vote*, 1964, p. 14](https://archive.org/details/officialvoteof1964illi/page/n19). [[w.cohen-american-pharaoh]], 323 (Johnson carries the State by almost 900,000, Kerner with him). See [[cal.1964-04-14.governors-il]]; [[cal.1964-11-03.elections-1964-2]]. Names: Kerner, Percy, Johnson.'
+    src:
+      c: ffa95563
+      rows:
+        - 'https://archive.org/details/officialvoteof1964illi/page/n19: all'
+        - 'w.cohen-american-pharaoh 323: A, C'
     tags: [state:il, name:kerner-otto, name:percy-charles-h, name:johnson-lyndon-b]
     short: Kerner over Percy
   - id: cal.1964-11-03.legislatures-il
@@ -2548,3 +2564,14 @@ entries:
       c: 606fad8b
       rows:
         - 'w.zaroulis-who-spoke-up 26: all'
+  - id: cal.1964-11.democratic-party
+    when: Nov.
+    date: 1964-11
+    thread: democratic-party
+    c: Chicago. The Cook County Democratic organization moves its headquarters from the Morrison Hotel, to be razed for the First National Bank, to the Sherman Hotel.
+    n: '[[w.cohen-american-pharaoh]], 324. Check: the day; Cohen and Taylor: late in the month.'
+    src:
+      c: 341a2d41
+      rows:
+        - 'w.cohen-american-pharaoh 324: all'
+    tags: [state:il, city:chicago]

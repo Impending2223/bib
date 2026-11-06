@@ -262,7 +262,12 @@ entries:
     thread: mayors
     also: [open-housing]
     c: 'Chicago, City Hall. Daley with the Southwest Side''s aldermen, clergy and civic leaders; his statement a call for order: "Violence never led to anything constructive, and disorder leads to disorder."'
-    n: '[[w.ralph-northern-protest]], 129. Names: Daley.'
+    n: '[[w.ralph-northern-protest]], 129; [[w.cohen-american-pharaoh]], 393–94 (Daley: "recognizing law and order is necessary"; one of them: "the Mayor''s only answer was ''They have a right to march''"). Names: Daley.'
+    src:
+      c: 60bc86fb
+      rows:
+        - 'w.ralph-northern-protest 129: all'
+        - 'w.cohen-american-pharaoh 393–94: all'
     tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1966-08-02.open-housing-3
     when: Aug. 2
@@ -392,14 +397,16 @@ entries:
     date: '1966-08-03'
     thread: cities-and-housing
     also: [open-housing, mayors]
-    c: Chicago. Daley and Charles Swibel, of the Housing Authority, announce their reforms, King and Raby having refused the statement praising the mayor that was their price.
-    n: '[[w.anderson-confronting-the-color-line]], 226–27. To check: Kathleen Connolly, "The Chicago Open-Housing Conference," 12 January 1967, pp. 20–22; "Mayor Richard J (cited by [[w.anderson-confronting-the-color-line]], 227 n.49). See [[cal.1966-08-04.open-housing-3]]. Names: Daley.'
+    c: 'Chicago. Daley and Charles Swibel, of the Housing Authority, announce their reforms, King and Raby having refused the statement praising the mayor that was their price. The offer, by Swibel for Daley: elevator guards in public housing, a committee on integration and some 400 units, for a statement of King''s praising Daley''s "wise leadership."'
+    n: '[[w.anderson-confronting-the-color-line]], 226–27; [[w.cohen-american-pharaoh]], 394 (the offer''s terms; King''s refusal; the improvements announced anyway). Check: Cohen and Taylor give the month only (394). To check: Kathleen Connolly, "The Chicago Open-Housing Conference," 12 January 1967, pp. 20–22; "Mayor Richard J (cited by [[w.anderson-confronting-the-color-line]], 227 n.49). See [[cal.1966-08-04.open-housing-3]]. Names: Daley, Martin Luther King.'
     src:
-      c: 34084c12
+      c: fc4b4fd2
       rows:
-        - 'w.anderson-confronting-the-color-line 226–27: all'
-        - 'via w.anderson-confronting-the-color-line 227 n.49: all'
-    tags: [name:daley-richard-j, state:il, city:chicago]
+        - 'w.anderson-confronting-the-color-line 226–27: A-B'
+        - 'via w.anderson-confronting-the-color-line 227 n.49: A-B'
+        - 'w.cohen-american-pharaoh 394: all'
+    tags: [name:daley-richard-j, state:il, city:chicago, name:king-martin-luther-jr]
+    aliases: [cal.1966-08.open-housing]
   - id: cal.1966-08-04.jobs-and-wages
     when: Aug. 4
     date: '1966-08-04'
@@ -482,7 +489,7 @@ entries:
     date: '1966-08-04'
     thread: open-housing
     c: 'Chicago, New Friendship Baptist, 1,700, on live radio. King: he will lead the next day''s march, "My place is in Gage Park." Daley''s Negro alderman has met King and Raby for the first time.'
-    n: '[[w.branch-at-canaans-edge]], 509; [[w.ralph-northern-protest]], 122; [[w.ralph-northern-protest]], 143; [[w.anderson-confronting-the-color-line]], 226–27 (King and Raby three hours with the Negro leaders of the Democratic organization). Check: Ralph gives two thousand at New Friendship (122). Check: Anderson: a dozen aldermen and State representatives, for open housing legislation, more bank loans to Negroes, building standards and racial head counts, against replacing the absentee precinct captains; Jackson''s announcement that King would lead the weekend''s march (226–27). To check: [[w.cohen-american-pharaoh]], 393–94 (cited by [[w.branch-at-canaans-edge]], 509); [[w.garrow-bearing-the-cross]], 499 (cited by [[w.branch-at-canaans-edge]], 509); Speech excerpts, "MLK Rally with Mahalia Jackson," Aug. 4, 1966, A/KS (cited by [[w.branch-at-canaans-edge]], 509); Urban Affairs Weekly Report, Aug. 7, 1966, AFSC papers, 1966 CRD Housing Program, box 4, AFSC Archives (cited by [[w.ralph-northern-protest]], 122 n.88). See [[cal.1966-07-31.open-housing]]. Names: King, Raby, Daley.'
+    n: '[[w.branch-at-canaans-edge]], 509; [[w.ralph-northern-protest]], 122; [[w.ralph-northern-protest]], 143; [[w.anderson-confronting-the-color-line]], 226–27 (King and Raby three hours with the Negro leaders of the Democratic organization); [[w.cohen-american-pharaoh]], 394–95 (the meeting of Daley''s Negro aldermen and legislators with King and Raby, three hours, Despres there; Metcalfe''s arm round King). Check: Ralph gives two thousand at New Friendship (122). Check: Anderson: a dozen aldermen and State representatives, for open housing legislation, more bank loans to Negroes, building standards and racial head counts, against replacing the absentee precinct captains; Jackson''s announcement that King would lead the weekend''s march (226–27). Check: Cohen and Taylor do not date the meeting (394–95). To check: [[w.garrow-bearing-the-cross]], 499 (cited by [[w.branch-at-canaans-edge]], 509); Speech excerpts, "MLK Rally with Mahalia Jackson," Aug. 4, 1966, A/KS (cited by [[w.branch-at-canaans-edge]], 509); Urban Affairs Weekly Report, Aug. 7, 1966, AFSC papers, 1966 CRD Housing Program, box 4, AFSC Archives (cited by [[w.ralph-northern-protest]], 122 n.88). See [[cal.1966-07-31.open-housing]]. Names: King, Raby, Daley.'
     src:
       c: 6709b272
       rows:
@@ -492,6 +499,7 @@ entries:
         - 'via w.ralph-northern-protest 122 n.88: B'
         - 'w.ralph-northern-protest 143: C'
         - 'w.anderson-confronting-the-color-line 226–27: C'
+        - 'w.cohen-american-pharaoh 394–95: C'
     tags: [name:king-martin-luther-jr, name:raby-albert, name:daley-richard-j, state:il, city:chicago]
   - id: cal.1966-08-04.vietnam-air-war
     when: Aug. 4
@@ -513,12 +521,13 @@ entries:
     thread: open-housing
     also: [mayors]
     c: 'Chicago, the Washington Park YMCA, three hours. King and Raby with elected officials, most of them Negro, Metcalfe at the head of Daley''s six aldermen; Chew charges the movement with freezing out politicians who back it. The aldermen endorse open housing and nondiscriminatory mortgages; not Raby''s call for precinct captains to live in their precincts. King: "nonviolence needs some victories."'
-    n: '[[w.ralph-northern-protest]], 143–44; [[w.anderson-confronting-the-color-line]], 226–27. To check: Woodlawn Booster, Aug. 11, 1966; Chicago''s American, Aug. 10, 1966, 1, 10; New Crusader, Aug. 6, 1966, 1, 3 (cited by [[w.ralph-northern-protest]], 143 n.39). Names: King, Raby.'
+    n: '[[w.ralph-northern-protest]], 143–44; [[w.anderson-confronting-the-color-line]], 226–27; [[w.cohen-american-pharaoh]], 394–95 (three hours, Despres there; Metcalfe''s arm round King). To check: Woodlawn Booster, Aug. 11, 1966; Chicago''s American, Aug. 10, 1966, 1, 10; New Crusader, Aug. 6, 1966, 1, 3 (cited by [[w.ralph-northern-protest]], 143 n.39). Names: King, Raby.'
     src:
       c: 8205359e
       rows:
         - 'w.ralph-northern-protest 143–44: all'
         - 'w.anderson-confronting-the-color-line 226–27: A-B, D-E'
+        - 'w.cohen-american-pharaoh 394–95: all'
     tags: [state:il, city:chicago, name:king-martin-luther-jr, name:raby-albert]
   - id: cal.1966-08-04.open-housing-3
     when: Aug. 4
@@ -538,7 +547,7 @@ entries:
     thread: open-housing
     also: [king]
     c: 'Chicago. The marches into the white neighborhoods of the Southwest Side, from late July. Aug. 5, Marquette Park: King struck on the head by a rock; bottles and bricks thrown at the marchers. King: "I have seen many demonstrations in the south but I have never seen anything so hostile and so hateful as I''ve seen here today."'
-    n: '"Dr. King Is Felled by Rock," *Chicago Tribune*, Aug. 6, 1966. [[w.garrow-bearing-the-cross]], 499–500; [[w.branch-at-canaans-edge]], 509–11 (960 police; some five thousand residents; King struck by a palm-sized rock at five o''clock; Father Clements beaten; thirty hurt; King: "I have never in my life seen such hate"); [[w.kotz-judgment-days]], 366–67 (Aug. 2, Bevel into Belmont-Cragin, 140 police and a thousand whites; Aug. 5, King with 800 into Gage Park, a thousand police, four thousand whites; a rock to the head); [[w.bernstein-guns-or-butter]], 398 (600 marchers, 1,200 police; King hit by a rock, "even in Selma"; 30 injured, 40 arrested); [[w.zelizer-fierce-urgency-of-now]], 240–41 (the marches; white hecklers chanting "I wish I were an Alabama trooper"); [[w.young-easy-burden]], 413; [[w.ralph-northern-protest]], 123; [[w.anderson-confronting-the-color-line]], 228. Check: Kotz gives Gage Park for the march of Aug. 5 (367). Check: Bernstein, 398, dates the march to Halvorsen Realtors "two days" after Aug. 2. Check: Zelizer''s source for the chant, Gene Roberts, "Attack by Whites Foiled in Chicago," [*New York Times*, Aug. 4, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/04/issue.html) (241 n.36), puts the march before Aug. 5. Check: Young, 413, puts the Gage Park march of Aug. 5 on a Sunday, some ten thousand against it. Check: Ralph quotes King: he had "never seen as much hatred and hostility on the part of so many people" (123). Check: Anderson puts the march in Gage Park, Raby and Mahalia Jackson leading six hundred, 1,200 police, a crowd of four to eight thousand, thirty hurt, forty-three arrested; King: "I have never seen such hostility and hatred anywhere in my life, even in Selma" (228). To check: Chicago Tribune, Aug. 1, 1966, 1; New York Times, Aug. 1, 1966, 1; Aug. 2, 1966, 12 (cited by [[w.garrow-bearing-the-cross]], 499 n.27); Chicago Tribune, Aug. 6, 1966, 1; New York Times, Aug. 6, 1966, 1; Chicago Daily News, Aug. 6, 1966, 1 (cited by [[w.garrow-bearing-the-cross]], 500 n.28); Oates, *Let the Trumpet Sound* (1982), 414 (cited by [[w.branch-at-canaans-edge]], 509); Citizen King, a Roja Production for The American Experience, PBS, 2004 (cited by [[w.branch-at-canaans-edge]], 510); Blackstone Productions, Inc., Eyes on the Prize II, America at the Racial Crossroads—1965 to 1985, Vol. 2, "Two Societies (1965—68)." (cited by [[w.branch-at-canaans-edge]], 510); Gene Roberts, "Rock Hits Dr. King as Whites Attack March in Chicago," NYT, Aug. 6, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 510); Investigator''s report dated Aug. 8, 1966, for Aug. 5 incident, File 940, RS, CHS (cited by [[w.branch-at-canaans-edge]], 510); [[w.cohen-american-pharaoh]], 396 (cited by [[w.branch-at-canaans-edge]], 511); New York Times, Aug. 6, 1966, p. 52 (cited by [[w.branch-at-canaans-edge]], 511); Investigators'' reports dated Aug. 5 and 9, 1966, for Aug. 5 incident, File 940, RS, CHS (cited by [[w.branch-at-canaans-edge]], 511); Jet, Aug. 25, 1966, pp. 14–23 (cited by [[w.branch-at-canaans-edge]], 511); New York Times, Aug. 7, 1966, p. 47 (cited by [[w.branch-at-canaans-edge]], 511); Rabbi Robert Marx letter, Aug. 5, 1966, CCCO papers, box 3–14, MLK Library (cited by [[w.ralph-northern-protest]], 123 n.90); Baltimore Sun, Aug. 6, 1966, 1, 5 (cited by [[w.ralph-northern-protest]], 123 n.91); Chicago Sun-Times, 6, 7 August 1966; David Levering Lewis, King: A Biography, 2d ed. (Urbana: University of Illinois Press, 1978), pp. 338–39; Connolly, "Chicago Open-Housing Conference," p. 15 (cited by [[w.anderson-confronting-the-color-line]], 228 n.53). See [[cal.1966-07-10.open-housing]]. Names: King.'
+    n: '"Dr. King Is Felled by Rock," *Chicago Tribune*, Aug. 6, 1966. [[w.garrow-bearing-the-cross]], 499–500; [[w.branch-at-canaans-edge]], 509–11 (960 police; some five thousand residents; King struck by a palm-sized rock at five o''clock; Father Clements beaten; thirty hurt; King: "I have never in my life seen such hate"); [[w.kotz-judgment-days]], 366–67 (Aug. 2, Bevel into Belmont-Cragin, 140 police and a thousand whites; Aug. 5, King with 800 into Gage Park, a thousand police, four thousand whites; a rock to the head); [[w.bernstein-guns-or-butter]], 398 (600 marchers, 1,200 police; King hit by a rock, "even in Selma"; 30 injured, 40 arrested); [[w.zelizer-fierce-urgency-of-now]], 240–41 (the marches; white hecklers chanting "I wish I were an Alabama trooper"); [[w.young-easy-burden]], 413; [[w.ralph-northern-protest]], 123; [[w.anderson-confronting-the-color-line]], 228; [[w.cohen-american-pharaoh]], 395–96. Check: Kotz gives Gage Park for the march of Aug. 5 (367). Check: Bernstein, 398, dates the march to Halvorsen Realtors "two days" after Aug. 2. Check: Zelizer''s source for the chant, Gene Roberts, "Attack by Whites Foiled in Chicago," [*New York Times*, Aug. 4, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/04/issue.html) (241 n.36), puts the march before Aug. 5. Check: Young, 413, puts the Gage Park march of Aug. 5 on a Sunday, some ten thousand against it. Check: Ralph quotes King: he had "never seen as much hatred and hostility on the part of so many people" (123). Check: Anderson puts the march in Gage Park, Raby and Mahalia Jackson leading six hundred, 1,200 police, a crowd of four to eight thousand, thirty hurt, forty-three arrested; King: "I have never seen such hostility and hatred anywhere in my life, even in Selma" (228). Check: Cohen and Taylor give King''s words: "I''ve been in many demonstrations all across the south, but I can say that I have never seen — even in Mississippi and Alabama — mobs as hostile and hate-filled as I''ve seen in Chicago" (396). To check: Chicago Tribune, Aug. 1, 1966, 1; New York Times, Aug. 1, 1966, 1; Aug. 2, 1966, 12 (cited by [[w.garrow-bearing-the-cross]], 499 n.27); Chicago Tribune, Aug. 6, 1966, 1; New York Times, Aug. 6, 1966, 1; Chicago Daily News, Aug. 6, 1966, 1 (cited by [[w.garrow-bearing-the-cross]], 500 n.28); Oates, *Let the Trumpet Sound* (1982), 414 (cited by [[w.branch-at-canaans-edge]], 509); Citizen King, a Roja Production for The American Experience, PBS, 2004 (cited by [[w.branch-at-canaans-edge]], 510); Blackstone Productions, Inc., Eyes on the Prize II, America at the Racial Crossroads—1965 to 1985, Vol. 2, "Two Societies (1965—68)." (cited by [[w.branch-at-canaans-edge]], 510); Gene Roberts, "Rock Hits Dr. King as Whites Attack March in Chicago," NYT, Aug. 6, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 510); Investigator''s report dated Aug. 8, 1966, for Aug. 5 incident, File 940, RS, CHS (cited by [[w.branch-at-canaans-edge]], 510); New York Times, Aug. 6, 1966, p. 52 (cited by [[w.branch-at-canaans-edge]], 511); Investigators'' reports dated Aug. 5 and 9, 1966, for Aug. 5 incident, File 940, RS, CHS (cited by [[w.branch-at-canaans-edge]], 511); Jet, Aug. 25, 1966, pp. 14–23 (cited by [[w.branch-at-canaans-edge]], 511); New York Times, Aug. 7, 1966, p. 47 (cited by [[w.branch-at-canaans-edge]], 511); Rabbi Robert Marx letter, Aug. 5, 1966, CCCO papers, box 3–14, MLK Library (cited by [[w.ralph-northern-protest]], 123 n.90); Baltimore Sun, Aug. 6, 1966, 1, 5 (cited by [[w.ralph-northern-protest]], 123 n.91); Chicago Sun-Times, 6, 7 August 1966; David Levering Lewis, King: A Biography, 2d ed. (Urbana: University of Illinois Press, 1978), pp. 338–39; Connolly, "Chicago Open-Housing Conference," p. 15 (cited by [[w.anderson-confronting-the-color-line]], 228 n.53). See [[cal.1966-07-10.open-housing]]. Names: King.'
     src:
       c: b37930f2
       rows:
@@ -564,6 +573,7 @@ entries:
         - 'via w.ralph-northern-protest 123 n.91b: C'
         - 'w.anderson-confronting-the-color-line 228: A, C-E'
         - 'via w.anderson-confronting-the-color-line 228 n.53: A, C-E'
+        - 'w.cohen-american-pharaoh 395–96: A, C-D'
     tags: [name:king-martin-luther-jr]
   - id: cal.1966-08-05.legislatures-mo
     when: Aug. 5
@@ -753,7 +763,7 @@ entries:
     date: '1966-08-07'
     thread: open-housing
     c: Chicago. The march returns to Belmont-Cragin, met as before.
-    n: '[[w.bernstein-guns-or-butter]], 398; [[w.ralph-northern-protest]], 131–33; [[w.anderson-confronting-the-color-line]], 228–29 (1,100 marchers, five hundred police, a crowd of five thousand; rocks and cherry bombs; three hurt, twenty-one arrested). Check: Ralph gives nearly a thousand marchers, Raby, Bevel and Jesse Jackson leading, more than five hundred police (131–33). To check: Chicago Sun-Times, 8 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 229 n.54). See [[cal.1966-08-02.open-housing]].'
+    n: '[[w.bernstein-guns-or-butter]], 398; [[w.ralph-northern-protest]], 131–33; [[w.anderson-confronting-the-color-line]], 228–29 (1,100 marchers, five hundred police, a crowd of five thousand; rocks and cherry bombs; three hurt, twenty-one arrested); [[w.cohen-american-pharaoh]], 397 (1,100 marchers, 500 police, 5,000 whites). Check: Ralph gives nearly a thousand marchers, Raby, Bevel and Jesse Jackson leading, more than five hundred police (131–33). To check: Chicago Sun-Times, 8 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 229 n.54). See [[cal.1966-08-02.open-housing]].'
     src:
       c: 2ac4e245
       rows:
@@ -761,6 +771,7 @@ entries:
         - 'w.ralph-northern-protest 131–33: all'
         - 'w.anderson-confronting-the-color-line 228–29: A-B'
         - 'via w.anderson-confronting-the-color-line 229 n.54: A-B'
+        - 'w.cohen-american-pharaoh 397: A-B'
     tags: [city:chicago]
   - id: cal.1966-08-07.laos
     when: Aug. 7–9
@@ -882,7 +893,12 @@ entries:
     date: '1966-08-08'
     thread: open-housing
     c: 'Chicago, the Warren Avenue Congregational Church, nearly five hundred. Jesse Jackson: "I''m going to Cicero." Bevel: "They can buy tanks and they can arm every child, but we''re going to Cicero." The pledge unauthorized; King, in the South, says he will go if Chicago does not act.'
-    n: '[[w.ralph-northern-protest]], 138–39. To check: Chicago Daily News, Aug. 9, 1966, 11; WGN files, Aug. 9, 1966, FF1728, CHS (cited by [[w.ralph-northern-protest]], 139 n.23). Names: King.'
+    n: '[[w.ralph-northern-protest]], 138–39; [[w.cohen-american-pharaoh]], 397–98 (Jesse Jackson at a rally Aug. 8: a march into Cicero within days; "We expect violence"). To check: Chicago Daily News, Aug. 9, 1966, 11; WGN files, Aug. 9, 1966, FF1728, CHS (cited by [[w.ralph-northern-protest]], 139 n.23). Names: King.'
+    src:
+      c: e2e46ad2
+      rows:
+        - 'w.ralph-northern-protest 138–39: all'
+        - 'w.cohen-american-pharaoh 397–98: all'
     tags: [state:il, city:chicago, name:king-martin-luther-jr]
   - id: cal.1966-08-08.mayors
     when: Aug. 8
@@ -1020,13 +1036,14 @@ entries:
     thread: mayors
     also: [open-housing]
     c: 'Chicago. Daley: "I am asking for calm. I will meet with anyone and do anything to prevent what is happening to our city." The Commission on Human Relations, at a noon meeting, proposes a peace conference; Daley telephones Ross Beatty of the Real Estate Board to call one.'
-    n: '[[w.ralph-northern-protest]], 130, 149–50; [[w.anderson-confronting-the-color-line]], 230 (the Commission on Human Relations; Daley at his first press conference in a week). To check: CCHR minutes, Aug. 9, 1966, Marciniak files (cited by [[w.ralph-northern-protest]], 150 n.62); Chicago Sun-Times, 11 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 230 n.60). Names: Daley.'
+    n: '[[w.ralph-northern-protest]], 130, 149–50; [[w.anderson-confronting-the-color-line]], 230 (the Commission on Human Relations; Daley at his first press conference in a week); [[w.cohen-american-pharaoh]], 398 (Daley, Aug. 9: stop marching and negotiate; Cody''s moratorium). To check: CCHR minutes, Aug. 9, 1966, Marciniak files (cited by [[w.ralph-northern-protest]], 150 n.62); Chicago Sun-Times, 11 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 230 n.60). Names: Daley.'
     src:
       c: 9fd271f2
       rows:
         - 'w.ralph-northern-protest 130, 149–50: all'
         - 'w.anderson-confronting-the-color-line 230: A, C'
         - 'via w.anderson-confronting-the-color-line 230 n.60: A, C'
+        - 'w.cohen-american-pharaoh 398: all'
     tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1966-08-09.open-housing-2
     when: Aug. 9
@@ -1049,6 +1066,18 @@ entries:
     c: 'Pucinski to Johnson, a letter released: the marchers "not interested in furthering the cause of social justice and human dignity but instead are bent upon a policy of turmoil."'
     n: '[[w.ralph-northern-protest]], 142. To check: Pucinski to Johnson, Aug. 9, 1966, Gen HU2, WHCE, box 14, LBJ Library (cited by [[w.ralph-northern-protest]], 142 n.38). Names: Pucinski, Johnson.'
     tags: [state:il, city:chicago, name:pucinski-roman-c, name:johnson-lyndon-b]
+  - id: cal.1966-08-09.cities-and-housing-2
+    when: Aug. 9
+    date: '1966-08-09'
+    thread: cities-and-housing
+    also: [open-housing]
+    c: 'Chicago. The American Civil Liberties Union''s class action against the Chicago Housing Authority, for Dorothy Gautreaux and other Negro tenants and applicants: since 1950 nearly every site for family housing in the ghetto.'
+    n: '[[w.cohen-american-pharaoh]], 486–87.'
+    src:
+      c: ab3a7258
+      rows:
+        - 'w.cohen-american-pharaoh 486–87: all'
+    tags: [state:il, city:chicago]
   - id: cal.1966-08-10.space
     when: Aug. 10
     date: '1966-08-10'
@@ -1118,7 +1147,7 @@ entries:
     date: '1966-08-10'
     thread: open-housing
     c: 'Chicago. Archbishop Cody, "with a heavy heart," asks a moratorium on the demonstrations: the marchers "have not been guilty of violence and lawlessness, others have." Jesse Jackson, at Warren Avenue Congregational: "I''m going to Cicero!"; Sheriff Ogilvie: it "would make Gage Park look like a tea party."'
-    n: '[[w.branch-at-canaans-edge]], 514–15; [[w.ralph-northern-protest]], 146; [[w.ralph-northern-protest]], 138–39; [[w.ralph-northern-protest]], 166; [[w.anderson-confronting-the-color-line]], 230 (Ogilvie; Jesse Jackson: "It will be rough, but I''m going to Cicero"). Check: the day of Jackson''s speech. Check: Ralph dates Jesse Jackson''s pledge to the rally of Aug. 8 at the Warren Avenue Congregational Church (138–39). Check: Anderson gives Jackson''s and Ogilvie''s words before the commission''s meeting of Tuesday, Aug. 9 (229–30). To check: [[w.abernathy-and-the-walls-came]], 383 (cited by [[w.branch-at-canaans-edge]], 514); Blackstone Productions, Inc., Eyes on the Prize IT, America at the Racial Crossroads—1965 to 1985, Vol. 2, "Two Societies (1965—68)." (cited by [[w.branch-at-canaans-edge]], 514); New York Times, Aug. 11, 1966, p. 23 (cited by [[w.branch-at-canaans-edge]], 515); Kathleen Connolly, "The Chicago Open-Housing Conference," in Garrow, ed., Chicago 1966, pp. 69–70 (cited by [[w.branch-at-canaans-edge]], 515); "Statement Issued by His Excellency, the Most Rev; Chicago Daily News, Aug. 9, 1966, 11 (cited by [[w.ralph-northern-protest]], 139 n.23); Chicago Sun-Times, 10 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 230 n.58). John P. Cody," Aug. 10, 1966, LCMOC papers, box 153, CHS (cited by [[w.ralph-northern-protest]], 146 n.49). See [[cal.1966-08-05.open-housing]].'
+    n: '[[w.branch-at-canaans-edge]], 514–15; [[w.ralph-northern-protest]], 146; [[w.ralph-northern-protest]], 138–39; [[w.ralph-northern-protest]], 166; [[w.anderson-confronting-the-color-line]], 230 (Ogilvie; Jesse Jackson: "It will be rough, but I''m going to Cicero"); [[w.cohen-american-pharaoh]], 398 (Cody''s moratorium, after Daley''s appeal of Aug. 9). Check: the day of Jackson''s speech. Check: Ralph dates Jesse Jackson''s pledge to the rally of Aug. 8 at the Warren Avenue Congregational Church (138–39). Check: Anderson gives Jackson''s and Ogilvie''s words before the commission''s meeting of Tuesday, Aug. 9 (229–30). Check: Cohen and Taylor date Jesse Jackson''s announcement of a march into Cicero Aug. 8, at a rally (397). To check: [[w.abernathy-and-the-walls-came]], 383 (cited by [[w.branch-at-canaans-edge]], 514); Blackstone Productions, Inc., Eyes on the Prize IT, America at the Racial Crossroads—1965 to 1985, Vol. 2, "Two Societies (1965—68)." (cited by [[w.branch-at-canaans-edge]], 514); New York Times, Aug. 11, 1966, p. 23 (cited by [[w.branch-at-canaans-edge]], 515); Kathleen Connolly, "The Chicago Open-Housing Conference," in Garrow, ed., Chicago 1966, pp. 69–70 (cited by [[w.branch-at-canaans-edge]], 515); "Statement Issued by His Excellency, the Most Rev; Chicago Daily News, Aug. 9, 1966, 11 (cited by [[w.ralph-northern-protest]], 139 n.23); Chicago Sun-Times, 10 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 230 n.58). John P. Cody," Aug. 10, 1966, LCMOC papers, box 153, CHS (cited by [[w.ralph-northern-protest]], 146 n.49). See [[cal.1966-08-05.open-housing]].'
     src:
       c: 8bd15422
       rows:
@@ -1133,6 +1162,7 @@ entries:
         - 'w.ralph-northern-protest 166: D'
         - 'w.anderson-confronting-the-color-line 230: C-D'
         - 'via w.anderson-confronting-the-color-line 230 n.58: C-D'
+        - 'w.cohen-american-pharaoh 398: A-B'
     tags: [state:il, city:chicago]
   - id: cal.1966-08-10.economy
     when: Aug. 10
@@ -1272,12 +1302,13 @@ entries:
     thread: mayors
     also: [labor]
     c: 'Chicago. Daley with the city''s labor leaders, two and a half hours, Johnston arranging: William Lee and William McFetridge of the Chicago Federation of Labor, Joseph Germano of the Steelworkers; their "unanimous support" for taking the conflict to the conference table.'
-    n: '[[w.ralph-northern-protest]], 145, 145 n.44 (reports differ on the day); [[w.anderson-confronting-the-color-line]], 232 (Daley with seventeen labor leaders gathered by the UAW). Names: Daley.'
+    n: '[[w.ralph-northern-protest]], 145, 145 n.44 (reports differ on the day); [[w.anderson-confronting-the-color-line]], 232 (Daley with seventeen labor leaders gathered by the UAW); [[w.cohen-american-pharaoh]], 398 (seventeen labor leaders, McFetridge and Lee among them, at Robert Johnston''s call; the marches the city''s "number one problem"; the summit, the Chicago Conference on Religion and Race to call it). Names: Daley.'
     src:
       c: d6c3d4c4
       rows:
         - 'w.ralph-northern-protest 145, 145 n.44: ?'
         - 'w.anderson-confronting-the-color-line 232: A-C'
+        - 'w.cohen-american-pharaoh 398: all'
     tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1966-08-11.open-housing-2
     when: Aug. 11
@@ -1319,7 +1350,7 @@ entries:
     date: '1966-08-12'
     thread: open-housing
     c: Chicago. Aug. 12, seven hundred into Bogan, eight hundred police guarding. Aug. 14, three marches at once, Raby, Bevel and Jesse Jackson leading, 1,200. Aug. 16, vigils at six real estate offices in Jefferson Park; pickets at the Loop's savings and loan associations. Daley moves for talks through the Chicago Conference on Religion and Race.
-    n: '[[w.branch-at-canaans-edge]], 515–16; [[w.ralph-northern-protest]], 147–52; [[w.anderson-confronting-the-color-line]], 232–33. Check: Ralph gives six hundred into Bogan Aug. 12, Bevel leading (147); Aug. 14, Raby''s three hundred in Gage Park, Jesse Jackson''s 350 in Bogan, Bevel''s march in Jefferson Park (148). Check: Anderson has Jefferson Park among the three marches of Aug. 14, and on Aug. 16 demonstrations at City Hall, the First Federal Savings & Loan, the Real Estate Board, the Department of Public Aid and the Housing Authority (232–33). To check: [[w.cohen-american-pharaoh]], 398–99. a (cited by [[w.branch-at-canaans-edge]], 516); New York Times, Aug. 17, 1966, p. 23 (cited by [[w.branch-at-canaans-edge]], 516); New York Times, Aug. 13, 1966, p. 8 (cited by [[w.branch-at-canaans-edge]], 516); "Rights Leaders Schedule 3 Marches at Once in Chicago Today," NYT, Aug. 14, 1966, p. 48 (cited by [[w.branch-at-canaans-edge]], 516); Garrow, *Chicago 1966* (1989), 23 (cited by [[w.branch-at-canaans-edge]], 516); investigator''s report dated Aug. 17, 1966, File 940, RS, CHS (cited by [[w.branch-at-canaans-edge]], 516); Chicago Tribune, Aug. 13, 1966, 1 (cited by [[w.ralph-northern-protest]], 148 n.56); Chicago''s American, Aug. 15, 1966, 1, 6 (cited by [[w.ralph-northern-protest]], 148 n.57); Chicago Sun-Times, 15 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 232 n.69); Chicago Sun-Times, 17 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 233 n.70). See [[cal.1966-08-10.open-housing]]. Names: Raby, Daley.'
+    n: '[[w.branch-at-canaans-edge]], 515–16; [[w.ralph-northern-protest]], 147–52; [[w.anderson-confronting-the-color-line]], 232–33; [[w.cohen-american-pharaoh]], 398, 400. Check: Ralph gives six hundred into Bogan Aug. 12, Bevel leading (147); Aug. 14, Raby''s three hundred in Gage Park, Jesse Jackson''s 350 in Bogan, Bevel''s march in Jefferson Park (148). Check: Anderson has Jefferson Park among the three marches of Aug. 14, and on Aug. 16 demonstrations at City Hall, the First Federal Savings & Loan, the Real Estate Board, the Department of Public Aid and the Housing Authority (232–33). Check: Cohen and Taylor: Bevel led 600 to a high school on the Southwest Side, Aug. 12; Aug. 16, pickets at City Hall, the Housing Authority and the Public Aid department (400). To check: New York Times, Aug. 17, 1966, p. 23 (cited by [[w.branch-at-canaans-edge]], 516); New York Times, Aug. 13, 1966, p. 8 (cited by [[w.branch-at-canaans-edge]], 516); "Rights Leaders Schedule 3 Marches at Once in Chicago Today," NYT, Aug. 14, 1966, p. 48 (cited by [[w.branch-at-canaans-edge]], 516); Garrow, *Chicago 1966* (1989), 23 (cited by [[w.branch-at-canaans-edge]], 516); investigator''s report dated Aug. 17, 1966, File 940, RS, CHS (cited by [[w.branch-at-canaans-edge]], 516); Chicago Tribune, Aug. 13, 1966, 1 (cited by [[w.ralph-northern-protest]], 148 n.56); Chicago''s American, Aug. 15, 1966, 1, 6 (cited by [[w.ralph-northern-protest]], 148 n.57); Chicago Sun-Times, 15 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 232 n.69); Chicago Sun-Times, 17 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 233 n.70). See [[cal.1966-08-10.open-housing]]. Names: Raby, Daley.'
     src:
       c: 27d0fc5f
       rows:
@@ -1335,6 +1366,7 @@ entries:
         - 'w.anderson-confronting-the-color-line 232–33: A-C, E-F'
         - 'via w.anderson-confronting-the-color-line 232 n.69: A-C, E-F'
         - 'via w.anderson-confronting-the-color-line 233 n.70: A-C, E-F'
+        - 'w.cohen-american-pharaoh 398, 400: A, C-D, F'
     tags: [name:raby-albert, name:daley-richard-j, state:il, city:chicago]
   - id: cal.1966-08-13.vietnam
     when: Aug. 13–14
@@ -1541,7 +1573,7 @@ entries:
     thread: open-housing
     also: [mayors]
     c: 'Chicago, the Cathedral House of St. James, Heineman presiding, fifty-six men. The mortgage bankers accept the guidelines; Daley the six demands on the city. The Real Estate Board: "We are the mirror." King: "if you are tired of demonstrations, I am tired of demonstrating ... I want to live." A subcommittee named; the marches go on.'
-    n: '[[w.branch-at-canaans-edge]], 516–18; [[w.bernstein-guns-or-butter]], 398; [[w.ralph-northern-protest]], 152–58; [[w.anderson-confronting-the-color-line]], 237, 241, 252–53 (the Cathedral of St. James, Heineman presiding; "we are the mirror"; King; the subcommittee). Check: Ralph gives Arthur Mohl of the Real Estate Board: "we are the mirrors" (154). Check: Anderson gives some sixty at the table (237). To check: Garrow, *Chicago 1966* (1989), 93–94 (cited by [[w.branch-at-canaans-edge]], 517); Chicago deliberations chiefly from minutes preserved by John McKnight, "The Summit Negotiations, Chicago, August 17—August 26, 1966," in Garrow, ed., Chicago 1966, pp. 111–45. Also Anderson and Pickering, Confronting, pp. 237–69 (cited by [[w.branch-at-canaans-edge]], 517); [[w.ralph-northern-protest]], 152–71 (cited by [[w.branch-at-canaans-edge]], 517); [[w.garrow-bearing-the-cross]], 503–25 (cited by [[w.branch-at-canaans-edge]], 517); [[w.cohen-american-pharaoh]], 402–22 (cited by [[w.branch-at-canaans-edge]], 517); [[w.fairclough-to-redeem-the-soul]], 300ff (cited by [[w.branch-at-canaans-edge]], 517); Garrow, *Chicago 1966* (1989), 133–34 (cited by [[w.branch-at-canaans-edge]], 518); Garrow, *Chicago 1966* (1989), 78–79 (cited by [[w.branch-at-canaans-edge]], 518); [[w.anderson-confronting-the-color-line]], 254 (cited by [[w.branch-at-canaans-edge]], 518); "Dr. King Reports No Chicago Truce," NYT, Aug. 18, 1966, p. 31 (cited by [[w.branch-at-canaans-edge]], 518); New York Times, Aug. 19, 1966, p. 19 (cited by [[w.branch-at-canaans-edge]], 518); [[w.cohen-american-pharaoh]], 412 (cited by [[w.branch-at-canaans-edge]], 518). Names: Heineman, Daley, King, Raby.'
+    n: '[[w.branch-at-canaans-edge]], 516–18; [[w.bernstein-guns-or-butter]], 398; [[w.ralph-northern-protest]], 152–58; [[w.anderson-confronting-the-color-line]], 237, 241, 252–53 (the Cathedral of St. James, Heineman presiding; "we are the mirror"; King; the subcommittee); [[w.cohen-american-pharaoh]], 402–12. Check: Ralph gives Arthur Mohl of the Real Estate Board: "we are the mirrors" (154). Check: Anderson gives some sixty at the table (237). Check: Cohen and Taylor give almost seventy men (402). To check: Garrow, *Chicago 1966* (1989), 93–94 (cited by [[w.branch-at-canaans-edge]], 517); Chicago deliberations chiefly from minutes preserved by John McKnight, "The Summit Negotiations, Chicago, August 17—August 26, 1966," in Garrow, ed., Chicago 1966, pp. 111–45. Also Anderson and Pickering, Confronting, pp. 237–69 (cited by [[w.branch-at-canaans-edge]], 517); [[w.ralph-northern-protest]], 152–71 (cited by [[w.branch-at-canaans-edge]], 517); [[w.garrow-bearing-the-cross]], 503–25 (cited by [[w.branch-at-canaans-edge]], 517); [[w.cohen-american-pharaoh]], 402–22 (cited by [[w.branch-at-canaans-edge]], 517); [[w.fairclough-to-redeem-the-soul]], 300ff (cited by [[w.branch-at-canaans-edge]], 517); Garrow, *Chicago 1966* (1989), 133–34 (cited by [[w.branch-at-canaans-edge]], 518); Garrow, *Chicago 1966* (1989), 78–79 (cited by [[w.branch-at-canaans-edge]], 518); [[w.anderson-confronting-the-color-line]], 254 (cited by [[w.branch-at-canaans-edge]], 518); "Dr. King Reports No Chicago Truce," NYT, Aug. 18, 1966, p. 31 (cited by [[w.branch-at-canaans-edge]], 518); New York Times, Aug. 19, 1966, p. 19 (cited by [[w.branch-at-canaans-edge]], 518); [[w.cohen-american-pharaoh]], 412 (cited by [[w.branch-at-canaans-edge]], 518). Names: Heineman, Daley, King, Raby.'
     src:
       c: 3ce03e4f
       rows:
@@ -1555,6 +1587,8 @@ entries:
         - 'via w.ralph-northern-protest 153 n.70: A-B, D, F-G'
         - 'via w.ralph-northern-protest 154 n.73: D'
         - 'w.anderson-confronting-the-color-line 237, 241, 252–53: A, D-F'
+        - 'w.cohen-american-pharaoh 402–12: A, C, E-G'
+        - 'via w.cohen-american-pharaoh 402 n.5: A'
     tags: [name:heineman-ben-w, name:daley-richard-j, name:king-martin-luther-jr, name:raby-albert, state:il, city:chicago]
   - id: cal.1966-08-18.india-and-china-cultural-revolution
     when: Aug. 18
@@ -1639,7 +1673,12 @@ entries:
     thread: open-housing
     also: [king]
     c: 'Chicago, the Greater Mount Hope Baptist Church, fifteen hundred inside, a thousand outside. King: "We''ve just brought to the surface hatred that was already there"; "I''m going to live wherever I want to live."'
-    n: '[[w.ralph-northern-protest]], 159–60. To check: King speech, Aug. 18, 1966, MLK speech file, MLK Library (cited by [[w.ralph-northern-protest]], 160 n.92). See [[cal.1966-08-17.open-housing]]. Names: King.'
+    n: '[[w.ralph-northern-protest]], 159–60; [[w.cohen-american-pharaoh]], 412 (1,000 at Greater Mount Hope; 250 testers to a hundred firms; "high blood pressure when it comes to words and anemia when it comes to action"; Bevel: "until every white person out there joins the Republican Party"). To check: King speech, Aug. 18, 1966, MLK speech file, MLK Library (cited by [[w.ralph-northern-protest]], 160 n.92). See [[cal.1966-08-17.open-housing]]. Names: King.'
+    src:
+      c: 2406fc58
+      rows:
+        - 'w.ralph-northern-protest 159–60: all'
+        - 'w.cohen-american-pharaoh 412: all'
     tags: [state:il, city:chicago, name:king-martin-luther-jr]
   - id: cal.1966-08-19.cities-and-housing
     when: Aug. 19
@@ -1726,7 +1765,7 @@ entries:
     thread: open-housing
     also: [mayors]
     c: 'Chicago. Movement teams test a hundred real estate offices, some in Bridgeport. Daley''s lawyers get from Judge Cornelius Harrington, within two hours, an injunction: one demonstration a day, by daylight, outside the rush hours. Raby: "The issue is still justice in housing."'
-    n: '[[w.branch-at-canaans-edge]], 518–19; [[w.ralph-northern-protest]], 160; [[w.anderson-confronting-the-color-line]], 257 (the city''s petition and the injunction). To check: [[w.cohen-american-pharaoh]], 413–14 (cited by [[w.branch-at-canaans-edge]], 519); "Chicago Injunction Limits Rights Drive (cited by [[w.branch-at-canaans-edge]], 519); Dr. King May Defy It," NYT, Aug. 20, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 519); Notice and Complaint, City of Chicago v; Chicago Sun-Times, 19 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 257 n.10). Rev. Dr. Martin Luther King et al., Aug. 19, 1966, A/SC2Al (cited by [[w.branch-at-canaans-edge]], 519); [[w.anderson-confronting-the-color-line]], 257 (cited by [[w.branch-at-canaans-edge]], 519). See [[cal.1966-08-17.open-housing]]. Names: Daley, Raby.'
+    n: '[[w.branch-at-canaans-edge]], 518–19; [[w.ralph-northern-protest]], 160; [[w.anderson-confronting-the-color-line]], 257 (the city''s petition and the injunction); [[w.cohen-american-pharaoh]], 412–15. To check: "Chicago Injunction Limits Rights Drive (cited by [[w.branch-at-canaans-edge]], 519); Dr. King May Defy It," NYT, Aug. 20, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 519); Notice and Complaint, City of Chicago v; Chicago Sun-Times, 19 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 257 n.10). Rev. Dr. Martin Luther King et al., Aug. 19, 1966, A/SC2Al (cited by [[w.branch-at-canaans-edge]], 519); [[w.anderson-confronting-the-color-line]], 257 (cited by [[w.branch-at-canaans-edge]], 519). See [[cal.1966-08-17.open-housing]]. Names: Daley, Raby.'
     src:
       c: 593a331d
       rows:
@@ -1737,6 +1776,7 @@ entries:
         - 'w.ralph-northern-protest 160: all'
         - 'w.anderson-confronting-the-color-line 257: A, C'
         - 'via w.anderson-confronting-the-color-line 257 n.10: A, C'
+        - 'w.cohen-american-pharaoh 412–15: A-D'
     tags: [name:daley-richard-j, name:raby-albert, state:il, city:chicago]
   - id: cal.1966-08-19.laos
     when: Aug. 19–20
@@ -1755,14 +1795,24 @@ entries:
     thread: mayors
     also: [open-housing]
     c: 'Daley on television in prime time, his first such address, ten minutes: he hates injunctions, but the "dilemma of balancing rights"; the leaders should take "the issue out of the streets and onto the conference table."'
-    n: '[[w.ralph-northern-protest]], 160–61. See [[cal.1966-08-19.open-housing]]. Names: Daley.'
+    n: '[[w.ralph-northern-protest]], 160–61; [[w.cohen-american-pharaoh]], 414 (ten minutes of the three stations'' evening time). See [[cal.1966-08-19.open-housing]]. Names: Daley.'
+    src:
+      c: 9e1973b2
+      rows:
+        - 'w.ralph-northern-protest 160–61: all'
+        - 'w.cohen-american-pharaoh 414: all'
     tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1966-08-19.open-housing-2
     when: Aug. 19
     date: '1966-08-19'
     thread: open-housing
     c: 'Chicago. The summit''s subcommittee meets first, Thomas Ayers of Commonwealth Edison in the chair; for the movement Raby, Kale Williams, McDermott, Berry and Bevel. Raby: "we will get definite agreements on open housing and get them in writing."'
-    n: '[[w.ralph-northern-protest]], 161–62. See [[cal.1966-08-17.open-housing]]. Names: Raby.'
+    n: '[[w.ralph-northern-protest]], 161–62; [[w.cohen-american-pharaoh]], 415, 417. See [[cal.1966-08-17.open-housing]]. Names: Raby.'
+    src:
+      c: 9afd5ef4
+      rows:
+        - 'w.ralph-northern-protest 161–62: all'
+        - 'w.cohen-american-pharaoh 415, 417: all'
     tags: [state:il, city:chicago, name:raby-albert]
   - id: cal.1966-08-19.open-housing-3
     when: Aug. 19
@@ -1827,7 +1877,7 @@ entries:
     date: '1966-08-21'
     thread: open-housing
     c: 'Chicago. King leads five hundred, the injunction''s limit, five miles through the East Side near Trumbull Park, in rain, some 2,000 jeering. Rockwell''s Nazis and four Klansmen rally in Marquette Park. Bevel and Jesse Jackson march in Evergreen Park and Chicago Heights. King: three thousand to march into Cicero the next Sunday.'
-    n: '[[w.branch-at-canaans-edge]], 520; [[w.ralph-northern-protest]], 162–64; [[w.anderson-confronting-the-color-line]], 258 (South Deering, Chicago Heights, Evergreen Park, in rain; Rockwell in Marquette Park). Check: Ralph has Jerry Davis of the AFSC lead three hundred in Chicago Heights, Bevel and Jesse Jackson two hundred in Evergreen Park (163), and King''s march into Cicero announced Aug. 20 for Aug. 28 (166). Check: Anderson puts King''s announcement of the Cicero march on Saturday, Aug. 20 (257–58), and gives Rockwell a crowd of fifteen hundred (258). To check: Investigator''s report dated Aug. 22, 1966, File 940, RS, CHS (cited by [[w.branch-at-canaans-edge]], 520); "Dr. King and 500 Jeered in 5-Mile Chicago March," NYT, Aug. 22, 1966, p. | (cited by [[w.branch-at-canaans-edge]], 520); Garrow, *Chicago 1966* (1989), 82 (cited by [[w.branch-at-canaans-edge]], 520); New York Times, Aug. 22, 1966, p. 37 (cited by [[w.branch-at-canaans-edge]], 520); bid., p. 166 (cited by [[w.branch-at-canaans-edge]], 520); [[w.garrow-bearing-the-cross]], 517–18 (cited by [[w.branch-at-canaans-edge]], 520); Chicago Tribune, Aug. 22, 1966, 1–2 (cited by [[w.ralph-northern-protest]], 164 n.104); Chicago Sun-Times, 22 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 258 n.15). See [[cal.1966-08-19.open-housing]]. Names: King.'
+    n: '[[w.branch-at-canaans-edge]], 520; [[w.ralph-northern-protest]], 162–64; [[w.anderson-confronting-the-color-line]], 258 (South Deering, Chicago Heights, Evergreen Park, in rain; Rockwell in Marquette Park); [[w.cohen-american-pharaoh]], 416. Check: Ralph has Jerry Davis of the AFSC lead three hundred in Chicago Heights, Bevel and Jesse Jackson two hundred in Evergreen Park (163), and King''s march into Cicero announced Aug. 20 for Aug. 28 (166). Check: Anderson puts King''s announcement of the Cicero march on Saturday, Aug. 20 (257–58), and gives Rockwell a crowd of fifteen hundred (258). To check: Investigator''s report dated Aug. 22, 1966, File 940, RS, CHS (cited by [[w.branch-at-canaans-edge]], 520); "Dr. King and 500 Jeered in 5-Mile Chicago March," NYT, Aug. 22, 1966, p. | (cited by [[w.branch-at-canaans-edge]], 520); Garrow, *Chicago 1966* (1989), 82 (cited by [[w.branch-at-canaans-edge]], 520); New York Times, Aug. 22, 1966, p. 37 (cited by [[w.branch-at-canaans-edge]], 520); bid., p. 166 (cited by [[w.branch-at-canaans-edge]], 520); [[w.garrow-bearing-the-cross]], 517–18 (cited by [[w.branch-at-canaans-edge]], 520); Chicago Tribune, Aug. 22, 1966, 1–2 (cited by [[w.ralph-northern-protest]], 164 n.104); Chicago Sun-Times, 22 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 258 n.15). See [[cal.1966-08-19.open-housing]]. Names: King.'
     src:
       c: afb84c3e
       rows:
@@ -1842,6 +1892,7 @@ entries:
         - 'via w.ralph-northern-protest 164 n.104: C'
         - 'w.anderson-confronting-the-color-line 258: A, C-D'
         - 'via w.anderson-confronting-the-color-line 258 n.15: A, C-D'
+        - 'w.cohen-american-pharaoh 416: A, C-E'
     tags: [name:king-martin-luther-jr, state:il, city:chicago]
   - id: cal.1966-08-21.elections-1966
     when: Aug. 21
@@ -1876,7 +1927,7 @@ entries:
     thread: mayors
     also: [open-housing]
     c: 'Daley: "We''ve got commies, we''ve got Nazis, and everybody else you can name showing up. I wish they''d go home!" Ogilvie: marching in Cicero "awfully close to a suicidal act"; Kerner sends Guard units ahead. Aug. 25, the City Council, all seven Negro aldermen with the majority, 45–1 for Daley.'
-    n: '[[w.branch-at-canaans-edge]], 520–21 (the New York Times, Aug. 25: "the present downhill course to nowhere"); [[w.ralph-northern-protest]], 165–66; [[w.anderson-confronting-the-color-line]], 258–59 (Daley: "The Commies are in there"; Ogilvie; Kerner''s Guard, Thursday). Check: the days. To check: Garrow, *Chicago 1966* (1989), 82–83 (cited by [[w.branch-at-canaans-edge]], 520); New York Times, Aug. 25, 1966, p. 36 (cited by [[w.branch-at-canaans-edge]], 521); [[w.cohen-american-pharaoh]], 415 (cited by [[w.branch-at-canaans-edge]], 521); Ralph, Northern, Dalop: (cited by [[w.branch-at-canaans-edge]], 521); "Remarks of Alderman Leon M. Despres in the Chicago City Council on August 25, 1966," Despres papers, box 63-3, CHS (cited by [[w.ralph-northern-protest]], 165 n.109). See [[cal.1966-08-21.open-housing]]. Names: Daley, Kerner.'
+    n: '[[w.branch-at-canaans-edge]], 520–21 (the New York Times, Aug. 25: "the present downhill course to nowhere"); [[w.ralph-northern-protest]], 165–66; [[w.anderson-confronting-the-color-line]], 258–59 (Daley: "The Commies are in there"; Ogilvie; Kerner''s Guard, Thursday); [[w.cohen-american-pharaoh]], 415–16 (Ogilvie; the Council''s vote). Check: the days. Check: Cohen and Taylor give Daley at his news conference of Aug. 22: "We don''t want any people who come into our city for the purpose of agitation regardless of who they are" (416); they do not date the Council''s vote (415). To check: Garrow, *Chicago 1966* (1989), 82–83 (cited by [[w.branch-at-canaans-edge]], 520); New York Times, Aug. 25, 1966, p. 36 (cited by [[w.branch-at-canaans-edge]], 521); Ralph, Northern, Dalop: (cited by [[w.branch-at-canaans-edge]], 521); "Remarks of Alderman Leon M. Despres in the Chicago City Council on August 25, 1966," Despres papers, box 63-3, CHS (cited by [[w.ralph-northern-protest]], 165 n.109). See [[cal.1966-08-21.open-housing]]. Names: Daley, Kerner.'
     src:
       c: f085c1c9
       rows:
@@ -1887,6 +1938,7 @@ entries:
         - 'w.ralph-northern-protest 165–66: C-D'
         - 'via w.ralph-northern-protest 165 n.109: D'
         - 'w.anderson-confronting-the-color-line 258–59: A-C'
+        - 'w.cohen-american-pharaoh 415–16: B, D'
     tags: [name:daley-richard-j, name:kerner-otto, state:il, city:chicago]
   - id: cal.1966-08-22.press-and-broadcasting
     when: Aug. 22
@@ -1935,6 +1987,17 @@ entries:
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 268: all'
     tags: [name:mcnamara-robert-s, name:russell-richard-b, name:mahon-george-h]
+  - id: cal.1966-08-22.open-housing
+    when: Aug. 22–25
+    date: '1966-08-22'
+    thread: open-housing
+    c: 'Chicago. The summit''s subcommittee, Ayers in the chair, meets Aug. 22, 24 and 25. Marciniak and Ayers: the movement''s delegates bargain in bad faith when they raise the schools, jobs and the slums. A body to oversee the agreement, its powers left vague.'
+    n: '[[w.cohen-american-pharaoh]], 417.'
+    src:
+      c: 111351d2
+      rows:
+        - 'w.cohen-american-pharaoh 417: all'
+    tags: [state:il, city:chicago]
   - id: cal.1966-08-23.space
     when: Aug. 23
     date: '1966-08-23'
@@ -2275,7 +2338,7 @@ entries:
     thread: open-housing
     also: [king, states-and-cities]
     c: 'Chicago. The summit, from Aug. 17: Daley and the city, the Real Estate Board, the Housing Authority, churches, business, and labor with the Freedom Movement; Aug. 26, an agreement at the Palmer House. The Commission on Human Relations to enforce the city''s fair-housing ordinance; the Real Estate Board to drop its opposition to open occupancy (Check the terms); public housing scattered and low; mortgages without regard to race. The marches suspended, the one into Cicero called off. King: "the first step in a 1,000-mile journey."'
-    n: '[Report of the subcommittee to the summit meeting on fair housing](https://www.crmvet.org/docs/66chiagm.htm) (Aug. 26, 1966); King, [Statement on Open Housing Made at the Palmer House](https://okra.stanford.edu/link/document660826-000) (King Papers Project). [[w.garrow-bearing-the-cross]], 503–07, 518–24; [[w.branch-at-canaans-edge]], 521–22 (the Walnut Room; Ayers''s report; a goal of one percent Negro occupancy in the seventy-five neighborhoods, left out of the text; Cody: "We are like a little United Nations"; Daley: "we can amend our injunction"; the ten points passed unanimously); [[w.kotz-judgment-days]], 367; [[w.bernstein-guns-or-butter]], 398–99 (King: "the first step in a thousand-mile journey"); [[w.young-easy-burden]], 414–16; [[w.ralph-northern-protest]], 168–71; [[w.anderson-confronting-the-color-line]], 262–66 (the Palmer House; Ayers''s report; Daley: "we can amend our injunction"); [[w.anderson-confronting-the-color-line]], 441–45 (the subcommittee''s report, App. II). To check: [[w.chicago-1966]] (which prints the agreement; Check); Chicago Real Estate Board, "Statement . . .," Aug. 17, 1966; Chicago Freedom Movement, "To Achieve Justice . . .," Aug. 17, 1966, Garrow''s files (McKnight); John McKnight, "The Summit Negotiations, Chicago, August 17, 1966–August 26, 1966," unpublished, 1966, 1–14, John McKnight Files, Evanston (cited by [[w.garrow-bearing-the-cross]], 503 n.34); Chicago Daily News, Aug. 26, 1966, 1; Aug. 27, 1966, 1 (cited by [[w.garrow-bearing-the-cross]], 521 n.41); New York Times, Aug. 27, 1966, 1; Chicago Tribune, Aug. 27, 1966, 1 (cited by [[w.garrow-bearing-the-cross]], 523 n.43); John McKnight, "The Summit Negotiations, Chicago, August 17—August 26, 1966," in Garrow, ed., Chicago 1966, pp. 136–45 (cited by [[w.branch-at-canaans-edge]], 521); [[w.cohen-american-pharaoh]], 418–19 (cited by [[w.branch-at-canaans-edge]], 521); Garrow, *Chicago 1966* (1989), 137 (cited by [[w.branch-at-canaans-edge]], 521); "Rights Aides Set Goal in Chicago/ Seek 1% Negro Occupancy in 75 Areas by April 30," NYT, Aug. 28, 1966, p. 50 (cited by [[w.branch-at-canaans-edge]], 521); "Housing Pact Set, Dr. King Calls off Chicago Marches/ He Hails 10-Point Program and ''Defers'' Rights Rally by 3,000 in Cicero/ Realty Men Back Plan/ But Several Negro Groups Dissent and Map Protest by 300 Tomorrow," NYT, Aug. 27, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 522); Thomas G. Ayers, "The ''Summit Agreement, " in Garrow, ed., Chicago 1966, pp. 147–54. ol VADLEY MOMENTS (cited by [[w.branch-at-canaans-edge]], 522); Chicago Daily News, 29 August 1966; Chicago Sun-Times, 25 August 1966; "Report of the Subcommittee," p. 11 (cited by [[w.anderson-confronting-the-color-line]], 262 n.28). See [[cal.1966-07-10.open-housing]]. Names: King, Daley.'
+    n: '[Report of the subcommittee to the summit meeting on fair housing](https://www.crmvet.org/docs/66chiagm.htm) (Aug. 26, 1966); King, [Statement on Open Housing Made at the Palmer House](https://okra.stanford.edu/link/document660826-000) (King Papers Project). [[w.garrow-bearing-the-cross]], 503–07, 518–24; [[w.branch-at-canaans-edge]], 521–22 (the Walnut Room; Ayers''s report; a goal of one percent Negro occupancy in the seventy-five neighborhoods, left out of the text; Cody: "We are like a little United Nations"; Daley: "we can amend our injunction"; the ten points passed unanimously); [[w.kotz-judgment-days]], 367; [[w.bernstein-guns-or-butter]], 398–99 (King: "the first step in a thousand-mile journey"); [[w.young-easy-burden]], 414–16; [[w.ralph-northern-protest]], 168–71; [[w.anderson-confronting-the-color-line]], 262–66 (the Palmer House; Ayers''s report; Daley: "we can amend our injunction"); [[w.anderson-confronting-the-color-line]], 441–45 (the subcommittee''s report, App. II); [[w.cohen-american-pharaoh]], 417–21. To check: [[w.chicago-1966]] (which prints the agreement; Check); Chicago Real Estate Board, "Statement . . .," Aug. 17, 1966; Chicago Freedom Movement, "To Achieve Justice . . .," Aug. 17, 1966, Garrow''s files (McKnight); John McKnight, "The Summit Negotiations, Chicago, August 17, 1966–August 26, 1966," unpublished, 1966, 1–14, John McKnight Files, Evanston (cited by [[w.garrow-bearing-the-cross]], 503 n.34); Chicago Daily News, Aug. 26, 1966, 1; Aug. 27, 1966, 1 (cited by [[w.garrow-bearing-the-cross]], 521 n.41); New York Times, Aug. 27, 1966, 1; Chicago Tribune, Aug. 27, 1966, 1 (cited by [[w.garrow-bearing-the-cross]], 523 n.43); John McKnight, "The Summit Negotiations, Chicago, August 17—August 26, 1966," in Garrow, ed., Chicago 1966, pp. 136–45 (cited by [[w.branch-at-canaans-edge]], 521); Garrow, *Chicago 1966* (1989), 137 (cited by [[w.branch-at-canaans-edge]], 521); "Rights Aides Set Goal in Chicago/ Seek 1% Negro Occupancy in 75 Areas by April 30," NYT, Aug. 28, 1966, p. 50 (cited by [[w.branch-at-canaans-edge]], 521); "Housing Pact Set, Dr. King Calls off Chicago Marches/ He Hails 10-Point Program and ''Defers'' Rights Rally by 3,000 in Cicero/ Realty Men Back Plan/ But Several Negro Groups Dissent and Map Protest by 300 Tomorrow," NYT, Aug. 27, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 522); Thomas G. Ayers, "The ''Summit Agreement, " in Garrow, ed., Chicago 1966, pp. 147–54. ol VADLEY MOMENTS (cited by [[w.branch-at-canaans-edge]], 522); Chicago Daily News, 29 August 1966; Chicago Sun-Times, 25 August 1966; "Report of the Subcommittee," p. 11 (cited by [[w.anderson-confronting-the-color-line]], 262 n.28). See [[cal.1966-07-10.open-housing]]. Names: King, Daley.'
     src:
       c: 8992f5e8
       rows:
@@ -2301,6 +2364,9 @@ entries:
         - 'w.anderson-confronting-the-color-line 262–66: A-C'
         - 'w.anderson-confronting-the-color-line 441–45: D-G'
         - 'via w.anderson-confronting-the-color-line 262 n.28: A-C'
+        - 'w.cohen-american-pharaoh 417–21: A-H'
+        - 'via w.cohen-american-pharaoh 418 n.29: A-C'
+        - 'via w.cohen-american-pharaoh 420 n.31: H'
     tags: [name:king-martin-luther-jr, name:daley-richard-j, state:il, city:chicago]
     short: Chicago's summit agreement
   - id: cal.1966-08-26.jobs-and-wages
@@ -2498,6 +2564,18 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 411 n: all'
         - 'via x.1966-08-29.lansdale-to-lodge-women-aug-29: all'
     tags: [name:lansdale-edward-g, name:lodge-henry-cabot]
+  - id: cal.1966-08-29.open-housing
+    when: Aug. 29
+    date: '1966-08-29'
+    thread: open-housing
+    c: 'Chicago, City Hall, the LaSalle Street door. Twelve neighborhood groups against the summit agreement, the Kilbourn Organization among them; signs: "Daley Sold Out Chicago," "The Summit Another Munich." Daley does not see them.'
+    n: '[[w.cohen-american-pharaoh]], 420; [[w.anderson-confronting-the-color-line]], 273 (the pickets: "Daley Sold Out Chicago"). Check: the day; Cohen and Taylor: the Monday after Aug. 26. Names: Daley.'
+    src:
+      c: da19aa0f
+      rows:
+        - 'w.cohen-american-pharaoh 420: all'
+        - 'w.anderson-confronting-the-color-line 273: A, C'
+    tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1966-08-30.transportation
     when: Aug. 30
     date: '1966-08-30'

@@ -65,6 +65,17 @@ entries:
         - 'w.thomas-robert-kennedy 254: all'
         - 'via w.thomas-robert-kennedy 254 n.the-newspapermen-told-him: all'
     tags: [name:kennedy-robert-f, name:evans-courtney-a, name:kennedy-john-f]
+  - id: cal.1963-07-01.open-housing
+    when: July 1
+    date: '1963-07-01'
+    thread: open-housing
+    c: Chicago, the City Council. Charles Chew, the 17th Ward's new independent alderman, and Despres introduce an open-housing ordinance; Holman, of the Judiciary Committee, has it tabled to Aug. 22.
+    n: '[[w.cohen-american-pharaoh]], 305.'
+    src:
+      c: 4f4d8367
+      rows:
+        - 'w.cohen-american-pharaoh 305: all'
+    tags: [state:il, city:chicago]
   - id: cal.1963-07-02.march-on-washington
     when: July 2
     date: '1963-07-02'
@@ -246,7 +257,7 @@ entries:
     thread: civil-rights-organizations
     also: [mayors, march-on-washington]
     c: Chicago, the NAACP's fifty-fourth convention. Daley, who had said at its opening "there are no ghettos in Chicago," leads ten thousand delegates down State Street; in Grant Park twenty minutes of boos drive him from the microphone; he blames "the Republicans." The Reverend J. H. Jackson of the National Baptist Convention, just out against the March on Washington, booed; hecklers pin him to a wall, "Kill him!", until police take him off.
-    n: '[[w.branch-parting-the-waters]], 848; [[w.ralph-northern-protest]], 18–19 (Daley heckled; Jackson: "Uncle Tom must go!"); [[w.anderson-confronting-the-color-line]], 111–12 (Daley in the march; a caucus of about a hundred keeps him from speaking at the rally). To check: The Crisis, Aug.-Sept. 1963, 389–400; Chicago Sun-Times, July 5, 1963, 4; Chicago Defender, July 6, 1963, 1; New York Times, July 5, 1, July 6, 1963, 1; Newsweek, July 15, 1963, 20 (cited by [[w.branch-parting-the-waters]], 848 n.1). Check: the day of Daley''s "no ghettos" and of Jackson''s statement. See [[cal.1963-07-02.march-on-washington]]. Names: Daley.'
+    n: '[[w.branch-parting-the-waters]], 848; [[w.ralph-northern-protest]], 18–19 (Daley heckled; Jackson: "Uncle Tom must go!"); [[w.anderson-confronting-the-color-line]], 111–12 (Daley in the march; a caucus of about a hundred keeps him from speaking at the rally); [[w.cohen-american-pharaoh]], 302–4. Check: Cohen and Taylor give 50,000 marchers (303) and fifteen minutes of boos (304). To check: The Crisis, Aug.-Sept. 1963, 389–400; Chicago Sun-Times, July 5, 1963, 4; Chicago Defender, July 6, 1963, 1; New York Times, July 5, 1, July 6, 1963, 1; Newsweek, July 15, 1963, 20 (cited by [[w.branch-parting-the-waters]], 848 n.1). Check: the day of Daley''s "no ghettos" and of Jackson''s statement. See [[cal.1963-07-02.march-on-washington]]. Names: Daley.'
     src:
       c: 9b75bb9f
       rows:
@@ -256,6 +267,7 @@ entries:
         - 'via w.branch-parting-the-waters 848 n.1d: all'
         - 'w.ralph-northern-protest 18–19: ?'
         - 'w.anderson-confronting-the-color-line 111–12: B-C'
+        - 'w.cohen-american-pharaoh 302–4: A, D-F'
     tags: [name:daley-richard-j, state:il, city:chicago]
   - id: cal.1963-07-04.civil-rights-bill
     when: July 4
@@ -381,6 +393,17 @@ entries:
         - 'w.branch-parting-the-waters 718: all'
         - 'via w.branch-parting-the-waters 718 n.2: all'
     tags: [state:ms, city:greenwood-ms]
+  - id: cal.1963-07-06.civil-rights-organizations
+    when: July 6
+    date: '1963-07-06'
+    thread: civil-rights-organizations
+    c: Chicago, the Morrison Hotel. The NAACP's convention closes with thanks to Daley; a version thanking only "municipal authorities" gets about a third of the vote.
+    n: '[[w.cohen-american-pharaoh]], 304. Names: Daley.'
+    src:
+      c: a778346b
+      rows:
+        - 'w.cohen-american-pharaoh 304: all'
+    tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1963-07-07.vietnam
     when: July 7
     date: '1963-07-07'
@@ -546,12 +569,13 @@ entries:
     thread: desegregation-schools
     also: [civil-rights-organizations]
     c: Chicago. CORE's chapter sits in at the Board of Education, more than a week.
-    n: '[[w.ralph-northern-protest]], 19; [[w.anderson-confronting-the-color-line]], 112–13. Check: Anderson: in the board president''s conference room from July 10 to July 18, when the police removed them (112).'
+    n: '[[w.ralph-northern-protest]], 19; [[w.anderson-confronting-the-color-line]], 112–13; [[w.cohen-american-pharaoh]], 304–5 (CORE''s sit-in, eight days; seven men and three girls carried out; Daley: "We can''t let anybody physically take over city offices"). Check: Anderson: in the board president''s conference room from July 10 to July 18, when the police removed them (112).'
     src:
       c: 1c576b8e
       rows:
         - 'w.ralph-northern-protest 19: all'
         - 'w.anderson-confronting-the-color-line 112–13: A-B'
+        - 'w.cohen-american-pharaoh 304–5: all'
     tags: [state:il, city:chicago]
   - id: cal.1963-07-11.desegregation-schools-okc
     when: July 11
@@ -1359,6 +1383,17 @@ entries:
       c: 5447ffeb
       rows:
         - 'https://archive.org/details/departmentofstat491963unit/page/256/mode/1up: all'
+  - id: cal.1963-07-21.desegregation-schools
+    when: July 21
+    date: '1963-07-21'
+    thread: desegregation-schools
+    c: 'Chicago. Pickets at Olivet Baptist against J. H. Jackson and Mrs. Wendell Green of the Board of Education: "Mrs. Green, enemy of our children."'
+    n: '[[w.cohen-american-pharaoh]], 306.'
+    src:
+      c: 6ca640a4
+      rows:
+        - 'w.cohen-american-pharaoh 306: all'
+    tags: [state:il, city:chicago]
   - id: cal.1963-07-22.railroads
     when: July 22
     date: '1963-07-22'
@@ -1410,6 +1445,17 @@ entries:
         - 'w.poole-joint-chiefs-of-staff 22: all'
         - 'via w.poole-joint-chiefs-of-staff 22 n.16: all'
     tags: [name:mcnamara-robert-s, name:taylor-maxwell]
+  - id: cal.1963-07-22.desegregation-schools
+    when: July 22
+    date: '1963-07-22'
+    thread: desegregation-schools
+    c: 'Chicago, City Hall. CORE demonstrates an hour outside Daley''s office; its leaders ask him to mediate the schools. Daley: the Board of Education independent; he cannot intervene.'
+    n: '[[w.cohen-american-pharaoh]], 305. Names: Daley.'
+    src:
+      c: a313b007
+      rows:
+        - 'w.cohen-american-pharaoh 305: all'
+    tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1963-07-23.program
     when: July 23
     date: '1963-07-23'

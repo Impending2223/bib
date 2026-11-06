@@ -137,13 +137,14 @@ entries:
     date: '1960-12-04'
     thread: elections-1960-count
     c: 'Earl Mazo''s four articles in the New York Herald Tribune, carried in other papers across the country: massive fraud in the election, in Texas and Illinois above all. Nixon asks him to cut the series short.'
-    n: '[[w.kallina-kennedy-v-nixon]], 185, 208. To check: New York Herald Tribune, Dec. 4–7, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 208 n.16). Names: Nixon. Check: the day Nixon asked Mazo to stop; Kallina gives none (185).'
+    n: '[[w.kallina-kennedy-v-nixon]], 185, 208; [[w.cohen-american-pharaoh]], 267–68. To check: New York Herald Tribune, Dec. 4–7, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 208 n.16). Names: Nixon. Check: the day Nixon asked Mazo to stop; Kallina gives none (185).'
     src:
       c: a3261a82
       rows:
         - 'w.kallina-kennedy-v-nixon 208: A'
         - 'w.kallina-kennedy-v-nixon 185: B'
         - 'via w.kallina-kennedy-v-nixon 208 n.16: all'
+        - 'w.cohen-american-pharaoh 267–68: A'
     tags: [name:nixon-richard-m]
   - id: cal.1960-12-05.desegregation-public-places
     when: Dec. 5
@@ -379,7 +380,12 @@ entries:
     thread: elections-1960-count
     also: [states-and-cities]
     c: Chicago. The recount of the State's Attorney's race, which Adamowski asked and the Republicans meant as a test of the presidential count, ends. A county judge had ordered twenty-five teams of counters and every race on the ballots counted. Errors of ten votes or more in Kennedy's favor in 3.1 percent of the precincts recounted, in Nixon's 2.6. Ward's election stands; Adamowski wins a second recount in 1961, his race alone.
-    n: '[[w.kallina-courthouse-over-white-house]], 114–117. See [[cal.1960-11-08.governors-il]]; [[cal.1960-12-19.elections-1960]]. Names: Adamowski, Ward, Kennedy, Nixon.'
+    n: '[[w.kallina-courthouse-over-white-house]], 114–117; [[w.cohen-american-pharaoh]], 268–69 (the recanvass, ended Dec. 9: Nixon 943 votes, Adamowski 6,186 by the board''s count). Check: Cohen and Taylor give the Republicans'' count of the recanvass: 4,500 for Nixon, 13,000 for Adamowski (269). See [[cal.1960-11-08.governors-il]]; [[cal.1960-12-19.elections-1960]]. Names: Adamowski, Ward, Kennedy, Nixon.'
+    src:
+      c: d7237f6c
+      rows:
+        - 'w.kallina-courthouse-over-white-house 114–117: all'
+        - 'w.cohen-american-pharaoh 268–69: A-B'
     tags: [state:il, city:chicago, name:adamowski-benjamin-s, name:ward-daniel-p, name:kennedy-john-f, name:nixon-richard-m, ok:result-form]
   - id: cal.1960-12-09.transition-and-staff
     when: Dec. 9
@@ -506,6 +512,18 @@ entries:
         - 'w.goldberg-barry-goldwater 147–48: all'
         - 'via w.goldberg-barry-goldwater 148 n.172: all'
     tags: [name:goldwater-barry-m]
+  - id: cal.1960-12-13.elections-1960-chicago
+    when: Dec. 13
+    date: '1960-12-13'
+    thread: elections-1960-chicago
+    also: [elections-1960-count]
+    c: Chicago. Judge Thomas Kluczynski of the Cook County Circuit Court dismisses the Republicans' suit against the count.
+    n: '[[w.cohen-american-pharaoh]], 269.'
+    src:
+      c: 248de8a1
+      rows:
+        - 'w.cohen-american-pharaoh 269: all'
+    tags: [state:il, city:chicago]
   - id: cal.1960-12-14.africa
     when: Dec. 14
     date: '1960-12-14'
@@ -527,12 +545,13 @@ entries:
     date: '1960-12-14'
     thread: elections-1960-count
     c: Illinois's State Electoral Board, four Republicans, Governor Stratton among them, and one Democrat, Lohman. Connell and George Dapples, for the Cook County Republicans, ask it not to certify Kennedy's electors, on charges of fraud. The board certifies them, unanimously.
-    n: '[[w.kallina-kennedy-v-nixon]], 211. To check: Chicago Tribune, Dec. 15, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 211 n.19); [[w.kallina-courthouse-over-white-house]], 138–44. See [[cal.1960-11-13.elections-1960]]. Names: Stratton, Lohman, Kennedy.'
+    n: '[[w.kallina-kennedy-v-nixon]], 211; [[w.cohen-american-pharaoh]], 269–70 (Daley before the board: "come up with the evidence"). To check: Chicago Tribune, Dec. 15, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 211 n.19); [[w.kallina-courthouse-over-white-house]], 138–44. See [[cal.1960-11-13.elections-1960]]. Names: Stratton, Lohman, Kennedy.'
     src:
       c: 8be88544
       rows:
         - 'w.kallina-kennedy-v-nixon 211: all'
         - 'via w.kallina-kennedy-v-nixon 211 n.19: all'
+        - 'w.cohen-american-pharaoh 269–70: B-C'
     tags: [name:stratton-william-g, name:lohman-joseph-d, name:kennedy-john-f, state:il]
   - id: cal.1960-12-14.laos
     when: Dec. 14
@@ -1038,11 +1057,12 @@ entries:
     thread: elections-1960-count
     also: [republican-party]
     c: 'Early December. Morton in Chicago: at a press conference he charges Democratic fraud and announces a National Recount and Fair Elections Committee.'
-    n: '[[w.kallina-kennedy-v-nixon]], 184. To check: [[w.kallina-courthouse-over-white-house]], 96–144. See [[cal.1960-11-10.elections-1960]]. Names: Morton. Check: the day.'
+    n: '[[w.kallina-kennedy-v-nixon]], 184; [[w.cohen-american-pharaoh]], 268. To check: [[w.kallina-courthouse-over-white-house]], 96–144. See [[cal.1960-11-10.elections-1960]]. Names: Morton. Check: the day.'
     src:
       c: '83347641'
       rows:
         - 'w.kallina-kennedy-v-nixon 184: all'
+        - 'w.cohen-american-pharaoh 268: A-B'
     tags: [name:morton-thruston-b, state:il, city:chicago]
   - id: cal.1960-12.transition-and-staff-cabinet
     when: Dec.
@@ -1363,3 +1383,14 @@ entries:
       rows:
         - 'w.wofford-of-kennedys-and-kings 134: all'
     tags: [name:wofford-harris, name:kennedy-robert-f, name:kennedy-john-f, state:la, city:new-orleans]
+  - id: cal.1960-12.elections-1960-count
+    when: Dec.
+    date: 1960-12
+    thread: elections-1960-count
+    c: 'Goldwater: Chicago has "the rottenest election machinery in the United States."'
+    n: '[[w.cohen-american-pharaoh]], 268. Check: the day; Cohen and Taylor: after Morton''s visit to Chicago. Names: Goldwater.'
+    src:
+      c: 037157e0
+      rows:
+        - 'w.cohen-american-pharaoh 268: all'
+    tags: [name:goldwater-barry-m]

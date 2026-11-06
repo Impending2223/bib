@@ -2111,7 +2111,13 @@ entries:
     thread: elections-1968-chicago-kennedy
     also: [democratic-party, elections-1968-chicago]
     c: 'Daley endorses Edward Kennedy for Vice President; no choice yet for President. At his news conference: security forces adequate for the convention.'
-    n: '[[w.cq-weekly-report]], July 26, 1968, 1995 (the endorsement); [[w.cq-weekly-report]], Aug. 2, 1968, 2069 (the news conference, security). Check: CQ adds a police spokesman''s "substantial number" of the city''s 11,900 police for the convention, and some 5,500 Guardsmen at "drills" in five armories (2069). Names: Daley, Kennedy.'
+    n: '[[w.cq-weekly-report]], July 26, 1968, 1995 (the endorsement); [[w.cq-weekly-report]], Aug. 2, 1968, 2069 (the news conference, security). [[w.cohen-american-pharaoh]], 470 (at a press conference in July, by Criswell''s report to Johnson: "I hope the convention drafts him"). Check: CQ adds a police spokesman''s "substantial number" of the city''s 11,900 police for the convention, and some 5,500 Guardsmen at "drills" in five armories (2069). Names: Daley, Kennedy.'
+    src:
+      c: ed476fc1
+      rows:
+        - 'w.cq-weekly-report July 26, 1968, 1995: ?'
+        - 'w.cq-weekly-report Aug. 2, 1968, 2069: ?'
+        - 'w.cohen-american-pharaoh 470: A'
     tags: [name:daley-richard-j, name:kennedy-edward-m]
   - id: cal.1968-07-24.elections-1968-4
     when: July 24
@@ -3683,3 +3689,15 @@ entries:
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 287: all'
     tags: [state:il]
+  - id: cal.1968-07.labor-disputes
+    when: July
+    date: 1968-07
+    thread: labor-disputes
+    also: [elections-1968-chicago]
+    c: Chicago. Concerned Transit Workers, dissidents, in a wildcat strike, four days, early in the month; another threatened from Aug. 25.
+    n: '[[w.cohen-american-pharaoh]], 462. Check: the days.'
+    src:
+      c: 42d88326
+      rows:
+        - 'w.cohen-american-pharaoh 462: all'
+    tags: [state:il, city:chicago]

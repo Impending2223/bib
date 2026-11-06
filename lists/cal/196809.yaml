@@ -190,13 +190,14 @@ entries:
     thread: elections-1968-chicago-streets
     also: [civil-disorders]
     c: 'Chicago. Daley''s report, "The Strategy of Confrontation": police intelligence knew of plans "to assassinate Senator Eugene McCarthy, Vice-President Hubert Humphrey, Mayor Richard J. Daley, and other political leaders." Aug. 22, the State''s Attorney had called a grand jury on the stories, sixteen subpoenaed Aug. 23.'
-    n: '[[w.chester-american-melodrama]], 596–97. To check: Daley, "The Strategy of Confrontation," report, Sept. 6, 1968 (cited by [[w.chester-american-melodrama]], 596); Chicago police intelligence report, Aug. 20, 1968 (cited by [[w.chester-american-melodrama]], 596). Names: Daley, McCarthy, Humphrey.'
+    n: '[[w.chester-american-melodrama]], 596–97; [[w.cohen-american-pharaoh]], 482–83. To check: Daley, "The Strategy of Confrontation," report, Sept. 6, 1968 (cited by [[w.chester-american-melodrama]], 596); Chicago police intelligence report, Aug. 20, 1968 (cited by [[w.chester-american-melodrama]], 596). Names: Daley, McCarthy, Humphrey.'
     src:
       c: c4ec2c6b
       rows:
         - 'w.chester-american-melodrama 596–97: all'
         - 'via x.1968-09-06.daley-the-strategy-of-confrontation-report-sept: B'
         - 'via x.1968-08-20.chicago-police-intelligence-report-aug-20-1968: C'
+        - 'w.cohen-american-pharaoh 482–83: A-B'
     tags: [name:daley-richard-j, name:mccarthy-eugene-j, name:humphrey-hubert-h, city:chicago, state:il]
   - id: cal.1968-09-06.cities-and-housing
     when: Sept. 6
@@ -358,6 +359,17 @@ entries:
       rows:
         - 'w.anthony-war-in-northern-laos 279: all'
     tags: [name:unger-leonard, name:sullivan-william-h, name:souvanna-phouma, name:brown-george-s]
+  - id: cal.1968-09-09.elections-1968-chicago-streets
+    when: Sept. 9
+    date: '1968-09-09'
+    thread: elections-1968-chicago-streets
+    c: 'Chicago, Daley''s first press conference since the convention. To a *Daily News* reporter on the word at Ribicoff: "You''re a liar." Daley: "The policeman isn''t there to create disorder. The policeman is there to preserve disorder."'
+    n: '[[w.cohen-american-pharaoh]], 482. Names: Daley, Ribicoff.'
+    src:
+      c: 275ffb87
+      rows:
+        - 'w.cohen-american-pharaoh 482: all'
+    tags: [state:il, city:chicago, name:daley-richard-j, name:ribicoff-abraham]
   - id: cal.1968-09-10.elections-1968
     when: Sept. 10
     date: '1968-09-10'
@@ -1722,3 +1734,14 @@ entries:
       rows:
         - 'w.zaroulis-who-spoke-up 203: all'
     tags: [name:hayden-tom, name:davis-rennie]
+  - id: cal.1968-09.elections-1968-wallace
+    when: Sept.
+    date: 1968-09
+    thread: elections-1968-wallace
+    c: 'Atlanta. Maddox: he backs an independent ticket of Wallace for President and Daley for Vice President.'
+    n: '[[w.cohen-american-pharaoh]], 484. Check: the day; Cohen and Taylor: mid-September. Names: Maddox, Daley.'
+    src:
+      c: dd9d7ae6
+      rows:
+        - 'w.cohen-american-pharaoh 484: all'
+    tags: [name:maddox-lester, name:daley-richard-j]
