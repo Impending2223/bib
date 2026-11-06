@@ -22,7 +22,7 @@ STYLE
 import os
 import re
 
-from . import contents, store
+from . import bills, contents, store
 from .contents import ordinal
 
 PATH = os.path.join(store.ROOT, "congress", "appropriations.yaml")
@@ -138,7 +138,7 @@ def block(key):
     y = int(str(s["date"])[:4])
     g = s["rec"]
     pkg = re.match(r"(GPO-CRECB-\d{4}-pt\d+)", g).group(1)
-    rec = f'<a href="{esc(REC.format(pkg=pkg, g=g))}">{VOL.get(y, "")} Cong. Rec. {esc(s["page"])}</a>'
+    rec = f'<a href="{esc(REC.format(pkg=pkg, g=g))}">{VOL.get(y, "")} Cong. Rec. {esc(bills.rec_page(s["page"]))}</a>'
     by = f' {esc(s["by"])}.' if s.get("by") else ""
     src = (f'<p class="apsrc">Source: <i>{esc(s["head"])}</i>, {rec} ({esc(s["chamber"])}, {date(s["date"])}).{by} '
            f'The columns: {heads}. Indefinite appropriations as the table counts them; no permanent or back-door '

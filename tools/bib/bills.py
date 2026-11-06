@@ -78,13 +78,19 @@ def date(iso, until=None):
     return f"{s}, {y}" if not until or until[:4] == y else s
 
 
+def rec_page(p):
+    """A Record page, five digits and more with a comma ('13,819'; the owner's ruling, Nov. 5, 2026), a range's
+    second figure as written."""
+    return re.sub(r"(?<![\d–-])\d{5,}(?!\d)", lambda m: f"{int(m.group(0)):,}", str(p))
+
+
 def rec_link(s):
     g = s.get("rec")
     if not g:
         return ""
     pkg = re.match(r"(GPO-CRECB-\d{4}-pt\d+)", g).group(1)
     y = int(g[10:14])
-    page = f" {s['page']}" if s.get("page") else ""   # Bluebook 13.5: "111 Cong. Rec. 627", no comma
+    page = f" {rec_page(s['page'])}" if s.get("page") else ""   # Bluebook 13.5: "111 Cong. Rec. 627", no comma
     return f'<a href="{esc(REC.format(pkg=pkg, g=g))}">{VOL.get(y, "")} Cong. Rec.{page}</a>'
 
 
