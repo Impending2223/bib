@@ -1,0 +1,136 @@
+# Kept by hand: the hours the times reviewers of rounds 1 and 2 (Nov. 5-6, 2026) refused only because the clock was
+# in doubt: a place whose 1960s daylight time zoneinfo does not record, or two clocks an hour or two apart, the
+# entry not saying whose. Read by tools/times/propose_ranges.py (tier clocks): each a range from the earlier reading
+# to the later, in UTC, the reviewer's reason its basis. Copied from the reviewers' decision files (the scratchpad's
+# times-*/dec.txt, ref.txt, refused.txt and times2-*/decisions.*, dec*.py); an entry since given a time is skipped.
+# id: the entry; local: the hour the record gives (24-hour), on `day` where not the entry's date; readings: the zones
+# the hour may be read in (IANA, or a fixed offset, Etc/GMT+5 for UTC-5); zone: the place's zone (time_zone) where one
+# place is meant; hour: where the hour stands; reason: the reviewer's, as written; by: the reviewer.
+clocks:
+- id: cal.1960-09-14.elections-1960-3
+  local: '12:00'
+  readings: [Etc/GMT+6, Etc/GMT+5]
+  zone: America/Chicago
+  hour: the entry's text, "Grand Forks, N.D., at noon"
+  reason: "Grand Forks at noon: North Dakota's daylight time in 1960 not in zoneinfo"
+  by: times reviewer, 1960-62, round 1
+- id: cal.1960-09-27.elections-1960
+  local: '07:30'
+  readings: [Etc/GMT+5, Etc/GMT+4]
+  zone: America/New_York
+  hour: the entry's text, "comes at 7:30 a.m." (Kallina, 123-24)
+  reason: "Ohio, 7:30 a.m.: the State's daylight time in Sept. 1960 not in zoneinfo (New York's rules give EDT)"
+  by: times reviewer, 1960-62, round 1
+- id: cal.1962-07-11.georgia-albany
+  local: '10:53'
+  readings: [Etc/GMT+5, Etc/GMT+4]
+  zone: America/New_York
+  hour: the entry's text, "at 10:53 a.m." (Branch, 602-3)
+  reason: "Albany, Ga., 10:53 a.m.: Georgia's daylight time in 1962 not in zoneinfo"
+  by: times reviewer, 1960-62, round 1
+- id: cal.1962-07-24.georgia-albany-2
+  local: '13:46'
+  readings: [Etc/GMT+5, Etc/GMT+4]
+  zone: America/New_York
+  hour: the entry's text, the telegram's "1:46 p.m." (Branch, 616-17)
+  reason: "Albany, Ga., 1:46 p.m.: Georgia's daylight time in 1962 not in zoneinfo"
+  by: times reviewer, 1960-62, round 1
+- id: cal.1964-06-07.elections-1964-4
+  local: '16:30'
+  readings: [Etc/GMT+5, Etc/GMT+4]
+  zone: America/New_York
+  hour: the entry's text, "Cleveland, 4:30 p.m." (Novak, 431-32)
+  reason: "Cleveland's clock in June 1964 (local daylight time) not settled"
+  by: times reviewer, 1964, round 1
+- id: cal.1964-06-11.elections-1964-3
+  local: '14:00'
+  readings: [Etc/GMT+5, Etc/GMT+4]
+  zone: America/New_York
+  hour: the entry's text, "Harrisburg, 2 p.m." (Novak, 437)
+  reason: "Harrisburg's clock in June 1964 (local daylight time) not settled"
+  by: times reviewer, 1964, round 1
+- id: cal.1964-08-15.mississippi
+  local: '20:45'
+  readings: [Etc/GMT+6, Etc/GMT+5]
+  zone: America/Chicago
+  hour: the entry's text, "Greenwood, 8:45 p.m." (Branch, Pillar, 451-52)
+  reason: "Mississippi's clock in August 1964 (no daylight time?) not settled"
+  by: times reviewer, 1964, round 1
+- id: cal.1964-10-02.mississippi
+  local: '15:00'
+  readings: [Etc/GMT+6, Etc/GMT+5]
+  zone: America/Chicago
+  hour: the entry's text, "Biloxi, 3 p.m." (Branch, Pillar, 505-06)
+  reason: "Mississippi's clock in October 1964 not settled"
+  by: times reviewer, 1964, round 1
+- id: cal.1964-10-08.elections-1964-2
+  local: '21:37'
+  readings: [Etc/GMT+5, Etc/GMT+4]
+  zone: America/New_York
+  hour: "1963-64 Pub. Papers 1251, the NOTE: \"The President spoke at 9:37 p.m. at Convention Center in Cleveland, Ohio.\""
+  reason: "Cleveland's clock in October 1964 not settled"
+  by: times reviewer, 1964, round 1
+- id: cal.1964-10-21.vietnam
+  local: '12:33'
+  readings: [Etc/GMT+5, Etc/GMT+4]
+  zone: America/New_York
+  hour: "1963-64 Pub. Papers 1387, the NOTE: \"The President spoke at 12:33 p.m. at Memorial Hall at the University of Akron\""
+  reason: "Akron's clock in October 1964 (before Oct. 25) not settled"
+  by: times reviewer, 1964, round 1
+- id: cal.1964-09-16.conservation
+  local: '10:40'
+  readings: [Etc/GMT+7, Etc/GMT+6]
+  zone: America/Denver
+  hour: "1963-64 Pub. Papers 1072, the NOTE: \"The President spoke at 10:40 a.m. at Malmstrom Air Force Base, Great Falls, Mont.\""
+  reason: "Malmstrom (Montana) 10:40 a.m.: Montana's clock in Sept. 1964 not settled"
+  by: times reviewer, 1964, round 1
+- id: cal.1965-07-30.medicare
+  local: '14:55'
+  readings: [Etc/GMT+6, Etc/GMT+5]
+  zone: America/Chicago
+  hour: "1965 Pub. Papers 811, the NOTE's 2:55 p.m., Independence, Mo."
+  reason: "the Papers' 2:55 p.m. is Independence's clock; whether Kansas City kept daylight time in 1965 is not settled (the tier read it as Washington's)"
+  by: times reviewer, 1965-66, round 2
+- id: cal.1965-03-15.vietnam-air-war
+  local: '13:00'
+  readings: [Etc/GMT-8, Etc/GMT-7]
+  hour: the entry's text, "1 p.m." (Marolda, 505)
+  reason: "1 p.m. is the theatre's clock (Marolda), zone unsettled (ship's Hotel or Hanoi); the proposal read it as Washington's"
+  by: times reviewer, 1965-66, round 2
+- id: cal.1965-10-30.economy
+  local: '08:50'
+  readings: [Etc/GMT+6, America/New_York]
+  hour: the entry's text, "to Califano at 8:50 a.m." (Califano, 98-99)
+  reason: "8:50 a.m. by Califano's account: Johnson at the Ranch, Califano in Washington; whose clock not said"
+  by: times reviewer, 1965-66, round 2
+- id: cal.1965-11-01.economy
+  local: '10:51'
+  readings: [Etc/GMT+6, America/New_York]
+  hour: the entry's text, "Monday, 10:51 a.m." (Califano, 99-100)
+  reason: "Califano's 10:51 a.m.: Washington's clock or the Ranch's not settled"
+  by: times reviewer, 1965, round 1
+- id: cal.1966-01-01.steel
+  local: '07:00'
+  readings: [Etc/GMT+6, America/New_York]
+  hour: the entry's text, "Johnson to Califano at 7 a.m." (Califano, 103-04)
+  reason: "7 a.m. by Califano's account: Johnson at the Ranch, Califano in Washington; whose clock not said"
+  by: times reviewer, 1965-66, round 2
+- id: cal.1968-08-22.elections-1968-2
+  local: '11:05'
+  readings: [America/Chicago, America/New_York]
+  hour: "the entry's text, \"11:05 a.m.\" (CQ Weekly Report, Aug. 30, 1968, 2292)"
+  reason: "CQ's 11:05 a.m.: whose clock (Chicago's or Washington's) not settled"
+  by: times reviewer, 1967-69, round 2
+- id: cal.1968-08-24.elections-1968-chicago-2
+  local: '10:09'
+  readings: [America/Chicago, America/New_York]
+  hour: "the entry's text, \"10:09 a.m.\" (CQ Weekly Report, Aug. 30, 1968, 2292)"
+  reason: "CQ's 10:09 a.m.: whose clock not settled (the 1968 reviewer: where Ribicoff spoke)"
+  by: times reviewer, 1967-69, round 2
+- id: cal.1968-10-11.space
+  local: '11:03'
+  readings: [Etc/GMT+5, Etc/GMT+4]
+  zone: America/New_York
+  hour: "KSC, Summary of Major NASA Launchings (1973), PDF p. 130: \"Apollo 7, 11 Oct 68, 11:03 a.m. EST\""
+  reason: "the Summary prints '11:03 a.m. EST' on a day of daylight time: the label to check before a time"
+  by: times reviewer, 1967-69, round 2

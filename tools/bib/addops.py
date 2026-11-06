@@ -14,6 +14,8 @@ cite taken out) stays an `edit` with its `base`.
     - src:      {id, rows: ['w.card 123: A', 'via w.card 123 n.4: A']}
     - names:    {id, add: ['Rusk'], tags: ['name:rusk-dean']}
     - also:     {id, add: [vietnam-congress]}
+    - variant:  {id, unit: C, witness: w.card, reads: 'Oct. 26', at: '710'}    a variant (R41), added once
+    - follows:  {id, add: [cal.1964-08-04.vietnam]}                         the day's order (dayorder STYLE 2)
 
 STYLE
  1. `cite`: the card leaves "To check:" (the sentence goes when empty) and joins the run of works read: at the end of
@@ -85,9 +87,13 @@ def cite(e, body):
     from . import claims
     item = (body.get("item") or "").strip()
     k = claims.item_key(item)
-    if k[0] != "card" or not k[2]:
+    lm = claims.CARD_LINKED.match(item)
+    if lm:                                     # a linked pinpoint with its parenthetical: the row is the link's
+        k = ("card", lm.group(1).strip(), lm.group(3), lm.group(4))
+    elif k[0] != "card" or not k[2]:
         return None, f"cite needs a card with a pinpoint (a number or a link): {item!r}"
     card = k[1]
+    row_key = k[2] if lm else f"{card} {k[2]}"
     if body.get("units") and not _units_ok(e, body["units"]):
         return None, f"units {body['units']!r} not in the entry's {len(claims.units(e.get('c') or ''))}"
     parts = nm.parse(e.get("n") or "")
@@ -104,9 +110,9 @@ def cite(e, body):
     new = dict(e)
     new["n"] = nm.render(_clean(parts))
     if body.get("units"):
-        new["src"] = _with_row(new, f"{card} {k[2]}: {body['units']}", replaces=f"{card} {k[2]}")
+        new["src"] = _with_row(new, f"{row_key}: {body['units']}", replaces=row_key)
     elif e.get("src"):                         # a stored map takes the item's mechanical row, as a seeding would
-        new["src"] = _with_row(new, f"{card} {k[2]}: {'?' if k[3] else 'all'}")
+        new["src"] = _with_row(new, f"{row_key}: {'?' if k[3] else 'all'}")
     return new, None
 
 
@@ -199,7 +205,32 @@ def src(e, body):
     return new, None
 
 
-FNS = {"cite": cite, "primary": primary, "to-check": to_check, "check": check, "names": names, "also": also,
+def variant(e, body):
+    """A variant (R41) added: {id, unit, witness, reads, at}; one already there the same is not added twice (the Chen
+    test, point 6: variants were an `edit`, with a base, on entries others were adding to)."""
+    row = {k: body[k] for k in ("unit", "witness", "reads", "at") if body.get(k) not in (None, "")}
+    if not row.get("witness") or not row.get("reads"):
+        return None, "variant: give at least witness and reads (and unit, at)"
+    new = dict(e)
+    vs = list(e.get("variants") or [])
+    if row not in vs:
+        vs.append(row)
+    new["variants"] = vs
+    return new, None
+
+
+def follows(e, body):
+    """`follows` ids added (dayorder STYLE 2); its basis goes in the note by a `check`-like sentence the patch writes
+    with an edit, or is already there."""
+    new = dict(e)
+    fs = list(store.as_list(e.get("follows")))
+    fs += [f for f in body.get("add") or [] if f not in fs and f != e.get("id")]
+    if fs:
+        new["follows"] = fs
+    return new, None
+
+
+FNS = {"variant": variant, "follows": follows, "cite": cite, "primary": primary, "to-check": to_check, "check": check, "names": names, "also": also,
        "src": src, "via": src}
 
 

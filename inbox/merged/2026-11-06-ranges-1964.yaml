@@ -1,0 +1,3789 @@
+# Round 3, ranges, 1964 (notes/briefs/times.md): time_range, time_band, time_zone, range_basis;
+# a few exact times from the recordings and the Public Papers; follows. Not merged.
+patch: ranges-1964
+by: ranges reviewer, round 3, 1964 (Claude)
+ops:
+  - edit:
+      id: cal.1964-01-01.robert-kennedy
+      base: 6433a009
+      set:
+        time_range:
+          - 1964-01-01T15:00Z
+          - 1964-01-01T23:00Z
+        time_band: workday daytime
+        time_zone: Etc/GMT+6
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-01.goldwater
+      base: ec08daa7
+      set:
+        time_range:
+          - 1964-01-02T00:00Z
+          - 1964-01-02T07:00Z
+        time_zone: America/Phoenix
+  - edit:
+      id: cal.1964-01-02.vietnam-saigon
+      base: 1c23c78b
+      set:
+        time_range:
+          - 1964-01-02T01:00Z
+          - 1964-01-02T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-02.goldwater
+      base: 7dabd754
+      set:
+        time_range:
+          - 1964-01-02T16:00Z
+          - 1964-01-03T00:00Z
+        time_band: workday daytime
+        time_zone: America/Phoenix
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-03.elections-1964
+      base: 4ddb2711
+      set:
+        time_range:
+          - 1964-01-03T16:00Z
+          - 1964-01-04T00:00Z
+        time_band: workday daytime
+        time_zone: America/Phoenix
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-03.robert-kennedy
+      base: e7092886
+      set:
+        time_range:
+          - 1964-01-03T16:00Z
+          - 1964-01-04T00:00Z
+        time_band: workday daytime
+        time_zone: America/Denver
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-03.vietnam-saigon
+      base: 0e0ea8b3
+      set:
+        time_range:
+          - 1964-01-03T01:00Z
+          - 1964-01-03T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-03.vietnam
+      base: de736200
+      set:
+        time_range:
+          - 1964-01-03T14:00Z
+          - 1964-01-03T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-04.legislatures-il
+      base: 71fd6b39
+      set:
+        time_range:
+          - 1964-01-04T15:00Z
+          - 1964-01-04T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-04.robert-kennedy
+      base: 774364c3
+      set:
+        time_range:
+          - 1964-01-04T16:00Z
+          - 1964-01-05T00:00Z
+        time_band: workday daytime
+        time_zone: America/Denver
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-04.civil-rights-organizations
+      base: 16775cc2
+      set:
+        time_range:
+          - 1964-01-04T15:00Z
+          - 1964-01-04T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-05.goldwater-2
+      base: 781b2e67
+      set:
+        time_range:
+          - 1964-01-05T22:00Z
+          - 1964-01-06T05:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-01-05.soviet-union
+      base: 48aff356
+      set:
+        time_range:
+          - 1964-01-05T14:00Z
+          - 1964-01-05T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-06.vietnam
+      base: bc6c5c40
+      set:
+        time_range:
+          - 1964-01-06T14:00Z
+          - 1964-01-06T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-06.civil-rights-bill-2
+      base: ec8b8678
+      set:
+        time_range:
+          - 1964-01-06T14:00Z
+          - 1964-01-06T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-06.school-aid
+      base: 08255f4e
+      set:
+        time_range:
+          - 1964-01-06T14:00Z
+          - 1964-01-06T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-06.transition-and-staff-2
+      base: 6314475b
+      set:
+        time: 1964-01-06T20:30Z
+  - edit:
+      id: cal.1964-01-07.congress
+      base: '75878263'
+      set:
+        time_range:
+          - 1964-01-07T17:00Z
+          - 1964-01-07T17:55Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt1/pdf/GPO-CRECB-1964-pt1-1-1.pdf) (1964). The Senate met at noon (its standing order, Daily Digest, D3) and adjourned at 12:23 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=1). The House met at noon (its standing order, Daily Digest, D3) and adjourned at 12:55 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=2). See [[cal.1963-12-30.congress]]. Names: Shelley, Howard Baker. Check: the page.'
+  - edit:
+      id: cal.1964-01-07.economy
+      base: 476189e7
+      set:
+        time_range:
+          - 1964-01-07T14:00Z
+          - 1964-01-07T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-07.elections-1964-2
+      base: 958d287f
+      set:
+        time_range:
+          - 1964-01-07T14:00Z
+          - 1964-01-07T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-07.goldwater-3
+      base: 65634f10
+      set:
+        time_range:
+          - 1964-01-07T22:00Z
+          - 1964-01-08T05:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-01-07.latin-america-panama
+      base: 160d3a81
+      set:
+        time_range:
+          - 1964-01-07T14:00Z
+          - 1964-01-07T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-07.congress-2
+      base: 6b9fed02
+      set:
+        time_range:
+          - 1964-01-07T11:00Z
+          - 1964-01-07T17:00Z
+        time_zone: America/New_York
+        time_band: morning
+  - edit:
+      id: cal.1964-01-07.vietnam-2
+      base: 1f94ff78
+      set:
+        time_range:
+          - 1964-01-07T14:00Z
+          - 1964-01-07T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-07.indonesia
+      base: b7048ddc
+      set:
+        time_range:
+          - 1964-01-07T14:00Z
+          - 1964-01-07T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-08.program
+      base: 48ed5170
+      set:
+        time_range:
+          - 1964-01-08T17:00Z
+          - 1964-01-08T23:58Z
+        time_zone: America/New_York
+        n: 'Annual Message to the Congress on the State of the Union, [1963–64 Pub. Papers 112](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=196) (Jan. 8, 1964). [110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt1/pdf/GPO-CRECB-1964-pt1-2-2.pdf) (1964). Recording (K–J Adm. II.I). [[w.johnson-vantage-point]], 37, 75, 465 (the budget and the deficit halved, 37; the war on poverty, 75; enriched uranium, 465); [[w.kotz-judgment-days]], 88–89; [[w.zelizer-fierce-urgency-of-now]], 79–80; [[w.bernstein-guns-or-butter]], 34, 36 (an administration "efficient, and honest and frugal"; tax policy at length); [[w.bernstein-guns-or-butter]], 97; [[w.bernstein-guns-or-butter]], 161 ("We must provide hospital insurance for our older citizens"); [[w.bernstein-guns-or-butter]], 252–53 ("What can you do for our country?"). [[w.dallek-flawed-giant]], 62. [[w.caro-passage-of-power]], 537–50 (the address, the war on poverty, civil rights). [[w.sundquist-politics-and-policy]], 52, 111 (the budget, $97.9 billion, 52; the war on poverty, 111). After the calls to Jones and Brown: [[w.caro-passage-of-power]], 527. The House met at noon (its standing order, Daily Digest, D3) and adjourned at 6:58 p.m.: [Daily Digest, D5](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=3). To check: [[w.matusow-unraveling-of-america]]; [[w.gillette-launching-the-war-on]]; New York Times, Jan. 9, 1964 (cited by [[w.caro-passage-of-power]], 545). See [[cal.1963-01-14.program]]; [[cal.1963-11-27.succession]]. Names: Johnson. Check: the page.'
+  - edit:
+      id: cal.1964-01-08.king
+      base: 3ac71457
+      set:
+        time_range:
+          - 1964-01-08T14:00Z
+          - 1964-01-08T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-08.civil-rights-bill
+      base: 1d7db1b9
+      set:
+        time_range:
+          - 1964-01-08T14:00Z
+          - 1964-01-08T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-08.school-aid
+      base: 5b2e2b73
+      set:
+        time_range:
+          - 1964-01-08T14:00Z
+          - 1964-01-08T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-08.program-2
+      base: 552c0f83
+      set:
+        time: 1964-01-08T20:20Z
+  - edit:
+      id: cal.1964-01-08.program-3
+      base: b18b0086
+      set:
+        time: 1964-01-09T00:10Z
+  - edit:
+      id: cal.1964-01-08.program-4
+      base: 714c7003
+      set:
+        time: 1964-01-09T00:31Z
+  - edit:
+      id: cal.1964-01-09.civil-rights-bill
+      base: 6747b5d9
+      set:
+        time_range:
+          - 1964-01-09T14:00Z
+          - 1964-01-09T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-09.goldwater
+      base: 8a1e7560
+      set:
+        time_range:
+          - 1964-01-09T11:00Z
+          - 1964-01-09T17:00Z
+        time_zone: America/New_York
+        time_band: morning
+  - edit:
+      id: cal.1964-01-09.defense
+      base: 22cb11ac
+      set:
+        time_range:
+          - 1964-01-09T14:00Z
+          - 1964-01-09T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-09.vietnam
+      base: cab5b600
+      set:
+        time_range:
+          - 1964-01-09T14:00Z
+          - 1964-01-09T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-09.elections-1964
+      base: af46d1d0
+      set:
+        time_range:
+          - 1964-01-09T22:00Z
+          - 1964-01-10T05:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-01-09.vietnam-2
+      base: 447dd1f4
+      set:
+        time_range:
+          - 1964-01-09T14:00Z
+          - 1964-01-09T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-09.goldwater-3
+      base: 67a8050f
+      set:
+        time_range:
+          - 1964-01-09T14:00Z
+          - 1964-01-09T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-10.latin-america-panama
+      base: 13d5d732
+      set:
+        time_range:
+          - 1964-01-10T14:00Z
+          - 1964-01-10T22:00Z
+        time_band: workday daytime
+        time_zone: America/Panama
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-10.republican-party
+      base: ce814004
+      set:
+        time_range:
+          - 1964-01-10T14:00Z
+          - 1964-01-10T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-10.latin-america-panama-2
+      base: 7978bded
+      set:
+        time_range:
+          - 1964-01-10T05:00Z
+          - 1964-01-10T12:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-01-11.civil-rights-organizations
+      base: 64ef9c3f
+      set:
+        time_range:
+          - 1964-01-11T15:00Z
+          - 1964-01-11T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-12.goldwater
+      base: 6cda939a
+      set:
+        time_range:
+          - 1964-01-12T14:00Z
+          - 1964-01-12T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-12.desegregation-schools
+      base: 8cb66ce8
+      set:
+        time_range:
+          - 1964-01-12T14:00Z
+          - 1964-01-12T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-13.soviet-union
+      base: a672812a
+      set:
+        time_range:
+          - 1964-01-13T14:00Z
+          - 1964-01-13T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-13.king
+      base: 9eeeeca8
+      set:
+        time_range:
+          - 1964-01-13T14:00Z
+          - 1964-01-13T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-13.economy
+      base: f1b3f1e6
+      set:
+        time_range:
+          - 1964-01-13T14:00Z
+          - 1964-01-13T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-14.poverty-nc
+      base: f2c50325
+      set:
+        time_range:
+          - 1964-01-14T14:00Z
+          - 1964-01-14T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-14.king
+      base: ff2c6a8a
+      set:
+        time_range:
+          - 1964-01-14T14:00Z
+          - 1964-01-14T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-14.testing
+      base: a1247bc2
+      set:
+        time_range:
+          - 1964-01-14T14:00Z
+          - 1964-01-14T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-14.civil-rights-bill
+      base: 19ebb1c2
+      set:
+        time_range:
+          - 1964-01-14T14:00Z
+          - 1964-01-14T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-15.transition-and-staff
+      base: '73386921'
+      set:
+        time_range:
+          - 1964-01-15T14:00Z
+          - 1964-01-15T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-15.latin-america-panama
+      base: 8f260de4
+      set:
+        time_range:
+          - 1964-01-15T14:00Z
+          - 1964-01-15T22:00Z
+        time_band: workday daytime
+        time_zone: America/Panama
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-15.robert-kennedy
+      base: 45994d35
+      set:
+        time_range:
+          - 1964-01-15T14:00Z
+          - 1964-01-15T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-15.civil-rights-bill
+      base: e5151dbe
+      set:
+        time_range:
+          - 1964-01-15T14:00Z
+          - 1964-01-15T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-16.latin-america-panama
+      base: d65ce596
+      set:
+        time_range:
+          - 1964-01-16T14:00Z
+          - 1964-01-16T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-16.vietnam
+      base: 3f0b7f94
+      set:
+        time_range:
+          - 1964-01-16T14:00Z
+          - 1964-01-16T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-16.testing
+      base: f3887788
+      set:
+        time_range:
+          - 1964-01-16T16:00Z
+          - 1964-01-16T21:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-01-16.economy
+      base: 3daa4d4e
+      set:
+        time_range:
+          - 1964-01-16T14:00Z
+          - 1964-01-16T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-16.transition-and-staff
+      base: 806be679
+      set:
+        time: 1964-01-16T21:20Z
+  - edit:
+      id: cal.1964-01-17.republican-party
+      base: 799ce632
+      set:
+        time_range:
+          - 1964-01-17T16:00Z
+          - 1964-01-17T21:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-01-17.economy
+      base: ee345d91
+      set:
+        time_range:
+          - 1964-01-17T14:00Z
+          - 1964-01-17T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-17.vietnam-hanoi
+      base: 04ff0f2e
+      set:
+        time_range:
+          - 1964-01-17T02:00Z
+          - 1964-01-17T10:00Z
+        time_band: workday daytime
+        time_zone: Asia/Bangkok
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-17.congress
+      base: 7587650b
+      set:
+        time_range:
+          - 1964-01-17T22:00Z
+          - 1964-01-18T05:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-01-18.cuba
+      base: 454ed86f
+      set:
+        time_range:
+          - 1964-01-18T14:00Z
+          - 1964-01-18T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-18.civil-rights-organizations
+      base: 32aa8927
+      set:
+        time_range:
+          - 1964-01-18T15:00Z
+          - 1964-01-18T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-20.economy
+      base: 70c7090d
+      set:
+        time_range:
+          - 1964-01-20T14:00Z
+          - 1964-01-20T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-20.civil-rights-bill
+      base: 7e9f9cbd
+      set:
+        time_range:
+          - 1964-01-20T14:00Z
+          - 1964-01-20T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-20.medicare
+      base: ce675438
+      set:
+        time_range:
+          - 1964-01-20T14:00Z
+          - 1964-01-20T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-20.latin-america
+      base: c7bc14de
+      set:
+        time_range:
+          - 1964-01-20T14:00Z
+          - 1964-01-20T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-21.economy
+      base: b914ebfb
+      set:
+        time_range:
+          - 1964-01-21T14:00Z
+          - 1964-01-21T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-21.testing
+      base: 5eb56938
+      set:
+        time_range:
+          - 1964-01-21T08:00Z
+          - 1964-01-21T16:00Z
+        time_band: workday daytime
+        time_zone: Europe/Zurich
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-21.mississippi-ms
+      base: 433d4a93
+      set:
+        time_range:
+          - 1964-01-21T15:00Z
+          - 1964-01-21T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-21.transition-and-staff
+      base: 94dd1bc1
+      set:
+        time_range:
+          - 1964-01-21T14:00Z
+          - 1964-01-21T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-21.baker
+      base: c683ab82
+      set:
+        time_range:
+          - 1964-01-21T14:00Z
+          - 1964-01-21T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-21.poverty
+      base: 36c03db1
+      set:
+        time_range:
+          - 1964-01-21T14:00Z
+          - 1964-01-21T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-21.vietnam-2
+      base: 16e33295
+      set:
+        time_range:
+          - 1964-01-21T01:00Z
+          - 1964-01-21T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-22.vietnam-force-levels
+      base: 3194091d
+      set:
+        time_range:
+          - 1964-01-22T14:00Z
+          - 1964-01-22T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-22.vietnam
+      base: 78905e39
+      set:
+        time_range:
+          - 1964-01-22T14:00Z
+          - 1964-01-22T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-22.civil-rights-bill
+      base: a600d610
+      set:
+        time_range:
+          - 1964-01-22T11:00Z
+          - 1964-01-22T17:00Z
+        time_zone: America/New_York
+        time_band: morning
+  - edit:
+      id: cal.1964-01-23.rules
+      base: 6fe8dcd8
+      set:
+        time_range:
+          - 1964-01-23T17:00Z
+          - 1964-01-23T22:46Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt1/pdf/GPO-CRECB-1964-pt1-12-2.pdf) (1964); [110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt2/pdf/GPO-CRECB-1964-pt2-1-1.pdf) (1964). The Senate met at noon (its standing order, Daily Digest, D3) and adjourned at 5:46 p.m.: [Daily Digest, D26](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=24). See [[cal.1963-02-07.rules]]; [[cal.1963-02-19.congress]]. Names: Pastore, Clark. Check: the pages.'
+  - edit:
+      id: cal.1964-01-23.robert-kennedy
+      base: '63800809'
+      set:
+        time_range:
+          - 1964-01-23T02:00Z
+          - 1964-01-23T10:00Z
+        time_band: workday daytime
+        time_zone: Asia/Jakarta
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-23.civil-rights-bill
+      base: 3dddaa6b
+      set:
+        time_range:
+          - 1964-01-23T14:00Z
+          - 1964-01-23T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-23.economy
+      base: 8f27649f
+      set:
+        time_range:
+          - 1964-01-23T14:00Z
+          - 1964-01-23T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-24.civil-rights-bill
+      base: 5aaad1de
+      set:
+        time_range:
+          - 1964-01-24T14:00Z
+          - 1964-01-24T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-24.vietnam-hanoi
+      base: 75043d80
+      set:
+        time_range:
+          - 1964-01-24T02:00Z
+          - 1964-01-24T10:00Z
+        time_band: workday daytime
+        time_zone: Asia/Bangkok
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-24.vietnam-34a
+      base: 844ebf87
+      set:
+        time_range:
+          - 1964-01-24T19:00Z
+          - 1964-01-25T03:00Z
+        time_band: workday daytime
+        time_zone: Pacific/Honolulu
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-24.elections-1964-primaries
+      base: d38d8c6c
+      set:
+        time_range:
+          - 1964-01-24T22:00Z
+          - 1964-01-25T05:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-01-25.cyprus
+      base: a8d2fc37
+      set:
+        time_range:
+          - 1964-01-25T14:00Z
+          - 1964-01-25T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-25.baker-2
+      base: f6468c0f
+      set:
+        time: 1964-01-25T19:25Z
+  - edit:
+      id: cal.1964-01-25.labor-2
+      base: 4a84b2bc
+      set:
+        time: 1964-01-25T22:39Z
+  - edit:
+      id: cal.1964-01-25.transition-and-staff
+      base: ecb56476
+      set:
+        time: 1964-01-25T17:20Z
+  - edit:
+      id: cal.1964-01-26.economy
+      base: 2d10421c
+      set:
+        time_range:
+          - 1964-01-26T14:00Z
+          - 1964-01-26T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-27.elections-1964
+      base: 4df7e2cc
+      set:
+        time_range:
+          - 1964-01-27T14:00Z
+          - 1964-01-27T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-27.cities-and-housing
+      base: 7b6e50eb
+      set:
+        time_range:
+          - 1964-01-27T14:00Z
+          - 1964-01-27T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-27.transition-and-staff
+      base: 8e2a035f
+      set:
+        time_range:
+          - 1964-01-27T14:00Z
+          - 1964-01-27T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-27.conservation
+      base: 8dbae895
+      set:
+        time_range:
+          - 1964-01-27T17:00Z
+          - 1964-01-28T01:00Z
+        time_band: workday daytime
+        time_zone: America/Los_Angeles
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-27.vietnam-hanoi
+      base: b0e02d9c
+      set:
+        time_range:
+          - 1964-01-27T02:00Z
+          - 1964-01-27T10:00Z
+        time_band: workday daytime
+        time_zone: Asia/Bangkok
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-28.cyprus
+      base: 2231fc2f
+      set:
+        time_range:
+          - 1964-01-28T07:00Z
+          - 1964-01-28T15:00Z
+        time_band: workday daytime
+        time_zone: Europe/Istanbul
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-28.goldwater
+      base: ee80687e
+      set:
+        time_range:
+          - 1964-01-28T14:00Z
+          - 1964-01-28T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-28.economy
+      base: dd4be4cb
+      set:
+        time_range:
+          - 1964-01-28T14:00Z
+          - 1964-01-28T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-29.vietnam-saigon-2
+      base: c4e7e7ac
+      set:
+        time_range:
+          - 1964-01-29T14:00Z
+          - 1964-01-29T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-29.civil-rights-bill
+      base: ef751b58
+      set:
+        time_range:
+          - 1964-01-29T17:00Z
+          - 1964-01-29T20:52Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 1338](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt1/pdf/GPO-CRECB-1964-pt1-15-1.pdf#page=18) (1964) (Jan. 29, 1964). [[w.mann-walls-of-jericho]], 403. The Senate met at noon (its standing order, Daily Digest, D3) and adjourned at 3:52 p.m.: [Daily Digest, D35](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=33). See [[cal.1964-01-09.civil-rights-bill]]. Names: Ervin.'
+  - edit:
+      id: cal.1964-01-29.king
+      base: 128e5bd2
+      set:
+        time_range:
+          - 1964-01-29T14:00Z
+          - 1964-01-29T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-29.republican-party-congress
+      base: e6234330
+      set:
+        time_range:
+          - 1964-01-29T14:00Z
+          - 1964-01-29T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-29.elections-1964
+      base: 55cf6216
+      set:
+        time_range:
+          - 1964-01-29T22:00Z
+          - 1964-01-30T05:00Z
+        time_zone: America/Indiana/Indianapolis
+  - edit:
+      id: cal.1964-01-29.medicare
+      base: 1d0e55ae
+      set:
+        time_range:
+          - 1964-01-29T14:00Z
+          - 1964-01-29T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-30.civil-rights-bill
+      base: fb448b10
+      set:
+        time_range:
+          - 1964-01-30T14:00Z
+          - 1964-01-30T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-31.civil-rights-bill
+      base: ae4e0394
+      set:
+        time_range:
+          - 1964-01-31T17:00Z
+          - 1964-02-01T00:18Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt2/pdf/GPO-CRECB-1964-pt2-2-2.pdf) (1964). [[w.kotz-judgment-days]], 104–05 (noon, McCormack in the chair); [[w.bernstein-guns-or-butter]], 50; [[w.whalen-longest-debate]], 100–107 (H. Res. 616 by voice vote; ten hours of general debate, to 7 p.m., Feb. 1; Colmer: "What is the rush?"; Willis: "the most drastic and far-reaching proposal and grab for power"). The House met at noon (its standing order, Daily Digest, D3) and adjourned at 7:18 p.m.: [Daily Digest, D42](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=40). See [[cal.1964-01-09.civil-rights-bill]]. Check: the page.'
+  - edit:
+      id: cal.1964-01-31.republican-party-congress
+      base: bf78a3dc
+      set:
+        time_range:
+          - 1964-01-31T17:00Z
+          - 1964-02-01T00:18Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 1555](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt2/pdf/GPO-CRECB-1964-pt2-2-2.pdf#page=51) (1964). [[w.selverstone-kennedy-withdrawal]], 225 (Lindsay on McNamara''s statements). The House met at noon (its standing order, Daily Digest, D3) and adjourned at 7:18 p.m.: [Daily Digest, D42](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=40). Check: Selverstone dates it Jan. 28; the Record''s page is the House''s of Jan. 31. See [[cal.1964-01-27.vietnam-congress]]. Names: Lindsay, McNamara, Reston.'
+  - edit:
+      id: cal.1964-01-31.poverty
+      base: 0ae69cfb
+      set:
+        time_range:
+          - 1964-01-31T14:00Z
+          - 1964-01-31T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-01-31.vietnam
+      base: f9c16962
+      set:
+        time_range:
+          - 1964-01-31T19:00Z
+          - 1964-02-01T03:00Z
+        time_band: workday daytime
+        time_zone: Pacific/Honolulu
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-01.vietnam-congress
+      base: dbf8cda1
+      set:
+        time_range:
+          - 1964-02-01T14:00Z
+          - 1964-02-01T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-01.poverty
+      base: 2229d592
+      set:
+        time_range:
+          - 1964-02-01T15:00Z
+          - 1964-02-01T16:30Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-02-01.republican-party-congress
+      base: 01bc685c
+      set:
+        time_range:
+          - 1964-02-01T22:00Z
+          - 1964-02-02T05:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-02-01.press-and-broadcasting
+      base: 9ed25d62
+      set:
+        time: 1964-02-01T21:32Z
+  - edit:
+      id: cal.1964-02-02.vietnam
+      base: 34eac700
+      set:
+        time_range:
+          - 1964-02-02T14:00Z
+          - 1964-02-02T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-02.poverty
+      base: c60bc899
+      set:
+        time_range:
+          - 1964-02-02T14:00Z
+          - 1964-02-02T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-02.civil-rights-organizations
+      base: 6adae65c
+      set:
+        time_range:
+          - 1964-02-02T15:00Z
+          - 1964-02-02T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-03.assassination
+      base: 8c1aae75
+      set:
+        time_range:
+          - 1964-02-03T14:00Z
+          - 1964-02-03T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-03.mayors-dallas
+      base: 6796a49e
+      set:
+        time_range:
+          - 1964-02-03T15:00Z
+          - 1964-02-03T23:00Z
+        time_band: workday daytime
+        time_zone: Etc/GMT+6
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-03.elections-1964
+      base: e589064c
+      set:
+        time_range:
+          - 1964-02-03T14:00Z
+          - 1964-02-03T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-03.cyprus
+      base: 4d0811f1
+      set:
+        time_range:
+          - 1964-02-03T09:00Z
+          - 1964-02-03T17:00Z
+        time_band: workday daytime
+        time_zone: Europe/London
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-03.defense
+      base: e81efa12
+      set:
+        time_range:
+          - 1964-02-03T14:00Z
+          - 1964-02-03T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-03.elections-1964-3
+      base: ca72f565
+      set:
+        time: 1964-02-04T02:15Z
+  - edit:
+      id: cal.1964-02-03.transition-and-staff
+      base: '65708806'
+      set:
+        time: 1964-02-03T23:20Z
+  - edit:
+      id: cal.1964-02-04.alabama-schools
+      base: e21b3b05
+      set:
+        time_range:
+          - 1964-02-04T15:00Z
+          - 1964-02-04T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-04.legislatures
+      base: b68299b0
+      set:
+        time_range:
+          - 1964-02-04T14:00Z
+          - 1964-02-04T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-04.poverty
+      base: f9832922
+      set:
+        time_range:
+          - 1964-02-04T14:00Z
+          - 1964-02-04T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-04.vietnam
+      base: 22af9078
+      set:
+        time_range:
+          - 1964-02-04T14:00Z
+          - 1964-02-04T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-04.vietnam-2
+      base: b67e1568
+      set:
+        time_range:
+          - 1964-02-04T14:00Z
+          - 1964-02-04T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-04.civil-rights-bill
+      base: 8c7dbcc4
+      set:
+        time_range:
+          - 1964-02-04T17:00Z
+          - 1964-02-04T22:28Z
+        time_zone: America/New_York
+        n: '[[w.kotz-judgment-days]], 107–08; [[w.whalen-longest-debate]], 110 (Smith''s remark, struck from the Record, and his amendment, refused 107–149, late on Feb. 4). The House met at noon (its standing order, Daily Digest, D3) and adjourned at 5:28 p.m.: [Daily Digest, D48](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=46). Check: Whalen, 111, has Meader''s amendment defeated Feb. 5, 68–153. To check: 110 Cong. Rec. 1917–27, 1932–33 (Feb. 4, 1964). Check: the days; Kotz has the House take up Title II "Wednesday, February 3." Names: Smith.'
+  - edit:
+      id: cal.1964-02-04.vietnam-hanoi
+      base: b4405197
+      set:
+        time_range:
+          - 1964-02-04T02:00Z
+          - 1964-02-04T10:00Z
+        time_band: workday daytime
+        time_zone: Asia/Bangkok
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-04.desegregation-schools
+      base: fc35307c
+      set:
+        time_range:
+          - 1964-02-04T15:00Z
+          - 1964-02-04T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-04.civil-rights-bill-2
+      base: eaf2191c
+      set:
+        time_range:
+          - 1964-02-04T14:00Z
+          - 1964-02-04T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-05.program
+      base: 4077547a
+      set:
+        time_range:
+          - 1964-02-05T14:00Z
+          - 1964-02-05T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-05.africa
+      base: 71b60028
+      set:
+        time_range:
+          - 1964-02-05T14:00Z
+          - 1964-02-05T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-05.vietnam
+      base: '04030035'
+      set:
+        time_range:
+          - 1964-02-05T14:00Z
+          - 1964-02-05T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-05.civil-rights-bill-2
+      base: e2ad1f3c
+      set:
+        time_range:
+          - 1964-02-05T14:00Z
+          - 1964-02-05T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-06.goldwater
+      base: 158d0e2b
+      set:
+        time_range:
+          - 1964-02-06T23:00Z
+          - 1964-02-07T08:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-02-06.robert-kennedy
+      base: 9f3ff55a
+      set:
+        time_range:
+          - 1964-02-06T22:00Z
+          - 1964-02-07T05:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-02-06.civil-rights-bill
+      base: 403bc50b
+      set:
+        time_range:
+          - 1964-02-06T17:00Z
+          - 1964-02-07T02:34Z
+        time_zone: America/New_York
+        n: '[[w.bernstein-guns-or-butter]], 51; [[w.whalen-longest-debate]], 111–13 (Poff''s amendment; Celler''s objection withdrawn at McCulloch''s word). The House met at noon (its standing order, Daily Digest, D3) and adjourned at 9:34 p.m.: [Daily Digest, D53](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=51). See [[cal.1964-02-03.civil-rights-bill]]. Names: Celler, McCulloch.'
+  - edit:
+      id: cal.1964-02-06.press-and-broadcasting
+      base: 5336aa76
+      set:
+        time: 1964-02-06T17:30Z
+  - edit:
+      id: cal.1964-02-06.cuba-2
+      base: 470c9628
+      set:
+        time: 1964-02-06T18:01Z
+  - edit:
+      id: cal.1964-02-06.cuba-3
+      base: fa96907c
+      set:
+        time: 1964-02-07T00:00Z
+  - edit:
+      id: cal.1964-02-07.economy
+      base: efe8ef07
+      set:
+        time_range:
+          - 1964-02-07T17:00Z
+          - 1964-02-07T23:55Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt2/pdf/GPO-CRECB-1964-pt2-8-1.pdf) (1964); [110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt1/pdf/GPO-CRECB-1964-pt1-14-2.pdf) (1964) (S. Rep. No. 88-830). Statement by the President Following Senate Committee Action on the Tax Bill, [1963–64 Pub. Papers 224](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=308) (Jan. 24, 1964); Statement by the President Following Senate Approval of the Tax Bill, [1963–64 Pub. Papers 272](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=356) (Feb. 7, 1964). [[w.zelizer-taxing-america]], 204 (the bill through Finance and the Senate); [[w.stein-fiscal-revolution-in-america]], 453 (reported Jan. 28; passed Feb. 7); [[w.bernstein-guns-or-butter]], 37 (capital gains, 56 to 25; Ribicoff''s amendment, 48 to 45); [[w.graham-uncertain-triumph]], 70 (48 to 45, Feb. 4). [[w.sundquist-politics-and-policy]], 52 (the vote; Republicans 21–10). After Johnson''s call to Mills, before the vote (the sources above). The Senate met at noon (its standing order, Daily Digest, D3) and adjourned at 6:55 p.m.: [Daily Digest, D55](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=53). To check: [[w.mann-legacy-to-power]]; [[w.heinemann-harry-byrd-of-virginia]]. See [[cal.1963-09-25.economy]]; [[cal.1963-12-07.economy]]. Names: Long, Ribicoff. Check: the pages.'
+  - edit:
+      id: cal.1964-02-07.robert-kennedy
+      base: a47765c0
+      set:
+        time_range:
+          - 1964-02-07T18:00Z
+          - 1964-02-08T00:00Z
+        time_zone: America/Chicago
+        time_band: afternoon
+  - edit:
+      id: cal.1964-02-07.civil-rights-bill
+      base: fbd933bf
+      set:
+        time_range:
+          - 1964-02-07T17:00Z
+          - 1964-02-08T01:20Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 2489–92](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt2/pdf/GPO-CRECB-1964-pt2-8-2.pdf#page=30) (Feb. 7, 1964) (Harris''s perfecting amendment; rejected by tellers, 80–206). [[w.zelizer-fierce-urgency-of-now]], 98; [[w.bernstein-guns-or-butter]], 51–52 (Harris''s amendment, McCulloch out of the chamber; McCulloch: "my individual support of the legislation will come to an end"; defeated 206 to 80, every Republican against); [[w.whalen-longest-debate]], 114 (Boggs for Harris''s amendment; McCulloch: "my individual support of the legislation will come to an end"; 80–206, standing); [[w.kotz-judgment-days]], 108–09 (Title VI; Boggs speaks for the amendment, Lindsay asks "who else the gentleman speaks for"; McCulloch: "my individual support for this legislation will come to an end"; defeated 206 to 80). The House met at noon (its standing order, Daily Digest, D3) and adjourned at 8:20 p.m.: [Daily Digest, PDF p. 54](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=54). Check: Kotz, 109, has Boggs rise for "an amendment that would make the federal fund cutoffs a discretionary authority of the president"; the Record: Harris''s perfecting amendment, Boggs speaking for it. To check: Gerald Griffin, "Rights Push Bipartisan," *Baltimore Sun*, Feb. 9, 1964 (cited by [[w.zelizer-fierce-urgency-of-now]], 98 n.32). See [[cal.1964-01-30.civil-rights-bill]]. Names: Harris, McCulloch.'
+  - edit:
+      id: cal.1964-02-07.cuba-3
+      base: 27a35545
+      set:
+        time: 1964-02-07T16:17Z
+  - edit:
+      id: cal.1964-02-07.civil-rights-bill-2
+      base: 418fd516
+      set:
+        time_range:
+          - 1964-02-07T17:00Z
+          - 1964-02-08T01:20Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 2465](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt2/pdf/GPO-CRECB-1964-pt2-8-2.pdf#page=6) (Feb. 7, 1964). [[w.kotz-judgment-days]], 108–09 (the threat, in the Title VI debate). The House met at noon (its standing order, Daily Digest, D3) and adjourned at 8:20 p.m.: [Daily Digest, PDF p. 54](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=54). See [[cal.1964-02-07.civil-rights-bill]]. Names: Rains, Whitener.'
+  - edit:
+      id: cal.1964-02-08.women
+      base: 5f7a927b
+      set:
+        time_range:
+          - 1964-02-08T19:00Z
+          - 1964-02-08T22:00Z
+        time_band: workday afternoon
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-08.elections-1964
+      base: '54474020'
+      set:
+        time_range:
+          - 1964-02-08T15:00Z
+          - 1964-02-08T23:00Z
+        time_band: workday daytime
+        time_zone: Etc/GMT+6
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-08.civil-rights-bill
+      base: 1d4ed38e
+      set:
+        time_range:
+          - 1964-02-08T19:00Z
+          - 1964-02-08T22:00Z
+        time_band: workday afternoon
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-08.civil-rights-bill-3
+      base: 893fc31a
+      set:
+        time_range:
+          - 1964-02-08T19:00Z
+          - 1964-02-08T22:00Z
+        time_band: workday afternoon
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-09.cyprus
+      base: a708f7cb
+      set:
+        time_range:
+          - 1964-02-09T09:00Z
+          - 1964-02-09T17:00Z
+        time_band: workday daytime
+        time_zone: Europe/London
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-09.desegregation-schools
+      base: 70db76b8
+      set:
+        time_range:
+          - 1964-02-09T12:00Z
+          - 1964-02-10T01:00Z
+        time_band: daytime
+        time_zone: America/Chicago
+  - edit:
+      id: cal.1964-02-10.civil-rights-bill
+      base: ec6c9826
+      set:
+        time_range:
+          - 1964-02-10T17:00Z
+          - 1964-02-11T01:40Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt2/pdf/GPO-CRECB-1964-pt2-10-2.pdf) (1964). Civil Rights Act of 1964 (K–J Cong. II.J.2). [[w.dallek-flawed-giant]], 116–17 (the passage, to the Senate; Dallek''s count, 290 to 110, is not the roll call''s); [[w.humphrey-education-of-a-public-1976]], 273 (the House''s passage, in February; the bill to the Senate); [[w.sundquist-politics-and-policy]], 266 (the vote, 290–130); [[w.mann-walls-of-jericho]], 389–90 (the vote, 290–130; nine days of debate; Celler and McCulloch); [[w.white-making-of-the-president-1965]], 174 (Feb. 10); [[w.kotz-judgment-days]], 110 (66 hours 37 minutes over nine days); [[w.zelizer-fierce-urgency-of-now]], 101 (290–130: Democrats 152–91, Republicans 136–35); [[w.bernstein-guns-or-butter]], 55–56 (290 to 130, 152 Democrats and 138 Republicans for; Feb. 10, 22 amendments defeated and four accepted, Colmer''s among them; to the Senate); [[w.whalen-longest-debate]], 118–23 (the vote: Democrats 152–96, eighty-six of them from the eleven States, Republicans 138–34; nine days; 124 amendments offered, 34 adopted). [[w.caro-passage-of-power]], 558–60 (the bill to the floor and passed); [[w.branch-pillar-of-fire]], 233–34. The House met at noon (its standing order, Daily Digest, D3) and adjourned at 8:40 p.m.: [Daily Digest, PDF p. 59](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=59). Check: Kotz gives the Republicans 138–32 (110). To check: [[w.berman-bill-becomes-a-law]]; [[w.loevy-to-end-all-segregation]]; [[w.civil-rights-act-of]]; [[w.finley-delaying-the-dream]]; [[w.risen-bill-of-the-century]]; [[w.purdum-idea-whose-time-has-2014]]; [[w.rosenberg-kennedy-johnson-and-the]]; [[w.fite-richard-b-russell-jr]]; [[w.oberdorfer-senator-mansfield-2003]]; [[w.macneil-dirksen]]; [[w.hulsey-everett-dirksen-and-his]]. See [[cal.1963-10-29.civil-rights-bill]]; [[cal.1964-01-09.civil-rights-bill]]. Names: Celler, McCulloch. Check: the page.'
+  - edit:
+      id: cal.1964-02-10.medicare
+      base: c81e735a
+      set:
+        time_range:
+          - 1964-02-10T14:00Z
+          - 1964-02-10T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-10.cyprus
+      base: f869ab23
+      set:
+        time_range:
+          - 1964-02-10T07:00Z
+          - 1964-02-10T15:00Z
+        time_band: workday daytime
+        time_zone: Europe/Istanbul
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-10.vietnam-saigon
+      base: 37e84665
+      set:
+        time_range:
+          - 1964-02-10T01:00Z
+          - 1964-02-10T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-10.civil-rights-bill-5
+      base: 12fc6f2c
+      set:
+        time_range:
+          - 1964-02-10T17:00Z
+          - 1964-02-11T01:40Z
+        time_zone: America/New_York
+        n: '[[w.bernstein-guns-or-butter]], 55. The House met at noon (its standing order, Daily Digest, D3) and adjourned at 8:40 p.m.: [Daily Digest, PDF p. 59](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=59). To check: Equal Employment Opportunity Commission, *Legislative History of Titles VII and XI of the Civil Rights Act of 1964* (cited by [[w.bernstein-guns-or-butter]], 55 n.3). See [[cal.1964-02-10.civil-rights-bill]]. Names: Colmer, Celler, McCulloch.'
+  - edit:
+      id: cal.1964-02-11.school-aid
+      base: 0b42c724
+      set:
+        time_range:
+          - 1964-02-11T14:00Z
+          - 1964-02-11T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-11.robert-kennedy
+      base: 0c126050
+      set:
+        time_range:
+          - 1964-02-11T14:00Z
+          - 1964-02-11T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-11.vietnam
+      base: 3a80e910
+      set:
+        time_range:
+          - 1964-02-11T14:00Z
+          - 1964-02-11T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-11.legislatures
+      base: 818a9f98
+      set:
+        time_range:
+          - 1964-02-11T14:00Z
+          - 1964-02-11T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-11.robert-kennedy-2
+      base: a3ff2b3a
+      set:
+        time_range:
+          - 1964-02-11T22:00Z
+          - 1964-02-12T05:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-02-11.civil-rights-bill-2
+      base: 77846e4b
+      set:
+        time_range:
+          - 1964-02-11T20:00Z
+          - 1964-02-11T23:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-02-11.civil-rights-bill-3
+      base: 278a42e1
+      set:
+        time_range:
+          - 1964-02-11T14:00Z
+          - 1964-02-11T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-11.soviet-union
+      base: 8968b3a0
+      set:
+        time_range:
+          - 1964-02-11T06:00Z
+          - 1964-02-11T14:00Z
+        time_band: workday daytime
+        time_zone: Europe/Moscow
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-11.vietnam-diplomacy
+      base: 7a8b7df7
+      set:
+        time_range:
+          - 1964-02-11T02:00Z
+          - 1964-02-11T10:00Z
+        time_band: workday daytime
+        time_zone: Asia/Phnom_Penh
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-11.elections-1964-2
+      base: adb461df
+      set:
+        time: 1964-02-11T22:27Z
+  - edit:
+      id: cal.1964-02-12.cyprus
+      base: 3bb47a86
+      set:
+        time_range:
+          - 1964-02-12T07:00Z
+          - 1964-02-12T15:00Z
+        time_band: workday daytime
+        time_zone: Asia/Nicosia
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-13.civil-rights-bill
+      base: e322b79f
+      set:
+        time_range:
+          - 1964-02-13T14:00Z
+          - 1964-02-13T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-13.defense
+      base: 40eb6e5b
+      set:
+        time_range:
+          - 1964-02-13T14:00Z
+          - 1964-02-13T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-14.vietnam
+      base: 906b01ab
+      set:
+        time_range:
+          - 1964-02-14T14:00Z
+          - 1964-02-14T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-14.alabama-schools
+      base: aed8dc37
+      set:
+        time_range:
+          - 1964-02-14T15:00Z
+          - 1964-02-14T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-14.cyprus
+      base: 823710c8
+      set:
+        time_range:
+          - 1964-02-14T07:00Z
+          - 1964-02-14T15:00Z
+        time_band: workday daytime
+        time_zone: Europe/Istanbul
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-14.goldwater
+      base: feff7f00
+      set:
+        time_range:
+          - 1964-02-15T00:00Z
+          - 1964-02-15T09:00Z
+        time_zone: America/Chicago
+  - edit:
+      id: cal.1964-02-14.vietnam-2
+      base: c1a12f8e
+      set:
+        time_range:
+          - 1964-02-14T14:00Z
+          - 1964-02-14T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-14.civil-rights-bill
+      base: 33b0be5b
+      set:
+        time_range:
+          - 1964-02-14T14:00Z
+          - 1964-02-14T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-15.vietnam
+      base: 17f1a8db
+      set:
+        time_range:
+          - 1964-02-15T14:00Z
+          - 1964-02-15T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-15.testing
+      base: 36f3f565
+      set:
+        time_range:
+          - 1964-02-15T14:00Z
+          - 1964-02-15T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-16.goldwater
+      base: 17e0a463
+      set:
+        time_range:
+          - 1964-02-16T15:00Z
+          - 1964-02-16T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-17.court
+      base: 05d4d556
+      set:
+        time_range:
+          - 1964-02-17T14:00Z
+          - 1964-02-17T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-17.legislatures-ny
+      base: '22378513'
+      set:
+        time_range:
+          - 1964-02-17T14:00Z
+          - 1964-02-17T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-17.vietnam-congress
+      base: a3fb9234
+      set:
+        time_range:
+          - 1964-02-17T14:00Z
+          - 1964-02-17T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-17.king
+      base: d49c9962
+      set:
+        time_range:
+          - 1964-02-17T22:00Z
+          - 1964-02-18T05:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-02-17.medicare
+      base: 4b7c318a
+      set:
+        time_range:
+          - 1964-02-17T14:00Z
+          - 1964-02-17T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-17.assassination
+      base: 5258b8e2
+      set:
+        time_range:
+          - 1964-02-17T14:00Z
+          - 1964-02-17T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-18.alabama-schools
+      base: afda464a
+      set:
+        time_range:
+          - 1964-02-18T15:00Z
+          - 1964-02-18T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-18.vietnam
+      base: 51053c18
+      set:
+        time_range:
+          - 1964-02-18T19:00Z
+          - 1964-02-19T03:00Z
+        time_band: workday daytime
+        time_zone: Pacific/Honolulu
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-19.vietnam
+      base: d5a5334e
+      set:
+        time_range:
+          - 1964-02-19T17:00Z
+          - 1964-02-19T18:48Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 3114](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt3/pdf/GPO-CRECB-1964-pt3-4-1.pdf) (1964). [[w.gibbons-u-s-government-and]], II, 219–220. [[w.mann-grand-delusion]], 312–13. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 1:48 p.m.: [Daily Digest, D69](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=67). See [[cal.1963-12-07.vietnam]]. Names: Mansfield, de Gaulle.'
+  - edit:
+      id: cal.1964-02-19.women
+      base: d88f2d78
+      set:
+        time_range:
+          - 1964-02-19T14:00Z
+          - 1964-02-19T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-20.court
+      base: ba5a6423
+      set:
+        time_range:
+          - 1964-02-20T15:00Z
+          - 1964-02-20T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-20.vietnam-congress
+      base: d308825c
+      set:
+        time_range:
+          - 1964-02-20T14:00Z
+          - 1964-02-20T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-20.vietnam-congress-2
+      base: 975eeb29
+      set:
+        time_range:
+          - 1964-02-20T17:00Z
+          - 1964-02-20T20:48Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 3277–79](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt3/pdf/GPO-CRECB-1964-pt3-5-2.pdf) (1964). [[w.gibbons-u-s-government-and]], II, 220. [[w.mann-grand-delusion]], 314. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 3:48 p.m.: [Daily Digest, D72](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=70). See [[cal.1964-02-19.vietnam]]. Names: Javits, Mansfield.'
+  - edit:
+      id: cal.1964-02-20.elections-1964
+      base: 382c1461
+      set:
+        time_range:
+          - 1964-02-20T14:00Z
+          - 1964-02-20T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-20.republican-party-congress
+      base: 665807b6
+      set:
+        time_range:
+          - 1964-02-20T14:00Z
+          - 1964-02-20T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-20.latin-america-panama-2
+      base: 862fbc2e
+      set:
+        time: 1964-02-20T22:05Z
+  - edit:
+      id: cal.1964-02-20.defense
+      base: ec0a5372
+      set:
+        time_range:
+          - 1964-02-20T17:00Z
+          - 1964-02-20T23:01Z
+        time_zone: America/New_York
+        n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 485. The House met at noon (its standing order, Daily Digest, D3) and adjourned at 6:01 p.m.: [Daily Digest, D74](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=72). To check: 110 Cong. Rec. 3068–3100 (Feb. 20, 1964) (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 485 n.41). Check: the roll call (Voteview). See [[cal.1964-02-13.defense]].'
+  - edit:
+      id: cal.1964-02-21.vietnam-3
+      base: 203b430c
+      set:
+        time_range:
+          - 1964-02-21T14:00Z
+          - 1964-02-21T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-21.vietnam-4
+      base: 7b5d36c2
+      set:
+        time_range:
+          - 1964-02-21T14:00Z
+          - 1964-02-21T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-21.transition-and-staff-cabinet
+      base: a36a9ec6
+      set:
+        time_range:
+          - 1964-02-21T14:00Z
+          - 1964-02-21T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-22.vietnam-saigon
+      base: c5a062cd
+      set:
+        time_range:
+          - 1964-02-22T01:00Z
+          - 1964-02-22T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-22.elections-1964
+      base: 5e7f753c
+      set:
+        time_range:
+          - 1964-02-22T22:00Z
+          - 1964-02-23T05:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-02-22.desegregation-schools
+      base: a72561c0
+      set:
+        time_range:
+          - 1964-02-22T15:00Z
+          - 1964-02-22T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-24.economy
+      base: 2ffa4ad3
+      set:
+        time_range:
+          - 1964-02-24T17:00Z
+          - 1964-02-24T19:53Z
+        time_zone: America/New_York
+        n: '[[w.kotz-judgment-days]], 117. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 2:53 p.m.: [Daily Digest, D77](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=75). To check: [[w.macneil-dirksen]], 229 (cited by [[w.kotz-judgment-days]], 117 n.9). Check: the roll call. Names: Dirksen.'
+  - edit:
+      id: cal.1964-02-24.defense
+      base: 78d0b6a6
+      set:
+        time_range:
+          - 1964-02-24T14:00Z
+          - 1964-02-24T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-25.trade
+      base: f945b032
+      set:
+        time_range:
+          - 1964-02-25T14:00Z
+          - 1964-02-25T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-25.vietnam
+      base: bcc7d692
+      set:
+        time_range:
+          - 1964-02-25T14:00Z
+          - 1964-02-25T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-25.cuba
+      base: 567e9194
+      set:
+        time_range:
+          - 1964-02-25T23:00Z
+          - 1964-02-26T08:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-02-25.economy
+      base: 7ebfe0ea
+      set:
+        time_range:
+          - 1964-02-25T14:00Z
+          - 1964-02-25T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-25.laos
+      base: 0cc91783
+      set:
+        time_range:
+          - 1964-02-25T14:00Z
+          - 1964-02-25T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-25.defense
+      base: 226d1ee8
+      set:
+        time_range:
+          - 1964-02-25T14:00Z
+          - 1964-02-25T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-26.economy
+      base: aae87a1b
+      set:
+        time_range:
+          - 1964-02-26T14:00Z
+          - 1964-02-26T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-26.civil-rights-bill
+      base: 8ad656ec
+      set:
+        time_range:
+          - 1964-02-26T17:00Z
+          - 1964-02-27T00:56Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt3/pdf/GPO-CRECB-1964-pt3-2-1.pdf) (1964); [110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt3/pdf/GPO-CRECB-1964-pt3-9-2.pdf) (1964). [[w.humphrey-education-of-a-public-1976]], 274 (Mansfield, at Johnson''s suggestion, asks Humphrey to manage the bill, "early in the year"); [[w.solberg-hubert-humphrey]], 221–22 (Humphrey floor manager; Kuchel; the title captains); [[w.kotz-judgment-days]], 118 (the bill delivered Feb. 17; Mansfield intercepts it; 54–37 on Feb. 26); [[w.zelizer-fierce-urgency-of-now]], 101–2 (past the Judiciary Committee: 34 Democrats and 20 Republicans); [[w.whalen-longest-debate]], 131–32, 134–35 (54–37, twenty Republicans against Dirksen). The Senate met at noon (the order of Feb. 25, Daily Digest, D79) and recessed at 7:56 p.m.: [Daily Digest, D84](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=82). Check: Whalen, 135, has Mansfield ask, the same day, unanimous consent to refer the bill to Judiciary with instructions to report by noon, Mar. 4; Javits objects. The History of Bills dates the objection Feb. 27. See [[cal.1964-02-10.civil-rights-bill]]. Names: Mansfield, Humphrey, Eastland, Russell, Metcalf. Check: the pages.'
+  - edit:
+      id: cal.1964-02-26.latin-america-panama-2
+      base: 406d105a
+      set:
+        time: 1964-02-26T20:06Z
+  - edit:
+      id: cal.1964-02-27.republican-party-congress
+      base: 145632a2
+      set:
+        time_range:
+          - 1964-02-27T14:00Z
+          - 1964-02-27T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-27.africa
+      base: 16669ce6
+      set:
+        time_range:
+          - 1964-02-27T09:00Z
+          - 1964-02-27T17:00Z
+        time_band: workday daytime
+        time_zone: Europe/Lisbon
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-27.railroads
+      base: f0c8a2ef
+      set:
+        time_range:
+          - 1964-02-27T17:00Z
+          - 1964-02-27T23:00Z
+        time_band: afternoon
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-02-27.elections-1964
+      base: bf503c25
+      set:
+        time_range:
+          - 1964-02-27T17:00Z
+          - 1964-02-28T01:00Z
+        time_band: workday daytime
+        time_zone: America/Los_Angeles
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-27.economy
+      base: 3632af56
+      set:
+        time_range:
+          - 1964-02-27T14:00Z
+          - 1964-02-27T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-27.defense
+      base: 897ac614
+      set:
+        time_range:
+          - 1964-02-27T17:00Z
+          - 1964-02-27T23:01Z
+        time_zone: America/New_York
+        n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 486. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 6:01 p.m.: [Daily Digest, D87](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=85). To check: 110 Cong. Rec. 3678–3701 (Feb. 27, 1964) (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 486 n.43). Check: the roll calls (Voteview). See [[cal.1964-02-13.defense]]. Names: McGovern.'
+  - edit:
+      id: cal.1964-02-28.legislatures-wi
+      base: f6adb076
+      set:
+        time_range:
+          - 1964-02-28T15:00Z
+          - 1964-02-28T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-28.civil-rights-bill
+      base: c0cd9a03
+      set:
+        time_range:
+          - 1964-02-28T14:00Z
+          - 1964-02-28T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-29.transition-and-staff
+      base: 2886dc5d
+      set:
+        time_range:
+          - 1964-02-29T14:00Z
+          - 1964-02-29T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-02-29.press-and-broadcasting
+      base: 80a2a386
+      set:
+        time: 1964-02-29T20:00Z
+  - edit:
+      id: cal.1964-02-29.vietnam
+      base: d224ed0b
+      set:
+        time: 1964-02-29T20:50Z
+  - edit:
+      id: cal.1964-03-01.vietnam-force-levels
+      base: 47f157a0
+      set:
+        time_range:
+          - 1964-03-01T01:00Z
+          - 1964-03-01T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-02.legislatures-tx
+      base: bb72c7c8
+      set:
+        time_range:
+          - 1964-03-02T14:00Z
+          - 1964-03-02T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-02.vietnam-congress
+      base: 776a2a87
+      set:
+        time_range:
+          - 1964-03-02T17:00Z
+          - 1964-03-02T23:26Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 4087](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt3/pdf/GPO-CRECB-1964-pt3-12-2.pdf) (1964). [[w.mann-grand-delusion]], 316. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 6:26 p.m.: [Daily Digest, PDF p. 92](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=92). Check: Mann dates it Mar. 3; the Record''s page is the Senate''s of Mar. 2. Names: Mansfield.'
+  - edit:
+      id: cal.1964-03-02.vietnam-4
+      base: d3e123d2
+      set:
+        time_range:
+          - 1964-03-02T14:00Z
+          - 1964-03-02T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-02.vietnam-3
+      base: 12c8110b
+      set:
+        time_range:
+          - 1964-03-02T14:00Z
+          - 1964-03-02T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-02.program
+      base: 12abac5d
+      set:
+        time_range:
+          - 1964-03-02T14:00Z
+          - 1964-03-02T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-03.vietnam-congress
+      base: dd142b17
+      set:
+        time_range:
+          - 1964-03-03T14:00Z
+          - 1964-03-03T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-03.vietnam
+      base: 2bedefe4
+      set:
+        time_range:
+          - 1964-03-03T14:00Z
+          - 1964-03-03T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-03.vietnam-2
+      base: 40d05179
+      set:
+        time_range:
+          - 1964-03-03T14:00Z
+          - 1964-03-03T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-03.elections-1964
+      base: 4e328e99
+      set:
+        time_range:
+          - 1964-03-03T17:00Z
+          - 1964-03-04T01:00Z
+        time_band: workday daytime
+        time_zone: America/Los_Angeles
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-03.vietnam-hanoi
+      base: c7b62d96
+      set:
+        time_range:
+          - 1964-03-03T02:00Z
+          - 1964-03-03T10:00Z
+        time_band: workday daytime
+        time_zone: Asia/Bangkok
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-03.conservation
+      base: 9840c09b
+      set:
+        time_range:
+          - 1964-03-03T14:00Z
+          - 1964-03-03T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-04.europe-and-the-alliance
+      base: fd3f864f
+      set:
+        time_range:
+          - 1964-03-04T14:00Z
+          - 1964-03-04T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-04.vietnam
+      base: b1216361
+      set:
+        time_range:
+          - 1964-03-04T17:00Z
+          - 1964-03-04T23:29Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 4357–59](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt4/pdf/GPO-CRECB-1964-pt4-1-2.pdf) (1964). [[w.gibbons-u-s-government-and]], II, 223–224. [[w.mann-grand-delusion]], 316 (the troops home; "Murder"; Ellender). The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 6:29 p.m.: [Daily Digest, PDF p. 99](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=99). See [[cal.1964-02-19.vietnam]]. Names: Morse, Ellender. Check: Mann dates the speech Mar. 5, "two days" after Mar. 3.'
+  - edit:
+      id: cal.1964-03-04.vietnam-2
+      base: 8b3e02af
+      set:
+        time_range:
+          - 1964-03-04T14:00Z
+          - 1964-03-04T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-04.king
+      base: c8842207
+      set:
+        time_range:
+          - 1964-03-04T14:00Z
+          - 1964-03-04T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-04.goldwater
+      base: 4c1a4de8
+      set:
+        time_range:
+          - 1964-03-04T14:00Z
+          - 1964-03-04T20:00Z
+        time_zone: America/Los_Angeles
+  - edit:
+      id: cal.1964-03-04.goldwater-2
+      base: 698c6809
+      set:
+        time_range:
+          - 1964-03-04T14:00Z
+          - 1964-03-04T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-04.vietnam-3
+      base: 746a150d
+      set:
+        time_range:
+          - 1964-03-04T14:00Z
+          - 1964-03-04T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-04.vietnam-4
+      base: 23004b6e
+      set:
+        time: 1964-03-05T00:26Z
+  - edit:
+      id: cal.1964-03-04.cuba
+      base: 3f3f1713
+      set:
+        time_range:
+          - 1964-03-04T14:00Z
+          - 1964-03-04T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-05.vietnam-force-levels
+      base: a999e439
+      set:
+        time_range:
+          - 1964-03-05T14:00Z
+          - 1964-03-05T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-05.goldwater
+      base: 7496d5ed
+      set:
+        time_range:
+          - 1964-03-05T11:00Z
+          - 1964-03-05T17:00Z
+        time_zone: America/New_York
+        time_band: morning
+  - edit:
+      id: cal.1964-03-05.civil-rights-bill
+      base: c471804b
+      set:
+        time_range:
+          - 1964-03-05T15:00Z
+          - 1964-03-05T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-05.economy
+      base: 6b419abb
+      set:
+        time_range:
+          - 1964-03-05T17:00Z
+          - 1964-03-05T21:36Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 4488](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt4/pdf/GPO-CRECB-1964-pt4-2-2.pdf#page=2) (1964) (Mills); [110 Cong. Rec. 4506](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt4/pdf/GPO-CRECB-1964-pt4-2-2.pdf#page=20) (1964) (Byrnes); [110 Cong. Rec. 4523–24](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt4/pdf/GPO-CRECB-1964-pt4-2-2.pdf#page=37) (1964) (the votes). The House met at noon (its standing order, Daily Digest, D3) and adjourned at 4:36 p.m.: [Daily Digest, D107](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=105). See [[cal.1964-02-27.economy]]. Names: Mills, Byrnes.'
+  - edit:
+      id: cal.1964-03-05.laos
+      base: ac3e3251
+      set:
+        time_range:
+          - 1964-03-05T14:00Z
+          - 1964-03-05T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-05.defense
+      base: 2a127c92
+      set:
+        time_range:
+          - 1964-03-05T17:00Z
+          - 1964-03-06T00:02Z
+        time_zone: America/New_York
+        n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 486. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 7:02 p.m.: [Daily Digest, D105](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=103). See [[cal.1964-02-13.defense]].'
+  - edit:
+      id: cal.1964-03-06.elections-1964
+      base: b1682803
+      set:
+        time_range:
+          - 1964-03-06T15:00Z
+          - 1964-03-06T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-06.voting-rights
+      base: 3d23c53d
+      set:
+        time_range:
+          - 1964-03-06T15:00Z
+          - 1964-03-06T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-06.vietnam-saigon
+      base: 3fd21bb0
+      set:
+        time_range:
+          - 1964-03-06T01:00Z
+          - 1964-03-06T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-06.robert-kennedy
+      base: 879b3937
+      set:
+        time_range:
+          - 1964-03-06T14:00Z
+          - 1964-03-06T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-06.civil-rights-bill
+      base: 21297dfb
+      set:
+        time_range:
+          - 1964-03-06T14:00Z
+          - 1964-03-06T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-06.king
+      base: 61c31de8
+      set:
+        time_range:
+          - 1964-03-06T14:00Z
+          - 1964-03-06T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-06.vietnam-34a
+      base: 6e224256
+      set:
+        time_range:
+          - 1964-03-06T19:00Z
+          - 1964-03-07T03:00Z
+        time_band: workday daytime
+        time_zone: Pacific/Honolulu
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-07.vietnam
+      base: 965a91e0
+      set:
+        time_range:
+          - 1964-03-07T01:00Z
+          - 1964-03-07T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-07.elections-1964
+      base: b8a785be
+      set:
+        time_range:
+          - 1964-03-07T14:00Z
+          - 1964-03-07T17:00Z
+        time_zone: America/New_York
+        time_band: workday morning
+  - edit:
+      id: cal.1964-03-07.robert-kennedy
+      base: d3a754a8
+      set:
+        time_range:
+          - 1964-03-07T14:00Z
+          - 1964-03-07T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-08.africa-wheelus
+      base: 232c7727
+      set:
+        time_range:
+          - 1964-03-08T14:00Z
+          - 1964-03-08T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-08.civil-rights-bill-2
+      base: ab6860f3
+      set:
+        time_range:
+          - 1964-03-08T14:00Z
+          - 1964-03-08T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-09.court
+      base: 0716cbc3
+      set:
+        time_range:
+          - 1964-03-09T14:00Z
+          - 1964-03-09T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-09.civil-rights-bill
+      base: 51b18d68
+      set:
+        time_range:
+          - 1964-03-09T17:00Z
+          - 1964-03-09T23:09Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt4/pdf/GPO-CRECB-1964-pt4-4-2.pdf) (1964); [4754](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt4/pdf/GPO-CRECB-1964-pt4-4-2.pdf#page=14) (Mansfield); [4753](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt4/pdf/GPO-CRECB-1964-pt4-4-2.pdf#page=13) (Russell); [4766](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt4/pdf/GPO-CRECB-1964-pt4-4-2.pdf#page=26) (Hill). [[w.branch-pillar-of-fire]], 247; [[w.mann-walls-of-jericho]], 402–4 (Mansfield''s, Russell''s and Hill''s words); [[w.bernstein-guns-or-butter]], 61, 65 (Hill objects to unanimous consent; the motion debatable); [[w.whalen-longest-debate]], 141–43 (Russell''s two hours and five minutes on the Journal; Hill''s objection). After the morning''s strategy session: [[cal.1964-03-09.civil-rights-bill-2]]. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 6:09 p.m.: [Daily Digest, PDF p. 108](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=108). See [[cal.1964-02-10.civil-rights-bill]]. Names: Mansfield, Russell. Check: the page.'
+  - edit:
+      id: cal.1964-03-09.jobs-and-wages
+      base: e1208608
+      set:
+        time_range:
+          - 1964-03-09T14:00Z
+          - 1964-03-09T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-09.republican-party-congress
+      base: ad82a58d
+      set:
+        time_range:
+          - 1964-03-09T17:00Z
+          - 1964-03-09T23:09Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 4780–82](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt4/pdf/GPO-CRECB-1964-pt4-4-3.pdf#page=4) (1964) (extension of remarks). [[w.selverstone-kennedy-withdrawal]], 225 (the questions; the administration''s answer: training "substantially completed by the end of 1965"). The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 6:09 p.m.: [Daily Digest, PDF p. 108](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=108). To check: "Answers to Senator Keating''s Questions of March 9, 1964 on Viet Nam," Thomson Papers, box 24, JFK Library (cited by [[w.selverstone-kennedy-withdrawal]], 225 n.104b). Names: Keating.'
+  - edit:
+      id: cal.1964-03-09.king
+      base: 21d07f6b
+      set:
+        time_range:
+          - 1964-03-09T17:00Z
+          - 1964-03-09T23:00Z
+        time_zone: America/New_York
+        time_band: afternoon
+  - edit:
+      id: cal.1964-03-09.vietnam-2
+      base: a58828d2
+      set:
+        time_range:
+          - 1964-03-09T14:00Z
+          - 1964-03-09T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-09.vietnam
+      base: 3b7a1625
+      set:
+        time_range:
+          - 1964-03-09T19:00Z
+          - 1964-03-10T03:00Z
+        time_band: workday daytime
+        time_zone: Pacific/Honolulu
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-09.civil-rights-bill-2
+      base: 4674ed49
+      set:
+        time_range:
+          - 1964-03-09T11:00Z
+          - 1964-03-09T17:00Z
+        time_zone: America/New_York
+        time_band: morning
+  - edit:
+      id: cal.1964-03-09.vietnam-3
+      base: 645d58e0
+      set:
+        time_range:
+          - 1964-03-09T01:00Z
+          - 1964-03-09T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-09.defense
+      base: 6d2b78ef
+      set:
+        time_range:
+          - 1964-03-09T17:00Z
+          - 1964-03-09T19:44Z
+        time_zone: America/New_York
+        n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 486. The House met at noon (its standing order, Daily Digest, D3) and adjourned at 2:44 p.m.: [Daily Digest, D112](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=110). See [[cal.1964-02-13.defense]]. Signed: [[cal.1964-03-20.defense]].'
+  - edit:
+      id: cal.1964-03-10.vietnam
+      base: b9de8589
+      set:
+        time_range:
+          - 1964-03-10T17:00Z
+          - 1964-03-10T23:41Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 4831](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt4/pdf/GPO-CRECB-1964-pt4-5-1.pdf) (1964) ff. (1964). [[w.gibbons-u-s-government-and]], II, 224–225. [[w.mann-grand-delusion]], 317 (the "inherited folly"; Morse; Russell). The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 6:41 p.m.: [Daily Digest, D113](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=111). Check: DeBenedetti, 95, gives the words ''for murdering a single American boy in South Vietnam'' and ''one of murder'' to Gruening, in the Senate, March 1964. See [[cal.1964-03-04.vietnam]]. Names: Gruening, Morse, Russell, Johnson. Check: Mann dates the speech "October" 1963, after McGovern''s; his note gives the Record of Mar. 10, 1964.'
+  - edit:
+      id: cal.1964-03-10.vietnam-2
+      base: 381714a7
+      set:
+        time_range:
+          - 1964-03-10T01:00Z
+          - 1964-03-10T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-10.king
+      base: dad247b6
+      set:
+        time_range:
+          - 1964-03-10T14:00Z
+          - 1964-03-10T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-10.civil-rights-bill
+      base: 2710cf69
+      set:
+        time_range:
+          - 1964-03-10T17:00Z
+          - 1964-03-10T23:41Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 4855](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt4/pdf/GPO-CRECB-1964-pt4-5-1.pdf#page=74) (1964) (Mar. 10, 1964). [[w.mann-walls-of-jericho]], 404. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 6:41 p.m.: [Daily Digest, D113](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=111). See [[cal.1964-03-09.civil-rights-bill]]. Names: Sparkman.'
+  - edit:
+      id: cal.1964-03-10.elections-1964-2
+      base: b27cd788
+      set:
+        time_range:
+          - 1964-03-10T23:00Z
+          - 1964-03-11T08:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-03-10.civil-rights-bill-2
+      base: bc934c24
+      set:
+        time_range:
+          - 1964-03-10T14:00Z
+          - 1964-03-10T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-11.vietnam
+      base: 3ba738f4
+      set:
+        time_range:
+          - 1964-03-11T17:00Z
+          - 1964-03-12T01:29Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 4986–92](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt4/pdf/GPO-CRECB-1964-pt4-6-2.pdf) (1964). [[w.gibbons-u-s-government-and]], II, 225. [[w.mann-grand-delusion]], 317–18. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 8:29 p.m.: [Daily Digest, D115](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=113). See [[cal.1964-03-10.vietnam]]. Names: Dodd, Gruening. Check: Mann puts it the day after Gruening''s speech, in October 1963.'
+  - edit:
+      id: cal.1964-03-11.transition-and-staff-nsc
+      base: 20f76119
+      set:
+        time_range:
+          - 1964-03-11T14:00Z
+          - 1964-03-11T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-11.elections-1964-4
+      base: ae7450f1
+      set:
+        time_range:
+          - 1964-03-11T01:00Z
+          - 1964-03-11T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-12.congress
+      base: eea59d8f
+      set:
+        time_range:
+          - 1964-03-12T17:00Z
+          - 1964-03-12T23:04Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt4/pdf/GPO-CRECB-1964-pt4-7-2.pdf) (1964). Letter to the Speaker Urging House Action on Federal Pay Legislation, [1963–64 Pub. Papers 386](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=470) (Mar. 17, 1964). The House met at noon (its standing order, Daily Digest, D3) and adjourned at 6:04 p.m.: [Daily Digest, D119](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=117). To check: [[w.congress-and-the-nation]]. Names: Johnson. Check: the page.'
+  - edit:
+      id: cal.1964-03-12.black-nationalism
+      base: a5adcf0a
+      set:
+        time_range:
+          - 1964-03-12T14:00Z
+          - 1964-03-12T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-12.vietnam
+      base: db53f964
+      set:
+        time_range:
+          - 1964-03-12T01:00Z
+          - 1964-03-12T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-12.testing
+      base: 7967f895
+      set:
+        time_range:
+          - 1964-03-12T14:00Z
+          - 1964-03-12T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-12.civil-rights-bill
+      base: ed9413e5
+      set:
+        time_range:
+          - 1964-03-12T17:00Z
+          - 1964-03-12T23:51Z
+        time_zone: America/New_York
+        n: '[[w.whalen-longest-debate]], 144–45. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 6:51 p.m.: [Daily Digest, PDF p. 116](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=116). To check: 110 Cong. Rec. 5042–95 (Mar. 12, 1964) (cited by [[w.whalen-longest-debate]], 259). Names: Stennis, Humphrey, Kuchel, Robertson.'
+  - edit:
+      id: cal.1964-03-13.vietnam
+      base: 51772c86
+      set:
+        time_range:
+          - 1964-03-13T14:00Z
+          - 1964-03-13T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-14.vietnam
+      base: d8f11fd7
+      set:
+        time_range:
+          - 1964-03-14T14:00Z
+          - 1964-03-14T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-15.mississippi
+      base: 7267465f
+      set:
+        time_range:
+          - 1964-03-15T15:00Z
+          - 1964-03-15T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-15.civil-rights-bill
+      base: a87abf09
+      set:
+        time_range:
+          - 1964-03-15T14:00Z
+          - 1964-03-15T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-15.vietnam-2
+      base: f8249f09
+      set:
+        time_range:
+          - 1964-03-15T16:00Z
+          - 1964-03-15T21:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-03-16.poverty
+      base: 94d9c96c
+      set:
+        time_range:
+          - 1964-03-16T14:00Z
+          - 1964-03-16T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-16.vietnam
+      base: eed53b0d
+      set:
+        time_range:
+          - 1964-03-16T14:00Z
+          - 1964-03-16T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-16.civil-rights-bill
+      base: 53a961f4
+      set:
+        time_range:
+          - 1964-03-16T16:00Z
+          - 1964-03-17T01:44Z
+        time_zone: America/New_York
+        n: '[[w.branch-pillar-of-fire]], 258; [[w.whalen-longest-debate]], 145 ($1.5 billion). The Senate met at 11 a.m. (the order of Mar. 13, Daily Digest, D120) and recessed at 8:44 p.m.: [Daily Digest, D123](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=121). To check: Congressional Record, March 16, 1964, pp. 5337–52 (cited by [[w.branch-pillar-of-fire]], 258). See [[cal.1964-03-09.civil-rights-bill]]. Names: Russell.'
+  - edit:
+      id: cal.1964-03-16.vietnam-2
+      base: 10bc17b3
+      set:
+        time_range:
+          - 1964-03-16T01:00Z
+          - 1964-03-16T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-16.vietnam-3
+      base: 124df96f
+      set:
+        time_range:
+          - 1964-03-16T01:00Z
+          - 1964-03-16T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-17.peace-corps
+      base: bbbf24ad
+      set:
+        time_range:
+          - 1964-03-17T14:00Z
+          - 1964-03-17T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-17.poverty
+      base: ff9c2a42
+      set:
+        time_range:
+          - 1964-03-17T14:00Z
+          - 1964-03-17T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-17.civil-rights-bill
+      base: 32f864c6
+      set:
+        time_range:
+          - 1964-03-17T17:00Z
+          - 1964-03-18T01:19Z
+        time_zone: America/New_York
+        n: '[[w.whalen-longest-debate]], 145. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 8:19 p.m.: [Daily Digest, D125](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=123). To check: 110 Cong. Rec. 5431–51 (Mar. 17, 1964) (cited by [[w.whalen-longest-debate]], 259). Names: Thurmond.'
+  - edit:
+      id: cal.1964-03-17.civil-rights-bill-2
+      base: 11561c25
+      set:
+        time_range:
+          - 1964-03-17T14:00Z
+          - 1964-03-17T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-17.elections-1964-primaries
+      base: cbb7c174
+      set:
+        time_range:
+          - 1964-03-17T14:00Z
+          - 1964-03-17T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-18.vietnam
+      base: 39a4070b
+      set:
+        time_range:
+          - 1964-03-18T14:00Z
+          - 1964-03-18T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-18.vietnam-2
+      base: 5ab0e97f
+      set:
+        time_range:
+          - 1964-03-18T01:00Z
+          - 1964-03-18T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-18.poverty
+      base: 0dde6d0a
+      set:
+        time_range:
+          - 1964-03-18T14:00Z
+          - 1964-03-18T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-18.civil-rights-bill
+      base: f1753452
+      set:
+        time_range:
+          - 1964-03-18T17:00Z
+          - 1964-03-19T00:49Z
+        time_zone: America/New_York
+        n: '[[w.woods-fulbright]], 330. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 7:49 p.m.: [Daily Digest, D128](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=126). Check: the words, in the Record not read. To check: 110 Cong. Rec. 5639 (Senate, Mar. 18, 1964) (cited by [[w.woods-fulbright]], 330 nn.20–21). Names: Fulbright.'
+  - edit:
+      id: cal.1964-03-18.vietnam-air-war
+      base: 95bc2888
+      set:
+        time_range:
+          - 1964-03-18T14:00Z
+          - 1964-03-18T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-18.civil-rights-bill-2
+      base: 4ae9edf0
+      set:
+        time_range:
+          - 1964-03-18T17:00Z
+          - 1964-03-19T00:49Z
+        time_zone: America/New_York
+        n: '[[w.whalen-longest-debate]], 146. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 7:49 p.m.: [Daily Digest, D128](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=126). To check: 110 Cong. Rec. 5582 (Mar. 18, 1964) (cited by [[w.whalen-longest-debate]], 259). See [[cal.1964-03.civil-rights-bill-5]]. Names: Humphrey.'
+  - edit:
+      id: cal.1964-03-18.civil-rights-bill-3
+      base: a4182041
+      set:
+        time_range:
+          - 1964-03-18T14:00Z
+          - 1964-03-18T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-19.foreign-aid
+      base: 047195b9
+      set:
+        time_range:
+          - 1964-03-19T14:00Z
+          - 1964-03-19T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-19.voting-rights
+      base: 3ed9aa29
+      set:
+        time_range:
+          - 1964-03-19T15:00Z
+          - 1964-03-19T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-19.transition-and-staff
+      base: fbbd8815
+      set:
+        time_range:
+          - 1964-03-19T17:00Z
+          - 1964-03-19T23:00Z
+        time_zone: America/New_York
+        time_band: afternoon
+  - edit:
+      id: cal.1964-03-19.democratic-party
+      base: ec749b73
+      set:
+        time_range:
+          - 1964-03-19T14:00Z
+          - 1964-03-19T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-19.elections-1964
+      base: 96c7e6cd
+      set:
+        time_range:
+          - 1964-03-19T14:00Z
+          - 1964-03-19T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-19.poverty
+      base: dfa79148
+      set:
+        time_range:
+          - 1964-03-19T14:00Z
+          - 1964-03-19T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-19.defense
+      base: 863e4ed3
+      set:
+        time_range:
+          - 1964-03-19T14:00Z
+          - 1964-03-19T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-20.africa-wheelus
+      base: bb95d52a
+      set:
+        time_range:
+          - 1964-03-20T14:00Z
+          - 1964-03-20T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-20.vietnam
+      base: 2f42ddb8
+      set:
+        time_range:
+          - 1964-03-20T14:00Z
+          - 1964-03-20T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-20.robert-kennedy
+      base: 5a9f4024
+      set:
+        time_range:
+          - 1964-03-20T14:00Z
+          - 1964-03-20T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-20.vietnam-3
+      base: b3afc7df
+      set:
+        time_range:
+          - 1964-03-20T01:00Z
+          - 1964-03-20T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-20.soviet-union
+      base: 1826836a
+      set:
+        time_range:
+          - 1964-03-20T06:00Z
+          - 1964-03-20T14:00Z
+        time_band: workday daytime
+        time_zone: Europe/Moscow
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-20.defense
+      base: 26fdf375
+      set:
+        time_range:
+          - 1964-03-20T14:00Z
+          - 1964-03-20T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-21.civil-rights-bill
+      base: 9ca231d2
+      set:
+        time_range:
+          - 1964-03-21T16:00Z
+          - 1964-03-21T20:59Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 5865](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-3-1.pdf#page=29) (1964) (Mar. 21, 1964). [[w.mann-walls-of-jericho]], 403; [[w.zelizer-fierce-urgency-of-now]], 105–6 (Eastland); [[w.kotz-judgment-days]], 134. The Senate met at 11 a.m. (the order of Mar. 19, Daily Digest, D131) and recessed at 3:59 p.m.: [Daily Digest, PDF p. 133](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=133). Check: Kotz, 134, dates it Mar. 24; his note (134 n.69) and the Record, Mar. 21. See [[cal.1964-03-09.civil-rights-bill]]. Names: Eastland, Humphrey.'
+  - edit:
+      id: cal.1964-03-21.economy
+      base: 85b4bcbe
+      set:
+        time_range:
+          - 1964-03-21T14:00Z
+          - 1964-03-21T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-21.desegregation-schools
+      base: ad41431b
+      set:
+        time_range:
+          - 1964-03-21T15:00Z
+          - 1964-03-21T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-22.vietnam
+      base: 3448e68b
+      set:
+        time_range:
+          - 1964-03-22T19:00Z
+          - 1964-03-23T03:00Z
+        time_band: workday daytime
+        time_zone: Pacific/Honolulu
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-23.transportation
+      base: bfcea7e0
+      set:
+        time_range:
+          - 1964-03-23T14:00Z
+          - 1964-03-23T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-23.legislatures-ia
+      base: 992fe2ba
+      set:
+        time_range:
+          - 1964-03-23T15:00Z
+          - 1964-03-23T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-23.foreign-aid
+      base: c5dbed24
+      set:
+        time_range:
+          - 1964-03-23T14:00Z
+          - 1964-03-23T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-23.baker
+      base: 663b333f
+      set:
+        time_range:
+          - 1964-03-23T14:00Z
+          - 1964-03-23T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-23.elections-1964-primaries
+      base: dd099bc3
+      set:
+        time_range:
+          - 1964-03-23T14:00Z
+          - 1964-03-23T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-24.civil-rights-bill
+      base: 4f792733
+      set:
+        time_range:
+          - 1964-03-24T17:00Z
+          - 1964-03-25T02:05Z
+        time_zone: America/New_York
+        n: '[[w.whalen-longest-debate]], 147. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 9:05 p.m.: [Daily Digest, D137](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=135). To check: 110 Cong. Rec. 6027 (Mar. 24, 1964) (cited by [[w.whalen-longest-debate]], 259). Names: Morse.'
+  - edit:
+      id: cal.1964-03-24.civil-rights-organizations
+      base: 6a3b7ab1
+      set:
+        time_range:
+          - 1964-03-24T14:00Z
+          - 1964-03-24T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-24.desegregation-public-places
+      base: 89fecde9
+      set:
+        time_range:
+          - 1964-03-24T14:00Z
+          - 1964-03-24T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-25.latin-america
+      base: e37c50dc
+      set:
+        time_range:
+          - 1964-03-25T17:00Z
+          - 1964-03-25T23:08Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-6-1.pdf) (1964). [[w.gibbons-u-s-government-and]], II, 223, 242–43 (the speech; "unthinkable" thoughts; China; its Vietnam passages; not Castro or Panama); [[w.mcnamara-in-retrospect]], ch. 4 at n.27 (Vietnam in the speech: "it seems to me that we have no choice but to support the South Vietnamese Government and Army by the most effective means available"). [[w.mann-grand-delusion]], 319–20 (the speech; Vietnam); [[w.woods-j-william-fulbright-vietnam]], 59 (the speech to an empty chamber); [[w.woods-fulbright]], 334–36 ("unthinkable things"; Cuba a thorn, not a dagger; one China; Vietnam''s three courses, withdrawal ruled out); [[w.taking-charge]], 297 n.7. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 6:08 p.m.: [Daily Digest, D140](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=138). To check: [[w.fulbright-old-myths-and-new]]. See [[cal.1964-01-09.latin-america]]. Names: Fulbright, Castro. Check: the page.'
+  - edit:
+      id: cal.1964-03-25.trade
+      base: b1572dbd
+      set:
+        time_range:
+          - 1964-03-25T08:00Z
+          - 1964-03-25T16:00Z
+        time_band: workday daytime
+        time_zone: Europe/Zurich
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-26.civil-rights-bill
+      base: d4c977c3
+      set:
+        time_range:
+          - 1964-03-26T17:00Z
+          - 1964-03-26T22:10Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-7-2.pdf) (1964). Voteview counts the Morse vote 49–34; the Record, 50–34. [[w.branch-pillar-of-fire]], 267; [[w.mann-walls-of-jericho]], 404–5 (the votes; Dirksen''s and Russell''s words); [[w.kotz-judgment-days]], 130; [[w.bernstein-guns-or-butter]], 66 (67 to 17; Morse''s motion, Dirksen with him, beaten 50 to 34); [[w.whalen-longest-debate]], 147–48 (the Southerners'' caucus, 7–5, to allow the vote; Dirksen and eight Republicans with Morse). The Senate met at noon (its standing order, Daily Digest, D3) and adjourned at 5:10 p.m.: [Daily Digest, D143](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=141). Check: Kotz gives the vote to take up the bill as 60–17, and Russell''s words as "We have lost a skirmish. Now the real war will begin!" (130). Check: Bernstein, 66, quotes Russell, "we shall now begin to fight the war.". Check: Whalen, 147, quotes Russell from the Record (6455): "A battle has been lost ... We shall now begin to fight the war.". See [[cal.1964-03-09.civil-rights-bill]]. Names: Morse, Dirksen, Russell. Check: the page.'
+  - edit:
+      id: cal.1964-03-26.king
+      base: f37c74b7
+      set:
+        time_range:
+          - 1964-03-26T14:00Z
+          - 1964-03-26T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-26.vietnam-congress
+      base: 74cba8c1
+      set:
+        time_range:
+          - 1964-03-26T14:00Z
+          - 1964-03-26T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-26.vietnam
+      base: 4ce06e52
+      set:
+        time_range:
+          - 1964-03-26T22:00Z
+          - 1964-03-27T05:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-03-26.vietnam-congress-2
+      base: 26620d8f
+      set:
+        time_range:
+          - 1964-03-26T17:00Z
+          - 1964-03-26T22:10Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 6468–69](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-7-2.pdf) (1964). [[w.mann-grand-delusion]], 323–24. After McNamara''s testimony that morning (the sources above). The Senate met at noon (its standing order, Daily Digest, D3) and adjourned at 5:10 p.m.: [Daily Digest, D143](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=141). See [[cal.1964-03-26.vietnam-congress]]. Names: Morse, McNamara.'
+  - edit:
+      id: cal.1964-03-26.assassination
+      base: 8984747e
+      set:
+        time_range:
+          - 1964-03-26T14:00Z
+          - 1964-03-26T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-27.legislatures-ia
+      base: e190c6c4
+      set:
+        time_range:
+          - 1964-03-27T15:00Z
+          - 1964-03-27T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-27.vietnam-force-levels
+      base: 6e4e58a3
+      set:
+        time_range:
+          - 1964-03-27T14:00Z
+          - 1964-03-27T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-27.latin-america
+      base: e8b03ad2
+      set:
+        time_range:
+          - 1964-03-27T14:00Z
+          - 1964-03-27T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-27.vietnam-2
+      base: 2907d816
+      set:
+        time_range:
+          - 1964-03-27T01:00Z
+          - 1964-03-27T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-29.vietnam
+      base: 043d8f67
+      set:
+        time_range:
+          - 1964-03-29T14:00Z
+          - 1964-03-29T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-30.civil-rights-bill
+      base: fe3ccf8b
+      set:
+        time_range:
+          - 1964-03-30T17:00Z
+          - 1964-03-31T02:13Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-8-1.pdf) (1964). [[w.branch-pillar-of-fire]], 282; [[w.humphrey-education-of-a-public-1976]], 280, 478 n.6 (Humphrey''s opening, three hours; Kuchel after; the captains for the titles, Clark, Magnuson, Hart, Pastore, Morse, Douglas, Long of Missouri, Dodd, and the Republicans''); [[w.mann-walls-of-jericho]], 406 (Humphrey''s opening, three and a half hours); [[w.white-making-of-the-president-1965]], 177 (Easter Monday); [[w.zelizer-fierce-urgency-of-now]], 103–4 (Humphrey''s three and a half hours: "The time has come for America to wash its dirty face"; Russell''s three platoons); [[w.bernstein-guns-or-butter]], 66 (Humphrey on Title VII: nothing in it to require hiring "to meet a racial ''quota''"); [[w.whalen-longest-debate]], 150–51, 156 (Humphrey three and a half hours, Kuchel an hour and three quarters). The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 9:13 p.m.: [Daily Digest, D145](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=143). Check: Bernstein''s text, 66, dates Humphrey''s statement on quotas Mar. 20; the note, 547 n.6, cites the Record of Mar. 30, 6549. See [[cal.1964-03-09.civil-rights-bill]]. Cloture: [[cal.1964-06-10.civil-rights-bill]]. Names: Humphrey, Kuchel, Russell. Check: the page.'
+  - edit:
+      id: cal.1964-03-30.vietnam-congress
+      base: 7ebc75c0
+      set:
+        time_range:
+          - 1964-03-30T17:00Z
+          - 1964-03-31T02:13Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 6579](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-8-1.pdf) (1964). [[w.mann-grand-delusion]], 324. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 9:13 p.m.: [Daily Digest, D145](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=143). Names: Morse.'
+  - edit:
+      id: cal.1964-03-30.vietnam
+      base: 22b78928
+      set:
+        time_range:
+          - 1964-03-30T14:00Z
+          - 1964-03-30T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-30.vietnam-air-war
+      base: 14fa519c
+      set:
+        time_range:
+          - 1964-03-30T19:00Z
+          - 1964-03-31T03:00Z
+        time_band: workday daytime
+        time_zone: Pacific/Honolulu
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-31.vietnam-congress
+      base: b3a91551
+      set:
+        time_range:
+          - 1964-03-31T17:00Z
+          - 1964-04-01T00:52Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 6629–30](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-9-1.pdf) (1964). [[w.mann-grand-delusion]], 324. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 7:52 p.m.: [Daily Digest, D145](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=143). Names: Morse, Russell.'
+  - edit:
+      id: cal.1964-03-31.vietnam-2
+      base: f614c882
+      set:
+        time_range:
+          - 1964-03-31T01:00Z
+          - 1964-03-31T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-31.vietnam
+      base: 1e3be200
+      set:
+        time_range:
+          - 1964-03-31T14:00Z
+          - 1964-03-31T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-31.desegregation-schools
+      base: ed1f876d
+      set:
+        time_range:
+          - 1964-03-31T15:00Z
+          - 1964-03-31T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-03-31.defense
+      base: 79850d37
+      set:
+        time_range:
+          - 1964-03-31T14:00Z
+          - 1964-03-31T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-01.transportation
+      base: a0c7bf31
+      set:
+        time_range:
+          - 1964-04-01T14:00Z
+          - 1964-04-01T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-01.latin-america-2
+      base: f449f1b1
+      set:
+        time_range:
+          - 1964-04-01T11:00Z
+          - 1964-04-01T17:00Z
+        time_zone: America/New_York
+        time_band: morning
+  - edit:
+      id: cal.1964-04-01.vietnam-2
+      base: ab76cb48
+      set:
+        time_range:
+          - 1964-04-01T19:00Z
+          - 1964-04-02T03:00Z
+        time_band: workday daytime
+        time_zone: Pacific/Honolulu
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-01.vietnam
+      base: c58274e7
+      set:
+        time_range:
+          - 1964-04-01T14:00Z
+          - 1964-04-01T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-01.vietnam-34a
+      base: 634574ea
+      set:
+        time_range:
+          - 1964-04-01T19:00Z
+          - 1964-04-02T03:00Z
+        time_band: workday daytime
+        time_zone: Pacific/Honolulu
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-01.civil-rights-organizations
+      base: edcb4e5a
+      set:
+        time_range:
+          - 1964-04-01T14:00Z
+          - 1964-04-01T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-02.vietnam-congress
+      base: ffb86c94
+      set:
+        time_range:
+          - 1964-04-02T17:00Z
+          - 1964-04-02T23:48Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 6793–94](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-11-1.pdf) (1964). [[w.mann-grand-delusion]], 324. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 6:48 p.m.: [Daily Digest, D149](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=147). Names: Morse, Nguyễn Khánh.'
+  - edit:
+      id: cal.1964-04-02.desegregation-public-places
+      base: 84cb8694
+      set:
+        time_range:
+          - 1964-04-02T13:00Z
+          - 1964-04-02T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-03.latin-america
+      base: a4bf6481
+      set:
+        time_range:
+          - 1964-04-03T14:00Z
+          - 1964-04-03T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-03.africa-wheelus
+      base: 15284c55
+      set:
+        time_range:
+          - 1964-04-03T14:00Z
+          - 1964-04-03T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-04.goldwater
+      base: 5237a374
+      set:
+        time_range:
+          - 1964-04-04T17:00Z
+          - 1964-04-05T01:00Z
+        time_band: workday daytime
+        time_zone: America/Los_Angeles
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-04.civil-rights-bill
+      base: 29c75328
+      set:
+        time_range:
+          - 1964-04-04T19:00Z
+          - 1964-04-04T22:00Z
+        time_band: workday afternoon
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-05.defense
+      base: 05c97a56
+      set:
+        time_range:
+          - 1964-04-05T22:00Z
+          - 1964-04-06T08:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-04-05.goldwater-2
+      base: 1fc330f2
+      set:
+        time_range:
+          - 1964-04-05T15:00Z
+          - 1964-04-05T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-06.mississippi
+      base: 0f9e8adb
+      set:
+        time_range:
+          - 1964-04-06T14:00Z
+          - 1964-04-06T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-06.middle-east-yemen
+      base: 92aaee27
+      set:
+        time_range:
+          - 1964-04-06T14:00Z
+          - 1964-04-06T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-06.vietnam-saigon
+      base: ad9db6bf
+      set:
+        time_range:
+          - 1964-04-06T01:00Z
+          - 1964-04-06T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-06.vietnam-congress
+      base: c2ce6b70
+      set:
+        time_range:
+          - 1964-04-06T14:00Z
+          - 1964-04-06T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-07.vietnam-saigon
+      base: 30dfa756
+      set:
+        time_range:
+          - 1964-04-07T01:00Z
+          - 1964-04-07T09:00Z
+        time_band: workday daytime
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-07.cuba
+      base: c1a9c744
+      set:
+        time_range:
+          - 1964-04-07T14:00Z
+          - 1964-04-07T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-07.republican-party-congress
+      base: 3951a774
+      set:
+        time_range:
+          - 1964-04-07T14:00Z
+          - 1964-04-07T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-07.farm
+      base: b026ced2
+      set:
+        time_range:
+          - 1964-04-07T23:00Z
+          - 1964-04-08T08:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1964-04-07.poverty
+      base: 3223d7f9
+      set:
+        time_range:
+          - 1964-04-07T14:00Z
+          - 1964-04-07T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-07.war-opposition
+      base: c3b22a2d
+      set:
+        time_range:
+          - 1964-04-07T14:00Z
+          - 1964-04-07T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-08.farm
+      base: 0da21c1a
+      set:
+        time_range:
+          - 1964-04-08T17:00Z
+          - 1964-04-09T05:44Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt6/pdf/GPO-CRECB-1964-pt6-2-2.pdf) (1964); [110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt4/pdf/GPO-CRECB-1964-pt4-3-1.pdf) (1964). Statement by the President following House Action on the Wheat-Cotton and Food Stamp Bills, [1963–64 Pub. Papers 446](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=530) (Apr. 9, 1964). The House met at noon (its standing order, Daily Digest, D3) and adjourned at 12:44 a.m.: [Daily Digest, D157](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=155). To check: [[w.cochrane-american-farm-policy-1948]]; [[w.hansen-gaining-access]]; [[w.congress-and-the-nation]]. See [[cal.1963-05-20.program]]. Names: Hoeven. Check: the pages.'
+  - edit:
+      id: cal.1964-04-08.republican-party-congress
+      base: 9db9f1b7
+      set:
+        time_range:
+          - 1964-04-08T14:00Z
+          - 1964-04-08T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-09.railroads
+      base: 497db347
+      set:
+        time_range:
+          - 1964-04-09T14:00Z
+          - 1964-04-09T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-09.middle-east-yemen
+      base: 9f4d6bbd
+      set:
+        time_range:
+          - 1964-04-09T14:00Z
+          - 1964-04-09T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-09.vietnam-congress
+      base: 205ac0b8
+      set:
+        time_range:
+          - 1964-04-09T17:00Z
+          - 1964-04-10T04:31Z
+        time_zone: America/New_York
+        n: '[110 Cong. Rec. 7427](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt6/pdf/GPO-CRECB-1964-pt6-3-2.pdf) (1964). [[w.mann-grand-delusion]], 325–26. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 11:31 p.m.: [Daily Digest, D159](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=157). See [[cal.1964-04-03.vietnam]]. Names: Morse, McClellan, McNamara.'
+  - edit:
+      id: cal.1964-04-09.poverty
+      base: 6b360d65
+      set:
+        time_range:
+          - 1964-04-09T14:00Z
+          - 1964-04-09T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-09.elections-1964
+      base: f460f7d0
+      set:
+        time_range:
+          - 1964-04-09T13:00Z
+          - 1964-04-09T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-09.civil-rights-bill-2
+      base: '89492717'
+      set:
+        time_range:
+          - 1964-04-09T17:00Z
+          - 1964-04-10T04:31Z
+        time_zone: America/New_York
+        n: '[[w.whalen-longest-debate]], 161. The Senate met at noon (its standing order, Daily Digest, D3) and recessed at 11:31 p.m.: [Daily Digest, D159](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=157). To check: 110 Cong. Rec. 7375–80 (Apr. 9, 1964) (cited by [[w.whalen-longest-debate]], 262). Names: Edward Kennedy.'
+  - edit:
+      id: cal.1964-04-10.europe-and-the-alliance
+      base: f465cf4d
+      set:
+        time_range:
+          - 1964-04-10T14:00Z
+          - 1964-04-10T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-10.vietnam
+      base: 1c0a2643
+      set:
+        time_range:
+          - 1964-04-10T14:00Z
+          - 1964-04-10T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-10.civil-rights-the-executive
+      base: 35da767b
+      set:
+        time_range:
+          - 1964-04-10T14:00Z
+          - 1964-04-10T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-11.farm
+      base: 99a8cbb0
+      set:
+        time_range:
+          - 1964-04-11T14:00Z
+          - 1964-04-11T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-11.elections-1964
+      base: eab77f5a
+      set:
+        time_range:
+          - 1964-04-11T16:00Z
+          - 1964-04-12T01:00Z
+        time_band: workday daytime
+        time_zone: America/Los_Angeles
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-13.robert-kennedy
+      base: e025ce1a
+      set:
+        time_range:
+          - 1964-04-13T14:00Z
+          - 1964-04-13T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1964-04-14.republican-party
+      base: 1568492b
+      set:
+        time_range:
+          - 1964-04-14T15:00Z
+          - 1964-04-14T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind

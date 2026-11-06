@@ -1,0 +1,282 @@
+# Round 4, the day's order: notes/briefs/times.md; tools/bib/dayorder.py STYLE 1-6. Rebuilt by order-1968/build.py.
+patch: order-1968
+by: round 4, the day's order, 1968 (Claude)
+ops:
+- edit:
+    id: cal.1968-01-03.vietnam-air-war
+    base: '26136342'
+    set:
+      time_range:
+      - 1968-01-03T15:00Z
+      - 1968-01-03T23:00Z
+      time_band: workday daytime
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1968-01-23.japan-and-korea
+    base: 95e7e2a2
+    set:
+      time: 1968-01-23T05:10Z
+      time_approx: true
+- edit:
+    id: cal.1968-01-30.vietnam
+    base: 1b94faef
+    set:
+      time_range:
+      - 1968-01-29T16:00Z
+      - 1968-01-29T22:00Z
+      time_band: predawn
+      time_zone: Asia/Ho_Chi_Minh
+      range_basis: record
+- edit:
+    id: cal.1968-03-13.robert-kennedy
+    base: 32277f5d
+    set:
+      time: 1968-03-13T17:00Z
+- edit:
+    id: cal.1968-03-31.elections-1968-3
+    base: 1d2edfda
+    set:
+      time_range:
+      - 1968-03-31T11:00Z
+      - 1968-03-31T17:00Z
+      time_band: morning
+      time_zone: America/New_York
+      range_basis: record
+- edit:
+    id: cal.1968-03-31.elections-1968-10
+    base: d133860d
+    set:
+      time_range:
+      - 1968-03-31T12:00Z
+      - 1968-03-31T23:00Z
+      range_basis: record
+- edit:
+    id: cal.1968-04-04.elections-1968-4
+    base: c6c664a2
+    set:
+      time_range:
+      - 1968-04-04T05:00Z
+      - 1968-04-04T23:30Z
+      range_basis: record
+- edit:
+    id: cal.1968-05-03.vietnam
+    base: 84035adc
+    set:
+      time: 1968-05-03T05:00Z
+- edit:
+    id: cal.1968-06-05.robert-kennedy
+    base: 16e01373
+    set:
+      time: 1968-06-05T07:20Z
+- edit:
+    id: cal.1968-06-06.robert-kennedy-campaign
+    base: abcff144
+    set:
+      time: 1968-06-06T05:00Z
+- edit:
+    id: cal.1968-08-28.elections-1968-chicago
+    base: '91187816'
+    set:
+      time: 1968-08-29T00:57Z
+- follows:
+    id: cal.1968-08-29.elections-1968-chicago-10
+    add:
+    - cal.1968-08-29.elections-1968
+- edit:
+    id: cal.1968-01-25.defense-clifford
+    base: e151d7cd
+    set:
+      time: 1968-01-25T15:30Z
+    unset:
+    - range_basis
+    - time_band
+    - time_range
+- edit:
+    id: cal.1968-04-05.king
+    base: 54782c25
+    set:
+      time: 1968-04-05T16:00Z
+    unset:
+    - range_basis
+    - time_band
+    - time_range
+- edit:
+    id: cal.1968-05-03.vietnam-order-of-battle
+    base: ea53d617
+    set:
+      time: 1968-05-03T14:30Z
+    unset:
+    - range_basis
+    - time_band
+    - time_range
+- edit:
+    id: cal.1968-06-04.state-and-city-finance-tx
+    base: 640da42e
+    set:
+      time: 1968-06-04T17:00Z
+- edit:
+    id: cal.1968-07-25.elections-1968
+    base: 2b6cec80
+    set:
+      time: 1968-07-26T00:10Z
+    unset:
+    - range_basis
+    - time_band
+    - time_range
+- edit:
+    id: cal.1968-08-05.elections-1968
+    base: be5b374c
+    set:
+      time: 1968-08-05T14:00Z
+- edit:
+    id: cal.1968-08-05.elections-1968-2
+    base: f733f8c6
+    set:
+      time: 1968-08-05T20:00Z
+- edit:
+    id: cal.1968-08-08.elections-1968-miami
+    base: f155fa21
+    set:
+      time: 1968-08-08T16:39Z
+    unset:
+    - range_basis
+    - time_band
+    - time_range
+- edit:
+    id: cal.1968-08-09.elections-1968-7
+    base: f96707f1
+    set:
+      time_range:
+      - 1968-08-09T15:30Z
+      - 1968-08-09T20:00Z
+      range_basis: record
+    unset:
+    - time_band
+    - time_zone
+- edit:
+    id: cal.1968-08-23.transportation
+    base: e01e1fe5
+    set:
+      time_range:
+      - 1968-08-24T03:00Z
+      - 1968-08-24T05:00Z
+      time_band: night
+      time_zone: America/Chicago
+      range_basis: record
+- edit:
+    id: cal.1968-08-23.elections-1968-chicago
+    base: 0cb87718
+    set:
+      time: 1968-08-24T03:30Z
+- edit:
+    id: cal.1968-08-25.elections-1968
+    base: e4ed8954
+    set:
+      time_range:
+      - 1968-08-25T17:00Z
+      - 1968-08-25T18:00Z
+      range_basis: record
+      n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2292. Order: 1 p.m., Chicago''s time or Washington''s. Check: who spoke. Names: Johnson.'
+- edit:
+    id: cal.1968-08-26.elections-1968
+    base: a190842b
+    set:
+      time: 1968-08-27T00:31Z
+- edit:
+    id: cal.1968-08-27.elections-1968-chicago
+    base: 8649270c
+    set:
+      time: 1968-08-28T04:38Z
+- edit:
+    id: cal.1968-08-27.elections-1968-chicago-9
+    base: da84f3dc
+    set:
+      time_range:
+      - 1968-08-28T00:00Z
+      - 1968-08-28T03:00Z
+      time_band: evening
+      time_zone: America/Chicago
+      range_basis: record
+- edit:
+    id: cal.1968-08-28.elections-1968
+    base: 12d8c421
+    set:
+      time: 1968-08-28T21:30Z
+- edit:
+    id: cal.1968-08-28.elections-1968-chicago-7
+    base: ed97210b
+    set:
+      time: 1968-08-28T21:39Z
+- edit:
+    id: cal.1968-11-06.elections-1968
+    base: 3b6e5d9e
+    set:
+      time: 1968-11-06T19:00Z
+      time_approx: true
+    unset:
+    - range_basis
+    - time_band
+    - time_range
+- follows:
+    id: cal.1968-01-31.vietnam-tet-4
+    add:
+    - cal.1968-01-31.vietnam-tet
+- edit:
+    id: cal.1968-03-28.king-2
+    base: 08e403c5
+    set:
+      follows:
+      - cal.1968-03-28.king-memphis
+      n: '[[w.branch-at-canaans-edge]], 735; [[w.kotz-judgment-days]], 403–04 (Sullivan, with Hoover''s approval, orders two "editorials" for friendly editors). Order: on the march''s breaking up. To check: Moore to Sullivan, Mar. 28, 1968, FBI King file (cited by [[w.branch-at-canaans-edge]], 735); [[w.fairclough-to-redeem-the-soul]], 375 (cited by [[w.branch-at-canaans-edge]], 734); [[w.fairclough-to-redeem-the-soul]], 375 (cited by [[w.branch-at-canaans-edge]], 734); Moore to Sullivan, March 28, 1968, FK-NR (cited by [[w.branch-at-canaans-edge]], 735). See [[cal.1968-03-28.king-memphis]]. Names: King.'
+- edit:
+    id: cal.1968-08-25.elections-1968-chicago-4
+    base: 3096437c
+    set:
+      follows:
+      - cal.1968-08-25.elections-1968-chicago-3
+      n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2285. Order: the full committee on its subcommittee''s plank. Check: CQ''s analysis dates the committee''s adoption of the plank Aug. 26 (2289). See [[cal.1968-08-25.elections-1968-chicago-3]]. Names: McCarthy, McGovern.'
+- edit:
+    id: cal.1968-08-11.conservation
+    base: 8f5d4036
+    set:
+      time_range:
+      - 1968-08-11T14:00Z
+      - 1968-08-11T22:00Z
+      time_band: workday daytime
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1968-08-16.health
+    base: 62e640c8
+    set:
+      time_range:
+      - 1968-08-16T14:00Z
+      - 1968-08-16T22:00Z
+      time_band: workday daytime
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1968-08-18.consumers
+    base: d85091ad
+    set:
+      time_range:
+      - 1968-08-18T14:00Z
+      - 1968-08-18T22:00Z
+      time_band: workday daytime
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1968-03-28.king
+    base: b2d8bf69
+    set:
+      follows:
+      - cal.1968-03-28.king-memphis
+      n: '[[w.garrow-bearing-the-cross]], 611. Order: on the march, from Memphis. To check: FBI file 157-9146-38, 1390, and Memphis file 157-1092-167, 168, Mar. 28, 1968; 157-1092-173, Mar. 29, 1968, FBI file 157-9146; Memphis 157–1092 (cited by [[w.garrow-bearing-the-cross]], 611 n.41). See [[cal.1968-03-28.king-memphis]]. Made public: Check; Garrow had the FBI''s files under the Freedom of Information Act ([[w.garrow-bearing-the-cross]], 627). Names: King, Williams.'
+- edit:
+    id: cal.1968-05-09.economy-surcharge-3
+    base: b53905b5
+    set:
+      follows:
+      - cal.1968-05-09.economy-surcharge
+      n: '[[w.bernstein-guns-or-butter]], 376. Order: on the conferees'' report. To check: Fowler to Johnson, May 9, 1968, EX LE FI 11-4 File, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 376 n.8). See [[cal.1968-05-09.economy-surcharge]]. Names: Fowler, Johnson.'

@@ -157,6 +157,9 @@ def note_parts(n):
 
 
 CARD_ITEM = re.compile(r"^\[\[(w\.[^\]|]+)(?:\|[^\]]*)?\]\](?:, ([^(]+?))?\s*(\((?:[^()]|\([^()]*\))*\))?$")
+# A card whose pinpoint is a link and which takes a parenthetical too ("[[w.x]], [77–81](…#page=75) (the talk)"): read
+# by the claims as its link (item_key: a url item), taken by the `cite` op all the same (the Chen test, point 9).
+CARD_LINKED = re.compile(r"^\[\[(w\.[^\]|]+)(?:\|[^\]]*)?\]\], (\[[^\]]*\]\((https?://[^)\s]+)\))\s*(\((?:[^()]|\([^()]*\))*\))$")
 
 
 def is_pin(text):

@@ -1,0 +1,433 @@
+patch: ranges-1969
+by: ranges reviewer, round 3, 1968-69 and 1972-76 (Claude)
+ops:
+  - edit:
+      id: cal.1969-01-01.vietnam-paris
+      base: 250ecdaf
+      set:
+        time_range:
+          - 1969-01-01T02:00Z
+          - 1969-01-01T10:00Z
+        time_band: workday daytime
+        time_zone: Asia/Bangkok
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-03.congress
+      base: 9480d06d
+      set:
+        time_range:
+          - 1969-01-03T17:00Z
+          - 1969-01-04T01:14Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1969-01-03.congress-2
+      base: 22be2b10
+      set:
+        time_range:
+          - 1969-01-03T14:00Z
+          - 1969-01-03T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-06.economy-surcharge
+      base: 5541169e
+      set:
+        time_range:
+          - 1969-01-06T11:00Z
+          - 1969-01-06T17:00Z
+        time_band: morning
+        time_zone: America/New_York
+  - edit:
+      id: cal.1969-01-06.elections-1968
+      base: 0f9969ef
+      set:
+        time_range:
+          - 1969-01-06T17:00Z
+          - 1969-01-06T22:54Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1969-01-06.school-aid
+      base: 5ccaf0fa
+      set:
+        time_range:
+          - 1969-01-06T14:00Z
+          - 1969-01-06T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-06.vietnam-paris
+      base: 49dfddc2
+      set:
+        time_range:
+          - 1969-01-06T14:00Z
+          - 1969-01-06T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-07.governors-md
+      base: 5d297937
+      set:
+        time_range:
+          - 1969-01-07T14:00Z
+          - 1969-01-07T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-07.transition-and-staff-nsc
+      base: aa947c54
+      set:
+        time_range:
+          - 1969-01-07T14:00Z
+          - 1969-01-07T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-07.vietnam-paris
+      base: a1c0f29d
+      set:
+        time_range:
+          - 1969-01-07T17:00Z
+          - 1969-01-07T19:00Z
+        time_band: workday midday
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-08.transition-and-staff
+      base: fd8a9f08
+      set:
+        time_range:
+          - 1969-01-08T14:00Z
+          - 1969-01-08T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-09.testing
+      base: 8907e841
+      set:
+        time_range:
+          - 1969-01-09T14:00Z
+          - 1969-01-09T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-09.transition-and-staff-nsc
+      base: df54a373
+      set:
+        time_range:
+          - 1969-01-09T14:00Z
+          - 1969-01-09T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-10.economy-surcharge
+      base: f6fb41a6
+      set:
+        time_range:
+          - 1969-01-10T14:00Z
+          - 1969-01-10T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-10.goldwater
+      base: 8cfa33f5
+      set:
+        time_range:
+          - 1969-01-10T14:00Z
+          - 1969-01-10T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-12.robert-kennedy
+      base: f42c87d6
+      set:
+        time_range:
+          - 1969-01-12T14:00Z
+          - 1969-01-12T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-13.laos
+      base: cfbf0914
+      set:
+        time_range:
+          - 1969-01-13T14:00Z
+          - 1969-01-13T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-13.transition-and-staff-nsc
+      base: d8d3b990
+      set:
+        time_range:
+          - 1969-01-13T14:00Z
+          - 1969-01-13T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-14.transition-and-staff
+      base: 42ba511c
+      set:
+        time_range:
+          - 1969-01-14T14:00Z
+          - 1969-01-14T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-15.conservation
+      base: e5967606
+      set:
+        time_range:
+          - 1969-01-15T14:00Z
+          - 1969-01-15T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-15.transition-and-staff
+      base: 8d1b76b1
+      set:
+        time_range:
+          - 1969-01-15T14:00Z
+          - 1969-01-15T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-15.vietnam
+      base: 4b2aeb29
+      set:
+        time_range:
+          - 1969-01-15T08:00Z
+          - 1969-01-15T16:00Z
+        time_band: workday daytime
+        time_zone: Europe/Paris
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-15.vietnam-2
+      base: f89bd977
+      set:
+        time_range:
+          - 1969-01-15T14:00Z
+          - 1969-01-15T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-16.farm
+      base: dbe35439
+      set:
+        time_range:
+          - 1969-01-16T14:00Z
+          - 1969-01-16T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-16.governors-ia
+      base: ede411d1
+      set:
+        time_range:
+          - 1969-01-16T15:00Z
+          - 1969-01-16T23:00Z
+        time_band: workday daytime
+        time_zone: America/Chicago
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-16.jobs-and-wages
+      base: 36e54638
+      set:
+        time_range:
+          - 1969-01-16T14:00Z
+          - 1969-01-16T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-16.rules
+      base: 7100d9c4
+      set:
+        time_range:
+          - 1969-01-16T17:00Z
+          - 1969-01-16T21:49Z
+        time_zone: America/New_York
+        n: '[115 Cong. Rec. 994–95](https://www.govinfo.gov/content/pkg/GPO-CRECB-1969-pt1/pdf/GPO-CRECB-1969-pt1-10-1.pdf#page=21) (1969) (Senate, Jan. 16, 1969). The Senate sat from noon to 4:49 p.m.: [Daily Digest, D14](https://www.govinfo.gov/content/pkg/GPO-CRECB-1969-pt32/pdf/GPO-CRECB-1969-pt32-1.pdf#page=12). To check: [[w.binder-politics-or-principle]]; [[w.koger-filibustering]]. See [[cal.1967-01-18.rules]]. Names: Hart, Humphrey.'
+  - edit:
+      id: cal.1969-01-16.vietnam-paris
+      base: 0ffb6d4c
+      set:
+        time_range:
+          - 1969-01-16T08:00Z
+          - 1969-01-16T16:00Z
+        time_band: workday daytime
+        time_zone: Europe/Paris
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-17.congress
+      base: 15c8477c
+      set:
+        time_range:
+          - 1969-01-17T14:00Z
+          - 1969-01-17T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-17.congress-2
+      base: 30be3ff8
+      set:
+        time_range:
+          - 1969-01-17T17:00Z
+          - 1969-01-17T18:40Z
+        time_zone: America/New_York
+        n: '[[w.shesol-mutual-contempt]], 461. The Senate sat from noon to 1:40 p.m.: [Daily Digest, PDF p. 14](https://www.govinfo.gov/content/pkg/GPO-CRECB-1969-pt32/pdf/GPO-CRECB-1969-pt32-1.pdf#page=14). To check: *Washington Post*, Jan. 18, 1969, A12 (cited by [[w.shesol-mutual-contempt]], 461). Names: Edward Kennedy, Johnson, Robert Kennedy.'
+  - edit:
+      id: cal.1969-01-17.economy
+      base: 90197be5
+      set:
+        time_range:
+          - 1969-01-17T14:00Z
+          - 1969-01-17T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-17.oil
+      base: 3501e1cb
+      set:
+        time_range:
+          - 1969-01-17T14:00Z
+          - 1969-01-17T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-17.students
+      base: 868bb239
+      set:
+        time_range:
+          - 1969-01-17T14:00Z
+          - 1969-01-17T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-18.conservation
+      base: 07812c14
+      set:
+        time_range:
+          - 1969-01-18T14:00Z
+          - 1969-01-18T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-18.conservation-2
+      base: 9e799a2a
+      set:
+        time_range:
+          - 1969-01-18T14:00Z
+          - 1969-01-18T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-18.goldwater
+      base: d34b324a
+      set:
+        time_range:
+          - 1969-01-18T14:00Z
+          - 1969-01-18T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-18.immigration
+      base: 54a60b01
+      set:
+        time_range:
+          - 1969-01-18T14:00Z
+          - 1969-01-18T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-18.vietnam-paris
+      base: 9a5e45c2
+      set:
+        time_range:
+          - 1969-01-18T08:00Z
+          - 1969-01-18T16:00Z
+        time_band: workday daytime
+        time_zone: Europe/Paris
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-20.conservation
+      base: d0c0d71a
+      set:
+        time_range:
+          - 1969-01-20T11:00Z
+          - 1969-01-20T17:00Z
+        time_zone: America/New_York
+        n: 'Statement by the President Upon Signing Five Proclamations Adding Lands to the National Park System, [1968–69 Pub. Papers 1369](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=679) (Jan. 20, 1969); [Proclamation 3889—Establishing Marble Canyon National Monument, Arizona](https://www.presidency.ucsb.edu/documents/proclamation-3889-establishing-marble-canyon-national-monument-arizona) (Jan. 20, 1969); [Proclamation 3887—Enlarging the Arches National Monument, Utah](https://www.presidency.ucsb.edu/documents/proclamation-3887-enlarging-the-arches-national-monument-utah) (Jan. 20, 1969); [Proclamation 3888—Enlarging the Capitol Reef National Monument, Utah](https://www.presidency.ucsb.edu/documents/proclamation-3888-enlarging-the-capitol-reef-national-monument-utah) (Jan. 20, 1969); [Proclamation 3890—Enlarging the Katmai National Monument, Alaska](https://www.presidency.ucsb.edu/documents/proclamation-3890-enlarging-the-katmai-national-monument-alaska) (Jan. 20, 1969). [[w.longley-lbjs-1968]], 260–62 (the proclamations chosen, by Johnson''s account); [[w.shesol-mutual-contempt]], 463 (the small grants signed, the large refused, a million acres in Arizona among them; Udall: "If I had named the stadium after Lyndon Johnson, I would have had all seven million acres"); [[w.bernstein-guns-or-butter]], 305 (the big proposals would "strain" the law). Before noon, when his term ended (U.S. Const. amend. XX, § 1). Check: Bernstein, 305, has Johnson sign three orders, some 300 acres in the Sonoran Desert, Mt. McKinley enlarged, a new park above the Arctic Circle. To check: [[w.smith-stewart-l-udall]]; [[w.gould-lady-bird-johnson-and]]. Names: Johnson, Udall.'
+  - edit:
+      id: cal.1969-01-20.court
+      base: 63bc6360
+      set:
+        time_range:
+          - 1969-01-20T14:00Z
+          - 1969-01-20T22:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1969-01-20.republican-party
+      base: 03a976ae
+      set:
+        time_range:
+          - 1969-01-20T17:00Z
+          - 1969-01-20T23:00Z
+        time_zone: America/New_York
+        time_band: afternoon
+        n: '[[w.smith-on-his-own-terms]], 543. After the oath at noon (U.S. Const. amend. XX, § 1). To check: *New York Times*, Jan. 21, 1969 (cited by [[w.smith-on-his-own-terms]], 543). Names: Rockefeller.'
+  - edit:
+      id: cal.1969-01-20.transition-and-staff-2
+      base: 1f788d09
+      set:
+        time_range:
+          - 1969-01-20T16:00Z
+          - 1969-01-20T21:00Z
+        time_zone: America/New_York
+  - edit:
+      id: cal.1969-01-20.transition-and-staff-nsc
+      base: d2d101bc
+      set:
+        time_range:
+          - 1969-01-20T17:00Z
+          - 1969-01-20T23:00Z
+        time_zone: America/New_York
+        time_band: afternoon
+        n: 'FRUS 1969–76, II, docs. [10](https://history.state.gov/historicaldocuments/frus1969-76v02/d10), [11](https://history.state.gov/historicaldocuments/frus1969-76v02/d11). After the oath at noon (U.S. Const. amend. XX, § 1). See [[cal.1968-12-27.transition-and-staff]]. Names: Nixon.'
+  - edit:
+      id: cal.1969-01-20.war-opposition
+      base: 37b67bf4
+      set:
+        time_range:
+          - 1969-01-20T17:00Z
+          - 1969-01-20T23:00Z
+        time_zone: America/New_York
+        time_band: afternoon
+        n: '[[w.zaroulis-who-spoke-up]], 209–10. After the oath at noon (U.S. Const. amend. XX, § 1). Names: Nixon.'

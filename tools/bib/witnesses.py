@@ -406,7 +406,7 @@ def _tree(wid, rows, depth, found_roots, agents, seen=None):
         agents.add(a)
     tag = []
     if r.get("copies"):
-        tag.append("copy: " + "; ".join(map(str, r["copies"])))
+        tag.append("held: " + "; ".join(map(str, r["copies"])))   # a copy the series can read, not "a copy" (Chen 11)
     if not r.get("from"):
         found_roots.add(wid)
         tag.append("ROOT" + (f", open: {r['open']}" if r.get("open") else ""))

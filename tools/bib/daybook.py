@@ -476,8 +476,8 @@ def section_days(lst, sec, entry_li, thread_name):
         while k <= min(end, hi):
             running.setdefault(k, []).append(e)
             k += datetime.timedelta(days=1)
-    from . import dayorder           # the day's order: thread, then text; `follows` honored (dayorder STYLE 1-2)
-    undated = dayorder.order(lst, undated)
+    from . import dayorder           # the day's order: time first, then thread and text; `follows` honored (dayorder STYLE 1-2, 6)
+    undated = dayorder.order(lst, undated, by_time=False)
     dated = {k: dayorder.order(lst, v) for k, v in dated.items()}
     if undated:
         out.append(f'<div class="day mo"><div class="dh"><span class="dn">{esc(calendar.month_name[lo.month])}</span></div>'

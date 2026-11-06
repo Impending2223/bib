@@ -32,6 +32,12 @@ entries:
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 115: all'
     tags: [name:zuckert-eugene-m]
+    time_range:
+      - 1962-06-01T13:00Z
+      - 1962-06-01T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-01.vietnam-operations
     when: June 1
     date: '1962-06-01'
@@ -70,6 +76,12 @@ entries:
         - 'via x.1962-06-02.memorandum-of-conversation-taylor-department-of-state: all'
         - 'w.poole-joint-chiefs-of-staff 136: ?'
     tags: [name:mcnamara-robert-s, name:lemnitzer-lyman-l]
+    time_range:
+      - 1962-06-02T13:00Z
+      - 1962-06-02T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-02.vietnam-diplomacy
     when: June 2
     date: '1962-06-02'
@@ -98,6 +110,12 @@ entries:
         - 'w.dobrynin-in-confidence 66–67: all'
         - 'w.thomas-robert-kennedy 206: A, C'
     tags: [name:kennedy-robert-f, name:bolshakov-georgi]
+    time_range:
+      - 1962-06-03T13:00Z
+      - 1962-06-03T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-03.vietnam-congress-mansfield
     when: June 3
     date: '1962-06-03'
@@ -115,8 +133,12 @@ entries:
     date: '1962-06-04'
     thread: trade
     c: H.R. 11970 introduced by Mills; referred to Ways and Means.
-    n: '[108 Cong. Rec. 9620](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt7/pdf/GPO-CRECB-1962-pt7-11-1.pdf) (1962) (House, June 4, 1962). See [[cal.1962-01-25.trade]]. Names: Mills.'
+    n: '[108 Cong. Rec. 9620](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt7/pdf/GPO-CRECB-1962-pt7-11-1.pdf) (1962) (House, June 4, 1962). The House sat from noon to 12:21 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=2), [D272](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=270). See [[cal.1962-01-25.trade]]. Names: Mills.'
     tags: [name:mills-wilbur-d, bill:trade-1962]
+    time_range:
+      - 1962-06-04T16:00Z
+      - 1962-06-04T16:21Z
+    time_zone: America/New_York
   - id: cal.1962-06-04.governors-ia
     when: June 4
     date: '1962-06-04'
@@ -133,6 +155,12 @@ entries:
     c: 'OPEC''s Fourth Conference, Geneva, adopts Resolutions IV.30–36: negotiations with the companies "forthwith," so that oil is paid for at posted prices no lower than before August 1960; royalties at a uniform rate, not credited against income tax; no share in the companies'' marketing expenses. Iran and Saudi Arabia to negotiate.'
     n: '[FRUS 1961–63, IX, doc. 354](https://history.state.gov/historicaldocuments/frus1961-63v09/d354) (Tehran, July 2). Made public: given to the press, July 2, 1962 (doc. 354 and its note). See [[cal.1960-09-10.middle-east]].'
     short: OPEC at Geneva
+    time_range:
+      - 1962-06-04T08:00Z
+      - 1962-06-04T16:00Z
+    time_band: workday daytime
+    time_zone: Europe/Zurich
+    range_basis: kind
   - id: cal.1962-06-04.economy
     when: June 4
     date: '1962-06-04'
@@ -166,14 +194,20 @@ entries:
     date: '1962-06-04'
     thread: georgia
     also: [republican-party, governors]
+    follows:
+      - cal.1962-06-04.republican-party
     c: Atlanta. Rockefeller at a Republican dinner for Edward Smith, the party's candidate for governor of Georgia, urging him on for a two-party Georgia. Smith killed in a car crash on the way home.
-    n: '[[w.branch-parting-the-waters]], 591. To check: Atlanta Daily World, June 6, 1962, 1 (cited by [[w.branch-parting-the-waters]], 591 n.3). Check: the day of the crash. See [[cal.1962-06-04.republican-party]]. Names: Rockefeller.'
+    n: '[[w.branch-parting-the-waters]], 591. After the commencement and its luncheon: [[w.branch-parting-the-waters]], 591. To check: Atlanta Daily World, June 6, 1962, 1 (cited by [[w.branch-parting-the-waters]], 591 n.3). Check: the day of the crash. See [[cal.1962-06-04.republican-party]]. Names: Rockefeller.'
     src:
       c: af62ed9e
       rows:
         - 'w.branch-parting-the-waters 591: all'
         - 'via w.branch-parting-the-waters 591 n.3: B'
     tags: [name:rockefeller-nelson, state:ga, city:atlanta]
+    time_range:
+      - 1962-06-04T21:00Z
+      - 1962-06-05T05:00Z
+    time_zone: America/New_York
   - id: cal.1962-06-04.vietnam-hanoi
     when: June 4
     date: '1962-06-04'
@@ -186,6 +220,12 @@ entries:
         - 'w.asselin-hanois-road-to-the 132: all'
         - 'via x.1962-06-04.declaration-du-gouvernement-rdvn: all'
         - 'via x.1963.bes-review-of-events-1962: all'
+    time_range:
+      - 1962-06-04T02:00Z
+      - 1962-06-04T10:00Z
+    time_band: workday daytime
+    time_zone: Asia/Bangkok
+    range_basis: kind
   - id: cal.1962-06-05.elections-1962
     when: June 5
     date: '1962-06-05'
@@ -251,6 +291,12 @@ entries:
         - 'via w.branch-parting-the-waters 590 n.5a: all'
         - 'via w.branch-parting-the-waters 590 n.5b: A'
     tags: [name:kennedy-john-f, name:king-martin-luther-jr, name:makarios-iii]
+    time_range:
+      - 1962-06-05T13:00Z
+      - 1962-06-05T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-05.laos
     when: June 5
     date: '1962-06-05'
@@ -264,6 +310,12 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 255: all'
         - 'via x.1962-06-05.mcnamara-for-lemnitzer-june-5-1962: all'
     tags: [name:mcnamara-robert-s, name:lemnitzer-lyman-l]
+    time_range:
+      - 1962-06-05T13:00Z
+      - 1962-06-05T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-05.vietnam
     when: June 5
     date: '1962-06-05'
@@ -286,6 +338,12 @@ entries:
         - 'w.anderson-confronting-the-color-line 89: all'
         - 'via w.anderson-confronting-the-color-line 89 n.44: all'
     tags: [state:il, city:chicago]
+    time_range:
+      - 1962-06-05T14:00Z
+      - 1962-06-05T22:00Z
+    time_band: workday daytime
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1962-06-06.legislatures-tn
     when: June 6–7
     date: '1962-06-06'
@@ -325,6 +383,12 @@ entries:
       rows:
         - 'w.sorensen-kennedy 424: all'
     tags: [name:heller-walter-w, name:samuelson-paul-a]
+    time_range:
+      - 1962-06-06T13:00Z
+      - 1962-06-06T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-06.georgia
     when: June 6
     date: '1962-06-06'
@@ -352,6 +416,12 @@ entries:
         - 'via w.branch-parting-the-waters 592 n.5: A'
         - 'via w.branch-parting-the-waters 592 n.6: B'
     tags: [name:king-martin-luther-jr, name:marshall-burke, state:ga, city:atlanta]
+    time_range:
+      - 1962-06-06T13:00Z
+      - 1962-06-06T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-06.king
     when: June 6
     date: '1962-06-06'
@@ -365,6 +435,10 @@ entries:
         - 'w.branch-parting-the-waters 592–93: all'
         - 'via w.branch-parting-the-waters 593 n.1: D'
     tags: [name:king-martin-luther-jr, name:abernathy-ralph-david, state:ga, city:atlanta]
+    time_range:
+      - 1962-06-06T15:00Z
+      - 1962-06-06T21:00Z
+    time_zone: America/New_York
   - id: cal.1962-06-06.economy-2
     when: June 6
     date: '1962-06-06'
@@ -379,6 +453,12 @@ entries:
         - 'w.sundquist-politics-and-policy 43 n.94: B'
         - 'via x.1962-06-06.carlson-cong-record-vol-108-june: B'
     tags: [name:morton-thruston-b, name:carlson-frank]
+    time_range:
+      - 1962-06-06T18:00Z
+      - 1962-06-06T21:00Z
+    time_band: workday afternoon
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-07.economy
     when: June 7
     date: '1962-06-07'
@@ -415,6 +495,12 @@ entries:
         - 'w.white-suite-3505 63–64: A'
     tags: [name:laird-melvin-r, name:hickenlooper-bourke-b]
     short: the Joint Committee on Republican Principles' declaration
+    time_range:
+      - 1962-06-07T13:00Z
+      - 1962-06-07T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-07.vietnam
     when: June 7
     date: '1962-06-07'
@@ -428,6 +514,12 @@ entries:
         - 'w.preston-war-council 112: all'
         - 'via w.preston-war-council 112 n.33a: all'
     tags: [name:komer-robert-w, name:kaysen-carl, name:bowles-chester]
+    time_range:
+      - 1962-06-07T13:00Z
+      - 1962-06-07T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-07.robert-kennedy
     when: June 7
     date: '1962-06-07'
@@ -440,6 +532,12 @@ entries:
         - 'w.thomas-robert-kennedy 191: all'
         - 'via x.1962-06-07.conrad-to-evans-fbi-laboratory: all'
     tags: [name:kennedy-robert-f, name:kennedy-john-f]
+    time_range:
+      - 1962-06-07T13:00Z
+      - 1962-06-07T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-08.soviet-union-space
     when: June 8
     date: '1962-06-08'
@@ -448,6 +546,12 @@ entries:
     c: Dryden and Blagonravov, at Geneva, agree on weather satellites, the magnetic field and the Echo satellite.
     n: 'FRUS 1961–63, V, doc. [202](https://history.state.gov/historicaldocuments/frus1961-63v05/d202) (editorial note). See [[cal.1962-03-07.soviet-union]]. Names: Dryden, Blagonravov.'
     tags: [name:dryden-hugh-l, name:blagonravov-anatoli-a]
+    time_range:
+      - 1962-06-08T08:00Z
+      - 1962-06-08T16:00Z
+    time_band: workday daytime
+    time_zone: Europe/Zurich
+    range_basis: kind
   - id: cal.1962-06-08.desegregation-public-places-baltimore
     when: June 8
     date: '1962-06-08'
@@ -456,6 +560,12 @@ entries:
     n: '*Bell v. Maryland*, [378 U.S. 226](https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep378226/usrep378226.pdf) (1964) (Brennan, J.), the ordinance quoted. The Court on it: [[cal.1964-06-22.court]]. To check: [[w.durr-behind-the-backlash]]; [[w.callcott-maryland-and-america-1940]].'
     tags: [state:md, city:baltimore]
     short: Baltimore's ordinance
+    time_range:
+      - 1962-06-08T13:00Z
+      - 1962-06-08T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-08.civil-rights-the-executive
     when: June 8
     date: '1962-06-08'
@@ -470,12 +580,18 @@ entries:
         - 'via w.schlesinger-robert-kennedy-and-his 308 n.111: A-B'
         - 'via w.schlesinger-robert-kennedy-and-his 308 n.110: C'
     tags: [name:eastland-james-o, name:kennedy-robert-f, name:stennis-john-c, name:marshall-thurgood]
+    time_range:
+      - 1962-06-08T13:00Z
+      - 1962-06-08T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-08.vietnam-congress
     when: June 8
     date: '1962-06-08'
     thread: vietnam-congress
     c: 'Morse in the Senate: no evidence "that it would be militarily wise for us to let an American army get bogged down anywhere in Asia in a conventional war." Heavy casualties, then "a demand that we resort to nuclear weapons."'
-    n: '[108 Cong. Rec. 10,034](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt7/pdf/GPO-CRECB-1962-pt7-15-1.pdf) (1962). [[w.mann-grand-delusion]], 267. Names: Morse.'
+    n: '[108 Cong. Rec. 10,034](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt7/pdf/GPO-CRECB-1962-pt7-15-1.pdf) (1962). [[w.mann-grand-delusion]], 267. The Senate sat from noon to 3:05 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=1), [D285](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=283). Names: Morse.'
     src:
       c: c7866aa5
       rows:
@@ -484,6 +600,10 @@ entries:
         - 'via w.mann-grand-delusion 267 n.34: all'
     tags: [name:morse-wayne]
     short: Morse's doubts
+    time_range:
+      - 1962-06-08T16:00Z
+      - 1962-06-08T19:05Z
+    time_zone: America/New_York
   - id: cal.1962-06-08.elections-1962
     when: June 8
     date: '1962-06-08'
@@ -510,6 +630,12 @@ entries:
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 111: all'
     tags: [name:mcnamara-robert-s]
+    time_range:
+      - 1962-06-08T13:00Z
+      - 1962-06-08T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-10.opinion-5
     when: June 10
     date: '1962-06-10'
@@ -610,6 +736,12 @@ entries:
         - 'w.branch-parting-the-waters 595–96: all'
         - 'via w.branch-parting-the-waters 595 n.2: all'
     tags: [name:king-martin-luther-jr, name:levison-stanley-d, city:nyc]
+    time_range:
+      - 1962-06-11T13:00Z
+      - 1962-06-11T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-11.laos
     when: June 11
     date: '1962-06-11'
@@ -652,6 +784,12 @@ entries:
         - 'w.branch-parting-the-waters 596: all'
         - 'via w.branch-parting-the-waters 596 n.1: all'
     tags: [name:hoover-j-edgar, name:levison-stanley-d, name:odell-jack-h]
+    time_range:
+      - 1962-06-12T13:00Z
+      - 1962-06-12T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-12.laos
     when: June 12
     date: '1962-06-12'
@@ -664,6 +802,12 @@ entries:
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 255: all'
     tags: [name:mcnamara-robert-s]
+    time_range:
+      - 1962-06-12T13:00Z
+      - 1962-06-12T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-13.opinion-5
     when: June 13
     date: '1962-06-13'
@@ -687,6 +831,12 @@ entries:
         - 'w.preston-war-council 112: A'
         - 'via w.preston-war-council 112 n.31a: A'
     tags: [name:bowles-chester, name:kennedy-john-f, name:mansfield-mike]
+    time_range:
+      - 1962-06-13T13:00Z
+      - 1962-06-13T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-13.europe-and-the-alliance
     when: June 13
     date: '1962-06-13'
@@ -698,6 +848,12 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 199: all'
     tags: [name:kennedy-john-f, name:rusk-dean, name:mcnamara-robert-s, name:taylor-maxwell, name:bundy-mcgeorge, name:finletter-thomas-k]
+    time_range:
+      - 1962-06-13T13:00Z
+      - 1962-06-13T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-14.economy-debt-limit
     when: June 14
     date: '1962-06-14'
@@ -705,6 +861,12 @@ entries:
     c: 'House passes H.R. 11990: the debt limit $308 billion to Mar. 31, 1963, $305 billion to June 24, $300 billion to June 30. Byrnes''s motion to recommit refused, [145–258](https://voteview.com/rollcall/RH0870156); passed, [211–192](https://voteview.com/rollcall/RH0870157).'
     n: '[108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt8/pdf/GPO-CRECB-1962-pt8-4-1.pdf) (1962). See [[cal.1960-06-08.economy-debt-limit]]. Names: Byrnes. Check: the page.'
     tags: [name:byrnes-john-w]
+    time_range:
+      - 1962-06-14T18:00Z
+      - 1962-06-14T21:00Z
+    time_band: workday afternoon
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-14.women
     when: June 14
     date: '1962-06-14'
@@ -713,6 +875,12 @@ entries:
     n: '[42 Op. Att''y Gen. 157](https://archive.org/details/op-atty-gen/042/page/n181/mode/1up) (1962), overruling 38 Op. Att''y Gen. 77 (1934). See [[cal.1961-12-14.program]]. Names: Robert Kennedy.'
     tags: [name:kennedy-robert-f]
     short: the Attorney General's opinion on appointments by sex
+    time_range:
+      - 1962-06-14T13:00Z
+      - 1962-06-14T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-14.vietnam
     when: June 14
     date: '1962-06-14'
@@ -739,6 +907,12 @@ entries:
         - 'w.mann-grand-delusion 265: all'
         - 'via w.mann-grand-delusion 265 n.27: all'
     tags: [name:tran-van-chuong, name:valeo-francis-r, name:mansfield-mike, name:ngo-dinh-diem]
+    time_range:
+      - 1962-06-14T13:00Z
+      - 1962-06-14T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-14.soviet-union
     when: June 14
     date: '1962-06-14'
@@ -752,13 +926,19 @@ entries:
         - 'w.fursenko-one-hell-of-a 189–90: all'
         - 'via w.fursenko-one-hell-of-a 190 n.26: all'
     tags: [name:kennedy-robert-f, name:bolshakov-georgi]
+    time_range:
+      - 1962-06-14T06:00Z
+      - 1962-06-14T14:00Z
+    time_band: workday daytime
+    time_zone: Europe/Moscow
+    range_basis: kind
   - id: cal.1962-06-14.economy
     when: June 14
     date: '1962-06-14'
     thread: economy
     also: [republican-party-congress]
     c: 'Capehart in the Senate: cut taxes $10 billion and spending $15 billion before the session ends. "The administration has proposed a tax cut only. But any reduction in income without a corresponding reduction in expenditures is unrealistic."'
-    n: 'Capehart, [108 Cong. Rec. 10,539](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt8/pdf/GPO-CRECB-1962-pt8-4-2.pdf#page=11) (1962) (June 14, 1962). [[w.sundquist-politics-and-policy]], 43 n.94. Names: Capehart.'
+    n: 'Capehart, [108 Cong. Rec. 10,539](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt8/pdf/GPO-CRECB-1962-pt8-4-2.pdf#page=11) (1962) (June 14, 1962). [[w.sundquist-politics-and-policy]], 43 n.94. The Senate sat from noon to 6:02 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=1), [D298](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=296). Names: Capehart.'
     src:
       c: ef0e6868
       rows:
@@ -766,17 +946,25 @@ entries:
         - 'w.sundquist-politics-and-policy 43 n.94: all'
         - 'via x.1962-06-14.capehart-ibid-june-14-1962-p: all'
     tags: [name:capehart-homer-e]
+    time_range:
+      - 1962-06-14T16:00Z
+      - 1962-06-14T22:02Z
+    time_zone: America/New_York
   - id: cal.1962-06-14.defense
     when: June 14
     date: '1962-06-14'
     thread: defense
     also: [congress]
     c: 'The Senate passes the Defense appropriation, 88 to 0: Army Reserve end strength at least 300,000, Guard 400,000.'
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 111. See [[cal.1962-06-08.defense]].'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 111. The Senate sat from noon to 6:02 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=1), [D298](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=296). See [[cal.1962-06-08.defense]].'
     src:
       c: 4552ef13
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 111: all'
+    time_range:
+      - 1962-06-14T16:00Z
+      - 1962-06-14T22:02Z
+    time_zone: America/New_York
   - id: cal.1962-06-14.defense-2
     when: June 14
     date: '1962-06-14'
@@ -784,6 +972,12 @@ entries:
     c: The Senate Armed Services Committee hears John T. McNaughton on his nomination as General Counsel of the Department of Defense.
     n: '*Nomination of John T. McNaughton ; Development of Ryukyu Islands: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1962) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg89825)), 2. Names: McNaughton.'
     tags: [name:mcnaughton-john-t]
+    time_range:
+      - 1962-06-14T13:00Z
+      - 1962-06-14T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-15.opinion-5
     when: June 15
     date: '1962-06-15'
@@ -832,6 +1026,12 @@ entries:
         - 'w.sundquist-politics-and-policy 204: all'
         - 'via w.sundquist-politics-and-policy 204 n.149: all'
         - 'w.graham-uncertain-triumph 31, 235 n.13: A'
+    time_range:
+      - 1962-06-16T13:00Z
+      - 1962-06-16T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-16.vietnam
     when: June 16
     date: '1962-06-16'
@@ -845,6 +1045,12 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 275: all'
         - 'via x.1962-06-16.rusk-to-mcnamara-task-force-southeast-asia: all'
     tags: [name:rusk-dean, name:mcnamara-robert-s, name:harriman-w-averell]
+    time_range:
+      - 1962-06-16T13:00Z
+      - 1962-06-16T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-17.opinion
     when: June 17
     date: '1962-06-17'
@@ -887,6 +1093,12 @@ entries:
         - 'via w.schlesinger-robert-kennedy-and-his 512 n.*: all'
         - 'w.dobrynin-in-confidence 67: A'
     tags: [name:bolshakov-georgi, name:kennedy-robert-f, name:khrushchev-nikita-s]
+    time_range:
+      - 1962-06-18T13:00Z
+      - 1962-06-18T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-18.right-and-the-military
     when: June 18
     date: '1962-06-18'
@@ -917,6 +1129,12 @@ entries:
     c: Oklahoma City. A three-judge court declares Oklahoma's legislative apportionment laws, and the constitution's provisions under which they stand, void for future elections; the November 1962 election excepted.
     n: '*Moss v. Burkhart*, [207 F. Supp. 885](https://static.case.law/f-supp/207/case-pdfs/0885-01.pdf) (W.D. Okla. 1962) (the opinion and the decree of June 19). To check: [[w.dixon-democratic-representation]]; [[w.morgan-oklahoma-politics-and-policies]]. See [[cal.1962-03-26.court]]; [[cal.1960-09-20.state-constitutions-ok]].'
     tags: [state:ok]
+    time_range:
+      - 1962-06-19T14:00Z
+      - 1962-06-19T23:00Z
+    time_band: workday daytime
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1962-06-19.laos
     when: June 19
     date: '1962-06-19'
@@ -931,6 +1149,12 @@ entries:
         - 'via w.schlesinger-robert-kennedy-and-his 500 n.11: all'
         - 'w.thomas-robert-kennedy 206 n.: A'
     tags: [name:kennedy-robert-f, name:kennedy-john-f, name:khrushchev-nikita-s, name:bolshakov-georgi]
+    time_range:
+      - 1962-06-19T13:00Z
+      - 1962-06-19T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-19.vietnam
     when: June 19
     date: '1962-06-19'
@@ -943,6 +1167,12 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 275: all'
         - 'via x.1962-06-19.mcnamara-to-rusk-task-force-southeast-asia: all'
     tags: [name:mcnamara-robert-s, name:rusk-dean, name:harriman-w-averell]
+    time_range:
+      - 1962-06-19T13:00Z
+      - 1962-06-19T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-20.middle-east
     when: June 20–22
     date: '1962-06-20'
@@ -966,6 +1196,12 @@ entries:
         - 'via w.preston-war-council 110 n.25b: A'
         - 'via w.preston-war-council 113 n.36c: B'
     tags: [name:forrestal-michael-v, name:kennedy-john-f]
+    time_range:
+      - 1962-06-20T13:00Z
+      - 1962-06-20T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-20.testing
     when: June 20
     date: '1962-06-20'
@@ -979,6 +1215,12 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 335: all'
         - 'via x.1962-06-20.lemnitzer-notes-white-house-testing: all'
     tags: [name:kennedy-john-f, name:lemnitzer-lyman-l]
+    time_range:
+      - 1962-06-20T13:00Z
+      - 1962-06-20T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-20.defense
     when: June 20–21
     date: '1962-06-20'
@@ -995,7 +1237,7 @@ entries:
     date: '1962-06-21'
     thread: farm
     c: House defeats the farm bill, with mandatory wheat and feed grain controls, [215–205](https://voteview.com/rollcall/RH0870162).
-    n: '[[w.sorensen-kennedy]], 342 (the farm bill lost, lacking five votes). See [[cal.1961-03-22.program]]. Names: Freeman.'
+    n: '[[w.sorensen-kennedy]], 342 (the farm bill lost, lacking five votes). The House sat from noon to 8:56 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=2), [D319](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=317). See [[cal.1961-03-22.program]]. Names: Freeman.'
     src:
       c: 80bc85e5
       rows:
@@ -1003,6 +1245,10 @@ entries:
         - 'w.sorensen-kennedy 342: A'
     tags: [name:freeman-orville-l]
     short: the farm bill's defeat
+    time_range:
+      - 1962-06-21T16:00Z
+      - 1962-06-22T00:56Z
+    time_zone: America/New_York
   - id: cal.1962-06-21.king
     when: June 21
     date: '1962-06-21'
@@ -1016,6 +1262,12 @@ entries:
         - 'w.branch-parting-the-waters 597: all'
         - 'via w.branch-parting-the-waters 597 n.1b: all'
     tags: [name:hoover-j-edgar, name:levison-stanley-d, name:odell-jack-h, name:king-martin-luther-jr]
+    time_range:
+      - 1962-06-21T13:00Z
+      - 1962-06-21T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-21.press-and-broadcasting
     when: June 21
     date: '1962-06-21'
@@ -1037,6 +1289,12 @@ entries:
     c: 'The three-judge court at Nashville: neither of Tennessee''s acts apportions either house on the number of voters, and at least one must be; the August and November elections to go forward under them, the General Assembly so chosen to act by June 3, 1963.'
     n: '*Baker v. Carr*, [206 F. Supp. 341](https://static.case.law/f-supp/206/case-pdfs/0341-01.pdf) (M.D. Tenn. 1962). See [[cal.1962-05-29.legislatures-tn]].'
     tags: [state:tn]
+    time_range:
+      - 1962-06-22T14:00Z
+      - 1962-06-22T23:00Z
+    time_band: workday daytime
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1962-06-22.goldwater
     when: June 22
     date: '1962-06-22'
@@ -1059,6 +1317,10 @@ entries:
       rows:
         - 'w.white-suite-3505 71: all'
     tags: [name:eisenhower-dwight-d, city:washington]
+    time_range:
+      - 1962-06-22T21:00Z
+      - 1962-06-23T04:00Z
+    time_zone: America/New_York
   - id: cal.1962-06-23.laos
     when: June 23
     date: '1962-06-23'
@@ -1085,6 +1347,12 @@ entries:
         - 'w.branch-parting-the-waters 590: all'
         - 'via w.branch-parting-the-waters 590 n.2: all'
     tags: [name:king-martin-luther-jr]
+    time_range:
+      - 1962-06-23T13:00Z
+      - 1962-06-23T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-25.court
     when: June 25
     date: '1962-06-25'
@@ -1099,6 +1367,12 @@ entries:
         - 'w.graham-uncertain-triumph 31: E'
         - 'via w.graham-uncertain-triumph 31 n.14: E'
     short: '*Engel v. Vitale*'
+    time_range:
+      - 1962-06-25T13:00Z
+      - 1962-06-25T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-25.mississippi
     when: June 25
     date: '1962-06-25'
@@ -1117,6 +1391,12 @@ entries:
         - 'w.schlesinger-thousand-days-1965 940–48: all'
         - 'w.mann-walls-of-jericho 328: A-B'
     tags: [name:cameron-ben-f, name:meredith-james-h]
+    time_range:
+      - 1962-06-25T14:00Z
+      - 1962-06-25T23:00Z
+    time_band: workday daytime
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1962-06-25.king
     when: June 25
     date: '1962-06-25'
@@ -1130,9 +1410,16 @@ entries:
         - 'w.branch-parting-the-waters 597: all'
         - 'via w.branch-parting-the-waters 597 n.2: all'
     tags: [name:hoover-j-edgar, name:kennedy-robert-f, name:levison-stanley-d, name:odell-jack-h, name:king-martin-luther-jr]
+    time_range:
+      - 1962-06-25T13:00Z
+      - 1962-06-25T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-27.court
     when: June 27
     date: '1962-06-27'
+    time: 1962-06-27T20:00Z
     thread: court
     also: [elections-1962, china]
     c: 'News conference. The school prayer decision: "we support the Supreme Court decisions even when we may not agree with them"; "a very easy remedy and that is to pray ourselves." Too many Kennedys? The people of Massachusetts to judge "as to whether there are too many Kennedys." The opening statement on the Formosa Strait: very large movements of Chinese Communist forces into the area; the policy since 1955 unchanged, the United States speaking with one voice; "the purposes of the United States in this area are peaceful and defensive."'
@@ -1159,6 +1446,12 @@ entries:
         - 'via x.1962-06-27.senate-funds-foreign-agents-study: A'
         - 'via x.1990-03-11.woods-interview-pincus: B'
     tags: [name:fulbright-j-william]
+    time_range:
+      - 1962-06-27T18:00Z
+      - 1962-06-27T21:00Z
+    time_band: workday afternoon
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-27.vietnam
     when: June 27
     date: '1962-06-27'
@@ -1171,12 +1464,18 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v02/d230: all'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 280: B-C'
         - 'via x.1962-06-27.southeast-asia-task-force-status-report: all'
+    time_range:
+      - 1962-06-27T13:00Z
+      - 1962-06-27T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-28.trade
     when: June 28
     date: '1962-06-28'
     thread: trade
     c: House passes the trade bill, [298–125](https://voteview.com/rollcall/RH0870166).
-    n: '[[w.ball-past-has-another-pattern]], 198. See [[cal.1962-01-25.trade]]. Names: Mills.'
+    n: '[[w.ball-past-has-another-pattern]], 198. The House sat from noon to 6:06 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=2), [D340](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=338). See [[cal.1962-01-25.trade]]. Names: Mills.'
     src:
       c: 2be27aa8
       rows:
@@ -1184,6 +1483,10 @@ entries:
         - 'w.ball-past-has-another-pattern 198: A'
     tags: [name:mills-wilbur-d]
     short: the House vote
+    time_range:
+      - 1962-06-28T16:00Z
+      - 1962-06-28T22:06Z
+    time_zone: America/New_York
   - id: cal.1962-06-28.states-and-cities-nashville
     when: June 28
     date: '1962-06-28'
@@ -1208,6 +1511,12 @@ entries:
         - 'w.bernstein-guns-or-butter 251: C'
     tags: [name:kennedy-john-f, name:fulbright-j-william, name:walter-francis-e]
     short: the refugee assistance act
+    time_range:
+      - 1962-06-28T13:00Z
+      - 1962-06-28T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-28.europe-and-the-alliance-cyprus
     when: June 28
     date: '1962-06-28'
@@ -1215,6 +1524,12 @@ entries:
     c: 'NSAM 169 on Cyprus: to take "full advantage of the momentum" of Makarios''s visit; an aid program giving the United States "the key role" in Cyprus''s development.'
     n: '[NSAM No. 169](https://history.state.gov/historicaldocuments/frus1961-63v16/d261) (June 28, 1962). See [[cal.1962-06-05.europe-and-the-alliance]]. Names: Kennedy, Makarios III.'
     tags: [name:kennedy-john-f, name:bundy-mcgeorge, name:makarios-iii]
+    time_range:
+      - 1962-06-28T13:00Z
+      - 1962-06-28T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-28.economy-debt-limit
     when: June 28
     date: '1962-06-28'
@@ -1222,8 +1537,12 @@ entries:
     follows:
       - cal.1962-06-28.economy
     c: Senate passes H.R. 11990, [55–34](https://voteview.com/rollcall/RS0870285). Williams's and Dirksen's amendment for $306 billion rejected, [37–52](https://voteview.com/rollcall/RS0870284).
-    n: '[108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt9/pdf/GPO-CRECB-1962-pt9-5-2.pdf) (1962). The votes after the day''s debate: [108 Cong. Rec. 12185](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt9/pdf/GPO-CRECB-1962-pt9-5-2.pdf#page=50), [12190](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt9/pdf/GPO-CRECB-1962-pt9-5-2.pdf#page=55) (1962). See [[cal.1962-06-14.economy-debt-limit]]. Names: Williams, Dirksen. Check: the page.'
+    n: '[108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt9/pdf/GPO-CRECB-1962-pt9-5-2.pdf) (1962). The votes after the day''s debate: [108 Cong. Rec. 12185](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt9/pdf/GPO-CRECB-1962-pt9-5-2.pdf#page=50), [12190](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt9/pdf/GPO-CRECB-1962-pt9-5-2.pdf#page=55) (1962). The Senate sat from noon to 8:40 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=1), [D338](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=336). See [[cal.1962-06-14.economy-debt-limit]]. Names: Williams, Dirksen. Check: the page.'
     tags: [name:williams-john-j, name:dirksen-everett]
+    time_range:
+      - 1962-06-28T16:00Z
+      - 1962-06-29T00:40Z
+    time_zone: America/New_York
   - id: cal.1962-06-28.georgia-albany
     when: June 28
     date: '1962-06-28'
@@ -1243,13 +1562,17 @@ entries:
     thread: economy
     also: [republican-party-congress, economy-debt-limit]
     c: 'The Senate''s debate on the debt limit. Williams, Bennett, Bush and other Republicans: any tax cut to be matched by equal or greater cuts in spending, against inflation. By Sundquist''s account.'
-    n: '[[w.sundquist-politics-and-policy]], 43 & n.94. To check: 108 Cong. Rec. 12,153–63 (June 28, 1962), [the Senate''s day](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt9/pdf/GPO-CRECB-1962-pt9-5-2.pdf#page=18) (cited by [[w.sundquist-politics-and-policy]], 43 n.94). See [[cal.1962-06-28.economy-debt-limit]]. Names: Williams, Bennett, Bush.'
+    n: '[[w.sundquist-politics-and-policy]], 43 & n.94. The Senate sat from noon to 8:40 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=1), [D338](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=336). To check: 108 Cong. Rec. 12,153–63 (June 28, 1962), [the Senate''s day](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt9/pdf/GPO-CRECB-1962-pt9-5-2.pdf#page=18) (cited by [[w.sundquist-politics-and-policy]], 43 n.94). See [[cal.1962-06-28.economy-debt-limit]]. Names: Williams, Bennett, Bush.'
     src:
       c: acfb2452
       rows:
         - 'w.sundquist-politics-and-policy 43 & n.94: all'
         - 'via x.1962-06-28.williams-bennett-bush-and-other-senators: all'
     tags: [name:williams-john-j, name:bennett-wallace-f, name:bush-prescott-s]
+    time_range:
+      - 1962-06-28T16:00Z
+      - 1962-06-29T00:40Z
+    time_zone: America/New_York
   - id: cal.1962-06-29.latin-america
     when: June 29–July 1
     date: '1962-06-29'
@@ -1271,6 +1594,12 @@ entries:
         - 'w.stein-fiscal-revolution-in-america 430: B'
         - 'via w.stein-fiscal-revolution-in-america 417 n.55: A'
         - 'via w.stein-fiscal-revolution-in-america 430 n.13: B'
+    time_range:
+      - 1962-06-29T13:00Z
+      - 1962-06-29T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-29.conservation
     when: June 29
     date: '1962-06-29'
@@ -1282,6 +1611,12 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 277: all'
     tags: [name:aspinall-wayne-n]
+    time_range:
+      - 1962-06-29T13:00Z
+      - 1962-06-29T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-06-30.state-and-city-finance-us
     when: June 30
     date: '1962-06-30'
@@ -1437,6 +1772,12 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 400: all'
     tags: [name:rockefeller-nelson, state:ny, city:albany]
+    time_range:
+      - 1962-06-30T13:00Z
+      - 1962-06-30T21:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1962-07.medicare
     when: June–July
     date: 1962-06

@@ -1,0 +1,212 @@
+patch: 2026-11-06-order-1963
+by: 'Claude (round 4, the day''s order, 1963: notes/briefs/times.md; rebuilt by scratchpad order-1963/bin/build_patch.py)'
+ops:
+  - edit:
+      id: cal.1963-05-23.africa
+      base: bbbd6d0f
+      set:
+        time: 1963-05-23T12:00Z
+  - check:
+      id: cal.1963-05-23.africa
+      text: 'Check: the hour, the cable''s 3 p.m. read as Addis Ababa''s.'
+  - edit:
+      id: cal.1963-08-28.march-on-washington-2
+      base: 8b013ded
+      set:
+        time: 1963-08-28T16:00Z
+        time_approx: true
+  - edit:
+      id: cal.1963-09-10.civil-rights-bill
+      base: 27d7adc6
+      set:
+        time: 1963-09-10T18:30Z
+  - edit:
+      id: cal.1963-10-24.civil-rights-bill
+      base: cd35aaf3
+      set:
+        time: 1963-10-24T13:30Z
+  - edit:
+      id: cal.1963-10-24.republican-party-congress
+      base: 223abb40
+      set:
+        time: 1963-10-24T16:00Z
+  - edit:
+      id: cal.1963-10-28.civil-rights-bill-3
+      base: 906f779b
+      set:
+        time: 1963-10-28T21:00Z
+  - edit:
+      id: cal.1963-10-29.republican-party-congress-2
+      base: a668262d
+      set:
+        time: 1963-10-29T13:00Z
+  - edit:
+      id: cal.1963-10-30.vietnam-3
+      base: 0599740f
+      set:
+        time: 1963-10-30T08:00Z
+  - edit:
+      id: cal.1963-11-22.assassination-5
+      base: 3892de64
+      set:
+        time: 1963-11-22T19:00Z
+        time_approx: true
+  - edit:
+      id: cal.1963-11-22.assassination-8
+      base: 3a4ab279
+      set:
+        time: 1963-11-22T19:00Z
+        time_approx: true
+  - edit:
+      id: cal.1963-11-22.succession-10
+      base: ab3fd2e7
+      set:
+        time: 1963-11-23T00:10Z
+  - edit:
+      id: cal.1963-06-11.alabama
+      base: 70ec036d
+      set:
+        time_range:
+          - 1963-06-11T15:00Z
+          - 1963-06-12T00:00Z
+        time_zone: America/Chicago
+        range_basis: record
+  - edit:
+      id: cal.1963-05-06.alabama-birmingham-2
+      base: 572746ff
+      set:
+        time_range:
+          - 1963-05-06T17:40Z
+          - 1963-05-06T20:40Z
+        time_zone: America/Chicago
+        range_basis: record
+  - edit:
+      id: cal.1963-11-01.vietnam
+      base: f5edf8c7
+      set:
+        time_range:
+          - 1963-11-01T05:45Z
+          - 1963-11-02T04:00Z
+        time_zone: Asia/Ho_Chi_Minh
+        range_basis: record
+  - edit:
+      id: cal.1963-08-28.march-on-washington
+      base: d9a8ae49
+      set:
+        time_range:
+          - 1963-08-28T16:00Z
+          - 1963-08-28T21:00Z
+        time_zone: America/New_York
+        range_basis: record
+        n: 'Statement by the President on the March on Washington for Jobs and Freedom, [1963 Pub. Papers 645](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=703) (Aug. 28, 1963). [Kennedy with the March''s leaders, 5 p.m.](https://prde.upress.virginia.edu/conversations/4006294), JFK Meeting Tape 108.1 and 108.2 (PRDE only). March on Washington (Aug. 28, 1963) (K–J Cong. II.K). [[w.garrow-bearing-the-cross]], 280–86; [[w.branch-pillar-of-fire]], 130–33; [[w.sorensen-kennedy]], 504–05 (the President''s part; the leaders at the White House); [[w.mann-walls-of-jericho]], 371–73 (more than 200,000; the leaders to the White House after; "Pass the bill!"); [[w.branch-parting-the-waters]], 876–83; [[w.kotz-judgment-days]], 64; [[w.young-easy-burden]], 271–73. [[w.reeves-president-kennedy]], 571, 578–85 (the March; Rustin; Lewis''s text; King; the White House after). Check: Branch, 876–83: twenty-one charter trains, buses through the Baltimore tunnel at a hundred an hour (Gentile); the police estimate at noon more than 200,000; Wilkins announces Du Bois''s death in Ghana: "regardless of the fact that in his later years Dr. Du Bois chose another path"; Marshall brings a revised Lewis text by police sidecar; O''Boyle withholds the invocation; under Lincoln''s seat Randolph, King, Blake and Lewis cut the Sherman passage, King: "John, I know you as well as anybody. That doesn''t sound like you"; Lewis: "the party of Kennedy is also the party of Eastland. The party of Javits is also the party of Goldwater"; the leaders'' wives kept from the march; Mahalia Jackson, "Tell ''em about the dream, Martin"; King off his text after "a mighty stream.". The morning''s calls, before the program: [[w.branch-parting-the-waters]], 876. The March from about noon ([[cal.1963-08-28.march-on-washington-2|Humphrey''s account]]) to the leaders'' meeting at 5 p.m. (the recording above). To check: [[w.rosenberg-kennedy-johnson-and-the]] ("The Bill and the March"); [[w.demilio-lost-prophet]]; [[w.anderson-philip-randolph]]; [[w.lewis-walking-with-the-wind]]; [[w.gentile-march-on-washington]]; [[w.hansen-dream]]; [[w.euchner-nobody-turn-me-around]]; [[w.jones-behind-the-dream]]; [[w.jones-march-on-washington]]; King, "Advance Text . . .," Aug. 28, 1963, Harry Boyte Papers, Duke University (cited by [[w.garrow-bearing-the-cross]], 281 n.59); New York Times, Aug. 29, 1963, 20; John Lewis, "Six Month Report," Dec. 27, 1963, SNCC Papers, box 1, King Center; Rustin, remarks, Syracuse, N.Y., Jan. 4, 1964, State Historical Society of Wisconsin, tape 544 (cited by [[w.garrow-bearing-the-cross]], 283 n.60); King, "I Have a Dream," Aug. 28, 1963, on "The Great March on Washington," Gordy/Motown record 908; New York Times, Aug. 29, 1963, 1 (cited by [[w.garrow-bearing-the-cross]], 285 n.61); "Notes for Meeting . . .," Aug. 28, 1963, Lee C. White Papers, box 4, Johnson Library; "March on Washington—Report by the Leaders," WTTG-TV, Aug. 28, 1963, King Center (cited by [[w.garrow-bearing-the-cross]], 285 n.62); Fred Shuttlesworth, oral history; Roy Wilkins, oral history, Civil Rights Documentation Project, Howard University; Roy Wilkins, oral history, Kennedy Library; *Washington Post*, Aug. 29 and 30, 1963 (cited by [[w.reeves-president-kennedy]], 582). See [[cal.1963-06-11.civil-rights-bill]]. Names: Randolph, Rustin, Lewis, Martin Luther King.'
+  - edit:
+      id: cal.1963-06-26.berlin-and-vienna
+      base: adb58e34
+      set:
+        time_range:
+          - 1963-06-26T08:45Z
+          - 1963-06-26T16:30Z
+        time_zone: Europe/Berlin
+        range_basis: record
+        n: '[Remarks in the Rudolph Wilde Platz, Berlin](https://www.presidency.ucsb.edu/documents/remarks-the-rudolph-wilde-platz-berlin) (June 26, 1963). Address at the Free University of Berlin, [1963 Pub. Papers 526](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=584) (June 26, 1963). In Berlin from 9:45 a.m. to 5:30 p.m., by the notes: Remarks Upon Arrival at Tegel Airport in Berlin, [1963 Pub. Papers 522](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=580); Remarks at Tegel Airport, Berlin, Upon Leaving for Ireland, [1963 Pub. Papers 530](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=588) (June 26, 1963). Remarks, Rudolph Wilde Platz (K–J Adm. II.I). [[w.reeves-president-kennedy]], 535–37; [[w.rusk-as-i-saw-it-1990]], 227 (Rusk beside Adenauer during the speech; Adenauer afterward: "Does this mean that Germany could have another Hitler?"). [[w.sorensen-kennedy]], 600 (the reception). To check: [[w.daum-kennedy-in-berlin]]; [[w.brandt-begegnungen-und-einsichten]]; [*New York Times*, June 27, 1963](https://timesmachine.nytimes.com/timesmachine/1963/06/27/issue.html) (cited by [[w.reeves-president-kennedy]], 535). See [[cal.1963-06-23.europe-and-the-alliance]]. See [[cal.1961-08-13.berlin-and-vienna]]. Names: Brandt, Adenauer.'
+  - edit:
+      id: cal.1963-11-25.assassination
+      base: 99e1ed02
+      set:
+        time_range:
+          - 1963-11-25T16:35Z
+          - 1963-11-25T20:36Z
+        time_zone: America/New_York
+        range_basis: record
+        n: '[Proclamation 3561—National Day of Mourning for President Kennedy](https://www.presidency.ucsb.edu/documents/proclamation-3561-national-day-mourning-for-president-kennedy) (Nov. 23, 1963). [President''s Daily Diary, Nov. 25, 1963](https://catalog.archives.gov/id/192433), images 2, 3 (LBJ Library; National Archives Catalog); image 1, the worksheet: Johnson leaves the Executive Office Building at 11:35 a.m., back at 3:36 p.m. [[w.rusk-as-i-saw-it-1990]], 321 (de Gaulle and Haile Selassie); [[w.dobrynin-in-confidence]], 114 (Mikoyan on foot in the front ranks); [[w.thomas-robert-kennedy]], 282 (Robert Kennedy behind the caisson; at the graveside). To check: [[w.zelizer-covering-the-body]]. See [[cal.1963-11-22.assassination]]; [[cal.1963-11-25.succession]] (the governors). Names: de Gaulle, Erhard, Haile Selassie I, Mikoyan. Check: by Rusk''s account de Gaulle refused to be driven and walked with Mrs. Kennedy ([[w.rusk-as-i-saw-it-1990]], 321).'
+  - edit:
+      id: cal.1963-11-25.europe-and-the-alliance-france
+      base: 991a833a
+      set:
+        time_range:
+          - 1963-11-25T21:56Z
+          - 1963-11-26T01:32Z
+        time_zone: America/New_York
+        range_basis: record
+        n: 'Remarks to State Governors After President Kennedy''s Funeral, [1963–64 Pub. Papers 4](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=88) (Nov. 25, 1963) (the talk; another meeting set). [President''s Daily Diary, Nov. 25, 1963](https://catalog.archives.gov/id/192433), images 1–3 (LBJ Library; National Archives Catalog): out of the Executive Office Building from 4:56 to 8:32 p.m.; de Gaulle on the day''s schedule at 7:15 p.m., the State Department. [[w.johnson-vantage-point]], 23–24. After the funeral. Names: de Gaulle, Johnson.'
+  - edit:
+      id: cal.1963-11-25.japan-and-korea
+      base: 37799a17
+      set:
+        time_range:
+          - 1963-11-25T21:56Z
+          - 1963-11-26T01:32Z
+        time_zone: America/New_York
+        range_basis: record
+        n: 'FRUS 1961–63, XXII, docs. [318](https://history.state.gov/historicaldocuments/frus1961-63v22/d318), [385](https://history.state.gov/historicaldocuments/frus1961-63v22/d385). [President''s Daily Diary, Nov. 25, 1963](https://catalog.archives.gov/id/192433), images 1–3 (LBJ Library; National Archives Catalog): out of the Executive Office Building from 4:56 to 8:32 p.m.; Ikeda on the day''s schedule at 7 p.m., the State Department. After the funeral. See [[cal.1963-11-25.assassination]]; [[cal.1962-12-03.japan-and-korea]]. Names: Johnson, Park, Ikeda.'
+  - edit:
+      id: cal.1963-11-23.succession-6
+      base: 26cb250b
+      set:
+        time_range:
+          - 1963-11-24T03:00Z
+          - 1963-11-24T08:00Z
+        time_zone: America/New_York
+        range_basis: record
+  - edit:
+      id: cal.1963-11-25.economy
+      base: 3d25fcca
+      set:
+        time: 1963-11-26T02:20Z
+        n: '[President''s Daily Diary, Nov. 25, 1963](https://catalog.archives.gov/id/192433), image 3 (LBJ Library; National Archives Catalog) (the day''s schedule: Dillon, Kermit Gordon and Heller, 8:45 p.m.); image 2, the worksheet: Dillon, Heller, Fowler, Ackley, Gordon and Staats, 9:20 p.m. [[w.dallek-flawed-giant]], 60, 72 (from the notes of the meeting, Heller Papers, JFK Library, and Ackley''s, LBJ Library); [[w.caro-passage-of-power]], 418–24 (Ackley''s notes; the draft budget $101.5 billion); [[w.stein-fiscal-revolution-in-america]], 452–53 (the budget about $100 billion to get the bill to the Senate floor, by Evans and Novak''s account); [[w.zelizer-taxing-america]], 202 (Dillon''s and Heller''s memoranda of the day); [[w.zelizer-fierce-urgency-of-now]], 77 (the budget about $100 billion; Johnson: "Unless you get that budget down around $100 billion, you won''t pee one drop"; "You have to give something to buy off Byrd"); [[w.bernstein-guns-or-butter]], 31–32 (9:15 p.m.; Ackley''s notes: "say, $100.6 or $100.7"; Dillon''s head count; "You have to give something to buy off Byrd"). [[w.mann-walls-of-jericho]], 381–82 (the civil rights bill). Check: Bernstein, 31, gives 9:15 p.m.; the Daily Diary, 8:45. To check: Ackley''s notes of the meeting, Nov. 25, 1963, Diary Backup, LBJ Library; Dillon to Johnson, Nov. 25, 1963, WHCF Subject Files, LBJ Library; Walter W. Heller OH II, LBJ Library (cited by [[w.caro-passage-of-power]], 422); "Troika Meeting with President Johnson," Nov. 25, 1963, Heller Papers, JFK Library; Gardner Ackley OH, LBJ Library (cited by [[w.dallek-flawed-giant]], 72); Dillon to Johnson, Nov. 25, 1963, and Heller to Johnson, Nov. 25, 1963, Kermit Gordon Papers, Box 13, JFK Library (cited by [[w.zelizer-taxing-america]], 202 nn.94–95). See [[cal.1963-01-24.economy]]. Names: Johnson, Heller, Dillon, Harry F. Byrd.'
+      unset:
+        - time_range
+        - time_zone
+        - range_basis
+  - check:
+      id: cal.1963-11-25.civil-rights-bill
+      text: 'Check: the Daily Diary''s worksheet logs the call from King at 9:16 p.m. ([President''s Daily Diary, Nov. 25, 1963](https://catalog.archives.gov/id/192433), image 2).'
+  - edit:
+      id: cal.1963-11-22.succession-8
+      base: ac798362
+      set:
+        time_range:
+          - 1963-11-22T20:38Z
+          - 1963-11-23T00:10Z
+        time_zone: America/New_York
+        range_basis: record
+        n: '[[w.taking-charge]], 17–18. In the air, between the oath, 2:38 p.m. at Love Field ([[cal.1963-11-22.succession]]), and Johnson''s calls from the Executive Office Building, from 7:10 p.m. ([[cal.1963-11-22.succession-10]]). Names: Johnson, Lady Bird Johnson.'
+  - edit:
+      id: cal.1963-11-22.succession-9
+      base: 16e0f854
+      set:
+        time_range:
+          - 1963-11-22T20:38Z
+          - 1963-11-23T00:10Z
+        time_zone: America/New_York
+        range_basis: record
+        n: '[[w.taking-charge]], 18–19. In the air, between the oath, 2:38 p.m. at Love Field ([[cal.1963-11-22.succession]]), and Johnson''s calls from the Executive Office Building, from 7:10 p.m. ([[cal.1963-11-22.succession-10]]). After the first call after the oath, to Rose Kennedy: [[cal.1963-11-22.succession-8]]. Names: Johnson, Lady Bird Johnson, Connally.'
+        follows:
+          - cal.1963-11-22.succession-8
+  - edit:
+      id: cal.1963-11-22.succession-3
+      base: 159c3ef3
+      set:
+        time_range:
+          - 1963-11-22T20:38Z
+          - 1963-11-23T00:10Z
+        time_zone: America/New_York
+        range_basis: record
+        n: '[[w.ball-past-has-another-pattern]], 312–13; [[w.bernstein-guns-or-butter]], 17 (McNamara and Ball; Valenti, Moyers and Carter told to come to his office). After the arrival at Andrews; before Johnson''s calls from the Executive Office Building, from 7:10 p.m. ([[cal.1963-11-22.succession-10]]). See [[cal.1963-11-22.succession]]. Names: Johnson, McNamara, McGeorge Bundy, Ball, Lady Bird Johnson.'
+  - edit:
+      id: cal.1963-01-14.program
+      base: c079bc87
+      set:
+        time_range:
+          - 1963-01-14T17:31Z
+          - 1963-01-14T18:16Z
+        time_zone: America/New_York
+        range_basis: record
+        n: 'Annual Message to the Congress on the State of the Union, [1963 Pub. Papers 11](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=69) (Jan. 14, 1963). [109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt1/pdf/GPO-CRECB-1963-pt1-3-1.pdf) (1963). The President in the House from 12:31 to 1:16 p.m.: [109 Cong. Rec. 171](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt1/pdf/GPO-CRECB-1963-pt1-3-1.pdf#page=2), [174](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt1/pdf/GPO-CRECB-1963-pt1-3-1.pdf#page=5) (1963). [[w.sorensen-kennedy]], 427, 429–30 (the tax cut); [[w.sundquist-politics-and-policy]], 46, 134 (the tax cut in stages, with reform, 46; the youth corps at the head of the program, 134; not the figures); [[w.fursenko-khrushchevs-cold-war]], 508–09 ("leaving fear astern"; "A moment of pause is not a promise of peace"); [[w.graham-uncertain-triumph]], 44; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 282 (Vietnam). To check: [[w.bernstein-promises-kept]]; [[w.giglio-presidency-of-john-f]]. See [[cal.1962-01-11.program]]. Check: the page.'
+  - edit:
+      id: cal.1963-05-03.alabama-birmingham-5
+      base: 42db6ca7
+      set:
+        follows:
+          - cal.1963-05-03.alabama-birmingham-4
+        n: '[[w.branch-parting-the-waters]], 764. To check: FBI intercept of Levison''s telephone, May 4, 1963, FLNY-9-157a (cited by [[w.branch-parting-the-waters]], 764 n.1); L. H. Baily, memorandum, May 4, 1963, Bull Connor Papers (cited by [[w.branch-parting-the-waters]], 764 n.2). After the night''s mass meeting: [[w.branch-parting-the-waters]], 762–64. See [[cal.1963-05-03.alabama-birmingham-4]]. Names: Martin Luther King.'
