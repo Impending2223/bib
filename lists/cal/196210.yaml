@@ -116,6 +116,17 @@ entries:
       c: 3691e56f
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 122: all'
+  - id: cal.1962-10-01.mississippi-ole-miss-3
+    when: Oct. 1
+    date: '1962-10-01'
+    thread: mississippi-ole-miss
+    c: The President, furious at the Army's slowness in reaching Oxford, chews out Vance and the general.
+    n: '[[w.thomas-robert-kennedy]], 203. Check: the day; Thomas: after the riot. To check: [[w.robert-kennedy-in-his]], 162 (cited by [[w.thomas-robert-kennedy]], 431). See [[cal.1962-09-30.mississippi-ole-miss]]. Names: Kennedy, Vance.'
+    src:
+      c: ee3aedc5
+      rows:
+        - 'w.thomas-robert-kennedy 203: all'
+    tags: [name:kennedy-john-f, name:vance-cyrus]
   - id: cal.1962-10-02.mayors-cleveland
     when: Oct. 2
     date: '1962-10-02'
@@ -268,11 +279,12 @@ entries:
     thread: missile-crisis-anadyr
     also: [soviet-union]
     c: 'The *Indigirka* at Mariel with the first nuclear warheads: forty-five one-megaton warheads for the R-12s, twelve for the Lunas, six bombs for the Il-28s, thirty-six warheads for the cruise missiles.'
-    n: '[[w.fursenko-one-hell-of-a]], 217. See [[cal.1962-09-07.missile-crisis-2]].'
+    n: '[[w.fursenko-one-hell-of-a]], 217; [[w.thomas-robert-kennedy]], 205 (the *Indigirka* at Mariel, Oct. 4; forty-five one-megaton warheads). Check: Thomas, 205, gives with the forty-five a dozen atom bombs and forty-eight tactical weapons. See [[cal.1962-09-07.missile-crisis-2]].'
     src:
       c: ee1a7f88
       rows:
         - 'w.fursenko-one-hell-of-a 217: all'
+        - 'w.thomas-robert-kennedy 205: A'
   - id: cal.1962-10-04.vietnam
     when: Oct. 4
     date: '1962-10-04'
@@ -1220,6 +1232,18 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 169: all'
     tags: [name:taylor-maxwell, name:lemay-curtis-e]
+  - id: cal.1962-10-18.missile-crisis-excomm
+    when: Oct. 18
+    date: '1962-10-18'
+    thread: missile-crisis-excomm
+    c: 'The President counts the ExComm on scrap paper. Blockade: McNamara, Gilpatric, Rusk, Thompson, Bohlen, Stevenson, Nitze (with a question mark), Lovett, Martin, Ball, U. Alexis Johnson, Sorensen. Strike: Bundy, Taylor, the Chiefs, Acheson, Dillon, McCone ("switched").'
+    n: '[[w.thomas-robert-kennedy]], 217. Check: the day; the notes are in an envelope marked Oct. 16; Thomas: more likely Oct. 18 or 19. To check: Cuba ExCom Meeting, RFK Notes, envelope marked Oct. 16, RFK Confidential File, JFK Library (cited by [[w.thomas-robert-kennedy]], 435). Names: Kennedy, McNamara, Gilpatric, Rusk, Thompson, Bohlen, Stevenson, Nitze, Lovett, Martin, Ball, U. Alexis Johnson, Sorensen, Bundy, Taylor, Acheson, Dillon, McCone.'
+    src:
+      c: 6bbfd0d0
+      rows:
+        - 'w.thomas-robert-kennedy 217: all'
+        - 'via x.1962-10-16.rfk-notes-cuba-excomm-envelope: all'
+    tags: [name:kennedy-john-f, name:mcnamara-robert-s, name:gilpatric-roswell-l, name:rusk-dean, name:thompson-llewellyn-e, name:bohlen-charles-e, name:stevenson-adlai-e, name:nitze-paul, name:lovett-robert-a, name:martin-edwin-m, name:ball-george-w, name:johnson-u-alexis, name:sorensen-theodore-c, name:bundy-mcgeorge, name:taylor-maxwell, name:acheson-dean-g, name:dillon-c-douglas, name:mccone-john-a]
   - id: cal.1962-10-19.missile-crisis
     when: Oct. 19
     date: '1962-10-19'
@@ -1432,6 +1456,20 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 219: all'
         - 'via x.1962-10-20.isa-cuba-and-berlin-hypothetical-questions: all'
     tags: [name:khrushchev-nikita-s]
+  - id: cal.1962-10-20.missile-crisis-excomm
+    when: Oct. 20
+    date: '1962-10-20'
+    thread: missile-crisis-excomm
+    also: [missile-crisis-diplomacy]
+    c: 'Saturday night, after the ExComm: the President tells Robert Kennedy and Sorensen to look into a deal with the Kremlin. Sorensen drafts, then drops, a paragraph on a negotiated trade for the address: "It just wouldn''t write."'
+    n: '[[w.thomas-robert-kennedy]], 221. Check: the day of the draft. To check: Sorensen''s draft, Sorensen Papers, box 49, JFK Library (cited by [[w.thomas-robert-kennedy]], 435). See [[cal.1962-10-20.missile-crisis-2]]. Names: Kennedy, Robert Kennedy, Sorensen.'
+    src:
+      c: 2b446d0f
+      rows:
+        - 'w.thomas-robert-kennedy 221: all'
+        - 'via x.undated.theodore-sorensen-interview-thomas: all'
+        - 'via x.1962-10.sorensen-draft-paragraph-trade: all'
+    tags: [name:kennedy-john-f, name:kennedy-robert-f, name:sorensen-theodore-c]
   - id: cal.1962-10-21.missile-crisis
     when: Oct. 21
     date: '1962-10-21'
@@ -2822,12 +2860,13 @@ entries:
     date: '1962-10-26'
     thread: missile-crisis-quarantine
     c: 'The Navy boards the *Marucla*, Panamanian-owned, under Soviet charter, chosen as the least provocative: no contraband. The tanker *Bucharest*, having named itself and its cargo, had been let through without boarding, and an East German passenger ship.'
-    n: '[[w.ball-past-has-another-pattern]], 302–03; [[w.sorensen-kennedy]], 710; [[w.sorensen-kennedy]], 710 (at dawn Friday, the President''s authorization; trucks and parts). Check: the days, Ball giving the boarding as of Friday morning. See [[cal.1962-10-14.missile-crisis]].'
+    n: '[[w.ball-past-has-another-pattern]], 302–03; [[w.sorensen-kennedy]], 710; [[w.sorensen-kennedy]], 710 (at dawn Friday, the President''s authorization; trucks and parts); [[w.thomas-robert-kennedy]], 225 (the *Marucla* boarded, under Soviet charter, mostly for show; the destroyer the *Joseph P. Kennedy, Jr.*). Check: the days, Ball giving the boarding as of Friday morning. Check: Thomas, 225, has the *Marucla* Lebanese-registered, carrying dry goods. See [[cal.1962-10-14.missile-crisis]].'
     src:
       c: b8771df0
       rows:
         - 'w.ball-past-has-another-pattern 302–03: all'
         - 'w.sorensen-kennedy 710: A-B'
+        - 'w.thomas-robert-kennedy 225: A'
   - id: cal.1962-10-26.missile-crisis-4
     when: Oct. 26
     date: '1962-10-26'
@@ -3461,6 +3500,18 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 211: all'
         - 'via x.1962-10-28.jcsm-835-62-latin-american-forces: all'
     tags: [name:taylor-maxwell, name:mcnamara-robert-s]
+  - id: cal.1962-10-28.press-and-broadcasting
+    when: Oct. 28
+    date: '1962-10-28'
+    thread: press-and-broadcasting
+    also: [missile-crisis-settlement]
+    c: 'The President, watching the networks'' correspondents declare an "American victory," calls Salinger: "Tell them to stop that."'
+    n: '[[w.thomas-robert-kennedy]], 231. To check: [[w.reeves-president-kennedy]], 424 (cited by [[w.thomas-robert-kennedy]], 438). Names: Kennedy, Salinger.'
+    src:
+      c: 4fd3c61c
+      rows:
+        - 'w.thomas-robert-kennedy 231: all'
+    tags: [name:kennedy-john-f, name:salinger-pierre]
   - id: cal.1962-10-29.japan-and-korea
     when: Oct. 29
     date: '1962-10-29'
@@ -3830,6 +3881,20 @@ entries:
         - 'w.anderson-confronting-the-color-line 94–95: all'
         - 'via w.anderson-confronting-the-color-line 95 n.67: all'
     tags: [state:il, city:chicago]
+  - id: cal.1962-10-30.missile-crisis-settlement
+    when: Oct. 30
+    date: '1962-10-30'
+    thread: missile-crisis-settlement
+    also: [robert-kennedy]
+    c: 'Robert Kennedy to Rusk, by memorandum, on his meeting with Dobrynin of Oct. 27: the U-2 down; the bases "had to go and they had to go right away"; on the missiles in Turkey "there could be no quid pro quo." In the draft, a mention of a deal on the Turkish missiles struck out.'
+    n: 'Memorandum From Attorney General Kennedy to Secretary of State Rusk, [FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 96](https://history.state.gov/historicaldocuments/frus1961-63v11/d96) (Oct. 30, 1962). [[w.thomas-robert-kennedy]], 231 (the draft stripped of the Turkish deal). To check: Jim Hershberg, "More on Bobby and the Cuban Missile Crisis," *Cold War International History Project Bulletin*, nos. 8–9 (Winter 1996–97), 345 (cited by [[w.thomas-robert-kennedy]], 438). See [[cal.1962-10-27.missile-crisis]]. Names: Robert Kennedy, Rusk, Dobrynin.'
+    src:
+      c: 9f8fabc3
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d96: A-C'
+        - 'w.thomas-robert-kennedy 231: D'
+        - 'via x.undated.hershberg-more-on-bobby-cwihp-8-9-345: D'
+    tags: [name:kennedy-robert-f, name:rusk-dean, name:dobrynin-anatoly]
   - id: cal.1962-10-31.cuba
     when: Oct. 31
     date: '1962-10-31'

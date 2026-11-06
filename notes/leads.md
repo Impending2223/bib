@@ -1426,9 +1426,8 @@ CQ Weekly Report, 1968-03-01:
 - The press: Frank Holeman (*New York Daily News*, Nixon's beat and the Bolshakov channel; the work treats him at 110–12, 249, 275): a Part III entry; he is named in the new entries of Apr. 29–30, 1961, but not in Names. Paul W. Ward (*Baltimore Sun*?), his article of early December 1963 on a right-wing plot (348): the day and paper.
 
 ### Thomas, *Robert Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
-- FRUS 1961-63, X, doc. 275, McCone's record of the meeting of Nov. 21, 1961 (the President, Robert Kennedy, Lansdale, Goodwin; the plan of action on Cuba within two weeks): read, not in the calendar, not Thomas's event.
-- The Caribbean Survey Group's minutes of Mar. 25, 1962 (Robert Kennedy on "kidnapping some key people"; Thomas, 152 n.); McCone's memorandum of July 3, 1962 on the prisoners (FRUS X, 842; 178 n.); McManus to Helms, Nov. 5, 1962 (235 n.); Harvey's Church Committee testimony of July 11, 1975 (151 n.).
-- Jones to DeLoach, Mar. 24, 1961, on Schulberg's film of *The Enemy Within* (115 n.); McMillan's 48-page memorandum on Sinatra, 1961-63, RFK Confidential File (173 n.); Summers, *Official and Confidential*, 289 (Hoover's fear of replacement, Dec. 1961).
+- McManus to Helms, Nov. 5, 1962 (Thomas, 235 n.): its matter.
+- McMillan's 48-page memorandum on Sinatra, 1961-63, RFK Confidential File (Thomas, 173 n.): undated.
 - Undated in Thomas, to date from the sources his notes give: Corbin in West Virginia (94); Singleton at Houston and Graves at St. Louis (99); Sinatra's investigator's report on Nixon (107); the extortion schemes (108); the Keogh stairway argument (113); "an attorney general we can't fix" (114); the Treasury's eavesdropping course (118); the Georgetown police "academy" (142); Ball's Zanzibar memorandum (143); JM/WAVE's cost (151); Robert Kennedy and Harvey (151-52); Guantánamo supplies for an underground (178); Abdullah and the Hotel Theresa (178); the Dunbar High pool (185); the Hickory Hill seminars (188); Tretick's pictures (190); the denials to editors on Monroe (192); the FBI's test of the Russians' wine (208); the tally of the ExComm (217); the CIA's stand-down of sabotage (234); Artime's bases in Guatemala, Costa Rica and Nicaragua, 1963 (238).
 - The press figures without a name entry whom this run names or enters: Sander Vanocur (NBC), Murray Kempton, Marguerite Higgins (*New York Herald Tribune*), Peter Maas (*Saturday Evening Post*), Frank Holeman (*New York Daily News*), William Haddad (*New York Post*), Warren Rogers (*New York Herald Tribune*): proposed for Part III.
 - Thomas's interviews (some ninety persons) are not deposited: every such witness is open. The Stein and Plimpton oral histories (STOH) and the Senate Historical Office's (SHO) are named but not read.
@@ -1447,20 +1446,14 @@ CQ Weekly Report, 1968-03-01:
 - Defense (602-36): McNamara's ninety-six questions, Mar. 1961 (604); the Strike Command (606); the bill on the Chiefs' tenure, 1963 (607-08); the Office of Emergency Planning and Ellis's judgeship, 1962 (614); the shelter booklet and the shelter bill of 1962 (615-16); the Chiefs on resuming tests, Feb. 1961, the June panel, the early August order (618; FRUS VII); the reactions of Peking, Tass, Young Americans for Freedom and SDA to the resumption, Mar. 1962 (624); the magazine interview of Mar. 1962 on first use (627 n.3); the green berets, Farm Gate and Jungle Jim, the Special Group (Counterinsurgency), 1961-62 (632-33).
 
 ### Thomas, *Robert Kennedy* (batch 3, fourth run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
-- Thomas 254 n.: Warren Rogers (Hearst) recalls Robert Kennedy's calls on the *Journal-American* story, June 29, 1963.
 - Van Kirk's account (263 n.; Hersh, 406-07): Robert Kennedy fed Baker material to the Rules Committee's Republicans, 1963; O'Donnell denies.
-- the Senate Judiciary hearings of Aug. 1963, Robert Kennedy and Ervin (Washington Post, Aug. 9, 1963, Clayton, "Sam and Bob Show Enters Fourth Week"; Thomas's note misprints 1967).
-- Courtney Evans's memoranda of June 25, July 16 and 23, Oct. 21, 25 and 28, 1963, the "Bow Tie" and Rometsch FOIA files, and Hoover's of Oct. 28-29 and Nov. 7, 1963 (Thomas, 444-48): the FBI's side of the King taps and the Rometsch affair, to read where released (the Mary Ferrell Foundation, the FBI's Vault).
+- Courtney Evans's memorandum of June 25, 1963, and Hoover's of Nov. 7, 1963 (Thomas, 444-48): their matter; the FBI's files to read where released (the Mary Ferrell Foundation, the FBI's Vault).
 - the White House telephone logs, Oct. 25-29, 1963 (JFKL), and Robert Kennedy's own logs (RFK Papers): every call Thomas lists is an entry once read.
-- PRDE's catalogue holds the meeting of May 12, 1963 (Tape 86.2) and of May 20-21 (88.2, 88.4, 88.6); the Miller Center gives none of them free: the transcripts in print (Rosenberg and Karabell, *Kennedy, Johnson, and the Quest for Justice*) not held.
 - the Drew film of June 10-11, 1963 ("Crisis: Behind a Presidential Commitment," ABC; Thomas's "Kennedy v. Wallace: A Crisis Up Close"): its days and scenes, if a copy or shot list is open.
-- the hearings Thomas names undated: Kennedy and Ervin before Judiciary, Aug. 1963; Kennedy and Curtis at Nader's testimony (Schlesinger, 682); the Daily Digest (daybook/committees/) gives their days.
 - Thomas's undated scenes of 1965-66 to date from the papers his notes name: Johnson's "divine retribution" to Salinger (Dallek, *Flawed Giant*, 136); Kennedy's lunch with Rowland Evans, Feb. 1966; the Vietnam trip called off in Feb. 1966 (Kraft STOH).
 - proposed for Part III (R13): Murray Kempton (the *New Republic*, "Pure Irish," 1964), Clark Mollenhoff has an entry; Andrew Glass (*Saturday Evening Post*), James Horan and Dom Frasca (*Journal-American*), William Beggs (*Miami News*).
 
 ### Thomas, *Robert Kennedy* (batch 3, fifth run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
-- 113 Cong. Rec. 27083 (Senate, Sept. 27, 1967), cited by Thomas (465) with p. 18443 of July 12 for Kennedy's bills: read on govinfo; the public-service jobs bill Thomas puts in "that summer" (341) is its likely matter.
-- the FBI's memoranda on Kennedy and the microphones, Dec. 1965-Jan. 1967 (Marlin Johnson, Danahy, Gale, DeLoach, SAC Washington; Thomas, 462), and DeLoach to Tolson on Wiesl, May 1968 (474): to read where released (the FBI's Vault; the Mary Ferrell Foundation).
 - Johnson to Katzenbach, "God, it just murders Bobby and Jackie both" (Thomas, 331; Shesol, 362): the call's day, perhaps a recording of Jan. 1967.
 - the LBJ appointment calendars and telephone logs of May 18 and 23, 1968 (Thomas, 475), for the Pearson and DeLoach entries.
 - John Bartlow Martin's Campaign Journal and memoranda (Martin Papers, Library of Congress), cited by page (Thomas, 470-76): Indiana's days, the "Local Talking Points," the ministers' price in San Francisco.
@@ -2126,7 +2119,6 @@ CQ Weekly Report, 1968-08-16:
 - Barghoorn's arrest, Oct. 31, 1963 (344): to check against the calendar.
 
 ### Thomas, *Robert Kennedy* (batch 3, third run, Nov. 4, 2026; notes/book-checks/thomas-robert-kennedy.md)
-- The *Indigirka* at Mariel, Oct. 4, 1962, and the *Marucla*, Oct. 26 (Fursenko and Naftali, 213, 426): for the missile-crisis thread if not in.
 
 ### Novak, *The Agony of the G.O.P. 1964* (batch 3, third run, Nov. 4, 2026; notes/book-checks/novak-agony-of-the-g.md)
 - The *Athens Post*'s interview with Goldwater before Greece's election of Nov. 1963 (243 n.4).
