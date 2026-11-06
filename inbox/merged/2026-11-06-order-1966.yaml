@@ -1,0 +1,137 @@
+patch: order-1966
+by: day's-order reviewer, round 4, 1966 (Claude)
+ops:
+- edit:
+    id: cal.1966-01-22.vietnam-force-levels
+    base: 219cf8ac
+    set:
+      time: 1966-01-22T02:33Z
+- edit:
+    id: cal.1966-02-26.economy
+    base: f98ade60
+    set:
+      time: 1966-02-26T17:00Z
+    unset:
+    - time_range
+    - time_band
+    - time_zone
+    - range_basis
+- edit:
+    id: cal.1966-03-20.laos
+    base: 51d47fa4
+    set:
+      time: 1966-03-19T21:00Z
+- edit:
+    id: cal.1966-05-11.vietnam
+    base: d06c9323
+    set:
+      time: 1966-05-11T15:15Z
+- edit:
+    id: cal.1966-05-17.program-2
+    base: 0b94c7df
+    set:
+      time: 1966-05-17T16:00Z
+- edit:
+    id: cal.1966-05-23.vietnam-struggle-3
+    base: 2ab42ce7
+    set:
+      time: 1966-05-23T09:29Z
+- edit:
+    id: cal.1966-08-19.conservation
+    base: d3e11053
+    set:
+      time: 1966-08-19T18:20Z
+- edit:
+    id: cal.1966-08-23.europe-and-the-alliance
+    base: 54614b5f
+    set:
+      time: 1966-08-23T22:30Z
+- edit:
+    id: cal.1966-08-24.vietnam
+    base: ca17c5cc
+    set:
+      time: 1966-08-24T16:00Z
+    unset:
+    - time_range
+    - time_band
+    - time_zone
+    - range_basis
+- edit:
+    id: cal.1966-11-03.succession
+    base: 85a771ed
+    set:
+      time: 1966-11-03T20:30Z
+      n: 'The President''s News Conference of November 3, 1966, [1966 Pub. Papers 1310](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=684) (Nov. 3, 1966). To check: [[w.gilbert-mortal-presidency]]. See [[cal.1965-10-08.succession]]. Names: Johnson, Burkley.'
+- edit:
+    id: cal.1966-11-04.elections-1966
+    base: a0a420b7
+    set:
+      time: 1966-11-04T15:00Z
+      n: 'The President''s News Conference of November 4, 1966, [1966 Pub. Papers 1316](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=690) (Nov. 4, 1966). [[w.johns-vietnams-second-front]], 126 (Nixon''s charge; the answer, "chronic campaigner," "October every two years"); [[w.nixon-rn]], 274–75 (the question on Nixon''s statement; the answer); [[w.white-making-of-the-president-1969]], 51 ("a chronic campaigner"); [[w.califano-triumph-and-tragedy-of]], 152 (asked of the canceled trip: "First, we don''t have any plans, so when you don''t have plans, you don''t cancel plans"; Wicker, "the credibility gap"); [[w.califano-triumph-and-tragedy-of]], 291 (beforehand to Califano: "Ol'' Nixon a little attention today"; "a chronic campaigner"; after: "That ought to put him out front!"); [[w.branch-at-canaans-edge]], 544. [[w.hess-republican-establishment]], 195–97 ("a chronic campaigner"; Nixon''s answer on time the party bought). [[w.mcpherson-political-education]],
+        448 (Johnson to McPherson that afternoon: "a stupid mistake"; "I probably nominated him"). To check: [[w.perlstein-nixonland-2008]]; [[w.witcover-resurrection-of-richard-nixon]]; Nixon to Eisenhower, Oct. 4, 1966, and Nixon''s newspaper column, Oct. 16, 1966, Special Names Series, box 14, Eisenhower Post-Presidential Papers, Eisenhower Library; press release, Nov. 4, 1966, Press Secretary File, box D55, Ford Congressional Papers, Ford Library (cited by [[w.johns-vietnams-second-front]], 126 n.24); [*New York Times*, Nov. 5, 1966](https://timesmachine.nytimes.com/timesmachine/1966/11/05/issue.html) (cited by [[w.johns-vietnams-second-front]], 126 n.26); "Nixon Criticizes Manila Results," NYT, Nov. 4, 1966, pele Powers, Way, p. 131 (cited by [[w.branch-at-canaans-edge]], 544); "Johnson Derides Nixon''s Criticism of Manila Stand," NYT, Nov. 5, 1966, pp. 1, 10 (cited by [[w.branch-at-canaans-edge]], 544). See [[cal.1966-10-17.vietnam]]. Names: Nixon, Johnson.'
+      src:
+        c: a96d89b3
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=690: all'
+        - 'w.johns-vietnams-second-front 126: A-C'
+        - 'via w.johns-vietnams-second-front 126 n.24a: B'
+        - 'via w.johns-vietnams-second-front 126 n.24b: B'
+        - 'via w.johns-vietnams-second-front 126 n.24c: B'
+        - 'via w.johns-vietnams-second-front 126 n.26: B-C'
+        - 'w.nixon-rn 274–75: A-C'
+        - 'w.hess-republican-establishment 195–97: A'
+        - 'w.mcpherson-political-education 448: B'
+        - 'w.white-making-of-the-president-1969 51: ?'
+        - 'w.califano-triumph-and-tragedy-of 152: ?'
+        - 'w.califano-triumph-and-tragedy-of 291: ?'
+        - 'w.branch-at-canaans-edge 544: A-C'
+        - 'via x.1966-11-04.nixon-criticizes-manila-results-nyt-nov: A-C'
+        - 'via x.1966-11-05.johnson-derides-nixons-criticism-of-manila: A-C'
+- edit:
+    id: cal.1966-05-20.vietnam-struggle-2
+    base: 5c1bb436
+    set:
+      time_range:
+      - 1966-05-21T00:00Z
+      - 1966-05-21T04:00Z
+      time_zone: America/New_York
+    unset:
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1966-05-21.vietnam-struggle-3
+    base: 17bbebaf
+    set:
+      time_range:
+      - 1966-05-21T20:35Z
+      - 1966-05-22T04:00Z
+      time_zone: America/New_York
+    unset:
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1966-06-29.vietnam-air-war
+    base: db38271e
+    set:
+      time_range:
+      - 1966-06-29T04:00Z
+      - 1966-06-29T06:47Z
+      time_zone: America/New_York
+- edit:
+    id: cal.1966-10-20.vietnam-asian-trip-2
+    base: 796c1bfb
+    set:
+      time_range:
+      - 1966-10-19T12:00Z
+      - 1966-10-20T02:50Z
+      time_zone: Pacific/Auckland
+      n: '[[w.mcpherson-political-education]], 305. The hours: before the Parliamentary luncheon, Remarks at the Parliamentary Luncheon, Wellington, New Zealand, [1966 Pub. Papers 1233](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=607) (Oct. 20, 1966) (he spoke at 2:50 p.m.). Check: the day, "the following day" after the arrival. See [[cal.1966-10-19.vietnam-asian-trip]]. Names: Johnson.'
+- edit:
+    id: cal.1966-10-22.vietnam-asian-trip
+    base: 976731b8
+    set:
+      time_range:
+      - 1966-10-22T01:14Z
+      - 1966-10-22T08:00Z
+      time_zone: Australia/Sydney
+      n: '[[w.mcpherson-political-education]], 305–06. The hours: from the arrival at Mascot, 11:14 a.m., Remarks Upon Arrival at Mascot Airport, Sydney, Australia, [1966 Pub. Papers 1248](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=622) (Oct. 22, 1966), to Brisbane at night (McPherson, 306). Check: the day. See [[cal.1966-10-20.vietnam-asian-trip]]. Names: Johnson.'
