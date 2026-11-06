@@ -50,6 +50,11 @@ entries:
         - 'w.sorensen-kennedy 660: A, B, F'
     tags: [name:duong-van-minh, name:tran-van-don, name:conein-lucien, name:ngo-dinh-diem, name:lodge-henry-cabot, name:ngo-dinh-nhu, place:saigon, place:cholon]
     short: the coup
+    time_range:
+      - 1963-11-01T05:45Z
+      - 1963-11-02T04:00Z
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1963-11-01.opinion-5
     when: Nov. 1
     date: '1963-11-01'
@@ -2283,13 +2288,18 @@ entries:
     follows:
       - cal.1963-11-22.succession
     c: 'Andrews to the White House by helicopter: Johnson with McNamara, McGeorge Bundy, Ball and Mrs. Johnson. Johnson, by Ball''s account: "You''re men I trust the most. You must stay with me. I''ll need you." Each tells him what was done that day. McNamara and Ball after, twenty minutes in the Cabinet Room.'
-    n: '[[w.ball-past-has-another-pattern]], 312–13; [[w.bernstein-guns-or-butter]], 17 (McNamara and Ball; Valenti, Moyers and Carter told to come to his office). After the arrival at Andrews. See [[cal.1963-11-22.succession]]. Names: Johnson, McNamara, McGeorge Bundy, Ball, Lady Bird Johnson.'
+    n: '[[w.ball-past-has-another-pattern]], 312–13; [[w.bernstein-guns-or-butter]], 17 (McNamara and Ball; Valenti, Moyers and Carter told to come to his office). After the arrival at Andrews; before Johnson''s calls from the Executive Office Building, from 7:10 p.m. ([[cal.1963-11-22.succession-10]]). See [[cal.1963-11-22.succession]]. Names: Johnson, McNamara, McGeorge Bundy, Ball, Lady Bird Johnson.'
     src:
       c: '21439712'
       rows:
         - 'w.ball-past-has-another-pattern 312–13: all'
         - 'w.bernstein-guns-or-butter 17: A'
     tags: [name:johnson-lyndon-b, name:mcnamara-robert-s, name:bundy-mcgeorge, name:ball-george-w, name:johnson-lady-bird]
+    time_range:
+      - 1963-11-22T20:38Z
+      - 1963-11-23T00:10Z
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1963-11-22.intelligence
     when: Nov. 22
     date: '1963-11-22'
@@ -2490,6 +2500,8 @@ entries:
   - id: cal.1963-11-22.assassination-5
     when: Nov. 22
     date: '1963-11-22'
+    time: 1963-11-22T19:00Z
+    time_approx: true
     thread: assassination
     follows:
       - cal.1963-11-22.assassination
@@ -2762,6 +2774,8 @@ entries:
   - id: cal.1963-11-22.assassination-8
     when: Nov. 22
     date: '1963-11-22'
+    time: 1963-11-22T19:00Z
+    time_approx: true
     thread: assassination
     follows:
       - cal.1963-11-22.assassination
@@ -2777,26 +2791,39 @@ entries:
     date: '1963-11-22'
     thread: succession
     c: Air Force One, twenty-eight minutes out of Dallas. Johnson's first call after the oath, by radio patch, to Rose Kennedy at Hyannis Port; Mrs. Johnson on the line.
-    n: '[[w.taking-charge]], 17–18. Names: Johnson, Lady Bird Johnson.'
+    n: '[[w.taking-charge]], 17–18. In the air, between the oath, 2:38 p.m. at Love Field ([[cal.1963-11-22.succession]]), and Johnson''s calls from the Executive Office Building, from 7:10 p.m. ([[cal.1963-11-22.succession-10]]). Names: Johnson, Lady Bird Johnson.'
     src:
       c: 3998b8ee
       rows:
         - 'w.taking-charge 17–18: all'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird]
+    time_range:
+      - 1963-11-22T20:38Z
+      - 1963-11-23T00:10Z
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1963-11-22.succession-9
     when: Nov. 22
     date: '1963-11-22'
     thread: succession
+    follows:
+      - cal.1963-11-22.succession-8
     c: 'Air Force One. Johnson and Mrs. Johnson by radio patch to Nellie Connally at Parkland Hospital: the Governor, after surgery, "going to be all right."'
-    n: '[[w.taking-charge]], 18–19. Names: Johnson, Lady Bird Johnson, Connally.'
+    n: '[[w.taking-charge]], 18–19. In the air, between the oath, 2:38 p.m. at Love Field ([[cal.1963-11-22.succession]]), and Johnson''s calls from the Executive Office Building, from 7:10 p.m. ([[cal.1963-11-22.succession-10]]). After the first call after the oath, to Rose Kennedy: [[cal.1963-11-22.succession-8]]. Names: Johnson, Lady Bird Johnson, Connally.'
     src:
       c: 85bf4ced
       rows:
         - 'w.taking-charge 18–19: all'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:connally-john]
+    time_range:
+      - 1963-11-22T20:38Z
+      - 1963-11-23T00:10Z
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1963-11-22.succession-10
     when: Nov. 22
     date: '1963-11-22'
+    time: 1963-11-23T00:10Z
     thread: succession
     c: 'The Executive Office Building, Room 274. Johnson telephones the former Presidents. To Eisenhower, 7:10 p.m., after his message through Bundy: "I need you more than ever now." Eisenhower to come over after viewing the casket the next day.'
     n: '[[w.taking-charge]], 19–20. Names: Johnson, Eisenhower, Bundy.'
@@ -3159,6 +3186,11 @@ entries:
         - 'via w.kotz-judgment-days 26 n.30: all'
         - 'w.zelizer-fierce-urgency-of-now 64: ?'
     tags: [name:johnson-lyndon-b, name:busby-horace]
+    time_range:
+      - 1963-11-24T03:00Z
+      - 1963-11-24T08:00Z
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1963-11-23.succession-7
     when: Nov. 23
     date: '1963-11-23'
@@ -3498,7 +3530,7 @@ entries:
     date: '1963-11-25'
     thread: assassination
     c: Funeral. Requiem mass at St. Matthew's; burial at Arlington. De Gaulle, Erhard, Haile Selassie, and Mikoyan among the mourners. A national day of mourning by proclamation.
-    n: '[Proclamation 3561—National Day of Mourning for President Kennedy](https://www.presidency.ucsb.edu/documents/proclamation-3561-national-day-mourning-for-president-kennedy) (Nov. 23, 1963). [President''s Daily Diary, Nov. 25, 1963](https://catalog.archives.gov/id/192433), images 2, 3 (LBJ Library; National Archives Catalog). [[w.rusk-as-i-saw-it-1990]], 321 (de Gaulle and Haile Selassie); [[w.dobrynin-in-confidence]], 114 (Mikoyan on foot in the front ranks); [[w.thomas-robert-kennedy]], 282 (Robert Kennedy behind the caisson; at the graveside). To check: [[w.zelizer-covering-the-body]]. See [[cal.1963-11-22.assassination]]; [[cal.1963-11-25.succession]] (the governors). Names: de Gaulle, Erhard, Haile Selassie I, Mikoyan. Check: by Rusk''s account de Gaulle refused to be driven and walked with Mrs. Kennedy ([[w.rusk-as-i-saw-it-1990]], 321).'
+    n: '[Proclamation 3561—National Day of Mourning for President Kennedy](https://www.presidency.ucsb.edu/documents/proclamation-3561-national-day-mourning-for-president-kennedy) (Nov. 23, 1963). [President''s Daily Diary, Nov. 25, 1963](https://catalog.archives.gov/id/192433), images 2, 3 (LBJ Library; National Archives Catalog); image 1, the worksheet: Johnson leaves the Executive Office Building at 11:35 a.m., back at 3:36 p.m. [[w.rusk-as-i-saw-it-1990]], 321 (de Gaulle and Haile Selassie); [[w.dobrynin-in-confidence]], 114 (Mikoyan on foot in the front ranks); [[w.thomas-robert-kennedy]], 282 (Robert Kennedy behind the caisson; at the graveside). To check: [[w.zelizer-covering-the-body]]. See [[cal.1963-11-22.assassination]]; [[cal.1963-11-25.succession]] (the governors). Names: de Gaulle, Erhard, Haile Selassie I, Mikoyan. Check: by Rusk''s account de Gaulle refused to be driven and walked with Mrs. Kennedy ([[w.rusk-as-i-saw-it-1990]], 321).'
     src:
       c: cadbdf25
       rows:
@@ -3509,6 +3541,11 @@ entries:
         - 'w.dobrynin-in-confidence 114: A, D'
         - 'w.thomas-robert-kennedy 282: A-C'
     tags: [name:kennedy-john-f, name:de-gaulle-charles, name:erhard-ludwig, name:haile-selassie-i, name:mikoyan-anastas, name:johnson-lyndon-b]
+    time_range:
+      - 1963-11-25T16:35Z
+      - 1963-11-25T20:36Z
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1963-11-25.japan-and-korea
     when: Nov. 25
     date: '1963-11-25'
@@ -3517,9 +3554,14 @@ entries:
     follows:
       - cal.1963-11-25.assassination
     c: 'After the funeral Johnson receives Park and Ikeda at the State Department. To Park: pleasure at the return to civilian rule. With Ikeda: his party''s victory, Nov. 21; the Joint Committee''s meeting in Tokyo, set for Nov. 25–27, put off to January, the cabinet members flying to it having turned back over the Pacific, Nov. 22.'
-    n: 'FRUS 1961–63, XXII, docs. [318](https://history.state.gov/historicaldocuments/frus1961-63v22/d318), [385](https://history.state.gov/historicaldocuments/frus1961-63v22/d385). [President''s Daily Diary, Nov. 25, 1963](https://catalog.archives.gov/id/192433), image 3 (LBJ Library; National Archives Catalog). After the funeral. See [[cal.1963-11-25.assassination]]; [[cal.1962-12-03.japan-and-korea]]. Names: Johnson, Park, Ikeda.'
+    n: 'FRUS 1961–63, XXII, docs. [318](https://history.state.gov/historicaldocuments/frus1961-63v22/d318), [385](https://history.state.gov/historicaldocuments/frus1961-63v22/d385). [President''s Daily Diary, Nov. 25, 1963](https://catalog.archives.gov/id/192433), images 1–3 (LBJ Library; National Archives Catalog): out of the Executive Office Building from 4:56 to 8:32 p.m.; Ikeda on the day''s schedule at 7 p.m., the State Department. After the funeral. See [[cal.1963-11-25.assassination]]; [[cal.1962-12-03.japan-and-korea]]. Names: Johnson, Park, Ikeda.'
     tags: [name:johnson-lyndon-b, name:park-chung-hee, name:ikeda-hayato]
     short: Ikeda at the funeral
+    time_range:
+      - 1963-11-25T21:56Z
+      - 1963-11-26T01:32Z
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1963-11-25.succession
     when: Nov. 25
     date: '1963-11-25'
@@ -3544,19 +3586,25 @@ entries:
     follows:
       - cal.1963-11-25.assassination
     c: 'De Gaulle with Johnson after the funeral: the two countries'' differences exaggerated; France knows it can count on the United States if attacked. Johnson had just read a report of de Gaulle telling an allied ambassador the contrary, by his account. Another meeting set for early in the new year.'
-    n: 'Remarks to State Governors After President Kennedy''s Funeral, [1963–64 Pub. Papers 4](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=88) (Nov. 25, 1963) (the talk; another meeting set). [[w.johnson-vantage-point]], 23–24. After the funeral. Names: de Gaulle, Johnson.'
+    n: 'Remarks to State Governors After President Kennedy''s Funeral, [1963–64 Pub. Papers 4](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=88) (Nov. 25, 1963) (the talk; another meeting set). [President''s Daily Diary, Nov. 25, 1963](https://catalog.archives.gov/id/192433), images 1–3 (LBJ Library; National Archives Catalog): out of the Executive Office Building from 4:56 to 8:32 p.m.; de Gaulle on the day''s schedule at 7:15 p.m., the State Department. [[w.johnson-vantage-point]], 23–24. After the funeral. Names: de Gaulle, Johnson.'
     src:
       c: 2782a6b0
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=88: all'
         - 'w.johnson-vantage-point 23: A-C'
     tags: [name:de-gaulle-charles, name:johnson-lyndon-b]
+    time_range:
+      - 1963-11-25T21:56Z
+      - 1963-11-26T01:32Z
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1963-11-25.economy
     when: Nov. 25
     date: '1963-11-25'
+    time: 1963-11-26T02:20Z
     thread: economy
     c: 'Evening. Johnson with his economic advisers, Heller and Dillon among them: the tax cut accepted, the 1965 budget held under $100 billion. "We won''t have the votes to get it to the floor unless we tell them the budget will be about $100 billion." Byrd of the Finance Committee to be won so. On the civil rights bill, by Ackley''s notes: "The only way you could lick this was to stay in continuous session"; some liberals "make a few good speeches on the floor ... and then run off to make speeches and collect their honoraria."'
-    n: '[President''s Daily Diary, Nov. 25, 1963](https://catalog.archives.gov/id/192433), image 3 (LBJ Library; National Archives Catalog) (the day''s schedule: Dillon, Kermit Gordon and Heller, 8:45 p.m.). [[w.dallek-flawed-giant]], 60, 72 (from the notes of the meeting, Heller Papers, JFK Library, and Ackley''s, LBJ Library); [[w.caro-passage-of-power]], 418–24 (Ackley''s notes; the draft budget $101.5 billion); [[w.stein-fiscal-revolution-in-america]], 452–53 (the budget about $100 billion to get the bill to the Senate floor, by Evans and Novak''s account); [[w.zelizer-taxing-america]], 202 (Dillon''s and Heller''s memoranda of the day); [[w.zelizer-fierce-urgency-of-now]], 77 (the budget about $100 billion; Johnson: "Unless you get that budget down around $100 billion, you won''t pee one drop"; "You have to give something to buy off Byrd"); [[w.bernstein-guns-or-butter]], 31–32 (9:15 p.m.; Ackley''s notes: "say, $100.6 or $100.7"; Dillon''s head count; "You have to give something to buy off Byrd"). [[w.mann-walls-of-jericho]], 381–82 (the civil rights bill). Check: Bernstein, 31, gives 9:15 p.m.; the Daily Diary, 8:45. To check: Ackley''s notes of the meeting, Nov. 25, 1963, Diary Backup, LBJ Library; Dillon to Johnson, Nov. 25, 1963, WHCF Subject Files, LBJ Library; Walter W. Heller OH II, LBJ Library (cited by [[w.caro-passage-of-power]], 422); "Troika Meeting with President Johnson," Nov. 25, 1963, Heller Papers, JFK Library; Gardner Ackley OH, LBJ Library (cited by [[w.dallek-flawed-giant]], 72); Dillon to Johnson, Nov. 25, 1963, and Heller to Johnson, Nov. 25, 1963, Kermit Gordon Papers, Box 13, JFK Library (cited by [[w.zelizer-taxing-america]], 202 nn.94–95). See [[cal.1963-01-24.economy]]. Names: Johnson, Heller, Dillon, Harry F. Byrd.'
+    n: '[President''s Daily Diary, Nov. 25, 1963](https://catalog.archives.gov/id/192433), image 3 (LBJ Library; National Archives Catalog) (the day''s schedule: Dillon, Kermit Gordon and Heller, 8:45 p.m.); image 2, the worksheet: Dillon, Heller, Fowler, Ackley, Gordon and Staats, 9:20 p.m. [[w.dallek-flawed-giant]], 60, 72 (from the notes of the meeting, Heller Papers, JFK Library, and Ackley''s, LBJ Library); [[w.caro-passage-of-power]], 418–24 (Ackley''s notes; the draft budget $101.5 billion); [[w.stein-fiscal-revolution-in-america]], 452–53 (the budget about $100 billion to get the bill to the Senate floor, by Evans and Novak''s account); [[w.zelizer-taxing-america]], 202 (Dillon''s and Heller''s memoranda of the day); [[w.zelizer-fierce-urgency-of-now]], 77 (the budget about $100 billion; Johnson: "Unless you get that budget down around $100 billion, you won''t pee one drop"; "You have to give something to buy off Byrd"); [[w.bernstein-guns-or-butter]], 31–32 (9:15 p.m.; Ackley''s notes: "say, $100.6 or $100.7"; Dillon''s head count; "You have to give something to buy off Byrd"). [[w.mann-walls-of-jericho]], 381–82 (the civil rights bill). Check: Bernstein, 31, gives 9:15 p.m.; the Daily Diary, 8:45. To check: Ackley''s notes of the meeting, Nov. 25, 1963, Diary Backup, LBJ Library; Dillon to Johnson, Nov. 25, 1963, WHCF Subject Files, LBJ Library; Walter W. Heller OH II, LBJ Library (cited by [[w.caro-passage-of-power]], 422); "Troika Meeting with President Johnson," Nov. 25, 1963, Heller Papers, JFK Library; Gardner Ackley OH, LBJ Library (cited by [[w.dallek-flawed-giant]], 72); Dillon to Johnson, Nov. 25, 1963, and Heller to Johnson, Nov. 25, 1963, Kermit Gordon Papers, Box 13, JFK Library (cited by [[w.zelizer-taxing-america]], 202 nn.94–95). See [[cal.1963-01-24.economy]]. Names: Johnson, Heller, Dillon, Harry F. Byrd.'
     src:
       c: d9d61c69
       rows:
@@ -3581,11 +3629,6 @@ entries:
         - 'w.bernstein-guns-or-butter 31–32: A-C'
         - 'via w.bernstein-guns-or-butter 31 n.2c: A-C'
     tags: [name:johnson-lyndon-b, name:heller-walter-w, name:dillon-c-douglas, name:byrd-harry-f]
-    time_range:
-      - 1963-11-25T22:00Z
-      - 1963-11-26T05:00Z
-    time_zone: America/New_York
-    range_basis: record
   - id: cal.1963-11-25.assassination-2
     when: Nov. 25
     date: '1963-11-25'
@@ -3647,7 +3690,7 @@ entries:
     thread: civil-rights-bill
     also: [king, succession]
     c: 'Johnson to King by telephone, evening. King: passing Kennedy''s program "one of the greatest tributes that we can pay." Johnson: "I''m going to support them all"; "I never needed it more than I do now."'
-    n: '[[w.mann-walls-of-jericho]], 381–82; [[w.kotz-judgment-days]], 19; [[w.whalen-longest-debate]], 77; [[w.taking-charge]], 37–38. Check: Kotz gives 9:40 p.m., King at the Waldorf-Astoria with the other leaders (his note, 9:20 p.m.), and King''s words as "one of the great tributes we can pay in memory of President Kennedy is to try to enact some of the great progressive policies that he sought to initiate" (19). Check: [[w.taking-charge]], 37, prints "one of the great tributes.". To check: [Johnson and Martin Luther King, 9:20 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-martin-luther-king-november-26-1963), Tape K6311.02, PNO 22 (Miller Center), not heard; the transcript, Records of the JFK Assassination, Box 85, National Archives (cited by [[w.mann-walls-of-jericho]], 381). See [[cal.1963-06-11.civil-rights-bill]]. Names: Johnson, Martin Luther King.'
+    n: '[[w.mann-walls-of-jericho]], 381–82; [[w.kotz-judgment-days]], 19; [[w.whalen-longest-debate]], 77; [[w.taking-charge]], 37–38. Check: Kotz gives 9:40 p.m., King at the Waldorf-Astoria with the other leaders (his note, 9:20 p.m.), and King''s words as "one of the great tributes we can pay in memory of President Kennedy is to try to enact some of the great progressive policies that he sought to initiate" (19). Check: [[w.taking-charge]], 37, prints "one of the great tributes.". Check: the Daily Diary''s worksheet logs the call from King at 9:16 p.m. ([President''s Daily Diary, Nov. 25, 1963](https://catalog.archives.gov/id/192433), image 2). To check: [Johnson and Martin Luther King, 9:20 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-martin-luther-king-november-26-1963), Tape K6311.02, PNO 22 (Miller Center), not heard; the transcript, Records of the JFK Assassination, Box 85, National Archives (cited by [[w.mann-walls-of-jericho]], 381). See [[cal.1963-06-11.civil-rights-bill]]. Names: Johnson, Martin Luther King.'
     src:
       c: c2e9f15f
       rows:

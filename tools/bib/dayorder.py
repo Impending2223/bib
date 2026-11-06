@@ -36,7 +36,9 @@ STYLE
    record found later.
 6. The order, from Nov. 5, 2026 (the owner: "sort by time first"): a day's entries by their place in the day (a `time`,
    or the middle of a `time_range`, in UTC), then by the key of 1; the entries with neither after the placed ones, by
-   the key of 1; `follows` honored over both (2). A month's undated block keeps 1. check adds: a `time_range` not two
+   the key of 1; `follows` honored over both (2). An unplaced entry that a placed one follows takes, for the sort, the
+   earliest place among those that follow it, directly or through others, so the pair keeps its place in the day and
+   the link puts it first (a meeting with no hour before the 8 p.m. address it decided; Nov. 6, 2026). A month's undated block keeps 1. check adds: a `time_range` not two
    instants in order, more than a day from the date or wider than 36 hours, beside a `time`; a `time_band` not in
    BANDS or without its range and zone; a `follows` whose ranges contradict it (the follower's range wholly before).
 """
@@ -124,12 +126,27 @@ def order(lst, entries, by_time=True):
     cache = {}
     far = datetime.datetime.max
 
-    def k(e):
-        p = place(e) if by_time else None
-        return (0 if p else 1, p or far) + key(lst, e, cache)
-    keys = {e["id"]: k(e) for e in entries}
     ids = {e["id"] for e in entries}
     before = {e["id"]: [f for f in store.as_list(e.get("follows")) if f in ids and f != e["id"]] for e in entries}
+    places = {e["id"]: (place(e) if by_time else None) for e in entries}
+    if by_time:                             # an unplaced entry a placed one follows: the earliest such place (STYLE 6)
+        inherited = set()
+        changed = True
+        while changed:
+            changed = False
+            for i, bs in before.items():
+                if places[i] is None:
+                    continue
+                for b in bs:
+                    if places[b] is None or (b in inherited and places[i] < places[b]):
+                        places[b] = places[i]
+                        inherited.add(b)
+                        changed = True
+
+    def k(e):
+        p = places[e["id"]]
+        return (0 if p else 1, p or far) + key(lst, e, cache)
+    keys = {e["id"]: k(e) for e in entries}
     if not any(before.values()):
         return sorted(entries, key=lambda e: keys[e["id"]])
     by_id = {e["id"]: e for e in entries}
