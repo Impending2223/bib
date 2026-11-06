@@ -174,7 +174,13 @@ entries:
     thread: states-and-cities
     also: [governors]
     c: Oklahoma. U.S. Senator Kerr having died Jan. 1, Governor Edmondson resigns, Jan. 6; Lieutenant Governor George Nigh, governor until Bellmon's inauguration on the 14th, appoints him to Kerr's seat, Jan. 7.
-    n: '[109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt1/pdf/GPO-CRECB-1963-pt1-1-1.pdf) (1963) (Nigh''s certificate of appointment, Jan. 7, 1963). [Wikipedia, "J. Howard Edmondson"](https://en.wikipedia.org/wiki/J._Howard_Edmondson); Check: the Secretary of State''s record of the appointment. To check: [[w.morgan-robert-s-kerr]]; [[w.peirce-great-plains-states-of]]. Names: Kerr, Edmondson, Nigh, Bellmon. Check: the page.'
+    n: '[109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt1/pdf/GPO-CRECB-1963-pt1-1-1.pdf) (1963) (Nigh''s certificate of appointment, Jan. 7, 1963). [Wikipedia, "J. Howard Edmondson"](https://en.wikipedia.org/wiki/J._Howard_Edmondson); Check: the Secretary of State''s record of the appointment. [[w.peirce-great-plains-states-of]], 254, 260 (Kerr''s death; Edmondson''s appointment, arranged by himself). To check: [[w.morgan-robert-s-kerr]]. Names: Kerr, Edmondson, Nigh, Bellmon. Check: the page.'
+    src:
+      c: 1ae1a4c9
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt1/pdf/GPO-CRECB-1963-pt1-1-1.pdf: all'
+        - 'https://en.wikipedia.org/wiki/J._Howard_Edmondson: all'
+        - 'w.peirce-great-plains-states-of 254, 260: B-C'
     tags: [state:ok, name:kerr-robert-s, name:edmondson-james-h, name:nigh-george, name:bellmon-henry]
     short: Oklahoma's Senate seat filled
   - id: cal.1963-01-07.missile-crisis
@@ -1575,3 +1581,21 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 294: all'
     tags: [name:sukarno]
+  - id: cal.1963-01.states-and-cities-ia
+    when: Jan.
+    date: 1963-01
+    thread: states-and-cities
+    c: 'Des Moines. Hughes''s inaugural address to the Republican legislature: "It is sometimes said that the knack of skillful government is to hang back, to do as little as possible, and make no mistakes"; "I hope there is another way."'
+    n: '[[w.peirce-great-plains-states-of]], 95. Check: the day; a text of the address. See [[cal.1962-11-06.governors-ia]]. Names: Hughes.'
+    tags: [state:ia, city:des-moines, name:hughes-harold-e]
+  - id: cal.1963-01.state-and-city-finance-co
+    when: Jan.
+    date: 1963-01
+    thread: state-and-city-finance
+    c: Colorado. Love, within sixteen days of taking office, signs the reduction of the personal income tax he promised in his campaign.
+    n: '[[w.peirce-mountain-states-of-america]], 58. Check: the day, and the act in the session laws of 1963. See [[cal.1962-11-06.governors-co]]. Names: Love.'
+    src:
+      c: 59bc5d20
+      rows:
+        - 'w.peirce-mountain-states-of-america 58: all'
+    tags: [state:co, name:love-john-a]

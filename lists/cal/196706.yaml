@@ -247,7 +247,12 @@ entries:
     date: '1967-06-05'
     thread: states-and-cities
     c: Tierra Amarilla, N.M. Tijerina's Alianza raids the Rio Arriba County courthouse to free members arrested June 3 at Coyote, N.M., and arrest the district attorney; a jailer shot, a deputy hurt, two men taken. Lieutenant Governor Francis calls out the Guard; the largest manhunt in the State's history. Tijerina taken days later.
-    n: '[Wikipedia, "Reies Tijerina"](https://en.wikipedia.org/wiki/Reies_Tijerina); Check: the State''s charges (54 counts) and the Guard''s order. To check: [[w.nabokov-tijerina-and-the-courthouse]]; [[w.gardner-grito]]; [[w.peirce-mountain-states-of-america]]. Names: Tijerina, Francis. Check: whether Cargo was out of the State.'
+    n: '[Wikipedia, "Reies Tijerina"](https://en.wikipedia.org/wiki/Reies_Tijerina); Check: the State''s charges (54 counts) and the Guard''s order. [[w.peirce-mountain-states-of-america]], 263 (the raid; two officers shot and wounded, two hostages taken; the manhunt with the Guard''s armored vehicles). To check: [[w.nabokov-tijerina-and-the-courthouse]]; [[w.gardner-grito]]. Names: Tijerina, Francis. Check: whether Cargo was out of the State.'
+    src:
+      c: 366e55f6
+      rows:
+        - 'https://en.wikipedia.org/wiki/Reies_Tijerina: all'
+        - 'w.peirce-mountain-states-of-america 263: A, B'
     tags: [state:nm, name:tijerina-reies-lopez, name:francis-e-lee]
     short: Tierra Amarilla
   - id: cal.1967-06-05.middle-east-six-day-war-2
@@ -311,6 +316,18 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 713 n: all'
         - 'via x.1967-06-05.holbrooke-to-leonhart-some-observations-about: all'
     tags: [name:holbrooke-richard-c, name:leonhart-william]
+  - id: cal.1967-06-05.conservation
+    when: June 5
+    date: '1967-06-05'
+    thread: conservation
+    c: '*Udall v. Federal Power Commission*, [387 U.S. 428](https://tile.loc.gov/storage-services/service/ll/usrep/usrep387/usrep387428/usrep387428.pdf): the Commission''s license to Pacific Northwest Power for a dam at High Mountain Sheep, on the Snake, set aside; whether the United States should build it, the public interest in wild rivers, fish and wildlife, and other sources of power unexplored. "The test is whether the project will be in the public interest." Douglas for the Court; Harlan, with Stewart, dissents; Fortas not sitting.'
+    n: '*Udall v. Federal Power Commission*, [387 U.S. 428](https://tile.loc.gov/storage-services/service/ll/usrep/usrep387/usrep387428/usrep387428.pdf), 450 (the test) (1967). [[w.peirce-mountain-states-of-america]], 146–47 (the Commission''s approval, 1964; Interior''s challenge; the decision). Check: Peirce, 147, gives the decision 7–2. Names: Douglas.'
+    src:
+      c: b4dc5e56
+      rows:
+        - 'https://tile.loc.gov/storage-services/service/ll/usrep/usrep387/usrep387428/usrep387428.pdf: all'
+        - 'w.peirce-mountain-states-of-america 146–47: B, D, E'
+    tags: [state:id, state:or, name:douglas-william-o]
   - id: cal.1967-06-06.middle-east
     when: June 6
     date: '1967-06-06'
@@ -2146,3 +2163,22 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d155: all'
         - 'w.gavin-gold-dollars-and-power 171–72: all'
         - 'w.meltzer-history-of-the-federal 536 n.76: A'
+  - id: cal.1967-06.war-opposition
+    when: June
+    date: 1967-06
+    thread: war-opposition
+    also: [press-and-broadcasting]
+    c: Cleveland, the National Negro Publishers Association's annual meeting. At SCLC's request, John and Robert Johnson of Johnson Publishing helping, King at a luncheon, without notes, on the war and the poverty program; the publishers, told at the White House he was misinformed, won over, by Young's account.
+    n: '[[w.young-easy-burden]], 432–33. Check: the month; Young: "during the summer of 1967." Names: Martin Luther King.'
+    src:
+      c: b2dacd63
+      rows:
+        - 'w.young-easy-burden 432–33: all'
+    tags: [name:king-martin-luther-jr]
+  - id: cal.1967-06.civil-disorders-minneapolis
+    when: June–Aug.
+    date: 1967-06
+    thread: civil-disorders
+    c: Minneapolis, summer. Small riots again, the second summer running.
+    n: '[[w.peirce-great-plains-states-of]], 131. Check: the days. See [[cal.1966-06.states-and-cities-minneapolis]].'
+    tags: [state:mn, city:minneapolis]

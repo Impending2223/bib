@@ -212,7 +212,7 @@ entries:
     date: '1960-11-04'
     thread: elections-1960-kennedy
     c: Dallas, the Adolphus Hotel. A Republican crowd, Representative Alger with a sign, LBJ SOLD OUT TO YANKEE SOCIALISTS, surrounds the Johnsons in the lobby; thirty minutes to the elevators, the police sent off by Johnson. Houston, next day, apologies.
-    n: '[[w.caro-passage-of-power]], 149–50; Sorensen''s view of its effect quoted, 156. [[w.kallina-kennedy-v-nixon]], 166–67 (the Adolphus; Alger; thirty minutes); [[w.mann-walls-of-jericho]], 287 (the hotel, Alger, thirty minutes, the police sent off); [[w.bernstein-guns-or-butter]], 7 (Alger leading the crowd; Mrs. Johnson struck with a picket sign; thirty minutes through the lobby). [[w.sorensen-kennedy]], 215 (the Adolphus). Names: Johnson, Lady Bird Johnson, Alger. Check: Kallina gives late October (166). Check: Mann, 287, gives the placard "He Sold Out to Yankee Socialists," with Johnson carrying a carpetbag.'
+    n: '[[w.caro-passage-of-power]], 149–50; Sorensen''s view of its effect quoted, 156. [[w.kallina-kennedy-v-nixon]], 166–67 (the Adolphus; Alger; thirty minutes); [[w.mann-walls-of-jericho]], 287 (the hotel, Alger, thirty minutes, the police sent off); [[w.bernstein-guns-or-butter]], 7 (Alger leading the crowd; Mrs. Johnson struck with a picket sign; thirty minutes through the lobby); [[w.peirce-great-plains-states-of]], 343 (the Johnsons shouted at, shoved and spat on in Dallas, 1960). [[w.sorensen-kennedy]], 215 (the Adolphus). Names: Johnson, Lady Bird Johnson, Alger. Check: Kallina gives late October (166). Check: Mann, 287, gives the placard "He Sold Out to Yankee Socialists," with Johnson carrying a carpetbag.'
     src:
       c: e927feea
       rows:
@@ -227,6 +227,7 @@ entries:
         - 'w.sorensen-kennedy 215: A-C'
         - 'w.mann-walls-of-jericho 287: A-C'
         - 'w.bernstein-guns-or-butter 7: A, C'
+        - 'w.peirce-great-plains-states-of 343: A-B'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:alger-bruce-r]
   - id: cal.1960-11-04.elections-1960-2
     when: Nov. 4
@@ -662,7 +663,13 @@ entries:
     thread: governors
     also: [elections-1960]
     c: New Mexico. Mechem (R) governor over Burroughs (D), 153,765 to 151,777, 50.3 percent, a 1,988-vote margin; Bolack (R) lieutenant governor, a 279-vote margin, as Kennedy carries the State.
-    n: 'Votes: [Wikipedia, "1960 New Mexico gubernatorial election"](https://en.wikipedia.org/wiki/1960_New_Mexico_gubernatorial_election); [Wikipedia, "Tom Bolack"](https://en.wikipedia.org/wiki/Tom_Bolack); Check: N.M., *Canvass of Returns of General Election Held November 8, 1960*. Check: Bolack''s count and percentage. To check: [[w.peirce-mountain-states-of-america]]. See [[cal.1960-05-10.governors-nm]]; [[cal.1960-11-08.elections-1960]]. Names: Mechem, Burroughs, Bolack, Kennedy.'
+    n: 'Votes: [Wikipedia, "1960 New Mexico gubernatorial election"](https://en.wikipedia.org/wiki/1960_New_Mexico_gubernatorial_election); [Wikipedia, "Tom Bolack"](https://en.wikipedia.org/wiki/Tom_Bolack); Check: N.M., *Canvass of Returns of General Election Held November 8, 1960*. [[w.peirce-mountain-states-of-america]], 28 (Kennedy carries the State). Check: Bolack''s count and percentage. See [[cal.1960-05-10.governors-nm]]; [[cal.1960-11-08.elections-1960]]. Names: Mechem, Burroughs, Bolack, Kennedy.'
+    src:
+      c: 8570a263
+      rows:
+        - 'https://en.wikipedia.org/wiki/1960_New_Mexico_gubernatorial_election: all'
+        - 'https://en.wikipedia.org/wiki/Tom_Bolack: all'
+        - 'w.peirce-mountain-states-of-america 28: C'
     tags: [state:nm, name:mechem-edwin-l, name:burroughs-john, name:bolack-tom, name:kennedy-john-f]
   - id: cal.1960-11-08.state-constitutions-md
     when: Nov. 8
@@ -726,7 +733,13 @@ entries:
     thread: governors
     also: [elections-1960]
     c: South Dakota. Gubbrud (R) over Governor Herseth (D), 154,530 to 150,095, 50.7 percent.
-    n: '[*Official Election Returns by Counties, General Election, November 8, 1960*](https://sdsos.gov/elections-voting/assets/historicalelectiondata/1960G.pdf); figures from [Wikipedia, "1960 South Dakota gubernatorial election"](https://en.wikipedia.org/wiki/1960_South_Dakota_gubernatorial_election) (Check: the scan). To check: [[w.peirce-great-plains-states-of]]. See [[cal.1960-11-08.governors]]. Names: Gubbrud, Herseth.'
+    n: '[*Official Election Returns by Counties, General Election, November 8, 1960*](https://sdsos.gov/elections-voting/assets/historicalelectiondata/1960G.pdf); figures from [Wikipedia, "1960 South Dakota gubernatorial election"](https://en.wikipedia.org/wiki/1960_South_Dakota_gubernatorial_election) (Check: the scan). [[w.peirce-great-plains-states-of]], 182–83 (Gubbrud a governor of the 1960s; Herseth elected in 1958 for a single two-year term; the Democrats'' reverse of 1960). See [[cal.1960-11-08.governors]]. Names: Gubbrud, Herseth.'
+    src:
+      c: ca4b7ade
+      rows:
+        - 'https://sdsos.gov/elections-voting/assets/historicalelectiondata/1960G.pdf: all'
+        - 'https://en.wikipedia.org/wiki/1960_South_Dakota_gubernatorial_election: all'
+        - 'w.peirce-great-plains-states-of 182–83: B'
     tags: [state:sd, name:gubbrud-archie, name:herseth-ralph]
   - id: cal.1960-11-08.legislatures-us
     when: Nov. 8
@@ -867,6 +880,19 @@ entries:
         - 'w.thomas-robert-kennedy 107: all'
         - 'via w.thomas-robert-kennedy 107 n.election-returns: all'
     tags: [name:kennedy-robert-f, name:harris-louis, name:daley-richard-j]
+  - id: cal.1960-11-08.governors-mt
+    when: Nov. 8
+    date: '1960-11-08'
+    thread: governors
+    also: [elections-1960]
+    c: Montana. Nutter (R) governor over Paul Cannon (D), 154,230 to 125,651, 55.1 percent.
+    n: 'Votes: [*Official Montana General Election Returns, November 8, 1960*](https://archive.org/stream/officialmontanag1960montrich#page/n1/mode/2up), as the series'' returns of the governors give it; Check: the page. [[w.peirce-mountain-states-of-america]], 116 (Nutter elected). See [[cal.1960-06-07.governors-mt]]. Names: Nutter, Paul Cannon.'
+    src:
+      c: d54653d9
+      rows:
+        - 'https://archive.org/stream/officialmontanag1960montrich#page/n1/mode/2up: A, B'
+        - 'w.peirce-mountain-states-of-america 116: B'
+    tags: [state:mt, name:nutter-donald-g, name:cannon-paul]
   - id: cal.1960-11-09.transition-and-staff
     when: Nov. 9–10
     date: '1960-11-09'
@@ -1273,7 +1299,12 @@ entries:
     date: '1960-11-14'
     thread: desegregation-schools
     c: 'New Orleans, under Judge Wright''s order. Four Black first-graders enter two white schools with federal marshals: Ruby Bridges at William Frantz, three at McDonogh No. 19. White parents withdraw their children; crowds of women at Frantz. The legislature, in special session, passes act after act to stop it; Wright enjoins them. Nov. 16, after a Citizens'' Council rally, white youths riot downtown.'
-    n: 'The case: *Bush v. Orleans Parish School Board*; the three-judge court''s decision of Aug. 27, [187 F. Supp. 42](https://static.case.law/f-supp/187/case-pdfs/0042-01.pdf) (E.D. La. 1960). To check: [[w.bass-unlikely-heroes]] (on Wright); [[w.steinbeck-travels-with-charley]] (the women at Frantz); [[w.fairclough-race-and-democracy]]; [[w.baker-second-battle-of-new]]; [[w.mcmillen-citizens-council]]; [[w.coles-children-of-crisis]]; [[w.bridges-through-my-eyes]]. See [[cal.1960-11-04.desegregation-schools-la]]. Names: Wright, Bridges.'
+    n: 'The case: *Bush v. Orleans Parish School Board*; the three-judge court''s decision of Aug. 27, [187 F. Supp. 42](https://static.case.law/f-supp/187/case-pdfs/0042-01.pdf) (E.D. La. 1960). [[w.young-easy-burden]], 116 (four little girls, federal marshals, the Frantz School). To check: [[w.bass-unlikely-heroes]] (on Wright); [[w.steinbeck-travels-with-charley]] (the women at Frantz); [[w.fairclough-race-and-democracy]]; [[w.baker-second-battle-of-new]]; [[w.mcmillen-citizens-council]]; [[w.coles-children-of-crisis]]; [[w.bridges-through-my-eyes]]. See [[cal.1960-11-04.desegregation-schools-la]]. Names: Wright, Bridges.'
+    src:
+      c: 46a5c90c
+      rows:
+        - 'https://static.case.law/f-supp/187/case-pdfs/0042-01.pdf: all'
+        - 'w.young-easy-burden 116: A-B'
     tags: [name:wright-j-skelly, name:bridges-ruby, state:la, city:new-orleans]
   - id: cal.1960-11-14.court
     when: Nov. 14
