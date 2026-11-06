@@ -92,6 +92,7 @@ entries:
   - id: cal.1965-04-01.school-aid
     when: Apr. 1
     date: '1965-04-01'
+    time: 1965-04-01T14:00Z
     thread: school-aid
     also: [labor]
     c: 'Johnson to Meany by telephone, 9 a.m., the education bill before the Senate: no amendment, nothing to "endanger the whole bill."'
@@ -159,6 +160,7 @@ entries:
   - id: cal.1965-04-02.vietnam
     when: Apr. 2
     date: '1965-04-02'
+    time: 1965-04-02T15:30Z
     thread: vietnam
     c: 'Taylor before Foreign Relations and Armed Services in executive session, then the House committee; guarded on troops. To the NSC: Fulbright worried of three or four divisions, and whether the resolution covers them. Johnson: no new resolution needed to send troops. Case: the resolution not enough for "a major step." Fulbright: "Maybe we made a mistake in committing ourselves publicly"; $1 million for an embassy building, "but you don''t want to ask us for 300,000 men." Stennis: "we are moving rapidly in that direction."'
     n: 'FRUS 1964–68, II, docs. [231](https://history.state.gov/historicaldocuments/frus1964-68v02/d231), [235](https://history.state.gov/historicaldocuments/frus1964-68v02/d235) (William Bundy to the congressional liaison, Apr. 3). [[w.gibbons-u-s-government-and]], III, 212–14; [[w.taylor-swords-and-plowshares]], 339 (two sessions before the combined committees, in Washington Mar. 28 to Apr. 5). [[w.mann-grand-delusion]], 422–24. To check: the joint executive session''s transcript, Apr. 2, 1965, unpublished (cited by [[w.gibbons-u-s-government-and]], III, 212 n.189). See [[cal.1965-03-08.vietnam]]. Names: Taylor, Fulbright, Johnson, Case, Stennis.'
@@ -191,8 +193,10 @@ entries:
     when: Apr. 2
     date: '1965-04-02'
     thread: vietnam-congress
+    follows:
+      - cal.1965-04-02.vietnam
     c: 'Fulbright to the press after Taylor''s testimony: "very serious, very unhappy situation and all are apprehensive"; the war "can always escalate beyond control."'
-    n: '[[w.gibbons-u-s-government-and]], III, 214. To check: [*New York Times*, Apr. 3, 1965](https://timesmachine.nytimes.com/timesmachine/1965/04/03/issue.html) (cited by [[w.gibbons-u-s-government-and]], III, 214 n.191). See [[cal.1965-04-02.vietnam]]. Names: Fulbright, Taylor.'
+    n: '[[w.gibbons-u-s-government-and]], III, 214. To check: [*New York Times*, Apr. 3, 1965](https://timesmachine.nytimes.com/timesmachine/1965/04/03/issue.html) (cited by [[w.gibbons-u-s-government-and]], III, 214 n.191). After Taylor''s testimony. See [[cal.1965-04-02.vietnam]]. Names: Fulbright, Taylor.'
     src:
       c: 6c32ef72
       rows:
@@ -482,6 +486,7 @@ entries:
   - id: cal.1965-04-05.voting-rights
     when: Apr. 5
     date: '1965-04-05'
+    time: 1965-04-05T17:34Z
     thread: voting-rights
     also: [republican-party-congress]
     c: 'Johnson and Dirksen by telephone, 12:34 p.m.: Johnson presses him to stop maneuvering and bring the voting bill to a vote.'
@@ -711,9 +716,13 @@ entries:
   - id: cal.1965-04-07.vietnam
     when: Apr. 7
     date: '1965-04-07'
+    time: 1965-04-08T02:00Z
     thread: vietnam
+    follows:
+      - cal.1965-04-07.vietnam-congress-2
+      - cal.1965-04-07.vietnam-2
     c: 'Johnson at Johns Hopkins, Baltimore, on television: "Peace Without Conquest." "We will not be defeated. We will not grow tired"; ready "for unconditional discussions"; a billion dollars for the development of Southeast Asia, the Mekong to "dwarf even our own TVA," Eugene Black to lead. Apr. 8, Phạm Văn Đồng''s four points: American troops and bases out; no foreign alliances, as at Geneva; the South''s affairs settled by its people on the Front''s program; reunification without foreign interference.'
-    n: 'Address at Johns Hopkins University: "Peace Without Conquest", [1965 Pub. Papers 394](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=470) (Apr. 7, 1965). [FRUS 1964–68, II, doc. 245](https://history.state.gov/historicaldocuments/frus1964-68v02/d245). Recording (K–J Adm. II.I). [[w.gibbons-u-s-government-and]], III, 217–18 (the speech, not the TVA or Black; the four points, as Hanoi''s); [[w.staaveren-gradual-failure]], 103–04 (the address; Phạm Văn Đồng''s four points); [[w.johnson-vantage-point]], 132–34 (the address); [[w.herring-lbj-and-vietnam]], 96–97, 125 (the address: "unconditional discussions," the billion dollars, a program like the TVA for the Mekong, not Black; Hanoi''s four points in answer, 97, not their day or terms but the third); [[w.preston-war-council]], 194 (Bundy''s part in the speech; Hanoi''s four points the next day). [[w.logevall-choosing-war]], 371–72 (the speech, "unconditional discussions," the billion dollars; the four points, not their terms); [[w.branch-at-canaans-edge]], 205–06 (not the four points). To check: [[w.thies-when-governments-collide]]; [[w.search-for-peace-in]]; [[w.gardner-pay-any-price]]. See [[cal.1965-03-02.vietnam]]. Names: Johnson, Black, Phạm Văn Đồng.'
+    n: 'Address at Johns Hopkins University: "Peace Without Conquest", [1965 Pub. Papers 394](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=470) (Apr. 7, 1965). [FRUS 1964–68, II, doc. 245](https://history.state.gov/historicaldocuments/frus1964-68v02/d245). Recording (K–J Adm. II.I). [[w.gibbons-u-s-government-and]], III, 217–18 (the speech, not the TVA or Black; the four points, as Hanoi''s); [[w.staaveren-gradual-failure]], 103–04 (the address; Phạm Văn Đồng''s four points); [[w.johnson-vantage-point]], 132–34 (the address); [[w.herring-lbj-and-vietnam]], 96–97, 125 (the address: "unconditional discussions," the billion dollars, a program like the TVA for the Mekong, not Black; Hanoi''s four points in answer, 97, not their day or terms but the third); [[w.preston-war-council]], 194 (Bundy''s part in the speech; Hanoi''s four points the next day). [[w.logevall-choosing-war]], 371–72 (the speech, "unconditional discussions," the billion dollars; the four points, not their terms); [[w.branch-at-canaans-edge]], 205–06 (not the four points). To check: [[w.thies-when-governments-collide]]; [[w.search-for-peace-in]]; [[w.gardner-pay-any-price]]. After the Senators'' reading of the speech and the afternoon''s call on Black: [[cal.1965-04-07.vietnam-congress-2]]; [[cal.1965-04-07.vietnam-2]]. See [[cal.1965-03-02.vietnam]]. Names: Johnson, Black, Phạm Văn Đồng.'
     src:
       c: '21051115'
       rows:
@@ -1059,6 +1068,7 @@ entries:
   - id: cal.1965-04-09.vietnam-2
     when: Apr. 9
     date: '1965-04-09'
+    time: 1965-04-09T14:30Z
     thread: vietnam
     also: [school-aid, press-and-broadcasting]
     c: 'Johnson to Ball by telephone, 9:30 a.m., on the news of the MiGs off Hainan, with the Senate''s vote on the education bill to come: "I just hope we don''t get too much information too quick up at the Senate before they pass that education bill."'
@@ -1148,6 +1158,7 @@ entries:
   - id: cal.1965-04-11.school-aid
     when: Apr. 11
     date: '1965-04-11'
+    time: 1965-04-11T22:20Z
     thread: school-aid
     c: Elementary and Secondary Education Act signed, [79 Stat. 27](https://www.govinfo.gov/content/pkg/STATUTE-79/pdf/STATUTE-79-Pg27.pdf), outside the old Junction school near Johnson City, Tex., his first, Kate Deadrich Loney, his first teacher, beside him. Title I, aid to districts by their count of children of low-income families, for the educationally deprived, private-school pupils included; Title II, library books and textbooks for children in public and private schools; Title III, supplementary centers.
     n: 'Statute (K–J Cong. II.J.2). Remarks in Johnson City, Tex., Upon Signing the Elementary and Secondary Education Bill, [1965 Pub. Papers 412](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=488) (Apr. 11, 1965). [President''s Daily Diary, Apr. 11, 1965](https://catalog.archives.gov/id/192455), image 3 (LBJ Library; National Archives Catalog). [[w.branch-at-canaans-edge]], 208–09; [[w.zelizer-fierce-urgency-of-now]], 184 (Stonewall; "we bridge the gap between helplessness and hope"); [[w.kotz-judgment-days]], 332 (Katie Deadrich and Mexican American students from Cotulla there; "we bridge the gap between helplessness and hope for more than 5 million educationally deprived children"); [[w.bernstein-guns-or-butter]], 200–201 (Palm Sunday, the Junction Elementary School; Kate Deadrich Loney); [[w.graham-uncertain-triumph]], 79 (Sunday, at Cater''s suggestion, outside the one-room school; Katherine Deadrich Loney). To check: [[w.eidenberg-act-of-congress]]; [[w.bailey-esea]]. See [[cal.1965-04-09.school-aid]]. Names: Johnson, Loney.'
@@ -1374,6 +1385,7 @@ entries:
   - id: cal.1965-04-14.south-asia
     when: Apr. 14–15
     date: '1965-04-14'
+    time: 1965-04-14T15:35Z
     thread: south-asia
     also: [china]
     c: 'Johnson to Ayub Khan, by letter: his visit to Washington this month put off, perhaps to the fall. A visit now would fix public attention on the two countries'' differences over Communist China, with the aid bill at its most sensitive point in Congress and American casualties mounting in Vietnam. Apr. 15, McConaughy gives Ayub the letter at Rawalpindi: a postponement, not a cancellation; Ayub "slightly taken aback."'
@@ -1682,6 +1694,7 @@ entries:
   - id: cal.1965-04-17.vietnam
     when: Apr. 17
     date: '1965-04-17'
+    time: 1965-04-17T18:10Z
     thread: vietnam
     c: 'Johnson''s statement on Vietnam, the day of SDS''s march: "The outrage of this country and the world must be visited on those who explode their bombs in cities and villages"; the United States to stay "as long as is necessary, with the might that is required, whatever the risk and whatever the cost"; "no human power capable of forcing us from Viet-Nam."'
     n: 'Statement by the President: "Tragedy, Disappointment, and Progress" in Viet-Nam, [1965 Pub. Papers 428](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=504) (Apr. 17, 1965). [[w.gibbons-u-s-government-and]], III, 221–22 (McGeorge Bundy''s advice of Apr. 14 to cool the rally). [[w.mann-grand-delusion]], 428–29. See [[cal.1965-04-17.students]]. Names: Johnson.'
@@ -2006,6 +2019,7 @@ entries:
   - id: cal.1965-04-22.vietnam
     when: Apr. 22
     date: '1965-04-22'
+    time: 1965-04-22T17:34Z
     thread: vietnam
     also: [vietnam-congress]
     c: 'The NSC''s Executive Committee, 12:34 to 2:20 p.m., by McCone''s record. Johnson: no supporting speeches; "our Congressional support was very uncertain and wobbly and we could lose it rapidly"; Morse, Gruening, Clark and Fulbright will have their effect. An "intense personal campaign with sympathetic senators"; McNamara and Rusk to speak and go on television.'
@@ -2420,6 +2434,7 @@ entries:
   - id: cal.1965-04-29.africa
     when: Apr. 29
     date: '1965-04-29'
+    time: 1965-04-29T16:00Z
     thread: africa
     c: 'Habib Bourguiba Jr., Foreign Minister of Tunisia, with Johnson, bringing his father''s letter: Tunisia''s next development plan; help with equipment for its army. Johnson: Congress has nearly cut out military aid; he will see what can be done.'
     n: 'FRUS 1964–68, XXIV, docs. [150](https://history.state.gov/historicaldocuments/frus1964-68v24/d150), [151](https://history.state.gov/historicaldocuments/frus1964-68v24/d151). To check: [[w.perkins-history-of-modern-tunisia]]. See [[cal.1961-05-03.africa]]. Names: Habib Bourguiba Jr..'

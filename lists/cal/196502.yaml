@@ -48,6 +48,7 @@ entries:
   - id: cal.1965-02-01.vietnam
     when: Feb. 1
     date: '1965-02-01'
+    time: 1965-02-01T23:58Z
     thread: vietnam
     c: 'Bundy to Taylor, 6:58 p.m., exclusive: "I am primarily interested in coming away with a sense of what kind of pressures you and your senior subordinates feel can be effectively applied to the VC and Hanoi," without the constraints of existing policy; "Do we in fact need a stable government in order to proceed aggressively and effectively with pacification?"'
     n: '[FRUS 1964–68, II, doc. 56](https://history.state.gov/historicaldocuments/frus1964-68v02/d56). [[w.preston-war-council]], 169. See [[cal.1965-01-30.vietnam-2]]. Names: Bundy, Taylor.'
@@ -446,6 +447,7 @@ entries:
   - id: cal.1965-02-04.black-nationalism
     when: Feb. 4
     date: '1965-02-04'
+    time: 1965-02-04T15:47Z
     thread: black-nationalism
     also: [voting-rights-selma]
     c: 'Selma, Brown Chapel, 9:47 a.m. to 12:40 p.m. Malcolm X, invited by SNCC, between Shuttlesworth and Bevel: "I''m a field Negro"; he does not intend "to stir you up." To Coretta King: he meant to help her husband, not hinder him.'
@@ -627,6 +629,7 @@ entries:
   - id: cal.1965-02-05.voting-rights
     when: Feb. 5
     date: '1965-02-05'
+    time: 1965-02-05T20:00Z
     thread: voting-rights
     also: [voting-rights-selma]
     c: 'Katzenbach to Johnson by telephone, 3 p.m.: demonstrations go on at Selma "despite the court order we got yesterday"; some four hundred schoolchildren arrested; King out of jail later in the day, "maybe he''ll be more reasonable." Johnson: give Judge Thomas''s order a chance; "This is what he asked for and this is what he''s got. And we expect some quid pro quos."'
@@ -664,6 +667,7 @@ entries:
   - id: cal.1965-02-06.vietnam-congress
     when: Feb. 6
     date: '1965-02-06'
+    time: 1965-02-07T00:45Z
     thread: vietnam-congress
     also: [vietnam]
     c: 'The 545th NSC, 7:45 to 9 p.m., on reprisal for Pleiku, McCormack and Mansfield present. Mansfield: "We are not now in a penny ante game"; the people of the South "not behind us"; caution "our watchword"; what government had cleared it? A war with China, the Soviet-Chinese split healed, "worse than Korea." Johnson: "cowardice has gotten us into more wars than response has." Ball: "We are all in accord that action must be taken." The strikes authorized; Johnson: "We need a recommendation from Saigon."'
@@ -702,6 +706,7 @@ entries:
   - id: cal.1965-02-06.vietnam
     when: Feb. 6
     date: '1965-02-06'
+    time: 1965-02-06T10:00Z
     thread: vietnam
     c: 'McGeorge Bundy to William Bundy from Saigon, 6 p.m., for the President: the mission and the ambassador to report apart; Bundy''s report to be written on the way home. "Tomorrow will be spent in the field and should give additional color to conclusions which will contain few major surprises. Overall impression is that important decisions are necessary but that there is time in which to make them."'
     n: '[FRUS 1964–68, II, doc. 75](https://history.state.gov/historicaldocuments/frus1964-68v02/d75). [[w.preston-war-council]], 176–77. Names: McGeorge Bundy, William Bundy, Taylor.'
@@ -886,10 +891,13 @@ entries:
   - id: cal.1965-02-07.vietnam-congress
     when: Feb. 7
     date: '1965-02-07'
+    time: 1965-02-07T13:00Z
     thread: vietnam-congress
     also: [vietnam]
+    follows:
+      - cal.1965-02-07.vietnam
     c: 'The 546th NSC, 8 a.m., with McCormack, Mansfield and Ford. Mansfield: "Why cannot we handle this matter through the United Nations? Can''t the Geneva powers act?" Johnson: "This cannot be done." Ford: why strike one target of four? Mansfield: the purpose to impress Hồ Chí Minh and Giáp, not necessary "to go any further at this time"; Johnson: to impress Kosygin "and a number of others in the world, including our own citizens." Mansfield and McCormack agree to the South Vietnamese strike.'
-    n: 'FRUS 1964–68, II, docs. [80](https://history.state.gov/historicaldocuments/frus1964-68v02/d80) (summary notes); [81](https://history.state.gov/historicaldocuments/frus1964-68v02/d81) (memorandum for the record). [[w.mann-grand-delusion]], 395–96. [[w.ball-past-has-another-pattern]], 390 (the meeting). Check: Mann dates the meeting the morning of Feb. 8. See [[cal.1965-02-06.vietnam-congress]]. Names: McCormack, Mansfield, Ford, Johnson, Hồ Chí Minh, Võ Nguyên Giáp, Kosygin. Check: Ball (390) has himself, Mansfield, Humphrey and Thompson for putting the strike off while Kosygin was in Hanoi, McNamara prevailing, and Humphrey kept from the meetings for months after.'
+    n: 'FRUS 1964–68, II, docs. [80](https://history.state.gov/historicaldocuments/frus1964-68v02/d80) (summary notes); [81](https://history.state.gov/historicaldocuments/frus1964-68v02/d81) (memorandum for the record). [[w.mann-grand-delusion]], 395–96. [[w.ball-past-has-another-pattern]], 390 (the meeting). Check: Mann dates the meeting the morning of Feb. 8. After the attack at Pleiku: [[cal.1965-02-07.vietnam]]. See [[cal.1965-02-06.vietnam-congress]]. Names: McCormack, Mansfield, Ford, Johnson, Hồ Chí Minh, Võ Nguyên Giáp, Kosygin. Check: Ball (390) has himself, Mansfield, Humphrey and Thompson for putting the strike off while Kosygin was in Hanoi, McNamara prevailing, and Humphrey kept from the meetings for months after.'
     src:
       c: bd122371
       rows:
@@ -905,8 +913,10 @@ entries:
     date: '1965-02-07'
     thread: vietnam
     also: [press-and-broadcasting]
+    follows:
+      - cal.1965-02-07.vietnam
     c: 'McNamara''s press conference on Pleiku: "I think it was a very clear challenge and test of our political purpose and strength of will." William Bundy to the SEATO ambassadors, by Harlech''s report: the North''s action "intended as a clear test of will," calling for "urgent and appropriate retaliatory action."'
-    n: '[[w.preston-war-council]], 173. To check: McNamara news conference, Feb. 7, 1965, NSF, Country File, Vietnam, box 13, LBJ Library; Harlech (Washington) to London, Feb. 7, 1965, FO 371/180594, Public Record Office (cited by [[w.preston-war-council]], 173 n.37). See [[cal.1965-02-07.vietnam]]. Names: McNamara, William Bundy, Ormsby-Gore.'
+    n: '[[w.preston-war-council]], 173. To check: McNamara news conference, Feb. 7, 1965, NSF, Country File, Vietnam, box 13, LBJ Library; Harlech (Washington) to London, Feb. 7, 1965, FO 371/180594, Public Record Office (cited by [[w.preston-war-council]], 173 n.37). After the attack at Pleiku. See [[cal.1965-02-07.vietnam]]. Names: McNamara, William Bundy, Ormsby-Gore.'
     src:
       c: ddf85ec6
       rows:
@@ -946,8 +956,10 @@ entries:
     date: '1965-02-07'
     thread: king
     also: [civil-rights-the-executive]
+    follows:
+      - cal.1965-02-07.vietnam
     c: 'Wachtel and Lee White, after Pleiku: King to see Humphrey Tuesday; Johnson may "spontaneously" ask him in, if nothing is said beforehand. King''s release, from Atlanta, late Sunday, names Humphrey only. White recommends Johnson not see King.'
-    n: '[[w.branch-pillar-of-fire]], 582–83; [[w.kotz-judgment-days]], 270–71 (White to Wachtel, Sunday: total secrecy, or "all bets were off"); [[w.bernstein-guns-or-butter]], 221 (White''s arrangement: "if word of this got out in advance, all bets were off"). To check: SAC, New York, to Director, Feb. 7, 1965, FK-852 (cited by [[w.branch-pillar-of-fire]], 582); Int. Lee White, Dec. 13, 1983, Dec. 3, 1991 (cited by [[w.branch-pillar-of-fire]], 582); Int. Harry Wachtel, Oct. 27, 1983 (cited by [[w.branch-pillar-of-fire]], 582); SAC, New York, to Director, Feb. 7, 1965, FK-857 (cited by [[w.branch-pillar-of-fire]], 582); Hoover to the Attorney General, Feb. 8, 1965, FDCA-389 (cited by [[w.branch-pillar-of-fire]], 582); [[w.garrow-bearing-the-cross]], 386–87 (cited by [[w.branch-pillar-of-fire]], 583). See [[cal.1965-02-05.king]]. Names: White, Humphrey, Johnson, King.'
+    n: '[[w.branch-pillar-of-fire]], 582–83; [[w.kotz-judgment-days]], 270–71 (White to Wachtel, Sunday: total secrecy, or "all bets were off"); [[w.bernstein-guns-or-butter]], 221 (White''s arrangement: "if word of this got out in advance, all bets were off"). To check: SAC, New York, to Director, Feb. 7, 1965, FK-852 (cited by [[w.branch-pillar-of-fire]], 582); Int. Lee White, Dec. 13, 1983, Dec. 3, 1991 (cited by [[w.branch-pillar-of-fire]], 582); Int. Harry Wachtel, Oct. 27, 1983 (cited by [[w.branch-pillar-of-fire]], 582); SAC, New York, to Director, Feb. 7, 1965, FK-857 (cited by [[w.branch-pillar-of-fire]], 582); Hoover to the Attorney General, Feb. 8, 1965, FDCA-389 (cited by [[w.branch-pillar-of-fire]], 582); [[w.garrow-bearing-the-cross]], 386–87 (cited by [[w.branch-pillar-of-fire]], 583). After Pleiku: [[cal.1965-02-07.vietnam]]. See [[cal.1965-02-05.king]]. Names: White, Humphrey, Johnson, King.'
     src:
       c: 06cf6734
       rows:
@@ -999,8 +1011,10 @@ entries:
     when: Feb. 8
     date: '1965-02-08'
     thread: vietnam
+    follows:
+      - cal.1965-02-08.vietnam-congress-3
     c: 'Mansfield to Johnson after the three NSC meetings: grave doubts of Khánh''s government; the South tired of the war; too far into the North, worse than Korea.'
-    n: '[FRUS 1964–68, II, doc. 92](https://history.state.gov/historicaldocuments/frus1964-68v02/d92). [[w.gibbons-u-s-government-and]], III, 69. [[w.mann-grand-delusion]], 400 (Kosygin; China; "a continuous deepening of our military commitment"). [[w.preston-war-council]], 175 ("too far in North Vietnam"). See [[cal.1965-02-07.vietnam]]. Names: Mansfield, Johnson, Nguyễn Khánh.'
+    n: '[FRUS 1964–68, II, doc. 92](https://history.state.gov/historicaldocuments/frus1964-68v02/d92). [[w.gibbons-u-s-government-and]], III, 69. [[w.mann-grand-delusion]], 400 (Kosygin; China; "a continuous deepening of our military commitment"). [[w.preston-war-council]], 175 ("too far in North Vietnam"). After the third of the NSC meetings: [[cal.1965-02-08.vietnam-congress-3]]. See [[cal.1965-02-07.vietnam]]. Names: Mansfield, Johnson, Nguyễn Khánh.'
     src:
       c: e574b0b7
       rows:
@@ -1057,6 +1071,7 @@ entries:
   - id: cal.1965-02-08.vietnam-congress-3
     when: Feb. 8
     date: '1965-02-08'
+    time: 1965-02-08T15:30Z
     thread: vietnam-congress
     also: [vietnam]
     c: 'The 547th NSC, 10:30 a.m., the leaders, Mansfield, Dirksen, McCormack and Ford, joining. Johnson: "We are now ready to return to our program of pushing forward in an effort to defeat North Vietnamese aggression without escalating the war." The Congressional Resolution and his powers enough; "the views of a few Senators could not control his actions"; he will use it "carefully but effectively." Ford: more money and men? McNamara: "not in the initial stages." Dirksen asks what a withdrawal would mean; Bundy: the consequences in Southeast Asia very large, elsewhere "even to the extent of affecting the morale in Berlin."'
@@ -1366,6 +1381,7 @@ entries:
   - id: cal.1965-02-09.vietnam-2
     when: Feb. 9
     date: '1965-02-09'
+    time: 1965-02-09T04:00Z
     thread: vietnam-air-war
     also: [vietnam]
     c: 'Taylor to State, noon: the reprisals of Feb. 7 and 8 "a significant forward step"; the White House statement and the strikes "a good foundation for embarking on a graduated reprisal program to bring increasing pressure on the DRV to cease its intervention in SVN, as discussed here at some length with Bundy and his party." Jointly with Saigon, against military targets and infiltration routes only.'
@@ -1490,9 +1506,12 @@ entries:
   - id: cal.1965-02-10.vietnam-2
     when: Feb. 10
     date: '1965-02-10'
+    time: 1965-02-10T23:40Z
     thread: vietnam
+    follows:
+      - cal.1965-02-10.vietnam
     c: 'Evening, off the record: Johnson with nine of Congress, Kuchel the one Republican. Ball and McDonald brief. Fulbright asks of strikes on China; answered no. Mansfield''s memorandum: another reprisal will not cool the situation; expect the Viet Cong''s answer in the South. Mansfield, invited to speak, silent; his memorandum given Valenti after.'
-    n: 'FRUS 1964–68, II, docs. [100](https://history.state.gov/historicaldocuments/frus1964-68v02/d100), [101](https://history.state.gov/historicaldocuments/frus1964-68v02/d101); Bundy''s reply, Feb. 11, [107](https://history.state.gov/historicaldocuments/frus1964-68v02/d107). [[w.gibbons-u-s-government-and]], III, 79–82. [[w.mann-grand-delusion]], 402–3. See [[cal.1965-02-10.vietnam]]. Names: Johnson, Kuchel, Ball, McDonald, Fulbright, Mansfield, Valenti.'
+    n: 'FRUS 1964–68, II, docs. [100](https://history.state.gov/historicaldocuments/frus1964-68v02/d100), [101](https://history.state.gov/historicaldocuments/frus1964-68v02/d101); Bundy''s reply, Feb. 11, [107](https://history.state.gov/historicaldocuments/frus1964-68v02/d107). [[w.gibbons-u-s-government-and]], III, 79–82. [[w.mann-grand-delusion]], 402–3. After the NSC on Qui Nhơn, 2:07 p.m.: [FRUS 1964–68, II, doc. 98](https://history.state.gov/historicaldocuments/frus1964-68v02/d98). See [[cal.1965-02-10.vietnam]]. Names: Johnson, Kuchel, Ball, McDonald, Fulbright, Mansfield, Valenti.'
     src:
       c: ebfbf8eb
       rows:
@@ -1535,8 +1554,10 @@ entries:
     when: Feb. 10
     date: '1965-02-10'
     thread: vietnam
+    follows:
+      - cal.1965-02-10.vietnam
     c: 'Bundy to Johnson by telephone, of Qui Nhơn: he and McNamara feel "very strongly" that the South Vietnamese casualties be used to "tie them in."'
-    n: '[[w.preston-war-council]], 180. To check: Bundy and Johnson, telephone, Feb. 10, 1965 (cited by [[w.preston-war-council]], 180 n.52, as in Beschloss''s *Taking Charge*, 176). See [[cal.1965-02-10.vietnam]]. Names: Bundy, Johnson, McNamara. Check: the volume of Beschloss''s transcripts; *Taking Charge* ends with 1964.'
+    n: '[[w.preston-war-council]], 180. To check: Bundy and Johnson, telephone, Feb. 10, 1965 (cited by [[w.preston-war-council]], 180 n.52, as in Beschloss''s *Taking Charge*, 176). After the bombing at Qui Nhơn, its matter. See [[cal.1965-02-10.vietnam]]. Names: Bundy, Johnson, McNamara. Check: the volume of Beschloss''s transcripts; *Taking Charge* ends with 1964.'
     src:
       c: 30e10186
       rows:
@@ -1573,6 +1594,7 @@ entries:
   - id: cal.1965-02-10.voting-rights-selma
     when: Feb. 10
     date: '1965-02-10'
+    time: 1965-02-10T20:54Z
     thread: voting-rights-selma
     c: 'Selma, 2:54 p.m. Clark and his deputies run 161 students out of town on River Road with clubs and cattle prods, past a creek bridge, until they scatter: "escaped," Clark says, from truancy arrest. That night, overflow mass meetings; King: Johnson "aware of our groans."'
     n: '[[w.branch-pillar-of-fire]], 586; [[w.kotz-judgment-days]], 274 (a two-mile forced march; the next night King: "brutality, meanness and terror"). Check: Kotz gives 165 students (274). To check: SAC, Mobile, to Director, Feb. 10, 1965, FDCA-330 (cited by [[w.branch-pillar-of-fire]], 586); STJ, Feb. 10, 1965, p. 1 (cited by [[w.branch-pillar-of-fire]], 586); Webb and Nelson, Selma, Lord, Selma, 66–67 (cited by [[w.branch-pillar-of-fire]], 586); Time, Feb. 19, 1965, p. 23 (cited by [[w.branch-pillar-of-fire]], 586); NYT, April 28, 1965, p. 22 (cited by [[w.branch-pillar-of-fire]], 586); MLK mass meeting remarks, Feb. 10, 1965, Selma surveillance tape No. 10, BIR (cited by [[w.branch-pillar-of-fire]], 586). See [[cal.1965-01-18.voting-rights-selma]]. Names: Clark, King, Johnson.'
@@ -1941,6 +1963,7 @@ entries:
   - id: cal.1965-02-13.transition-and-staff
     when: Feb. 13
     date: '1965-02-13'
+    time: 1965-02-13T17:10Z
     thread: transition-and-staff
     c: Katzenbach sworn as Attorney General, Ramsey Clark as Deputy Attorney General, at the White House. The Senate confirmed both Feb. 10 without a roll call. Katzenbach had been acting since September.
     n: 'The hearing: *Nomination of Nicholas deB. Katzenbach to Be Attorney General: Hearing Before the S. Comm. on the Judiciary*, 89th Cong. (1965) ([online](https://www.govinfo.gov/app/details/CHRG-89shrg43003)), 3 (Katzenbach, Feb. 8). Remarks at the Swearing In of Nicholas deB. Katzenbach as Attorney General and Ramsey Clark as Deputy Attorney General, [1965 Pub. Papers 182](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=258) (Feb. 13, 1965). [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-1965/pdf/GPO-CRECB-1965-pt2-9-2.pdf) (1965). To check: [[w.katzenbach-some-of-it-was]]. See [[cal.1964-09-03.transition-and-staff]]. Names: Katzenbach, Clark. Check: the page.'
@@ -1968,8 +1991,10 @@ entries:
     when: Feb. 13
     date: '1965-02-13'
     thread: vietnam
+    follows:
+      - cal.1965-02-13.vietnam-2
     c: 'Johnson with Thompson, Bundy and Ball on the memorandum: he reads it, has Ball go through it point by point, thanks him and hands it back, by Ball''s account. Bundy had called Ball before to qualify the view put to him.'
-    n: '[[w.ball-past-has-another-pattern]], 391–92. To check: Ball''s notes of Bundy''s call (cited by [[w.ball-past-has-another-pattern]], 391 n.8). See [[cal.1965-02-13.vietnam-2]]. Names: Johnson, Thompson, McGeorge Bundy, Ball.'
+    n: '[[w.ball-past-has-another-pattern]], 391–92. To check: Ball''s notes of Bundy''s call (cited by [[w.ball-past-has-another-pattern]], 391 n.8). On the memorandum, after it. See [[cal.1965-02-13.vietnam-2]]. Names: Johnson, Thompson, McGeorge Bundy, Ball.'
     src:
       c: 0a2a7334
       rows:
@@ -2028,6 +2053,7 @@ entries:
   - id: cal.1965-02-14.black-nationalism
     when: Feb. 14
     date: '1965-02-14'
+    time: 1965-02-14T07:46Z
     thread: black-nationalism
     c: 'East Elmhurst, Queens, 2:46 a.m. Malcolm X''s house firebombed; he gets his pregnant wife and four daughters out the back. He flies to Detroit that morning to speak: "I believe in Islam. I am a Muslim."'
     n: '[[w.branch-pillar-of-fire]], 590. To check: [[w.x-autobiography-of-malcolm-x]], 427–28 (cited by [[w.branch-pillar-of-fire]], 590); New York LHM dated Feb. 16, 1965, FMX-246 (cited by [[w.branch-pillar-of-fire]], 590); NYT, Feb. 15, 1965, p. 1 (cited by [[w.branch-pillar-of-fire]], 590); [[w.goldman-death-and-life-of]], 262–63 (cited by [[w.branch-pillar-of-fire]], 590); SAC, Detroit, to Director, Feb. 17, 1965, FMX-NR (cited by [[w.branch-pillar-of-fire]], 590); SAC, New York, to Director, Feb. 14, 1965, FMX-241 (cited by [[w.branch-pillar-of-fire]], 590); NYT, Feb. 19, 1965, p. 31 (cited by [[w.branch-pillar-of-fire]], 590); Perry, Malcolm (1991), 353 (cited by [[w.branch-pillar-of-fire]], 590); Malcolm X Detroit speech of Feb. 14, 1965, in Clark, ed., Final Speeches, p. 83 (cited by [[w.branch-pillar-of-fire]], 590). See [[cal.1964-11-24.black-nationalism]]. Names: Malcolm X.'
@@ -2202,6 +2228,7 @@ entries:
   - id: cal.1965-02-16.vietnam-3
     when: Feb. 16
     date: '1965-02-16'
+    time: 1965-02-16T18:50Z
     thread: vietnam-air-war
     c: 'Johnson with his advisers, 1:50 to 3:30 p.m., by Bundy''s notes: strike "measurably and prudently" in the North. "But bombers—I''m just hoping out of hope they''ll draw people in Saigon together. But bombers won''t bring ''em to their knees—unless we do something we wouldn''t do. We''ll be called warmongers."'
     n: '[FRUS 1964–68, II, doc. 128](https://history.state.gov/historicaldocuments/frus1964-68v02/d128) (Bundy''s personal notes). [[w.mann-grand-delusion]], 404; [[w.gibbons-u-s-government-and]], III, 106. Names: Johnson, Bundy.'
@@ -2290,6 +2317,7 @@ entries:
   - id: cal.1965-02-17.vietnam
     when: Feb. 17
     date: '1965-02-17'
+    time: 1965-02-17T19:03Z
     thread: vietnam
     c: 'Johnson to the National Industrial Conference Board: "We seek no wider war," but "our continuing actions will be those which are justified and those that are made necessary by the continuing aggression of others."'
     n: 'Remarks to the National Industrial Conference Board, [1965 Pub. Papers 202](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=278) (Feb. 17, 1965). Humphrey''s memorandum of the same day: [[cal.1965-02-17.vietnam-4]]. [[w.mann-grand-delusion]], 407–8. See [[cal.1965-02-07.vietnam]]. Names: Johnson.'
@@ -2345,6 +2373,7 @@ entries:
   - id: cal.1965-02-17.vietnam-3
     when: Feb. 17
     date: '1965-02-17'
+    time: 1965-02-17T15:00Z
     thread: vietnam-eisenhower
     c: Eisenhower with Johnson, McNamara and Wheeler in the Cabinet Room, 10 a.m.–12:30 p.m. Deny Southeast Asia to the Communists; strikes on the North to break Hanoi's will. Negotiation from weakness "likely to lead only into deceit." The Tonkin Gulf resolution like the Formosa one, ample.
     n: '[FRUS 1964–68, II, doc. 133](https://history.state.gov/historicaldocuments/frus1964-68v02/d133). [[w.gibbons-u-s-government-and]], III, 130–131 (not the hours); [[w.johns-vietnams-second-front]], 86–87 (the meeting; Eisenhower''s advice); [[w.johnson-vantage-point]], 130–31; [[w.mcnamara-in-retrospect]], ch. 7 at n.5 (Goodpaster present; two and a half hours; bombing would not end the infiltration but would weaken Hanoi''s will). [[w.mann-grand-delusion]], 408 (Eisenhower: "We cannot let the Indochinese peninsula go"; eight divisions, "so be it"); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 531; [[w.drea-mcnamara-clifford-and-the-2011]], 23 (two and a half hours; Eisenhower among those Johnson consulted). To check: Johnson and Eisenhower, Feb. 15, 1965, [Conversation WH6502-03-6839](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-dwight-eisenhower-february-16-1965) (Miller Center) (cited by [[w.johns-vietnams-second-front]], 87 n.31, from Beschloss, *Reaching for Glory*, 178, for the invitation). See [[cal.1965-02-13.vietnam]]. Names: Eisenhower, Johnson, McNamara, Wheeler.'
@@ -2420,10 +2449,13 @@ entries:
   - id: cal.1965-02-17.vietnam-congress
     when: Feb. 17
     date: '1965-02-17'
+    time: 1965-02-17T23:20Z
     thread: vietnam-congress
     also: [republican-party-congress]
+    follows:
+      - cal.1965-02-17.vietnam-2
     c: Dirksen to Johnson by telephone, 6:20 p.m. By Mann's account, Dirksen reports McGovern and Church "teeing off on your Vietnam policy" in the Senate.
-    n: '[Johnson and Dirksen, 6:20 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-everett-dirksen-february-17-1965), Conversation WH6502-04-6854; [continued](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-everett-dirksen-february-17-1965-0), WH6502-04-6855 (Miller Center). [[w.mann-grand-delusion]], 11 (the matter). See [[cal.1965-02-17.vietnam-2]]. Names: Dirksen, Johnson, McGovern, Church.'
+    n: '[Johnson and Dirksen, 6:20 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-everett-dirksen-february-17-1965), Conversation WH6502-04-6854; [continued](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-everett-dirksen-february-17-1965-0), WH6502-04-6855 (Miller Center). [[w.mann-grand-delusion]], 11 (the matter). After the Senate''s debate, which Dirksen reports. See [[cal.1965-02-17.vietnam-2]]. Names: Dirksen, Johnson, McGovern, Church.'
     src:
       c: f8a12760
       rows:
@@ -2544,6 +2576,7 @@ entries:
   - id: cal.1965-02-18.economy-2
     when: Feb. 18
     date: '1965-02-18'
+    time: 1965-02-18T18:40Z
     thread: economy
     also: [trade]
     c: Johnson asks the business and banking leaders at the White House for their help on the balance of payments.
@@ -2570,6 +2603,7 @@ entries:
   - id: cal.1965-02-18.vietnam-2
     when: Feb. 18
     date: '1965-02-18'
+    time: 1965-02-18T22:20Z
     thread: vietnam-air-war
     c: NSC, 5:20 p.m. McNamara for the strikes on the southern part of the North that the Saigon mission and Khánh ask; Rusk for strikes that weekend, and against going to the Security Council now. Rolling Thunder I ordered for Feb. 20.
     n: '[FRUS 1964–68, II, doc. 140](https://history.state.gov/historicaldocuments/frus1964-68v02/d140) (Cooper''s memorandum). [[w.staaveren-gradual-failure]], 81 (the decision; the order for Feb. 20). To check: Msg, JCS to CINCPAC, 182327Z Feb 65 (cited by [[w.staaveren-gradual-failure]], 81 n.33, for the order). See [[cal.1965-02-13.vietnam]]. Names: McNamara, Nguyễn Khánh, Rusk.'
@@ -2672,8 +2706,10 @@ entries:
     when: Feb. 18
     date: '1965-02-18'
     thread: vietnam-air-war
+    follows:
+      - cal.1965-02-18.vietnam-2
     c: 'After the NSC agrees on a new round, the Joint Chiefs send CINCPAC the execute order for Rolling Thunder I, Feb. 20: American planes on the Quảng Khê naval base, Vinh Linh and Vit Thu Lu barracks the weather alternates; the VNAF on Vu Con barracks or Đồng Hới airfield. Called off after the coup attempt of Feb. 19, the VNAF caught up in it.'
-    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 226–27. To check: JCS 5555 to CINCPAC, Feb. 18, 1965 (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 226 n.14); JCS 5572 to CINCPAC, Feb. 19, 1965 (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 227 n.15). See [[cal.1965-02-13.vietnam]].'
+    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 226–27. To check: JCS 5555 to CINCPAC, Feb. 18, 1965 (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 226 n.14); JCS 5572 to CINCPAC, Feb. 19, 1965 (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 227 n.15). After the NSC: [[cal.1965-02-18.vietnam-2]]. See [[cal.1965-02-13.vietnam]].'
     src:
       c: e2010cc3
       rows:
@@ -2705,6 +2741,8 @@ entries:
   - id: cal.1965-02-19.vietnam
     when: Feb. 19
     date: '1965-02-19'
+    time: 1965-02-19T05:00Z
+    time_approx: true
     thread: vietnam-saigon
     c: Saigon. General Phát and Colonel Thảo move against Khánh, tanks in the city; the coup collapses by the next morning.
     n: '[FRUS 1964–68, II, doc. 141](https://history.state.gov/historicaldocuments/frus1964-68v02/d141); [doc. 148](https://history.state.gov/historicaldocuments/frus1964-68v02/d148). [[w.gibbons-u-s-government-and]], III, 109–10 (not the tanks); [[w.cosmas-joint-chiefs-of-staff-2012]], 206–07; [[w.marolda-united-states-navy-and]], 504 (the attempt against Khánh, Feb. 19, short-lived); [[w.futrell-united-states-air-force]], 267 (the revolt against Khánh, Feb. 19; loyal troops clear Saigon); [[w.moyar-triumph-forsaken]], 363–64; [[w.branch-pillar-of-fire]], 595; [[w.taylor-swords-and-plowshares]], 336 (Phát''s second attempt, its failure). [[w.westmoreland-soldier-reports]], 96–97 (the coup; Westmoreland back from the Delta with Forrestal, at the embassy; his call to Kỳ to stop his planes buzzing the city; the collapse by daylight). Check: Van Staaveren dates Thảo''s move against Khánh Feb. 18, 1 p.m., Saigon time (81–82). To check: [[w.karnow-vietnam]], 401 (cited by [[w.branch-pillar-of-fire]], 595). See [[cal.1965-02-16.vietnam]]. Names: Lâm Văn Phát, Phạm Ngọc Thảo, Nguyễn Khánh.'
@@ -2728,8 +2766,10 @@ entries:
     date: '1965-02-19'
     thread: vietnam-diplomacy
     also: [europe-and-the-alliance-france]
+    follows:
+      - cal.1965-02-19.vietnam-4
     c: 'Couve de Murville with Johnson at the White House: Hanoi readier than Peking to negotiate, Peking likely to agree. Johnson: no running out on South Vietnam; "I''m not going to write the Vietcong a thank-you note for killing American boys at Pleiku."'
-    n: '[[w.logevall-choosing-war]], 357 (the meeting; the words). [[w.preston-war-council]], 183 (Bundy at the meeting: France thinks there can be no stable government while the United States stays, "while we think that there can be no solution if we leave"). To check: Memcon, Feb. 19, 1965, NSF VN, LBJ Library (cited by [[w.logevall-choosing-war]], 357 n.50); memcon, Feb. 19, 1965, FRUS 1964–68, II, 332 (cited by [[w.preston-war-council]], 183 n.63). See [[cal.1965-02-07.vietnam]]. Names: Couve de Murville, Johnson.'
+    n: '[[w.logevall-choosing-war]], 357 (the meeting; the words). [[w.preston-war-council]], 183 (Bundy at the meeting: France thinks there can be no stable government while the United States stays, "while we think that there can be no solution if we leave"). To check: Memcon, Feb. 19, 1965, NSF VN, LBJ Library (cited by [[w.logevall-choosing-war]], 357 n.50); memcon, Feb. 19, 1965, FRUS 1964–68, II, 332 (cited by [[w.preston-war-council]], 183 n.63). After Bundy''s memorandum for the meeting: [[cal.1965-02-19.vietnam-4]]. See [[cal.1965-02-07.vietnam]]. Names: Couve de Murville, Johnson.'
     src:
       c: a1368382
       rows:
@@ -2807,8 +2847,10 @@ entries:
     when: Feb. 19
     date: '1965-02-19'
     thread: vietnam-saigon
+    follows:
+      - cal.1965-02-19.vietnam
     c: '"One Dove''s Lament," Thomson to Bundy, after the coup: the air strikes seen "as a substitute for political stability in Saigon"; sustained reprisals "greater risks than we have any right to take"; "the only rational alternative remains negotiations," with Thant, the Vatican and "the thoughtful press." "Our national interest now demands that we find ourselves a face-saving avenue of retreat."'
-    n: '[[w.preston-war-council]], 187; [[w.gibbons-u-s-government-and]], III, 96. To check: Thomson to Bundy, Feb. 19, 1965, NSF, Country File, Vietnam, box 14, LBJ Library (cited by [[w.preston-war-council]], 187 n.73). See [[cal.1965-02-19.vietnam]]. Names: Thomson, Bundy, U Thant.'
+    n: '[[w.preston-war-council]], 187; [[w.gibbons-u-s-government-and]], III, 96. To check: Thomson to Bundy, Feb. 19, 1965, NSF, Country File, Vietnam, box 14, LBJ Library (cited by [[w.preston-war-council]], 187 n.73). After the coup''s start. See [[cal.1965-02-19.vietnam]]. Names: Thomson, Bundy, U Thant.'
     src:
       c: 93c37b43
       rows:
@@ -3284,6 +3326,8 @@ entries:
   - id: cal.1965-02-24.vietnam-3
     when: Feb. 24
     date: '1965-02-24'
+    time: 1965-02-25T03:00Z
+    time_approx: true
     thread: vietnam-diplomacy
     c: 'Rusk telephones U Thant at about 10 p.m.: "quite a reaction in Washington" to his implication that the truth was being withheld from the American people; his proposals for talks "procedural" rather than "substantive."'
     n: '[FRUS 1964–68, II, doc. 161](https://history.state.gov/historicaldocuments/frus1964-68v02/d161) (editorial note: Rusk''s call; the memorandum of it, *Papers of Adlai E. Stevenson*, VIII, 664–65; Yost to see Thant, Feb. 25, doc. [164](https://history.state.gov/historicaldocuments/frus1964-68v02/d164)). [[w.herring-lbj-and-vietnam]], 93 (Rusk aware of Thant''s proposals, in private; in public, in a press conference, the proposals "procedural"). Check: Herring has the word "procedural" from Rusk''s press conference; FRUS''s note, from the call. See [[cal.1964-08-06.vietnam-2]]. Names: Rusk, U Thant.'
@@ -3462,6 +3506,7 @@ entries:
   - id: cal.1965-02-26.vietnam-2
     when: Feb. 26
     date: '1965-02-26'
+    time: 1965-02-26T14:10Z
     thread: vietnam-air-war
     c: 'Johnson and McNamara by telephone, 9:10 a.m.: "The game now is in the fourth quarter and it''s about 78 to nothing." On the bombing: "Now we''re off to bombing those people and we''re over that hurdle. And I don''t think anything is gonna be as bad as losing, and I don''t see any way of winning."'
     n: '[Johnson and McNamara, 9:10 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-february-26-1965), Conversation WH6502-06-6887 (Miller Center). [[w.branch-at-canaans-edge]], 16–17 (the words). See [[cal.1965-02-26.vietnam]]. Names: Johnson, McNamara.'
@@ -3475,6 +3520,7 @@ entries:
   - id: cal.1965-02-26.voting-rights-selma
     when: Feb. 26
     date: '1965-02-26'
+    time: 1965-02-26T14:10Z
     thread: voting-rights-selma
     c: 'Jimmie Lee Jackson dies at 8:10 a.m. Bevel and Lafayette with his family outside Marion: keep marching. That night at Brown Chapel Bevel, from Esther: "I must go see the king!" "Be prepared to walk to Montgomery!"'
     n: '[[w.branch-pillar-of-fire]], 599; [[w.kotz-judgment-days]], 276–77 (8:10 a.m., aged twenty-six; Cager Lee: "Oh, yeah"; Bevel: "Be prepared to walk to Montgomery"). Check: the day of the sermon; Branch: Fager gives Feb. 28, Roy Reed''s Times account Feb. 26 (599 n.). To check: Int. Bernard Lafayette, May 28, 1990 (cited by [[w.branch-pillar-of-fire]], 599); Fager, Selma 1965 (1985), 82–83 (cited by [[w.branch-pillar-of-fire]], 599); Hampton, Voices of Freedom, 226 (cited by [[w.branch-pillar-of-fire]], 599); NYT, Feb. 27, 1965, p. 10 (cited by [[w.branch-pillar-of-fire]], 599). See [[cal.1965-02-18.voting-rights]]. Names: Jackson.'
