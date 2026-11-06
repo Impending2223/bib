@@ -144,7 +144,7 @@ entries:
     thread: elections-1964
     also: [republican-party]
     c: Nixon announces he is leaving California for New York, to practice law; an apartment at 810 Fifth Avenue, the building of Rockefeller's.
-    n: '[[w.white-suite-3505]], 146; [[w.white-making-of-the-president-1969]], 43 (Bobst and Kendall; Mudge, Stern, Baldwin & Todd; five floors below Rockefeller); [[w.goldberg-barry-goldwater]], 171 (two days before Rockefeller''s marriage, Nixon leaves California for New York and a law practice); [[w.novak-agony-of-the-g]], 167 (a Wall Street lawyer; 810 Fifth Avenue, beside Rockefeller''s 812). Names: Nixon, Rockefeller.'
+    n: '[[w.white-suite-3505]], 146; [[w.white-making-of-the-president-1969]], 43 (Bobst and Kendall; Mudge, Stern, Baldwin & Todd; five floors below Rockefeller); [[w.goldberg-barry-goldwater]], 171 (two days before Rockefeller''s marriage, Nixon leaves California for New York and a law practice); [[w.novak-agony-of-the-g]], 167 (a Wall Street lawyer; 810 Fifth Avenue, beside Rockefeller''s 812); [[w.perlstein-before-the-storm]], 198 (May 2; a Wall Street law firm). Names: Nixon, Rockefeller.'
     src:
       c: a3346d78
       rows:
@@ -152,6 +152,7 @@ entries:
         - 'w.white-making-of-the-president-1969 43: ?'
         - 'w.goldberg-barry-goldwater 171: A'
         - 'w.novak-agony-of-the-g 167: A-B'
+        - 'w.perlstein-before-the-storm 198: A'
     tags: [name:nixon-richard-m, name:rockefeller-nelson, city:nyc]
   - id: cal.1963-05-02.alabama-birmingham
     when: May 2
@@ -2672,11 +2673,12 @@ entries:
     thread: elections-1964
     also: [goldwater]
     c: 'Kennedy to Bradlee, of Goldwater: "The trouble is, if he''s the nominee, people will start asking him questions, and he''s so damn quick on the trigger that he will answer them. And when he does, it will be all over."'
-    n: '[[w.goldberg-barry-goldwater]], 178 ("as early as May 1963"). Check: the day. To check: [[w.bradlee-conversations-with-kennedy]], 230 (cited by [[w.goldberg-barry-goldwater]], 178 n.170). Names: Kennedy, Bradlee, Goldwater.'
+    n: '[[w.goldberg-barry-goldwater]], 178 ("as early as May 1963"); [[w.perlstein-before-the-storm]], 204 (at dinner at the White House, Bradlee telling of *Newsweek*''s coming cover on Goldwater: "I can''t believe we''ll be that lucky"). Check: the day. Check: Perlstein, 204, puts the dinner after the truce of May 10 and the day before the Klan''s rally and the bombings of May 11 (May 10), and quotes "so damned quick on the trigger ... it will be over.". To check: [[w.bradlee-conversations-with-kennedy]], 230 (cited by [[w.goldberg-barry-goldwater]], 178 n.170). Names: Kennedy, Bradlee, Goldwater.'
     src:
       c: c3a24818
       rows:
         - 'w.goldberg-barry-goldwater 178: all'
+        - 'w.perlstein-before-the-storm 204: A'
     tags: [name:kennedy-john-f, name:bradlee-benjamin-c, name:goldwater-barry-m]
   - id: cal.1963-05.europe-and-the-alliance
     when: May, late
@@ -2836,3 +2838,17 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 292: all'
     tags: [name:reischauer-edwin-o]
+  - id: cal.1963-05.goldwater-4
+    when: May
+    date: 1963-05
+    thread: goldwater
+    also: [elections-1964]
+    c: 'Massachusetts, an airport press conference before a speech at a prep school. Goldwater swipes at the efforts to draft him; Eisenhower and Nixon "kingmakers," boosting Romney. On Birmingham: "If I were a Negro I don''t think I would be very patient either"; the federal government not to intervene unless local officials cannot keep order.'
+    n: '[[w.perlstein-before-the-storm]], 199, 203. To check: [[w.novak-agony-of-the-g]], 164 (cited by [[w.perlstein-before-the-storm]], 199 n.3); *Time*, June 14, 1963 (the words on Birmingham) (cited by [[w.perlstein-before-the-storm]], 203 n.2). Check: the day; and whether the words on Birmingham were said at the same stop. Names: Goldwater, Eisenhower, Nixon, Romney.'
+    src:
+      c: d1d559f7
+      rows:
+        - 'w.perlstein-before-the-storm 199: A-B'
+        - 'w.perlstein-before-the-storm 203: C-D'
+        - 'via w.perlstein-before-the-storm 203 n.2b: C-D'
+    tags: [name:goldwater-barry-m, name:eisenhower-dwight-d, name:nixon-richard-m, name:romney-george-w, state:ma]

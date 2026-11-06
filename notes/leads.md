@@ -724,12 +724,7 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
 
 ### Perlstein, *Before the Storm*, and Johns, *Vietnam's Second Front* (the book agent, Oct. 24, 2026; notes/book-checks/perlstein-before-the-storm.md, johns-vietnams-second-front.md)
 
-- White's group, its second meeting, December 1961 (Perlstein, 179: the map without the Northeast; 637 of 655 votes "in the bag"): no day; White, *Suite 3505*; the *San Francisco Examiner*, Dec. 4, 1961 (his note, 187). Rusher and Thone's call on Goldwater, late 1961 (179): no day.
-- Goldwater voted off the Senate Republican Policy Committee, the morning of Jan. 14, 1963 (Perlstein, 189): the conference's minutes or the press.
-- The Phoenix Country Club meeting on the draft, December 1962 (Perlstein, 189; Kitchel's "Questions," Dec. 23, 1962).
-- The Illinois delegation's caucus at the O'Hare Inn: Dirksen to nominate Goldwater, 48 for him (Perlstein, 365), June–July 1964: no day; Scranton's call on Dirksen in Washington (365; White, *Suite 3505*, 373).
-- The Manchester Armory rally, Mar. 6, 1964, with Zimbalist, Brennan and Reagan on film (Perlstein, 297). The Senate's vote to reopen the Baker inquiry, Sept. 10, 1964, 75–3, and its postponement, Oct. 12 (Perlstein, 438; the Record).
-- Burch's reply on NBC, Oct. 19, 1964, after the networks refused equal time (Perlstein, 493–94): the FCC's ruling and the D.C. Circuit's.
+- The FCC's and the D.C. Circuit's rulings on Burch's demand for equal time, October 1964 (Perlstein, 493): not read; `cal.1964-10-19.republican-party` holds the event.
 - The Republican joint leadership's statement on bipartisanship, May 31, 1963 (Johns, 31); Bob Wilson's "Kennedy Klan" speech, Oct. 2, 1963 (37); Goldwater's Pikesville speech, "Lyndon Johnson's war," Sept. 1964 (71): days and texts.
 - Laird's speech of Jan. 29, 1966 (Johns, n. 110 to 105); the Republican Policy Committee's statement on the Democrats' divisions, Mar. 2, 1966 (108); Eisenhower's call to Johnson, Oct. 3, 1966 (116; DDE Post-Presidential Papers).
 - Javits's change on the war, Feb. 12, 1967, and Morton's "I was wrong," August 1967 (Johns, 139); Findley's resolution to send the war to the World Court, May 19, 1967 (154); Laird's House speech, July 17, 1967 (157); Laird's speech of Sept. 11, 1967 and Dirksen's demand for a resolution of support at the Coordinating Committee, Laird and Ford against (171): the Record and the Committee's papers.
@@ -1767,9 +1762,16 @@ From the re-ruling of the "minor" rows (Oct. 29, 2026):
 - Cox's speech proposing a delay of vital price and wage increases (the book, 406): its day and place (the book: June 1962, the day the market fell). Robert Kennedy's defense of it at the White House, by Cox's account: its day.
 - Kennedy to Galbraith, Nov. 1961, "limits to the number of defeats" (the book, 705; Galbraith's interview of 1977): its day.
 
-### Stein, *The Fiscal Revolution in America*, back-fill (the back-fill agent, Oct. 29, 2026; notes/book-checks/perlstein-before-the-storm.md)
+### Perlstein, *Before the Storm*, back-fill (the back-fill agent, Oct. 29, 2026; notes/book-checks/perlstein-before-the-storm.md)
 
-The "to leads" rows above are the leads, each with what it wants. The chief of them, by kind: the White House recordings Perlstein cites by tape (Johnson with Russell on the missiles, Jan. 1964; with McNamara on Lodge, Mar. 1964; with Connally, May 1964; with Humphrey, July 1964; with Smathers, Aug. 2, and Anderson, Aug. 4, 1964; with Eisenhower, Oct. 1964), to be found in the Miller Center's catalogue (`daybook/recordings/`); the Record's days for Fulbright's speeches on Goldwaterism (July 1964) and Goldwater's remarks of Sept. 20 and Oct. 1, 1963; the convention's *Proceedings* of 1964 (borrow only) for the credentials committee's and the platform's votes; the dates the book does not give of the national committee's Seattle meeting (June 1962), Eisenhower's All-Republican Conference (1962), the women's federation's conventions (1962, 1963), Young Americans for Freedom's fourth convention (1964) and the Republican Assembly's convention of 1964; and the events of the other parts' threads to check against the calendar (Lodge's resignation, June 23, 1964; Johnson in New England, Sept. 28, 1964; Johnson's address of Oct. 24, 1964; Berkeley, Oct. 1964).
+The leads left after batch 5 (Nov. 5, 2026; notes/book-checks/perlstein-before-the-storm.md):
+
+- Laird's drafting of the platform of 1964 (367): no day or month in Perlstein; the platform committee's and the convention's *Proceedings* (borrow only).
+- Fulbright's Senate speeches on Goldwaterism, "the closest thing in American politics to an equivalent of Russian Stalinism" (392–93): the Record's days (his note: Record copies in an LBJ Library folder, "October 16 to October 26").
+- Brooke's "Our overriding, overwhelming distrust of big government" (515): from his *The Challenge of Change* (1966), by Kessel; the book's day.
+- The FCC's and the D.C. Circuit's rulings on Burch's demand for equal time, October 1964 (493): not read; `cal.1964-10-19.republican-party` holds the event.
+- The recordings entered by Perlstein's tapes and not heard here (millercenter.org fails TLS verification from this environment): Russell, Jan. 10, 1964, WH6401-10-1303 (`cal.1964-01-10.defense`); Smathers, WH6408-01-4604, catalogued Aug. 1, 1964, against Perlstein's Aug. 2 (`cal.1964-08-01.elections-1964-johnson`); and those Perlstein cites only by *Taking Charge*: Johnson and McNamara on Lodge, March 1964 (296), Humphrey and Johnson, July 1964 (366), Johnson and Eisenhower on the 707, October 1964 (437).
+- Johnson's televised address to schoolchildren, Oct. 24, 1964 (497–98): no item of the Public Papers of Oct. 23–25 prints it; the record to find.
 
 ### Zelizer, *Taxing America*, back-fill (the back-fill agent, Oct. 29, 2026; notes/book-checks/zelizer-taxing-america.md)
 
@@ -1850,7 +1852,6 @@ Foreign:
 - Kennedy on retraining textile and garment workers, New York, Oct. 12, 1960 (Gifford, 163): the APP record.
 - South Carolina's Republicans impound the State's ballots after the election (Gifford, 165; Shorey to Gifford, 2004).
 - Bridges: Nixon threw away a won election (cited by Valiukas to Hermann, Jan. 1, 1961; Gifford, 193): the day.
-- Lodge, Milton Eisenhower and Romney before the Republican platform committee, July 1964 (Gifford, 145; Blair, 112; Perlstein, 374): the day.
 - A *U.S. News* poll of May 1960, Nixon the choice of 84 percent of Republicans (Gifford, 43), and Gallup's of late April 1960 on which party does more for Negroes (Gifford, 70): whether the Opinion thread wants them.
 
 ### Herring, *LBJ and Vietnam* (the reading agent, Oct. 28, 2026; notes/book-checks/herring-lbj-and-vietnam.md)
