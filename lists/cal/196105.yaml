@@ -860,6 +860,7 @@ entries:
   - id: cal.1961-05-05.cuba-bay-of-pigs
     when: May 5
     date: '1961-05-05'
+    time: 1961-05-05T19:30Z
     thread: cuba-bay-of-pigs
     c: 'Kennedy''s news conference, asked whether Fulbright''s frank statements embarrass him: no; they have talked five times in four or five weeks. "I think his counsel is useful and I think that he should say what he thinks."'
     n: 'The President''s News Conference, [1961 Pub. Papers 354](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=412) (May 5, 1961). [[w.woods-fulbright]], 270. To check: Leslie Carpenter, "Fulbright Rates High in Councils at White House," *Arkansas Gazette*, May 21, 1961 (cited by [[w.woods-fulbright]], 270 n.27). See [[cal.1961-05-04.cuba-bay-of-pigs-3]]. Names: Kennedy, Fulbright.'
@@ -870,12 +871,7 @@ entries:
         - 'w.woods-fulbright 270: all'
         - 'w.woods-fulbright 270: B'
     tags: [name:kennedy-john-f, name:fulbright-j-william]
-    time_range:
-      - 1961-05-05T13:00Z
-      - 1961-05-05T21:00Z
-    time_band: workday daytime
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1961-05-05.korea
     when: May 5
     date: '1961-05-05'
@@ -2615,6 +2611,8 @@ entries:
     date: '1961-05-21'
     thread: freedom-rides
     also: [robert-kennedy, alabama]
+    follows:
+      - cal.1961-05-21.freedom-rides
     c: 'During the siege. Patterson to Robert Kennedy: the demonstration endangers his political career. Kennedy: "John, it''s more important that those people in the church survive physically than for us to survive politically."'
     n: '[[w.thomas-robert-kennedy]], 132. To check: Salinger, Guthman, Mankiewicz and Seigenthaler, eds., *An Honorable Profession*, 20–21 (cited by [[w.thomas-robert-kennedy]], 132). See [[cal.1961-05-21.freedom-rides]]. Names: Patterson, Robert Kennedy.'
     src:

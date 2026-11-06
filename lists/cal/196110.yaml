@@ -743,6 +743,7 @@ entries:
   - id: cal.1961-10-11.foreign-aid
     when: Oct. 11
     date: '1961-10-11'
+    time: 1961-10-11T20:30Z
     thread: foreign-aid
     c: 'News conference. The signing statement''s words on the needs of countries that share "our view of the world crisis," explained: that view is that countries are entitled to national sovereignty and independence; no string of agreement attached to the aid.'
     n: 'The President''s News Conference, [1961 Pub. Papers 656](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=714) (Oct. 11, 1961), at 661. [[w.sorensen-kennedy]], 538 (the statement written in anger at Belgrade; the answer). See [[cal.1961-09-04.foreign-aid]]. Names: Kennedy.'
@@ -752,12 +753,7 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=714: all'
         - 'w.sorensen-kennedy 538: all'
     tags: [name:kennedy-john-f]
-    time_range:
-      - 1961-10-11T13:00Z
-      - 1961-10-11T21:00Z
-    time_band: workday daytime
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1961-10-11.vietnam-2
     when: Oct. 11
     date: '1961-10-11'
@@ -1118,8 +1114,10 @@ entries:
     when: Oct. 17
     date: '1961-10-17'
     thread: testing
+    follows:
+      - cal.1961-10-17.berlin-and-vienna
     c: 'White House statement: the Soviet Union reported to plan a fifty-megaton explosion, asked to reconsider; the United States able since 1957 to make bombs of 50 to 100 megatons, but they are not needed; such a test "could only serve some unconfessed political purpose."'
-    n: White House Statement Concerning Soviet Plans To Test a 50-Megaton Bomb, [1961 Pub. Papers 674](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=732) (Oct. 17, 1961). [[w.sorensen-kennedy]], 620 (the public appeal not to test a fifty-megaton bomb). See [[cal.1961-09-05.testing]].
+    n: 'White House Statement Concerning Soviet Plans To Test a 50-Megaton Bomb, [1961 Pub. Papers 674](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=732) (Oct. 17, 1961). [[w.sorensen-kennedy]], 620 (the public appeal not to test a fifty-megaton bomb). After Khrushchev''s announcement to the Party Congress: [[cal.1961-10-17.berlin-and-vienna]]. See [[cal.1961-09-05.testing]].'
     src:
       c: e79df228
       rows:
@@ -1732,6 +1730,8 @@ entries:
     time: 1961-10-28T03:30Z
     thread: robert-kennedy
     also: [berlin-and-vienna, soviet-union]
+    follows:
+      - cal.1961-10-27.berlin-and-vienna
     c: '11:30 p.m., the tanks at Checkpoint Charlie. Robert Kennedy to Bolshakov: "The situation in Berlin has become more difficult"; Gromyko refused the ambassador''s declaration that day; a period of "relative moderation and calm over the course of the next 4–6 weeks." Bolshakov cables it to Moscow; next morning Khrushchev pulls back his tanks.'
     n: '[[w.fursenko-khrushchevs-cold-war]], 404. Check: no trace of the cable in the Kremlin''s archives; Robert Kennedy''s date diary has no record of the meeting (404, 404 n.70). See [[cal.1961-10-27.berlin-and-vienna]]. Names: Robert Kennedy, Bolshakov, Gromyko.'
     src:

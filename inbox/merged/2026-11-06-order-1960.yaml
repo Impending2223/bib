@@ -1,0 +1,166 @@
+# The day's order for 1960, round 4 (notes/briefs/times.md, "Round 4"). Additive follows and checks;
+# edits with fresh bases for ranges and times. Rebuilt by build_patch.py from decisions-1960.yaml.
+patch: order-1960
+by: Claude (day's order reviewer, round 4, 1960; notes/briefs/times.md)
+ops:
+- edit:
+    id: cal.1960-03-30.states-and-cities-2
+    base: 10ddc8f3
+    set:
+      time_range:
+      - 1960-03-30T23:00Z
+      - 1960-03-31T08:00Z
+      time_zone: America/New_York
+- edit:
+    id: cal.1960-04-05.elections-1960-2
+    base: 78e839f5
+    set:
+      follows:
+      - cal.1960-04-05.elections-1960
+      n: '[[w.kallina-kennedy-v-nixon]], 59; [[w.thomas-robert-kennedy]], 93 (Robert Kennedy at Cronkite after the broadcast; his call to Watson; the Columbia analysts told to justify their results, and their leaving CBS). [[w.sorensen-kennedy]], 137 n.2 (Roper on CBS). After the polls closed, by the sources cited. To check: Transcript, "What Happened in Wisconsin," CBS-TV, Apr. 5, 1960, RFK Papers, JFK Library (cited by [[w.kallina-kennedy-v-nixon]], 59 n.28). See [[cal.1960-04-05.elections-1960]]. Names: Cronkite, Kennedy, Robert Kennedy, Kirk, Stanton. Check: the day of Kennedy''s call to Stanton; Kallina gives none (59).'
+- edit:
+    id: cal.1960-04-05.elections-1960-3
+    base: 079232ae
+    set:
+      follows:
+      - cal.1960-04-05.elections-1960
+      n: '[[w.humphrey-education-of-a-public-1976]], 211–12; [[w.solberg-hubert-humphrey]], 208 (primary night in Milwaukee: "I''ve paid a $1,000 filing fee"; going on); [[w.white-making-of-the-president]], 95–96 (Humphrey''s night at the Kaiser-Knickerbocker; the pressure to withdraw from Rose, Reuther, Brown through Freeman, and Rowe). After the returns, by the sources cited. See [[cal.1960-04-05.elections-1960]]. Names: Humphrey, Kennedy.'
+- edit:
+    id: cal.1960-05-05.soviet-union-u2
+    base: a0a4dcf1
+    set:
+      time_range:
+      - 1960-05-05T06:00Z
+      - 1960-05-05T16:00Z
+      time_zone: Europe/Moscow
+      n: '[FRUS 1958–60, X, pt. 1, doc. 147](https://history.state.gov/historicaldocuments/frus1958-60v10p1/d147) (editorial note). [[w.fursenko-khrushchevs-cold-war]], 273–74; [[w.dobrynin-in-confidence]], 40 (Malik''s slip at a reception; Thompson''s cable). Check: Dobrynin has Thompson''s cable reach Washington "minutes too late" to amend its version, and Khrushchev, enraged, remove Malik from his post and from the party, then pardon him at Gromyko''s plea after three weeks (40–41). After Khrushchev''s speech, by the sources cited. Before Thompson''s cable of 7 p.m., Moscow, by the sources cited. See [[cal.1960-05-01.soviet-union]]. Names: Malik, Thompson.'
+    unset:
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1960-05-10.elections-1960-4
+    base: d825700c
+    set:
+      follows:
+      - cal.1960-05-10.elections-1960-2
+      n: '[[w.thomas-robert-kennedy]], 95–96. After the withdrawal: [[w.schlesinger-robert-kennedy-and-his]], 202 (Rauh''s account); [[w.humphrey-education-of-a-public-1976]], 220–21 (about midnight). To check: Joseph Rauh oral history, LBJ Library (cited by [[w.thomas-robert-kennedy]], 96). See [[cal.1960-05-10.elections-1960-2]]. Names: Robert Kennedy, Humphrey, Rauh.'
+- follows:
+    id: cal.1960-05-15.soviet-union-u2
+    add:
+    - cal.1960-05-15.soviet-union
+- edit:
+    id: cal.1960-07-24.republican-party-4
+    base: b9456041
+    set:
+      time_range:
+      - 1960-07-25T05:00Z
+      - 1960-07-25T11:00Z
+      time_zone: America/Chicago
+- edit:
+    id: cal.1960-11-08.elections-1960-6
+    base: ebc48991
+    set:
+      time_range:
+      - 1960-11-08T14:00Z
+      - 1960-11-08T20:00Z
+      time_band: morning
+      time_zone: America/Los_Angeles
+      n: '[[w.nixon-six-crises]], 376–77. [[w.white-making-of-the-president]], 317–18. The morning: in time for the afternoon papers, by the sources cited. Names: Nixon, Pat Nixon.'
+- edit:
+    id: cal.1960-11-08.elections-1960-7
+    base: fb265ddb
+    set:
+      time_range:
+      - 1960-11-08T14:00Z
+      - 1960-11-09T01:00Z
+      time_zone: America/Los_Angeles
+      follows:
+      - cal.1960-11-08.elections-1960-6
+      n: '[[w.nixon-six-crises]], 377–79. After the Nixons voted, by Nixon''s account ([[w.nixon-six-crises]], 376–79). Names: Nixon.'
+- edit:
+    id: cal.1960-07-02.amendments
+    base: 67f117db
+    set:
+      time_range:
+      - 1960-07-02T04:00Z
+      - 1960-07-02T12:33Z
+      time_zone: America/New_York
+      n: '[106 Cong. Rec. 15,678–79, 15,686](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt12/pdf/GPO-CRECB-1960-pt12-2-1.pdf) (1960). The Senate sat through the night of July 1 and adjourned at 8:33 a.m., July 2: [Daily Digest, 106 Cong. Rec. D432](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=430) (1960). To check: [[w.kyvig-explicit-and-authentic-acts]]; [[w.harrison-on-account-of-sex]]. Names: Johnson, Hayden, Butler.'
+    unset:
+    - time_band
+    - range_basis
+- check:
+    id: cal.1960-07-02.amendments
+    text: 'Check: the hour on the Record''s pages; before midnight, the act is July 1''s.'
+- edit:
+    id: cal.1960-01-13.voting-rights
+    base: e8182ec4
+    set:
+      time_range:
+      - 1960-01-13T15:33Z
+      - 1960-01-13T16:02Z
+      time_zone: America/New_York
+    unset:
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1960-02-03.defense
+    base: 95f16429
+    set:
+      time_range:
+      - 1960-02-03T15:29Z
+      - 1960-02-03T16:02Z
+      time_zone: America/New_York
+    unset:
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1960-02-17.defense
+    base: d2b1af1b
+    set:
+      time_range:
+      - 1960-02-17T15:29Z
+      - 1960-02-17T16:02Z
+      time_zone: America/New_York
+    unset:
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1960-03-16.sit-ins
+    base: 45d6cb9e
+    set:
+      time_range:
+      - 1960-03-16T15:30Z
+      - 1960-03-16T16:00Z
+      time_zone: America/New_York
+    unset:
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1960-05-11.soviet-union-u2-2
+    base: 71b53133
+    set:
+      time_range:
+      - 1960-05-11T14:27Z
+      - 1960-05-11T15:01Z
+      time_zone: America/New_York
+    unset:
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1960-08-24.elections-1960
+    base: 54aa32f7
+    set:
+      time_range:
+      - 1960-08-24T14:30Z
+      - 1960-08-24T15:01Z
+      time_zone: America/New_York
+    unset:
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1960-06-27.japan-and-korea-far-east
+    base: 989f4b58
+    set:
+      time: 1960-06-27T23:30Z
+      time_zone: America/New_York
