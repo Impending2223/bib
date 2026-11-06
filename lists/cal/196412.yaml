@@ -1519,11 +1519,12 @@ entries:
     date: '1964-12-19'
     thread: war-opposition
     c: New York, Washington Square. Some 1,000 hear Norman Thomas, Muste and A. Philip Randolph call for an end to the war; organized by McReynolds of the War Resisters League, Muste, the Committee for Nonviolent Action and the Fellowship of Reconciliation. Demonstrations also in Boston, Philadelphia, Chicago, San Francisco and Seattle.
-    n: '[[w.zaroulis-who-spoke-up]], 26. Names: Muste, Randolph.'
+    n: '[[w.zaroulis-who-spoke-up]], 26; [[w.debenedetti-american-ordeal]], 100 (nearly two thousand in nine cities; Baez and some 600 at San Francisco; Thomas, Muste, Randolph and Ochs before a thousand in New York). Names: Muste, Randolph.'
     src:
       c: e8f8339e
       rows:
         - 'w.zaroulis-who-spoke-up 26: all'
+        - 'w.debenedetti-american-ordeal 100: ?'
     tags: [name:muste-a-j, name:randolph-a-philip, state:ny, city:nyc]
   - id: cal.1964-12-20.vietnam
     when: Dec. 20
@@ -2158,11 +2159,12 @@ entries:
     thread: students
     also: [war-opposition]
     c: 'New York, Cloakmakers'' Hall. Students for a Democratic Society''s National Council, after I. F. Stone on the war: SDS to organize a march on Washington against it, Apr. 17, Easter weekend, open to all.'
-    n: '[[w.zaroulis-who-spoke-up]], 27, 32. Check: the days of the meeting. Names: Stone.'
+    n: '[[w.zaroulis-who-spoke-up]], 27, 32; [[w.debenedetti-american-ordeal]], 100 (Stone with the national council, dated Dec. 30; seven hours; Gitlin''s draft refusal set aside for an Easter march, SDS the sole sponsor). Check: the days of the meeting. Check: DeBenedetti, 100, dates Stone''s meeting with the national council Dec. 30. Names: Stone.'
     src:
       c: 388e3c95
       rows:
         - 'w.zaroulis-who-spoke-up 27, 32: all'
+        - 'w.debenedetti-american-ordeal 100: ?'
     tags: [name:stone-i-f, state:ny, city:nyc]
   - id: cal.1964-12-30.legislatures-mo
     when: Dec. 30
@@ -2675,3 +2677,15 @@ entries:
       rows:
         - 'w.cohen-american-pharaoh 324: all'
     tags: [state:il, city:chicago, name:daley-richard-j, name:kerner-otto]
+  - id: cal.1964-12.war-opposition
+    when: Dec.
+    date: 1964-12
+    thread: war-opposition
+    also: [press-and-broadcasting]
+    c: 'Lippmann, a column: Americans must "pay something" for the "grievous mistake" of intervening in Indochina.'
+    n: '[[w.debenedetti-american-ordeal]], 102. Check: the day. Names: Lippmann.'
+    src:
+      c: 46ecc3b2
+      rows:
+        - 'w.debenedetti-american-ordeal 102: all'
+    tags: [name:lippmann-walter]

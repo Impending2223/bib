@@ -1825,7 +1825,7 @@ entries:
     thread: testing
     also: [goldwater]
     c: 'Senate consents to the treaty, [80–19](https://voteview.com/rollcall/RS0880133). Against: eleven Democrats, Russell, Stennis, and Thurmond among them; eight Republicans, Goldwater and Margaret Chase Smith among them. Goldwater''s reservation on Cuba lost the day before, [17–75](https://voteview.com/rollcall/RS0880127).'
-    n: '[109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt13/pdf/GPO-CRECB-1963-pt13-8-1.pdf) (1963). Statement by the President Following the Senate Vote on the Nuclear Test Ban Treaty, [1963 Pub. Papers 704](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=762) (Sept. 24, 1963). [FRUS 1961–63, VII, doc. 366](https://history.state.gov/historicaldocuments/frus1961-63v07/d366). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 354 (the vote); [[w.goldberg-barry-goldwater]], 175 (80–19, late September; Goldwater''s amendments defeated); [[w.sorensen-kennedy]], 739–40 (eleven Democrats, all Southerners but Lausche, and eight Republicans, all west of the Missouri but Mrs. Smith; Goldwater''s Cuba condition; "a welcome culmination"); [[w.poole-joint-chiefs-of-staff]], 105; [[w.taylor-swords-and-plowshares]], 287. To check: [[w.terchek-making-of-the-test]]. See [[cal.1963-06-10.testing]]. Names: Russell, Stennis, Thurmond, Goldwater, Smith. Check: the page.'
+    n: '[109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt13/pdf/GPO-CRECB-1963-pt13-8-1.pdf) (1963). Statement by the President Following the Senate Vote on the Nuclear Test Ban Treaty, [1963 Pub. Papers 704](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=762) (Sept. 24, 1963). [FRUS 1961–63, VII, doc. 366](https://history.state.gov/historicaldocuments/frus1961-63v07/d366). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 354 (the vote); [[w.goldberg-barry-goldwater]], 175 (80–19, late September; Goldwater''s amendments defeated); [[w.sorensen-kennedy]], 739–40 (eleven Democrats, all Southerners but Lausche, and eight Republicans, all west of the Missouri but Mrs. Smith; Goldwater''s Cuba condition; "a welcome culmination"); [[w.poole-joint-chiefs-of-staff]], 105; [[w.taylor-swords-and-plowshares]], 287; [[w.debenedetti-american-ordeal]], 63 (the Senate''s consent). To check: [[w.terchek-making-of-the-test]]. See [[cal.1963-06-10.testing]]. Names: Russell, Stennis, Thurmond, Goldwater, Smith. Check: the page.'
     src:
       c: 2ef7c8ad
       rows:
@@ -1838,6 +1838,7 @@ entries:
         - 'w.sorensen-kennedy 739–40: A-D'
         - 'w.poole-joint-chiefs-of-staff 105: A'
         - 'w.taylor-swords-and-plowshares 287: A'
+        - 'w.debenedetti-american-ordeal 63: A'
     tags: [name:russell-richard-b, name:stennis-john-c, name:thurmond-strom, name:goldwater-barry-m, name:smith-margaret-chase, name:kennedy-john-f]
   - id: cal.1963-09-24.program
     when: Sept. 24
@@ -2627,3 +2628,25 @@ entries:
       rows:
         - 'w.cohen-american-pharaoh 305–6: all'
     tags: [state:il, city:chicago, name:daley-richard-j]
+  - id: cal.1963-09.war-opposition
+    when: Sept.
+    date: 1963-09
+    thread: war-opposition
+    c: 'SANE''s national board: "graduated disengagement" from Diệm, the neutralization of Vietnam, "an overall political settlement with China"; Vietnam now "high among SANE priorities."'
+    n: '[[w.debenedetti-american-ordeal]], 87. Check: the day.'
+    src:
+      c: '42811027'
+      rows:
+        - 'w.debenedetti-american-ordeal 87: all'
+  - id: cal.1963-09.vietnam-congress
+    when: Sept.
+    date: 1963-09
+    thread: vietnam-congress
+    also: [war-opposition]
+    c: 'Church and thirty-two cosponsors introduce a resolution: aid to Diệm''s regime "offends the conscience of the American people and should not be continued."'
+    n: '[[w.debenedetti-american-ordeal]], 88–89. Check: the day. Names: Church.'
+    src:
+      c: cf79aca1
+      rows:
+        - 'w.debenedetti-american-ordeal 88–89: all'
+    tags: [name:church-frank]

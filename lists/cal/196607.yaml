@@ -364,6 +364,16 @@ entries:
         - 'w.shesol-mutual-contempt 302: all'
         - 'via x.1966-07-04.nation-the-kennedy-safari: all'
     tags: [name:kennedy-robert-f]
+  - id: cal.1966-07-04.war-opposition
+    when: July 4
+    date: '1966-07-04'
+    thread: war-opposition
+    c: Philadelphia, Independence Hall. Five hundred pacifists hail draft resisters and tax refusers as "contemporary American revolutionaries."
+    n: '[[w.debenedetti-american-ordeal]], 157.'
+    src:
+      c: e93c690d
+      rows:
+        - 'w.debenedetti-american-ordeal 157: all'
   - id: cal.1966-07-05.succession-us
     when: July 5
     date: '1966-07-05'
@@ -1690,12 +1700,13 @@ entries:
     date: '1966-07-22'
     thread: war-opposition
     c: 'Cleveland. Some thirty people from fifteen peace organizations plan national action against the war: "Pessimism and futility were the pervasive moods of the conference," by one participant''s record.'
-    n: '[[w.wells-war-within]], 93; [[w.zaroulis-who-spoke-up]], 90–91 (Muste and thirteen other organizations; nonexclusion).'
+    n: '[[w.wells-war-within]], 93; [[w.zaroulis-who-spoke-up]], 90–91 (Muste and thirteen other organizations; nonexclusion); [[w.debenedetti-american-ordeal]], 155–56 (the consultation late in July, the teach-in faculty''s call; Muste for a united fall mobilization).'
     src:
       c: 2d51039b
       rows:
         - 'w.wells-war-within 93: all'
         - 'w.zaroulis-who-spoke-up 90–91: ?'
+        - 'w.debenedetti-american-ordeal 155–56: ?'
     tags: [state:oh]
   - id: cal.1966-07-23.democratic-party
     when: July 23–24
@@ -2529,3 +2540,27 @@ entries:
       rows:
         - 'w.graham-uncertain-triumph 103: all'
     tags: [name:schultze-charles-l, name:carey-william-d]
+  - id: cal.1966-07.civil-rights-organizations
+    when: July
+    date: 1966-07
+    thread: civil-rights-organizations
+    also: [war-opposition]
+    c: Farmer and CORE's national board for immediate withdrawal from Vietnam; SNCC for evading service.
+    n: '[[w.debenedetti-american-ordeal]], 158. Check: the day. Names: Farmer.'
+    src:
+      c: aeb62a38
+      rows:
+        - 'w.debenedetti-american-ordeal 158: all'
+    tags: [name:farmer-james]
+  - id: cal.1966-07.democratic-party
+    when: July
+    date: 1966-07
+    thread: democratic-party
+    also: [war-opposition]
+    c: 'Shull and Gans of ADA with leaders of some unions, the Council for a Livable World, SANE and the Inter-University Committee, Lowenstein among them: a dozen and a half antiwar candidates to be backed, Gans to raise their funds.'
+    n: '[[w.debenedetti-american-ordeal]], 148. Check: the day; DeBenedetti: "mid-July." Names: Gans, Lowenstein.'
+    src:
+      c: aa31a374
+      rows:
+        - 'w.debenedetti-american-ordeal 148: all'
+    tags: [name:gans-curtis, name:lowenstein-allard]

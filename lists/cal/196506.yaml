@@ -574,7 +574,7 @@ entries:
     date: '1965-06-08'
     thread: war-opposition
     c: SANE's rally against the war at Madison Square Garden, 18,000. Morse, Spock and Norman Thomas speak.
-    n: '[[w.bernstein-guns-or-butter]], 382; [[w.wells-war-within]], 50 (SANE''s rally, June 8); [[w.zaroulis-who-spoke-up]], 44 (seventeen thousand; Spock, Thomas, Morse, Rustin, Morgenthau and Coretta King). Check: [[w.wells-war-within]] gives seventeen thousand (50). Check: Zaroulis and Sullivan, 44, give seventeen thousand. To check: Zaroulis and Sullivan, *Who Spoke Up?* (1984), 1965 ch. (cited by [[w.bernstein-guns-or-butter]], 382 n.2). Names: Morse, Spock.'
+    n: '[[w.bernstein-guns-or-butter]], 382; [[w.wells-war-within]], 50 (SANE''s rally, June 8); [[w.zaroulis-who-spoke-up]], 44 (seventeen thousand; Spock, Thomas, Morse, Rustin, Morgenthau and Coretta King); [[w.debenedetti-american-ordeal]], 114 (Clark Kissinger of SDS: ''Our problem is in America, not in Vietnam''). Check: [[w.wells-war-within]] gives seventeen thousand (50). Check: Zaroulis and Sullivan, 44, give seventeen thousand. To check: Zaroulis and Sullivan, *Who Spoke Up?* (1984), 1965 ch. (cited by [[w.bernstein-guns-or-butter]], 382 n.2). Names: Morse, Spock.'
     src:
       c: d919dad0
       rows:
@@ -582,6 +582,7 @@ entries:
         - 'via x.1984.zaroulis-and-sullivan-who-spoke-up: all'
         - 'w.wells-war-within 50: A'
         - 'w.zaroulis-who-spoke-up 44: B'
+        - 'w.debenedetti-american-ordeal 114: A-B'
     tags: [name:morse-wayne, name:spock-benjamin, city:nyc]
   - id: cal.1965-06-08.vietnam-hanoi
     when: June 8
@@ -1120,12 +1121,13 @@ entries:
     thread: war-opposition
     also: [program]
     c: 'The White House Festival of the Arts, Goldman''s, from Bess Abell''s suggestion of February. Lowell, against the war, stays away; Hersey, reading from *Hiroshima*, speaks against the war; Macdonald circulates an antiwar petition. Lady Bird Johnson, after the papers the next morning: "Black Tuesday."'
-    n: '[[w.bernstein-guns-or-butter]], 381–82; [[w.wells-war-within]], 27 (Lowell''s boycott, announced early June; Macdonald''s petition). To check: [[w.goldman-tragedy-of-lyndon-johnson]], ch. 16; [[w.johnson-white-house-diary]], 286–87 (cited by [[w.bernstein-guns-or-butter]], 381–82 n.2). Names: Goldman, Lady Bird Johnson.'
+    n: '[[w.bernstein-guns-or-butter]], 381–82; [[w.wells-war-within]], 27 (Lowell''s boycott, announced early June; Macdonald''s petition); [[w.debenedetti-american-ordeal]], 113–14 (Macdonald''s and Maloff''s petition at the festival; Johnson: ''Some of them insult me by staying away and some of them insult me by coming''). To check: [[w.goldman-tragedy-of-lyndon-johnson]], ch. 16; [[w.johnson-white-house-diary]], 286–87 (cited by [[w.bernstein-guns-or-butter]], 381–82 n.2). Names: Goldman, Lady Bird Johnson.'
     src:
       c: 534ba737
       rows:
         - 'w.bernstein-guns-or-butter 381–82: all'
         - 'w.wells-war-within 27: B, D'
+        - 'w.debenedetti-american-ordeal 113–14: B, D'
     tags: [name:goldman-eric-f, name:johnson-lady-bird]
   - id: cal.1965-06-14.vietnam-congress-3
     when: June 14
@@ -1164,6 +1166,18 @@ entries:
       rows:
         - 'w.anderson-confronting-the-color-line 158: all'
     tags: [name:gregory-dick, state:il, city:chicago]
+  - id: cal.1965-06-14.war-opposition-3
+    when: June 14
+    date: '1965-06-14'
+    thread: war-opposition
+    c: '*Christianity and Crisis*, Niebuhr''s and Bennett''s journal, "U.S. Policy in Vietnam: A Statement": a settlement negotiated among all parties, "reconciliation between the U.S. and China."'
+    n: '[[w.debenedetti-american-ordeal]], 114. Names: Bennett.'
+    src:
+      c: a6a0de12
+      rows:
+        - 'w.debenedetti-american-ordeal 114: all'
+        - 'via w.debenedetti-american-ordeal 114 n.52: all'
+    tags: [name:bennett-john-c]
   - id: cal.1965-06-15.latin-america
     when: June 15–16
     date: '1965-06-15'
@@ -1731,6 +1745,18 @@ entries:
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 34: all'
     tags: [name:mcnamara-robert-s, name:johnson-lyndon-b]
+  - id: cal.1965-06-18.vietnam-support
+    when: June 18
+    date: '1965-06-18'
+    thread: vietnam-support
+    c: 'The Cabinet. Johnson: "I will see a line from Peking, Hanoi and Moscow ... about a month ahead of the time I see it here," espoused by "so-called devotees of our system."'
+    n: '[[w.debenedetti-american-ordeal]], 119. Names: Johnson.'
+    src:
+      c: b84caf81
+      rows:
+        - 'w.debenedetti-american-ordeal 119: all'
+        - 'via w.debenedetti-american-ordeal 119 n.75: all'
+    tags: [name:johnson-lyndon-b]
   - id: cal.1965-06-19.africa
     when: June 19
     date: '1965-06-19'

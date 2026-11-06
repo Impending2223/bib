@@ -126,12 +126,13 @@ entries:
     thread: war-opposition
     also: [draft]
     c: 'Stop the Draft Week, New York. Dec. 5, at the Whitehall Street induction center before dawn: 264 arrested, Spock among them, by the *Times*''s count. Some 585 arrested in the week (Check).'
-    n: '[[w.wells-war-within]], 217–18 (Dec. 4, 375 cards; Dec. 5 at Whitehall, Spock arrested, 264 by sunrise; Friday, 140); [[w.zaroulis-who-spoke-up]], 145–46 (Dec. 5, Spock, Ginsberg, O''Brien and 260 others; 585 in the week). To check: [[w.foley-confronting-the-war-machine]]; [[w.debenedetti-american-ordeal]]. Names: Spock.'
+    n: '[[w.wells-war-within]], 217–18 (Dec. 4, 375 cards; Dec. 5 at Whitehall, Spock arrested, 264 by sunrise; Friday, 140); [[w.zaroulis-who-spoke-up]], 145–46 (Dec. 5, Spock, Ginsberg, O''Brien and 260 others; 585 in the week); [[w.debenedetti-american-ordeal]], 199 (in thirty cities; some six hundred arrested over three days). To check: [[w.foley-confronting-the-war-machine]]. Names: Spock.'
     src:
       c: e5972ae9
       rows:
         - 'w.wells-war-within 217–18: A-B'
         - 'w.zaroulis-who-spoke-up 145–46: all'
+        - 'w.debenedetti-american-ordeal 199: A, C'
     tags: [name:spock-benjamin, city:nyc, state:ny]
     short: Stop the Draft Week, New York
   - id: cal.1967-12-04.opinion
@@ -1991,12 +1992,13 @@ entries:
     thread: war-opposition
     also: [elections-1968-chicago]
     c: 'New York, Abbie Hoffman''s New Year''s Eve party in Greenwich Village: the Youth International Party, the Yippies, conceived, and a festival in Chicago for the Democratic convention, Aug. 25.'
-    n: '[[w.chester-american-melodrama]], 513–14 (Hoffman''s account). To check: Abbie Hoffman''s account of the New Year''s Eve party to an investigator of the Chicago convention riots (cited by [[w.chester-american-melodrama]], 514). Names: Hoffman.'
+    n: '[[w.chester-american-melodrama]], 513–14 (Hoffman''s account); [[w.debenedetti-american-ordeal]], 223 (founded Jan. 16, 1968: Rubin, Hoffman, Krassner, Ginsberg, Ochs, Country Joe and the Fish, the Fugs). Check: DeBenedetti, 223, dates the Youth International Party''s founding Jan. 16, 1968. To check: Abbie Hoffman''s account of the New Year''s Eve party to an investigator of the Chicago convention riots (cited by [[w.chester-american-melodrama]], 514). Names: Hoffman.'
     src:
       c: 5c1f5e75
       rows:
         - 'w.chester-american-melodrama 513–14: all'
         - 'via x.1968.abbie-hoffmans-account-of-the-new-years-eve-part: all'
+        - 'w.debenedetti-american-ordeal 223: ?'
     tags: [name:hoffman-abbie, city:nyc]
   - id: cal.1967-12.elections-1968-3
     when: Dec.
@@ -2363,3 +2365,13 @@ entries:
       rows:
         - 'w.cohen-american-pharaoh 448: all'
     tags: [state:il, city:chicago, name:daley-richard-j]
+  - id: cal.1967-12.war-opposition-2
+    when: Dec.
+    date: 1967-12
+    thread: war-opposition
+    c: 'A conference of scholars and former officials at the Carnegie Endowment for International Peace: escalation not in the national interest; halt the bombing; the NLF to be recognized in South Vietnam''s politics.'
+    n: '[[w.debenedetti-american-ordeal]], 207. Check: the days; DeBenedetti: about the time of Johnson''s world trip.'
+    src:
+      c: b1db7278
+      rows:
+        - 'w.debenedetti-american-ordeal 207: all'

@@ -274,6 +274,17 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d128: all'
     tags: [name:lodge-henry-cabot]
+  - id: cal.1966-05-03.war-opposition
+    when: May 3
+    date: '1966-05-03'
+    thread: war-opposition
+    c: 'Redwood City. Over three thousand at a rally against napalm, made at the United Technology Center''s plant: Morse and Hayden speak.'
+    n: '[[w.debenedetti-american-ordeal]], 153. Names: Morse, Hayden.'
+    src:
+      c: 54db40d5
+      rows:
+        - 'w.debenedetti-american-ordeal 153: all'
+    tags: [name:morse-wayne, name:hayden-tom]
   - id: cal.1966-05-05.vietnam-congress
     when: May 5
     date: '1966-05-05'
@@ -961,13 +972,14 @@ entries:
     thread: students
     also: [defense]
     c: 'The Selective Service College Qualification Test, first of three sittings (May 21, June 3): local boards to weigh its score and class standing in deferring students. At the University of Chicago students hold the administration building, May 11–16 (Check), against the university''s giving class rank to the boards.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 341 (the protests at the test centers, May 14; the occupations at Chicago, City College and Wisconsin); [[w.zaroulis-who-spoke-up]], 85–86 (768,000 take it May 14; 500,000 copies of SDS''s counterdraft exam; 400 hold Chicago''s administration building three days). To check: [[w.flynn-draft-1940-1973]]; [[w.baskir-chance-and-circumstance]]; [[w.sale-sds]]; *New York Times*, May 13, 14, 17, 24, 1966 (cited by [[w.gibbons-u-s-government-and]], IV, 341 n.87).'
+    n: '[[w.gibbons-u-s-government-and]], IV, 341 (the protests at the test centers, May 14; the occupations at Chicago, City College and Wisconsin); [[w.zaroulis-who-spoke-up]], 85–86 (768,000 take it May 14; 500,000 copies of SDS''s counterdraft exam; 400 hold Chicago''s administration building three days); [[w.debenedetti-american-ordeal]], 166 (SDS''s "Vietnam Draft Exemption" handed out at the three sittings). To check: [[w.flynn-draft-1940-1973]]; [[w.baskir-chance-and-circumstance]]; [[w.sale-sds]]; *New York Times*, May 13, 14, 17, 24, 1966 (cited by [[w.gibbons-u-s-government-and]], IV, 341 n.87).'
     src:
       c: e970d8ae
       rows:
         - 'w.gibbons-u-s-government-and IV, 341: all'
         - 'via w.gibbons-u-s-government-and IV, 341 n.87: B'
         - 'w.zaroulis-who-spoke-up 85–86: A-B'
+        - 'w.debenedetti-american-ordeal 166: A'
     tags: [name:hershey-lewis-b]
   - id: cal.1966-05-14.conservation
     when: May 14
@@ -1045,6 +1057,16 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 315 n: all'
         - 'via x.1966-05-14.washington-to-saigon-flash-telegram-3446: all'
     tags: [name:rusk-dean, name:porter-william-j, name:nguyen-cao-ky]
+  - id: cal.1966-05-14.war-opposition
+    when: May 14
+    date: '1966-05-14'
+    thread: war-opposition
+    c: 'Washington. SANE''s Peace Pledge Convention: seventy-three thousand cards pledging votes only for peace candidates in November.'
+    n: '[[w.debenedetti-american-ordeal]], 147–48.'
+    src:
+      c: e2669d1d
+      rows:
+        - 'w.debenedetti-american-ordeal 147–48: all'
   - id: cal.1966-05-15.vietnam
     when: May 15–16
     date: '1966-05-15'
@@ -1150,7 +1172,7 @@ entries:
     date: '1966-05-15'
     thread: students
     c: Washington. A march against the war led by SANE and Women Strike for Peace, 8,000 to 10,000.
-    n: '[[w.gibbons-u-s-government-and]], IV, 341; [[w.zaroulis-who-spoke-up]], 83 (SANE and Women Strike for Peace, 8,000; 73,000 voter pledges). Check: Zaroulis and Sullivan, 83, give "the day before" May 17, and cite the New York Times of May 16. To check: *New York Times* and *Washington Post*, May 16, 1966 (cited by [[w.gibbons-u-s-government-and]], IV, 341 n.88). Check: the count (the *New York Times* and the *Washington Post*, May 16, 1966).'
+    n: '[[w.gibbons-u-s-government-and]], IV, 341; [[w.zaroulis-who-spoke-up]], 83 (SANE and Women Strike for Peace, 8,000; 73,000 voter pledges); [[w.debenedetti-american-ordeal]], 147–48 (some twelve thousand on the Mall, the day after SANE''s Peace Pledge Convention). Check: Zaroulis and Sullivan, 83, give "the day before" May 17, and cite the New York Times of May 16. Check: DeBenedetti, 148, gives about twelve thousand. To check: *New York Times* and *Washington Post*, May 16, 1966 (cited by [[w.gibbons-u-s-government-and]], IV, 341 n.88). Check: the count (the *New York Times* and the *Washington Post*, May 16, 1966).'
     src:
       c: 26efc549
       rows:
@@ -1158,6 +1180,7 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 341 n.88: all'
         - 'w.zaroulis-who-spoke-up 83: B'
         - 'via x.1966-05-16.new-york-times-may-16-1966: B'
+        - 'w.debenedetti-american-ordeal 147–48: ?'
     tags: [ok:result-form]
   - id: cal.1966-05-16.civil-rights-organizations
     when: May 16
@@ -2770,3 +2793,24 @@ entries:
         - 'w.ralph-northern-protest 98: all'
         - 'w.cohen-american-pharaoh 377–78: all'
     tags: [state:il, city:chicago, name:willis-benjamin-c]
+  - id: cal.1966-05.war-opposition
+    when: May
+    date: 1966-05
+    thread: war-opposition
+    c: New York, Rockefeller Plaza. The Citizens' Campaign Against Napalm at Dow Chemical's headquarters; Dow refuses to give up napalm; a boycott of Saran Wrap called.
+    n: '[[w.debenedetti-american-ordeal]], 153. Check: the day; DeBenedetti: three weeks after May 3.'
+    src:
+      c: 699808bc
+      rows:
+        - 'w.debenedetti-american-ordeal 153: all'
+    tags: [state:ny, city:nyc]
+  - id: cal.1966-05.students
+    when: May
+    date: 1966-05
+    thread: students
+    c: Newark. SDS's offices ransacked, files and equipment destroyed.
+    n: '[[w.debenedetti-american-ordeal]], 152. Check: the day; DeBenedetti: four weeks after the bombing at Berkeley.'
+    src:
+      c: 1c7a661d
+      rows:
+        - 'w.debenedetti-american-ordeal 152: all'
