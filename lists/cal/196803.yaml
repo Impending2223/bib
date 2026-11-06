@@ -23,7 +23,7 @@ entries:
     thread: open-housing
     also: [congress]
     c: 'Senate, H.R. 2516, the Dirksen substitute: Titles I, the federally protected activities, and II, fair housing. Cloture short of two-thirds, [59–35](https://voteview.com/rollcall/RS0900322).'
-    n: '[[w.cq-weekly-report]], Mar. 1, 1968, 377. [[w.kotz-judgment-days]], 390–91 (four votes short). See [[cal.1968-02-06.open-housing]]; [[cal.1967-02-15.open-housing]]. Names: Dirksen.'
+    n: '[[w.cq-weekly-report]], Mar. 1, 1968, 377. [[w.kotz-judgment-days]], 390–91 (four votes short). The Senate sat from noon to 1:37 p.m.: [Daily Digest, D73](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=71). See [[cal.1968-02-06.open-housing]]; [[cal.1967-02-15.open-housing]]. Names: Dirksen.'
     src:
       c: 7ca3441d
       rows:
@@ -31,6 +31,10 @@ entries:
         - 'w.cq-weekly-report Mar. 1, 1968, 377: B'
         - 'w.kotz-judgment-days 390–91: A-B'
     tags: [name:dirksen-everett]
+    time_range:
+      - 1968-03-01T17:00Z
+      - 1968-03-01T18:37Z
+    time_zone: America/New_York
   - id: cal.1968-03-01.students-los-angeles
     when: Mar. 1
     date: '1968-03-01'
@@ -53,6 +57,12 @@ entries:
         - 'w.mann-grand-delusion 595: C'
         - 'via w.mann-grand-delusion 595 n.22a: C'
     tags: [name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-02T01:00Z
+      - 1968-03-02T04:00Z
+    time_band: evening
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1968-03-01.elections-1968
     when: Mar. 1
     date: '1968-03-01'
@@ -60,6 +70,12 @@ entries:
     c: Rockefeller "ready and willing" to run "if called."
     n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2187 To check: CQ''s report at the time, Weekly Report p. 485 (cited by [[w.cq-weekly-report]], Aug. 16, 1968, 2187). Names: Rockefeller.'
     tags: [name:rockefeller-nelson]
+    time_range:
+      - 1968-03-01T14:00Z
+      - 1968-03-01T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-01.vietnam-205000
     when: Mar. 1
     date: '1968-03-01'
@@ -73,6 +89,12 @@ entries:
         - 'w.berman-lyndon-johnsons-war 182: all'
         - 'via x.1968-03-01.ginsburgh-to-rostow-on-mining: all'
     tags: [name:ginsburgh-robert-n, name:rostow-walt-w]
+    time_range:
+      - 1968-03-01T14:00Z
+      - 1968-03-01T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-01.vietnam-saigon
     when: Mar. 1
     date: '1968-03-01'
@@ -108,6 +130,12 @@ entries:
       rows:
         - 'w.kotz-judgment-days 391: all'
     tags: [name:mansfield-mike, name:mondale-walter-f, name:johnson-lyndon-b, name:cannon-howard-w]
+    time_range:
+      - 1968-03-01T14:00Z
+      - 1968-03-01T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-01.economy
     when: Mar. 1
     date: '1968-03-01'
@@ -120,6 +148,10 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v12/d347: all'
         - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d185: A'
     tags: [name:sharp-mitchell-w, name:fowler-henry-h]
+    time_range:
+      - 1968-03-01T22:00Z
+      - 1968-03-02T05:00Z
+    time_zone: America/New_York
   - id: cal.1968-03-02.republican-party
     when: Mar. 2–3
     date: '1968-03-02'
@@ -146,6 +178,12 @@ entries:
         - 'w.clifford-counsel-to-the-president-2 493–94: C-D'
         - 'w.bernstein-guns-or-butter 479: D-E'
     tags: [name:clifford-clark, name:gelb-leslie-h]
+    time_range:
+      - 1968-03-02T14:00Z
+      - 1968-03-02T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-02.elections-1968
     when: Mar. 2
     date: '1968-03-02'
@@ -159,6 +197,12 @@ entries:
         - 'w.kabaservice-rule-and-ruin 245: all'
         - 'via w.kabaservice-rule-and-ruin 245 n.100: all'
     tags: [name:eisenhower-dwight-d, name:nixon-richard-m]
+    time_range:
+      - 1968-03-02T17:00Z
+      - 1968-03-03T01:00Z
+    time_band: workday daytime
+    time_zone: America/Los_Angeles
+    range_basis: kind
   - id: cal.1968-03-02.robert-kennedy-campaign
     when: Mar. 2
     date: '1968-03-02'
@@ -197,6 +241,12 @@ entries:
       rows:
         - 'w.clifford-counsel-to-the-president-2 494: all'
     tags: [name:warnke-paul, name:gelb-leslie-h, name:clifford-clark]
+    time_range:
+      - 1968-03-03T14:00Z
+      - 1968-03-03T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-03.king
     when: Mar. 3
     date: '1968-03-03'
@@ -210,6 +260,11 @@ entries:
         - 'via x.1968-03-03.mlk-sermon-at-ebenezer-baptist-church: all'
         - 'via x.undated.carson-and-holloran-eds-knock-p-2: all'
     tags: [name:king-martin-luther-jr, state:ga, city:atlanta]
+    time_range:
+      - 1968-03-03T11:00Z
+      - 1968-03-03T17:00Z
+    time_zone: America/New_York
+    time_band: morning
   - id: cal.1968-03-03.middle-east
     when: Mar. 3
     date: '1968-03-03'
@@ -221,6 +276,12 @@ entries:
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 452: all'
     tags: [name:nitze-paul]
+    time_range:
+      - 1968-03-03T14:00Z
+      - 1968-03-03T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-04.vietnam
     when: Mar. 4–5
     date: '1968-03-04'
@@ -259,7 +320,7 @@ entries:
     follows:
       - cal.1968-03-04.open-housing-2
     c: 'Senate, H.R. 2516: cloture invoked on the Dirksen substitute, [65–32](https://voteview.com/rollcall/RS0900323), the fourth vote. The single owner''s home exempted from fair housing, refused, [38–56](https://voteview.com/rollcall/RS0900324).'
-    n: '[[w.mann-walls-of-jericho]], 491 (cloture after three failures); [[w.kotz-judgment-days]], 391; [[w.bernstein-guns-or-butter]], 499 (the fourth cloture vote, 65 to 32). Order: the vote after Mondale''s call and Johnson''s (Kotz, 391). See [[cal.1968-02-06.open-housing]]. Names: Dirksen.'
+    n: '[[w.mann-walls-of-jericho]], 491 (cloture after three failures); [[w.kotz-judgment-days]], 391; [[w.bernstein-guns-or-butter]], 499 (the fourth cloture vote, 65 to 32). Order: the vote after Mondale''s call and Johnson''s (Kotz, 391). The Senate sat from 11 a.m. to 5:28 p.m.: [Daily Digest, PDF p. 74](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=74) (the hour of meeting, the order of Mar. 1: [Daily Digest, D73](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=71)). See [[cal.1968-02-06.open-housing]]. Names: Dirksen.'
     src:
       c: 8b030b4b
       rows:
@@ -270,6 +331,10 @@ entries:
         - 'w.bernstein-guns-or-butter 499: ?'
     tags: [name:dirksen-everett]
     short: cloture on the substitute
+    time_range:
+      - 1968-03-04T16:00Z
+      - 1968-03-04T22:28Z
+    time_zone: America/New_York
   - id: cal.1968-03-04.black-nationalism
     when: Mar. 4
     date: '1968-03-04'
@@ -286,6 +351,12 @@ entries:
         - 'via x.1968-03-03.hoover-to-sac-albany-and-forty-2: all'
         - 'w.kotz-judgment-days 387: C'
     tags: [name:king-martin-luther-jr, name:carmichael-stokely, name:muhammad-elijah, name:hoover-j-edgar]
+    time_range:
+      - 1968-03-04T14:00Z
+      - 1968-03-04T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-04.health
     when: Mar. 4
     date: '1968-03-04'
@@ -294,6 +365,12 @@ entries:
     n: '[Special Message to the Congress: "Health in America"](https://www.presidency.ucsb.edu/documents/special-message-the-congress-health-america) (Mar. 4, 1968). [[w.califano-triumph-and-tragedy-of]], 259 ("early March"; care before birth and through the first year, a Center for Population Studies and Human Reproduction). To check: [[w.blumenthal-heart-of-power]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
     short: '"Health in America"'
+    time_range:
+      - 1968-03-04T14:00Z
+      - 1968-03-04T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-04.opinion
     when: Mar. 4
     date: '1968-03-04'
@@ -328,6 +405,12 @@ entries:
     c: Missouri. The Supreme Court notes probable jurisdiction of the appeal from the three-judge court; the act of 1967 to be used for the elections of 1968.
     n: '*Preisler v. Secretary of State of Missouri*, [279 F. Supp. 952](https://static.case.law/f-supp/279/case-pdfs/0952-01.pdf) (W.D. Mo. 1967), probable jurisdiction noted, 88 S. Ct. 1053 (1968). [[w.cq-weekly-report]], July 26, 1968, 2002 (the act''s use in 1968). See [[cal.1967-12-29.legislatures]]. Check: the order, in the U.S. Reports.'
     tags: [state:mo]
+    time_range:
+      - 1968-03-04T14:00Z
+      - 1968-03-04T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-04.goldwater
     when: Mar. 4
     date: '1968-03-04'
@@ -347,6 +430,12 @@ entries:
       rows:
         - 'w.macv-command-history-1968 943, 949: all'
     tags: [name:westmoreland-william, name:clifford-clark]
+    time_range:
+      - 1968-03-04T01:00Z
+      - 1968-03-04T09:00Z
+    time_band: workday daytime
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: kind
   - id: cal.1968-03-04.elections-1968-polls
     when: Mar. 4
     date: '1968-03-04'
@@ -359,6 +448,12 @@ entries:
         - 'w.shesol-mutual-contempt 416: all'
         - 'via x.1968-03-04.panzer-to-johnson-roper-poll: all'
     tags: [name:johnson-lyndon-b, name:mccarthy-eugene-j, name:kennedy-robert-f, state:nh, ok:result-form]
+    time_range:
+      - 1968-03-04T14:00Z
+      - 1968-03-04T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-04.open-housing-2
     when: Mar. 4
     date: '1968-03-04'
@@ -371,6 +466,12 @@ entries:
       rows:
         - 'w.kotz-judgment-days 391: all'
     tags: [name:mondale-walter-f, name:johnson-lyndon-b, name:metcalf-lee-w, name:bartlett-edward-l]
+    time_range:
+      - 1968-03-04T14:00Z
+      - 1968-03-04T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-04.economy-gold
     when: Mar. 4
     date: '1968-03-04'
@@ -383,6 +484,12 @@ entries:
         - 'w.gavin-gold-dollars-and-power 180: all'
         - 'via w.gavin-gold-dollars-and-power 180 n.33: all'
     tags: [name:fowler-henry-h, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-04T14:00Z
+      - 1968-03-04T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-04.economy
     when: Mar. 4
     date: '1968-03-04'
@@ -394,6 +501,12 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v12/d347: all'
     tags: [name:rostow-walt-w, name:johnson-lyndon-b, name:sharp-mitchell-w]
+    time_range:
+      - 1968-03-04T14:00Z
+      - 1968-03-04T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-05.students-los-angeles
     when: Mar. 5–8
     date: '1968-03-05'
@@ -409,6 +522,12 @@ entries:
     also: [civil-disorders]
     c: 'Senate, H.R. 2516: the anti-riot amendment, the intent to incite a riot to be proved, [82–13](https://voteview.com/rollcall/RS0900326).'
     n: See [[cal.1968-02-06.open-housing]].
+    time_range:
+      - 1968-03-05T19:00Z
+      - 1968-03-05T22:00Z
+    time_band: workday afternoon
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-05.robert-kennedy
     when: Mar. 5
     date: '1968-03-05'
@@ -464,6 +583,12 @@ entries:
       rows:
         - 'w.macv-command-history-1968 240–42, 245: all'
     tags: [name:mcnamara-robert-s]
+    time_range:
+      - 1968-03-05T14:00Z
+      - 1968-03-05T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-05.vietnam-force-levels-2
     when: Mar. 5
     date: '1968-03-05'
@@ -489,6 +614,12 @@ entries:
         - 'w.kotz-judgment-days 398: all'
         - 'via x.1968-03-05.guy-to-watson: all'
     tags: [name:watson-w-marvin, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-05T15:00Z
+      - 1968-03-05T23:00Z
+    time_band: workday daytime
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1968-03-05.elections-1968-4
     when: Mar. 5
     date: '1968-03-05'
@@ -513,6 +644,12 @@ entries:
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 187: all'
     tags: [name:wheeler-earle, name:westmoreland-william]
+    time_range:
+      - 1968-03-05T14:00Z
+      - 1968-03-05T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-06.transition-and-staff
     when: Mar. 6
     date: '1968-03-06'
@@ -529,6 +666,12 @@ entries:
     n: '[Special Message to the Congress on the Problems of the American Indian: "The Forgotten American"](https://www.presidency.ucsb.edu/documents/special-message-the-congress-the-problems-the-american-indian-the-forgotten-american); [Executive Order 11399](https://www.presidency.ucsb.edu/documents/executive-order-11399-establishing-the-national-council-indian-opportunity) (Mar. 6, 1968). [[w.califano-triumph-and-tragedy-of]], 259 (the message on the "Forgotten American"). To check: [[w.clarkin-federal-indian-policy-in]]; [[w.cobb-native-activism-in-cold]]. Names: Johnson, Humphrey.'
     tags: [name:johnson-lyndon-b, name:humphrey-hubert-h]
     short: '"The Forgotten American"'
+    time_range:
+      - 1968-03-06T14:00Z
+      - 1968-03-06T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-06.vietnam
     when: Mar. 6
     date: '1968-03-06'
@@ -537,6 +680,12 @@ entries:
     c: 'Johnson with Fulbright, Mansfield, Sparkman, Aiken and Hickenlooper, on Rusk''s coming testimony and the Gulf of Tonkin Resolution: "I sent up the resolution on Southeast Asia because I told the Security Council members that I was not going to commit troops" without Congress.'
     n: 'FRUS 1964–68, VI, doc. [109](https://history.state.gov/historicaldocuments/frus1964-68v06/d109). To check: [[w.berman-william-fulbright-and-the]]; [[w.schoenbaum-waging-war-and-peace]]. Names: Johnson, Fulbright, Mansfield, Sparkman, Aiken, Hickenlooper, Rusk.'
     tags: [name:johnson-lyndon-b, name:fulbright-j-william, name:mansfield-mike, name:sparkman-john, name:aiken-george-d, name:hickenlooper-bourke-b, name:rusk-dean]
+    time_range:
+      - 1968-03-06T14:00Z
+      - 1968-03-06T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-06.elections-1968
     when: Mar. 6
     date: '1968-03-06'
@@ -575,6 +724,12 @@ entries:
         - 'w.branch-at-canaans-edge 708: all'
         - 'via x.1968-03-06.outlook-for-racial-violence-in-washington: all'
     tags: [name:hoover-j-edgar]
+    time_range:
+      - 1968-03-06T14:00Z
+      - 1968-03-06T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-06.vietnam-2
     when: Mar. 6
     date: '1968-03-06'
@@ -588,6 +743,12 @@ entries:
         - 'w.berman-lyndon-johnsons-war 182: all'
         - 'via x.1968-03-06.rostow-to-johnson-assessment: all'
     tags: [name:rostow-walt-w, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-06T14:00Z
+      - 1968-03-06T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-06.elections-1968-2
     when: Mar. 6
     date: '1968-03-06'
@@ -600,6 +761,12 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 485: all'
     tags: [name:obrien-lawrence-f]
+    time_range:
+      - 1968-03-06T14:00Z
+      - 1968-03-06T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-06.vietnam-operations
     when: Mar. 6
     date: '1968-03-06'
@@ -637,6 +804,12 @@ entries:
     c: The nonproliferation treaty. At Geneva, before the Eighteen-Nation Disarmament Committee, the United States, the Soviet Union and Britain propose a Security Council resolution on security assurances to non-nuclear states that sign. Foster for the United States.
     n: '[[w.department-of-state-bulletin]], [Mar. 25, 1968, 401](https://archive.org/details/departmentofstat581968unit/page/401/mode/1up) (Foster''s statement of Mar. 7, U.S./U.N. press release 34). To check: [[w.seaborg-stemming-the-tide]]. See [[cal.1968-01-18.testing]]. Names: Foster.'
     tags: [name:foster-william-c]
+    time_range:
+      - 1968-03-07T08:00Z
+      - 1968-03-07T16:00Z
+    time_band: workday daytime
+    time_zone: Europe/Zurich
+    range_basis: kind
   - id: cal.1968-03-07.robert-kennedy
     when: Mar. 7
     date: '1968-03-07'
@@ -652,6 +825,12 @@ entries:
         - 'via w.mann-grand-delusion 584 n.34: B-C'
         - 'w.shesol-mutual-contempt 415–16: ?'
     tags: [name:kennedy-robert-f, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-07T19:00Z
+      - 1968-03-07T22:00Z
+    time_band: workday afternoon
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-07.vietnam-congress
     when: Mar. 7
     date: '1968-03-07'
@@ -668,6 +847,12 @@ entries:
         - 'w.woods-j-william-fulbright-vietnam 164: ?'
         - 'w.woods-fulbright 472: ?'
     tags: [name:fulbright-j-william, name:case-clifford-p, name:church-frank, name:hatfield-mark-o, name:tower-john-g, name:mansfield-mike]
+    time_range:
+      - 1968-03-07T19:00Z
+      - 1968-03-07T22:00Z
+    time_band: workday afternoon
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-07.democratic-party
     when: Mar. 7
     date: '1968-03-07'
@@ -681,6 +866,12 @@ entries:
         - 'w.mann-grand-delusion 594: all'
     tags: [name:guy-william-l, name:johnson-lyndon-b, state:nd]
     short: Governor Guy on the war
+    time_range:
+      - 1968-03-07T15:00Z
+      - 1968-03-07T23:00Z
+    time_band: workday daytime
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1968-03-07.goldwater
     when: Mar. 7
     date: '1968-03-07'
@@ -729,6 +920,12 @@ entries:
     c: 'St. Louis. The District Court gives judgment for Local 36 of the Sheet Metal Workers and Local 1 of the Electrical Workers in the Title VII suit, dismissing it with prejudice: the Act prospective, no penalty for practices before it took effect.'
     n: '[Civil Rights Litigation Clearinghouse, case 10879](https://clearinghouse.net/case/10879/) (the judgment, its day and ground). To check: *United States v. Sheet Metal Workers Int''l Ass''n*, [280 F. Supp. 719](https://static.case.law/f-supp/280/case-pdfs/0719-01.pdf) (E.D. Mo. 1968); the reversal, *United States v. Sheet Metal Workers Int''l Ass''n*, [416 F.2d 123](https://static.case.law/f2d/416/case-pdfs/0123-01.pdf) (8th Cir. 1969). See [[cal.1966-02-04.states-and-cities-st-louis]].'
     tags: [state:mo, city:st-louis]
+    time_range:
+      - 1968-03-07T15:00Z
+      - 1968-03-07T23:00Z
+    time_band: workday daytime
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1968-03-07.vietnam-205000
     when: Mar. 7
     date: '1968-03-07'
@@ -741,6 +938,12 @@ entries:
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 187: all'
     tags: [name:russell-richard-b, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-07T14:00Z
+      - 1968-03-07T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-07.economy
     when: Mar. 7
     date: '1968-03-07'
@@ -751,6 +954,12 @@ entries:
       c: '13460781'
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d185: all'
+    time_range:
+      - 1968-03-07T14:00Z
+      - 1968-03-07T22:00Z
+    time_band: workday daytime
+    time_zone: America/Toronto
+    range_basis: kind
   - id: cal.1968-03-08.conservation
     when: Mar. 8
     date: '1968-03-08'
@@ -758,14 +967,24 @@ entries:
     c: 'Message on conservation, "To Renew a Nation." Asked: $1.5 to $2 billion of community waste treatment plants built this year; a National Water Commission; a Safe Drinking Water Act; the Central Arizona Project; laws against oil spills; a Surface Mining Reclamation Act; the Solid Waste Disposal Act extended; the highway beautification program continued.'
     n: 'Special Message to the Congress on Conservation: "To Renew a Nation", [1968–69 Pub. Papers 355](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=433) (Mar. 8, 1968). [[w.califano-triumph-and-tragedy-of]], 259 (the message: water and air, noise, parks near the cities, rivers and trails). To check: [[w.gould-lady-bird-johnson-and]]. See [[cal.1967-11-21.conservation]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-08T14:00Z
+      - 1968-03-08T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-08.open-housing
     when: Mar. 8
     date: '1968-03-08'
     thread: open-housing
     also: [congress]
     c: 'Senate, H.R. 2516: six titles on the rights of American Indians, [81–0](https://voteview.com/rollcall/RS0900344); Ervin''s substitute, without fair housing, refused, [24–64](https://voteview.com/rollcall/RS0900339); the Dirksen substitute adopted, [61–19](https://voteview.com/rollcall/RS0900345).'
-    n: 'See [[cal.1968-02-06.open-housing]]. Names: Ervin, Dirksen.'
+    n: 'The Senate sat from noon to 4:20 p.m.: [Daily Digest, D87](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=85). See [[cal.1968-02-06.open-housing]]. Names: Ervin, Dirksen.'
     tags: [name:ervin-sam-j-jr, name:dirksen-everett]
+    time_range:
+      - 1968-03-08T17:00Z
+      - 1968-03-08T21:20Z
+    time_zone: America/New_York
   - id: cal.1968-03-08.elections-1968
     when: Mar. 8
     date: '1968-03-08'
@@ -779,6 +998,12 @@ entries:
         - 'via w.dallek-flawed-giant 527 n.93a: all'
         - 'via w.dallek-flawed-giant 527 n.93b: all'
     tags: [name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-08T14:00Z
+      - 1968-03-08T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-08.vietnam-205000
     when: Mar. 8
     date: '1968-03-08'
@@ -794,6 +1019,12 @@ entries:
         - 'w.longley-lbjs-1968 74: B-C'
         - 'w.clifford-counsel-to-the-president-2 498–99: A'
     tags: [name:johnson-lyndon-b, name:clifford-clark]
+    time_range:
+      - 1968-03-08T14:00Z
+      - 1968-03-08T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-08.economy-surcharge
     when: Mar. 8
     date: '1968-03-08'
@@ -807,6 +1038,12 @@ entries:
         - 'via w.zelizer-taxing-america 272 n.76: all'
         - 'w.zelizer-fierce-urgency-of-now 288: all'
     tags: [name:fowler-henry-h, name:johnson-lyndon-b, name:mills-wilbur-d]
+    time_range:
+      - 1968-03-08T14:00Z
+      - 1968-03-08T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-08.elections-1968-2
     when: Mar. 8
     date: '1968-03-08'
@@ -821,6 +1058,12 @@ entries:
         - 'via w.palermo-in-his-own-right 131 n.6: A-B'
         - 'via w.palermo-in-his-own-right 132 n.7: C'
     tags: [name:roche-john-p, name:johnson-lyndon-b, name:kennedy-robert-f, name:watson-w-marvin]
+    time_range:
+      - 1968-03-08T14:00Z
+      - 1968-03-08T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-08.robert-kennedy
     when: Mar. 8
     date: '1968-03-08'
@@ -834,6 +1077,12 @@ entries:
         - 'w.palermo-in-his-own-right 141: all'
         - 'via w.palermo-in-his-own-right 141 n.51: all'
     tags: [name:dolan-joseph-f, name:kennedy-robert-f, name:johnson-lyndon-b, state:tx]
+    time_range:
+      - 1968-03-08T14:00Z
+      - 1968-03-08T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-08.vietnam-205000-2
     when: Mar. 8
     date: '1968-03-08'
@@ -847,6 +1096,12 @@ entries:
         - 'w.clifford-counsel-to-the-president-2 498: all'
         - 'w.bernstein-guns-or-butter 479: A'
     tags: [name:clifford-clark, name:wheeler-earle, name:russell-richard-b, name:stennis-john-c, name:jackson-henry-m, name:symington-william-s, name:mansfield-mike]
+    time_range:
+      - 1968-03-08T14:00Z
+      - 1968-03-08T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-08.vietnam-205000-3
     when: Mar. 8
     date: '1968-03-08'
@@ -859,6 +1114,12 @@ entries:
         - 'w.clifford-counsel-to-the-president-2 498–99: all'
         - 'via w.clifford-counsel-to-the-president-2 499 n.7a: all'
     tags: [name:wheeler-earle, name:westmoreland-william, name:sharp-u-s-grant, name:clifford-clark]
+    time_range:
+      - 1968-03-08T14:00Z
+      - 1968-03-08T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-08.vietnam-205000-4
     when: Mar. 8
     date: '1968-03-08'
@@ -870,6 +1131,12 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d114: all'
     tags: [name:wheeler-earle, name:clifford-clark, name:westmoreland-william]
+    time_range:
+      - 1968-03-08T14:00Z
+      - 1968-03-08T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-08.vietnam-205000-5
     when: Mar. 8
     date: '1968-03-08'
@@ -882,6 +1149,12 @@ entries:
       rows:
         - 'w.clifford-counsel-to-the-president-2 499–500: all'
     tags: [name:goulding-phil-g, name:clifford-clark, name:katzenbach-nicholas, name:sheehan-neil]
+    time_range:
+      - 1968-03-08T14:00Z
+      - 1968-03-08T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-08.king-poor-peoples
     when: Mar. 8
     date: '1968-03-08'
@@ -894,6 +1167,12 @@ entries:
         - 'w.branch-at-canaans-edge 726: all'
         - 'via x.1968-03-08.marian-logan-to-mlk-march-8: all'
     tags: [name:king-martin-luther-jr]
+    time_range:
+      - 1968-03-08T14:00Z
+      - 1968-03-08T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-08.vietnam-khe-sanh
     when: Mar. 8
     date: '1968-03-08'
@@ -906,6 +1185,12 @@ entries:
         - 'w.macv-command-history-1968 1038: all'
         - 'w.cosmas-joint-chiefs-of-staff 147: B-C'
     tags: [name:westmoreland-william]
+    time_range:
+      - 1968-03-08T01:00Z
+      - 1968-03-08T09:00Z
+    time_band: workday daytime
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: kind
   - id: cal.1968-03-08.press-and-broadcasting
     when: Mar. 8
     date: '1968-03-08'
@@ -920,6 +1205,12 @@ entries:
         - 'via w.macv-command-history-1968 962 n.22: all'
         - 'via w.macv-command-history-1968 963 n.23: all'
     tags: [name:westmoreland-william]
+    time_range:
+      - 1968-03-08T01:00Z
+      - 1968-03-08T09:00Z
+    time_band: workday daytime
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: kind
   - id: cal.1968-03-08.vietnam-congress
     when: Mar. 8
     date: '1968-03-08'
@@ -932,6 +1223,12 @@ entries:
         - 'w.woods-fulbright 473: all'
         - 'via x.1968-03-08.rostow-to-johnson: A'
     tags: [name:rostow-walt-w, name:johnson-lyndon-b, name:fulbright-j-william]
+    time_range:
+      - 1968-03-08T14:00Z
+      - 1968-03-08T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-08.vietnam
     when: Mar. 8
     date: '1968-03-08'
@@ -945,6 +1242,12 @@ entries:
         - 'w.anthony-war-in-northern-laos 248: all'
         - 'via w.anthony-war-in-northern-laos 248 n.74: all'
     tags: [name:westmoreland-william, name:momyer-william-w, name:sharp-u-s-grant]
+    time_range:
+      - 1968-03-08T01:00Z
+      - 1968-03-08T09:00Z
+    time_band: workday daytime
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: kind
   - id: cal.1968-03-08.economy-gold
     when: Mar. 8
     date: '1968-03-08'
@@ -956,6 +1259,12 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d187: all'
     tags: [name:fowler-henry-h, name:dillon-c-douglas, name:roosa-robert-v, name:heller-walter-w, name:gordon-kermit, name:rockefeller-david, name:bator-francis-m, name:rostow-walt-w, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-08T14:00Z
+      - 1968-03-08T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-08.economy
     when: Mar. 8
     date: '1968-03-08'
@@ -967,6 +1276,12 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d185: all'
     tags: [name:fowler-henry-h, name:sharp-mitchell-w]
+    time_range:
+      - 1968-03-08T14:00Z
+      - 1968-03-08T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-09.robert-kennedy
     when: Mar. 9
     date: '1968-03-09'
@@ -983,6 +1298,10 @@ entries:
         - 'w.thomas-robert-kennedy 358-59: A-B, D'
         - 'via w.thomas-robert-kennedy 358 n.march-9-trip-to-iowa: A-B, D'
     tags: [name:kennedy-robert-f, name:hughes-harold-e, name:hearnes-warren-e, name:docking-robert, name:guy-william-l, name:johnson-lyndon-b, state:ia, name:mccarthy-eugene-j]
+    time_range:
+      - 1968-03-09T23:00Z
+      - 1968-03-10T06:00Z
+    time_zone: America/Chicago
   - id: cal.1968-03-09.robert-kennedy-2
     when: Mar. 9
     date: '1968-03-09'
@@ -996,6 +1315,12 @@ entries:
         - 'w.palermo-in-his-own-right 206–07: all'
         - 'via w.palermo-in-his-own-right 207 n.86: all'
     tags: [name:dolan-joseph-f, name:kennedy-robert-f, name:goldwater-barry-m, state:ne]
+    time_range:
+      - 1968-03-09T14:00Z
+      - 1968-03-09T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-09.vietnam-205000
     when: Mar. 9
     date: '1968-03-09'
@@ -1011,6 +1336,12 @@ entries:
         - 'w.westmoreland-soldier-reports 358: all'
         - 'via x.1968-03-09.wheeler-to-westmoreland-jcs-2767-march: all'
     tags: [name:wheeler-earle, name:westmoreland-william]
+    time_range:
+      - 1968-03-09T14:00Z
+      - 1968-03-09T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-09.vietnam-205000-2
     when: Mar. 9
     date: '1968-03-09'
@@ -1051,6 +1382,12 @@ entries:
         - 'via x.1968-03-03.cincpac-to-jcs-032253z-mar-68: all'
         - 'via x.1968-03-09.cincpac-to-jcs-092348z-mar-68: all'
     tags: [name:sharp-u-s-grant, name:westmoreland-william]
+    time_range:
+      - 1968-03-09T19:00Z
+      - 1968-03-10T03:00Z
+    time_band: workday daytime
+    time_zone: Pacific/Honolulu
+    range_basis: kind
   - id: cal.1968-03-10.vietnam
     when: Mar. 10
     date: '1968-03-10'
@@ -1095,6 +1432,12 @@ entries:
       rows:
         - 'w.johnson-vantage-point 402: all'
     tags: [name:rusk-dean, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-10T17:00Z
+      - 1968-03-10T19:00Z
+    time_band: workday midday
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-10.robert-kennedy
     when: Mar. 10
     date: '1968-03-10'
@@ -1125,6 +1468,12 @@ entries:
         - 'w.palermo-in-his-own-right 131: all'
         - 'via w.palermo-in-his-own-right 131 n.5: all'
     tags: [name:dolan-joseph-f, name:kennedy-robert-f, name:johnson-lyndon-b, name:mccarthy-eugene-j, name:humphrey-hubert-h]
+    time_range:
+      - 1968-03-10T14:00Z
+      - 1968-03-10T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-10.elections-1968
     when: Mar. 10
     date: '1968-03-10'
@@ -1159,6 +1508,12 @@ entries:
         - 'w.white-making-of-the-president-1969 229–30: ?'
         - 'w.smith-on-his-own-terms 514: A-C'
     tags: [name:rockefeller-nelson, name:agnew-spiro-t, name:rockefeller-winthrop, name:shafer-raymond-p, name:levander-harold, name:chafee-john-h, name:love-john-a, name:mccall-tom, name:boe-nils-a, name:lindsay-john-v]
+    time_range:
+      - 1968-03-10T14:00Z
+      - 1968-03-10T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-10.robert-kennedy-campaign
     when: Mar. 10–11
     date: '1968-03-10'
@@ -1188,6 +1543,12 @@ entries:
       rows:
         - 'w.macv-command-history-1968 786: all'
     tags: [name:vo-nguyen-giap, place:khe-sanh]
+    time_range:
+      - 1968-03-10T01:00Z
+      - 1968-03-10T09:00Z
+    time_band: workday daytime
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: kind
   - id: cal.1968-03-10.laos
     when: Mar. 10–11
     date: '1968-03-10'
@@ -1213,6 +1574,12 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d188: all'
     tags: [name:martin-william-mcchesney-jr]
+    time_range:
+      - 1968-03-10T08:00Z
+      - 1968-03-10T16:00Z
+    time_band: workday daytime
+    time_zone: Europe/Zurich
+    range_basis: kind
   - id: cal.1968-03-11.vietnam
     when: Mar. 11–12
     date: '1968-03-11'
@@ -1242,13 +1609,19 @@ entries:
     c: Geneva. Foster and Roshchin bring the Eighteen-Nation Disarmament Committee a revised joint draft of the nonproliferation treaty.
     n: 'Joint American-Soviet Draft Treaty on the Nonproliferation of Nuclear Weapons, Mar. 11, 1968, U.S. Arms Control and Disarmament Agency, *Documents on Disarmament, 1968*, [162–66](https://archive.org/details/DTIC_AD0703891/page/162/mode/1up) (1969) (the draft, submitted to the Committee by the United States and the Soviet Union). See [[cal.1968-03-07.testing]]. Names: Foster, Roshchin.'
     tags: [name:foster-william-c, name:roshchin-alexei-a]
+    time_range:
+      - 1968-03-11T08:00Z
+      - 1968-03-11T16:00Z
+    time_band: workday daytime
+    time_zone: Europe/Zurich
+    range_basis: kind
   - id: cal.1968-03-11.open-housing
     when: Mar. 11
     date: '1968-03-11'
     thread: open-housing
     also: [congress]
     c: 'The Senate passes H.R. 2516, [71–20](https://voteview.com/rollcall/RS0900346). Johnson: a statement.'
-    n: 'Statement by the President on the Senate''s Action in Passing the Civil Rights Bill, [1968–69 Pub. Papers 374](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=452) (Mar. 11, 1968). [[w.kotz-judgment-days]], 391 (71–20; Johnson calls on the House); [[w.branch-at-canaans-edge]], 711 (the eighth cloture); [[w.bernstein-guns-or-butter]], 499 (Dirksen''s substitute adopted 83 to 5; the bill passed 71 to 20). To check: New York Times, March 12, 1968, p. 1 (cited by [[w.branch-at-canaans-edge]], 711); [[w.graham-civil-rights-era]], 270–71 (cited by [[w.branch-at-canaans-edge]], 711); New York Times, March 5, 1968, pp. 1, 28 (cited by [[w.branch-at-canaans-edge]], 711); New York Times, Feb. 28, 1968, pp. 1, 30 (cited by [[w.branch-at-canaans-edge]], 711). See [[cal.1968-02-06.open-housing]]. Names: Johnson.'
+    n: 'Statement by the President on the Senate''s Action in Passing the Civil Rights Bill, [1968–69 Pub. Papers 374](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=452) (Mar. 11, 1968). [[w.kotz-judgment-days]], 391 (71–20; Johnson calls on the House); [[w.branch-at-canaans-edge]], 711 (the eighth cloture); [[w.bernstein-guns-or-butter]], 499 (Dirksen''s substitute adopted 83 to 5; the bill passed 71 to 20). The Senate sat from noon to 6:35 p.m.: [Daily Digest, D90](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=88). To check: New York Times, March 12, 1968, p. 1 (cited by [[w.branch-at-canaans-edge]], 711); [[w.graham-civil-rights-era]], 270–71 (cited by [[w.branch-at-canaans-edge]], 711); New York Times, March 5, 1968, pp. 1, 28 (cited by [[w.branch-at-canaans-edge]], 711); New York Times, Feb. 28, 1968, pp. 1, 30 (cited by [[w.branch-at-canaans-edge]], 711). See [[cal.1968-02-06.open-housing]]. Names: Johnson.'
     src:
       c: a2ce388c
       rows:
@@ -1261,6 +1634,10 @@ entries:
         - 'via x.1968-02-28.new-york-times-feb-28-1968-2: all'
         - 'w.bernstein-guns-or-butter 499: ?'
     tags: [name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-11T17:00Z
+      - 1968-03-11T23:35Z
+    time_zone: America/New_York
   - id: cal.1968-03-11.court
     when: Mar. 11
     date: '1968-03-11'
@@ -1276,6 +1653,12 @@ entries:
         - 'https://tile.loc.gov/storage-services/service/ll/usrep/usrep390/usrep390333/usrep390333.pdf: B'
         - 'via x.1979.morgan-charles-jr-one-man-one: all'
     tags: [state:al]
+    time_range:
+      - 1968-03-11T14:00Z
+      - 1968-03-11T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-11.vietnam-operations
     when: Mar. 11
     date: '1968-03-11'
@@ -1325,6 +1708,12 @@ entries:
         - 'w.white-making-of-the-president-1969 160: all'
         - 'via x.undated.edward-m-kennedy-later-account: B'
     tags: [name:goodwin-richard-n, name:mccarthy-eugene-j, name:kennedy-robert-f, name:kennedy-edward-m, state:nh]
+    time_range:
+      - 1968-03-11T14:00Z
+      - 1968-03-11T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-11.economy-surcharge
     when: Mar. 11
     date: '1968-03-11'
@@ -1353,6 +1742,12 @@ entries:
         - 'via x.1968-03.robert-kennedys-offices-account-of-the-sorensen: B'
         - 'via x.1968-03.the-white-house-account-of-the-clifford-meeting: C'
     tags: [name:sorensen-theodore-c, name:johnson-lyndon-b, name:pierson-devier]
+    time_range:
+      - 1968-03-11T14:00Z
+      - 1968-03-11T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-11.elections-1968-2
     when: Mar. 11
     date: '1968-03-11'
@@ -1387,6 +1782,12 @@ entries:
       c: 04f4ea0d
       rows:
         - 'w.macv-command-history-1968 1038: all'
+    time_range:
+      - 1968-03-11T01:00Z
+      - 1968-03-11T09:00Z
+    time_band: workday daytime
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: kind
   - id: cal.1968-03-11.elections-1968-4
     when: Mar. 11
     date: '1968-03-11'
@@ -1420,6 +1821,12 @@ entries:
     c: 'Johnson to the Speaker: pass the Senate''s bill.'
     n: 'Letter to the Speaker of the House Urging Prompt Action on the Civil Rights Bill, [1968–69 Pub. Papers 380](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=458) (Mar. 12, 1968). See [[cal.1968-02-06.open-housing]]. Names: McCormack, Johnson.'
     tags: [name:johnson-lyndon-b, name:mccormack-john-w]
+    time_range:
+      - 1968-03-12T14:00Z
+      - 1968-03-12T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-12.elections-1968
     when: Mar. 12
     date: '1968-03-12'
@@ -1516,6 +1923,10 @@ entries:
         - 'via w.garrow-bearing-the-cross 601 n.31a: B-D'
         - 'via w.garrow-bearing-the-cross 601 n.31b: B'
     tags: [name:king-martin-luther-jr, name:johnson-lyndon-b, state:ga, city:atlanta]
+    time_range:
+      - 1968-03-12T16:00Z
+      - 1968-03-12T21:00Z
+    time_zone: America/New_York
   - id: cal.1968-03-12.vietnam
     when: Mar. 12
     date: '1968-03-12'
@@ -1551,6 +1962,10 @@ entries:
         - 'w.shesol-mutual-contempt 417–18: ?'
         - 'w.thomas-robert-kennedy 359: A-B'
     tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr, name:vanden-heuvel-william-j, state:ny]
+    time_range:
+      - 1968-03-12T22:00Z
+      - 1968-03-13T05:00Z
+    time_zone: America/New_York
   - id: cal.1968-03-12.elections-1968-3
     when: Mar. 12
     date: '1968-03-12'
@@ -1559,6 +1974,10 @@ entries:
     c: 'New York, Nixon''s apartment, early afternoon of the primary, with Theodore White: Lamprey has called, the vote heavy; no statement on Vietnam, lest it bind him or undercut Johnson''s negotiations; if elected, the first thing he would do is try to get in touch with Red China.'
     n: '[[w.white-making-of-the-president-1969]], 147–48 ("How do you liquidate that war with honor?"; Rockefeller to need 30 percent of the Republican vote, retracted). Names: Nixon, Theodore White, Johnson.'
     tags: [name:nixon-richard-m, name:white-theodore-h, name:johnson-lyndon-b, state:ny, city:nyc]
+    time_range:
+      - 1968-03-12T17:00Z
+      - 1968-03-12T20:00Z
+    time_zone: America/New_York
   - id: cal.1968-03-12.economy-surcharge
     when: Mar. 12–14
     date: '1968-03-12'
@@ -1630,6 +2049,12 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d185: all'
     tags: [name:pearson-lester-b, name:johnson-lyndon-b, name:sharp-mitchell-w, name:fowler-henry-h]
+    time_range:
+      - 1968-03-12T14:00Z
+      - 1968-03-12T22:00Z
+    time_band: workday daytime
+    time_zone: America/Toronto
+    range_basis: kind
   - id: cal.1968-03-12.king-poor-peoples-2
     when: Mar. 12
     date: '1968-03-12'
@@ -1643,6 +2068,12 @@ entries:
         - 'w.kotz-judgment-days 388: all'
         - 'via w.kotz-judgment-days 388 n.16: all'
     tags: [name:king-martin-luther-jr]
+    time_range:
+      - 1968-03-12T14:00Z
+      - 1968-03-12T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-13.opinion
     when: Mar. 13
     date: '1968-03-13'
@@ -1695,6 +2126,12 @@ entries:
         - 'via w.palermo-in-his-own-right 133 n.15: A'
         - 'via w.palermo-in-his-own-right 134 n.20: B'
     tags: [name:roche-john-p, name:watson-w-marvin, name:kennedy-robert-f, name:mccarthy-eugene-j, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-13T14:00Z
+      - 1968-03-13T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-13.robert-kennedy-2
     when: Mar. 13
     date: '1968-03-13'
@@ -1721,6 +2158,12 @@ entries:
       rows:
         - 'w.mann-grand-delusion 596: all'
     tags: [name:mansfield-mike, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-13T14:00Z
+      - 1968-03-13T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-13.vietnam-205000
     when: Mar. 13
     date: '1968-03-13'
@@ -1739,6 +2182,11 @@ entries:
     c: 'Manchester, McCarthy''s press conference the morning after: "I think I can get the nomination"; the Wisconsin campaign now to be financed. In Washington, off the plane, Eller with the news-ticker''s report of Robert Kennedy "reassessing"; questions at the airport about Kennedy.'
     n: '[[w.white-making-of-the-president-1969]], 89–90 (Charles Bailey of the *Minneapolis Tribune*). See [[cal.1968-03-13.robert-kennedy]]. Names: McCarthy, Robert Kennedy.'
     tags: [name:mccarthy-eugene-j, name:kennedy-robert-f, state:nh]
+    time_range:
+      - 1968-03-13T11:00Z
+      - 1968-03-13T17:00Z
+    time_zone: America/New_York
+    time_band: morning
   - id: cal.1968-03-13.open-housing
     when: Mar. 13
     date: '1968-03-13'
@@ -1751,6 +2199,12 @@ entries:
         - 'w.kotz-judgment-days 391: all'
         - 'w.kotz-judgment-days 392: A'
     tags: [name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-13T14:00Z
+      - 1968-03-13T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-13.robert-kennedy-campaign
     when: Mar. 13
     date: '1968-03-13'
@@ -1763,6 +2217,12 @@ entries:
         - 'w.shesol-mutual-contempt 419: all'
         - 'via x.1968-03-13.dutton-to-rfk-commission-escape-hatch: all'
     tags: [name:dutton-frederick-g, name:kennedy-robert-f, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-13T14:00Z
+      - 1968-03-13T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-13.economy-surcharge
     when: Mar. 13
     date: '1968-03-13'
@@ -1776,6 +2236,12 @@ entries:
         - 'w.zelizer-fierce-urgency-of-now 287–88: all'
         - 'via w.zelizer-fierce-urgency-of-now 288 n.52: all'
     tags: [name:humphrey-hubert-h, name:sanders-h-barefoot-jr]
+    time_range:
+      - 1968-03-13T14:00Z
+      - 1968-03-13T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-13.robert-kennedy-campaign-2
     when: Mar. 13
     date: '1968-03-13'
@@ -1802,6 +2268,11 @@ entries:
         - 'w.thomas-robert-kennedy 360: all'
         - 'via w.thomas-robert-kennedy 360 n.punishing-himself-inwardly: all'
     tags: [name:kennedy-robert-f, name:mcgovern-george]
+    time_range:
+      - 1968-03-13T17:00Z
+      - 1968-03-13T23:00Z
+    time_band: afternoon
+    time_zone: America/New_York
   - id: cal.1968-03-13.economy-gold
     when: Mar. 13
     date: '1968-03-13'
@@ -1814,6 +2285,12 @@ entries:
         - 'w.gavin-gold-dollars-and-power 180: all'
         - 'via w.gavin-gold-dollars-and-power 180 n.35: all'
     tags: [name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-13T14:00Z
+      - 1968-03-13T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-14.economy
     when: Mar. 14
     date: '1968-03-14'
@@ -1830,6 +2307,12 @@ entries:
         - 'w.gavin-gold-dollars-and-power 180–81: B'
         - 'via w.gavin-gold-dollars-and-power 181 n.36: B'
     tags: [name:fowler-henry-h, name:martin-william-mcchesney-jr]
+    time_range:
+      - 1968-03-14T14:00Z
+      - 1968-03-14T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-14.vietnam-205000
     when: Mar. 14
     date: '1968-03-14'
@@ -1845,6 +2328,12 @@ entries:
         - 'w.clifford-counsel-to-the-president-2 502: A'
         - 'w.berman-lyndon-johnsons-war 186–87: ?'
     tags: [name:acheson-dean-g, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-14T14:00Z
+      - 1968-03-14T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-14.robert-kennedy
     when: Mar. 14–16
     date: '1968-03-14'
@@ -1900,6 +2389,10 @@ entries:
         - 'via w.schlesinger-robert-kennedy-and-his 853 n.45: all'
         - 'w.white-making-of-the-president-1969 164: all'
     tags: [name:mcgovern-george, name:udall-stewart-l, name:metcalf-lee-w, name:kennedy-robert-f, name:mccarthy-eugene-j]
+    time_range:
+      - 1968-03-14T16:00Z
+      - 1968-03-14T21:00Z
+    time_zone: America/New_York
   - id: cal.1968-03-14.elections-1968
     when: Mar. 14
     date: '1968-03-14'
@@ -1924,6 +2417,12 @@ entries:
         - 'w.palermo-in-his-own-right 135: all'
         - 'via w.palermo-in-his-own-right 135 n.23: all'
     tags: [name:roche-john-p, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-14T14:00Z
+      - 1968-03-14T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-14.robert-kennedy-2
     when: Mar. 14
     date: '1968-03-14'
@@ -1963,6 +2462,12 @@ entries:
     c: 'Mayor Tate of Philadelphia, for the National League of Cities, to the House housing subcommittee: transit funding inadequate; $1.5 billion of contract authority in place of year-to-year funds; private transit companies'' money to count toward the local match.'
     n: '[[w.cq-weekly-report]], June 7, 1968, 1402. The match provision in S. 3497 as the Senate passed it, May 28 (1402). Names: Tate.'
     tags: [name:tate-james-h-j]
+    time_range:
+      - 1968-03-14T14:00Z
+      - 1968-03-14T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-14.vietnam
     when: Mar. 14
     date: '1968-03-14'
@@ -1996,6 +2501,12 @@ entries:
         - 'via x.2004-12-30.int-vincent-harding-dec-30-2004: all'
         - 'via x.undated.tiyerina-they-called-me-pp-l01: all'
     tags: [name:king-martin-luther-jr, name:chavez-cesar, name:tijerina-reies-lopez, state:ga, city:atlanta]
+    time_range:
+      - 1968-03-14T14:00Z
+      - 1968-03-14T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-14.king
     when: Mar. 14
     date: '1968-03-14'
@@ -2034,6 +2545,12 @@ entries:
         - 'w.berman-lyndon-johnsons-war 201, 220–29: all'
         - 'via x.1968-03-14.hoopes-to-clifford: all'
     tags: [name:hoopes-townsend-w, name:clifford-clark]
+    time_range:
+      - 1968-03-14T14:00Z
+      - 1968-03-14T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-14.vietnam-operations
     when: Mar. 14
     date: '1968-03-14'
@@ -2058,6 +2575,12 @@ entries:
         - 'w.shesol-mutual-contempt 429: all'
         - 'via x.1968-03-28.panzer-to-watson-jaw-corps: all'
     tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
+    time_range:
+      - 1968-03-14T14:00Z
+      - 1968-03-14T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-14.press-and-broadcasting-2
     when: Mar. 14
     date: '1968-03-14'
@@ -2082,6 +2605,12 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=98: A'
         - 'w.bernstein-guns-or-butter 373: B'
     tags: [name:smathers-george-a, name:williams-john-j]
+    time_range:
+      - 1968-03-14T14:00Z
+      - 1968-03-14T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-14.program
     when: Mar. 14
     date: '1968-03-14'
@@ -2094,6 +2623,12 @@ entries:
         - 'w.bernstein-guns-or-butter 450: all'
         - 'via x.1968-03-14.ripley-to-mcpherson-mcpherson-papers: all'
     tags: [name:mcpherson-harry]
+    time_range:
+      - 1968-03-14T14:00Z
+      - 1968-03-14T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-15.open-housing-ky
     when: Mar. 15
     date: '1968-03-15'
@@ -2142,6 +2677,12 @@ entries:
         - 'via w.zelizer-taxing-america 272 n.77: all'
         - 'w.zelizer-fierce-urgency-of-now 288: ?'
     tags: [name:sanders-h-barefoot-jr, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-15T14:00Z
+      - 1968-03-15T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-15.robert-kennedy
     when: Mar. 15
     date: '1968-03-15'
@@ -2155,6 +2696,12 @@ entries:
         - 'w.palermo-in-his-own-right 142: all'
         - 'via w.palermo-in-his-own-right 142 n.53: all'
     tags: [name:kennedy-robert-f, name:mccormack-john-w, name:mccarthy-eugene-j]
+    time_range:
+      - 1968-03-15T14:00Z
+      - 1968-03-15T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-15.elections-1968
     when: Mar. 15
     date: '1968-03-15'
@@ -2171,6 +2718,12 @@ entries:
         - 'via w.palermo-in-his-own-right 132 n.10: D'
         - 'via w.palermo-in-his-own-right 132 n.8: E'
     tags: [name:watson-w-marvin, name:hughes-harold-e, name:johnson-lyndon-b, name:kennedy-robert-f, name:mccarthy-eugene-j, name:connally-john, name:hearnes-warren-e]
+    time_range:
+      - 1968-03-15T14:00Z
+      - 1968-03-15T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-15.robert-kennedy-campaign
     when: Mar. 15
     date: '1968-03-15'
@@ -2224,6 +2777,11 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 515: all'
     tags: [name:hinman-george-l, name:rockefeller-nelson]
+    time_range:
+      - 1968-03-15T11:00Z
+      - 1968-03-15T17:00Z
+    time_zone: America/New_York
+    time_band: morning
   - id: cal.1968-03-15.vietnam
     when: Mar. 15
     date: '1968-03-15'
@@ -2236,6 +2794,12 @@ entries:
         - 'w.macv-command-history-1968 252: all'
         - 'via w.macv-command-history-1968 252 n.53: all'
     tags: [name:westmoreland-william, name:sharp-u-s-grant, name:nguyen-van-thieu]
+    time_range:
+      - 1968-03-15T01:00Z
+      - 1968-03-15T09:00Z
+    time_band: workday daytime
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: kind
   - id: cal.1968-03-15.elections-1968-3
     when: Mar. 15
     date: '1968-03-15'
@@ -2248,6 +2812,12 @@ entries:
         - 'w.shesol-mutual-contempt 431: all'
         - 'via x.1968-03-15.rowe-to-johnson-california: all'
     tags: [name:rowe-james-h-jr, name:johnson-lyndon-b, name:kennedy-robert-f, state:ca]
+    time_range:
+      - 1968-03-15T14:00Z
+      - 1968-03-15T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-15.elections-1968-4
     when: Mar. 15
     date: '1968-03-15'
@@ -2271,6 +2841,12 @@ entries:
       c: c94d6e95
       rows:
         - 'w.bernstein-guns-or-butter 373: all'
+    time_range:
+      - 1968-03-15T14:00Z
+      - 1968-03-15T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-16.vietnam
     when: Mar. 16
     date: '1968-03-16'
@@ -2355,6 +2931,12 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 858–59: all'
         - 'via w.schlesinger-robert-kennedy-and-his 858 n.3: all'
     tags: [name:manatos-mike-n, name:johnson-lyndon-b, name:kennedy-robert-f, name:byrd-robert-c, name:jackson-henry-m, name:gruening-ernest, name:morse-wayne, name:ribicoff-abraham]
+    time_range:
+      - 1968-03-16T14:00Z
+      - 1968-03-16T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-16.robert-kennedy
     when: Mar. 16
     date: '1968-03-16'
@@ -2416,6 +2998,11 @@ entries:
         - 'via w.palermo-in-his-own-right 151 n.104: all'
         - 'via w.palermo-in-his-own-right 190 n.12b: all'
     tags: [name:kennedy-edward-m, name:kennedy-robert-f, name:dolan-joseph-f]
+    time_range:
+      - 1968-03-16T11:00Z
+      - 1968-03-16T17:00Z
+    time_band: morning
+    time_zone: America/New_York
   - id: cal.1968-03-16.robert-kennedy-3
     when: Mar. 16
     date: '1968-03-16'
@@ -2429,6 +3016,12 @@ entries:
         - 'w.palermo-in-his-own-right 172: all'
         - 'via w.palermo-in-his-own-right 172 n.54: all'
     tags: [name:dolan-joseph-f, name:wallace-george-c, state:al]
+    time_range:
+      - 1968-03-16T15:00Z
+      - 1968-03-16T23:00Z
+    time_band: workday daytime
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1968-03-16.elections-1968-5
     when: Mar. 16
     date: '1968-03-16'
@@ -2441,6 +3034,10 @@ entries:
       rows:
         - 'w.chester-american-melodrama 156–60: all'
     tags: [name:humphrey-hubert-h, name:branigin-roger-d, name:johnson-lyndon-b, name:kennedy-robert-f, state:in]
+    time_range:
+      - 1968-03-16T22:00Z
+      - 1968-03-17T06:00Z
+    time_zone: America/Indiana/Indianapolis
   - id: cal.1968-03-16.vietnam-205000-2
     when: Mar. 16
     date: '1968-03-16'
@@ -2454,6 +3051,12 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d133: all'
         - 'w.clifford-counsel-to-the-president-2 506: A'
     tags: [name:nitze-paul, name:johnson-lyndon-b, name:clifford-clark]
+    time_range:
+      - 1968-03-16T14:00Z
+      - 1968-03-16T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-16.king
     when: Mar. 16
     date: '1968-03-16'
@@ -2483,6 +3086,12 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 515: all'
     tags: [name:rockefeller-nelson, name:hughes-emmet-john]
+    time_range:
+      - 1968-03-16T14:00Z
+      - 1968-03-16T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-16.elections-1968-7
     when: Mar. 16
     date: '1968-03-16'
@@ -2495,6 +3104,12 @@ entries:
         - 'w.shesol-mutual-contempt 430: all'
         - 'via x.1968-03-16.reedy-to-johnson-remain-aloof: all'
     tags: [name:reedy-george-e, name:johnson-lyndon-b, name:kennedy-robert-f, name:mccarthy-eugene-j]
+    time_range:
+      - 1968-03-16T14:00Z
+      - 1968-03-16T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-16.robert-kennedy-campaign
     when: Mar. 16
     date: '1968-03-16'
@@ -2565,6 +3180,12 @@ entries:
         - 'w.chester-american-melodrama 221: all'
         - 'w.smith-on-his-own-terms 515: A-B'
     tags: [name:rockefeller-nelson, state:or]
+    time_range:
+      - 1968-03-17T14:00Z
+      - 1968-03-17T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-17.vietnam
     when: Mar. 17
     date: '1968-03-17'
@@ -2611,6 +3232,12 @@ entries:
       rows:
         - 'w.macv-command-history-1968 944–45: all'
     tags: [name:wheeler-earle, name:westmoreland-william]
+    time_range:
+      - 1968-03-17T14:00Z
+      - 1968-03-17T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-17.king
     when: Mar. 17
     date: '1968-03-17'
@@ -2650,6 +3277,12 @@ entries:
     c: 'The gold cover act signed, [82 Stat. 50](https://www.govinfo.gov/content/pkg/STATUTE-82/pdf/STATUTE-82-Pg50.pdf): no gold reserve behind Federal Reserve notes.'
     n: 'Statute (K–J Cong. II.J.2). See [[cal.1968-03-14.economy]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-18T14:00Z
+      - 1968-03-18T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-18.king
     when: Mar. 18
     date: '1968-03-18'
@@ -2715,13 +3348,17 @@ entries:
     thread: vietnam-congress
     also: [republican-party-congress]
     c: 'The House: 132 members, 91 Republicans and 41 Democrats, sponsor a resolution for an immediate congressional review of the policy in Southeast Asia.'
-    n: '[[w.palermo-in-his-own-right]], 151; [[w.zaroulis-who-spoke-up]], 155 (139 members, 98 Republicans and 41 Democrats; Udall among the sponsors; held in Rules since the autumn). Check: Zaroulis and Sullivan, 155, give 139 members, 98 Republicans and 41 Democrats. To check: [[w.pentagon-papers]], 591 (cited by [[w.palermo-in-his-own-right]], 151 n.106; the edition not given). Check: the resolution and its sponsors in the Record.'
+    n: '[[w.palermo-in-his-own-right]], 151; [[w.zaroulis-who-spoke-up]], 155 (139 members, 98 Republicans and 41 Democrats; Udall among the sponsors; held in Rules since the autumn). The House sat from noon to 4:01 p.m.: [Daily Digest, D106](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=104). Check: Zaroulis and Sullivan, 155, give 139 members, 98 Republicans and 41 Democrats. To check: [[w.pentagon-papers]], 591 (cited by [[w.palermo-in-his-own-right]], 151 n.106; the edition not given). Check: the resolution and its sponsors in the Record.'
     src:
       c: 701bdcfc
       rows:
         - 'w.palermo-in-his-own-right 151: all'
         - 'w.zaroulis-who-spoke-up 155: ?'
     short: the 132 members' resolution for a review
+    time_range:
+      - 1968-03-18T17:00Z
+      - 1968-03-18T21:01Z
+    time_zone: America/New_York
   - id: cal.1968-03-18.elections-1968
     when: Mar. 18
     date: '1968-03-18'
@@ -2735,6 +3372,12 @@ entries:
         - 'w.palermo-in-his-own-right 196: all'
         - 'via w.palermo-in-his-own-right 196 n.39: all'
     tags: [name:roche-john-p, name:johnson-lyndon-b, name:reuther-walter, name:kennedy-robert-f]
+    time_range:
+      - 1968-03-18T14:00Z
+      - 1968-03-18T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-18.elections-1968-2
     when: Mar. 18–28
     date: '1968-03-18'
@@ -2770,6 +3413,12 @@ entries:
         - 'via x.1968-03-18.mcpherson-to-johnson-mar-18-1968: B-C'
         - 'w.shesol-mutual-contempt 430–31: ?'
     tags: [name:mcpherson-harry, name:johnson-lyndon-b, name:kennedy-robert-f, name:nixon-richard-m]
+    time_range:
+      - 1968-03-18T14:00Z
+      - 1968-03-18T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-18.republican-party
     when: Mar. 18
     date: '1968-03-18'
@@ -2786,6 +3435,12 @@ entries:
         - 'via x.1968-03-18.emmet-hughes-draft-statement-for-rockefeller-on: C'
         - 'via x.1968-03.lloyd-frees-poll-of-oregon-for-rockefeller-march: D'
     tags: [name:rockefeller-nelson, name:morton-thruston-b, name:hughes-emmet-john, name:hinman-george-l, name:nixon-richard-m, city:dc]
+    time_range:
+      - 1968-03-19T00:00Z
+      - 1968-03-19T03:00Z
+    time_band: evening
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-18.vietnam-205000
     when: Mar. 18
     date: '1968-03-18'
@@ -2799,6 +3454,12 @@ entries:
         - 'w.berman-lyndon-johnsons-war 187: all'
         - 'via x.1968-03-18.mcpherson-to-johnson: all'
     tags: [name:mcpherson-harry, name:johnson-lyndon-b, name:kennedy-robert-f, name:nixon-richard-m]
+    time_range:
+      - 1968-03-18T14:00Z
+      - 1968-03-18T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-18.vietnam-205000-2
     when: Mar. 18
     date: '1968-03-18'
@@ -2811,6 +3472,12 @@ entries:
         - 'w.berman-lyndon-johnsons-war 188: all'
         - 'via x.1968-03-18.minutes-of-the-joint-chiefs-meeting: all'
     tags: [name:johnson-harold-k, name:mcconnell-john-p, name:moorer-thomas, name:chapman-leonard-f-jr, name:wheeler-earle]
+    time_range:
+      - 1968-03-18T14:00Z
+      - 1968-03-18T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-18.robert-kennedy-campaign
     when: Mar. 18
     date: '1968-03-18'
@@ -2823,6 +3490,12 @@ entries:
         - 'w.shesol-mutual-contempt 424: all'
         - 'via x.1968-03-18.douglas-to-rfk-suggestions-on-mccarthy: all'
     tags: [name:douglas-john-w, name:kennedy-robert-f]
+    time_range:
+      - 1968-03-18T14:00Z
+      - 1968-03-18T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-18.vietnam-205000-3
     when: Mar. 18
     date: '1968-03-18'
@@ -2835,6 +3508,12 @@ entries:
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 224: all'
     tags: [name:clifford-clark]
+    time_range:
+      - 1968-03-18T14:00Z
+      - 1968-03-18T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-19.students
     when: Mar. 19–23
     date: '1968-03-19'
@@ -2872,6 +3551,10 @@ entries:
       rows:
         - 'w.johnson-vantage-point 409: all'
     tags: [name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-19T22:00Z
+      - 1968-03-20T05:00Z
+    time_zone: America/New_York
   - id: cal.1968-03-19.open-housing
     when: Mar. 19
     date: '1968-03-19'
@@ -2888,6 +3571,12 @@ entries:
         - 'w.kotz-judgment-days 396: A'
         - 'via x.1968-03-20.washington-post-a7-rules: A'
     tags: [name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-19T14:00Z
+      - 1968-03-19T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-19.elections-1968
     when: Mar. 19
     date: '1968-03-19'
@@ -2901,6 +3590,12 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 859: all'
         - 'via w.schlesinger-robert-kennedy-and-his 859 n.4: all'
     tags: [name:manatos-mike-n, name:johnson-lyndon-b, name:inouye-daniel-k, name:mink-patsy-t, name:kennedy-robert-f, state:hi]
+    time_range:
+      - 1968-03-19T14:00Z
+      - 1968-03-19T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-19.elections-1968-2
     when: Mar. 19
     date: '1968-03-19'
@@ -2918,6 +3613,12 @@ entries:
         - 'w.white-making-of-the-president-1969 110–11: ?'
         - 'via x.1969.white-1968-p110-mcpherson-rowe: all'
     tags: [name:rowe-james-h-jr, name:johnson-lyndon-b, name:mccarthy-eugene-j, name:kennedy-robert-f]
+    time_range:
+      - 1968-03-19T14:00Z
+      - 1968-03-19T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-19.robert-kennedy
     when: Mar. 19
     date: '1968-03-19'
@@ -2957,6 +3658,11 @@ entries:
         - 'w.smith-on-his-own-terms 516: A-C'
         - 'via x.1968-03-20.riland-diary-mar-20-1968: A-C'
     tags: [name:rockefeller-nelson, name:morton-thruston-b, name:scott-hugh-d-jr, name:fong-hiram-l, name:nixon-richard-m]
+    time_range:
+      - 1968-03-19T11:00Z
+      - 1968-03-19T17:00Z
+    time_band: morning
+    time_zone: America/New_York
   - id: cal.1968-03-19.king-poor-peoples
     when: Mar. 19–20
     date: '1968-03-19'
@@ -2992,6 +3698,12 @@ entries:
         - 'w.shesol-mutual-contempt 428: all'
         - 'via x.1968-03-19.obrien-to-johnson-loyalty-oaths: all'
     tags: [name:obrien-lawrence-f, name:johnson-lyndon-b, name:rowe-james-h-jr, name:mcpherson-harry, name:kennedy-robert-f]
+    time_range:
+      - 1968-03-19T14:00Z
+      - 1968-03-19T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-19.cities-and-housing
     when: Mar. 19
     date: '1968-03-19'
@@ -3005,6 +3717,12 @@ entries:
         - 'w.shesol-mutual-contempt 332: all'
         - 'via x.1968-03-19.levinson-to-johnson-hud-treasury-primed: all'
     tags: [name:levinson-lawrence-e, name:johnson-lyndon-b, name:kennedy-robert-f, name:stokes-carl-b]
+    time_range:
+      - 1968-03-19T14:00Z
+      - 1968-03-19T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-19.laos
     when: Mar. 19
     date: '1968-03-19'
@@ -3020,8 +3738,12 @@ entries:
     date: '1968-03-20'
     thread: congress
     c: 'Senate, S. Res. 266, its first code of conduct: Clark''s substitute, full public disclosure, refused, [40–44](https://voteview.com/rollcall/RS0900360).'
-    n: 'To check: [[w.zelizer-on-capitol-hill]]. See [[cal.1967-06-13.congress]]. Names: Clark.'
+    n: 'The Senate sat from noon to 6:20 p.m.: [Daily Digest, PDF p. 109](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=109). To check: [[w.zelizer-on-capitol-hill]]. See [[cal.1967-06-13.congress]]. Names: Clark.'
     tags: [name:clark-joseph-s]
+    time_range:
+      - 1968-03-20T17:00Z
+      - 1968-03-20T23:20Z
+    time_zone: America/New_York
   - id: cal.1968-03-20.opinion
     when: Mar. 20
     date: '1968-03-20'
@@ -3094,6 +3816,12 @@ entries:
         - 'w.palermo-in-his-own-right 188: all'
         - 'via w.palermo-in-his-own-right 188 n.2: all'
     tags: [name:walinsky-adam, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-20T14:00Z
+      - 1968-03-20T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-20.vietnam-205000-4
     when: Mar. 20
     date: '1968-03-20'
@@ -3164,6 +3892,12 @@ entries:
         - 'w.white-making-of-the-president-1969 231: A, B'
         - 'w.smith-on-his-own-terms 517: B-C, E'
     tags: [name:rockefeller-nelson, name:agnew-spiro-t]
+    time_range:
+      - 1968-03-21T14:00Z
+      - 1968-03-21T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-21.middle-east
     when: Mar. 21
     date: '1968-03-21'
@@ -3226,6 +3960,10 @@ entries:
     c: 'New York, Grand Central Station. The Yippies'' night party, some 5,000: a clash with the police, more than 50 arrests, many hurt.'
     n: '[[w.rights-in-conflict-convention-week]], 47.'
     tags: [state:ny, city:nyc]
+    time_range:
+      - 1968-03-21T23:00Z
+      - 1968-03-22T08:00Z
+    time_zone: America/New_York
   - id: cal.1968-03-21.robert-kennedy-campaign
     when: Mar. 21
     date: '1968-03-21'
@@ -3238,6 +3976,12 @@ entries:
       rows:
         - 'w.chester-american-melodrama 127: all'
     tags: [name:unruh-jesse-m, name:kennedy-robert-f, state:ca]
+    time_range:
+      - 1968-03-21T17:00Z
+      - 1968-03-22T01:00Z
+    time_band: workday daytime
+    time_zone: America/Los_Angeles
+    range_basis: kind
   - id: cal.1968-03-21.elections-1968-2
     when: Mar. 21
     date: '1968-03-21'
@@ -3253,6 +3997,12 @@ entries:
         - 'w.kabaservice-rule-and-ruin 236: all'
         - 'via w.kabaservice-rule-and-ruin 236 n.55: B'
     tags: [name:morse-bradford, name:nixon-richard-m, name:rockefeller-nelson]
+    time_range:
+      - 1968-03-21T14:00Z
+      - 1968-03-21T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-21.vietnam-205000
     when: Mar. 21
     date: '1968-03-21'
@@ -3260,6 +4010,12 @@ entries:
     c: 'McGeorge Bundy to Johnson, after the meeting of Mar. 20 on the draft of the address, its peace initiatives cut: the draft "will be profoundly discouraging to the American people."'
     n: '[[w.bird-color-of-truth]], 367. To check: [[w.gardner-pay-any-price]] (cited by [[w.bird-color-of-truth]], 367 n.65). Names: McGeorge Bundy, Johnson.'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-21T14:00Z
+      - 1968-03-21T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-21.vietnam
     when: Mar. 21
     date: '1968-03-21'
@@ -3281,12 +4037,22 @@ entries:
       c: 2c6d9a99
       rows:
         - 'w.poole-joint-chiefs-of-staff-2012 244: all'
+    time_range:
+      - 1968-03-21T14:00Z
+      - 1968-03-21T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-22.congress
     when: Mar. 22
     date: '1968-03-22'
     thread: congress
     c: 'The Senate''s first code of conduct, S. Res. 266, passed, [67–1](https://voteview.com/rollcall/RS0900366): new rules on gifts and campaign funds, the political work of employees, and disclosure, each Senator to file a public statement of his gifts and honoraria and a sealed one of his income, assets and debts with the Comptroller General (Check the terms).'
-    n: See [[cal.1968-03-20.congress]].
+    n: 'The Senate sat from noon to 6:08 p.m.: [Daily Digest, D118](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=116). See [[cal.1968-03-20.congress]].'
+    time_range:
+      - 1968-03-22T17:00Z
+      - 1968-03-22T23:08Z
+    time_zone: America/New_York
   - id: cal.1968-03-22.transition-and-staff
     when: Mar. 22
     date: '1968-03-22'
@@ -3320,6 +4086,12 @@ entries:
         - 'w.drea-mcnamara-clifford-and-the-2011 495: A-B'
         - 'w.schwartz-lyndon-johnson-and-europe 213–14: all'
     tags: [name:novotny-antonin, name:beam-jacob-d]
+    time_range:
+      - 1968-03-22T08:00Z
+      - 1968-03-22T16:00Z
+    time_band: workday daytime
+    time_zone: Europe/Prague
+    range_basis: kind
   - id: cal.1968-03-22.economy-surcharge
     when: Mar. 22
     date: '1968-03-22'
@@ -3335,6 +4107,10 @@ entries:
         - 'w.bernstein-guns-or-butter 373–74: C'
         - 'via w.bernstein-guns-or-butter 373 n.7b: C'
     tags: [name:mills-wilbur-d, name:fowler-henry-h, name:mahon-george-h, name:martin-william-mcchesney-jr, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-22T16:00Z
+      - 1968-03-22T21:00Z
+    time_zone: America/New_York
   - id: cal.1968-03-22.vietnam-205000
     when: Mar. 22
     date: '1968-03-22'
@@ -3351,6 +4127,12 @@ entries:
         - 'w.white-making-of-the-president-1969 111: all'
         - 'w.berman-lyndon-johnsons-war 192–93: ?'
     tags: [name:johnson-lyndon-b, name:rusk-dean, name:clifford-clark, name:fowler-henry-h, name:clark-ramsey, name:fortas-abe, name:bundy-mcgeorge, name:bundy-william, name:rostow-walt-w, name:mcpherson-harry, name:christian-george, name:westmoreland-william]
+    time_range:
+      - 1968-03-22T14:00Z
+      - 1968-03-22T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-22.economy-surcharge-2
     when: Mar. 22
     date: '1968-03-22'
@@ -3362,6 +4144,12 @@ entries:
       rows:
         - 'w.johnson-vantage-point 452: all'
     tags: [name:smathers-george-a, name:williams-john-j]
+    time_range:
+      - 1968-03-22T19:00Z
+      - 1968-03-22T22:00Z
+    time_band: workday afternoon
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-22.elections-1968
     when: Mar. 22
     date: '1968-03-22'
@@ -3375,6 +4163,12 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 865–66: all'
         - 'via w.schlesinger-robert-kennedy-and-his 866 n.35: all'
     tags: [name:mcpherson-harry, name:johnson-lyndon-b, name:kennedy-robert-f]
+    time_range:
+      - 1968-03-22T14:00Z
+      - 1968-03-22T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-22.robert-kennedy
     when: Mar. 22
     date: '1968-03-22'
@@ -3388,6 +4182,12 @@ entries:
         - 'w.palermo-in-his-own-right 173: all'
         - 'via w.palermo-in-his-own-right 173 n.60: all'
     tags: [name:kennedy-edward-m, name:conyers-john-jr, name:kennedy-robert-f, state:mi]
+    time_range:
+      - 1968-03-22T14:00Z
+      - 1968-03-22T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-22.vietnam-205000-2
     when: Mar. 22
     date: '1968-03-22'
@@ -3401,6 +4201,12 @@ entries:
         - 'via w.mann-grand-delusion 597 n.30: all'
         - 'w.berman-lyndon-johnsons-war 190: ?'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:goldberg-arthur-j]
+    time_range:
+      - 1968-03-22T14:00Z
+      - 1968-03-22T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-22.war-opposition
     when: Mar. 22–24
     date: '1968-03-22'
@@ -3434,6 +4240,12 @@ entries:
         - 'w.branch-at-canaans-edge 722: all'
         - 'via x.1968-03-22.birmingham-lhm-dated-march-22-1968: all'
     tags: [name:hoover-j-edgar, name:king-martin-luther-jr]
+    time_range:
+      - 1968-03-22T14:00Z
+      - 1968-03-22T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-22.vietnam-205000-3
     when: Mar. 22
     date: '1968-03-22'
@@ -3474,6 +4286,12 @@ entries:
         - 'w.woods-j-william-fulbright-vietnam 176: all'
         - 'via x.1968-03-22.marcy-to-staff: all'
     tags: [name:marcy-carl]
+    time_range:
+      - 1968-03-22T14:00Z
+      - 1968-03-22T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-22.elections-1968-3
     when: Mar. 22
     date: '1968-03-22'
@@ -3487,6 +4305,12 @@ entries:
         - 'w.shesol-mutual-contempt 428: all'
         - 'via x.1968-03-22.sanders-to-johnson-floor-speeches: all'
     tags: [name:sanders-h-barefoot-jr, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-22T14:00Z
+      - 1968-03-22T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-22.king-poor-peoples-2
     when: Mar. 22
     date: '1968-03-22'
@@ -3512,6 +4336,12 @@ entries:
         - 'via x.1968-04-02.jcs-2472-254-2-2-apr-68: all'
         - 'via x.1968-04-04.memo-depsecdef-to-cjcs-et-al-southeast: all'
     tags: [name:westmoreland-william, name:nitze-paul]
+    time_range:
+      - 1968-03-22T01:00Z
+      - 1968-03-22T09:00Z
+    time_band: workday daytime
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: kind
   - id: cal.1968-03-22.vietnam-2
     when: Mar. 22
     date: '1968-03-22'
@@ -3535,6 +4365,12 @@ entries:
         - 'w.bernstein-guns-or-butter 373–74: all'
         - 'via x.1968-03-22.henry-fowler-to-lyndon-johnson-mar: all'
     tags: [name:fowler-henry-h, name:johnson-lyndon-b, name:martin-william-mcchesney-jr, name:zwick-charles-j, name:smathers-george-a, name:dirksen-everett, name:mills-wilbur-d, name:mahon-george-h]
+    time_range:
+      - 1968-03-22T14:00Z
+      - 1968-03-22T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-23.vietnam-abrams
     when: Mar. 23
     date: '1968-03-23'
@@ -3550,6 +4386,12 @@ entries:
         - 'via x.1968-03-23.johnson-to-westmoreland-chief-of-staff: all'
         - 'w.berman-lyndon-johnsons-war 191: ?'
     tags: [name:johnson-lyndon-b, name:westmoreland-william]
+    time_range:
+      - 1968-03-23T14:00Z
+      - 1968-03-23T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-23.elections-1968
     when: Mar. 23
     date: '1968-03-23'
@@ -3563,6 +4405,12 @@ entries:
         - 'w.palermo-in-his-own-right 198: all'
         - 'via w.palermo-in-his-own-right 198 n.49: all'
     tags: [name:hart-philip-a, name:watson-w-marvin]
+    time_range:
+      - 1968-03-23T14:00Z
+      - 1968-03-23T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-23.robert-kennedy
     when: Mar. 23
     date: '1968-03-23'
@@ -3576,6 +4424,12 @@ entries:
         - 'w.palermo-in-his-own-right 191: all'
         - 'via w.palermo-in-his-own-right 191 n.13: all'
     tags: [name:schlesinger-arthur-m-jr, name:kennedy-robert-f]
+    time_range:
+      - 1968-03-23T14:00Z
+      - 1968-03-23T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-23.vietnam-205000
     when: Mar. 23
     date: '1968-03-23'
@@ -3643,6 +4497,12 @@ entries:
         - 'w.white-making-of-the-president-1969 111: all'
         - 'w.kotz-judgment-days 398: A-B'
     tags: [name:wheeler-earle, name:westmoreland-william, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-23T01:00Z
+      - 1968-03-23T09:00Z
+    time_band: workday daytime
+    time_zone: Asia/Manila
+    range_basis: kind
   - id: cal.1968-03-23.king
     when: Mar. 23
     date: '1968-03-23'
@@ -3680,6 +4540,12 @@ entries:
         - 'w.shesol-mutual-contempt 430: all'
         - 'via x.1968-03-23.roewer-to-roche-new-york: all'
     tags: [name:roche-john-p, name:johnson-lyndon-b, name:oconnor-frank-d, name:resnick-joseph-y, name:kennedy-robert-f, state:ny]
+    time_range:
+      - 1968-03-23T14:00Z
+      - 1968-03-23T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-23.economy-surcharge
     when: Mar. 23
     date: '1968-03-23'
@@ -3710,6 +4576,12 @@ entries:
     thread: middle-east
     c: 'Security Council Resolution 248, unanimous: the military action by Israel at Karameh, "in flagrant violation" of the Charter and the cease-fire resolutions, condemned (Check the words).'
     n: '[S.C. Res. 248](https://undocs.org/S/RES/248(1968)) (Mar. 24, 1968). See [[cal.1968-03-21.middle-east]].'
+    time_range:
+      - 1968-03-24T14:00Z
+      - 1968-03-24T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-24.opinion
     when: Mar. 24
     date: '1968-03-24'
@@ -3754,6 +4626,12 @@ entries:
         - 'w.westmoreland-soldier-reports 361: A, E'
         - 'w.drea-mcnamara-clifford-and-the-2011 188: ?'
     tags: [name:wheeler-earle, name:westmoreland-william, name:johnson-lyndon-b, name:mcnamara-robert-s]
+    time_range:
+      - 1968-03-24T01:00Z
+      - 1968-03-24T09:00Z
+    time_band: workday daytime
+    time_zone: Asia/Manila
+    range_basis: kind
   - id: cal.1968-03-24.elections-1968-2
     when: Mar. 24
     date: '1968-03-24'
@@ -3762,6 +4640,12 @@ entries:
     c: 'Washington, the Postmaster General''s offices, a Sunday. O''Brien, by Johnson''s leave, calls the Cabinet together, State and Defense excepted: a fight to save the administration; the Secretaries of Agriculture, Labor and the Post Office into the primaries. O''Brien to Wisconsin Mar. 27.'
     n: '[[w.white-making-of-the-president-1969]], 113 (the National Committee''s last $200,000 for the final weekend''s media; twenty young men to fly to Wisconsin). See [[cal.1968-03-26.elections-1968-2]]. Names: O''Brien, Johnson.'
     tags: [name:obrien-lawrence-f, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-24T14:00Z
+      - 1968-03-24T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-24.congress-powell
     when: Mar. 24
     date: '1968-03-24'
@@ -3885,6 +4769,12 @@ entries:
         - 'w.palermo-in-his-own-right 147–48: all'
         - 'via w.palermo-in-his-own-right 147 n.83: all'
     tags: [name:sanders-h-barefoot-jr, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-25T14:00Z
+      - 1968-03-25T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-25.robert-kennedy
     when: Mar. 25
     date: '1968-03-25'
@@ -3898,6 +4788,12 @@ entries:
         - 'w.palermo-in-his-own-right 189: all'
         - 'via w.palermo-in-his-own-right 189 n.3: all'
     tags: [name:kennedy-edward-m, name:smith-stephen-e, name:sorensen-theodore-c]
+    time_range:
+      - 1968-03-25T14:00Z
+      - 1968-03-25T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-25.opinion
     when: Mar. 25
     date: '1968-03-25'
@@ -3912,6 +4808,12 @@ entries:
         - 'via w.mann-grand-delusion 588 n.46: A'
         - 'via w.mann-grand-delusion 588 n.45: B'
     tags: [name:johnson-lyndon-b, name:fulbright-j-william, name:rusk-dean]
+    time_range:
+      - 1968-03-25T14:00Z
+      - 1968-03-25T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-25.elections-1968-miami
     when: Mar. 25
     date: '1968-03-25'
@@ -3931,6 +4833,12 @@ entries:
         - 'w.chester-american-melodrama 135–36: all'
         - 'via x.undated.curtis-gans-to-chester-hodgson-and-page: B'
     tags: [name:gans-curtis, name:hersh-seymour, name:mccarthy-eugene-j, state:wi]
+    time_range:
+      - 1968-03-25T15:00Z
+      - 1968-03-25T23:00Z
+    time_band: workday daytime
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1968-03-25.elections-1968-3
     when: Mar. 25
     date: '1968-03-25'
@@ -3938,6 +4846,12 @@ entries:
     c: 'Califano, called back by Johnson from a vacation in Puerto Rico, to the Democratic leaders of Queens County: get with it. His staff to compile the record of Johnson''s achievements for the campaign. Mar. 26, Califano to Johnson: his prospects in New York poor.'
     n: '[[w.white-making-of-the-president-1969]], 113. Check: the day of the meeting. Names: Califano, Johnson.'
     tags: [name:califano-joseph-a-jr, name:johnson-lyndon-b, state:ny, city:nyc]
+    time_range:
+      - 1968-03-25T14:00Z
+      - 1968-03-25T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-25.king
     when: Mar. 25
     date: '1968-03-25'
@@ -3965,13 +4879,19 @@ entries:
       rows:
         - 'w.graham-uncertain-triumph 188: all'
     tags: [name:johnson-lyndon-b, name:robson-john-e]
+    time_range:
+      - 1968-03-25T14:00Z
+      - 1968-03-25T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-26.economy
     when: Mar. 26
     date: '1968-03-26'
     thread: economy-surcharge
     also: [congress]
     c: 'Senate, H.R. 15414, the excise taxes on telephone service and automobiles extended. The Smathers–Williams substitute: a 10 percent surcharge, fiscal 1969 spending cut by $6 billion, a freeze on federal civilian hiring (Check the terms). The surcharge struck from it, refused, [35–52](https://voteview.com/rollcall/RS0900369); the freeze and the moratorium on public works struck, refused, [33–56](https://voteview.com/rollcall/RS0900368).'
-    n: '[[w.zelizer-taxing-america]], 273 (the Smathers–Williams substitute: 10 percent, $6 billion); [[w.bernstein-guns-or-butter]], 374 (the Smathers–Williams 10–6 amendment). Check: the bill as it came to the Senate, the excises extended; Zelizer, 273, gives the substitute alone. See [[cal.1967-01-10.economy]]. Names: Smathers, Williams.'
+    n: '[[w.zelizer-taxing-america]], 273 (the Smathers–Williams substitute: 10 percent, $6 billion); [[w.bernstein-guns-or-butter]], 374 (the Smathers–Williams 10–6 amendment). The Senate sat from noon to 6:53 p.m.: [Daily Digest, D122](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=120). Check: the bill as it came to the Senate, the excises extended; Zelizer, 273, gives the substitute alone. See [[cal.1967-01-10.economy]]. Names: Smathers, Williams.'
     src:
       c: 50583c19
       rows:
@@ -3980,6 +4900,10 @@ entries:
         - 'w.zelizer-taxing-america 273: B'
         - 'w.bernstein-guns-or-butter 374: ?'
     tags: [name:smathers-george-a, name:williams-john-j]
+    time_range:
+      - 1968-03-26T17:00Z
+      - 1968-03-26T23:53Z
+    time_zone: America/New_York
   - id: cal.1968-03-26.republican-party
     when: Mar. 26
     date: '1968-03-26'
@@ -3993,6 +4917,12 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 858: all'
         - 'via w.schlesinger-robert-kennedy-and-his 858 n.1: all'
     tags: [name:eisenhower-dwight-d, name:cutler-robert, name:kennedy-robert-f]
+    time_range:
+      - 1968-03-26T17:00Z
+      - 1968-03-27T01:00Z
+    time_band: workday daytime
+    time_zone: America/Los_Angeles
+    range_basis: kind
   - id: cal.1968-03-26.robert-kennedy
     when: Mar. 26
     date: '1968-03-26'
@@ -4006,6 +4936,12 @@ entries:
         - 'w.palermo-in-his-own-right 150: all'
         - 'via w.palermo-in-his-own-right 150 n.101: all'
     tags: [name:unruh-jesse-m, name:kennedy-robert-f, state:ca]
+    time_range:
+      - 1968-03-26T17:00Z
+      - 1968-03-27T01:00Z
+    time_band: workday daytime
+    time_zone: America/Los_Angeles
+    range_basis: kind
   - id: cal.1968-03-26.elections-1968
     when: Mar. 26
     date: '1968-03-26'
@@ -4027,6 +4963,12 @@ entries:
     c: 'Chicago. The Yippies'' local organizers, the Free City group, meet Stahl of the Mayor''s office: the Festival of Life announced; Grant Park asked, the need to sleep in the park in the written request to the Park District. No reply.'
     n: '[[w.rights-in-conflict-convention-week]], 68–69. George Peters, not of the Yippies, had written the Park District Mar. 25 asking Grant Park for camping (68).'
     tags: [state:il, city:chicago]
+    time_range:
+      - 1968-03-26T15:00Z
+      - 1968-03-26T23:00Z
+    time_band: workday daytime
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1968-03-26.elections-1968-2
     when: Mar. 26–29
     date: '1968-03-26'
@@ -4054,6 +4996,10 @@ entries:
     c: 'The Oval Office, the evening, an hour: Johnson with Theodore White, Rowe present. No questions on politics, Kennedy, McCarthy or the war; the war costing only $17 billion a year, the tax cut of 1964 what squeezes; never again a tax cut; more than forty education bills; 35,000 pregnant women treated for German measles; a "Kiddicare" he would like; "I guess not many Presidents have been understood in their own time."'
     n: '[[w.white-making-of-the-president-1969]], 114–16 (Rowe, after: "up one day, down the next"); [[w.bernstein-guns-or-butter]], 488 (White finds him "overcome with weariness"). Names: Johnson, Theodore White, Rowe.'
     tags: [name:johnson-lyndon-b, name:white-theodore-h, name:rowe-james-h-jr]
+    time_range:
+      - 1968-03-26T22:00Z
+      - 1968-03-27T05:00Z
+    time_zone: America/New_York
   - id: cal.1968-03-26.elections-1968-4
     when: Mar. 26
     date: '1968-03-26'
@@ -4067,6 +5013,12 @@ entries:
         - 'w.shesol-mutual-contempt 429: all'
         - 'via x.1968-03-26.roche-to-watson-italo-americans: all'
     tags: [name:roche-john-p, name:watson-w-marvin, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-26T14:00Z
+      - 1968-03-26T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-26.king-poor-peoples
     when: Mar. 26
     date: '1968-03-26'
@@ -4079,6 +5031,10 @@ entries:
       rows:
         - 'w.kotz-judgment-days 400: all'
     tags: [name:king-martin-luther-jr]
+    time_range:
+      - 1968-03-27T01:00Z
+      - 1968-03-27T11:00Z
+    time_zone: America/New_York
   - id: cal.1968-03-26.elections-1968-johnson
     when: Mar. 26
     date: '1968-03-26'
@@ -4091,6 +5047,12 @@ entries:
         - 'w.graham-uncertain-triumph 188: all'
         - 'via w.graham-uncertain-triumph 188 n.16: all'
     tags: [name:hardesty-robert, name:califano-joseph-a-jr, name:mccarthy-eugene-j, name:kennedy-robert-f]
+    time_range:
+      - 1968-03-26T14:00Z
+      - 1968-03-26T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-27.court
     when: Mar. 27
     date: '1968-03-27'
@@ -4115,6 +5077,12 @@ entries:
     also: [congress]
     c: 'Senate, H.R. 15414: an excess profits tax in place of both the surcharge and the spending cut, refused, [18–74](https://voteview.com/rollcall/RS0900372).'
     n: See [[cal.1968-03-26.economy]].
+    time_range:
+      - 1968-03-27T19:00Z
+      - 1968-03-27T22:00Z
+    time_band: workday afternoon
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-27.opinion
     when: Mar. 27
     date: '1968-03-27'
@@ -4137,6 +5105,10 @@ entries:
         - 'via w.mann-grand-delusion 600 n.41: C-E'
         - 'w.bernstein-guns-or-butter 490: A'
     tags: [name:mansfield-mike, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-27T22:00Z
+      - 1968-03-28T05:00Z
+    time_zone: America/New_York
   - id: cal.1968-03-27.elections-1968
     when: Mar. 27
     date: '1968-03-27'
@@ -4154,6 +5126,12 @@ entries:
         - 'via x.1968-03-29.bellinger-to-fred-panzer-march-29: all'
         - 'w.shesol-mutual-contempt 434: ?'
     tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr, name:kennedy-robert-f]
+    time_range:
+      - 1968-03-27T14:00Z
+      - 1968-03-27T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-27.vietnam-205000-2
     when: Mar. 27
     date: '1968-03-27'
@@ -4165,6 +5143,12 @@ entries:
       rows:
         - 'w.clifford-counsel-to-the-president-2 519: all'
     tags: [name:clifford-clark, name:mcpherson-harry]
+    time_range:
+      - 1968-03-27T14:00Z
+      - 1968-03-27T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-27.vietnam-205000-3
     when: Mar. 27
     date: '1968-03-27'
@@ -4179,6 +5163,12 @@ entries:
         - 'w.clifford-counsel-to-the-president-2 518: A'
         - 'w.berman-lyndon-johnsons-war 198: ?'
     tags: [name:johnson-lyndon-b, name:depuy-william-e, name:carver-george-a-jr, name:abrams-creighton, name:helms-richard, name:wheeler-earle]
+    time_range:
+      - 1968-03-27T14:00Z
+      - 1968-03-27T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-27.vietnam-205000-4
     when: Mar. 27
     date: '1968-03-27'
@@ -4238,6 +5228,12 @@ entries:
         - 'w.smith-on-his-own-terms 518 n.: all'
         - 'via x.1968-03-27.manatos-to-johnson: all'
     tags: [name:manatos-mike-n, name:johnson-lyndon-b, name:rockefeller-nelson]
+    time_range:
+      - 1968-03-27T14:00Z
+      - 1968-03-27T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-27.vietnam-205000-5
     when: Mar. 27
     date: '1968-03-27'
@@ -4250,6 +5246,12 @@ entries:
         - 'w.berman-lyndon-johnsons-war 198: all'
         - 'via x.1968-03-27.mcgeorge-bundy-to-johnson-on-the-senior-advisers: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-27T14:00Z
+      - 1968-03-27T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-27.press-and-broadcasting
     when: Mar. 27
     date: '1968-03-27'
@@ -4260,6 +5262,12 @@ entries:
       c: 0a013ee3
       rows:
         - 'w.macv-command-history-1968 945–46: all'
+    time_range:
+      - 1968-03-27T01:00Z
+      - 1968-03-27T09:00Z
+    time_band: workday daytime
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: kind
   - id: cal.1968-03-27.robert-kennedy-campaign
     when: Mar. 27
     date: '1968-03-27'
@@ -4272,6 +5280,12 @@ entries:
         - 'w.shesol-mutual-contempt 425: all'
         - 'via x.1968-03-27.schlesinger-to-rfk-too-early: all'
     tags: [name:schlesinger-arthur-m-jr, name:kennedy-robert-f, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-27T14:00Z
+      - 1968-03-27T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-27.elections-1968-3
     when: Mar. 27
     date: '1968-03-27'
@@ -4284,6 +5298,12 @@ entries:
         - 'w.shesol-mutual-contempt 429 n.: all'
         - 'via x.1968-03-27.crook-to-watson-bobby-socks: all'
     tags: [name:watson-w-marvin, name:kennedy-robert-f]
+    time_range:
+      - 1968-03-27T14:00Z
+      - 1968-03-27T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-27.elections-1968-4
     when: Mar. 27
     date: '1968-03-27'
@@ -4296,6 +5316,12 @@ entries:
         - 'w.shesol-mutual-contempt 430: all'
         - 'via x.1968-03-27.connell-new-york-and-the-oconnor-operation: all'
     tags: [name:oconnor-frank-d, name:johnson-lyndon-b, name:watson-w-marvin, name:kennedy-robert-f, state:ny]
+    time_range:
+      - 1968-03-27T14:00Z
+      - 1968-03-27T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-27.king-2
     when: Mar. 27
     date: '1968-03-27'
@@ -4318,6 +5344,12 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d185: all'
     tags: [name:johnson-lyndon-b, name:pearson-lester-b]
+    time_range:
+      - 1968-03-27T14:00Z
+      - 1968-03-27T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-27.vietnam-congress
     when: Mar. 27
     date: '1968-03-27'
@@ -4370,8 +5402,12 @@ entries:
     thread: economy-surcharge
     also: [congress]
     c: 'Senate, H.R. 15414: the moratorium on public works struck from the Smathers–Williams substitute, [42–37](https://voteview.com/rollcall/RS0900378).'
-    n: 'See [[cal.1968-03-26.economy]]. Names: Smathers, Williams.'
+    n: 'The Senate sat from noon to 8:22 p.m.: [Daily Digest, D132](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=130). See [[cal.1968-03-26.economy]]. Names: Smathers, Williams.'
     tags: [name:smathers-george-a, name:williams-john-j]
+    time_range:
+      - 1968-03-28T17:00Z
+      - 1968-03-29T01:22Z
+    time_zone: America/New_York
   - id: cal.1968-03-28.king-memphis
     when: Mar. 28
     date: '1968-03-28'
@@ -4420,6 +5456,12 @@ entries:
     c: 'Los Angeles. The Board of Education hears the Educational Issues Coordinating Committee''s 39 demands. Thirteen organizers of the walkouts, Castro, a teacher at Lincoln, among them, later indicted for conspiracy (Check the date: May 31; Wikipedia''s timeline gives their arrest as Mar. 31).'
     n: '[Wikipedia, "East L.A. walkouts"](https://en.wikipedia.org/wiki/East_L.A._walkouts); Check: the board''s minutes, Mar. 28, 1968, and its answer; the grand jury''s indictment. See [[cal.1968-03-01.students-los-angeles]]. Names: Castro.'
     tags: [state:ca, city:los-angeles, name:castro-sal]
+    time_range:
+      - 1968-03-28T17:00Z
+      - 1968-03-29T01:00Z
+    time_band: workday daytime
+    time_zone: America/Los_Angeles
+    range_basis: kind
   - id: cal.1968-03-28.king
     when: Mar. 28
     date: '1968-03-28'
@@ -4459,6 +5501,12 @@ entries:
         - 'w.palermo-in-his-own-right 198: all'
         - 'via w.palermo-in-his-own-right 198 n.50: all'
     tags: [name:douglas-john-w, name:kennedy-edward-m]
+    time_range:
+      - 1968-03-28T14:00Z
+      - 1968-03-28T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-28.elections-1968
     when: Mar. 28
     date: '1968-03-28'
@@ -4472,6 +5520,11 @@ entries:
         - 'w.kotz-judgment-days 407–08: A'
         - 'w.bernstein-guns-or-butter 486, 488: ?'
     tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr, name:shriver-r-sargent, name:kennedy-robert-f, name:humphrey-hubert-h, name:mccarthy-eugene-j, name:mcnamara-robert-s, name:christian-george]
+    time_range:
+      - 1968-03-28T17:00Z
+      - 1968-03-28T23:00Z
+    time_zone: America/New_York
+    time_band: afternoon
   - id: cal.1968-03-28.king-2
     when: Mar. 28
     date: '1968-03-28'
@@ -4485,6 +5538,12 @@ entries:
         - 'via x.1968-03-28.moore-to-sullivan-march-28-1968: all'
         - 'w.kotz-judgment-days 403–04: A'
     tags: [name:king-martin-luther-jr]
+    time_range:
+      - 1968-03-28T14:00Z
+      - 1968-03-28T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-28.robert-kennedy-campaign
     when: Mar. 28
     date: '1968-03-28'
@@ -4497,6 +5556,12 @@ entries:
         - 'w.shesol-mutual-contempt 425: all'
         - 'via x.1968-03-28.salinger-to-edward-kennedy-strident: all'
     tags: [name:salinger-pierre, name:kennedy-edward-m, name:kennedy-robert-f, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-28T14:00Z
+      - 1968-03-28T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-28.robert-kennedy-campaign-2
     when: Mar. 28
     date: '1968-03-28'
@@ -4525,6 +5590,12 @@ entries:
         - 'w.kotz-judgment-days 402–03: all'
         - 'via x.1968-03-28.levison-fbi-wiretap: A-B'
     tags: [name:king-martin-luther-jr, name:levison-stanley-d, name:abernathy-ralph-david]
+    time_range:
+      - 1968-03-28T15:00Z
+      - 1968-03-28T23:00Z
+    time_band: workday daytime
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1968-03-28.press-and-broadcasting
     when: Mar. 28
     date: '1968-03-28'
@@ -4550,6 +5621,12 @@ entries:
         - 'w.graham-uncertain-triumph 189: all'
         - 'via w.graham-uncertain-triumph 189 n.17: all'
     tags: [name:robson-john-e, name:califano-joseph-a-jr, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-28T14:00Z
+      - 1968-03-28T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-29.king-memphis
     when: Mar. 29
     date: '1968-03-29'
@@ -4578,6 +5655,11 @@ entries:
       rows:
         - 'w.johnson-vantage-point 421: all'
     tags: [name:johnson-lyndon-b, name:russell-richard-b, name:clifford-clark]
+    time_range:
+      - 1968-03-29T11:00Z
+      - 1968-03-29T17:00Z
+    time_zone: America/New_York
+    time_band: morning
   - id: cal.1968-03-29.vietnam-205000-2
     when: Mar. 29
     date: '1968-03-29'
@@ -4593,6 +5675,11 @@ entries:
         - 'via x.1988.mcpherson-harry-a-political-education-1988: all'
         - 'w.bernstein-guns-or-butter 481: A-C'
     tags: [name:johnson-lyndon-b, name:mcpherson-harry]
+    time_range:
+      - 1968-03-29T11:00Z
+      - 1968-03-29T17:00Z
+    time_zone: America/New_York
+    time_band: morning
   - id: cal.1968-03-29.elections-1968
     when: Mar. 29
     date: '1968-03-29'
@@ -4600,6 +5687,10 @@ entries:
     c: 'Mrs. Johnson to a women''s group of politicians, Friday night: she will go anywhere, stump anywhere, to re-elect the President.'
     n: '[[w.white-making-of-the-president-1969]], 119. Names: Lady Bird Johnson.'
     tags: [name:johnson-lady-bird]
+    time_range:
+      - 1968-03-29T23:00Z
+      - 1968-03-30T08:00Z
+    time_zone: America/New_York
   - id: cal.1968-03-29.elections-1968-2
     when: Mar. 29
     date: '1968-03-29'
@@ -4611,6 +5702,10 @@ entries:
       rows:
         - 'w.califano-triumph-and-tragedy-of 269–70: all'
     tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr, name:okun-arthur-m, name:fowler-henry-h]
+    time_range:
+      - 1968-03-29T16:00Z
+      - 1968-03-29T21:00Z
+    time_zone: America/New_York
   - id: cal.1968-03-29.king
     when: Mar. 29
     date: '1968-03-29'
@@ -4624,6 +5719,12 @@ entries:
         - 'via x.1968-03-29.moore-to-sullivan-march-29-1968: all'
         - 'w.kotz-judgment-days 404: A'
     tags: [name:hoover-j-edgar, name:king-martin-luther-jr]
+    time_range:
+      - 1968-03-29T14:00Z
+      - 1968-03-29T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-29.king-memphis-2
     when: Mar. 29
     date: '1968-03-29'
@@ -4647,18 +5748,28 @@ entries:
         - 'via x.1968-03-29.news-script-wmc-tv-channel-five: all'
         - 'w.young-easy-burden 456–57: A-B'
     tags: [name:king-martin-luther-jr, name:lawson-james-m-jr, state:tn, city:memphis]
+    time_range:
+      - 1968-03-29T15:00Z
+      - 1968-03-29T23:00Z
+    time_band: workday daytime
+    time_zone: America/Chicago
+    range_basis: kind
   - id: cal.1968-03-29.king-poor-peoples
     when: Mar. 29
     date: '1968-03-29'
     thread: king-poor-peoples
     c: 'Brooke in the Senate on the campaign: "How do you keep the looters out?" Everett (D-Tenn.) in the House: King "ran like a scared rabbit." Stennis for stopping the marchers at the District line.'
-    n: '[[w.branch-at-canaans-edge]], 744–45. Check: the days. To check: New York Times, March 30, 1968, p. 30 (cited by [[w.branch-at-canaans-edge]], 744); [[w.beifuss-at-the-river-i]], 249 (cited by [[w.branch-at-canaans-edge]], 745). Names: Brooke, Everett, Stennis, King.'
+    n: '[[w.branch-at-canaans-edge]], 744–45. The Senate sat from noon to 3:45 p.m.: [Daily Digest, D135](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=133). Check: the days. To check: New York Times, March 30, 1968, p. 30 (cited by [[w.branch-at-canaans-edge]], 744); [[w.beifuss-at-the-river-i]], 249 (cited by [[w.branch-at-canaans-edge]], 745). Names: Brooke, Everett, Stennis, King.'
     src:
       c: 1030c444
       rows:
         - 'w.branch-at-canaans-edge 744–45: all'
         - 'via x.1968-03-30.new-york-times-march-30-1968-2: all'
     tags: [name:brooke-edward-w, name:everett-robert-a, name:stennis-john-c, name:king-martin-luther-jr]
+    time_range:
+      - 1968-03-29T17:00Z
+      - 1968-03-29T20:45Z
+    time_zone: America/New_York
   - id: cal.1968-03-29.vietnam-prisoners
     when: Mar. 29
     date: '1968-03-29'
@@ -4683,6 +5794,12 @@ entries:
         - 'w.shesol-mutual-contempt 429: all'
         - 'via x.1968-03-29.reedy-to-johnson-guitar-group: all'
     tags: [name:reedy-george-e, name:johnson-lyndon-b, name:watson-w-marvin, name:kennedy-robert-f]
+    time_range:
+      - 1968-03-29T14:00Z
+      - 1968-03-29T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-29.robert-kennedy
     when: Mar. 29
     date: '1968-03-29'
@@ -4695,6 +5812,12 @@ entries:
         - 'w.shesol-mutual-contempt 336: all'
         - 'via x.1968-03-29.bellinger-to-panzer-rfk-record: all'
     tags: [name:kennedy-robert-f]
+    time_range:
+      - 1968-03-29T14:00Z
+      - 1968-03-29T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-29.king-memphis-3
     when: Mar. 29
     date: '1968-03-29'
@@ -4708,6 +5831,12 @@ entries:
         - 'w.kotz-judgment-days 403: all'
         - 'via x.1968-03-29.levison-fbi-wiretap: all'
     tags: [name:king-martin-luther-jr, name:levison-stanley-d, name:wilkins-roy, name:rustin-bayard]
+    time_range:
+      - 1968-03-29T14:00Z
+      - 1968-03-29T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-29.press-and-broadcasting
     when: Mar. 29
     date: '1968-03-29'
@@ -4742,6 +5871,12 @@ entries:
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 190, 225: all'
     tags: [name:clifford-clark, name:nitze-paul]
+    time_range:
+      - 1968-03-29T14:00Z
+      - 1968-03-29T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-29.economy
     when: Mar. 29–30
     date: '1968-03-29'
@@ -4778,6 +5913,12 @@ entries:
         - 'w.clifford-counsel-to-the-president-2 521–22: A'
         - 'w.white-making-of-the-president-1969 118–19: ?'
     tags: [name:clifford-clark, name:wheeler-earle, name:bundy-william, name:rostow-walt-w, name:mcnamara-robert-s, name:mcpherson-harry, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-30T14:00Z
+      - 1968-03-30T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-30.soviet-union-czechoslovakia
     when: Mar. 30
     date: '1968-03-30'
@@ -4798,6 +5939,12 @@ entries:
         - 'w.johnson-vantage-point 431: all'
         - 'w.mcpherson-political-education 437–38: A'
     tags: [name:busby-horace, name:johnson-lyndon-b, name:christian-george]
+    time_range:
+      - 1968-03-30T14:00Z
+      - 1968-03-30T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-30.vietnam-205000-2
     when: Mar. 30
     date: '1968-03-30'
@@ -4809,6 +5956,12 @@ entries:
       rows:
         - 'w.johnson-vantage-point 421: all'
     tags: [name:clifford-clark, name:stennis-john-c, name:smith-margaret-chase, name:symington-william-s, name:jackson-henry-m]
+    time_range:
+      - 1968-03-30T14:00Z
+      - 1968-03-30T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-30.robert-kennedy
     when: Mar. 30
     date: '1968-03-30'
@@ -4820,6 +5973,12 @@ entries:
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 867: all'
     tags: [name:kennedy-robert-f, state:az]
+    time_range:
+      - 1968-03-30T16:00Z
+      - 1968-03-31T00:00Z
+    time_band: workday daytime
+    time_zone: America/Phoenix
+    range_basis: kind
   - id: cal.1968-03-30.elections-1968-ny
     when: Mar. 30
     date: '1968-03-30'
@@ -4832,6 +5991,12 @@ entries:
         - 'w.cq-weekly-report June 21, 1968, 1544: all'
         - 'w.cq-weekly-report June 7, 1968, 1385: A-B'
     tags: [name:javits-jacob-k, state:ny]
+    time_range:
+      - 1968-03-30T14:00Z
+      - 1968-03-30T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-30.vietnam-congress
     when: Mar. 30
     date: '1968-03-30'
@@ -4843,6 +6008,12 @@ entries:
       rows:
         - 'w.clifford-counsel-to-the-president-2 528: all'
     tags: [name:clifford-clark, name:fulbright-j-william]
+    time_range:
+      - 1968-03-30T14:00Z
+      - 1968-03-30T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-30.king-poor-peoples
     when: Mar. 30
     date: '1968-03-30'
@@ -4868,6 +6039,12 @@ entries:
         - 'w.kotz-judgment-days 405–07: A'
         - 'w.young-easy-burden 457–59: A-B, F'
     tags: [name:king-martin-luther-jr, name:young-andrew-j-jr, state:ga, city:atlanta]
+    time_range:
+      - 1968-03-30T14:00Z
+      - 1968-03-30T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-30.vietnam-force-levels
     when: Mar. 30
     date: '1968-03-30'
@@ -4891,6 +6068,10 @@ entries:
         - 'w.shesol-mutual-contempt 426: all'
         - 'via x.1968-03-30.rfk-phoenix-excerpts: all'
     tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr, state:az]
+    time_range:
+      - 1968-03-31T00:00Z
+      - 1968-03-31T07:00Z
+    time_zone: America/Phoenix
   - id: cal.1968-03-30.elections-1968-2
     when: Mar. 30
     date: '1968-03-30'
@@ -4904,6 +6085,12 @@ entries:
         - 'w.shesol-mutual-contempt 435: all'
         - 'via x.1968-03-30.panzer-to-johnson-rank-opportunism: all'
     tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
+    time_range:
+      - 1968-03-30T14:00Z
+      - 1968-03-30T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-30.vietnam-205000-3
     when: Mar. 30
     date: '1968-03-30'
@@ -4933,6 +6120,10 @@ entries:
         - 'via x.1968-04-01.jcs-5183-to-cincpac-and-cincsac-1: all'
         - 'via x.1968-03-31.jcs-3564-to-comusmacv-31-mar-68: all'
     tags: [name:wheeler-earle, name:sharp-u-s-grant, name:westmoreland-william]
+    time_range:
+      - 1968-03-30T22:00Z
+      - 1968-03-31T05:00Z
+    time_zone: America/New_York
   - id: cal.1968-03-31.elections-1968
     when: Mar. 31
     date: '1968-03-31'
@@ -5127,6 +6318,11 @@ entries:
         - 'via x.undated.i-bid-pp205-6-humphrey-education: all'
         - 'w.zelizer-fierce-urgency-of-now 292–93: ?'
     tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:jones-james-r]
+    time_range:
+      - 1968-03-31T11:00Z
+      - 1968-03-31T17:00Z
+    time_zone: America/New_York
+    time_band: morning
   - id: cal.1968-03-31.soviet-union
     when: Mar. 31
     date: '1968-03-31'
@@ -5238,13 +6434,17 @@ entries:
     follows:
       - cal.1968-03-31.elections-1968
     c: 'Washington, after Johnson''s address. Connell, Humphrey''s political aide, nearly a hundred calls past midnight to party leaders, labor officials, governors and Senators: no commitment until Humphrey is back; many already called by Robert or Edward Kennedy. Barkan of COPE the same to labor''s leaders. By Humphrey''s account.'
-    n: '[[w.humphrey-education-of-a-public-1976]], 360, 487 n.1; [[w.solberg-hubert-humphrey]], 323, 325 (the staff told to say nothing; Connell''s fifty calls). Order: after the address, [[cal.1968-03-31.elections-1968]]. See [[cal.1968-03-31.elections-1968-4]]. Names: Humphrey, Robert Kennedy, Edward Kennedy, Barkan.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 360, 487 n.1; [[w.solberg-hubert-humphrey]], 323, 325 (the staff told to say nothing; Connell''s fifty calls). Order: after the address, [[cal.1968-03-31.elections-1968]]. After the address, 9 p.m.: [[cal.1968-03-31.elections-1968]]. See [[cal.1968-03-31.elections-1968-4]]. Names: Humphrey, Robert Kennedy, Edward Kennedy, Barkan.'
     src:
       c: 7ea4a6ce
       rows:
         - 'w.humphrey-education-of-a-public-1976 360: all'
         - 'w.solberg-hubert-humphrey 323, 325: all'
     tags: [name:humphrey-hubert-h, name:kennedy-robert-f, name:kennedy-edward-m, name:barkan-al]
+    time_range:
+      - 1968-04-01T02:00Z
+      - 1968-04-01T08:00Z
+    time_zone: America/New_York
   - id: cal.1968-03.vietnam-205000-2
     when: Mar.
     date: 1968-03
@@ -5319,6 +6519,12 @@ entries:
     c: 'The White House, during the drafting. The Democrats'' senior politicians plan the campaign and the last effort in Wisconsin: Watson, Bailey, Criswell, Rowe, O''Brien, and Terry Sanford, named in secret the manager of Johnson''s campaign. In the Treaty Room Johnson and Busby finish the peroration.'
     n: '[[w.white-making-of-the-president-1969]], 120. See [[cal.1968-03-31.elections-1968-3]]. Names: Watson, Criswell, Rowe, O''Brien, Sanford, Johnson, Busby.'
     tags: [name:watson-w-marvin, name:criswell-john, name:rowe-james-h-jr, name:obrien-lawrence-f, name:sanford-terry, name:johnson-lyndon-b, name:busby-horace]
+    time_range:
+      - 1968-03-31T14:00Z
+      - 1968-03-31T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03-31.elections-1968-8
     when: Mar. 31
     date: '1968-03-31'
@@ -5326,6 +6532,11 @@ entries:
     c: 'Whitewater, Wis., the State university, the morning. McCarthy: "I don''t wish to sound overconfident, but I think the test is pretty much between me and Nixon now."'
     n: '[[w.white-making-of-the-president-1969]], 122. Names: McCarthy, Nixon.'
     tags: [name:mccarthy-eugene-j, name:nixon-richard-m, state:wi]
+    time_range:
+      - 1968-03-31T12:00Z
+      - 1968-03-31T18:00Z
+    time_band: morning
+    time_zone: America/Chicago
   - id: cal.1968-03-31.elections-1968-9
     when: Mar. 31
     date: '1968-03-31'
@@ -5333,6 +6544,10 @@ entries:
     c: 'Waukesha, Wis., the evening: McCarthy at a students'' meeting as Johnson withdraws. Abigail McCarthy telephones the President: the campaign never a matter of friendship. Johnson: "No one man can stand in the way of history." At the Schroeder in Milwaukee, McCarthy: perhaps Johnson decided he could not make peace and run at once; "five million college kids just shouting for peace."'
     n: '[[w.white-making-of-the-president-1969]], 124–25 (Goodwin, watching: "It only took six weeks"). See [[cal.1968-03-31.elections-1968]]. Names: McCarthy, Johnson, Goodwin.'
     tags: [name:mccarthy-eugene-j, name:johnson-lyndon-b, name:goodwin-richard-n, state:wi]
+    time_range:
+      - 1968-03-31T23:00Z
+      - 1968-04-01T06:00Z
+    time_zone: America/Chicago
   - id: cal.1968-03.civil-disorders-kerner-2
     when: Mar.
     date: 1968-03
@@ -5356,6 +6571,12 @@ entries:
       rows:
         - 'w.mcpherson-political-education 438–39: all'
     tags: [name:mcpherson-harry, name:clifford-clark, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-31T14:00Z
+      - 1968-03-31T22:00Z
+    time_band: workday daytime
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1968-03.transportation-ny
     when: Mar.
     date: 1968-03
@@ -5391,6 +6612,10 @@ entries:
         - 'w.woods-j-william-fulbright-vietnam 173: all'
         - 'w.woods-fulbright 483: ?'
     tags: [name:fulbright-j-william, name:johnson-lyndon-b, name:clifford-clark]
+    time_range:
+      - 1968-03-31T22:00Z
+      - 1968-04-01T05:00Z
+    time_zone: America/New_York
   - id: cal.1968-03.vietnam-205000-5
     when: Mar., early
     date: 1968-03
@@ -5430,6 +6655,10 @@ entries:
         - 'w.branch-at-canaans-edge 748: ?'
         - 'via x.1988.mcpherson-harry-a-political-education-1988: all'
     tags: [name:johnson-lyndon-b, name:mcpherson-harry]
+    time_range:
+      - 1968-03-31T11:00Z
+      - 1968-04-01T02:00Z
+    time_zone: America/New_York
   - id: cal.1968-03.vietnam-order-of-battle
     when: Mar.
     date: 1968-03
@@ -5453,6 +6682,12 @@ entries:
       rows:
         - 'w.macv-command-history-1968 226–27: all'
     tags: [name:westmoreland-william, name:sharp-u-s-grant, name:wheeler-earle]
+    time_range:
+      - 1968-03-31T01:00Z
+      - 1968-03-31T09:00Z
+    time_band: workday daytime
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: kind
   - id: cal.1968-03.china
     when: Mar.
     date: 1968-03
@@ -5477,6 +6712,10 @@ entries:
       rows:
         - 'w.macv-command-history-1968 843: all'
     tags: [place:hue]
+    time_range:
+      - 1968-03-31T09:00Z
+      - 1968-03-31T16:00Z
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1968-03.cities-and-housing
     when: Mar.
     date: 1968-03
@@ -5529,13 +6768,17 @@ entries:
     follows:
       - cal.1968-03-31.elections-1968
     c: 'Minutes after Johnson''s address, Robert Kennedy to O''Brien by telephone: manage his campaign. "This is a new ball game. ... You have discharged your loyalty." Humphrey, in Mexico, calls the next morning with the same appeal.'
-    n: '[[w.bernstein-guns-or-butter]], 499–500 (O''Brien''s oral history). Order: minutes after the address. See [[cal.1968-03-31.elections-1968]]. Names: Robert Kennedy, O''Brien, Humphrey.'
+    n: '[[w.bernstein-guns-or-butter]], 499–500 (O''Brien''s oral history). Order: minutes after the address. After the address, 9 p.m.: [[cal.1968-03-31.elections-1968]]. See [[cal.1968-03-31.elections-1968]]. Names: Robert Kennedy, O''Brien, Humphrey.'
     src:
       c: 0f02bb72
       rows:
         - 'w.bernstein-guns-or-butter 499–500: all'
         - 'via x.undated.lawrence-f-obrien-oral-history-interview-lbj: all'
     tags: [name:kennedy-robert-f, name:obrien-lawrence-f, name:humphrey-hubert-h]
+    time_range:
+      - 1968-04-01T02:00Z
+      - 1968-04-01T05:00Z
+    time_zone: America/New_York
   - id: cal.1968-03.robert-kennedy-2
     when: Mar., late
     date: 1968-03
@@ -5620,6 +6863,10 @@ entries:
       rows:
         - 'w.cohen-american-pharaoh 451: all'
     tags: [state:il, city:chicago, name:daley-richard-j, name:watson-w-marvin, name:johnson-lyndon-b]
+    time_range:
+      - 1968-03-31T12:00Z
+      - 1968-04-01T02:00Z
+    time_zone: America/Chicago
   - id: cal.1968-03.elections-1968-mccarthy
     when: Mar.
     date: 1968-03

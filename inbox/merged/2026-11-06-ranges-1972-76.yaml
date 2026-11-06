@@ -1,0 +1,22 @@
+patch: ranges-1972-76
+by: ranges reviewer, round 3, 1968-69 and 1972-76 (Claude)
+ops:
+  - edit:
+      id: cal.1972-06-30.elections-1972
+      base: cd4a2616
+      set:
+        time_range:
+          - 1972-06-30T13:00Z
+          - 1972-06-30T21:00Z
+        time_band: workday daytime
+        time_zone: America/New_York
+        range_basis: kind
+  - edit:
+      id: cal.1976-06-08.elections-1976-2
+      base: 30fead34
+      set:
+        time_range:
+          - 1976-06-08T11:00Z
+          - 1976-06-08T17:00Z
+        time_band: morning
+        time_zone: America/Chicago
