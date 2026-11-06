@@ -111,6 +111,9 @@ STYLE:
     the thread-nav line under each entry, the highlight (7), the statements, `entry_threads`, `thread_members`. On the
     index (13) a thread's years stay its family's: each links to the thread's entry in that year's index, which stands
     while the family has entries there.
+16. A date in a thread's run the same as the one before it ("July 31, July 31") is left out, for now (the owner, Nov.
+    5, 2026): the run shows each label once, linked to its first entry ("Aug. 27, Aug. 27–28" keeps both). The
+    same-day entries may come back with labels of their own (a time, a place) after the time-label pass.
 """
 import datetime
 import re
@@ -492,6 +495,10 @@ def thread_dates_html(lst, slug, members, esc):
         y = str(m["date"])[:4]
         return (f'<a class="tx ty" href="{href(lst, other, thread_anchor(lst, slug, other))}">{y}</a> '
                 f'<a class="tx" href="{href(lst, other, m["id"])}">{esc(m["when"])}</a>')
+    # a date the same as the one before it left out, for now (the owner, Nov. 5, 2026: "Pointers in thread indexes with
+    # names identical to the immediately prior should be suppressed for now", until same-day entries can be told
+    # apart by a time or a place): the first of the run kept, its link the day's first entry (STYLE 16)
+    mine = [m for i, m in enumerate(mine) if not i or m["when"] != mine[i - 1]["when"]]
     # the dates by year (datelist STYLE), the links across the divides before or after them
     parts_ = [datelist.part(y, ls) for y, ls in
               datelist.groups([(m["date"], f'<a href="{href(lst, half or 1, m["id"])}">{esc(m["when"])}</a>') for m in mine])]
