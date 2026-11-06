@@ -733,9 +733,9 @@ BLUEBOOK_RE = re.compile("|".join(re.escape(k) for k in sorted(BLUEBOOK_ST, key=
 def bd_style(t):
     """The Directory's text in the series' forms: the States abbreviated as the Bluebook does (T12.1 of the Indigo
     Book: N.D., S.D., Cal., Kan., Neb., Or., N.M., W. Va., Wis.), a span of years or dates with an en dash ('1960–1970',
-    'January 3, 1971–present')."""
+    'January 3, 1971–present', 'Jan. 3, 1939–Jan. 3, 1969': the owner, Nov. 5, 2026)."""
     t = BLUEBOOK_RE.sub(lambda m: BLUEBOOK_ST[m.group(0)], t)
-    return re.sub(r"(\d)-(?=\d|present\b)", r"\1–", t)
+    return re.sub(r"(\d)-(?=\d|present\b|(?:Jan|Feb|Mar|Apr|May|June?|July?|Aug|Sept?|Oct|Nov|Dec)[a-z]*\.? \d)", r"\1–", t)
 
 
 def bd_sentences(e):
