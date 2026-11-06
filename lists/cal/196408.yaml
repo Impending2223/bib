@@ -257,6 +257,11 @@ entries:
         - 'w.taking-charge 493 & n.5: A-F'
     tags: [name:johnson-lyndon-b, place:gulf-of-tonkin, place:hon-me, place:hon-ngu]
     short: the Gulf of Tonkin
+    time_range:
+      - 1964-08-02T04:00Z
+      - 1964-08-02T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1964-08-02.states-and-cities-jersey-city
     when: Aug. 2–4
     date: '1964-08-02'
@@ -1027,7 +1032,7 @@ entries:
     date: '1964-08-05'
     thread: vietnam-tonkin
     c: Pierce Arrow. Planes from the Ticonderoga and the Constellation strike the torpedo boat bases and the oil depot at Vinh, 64 sorties. Two planes lost; Alvarez taken, the first American airman held in the North. Johnson at Syracuse; his message asks Congress for a resolution.
-    n: 'Special Message to the Congress on U.S. Policy in Southeast Asia, [1963–64 Pub. Papers 930](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=170); Remarks at Syracuse University on the Communist Challenge in Southeast Asia, [1963–64 Pub. Papers 928](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=168) (Aug. 5, 1964). [FRUS 1964–68, I, doc. 286](https://history.state.gov/historicaldocuments/frus1964-68v01/d286). [[w.gibbons-u-s-government-and]], II, 297–98 (Pierce Arrow, on the boat bases and oil; Syracuse, n.58; Stockdale leading the strike); [[w.frankum-like-rolling-thunder]], 15 (the strike on the boat bases and Vinh; Alvarez taken, Sather killed); [[w.vietnam-victory-in-vietnam]], 132, 461 n.20 (the strike, 64 sorties; a pilot captured); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 522 (the strikes; the request for a resolution); [[w.cosmas-joint-chiefs-of-staff-2012]], 108–109 (the strike; the message); [[w.marolda-united-states-navy-and]], 443–48 (the strikes; Alvarez and Sather shot down); [[w.anthony-war-in-northern-laos]], 127 (the strikes; two planes lost, a pilot taken); [[w.bernstein-guns-or-butter]], 337 (Stockdale leads the reprisal, bombs Vinh; the resolution sent Aug. 5); [[w.marolda-united-states-navy-and]], 449 (the count: 33 of the 34 boats hit, 7 destroyed, 10 badly damaged; 4 of 67 aircraft hit or lost, two aviators lost; Williams killed on the *Ticonderoga*''s deck). [[w.macv-command-history-1964]], 109–10 (the strikes, 64 sorties, 11 boats destroyed, 22 damaged, Vinh''s depot 90 percent destroyed, two planes lost, Alvarez held). To check: [[w.moise-tonkin-gulf-and-the-2019]]; Hist, CINCPAC, 1964, pp 367–69 (cited by [[w.anthony-war-in-northern-laos]], 127 n.90). See [[cal.1964-08-02.vietnam]]. Names: Alvarez, Johnson. Check: *Victory in Vietnam* gives eight aircraft shot down of the 64 sorties, and one pilot captured (132, 461 n.20).'
+    n: 'Special Message to the Congress on U.S. Policy in Southeast Asia, [1963–64 Pub. Papers 930](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=170); Remarks at Syracuse University on the Communist Challenge in Southeast Asia, [1963–64 Pub. Papers 928](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=168) (Aug. 5, 1964). [FRUS 1964–68, I, doc. 286](https://history.state.gov/historicaldocuments/frus1964-68v01/d286). [[w.gibbons-u-s-government-and]], II, 297–98 (Pierce Arrow, on the boat bases and oil; Syracuse, n.58; Stockdale leading the strike); [[w.frankum-like-rolling-thunder]], 15 (the strike on the boat bases and Vinh; Alvarez taken, Sather killed); [[w.vietnam-victory-in-vietnam]], 132, 461 n.20 (the strike, 64 sorties; a pilot captured); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 522 (the strikes; the request for a resolution); [[w.cosmas-joint-chiefs-of-staff-2012]], 108–109 (the strike; the message); [[w.marolda-united-states-navy-and]], 443–48 (the strikes; Alvarez and Sather shot down); [[w.anthony-war-in-northern-laos]], 127 (the strikes; two planes lost, a pilot taken); [[w.bernstein-guns-or-butter]], 337 (Stockdale leads the reprisal, bombs Vinh; the resolution sent Aug. 5); [[w.marolda-united-states-navy-and]], 449 (the count: 33 of the 34 boats hit, 7 destroyed, 10 badly damaged; 4 of 67 aircraft hit or lost, two aviators lost; Williams killed on the *Ticonderoga*''s deck). [[w.macv-command-history-1964]], 109–10 (the strikes, 64 sorties, 11 boats destroyed, 22 damaged, Vinh''s depot 90 percent destroyed, two planes lost, Alvarez held). The range: Aug. 5 in the Gulf, before McNamara''s report of the strikes to Johnson at the Syracuse airport, 10:52 a.m. Washington time. To check: [[w.moise-tonkin-gulf-and-the-2019]]; Hist, CINCPAC, 1964, pp 367–69 (cited by [[w.anthony-war-in-northern-laos]], 127 n.90). See [[cal.1964-08-02.vietnam]]. Names: Alvarez, Johnson. Check: *Victory in Vietnam* gives eight aircraft shot down of the 64 sorties, and one pilot captured (132, 461 n.20).'
     src:
       c: 0defd7c0
       rows:
@@ -1050,6 +1055,9 @@ entries:
         - 'w.bernstein-guns-or-butter 337: A-B, F'
         - 'w.marolda-united-states-navy-and 449: A-B'
     tags: [name:alvarez-everett-jr, name:johnson-lyndon-b, place:vinh]
+    time_range:
+      - 1964-08-04T16:00Z
+      - 1964-08-05T14:52Z
   - id: cal.1964-08-05.congo
     when: Aug. 5
     date: '1964-08-05'
@@ -1827,8 +1835,10 @@ entries:
     when: Aug. 7
     date: '1964-08-07'
     thread: vietnam
+    follows:
+      - cal.1964-08-07.vietnam-congress
     c: The Southeast Asia resolution passes, House [416–0](https://voteview.com/rollcall/RH0880197), Senate [88–2](https://voteview.com/rollcall/RS0880481), Morse and Gruening against; Fulbright its manager. "All necessary measures to repel any armed attack against the forces of the United States and to prevent further aggression."
-    n: '[110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt14/pdf/GPO-CRECB-1964-pt14-4-2.pdf) (1964); [Senate](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt14/pdf/GPO-CRECB-1964-pt14-4-1.pdf). [110 Cong. Rec. 18,409](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt14/pdf/GPO-CRECB-1964-pt14-3-2.pdf#page=71) (1964) (Senate, Aug. 6: Fulbright, managing the resolution, to Cooper on its scope; Kaplan, 523 n.108, dates the page Aug. 7). Statement by the President on the Passage of the Joint Resolution on Southeast Asia, [1963–64 Pub. Papers 936](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=176) (Aug. 7, 1964). [[w.gibbons-u-s-government-and]], II, 302, 308–09, 316–30; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 523 (the votes; Fulbright on its scope); [[w.cosmas-joint-chiefs-of-staff-2012]], 109–10; [[w.marolda-united-states-navy-and]], 451 (the votes); [[w.johnson-vantage-point]], 118; [[w.moyar-triumph-forsaken]], 313–14; [[w.mcnamara-in-retrospect]], ch. 5 at n.13. [[w.mann-grand-delusion]], 366–67 (the votes); [[w.branch-pillar-of-fire]], 443; [[w.bernstein-guns-or-butter]], 338 (416 to 0; 88 to 2, Gruening with Morse; Section 2 quoted); [[w.woods-fulbright]], 355 (88 to 2; the House in forty minutes). [[w.rusk-as-i-saw-it-1990]], 445. To check: [[w.gruening-many-battles]]; Congressional Record, vol. 110, 18398–18471 (cited by [[w.moyar-triumph-forsaken]], 314 n.23); [[w.karnow-vietnam]], 391–92 (cited by [[w.branch-pillar-of-fire]], 443); New York Times, Aug. 7, 1964, p. 1, Aug. 8, 1964, p. 1 (cited by [[w.branch-pillar-of-fire]], 443). See [[cal.1964-08-02.vietnam]]. Names: Morse, Gruening, Fulbright, Johnson. Check: the page.'
+    n: '[110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt14/pdf/GPO-CRECB-1964-pt14-4-2.pdf) (1964); [Senate](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt14/pdf/GPO-CRECB-1964-pt14-4-1.pdf). [110 Cong. Rec. 18,409](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt14/pdf/GPO-CRECB-1964-pt14-3-2.pdf#page=71) (1964) (Senate, Aug. 6: Fulbright, managing the resolution, to Cooper on its scope; Kaplan, 523 n.108, dates the page Aug. 7). Statement by the President on the Passage of the Joint Resolution on Southeast Asia, [1963–64 Pub. Papers 936](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=176) (Aug. 7, 1964). [[w.gibbons-u-s-government-and]], II, 302, 308–09, 316–30; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 523 (the votes; Fulbright on its scope); [[w.cosmas-joint-chiefs-of-staff-2012]], 109–10; [[w.marolda-united-states-navy-and]], 451 (the votes); [[w.johnson-vantage-point]], 118; [[w.moyar-triumph-forsaken]], 313–14; [[w.mcnamara-in-retrospect]], ch. 5 at n.13. [[w.mann-grand-delusion]], 366–67 (the votes); [[w.branch-pillar-of-fire]], 443; [[w.bernstein-guns-or-butter]], 338 (416 to 0; 88 to 2, Gruening with Morse; Section 2 quoted); [[w.woods-fulbright]], 355 (88 to 2; the House in forty minutes). [[w.rusk-as-i-saw-it-1990]], 445. Both votes before 12:40 p.m.: the President''s statement on them read by Reedy at his news conference of that hour (1963–64 Pub. Papers 936). After the House''s forty minutes under suspension. To check: [[w.gruening-many-battles]]; Congressional Record, vol. 110, 18398–18471 (cited by [[w.moyar-triumph-forsaken]], 314 n.23); [[w.karnow-vietnam]], 391–92 (cited by [[w.branch-pillar-of-fire]], 443); New York Times, Aug. 7, 1964, p. 1, Aug. 8, 1964, p. 1 (cited by [[w.branch-pillar-of-fire]], 443). See [[cal.1964-08-02.vietnam]]. Names: Morse, Gruening, Fulbright, Johnson. Check: the page.'
     src:
       c: a84cfe25
       rows:
@@ -1860,11 +1870,8 @@ entries:
     tags: [name:morse-wayne, name:gruening-ernest, name:fulbright-j-william, name:johnson-lyndon-b]
     short: the Southeast Asia resolution
     time_range:
-      - 1964-08-07T18:00Z
-      - 1964-08-07T21:00Z
-    time_band: workday afternoon
-    time_zone: America/New_York
-    range_basis: kind
+      - 1964-08-07T04:00Z
+      - 1964-08-07T16:40Z
   - id: cal.1964-08-07.desegregation-schools
     when: Aug. 7
     date: '1964-08-07'
@@ -1919,7 +1926,7 @@ entries:
     date: '1964-08-07'
     thread: vietnam-congress
     c: 'The House''s forty minutes on the resolution, under suspension. Albert, Halleck, Morgan for it ("definitely not an advance declaration of war," Morgan). Laird: "the land war remains"; Ford: such action earlier "might have turned the tide." Alger''s doubts; Powell votes "present"; Siler, paired against: such resolutions "seal the lips of Congress."'
-    n: '[110 Cong. Rec. 18,539–55](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt14/pdf/GPO-CRECB-1964-pt14-4-2.pdf) (1964). [[w.gibbons-u-s-government-and]], II, 308–10; [[w.zelizer-fierce-urgency-of-now]], 150 (the House in less than forty minutes). The House met at noon (its standing order, Daily Digest, D3) and adjourned at 8:03 p.m.: [Daily Digest, D403](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=401). See [[cal.1964-08-07.vietnam]]. Names: Albert, Halleck, Morgan, Laird, Ford, Alger, Powell, Siler.'
+    n: '[110 Cong. Rec. 18,539–55](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt14/pdf/GPO-CRECB-1964-pt14-4-2.pdf) (1964). [[w.gibbons-u-s-government-and]], II, 308–10; [[w.zelizer-fierce-urgency-of-now]], 150 (the House in less than forty minutes). The House met at noon (its standing order, Daily Digest, D3) and adjourned at 8:03 p.m.: [Daily Digest, D403](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=401). The debate before 12:40 p.m.: the House''s vote is in the President''s statement read then (1963–64 Pub. Papers 936). Check: the House''s hour of meeting, the noon of its standing order against the President''s statement on its vote, read at 12:40 p.m. See [[cal.1964-08-07.vietnam]]. Names: Albert, Halleck, Morgan, Laird, Ford, Alger, Powell, Siler.'
     src:
       c: c276c497
       rows:
@@ -1929,9 +1936,8 @@ entries:
         - 'w.zelizer-fierce-urgency-of-now 150: A'
     tags: [name:albert-carl, name:halleck-charles-a, name:morgan-thomas-e, name:laird-melvin-r, name:ford-gerald-r, name:alger-bruce-r, name:powell-adam-clayton-jr, name:siler-eugene]
     time_range:
-      - 1964-08-07T16:00Z
-      - 1964-08-08T00:03Z
-    time_zone: America/New_York
+      - 1964-08-07T04:00Z
+      - 1964-08-07T16:40Z
   - id: cal.1964-08-07.vietnam-2
     when: Aug. 7
     date: '1964-08-07'
@@ -2019,8 +2025,10 @@ entries:
     when: Aug. 7
     date: '1964-08-07'
     thread: poverty
+    follows:
+      - cal.1964-08-07.poverty
     c: 'Shriver tells the holdout Democrats he will not recommend Yarmolinsky for a post; their votes carry the poverty bill that night. Shriver to Yarmolinsky: "Well, we''ve just thrown you to the wolves, and this is the worst day in my life." Halleck holds out for an embossed copy, putting the vote off a day.'
-    n: '[[w.branch-pillar-of-fire]], 445; [[w.bernstein-guns-or-butter]], 111 (by Evans and Novak: "The President has no objection to my saying that if I were appointed I would not recommend Yarmolinsky"; to Yarmolinsky, by Shriver''s account: "It was a question of whether we have this bill ... or you"). To check: New York Times, Aug. 7, 1964, p. 1 (cited by [[w.branch-pillar-of-fire]], 445); Adam Yarmolinsky Oral History, July 13, 1970, pp. 17–19, LBJ. ("Tt was like a funeral in the offices when we heard Shriver had caved in," recalled one of Shriver''s deputies at the poverty task force. Interview with Hyman Bookbinder, March 21, 1991.) (cited by [[w.branch-pillar-of-fire]], 445). See [[cal.1964-08-06.poverty]]. Names: Shriver, Yarmolinsky, Halleck.'
+    n: '[[w.branch-pillar-of-fire]], 445; [[w.bernstein-guns-or-butter]], 111 (by Evans and Novak: "The President has no objection to my saying that if I were appointed I would not recommend Yarmolinsky"; to Yarmolinsky, by Shriver''s account: "It was a question of whether we have this bill ... or you"). After Shriver''s call to Johnson, the President''s leave given, by Bernstein''s account. To check: New York Times, Aug. 7, 1964, p. 1 (cited by [[w.branch-pillar-of-fire]], 445); Adam Yarmolinsky Oral History, July 13, 1970, pp. 17–19, LBJ. ("Tt was like a funeral in the offices when we heard Shriver had caved in," recalled one of Shriver''s deputies at the poverty task force. Interview with Hyman Bookbinder, March 21, 1991.) (cited by [[w.branch-pillar-of-fire]], 445). See [[cal.1964-08-06.poverty]]. Names: Shriver, Yarmolinsky, Halleck.'
     src:
       c: 6e57de8a
       rows:
@@ -3000,15 +3008,13 @@ entries:
     date: '1964-08-13'
     thread: transportation
     c: 'Federal-Aid Highway Act signed in the Cabinet Room, [78 Stat. 397](https://www.govinfo.gov/content/pkg/STATUTE-78/pdf/STATUTE-78-Pg396.pdf#page=2): $1 billion a year from the Highway Trust Fund for primary, secondary and urban roads in fiscal 1966 and 1967, half federal; forest, park and public land roads. The House passed it June 3, [296–0](https://voteview.com/rollcall/RH0880167).'
-    n: 'Statute (K–J Cong. II.J.2). Remarks Upon Signing the Highway Bill, [1963–64 Pub. Papers 955](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=195) (Aug. 13, 1964). To check: [[w.lewis-divided-highways]].'
+    n: 'Statute (K–J Cong. II.J.2). Remarks Upon Signing the Highway Bill, [1963–64 Pub. Papers 955](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=195) (Aug. 13, 1964). The hour: "shortly after 10 a.m.," by the Papers'' note. To check: [[w.lewis-divided-highways]].'
     tags: [name:johnson-lyndon-b]
     short: the highway act
     time_range:
-      - 1964-08-13T13:00Z
-      - 1964-08-13T21:00Z
-    time_band: workday daytime
+      - 1964-08-13T14:00Z
+      - 1964-08-13T15:00Z
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1964-08-13.mississippi
     when: Aug. 13
     date: '1964-08-13'
@@ -3169,14 +3175,13 @@ entries:
     date: '1964-08-14'
     thread: congress
     c: Government Employees Salary Reform Act signed, [78 Stat. 400](https://www.govinfo.gov/content/pkg/STATUTE-78/pdf/STATUTE-78-Pg400.pdf). Members of Congress to $30,000 from $22,500; Cabinet officers to $35,000; raises for the classified service, judges, and executives. Senate passed it July 2, [58–21](https://voteview.com/rollcall/RS0880438).
-    n: 'Remarks Upon Signing the Government Employees Pay Raise Bill, [1963–64 Pub. Papers 962](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=202) (Aug. 14, 1964). See [[cal.1964-01-07.congress]]. Names: Johnson.'
+    n: 'Remarks Upon Signing the Government Employees Pay Raise Bill, [1963–64 Pub. Papers 962](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=202) (Aug. 14, 1964). The hour: "in midmorning," by the Papers'' note. See [[cal.1964-01-07.congress]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
     time_range:
       - 1964-08-14T13:00Z
-      - 1964-08-14T21:00Z
-    time_band: workday daytime
+      - 1964-08-14T16:00Z
+    time_band: workday morning
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1964-08-14.opinion
     when: Aug. 14
     date: '1964-08-14'
@@ -5398,6 +5403,11 @@ entries:
         - 'via w.branch-pillar-of-fire 473 n.by-god-i-m: all'
         - 'w.bernstein-guns-or-butter 539: B'
     tags: [name:johnson-lyndon-b, name:reedy-george-e]
+    time_range:
+      - 1964-08-25T04:00Z
+      - 1964-08-25T10:00Z
+    time_band: predawn
+    time_zone: America/New_York
   - id: cal.1964-08-25.elections-1964-8
     when: Aug. 25
     date: '1964-08-25'

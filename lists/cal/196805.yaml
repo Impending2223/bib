@@ -253,6 +253,7 @@ entries:
   - id: cal.1968-05-03.vietnam
     when: May 3
     date: '1968-05-03'
+    time: 1968-05-03T05:00Z
     thread: vietnam-paris
     also: [economy-surcharge]
     c: 'Word from Hanoi, received at 1 a.m.: it will meet in Paris on May 10 or several days after. Johnson to Rostow by telephone: "I''d rather go to almost any place than Paris." Morning news conference: Paris and May 10 accepted, after consulting Rusk, Clifford, Goldberg, Ball, Harriman and Vance; "only the very first step." A tax bill "without any ''ands,'' ''buts,'' or ''ors''"; cuts as each appropriation bill comes up: "stand up like men and answer the roll call."'
@@ -276,17 +277,13 @@ entries:
   - id: cal.1968-05-03.vietnam-order-of-battle
     when: May 3
     date: '1968-05-03'
+    time: 1968-05-03T14:30Z
     thread: vietnam-order-of-battle
     c: 'Helms and Wheeler, with Carroll of DIA and Walsh of the CIA, on the estimates of enemy strength. Back to the drawing board: the CIA and DIA to work out new formats and definitions; Helms to withhold the CIA''s figures meanwhile; Wheeler to cut MACV''s order-of-battle reporting.'
     n: 'FRUS 1964–68, VI, doc. [220](https://history.state.gov/historicaldocuments/frus1964-68v06/d220), 10:30 a.m. Made public: FRUS 1964–68, VI (2002). See [[cal.1967-09-09.vietnam-order-of-battle]]. Names: Helms, Wheeler, Carroll, Walsh.'
     tags: [name:helms-richard, name:wheeler-earle, name:carroll-joseph-f, name:walsh-paul-v]
     short: Helms and Wheeler
-    time_range:
-      - 1968-05-03T13:00Z
-      - 1968-05-03T21:00Z
-    time_band: workday daytime
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1968-05-03.robert-kennedy
     when: May 3
     date: '1968-05-03'
@@ -784,8 +781,10 @@ entries:
     when: May 9
     date: '1968-05-09'
     thread: economy-surcharge
+    follows:
+      - cal.1968-05-09.economy-surcharge
     c: 'Fowler to Johnson: "I strongly recommend that the Administration accept the bitter with the sweet and work with the House and Senate leadership in securing speedy approval of the Conferees Report."'
-    n: '[[w.bernstein-guns-or-butter]], 376. To check: Fowler to Johnson, May 9, 1968, EX LE FI 11-4 File, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 376 n.8). See [[cal.1968-05-09.economy-surcharge]]. Names: Fowler, Johnson.'
+    n: '[[w.bernstein-guns-or-butter]], 376. Order: on the conferees'' report. To check: Fowler to Johnson, May 9, 1968, EX LE FI 11-4 File, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 376 n.8). See [[cal.1968-05-09.economy-surcharge]]. Names: Fowler, Johnson.'
     src:
       c: 2c94f874
       rows:

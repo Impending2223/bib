@@ -974,6 +974,7 @@ entries:
   - id: cal.1968-08-05.elections-1968
     when: Aug. 5
     date: '1968-08-05'
+    time: 1968-08-05T14:00Z
     thread: elections-1968-miami
     c: 'Republican National Convention opens, Miami Beach, at Convention Hall. 1,333 delegates. The party''s primaries, and the delegations: maps and tables below.'
     n: '[*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), the Call, [11–19](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/11/mode/1up). CQ Guide 6th (2010) 409–411. [[w.cq-weekly-report]], Aug. 9, 1968, 2102, 2104 (Bliss opens it, 10 a.m.; Convention Hall). See [[cal.1968-03-12.elections-1968]].'
@@ -994,6 +995,7 @@ entries:
   - id: cal.1968-08-05.elections-1968-2
     when: Aug. 5
     date: '1968-08-05'
+    time: 1968-08-05T20:00Z
     thread: elections-1968-miami
     c: Miami Beach. Reagan declares himself a candidate, the California delegation behind him.
     n: '[[w.nixon-rn]], 309 (Knowland''s announcement of the delegation''s resolution, Aug. 5); [[w.cq-weekly-report]], Aug. 9, 1968, 2096, 2104. [[w.chester-american-melodrama]], 449–50 (Knowland''s announcement, 4 p.m., of the California caucus''s resolution; Reagan: "It all came out of the clear blue sky"). To check: [[w.mailer-miami-and-the-siege-1968]]; [[w.cannon-governor-reagan]]; The California delegation''s caucus resolution on Reagan''s candidacy, Aug. 5, 1968 (cited by [[w.chester-american-melodrama]], 450). See [[cal.1968-08-05.elections-1968]]. Names: Reagan.'
@@ -1700,6 +1702,7 @@ entries:
   - id: cal.1968-08-08.elections-1968-miami
     when: Aug. 8
     date: '1968-08-08'
+    time: 1968-08-08T16:39Z
     thread: elections-1968-miami
     follows:
       - cal.1968-08-08.elections-1968-miami-2
@@ -1720,12 +1723,7 @@ entries:
         - 'w.zelizer-fierce-urgency-of-now 306: ?'
         - 'w.bernstein-guns-or-butter 508: ?'
     tags: [name:nixon-richard-m, name:agnew-spiro-t, name:romney-george-w, name:johnson-lyndon-b, state:fl, rollcall:1968-R-vp, ok:result-form, name:lindsay-john-v]
-    time_range:
-      - 1968-08-08T13:00Z
-      - 1968-08-08T21:00Z
-    time_band: workday daytime
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1968-08-08.elections-1968-miami-3
     when: Aug. 8
     date: '1968-08-08'
@@ -2146,11 +2144,9 @@ entries:
         - 'via x.undated.someone-who-saw-draft-number-ten-to-chester-hodgson-and-page: D'
     tags: [name:humphrey-hubert-h, name:johnson-lyndon-b]
     time_range:
-      - 1968-08-09T14:00Z
-      - 1968-08-09T22:00Z
-    time_band: workday daytime
-    time_zone: America/Chicago
-    range_basis: kind
+      - 1968-08-09T15:30Z
+      - 1968-08-09T20:00Z
+    range_basis: record
   - id: cal.1968-08-10.elections-1968
     when: Aug. 10
     date: '1968-08-10'
@@ -2375,10 +2371,10 @@ entries:
     n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2212 Check: the statute''s cite (Public Law 90–447). See [[cal.1968-08-02.conservation-2]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
     time_range:
-      - 1968-08-11T13:00Z
+      - 1968-08-11T14:00Z
       - 1968-08-11T22:00Z
     time_band: workday daytime
-    time_zone: America/New_York
+    time_zone: America/Chicago
     range_basis: kind
   - id: cal.1968-08-12.consumers
     when: Aug. 12
@@ -2824,10 +2820,10 @@ entries:
     tags: [name:johnson-lyndon-b]
     short: the Health Manpower Act
     time_range:
-      - 1968-08-16T13:00Z
+      - 1968-08-16T14:00Z
       - 1968-08-16T22:00Z
     time_band: workday daytime
-    time_zone: America/New_York
+    time_zone: America/Chicago
     range_basis: kind
   - id: cal.1968-08-16.elections-1968-chicago
     when: Aug. 16
@@ -3050,10 +3046,10 @@ entries:
     n: 'Statement by the President Upon Signing the Wholesome Poultry Products Act, [1968–69 Pub. Papers 895](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=205) (Aug. 19, 1968). Statute (K–J Cong. II.J.2). See [[cal.1967-12-15.consumers]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
     time_range:
-      - 1968-08-18T13:00Z
+      - 1968-08-18T14:00Z
       - 1968-08-18T22:00Z
     time_band: workday daytime
-    time_zone: America/New_York
+    time_zone: America/Chicago
     range_basis: kind
   - id: cal.1968-08-18.opinion
     when: Aug. 18
@@ -3918,11 +3914,11 @@ entries:
     tags: [name:johnson-lyndon-b, city:washington]
     short: the highway act
     time_range:
-      - 1968-08-23T14:00Z
-      - 1968-08-23T22:00Z
-    time_band: workday daytime
+      - 1968-08-24T03:00Z
+      - 1968-08-24T05:00Z
+    time_band: night
     time_zone: America/Chicago
-    range_basis: kind
+    range_basis: record
   - id: cal.1968-08-23.soviet-union-czechoslovakia-2
     when: Aug. 23
     date: '1968-08-23'
@@ -3947,6 +3943,7 @@ entries:
   - id: cal.1968-08-23.elections-1968-chicago
     when: Aug. 23
     date: '1968-08-23'
+    time: 1968-08-24T03:30Z
     thread: elections-1968-chicago-platform
     also: [vietnam]
     c: 'McGovern and McCarthy, a joint plank on Vietnam for the platform: an immediate end to the bombing; mutual withdrawal of American and North Vietnamese forces from the South; fewer offensive operations in the countryside; a settlement negotiated between the NLF and Saigon. The platform committee rejects it, nearly two to one.'
@@ -4365,8 +4362,10 @@ entries:
     date: '1968-08-25'
     thread: elections-1968-chicago-platform
     also: [vietnam]
+    follows:
+      - cal.1968-08-25.elections-1968-chicago-3
     c: The Platform Committee, its one roll call, sustains its subcommittee on Vietnam, 62–35. A minority report filed, the McCarthy-McGovern plank.
-    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2285. Check: CQ''s analysis dates the committee''s adoption of the plank Aug. 26 (2289). See [[cal.1968-08-25.elections-1968-chicago-3]]. Names: McCarthy, McGovern.'
+    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2285. Order: the full committee on its subcommittee''s plank. Check: CQ''s analysis dates the committee''s adoption of the plank Aug. 26 (2289). See [[cal.1968-08-25.elections-1968-chicago-3]]. Names: McCarthy, McGovern.'
     tags: [name:mccarthy-eugene-j, name:mcgovern-george]
     time_range:
       - 1968-08-25T14:00Z
@@ -4379,8 +4378,12 @@ entries:
     date: '1968-08-25'
     thread: elections-1968
     c: '1 p.m., ABC''s *Off the Cuff*: the party''s officials, Johnson would refuse a draft by the convention.'
-    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2292. Check: who spoke. Names: Johnson.'
+    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2292. Order: 1 p.m., Chicago''s time or Washington''s. Check: who spoke. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
+    time_range:
+      - 1968-08-25T17:00Z
+      - 1968-08-25T18:00Z
+    range_basis: record
   - id: cal.1968-08-25.elections-1968-chicago-5
     when: Aug. 25
     date: '1968-08-25'
@@ -4482,6 +4485,7 @@ entries:
   - id: cal.1968-08-26.elections-1968
     when: Aug. 26
     date: '1968-08-26'
+    time: 1968-08-27T00:31Z
     thread: elections-1968-chicago
     c: 'Democratic National Convention opens, Chicago, at the International Amphitheatre. The party''s primaries: map and returns below.'
     n: CQ Guide 6th (2010) 409–411. [[w.cq-weekly-report]], Aug. 30, 1968, 2293 (Bailey opens it, 7:31 p.m.). See [[cal.1968-03-12.elections-1968]].
@@ -4794,6 +4798,7 @@ entries:
   - id: cal.1968-08-27.elections-1968-chicago
     when: Aug. 27
     date: '1968-08-27'
+    time: 1968-08-28T04:38Z
     thread: elections-1968-chicago-credentials
     c: 'Chicago. The rules committee''s minority report adopted, 1,350 to 1,206: every Democrat a "full and timely opportunity" to take part in choosing the delegates of 1972 (Check the wording).'
     n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2287, 2293 (the minority report, 1,350 to 1,206, 11:38 p.m.). Check: the convention''s *Official Proceedings*. Check: CQ quotes the minority report as asking "that the unit rule not be used at any stage of the delegate selection process" and delegates chosen "within the calendar year of the National Convention"; it prints no "full and timely" ([[w.cq-weekly-report]], Aug. 30, 1968, 2287). The abolition: [[cal.1968-08-26.elections-1968-chicago-15]]. [[w.chester-american-melodrama]], 558 (the unit rule rejected Tuesday night, 1,350 to 1,206). To check: [[w.shafer-quiet-revolution]]. See [[cal.1968-08-26.elections-1968]].'
@@ -4931,6 +4936,12 @@ entries:
     c: 'Chicago. The Park District''s permit for the Mobilization''s rally at the Grant Park bandshell, Aug. 28, 1 to 4 p.m., delivered in the evening: no literature to be handed out; $100,000 to $300,000 of liability insurance. The policy never obtained.'
     n: '[[w.rights-in-conflict-convention-week]], 68, 217. See [[cal.1968-08-22.elections-1968]].'
     tags: [state:il, city:chicago]
+    time_range:
+      - 1968-08-28T00:00Z
+      - 1968-08-28T03:00Z
+    time_band: evening
+    time_zone: America/Chicago
+    range_basis: record
   - id: cal.1968-08-27.elections-1968-chicago-10
     when: Aug. 27–28
     date: '1968-08-27'
@@ -5098,6 +5109,7 @@ entries:
   - id: cal.1968-08-28.elections-1968
     when: Aug. 28
     date: '1968-08-28'
+    time: 1968-08-28T21:30Z
     thread: elections-1968-chicago
     also: [vietnam]
     c: 'Chicago. The platform''s plank on Vietnam: stop all bombing of the North "when this action would not endanger the lives of our troops in the field," taking "into account the response from Hanoi." The minority plank, McCarthy''s and McGovern''s, for an unconditional halt, defeated, 1,567¾ to 1,041¼ (Check). Johnson''s message read: his name not to be considered. Ribicoff, nominating McGovern: "Gestapo tactics on the streets of Chicago." Humphrey nominated on the first ballot after midnight: 1,759¼; McCarthy 601, McGovern 146½, Channing Phillips of the District 67½, Moore of North Carolina 17½, Edward Kennedy 12¾.'
@@ -5124,6 +5136,7 @@ entries:
   - id: cal.1968-08-28.elections-1968-chicago
     when: Aug. 28
     date: '1968-08-28'
+    time: 1968-08-29T00:57Z
     thread: elections-1968-chicago-streets
     also: [war-opposition, civil-disorders]
     c: 'Chicago. From Grant Park, the march stopped; at Michigan Avenue and Balbo, in front of the Conrad Hilton, the police club demonstrators, onlookers and reporters, on television: "The whole world is watching." Some 668 arrests in the week.'
@@ -5216,6 +5229,7 @@ entries:
   - id: cal.1968-08-28.elections-1968-chicago-7
     when: Aug. 28
     date: '1968-08-28'
+    time: 1968-08-28T21:39Z
     thread: elections-1968-chicago-streets
     also: [war-opposition]
     follows:
@@ -5588,6 +5602,8 @@ entries:
     date: '1968-08-29'
     time: 1968-08-30T03:09Z
     thread: elections-1968-chicago
+    follows:
+      - cal.1968-08-29.elections-1968
     c: '10:09 p.m. Muskie''s acceptance: to work with "the strong determination of so many young people and disadvantaged among us to make a place for themselves."'
     n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2284, 2338. See [[cal.1968-08-29.elections-1968]]. Names: Muskie.'
     tags: [name:muskie-edmund-s, state:il, city:chicago]

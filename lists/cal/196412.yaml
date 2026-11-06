@@ -188,6 +188,8 @@ entries:
     date: '1964-12-01'
     thread: press-and-broadcasting
     also: [king]
+    follows:
+      - cal.1964-12-01.king
     c: FBI headquarters, during the Hoover–King meeting. An FBI official shows James McCartney of the *Chicago Daily News*, waiting outside Hoover's office, a picture of King leaving a motel with a white woman, and offers "the whole story" of his private life, the Bureau not to be named. McCartney declines.
     n: '[[w.kotz-judgment-days]], 239. To check: *The Quill*, Feb. 1976, 12–18 (cited by [[w.kotz-judgment-days]], 239 n.27). See [[cal.1964-12-01.king]]. Names: Martin Luther King.'
     src:
@@ -1170,7 +1172,7 @@ entries:
     thread: laos
     also: [vietnam]
     c: 'Vientiane. Sullivan with Souvanna Phouma: American armed reconnaissance over Routes 7, 8 and 12 agreed, "if we see anything moving on the road, either day or night, attack it"; nothing said in public, any plane lost to be one on reconnaissance at the government''s request. Barrel Roll, the program of Dec. 1; Dec. 19, a two-week program submitted, signaling "by design" no intensification.'
-    n: '[FRUS 1964–68, XXVIII, doc. 150](https://history.state.gov/historicaldocuments/frus1964-68v28/d150); [doc. 153](https://history.state.gov/historicaldocuments/frus1964-68v28/d153) (Dec. 19); [FRUS 1964–68, I, doc. 456](https://history.state.gov/historicaldocuments/frus1964-68v01/d456) (Dec. 21). [[w.frankum-like-rolling-thunder]], 116–17 (Barrel Roll begun in December, two missions a week); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 257 (Souvanna''s assent, Dec. 10); [[w.staaveren-u-s-air-force]], 44 (Souvanna''s consent, Dec. 10, no publicity; Barrel Roll); [[w.anthony-war-in-northern-laos]], 144 (Sullivan, before presenting his credentials, seeks Souvanna Phouma''s approval of the bombing program); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 257 (Souvanna for armed reconnaissance, "see anything moving on the road, either day or night, attack it"; not to be made public). Check: the first Barrel Roll mission''s day. FRUS has the operation under way by Dec. 21, the next mission "not scheduled until 24 December" (I, doc. 456), and Washington "proceeding with Barrel Roll mission tonight," Dec. 24 (I, doc. 465); Frankum, the first sortie for Vang Pao''s irregulars Dec. 24 (117). To check: JCS to CINCPAC, 112144Z Dec 64 (cited by [[w.staaveren-u-s-air-force]], 44 n.37b); CINCPAC to COMUSMACV, 120612Z Dec 64 (cited by [[w.staaveren-u-s-air-force]], 44 n.37c); JCSM-1041-64, Dec 11, 1964 (cited by [[w.staaveren-u-s-air-force]], 44 n.37d); MR, subj: Meeting of National Security Council Principals, Dec 12, 1964 (cited by [[w.staaveren-u-s-air-force]], 44 n.37e); *Washington Post*, Dec. 24, 1964 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 257 n.109); AmEmb Vientiane to SECSTATE, 868, Dec. 10, 1964 (cited by [[w.anthony-war-in-northern-laos]], 144 n.38). See [[cal.1964-12-01.vietnam]]. Names: Sullivan, Souvanna Phouma.'
+    n: '[FRUS 1964–68, XXVIII, doc. 150](https://history.state.gov/historicaldocuments/frus1964-68v28/d150); [doc. 153](https://history.state.gov/historicaldocuments/frus1964-68v28/d153) (Dec. 19); [FRUS 1964–68, I, doc. 456](https://history.state.gov/historicaldocuments/frus1964-68v01/d456) (Dec. 21). [[w.frankum-like-rolling-thunder]], 116–17 (Barrel Roll begun in December, two missions a week); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 257 (Souvanna''s assent, Dec. 10); [[w.staaveren-u-s-air-force]], 44 (Souvanna''s consent, Dec. 10, no publicity; Barrel Roll); [[w.anthony-war-in-northern-laos]], 144 (Sullivan, before presenting his credentials, seeks Souvanna Phouma''s approval of the bombing program); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 257 (Souvanna for armed reconnaissance, "see anything moving on the road, either day or night, attack it"; not to be made public). The afternoon: "I met alone with Souvanna this afternoon," Sullivan''s telegram of 7 p.m. (doc. 150). Check: the first Barrel Roll mission''s day. FRUS has the operation under way by Dec. 21, the next mission "not scheduled until 24 December" (I, doc. 456), and Washington "proceeding with Barrel Roll mission tonight," Dec. 24 (I, doc. 465); Frankum, the first sortie for Vang Pao''s irregulars Dec. 24 (117). To check: JCS to CINCPAC, 112144Z Dec 64 (cited by [[w.staaveren-u-s-air-force]], 44 n.37b); CINCPAC to COMUSMACV, 120612Z Dec 64 (cited by [[w.staaveren-u-s-air-force]], 44 n.37c); JCSM-1041-64, Dec 11, 1964 (cited by [[w.staaveren-u-s-air-force]], 44 n.37d); MR, subj: Meeting of National Security Council Principals, Dec 12, 1964 (cited by [[w.staaveren-u-s-air-force]], 44 n.37e); *Washington Post*, Dec. 24, 1964 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 257 n.109); AmEmb Vientiane to SECSTATE, 868, Dec. 10, 1964 (cited by [[w.anthony-war-in-northern-laos]], 144 n.38). See [[cal.1964-12-01.vietnam]]. Names: Sullivan, Souvanna Phouma.'
     src:
       c: 09cd02a1
       rows:
@@ -1191,11 +1193,10 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 257: A'
     tags: [name:sullivan-william-h, name:souvanna-phouma, place:vientiane]
     time_range:
-      - 1964-12-10T02:00Z
-      - 1964-12-10T10:00Z
-    time_band: workday daytime
+      - 1964-12-10T05:00Z
+      - 1964-12-10T11:00Z
+    time_band: afternoon
     time_zone: Asia/Vientiane
-    range_basis: kind
   - id: cal.1964-12-10.voting-rights
     when: Dec. 10
     date: '1964-12-10'

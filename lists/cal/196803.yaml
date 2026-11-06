@@ -2084,6 +2084,7 @@ entries:
   - id: cal.1968-03-13.robert-kennedy
     when: Mar. 13
     date: '1968-03-13'
+    time: 1968-03-13T17:00Z
     thread: robert-kennedy-campaign-decision
     also: [elections-1968]
     c: 'Robert Kennedy at the airport: "I am actively reassessing the possibility of whether I will run against President Johnson." In Washington he calls on McCarthy: they might work together; Kennedy offers to support him in Wisconsin; McCarthy will not get out, would serve one term. By Kennedy''s accounts.'
@@ -5467,8 +5468,10 @@ entries:
     date: '1968-03-28'
     thread: king
     also: [king-memphis, king-poor-peoples]
+    follows:
+      - cal.1968-03-28.king-memphis
     c: King, from Memphis, on the march with Hosea Williams in Atlanta. Williams tells Jim Harrison, SCLC's comptroller and a paid FBI informant; Harrison tells his control agent. FBI headquarters orders full information on King's part in the march, for leaks to cooperative reporters against the Poor People's Campaign.
-    n: '[[w.garrow-bearing-the-cross]], 611. To check: FBI file 157-9146-38, 1390, and Memphis file 157-1092-167, 168, Mar. 28, 1968; 157-1092-173, Mar. 29, 1968, FBI file 157-9146; Memphis 157–1092 (cited by [[w.garrow-bearing-the-cross]], 611 n.41). See [[cal.1968-03-28.king-memphis]]. Made public: Check; Garrow had the FBI''s files under the Freedom of Information Act ([[w.garrow-bearing-the-cross]], 627). Names: King, Williams.'
+    n: '[[w.garrow-bearing-the-cross]], 611. Order: on the march, from Memphis. To check: FBI file 157-9146-38, 1390, and Memphis file 157-1092-167, 168, Mar. 28, 1968; 157-1092-173, Mar. 29, 1968, FBI file 157-9146; Memphis 157–1092 (cited by [[w.garrow-bearing-the-cross]], 611 n.41). See [[cal.1968-03-28.king-memphis]]. Made public: Check; Garrow had the FBI''s files under the Freedom of Information Act ([[w.garrow-bearing-the-cross]], 627). Names: King, Williams.'
     src:
       c: f2a8d67d
       rows:
@@ -5529,8 +5532,10 @@ entries:
     when: Mar. 28
     date: '1968-03-28'
     thread: king
+    follows:
+      - cal.1968-03-28.king-memphis
     c: 'Moore to Sullivan, approved: the FBI''s blind memorandum for "cooperative news sources," "the result of King''s famous espousal of nonviolence was vandalism, looting, and riot."'
-    n: '[[w.branch-at-canaans-edge]], 735; [[w.kotz-judgment-days]], 403–04 (Sullivan, with Hoover''s approval, orders two "editorials" for friendly editors). To check: Moore to Sullivan, Mar. 28, 1968, FBI King file (cited by [[w.branch-at-canaans-edge]], 735); [[w.fairclough-to-redeem-the-soul]], 375 (cited by [[w.branch-at-canaans-edge]], 734); [[w.fairclough-to-redeem-the-soul]], 375 (cited by [[w.branch-at-canaans-edge]], 734); Moore to Sullivan, March 28, 1968, FK-NR (cited by [[w.branch-at-canaans-edge]], 735). See [[cal.1968-03-28.king-memphis]]. Names: King.'
+    n: '[[w.branch-at-canaans-edge]], 735; [[w.kotz-judgment-days]], 403–04 (Sullivan, with Hoover''s approval, orders two "editorials" for friendly editors). Order: on the march''s breaking up. To check: Moore to Sullivan, Mar. 28, 1968, FBI King file (cited by [[w.branch-at-canaans-edge]], 735); [[w.fairclough-to-redeem-the-soul]], 375 (cited by [[w.branch-at-canaans-edge]], 734); [[w.fairclough-to-redeem-the-soul]], 375 (cited by [[w.branch-at-canaans-edge]], 734); Moore to Sullivan, March 28, 1968, FK-NR (cited by [[w.branch-at-canaans-edge]], 735). See [[cal.1968-03-28.king-memphis]]. Names: King.'
     src:
       c: 9016da7b
       rows:
@@ -6299,6 +6304,12 @@ entries:
         - 'via x.1991-06-18.int-lynda-johnson-robb-june-18: all'
         - 'w.bernstein-guns-or-butter 490–91: ?'
     tags: [name:johnson-lyndon-b, name:busby-horace, name:christian-george, name:nugent-luci-baines-johnson, name:connally-john]
+    time_range:
+      - 1968-03-31T11:00Z
+      - 1968-03-31T17:00Z
+    time_band: morning
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1968-03-31.elections-1968-4
     when: Mar. 31
     date: '1968-03-31'
@@ -6760,6 +6771,10 @@ entries:
       rows:
         - 'w.kotz-judgment-days 409–10: all'
     tags: [name:johnson-lady-bird, name:johnson-lyndon-b, name:westmoreland-william]
+    time_range:
+      - 1968-03-31T12:00Z
+      - 1968-03-31T23:00Z
+    range_basis: record
   - id: cal.1968-03-31.elections-1968-11
     when: Mar. 31
     date: '1968-03-31'

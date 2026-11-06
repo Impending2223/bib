@@ -1,0 +1,242 @@
+# Round 4, the day's order, 1964 (notes/briefs/times.md). Rebuilt from the reviewer's decisions on fresh bases.
+patch: order-1964
+by: Claude (day-order reviewer, round 4, 1964; notes/briefs/times.md)
+ops:
+- edit:
+    id: cal.1964-05-21.laos
+    base: 77880d84
+    set:
+      time: 1964-05-21T01:00Z
+- edit:
+    id: cal.1964-10-16.king
+    base: 598c38bf
+    set:
+      time: 1964-10-17T02:06Z
+- check:
+    id: cal.1964-10-16.king
+    text: 'Check: the zone of the telegram''s 10:06 p.m., Washington''s taken.'
+- edit:
+    id: cal.1964-06-20.georgia
+    base: 3e86489a
+    set:
+      time_range:
+      - 1964-06-21T02:00Z
+      - 1964-06-21T05:50Z
+      n: '[[w.branch-pillar-of-fire]], 428. The range: near midnight to 12:50 a.m. June 21, Georgia''s daylight time in doubt. To check: 30 p.m. and again at 12:20 am.: Atlanta FBI report dated July 22, 1964, FLP-115, pp. 151–55 (cited by [[w.branch-pillar-of-fire]], 428); SAC, Atlanta, to Director, July 13, 1964, FLP-113, pp. 6–9. The shooting victims were Alice Fair and John Clink (cited by [[w.branch-pillar-of-fire]], 428). See [[cal.1964-03-07.georgia]].'
+- edit:
+    id: cal.1964-08-25.elections-1964-7
+    base: 84ae1d78
+    set:
+      time_range:
+      - 1964-08-25T04:00Z
+      - 1964-08-25T10:00Z
+      time_band: predawn
+      time_zone: America/New_York
+- edit:
+    id: cal.1964-07-30.vietnam-34a-2
+    base: 003dfdc8
+    set:
+      time_range:
+      - 1964-07-30T16:00Z
+      - 1964-07-30T23:00Z
+- edit:
+    id: cal.1964-02-26.economy
+    base: e62d7bde
+    set:
+      time_range:
+      - 1964-02-26T23:00Z
+      - 1964-02-27T04:59Z
+      n: 'Statute (K–J Cong. II.J.2). Radio and Television Remarks Upon Signing the Tax Bill, [1963–64 Pub. Papers 311](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=395) (Feb. 26, 1964). [110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt3/pdf/GPO-CRECB-1964-pt3-8-2.pdf) (1964); [110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt3/pdf/GPO-CRECB-1964-pt3-9-2.pdf) (1964). [[w.tempalski-revenue-effects-of-major]], Table 1, p. 15; [[w.zelizer-taxing-america]], 204–05 (the rates); [[w.stein-fiscal-revolution-in-america]], 453 (the signing); [[w.caro-passage-of-power]], 552–57 (the bill through Finance; not the signing). [[w.zelizer-fierce-urgency-of-now]], 81; [[w.bernstein-guns-or-butter]], 37–38 (the conference Feb. 10–19, its report Feb. 24; signed six hours after the Senate''s vote). After Johnson''s call to Mills: [[w.zelizer-taxing-america]], 208. The range: after 6 p.m., the signing six hours after the Senate''s vote, the Senate sitting from noon; the remarks speak of "this afternoon" past. To check: [[w.michelmore-tax-and-spend]]. See [[cal.1963-01-24.economy]]; [[cal.1964-02-07.economy]]. Names: Johnson. Check: the pages.'
+    unset:
+    - time_band
+    - time_zone
+    - range_basis
+- edit:
+    id: cal.1964-04-09.railroads
+    base: 3e7f8b41
+    set:
+      time_range:
+      - 1964-04-10T00:46Z
+      - 1964-04-10T04:05Z
+      n: 'Statement by the President on the Eve of a National Railroad Strike, [1963–64 Pub. Papers 451](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=535) (Apr. 9, 1964); Radio and Television Statement Announcing a Moratorium in the Railroad Labor Dispute, [1963–64 Pub. Papers 451](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=535) (Apr. 9, 1964); Remarks at the Opening of Final Negotiations in the Railroad Dispute, [1963–64 Pub. Papers 452](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=536) (Apr. 10, 1964). The range: the negotiators called to the White House by 7:46 p.m. (Johnson to Mansfield); the moratorium broadcast from the Fish Room at 11:05 p.m. (1963–64 Pub. Papers 451). To check: [[w.kaufman-railroad-labor-dispute]]; [[w.cullen-national-emergency-strikes]]. See [[cal.1963-08-27.railroads]]. Names: Johnson, Wirtz.'
+    unset:
+    - time_band
+    - time_zone
+    - range_basis
+- edit:
+    id: cal.1964-06-09.laos
+    base: fa7f53ef
+    set:
+      time: 1964-06-09T07:00Z
+      time_approx: true
+      n: '[FRUS 1964–68, XXVIII, doc. 91](https://history.state.gov/historicaldocuments/frus1964-68v28/d91), n. 2 (the decision of June 8). [[w.anthony-war-in-northern-laos]], 113–14 (the F-100s, the Water Pump T-28s on rescue patrol; only six of twenty-eight bombs on the site; the second flight lost, on a fort near Phong Savan; about 20 percent of the target destroyed); [[w.cosmas-joint-chiefs-of-staff-2012]], 78. About 3 a.m., Washington''s time, by Johnson to Humphrey: [Johnson and Hubert Humphrey, 1:06 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-hubert-humphrey-june-9-1964), Conversation WH6406-04-3653 (Miller Center). To check: History, CINCPAC, 1964, p. 271 (cited by [[w.anthony-war-in-northern-laos]], 114 n.33a); Drexel B. Cochran, interview by Clement and Bonwit, Aug. 20, 1969 (cited by [[w.anthony-war-in-northern-laos]], 114 n.33b); I ASOC to CINCPAC, 090715Z Jun. 64 (cited by [[w.anthony-war-in-northern-laos]], 114 n.33c). See [[cal.1964-06-06.laos]].'
+- check:
+    id: cal.1964-06-09.laos
+    text: 'Check: the strike''s hour; Johnson''s "3 a.m." read as Washington''s.'
+- edit:
+    id: cal.1964-04-23.robert-kennedy
+    base: c17da54d
+    set:
+      time: 1964-04-24T00:03Z
+- edit:
+    id: cal.1964-04-11.farm
+    base: daecebea
+    set:
+      time: 1964-04-11T17:00Z
+    unset:
+    - time_range
+    - time_band
+    - time_zone
+    - range_basis
+- edit:
+    id: cal.1964-06-23.vietnam
+    base: afce0830
+    set:
+      time: 1964-06-23T15:04Z
+- edit:
+    id: cal.1964-07-02.jobs-and-wages
+    base: 2e5804ed
+    set:
+      time_range:
+      - 1964-07-02T15:00Z
+      - 1964-07-02T16:00Z
+      time_zone: America/New_York
+      n: 'Remarks Upon Signing Bill Broadening the Prevailing Wage Section of the Davis-Bacon Act, [1963–64 Pub. Papers 840](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=80) (July 2, 1964). The amendment: [40 U.S.C. § 276a, source credits and notes, in govinfo''s 2001 Code](https://www.govinfo.gov/content/pkg/USCODE-2001-title40/html/USCODE-2001-title40-chap3-sec276a.htm). The hour: "shortly before noon," by the Papers'' note. To check: [[w.thieblot-davis-bacon-act]]; [[w.mills-industrial-relations-and-manpower]]. Names: Johnson.'
+    unset:
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1964-07-09.cities-and-housing
+    base: c7c739d0
+    set:
+      time_range:
+      - 1964-07-09T15:00Z
+      - 1964-07-09T16:00Z
+      time_zone: America/New_York
+      n: 'Statute (K–J Cong. II.J.2). Remarks Upon Signing the Urban Mass Transportation Act, [1963–64 Pub. Papers 849](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=89) (July 9, 1964). The hour: "shortly before noon," by the Papers'' note. To check: [[w.smerk-urban-transportation]]; [[w.gelfand-nation-of-cities]]. See [[cal.1963-04-04.program]]. Names: Johnson, Sparkman.'
+    unset:
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1964-08-13.transportation
+    base: 197967cd
+    set:
+      time_range:
+      - 1964-08-13T14:00Z
+      - 1964-08-13T15:00Z
+      time_zone: America/New_York
+      n: 'Statute (K–J Cong. II.J.2). Remarks Upon Signing the Highway Bill, [1963–64 Pub. Papers 955](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=195) (Aug. 13, 1964). The hour: "shortly after 10 a.m.," by the Papers'' note. To check: [[w.lewis-divided-highways]].'
+    unset:
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1964-08-14.congress
+    base: a0b97d13
+    set:
+      time_range:
+      - 1964-08-14T13:00Z
+      - 1964-08-14T16:00Z
+      time_band: workday morning
+      time_zone: America/New_York
+      n: 'Remarks Upon Signing the Government Employees Pay Raise Bill, [1963–64 Pub. Papers 962](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=202) (Aug. 14, 1964). The hour: "in midmorning," by the Papers'' note. See [[cal.1964-01-07.congress]]. Names: Johnson.'
+    unset:
+    - range_basis
+- edit:
+    id: cal.1964-09-02.cities-and-housing
+    base: 8df5654f
+    set:
+      time_range:
+      - 1964-09-02T13:00Z
+      - 1964-09-02T16:00Z
+      time_band: workday morning
+      time_zone: America/New_York
+      n: 'Remarks Upon Signing the Housing Act, [1963–64 Pub. Papers 1029](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=269) (Sept. 2, 1964). The hour: "in midmorning," by the Papers'' note. To check: [[w.gelfand-nation-of-cities]]. See [[cal.1964-01-27.cities-and-housing]]; [[cal.1961-06-30.program]]. Names: Johnson, Sparkman.'
+    unset:
+    - range_basis
+- edit:
+    id: cal.1964-08-02.vietnam
+    base: 3edaa1c7
+    set:
+      time_range:
+      - 1964-08-02T04:00Z
+      - 1964-08-02T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Ho_Chi_Minh
+- edit:
+    id: cal.1964-08-05.vietnam
+    base: 0dd18936
+    set:
+      time_range:
+      - 1964-08-04T16:00Z
+      - 1964-08-05T14:52Z
+      n: 'Special Message to the Congress on U.S. Policy in Southeast Asia, [1963–64 Pub. Papers 930](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=170); Remarks at Syracuse University on the Communist Challenge in Southeast Asia, [1963–64 Pub. Papers 928](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=168) (Aug. 5, 1964). [FRUS 1964–68, I, doc. 286](https://history.state.gov/historicaldocuments/frus1964-68v01/d286). [[w.gibbons-u-s-government-and]], II, 297–98 (Pierce Arrow, on the boat bases and oil; Syracuse, n.58; Stockdale leading the strike); [[w.frankum-like-rolling-thunder]], 15 (the strike on the boat bases and Vinh; Alvarez taken, Sather killed); [[w.vietnam-victory-in-vietnam]], 132, 461 n.20 (the strike, 64 sorties; a pilot captured); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 522 (the strikes; the request for a resolution); [[w.cosmas-joint-chiefs-of-staff-2012]], 108–109 (the strike; the message); [[w.marolda-united-states-navy-and]], 443–48 (the strikes; Alvarez and Sather shot down); [[w.anthony-war-in-northern-laos]], 127 (the strikes; two planes lost, a pilot taken); [[w.bernstein-guns-or-butter]], 337 (Stockdale leads the reprisal, bombs Vinh; the resolution sent Aug. 5); [[w.marolda-united-states-navy-and]], 449 (the count: 33 of the 34 boats hit, 7 destroyed, 10 badly damaged; 4 of 67 aircraft hit or lost, two aviators lost; Williams killed on the *Ticonderoga*''s deck). [[w.macv-command-history-1964]], 109–10 (the strikes, 64 sorties, 11 boats destroyed, 22 damaged, Vinh''s depot 90 percent destroyed, two planes lost, Alvarez held). The range: Aug. 5 in the Gulf, before McNamara''s report of the strikes to Johnson at the Syracuse airport, 10:52 a.m. Washington time. To check: [[w.moise-tonkin-gulf-and-the-2019]]; Hist, CINCPAC, 1964, pp 367–69 (cited by [[w.anthony-war-in-northern-laos]], 127 n.90). See [[cal.1964-08-02.vietnam]]. Names: Alvarez, Johnson. Check: *Victory in Vietnam* gives eight aircraft shot down of the 64 sorties, and one pilot captured (132, 461 n.20).'
+- edit:
+    id: cal.1964-08-07.vietnam
+    base: 568ed3f7
+    set:
+      time_range:
+      - 1964-08-07T04:00Z
+      - 1964-08-07T16:40Z
+      n: '[110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt14/pdf/GPO-CRECB-1964-pt14-4-2.pdf) (1964); [Senate](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt14/pdf/GPO-CRECB-1964-pt14-4-1.pdf). [110 Cong. Rec. 18,409](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt14/pdf/GPO-CRECB-1964-pt14-3-2.pdf#page=71) (1964) (Senate, Aug. 6: Fulbright, managing the resolution, to Cooper on its scope; Kaplan, 523 n.108, dates the page Aug. 7). Statement by the President on the Passage of the Joint Resolution on Southeast Asia, [1963–64 Pub. Papers 936](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=176) (Aug. 7, 1964). [[w.gibbons-u-s-government-and]], II, 302, 308–09, 316–30; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 523 (the votes; Fulbright on its scope); [[w.cosmas-joint-chiefs-of-staff-2012]], 109–10; [[w.marolda-united-states-navy-and]], 451 (the votes); [[w.johnson-vantage-point]], 118; [[w.moyar-triumph-forsaken]], 313–14; [[w.mcnamara-in-retrospect]], ch. 5 at n.13. [[w.mann-grand-delusion]], 366–67 (the votes); [[w.branch-pillar-of-fire]], 443; [[w.bernstein-guns-or-butter]], 338 (416 to 0; 88 to 2, Gruening with Morse; Section 2 quoted); [[w.woods-fulbright]], 355 (88 to 2; the House in forty minutes). [[w.rusk-as-i-saw-it-1990]], 445. Both votes before 12:40 p.m.: the President''s statement on them read by Reedy at his news conference of that hour (1963–64 Pub. Papers 936). After the House''s forty minutes under suspension. To check: [[w.gruening-many-battles]]; Congressional Record, vol. 110, 18398–18471 (cited by [[w.moyar-triumph-forsaken]], 314 n.23); [[w.karnow-vietnam]], 391–92 (cited by [[w.branch-pillar-of-fire]], 443); New York Times, Aug. 7, 1964, p. 1, Aug. 8, 1964, p. 1 (cited by [[w.branch-pillar-of-fire]], 443). See [[cal.1964-08-02.vietnam]]. Names: Morse, Gruening, Fulbright, Johnson. Check: the page.'
+    unset:
+    - time_band
+    - time_zone
+    - range_basis
+- follows:
+    id: cal.1964-08-07.vietnam
+    add:
+    - cal.1964-08-07.vietnam-congress
+- edit:
+    id: cal.1964-08-07.vietnam-congress
+    base: d84e85a8
+    set:
+      time_range:
+      - 1964-08-07T04:00Z
+      - 1964-08-07T16:40Z
+      n: '[110 Cong. Rec. 18,539–55](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt14/pdf/GPO-CRECB-1964-pt14-4-2.pdf) (1964). [[w.gibbons-u-s-government-and]], II, 308–10; [[w.zelizer-fierce-urgency-of-now]], 150 (the House in less than forty minutes). The House met at noon (its standing order, Daily Digest, D3) and adjourned at 8:03 p.m.: [Daily Digest, D403](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=401). The debate before 12:40 p.m.: the House''s vote is in the President''s statement read then (1963–64 Pub. Papers 936). See [[cal.1964-08-07.vietnam]]. Names: Albert, Halleck, Morgan, Laird, Ford, Alger, Powell, Siler.'
+    unset:
+    - time_zone
+- check:
+    id: cal.1964-08-07.vietnam-congress
+    text: 'Check: the House''s hour of meeting, the noon of its standing order against the President''s statement on its vote, read at 12:40 p.m.'
+- follows:
+    id: cal.1964-12-01.press-and-broadcasting
+    add:
+    - cal.1964-12-01.king
+- edit:
+    id: cal.1964-02-06.cuba
+    base: bf9b3762
+    set:
+      time_range:
+      - 1964-02-06T05:00Z
+      - 1964-02-06T17:30Z
+      n: '[FRUS 1964–68, XXXII, doc. 228](https://history.state.gov/historicaldocuments/frus1964-68v32/d228) (editorial note). [[w.johnson-vantage-point]], 185. Before 12:30 p.m.: Johnson tells Stanton of it then ([Johnson and Frank Stanton, 12:30 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-frank-stanton-february-6-1964-2), Conversation WH6402-07-1909 (Miller Center)). See [[cal.1964-02-02.cuba]].'
+- edit:
+    id: cal.1964-08-07.poverty-2
+    base: 78817a3d
+    set:
+      n: '[[w.branch-pillar-of-fire]], 445; [[w.bernstein-guns-or-butter]], 111 (by Evans and Novak: "The President has no objection to my saying that if I were appointed I would not recommend Yarmolinsky"; to Yarmolinsky, by Shriver''s account: "It was a question of whether we have this bill ... or you"). After Shriver''s call to Johnson, the President''s leave given, by Bernstein''s account. To check: New York Times, Aug. 7, 1964, p. 1 (cited by [[w.branch-pillar-of-fire]], 445); Adam Yarmolinsky Oral History, July 13, 1970, pp. 17–19, LBJ. ("Tt was like a funeral in the offices when we heard Shriver had caved in," recalled one of Shriver''s deputies at the poverty task force. Interview with Hyman Bookbinder, March 21, 1991.) (cited by [[w.branch-pillar-of-fire]], 445). See [[cal.1964-08-06.poverty]]. Names: Shriver, Yarmolinsky, Halleck.'
+      follows:
+      - cal.1964-08-07.poverty
+- edit:
+    id: cal.1964-12-10.laos
+    base: 8cb40208
+    set:
+      time_range:
+      - 1964-12-10T05:00Z
+      - 1964-12-10T11:00Z
+      time_band: afternoon
+      time_zone: Asia/Vientiane
+      n: '[FRUS 1964–68, XXVIII, doc. 150](https://history.state.gov/historicaldocuments/frus1964-68v28/d150); [doc. 153](https://history.state.gov/historicaldocuments/frus1964-68v28/d153) (Dec. 19); [FRUS 1964–68, I, doc. 456](https://history.state.gov/historicaldocuments/frus1964-68v01/d456) (Dec. 21). [[w.frankum-like-rolling-thunder]], 116–17 (Barrel Roll begun in December, two missions a week); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 257 (Souvanna''s assent, Dec. 10); [[w.staaveren-u-s-air-force]], 44 (Souvanna''s consent, Dec. 10, no publicity; Barrel Roll); [[w.anthony-war-in-northern-laos]], 144 (Sullivan, before presenting his credentials, seeks Souvanna Phouma''s approval of the bombing program); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 257 (Souvanna for armed reconnaissance, "see anything moving on the road, either day or night, attack it"; not to be made public). The afternoon: "I met alone with Souvanna this afternoon," Sullivan''s telegram of 7 p.m. (doc. 150). Check: the first Barrel Roll mission''s day. FRUS has the operation under way by Dec. 21, the next mission "not scheduled until 24 December" (I, doc. 456), and Washington "proceeding with Barrel Roll mission tonight," Dec. 24 (I, doc. 465); Frankum, the first sortie for Vang Pao''s irregulars Dec. 24 (117). To check: JCS to CINCPAC, 112144Z Dec 64 (cited by [[w.staaveren-u-s-air-force]], 44 n.37b); CINCPAC to COMUSMACV, 120612Z Dec 64 (cited by [[w.staaveren-u-s-air-force]], 44 n.37c); JCSM-1041-64, Dec 11, 1964 (cited by [[w.staaveren-u-s-air-force]], 44 n.37d); MR, subj: Meeting of National Security Council Principals, Dec 12, 1964 (cited by [[w.staaveren-u-s-air-force]], 44 n.37e); *Washington Post*, Dec. 24, 1964 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 257 n.109); AmEmb Vientiane to SECSTATE, 868, Dec. 10, 1964 (cited by [[w.anthony-war-in-northern-laos]], 144 n.38). See [[cal.1964-12-01.vietnam]]. Names: Sullivan, Souvanna Phouma.'
+    unset:
+    - range_basis
+- edit:
+    id: cal.1964-10-15.elections-1964
+    base: 6ce05bf0
+    set:
+      n: '[[w.solberg-hubert-humphrey]], 263. After the news of Khrushchev''s removal. To check: the *Minneapolis Tribune*, Oct. 16, 1964 (cited by [[w.solberg-hubert-humphrey]], 263, its note). Names: Khrushchev, Johnson, Humphrey. Check: the day.'
+      follows:
+      - cal.1964-10-15.soviet-union
+- check:
+    id: cal.1964-05-21.laos
+    text: 'Check: the zone of the mission''s 8 a.m., Laos''s taken (the carrier''s clock may be another).'
