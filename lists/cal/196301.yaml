@@ -476,7 +476,7 @@ entries:
     thread: program
     also: [economy]
     c: 'State of the Union. A tax cut of $13.5 billion, $10 billion net of reforms, over three years: individual rates 14 to 65 percent, from 20 to 91; corporate 47, from 52. Youth, a domestic service corps, education, hospital insurance through Social Security, counsel for poor defendants in federal courts, the vote.'
-    n: 'Annual Message to the Congress on the State of the Union, [1963 Pub. Papers 11](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=69) (Jan. 14, 1963). [109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt1/pdf/GPO-CRECB-1963-pt1-3-1.pdf) (1963). [[w.sorensen-kennedy]], 427, 429–30 (the tax cut); [[w.sundquist-politics-and-policy]], 46, 134 (the tax cut in stages, with reform, 46; the youth corps at the head of the program, 134; not the figures); [[w.fursenko-khrushchevs-cold-war]], 508–09 ("leaving fear astern"; "A moment of pause is not a promise of peace"). To check: [[w.bernstein-promises-kept]]; [[w.giglio-presidency-of-john-f]]. See [[cal.1962-01-11.program]]. Check: the page.'
+    n: 'Annual Message to the Congress on the State of the Union, [1963 Pub. Papers 11](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=69) (Jan. 14, 1963). [109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt1/pdf/GPO-CRECB-1963-pt1-3-1.pdf) (1963). [[w.sorensen-kennedy]], 427, 429–30 (the tax cut); [[w.sundquist-politics-and-policy]], 46, 134 (the tax cut in stages, with reform, 46; the youth corps at the head of the program, 134; not the figures); [[w.fursenko-khrushchevs-cold-war]], 508–09 ("leaving fear astern"; "A moment of pause is not a promise of peace"); [[w.graham-uncertain-triumph]], 44. To check: [[w.bernstein-promises-kept]]; [[w.giglio-presidency-of-john-f]]. See [[cal.1962-01-11.program]]. Check: the page.'
     src:
       c: '92613134'
       rows:
@@ -486,6 +486,7 @@ entries:
         - 'w.sundquist-politics-and-policy 46: B'
         - 'w.sundquist-politics-and-policy 134: D'
         - 'w.fursenko-khrushchevs-cold-war 508–09: A'
+        - 'w.graham-uncertain-triumph 44: A, D'
     tags: [name:kennedy-john-f]
     short: State of the Union
     to:
@@ -1157,12 +1158,13 @@ entries:
     date: '1963-01-29'
     thread: school-aid
     c: 'Education message. One omnibus bill, the National Education Improvement Act: college loans, facilities, and fellowships; $1.5 billion over four years for public schools; vocational and adult education, libraries.'
-    n: 'Special Message to the Congress on Education, [1963 Pub. Papers 105](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=163) (Jan. 29, 1963). [[w.sundquist-politics-and-policy]], 206–07 (the omnibus bill; $1.5 billion over four years for the public schools). To check: [[w.graham-uncertain-triumph]]; [[w.mcandrews-broken-ground]]; [[w.munger-national-politics-and-federal]]. See [[cal.1962-02-06.school-aid]].'
+    n: 'Special Message to the Congress on Education, [1963 Pub. Papers 105](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=163) (Jan. 29, 1963). [[w.sundquist-politics-and-policy]], 206–07 (the omnibus bill; $1.5 billion over four years for the public schools); [[w.graham-uncertain-triumph]], 44–45 (the omnibus bill, H.R. 3000 and S. 580; aid "selective, stimulative and, where possible, transitional"). To check: [[w.mcandrews-broken-ground]]; [[w.munger-national-politics-and-federal]]. See [[cal.1962-02-06.school-aid]].'
     src:
       c: 1588bcd7
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=163: all'
         - 'w.sundquist-politics-and-policy 206–07: all'
+        - 'w.graham-uncertain-triumph 44–45: A, B'
     tags: [name:kennedy-john-f]
     short: the omnibus bill
   - id: cal.1963-01-29.europe-and-the-alliance
@@ -1214,6 +1216,16 @@ entries:
         - 'w.prezidium-tsk-kpss-1954 I, 695–96: all'
         - 'via x.1963-01-29.presidium-protocol-80: all'
     tags: [name:khrushchev-nikita-s]
+  - id: cal.1963-01-29.school-aid-2
+    when: Jan. 29
+    date: '1963-01-29'
+    thread: school-aid
+    c: 'Hochwalt, for the National Catholic Welfare Conference: the parochial schools'' exclusion from the omnibus bill "totally unacceptable." The National Council of Churches objects to their inclusion.'
+    n: '[[w.graham-uncertain-triumph]], 46. Check: the day.'
+    src:
+      c: c11f264c
+      rows:
+        - 'w.graham-uncertain-triumph 46: all'
   - id: cal.1963-01-30.europe-and-the-alliance
     when: Jan. 30
     date: '1963-01-30'
@@ -1653,3 +1665,15 @@ entries:
         - 'w.anderson-confronting-the-color-line 105: all'
         - 'via w.anderson-confronting-the-color-line 105 n.2: all'
     tags: [state:il, city:chicago]
+  - id: cal.1963-01.school-aid
+    when: Jan.
+    date: 1963-01
+    thread: school-aid
+    c: 'Keppel has Logan Wilson of the American Council on Education and William Carr of the NEA, cross with each other, to dinner: "they didn''t dare turn me down." By Keppel''s account.'
+    n: '[[w.graham-uncertain-triumph]], 43–44. Check: the month; "early 1963." To check: Francis Keppel, Oral History Interview, Apr. 21, 1969, LBJ Library (cited by [[w.graham-uncertain-triumph]], 44 n.43). Names: Keppel.'
+    src:
+      c: fd09820c
+      rows:
+        - 'w.graham-uncertain-triumph 43–44: all'
+        - 'via w.graham-uncertain-triumph 44 n.43: all'
+    tags: [name:keppel-francis]
