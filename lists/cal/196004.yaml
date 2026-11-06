@@ -28,9 +28,10 @@ entries:
   - id: cal.1960-04-01.space
     when: Apr. 1
     date: '1960-04-01'
+    time: 1960-04-01T11:40Z
     thread: space
     c: Tiros I launched from Cape Canaveral, Fla. The first weather satellite; television pictures of the clouds.
-    n: 'Statement by the President on the Launching of Satellite Tiros I, [1960–61 Pub. Papers 330](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=382) (Apr. 1, 1960). To check: [[w.mcdougall-heavens-and-the-earth]]; [[w.divine-sputnik-challenge]].'
+    n: 'Statement by the President on the Launching of Satellite Tiros I, [1960–61 Pub. Papers 330](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=382) (Apr. 1, 1960). [Kennedy Space Center, *Summary of Major NASA Launchings, October 1, 1958–September 30, 1973* (1973), PDF p. 45](https://ntrs.nasa.gov/api/citations/19740015280/downloads/19740015280.pdf#page=45) (the time). To check: [[w.mcdougall-heavens-and-the-earth]]; [[w.divine-sputnik-challenge]].'
     short: Tiros
   - id: cal.1960-04-01.africa
     when: Apr. 1
@@ -62,7 +63,7 @@ entries:
     date: '1960-04-01'
     thread: testing
     c: France's second nuclear test, in the Algerian Sahara.
-    n: '[[w.watson-into-the-missile-age]], 577. To check: *New York Times*, Apr. 2, 1960 (cited by [[w.watson-into-the-missile-age]], 577 n.203). See [[cal.1960-02-13.testing]].'
+    n: '[[w.watson-into-the-missile-age]], 577. To check: [*New York Times*, Apr. 2, 1960](https://timesmachine.nytimes.com/timesmachine/1960/04/02/issue.html) (cited by [[w.watson-into-the-missile-age]], 577 n.203). See [[cal.1960-02-13.testing]].'
     src:
       c: 879bd2fa
       rows:
@@ -197,6 +198,17 @@ entries:
         - 'w.watson-into-the-missile-age 376: all'
         - 'via x.1960-04-06.goodpaster-conference-polaris: all'
     tags: [name:eisenhower-dwight-d, name:gates-thomas-s-jr]
+  - id: cal.1960-04-06.elections-1960-primaries
+    when: Apr. 6
+    date: '1960-04-06'
+    thread: elections-1960-primaries
+    c: 'Chicago, the Blackstone. Truman and Daley at breakfast: Nixon, unopposed in Wisconsin, polled fewer votes than Kennedy or Humphrey. Daley on Kennedy''s religion: "The people were voting for the man."'
+    n: '[[w.cohen-american-pharaoh]], 257. Names: Truman, Daley, Nixon, John F. Kennedy, Humphrey.'
+    src:
+      c: d512fca6
+      rows:
+        - 'w.cohen-american-pharaoh 257: all'
+    tags: [state:il, city:chicago, name:truman-harry-s, name:daley-richard-j, name:nixon-richard-m, name:kennedy-john-f, name:humphrey-hubert-h]
   - id: cal.1960-04-07.conservative-movement
     when: Apr. 7
     date: '1960-04-07'
@@ -218,12 +230,14 @@ entries:
     thread: soviet-union
     also: [defense]
     c: 'The Presidium, its first session since Khrushchev''s return from France. At his order an anonymous letter of Mar. 5, apparently a commander''s, against the troop cuts, read aloud. Khrushchev attacks the political education of the commanders: to be improved; a system of reporting what they say to be considered.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 270. To check: Protocol 274, Apr. 7, 1960, [[w.prezidium-tsk-kpss-1954]], I (cited by [[w.fursenko-khrushchevs-cold-war]], 270 nn.24–25). See [[cal.1960-01-14.soviet-union]]. Names: Khrushchev.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 270; [[w.prezidium-tsk-kpss-1954]], I, 437–38 (Protocol 274). Check: the protocol (I, 438) has the letter read at the session, the political education of the commanders weak, perhaps lectures for the officers; no order of Khrushchev''s, no system of reporting what they say. Its item I (437): Khrushchev on France, the draft resolution "too hurrah," the failure to agree to be said too. To check: Protocol 274, Apr. 7, 1960, [[w.prezidium-tsk-kpss-1954]], I (cited by [[w.fursenko-khrushchevs-cold-war]], 270 nn.24–25). See [[cal.1960-01-14.soviet-union]]. Names: Khrushchev.'
     src:
       c: 3ed8ac23
       rows:
         - 'w.fursenko-khrushchevs-cold-war 270: all'
         - 'via w.fursenko-khrushchevs-cold-war 270 n.25: all'
+        - 'w.prezidium-tsk-kpss-1954 I, 437–38: A-C'
+        - 'via x.1960-04-07.presidium-protocol-274: A-C'
     tags: [name:khrushchev-nikita-s]
   - id: cal.1960-04-07.middle-east
     when: Apr. 7
@@ -357,7 +371,13 @@ entries:
     thread: governors
     also: [elections-1960]
     c: 'Illinois, primaries for governor. Democratic: Kerner, a Cook County judge, slated by Daley''s organization, over Lohman, State treasurer, 649,253 to 232,345, 60.9 percent; Mitchell, once national chairman, 184,651, 17.3 percent. Republican: Stratton, seeking a third term, over Hayes Robertson, 499,365 to 345,340, 59.1 percent.'
-    n: 'Votes: [Ill. *Official Vote*, 1960, p. 77](https://archive.org/details/officialvote1960illi/page/n78). Lohman''s, Mitchell''s and Robertson''s votes: [Wikipedia, "1960 Illinois gubernatorial election"](https://en.wikipedia.org/wiki/1960_Illinois_gubernatorial_election). To check: [[w.barnhart-kerner]]; [[w.kenney-political-passage]]; [[w.cohen-american-pharaoh]]. See [[cal.1960-04-12.elections-1960]]. Names: Kerner, Daley, Lohman, Mitchell, Stratton, Robertson.'
+    n: 'Votes: [Ill. *Official Vote*, 1960, p. 77](https://archive.org/details/officialvote1960illi/page/n78). Lohman''s, Mitchell''s and Robertson''s votes: [Wikipedia, "1960 Illinois gubernatorial election"](https://en.wikipedia.org/wiki/1960_Illinois_gubernatorial_election). [[w.cohen-american-pharaoh]], 250–51 (Kerner slated by Daley''s organization). To check: [[w.barnhart-kerner]]; [[w.kenney-political-passage]]. See [[cal.1960-04-12.elections-1960]]. Names: Kerner, Daley, Lohman, Mitchell, Stratton, Robertson.'
+    src:
+      c: 4ebb62c9
+      rows:
+        - 'https://archive.org/details/officialvote1960illi/page/n78: all'
+        - 'https://en.wikipedia.org/wiki/1960_Illinois_gubernatorial_election: all'
+        - 'w.cohen-american-pharaoh 250–51: B'
     tags: [state:il, name:kerner-otto, name:daley-richard-j, name:lohman-joseph-d, name:mitchell-stephen-a, name:stratton-william-g, name:robertson-hayes]
   - id: cal.1960-04-14.middle-east
     when: Apr. 14
@@ -378,7 +398,7 @@ entries:
     thread: civil-rights-organizations
     also: [sit-ins]
     c: Easter weekend at Shaw University, Raleigh. The sit-ins' student leaders, called by Ella Baker of SCLC with SCLC's money. King and James Lawson speak. A Temporary Student Nonviolent Coordinating Committee formed, apart from SCLC.
-    n: '[Recommendations of the Findings and Recommendations Committee](https://www.crmvet.org/docs/6004_shaw_recommendations.pdf), Youth Leadership Conference, Raleigh. King, [Statement to the Press at the Beginning of the Youth Leadership Conference](https://okra.stanford.edu/link/document600415-003), Apr. 15, 1960 (King Papers Project); printed in [[w.papers-of-martin-luther]], 426–27 ([King Institute](https://kinginstitute.stanford.edu/king-papers/documents/statement-press-beginning-youth-leadership-conference)). SNCC Digital Gateway (K–J Cong. II.L). [[w.branch-parting-the-waters]], 290–92; [[w.kotz-judgment-days]], 51 (two hundred students). To check: [[w.carson-in-struggle]]; [[w.zinn-sncc]]; [[w.ransby-ella-baker-and-the]]; [[w.hogan-many-minds-one-heart]]; [[w.morris-origins-of-the-civil]]; [[w.halberstam-children]]; Baker to King and Abernathy, Mar. 23, 1960, Southern Christian Leadership Conference Records, box 32, folder 39, King Library and Archives (cited by [[w.branch-parting-the-waters]], 291 n.1); Abernathy to SCLC board, Apr. 7, 1960, A/SC53f5 (cited by [[w.branch-parting-the-waters]], 290 n.9); Nashville Banner, Apr. 18, 1960, 8 (cited by [[w.branch-parting-the-waters]], 291 n.3); interviews: James Lawson, Nov. 8, 1983 (Branch) (cited by [[w.branch-parting-the-waters]], 291 n.4); Charles McDew, oral history (cited by [[w.branch-parting-the-waters]], 291 n.7); interviews: Bernard Lee, Oct. 25, 1984 (Branch) (cited by [[w.branch-parting-the-waters]], 292 n.1); [[w.forman-making-of-black-revolutionaries]], 215 (cited by [[w.branch-parting-the-waters]], 292 n.2); Ella Baker, oral history, Civil Rights Documentation Project, Howard University (cited by [[w.branch-parting-the-waters]], 292 n.3); interviews: James Lawson, Nov. 9, 1983 (Branch) (cited by [[w.branch-parting-the-waters]], 292 n.5); [[w.carson-in-struggle]], 20 (cited by [[w.branch-parting-the-waters]], 290 n.8); [[w.carson-in-struggle]], 22 (cited by [[w.branch-parting-the-waters]], 291 n.2); [[w.carson-in-struggle]], 23 (cited by [[w.branch-parting-the-waters]], 291 n.5). Names: Baker, Martin Luther King, Lawson.'
+    n: '[Recommendations of the Findings and Recommendations Committee](https://www.crmvet.org/docs/6004_shaw_recommendations.pdf), Youth Leadership Conference, Raleigh. King, [Statement to the Press at the Beginning of the Youth Leadership Conference](https://okra.stanford.edu/link/document600415-003), Apr. 15, 1960 (King Papers Project); printed in [[w.papers-of-martin-luther]], 426–27 ([King Institute](https://kinginstitute.stanford.edu/king-papers/documents/statement-press-beginning-youth-leadership-conference)). SNCC Digital Gateway (K–J Cong. II.L). [[w.branch-parting-the-waters]], 290–92; [[w.kotz-judgment-days]], 51 (two hundred students); [[w.young-easy-burden]], 137, 164; [[w.debenedetti-american-ordeal]], 42 (Ella Baker''s call; two hundred; SNCC''s name settled in October). To check: [[w.carson-in-struggle]]; [[w.zinn-sncc]]; [[w.ransby-ella-baker-and-the]]; [[w.hogan-many-minds-one-heart]]; [[w.morris-origins-of-the-civil]]; [[w.halberstam-children]]; Baker to King and Abernathy, Mar. 23, 1960, Southern Christian Leadership Conference Records, box 32, folder 39, King Library and Archives (cited by [[w.branch-parting-the-waters]], 291 n.1); Abernathy to SCLC board, Apr. 7, 1960, A/SC53f5 (cited by [[w.branch-parting-the-waters]], 290 n.9); Nashville Banner, Apr. 18, 1960, 8 (cited by [[w.branch-parting-the-waters]], 291 n.3); interviews: James Lawson, Nov. 8, 1983 (Branch) (cited by [[w.branch-parting-the-waters]], 291 n.4); Charles McDew, oral history (cited by [[w.branch-parting-the-waters]], 291 n.7); interviews: Bernard Lee, Oct. 25, 1984 (Branch) (cited by [[w.branch-parting-the-waters]], 292 n.1); [[w.forman-making-of-black-revolutionaries]], 215 (cited by [[w.branch-parting-the-waters]], 292 n.2); Ella Baker, oral history, Civil Rights Documentation Project, Howard University (cited by [[w.branch-parting-the-waters]], 292 n.3); interviews: James Lawson, Nov. 9, 1983 (Branch) (cited by [[w.branch-parting-the-waters]], 292 n.5); [[w.carson-in-struggle]], 20 (cited by [[w.branch-parting-the-waters]], 290 n.8); [[w.carson-in-struggle]], 22 (cited by [[w.branch-parting-the-waters]], 291 n.2); [[w.carson-in-struggle]], 23 (cited by [[w.branch-parting-the-waters]], 291 n.5). Names: Baker, Martin Luther King, Lawson.'
     src:
       c: cd58ca0b
       rows:
@@ -400,6 +420,8 @@ entries:
         - 'via w.branch-parting-the-waters 292 n.2: C'
         - 'via w.branch-parting-the-waters 292 n.3: C'
         - 'via w.branch-parting-the-waters 292 n.5: C'
+        - 'w.young-easy-burden 137, 164: A, D'
+        - 'w.debenedetti-american-ordeal 42: A-B, D'
     tags: [name:baker-ella, name:king-martin-luther-jr, name:lawson-james-m-jr]
     short: SNCC founded at Raleigh
   - id: cal.1960-04-15.vietnam-hanoi
@@ -417,6 +439,33 @@ entries:
         - 'via x.1960-04-15.dien-van-be-mac-cua-ton: B'
         - 'via x.1960-04-15.tham-luan-pham-van-bach: D'
     tags: [name:ton-duc-thang]
+  - id: cal.1960-04-15.soviet-union
+    when: Apr. 15
+    date: '1960-04-15'
+    thread: soviet-union
+    c: 'The Presidium on a note of the KGB and the Procurator: Vasily Stalin, released early, back to prison, the decree releasing him annulled. Voroshilov censured for receiving him: "while I live, no one will touch you"; from him, they say, Vasily went to the Chinese embassy. Voroshilov: "I admit it."'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 438–39 (Protocol 275, item LVIII, Malin''s notes); [[w.prezidium-tsk-kpss-1954]], III, 117–24 (the note of Shelepin and Rudenko; the resolution; Voroshilov''s note to Khrushchev of Apr. 13 and his talk with Vasily Stalin of Apr. 9). Made public: 2003, 2008. Names: Voroshilov.'
+    src:
+      c: b6afda8d
+      rows:
+        - 'w.prezidium-tsk-kpss-1954 I, 438–39: all'
+        - 'w.prezidium-tsk-kpss-1954 III, 117–24: A'
+        - 'via x.1960-04-15.presidium-protocol-275: all'
+        - 'via x.1960-04-15.rudenko-shelepin-note-vasily-stalin: A'
+    tags: [name:voroshilov-klimenti-efremovich, name:shelepin-alexandr-n, name:suslov-mikhail-a]
+  - id: cal.1960-04-16.soviet-union-u2
+    when: Apr. 16
+    date: '1960-04-16'
+    thread: soviet-union-u2
+    also: [europe-and-the-alliance]
+    c: 'Eisenhower''s letter to Khrushchev goes to Moscow by telegram for delivery: after the summit he goes to Lisbon; should the conference run on, Nixon to take his place in Paris.'
+    n: '[FRUS 1958–60, IX, doc. 127](https://history.state.gov/historicaldocuments/frus1958-60v09/d127) (Herter to Couve de Murville, Apr. 15: the letter; n.2, sent in telegram 2102, Apr. 16). [[w.fursenko-khrushchevs-cold-war]], 271 (Eisenhower alerts Khrushchev in April; Nixon to head the delegation). To check: Eisenhower to Khrushchev, telegram 2102, Apr. 16, 1960, Presidential Correspondence, Lot 66 D 204 (cited by FRUS 1958–60, IX, doc. 127 n.2). Names: Eisenhower, Khrushchev, Nixon.'
+    src:
+      c: 1fcf70c7
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v09/d127: all'
+        - 'w.fursenko-khrushchevs-cold-war 271: all'
+    tags: [name:eisenhower-dwight-d, name:khrushchev-nikita-s, name:nixon-richard-m]
   - id: cal.1960-04-19.elections-1960
     when: Apr. 19
     date: '1960-04-19'
@@ -551,7 +600,7 @@ entries:
     thread: mississippi
     also: [desegregation-public-places]
     c: Biloxi. Some 125 Negro men, women and children, led by Dr. Gilbert R. Mason, wade in at the city's beach, built with federal funds; white crowds attack them, the police standing by; fighting in the town into the night. Mason arrested Apr. 17 for swimming there. The beaches held public by the Fifth Circuit in 1968.
-    n: '*United States v. Harrison County*, [399 F.2d 485](https://static.case.law/f2d/399/case-pdfs/0485-01.pdf), 486 (5th Cir. 1968). [Wikipedia, "Biloxi wade-ins"](https://en.wikipedia.org/wiki/Biloxi_wade-ins). [[w.dittmer-local-people]], 86–87 (86: the wade-in of Apr. 24, the mob with pipes, chains and bats, the police watching, the shooting in the town; not the count). Check: Dittmer, 86, gives Apr. 14 for Mason''s first swim, he and a few friends ordered off the beach by a policeman, and forty white men with pipes, chains and bats on Apr. 24. To check: [[w.katagiri-mississippi-state-sovereignty-commission]]; the affidavits of Dorothy Galloway and Gilbert Mason, May 3, 1960, NAACP Papers; *Jackson Daily News*, May 2, 1960; *New York Times*, May 18, 1960 (cited by [[w.dittmer-local-people]], 86 n.38). Names: Mason.'
+    n: '*United States v. Harrison County*, [399 F.2d 485](https://static.case.law/f2d/399/case-pdfs/0485-01.pdf), 486 (5th Cir. 1968). [Wikipedia, "Biloxi wade-ins"](https://en.wikipedia.org/wiki/Biloxi_wade-ins). [[w.dittmer-local-people]], 86–87 (86: the wade-in of Apr. 24, the mob with pipes, chains and bats, the police watching, the shooting in the town; not the count). Check: Dittmer, 86, gives Apr. 14 for Mason''s first swim, he and a few friends ordered off the beach by a policeman, and forty white men with pipes, chains and bats on Apr. 24. To check: [[w.katagiri-mississippi-state-sovereignty-commission]]; the affidavits of Dorothy Galloway and Gilbert Mason, May 3, 1960, NAACP Papers; *Jackson Daily News*, May 2, 1960; [*New York Times*, May 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/05/18/issue.html) (cited by [[w.dittmer-local-people]], 86 n.38). Names: Mason.'
     src:
       c: 3ef509a0
       rows:
@@ -744,7 +793,7 @@ entries:
     date: 1960-04
     thread: elections-1960-primaries
     c: 'West Virginia. Back from the Greenbrier, Humphrey decides to run. Herb Waters explains slating: he has told "the appropriate people" Humphrey''s side would put up $25,000 and was "laughed out of the office," by Humphrey''s account.'
-    n: '[[w.humphrey-education-of-a-public-1976]], 213–15; [[w.solberg-hubert-humphrey]], 210 (an aide''s advice: "One thousand dollars to get on a slate in a populated area"). To check: David Ginsburg to Humphrey, Mar. 15, 1960, Box 575, Humphrey Papers; Harry W. Ernst, *The Primary That Made a President: West Virginia 1960* (1962), 24; Claude Ellis, interview, Sept. 9, 1964, Kennedy Library; the *New York Times*, Aug. 10, 1981 (cited by [[w.solberg-hubert-humphrey]], 210, its note). See [[cal.1960-04.elections-1960]]. Check: the day. Names: Humphrey.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 213–15; [[w.solberg-hubert-humphrey]], 210 (an aide''s advice: "One thousand dollars to get on a slate in a populated area"). To check: David Ginsburg to Humphrey, Mar. 15, 1960, Box 575, Humphrey Papers; Harry W. Ernst, *The Primary That Made a President: West Virginia 1960* (1962), 24; Claude Ellis, interview, Sept. 9, 1964, Kennedy Library; the [*New York Times*, Aug. 10, 1981](https://timesmachine.nytimes.com/timesmachine/1981/08/10/issue.html) (cited by [[w.solberg-hubert-humphrey]], 210, its note). See [[cal.1960-04.elections-1960]]. Check: the day. Names: Humphrey.'
     src:
       c: 07725ebf
       rows:
@@ -783,12 +832,14 @@ entries:
     thread: soviet-union
     also: [defense]
     c: 'The Presidium, Khrushchev absent. Voroshilov against his defense budget: "Is it correct for us to reduce allotments for the construction of [civil air] shelters?" Against the incentives for recycling scrap metal, "a gross mistake." Reported to Khrushchev.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 271 and n.27. To check: Protocol 277, Apr. 28, 1960, [[w.prezidium-tsk-kpss-1954]], I (cited by [[w.fursenko-khrushchevs-cold-war]], 271 n.27). See [[cal.1960-04-07.soviet-union]]. Names: Voroshilov, Khrushchev.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 271 and n.27; [[w.prezidium-tsk-kpss-1954]], I, 440–41 (Protocol 277). Check: the protocol (I, 440) has Voroshilov on the scrap premiums, "a great misunderstanding"; out of the protocol, whether Khrushchev should speak on foreign and home policy at the Supreme Soviet''s session, no decision. To check: Protocol 277, Apr. 28, 1960, [[w.prezidium-tsk-kpss-1954]], I (cited by [[w.fursenko-khrushchevs-cold-war]], 271 n.27). See [[cal.1960-04-07.soviet-union]]. Names: Voroshilov, Khrushchev.'
     src:
       c: 1e2a9c24
       rows:
         - 'w.fursenko-khrushchevs-cold-war 271 and n.27: all'
         - 'via w.fursenko-khrushchevs-cold-war 271 n.27: all'
+        - 'w.prezidium-tsk-kpss-1954 I, 440–41: A-C'
+        - 'via x.1960-04-28.presidium-protocol-277: A-C'
     tags: [name:voroshilov-klimenti-efremovich, name:khrushchev-nikita-s]
   - id: cal.1960-04.jobs-and-wages
     when: Apr., spring
@@ -837,3 +888,45 @@ entries:
       rows:
         - 'w.asselin-hanois-road-to-the 75: all'
         - 'via x.1960-04-28.dien-mat-160-gui-xu-uy-nam-bo: all'
+  - id: cal.1960-04.elections-1960-primaries
+    when: Apr.
+    date: 1960-04
+    thread: elections-1960-primaries
+    c: 'After the Wisconsin primary. Humphrey, having read Wofford''s Madison talk, writes him a bitter note: *Et tu, Brute*. By Wofford''s account.'
+    n: '[[w.wofford-of-kennedys-and-kings]], 43. Check: the day. Names: Humphrey, Wofford.'
+    src:
+      c: 0ba07d18
+      rows:
+        - 'w.wofford-of-kennedys-and-kings 43: all'
+    tags: [name:humphrey-hubert-h, name:wofford-harris]
+  - id: cal.1960-04.elections-1960-primaries-2
+    when: Apr.
+    date: 1960-04
+    thread: elections-1960-primaries
+    c: 'South Bend. Kennedy at Notre Dame, after Wisconsin: a standing ovation. Hesburgh, after their talk: "I guess I will opt for vigor and youth." Kennedy renews his request; Wofford agrees to join the staff full time when classes end, May 1.'
+    n: '[[w.wofford-of-kennedys-and-kings]], 43. Check: the day. Names: Kennedy, Hesburgh, Wofford.'
+    src:
+      c: b0aa7aae
+      rows:
+        - 'w.wofford-of-kennedys-and-kings 43: all'
+    tags: [name:kennedy-john-f, name:hesburgh-theodore-m, name:wofford-harris]
+  - id: cal.1960-04.students
+    when: Apr.
+    date: 1960-04
+    thread: students
+    c: The Socialist Workers Party establishes the Young Socialist Alliance.
+    n: '[[w.debenedetti-american-ordeal]], 44. Check: the day.'
+    src:
+      c: 8fe5c112
+      rows:
+        - 'w.debenedetti-american-ordeal 44: all'
+  - id: cal.1960-04.testing
+    when: Apr.
+    date: 1960-04
+    thread: testing
+    c: Easter week demonstrations for peace and disarmament, the largest yet.
+    n: '[[w.debenedetti-american-ordeal]], 45. Check: the days.'
+    src:
+      c: bb80827d
+      rows:
+        - 'w.debenedetti-american-ordeal 45: all'

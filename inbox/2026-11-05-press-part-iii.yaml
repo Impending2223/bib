@@ -1,0 +1,265 @@
+patch: 2026-11-05-press-part-iii
+by: Claude (the press for Part III, R13; for the owner's ruling, not merged; review in notes/proposals/press-part-iii-review.md)
+ops:
+  # K–J Cong. III.J, Press and pollsters
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.apple-r-w-jr
+        s: Apple, R. W., Jr.
+        r: '*New York Times*; Saigon bureau chief, 1967'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.ascoli-max
+        s: Ascoli, Max
+        r: Editor and publisher, *The Reporter*
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.chandler-otis
+        s: Chandler, Otis
+        r: Publisher, *Los Angeles Times*
+        n: 'Check: from 1960, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.childs-marquis
+        s: Childs, Marquis
+        r: Columnist, *St. Louis Post-Dispatch*, syndicated
+        n: 'Check: the role, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.drummond-roscoe
+        s: Drummond, Roscoe
+        r: Columnist, *New York Herald Tribune*, syndicated
+        n: 'Check: syndicated, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.fleeson-doris
+        s: Fleeson, Doris
+        r: Columnist, syndicated
+        n: 'Check: the role, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.fleming-karl
+        s: Fleming, Karl
+        r: '*Newsweek*, civil rights; Atlanta bureau chief'
+        n: 'Check: the role, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.frank-reuven
+        s: Frank, Reuven
+        r: Producer, the *Huntley-Brinkley Report*; president, NBC News, from 1968
+        n: 'Check: the role, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.frankel-max
+        s: Frankel, Max
+        r: '*New York Times*; diplomatic correspondent; Washington bureau chief from 1968'
+        n: 'Check: the posts and the year, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.kalb-marvin
+        s: Kalb, Marvin
+        r: CBS News diplomatic correspondent
+        n: 'Check: the role, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.kempton-murray
+        s: Kempton, Murray
+        r: Columnist, *New York Post* and *World-Telegram*; *The New Republic*
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.kilpatrick-james-j
+        s: Kilpatrick, James J.
+        r: Editor, *Richmond News Leader*; columnist, syndicated
+        n: 'Check: the role, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.kraft-joseph
+        s: Kraft, Joseph
+        r: Columnist; with Kennedy's campaign, 1960
+        n: 'Check: syndicated from 1963, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.lawrence-david
+        s: Lawrence, David
+        r: Columnist, syndicated; editor, *U.S. News & World Report*
+        n: 'Not the Governor of Pennsylvania (III.F). Check: the editorship, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.luce-henry-r
+        s: Luce, Henry R.
+        r: Editor in chief, Time Inc., to 1964
+        n: 'Check: the year, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.paley-william-s
+        s: Paley, William S.
+        r: Chairman, CBS
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.podhoretz-norman
+        s: Podhoretz, Norman
+        r: Editor, *Commentary*, from 1960
+        n: 'Check: the year, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.reasoner-harry
+        s: Reasoner, Harry
+        r: CBS News correspondent
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.roberts-chalmers-m
+        s: Roberts, Chalmers M.
+        r: '*Washington Post*; diplomatic correspondent'
+        n: 'Check: the beat, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.roberts-gene
+        s: Roberts, Gene
+        r: '*New York Times*; the South, 1965–67; Saigon, 1968'
+        n: 'Check: the years, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.sarnoff-david
+        s: Sarnoff, David
+        r: Chairman, RCA (NBC)
+        n: 'Check: the role, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.sevareid-eric
+        s: Sevareid, Eric
+        r: CBS News correspondent and commentator
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.sitton-claude
+        s: Sitton, Claude
+        r: '*New York Times*; Southern correspondent'
+        n: 'Check: national news editor from 1964, recalled.'
+  - add:
+      section: III.J
+      entry:
+        id: kjc.who.sulzberger-arthur-ochs
+        s: Sulzberger, Arthur Ochs
+        r: Publisher, *New York Times*, from 1963
+        n: Not C. L. Sulzberger, the *Times*'s foreign columnist.
+  # Howard K. Smith: already in III.K; moved to the press and his role filled out
+  - move:
+      id: kjc.who.smith-howard-k
+      section: III.J
+  - edit:
+      id: kjc.who.smith-howard-k
+      base: 8815ac96
+      set:
+        r: CBS correspondent; moderator of the first Kennedy–Nixon debate, Sept. 26, 1960; ABC News from 1962
+        n: 'Check: ABC from 1962, recalled.'
+  # Viet. III.F, The press
+  - add:
+      section: III.F
+      entry:
+        id: vn.who.beech-keyes
+        s: Beech, Keyes
+        r: Chicago Daily News, Far East
+        n: 'Check: the role, recalled.'
+  - add:
+      section: III.F
+      entry:
+        id: vn.who.braestrup-peter
+        s: Braestrup, Peter
+        r: Washington Post, Saigon, 1968
+        n: 'Check: bureau chief, recalled.'
+  - add:
+      section: III.F
+      entry:
+        id: vn.who.just-ward
+        s: Just, Ward
+        r: The Reporter; Washington Post, Saigon, 1965–67
+        n: 'Check: the years, recalled.'
+  # 1968 III.O, Press and commentators
+  - add:
+      section: III.O
+      entry:
+        id: l68.who.mcginniss-joe
+        s: McGinniss, Joe
+        r: Columnist, *Philadelphia Inquirer*; with Nixon's media staff, 1968
+        n: 'Check: the role, recalled.'
+  - add:
+      section: III.O
+      entry:
+        id: l68.who.newfield-jack
+        s: Newfield, Jack
+        r: '*Village Voice*'
+  - add:
+      section: III.O
+      entry:
+        id: l68.who.witcover-jules
+        s: Witcover, Jules
+        r: Reporter, Newhouse National News Service
+        n: 'Check: the role, recalled.'
+
+  # The calendar entries whose `c` names the figure: the tag and the Names line
+  - names: {id: cal.1966-01-31.vietnam-operations, add: [Apple], tags: ['name:apple-r-w-jr']}
+  - names: {id: cal.1967-08-07.vietnam, add: [Apple], tags: ['name:apple-r-w-jr']}
+  - names: {id: cal.1967-08-08.vietnam-2, add: [Apple], tags: ['name:apple-r-w-jr']}
+  - names: {id: cal.1967-08-12.vietnam-2, add: [Apple], tags: ['name:apple-r-w-jr']}
+  - names: {id: cal.1964-08-13.press-and-broadcasting, add: [Ascoli], tags: ['name:ascoli-max']}
+  - names: {id: cal.1964-09-10.elections-1964, add: [Chandler], tags: ['name:chandler-otis']}
+  - names: {id: cal.1967-04-27.vietnam-congress-2, add: [Fleeson], tags: ['name:fleeson-doris']}
+  - names: {id: cal.1960-11.press-and-broadcasting, add: [Kempton], tags: ['name:kempton-murray']}
+  - names: {id: cal.1964-02-15.press-and-broadcasting-2, add: [Kempton], tags: ['name:kempton-murray']}
+  - names: {id: cal.1964-07-25.press-and-broadcasting, add: [Kempton], tags: ['name:kempton-murray']}
+  - names: {id: cal.1965-11-05.press-and-broadcasting, add: [Kempton], tags: ['name:kempton-murray']}
+  - names: {id: cal.1966-06-16.press-and-broadcasting, add: [Kempton], tags: ['name:kempton-murray']}
+  - names: {id: cal.1964-12.press-and-broadcasting-3, add: [Kraft], tags: ['name:kraft-joseph']}
+  - names: {id: cal.1965-10-04.vietnam-2, add: [Kraft], tags: ['name:kraft-joseph']}
+  - names: {id: cal.1968-05.robert-kennedy-campaign-5, add: [Kraft], tags: ['name:kraft-joseph']}
+  - names: {id: cal.1960-11-01.elections-1960-2, add: [Lawrence], tags: ['name:lawrence-david']}
+  - names: {id: cal.1961-05-23.freedom-rides, add: [Lawrence], tags: ['name:lawrence-david']}
+  - names: {id: cal.1960-07-15.elections-1960-3, add: [Luce], tags: ['name:luce-henry-r']}
+  - names: {id: cal.1961-09-12.cuba-bay-of-pigs, add: [Luce], tags: ['name:luce-henry-r']}
+  - names: {id: cal.1966-02-21.press-and-broadcasting, add: [Luce], tags: ['name:luce-henry-r']}
+  - names: {id: cal.1966-02-21.press-and-broadcasting-2, add: [Luce], tags: ['name:luce-henry-r']}
+  - names: {id: cal.1966-05-22.states-and-cities-nyc, add: [Newfield], tags: ['name:newfield-jack']}
+  - names: {id: cal.1966-10.robert-kennedy-2, add: [Newfield], tags: ['name:newfield-jack']}
+  - names: {id: cal.1966-12.robert-kennedy-4, add: [Newfield], tags: ['name:newfield-jack']}
+  - names: {id: cal.1967-02-13.robert-kennedy, add: [Newfield], tags: ['name:newfield-jack']}
+  - names: {id: cal.1967-09-23.robert-kennedy, add: [Newfield], tags: ['name:newfield-jack']}
+  - names: {id: cal.1967-10.robert-kennedy-2, add: [Newfield], tags: ['name:newfield-jack']}
+  - names: {id: cal.1967-12.press-and-broadcasting, add: [Newfield], tags: ['name:newfield-jack']}
+  - names: {id: cal.1968-01-19.robert-kennedy-campaign-3, add: [Newfield], tags: ['name:newfield-jack']}
+  - names: {id: cal.1964-10-27.press-and-broadcasting, add: [Paley], tags: ['name:paley-william-s']}
+  - names: {id: cal.1966-09.poverty, add: [Paley], tags: ['name:paley-william-s']}
+  - names: {id: cal.1967-09.elections-1968, add: [Paley], tags: ['name:paley-william-s']}
+  - names: {id: cal.1963-09-25.vietnam, add: [Reasoner], tags: ['name:reasoner-harry']}
+  - names: {id: cal.1964-03.civil-rights-bill-3, add: [Sevareid], tags: ['name:sevareid-eric']}
+  - names: {id: cal.1966-01-31.vietnam-congress-4, add: [Sevareid], tags: ['name:sevareid-eric']}
+  - names: {id: cal.1961-12-24.civil-rights-organizations, add: [Sitton], tags: ['name:sitton-claude']}
+  - names: {id: cal.1962-07-27.press-and-broadcasting, add: [Sitton], tags: ['name:sitton-claude']}
+  - names: {id: cal.1962-07-27.voting-rights, add: [Sitton], tags: ['name:sitton-claude']}
+  - names: {id: cal.1962-07-29.press-and-broadcasting, add: [Sitton], tags: ['name:sitton-claude']}
+  - names: {id: cal.1962-11-15.georgia-albany, add: [Sitton], tags: ['name:sitton-claude']}
+  - names: {id: cal.1963-05-01.alabama, add: [Sitton], tags: ['name:sitton-claude']}
+  - names: {id: cal.1963-10-21.press-and-broadcasting, add: [Sulzberger], tags: ['name:sulzberger-arthur-ochs']}
+  - names: {id: cal.1963-01-17.press-and-broadcasting, add: [Just], tags: ['name:just-ward']}
+  - names: {id: cal.1967-11-26.vietnam, add: [Just], tags: ['name:just-ward']}

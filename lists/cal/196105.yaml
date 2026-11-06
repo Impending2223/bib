@@ -36,6 +36,7 @@ entries:
   - id: cal.1961-05-01.laos
     when: May 1
     date: '1961-05-01'
+    time: 1961-05-01T20:10Z
     thread: laos
     c: The 481st NSC, on Laos. McNamara proposes a SEATO move into the panhandle, "recognizing that if we do we must be prepared to win"; to win in Southeast Asia might take nuclear weapons. Taylor against American troops in Laos; Dulles warns of a Chinese response. No decision while the cease-fire is negotiated; the President ready under certain conditions to send forces to Thailand; the Chiefs to present the military implications May 2.
     n: '[FRUS 1961–63, XXIV, doc. 73](https://history.state.gov/historicaldocuments/frus1961-63v24/d73) (McNamara''s notes; NSC Action 2417). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 242 (all but the forces for Thailand); [[w.poole-joint-chiefs-of-staff]], 130. [[w.sorensen-kennedy]], 644 (the NSC on Laos). See [[cal.1961-04-26.laos]]. Names: McNamara, Taylor, Dulles.'
@@ -135,6 +136,19 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 63: all'
     tags: [name:mcnamara-robert-s, name:lemnitzer-lyman-l, name:decker-george-h, name:white-thomas-d, name:burke-arleigh-a, name:shoup-david-m]
+  - id: cal.1961-05-01.europe-and-the-alliance
+    when: May 1
+    date: '1961-05-01'
+    thread: europe-and-the-alliance
+    also: [defense]
+    c: 'Bundy to McNamara, on the commitment of five Polaris submarines to NATO for the life of the alliance, discussed by State and Defense in April: Defense to study how many more should be committed, on assignment or earmarked, and where deployed.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 363. To check: Bundy to McNamara, May 1, 1961, ISA files, Acc 64A-2382 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 363 n.22). See [[cal.1961-05-17.europe-and-the-alliance]]. Names: Bundy, McNamara.'
+    src:
+      c: 8834a08d
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 363: all'
+        - 'via x.1961-05-01.bundy-to-mcnamara-polaris-nato: all'
+    tags: [name:bundy-mcgeorge, name:mcnamara-robert-s]
   - id: cal.1961-05-02.specials
     when: May 2
     date: '1961-05-02'
@@ -280,7 +294,7 @@ entries:
     thread: freedom-rides
     also: [desegregation-public-places]
     c: Thirteen CORE riders leave Washington on two buses to test *Boynton v. Virginia* (1960).
-    n: '*Boynton v. Virginia*, [364 U.S. 454](https://tile.loc.gov/storage-services/service/ll/usrep/usrep364/usrep364454/usrep364454.pdf) (1960). [[w.schlesinger-robert-kennedy-and-his]], 294–300 (the ride, in May, to test the ruling; not the number, the day or Washington); [[w.robert-kennedy-in-his]], 82–101 (the Freedom Rides from Anniston: Robert Kennedy did not know of the ride before the bus was burned); [[w.guthman-we-band-of-brothers]], 154–78 (the Freedom Rides; the ride left Washington May 4, 158); [[w.kotz-judgment-days]], 53. Film: [[w.freedom-riders]]. [[w.garrow-bearing-the-cross]], 154–61; [[w.navasky-kennedy-justice]], 20 (CORE''s riders, in May, to test the terminals from the District to New Orleans; not the number, the day or the buses). To check: [[w.arsenault-freedom-riders]]; [[w.branch-parting-the-waters]]; [[w.farmer-lay-bare-the-heart]]; [[w.lewis-walking-with-the-wind]]; [[w.wofford-of-kennedys-and-kings]]; James Farmer to John F. Kennedy and to Robert F. Kennedy, Apr. 26, 1961, CORE Papers, State Historical Society of Wisconsin, reel 25-117 (cited by [[w.garrow-bearing-the-cross]], 155 n.26). Names: Farmer, Lewis, Nash, Seigenthaler, Marshall, White.'
+    n: '*Boynton v. Virginia*, [364 U.S. 454](https://tile.loc.gov/storage-services/service/ll/usrep/usrep364/usrep364454/usrep364454.pdf) (1960). [[w.schlesinger-robert-kennedy-and-his]], 294–300 (the ride, in May, to test the ruling; not the number, the day or Washington); [[w.robert-kennedy-in-his]], 82–101 (the Freedom Rides from Anniston: Robert Kennedy did not know of the ride before the bus was burned); [[w.guthman-we-band-of-brothers]], 154–78 (the Freedom Rides; the ride left Washington May 4, 158); [[w.kotz-judgment-days]], 53; [[w.wofford-of-kennedys-and-kings]], 151 (CORE''s interracial ride through the South against segregation in the terminals; not the number, the day or Washington). Film: [[w.freedom-riders]]. [[w.garrow-bearing-the-cross]], 154–61; [[w.navasky-kennedy-justice]], 20 (CORE''s riders, in May, to test the terminals from the District to New Orleans; not the number, the day or the buses). To check: [[w.arsenault-freedom-riders]]; [[w.branch-parting-the-waters]]; [[w.farmer-lay-bare-the-heart]]; [[w.lewis-walking-with-the-wind]]; James Farmer to John F. Kennedy and to Robert F. Kennedy, Apr. 26, 1961, CORE Papers, State Historical Society of Wisconsin, reel 25–117 (cited by [[w.garrow-bearing-the-cross]], 155 n.26). Names: Farmer, Lewis, Nash, Seigenthaler, Marshall, White.'
     src:
       c: 791a5e96
       rows:
@@ -293,6 +307,7 @@ entries:
         - 'w.robert-kennedy-in-his 82–101: ?'
         - 'w.guthman-we-band-of-brothers 154–78: ?'
         - 'w.kotz-judgment-days 53: A'
+        - 'w.wofford-of-kennedys-and-kings 151: A-B'
     tags: [name:farmer-james, name:lewis-john, name:nash-diane, name:seigenthaler-john, name:marshall-burke, name:white-byron-r]
     short: the riders leave Washington
   - id: cal.1961-05-04.middle-east
@@ -334,10 +349,13 @@ entries:
   - id: cal.1961-05-04.soviet-union-2
     when: May 4
     date: '1961-05-04'
+    time: 1961-05-04T14:00Z
     thread: soviet-union
     also: [berlin-and-vienna]
+    follows:
+      - cal.1961-05-04.soviet-union
     c: 'Thompson to Rusk, eyes only: keep the meeting. Six reasons: the Soviets more reasonable on Laos, testing and disarmament; a hand in the Party Congress''s decisions; Soviet–Chinese relations made worse; the meeting more needed after recent events; the United States stronger before the world and on Berlin; no major change in Soviet policy.'
-    n: '[FRUS 1961–63, V, doc. 66](https://history.state.gov/historicaldocuments/frus1961-63v05/d66). [[w.fursenko-one-hell-of-a]], 105 (Laos, testing, disarmament). See [[cal.1961-05-04.soviet-union]]. Names: Thompson, Rusk.'
+    n: '[FRUS 1961–63, V, doc. 66](https://history.state.gov/historicaldocuments/frus1961-63v05/d66). [[w.fursenko-one-hell-of-a]], 105 (Laos, testing, disarmament). After Gromyko''s statement, reported in [[cal.1961-05-04.soviet-union|telegram 2710]], 4 p.m. See [[cal.1961-05-04.soviet-union]]. Names: Thompson, Rusk.'
     src:
       c: f0767ee9
       rows:
@@ -659,12 +677,13 @@ entries:
     date: '1961-05-05'
     thread: defense
     c: Gilpatric circulates a draft of the Basic National Security Policy setting out a strategy of controlled, discriminating response.
-    n: '[[w.poole-joint-chiefs-of-staff]], 28. To check: Memo, DepSecDef to CJCS, May 5, 1961, JCS 2101/427, National Archives, RG 218, JCS Records, JMF 3001 (5 May 61) sec. 1 (cited by [[w.poole-joint-chiefs-of-staff]], 28 n.39). Names: Gilpatric.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 28; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 296. To check: Memo, DepSecDef to CJCS, May 5, 1961, JCS 2101/427, National Archives, RG 218, JCS Records, JMF 3001 (5 May 61) sec. 1 (cited by [[w.poole-joint-chiefs-of-staff]], 28 n.39). Names: Gilpatric.'
     src:
       c: 2c36fd43
       rows:
         - 'w.poole-joint-chiefs-of-staff 28: all'
         - 'via w.poole-joint-chiefs-of-staff 28 n.39: all'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 296: A'
     tags: [name:gilpatric-roswell-l]
   - id: cal.1961-05-05.defense-2
     when: May 5
@@ -696,7 +715,7 @@ entries:
     thread: robert-kennedy
     also: [desegregation-schools, georgia]
     c: 'Robert Kennedy at the University of Georgia Law School''s Law Day exercises, Athens, Ga. On Prince Edward County, Va., which had closed its schools: "if the orders of the court are circumvented, the Department of Justice will act. We will not stand by or be aloof. We will move." "I happen to believe that the 1954 decision was right."'
-    n: '[Address at the Law Day Exercises of the University of Georgia Law School](https://www.justice.gov/ag/rfkspeeches/1961/05-06-1961.pdf) (May 6, 1961). [[w.schlesinger-robert-kennedy-and-his]], 293–94 (his quotation reads "stand by and be aloof"); [[w.mann-walls-of-jericho]], 306 (his first formal address as Attorney General; the words on court orders); [[w.guthman-we-band-of-brothers]], 158–64 (the speech; the Prince Edward County passage, "We will not stand by or be aloof. We will move."; not the 1954 sentence); [[w.thomas-robert-kennedy]], 127 (to the University of Georgia in early May: the Department will enforce the law; "with hands shaking"). [[w.branch-parting-the-waters]], 414–15. To check: [[w.navasky-kennedy-justice]]; [[w.shesol-mutual-contempt]]; New York Times, May 7, 1961, 1 (cited by [[w.branch-parting-the-waters]], 415 n.1). Names: Robert Kennedy.'
+    n: '[Address at the Law Day Exercises of the University of Georgia Law School](https://www.justice.gov/ag/rfkspeeches/1961/05-06-1961.pdf) (May 6, 1961). [[w.schlesinger-robert-kennedy-and-his]], 293–94 (his quotation reads "stand by and be aloof"); [[w.mann-walls-of-jericho]], 306 (his first formal address as Attorney General; the words on court orders); [[w.guthman-we-band-of-brothers]], 158–64 (the speech; the Prince Edward County passage, "We will not stand by or be aloof. We will move."; not the 1954 sentence); [[w.thomas-robert-kennedy]], 127 (to the University of Georgia in early May: the Department will enforce the law; "with hands shaking"); [[w.wofford-of-kennedys-and-kings]], 150–51 (his first formal speech as Attorney General; agreement with *Brown*; "if the orders of the court are circumvented, the Department of Justice will act"; an ovation). [[w.branch-parting-the-waters]], 414–15. Check: Wofford gives "We will not stand by and be aloof" (151). To check: [[w.navasky-kennedy-justice]]; [[w.shesol-mutual-contempt]]; New York Times, May 7, 1961, 1 (cited by [[w.branch-parting-the-waters]], 415 n.1). Names: Robert Kennedy.'
     src:
       c: dc8e7f0a
       rows:
@@ -710,6 +729,7 @@ entries:
         - 'w.guthman-we-band-of-brothers 158–64: A-B'
         - 'w.thomas-robert-kennedy 127: A'
         - 'via w.branch-parting-the-waters 415 n.1: all'
+        - 'w.wofford-of-kennedys-and-kings 150–51: A, C'
     tags: [name:kennedy-robert-f]
   - id: cal.1961-05-06.vietnam
     when: May 6
@@ -748,6 +768,17 @@ entries:
         - 'w.fursenko-one-hell-of-a 106: all'
         - 'via w.fursenko-one-hell-of-a 106 n.12: all'
     tags: [name:thompson-llewellyn-e, name:gromyko-andrei, name:kennedy-john-f, name:khrushchev-nikita-s]
+  - id: cal.1961-05-06.vietnam-2
+    when: May 6
+    date: '1961-05-06'
+    thread: vietnam
+    c: 'The Vietnam task force''s report in its final version, State''s position: a new setup under State, Lansdale only the Defense representative.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 268. To check: *United States-Vietnam Relations*, bk. 2, IV.B.1, 35–36 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 268 nn.27–28). See [[cal.1961-05-06.vietnam]]. Names: Lansdale.'
+    src:
+      c: b1ad39a3
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 268: all'
+    tags: [name:lansdale-edward-g, ok:section-ref]
   - id: cal.1961-05-08.confirmations
     when: May 8
     date: '1961-05-08'
@@ -821,6 +852,7 @@ entries:
   - id: cal.1961-05-09.berlin-and-vienna
     when: May 9
     date: '1961-05-09'
+    time: 1961-05-10T00:30Z
     thread: berlin-and-vienna
     also: [robert-kennedy, soviet-union]
     c: 'Robert Kennedy''s first meeting with Georgi Bolshakov. The back channel to Khrushchev opens. 8:30 p.m., at the Justice Department, Holeman and Guthman bringing them together; a walk on the Mall. By Bolshakov''s report: the President would take ten inspections a year in a test ban, half the public twenty, offered as a Soviet proposal; a neutral Laos; "Cuba is a dead issue."'
@@ -923,6 +955,7 @@ entries:
   - id: cal.1961-05-09.cuba
     when: May 9
     date: '1961-05-09'
+    time: 1961-05-09T16:28Z
     thread: cuba
     also: [defense]
     c: 'The Joint Chiefs to Dennison: a plan for a military assault on Cuba, to overthrow Castro in minimum time, keep Guantanamo, and strike without warning within five days of the order. The XVIII Airborne Corps, the 82nd and 101st, the 2nd Marine Division, four tactical fighter wings among the forces.'
@@ -1137,6 +1170,7 @@ entries:
   - id: cal.1961-05-12.vietnam
     when: May 12
     date: '1961-05-12'
+    time: 1961-05-12T00:00Z
     thread: vietnam
     also: [vietnam-johnson-asia]
     c: 'Johnson with Diệm, 8 a.m.: Kennedy''s letter, point by point. Diệm agrees to more MAAG advisers and welcomes the support for 20,000 more men and a Civil Guard of 68,000; a memorandum asks some $30 million more in defense support. After dinner: American or SEATO combat troops only in case of overt aggression. By Miller''s account Diệm also asks for 100,000 more men, an army of 270,000.'
@@ -1201,13 +1235,25 @@ entries:
         - 'w.mann-grand-delusion 238: all'
         - 'via w.mann-grand-delusion 238 n.12: B'
     tags: [name:johnson-lyndon-b, name:ngo-dinh-diem, name:kennedy-john-f]
+  - id: cal.1961-05-13.defense
+    when: May 13
+    date: '1961-05-13'
+    thread: defense
+    c: 'Hitch''s general instructions to the services on their program packages, due July 3 to Aug. 31: I, central war offensive forces; II, central war defensive; III, general purpose; IV, sealift and airlift; V, reserve and Guard; VI, research and development, space included; VII, service-wide support; VIII, military assistance; IX, classified projects; X, the Department.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 80. To check: Hitch to the Services'' Assistant Secretaries (Financial Management), May 13, 1961, ASD(C) files, OSD Hist (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 80 n.29). See [[cal.1961-01-18.defense-4]]. Names: Hitch.'
+    src:
+      c: c1f48fdb
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 80: all'
+        - 'via x.1961-05-13.hitch-to-svcasstsecs-program-packages: all'
+    tags: [name:hitch-charles-j]
   - id: cal.1961-05-14.freedom-rides
     when: May 14
     date: '1961-05-14'
     thread: freedom-rides
     also: [alabama]
     c: Mother's Day. The Greyhound bus burned outside Anniston; the Trailways riders beaten at the Birmingham terminal while the police stayed away. The FBI knew in advance through its informer.
-    n: '*United States v. U.S. Klans, Knights of Ku Klux Klan, Inc.*, [194 F. Supp. 897](https://static.case.law/f-supp/194/case-pdfs/0897-01.pdf), 900 (M.D. Ala. 1961). [[w.reeves-president-kennedy]], 122–25 (Anniston; Birmingham); [[w.mann-walls-of-jericho]], 310 (Anniston; Birmingham, the police ten minutes late). [[w.branch-parting-the-waters]], 417–22. To check: [[w.mcwhorter-carry-me-home]]; [[w.may-informant]]; [[w.oreilly-racial-matters-the-fbis]]; interviews: Simeon Booker, Feb. 11, 1985 (Branch); Raines, *My Soul Is Rested*, 119 (cited by [[w.branch-parting-the-waters]], 417 n.2); [[w.farmer-lay-bare-the-heart]], 200–201 (cited by [[w.branch-parting-the-waters]], 417 n.3); Jet, May 25, 1961, 12 (cited by [[w.branch-parting-the-waters]], 417 n.4); John Patterson, oral history; Raines, *My Soul Is Rested*, 120 (cited by [[w.branch-parting-the-waters]], 417 n.5); Peck, *Freedom Ride*, 96; Raines, *My Soul Is Rested*, 119ff (cited by [[w.branch-parting-the-waters]], 418 n.1); Jet, June 1, 1961, 14ff; Peck, *Freedom Ride*, 97ff; Birmingham News, May 15, 1961, 10 (cited by [[w.branch-parting-the-waters]], 419 n.1); Rowe, *My Undercover Years with the Ku Klux Klan*, 38ff (cited by [[w.branch-parting-the-waters]], 420 n.2); Corley, "The Quest for Racial Harmony", 215ff (cited by [[w.branch-parting-the-waters]], 420 n.3); Rowe, *My Undercover Years with the Ku Klux Klan*, 42 (cited by [[w.branch-parting-the-waters]], 421 n.1); Peck, *Freedom Ride*, 98ff (cited by [[w.branch-parting-the-waters]], 421 n.2); Raines, *My Soul Is Rested*, 121–22; Fred Shuttlesworth, oral history (cited by [[w.branch-parting-the-waters]], 422 n.1). See [[cal.1961-05-04.freedom-rides]].'
+    n: '*United States v. U.S. Klans, Knights of Ku Klux Klan, Inc.*, [194 F. Supp. 897](https://static.case.law/f-supp/194/case-pdfs/0897-01.pdf), 900 (M.D. Ala. 1961). [[w.reeves-president-kennedy]], 122–25 (Anniston; Birmingham); [[w.mann-walls-of-jericho]], 310 (Anniston; Birmingham, the police ten minutes late); [[w.wofford-of-kennedys-and-kings]], 151–52 (the Anniston bus burned; the Birmingham ambush, the informer Rowe''s warning to the FBI, Connor''s fifteen to twenty minutes; Hoover told no one). [[w.branch-parting-the-waters]], 417–22. To check: [[w.mcwhorter-carry-me-home]]; [[w.may-informant]]; [[w.oreilly-racial-matters-the-fbis]]; interviews: Simeon Booker, Feb. 11, 1985 (Branch); Raines, *My Soul Is Rested*, 119 (cited by [[w.branch-parting-the-waters]], 417 n.2); [[w.farmer-lay-bare-the-heart]], 200–201 (cited by [[w.branch-parting-the-waters]], 417 n.3); Jet, May 25, 1961, 12 (cited by [[w.branch-parting-the-waters]], 417 n.4); John Patterson, oral history; Raines, *My Soul Is Rested*, 120 (cited by [[w.branch-parting-the-waters]], 417 n.5); Peck, *Freedom Ride*, 96; Raines, *My Soul Is Rested*, 119ff (cited by [[w.branch-parting-the-waters]], 418 n.1); Jet, June 1, 1961, 14ff; Peck, *Freedom Ride*, 97ff; Birmingham News, May 15, 1961, 10 (cited by [[w.branch-parting-the-waters]], 419 n.1); Rowe, *My Undercover Years with the Ku Klux Klan*, 38ff (cited by [[w.branch-parting-the-waters]], 420 n.2); Corley, "The Quest for Racial Harmony", 215ff (cited by [[w.branch-parting-the-waters]], 420 n.3); Rowe, *My Undercover Years with the Ku Klux Klan*, 42 (cited by [[w.branch-parting-the-waters]], 421 n.1); Peck, *Freedom Ride*, 98ff (cited by [[w.branch-parting-the-waters]], 421 n.2); Raines, *My Soul Is Rested*, 121–22; Fred Shuttlesworth, oral history (cited by [[w.branch-parting-the-waters]], 422 n.1). See [[cal.1961-05-04.freedom-rides]].'
     src:
       c: cbcd232e
       rows:
@@ -1246,6 +1292,7 @@ entries:
         - 'via w.branch-parting-the-waters 421 n.2c: C'
         - 'via w.branch-parting-the-waters 422 n.1a: B-C'
         - 'via w.branch-parting-the-waters 422 n.1b: B-C'
+        - 'w.wofford-of-kennedys-and-kings 151–52: A-D'
     short: Anniston
   - id: cal.1961-05-14.vietnam-johnson-asia
     when: May 14–20
@@ -1272,7 +1319,7 @@ entries:
     thread: freedom-rides
     also: [robert-kennedy, alabama-birmingham]
     c: 'Robert Kennedy by telephone to George Cruit, Greyhound''s superintendent at Birmingham: the drivers will not drive the riders on. "Surely somebody in the damn bus company can drive a bus, can''t they?" "Somebody better get in the damn bus and get it going and get these people on their way." Cruit records the call.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 296; [[w.thomas-robert-kennedy]], 129 ("Surely, somebody in the damn bus company can drive a bus"; the call taped by Alabama and leaked). [[w.branch-parting-the-waters]], 443 (the call). To check: transcript of the Kennedy–Cruit conversation, May 15, 1961, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 296, the footnote). See [[cal.1961-05-04.freedom-rides]]. Names: Robert Kennedy. Check: Schlesinger tells the call in the second group''s journey to Montgomery, after the first riders had flown to New Orleans; his note dates the transcript May 15. His note: a sentence of Kennedy''s in it ("We have gone to a lot of trouble to see that they get to this trip") was used later in Alabama to show that Kennedy had put CORE up to the rides. Check: Branch, 443, puts the call on Saturday morning, May 20, after Joe Caverno, the driver, would not drive at 6:05 a.m.; Branch''s note cites Schlesinger. Branch: the last sentence overheard by eavesdroppers on the line in Alabama, not recorded by Cruit.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 296; [[w.thomas-robert-kennedy]], 129 ("Surely, somebody in the damn bus company can drive a bus"; the call taped by Alabama and leaked); [[w.wofford-of-kennedys-and-kings]], 153–54 ("somebody better get in the damn bus and get it going and get these people on their way"; the Greyhound tape). [[w.branch-parting-the-waters]], 443 (the call). Check: Wofford has the call after Patterson''s promise to Seigenthaler of May 19 (153). To check: transcript of the Kennedy–Cruit conversation, May 15, 1961, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 296, the footnote). See [[cal.1961-05-04.freedom-rides]]. Names: Robert Kennedy. Check: Schlesinger tells the call in the second group''s journey to Montgomery, after the first riders had flown to New Orleans; his note dates the transcript May 15. His note: a sentence of Kennedy''s in it ("We have gone to a lot of trouble to see that they get to this trip") was used later in Alabama to show that Kennedy had put CORE up to the rides. Check: Branch, 443, puts the call on Saturday morning, May 20, after Joe Caverno, the driver, would not drive at 6:05 a.m.; Branch''s note cites Schlesinger. Branch: the last sentence overheard by eavesdroppers on the line in Alabama, not recorded by Cruit.'
     src:
       c: f0f59d02
       rows:
@@ -1281,6 +1328,7 @@ entries:
         - 'w.branch-parting-the-waters 443: A-C'
         - 'w.thomas-robert-kennedy 129: B, D'
         - 'via w.branch-parting-the-waters 443 n.2: A-C'
+        - 'w.wofford-of-kennedys-and-kings 153–54: A, C-D'
     tags: [name:kennedy-robert-f, city:birmingham, state:al]
     short: Robert Kennedy to Greyhound
   - id: cal.1961-05-15.freedom-rides
@@ -1289,7 +1337,7 @@ entries:
     thread: freedom-rides
     also: [robert-kennedy, alabama-birmingham]
     c: 'Birmingham. Robert Kennedy by telephone to the riders at Shuttlesworth''s house, then to Patterson''s office: Connor''s police to the city line, then Patterson, who says he cannot guarantee "this bunch of rabble-rousers" safe passage. The drivers will not drive. The riders give up the buses and fly to New Orleans near midnight, Seigenthaler with them.'
-    n: '[[w.branch-parting-the-waters]], 426–29. To check: Jet, June 1, 1961, 20-21; New York Times, May 15, 1961, 1; Birmingham police report of the mass meeting of May 15, 1961, Eugene T. Connor Papers, box 9, folder 24, Birmingham Public Library (cited by [[w.branch-parting-the-waters]], 426 n.3); Peck, *Freedom Ride*, 101; [[w.farmer-lay-bare-the-heart]], 203; [[w.guthman-we-band-of-brothers]], 167–68; [[w.meier-core]], 173 (cited by [[w.branch-parting-the-waters]], 426 n.3). See [[cal.1961-05-04.freedom-rides]]. Names: Robert Kennedy, Shuttlesworth, Connor, Patterson, Seigenthaler.'
+    n: '[[w.branch-parting-the-waters]], 426–29. To check: Jet, June 1, 1961, 20–21; New York Times, May 15, 1961, 1; Birmingham police report of the mass meeting of May 15, 1961, Eugene T. Connor Papers, box 9, folder 24, Birmingham Public Library (cited by [[w.branch-parting-the-waters]], 426 n.3); Peck, *Freedom Ride*, 101; [[w.farmer-lay-bare-the-heart]], 203; [[w.guthman-we-band-of-brothers]], 167–68; [[w.meier-core]], 173 (cited by [[w.branch-parting-the-waters]], 426 n.3). See [[cal.1961-05-04.freedom-rides]]. Names: Robert Kennedy, Shuttlesworth, Connor, Patterson, Seigenthaler.'
     src:
       c: 0b33fbb2
       rows:
@@ -1319,6 +1367,7 @@ entries:
   - id: cal.1961-05-15.vietnam-johnson-asia
     when: May 15
     date: '1961-05-15'
+    time: 1961-05-15T06:00Z
     thread: vietnam-johnson-asia
     c: 'Nolting by cable on the Vice President''s visit: its purposes, to reassure Diệm and "to reassure the Vietnamese people" that the United States "will continue to stand firmly with them," both "excellently served"; "Diem''s confidence in US has been greatly increased by visit."'
     n: '[FRUS 1961–63, I, doc. 55](https://history.state.gov/historicaldocuments/frus1961-63v01/d55). [[w.preston-war-council]], 84. See [[cal.1961-05-09.vietnam]]. Names: Nolting, Johnson, Ngô Đình Diệm.'
@@ -1339,6 +1388,17 @@ entries:
       c: a828bdc0
       rows:
         - 'w.poole-joint-chiefs-of-staff 245: all'
+  - id: cal.1961-05-15.defense
+    when: May 15
+    date: '1961-05-15'
+    thread: defense
+    also: [congress]
+    c: 'The Senate passes the fiscal 1962 procurement authorization, $12.5 billion: all the President asked and $525 million more for long-range manned bombers.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 64. Check: the vote.'
+    src:
+      c: 63d729cd
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 64: all'
   - id: cal.1961-05-16.laos
     when: May 16
     date: '1961-05-16'
@@ -1413,6 +1473,7 @@ entries:
   - id: cal.1961-05-16.soviet-union
     when: May 16
     date: '1961-05-16'
+    time: 1961-05-16T14:00Z
     thread: soviet-union
     also: [berlin-and-vienna]
     c: '10 a.m., Menshikov reads the President Khrushchev''s letter of May 12, a reply to Feb. 22: a general exchange of views. Kennedy: Vienna, June 3 and 4, if it goes ahead; "if we cannot accomplish anything concrete on a nuclear test ban, it would be doubtful that we could make progress on disarmament."'
@@ -1432,7 +1493,7 @@ entries:
     thread: cuba
     also: [robert-kennedy]
     c: 'Luncheon at the White House: the Cuba Study Group, Taylor, Robert Kennedy, Burke and Dulles, gives the President its interim conclusions. Kennedy: reassured throughout that the brigade could turn guerrilla; the CIA did not speak to him of the cancellation''s gravity; he was never asked to extend Navy cover over the ammunition convoy.'
-    n: 'FRUS 1961–63, X, docs. [218](https://history.state.gov/historicaldocuments/frus1961-63v10/d218); [219](https://history.state.gov/historicaldocuments/frus1961-63v10/d219) (Burke''s debrief). Made public: FRUS 1961–63, X (1997). [[w.jones-bay-of-pigs]], 91, 128. See [[cal.1961-04-22.cuba]]. Names: Taylor, Robert Kennedy, Burke, Dulles, Kennedy.'
+    n: 'FRUS 1961–63, X, docs. [218](https://history.state.gov/historicaldocuments/frus1961-63v10/d218); [219](https://history.state.gov/historicaldocuments/frus1961-63v10/d219) (Burke''s debrief). Made public: FRUS 1961–63, X (1997). [[w.jones-bay-of-pigs]], 91, 128; [[w.taylor-swords-and-plowshares]], 185 (a progress report at a White House luncheon; not the President''s words). Check: Taylor dates the luncheon May 15 ([[w.taylor-swords-and-plowshares]], 185). See [[cal.1961-04-22.cuba]]. Names: Taylor, Robert Kennedy, Burke, Dulles, Kennedy.'
     src:
       c: 1956ec35
       rows:
@@ -1442,6 +1503,7 @@ entries:
         - 'w.jones-bay-of-pigs 128: C-D'
         - 'via w.jones-bay-of-pigs 91 n.47a: C'
         - 'via w.jones-bay-of-pigs 91 n.47b: C'
+        - 'w.taylor-swords-and-plowshares 185: A'
     tags: [name:taylor-maxwell, name:kennedy-robert-f, name:burke-arleigh-a, name:dulles-allen-w, name:kennedy-john-f]
   - id: cal.1961-05-16.school-aid
     when: May 16
@@ -1460,7 +1522,7 @@ entries:
     thread: robert-kennedy
     also: [civil-rights-the-executive]
     c: Robert Kennedy quits the Metropolitan Club, which will not take Negroes, and makes his protest known, the first day he turns to the Freedom Riders.
-    n: '[[w.thomas-robert-kennedy]], 127. To check: *New York Times*, May 17, 1961 (cited by [[w.thomas-robert-kennedy]], 127 n.). Names: Robert Kennedy. Check: the day of resignation; Thomas''s note dates the leak.'
+    n: '[[w.thomas-robert-kennedy]], 127. To check: [*New York Times*, May 17, 1961](https://timesmachine.nytimes.com/timesmachine/1961/05/17/issue.html) (cited by [[w.thomas-robert-kennedy]], 127 n.). Names: Robert Kennedy. Check: the day of resignation; Thomas''s note dates the leak.'
     src:
       c: 6790c47a
       rows:
@@ -1470,6 +1532,7 @@ entries:
   - id: cal.1961-05-17.europe-and-the-alliance
     when: May 17
     date: '1961-05-17'
+    time: 1961-05-17T19:27Z
     thread: europe-and-the-alliance
     c: Ottawa, to the Canadian Parliament. Five Polaris submarines, "and subsequently still more," to be committed to the NATO command; beyond them, "a NATO sea-borne force, which would be truly multi-lateral in ownership and control," if the allies want it, once NATO's non-nuclear goals are met.
     n: 'Address Before the Canadian Parliament in Ottawa, [1961 Pub. Papers 382](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=440) (May 17, 1961). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 389–90; [[w.poole-joint-chiefs-of-staff]], 196; [[w.sorensen-kennedy]], 567. [[w.rusk-as-i-saw-it-1990]], 263 (the address; the offer of a NATO force). To check: [[w.steinbruner-cybernetic-theory-of-decision]]; [[w.trachtenberg-constructed-peace]]. See [[cal.1960-12-16.europe-and-the-alliance]].'
@@ -1492,7 +1555,7 @@ entries:
     thread: freedom-rides
     also: [alabama-birmingham]
     c: Birmingham. Ten Nashville students take up the ride; the police hold them on the bus, then in the terminal. As they board for Montgomery, Connor arrests them in "protective custody," and Shuttlesworth with them.
-    n: '[[w.branch-parting-the-waters]], 430–32. To check: Montgomery Advertiser, May 18, 1961, 1; New York Times, May 18, 1961, 27 (cited by [[w.branch-parting-the-waters]], 432 n.1); John Lewis, interview by Archie E. Allen, May 30, 1969; interviews: John Lewis, May 31, 1984 (Branch); interviews: James Bevel, May 16-17, 1985 (Branch); Viorst, *Fire in the Streets*, 149 (cited by [[w.branch-parting-the-waters]], 430 n.1); Fred Shuttlesworth, oral history; [[w.morris-origins-of-the-civil]], 232 (cited by [[w.branch-parting-the-waters]], 430 n.2); [[w.forman-making-of-black-revolutionaries]], 150ff (cited by [[w.branch-parting-the-waters]], 432 n.1). See [[cal.1961-05-04.freedom-rides]]. Names: Connor, Shuttlesworth, Lewis.'
+    n: '[[w.branch-parting-the-waters]], 430–32. To check: Montgomery Advertiser, May 18, 1961, 1; New York Times, May 18, 1961, 27 (cited by [[w.branch-parting-the-waters]], 432 n.1); John Lewis, interview by Archie E. Allen, May 30, 1969; interviews: John Lewis, May 31, 1984 (Branch); interviews: James Bevel, May 16–17, 1985 (Branch); Viorst, *Fire in the Streets*, 149 (cited by [[w.branch-parting-the-waters]], 430 n.1); Fred Shuttlesworth, oral history; [[w.morris-origins-of-the-civil]], 232 (cited by [[w.branch-parting-the-waters]], 430 n.2); [[w.forman-making-of-black-revolutionaries]], 150ff (cited by [[w.branch-parting-the-waters]], 432 n.1). See [[cal.1961-05-04.freedom-rides]]. Names: Connor, Shuttlesworth, Lewis.'
     src:
       c: 5a86864d
       rows:
@@ -1511,6 +1574,21 @@ entries:
         - 'via w.branch-parting-the-waters 432 n.1c: all'
         - 'via w.branch-parting-the-waters 432 n.1d: all'
     tags: [name:connor-eugene, name:shuttlesworth-fred, name:lewis-john, state:al, city:birmingham]
+  - id: cal.1961-05-17.soviet-union
+    when: May 17
+    date: '1961-05-17'
+    thread: soviet-union
+    also: [berlin-and-vienna, china]
+    c: 'The Presidium. Albania: the Foreign Ministry''s proposals, with small changes, for the press only if accepted; no cruisers or destroyers to be sent. The answer to Peking on the quarrel with Albania, to Zhou Enlai''s and Deng Xiaoping''s talks with the ambassador and the Chinese letter: small changes. For the meeting with Kennedy: in Europe, Berlin; on disarmament, troops withdrawn within national borders; the Foreign Ministry''s materials "bureaucratic documents," not approved, a memorandum instead.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 497–98 (Protocol 328, items II–IV, Malin''s notes); [[w.prezidium-tsk-kpss-1954]], III, 161–67 (the resolutions; the instructions to Yudin in Peking, May 16). Made public: 2003, 2008. See [[cal.1961-02-24.soviet-union]]. Names: Zhou Enlai, Kennedy.'
+    src:
+      c: 5c4426a9
+      rows:
+        - 'w.prezidium-tsk-kpss-1954 I, 497–98: all'
+        - 'w.prezidium-tsk-kpss-1954 III, 161–67: A-B, D'
+        - 'via x.1961-05-17.presidium-protocol-328: all'
+        - 'via x.1961-05-17.presidium-resolutions-protocol-328: A-B, D'
+    tags: [name:zhou-enlai, name:kennedy-john-f, name:khrushchev-nikita-s]
   - id: cal.1961-05-18.european-community
     when: May 18
     date: '1961-05-18'
@@ -1545,7 +1623,7 @@ entries:
     thread: soviet-union
     also: [berlin-and-vienna, robert-kennedy]
     c: The Presidium approves the answer Bolshakov is to give Robert Kennedy as his own opinion, drafted by the Foreign and Defense Ministries; Khrushchev in Central Asia, Suslov and Gromyko in charge. No "one-sided concessions"; on the test ban, a council of three, West, East and neutral; agreement on a neutral Laos; on Berlin a peace treaty, with the GDR alone if need be; normal relations with Castro would raise the President's prestige.
-    n: '[[w.fursenko-one-hell-of-a]], 117–20; [[w.fursenko-khrushchevs-cold-war]], 352–53 (boilerplate on the test ban and Berlin, a kind word on Laos). To check: GRU, entry for May 16, 1961, "Kratkoye Soderzhanye"; Presidium, May 18, 1961, "Regarding the Instructions to Washington in Connection with the Meeting between Comrade Bolshakov and R. Kennedy," APRF (cited by [[w.fursenko-one-hell-of-a]], 117 n.44). See [[cal.1961-05-09.berlin-and-vienna]]. Names: Bolshakov, Robert Kennedy, Khrushchev, Suslov, Gromyko, Castro.'
+    n: '[[w.fursenko-one-hell-of-a]], 117–20; [[w.fursenko-khrushchevs-cold-war]], 352–53 (boilerplate on the test ban and Berlin, a kind word on Laos). Check: for May 18 the volume prints, from Protocol 329, item 2, by poll, only the press release on the meeting with Kennedy, for the radio on May 19 at 6 p.m., and the instructions to the ambassador in Austria ([[w.prezidium-tsk-kpss-1954]], III, 167–68); nothing of Bolshakov. To check: GRU, entry for May 16, 1961, "Kratkoye Soderzhanye"; Presidium, May 18, 1961, "Regarding the Instructions to Washington in Connection with the Meeting between Comrade Bolshakov and R. Kennedy," APRF (cited by [[w.fursenko-one-hell-of-a]], 117 n.44). See [[cal.1961-05-09.berlin-and-vienna]]. Names: Bolshakov, Robert Kennedy, Khrushchev, Suslov, Gromyko, Castro.'
     src:
       c: 7da026c2
       rows:
@@ -1583,7 +1661,7 @@ entries:
     date: '1961-05-18'
     thread: defense
     c: 'The Senate Armed Services Committee hears nominees: Paul R. Ignatius, Assistant Secretary of the Army; Edward A. McDermott, Deputy Director of the Office of Civil and Defense Mobilization; Brockway McMillan, Assistant Secretary of the Air Force; John R. Rubel, an Assistant Secretary of Defense.'
-    n: '[*Nominations: Hearings Before the S. Comm. on Armed Services*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg70337), 12 (McDermott), 16 (Rubel), 20 (Ignatius), 22 (McMillan). Names: Ignatius, McDermott, McMillan.'
+    n: '*Nominations: Hearings Before the S. Comm. on Armed Services*, 87th Cong. (1961) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg70337)), 12 (McDermott), 16 (Rubel), 20 (Ignatius), 22 (McMillan). Names: Ignatius, McDermott, McMillan.'
     tags: [name:ignatius-paul-r, name:mcdermott-edward-a, name:mcmillan-brockway]
   - id: cal.1961-05-19.civil-rights-the-executive
     when: May 19
@@ -1723,7 +1801,7 @@ entries:
     thread: cuba-bay-of-pigs
     also: [congress, defense]
     c: 'Lemnitzer before Senate Foreign Relations in executive session: the Chiefs'' responsibility not beyond the armed forces and their operations; covert paramilitary operations in peace the CIA''s; the plan given "a fair chance of accomplishing its limited and initial objectives."'
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 189–90. To check: Senate Foreign Relations Committee, Executive Sessions (Historical Series), XIII, pt. 1, 87th Cong., 1st sess., May 19, 1961, 572-73, published 1984 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 189 n.65). Names: Lemnitzer.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 189–90. To check: Senate Foreign Relations Committee, Executive Sessions (Historical Series), XIII, pt. 1, 87th Cong., 1st sess., May 19, 1961, 572–73, published 1984 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 189 n.65). Names: Lemnitzer.'
     src:
       c: cdd5b816
       rows:
@@ -1768,7 +1846,7 @@ entries:
     thread: freedom-rides
     also: [alabama]
     c: Montgomery. The Nashville riders beaten at the Greyhound station; Seigenthaler clubbed unconscious. Byron White flies in with federal marshals.
-    n: 'Statement by the President Concerning Interference With the "Freedom Riders" in Alabama, [1961 Pub. Papers 391](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=449). [[w.reeves-president-kennedy]], 128–29; [[w.navasky-kennedy-justice]], 20, 22, 124 (Seigenthaler clubbed, an FBI agent taking notes; White and the marshals; the bus out of Birmingham, 8:30 a.m.); [[w.mann-walls-of-jericho]], 310 (Montgomery; Seigenthaler beaten); [[w.thomas-robert-kennedy]], 129–30 (Montgomery; Doar''s call to Kennedy''s office; Seigenthaler knocked out with a pipe; the force of marshals). See [[cal.1961-05-04.freedom-rides]]. Names: Seigenthaler, White, Patterson.'
+    n: 'Statement by the President Concerning Interference With the "Freedom Riders" in Alabama, [1961 Pub. Papers 391](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=449). [[w.reeves-president-kennedy]], 128–29; [[w.navasky-kennedy-justice]], 20, 22, 124 (Seigenthaler clubbed, an FBI agent taking notes; White and the marshals; the bus out of Birmingham, 8:30 a.m.); [[w.mann-walls-of-jericho]], 310 (Montgomery; Seigenthaler beaten); [[w.thomas-robert-kennedy]], 129–30 (Montgomery; Doar''s call to Kennedy''s office; Seigenthaler knocked out with a pipe; the force of marshals); [[w.wofford-of-kennedys-and-kings]], 154. See [[cal.1961-05-04.freedom-rides]]. Names: Seigenthaler, White, Patterson.'
     src:
       c: 2b2ed846
       rows:
@@ -1779,6 +1857,7 @@ entries:
         - 'w.navasky-kennedy-justice 20, 22, 124: A, C-D'
         - 'w.mann-walls-of-jericho 310: A-C'
         - 'w.thomas-robert-kennedy 129–30: A-D'
+        - 'w.wofford-of-kennedys-and-kings 154: A-D'
     tags: [name:seigenthaler-john, name:white-byron-r, name:patterson-john]
     short: Montgomery
   - id: cal.1961-05-20.freedom-rides-2
@@ -1786,8 +1865,10 @@ entries:
     date: '1961-05-20'
     thread: freedom-rides
     also: [alabama]
+    follows:
+      - cal.1961-05-20.freedom-rides
     c: About midnight Doar takes the Justice Department's petition against the Alabama Klans to Judge Frank Johnson's lake cottage. Johnson signs the temporary restraining order for Montgomery, not Birmingham, and accepts marshals to guard him.
-    n: '[[w.branch-parting-the-waters]], 452. To check: New York Times, May 22, 1961, 1 (cited by [[w.branch-parting-the-waters]], 452 n.3). See [[cal.1961-05-20.freedom-rides]]. Names: Doar, Frank Johnson.'
+    n: '[[w.branch-parting-the-waters]], 452. After the beatings: [[w.branch-parting-the-waters]], 452. To check: New York Times, May 22, 1961, 1 (cited by [[w.branch-parting-the-waters]], 452 n.3). See [[cal.1961-05-20.freedom-rides]]. Names: Doar, Frank Johnson.'
     src:
       c: 2aab421b
       rows:
@@ -1807,6 +1888,19 @@ entries:
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 190: all'
     tags: [name:gore-albert-sr, name:lemnitzer-lyman-l]
+  - id: cal.1961-05-20.testing
+    when: May 20
+    date: '1961-05-20'
+    thread: testing
+    also: [soviet-union]
+    c: 'The Presidium approves, with amendments, instructions to the ambassador in Washington: to propose Soviet-American talks on disarmament there on June 5–6, as Gromyko and Stevenson agreed at the General Assembly, mid-June acceptable; the Soviet delegation Zorin, Menshikov, Gryzlov and Usachev.'
+    n: '[[w.prezidium-tsk-kpss-1954]], III, 168–69 (Protocol 329, item II; the instructions). Made public: 2008. See [[cal.1961-05-17.soviet-union]]. Names: Gromyko, Zorin, Menshikov.'
+    src:
+      c: 5cf8f834
+      rows:
+        - 'w.prezidium-tsk-kpss-1954 III, 168–69: all'
+        - 'via x.1961-05-20.presidium-instructions-menshikov-disarmament: all'
+    tags: [name:gromyko-andrei, name:zorin-valerian, name:menshikov-mikhail]
   - id: cal.1961-05-21.freedom-rides
     when: May 21
     date: '1961-05-21'
@@ -1950,7 +2044,7 @@ entries:
     thread: school-aid
     also: [desegregation-schools, republican-party-congress]
     c: 'Senate, on S. 1021, the school aid bill: Prescott Bush''s (R-Conn.) amendment, funds only to States moving toward full integration, tabled on Morse''s motion, [61–25](https://voteview.com/rollcall/RS0870044).'
-    n: '[[w.reeves-president-kennedy]], 133. [[w.mcpherson-political-education]], 195 (Morse''s management; a Powell-type amendment beaten). To check: *New York Times*, May 23, 1961; Louis Martin to Sorensen, May 10, 1961, Sorensen Papers, box 30, Kennedy Library (cited by [[w.reeves-president-kennedy]], 133). Names: Bush, Morse.'
+    n: '[[w.reeves-president-kennedy]], 133. [[w.mcpherson-political-education]], 195 (Morse''s management; a Powell-type amendment beaten). To check: [*New York Times*, May 23, 1961](https://timesmachine.nytimes.com/timesmachine/1961/05/23/issue.html); Louis Martin to Sorensen, May 10, 1961, Sorensen Papers, box 30, Kennedy Library (cited by [[w.reeves-president-kennedy]], 133). Names: Bush, Morse.'
     src:
       c: 7fde093e
       rows:
@@ -1994,7 +2088,7 @@ entries:
     thread: freedom-rides
     also: [robert-kennedy, mississippi]
     c: 'Robert Kennedy with the President, forty-five minutes: no marshals or troops for the ride to Mississippi; the States to keep order, arrests short of violence allowed. Byron White to reporters: if the riders go to jail, "That would be a matter between the Freedom Riders and local officials."'
-    n: '[[w.branch-parting-the-waters]], 469–70. To check: Montgomery Advertiser, May 23, 1961, 1 (cited by [[w.branch-parting-the-waters]], 470 n.1); [[w.guthman-we-band-of-brothers]], 176 (cited by [[w.branch-parting-the-waters]], 469 n.3); Robert F. Kennedy, oral history interviews (Martin, Schlesinger, Lewis), 1964-65, JFK Library ("RFK OH"); [[w.schlesinger-robert-kennedy-and-his]], 322 (cited by [[w.branch-parting-the-waters]], 470 n.2). See [[cal.1961-05-04.freedom-rides]]. Names: Robert Kennedy, Kennedy, Byron White.'
+    n: '[[w.branch-parting-the-waters]], 469–70. To check: Montgomery Advertiser, May 23, 1961, 1 (cited by [[w.branch-parting-the-waters]], 470 n.1); [[w.guthman-we-band-of-brothers]], 176 (cited by [[w.branch-parting-the-waters]], 469 n.3); Robert F. Kennedy, oral history interviews (Martin, Schlesinger, Lewis), 1964–65, JFK Library ("RFK OH"); [[w.schlesinger-robert-kennedy-and-his]], 322 (cited by [[w.branch-parting-the-waters]], 470 n.2). See [[cal.1961-05-04.freedom-rides]]. Names: Robert Kennedy, Kennedy, Byron White.'
     src:
       c: cab9c8c9
       rows:
@@ -2046,6 +2140,19 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 131: all'
     tags: [name:king-martin-luther-jr, name:kennedy-robert-f]
+  - id: cal.1961-05-22.peace-corps
+    when: May 22
+    date: '1961-05-22'
+    thread: peace-corps
+    also: [freedom-rides]
+    c: 'The Cabinet Room. The President to the Peace Corps'' National Advisory Council: the third project, 300 teaching assistants for the Philippines. As he leaves, at Wofford''s prompting, Belafonte: "perhaps you could say something a little more about the Freedom Riders"; Eugene Rostow for moral leadership on equal access. Kennedy: had they seen his statement in the morning papers? Then, to Wofford: "Who the hell was that man with Harry Belafonte? ... Doesn''t he know I''ve done more for civil rights than any President in American history?" By Wofford''s account.'
+    n: 'Remarks to the National Advisory Council for the Peace Corps, [1961 Pub. Papers 391](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=449) (May 22, 1961). [[w.wofford-of-kennedys-and-kings]], 125–26. Check: Wofford has himself in New Delhi with Shriver in May, home at the month''s end (264, 266). See [[cal.1961-05-14.freedom-rides]]. Names: Kennedy, Wofford, Eugene Rostow.'
+    src:
+      c: e64cec90
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=449: A'
+        - 'w.wofford-of-kennedys-and-kings 125–26: B-E'
+    tags: [name:kennedy-john-f, name:wofford-harris, name:rostow-eugene]
   - id: cal.1961-05-23.electoral-college
     when: May 23–25
     date: '1961-05-23'
@@ -2144,7 +2251,7 @@ entries:
     thread: freedom-rides
     also: [robert-kennedy, alabama, mississippi]
     c: Riders go on to Jackson under Guard escort and are arrested on arrival; many to Parchman, Miss. Robert Kennedy calls for a cooling-off period.
-    n: '[[w.reeves-president-kennedy]], 134 (the cooling-off period); [[w.mann-walls-of-jericho]], 313 (the arrests at Jackson, twenty-seven); [[w.thomas-robert-kennedy]], 131 (the riders to Jackson under escort, arrested and jailed). [[w.branch-parting-the-waters]], 470–75, 483. To check: Jet, June 8, 1961, 15 (cited by [[w.branch-parting-the-waters]], 471 n.1); Montgomery Advertiser, May 25, 1961, 1, 2, 3 (cited by [[w.branch-parting-the-waters]], 472 n.2); Log of conference call, May 24, 1961, papers of Ed Guthman (cited by [[w.branch-parting-the-waters]], 473 n.2). See [[cal.1961-05-04.freedom-rides]]. [[w.dittmer-local-people]], 90–96 (90–91: the bus, the escort, the arrests; 94–95: the cooling-off period; 96: Parchman, June 15). Names: Robert Kennedy.'
+    n: '[[w.reeves-president-kennedy]], 134 (the cooling-off period); [[w.mann-walls-of-jericho]], 313 (the arrests at Jackson, twenty-seven); [[w.thomas-robert-kennedy]], 131 (the riders to Jackson under escort, arrested and jailed); [[w.wofford-of-kennedys-and-kings]], 155. [[w.branch-parting-the-waters]], 470–75, 483. Check: Thomas, 131, quotes Robert Kennedy''s "first formal statement," undated: he "feared" that "continuing international publicity about ugly race riots would send the leader of the free world into European palaces with mud on his shoes"; the same statement?. To check: Jet, June 8, 1961, 15 (cited by [[w.branch-parting-the-waters]], 471 n.1); Montgomery Advertiser, May 25, 1961, 1, 2, 3 (cited by [[w.branch-parting-the-waters]], 472 n.2); Log of conference call, May 24, 1961, papers of Ed Guthman (cited by [[w.branch-parting-the-waters]], 473 n.2). See [[cal.1961-05-04.freedom-rides]]. [[w.dittmer-local-people]], 90–96 (90–91: the bus, the escort, the arrests; 94–95: the cooling-off period; 96: Parchman, June 15). Names: Robert Kennedy.'
     src:
       c: 4b8eb21b
       rows:
@@ -2166,6 +2273,7 @@ entries:
         - 'via w.branch-parting-the-waters 472 n.2: A'
         - 'via w.branch-parting-the-waters 473 n.2: A'
         - 'via w.branch-parting-the-waters 475 n.2: C'
+        - 'w.wofford-of-kennedys-and-kings 155: A, C'
     tags: [name:kennedy-robert-f]
     short: Jackson and Parchman
   - id: cal.1961-05-24.robert-kennedy
@@ -2173,8 +2281,10 @@ entries:
     date: '1961-05-24'
     thread: freedom-rides
     also: [robert-kennedy, king]
+    follows:
+      - cal.1961-05-24.freedom-rides
     c: 'That night, by Guthman''s account, King to Robert Kennedy by telephone of the riders arrested at Jackson: they will stay in jail, "a matter of conscience and morality." Kennedy: their staying "is not going to have the slightest effect on me"; "If they want to get out, we can get them out." King: "They''ll stay."'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 299–300; [[w.guthman-we-band-of-brothers]], 154–55 (9:15 p.m.); [[w.thomas-robert-kennedy]], 131–32 (King: the riders will stay; Kennedy: "not going to have the slightest effect on me"; "They''ll stay"). [[w.branch-parting-the-waters]], 475. To check: Handwritten notes of Robert Kennedy''s side of the conversation, by aides listening in, papers of Edwin Guthman (cited by [[w.branch-parting-the-waters]], 475 n.3). See [[cal.1961-05-04.freedom-rides]]. Names: Martin Luther King, Robert Kennedy, Guthman. Check: the day ("the night of the arrests," Schlesinger, 299); he has King calling "from Jackson."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 299–300; [[w.guthman-we-band-of-brothers]], 154–55 (9:15 p.m.); [[w.thomas-robert-kennedy]], 131–32 (King: the riders will stay; Kennedy: "not going to have the slightest effect on me"; "They''ll stay"); [[w.wofford-of-kennedys-and-kings]], 155–56 ("It''s a matter of conscience and morality"; "The fact that they stay in jail is not going to have the slightest effect on me"). [[w.branch-parting-the-waters]], 475. Of the arrests at Jackson, at 9:15 p.m.: [[w.guthman-we-band-of-brothers]], 154–55. To check: Handwritten notes of Robert Kennedy''s side of the conversation, by aides listening in, papers of Edwin Guthman (cited by [[w.branch-parting-the-waters]], 475 n.3). See [[cal.1961-05-04.freedom-rides]]. Names: Martin Luther King, Robert Kennedy, Guthman. Check: the day ("the night of the arrests," Schlesinger, 299); he has King calling "from Jackson."'
     src:
       c: 042621ce
       rows:
@@ -2185,6 +2295,7 @@ entries:
         - 'w.thomas-robert-kennedy 131–32: A-B, D'
         - 'via w.branch-parting-the-waters 475 n.3b: all'
         - 'via w.branch-parting-the-waters 475 n.3c: all'
+        - 'w.wofford-of-kennedys-and-kings 155–56: A-B'
     tags: [name:king-martin-luther-jr, name:kennedy-robert-f, name:guthman-edwin-o]
   - id: cal.1961-05-24.robert-kennedy-2
     when: May 24
@@ -2236,6 +2347,28 @@ entries:
       rows:
         - 'w.fursenko-one-hell-of-a 126: all'
     tags: [name:cousins-norman, name:kennedy-john-f]
+  - id: cal.1961-05-24.freedom-rides-3
+    when: May 24
+    date: '1961-05-24'
+    thread: freedom-rides
+    c: 'Montgomery, toward midnight. Coffin, from a telephone booth, collect to Bundy at the White House: the President should follow de Gaulle, go to the people and ask for understanding; "A little moral suasion would clear up the confusion in the country." A frosty reception; then collect to Wofford at home, who doubts the President will do more. By Coffin''s account.'
+    n: '[[w.wofford-of-kennedys-and-kings]], 156 (Coffin''s words on the calls). See [[cal.1961-05-14.freedom-rides]]. Names: Coffin, Bundy, Wofford, Kennedy.'
+    src:
+      c: f49fe7eb
+      rows:
+        - 'w.wofford-of-kennedys-and-kings 156: all'
+    tags: [name:coffin-william-sloane-jr, name:bundy-mcgeorge, name:wofford-harris, city:montgomery, state:al, name:kennedy-john-f]
+  - id: cal.1961-05-24.defense
+    when: May 24
+    date: '1961-05-24'
+    thread: defense
+    also: [congress]
+    c: The House passes the authorization unanimously, $12.368 billion, $337 million more for the B-52 and B-58.
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 64. Check: the vote. See [[cal.1961-05-15.defense]].'
+    src:
+      c: c8bd1ccf
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 64: all'
   - id: cal.1961-05-25.space
     when: May 25
     date: '1961-05-25'
@@ -2278,12 +2411,13 @@ entries:
     thread: freedom-rides
     also: [alabama]
     c: Montgomery. Sheriff Mack Sim Butler arrests the Yale and Wesleyan riders, William Sloane Coffin among them, with Abernathy, Wyatt Walker, Shuttlesworth and Bernard Lee, at the terminal's lunch counter.
-    n: '[[w.branch-parting-the-waters]], 476. To check: Montgomery Advertiser, May 26, 1961, 1; New York Times, May 26, 1961, 1 (cited by [[w.branch-parting-the-waters]], 476 n.3). See [[cal.1961-05-04.freedom-rides]]. Names: Coffin, Abernathy, Shuttlesworth.'
+    n: '[[w.branch-parting-the-waters]], 476; [[w.wofford-of-kennedys-and-kings]], 156–57 (the morning after, at the bus station). To check: Montgomery Advertiser, May 26, 1961, 1; New York Times, May 26, 1961, 1 (cited by [[w.branch-parting-the-waters]], 476 n.3). See [[cal.1961-05-04.freedom-rides]]. Names: Coffin, Abernathy, Shuttlesworth.'
     src:
       c: ab01f363
       rows:
         - 'w.branch-parting-the-waters 476: all'
         - 'via w.branch-parting-the-waters 476 n.3: all'
+        - 'w.wofford-of-kennedys-and-kings 156–57: A-B'
     tags: [name:coffin-william-sloane-jr, name:abernathy-ralph-david, name:shuttlesworth-fred, state:al, city:montgomery]
   - id: cal.1961-05-25.robert-kennedy
     when: May 25
@@ -2314,12 +2448,13 @@ entries:
     date: '1961-05-25'
     thread: school-aid
     c: 'Senate passes S. 1021, the school aid bill, Morse managing, [49–34](https://voteview.com/rollcall/RS0870054): grants for construction and teachers'' salaries, public schools only. The division almost that of 1960.'
-    n: '[[w.sundquist-politics-and-policy]], 191. See [[cal.1961-05-22.school-aid]]. Names: Morse.'
+    n: '[[w.sundquist-politics-and-policy]], 191; [[w.graham-uncertain-triumph]], 21 (49 to 34: Democrats 41–21, Republicans 8–22). See [[cal.1961-05-22.school-aid]]. Names: Morse.'
     src:
       c: c6fedf79
       rows:
         - 'https://voteview.com/rollcall/RS0870054: A'
         - 'w.sundquist-politics-and-policy 191: all'
+        - 'w.graham-uncertain-triumph 21: A'
     tags: [name:morse-wayne]
   - id: cal.1961-05-25.freedom-rides-2
     when: May 25
@@ -2381,7 +2516,7 @@ entries:
     thread: soviet-union
     also: [berlin-and-vienna]
     c: 'The Presidium on the summit, on the Foreign Ministry''s paper: disarmament, the climate, a German treaty and West Berlin, Laos, normal relations. Khrushchev approves it as written, no new initiatives. By Dobrynin''s account, Mikoyan urges care with Kennedy; Khrushchev rejects the "cautious approach": pressed hard, Kennedy will yield.'
-    n: '[[w.fursenko-one-hell-of-a]], 124–26; [[w.fursenko-khrushchevs-cold-war]], 355–59 ("He is a son of a bitch"; "more than a 95% probability that there will be no war"; Mikoyan against; planes to be brought down; "Presents can be made even before a war"); [[w.dobrynin-in-confidence]], 44–46 ("approximately ten days before" Vienna, Dobrynin there as the delegation''s counselor: the pressure on a young president; Mikoyan alone in doubt, "for a cautious approach"; no thought of war). Check: Fursenko and Naftali (2006), from the stenogram, have Khrushchev set a new course at this meeting, not approve the paper as written: a peace treaty, the air routes cut off, Western planes to be brought down; "more than a 95% probability that there will be no war" (355–59, citing the stenogram and Protocol 331, May 26, 1961, nn.72–73). To check: V. V. Kuznetsov to the Central Committee, May 26, 1961, APRF (cited by [[w.fursenko-one-hell-of-a]], 124 n.56, the paper). Names: Khrushchev, Dobrynin, Mikoyan, Kennedy.'
+    n: '[[w.fursenko-one-hell-of-a]], 124–26; [[w.fursenko-khrushchevs-cold-war]], 355–59 ("He is a son of a bitch"; "more than a 95% probability that there will be no war"; Mikoyan against; planes to be brought down; "Presents can be made even before a war"); [[w.dobrynin-in-confidence]], 44–46 ("approximately ten days before" Vienna, Dobrynin there as the delegation''s counselor: the pressure on a young president; Mikoyan alone in doubt, "for a cautious approach"; no thought of war); [[w.prezidium-tsk-kpss-1954]], I, 498–507 (Protocol 331; Khrushchev''s remarks). Check: Fursenko and Naftali (2006), from the stenogram, have Khrushchev set a new course at this meeting, not approve the paper as written: a peace treaty, the air routes cut off, Western planes to be brought down; "more than a 95% probability that there will be no war" (355–59, citing the stenogram and Protocol 331, May 26, 1961, nn.72–73). Check: the protocol and Khrushchev''s remarks (I, 498–507) bear out Fursenko and Naftali against the approval of the paper as written: a peace treaty with the GDR "firmly"; Western planes to land at GDR fields, shot down if need be (505); "more than 95%" that there will be no war (503); arms into the GDR within six months; out of the protocol, the test ban tied to disarmament, no concession on the American two to one (499); presents for Kennedy, "One gives presents even before a war" (507). On May 17 the Foreign Ministry''s materials were set aside as "bureaucratic documents" (497–98). To check: V. V. Kuznetsov to the Central Committee, May 26, 1961, APRF (cited by [[w.fursenko-one-hell-of-a]], 124 n.56, the paper). Names: Khrushchev, Dobrynin, Mikoyan, Kennedy.'
     src:
       c: 35ea2d05
       rows:
@@ -2391,6 +2526,8 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 355–59: A, C-D'
         - 'via w.fursenko-khrushchevs-cold-war 357 n.73: C-D'
         - 'w.dobrynin-in-confidence 44–46: A, C-D'
+        - 'w.prezidium-tsk-kpss-1954 I, 498–507: A, D'
+        - 'via x.1961-05-26.presidium-stenogram-protocol-331: A, D'
     tags: [name:khrushchev-nikita-s, name:dobrynin-anatoly, name:mikoyan-anastas, name:kennedy-john-f]
   - id: cal.1961-05-26.berlin-and-vienna
     when: May 26
@@ -2415,17 +2552,29 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 81: all'
     tags: [name:kennedy-john-f]
+  - id: cal.1961-05-26.defense
+    when: May 26
+    date: '1961-05-26'
+    thread: defense
+    also: [congress]
+    c: 'Amendments to the Defense appropriation bill, $237 million: $138 million for Army and Marine equipment, $22 million for 12,000 more Marines and the nucleus of a fourth division.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 65. See [[cal.1961-05-25.space]].'
+    src:
+      c: e6c9215d
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 65: all'
   - id: cal.1961-05-27.states-and-cities
     when: May 27
     date: '1961-05-27'
     thread: states-and-cities
     also: [specials]
     c: Tower beats Blakley in the runoff by about ten thousand votes. The first Republican senator elected from the former Confederacy since Reconstruction. Swing 9.1 to R from Johnson's 1960 race.
-    n: '[[w.goldberg-barry-goldwater]], 157 (Tower, "Goldwater Republican" by his own word, to Johnson''s seat in a special election). See [[cal.1961-04-04.states-and-cities]]. Names: Tower, Blakley, Johnson.'
+    n: '[[w.goldberg-barry-goldwater]], 157 (Tower, "Goldwater Republican" by his own word, to Johnson''s seat in a special election); [[w.peirce-great-plains-states-of]], 304 (Tower over Blakley in the runoff). See [[cal.1961-04-04.states-and-cities]]. Names: Tower, Blakley, Johnson.'
     src:
       c: 857790bf
       rows:
         - 'w.goldberg-barry-goldwater 157: A'
+        - 'w.peirce-great-plains-states-of 304: A'
     tags: [special:1961-05-27-s-TX-2, name:tower-john-g, name:blakley-william-a, name:johnson-lyndon-b, state:tx]
   - id: cal.1961-05-27.berlin-and-vienna
     when: May 27
@@ -2457,11 +2606,12 @@ entries:
     thread: cuba-bay-of-pigs
     also: [defense]
     c: 'Kennedy with the Joint Chiefs: the failure "as one involving all of us"; "to improve our ways of doing business together."'
-    n: '[[w.poole-joint-chiefs-of-staff]], 118. Names: Kennedy.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 118; [[w.taylor-swords-and-plowshares]], 189 (the President to the Chiefs at the Pentagon, on Taylor''s paper given him that day: their advice not to be purely military; not the words quoted). Names: Kennedy.'
     src:
       c: 7f6633f2
       rows:
         - 'w.poole-joint-chiefs-of-staff 118: all'
+        - 'w.taylor-swords-and-plowshares 189: A'
     tags: [name:kennedy-john-f]
   - id: cal.1961-05-28.opinion
     when: May 28–June 2
@@ -2483,12 +2633,13 @@ entries:
     thread: freedom-rides
     also: [robert-kennedy]
     c: Robert Kennedy petitions the Interstate Commerce Commission to forbid segregation in interstate bus terminals.
-    n: '[Interstate Commerce Commission, No. MC-C-3358, Notice of Proposed Rule Making, 26 Fed. Reg. 5530](https://www.govinfo.gov/content/pkg/FR-1961-06-21/pdf/FR-1961-06-21.pdf#page=44) (June 21, 1961). [[w.navasky-kennedy-justice]], 21, 23 (the petition, and the Attorney General''s statement in the docket with the FBI''s survey of 297 terminals, 97 photographed violations). The order: [[cal.1961-09-22.freedom-rides]]. See [[cal.1961-05-04.freedom-rides]]. Names: Robert Kennedy. Check: Navasky dates the statement June 21, 1961, the Federal Register''s day (23).'
+    n: '[Interstate Commerce Commission, No. MC-C-3358, Notice of Proposed Rule Making, 26 Fed. Reg. 5530](https://www.govinfo.gov/content/pkg/FR-1961-06-21/pdf/FR-1961-06-21.pdf#page=44) (June 21, 1961). [[w.navasky-kennedy-justice]], 21, 23 (the petition, and the Attorney General''s statement in the docket with the FBI''s survey of 297 terminals, 97 photographed violations); [[w.wofford-of-kennedys-and-kings]], 157 (two weeks after the first violence). The order: [[cal.1961-09-22.freedom-rides]]. See [[cal.1961-05-04.freedom-rides]]. Names: Robert Kennedy. Check: Navasky dates the statement June 21, 1961, the Federal Register''s day (23).'
     src:
       c: 1f5c5130
       rows:
         - 'https://www.govinfo.gov/content/pkg/FR-1961-06-21/pdf/FR-1961-06-21.pdf#page=44: all'
         - 'w.navasky-kennedy-justice 21, 23: A'
+        - 'w.wofford-of-kennedys-and-kings 157: A'
     tags: [name:kennedy-robert-f]
     short: the petition to the ICC
   - id: cal.1961-05-29.latin-america
@@ -2568,6 +2719,16 @@ entries:
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 150: all'
     tags: [name:gilpatric-roswell-l]
+  - id: cal.1961-05-29.defense
+    when: May 29
+    date: '1961-05-29'
+    thread: defense
+    c: 'A fourth supplemental for fiscal 1961 requested: $15 million for retired military pay, $40 million for Army personnel. Congress gives $14.5 million for retired pay and refuses the $40 million, to go into the fiscal 1962 bill.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 53. Check: the act. See [[cal.1961-03-31.defense]].'
+    src:
+      c: 621a5a5c
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 53: all'
   - id: cal.1961-05-30.latin-america
     when: May 30
     date: '1961-05-30'
@@ -2579,6 +2740,7 @@ entries:
   - id: cal.1961-05-30.middle-east
     when: May 30
     date: '1961-05-30'
+    time: 1961-05-30T20:45Z
     thread: middle-east-dimona
     c: 'Kennedy and Ben Gurion at the Waldorf-Astoria, New York, 4:45–6 p.m. Dimona: two American scientists have seen it; Kennedy asks that its peaceful purpose be made plain to others, "a woman should not only be virtuous but also have the appearance of virtue." Ben Gurion asks for the Hawk; Kennedy reluctant to bring missiles into the region.'
     n: 'FRUS 1961–63, XVII, doc. [57](https://history.state.gov/historicaldocuments/frus1961-63v17/d57). [[w.poole-joint-chiefs-of-staff]], 238, 241 (Ben Gurion renews the bid for Hawks, Kennedy noncommittal). To check: [[w.gazit-president-kennedys-policy-toward]]; [[w.ben-zvi-decade-of-transition]]; [[w.cohen-israel-and-the-bomb]]; [[w.bass-support-any-friend]]. See [[cal.1960-12-08.middle-east]]. Names: Ben Gurion.'
@@ -2687,7 +2849,7 @@ entries:
     thread: freedom-rides
     also: [mississippi, robert-kennedy]
     c: 'Robert Kennedy and Barnett, through Eastland, former Governor Coleman and Mayor Thompson of Jackson: the State to protect the riders; the Administration not to interfere when the Jackson police arrest them in the white waiting room. By Robert Kennedy''s account (1964) he spoke with Eastland "seven or eight or twelve times each day." Coleman to Marshall: Barnett not to be trusted.'
-    n: '[[w.dittmer-local-people]], 93. [[w.branch-parting-the-waters]], 470 (Barnett to Byron White, May 23). To check: Robert F. Kennedy, recorded interview by Anthony Lewis, Dec. 4, 1964, 573–74, and Burke Marshall, recorded interview by John Oberdorfer, 1970, 37–41, JFK Library Oral History Program; *New Orleans Times-Picayune*, June 11, 1961; *Newsweek*, June 26, 1961, 16 (cited by [[w.dittmer-local-people]], 93 n.7); Robert F. Kennedy, oral history interviews (Martin, Schlesinger, Lewis), 1964-65, JFK Library ("RFK OH"); [[w.schlesinger-robert-kennedy-and-his]], 322 (cited by [[w.branch-parting-the-waters]], 470 n.2). See [[cal.1961-05-04.freedom-rides]]. Names: Robert Kennedy, Barnett, Eastland, Coleman, Thompson, Marshall. Check: the days.'
+    n: '[[w.dittmer-local-people]], 93. [[w.branch-parting-the-waters]], 470 (Barnett to Byron White, May 23). To check: Robert F. Kennedy, recorded interview by Anthony Lewis, Dec. 4, 1964, 573–74, and Burke Marshall, recorded interview by John Oberdorfer, 1970, 37–41, JFK Library Oral History Program; *New Orleans Times-Picayune*, June 11, 1961; *Newsweek*, June 26, 1961, 16 (cited by [[w.dittmer-local-people]], 93 n.7); Robert F. Kennedy, oral history interviews (Martin, Schlesinger, Lewis), 1964–65, JFK Library ("RFK OH"); [[w.schlesinger-robert-kennedy-and-his]], 322 (cited by [[w.branch-parting-the-waters]], 470 n.2). See [[cal.1961-05-04.freedom-rides]]. Names: Robert Kennedy, Barnett, Eastland, Coleman, Thompson, Marshall. Check: the days.'
     src:
       c: 0a56c4dc
       rows:
@@ -2707,7 +2869,7 @@ entries:
     thread: republican-party
     also: [cuba]
     c: 'Nixon: the Republicans should not criticize the President in public for "mistakes which have hurt our world position."'
-    n: '[[w.johns-vietnams-second-front]], 19. To check: *New York Times*, May 3, 1961 (cited by [[w.johns-vietnams-second-front]], 19 n.34). Check: the day; Johns: "in early May." See [[cal.1961-04-22.cuba]]. Names: Nixon.'
+    n: '[[w.johns-vietnams-second-front]], 19. To check: [*New York Times*, May 3, 1961](https://timesmachine.nytimes.com/timesmachine/1961/05/03/issue.html) (cited by [[w.johns-vietnams-second-front]], 19 n.34). Check: the day; Johns: "in early May." See [[cal.1961-04-22.cuba]]. Names: Nixon.'
     src:
       c: 10bc567c
       rows:
@@ -2831,12 +2993,13 @@ entries:
     date: 1961-05
     thread: civil-rights-the-executive
     c: 'Salinger: the bills Clark and Celler introduced on the platform''s lines, at the candidate''s asking, "are not administration-backed bills. The President does not consider it necessary at this time to enact new civil rights legislation."'
-    n: '[[w.mann-walls-of-jericho]], 301. To check: Roy Wilkins, oral history, Kennedy Library (cited by [[w.mann-walls-of-jericho]], 301). Check: the day. See [[cal.1960-09-01.civil-rights-the-executive]]. Names: Salinger, Clark, Celler.'
+    n: '[[w.mann-walls-of-jericho]], 301; [[w.wofford-of-kennedys-and-kings]], 150 (the bills introduced May 8; Salinger the next day: "very little pressure" for legislation). To check: Roy Wilkins, oral history, Kennedy Library (cited by [[w.mann-walls-of-jericho]], 301). Check: the day. See [[cal.1960-09-01.civil-rights-the-executive]]. Names: Salinger, Clark, Celler.'
     src:
       c: 0d20fbad
       rows:
         - 'w.mann-walls-of-jericho 301: all'
         - 'via w.mann-walls-of-jericho 301 n.suddenly-disavowed-the-bills-introduced: all'
+        - 'w.wofford-of-kennedys-and-kings 150: A'
     tags: [name:salinger-pierre, name:clark-joseph-s, name:celler-emanuel]
   - id: cal.1961-05.civil-rights-the-executive-2
     when: May
@@ -2844,11 +3007,12 @@ entries:
     thread: civil-rights-the-executive
     also: [georgia]
     c: 'The equal employment committee''s first large agreement, with Lockheed''s plant at Marietta, Ga., building the C-141 under a $1 billion contract: the "white" and "colored" signs down, the cafeteria open, Negroes (450 of 10,500) to be hired and trained for skilled work.'
-    n: '[[w.mann-walls-of-jericho]], 305. Check: the day. See [[cal.1961-03-06.civil-rights-the-executive]]. Names: Johnson.'
+    n: '[[w.mann-walls-of-jericho]], 305; [[w.wofford-of-kennedys-and-kings]], 143 (Troutman''s part; a "Plan for Progress"; the President at the signing, a "milestone in the history of civil rights"). Check: the day. See [[cal.1961-03-06.civil-rights-the-executive]]. Names: Johnson.'
     src:
       c: 8f9689d8
       rows:
         - 'w.mann-walls-of-jericho 305: all'
+        - 'w.wofford-of-kennedys-and-kings 143: A'
     tags: [name:johnson-lyndon-b, state:ga]
   - id: cal.1961-05.freedom-rides-2
     when: May
@@ -2856,13 +3020,14 @@ entries:
     thread: freedom-rides
     also: [civil-rights-the-executive]
     c: 'Kennedy to Wofford by telephone, of the Freedom Riders: "Tell them to call it off! Stop them!" Wofford: "I don''t think anybody''s going to stop them right now." By Wofford''s account.'
-    n: '[[w.mann-walls-of-jericho]], 312; [[w.thomas-robert-kennedy]], 129 ("Tell them to call it off! ... Get your friends off those buses!"). To check: [[w.wofford-of-kennedys-and-kings]], 153; Harris Wofford, interview by Robert Mann (cited by [[w.mann-walls-of-jericho]], 312). Check: the day. See [[cal.1961-05-14.freedom-rides]]. Names: Kennedy, Wofford.'
+    n: '[[w.mann-walls-of-jericho]], 312; [[w.thomas-robert-kennedy]], 129 ("Tell them to call it off! ... Get your friends off those buses!"); [[w.wofford-of-kennedys-and-kings]], 125, 153. Check: Wofford places the call after Seigenthaler flew the first riders to New Orleans and the Nashville students came on, before Patterson returned Robert Kennedy''s call May 19 (153); also "Stop them! Get your friends off those buses!" (125). To check: Harris Wofford, interview by Robert Mann (cited by [[w.mann-walls-of-jericho]], 312). Check: the day. See [[cal.1961-05-14.freedom-rides]]. Names: Kennedy, Wofford.'
     src:
       c: f093b3f6
       rows:
         - 'w.mann-walls-of-jericho 312: all'
         - 'via w.mann-walls-of-jericho 312 n.tell-them-to-call-it-off: all'
         - 'w.thomas-robert-kennedy 129: A'
+        - 'w.wofford-of-kennedys-and-kings 125, 153: A-C'
     tags: [name:kennedy-john-f, name:wofford-harris]
   - id: cal.1961-05.european-community
     when: May
@@ -2918,11 +3083,12 @@ entries:
     thread: freedom-rides
     also: [robert-kennedy]
     c: 'After King''s refusal of bail for the riders in Jackson. Robert Kennedy to Wofford: "This is too much! I wonder if they have the best interests of their country at heart. Do you know that one of them is against the atom bomb?"'
-    n: '[[w.thomas-robert-kennedy]], 132. To check: [[w.wofford-of-kennedys-and-kings]], 156 (cited by [[w.thomas-robert-kennedy]], 132). See [[cal.1961-05-24.robert-kennedy]]. Names: Robert Kennedy, Wofford.'
+    n: '[[w.thomas-robert-kennedy]], 132; [[w.wofford-of-kennedys-and-kings]], 156 ("yes, he even picketed against it in jail! The President is going abroad and this is all embarrassing him"). Check: Wofford has the call as Coffin''s riders came into Montgomery under the Guard, May 24 (156). See [[cal.1961-05-24.robert-kennedy]]. Names: Robert Kennedy, Wofford.'
     src:
       c: 11ce1ebc
       rows:
         - 'w.thomas-robert-kennedy 132: all'
+        - 'w.wofford-of-kennedys-and-kings 156: A-B'
     tags: [name:kennedy-robert-f, name:wofford-harris]
   - id: cal.1961-05.civil-rights-the-executive-3
     when: May
@@ -2943,11 +3109,12 @@ entries:
     thread: latin-america
     also: [robert-kennedy]
     c: 'After Trujillo''s killing, the President at Paris and Vienna. Robert Kennedy in the State Department''s operations center, for sending the fleet to Dominican waters, ready to land the Marines. Bowles objects; Kennedy: "You''re a gutless bastard." Bowles to the President: "Who''s in charge here?" The President: "You are." Bowles: "Would you mind explaining that to your brother?"'
-    n: '[[w.thomas-robert-kennedy]], 139. To check: [[w.wofford-of-kennedys-and-kings]], 366–75 (cited by [[w.thomas-robert-kennedy]], 139). See [[cal.1961-05-30.latin-america]]. Names: Robert Kennedy, Bowles, Kennedy. Check: the day; Thomas: while the President was away.'
+    n: '[[w.thomas-robert-kennedy]], 139; [[w.wofford-of-kennedys-and-kings]], 372–73 (Bowles, Acting Secretary with Rusk and the President in Europe, blocks the Attorney General''s plan for an immediate, limited military intervention; Robert Kennedy calls him a gutless bastard). See [[cal.1961-05-30.latin-america]]. Names: Robert Kennedy, Bowles, Kennedy. Check: the day; Thomas: while the President was away.'
     src:
       c: cc426cbf
       rows:
         - 'w.thomas-robert-kennedy 139: all'
+        - 'w.wofford-of-kennedys-and-kings 372–73: A, C-D'
     tags: [name:kennedy-robert-f, name:bowles-chester, name:kennedy-john-f]
   - id: cal.1961-05.cuba-bay-of-pigs-2
     when: May
@@ -3082,3 +3249,156 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 279–80: all'
     tags: [name:gilpatric-roswell-l]
+  - id: cal.1961-05.civil-rights-organizations
+    when: May
+    date: 1961-05
+    thread: civil-rights-organizations
+    c: New York. Levison has Andrew Young and his wife to his house; a letter from King follows, asking Young to SCLC in Atlanta; Young declines. Horton and Chuck Boyles then offer him Highlander's leadership training program, on a grant from the Field Foundation, to teach adults to read and write for voter registration; he accepts.
+    n: '[[w.young-easy-burden]], 131–32. Check: the month; Young: "during the spring of 1961." See [[cal.1961-04-25.civil-rights-organizations]]. Names: Levison, Andrew Young, Martin Luther King.'
+    src:
+      c: c8ff015f
+      rows:
+        - 'w.young-easy-burden 131–32: all'
+    tags: [name:levison-stanley-d, name:young-andrew-j-jr, name:king-martin-luther-jr]
+  - id: cal.1961-05.peace-corps
+    when: May, early
+    date: 1961-05
+    thread: peace-corps
+    c: 'Shriver and Moyers with Johnson, chairman of the Peace Corps'' advisory council, on the Dungan task force''s plan to put the Peace Corps in the new aid agency. Johnson: "You put the Peace Corps into the Foreign Service and they''ll put striped pants on your people when all you''ll want them to have is a knapsack and a tool kit and a lot of imagination." By Moyers''s account, as he wrote it down.'
+    n: '[[w.wofford-of-kennedys-and-kings]], 265. Check: the day; before Shriver left on his trip. Names: Shriver, Moyers, Johnson.'
+    src:
+      c: a044253c
+      rows:
+        - 'w.wofford-of-kennedys-and-kings 265: all'
+    tags: [name:shriver-r-sargent, name:moyers-bill, name:johnson-lyndon-b]
+  - id: cal.1961-05.peace-corps-2
+    when: May
+    date: 1961-05
+    thread: peace-corps
+    also: [africa]
+    c: 'Accra. Shriver, with Wofford and Franklin Williams, to Nkrumah, three weeks after the Bay of Pigs. Nkrumah: the CIA "a dangerous beam that should be resisted"; the Peace Corps "sounds good." Ghana will take a few teachers, science, mathematics and English, not the social sciences; "Can you get them here by August?" By Wofford''s account.'
+    n: '[[w.wofford-of-kennedys-and-kings]], 269–70. Check: the day. Names: Shriver, Wofford, Nkrumah.'
+    src:
+      c: 25c2e016
+      rows:
+        - 'w.wofford-of-kennedys-and-kings 269–70: all'
+    tags: [name:shriver-r-sargent, name:wofford-harris, name:nkrumah-kwame]
+  - id: cal.1961-05.peace-corps-3
+    when: May
+    date: 1961-05
+    thread: peace-corps
+    also: [south-asia]
+    c: 'New Delhi. Shriver with Nehru, Wofford there. Nehru: India will take some of the volunteers for the Punjab, "perhaps twenty to twenty-five," but "I hope you and they will not be too disappointed if the Punjab, when they leave, is more or less the same as it was before they came." By Wofford''s account.'
+    n: '[[w.wofford-of-kennedys-and-kings]], 272. Check: the day. Names: Shriver, Wofford, Nehru.'
+    src:
+      c: ae83d7e0
+      rows:
+        - 'w.wofford-of-kennedys-and-kings 272: all'
+    tags: [name:shriver-r-sargent, name:wofford-harris, name:nehru-jawaharlal]
+  - id: cal.1961-05.peace-corps-4
+    when: May
+    date: 1961-05
+    thread: peace-corps
+    also: [foreign-aid]
+    c: Dungan's task force on the aid programs overrules Shriver, and the President agrees that the Peace Corps go into the new aid agency; Dungan tells Wiggins and Josephson the decision is final. They cable Shriver at New Delhi. By Wofford's account.
+    n: '[[w.wofford-of-kennedys-and-kings]], 263–64. Check: the day. Names: Dungan, Kennedy, Shriver.'
+    src:
+      c: 918e346c
+      rows:
+        - 'w.wofford-of-kennedys-and-kings 263–64: all'
+    tags: [name:dungan-ralph-a, name:kennedy-john-f, name:shriver-r-sargent]
+  - id: cal.1961-05.peace-corps-5
+    when: May
+    date: 1961-05
+    thread: peace-corps
+    also: [foreign-aid]
+    c: 'From New Delhi Shriver telephones Moyers: ask Johnson to make a last plea to the President. Johnson makes it, the aid program''s unpopularity in Congress his case; Kennedy agrees to a separate Peace Corps. Shriver: Johnson "a founding father of the Peace Corps." By Wofford''s account.'
+    n: '[[w.wofford-of-kennedys-and-kings]], 266. Check: the day. Names: Shriver, Moyers, Johnson, Kennedy.'
+    src:
+      c: 49d9f9e7
+      rows:
+        - 'w.wofford-of-kennedys-and-kings 266: all'
+    tags: [name:shriver-r-sargent, name:moyers-bill, name:johnson-lyndon-b, name:kennedy-john-f]
+  - id: cal.1961-05.elections-1962
+    when: May
+    date: 1961-05
+    thread: elections-1962
+    c: Illinois. Daley, at a testimonial dinner for Powell, Speaker of the Illinois House, all but endorses him for the Senate against Dirksen in 1962.
+    n: '[[w.cohen-american-pharaoh]], 287. Check: the day. Names: Daley, Dirksen.'
+    src:
+      c: 5b2d558b
+      rows:
+        - 'w.cohen-american-pharaoh 287: all'
+    tags: [state:il, name:daley-richard-j, name:dirksen-everett]
+  - id: cal.1961-05.testing-2
+    when: May
+    date: 1961-05
+    thread: testing
+    c: 'Turn Toward Peace launched, a clearinghouse of pacifist, internationalist, liberal and labor groups, planned by Pickus, Gilmore, Norman Thomas and Gottlieb: twenty-eight organizations and individuals, Eleanor Roosevelt, Reuther and King among them; Pickus''s office at Berkeley.'
+    n: '[[w.debenedetti-american-ordeal]], 54. Check: the month; DeBenedetti: "in the spring." Names: Eleanor Roosevelt, Reuther, King.'
+    src:
+      c: 27f7e322
+      rows:
+        - 'w.debenedetti-american-ordeal 54: all'
+    tags: [name:roosevelt-eleanor, name:reuther-walter, name:king-martin-luther-jr]
+    short: Turn Toward Peace
+  - id: cal.1961-05.vietnam
+    when: May
+    date: 1961-05
+    thread: vietnam
+    c: 'Lansdale, no longer the task force''s operational head, urges McNamara and Gilpatric to stay out of the new arrangement: a Defense officer "of only partial influence" would give State "a scapegoat to share the blame when we have a flop."'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 268. To check: Bundy, "History of Vietnam," ch. 3, 35 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 268 n.28). Check: the day; before the final report of May 6. See [[cal.1961-05-06.vietnam-2]]. Names: Lansdale, McNamara, Gilpatric.'
+    src:
+      c: 71ab4d63
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 268: all'
+    tags: [name:lansdale-edward-g, name:mcnamara-robert-s, name:gilpatric-roswell-l]
+  - id: cal.1961-05-31.defense
+    when: May 31
+    date: '1961-05-31'
+    thread: defense
+    also: [congress]
+    c: 'McNamara before Mahon''s subcommittee on the reserves: two reserve divisions ready in three weeks; "the ''One Army'' concept must become a reality." Riley doubts it; Flood: "You are going to give me two Reserve line divisions in 2 weeks?" The hearings close June 1.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 66. To check: House Appropriations, *Department of Defense Appropriations for 1962*, May 31, 1961, pt. 6, 178–79, 203–05 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 66 nn.47–48). See [[cal.1961-05-26.defense]]. Names: McNamara, Riley, Flood.'
+    src:
+      c: 3e2e544f
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 66: all'
+        - 'via x.1961-05-31.hsca-dod-appropriations-1962-pt6: all'
+    tags: [name:mcnamara-robert-s, name:riley-john-j, name:flood-daniel-j]
+  - id: cal.1961-05.berlin-and-vienna
+    when: May
+    date: 1961-05
+    thread: berlin-and-vienna
+    also: [soviet-union, intelligence]
+    c: The Kremlin has copies of the papers France delivered to NATO on the allies' positions on Berlin; the Presidium also reads the West German Ambassador's correspondence with Bonn.
+    n: '[[w.fursenko-khrushchevs-cold-war]], 374. Check: the day: the work cites the Presidium''s stenogram of May 26 for the intelligence (374 nn.39–40). To check: the stenogram, May 26, 1961 (cited by [[w.fursenko-khrushchevs-cold-war]], 374 nn.39–40). Discussed: [[cal.1961-05-26.soviet-union]].'
+    src:
+      c: 4c7af422
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 374: all'
+        - 'via w.fursenko-khrushchevs-cold-war 374 n.39: all'
+  - id: cal.1961-05.freedom-rides-4
+    when: May, late
+    date: 1961-05
+    thread: freedom-rides
+    also: [robert-kennedy]
+    c: 'After the Yale and Wesleyan riders, Robert Kennedy to the President: the white liberals among the later riders "honkers." Quoted: "It took a lot of guts for the first group to go, but not much for the others"; the riders "good propaganda for America''s enemies."'
+    n: '[[w.thomas-robert-kennedy]], 131. Check: the day. To check: [[w.reeves-president-kennedy]], 63 (cited by [[w.thomas-robert-kennedy]], 416); [[w.branch-parting-the-waters]], 476 (cited by [[w.thomas-robert-kennedy]], 416). See [[cal.1961-05-24.freedom-rides]]. Names: Robert Kennedy, Kennedy.'
+    src:
+      c: aab23b67
+      rows:
+        - 'w.thomas-robert-kennedy 131: all'
+    tags: [name:kennedy-robert-f, name:kennedy-john-f]
+  - id: cal.1961-05.mayors
+    when: May
+    date: 1961-05
+    thread: mayors
+    c: Javits weighs running for mayor of New York, then declines.
+    n: '[[w.smith-on-his-own-terms]], 360 ("toyed with the idea of running just long enough to elicit flattering testaments"; Lefkowitz then the nominee). To check: "Searching Party," *Time*, May 19, 1961 (cited by [[w.smith-on-his-own-terms]], 360). Check: the day. Names: Javits.'
+    src:
+      c: 502c342e
+      rows:
+        - 'w.smith-on-his-own-terms 360: all'
+        - 'via x.1961-05-19.time-searching-party: all'
+    tags: [name:javits-jacob-k, state:ny, city:nyc]

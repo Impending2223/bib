@@ -497,8 +497,8 @@ def build_list(series, key, linker=None, half=None):
         # 'Names:' (tools/bib/namelinks.py)
         if field == "s":
             return "; ".join(namelinks.a(series, plain(part), part) for part in to_html(t, resolve).split("; "))
-        if field == "c":
-            lead, rest = namelinks.author_split(series, t)
+        if field == "c" and lst.kind != "calendar":   # a citation's authors; not a calendar entry's opening name
+            lead, rest = namelinks.author_split(series, t)    # (the owner, Nov. 5, 2026: its Names: line links him)
             return (lead or "") + to_html(rest, resolve)
         if field == "n" and linker and "Names:" in t:
             e = text_html.entry or {}
@@ -975,7 +975,8 @@ class Linker:
                     h = "; ".join(namelinks.a(series, plain(part), part) for part in h.split("; "))
                 return h
             lead = ""
-            if field == "c":             # the citation's authors, linked to their name entries
+            if field == "c" and lst.kind != "calendar":   # the citation's authors, linked to their name entries;
+                # not a calendar entry's opening name, which its Names: line links (the owner, Nov. 5, 2026)
                 from . import namelinks
                 lead, t = namelinks.author_split(series, t)
                 lead = lead or ""

@@ -41,8 +41,10 @@ STYLE
    from the matches; a later match: `check` warns [hearings] until it is written), shown in his "Sources:" line as
    "Hearing, Jan. 17, 1961", linked to the details page, the title on hover (executive_sources).
 3. The calendar: an entry on the nomination cites the hearing as its primary record, in the Bluebook's form:
-   '*Nomination of Robert S. McNamara: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1961)', linked to
-   the details page (`cite()` writes it).
+   '*Nomination of Robert S. McNamara: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1961)
+   ([online](...))': nothing of the cite linked, the details page after it in parentheses, as the service histories'
+   cards print theirs (the owner, Nov. 5, 2026; `cite()` writes it). The Names' line likewise: the title unlinked,
+   "(online)" after.
 4. check [hearings]: fails on a hearing without its package, title, link or a day; on a hand row whose package or
    name the file does not hold, or whose person names no one; on a `Hearing` source naming no package. Warns on a
    holder rule 2 matches whose `src` lacks his hearing.
@@ -180,7 +182,9 @@ def before(h):
 
 
 def cite(h):
-    """The Bluebook's form for the hearing (STYLE 3), linked: '*Nomination of Robert S. McNamara: Hearing Before the S.
+    """The Bluebook's form for the hearing (STYLE 3), unlinked, the link after it as the service histories' are
+    (the owner, Nov. 5, 2026): '*Nomination of Robert S. McNamara: Hearing Before the S. Comm. on Armed Services*, 87th
+    Cong. (1961) ([online](...))'. Formerly linked whole: '*Nomination of Robert S. McNamara: Hearing Before the S.
     Comm. on Armed Services*, 87th Cong. (1961)'; a part, 'pt. 1' after the title; the years held."""
     head = short_title(h["title"])
     part = re.search(r"[.,]?\s*Part\s+(\d+)$", head, re.I)
@@ -192,7 +196,7 @@ def cite(h):
     days = h.get("held") or [h.get("issued", "")]
     y0, y1 = days[0][:4], days[-1][:4]
     year = y0 if y0 == y1 else f"{y0}–{y1[2:]}"
-    return f"[{t}, {ordinal(int(h['congress']))} Cong. ({year})]({DETAILS}{h['package']})"
+    return f"{t}, {ordinal(int(h['congress']))} Cong. ({year}) ([online]({DETAILS}{h['package']}))"
 
 
 # ---------------------------------------------------------------- who is whom
@@ -368,7 +372,7 @@ def person_items(series, name, site=""):
             days = f'<a href="{esc(site)}cal.html#d{held[0]}">{esc(first)}</a>' + esc(days[len(first):])
         else:
             days = esc(days)
-        title = f'<a href="{DETAILS}{esc(h["package"])}">{esc(short_title(h["title"]))}</a>'
+        title = esc(short_title(h["title"]))      # unlinked; the link after, "(online)" (the owner, Nov. 5, 2026)
         b = before(h)
         b = b[4:] if b.startswith("the ") else b[:1].upper() + b[1:]
         sess = {"1": "1st", "2": "2d", "3": "3d"}.get(str(h.get("session") or ""), "")
@@ -376,7 +380,8 @@ def person_items(series, name, site=""):
                 if h.get("congress") else ""]
         if n.get("office"):
             bits.append(esc(n["office"]))
-        items.append(f'{days}: {title}. <span class="lvc">{"; ".join(x for x in bits if x).rstrip(".")}.</span>')
+        on = f' (<a href="{DETAILS}{esc(h["package"])}">online</a>)'
+        items.append(f'{days}: {title}. <span class="lvc">{"; ".join(x for x in bits if x).rstrip(".")}.</span>{on}')
     return items
 
 

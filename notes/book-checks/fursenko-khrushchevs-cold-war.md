@@ -30,34 +30,34 @@ Chapters 11–13 (pp. 241–337), row by row:
 | page | date | event | why |
 |---|---|---|---|
 | 241–50 | Sept. 28–Dec. 14, 1959 | Khrushchev's return from America; the Presidium of Dec. 14, 1959 on the troop cut and the military | out of the brief (before Jan. 6, 1960) |
-| 253 | Jan.–Feb. 1960 | Twining and Gates on the 1961 defense budget; Russell: "I can't accept the statement that there is no missile gap" | lead: the hearing's day (Jackson, vol. 5, 94, n.40) |
-| 254 | Feb. 1960 | Gates to Congress: Power's estimate "is unrealistic" | lead: the day (the *Times*, Feb. 7, 1960, n.43) |
+| 253 | Jan.–Feb. 1960 | Twining and Gates on the 1961 defense budget; Russell: "I can't accept the statement that there is no missile gap" | entered: cal.1960-01-19.defense (b5; the Digest's Senate Armed Services hearing; Check: the day) |
+| 254 | Feb. 1960 | Gates to Congress: Power's estimate "is unrealistic" | entered: cal.1960-02.defense-2 (b5; Check: the day) |
 | 271 | Dec. 31, 1959 | Khrushchev to Thompson at the New Year's Eve party: if Eisenhower could serve another term | out of the brief (before Jan. 6, 1960) |
-| 271 | Apr. 1960 | Eisenhower alerts Khrushchev he may leave Paris for Lisbon, Nixon to head the delegation | lead: the day |
-| 276 | May 1960 | Macmillan's diary: "The Americans have created a great folly" | lead: the day (Horne, *Macmillan*, II, 225–26) |
-| 280 | Apr.–May 1960 | NATO meetings on the French plan; Herter: "embarrassing to the West" | lead: which meeting (FRUS 1958–60, IX, 318, 415, n.56) |
+| 271 | Apr. 1960 | Eisenhower alerts Khrushchev he may leave Paris for Lisbon, Nixon to head the delegation | entered: cal.1960-04-16.soviet-union-u2 (b5; FRUS 1958–60, IX, doc. 127 n.2: the letter sent Apr. 16) |
+| 276 | May 1960 | Macmillan's diary: "The Americans have created a great folly" | entered: cal.1960-05-07.soviet-union-u2-3 (b5; May 7–9, Check: the day) |
+| 280 | Apr.–May 1960 | NATO meetings on the French plan; Herter: "embarrassing to the West" | entered: cal.1960-05-15.soviet-union-u2-2 (b5; FRUS 1958–60, IX, doc. 159: Herter's words at Paris, May 15, 11 a.m.) |
 | 280 | May 9, 1960 | the Soviet proposals handed to the French; May 13, the telcon | minor: a transmittal |
 | 288 | May 17, 1960 | Macmillan's diary: "has blown up, like a volcano!"; Eisenhower's "this man" | minor: private remarks |
-| 289 | May 1960 | Thompson and Bohlen to Sulzberger: the U-2 a pretext | lead: the day (Sulzberger, *The Last of the Giants*, 669–70) |
+| 289 | May 1960 | Thompson and Bohlen to Sulzberger: the U-2 a pretext | entered: cal.1960-05.soviet-union-u2 (b5; Check: the day) |
 | 290 | Feb. 1962 | Powers exchanged for Abel; the Prettyman board | later: the exchange is entered in Feb. 1962 (KCW ch. 15 if treated) |
 | 293 | 1959 | Nasser and Qasim's feud; Khrushchev with el-Kouni, May 22, 1959 | out of the brief (before Jan. 6, 1960) |
 | 295–96 | Dec. 1958–Oct. 1959 | the rifles for Castro; Raúl Castro's envoy; the Spanish officers; the Polish tanks; Alekseyev's arrival | out of the brief (before Jan. 6, 1960) |
 | 297–99 | Apr.–Dec. 1959 | Lumumba with Gerasimov at Conakry; de Coninck; the Congolese nationalists turned down | out of the brief (before Jan. 6, 1960) |
-| 298 | Jan. 1960 | the Belgian–Congolese agreement: independence June 30 | lead: the day (the Round Table, Jan. 1960; not dated in the work) |
+| 298 | Jan. 1960 | the Belgian–Congolese agreement: independence June 30 | entered: cal.1960-01.congo (b5; Check: the day) |
 | 299–300 | Nov.–Dec. 1959 | State's memorandum of Nov. 5; King's proposal of Dec. 11 | out of the brief (before Jan. 6, 1960) |
-| 304 | spring 1960 | the CIA's LSD cigar and depilatory schemes | lead: the day (S. Rep. No. 94-465, 72) |
-| 304 | May 1960 | Cuba and the Soviet Union establish diplomatic relations | lead: the day (not given) |
+| 304 | spring 1960 | the CIA's LSD cigar and depilatory schemes | entered: cal.1960-03.cuba-2 (b5; Check: the day) |
+| 304 | May 1960 | Cuba and the Soviet Union establish diplomatic relations | entered: cal.1960-05.cuba (b5; Check: the day) |
 | 306 | Aug. 1960 | the KGB renames its Cuba file AVANPOST | minor: an office's file name |
-| 309–10 | late July 1960 | Lumumba with Kuznetsov at the UN; with Aroutunian in Ottawa | lead: the days (Kalb, *Congo Cables*, 35–41) |
-| 316 | Sept. 16–17, 1960 | Mobutu's troops clear the Parliament; Lumumba in UN custody | lead: Sept. 16–17 entries to check against Kalb and Hoskyns (the calendar has Sept. 14) |
-| 317 | Sept. 1960 | Khrushchev: "I spit on the UN"; Zorin's instructions | lead: the day (Taubman, *Khrushchev*, 477) |
-| 318 | Sept. 24, 1960 | Dulles: "eliminat[e] Lumumba" | lead: S. Rep. No. 94-465, 24, to enter |
-| 320 | Aug.–Oct. 1, 1960 | Castro's purge of his security service; the block surveillance system | lead: the days |
-| 321 | Nov. 1960 | the CIA's contract killer to Stanleyville | lead: the day |
+| 309–10 | late July 1960 | Lumumba with Kuznetsov at the UN; with Aroutunian in Ottawa | entered: cal.1960-07-25.congo-2, cal.1960-07-31.congo, cal.1960-08-01.congo-2 (b5; the work's three days, 310; Check: which is which) |
+| 316 | Sept. 16–17, 1960 | Mobutu's troops clear the Parliament; Lumumba in UN custody | entered: cal.1960-09-16.congo (b5); the embassies' order a Check at cal.1960-09-14.congo (canvass-c) |
+| 317 | Sept. 1960 | Khrushchev: "I spit on the UN"; Zorin's instructions | entered: cal.1960-09.soviet-union-un (b5; Check: the day); Zorin's instructions in cal.1960-09-18.congo (cited 317); the pilots' recall cal.1960-09.congo (b5) |
+| 318 | Sept. 24, 1960 | Dulles: "eliminat[e] Lumumba" | entered: cal.1960-09-24.congo-lumumba (b5; the report behind To check: intelligence.senate.gov refuses this host, 403) |
+| 320 | Aug.–Oct. 1, 1960 | Castro's purge of his security service; the block surveillance system | entered: cal.1960-08.cuba, cal.1960-10-01.cuba-2 (b5) |
+| 321 | Nov. 1960 | the CIA's contract killer to Stanleyville | entered: cal.1960-11.congo-lumumba (b5; Check: the day) |
 | 324 | 1956–59 | Mikoyan in Hanoi; the 15th Plenum; Laos and Moscow, 1956–57 | out of the brief (before Jan. 6, 1960) |
-| 324 | spring 1960 | Khrushchev's second trip to Southeast Asia, Burma and Indonesia | lead: the days (Feb.–Mar. 1960) |
+| 324 | spring 1960 | Khrushchev's second trip to Southeast Asia, Burma and Indonesia | entered: cal.1960-02.soviet-union-2 (b5; FRUS 1958–60, XV, doc. 159: Afghanistan, Mar. 2–5; Check: the other days) |
 | 328 | June 1960 | the Chinese and Soviet delegates trade insults at Bucharest | entered: cal.1960-06.soviet-union |
-| 329 | Aug.–Oct. 1960 | Brown's and State's views on Souvanna; Eisenhower's dominoes (memoir) | lead: the days (Eliades; *Waging Peace*, 607) |
+| 329 | Aug.–Oct. 1960 | Brown's and State's views on Souvanna; Eisenhower's dominoes (memoir) | not settled (b5): views over the weeks after Aug. 17, no act dated; Eisenhower's dominoes a memoir of 1965 (607); the debate's dated acts are entered (Aug. 19, 23, Oct. 8, 1960); lead: Eliades's dissertation, 333–72 |
 | 335 | early Jan. 1961 | the Soviets with the Poles, the Vietnamese and Souvanna | entered: cal.1961-01-09.laos |
 
 Chapters 14–18 (pp. 338–451): the rows the second run did not log are in the third run's section below.
@@ -68,13 +68,7 @@ The work cites the *New York Times* and *Pravda* for the public statements (Khru
 
 ## Leads (to notes/leads.md, Foreign, and National)
 
-The "lead" rows above, each with where to look; and:
-
-- The Belgian–Congolese Round Table, Jan.–Feb. 1960: the day independence was set for June 30 (298).
-- Mobutu's troops and Lumumba, Sept. 16–17, 1960: the calendar has Sept. 14; to check against Kalb and Hoskyns (316).
-- Dulles, Sept. 24, 1960, "eliminat[e] Lumumba": S. Rep. No. 94-465, 24; not entered (318).
-- Khrushchev's tour of India, Burma, Indonesia and Afghanistan, Feb.–Mar. 1960: the days (324).
-- The rest of the work, pp. 451–545, unread.
+The "lead" rows above were ruled in the fourth run (b5, below); what is left: Eliades's dissertation for the debate on Souvanna Phouma, Aug.–Oct. 1960 (329).
 
 # The third run: pp. 451–545 and the rows for pp. 338–451 (Nov. 4, 2026)
 
@@ -113,38 +107,38 @@ How made: every dated event of the pages, read page by page against the calendar
 | page | date | event | why |
 |---|---|---|---|
 | 451 | June–July 1962 | the Anadyr crews ordered to grow beards; the KGB's reports from the *Mednogorsk* and *Poltava* | minor: a unit's routine (KGB reports of Aug. 24 and 30, 1962, FSB, n.44) |
-| 455 | Aug. 1962 | Castro proposes announcing a joint defense treaty; Moscow demurs | lead: the day |
+| 455 | Aug. 1962 | Castro proposes announcing a joint defense treaty; Moscow demurs | already in (b5): cal.1962-08-30.missile-crisis-2, cited 455 |
 | 460 | fall 1962 | Khrushchev's and Ulbricht's letters on East German farming | entered in part (cal.1962-10-14.soviet-union); the letters' days a lead |
 | 466 | Oct. 16, 1962 | Taylor: "It'll never be a hundred percent"; Robert Kennedy's Pearl Harbor | in the calendar (the ExComm entries); cited at cal.1962-10-16.missile-crisis |
-| 481 | Oct. 24, 1962 | McNamara's depth charges as warnings; Kennedy's worry (Robert Kennedy's note) | in the calendar's Oct. 24 ExComm by its sources; not in `c`: lead for a reader of the tapes (Presidential Recordings, III, 191–97) |
-| 482 | Oct. 24, 1962 | Kennedy fears a blockade of Berlin in reply | the same meeting: lead, as above |
+| 481 | Oct. 24, 1962 | McNamara's depth charges as warnings; Kennedy's worry (Robert Kennedy's note) | entered: cal.1962-10-24.missile-crisis-excomm (b5; the tape and Presidential Recordings behind To check) |
+| 482 | Oct. 24, 1962 | Kennedy fears a blockade of Berlin in reply | entered in cal.1962-10-24.missile-crisis-excomm (b5) |
 | 491 | Oct. 23, 1962 | the Kremlin on East Germany's economy | entered in the note of cal.1962-10-27.berlin-and-vienna |
-| 497 | Oct. 30, 1962 | Moscow cancels India's twelve MiG-21s | lead: the day (*Washington Post*, Oct. 30, n.22) |
-| 497 | Nov., early, 1962 | Khrushchev's public letter to Nehru: backing for Peking | lead: the day (*New York Times*, Nov. 4, n.23) |
+| 497 | Oct. 30, 1962 | Moscow cancels India's twelve MiG-21s | entered: cal.1962-10.south-asia (b5; the Presidium's protocols, n.21, and the *Post*, n.22) |
+| 497 | Nov., early, 1962 | Khrushchev's public letter to Nehru: backing for Peking | entered: cal.1962-11.south-asia (b5; Check: the day) |
 | 498 | Nov. 1962 | Khrushchev to a British diplomat: "my old friend Nixon" | entered in the note of cal.1962-11-07.soviet-union |
 | 499 | Nov. 8, 1962 | Lechuga: the bombers Cuban property | press: "## The press" |
 | 500 | Nov. 1962 | U Thant's UN posts in the Caribbean; the Soviet counterproposal | entered in part (cite at cal.1962-11-14.missile-crisis) |
-| 504 | Nov., early, 1962 | the Pathet Lao shoot down an American supply plane, announced Nov. 21 | lead: the day |
-| 510 | Dec. 1963 [sic] | Khrushchev calls on Peking to end the polemics | lead: the year (the text prints 1963; the context Dec. 1962) |
-| 513 | Mar. 1963, early | Khrushchev's farm speeches published without "catch and surpass"; meat at 40 percent of the goal | lead: the day (*New York Times*, Mar. 4, n.78) |
-| 513 | Mar. 1963, mid | the Minister of Agriculture dismissed | lead: the day and the name |
-| 514 | Jan.–Mar. 1963 | three major addresses on ideology | lead: the days (*New York Times*, Mar. 12, n.79) |
+| 504 | Nov., early, 1962 | the Pathet Lao shoot down an American supply plane, announced Nov. 21 (505) | a Check (b5) at cal.1962-11-27.laos, whose shooting down is Nov. 27; the announcement in cal.1962-11-21.laos's matter |
+| 510 | Dec. 1963 [sic] | Khrushchev calls on Peking to end the polemics | entered: cal.1962-12.china (b5; Check: the year) |
+| 513 | Mar. 1963, early | Khrushchev's farm speeches published without "catch and surpass"; meat at 40 percent of the goal | entered: cal.1963-03.soviet-union (b5; Check: the day) |
+| 513 | Mar. 1963, mid | the Minister of Agriculture dismissed | entered: cal.1963-03.soviet-union-2 (b5; Check: the day and the name) |
+| 514 | Jan.–Mar. 1963 | three major addresses on ideology | entered: cal.1963-01.soviet-union (b5; Check: the days) |
 | 515 | Mar. 1963, late | Washington tells Moscow the Jupiters are gone; Ryzhov at the sites; the rods destroyed | entered in part (cite at cal.1963-04-25.europe-and-the-alliance-jupiters); the days a lead |
 | 517 | Apr. 10, 1963 | Cousins leaves with Kennedy's message | entered in the note of cal.1963-04-12.testing |
 | 520 | Apr. 20, 1963 | Khrushchev back in Moscow | entered, as above |
 | 521 | Apr. 30, 1963 | Forrestal's memorandum for the record | entered in the cite at cal.1963-04-26.laos |
 | 525 | June 1963 | Khrushchev to his staff: Kennedy's speech the best since Roosevelt | entered in the cite at cal.1963-06-10.testing |
-| 621 n.111 | summer 1963 | Kroll in the Soviet Union; Khrushchev's letter for Adenauer | lead: the days |
-| 529 | spring 1963 | Kozlov's stroke | lead: the day (Sergei Khrushchev, *Khrushchev on Khrushchev*, 30–32) |
+| 621 n.111 | summer 1963 | Kroll in the Soviet Union; Khrushchev's letter for Adenauer | entered: cal.1963-07.berlin-and-vienna (b5; Check: the days) |
+| 529 | spring 1963 | Kozlov's stroke | entered: cal.1963-05.soviet-union (b5; Check: the day) |
 | 529 | 1963 | the reorganization of industry over Mikoyan's objection; the chemical program | lead: the days (Taubman, *Khrushchev*, 613) |
-| 530 | late 1963–early 1964 | Moscow's new approach to Peking; the border disputes reopened | lead: the days |
-| 530 | Jan. 1964 | Khrushchev's message to world leaders on settling boundary disputes peacefully | lead: the day (Dec. 31, 1963, to check) |
+| 530 | late 1963–early 1964 | Moscow's new approach to Peking; the border disputes reopened | not an act (b5): the work's summary of 1963–64; its one dated act, the boundary message, entered (cal.1964-01.china) |
+| 530 | Jan. 1964 | Khrushchev's message to world leaders on settling boundary disputes peacefully | entered: cal.1964-01.china (b5; Check: the day) |
 | 530 | 1963–64 | Moscow's cooling with Hanoi | lead: the days |
 | 532 | 1958 | the school reform | out of the brief (before 1960) |
 | 533 | 1963 | Brezhnev, Podgorny and Shelepin begin to plot | lead: the days |
-| 535 | Oct. 1964, first week | Khrushchev to Pitsunda; Mikoyan invited after Galyukov | lead: the day |
+| 535 | Oct. 1964, first week | Khrushchev to Pitsunda; Mikoyan invited after Galyukov | entered: cal.1964-10.soviet-union-2 (b5; Check: the day) |
 | 539 | Feb. 1964 | Khrushchev to an Italian visitor: memoirs "when they send me away" | minor: private remarks (Brimelow's dispatch, n.31) |
-| 539 | Oct. 1964 | North Vietnam's representative in Paris to a French official: Khrushchev's "lack of interest" | lead: the day (Hohler, Oct. 24, 1964, n.35) |
+| 539 | Oct. 1964 | North Vietnam's representative in Paris to a French official: Khrushchev's "lack of interest" | entered: cal.1964-10.vietnam-hanoi (b5; Check: the day) |
 | 540 | late 1960s | Shelepin's departure; Brezhnev's revival of the formula | out of the brief (after the span) |
 
 ## Passed over (pp. 338–451), the rows the second run did not log
@@ -153,50 +147,50 @@ How made: every sentence of the pages bearing a date (377) set against the secon
 
 | page | date | event | why |
 |---|---|---|---|
-| 338 | Nov.–Dec. 1960 | Menshikov's hints to anyone near Kennedy | lead: the days |
-| 342 | Jan. 1961 | Hillenbrand for the Acheson group: "We can live with the status quo in Berlin" | lead: the day (Coleman, dissertation, cited 593 n.18) |
-| 342 | Nov. 1960–Jan. 1961 | the transition's groups on Soviet relations: exchanges, trade, space | lead: the days |
+| 338 | Nov.–Dec. 1960 | Menshikov's hints to anyone near Kennedy | minor: a repetition (b5): the approaches are entered, Nov. 15, Nov. 21, Dec. 12, 1960, Jan. 5, 1961 |
+| 342 | Jan. 1961 | Hillenbrand for the Acheson group: "We can live with the status quo in Berlin" | entered: cal.1961-01.berlin-and-vienna (b5; Check: the day) |
+| 342 | Nov. 1960–Jan. 1961 | the transition's groups on Soviet relations: exchanges, trade, space | entered: cal.1960-11.transition-and-staff-4 (b5; Check: the days) |
 | 343 | Feb.–Apr. 1961 | the CIA's program, the Chiefs' review, Kennedy's provisional approval | in the calendar (the Bay of Pigs entries): a summary; no cite added |
 | 344 | 1958–61 | the seven-year plan's housing | out of the brief (1958); entered for 1961 (cal.1961-03-25.soviet-union) |
-| 346 | Apr. 13, 1961 | El Encanto burned | lead: to enter (the calendar has no entry) |
+| 346 | Apr. 13, 1961 | El Encanto burned | entered: cal.1961-04-13.cuba-6 (b5) |
 | 347 | Apr. 1961 | Alekseyev allowed to leave Cuba for Brazil | minor: an officer's leave |
-| 348 | Apr. 15–16, 1961 | the explosions; Castro's announcement; the Cuban patrols | in the calendar (cal.1961-04-15.cuba); no cite added: lead |
+| 348 | Apr. 15–16, 1961 | the explosions; Castro's announcement; the Cuban patrols | cited (b5): cal.1961-04-15.cuba, 348 (the explosions, A-B) |
 | 351 | Apr. 1961, late | troops for Laos considered | in the calendar (Laos, Apr.–May 1961); no cite added |
-| 353 | Apr. 1961 | refugees at Marienfelde doubled | lead: a figure without its day |
-| 365 | June 1961, mid | Khrushchev calls for reversing the judicial reforms | lead: the day |
-| 366 | July 1961 | the death penalty widened | lead: the day |
-| 367 | Mar. [May] 1961 | Kennedy hurts his back at Ottawa | lead: the work gives March; the Ottawa visit was May |
+| 353 | Apr. 1961 | refugees at Marienfelde doubled | entered: cal.1961-04.berlin-and-vienna-2 (b5) |
+| 365 | June 1961, mid | Khrushchev calls for reversing the judicial reforms | already in (b5): cal.1961-06-17.soviet-union, the stenogram of June 17 (366 n.92), cited 365–66 |
+| 366 | July 1961 | the death penalty widened | already in (b5): cal.1961-06-17.soviet-union, its last sentence (366), cited |
+| 367 | Mar. [May] 1961 | Kennedy hurts his back at Ottawa | a variant at cal.1961-05-16.transition-and-staff (canvass-c) |
 | 367 | June 1961 | Kennedy back on crutches | minor: private |
-| 368 | July 1961, early | Tsarapkin at Geneva: the talks a waste of time | lead: the day |
-| 374 | May 1961 | the Kremlin receives France's papers to NATO on Berlin | lead: the day (n.40) |
-| 375 | June 1961, late | the Presidium sets the Warsaw Pact's meeting for Aug. 3 | lead: the day |
+| 368 | July 1961, early | Tsarapkin at Geneva: the talks a waste of time | entered: cal.1961-07.testing-2 (b5; Check: the day) |
+| 374 | May 1961 | the Kremlin receives France's papers to NATO on Berlin | entered: cal.1961-05.berlin-and-vienna (b5; the stenogram of May 26, n.39) |
+| 375 | June 1961, late | the Presidium sets the Warsaw Pact's meeting for Aug. 3 | entered: cal.1961-06.soviet-union (b5; Check: the day) |
 | 375 | July 1961, third week | Gromyko's agenda and invitations | a passed-over paper: a meeting's preparation |
-| 387 | Aug. 1961 | Kennan to Schlesinger: "I do not propose to let the future of mankind be settled" | lead: the day (Schlesinger, *A Thousand Days*, cited n.96) |
+| 387 | Aug. 1961 | Kennan to Schlesinger: "I do not propose to let the future of mankind be settled" | entered: cal.1961-08.berlin-and-vienna-2 (b5; Check: the day) |
 | 387 | Aug. 1961 | Schlesinger to a friend: gloomier than since 1939 | minor: private remarks |
-| 388 | Aug. 14, 1961 | State authorizes Kennan to approach his Soviet colleague | lead: to enter, by the record |
-| 388 | July 1961, late | Spaak's roundabout word to Moscow | lead: the day |
-| 394 | Sept. 1961, end | Spaak to the NATO Council: Khrushchev "preferred delayed negotiations to a hasty war" | lead: the day |
-| 394 | July 1961 | Chen Yi in Moscow on Laos | lead: the day |
-| 396 | Sept. 1961 | Alekseyev: an American intervention for late November or early December | lead: the day |
-| 397 | Sept. 1961 | Kennedy decides on one more division for Europe, not six | lead: the day |
+| 388 | Aug. 14, 1961 | State authorizes Kennan to approach his Soviet colleague | entered: cal.1961-08-14.berlin-and-vienna-3 (b5; Rusk to Kennan, in Steininger, behind To check) |
+| 388 | July 1961, late | Spaak's roundabout word to Moscow | entered: cal.1961-07.berlin-and-vienna-2 and cal.1961-07-29.berlin-and-vienna-2 (b5; the Polish report to Firyubin, July 29, n.5) |
+| 394 | Sept. 1961, end | Spaak to the NATO Council: Khrushchev "preferred delayed negotiations to a hasty war" | entered: cal.1961-09.europe-and-the-alliance (b5; Check: the day) |
+| 394 | July 1961 | Chen Yi in Moscow on Laos | entered: cal.1961-07-05.laos (b5; July 5–6 by n.32) |
+| 396 | Sept. 1961 | Alekseyev: an American intervention for late November or early December | entered: cal.1961-11-11.cuba (b5; the cable dated Nov. 11 by n.42, the text's September a Check) |
+| 397 | Sept. 1961 | Kennedy decides on one more division for Europe, not six | cited with a Check (b5): cal.1961-09-18.berlin-and-vienna-2; FRUS 1961–63, XIV, doc. 154 added as its record: two Guard divisions approved, one to Europe only recommended |
 | 400 | Oct. 1961 | the Indonesians decline to back Khrushchev against Albania | minor |
 | 410 | Oct. 30, 1961 | Stalin's body taken from the mausoleum | entered: cal.1961-10-31.soviet-union (the work dates it Oct. 30) |
 | 411 | 1961, end | the East German ambassador in Peking: the Chinese wonder at Khrushchev's caution | minor: private remarks |
-| 411 | Nov. 1961 | Peking scuttles a coalition agreement in Laos | lead: the day |
+| 411 | Nov. 1961 | Peking scuttles a coalition agreement in Laos | entered: cal.1961-11.laos (b5; Check: the day) |
 | 416 | Nov. 1961 | Adenauer in Washington | in the calendar; no cite added |
-| 418 | Jan. 1962, early | Kennedy to Kennan: "the difficulty" | lead: the day |
+| 418 | Jan. 1962, early | Thompson (not Kennedy) to Kennan: "the difficulty" | entered: cal.1962-01-05.berlin-and-vienna (b5; FRUS 1961–63, V, doc. 142) |
 | 421 | Jan. 1962 | an East German protest at the autobahn let slide | minor |
-| 424 | Mar. 1962 | Khrushchev: the broadcasts incompatible with the coming tests | lead: the day |
+| 424 | Mar. 1962 | Khrushchev: the broadcasts incompatible with the coming tests | already in (b5): cal.1962-03.soviet-union, cited 424 |
 | 424 | Mar. 1962, mid | Soviet fighters in the corridors again | minor: a repetition (entered Feb. 7–15) |
-| 427 | Feb. 1962 | Castro to Alekseyev on coexistence and Escalante | lead: the date (the note gives Feb. 6, 1963, 609 n.47) |
-| 427 | Apr. 1962, early | the Kremlin's worry at Escalante's fall | lead: the day |
-| 428 | Apr. 1962 | the KGB tells the Cubans it only gathers intelligence | lead: the day |
-| 429 | Feb. 1962 | Khrushchev told the R-16 no match for Minuteman | lead: the day |
-| 430 | 1962, early | the first R-16s deployed | lead: the days |
+| 427 | Feb. 1962 | Castro to Alekseyev on coexistence and Escalante | entered in cal.1963-02-06.cuba (b5; the same conversation: an edit adds it to c; Check: the work's early 1962) |
+| 427 | Apr. 1962, early | the Kremlin's worry at Escalante's fall | already in (b5): the acts are cal.1962-04-03.cuba and cal.1962-04-11.cuba; cited at Apr. 11, 428, with a Check (*Izvestia*) |
+| 428 | Apr. 1962 | the KGB tells the Cubans it only gathers intelligence | cited with a Check (b5): cal.1962-03.cuba-4 (the work's April) |
+| 429 | Feb. 1962 | Khrushchev told the R-16 no match for Minuteman | entered: cal.1962-02.soviet-union (b5) |
+| 430 | 1962, early | the first R-16s deployed | entered: cal.1962-01.soviet-union (b5; Check: the months) |
 | 433 | May 17, 1962 | Khrushchev's word to Moscow to arrange contact with the Kennedys | entered in part (cal.1962-05-18.soviet-union): lead |
-| 438 | Apr. 1962 | Moscow relents on the SA-2 batteries | lead: the day |
+| 438 | Apr. 1962 | Moscow relents on the Sopka battery (the row's "SA-2" a slip; 438) | cited (b5): cal.1962-04-12.soviet-union, 438 (unit B) |
 | 443 | June 11, 1962 | Souvanna Phouma and Souphanouvong agree on a coalition | in the calendar; no cite added |
-| 444 | July 8, 1962 | Raúl Castro's second talk with Khrushchev | lead: the work says the details are not known |
+| 444 | July 8, 1962 | Raúl Castro's second talk with Khrushchev | entered: cal.1962-07-08.missile-crisis-anadyr, and the first, July 3, cal.1962-07-03.missile-crisis-anadyr (b5; no record found, 444) |
 
 ## The press (for notes/press.md)
 
@@ -221,15 +215,40 @@ The work cites the papers for Peking's and Moscow's public word; no day's covera
 ## Leads (third run; to notes/leads.md)
 
 Foreign:
-- The rows above marked "lead," each with its page and note; chiefly: the Presidium's and Khrushchev's acts the work dates only to a month (the Minister of Agriculture, March 1963; Kozlov's stroke; the plot's beginnings, 1963; the boundary message, Dec. 31, 1963 or Jan. 1964; Khrushchev's Scandinavian and Egyptian days, May–June 1964, entered by month only).
-- Khrushchev's Berlin speech: the day (Jan. 15 or 16, 1963) by the Sixth SED Congress's record; the publication of the December letters (the work's "next day").
+- The rows above still marked "lead," each with its page and note: the acts the work dates only to a year (the reorganization of industry, 1963; the plot's beginnings, 1963; the cooling with Hanoi, 1963–64); Khrushchev's Scandinavian and Egyptian days, May–June 1964, entered by month only.
+- The publication of the December letters (the work's "next day"; cal.1963-01-17.testing). The Berlin speech's day is settled: the CIA's review of Jan. 18 (FRUS 1961–63, V, doc. 280) gives Jan. 16.
 - The Volkogonov Collection, Library of Congress (Malinovsky's, Zakharov's, Ivanov's papers of Sept. 1962): its finding aid, for copies the series could cite.
 - BBC Scotland's interviews of Shumkov and Chebrasov; David Coleman's transcripts of the ExComm of Nov. 14 and 16, 1962 (the work's note: to appear in vol. 4 of the Miller Center's *Presidential Recordings*, 619 n.58).
-- Kroll's summer visit of 1963 and Khrushchev's letter to Adenauer (621 n.111). National:
-- Oct. 24, 1962: McNamara's depth-charge rules and Kennedy's worry, from the morning ExComm's tape (Presidential Recordings, III, 191–97): an entry for a reader of the tapes.
-- Apr. 13, 1961, El Encanto; Aug. 14, 1961, Kennan's authorization (388): to enter from a record.
-- Kennedy's back, Ottawa, May 1961 (the work's "March," 367). The press: a Part III entry for Warren Rogers (*Herald Tribune*, Pentagon pool), named in cal.1962-10-26.soviet-union, and for Thomas J. Hamilton (*New York Times* at the UN), cal.1962-11-15.missile-crisis-2; both treated by this work (486, 502).
+National:
+- Oct. 24, 1962: the morning ExComm is entered from this work (cal.1962-10-24.missile-crisis-excomm); the tape and Presidential Recordings, III, 191–95, stand behind To check, for a reader of the tapes.
+- Rusk to Kennan, Aug. 14, 1961, as Steininger, *Der Mauerbau*, 267–68, reproduces it: not held (the entry is in, cal.1961-08-14.berlin-and-vienna-3).
+- The press: a Part III entry for Warren Rogers (*Herald Tribune*, Pentagon pool), named in cal.1962-10-26.soviet-union, and for Thomas J. Hamilton (*New York Times* at the UN), cal.1962-11-15.missile-crisis-2; both treated by this work (486, 502).
 
 ## What remains unread
 
 Nothing of the book within the span. The archival records behind it stand behind "To check:" (none reachable here).
+
+# The fourth run: the leads sent back (batch 5, Nov. 5–6, 2026)
+
+The owner's ruling of Nov. 5, 2026 (`notes/briefs/batch5.md`): the canvass's rows for this work (`notes/leads-canvass.md`, B 77 counted, C 3, D none) sent back. Patch: `inbox/2026-11-05-b5-fursenko-khrushchevs-cold-war.yaml` (66 ops: 52 entries added, each claimed in the ledger; 6 cites; 5 Checks; 1 primary record; 1 claim-map row; 1 edit, cal.1963-02-06.cuba, base 21e9b19f). Witnesses: `inbox/witnesses/2026-11-05-b5-fursenko-khrushchevs-cold-war.yaml` (18 rows); 41 edges appended to `sources/witnesses/by-work/fursenko-khrushchevs-cold-war.yaml`. `./bib patch-check`: 0 errors of the patch's (one error in another reader's witness file); 34 warnings, each a "one event?" or duplicate flag on a day or month the thread already holds, each pair read: all distinct acts (`./bib resolve ... --take keep` at the merge). Merged in a scratch copy of the tree: `./bib check` 0 errors of this patch's (3 in other readers' witness files); the maps read with `./bib claims show`.
+
+## The copy
+
+The same copy, fetched again from Drive (15i7_Os1UTxm4-EzLRK8JcR0Dp6R_oCXW, the sharing untouched), 696 PDF pages: printed page = PDF page − 6 to p. 318, − 22 from p. 319 and through the notes (held at pp. 253, 338, 418, 545, 605; the running head of PDF 351 OCRs "328" for 329). Text by `pdftotext -layout`; pages 253, 276, 316–17, 388, 394, 418, 427, 497, 505, 513, 529, 539 and notes p. 605 read on their images (80 dpi) as well. The PDF deleted at once, the images after the reading. The Church Committee's report (S. Rep. No. 94-465) on intelligence.senate.gov refused this host (403): it stays behind To check.
+
+## The rows, ruled
+
+The Passed over tables above carry each row's new ruling, marked "(b5)". In sum:
+
+- Entered (52 entries): Russell and the missile gap at Senate Armed Services, Jan. 19, 1960 (the Daily Digest); Gates on Power's estimate (Feb. 1960); Eisenhower's letter to Khrushchev on Lisbon and Nixon, sent Apr. 16, 1960 (FRUS 1958–60, IX, doc. 127 n.2); Macmillan's "great folly" (May 7–9); Herter's "embarrassing to the West" at Paris, May 15, 11 a.m. (FRUS IX, doc. 159; the work sets it at NATO's meetings, its note cites this memorandum); Thompson to Sulzberger; the Belgian–Congolese agreement (Jan. 1960); the CIA's cigar and depilatory schemes (Mar. 1960); Cuban–Soviet relations (May 1960); Lumumba with Kuznetsov and Aroutunian (July 25, July 31, Aug. 1: the work's three days, its mapping a Check); Sept. 16, 1960 at Leopoldville; "I spit on the UN"; the Soviet pilots recalled; Dulles of Sept. 24, 1960; Castro's purge and the block system; the contract killer; Khrushchev's Asian trip (FRUS XV, doc. 159 for Afghanistan, Mar. 2–5); Hillenbrand; the transition's Soviet groups; El Encanto; the refugees of April 1961; Tsarapkin; the French NATO papers in Moscow; the Warsaw Pact meeting set; Kennan to Schlesinger; Rusk to Kennan, Aug. 14, 1961; Spaak's feelers and the Polish report of July 29; Spaak to the NATO Council; Chen Yi with Gromyko, July 5–6, 1961; Alekseyev's cable of Nov. 11, 1961; Peking and the Laos coalition; Thompson to Kennan, Jan. 5, 1962 (FRUS 1961–63, V, doc. 142; the row's "Kennedy" a slip); the R-16 briefing and deployment; Raúl Castro's talks of July 3 and 8, 1962; the morning ExComm of Oct. 24, 1962 (the depth charges, "a blockade" of Berlin); the MiG-21s cancelled; the letter to Nehru; the call to end the polemics (Dec. 1962; the text's 1963 a Check); the farm speeches and the Minister of Agriculture (Mar. 1963); the three addresses on ideology; Kozlov's stroke; Kroll's summer visit; the boundary message (Jan. 1964); Pitsunda (Oct. 1964); Hanoi's man in Paris.
+- Cited under entries in the tree: cal.1961-04-15.cuba (348); cal.1961-09-18.berlin-and-vienna-2 (397, with FRUS XIV, doc. 154 as its record and a Check: the memorandum gives the call-up of two Guard divisions, one division to Europe only as a recommendation); cal.1962-03.cuba-4 (428, Check: the work's April); cal.1962-04-11.cuba (428, Check: *Izvestia*); cal.1962-04-12.soviet-union (438, the Sopka); cal.1962-08-30.missile-crisis-2 (455); cal.1963-02-06.cuba (427: the same conversation, so its `c` takes the words on coexistence and Escalante, by edit, with a Check on the work's early 1962).
+- Checks: cal.1962-11-27.laos (the work's early-November shooting down, announced Nov. 21, 505); cal.1963-01-16.berlin-and-vienna (the CIA's review gives Jan. 16).
+- Already in, nothing to add: the judicial reforms and the death penalty (cal.1961-06-17.soviet-union, cited 365–66); the broadcasts (cal.1962-03.soviet-union, cited 424); Zorin's charge (cal.1960-09-18.congo, cited 317); Castro's treaty proposal (now cited, as above).
+- Passed over: Menshikov's hints (338): minor, a repetition of the approaches entered Nov. 15, Nov. 21, Dec. 12, 1960, Jan. 5, 1961. Moscow's approach to Peking, late 1963–early 1964 (530): not an act; its dated act, the boundary message, entered.
+- Not settled: Brown's and State's views on Souvanna, Aug.–Oct. 1960, and Eisenhower's dominoes (329): no act dated (the work's account rests on Eliades's dissertation and on *Waging Peace*, a memoir of 1965); the debate's dated acts are in the calendar (Aug. 19, Aug. 23, Oct. 8, 1960). A lead for a reader of Eliades.
+- The C rows: Kennedy's back (cal.1961-05-16.transition-and-staff) and the embassies' order (cal.1960-09-14.congo) were settled by the canvass's reader; the Sept. 16 parliament, its B part, is entered.
+
+## The press (for notes/press.md)
+
+- 1960-02-07 | *New York Times* | "The Great Debate over the Adequacy of Our Defense" (Gates on Power's estimate) | 254
+- 1961-09-25 | *New York Times* | Gruson, "Spaak Says Soviet Backs Wide Talks with No Deadline" | 394

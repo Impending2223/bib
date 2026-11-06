@@ -87,6 +87,7 @@ entries:
   - id: cal.1965-05-02.latin-america
     when: May 2
     date: '1965-05-02'
+    time: 1965-05-03T02:00Z
     thread: latin-america-dominican-republic
     c: Report to the nation on the Dominican Republic, after meeting the congressional leaders. The revolt "taken over" by "a band of Communist conspirators." "The American nations cannot, must not, and will not permit the establishment of another Communist government in the Western Hemisphere." Two battalions, 2,000 men, ordered that morning; 4,500 more that evening.
     n: 'Radio and Television Report to the American People on the Situation in the Dominican Republic, [1965 Pub. Papers 469](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=545) (May 2, 1965); Statement by the President Upon Sending Additional Forces to the Dominican Republic, [1965 Pub. Papers 466](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=542) (May 1, 1965). [FRUS 1964–68, XXXII, doc. 51](https://history.state.gov/historicaldocuments/frus1964-68v32/d51); [doc. 52](https://history.state.gov/historicaldocuments/frus1964-68v32/d52). See [[cal.1965-04-28.latin-america]]. Check: Rusk has himself urge, before Johnson''s speech of Apr. 28, a case resting on free institutions; Johnson chose to stress the Communist threat, which Rusk doubted had taken over the rising; Johnson to Bennett on "headless bodies" ([[w.rusk-as-i-saw-it-1990]], 373–74).'
@@ -168,6 +169,8 @@ entries:
   - id: cal.1965-05-03.latin-america-dominican-republic
     when: May 3
     date: '1965-05-03'
+    time: 1965-05-03T05:01Z
+    time_approx: true
     thread: latin-america-dominican-republic
     c: Shortly after midnight May 2–3 three airborne battalions close the cordon through Santo Domingo, without loss, in little over an hour, confining 80 percent of the rebel forces to the city's southeastern corner. With the new units in, May 3–4, twelve maneuver battalions and about 21,000 men ashore.
     n: '[[w.poole-joint-chiefs-of-staff-2012]], 142; [[w.drea-mcnamara-clifford-and-the-2011]], 305 (Palmer''s operation at one minute after midnight; 2,000 more airborne troops and 1,200 Marines arrived that afternoon, 8,000 more on the way). May 6 the Joint Chiefs add F-104s to the F-100s at Ramey, against Cuba''s MiGs (142). See [[cal.1965-05-01.latin-america-dominican-republic]].'
@@ -236,8 +239,10 @@ entries:
     date: '1965-05-04'
     thread: republican-party-congress
     also: [vietnam-congress, vietnam-supplemental]
+    follows:
+      - cal.1965-05-04.vietnam
     c: 'The Senate Republican Policy Committee on the $700 million: "no opposition to the request and all members agreed it was reasonable," Hugh Scott tells the State Department privately.'
-    n: '[[w.gibbons-u-s-government-and]], III, 243. To check: Rusk to Johnson, May 4, 1965, State, Lot File 74 D 164 (cited by [[w.gibbons-u-s-government-and]], III, 243 n.77). See [[cal.1965-05-04.vietnam]]. Names: Scott.'
+    n: '[[w.gibbons-u-s-government-and]], III, 243. On the request: [[cal.1965-05-04.vietnam]]. To check: Rusk to Johnson, May 4, 1965, State, Lot File 74 D 164 (cited by [[w.gibbons-u-s-government-and]], III, 243 n.77). See [[cal.1965-05-04.vietnam]]. Names: Scott.'
     src:
       c: b310d1fd
       rows:
@@ -425,6 +430,7 @@ entries:
   - id: cal.1965-05-06.latin-america
     when: May 6
     date: '1965-05-06'
+    time: 1965-05-06T06:00Z
     thread: latin-america-dominican-republic
     c: 'OAS foreign ministers, after midnight, vote the inter-American force the United States asked: 14–5, Chile, Ecuador, Mexico, Peru, and Uruguay against, Venezuela abstaining. Two-thirds needed. The Act of Santo Domingo, the cease-fire, signed May 5. May 7, Imbert''s Government of National Reconstruction formed against Caamaño''s "Constitutional Government."'
     n: '[FRUS 1964–68, XXXII, doc. 58](https://history.state.gov/historicaldocuments/frus1964-68v32/d58) (its note prints 15–5; a CIA situation report, 14–5: check), [doc. 59](https://history.state.gov/historicaldocuments/frus1964-68v32/d59). See [[cal.1965-04-28.latin-america]]. Names: Imbert-Barrera, Caamaño-Deno.'
@@ -481,11 +487,12 @@ entries:
     date: '1965-05-06'
     thread: vietnam-saigon
     c: The Armed Forces Council dissolves itself, voting confidence in Quát.
-    n: '[[w.macv-command-history-1965]], 479. Names: Phan Huy Quát.'
+    n: '[[w.macv-command-history-1965]], 479; [[w.taylor-swords-and-plowshares]], 343. Names: Phan Huy Quát.'
     src:
       c: bdf61f99
       rows:
         - 'w.macv-command-history-1965 479: all'
+        - 'w.taylor-swords-and-plowshares 343: A'
     tags: [name:phan-huy-quat]
   - id: cal.1965-05-06.voting-rights
     when: May 6
@@ -546,6 +553,7 @@ entries:
   - id: cal.1965-05-07.vietnam
     when: May 7
     date: '1965-05-07'
+    time: 1965-05-07T13:20Z
     thread: vietnam-supplemental
     also: [defense]
     c: 'The $700 million signed, [79 Stat. 109](https://www.govinfo.gov/content/pkg/STATUTE-79/pdf/STATUTE-79-Pg109-2.pdf): "We will not be defeated. We will not grow tired."'
@@ -597,6 +605,7 @@ entries:
   - id: cal.1965-05-07.voting-rights
     when: May 7
     date: '1965-05-07'
+    time: 1965-05-07T18:41Z
     thread: voting-rights
     also: [robert-kennedy]
     c: Johnson by telephone with Hartke, 2:41 p.m., and Katzenbach, 2:50, on Edward Kennedy's amendment to ban the poll tax in all elections. Robert Kennedy warns wavering liberals that he will take their vote as a statement on him, and will not forget it if he is ever in the White House.
@@ -743,6 +752,7 @@ entries:
   - id: cal.1965-05-10.vietnam-mayflower
     when: May 10
     date: '1965-05-10'
+    time: 1965-05-11T00:39Z
     thread: vietnam-mayflower
     c: 'Johnson to Taylor: most of the week''s Rolling Thunder done by Wednesday noon, a pause over Buddha''s birthday, not announced, to be put privately to Moscow and Hanoi; Quát''s concurrence to be sought. "To begin to clear a path either toward restoration of peace or toward increased military action."'
     n: '[FRUS 1964–68, II, doc. 288](https://history.state.gov/historicaldocuments/frus1964-68v02/d288) (Deptel 2553, 8:39 p.m.). [[w.staaveren-gradual-failure]], 133 (the decision of May 10). Bibliography: [[cal.1965-05-12.vietnam]]. Names: Johnson, Taylor, Phan Huy Quát.'
@@ -757,7 +767,7 @@ entries:
     date: '1965-05-10'
     thread: voting-rights
     c: 'Douglas in the Senate: Southerners who "have chided the Court for usurping legislative functions" now say "we should leave this legislative duty to the courts."'
-    n: '[111 Cong. Rec. 10034](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt7/pdf/GPO-CRECB-1965-pt7-9-2.pdf#page=30) (1965) (May 10, 1965). [[w.mann-walls-of-jericho]], 472. See [[cal.1965-04-30.voting-rights]]. Names: Douglas.'
+    n: '[111 Cong. Rec. 10,034](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt7/pdf/GPO-CRECB-1965-pt7-9-2.pdf#page=30) (1965) (May 10, 1965). [[w.mann-walls-of-jericho]], 472. See [[cal.1965-04-30.voting-rights]]. Names: Douglas.'
     src:
       c: 565a12e0
       rows:
@@ -783,7 +793,7 @@ entries:
     date: '1965-05-11'
     thread: voting-rights
     c: 'Senate, on the Mansfield–Dirksen substitute for the voting rights bill: Edward Kennedy''s amendment to ban the poll tax in State and local elections refused, [45–49](https://voteview.com/rollcall/RS0890052). May 19, a declaration that the tax abridges the right to vote, the Attorney General to sue, taken, [69–20](https://voteview.com/rollcall/RS0890060).'
-    n: '[111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt8/pdf/GPO-CRECB-1965-pt8-1-1.pdf) (1965); [May 19, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt8/pdf/GPO-CRECB-1965-pt8-7-2.pdf). [[w.sundquist-politics-and-policy]], 274 (Edward Kennedy''s amendment within four votes; the declaration and the directive to sue); [[w.mann-walls-of-jericho]], 472–73; [[w.zelizer-fierce-urgency-of-now]], 216–17 (49–45); [[w.kotz-judgment-days]], 329 (49 to 45); [[w.bernstein-guns-or-butter]], 239. See [[cal.1965-03-15.voting-rights]]. Names: Kennedy, Mansfield, Dirksen. Check: the page.'
+    n: '[111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt8/pdf/GPO-CRECB-1965-pt8-1-1.pdf) (1965); [May 19, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt8/pdf/GPO-CRECB-1965-pt8-7-2.pdf). [[w.sundquist-politics-and-policy]], 274 (Edward Kennedy''s amendment within four votes; the declaration and the directive to sue); [[w.mann-walls-of-jericho]], 472–73; [[w.zelizer-fierce-urgency-of-now]], 216–17 (49–45); [[w.kotz-judgment-days]], 329 (49 to 45); [[w.bernstein-guns-or-butter]], 239; [[w.kotz-judgment-days]], 318, 329 (Edward Kennedy''s liberals for a ban on State poll taxes by law; Katzenbach for a suit in the courts; the amendment defeated 49 to 45). See [[cal.1965-03-15.voting-rights]]. Names: Kennedy, Mansfield, Dirksen. Check: the page.'
     src:
       c: 0150ce81
       rows:
@@ -796,6 +806,7 @@ entries:
         - 'w.zelizer-fierce-urgency-of-now 216–17: ?'
         - 'w.kotz-judgment-days 329: A'
         - 'w.bernstein-guns-or-butter 239: all'
+        - 'w.kotz-judgment-days 318, 329: A'
     tags: [name:kennedy-edward-m, name:mansfield-mike, name:dirksen-everett]
   - id: cal.1965-05-11.vietnam-operations
     when: May 11
@@ -883,6 +894,7 @@ entries:
   - id: cal.1965-05-12.vietnam
     when: May 12
     date: '1965-05-12'
+    time: 1965-05-12T16:00Z
     thread: vietnam-mayflower
     c: 'The first bombing pause (MAYFLOWER): no attacks on the North from noon, Washington time. Rusk had told Dobrynin, May 11.'
     n: 'FRUS 1964–68, II, doc. [288](https://history.state.gov/historicaldocuments/frus1964-68v02/d288) (May 10, the President to Taylor); docs. [293](https://history.state.gov/historicaldocuments/frus1964-68v02/d293), [294](https://history.state.gov/historicaldocuments/frus1964-68v02/d294) (May 11). [[w.gibbons-u-s-government-and]], III, 254–55 (the pause, May 12, unannounced; not Rusk and Dobrynin); [[w.frankum-like-rolling-thunder]], 27 (the pause, from May 13 by his dating); [[w.drea-mcnamara-clifford-and-the-2011]], 60 (the pause, Mayflower; May 11, the message through the Soviet ambassador); [[w.cosmas-joint-chiefs-of-staff-2012]], 365 (the halt); [[w.staaveren-gradual-failure]], 133–34 (the pause from midnight May 12, Saigon time; Moscow told privately); [[w.rusk-as-i-saw-it-1990]], 465 (the pause); [[w.dobrynin-in-confidence]], 143 ("two days later," Rusk to Dobrynin: the raids halted for a limited probation period). [[w.ball-past-has-another-pattern]], 404 (the Soviets told beforehand; Hanoi refused the message). Check: Dobrynin dates Rusk''s word "two days" after May 8 (143). To check: [[w.herring-secret-diplomacy-of-the]]; [[w.thies-when-governments-collide]]; [[w.search-for-peace-in]]. See [[cal.1965-03-02.vietnam]]. Names: Johnson, Rusk, Dobrynin. Check: Ball (404) gives the pause May 13–18. Check: Rusk gives the pause six days ([[w.rusk-as-i-saw-it-1990]], 465).'
@@ -951,7 +963,7 @@ entries:
     thread: robert-kennedy
     also: [testing-npt]
     c: 'Dutton to Robert Kennedy, by memorandum: "a major, thoughtful talk on nuclear arms control," a "striking, hopeful contrast" to an administration "preoccupied with Southeast Asia." The idea: an initiative on the spread of nuclear weapons.'
-    n: '[[w.shesol-mutual-contempt]], 270; [[w.thomas-robert-kennedy]], 458 (by memorandum; the initiative). To check: Dutton to Robert Kennedy, May 12, 1965, RFK SC/PF, box 3, JFK Library (cited by [[w.shesol-mutual-contempt]], 270); a copy in the Fred Dutton Papers, JFK Library (cited by [[w.thomas-robert-kennedy]], 458). See [[cal.1965-06-23.robert-kennedy]]. Names: Dutton, Robert Kennedy.'
+    n: '[[w.shesol-mutual-contempt]], 270; [[w.thomas-robert-kennedy]], 458 (by memorandum; the initiative). To check: Dutton to Robert Kennedy, May 12, 1965, RFK SC/PF, box 3, JFK Library (cited by [[w.shesol-mutual-contempt]], 270); a copy in the Fred Dutton Papers, JFK Library (cited by [[w.thomas-robert-kennedy]], 458). The speech: [[cal.1965-06-23.robert-kennedy]]. Names: Dutton, Robert Kennedy.'
     src:
       c: 6b1d96d8
       rows:
@@ -994,6 +1006,18 @@ entries:
         - 'w.staaveren-u-s-air-force 73: all'
         - 'via x.1965-05-12.msg-comusmacv-to-cincpac-120152z-may-65: ?'
     tags: [name:westmoreland-william, name:sullivan-william-h, name:sharp-u-s-grant, name:mcnamara-robert-s]
+  - id: cal.1965-05-12.war-opposition
+    when: May 12
+    date: '1965-05-12'
+    thread: war-opposition
+    c: Washington. After morning worship some 800 of the Interreligious Committee on Vietnam walk silently from a church to the Pentagon and stand six hours in single rows at three of its entrances. Nine of the vigil's leaders with McNamara inside, a "vigorous" meeting.
+    n: '[[w.wells-war-within]], 50; [[w.zaroulis-who-spoke-up]], 43 (nearly one thousand; nine with McNamara over an hour; the week before May 15). Names: McNamara.'
+    src:
+      c: bb50d59e
+      rows:
+        - 'w.wells-war-within 50: all'
+        - 'w.zaroulis-who-spoke-up 43: ?'
+    tags: [name:mcnamara-robert-s, city:washington]
   - id: cal.1965-05-13.vietnam-mayflower
     when: May 13
     date: '1965-05-13'
@@ -1010,6 +1034,7 @@ entries:
   - id: cal.1965-05-13.desegregation-schools
     when: May 13
     date: '1965-05-13'
+    time: 1965-05-14T00:35Z
     thread: desegregation-schools
     also: [georgia]
     c: 'Johnson and Carl Sanders by telephone, 8:35 p.m., on the Office of Education''s terms for desegregating the schools. Sanders: the districts in Wallace''s camp are "screaming and hollering revolution and defiance"; moderates can mix the classes in stages but not the teachers: "I couldn''t do that with a shotgun." Johnson: "my heart bleeds for you." May 18, Sanders again: "I''m just asking for mercy."'
@@ -1073,6 +1098,7 @@ entries:
   - id: cal.1965-05-13.vietnam
     when: May 13
     date: '1965-05-13'
+    time: 1965-05-13T15:00Z
     thread: vietnam
     c: 'Johnson to the Association of American Editorial Cartoonists, "The Challenge of Human Need in Viet-Nam": "there is no purely military solution in sight for either side"; ready for unconditional discussions; China''s "target is not merely South Viet-Nam; it is Asia." Nothing of the bombing pause.'
     n: '"Address to Members of the Association of American Editorial Cartoonists: The Challenge of Human Need in Viet-Nam," [1965 Pub. Papers 522](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=598) (May 13, 1965); [[w.staaveren-gradual-failure]], 134 (the address''s silence on the pause). See [[cal.1965-05-12.vietnam]]. Names: Johnson.'
@@ -1217,13 +1243,14 @@ entries:
     date: '1965-05-14'
     thread: students
     c: 'Cooper to McGeorge Bundy, "The Teach-In": the White House has tickets for the teach-in, given to its supporters, many in the government.'
-    n: '[[w.gibbons-u-s-government-and]], III, 271. To check: Cooper to McGeorge Bundy, "The Teach-In," May 14, 1965, NSF Aides Files, McGeorge Bundy Memos to the President, LBJ Library (cited by [[w.gibbons-u-s-government-and]], III, 271 n.142). The teach-in: [[cal.1965-05-15.students]]. Names: Cooper, McGeorge Bundy.'
+    n: '[[w.gibbons-u-s-government-and]], III, 271; [[w.wells-war-within]], 31 (a thousand tickets, a hundred to the Young Democrats). To check: Cooper to McGeorge Bundy, "The Teach-In," May 14, 1965, NSF Aides Files, McGeorge Bundy Memos to the President, LBJ Library (cited by [[w.gibbons-u-s-government-and]], III, 271 n.142). The teach-in: [[cal.1965-05-15.students]]. Names: Cooper, McGeorge Bundy.'
     src:
       c: b0844ddc
       rows:
         - 'w.gibbons-u-s-government-and III, 271: all'
         - 'w.gibbons-u-s-government-and III, 271 n: all'
         - 'via x.1965-05-14.cooper-to-mcgeorge-bundy-the-teach: all'
+        - 'w.wells-war-within 31: A'
     tags: [name:cooper-chester-l, name:bundy-mcgeorge]
   - id: cal.1965-05-14.students-2
     when: May 14
@@ -1244,7 +1271,7 @@ entries:
     thread: students
     also: [vietnam]
     c: The National Teach-In on Vietnam, Sheraton-Park Hotel, Washington, by the Inter-University Committee for Debate on Foreign Policy; carried by telephone to some 100 campuses. Bundy, to have spoken for the administration, sent to the Dominican Republic; his statement read. Check the count.
-    n: '[[w.gibbons-u-s-government-and]], III, 270–72 (the teach-in, some 5,000 there, more than 100 campuses by radio and television; Bundy sent to the Dominican Republic); [[w.branch-at-canaans-edge]], 221–22; [[w.preston-war-council]], 197–98 (Bundy to debate Kahin; withdrawn by Johnson at the last minute; the hisses); [[w.bird-color-of-truth]], 318, 324 (the debate planned for May 15; Bundy sent to Santo Domingo); [[w.bernstein-guns-or-butter]], 381 (fifteen hours, three for the war and three against; to 100 colleges, more than 100,000; Bundy sent on a mission to the Caribbean). To check: [[w.menashe-teach-ins]]; [[w.wells-war-within]]; [[w.debenedetti-american-ordeal]]; [[w.zaroulis-who-spoke-up]]. See [[cal.1964-12-02.states-and-cities]]. Check: Gibbons, III, 270, has it organized by the Inter-University Committee for a Public Hearing on Vietnam. Names: Bundy.'
+    n: '[[w.gibbons-u-s-government-and]], III, 270–72 (the teach-in, some 5,000 there, more than 100 campuses by radio and television; Bundy sent to the Dominican Republic); [[w.branch-at-canaans-edge]], 221–22; [[w.preston-war-council]], 197–98 (Bundy to debate Kahin; withdrawn by Johnson at the last minute; the hisses); [[w.bird-color-of-truth]], 318, 324 (the debate planned for May 15; Bundy sent to Santo Domingo); [[w.bernstein-guns-or-butter]], 381 (fifteen hours, three for the war and three against; to 100 colleges, more than 100,000; Bundy sent on a mission to the Caribbean); [[w.wells-war-within]], 30–32 (planned for May 15–16; Bundy''s conditions; Johnson sends him to the Dominican Republic; his apology read); [[w.zaroulis-who-spoke-up]], 38 (122 campuses by a radio hookup, over 100,000 students; Bundy to the Dominican Republic); [[w.debenedetti-american-ordeal]], 114–15 (by television to a hundred campuses, over 100,000; Bundy sent to the Caribbean). Check: [[w.wells-war-within]], 30, names the Inter-University Committee for a Public Hearing on Vietnam and dates the teach-in May 15–16. Check: Zaroulis and Sullivan, 38, give it to 122 campuses by radio. Check: DeBenedetti, 108, 114, names the sponsor the Inter-University Committee for a Public Hearing on Vietnam, renamed for Debate on Foreign Policy later (428 n.59). To check: [[w.menashe-teach-ins]]. See [[cal.1964-12-02.states-and-cities]]. Check: Gibbons, III, 270, has it organized by the Inter-University Committee for a Public Hearing on Vietnam. Names: Bundy.'
     src:
       c: 4d9ec101
       rows:
@@ -1256,6 +1283,9 @@ entries:
         - 'w.bird-color-of-truth 318, 324: ?'
         - 'via w.bird-color-of-truth 318 n.36: A'
         - 'w.bernstein-guns-or-butter 381: A-C'
+        - 'w.wells-war-within 30–32: A, C-D'
+        - 'w.zaroulis-who-spoke-up 38: B-C'
+        - 'w.debenedetti-american-ordeal 114–15: A-C'
     tags: [name:bundy-mcgeorge]
     short: the National Teach-In
   - id: cal.1965-05-15.latin-america
@@ -1279,8 +1309,10 @@ entries:
     when: May 15
     date: '1965-05-15'
     thread: vietnam-congress
+    follows:
+      - cal.1965-05-15.students
     c: 'Mansfield, for the White House, on the teach-in: the administration will not be "goaded by the voices of an impatient arrogance" into withdrawing from Vietnam or the Dominican Republic; the President "will take them out just as soon as a satisfactory alternative is found."'
-    n: '[[w.gibbons-u-s-government-and]], III, 272. To check: *New York Times*, May 16, 1965 (cited by [[w.gibbons-u-s-government-and]], III, 272 n.145). See [[cal.1965-05-15.students]]. Names: Mansfield.'
+    n: '[[w.gibbons-u-s-government-and]], III, 272. On the teach-in: [[cal.1965-05-15.students]]. To check: [*New York Times*, May 16, 1965](https://timesmachine.nytimes.com/timesmachine/1965/05/16/issue.html) (cited by [[w.gibbons-u-s-government-and]], III, 272 n.145). See [[cal.1965-05-15.students]]. Names: Mansfield.'
     src:
       c: 6ee472bb
       rows:
@@ -1346,6 +1378,18 @@ entries:
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 32: all'
     tags: [name:mcnamara-robert-s]
+  - id: cal.1965-05-15.war-opposition
+    when: May 15
+    date: '1965-05-15'
+    thread: war-opposition
+    c: New York. Pacifists of the Committee for Nonviolent Action sit down on the pavement before the Armed Forces Day parade; nearly thirty taken away by the police.
+    n: '[[w.wells-war-within]], 50; [[w.zaroulis-who-spoke-up]], 55 (two hundred; twenty arrested).'
+    src:
+      c: f0eb7cd8
+      rows:
+        - 'w.wells-war-within 50: all'
+        - 'w.zaroulis-who-spoke-up 55: ?'
+    tags: [state:ny, city:nyc]
   - id: cal.1965-05-16.opinion
     when: May 16
     date: '1965-05-16'
@@ -1368,6 +1412,7 @@ entries:
   - id: cal.1965-05-16.vietnam-mayflower
     when: May 16
     date: '1965-05-16'
+    time: 1965-05-16T22:45Z
     thread: vietnam-mayflower
     c: 'Evening, Johnson with Rusk, Ball, Harriman, McNamara, McGeorge Bundy, Raborn, Helms, Acheson and Fortas: the bombing to resume. "We have stopped in deference to Mansfield and Fulbright, but we don''t want to do it too long else we lose our base of support." McNamara: "Mansfield ought to know Hanoi spit in our face."'
     n: '[FRUS 1964–68, II, doc. 304](https://history.state.gov/historicaldocuments/frus1964-68v02/d304) (Valenti''s notes). [[w.gibbons-u-s-government-and]], III, 256–57; [[w.woods-fulbright]], 369. [[w.mann-grand-delusion]], 439 ("in deference to Mansfield and Fulbright"). Check: FRUS''s notes list the President, Rusk, McNamara, Acheson, Ball, Raborn and Valenti, and lack McNamara''s words; Gibbons, III, 256, adds Harriman, Bundy, Helms and Fortas. See [[cal.1965-05-12.vietnam]]. Names: Johnson, Rusk, Ball, Harriman, McNamara, McGeorge Bundy, Raborn, Helms, Acheson, Fortas, Mansfield, Fulbright.'
@@ -1432,6 +1477,7 @@ entries:
   - id: cal.1965-05-17.japan-and-korea
     when: May 17–18
     date: '1965-05-17'
+    time: 1965-05-17T15:52Z
     thread: korea
     also: [vietnam]
     c: 'Park''s state visit. The joint statement: American forces to stay in Korea; $150 million in development loans; thanks for Korea''s help in Vietnam. Johnson speaks of a Korean division for Vietnam.'
@@ -1444,7 +1490,7 @@ entries:
     thread: war-opposition
     also: [vietnam-congress]
     c: 'Dodd''s Internal Security Subcommittee hears J. Edgar Hoover on the Communist Party and the students: the Free Speech Movement at Berkeley "exploited by a few Communists"; Possony: "the radicalization of American youth is proceeding beyond the wildest expectations of the Communists."'
-    n: '[[w.gibbons-u-s-government-and]], III, 272. To check: *New York Times*, May 18, 1965 (cited by [[w.gibbons-u-s-government-and]], III, 272 n.146). Names: Dodd, Hoover.'
+    n: '[[w.gibbons-u-s-government-and]], III, 272. To check: [*New York Times*, May 18, 1965](https://timesmachine.nytimes.com/timesmachine/1965/05/18/issue.html) (cited by [[w.gibbons-u-s-government-and]], III, 272 n.146). Names: Dodd, Hoover.'
     src:
       c: 6fa585b8
       rows:
@@ -1523,13 +1569,14 @@ entries:
     date: '1965-05-17'
     thread: students
     c: 'Rostow to Rusk on the teach-in: "On a one-shot basis, it defused quite a lot of tension on our flank." No continuing relationship with its leaders, "interested in institutionalizing a status for themselves"; "a minority of no great distinction."'
-    n: '[[w.gibbons-u-s-government-and]], III, 271. To check: Rostow to Rusk, on the teach-in, May 17, 1965, NSF Aides Files, McGeorge Bundy Memos to the President, LBJ Library (cited by [[w.gibbons-u-s-government-and]], III, 271 n.144). See [[cal.1965-05-15.students]]. Names: Rostow, Rusk.'
+    n: '[[w.gibbons-u-s-government-and]], III, 271; [[w.wells-war-within]], 32 ("de-fused quite a lot of tension"; "We should not encourage a regular relation"). To check: Rostow to Rusk, on the teach-in, May 17, 1965, NSF Aides Files, McGeorge Bundy Memos to the President, LBJ Library (cited by [[w.gibbons-u-s-government-and]], III, 271 n.144). See [[cal.1965-05-15.students]]. Names: Rostow, Rusk.'
     src:
       c: da2b3a0d
       rows:
         - 'w.gibbons-u-s-government-and III, 271: all'
         - 'w.gibbons-u-s-government-and III, 271 n: all'
         - 'via x.1965-05-17.rostow-to-rusk-on-the-teach: all'
+        - 'w.wells-war-within 32: A-B'
     tags: [name:rostow-walt-w, name:rusk-dean]
   - id: cal.1965-05-18.jobs-and-wages
     when: May 18
@@ -1548,6 +1595,7 @@ entries:
   - id: cal.1965-05-18.poverty
     when: May 18
     date: '1965-05-18'
+    time: 1965-05-18T16:20Z
     thread: poverty
     c: 'Head Start. In the Rose Garden with Shriver: some 2,000 child development centers to open this summer, for perhaps half a million children; preschool, medical and dental care.'
     n: 'Remarks on Project Head Start, [1965 Pub. Papers 556](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=632) (May 18, 1965); The President''s Statement to the Cabinet on Project Head Start, [1965 Pub. Papers 689](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=163) (June 19, 1965). To check: [[w.gillette-launching-the-war-on]]; [[w.stossel-sarge]]. See [[cal.1964-12-12.poverty]]. Names: Shriver.'
@@ -1588,6 +1636,7 @@ entries:
   - id: cal.1965-05-18.voting-rights
     when: May 18
     date: '1965-05-18'
+    time: 1965-05-18T21:50Z
     thread: voting-rights
     c: 'Albert to Johnson by telephone, 5:50 p.m.: in the Democratic Study Group, the Leadership Conference and the House Judiciary Committee, a strong consensus for the poll tax ban.'
     n: '[[w.zelizer-fierce-urgency-of-now]], 218. To check: the recording, [Conversation with Carl Albert](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-carl-albert-may-18-1965), Conversation WH6505-24-7765 (Miller Center) (cited by [[w.zelizer-fierce-urgency-of-now]], 218 n.116). Names: Albert, Johnson.'
@@ -1636,7 +1685,7 @@ entries:
     date: '1965-05-19'
     thread: voting-rights
     c: Mansfield's third request for a limit on debate of each amendment refused, Ellender objecting; he will move to end debate.
-    n: '[[w.mann-walls-of-jericho]], 473; [[w.bernstein-guns-or-butter]], 240 (May 4, 12, 19). To check: 111 Cong. Rec. 11018–19 (May 19, 1965) (cited by [[w.mann-walls-of-jericho]], 473). See [[cal.1965-05-12.voting-rights-2]]. Names: Mansfield, Ellender.'
+    n: '[[w.mann-walls-of-jericho]], 473; [[w.bernstein-guns-or-butter]], 240 (May 4, 12, 19). To check: 111 Cong. Rec. 11,018–19 (May 19, 1965) (cited by [[w.mann-walls-of-jericho]], 473). See [[cal.1965-05-12.voting-rights-2]]. Names: Mansfield, Ellender.'
     src:
       c: c791f5af
       rows:
@@ -1759,7 +1808,7 @@ entries:
     date: '1965-05-20'
     thread: vietnam-air-war
     c: The Air Force's first strike above the 20th parallel, on the Quang Soui barracks, called off for weather; twenty-four aircraft on Hon Matt Island instead. Four F-105s drop half a million leaflets on Ninh Binh, fifty miles south of Hanoi, the deepest penetration since Feb. 7.
-    n: '[[w.staaveren-gradual-failure]], 137. To check: Hq USAF rpt, Stat Sum of Air Ops, SEA, Vol VI, 14 May–3 Jun 65, pp 3-1 to 3-11, 3-14 to 3-47; New York Times, May 21, 22, and 23, 65 (cited by [[w.staaveren-gradual-failure]], 137 n.16). See [[cal.1965-05-18.vietnam]].'
+    n: '[[w.staaveren-gradual-failure]], 137. To check: Hq USAF rpt, Stat Sum of Air Ops, SEA, Vol VI, 14 May–3 Jun 65, pp 3-1 to 3–11, 3–14 to 3–47; New York Times, May 21, 22, and 23, 65 (cited by [[w.staaveren-gradual-failure]], 137 n.16). See [[cal.1965-05-18.vietnam]].'
     src:
       c: a3b4ba88
       rows:
@@ -1781,18 +1830,31 @@ entries:
         - 'via x.1965-05-20.valenti-to-johnson-may-20-1965: all'
         - 'via x.1965-06-07.cooper-to-valenti-the-american-friends: all'
     tags: [name:johnson-lyndon-b, name:valenti-jack]
+  - id: cal.1965-05-20.vietnam-saigon
+    when: May 20–21
+    date: '1965-05-20'
+    thread: vietnam-saigon
+    c: 'Saigon. A coup attempt against Quát: Lt. Col. Phạm Ngọc Thảo with Catholic and southern extremists. Quát rounds them up.'
+    n: '[[w.taylor-swords-and-plowshares]], 343–44. Names: Phan Huy Quát, Phạm Ngọc Thảo.'
+    src:
+      c: 2f0a06ec
+      rows:
+        - 'w.taylor-swords-and-plowshares 343–44: all'
+    tags: [name:phan-huy-quat, name:pham-ngoc-thao]
   - id: cal.1965-05-21.students
     when: May 21–22
     date: '1965-05-21'
     thread: students
     also: [vietnam]
     c: 'Vietnam Day, Berkeley: some 35 hours of speeches against the war on the campus. The Vietnam Day Committee formed. Check the crowd.'
-    n: '[[w.branch-at-canaans-edge]], 222–24; [[w.bernstein-guns-or-butter]], 381 (over 20,000, May 21–22). Check: [[w.branch-pillar-of-fire]], 611, quotes Moses at "a May rally in Berkeley" ("we travel in different realities"), from Petras, ed., *We Accuse* (1965), 151: whether Vietnam Day. To check: [[w.rorabaugh-berkeley-at-war]]; [[w.wells-war-within]]. See [[cal.1965-05-15.students]]. Check: Branch gives "nearly thirty-four continuous hours" (222) and the *Times*''s headline, "33-Hour Teach-In Attracts 10,000" (224).'
+    n: '[[w.branch-at-canaans-edge]], 222–24; [[w.bernstein-guns-or-butter]], 381 (over 20,000, May 21–22); [[w.wells-war-within]], 24–25 (the 36-hour teach-in at Berkeley, more than thirty thousand, perhaps twelve thousand at once; undated there); [[w.debenedetti-american-ordeal]], 115–16 (more than 20,000 over thirty-six hours, May 21–22; the speakers). Check: [[w.branch-pillar-of-fire]], 611, quotes Moses at "a May rally in Berkeley" ("we travel in different realities"), from Petras, ed., *We Accuse* (1965), 151: whether Vietnam Day. Check: [[w.wells-war-within]], 25, has the Vietnam Day Committee the teach-in''s sponsor. Check: DeBenedetti, 115–16, has the Vietnam Day Committee formed before the teach-in, by Rubin and Smale. To check: [[w.rorabaugh-berkeley-at-war]]. See [[cal.1965-05-15.students]]. Check: Branch gives "nearly thirty-four continuous hours" (222) and the *Times*''s headline, "33-Hour Teach-In Attracts 10,000" (224).'
     src:
       c: b4b0a1bd
       rows:
         - 'w.branch-at-canaans-edge 222–24: A'
         - 'w.bernstein-guns-or-butter 381: A'
+        - 'w.wells-war-within 24–25: A'
+        - 'w.debenedetti-american-ordeal 115–16: ?'
     short: Vietnam Day
   - id: cal.1965-05-21.latin-america
     when: May 21
@@ -1818,7 +1880,7 @@ entries:
     date: '1965-05-21'
     thread: voting-rights
     c: Mansfield files a cloture motion on the voting rights bill, signed by thirty-eight Senators; the vote set for the next week.
-    n: '[111 Cong. Rec. 11188](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt8/pdf/GPO-CRECB-1965-pt8-9-1.pdf#page=1) (1965) (May 21, 1965). [[w.mann-walls-of-jericho]], 473. See [[cal.1965-04-30.voting-rights]]. Names: Mansfield.'
+    n: '[111 Cong. Rec. 11,188](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt8/pdf/GPO-CRECB-1965-pt8-9-1.pdf#page=1) (1965) (May 21, 1965). [[w.mann-walls-of-jericho]], 473. See [[cal.1965-04-30.voting-rights]]. Names: Mansfield.'
     src:
       c: 4896cb3e
       rows:
@@ -1902,7 +1964,7 @@ entries:
     date: '1965-05-22'
     thread: vietnam-air-war
     c: 'Forty F-105s on the Quang Soui barracks, 55 to 60 miles from Hanoi: some twenty of 71 buildings hit; the rest of the area struck the same day, 27 buildings demolished, 48 damaged; the Phu Qui ammunition depot again. VNAF A-1Es scatter some 400,000 leaflets over Ron and Ba Den. VNAF A-1Es and F-105s on the barracks at Phu Le and Vu San, May 21 and 22.'
-    n: '[[w.staaveren-gradual-failure]], 137. To check: Hq USAF rpt, Stat Sum of Air Ops, SEA, Vol VI, 14 May–3 Jun 65, pp 3-1 to 3-11, 3-14 to 3-47; New York Times, May 21, 22, and 23, 65 (cited by [[w.staaveren-gradual-failure]], 137 n.16). See [[cal.1965-05-20.vietnam-air-war]].'
+    n: '[[w.staaveren-gradual-failure]], 137. To check: Hq USAF rpt, Stat Sum of Air Ops, SEA, Vol VI, 14 May–3 Jun 65, pp 3-1 to 3–11, 3–14 to 3–47; New York Times, May 21, 22, and 23, 65 (cited by [[w.staaveren-gradual-failure]], 137 n.16). See [[cal.1965-05-20.vietnam-air-war]].'
     src:
       c: 52ae07e8
       rows:
@@ -1919,6 +1981,19 @@ entries:
       c: 24bf7af7
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 61: all'
+  - id: cal.1965-05-22.desegregation-schools
+    when: May 22
+    date: '1965-05-22'
+    thread: desegregation-schools
+    c: 'Chicago, the Edgewater Beach Hotel. A dinner of 1,100 for Willis. Pucinski: "The children of this city have had a rare experience from his profound wisdom and experience."'
+    n: '[[w.cohen-american-pharaoh]], 328; [[w.anderson-confronting-the-color-line]], 153. To check: Chicago Sun-Times, 29 April, 7 May, 12 May, 23 May 1965 (cited by [[w.anderson-confronting-the-color-line]], 153 n.11). Names: Willis, Pucinski.'
+    src:
+      c: 97bea3c7
+      rows:
+        - 'w.cohen-american-pharaoh 328: all'
+        - 'w.anderson-confronting-the-color-line 153: all'
+        - 'via w.anderson-confronting-the-color-line 153 n.11: all'
+    tags: [state:il, city:chicago, name:willis-benjamin-c, name:pucinski-roman-c]
   - id: cal.1965-05-23.opinion
     when: May 23
     date: '1965-05-23'
@@ -1960,6 +2035,17 @@ entries:
         - 'w.drea-mcnamara-clifford-and-the-2011 310–11: all'
         - 'w.poole-joint-chiefs-of-staff-2012 145: all'
     tags: [name:vance-cyrus, name:palmer-bruce-jr]
+  - id: cal.1965-05-23.program
+    when: May 23?
+    date: '1965-05-23'
+    thread: program
+    c: 'Greenwich, Conn. Rockefeller at Hirshhorn''s estate, two days after the Johnsons'' luncheon for him: he leaves sure of Hirshhorn''s pledge of the collection to the State University at Purchase. A release drafted; then Johnson''s promise of a place on the Mall and $15 million for a museum.'
+    n: '[[w.smith-on-his-own-terms]], 464 (Neuberger''s gift to Purchase instead). Check: the day; the calendar has Hirshhorn''s letter of May 17 giving the collection to the Smithsonian. See [[cal.1965-05-21.program]]. Names: Rockefeller, Johnson.'
+    src:
+      c: f48fdad4
+      rows:
+        - 'w.smith-on-his-own-terms 464: all'
+    tags: [name:rockefeller-nelson, name:johnson-lyndon-b, state:ny]
   - id: cal.1965-05-24.court
     when: May 24
     date: '1965-05-24'
@@ -2006,7 +2092,7 @@ entries:
     date: '1965-05-24'
     thread: transition-and-staff
     c: 'The Senate Commerce Committee hears nominees: Alan S. Boyd, Under Secretary of Commerce for Transportation; Charles S. Murphy, a member of the Civil Aeronautics Board.'
-    n: '[*Boyd, Day, Harllee, McKee, Murphy, and Thomas Nominations: Hearings Before the S. Comm. on Commerce*, 89th Cong. (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg52323), 1 (Boyd), 1 (Murphy). Names: Boyd, Murphy.'
+    n: '*Boyd, Day, Harllee, McKee, Murphy, and Thomas Nominations: Hearings Before the S. Comm. on Commerce*, 89th Cong. (1965) ([online](https://www.govinfo.gov/app/details/CHRG-89shrg52323)), 1 (Boyd), 1 (Murphy). Names: Boyd, Murphy.'
     tags: [name:boyd-alan-s, name:murphy-charles-s]
   - id: cal.1965-05-24.laos
     when: May 24
@@ -2052,7 +2138,12 @@ entries:
     thread: mayors
     also: [elections-1965]
     c: 'Omaha elects Sorensen (R) mayor over Mayor Dworak, indicted during the campaign for bribery: taped asking a developer for $25,000 for not vetoing a rezoning. Dworak acquitted the next spring.'
-    n: '[Wikipedia, "James Dworak"](https://en.wikipedia.org/wiki/James_Dworak) (Check: the day, the vote, and the indictment''s date). See [[cal.1961-05.mayors-omaha]]. Names: Sorensen, Dworak.'
+    n: '[Wikipedia, "James Dworak"](https://en.wikipedia.org/wiki/James_Dworak) (Check: the day, the vote, and the indictment''s date). [[w.peirce-great-plains-states-of]], 217 (the mayor indicted for bribery; Sorensen chosen). See [[cal.1961-05.mayors-omaha]]. Names: Sorensen, Dworak.'
+    src:
+      c: 5263fb81
+      rows:
+        - 'https://en.wikipedia.org/wiki/James_Dworak: all'
+        - 'w.peirce-great-plains-states-of 217: A'
     tags: [state:ne, city:omaha, name:sorensen-a-v, name:dworak-james-j]
   - id: cal.1965-05-25.vietnam
     when: May 25
@@ -2121,7 +2212,7 @@ entries:
     date: '1965-05-25'
     thread: civil-rights-the-executive
     c: 'The Senate Labor and Public Welfare Committee hears nominees: Franklin D. Roosevelt Jr., a member of the Equal Employment Opportunity Commission; Luther Holcomb, a member of the Equal Employment Opportunity Commission. Also before it, the nomination of Samuel C. Jackson, a member of the Equal Employment Opportunity Commission.'
-    n: '[*Nominations: Hearing Before the S. Comm. on Labor and Public Welfare*, 89th Cong. (1965)](https://www.govinfo.gov/app/details/CHRG-89shrg49344), 3 (Roosevelt), 6 (Holcomb). Names: Roosevelt, Jackson, Holcomb.'
+    n: '*Nominations: Hearing Before the S. Comm. on Labor and Public Welfare*, 89th Cong. (1965) ([online](https://www.govinfo.gov/app/details/CHRG-89shrg49344)), 3 (Roosevelt), 6 (Holcomb). Names: Roosevelt, Jackson, Holcomb.'
     tags: [name:holcomb-luther, name:jackson-samuel-c, name:roosevelt-franklin-d-jr]
   - id: cal.1965-05-25.vietnam-air-war
     when: May 25
@@ -2207,23 +2298,38 @@ entries:
     date: '1965-05-26'
     thread: vietnam-force-levels
     c: The advance party of the Australian battalion arrives in South Vietnam; the rest, with a logistic support company, by June 11.
-    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 328. Check: the calendar has the advance party June 2 ([[cal.1965-06-02.vietnam-force-levels]]). To check: MACV Command History, 1965, pp. 71, 359-361 (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 328 n.26).'
+    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 328. Check: the calendar has the advance party June 2 ([[cal.1965-06-02.vietnam-force-levels]]). To check: MACV Command History, 1965, pp. 71, 359–361 (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 328 n.26).'
     src:
       c: 0dd25c4e
       rows:
         - 'w.cosmas-joint-chiefs-of-staff-2012 328: all'
         - 'via w.cosmas-joint-chiefs-of-staff-2012 328 n.26: all'
+  - id: cal.1965-05-26.vietnam-diplomacy
+    when: May 26
+    date: '1965-05-26'
+    thread: vietnam-diplomacy
+    c: 'Saigon. Taylor and the embassy with Quát, Foreign Minister Trần Văn Đỗ and Bùi Diễm on negotiations: unification not a goal for now; fair dealing with returning Viet Cong; not the Geneva Accords as the basis, no role for the National Liberation Front; the bombing the most valuable counter, its halt verifiable, Hanoi''s return not.'
+    n: '[[w.taylor-swords-and-plowshares]], 353–54. Names: Taylor, Phan Huy Quát, Trần Văn Đỗ, Bùi Diễm.'
+    src:
+      c: f9421d48
+      rows:
+        - 'w.taylor-swords-and-plowshares 353–54: all'
+    tags: [name:taylor-maxwell, name:phan-huy-quat, name:tran-van-do, name:bui-diem]
   - id: cal.1965-05-27.desegregation-schools
     when: May 27
     date: '1965-05-27'
     thread: desegregation-schools
     also: [states-and-cities]
     c: Chicago. The Board of Education, three of Daley's appointees changing their votes, extends Benjamin Willis's contract as superintendent. The NAACP's leaders call that night for a five-day boycott of the schools.
-    n: '[[w.branch-at-canaans-edge]], 240. To check: [[w.anderson-confronting-the-color-line]], 153–54 (cited by [[w.branch-at-canaans-edge]], 240). Check: the length of the extension; Branch gives four years. Names: Daley, Willis.'
+    n: '[[w.branch-at-canaans-edge]], 240; [[w.ralph-northern-protest]], 25 (the contract renewed; the NAACP''s boycott); [[w.anderson-confronting-the-color-line]], 153; [[w.cohen-american-pharaoh]], 327–28 (the three votes, Wild, Adams and Malis). Check: the length of the extension; Branch gives four years. Check: Anderson: the full four-year term, Willis to retire by December 1966; the NAACP''s executive committee votes a week of protest from June 6, a boycott among it, which the press reads as a week-long boycott (153). To check: Chicago Sun-Times, 28 May 1965 (cited by [[w.anderson-confronting-the-color-line]], 153 n.12). Names: Daley, Willis.'
     src:
       c: ae633765
       rows:
         - 'w.branch-at-canaans-edge 240: all'
+        - 'w.ralph-northern-protest 25: ?'
+        - 'w.anderson-confronting-the-color-line 153: A-B'
+        - 'via w.anderson-confronting-the-color-line 153 n.12: A-B'
+        - 'w.cohen-american-pharaoh 327–28: A-B'
     tags: [name:daley-richard-j, name:willis-benjamin-c, state:il, city:chicago]
   - id: cal.1965-05-27.robert-kennedy
     when: May 27
@@ -2295,12 +2401,25 @@ entries:
         - 'w.drea-mcnamara-clifford-and-the-2011 33: A'
     tags: [province:quang-ngai]
     short: Ba Gia
+  - id: cal.1965-05-29.desegregation-schools
+    when: May 29
+    date: '1965-05-29'
+    thread: desegregation-schools
+    also: [civil-rights-organizations]
+    c: 'Chicago. The NAACP branch''s executive committee having voted a week of protest from June 6, a boycott among it, the Coordinating Council resolves on a boycott June 10–11 and a "nationally led" march June 10, "sponsored by NAACP with CCCO support"; Raby and Sidney C. Finley, of the NAACP, cochairmen. Bevel of SCLC: the coalition lacks the resources and the resolve.'
+    n: '[[w.anderson-confronting-the-color-line]], 153–54. To check: Chicago Sun-Times, 28 May 1965 (cited by [[w.anderson-confronting-the-color-line]], 153 n.12). See [[cal.1965-05-27.desegregation-schools]]. Names: Raby.'
+    src:
+      c: c25fb4e3
+      rows:
+        - 'w.anderson-confronting-the-color-line 153–54: all'
+        - 'via w.anderson-confronting-the-color-line 153 n.12: all'
+    tags: [name:raby-albert, state:il, city:chicago]
   - id: cal.1965-05-30.vietnam-air-war
     when: May 30–June 1
     date: '1965-05-30'
     thread: vietnam-air-war
     c: The Hoai An ammunition depot struck May 30, 31 and June 1, the 45th Tactical Fighter Squadron's F-4Cs in a strike role over the North for the first time with F-105s; in separate strikes the same days, F-105s again on the Thanh Hoa bridge, its spans left standing, traffic halted for a time.
-    n: '[[w.staaveren-gradual-failure]], 117, 138. To check: Hist, CINCPAC, 1965, Vol II, p 285; Analysis of Air Ops, 6–12 Apr 65, Vol II, p 3-6, 14 May–3 Jun 65, Vol VI, p 3-55; hist, 8th TFW, Jul–Dec 65, pp 5 and 11 (cited by [[w.staaveren-gradual-failure]], 117 n.43); Hq USAF rpt, Stat Sum Or Air Ops, SEA, Vol VI, 14 May–3 Jun 65, pp 310 to 3-13, 3-49 to 3-74 (cited by [[w.staaveren-gradual-failure]], 138 n.18). See [[cal.1965-05-07.vietnam-air-war]].'
+    n: '[[w.staaveren-gradual-failure]], 117, 138. To check: Hist, CINCPAC, 1965, Vol II, p 285; Analysis of Air Ops, 6–12 Apr 65, Vol II, p 3–6, 14 May–3 Jun 65, Vol VI, p 3–55; hist, 8th TFW, Jul–Dec 65, pp 5 and 11 (cited by [[w.staaveren-gradual-failure]], 117 n.43); Hq USAF rpt, Stat Sum Or Air Ops, SEA, Vol VI, 14 May–3 Jun 65, pp 310 to 3–13, 3–49 to 3–74 (cited by [[w.staaveren-gradual-failure]], 138 n.18). See [[cal.1965-05-07.vietnam-air-war]].'
     src:
       c: 2a74a1a2
       rows:
@@ -2450,5 +2569,103 @@ entries:
     src:
       c: 6bc7eb87
       rows:
-        - 'w.bernstein-guns-or-butter 390: all'
+        - 'w.bernstein-guns-or-butter 390: A'
     tags: [name:wirtz-w-willard, name:johnson-lyndon-b]
+  - id: cal.1965-05.civil-rights-organizations
+    when: May, late
+    date: 1965-05
+    thread: civil-rights-organizations
+    also: [king]
+    c: 'Warrenton, Va. King and his advisers on going North. Some against: much left in the South, the North unreceptive, the money from Northern givers at risk. King for it: "this is where our mission is, we have received a calling to come north" (by Norman Hill''s account).'
+    n: '[[w.ralph-northern-protest]], 33. Check: the day. Names: King.'
+    tags: [name:king-martin-luther-jr]
+  - id: cal.1965-05.students
+    when: May
+    date: 1965-05
+    thread: students
+    also: [vietnam-support]
+    c: State's "truth team," led by Thomas F. Conlon of AID, three weeks on Midwestern campuses to answer the teach-ins; hissed and booed; back to Washington.
+    n: '[[w.zaroulis-who-spoke-up]], 37–38; [[w.debenedetti-american-ordeal]], 109 (a team sent to Midwestern universities in May; dropped). Check: the days. See [[cal.1965-03-24.students]].'
+    src:
+      c: 84cc23b4
+      rows:
+        - 'w.zaroulis-who-spoke-up 37–38: all'
+        - 'w.debenedetti-american-ordeal 109: ?'
+  - id: cal.1965-05.press-and-broadcasting
+    when: May
+    date: 1965-05
+    thread: press-and-broadcasting
+    also: [desegregation-schools]
+    c: 'The *Chicago Sun-Times*, a banner headline: "Board Refuses Willis Contract," on word of a vote in secret session.'
+    n: '[[w.cohen-american-pharaoh]], 327. Check: the day; Cohen and Taylor: mid-May. Names: Willis.'
+    src:
+      c: 7449bccd
+      rows:
+        - 'w.cohen-american-pharaoh 327: all'
+    tags: [state:il, city:chicago, name:willis-benjamin-c]
+  - id: cal.1965-05.war-opposition
+    when: May
+    date: 1965-05
+    thread: war-opposition
+    c: The Interreligious Committee on Vietnam's delegation, sixty Christian and Jewish clergy, in Washington for peace. A week later 550 clergymen lobby Congress for a negotiated settlement.
+    n: '[[w.debenedetti-american-ordeal]], 114. Check: the days.'
+    src:
+      c: 11a7006b
+      rows:
+        - 'w.debenedetti-american-ordeal 114: all'
+  - id: cal.1965-05.war-opposition-2
+    when: May
+    date: 1965-05
+    thread: war-opposition
+    c: Mumford, president of the American Academy of Arts and Letters, denounces the policy in Vietnam at the Academy's annual meeting.
+    n: '[[w.debenedetti-american-ordeal]], 113. Check: the day.'
+    src:
+      c: 98eb65fe
+      rows:
+        - 'w.debenedetti-american-ordeal 113: all'
+  - id: cal.1965-05.republican-party-congress
+    when: May
+    date: 1965-05
+    thread: republican-party-congress
+    also: [voting-rights]
+    c: Hickenlooper, chairman of the Senate Republican Policy Committee, out to brake Dirksen's acting alone as in 1964, holds back on the voting rights bill; he relents.
+    n: '[[w.kotz-judgment-days]], 329. Check: the days; Kotz: during the Senate''s debate, before the cloture vote of May 25. Names: Hickenlooper, Dirksen.'
+    src:
+      c: 28c3254e
+      rows:
+        - 'w.kotz-judgment-days 329: all'
+    tags: [name:hickenlooper-bourke-b, name:dirksen-everett]
+  - id: cal.1965-05.immigration-2
+    when: May
+    date: 1965-05
+    thread: immigration
+    c: 'Rusk to Valenti, on Feighan''s worldwide ceiling: he "absolutely could not live with a numerical ceiling on the Western Hemisphere"; it would "vex and dumbfound our Latin American friends." Johnson would take the ceiling only with Rusk''s approval.'
+    n: '[[w.bernstein-guns-or-butter]], 256. Check: the day. See [[cal.1965-05.immigration]]. Names: Rusk, Valenti, Feighan, Johnson.'
+    src:
+      c: cb07cbb3
+      rows:
+        - 'w.bernstein-guns-or-butter 256: all'
+    tags: [name:rusk-dean, name:valenti-jack, name:feighan-michael-a, name:johnson-lyndon-b]
+  - id: cal.1965-05.immigration-3
+    when: May
+    date: 1965-05
+    thread: immigration
+    c: The administration offers Feighan a worldwide maximum of 350,000 a year, 25,000 above his ceiling.
+    n: '[[w.bernstein-guns-or-butter]], 256. Check: the day. See [[cal.1965-05.immigration]]. Names: Feighan.'
+    src:
+      c: 38c2fe67
+      rows:
+        - 'w.bernstein-guns-or-butter 256: all'
+    tags: [name:feighan-michael-a]
+  - id: cal.1965-05.conservation
+    when: May, late
+    date: 1965-05
+    thread: conservation
+    also: [transportation]
+    c: 'Albany, N.Y. The Legislature takes up bills authorizing, loosely, the Hudson River Expressway, six lanes, 47 miles, and a 3.5-mile connector, "the Rockefeller Spur," through Sleepy Hollow. Rockefeller: a boon to tourism.'
+    n: '[[w.smith-on-his-own-terms]], 470. To check: Rodgers, *Rockefeller''s Follies* (1966), 162–92 (cited by [[w.smith-on-his-own-terms]], 470). Check: the days; the bills'' fate. Names: Rockefeller.'
+    src:
+      c: 639bd776
+      rows:
+        - 'w.smith-on-his-own-terms 470: all'
+    tags: [name:rockefeller-nelson, state:ny]

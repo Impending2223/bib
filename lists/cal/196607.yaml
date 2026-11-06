@@ -79,6 +79,7 @@ entries:
   - id: cal.1966-07-01.king
     when: July 1
     date: '1966-07-01'
+    time: 1966-07-01T04:20Z
     thread: king
     also: [black-nationalism]
     c: '12:20 a.m., King and Levison by telephone, the FBI''s wiretap. Levison of SNCC and CORE: "They''re just going to die of attrition, and as they die they''re going to be noisier and more militant." No publisher''s interest in King''s case for nonviolence.'
@@ -107,8 +108,10 @@ entries:
     when: July 1
     date: '1966-07-01'
     thread: vietnam-congress-foreign-relations
+    follows:
+      - cal.1966-07-01.vietnam-congress
     c: 'Fulbright in the Senate against the strikes on Hanoi and Haiphong of June 29–30: a long step toward "ultimate war."'
-    n: '[[w.woods-j-william-fulbright-vietnam]], 134; [[w.woods-fulbright]], 427. To check: "Fulbright Fears New Raids Step to ''Ultimate War,''" *Arkansas Gazette*, July 1, 1966 (cited by [[w.woods-j-william-fulbright-vietnam]], 134 n.34). See [[cal.1966-07-01.vietnam-congress]]. Names: Fulbright.'
+    n: '[[w.woods-j-william-fulbright-vietnam]], 134; [[w.woods-fulbright]], 427. After Marcy''s memorandum urging the speech, by Gibbons''s account. To check: "Fulbright Fears New Raids Step to ''Ultimate War,''" *Arkansas Gazette*, July 1, 1966 (cited by [[w.woods-j-william-fulbright-vietnam]], 134 n.34). See [[cal.1966-07-01.vietnam-congress]]. Names: Fulbright.'
     src:
       c: bbe29709
       rows:
@@ -200,13 +203,23 @@ entries:
       rows:
         - 'w.gibbons-u-s-government-and IV, 384 n: all'
     tags: [name:kissinger-henry-a, name:habib-philip-c, name:lodge-henry-cabot]
+  - id: cal.1966-07-01.conservation
+    when: July 1
+    date: '1966-07-01'
+    thread: conservation
+    c: Commerce proposes regulations under the Highway Beautification Act; refused by Congress.
+    n: '[[w.bernstein-guns-or-butter]], 303. Check: the Federal Register. See [[cal.1965-10-22.conservation]].'
+    src:
+      c: 8f16dbd4
+      rows:
+        - 'w.bernstein-guns-or-butter 303: all'
   - id: cal.1966-07-02.defense
     when: July 2
     date: '1966-07-02'
     thread: defense
     also: [vietnam]
     c: 'Executive order: a National Advisory Commission on Selective Service, twenty members, Burke Marshall chairman; McCone, Shoup, and Reedy among them. Classification, deferments, exemptions, the local boards, and "other systems of national service" to be studied; the report by about Jan. 1, 1967.'
-    n: '[Executive Order 11289—National Advisory Commission on Selective Service](https://www.presidency.ucsb.edu/documents/executive-order-11289-national-advisory-commission-selective-service) (July 2, 1966); Statement by the President Upon Establishing a Commission To Study the Draft and Other Systems of National Service, [1966 Pub. Papers 698](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=72) (July 2, 1966). [[w.drea-mcnamara-clifford-and-the-2011]], 272 (the commission created July 2); [[w.drea-mcnamara-clifford-and-the-2011]], 272 (the commission created July 2; its report of February 1967). To check: [[w.flynn-draft-1940-1973]]; [[w.baskir-chance-and-circumstance]]. Names: Marshall, McCone, Reedy, Shoup.'
+    n: '[Executive Order 11289—National Advisory Commission on Selective Service](https://www.presidency.ucsb.edu/documents/executive-order-11289-national-advisory-commission-selective-service) (July 2, 1966); Statement by the President Upon Establishing a Commission To Study the Draft and Other Systems of National Service, [1966 Pub. Papers 698](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=72) (July 2, 1966). [[w.drea-mcnamara-clifford-and-the-2011]], 272 (the commission created July 2); [[w.drea-mcnamara-clifford-and-the-2011]], 272 (the commission created July 2; its report of February 1967); [[w.wofford-of-kennedys-and-kings]], 315. To check: [[w.flynn-draft-1940-1973]]; [[w.baskir-chance-and-circumstance]]. Names: Marshall, McCone, Reedy, Shoup.'
     src:
       c: 904e78c0
       rows:
@@ -215,6 +228,7 @@ entries:
         - 'w.drea-mcnamara-clifford-and-the-2011 272: A'
         - 'via w.drea-mcnamara-clifford-and-the-2011 272 n.38c: A'
         - 'w.drea-mcnamara-clifford-and-the-2011 272: ?'
+        - 'w.wofford-of-kennedys-and-kings 315: A, C'
     tags: [name:johnson-lyndon-b, name:marshall-burke, name:mccone-john-a, name:shoup-david-m, name:reedy-george-e]
     short: the Marshall commission
   - id: cal.1966-07-02.states-and-cities-omaha
@@ -222,7 +236,12 @@ entries:
     date: '1966-07-02'
     thread: states-and-cities
     c: Omaha. Negro youths at the Safeway and Skaggs lot at 24th and Lake, the night of July 2; rocks at a police car, windows broken and fires on North 24th Street through the holiday weekend; a boy of fifteen shot in the leg by police. July 5, after 12:30 a.m., the police ask for the Guard; Mayor Sorensen keeps police and 128 Guardsmen on alert until Thursday. He meets a hundred young men at the North Side YMCA.
-    n: '[[w.howard-then-the-burnings-began]], 82–85. Names: Sorensen.'
+    n: '[[w.howard-then-the-burnings-began]], 82–85; [[w.peirce-great-plains-states-of]], 217 (the riots, three days). Names: Sorensen.'
+    src:
+      c: c5af2256
+      rows:
+        - 'w.howard-then-the-burnings-began 82–85: all'
+        - 'w.peirce-great-plains-states-of 217: A-D'
     tags: [state:ne, city:omaha, name:sorensen-a-v]
     short: Omaha
   - id: cal.1966-07-02.europe-and-the-alliance
@@ -307,12 +326,18 @@ entries:
     thread: jobs-and-wages-farm-workers
     also: [states-and-cities]
     c: Texas farm workers' march. Melon pickers on strike in Starr County since June 1, for $1.25 an hour, set out from Rio Grande City, Tex., for Austin.
-    n: 'Richard Bailey, ["Starr County Strike,"](https://www.tshaonline.org/handbook/entries/starr-county-strike) *Handbook of Texas Online*. To check: [[w.krochmal-blue-texas]]; [[w.montejano-anglos-and-mexicans-in]]; [[w.behnken-fighting-their-own-battles]]. See [[cal.1966-05-26.jobs-and-wages]].'
+    n: 'Richard Bailey, ["Starr County Strike,"](https://www.tshaonline.org/handbook/entries/starr-county-strike) *Handbook of Texas Online*. [[w.peirce-great-plains-states-of]], 365–66 (the strike in Starr County; the march out of Rio Grande City, July 4). To check: [[w.krochmal-blue-texas]]; [[w.montejano-anglos-and-mexicans-in]]; [[w.behnken-fighting-their-own-battles]]. See [[cal.1966-05-26.jobs-and-wages]].'
+    src:
+      c: 54d58c66
+      rows:
+        - 'https://www.tshaonline.org/handbook/entries/starr-county-strike: all'
+        - 'w.peirce-great-plains-states-of 365–66: A-B'
     tags: [state:tx]
     short: the Texas melon strike
   - id: cal.1966-07-04.europe-and-the-alliance
     when: July 4
     date: '1966-07-04'
+    time: 1966-07-04T13:18Z
     thread: europe-and-the-alliance
     c: 'Bruce, London 53, after seeing Wilson: he "would and could avoid any embarrassment to the President"; "He is a politician, and, as such, highly sensitive to other statesmen''s concerns"; asked of his "disassociation," he will point to Hansard. He would like to come July 29.'
     n: '[FRUS 1964–68, XII, doc. 261](https://history.state.gov/historicaldocuments/frus1964-68v12/d261). [[w.gibbons-u-s-government-and]], IV, 371. Made public: FRUS 1964–68, XII (2001). See [[cal.1966-07-03.europe-and-the-alliance]]. Names: Bruce, Wilson.'
@@ -349,6 +374,16 @@ entries:
         - 'w.shesol-mutual-contempt 302: all'
         - 'via x.1966-07-04.nation-the-kennedy-safari: all'
     tags: [name:kennedy-robert-f]
+  - id: cal.1966-07-04.war-opposition
+    when: July 4
+    date: '1966-07-04'
+    thread: war-opposition
+    c: Philadelphia, Independence Hall. Five hundred pacifists hail draft resisters and tax refusers as "contemporary American revolutionaries."
+    n: '[[w.debenedetti-american-ordeal]], 157.'
+    src:
+      c: e93c690d
+      rows:
+        - 'w.debenedetti-american-ordeal 157: all'
   - id: cal.1966-07-05.succession-us
     when: July 5
     date: '1966-07-05'
@@ -392,6 +427,7 @@ entries:
   - id: cal.1966-07-05.civil-rights-organizations-2
     when: July 5
     date: '1966-07-05'
+    time: 1966-07-05T21:48Z
     thread: civil-rights-organizations
     also: [black-nationalism]
     c: 'Johnson to Whitney Young by telephone, 3:48 p.m.: he is "not for black power or white power"; "I am for American power and democracy with a small d, the fellow armed with the right to vote or armed with a job."'
@@ -468,7 +504,7 @@ entries:
     date: '1966-07-06'
     thread: laos
     c: The first MSQ-77-directed strike in Laos, by Air Force aircraft; by Aug. 18, 350 ordnance-dropping Skyspot sorties in Cricket and other Steel Tiger areas.
-    n: '[[w.staaveren-u-s-air-force]], 178. To check: Maj Richard A. Durkee, Combat Skyspot (Project CHECO, Hickam AFB, Hawaii, 1967), p 6; msgs, AmEmb Vientiane to COMUSMACV, 3000530Z Jun 66, COMUSMACV to CINCPAC, 300131Z Jun 66, CINCPAC to CINCPACAF, 230008Z Aug 66; PACAF Commanders’ Conference Summary, Dec 66, pp 71-72 (cited by [[w.staaveren-u-s-air-force]], 178 n.82). See [[cal.1966-06-03.laos]].'
+    n: '[[w.staaveren-u-s-air-force]], 178. To check: Maj Richard A. Durkee, Combat Skyspot (Project CHECO, Hickam AFB, Hawaii, 1967), p 6; msgs, AmEmb Vientiane to COMUSMACV, 3000530Z Jun 66, COMUSMACV to CINCPAC, 300131Z Jun 66, CINCPAC to CINCPACAF, 230008Z Aug 66; PACAF Commanders'' Conference Summary, Dec 66, pp 71–72 (cited by [[w.staaveren-u-s-air-force]], 178 n.82). See [[cal.1966-06-03.laos]].'
     src:
       c: 5520468f
       rows:
@@ -487,6 +523,17 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d100: all'
     tags: [name:bator-francis-m, name:johnson-lyndon-b, name:wilson-harold]
+  - id: cal.1966-07-06.cities-and-housing-2
+    when: July 6
+    date: '1966-07-06'
+    thread: cities-and-housing
+    c: 'Chicago. The City Council votes down the Housing Authority''s ten-story building in Woodlawn. Brazier against it; Mrs. Tarlease Bell: "high-rise housing is a monument to segregation."'
+    n: '[[w.cohen-american-pharaoh]], 396.'
+    src:
+      c: 9af27acf
+      rows:
+        - 'w.cohen-american-pharaoh 396: all'
+    tags: [state:il, city:chicago]
   - id: cal.1966-07-07.vietnam-us
     when: July 7
     date: '1966-07-07'
@@ -501,6 +548,17 @@ entries:
         - 'w.hess-republican-establishment 387: F-G'
         - 'w.kabaservice-rule-and-ruin 186: E-G'
     tags: [name:humphrey-hubert-h, name:sawyer-grant, name:hughes-richard-j, name:hatfield-mark-o, name:romney-george-w]
+  - id: cal.1966-07-07.draft
+    when: July 7
+    date: '1966-07-07'
+    thread: draft
+    also: [war-opposition]
+    c: The Fort Hood Three, on leave, taken by federal agents to the stockade at Fort Dix, N.J.
+    n: '[[w.zaroulis-who-spoke-up]], 87. Check: the day; a week after June 30, by Zaroulis and Sullivan, 87. See [[cal.1966-06-30.draft]].'
+    src:
+      c: 81ce9f7e
+      rows:
+        - 'w.zaroulis-who-spoke-up 87: all'
   - id: cal.1966-07-08.jobs-and-wages
     when: July 8
     date: '1966-07-08'
@@ -597,7 +655,7 @@ entries:
     date: '1966-07-09'
     thread: vietnam-air-war
     c: 'Rolling Thunder 51, from the Chiefs the day after Honolulu: dispersed oil sites in the Hanoi-Haiphong sanctuary, with notice; armed reconnaissance of seven rail segments between Hanoi and China and Hanoi and Vinh; five bridges. Monthly armed reconnaissance sorties for the North and Laos from 8,100 to 10,100.'
-    n: '[[w.staaveren-gradual-failure]], 297. To check: Hist, CINCPAC, 1966, pp 500–01; Sum of Air Ops, SEA, 1966, Vol XXIV, pp 1-4 and 1-8 (cited by [[w.staaveren-gradual-failure]], 297 n.47). See [[cal.1966-07-08.vietnam]]. Names: McNamara.'
+    n: '[[w.staaveren-gradual-failure]], 297. To check: Hist, CINCPAC, 1966, pp 500–01; Sum of Air Ops, SEA, 1966, Vol XXIV, pp 1–4 and 1–8 (cited by [[w.staaveren-gradual-failure]], 297 n.47). See [[cal.1966-07-08.vietnam]]. Names: McNamara.'
     src:
       c: 370b32b4
       rows:
@@ -605,13 +663,25 @@ entries:
         - 'via x.1966.hist-cincpac-1966-pp-500-01: ?'
         - 'via x.1966.sum-of-air-ops-sea-1966-vol: ?'
     tags: [name:mcnamara-robert-s]
+  - id: cal.1966-07-09.cities-and-housing
+    when: July 9
+    date: '1966-07-09'
+    thread: cities-and-housing
+    also: [open-housing]
+    c: 'Chicago, the day before the rally. Daley: 9,226 buildings, 102,847 units, brought into compliance in eighteen months; 151 buildings in receivership; 140,000 rat holes closed, "the most massive and comprehensive rodent eradication program ever undertaken in this country."'
+    n: '[[w.cohen-american-pharaoh]], 383–84. Names: Daley.'
+    src:
+      c: bfe318c6
+      rows:
+        - 'w.cohen-american-pharaoh 383–84: all'
+    tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1966-07-10.open-housing
     when: July 10–11
     date: '1966-07-10'
     thread: open-housing
     also: [king, states-and-cities]
     c: 'Chicago. "Freedom Sunday": King at Soldier Field, some 35,000 by UPI''s count (Check), then a march to City Hall, where he tapes the Chicago Freedom Movement''s demands to the door: listings and mortgages without regard to race; a citizens'' board for complaints against the police; low-cost housing scattered over the city; and more. July 11, King and Raby with Daley at City Hall; no agreement.'
-    n: '[Demands of the Chicago Freedom Movement](https://www.crmvet.org/docs/66chi.htm) (July 10, 1966); King, [Address at rally at Soldier Field](https://okra.stanford.edu/link/document660710-000) (King Papers Project). [[w.garrow-bearing-the-cross]], 490–93; [[w.branch-at-canaans-edge]], 501–2 (98 degrees; five thousand walk the three miles; fourteen demands taped to City Hall''s door; Daley''s July 9 figures, 102,847 apartments in 9,226 buildings; the talks of July 11); [[w.kotz-judgment-days]], 365 (short of the 100,000 hoped for; five thousand to City Hall; the demands taped to the door; Daley rejects them the next day); [[w.bernstein-guns-or-butter]], 397 (30,000 of the 100,000 hoped for; 5,000 to City Hall). To check: [[w.ralph-northern-protest]]; [[w.anderson-confronting-the-color-line]]; [[w.chicago-1966]]; [[w.chicago-freedom-movement]]; [[w.fairclough-to-redeem-the-soul]]; [[w.cohen-american-pharaoh]]; Washington Post, July 11, 1966, A1; July 12, 1966, A1; Chicago Tribune, July 11 and 12, 1966, 1; New York Times, July 11, 1966, 1; July 12, 1966, 26 (cited by [[w.garrow-bearing-the-cross]], 492 n.19); Investigator''s Report, "Rally and March, Southern Christian Leadership Conference/Coordinating Council of Community Organizations," July 11, 1966, File 940, RS, CHS (cited by [[w.branch-at-canaans-edge]], 501); [[w.king-beyond-vietnam]], 285 (cited by [[w.branch-at-canaans-edge]], 501); Oates, *Let the Trumpet Sound* (1982), 409 (cited by [[w.branch-at-canaans-edge]], 501). Names: King, Daley, Raby.'
+    n: '[Demands of the Chicago Freedom Movement](https://www.crmvet.org/docs/66chi.htm) (July 10, 1966); King, [Address at rally at Soldier Field](https://okra.stanford.edu/link/document660710-000) (King Papers Project). [[w.garrow-bearing-the-cross]], 490–93; [[w.branch-at-canaans-edge]], 501–2 (98 degrees; five thousand walk the three miles; fourteen demands taped to City Hall''s door; Daley''s July 9 figures, 102,847 apartments in 9,226 buildings; the talks of July 11); [[w.kotz-judgment-days]], 365 (short of the 100,000 hoped for; five thousand to City Hall; the demands taped to the door; Daley rejects them the next day); [[w.bernstein-guns-or-butter]], 397 (30,000 of the 100,000 hoped for; 5,000 to City Hall); [[w.young-easy-burden]], 408–9 (the ninety-six demands pinned to the city hall door; Daley the next day, promising nothing); [[w.ralph-northern-protest]], 105–9 (over thirty thousand; the march to City Hall; the meeting of July 11); [[w.anderson-confronting-the-color-line]], 207–08 (the rally; July 11, King and Raby with Daley, who cites the city''s "massive programs"); [[w.cohen-american-pharaoh]], 383–86. Check: Young, 409, counts about thirty thousand at Soldier Field. Check: Cohen and Taylor give 23,000 by the city''s estimate, 60,000 by the organizers'' (384), and 5,000 to 38,000 on the march (385). To check: [[w.chicago-1966]]; [[w.chicago-freedom-movement]]; [[w.fairclough-to-redeem-the-soul]]; Washington Post, July 11, 1966, A1; July 12, 1966, A1; Chicago Tribune, July 11 and 12, 1966, 1; New York Times, July 11, 1966, 1; July 12, 1966, 26 (cited by [[w.garrow-bearing-the-cross]], 492 n.19); Investigator''s Report, "Rally and March, Southern Christian Leadership Conference/Coordinating Council of Community Organizations," July 11, 1966, File 940, RS, CHS (cited by [[w.branch-at-canaans-edge]], 501); [[w.king-beyond-vietnam]], 285 (cited by [[w.branch-at-canaans-edge]], 501); Oates, *Let the Trumpet Sound* (1982), 409 (cited by [[w.branch-at-canaans-edge]], 501); Chicago Daily News, July 12, 1966, 4 (cited by [[w.ralph-northern-protest]], 108 n.44). Names: King, Daley, Raby.'
     src:
       c: c2696b69
       rows:
@@ -626,6 +696,12 @@ entries:
         - 'via x.1982.oates-let-the-trumpet-sound: A-B, F-G'
         - 'w.kotz-judgment-days 365: A'
         - 'w.bernstein-guns-or-butter 397: A'
+        - 'w.young-easy-burden 408–9: A-B, F-G'
+        - 'w.ralph-northern-protest 105–9: A-C, F-G'
+        - 'via w.ralph-northern-protest 107 n.42: B'
+        - 'via w.ralph-northern-protest 108 n.44: F-G'
+        - 'w.anderson-confronting-the-color-line 207–08: A, F-G'
+        - 'w.cohen-american-pharaoh 383–86: A-G'
     tags: [name:king-martin-luther-jr, name:daley-richard-j, name:raby-albert, state:il, city:chicago]
     short: Freedom Sunday and the Chicago marches
   - id: cal.1966-07-10.opinion
@@ -686,13 +762,14 @@ entries:
     date: '1966-07-11'
     thread: vietnam-diplomacy
     c: 'Taylor to Johnson, "Preparations for a ''Cessation of Hostilities'' in Viet-Nam": the Korean armistice took two years; "I am constantly fearful that a Communist proposal will catch us by surprise," an offer to "stop bombing and start talking"; plans to be ready.'
-    n: '[FRUS 1964–68, IV, doc. 177](https://history.state.gov/historicaldocuments/frus1964-68v04/d177). [[w.gibbons-u-s-government-and]], IV, 387 n.2. Made public: FRUS 1964–68, IV (1998). See [[cal.1966-04-27.vietnam]]. Names: Taylor, Johnson.'
+    n: '[FRUS 1964–68, IV, doc. 177](https://history.state.gov/historicaldocuments/frus1964-68v04/d177). [[w.gibbons-u-s-government-and]], IV, 387 n.2; [[w.taylor-swords-and-plowshares]], 370–71 (Taylor''s list of preconditions for a cease-fire). Made public: FRUS 1964–68, IV (1998). See [[cal.1966-04-27.vietnam]]. Names: Taylor, Johnson.'
     src:
       c: a770f4f5
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d177: all'
         - 'w.gibbons-u-s-government-and IV, 387: all'
         - 'via w.gibbons-u-s-government-and IV, 387 n.2a: all'
+        - 'w.taylor-swords-and-plowshares 370–71: A, C'
     tags: [name:taylor-maxwell, name:johnson-lyndon-b]
   - id: cal.1966-07-11.china
     when: July 11
@@ -754,13 +831,20 @@ entries:
       c: 40223f78
       rows:
         - 'w.staaveren-u-s-air-force 165: all'
+  - id: cal.1966-07-11.open-housing
+    when: July 11
+    date: '1966-07-11'
+    thread: open-housing
+    c: Chicago, the New Friendship Baptist Church, the South Side. LaFayette and Bevel give over five hundred the open-housing "battle plan"; marchers warned to expect hostility. Testing of real estate offices on the Southwest Side; by July 14, seventy-eight cases of discrimination claimed.
+    n: '[[w.ralph-northern-protest]], 114, 116. See [[cal.1966-07-10.open-housing]].'
+    tags: [state:il, city:chicago]
   - id: cal.1966-07-12.open-housing
     when: July 12–15
     date: '1966-07-12'
     thread: civil-disorders
     also: [states-and-cities, open-housing]
     c: Rioting on Chicago's West Side, begun when police shut off a fire hydrant opened against the heat (Check the occasion). Two dead by stray bullets, a girl of fourteen among them; more than 30 hurt; hundreds arrested. Kerner sends the National Guard at Daley's request; on the streets July 15.
-    n: '[*New York Times*, July 13, 1966](https://timesmachine.nytimes.com/timesmachine/1966/07/13/issue.html). [[w.branch-at-canaans-edge]], 502–4 (Roosevelt and Throop; King and Mahalia Jackson free six youths at the 12th District; Daley blames King''s staff, July 15; King, Raby and Cody at City Hall; portable pools, the hydrants refitted; 4,000 Guardsmen; two dead, eighty badly hurt, some five hundred arrested); [[w.kotz-judgment-days]], 365 (King: "I told Mayor Daley something like this would happen"); [[w.bernstein-guns-or-butter]], 397 (Roosevelt Road and Throop Street; 10 injured, 24 arrested). To check: [[w.ralph-northern-protest]], 109ff (cited by [[w.branch-at-canaans-edge]], 502); [[w.anderson-confronting-the-color-line]], 212ff (cited by [[w.branch-at-canaans-edge]], 502); SC, *July 23-24* (n.d.), 2 (cited by [[w.branch-at-canaans-edge]], 502); [[w.cohen-american-pharaoh]], 387 (cited by [[w.branch-at-canaans-edge]], 502); New York Times, July 13, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 502); [[w.king-beyond-vietnam]], 285ff (cited by [[w.branch-at-canaans-edge]], 502); MLK transcript, "West Side Riots," July 12, 1966, A/KS. "I think seven were originally arrested, and all of them were beaten. I went to the jail. This was in the jail. We went to the jail. They said to me as I talked with some of the groups that were very angry at that time, that if Icould bring the fellows who had been arrested to them, that they would go home and end the disturbance. I said well if you wait right here, I''ll go on down to the police station . . . and there we talked with the commander and were able to get them out on their own recognizance and took them back to the scene, I mean to the church." (cited by [[w.branch-at-canaans-edge]], 502); MLK transcript, "I Need Victories," July 12, 1966, A/KS (cited by [[w.branch-at-canaans-edge]], 503); "Armed Negroes Fight the Police in Chicago Riots," NYT, July 15, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 503); Chicago LHM dated July 19, 1966, press summary, FSC-NR, p. 4 (cited by [[w.branch-at-canaans-edge]], 503); Jet, July 28, 1966, pp. 6-13 (cited by [[w.branch-at-canaans-edge]], 503); Chicago Tribune, July 16, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 503); Reynolds, *Jesse Jackson* (1975), 58 (cited by [[w.branch-at-canaans-edge]], 503); "Troops Restoring Order in Chicago Negro Ghetto (cited by [[w.branch-at-canaans-edge]], 504); 2 Dead, 57 Hurt in Rioting," NYT, July 16, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 504); Joe Califano to LBJ, 3:00 p.m., July 15, 1966, and Joe Califano to LBJ, 6:15 p.m., July 15, 1966, EX HU, Box 26, LBJ. "John Doar is in Chicago, as well as Roger Wilkins," Califano advised in the second memo. "I have talked to the various Cabinet Officers involved and told them that Katzenbach would be coordinating the Government''s efforts." (cited by [[w.branch-at-canaans-edge]], 504). See [[cal.1966-07-10.open-housing]]. Names: Kerner, Daley.'
+    n: '[*New York Times*, July 13, 1966](https://timesmachine.nytimes.com/timesmachine/1966/07/13/issue.html). [[w.branch-at-canaans-edge]], 502–4 (Roosevelt and Throop; King and Mahalia Jackson free six youths at the 12th District; Daley blames King''s staff, July 15; King, Raby and Cody at City Hall; portable pools, the hydrants refitted; 4,000 Guardsmen; two dead, eighty badly hurt, some five hundred arrested); [[w.kotz-judgment-days]], 365 (King: "I told Mayor Daley something like this would happen"); [[w.bernstein-guns-or-butter]], 397 (Roosevelt Road and Throop Street; 10 injured, 24 arrested); [[w.young-easy-burden]], 409–10; [[w.ralph-northern-protest]], 109–12; [[w.anderson-confronting-the-color-line]], 210–14 (the hydrants at Roosevelt Road and Throop Street; 533 arrested in all; Daley asks the Guard); [[w.cohen-american-pharaoh]], 387–91. Check: Young, 410, gives 2 dead, 56 injured and 282 arrested in two days. Check: Ralph has the rioting begin near Roosevelt and Throop when the police shut off a hydrant youths had opened, an ice cream truck stuck there (109); over eighty injured, more than four hundred arrested (112). Check: Cohen and Taylor give more than eighty hurt and more than five hundred arrested (391), the Guard asked of Kerner by the morning of July 15 (389). To check: SC, *July 23–24* (n.d.), 2 (cited by [[w.branch-at-canaans-edge]], 502); New York Times, July 13, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 502); [[w.king-beyond-vietnam]], 285ff (cited by [[w.branch-at-canaans-edge]], 502); MLK transcript, "West Side Riots," July 12, 1966, A/KS; Bernard O. Brown, "WSO and the Riot on the Near West Side," WSCP papers, box 4, CHS (cited by [[w.ralph-northern-protest]], 110 n.49); Chicago Tribune, July 13, 1966, 1, 6 (cited by [[w.ralph-northern-protest]], 110 n.51); Chicago Tribune, July 15, 1966, 1, 4 (cited by [[w.ralph-northern-protest]], 111 n.54); Chicago Sun-Times, July 17, 1966, 4 (cited by [[w.ralph-northern-protest]], 112 n.58); Brown, Ideology and Community Action, pp. 52–53; Chicago Sun-Times, 17 July 1966 (cited by [[w.anderson-confronting-the-color-line]], 211 n.9); Chicago Tribune, July 16, 1966, p. 1 (cited by [[w.anderson-confronting-the-color-line]], 213 n.18); Chicago Tribune, 16 July 1966; Chicago Sun-Times, 27 July 1966 (cited by [[w.anderson-confronting-the-color-line]], 214 n.21). "I think seven were originally arrested, and all of them were beaten. I went to the jail. This was in the jail. We went to the jail. They said to me as I talked with some of the groups that were very angry at that time, that if Icould bring the fellows who had been arrested to them, that they would go home and end the disturbance. I said well if you wait right here, I''ll go on down to the police station . . . and there we talked with the commander and were able to get them out on their own recognizance and took them back to the scene, I mean to the church." (cited by [[w.branch-at-canaans-edge]], 502); MLK transcript, "I Need Victories," July 12, 1966, A/KS (cited by [[w.branch-at-canaans-edge]], 503); "Armed Negroes Fight the Police in Chicago Riots," NYT, July 15, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 503); Chicago LHM dated July 19, 1966, press summary, FSC-NR, p. 4 (cited by [[w.branch-at-canaans-edge]], 503); Jet, July 28, 1966, pp. 6–13 (cited by [[w.branch-at-canaans-edge]], 503); Chicago Tribune, July 16, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 503); Reynolds, *Jesse Jackson* (1975), 58 (cited by [[w.branch-at-canaans-edge]], 503); "Troops Restoring Order in Chicago Negro Ghetto (cited by [[w.branch-at-canaans-edge]], 504); 2 Dead, 57 Hurt in Rioting," NYT, July 16, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 504); Joe Califano to LBJ, 3:00 p.m., July 15, 1966, and Joe Califano to LBJ, 6:15 p.m., July 15, 1966, EX HU, Box 26, LBJ. "John Doar is in Chicago, as well as Roger Wilkins," Califano advised in the second memo. "I have talked to the various Cabinet Officers involved and told them that Katzenbach would be coordinating the Government''s efforts." (cited by [[w.branch-at-canaans-edge]], 504). See [[cal.1966-07-10.open-housing]]. Names: Kerner, Daley.'
     src:
       c: cc447794
       rows:
@@ -780,10 +864,22 @@ entries:
         - 'via x.1966-07-15.joe-califano-to-lbj-3-00: A-B, D-F'
         - 'w.kotz-judgment-days 365: A'
         - 'w.bernstein-guns-or-butter 397: A'
+        - 'w.young-easy-burden 409–10: A-E'
+        - 'w.ralph-northern-protest 109–12: A, D-F'
+        - 'via w.ralph-northern-protest 110 n.49: A'
+        - 'via w.ralph-northern-protest 110 n.51: A'
+        - 'via w.ralph-northern-protest 111 n.54: E-F'
+        - 'via w.ralph-northern-protest 112 n.58: D'
+        - 'w.anderson-confronting-the-color-line 210–14: A, D-E'
+        - 'via w.anderson-confronting-the-color-line 211 n.9: A, D-E'
+        - 'via w.anderson-confronting-the-color-line 213 n.18: A, D-E'
+        - 'via w.anderson-confronting-the-color-line 214 n.21: A, D-E'
+        - 'w.cohen-american-pharaoh 387–91: A-F'
     tags: [name:kerner-otto, name:daley-richard-j, state:il, city:chicago]
   - id: cal.1966-07-12.india-and-china
     when: July 12
     date: '1966-07-12'
+    time: 1966-07-13T00:32Z
     thread: china
     c: Johnson to the American Alumni Council, from the White House theater, his flight to White Sulphur Springs, W. Va., grounded by weather. Four "essentials" for peace in Asia, the fourth "reconciliation between nations that now call themselves enemies." "A peaceful mainland China is central to a peaceful Asia"; no lasting peace "as long as the 700 million people of mainland China are isolated by their rulers from the outside world." A passport cleared that day for an American businessman to go to China.
     n: 'Remarks to the American Alumni Council: United States Asian Policy, [1966 Pub. Papers 718](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=92) (July 12, 1966). To check: [[w.goh-constructing-the-u-s]]. Names: Johnson.'
@@ -832,6 +928,17 @@ entries:
       rows:
         - 'w.gibbons-u-s-government-and IV, 371: all'
     tags: [name:wilson-harold]
+  - id: cal.1966-07-12.program
+    when: July 12
+    date: '1966-07-12'
+    thread: program
+    c: Chicago, the last of the five dinners. Califano, Cater and McPherson with Levi, the University's provost, and fourteen of its faculty, and small delegations from Illinois, Michigan, Minnesota, Northwestern, Notre Dame and Wisconsin.
+    n: '[[w.graham-uncertain-triumph]], 136. Names: Califano, Cater, McPherson, Levi.'
+    src:
+      c: f94b62fc
+      rows:
+        - 'w.graham-uncertain-triumph 136: all'
+    tags: [name:califano-joseph-a-jr, name:cater-s-douglass, name:mcpherson-harry, name:levi-edward-h]
   - id: cal.1966-07-13.opinion
     when: July 13
     date: '1966-07-13'
@@ -850,6 +957,7 @@ entries:
   - id: cal.1966-07-13.middle-east-iran-arms
     when: July 13
     date: '1966-07-13'
+    time: 1966-07-13T14:30Z
     thread: middle-east-iran-arms
     c: 'Humphrey to Johnson: unless something changes, "the Shah is going to buy a package of Soviet arms."'
     n: '[FRUS 1964–68, XXII, doc. 155](https://history.state.gov/historicaldocuments/frus1964-68v22/d155). See [[cal.1966-06-29.middle-east]]. Names: Humphrey, Johnson, Pahlavi.'
@@ -875,16 +983,51 @@ entries:
   - id: cal.1966-07-13.robert-kennedy-2
     when: July 13
     date: '1966-07-13'
+    time: 1966-07-14T03:39Z
     thread: robert-kennedy
     also: [civil-rights-the-executive]
+    follows:
+      - cal.1966-07-13.amendments
     c: '11:39 p.m., Ramsey Clark to Johnson by telephone: Hoover has witnesses, "forty or fifty of them," to swear that Robert Kennedy knew of the FBI''s microphones.'
-    n: '[[w.branch-at-canaans-edge]], 567. To check: [Johnson and Ramsey Clark, 11:39 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ramsey-clark-july-14-1966), Conversation WH6607-01-10407 (Miller Center) (cited by [[w.branch-at-canaans-edge]], 567). Names: Ramsey Clark, Johnson, Hoover, Robert Kennedy.'
+    n: '[[w.branch-at-canaans-edge]], 567. To check: [Johnson and Ramsey Clark, 11:39 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ramsey-clark-july-14-1966), Conversation WH6607-01-10407 (Miller Center) (cited by [[w.branch-at-canaans-edge]], 567). After [[cal.1966-07-13.amendments]] (the sources above). Names: Ramsey Clark, Johnson, Hoover, Robert Kennedy.'
     src:
       c: acf78bb4
       rows:
         - 'w.branch-at-canaans-edge 567: all'
         - 'via x.1966-07-13.lbj-phone-call-with-ramsey-clark: all'
     tags: [name:clark-ramsey, name:johnson-lyndon-b, name:hoover-j-edgar, name:kennedy-robert-f]
+  - id: cal.1966-07-13.open-housing
+    when: July 13
+    date: '1966-07-13'
+    thread: open-housing
+    c: 'Chicago. The East Garfield Park Union to End Slums signs a collective bargaining agreement with Condor and Costalis, after a rent strike: prompt maintenance for rules of tenant conduct; rent withheld if the landlords default.'
+    n: '[[w.ralph-northern-protest]], 64. To check: "Agreement between Condor-Costalis Real Estate Company and East Garfield Park Union to End Slums," July 13, 1966, Gilbert Cornfield files (cited by [[w.ralph-northern-protest]], 61 n.53). See [[cal.1966-03.open-housing]].'
+    tags: [state:il, city:chicago]
+  - id: cal.1966-07-13.civil-disorders
+    when: July 13
+    date: '1966-07-13'
+    thread: civil-disorders
+    also: [open-housing]
+    c: 'Chicago, the morning after the hydrant riot. King calls it a "riot" and blames the police. Daley: a "juvenile incident." That night rioting again, stores firebombed, snipers.'
+    n: '[[w.cohen-american-pharaoh]], 388. Names: Martin Luther King, Daley.'
+    src:
+      c: 5dadd14b
+      rows:
+        - 'w.cohen-american-pharaoh 388: all'
+    tags: [state:il, city:chicago, name:king-martin-luther-jr, name:daley-richard-j]
+  - id: cal.1966-07-13.school-aid
+    when: July 13
+    date: '1966-07-13'
+    thread: school-aid
+    c: 'Henry Hall Wilson to Johnson: Powell, out of town, the last hurdle, "I am sure we can expect blackmail here"; Morse holds "budgetary considerations are meaningless and that you should save money by cutting down spending in Vietnam."'
+    n: '[[w.graham-uncertain-triumph]], 120, 128. To check: Memorandum, Wilson to President Johnson, July 13, 1966, EX LE/FA 2, WHCF, and Cater file, container 15, LBJ Library (cited by [[w.graham-uncertain-triumph]], 120 n.20); Memorandum, Wilson to President Johnson, July 13, 1966, EX LE/FA 2, WHCF, and Cater file, container 15, LBJ Library (cited by [[w.graham-uncertain-triumph]], 128 n.34). Names: Wilson, Johnson, Powell, Morse.'
+    src:
+      c: d2c49c20
+      rows:
+        - 'w.graham-uncertain-triumph 120, 128: all'
+        - 'via w.graham-uncertain-triumph 120 n.20: all'
+        - 'via w.graham-uncertain-triumph 128 n.34: all'
+    tags: [name:wilson-henry-hall, name:johnson-lyndon-b, name:powell-adam-clayton-jr, name:morse-wayne]
   - id: cal.1966-07-14.defense
     when: July 14
     date: '1966-07-14'
@@ -901,6 +1044,7 @@ entries:
   - id: cal.1966-07-14.africa
     when: July 14
     date: '1966-07-14'
+    time: 1966-07-14T16:10Z
     thread: africa
     c: 'South West Africa. The NSC: Ball expects the World Court to rule against South Africa; avoid economic sanctions. Johnson asks for a task force on the question.'
     n: 'FRUS 1964–68, XXIV, docs. [621](https://history.state.gov/historicaldocuments/frus1964-68v24/d621), [622](https://history.state.gov/historicaldocuments/frus1964-68v24/d622). Made public: FRUS 1964–68, XXIV (1999). To check: [[w.irwin-gordian-knot]]; [[w.borstelmann-cold-war-and-the]]. See [[cal.1964-04-24.africa]]. Names: Ball, Johnson.'
@@ -932,12 +1076,51 @@ entries:
         - 'via w.anthony-war-in-northern-laos 199 n.14c: all'
         - 'via w.anthony-war-in-northern-laos 199 n.14d: all'
     tags: [name:sharp-u-s-grant, name:sullivan-william-h]
+  - id: cal.1966-07-14.open-housing
+    when: July 14
+    date: '1966-07-14'
+    thread: open-housing
+    c: 'Chicago, Gage Park–Chicago Lawn. Nearly a hundred march on real estate offices; Bevel: "to see if we like it here." A basketball game in Marquette Park.'
+    n: '[[w.ralph-northern-protest]], 117. See [[cal.1966-07-11.open-housing]].'
+    tags: [state:il, city:chicago]
+  - id: cal.1966-07-14.open-housing-2
+    when: July 14
+    date: '1966-07-14'
+    thread: open-housing
+    also: [king]
+    c: 'Chicago, the New Friendship Baptist Church, evening. King, of Kerner''s executive order against discrimination in the sale and rental of housing: "we want that thin paper to turn into thick action"; "we will make [Chicago] an open city through non-violence."'
+    n: '[[w.ralph-northern-protest]], 117. Check: the date of Kerner''s order. Names: King, Kerner.'
+    tags: [state:il, city:chicago, name:king-martin-luther-jr, name:kerner-otto]
+  - id: cal.1966-07-14.school-aid
+    when: July 14
+    date: '1966-07-14'
+    thread: school-aid
+    c: 'Cater to Johnson: Schultze recommends a veto threat against "the anarchy of Senator Morse''s subcommittee," $1.5 billion over the budget; Cater: "preposterous."'
+    n: '[[w.graham-uncertain-triumph]], 128. To check: Memorandum, Cater to President Johnson, July 14, 1966, Cater file, container 15, LBJ Library (cited by [[w.graham-uncertain-triumph]], 128 n.35). Names: Cater, Johnson, Schultze, Morse.'
+    src:
+      c: 1017d1d2
+      rows:
+        - 'w.graham-uncertain-triumph 128: all'
+        - 'via w.graham-uncertain-triumph 128 n.35: all'
+    tags: [name:cater-s-douglass, name:johnson-lyndon-b, name:schultze-charles-l, name:morse-wayne]
+  - id: cal.1966-07-14.school-aid-2
+    when: July 14
+    date: '1966-07-14'
+    thread: school-aid
+    c: 'Howe to Gardner, against more for Title I: "wasted funds [and] inadequately planned expenditures," the nation short of trained people; federal money already going into electronic apparatus. Cohen to Morse the next day to the same end.'
+    n: '[[w.graham-uncertain-triumph]], 124. To check: Howe to Gardner, July 14, 1966; Cohen to Morse, July 15, 1966, EX LE/FA 2, WHCF, LBJ Library (cited by [[w.graham-uncertain-triumph]], 124 n.27). Names: Howe, Gardner, Cohen, Morse.'
+    src:
+      c: f90b1fb3
+      rows:
+        - 'w.graham-uncertain-triumph 124: all'
+        - 'via w.graham-uncertain-triumph 124 n.27: all'
+    tags: [name:howe-harold-ii, name:gardner-john-w, name:cohen-wilbur-j, name:morse-wayne]
   - id: cal.1966-07-15.vietnam-prisoners
     when: July 15
     date: '1966-07-15'
     thread: vietnam-prisoners
     c: 'Nineteen Senators critical of the war appeal to Hanoi against reprisals on the prisoners: Church''s "A Plea for Sanity," read into the Record. Robert Kennedy, Church yielding: any reprisals against the pilots "an intolerable act—contrary to the laws of war, contrary to all past practices in this war, a plunge into barbarism which could serve the interest of no man and no nation."'
-    n: '[112 Cong. Rec. 15851](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt12/pdf/GPO-CRECB-1966-pt12-4-1.pdf#page=39) (1966). [112 Cong. Rec. 15853](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt12/pdf/GPO-CRECB-1966-pt12-4-1.pdf#page=41) (1966) (Kennedy). [[w.palermo-in-his-own-right]], 37 (Kennedy''s words). See [[cal.1966-07-06.vietnam]]. Names: Church, Robert Kennedy.'
+    n: '[112 Cong. Rec. 15,851](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt12/pdf/GPO-CRECB-1966-pt12-4-1.pdf#page=39) (1966). [112 Cong. Rec. 15,853](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt12/pdf/GPO-CRECB-1966-pt12-4-1.pdf#page=41) (1966) (Kennedy). [[w.palermo-in-his-own-right]], 37 (Kennedy''s words). See [[cal.1966-07-06.vietnam]]. Names: Church, Robert Kennedy.'
     src:
       c: d9ff366c
       rows:
@@ -977,6 +1160,8 @@ entries:
   - id: cal.1966-07-15.open-housing
     when: July 15–16
     date: '1966-07-15'
+    time: 1966-07-16T05:00Z
+    time_approx: true
     thread: open-housing
     also: [civil-disorders, civil-rights-the-executive]
     c: 'Chicago, before midnight to dawn July 16. Doar and Roger Wilkins of Justice, sent by Katzenbach with the White House''s approval, at King''s Hamlin Avenue flat: four hours of King with Vice Lords and Cobras; Richard Tidwell of the Roman Saints for giving nonviolence a try. Then King and the Justice men to dawn.'
@@ -994,6 +1179,7 @@ entries:
   - id: cal.1966-07-15.king
     when: July 15
     date: '1966-07-15'
+    time: 1966-07-16T01:15Z
     thread: king
     also: [civil-rights-the-executive]
     c: '9:15 p.m., Johnson to Katzenbach by telephone, of the surveillance of King: "You got that little situation prohibited?" Katzenbach: "It''s gone." Johnson: "It better be." The wiretaps on Levison stay.'
@@ -1011,11 +1197,15 @@ entries:
     thread: open-housing
     also: [civil-disorders]
     c: 'Chicago, after three nights of rioting on the West Side, Lawndale and Garfield Park, two killed. King with Daley: sprayers on the hydrants, the parks and pools opened, an advisory committee on the police. That evening 1,500 guardsmen on the West Side. In all, 61 policemen injured, 533 arrested.'
-    n: '[[w.bernstein-guns-or-butter]], 397. To check: [[w.anderson-confronting-the-color-line]], chs. 4–12; [[w.garrow-bearing-the-cross]], chs. 8–9 (cited by [[w.bernstein-guns-or-butter]], 397 n.6). See [[cal.1966-07-12.open-housing]]. Names: King, Daley.'
+    n: '[[w.bernstein-guns-or-butter]], 397; [[w.ralph-northern-protest]], 111–12 (King with Daley at City Hall: sprinklers, pools, a citizens'' committee on the police); [[w.anderson-confronting-the-color-line]], 213–14; [[w.cohen-american-pharaoh]], 389–90. To check: [[w.garrow-bearing-the-cross]], chs. 8–9 (cited by [[w.bernstein-guns-or-butter]], 397 n.6); Chicago Tribune, 16 July 1966; Chicago Sun-Times, 27 July 1966 (cited by [[w.anderson-confronting-the-color-line]], 214 n.21). See [[cal.1966-07-12.open-housing]]. Names: King, Daley.'
     src:
       c: e7449989
       rows:
         - 'w.bernstein-guns-or-butter 397: all'
+        - 'w.ralph-northern-protest 111–12: ?'
+        - 'w.anderson-confronting-the-color-line 213–14: B, D'
+        - 'via w.anderson-confronting-the-color-line 214 n.21: B, D'
+        - 'w.cohen-american-pharaoh 389–90: A-B'
     tags: [name:king-martin-luther-jr, name:daley-richard-j, city:chicago]
   - id: cal.1966-07-15.vietnam-force-levels
     when: July 15
@@ -1028,6 +1218,18 @@ entries:
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 126: all'
     tags: [name:mcnamara-robert-s, name:johnson-lyndon-b, name:westmoreland-william, name:sharp-u-s-grant]
+  - id: cal.1966-07-15.school-aid
+    when: July 15
+    date: '1966-07-15'
+    thread: school-aid
+    c: Morse's subcommittee reports the school amendments at more than twice the administration's request, though Gardner called on Morse with a letter against the increases.
+    n: '[[w.graham-uncertain-triumph]], 128–29. To check: Memorandum, Cater to President Johnson, July 16, 1966 ("Talking Points with Senator Hill"), Cater file, container 15, LBJ Library (cited by [[w.graham-uncertain-triumph]], 129 n.36). Names: Morse, Gardner.'
+    src:
+      c: 66eee479
+      rows:
+        - 'w.graham-uncertain-triumph 128–29: all'
+        - 'via w.graham-uncertain-triumph 129 n.36: all'
+    tags: [name:morse-wayne, name:gardner-john-w]
   - id: cal.1966-07-16.states-and-cities-los-angeles
     when: July 16
     date: '1966-07-16'
@@ -1050,6 +1252,31 @@ entries:
         - 'w.branch-at-canaans-edge 497–98: B'
         - 'via x.1966-07-21.ambassador-charles-bohlen-paris-to-secretary: B'
     tags: [name:ho-chi-minh]
+  - id: cal.1966-07-16.open-housing
+    when: July 16
+    date: '1966-07-16'
+    thread: open-housing
+    c: Chicago. A hundred of the movement, Negro and white, picnic in Marquette Park.
+    n: '[[w.ralph-northern-protest]], 117; [[w.anderson-confronting-the-color-line]], 215–16 (the picnic in Marquette Park); [[w.cohen-american-pharaoh]], 392 (120 from Englewood to Marquette Park, July 16). Check: Anderson gives an integrated group of 120 from the action center in Englewood (216). To check: Chicago Sun-Times, 18 July 1966 (cited by [[w.anderson-confronting-the-color-line]], 216 n.25). See [[cal.1966-07-14.open-housing]].'
+    src:
+      c: e0e8f10d
+      rows:
+        - 'w.ralph-northern-protest 117: all'
+        - 'w.anderson-confronting-the-color-line 215–16: A-B'
+        - 'via w.anderson-confronting-the-color-line 216 n.25: A-B'
+        - 'w.cohen-american-pharaoh 392: all'
+    tags: [state:il, city:chicago]
+  - id: cal.1966-07-16.open-housing-2
+    when: July 16
+    date: '1966-07-16'
+    thread: open-housing
+    c: 'Chicago, King''s flat. Five hours with the West Side''s gang leaders, who renounce violence. Young: "This puts us over the hump."'
+    n: '[[w.cohen-american-pharaoh]], 391–92. Names: Andrew Young.'
+    src:
+      c: 5af7205b
+      rows:
+        - 'w.cohen-american-pharaoh 391–92: all'
+    tags: [state:il, city:chicago, name:young-andrew-j-jr]
   - id: cal.1966-07-17.opinion
     when: July 17
     date: '1966-07-17'
@@ -1063,12 +1290,16 @@ entries:
     date: '1966-07-17'
     thread: open-housing
     c: 'Chicago. Demonstrations in Gage Park, July 17, and Belmont Cragin, July 18. King: "We must move on with our positive program to make Chicago an open city."'
-    n: '[[w.branch-at-canaans-edge]], 505. To check: Garrow, *Chicago 1966* (1989), 20–21 (cited by [[w.branch-at-canaans-edge]], 505); [[w.anderson-confronting-the-color-line]], 219 (cited by [[w.branch-at-canaans-edge]], 505). See [[cal.1966-07-15.open-housing]]. Names: King.'
+    n: '[[w.branch-at-canaans-edge]], 505; [[w.ralph-northern-protest]], 117 (Gage Park, July 17: two hundred, a vigil at St. Gall''s); [[w.anderson-confronting-the-color-line]], 216 (Gage Park, July 17); [[w.cohen-american-pharaoh]], 392 (Gage Park, July 17). Check: Anderson has two hundred at a prayer vigil near St. Gall''s in Gage Park, Sunday, July 17, and July 18 the day of the brokers'' injunction, no march in Belmont-Cragin (216). To check: Garrow, *Chicago 1966* (1989), 20–21 (cited by [[w.branch-at-canaans-edge]], 505); Chicago Sun-Times, 18 July 1966 (cited by [[w.anderson-confronting-the-color-line]], 216 n.25). See [[cal.1966-07-15.open-housing]]. Names: King.'
     src:
       c: 70366d60
       rows:
         - 'w.branch-at-canaans-edge 505: all'
         - 'via x.1989.david-j-garrow-ed-chicago-1966: all'
+        - 'w.ralph-northern-protest 117: ?'
+        - 'w.anderson-confronting-the-color-line 216: A-B'
+        - 'via w.anderson-confronting-the-color-line 216 n.25: A-B'
+        - 'w.cohen-american-pharaoh 392: A-B'
     tags: [name:king-martin-luther-jr, state:il, city:chicago]
   - id: cal.1966-07-17.robert-kennedy
     when: July 17
@@ -1131,9 +1362,42 @@ entries:
         - 'via w.anthony-war-in-northern-laos 206 n.40a: all'
         - 'via w.anthony-war-in-northern-laos 206 n.40b: all'
         - 'via w.anthony-war-in-northern-laos 206 n.40c: all'
+  - id: cal.1966-07-18.press-and-broadcasting
+    when: July 18
+    date: '1966-07-18'
+    thread: press-and-broadcasting
+    also: [open-housing]
+    c: 'The Chicago Defender, editorial, after the riots: "it is regrettable that Dr. King did not avail himself of the counsel and influence of the whole local leadership."'
+    n: '[[w.ralph-northern-protest]], 113. Names: King.'
+    tags: [state:il, city:chicago, name:king-martin-luther-jr]
+  - id: cal.1966-07-18.open-housing-2
+    when: July 18
+    date: '1966-07-18'
+    thread: open-housing
+    also: [states-and-cities]
+    c: 'Illinois. Two real estate brokers enjoin Governor Kerner''s executive order against discrimination in selling or renting housing, to take effect July 23: his 1963 "code of fair practices" extended to the real estate industry, to keep Weston, Ill., in the running for the Atomic Energy Commission''s $375 million accelerator, the NAACP objecting to the site for its housing bias. Robert E. Cook of the Illinois Association of Real Estate Boards: "the brokers and salesmen have the same right to discriminate as the owners."'
+    n: '[[w.anderson-confronting-the-color-line]], 216–17. Check: the court. To check: Chicago Sun-Times, 17, 19 July 1966 (cited by [[w.anderson-confronting-the-color-line]], 217 n.26). Names: Kerner.'
+    src:
+      c: 8455e73d
+      rows:
+        - 'w.anderson-confronting-the-color-line 216–17: all'
+        - 'via w.anderson-confronting-the-color-line 217 n.26: all'
+    tags: [name:kerner-otto, state:il]
+  - id: cal.1966-07-18.civil-disorders-2
+    when: July 18
+    date: '1966-07-18'
+    thread: civil-disorders
+    c: 'Chicago. Kane, commanding the Guard''s 33rd Division, withdraws his men. The toll of the hydrant riots: two dead, more than eighty hurt, more than five hundred arrested, $2 million in damage.'
+    n: '[[w.cohen-american-pharaoh]], 390–91.'
+    src:
+      c: 3a2829b6
+      rows:
+        - 'w.cohen-american-pharaoh 390–91: all'
+    tags: [state:il, city:chicago]
   - id: cal.1966-07-19.economy
     when: July 19
     date: '1966-07-19'
+    time: 1966-07-19T15:25Z
     thread: economy
     c: 'News conference, after meetings with the bipartisan leaders, July 18, and the appropriations chairmen, July 19. Congress''s add-ons to the budget may reach $5 to $6 billion, near $120 billion without a Vietnam supplemental. Three courses for an economy "heating up": wage and price controls, which "few, if any, recommend"; cuts in nondefense spending; or a deficit or a tax bill. The deficit for fiscal 1966, $2.3 billion.'
     n: 'The President''s News Conference, [1966 Pub. Papers 735](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=109) (July 19, 1966). [[w.gibbons-u-s-government-and]], IV, 425 (the meetings of July 18 and 19, by Tom Johnson''s notes: "McNamara made a bad guess on bringing the troops home"). To check: [[w.helsing-johnsons-war-johnsons-great]]; [[w.collins-more]]; [[w.okun-political-economy-of-prosperity]]; [[w.president-and-the-council]]; Tom Johnson''s notes of the meetings of July 18 and 19, 1966, Tom Johnson''s Notes of Meetings, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 425 n.138). See [[cal.1965-12-05.economy]].'
@@ -1198,6 +1462,7 @@ entries:
   - id: cal.1966-07-19.mayors
     when: July 19
     date: '1966-07-19'
+    time: 1966-07-19T23:10Z
     thread: mayors
     also: [open-housing, vietnam-support]
     c: '7:10 p.m., Daley to Johnson by telephone: King''s rally "fifty percent Johnson"; "He is not your friend. He''s against you on Vietnam. He''s a goddam faker." Johnson: "What shape have you got King in? Is he about ready to get out?" Daley pledges the Chicago organization to Johnson on Vietnam. Johnson: "And I''ll support you."'
@@ -1259,6 +1524,7 @@ entries:
   - id: cal.1966-07-20.vietnam-prisoners
     when: July 20
     date: '1966-07-20'
+    time: 1966-07-20T20:00Z
     thread: vietnam-prisoners
     also: [states-and-cities, open-housing]
     c: 'News conference. Johnson: the airmen "are not war criminals and should not be treated as such"; the United States ready for a conference under the International Committee of the Red Cross on applying the Geneva Conventions of 1949 in Vietnam. Asked of "black power" and the disturbances in Chicago and Cleveland: "I am very concerned about the conditions that exist in many of the large cities"; equality to be had "under the law."'
@@ -1284,7 +1550,7 @@ entries:
     thread: defense
     also: [vietnam-congress]
     c: The House passes the defense appropriation, H.R. 15941, 392–1, Brown of California against; nothing said of the war, no amendment by its opponents.
-    n: '[112 Cong. Rec. 16302](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt12/pdf/GPO-CRECB-1966-pt12-7-1.pdf#page=39) (1966) (July 20, 1966) (the vote). [[w.gibbons-u-s-government-and]], IV, 414. Names: George Brown.'
+    n: '[112 Cong. Rec. 16,302](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt12/pdf/GPO-CRECB-1966-pt12-7-1.pdf#page=39) (1966) (July 20, 1966) (the vote). [[w.gibbons-u-s-government-and]], IV, 414. Names: George Brown.'
     src:
       c: 3e9e9651
       rows:
@@ -1317,6 +1583,7 @@ entries:
   - id: cal.1966-07-21.vietnam
     when: July 21
     date: '1966-07-21'
+    time: 1966-07-21T15:33Z
     thread: vietnam-diplomacy
     also: [europe-and-the-alliance]
     c: 'Bohlen, Paris 1022, on Sainteny, back from Hanoi for de Gaulle: Hanoi will fight to the end for the North, but would not wholly reject some negotiation, in secret; Phạm Văn Đồng, pressed for a quid pro quo for a halt to the bombing, says it might be a cessation of "infiltration." Sainteny''s advice: secret channels, a bombing halt for an end of infiltration.'
@@ -1352,6 +1619,14 @@ entries:
         - 'w.cosmas-joint-chiefs-of-staff-2012 433: all'
         - 'via w.cosmas-joint-chiefs-of-staff-2012 433 n.13: all'
     tags: [place:pleiku]
+  - id: cal.1966-07-21.open-housing
+    when: July 21
+    date: '1966-07-21'
+    thread: open-housing
+    also: [king]
+    c: 'Chicago. King: "we shall step up our plans for nonviolent direct action to make Chicago an open city." A new command: the Agenda Committee for strategy, King, Raby, Berry, Hayes, McDermott, Kale Williams; the Action Committee for tactics, Bevel, LaFayette and Jesse Jackson leading.'
+    n: '[[w.ralph-northern-protest]], 117–18. Names: King, Raby.'
+    tags: [state:il, city:chicago, name:king-martin-luther-jr, name:raby-albert]
   - id: cal.1966-07-22.vietnam
     when: July 22
     date: '1966-07-22'
@@ -1386,7 +1661,7 @@ entries:
     date: '1966-07-22'
     thread: vietnam-congress-foreign-relations
     c: 'Fulbright in the Senate, on the foreign aid bill, against "the emerging Asian doctrine": unlimited in what it would do and unilateral in its execution; the United States "policeman and provider for all of non-Communist Asia," without the Senate''s advice and consent. Mansfield: no "Johnson Doctrine" for Asia, no commitment to bring before Congress. Moyers in reply: no commitments in the President''s speech that Fulbright is not aware of.'
-    n: '[112 Cong. Rec. 16808–14](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt13/pdf/GPO-CRECB-1966-pt13-2-1.pdf#page=94) (1966) (July 22, 1966) (Fulbright; Mansfield). [[w.gibbons-u-s-government-and]], IV, 416–18; [[w.woods-fulbright]], 428 ("taking on the role of policeman and provider for all of non-Communist Asia"). Check: Woods (428) has the speech on "the last day of July," after Moyers''s briefing of July 22. To check: *Washington Post*, July 23, 1966. See [[cal.1966-07-12.india-and-china]]. Names: Fulbright, Mansfield, Moyers.'
+    n: '[112 Cong. Rec. 16,808–14](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt13/pdf/GPO-CRECB-1966-pt13-2-1.pdf#page=94) (1966) (July 22, 1966) (Fulbright; Mansfield). [[w.gibbons-u-s-government-and]], IV, 416–18; [[w.woods-fulbright]], 428 ("taking on the role of policeman and provider for all of non-Communist Asia"). Check: Woods (428) has the speech on "the last day of July," after Moyers''s briefing of July 22. To check: *Washington Post*, July 23, 1966. See [[cal.1966-07-12.india-and-china]]. Names: Fulbright, Mansfield, Moyers.'
     src:
       c: b8b95432
       rows:
@@ -1423,8 +1698,10 @@ entries:
     when: July 22
     date: '1966-07-22'
     thread: vietnam-congress-foreign-relations
+    follows:
+      - cal.1966-07-22.vietnam-congress
     c: 'Moyers at the White House briefing: the President finds Fulbright''s reasoning on Asia "difficult to follow" and "disappointing." Moyers and McPherson, with Johnson''s blessing, try for a private talk with Fulbright; rebuffed.'
-    n: '[[w.woods-fulbright]], 428. To check: "From Fulbright: A Sweeping Attack on LBJ''s ''Asian Doctrine,''" *U.S. News and World Report*, Aug. 1, 1966, 12; Rowland Evans and Robert Novak, "Fulbright Stands Pat," *Washington Post*, July 31, 1966 (cited by [[w.woods-fulbright]], 428 nn.14–16). See [[cal.1966-07-22.vietnam-congress]]. Names: Moyers, Johnson, Fulbright, McPherson.'
+    n: '[[w.woods-fulbright]], 428. After Fulbright''s speech, of which Moyers speaks. To check: "From Fulbright: A Sweeping Attack on LBJ''s ''Asian Doctrine,''" *U.S. News and World Report*, Aug. 1, 1966, 12; Rowland Evans and Robert Novak, "Fulbright Stands Pat," *Washington Post*, July 31, 1966 (cited by [[w.woods-fulbright]], 428 nn.14–16). See [[cal.1966-07-22.vietnam-congress]]. Names: Moyers, Johnson, Fulbright, McPherson.'
     src:
       c: b775f6eb
       rows:
@@ -1432,6 +1709,19 @@ entries:
         - 'via x.1966-08-01.us-news-sweeping-attack-asian-doctrine: A'
         - 'via x.1966-07-31.evans-novak-fulbright-stands-pat: B'
     tags: [name:moyers-bill, name:johnson-lyndon-b, name:fulbright-j-william, name:mcpherson-harry]
+  - id: cal.1966-07-22.war-opposition
+    when: July 22
+    date: '1966-07-22'
+    thread: war-opposition
+    c: 'Cleveland. Some thirty people from fifteen peace organizations plan national action against the war: "Pessimism and futility were the pervasive moods of the conference," by one participant''s record.'
+    n: '[[w.wells-war-within]], 93; [[w.zaroulis-who-spoke-up]], 90–91 (Muste and thirteen other organizations; nonexclusion); [[w.debenedetti-american-ordeal]], 155–56 (the consultation late in July, the teach-in faculty''s call; Muste for a united fall mobilization).'
+    src:
+      c: 2d51039b
+      rows:
+        - 'w.wells-war-within 93: all'
+        - 'w.zaroulis-who-spoke-up 90–91: ?'
+        - 'w.debenedetti-american-ordeal 155–56: ?'
+    tags: [state:oh]
   - id: cal.1966-07-23.democratic-party
     when: July 23–24
     date: '1966-07-23'
@@ -1473,6 +1763,7 @@ entries:
   - id: cal.1966-07-23.civil-disorders
     when: July 23
     date: '1966-07-23'
+    time: 1966-07-23T18:10Z
     thread: civil-disorders
     also: [open-housing]
     c: 'Indianapolis, to Indiana''s business, labor and professional leaders: "what we must do is no less than to correct the injustices of two centuries which give men their reasons to protest. But there are ways of protesting that any civilized society can tolerate. There are also ways of protesting that are unacceptable."'
@@ -1483,6 +1774,20 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=138: all'
         - 'w.kotz-judgment-days 368: all'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1966-07-23.open-housing
+    when: July 23
+    date: '1966-07-23'
+    thread: open-housing
+    also: [king]
+    c: 'Chicago. The Chicago Freedom Movement Assembly. Alvin Pitcher: "Real estate agencies are operating illegally." King: not "a cold reception" from the mayor, but no commitments; hence the summer''s action. A demonstration planned for July 29; a rent strike Aug. 1.'
+    n: '[[w.anderson-confronting-the-color-line]], 218–19. To check: See Chicago Sun-Times, 13 July 1966 (cited by [[w.anderson-confronting-the-color-line]], 218 n.27); New York Times, the week of July 23, 1966 ("that week," as the note gives it) (cited by [[w.anderson-confronting-the-color-line]], 218 n.28). Names: King.'
+    src:
+      c: 87c7551e
+      rows:
+        - 'w.anderson-confronting-the-color-line 218–19: all'
+        - 'via w.anderson-confronting-the-color-line 218 n.27: all'
+        - 'via w.anderson-confronting-the-color-line 218 n.28: all'
+    tags: [name:king-martin-luther-jr, state:il, city:chicago]
   - id: cal.1966-07-24.opinion
     when: July 24
     date: '1966-07-24'
@@ -1534,6 +1839,13 @@ entries:
       c: 944e3a20
       rows:
         - 'w.staaveren-u-s-air-force 173: all'
+  - id: cal.1966-07-24.open-housing
+    when: July 24
+    date: '1966-07-24'
+    thread: open-housing
+    c: Chicago, Gage Park. A prayer vigil at St. Gall's Catholic Church; young whites throw eggs and jeer.
+    n: '[[w.ralph-northern-protest]], 119. See [[cal.1966-07-17.open-housing]].'
+    tags: [state:il, city:chicago]
   - id: cal.1966-07-25.vietnam
     when: July 25
     date: '1966-07-25'
@@ -1579,7 +1891,7 @@ entries:
     thread: open-housing
     also: [civil-rights-bill]
     c: 'Howard Smith opens the House debate on the civil rights bill for the opposition: "we tremble in our seats and yield to the fear of the Negro revolution. If that is the kind of spirit that has come to this country . . ."'
-    n: 'Smith, [112 Cong. Rec. 16834](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt13/pdf/GPO-CRECB-1966-pt13-3-1.pdf#page=4) (1966) (July 25, 1966). [[w.sundquist-politics-and-policy]], 280. Check: Sundquist, 280 n.184, prints the page 16054. See [[cal.1966-08-09.open-housing]]. Names: Smith.'
+    n: 'Smith, [112 Cong. Rec. 16,834](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt13/pdf/GPO-CRECB-1966-pt13-3-1.pdf#page=4) (1966) (July 25, 1966). [[w.sundquist-politics-and-policy]], 280. Check: Sundquist, 280 n.184, prints the page 16054. See [[cal.1966-08-09.open-housing]]. Names: Smith.'
     src:
       c: b035eee3
       rows:
@@ -1609,6 +1921,19 @@ entries:
       rows:
         - 'w.gibbons-u-s-government-and IV, 396 n: all'
     tags: [name:nguyen-cao-ky]
+  - id: cal.1966-07-25.civil-disorders
+    when: July 25
+    date: '1966-07-25'
+    thread: civil-disorders
+    also: [mayors]
+    c: Chicago. Daley appoints twenty-three to the police-community relations committee he agreed to in the riot. Most of them, the *Sun-Times* reports July 28, do not count police brutality within their charge.
+    n: '[[w.anderson-confronting-the-color-line]], 221. To check: Don Rose, "Open City Background Memo and Action Report," 25 July 1966 (cited by [[w.anderson-confronting-the-color-line]], 221 n.33). See [[cal.1966-07-15.open-housing-2]]. Names: Daley.'
+    src:
+      c: 54b98fe2
+      rows:
+        - 'w.anderson-confronting-the-color-line 221: all'
+        - 'via w.anderson-confronting-the-color-line 221 n.33: all'
+    tags: [name:daley-richard-j, state:il, city:chicago]
   - id: cal.1966-07-26.elections-1966
     when: July 26
     date: '1966-07-26'
@@ -1635,7 +1960,7 @@ entries:
     date: '1966-07-26'
     thread: civil-disorders
     c: 'Stephen Young of Ohio in the Senate, of the Hough riots in Cleveland: "The housing program is too small. The poverty program is too small. The program for slum schools is too small."'
-    n: 'Young, [112 Cong. Rec. 17041](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt13/pdf/GPO-CRECB-1966-pt13-4-1.pdf#page=4) (1966) (July 26, 1966). [[w.sundquist-politics-and-policy]], 284. Check: Sundquist, 284 n.197, prints the page 16246. Names: Young.'
+    n: 'Young, [112 Cong. Rec. 17,041](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt13/pdf/GPO-CRECB-1966-pt13-4-1.pdf#page=4) (1966) (July 26, 1966). [[w.sundquist-politics-and-policy]], 284. Check: Sundquist, 284 n.197, prints the page 16246. Names: Young.'
     src:
       c: e6d0fc01
       rows:
@@ -1649,7 +1974,7 @@ entries:
     thread: open-housing
     also: [civil-rights-organizations]
     c: 'The Leadership Conference on Civil Rights on the Mathias compromise: most of its members critical of it, the bill weakened; most will support it, for the Republican votes it may bring in the Senate, or keep silent. Wilkins presses for open housing.'
-    n: '[[w.zelizer-fierce-urgency-of-now]], 240. To check: Ben A. Franklin, "Wilkins Presses for Open Housing," *New York Times*, July 27, 1966 (cited by [[w.zelizer-fierce-urgency-of-now]], 240 n.33). Check: the day. See [[cal.1966-06-29.open-housing]]. Names: Wilkins.'
+    n: '[[w.zelizer-fierce-urgency-of-now]], 240. To check: Ben A. Franklin, "Wilkins Presses for Open Housing," [*New York Times*, July 27, 1966](https://timesmachine.nytimes.com/timesmachine/1966/07/27/issue.html) (cited by [[w.zelizer-fierce-urgency-of-now]], 240 n.33). Check: the day. See [[cal.1966-06-29.open-housing]]. Names: Wilkins.'
     src:
       c: 398f3e00
       rows:
@@ -1681,7 +2006,7 @@ entries:
     thread: republican-party
     also: [civil-disorders]
     c: 'Goldwater: the answer to racial unrest not legislation but better police and stronger public support for them.'
-    n: '[[w.sundquist-politics-and-policy]], 285. To check: *New York Times*, July 28, 1966 (cited by [[w.sundquist-politics-and-policy]], 285 n.202). See [[cal.1966-07-19.civil-disorders]]. Names: Goldwater. Check: the day; Sundquist cites the *Times* of July 28.'
+    n: '[[w.sundquist-politics-and-policy]], 285. To check: [*New York Times*, July 28, 1966](https://timesmachine.nytimes.com/timesmachine/1966/07/28/issue.html) (cited by [[w.sundquist-politics-and-policy]], 285 n.202). See [[cal.1966-07-19.civil-disorders]]. Names: Goldwater. Check: the day; Sundquist cites the *Times* of July 28.'
     src:
       c: ea23c225
       rows:
@@ -1694,7 +2019,7 @@ entries:
     thread: open-housing
     also: [republican-party-congress]
     c: 'Mathias answers Smith: "we are not yielding to threats. Rather, we are responding to conditions—conditions which have been forced to our attention convulsively and dramatically."'
-    n: 'Mathias, [112 Cong. Rec. 17180](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt13/pdf/GPO-CRECB-1966-pt13-5-1.pdf#page=2) (1966) (July 27, 1966). [[w.sundquist-politics-and-policy]], 280. Check: Sundquist, 280 n.185, prints the page 16378. See [[cal.1966-07-25.open-housing]]. Names: Mathias, Smith.'
+    n: 'Mathias, [112 Cong. Rec. 17,180](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt13/pdf/GPO-CRECB-1966-pt13-5-1.pdf#page=2) (1966) (July 27, 1966). [[w.sundquist-politics-and-policy]], 280. Check: Sundquist, 280 n.185, prints the page 16378. See [[cal.1966-07-25.open-housing]]. Names: Mathias, Smith.'
     src:
       c: fe26980d
       rows:
@@ -1702,9 +2027,23 @@ entries:
         - 'w.sundquist-politics-and-policy 280: all'
         - 'via x.1966-07-27.mathias-ibid-july-27-1966-p: all'
     tags: [name:mathias-charles-mcc-jr, name:smith-howard-w]
+  - id: cal.1966-07-27.transition-and-staff
+    when: July 27
+    date: '1966-07-27'
+    thread: transition-and-staff
+    also: [program]
+    c: Gaither joins Califano's staff and begins at once, with men from the CEA, the Budget Bureau and OST, to collect ideas for the program from the departments' "idea men," the Budget Bureau's examiners and young officials Macy names. By Gaither's account.
+    n: '[[w.graham-uncertain-triumph]], 250–51 n.8. To check: Transcript, "James Gaither Oral History Interview," Nov. 19, 1968, LBJ Library (cited by [[w.graham-uncertain-triumph]], 251 n.8). Names: Califano, Macy.'
+    src:
+      c: 5f8c2cc1
+      rows:
+        - 'w.graham-uncertain-triumph 250–51 n.8: all'
+        - 'via w.graham-uncertain-triumph 251 n.8: all'
+    tags: [name:califano-joseph-a-jr, name:macy-john-w-jr]
   - id: cal.1966-07-28.india-and-china-cultural-revolution
     when: July 28
     date: '1966-07-28'
+    time: 1966-07-28T15:10Z
     thread: india-and-china-cultural-revolution
     c: 'Rostow to Johnson: "the crisis inside Communist China" may prove "the most significant event now taking place on the world scene."'
     n: '[FRUS 1964–68, XXX, doc. 172](https://history.state.gov/historicaldocuments/frus1964-68v30/d172). To check: [[w.macfarquhar-maos-last-revolution]]; [[w.goh-constructing-the-u-s]]. Names: Rostow, Johnson.'
@@ -1737,12 +2076,20 @@ entries:
     date: '1966-07-28'
     thread: open-housing
     c: 'The National Association of Real Estate Boards, a secret bulletin to its members: tell the representatives to reject the compromise; every local branch to "telephone, wire or write [its] Representative in the House to vote to strike Title IV from the bill."'
-    n: '[[w.zelizer-fierce-urgency-of-now]], 240. To check: Ben A. Franklin, "Realtors'' Lobby Calls for Fight on Open Housing," *New York Times*, July 29, 1966 (cited by [[w.zelizer-fierce-urgency-of-now]], 240 n.34). Check: the day; Zelizer writes the National Association of Real Estate Brokers, the realtors'' Washington office its source. See [[cal.1966-05-24.open-housing]].'
+    n: '[[w.zelizer-fierce-urgency-of-now]], 240. To check: Ben A. Franklin, "Realtors'' Lobby Calls for Fight on Open Housing," [*New York Times*, July 29, 1966](https://timesmachine.nytimes.com/timesmachine/1966/07/29/issue.html) (cited by [[w.zelizer-fierce-urgency-of-now]], 240 n.34). Check: the day; Zelizer writes the National Association of Real Estate Brokers, the realtors'' Washington office its source. See [[cal.1966-05-24.open-housing]].'
     src:
       c: 0dcfe29c
       rows:
         - 'w.zelizer-fierce-urgency-of-now 240: all'
         - 'via w.zelizer-fierce-urgency-of-now 240 n.34: all'
+  - id: cal.1966-07-28.open-housing-2
+    when: July 28
+    date: '1966-07-28'
+    thread: open-housing
+    also: [king]
+    c: Chicago, a South Side rally, Carmichael in the city the same day. King announces an all-night vigil on the Southwest Side for the next day.
+    n: '[[w.ralph-northern-protest]], 119. Names: King, Carmichael.'
+    tags: [state:il, city:chicago, name:king-martin-luther-jr, name:carmichael-stokely]
   - id: cal.1966-07-29.europe-and-the-alliance
     when: July 29
     date: '1966-07-29'
@@ -1789,6 +2136,7 @@ entries:
   - id: cal.1966-07-29.jobs-and-wages-airlines
     when: July 29
     date: '1966-07-29'
+    time: 1966-07-30T01:52Z
     thread: jobs-and-wages-airlines
     also: [economy]
     c: '9:52 p.m., Johnson on television with Siemiller, the machinists'' president, and the airlines'' negotiator: an agreement "essentially within the general framework" of the board, some 72 cents an hour over three years; "this settlement ... will not be inflationary."'
@@ -1806,7 +2154,7 @@ entries:
     date: '1966-07-29'
     thread: open-housing
     c: Chicago, the Southwest Side. July 29, a vigil of fifty outside F. H. Halvorsen Realty, Kedzie and 63rd, called off before midnight before hecklers ten times their number. July 30, 250 march from New Friendship Baptist through Marquette Park; met with eggs, bottles and rocks, Bevel and Raby turn back short of Halvorsen.
-    n: '[[w.branch-at-canaans-edge]], 506–8. To check: [[w.ralph-northern-protest]], 119 (cited by [[w.branch-at-canaans-edge]], 506); [[w.anderson-confronting-the-color-line]], 221–23 (cited by [[w.branch-at-canaans-edge]], 506); Mary Lou Finley, "The Open Housing Marches Chicago Summer 1966," in Garrow, ed., Chicago 1966, p. 12 (cited by [[w.branch-at-canaans-edge]], 506); [[w.anderson-confronting-the-color-line]], 217 (cited by [[w.branch-at-canaans-edge]], 507); [[w.garrow-bearing-the-cross]], 498 (cited by [[w.branch-at-canaans-edge]], 507); Garrow, *Chicago 1966* (1989), 24 (cited by [[w.branch-at-canaans-edge]], 507); [[w.cohen-american-pharaoh]], 393 (cited by [[w.branch-at-canaans-edge]], 507); Marx to "dear friend," Aug. 6, 1966, Courtesy of Jane Ramsey (cited by [[w.branch-at-canaans-edge]], 507); Int. Robert J. Marx, Sept. 19, 2005 (Branch) (cited by [[w.branch-at-canaans-edge]], 507); [[w.ralph-northern-protest]], 120 (cited by [[w.branch-at-canaans-edge]], 507); [[w.cohen-american-pharaoh]], 392–93 (cited by [[w.branch-at-canaans-edge]], 507). See [[cal.1966-07-17.open-housing]]. Names: Raby.'
+    n: '[[w.branch-at-canaans-edge]], 506–8; [[w.ralph-northern-protest]], 119–20; [[w.anderson-confronting-the-color-line]], 223–24; [[w.cohen-american-pharaoh]], 392–93. Check: Ralph has Bevel and Jesse Jackson lead the vigil of July 29 (119), and the 250 of July 30, Raby and Bevel leading, reach Halvorsen Realty (120). Check: Anderson has the vigil at Halvorsen''s called off after six hours, and on July 30 an integrated group of 450 marching from the action center in Englewood to Halvorsen Realtors in Gage Park; six hurt, seven whites arrested (223–24). To check: Mary Lou Finley, "The Open Housing Marches Chicago Summer 1966," in Garrow, ed., Chicago 1966, p. 12 (cited by [[w.branch-at-canaans-edge]], 506); [[w.garrow-bearing-the-cross]], 498 (cited by [[w.branch-at-canaans-edge]], 507); Garrow, *Chicago 1966* (1989), 24 (cited by [[w.branch-at-canaans-edge]], 507); Marx to "dear friend," Aug. 6, 1966, Courtesy of Jane Ramsey (cited by [[w.branch-at-canaans-edge]], 507); Int; Chicago Tribune, July 30, 1966, 7; FBI 100-106670-2648, July 29, 1966 (cited by [[w.ralph-northern-protest]], 119 n.80); Chicago Sun-Times, 30 July 1966; CCCO-SCLC press release, "Why Halvorsen Realtors?" 29 July 1966 (cited by [[w.anderson-confronting-the-color-line]], 223 n.35); Chicago Sun-Times, 31 July 1966 (cited by [[w.anderson-confronting-the-color-line]], 224 n.36). Robert J. Marx, Sept. 19, 2005 (Branch) (cited by [[w.branch-at-canaans-edge]], 507); [[w.ralph-northern-protest]], 120 (cited by [[w.branch-at-canaans-edge]], 507); [[w.cohen-american-pharaoh]], 392–93 (cited by [[w.branch-at-canaans-edge]], 507). See [[cal.1966-07-17.open-housing]]. Names: Raby.'
     src:
       c: 6b3ae1f3
       rows:
@@ -1815,6 +2163,13 @@ entries:
         - 'via x.1989.david-j-garrow-ed-chicago-1966: all'
         - 'via x.1966-08-06.marx-to-dear-friend-aug-6: all'
         - 'via x.2005-09-19.int-robert-j-marx-sept-19: all'
+        - 'w.ralph-northern-protest 119–20: A-C'
+        - 'via w.ralph-northern-protest 119 n.80a: B'
+        - 'via w.ralph-northern-protest 119 n.80b: B'
+        - 'w.anderson-confronting-the-color-line 223–24: A-C'
+        - 'via w.anderson-confronting-the-color-line 223 n.35: A-C'
+        - 'via w.anderson-confronting-the-color-line 224 n.36: A-C'
+        - 'w.cohen-american-pharaoh 392–93: A-B, D'
     tags: [name:raby-albert, state:il, city:chicago]
   - id: cal.1966-07-29.laos
     when: July 29
@@ -1915,11 +2270,14 @@ entries:
     thread: vietnam-congress
     also: [republican-party-congress]
     c: 'Fourteen Representatives who support the war sent to Vietnam by the White House, to report to the President. Carter (R-Ky.), the senior Republican, back at the White House: "No, Mr. President, you''re not winning the war."'
-    n: '[[w.johns-vietnams-second-front]], 113. Check: the dates. Names: Carter.'
+    n: '[[w.johns-vietnams-second-front]], 113; [[w.gibbons-u-s-government-and]], IV, 351–52. Check: the dates. Check: Gibbons (IV, 351 n.112) names the fourteen, Murphy of New York leading, the "Speaker''s Committee"; the trip and the meeting at the White House on the return two events, their days not given. To check: the members'' statements after the trip, 112 Cong. Rec. 15364–76, 16688–91 (cited by [[w.gibbons-u-s-government-and]], IV, 351 n.112); CRS Interview with Tim Lee Carter, Mar. 19, 1979 (cited by [[w.gibbons-u-s-government-and]], IV, 352 n.113). Names: Carter.'
     src:
       c: ea432e5d
       rows:
         - 'w.johns-vietnams-second-front 113: all'
+        - 'w.gibbons-u-s-government-and IV, 351–52: A-B'
+        - 'via w.gibbons-u-s-government-and IV, 351 n.112: A'
+        - 'via w.gibbons-u-s-government-and IV, 352 n.113: B'
     tags: [name:carter-tim-l]
   - id: cal.1966-07.elections-1968
     when: July
@@ -2010,7 +2368,7 @@ entries:
     date: '1966-07-31'
     thread: open-housing
     c: Chicago. 550 march up Kedzie under some two hundred police; a crowd massing to four thousand; bricks and cherry bombs; "Burn them like Jews!" Forty marchers and two officers to the hospital; a dozen cars burned, two pushed into a pond.
-    n: '[[w.branch-at-canaans-edge]], 508–9 (Rabbi Robert Marx: "I should have been with the marchers"; the Tribune against "the imported prophets of ''nonviolence''"); [[w.bernstein-guns-or-butter]], 397–98 (against Halvorsen Realtors, Gage Park; thirty-one injured). To check: [[w.cohen-american-pharaoh]], 392–93 (cited by [[w.branch-at-canaans-edge]], 508); "54 Hurt as Whites in Chicago Hurl Bricks at Rights Marchers," NYT, Aug. 1, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 508); Karen Koko, "Chicago''s Race March—A Walk on the Wild Side," National Catholic Reporter, Aug. 10, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 508); "Dr. King Calls Chicago Police Lax in March Duty," NYT, Aug. 2, 1966, p. 12 (cited by [[w.branch-at-canaans-edge]], 508); Jet, Aug. 18, 1966, pp. 52-55 (cited by [[w.branch-at-canaans-edge]], 508); [[w.anderson-confronting-the-color-line]], 223–24 (cited by [[w.branch-at-canaans-edge]], 508); Garrow, *Chicago 1966* (1989), 63–64 (cited by [[w.branch-at-canaans-edge]], 508); "Information Report, 8th District, 1 Aug. 66, 0030 Hours," File 940, RS, CHS (cited by [[w.branch-at-canaans-edge]], 508); [[w.young-easy-burden]], 413 (cited by [[w.branch-at-canaans-edge]], 508); Jet, Sept. 8, 1966, pp. 46-47 (cited by [[w.branch-at-canaans-edge]], 508); [[w.ralph-northern-protest]], 122–23 (cited by [[w.branch-at-canaans-edge]], 508); Chicago Tribune, Aug. 5, 1966, cited in Anderson and Pickering, Confronting, p. 228 (cited by [[w.branch-at-canaans-edge]], 509). See [[cal.1966-07-30.open-housing]]. Names: Raby.'
+    n: '[[w.branch-at-canaans-edge]], 508–9 (Rabbi Robert Marx: "I should have been with the marchers"; the Tribune against "the imported prophets of ''nonviolence''"); [[w.bernstein-guns-or-butter]], 397–98 (against Halvorsen Realtors, Gage Park; thirty-one injured); [[w.young-easy-burden]], 413 (a march Young does not date: his rented Ford set afire and rolled into a lake); [[w.ralph-northern-protest]], 120–21; [[w.anderson-confronting-the-color-line]], 224 (Kedzie Avenue; bricks and bottles; "Burn them like Jews"); [[w.cohen-american-pharaoh]], 393. Check: Ralph gives five hundred marchers and more than fifty of them injured (120–21). Check: Anderson gives 350 marchers in Gage Park (224). Check: Cohen and Taylor give 500 residents at first, the crowd growing to 4,000, and more than 50 hurt (393). To check: "54 Hurt as Whites in Chicago Hurl Bricks at Rights Marchers," NYT, Aug. 1, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 508); Karen Koko, "Chicago''s Race March—A Walk on the Wild Side," National Catholic Reporter, Aug. 10, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 508); "Dr. King Calls Chicago Police Lax in March Duty," NYT, Aug. 2, 1966, p. 12 (cited by [[w.branch-at-canaans-edge]], 508); Jet, Aug. 18, 1966, pp. 52–55 (cited by [[w.branch-at-canaans-edge]], 508); Garrow, *Chicago 1966* (1989), 63–64 (cited by [[w.branch-at-canaans-edge]], 508); "Information Report, 8th District, 1 Aug. 66, 0030 Hours," File 940, RS, CHS (cited by [[w.branch-at-canaans-edge]], 508); Jet, Sept. 8, 1966, pp. 46–47 (cited by [[w.branch-at-canaans-edge]], 508); Chicago Tribune, Aug. 5, 1966, cited in Anderson and Pickering, Confronting, p. 228 (cited by [[w.branch-at-canaans-edge]], 509); Kay Holper, "A Sunday Afternoon Walk in Marquette Park," CCCO papers, box 1–27, MLK Library (cited by [[w.ralph-northern-protest]], 120 n.82); Chicago Sun-Times, 31 July 1966 (cited by [[w.anderson-confronting-the-color-line]], 224 n.36). See [[cal.1966-07-30.open-housing]]. Names: Raby.'
     src:
       c: ad0fc16a
       rows:
@@ -2024,6 +2382,13 @@ entries:
         - 'via x.1966-09-08.jet-sept-8-1966-pp-46: all'
         - 'via x.1966-08-05.chicago-tribune-aug-5-1966-cited: all'
         - 'w.bernstein-guns-or-butter 397–98: A'
+        - 'w.young-easy-burden 413: G'
+        - 'w.ralph-northern-protest 120–21: A-B, D, G'
+        - 'via w.ralph-northern-protest 120 n.82a: A-B, D, G'
+        - 'via w.ralph-northern-protest 121 n.84: G'
+        - 'w.anderson-confronting-the-color-line 224: A, D-E'
+        - 'via w.anderson-confronting-the-color-line 224 n.36: A, D-E'
+        - 'w.cohen-american-pharaoh 393: A, C-E, G'
     tags: [name:raby-albert, state:il, city:chicago]
   - id: cal.1966-07.robert-kennedy-2
     when: July
@@ -2056,12 +2421,14 @@ entries:
     thread: vietnam-congress
     also: [school-aid]
     c: 'Morse, Cater to Johnson, "declared war on his President and is trying to use education legislation as his weapon": the war short-changing schoolchildren, his subcommittee more than doubles the Elementary and Secondary Education Act''s appropriations. Cohen, asked whether the increase is justified on educational grounds: "Definitely not."'
-    n: '[[w.bernstein-guns-or-butter]], 409. To check: Cater to Johnson, July 11–16, 1966, Cater Papers, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 409 n.9). Check: the days. Names: Morse, Cater, Cohen, Johnson.'
+    n: '[[w.bernstein-guns-or-butter]], 409; [[w.graham-uncertain-triumph]], 128–29 (Cater''s "Talking Points with Senator Hill"; Hill summoned to the White House; "To veto an education bill would be like killing one of your own children"). Check: Graham, 129 n.36, dates Cater''s memorandum July 16, the subcommittee''s report "yesterday," July 15. To check: Cater to Johnson, July 11–16, 1966, Cater Papers, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 409 n.9); Memorandum, Cater to President Johnson, July 16, 1966 ("Talking Points with Senator Hill"), Cater file, container 15, LBJ Library (cited by [[w.graham-uncertain-triumph]], 129 n.36). Check: the days. Names: Morse, Cater, Cohen, Johnson.'
     src:
       c: 6946b312
       rows:
         - 'w.bernstein-guns-or-butter 409: all'
         - 'via x.1966.cater-to-johnson-cater-papers-1966: all'
+        - 'w.graham-uncertain-triumph 128–29: A'
+        - 'via w.graham-uncertain-triumph 129 n.36: A'
     tags: [name:morse-wayne, name:cater-s-douglass, name:cohen-wilbur-j, name:johnson-lyndon-b]
   - id: cal.1966-07.intelligence
     when: July, late
@@ -2130,3 +2497,84 @@ entries:
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 268: all'
     tags: [name:mcnamara-robert-s]
+  - id: cal.1966-07.antisubversion
+    when: July
+    date: 1966-07
+    thread: antisubversion
+    also: [vietnam-congress]
+    c: Johnson orders the FBI to seek derogatory information on ninety-three of Morse's supporters in Oregon.
+    n: '[[w.wells-war-within]], 69. Check: the day. See [[cal.1966-03-26.antisubversion]]. Names: Johnson, Morse.'
+    src:
+      c: bd0a6491
+      rows:
+        - 'w.wells-war-within 69: all'
+    tags: [name:johnson-lyndon-b, name:morse-wayne, state:or]
+  - id: cal.1966-07.jobs-and-wages
+    when: July, late
+    date: 1966-07
+    thread: jobs-and-wages
+    c: Chicago. Operation Breadbasket turns from the dairies to the soft drink bottlers; by the month's end, agreements with Coca-Cola and Pepsi-Cola, thirty new Negro employees each.
+    n: '[[w.ralph-northern-protest]], 200. Check: the day. See [[cal.1966-07-22.jobs-and-wages]].'
+    tags: [state:il, city:chicago]
+  - id: cal.1966-07.open-housing
+    when: July, late
+    date: 1966-07
+    thread: open-housing
+    c: Chicago. Women Mobilized for Change, formed after a meeting with Coretta King in mid-July, holds a women's witness outside City Hall for Negro rights; Daley meets a delegation that day.
+    n: '[[w.ralph-northern-protest]], 140–41. Check: the days. To check: "An Open Letter of Concern," July 29, 1966, WMC papers, box 1-1, UIC (cited by [[w.ralph-northern-protest]], 141 n.32). Names: Coretta King, Daley.'
+    tags: [state:il, city:chicago, name:king-coretta-scott, name:daley-richard-j]
+  - id: cal.1966-07.open-housing-2
+    when: July, mid
+    date: 1966-07
+    thread: open-housing
+    c: 'Alinsky to a Washington Post reporter: "I think King is finished. He''s trapped. He can''t get out of [Chicago] in less than ten months to a year and he doesn''t know what to do if he stays."'
+    n: '[[w.ralph-northern-protest]], 92. Check: the day. To check: Washington Post, July 17, 1966, 8 (cited by [[w.ralph-northern-protest]], 92 n.2). Names: King.'
+    tags: [state:il, city:chicago, name:king-martin-luther-jr]
+  - id: cal.1966-07.open-housing-3
+    when: July, late
+    date: 1966-07
+    thread: open-housing
+    also: [states-and-cities]
+    c: Springfield, Ill. A judge exempts 154 real estate brokers, twenty-two of the Chicago area, from Kerner's open housing order, the order usurping the legislature's function and violating the right of contract.
+    n: '[[w.anderson-confronting-the-color-line]], 223. Check: the day; Anderson tells it before the vigil of July 29. To check: Chicago Sun-Times, 24, 27, 28, 30 July 1966; New York Times, 31 July 1966 (cited by [[w.anderson-confronting-the-color-line]], 223 n.34). See [[cal.1966-07-18.open-housing-2]]. Names: Kerner.'
+    src:
+      c: ffde809c
+      rows:
+        - 'w.anderson-confronting-the-color-line 223: all'
+        - 'via w.anderson-confronting-the-color-line 223 n.34: all'
+    tags: [name:kerner-otto, state:il]
+  - id: cal.1966-07.transition-and-staff
+    when: July
+    date: 1966-07
+    thread: transition-and-staff
+    c: Schultze names William Carey an assistant director of the Budget Bureau to work out interagency and intergovernmental troubles; the Bureau's management office to survey what works in the field.
+    n: '[[w.graham-uncertain-triumph]], 103. Check: the month; "the summer of 1966." Names: Schultze, Carey.'
+    src:
+      c: e9f8d744
+      rows:
+        - 'w.graham-uncertain-triumph 103: all'
+    tags: [name:schultze-charles-l, name:carey-william-d]
+  - id: cal.1966-07.civil-rights-organizations
+    when: July
+    date: 1966-07
+    thread: civil-rights-organizations
+    also: [war-opposition]
+    c: Farmer and CORE's national board for immediate withdrawal from Vietnam; SNCC for evading service.
+    n: '[[w.debenedetti-american-ordeal]], 158. Check: the day. Names: Farmer.'
+    src:
+      c: aeb62a38
+      rows:
+        - 'w.debenedetti-american-ordeal 158: all'
+    tags: [name:farmer-james]
+  - id: cal.1966-07.democratic-party
+    when: July
+    date: 1966-07
+    thread: democratic-party
+    also: [war-opposition]
+    c: 'Shull and Gans of ADA with leaders of some unions, the Council for a Livable World, SANE and the Inter-University Committee, Lowenstein among them: a dozen and a half antiwar candidates to be backed, Gans to raise their funds.'
+    n: '[[w.debenedetti-american-ordeal]], 148. Check: the day; DeBenedetti: "mid-July." Names: Gans, Lowenstein.'
+    src:
+      c: aa31a374
+      rows:
+        - 'w.debenedetti-american-ordeal 148: all'
+    tags: [name:gans-curtis, name:lowenstein-allard]

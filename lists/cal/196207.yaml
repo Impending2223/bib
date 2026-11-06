@@ -23,13 +23,15 @@ entries:
     thread: berlin-and-vienna
     also: [soviet-union, missile-crisis]
     c: 'The Presidium, Mikoyan absent, before Raúl Castro''s visit. Khrushchev renews the push on West Berlin: on a peace treaty the Western garrisons halved, under the UN flag; in two years replaced by non-Western UN troops; in six, all out; "An international organ is unacceptable"; even by "aggravating things." Against McNamara''s Ann Arbor speech: "Not targeting cities—how aggressive! . . . To get the population used to the idea that nuclear war will take place." The UN to take up Germany in a crisis once the missiles are in Cuba in November. The Soviet–Cuban defense agreement approved; Anadyr shipped by Nov. 1.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 440–43. To check: Protocol 39, July 1, 1962, [[w.prezidium-tsk-kpss-1954]], I (cited by [[w.fursenko-khrushchevs-cold-war]], 441 nn.6–9, 442 n.12). See [[cal.1962-06-10.missile-crisis]]. Names: Mikoyan, Khrushchev, McNamara, Raúl Castro.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 440–43; [[w.prezidium-tsk-kpss-1954]], I, 569–70 (Protocol 39). Check: the protocol (I, 569) lists Mikoyan present; it has nothing of the UN taking up Germany once the missiles are in Cuba. To check: Protocol 39, July 1, 1962, [[w.prezidium-tsk-kpss-1954]], I (cited by [[w.fursenko-khrushchevs-cold-war]], 441 nn.6–9, 442 n.12). See [[cal.1962-06-10.missile-crisis]]. Names: Mikoyan, Khrushchev, McNamara, Raúl Castro.'
     src:
       c: f23606d8
       rows:
         - 'w.fursenko-khrushchevs-cold-war 440–43: all'
         - 'via w.fursenko-khrushchevs-cold-war 441 n.6: A-B'
         - 'via w.fursenko-khrushchevs-cold-war 442 n.12: C'
+        - 'w.prezidium-tsk-kpss-1954 I, 569–70: B-G, I-J'
+        - 'via x.1962-07-01.presidium-protocol-39: B-G, I-J'
     tags: [name:mikoyan-anastas, name:khrushchev-nikita-s, name:mcnamara-robert-s, name:castro-raul]
   - id: cal.1962-07-01.vietnam
     when: July 1
@@ -57,11 +59,13 @@ entries:
     thread: soviet-union
     also: [defense]
     c: 'The Presidium. Khrushchev on McNamara''s Ann Arbor speech: "Not targeting cities — how aggressive! What is their aim?"'
-    n: '[[w.poole-joint-chiefs-of-staff]], 31–32. To check: [[w.fursenko-khrushchevs-cold-war]], 442 (cited by [[w.poole-joint-chiefs-of-staff]], 31 n.49). See [[cal.1962-06-16.defense]]. Names: Khrushchev, McNamara.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 31–32; [[w.prezidium-tsk-kpss-1954]], I, 569 (Protocol 39). To check: [[w.fursenko-khrushchevs-cold-war]], 442 (cited by [[w.poole-joint-chiefs-of-staff]], 31 n.49). See [[cal.1962-06-16.defense]]. Names: Khrushchev, McNamara.'
     src:
       c: 707bd4f2
       rows:
         - 'w.poole-joint-chiefs-of-staff 31–32: all'
+        - 'w.prezidium-tsk-kpss-1954 I, 569: all'
+        - 'via x.1962-07-01.presidium-protocol-39: all'
     tags: [name:khrushchev-nikita-s, name:mcnamara-robert-s]
   - id: cal.1962-07-02.republican-party
     when: July 2
@@ -134,9 +138,36 @@ entries:
         - 'w.goldberg-barry-goldwater 165: A'
         - 'via w.goldberg-barry-goldwater 165 n.89: A'
     tags: [name:eisenhower-dwight-d, name:goldwater-barry-m]
+  - id: cal.1962-07-03.missile-crisis-anadyr
+    when: July 3
+    date: '1962-07-03'
+    thread: missile-crisis-anadyr
+    also: [cuba, soviet-union]
+    c: Moscow. Raúl Castro, Cuba's defense minister, with Khrushchev, the first of two talks, to settle the Soviet commitment in detail. General Dementyev, head of the Soviet military mission, raises again the U-2s.
+    n: '[[w.fursenko-khrushchevs-cold-war]], 444 (no Russian notes found; the Cuban record sealed). See [[cal.1962-07.missile-crisis]]. Names: Raúl Castro, Khrushchev.'
+    src:
+      c: 129ff569
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 444: all'
+    tags: [name:castro-raul, name:khrushchev-nikita-s]
+  - id: cal.1962-07-03.cuba
+    when: July 3
+    date: '1962-07-03'
+    thread: cuba
+    also: [robert-kennedy]
+    c: 'McCone with Robert Kennedy, about an hour, the morning. The Cuba ransom committee: Kennedy sympathetic, but no covert support now for its fund raising; a "lower price," an independent negotiator, part in food and medicine and four or five million dollars. McCone: the prisoners an asset, but payment would prolong Castro''s regime. The matter compartmented.'
+    n: 'Memorandum of Discussion, [FRUS 1961–63, X: Cuba, January 1961–September 1962, doc. 350](https://history.state.gov/historicaldocuments/frus1961-63v10/d350) (July 3, 1962). [[w.thomas-robert-kennedy]], 426 (a lower price; Kennedy at first reluctant to support the committee covertly). Names: McCone, Robert Kennedy, Castro.'
+    src:
+      c: d4e60c7c
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d350: all'
+        - 'w.thomas-robert-kennedy 426: B-C'
+        - 'via x.1962-07-03.mccone-memorandum-of-discussion-with-ag: B-C'
+    tags: [name:mccone-john-a, name:kennedy-robert-f, name:castro-fidel]
   - id: cal.1962-07-04.europe-and-the-alliance
     when: July 4
     date: '1962-07-04'
+    time: 1962-07-04T15:40Z
     thread: europe-and-the-alliance
     also: [european-community]
     c: Independence Hall. A "Declaration of Interdependence" with a uniting Europe.
@@ -151,6 +182,7 @@ entries:
   - id: cal.1962-07-05.civil-rights-the-executive
     when: July 5
     date: '1962-07-05'
+    time: 1962-07-05T20:00Z
     thread: civil-rights-the-executive
     also: [defense]
     c: 'News conference. The order against segregation in federally financed housing, after seventeen months: "I will announce it when we think it would be a useful and appropriate time." Asked of the $460 million for fallout shelters on which Armed Services has held no hearings: "When the skies are clear, no one is interested"; "I think the time to do it is now." A supplemental request of some $35 million to stock food against attack.'
@@ -214,12 +246,14 @@ entries:
     thread: missile-crisis-anadyr
     also: [soviet-union, cuba]
     c: 'The Presidium, after Khrushchev''s first meeting with Raúl Castro, July 3: at the Cubans'' and General Dementyev''s urging, the "defensive" weapons, the SAMs, to go first, all in July; the strategic missiles after, their shipments delayed for want of ships. All still to be done by Nov. 1.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 444–45. To check: Protocol 40, July 6, 1962, [[w.prezidium-tsk-kpss-1954]], I (cited by [[w.fursenko-khrushchevs-cold-war]], 444 n.18). See [[cal.1962-07.missile-crisis]]. Names: Khrushchev, Raúl Castro.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 444–45; [[w.prezidium-tsk-kpss-1954]], I, 571 (Protocol 40). Check: the protocol (I, 571) has Pliev to command, the defensive means first, then the others, and Kennedy''s and Rusk''s Independence Day speeches to be answered; nothing of the Cubans'' or Dementyev''s urging, or of the ships. To check: Protocol 40, July 6, 1962, [[w.prezidium-tsk-kpss-1954]], I (cited by [[w.fursenko-khrushchevs-cold-war]], 444 n.18). See [[cal.1962-07.missile-crisis]]. Names: Khrushchev, Raúl Castro.'
     src:
       c: d4fbaf1d
       rows:
         - 'w.fursenko-khrushchevs-cold-war 444–45: all'
         - 'via w.fursenko-khrushchevs-cold-war 444 n.18: A'
+        - 'w.prezidium-tsk-kpss-1954 I, 571: A-B'
+        - 'via x.1962-07-06.presidium-protocol-40: A-B'
     tags: [name:khrushchev-nikita-s, name:castro-raul]
   - id: cal.1962-07-06.congo
     when: July 6–12
@@ -271,9 +305,22 @@ entries:
         - 'via w.fursenko-one-hell-of-a 193 n.42a: C'
         - 'via w.fursenko-one-hell-of-a 193 n.42b: C'
     tags: [name:khrushchev-nikita-s, name:castro-raul]
+  - id: cal.1962-07-08.missile-crisis-anadyr
+    when: July 8
+    date: '1962-07-08'
+    thread: missile-crisis-anadyr
+    also: [cuba, soviet-union]
+    c: Moscow. Raúl Castro with Khrushchev, the second talk.
+    n: '[[w.fursenko-khrushchevs-cold-war]], 444 (no Russian notes found; the Cuban record sealed). See [[cal.1962-07-03.missile-crisis-anadyr]]. Names: Raúl Castro, Khrushchev.'
+    src:
+      c: 9f60b3ed
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 444: all'
+    tags: [name:castro-raul, name:khrushchev-nikita-s]
   - id: cal.1962-07-09.testing
     when: July 9
     date: '1962-07-09'
+    time: 1962-07-09T09:00Z
     thread: testing
     c: 'Starfish Prime: 1.4 megatons, 250 miles over Johnston Island. Artificial aurora; satellites damaged; streetlights out in Hawaii.'
     n: '[U.S. Department of Energy, *United States Nuclear Tests, July 1945 through September 1992*, DOE/NV-209, rev. 16 (2015), 26–27](https://www.osti.gov/servlets/purl/1351809#page=41). See [[cal.1962-04-25.testing]].'
@@ -305,9 +352,10 @@ entries:
   - id: cal.1962-07-10.space
     when: July 10
     date: '1962-07-10'
+    time: 1962-07-10T08:35Z
     thread: space
     c: 'Telstar launched. July 23: first live transatlantic television, Kennedy''s press conference among it.'
-    n: 'Statement by the President on the Telstar Communications Satellite, [1962 Pub. Papers 553](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=613) (July 11, 1962); News Conference, [1962 Pub. Papers 568](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=628) (July 23, 1962). The satellite bill: [[cal.1962-08-14.rules]]. Check: Branch, 601, has the first live pictures across the Atlantic, by Telstar, on the networks'' evening programs of July 10: Johnson with the scientists, and from France Yves Montand (citing the New York Times, July 11, 1962, 1). See [[cal.1961-04-12.space]].'
+    n: 'Statement by the President on the Telstar Communications Satellite, [1962 Pub. Papers 553](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=613) (July 11, 1962); News Conference, [1962 Pub. Papers 568](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=628) (July 23, 1962). The satellite bill: [[cal.1962-08-14.rules]]. [Kennedy Space Center, *Summary of Major NASA Launchings, October 1, 1958–September 30, 1973* (1973), PDF p. 64](https://ntrs.nasa.gov/api/citations/19740015280/downloads/19740015280.pdf#page=64) (the time). Check: Branch, 601, has the first live pictures across the Atlantic, by Telstar, on the networks'' evening programs of July 10: Johnson with the scientists, and from France Yves Montand (citing the New York Times, July 11, 1962, 1). See [[cal.1961-04-12.space]].'
     tags: [name:kennedy-john-f]
     short: Telstar
   - id: cal.1962-07-10.albany
@@ -316,7 +364,7 @@ entries:
     thread: georgia-albany
     also: [king]
     c: King and Abernathy choose jail over fines. Out July 12, the fines paid by an unnamed hand.
-    n: 'SCLC, "Press Release, King and Abernathy Choose Jail Time over Fine," July 10, 1962, [[w.papers-of-martin-luther-vii]], 510 ([King Institute](https://kinginstitute.stanford.edu/king-papers/documents/press-release-king-and-abernathy-choose-jail-time-over-fine)). King, [Albany Jail Diary from 10 July 1962 to 11 July 1962](https://okra.stanford.edu/link/document620711-002) (King Papers Project), printed in [[w.papers-of-martin-luther-vii]], 511 ([King Institute](https://kinginstitute.stanford.edu/king-papers/documents/albany-jail-diary-10-july-11-july-1962)). [[w.garrow-bearing-the-cross]], 201–04; [[w.branch-parting-the-waters]], 600, 606. Check: Branch, 600, gives Judge Durden''s sentence, for the arrests of December, $178 or forty-five days, King and Abernathy alike. To check: [[w.abernathy-and-the-walls-came]]; "Statement of Dr. King . . .," July 10, 1962, King Center; Albany Herald, July 10, 1962, 1; New York Times, July 11, 1962, 1; Atlanta Constitution, July 11, 1962, 1; SAC Atlanta to Director, July 10, 1962 (two), FBI file 157-6-2-406, 417 (cited by [[w.garrow-bearing-the-cross]], 203 n.29); New York Times, July 12, 1962, 1; July 13, 1962, 10; trial transcript, vol. 4, 1144 (King''s testimony, Aug. 8, 1962), Albany''s suit against the movement, M.D. Ga., trial record, Middle District of Georgia; Afro-American, July 21, 1962, 1 (cited by [[w.garrow-bearing-the-cross]], 204 n.30). See [[cal.1961-11-17.albany]]. Names: King, Abernathy.'
+    n: 'SCLC, "Press Release, King and Abernathy Choose Jail Time over Fine," July 10, 1962, [[w.papers-of-martin-luther-vii]], 510 ([King Institute](https://kinginstitute.stanford.edu/king-papers/documents/press-release-king-and-abernathy-choose-jail-time-over-fine)). King, [Albany Jail Diary from 10 July 1962 to 11 July 1962](https://okra.stanford.edu/link/document620711-002) (King Papers Project), printed in [[w.papers-of-martin-luther-vii]], 511 ([King Institute](https://kinginstitute.stanford.edu/king-papers/documents/albany-jail-diary-10-july-11-july-1962)). [[w.garrow-bearing-the-cross]], 201–04; [[w.branch-parting-the-waters]], 600, 606; [[w.young-easy-burden]], 178 (King, Abernathy and Anderson found guilty July 10: forty-five days and $178 each; out after three days, bonded "by parties unknown"). Check: Branch, 600, gives Judge Durden''s sentence, for the arrests of December, $178 or forty-five days, King and Abernathy alike. To check: [[w.abernathy-and-the-walls-came]]; "Statement of Dr. King . . .," July 10, 1962, King Center; Albany Herald, July 10, 1962, 1; New York Times, July 11, 1962, 1; Atlanta Constitution, July 11, 1962, 1; SAC Atlanta to Director, July 10, 1962 (two), FBI file 157-6-2-406, 417 (cited by [[w.garrow-bearing-the-cross]], 203 n.29); New York Times, July 12, 1962, 1; July 13, 1962, 10; trial transcript, vol. 4, 1144 (King''s testimony, Aug. 8, 1962), Albany''s suit against the movement, M.D. Ga., trial record, Middle District of Georgia; Afro-American, July 21, 1962, 1 (cited by [[w.garrow-bearing-the-cross]], 204 n.30). See [[cal.1961-11-17.albany]]. Names: King, Abernathy.'
     src:
       c: cb4d1fb7
       rows:
@@ -333,6 +381,7 @@ entries:
         - 'via w.garrow-bearing-the-cross 204 n.30d: B'
         - 'w.branch-parting-the-waters 600, 606: all'
         - 'via w.branch-parting-the-waters 600 n.2: A'
+        - 'w.young-easy-burden 178: A-B'
     tags: [name:king-martin-luther-jr, name:abernathy-ralph-david]
     short: King jailed again
   - id: cal.1962-07-10.medicare
@@ -444,8 +493,10 @@ entries:
     date: '1962-07-11'
     thread: robert-kennedy
     also: [georgia-albany]
+    follows:
+      - cal.1962-07-11.georgia-albany-2
     c: B. C. Gardner, Mayor Kelley's law partner, for Gray, flies to Washington. He and Robert Kennedy agree King's jailing an embarrassment to Albany, Georgia, the Kennedys and the country, to be ended by any means. Gardner home that night with a plan. By Gardner's account.
-    n: '[[w.branch-parting-the-waters]], 604. To check: interviews: B. C. Gardner, July 11, 1985 (cited by [[w.branch-parting-the-waters]], 604 n.1). See [[cal.1962-07-11.georgia-albany-2]]. Names: Robert Kennedy, Martin Luther King.'
+    n: '[[w.branch-parting-the-waters]], 604. After Gray''s call to the President: [[w.branch-parting-the-waters]], 603–4. To check: interviews: B. C. Gardner, July 11, 1985 (cited by [[w.branch-parting-the-waters]], 604 n.1). See [[cal.1962-07-11.georgia-albany-2]]. Names: Robert Kennedy, Martin Luther King.'
     src:
       c: bb6f8bea
       rows:
@@ -473,14 +524,29 @@ entries:
     date: '1962-07-11'
     thread: georgia-albany
     also: [robert-kennedy]
+    follows:
+      - cal.1962-07-11.robert-kennedy
     c: 'Later that night, Gardner to Albany''s leading white citizens: pay King''s fine in secret and put him out of the jail, and deny it. Robert Kennedy, they are told, has said the nation''s security and prestige suffer each day King is held. Pritchett consults Kelley, then instructs his desk sergeant.'
-    n: '[[w.branch-parting-the-waters]], 605–6. To check: interviews: Laurie Pritchett, Nov. 25, 1986 (cited by [[w.branch-parting-the-waters]], 606 n.1). See [[cal.1962-07-11.robert-kennedy]]. Names: Martin Luther King, Robert Kennedy.'
+    n: '[[w.branch-parting-the-waters]], 605–6. Later that night, after Gardner''s return: [[w.branch-parting-the-waters]], 605–6. To check: interviews: Laurie Pritchett, Nov. 25, 1986 (cited by [[w.branch-parting-the-waters]], 606 n.1). See [[cal.1962-07-11.robert-kennedy]]. Names: Martin Luther King, Robert Kennedy.'
     src:
       c: d376eac7
       rows:
         - 'w.branch-parting-the-waters 605–6: all'
         - 'via w.branch-parting-the-waters 606 n.1: C'
     tags: [name:king-martin-luther-jr, name:kennedy-robert-f, state:ga, city:albany-ga]
+  - id: cal.1962-07-11.conservation
+    when: July 11–12
+    date: '1962-07-11'
+    thread: conservation
+    c: 'House Interior on the land conservation fund bills, H.R. 11172–11177: Udall the first day, public witnesses the second. The barge lines and the boaters against user fees; the hearings abortive.'
+    n: 'Daily Digest, [108 Cong. Rec. D365](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt16/pdf/GPO-CRECB-1962-pt16-1.pdf#page=363) (House, July 11, 1962); Daily Digest, [108 Cong. Rec. D369](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt16/pdf/GPO-CRECB-1962-pt16-1.pdf#page=367) (House, July 12, 1962). [[w.bernstein-guns-or-butter]], 270 (C). See [[cal.1962-04-02.conservation]]. Names: Udall.'
+    src:
+      c: 119b3925
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt16/pdf/GPO-CRECB-1962-pt16-1.pdf#page=363: A'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt16/pdf/GPO-CRECB-1962-pt16-1.pdf#page=367: A'
+        - 'w.bernstein-guns-or-butter 270: all'
+    tags: [name:udall-stewart-l]
   - id: cal.1962-07-11.economy
     when: July 12
     date: '1962-07-12'
@@ -583,8 +649,10 @@ entries:
     date: '1962-07-12'
     thread: georgia-albany
     also: [king]
+    follows:
+      - cal.1962-07-12.georgia-albany
     c: 'King, at Shiloh: "This is one time I''m out of jail that I''m not happy to be out." The "subtle and conniving tactics" of his release. Pritchett, he says, has all but promised the December cases dropped and a biracial commission. Pritchett, at his own: "there has been nothing of a settlement in reference to anything." Kelley: "no communicable information" on who paid.'
-    n: '[[w.branch-parting-the-waters]], 606. To check: interviews: Asa Kelley, Jan. 22, 1986 (cited by [[w.branch-parting-the-waters]], 606 n.4). See [[cal.1962-07-12.georgia-albany]]. Names: Martin Luther King.'
+    n: '[[w.branch-parting-the-waters]], 606. After the release at dawn: [[w.branch-parting-the-waters]], 606. To check: interviews: Asa Kelley, Jan. 22, 1986 (cited by [[w.branch-parting-the-waters]], 606 n.4). See [[cal.1962-07-12.georgia-albany]]. Names: Martin Luther King.'
     src:
       c: 8f4f7ceb
       rows:
@@ -595,8 +663,10 @@ entries:
     date: '1962-07-12'
     thread: robert-kennedy
     also: [georgia-albany]
+    follows:
+      - cal.1962-07-12.georgia-albany
     c: 'Robert Kennedy to reporters: "Dr. King''s release should make it possible for the citizens of Albany to resolve their differences in this situation in a less tense atmosphere. Therefore, I am very glad that Dr. King has been released." Guthman: no federal official paid the fine; Burke Marshall had called Mrs. King and others.'
-    n: '[[w.branch-parting-the-waters]], 607. To check: Albany Journal, July 12, 1962, 1 (cited by [[w.branch-parting-the-waters]], 607 n.1). See [[cal.1962-07-12.georgia-albany]]. Names: Robert Kennedy, Martin Luther King, Guthman, Burke Marshall, Coretta King.'
+    n: '[[w.branch-parting-the-waters]], 607. After the release at dawn: [[w.branch-parting-the-waters]], 606–7. To check: Albany Journal, July 12, 1962, 1 (cited by [[w.branch-parting-the-waters]], 607 n.1). See [[cal.1962-07-12.georgia-albany]]. Names: Robert Kennedy, Martin Luther King, Guthman, Burke Marshall, Coretta King.'
     src:
       c: 19aeecef
       rows:
@@ -613,6 +683,19 @@ entries:
       c: 5244fe43
       rows:
         - 'w.poole-joint-chiefs-of-staff 238: all'
+  - id: cal.1962-07-12.cuba
+    when: July 12
+    date: '1962-07-12'
+    thread: cuba
+    also: [soviet-union]
+    c: 'The Presidium sends Cuba a group of economic advisers, not under the ambassador, from Central Asia. Khrushchev: "Outrageous" to give the Cubans a tractor and no farm machines; more advisers; perhaps a hundred or two of the best ships for fishing, five sent. Mikoyan, Rashidov and Shelepin to prepare it.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 572 (Protocol 41, item II, Malin''s notes). Made public: 2003. See [[cal.1962-07-06.missile-crisis]]. Names: Khrushchev, Mikoyan, Shelepin.'
+    src:
+      c: 66d6b2b7
+      rows:
+        - 'w.prezidium-tsk-kpss-1954 I, 572: all'
+        - 'via x.1962-07-12.presidium-protocol-41: all'
+    tags: [name:khrushchev-nikita-s, name:mikoyan-anastas, name:shelepin-alexandr-n]
   - id: cal.1962-07-13.laos
     when: July 13
     date: '1962-07-13'
@@ -663,18 +746,30 @@ entries:
         - 'w.thomas-robert-kennedy 143 n.: all'
         - 'via x.1962-07-13.komer-to-bundy: all'
     tags: [name:komer-robert-w, name:bundy-mcgeorge, name:taylor-maxwell, name:kennedy-robert-f]
+  - id: cal.1962-07-13.defense
+    when: July 13
+    date: '1962-07-13'
+    thread: defense
+    c: 'Gilpatric, in a letter Harold Brown drafted, tells Boeing and General Dynamics why the TFX competition is extended and the terms: both services satisfied with the least divergence from a common design; credible costs.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 468. To check: Brown to McNamara, July 11, 1962; Gilpatric to Lewis, July 13, 1962, *TFX Contract Investigation* hearings, pt. 5, 1194–95 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 468 n.83). See [[cal.1961-10-01.defense-2]]. Names: Gilpatric, Brown.'
+    src:
+      c: 4a855eb0
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 468: all'
+    tags: [name:gilpatric-roswell-l, name:brown-harold]
   - id: cal.1962-07-14.transition-and-staff-cleveland
     when: July 14
     date: '1962-07-14'
     thread: transition-and-staff
     also: [mayors]
     c: Kennedy names Celebrezze, mayor of Cleveland since 1953, Secretary of HEW, Ribicoff leaving to run for the Senate in Connecticut.
-    n: 'Letter Accepting Resignation of Abraham Ribicoff as Secretary of Health, Education, and Welfare, [1962 Pub. Papers 555](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=615) (July 13, 1962). [[w.sorensen-kennedy]], 274. To check: [[w.peirce-great-lakes-states-of]]. Names: Kennedy, Celebrezze, Ribicoff.'
+    n: 'Letter Accepting Resignation of Abraham Ribicoff as Secretary of Health, Education, and Welfare, [1962 Pub. Papers 555](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=615) (July 13, 1962). [[w.sorensen-kennedy]], 274; [[w.graham-uncertain-triumph]], 33. To check: [[w.peirce-great-lakes-states-of]]. Names: Kennedy, Celebrezze, Ribicoff.'
     src:
       c: e45fa26f
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=615: all'
         - 'w.sorensen-kennedy 274: all'
+        - 'w.graham-uncertain-triumph 33: A'
     tags: [state:oh, city:cleveland, name:kennedy-john-f, name:celebrezze-anthony-j, name:ribicoff-abraham]
     short: Celebrezze for Ribicoff
   - id: cal.1962-07-14.georgia-albany
@@ -725,21 +820,39 @@ entries:
   - id: cal.1962-07-16.georgia-albany
     when: July 16
     date: '1962-07-16'
+    time: 1962-07-16T17:30Z
+    time_approx: true
     thread: georgia-albany
     c: 'The "Albany Manifesto," dated July 15, handed to Pritchett about 1:30 p.m.: the city has dealt in bad faith these six months. Small groups test the library and the parks; met by police, many arrested.'
-    n: '[[w.branch-parting-the-waters]], 608. To check: the "Albany Manifesto," July 15, 1962, Albany city records (cited by [[w.branch-parting-the-waters]], 608 n.2). Check: the days of the tests. See [[cal.1962-07-12.georgia-albany]].'
+    n: '[[w.branch-parting-the-waters]], 608. To check: the "Albany Manifesto," July 15, 1962, Albany city records (cited by [[w.branch-parting-the-waters]], 608 n.2). Check: the days of the tests. See [[cal.1962-07-12.georgia-albany]]. Check: the hour, Branch''s about 1:30 p.m., read at Eastern daylight time; Albany''s clock in July 1962 not settled.'
     src:
       c: aef9ee4d
       rows:
         - 'w.branch-parting-the-waters 608: all'
         - 'via w.branch-parting-the-waters 608 n.2: A'
     tags: [state:ga, city:albany-ga]
+  - id: cal.1962-07-16.economy
+    when: July 16
+    date: '1962-07-16'
+    thread: economy
+    also: [defense]
+    c: 'NSAM 171, "Department of Defense Actions to Reduce Its Overseas Expenditures": the President approves McNamara''s measures as interim, subject to the Cabinet Committee; aid may have to rise in Korea, South Vietnam and Taiwan. McNamara announces the program: the Department''s deficit abroad from $2.6 billion in fiscal 1961 to $1.6 billion in 1963.'
+    n: 'National Security Action Memorandum No. 171, [FRUS 1961–63, IX: Foreign Economic Policy, doc. 14](https://history.state.gov/historicaldocuments/frus1961-63v09/d14) (July 16, 1962). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 450 (the program announced). Names: Kennedy, McNamara.'
+    src:
+      c: bb6f954a
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v09/d14: A-B'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 450: C'
+        - 'via x.1962-07-16.nsam-171: A-B'
+    tags: [name:kennedy-john-f, name:mcnamara-robert-s]
   - id: cal.1962-07-17.medicare
     when: July 17
     date: '1962-07-17'
     thread: medicare
+    follows:
+      - cal.1962-07-17.medicare-2
     c: Senate tables the Anderson–Javits amendment, [52–48](https://voteview.com/rollcall/RS0870297). Randolph with the opponents. Kennedy on television that night.
-    n: 'Medicare (King–Anderson) (K–J Cong. II.J.2). [[w.reeves-president-kennedy]], 327–28 (the vote; Kennedy that night); [[w.sundquist-politics-and-policy]], 311–14 (the vote; Randolph). [[w.sorensen-kennedy]], 343–44. See [[cal.1961-02-09.medicare]]. Names: Anderson, Kerr, Randolph, Javits.'
+    n: 'Medicare (King–Anderson) (K–J Cong. II.J.2). [[w.reeves-president-kennedy]], 327–28 (the vote; Kennedy that night); [[w.sundquist-politics-and-policy]], 311–14 (the vote; Randolph). [[w.sorensen-kennedy]], 343–44. After the leaders'' breakfast: [[w.sorensen-kennedy]], 344. See [[cal.1961-02-09.medicare]]. Names: Anderson, Kerr, Randolph, Javits.'
     src:
       c: 5dfd7e8f
       rows:
@@ -763,10 +876,13 @@ entries:
   - id: cal.1962-07-17.berlin-and-vienna
     when: July 17
     date: '1962-07-17'
+    time: 1962-07-17T22:00Z
     thread: berlin-and-vienna
     also: [soviet-union]
+    follows:
+      - cal.1962-07-17.medicare
     c: 'Kennedy hands Dobrynin his reply to Khrushchev''s letter of July 5: the troops in West Berlin a "vital interest of the United States"; "none of the Soviet proposals for alternative arrangements could be accepted"; to accept would be "a major victory for the Soviet Union and a major defeat for the West."'
-    n: '[FRUS 1961–63, XV, doc. 77](https://history.state.gov/historicaldocuments/frus1961-63v15/d77) (the conversation); [doc. 78](https://history.state.gov/historicaldocuments/frus1961-63v15/d78) (the letter). [[w.fursenko-khrushchevs-cold-war]], 446; [[w.dobrynin-in-confidence]], 68–70 (alone at the White House: "If we are forced out of Berlin in any way, all our guarantees to Western Europe will lose any sense"; the crisis of last year cost "over three billion dollars"; "I wish I were able to get rid of Castro''s Cuba"; a test ban in the atmosphere?). Check: Dobrynin dates this meeting June 17 (68). See [[cal.1962-07-05.berlin-and-vienna]]. Names: Kennedy, Dobrynin, Khrushchev.'
+    n: '[FRUS 1961–63, XV, doc. 77](https://history.state.gov/historicaldocuments/frus1961-63v15/d77) (the conversation); [doc. 78](https://history.state.gov/historicaldocuments/frus1961-63v15/d78) (the letter). [[w.fursenko-khrushchevs-cold-war]], 446; [[w.dobrynin-in-confidence]], 68–70 (alone at the White House: "If we are forced out of Berlin in any way, all our guarantees to Western Europe will lose any sense"; the crisis of last year cost "over three billion dollars"; "I wish I were able to get rid of Castro''s Cuba"; a test ban in the atmosphere?). After the Senate rose, 5:33 p.m.: [Daily Digest, D378](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=376). Check: Dobrynin dates this meeting June 17 (68). See [[cal.1962-07-05.berlin-and-vienna]]. Names: Kennedy, Dobrynin, Khrushchev.'
     src:
       c: 91c3e2ce
       rows:
@@ -793,7 +909,7 @@ entries:
     date: '1962-07-17'
     thread: space
     c: The Senate Labor and Public Welfare Committee hears Jerome B. Wiesner on his nomination as Director of the Office of Science and Technology.
-    n: '[*Nomination: Hearing Before the S. Comm. on Labor and Public Welfare*, 87th Cong. (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg86922), 2. Names: Wiesner.'
+    n: '*Nomination: Hearing Before the S. Comm. on Labor and Public Welfare*, 87th Cong. (1962) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg86922)), 2. Names: Wiesner.'
     tags: [name:wiesner-jerome-b]
   - id: cal.1962-07-18.latin-america
     when: July 18
@@ -886,6 +1002,7 @@ entries:
   - id: cal.1962-07-19.berlin-and-vienna
     when: July 19
     date: '1962-07-19'
+    time: 1962-07-19T14:00Z
     thread: berlin-and-vienna
     also: [defense]
     c: '10 a.m. Kennedy with his Berlin team on contingency plans: NATO''s too slow to start; NSAM 109, Poodle Blanket, sixty days of diplomacy and mobilization before an attack; a closing of the routes might force an early choice of nuclear weapons.'
@@ -898,6 +1015,7 @@ entries:
   - id: cal.1962-07-19.king
     when: July 19
     date: '1962-07-19'
+    time: 1962-07-19T16:35Z
     thread: king
     also: [press-and-broadcasting]
     c: King at the National Press Club, at 12:35 p.m. its first Negro speaker in fifty-four years; a capacity audience, three ovations. Nonviolence. No member resigns.
@@ -914,7 +1032,7 @@ entries:
     date: '1962-07-20'
     thread: georgia-albany
     c: Elliott enjoins the Albany marches.
-    n: '[[w.navasky-kennedy-justice]], 247 (Elliott''s orders against the Albany demonstrators); [[w.branch-parting-the-waters]], 609. Check: Branch, 609, has the marshals serve Elliott''s temporary order the morning of Saturday, July 21, pending a hearing on the city''s request for a permanent injunction: the marches deny Albany''s whites the equal protection of the laws by drawing off the police. To check: Albany Herald, July 21, 1962, 1; July 22, 1962, 1; New York Times, July 22, 1962, 1; Pritchett et al., "Activities of Dr. King . . . 7/21-22/62," July 23, 1962, Albany City Files, Albany, Ga.; Burke Marshall to Robert Kennedy, July 24, 1962, Burke Marshall Papers, Kennedy Library (cited by [[w.garrow-bearing-the-cross]], 206 n.33). Check: the order''s record. [[w.garrow-bearing-the-cross]], 206–07. See [[cal.1961-11-17.albany]]. Check: Garrow, 206, has the order issued early Saturday, July 21. Names: Elliott.'
+    n: '[[w.navasky-kennedy-justice]], 247 (Elliott''s orders against the Albany demonstrators); [[w.branch-parting-the-waters]], 609; [[w.young-easy-burden]], 179 (Elliott''s injunction of July 20, on the city''s petition). Check: Branch, 609, has the marshals serve Elliott''s temporary order the morning of Saturday, July 21, pending a hearing on the city''s request for a permanent injunction: the marches deny Albany''s whites the equal protection of the laws by drawing off the police. To check: Albany Herald, July 21, 1962, 1; July 22, 1962, 1; New York Times, July 22, 1962, 1; Pritchett et al., "Activities of Dr. King . . . 7/21-22/62," July 23, 1962, Albany City Files, Albany, Ga.; Burke Marshall to Robert Kennedy, July 24, 1962, Burke Marshall Papers, Kennedy Library (cited by [[w.garrow-bearing-the-cross]], 206 n.33). Check: the order''s record. [[w.garrow-bearing-the-cross]], 206–07. See [[cal.1961-11-17.albany]]. Check: Garrow, 206, has the order issued early Saturday, July 21. Names: Elliott.'
     src:
       c: b8cafe4a
       rows:
@@ -925,6 +1043,7 @@ entries:
         - 'via w.garrow-bearing-the-cross 206 n.33d: A'
         - 'w.navasky-kennedy-justice 247: all'
         - 'w.branch-parting-the-waters 609: A'
+        - 'w.young-easy-burden 179: A'
     tags: [name:elliott-j-robert]
     short: Elliott's injunction
   - id: cal.1962-07-20.transition-and-staff
@@ -938,6 +1057,7 @@ entries:
   - id: cal.1962-07-20.economy
     when: July 20
     date: '1962-07-20'
+    time: 1962-07-20T14:00Z
     thread: economy
     also: [europe-and-the-alliance-france]
     c: 'Giscard d''Estaing with Kennedy, 10 a.m., no record of it found; then with Ball at State, 6 p.m. Giscard: no unilateral change in the dollar''s parity; a secret approach among the United States, Britain, France, Germany and Italy under cover of the OECD, the creditors to abstain from buying gold and to hold their dollars for a time. Ball: minimum gold reserves, and a ratio of gold to dollars above them.'
@@ -996,19 +1116,32 @@ entries:
     date: '1962-07-20'
     thread: economy
     c: The Senate Banking and Currency Committee hears Gardner Ackley on his nomination as a member of the Council of Economic Advisers.
-    n: '[*Nomination of Gardner Ackley: Hearing Before the S. Comm. on Banking and Currency*, 87th Cong. (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg86866), 1. Names: Ackley.'
+    n: '*Nomination of Gardner Ackley: Hearing Before the S. Comm. on Banking and Currency*, 87th Cong. (1962) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg86866)), 1. Names: Ackley.'
     tags: [name:ackley-gardner]
   - id: cal.1962-07-20.defense-2
     when: July 20
     date: '1962-07-20'
     thread: defense
     c: The White House announces Taylor, the President's military representative, to be Chairman of the Joint Chiefs when Lemnitzer is reassigned; Lemnitzer's term ends Sept. 20.
-    n: '[[w.schulimson-joint-chiefs-of-staff]], 251. Names: Taylor, Lemnitzer.'
+    n: '[[w.schulimson-joint-chiefs-of-staff]], 251; [[w.taylor-swords-and-plowshares]], 251–52 (Taylor named; Lemnitzer to NATO; effective Oct. 1). Check: Taylor dates the announcement of the changes July 19, Norstad''s retirement July 20 ([[w.taylor-swords-and-plowshares]], 251–52). Names: Taylor, Lemnitzer.'
     src:
       c: e69ebccb
       rows:
         - 'w.schulimson-joint-chiefs-of-staff 251: all'
+        - 'w.taylor-swords-and-plowshares 251–52: A'
     tags: [name:taylor-maxwell, name:lemnitzer-lyman-l]
+  - id: cal.1962-07-20.school-aid
+    when: July 20
+    date: '1962-07-20'
+    thread: school-aid
+    c: 'Daly to O''Brien on the House conferees: Green finds the conference "almost hopeless"; most of the Senators against grants to private colleges; "She suggests we hit Randolph and McNamara."'
+    n: '[[w.graham-uncertain-triumph]], 34–35. To check: Memorandum, Daly to O''Brien, July 20, 1962, Sorensen file, container 33, JFK Library (cited by [[w.graham-uncertain-triumph]], 35 n.22). Names: O''Brien, Green, Randolph, McNamara.'
+    src:
+      c: 4d7a380b
+      rows:
+        - 'w.graham-uncertain-triumph 34–35: all'
+        - 'via w.graham-uncertain-triumph 35 n.22: all'
+    tags: [name:obrien-lawrence-f, name:green-edith, name:randolph-jennings, name:mcnamara-patrick-v]
   - id: cal.1962-07-21.alabama-al
     when: July 21
     date: '1962-07-21'
@@ -1035,8 +1168,10 @@ entries:
     date: '1962-07-21'
     thread: robert-kennedy
     also: [georgia-albany, king]
+    follows:
+      - cal.1962-07-21.georgia-albany
     c: 'Robert Kennedy to King by telephone, on Elliott''s order. King feels "impelled" to march; Kennedy: Southern governors and school officials pray for an excuse to defy federal orders. King: "Some of these problems you have created yourself by appointing these segregationist federal judges." Kennedy hands the phone to Burke Marshall, nearly two hours: defiance would put King where the administration means to put Barnett. That night King, through Clarence Jones: he will obey until the lawyers have the order overturned.'
-    n: '[[w.branch-parting-the-waters]], 610–11; [[w.thomas-robert-kennedy]], 241 (Robert Kennedy argues to King by telephone that defying a federal judge gives southern cities an excuse to defy the courts; King: segregationist judges). To check: Martin Luther King, oral history, JFK Library; Levison''s conversation of Aug. 3, 1962, FBI; interviews: Burke Marshall, Sept. 26, 1984; Charles Sherrod, Jan. 23, 1986; Clarence Jones, May 18, 1986; C. B. King, July 10, 1985; Laurie Pritchett, Nov. 25, 1986 (cited by [[w.branch-parting-the-waters]], 610 n.2). Check: Pritchett told Branch he had the call wiretapped (610 n.2). See [[cal.1962-07-20.albany]]. Names: Robert Kennedy, Martin Luther King, Burke Marshall, Barnett.'
+    n: '[[w.branch-parting-the-waters]], 610–11; [[w.thomas-robert-kennedy]], 241 (Robert Kennedy argues to King by telephone that defying a federal judge gives southern cities an excuse to defy the courts; King: segregationist judges). After King was served: [[w.branch-parting-the-waters]], 609–11. To check: Martin Luther King, oral history, JFK Library; Levison''s conversation of Aug. 3, 1962, FBI; interviews: Burke Marshall, Sept. 26, 1984; Charles Sherrod, Jan. 23, 1986; Clarence Jones, May 18, 1986; C. B. King, July 10, 1985; Laurie Pritchett, Nov. 25, 1986 (cited by [[w.branch-parting-the-waters]], 610 n.2). Check: Pritchett told Branch he had the call wiretapped (610 n.2). See [[cal.1962-07-20.albany]]. Names: Robert Kennedy, Martin Luther King, Burke Marshall, Barnett.'
     src:
       c: 3c528003
       rows:
@@ -1072,6 +1207,18 @@ entries:
       rows:
         - 'w.futrell-united-states-air-force 131: all'
     tags: [name:felt-harry-d]
+  - id: cal.1962-07-21.school-aid
+    when: July 21
+    date: '1962-07-21'
+    thread: school-aid
+    c: 'Manatos to O''Brien: McNamara, of the "worthless piece of legislation," resents Rules''s dictating terms to the Senate; grants only to non-church schools, loans for church colleges.'
+    n: '[[w.graham-uncertain-triumph]], 35. To check: Memorandum, Manatos to O''Brien, July 21, 1962, Sorensen file, container 33, JFK Library (cited by [[w.graham-uncertain-triumph]], 35 n.23). Names: Manatos, O''Brien, McNamara.'
+    src:
+      c: 0a27a522
+      rows:
+        - 'w.graham-uncertain-triumph 35: all'
+        - 'via w.graham-uncertain-triumph 35 n.23: all'
+    tags: [name:manatos-mike-n, name:obrien-lawrence-f, name:mcnamara-patrick-v]
   - id: cal.1962-07-22.laos
     when: July 22
     date: '1962-07-22'
@@ -1192,7 +1339,7 @@ entries:
     date: '1962-07-23'
     thread: georgia-albany
     c: Marion King beaten at the Camilla jail.
-    n: '[[w.garrow-bearing-the-cross]], 208; [[w.branch-parting-the-waters]], 615–16. Check: Branch, 615–16, gives the afternoon, Marion King, Slater King''s wife, visiting her maid''s daughter jailed from the Wells march, slapped by the Mitchell County sheriff and kicked by a deputy, her daughter knocked from her arms; C. B. King refuses a civil suit; after midnight FBI agent Marion Cheek takes the complaint under the federal brutality statutes (interviews: Marion King Smith, July 31, 1986; Marion Cheek, July 11, 1985). To check: Atlanta Constitution, July 24, 1962, 1; New York Times, July 24, 1962, 32; SAC Atlanta to Director, July 23 and 24, 1962; Rosen to Belmont, July 24, 1962, FBI file 157-6-2-453, 515, 494; Marion King, New South, Feb. 1963, 9-10 (cited by [[w.garrow-bearing-the-cross]], 208 n.34). See [[cal.1961-11-17.albany]]. Names: Marion King.'
+    n: '[[w.garrow-bearing-the-cross]], 208; [[w.branch-parting-the-waters]], 615–16. Check: Branch, 615–16, gives the afternoon, Marion King, Slater King''s wife, visiting her maid''s daughter jailed from the Wells march, slapped by the Mitchell County sheriff and kicked by a deputy, her daughter knocked from her arms; C. B. King refuses a civil suit; after midnight FBI agent Marion Cheek takes the complaint under the federal brutality statutes (interviews: Marion King Smith, July 31, 1986; Marion Cheek, July 11, 1985). To check: Atlanta Constitution, July 24, 1962, 1; New York Times, July 24, 1962, 32; SAC Atlanta to Director, July 23 and 24, 1962; Rosen to Belmont, July 24, 1962, FBI file 157-6-2-453, 515, 494; Marion King, New South, Feb. 1963, 9–10 (cited by [[w.garrow-bearing-the-cross]], 208 n.34). See [[cal.1961-11-17.albany]]. Names: Marion King.'
     src:
       c: d6a04617
       rows:
@@ -1207,14 +1354,17 @@ entries:
   - id: cal.1962-07-23.economy-gold
     when: July 23
     date: '1962-07-23'
+    time: 1962-07-23T19:00Z
     thread: economy-gold
-    c: 'News conference, its first minutes carried live to Europe by Telstar: "The United States will not devalue its dollar." Salinger, after it: the price of gold on the London market is breaking.'
-    n: 'The President''s News Conference of July 23, 1962, [1962 Pub. Papers 568](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=628). [[w.reeves-president-kennedy]], 328–29. To check: [[w.salinger-with-kennedy]], 189–90 (cited by [[w.reeves-president-kennedy]], 329). Names: Salinger, Kennedy.'
+    also: [elections-1962]
+    c: 'News conference, its first minutes carried live to Europe by Telstar: "The United States will not devalue its dollar." Salinger, after it: the price of gold on the London market is breaking. On the fall elections, the Republicans against his program: "the American people will have a choice. And they will choose, as I have said, either to put anchor down or to sail."'
+    n: 'The President''s News Conference of July 23, 1962, [1962 Pub. Papers 568](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=628). [[w.reeves-president-kennedy]], 328–29; [[w.graham-uncertain-triumph]], 38 (the elections). To check: [[w.salinger-with-kennedy]], 189–90 (cited by [[w.reeves-president-kennedy]], 329). Names: Salinger, Kennedy.'
     src:
-      c: f8186bb5
+      c: da52356b
       rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=628: A'
-        - 'w.reeves-president-kennedy 328–29: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=628: A, C'
+        - 'w.reeves-president-kennedy 328–29: A-B'
+        - 'w.graham-uncertain-triumph 38: C'
     tags: [name:salinger-pierre, name:kennedy-john-f]
   - id: cal.1962-07-23.vietnam-2
     when: July 23
@@ -1360,14 +1510,28 @@ entries:
     when: July 24
     date: '1962-07-24'
     thread: georgia-albany
+    follows:
+      - cal.1962-07-24.georgia-albany
     c: 'King and Anderson to Mayor Kelley by telegram, 1:46 p.m.: "We do not consider the lifting of the injunction a victory. We ... beg you once more, in the name of democracy, human decency and the welfare of Albany, to give us an opportunity to present our grievances to the City Commission immediately."'
-    n: '[[w.branch-parting-the-waters]], 616–17. To check: King and Anderson to Kelley, July 24, 1962, Albany city records (cited by [[w.branch-parting-the-waters]], 617 n.1). See [[cal.1962-07-24.georgia-albany]]. Names: Martin Luther King, Anderson.'
+    n: '[[w.branch-parting-the-waters]], 616–17. After Tuttle''s order: [[w.branch-parting-the-waters]], 616–17. To check: King and Anderson to Kelley, July 24, 1962, Albany city records (cited by [[w.branch-parting-the-waters]], 617 n.1). See [[cal.1962-07-24.georgia-albany]]. Names: Martin Luther King, Anderson.'
     src:
       c: a9caaa2c
       rows:
         - 'w.branch-parting-the-waters 616–17: all'
         - 'via w.branch-parting-the-waters 617 n.1: all'
     tags: [name:king-martin-luther-jr, name:anderson-william-g, state:ga, city:albany-ga]
+  - id: cal.1962-07-24.school-aid
+    when: July 24
+    date: '1962-07-24'
+    thread: school-aid
+    c: 'Sorensen to Kennedy: if the House conferees refuse scholarships, the Senate''s might take a student loan program with repayment forgiven "for those entering occupations required by the national interest and in short supply." Kennedy puts it to McNamara late in the month.'
+    n: '[[w.graham-uncertain-triumph]], 35. Check: the day of Kennedy''s talk with McNamara. To check: Memorandum, Sorensen to President Kennedy, July 24, 1962, Sorensen file, container 33, JFK Library (cited by [[w.graham-uncertain-triumph]], 35 n.24). Names: Sorensen, Kennedy, McNamara.'
+    src:
+      c: d85996f4
+      rows:
+        - 'w.graham-uncertain-triumph 35: all'
+        - 'via w.graham-uncertain-triumph 35 n.24: all'
+    tags: [name:sorensen-theodore-c, name:kennedy-john-f, name:mcnamara-patrick-v]
   - id: cal.1962-07-25.georgia-albany
     when: July 25
     date: '1962-07-25'
@@ -1444,8 +1608,10 @@ entries:
     date: '1962-07-25'
     thread: georgia-albany
     also: [king]
+    follows:
+      - cal.1962-07-25.georgia-albany
     c: 'The day of penance. King, with Abernathy, Bernard Lee, Charles Jones and reporters, through Albany''s pool halls and beer joints, the Beehive and the South Grand Terrace among them: "We don''t need guns and ammunition, just the power of souls." Forman against blaming the Negroes for the violence.'
-    n: '[[w.branch-parting-the-waters]], 618–19. To check: Watters, *Down to Now*, 213–15; interviews: Charles Jones, Nov. 23, 1986 (cited by [[w.branch-parting-the-waters]], 619 n.1). See [[cal.1962-07-25.georgia-albany]]. Names: Martin Luther King, Abernathy, Forman.'
+    n: '[[w.branch-parting-the-waters]], 618–19. After King''s call for it: [[w.branch-parting-the-waters]], 618–19. To check: Watters, *Down to Now*, 213–15; interviews: Charles Jones, Nov. 23, 1986 (cited by [[w.branch-parting-the-waters]], 619 n.1). See [[cal.1962-07-25.georgia-albany]]. Names: Martin Luther King, Abernathy, Forman.'
     src:
       c: e99fc5cf
       rows:
@@ -1479,7 +1645,7 @@ entries:
     date: '1962-07-26'
     thread: economy
     c: 'Mills''s Ways and Means opens closed hearings on the state of the economy: some forty witnesses, most from business and finance, through Aug. 1 (Check). Most see no emergency calling for a tax cut before 1963. Not published.'
-    n: 'Daily Digest, [108 Cong. Rec. D410](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=408) (July 26, 1962). [[w.stein-fiscal-revolution-in-america]], 428; [[w.zelizer-taxing-america]], 194–95 (the hearings in secret; Mills against a quick cut). To check: "Hopes for tax cut take setback," *Business Week*, Aug. 4, 1962, 27–28; Mills, interview with Joseph O''Connor, Apr. 14, 1967, 9–11, Oral History Collection, JFK Library; Lee Preston to Heller, Aug. 7, 1962, Heller Papers, JFK Library; Heller to Kennedy, summaries of the Ways and Means testimony, July–Aug. 1962, President''s Office Files, JFK Library; "Ways and Means," *New York Times*, July 29, 1962 (cited by [[w.zelizer-taxing-america]], 194 nn.55–56). See [[cal.1962-05-28.economy]]. Names: Mills.'
+    n: 'Daily Digest, [108 Cong. Rec. D410](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=408) (July 26, 1962). [[w.stein-fiscal-revolution-in-america]], 428; [[w.zelizer-taxing-america]], 194–95 (the hearings in secret; Mills against a quick cut). To check: "Hopes for tax cut take setback," *Business Week*, Aug. 4, 1962, 27–28; Mills, interview with Joseph O''Connor, Apr. 14, 1967, 9–11, Oral History Collection, JFK Library; Lee Preston to Heller, Aug. 7, 1962, Heller Papers, JFK Library; Heller to Kennedy, summaries of the Ways and Means testimony, July–Aug. 1962, President''s Office Files, JFK Library; "Ways and Means," [*New York Times*, July 29, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/29/issue.html) (cited by [[w.zelizer-taxing-america]], 194 nn.55–56). See [[cal.1962-05-28.economy]]. Names: Mills.'
     src:
       c: bd646ebb
       rows:
@@ -1542,6 +1708,19 @@ entries:
       c: facdb326
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 113: all'
+  - id: cal.1962-07-26.cuba-2
+    when: July 26
+    date: '1962-07-26'
+    thread: cuba
+    c: 'Hurwitch, State''s officer for Mongoose, to Martin, on the combined report on Phase I: the CIA believes that with assurance of intervention a revolt could be mounted by late 1963, destroyed within days without substantial military force; Defense needs eighteen, perhaps twelve, days'' preparation, some units five; State needs "a virtual civil war situation" first. "These three conditions do not appear to be easily reconciled."'
+    n: 'Memorandum From the Deputy Director of the Office of Caribbean and Mexican Affairs (Hurwitch) to the Assistant Secretary of State for Inter-American Affairs (Martin), [FRUS 1961–63, X: Cuba, January 1961–September 1962, doc. 361](https://history.state.gov/historicaldocuments/frus1961-63v10/d361) (July 26, 1962). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 199. Names: Martin.'
+    src:
+      c: 6bdddf60
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d361: all'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 199: all'
+        - 'via x.1962-07-26.hurwitch-to-martin-mongoose: all'
+    tags: [name:martin-edwin-m]
   - id: cal.1962-07-27.albany
     when: July 27
     date: '1962-07-27'
@@ -1594,8 +1773,10 @@ entries:
     date: '1962-07-27'
     thread: republican-party
     also: [georgia-albany]
+    follows:
+      - cal.1962-07-27.albany
     c: 'Rockefeller to Robert Kennedy, by telegram, on King''s arrest: "take immediate steps to assure the physical safety of Dr. King ... and investigate whether Constitutional rights of peaceable assembly have been violated."'
-    n: '[[w.branch-parting-the-waters]], 621. To check: Rockefeller to Robert Kennedy, July 27, 1962, Rockefeller Archive Center; New York Times, July 28, 1962, 44 (cited by [[w.branch-parting-the-waters]], 621 n.1). See [[cal.1962-07-10.republican-party]]. Names: Rockefeller, Robert Kennedy, Martin Luther King.'
+    n: '[[w.branch-parting-the-waters]], 621. On the arrest: [[w.branch-parting-the-waters]], 621. To check: Rockefeller to Robert Kennedy, July 27, 1962, Rockefeller Archive Center; New York Times, July 28, 1962, 44 (cited by [[w.branch-parting-the-waters]], 621 n.1). See [[cal.1962-07-10.republican-party]]. Names: Rockefeller, Robert Kennedy, Martin Luther King.'
     src:
       c: d2485fc1
       rows:
@@ -1608,8 +1789,10 @@ entries:
     date: '1962-07-27'
     thread: king
     also: [press-and-broadcasting, georgia-albany]
+    follows:
+      - cal.1962-07-27.albany
     c: 'Night. Pritchett brings King from his cell to the telephone: Lawrence Spivak wants him on *Meet the Press* Sunday. King will not bond out for it; Spivak, angry, accepts Anderson in his place.'
-    n: '[[w.branch-parting-the-waters]], 621–22. To check: King''s handwritten jail diary, King Papers, Boston University; its excerpts, Jet, Aug. 23, 1962, 14–21; interviews: Wyatt Walker, Aug. 20, 1984 (cited by [[w.branch-parting-the-waters]], 621 n.2). See [[cal.1962-07-27.albany]]. Names: Martin Luther King, Spivak, Anderson.'
+    n: '[[w.branch-parting-the-waters]], 621–22. In jail that night, after the arrest: [[w.branch-parting-the-waters]], 621–22. To check: King''s handwritten jail diary, King Papers, Boston University; its excerpts, Jet, Aug. 23, 1962, 14–21; interviews: Wyatt Walker, Aug. 20, 1984 (cited by [[w.branch-parting-the-waters]], 621 n.2). See [[cal.1962-07-27.albany]]. Names: Martin Luther King, Spivak, Anderson.'
     src:
       c: 50ef5dd5
       rows:
@@ -1692,6 +1875,7 @@ entries:
   - id: cal.1962-07-31.transition-and-staff
     when: July 31
     date: '1962-07-31'
+    time: 1962-07-31T14:00Z
     thread: transition-and-staff
     also: [mayors]
     c: Celebrezze sworn in as Secretary of HEW. Locher, Cleveland's law director, mayor.
@@ -1965,7 +2149,7 @@ entries:
     date: '1962-07-31'
     thread: transportation
     c: The Senate Commerce Committee hears Alan S. Boyd on his nomination as a member of the Civil Aeronautics Board.
-    n: '[*Sundry Nominations: Hearings Before the S. Comm. on Commerce*, 87th Cong. (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg91496), 187. Names: Boyd.'
+    n: '*Sundry Nominations: Hearings Before the S. Comm. on Commerce*, 87th Cong. (1962) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg91496)), 187. Names: Boyd.'
     tags: [name:boyd-alan-s]
   - id: cal.1962-07.defense
     when: July
@@ -2020,3 +2204,48 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 191: all'
     tags: [name:norstad-lauris, name:mcnamara-robert-s]
+  - id: cal.1962-07.defense-4
+    when: July
+    date: 1962-07
+    thread: defense
+    c: 'Taylor with McNamara before accepting the chairmanship: the Chairman to have the last word on demands on the Joint Staff, but the Secretary''s and his Deputy''s own; split papers welcome; Goodpaster as his assistant; the Chiefs to be heard.'
+    n: '[[w.taylor-swords-and-plowshares]], 253–54. Check: the day; before the announcement ([[cal.1962-07-20.defense-2]]). Names: Taylor, McNamara, Goodpaster.'
+    src:
+      c: 7809139d
+      rows:
+        - 'w.taylor-swords-and-plowshares 253–54: all'
+    tags: [name:taylor-maxwell, name:mcnamara-robert-s, name:goodpaster-andrew-j]
+  - id: cal.1962-07-31.desegregation-schools
+    when: July 31
+    date: '1962-07-31'
+    thread: desegregation-schools
+    c: 'Chicago. Federal District Judge Julius J. Hoffman dismisses *Webb*: the plaintiffs have not exhausted Illinois''s administrative remedies. Hoffman: "Chicago cannot deny the existence of de facto segregation, or excuse it on the pretext of a benign indifference."'
+    n: '[[w.anderson-confronting-the-color-line]], 85, 92. See [[cal.1961-09-18.desegregation-schools]].'
+    src:
+      c: 1a48bf0b
+      rows:
+        - 'w.anderson-confronting-the-color-line 85, 92: all'
+    tags: [state:il, city:chicago]
+  - id: cal.1962-07.press-and-broadcasting-2
+    when: July
+    date: 1962-07
+    thread: press-and-broadcasting
+    also: [vietnam]
+    c: 'Bigart in the *New York Times*, closing a survey of the war: the insurgency''s destruction a long way off; the Ngôs better at alienating the people than winning them; aid to be reassessed, political reform stressed.'
+    n: '[[w.debenedetti-american-ordeal]], 84. Check: the day. Names: Bigart.'
+    src:
+      c: 75ef1dfa
+      rows:
+        - 'w.debenedetti-american-ordeal 84: all'
+    tags: [name:bigart-homer]
+  - id: cal.1962-07.press-and-broadcasting-3
+    when: July
+    date: 1962-07
+    thread: press-and-broadcasting
+    also: [vietnam]
+    c: 'Sully of *Newsweek*, shortly after Bigart''s survey: the war "a losing proposition."'
+    n: '[[w.debenedetti-american-ordeal]], 84. Check: the day.'
+    src:
+      c: 75ce11d7
+      rows:
+        - 'w.debenedetti-american-ordeal 84: all'

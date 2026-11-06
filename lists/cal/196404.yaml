@@ -13,6 +13,7 @@ entries:
   - id: cal.1964-04-01.latin-america
     when: Apr. 1
     date: '1964-04-01'
+    time: 1964-04-01T08:00Z
     thread: latin-america
     c: Early morning, Brazil's revolt under way. Ball, by his account Acting Secretary, on Gordon's pleas from Brasília and after checking with the Latin Americanists, authorizes a telegram that in effect endorses the coup, at 3 a.m., without waking the President.
     n: '[[w.ball-past-has-another-pattern]], 429. Check: Ball has Rusk away; FRUS''s teleconference with Rio of Apr. 1, 1500Z, has the Secretary present ([FRUS 1964–68, XXXI, doc. 201](https://history.state.gov/historicaldocuments/frus1964-68v31/d201)); the telegram not found. See [[cal.1964-03-31.latin-america]]. Names: Ball, Gordon.'
@@ -25,8 +26,10 @@ entries:
     when: Apr. 1
     date: '1964-04-01'
     thread: latin-america
+    follows:
+      - cal.1964-04-01.latin-america
     c: 'Johnson to Ball, the next morning, by Ball''s account: "Don''t ever do that again"; whatever the hour, he wants to know what is being done. Thereafter Ball wakes him a time or two a month.'
-    n: '[[w.ball-past-has-another-pattern]], 429–30. See [[cal.1964-04-01.latin-america]]. Names: Johnson, Ball.'
+    n: '[[w.ball-past-has-another-pattern]], 429–30. The morning after the telegram: [[cal.1964-04-01.latin-america]]. See [[cal.1964-04-01.latin-america]]. Names: Johnson, Ball.'
     src:
       c: 82dc0b83
       rows:
@@ -76,7 +79,7 @@ entries:
     thread: latin-america
     also: [press-and-broadcasting]
     c: 'Arthur Krock, "Fulbright Has Started the Debate He Wanted," in the *New York Times*: a long-delayed national debate; postwar policy rigidly moralistic, its failures glaring.'
-    n: '[[w.woods-fulbright]], 336–37. To check: Arthur Krock, "Fulbright Has Started the Debate He Wanted," *New York Times*, Apr. 1, 1964 (cited by [[w.woods-fulbright]], 337 n.38). See [[cal.1964-03-25.latin-america]]. Names: Krock, Fulbright.'
+    n: '[[w.woods-fulbright]], 336–37. To check: Arthur Krock, "Fulbright Has Started the Debate He Wanted," [*New York Times*, Apr. 1, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/01/issue.html) (cited by [[w.woods-fulbright]], 337 n.38). See [[cal.1964-03-25.latin-america]]. Names: Krock, Fulbright.'
     src:
       c: f7c07d99
       rows:
@@ -95,6 +98,19 @@ entries:
         - 'w.marolda-united-states-navy-and 397, 406: all'
         - 'via x.1964-04-01.msg-cp-012205z-apr-1964: all'
     tags: [place:da-nang, name:felt-harry-d]
+  - id: cal.1964-04-01.civil-rights-organizations
+    when: Apr. 1
+    date: '1964-04-01'
+    thread: civil-rights-organizations
+    also: [civil-rights-bill]
+    c: 'The Leadership Conference, some eighty leaders, a day''s meeting: a daily prayer service at the Lutheran Church of the Reformation; B''nai B''rith Women''s wire day, Apr. 6; student rallies at the Sylvan Theater, Apr. 27 to May 2. Rauh: "a bill now which is beyond our wildest dreams."'
+    n: '[[w.whalen-longest-debate]], 157. To check: Leadership Conference memo no. 32, Apr. 6, 1964, Library of Congress (cited by [[w.whalen-longest-debate]], 261). Names: Rauh.'
+    src:
+      c: 98c3ae40
+      rows:
+        - 'w.whalen-longest-debate 157: all'
+        - 'via x.1964-04-06.lccr-memo-no-32: all'
+    tags: [name:rauh-joseph-l-jr]
   - id: cal.1964-04-02.vietnam-congress
     when: Apr. 2
     date: '1964-04-02'
@@ -155,6 +171,7 @@ entries:
   - id: cal.1964-04-03.vietnam
     when: Apr. 3
     date: '1964-04-03'
+    time: 1964-04-03T19:00Z
     thread: vietnam
     also: [vietnam-congress]
     c: 'The 526th NSC, 2 p.m., with the congressional leaders. McNamara: the situation worse since September, the Viet Cong controlling 40 percent of the territory; the program chosen, the present assistance made more effective; preparations to broaden the war if it fails. Morse "disagrees entirely": SEATO and the UN for a settlement. Khánh has called him a traitor; Johnson: "no one in this room has called you a traitor." Dirksen asks if SEATO is viable; Mansfield: "a paper tiger," the President''s policy "the only one we could follow."'
@@ -179,6 +196,20 @@ entries:
         - 'w.zelizer-fierce-urgency-of-now 112: all'
         - 'via w.zelizer-fierce-urgency-of-now 112 n.58: all'
     tags: [name:king-martin-luther-jr]
+  - id: cal.1964-04-03.latin-america-2
+    when: Apr. 3
+    date: '1964-04-03'
+    time: 1964-04-03T17:06Z
+    thread: latin-america
+    c: 'Mann to Johnson by telephone, 12:06 p.m., Goulart overthrown in Brazil: "the most important thing that''s happened in the hemisphere in three years."'
+    n: '[Johnson and Thomas Mann, 12:06 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-thomas-mann-and-office-conversation-april-3), Conversation WH6404-02-2843 (Miller Center). [[w.taking-charge]], 306–307. Names: Mann, Johnson, Goulart.'
+    src:
+      c: 6e3e5f5a
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-thomas-mann-and-office-conversation-april-3: A'
+        - 'w.taking-charge 306–307: all'
+        - 'via x.1964-04-03.johnson-thomas-mann-telephone-1206: all'
+    tags: [name:mann-thomas-c, name:johnson-lyndon-b, name:goulart-joao]
   - id: cal.1964-04-04.goldwater
     when: Apr. 4
     date: '1964-04-04'
@@ -197,13 +228,15 @@ entries:
     date: '1964-04-04'
     thread: civil-rights-bill
     c: 'Saturday. A quorum call forty minutes after the Senate meets: forty-one present, twenty-five absent of them Northern Democrats. Mansfield: "a travesty on the legislative process"; the Senate in recess to Monday, [27–14](https://voteview.com/rollcall/RS0880290). Humphrey gives the press the absentees'' names.'
-    n: '[110 Cong. Rec. 6862–63](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-13-1.pdf#page=2) (1964) (Apr. 4, 1964). [[w.mann-walls-of-jericho]], 407–8. To check: New York Times, Apr. 5, 1964 (cited by [[w.mann-walls-of-jericho]], 408). See [[cal.1964-03-30.civil-rights-bill]]. Names: Mansfield, Humphrey.'
+    n: '[110 Cong. Rec. 6862–63](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-13-1.pdf#page=2) (1964) (Apr. 4, 1964). [[w.mann-walls-of-jericho]], 407–8; [[w.whalen-longest-debate]], 157–58 (Humphrey''s telegrams to the missing Democrats). Check: Whalen, 157, gives thirty-nine answering, 23 Democrats and 16 Republicans (110 Cong. Rec. 6862–63, cited 261). To check: New York Times, Apr. 5, 1964 (cited by [[w.mann-walls-of-jericho]], 408). See [[cal.1964-03-30.civil-rights-bill]]. Names: Mansfield, Humphrey.'
     src:
       c: cfd46711
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-13-1.pdf#page=2: B-C'
         - 'w.mann-walls-of-jericho 407–8: all'
         - 'via w.mann-walls-of-jericho 408 n.the-situation-elated-the-southerners: D'
+        - 'w.whalen-longest-debate 157–58: A, D'
+        - 'via x.1964-04-04.congressional-record-6862: A, D'
     tags: [name:mansfield-mike, name:humphrey-hubert-h]
   - id: cal.1964-04-04.republican-party
     when: Apr. 4
@@ -218,6 +251,32 @@ entries:
         - 'w.zelizer-fierce-urgency-of-now 137: all'
         - 'via w.zelizer-fierce-urgency-of-now 137 n.12: all'
     tags: [name:eisenhower-dwight-d]
+  - id: cal.1964-04-04.civil-rights-bill-2
+    when: Apr. 4
+    date: '1964-04-04'
+    time: 1964-04-04T19:15Z
+    thread: civil-rights-bill
+    follows:
+      - cal.1964-04-04.civil-rights-bill
+    c: 'News conference. On the bill''s progress: "I do not want to set any time limit because it is something over which I have no control."'
+    n: 'The President''s News Conference of April 4, 1964, [1963–64 Pub. Papers 437](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=521) (Apr. 4, 1964). [[w.whalen-longest-debate]], 158. After the Senate''s recess at 11:41 a.m.: Daily Digest, [110 Cong. Rec. D151](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=149) (Apr. 4, 1964). Names: Johnson.'
+    src:
+      c: 2722aaa1
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=521: all'
+        - 'w.whalen-longest-debate 158: all'
+    tags: [name:johnson-lyndon-b]
+  - id: cal.1964-04-04.civil-rights-bill-3
+    when: Apr. 4
+    date: '1964-04-04'
+    thread: civil-rights-bill
+    c: 'Synon, director of the Coordinating Committee for Fundamental American Freedoms, to Kempton of the *New Republic*, the mail turned: "We''ve shot our wad."'
+    n: '[[w.whalen-longest-debate]], 158. Check: the day. To check: Kempton, *New Republic*, Apr. 4, 1964 (cited by [[w.whalen-longest-debate]], 261).'
+    src:
+      c: db251326
+      rows:
+        - 'w.whalen-longest-debate 158: all'
+        - 'via x.1964-04-04.kempton-new-republic: all'
   - id: cal.1964-04-05.opinion
     when: Apr. 5
     date: '1964-04-05'
@@ -250,7 +309,7 @@ entries:
     thread: defense
     also: [students]
     c: 'Fulbright at the University of North Carolina, a rainy Sunday night, more than 1,700: a more rational division of resources between the military and human welfare. The *Daily Tar Heel*: "a man of political guts."'
-    n: '[[w.woods-fulbright]], 338–39. Check: the day; Woods has early April, a Sunday, and cites Frankel of Apr. 6. To check: Max Frankel, "Arkansas''s Fulbright a New Hero to Youth," *New York Times*, Apr. 6, 1964 (cited by [[w.woods-fulbright]], 339 n.50). Names: Fulbright.'
+    n: '[[w.woods-fulbright]], 338–39. Check: the day; Woods has early April, a Sunday, and cites Frankel of Apr. 6. To check: Max Frankel, "Arkansas''s Fulbright a New Hero to Youth," [*New York Times*, Apr. 6, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/06/issue.html) (cited by [[w.woods-fulbright]], 339 n.50). Names: Fulbright.'
     src:
       c: 42fa5a7e
       rows:
@@ -312,11 +371,13 @@ entries:
     date: '1964-04-06'
     thread: civil-rights-bill
     c: B'nai B'rith Women's "wire for rights day," for the bill.
-    n: '[[w.bernstein-guns-or-butter]], 69. See [[cal.1964-03-09.civil-rights-bill]].'
+    n: '[[w.bernstein-guns-or-butter]], 69; [[w.whalen-longest-debate]], 157. See [[cal.1964-03-09.civil-rights-bill]].'
     src:
       c: 92ff2f19
       rows:
         - 'w.bernstein-guns-or-butter 69: all'
+        - 'w.whalen-longest-debate 157: A'
+        - 'via x.1964-04-06.lccr-memo-no-32: A'
   - id: cal.1964-04-06.vietnam-congress
     when: Apr. 6
     date: '1964-04-06'
@@ -399,13 +460,15 @@ entries:
     thread: republican-party-congress
     also: [civil-rights-bill]
     c: 'Dirksen puts forty amendments to Title VII before the Republican Policy Committee: the Equal Employment Opportunity Commission to seek no injunctions; State fair employment agencies to come first. Hickenlooper, its chairman, for them.'
-    n: '[[w.mann-walls-of-jericho]], 410; [[w.kotz-judgment-days]], 136 (forty amendments to gut equal employment; Dirksen to reporters); [[w.bernstein-guns-or-butter]], 68 (his own views, not the party''s; discussion put off to Thursday). See [[cal.1964-03-30.civil-rights-bill]]. Names: Dirksen, Hickenlooper.'
+    n: '[[w.mann-walls-of-jericho]], 410; [[w.kotz-judgment-days]], 136 (forty amendments to gut equal employment; Dirksen to reporters); [[w.bernstein-guns-or-butter]], 68 (his own views, not the party''s; discussion put off to Thursday); [[w.whalen-longest-debate]], 159. See [[cal.1964-03-30.civil-rights-bill]]. Names: Dirksen, Hickenlooper.'
     src:
       c: ad146f6e
       rows:
         - 'w.mann-walls-of-jericho 410: all'
         - 'w.kotz-judgment-days 136: A'
         - 'w.bernstein-guns-or-butter 68: A'
+        - 'w.whalen-longest-debate 159: A, C'
+        - 'via x.1964-04-08.washington-post: A, C'
     tags: [name:dirksen-everett, name:hickenlooper-bourke-b]
     short: Dirksen's amendments
   - id: cal.1964-04-07.farm
@@ -444,6 +507,46 @@ entries:
         - 'w.bernstein-guns-or-butter 108–9: all'
         - 'via x.1964-03-17.economic-opportunity-act-house-hearings: B-C'
     tags: [name:kennedy-robert-f, name:goodell-charles-e, name:yarmolinsky-adam]
+  - id: cal.1964-04-07.war-opposition
+    when: Apr. 7
+    date: '1964-04-07'
+    thread: war-opposition
+    also: [women]
+    c: 'Washington. 250 of the Women''s International League for Peace and Freedom lobby Congress for a day against the war: a seven-point program, among its points an "honorable" withdrawal, against napalm and defoliants, a negotiated settlement and the Geneva Conference reopened.'
+    n: '[[w.zaroulis-who-spoke-up]], 19; [[w.debenedetti-american-ordeal]], 95 (some two hundred women of WILPF and Women Strike for Peace, a day''s lobbying for the neutralization of Vietnam).'
+    src:
+      c: dcd3d136
+      rows:
+        - 'w.zaroulis-who-spoke-up 19: all'
+        - 'via x.1964-04-11.national-guardian-april-11-1964: all'
+        - 'w.debenedetti-american-ordeal 95: ?'
+  - id: cal.1964-04-07.press-and-broadcasting
+    when: Apr. 7
+    date: '1964-04-07'
+    time: 1964-04-07T16:50Z
+    thread: press-and-broadcasting
+    c: 'Johnson to Reedy by telephone, 11:50 a.m., on *Time*''s "Mr. President, You''re Fun," beer and speed in his Lincoln at the Ranch: "All of our people talk too much."'
+    n: '[Johnson and George Reedy, 11:50 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-reedy-and-unidentified-female-april-7), Conversation WH6404-03-2874 (Miller Center). [[w.taking-charge]], 307–308. Names: Johnson, Reedy.'
+    src:
+      c: 59230d6a
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-reedy-and-unidentified-female-april-7: A'
+        - 'w.taking-charge 307–308: all'
+        - 'via x.1964-04-07.johnson-george-reedy-telephone-1150: all'
+    tags: [name:johnson-lyndon-b, name:reedy-george-e]
+  - id: cal.1964-04-07.farm-2
+    when: Apr. 7
+    date: '1964-04-07'
+    time: 1964-04-08T00:05Z
+    thread: farm
+    c: 'Johnson to Representative Gillis Long by telephone, 7:05 p.m., for the cotton-wheat bill: "I''ve got the ox in the ditch." Long: an opponent at home either way he votes.'
+    n: '[[w.taking-charge]], 308–309. Names: Johnson, Gillis Long.'
+    src:
+      c: 409517e7
+      rows:
+        - 'w.taking-charge 308–309: all'
+        - 'via x.1964-04-07.johnson-gillis-long-recording-1905: all'
+    tags: [name:johnson-lyndon-b, name:long-gillis-w, state:la]
   - id: cal.1964-04-08.farm
     when: Apr. 8
     date: '1964-04-08'
@@ -469,11 +572,13 @@ entries:
     thread: republican-party-congress
     also: [civil-rights-bill]
     c: 'Dirksen''s Title VII amendments before the Republican conference. To the press: "This is a vulnerable section. I''d like to strike it altogether." His aim: "first to get a bill, second to get an acceptable bill, third to get a workable bill, and finally to get an equitable bill."'
-    n: '[[w.mann-walls-of-jericho]], 410–11. To check: [[w.whalen-longest-debate]], 159–60; Time, Apr. 24, 1964 (cited by [[w.mann-walls-of-jericho]], 410). Check: the day of the press conference and of the "polestar" remark. See [[cal.1964-04-07.republican-party-congress]]. Names: Dirksen.'
+    n: '[[w.mann-walls-of-jericho]], 410–11; [[w.whalen-longest-debate]], 159–60 (the forty amendments at the Policy Committee''s luncheon, Tuesday, Apr. 7, and the words to the press after; the conference Thursday, Apr. 9). Check: Whalen, 159–60, has the luncheon and the words to the press Tuesday, Apr. 7, the conference Thursday, Apr. 9 (minutes of the Senate Republican Conference, Apr. 9, cited 261). To check: Time, Apr. 24, 1964 (cited by [[w.mann-walls-of-jericho]], 410). Check: the day of the press conference and of the "polestar" remark. See [[cal.1964-04-07.republican-party-congress]]. Names: Dirksen.'
     src:
       c: abe9956a
       rows:
         - 'w.mann-walls-of-jericho 410–11: all'
+        - 'w.whalen-longest-debate 159–60: A-B'
+        - 'via x.1964-04-24.time: A-B'
     tags: [name:dirksen-everett]
   - id: cal.1964-04-08.civil-rights-bill
     when: Apr. 8
@@ -498,6 +603,35 @@ entries:
       c: abdd55d2
       rows:
         - 'w.futrell-united-states-air-force 213: all'
+  - id: cal.1964-04-08.elections-1964
+    when: Apr. 8
+    date: '1964-04-08'
+    time: 1964-04-08T16:45Z
+    thread: elections-1964
+    also: [elections-1964-wallace]
+    c: 'Reedy to Johnson by telephone, 11:45 a.m., for guidance on Wisconsin''s primary: Wallace 25 percent against Governor Reynolds, Johnson''s favorite son.'
+    n: '[Johnson and George Reedy, 11:45 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-reedy-april-8-1964), Conversation WH6404-05-2908 (Miller Center). [[w.taking-charge]], 309–311. Names: Reedy, Johnson, Wallace, Reynolds. Check: the rest of the call (309–11).'
+    src:
+      c: f40d0492
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-reedy-april-8-1964: A'
+        - 'w.taking-charge 309–311: all'
+        - 'via x.1964-04-08.johnson-george-reedy-telephone-1145: all'
+    tags: [name:reedy-george-e, name:johnson-lyndon-b, name:wallace-george-c, name:reynolds-john-w-jr, state:wi, ok:result-form]
+  - id: cal.1964-04-08.farm-2
+    when: Apr. 8
+    date: '1964-04-08'
+    time: 1964-04-08T17:14Z
+    thread: farm
+    c: 'Johnson to O''Brien by telephone, 12:14 p.m.: Brademas still against the cotton-wheat bill; Johnson had meant to go to South Bend and embrace him.'
+    n: '[Johnson and Lawrence O''Brien, 12:14 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-larry-obrien-april-8-1964), Conversation WH6404-05-2912 (Miller Center). [[w.taking-charge]], 311–312. Names: Johnson, O''Brien, Brademas.'
+    src:
+      c: 4d9a0b65
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-larry-obrien-april-8-1964: A'
+        - 'w.taking-charge 311–312: all'
+        - 'via x.1964-04-08.johnson-lawrence-o-brien-telephone-1214: all'
+    tags: [name:johnson-lyndon-b, name:obrien-lawrence-f, name:brademas-john]
   - id: cal.1964-04-09.railroads
     when: Apr. 9
     date: '1964-04-09'
@@ -529,19 +663,24 @@ entries:
   - id: cal.1964-04-09.mississippi
     when: Apr. 9
     date: '1964-04-09'
+    time: 1964-04-09T22:01Z
     thread: mississippi
     also: [civil-rights-bill]
     c: 'Johnson to Russell by telephone, 5:01 p.m., on the Justice Department''s warnings: there is going to be "a bunch of killings" in Mississippi in the coming summer.'
-    n: '[[w.kotz-judgment-days]], 136. To check: Johnson and Russell, Apr. 9, 1964, 5:01 p.m., Tape WH6404.06, PNO 12, LBJ Library (cited by [[w.kotz-judgment-days]], 136 n.77). Names: Johnson, Russell.'
+    n: '[Johnson and Richard Russell, 5:01 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-and-office-conversation-april), Conversation WH6404-06-2954 (Miller Center). [[w.kotz-judgment-days]], 136; [[w.taking-charge]], 312–314. To check: Johnson and Russell, Apr. 9, 1964, 5:01 p.m., Tape WH6404.06, PNO 12, LBJ Library (cited by [[w.kotz-judgment-days]], 136 n.77). Names: Johnson, Russell.'
     src:
       c: eb0c5f1e
       rows:
         - 'w.kotz-judgment-days 136: all'
         - 'via w.kotz-judgment-days 136 n.77: all'
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-and-office-conversation-april: A'
+        - 'w.taking-charge 312–314: A'
+        - 'via x.1964-04-09.johnson-richard-russell-telephone-1701: A'
     tags: [name:johnson-lyndon-b, name:russell-richard-b]
   - id: cal.1964-04-09.civil-rights-bill
     when: Apr. 9
     date: '1964-04-09'
+    time: 1964-04-09T21:55Z
     thread: civil-rights-bill
     c: 'Johnson to Robert Byrd by telephone, 4:55 p.m.: a judgeship for Byrd''s nominee in the offing; that he "not fight too hard"; a tour somewhere, sent by the President. Byrd refuses.'
     n: '[[w.kotz-judgment-days]], 145; [[w.zelizer-fierce-urgency-of-now]], 115 (Byrd: "I hope to hell we beat it"). To check: Johnson and Robert Byrd, telephone conversation, Apr. 9, 1964, 4:55 p.m., Tape WH6404.08, LBJ Library (cited by [[w.kotz-judgment-days]], 145 n.104). Names: Johnson, Byrd.'
@@ -557,7 +696,7 @@ entries:
     date: '1964-04-09'
     thread: poverty
     c: 'Landrum, the poverty bill''s sponsor, to the House Republicans: "I want it clearly understood here that it is a source of pride to me to have my name on this bill."'
-    n: '[[w.zelizer-fierce-urgency-of-now]], 142. To check: Marjorie Hunter, "Landrum Defies G.O.P. on Poverty," *New York Times*, Apr. 10, 1964 (cited by [[w.zelizer-fierce-urgency-of-now]], 142 n.26). Check: the day. See [[cal.1964-03-16.poverty]]. Names: Landrum.'
+    n: '[[w.zelizer-fierce-urgency-of-now]], 142. To check: Marjorie Hunter, "Landrum Defies G.O.P. on Poverty," [*New York Times*, Apr. 10, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/10/issue.html) (cited by [[w.zelizer-fierce-urgency-of-now]], 142 n.26). Check: the day. See [[cal.1964-03-16.poverty]]. Names: Landrum.'
     src:
       c: 9624a170
       rows:
@@ -582,12 +721,80 @@ entries:
     date: '1964-04-09'
     thread: elections-1964-primaries
     c: 'Harrisburg, Pa., Thursday. Scranton, back from Hobe Sound and angry at Truax''s million write-in stickers for the State''s primary, calls the Washington correspondents meaning to rule himself out even of a draft; the *Philadelphia Inquirer* reports it Wednesday; his aides talk him down that night. He reaffirms his noncandidacy, and asks his friends to stop working for him. The *Washington Post*, Apr. 10: "SCRANTON ALL BUT QUITS RACE."'
-    n: '[[w.novak-agony-of-the-g]], 340–42 & n.12 (Truax: "The forthrightness marking the Governor''s statement"). Names: Scranton. Check: the day of the decision.'
+    n: '[[w.novak-agony-of-the-g]], 340–42 & n.12 (Truax: "The forthrightness marking the Governor''s statement"); [[w.perlstein-before-the-storm]], 311 (the press conference on his return from Florida; "This is not true"). Check: Perlstein, 311, dates the return from Florida Apr. 19 and gives 1,200 at the press conference, by Wolf, *William Warren Scranton*, 100. Names: Scranton. Check: the day of the decision.'
     src:
       c: 4d4d06e7
       rows:
         - 'w.novak-agony-of-the-g 340–42 & n.12: all'
+        - 'w.perlstein-before-the-storm 311: E'
     tags: [name:scranton-william-w]
+  - id: cal.1964-04-09.civil-rights-bill-2
+    when: Apr. 9
+    date: '1964-04-09'
+    thread: civil-rights-bill
+    c: 'Edward Kennedy''s maiden speech, for the bill: "My brother was the first president of the United States to state publicly that segregation was morally wrong. His heart and soul are in this bill."'
+    n: '[[w.whalen-longest-debate]], 161. To check: 110 Cong. Rec. 7375–80 (Apr. 9, 1964) (cited by [[w.whalen-longest-debate]], 262). Names: Edward Kennedy.'
+    src:
+      c: 74c95233
+      rows:
+        - 'w.whalen-longest-debate 161: all'
+    tags: [name:kennedy-edward-m]
+  - id: cal.1964-04-09.robert-kennedy
+    when: Apr. 9
+    date: '1964-04-09'
+    time: 1964-04-09T16:30Z
+    thread: robert-kennedy
+    c: 'Bundy to Johnson by telephone, 11:30 a.m.: he saw the Attorney General last night, "in much the best state of mind" since Dallas.'
+    n: '[Johnson and McGeorge Bundy, 11:30 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-mcgeorge-bundy-april-9-1964), Conversation WH6404-05-2929 (Miller Center). [[w.taking-charge]], 312. Names: Bundy, Johnson, Robert Kennedy.'
+    src:
+      c: c2d38659
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-mcgeorge-bundy-april-9-1964: A'
+        - 'w.taking-charge 312: all'
+        - 'via x.1964-04-09.johnson-mcgeorge-bundy-telephone-1130: all'
+    tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:kennedy-robert-f]
+  - id: cal.1964-04-09.press-and-broadcasting-2
+    when: Apr. 9
+    date: '1964-04-09'
+    time: 1964-04-09T22:21Z
+    thread: press-and-broadcasting
+    c: 'Johnson to O''Brien and Moyers, 5:20 p.m., what to tell reporters of Mrs. Johnson''s finances: half the station, worth some $2 million and owing $800,000.'
+    n: '[Johnson and Office conversation, 5:21 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-larry-obrien-and-bill-moyers-april-9-1964), Conversation WH6404-06-2957 (Miller Center). [[w.taking-charge]], 314. Check: the Miller Center''s and PRDE''s catalogues time the conversation 5:21 p.m. Names: Johnson, O''Brien, Moyers, Lady Bird Johnson.'
+    src:
+      c: 43ba6229
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-larry-obrien-and-bill-moyers-april-9-1964: A'
+        - 'w.taking-charge 314: all'
+        - 'via x.1964-04-09.johnson-office-conversation-telephone-1721: all'
+    tags: [name:johnson-lyndon-b, name:obrien-lawrence-f, name:moyers-bill, name:johnson-lady-bird]
+  - id: cal.1964-04-09.vietnam
+    when: Apr. 9
+    date: '1964-04-09'
+    time: 1964-04-10T00:25Z
+    thread: vietnam
+    c: 'Johnson to McNamara by telephone, 7:25 p.m.: Pentagon officials to brief Rusk on Vietnam at Manila, the 17th.'
+    n: '[Johnson and Robert McNamara, 7:25 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-dean-rusk-mcgeorge-bundy), Conversation WH6404-06-2961 (Miller Center). [[w.taking-charge]], 315. Names: Johnson, McNamara, Rusk.'
+    src:
+      c: 3dd60167
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-dean-rusk-mcgeorge-bundy: A'
+        - 'w.taking-charge 315: all'
+        - 'via x.1964-04-09.johnson-robert-mcnamara-telephone-1925: all'
+    tags: [name:johnson-lyndon-b, name:mcnamara-robert-s, name:rusk-dean]
+  - id: cal.1964-04-09.railroads-2
+    when: Apr. 9
+    date: '1964-04-09'
+    time: 1964-04-10T00:46Z
+    thread: railroads
+    c: Johnson to Mansfield by telephone, 7:46 p.m., the railroad unions' strike set for midnight, the negotiators called to the White House.
+    n: '[Johnson and Mike Mansfield, 7:46 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-mike-mansfield-april-10-1964), Conversation WH6404-07-2962 (Miller Center). [[w.taking-charge]], 315–316. Names: Johnson, Mansfield.'
+    src:
+      c: b1b1e728
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-mike-mansfield-april-10-1964: A'
+        - 'w.taking-charge 315–316: all'
+        - 'via x.1964-04-09.johnson-mike-mansfield-telephone-1946: all'
+    tags: [name:johnson-lyndon-b, name:mansfield-mike]
   - id: cal.1964-04-10.opinion
     when: Apr. 10
     date: '1964-04-10'
@@ -651,6 +858,21 @@ entries:
       rows:
         - 'w.macv-command-history-1964 79: all'
     tags: [name:harkins-paul-d]
+  - id: cal.1964-04-10.railroads
+    when: Apr. 10
+    date: '1964-04-10'
+    time: 1964-04-10T23:40Z
+    thread: railroads
+    also: [press-and-broadcasting]
+    c: McNeil congratulates Johnson by telephone, 6:40 p.m., on the railroad strike put off fifteen days for talks at the White House.
+    n: '[Johnson and Marshall McNeil, 6:40 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-marshall-mcneil-april-10-1964), Conversation WH6404-08-2999 (Miller Center). [[w.taking-charge]], 316–318. Names: Johnson.'
+    src:
+      c: 2363687d
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-marshall-mcneil-april-10-1964: A'
+        - 'w.taking-charge 316–318: all'
+        - 'via x.1964-04-10.johnson-marshall-mcneil-telephone-1840: all'
+    tags: [name:johnson-lyndon-b]
   - id: cal.1964-04-11.farm
     when: Apr. 11
     date: '1964-04-11'
@@ -690,13 +912,30 @@ entries:
       rows:
         - 'w.white-suite-3505 305: all'
     tags: [name:morton-thruston-b, name:goldwater-barry-m, state:ky]
+  - id: cal.1964-04-11.elections-1964-primaries
+    when: Apr. 11
+    date: '1964-04-11'
+    thread: elections-1964-primaries
+    c: 'Price to Moore: Rockefeller should speak of his first marriage on television, a four-minute close to a half-hour national broadcast: "He can admit his first marriage was a mistake." Rockefeller will not.'
+    n: '[[w.smith-on-his-own-terms]], 432–33 (a second memorandum, undated, 432 n.: disprove any "abandonment" of the Murphy children). To check: Price to Charles F. Moore, Apr. 11, 1964; "Possible Content of National TV Statement by Governor Rockefeller," undated, Rockefeller Archive Center (cited by [[w.smith-on-his-own-terms]], 432 n.). Check: the day of Rockefeller''s refusal. Names: Rockefeller.'
+    src:
+      c: fbd14cc7
+      rows:
+        - 'w.smith-on-his-own-terms 432–33: all'
+        - 'via x.1964-04-11.price-to-moore: all'
+    tags: [name:rockefeller-nelson]
   - id: cal.1964-04-12.opinion
     when: Apr. 12
     date: '1964-04-12'
     thread: opinion
     also: [elections-1964-polls]
     c: 'Gallup, Mar. 27–Apr. 1, Democrats'' choice for Vice President: Robert Kennedy 47, Stevenson 18, Humphrey 10, Shriver 7, Brown 3, Fulbright 3, Wagner 2; others, no preference 7. Kennedy in the East 55; in the South 38.'
-    n: '[[w.gallup-poll]], III, 1874–75. Names: Robert Kennedy, Stevenson, Humphrey, Shriver, Brown, Wagner, Fulbright.'
+    n: '[[w.gallup-poll]], III, 1874–75; [[w.bernstein-guns-or-butter]], 134 ("in April"). Names: Robert Kennedy, Stevenson, Humphrey, Shriver, Brown, Wagner, Fulbright.'
+    src:
+      c: baba1fd9
+      rows:
+        - 'w.gallup-poll III, 1874–75: all'
+        - 'w.bernstein-guns-or-butter 134: A'
     tags: [name:kennedy-robert-f, name:stevenson-adlai-e, name:humphrey-hubert-h, name:shriver-r-sargent, name:brown-edmund-g, name:fulbright-j-william, name:wagner-robert-f-jr]
   - id: cal.1964-04-12.black-nationalism
     when: Apr. 12
@@ -709,6 +948,7 @@ entries:
   - id: cal.1964-04-12.middle-east-yemen
     when: Apr. 12
     date: '1964-04-12'
+    time: 1964-04-12T16:03Z
     thread: middle-east-yemen
     c: 'Johnson to Douglas-Home: the abstention on Harib approved reluctantly; "it would be hard for me to make the same decision again."'
     n: '[FRUS 1964–68, XXI, doc. 330](https://history.state.gov/historicaldocuments/frus1964-68v21/d330). Made public: FRUS 1964–68, XXI (2000). See [[cal.1964-03-28.middle-east]]. Names: Johnson, Douglas-Home.'
@@ -748,15 +988,18 @@ entries:
   - id: cal.1964-04-13.civil-rights-bill
     when: Apr. 13
     date: '1964-04-13'
+    time: 1964-04-13T19:20Z
+    time_approx: true
     thread: civil-rights-bill
     c: 'The Senators'' opening game, Johnson throwing out the first ball, Senators of both parties with him. Between the third and fourth innings, about 2:20 p.m., the public address: "All U.S. Senators are requested to return to the chamber." A quorum call; Russell stays in his seat. The Leadership Conference''s four limousines carry them the mile in some eight minutes; the quorum made just after 2:30. Humphrey: "We have returned!"'
-    n: '[[w.zelizer-fierce-urgency-of-now]], 110–11. To check: Tom Wicker, "Johnson, in Debut, Lasts Nine Innings of Baseball and Two of Politics," *New York Times*, Apr. 14, 1964; John H. Averill, "Senators Rush from Ball Game," *Los Angeles Times*, Apr. 14, 1964; Maire McNair, "The Real Senators Lost Game First," *Washington Post*, Apr. 15, 1964 (cited by [[w.zelizer-fierce-urgency-of-now]], 110–11 nn.53–55). See [[cal.1964-03-30.civil-rights-bill]]. Names: Johnson, Russell, Humphrey.'
+    n: '[[w.zelizer-fierce-urgency-of-now]], 110–11; [[w.whalen-longest-debate]], 162 (seventeen Senators at the game; the call at the end of the third inning). To check: Tom Wicker, "Johnson, in Debut, Lasts Nine Innings of Baseball and Two of Politics," [*New York Times*, Apr. 14, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/14/issue.html); John H. Averill, "Senators Rush from Ball Game," *Los Angeles Times*, Apr. 14, 1964; Maire McNair, "The Real Senators Lost Game First," *Washington Post*, Apr. 15, 1964 (cited by [[w.zelizer-fierce-urgency-of-now]], 110–11 nn.53–55). See [[cal.1964-03-30.civil-rights-bill]]. Names: Johnson, Russell, Humphrey.'
     src:
       c: a3f9dc0d
       rows:
         - 'w.zelizer-fierce-urgency-of-now 110–11: all'
         - 'via w.zelizer-fierce-urgency-of-now 110 n.53: all'
         - 'via w.zelizer-fierce-urgency-of-now 111 n.55: all'
+        - 'w.whalen-longest-debate 162: A-D'
     tags: [name:johnson-lyndon-b, name:russell-richard-b, name:humphrey-hubert-h]
   - id: cal.1964-04-14.elections-1964
     when: Apr. 14
@@ -789,6 +1032,7 @@ entries:
   - id: cal.1964-04-14.middle-east
     when: Apr. 14–15
     date: '1964-04-14'
+    time: 1964-04-14T16:40Z
     thread: middle-east
     c: 'Hussein at the White House. To Rusk: will the United States sell Jordan arms, paid for by the new Arab command''s funds? The Soviets offer MiG-21s at two-thirds the price. Joint statement, Apr. 15.'
     n: 'Remarks of Welcome at the White House to Hussein I, King of Jordan, [1963–64 Pub. Papers 461](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=545); Toasts of the President and King Hussein I, [1963–64 Pub. Papers 462](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=546) (Apr. 14, 1964); Joint Statement following Discussions With the King of Jordan, [1963–64 Pub. Papers 466](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=550) (Apr. 15, 1964). FRUS 1964–68, XVIII, docs. [39](https://history.state.gov/historicaldocuments/frus1964-68v18/d39), [40](https://history.state.gov/historicaldocuments/frus1964-68v18/d40), [41](https://history.state.gov/historicaldocuments/frus1964-68v18/d41). To check: [[w.little-puppet-in-search-of]]; [[w.shlaim-lion-of-jordan]]. See [[cal.1964-01-13.middle-east]]. Names: Hussein ibn Talal, Rusk.'
@@ -798,8 +1042,10 @@ entries:
     date: '1964-04-14'
     thread: republican-party
     also: [elections-1964]
+    follows:
+      - cal.1964-04-14.governors-il
     c: Percy, nominated for governor, issues a statement in effect pledging his own convention vote to Goldwater.
-    n: '[[w.white-suite-3505]], 306. See [[cal.1964-04-14.governors-il]]. Names: Percy, Goldwater.'
+    n: '[[w.white-suite-3505]], 306. After the primary: [[cal.1964-04-14.governors-il]]. See [[cal.1964-04-14.governors-il]]. Names: Percy, Goldwater.'
     src:
       c: 6b551285
       rows:
@@ -810,7 +1056,7 @@ entries:
     date: '1964-04-14'
     thread: states-and-cities
     c: Albany, the special session. Seventy-three Republicans in the Assembly and twenty-nine in the Senate for the liquor bills, short of a majority; Buckley's Bronx Democrats supply the rest, for an election law putting the organization first on the primary ballot.
-    n: '[[w.smith-on-his-own-terms]], 436. To check: *New York Times*, Apr. 26, 1964 (cited by [[w.smith-on-his-own-terms]], 436). Check: the day of passage. See [[cal.1964-03.states-and-cities]]. Names: Buckley.'
+    n: '[[w.smith-on-his-own-terms]], 436. To check: [*New York Times*, Apr. 26, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/26/issue.html) (cited by [[w.smith-on-his-own-terms]], 436). Check: the day of passage. See [[cal.1964-03.states-and-cities]]. Names: Buckley.'
     src:
       c: 65d568ba
       rows:
@@ -840,6 +1086,46 @@ entries:
       rows:
         - 'w.novak-agony-of-the-g 346: all'
     tags: [name:schlafly-phyllis, state:il]
+  - id: cal.1964-04-14.civil-rights-bill
+    when: Apr. 14
+    date: '1964-04-14'
+    thread: civil-rights-bill
+    c: 'McClellan reads the Senate Johnson''s speech of 1949 against an FEPC: such a law "would necessitate a system of federal police officers such as we have never before seen."'
+    n: '[[w.whalen-longest-debate]], 162–63. To check: 110 Cong. Rec. 7875–76 (Apr. 14, 1964) (cited by [[w.whalen-longest-debate]], 262). Names: McClellan, Johnson.'
+    src:
+      c: 9941dd68
+      rows:
+        - 'w.whalen-longest-debate 162–63: all'
+    tags: [name:mcclellan-john-l, name:johnson-lyndon-b]
+  - id: cal.1964-04-14.latin-america
+    when: Apr. 14
+    date: '1964-04-14'
+    time: 1964-04-14T17:50Z
+    thread: latin-america
+    c: 'Bundy to Johnson by telephone, 12:50 p.m.: a message to Castelo Branco on his inauguration as President of Brazil.'
+    n: '[Johnson and McGeorge Bundy, 12:50 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-mcgeorge-bundy-april-14-1964), Conversation WH6404-09-3025 (Miller Center). [[w.taking-charge]], 318–319. Names: Bundy, Johnson. Check: the rest (318–19).'
+    src:
+      c: 5f3fbcc0
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-mcgeorge-bundy-april-14-1964: A'
+        - 'w.taking-charge 318–319: all'
+        - 'via x.1964-04-14.johnson-mcgeorge-bundy-telephone-1250: all'
+    tags: [name:bundy-mcgeorge, name:johnson-lyndon-b]
+  - id: cal.1964-04-14.vietnam
+    when: Apr. 14
+    date: '1964-04-14'
+    time: 1964-04-14T18:00Z
+    thread: vietnam
+    also: [elections-1964]
+    c: Johnson to Bundy by telephone, 1:00 p.m., reading UPI on Nixon in Asia, refusing "to discuss politics"; watch it with Lippmann.
+    n: '[Johnson and McGeorge Bundy, 1:00 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-mcgeorge-bundy-april-14-1964-1), Conversation WH6404-09-3027 (Miller Center). [[w.taking-charge]], 319–320. Names: Johnson, Bundy, Nixon, Lippmann. Check: the rest (319–20).'
+    src:
+      c: 0207ae9a
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-mcgeorge-bundy-april-14-1964-1: A'
+        - 'w.taking-charge 319–320: all'
+        - 'via x.1964-04-14.johnson-mcgeorge-bundy-telephone-1300: all'
+    tags: [name:johnson-lyndon-b, name:bundy-mcgeorge, name:nixon-richard-m, name:lippmann-walter]
   - id: cal.1964-04-15.vietnam-congress
     when: Apr. 15
     date: '1964-04-15'
@@ -902,25 +1188,41 @@ entries:
     date: '1964-04-15'
     thread: civil-rights-bill
     c: 'Humphrey: he has talked Dirksen down from forty amendments to fifteen; a cloture vote by May 15 or 20.'
-    n: '[[w.bernstein-guns-or-butter]], 69. To check: [[w.whalen-longest-debate]] (cited by [[w.bernstein-guns-or-butter]], 69 n.6). See [[cal.1964-04-07.republican-party-congress]]. Names: Humphrey, Dirksen.'
+    n: '[[w.bernstein-guns-or-butter]], 69; [[w.whalen-longest-debate]], 162 (at the morning''s bipartisan meeting; "after the first week in May"). Check: Whalen, 162, dates it Monday, Apr. 13 (Horn''s log, Apr. 13, 86–89, cited 262). See [[cal.1964-04-07.republican-party-congress]]. Names: Humphrey, Dirksen.'
     src:
       c: a5b27b1b
       rows:
         - 'w.bernstein-guns-or-butter 69: all'
+        - 'w.whalen-longest-debate 162: A-B'
+        - 'via x.1964.horn-periodic-log: A-B'
     tags: [name:humphrey-hubert-h, name:dirksen-everett]
+  - id: cal.1964-04-15.elections-1964-primaries
+    when: Apr. 15
+    date: '1964-04-15'
+    thread: elections-1964-primaries
+    c: 'Nixon home from Asia, where he dined with Lodge. He sends Finch and Folger to Portland to raise $50,000 for a telephone bank: fifty lines in a Portland office building, opened May 4.'
+    n: '[[w.perlstein-before-the-storm]], 331. To check: Rowland Evans and Robert Novak, "The Unmaking of a President," *Esquire*, Nov. 1964 (cited by [[w.perlstein-before-the-storm]], 331 n.1). Names: Nixon, Finch, Folger, Lodge.'
+    src:
+      c: b60d44cc
+      rows:
+        - 'w.perlstein-before-the-storm 331: all'
+        - 'via w.perlstein-before-the-storm 331 n.1a: all'
+    tags: [name:nixon-richard-m, name:finch-robert-h, name:folger-john-c, name:lodge-henry-cabot]
   - id: cal.1964-04-16.republican-party-congress
     when: Apr. 16
     date: '1964-04-16'
     thread: republican-party-congress
     also: [civil-rights-bill]
     c: 'Dirksen submits ten amendments to Title VII in the Senate: the commission''s power to sue left, the States not given precedence; a charge to be filed only by the person aggrieved or a member of the commission.'
-    n: '[110 Cong. Rec. 8192–93](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt6/pdf/GPO-CRECB-1964-pt6-9-2.pdf#page=42) (1964) (Apr. 16, 1964). [[w.mann-walls-of-jericho]], 411 (what they left out and the charge); [[w.bernstein-guns-or-butter]], 69 (ten amendments, not called up; a "mysterious" eleventh promised). See [[cal.1964-04-07.republican-party-congress]]. Names: Dirksen.'
+    n: '[110 Cong. Rec. 8192–93](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt6/pdf/GPO-CRECB-1964-pt6-9-2.pdf#page=42) (1964) (Apr. 16, 1964). [[w.mann-walls-of-jericho]], 411 (what they left out and the charge); [[w.bernstein-guns-or-butter]], 69 (ten amendments, not called up; a "mysterious" eleventh promised); [[w.whalen-longest-debate]], 163–64 (ten of the forty, not called up; an eleventh, on enforcement, to come). See [[cal.1964-04-07.republican-party-congress]]. Names: Dirksen.'
     src:
       c: c1686993
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt6/pdf/GPO-CRECB-1964-pt6-9-2.pdf#page=42: A'
         - 'w.mann-walls-of-jericho 411: all'
         - 'w.bernstein-guns-or-butter 69: A'
+        - 'w.whalen-longest-debate 163–64: A'
+        - 'via x.1964-04-16.congressional-record-8192: A'
     tags: [name:dirksen-everett]
   - id: cal.1964-04-16.civil-rights-bill
     when: Apr. 16
@@ -940,12 +1242,14 @@ entries:
     date: '1964-04-16'
     thread: civil-rights-bill
     c: 'The Leadership Conference with the bill''s managers, by Horn''s log. Mitchell: "Is our side caving in?"; round-the-clock sessions, the Southerners arrested for a quorum if need be. Humphrey: "We don''t have 65 votes for cloture"; Johnson "damn near broke my arm," for running it around the clock; "we aren''t going to sell out, and if we do, it will be for a hell of a price!"'
-    n: '[[w.kotz-judgment-days]], 137–38. To check: Steve Horn, log, 139–44, Manuscript Division, Library of Congress (cited by [[w.kotz-judgment-days]], 138 n.79). Names: Mitchell, Humphrey, Johnson.'
+    n: '[[w.kotz-judgment-days]], 137–38; [[w.whalen-longest-debate]], 163. To check: Steve Horn, log, 139–44, Manuscript Division, Library of Congress (cited by [[w.kotz-judgment-days]], 138 n.79). Names: Mitchell, Humphrey, Johnson.'
     src:
       c: 394bdc6b
       rows:
         - 'w.kotz-judgment-days 137–38: all'
         - 'via w.kotz-judgment-days 137 n.79: all'
+        - 'w.whalen-longest-debate 163: A, E-F'
+        - 'via x.1964.horn-periodic-log: A, E-F'
     tags: [name:mitchell-clarence-jr, name:humphrey-hubert-h, name:johnson-lyndon-b]
   - id: cal.1964-04-16.king
     when: Apr. 16–17
@@ -966,11 +1270,13 @@ entries:
     thread: civil-rights-bill
     also: [republican-party-congress]
     c: 'McCulloch in Dirksen''s office: the framers made a bicameral legislature. Two of Dirksen''s remaining amendments unacceptable: no power for the Equal Employment Opportunity Commission to sue under Title VII; a State law to preempt the federal, Dirksen protecting Illinois''s commission.'
-    n: '[[w.bernstein-guns-or-butter]], 69. See [[cal.1964-04-07.republican-party-congress]]. Names: McCulloch, Dirksen.'
+    n: '[[w.bernstein-guns-or-butter]], 69; [[w.whalen-longest-debate]], 164. Check: Whalen, 164, has McCulloch''s call two days before Dirksen offered his ten amendments, Apr. 14 (Horn''s log, Apr. 16, 95). See [[cal.1964-04-07.republican-party-congress]]. Names: McCulloch, Dirksen.'
     src:
       c: a9d48dc3
       rows:
         - 'w.bernstein-guns-or-butter 69: all'
+        - 'w.whalen-longest-debate 164: B-C'
+        - 'via x.1964.horn-periodic-log: B-C'
     tags: [name:mcculloch-william-m, name:dirksen-everett]
   - id: cal.1964-04-16.testing
     when: Apr. 16
@@ -982,6 +1288,19 @@ entries:
       c: 478a93fe
       rows:
         - 'w.poole-joint-chiefs-of-staff 91: all'
+  - id: cal.1964-04-16.civil-rights-bill-4
+    when: Apr. 16
+    date: '1964-04-16'
+    thread: civil-rights-bill
+    also: [civil-disorders]
+    c: 'News conference. On civil disobedience: "We do not, of course, condone violence or taking the law into your own hands ... You really do the civil rights cause no good when you go to this extent." Congress to act "to bring these disturbances from the streets and the alleys into the courts where they belong."'
+    n: 'The President''s News Conference, [1963–64 Pub. Papers 467](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=551), 469, 472 (Apr. 16, 1964). [[w.kotz-judgment-days]], 124. To check: *New York Times*, Apr. 17, 1964, p. 1 (cited by [[w.kotz-judgment-days]], 124 n.29). Names: Johnson.'
+    src:
+      c: 11be5794
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=551: all'
+        - 'w.kotz-judgment-days 124: all'
+    tags: [name:johnson-lyndon-b]
   - id: cal.1964-04-17.mississippi
     when: Apr. 17
     date: '1964-04-17'
@@ -1012,6 +1331,7 @@ entries:
   - id: cal.1964-04-18.defense
     when: Apr. 18
     date: '1964-04-18'
+    time: 1964-04-18T17:48Z
     thread: defense
     c: Press conference. A study of the draft and military manpower ordered, on McNamara's plan; among the alternatives, meeting the services' needs "on an entirely voluntary basis in the next decade."
     n: 'The President''s News Conference, [1963–64 Pub. Papers 485](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=569) (Apr. 18, 1964). To check: [[w.flynn-draft-1940-1973]]. Names: Johnson, McNamara.'
@@ -1048,20 +1368,23 @@ entries:
     date: '1964-04-18'
     thread: elections-1964-state-conventions
     c: Topeka, Kansas's Republican convention. Governor Anderson, for Rockefeller, a candidate for delegate at large; the Goldwater men run Effie Semple, the retiring national committeewoman, against him. Sedgwick County, its unit rule unenforced, casts 110 for Semple, 13 for him; at 626 to 282 he withdraws. Two Goldwater men elected to the national committee on the fifth ballot, 11 to 9.
-    n: '[[w.white-suite-3505]], 307–11; [[w.novak-agony-of-the-g]], 351–52 (Van Sickle directing; 626 to 282, Anderson losing 20 of 92 votes from his home county; 11 to 9 for the Goldwater men on the national committee). Names: John Anderson Jr., Goldwater, Rockefeller.'
+    n: '[[w.white-suite-3505]], 307–11; [[w.novak-agony-of-the-g]], 351–52 (Van Sickle directing; 626 to 282, Anderson losing 20 of 92 votes from his home county; 11 to 9 for the Goldwater men on the national committee); [[w.perlstein-before-the-storm]], 323–24 (White''s night in Topeka; Semple against Anderson for the delegation''s chair). Names: John Anderson Jr., Goldwater, Rockefeller.'
     src:
       c: 7dc66447
       rows:
         - 'w.white-suite-3505 307–11: all'
         - 'w.novak-agony-of-the-g 351–52: A-C, E-F'
+        - 'w.perlstein-before-the-storm 323–24: A-C'
     tags: [name:anderson-john-jr, name:goldwater-barry-m, name:rockefeller-nelson, state:ks, ok:result-form]
   - id: cal.1964-04-18.goldwater
     when: Apr. 18
     date: '1964-04-18'
     thread: goldwater
     also: [elections-1964]
+    follows:
+      - cal.1964-04-18.elections-1964-state-conventions-3
     c: Topeka, after the Kansas convention. White counts more than 200 Goldwater delegates; he decides to claim only 165. By White's account.
-    n: '[[w.white-suite-3505]], 311. Names: White.'
+    n: '[[w.white-suite-3505]], 311. After the Kansas convention (the sources above). Names: White.'
     src:
       c: 26b6cc04
       rows:
@@ -1117,7 +1440,7 @@ entries:
     thread: civil-rights-bill
     also: [civil-rights-organizations]
     c: A prayer vigil for the bill begins at the Lincoln Memorial, Catholic, Protestant and Jewish seminarians from seventy-five seminaries, to go on day and night until the Senate passes it.
-    n: '[[w.mann-walls-of-jericho]], 398, 412; [[w.zelizer-fierce-urgency-of-now]], 114; [[w.bernstein-guns-or-butter]], 69. See [[cal.1964-03-06.civil-rights-bill]].'
+    n: '[[w.mann-walls-of-jericho]], 398, 412; [[w.zelizer-fierce-urgency-of-now]], 114; [[w.bernstein-guns-or-butter]], 69; [[w.whalen-longest-debate]], 164. See [[cal.1964-03-06.civil-rights-bill]].'
     src:
       c: 980817ad
       rows:
@@ -1125,6 +1448,7 @@ entries:
         - 'w.mann-walls-of-jericho 412: all'
         - 'w.zelizer-fierce-urgency-of-now 114: all'
         - 'w.bernstein-guns-or-butter 69: A'
+        - 'w.whalen-longest-debate 164: A'
   - id: cal.1964-04-19.republican-party-congress
     when: Apr. 19
     date: '1964-04-19'
@@ -1141,6 +1465,7 @@ entries:
   - id: cal.1964-04-20.testing
     when: Apr. 20
     date: '1964-04-20'
+    time: 1964-04-20T18:00Z
     thread: testing
     c: 'Johnson to the Associated Press in New York: a further cut in enriched uranium over four years; with the earlier cuts, plutonium production down 20 percent, enriched uranium 40. Khrushchev the same hour: two plutonium reactors not to be built, U-235 production cut. Douglas-Home consulted.'
     n: 'Remarks on Foreign Affairs at the Associated Press Luncheon in New York City, [1963–64 Pub. Papers 493](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=577) (Apr. 20, 1964); White House Statement following a Review of Implementation of the Limited Test Ban Treaty Safeguards, [1963–64 Pub. Papers 502](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=586) (Apr. 20, 1964). [FRUS 1964–68, XI: Arms Control and Disarmament, doc. 25](https://history.state.gov/historicaldocuments/frus1964-68v11/d25) (the announcements, Douglas-Home consulted; not the reactors). [[w.poole-joint-chiefs-of-staff]], 88–89 (the two announcements); [[w.dobrynin-in-confidence]], 124 ("A joint statement to that effect was soon made"). To check: [[w.seaborg-stemming-the-tide]]. See [[cal.1963-10-07.testing]]; [[cal.1964-01-08.program]]. Names: Johnson, Khrushchev, Douglas-Home.'
@@ -1195,7 +1520,7 @@ entries:
     thread: vietnam
     also: [press-and-broadcasting]
     c: 'Forrestal to Bundy: Kleiman of the *Times* writing an editorial against "the concept of total victory in Vietnam"; told that "To talk irresponsibly of neutralization now is not only unrealistic, but positively dangerous." "I am somewhat afraid that the editorial ... will not be helpful."'
-    n: '[[w.preston-war-council]], 139. To check: Forrestal to Bundy, Apr. 20, 1964, NSF, Country File, Vietnam, box 3, LBJ Library (cited by [[w.preston-war-council]], 139 n.26); "Johnson''s Way," *New York Times*, Apr. 26, 1964, E1 (the editorial; cited by [[w.preston-war-council]], 139 n.26). See [[cal.1963-11-13.vietnam-2]]. Names: Forrestal, Bundy.'
+    n: '[[w.preston-war-council]], 139. To check: Forrestal to Bundy, Apr. 20, 1964, NSF, Country File, Vietnam, box 3, LBJ Library (cited by [[w.preston-war-council]], 139 n.26); "Johnson''s Way," [*New York Times*, Apr. 26, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/26/issue.html), E1 (the editorial; cited by [[w.preston-war-council]], 139 n.26). See [[cal.1963-11-13.vietnam-2]]. Names: Forrestal, Bundy.'
     src:
       c: 2d8ba00d
       rows:
@@ -1244,13 +1569,15 @@ entries:
     date: '1964-04-21'
     thread: civil-rights-bill
     c: 'Thirty-seven days into the filibuster, Talmadge calls up his amendment: a jury trial in every criminal contempt case arising under the bill.'
-    n: '[110 Cong. Rec. 8649–50](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt7/pdf/GPO-CRECB-1964-pt7-1-2.pdf#page=61) (1964) (Apr. 21, 1964). [[w.mann-walls-of-jericho]], 415; [[w.bernstein-guns-or-butter]], 70. See [[cal.1964-03-30.civil-rights-bill]]. Names: Talmadge.'
+    n: '[110 Cong. Rec. 8649–50](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt7/pdf/GPO-CRECB-1964-pt7-1-2.pdf#page=61) (1964) (Apr. 21, 1964). [[w.mann-walls-of-jericho]], 415; [[w.bernstein-guns-or-butter]], 70; [[w.whalen-longest-debate]], 166–67 (Talmadge: "a sacred privilege of personal liberty"). See [[cal.1964-03-30.civil-rights-bill]]. Names: Talmadge.'
     src:
       c: 8f3ee7c7
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt7/pdf/GPO-CRECB-1964-pt7-1-2.pdf#page=61: all'
         - 'w.mann-walls-of-jericho 415: all'
         - 'w.bernstein-guns-or-butter 70: A'
+        - 'w.whalen-longest-debate 166–67: A'
+        - 'via x.1964-04-21.congressional-record-8613: A'
     tags: [name:talmadge-herman-e]
   - id: cal.1964-04-21.goldwater
     when: Apr. 21
@@ -1258,7 +1585,7 @@ entries:
     thread: goldwater
     also: [elections-1964]
     c: Goldwater wonders aloud how Johnson amassed a personal fortune in public service.
-    n: '[[w.goldberg-barry-goldwater]], 188; the quotation by the note from the *New York Times*, Apr. 21, 1964, 23 (188 n.46). Check: the day of the words. Names: Goldwater, Johnson.'
+    n: '[[w.goldberg-barry-goldwater]], 188; the quotation by the note from the [*New York Times*, Apr. 21, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/21/issue.html), 23 (188 n.46). Check: the day of the words. Names: Goldwater, Johnson.'
     src:
       c: 237d5341
       rows:
@@ -1271,11 +1598,13 @@ entries:
     thread: republican-party-congress
     also: [civil-rights-bill]
     c: 'Dirksen introduces his "mysterious" eleventh amendment. That afternoon, Humphrey in a chair beside his desk: H.R. 7152 a good bill that should and would pass; his duty to put his weight behind it; one more minor amendment, to Title II.'
-    n: '[[w.bernstein-guns-or-butter]], 69–70. To check: [[w.whalen-longest-debate]] (cited by [[w.bernstein-guns-or-butter]], 70 n.6). See [[cal.1964-04-16.republican-party-congress]]. Names: Dirksen, Humphrey.'
+    n: '[[w.bernstein-guns-or-butter]], 69–70; [[w.whalen-longest-debate]], 166–68 (the amendment presented, not explained; the talk that afternoon; Dirksen against pressing Rule 19). See [[cal.1964-04-16.republican-party-congress]]. Names: Dirksen, Humphrey.'
     src:
       c: 820035e6
       rows:
         - 'w.bernstein-guns-or-butter 69–70: all'
+        - 'w.whalen-longest-debate 166–68: A-D'
+        - 'via x.1964.stewart-diary: A-D'
     tags: [name:dirksen-everett, name:humphrey-hubert-h]
   - id: cal.1964-04-21.press-and-broadcasting
     when: Apr. 21
@@ -1338,6 +1667,47 @@ entries:
       rows:
         - 'w.asselin-hanois-road-to-the 189: all'
         - 'via x.1964-04-21.nhan-dan-21-april-1964: all'
+  - id: cal.1964-04-21.civil-rights-organizations-2
+    when: Apr. 21
+    date: '1964-04-21'
+    thread: civil-rights-organizations
+    also: [civil-rights-bill]
+    c: 'The Southerners past the old record of thirty-seven days. Russell to Clarence Mitchell, off the record: "the jig was up"; no compromise to be had from Johnson.'
+    n: '[[w.whalen-longest-debate]], 168. To check: John Stewart, diary, Apr. 21, 1964, Humphrey Papers, Minnesota Historical Society (cited by [[w.whalen-longest-debate]], 262). Names: Russell, Clarence Mitchell, Johnson.'
+    src:
+      c: 1eeebd8b
+      rows:
+        - 'w.whalen-longest-debate 168: all'
+        - 'via x.1964.stewart-diary: all'
+    tags: [name:russell-richard-b, name:mitchell-clarence-jr, name:johnson-lyndon-b]
+  - id: cal.1964-04-21.press-and-broadcasting-2
+    when: Apr. 21
+    date: '1964-04-21'
+    thread: press-and-broadcasting
+    also: [civil-rights-bill]
+    c: 'Evans and Novak in the *Washington Post*: "Perhaps never before in Senate history has a handful of minority party congressmen in the House held such a whip hand over the Senate."'
+    n: '[[w.whalen-longest-debate]], 181. To check: Evans and Novak, *Washington Post*, Apr. 21, 1964 (cited by [[w.whalen-longest-debate]], 265). Names: Evans, Novak.'
+    src:
+      c: 8f58ed6c
+      rows:
+        - 'w.whalen-longest-debate 181: all'
+        - 'via x.1964-04-21.evans-novak-washington-post: all'
+    tags: [name:evans-rowland-jr, name:novak-robert-d]
+  - id: cal.1964-04-21.baker
+    when: Apr. 21
+    date: '1964-04-21'
+    time: 1964-04-22T00:55Z
+    thread: baker
+    also: [defense]
+    c: 'Johnson to Vance by telephone, 8:00 p.m., on testimony at Fred Black''s trial of money to bribe officers at Wright Field: call Sheldon Cohen of the Revenue Service; "I don''t want one case of corruption." Harris''s poll: half think he cannot keep it out of the government.'
+    n: '[Johnson and Cyrus Vance, 7:55 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-cyrus-vance-and-office-conversation-april-22), Conversation WH6404-11-3097 (Miller Center). [[w.taking-charge]], 321–322. Check: the Miller Center''s and PRDE''s catalogues time the call 7:55 p.m. Names: Johnson, Vance.'
+    src:
+      c: d19b61f7
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-cyrus-vance-and-office-conversation-april-22: A'
+        - 'w.taking-charge 321–322: all'
+        - 'via x.1964-04-21.johnson-cyrus-vance-telephone-1955: all'
+    tags: [name:johnson-lyndon-b, name:vance-cyrus]
   - id: cal.1964-04-22.railroads
     when: Apr. 22
     date: '1964-04-22'
@@ -1409,6 +1779,32 @@ entries:
         - 'w.marolda-united-states-navy-and 375: all'
         - 'via x.1964-04-22.cincpac-222333z-kitty-hawk: all'
     tags: [name:souvanna-phouma]
+  - id: cal.1964-04-22.republican-party-congress
+    when: Apr. 22
+    date: '1964-04-22'
+    thread: republican-party-congress
+    also: [civil-rights-bill]
+    c: After the leaders' breakfast on Vietnam, Dirksen asks Johnson for a talk on the civil rights bill; set for Apr. 29.
+    n: '[[w.whalen-longest-debate]], 168. Check: the day; the note cites the President''s Appointment File of Apr. 21 (262). Names: Dirksen, Johnson.'
+    src:
+      c: b2c24a09
+      rows:
+        - 'w.whalen-longest-debate 168: all'
+    tags: [name:dirksen-everett, name:johnson-lyndon-b]
+  - id: cal.1964-04-22.railroads-2
+    when: Apr. 22
+    date: '1964-04-22'
+    time: 1964-04-22T21:29Z
+    thread: railroads
+    c: 'Johnson to Robert Kennedy by telephone, 4:29 p.m.: the railroad presidents ask whether their mergers pending at Justice would have sympathetic consideration if they settle. Kennedy: Justice has taken a "liberal" view of mergers.'
+    n: '[Johnson and Robert Kennedy, 4:29 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-april-22-1964), Conversation WH6404-11-3103 (Miller Center). [[w.taking-charge]], 322–323. Names: Johnson, Robert Kennedy.'
+    src:
+      c: eedc4150
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-april-22-1964: A'
+        - 'w.taking-charge 322–323: all'
+        - 'via x.1964-04-22.johnson-robert-kennedy-telephone-1629: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
   - id: cal.1964-04-23.king
     when: Apr. 23
     date: '1964-04-23'
@@ -1446,27 +1842,32 @@ entries:
   - id: cal.1964-04-23.robert-kennedy
     when: Apr. 23
     date: '1964-04-23'
+    time: 1964-04-23T23:03Z
     thread: robert-kennedy
     also: [berlin-and-vienna]
     c: 'Johnson to Moyers by telephone, 6:03 p.m.: "The attorney general''s callin'' me." Moyers: Bundy has had "a very frustrating session" with Robert Kennedy, who wants to go to Berlin "on behalf of his dead brother."'
-    n: '[Johnson and Moyers, 6:03 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-bill-moyers-signal-corps-operator-vicki), Conversation WH6404-12-3122 (Miller Center). [[w.shesol-mutual-contempt]], 193. Names: Johnson, Moyers, Bundy, Robert Kennedy. Check: Shesol''s text gives "the evening of April 25"; his note, Apr. 23, 6:03 p.m.'
+    n: '[Johnson and Moyers, 6:03 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-bill-moyers-signal-corps-operator-vicki), Conversation WH6404-12-3122 (Miller Center). [[w.shesol-mutual-contempt]], 193; [[w.taking-charge]], 323–324. Names: Johnson, Moyers, Bundy, Robert Kennedy. Check: Shesol''s text gives "the evening of April 25"; his note, Apr. 23, 6:03 p.m.'
     src:
       c: a098cabc
       rows:
         - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-bill-moyers-signal-corps-operator-vicki: all'
         - 'w.shesol-mutual-contempt 193: all'
         - 'via w.shesol-mutual-contempt 193 n.callin: all'
+        - 'w.taking-charge 323–324: all'
+        - 'via x.1964-04-23.johnson-bill-moyers-telephone-1803: all'
     tags: [name:johnson-lyndon-b, name:moyers-bill, name:bundy-mcgeorge, name:kennedy-robert-f]
   - id: cal.1964-04-23.civil-rights-bill
     when: Apr. 23
     date: '1964-04-23'
     thread: civil-rights-bill
     c: 'Mansfield''s office: Humphrey, Robert Kennedy, Katzenbach, Marshall, Manatos and Valeo on Talmadge''s jury-trial amendment. It will pass; counter it with a bipartisan substitute. Dirksen invited in.'
-    n: '[[w.bernstein-guns-or-butter]], 70. See [[cal.1964-04-21.civil-rights-bill]]. Names: Mansfield, Humphrey, Kennedy, Katzenbach, Marshall, Manatos, Valeo, Talmadge, Dirksen.'
+    n: '[[w.bernstein-guns-or-butter]], 70; [[w.whalen-longest-debate]], 168–69 (Dirksen to cosponsor a substitute; the Equal Employment Opportunity Commission''s power to sue kept). See [[cal.1964-04-21.civil-rights-bill]]. Names: Mansfield, Humphrey, Kennedy, Katzenbach, Marshall, Manatos, Valeo, Talmadge, Dirksen.'
     src:
       c: d41faff5
       rows:
         - 'w.bernstein-guns-or-butter 70: all'
+        - 'w.whalen-longest-debate 168–69: A-D'
+        - 'via x.1964-04-27.manatos-to-obrien: A-D'
     tags: [name:mansfield-mike, name:humphrey-hubert-h, name:kennedy-robert-f, name:katzenbach-nicholas, name:marshall-burke, name:manatos-mike-n, name:valeo-francis-r, name:talmadge-herman-e, name:dirksen-everett]
   - id: cal.1964-04-23.program
     when: Apr. 23
@@ -1474,8 +1875,56 @@ entries:
     thread: program
     also: [democratic-party]
     c: 'Chicago, McCormick Place, the Democratic Club of Cook County''s dinner. Johnson: "we have been called upon—are you listening?—to build a great society of the highest order." The phrase''s first public use; the speech Moyers''s.'
-    n: 'Remarks in Chicago at a Fundraising Dinner of the Democratic Club of Cook County, [1963–64 Pub. Papers 527](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=611) (Apr. 23, 1964). [[w.white-making-of-the-president-1965]], 390 (the first use in public; the speech Moyers''s). See [[cal.1964-03-02.program]]. Names: Johnson, Moyers, Daley.'
+    n: 'Remarks in Chicago at a Fundraising Dinner of the Democratic Club of Cook County, [1963–64 Pub. Papers 527](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=611) (Apr. 23, 1964). [[w.white-making-of-the-president-1965]], 390 (the first use in public; the speech Moyers''s); [[w.cohen-american-pharaoh]], 315. See [[cal.1964-03-02.program]]. Names: Johnson, Moyers, Daley.'
+    src:
+      c: f4524efa
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=611: all'
+        - 'w.white-making-of-the-president-1965 390: ?'
+        - 'w.cohen-american-pharaoh 315: A-B'
     tags: [name:johnson-lyndon-b, name:moyers-bill, name:daley-richard-j, city:chicago, state:il]
+  - id: cal.1964-04-23.civil-rights-bill-2
+    when: Apr. 23
+    date: '1964-04-23'
+    time: 1964-04-23T15:42Z
+    thread: civil-rights-bill
+    c: 'News conference. On the jury trial proposals: "I haven''t examined it. That is a matter for the Senators who are considering it ... I haven''t seen it. All I know about it I read in the paper."'
+    n: 'The President''s News Conference of April 23, 1964, [1963–64 Pub. Papers 519](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=603), 522 (Apr. 23, 1964). [[w.whalen-longest-debate]], 169; [[w.kotz-judgment-days]], 139 ("I haven''t seen it. All I know is what I read in the newspapers," set after Apr. 29). Names: Johnson.'
+    src:
+      c: 38c37a7f
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=603: all'
+        - 'w.whalen-longest-debate 169: all'
+        - 'w.kotz-judgment-days 139: B'
+    tags: [name:johnson-lyndon-b]
+  - id: cal.1964-04-23.press-and-broadcasting
+    when: Apr. 23
+    date: '1964-04-23'
+    time: 1964-04-24T00:24Z
+    thread: press-and-broadcasting
+    c: 'Jenkins to Johnson in Chicago by telephone, 6:24 p.m.: Moursund and Bullion have a long wire of questions from the *Wall Street Journal*.'
+    n: '[Johnson and Walter Jenkins, 6:24 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-walter-jenkins-april-23-1964), Conversation WH6404-12-3124 (Miller Center). [[w.taking-charge]], 324–325. Names: Jenkins, Johnson.'
+    src:
+      c: 2fe47ed6
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-walter-jenkins-april-23-1964: A'
+        - 'w.taking-charge 324–325: all'
+        - 'via x.1964-04-23.johnson-walter-jenkins-telephone-1824: all'
+    tags: [name:jenkins-walter-w, name:johnson-lyndon-b, city:chicago]
+  - id: cal.1964-04-23.medicare
+    when: Apr. 23
+    date: '1964-04-23'
+    time: 1964-04-24T00:36Z
+    thread: medicare
+    c: 'Johnson and Moyers by telephone, 6:36 p.m., over the speech for Chicago: what the care of the aged will cost a worker. Moyers: "an average of about a dollar a month." Johnson: "too much."'
+    n: '[Johnson and Bill Moyers, 6:36 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-bill-moyers-april-23-1964-0), Conversation WH6404-12-3125 (Miller Center). [[w.taking-charge]], 325–326. Names: Johnson, Moyers.'
+    src:
+      c: 03089f2d
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-bill-moyers-april-23-1964-0: A'
+        - 'w.taking-charge 325–326: all'
+        - 'via x.1964-04-23.johnson-bill-moyers-telephone-1836: all'
+    tags: [name:johnson-lyndon-b, name:moyers-bill]
   - id: cal.1964-04-24.poverty
     when: Apr. 24
     date: '1964-04-24'
@@ -1522,7 +1971,7 @@ entries:
     date: '1964-04-24'
     thread: defense
     c: McNamara announces 63 installations to be closed or consolidated, 8 abroad, the Watertown Arsenal, Mass., and two Army ammunition depots, in South Dakota and Nebraska, among them. The Navy yards' study six to nine months off.
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 464–65. To check: DoD News Release 337-64, Apr. 24, 1964 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 465 n.68). See [[cal.1961-03-30.defense]]. Names: McNamara.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 464–65. To check: DoD News Release 337–64, Apr. 24, 1964 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 465 n.68). See [[cal.1961-03-30.defense]]. Names: McNamara.'
     src:
       c: 387095cf
       rows:
@@ -1546,13 +1995,15 @@ entries:
     thread: civil-rights-bill
     also: [republican-party-congress]
     c: 'Mansfield and Dirksen offer a substitute for Talmadge''s amendment, No. 516: without a jury, criminal contempt no more than thirty days or $300. Russell to reporters: "just a mustard plaster on a cancer."'
-    n: '[110 Cong. Rec. 8991](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt7/pdf/GPO-CRECB-1964-pt7-4-1.pdf#page=35) (1964) (Apr. 24, 1964). [[w.mann-walls-of-jericho]], 415–16; [[w.bernstein-guns-or-butter]], 70 (with no jury, a fine of no more than $300 or 30 days). See [[cal.1964-04-21.civil-rights-bill]]. Names: Mansfield, Dirksen, Russell.'
+    n: '[110 Cong. Rec. 8991](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt7/pdf/GPO-CRECB-1964-pt7-4-1.pdf#page=35) (1964) (Apr. 24, 1964). [[w.mann-walls-of-jericho]], 415–16; [[w.bernstein-guns-or-butter]], 70 (with no jury, a fine of no more than $300 or 30 days); [[w.whalen-longest-debate]], 169. See [[cal.1964-04-21.civil-rights-bill]]. Names: Mansfield, Dirksen, Russell.'
     src:
       c: 5c07f620
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt7/pdf/GPO-CRECB-1964-pt7-4-1.pdf#page=35: A'
         - 'w.mann-walls-of-jericho 415–16: all'
         - 'w.bernstein-guns-or-butter 70: A'
+        - 'w.whalen-longest-debate 169: A-B'
+        - 'via x.1964-04-24.congressional-record-8991: A-B'
     tags: [name:mansfield-mike, name:dirksen-everett, name:russell-richard-b]
   - id: cal.1964-04-24.vietnam
     when: Apr. 24
@@ -1610,6 +2061,18 @@ entries:
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 515: all'
     tags: [name:mcnamara-robert-s, name:johnson-lyndon-b]
+  - id: cal.1964-04-25.draft
+    when: Apr. 25
+    date: '1964-04-25'
+    thread: draft
+    also: [war-opposition]
+    c: 'The *National Guardian* prints an advertisement signed by 87 young men, at Harvard, Columbia, Wisconsin, Haverford and New York University among others: they will refuse to fight in South Vietnam, "we see no justification for our involvement." Many of the Progressive Labor Movement.'
+    n: '[[w.zaroulis-who-spoke-up]], 19; [[w.debenedetti-american-ordeal]], 97 (eighty-seven of the New Haven conference, after the French students'' letter on Algeria).'
+    src:
+      c: e676ca6c
+      rows:
+        - 'w.zaroulis-who-spoke-up 19: all'
+        - 'w.debenedetti-american-ordeal 97: ?'
   - id: cal.1964-04-26.civil-rights-organizations
     when: Apr. 26
     date: '1964-04-26'
@@ -1637,13 +2100,27 @@ entries:
     date: '1964-04-26'
     thread: civil-rights-bill
     c: 'Humphrey on *Face the Nation*: "No one can justify the filibuster"; of the stall-in, "the responsible leaders in the civil rights movement did not advocate" it; "the answer to the stall-in is to stop the talk-in."'
-    n: '[[w.mann-walls-of-jericho]], 414–15. To check: Face the Nation, CBS, Apr. 26, 1964 (cited by [[w.mann-walls-of-jericho]], 414). See [[cal.1964-04-15.civil-rights-bill]]. Names: Humphrey.'
+    n: '[[w.mann-walls-of-jericho]], 414–15; [[w.whalen-longest-debate]], 170 (four or five votes short). To check: Face the Nation, CBS, Apr. 26, 1964 (cited by [[w.mann-walls-of-jericho]], 414). See [[cal.1964-04-15.civil-rights-bill]]. Names: Humphrey.'
     src:
       c: f832dfd8
       rows:
         - 'w.mann-walls-of-jericho 414–15: all'
         - 'via w.mann-walls-of-jericho 414 n.by-late-april: all'
+        - 'w.whalen-longest-debate 170: A'
     tags: [name:humphrey-hubert-h]
+  - id: cal.1964-04-26.civil-rights-bill-2
+    when: Apr. 26
+    date: '1964-04-26'
+    thread: civil-rights-bill
+    also: [republican-party-congress]
+    c: 'Senators against McCulloch''s hold on the bill, in the *Dayton Daily News*. Clark: "We must go to him on bended knee with an amendment and say to him, ''will you accept this?''" Jack Miller: "if the Senate can''t make any changes in the bill, the Senate might as well be abolished." Keating likewise.'
+    n: '[[w.whalen-longest-debate]], 181. Check: the day. To check: *Dayton Daily News*, Apr. 26, 1964 (cited by [[w.whalen-longest-debate]], 265). Names: McCulloch, Clark, Jack Miller, Keating.'
+    src:
+      c: a464152b
+      rows:
+        - 'w.whalen-longest-debate 181: all'
+        - 'via x.1964-04-26.dayton-daily-news: all'
+    tags: [name:mcculloch-william-m, name:clark-joseph-s, name:miller-jack-r, name:keating-kenneth-b]
   - id: cal.1964-04-27.europe-and-the-alliance
     when: Apr. 27–28
     date: '1964-04-27'
@@ -1675,6 +2152,41 @@ entries:
         - 'w.zelizer-fierce-urgency-of-now 114: all'
         - 'via w.zelizer-fierce-urgency-of-now 114 n.67: all'
     tags: [name:harris-louis]
+  - id: cal.1964-04-27.republican-party-congress
+    when: Apr. 27
+    date: '1964-04-27'
+    thread: republican-party-congress
+    also: [civil-rights-bill]
+    c: 'Allott of Colorado, a conservative Republican, in the Senate: "senators have the right and the duty, at some point, to bring debate on this subject to a conclusion. ... I think the time to act is now."'
+    n: '[[w.whalen-longest-debate]], 170. To check: 110 Cong. Rec. 9122 (Apr. 27, 1964) (cited by [[w.whalen-longest-debate]], 263). Names: Allott.'
+    src:
+      c: e5d7eec8
+      rows:
+        - 'w.whalen-longest-debate 170: all'
+    tags: [name:allott-gordon-l]
+  - id: cal.1964-04-27.conservation
+    when: Apr. 27–30
+    date: '1964-04-27'
+    thread: conservation
+    c: 'House Interior''s Subcommittee on Public Lands hears the wilderness bills, S. 4, H.R. 9070 and H.R. 9162, in Washington, after hearings at Olympia, Denver and Las Vegas from January. Zahniser on the last day: "for perpetuity, ... that surely is our challenge."'
+    n: 'Daily Digest, [110 Cong. Rec. D189](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=187) (House, Apr. 27, 1964). [[w.bernstein-guns-or-butter]], 277 (B; the hearings "between January and May 1964"). Check: the day of Zahniser''s testimony. See [[cal.1964-03-03.conservation]].'
+    src:
+      c: f6db6793
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=187: A'
+        - 'w.bernstein-guns-or-butter 277: all'
+  - id: cal.1964-04-27.elections-1964-primaries
+    when: Apr. 27
+    date: '1964-04-27'
+    thread: elections-1964-primaries
+    also: [vietnam]
+    c: 'Portland, Ore. Rockefeller: hot pursuit into the Communist sanctuaries in Laos, Cambodia and North Vietnam, by South Vietnamese troops and air strikes; no further withdrawal of the American forces in Southeast Asia.'
+    n: '[[w.smith-on-his-own-terms]], 433 n. Names: Rockefeller.'
+    src:
+      c: ddb2434a
+      rows:
+        - 'w.smith-on-his-own-terms 433 n.: all'
+    tags: [name:rockefeller-nelson]
   - id: cal.1964-04-28.elections-1964
     when: Apr. 28
     date: '1964-04-28'
@@ -1701,7 +2213,7 @@ entries:
     thread: civil-rights-bill
     also: [civil-rights-organizations]
     c: National Interreligious Convocation on Civil Rights at Georgetown University, some sixty-five hundred, called at Humphrey's suggestion. The clergy lobby the Congress the days after.
-    n: '[[w.mann-walls-of-jericho]], 398, 412; [[w.white-making-of-the-president-1965]], 177 (the gymnasium of Georgetown University); [[w.kotz-judgment-days]], 144; [[w.bernstein-guns-or-butter]], 69 (McDonough Gymnasium and Gaston Hall; Humphrey, Kuchel, Javits, Keating and Archbishop Shehan among the speakers). Check: Bernstein, 69, gives 5,000 church leaders. To check: [[w.whalen-longest-debate]], 165 (cited by [[w.mann-walls-of-jericho]], 412). See [[cal.1964-03-06.civil-rights-bill]]. Names: Humphrey.'
+    n: '[[w.mann-walls-of-jericho]], 398, 412; [[w.white-making-of-the-president-1965]], 177 (the gymnasium of Georgetown University); [[w.kotz-judgment-days]], 144; [[w.bernstein-guns-or-butter]], 69 (McDonough Gymnasium and Gaston Hall; Humphrey, Kuchel, Javits, Keating and Archbishop Shehan among the speakers); [[w.whalen-longest-debate]], 165, 170–71 (the plans laid with Humphrey, Mar. 17; 5,000 church leaders; Blake''s speech); [[w.debenedetti-american-ordeal]], 92 (late April, five thousand clergy for the bill). Check: Bernstein, 69, gives 5,000 church leaders. Check: Whalen, 170, also gives 5,000. Check: DeBenedetti, 92, gives five thousand clergy. See [[cal.1964-03-06.civil-rights-bill]]. Names: Humphrey.'
     src:
       c: b57469ce
       rows:
@@ -1709,17 +2221,22 @@ entries:
         - 'w.white-making-of-the-president-1965 177: ?'
         - 'w.kotz-judgment-days 144: A'
         - 'w.bernstein-guns-or-butter 69: A'
+        - 'w.whalen-longest-debate 165, 170–71: A'
+        - 'via x.1964-04-29.new-york-times: A'
+        - 'w.debenedetti-american-ordeal 92: A'
   - id: cal.1964-04-28.civil-rights-bill-2
     when: Apr. 28
     date: '1964-04-28'
     thread: civil-rights-bill
     c: 'Humphrey with Johnson, the day before Dirksen''s visit: "Victory was in sight"; "lay down the law." By Humphrey''s file.'
-    n: '[[w.mann-walls-of-jericho]], 417. To check: Humphrey, memorandum to the file, 1964, HHH Vice Presidential Papers, Civil and Human Rights, Box 821, Minnesota Historical Society (cited by [[w.mann-walls-of-jericho]], 417). See [[cal.1964-03-30.civil-rights-bill]]. Names: Humphrey, Johnson, Dirksen.'
+    n: '[[w.mann-walls-of-jericho]], 417; [[w.whalen-longest-debate]], 172 (two hours'' wait; a meeting of the National Security Council held up). To check: Humphrey, memorandum to the file, 1964, HHH Vice Presidential Papers, Civil and Human Rights, Box 821, Minnesota Historical Society (cited by [[w.mann-walls-of-jericho]], 417). See [[cal.1964-03-30.civil-rights-bill]]. Names: Humphrey, Johnson, Dirksen.'
     src:
       c: d75e7be5
       rows:
         - 'w.mann-walls-of-jericho 417: all'
         - 'via w.mann-walls-of-jericho 417 n.johnsons-refusal-to-negotiate: all'
+        - 'w.whalen-longest-debate 172: A-B'
+        - 'via x.1964.stewart-diary: A-B'
     tags: [name:humphrey-hubert-h, name:johnson-lyndon-b]
   - id: cal.1964-04-28.vietnam
     when: Apr. 28
@@ -1740,11 +2257,13 @@ entries:
     thread: republican-party-congress
     also: [civil-rights-bill]
     c: 'Republican Policy Committee luncheon. Dirksen gives the Southerners a week: if the filibuster does not end by May 5, he will file a petition for cloture. To the press: "This isn''t a bluff. . . . The time has come to move off dead center."'
-    n: '[[w.bernstein-guns-or-butter]], 70–71. To check: [[w.whalen-longest-debate]] (cited by [[w.bernstein-guns-or-butter]], 71 n.6). See [[cal.1964-04-07.republican-party-congress]]. Names: Dirksen.'
+    n: '[[w.bernstein-guns-or-butter]], 70–71; [[w.whalen-longest-debate]], 170 ("I can count. There was an amazing consensus in the policy luncheon"). See [[cal.1964-04-07.republican-party-congress]]. Names: Dirksen.'
     src:
       c: 8c84981d
       rows:
         - 'w.bernstein-guns-or-butter 70–71: all'
+        - 'w.whalen-longest-debate 170: A-C'
+        - 'via x.1964-04-29.washington-post: A-C'
     tags: [name:dirksen-everett]
   - id: cal.1964-04-28.europe-and-the-alliance
     when: Apr. 28
@@ -1757,6 +2276,77 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 213: all'
     tags: [name:mcnamara-robert-s]
+  - id: cal.1964-04-28.congress
+    when: Apr. 28
+    date: '1964-04-28'
+    time: 1964-04-28T16:25Z
+    thread: congress
+    also: [jobs-and-wages]
+    c: 'Johnson to McCormack by telephone, 12:25 p.m., on the delay in the pay bill: Magnuson ready to "shove it down"; "We ought to hire some people that can get a count."'
+    n: '[Johnson and John McCormack, 12:25 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-mccormack-and-wayne-hays-april-28-1964), Conversation WH6404-13-3148 (Miller Center). [[w.taking-charge]], 327–328. Names: Johnson, McCormack, Magnuson.'
+    src:
+      c: 517f3610
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-mccormack-and-wayne-hays-april-28-1964: A'
+        - 'w.taking-charge 327–328: all'
+        - 'via x.1964-04-28.johnson-john-mccormack-telephone-1225: all'
+    tags: [name:johnson-lyndon-b, name:mccormack-john-w, name:magnuson-warren-g]
+  - id: cal.1964-04-28.transportation
+    when: Apr. 28
+    date: '1964-04-28'
+    time: 1964-04-28T21:50Z
+    thread: transportation
+    c: 'Johnson to O''Brien by telephone, 5:50 p.m.: "the ''Johnson bill'' took a big whipping today," the transportation bill; Tip O''Neill.'
+    n: '[Johnson and Lawrence O''Brien, 5:50 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-larry-obrien-april-28-1964), Conversation WH6404-14-3154 (Miller Center). [[w.taking-charge]], 328–329. Names: Johnson, O''Brien, O''Neill.'
+    src:
+      c: 913ec34c
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-larry-obrien-april-28-1964: A'
+        - 'w.taking-charge 328–329: all'
+        - 'via x.1964-04-28.johnson-lawrence-o-brien-telephone-1750: all'
+    tags: [name:johnson-lyndon-b, name:obrien-lawrence-f, name:oneill-thomas-p-jr]
+  - id: cal.1964-04-28.vietnam-2
+    when: Apr. 28
+    date: '1964-04-28'
+    time: 1964-04-28T22:50Z
+    thread: vietnam
+    c: 'Johnson to William Bundy by telephone, 6:50 p.m.: a letter from Madame Nhu''s mother, wife of the former Vietnamese Ambassador; the ambassadors'' dinner after his trip.'
+    n: '[Johnson and William Bundy, 6:50 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-william-bundy-april-28-1964), Conversation WH6404-14-3164 (Miller Center). [[w.taking-charge]], 329. Names: Johnson, William Bundy. Check: the matter (329).'
+    src:
+      c: c7c57243
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-william-bundy-april-28-1964: A'
+        - 'w.taking-charge 329: all'
+        - 'via x.1964-04-28.johnson-william-bundy-telephone-1850: all'
+    tags: [name:johnson-lyndon-b, name:bundy-william]
+  - id: cal.1964-04-28.press-and-broadcasting
+    when: Apr. 28
+    date: '1964-04-28'
+    time: 1964-04-28T23:07Z
+    thread: press-and-broadcasting
+    c: 'Johnson to Reedy by telephone, 7:07 p.m., the day after he lifted his beagles by the ears in the Rose Garden: Doug Cornell''s AP story; "the silent treatment for a while."'
+    n: '[Johnson and George Reedy, 7:07 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-reedy-april-28-1964), Conversation WH6404-14-3170 (Miller Center). [[w.taking-charge]], 329–330. Names: Johnson, Reedy.'
+    src:
+      c: 3bb7b5ef
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-reedy-april-28-1964: A'
+        - 'w.taking-charge 329–330: all'
+        - 'via x.1964-04-28.johnson-george-reedy-telephone-1907: all'
+    tags: [name:johnson-lyndon-b, name:reedy-george-e]
+  - id: cal.1964-04-28.defense
+    when: Apr. 28
+    date: '1964-04-28'
+    time: 1964-04-28T23:18Z
+    thread: defense
+    c: Johnson and McCormack by telephone, 7:18 p.m., on O'Neill and the Boston Navy Yard, some 2,400 men; McCormack's "most uncomfortable experience" with McNamara in thirty-six years.
+    n: '[Johnson and John McCormack, 7:18 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-mccormack-april-28-1964), Conversation WH6404-14-3174 (Miller Center). [[w.taking-charge]], 330–331. Names: Johnson, McCormack, O''Neill, McNamara.'
+    src:
+      c: 87f8ace9
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-mccormack-april-28-1964: A'
+        - 'w.taking-charge 330–331: all'
+        - 'via x.1964-04-28.johnson-john-mccormack-telephone-1918: all'
+    tags: [name:johnson-lyndon-b, name:mccormack-john-w, name:oneill-thomas-p-jr, name:mcnamara-robert-s, city:boston]
   - id: cal.1964-04-29.opinion
     when: Apr. 29
     date: '1964-04-29'
@@ -1770,8 +2360,10 @@ entries:
     date: '1964-04-29'
     thread: civil-rights-bill
     also: [republican-party-congress]
+    follows:
+      - cal.1964-04-29.civil-rights-bill-3
     c: Dirksen at the White House, telling reporters going in that only compromise will bring the Republican votes for cloture; coming out, he and Johnson had barely touched on civil rights.
-    n: '[[w.caro-passage-of-power]], 566; [[w.kotz-judgment-days]], 138–39 (noon; "Now, it''s your play"; Johnson refuses to negotiate). [[w.mann-walls-of-jericho]], 417 (the meeting; Johnson, by Humphrey''s file, would not bargain). Check: Kotz, from Mann, 417, has Dirksen offer twenty-five Republicans for cloture for substantial changes, and Johnson refuse (138–39). To check: Humphrey, memorandum to the file, 1964, HHH Vice Presidential Papers, Civil and Human Rights, Box 821, Minnesota Historical Society (cited by [[w.mann-walls-of-jericho]], 417). Names: Dirksen, Johnson.'
+    n: '[[w.caro-passage-of-power]], 566; [[w.kotz-judgment-days]], 138–39 (noon; "Now, it''s your play"; Johnson refuses to negotiate); [[w.whalen-longest-debate]], 171–72 (an alarm clock, a Big Ben, his gift). [[w.mann-walls-of-jericho]], 417 (the meeting; Johnson, by Humphrey''s file, would not bargain). Check: Kotz, from Mann, 417, has Dirksen offer twenty-five Republicans for cloture for substantial changes, and Johnson refuse (138–39). After Johnson''s call to Mansfield, before the noon visit (the sources above). To check: Humphrey, memorandum to the file, 1964, HHH Vice Presidential Papers, Civil and Human Rights, Box 821, Minnesota Historical Society (cited by [[w.mann-walls-of-jericho]], 417). Names: Dirksen, Johnson.'
     src:
       c: a59186a0
       rows:
@@ -1779,10 +2371,13 @@ entries:
         - 'w.mann-walls-of-jericho 417: A'
         - 'via w.mann-walls-of-jericho 417 n.johnsons-refusal-to-negotiate: A'
         - 'w.kotz-judgment-days 138–39: A'
+        - 'w.whalen-longest-debate 171–72: A-B'
+        - 'via x.1964-04-29.lbj-diary-backup: A-B'
     tags: [name:dirksen-everett, name:johnson-lyndon-b]
   - id: cal.1964-04-29.civil-rights-bill-2
     when: Apr. 29
     date: '1964-04-29'
+    time: 1964-04-29T17:00Z
     thread: civil-rights-bill
     c: 'Johnson to some two hundred religious leaders at the White House, Blake, Spike, Archbishop O''Boyle and Rabbi Uri Miller among them: "again the problem of racial wrongs and racial hatreds is the central moral problem of this Republic"; "your job as prophets in our time."'
     n: 'Remarks to a Group of Civil Rights Leaders, [1963–64 Pub. Papers 588](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=672) (Apr. 29, 1964). [[w.branch-pillar-of-fire]], 299; [[w.kotz-judgment-days]], 144. Names: Johnson.'
@@ -1814,8 +2409,10 @@ entries:
     date: '1964-04-29'
     thread: republican-party-congress
     also: [civil-rights-bill]
+    follows:
+      - cal.1964-04-29.civil-rights-bill-7
     c: 'Dirksen in the Senate: unless the Southerners allow votes, he will join Mansfield in seeking cloture on the jury trial amendment. To reporters after a meeting with Russell: a vote on it probably by May 6.'
-    n: '[[w.mann-walls-of-jericho]], 416. To check: [110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt7/pdf/GPO-CRECB-1964-pt7-8-2.pdf) (1964). See [[cal.1964-04-24.civil-rights-bill]]. Names: Dirksen, Mansfield, Russell. Check: the page.'
+    n: '[[w.mann-walls-of-jericho]], 416. After the Southern caucus and Russell: [[cal.1964-04-29.civil-rights-bill-7]]. To check: [110 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt7/pdf/GPO-CRECB-1964-pt7-8-2.pdf) (1964). See [[cal.1964-04-24.civil-rights-bill]]. Names: Dirksen, Mansfield, Russell. Check: the page.'
     src:
       c: 554f50d1
       rows:
@@ -1824,38 +2421,48 @@ entries:
   - id: cal.1964-04-29.civil-rights-bill-3
     when: Apr. 29
     date: '1964-04-29'
+    time: 1964-04-29T15:32Z
     thread: civil-rights-bill
     c: 'Johnson to Mansfield by telephone, 11:32 a.m., before Dirksen''s noon visit: Dirksen "gave out a long interview of what he''s going to tell me today ... which is not like him"; and on the beagles, "It''s none of his damn business ... how I treat my dogs."'
-    n: '[[w.kotz-judgment-days]], 138. To check: [Johnson and Mansfield, 11:32 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-mike-mansfield-april-29-1964), Tape WH6404.15, PNO 4 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 138 n.82). See [[cal.1964-04-29.civil-rights-bill]]. Names: Johnson, Mansfield, Dirksen.'
+    n: '[[w.kotz-judgment-days]], 138; [[w.taking-charge]], 331–333. To check: [Johnson and Mansfield, 11:32 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-mike-mansfield-april-29-1964), Tape WH6404.15, PNO 4 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 138 n.82). See [[cal.1964-04-29.civil-rights-bill]]. Names: Johnson, Mansfield, Dirksen.'
     src:
       c: 19ba3b2f
       rows:
         - 'w.kotz-judgment-days 138: all'
         - 'via w.kotz-judgment-days 138 n.82: all'
+        - 'w.taking-charge 331–333: all'
+        - 'via x.1964-04-29.johnson-mike-mansfield-telephone-1132: all'
     tags: [name:johnson-lyndon-b, name:mansfield-mike, name:dirksen-everett]
   - id: cal.1964-04-29.civil-rights-bill-4
     when: Apr. 29
     date: '1964-04-29'
+    time: 1964-04-30T02:50Z
     thread: civil-rights-bill
-    c: 'Robert Kennedy to Johnson by telephone, 10:50 p.m.: the jury trial amendment agreed by Dirksen and Mansfield. Johnson: "If it''s okay by you, it''s fine by me." To reporters: "I haven''t seen it. All I know is what I read in the newspapers."'
-    n: '[[w.kotz-judgment-days]], 139. To check: Johnson and Robert Kennedy, Apr. 29, 1964, 10:50 p.m., Tape WH6404.12, PNO 6, LBJ Library; [[w.whalen-longest-debate]], 169 (cited by [[w.kotz-judgment-days]], 139 n.84). Check: the day of Johnson''s words to reporters. Names: Robert Kennedy, Johnson, Dirksen, Mansfield.'
+    c: 'Robert Kennedy to Johnson by telephone, 10:50 p.m.: the jury trial amendment agreed by Dirksen and Mansfield. Johnson: "If it''s okay by you, it''s fine by me."'
+    n: '[Johnson and Robert Kennedy, 10:50 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-april-23-1964), Conversation WH6404-12-3126 (Miller Center). [[w.kotz-judgment-days]], 139; [[w.taking-charge]], 326–27. Check: [[w.kotz-judgment-days]], 139, sets Johnson''s words to reporters after the call; they are the news conference of Apr. 23: [[cal.1964-04-23.civil-rights-bill-2]]. Check: [[w.taking-charge]], 326–27, and the Miller Center (WH6404-12-3126) date the call Apr. 23, 10:50 p.m., Johnson in Chicago; the compromise thirty days, Dirksen had wanted ten. To check: Johnson and Robert Kennedy, Apr. 29, 1964, 10:50 p.m., Tape WH6404.12, PNO 6, LBJ Library. Names: Robert Kennedy, Johnson, Dirksen, Mansfield.'
     src:
-      c: 9fe847e5
+      c: 6a29fe89
       rows:
-        - 'w.kotz-judgment-days 139: all'
+        - 'w.kotz-judgment-days 139: A-B'
         - 'via w.kotz-judgment-days 139 n.84a: A-B'
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-april-23-1964: A'
+        - 'w.taking-charge 326–27: A, B'
+        - 'via x.1964-04-23.johnson-robert-kennedy-telephone-2250: A, B'
     tags: [name:kennedy-robert-f, name:johnson-lyndon-b, name:dirksen-everett, name:mansfield-mike]
   - id: cal.1964-04-29.civil-rights-bill-5
     when: Apr. 29
     date: '1964-04-29'
+    time: 1964-04-29T15:55Z
     thread: civil-rights-bill
     c: 'Johnson to Fulbright by telephone, 11:55 a.m.: go abroad on a presidential mission at the time of the cloture vote. Fulbright: he is committed to Russell to vote against cloture.'
-    n: '[[w.kotz-judgment-days]], 145. To check: [Johnson and William Fulbright, 11:55 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-william-fulbright-april-29-1964), Tape WH6404.15, PNO 7 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 145 n.103). Names: Johnson, Fulbright, Russell.'
+    n: '[[w.kotz-judgment-days]], 145; [[w.taking-charge]], 333–335. To check: [Johnson and William Fulbright, 11:55 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-william-fulbright-april-29-1964), Tape WH6404.15, PNO 7 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 145 n.103). Names: Johnson, Fulbright, Russell.'
     src:
       c: 2b9649c6
       rows:
         - 'w.kotz-judgment-days 145: all'
         - 'via w.kotz-judgment-days 145 n.103: all'
+        - 'w.taking-charge 333–335: all'
+        - 'via x.1964-04-29.johnson-j-william-fulbright-telephone-1155: all'
     tags: [name:johnson-lyndon-b, name:fulbright-j-william, name:russell-richard-b]
   - id: cal.1964-04-29.goldwater
     when: Apr. 29
@@ -1881,6 +2488,44 @@ entries:
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 515–16: all'
     tags: [name:souvanna-phouma]
+  - id: cal.1964-04-29.civil-rights-bill-6
+    when: Apr. 29
+    date: '1964-04-29'
+    thread: civil-rights-bill
+    c: 'The bipartisan team''s morning meeting. Humphrey against cloture on the jury trial amendment or the bill: "we don''t have enough votes." Katzenbach: Dirksen can bring a third of them. Clark: "This has become the Dirksen bill! I deplore it but that''s it."'
+    n: '[[w.whalen-longest-debate]], 171. To check: Horn, Periodic Log, Apr. 29, 1964, 128–30 (cited by [[w.whalen-longest-debate]], 263). Names: Humphrey, Katzenbach, Dirksen, Clark.'
+    src:
+      c: 2754968a
+      rows:
+        - 'w.whalen-longest-debate 171: all'
+        - 'via x.1964.horn-periodic-log: all'
+    tags: [name:humphrey-hubert-h, name:katzenbach-nicholas, name:dirksen-everett, name:clark-joseph-s]
+  - id: cal.1964-04-29.civil-rights-bill-7
+    when: Apr. 29
+    date: '1964-04-29'
+    time: 1964-04-29T18:30Z
+    thread: civil-rights-bill
+    c: '2:30 p.m., the Southern caucus, seventy-five minutes: no agreement to allow a vote on the jury trial amendment. Russell tells Dirksen; the two go arm in arm to Mansfield''s office; twenty minutes, nothing settled.'
+    n: '[[w.whalen-longest-debate]], 172. To check: Russell''s date book, Apr. 29, 1964, Russell Library; *New York Times*, Apr. 30, 1964, 1, 20 (cited by [[w.whalen-longest-debate]], 263). Names: Russell, Dirksen, Mansfield.'
+    src:
+      c: 7d4dac0f
+      rows:
+        - 'w.whalen-longest-debate 172: all'
+    tags: [name:russell-richard-b, name:dirksen-everett, name:mansfield-mike]
+  - id: cal.1964-04-29.press-and-broadcasting
+    when: Apr. 29
+    date: '1964-04-29'
+    time: 1964-04-29T22:26Z
+    thread: press-and-broadcasting
+    c: 'Fortas to Johnson by telephone, 6:26 p.m., after meeting the *Wall Street Journal*''s reporters on Johnson''s holdings: the head of the office "very friendly."'
+    n: '[Johnson and Abe Fortas, 6:26 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-abe-fortas-april-29-1964), Conversation WH6404-15-3195 (Miller Center). [[w.taking-charge]], 335–336. Names: Fortas, Johnson.'
+    src:
+      c: 91b1dbbb
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-abe-fortas-april-29-1964: A'
+        - 'w.taking-charge 335–336: all'
+        - 'via x.1964-04-29.johnson-abe-fortas-telephone-1826: all'
+    tags: [name:fortas-abe, name:johnson-lyndon-b]
   - id: cal.1964-04-30.robert-kennedy
     when: Apr. 30
     date: '1964-04-30'
@@ -1911,12 +2556,13 @@ entries:
     thread: conservative-movement
     also: [goldwater, elections-1964]
     c: Phyllis Schlafly publishes *A Choice, Not an Echo* herself, for Goldwater, a first printing of 25,000. Three million copies sold in its first year.
-    n: '[[w.young-two-suns-of-the]], 71, 90. [[w.kabaservice-rule-and-ruin]], 89 (self-published, April 1964; half a million copies given out in California''s primary). Names: Schlafly, Goldwater. Check: the day.'
+    n: '[[w.young-two-suns-of-the]], 71, 90; [[w.perlstein-before-the-storm]], 349 (25,000 delivered to her house in late April; 5,000 sent for UROC''s convention, Apr. 30; 600,000 in circulation by June). [[w.kabaservice-rule-and-ruin]], 89 (self-published, April 1964; half a million copies given out in California''s primary). Names: Schlafly, Goldwater. Check: the day.'
     src:
       c: 9d14c474
       rows:
         - 'w.young-two-suns-of-the 71, 90: all'
         - 'w.kabaservice-rule-and-ruin 89: A'
+        - 'w.perlstein-before-the-storm 349: A'
     tags: [name:schlafly-phyllis, name:goldwater-barry-m]
     short: '*A Choice, Not an Echo*'
   - id: cal.1964-04.medicare
@@ -1936,22 +2582,25 @@ entries:
   - id: cal.1964-04-30.vietnam
     when: Apr. 30
     date: '1964-04-30'
+    time: 1964-04-30T22:10Z
     thread: vietnam
     c: 'Johnson and McNamara by telephone, 6:10 and 7:50 p.m. By Mann''s account: "Let''s get some more of something, my friend, because I''m going to have a heart attack if you don''t get me something"; "I''m not doing much about winning it. I just read about it."'
-    n: '[Johnson and McNamara, 6:10 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-april-30-1964), Conversation WH6404-15-3208; [7:50 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-and-office-conversation-3), WH6404-16-3220 (Miller Center). [[w.mann-grand-delusion]], 326 (the words). Check: which call. To check: [[w.taking-charge]], 338 (cited by [[w.mann-grand-delusion]], 326 n.17). Names: Johnson, McNamara.'
+    n: '[Johnson and McNamara, 6:10 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-april-30-1964), Conversation WH6404-15-3208; [7:50 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-and-office-conversation-3), WH6404-16-3220 (Miller Center). [[w.mann-grand-delusion]], 326 (the words); [[w.taking-charge]], 337–38. Check: which call. Names: Johnson, McNamara.'
     src:
       c: 3c0b71af
       rows:
         - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-april-30-1964: A'
         - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-and-office-conversation-3: A'
         - 'w.mann-grand-delusion 326: B-C'
+        - 'w.taking-charge 337–38: all'
+        - 'via x.1964-04-30.johnson-robert-mcnamara-telephone-1950: all'
     tags: [name:johnson-lyndon-b, name:mcnamara-robert-s]
   - id: cal.1964-04.vietnam-congress
     when: Apr.
     date: 1964-04
     thread: vietnam-congress
     c: 'Church on Hugh Scott''s television program in Pennsylvania: carrying the war into North Vietnam would risk a confrontation with China and "a hopeless entanglement, the end of which is difficult to see."'
-    n: '[[w.mann-grand-delusion]], 330 (the footnote). Check: the day. To check: *New York Times*, Apr. 27, 1964 (cited by [[w.mann-grand-delusion]], 330). Names: Church, Scott.'
+    n: '[[w.mann-grand-delusion]], 330 (the footnote). Check: the day. To check: [*New York Times*, Apr. 27, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/27/issue.html) (cited by [[w.mann-grand-delusion]], 330). Names: Church, Scott.'
     src:
       c: a965af17
       rows:
@@ -2033,11 +2682,13 @@ entries:
     thread: civil-rights-bill
     also: [civil-rights-organizations]
     c: 'Humphrey with Burke Marshall, Rauh and Clarence Mitchell, on Dirksen''s amendments: "The Republicans must carry the fight"; "Dirksen told me that if he did not get support, he would retreat."'
-    n: '[[w.mann-walls-of-jericho]], 411. To check: [[w.whalen-longest-debate]], 160 (cited by [[w.mann-walls-of-jericho]], 411). Check: the day. See [[cal.1964-04-07.republican-party-congress]]. Names: Humphrey, Burke Marshall, Rauh, Mitchell, Dirksen.'
+    n: '[[w.mann-walls-of-jericho]], 411; [[w.whalen-longest-debate]], 160–61 (Humphrey''s office, the Republicans in conference; Horn: "Dirksen will go through his public acting process"). Check: the day. Check: Whalen, 160, dates the meeting Thursday, Apr. 9 (Horn''s log, Apr. 9, 84, cited 262). See [[cal.1964-04-07.republican-party-congress]]. Names: Humphrey, Burke Marshall, Rauh, Mitchell, Dirksen.'
     src:
       c: ae99cb55
       rows:
         - 'w.mann-walls-of-jericho 411: all'
+        - 'w.whalen-longest-debate 160–61: A-B'
+        - 'via x.1964.horn-periodic-log: A-B'
     tags: [name:humphrey-hubert-h, name:marshall-burke, name:rauh-joseph-l-jr, name:mitchell-clarence-jr]
   - id: cal.1964-04.civil-rights-bill-2
     when: Apr.
@@ -2101,14 +2752,17 @@ entries:
   - id: cal.1964-04-30.civil-rights-bill
     when: Apr. 30
     date: '1964-04-30'
+    time: 1964-04-30T16:11Z
     thread: civil-rights-bill
     c: 'Johnson to Humphrey by telephone, 12:11 p.m., after Humphrey tells reporters some of Dirksen''s amendments might be acceptable: "I''m against any amendments, and I''m going to be against them right up until the moment I sign them!" Talk of compromise read as weakness by Russell.'
-    n: '[[w.kotz-judgment-days]], 139–40. To check: [Johnson and Humphrey, 12:11 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-hubert-humphrey-april-30-1964), Tape WH6404.15, PNO 22 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 139 n.86). Names: Johnson, Humphrey, Dirksen.'
+    n: '[[w.kotz-judgment-days]], 139–40; [[w.taking-charge]], 336–337. To check: [Johnson and Humphrey, 12:11 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-hubert-humphrey-april-30-1964), Tape WH6404.15, PNO 22 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 139 n.86). Names: Johnson, Humphrey, Dirksen.'
     src:
       c: 441df000
       rows:
         - 'w.kotz-judgment-days 139–40: all'
         - 'via w.kotz-judgment-days 139 n.86: all'
+        - 'w.taking-charge 336–337: A'
+        - 'via x.1964-04-30.johnson-hubert-humphrey-telephone-1211: A'
     tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:dirksen-everett]
   - id: cal.1964-04.elections-1964-3
     when: Apr.
@@ -2321,3 +2975,142 @@ entries:
       c: 4f2dbd4f
       rows:
         - 'w.poole-joint-chiefs-of-staff 295: all'
+  - id: cal.1964-04.desegregation-schools-2
+    when: Apr., mid
+    date: 1964-04
+    thread: desegregation-schools
+    c: 'Chicago. Raby and Hauser in public. Hauser: "integration can not be brought about by force—it has to be lubricated with persuasion. The donkey and the carrot approach rather than the use of the whip will achieve more."'
+    n: '[[w.anderson-confronting-the-color-line]], 135. Check: the day. Names: Raby.'
+    src:
+      c: af7d18e9
+      rows:
+        - 'w.anderson-confronting-the-color-line 135: all'
+    tags: [name:raby-albert, state:il, city:chicago]
+  - id: cal.1964-04.desegregation-schools
+    when: Apr.
+    date: 1964-04
+    thread: desegregation-schools
+    c: 'Chicago. Daley reappoints Mrs. Wendell Green to the Board of Education for five years. Mrs. Green to the City Council: "There is no segregation in Chicago schools." Robert Miller, 6th Ward, votes against her in committee.'
+    n: '[[w.cohen-american-pharaoh]], 314–15; [[w.anderson-confronting-the-color-line]], 136 (Daley renominates Mrs. Green, seventy-four). Check: the days. Check: Anderson has the Coordinating Council''s special meeting on the renomination May 6 and the City Council''s hearing May 8 (136). Names: Daley.'
+    src:
+      c: 58c488fc
+      rows:
+        - 'w.cohen-american-pharaoh 314–15: all'
+        - 'w.anderson-confronting-the-color-line 136: A-C'
+    tags: [state:il, city:chicago, name:daley-richard-j]
+  - id: cal.1964-04.mayors
+    when: Apr.
+    date: 1964-04
+    thread: mayors
+    c: 'Daley abroad, three weeks, with Wilson and Marzullo: Paris; the Queen at Buckingham Palace, "We all have the same problems, especially traffic"; Berlin, Vienna, Copenhagen, Stockholm, Lourdes, Dublin; Paul VI in private audience; Dungarvan, County Waterford, five thousand to greet him.'
+    n: '[[w.cohen-american-pharaoh]], 320–21. Check: the days. Names: Daley.'
+    src:
+      c: f060f8d8
+      rows:
+        - 'w.cohen-american-pharaoh 320–21: all'
+    tags: [name:daley-richard-j]
+  - id: cal.1964-04-30.civil-rights-organizations
+    when: Apr. 30
+    date: '1964-04-30'
+    thread: civil-rights-organizations
+    also: [civil-rights-bill]
+    c: 'The bipartisan team''s meeting, the Leadership Conference now kept from the real talks. Clarence Mitchell for compelling absentees, the sergeant at arms to arrest them: "Our troops can be worn out unless we bring in the missing senators." Humphrey and Kuchel turn it aside.'
+    n: '[[w.whalen-longest-debate]], 172–73. To check: Horn, Periodic Log, Apr. 30, 1964, 139–44 (cited by [[w.whalen-longest-debate]], 263). Names: Clarence Mitchell, Humphrey, Kuchel.'
+    src:
+      c: 580041b6
+      rows:
+        - 'w.whalen-longest-debate 172–73: all'
+        - 'via x.1964.horn-periodic-log: all'
+    tags: [name:mitchell-clarence-jr, name:humphrey-hubert-h, name:kuchel-thomas-h]
+  - id: cal.1964-04.war-opposition
+    when: Apr.
+    date: 1964-04
+    thread: war-opposition
+    c: Thirty-three leading liberals, Spock and Stringfellow Barr among them, petition Johnson for a diplomatic solution and the neutralization of Vietnam.
+    n: '[[w.debenedetti-american-ordeal]], 95. Check: the day. Names: Spock.'
+    src:
+      c: d56656ef
+      rows:
+        - 'w.debenedetti-american-ordeal 95: all'
+    tags: [name:spock-benjamin]
+  - id: cal.1964-04.civil-rights-bill-4
+    when: Apr.
+    date: 1964-04
+    thread: civil-rights-bill
+    c: 'Ervin of North Carolina on the House''s bill: "a monstrous blueprint as full of legal tricks as a mangy hound dog is of fleas."'
+    n: '[[w.kotz-judgment-days]], 134. To check: *New York Times*, Apr. 12, 1964, p. 41 (cited by [[w.kotz-judgment-days]], 134 n.70). Check: the day; Kotz''s note cites the *Times* of Apr. 12. Names: Ervin.'
+    src:
+      c: 1cf7a5ab
+      rows:
+        - 'w.kotz-judgment-days 134: all'
+        - 'via w.kotz-judgment-days 134 n.70: all'
+    tags: [name:ervin-sam-j-jr]
+  - id: cal.1964-04.king
+    when: Apr.
+    date: 1964-04
+    thread: king
+    c: 'King to Clarence Jones: "We''re about to go out of business." SCLC''s payroll of $50,000 a month unmet.'
+    n: '[[w.kotz-judgment-days]], 125. To check: SAC New York to Hoover, Apr. 2, 1964, FBI file 100-3-116-1322 (cited by [[w.kotz-judgment-days]], 125 n.33). Made public: Check; Kotz cites the FBI''s file. Check: the day; Kotz: "in early April"; the FBI''s report is of Apr. 2. Names: Martin Luther King.'
+    src:
+      c: aa37be80
+      rows:
+        - 'w.kotz-judgment-days 125: all'
+        - 'via w.kotz-judgment-days 125 n.33b: all'
+    tags: [name:king-martin-luther-jr]
+  - id: cal.1964-04.defense
+    when: Apr.
+    date: 1964-04
+    thread: defense
+    c: McNamara asks Califano, general counsel of the Army, to succeed Yarmolinsky as his special assistant, Yarmolinsky expected to go to the poverty program. Califano takes the post.
+    n: '[[w.bernstein-guns-or-butter]], 318. Check: the day. Names: McNamara, Califano, Yarmolinsky.'
+    src:
+      c: c96f08cb
+      rows:
+        - 'w.bernstein-guns-or-butter 318: all'
+    tags: [name:mcnamara-robert-s, name:califano-joseph-a-jr, name:yarmolinsky-adam]
+  - id: cal.1964-04.civil-rights-bill-3
+    when: Apr., early
+    date: 1964-04
+    thread: civil-rights-bill
+    c: 'The churches on Capitol Hill: a prayer service each day at the Lutheran Church of the Reformation, a prominent clergyman leading, at Humphrey''s urging.'
+    n: '[[w.bernstein-guns-or-butter]], 69. To check: [[w.whalen-longest-debate]] (cited by [[w.bernstein-guns-or-butter]], 69 n.6). Check: the first day. See [[cal.1964-03-30.civil-rights-bill]]. Names: Humphrey.'
+    src:
+      c: 00ccbfaa
+      rows:
+        - 'w.bernstein-guns-or-butter 69: all'
+    tags: [name:humphrey-hubert-h]
+  - id: cal.1964-04.poverty
+    when: Apr.
+    date: 1964-04
+    thread: poverty
+    c: 'Whitney Young of the Urban League before the House poverty subcommittee: the Negro''s plight "a catastrophe, a disaster, and it is fast becoming a national disgrace"; the demonstrations "fostered by despair and hopelessness."'
+    n: '[[w.bernstein-guns-or-butter]], 106. To check: *Economic Opportunity Act of 1964: Hearings Before the Subcommittee on the War on Poverty Program of the H. Comm. on Education and Labor*, 88th Cong. (1964) (cited by [[w.bernstein-guns-or-butter]], 106 n.8). Check: the day; the Daily Digest has public witnesses on several days, Apr. 9–28. Names: Whitney Young.'
+    src:
+      c: 49d95133
+      rows:
+        - 'w.bernstein-guns-or-butter 106: all'
+        - 'via x.1964-03-17.economic-opportunity-act-house-hearings: all'
+    tags: [name:young-whitney-m-jr]
+  - id: cal.1964-04.elections-1964-primaries
+    when: Apr., within two weeks of Price's coming
+    date: 1964-04
+    thread: elections-1964-primaries
+    c: 'Oregon. All thirty-six counties organized, on paper: storefront headquarters rented on the spot; three of the six copies of Multnomah County''s Republican voter list bought; *The Nelson Rockefeller Story* to nearly 200,000 households.'
+    n: '[[w.smith-on-his-own-terms]], 431. Check: the days. See [[cal.1964-04-11.elections-1964]].'
+    src:
+      c: 0c619fe2
+      rows:
+        - 'w.smith-on-his-own-terms 431: all'
+        - 'via x.undated.price-interview-by-smith: all'
+  - id: cal.1964-04.elections-1964-primaries-2
+    when: Apr.–May, before the primary
+    date: 1964-04
+    thread: elections-1964-primaries
+    also: [vietnam]
+    c: Grants Pass, Or. Rockefeller again for the hot pursuit of the Viet Cong by South Vietnamese forces into Cambodia and Laos.
+    n: '[[w.smith-on-his-own-terms]], 433. Check: the day. Names: Rockefeller.'
+    src:
+      c: b1322aac
+      rows:
+        - 'w.smith-on-his-own-terms 433: all'
+    tags: [name:rockefeller-nelson]

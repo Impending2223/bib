@@ -1233,8 +1233,18 @@ def combine(series, keep, drop):
 # appearance"): in each half of the calendar, the first entry that points to a card ([[w.…]]) prints its full
 # citation, linked to the A–Z bibliography; the entries after it, its short form. [[w.…|full]] prints it in full
 # wherever it stands.
+#
+# BLUEBOOK FIRST CITE (the owner's request, Nov. 5, 2026, with Bluebook 3.2(a) and 15.3): the full citation takes its
+# pinpoint where the Bluebook puts it, after the title and before the year, the entry's parenthetical after the year:
+# 'Julian E. Zelizer, *Taxing America: ... 1945–1975*, at 257 (1998) (corporate payments speeded)' (', at' only where
+# the title ends in a numeral, Arabic or Roman); 'Andrew L. Johns, *Vietnam's Second Front: ...* 139 (2010)'; an
+# article's or chapter's after its first page, '1, 15'; a set's volume before it all, '3 *The Gallup Poll ...*, at
+# 1862 (1972)'. Distinct pinpoints with parentheticals of their own after a semicolon, '; *Id.* at 260 (the count)'.
+# A pinpoint that is no page (a document, a chapter) stays after the year. The data keeps one form, '[[w.x]], 257
+# (paren)', which the claims read; the short forms after the first are as they were. with_first_cites, split_full.
 
 FULL = "\x01full"
+HEAD = "\x01head"      # the full citation's head, its pinpoint and year after (BLUEBOOK FIRST CITE)
 
 
 def first_cites(series):
@@ -1268,7 +1278,8 @@ def first_cites(series):
 # its parenthetical whole, one level of parentheses within ("(the rising, from Jan. 17; the attack)"). A pinpoint
 # stops at a parenthesis, so a work inside another's "(cited by [[w.a]], 54 n.10)" never joins a run outside it.
 _PAREN = r"\((?:[^()]|\([^()]*\))*\)"
-WORK_ITEM = r"\[\[w\.[^\]]+\]\](?:,[^;.()\[\]]*(?:\.[^;\s()][^;.()\[\]]*)*)?(?:\s*" + _PAREN + r")?"
+PIN = r"[^;.()\[\]]*(?:\.[^;\s()][^;.()\[\]]*)*"
+WORK_ITEM = r"\[\[w\.[^\]]+\]\](?:," + PIN + r")?(?:\s*" + _PAREN + r")?"
 WORK_RUN = re.compile(WORK_ITEM + r"(?:;\s+" + WORK_ITEM + r")+")
 
 
@@ -1293,14 +1304,81 @@ def ordered(series, text):
     return WORK_RUN.sub(sub, text or "")
 
 
+def split_full(full):
+    """A full citation split where Bluebook puts the pinpoint (BLUEBOOK FIRST CITE): (head, tail), the tail the
+    closing parenthetical, the year's ('(1998)', '(Editor ed., 2006)'), with any '([online](...))' after it; head
+    what comes before. A citation with no closing parenthetical: (full, '')."""
+    t, on = full.rstrip(), ""
+    m = re.search(r"\s*\(\[online\]\([^)]*\)\)$", t)
+    if m:
+        t, on = t[:m.start()], t[m.start():]
+    if not t.endswith(")"):
+        return full, ""
+    depth, i = 0, len(t) - 1
+    while i >= 0:
+        depth += {")": 1, "(": -1}.get(t[i], 0)
+        if depth == 0:
+            break
+        i -= 1
+    if i <= 0:
+        return full, ""
+    j = i
+    while j > 0 and t[j - 1] == " ":
+        j -= 1
+    return t[:j], t[j:] + on
+
+
+ROMAN_END = re.compile(r"(?:\d|\b[IVXLC]+)$")
+PAGE_PIN = re.compile(r"^(?:\d|[ivxlc]+(?:$|[\s,–-]))")
+
+
+def roman_int(r):
+    v = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100}
+    n = 0
+    for a, b in zip(r, r[1:] + " "):
+        n += -v[a] if b in v and v[b] > v[a] else v[a]
+    return n
+
+
+def bluebook_pin(head, pin):
+    """The pinpoint in its place (Bluebook 3.2(a), 15.3; the owner, Nov. 5, 2026): straight after a book's title,
+    ', at' where the title ends in a numeral, Arabic or Roman ('*... 1945–1975*, at 257'); after an article's or a
+    chapter's first page, a comma ('1, 15')."""
+    bare = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", head).rstrip()
+    if bare.endswith("*"):
+        return (", at " if ROMAN_END.search(bare[:-1]) else " ") + pin
+    return ", " + pin
+
+
 def with_first_cites(series, e, text):
-    """The entry's note with its first citations marked to print in full (FIRST CITE)."""
+    """The entry's note with its first citations marked to print in full (FIRST CITE), the pinpoint and its
+    parenthetical in Bluebook's places (BLUEBOOK FIRST CITE): 'Author, *Title* 257 (1998) (the vote)'; a second
+    pinpoint with a parenthetical of its own after a semicolon, '*Id.* at 260 (the count)'. A pinpoint not a page
+    (a document, a chapter, a note alone) keeps the old form, after the year: 'Author, *Title* (1972), doc. 4'; a
+    volume of a set and its page in Bluebook's: 'III, 1862' -> '3 *Title* 1862 (1972)'."""
     first, cat, done = first_cites(series), series.works, set()
 
     def sub(m):
         cid = cat.alias.get(m.group(1).strip(), m.group(1).strip())
-        if m.group(2) or (e["id"], cid) not in first or cid in done:
+        if (m.group(2) and m.group(2)[1:] not in ("full",)) or (e["id"], cid) not in first or cid in done:
             return m.group(0)
         done.add(cid)
-        return f"[[{m.group(1)}|{FULL}]]"
-    return re.sub(r"\[\[(w\.[^\]|]+)(\|[^\]]*)?\]\]", sub, text or "")
+        card = cat.get(cid)
+        pin = (m.group(3) or "").lstrip(",").strip()
+        par = run((m.group(4) or "").strip())    # a work cited inside the parenthetical, its first cite too
+        rest = run(m.group(5) or "")
+        vol = ""
+        mv = re.match(r"^([IVXLC]+),\s*(\d.*)$", pin)      # a volume of a set: '3 Author, *Title* 1862 (1972)'
+        if mv:
+            vol, pin = str(roman_int(mv.group(1))) + " ", mv.group(2)
+        if card is None or not pin or not PAGE_PIN.match(pin):
+            return f"[[{m.group(1)}|{FULL}]]" + m.group(0)[len(f"[[{m.group(1)}{m.group(2) or ''}]]"):]
+        head, tail = split_full(render(card, cat=cat))
+        out = vol + f"[[{m.group(1)}|{HEAD}]]" + bluebook_pin(head, pin) + tail + (" " + par if par else "")
+        for x in re.finditer(r",\s*(" + PIN + r")\s*(" + _PAREN + r")", rest):
+            out += f"; *Id.* at {x.group(1).strip()} {x.group(2)}"
+        return out
+    def run(t):
+        return re.sub(r"\[\[(w\.[^\]|]+)(\|[^\]]*)?\]\](,\s*" + PIN + r")?(\s*" + _PAREN + r")?((?:,\s*" + PIN
+                      + r"\s*" + _PAREN + r")*)", sub, t)
+    return run(text or "")

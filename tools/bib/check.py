@@ -498,6 +498,16 @@ def run(series, only=None):
     for path, n in curly_files():
         add(WARN, path, f"{n} curly quotation mark{'s' if n > 1 else ''}; write ' and \" (the build curls them)",
             "straight-quotes")
+    # ranges with an en dash, not a hyphen (the owner, Nov. 5, 2026; tools/works/endash.py fixes them)
+    import importlib.util as _ilu
+    _sp = _ilu.spec_from_file_location("endash", os.path.join(store.ROOT, "tools", "works", "endash.py"))
+    _ed = _ilu.module_from_spec(_sp); _sp.loader.exec_module(_ed)
+    for lst in series.lists.values():
+        for sec in lst.walk():
+            k = sum(_ed.fix_text(str(e.get(f) or ""))[1] for e in sec.entries for f in ("c", "n", "r"))
+            if k:
+                add(WARN, f"lists/{lst.key}/{sec.file}", f"{k} range{'s' if k > 1 else ''} with a hyphen; an en dash "
+                    "(python3 -I tools/works/endash.py FILE)", "en-dash")
     # a reading's Passed over lists every dated event a row (CLAUDE.md, "Military matters": the owner, Oct. 30, 2026)
     for path in sorted(glob.glob(os.path.join(store.ROOT, "notes", "book-checks", "*.md"))):
         text = open(path, encoding="utf-8").read()

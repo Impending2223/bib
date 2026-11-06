@@ -70,6 +70,16 @@ entries:
         - 'via w.anthony-war-in-northern-laos 65 n.18a: all'
         - 'via w.anthony-war-in-northern-laos 65 n.18b: all'
     tags: [name:phoumi-nosavan]
+  - id: cal.1962-02-01.defense
+    when: Feb. 1
+    date: '1962-02-01'
+    thread: defense
+    c: The TFX evaluators rate Boeing's and General Dynamics's proposals best; letter contracts to both.
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 468. To check: "History of the TFX Development," Jan. 10, 1963, ASD(C) files, OSD Hist (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 468 n.80). See [[cal.1961-10-01.defense-2]].'
+    src:
+      c: b1780a96
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 468: all'
   - id: cal.1962-02-02.vietnam
     when: Feb. 2
     date: '1962-02-02'
@@ -204,7 +214,12 @@ entries:
     date: '1962-02-06'
     thread: school-aid
     c: Education message. College aid first; the school bill again.
-    n: Special Message to the Congress on Education, [1962 Pub. Papers 110](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=170) (Feb. 6, 1962). See [[cal.1961-02-20.school-aid]].
+    n: Special Message to the Congress on Education, [1962 Pub. Papers 110](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=170) (Feb. 6, 1962). [[w.graham-uncertain-triumph]], 27–29. See [[cal.1961-02-20.school-aid]].
+    src:
+      c: 9aedded4
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=170: all'
+        - 'w.graham-uncertain-triumph 27–29: A, B, C'
     tags: [name:kennedy-john-f]
     short: the education message
   - id: cal.1962-02-06.robert-kennedy
@@ -238,13 +253,14 @@ entries:
     date: '1962-02-06'
     thread: school-aid
     c: 'Senate passes the college aid bill, H.R. 8900 with the text of S. 1241, [69–17](https://voteview.com/rollcall/RS0870214), with Clifford Case''s $50 million a year for public community colleges. The scholarships kept: an amendment turning them into loans beaten, [37–50](https://voteview.com/rollcall/RS0870212).'
-    n: '[[w.sundquist-politics-and-policy]], 203–04. See [[cal.1962-01-30.school-aid]]. Names: Clifford Case.'
+    n: '[[w.sundquist-politics-and-policy]], 203–04; [[w.graham-uncertain-triumph]], 28 (69 to 17). See [[cal.1962-01-30.school-aid]]. Names: Clifford Case.'
     src:
       c: f12360c3
       rows:
         - 'https://voteview.com/rollcall/RS0870214: A'
         - 'https://voteview.com/rollcall/RS0870212: B'
         - 'w.sundquist-politics-and-policy 203–04: all'
+        - 'w.graham-uncertain-triumph 28: A'
     tags: [name:case-clifford-p]
   - id: cal.1962-02-06.press-and-broadcasting
     when: Feb. 6
@@ -291,7 +307,7 @@ entries:
     date: '1962-02-06'
     thread: economy
     c: The Senate Banking and Currency Committee hears James J. Saxon on his nomination as Comptroller of the Currency.
-    n: '[*Nomination of James J. Saxon: Hearing Before the S. Comm. on Banking and Currency*, 87th Cong. (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg79547), 1. Names: Saxon.'
+    n: '*Nomination of James J. Saxon: Hearing Before the S. Comm. on Banking and Currency*, 87th Cong. (1962) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg79547)), 1. Names: Saxon.'
     tags: [name:saxon-james-j]
   - id: cal.1962-02-07.crime-and-hijacking
     when: Feb. 7
@@ -311,7 +327,7 @@ entries:
     date: '1962-02-07'
     thread: cuba
     also: [defense]
-    c: 'Norfolk, Dennison''s CINCLANT headquarters: its air, naval and army components on a quick revision of the invasion plans, OPLAN 314-61 and 316-61, their lead times to be cut to four days and two, as the White House has told the Joint Chiefs. Two airborne divisions, then two Marine divisions by sea; $6.5 million to mount 314, and $153,000 a day.'
+    c: 'Norfolk, Dennison''s CINCLANT headquarters: its air, naval and army components on a quick revision of the invasion plans, OPLAN 314-61 and 316–61, their lead times to be cut to four days and two, as the White House has told the Joint Chiefs. Two airborne divisions, then two Marine divisions by sea; $6.5 million to mount 314, and $153,000 a day.'
     n: '[[w.fursenko-one-hell-of-a]], 149–50. To check: CINCLANT to All Commands, Feb. 24, 1962, NSF, JFK Library (cited by [[w.fursenko-one-hell-of-a]], 149 n.1, 150 n.3). Names: Dennison.'
     src:
       c: 6092b300
@@ -369,12 +385,37 @@ entries:
         - 'w.bernstein-guns-or-butter 269: all'
         - 'via x.1962-02-07.udall-draft-message-to-congress-conservation: all'
     tags: [name:udall-stewart-l]
+  - id: cal.1962-02-07.school-aid
+    when: Feb. 7
+    date: '1962-02-07'
+    thread: school-aid
+    c: 'Cardinal Spellman to the New York Archdiocesan Teachers Institute: the President''s school proposals would mean "the end of our parochial schools"; to leave them out a "terrible crime."'
+    n: '[[w.graham-uncertain-triumph]], 30. To check: *New York Times*, Feb. 8, 1962 (cited by [[w.graham-uncertain-triumph]], 30 n.9). Names: Spellman.'
+    src:
+      c: 4a9c19fd
+      rows:
+        - 'w.graham-uncertain-triumph 30: all'
+        - 'via w.graham-uncertain-triumph 30 n.9: all'
+    tags: [name:spellman-francis]
+  - id: cal.1962-02-07.school-aid-2
+    when: Feb. 7
+    date: '1962-02-07'
+    thread: school-aid
+    c: 'News conference, on school aid: "because I think it is such an urgent matter, I will do everything I can to have the Congress take favorable action on this subject this year."'
+    n: 'The President''s News Conference of February 7, 1962, [1962 Pub. Papers 120](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=180) (Feb. 7, 1962). [[w.graham-uncertain-triumph]], 30. Names: Kennedy.'
+    src:
+      c: 72d6074c
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=180: all'
+        - 'w.graham-uncertain-triumph 30: all'
+    tags: [name:kennedy-john-f]
   - id: cal.1962-02-08.vietnam
     when: Feb. 8
     date: '1962-02-08'
+    time: 1962-02-08T16:00Z
     thread: vietnam
     c: MACV established. Harkins commands.
-    n: '[FRUS 1961–63, II, doc. 53](https://history.state.gov/historicaldocuments/frus1961-63v02/d53). [[w.gibbons-u-s-government-and]], II, 103 (February 1962; not the day); [[w.marolda-united-states-navy-and]], 220; [[w.futrell-united-states-air-force]], 97; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 274. To check: [[w.cosmas-united-states-army-in]]; CNO, minutes of meeting, Thursday, 4 Jan 1962 (cited by [[w.marolda-united-states-navy-and]], 220 n.2a); CNO, minutes of meeting, Thursday, 16 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2b); CNO, minutes of meeting, Friday, 24 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2c); msgs, CP 141212Z Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2d); JCS 282248Z (cited by [[w.marolda-united-states-navy-and]], 220 n.2e); CP 290301Z (cited by [[w.marolda-united-states-navy-and]], 220 n.2f); 081600Z Feb 1962 (cited by [[w.marolda-united-states-navy-and]], 220 n.2g); CINCPAC, Command History, 1962, p. 154 (cited by [[w.marolda-united-states-navy-and]], 220 n.2h); memos, Shoup to Anderson, of 18 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2i); OP-60 to CNO, ser BM727-61 of 22 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2j); Military Assistant to SECDEF to SECARM/SECNAV/SECAF/CHJCS, of 29 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2k); OSD, of 29 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2l); Msg, PACAF to 13th AF and 2d ADVON, Feb 20, 1962 (cited by [[w.futrell-united-states-air-force]], 97 n.20). See [[cal.1961-01-28.vietnam]]. Names: Harkins.'
+    n: '[FRUS 1961–63, II, doc. 53](https://history.state.gov/historicaldocuments/frus1961-63v02/d53). [[w.gibbons-u-s-government-and]], II, 103 (February 1962; not the day); [[w.marolda-united-states-navy-and]], 220; [[w.futrell-united-states-air-force]], 97; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 274; [[w.taylor-swords-and-plowshares]], 250 (Harkins in command in February; his directive). To check: [[w.cosmas-united-states-army-in]]; CNO, minutes of meeting, Thursday, 4 Jan 1962 (cited by [[w.marolda-united-states-navy-and]], 220 n.2a); CNO, minutes of meeting, Thursday, 16 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2b); CNO, minutes of meeting, Friday, 24 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2c); msgs, CP 141212Z Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2d); JCS 282248Z (cited by [[w.marolda-united-states-navy-and]], 220 n.2e); CP 290301Z (cited by [[w.marolda-united-states-navy-and]], 220 n.2f); 081600Z Feb 1962 (cited by [[w.marolda-united-states-navy-and]], 220 n.2g); CINCPAC, Command History, 1962, p. 154 (cited by [[w.marolda-united-states-navy-and]], 220 n.2h); memos, Shoup to Anderson, of 18 Nov 1961 (cited by [[w.marolda-united-states-navy-and]], 220 n.2i); OP-60 to CNO, ser BM727-61 of 22 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2j); Military Assistant to SECDEF to SECARM/SECNAV/SECAF/CHJCS, of 29 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2k); OSD, of 29 Nov (cited by [[w.marolda-united-states-navy-and]], 220 n.2l); Msg, PACAF to 13th AF and 2d ADVON, Feb 20, 1962 (cited by [[w.futrell-united-states-air-force]], 97 n.20). See [[cal.1961-01-28.vietnam]]. Names: Harkins.'
     src:
       c: b1e548d7
       rows:
@@ -396,6 +437,7 @@ entries:
         - 'via w.futrell-united-states-air-force 97 n.20: all'
         - 'w.gibbons-u-s-government-and II, 103: A-B'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 274: all'
+        - 'w.taylor-swords-and-plowshares 250: A-B'
     tags: [name:harkins-paul-d]
     short: MACV
   - id: cal.1962-02-08.soviet-union
@@ -422,6 +464,18 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 427, 609 n.46: all'
     tags: [name:khrushchev-nikita-s, name:castro-fidel]
+  - id: cal.1962-02-08.school-aid
+    when: Feb. 8
+    date: '1962-02-08'
+    thread: school-aid
+    c: 'Quie objects to sending H.R. 8900 straight to conference, and it goes to Rules: he "just wanted to buy enough time ... so that the House will not have to accept the Senate''s scholarship provisions."'
+    n: '[[w.graham-uncertain-triumph]], 30. To check: *Congressional Quarterly Almanac: 1962* (1963) (cited by [[w.graham-uncertain-triumph]], 30 n.11). Names: Quie.'
+    src:
+      c: 97b7a595
+      rows:
+        - 'w.graham-uncertain-triumph 30: all'
+        - 'via w.graham-uncertain-triumph 30 n.11: all'
+    tags: [name:quie-albert-h]
   - id: cal.1962-02-09.defense
     when: Feb. 9
     date: '1962-02-09'
@@ -475,6 +529,18 @@ entries:
       c: f44688ba
       rows:
         - 'w.futrell-united-states-air-force 122: all'
+  - id: cal.1962-02-11.school-aid
+    when: Feb. 11
+    date: '1962-02-11'
+    thread: school-aid
+    also: [press-and-broadcasting]
+    c: 'Hechinger in the *Times*: the education message "clearly upset some of the estimates of his own supporters"; some educators dismayed that the President seems "reconciled to settling for the other parts of the package," without the public schools.'
+    n: '[[w.graham-uncertain-triumph]], 29–30. To check: *New York Times*, Feb. 11, 1962 (cited by [[w.graham-uncertain-triumph]], 30 n.8).'
+    src:
+      c: a942ba4c
+      rows:
+        - 'w.graham-uncertain-triumph 29–30: all'
+        - 'via w.graham-uncertain-triumph 30 n.8: all'
   - id: cal.1962-02-12.mayors-philadelphia
     when: Feb. 12
     date: '1962-02-12'
@@ -544,7 +610,7 @@ entries:
     thread: republican-party
     also: [vietnam]
     c: 'The Republican National Committee''s publication: Kennedy "less than candid" with the American people on how deeply the United States is involved in Vietnam. By the *New York Times*''s report, it asks whether 4,000 Americans are there, not the 685 the administration admits. Kennedy to "drop the pretense that the United States is merely acting as military adviser to South Vietnam." By Mann''s account the weekly *Battle Line*: "Is the country moving toward another Korea which might embroil the entire East?" The people not to wait "until American casualty lists are posted."'
-    n: 'The charge as put to Kennedy the next day: The President''s News Conference of February 14, 1962, [1962 Pub. Papers 134](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=194) (Feb. 14, 1962), question 9. [[w.moyar-triumph-forsaken]], 145 n.85, 443 (the charge; the 4,000 and the 685). [[w.selverstone-kennedy-withdrawal]], 60 (the charge and the call, as the *New York Times* reported them). [[w.mann-grand-delusion]], 257 (*Battle Line*; the questions). To check: *New York Times*, Feb. 14, 1962 (cited by [[w.moyar-triumph-forsaken]], 145 n.85); Jack Raymond, "G.O.P. Asks Candor on Vietnam War," *New York Times*, Feb. 14, 1962, 1; James Reston, "The Undeclared War in South Vietnam," *New York Times*, Feb. 14, 1962, 34 (cited by [[w.selverstone-kennedy-withdrawal]], 60 n.44); *Newsweek*, Feb. 26, 1962 (cited by [[w.mann-grand-delusion]], 257 n.9). Reply: [[cal.1962-02-14.vietnam]]. Check: the publication''s title and day. Check: the day (Selverstone gives Feb. 13; the *Times* reports it Feb. 14). Check: Mann names the weekly *Battle Line*, of "the day before" Reston''s article of Feb. 14.'
+    n: 'The charge as put to Kennedy the next day: The President''s News Conference of February 14, 1962, [1962 Pub. Papers 134](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=194) (Feb. 14, 1962), question 9. [[w.moyar-triumph-forsaken]], 145 n.85, 443 (the charge; the 4,000 and the 685). [[w.selverstone-kennedy-withdrawal]], 60 (the charge and the call, as the *New York Times* reported them). [[w.mann-grand-delusion]], 257 (*Battle Line*; the questions). To check: [*New York Times*, Feb. 14, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/14/issue.html) (cited by [[w.moyar-triumph-forsaken]], 145 n.85); Jack Raymond, "G.O.P. Asks Candor on Vietnam War," [*New York Times*, Feb. 14, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/14/issue.html), 1; James Reston, "The Undeclared War in South Vietnam," [*New York Times*, Feb. 14, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/14/issue.html), 34 (cited by [[w.selverstone-kennedy-withdrawal]], 60 n.44); *Newsweek*, Feb. 26, 1962 (cited by [[w.mann-grand-delusion]], 257 n.9). Reply: [[cal.1962-02-14.vietnam]]. Check: the publication''s title and day. Check: the day (Selverstone gives Feb. 13; the *Times* reports it Feb. 14). Check: Mann names the weekly *Battle Line*, of "the day before" Reston''s article of Feb. 14.'
     src:
       c: 2e1a6bb9
       rows:
@@ -619,6 +685,7 @@ entries:
   - id: cal.1962-02-14.vietnam
     when: Feb. 14
     date: '1962-02-14'
+    time: 1962-02-14T16:00Z
     thread: vietnam
     c: 'Press conference. The advisers fire if fired on; not combat troops "in the generally understood sense of the word." Asked of the Republican charge: the leaders of both parties told in early January, Rusk and McNamara before the committees.'
     n: 'News Conference, [1962 Pub. Papers 134](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=194) (Feb. 14, 1962). [[w.gibbons-u-s-government-and]], II, 109 (the question on Congress; "not ... in the generally understood sense"; not the firing); [[w.mann-grand-delusion]], 257 (the Republican charge; the leaders informed). See [[cal.1961-01-28.vietnam]], [[cal.1962-02-13.republican-party]] (the question). Names: Kennedy.'
@@ -651,6 +718,7 @@ entries:
   - id: cal.1962-02-14.labor
     when: Feb. 14
     date: '1962-02-14'
+    time: 1962-02-14T14:45Z
     thread: labor
     also: [economy]
     c: 'Rose Garden, 9:45 a.m. Kennedy to the policy committee of the Communications Workers, Beirne their president, in Washington to settle their bargaining position: "I want to commend you for the responsible way that you are moving towards your assignment." Heller had talked with them the day before.'
@@ -688,6 +756,19 @@ entries:
         - 'w.branch-parting-the-waters 565–66: all'
         - 'via w.branch-parting-the-waters 566 n.1: all'
     tags: [name:hoover-j-edgar, name:white-byron-r, name:king-martin-luther-jr, name:odonnell-kenneth-p]
+  - id: cal.1962-02-14.defense
+    when: Feb. 14
+    date: '1962-02-14'
+    thread: defense
+    also: [congress]
+    c: McNamara to the Senate Subcommittee on Defense Appropriations on the buildup of "specialized guerrilla warfare forces."
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 41. To check: Senate Appropriations, *Department of Defense Appropriations for 1963*, Feb. 14, 1962, 21 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 41 n.96). Names: McNamara.'
+    src:
+      c: 3a00f131
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 41: all'
+        - 'via x.1962-02-14.mcnamara-ssca-guerrilla: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1962-02-15.vietnam-congress
     when: Feb. 15
     date: '1962-02-15'
@@ -729,7 +810,12 @@ entries:
     thread: students
     also: [testing]
     c: Students picket the White House in snow for an end to nuclear testing and for disarmament, some thousands, the Student Peace Union, Student SANE, and SDS among the sponsors; then Congress, the Soviet Embassy. Kennedy sends out a pot of coffee. Their leaders see Wiesner, Sorensen, and Bundy.
-    n: '"Youthful Peace Pickets Seek End to Test of Nuclear Arms" (AP), [*News-Review* (Roseburg, Ore.), Feb. 17, 1962, 2](https://oregonnews.uoregon.edu/lccn/2003260229/1962-02-17/ed-1/seq-2/). To check: [[w.gitlin-sixties]]; [[w.miller-democracy-is-in-the]]. Names: Wiesner, Sorensen, Bundy. Check: the count, some 5,000 by later accounts.'
+    n: '"Youthful Peace Pickets Seek End to Test of Nuclear Arms" (AP), [*News-Review* (Roseburg, Ore.), Feb. 17, 1962, 2](https://oregonnews.uoregon.edu/lccn/2003260229/1962-02-17/ed-1/seq-2/). [[w.debenedetti-american-ordeal]], 55–56 (over four thousand from fifty-seven colleges in seventeen states, Feb. 16–17; Tocsin''s proposal; the wreath at Arlington, the pickets at the Soviet embassy; Bundy on verifiable arms control; the rally near the Monument, Norman Thomas speaking). To check: [[w.gitlin-sixties]]; [[w.miller-democracy-is-in-the]]. Names: Wiesner, Sorensen, Bundy. Check: the count, some 5,000 by later accounts.'
+    src:
+      c: 1cf5e949
+      rows:
+        - 'https://oregonnews.uoregon.edu/lccn/2003260229/1962-02-17/ed-1/seq-2/: all'
+        - 'w.debenedetti-american-ordeal 55–56: A-D'
     tags: [name:kennedy-john-f, name:wiesner-jerome-b, name:sorensen-theodore-c, name:bundy-mcgeorge]
     short: the peace pickets at the White House
   - id: cal.1962-02-16.defense
@@ -771,7 +857,7 @@ entries:
     thread: vietnam
     also: [robert-kennedy]
     c: 'Robert Kennedy at the Saigon airport, a refueling stop between Djakarta and Bangkok. A statement cleared with the State Department: "a new kind of war, but war it is in a very real sense of the word"; Hanoi''s guilt "clear"; Diệm "brave and patriotic." To the press: "We are going to win in Vietnam. We will remain here until we do win." A war? "A struggle short of war." Nhu present.'
-    n: '["Robert Kennedy Assures Vietnam,"](https://timesmachine.nytimes.com/timesmachine/1962/02/19/issue.html) *New York Times*, Feb. 19, 1962, 1, 10. Morse''s question and the State Department''s answer: [FRUS 1961–63, II, doc. 108](https://history.state.gov/historicaldocuments/frus1961-63v02/d108) (Mar. 14, 1962). [[w.schlesinger-robert-kennedy-and-his]], 712–13 (the airport; the words to the press); [[w.gibbons-u-s-government-and]], II, 110 (in Saigon, Feb. 18: "We are going to win"; quoted in the Foreign Relations Committee, Feb. 20). [[w.reeves-president-kennedy]], 284 (the airport; "We are going to win"). To check: *Time*, May 11, 1962 (cited by [[w.reeves-president-kennedy]], 284). See [[cal.1961-01-28.vietnam]]; the trip, [[cal.1962-02-06.robert-kennedy]]. Names: Robert F. Kennedy, Diệm, Nhu.'
+    n: '["Robert Kennedy Assures Vietnam,"](https://timesmachine.nytimes.com/timesmachine/1962/02/19/issue.html) [*New York Times*, Feb. 19, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/19/issue.html), 1, 10. Morse''s question and the State Department''s answer: [FRUS 1961–63, II, doc. 108](https://history.state.gov/historicaldocuments/frus1961-63v02/d108) (Mar. 14, 1962). [[w.schlesinger-robert-kennedy-and-his]], 712–13 (the airport; the words to the press); [[w.gibbons-u-s-government-and]], II, 110 (in Saigon, Feb. 18: "We are going to win"; quoted in the Foreign Relations Committee, Feb. 20). [[w.reeves-president-kennedy]], 284 (the airport; "We are going to win"). To check: *Time*, May 11, 1962 (cited by [[w.reeves-president-kennedy]], 284). See [[cal.1961-01-28.vietnam]]; the trip, [[cal.1962-02-06.robert-kennedy]]. Names: Robert F. Kennedy, Diệm, Nhu.'
     src:
       c: 87bb52ae
       rows:
@@ -800,6 +886,16 @@ entries:
       rows:
         - 'w.asselin-hanois-road-to-the 127: all'
         - 'via x.1963-09-20.fo-minutes-demands-for-a-conference: all'
+  - id: cal.1962-02-18.school-aid
+    when: Feb. 18
+    date: '1962-02-18'
+    thread: school-aid
+    c: 'Six college associations, the American Council on Education among them, jointly for grants and loans for college classrooms, nothing on scholarships: the House bill over the Senate''s.'
+    n: '[[w.graham-uncertain-triumph]], 30.'
+    src:
+      c: 0bb8d686
+      rows:
+        - 'w.graham-uncertain-triumph 30: all'
   - id: cal.1962-02-19.press-and-broadcasting
     when: Feb. 19
     date: '1962-02-19'
@@ -868,9 +964,10 @@ entries:
   - id: cal.1962-02-20.space
     when: Feb. 20
     date: '1962-02-20'
+    time: 1962-02-20T14:47Z
     thread: space
     c: Glenn orbits three times in *Friendship 7*. A heat-shield warning; the shield holds.
-    n: 'Remarks Following the Orbital Flight of Col. John H. Glenn, Jr., [1962 Pub. Papers 150](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=210) (Feb. 20, 1962). Telephone Conversation With Colonel Glenn Aboard the U.S.S. Noa, [1962 Pub. Papers 150](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=210) (Feb. 20, 1962). [[w.sorensen-kennedy]], 528. To check: [[w.wolfe-right-stuff]]. See [[cal.1961-04-12.space]]. Names: Glenn.'
+    n: 'Remarks Following the Orbital Flight of Col. John H. Glenn, Jr., [1962 Pub. Papers 150](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=210) (Feb. 20, 1962). Telephone Conversation With Colonel Glenn Aboard the U.S.S. Noa, [1962 Pub. Papers 150](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=210) (Feb. 20, 1962). [[w.sorensen-kennedy]], 528. [Kennedy Space Center, *Summary of Major NASA Launchings, October 1, 1958–September 30, 1973* (1973), PDF p. 110](https://ntrs.nasa.gov/api/citations/19740015280/downloads/19740015280.pdf#page=110) (the time). To check: [[w.wolfe-right-stuff]]. See [[cal.1961-04-12.space]]. Names: Glenn.'
     src:
       c: 03f648f7
       rows:
@@ -951,6 +1048,7 @@ entries:
   - id: cal.1962-02-21.economy
     when: Feb. 21
     date: '1962-02-21'
+    time: 1962-02-21T21:00Z
     thread: economy
     c: News conference. A tax cut in a few years possible, if there is no recession; the Berlin buildup's $3.5 billion forestalled one last summer. "For the present there is not a chance of a tax reduction."
     n: The President's News Conference of February 21, 1962, [1962 Pub. Papers 151](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=211). [[w.stein-fiscal-revolution-in-america]], 406. See [[cal.1962-01-18.economy]].
@@ -976,6 +1074,7 @@ entries:
   - id: cal.1962-02-21.laos
     when: Feb. 21
     date: '1962-02-21'
+    time: 1962-02-21T14:30Z
     thread: laos
     also: [vietnam-congress]
     c: 'Laos: Kennedy and Johnson with the congressional leaders, Nam Tha under attack. Mansfield: American forces "worse than Korea"; "the worst possible move we could make." Russell: the Laotians will not fight; block any advance from Thailand. Arends: only an increase from 5,000 to 8,300 Americans in South Vietnam? Kennedy confirms; the figures not announced.'
@@ -993,6 +1092,7 @@ entries:
   - id: cal.1962-02-21.vietnam
     when: Feb. 21
     date: '1962-02-21'
+    time: 1962-02-21T15:01Z
     thread: vietnam
     also: [press-and-broadcasting]
     c: 'State, Defense and USIA to Saigon, cable 1006, on the press: "maximum feasible cooperation, guidance and appeal to good faith of correspondents"; the Ambassador to decide when newsmen go on missions. "This is not a US war"; no stories of Americans leading combat; no numbers of Americans or details of matériel.'
@@ -1029,6 +1129,7 @@ entries:
   - id: cal.1962-02-22.cuba
     when: Feb. 22
     date: '1962-02-22'
+    time: 1962-02-22T05:13Z
     thread: cuba
     also: [defense]
     c: '12:13 a.m., the Joint Chiefs to CINCLANT: the plans supporting OPLAN 314-61 to be "Completed As Expeditiously As Possible."'
@@ -1184,6 +1285,18 @@ entries:
         - 'w.asselin-hanois-road-to-the 128: all'
         - 'via x.1962-02-26.nghi-quyet-bo-chinh-tri-26-27: A'
     tags: [name:le-duan]
+  - id: cal.1962-02-26.defense
+    when: Feb. 26
+    date: '1962-02-26'
+    thread: defense
+    also: [congress]
+    c: Air Force officers, briefing Vinson's committee at its invitation, tell their unhappiness at the limited RS-70 program.
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 100. Names: Vinson.'
+    src:
+      c: e53c3343
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 100: all'
+    tags: [name:vinson-carl]
   - id: cal.1962-02-27.vietnam
     when: Feb. 27
     date: '1962-02-27'
@@ -1284,7 +1397,7 @@ entries:
     thread: conservative-movement
     also: [right-and-the-military]
     c: Dodd (D) withdraws from Young Americans for Freedom's Madison Square Garden rally on learning General Walker is to be honored, and attacks the "extremist coloration of the gathering." Liebman resigns as YAF's consultant; YAF drops Walker.
-    n: '[[w.perlstein-before-the-storm]], 163. To check: *New York Times*, Feb. 13, 1962 (cited by [[w.perlstein-before-the-storm]], 163 n.1). The rally: [[cal.1962-03-07.goldwater]]. Check: the date. Names: Dodd, Walker.'
+    n: '[[w.perlstein-before-the-storm]], 163. To check: [*New York Times*, Feb. 13, 1962](https://timesmachine.nytimes.com/timesmachine/1962/02/13/issue.html) (cited by [[w.perlstein-before-the-storm]], 163 n.1). The rally: [[cal.1962-03-07.goldwater]]. Check: the date. Names: Dodd, Walker.'
     src:
       c: e196833d
       rows:
@@ -1411,6 +1524,18 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 98: all'
     tags: [name:lemnitzer-lyman-l, name:mcnamara-robert-s]
+  - id: cal.1962-02-27.defense
+    when: Feb. 27
+    date: '1962-02-27'
+    thread: defense
+    also: [congress]
+    c: LeMay, in open session before Robertson's Senate Defense Appropriations Subcommittee, for more money for the RS-70 and Minuteman.
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 101. To check: Senate Appropriations, *Department of Defense Appropriations for 1963*, Feb. 27, 1962, 185–93 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 101 n.17). See [[cal.1962-02-26.defense]]. Names: LeMay, Robertson.'
+    src:
+      c: d4ca59c1
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 101: all'
+    tags: [name:lemay-curtis-e, name:robertson-absalom-w]
   - id: cal.1962-02-28.jobs-and-wages
     when: Feb. 28
     date: '1962-02-28'
@@ -1604,3 +1729,55 @@ entries:
       rows:
         - 'w.meltzer-history-of-the-federal 356 & n.151: all'
     tags: [name:robertson-j-l, name:mitchell-george-w]
+  - id: cal.1962-02.desegregation-schools
+    when: Feb.
+    date: 1962-02
+    thread: desegregation-schools
+    c: Chicago. Willis refusing to release an inventory of the city's classrooms, Woodlawn parents form a "truth squad" to count the empty rooms in nearby white schools; arrested.
+    n: '[[w.ralph-northern-protest]], 17; [[w.anderson-confronting-the-color-line]], 89 (four mothers at the Kellogg branch arrested on the principal''s complaint). To check: Chicago Sun-Times, 6 June 1962 (cited by [[w.anderson-confronting-the-color-line]], 89 n.44). See [[cal.1961-11.desegregation-schools]]. Names: Willis.'
+    src:
+      c: f9c26354
+      rows:
+        - 'w.ralph-northern-protest 17: all'
+        - 'w.anderson-confronting-the-color-line 89: B-C'
+        - 'via w.anderson-confronting-the-color-line 89 n.44: B-C'
+    tags: [state:il, city:chicago, name:willis-benjamin-c]
+  - id: cal.1962-02.desegregation-schools-4
+    when: Feb.
+    date: 1962-02
+    thread: desegregation-schools
+    c: Chicago. The Chatham–Avalon Park Community Council's conference, "Segregation in the Chicago Public Schools."
+    n: '[[w.ralph-northern-protest]], 17; [[w.cohen-american-pharaoh]], 285; [[w.anderson-confronting-the-color-line]], 89. Check: the day. To check: Chicago Sun-Times, 19 February 1962 (cited by [[w.anderson-confronting-the-color-line]], 89 n.45).'
+    src:
+      c: 34047b29
+      rows:
+        - 'w.ralph-northern-protest 17: all'
+        - 'w.cohen-american-pharaoh 285: all'
+        - 'w.anderson-confronting-the-color-line 89: all'
+        - 'via w.anderson-confronting-the-color-line 89 n.45: all'
+    tags: [state:il, city:chicago]
+  - id: cal.1962-02-28.defense
+    when: Feb. 28
+    date: '1962-02-28'
+    thread: defense
+    also: [congress]
+    c: Vinson's committee ends its hearings and reports the authorization unanimously with six amendments, nearly $13.066 billion.
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 101. To check: House Armed Services, H. Rept. 1406, 87th Cong., 2d sess. (Mar. 7, 1962) (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 101 n.18). Check: the day of the report. See [[cal.1962-03-21.defense]]. Names: Vinson.'
+    src:
+      c: 8422b711
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 101: all'
+    tags: [name:vinson-carl]
+  - id: cal.1962-02.soviet-union
+    when: Feb.
+    date: 1962-02
+    thread: soviet-union
+    also: [defense]
+    c: 'Khrushchev briefed: the R-16 no match for the Minuteman, hours to ready against minutes. The chief of the rocket forces: "Before we managed to move the R-16 and lift it into place, nothing would be left of us." Sergei Khrushchev there.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 429. Check: the day. To check: Sergei Khrushchev, *Nikita Khrushchev and the Creation of a Superpower* (2000), 468–82, 474 (cited by [[w.fursenko-khrushchevs-cold-war]], 429 nn.54–55). Names: Khrushchev.'
+    src:
+      c: 72f869ab
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 429: all'
+        - 'via w.fursenko-khrushchevs-cold-war 429 n.54: all'
+    tags: [name:khrushchev-nikita-s]

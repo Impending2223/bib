@@ -55,6 +55,7 @@ entries:
   - id: cal.1963-09-02.vietnam-saigon
     when: Sept. 2
     date: '1963-09-02'
+    time: 1963-09-02T08:00Z
     thread: vietnam-saigon
     c: Lodge with Nhu, 4 to 6 p.m. Nhu will resign and move to Dalat once martial law is lifted and "certain U.S. agents" still promoting a coup have left. Madame Nhu to leave Sept. 17 for the Interparliamentary Union's meeting in Yugoslavia, perhaps for the United States. Measures for the Buddhist prisoners.
     n: '[FRUS 1961–63, IV, doc. 44](https://history.state.gov/historicaldocuments/frus1961-63v04/d44) (Lodge, Sept. 2). [[w.miller-misalliance]], 297 (Nhu, at his second meeting with Lodge, early September: he may retire); [[w.moyar-triumph-forsaken]], 249. See [[cal.1963-08-27.vietnam-saigon]]. Names: Lodge, Nhu, Trần Lệ Xuân.'
@@ -95,8 +96,10 @@ entries:
     when: Sept. 2
     date: '1963-09-02'
     thread: vietnam-saigon
+    follows:
+      - cal.1963-09-02.vietnam-saigon
     c: 'Bundy to Kennedy, with a draft telegram to Lodge by Hilsman, Forrestal and himself, "deliberately drafted ... quite concretely and firmly": Nhu''s talk with Lodge "promising on surface but we fear stalling tactics." A day lost by waiting; the Vice President skeptical of the last week''s line.'
-    n: '[FRUS 1961–63, IV, doc. 51](https://history.state.gov/historicaldocuments/frus1961-63v04/d51). [[w.preston-war-council]], 125. See [[cal.1963-09-02.vietnam]]. Names: Bundy, Kennedy, Hilsman, Forrestal, Lodge, Ngô Đình Nhu, Johnson.'
+    n: '[FRUS 1961–63, IV, doc. 51](https://history.state.gov/historicaldocuments/frus1961-63v04/d51). [[w.preston-war-council]], 125. After Lodge''s report of his talk with Nhu (doc. 51). See [[cal.1963-09-02.vietnam]]. Names: Bundy, Kennedy, Hilsman, Forrestal, Lodge, Ngô Đình Nhu, Johnson.'
     src:
       c: 276a7c80
       rows:
@@ -167,6 +170,7 @@ entries:
   - id: cal.1963-09-03.vietnam
     when: Sept. 3
     date: '1963-09-03'
+    time: 1963-09-03T16:00Z
     thread: vietnam
     c: 'Meeting with the President on Vietnam. Kennedy: the French trying to get for Vietnam what was done in Laos, neutralization, which is not working in Laos. Lodge to see Diệm at the earliest opportunity.'
     n: '[Memorandum of a conference with the President, Sept. 3, 1963, FRUS 1961–63, IV, doc. 54](https://history.state.gov/historicaldocuments/frus1961-63v04/d54) (the neutralization). [[w.mcnamara-in-retrospect]], ch. 3 at n.17. See [[cal.1963-08-24.vietnam]]. Names: Kennedy, Lodge, Ngô Đình Diệm.'
@@ -216,6 +220,18 @@ entries:
         - 'w.preston-war-council 124: all'
         - 'via w.preston-war-council 124 n.64c: all'
     tags: [name:forrestal-michael-v, name:kennedy-john-f]
+  - id: cal.1963-09-04.soviet-union
+    when: Sept. 4
+    date: '1963-09-04'
+    thread: soviet-union
+    c: 'The Presidium, Khrushchev back from Yugoslavia: the Yugoslavs "close to us on most questions," but no "hundred-percent unity"; neither Leninists nor anti-Leninists; KGB men to study their border regime; perhaps in a few years the border open for free departure. Tito asks help in defense; Malinovsky to prepare. Dobrynin''s telegram on fishing vessels to Kosygin. Erroll, the British trade minister, to be received by Kosygin and Ustinov. Kosygin''s visit to Austria put off. The airfield at Conakry and gas for Afghanistan approved.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 735–37 (Protocol [113], Malin''s notes). Made public: 2003. Names: Khrushchev, Tito, Malinovsky, Dobrynin, Kosygin.'
+    src:
+      c: 9cc4b65a
+      rows:
+        - 'w.prezidium-tsk-kpss-1954 I, 735–37: all'
+        - 'via x.1963-09-04.presidium-protocol-113: all'
+    tags: [name:khrushchev-nikita-s, name:tito-josip-broz, name:malinovsky-rodion-yakovlevich, name:dobrynin-anatoly, name:kosygin-aleksei]
   - id: cal.1963-09-05.vietnam-congress
     when: Sept. 5
     date: '1963-09-05'
@@ -289,6 +305,7 @@ entries:
   - id: cal.1963-09-06.vietnam
     when: Sept. 6
     date: '1963-09-06'
+    time: 1963-09-06T14:30Z
     thread: vietnam-saigon
     also: [robert-kennedy]
     c: Meeting with the President on Vietnam, 10:30 a.m. Robert Kennedy asks whether the war can be won with Diệm and Nhu; if not, "why do we not grasp the nettle now." Diệm to be told he must do what is asked, or the effort will be cut. Krulak and Mendenhall sent to Vietnam, to be back in four days.
@@ -358,6 +375,7 @@ entries:
   - id: cal.1963-09-06.south-asia
     when: Sept. 6
     date: '1963-09-06'
+    time: 1963-09-06T18:00Z
     thread: south-asia
     c: 'Ball from Lisbon, eyes only for the President and the Secretaries of State and Defense, his summary of the Pakistani situation: Ayub and his government "filled with deep fear" of Indian military action, "the central obsessive basis" of their policy; American arms for India have upset the balance by which West Pakistan was defensible.'
     n: '[FRUS 1961–63, XIX, doc. 330](https://history.state.gov/historicaldocuments/frus1961-63v19/d330). [[w.poole-joint-chiefs-of-staff]], 274. See [[cal.1963-09-03.south-asia]]. Names: Ball, Ayub Khan.'
@@ -402,7 +420,7 @@ entries:
     thread: republican-party
     also: [elections-1964]
     c: 'Oregon, Ill., the Ogle County fairgrounds, a Republican picnic. Rockefeller and his wife; Percy absent; Goldwater buttons in the crowd. Rockefeller: "We are not on the New Frontier. We are lost in the woods." At the Rockford airport, Lar Daly, running for governor: "I''m one candidate for Governor who''s not afraid to be here!"'
-    n: '[[w.white-suite-3505]], 209–10; [[w.novak-agony-of-the-g]], 220–21 (a week before Rockefeller''s *Meet the Press* of Sept. 14; the Ogle County Fairgrounds; no serious candidate for governor there; Daly the only one); [[w.goldberg-barry-goldwater]], 171 (Novak on the Rockefellers at the fairgrounds: "There was a smell of political death about the day in Ogle County. It was like observing a political corpse who did not realize that he was dead"); [[w.smith-on-his-own-terms]], 413 (the visit to Illinois; the local Republican leaders kept away by "scheduling conflicts"); [[w.novak-agony-of-the-g]], 221–24 & nn.3–4 (the Convair at Rockford Airport at noon, some seventy local dignitaries; Daly in an Uncle Sam suit; five thousand at the fairgrounds; Carpentier, Robertson and Percy away; Guyer: Rockefeller invited after Goldwater and others declined; the Goldwater buttons not removed; "We are lost in the woods"). Names: Rockefeller, Percy.'
+    n: '[[w.white-suite-3505]], 209–10; [[w.novak-agony-of-the-g]], 220–21 (a week before Rockefeller''s *Meet the Press* of Sept. 14; the Ogle County Fairgrounds; no serious candidate for governor there; Daly the only one); [[w.goldberg-barry-goldwater]], 171 (Novak on the Rockefellers at the fairgrounds: "There was a smell of political death about the day in Ogle County. It was like observing a political corpse who did not realize that he was dead"); [[w.smith-on-his-own-terms]], 413 (the visit to Illinois; the local Republican leaders kept away by "scheduling conflicts"); [[w.novak-agony-of-the-g]], 221–24 & nn.3–4 (the Convair at Rockford Airport at noon, some seventy local dignitaries; Daly in an Uncle Sam suit; five thousand at the fairgrounds; Carpentier, Robertson and Percy away; Guyer: Rockefeller invited after Goldwater and others declined; the Goldwater buttons not removed; "We are lost in the woods"); [[w.perlstein-before-the-storm]], 230 (the Ogle County fair; the Rockefellers ignored by the crowd; the Washington press brought on his Convair). Names: Rockefeller, Percy.'
     src:
       c: 5338bf42
       rows:
@@ -411,6 +429,7 @@ entries:
         - 'w.goldberg-barry-goldwater 171: ?'
         - 'w.smith-on-his-own-terms 413: ?'
         - 'w.novak-agony-of-the-g 221–24 & nn.3–4: A-F'
+        - 'w.perlstein-before-the-storm 230: A-B'
     tags: [name:rockefeller-nelson, name:percy-charles-h, state:il]
   - id: cal.1963-09-07.republican-party-2
     when: Sept. 7
@@ -453,28 +472,31 @@ entries:
     date: '1963-09-09'
     thread: vietnam
     also: [press-and-broadcasting]
-    c: 'Huntley and Brinkley, for NBC''s first half-hour news. The domino theory: "I believe it." A cut in aid to Saigon not "helpful at this time."'
-    n: 'Transcript of Broadcast on NBC''s "Huntley-Brinkley Report.", [1963 Pub. Papers 658](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=716) (Sept. 9, 1963). Kennedy, interview with Chet Huntley and David Brinkley (Viet. II.J). [[w.gibbons-u-s-government-and]], II, 163 (the interview with Huntley; the domino theory); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 288 (the interview; the domino principle); [[w.mcnamara-in-retrospect]], ch. 3 at n.19. [[w.reeves-president-kennedy]], 592–93. [[w.sorensen-kennedy]], 658 (the interview). To check: [[w.watson-expanding-vista]]. See [[cal.1963-09-02.vietnam]]. Names: Huntley, Brinkley.'
+    c: 'Huntley and Brinkley, for NBC''s first half-hour news. The domino theory: "I believe it." A cut in aid to Saigon not "helpful at this time." The President alone, the night the network''s evening news goes from fifteen minutes to thirty.'
+    n: 'Transcript of Broadcast on NBC''s "Huntley-Brinkley Report.", [1963 Pub. Papers 658](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=716) (Sept. 9, 1963). Kennedy, interview with Chet Huntley and David Brinkley (Viet. II.J). [[w.gibbons-u-s-government-and]], II, 163 (the interview with Huntley; the domino theory); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 288 (the interview; the domino principle); [[w.mcnamara-in-retrospect]], ch. 3 at n.19. [[w.reeves-president-kennedy]], 592–93. [[w.sorensen-kennedy]], 658 (the interview). [[w.branch-parting-the-waters]], 888 (the first half-hour news). To check: [[w.watson-expanding-vista]]; Manchester, *The Glory and the Dream*, 1228; Newsweek, Sept. 23, 1963, 62–65 (cited by [[w.branch-parting-the-waters]], 888 n.3). See [[cal.1963-09-02.vietnam]]. Names: Huntley, Brinkley, Kennedy.'
     src:
-      c: 173f2eea
+      c: 7493e13b
       rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=716: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=716: A-C'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 288: A-B'
         - 'via w.kaplan-mcnamara-ascendancy-1961-1965 288 n.108: A-C'
         - 'w.gibbons-u-s-government-and II, 163: A-B'
         - 'via w.gibbons-u-s-government-and II, 163 n.75: A-B'
-        - 'w.reeves-president-kennedy 592–93: all'
+        - 'w.reeves-president-kennedy 592–93: A-C'
         - 'w.sorensen-kennedy 658: A'
         - 'w.mcnamara-in-retrospect ch. 3 at n.19: A-B'
         - 'via x.1963-09-09.transcript-of-broadcast-on-nbcs-huntley: A-B'
+        - 'w.branch-parting-the-waters 888: D'
+        - 'via w.branch-parting-the-waters 888 n.3b: D'
     tags: [name:kennedy-john-f, name:huntley-chet, name:brinkley-david]
+    aliases: [cal.1963-09-09.press-and-broadcasting]
   - id: cal.1963-09-09.alabama
     when: Sept. 9–10
     date: '1963-09-09'
     thread: alabama-schools
     also: [desegregation-schools]
     c: 'Alabama''s federal district judges, all of them, enjoin Wallace from blocking the schools, Sept. 9; he sends the Guard instead. Sept. 10: Kennedy federalizes the Alabama Guard and sends it from the schools. Black pupils enter in Birmingham and Mobile.'
-    n: 'Statement by the President on Desegregation in the Schools of Alabama, [1963 Pub. Papers 661](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=719) (Sept. 9, 1963). [Proclamation 3554](https://www.presidency.ucsb.edu/documents/proclamation-3554-obstructions-justice-the-state-alabama); [Exec. Order No. 11,118](https://www.presidency.ucsb.edu/documents/executive-order-11118-providing-assistance-for-removal-unlawful-obstructions-justice-the), [28 Fed. Reg. 9863](https://www.govinfo.gov/app/details/FR-1963-09-11) (1963). *United States v. Wallace*, [222 F. Supp. 485](https://static.case.law/f-supp/222/case-pdfs/0485-01.pdf) (M.D. Ala. 1963) (the preliminary injunction, Sept. 24). [[w.branch-parting-the-waters]], 888-89. Check: Branch, 888-89: the three Birmingham schools open Sept. 9, the Guard barring the Negro students; at Huntsville, unguarded by oversight, Sonnie W. Hereford IV, six, the State''s first Negro pupil in a white elementary school; most white students walk out at Birmingham; at West End High cheerleaders and football players for integrated classes; a white sit-in at Boutwell''s office. To check: [[w.bass-taming-the-storm]]. See [[cal.1963-09-02.alabama]]. Names: Wallace.'
+    n: 'Statement by the President on Desegregation in the Schools of Alabama, [1963 Pub. Papers 661](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=719) (Sept. 9, 1963). [Proclamation 3554](https://www.presidency.ucsb.edu/documents/proclamation-3554-obstructions-justice-the-state-alabama); [Exec. Order No. 11,118](https://www.presidency.ucsb.edu/documents/executive-order-11118-providing-assistance-for-removal-unlawful-obstructions-justice-the), [28 Fed. Reg. 9863](https://www.govinfo.gov/app/details/FR-1963-09-11) (1963). *United States v. Wallace*, [222 F. Supp. 485](https://static.case.law/f-supp/222/case-pdfs/0485-01.pdf) (M.D. Ala. 1963) (the preliminary injunction, Sept. 24). [[w.branch-parting-the-waters]], 888–89. Check: Branch, 888–89: the three Birmingham schools open Sept. 9, the Guard barring the Negro students; at Huntsville, unguarded by oversight, Sonnie W. Hereford IV, six, the State''s first Negro pupil in a white elementary school; most white students walk out at Birmingham; at West End High cheerleaders and football players for integrated classes; a white sit-in at Boutwell''s office. To check: [[w.bass-taming-the-storm]]. See [[cal.1963-09-02.alabama]]. Names: Wallace.'
     src:
       c: 7f1ff754
       rows:
@@ -516,6 +538,7 @@ entries:
   - id: cal.1963-09-09.south-asia
     when: Sept. 9
     date: '1963-09-09'
+    time: 1963-09-09T16:10Z
     thread: south-asia
     c: '12:10–1:10 p.m., on Ball''s mission to Pakistan: Kennedy with Rusk, Ball, Harriman, U. Alexis Johnson, Talbot, McNamara, Nitze, Quinn, McCone, Bundy and Komer. Ball: the Pakistanis'' "deep, obsessive fear of India," touched off by American arms; Ayub''s talk of "normalizing relations" with China an empty threat; he had made "2/3 of a commitment" to McCone on Peshawar.'
     n: '[FRUS 1961–63, XIX, doc. 331](https://history.state.gov/historicaldocuments/frus1961-63v19/d331). [[w.ball-past-has-another-pattern]], 285 (Quinn''s golf). Names: Kennedy, Rusk, Ball, Harriman, U. Alexis Johnson, Talbot, McNamara, Nitze, Quinn, McCone, Bundy, Komer, Ayub Khan.'
@@ -525,25 +548,12 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v19/d331: all'
         - 'w.ball-past-has-another-pattern 285: A'
     tags: [name:kennedy-john-f, name:rusk-dean, name:ball-george-w, name:harriman-w-averell, name:johnson-u-alexis, name:talbot-phillips, name:mcnamara-robert-s, name:nitze-paul, name:quinn-william-w, name:mccone-john-a, name:bundy-mcgeorge, name:komer-robert-w, name:ayub-khan-mohammad]
-  - id: cal.1963-09-09.press-and-broadcasting
-    when: Sept. 9
-    date: '1963-09-09'
-    thread: press-and-broadcasting
-    c: The President on NBC's *Huntley-Brinkley Report*, alone, the night the network's evening news goes from fifteen minutes to thirty.
-    n: '[[w.branch-parting-the-waters]], 888. To check: Manchester, *The Glory and the Dream*, 1228; Newsweek, Sept. 23, 1963, 62-65 (cited by [[w.branch-parting-the-waters]], 888 n.3). Names: Kennedy, Huntley, Brinkley.'
-    src:
-      c: a441c76d
-      rows:
-        - 'w.branch-parting-the-waters 888: all'
-        - 'via w.branch-parting-the-waters 888 n.3b: all'
-    tags: [name:kennedy-john-f, name:huntley-chet, name:brinkley-david]
-    short: the networks' first half-hour news
   - id: cal.1963-09-09.testing-2
     when: Sept. 9
     date: '1963-09-09'
     thread: testing
     c: Fulbright opens the Senate's debate on the test ban treaty; the polls a bare majority for it, his mail four to one against.
-    n: '[[w.woods-j-william-fulbright-vietnam]], 54; [[w.woods-fulbright]], 319 ("Extreme nationalism and dogmatic ideology are luxuries that the human race can no longer afford"; his mail 4 to 1 against). To check: 109 Cong. Rec. 16525–40 (Senate, Sept. 9, 1963) (cited by [[w.woods-j-william-fulbright-vietnam]], 55 n.7); Lee Williams to Fulbright, Aug. 10, 1963, Fulbright Papers (SPF), series 48:4, box 20:2, University of Arkansas (cited by [[w.woods-j-william-fulbright-vietnam]], 54 n.5). Names: Fulbright.'
+    n: '[[w.woods-j-william-fulbright-vietnam]], 54; [[w.woods-fulbright]], 319 ("Extreme nationalism and dogmatic ideology are luxuries that the human race can no longer afford"; his mail 4 to 1 against). To check: 109 Cong. Rec. 16,525–40 (Senate, Sept. 9, 1963) (cited by [[w.woods-j-william-fulbright-vietnam]], 55 n.7); Lee Williams to Fulbright, Aug. 10, 1963, Fulbright Papers (SPF), series 48:4, box 20:2, University of Arkansas (cited by [[w.woods-j-william-fulbright-vietnam]], 54 n.5). Names: Fulbright.'
     src:
       c: b9ed4ddc
       rows:
@@ -552,12 +562,49 @@ entries:
         - 'via x.1963-08-10.williams-to-fulbright: all'
         - 'w.woods-fulbright 319: all'
     tags: [name:fulbright-j-william]
+  - id: cal.1963-09-09.desegregation-schools
+    when: Sept. 9–11
+    date: '1963-09-09'
+    thread: desegregation-schools
+    c: Chicago, the Southwest Side. Some seven hundred white parents picket Bogan High School against transfers into it, Sept. 9; twenty-five hundred meet there that night with their alderman, James Murray, son of the board's vice-president; some two hundred to City Hall and the Board of Education. Willis takes fifteen schools, Bogan among them, off the list open to transfers.
+    n: '[[w.anderson-confronting-the-color-line]], 117. To check: Chicago Sun-Times, 11 September 1963 (cited by [[w.anderson-confronting-the-color-line]], 117 n.37). Names: Willis.'
+    src:
+      c: ecbc0aef
+      rows:
+        - 'w.anderson-confronting-the-color-line 117: all'
+        - 'via w.anderson-confronting-the-color-line 117 n.37: all'
+    tags: [name:willis-benjamin-c, state:il, city:chicago]
+  - id: cal.1963-09-09.civil-rights-organizations
+    when: Sept. 9
+    date: '1963-09-09'
+    thread: civil-rights-organizations
+    also: [civil-rights-bill]
+    c: The NAACP's board asks its members to "work actively for the defeat in the next election of those lawmakers who fail to support and vote for strong civil rights legislation."
+    n: '[[w.whalen-longest-debate]], 81. To check: NAACP press release, Sept. 13, 1963, NAACP Papers, Library of Congress (cited by [[w.whalen-longest-debate]], 253).'
+    src:
+      c: f01e88a9
+      rows:
+        - 'w.whalen-longest-debate 81: all'
+        - 'via x.1963-09-13.naacp-press-release: all'
+  - id: cal.1963-09-09.testing-3
+    when: Sept. 9
+    date: '1963-09-09'
+    thread: testing
+    also: [congress, defense]
+    c: 'The Stennis subcommittee''s interim report to Russell: the treaty "will affect adversely the future quality of this Nation''s arms," with "serious, and perhaps formidable, military and technical disadvantages" not outweighed by its military advantages.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 352. To check: Preparedness Investigating Subcommittee, *Interim Report on the Military Implications of the Proposed Limited Nuclear Test Ban Treaty*, 88th Cong., 1st sess. (Sept. 9, 1963), 11–12 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 352 n.106). See [[cal.1963-09-09.testing-2]]. Names: Stennis, Russell.'
+    src:
+      c: 5e356a79
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 352: all'
+        - 'via x.1963-09-09.stennis-subcommittee-interim-report: all'
+    tags: [name:stennis-john-c, name:russell-richard-b]
   - id: cal.1963-09-10.economy
     when: Sept. 10
     date: '1963-09-10'
     thread: economy
     c: H.R. 8363 introduced by Mills; referred to Ways and Means.
-    n: '[109 Cong. Rec. 16728](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt12/pdf/GPO-CRECB-1963-pt12-13-2.pdf) (1963) (House, Sept. 10, 1963). See [[cal.1963-01-24.economy]]. Names: Mills.'
+    n: '[109 Cong. Rec. 16,728](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt12/pdf/GPO-CRECB-1963-pt12-13-2.pdf) (1963) (House, Sept. 10, 1963). See [[cal.1963-01-24.economy]]. Names: Mills.'
     tags: [name:mills-wilbur-d, bill:revenue-1964]
   - id: cal.1963-09-10.program
     when: Sept. 10
@@ -568,6 +615,7 @@ entries:
   - id: cal.1963-09-10.vietnam
     when: Sept. 10
     date: '1963-09-10'
+    time: 1963-09-10T14:30Z
     thread: vietnam
     c: 'Krulak and Mendenhall before Kennedy: Krulak, the war going well; Mendenhall, the government near collapse. Kennedy: "The two of you did visit the same country, didn''t you?"'
     n: 'FRUS 1961–63, IV, docs. [82](https://history.state.gov/historicaldocuments/frus1961-63v04/d82) (Krulak''s report), [83](https://history.state.gov/historicaldocuments/frus1961-63v04/d83). [[w.miller-misalliance]], 299; [[w.gibbons-u-s-government-and]], II, 171 (the reports; the President''s words by Mecklin''s memoir, "Were you two gentlemen in the same country?"); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 288; [[w.schulimson-joint-chiefs-of-staff]], 361–363; [[w.moyar-triumph-forsaken]], 246–49; [[w.mcnamara-in-retrospect]], ch. 3 at n.20 (McNamara: "We have been trying to overthrow Diem, but we have no alternatives I am aware of....We should go back to what we were doing three weeks ago"; Harriman against; Taylor and McCone with McNamara). [[w.reeves-president-kennedy]], 595–97; [[w.bernstein-guns-or-butter]], 326 (a four-day inspection; Kennedy, "icily": "Were you two gentlemen in the same country?"). [[w.preston-war-council]], 125 (Bundy sets Forrestal and Hilsman to write the policy papers). To check: Mendenhall''s report, FRUS 1961–63, IV, 144–45, 243–49 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 288 n.107); [FRUS 1961–63, IV, doc. 78](https://history.state.gov/historicaldocuments/frus1961-63v04/d78) (Saigon to State, Sept. 9, 1963; cited by [[w.moyar-triumph-forsaken]], 248 n.19); Smith, memorandum of conversation, Sept. 10, 1963, JFKL, NSF, Meetings & Memoranda, box 316 (cited by [[w.moyar-triumph-forsaken]], 249 n.21); Memorandum of conference with the President, Sept. 10, 1963 (Bromley Smith), National Security Files, box 316, Kennedy Library (cited by [[w.reeves-president-kennedy]], 595). See [[cal.1963-09-06.vietnam]]. Names: Krulak, Mendenhall, Kennedy.'
@@ -658,12 +706,34 @@ entries:
       c: 95f4fe64
       rows:
         - 'w.futrell-united-states-air-force 183: all'
+  - id: cal.1963-09-10.economy-2
+    when: Sept. 10
+    date: '1963-09-10'
+    thread: economy
+    c: Ways and Means approves the tax bill, 17–8.
+    n: '[[w.whalen-longest-debate]], 29.'
+    src:
+      c: 8f9ac754
+      rows:
+        - 'w.whalen-longest-debate 29: all'
+  - id: cal.1963-09-10.civil-rights-bill
+    when: Sept. 10
+    date: '1963-09-10'
+    thread: civil-rights-bill
+    c: 'The tax bill out of Ways and Means, Celler resumes Subcommittee No. 5''s markup, 2:30 p.m., the room cleared: the votes tentative, the record to give results only, not how each member voted.'
+    n: '[[w.whalen-longest-debate]], 29–32. To check: Subcomm. No. 5, minutes, Sept. 10, 1963 (cited by [[w.whalen-longest-debate]], 248). See [[cal.1963-08-14.civil-rights-bill]]. Names: Celler.'
+    src:
+      c: b5127712
+      rows:
+        - 'w.whalen-longest-debate 29–32: all'
+        - 'via x.1963-09-10.subcommittee-5-minutes: all'
+    tags: [name:celler-emanuel]
   - id: cal.1963-09-11.testing
     when: Sept. 11
     date: '1963-09-11'
     thread: testing
     c: 'Letter to Mansfield and Dirksen: underground tests to go on, the laboratories kept up, atmospheric tests ready to resume, detection improved. Dirksen reads it in the Senate and comes out for the treaty.'
-    n: 'Letter to Senate Leaders Restating the Administration''s Views on the Nuclear Test Ban Treaty, [1963 Pub. Papers 669](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=727) (Sept. 11, 1963). [109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt12/pdf/GPO-CRECB-1963-pt12-14-2.pdf) (1963). [[w.reeves-president-kennedy]], 593–94; [[w.sorensen-kennedy]], 738–39 (the letter of assurances to Mansfield and Dirksen; Dirksen''s speech in support). To check: *New York Times*, Sept. 11, 1963 (cited by [[w.reeves-president-kennedy]], 594). See [[cal.1963-06-10.testing]]. Names: Mansfield, Dirksen. Check: Reeves has Dirksen bring the President a draft of the letter after the Huntley–Brinkley interview, Sept. 9 (593–94). Check: the page.'
+    n: 'Letter to Senate Leaders Restating the Administration''s Views on the Nuclear Test Ban Treaty, [1963 Pub. Papers 669](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=727) (Sept. 11, 1963). [109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt12/pdf/GPO-CRECB-1963-pt12-14-2.pdf) (1963). [[w.reeves-president-kennedy]], 593–94; [[w.sorensen-kennedy]], 738–39 (the letter of assurances to Mansfield and Dirksen; Dirksen''s speech in support). To check: [*New York Times*, Sept. 11, 1963](https://timesmachine.nytimes.com/timesmachine/1963/09/11/issue.html) (cited by [[w.reeves-president-kennedy]], 594). See [[cal.1963-06-10.testing]]. Names: Mansfield, Dirksen. Check: Reeves has Dirksen bring the President a draft of the letter after the Huntley–Brinkley interview, Sept. 9 (593–94). Check: the page.'
     src:
       c: 6865ce62
       rows:
@@ -697,6 +767,7 @@ entries:
   - id: cal.1963-09-11.vietnam
     when: Sept. 11
     date: '1963-09-11'
+    time: 1963-09-11T06:00Z
     thread: vietnam-saigon
     c: 'Lodge to Rusk, eyes only: the situation "worsening rapidly"; the time come "to use what effective sanctions it has to bring about the fall of the existing government and the installation of another"; the suspension of aid to be studied by "the best brains in the government."'
     n: '[FRUS 1961–63, IV, doc. 86](https://history.state.gov/historicaldocuments/frus1961-63v04/d86) (telegram 478). [[w.moyar-triumph-forsaken]], 250; [[w.mcnamara-in-retrospect]], ch. 3 at n.21 (and Bundy to Rusk: the President inclined to think it the most powerful assessment he had seen). See [[cal.1963-09-10.vietnam]]. Names: Lodge, Rusk.'
@@ -712,9 +783,13 @@ entries:
   - id: cal.1963-09-11.vietnam-2
     when: Sept. 11
     date: '1963-09-11'
+    time: 1963-09-11T22:00Z
     thread: vietnam-saigon
+    follows:
+      - cal.1963-09-11.vietnam-3
+      - cal.1963-09-11.vietnam-4
     c: '6 p.m. Rusk with Robert Kennedy, McCone, Murrow, Taylor, Krulak, Gilpatric, Hilsman, Colby, Bundy, Forrestal, on Lodge''s cable. Rusk: if the American presence is not needed, leave, but leave an independent Vietnam; no American troops, a return to the French war; Nhu probably has to go, but not Diệm with him; Lodge to wrestle with Diệm, the urgency in weeks, not days. No cut in aid essential to the war.'
-    n: '[FRUS 1961–63, IV, doc. 93](https://history.state.gov/historicaldocuments/frus1961-63v04/d93) (Bromley Smith''s memorandum). [[w.selverstone-kennedy-withdrawal]], 156 (Rusk; the weeks; Lodge''s call for action set aside). [[w.preston-war-council]], 125 (Bundy: Lodge''s cable "one of his best"; "collective madness in a ruling family"). To check: Krulak''s memorandum, "Vietnam," Sept. 11, 1963, Taylor Papers, National Defense University (cited by [[w.selverstone-kennedy-withdrawal]], 156 n.49). Made public: FRUS 1961–63, IV (1991). See [[cal.1963-09-10.vietnam]]. Names: Rusk, Robert Kennedy, McCone, Murrow, Taylor, Krulak, Gilpatric, Hilsman, Colby, Bundy, Forrestal, Lodge, Ngô Đình Nhu, Ngô Đình Diệm.'
+    n: '[FRUS 1961–63, IV, doc. 93](https://history.state.gov/historicaldocuments/frus1961-63v04/d93) (Bromley Smith''s memorandum). [[w.selverstone-kennedy-withdrawal]], 156 (Rusk; the weeks; Lodge''s call for action set aside). [[w.preston-war-council]], 125 (Bundy: Lodge''s cable "one of his best"; "collective madness in a ruling family"). To check: Krulak''s memorandum, "Vietnam," Sept. 11, 1963, Taylor Papers, National Defense University (cited by [[w.selverstone-kennedy-withdrawal]], 156 n.49). Made public: FRUS 1961–63, IV (1991). After Forrestal''s and Hilsman''s papers for the day''s meetings: FRUS 1961–63, IV, docs. 90, 91. See [[cal.1963-09-10.vietnam]]. Names: Rusk, Robert Kennedy, McCone, Murrow, Taylor, Krulak, Gilpatric, Hilsman, Colby, Bundy, Forrestal, Lodge, Ngô Đình Nhu, Ngô Đình Diệm.'
     src:
       c: e6ed7ba1
       rows:
@@ -731,12 +806,13 @@ entries:
     thread: goldwater
     also: [republican-party]
     c: 'Chicago, the National Federation of Republican Women''s annual meeting. Goldwater at its dinner, Percy, Robertson and Carpentier, the candidates for governor, there to greet him. A poll of 293 women: 262 for Goldwater.'
-    n: '[[w.white-suite-3505]], 211; [[w.novak-agony-of-the-g]], 225, 232 (the twenty-fifth convention; Carpentier, Robertson and Percy shaking his hand; "in differing, we need not beat the hides off those we differ with"). Names: Goldwater, Percy, Robertson.'
+    n: '[[w.white-suite-3505]], 211; [[w.novak-agony-of-the-g]], 225, 232 (the twenty-fifth convention; Carpentier, Robertson and Percy shaking his hand; "in differing, we need not beat the hides off those we differ with"); [[w.perlstein-before-the-storm]], 230 (the week after Ogle County; the three candidates for governor about him; the speech given twice; Hutar''s purge, behind the scenes, of the delegates against him in a straw poll). Names: Goldwater, Percy, Robertson.'
     src:
       c: c45ca971
       rows:
         - 'w.white-suite-3505 211: all'
         - 'w.novak-agony-of-the-g 225, 232: A-B'
+        - 'w.perlstein-before-the-storm 230: A-B'
     tags: [name:goldwater-barry-m, name:percy-charles-h, name:robertson-hayes, city:chicago]
   - id: cal.1963-09-11.vietnam-3
     when: Sept. 11
@@ -769,6 +845,7 @@ entries:
   - id: cal.1963-09-11.vietnam-5
     when: Sept. 11
     date: '1963-09-11'
+    time: 1963-09-11T15:35Z
     thread: vietnam-saigon
     c: 'Bundy to Rusk by telephone, 11:35 a.m.: the President inclined to think Lodge''s cable of the day "the most powerful he has seen on this situation"; the Standing Group at 6, the President to join.'
     n: '[FRUS 1961–63, IV, doc. 88](https://history.state.gov/historicaldocuments/frus1961-63v04/d88). [[w.preston-war-council]], 125 (Bundy on Lodge''s cables). See [[cal.1963-09-11.vietnam]]. Names: Bundy, Rusk, Kennedy, Lodge. Check: Preston quotes Bundy to Rusk, "Cabot is a lion, isn''t he?"; not in this telephone record.'
@@ -789,6 +866,18 @@ entries:
       rows:
         - 'w.novak-agony-of-the-g 224–25 & n.6: all'
     tags: [name:goldwater-barry-m, city:chicago]
+  - id: cal.1963-09-11.civil-rights-bill
+    when: Sept. 11–12
+    date: '1963-09-11'
+    thread: civil-rights-bill
+    c: 'Subcommittee No. 5, tentative amendments: Kastenmeier''s, state and local elections in Title I; Celler''s, a sixth-grade education proof of literacy; McCulloch''s, a census of voters by race; Celler''s, the Civil Rights Commission permanent; McCulloch''s, "and racial imbalance" struck from Title III.'
+    n: '[[w.whalen-longest-debate]], 32–33. To check: Subcomm. No. 5, minutes, Sept. 11–12, 1963 (cited by [[w.whalen-longest-debate]], 248). See [[cal.1963-09-10.civil-rights-bill]]. Names: Kastenmeier, Celler, McCulloch.'
+    src:
+      c: d31dd6df
+      rows:
+        - 'w.whalen-longest-debate 32–33: all'
+        - 'via x.1963-09-11.subcommittee-5-minutes: all'
+    tags: [name:kastenmeier-robert-w, name:celler-emanuel, name:mcculloch-william-m]
   - id: cal.1963-09-12.vietnam
     when: Sept. 12
     date: '1963-09-12'
@@ -822,10 +911,13 @@ entries:
   - id: cal.1963-09-12.vietnam-2
     when: Sept. 12
     date: '1963-09-12'
+    time: 1963-09-12T20:00Z
     thread: vietnam-congress
     also: [testing, goldwater]
+    follows:
+      - cal.1963-09-12.vietnam
     c: 'News conference. On Vietnam: "we want the war to be won, the Communists to be contained, and the Americans to go home." Church''s resolution "reflects his concern"; "we should stay there." The opening statement on the test ban treaty: "if this small clearly beneficial step cannot be approved by the widest possible margin in the Senate, then this Nation cannot offer much leadership." On Goldwater''s Chicago speech, that not ten men know the truth about Cuba and the treaty: "There are no commitments." Further comment? "No, no. Not yet, not yet."'
-    n: 'The President''s News Conference of September 12, 1963, [1963 Pub. Papers 672](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=730), items 5, 18. [[w.reeves-president-kennedy]], 597–98 (the press conference; "the Americans to go home"). [[w.sorensen-kennedy]], 739 & n.4 (the margin; the answer on Goldwater). See [[cal.1963-09-02.vietnam]]. Names: Church, Kennedy, Goldwater.'
+    n: 'The President''s News Conference of September 12, 1963, [1963 Pub. Papers 672](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=730), items 5, 18. [[w.reeves-president-kennedy]], 597–98 (the press conference; "the Americans to go home"). [[w.sorensen-kennedy]], 739 & n.4 (the margin; the answer on Goldwater). After Church''s resolution: [[cal.1963-09-12.vietnam]]. See [[cal.1963-09-02.vietnam]]. Names: Church, Kennedy, Goldwater.'
     src:
       c: 4419dce5
       rows:
@@ -920,11 +1012,13 @@ entries:
     thread: goldwater
     also: [elections-1964, press-and-broadcasting]
     c: 'CBS, the evening news. Cronkite: by recent surveys Goldwater the front-runner for the nomination. Goldwater, interviewed, on what would decide him: "what effect would a defeat have on the conservative movement?" Integration "not the overriding issue in the South"; a young, suburban middle class there conservative in economics.'
-    n: '[[w.young-two-suns-of-the]], 67–68. Names: Cronkite, Goldwater.'
+    n: '[[w.young-two-suns-of-the]], 67–68; [[w.perlstein-before-the-storm]], 229 (Cronkite''s half-hour interview with Goldwater). To check: the transcript, Rockefeller Archive Center, box 10/763 (cited by [[w.perlstein-before-the-storm]], 229 n.4). Names: Cronkite, Goldwater.'
     src:
       c: 8b653e9e
       rows:
         - 'w.young-two-suns-of-the 67–68: all'
+        - 'w.perlstein-before-the-storm 229: A'
+        - 'via w.perlstein-before-the-storm 229 n.4: A'
     tags: [name:cronkite-walter, name:goldwater-barry-m]
   - id: cal.1963-09-13.vietnam
     when: Sept. 13
@@ -971,13 +1065,26 @@ entries:
     date: '1963-09-13'
     thread: robert-kennedy
     c: 'Bismarck, N.D. Robert Kennedy to a gathering of Indian tribes: their treatment by the federal government a "national disgrace." They give him a war bonnet and the name Brave Heart.'
-    n: '[[w.thomas-robert-kennedy]], 261. To check: *New York Times*, Sept. 14, 1963 (cited by [[w.thomas-robert-kennedy]], 446). Names: Robert Kennedy.'
+    n: '[[w.thomas-robert-kennedy]], 261. To check: [*New York Times*, Sept. 14, 1963](https://timesmachine.nytimes.com/timesmachine/1963/09/14/issue.html) (cited by [[w.thomas-robert-kennedy]], 446). Names: Robert Kennedy.'
     src:
       c: c6c2fbd6
       rows:
         - 'w.thomas-robert-kennedy 261: all'
         - 'via w.thomas-robert-kennedy 261 n.brave-heart: all'
     tags: [name:kennedy-robert-f, state:nd]
+  - id: cal.1963-09-13.civil-rights-organizations
+    when: Sept. 13
+    date: '1963-09-13'
+    thread: civil-rights-organizations
+    also: [civil-rights-bill]
+    c: 'Lincoln, Neb. Catholic, Protestant and Jewish representatives plan their churches'' work for the civil rights bill. Hamilton of the National Council of Churches: "an agreement among religious groups that this was a priority issue."'
+    n: '[[w.whalen-longest-debate]], 165.'
+    src:
+      c: dd1b601b
+      rows:
+        - 'w.whalen-longest-debate 165: all'
+        - 'via x.undated.whalen-interviews-1981-84: all'
+    tags: [state:ne]
   - id: cal.1963-09-14.elections-1964
     when: Sept. 14
     date: '1963-09-14'
@@ -994,7 +1101,7 @@ entries:
     date: '1963-09-15'
     thread: alabama-birmingham
     c: 'Sunday morning. Dynamite at the Sixteenth Street Baptist Church, Birmingham. Four girls killed: Addie Mae Collins, Denise McNair, Carole Robertson, Cynthia Wesley. Two Black boys shot dead in the city that afternoon. Kennedy, Sept. 16: "public disparagement of law and order has encouraged violence." Marshall and FBI bomb men sent.'
-    n: 'Statement by the President on the Sunday Bombing in Birmingham, [1963 Pub. Papers 681](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=739) (Sept. 16, 1963). [[w.garrow-bearing-the-cross]], 291–92, 294 (all but Marshall and the FBI men); [[w.branch-pillar-of-fire]], 137–39; [[w.sorensen-kennedy]], 502 (the bombing; the two boys); [[w.branch-parting-the-waters]], 889-91; [[w.kotz-judgment-days]], 65 (the fiftieth bombing in Birmingham since the war). [[w.reeves-president-kennedy]], 599–600 (the bombing; the four girls). Check: Branch, 889-91: Youth Day, the girls in white in the basement ladies'' room; Sarah Collins, ten, partly blinded; the two boys: a thirteen-year-old on bicycle handlebars shot by two Eagle Scouts coming from a segregationist rally, and a Negro shot in the back of the head by officers; Lingo and three hundred troopers sent by Wallace. To check: [[w.rosenberg-kennedy-johnson-and-the]] ("Bombs in Birmingham"); [[w.mcwhorter-carry-me-home]]; [[w.sikora-until-justice-rolls-down]]; [[w.jones-bending-toward-justice]]; [[w.4-little-girls]]; New York Times, Sept. 16, 1963, 1; Sept. 17, 1963, 25; King to Kennedy, Sept. 15 and 16, 1963, White House Central Files 367, 1478, Kennedy Library; Joseph Dolan to Nicholas Katzenbach, "Birmingham Possibilities II," Sept. 18, 1963, Civil Rights Division FOIA (DOJ microfilm, reel 120) (cited by [[w.garrow-bearing-the-cross]], 291 n.4); *New York Times*, Sept. 16, 1963 (cited by [[w.reeves-president-kennedy]], 599). See [[cal.1963-04-03.alabama]]. Names: Addie Mae Collins, McNair, Robertson, Wesley, Marshall.'
+    n: 'Statement by the President on the Sunday Bombing in Birmingham, [1963 Pub. Papers 681](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=739) (Sept. 16, 1963). [[w.garrow-bearing-the-cross]], 291–92, 294 (all but Marshall and the FBI men); [[w.branch-pillar-of-fire]], 137–39; [[w.sorensen-kennedy]], 502 (the bombing; the two boys); [[w.branch-parting-the-waters]], 889–91; [[w.kotz-judgment-days]], 65 (the fiftieth bombing in Birmingham since the war); [[w.young-easy-burden]], 275. [[w.reeves-president-kennedy]], 599–600 (the bombing; the four girls). Check: Branch, 889–91: Youth Day, the girls in white in the basement ladies'' room; Sarah Collins, ten, partly blinded; the two boys: a thirteen-year-old on bicycle handlebars shot by two Eagle Scouts coming from a segregationist rally, and a Negro shot in the back of the head by officers; Lingo and three hundred troopers sent by Wallace. To check: [[w.rosenberg-kennedy-johnson-and-the]] ("Bombs in Birmingham"); [[w.mcwhorter-carry-me-home]]; [[w.sikora-until-justice-rolls-down]]; [[w.jones-bending-toward-justice]]; [[w.4-little-girls]]; New York Times, Sept. 16, 1963, 1; Sept. 17, 1963, 25; King to Kennedy, Sept. 15 and 16, 1963, White House Central Files 367, 1478, Kennedy Library; Joseph Dolan to Nicholas Katzenbach, "Birmingham Possibilities II," Sept. 18, 1963, Civil Rights Division FOIA (DOJ microfilm, reel 120) (cited by [[w.garrow-bearing-the-cross]], 291 n.4); [*New York Times*, Sept. 16, 1963](https://timesmachine.nytimes.com/timesmachine/1963/09/16/issue.html) (cited by [[w.reeves-president-kennedy]], 599). See [[cal.1963-04-03.alabama]]. Names: Addie Mae Collins, McNair, Robertson, Wesley, Marshall.'
     src:
       c: 541015eb
       rows:
@@ -1016,6 +1123,7 @@ entries:
         - 'via w.branch-parting-the-waters 890 n.1c: A-D'
         - 'via w.branch-parting-the-waters 890 n.1d: A-D'
         - 'w.kotz-judgment-days 65: A'
+        - 'w.young-easy-burden 275: A-C'
     tags: [name:collins-addie-mae, name:mcnair-denise, name:robertson-carole, name:wesley-cynthia, name:marshall-burke, name:kennedy-john-f]
   - id: cal.1963-09-15.opinion-5
     when: Sept. 15
@@ -1035,8 +1143,10 @@ entries:
     date: '1963-09-15'
     thread: king
     also: [alabama-birmingham, civil-rights-bill]
+    follows:
+      - cal.1963-09-15.alabama
     c: 'King to the President, by telegram, the day of the bombing: "you must call for legislation"; he will "plead with my people to remain nonviolent."'
-    n: '[[w.branch-parting-the-waters]], 891. To check: King to Kennedy, Sept. 15, 1963, Name File, box 1478, JFK Library (cited by [[w.branch-parting-the-waters]], 891 n.3). See [[cal.1963-09-15.alabama]]. Names: Martin Luther King, Kennedy.'
+    n: '[[w.branch-parting-the-waters]], 891. On the bombing: [[w.branch-parting-the-waters]], 891. To check: King to Kennedy, Sept. 15, 1963, Name File, box 1478, JFK Library (cited by [[w.branch-parting-the-waters]], 891 n.3). See [[cal.1963-09-15.alabama]]. Names: Martin Luther King, Kennedy.'
     src:
       c: 865aa031
       rows:
@@ -1124,6 +1234,7 @@ entries:
   - id: cal.1963-09-16.vietnam
     when: Sept. 16
     date: '1963-09-16'
+    time: 1963-09-16T15:00Z
     thread: vietnam-saigon
     c: 'The State Department: Rusk, McNamara, McCone and others with two CIA officers back from Saigon on the generals'' plotting: "The substance which they all lack is a comprehensive follow-on plan." McNamara proposes a conciliatory cable to Lodge asking his views; Rusk has one drafted for the President.'
     n: '[Memorandum for the record of a meeting, Sept. 16, 1963, FRUS 1961–63, IV, doc. 113](https://history.state.gov/historicaldocuments/frus1961-63v04/d113) (the officers'' words). [[w.mcnamara-in-retrospect]], ch. 3 at n.22. See [[cal.1963-08-24.vietnam]]. Names: Rusk, McNamara, McCone, Lodge.'
@@ -1133,7 +1244,7 @@ entries:
     date: '1963-09-16'
     thread: alabama-birmingham
     c: 'Charles Morgan, a white lawyer, to the city''s Young Men''s Business Club: all whites share the guilt of the bombing, "We all did it." Boutwell: "All of us are victims."'
-    n: '[[w.branch-parting-the-waters]], 891. To check: Raines, *My Soul Is Rested*, 196-202 (cited by [[w.branch-parting-the-waters]], 891 n.1). Check: the day and the place (Branch gives neither). See [[cal.1963-09-15.alabama]]. Names: Boutwell.'
+    n: '[[w.branch-parting-the-waters]], 891. To check: Raines, *My Soul Is Rested*, 196–202 (cited by [[w.branch-parting-the-waters]], 891 n.1). Check: the day and the place (Branch gives neither). See [[cal.1963-09-15.alabama]]. Names: Boutwell.'
     src:
       c: f964bc80
       rows:
@@ -1146,7 +1257,7 @@ entries:
     thread: king
     also: [alabama-birmingham, civil-rights-the-executive]
     c: 'Birmingham. King''s statement: "What murdered these four girls? The apathy and the complacency of many Negroes who will sit down on their stools and do nothing." King and others wire the President for an "emergency audience." Burke Marshall, sent by the President, is run to John Drew''s house face down in a car, a white helmet on his head; he finds no demonstrations planned; the FBI in full force on the bombing.'
-    n: '[[w.branch-parting-the-waters]], 891-92. To check: King, statement, Sept. 16, 1963, King Papers, KS5; King et al. to Kennedy, telegram, Sept. 16, 1963, KP14, folder 4 (cited by [[w.branch-parting-the-waters]], 891 n.3); interviews: Burke Marshall, Sept. 26, 1984 (cited by [[w.branch-parting-the-waters]], 891 n.2). Check: the day of Marshall''s trip. See [[cal.1963-09-15.alabama]]. Names: Martin Luther King, Kennedy, Burke Marshall.'
+    n: '[[w.branch-parting-the-waters]], 891–92. To check: King, statement, Sept. 16, 1963, King Papers, KS5; King et al. to Kennedy, telegram, Sept. 16, 1963, KP14, folder 4 (cited by [[w.branch-parting-the-waters]], 891 n.3); interviews: Burke Marshall, Sept. 26, 1984 (cited by [[w.branch-parting-the-waters]], 891 n.2). Check: the day of Marshall''s trip. See [[cal.1963-09-15.alabama]]. Names: Martin Luther King, Kennedy, Burke Marshall.'
     src:
       c: d1af1789
       rows:
@@ -1177,6 +1288,7 @@ entries:
   - id: cal.1963-09-17.vietnam
     when: Sept. 17
     date: '1963-09-17'
+    time: 1963-09-18T01:28Z
     thread: vietnam-saigon
     c: 'Kennedy to Lodge: the highest-level meeting approves a program of pressures for reforms and changes of personnel. "No good opportunity for action to remove present government in immediate future." Lodge''s comment asked.'
     n: '[FRUS 1961–63, IV, doc. 125](https://history.state.gov/historicaldocuments/frus1961-63v04/d125) (CAP 63516). [[w.miller-misalliance]], 299 ("pressures and persuasion" endorsed, Sept. 17); [[w.mcnamara-in-retrospect]], ch. 3 at n.23 (the "conciliatory" cable, CAP 63516, after Kennedy met his closest advisers; McNamara and Taylor to go). [[w.reeves-president-kennedy]], 600–601 (the cable). See [[cal.1963-05-08.vietnam]]. Made public: [[w.def-u-s-viet-rels]], Book 12, 545–47 (1971). Names: Kennedy, Lodge.'
@@ -1194,6 +1306,7 @@ entries:
   - id: cal.1963-09-17.vietnam-2
     when: Sept. 17
     date: '1963-09-17'
+    time: 1963-09-17T20:20Z
     thread: vietnam
     c: 'Harriman to Forrestal by telephone, before the cable to Lodge goes: he and Hilsman "very much disappointed with draft"; the proposed visit "a disaster," sending "two men opposed to our policy, plus one who wouldn''t stand up." Forrestal agrees.'
     n: '[Memorandum of a telephone conversation, Harriman and Forrestal, Sept. 17, 1963, FRUS 1961–63, IV, doc. 124](https://history.state.gov/historicaldocuments/frus1961-63v04/d124). [[w.mcnamara-in-retrospect]], ch. 3 at n.24 (the two men McNamara and Taylor, the one U. Alexis Johnson). See [[cal.1963-09-17.vietnam]]. Names: Harriman, Forrestal, Hilsman.'
@@ -1222,6 +1335,18 @@ entries:
       c: 8e8606b4
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 139: all'
+  - id: cal.1963-09-17.civil-rights-bill
+    when: Sept. 17–18
+    date: '1963-09-17'
+    thread: civil-rights-bill
+    c: 'Subcommittee No. 5, after the Birmingham bombing: Rogers''s amendment, the Attorney General to intervene where a public facility is denied; Celler''s Title X, review of removed civil rights cases; Kastenmeier''s Title II reaching every business, private schools, law firms and medical associations, rooming houses of five units or fewer excepted. McCulloch, his compromise Title II with Justice days old, angry.'
+    n: '[[w.whalen-longest-debate]], 34–35. To check: Subcomm. No. 5, minutes, Sept. 17–18, 1963 (cited by [[w.whalen-longest-debate]], 248). See [[cal.1963-09-10.civil-rights-bill]]. Names: Rogers, Celler, Kastenmeier, McCulloch.'
+    src:
+      c: dda61807
+      rows:
+        - 'w.whalen-longest-debate 34–35: all'
+        - 'via x.1963-09-17.subcommittee-5-minutes: all'
+    tags: [name:rogers-byron-g, name:celler-emanuel, name:kastenmeier-robert-w, name:mcculloch-william-m]
   - id: cal.1963-09-18.cuba
     when: Sept. 18
     date: '1963-09-18'
@@ -1239,6 +1364,7 @@ entries:
   - id: cal.1963-09-18.economy
     when: Sept. 18
     date: '1963-09-18'
+    time: 1963-09-18T23:00Z
     thread: economy
     also: [testing]
     c: Television address on the treaty and the tax bill, a week before the House votes on the bill.
@@ -1304,6 +1430,7 @@ entries:
   - id: cal.1963-09-18.vietnam-2
     when: Sept. 18
     date: '1963-09-18'
+    time: 1963-09-18T09:00Z
     thread: vietnam
     c: 'Lodge to the President, Embtel 536: against the McNamara–Taylor visit. Diệm would take it to mean "forgive and forget"; it "would certainly put a wet blanket on those working for a change of government."'
     n: '[Embtel 536, Lodge to the President, Sept. 18, 1963, FRUS 1961–63, IV, doc. 126](https://history.state.gov/historicaldocuments/frus1961-63v04/d126) (the words). [[w.mcnamara-in-retrospect]], ch. 3 at n.25. See [[cal.1963-09-17.vietnam]]. Names: Lodge, Kennedy, McNamara, Taylor, Ngô Đình Diệm.'
@@ -1312,8 +1439,10 @@ entries:
     when: Sept. 18
     date: '1963-09-18'
     thread: vietnam
+    follows:
+      - cal.1963-09-18.vietnam-2
     c: 'McNamara proposes meeting Lodge and Harkins in Hawaii instead; Kennedy will have him see it on the spot. Kennedy to Lodge, the afternoon: "my need for this visit is very great indeed"; McNamara "will want to speak some hard truths" to Diệm.'
-    n: '[Deptel 431, the President to Lodge, Sept. 18, 1963, FRUS 1961–63, IV, doc. 128](https://history.state.gov/historicaldocuments/frus1961-63v04/d128) (Kennedy''s words). [[w.mcnamara-in-retrospect]], ch. 3 at n.26 (McNamara''s proposal; Bundy to Rusk: "the President thinks you have to look at it to see it"). See [[cal.1963-09-18.vietnam-2]]. Names: McNamara, Lodge, Harkins, Kennedy, Ngô Đình Diệm.'
+    n: '[Deptel 431, the President to Lodge, Sept. 18, 1963, FRUS 1961–63, IV, doc. 128](https://history.state.gov/historicaldocuments/frus1961-63v04/d128) (Kennedy''s words). [[w.mcnamara-in-retrospect]], ch. 3 at n.26 (McNamara''s proposal; Bundy to Rusk: "the President thinks you have to look at it to see it"). Answering Lodge''s Embtel 536: "I appreciate your prompt comment" (doc. 128). See [[cal.1963-09-18.vietnam-2]]. Names: McNamara, Lodge, Harkins, Kennedy, Ngô Đình Diệm.'
     tags: [name:mcnamara-robert-s, name:lodge-henry-cabot, name:harkins-paul-d, name:kennedy-john-f, name:ngo-dinh-diem]
   - id: cal.1963-09-18.alabama-birmingham
     when: Sept. 18
@@ -1336,8 +1465,10 @@ entries:
     date: '1963-09-18'
     thread: king
     also: [voting-rights]
+    follows:
+      - cal.1963-09-18.alabama-birmingham
     c: 'Birmingham, after the funeral. Diane Nash Bevel gives King her written plan: a trained nonviolent army, "This is an army," to surround Wallace''s government in Montgomery, "Lying on railroad tracks, runways, and bus driveways ... Close down the power company," until Negroes vote across Alabama. John Lewis favors it; King puts off her plea for a strategy session.'
-    n: '[[w.branch-parting-the-waters]], 892-93. To check: Diane Bevel, report, Sept. 17-20, 1963, and "Proposal for Action in Montgomery," King Papers, SC41, folder 8; [[w.garrow-bearing-the-cross]], 294 (cited by [[w.branch-parting-the-waters]], 892 n.5, 893 n.2); interviews: Diane Nash Bevel, Feb. 20, 1985 (cited by [[w.branch-parting-the-waters]], 893 n.1). See [[cal.1963-09-15.alabama]]. Names: Nash, Martin Luther King, Wallace, Lewis.'
+    n: '[[w.branch-parting-the-waters]], 892–93. After the funeral: [[w.branch-parting-the-waters]], 892–93. To check: Diane Bevel, report, Sept. 17–20, 1963, and "Proposal for Action in Montgomery," King Papers, SC41, folder 8; [[w.garrow-bearing-the-cross]], 294 (cited by [[w.branch-parting-the-waters]], 892 n.5, 893 n.2); interviews: Diane Nash Bevel, Feb. 20, 1985 (cited by [[w.branch-parting-the-waters]], 893 n.1). See [[cal.1963-09-15.alabama]]. Names: Nash, Martin Luther King, Wallace, Lewis.'
     src:
       c: 342948d7
       rows:
@@ -1352,20 +1483,35 @@ entries:
     thread: elections-1964
     also: [goldwater, democratic-party]
     c: 'Salt Lake City. Church keynotes the Western States Democratic Conference: Goldwater "committed to a policy of initiating the use of force in the struggle with communism." "An American President who ... tampers cavalierly with the delicate balance of terror ... might well be the last American President."'
-    n: '[[w.novak-agony-of-the-g]], 242–43. Names: Church, Goldwater.'
+    n: '[[w.novak-agony-of-the-g]], 242–43; [[w.perlstein-before-the-storm]], 235 (Church''s keynote at the Western States Democratic meeting, quoted). Names: Church, Goldwater.'
     src:
       c: 0300dee2
       rows:
         - 'w.novak-agony-of-the-g 242–43: all'
         - 'via x.1963-09-18.church-keynote-western-states-democrats: all'
+        - 'w.perlstein-before-the-storm 235: C'
     tags: [name:church-frank, name:goldwater-barry-m]
+  - id: cal.1963-09-18.civil-rights-organizations
+    when: Sept. 18
+    date: '1963-09-18'
+    thread: civil-rights-organizations
+    also: [civil-rights-bill]
+    c: 'Wilkins''s press conference before leaving for the Birmingham funerals: "The latest Birmingham outrage demonstrated the need of going beyond the present bill and enacting legislation that will eradicate the consuming poisons of racial discrimination from our national life at once."'
+    n: '[[w.whalen-longest-debate]], 34. To check: Leadership Conference memo no. 7, Sept. 20, 1963, Library of Congress (cited by [[w.whalen-longest-debate]], 248). Names: Wilkins.'
+    src:
+      c: 30f6e48b
+      rows:
+        - 'w.whalen-longest-debate 34: all'
+        - 'via x.1963-09-20.lccr-memo-no-7: all'
+    tags: [name:wilkins-roy]
   - id: cal.1963-09-19.alabama
     when: Sept. 19
     date: '1963-09-19'
+    time: 1963-09-19T21:00Z
     thread: alabama-birmingham
     also: [king]
     c: Kennedy sees Birmingham's Black leaders, King among them; names Royall and Blaik to represent him in the city.
-    n: 'Further Statement by the President on the Sunday Bombing in Birmingham, [1963 Pub. Papers 692](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=750) (Sept. 19, 1963). [Kennedy with King, Abernathy, Gaston, Murchison, Pitts and Ware, 5 p.m.](https://prde.upress.virginia.edu/conversations/4006296), JFK Meeting Tape 111.7 and 112.1 (PRDE only). [[w.garrow-bearing-the-cross]], 295–96; [[w.sorensen-kennedy]], 503; [[w.branch-parting-the-waters]], 893-95. [[w.reeves-president-kennedy]], 600; [[w.branch-pillar-of-fire]], 143–44. Check: Branch, 893-95: Robert Kennedy that morning, no legal basis for marshals or troops; Salinger names Royall and Blaik just before five, minutes before the group comes in; King with Gaston, Ware and Pitts; King: "If you''re in church, now it isn''t safe"; Shuttlesworth for federal troops; Kennedy: "What is the long-range hope for Birmingham?"; King: "Troops cannot solve the problem"; Kennedy: "everybody just has to keep their nerve"; King to the press: "This is the kind of federal concern needed"; the New York Times: "Negroes Applaud Move, Drop Appeal for Troops and Accept Panel.". See [[cal.1963-09-15.alabama]]. Names: Kennedy, Martin Luther King, Royall, Blaik.'
+    n: 'Further Statement by the President on the Sunday Bombing in Birmingham, [1963 Pub. Papers 692](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=750) (Sept. 19, 1963). [Kennedy with King, Abernathy, Gaston, Murchison, Pitts and Ware, 5 p.m.](https://prde.upress.virginia.edu/conversations/4006296), JFK Meeting Tape 111.7 and 112.1 (PRDE only). [[w.garrow-bearing-the-cross]], 295–96; [[w.sorensen-kennedy]], 503; [[w.branch-parting-the-waters]], 893–95. [[w.reeves-president-kennedy]], 600; [[w.branch-pillar-of-fire]], 143–44. Check: Branch, 893–95: Robert Kennedy that morning, no legal basis for marshals or troops; Salinger names Royall and Blaik just before five, minutes before the group comes in; King with Gaston, Ware and Pitts; King: "If you''re in church, now it isn''t safe"; Shuttlesworth for federal troops; Kennedy: "What is the long-range hope for Birmingham?"; King: "Troops cannot solve the problem"; Kennedy: "everybody just has to keep their nerve"; King to the press: "This is the kind of federal concern needed"; the New York Times: "Negroes Applaud Move, Drop Appeal for Troops and Accept Panel.". See [[cal.1963-09-15.alabama]]. Names: Kennedy, Martin Luther King, Royall, Blaik.'
     src:
       c: 13c0850b
       rows:
@@ -1392,7 +1538,7 @@ entries:
     thread: goldwater
     also: [testing]
     c: 'Senate. Goldwater against the test ban treaty: "If it means political suicide to vote for my country and against this treaty, then I commit it gladly."'
-    n: '[109 Cong. Rec. 17557–58](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt13/pdf/GPO-CRECB-1963-pt13-5-1.pdf) (1963). [[w.perlstein-before-the-storm]], 232; [[w.goldberg-barry-goldwater]], 174–75 (on the floor repeatedly, August and September; no means to verify Soviet compliance; the fallout less dangerous than "smog"; his amendments, on-site inspection or Communist troops out of Berlin, defeated; "I do not vote against the hope of peace, but only against the illusion of it. I do not vote for war, but for the strength to prevent it"; the words); [[w.sorensen-kennedy]], 739 (Stennis, Goldwater and Russell announce their opposition). [[w.white-suite-3505]], 197–98, 425–28 (the speech; its text, Appendix A). Names: Goldwater.'
+    n: '[109 Cong. Rec. 17,557–58](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt13/pdf/GPO-CRECB-1963-pt13-5-1.pdf) (1963). [[w.perlstein-before-the-storm]], 232; [[w.goldberg-barry-goldwater]], 174–75 (on the floor repeatedly, August and September; no means to verify Soviet compliance; the fallout less dangerous than "smog"; his amendments, on-site inspection or Communist troops out of Berlin, defeated; "I do not vote against the hope of peace, but only against the illusion of it. I do not vote for war, but for the strength to prevent it"; the words); [[w.sorensen-kennedy]], 739 (Stennis, Goldwater and Russell announce their opposition). [[w.white-suite-3505]], 197–98, 425–28 (the speech; its text, Appendix A). Names: Goldwater.'
     src:
       c: bc374ad2
       rows:
@@ -1423,6 +1569,7 @@ entries:
   - id: cal.1963-09-19.economy
     when: Sept. 19
     date: '1963-09-19'
+    time: 1963-09-19T20:00Z
     thread: economy
     also: [defense, europe-and-the-alliance]
     c: 'Kennedy with Rusk, McNamara, Ball, Gilpatric and Bundy, 4 p.m., on Defense''s further cuts in the balance of payments drain: approved, $190 million, the items Rusk opposed left out. Kennedy wants "a political base" so that the disapproved actions can be taken up again later.'
@@ -1439,6 +1586,7 @@ entries:
   - id: cal.1963-09-19.vietnam
     when: Sept. 19
     date: '1963-09-19'
+    time: 1963-09-19T20:00Z
     thread: vietnam-force-levels
     c: 'Kennedy with Rusk, McNamara, Taylor and Bundy, 4 p.m., recorded, on the McNamara–Taylor mission. Kennedy: the state of the war and its prospects; if "the rot really was setting in," Diệm told as tough as they can: "he''s going to lose the war!" Taylor would tell Diệm "we''re not here forever," with the plan to phase out; McNamara, to show Diệm at some point "that we do have a plan for getting out of there."'
     n: '[John F. Kennedy, McGeorge Bundy, Robert S. McNamara, Dean Rusk and Maxwell D. Taylor, 4 p.m.](https://prde.upress.virginia.edu/conversations/4003064), JFK Meeting Tape 111.5 (PRDE only). [[w.selverstone-kennedy-withdrawal]], 159–60 (the exchange, from the Miller Center''s draft transcript). To check: Memorandum for the Record, "SVN Trip," Sept. 19, 1963, RG 218, Taylor Records, box 12, NARA (cited by [[w.selverstone-kennedy-withdrawal]], 161 n.62). Check: the recording not heard; the words Selverstone''s transcript''s. See [[cal.1963-09-17.vietnam]]. Names: Kennedy, Rusk, McNamara, Taylor, Bundy, Ngô Đình Diệm.'
@@ -1465,6 +1613,7 @@ entries:
   - id: cal.1963-09-20.space
     when: Sept. 20
     date: '1963-09-20'
+    time: 1963-09-20T15:00Z
     thread: space
     also: [testing]
     c: 'Address to the UN General Assembly. After the treaty: a ban on weapons of mass destruction in orbit, guards against surprise attack, and "a joint expedition to the moon."'
@@ -1503,19 +1652,31 @@ entries:
     date: '1963-09-20'
     thread: goldwater
     c: 'Goldwater, softening: troops to the South to enforce the courts'' orders on school desegregation; where in August he had opposed the progressive income tax, now a review of the revenue system and "suggestions made in the whole [tax] field."'
-    n: '[[w.goldberg-barry-goldwater]], 175; the *New York Times*, Sept. 20, 1963, 22, by the note (175 n.145). Check: the day of the words. Goldwater: "There would be something wrong with any man in public life who didn''t change some of his ideas to meet the developments of the time. Consistency is not necessarily a virtue" (Goldberg, 175, from the *New Republic*, Nov. 23, 1963, 17, 175 n.147). Names: Goldwater.'
+    n: '[[w.goldberg-barry-goldwater]], 175; the [*New York Times*, Sept. 20, 1963](https://timesmachine.nytimes.com/timesmachine/1963/09/20/issue.html), 22, by the note (175 n.145). Check: the day of the words. Goldwater: "There would be something wrong with any man in public life who didn''t change some of his ideas to meet the developments of the time. Consistency is not necessarily a virtue" (Goldberg, 175, from the *New Republic*, Nov. 23, 1963, 17, 175 n.147). Names: Goldwater.'
     src:
       c: 3a4e93d9
       rows:
         - 'w.goldberg-barry-goldwater 175: all'
         - 'via w.goldberg-barry-goldwater 175 n.145: all'
     tags: [name:goldwater-barry-m]
+  - id: cal.1963-09-20.goldwater-2
+    when: Sept. 20
+    date: '1963-09-20'
+    thread: goldwater
+    c: 'Senate. Goldwater: "profits are the surest sign of responsible behavior."'
+    n: '[[w.perlstein-before-the-storm]], 234. To check: Congressional Record, Sept. 20, 1963 (cited by [[w.perlstein-before-the-storm]], 234 n.2). Check: the day; Perlstein: "the day after Lippmann''s pronunciamento." Names: Goldwater.'
+    src:
+      c: 1133c9c9
+      rows:
+        - 'w.perlstein-before-the-storm 234: all'
+        - 'via w.perlstein-before-the-storm 234 n.2b: all'
+    tags: [name:goldwater-barry-m]
   - id: cal.1963-09-21.vietnam
     when: Sept. 21
     date: '1963-09-21'
     thread: vietnam
     c: Kennedy sends McNamara and Taylor to Vietnam for "the best possible on-the-spot appraisal" of the war. They leave Sept. 23; report Oct. 2.
-    n: '[FRUS 1961–63, IV, doc. 142](https://history.state.gov/historicaldocuments/frus1961-63v04/d142); [doc. 167](https://history.state.gov/historicaldocuments/frus1961-63v04/d167) (the report, Oct. 2). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 288–89 (the request, Sept. 21; the conclusions announced Oct. 2); [[w.miller-misalliance]], 298–300 (the mission, in Vietnam Sept. 24–Oct. 1; its report); [[w.gibbons-u-s-government-and]], II, 181, 183–84 (the mission approved at the meeting of Sept. 17; the meeting of Sept. 23 before they left; the report on their return, Oct. 2); [[w.schulimson-joint-chiefs-of-staff]], 375 (the directive; the departure); [[w.mcnamara-in-retrospect]], ch. 3 at n.27. [[w.selverstone-kennedy-withdrawal]], 158–61, 166–67 (the mission asked Sept. 17; the directive; the report). [[w.reeves-president-kennedy]], 601–605 (the mission sent). [[w.preston-war-council]], 126 (Kennedy''s telegram to Lodge of Sept. 18, drafted by Bundy and Forrestal: "this visit is not designed to bring comfort to Diem"; Forrestal on the mission). To check: [[w.taylor-swords-and-plowshares]]; [[w.novosejt-i-made-mistakes-robert]]; [[w.mcmaster-dereliction-of-duty-1997]]; [[w.shapley-promise-and-power]]; [[w.kinnard-certain-trumpet]]; [[w.kaiser-american-tragedy]]; [[w.pentagon-papers]]; memorandum for the record, "Chairman''s Meeting with SecDef," Sept. 19, 1963, Taylor Records, RG 218, NARA (cited by [[w.schulimson-joint-chiefs-of-staff]], 375 n.89); Kennedy to Lodge, Sept. 18, 1963, [FRUS 1961–63, IV, doc. 128](https://history.state.gov/historicaldocuments/frus1961-63v04/d128); Memorandum for the record, Sept. 23, 1963, [FRUS 1961–63, IV, doc. 146](https://history.state.gov/historicaldocuments/frus1961-63v04/d146) (cited by [[w.reeves-president-kennedy]], 605). See [[cal.1963-08-24.vietnam]]. Names: McNamara, Taylor.'
+    n: '[FRUS 1961–63, IV, doc. 142](https://history.state.gov/historicaldocuments/frus1961-63v04/d142); [doc. 167](https://history.state.gov/historicaldocuments/frus1961-63v04/d167) (the report, Oct. 2). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 288–89 (the request, Sept. 21; the conclusions announced Oct. 2); [[w.miller-misalliance]], 298–300 (the mission, in Vietnam Sept. 24–Oct. 1; its report); [[w.gibbons-u-s-government-and]], II, 181, 183–84 (the mission approved at the meeting of Sept. 17; the meeting of Sept. 23 before they left; the report on their return, Oct. 2); [[w.schulimson-joint-chiefs-of-staff]], 375 (the directive; the departure); [[w.mcnamara-in-retrospect]], ch. 3 at n.27. [[w.selverstone-kennedy-withdrawal]], 158–61, 166–67 (the mission asked Sept. 17; the directive; the report); [[w.taylor-swords-and-plowshares]], 296, 299 (the mission asked, for the last week of September; its report, Oct. 2; not the words quoted or the day of departure). [[w.reeves-president-kennedy]], 601–605 (the mission sent). [[w.preston-war-council]], 126 (Kennedy''s telegram to Lodge of Sept. 18, drafted by Bundy and Forrestal: "this visit is not designed to bring comfort to Diem"; Forrestal on the mission). To check: [[w.novosejt-i-made-mistakes-robert]]; [[w.mcmaster-dereliction-of-duty-1997]]; [[w.shapley-promise-and-power]]; [[w.kinnard-certain-trumpet]]; [[w.kaiser-american-tragedy]]; [[w.pentagon-papers]]; memorandum for the record, "Chairman''s Meeting with SecDef," Sept. 19, 1963, Taylor Records, RG 218, NARA (cited by [[w.schulimson-joint-chiefs-of-staff]], 375 n.89); Kennedy to Lodge, Sept. 18, 1963, [FRUS 1961–63, IV, doc. 128](https://history.state.gov/historicaldocuments/frus1961-63v04/d128); Memorandum for the record, Sept. 23, 1963, [FRUS 1961–63, IV, doc. 146](https://history.state.gov/historicaldocuments/frus1961-63v04/d146) (cited by [[w.reeves-president-kennedy]], 605). See [[cal.1963-08-24.vietnam]]. Names: McNamara, Taylor.'
     src:
       c: 724c36c0
       rows:
@@ -1540,6 +1701,7 @@ entries:
         - 'w.mcnamara-in-retrospect ch. 3 at n.27: A-C'
         - 'via x.1963-09-21.kennedy-to-mcnamara-memorandum-sept-21: A'
         - 'via w.preston-war-council 126 n.70d: A'
+        - 'w.taylor-swords-and-plowshares 296, 299: A, C'
     tags: [name:kennedy-john-f, name:mcnamara-robert-s, name:taylor-maxwell]
   - id: cal.1963-09-21.civil-rights-organizations
     when: Sept. 21
@@ -1561,7 +1723,7 @@ entries:
     thread: press-and-broadcasting
     also: [civil-rights-organizations]
     c: 'New York television, Kilgore moderating: Baldwin and Niebuhr on the "missing face of Christ" in the bombed church''s window. Baldwin: Negroes "the only hope this country has"; "the only time that nonviolence has been admired is when the Negroes practice it." Niebuhr: "We are in a revolutionary situation"; "King''s doctrine of nonviolent resistance is not pacifism."'
-    n: '[[w.branch-parting-the-waters]], 895-96. To check: transcript of the discussion, Sept. 22, 1963 (cited by [[w.branch-parting-the-waters]], 895 n.4). Check: the station and program. See [[cal.1963-09-15.alabama]]. Names: Baldwin, Martin Luther King.'
+    n: '[[w.branch-parting-the-waters]], 895–96. To check: transcript of the discussion, Sept. 22, 1963 (cited by [[w.branch-parting-the-waters]], 895 n.4). Check: the station and program. See [[cal.1963-09-15.alabama]]. Names: Baldwin, Martin Luther King.'
     src:
       c: 3a339e54
       rows:
@@ -1585,7 +1747,7 @@ entries:
     date: '1963-09-23'
     thread: alabama-birmingham
     c: Kennedy sees Birmingham's white civic leaders and clergy.
-    n: 'Statement by the President Following Meetings With Civic Leaders and Members of the Clergy of Birmingham, [1963 Pub. Papers 702](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=760) (Sept. 23, 1963). [[w.garrow-bearing-the-cross]], 296; [[w.branch-pillar-of-fire]], 143–44; [[w.branch-parting-the-waters]], 896-98. Check: Branch, 896-98, from Audiotapes 112.5, 112.6 and 113.1: five men, William Hamilton for Boutwell, "Mr. President, we came here, sir, with big chips on our shoulder"; the President''s three steps: Negro clerks, biracial talks, one Negro policeman; Hamilton: a third of the police would quit; Frank Newton of the telephone company: "a lot of people ... think you''ve been giving those people encouragement"; Kennedy: "Oh, public accommodations is nothing!"; "King has got a ... terrific investment in nonviolence, and SNCC has got an investment in violence"; the New York Times, Sept. 24: "Kennedy Says Birmingham Can Solve Its Own Problems.". To check: Kennedy White House Tape 112-6, Sept. 23, 1963, Kennedy Library (cited by [[w.garrow-bearing-the-cross]], 296 n.6). See [[cal.1963-09-19.alabama]]. Names: Kennedy.'
+    n: 'Statement by the President Following Meetings With Civic Leaders and Members of the Clergy of Birmingham, [1963 Pub. Papers 702](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=760) (Sept. 23, 1963). [[w.garrow-bearing-the-cross]], 296; [[w.branch-pillar-of-fire]], 143–44; [[w.branch-parting-the-waters]], 896–98. Check: Branch, 896–98, from Audiotapes 112.5, 112.6 and 113.1: five men, William Hamilton for Boutwell, "Mr. President, we came here, sir, with big chips on our shoulder"; the President''s three steps: Negro clerks, biracial talks, one Negro policeman; Hamilton: a third of the police would quit; Frank Newton of the telephone company: "a lot of people ... think you''ve been giving those people encouragement"; Kennedy: "Oh, public accommodations is nothing!"; "King has got a ... terrific investment in nonviolence, and SNCC has got an investment in violence"; the New York Times, Sept. 24: "Kennedy Says Birmingham Can Solve Its Own Problems.". To check: Kennedy White House Tape 112-6, Sept. 23, 1963, Kennedy Library (cited by [[w.garrow-bearing-the-cross]], 296 n.6). See [[cal.1963-09-19.alabama]]. Names: Kennedy.'
     src:
       c: 8c346db5
       rows:
@@ -1601,6 +1763,7 @@ entries:
   - id: cal.1963-09-23.vietnam
     when: Sept. 23
     date: '1963-09-23'
+    time: 1963-09-23T14:00Z
     thread: vietnam-force-levels
     also: [press-and-broadcasting]
     c: 'The White House, 10 a.m. Kennedy signs McNamara''s and Taylor''s instructions, Ball and McGeorge Bundy present: reform to be pressed "as a pragmatic necessity and not as a moral judgment"; threats to cut aid unlikely to work. "A great deal of truth" in Alsop''s column of the morning on the Saigon reporters; "The way to confound the press is to win the war." Recorded: McNamara, "We hope that before the end of the year, we can withdraw"; Taylor, "We have to win this war in this timeframe."'
@@ -1653,13 +1816,25 @@ entries:
       rows:
         - 'w.novak-agony-of-the-g 226: all'
     tags: [name:rockefeller-nelson, name:poff-richard-h]
+  - id: cal.1963-09-23.civil-rights-bill
+    when: Sept. 23
+    date: '1963-09-23'
+    thread: civil-rights-bill
+    c: 'O''Brien to Kennedy, by memorandum: "Celler should have bill out of subcommittee this week. Anticipates ten days in full committee. Report it out by October 10."'
+    n: '[[w.whalen-longest-debate]], 39. To check: O''Brien, memorandum for the President, Sept. 23, 1963, Presidential Papers, JFK Library (cited by [[w.whalen-longest-debate]], 248). Names: O''Brien, Kennedy, Celler.'
+    src:
+      c: 981dc474
+      rows:
+        - 'w.whalen-longest-debate 39: all'
+        - 'via x.1963-09-23.obrien-to-kennedy: all'
+    tags: [name:obrien-lawrence-f, name:kennedy-john-f, name:celler-emanuel]
   - id: cal.1963-09-24.testing
     when: Sept. 24
     date: '1963-09-24'
     thread: testing
     also: [goldwater]
     c: 'Senate consents to the treaty, [80–19](https://voteview.com/rollcall/RS0880133). Against: eleven Democrats, Russell, Stennis, and Thurmond among them; eight Republicans, Goldwater and Margaret Chase Smith among them. Goldwater''s reservation on Cuba lost the day before, [17–75](https://voteview.com/rollcall/RS0880127).'
-    n: '[109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt13/pdf/GPO-CRECB-1963-pt13-8-1.pdf) (1963). Statement by the President Following the Senate Vote on the Nuclear Test Ban Treaty, [1963 Pub. Papers 704](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=762) (Sept. 24, 1963). [FRUS 1961–63, VII, doc. 366](https://history.state.gov/historicaldocuments/frus1961-63v07/d366). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 354 (the vote); [[w.goldberg-barry-goldwater]], 175 (80–19, late September; Goldwater''s amendments defeated); [[w.sorensen-kennedy]], 739–40 (eleven Democrats, all Southerners but Lausche, and eight Republicans, all west of the Missouri but Mrs. Smith; Goldwater''s Cuba condition; "a welcome culmination"); [[w.poole-joint-chiefs-of-staff]], 105. To check: [[w.terchek-making-of-the-test]]. See [[cal.1963-06-10.testing]]. Names: Russell, Stennis, Thurmond, Goldwater, Smith. Check: the page.'
+    n: '[109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt13/pdf/GPO-CRECB-1963-pt13-8-1.pdf) (1963). Statement by the President Following the Senate Vote on the Nuclear Test Ban Treaty, [1963 Pub. Papers 704](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=762) (Sept. 24, 1963). [FRUS 1961–63, VII, doc. 366](https://history.state.gov/historicaldocuments/frus1961-63v07/d366). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 354 (the vote); [[w.goldberg-barry-goldwater]], 175 (80–19, late September; Goldwater''s amendments defeated); [[w.sorensen-kennedy]], 739–40 (eleven Democrats, all Southerners but Lausche, and eight Republicans, all west of the Missouri but Mrs. Smith; Goldwater''s Cuba condition; "a welcome culmination"); [[w.poole-joint-chiefs-of-staff]], 105; [[w.taylor-swords-and-plowshares]], 287; [[w.debenedetti-american-ordeal]], 63 (the Senate''s consent). To check: [[w.terchek-making-of-the-test]]. See [[cal.1963-06-10.testing]]. Names: Russell, Stennis, Thurmond, Goldwater, Smith. Check: the page.'
     src:
       c: 2ef7c8ad
       rows:
@@ -1671,10 +1846,13 @@ entries:
         - 'w.goldberg-barry-goldwater 175: A'
         - 'w.sorensen-kennedy 739–40: A-D'
         - 'w.poole-joint-chiefs-of-staff 105: A'
+        - 'w.taylor-swords-and-plowshares 287: A'
+        - 'w.debenedetti-american-ordeal 63: A'
     tags: [name:russell-richard-b, name:stennis-john-c, name:thurmond-strom, name:goldwater-barry-m, name:smith-margaret-chase, name:kennedy-john-f]
   - id: cal.1963-09-24.program
     when: Sept. 24
     date: '1963-09-24'
+    time: 1963-09-24T13:30Z
     thread: health
     c: Health Professions Educational Assistance Act signed, [77 Stat. 164](https://www.govinfo.gov/content/pkg/STATUTE-77/pdf/STATUTE-77-Pg164-2.pdf). Grants to build medical, dental, and public health schools; loans to their students.
     n: 'Remarks Upon Signing the Health Professions Educational Assistance Act, [1963 Pub. Papers 703](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=761) (Sept. 24, 1963). To check: [[w.blumenthal-heart-of-power]].'
@@ -1683,6 +1861,7 @@ entries:
   - id: cal.1963-09-24.program-2
     when: Sept. 24–28
     date: '1963-09-24'
+    time: 1963-09-24T17:00Z
     thread: conservation
     also: [testing]
     c: 'Conservation tour: eleven States in five days, Milford, Pa., to Las Vegas, with Udall. At the Mormon Tabernacle, Sept. 26, the treaty and the world beyond it.'
@@ -1708,7 +1887,7 @@ entries:
     date: '1963-09-24'
     thread: economy
     c: 'House opens debate on H.R. 8363 under a closed rule. Mills: "two roads," "the tax reduction road" and "the road of Government expenditure increases"; "The route I prefer is the tax reduction road." He quotes the President''s letter of Aug. 21. Curtis: the cut meaningful only with expenditure reform, and how would the bonds for the deficit be marketed?'
-    n: 'House, Sept. 24, 1963: [109 Cong. Rec. 17900](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt13/pdf/GPO-CRECB-1963-pt13-8-2.pdf#page=2) (1963) (the rule); [17907–09](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt13/pdf/GPO-CRECB-1963-pt13-8-2.pdf#page=9) (Mills, the letter); [17912](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt13/pdf/GPO-CRECB-1963-pt13-8-2.pdf#page=14) (Curtis). [[w.stein-fiscal-revolution-in-america]], 449–50, 511 n.50 (Mills; Curtis on debt management); [[w.zelizer-taxing-america]], 206 (Mills). [[w.sundquist-politics-and-policy]], 50–51 (Mills). See [[cal.1963-01-24.economy]]; [[cal.1963-08-21.economy]]. Names: Mills, Curtis.'
+    n: 'House, Sept. 24, 1963: [109 Cong. Rec. 17,900](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt13/pdf/GPO-CRECB-1963-pt13-8-2.pdf#page=2) (1963) (the rule); [17907–09](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt13/pdf/GPO-CRECB-1963-pt13-8-2.pdf#page=9) (Mills, the letter); [17912](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt13/pdf/GPO-CRECB-1963-pt13-8-2.pdf#page=14) (Curtis). [[w.stein-fiscal-revolution-in-america]], 449–50, 511 n.50 (Mills; Curtis on debt management); [[w.zelizer-taxing-america]], 206 (Mills). [[w.sundquist-politics-and-policy]], 50–51 (Mills). See [[cal.1963-01-24.economy]]; [[cal.1963-08-21.economy]]. Names: Mills, Curtis.'
     src:
       c: 281dea40
       rows:
@@ -1757,7 +1936,7 @@ entries:
     thread: civil-rights-bill
     also: [congress-powell]
     c: Richmond, Va., SCLC's annual convention. Powell tells it the civil rights bill will not pass the Congress.
-    n: '[[w.branch-pillar-of-fire]], 145; [[w.branch-parting-the-waters]], 898-99. Check: Branch, 898-900: five hundred delegates at the Hotel John Marshall; Powell calls the NAACP "white-controlled" and says the white man has given Negroes more than he wanted to; the board meets the four days: Shortridge reports Birmingham''s Negroes collecting arms; the board for renewed demonstrations for clerks and policemen; King''s cautions, $300,000 of bail money held by the city; Benjamin Hooks for a march on Montgomery; news that Boutwell has taken Blaik and Royall into seclusion, segregated meetings only (New York Times, Sept. 26). To check: et, Oct. 10, 1963, pp. 6-10, Octe24 1963" pps 1419 (cited by [[w.branch-pillar-of-fire]], 145). Names: Powell. Check: the day.'
+    n: '[[w.branch-pillar-of-fire]], 145; [[w.branch-parting-the-waters]], 898–99. Check: Branch, 898–900: five hundred delegates at the Hotel John Marshall; Powell calls the NAACP "white-controlled" and says the white man has given Negroes more than he wanted to; the board meets the four days: Shortridge reports Birmingham''s Negroes collecting arms; the board for renewed demonstrations for clerks and policemen; King''s cautions, $300,000 of bail money held by the city; Benjamin Hooks for a march on Montgomery; news that Boutwell has taken Blaik and Royall into seclusion, segregated meetings only (New York Times, Sept. 26). To check: et, Oct. 10, 1963, pp. 6–10, Octe24 1963" pps 1419 (cited by [[w.branch-pillar-of-fire]], 145). Names: Powell. Check: the day.'
     src:
       c: f7199bb7
       rows:
@@ -1795,9 +1974,13 @@ entries:
   - id: cal.1963-09-24.vietnam
     when: Sept. 24
     date: '1963-09-24'
+    time: 1963-09-25T01:25Z
     thread: vietnam-saigon
+    follows:
+      - cal.1963-09-24.testing
+      - cal.1963-09-24.economy
     c: 'The President''s letter to Diệm, its text cabled to Lodge and McNamara in Saigon, eyes only: some methods of some members of Diệm''s government may make public support impossible to sustain; American cooperation and assistance not to be given "to or through individuals whose acts and words seem to run against the purpose of genuine reconciliation"; more reporting by American newsmen, not less. The President''s own judgment: not appropriate unless they find the situation so serious; McNamara might make the points orally.'
-    n: '[FRUS 1961–63, IV: Vietnam, August–December 1963, doc. 147](https://history.state.gov/historicaldocuments/frus1961-63v04/d147) (telegram 476, 9:25 p.m., drafted by Hilsman, cleared with Harriman and McGeorge Bundy); the draft of Sept. 16, [doc. 115](https://history.state.gov/historicaldocuments/frus1961-63v04/d115). Reply: Lodge and McNamara, telegram 593, Sept. 25, against transmitting a letter (doc. 147 n.2). [[w.sorensen-kennedy]], 658 (the letter, as sent: the passages on public support, assistance and the reporters; the officials to take part in decisions). Check: Sorensen gives the letter as written to Diệm (658); FRUS prints no delivery, and Lodge and McNamara advised against it. See [[cal.1963-09-23.vietnam]]. Names: Kennedy, Diệm, Lodge, McNamara.'
+    n: '[FRUS 1961–63, IV: Vietnam, August–December 1963, doc. 147](https://history.state.gov/historicaldocuments/frus1961-63v04/d147) (telegram 476, 9:25 p.m., drafted by Hilsman, cleared with Harriman and McGeorge Bundy); the draft of Sept. 16, [doc. 115](https://history.state.gov/historicaldocuments/frus1961-63v04/d115). Reply: Lodge and McNamara, telegram 593, Sept. 25, against transmitting a letter (doc. 147 n.2). [[w.sorensen-kennedy]], 658 (the letter''s passages on public support, assistance and the reporters; the officials to take part in decisions). After the Senate rose, 4:52 p.m., and the House, 5:56 p.m.: [Daily Digest, D456](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=454), [D457](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=455). See [[cal.1963-09-23.vietnam]]. Names: Kennedy, Diệm, Lodge, McNamara.'
     src:
       c: '45613174'
       rows:
@@ -1805,12 +1988,29 @@ entries:
         - 'w.sorensen-kennedy 658: A-C'
         - 'via x.1963-09-24.kennedy-to-diem-letter-not-delivered: A-C'
     tags: [name:kennedy-john-f, name:ngo-dinh-diem, name:lodge-henry-cabot, name:mcnamara-robert-s, name:hilsman-roger]
+    variants:
+      - unit: A
+        witness: w.sorensen-kennedy
+        reads: the letter as sent to Diệm
+        at: '658'
+  - id: cal.1963-09-24.defense
+    when: Sept. 24
+    date: '1963-09-24'
+    thread: defense
+    also: [congress]
+    c: 'The Senate, hours after consenting to the test ban treaty, passes the fiscal 1964 Defense appropriation, 77 to 0. McGovern''s amendment to cut procurement and research by 10 percent, about $2.3 billion, refused 74 to 2, Randolph with him; Saltonstall''s, about $158 million, 45 to 43; Proxmire''s, the $60 million for the MMRBM, 72 to 5. Russell: the amendment would invite war.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 139–40. To check: 109 Cong. Rec. 16943–72 (Sept. 24, 1963) (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 140 n.73). Check: the roll calls (Voteview). See [[cal.1963-09-17.defense]]. Names: McGovern, Randolph, Saltonstall, Proxmire, Russell.'
+    src:
+      c: 477d2b84
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 139–40: all'
+    tags: [name:mcgovern-george, name:randolph-jennings, name:saltonstall-leverett, name:proxmire-william, name:russell-richard-b]
   - id: cal.1963-09-25.economy
     when: Sept. 25
     date: '1963-09-25'
     thread: economy
     c: 'House passes Mills''s tax bill, [271–155](https://voteview.com/rollcall/RH0880069): Democrats 223–29, Republicans 48–126. Byrnes''s motion to recommit, the cut to wait on spending under $98 billion, fails [199–226](https://voteview.com/rollcall/RH0880068). Individual rates 14 to 70 percent, from 20 to 91; corporate 48, from 52.'
-    n: '[109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt13/pdf/GPO-CRECB-1963-pt13-9-2.pdf) (1963). [[w.zelizer-taxing-america]], 202 (the vote); [[w.stein-fiscal-revolution-in-america]], 441, 448–49, 451 (the motion to recommit and its defeat); [[w.bernstein-guns-or-butter]], 27 (the vote; Ways and Means, 17 to 8, before). [[w.sundquist-politics-and-policy]], 51 (the vote; the motion to recommit, 226–199). See [[cal.1963-01-24.economy]]. Names: Mills, Byrnes. Check: the page.'
+    n: '[109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt13/pdf/GPO-CRECB-1963-pt13-9-2.pdf) (1963). [[w.zelizer-taxing-america]], 202 (the vote); [[w.stein-fiscal-revolution-in-america]], 441, 448–49, 451 (the motion to recommit and its defeat); [[w.bernstein-guns-or-butter]], 27 (the vote; Ways and Means, 17 to 8, before); [[w.whalen-longest-debate]], 37 (two hours after McCulloch''s words on the civil rights bill). [[w.sundquist-politics-and-policy]], 51 (the vote; the motion to recommit, 226–199). See [[cal.1963-01-24.economy]]. Names: Mills, Byrnes. Check: the page.'
     src:
       c: 745b1e91
       rows:
@@ -1823,6 +2023,7 @@ entries:
         - 'w.stein-fiscal-revolution-in-america 451: A'
         - 'w.sundquist-politics-and-policy 51: A-B'
         - 'w.bernstein-guns-or-butter 27: A'
+        - 'w.whalen-longest-debate 37: A'
     tags: [name:mills-wilbur-d, name:byrnes-john-w]
   - id: cal.1963-09-25.latin-america
     when: Sept. 25
@@ -1900,7 +2101,7 @@ entries:
     thread: civil-rights-organizations
     also: [king, alabama-birmingham]
     c: 'Richmond, SCLC''s board, through the convention. For renewed demonstrations in Birmingham for Negro clerks and policemen; King''s cautions: opposition among Birmingham''s Negroes, some $300,000 of SCLC bail money still held by the city, marches larger than May''s needed. Hooks: a march on Montgomery instead.'
-    n: '[[w.branch-parting-the-waters]], 899-900. To check: SCLC board minutes, King Papers, KP29, folder 2 (cited by [[w.branch-parting-the-waters]], 899 n.4); King, confidential memorandum, c. Sept. 1963, KP32, folder 6 (cited by [[w.branch-parting-the-waters]], 899 n.6). Check: the day. See [[cal.1963-09-24.civil-rights-bill]]. Names: Martin Luther King.'
+    n: '[[w.branch-parting-the-waters]], 899–900. To check: SCLC board minutes, King Papers, KP29, folder 2 (cited by [[w.branch-parting-the-waters]], 899 n.4); King, confidential memorandum, c. Sept. 1963, KP32, folder 6 (cited by [[w.branch-parting-the-waters]], 899 n.6). Check: the day. See [[cal.1963-09-24.civil-rights-bill]]. Names: Martin Luther King.'
     src:
       c: ad56d44c
       rows:
@@ -1931,6 +2132,18 @@ entries:
         - 'w.thomas-robert-kennedy 274: all'
         - 'via w.thomas-robert-kennedy 274 n.we-might-need-lee: all'
     tags: [name:kennedy-robert-f, name:odonnell-kenneth-p, name:kennedy-john-f]
+  - id: cal.1963-09-25.civil-rights-bill
+    when: Sept. 25
+    date: '1963-09-25'
+    thread: civil-rights-bill
+    c: 'Subcommittee No. 5, at Celler''s request: Rogers''s new Title III, the Attorney General to bring or join civil suits against discrimination by State or local officials; Rodino''s Title VIII, H.R. 405, an Equal Employment Opportunity Commission over firms of twenty-five or more, empowered to order discrimination stopped.'
+    n: '[[w.whalen-longest-debate]], 35. To check: Subcomm. No. 5, minutes, Sept. 25, 1963 (cited by [[w.whalen-longest-debate]], 248). See [[cal.1963-09-10.civil-rights-bill]]. Names: Celler, Rogers, Rodino.'
+    src:
+      c: e5f94448
+      rows:
+        - 'w.whalen-longest-debate 35: all'
+        - 'via x.1963-09-25.subcommittee-5-minutes: all'
+    tags: [name:celler-emanuel, name:rogers-byron-g, name:rodino-peter-w-jr]
   - id: cal.1963-09-26.vietnam-congress
     when: Sept. 26
     date: '1963-09-26'
@@ -2015,9 +2228,10 @@ entries:
   - id: cal.1963-09-29.vietnam
     when: Sept. 29
     date: '1963-09-29'
+    time: 1963-09-29T06:30Z
     thread: vietnam-saigon
     c: 'Gia Long Palace, 2:30 to 5:30 p.m. Diệm with McNamara, Taylor, Lodge, and Harkins: two hours on the war and the strategic hamlets. McNamara on the political crisis and Madame Nhu''s declarations: American officers "little soldiers of fortune."'
-    n: '[FRUS 1961–63, IV, doc. 158](https://history.state.gov/historicaldocuments/frus1961-63v04/d158). [[w.miller-misalliance]], 300–01 (Diệm for nearly two hours; McNamara on the political crisis and Madame Nhu''s words); [[w.moyar-triumph-forsaken]], 254; [[w.mcnamara-in-retrospect]], ch. 3 at nn.34–36 (three hours, then a formal dinner; Nhu absent; Diệm rises to Madame Nhu''s defense; McNamara: "This is not satisfactory"). [[w.reeves-president-kennedy]], 609 (the meeting at the palace). See [[cal.1963-09-21.vietnam]]. Made public, in part: [[w.pentagon-papers]], vol. 2, 749–51 (1971). Names: Diệm, McNamara, Taylor, Lodge, Harkins, Trần Lệ Xuân.'
+    n: '[FRUS 1961–63, IV, doc. 158](https://history.state.gov/historicaldocuments/frus1961-63v04/d158). [[w.miller-misalliance]], 300–01 (Diệm for nearly two hours; McNamara on the political crisis and Madame Nhu''s words); [[w.moyar-triumph-forsaken]], 254; [[w.mcnamara-in-retrospect]], ch. 3 at nn.34–36 (three hours, then a formal dinner; Nhu absent; Diệm rises to Madame Nhu''s defense; McNamara: "This is not satisfactory"). [[w.reeves-president-kennedy]], 609 (the meeting at the palace); [[w.taylor-swords-and-plowshares]], 298–99 (the final call on Diệm, McNamara speaking, Lodge translating; Diệm defends his acts; Taylor''s letter promised). See [[cal.1963-09-21.vietnam]]. Made public, in part: [[w.pentagon-papers]], vol. 2, 749–51 (1971). Names: Diệm, McNamara, Taylor, Lodge, Harkins, Trần Lệ Xuân.'
     src:
       c: 48dad044
       rows:
@@ -2030,6 +2244,7 @@ entries:
         - 'via w.reeves-president-kennedy 609 n.met-with-president-diem: B'
         - 'w.mcnamara-in-retrospect ch. 3 at nn.34–36: A-C'
         - 'via x.1963-09-29.memcon-sept-29-1963-frus-1961: A-C'
+        - 'w.taylor-swords-and-plowshares 298–99: B'
     tags: [name:ngo-dinh-diem, name:mcnamara-robert-s, name:taylor-maxwell, name:lodge-henry-cabot, name:harkins-paul-d, name:tran-le-xuan, place:saigon]
   - id: cal.1963-09-29.vietnam-2
     when: Sept. 29
@@ -2047,6 +2262,7 @@ entries:
   - id: cal.1963-09-30.transition-and-staff
     when: Sept. 30
     date: '1963-09-30'
+    time: 1963-09-30T16:30Z
     thread: transition-and-staff
     c: Gronouski, Wisconsin's tax commissioner, sworn in as Postmaster General. The first Polish American in the cabinet.
     n: 'Remarks at the Swearing In of Postmaster General John A. Gronouski, [1963 Pub. Papers 752](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=810) (Sept. 30, 1963). See [[cal.1963-07-26.transition-and-staff]]. Names: Gronouski.'
@@ -2086,7 +2302,7 @@ entries:
     date: 1963-09
     thread: voting-rights-selma
     c: Selma. From the Birmingham funerals John Lewis brings carloads of students to daily demonstrations; some three hundred jailed within two weeks, Lewis and the Rev. L. L. Anderson among them.
-    n: '[[w.branch-pillar-of-fire]], 144–45; [[w.branch-parting-the-waters]], 900 (Lewis''s arrest). Check: Branch, 900: Lewis arrested at the Selma courthouse for carrying a "One Man/One Vote" sign during the SCLC board''s meeting, nearly two hundred following him; in jail SNCC plans a Freedom Day. To check: er, Oct. 17, 1963, pp. 14-17, 20-22 (cited by [[w.branch-pillar-of-fire]], 144). See [[cal.1963-06-11.voting-rights-selma]]. Names: Lewis.'
+    n: '[[w.branch-pillar-of-fire]], 144–45; [[w.branch-parting-the-waters]], 900 (Lewis''s arrest). Check: Branch, 900: Lewis arrested at the Selma courthouse for carrying a "One Man/One Vote" sign during the SCLC board''s meeting, nearly two hundred following him; in jail SNCC plans a Freedom Day. To check: er, Oct. 17, 1963, pp. 14–17, 20–22 (cited by [[w.branch-pillar-of-fire]], 144). See [[cal.1963-06-11.voting-rights-selma]]. Names: Lewis.'
     src:
       c: a4a985c1
       rows:
@@ -2099,15 +2315,18 @@ entries:
   - id: cal.1963-09-30.civil-rights-bill
     when: Sept. 30
     date: '1963-09-30'
+    time: 1963-09-30T16:40Z
     thread: civil-rights-bill
     also: [republican-party]
     c: 'Kennedy with Eugene Carson Blake, 12:40 p.m., recorded. Blake back from Gettysburg, where Kennedy sent him to ask Eisenhower''s word for the civil rights bill; Eisenhower noncommittal. Kennedy: "The Republicans have a great temptation to think they''re never gonna get very far with the Negroes anyway, so they might as well play the white game in the South."'
-    n: '[[w.branch-pillar-of-fire]], 147–48. To check: [Kennedy and Blake, 12:40 p.m.](https://prde.upress.virginia.edu/conversations/4006299), JFK Meeting Tape 113.2 (PRDE only). Names: Kennedy, Eisenhower.'
+    n: '[[w.branch-pillar-of-fire]], 147–48; [[w.whalen-longest-debate]], 39. To check: [Kennedy and Blake, 12:40 p.m.](https://prde.upress.virginia.edu/conversations/4006299), JFK Meeting Tape 113.2 (PRDE only). Names: Kennedy, Eisenhower.'
     src:
       c: 3d44ba71
       rows:
         - 'w.branch-pillar-of-fire 148: all'
         - 'via w.branch-pillar-of-fire 148 n.the-republicans-have-a: all'
+        - 'w.whalen-longest-debate 39: A'
+        - 'via x.1963-09-30.kennedy-blake-meeting-of-sept-30: A'
     tags: [name:kennedy-john-f, name:eisenhower-dwight-d]
   - id: cal.1963-09-30.soviet-union
     when: Sept. 30
@@ -2391,6 +2610,7 @@ entries:
   - id: cal.1963-09-30.economy-gold
     when: Sept. 30
     date: '1963-09-30'
+    time: 1963-09-30T14:00Z
     thread: economy-gold
     c: 'Kennedy to the annual meeting of the Fund and the Bank: the American gold reserves "a healthy but not excessive 40 percent" of the world''s; "to maintain the firm relationship of gold and the dollar at the present price of $35 an ounce, and I can assure you we will do just that."'
     n: 'Address at the Meeting of the International Monetary Fund, [1963 Pub. Papers 749](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=807) (Sept. 30, 1963). See [[cal.1962-09-20.economy]]. Names: Kennedy.'
@@ -2399,3 +2619,83 @@ entries:
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=807: all'
     tags: [name:kennedy-john-f]
+  - id: cal.1963-09.europe-and-the-alliance-france
+    when: Sept.
+    date: 1963-09
+    thread: europe-and-the-alliance-france
+    c: 'Ailleret, the French Chief of Staff, a full day with Taylor and the Joint Chiefs: any crossing of the frontier means general war; a trip wire, and a reserve to block the heads of the columns while nuclear weapons destroy the rest. Asked of an East German seizure of Hamburg: the risk to Paris must be taken.'
+    n: '[[w.taylor-swords-and-plowshares]], 284–85. Check: the day. Names: Taylor.'
+    src:
+      c: 4c06b2fc
+      rows:
+        - 'w.taylor-swords-and-plowshares 284–85: all'
+    tags: [name:taylor-maxwell]
+  - id: cal.1963-09.vietnam-3
+    when: Sept., late
+    date: 1963-09
+    thread: vietnam
+    c: Saigon Officers' Club. Taylor plays tennis with Dương Văn Minh, who had asked to see him and McNamara; McNamara watching. Minh talks of nothing but tennis.
+    n: '[[w.taylor-swords-and-plowshares]], 297–98 (shortly after their arrival). Check: the day. See [[cal.1963-09-21.vietnam]]. Names: Taylor, Dương Văn Minh, McNamara.'
+    src:
+      c: 8b0bb808
+      rows:
+        - 'w.taylor-swords-and-plowshares 297–98: all'
+    tags: [name:taylor-maxwell, name:duong-van-minh, name:mcnamara-robert-s]
+  - id: cal.1963-09.open-housing
+    when: Sept.
+    date: 1963-09
+    thread: open-housing
+    also: [mayors]
+    c: 'Chicago. The City Council passes the Fair Housing Ordinance, at Daley''s wish, Alderman James Murray of the Southwest Side its floor manager: no discrimination by race, color, religion, national origin or ancestry in the sale, rental or lease of housing. Murray''s constituents chase him out of a meeting and picket his house nearly a week.'
+    n: '[[w.ralph-northern-protest]], 102 (the ordinance''s terms), 115, 115 n.68 (Murray: "Jim, we''ve got to have it"). [[w.cohen-american-pharaoh]], 305–6 (Daley''s ordinance against the Despres–Chew bill, introduced July 1 and tabled to Aug. 22; passed 30–16 after an eighty minutes'' delay while Daley and Keane threatened the aldermen''s patronage; Murray its sponsor). Check: the day. Names: Daley.'
+    src:
+      c: 1c929605
+      rows:
+        - 'w.cohen-american-pharaoh 305–6: all'
+    tags: [state:il, city:chicago, name:daley-richard-j]
+  - id: cal.1963-09.war-opposition
+    when: Sept.
+    date: 1963-09
+    thread: war-opposition
+    c: 'SANE''s national board: "graduated disengagement" from Diệm, the neutralization of Vietnam, "an overall political settlement with China"; Vietnam now "high among SANE priorities."'
+    n: '[[w.debenedetti-american-ordeal]], 87. Check: the day.'
+    src:
+      c: '42811027'
+      rows:
+        - 'w.debenedetti-american-ordeal 87: all'
+  - id: cal.1963-09.vietnam-congress
+    when: Sept.
+    date: 1963-09
+    thread: vietnam-congress
+    also: [war-opposition]
+    c: 'Church and thirty-two cosponsors introduce a resolution: aid to Diệm''s regime "offends the conscience of the American people and should not be continued."'
+    n: '[[w.debenedetti-american-ordeal]], 88–89. Check: the day. Names: Church.'
+    src:
+      c: cf79aca1
+      rows:
+        - 'w.debenedetti-american-ordeal 88–89: all'
+    tags: [name:church-frank]
+  - id: cal.1963-09.king
+    when: Sept.
+    date: 1963-09
+    thread: king
+    also: [antisubversion]
+    c: Through "Solo's" contacts with Hall, the FBI hears that "the CP is not happy with Stan Levison," who rebuffs the party's orders and its efforts to renew contact.
+    n: '[[w.kotz-judgment-days]], 73–74. To check: SAC New York to Director, FBI, Aug. 15, 1966, FBI file 100-3-104-34 (cited by [[w.kotz-judgment-days]], 73–74 n.29). Made public: Check; Kotz cites the FBI''s Levison file. Check: the day; Kotz: "By mid-September." See [[cal.1963-03-20.king]]. Names: Levison.'
+    src:
+      c: 0075171a
+      rows:
+        - 'w.kotz-judgment-days 73–74: all'
+        - 'via w.kotz-judgment-days 74 n.29: all'
+    tags: [name:levison-stanley-d]
+  - id: cal.1963-09.elections-1964-6
+    when: Sept.–Nov., before Nov. 7
+    date: 1963-09
+    thread: elections-1964
+    c: Rockefeller's search for a national campaign director. Brownell out, over the divorce; Hall says no; Alcorn says no. Rockefeller takes Jack Wells, of the Dewey organization, Rogers's law partner, Lefkowitz's manager in 1961 and Javits's in 1962.
+    n: '[[w.smith-on-his-own-terms]], 414. To check: *New York Times*, Apr. 15, 1980 (Wells''s obituary) (cited by [[w.smith-on-his-own-terms]], 414). Check: the days. Names: Rockefeller, Brownell, Hall, Alcorn, Rogers, Lefkowitz, Javits.'
+    src:
+      c: e17b15f0
+      rows:
+        - 'w.smith-on-his-own-terms 414: all'
+    tags: [name:rockefeller-nelson, name:brownell-herbert-jr, name:hall-leonard-w, name:alcorn-h-meade, name:rogers-william-p, name:lefkowitz-louis-j, name:javits-jacob-k]

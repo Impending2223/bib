@@ -86,8 +86,10 @@ entries:
     when: Mar. 2
     date: '1962-03-02'
     thread: testing
+    follows:
+      - cal.1962-03-02.robert-kennedy
     c: Television address. Atmospheric tests to resume in late April, absent a treaty with inspection.
-    n: 'Radio and Television Address to the American People: "Nuclear Testing and Disarmament", [1962 Pub. Papers 186](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=246) (Mar. 2, 1962). [[w.fursenko-one-hell-of-a]], 155; [[w.sorensen-kennedy]], 623–24; [[w.poole-joint-chiefs-of-staff]], 98. See [[cal.1961-09-01.testing]].'
+    n: 'Radio and Television Address to the American People: "Nuclear Testing and Disarmament", [1962 Pub. Papers 186](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=246) (Mar. 2, 1962). [[w.fursenko-one-hell-of-a]], 155; [[w.sorensen-kennedy]], 623–24; [[w.poole-joint-chiefs-of-staff]], 98. After [[cal.1962-03-02.robert-kennedy|Robert Kennedy''s talk with Bolshakov]], hours before the address. See [[cal.1961-09-01.testing]].'
     src:
       c: c5b98c93
       rows:
@@ -195,6 +197,17 @@ entries:
       c: f4fd64a9
       rows:
         - 'w.futrell-united-states-air-force 121–22: all'
+  - id: cal.1962-03-04.testing
+    when: Mar. 4
+    date: '1962-03-04'
+    thread: testing
+    c: 'New York, Times Square, the day after Kennedy''s announcement of atmospheric tests: some five thousand sit in against testing, defying the city''s new ban. Police wade in; over forty arrested.'
+    n: '[[w.debenedetti-american-ordeal]], 56. Check: DeBenedetti, 56, puts Kennedy''s announcement the day before, thirty-six tests over six months.'
+    src:
+      c: c1406320
+      rows:
+        - 'w.debenedetti-american-ordeal 56: all'
+    tags: [state:ny, city:nyc]
   - id: cal.1962-03-05.japan-and-korea
     when: Mar. 5
     date: '1962-03-05'
@@ -318,6 +331,39 @@ entries:
         - 'w.meltzer-history-of-the-federal 356–57: all'
         - 'via x.2010.meltzer-history-federal-reserve-p357: all'
     tags: [name:coombs-charles-a, name:balderston-c-canby]
+  - id: cal.1962-03-06.elections-1960-chicago
+    when: Mar. 6
+    date: '1962-03-06'
+    thread: elections-1960-chicago
+    c: Chicago. A precinct captain and two precinct workers of the 28th Ward, charged with changing ballots in the election of 1960, an election judge having told her priest, plead guilty; short jail terms. The FBI examined the ballots.
+    n: '[[w.cohen-american-pharaoh]], 278.'
+    src:
+      c: b3091a61
+      rows:
+        - 'w.cohen-american-pharaoh 278: all'
+    tags: [state:il, city:chicago]
+  - id: cal.1962-03-06.berlin-and-vienna
+    when: Mar. 6
+    date: '1962-03-06'
+    thread: berlin-and-vienna
+    c: 'State''s draft of a modus vivendi on Berlin: unimpeded Western access, civil and military; an understanding that force will not be used to "change the external borders of Germany or the demarcation line inside Germany."'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 167. To check: Kohler to Rusk, Mar. 10, 1962, with the draft modus vivendi, [FRUS 1961–63, XV, doc. 2](https://history.state.gov/historicaldocuments/frus1961-63v15/d2) (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 167 n.104).'
+    src:
+      c: f8ed3331
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 167: all'
+  - id: cal.1962-03-06.vietnam
+    when: Mar. 6
+    date: '1962-03-06'
+    thread: vietnam
+    c: 'McGarr''s valedictory to McNamara, with his report to CINCPAC for Sept. 2, 1961–Feb. 8, 1962: the political, psychological, economic and social work joined more and more to the military in the countryside; counterinsurgency planning in the MAAG''s Geographically Phased National Level Operations Plan; no national plan yet.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 279. To check: McGarr to McNamara, Mar. 6, 1962, with his report of Feb. 8, ISA files, Acc 65A-3501 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 279 n.71). Names: McGarr, McNamara.'
+    src:
+      c: 4836b6a7
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 279: all'
+        - 'via x.1962-03-06.mcgarr-to-mcnamara-valedictory: all'
+    tags: [name:mcgarr-lionel-c, name:mcnamara-robert-s]
   - id: cal.1962-03-07.opinion-5
     when: Mar. 7
     date: '1962-03-07'
@@ -496,9 +542,24 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 85: all'
     tags: [name:kennedy-john-f]
+  - id: cal.1962-03-09.berlin-and-vienna
+    when: Mar. 9
+    date: '1962-03-09'
+    thread: berlin-and-vienna
+    also: [soviet-union]
+    c: 'Kennedy to Rusk, for Geneva: draw Gromyko out on Soviet policy; develop "the draft proposal of a modus vivendi which has my approval," in writing at the right stage, the section on Germany left out at first, the allies, Bonn among them, to be consulted.'
+    n: 'Memorandum From President Kennedy to Secretary of State Rusk, [FRUS 1961–63, XV: Berlin Crisis, 1962–1963, doc. 1](https://history.state.gov/historicaldocuments/frus1961-63v15/d1) (Mar. 9, 1962). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 167 (the approval for Rusk''s talks). See [[cal.1962-03-06.berlin-and-vienna]]. Names: Kennedy, Rusk, Gromyko.'
+    src:
+      c: e18d9ebb
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v15/d1: all'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 167: A'
+        - 'via x.1962-03-09.kennedy-to-rusk-gromyko-talks: all'
+    tags: [name:kennedy-john-f, name:rusk-dean, name:gromyko-andrei]
   - id: cal.1962-03-11.berlin-and-vienna
     when: Mar. 11
     date: '1962-03-11'
+    time: 1962-03-11T18:30Z
     thread: berlin-and-vienna
     c: 'Geneva, after dinner: Rusk and Home to Gromyko on the harassment of the air corridors to Berlin, Soviet bombers dropping chaff three days before, flights filed for the hours of the Western airlines. Rusk: not tolerable; the United States would not shrink from the danger. Gromyko: the Soviet note answers it; the Soviet Union will look to its own interests and East Germany''s.'
     n: '[FRUS 1961–63, XV, doc. 7](https://history.state.gov/historicaldocuments/frus1961-63v15/d7). [[w.sorensen-kennedy]], 596 (the chaff). Check: Rusk has Home shout at Gromyko over the chaff, "This harassment has got to stop!", and the harassment end soon after, undated ([[w.rusk-as-i-saw-it-1990]], 225–26). Names: Rusk, Douglas-Home, Gromyko.'
@@ -569,7 +630,7 @@ entries:
     thread: cuba
     also: [robert-kennedy]
     c: 'Guidelines for Mongoose: hard intelligence the immediate priority; other actions short of those "reasonably calculated to inspire a revolt"; final success to require "decisive U.S. military intervention."'
-    n: '[FRUS 1961–63, X, doc. 314](https://history.state.gov/historicaldocuments/frus1961-63v10/d314); [S. Rep. No. 94-465, 145–147 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=156). [[w.schlesinger-robert-kennedy-and-his]], 477–78; [[w.bissell-reflections-of-a-cold]], 202 (the guidelines quoted); [[w.paterson-contesting-castro]], 260 n.36 ("final success will require decisive U.S. military intervention"); [[w.poole-joint-chiefs-of-staff]], 160 (Taylor''s revised guidelines, mid-March). [[w.fursenko-one-hell-of-a]], 158 (the program in two steps, a review in July). Check: Paterson has the words from "the chairman of the Joint Chiefs of Staff, General Maxwell Taylor," in the spring of 1962 (260); Taylor chaired the Joint Chiefs from Oct. 1, 1962 (Executive roster). To check: Bill Keller, "Papers Show 1962 U.S. Plan Against Castro," *New York Times*, Jan. 27, 1989 (cited by [[w.paterson-contesting-castro]], 260 n.36). See [[cal.1961-11-30.cuba]].'
+    n: '[FRUS 1961–63, X, doc. 314](https://history.state.gov/historicaldocuments/frus1961-63v10/d314); [S. Rep. No. 94-465, 145–147 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=156). [[w.schlesinger-robert-kennedy-and-his]], 477–78; [[w.bissell-reflections-of-a-cold]], 202 (the guidelines quoted); [[w.paterson-contesting-castro]], 260 n.36 ("final success will require decisive U.S. military intervention"); [[w.poole-joint-chiefs-of-staff]], 160 (Taylor''s revised guidelines, mid-March). [[w.fursenko-one-hell-of-a]], 158 (the program in two steps, a review in July). Check: Paterson has the words from "the chairman of the Joint Chiefs of Staff, General Maxwell Taylor," in the spring of 1962 (260); Taylor chaired the Joint Chiefs from Oct. 1, 1962 (Executive roster). To check: Bill Keller, "Papers Show 1962 U.S. Plan Against Castro," [*New York Times*, Jan. 27, 1989](https://timesmachine.nytimes.com/timesmachine/1989/01/27/issue.html) (cited by [[w.paterson-contesting-castro]], 260 n.36). See [[cal.1961-11-30.cuba]].'
     src:
       c: 29e5df12
       rows:
@@ -768,6 +829,18 @@ entries:
     n: 'Statement by the President on the French-Algerian Cease-fire Agreement, [1962 Pub. Papers 246](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=306) (Mar. 18, 1962). FRUS 1961–63, XXI, docs. [62](https://history.state.gov/historicaldocuments/frus1961-63v21/d62), [63](https://history.state.gov/historicaldocuments/frus1961-63v21/d63). To check: [[w.connelly-diplomatic-revolution]]; [[w.byrne-mecca-of-revolution]].'
     tags: [name:kennedy-john-f]
     short: Évian and Algeria's independence
+  - id: cal.1962-03-18.press-and-broadcasting
+    when: Mar. 18
+    date: '1962-03-18'
+    thread: press-and-broadcasting
+    also: [desegregation-schools]
+    c: The *Chicago Defender* calls for Willis's resignation.
+    n: '[[w.anderson-confronting-the-color-line]], 91. Names: Willis.'
+    src:
+      c: 5b8fb337
+      rows:
+        - 'w.anderson-confronting-the-color-line 91: all'
+    tags: [name:willis-benjamin-c, state:il, city:chicago]
   - id: cal.1962-03-19.european-community
     when: Mar. 19
     date: '1962-03-19'
@@ -871,7 +944,7 @@ entries:
     thread: defense
     also: [congress]
     c: The RS-70. Vinson's bill would "direct" bomber spending; after a Rose Garden walk with Kennedy, "authorize." The House takes "authorized" by voice vote and passes the $13.066 billion procurement authorization, 403 to 0.
-    n: '[108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt4/pdf/GPO-CRECB-1962-pt4-4-2.pdf) (1962). [House roll call 132](https://voteview.com/rollcall/RH0870132). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 105–6; [[w.poole-joint-chiefs-of-staff]], 43. [[w.sorensen-kennedy]], 347–48 (the bill and the walk). To check: [[w.kaplan-wizards-of-armageddon]]; the accounts of the walk, *New York Times*, Mar. 23, 1962, *Washington Post*, Mar. 22, 1962, and O''Brien''s oral history, Oct. 30, 1985, LBJ Library (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 105 nn.34–35). See [[cal.1961-02-06.defense]]. Names: Vinson, LeMay. Check: the page.'
+    n: '[108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt4/pdf/GPO-CRECB-1962-pt4-4-2.pdf) (1962). [House roll call 132](https://voteview.com/rollcall/RH0870132). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 105–6; [[w.poole-joint-chiefs-of-staff]], 43. [[w.sorensen-kennedy]], 347–48 (the bill and the walk). To check: [[w.kaplan-wizards-of-armageddon]]; the accounts of the walk, [*New York Times*, Mar. 23, 1962](https://timesmachine.nytimes.com/timesmachine/1962/03/23/issue.html), *Washington Post*, Mar. 22, 1962, and O''Brien''s oral history, Oct. 30, 1985, LBJ Library (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 105 nn.34–35). See [[cal.1961-02-06.defense]]. Names: Vinson, LeMay. Check: the page.'
     src:
       c: 072c63a5
       rows:
@@ -902,6 +975,7 @@ entries:
   - id: cal.1962-03-21.cuba-bay-of-pigs
     when: Mar. 21
     date: '1962-03-21'
+    time: 1962-03-21T21:00Z
     thread: cuba-bay-of-pigs
     c: 'Press conference. Asked whether the CIA should have briefed him on the Cuban operation in 1960, Kennedy: the statements of the White House and Dulles "very clear"; "I think that closes the matter as far as I''m concerned."'
     n: 'The President''s News Conference of March 21, 1962, [1962 Pub. Papers 254](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=314), 256. See [[cal.1962-03-20.cuba-bay-of-pigs]]. Names: Kennedy, Dulles.'
@@ -954,6 +1028,18 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 134: all'
     tags: [name:mcnamara-robert-s, name:lemnitzer-lyman-l, name:decker-george-h, name:felt-harry-d]
+  - id: cal.1962-03-21.cuba-3
+    when: Mar. 21
+    date: '1962-03-21'
+    thread: cuba
+    also: [intelligence]
+    c: NIE 85-62, "The Situation and Prospects in Cuba." Cuba "behind an iron curtain." Castro keeps the positive support of at least a quarter of the population. Active resistance "limited, uncoordinated, unsupported, and desperate"; the regime can contain it. Bloc strategic weapons, or combat units, in Cuba unlikely.
+    n: 'National Intelligence Estimate, [FRUS 1961–63, X: Cuba, January 1961–September 1962, doc. 315](https://history.state.gov/historicaldocuments/frus1961-63v10/d315) (Mar. 21, 1962). [[w.thomas-robert-kennedy]], 176 (an internal uprising highly unlikely; Kennedy refused to believe it).'
+    src:
+      c: 11c69606
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d315: all'
+        - 'w.thomas-robert-kennedy 176: D-E'
   - id: cal.1962-03-22.vietnam
     when: Mar. 22
     date: '1962-03-22'
@@ -997,8 +1083,10 @@ entries:
     when: Mar. 22
     date: '1962-03-22'
     thread: transition-and-staff
+    follows:
+      - cal.1962-03-22.transition-and-staff
     c: 'After Hoover''s lunch, Kennedy to O''Donnell: "Get rid of that bastard. He''s the biggest bore." He will stay with Bing Crosby, not Sinatra, at Palm Springs, and breaks off with Sinatra.'
-    n: '[[w.branch-parting-the-waters]], 569; [[w.thomas-robert-kennedy]], 169 ("Get rid of that bastard. He''s the biggest bore."). Check: Thomas puts the change to Crosby in early March, the Palm Springs police told, and Robert Kennedy''s call to Sinatra before the lunch (168–69). To check: Summers, *Goddess*, 257–58 (the remark); Collier and Horowitz, *The Kennedys*, 295, 338; [[w.schlesinger-robert-kennedy-and-his]], 532–34 (Palm Springs) (cited by [[w.branch-parting-the-waters]], 569 nn.4, 6). Check: the day of the decision on Palm Springs. See [[cal.1962-03-22.transition-and-staff]]. Names: Kennedy, Hoover, O''Donnell.'
+    n: '[[w.branch-parting-the-waters]], 569; [[w.thomas-robert-kennedy]], 169 ("Get rid of that bastard. He''s the biggest bore."). Check: Thomas puts the change to Crosby in early March, the Palm Springs police told, and Robert Kennedy''s call to Sinatra before the lunch (168–69). After the lunch: [[w.branch-parting-the-waters]], 569. To check: Summers, *Goddess*, 257–58 (the remark); Collier and Horowitz, *The Kennedys*, 295, 338; [[w.schlesinger-robert-kennedy-and-his]], 532–34 (Palm Springs) (cited by [[w.branch-parting-the-waters]], 569 nn.4, 6). Check: the day of the decision on Palm Springs. See [[cal.1962-03-22.transition-and-staff]]. Names: Kennedy, Hoover, O''Donnell.'
     src:
       c: 4d641cf3
       rows:
@@ -1018,6 +1106,18 @@ entries:
       rows:
         - 'w.futrell-united-states-air-force 129, 131: all'
     tags: [name:ngo-dinh-diem]
+  - id: cal.1962-03-23.students
+    when: Mar. 23
+    date: '1962-03-23'
+    thread: students
+    c: 'Berkeley, Memorial Stadium, the Charter Day address before 92,000: "the New Frontier owes as much to Berkeley as it does to Harvard University."'
+    n: 'Address in Berkeley at the University of California, [1962 Pub. Papers 263](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=323) (Mar. 23, 1962). [[w.bernstein-guns-or-butter]], 401 (the crowd''s size). Names: Kennedy.'
+    src:
+      c: 647437c9
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=323: all'
+        - 'w.bernstein-guns-or-butter 401: all'
+    tags: [name:kennedy-john-f, city:berkeley, state:ca]
   - id: cal.1962-03-24.king
     when: Mar. 24
     date: '1962-03-24'
@@ -1031,6 +1131,33 @@ entries:
         - 'w.branch-parting-the-waters 579: all'
         - 'via w.branch-parting-the-waters 579 n.1: all'
     tags: [name:king-martin-luther-jr, name:abernathy-ralph-david, state:va]
+  - id: cal.1962-03-24.desegregation-schools
+    when: Mar. 24
+    date: '1962-03-24'
+    thread: desegregation-schools
+    also: [civil-rights-organizations]
+    c: Chicago. A citywide seminar, the Urban League's and a "committee of PTA leaders," "How to Achieve Quality and Equality of Education in Chicago Public Schools." Dan W. Dodson of New York University against the neighborhood school. The resolution asks the mayor to appoint board members "committed to providing a policy of integration of the schools."
+    n: '[[w.anderson-confronting-the-color-line]], 89–90. To check: Chicago Sun-Times, 25 March 1962 (cited by [[w.anderson-confronting-the-color-line]], 90 n.46); Chicago Sun-Times, 25 March 1962 (cited by [[w.anderson-confronting-the-color-line]], 90 n.47).'
+    src:
+      c: 2c47e29d
+      rows:
+        - 'w.anderson-confronting-the-color-line 89–90: all'
+        - 'via w.anderson-confronting-the-color-line 90 n.46: all'
+        - 'via w.anderson-confronting-the-color-line 90 n.47: all'
+    tags: [state:il, city:chicago]
+  - id: cal.1962-03-25.cuba
+    when: Mar. 25
+    date: '1962-03-25'
+    thread: cuba
+    also: [robert-kennedy]
+    c: The Caribbean Survey Group, with Helms, Harvey, State and Defense. Robert Kennedy presses; asks the chances of "kidnapping some key people in the communist regime."
+    n: '[[w.thomas-robert-kennedy]], 420 (the minutes, by Thomas''s note to p. 152). To check: Minutes of Mar. 25, 1962, Caribbean Survey Group meeting, courtesy of Maria Torrez, FOIA request (cited by [[w.thomas-robert-kennedy]], 420). Names: Helms, Harvey, Robert Kennedy.'
+    src:
+      c: e9ea5bae
+      rows:
+        - 'w.thomas-robert-kennedy 420: all'
+        - 'via x.1962-03-25.caribbean-survey-group-minutes: all'
+    tags: [name:helms-richard, name:harvey-william-k, name:kennedy-robert-f]
   - id: cal.1962-03-26.court
     when: Mar. 26
     date: '1962-03-26'
@@ -1253,16 +1380,16 @@ entries:
     date: '1962-03-29'
     thread: intelligence
     c: The Senate Armed Services Committee hears Marshall S. Carter on his nomination as Deputy Director of Central Intelligence.
-    n: '[*Maj. Gen. Marshall S. Carter, Deputy Director, CIA: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg82275), 4. Names: Carter.'
+    n: '*Maj. Gen. Marshall S. Carter, Deputy Director, CIA: Hearing Before the S. Comm. on Armed Services*, 87th Cong. (1962) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg82275)), 4. Names: Carter.'
     tags: [name:carter-marshall-s]
   - id: cal.1962-03-30.court
     when: Mar. 30
     date: '1962-03-30'
     thread: court
-    c: Whittaker retires. White named; confirmed Apr. 11.
-    n: 'The hearing: [*Nomination of Byron R. White: Hearing Before the S. Comm. on Judiciary*, 87th Cong. (1962)](https://www.govinfo.gov/app/details/CHRG-87shrg85587), 21 (White, Apr. 11). Statement by the President Upon Appointing Byron White to the Supreme Court, [1962 Pub. Papers 283](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=343) (Mar. 30, 1962). [108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt5/pdf/GPO-CRECB-1962-pt5-6-1.pdf) (1962). [[w.schlesinger-robert-kennedy-and-his]], 376–78 (the choice; the President''s call to White, by Schlesinger''s journal); [[w.sorensen-kennedy]], 273 (White named). [[w.clifford-counsel-to-the-president-2]], 374–75 (Clifford''s advice of Mar. 20; Hastie and Freund considered; White named ten days later). To check: [[w.hutchinson-man-who-once-was]]. See [[cal.1961-01-23.court]]. Names: White, Whittaker. Check: the page.'
+    c: Whittaker retires. White named Associate Justice; confirmed Apr. 11.
+    n: 'The hearing: *Nomination of Byron R. White: Hearing Before the S. Comm. on Judiciary*, 87th Cong. (1962) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg85587)), 21 (White, Apr. 11). Statement by the President Upon Appointing Byron White to the Supreme Court, [1962 Pub. Papers 283](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=343) (Mar. 30, 1962). [108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt5/pdf/GPO-CRECB-1962-pt5-6-1.pdf) (1962). [[w.schlesinger-robert-kennedy-and-his]], 376–78 (the choice; the President''s call to White, by Schlesinger''s journal); [[w.sorensen-kennedy]], 273 (White named). [[w.clifford-counsel-to-the-president-2]], 374–75 (Clifford''s advice of Mar. 20; Hastie and Freund considered; White named ten days later). To check: [[w.hutchinson-man-who-once-was]]. See [[cal.1961-01-23.court]]. Names: White, Whittaker. Check: the page.'
     src:
-      c: 4b642020
+      c: 607352f7
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=343: all'
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt5/pdf/GPO-CRECB-1962-pt5-6-1.pdf: all'
@@ -1449,11 +1576,12 @@ entries:
     date: 1962-03
     thread: desegregation-schools
     c: 'Ribicoff, Secretary of Health, Education and Welfare: under the impacted-area laws of 1950 the government may build schools on federal property where no "suitable" school is near; "suitable" now to mean desegregated. Burke Marshall: suits to desegregate the impacted districts would follow.'
-    n: '[[w.mann-walls-of-jericho]], 327. Check: the day. Names: Ribicoff, Burke Marshall.'
+    n: '[[w.mann-walls-of-jericho]], 327; [[w.graham-uncertain-triumph]], 32 (from September 1963 HEW to withhold impacted-areas funds from segregated schools). Check: the day. Names: Ribicoff, Burke Marshall.'
     src:
       c: 065a4fb1
       rows:
         - 'w.mann-walls-of-jericho 327: all'
+        - 'w.graham-uncertain-triumph 32: A'
     tags: [name:ribicoff-abraham, name:marshall-burke]
   - id: cal.1962-03.cuba
     when: Mar.
@@ -1585,12 +1713,13 @@ entries:
     thread: cuba
     also: [soviet-union, latin-america]
     c: 'Valdés, the Interior Minister, in Moscow: for the Cuban leadership, a Soviet intelligence center in Cuba to give "active support to revolutionary movements in the countries of Latin America"; Castro thinks the time ripe for an offensive. Back in Havana, told by Alekseyev it would give Washington a pretext: "Cuba is already accused of all sorts of sins."'
-    n: '[[w.fursenko-one-hell-of-a]], 168–69 (by the KGB''s account). To check: N. Zakharov to the CC, on the Cuban leadership and the national liberation movement in Latin America, SVR (cited by [[w.fursenko-one-hell-of-a]], 168 n.5); Semichastny to the CC, Apr. 4, 1962, file 88497, vol. 1, SVR (cited by [[w.fursenko-one-hell-of-a]], 169 n.7, n.11). Names: Castro.'
+    n: '[[w.fursenko-one-hell-of-a]], 168–69 (by the KGB''s account); [[w.fursenko-khrushchevs-cold-war]], 428 (Valdés asks the KGB for a center to train Latin American guerrillas; "We do not help national-liberation movements"). Check: Fursenko and Naftali (2006) put Valdés''s visit and the KGB''s answer in April (428). To check: N. Zakharov to the CC, on the Cuban leadership and the national liberation movement in Latin America, SVR (cited by [[w.fursenko-one-hell-of-a]], 168 n.5); Semichastny to the CC, Apr. 4, 1962, file 88497, vol. 1, SVR (cited by [[w.fursenko-one-hell-of-a]], 169 n.7, n.11). Names: Castro.'
     src:
       c: 25c22171
       rows:
         - 'w.fursenko-one-hell-of-a 168–69: all'
         - 'via w.fursenko-one-hell-of-a 169 n.7: all'
+        - 'w.fursenko-khrushchevs-cold-war 428: A'
     tags: [name:castro-fidel]
   - id: cal.1962-03.latin-america
     when: Mar.
@@ -1686,11 +1815,12 @@ entries:
     date: 1962-03
     thread: europe-and-the-alliance
     c: 'Taylor, Military Representative of the President, tours the European capitals. Norstad: to present "our reoriented thinking" as new would bring its rejection. Taylor then proposes NATO review the forces a forward strategy needs; McNamara concurs.'
-    n: '[[w.poole-joint-chiefs-of-staff]], 191. Names: Taylor, Norstad, McNamara.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 191; [[w.taylor-swords-and-plowshares]], 212–15 (two weeks in March, France, Germany, England and Italy; the report to the President; Rusk''s and McNamara''s answers, McNamara for the review in midsummer). Names: Taylor, Norstad, McNamara.'
     src:
       c: 925ef7ca
       rows:
         - 'w.poole-joint-chiefs-of-staff 191: all'
+        - 'w.taylor-swords-and-plowshares 212–15: A, C-D'
     tags: [name:taylor-maxwell, name:norstad-lauris, name:mcnamara-robert-s]
   - id: cal.1962-03.europe-and-the-alliance-2
     when: Mar., mid-month
@@ -1733,3 +1863,58 @@ entries:
       c: faaa6f26
       rows:
         - 'w.meltzer-history-of-the-federal 359–60: all'
+  - id: cal.1962-03.desegregation-schools-2
+    when: Mar.
+    date: 1962-03
+    thread: desegregation-schools
+    c: Chicago. The Chicago Urban League's citywide conference on "quality and equality" in the schools.
+    n: '[[w.cohen-american-pharaoh]], 285. Check: the day.'
+    src:
+      c: 3fff5b49
+      rows:
+        - 'w.cohen-american-pharaoh 285: all'
+    tags: [state:il, city:chicago]
+  - id: cal.1962-03.congo
+    when: Mar.
+    date: 1962-03
+    thread: congo
+    also: [conservative-movement]
+    c: State refuses Tshombe a visa for his American tour, the Young Americans for Freedom's rally at Madison Square Garden among its engagements.
+    n: '[[w.perlstein-before-the-storm]], 163. To check: [[w.bill-george-ball]], 137–50; [[w.andrew-other-side-of-the]], 138–39 (cited by [[w.perlstein-before-the-storm]], 163 n.2). Check: the day and the month; Perlstein: "as the date for Tshombe''s junket approached," before the rally of Mar. 7. See [[cal.1962-03-07.goldwater]]. Names: Tshombe.'
+    src:
+      c: c2497428
+      rows:
+        - 'w.perlstein-before-the-storm 163: all'
+    tags: [name:tshombe-moise]
+  - id: cal.1962-03.testing
+    when: Mar.
+    date: 1962-03
+    thread: testing
+    also: [students]
+    c: 'After the announcement of the test series: the Student Peace Union demonstrates at the United Nations.'
+    n: '[[w.debenedetti-american-ordeal]], 56. Check: the day.'
+    src:
+      c: 7e04edce
+      rows:
+        - 'w.debenedetti-american-ordeal 56: all'
+  - id: cal.1962-03.testing-2
+    when: Mar.
+    date: 1962-03
+    thread: testing
+    also: [women]
+    c: 'After the announcement of the test series: Women Strike for Peace pickets the White House and the Atomic Energy Commission''s headquarters.'
+    n: '[[w.debenedetti-american-ordeal]], 56. Check: the days.'
+    src:
+      c: 6d4c3a18
+      rows:
+        - 'w.debenedetti-american-ordeal 56: all'
+  - id: cal.1962-03.testing-3
+    when: Mar.
+    date: 1962-03
+    thread: testing
+    c: The American Association for the United Nations among the many organizations petitioning Kennedy to cancel the test series; faculty groups at Cornell, Yale and Midwestern colleges ask the same in newspaper advertisements.
+    n: '[[w.debenedetti-american-ordeal]], 56. Check: the days.'
+    src:
+      c: 46ca4e93
+      rows:
+        - 'w.debenedetti-american-ordeal 56: all'

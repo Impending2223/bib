@@ -77,10 +77,12 @@ STYLE:
  15. Opinions, in the Documents block after FRUS and before the recordings: the opinions of the Attorney General and
     the Office of Legal Counsel of the day, from daybook/opinions.yaml (kept by hand; rendered by tools/bib/opinions.py,
     its STYLE notes): the signer, the title linked to the copy read, the cite in grey, the addressee, the holding.
- 16. Sunday (the owner's choice, Nov. 4, 2026, from the preview of treatments): the whole day, from its rule to
-    Monday's, its heading and entries, on a faint cool wash (--sunwash: #E3EBEF; dark #1D2A31), carried past the
-    column's edges as a lit entry is (.515em), so the week's end shows while scrolling without a title, a rule or a
-    color of prominence; a lit thread's entry keeps its white over it (calsplit STYLE 7). Not the month's undated block.
+ 16. The week (the owner's ruling, Nov. 5, 2026: "Yes, by the MMWR week in a heading above each Sunday. The week
+    heading should be one 'h' above the month heading (e.g., an h3 week to an h2 month), and styled accordingly.
+    Remove the teal wash on Sundays."): above each Sunday a heading a level under the month's, "Week 12", the MMWR
+    week (Sunday to Saturday; week 1 the first with four days in the year, so the week of Jan. 4: mmwr_week), its
+    year added where it is not the Sunday's ("Week 1 of 1963" on Dec. 30, 1962), the week's span on hover, anchored
+    `wk<date>`; the template's heading style, with the day's rule under it dropped. The Sunday wash of Nov. 4 is gone.
 """
 import calendar
 import datetime
@@ -442,6 +444,17 @@ def docs_html(docs, ab, iso=None):
 
 # ---------------------------------------------------------------- a month, by day
 
+def mmwr_week(d):
+    """(week, year) of the MMWR week holding day d: weeks run Sunday to Saturday; week 1 of a year is the first that
+    has four of its days in the year, so the year the week's Wednesday falls in (MMWR, Jan. 6, 1965, p. 472;
+    notes/extensions/memos/week-numbering.md)."""
+    sun = d - datetime.timedelta(days=(d.weekday() + 1) % 7)
+    y = (sun + datetime.timedelta(days=3)).year
+    jan4 = datetime.date(y, 1, 4)
+    first = jan4 - datetime.timedelta(days=(jan4.weekday() + 1) % 7)
+    return (sun - first).days // 7 + 1, y
+
+
 def section_days(lst, sec, entry_li, thread_name):
     """HTML for a dated calendar section, laid out by day. entry_li(e, rubric_html) -> '<li ...>'."""
     docs, ab = load()
@@ -470,8 +483,15 @@ def section_days(lst, sec, entry_li, thread_name):
         out.append(f'<div class="day mo"><div class="dh"><span class="dn">{esc(calendar.month_name[lo.month])}</span></div>'
                    '<ol class="e">' + "".join(entry_li(e, rubric(lst, e, thread_name)) for e in undated) + "</ol></div>")
     d = lo
+    wtag = f"h{min(sec.level + 1, 5)}"   # the week a level under the month (STYLE 16)
     while d <= hi:
         iso = d.isoformat()
+        if d.weekday() == 6:                 # the MMWR week's heading above its Sunday (STYLE 16)
+            n, y = mmwr_week(d)
+            sat = d + datetime.timedelta(days=6)
+            tip = (f"MMWR week {n} of {y}: Sunday, {day_label(d, True)}, to Saturday, {day_label(sat, True)}")
+            out.append(f'<{wtag} class="wk" id="wk{iso}" data-short="Week {n}" title="{esc(tip)}">Week {n}'
+                       f'{f" of {y}" if y != d.year else ""}</{wtag}>')
         h = [f'<div class="day{" sun" if d.weekday() == 6 else ""}" id="d{iso}"><div class="dh" role="heading" aria-level="4">'
              f'<span class="dn">{calendar.day_name[d.weekday()]}, {esc(day_label(d, d.year != lo.year))}</span>']
         if NO_TIMES[0] <= d <= NO_TIMES[1]:
@@ -497,11 +517,9 @@ def section_days(lst, sec, entry_li, thread_name):
 
 
 STYLE = """<style>
-:root{--sunwash:#E3EBEF}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--sunwash:#1D2A31}}
-:root[data-theme="dark"]{--sunwash:#1D2A31}
 .day{padding:.55rem 0 .35rem;border-top:1px solid var(--rule)}
-.day.sun{background:var(--sunwash);box-shadow:-.515em 0 0 var(--sunwash),.515em 0 0 var(--sunwash)}
+.wk{margin:1.6rem 0 0;padding-top:.5rem}
+.wk+.day{border-top:0}
 .day .dh{display:flex;flex-direction:column;font-family:var(--sans);line-height:1.3}
 .day .dn{font-weight:700;font-size:.92rem}
 .day .tm{font-size:.78rem;color:var(--muted);margin-top:.05rem}

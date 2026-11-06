@@ -22,6 +22,8 @@ entries:
     when: June 1
     date: '1967-06-01'
     thread: state-and-city-finance
+    follows:
+      - cal.1967-06-01.state-and-city-finance-mn
     c: 'Minnesota''s first sales tax. The legislature passes H.F. 27 over LeVander''s veto the same day: the Tax Reform and Relief Act of 1967, a tax of 3 percent on retail sales made after July 31, 1967, with relief from the property tax for owners and renters.'
     n: '*Laws of Minnesota for 1967*, Extra Session, ch. 32, art. XIII, § 2, [p. 2179](https://www.revisor.mn.gov/laws/1967/1/Session+Law/Chapter/32/pdf/#page=37); "Passed notwithstanding governor''s veto June 1, 1967," [p. 2210](https://www.revisor.mn.gov/laws/1967/1/Session+Law/Chapter/32/pdf/#page=68). See [[cal.1967-06-01.state-and-city-finance-mn]]. Names: LeVander.'
     tags: [state:mn, name:levander-harold]
@@ -81,6 +83,17 @@ entries:
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 436: all'
     tags: [name:rusk-dean, name:mcnamara-robert-s]
+  - id: cal.1967-06-01.war-opposition
+    when: June 1
+    date: '1967-06-01'
+    thread: war-opposition
+    c: Vietnam Veterans Against the War founded by Barry and five other veterans.
+    n: '[[w.wells-war-within]], 139, 141; [[w.debenedetti-american-ordeal]], 194 (Vietnam Veterans Against the War among the fall''s new groups). See [[cal.1967-04-15.war-opposition]].'
+    src:
+      c: 65e92eed
+      rows:
+        - 'w.wells-war-within 139, 141: all'
+        - 'w.debenedetti-american-ordeal 194: ?'
   - id: cal.1967-06-02.vietnam
     when: June 2–3
     date: '1967-06-02'
@@ -93,6 +106,7 @@ entries:
   - id: cal.1967-06-02.middle-east
     when: June 2
     date: '1967-06-02'
+    time: 1967-06-02T15:25Z
     thread: middle-east-six-day-war
     also: [europe-and-the-alliance]
     c: Wilson at the White House.
@@ -156,7 +170,7 @@ entries:
     thread: democratic-party
     also: [robert-kennedy, middle-east]
     c: 'New York, the New York State Democratic dinner. Johnson on the Middle East: in close touch with the leaders of both parties in Congress; all help to the Security Council. Robert Kennedy on Johnson: "He has gained huge popularity, but he has never failed to spend it in the pursuit of his beliefs or in the interest of his country."'
-    n: '[[w.johnson-vantage-point]], 111, 296 (Johnson''s words, quoted at 296; Kennedy''s at 111); [[w.palermo-in-his-own-right]], 64–65 (Kennedy''s introduction, given after Johnson had spoken, he having come from a funeral in England; some 1,400 protesting outside the Americana; the words); [[w.shesol-mutual-contempt]], 397 (Kennedy late from a funeral in London, too late to introduce Johnson; drafts by Sorensen and Walinsky: "the height of his aim"; "with our help he will do so again in 1968"). To check: Remarks in New York City at the New York State Democratic Dinner, [APP](https://www.presidency.ucsb.edu/documents/remarks-new-york-city-the-new-york-state-democratic-dinner); Kennedy''s remarks at the Democratic State Committee dinner, Americana Hotel, June 3, 1967, WHFN, LBJ Library (cited by [[w.palermo-in-his-own-right]], 65 n.29); *New York Times*, June 4, 1967, 1 (cited by [[w.palermo-in-his-own-right]], 64 n.27). See [[cal.1967-06-03.middle-east]]. Names: Johnson, Robert Kennedy. Check: Palermo, 65, from the text of the remarks (n.29), has "or the interest of his country."'
+    n: '[[w.johnson-vantage-point]], 111, 296 (Johnson''s words, quoted at 296; Kennedy''s at 111); [[w.palermo-in-his-own-right]], 64–65 (Kennedy''s introduction, given after Johnson had spoken, he having come from a funeral in England; some 1,400 protesting outside the Americana; the words); [[w.shesol-mutual-contempt]], 397 (Kennedy late from a funeral in London, too late to introduce Johnson; drafts by Sorensen and Walinsky: "the height of his aim"; "with our help he will do so again in 1968"). To check: Remarks in New York City at the New York State Democratic Dinner, [APP](https://www.presidency.ucsb.edu/documents/remarks-new-york-city-the-new-york-state-democratic-dinner); Kennedy''s remarks at the Democratic State Committee dinner, Americana Hotel, June 3, 1967, WHFN, LBJ Library (cited by [[w.palermo-in-his-own-right]], 65 n.29); [*New York Times*, June 4, 1967](https://timesmachine.nytimes.com/timesmachine/1967/06/04/issue.html), 1 (cited by [[w.palermo-in-his-own-right]], 64 n.27). See [[cal.1967-06-03.middle-east]]. Names: Johnson, Robert Kennedy. Check: Palermo, 65, from the text of the remarks (n.29), has "or the interest of his country."'
     src:
       c: 6f10e228
       rows:
@@ -172,6 +186,8 @@ entries:
     date: '1967-06-03'
     thread: democratic-party
     also: [robert-kennedy, middle-east]
+    follows:
+      - cal.1967-06-03.democratic-party
     c: New York, after the dinner. Robert Kennedy rides with Johnson and Harriman in the President's car to the President's Club ball at the Waldorf-Astoria, closed to the press, for givers of $1,000 or more, and sits at Johnson's table. Johnson's speech there strikes themes for 1968 and speaks at length of support for Israel.
     n: '[[w.palermo-in-his-own-right]], 66. See [[cal.1967-06-03.democratic-party]]. Names: Robert Kennedy, Johnson, Harriman. Check: Palermo quotes the Daily Diary on Johnson dancing "the greater part of the evening" (66, n.35, "Ibid."; the record not identified).'
     src:
@@ -247,15 +263,22 @@ entries:
     date: '1967-06-05'
     thread: states-and-cities
     c: Tierra Amarilla, N.M. Tijerina's Alianza raids the Rio Arriba County courthouse to free members arrested June 3 at Coyote, N.M., and arrest the district attorney; a jailer shot, a deputy hurt, two men taken. Lieutenant Governor Francis calls out the Guard; the largest manhunt in the State's history. Tijerina taken days later.
-    n: '[Wikipedia, "Reies Tijerina"](https://en.wikipedia.org/wiki/Reies_Tijerina); Check: the State''s charges (54 counts) and the Guard''s order. To check: [[w.nabokov-tijerina-and-the-courthouse]]; [[w.gardner-grito]]; [[w.peirce-mountain-states-of-america]]. Names: Tijerina, Francis. Check: whether Cargo was out of the State.'
+    n: '[Wikipedia, "Reies Tijerina"](https://en.wikipedia.org/wiki/Reies_Tijerina); Check: the State''s charges (54 counts) and the Guard''s order. [[w.peirce-mountain-states-of-america]], 263 (the raid; two officers shot and wounded, two hostages taken; the manhunt with the Guard''s armored vehicles). To check: [[w.nabokov-tijerina-and-the-courthouse]]; [[w.gardner-grito]]. Names: Tijerina, Francis. Check: whether Cargo was out of the State.'
+    src:
+      c: 366e55f6
+      rows:
+        - 'https://en.wikipedia.org/wiki/Reies_Tijerina: all'
+        - 'w.peirce-mountain-states-of-america 263: A, B'
     tags: [state:nm, name:tijerina-reies-lopez, name:francis-e-lee]
     short: Tierra Amarilla
   - id: cal.1967-06-05.middle-east-six-day-war-2
     when: June 5
     date: '1967-06-05'
     thread: middle-east-six-day-war
+    follows:
+      - cal.1967-06-05.middle-east
     c: 'Early morning. Rostow to Ball in Chicago by telephone: "Do you know there''s a war on?" Johnson wants McGeorge Bundy and Ball in Washington that afternoon; Ball, with speeches at noon and in the evening, stays. Bundy becomes executive secretary of the NSC''s Special Committee for the Middle East.'
-    n: '[[w.ball-past-has-another-pattern]], 434. Names: Rostow, Ball, Johnson, McGeorge Bundy.'
+    n: '[[w.ball-past-has-another-pattern]], 434. Order: after the war''s opening, by Rostow''s question. Names: Rostow, Ball, Johnson, McGeorge Bundy.'
     src:
       c: a792f16f
       rows:
@@ -265,8 +288,10 @@ entries:
     when: June 5
     date: '1967-06-05'
     thread: middle-east-six-day-war
+    follows:
+      - cal.1967-06-05.middle-east
     c: 'Tel Aviv. McPherson, sent on from Saigon to carry Johnson''s concern to Eshkol, with Barbour and Amit: the Egyptian buildup in Sinai, shelling of the Negev; no need to go to the shelter. By McPherson''s account, the general''s calm tells them the Egyptian air force is destroyed. Telegram 3937.'
-    n: 'FRUS 1964–68, XIX, doc. [158](https://history.state.gov/historicaldocuments/frus1964-68v19/d158) (its note: telegram 3937 from Tel Aviv, June 5, the meeting of Amit, Barbour and McPherson). [[w.mcpherson-political-education]], 413–15 (the meeting; McPherson''s inference). Check: McPherson dates his arrival June 6 (414). See [[cal.1967-06-05.middle-east]]. Names: McPherson, Johnson, Eshkol, Barbour.'
+    n: 'FRUS 1964–68, XIX, doc. [158](https://history.state.gov/historicaldocuments/frus1964-68v19/d158) (its note: telegram 3937 from Tel Aviv, June 5, the meeting of Amit, Barbour and McPherson). [[w.mcpherson-political-education]], 413–15 (the meeting; McPherson''s inference). Check: McPherson dates his arrival June 6 (414). Order: after the morning''s strikes, by McPherson''s account. See [[cal.1967-06-05.middle-east]]. Names: McPherson, Johnson, Eshkol, Barbour.'
     src:
       c: c9e46438
       rows:
@@ -311,6 +336,29 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 713 n: all'
         - 'via x.1967-06-05.holbrooke-to-leonhart-some-observations-about: all'
     tags: [name:holbrooke-richard-c, name:leonhart-william]
+  - id: cal.1967-06-05.conservation
+    when: June 5
+    date: '1967-06-05'
+    thread: conservation
+    c: '*Udall v. Federal Power Commission*, [387 U.S. 428](https://tile.loc.gov/storage-services/service/ll/usrep/usrep387/usrep387428/usrep387428.pdf): the Commission''s license to Pacific Northwest Power for a dam at High Mountain Sheep, on the Snake, set aside; whether the United States should build it, the public interest in wild rivers, fish and wildlife, and other sources of power unexplored. "The test is whether the project will be in the public interest." Douglas for the Court; Harlan, with Stewart, dissents; Fortas not sitting.'
+    n: '*Udall v. Federal Power Commission*, [387 U.S. 428](https://tile.loc.gov/storage-services/service/ll/usrep/usrep387/usrep387428/usrep387428.pdf), 450 (the test) (1967). [[w.peirce-mountain-states-of-america]], 146–47 (the Commission''s approval, 1964; Interior''s challenge; the decision). Check: Peirce, 147, gives the decision 7–2. Names: Douglas.'
+    src:
+      c: b4dc5e56
+      rows:
+        - 'https://tile.loc.gov/storage-services/service/ll/usrep/usrep387/usrep387428/usrep387428.pdf: all'
+        - 'w.peirce-mountain-states-of-america 146–47: B, D, E'
+    tags: [state:id, state:or, name:douglas-william-o]
+  - id: cal.1967-06-05.open-housing
+    when: June 5
+    date: '1967-06-05'
+    thread: open-housing
+    c: 'Chicago, the Hilton. The Leadership Council for Metropolitan Open Communities'' luncheon, 1,300, for Project: Good Neighbor; Daley speaks. An ordinance of six aldermen, offered late in April, to reach every seller and renter, has no machine support; Ray Simon, the corporation counsel: the city lacks the power.'
+    n: '[[w.cohen-american-pharaoh]], 440. Names: Daley.'
+    src:
+      c: 65d05e86
+      rows:
+        - 'w.cohen-american-pharaoh 440: all'
+    tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1967-06-06.middle-east
     when: June 6
     date: '1967-06-06'
@@ -382,7 +430,7 @@ entries:
     thread: vietnam-congress-foreign-relations
     also: [vietnam-elections]
     c: 'Fulbright in the Senate puts in the Legislative Reference Service''s comparison of South Vietnam''s new constitution with that of 1956: "little reason for optimism"; it "only perpetuates the political grievances of a decade ago"; "under the guise of protecting the ''national interest,''" political life to be "regulated to suit the whim of the government in power."'
-    n: '[113 Cong. Rec. 14758](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt11/pdf/GPO-CRECB-1967-pt11-6-1.pdf#page=34) (1967) (Senate, June 6, 1967). [[w.woods-j-william-fulbright-vietnam]], 157 (Fulbright''s warning to the Senate). Names: Fulbright.'
+    n: '[113 Cong. Rec. 14,758](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt11/pdf/GPO-CRECB-1967-pt11-6-1.pdf#page=34) (1967) (Senate, June 6, 1967). [[w.woods-j-william-fulbright-vietnam]], 157 (Fulbright''s warning to the Senate). Names: Fulbright.'
     src:
       c: e8889c19
       rows:
@@ -482,6 +530,7 @@ entries:
   - id: cal.1967-06-07.middle-east-six-day-war-3
     when: June 7
     date: '1967-06-07'
+    time: 1967-06-07T22:30Z
     thread: middle-east-six-day-war
     c: McDonald worried for the *Liberty*, the Joint Reconnaissance Center sends USCINCEUR, 6:30 p.m. Washington time, an order keeping her 15 miles from Israel and 20 from Egypt. Misrouted by the Army Communications Center to a naval station, it reaches USCINCEUR at 4:11 a.m. June 8, the Sixth Fleet at 6:55; the ship never has it.
     n: '[[w.poole-joint-chiefs-of-staff-2012]], 175. See [[cal.1967-05-23.middle-east-six-day-war-2]]. Names: McDonald.'
@@ -509,11 +558,25 @@ entries:
     date: '1967-06-07'
     thread: economy
     c: The Senate Commerce Committee hears Alexander B. Trowbridge on his nomination as Secretary of Commerce.
-    n: '[*Nomination of Alexander B. Trowbridge to Be Secretary of Commerce: Hearing Before the S. Comm. on Commerce*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg80614), 1. Names: Trowbridge.'
+    n: '*Nomination of Alexander B. Trowbridge to Be Secretary of Commerce: Hearing Before the S. Comm. on Commerce*, 90th Cong. (1967) ([online](https://www.govinfo.gov/app/details/CHRG-90shrg80614)), 1. Names: Trowbridge.'
     tags: [name:trowbridge-alexander-b]
+  - id: cal.1967-06-07.program
+    when: June 7
+    date: '1967-06-07'
+    thread: program
+    c: 'Califano to Johnson, the summer''s academic dinners: he and Gaither, with two other aides in turn, by military aircraft, back for work next morning; Gaither to keep the notes.'
+    n: '[[w.graham-uncertain-triumph]], 162. To check: Memorandum, Califano to President Johnson, June 7, 1967, Bowen file, container 17, LBJ Library (cited by [[w.graham-uncertain-triumph]], 162 n.7). Names: Califano, Johnson.'
+    src:
+      c: 5a114acd
+      rows:
+        - 'w.graham-uncertain-triumph 162: all'
+        - 'via w.graham-uncertain-triumph 162 n.7: all'
+    tags: [name:califano-joseph-a-jr, name:johnson-lyndon-b]
   - id: cal.1967-06-08.middle-east
     when: June 8–10
     date: '1967-06-08'
+    time: 1967-06-08T12:00Z
+    time_approx: true
     thread: middle-east-six-day-war
     also: [defense, soviet-union]
     c: 'The *Liberty*, a Navy intelligence ship, some 13 miles off the Sinai coast northwest of El Arish, attacked by Israeli jet aircraft and three torpedo boats, about 8 a.m. Eastern time: 34 killed, more than 170 wounded. The Sixth Fleet launches aircraft to defend her; Johnson tells Kosygin over the hot line why. Israel apologizes the same day: a mistake. Rusk''s note to Harman, June 10: the attack "quite literally incomprehensible," "an act of military recklessness reflecting wanton disregard for human life."'
@@ -572,7 +635,7 @@ entries:
     date: '1967-06-08'
     thread: defense
     c: 'The Senate Armed Services Committee hears nominees: Eugene M. Becker, an Assistant Secretary of the Army; Thomas Moorer, Chief of Naval Operations.'
-    n: '[*Nominations: Hearings Before the S. Comm. on Armed Services*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg82763), 2 (Becker), 6 (Moorer). Names: Becker, Moorer.'
+    n: '*Nominations: Hearings Before the S. Comm. on Armed Services*, 90th Cong. (1967) ([online](https://www.govinfo.gov/app/details/CHRG-90shrg82763)), 2 (Becker), 6 (Moorer). Names: Becker, Moorer.'
     tags: [name:becker-eugene-m, name:moorer-thomas]
   - id: cal.1967-06-09.middle-east
     when: June 9–11
@@ -644,6 +707,18 @@ entries:
       c: e97f55b2
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 446: all'
+  - id: cal.1967-06-09.school-aid
+    when: June 9
+    date: '1967-06-09'
+    thread: school-aid
+    c: Stephen Bailey of Syracuse's Maxwell School to Howe, against Green's amendment and the State education agencies' "arteriosclerosis."
+    n: '[[w.graham-uncertain-triumph]], 154. To check: Bailey to Howe, June 9, 1967, EX LE/FA 2, WHCF, LBJ Library (cited by [[w.graham-uncertain-triumph]], 154 n.43). Names: Howe, Green.'
+    src:
+      c: 5c2d3215
+      rows:
+        - 'w.graham-uncertain-triumph 154: all'
+        - 'via w.graham-uncertain-triumph 154 n.43: all'
+    tags: [name:howe-harold-ii, name:green-edith]
   - id: cal.1967-06-10.oil
     when: June 10
     date: '1967-06-10'
@@ -667,6 +742,7 @@ entries:
   - id: cal.1967-06-10.middle-east-six-day-war
     when: June 10
     date: '1967-06-10'
+    time: 1967-06-10T12:48Z
     thread: middle-east-six-day-war
     also: [soviet-union]
     c: 'Kosygin to Johnson on the hot line, 8:48 a.m.: unless military actions stop "in the next few hours," an "independent decision," including military, though it might "bring us into a clash." Johnson, in the Situation Room, answers that Washington is pressing Israel to honor the cease-fire; Kosygin within five minutes: the Israelis advancing on Damascus. McNamara asks whether the Sixth Fleet should move east; all agree.'
@@ -681,6 +757,7 @@ entries:
   - id: cal.1967-06-10.middle-east-six-day-war-2
     when: June 10
     date: '1967-06-10'
+    time: 1967-06-10T15:22Z
     thread: middle-east-six-day-war
     c: 'The Joint Chiefs to Lemnitzer, 1522Z, JCS 7628, "Sixth Fleet Movement": the Soviets having declared the possible use of force against Israel, Task Groups 60.1 and 60.2 to steam at moderate speed toward 33° N, 33° E, no farther east or south unless directed. Precautionary.'
     n: '[FRUS 1964–68, XIX: Arab-Israeli Crisis and War, 1967, doc. 253](https://history.state.gov/historicaldocuments/frus1964-68v19/d253). [[w.drea-mcnamara-clifford-and-the-2011]], 447–48 (the fleet eastward; the Soviet submarines shadowing it). Made public: FRUS 1964–68, XIX (2004). See [[cal.1967-06-10.middle-east-six-day-war]]. Names: Lemnitzer.'
@@ -691,6 +768,18 @@ entries:
         - 'w.drea-mcnamara-clifford-and-the-2011 447–48: all'
         - 'https://history.state.gov/historicaldocuments/frus1964-68v19/d253: all'
     tags: [name:lemnitzer-lyman-l]
+  - id: cal.1967-06-10.elections-1968-johnson
+    when: June 10
+    date: '1967-06-10'
+    thread: elections-1968-johnson
+    c: 'Califano to Johnson, for the campaign of 1968: Panzer on the record, Bohen on spending by congressional district, Ackley, Trowbridge with the census; "it would be a shame not to use the incredible advantage we have in terms of information through the use of the Federal Government"; the Budget Bureau''s management survey fund to pay, for "both political purposes vis-a-vis 1968 campaigning and program purposes."'
+    n: '[[w.graham-uncertain-triumph]], 188. Check: Graham, 188, has "As early as May of 1967." To check: Memorandum, Califano to President Johnson, June 10, 1967, Bowen file, container 14, LBJ Library (cited by [[w.graham-uncertain-triumph]], 188 n.13). Names: Califano, Johnson, Ackley, Trowbridge.'
+    src:
+      c: 4f50c420
+      rows:
+        - 'w.graham-uncertain-triumph 188: all'
+        - 'via w.graham-uncertain-triumph 188 n.13: all'
+    tags: [name:califano-joseph-a-jr, name:johnson-lyndon-b, name:ackley-gardner, name:trowbridge-alexander-b]
   - id: cal.1967-06-11.civil-disorders
     when: June 11
     date: '1967-06-11'
@@ -731,7 +820,7 @@ entries:
     thread: alabama
     also: [civil-rights-organizations]
     c: 'Prattville. Carmichael arrested after a workshop outside a Baptist church, shouting "black power" at the police; a night of shooting in the Negro neighborhood; the Guard called; Hulett beaten near the Autauga County courthouse. Rap Brown: "We blame Lyndon Johnson." Carmichael out on bond June 12.'
-    n: '[[w.branch-at-canaans-edge]], 623. To check: "Violence in Alabama," NYT, June 12, 1967, p. 88 (cited by [[w.branch-at-canaans-edge]], 623); "For the People of Prattville," SC, June 17-18, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 623); [[w.carson-in-struggle]], 254 (cited by [[w.branch-at-canaans-edge]], 623); Int. (Southern Courier photographer) James Peppler, Jan. 24, 2005 (Branch) (cited by [[w.branch-at-canaans-edge]], 623); Sellers, *The River of No Return* (1973), 199 (cited by [[w.branch-at-canaans-edge]], 623); SNCC press release, June 13, 1967, A/SC45£14 (cited by [[w.branch-at-canaans-edge]], 623); New York Times, June 13, 1967, p. 39 (cited by [[w.branch-at-canaans-edge]], 623); Int. James Peppler, Jan. 24, 2005 (Branch) (cited by [[w.branch-at-canaans-edge]], 623). Names: Carmichael, H. Rap Brown.'
+    n: '[[w.branch-at-canaans-edge]], 623. To check: "Violence in Alabama," NYT, June 12, 1967, p. 88 (cited by [[w.branch-at-canaans-edge]], 623); "For the People of Prattville," SC, June 17–18, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 623); [[w.carson-in-struggle]], 254 (cited by [[w.branch-at-canaans-edge]], 623); Int. (Southern Courier photographer) James Peppler, Jan. 24, 2005 (Branch) (cited by [[w.branch-at-canaans-edge]], 623); Sellers, *The River of No Return* (1973), 199 (cited by [[w.branch-at-canaans-edge]], 623); SNCC press release, June 13, 1967, A/SC45£14 (cited by [[w.branch-at-canaans-edge]], 623); New York Times, June 13, 1967, p. 39 (cited by [[w.branch-at-canaans-edge]], 623); Int. James Peppler, Jan. 24, 2005 (Branch) (cited by [[w.branch-at-canaans-edge]], 623). Names: Carmichael, H. Rap Brown.'
     src:
       c: 51dda88a
       rows:
@@ -833,6 +922,7 @@ entries:
   - id: cal.1967-06-12.vietnam-2
     when: June 12
     date: '1967-06-12'
+    time: 1967-06-12T17:24Z
     thread: vietnam
     c: Johnson with Walt, commanding the Marines in Vietnam, alone, 1:24 to 1:28 p.m., by the Daily Diary; Greene had asked a "complete briefing" on I Corps. Walt then to the press.
     n: '[[w.gibbons-u-s-government-and]], IV, 667 n.122 (the Daily Diary). To check: the Daily Diary, June 12, 1967, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 667 n.122). Names: Johnson, Walt, Greene.'
@@ -891,6 +981,8 @@ entries:
   - id: cal.1967-06-13.court
     when: June 13
     date: '1967-06-13'
+    time: 1967-06-13T16:00Z
+    time_approx: true
     thread: court
     c: 'Johnson, in the Rose Garden, noon: Thurgood Marshall, Solicitor General, nominated Associate Justice, for Tom Clark, who retires with the term, his son Ramsey Clark Attorney General since March. "The right thing to do, the right time to do it, the right man and the right place." The first Negro named to the Court. Johnson had told Ramsey Clark by telephone at 7:59 a.m.'
     n: 'Remarks to the Press Announcing the Nomination of Thurgood Marshall as Associate Justice of the Supreme Court, [1967 Pub. Papers 611](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=679) (June 13, 1967); The President''s News Conference, [1967 Pub. Papers 612](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=680) (June 13, 1967). [Johnson and Ramsey Clark, 7:59 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ramsey-clark-and-office-conversation-june-13), Conversation WH6706-01-11905-11906 (Miller Center). [[w.dallek-flawed-giant]], 438–42 (the nomination; the first); [[w.califano-triumph-and-tragedy-of]], 208 (a morning''s talk in the bedroom of a woman for the seat, Lady Bird for it, Shirley Hufstedler named; confirmed Aug. 30, 69–11); [[w.branch-at-canaans-edge]], 623–24 (Johnson to Louis Martin and Clifford Alexander: "this is not going to do me a bit of good politically"). To check: [[w.williams-thurgood-marshall]]; [[w.tushnet-making-constitutional-law]]; [[w.ball-defiant-life]]; [[w.haygood-showdown]]; [[w.kalman-long-reach-of-the-2017]]; the Marshall and Martin oral histories, LBJ Library (cited by [[w.dallek-flawed-giant]], 441). See [[cal.1967-02-28.court]]. Names: Marshall, Tom Clark, Ramsey Clark, Johnson.'
@@ -928,11 +1020,12 @@ entries:
     date: '1967-06-13'
     thread: congress-dodd
     c: Dodd. The Senate takes up S. Res. 112, the Select Committee on Standards and Conduct's resolution to censure him, Stennis its chairman.
-    n: '[113 Cong. Rec. 15663](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt12/pdf/GPO-CRECB-1967-pt12-2-2.pdf#page=1) (1967). To check: [[w.boyd-above-the-law]]; [[w.pearson-case-against-congress]]. See [[cal.1967-04-27.congress]]. Names: Dodd, Stennis.'
+    n: '[113 Cong. Rec. 15,663](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt12/pdf/GPO-CRECB-1967-pt12-2-2.pdf#page=1) (1967). To check: [[w.boyd-above-the-law]]; [[w.pearson-case-against-congress]]. See [[cal.1967-04-27.congress]]. Names: Dodd, Stennis.'
     tags: [name:dodd-thomas-j, name:stennis-john-c, state:ct]
   - id: cal.1967-06-13.vietnam
     when: June 13
     date: '1967-06-13'
+    time: 1967-06-13T17:10Z
     thread: vietnam-air-war
     c: 'Tuesday lunch, 1:10 to 2:35 p.m., Johnson with McNamara, Katzenbach, Rostow and Christian, McGeorge Bundy and Thompson joining, on the three bombing options: the Joint Chiefs'' wider program, McNamara''s south of the 20th, Harold Brown''s refinement of the present one. The present level to hold until McNamara is back from Vietnam. Helms: none would affect the war in the South.'
     n: '[[w.gibbons-u-s-government-and]], IV, 667 (by Read''s memorandum to Rusk, June 15). To check: Read to Rusk, June 15, 1967, State, Lot File 74 D 164 (cited by [[w.gibbons-u-s-government-and]], IV, 667 nn.123–124). See [[cal.1967-06-12.vietnam]]. Names: Johnson, McNamara, Katzenbach, Rostow, Christian, McGeorge Bundy, Thompson, Harold Brown, Helms.'
@@ -949,7 +1042,7 @@ entries:
     thread: defense
     also: [vietnam]
     c: 'The House passes the defense appropriation for fiscal 1968, H.R. 10738, $70.3 billion, [407–1](https://voteview.com/rollcall/RH0900074), Brown alone against; his amendment holding defense spending to 95 percent of the budget''s estimate lost by voice. Mahon: the vote shows the House "in support of the prosecution of the war for freedom in Southeast Asia."'
-    n: '[113 Cong. Rec. 15541–42](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt12/pdf/GPO-CRECB-1967-pt12-2-1.pdf#page=5) (1967); [15587](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt12/pdf/GPO-CRECB-1967-pt12-2-1.pdf#page=51) (House, June 13, 1967; the tally, 407–1; Voteview''s file counts 408–1). [[w.gibbons-u-s-government-and]], IV, 761, 763. Names: Brown, Mahon.'
+    n: '[113 Cong. Rec. 15,541–42](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt12/pdf/GPO-CRECB-1967-pt12-2-1.pdf#page=5) (1967); [15587](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt12/pdf/GPO-CRECB-1967-pt12-2-1.pdf#page=51) (House, June 13, 1967; the tally, 407–1; Voteview''s file counts 408–1). [[w.gibbons-u-s-government-and]], IV, 761, 763. Names: Brown, Mahon.'
     src:
       c: b5263920
       rows:
@@ -976,6 +1069,7 @@ entries:
   - id: cal.1967-06-13.vietnam-2
     when: June 13
     date: '1967-06-13'
+    time: 1967-06-14T00:15Z
     thread: vietnam-pacification
     c: 'McPherson to Johnson, 8:15 p.m., after two weeks in Vietnam: the campus question, whether to be there, "almost beside the point"; "We are there in such enormous force." Kỳ on corruption: "You live with it in Chicago and New York"; on a program, "We''ll all sound like Roosevelts." Pacification needs "constant pressure from here." A lieutenant general: "we were at minus fifty. Now we are at zero"; were he a young peasant offered the chance to strike at "my Frenchified oppressors and their American allies ... I would join up."'
     n: 'FRUS 1964–68, V, doc. [197](https://history.state.gov/historicaldocuments/frus1964-68v05/d197). [[w.mcpherson-political-education]], 404–13 (the trip; the memorandum, quoted in part); [[w.branch-at-canaans-edge]], 614, 621–22 (the lieutenant general, the peasant: the memorandum as Branch quotes it, McPherson Papers, Box 29, LBJ Library). Made public: FRUS 1964–68, V (2002). Names: McPherson, Johnson, Nguyễn Cao Kỳ.'
@@ -1045,11 +1139,13 @@ entries:
     date: '1967-06-14'
     thread: transition-and-staff
     c: 'Los Angeles, Chasen''s: Califano at dinner with academics on the 1968 program, Warren Christopher setting it up. Johnson by telephone: bring Christopher back that night; interviewed, he is named Deputy Attorney General the next day.'
-    n: '[[w.califano-triumph-and-tragedy-of]], 193 n. Names: Califano, Christopher, Johnson.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 193 n.; [[w.graham-uncertain-triumph]], 162–63 (twenty-one present, Cater and Hamilton with Califano and Gaither). To check: Summaries of the 1967 academic dinners, with lists of participants, Bowen file, container 17, LBJ Library (cited by [[w.graham-uncertain-triumph]], 163 n.8). Names: Califano, Christopher, Johnson.'
     src:
       c: b58ac535
       rows:
         - 'w.califano-triumph-and-tragedy-of 193 n.: all'
+        - 'w.graham-uncertain-triumph 162–63: A'
+        - 'via w.graham-uncertain-triumph 163 n.8: A'
     tags: [name:califano-joseph-a-jr, name:christopher-warren, name:johnson-lyndon-b]
   - id: cal.1967-06-14.vietnam-barrier
     when: June 14
@@ -1061,6 +1157,20 @@ entries:
       c: a4c30677
       rows:
         - 'w.staaveren-u-s-air-force 255: all'
+  - id: cal.1967-06-14.open-housing
+    when: June 14
+    date: '1967-06-14'
+    thread: open-housing
+    also: [congress]
+    c: Washington. The Joint Committee on Atomic Energy, in executive session, approves the Commission's authorizations for fiscal 1968, the preliminary work on the accelerator at Weston, Ill., among them, eleven to three, overriding Pastore, its chairman, who asked it to wait until Illinois passed a fair housing law.
+    n: 'Daily Digest, [113 Cong. Rec. D291](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=289) (June 15, 1967) (the executive session of Wednesday, June 14, and the authorizations, S. 1963, approved). [[w.anderson-confronting-the-color-line]], 331. To check: Chicago Daily News, 16 June 1967; Chicago Sun-Times, 15 June 1967 (cited by [[w.anderson-confronting-the-color-line]], 331 n.14). See [[cal.1966-07-18.open-housing-2]]. Names: Pastore.'
+    src:
+      c: 8bc80404
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=289: A-B'
+        - 'w.anderson-confronting-the-color-line 331: all'
+        - 'via w.anderson-confronting-the-color-line 331 n.14: all'
+    tags: [name:pastore-john-o, state:il]
   - id: cal.1967-06-15.health-ca
     when: June 15
     date: '1967-06-15'
@@ -1073,6 +1183,7 @@ entries:
   - id: cal.1967-06-15.vietnam
     when: June 15
     date: '1967-06-15'
+    time: 1967-06-15T15:55Z
     thread: vietnam-air-war
     c: 'Johnson with Rusk, McNamara, Walt and Eugene Rostow, Wheeler, Helms, Christian and McGeorge Bundy, 11:55 a.m. to 1:06 p.m., on the bombing. No notes. Walt Rostow''s memorandum, 10:45 a.m.: McNamara expects the war through 1968, low-key; give Moscow some weeks, perhaps through Kosygin''s visit, and decide troops and bombing together when McNamara returns.'
     n: 'FRUS 1964–68, V, doc. [203](https://history.state.gov/historicaldocuments/frus1964-68v05/d203) (Rostow''s memorandum). [[w.gibbons-u-s-government-and]], IV, 667–69. Made public: FRUS 1964–68, V (2002). See [[cal.1967-06-13.vietnam]]. Names: Johnson, Rusk, McNamara, Walt Rostow, Eugene Rostow, Wheeler, Helms, Christian, McGeorge Bundy, Kosygin.'
@@ -1139,6 +1250,18 @@ entries:
         - 'via x.1967-06-15.saigon-to-washington-28218-june-15: all'
         - 'via x.1967-06-16.washington-to-saigon-212155-june-16: all'
     tags: [name:bunker-ellsworth, name:johnson-lyndon-b, name:nguyen-van-thieu, name:nguyen-cao-ky]
+  - id: cal.1967-06-15.transition-and-staff
+    when: June 15
+    date: '1967-06-15'
+    thread: transition-and-staff
+    c: 'The Heineman task force''s final report, ten pages: "the Federal Government is badly organized"; an office of program development in a reorganized Budget Bureau and an office of program coordination with a field force; superdepartments, fewer departments "in the grip of parochial interests"; ten common regions; HEW "the Department of the Great Society."'
+    n: '[[w.graham-uncertain-triumph]], 106–8. To check: "A Final Report by the President''s Task Force on Government Organization," June 15, 1967, Task Forces file, container 4, LBJ Library (cited by [[w.graham-uncertain-triumph]], 106 n.47). Names: Heineman.'
+    src:
+      c: 1cb5c32c
+      rows:
+        - 'w.graham-uncertain-triumph 106–8: all'
+        - 'via w.graham-uncertain-triumph 106 n.47: all'
+    tags: [name:heineman-ben-w]
   - id: cal.1967-06-16.vietnam
     when: June 16
     date: '1967-06-16'
@@ -1191,15 +1314,21 @@ entries:
     thread: civil-disorders
     also: [georgia]
     c: 'Atlanta, Dixie Hills. A fight at a shopping center, June 17; June 18, Carmichael speaks to a crowd of some 1,000; rocks and bottles, nine policemen hurt. June 20, after a meeting, police fire into a crowd: one killed. Ivan Allen to the neighborhood; Rap Brown there too.'
-    n: '[[w.report-of-the-national]], [52–56](https://archive.org/details/reportofnation00unit/page/n80/mode/1up) (Bantam ed.). To check: [[w.allen-mayor]]; [[w.stone-regime-politics]]. See [[cal.1967-06-11.civil-disorders]]. Names: Carmichael, Allen, Brown.'
+    n: '[[w.report-of-the-national]], [52–56](https://archive.org/details/reportofnation00unit/page/n80/mode/1up) (Bantam ed.). [[w.bernstein-guns-or-butter]], 418. To check: [[w.allen-mayor]]; [[w.stone-regime-politics]]. See [[cal.1967-06-11.civil-disorders]]. Names: Carmichael, Allen, Brown.'
+    src:
+      c: df29c90e
+      rows:
+        - 'https://archive.org/details/reportofnation00unit/page/n80/mode/1up: all'
+        - 'w.bernstein-guns-or-butter 418: A'
     tags: [name:carmichael-stokely, name:allen-ivan-jr, name:brown-h-rap, city:atlanta]
   - id: cal.1967-06-17.vietnam-congress
     when: June 17
     date: '1967-06-17'
+    time: 1967-06-17T19:25Z
     thread: vietnam-congress-foreign-relations
     also: [soviet-union]
     c: 'Fulbright to Johnson: meet Kosygin, on the Middle East, Vietnam and the two powers'' view of each other. Received 3:25 p.m., read to Johnson by Watson at 3:45; Johnson sends it to Rusk and telephones Fulbright that night. No record of the call.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 719. To check: Fulbright to Johnson, June 17, 1967, WHCF, Ex ND 19/CO 1-6, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 719 n.36). Check: whether a call that night was made; FRUS prints from the recording a call of Johnson to Fulbright on Kosygin of June 19, 10:57 p.m. (Editorial Note, [FRUS 1964–68, V: Vietnam, 1967, doc. 207](https://history.state.gov/historicaldocuments/frus1964-68v05/d207)). See [[cal.1967-06-14.vietnam-congress]]. Names: Fulbright, Johnson, Kosygin, Watson, Rusk.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 719. To check: Fulbright to Johnson, June 17, 1967, WHCF, Ex ND 19/CO 1–6, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 719 n.36). Check: whether a call that night was made; FRUS prints from the recording a call of Johnson to Fulbright on Kosygin of June 19, 10:57 p.m. (Editorial Note, [FRUS 1964–68, V: Vietnam, 1967, doc. 207](https://history.state.gov/historicaldocuments/frus1964-68v05/d207)). See [[cal.1967-06-14.vietnam-congress]]. Names: Fulbright, Johnson, Kosygin, Watson, Rusk.'
     src:
       c: def6bd58
       rows:
@@ -1231,6 +1360,18 @@ entries:
       rows:
         - 'w.macv-command-history-1967 378: all'
     tags: [province:kon-tum]
+  - id: cal.1967-06-17.economy-surcharge
+    when: June 17
+    date: '1967-06-17'
+    thread: economy-surcharge
+    c: 'Califano to Johnson: Fowler, Ackley, Schultze, Trowbridge, Wirtz, McNamara and he agree "your tax proposal should not go to the Congress until after the recess."'
+    n: '[[w.bernstein-guns-or-butter]], 369 ("in June"). To check: Califano to Johnson, June 17, 1967, EX FG 11-3 File, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 369 n.6). Check: the day; dated by the note''s memorandum. See [[cal.1967-06-12.economy-surcharge]]. Names: Califano, Johnson, Fowler, Ackley, Schultze, Trowbridge, Wirtz, McNamara.'
+    src:
+      c: a7255d25
+      rows:
+        - 'w.bernstein-guns-or-butter 369: all'
+        - 'via x.1967-06-17.califano-to-johnson-june-17-1967: all'
+    tags: [name:califano-joseph-a-jr, name:johnson-lyndon-b, name:fowler-henry-h, name:ackley-gardner, name:schultze-charles-l, name:trowbridge-alexander-b, name:wirtz-w-willard, name:mcnamara-robert-s]
   - id: cal.1967-06-18.opinion
     when: June 18
     date: '1967-06-18'
@@ -1260,6 +1401,7 @@ entries:
   - id: cal.1967-06-19.middle-east
     when: June 19
     date: '1967-06-19'
+    time: 1967-06-19T13:31Z
     thread: middle-east-six-day-war-aftermath
     also: [soviet-union]
     c: 'Johnson to the State Department''s conference for educators: "five great principles of peace" for the Middle East: every nation''s right to live; justice for the refugees; innocent maritime passage; limits on the arms race; political independence and territorial integrity for all. A return to the lines of June 4 "not a prescription for peace, but for renewed hostilities"; "certainly troops must be withdrawn." The same day Kosygin, at the General Assembly''s emergency special session (opened June 17): Israel to withdraw and pay for the damage, and to be condemned.'
@@ -1313,6 +1455,7 @@ entries:
   - id: cal.1967-06-19.economy
     when: June 19
     date: '1967-06-19'
+    time: 1967-06-19T18:30Z
     thread: economy
     c: 'Fowler, Bator and Okun with Schiller, the German Economics Minister, 2:30 p.m., on international liquidity. Schiller: the Common Market united on an 85 percent vote to activate any new reserves. Fowler: the world sees the Common Market as "hard-nosed central bankers preoccupied with gold"; a 75 percent vote instead for an agreed minimum over five years. Schiller: the Germans want to revive the Franco-German treaty.'
     n: 'Memorandum of conversation, [FRUS 1964–68, VIII, doc. 129](https://history.state.gov/historicaldocuments/frus1964-68v08/d129). [[w.schwartz-lyndon-johnson-and-europe]], 178–79. Made public: FRUS 1964–68, VIII (1998). See [[cal.1967-08-26.economy]]. Names: Fowler, Bator, Okun, Schiller.'
@@ -1382,6 +1525,7 @@ entries:
   - id: cal.1967-06-19.vietnam-elections
     when: June 19
     date: '1967-06-19'
+    time: 1967-06-19T12:53Z
     thread: vietnam-elections
     c: 'Bunker to Rusk, eyes only, through the CIA, Saigon 8185: "If Ky were not virtually certain to win, whether by proper or improper means and if he were not on balance the best available candidate, though not exactly a prize package," the problem could be seen otherwise. To restore faith in Kỳ, persuade him to remove Loan, and Thiệu to withdraw; Kỳ lacks the experience to run his campaign without sounder advice.'
     n: '[FRUS 1964–68, V, doc. 209](https://history.state.gov/historicaldocuments/frus1964-68v05/d209). [[w.gibbons-u-s-government-and]], IV, 768. Made public: FRUS 1964–68, V (2002). Check: Gibbons''s text dates the cable July 19; his note and FRUS, June 19. See [[cal.1967-06-15.vietnam-elections]]. Names: Bunker, Rusk, Kỳ, Loan, Thiệu.'
@@ -1398,19 +1542,25 @@ entries:
     thread: draft
     also: [war-opposition]
     c: Houston. Muhammad Ali convicted in federal court of refusing induction, after a jury's brief deliberation; Judge Ingraham sentences him to five years and $10,000, the maximum. Free on bail pending appeal.
-    n: '*Clay v. United States*, [397 F.2d 901](https://static.case.law/f2d/397/case-pdfs/0901-01.pdf) (5th Cir. 1968), the appeal. [[w.branch-at-canaans-edge]], 627. To check: [[w.remnick-king-of-the-world]]. See [[cal.1967-04-28.draft]]. Names: Ali, Ingraham.'
+    n: '*Clay v. United States*, [397 F.2d 901](https://static.case.law/f2d/397/case-pdfs/0901-01.pdf) (5th Cir. 1968), the appeal. [[w.branch-at-canaans-edge]], 627; [[w.debenedetti-american-ordeal]], 186 (five years and $10,000). To check: [[w.remnick-king-of-the-world]]. See [[cal.1967-04-28.draft]]. Names: Ali, Ingraham.'
     src:
       c: 9ae6a946
       rows:
         - 'https://static.case.law/f2d/397/case-pdfs/0901-01.pdf: all'
         - 'w.branch-at-canaans-edge 627: A-C'
+        - 'w.debenedetti-american-ordeal 186: B-C'
     tags: [name:ali-muhammad, state:tx, city:houston, name:ingraham-joe-mcdonald]
   - id: cal.1967-06-20.war-opposition
     when: June 20
     date: '1967-06-20'
     thread: war-opposition
     c: 'The House passes H.R. 10480, [387–16](https://voteview.com/rollcall/RH0900080): a year in prison or $1,000 for publicly mutilating, defacing, defiling, burning or trampling the flag. Flags had been burned at the Spring Mobilization in New York, Apr. 15.'
-    n: 'To check: [[w.goldstein-saving-old-glory]].'
+    n: '[[w.debenedetti-american-ordeal]], 178 (the bill: fines up to $1,000 and a year in jail). To check: [[w.goldstein-saving-old-glory]].'
+    src:
+      c: 873d26b6
+      rows:
+        - 'https://voteview.com/rollcall/RH0900080: A'
+        - 'w.debenedetti-american-ordeal 178: A'
   - id: cal.1967-06-20.vietnam-air-war
     when: June 20
     date: '1967-06-20'
@@ -1421,6 +1571,7 @@ entries:
   - id: cal.1967-06-20.vietnam-congress
     when: June 20
     date: '1967-06-20'
+    time: 1967-06-20T22:00Z
     thread: vietnam-congress
     c: 'Pell with Rostow, his memorandum on Bộ for Johnson; he asks to see the President. Rostow to Johnson: Pell "disappointed"; the bombing hard to stop while Hanoi violates the DMZ; Pell: hence "mutual deescalation."'
     n: 'Rostow to Johnson, June 20, [FRUS 1964–68, V: Vietnam, 1967, doc. 214](https://history.state.gov/historicaldocuments/frus1964-68v05/d214). [[w.gibbons-u-s-government-and]], IV, 691. See [[cal.1967-06-19.vietnam-congress]]. Names: Pell, Rostow, Mai Văn Bộ, Johnson.'
@@ -1466,6 +1617,18 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 769: all'
         - 'via x.1967-06-20.jorden-to-rostow-ambassador-bunkers-proposals: all'
     tags: [name:jorden-william-j, name:rostow-walt-w, name:nguyen-cao-ky, name:nguyen-van-thieu, name:tran-van-huong, name:phan-khac-suu]
+  - id: cal.1967-06-20.program
+    when: June 20
+    date: '1967-06-20'
+    thread: program
+    c: 'Princeton, N.J., the second academic dinner, Marver Bernstein host, fourteen of the faculty, eleven of the Woodrow Wilson School, Bohen for the White House: "no intellectual in academic life and no bright student fails to have misgivings about Vietnam."'
+    n: '[[w.graham-uncertain-triumph]], 163–64. To check: Summaries of the 1967 academic dinners, with lists of participants, Bowen file, container 17, LBJ Library (cited by [[w.graham-uncertain-triumph]], 163 n.8). Names: Califano.'
+    src:
+      c: aaae56c0
+      rows:
+        - 'w.graham-uncertain-triumph 163–64: all'
+        - 'via w.graham-uncertain-triumph 163 n.8: all'
+    tags: [name:califano-joseph-a-jr]
   - id: cal.1967-06-21.economy-debt-limit
     when: June 21
     date: '1967-06-21'
@@ -1488,10 +1651,13 @@ entries:
   - id: cal.1967-06-21.soviet-union
     when: June 21
     date: '1967-06-21'
+    time: 1967-06-21T22:15Z
     thread: soviet-union
     also: [vietnam-diplomacy]
+    follows:
+      - cal.1967-06-21.economy-debt-limit
     c: 'Rostow to Johnson, 6:15 p.m., "The case for seeing Kosygin": at home it will cover his flank "to the left and among the columnists"; a 20 percent chance of a net favorable effect on Soviet-American policy, "well under 10%" of making things worse. The serious case for talking is Vietnam: Kosygin has dropped "permanent" from his bombing formula.'
-    n: '[FRUS 1964–68, XIV, doc. 223](https://history.state.gov/historicaldocuments/frus1964-68v14/d223). [[w.gibbons-u-s-government-and]], IV, 719–20. Made public: FRUS 1964–68, XIV (2001). Names: Rostow, Johnson, Kosygin.'
+    n: '[FRUS 1964–68, XIV, doc. 223](https://history.state.gov/historicaldocuments/frus1964-68v14/d223). [[w.gibbons-u-s-government-and]], IV, 719–20. Made public: FRUS 1964–68, XIV (2001). Order: after the House''s vote on the debt limit, the House adjourning at 6:01 p.m. ([Daily Digest, D298](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=296)); the memorandum 6:15 p.m. Names: Rostow, Johnson, Kosygin.'
     src:
       c: 1ce6c4bd
       rows:
@@ -1509,6 +1675,7 @@ entries:
   - id: cal.1967-06-22.soviet-union
     when: June 22
     date: '1967-06-22'
+    time: 1967-06-22T16:00Z
     thread: soviet-union
     c: 'New York, the Soviet Mission, noon: Rusk to Kosygin, for Johnson, a meeting the next day at McGuire Air Force Base, N.J. Kosygin: not on a military base; not objecting to the area. Johnson takes up Governor Hughes''s offer to Rostow the day before of a place in New Jersey; Hughes proposes Glassboro. Christian announces the meeting at 6:35 p.m.'
     n: 'Rusk to State, Secto 16: [FRUS 1964–68, XIV, doc. 227](https://history.state.gov/historicaldocuments/frus1964-68v14/d227) (the talk). [[w.johnson-vantage-point]], 481–82 (Hughes; Glassboro; the hour: Johnson''s account); [FRUS 1964–68, XIV, doc. 228](https://history.state.gov/historicaldocuments/frus1964-68v14/d228) gives the hour from the memoir. Made public: FRUS 1964–68, XIV (2001). The meeting: [[cal.1967-06-23.soviet-union]]. Names: Rusk, Kosygin, Johnson, Hughes, Rostow, Christian.'
@@ -1521,6 +1688,7 @@ entries:
   - id: cal.1967-06-23.soviet-union
     when: June 23–25
     date: '1967-06-23'
+    time: 1967-06-23T15:30Z
     thread: soviet-union
     also: [middle-east-six-day-war-aftermath, vietnam, testing]
     c: 'Glassboro, N.J., Hollybush, the house of the president of Glassboro State College: Johnson and Kosygin, June 23 and 25, their only meeting. The Middle East: Kosygin, Israel''s troops back to the armistice lines, the Gulf of Aqaba to the International Court; "unless you do this there will be a war." Johnson: talks on ABMs and ICBMs; when and where might McNamara meet Soviet representatives? Kosygin: offensive weapons too. June 23, Kosygin: Phạm Văn Đồng''s answer, received at lunch: stop the bombing and Hanoi will go to the conference table at once. June 25, Johnson gives him a message for Hanoi: the bombing might stop, with immediate discussions after. Rusk with Gromyko, June 23, on nonproliferation. Johnson to Eisenhower, June 25, by telephone.'
@@ -1577,7 +1745,14 @@ entries:
     date: '1967-06-23'
     thread: war-opposition
     c: Los Angeles, Century City. Some 10,000 march on the Century Plaza Hotel, where Johnson speaks at a President's Club dinner. Ordered to disperse, many sit down; the police clear the street with clubs. Arrests (Check the number).
-    n: 'Remarks at a President''s Club Dinner in Los Angeles, [1967 Pub. Papers 645](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=713) (June 23, 1967). [President''s Daily Diary, June 23, 1967](https://catalog.archives.gov/id/192469), images 22, 23 (LBJ Library; National Archives Catalog). To check: [[w.davis-set-the-night-on]]; [[w.wells-war-within]]; [[w.debenedetti-american-ordeal]]; [[w.zaroulis-who-spoke-up]]. Names: Johnson.'
+    n: 'Remarks at a President''s Club Dinner in Los Angeles, [1967 Pub. Papers 645](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=713) (June 23, 1967). [President''s Daily Diary, June 23, 1967](https://catalog.archives.gov/id/192469), images 22, 23 (LBJ Library; National Archives Catalog). [[w.zaroulis-who-spoke-up]], 119 (the SMC and the Los Angeles Peace Action Council; the sound truck smashed; hundreds injured, sixty hospitalized, more than fifty arrested); [[w.debenedetti-american-ordeal]], 186 (dated June; several thousand; the police''s brute force). Check: DeBenedetti, 186, gives several thousand. To check: [[w.davis-set-the-night-on]]; [[w.wells-war-within]]. Names: Johnson.'
+    src:
+      c: e2646a97
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=713: all'
+        - 'https://catalog.archives.gov/id/192469: all'
+        - 'w.zaroulis-who-spoke-up 119: A, C-E'
+        - 'w.debenedetti-american-ordeal 186: A-B, D'
     tags: [name:johnson-lyndon-b, state:ca, city:los-angeles]
     short: Century City
   - id: cal.1967-06-23.elections-1968
@@ -1595,6 +1770,7 @@ entries:
   - id: cal.1967-06-23.vietnam
     when: June 23
     date: '1967-06-23'
+    time: 1967-06-24T05:30Z
     thread: vietnam-support
     also: [war-opposition]
     c: 'Johnson at the President''s Club dinner in Los Angeles, of the war''s critics: "Those who do not smell the powder or hear the blast of cannon ... really do not understand the burdens"; "God, forgive them for they know not really what they do"; "I just cannot negotiate with myself. And these protesters haven''t been able to deliver Ho Chi Minh any place yet."'
@@ -1642,6 +1818,18 @@ entries:
       rows:
         - 'w.gibbons-u-s-government-and IV, 769: all'
     tags: [name:wheeler-earle, name:westmoreland-william, name:nguyen-cao-ky, name:nguyen-van-thieu]
+  - id: cal.1967-06-24.school-aid
+    when: June 24
+    date: '1967-06-24'
+    thread: school-aid
+    c: 'Los Angeles: Yarborough''s bilingual hearing.'
+    n: '[[w.graham-uncertain-triumph]], 156. To check: Hearings before the Special Subcommittee on Bilingual Education of the Committee on Labor and Public Welfare, U.S. Senate, 90th Cong., 1st sess. (1968) (cited by [[w.graham-uncertain-triumph]], 156 n.49). Names: Yarborough.'
+    src:
+      c: ab6d1157
+      rows:
+        - 'w.graham-uncertain-triumph 156: all'
+        - 'via w.graham-uncertain-triumph 156 n.49: all'
+    tags: [name:yarborough-ralph]
   - id: cal.1967-06-25.opinion
     when: June 25
     date: '1967-06-25'
@@ -1668,6 +1856,18 @@ entries:
         - 'w.kabaservice-rule-and-ruin 209: all'
         - 'via w.kabaservice-rule-and-ruin 209 n.69: all'
     tags: [name:romney-george-w, name:nixon-richard-m, name:rockefeller-nelson, name:reagan-ronald]
+  - id: cal.1967-06-26.program
+    when: June 26
+    date: '1967-06-26'
+    thread: program
+    c: 'Chapel Hill, N.C., the third academic dinner, Friday host, fourteen present, Cater and Roche for the White House: "the most disturbing thing about Vietnam was the inequitable draft system and the shelter of the university."'
+    n: '[[w.graham-uncertain-triumph]], 163–64. To check: Summaries of the 1967 academic dinners, with lists of participants, Bowen file, container 17, LBJ Library (cited by [[w.graham-uncertain-triumph]], 164 n.10). Names: Califano, Cater, Roche.'
+    src:
+      c: 84e77762
+      rows:
+        - 'w.graham-uncertain-triumph 163–64: all'
+        - 'via w.graham-uncertain-triumph 164 n.10: all'
+    tags: [name:califano-joseph-a-jr, name:cater-s-douglass, name:roche-john-p]
   - id: cal.1967-06-27.school-aid
     when: June 27–29
     date: '1967-06-27'
@@ -1722,6 +1922,7 @@ entries:
   - id: cal.1967-06-28.vietnam-2
     when: June 28
     date: '1967-06-28'
+    time: 1967-06-28T09:30Z
     thread: vietnam
     c: 'Bunker to Johnson, his ninth weekly telegram: "The military situation has greatly improved"; the North Vietnamese army "has not won a single major victory in the South."'
     n: '[FRUS 1964–68, V, doc. 220](https://history.state.gov/historicaldocuments/frus1964-68v05/d220). [[w.mann-grand-delusion]], 547. Names: Bunker, Johnson.'
@@ -1746,8 +1947,8 @@ entries:
     when: June 28
     date: '1967-06-28'
     thread: defense
-    c: 'The Senate Armed Services Committee hears nominees: Charles F. Baird, Under Secretary of the Navy; John T. McNaughton, Secretary of the Navy; Paul Nitze, Deputy Secretary of Defense; Paul Warnke, an Assistant Secretary of Defense.'
-    n: '[*Nominations: Hearings Before the S. Comm. on Armed Services*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg82763), 10 (Nitze), 19 (McNaughton), 32 (Baird), 33 (Warnke). Names: Baird, McNaughton, Nitze, Warnke.'
+    c: 'The Senate Armed Services Committee hears nominees: Charles F. Baird, Under Secretary of the Navy; John T. McNaughton, Secretary of the Navy; Paul Nitze, Deputy Secretary of Defense; Paul Warnke, an Assistant Secretary of Defense. McNaughton confirmed June 29; killed July 19, before taking office.'
+    n: '*Nominations: Hearings Before the S. Comm. on Armed Services*, 90th Cong. (1967) ([online](https://www.govinfo.gov/app/details/CHRG-90shrg82763)), 10 (Nitze), 19 (McNaughton), 32 (Baird), 33 (Warnke). Daily Digest, [113 Cong. Rec. D322](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=320) (June 29, 1967) (the confirmation); [Wikipedia, "John McNaughton (government official)"](https://en.wikipedia.org/wiki/John_McNaughton_%28government_official%29) (the death, before taking office). Names: Baird, McNaughton, Nitze, Warnke.'
     tags: [name:baird-charles-f, name:mcnaughton-john-t, name:nitze-paul, name:warnke-paul]
   - id: cal.1967-06-29.vietnam-air-war
     when: June 29
@@ -1777,6 +1978,18 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 691 n: all'
         - 'via x.1967-06-29.william-bundy-memorandum-of-conversation-with: all'
     tags: [name:bundy-william, name:pell-claiborne-d, name:mai-van-bo, name:rusk-dean]
+  - id: cal.1967-06-29.program
+    when: June 29
+    date: '1967-06-29'
+    thread: program
+    c: 'New Haven, the fourth academic dinner, Brewster host, fifteen present, McPherson and Hamilton for the White House: the federal bureaucracy and its categorical grants criticized; Brewster proposes federal student loans repaid over life by income.'
+    n: '[[w.graham-uncertain-triumph]], 163–64, 166. To check: Summaries of the 1967 academic dinners, with lists of participants, Bowen file, container 17, LBJ Library (cited by [[w.graham-uncertain-triumph]], 163 n.8). Names: Califano, McPherson, Hamilton.'
+    src:
+      c: '07236371'
+      rows:
+        - 'w.graham-uncertain-triumph 163–64, 166: all'
+        - 'via w.graham-uncertain-triumph 163 n.8: all'
+    tags: [name:califano-joseph-a-jr, name:mcpherson-harry, name:hamilton-edward-k]
   - id: cal.1967-06-30.draft
     when: June 30
     date: '1967-06-30'
@@ -1997,7 +2210,7 @@ entries:
     date: 1967-06
     thread: mississippi
     c: Oxford. A jury acquits the eight men tried for the beatings of Negro children at the Grenada schools.
-    n: '[[w.branch-at-canaans-edge]], 530, 627. Check: the day. To check: Southern Courier, June 10-11, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 627). See [[cal.1966-09-12.mississippi]].'
+    n: '[[w.branch-at-canaans-edge]], 530, 627. Check: the day. To check: Southern Courier, June 10–11, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 627). See [[cal.1966-09-12.mississippi]].'
     src:
       c: bf239f69
       rows:
@@ -2146,3 +2359,84 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d155: all'
         - 'w.gavin-gold-dollars-and-power 171–72: all'
         - 'w.meltzer-history-of-the-federal 536 n.76: A'
+  - id: cal.1967-06.war-opposition
+    when: June
+    date: 1967-06
+    thread: war-opposition
+    also: [press-and-broadcasting]
+    c: Cleveland, the National Negro Publishers Association's annual meeting. At SCLC's request, John and Robert Johnson of Johnson Publishing helping, King at a luncheon, without notes, on the war and the poverty program; the publishers, told at the White House he was misinformed, won over, by Young's account.
+    n: '[[w.young-easy-burden]], 432–33. Check: the month; Young: "during the summer of 1967." Names: Martin Luther King.'
+    src:
+      c: b2dacd63
+      rows:
+        - 'w.young-easy-burden 432–33: all'
+    tags: [name:king-martin-luther-jr]
+  - id: cal.1967-06.civil-disorders-minneapolis
+    when: June–Aug.
+    date: 1967-06
+    thread: civil-disorders
+    c: Minneapolis, summer. Small riots again, the second summer running.
+    n: '[[w.peirce-great-plains-states-of]], 131. Check: the days. See [[cal.1966-06.states-and-cities-minneapolis]].'
+    tags: [state:mn, city:minneapolis]
+  - id: cal.1967-06.open-housing
+    when: June, late
+    date: 1967-06
+    thread: open-housing
+    c: 'Weston, Ill. Raby and the Coordinating Council against federal funds for the atomic accelerator, the village having no fair housing ordinance: a "tent-in," a handful camping.'
+    n: '[[w.ralph-northern-protest]], 223; [[w.anderson-confronting-the-color-line]], 331 (the tent-in). Check: the day. Check: Anderson dates the tent-in''s start June 22, 1967, and has Bishop Montgomery, Rabbi Marx, Monsignor Egan and Edgar Chandler ask Kerner for a special session on open housing (331; pl. 16). To check: Chicago Daily News, 23 June 1967 (cited by [[w.anderson-confronting-the-color-line]], 331 n.15). Names: Raby.'
+    src:
+      c: 960eb715
+      rows:
+        - 'w.ralph-northern-protest 223: all'
+        - 'w.anderson-confronting-the-color-line 331: A-B'
+        - 'via w.anderson-confronting-the-color-line 331 n.15: A-B'
+    tags: [state:il, name:raby-albert]
+  - id: cal.1967-06.open-housing-2
+    when: June
+    date: 1967-06
+    thread: open-housing
+    also: [legislatures]
+    c: Springfield, Ill. Open housing dead in the General Assembly, within a week of the Joint Committee's vote.
+    n: '[[w.anderson-confronting-the-color-line]], 331. Check: the day; the bill. To check: Chicago Daily News, 16 June 1967; Chicago Sun-Times, 15 June 1967 (cited by [[w.anderson-confronting-the-color-line]], 331 n.14). See [[cal.1967-06-14.open-housing]].'
+    src:
+      c: e7838c59
+      rows:
+        - 'w.anderson-confronting-the-color-line 331: all'
+        - 'via w.anderson-confronting-the-color-line 331 n.14: all'
+    tags: [state:il]
+  - id: cal.1967-06.desegregation-schools-2
+    when: June
+    date: 1967-06
+    thread: desegregation-schools
+    also: [court]
+    c: 'Springfield, Ill. The Illinois Supreme Court strikes down the Armstrong Act of 1963. Raby: "particularly cruel."'
+    n: '[[w.anderson-confronting-the-color-line]], 331. Check: the day; the case. To check: Chicago Daily News, 23 June 1967 (cited by [[w.anderson-confronting-the-color-line]], 331 n.16). See [[cal.1963-02.desegregation-schools-3]]. Names: Raby.'
+    src:
+      c: 7e7de846
+      rows:
+        - 'w.anderson-confronting-the-color-line 331: all'
+        - 'via w.anderson-confronting-the-color-line 331 n.16: all'
+    tags: [name:raby-albert, state:il]
+  - id: cal.1967-06-30.school-aid
+    when: June 30
+    date: '1967-06-30'
+    thread: school-aid
+    c: 'The Friday task force''s secret report, 149 pages: Title I doubled in two years; the States induced to favor the cities; a "moon shot" in curriculum; $1.5 billion for city-suburb schools mixed by race and class in the fifty largest metropolitan areas; general aid to every college, 10 percent of instructional costs and $100 a student; a National Social Science Foundation; a free freshman year; Negro colleges paired with nearby white universities.'
+    n: '[[w.graham-uncertain-triumph]], 173–74. To check: Report of the 1966 Task Force on Education, June 30, 1967, Task Force File, container 4, LBJ Library (cited by [[w.graham-uncertain-triumph]], 173 n.29).'
+    src:
+      c: 074e2388
+      rows:
+        - 'w.graham-uncertain-triumph 173–74: all'
+        - 'via w.graham-uncertain-triumph 173 n.29: all'
+  - id: cal.1967-06.war-opposition-2
+    when: June
+    date: 1967-06
+    thread: war-opposition
+    c: 'McReynolds and Bloomstein quit *Liberation*''s editorial board: under Dellinger no longer a collective, and moving toward violence "as a legitimate, even radical, alternative."'
+    n: '[[w.debenedetti-american-ordeal]], 189. Check: the day; DeBenedetti: "at the end of June." Names: Dellinger.'
+    src:
+      c: f189b79e
+      rows:
+        - 'w.debenedetti-american-ordeal 189: all'
+        - 'via w.debenedetti-american-ordeal 189 n.87a: all'
+    tags: [name:dellinger-david]

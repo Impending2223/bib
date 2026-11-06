@@ -38,6 +38,8 @@ entries:
   - id: cal.1967-01-02.states-and-cities
     when: Jan. 2
     date: '1967-01-02'
+    time: 1967-01-02T08:00Z
+    time_approx: true
     thread: states-and-cities
     also: [elections-1966]
     c: Sacramento. Reagan sworn as governor of California in the Capitol just after midnight, Finch as lieutenant governor (Check the hour).
@@ -51,6 +53,7 @@ entries:
   - id: cal.1967-01-02.vietnam
     when: Jan. 2
     date: '1967-01-02'
+    time: 1967-01-02T12:38Z
     thread: vietnam-order-of-battle
     c: 'Westmoreland''s year-end assessment of the enemy situation and strategy, to Sharp and Wheeler, MACJ00 00160: the enemy''s strength up some 42,000 in 1966, a "proportional counter-buildup" to the growth of the American and allied forces; its sources conscription in the South and infiltration through the DMZ, "but principally through Laos and the Cambodian extension"; infiltration about 8,400 men a month, recruiting about 3,500. The enemy''s strength 300,575.'
     n: '[FRUS 1964–68, V, doc. 2](https://history.state.gov/historicaldocuments/frus1964-68v05/d2). [[w.berman-lyndon-johnsons-war]], 22. Names: Westmoreland, Sharp, Wheeler.'
@@ -88,7 +91,7 @@ entries:
     thread: war-opposition
     also: [press-and-broadcasting]
     c: 'Morgenthau in the *New Leader*, against the Freedom House statement: it "is trying to establish a political orthodoxy."'
-    n: '[[w.gibbons-u-s-government-and]], IV, 435. To check: *New Leader*, Jan. 2, 1967; *New York Times*, Nov. 30, 1966 (cited by [[w.gibbons-u-s-government-and]], IV, 435 nn.179–180).'
+    n: '[[w.gibbons-u-s-government-and]], IV, 435. To check: *New Leader*, Jan. 2, 1967; [*New York Times*, Nov. 30, 1966](https://timesmachine.nytimes.com/timesmachine/1966/11/30/issue.html) (cited by [[w.gibbons-u-s-government-and]], IV, 435 nn.179–180).'
     src:
       c: d8fb2829
       rows:
@@ -209,6 +212,7 @@ entries:
   - id: cal.1967-01-03.vietnam-diplomacy
     when: Jan. 3
     date: '1967-01-03'
+    time: 1967-01-04T00:10Z
     thread: vietnam-diplomacy
     c: 'Rostow to Johnson, 7:10 p.m., with Salisbury''s preliminary report from Hanoi: by Salisbury''s reading, the North wants to negotiate and does not know how to arrange talks. Rostow: "conceivable, if not probable, that they are trying to get out of the war but don''t know how"; send back only "Your message to Salisbury has been delivered. You will be hearing from us soon," then a direct message through Ne Win.'
     n: '[FRUS 1964–68, V, doc. 5](https://history.state.gov/historicaldocuments/frus1964-68v05/d5). [[w.gibbons-u-s-government-and]], IV, 501–02. Made public: FRUS 1964–68, V (2002). Check: Gibbons quotes "has been received." Names: Rostow, Johnson, Salisbury, Ne Win.'
@@ -301,6 +305,30 @@ entries:
       c: 3a28076d
       rows:
         - 'w.macv-command-history-1967 984: all'
+  - id: cal.1967-01-04.mayors
+    when: Jan. 4
+    date: '1967-01-04'
+    thread: mayors
+    also: [elections-1967]
+    c: Chicago, the city clerk's office. Daley wheels in petitions stacked ten feet high, 500,000 names by his aides' count; Waner, the Republican, files 11,000.
+    n: '[[w.cohen-american-pharaoh]], 431–32. Names: Daley, Waner.'
+    src:
+      c: f69c56a0
+      rows:
+        - 'w.cohen-american-pharaoh 431–32: all'
+    tags: [state:il, city:chicago, name:daley-richard-j, name:waner-john-l]
+  - id: cal.1967-01-04.program
+    when: Jan. 4–5
+    date: '1967-01-04'
+    thread: program
+    c: 'The legislative program and the printed budget found not to mesh: Califano, Schultze and Gaither, "a wild six or eight hour meeting," to put money into the budget for the program''s key elements. By Gaither''s account.'
+    n: '[[w.graham-uncertain-triumph]], 139–40. Check: the day; Gaither: "on 4 or 5 January." To check: Transcript, "James Gaither Oral History Interview," Nov. 19, 1968, LBJ Library (cited by [[w.graham-uncertain-triumph]], 140 n.13). Names: Califano, Schultze.'
+    src:
+      c: f4793a92
+      rows:
+        - 'w.graham-uncertain-triumph 139–40: all'
+        - 'via w.graham-uncertain-triumph 140 n.13: all'
+    tags: [name:califano-joseph-a-jr, name:schultze-charles-l]
   - id: cal.1967-01-05.africa
     when: Jan. 5
     date: '1967-01-05'
@@ -445,6 +473,18 @@ entries:
       rows:
         - 'w.staaveren-u-s-air-force 266: all'
     tags: [name:starbird-alfred-d]
+  - id: cal.1967-01-07.mayors
+    when: Jan. 7
+    date: '1967-01-07'
+    thread: mayors
+    also: [elections-1967]
+    c: Chicago, City Hall. Twenty-two Negro clergymen in Daley buttons endorse him.
+    n: '[[w.cohen-american-pharaoh]], 433. Names: Daley.'
+    src:
+      c: cf34a6f7
+      rows:
+        - 'w.cohen-american-pharaoh 433: all'
+    tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1967-01-08.vietnam
     when: Jan. 8
     date: '1967-01-08'
@@ -562,6 +602,7 @@ entries:
   - id: cal.1967-01-09.economy-surcharge
     when: Jan. 9
     date: '1967-01-09'
+    time: 1967-01-09T22:30Z
     thread: economy-surcharge
     also: [program]
     c: 'McNamara, Fowler, Wirtz, Connor, Schultze, Ackley, Clifford and Califano initial a memorandum recommending the surcharge, 5:30 p.m.; Clifford: "Does he want it notarized and sworn to?" The Cabinet reads the State of the Union one by one in Califano''s office, Fowler alone the tax section, Connor and Wirtz the merger of their departments.'
@@ -622,12 +663,24 @@ entries:
     date: '1967-01-09'
     thread: laos
     c: 'The 606th''s T-28Ds, call sign Zorro, begin daylight sorties in Steel Tiger: by the end of February 455 sorties, 42 trucks claimed destroyed and 68 damaged; one lost, three damaged.'
-    n: '[[w.staaveren-u-s-air-force]], 209, 214. To check: Warren A. Trest, Lucky Tiger Combat Operations (Project CHECO, Hickam AFB, Hawaii, 1967), pp 19-32 (cited by [[w.staaveren-u-s-air-force]], 209 n.42). See [[cal.1966-12-09.laos]].'
+    n: '[[w.staaveren-u-s-air-force]], 209, 214. To check: Warren A. Trest, Lucky Tiger Combat Operations (Project CHECO, Hickam AFB, Hawaii, 1967), pp 19–32 (cited by [[w.staaveren-u-s-air-force]], 209 n.42). See [[cal.1966-12-09.laos]].'
     src:
       c: 3c62db6f
       rows:
         - 'w.staaveren-u-s-air-force 209, 214: all'
         - 'via x.1967.warren-a-trest-lucky-tiger-combat-operations: ?'
+  - id: cal.1967-01-09.desegregation-schools
+    when: Jan. 9
+    date: '1967-01-09'
+    thread: desegregation-schools
+    also: [civil-rights-the-executive]
+    c: 'Chicago. The Office of Education''s report on the city''s schools, on the Coordinating Council''s complaint of July 1965: no cut in federal funds; four problems, the school boundaries, the assignment of faculty, the apprenticeship programs, the vocational trade schools; the board to answer by Apr. 1.'
+    n: '[[w.anderson-confronting-the-color-line]], 313. Check: the day; Anderson gives Jan. 6 at 335.'
+    src:
+      c: d33e0bf9
+      rows:
+        - 'w.anderson-confronting-the-color-line 313: all'
+    tags: [state:il, city:chicago]
   - id: cal.1967-01-10.rules
     when: Jan. 10
     date: '1967-01-10'
@@ -668,6 +721,7 @@ entries:
   - id: cal.1967-01-10.program
     when: Jan. 10
     date: '1967-01-10'
+    time: 1967-01-11T02:33Z
     thread: program
     also: [vietnam]
     c: 'State of the Union, to a joint session, 9:33 p.m. "A time of testing." Asked: social security up 20 percent on the average, the minimum from $44 to $70; age discrimination in employment barred; Head Start for children of three; clean air by "regional airsheds"; fair housing; jury discrimination ended; the draft reformed; wiretapping outlawed but for national security; truth in lending; election reform; a Safe Streets and Crime Control Act, firearms controlled; an East-West trade bill and the consular convention. A 6 percent surcharge on income taxes. Deficit $9.7 billion in fiscal 1967, $8.1 billion in 1968. The Soviets'' antimissile defense near Moscow. Vietnam: "We face more cost, more loss, and more agony"; "We will stand firm."'
@@ -699,6 +753,7 @@ entries:
   - id: cal.1967-01-10.economy
     when: Jan. 10
     date: '1967-01-10'
+    time: 1967-01-11T02:33Z
     thread: economy-surcharge
     also: [vietnam]
     c: 'The surcharge proposed in the State of the Union: 6 percent on individual and corporate income taxes, from July 1, for two years or as long as the war''s unusual costs last; some $4.5 billion in the first year. Tax rates still $20 billion a year below those of 1964, by Johnson''s figure.'
@@ -743,7 +798,7 @@ entries:
     thread: intelligence
     also: [robert-kennedy, king]
     c: 'Hoover on the Hill as the 90th Congress meets. To House supporters, by his aide''s notes: "many other documents proving Bobby was lying"; no court-approved surveillance, judges "untrustworthy." To the Senate Judiciary''s Subcommittee on Administrative Practice, "FBI Use of Electronic Listening Devices": "None of this misinformation has emanated from the FBI"; Robert Kennedy signed the order on King.'
-    n: '[[w.branch-at-canaans-edge]], 570–71. To check: Jones to Wick, Jan. 10, 1967, FACP-NR (cited by [[w.branch-at-canaans-edge]], 570); Hoover statement, "FBI Use of Electronic Listening Devices," Jan. 10, 1967, before the Subcommittee on Administrative Practice and Procedure, Committee of the Judiciary, U.S. Senate, Section 129, FHOC (emphasis in original) (cited by [[w.branch-at-canaans-edge]], 570); Hoover statement, "FBI Use of Electronic Listening Devices," Jan. 10, 1967, before the Subcommittee on Administrative Practice and Procedure, Committee of the Judiciary, U.S. Senate, Section 129, FHOC (emphasis in original) (cited by [[w.branch-at-canaans-edge]], 570); Brownell to Hoover, May 20, 1954, reprinted in Macy and Kaplan, Documents, pp. 41-43. See also Belmont to Boardman, May 21, 1954 (Section 114, FHOC), which announces the FBI''s practical interpretation of the memo: "the Attorney General is giving us the go ahead on microphones whether or not there is trespass at the same time suggesting that discretion be used in certain AeA se William Manchester scarcely mentioned: Manchester, Death, p. 631 (cited by [[w.branch-at-canaans-edge]], 570). Names: Hoover, Robert Kennedy, King.'
+    n: '[[w.branch-at-canaans-edge]], 570–71. To check: Jones to Wick, Jan. 10, 1967, FACP-NR (cited by [[w.branch-at-canaans-edge]], 570); Hoover statement, "FBI Use of Electronic Listening Devices," Jan. 10, 1967, before the Subcommittee on Administrative Practice and Procedure, Committee of the Judiciary, U.S. Senate, Section 129, FHOC (emphasis in original) (cited by [[w.branch-at-canaans-edge]], 570); Hoover statement, "FBI Use of Electronic Listening Devices," Jan. 10, 1967, before the Subcommittee on Administrative Practice and Procedure, Committee of the Judiciary, U.S. Senate, Section 129, FHOC (emphasis in original) (cited by [[w.branch-at-canaans-edge]], 570); Brownell to Hoover, May 20, 1954, reprinted in Macy and Kaplan, Documents, pp. 41–43. See also Belmont to Boardman, May 21, 1954 (Section 114, FHOC), which announces the FBI''s practical interpretation of the memo: "the Attorney General is giving us the go ahead on microphones whether or not there is trespass at the same time suggesting that discretion be used in certain AeA se William Manchester scarcely mentioned: Manchester, Death, p. 631 (cited by [[w.branch-at-canaans-edge]], 570). Names: Hoover, Robert Kennedy, King.'
     src:
       c: 090c29d0
       rows:
@@ -764,6 +819,17 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d113: all'
     tags: [name:fowler-henry-h]
+  - id: cal.1967-01-10.desegregation-schools
+    when: Jan. 10
+    date: '1967-01-10'
+    thread: desegregation-schools
+    c: 'Chicago, the Board of Education. Redmond promises to meet and "to go beyond federal regulations": "We shall be back with a blueprint of these aims."'
+    n: '[[w.anderson-confronting-the-color-line]], 313. See [[cal.1967-01-09.desegregation-schools]].'
+    src:
+      c: 8c38762d
+      rows:
+        - 'w.anderson-confronting-the-color-line 313: all'
+    tags: [state:il, city:chicago]
   - id: cal.1967-01-11.opinion
     when: Jan. 11
     date: '1967-01-11'
@@ -857,6 +923,7 @@ entries:
   - id: cal.1967-01-11.program-2
     when: Jan. 11
     date: '1967-01-11'
+    time: 1967-01-12T01:27Z
     thread: program
     also: [civil-rights-organizations]
     c: 'Johnson to Wilkins by telephone, 8:27 p.m.: "Our whole damn program is dead as a doornail. I think the Republicans have taken over. I think they are in control. I think our own people have split up."'
@@ -867,6 +934,19 @@ entries:
         - 'w.zelizer-fierce-urgency-of-now 265: all'
         - 'via w.zelizer-fierce-urgency-of-now 265 n.5: all'
     tags: [name:johnson-lyndon-b, name:wilkins-roy]
+  - id: cal.1967-01-11.war-opposition
+    when: Jan. 11
+    date: '1967-01-11'
+    thread: war-opposition
+    also: [vietnam-diplomacy]
+    c: 'Philip Berrigan to Rusk, with Gottlieb of SANE: the State Department''s encouragement sought for a visit to Hanoi "on an absolutely private and confidential basis," to open contact between the governments. Little interest; the government "furious," by Gottlieb''s report.'
+    n: '[[w.debenedetti-american-ordeal]], 170. Names: Berrigan, Rusk.'
+    src:
+      c: a6445828
+      rows:
+        - 'w.debenedetti-american-ordeal 170: all'
+        - 'via w.debenedetti-american-ordeal 170 n.5a: all'
+    tags: [name:berrigan-philip, name:rusk-dean]
   - id: cal.1967-01-12.vietnam
     when: Jan. 12
     date: '1967-01-12'
@@ -921,7 +1001,7 @@ entries:
     date: '1967-01-13'
     thread: vietnam-diplomacy
     c: 'Salisbury, back from Hanoi, with Rusk and William Bundy at State, the press officer sent out at his insistence: he reports his talk with Phạm Văn Đồng. By Salisbury''s account, Rusk lectured him on the war; Bundy listened. Rusk to Johnson, Jan. 14: some of it "mood music," but Đồng''s remarks point to a "package deal" reached in secret bilateral talks.'
-    n: 'The meeting, Jan. 13: Editorial Note, [FRUS 1964–68, V: Vietnam, 1967, doc. 3](https://history.state.gov/historicaldocuments/frus1964-68v05/d3) (Salisbury with Rusk and William Bundy; his account of Phạm Văn Đồng). [[w.gibbons-u-s-government-and]], IV, 500–02 (and Salisbury''s account, CRS interview, Jan. 9, 1979). To check: Rusk to Johnson, "Highlights of Harrison Salisbury Private Report to Me," Jan. 14, 1967, State, Lot File 85 D 240 (cited by [[w.gibbons-u-s-government-and]], IV, 501 n.66); memorandum of conversation, Jan. 13, 1967 (National Archives, RG 59, Central Files 1964–69, POL 27–14 VIET S; cited by FRUS; a copy attached to Rostow to Johnson, Jan. 19, 1967, NSF Country File, Vietnam, LBJ Library, cited by [[w.gibbons-u-s-government-and]], IV, 502 n.67); [[w.salisbury-time-of-change]], 160–63. See [[cal.1966-12-25.vietnam]]. Names: Salisbury, Rusk, William Bundy, Phạm Văn Đồng, Johnson.'
+    n: 'The meeting, Jan. 13: Editorial Note, [FRUS 1964–68, V: Vietnam, 1967, doc. 3](https://history.state.gov/historicaldocuments/frus1964-68v05/d3) (Salisbury with Rusk and William Bundy; his account of Phạm Văn Đồng). [[w.gibbons-u-s-government-and]], IV, 500–02 (and Salisbury''s account, CRS interview, Jan. 9, 1979); [[w.bernstein-guns-or-butter]], 413 (Johnson will not see him; Rostow offered; Rusk and William Bundy). To check: Rusk to Johnson, "Highlights of Harrison Salisbury Private Report to Me," Jan. 14, 1967, State, Lot File 85 D 240 (cited by [[w.gibbons-u-s-government-and]], IV, 501 n.66); memorandum of conversation, Jan. 13, 1967 (National Archives, RG 59, Central Files 1964–69, POL 27–14 VIET S; cited by FRUS; a copy attached to Rostow to Johnson, Jan. 19, 1967, NSF Country File, Vietnam, LBJ Library, cited by [[w.gibbons-u-s-government-and]], IV, 502 n.67); [[w.salisbury-time-of-change]], 160–63. See [[cal.1966-12-25.vietnam]]. Names: Salisbury, Rusk, William Bundy, Phạm Văn Đồng, Johnson.'
     src:
       c: 6bd3ccd7
       rows:
@@ -931,6 +1011,7 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 501 n.66: D'
         - 'via w.gibbons-u-s-government-and IV, 502 n.67: A'
         - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d3: A'
+        - 'w.bernstein-guns-or-butter 413: A-B'
     tags: [name:salisbury-harrison-e, name:rusk-dean, name:bundy-william, name:pham-van-dong, name:johnson-lyndon-b]
   - id: cal.1967-01-13.soviet-union
     when: Jan. 13
@@ -960,6 +1041,7 @@ entries:
   - id: cal.1967-01-13.vietnam-3
     when: Jan. 13
     date: '1967-01-13'
+    time: 1967-01-13T19:42Z
     thread: vietnam
     c: 'Wheeler, back from Vietnam, with Johnson, Rusk, McNamara, Katzenbach, Vance and Rostow, 2:42 to 4:25 p.m.: the Communists can "no longer hope to win militarily."'
     n: '[[w.gibbons-u-s-government-and]], IV, 529 (by Wheeler''s later cable; no notes of the meeting known). To check: Wheeler to Sharp and Westmoreland, JCS 1284-67, Feb. 17, 1967, Westmoreland Papers, Message Files, CMH (cited by [[w.gibbons-u-s-government-and]], IV, 529 n.7). Names: Wheeler, Johnson, Rusk, McNamara, Katzenbach, Vance, Rostow.'
@@ -1025,6 +1107,18 @@ entries:
       rows:
         - 'w.staaveren-u-s-air-force 196: all'
     tags: [name:momyer-william-w, name:westmoreland-william, name:sullivan-william-h]
+  - id: cal.1967-01-14.school-aid
+    when: Jan. 14
+    date: '1967-01-14'
+    thread: school-aid
+    also: [poverty]
+    c: 'Hunt''s task force reports, "A Bill of Rights for Children": $25.7 billion a year in federal benefits for 19 million over sixty-five, $1,350 each, $2 billion for 24 million under six, $85; a Federal Office for Children in HEW, an "ombudsman"; community commissions and neighborhood centers; "the financial commitment must be massive."'
+    n: '[[w.graham-uncertain-triumph]], 143–45. To check: "Report of the President''s Task Force on Early Childhood Development," Jan. 14, 1967 ("A Bill of Rights for Children"), Task Forces file, container 4, LBJ Library (cited by [[w.graham-uncertain-triumph]], 143 n.19).'
+    src:
+      c: 4c64e793
+      rows:
+        - 'w.graham-uncertain-triumph 143–45: all'
+        - 'via w.graham-uncertain-triumph 143 n.19: all'
   - id: cal.1967-01-15.opinion
     when: Jan. 15
     date: '1967-01-15'
@@ -1060,7 +1154,7 @@ entries:
     date: '1967-01-15'
     thread: war-opposition
     c: '462 members of the Yale faculty and administration, five deans and fifteen department chairmen among them, to Johnson by letter: halt the bombing of the North unconditionally. They cite Salisbury''s articles.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 553. To check: *New York Times*, Jan. 16, 1967 (cited by [[w.gibbons-u-s-government-and]], IV, 553 n.86).'
+    n: '[[w.gibbons-u-s-government-and]], IV, 553. To check: [*New York Times*, Jan. 16, 1967](https://timesmachine.nytimes.com/timesmachine/1967/01/16/issue.html) (cited by [[w.gibbons-u-s-government-and]], IV, 553 n.86).'
     src:
       c: a34c2a4f
       rows:
@@ -1090,6 +1184,7 @@ entries:
   - id: cal.1967-01-16.transition-and-staff
     when: Jan. 16–18
     date: '1967-01-16'
+    time: 1967-01-16T16:36Z
     thread: transition-and-staff
     also: [transportation]
     c: Cabinet. Jan. 16, Boyd sworn in the East Room as the first Secretary of Transportation. Jan. 18, Connor's resignation as Secretary of Commerce accepted, from Jan. 31; Trowbridge, Assistant Secretary, to act.
@@ -1150,6 +1245,27 @@ entries:
       rows:
         - 'w.macv-command-history-1967 219: all'
     tags: [name:westmoreland-william]
+  - id: cal.1967-01-16.states-and-cities
+    when: Jan. 16
+    date: '1967-01-16'
+    thread: states-and-cities
+    c: 'Chicago. McCormick Place burns during the housewares exhibition; no sprinklers or fire walls. Jan. 17, Daley with the Metropolitan Fair and Exposition Authority: a new hall twice as large.'
+    n: '[[w.cohen-american-pharaoh]], 433. Names: Daley.'
+    src:
+      c: 5da3c341
+      rows:
+        - 'w.cohen-american-pharaoh 433: all'
+    tags: [state:il, city:chicago, name:daley-richard-j]
+  - id: cal.1967-01-16.conservation
+    when: Jan. 16
+    date: '1967-01-16'
+    thread: conservation
+    c: Commerce proposes regulations under the Highway Beautification Act; refused by Congress.
+    n: '[[w.bernstein-guns-or-butter]], 303. Check: the Federal Register. See [[cal.1965-10-22.conservation]].'
+    src:
+      c: 8f16dbd4
+      rows:
+        - 'w.bernstein-guns-or-butter 303: all'
   - id: cal.1967-01-17.open-housing
     when: Jan. 17
     date: '1967-01-17'
@@ -1184,6 +1300,7 @@ entries:
   - id: cal.1967-01-17.vietnam
     when: Jan. 17
     date: '1967-01-17'
+    time: 1967-01-17T18:15Z
     thread: vietnam
     also: [vietnam-congress]
     c: 'Tuesday lunch, Johnson with Rusk, McNamara, Rostow and Tom Johnson, 1:15 to 3:10 p.m. On Johnson''s question of a new congressional resolution on Vietnam, opposed at State and by McPherson (the vote would fall off from 1964''s 502–2; it would cast doubt on the war''s legality since), Rostow notes: "No, put off. Skeptical. No decision."'
@@ -1250,8 +1367,10 @@ entries:
     when: Jan. 17
     date: '1967-01-17'
     thread: vietnam-sunflower
+    follows:
+      - cal.1967-01-17.vietnam-sunflower
     c: 'State to Moscow, 7:30 p.m., telegram 120335, drafted by William Bundy, held for an execute order: Guthrie to tell the North Vietnamese chargé that a "completely secure arrangement" means talks disclosed to no other government or party but by mutual agreement; and to give seven possible subjects of talks, among them the reduction or cessation of hostilities, the withdrawal of forces from outside South Vietnam, reunification, and free political participation in the South.'
-    n: '[FRUS 1964–68, V, doc. 18](https://history.state.gov/historicaldocuments/frus1964-68v05/d18). [[w.gibbons-u-s-government-and]], IV, 504–05. Made public: FRUS 1964–68, V (2002). To check: [[w.herring-secret-diplomacy-of-the]], 417 (cited by [[w.gibbons-u-s-government-and]], IV, 505 n.74). See [[cal.1967-01-10.vietnam-sunflower]]. Names: William Bundy, Guthrie.'
+    n: '[FRUS 1964–68, V, doc. 18](https://history.state.gov/historicaldocuments/frus1964-68v05/d18). [[w.gibbons-u-s-government-and]], IV, 504–05. Made public: FRUS 1964–68, V (2002). Order: the answer to Moscow 3066, the day''s report (doc. 18, its reference). To check: [[w.herring-secret-diplomacy-of-the]], 417 (cited by [[w.gibbons-u-s-government-and]], IV, 505 n.74). See [[cal.1967-01-10.vietnam-sunflower]]. Names: William Bundy, Guthrie.'
     src:
       c: e5c41015
       rows:
@@ -1278,6 +1397,7 @@ entries:
   - id: cal.1967-01-18.vietnam-congress
     when: Jan. 18
     date: '1967-01-18'
+    time: 1967-01-18T14:40Z
     thread: vietnam-congress
     also: [vietnam-sunflower]
     c: Johnson with Mansfield, Dirksen, Fulbright, Hickenlooper, Russell and Aiken in the Cabinet Room, 9:40 to 10:45 a.m., Rostow the only staff; Margaret Chase Smith invited, not present. No record of what was said. Jan. 24, the Foreign Relations Committee decides to hold its hearings.
@@ -1334,7 +1454,7 @@ entries:
     thread: war-opposition
     also: [king]
     c: 'Ocho Rios, Jamaica. Bevel at King''s door, from a voice: "Why are you teaching nonviolence to Negroes in Mississippi but not to Lyndon Johnson in Vietnam?" King sends him off with leave to join Muste''s spring mobilization: "Bevel sounds like he''s off his rocker."'
-    n: '[[w.branch-at-canaans-edge]], 576–77. To check: Int. Bernard Lee, June 19, 1985 (Branch) (cited by [[w.branch-at-canaans-edge]], 576); Int. James Bevel, Aug. 13, 1992 (Branch) (cited by [[w.branch-at-canaans-edge]], 576, 577); [[w.garrow-bearing-the-cross]], 543 (cited by [[w.branch-at-canaans-edge]], 577); [[w.young-easy-burden]], 425–26 (cited by [[w.branch-at-canaans-edge]], 577); Wiretap transcript oftelephone conference call among MLK (from Jamaica), Stanley Levison (from New York), and Andrew Young and Ralph Abernathy (from Chicago), 3:05 p.m., Jan. 19, 1967, FLN Y-9-1189a (cited by [[w.branch-at-canaans-edge]], 577). Names: King.'
+    n: '[[w.branch-at-canaans-edge]], 576–77; [[w.young-easy-burden]], 425 (Bevel, after his vision, sent by Young to King in Jamaica; not the words at the door). To check: Int. Bernard Lee, June 19, 1985 (Branch) (cited by [[w.branch-at-canaans-edge]], 576); Int. James Bevel, Aug. 13, 1992 (Branch) (cited by [[w.branch-at-canaans-edge]], 576, 577); [[w.garrow-bearing-the-cross]], 543 (cited by [[w.branch-at-canaans-edge]], 577); [[w.young-easy-burden]], 425–26 (cited by [[w.branch-at-canaans-edge]], 577); Wiretap transcript oftelephone conference call among MLK (from Jamaica), Stanley Levison (from New York), and Andrew Young and Ralph Abernathy (from Chicago), 3:05 p.m., Jan. 19, 1967, FLN Y-9-1189a (cited by [[w.branch-at-canaans-edge]], 577). Names: King.'
     src:
       c: 984c93cc
       rows:
@@ -1342,10 +1462,12 @@ entries:
         - 'via x.1985-06-19.int-bernard-lee-june-19-1985: all'
         - 'via x.1992-08-13.int-james-bevel-aug-13-1992: all'
         - 'via x.1967-01-19.wiretap-transcript-oftelephone-conference-call-among: all'
+        - 'w.young-easy-burden 425: A'
     tags: [name:king-martin-luther-jr]
   - id: cal.1967-01-19.vietnam-air-war
     when: Jan. 19
     date: '1967-01-19'
+    time: 1967-01-19T19:00Z
     thread: vietnam-air-war
     c: 'Rostow to Johnson, 2 p.m., on his talk the evening before with Clifford about a committee on the bombing. Clifford: "There is no substitute, in a matter of this kind, for the President''s personal, lonely judgment"; to ask outside advice would show "that the President was uncertain"; if anything, a very small group, three men, no report. Rostow agrees: a committee "would be unsettling and possibly explosive, if made public," as though Johnson lacked confidence in the Joint Chiefs'' and McNamara''s advice.'
     n: '[FRUS 1964–68, V, doc. 22](https://history.state.gov/historicaldocuments/frus1964-68v05/d22). [[w.berman-lyndon-johnsons-war]], 24–25 (Clifford''s words; Rostow''s); [[w.gibbons-u-s-government-and]], IV, 557. Check: Berman (24) has Clifford write to Rostow; the memorandum reports a talk. See [[cal.1967-01.vietnam-air-war]]. Names: Rostow, Johnson, Clifford, McNamara.'
@@ -1418,7 +1540,7 @@ entries:
     date: '1967-01-20'
     thread: vietnam-congress-armed-services
     c: 'Stennis: 500,000 American troops needed by the end of 1967; strike the North''s steel mills, cement and power plants, not only the targets called military.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 550. To check: *New York Times*, Jan. 21, 1967 (cited by [[w.gibbons-u-s-government-and]], IV, 550 n.76). Names: Stennis.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 550. To check: [*New York Times*, Jan. 21, 1967](https://timesmachine.nytimes.com/timesmachine/1967/01/21/issue.html) (cited by [[w.gibbons-u-s-government-and]], IV, 550 n.76). Names: Stennis.'
     src:
       c: b7d596e3
       rows:
@@ -1479,7 +1601,7 @@ entries:
     date: '1967-01-21'
     thread: war-opposition
     c: 'The Ad Hoc Faculty Committee on Vietnam, Hilary Putnam of Harvard its chairman: 6,000 signatures of faculty at 200 institutions in 37 States against more bombing of the North.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 553. To check: *New York Times*, Jan. 22, 1967 (cited by [[w.gibbons-u-s-government-and]], IV, 553 n.88).'
+    n: '[[w.gibbons-u-s-government-and]], IV, 553. To check: [*New York Times*, Jan. 22, 1967](https://timesmachine.nytimes.com/timesmachine/1967/01/22/issue.html) (cited by [[w.gibbons-u-s-government-and]], IV, 553 n.88).'
     src:
       c: 891b19af
       rows:
@@ -1544,6 +1666,17 @@ entries:
         - 'w.anthony-war-in-northern-laos 216: all'
         - 'via w.anthony-war-in-northern-laos 216 n.95a: all'
         - 'via w.anthony-war-in-northern-laos 216 n.95b: all'
+  - id: cal.1967-01-22.war-opposition
+    when: Jan. 22
+    date: '1967-01-22'
+    thread: war-opposition
+    c: 'New York, St. Patrick''s Cathedral, the ten o''clock high mass, after Spellman''s "war for civilization": demonstrators unfurl posters of a wounded Vietnamese child, "THOU SHALT NOT KILL"; 23 arrested.'
+    n: '[[w.zaroulis-who-spoke-up]], 101. Names: Spellman.'
+    src:
+      c: 496c5b44
+      rows:
+        - 'w.zaroulis-who-spoke-up 101: all'
+    tags: [name:spellman-francis, state:ny, city:nyc]
   - id: cal.1967-01-23.welfare
     when: Jan. 23
     date: '1967-01-23'
@@ -1657,8 +1790,10 @@ entries:
     date: '1967-01-24'
     thread: economy
     also: [congress]
+    follows:
+      - cal.1967-01-24.economy
     c: 'Mahon, chairman of House Appropriations, on the budget: "When we are in an inflationary period and the budget is in the red, it is especially imperative that we take a critical look at all the phases of the budget and cut everything as much as we can."'
-    n: '[[w.zelizer-fierce-urgency-of-now]], 272. To check: "Congress Vows a ''Hard Look,''" *Boston Globe*, Jan. 25, 1967 (cited by [[w.zelizer-fierce-urgency-of-now]], 272 n.15). Check: the day of the remark. See [[cal.1967-01-24.economy]]. Names: Mahon.'
+    n: '[[w.zelizer-fierce-urgency-of-now]], 272. Order: on the budget sent that day. To check: "Congress Vows a ''Hard Look,''" *Boston Globe*, Jan. 25, 1967 (cited by [[w.zelizer-fierce-urgency-of-now]], 272 n.15). Check: the day of the remark. See [[cal.1967-01-24.economy]]. Names: Mahon.'
     src:
       c: b3f7793e
       rows:
@@ -1682,6 +1817,7 @@ entries:
   - id: cal.1967-01-25.robert-kennedy
     when: Jan. 25
     date: '1967-01-25'
+    time: 1967-01-26T00:45Z
     thread: robert-kennedy
     also: [poverty]
     c: 'Johnson to Katzenbach by telephone, 7:45 p.m.: "We''ve got Bobby and this crowd hitting us every day from the inside so our ... party''s just split wide open." "I''ve got in all the Congress would authorize."'
@@ -1696,6 +1832,7 @@ entries:
   - id: cal.1967-01-25.robert-kennedy-2
     when: Jan. 25
     date: '1967-01-25'
+    time: 1967-01-26T01:22Z
     thread: robert-kennedy
     also: [baker]
     c: 'Johnson to Ramsey Clark by telephone, 8:22 p.m., on the polls: "As a result of this Manchester crap ... instead of his leading us, we''re leading him." On the Baker case, a "double standard" at Justice: "They said [Baker] deceived me."'
@@ -1714,7 +1851,7 @@ entries:
     thread: war-opposition
     also: [king]
     c: 'King to the Nobel Institute, nominating Thich Nhat Hanh for the Peace Prize of 1967: "Thich Nhat Hanh offers a way out of this nightmare." The January *Ramparts*, "The Children of Vietnam," among his papers.'
-    n: '[[w.branch-at-canaans-edge]], 577. To check: William F. Pepper, "The Children of Vietnam," with preface by Dr. Benjamin Spock, Ramparts, Jan. 1967, pp. 44-67 (cited by [[w.branch-at-canaans-edge]], 577); [[w.zaroulis-who-spoke-up]], 104—5 (cited by [[w.branch-at-canaans-edge]], 577); [[w.garrow-bearing-the-cross]], 543 (cited by [[w.branch-at-canaans-edge]], 577); Int. Bernard Lee, June 19, 1985 (Branch) (cited by [[w.branch-at-canaans-edge]], 577); MLK to Nobel Institute, Jan. 25, 1967, www.iamhome .org/mlkletter.htm (cited by [[w.branch-at-canaans-edge]], 577). Names: King.'
+    n: '[[w.branch-at-canaans-edge]], 577; [[w.zaroulis-who-spoke-up]], 104 (the January Ramparts on the children wounded in the war). To check: William F. Pepper, "The Children of Vietnam," with preface by Dr. Benjamin Spock, Ramparts, Jan. 1967, pp. 44–67 (cited by [[w.branch-at-canaans-edge]], 577); [[w.garrow-bearing-the-cross]], 543 (cited by [[w.branch-at-canaans-edge]], 577); Int. Bernard Lee, June 19, 1985 (Branch) (cited by [[w.branch-at-canaans-edge]], 577); MLK to Nobel Institute, Jan. 25, 1967, www.iamhome .org/mlkletter.htm (cited by [[w.branch-at-canaans-edge]], 577). Names: King.'
     src:
       c: ea63b90e
       rows:
@@ -1722,6 +1859,7 @@ entries:
         - 'via x.1967-01.william-f-pepper-the-children-of: all'
         - 'via x.1985-06-19.int-bernard-lee-june-19-1985: all'
         - 'via x.1967-01-25.mlk-to-nobel-institute-jan-25: all'
+        - 'w.zaroulis-who-spoke-up 104: B'
     tags: [name:king-martin-luther-jr]
   - id: cal.1967-01-25.rules
     when: Jan. 25
@@ -1782,6 +1920,7 @@ entries:
   - id: cal.1967-01-26.vietnam-operations
     when: Jan. 26
     date: '1967-01-26'
+    time: 1967-01-26T16:00Z
     thread: vietnam-operations
     c: 'Cedar Falls ends at midnight, after nineteen days. Counted: nearly 750 of the enemy dead, 280 prisoners, 540 ralliers, 512 suspects detained, 5,987 refugees moved; 3,700 tons of rice taken. American losses 72 killed, 337 wounded; South Vietnamese 11 killed, 8 wounded.'
     n: '[[w.rogers-cedar-falls-junction-city]], 59, 74–75; [[w.thayer-systems-analysis-view]], vol. 4, 132. [[w.macv-command-history-1967]], 386–87 (Jan. 19, the "underground city"; 1,113 tactical air strikes and 96 B-52 missions; ended Jan. 26, 720 of the enemy killed, 3,702 tons of rice taken or destroyed, almost 6,000 refugees moved); [[w.cosmas-joint-chiefs-of-staff]], 33 (ended Jan. 26; the losses). Check: MACV''s History, 387, gives 720 of the enemy killed. Check: Cosmas gives 720 of the enemy killed and 200 captured (33). See [[cal.1967-01-08.vietnam]].'
@@ -1814,11 +1953,24 @@ entries:
     date: '1967-01-26'
     thread: transition-and-staff
     c: 'The Senate Commerce Committee hears nominees: Everett Hutchinson, Under Secretary of Transportation; John E. Robson, General Counsel of the Department of Transportation; Joseph W. Bartlett, General Counsel of the Department of Commerce.'
-    n: '[*Nominations: Hearings Before the S. Comm. on Commerce*, 90th Cong. (1967)](https://www.govinfo.gov/app/details/CHRG-90shrg89620), 5 (Bartlett), 6 (Hutchinson), 15 (Robson). Names: Hutchinson, Robson, Bartlett.'
+    n: '*Nominations: Hearings Before the S. Comm. on Commerce*, 90th Cong. (1967) ([online](https://www.govinfo.gov/app/details/CHRG-90shrg89620)), 5 (Bartlett), 6 (Hutchinson), 15 (Robson). Names: Hutchinson, Robson, Bartlett.'
     tags: [name:bartlett-joseph-w, name:hutchinson-everett, name:robson-john-e]
+  - id: cal.1967-01-26.school-aid
+    when: Jan. 26
+    date: '1967-01-26'
+    thread: school-aid
+    c: 'Huitt to Cater, Wilson and Manatos: Charles Lee of Morse''s staff complains to the Office of Education that the requests were "not educationally sound but were ''rationalizations'' to justify budget cuts because of defense commitments."'
+    n: '[[w.graham-uncertain-triumph]], 147. To check: Memorandum, Huitt to Cater, Wilson, and Manatos, Jan. 26, 1967, Cater file, container 15, LBJ Library (cited by [[w.graham-uncertain-triumph]], 147 n.28). Names: Huitt, Cater, Wilson, Manatos.'
+    src:
+      c: 6b8877d0
+      rows:
+        - 'w.graham-uncertain-triumph 147: all'
+        - 'via w.graham-uncertain-triumph 147 n.28: all'
+    tags: [name:huitt-ralph-k, name:cater-s-douglass, name:wilson-henry-hall, name:manatos-mike-n]
   - id: cal.1967-01-27.space
     when: Jan. 27
     date: '1967-01-27'
+    time: 1967-01-27T22:15Z
     thread: space
     also: [soviet-union, testing]
     c: 'Outer Space Treaty signed at Washington, London and Moscow, [18 U.S.T. 2410](https://tile.loc.gov/storage-services/service/ll/lltreaties//lltreaties-18-3/lltreaties-18-3.pdf#page=94), [610 U.N.T.S. 205](https://treaties.un.org/doc/Publication/UNTS/Volume%20610/volume-610-I-8843-English.pdf). No nuclear weapons or other weapons of mass destruction in orbit, on the moon or other celestial bodies; no claims of sovereignty there; installations on celestial bodies open to the others. In the East Room, 5:15 p.m., Rusk, Dobrynin and Dean, the British ambassador; Goldberg. In Moscow, Kosygin to Thompson after the ceremony: the Americans "constantly escalating" in Vietnam.'
@@ -1846,7 +1998,7 @@ entries:
     thread: war-opposition
     also: [students]
     c: 'Lowenstein''s campaign: fifty Rhodes Scholars'' open letter questioning the war, front pages Jan. 27. Jan. 31, forty of the hundred student body presidents who had written Johnson see Rusk; asked about nuclear war: "Well, somebody''s going to get hurt."'
-    n: '[[w.branch-at-canaans-edge]], 577. To check: Chate, *Never* (n.d.), 251–52 (cited by [[w.branch-at-canaans-edge]], 577); Powers, *The WaratHome* (1973), 178 (cited by [[w.branch-at-canaans-edge]], 577); Coffin, *Once to Every Man* (1977), 209–23 (cited by [[w.branch-at-canaans-edge]], 577); "War Aim Questioned by Rhodes Scholars," NYT, Jan. 27, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 577); Bob (Spearman) to Lowenstein, with London press release of Jan. 27, 1967, Folder 106, Box 54, AL, UNC (cited by [[w.branch-at-canaans-edge]], 577); New York Times, Dec. 30, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 577); [[w.wells-war-within]], 118–19 (cited by [[w.branch-at-canaans-edge]], 577); Kabaservice, *The Guardians* (2004), 298–99 (cited by [[w.branch-at-canaans-edge]], 577); New York Times, Jan. 16, 1967, p. 8 (cited by [[w.branch-at-canaans-edge]], 577). Names: Lowenstein, Rusk.'
+    n: '[[w.branch-at-canaans-edge]], 577; [[w.wells-war-within]], 118–19 (the letter of a hundred student body presidents and editors; Rusk with the students Jan. 31; "Well, somebody''s going to get hurt"; Lowenstein their coordinator); [[w.zaroulis-who-spoke-up]], 124–25 (the letter of December from student leaders of a hundred colleges; the Rhodes scholars'' of Jan. 26, answered Feb. 20; 38 with Rusk, Feb. 1); [[w.debenedetti-american-ordeal]], 171 (fifty Rhodes scholars among the week''s new groups). Check: [[w.wells-war-within]] gives forty-three students (118). Check: Zaroulis and Sullivan, 124, give 38 students with Rusk, Feb. 1. To check: Chate, *Never* (n.d.), 251–52 (cited by [[w.branch-at-canaans-edge]], 577); Powers, *The WaratHome* (1973), 178 (cited by [[w.branch-at-canaans-edge]], 577); Coffin, *Once to Every Man* (1977), 209–23 (cited by [[w.branch-at-canaans-edge]], 577); "War Aim Questioned by Rhodes Scholars," NYT, Jan. 27, 1967, p. 1 (cited by [[w.branch-at-canaans-edge]], 577); Bob (Spearman) to Lowenstein, with London press release of Jan. 27, 1967, Folder 106, Box 54, AL, UNC (cited by [[w.branch-at-canaans-edge]], 577); New York Times, Dec. 30, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 577); Kabaservice, *The Guardians* (2004), 298–99 (cited by [[w.branch-at-canaans-edge]], 577); New York Times, Jan. 16, 1967, p. 8 (cited by [[w.branch-at-canaans-edge]], 577). Names: Lowenstein, Rusk.'
     src:
       c: 21ecfa21
       rows:
@@ -1859,6 +2011,9 @@ entries:
         - 'via x.1966-12-30.new-york-times-dec-30-1966: all'
         - 'via x.2004.kabaservice-geoffrey-the-guardians-kingman-brewster: all'
         - 'via x.1967-01-16.new-york-times-jan-16-1967-2: all'
+        - 'w.wells-war-within 118–19: B-C'
+        - 'w.zaroulis-who-spoke-up 124–25: ?'
+        - 'w.debenedetti-american-ordeal 171: A'
     tags: [name:lowenstein-allard, name:rusk-dean]
   - id: cal.1967-01-27.vietnam-operations
     when: Jan. 27
@@ -1896,6 +2051,8 @@ entries:
     when: Jan. 27
     date: '1967-01-27'
     thread: vietnam-sunflower
+    follows:
+      - cal.1967-01-27.vietnam
     c: 'State to Thompson, new at Moscow, telegram 127220, on the North Vietnamese message of the day: is it the "start of a dialogue with the other side staking out an opening extreme position"?'
     n: '[[w.gibbons-u-s-government-and]], IV, 507. To check: Washington to Moscow 127220, Jan. 27, 1967, printed in [[w.herring-secret-diplomacy-of-the]], 421 (cited by [[w.gibbons-u-s-government-and]], IV, 507 n.79). See [[cal.1967-01-27.vietnam]]. Names: Thompson.'
     src:
@@ -2068,7 +2225,7 @@ entries:
     date: '1967-01-30'
     thread: war-opposition
     c: Letters to Johnson against the bombing from 239 of the Cornell faculty and from 100 of Dartmouth's faculty and administration. Dartmouth's sent to Morse, Jan. 30; in the Record Feb. 20.
-    n: '[113 Cong. Rec. 4021–22](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt3/pdf/GPO-CRECB-1967-pt3-7-2.pdf#page=119) (Senate, Feb. 20, 1967: Dartmouth''s letter, sent to Morse Jan. 30). [[w.gibbons-u-s-government-and]], IV, 553. To check: *New York Times*, Jan. 31, 1967 (cited by [[w.gibbons-u-s-government-and]], IV, 553 n.87). Check: the day of Cornell''s letter. Names: Morse.'
+    n: '[113 Cong. Rec. 4021–22](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt3/pdf/GPO-CRECB-1967-pt3-7-2.pdf#page=119) (Senate, Feb. 20, 1967: Dartmouth''s letter, sent to Morse Jan. 30). [[w.gibbons-u-s-government-and]], IV, 553. To check: [*New York Times*, Jan. 31, 1967](https://timesmachine.nytimes.com/timesmachine/1967/01/31/issue.html) (cited by [[w.gibbons-u-s-government-and]], IV, 553 n.87). Check: the day of Cornell''s letter. Names: Morse.'
     src:
       c: 439c7984
       rows:
@@ -2076,6 +2233,30 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 553: A'
         - 'via x.1967-01-31.new-york-times-jan-31-1967: A'
     tags: [name:morse-wayne]
+  - id: cal.1967-01-30.king
+    when: Jan. 30
+    date: '1967-01-30'
+    thread: king
+    also: [voting-rights]
+    c: Chicago. SCLC's day of voter registration, deputy registrars at churches and other sites on the Cook County Registrar's leave. Snow from the morning, knee-deep; Andrew Young and four volunteers snowed in.
+    n: '[[w.young-easy-burden]], 418–19. Names: Andrew Young.'
+    src:
+      c: 2c9eda62
+      rows:
+        - 'w.young-easy-burden 418–19: all'
+    tags: [name:young-andrew-j-jr]
+  - id: cal.1967-01-30.school-aid
+    when: Jan. 30
+    date: '1967-01-30'
+    thread: school-aid
+    c: 'Huitt to Cater: the Teacher Corps to be put in the school amendments, so that Perkins, "who intends to chair a subcommittee having jurisdiction over the ESEA," can "guard the NTC from Mrs. Green''s opposition."'
+    n: '[[w.graham-uncertain-triumph]], 148. To check: Memorandum, Huitt to Cater, Jan. 30, 1967, EX LE/ED, WHCF, LBJ Library (cited by [[w.graham-uncertain-triumph]], 148 n.30). Names: Huitt, Cater, Perkins, Green.'
+    src:
+      c: 9a2d0c4d
+      rows:
+        - 'w.graham-uncertain-triumph 148: all'
+        - 'via w.graham-uncertain-triumph 148 n.30: all'
+    tags: [name:huitt-ralph-k, name:cater-s-douglass, name:perkins-carl-d, name:green-edith]
   - id: cal.1967-01-31.opinion
     when: Jan. 31
     date: '1967-01-31'
@@ -2112,6 +2293,7 @@ entries:
   - id: cal.1967-01-31.vietnam
     when: Jan. 31
     date: '1967-01-31'
+    time: 1967-01-31T19:20Z
     thread: vietnam
     c: 'Tuesday lunch, 2:20 to 3:20 p.m., Johnson with Rusk, McNamara, Taylor, Rostow, Komer and Christian, on a successor to Lodge: Westmoreland as Ambassador discussed. No notes. Johnson asks Taylor for ways it could be done.'
     n: 'Taylor to Johnson, Feb. 6, [FRUS 1964–68, V: Vietnam, 1967, doc. 37](https://history.state.gov/historicaldocuments/frus1964-68v05/d37) ("At your Tuesday luncheon last week, you invited me to consider alternative ways to make General Westmoreland Ambassador"; n. 2: the meeting, 2:20 to 3:20 p.m., by the Daily Diary; no notes found). [[w.gibbons-u-s-government-and]], IV, 575–76. Check: FRUS''s note names Taylor, Rostow, McNamara and Rusk, not Komer or Christian. Names: Johnson, Rusk, McNamara, Taylor, Rostow, Komer, Christian, Lodge, Westmoreland.'
@@ -2228,7 +2410,7 @@ entries:
     date: 1967-01
     thread: rules
     c: Howard Smith beaten in the primary, Colmer is to chair Rules; the Democratic leadership exacts from him first a promise of regular weekly meetings.
-    n: '[[w.sundquist-politics-and-policy]], 514. To check: *New York Times*, Jan. 27, 1967 (cited by [[w.sundquist-politics-and-policy]], 514 n.9). Check: the day. See [[cal.1967-01-10.rules]]. Names: Colmer, Smith.'
+    n: '[[w.sundquist-politics-and-policy]], 514. To check: [*New York Times*, Jan. 27, 1967](https://timesmachine.nytimes.com/timesmachine/1967/01/27/issue.html) (cited by [[w.sundquist-politics-and-policy]], 514 n.9). Check: the day. See [[cal.1967-01-10.rules]]. Names: Colmer, Smith.'
     src:
       c: 9211dfff
       rows:
@@ -2400,12 +2582,15 @@ entries:
     date: '1967-01-31'
     thread: war-opposition
     c: 'Clergy and Laymen Concerned About Vietnam, some 2,000, at the White House, the first of its three days'' mobilization against the war. At its meeting the same day Lowenstein recruits Union Theological Seminary students: from it a letter to the President from 200 student body presidents, a petition of 10,000 students for alternative service, and a letter to McNamara from 1,000 seminarians.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 554 (Lowenstein, by Powers). To check: *New York Times*, Feb. 1, 1967; the position paper, "Vietnam: The Clergyman''s Dilemma," 113 Cong. Rec. 2947–49 (cited by [[w.gibbons-u-s-government-and]], IV, 554 n.89); [[w.powers-war-at-home]], 178 (cited by [[w.gibbons-u-s-government-and]], IV, 554 n.91). See [[cal.1967-02-01.war-opposition]]. Names: Lowenstein, McNamara.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 554 (Lowenstein, by Powers); [[w.wells-war-within]], 119 (some 2,400 clerics, the "vigil for peace" at the White House); [[w.zaroulis-who-spoke-up]], 102, 125 (two thousand at the White House; the Union Theological Seminary students'' WATS line); [[w.debenedetti-american-ordeal]], 172 (some 2,500 clergy and laymen from forty-seven States, two days of vigil and lobbying, at the end of January). Check: DeBenedetti, 172, gives some 2,500 from forty-seven States. To check: [*New York Times*, Feb. 1, 1967](https://timesmachine.nytimes.com/timesmachine/1967/02/01/issue.html); the position paper, "Vietnam: The Clergyman''s Dilemma," 113 Cong. Rec. 2947–49 (cited by [[w.gibbons-u-s-government-and]], IV, 554 n.89); [[w.powers-war-at-home]], 178 (cited by [[w.gibbons-u-s-government-and]], IV, 554 n.91). See [[cal.1967-02-01.war-opposition]]. Names: Lowenstein, McNamara.'
     src:
       c: 163ffa8d
       rows:
         - 'w.gibbons-u-s-government-and IV, 554: all'
         - 'via x.undated.the-position-paper-vietnam-the-clergymans: all'
+        - 'w.wells-war-within 119: A'
+        - 'w.zaroulis-who-spoke-up 102, 125: A'
+        - 'w.debenedetti-american-ordeal 172: A'
     tags: [name:lowenstein-allard, name:mcnamara-robert-s]
   - id: cal.1967-01.vietnam-diplomacy
     when: Jan., early
@@ -2461,3 +2646,80 @@ entries:
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 264: all'
     tags: [name:hebert-felix-e]
+  - id: cal.1967-01.king
+    when: Jan.
+    date: 1967-01
+    thread: king
+    also: [war-opposition]
+    c: 'New York, the Americana Hotel, at night. Bernard Lee, tired of King''s talk of the war, calls the White House; Johnson comes to the telephone: King and Johnson, half an hour. Johnson: "Some of these generals want to bomb Vietnam right up to China and end it all"; he needs King''s support and the civil rights leaders'' to keep the generals in check.'
+    n: '[[w.young-easy-burden]], 433–34 (Young in the room; the call placed as Lee told it). Check: the month; Young: "In early 1967." Names: Martin Luther King, Johnson.'
+    src:
+      c: 2cd55c4c
+      rows:
+        - 'w.young-easy-burden 433–34: all'
+    tags: [name:king-martin-luther-jr, name:johnson-lyndon-b]
+  - id: cal.1967-01.vietnam-4
+    when: Jan.
+    date: 1967-01
+    thread: vietnam
+    c: 'Taylor, his offer to resign turned down through Rostow, ten days in Vietnam: the big war going well, the enemy''s base areas entered; pacification and the local war much less so; some 385,000 Americans. On his return, to Johnson: goals for 1967, a maximum effort on every front at once.'
+    n: '[[w.taylor-swords-and-plowshares]], 374–75. Check: the days. Names: Taylor, Rostow, Johnson.'
+    src:
+      c: 147671db
+      rows:
+        - 'w.taylor-swords-and-plowshares 374–75: all'
+    tags: [name:taylor-maxwell, name:rostow-walt-w, name:johnson-lyndon-b]
+  - id: cal.1967-01.king-2
+    when: Jan., early
+    date: 1967-01
+    thread: king
+    c: 'Chicago. The voter drive''s opening rally: Abernathy, Conyers of Michigan, Robert Henry, Negro mayor of Springfield, Ohio. Few come on the trial "Freedom Day" at City Hall; Williams claims 32,000 registered, the city fewer than five hundred.'
+    n: '[[w.ralph-northern-protest]], 205. Check: the day. See [[cal.1966-12.king]]. Names: Abernathy, Conyers, Hosea Williams.'
+    tags: [state:il, city:chicago, name:abernathy-ralph-david, name:conyers-john-jr, name:williams-hosea]
+  - id: cal.1967-01.school-aid
+    when: Jan.
+    date: 1967-01
+    thread: school-aid
+    c: 'Howe and Gardner propose at the White House a compromise on Title III, the States to take a growing share over some three years; the White House staff and the Budget Bureau refuse, by Howe''s account: "This will be the President''s program."'
+    n: '[[w.graham-uncertain-triumph]], 152–53. Check: the day. To check: Transcript, "Harold Howe Oral History Interview," Oct. 29, 1968, LBJ Library (cited by [[w.graham-uncertain-triumph]], 153 n.39). Names: Howe, Gardner.'
+    src:
+      c: 9e3fa9fe
+      rows:
+        - 'w.graham-uncertain-triumph 152–53: all'
+        - 'via w.graham-uncertain-triumph 153 n.39: all'
+    tags: [name:howe-harold-ii, name:gardner-john-w]
+  - id: cal.1967-01.war-opposition
+    when: Jan.
+    date: 1967-01
+    thread: war-opposition
+    c: 'San Francisco, Golden Gate Park. The "Human Be-In," some 20,000: rock music, drugs, the war''s end proclaimed.'
+    n: '[[w.debenedetti-american-ordeal]], 161–62. Check: the day.'
+    src:
+      c: 7053772e
+      rows:
+        - 'w.debenedetti-american-ordeal 161–62: all'
+    tags: [state:ca, city:san-francisco]
+  - id: cal.1967-01.assassination-2
+    when: Jan., late
+    date: 1967-01
+    thread: assassination
+    also: [cuba, press-and-broadcasting]
+    c: 'Pearson goes to Johnson with Rosselli''s story, fed him by Rosselli''s lawyer, Edward Morgan: Castro, having caught a CIA team sent to kill him in 1963, struck back; Oswald a pawn.'
+    n: '[[w.thomas-robert-kennedy]], 335–36. Check: the day. See [[cal.1967-01.assassination]]. Names: Pearson, Johnson, Rosselli, Castro.'
+    src:
+      c: 39d6f91f
+      rows:
+        - 'w.thomas-robert-kennedy 335–36: all'
+        - 'via x.undated.jack-anderson-interview-thomas: all'
+    tags: [name:pearson-drew, name:johnson-lyndon-b, name:rosselli-john, name:castro-fidel]
+  - id: cal.1967-01.health
+    when: Jan., early in the year
+    date: 1967-01
+    thread: health
+    c: Rockefeller proposes a State plan, paid for by payroll taxes, requiring employers to give private health insurance to their workers and families.
+    n: '[[w.smith-on-his-own-terms]], 484 n. Check: the day (the message). Names: Rockefeller.'
+    src:
+      c: 6ff8b4aa
+      rows:
+        - 'w.smith-on-his-own-terms 484 n.: all'
+    tags: [name:rockefeller-nelson, state:ny]

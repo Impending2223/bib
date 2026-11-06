@@ -22,7 +22,12 @@ entries:
     date: '1961-03-01'
     thread: peace-corps
     c: Executive order creates the Peace Corps on a trial basis. Shriver named director.
-    n: '[Exec. Order No. 10,924](https://www.presidency.ucsb.edu/documents/executive-order-10924-establishment-and-administration-the-peace-corps-the-department), [26 Fed. Reg. 1789](https://www.govinfo.gov/app/details/FR-1961-03-02) (K–J Adm. II.H.2). To check: [[w.hoffman-all-you-need-is]]; [[w.stossel-sarge]]; [[w.wofford-of-kennedys-and-kings]]; [[w.rice-bold-experiment]]. Names: Shriver, Wofford.'
+    n: '[Exec. Order No. 10,924](https://www.presidency.ucsb.edu/documents/executive-order-10924-establishment-and-administration-the-peace-corps-the-department), [26 Fed. Reg. 1789](https://www.govinfo.gov/app/details/FR-1961-03-02) (K–J Adm. II.H.2). [[w.wofford-of-kennedys-and-kings]], 261. To check: [[w.hoffman-all-you-need-is]]; [[w.stossel-sarge]]; [[w.rice-bold-experiment]]. Names: Shriver, Wofford.'
+    src:
+      c: 23e6ac00
+      rows:
+        - 'https://www.presidency.ucsb.edu/documents/executive-order-10924-establishment-and-administration-the-peace-corps-the-department: all'
+        - 'w.wofford-of-kennedys-and-kings 261: A'
     tags: [name:shriver-r-sargent, name:kennedy-john-f, name:wofford-harris]
     short: the executive order, Shriver director
   - id: cal.1961-03-01.africa
@@ -41,6 +46,7 @@ entries:
   - id: cal.1961-03-01.vietnam
     when: Mar. 1
     date: '1961-03-01'
+    time: 1961-03-02T01:50Z
     thread: vietnam
     c: 'State to Saigon, telegram 1115: "White House ranks defense Viet-Nam among highest priorities US foreign policy." The Counterinsurgency Plan approved; the President asks what can be done at once, without awaiting the GVN''s approval: officers best qualified in counterguerrilla training to the MAAG; British and Malayan officers sought.'
     n: '[FRUS 1961–63, I, doc. 16](https://history.state.gov/historicaldocuments/frus1961-63v01/d16). [[w.reeves-president-kennedy]], 69. See [[cal.1961-01-28.vietnam]]. Names: Kennedy.'
@@ -61,6 +67,30 @@ entries:
       c: 1c3f6ebc
       rows:
         - 'w.sundquist-politics-and-policy 189: all'
+  - id: cal.1961-03-01.peace-corps-2
+    when: Mar. 1
+    date: '1961-03-01'
+    thread: peace-corps
+    c: 'Special message: a permanent Peace Corps by law. "Although this is an American Peace Corps, the problem of world development is not just an American problem."'
+    n: 'Special Message to the Congress on the Peace Corps, [1961 Pub. Papers 143](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=201) (Mar. 1, 1961). [[w.wofford-of-kennedys-and-kings]], 261–62. See [[cal.1961-03-01.peace-corps]]. Names: Kennedy.'
+    src:
+      c: 3abea924
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=201: all'
+        - 'w.wofford-of-kennedys-and-kings 261–62: all'
+    tags: [name:kennedy-john-f]
+  - id: cal.1961-03-01.school-aid-2
+    when: Mar. 1
+    date: '1961-03-01'
+    thread: school-aid
+    c: 'News conference. No aid to private and parochial schools: "the Constitution clearly prohibits aid to the school, to parochial schools"; *Everson*, 5 to 4, aid to the child. The college program different: "We are aiding the student in the same way the GI bill of rights aided the student."'
+    n: 'The President''s News Conference of March 1, 1961, [1961 Pub. Papers 135](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=193) (Mar. 1, 1961). [[w.graham-uncertain-triumph]], 19–20. Check: Graham, 234 n.54, cites the Papers at 154–55, the conference of Mar. 8. Names: Kennedy.'
+    src:
+      c: 2e4ab8c7
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=193: all'
+        - 'w.graham-uncertain-triumph 19–20: all'
+    tags: [name:kennedy-john-f]
   - id: cal.1961-03-02.testing
     when: Mar. 2
     date: '1961-03-02'
@@ -72,13 +102,24 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 94: all'
     tags: [name:mccloy-john-j]
+  - id: cal.1961-03-02.defense
+    when: Mar. 2
+    date: '1961-03-02'
+    thread: defense
+    c: The Joint Chiefs' plan for a "Military Intelligence Agency," the NSA in it, a military intelligence board, the Chiefs in operational control. It never materializes.
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 22. To check: JCS 2031/159, Mar. 2, 1961, OSD Hist (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 22 n.23). See [[cal.1961-02-08.defense-2]].'
+    src:
+      c: 044f37ca
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 22: all'
+        - 'via x.1961-03-02.jcs-2031-159-military-intelligence-agency: all'
   - id: cal.1961-03-03.conservative-movement
     when: Mar. 3
     date: '1961-03-03'
     thread: conservative-movement
     also: [goldwater]
     c: 'New York, the Manhattan Center. Young Americans for Freedom''s first rally: over three thousand inside, as many turned away, 150 pickets for abolishing the House Un-American Activities Committee. Goldwater speaks.'
-    n: '[[w.perlstein-before-the-storm]], 109; [[w.goldberg-barry-goldwater]], 150 (Goldwater''s words, March 1961: "Sometimes, the objectives we work toward can''t be realized overnight and we must train ourselves to understand that there is such a thing as timing and patience in the conduct of political affairs"); [[w.smith-on-his-own-terms]], 358 (Young Americans for Freedom''s first national rally, the Manhattan Center; Goldwater; students from 115 campuses). To check: Conley, "3,200 at Rally Here Acclaim Goldwater," *New York Times*, Mar. 3, 1961 (cited by [[w.perlstein-before-the-storm]], 109 n.1). Check: the date; the *Times*''s report bears Mar. 3. Names: Goldwater.'
+    n: '[[w.perlstein-before-the-storm]], 109; [[w.goldberg-barry-goldwater]], 150 (Goldwater''s words, March 1961: "Sometimes, the objectives we work toward can''t be realized overnight and we must train ourselves to understand that there is such a thing as timing and patience in the conduct of political affairs"); [[w.smith-on-his-own-terms]], 358 (Young Americans for Freedom''s first national rally, the Manhattan Center; Goldwater; students from 115 campuses). To check: Conley, "3,200 at Rally Here Acclaim Goldwater," [*New York Times*, Mar. 3, 1961](https://timesmachine.nytimes.com/timesmachine/1961/03/03/issue.html) (cited by [[w.perlstein-before-the-storm]], 109 n.1). Check: the date; the *Times*''s report bears Mar. 3. Names: Goldwater.'
     src:
       c: 53bbf176
       rows:
@@ -141,6 +182,20 @@ entries:
         - 'via x.1961-03-03.mcghee-for-the-secretary-of-state-mar: all'
         - 'w.poole-joint-chiefs-of-staff 126: ?'
     tags: [name:kennedy-john-f, name:lemnitzer-lyman-l]
+  - id: cal.1961-03-03.vietnam
+    when: Mar. 3
+    date: '1961-03-03'
+    thread: vietnam
+    also: [defense]
+    c: 'McGarr to Palmer, Director of Military Assistance, enclosing his letter to Heinz: State''s message 1115 of Mar. 1 "counter productive," against the approved Counter-Insurgency Plan; "neither MAAG or the Ambassador can direct the GVN to follow our recommendations—we can only work through persuasion and advice"; aid withheld for noncompliance would weaken the government''s effort.'
+    n: 'Letter From the Chief of the Military Assistance Advisory Group in Vietnam (McGarr) to the Director of Military Assistance, Office of the Assistant Secretary of Defense (Palmer), [FRUS 1961–63, I: Vietnam, 1961, doc. 17](https://history.state.gov/historicaldocuments/frus1961-63v01/d17) (Mar. 3, 1961). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 265. See [[cal.1961-02-27.vietnam]]. Names: McGarr.'
+    src:
+      c: ccca2188
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v01/d17: all'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 265: all'
+        - 'via x.1961-03-03.mcgarr-to-palmer: all'
+    tags: [name:mcgarr-lionel-c]
   - id: cal.1961-03-04.economy
     when: Mar. 4–6
     date: '1961-03-04'
@@ -206,7 +261,7 @@ entries:
     date: '1961-03-06'
     thread: civil-rights-the-executive
     c: Executive order creates the President's Committee on Equal Employment Opportunity. Johnson chairs it. Contractors to take "affirmative action."
-    n: '[Exec. Order No. 10,925](https://www.presidency.ucsb.edu/documents/executive-order-10925-establishing-the-presidents-committee-equal-employment-opportunity), [26 Fed. Reg. 1977](https://www.govinfo.gov/app/details/FR-1961-03-08) (K–J Adm. II.H.2). [[w.caro-passage-of-power]], 172–74, 262–64, on Johnson and Robert Kennedy in the committee; [[w.mann-walls-of-jericho]], 304–5 (the order, March; Johnson chairman); [[w.shesol-mutual-contempt]], 80 (the order; Johnson chairman, Robert Kennedy and Goldberg members). [[w.sorensen-kennedy]], 474 (the committee; Johnson its chairman). Check: Shesol dates the order Mar. 7, from the copy in the Lee White Papers, JFK Library (80). To check: [[w.graham-civil-rights-era]]; [[w.brauer-john-f-kennedy-and]]. Names: Johnson.'
+    n: '[Exec. Order No. 10,925](https://www.presidency.ucsb.edu/documents/executive-order-10925-establishing-the-presidents-committee-equal-employment-opportunity), [26 Fed. Reg. 1977](https://www.govinfo.gov/app/details/FR-1961-03-08) (K–J Adm. II.H.2). [[w.caro-passage-of-power]], 172–74, 262–64, on Johnson and Robert Kennedy in the committee; [[w.mann-walls-of-jericho]], 304–5 (the order, March; Johnson chairman); [[w.shesol-mutual-contempt]], 80 (the order; Johnson chairman, Robert Kennedy and Goldberg members); [[w.wofford-of-kennedys-and-kings]], 141 (Executive Order 10925, Johnson chairman; two committees combined; some 20 million workers of 60,000 contractors). [[w.sorensen-kennedy]], 474 (the committee; Johnson its chairman). Check: Shesol dates the order Mar. 7, from the copy in the Lee White Papers, JFK Library (80). To check: [[w.graham-civil-rights-era]]; [[w.brauer-john-f-kennedy-and]]. Names: Johnson.'
     src:
       c: 1aa44c53
       rows:
@@ -216,6 +271,7 @@ entries:
         - 'w.mann-walls-of-jericho 304–5: A-B'
         - 'via w.mann-walls-of-jericho 304 n.the-president-issued-an-executive-order: A-B'
         - 'w.shesol-mutual-contempt 80: A-B'
+        - 'w.wofford-of-kennedys-and-kings 141: A-B'
     tags: [name:johnson-lyndon-b, name:kennedy-john-f]
     short: the equal employment committee
   - id: cal.1961-03-06.economy
@@ -343,6 +399,18 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 236: all'
         - 'via x.1961-03-07.landon-for-rostow-mar-7-1961: all'
     tags: [name:ngo-dinh-diem]
+  - id: cal.1961-03-07.school-aid
+    when: Mar. 7
+    date: '1961-03-07'
+    thread: school-aid
+    c: 'The higher education bills sent: academic buildings, $2.8 billion in loans over five years, and $892 million for 212,000 four-year scholarships by merit and need; church colleges eligible for both; a second bill for student housing.'
+    n: 'Letter to the President of the Senate and to the Speaker of the House on Federal Aid to Colleges and Universities, [1961 Pub. Papers 151](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=209) (Mar. 7, 1961). [[w.graham-uncertain-triumph]], 19. Names: Kennedy.'
+    src:
+      c: 19ba88f7
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=209: all'
+        - 'w.graham-uncertain-triumph 19: all'
+    tags: [name:kennedy-john-f]
   - id: cal.1961-03-08.africa
     when: Mar. 8
     date: '1961-03-08'
@@ -362,19 +430,35 @@ entries:
   - id: cal.1961-03-08.school-aid
     when: Mar. 8
     date: '1961-03-08'
+    time: 1961-03-08T20:00Z
     thread: school-aid
     c: 'News conference. Across-the-board loans to nonpublic schools: "by my reading of the constitutional judgments in the Everson case, my judgment has been that across the board loans are also unconstitutional." Loans a separate matter, not to be tied to the public school bill.'
-    n: 'The President''s News Conference, [1961 Pub. Papers 152](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=210) (Mar. 8, 1961), 155–56. [[w.sundquist-politics-and-policy]], 190. See [[cal.1961-02-20.school-aid]]. Names: Kennedy.'
+    n: 'The President''s News Conference, [1961 Pub. Papers 152](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=210) (Mar. 8, 1961), 155–56. [[w.sundquist-politics-and-policy]], 190; [[w.graham-uncertain-triumph]], 20. See [[cal.1961-02-20.school-aid]]. Names: Kennedy.'
     src:
       c: fda1830b
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=210: all'
         - 'w.sundquist-politics-and-policy 190: all'
         - 'via w.sundquist-politics-and-policy 190 n.117: all'
+        - 'w.graham-uncertain-triumph 20: A, B'
     tags: [name:kennedy-john-f]
+  - id: cal.1961-03-08.defense
+    when: Mar. 8
+    date: '1961-03-08'
+    thread: defense
+    c: 'McNamara''s list of numbered projects for the service secretaries and others, more than a hundred questions in all: Lemnitzer to state the requirements for strategic delivery vehicles by May 15; Zuckert the B-70 program''s operating plans, costs and effectiveness; Vance, the General Counsel, to find the operations that can serve all the services and study long-range organization, both by Sept. 1.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 14 (Lemnitzer''s, Zuckert''s); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 19–20 (Vance''s). To check: McNamara to the Service Secretaries, Mar. 8, 1961, ASD(C) files, OSD Hist (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 20 n.16). See [[cal.1961-01-24.defense]]. Names: McNamara, Lemnitzer, Zuckert, Vance.'
+    src:
+      c: c090894e
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 14: A-B'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 19–20: C'
+        - 'via x.1961-03-08.mcnamara-to-svcsecs-projects: all'
+    tags: [name:mcnamara-robert-s, name:lemnitzer-lyman-l, name:zuckert-eugene-m, name:vance-cyrus]
   - id: cal.1961-03-09.laos
     when: Mar. 9
     date: '1961-03-09'
+    time: 1961-03-09T20:30Z
     thread: laos
     c: 'The White House, 3:30 to 4:44 p.m. Kennedy with Johnson, McNamara, Lemnitzer, Felt, Nitze, Dulles, Bissell, Bundy, Rostow and others on the Chiefs'' plan of action on the Plain of Jars: to split the guerrillas, cut the Pathet Lao from North Vietnam''s support, and destroy them. The Laos task force proposes more military aid to the Royal Laotian Army.'
     n: '[FRUS 1961–63, XXIV, doc. 25](https://history.state.gov/historicaldocuments/frus1961-63v24/d25) (Clifton''s memorandum of the conference); [FRUS 1961–63, XXIV, doc. 26](https://history.state.gov/historicaldocuments/frus1961-63v24/d26) (a memorandum of the meeting, not declassified). [[w.schlesinger-thousand-days-1965]], 331 (the task force''s proposal); [[w.bissell-reflections-of-a-cold]], 147 (the meeting, Bissell present: Lemnitzer on the Chiefs'' plan for the Plaine des Jarres; more aid to Phoumi); [[w.white-making-of-the-president]], 375 (an hour and a quarter in the Cabinet Room; "not for the first time but for the decisive time"); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 236–37 (Millpond, seventeen preparatory steps toward the Plain about Apr. 1; the President approving the seventeen actions); [[w.poole-joint-chiefs-of-staff]], 126 (McNamara and Lemnitzer: Apr. 1 could be D-Day for the Plain of Jars if preparations begin at once). [[w.sorensen-kennedy]], 643 (the meeting). Made public: FRUS 1961–63, XXIV. Check: White, 375, has Rusk at the meeting; Clifton''s memorandum does not list him. Check: Kaplan, 236–37, has the President approve seventeen actions on Mar. 9; the calendar has five steps approved Mar. 13. See [[cal.1961-01-19.laos]]. Names: Kennedy, Johnson, McNamara, Lemnitzer, Felt, Nitze, Dulles, Bissell, Bundy, Rostow.'
@@ -603,9 +687,23 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 178: A-C'
         - 'w.poole-joint-chiefs-of-staff 111: A'
     tags: [name:mcnamara-robert-s, name:castro-fidel]
+  - id: cal.1961-03-10.laos
+    when: Mar. 10
+    date: '1961-03-10'
+    thread: laos
+    also: [soviet-union]
+    c: 'Thompson from Moscow: Khrushchev, for the first time, appears convinced of the seriousness of the American interest in a neutral Laos; a conference perhaps a deference to Peking. Khrushchev: "Why take risks over Laos? It will fall into our laps like a ripe apple."'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 234. To check: Moscow''s 2139, Mar. 10, 1961 (FRUS 1961–63, XXIV, 82 n.3, cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 234 n.20). Check: the day; the volume says "early in March." Names: Thompson, Khrushchev.'
+    src:
+      c: 86a0ec10
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 234: all'
+        - 'via x.1961-03-10.moscow-2139-thompson: all'
+    tags: [name:thompson-llewellyn-e, name:khrushchev-nikita-s]
   - id: cal.1961-03-11.cuba
     when: Mar. 11
     date: '1961-03-11'
+    time: 1961-03-11T15:05Z
     thread: cuba-bay-of-pigs
     c: 'The White House, 10:05 a.m. The CIA presents the Trinidad plan. Kennedy willing to go ahead, not with a plan so "spectacular"; he wants one where American help is less obvious. NSAM 31: a new exile political organization; a white paper; a démarche in the OAS for free elections in Cuba.'
     n: 'FRUS 1961–63, X, docs. [58](https://history.state.gov/historicaldocuments/frus1961-63v10/d58) (the CIA''s paper), [59](https://history.state.gov/historicaldocuments/frus1961-63v10/d59) (Gray''s notes), [60](https://history.state.gov/historicaldocuments/frus1961-63v10/d60) (NSAM 31); [231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), par. 24. [[w.reeves-president-kennedy]], 70–72 (the meeting; Trinidad; "too spectacular"; NSAM 31); [[w.jones-bay-of-pigs]], 55 (Bissell''s case; "too much like a military operation"); [[w.bissell-reflections-of-a-cold]], 168–69 (the plans; "too noisy"); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 179 (Bissell''s refinement of Mar. 11: a diversionary landing by 160 men). [[w.fursenko-one-hell-of-a]], 85 (Kennedy''s conditions, a landing at night, an airfield in the area seized). Made public: FRUS 1961–63, X (1997). [[w.schlesinger-thousand-days-1965]], 240–43. See [[cal.1961-02-03.cuba]]. Names: Kennedy.'
@@ -641,6 +739,17 @@ entries:
         - 'w.poole-joint-chiefs-of-staff 18: all'
         - 'via w.poole-joint-chiefs-of-staff 18 n.2: all'
     tags: [name:mcnamara-robert-s, name:rusk-dean]
+  - id: cal.1961-03-11.testing
+    when: Mar. 11
+    date: '1961-03-11'
+    thread: testing
+    also: [defense]
+    c: 'The Joint Chiefs ask an immediate presidential decision on resuming testing: the voluntary moratorium not in the national interest; renounce it if no agreement within sixty days of the talks'' resumption. Later in March, Communist China''s accession; a week after, June 1 the deadline for a treaty.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 329. To check: JCS History Division, "JCS Positions and Statements on Disarmament," Jan. 17, 1979, 2–3, OSD Hist; JCSM-182-61, Mar. 23, 1961, [FRUS 1961–63, VII, doc. 9](https://history.state.gov/historicaldocuments/frus1961-63v07/d9) (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 329 n.23).'
+    src:
+      c: 56ab6729
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 329: all'
   - id: cal.1961-03-12.opinion
     when: Mar. 12
     date: '1961-03-12'
@@ -727,6 +836,20 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 265: all'
         - 'via x.1961-03-13.william-bundy-to-mcghee-mar-13-1961: all'
     tags: [name:bundy-william, name:mcghee-george-c, name:mcgarr-lionel-c]
+  - id: cal.1961-03-13.berlin-and-vienna
+    when: Mar. 13
+    date: '1961-03-13'
+    thread: berlin-and-vienna
+    also: [europe-and-the-alliance]
+    c: 'Brandt with Kennedy, 3 to 3:40 p.m., Kohler there. Brandt: watch the Soviet Party Congress in October; a separate treaty more likely than a military confrontation; six months'' stocks of fuel and food in West Berlin; the city a window to the West for East Germany. Kennedy: of the legacies of the war Berlin the most difficult, "we would just have to live with the situation."'
+    n: 'Memorandum of Conversation, [FRUS 1961–63, XIV: Berlin Crisis, 1961–1962, doc. 10](https://history.state.gov/historicaldocuments/frus1961-63v14/d10) (Mar. 13, 1961). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 146 (the meeting; the pledge to West Berlin repeated). Names: Brandt, Kennedy, Kohler.'
+    src:
+      c: fefb953c
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v14/d10: all'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 146: A'
+        - 'via x.1961-03-13.memcon-kennedy-and-brandt: all'
+    tags: [name:brandt-willy, name:kennedy-john-f, name:kohler-foy-d]
   - id: cal.1961-03-14.vietnam-hanoi
     when: Mar. 14
     date: '1961-03-14'
@@ -763,6 +886,7 @@ entries:
   - id: cal.1961-03-15.cuba
     when: Mar. 15
     date: '1961-03-15'
+    time: 1961-03-15T21:30Z
     thread: cuba-bay-of-pigs
     c: 'The White House, 4:30 p.m. The CIA presents a landing in the Zapata area, by the Bay of Pigs. Kennedy wants it to look like an inside, guerrilla operation: no dawn landing, the ships clear of the area by dawn.'
     n: 'FRUS 1961–63, X, docs. [61](https://history.state.gov/historicaldocuments/frus1961-63v10/d61) (the CIA''s paper), [64](https://history.state.gov/historicaldocuments/frus1961-63v10/d64) (Bundy), [65](https://history.state.gov/historicaldocuments/frus1961-63v10/d65) (Gray''s notes); [62](https://history.state.gov/historicaldocuments/frus1961-63v10/d62) (the Chiefs the same day: Zapata the most feasible of three, none as good as Trinidad); [231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), pars. 25–27. [[w.reeves-president-kennedy]], 72–73 (the Bay of Pigs plan); [[w.bissell-reflections-of-a-cold]], 170–71 (the briefing; "clear of the area by dawn"); [[w.preston-war-council]], 63 (Bundy''s memorandum). Made public: FRUS 1961–63, X (1997). [[w.schlesinger-thousand-days-1965]], 243. [[w.jones-bay-of-pigs]], 55–58 (the Zapata plan; the Chiefs'' view; the President''s objection to a dawn landing). See [[cal.1961-03-11.cuba]]. Names: Kennedy. Check: Jones has Bissell return "late in the morning of March 15" (55); the appointment book, by FRUS''s note, 4:30 to 5:45 p.m.'
@@ -826,7 +950,7 @@ entries:
     date: '1961-03-15'
     thread: farm
     c: The Senate Agriculture and Forestry Committee hears James T. Ralph on his nomination as an Assistant Secretary of Agriculture. Also before it, the nomination of Charles S. Murphy, Under Secretary of Agriculture.
-    n: '[*Nominations of Charles S. Murphy and James T. Ralph: Hearing Before the S. Comm. on Agriculture and Forestry*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg67113), 1. Names: Murphy, Ralph.'
+    n: '*Nominations of Charles S. Murphy and James T. Ralph: Hearing Before the S. Comm. on Agriculture and Forestry*, 87th Cong. (1961) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg67113)), 1. Names: Murphy, Ralph.'
     tags: [name:murphy-charles-s, name:ralph-james-t]
   - id: cal.1961-03-16.middle-east
     when: Mar. 16
@@ -992,7 +1116,7 @@ entries:
     thread: press-and-broadcasting
     also: [space]
     c: 'The *New York Times*, Wicker, "LBJ in Search of His New Frontier." NASA''s people: Johnson''s hand on the agency "light indeed," his influence "scarcely visible."'
-    n: '[[w.shesol-mutual-contempt]], 61, 80. To check: *New York Times*, Mar. 19, 1961, 29 (cited by [[w.shesol-mutual-contempt]], 61). Names: Wicker, Johnson.'
+    n: '[[w.shesol-mutual-contempt]], 61, 80. To check: [*New York Times*, Mar. 19, 1961](https://timesmachine.nytimes.com/timesmachine/1961/03/19/issue.html), 29 (cited by [[w.shesol-mutual-contempt]], 61). Names: Wicker, Johnson.'
     src:
       c: 68311bab
       rows:
@@ -1048,6 +1172,17 @@ entries:
         - 'w.schulimson-joint-chiefs-of-staff 49: all'
         - 'via x.1961-03-20.msg-jcs-to-cincpac-jcs-992240: all'
     tags: [place:plain-of-jars]
+  - id: cal.1961-03-20.cities-and-housing
+    when: Mar. 20
+    date: '1961-03-20'
+    thread: cities-and-housing
+    c: 'Chicago. A thousand of the Harrison-Halsted Community Group, most of them women, march behind Scala from St. Francis of Assisi to Hull House: "Daley Is a Dictator."'
+    n: '[[w.cohen-american-pharaoh]], 230.'
+    src:
+      c: 99ac1a5b
+      rows:
+        - 'w.cohen-american-pharaoh 230: all'
+    tags: [state:il, city:chicago]
   - id: cal.1961-03-21.states-and-cities-el-paso
     when: Mar. 21
     date: '1961-03-21'
@@ -1103,6 +1238,17 @@ entries:
         - 'w.schulimson-joint-chiefs-of-staff 49: all'
         - 'via x.1961-03-21.msg-cincpac-to-jcs-da-in: all'
     tags: [name:felt-harry-d, name:phoumi-nosavan]
+  - id: cal.1961-03-21.laos-4
+    when: Mar. 21
+    date: '1961-03-21'
+    thread: laos
+    c: 'New Delhi. Harriman, the roving ambassador, with Souvanna Phouma: impressed by his sincerity; for a government built around him, the Pathet Lao in minor roles if need be.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 239. To check: [[w.schlesinger-thousand-days-1965]], 335–36 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 239 n.38). Names: Harriman, Souvanna Phouma.'
+    src:
+      c: 3cb73f03
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 239: all'
+    tags: [name:harriman-w-averell, name:souvanna-phouma]
   - id: cal.1961-03-22.foreign-aid
     when: Mar. 22
     date: '1961-03-22'
@@ -1168,6 +1314,7 @@ entries:
   - id: cal.1961-03-23.laos
     when: Mar. 23
     date: '1961-03-23'
+    time: 1961-03-23T23:00Z
     thread: laos
     c: Televised press conference with maps of the Pathet Lao advance. Seventh Fleet and Marines moved; SEATO consulted.
     n: 'News Conference, [1961 Pub. Papers 213](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=271) (Mar. 23, 1961); [FRUS 1961–63, XXIV, doc. 39](https://history.state.gov/historicaldocuments/frus1961-63v24/d39) (editorial note: the three maps). [[w.gibbons-u-s-government-and]], II, 21 (on television, Mar. 23; the carriers and Marines moved; SEATO action to follow; not the maps); [[w.vietnam-victory-in-vietnam]], 86–88, 456 n.21 (North Vietnamese battalions in Laos from early 1961, some 12,000 men; Tchepone taken, Apr. 11–May 3, before the cease-fire); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 237 (the news conference); [[w.poole-joint-chiefs-of-staff]], 126 (the address; SEATO); [[w.anthony-war-in-northern-laos]], 46 (the press conference and its maps; the moves of JTF 116, the carriers and the Marines). [FRUS vol. 24](https://history.state.gov/historicaldocuments/frus1961-63v24); [[w.moyar-triumph-forsaken]], 127. [[w.reeves-president-kennedy]], 75 (the maps; the fleet). [[w.sorensen-kennedy]], 643, 646. To check: [[w.rust-so-much-to-lose]]; [[w.freedman-kennedys-wars]]; [[w.hilsman-to-move-a-nation]]; Hist, CINCPAC, 1961, pt 2, p 84 (cited by [[w.anthony-war-in-northern-laos]], 46 n.60); State Department circular 1489, Mar. 29, 1961 (cited by [[w.poole-joint-chiefs-of-staff]], 126 n.19); New York Times, Mar. 24, 1961 (cited by [[w.moyar-triumph-forsaken]], 127 n.18). Names: Harriman.'
@@ -1232,7 +1379,7 @@ entries:
     date: '1961-03-23'
     thread: transition-and-staff
     c: 'The Senate Foreign Relations Committee hears nominees: Edwin O. Reischauer, Ambassador to Japan; Anthony J. Drexel Biddle Jr., Ambassador to Spain; William Attwood, Ambassador to Guinea; Aaron S. Brown, Ambassador to Nicaragua.'
-    n: '[*Ambassadorial Nominations: Hearings Before the S. Comm. on Foreign Relations*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg67590), 1 (Reischauer), 21 (Biddle), 25 (Attwood), 30 (Brown). Names: Reischauer, Biddle, Attwood, Brown.'
+    n: '*Ambassadorial Nominations: Hearings Before the S. Comm. on Foreign Relations*, 87th Cong. (1961) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg67590)), 1 (Reischauer), 21 (Biddle), 25 (Attwood), 30 (Brown). Names: Reischauer, Biddle, Attwood, Brown.'
     tags: [name:attwood-william, name:biddle-anthony-j-drexel-jr, name:brown-aaron-s, name:reischauer-edwin-o]
   - id: cal.1961-03-24.program
     when: Mar. 24
@@ -1291,7 +1438,7 @@ entries:
     date: '1961-03-24'
     thread: transition-and-staff
     c: 'The Senate Foreign Relations Committee hears nominees: John Kenneth Galbraith, Ambassador to India; Edward G. Stockdale, Ambassador to Ireland; William M. Blair Jr., Ambassador to Denmark; John S. Rice, Ambassador to The Netherlands; Kenneth T. Young Jr., Ambassador to Thailand.'
-    n: '[*Ambassadorial Nominations: Hearings Before the S. Comm. on Foreign Relations*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg67590), 34 (Galbraith), 51 (Stockdale), 52 (Blair), 60 (Rice), 66 (Young). Names: Galbraith, Stockdale, Blair, Rice, Young.'
+    n: '*Ambassadorial Nominations: Hearings Before the S. Comm. on Foreign Relations*, 87th Cong. (1961) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg67590)), 34 (Galbraith), 51 (Stockdale), 52 (Blair), 60 (Rice), 66 (Young). Names: Galbraith, Stockdale, Blair, Rice, Young.'
     tags: [name:blair-william-m-jr, name:galbraith-john-kenneth, name:rice-john-s, name:stockdale-edward-g, name:young-kenneth-t-jr]
   - id: cal.1961-03-24.cuba-2
     when: Mar. 24
@@ -1309,12 +1456,14 @@ entries:
     date: '1961-03-25'
     thread: soviet-union
     c: 'The Presidium, on the seven-year plan''s shortfalls in food and housing. Khrushchev: "What does catching up to the United States mean? It means hard thinking. Stop all this fussing." The figures for the plan to be fudged.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 343–45. To check: Protocol 321, Mar. 25, 1961, and Protocol 320, Mar. 23, 1961, [[w.prezidium-tsk-kpss-1954]], I (cited by [[w.fursenko-khrushchevs-cold-war]], 344 n.25, 345 n.28). Names: Khrushchev.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 343–45; [[w.prezidium-tsk-kpss-1954]], I, 494–96 (Protocols 320 and 321). Check: the protocols (I, 494–96) have "Cut off the noise" (шумиху); no word of fudging the figures, only, on Mar. 23, the upward corrections without their sources and whether the figures are real. To check: Protocol 321, Mar. 25, 1961, and Protocol 320, Mar. 23, 1961, [[w.prezidium-tsk-kpss-1954]], I (cited by [[w.fursenko-khrushchevs-cold-war]], 344 n.25, 345 n.28). Names: Khrushchev.'
     src:
       c: c39c4201
       rows:
         - 'w.fursenko-khrushchevs-cold-war 343–45: all'
         - 'via w.fursenko-khrushchevs-cold-war 345 n.28: B'
+        - 'w.prezidium-tsk-kpss-1954 I, 494–96: A-B'
+        - 'via x.1961-03-25.presidium-protocol-321: A-B'
     tags: [name:khrushchev-nikita-s]
   - id: cal.1961-03-26.laos
     when: Mar. 26
@@ -1493,14 +1642,14 @@ entries:
     date: '1961-03-28'
     thread: farm
     c: 'The Senate Agriculture and Forestry Committee hears nominees: Willard Cochrane, a member of the Board of Directors of the Commodity Credit Corporation; John C. Bagwell, General Counsel of the Department of Agriculture. Also before it, the nomination of Charles S. Murphy, a member of the Board of Directors of the Commodity Credit Corporation.'
-    n: '[*Nominations to the Board of Directors, Commodity Credit Corporation, and General Counsel, Department of Agriculture: Hearing Before the S. Comm. on Agriculture and Forestry*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg68025), 3 (Bagwell), 5 (Cochrane). Names: Murphy, Bagwell.'
+    n: '*Nominations to the Board of Directors, Commodity Credit Corporation, and General Counsel, Department of Agriculture: Hearing Before the S. Comm. on Agriculture and Forestry*, 87th Cong. (1961) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg68025)), 3 (Bagwell), 5 (Cochrane). Names: Murphy, Bagwell.'
     tags: [name:bagwell-john-c, name:murphy-charles-s]
   - id: cal.1961-03-28.transition-and-staff
     when: Mar. 28
     date: '1961-03-28'
     thread: transition-and-staff
     c: 'The Senate Labor and Public Welfare Committee hears nominees: Sterling M. McMurrin, Commissioner of Education; William E. Simkin, Director of the Federal Mediation and Conciliation Service.'
-    n: '[*Nominations: Hearing Before the S. Comm. on Labor and Public Welfare*, 87th Cong. (1961)](https://www.govinfo.gov/app/details/CHRG-87shrg68133), 2 (McMurrin), 7 (Simkin). Names: McMurrin, Simkin.'
+    n: '*Nominations: Hearing Before the S. Comm. on Labor and Public Welfare*, 87th Cong. (1961) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg68133)), 2 (McMurrin), 7 (Simkin). Names: McMurrin, Simkin.'
     tags: [name:mcmurrin-sterling-m, name:simkin-william-e]
   - id: cal.1961-03-28.laos-2
     when: Mar. 28
@@ -1524,6 +1673,19 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 18: all'
     tags: [name:mcnamara-robert-s, name:kennedy-john-f]
+  - id: cal.1961-03-28.europe-and-the-alliance
+    when: Mar. 28
+    date: '1961-03-28'
+    thread: europe-and-the-alliance
+    also: [defense]
+    c: 'The Joint Chiefs to McNamara, JCSM-190-61, on the draft of Acheson''s NATO report: "generally in accord," but against Acheson''s "first priority" for contingencies short of nuclear or massive non-nuclear attack. Norstad agrees with them.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 304. To check: JCSM-190-61, Mar. 28, 1961, ISA files, Acc 64A-2382 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 304 nn.29, 32). See [[cal.1961-04-20.europe-and-the-alliance]]. Names: McNamara, Acheson, Norstad.'
+    src:
+      c: 6ce2b80f
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 304: all'
+        - 'via x.1961-03-28.jcsm-190-61-acheson-draft: all'
+    tags: [name:mcnamara-robert-s, name:acheson-dean-g, name:norstad-lauris]
   - id: cal.1961-03-29.states-and-cities
     when: Mar. 29
     date: '1961-03-29'
@@ -1542,6 +1704,7 @@ entries:
   - id: cal.1961-03-29.cuba
     when: Mar. 29
     date: '1961-03-29'
+    time: 1961-03-29T21:15Z
     thread: cuba-bay-of-pigs
     c: The White House, 4:15 p.m. Zapata. Bissell on the photographs, a diversion of 150 men, the disposal of the force if the landing is called off. D-Day put off from Apr. 5 to Apr. 10; the next decision Apr. 4.
     n: '[FRUS 1961–63, X, doc. 74](https://history.state.gov/historicaldocuments/frus1961-63v10/d74) (Gray''s notes). Made public: FRUS 1961–63, X (1997). [[w.schlesinger-thousand-days-1965]], 249; [[w.poole-joint-chiefs-of-staff]], 113 (Kennedy directs the brigade''s leaders be told no American forces will take part; they answer yes). See [[cal.1961-03-16.cuba]]. Names: Bissell.'
@@ -1643,6 +1806,19 @@ entries:
       rows:
         - 'w.navasky-kennedy-justice 367: all'
     tags: [name:keogh-eugene-j, state:ny, city:nyc]
+  - id: cal.1961-03-30.berlin-and-vienna
+    when: Mar. 30
+    date: '1961-03-30'
+    thread: berlin-and-vienna
+    also: [defense]
+    c: 'McGhee sends Bundy State''s paper "The Problem of Berlin": an arrangement allowing East Germany a limited role in controlling access without sacrificing the West''s basic position, preceded by a strong warning that aggression would bring mobilization on the scale of Korea, 1950. Detailed contingency planning difficult: the governments, the British above all, "reluctant to commit themselves to rigid courses of action on a purely hypothetical basis."'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 147–48. To check: McGhee to Bundy, with attachment, "The Problem of Berlin," Mar. 30, 1961, ISA files, Acc 64A-2382 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 148 n.19). Names: McGhee, Bundy.'
+    src:
+      c: b4c79577
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 147–48: all'
+        - 'via x.1961-03-30.mcghee-to-bundy-problem-of-berlin: all'
+    tags: [name:mcghee-george-c, name:bundy-mcgeorge]
   - id: cal.1961-03-31.opinion
     when: Mar. 31
     date: '1961-03-31'
@@ -1781,11 +1957,13 @@ entries:
     date: 1961-03
     thread: school-aid
     c: 'Ribicoff and Sorensen, through an intermediary, talk with the bishops. The strategy: the public school bill to proceed; Congress, not the President, to start loans for private schools as an amendment to the extension of the National Defense Education Act.'
-    n: '[[w.sundquist-politics-and-policy]], 190. To check: [[w.sorensen-kennedy]], 360 (cited by [[w.sundquist-politics-and-policy]], 190 n.118). Check: the days. See [[cal.1961-03-08.school-aid]]. Names: Ribicoff, Sorensen.'
+    n: '[[w.sundquist-politics-and-policy]], 190; [[w.graham-uncertain-triumph]], 21 (Bishop Hannan and Monsignors Tanner and Hurley of the NCWC; Clark and Morse to move the amendment). To check: [[w.sorensen-kennedy]], 360 (cited by [[w.sundquist-politics-and-policy]], 190 n.118); Memorandum, Sorensen to President Kennedy, Apr. 12, 1961, "Education and Religion" folder, Sorensen file, container 33, JFK Library (cited by [[w.graham-uncertain-triumph]], 21 n.55). Check: the days. See [[cal.1961-03-08.school-aid]]. Names: Ribicoff, Sorensen.'
     src:
       c: 844ed62a
       rows:
         - 'w.sundquist-politics-and-policy 190: all'
+        - 'w.graham-uncertain-triumph 21: A, B, C'
+        - 'via w.graham-uncertain-triumph 21 n.55: A, B, C'
     tags: [name:ribicoff-abraham, name:sorensen-theodore-c]
   - id: cal.1961-03.robert-kennedy-2
     when: Mar.
@@ -1899,3 +2077,87 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 253: all'
     tags: [name:mcnamara-robert-s, name:gilpatric-roswell-l, name:rusk-dean]
+  - id: cal.1961-03.civil-rights-the-executive
+    when: Mar., spring
+    date: 1961-03
+    thread: civil-rights-the-executive
+    also: [voting-rights]
+    c: 'New Orleans, the eve of the Civil Rights Commission''s Louisiana hearing, about 1 a.m. Robert Kennedy by telephone to Bernhard, its staff director: the hearing will cost deLesseps Morrison the primary; "I want it called off—now!" About 2 a.m. Storey, the hearing''s chairman, agrees to postpone it; the press told of Hannah''s trip to Nigeria. By Bernhard''s account.'
+    n: '[[w.wofford-of-kennedys-and-kings]], 162–63 (Earl Long, privately, to Bernhard, had opened the State registrar''s records; the hearing held a few months later). Check: the day; Wofford: by the spring of 1961. Names: Robert Kennedy, Bernhard, Morrison, Storey, Hannah.'
+    src:
+      c: 8bb3abca
+      rows:
+        - 'w.wofford-of-kennedys-and-kings 162–63: all'
+    tags: [name:kennedy-robert-f, name:bernhard-berl-i, name:morrison-delesseps-s, name:storey-robert-g, name:hannah-john-a, state:la, city:new-orleans]
+  - id: cal.1961-03.press-and-broadcasting
+    when: Mar.
+    date: 1961-03
+    thread: press-and-broadcasting
+    also: [elections-1960-count]
+    c: 'Washington, the Gridiron Club, Kennedy present. The press corps as Cook County poll watchers, to "Tea for Two": "Two for you, and three for me."'
+    n: '[[w.cohen-american-pharaoh]], 278–79. Check: the day; Cohen and Taylor: the spring. Names: John F. Kennedy.'
+    src:
+      c: '46647614'
+      rows:
+        - 'w.cohen-american-pharaoh 278–79: all'
+    tags: [name:kennedy-john-f]
+  - id: cal.1961-03.laos
+    when: Mar.
+    date: 1961-03
+    thread: laos
+    c: Phoumi, wanting six special battalions, made by the American threat to cut off payments to use their men as replacements in existing units.
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 235. To check: Wheeler to McNamara, with attachment, Feb. 24, 1961, ISA files, Acc 64A-2382; PEO 563 and 827 to CINCPAC, Feb. 6 and Mar. 2, 1961, OSD Hist (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 235 n.25). Check: the day. Names: Phoumi.'
+    src:
+      c: 4d8ddbf7
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 235: all'
+        - 'via x.1961-03-02.peo-827-to-cincpac: all'
+    tags: [name:phoumi-nosavan]
+  - id: cal.1961-03-31.defense
+    when: Mar. 31
+    date: '1961-03-31'
+    thread: defense
+    c: 'Third Supplemental Appropriation Act, 1961, signed, [75 Stat. 20](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg20.pdf): $264.9 million of it for Defense.'
+    n: Statute (K–J Cong. II.J.2). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 53 (the Defense share).
+    src:
+      c: 4a7a4cdc
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg20.pdf: A'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 53: all'
+  - id: cal.1961-03.crime-and-hijacking
+    when: Mar.
+    date: 1961-03
+    thread: crime-and-hijacking
+    also: [robert-kennedy]
+    c: Robert Kennedy and Budd Schulberg on a film of *The Enemy Within*, Paul Newman to play Kennedy. The studios, afraid of the Teamsters, do not make it.
+    n: '[[w.thomas-robert-kennedy]], 115. Check: the day; Thomas: "During 1961"; his note cites Jones to DeLoach, Mar. 24, 1961, and the *Times*, Sept. 23, 1961. To check: Jones to DeLoach, Mar. 24, 1961, RFK file, FBI (cited by [[w.thomas-robert-kennedy]], 412); [*New York Times*, Sept. 23, 1961](https://timesmachine.nytimes.com/timesmachine/1961/09/23/issue.html) (cited by [[w.thomas-robert-kennedy]], 412). Names: Robert Kennedy.'
+    src:
+      c: b00ec728
+      rows:
+        - 'w.thomas-robert-kennedy 115: all'
+        - 'via x.1961-03-24.jones-to-deloach-schulberg-film: all'
+        - 'via x.1961-09-23.new-york-times-sept-23-1961-enemy-within: all'
+        - 'via x.undated.budd-schulberg-interview-thomas: all'
+    tags: [name:kennedy-robert-f]
+  - id: cal.1961-03.elections-1964
+    when: Mar.–May, the spring
+    date: 1961-03
+    thread: elections-1964
+    c: Bridges, of New Hampshire, all but publicly endorses Rockefeller for 1964.
+    n: '[[w.smith-on-his-own-terms]], 356 (Hinman''s travels among the party''s regulars). Check: the day. Names: Bridges, Rockefeller.'
+    src:
+      c: 3a2f4576
+      rows:
+        - 'w.smith-on-his-own-terms 356: all'
+    tags: [name:bridges-henry-s, name:rockefeller-nelson]
+  - id: cal.1961-03.elections-1964-2
+    when: Mar.–May, the spring
+    date: 1961-03
+    thread: elections-1964
+    c: Margaret Chase Smith, of Maine, pledges Rockefeller her support for 1964.
+    n: '[[w.smith-on-his-own-terms]], 356. Check: the day. Names: Margaret Chase Smith, Rockefeller.'
+    src:
+      c: d0689a82
+      rows:
+        - 'w.smith-on-his-own-terms 356: all'
+    tags: [name:smith-margaret-chase, name:rockefeller-nelson]

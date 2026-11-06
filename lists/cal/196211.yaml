@@ -56,6 +56,7 @@ entries:
   - id: cal.1962-11-02.missile-crisis
     when: Nov. 2
     date: '1962-11-02'
+    time: 1962-11-02T22:30Z
     thread: missile-crisis
     c: 'Kennedy reports the bases being dismantled. Mikoyan in Havana three weeks: inspection, the IL-28s.'
     n: 'Radio and Television Remarks on the Dismantling of Soviet Missile Bases in Cuba, [1962 Pub. Papers 821](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=881) (Nov. 2, 1962). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 215–17 (Mikoyan''s November visit; inspection; the IL-28s); [[w.fursenko-khrushchevs-cold-war]], 495 (Mikoyan to Havana Nov. 2; the same day Stevenson names the Il-28s); [[w.sorensen-kennedy]], 720 (the bases dismantled, the crates counted at sea; Mikoyan with Castro, a week of argument, ten days ignored). [[w.fursenko-one-hell-of-a]], 290–315 (Mikoyan''s mission). To check: [[w.mikoyan-anatomiya-karibskogo-krizisa]]; Senate Foreign Relations Committee, *Executive Sessions* (Historical Series), XV, Jan. 11, 1963, 15–16 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 215 n.86). See [[cal.1962-05-24.missile-crisis]]. Names: Mikoyan.'
@@ -76,6 +77,17 @@ entries:
     c: 'Aircraft from Yemen bomb Saudi villages near the border; Faisal holds the UAR responsible. Kennedy''s letter to Faisal, dated Oct. 25, sent for delivery: American support for Saudi Arabia''s integrity, and for its reforms.'
     n: 'FRUS 1961–63, XVIII, docs. [88](https://history.state.gov/historicaldocuments/frus1961-63v18/d88), [89](https://history.state.gov/historicaldocuments/frus1961-63v18/d89) (editorial note). See [[cal.1962-09-26.middle-east]], [[cal.1962-10-05.middle-east]]. Names: Faisal ibn Abd al-Aziz Al Saud, Kennedy.'
     tags: [name:faisal-ibn-abd-al-aziz-al-saud, name:kennedy-john-f]
+  - id: cal.1962-11-02.desegregation-schools
+    when: Nov. 2
+    date: '1962-11-02'
+    thread: desegregation-schools
+    c: Chicago. *Burroughs v. Board of Education* dismissed, the State's administrative remedies not exhausted.
+    n: '[[w.anderson-confronting-the-color-line]], 89. See [[cal.1962-01-02.desegregation-schools]].'
+    src:
+      c: 02102bd0
+      rows:
+        - 'w.anderson-confronting-the-color-line 89: all'
+    tags: [state:il, city:chicago]
   - id: cal.1962-11-03.missile-crisis
     when: Nov. 3
     date: '1962-11-03'
@@ -119,6 +131,19 @@ entries:
       c: 8a56899c
       rows:
         - 'w.poole-joint-chiefs-of-staff 267: all'
+  - id: cal.1962-11-03.europe-and-the-alliance
+    when: Nov. 3
+    date: '1962-11-03'
+    thread: europe-and-the-alliance
+    also: [defense]
+    c: 'Nitze to McNamara on Skybolt: offer to send a high official to London to discuss cancellation''s technical and military side with Thorneycroft; the President to tell Macmillan at once.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 380. To check: Nitze to McNamara, Nov. 3, 1962, with attachments, SecDef Subject Decimal files, Acc 66A-3542 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 380 n.82). See [[cal.1962-08-24.defense-2]]. Names: Nitze, McNamara, Thorneycroft, Macmillan.'
+    src:
+      c: 1bbd242d
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 380: all'
+        - 'via x.1962-11-03.nitze-to-mcnamara-skybolt: all'
+    tags: [name:nitze-paul, name:mcnamara-robert-s, name:thorneycroft-peter, name:macmillan-harold]
   - id: cal.1962-11-04.missile-crisis
     when: Nov. 4
     date: '1962-11-04'
@@ -215,6 +240,19 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 44–45: all'
     tags: [name:mcnamara-robert-s]
+  - id: cal.1962-11-05.europe-and-the-alliance
+    when: Nov. 5
+    date: '1962-11-05'
+    thread: europe-and-the-alliance
+    also: [defense]
+    c: 'McNamara sends his tentative recommendations on Skybolt to the Joint Chiefs. On Nitze''s memorandum: "I believe we should hold the message to Thorneycroft until we hear from the Chiefs," three weeks'' "consultation" before a "leak date" of about Dec. 10. The same day a message from Thorneycroft on British press reports that production is about to begin.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 380. To check: McNamara''s marginal notes on Nitze to McNamara, Nov. 3, 1962, SecDef Subject Decimal files, Acc 66A-3542 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 380 n.83). See [[cal.1962-11-03.europe-and-the-alliance]]. Names: McNamara, Nitze, Thorneycroft.'
+    src:
+      c: eb198eba
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 380: all'
+        - 'via x.1962-11-05.mcnamara-marginal-note-on-nitze-memo: A, B'
+    tags: [name:mcnamara-robert-s, name:nitze-paul, name:thorneycroft-peter]
   - id: cal.1962-11-06.elections-1962
     when: Nov. 6
     date: '1962-11-06'
@@ -361,7 +399,12 @@ entries:
     thread: governors
     also: [elections-1962]
     c: 'Oklahoma. Henry Bellmon (R) elected governor over Atkinson (D), 392,316 to 315,357, 55.2 percent: the State''s first Republican governor.'
-    n: '[Okla. State Election Bd., *Election Results, 1958–1966*, p. 35](https://oklahoma.gov/content/dam/ok/en/elections/election-results/results-prior-to-1980/1958-1966-results.pdf#page=35). To check: [[w.bellmon-life-and-times-of]]; [[w.peirce-great-plains-states-of]]; [[w.morgan-oklahoma-politics-and-policies]]. See [[cal.1962-05-22.governors-ok]]; [[cal.1962-11-06.governors]]. Names: Bellmon, Atkinson.'
+    n: '[Okla. State Election Bd., *Election Results, 1958–1966*, p. 35](https://oklahoma.gov/content/dam/ok/en/elections/election-results/results-prior-to-1980/1958-1966-results.pdf#page=35). [[w.peirce-great-plains-states-of]], 258 (Bellmon the first Republican governor; Gary''s failure to support the nominee). To check: [[w.bellmon-life-and-times-of]]; [[w.morgan-oklahoma-politics-and-policies]]. See [[cal.1962-05-22.governors-ok]]; [[cal.1962-11-06.governors]]. Names: Bellmon, Atkinson.'
+    src:
+      c: '63263247'
+      rows:
+        - 'https://oklahoma.gov/content/dam/ok/en/elections/election-results/results-prior-to-1980/1958-1966-results.pdf#page=35: all'
+        - 'w.peirce-great-plains-states-of 258: B'
     tags: [state:ok, name:bellmon-henry, name:atkinson-w-p-bill]
     short: Bellmon, Oklahoma's first Republican
   - id: cal.1962-11-06.state-constitutions-ok
@@ -395,7 +438,12 @@ entries:
     thread: governors
     also: [elections-1962]
     c: Wyoming. Hansen (R) governor over Gage (D), 64,970 to 54,298, 54.5 percent.
-    n: 'Votes: [Wikipedia, "1962 Wyoming gubernatorial election"](https://en.wikipedia.org/wiki/1962_Wyoming_gubernatorial_election); Check: *1963 Wyoming Official Directory and 1962 Election Returns*. To check: [[w.larson-history-of-wyoming]]; [[w.peirce-mountain-states-of-america]]. See [[cal.1962-08.governors-wy]]. Names: Hansen, Gage.'
+    n: 'Votes: [Wikipedia, "1962 Wyoming gubernatorial election"](https://en.wikipedia.org/wiki/1962_Wyoming_gubernatorial_election); Check: *1963 Wyoming Official Directory and 1962 Election Returns*. [[w.peirce-mountain-states-of-america]], 81 (Hansen over Gage; Gage blames "liberalism among Democrats"). To check: [[w.larson-history-of-wyoming]]. See [[cal.1962-08.governors-wy]]. Names: Hansen, Gage.'
+    src:
+      c: 920ae88c
+      rows:
+        - 'https://en.wikipedia.org/wiki/1962_Wyoming_gubernatorial_election: all'
+        - 'w.peirce-mountain-states-of-america 81: B'
     tags: [state:wy, name:hansen-clifford-p, name:gage-jack-r]
   - id: cal.1962-11-06.governors-co
     when: Nov. 6
@@ -403,7 +451,12 @@ entries:
     thread: governors
     also: [elections-1962]
     c: Colorado. Love (R) governor over McNichols (D), seeking a third term, 349,342 to 262,890, 56.7 percent.
-    n: 'Votes: [Colo. *Abstract of Votes Cast*, 1962, 24–25](https://spl.cde.state.co.us/artemis/sserials/s111internet/s1111962internet.pdf#page=14). To check: [[w.peirce-mountain-states-of-america]]. See [[cal.1962-09-11.governors-co]]. Names: Love, McNichols.'
+    n: 'Votes: [Colo. *Abstract of Votes Cast*, 1962, 24–25](https://spl.cde.state.co.us/artemis/sserials/s111internet/s1111962internet.pdf#page=14). [[w.peirce-mountain-states-of-america]], 58 (Love over McNichols, governor since 1957). See [[cal.1962-09-11.governors-co]]. Names: Love, McNichols.'
+    src:
+      c: 933d05e2
+      rows:
+        - 'https://spl.cde.state.co.us/artemis/sserials/s111internet/s1111962internet.pdf#page=14: all'
+        - 'w.peirce-mountain-states-of-america 58: B'
     tags: [state:co, name:love-john-a, name:mcnichols-stephen-l-r]
   - id: cal.1962-11-06.state-constitutions-co
     when: Nov. 6
@@ -411,7 +464,14 @@ entries:
     thread: state-constitutions
     also: [legislatures]
     c: Colorado. Two initiated amendments of the constitution on the apportionment of the General Assembly. Amendment No. 7, the House by population, the Senate much as it was, adopted, 305,700 to 172,725, 63.9 percent. Amendment No. 8, both houses by population through a commission, refused, 149,822 to 311,749, 32.5 percent.
-    n: 'Votes: [Colo. *Abstract of Votes Cast*, 1962, 28–29](https://spl.cde.state.co.us/artemis/sserials/s111internet/s1111962internet.pdf#page=16); *Lucas v. Forty-Fourth General Assembly*, [377 U.S. 713, 717](https://tile.loc.gov/storage-services/service/ll/usrep/usrep377/usrep377713/usrep377713.pdf#page=5) (1964). To check: [[w.cortner-apportionment-cases]]; [[w.dixon-democratic-representation]]. See [[cal.1962-03-26.court]]; the Court on Amendment No. 7: [[cal.1964-06-15.court]].'
+    n: '*Lisco v. Love*, [219 F. Supp. 922, 931 n.32](https://static.case.law/f-supp/219/case-pdfs/0922-01.pdf#page=10) (D. Colo. 1963) (the votes). Votes: [Colo. *Abstract of Votes Cast*, 1962, 28–29](https://spl.cde.state.co.us/artemis/sserials/s111internet/s1111962internet.pdf#page=16); *Lucas v. Forty-Fourth General Assembly*, [377 U.S. 713, 717](https://tile.loc.gov/storage-services/service/ll/usrep/usrep377/usrep377713/usrep377713.pdf#page=5) (1964). [[w.peirce-mountain-states-of-america]], 62 (the two amendments, their backers; No. 7''s vote, No. 8''s against). Check: Peirce, 62, prints 149,982 for No. 8; the Abstract and *Lisco v. Love*, 149,822. To check: [[w.cortner-apportionment-cases]]; [[w.dixon-democratic-representation]]. See [[cal.1962-03-26.court]]; the Court on Amendment No. 7: [[cal.1964-06-15.court]].'
+    src:
+      c: 382125bf
+      rows:
+        - 'https://spl.cde.state.co.us/artemis/sserials/s111internet/s1111962internet.pdf#page=16: all'
+        - 'https://tile.loc.gov/storage-services/service/ll/usrep/usrep377/usrep377713/usrep377713.pdf#page=5: all'
+        - 'https://static.case.law/f-supp/219/case-pdfs/0922-01.pdf#page=10: C, D'
+        - 'w.peirce-mountain-states-of-america 62: B, C'
     tags: [state:co]
   - id: cal.1962-11-06.governors-nm
     when: Nov. 6
@@ -503,7 +563,12 @@ entries:
     thread: governors
     also: [elections-1962]
     c: Iowa. Hughes (D) over Governor Erbe (R), 430,899 to 388,955, 52.6 percent.
-    n: '[*Summary of Official Canvass of Votes Cast in Iowa General Election, November 6, 1962*](https://sos.iowa.gov/elections/pdf/results/60s/1962gencanv.pdf). See [[cal.1962-06-04.governors-ia]]; [[cal.1962-11-06.governors]]. Names: Hughes, Erbe.'
+    n: '[*Summary of Official Canvass of Votes Cast in Iowa General Election, November 6, 1962*](https://sos.iowa.gov/elections/pdf/results/60s/1962gencanv.pdf). [[w.peirce-great-plains-states-of]], 94–95. See [[cal.1962-06-04.governors-ia]]; [[cal.1962-11-06.governors]]. Names: Hughes, Erbe.'
+    src:
+      c: d08c0d0e
+      rows:
+        - 'https://sos.iowa.gov/elections/pdf/results/60s/1962gencanv.pdf: all'
+        - 'w.peirce-great-plains-states-of 94–95: all'
     tags: [state:ia, name:hughes-harold-e, name:erbe-norman-a]
   - id: cal.1962-11-06.state-constitutions-mo
     when: Nov. 6
@@ -642,6 +707,17 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 115–16: all'
         - 'w.poole-joint-chiefs-of-staff 44: A'
     tags: [name:taylor-maxwell, name:mcnamara-robert-s]
+  - id: cal.1962-11-06.elections-1962-2
+    when: Nov. 6
+    date: '1962-11-06'
+    thread: elections-1962
+    c: Illinois. Dirksen re-elected over Yates, Daley's choice, beaten downstate. In Cook County the Democrats take every major office but one; Simon, for the county board's presidency, wins by 150,000, against 446,000 four years before.
+    n: '[[w.cohen-american-pharaoh]], 291. Check: the counts. Names: Dirksen, Yates, Daley.'
+    src:
+      c: 65e1a9a0
+      rows:
+        - 'w.cohen-american-pharaoh 291: all'
+    tags: [state:il, name:dirksen-everett, name:yates-sidney-r, name:daley-richard-j]
   - id: cal.1962-11-07.middle-east-yemen
     when: Nov. 7
     date: '1962-11-07'
@@ -777,6 +853,29 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 261: all'
     tags: [name:kennedy-john-f, name:adoula-cyrille, name:tshombe-moise]
+  - id: cal.1962-11-07.school-aid
+    when: Nov. 7
+    date: '1962-11-07'
+    thread: school-aid
+    c: 'A Budget Bureau staff memorandum, "A New Federal Program in Education": separate bills only dredged up "public school versus private and segregation versus desegregation"; one omnibus bill, "aiding people—from childhood to old age—rather than aiding institutions or another level of government."'
+    n: '[[w.graham-uncertain-triumph]], 39–40. Check: the staff''s draft is dated Oct. 30 (236 n.34). To check: Staff memorandum, "A New Federal Program in Education," Oct. 30, 1962 (draft; the official version Nov. 7), container 410, OMB Records Division, National Archives (cited by [[w.graham-uncertain-triumph]], 39 n.34).'
+    src:
+      c: 550fc4de
+      rows:
+        - 'w.graham-uncertain-triumph 39–40: all'
+        - 'via w.graham-uncertain-triumph 39 n.34: all'
+  - id: cal.1962-11-07.elections-1962-2
+    when: Nov. 7
+    date: '1962-11-07'
+    thread: elections-1962
+    c: 'New York, the Roosevelt Hotel, 12:45 a.m. Rockefeller, from his own victory party, at the suite of Lomenzo, a Rochester judge beaten by Levitt for comptroller: his thanks; "after two weeks I want you to call me."'
+    n: '[[w.smith-on-his-own-terms]], 385. Names: Rockefeller, Levitt.'
+    src:
+      c: f1c18225
+      rows:
+        - 'w.smith-on-his-own-terms 385: all'
+        - 'via x.undated.lomenzo-interview-by-morrow: all'
+    tags: [name:rockefeller-nelson, name:levitt-arthur, state:ny]
   - id: cal.1962-11-08.testing
     when: Nov. 8
     date: '1962-11-08'
@@ -853,6 +952,31 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 73: all'
     tags: [name:kennedy-john-f, name:mcnamara-robert-s]
+  - id: cal.1962-11-09.school-aid
+    when: Nov. 9
+    date: '1962-11-09'
+    thread: school-aid
+    c: 'Hecht, publisher of *Parents'' Magazine*, for the Bipartisan Citizens Committee for Federal Aid for Public Elementary and Secondary Education (Benton, Conant, Flemming, Folsom, Reuther, Howard K. Smith and Strauss among its members), to Kennedy: a bipartisan bill, not an administration bill; "MAKE FEDERAL CONTROL ILLEGAL AND IMPOSSIBLE," the federal money to become State money on receipt.'
+    n: '[[w.graham-uncertain-triumph]], 40–41. To check: George J. Hecht to President Kennedy, Nov. 9, 1962, White House Central Files, JFK Library (cited by [[w.graham-uncertain-triumph]], 41 n.36). Names: Kennedy, Conant, Flemming, Folsom, Reuther, Smith, Strauss.'
+    src:
+      c: 4d0ce192
+      rows:
+        - 'w.graham-uncertain-triumph 40–41: all'
+        - 'via w.graham-uncertain-triumph 41 n.36: all'
+    tags: [name:kennedy-john-f, name:conant-james-b, name:flemming-arthur-s, name:folsom-marion-b, name:reuther-walter, name:smith-howard-k, name:strauss-lewis-l]
+  - id: cal.1962-11-09.missile-crisis-2
+    when: Nov. 9
+    date: '1962-11-09'
+    thread: missile-crisis
+    also: [defense]
+    c: 'McNaughton, Defense''s General Counsel, to Nitze: "a serious look ... at the possibilities of sabotaging the IL-28s."'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 216. To check: McNaughton to Nitze, Nov. 9, 1962, OSD Hist (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 216 n.91). Names: McNaughton, Nitze.'
+    src:
+      c: e0c6b7a9
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 216: all'
+        - 'via x.1962-11-09.mcnaughton-to-nitze-il-28s: all'
+    tags: [name:mcnaughton-john-t, name:nitze-paul]
   - id: cal.1962-11-10.middle-east-yemen
     when: Nov. 10
     date: '1962-11-10'
@@ -955,6 +1079,7 @@ entries:
   - id: cal.1962-11-12.missile-crisis
     when: Nov. 12
     date: '1962-11-12'
+    time: 1962-11-13T01:30Z
     thread: missile-crisis-settlement
     also: [robert-kennedy]
     c: '8:30 p.m., the Soviet Embassy''s reception for the Bolshoi Ballet. Robert Kennedy, by the President''s instruction, to Dobrynin: if the IL-28s start out at once and are gone in thirty days, the quarantine lifted at once.'
@@ -972,9 +1097,10 @@ entries:
   - id: cal.1962-11-12.missile-crisis-2
     when: Nov. 12
     date: '1962-11-12'
+    time: 1962-11-12T22:00Z
     thread: missile-crisis-settlement
     c: '5 p.m., the Executive Committee on Khrushchev''s reply: the missiles and warheads out; the Il-28s "at some point." McCloy''s offer discussed, the quarantine lifted for a promise to take the bombers out. Rusk: the quarantine against the bombers; Kennedy: the Il-28s against the quarantine, the assurances against invasion against safeguards.'
-    n: '[FRUS 1961–63, XI, doc. 172](https://history.state.gov/historicaldocuments/frus1961-63v11/d172). [[w.fursenko-one-hell-of-a]], 303 (the offer). See [[cal.1962-11-11.missile-crisis]]. Names: McCloy, Rusk, Kennedy, Khrushchev.'
+    n: '[FRUS 1961–63, XI, doc. 172](https://history.state.gov/historicaldocuments/frus1961-63v11/d172). [[w.fursenko-one-hell-of-a]], 303 (the offer). See [[cal.1962-11-11.missile-crisis]]. Names: McCloy, Rusk, Kennedy, Khrushchev. Check: the hour; the President''s Appointment Book has the meeting from 5:30 to 6:15 p.m. (FRUS 1961–63, XI, doc. 172, its source note).'
     src:
       c: ab92c5fe
       rows:
@@ -987,13 +1113,14 @@ entries:
     thread: goldwater
     also: [elections-1964]
     c: 'New York, the Americana, the Presidential suite. White shows Goldwater the program for the group''s December meeting: a State-by-State organization, a budget, the dates of the conventions and primaries of 1964, his count of delegates. Goldwater: "This looks good. It''s fine." He agrees with Rockefeller on "a lot of things"; nothing said of running. By White''s account.'
-    n: '[[w.white-suite-3505]], 88–91; [[w.goldberg-barry-goldwater]], 167 (Nov. 12; White sensing a cooling between Goldwater and Rockefeller: "I now felt we might well have cleared our highest hurdle"); [[w.bernstein-guns-or-butter]], 125–26 (Goldwater, an arm on White''s shoulder: "Clif, if I didn''t have to worry about anybody else I deal with in politics any more than I worry about you, I''d have a pretty pleasant life"). See [[cal.1961-10-08.goldwater]]. Names: White, Goldwater, Rockefeller.'
+    n: '[[w.white-suite-3505]], 88–91; [[w.goldberg-barry-goldwater]], 167 (Nov. 12; White sensing a cooling between Goldwater and Rockefeller: "I now felt we might well have cleared our highest hurdle"); [[w.bernstein-guns-or-butter]], 125–26 (Goldwater, an arm on White''s shoulder: "Clif, if I didn''t have to worry about anybody else I deal with in politics any more than I worry about you, I''d have a pretty pleasant life"); [[w.perlstein-before-the-storm]], 186 (the week after the election; White''s book of charts, budgets, timetables and delegate estimates; Goldwater "neither encouraging nor discouraging"). See [[cal.1961-10-08.goldwater]]. Names: White, Goldwater, Rockefeller.'
     src:
       c: e79bb140
       rows:
         - 'w.white-suite-3505 88–91: all'
         - 'w.goldberg-barry-goldwater 167: A'
         - 'w.bernstein-guns-or-butter 125–26: A-B, E-F'
+        - 'w.perlstein-before-the-storm 186: B, E'
     tags: [name:white-f-clifton, name:goldwater-barry-m, name:rockefeller-nelson, city:nyc]
   - id: cal.1962-11-12.goldwater-2
     when: Nov. 12
@@ -1091,6 +1218,7 @@ entries:
   - id: cal.1962-11-14.missile-crisis-2
     when: Nov. 14
     date: '1962-11-14'
+    time: 1962-11-14T22:45Z
     thread: missile-crisis-settlement
     also: [robert-kennedy]
     c: '5:45 p.m., the Oval Office, taped. Bundy to Kennedy, of what goes to Moscow through the back channel: "Bobby''s notion is there''s only one peace-lover in the [U.S.] government, and he''s entirely surrounded by militarists and it''s not a bad image. Well, Bobby''s feeding him that stuff, Mr. President."'
@@ -1191,7 +1319,7 @@ entries:
     thread: soviet-union
     also: [missile-crisis, cuba]
     c: 'The Presidium, on Castro''s letter to U Thant and his order to fire on American planes. Khrushchev: Castro''s position "just shouting and unreasonable"; "Either they will cooperate or we will recall our personnel." Agreement to remove the Il-28s to go to Kennedy orally; then held a few days, Mikoyan to offer Castro three plans of inspection.'
-    n: '[[w.fursenko-one-hell-of-a]], 306–307; [[w.fursenko-khrushchevs-cold-war]], 502–03 (Castro''s order for Nov. 17 or 18; the announcement held; every nuclear warhead to come out, the Lunas and some FKRs left without them). To check: Malin''s notes, Nov. 16, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 306 n.73); Presidium resolution, "Regarding Instructions to Mikoyan," Nov. 16, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 306 n.74, n.75, 307 n.76). See [[cal.1962-11-10.soviet-union]]. Names: Castro, U Thant, Khrushchev, Kennedy, Mikoyan.'
+    n: '[[w.fursenko-one-hell-of-a]], 306–307; [[w.fursenko-khrushchevs-cold-war]], 502–03 (Castro''s order for Nov. 17 or 18; the announcement held; every nuclear warhead to come out, the Lunas and some FKRs left without them); [[w.prezidium-tsk-kpss-1954]], I, 646 (Protocol 66). To check: Malin''s notes, Nov. 16, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 306 n.73); Presidium resolution, "Regarding Instructions to Mikoyan," Nov. 16, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 306 n.74, n.75, 307 n.76). See [[cal.1962-11-10.soviet-union]]. Names: Castro, U Thant, Khrushchev, Kennedy, Mikoyan.'
     src:
       c: 1db077a8
       rows:
@@ -1200,6 +1328,8 @@ entries:
         - 'via w.fursenko-one-hell-of-a 306 n.74: D-E'
         - 'w.fursenko-khrushchevs-cold-war 502–03: A-C, E'
         - 'via x.2006.kcw-p503-presidium: A-C, E'
+        - 'w.prezidium-tsk-kpss-1954 I, 646: B-D'
+        - 'via x.1962-11-16.malins-notes-nov-16-1962: B-D'
     tags: [name:castro-fidel, name:u-thant, name:khrushchev-nikita-s, name:mikoyan-anastas, name:kennedy-john-f]
   - id: cal.1962-11-16.mississippi-ole-miss
     when: Nov. 16
@@ -1216,6 +1346,7 @@ entries:
   - id: cal.1962-11-16.missile-crisis-2
     when: Nov. 16
     date: '1962-11-16'
+    time: 1962-11-16T21:05Z
     thread: missile-crisis-settlement
     also: [defense, china]
     c: '4:05 p.m., the Oval Office, taped. Kennedy with the Joint Chiefs. LeMay on the Il-28s: "The operation is fairly simple. ... It would be accomplished in a few minutes": nine bombers in crates at Holguín, thirty-two at San Julián, forty-eight planes in the attack. Anderson: "We''re ready to put the screws on at any time." Kennedy on China: "Khrushchev is attacked daily for a Munich and appeasement ... there''s a major collision going on here."'
@@ -1273,6 +1404,19 @@ entries:
         - 'via x.1962-11-16.hilsman-for-the-secretary-of-state-nov: all'
         - 'via x.1962-11-17.record-of-the-excomm-meeting-nov-17: all'
     tags: [name:rusk-dean, name:kennedy-john-f]
+  - id: cal.1962-11-17.vietnam
+    when: Nov. 17
+    date: '1962-11-17'
+    thread: vietnam
+    c: 'Taylor to McNamara, CM-117-62, "Viet Cong Attacks on Strategic Hamlets": the hamlets spread "with little planning and less coordination," a national plan only in August; 10,971 designated, 3,353 reported completed, perhaps 600 meeting the requirements. The program''s strength "still more in prospect than in reality."'
+    n: 'Memorandum From the Chairman of the Joint Chiefs of Staff (Taylor) to the Secretary of Defense (McNamara), [FRUS 1961–63, II: Vietnam, 1962, doc. 319](https://history.state.gov/historicaldocuments/frus1961-63v02/d319) (Nov. 17, 1962). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 279 (the figures). See [[cal.1962-06-27.vietnam]]. Names: Taylor, McNamara.'
+    src:
+      c: 81775c1b
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v02/d319: all'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 279: A-B'
+        - 'via x.1962-11-17.cm-117-62-taylor-strategic-hamlets: all'
+    tags: [name:taylor-maxwell, name:mcnamara-robert-s]
   - id: cal.1962-11-18.missile-crisis
     when: Nov. 18
     date: '1962-11-18'
@@ -1340,7 +1484,7 @@ entries:
     date: '1962-11-19'
     thread: economy
     c: 'The President''s Advisory Committee on Labor-Management Policy, Henry Ford II, Meany, Reuther, Burns and Kerr among its members: "a prompt and significant reduction in income tax rates," a majority for about $10 billion early in 1963; some would spread it over two or three years, a few hold it to $4 to $5 billion.'
-    n: 'The President''s News Conference of November 20, 1962, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890), item 17. [[w.stein-fiscal-revolution-in-america]], 418, 430. To check: *New York Times*, Nov. 20, 1962 (cited by [[w.stein-fiscal-revolution-in-america]], 418 n.57, 430 n.16). See [[cal.1962-08-13.economy]]. Names: Henry Ford II, Meany, Reuther, Burns, Kerr.'
+    n: 'The President''s News Conference of November 20, 1962, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890), item 17. [[w.stein-fiscal-revolution-in-america]], 418, 430. To check: [*New York Times*, Nov. 20, 1962](https://timesmachine.nytimes.com/timesmachine/1962/11/20/issue.html) (cited by [[w.stein-fiscal-revolution-in-america]], 418 n.57, 430 n.16). See [[cal.1962-08-13.economy]]. Names: Henry Ford II, Meany, Reuther, Burns, Kerr.'
     src:
       c: 607fe7f7
       rows:
@@ -1416,7 +1560,7 @@ entries:
     date: '1962-11-20'
     thread: missile-crisis-settlement
     c: 'Khrushchev: the IL-28s out within a month, with the Soviet personnel who serve them.'
-    n: 'FRUS 1961–63, VI, doc. [79](https://history.state.gov/historicaldocuments/frus1961-63v06/d79). [[w.schlesinger-robert-kennedy-and-his]], 526–27 (the letter, handed by Dobrynin to Robert Kennedy that morning); [[w.sorensen-kennedy]], 721; [[w.fursenko-khrushchevs-cold-war]], 503 (Dobrynin to Robert Kennedy: the Il-28s out within thirty days). [[w.fursenko-one-hell-of-a]], 309–10 (delivered by Bolshakov, Nov. 20). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Khrushchev.'
+    n: 'FRUS 1961–63, VI, doc. [79](https://history.state.gov/historicaldocuments/frus1961-63v06/d79). [[w.schlesinger-robert-kennedy-and-his]], 526–27 (the letter, handed by Dobrynin to Robert Kennedy that morning); [[w.sorensen-kennedy]], 721; [[w.fursenko-khrushchevs-cold-war]], 503 (Dobrynin to Robert Kennedy: the Il-28s out within thirty days); [[w.taylor-swords-and-plowshares]], 277 (Khrushchev yields Nov. 20, the IL-28s out within thirty days; the last checked off Dec. 6). [[w.fursenko-one-hell-of-a]], 309–10 (delivered by Bolshakov, Nov. 20). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Khrushchev.'
     src:
       c: 898f4844
       rows:
@@ -1426,14 +1570,18 @@ entries:
         - 'w.fursenko-one-hell-of-a 309–10: all'
         - 'w.sorensen-kennedy 721: all'
         - 'w.fursenko-khrushchevs-cold-war 503: A'
+        - 'w.taylor-swords-and-plowshares 277: A'
     tags: [name:khrushchev-nikita-s]
   - id: cal.1962-11-20.missile-crisis
     when: Nov. 20
     date: '1962-11-20'
     thread: missile-crisis
     also: [press-and-broadcasting]
+    follows:
+      - cal.1962-11-20.missile-crisis-3
+      - cal.1962-11-20.missile-crisis-2
     c: 'Quarantine lifted, at the press conference. Asked of Collins, of the National Association of Broadcasters, charging State and Defense with news suppression in the Cuban crisis: "I have no apologies"; the news "dribbled out" before the response was settled and the allies consulted would have been "a great mistake and possibly a disaster." One newspaper learned details the Sunday and did not print them.'
-    n: 'The President''s News Conference, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962), at 830 (the quarantine), 834 (Collins). [[w.fursenko-one-hell-of-a]], 310 (the quarantine); [[w.fursenko-khrushchevs-cold-war]], 503 (the quarantine); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 217 (the quarantine lifted at once). [[w.sorensen-kennedy]], 321–22 (the answer on Collins). See [[cal.1962-05-24.missile-crisis]], [[cal.1962-10-22.missile-crisis]]. Names: Collins, Kennedy.'
+    n: 'The President''s News Conference, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962), at 830 (the quarantine), 834 (Collins). [[w.fursenko-one-hell-of-a]], 310 (the quarantine); [[w.fursenko-khrushchevs-cold-war]], 503 (the quarantine); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 217 (the quarantine lifted at once). [[w.sorensen-kennedy]], 321–22 (the answer on Collins). After [[cal.1962-11-20.missile-crisis-3|Robert Kennedy''s talk with Dobrynin]], four hours before. After [[cal.1962-11-20.missile-crisis-2]], four hours before the press conference (the sources above). See [[cal.1962-05-24.missile-crisis]], [[cal.1962-10-22.missile-crisis]]. Names: Collins, Kennedy.'
     src:
       c: d66c7bf0
       rows:
@@ -1488,7 +1636,7 @@ entries:
     date: '1962-11-20'
     thread: laos
     c: Colonel Ketsana, the neutralist commander at Khang Khay, asks Souvanna Phouma for carbine ammunition; Souvanna passes it to the embassy. Unger, with the country team, authorizes Air America to fly supplies to Ketsana's forces.
-    n: '[[w.anthony-war-in-northern-laos]], 78. To check: AmEmb Vientiane to SECSTATE, 772, Nov. 20, 1962 (cited by [[w.anthony-war-in-northern-laos]], 78 n.80a); PACOM Weekly Intelligence Digest 50-62, Dec. 14, 1962, p. 11 (cited by [[w.anthony-war-in-northern-laos]], 78 n.80b). Names: Souvanna Phouma, Unger.'
+    n: '[[w.anthony-war-in-northern-laos]], 78. To check: AmEmb Vientiane to SECSTATE, 772, Nov. 20, 1962 (cited by [[w.anthony-war-in-northern-laos]], 78 n.80a); PACOM Weekly Intelligence Digest 50–62, Dec. 14, 1962, p. 11 (cited by [[w.anthony-war-in-northern-laos]], 78 n.80b). Names: Souvanna Phouma, Unger.'
     src:
       c: f56a7ce8
       rows:
@@ -1587,7 +1735,7 @@ entries:
     thread: laos
     also: [soviet-union]
     c: 'The Presidium, on the Pathet Lao''s request for arms: Khrushchev ends the Soviet airlift. "What is most important now is peace"; "If they want a war, it will be their own affair."'
-    n: '[[w.fursenko-one-hell-of-a]], 323; [[w.fursenko-khrushchevs-cold-war]], 504–05 ("We will not do it!"; "Peace has been made without winners and losers"; "We did everything we could"). To check: Malin''s notes, "Regarding Instructions to the Soviet Ambassador in Laos," Protocol 68, Nov. 21, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 323 n.19). Names: Khrushchev.'
+    n: '[[w.fursenko-one-hell-of-a]], 323; [[w.fursenko-khrushchevs-cold-war]], 504–05 ("We will not do it!"; "Peace has been made without winners and losers"; "We did everything we could"); [[w.prezidium-tsk-kpss-1954]], I, 646 (Protocol 68, item II). To check: Malin''s notes, "Regarding Instructions to the Soviet Ambassador in Laos," Protocol 68, Nov. 21, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 323 n.19). Names: Khrushchev.'
     src:
       c: 153f0f72
       rows:
@@ -1595,6 +1743,8 @@ entries:
         - 'via w.fursenko-one-hell-of-a 323 n.19: all'
         - 'w.fursenko-khrushchevs-cold-war 504–05: all'
         - 'via x.2006.kcw-p504-05: all'
+        - 'w.prezidium-tsk-kpss-1954 I, 646: all'
+        - 'via x.1962-11-21.malins-notes-regarding-instructions-to-the: all'
     tags: [name:khrushchev-nikita-s]
   - id: cal.1962-11-21.defense
     when: Nov. 21
@@ -1639,6 +1789,17 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 268: all'
     tags: [name:harriman-w-averell]
+  - id: cal.1962-11-22.school-aid
+    when: Nov. 22
+    date: '1962-11-22'
+    thread: school-aid
+    c: Miami. Hecht explains the committee's plan to the annual meeting of the Council of Chief State School Officers, its executive secretary, Edgar Fuller, one of the committee.
+    n: '[[w.graham-uncertain-triumph]], 41. To check: *New York Times*, Nov. 23, 1962 (cited by [[w.graham-uncertain-triumph]], 41 n.37).'
+    src:
+      c: 67f1c83f
+      rows:
+        - 'w.graham-uncertain-triumph 41: all'
+        - 'via w.graham-uncertain-triumph 41 n.37: all'
   - id: cal.1962-11-23.sit-ins
     when: Nov. 23–25
     date: '1962-11-23'
@@ -1671,7 +1832,7 @@ entries:
     date: '1962-11-24'
     thread: defense
     c: 'The Pentagon names General Dynamics prime contractor for the TFX, the F-111A and B, over Boeing, the military evaluators'' choice. The ground, a memorandum for the record of Nov. 21 by Zuckert and Korth, approved by McNamara: either aircraft would serve; General Dynamics'' more parts in common, Boeing''s cost estimate too optimistic.'
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 468–69. To check: DoD News Release 1907-62, Nov. 24, 1962 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 469 n.85); Zuckert, Korth and McNamara, memorandum for the record, Nov. 21, 1962, *TFX Contract Investigation: Hearings*, pt. 2, 350–53 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 469 n.86); [[w.art-tfx-decision]]; [[w.coulam-illusions-of-choice]]; [[w.shapley-promise-and-power]]. Names: Zuckert, Korth, McNamara.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 468–69. To check: DoD News Release 1907–62, Nov. 24, 1962 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 469 n.85); Zuckert, Korth and McNamara, memorandum for the record, Nov. 21, 1962, *TFX Contract Investigation: Hearings*, pt. 2, 350–53 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 469 n.86); [[w.art-tfx-decision]]; [[w.coulam-illusions-of-choice]]; [[w.shapley-promise-and-power]]. Names: Zuckert, Korth, McNamara.'
     src:
       c: ca611821
       rows:
@@ -1693,6 +1854,32 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 535: all'
         - 'w.guthman-we-band-of-brothers 132: ?'
     tags: [name:kennedy-robert-f, name:guthman-edwin-o]
+  - id: cal.1962-11-24.europe-and-the-alliance
+    when: Nov. 24
+    date: '1962-11-24'
+    thread: europe-and-the-alliance
+    also: [defense]
+    c: 'Rusk to McNamara: any talk with the British of alternatives to Skybolt to mention three, a British Skybolt program, Hound Dog, or a sea-based MRBM force "under multilateral manning and ownership." "No possibility of our helping them set up a nationally manned and owned MRBM force."'
+    n: 'Letter From Secretary of State Rusk to Secretary of Defense McNamara, [FRUS 1961–63, XIII: Western Europe and Canada, doc. 400](https://history.state.gov/historicaldocuments/frus1961-63v13/d400) (Nov. 24, 1962). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 381. See [[cal.1962-08-24.defense-2]]. Names: Rusk, McNamara.'
+    src:
+      c: 4e13a9b8
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v13/d400: all'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 381: all'
+        - 'via x.1962-11-24.rusk-to-mcnamara-skybolt: all'
+    tags: [name:rusk-dean, name:mcnamara-robert-s]
+  - id: cal.1962-11-25.school-aid
+    when: Nov. 25
+    date: '1962-11-25'
+    thread: school-aid
+    c: 'Sorensen to Kennedy, a first draft of the omnibus bill for 1963, after the Budget Bureau''s memorandum of Nov. 7 and its summary of Nov. 24: teachers'' salaries in public schools only; "Upon receipt by the states, Federal funds under the statute will become state funds."'
+    n: '[[w.graham-uncertain-triumph]], 41. To check: Memorandum, Sorensen to President Kennedy, Nov. 25, 1962, Sorensen files, container 36, JFK Library (cited by [[w.graham-uncertain-triumph]], 41 n.38). Names: Sorensen, Kennedy.'
+    src:
+      c: 0abc9668
+      rows:
+        - 'w.graham-uncertain-triumph 41: all'
+        - 'via w.graham-uncertain-triumph 41 n.38: all'
+    tags: [name:sorensen-theodore-c, name:kennedy-john-f]
   - id: cal.1962-11-26.open-housing-detroit
     when: Nov. 26
     date: '1962-11-26'
@@ -1719,6 +1906,20 @@ entries:
       rows:
         - 'w.schulimson-joint-chiefs-of-staff 273: all'
     tags: [name:ngo-dinh-diem, name:harkins-paul-d]
+  - id: cal.1962-11-26.missile-crisis
+    when: Nov. 26
+    date: '1962-11-26'
+    thread: missile-crisis
+    c: 'Kennedy among the forces gathered for Cuba: Fort Stewart, Ga., the 1st Armored Division; Homestead Air Force Base, Fla., unit awards to the photographic units; Boca Chica Naval Air Station, Key West, Dennison there. A U-2 shown him; thanks to its pilots and the Tactical Air Command''s.'
+    n: 'Remarks at Fort Stewart, Georgia, to Members of the First Armored Division, [1962 Pub. Papers 839](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=899); Remarks at Homestead Air Force Base, Florida, Upon Presenting Unit Awards, [1962 Pub. Papers 840](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=900); Remarks in Key West Upon Presenting Unit Citations at the Boca Chica Naval Air Station, [1962 Pub. Papers 841](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=901) (Nov. 26, 1962). [[w.taylor-swords-and-plowshares]], 274 (the forces in Georgia and Florida, the U-2 and its pilots). See [[cal.1962-11-20.missile-crisis]]. Names: Kennedy, Dennison.'
+    src:
+      c: 665d9fcf
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=899: A'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=900: B, E'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=901: C'
+        - 'w.taylor-swords-and-plowshares 274: A-B, D-E'
+    tags: [name:kennedy-john-f, name:dennison-robert-l]
   - id: cal.1962-11-27.states-and-cities
     when: Nov. 27
     date: '1962-11-27'
@@ -1735,7 +1936,7 @@ entries:
     date: '1962-11-27'
     thread: laos
     c: An Air America C-123, sent by Unger at Souvanna Phouma's bidding with food and supplies, shot down on its final turn into the Plain of Jars; one survivor, a cargo specialist. The gunners, it emerges, Kong Le's deputy Deuane's disaffected neutralists. Souvanna holds it "Pathet Lao-inspired"; he visits the airfield only Dec. 20.
-    n: '[[w.anthony-war-in-northern-laos]], 78–79. Check: Anthony''s text dates the flight Nov. 29 (78); the messages of n.82, Nov. 27 and 28. To check: AmEmb Vientiane to SECSTATE, 806, Nov. 27, 1962 (cited by [[w.anthony-war-in-northern-laos]], 78 n.82a); AmEmb Vientiane to SECSTATE, 809, Nov. 27, 1962 (cited by [[w.anthony-war-in-northern-laos]], 78 n.82b); AmEmb Vientiane to SECSTATE, 818, Nov. 28, 1962 (cited by [[w.anthony-war-in-northern-laos]], 78 n.82c); AmEmb Vientiane to SECSTATE, 823, Nov. 29, 1962 (cited by [[w.anthony-war-in-northern-laos]], 79 n.84a); AmEmb Vientiane to SECSTATE, 906, Dec. 20, 1962 (cited by [[w.anthony-war-in-northern-laos]], 79 n.84b). See [[cal.1962-11-20.laos]]. Names: Unger, Souvanna Phouma, Kong Le.'
+    n: '[[w.anthony-war-in-northern-laos]], 78–79. Check: Anthony''s text dates the flight Nov. 29 (78); the messages of n.82, Nov. 27 and 28. Check: Fursenko and Naftali have the Pathet Lao shoot down an American supply plane for Souvanna Phouma in early November, announced Nov. 21 (505). To check: AmEmb Vientiane to SECSTATE, 806, Nov. 27, 1962 (cited by [[w.anthony-war-in-northern-laos]], 78 n.82a); AmEmb Vientiane to SECSTATE, 809, Nov. 27, 1962 (cited by [[w.anthony-war-in-northern-laos]], 78 n.82b); AmEmb Vientiane to SECSTATE, 818, Nov. 28, 1962 (cited by [[w.anthony-war-in-northern-laos]], 78 n.82c); AmEmb Vientiane to SECSTATE, 823, Nov. 29, 1962 (cited by [[w.anthony-war-in-northern-laos]], 79 n.84a); AmEmb Vientiane to SECSTATE, 906, Dec. 20, 1962 (cited by [[w.anthony-war-in-northern-laos]], 79 n.84b). See [[cal.1962-11-20.laos]]. Names: Unger, Souvanna Phouma, Kong Le.'
     src:
       c: 9ae87b72
       rows:
@@ -1799,6 +2000,18 @@ entries:
       rows:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 258: all'
     tags: [name:rostow-walt-w, name:rusk-dean, name:kennedy-john-f]
+  - id: cal.1962-11-28.defense
+    when: Nov. 28
+    date: '1962-11-28'
+    thread: defense
+    also: [europe-and-the-alliance]
+    c: Skybolt's fifth test, the first guided launch, fails. None of the earlier flights fully successful. Press reports on both sides of the Atlantic that the missile is in trouble.
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 381. To check: Covington''s comments on the fifth launch, Nov. 30, 1962, DDR&E Skybolt files, Acc 68A-1575 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 381 n.88); *Aviation Week*, Nov. 26, 1962; *Daily Express* (London), Nov. 28, 1962 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 381 n.88). See [[cal.1962-08-24.defense-2]].'
+    src:
+      c: 786afed3
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 381: all'
+        - 'via x.1962-11-30.covington-comments-on-fifth-launch: A, B'
   - id: cal.1962-11-29.economy
     when: Nov. 29
     date: '1962-11-29'
@@ -1814,6 +2027,7 @@ entries:
   - id: cal.1962-11-29.missile-crisis
     when: Nov. 29
     date: '1962-11-29'
+    time: 1962-11-29T21:40Z
     thread: missile-crisis-settlement
     c: 'Kennedy with Mikoyan, Rusk, Thompson and Dobrynin present, 4:40 to 7:55 p.m., on Cuba: the declarations to close the affair; failing them, the President would state the American position at a press conference. By Sorensen''s account, Mikoyan reports that Khrushchev liked the spirit of the President''s statements.'
     n: '[FRUS 1961–63, XI, doc. 218](https://history.state.gov/historicaldocuments/frus1961-63v11/d218). [[w.sorensen-kennedy]], 725; [[w.dobrynin-in-confidence]], 94–96 (three and a half hours, on Cuba; "As soon as the first spark of revolution appears any place, so you appear saying, ''Here we are!''"; Mikoyan: "Even you may one day find yourself in Castro''s shoes"; "Not I, but my younger brother may indeed"; by Mikoyan''s report); [[w.fursenko-khrushchevs-cold-war]], 505–06 (Kennedy: the Soviet troops to go; Mikoyan: "We will do what we promised, nothing more and nothing less," in both records). Check: Ball (308) has Mikoyan''s talk with Kennedy on Nov. 30, and Ball dining with him at Udall''s that night. See [[cal.1962-10-16.missile-crisis]]. Names: Kennedy, Mikoyan, Rusk, Thompson, Dobrynin, Khrushchev.'
@@ -1865,7 +2079,13 @@ entries:
     thread: governors
     also: [congress]
     c: New Mexico. Mechem resigns the governorship; Bolack, the lieutenant governor, succeeds and appoints him to the Senate seat of Chávez (D), who died Nov. 18.
-    n: '[Wikipedia, "Tom Bolack"](https://en.wikipedia.org/wiki/Tom_Bolack); [Wikipedia, "Edwin L. Mechem"](https://en.wikipedia.org/wiki/Edwin_L._Mechem). To check: [[w.peirce-mountain-states-of-america]]. See [[cal.1962-11-06.governors-nm]]. Names: Mechem, Bolack, Chavez.'
+    n: '[Wikipedia, "Tom Bolack"](https://en.wikipedia.org/wiki/Tom_Bolack); [Wikipedia, "Edwin L. Mechem"](https://en.wikipedia.org/wiki/Edwin_L._Mechem). [[w.peirce-mountain-states-of-america]], 265 (Mechem arranges his own appointment to the vacant seat). Check: Peirce, 266, gives 1963 for Chávez''s death. See [[cal.1962-11-06.governors-nm]]. Names: Mechem, Bolack, Chavez.'
+    src:
+      c: 39310e28
+      rows:
+        - 'https://en.wikipedia.org/wiki/Tom_Bolack: all'
+        - 'https://en.wikipedia.org/wiki/Edwin_L._Mechem: all'
+        - 'w.peirce-mountain-states-of-america 265: B, C'
     tags: [state:nm, name:mechem-edwin-l, name:bolack-tom, name:chavez-dennis]
   - id: cal.1962-11-30.oil
     when: Nov. 30
@@ -1923,7 +2143,7 @@ entries:
     thread: king
     also: [robert-kennedy]
     c: Robert Kennedy authorizes a wiretap on Levison's home telephone, on Hoover's memorandum of Nov. 20. The microphone in his office had been taken out in August.
-    n: '[S. Rep. No. 94-755, Book III, 89 (1976)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf#page=92) (K–J Adm. II.H.3). [[w.schlesinger-robert-kennedy-and-his]], 355; [[w.branch-parting-the-waters]], 679; [[w.thomas-robert-kennedy]], 252 (the FBI reports King still meeting Levison and O''Dell; another tap on Levison, at his home). Made public: S. Rep. No. 94-755, Book III (1976). Check: Branch, 679 n.2, has the home wiretap installed Nov. 29, 1962 (FBI New York Levison file, serial 9-77), and Robert Kennedy signing it the day the President signed the housing order. See [[cal.1962-03.king]]. Names: Robert Kennedy, Levison, Hoover. Check: the day.'
+    n: '[S. Rep. No. 94-755, Book III, 89 (1976)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf#page=92) (K–J Adm. II.H.3). [[w.schlesinger-robert-kennedy-and-his]], 355; [[w.branch-parting-the-waters]], 679; [[w.thomas-robert-kennedy]], 252 (the FBI reports King still meeting Levison and O''Dell; another tap on Levison, at his home). Made public: S. Rep. No. 94-755, Book III (1976). Check: Branch, 679 n.2, has the home wiretap installed Nov. 29, 1962 (FBI New York Levison file, serial 9–77), and Robert Kennedy signing it the day the President signed the housing order. See [[cal.1962-03.king]]. Names: Robert Kennedy, Levison, Hoover. Check: the day.'
     src:
       c: 9f296e85
       rows:
@@ -2166,3 +2386,51 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff 282: all'
     tags: [name:rusk-dean]
+  - id: cal.1962-11.missile-crisis
+    when: Nov.
+    date: 1962-11
+    thread: missile-crisis
+    also: [defense]
+    c: 'The DIA, estimating the time for the Soviets to take the missiles out, includes the Il-28s: of the 33 bombers sent to San Julián airfield, 13 uncrated, 7 flyable; the other 9 of 42 unassembled at another field.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 215. To check: McNamara''s special briefing on Cuba, Feb. 6, 1963, *McNamara Public Statements*, 1963, II, 968–69 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 215 n.89). Check: the day.'
+    src:
+      c: f325f531
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 215: all'
+        - 'via x.1963-02-06.mcnamara-special-briefing-cuba: all'
+  - id: cal.1962-11.south-asia
+    when: Nov., early
+    date: 1962-11
+    thread: south-asia
+    also: [soviet-union, china]
+    c: 'Khrushchev to Nehru, a public letter: Moscow must go on supporting the Chinese position on the border.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 497. Check: the day: the *Times* reported it Nov. 4 (497 n.23). To check: A. M. Rosenthal, "India''s Hope for Support by Soviet All but Ended," *New York Times*, Nov. 4, 1962 (cited by [[w.fursenko-khrushchevs-cold-war]], 497 n.23). See [[cal.1962-10.south-asia]]. Names: Khrushchev, Nehru.'
+    src:
+      c: 120b8d3d
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 497: all'
+        - 'via w.fursenko-khrushchevs-cold-war 497 n.23: all'
+    tags: [name:khrushchev-nikita-s, name:nehru-jawaharlal]
+  - id: cal.1962-11.robert-kennedy
+    when: Nov., mid
+    date: 1962-11
+    thread: robert-kennedy
+    c: 'A White House dinner dance. Johnson follows Robert Kennedy into the family quarters: "Now you don''t like me, Bobby ... Your brother likes me." By Spalding''s account.'
+    n: '[[w.thomas-robert-kennedy]], 278. Check: the day. To check: [[w.schlesinger-robert-kennedy-and-his]], 623 (cited by [[w.thomas-robert-kennedy]], 451). Names: Johnson, Robert Kennedy.'
+    src:
+      c: d7d1b863
+      rows:
+        - 'w.thomas-robert-kennedy 278: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
+  - id: cal.1962-11.elections-1962
+    when: Nov., before the election
+    date: 1962-11
+    thread: elections-1962
+    c: The Bronx, on street corners. Rockefeller's fifteen-point program to make "all the people well housed, well clothed, well fed, well educated and well protected from adversity."
+    n: '[[w.smith-on-his-own-terms]], 382 (and, of the campaign: "We''re not going to raise taxes again," wherever he went). To check: *New York Times*, Nov. 3, 1962 (cited by [[w.smith-on-his-own-terms]], 382). Check: the day. Names: Rockefeller.'
+    src:
+      c: e34d4e7e
+      rows:
+        - 'w.smith-on-his-own-terms 382: all'
+        - 'via x.1962-11-03.new-york-times-nov-3-1962-bronx: all'
+    tags: [name:rockefeller-nelson, state:ny, city:nyc]

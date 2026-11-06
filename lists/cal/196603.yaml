@@ -8,8 +8,11 @@ entries:
     date: '1966-03-01'
     thread: vietnam-supplemental
     also: [congress, defense]
+    follows:
+      - cal.1966-03-01.vietnam-congress-2
+      - cal.1966-03-01.vietnam-2
     c: 'The war''s supplemental authorization. The Senate tables Morse''s amendment to repeal the Southeast Asia resolution of Aug. 1964, [92–5](https://voteview.com/rollcall/RS0890270): Morse, Gruening, Fulbright, McCarthy, Young of Ohio the five. Gruening''s, to keep draftees from Southeast Asia''s combat areas without Congress''s consent, tabled [94–2](https://voteview.com/rollcall/RS0890271). The authorization, $4.8 billion for aircraft, missiles, and construction, passes, [93–2](https://voteview.com/rollcall/RS0890272); the House''s, [393–4](https://voteview.com/rollcall/RH0890216).'
-    n: 'The vote to table: [112 Cong. Rec. 4404](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt4/pdf/GPO-CRECB-1966-pt4-2-1.pdf#page=82) (1966) (Senate, Mar. 1, 1966). [[w.mann-grand-delusion]], 504–05 (Johnson to Mansfield; the votes); [[w.branch-at-canaans-edge]], 451; [[w.woods-fulbright]], 410 ($4.8 billion; two weeks before the Senate, thirty-five Senators speaking against the war or its tactics). [[w.rusk-as-i-saw-it-1990]], 501, 546 (only five against tabling). Check: the pages of the other votes. [FRUS 1964–68, IV, doc. 87](https://history.state.gov/historicaldocuments/frus1964-68v04/d87) (Johnson to Mansfield by telephone, 9:42 a.m.: the motion to table must not "imply any dilution" of the resolution). [[w.gibbons-u-s-government-and]], IV, 251–59. Check: Branch dates the vote Mar. 2. To check: [[w.berman-william-fulbright-and-the]]; [[w.evans-lyndon-b-johnson]], 597 (cited by [[w.branch-at-canaans-edge]], 451). See [[cal.1966-01-19.vietnam]]; [[cal.1966-02-04.vietnam]]. Names: Morse, Gruening, Fulbright, McCarthy, Young.'
+    n: 'The vote to table: [112 Cong. Rec. 4404](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt4/pdf/GPO-CRECB-1966-pt4-2-1.pdf#page=82) (1966) (Senate, Mar. 1, 1966). [[w.mann-grand-delusion]], 504–05 (Johnson to Mansfield; the votes); [[w.branch-at-canaans-edge]], 451; [[w.woods-fulbright]], 410 ($4.8 billion; two weeks before the Senate, thirty-five Senators speaking against the war or its tactics). [[w.rusk-as-i-saw-it-1990]], 501, 546 (only five against tabling). Check: the pages of the other votes. [FRUS 1964–68, IV, doc. 87](https://history.state.gov/historicaldocuments/frus1964-68v04/d87) (Johnson to Mansfield by telephone, 9:42 a.m.: the motion to table must not "imply any dilution" of the resolution). [[w.gibbons-u-s-government-and]], IV, 251–59. Check: Branch dates the vote Mar. 2. After the debate on Morse''s amendment (the Record) and Ball''s lunch with the four Senators, before the vote by Gibbons''s account. To check: [[w.berman-william-fulbright-and-the]]; [[w.evans-lyndon-b-johnson]], 597 (cited by [[w.branch-at-canaans-edge]], 451). See [[cal.1966-01-19.vietnam]]; [[cal.1966-02-04.vietnam]]. Names: Morse, Gruening, Fulbright, McCarthy, Young.'
     src:
       c: b1213883
       rows:
@@ -56,7 +59,7 @@ entries:
     date: '1966-03-01'
     thread: vietnam-supplemental
     c: 'Fulbright in the Senate, as the debate ends: a neutralized Southeast Asia, the United States and China both withdrawing their military power; to bring China to it, enclaves on the coast as Gavin proposed. Mar. 19, he writes Johnson to consider such a plan.'
-    n: '[112 Cong. Rec. 4379](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt4/pdf/GPO-CRECB-1966-pt4-2-1.pdf) (1966). *New York Times*, Mar. 2, 1966. [[w.gibbons-u-s-government-and]], IV, 259; [[w.woods-fulbright]], 412 (a "general accommodation" with China). Names: Fulbright, Gavin, Johnson.'
+    n: '[112 Cong. Rec. 4379](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt4/pdf/GPO-CRECB-1966-pt4-2-1.pdf) (1966). [*New York Times*, Mar. 2, 1966](https://timesmachine.nytimes.com/timesmachine/1966/03/02/issue.html). [[w.gibbons-u-s-government-and]], IV, 259; [[w.woods-fulbright]], 412 (a "general accommodation" with China). Names: Fulbright, Gavin, Johnson.'
     src:
       c: 846a3eb8
       rows:
@@ -175,6 +178,18 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 228 n: all'
         - 'w.gibbons-u-s-government-and IV, 228 n: all'
     tags: [name:deloach-cartha, name:tolson-clyde-a, name:hoover-j-edgar]
+  - id: cal.1966-03-01.cities-and-housing
+    when: Mar. 1
+    date: '1966-03-01'
+    thread: cities-and-housing
+    also: [open-housing]
+    c: 'Chicago. Daley: door-to-door inspections of 15,000 buildings in three West Side neighborhoods, King''s among them.'
+    n: '[[w.cohen-american-pharaoh]], 364. Names: Daley.'
+    src:
+      c: 1c404512
+      rows:
+        - 'w.cohen-american-pharaoh 364: all'
+    tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1966-03-02.transportation
     when: Mar. 2
     date: '1966-03-02'
@@ -193,13 +208,14 @@ entries:
     date: '1966-03-02'
     thread: transition-and-staff
     c: 'NSAM 341: the Secretary of State given "overall direction, coordination and supervision" of interdepartmental activities overseas, forces under an area commander excepted. A Senior Interdepartmental Group, the Under Secretary of State its executive chairman, with Defense, AID, the CIA, the Joint Chiefs, USIA, and the national security assistant; Interdepartmental Regional Groups under the Assistant Secretaries. The SIG takes over the Special Group (Counterinsurgency). Taylor''s design. Announced Mar. 4.'
-    n: 'NSAM 341, FRUS 1964–68, XXXIII, docs. [56](https://history.state.gov/historicaldocuments/frus1964-68v33/d56), [58](https://history.state.gov/historicaldocuments/frus1964-68v33/d58). [[w.herring-lbj-and-vietnam]], 12–13 (Taylor''s design, worked out with U. Alexis Johnson; the SIG and its members; the regional groups). To check: [[w.taylor-swords-and-plowshares]]; [[w.johnson-right-hand-of-power]]; Bromley Smith''s oral history, LBJ Library (cited by [[w.herring-lbj-and-vietnam]], 13 n.35). Names: Taylor.'
+    n: 'NSAM 341, FRUS 1964–68, XXXIII, docs. [56](https://history.state.gov/historicaldocuments/frus1964-68v33/d56), [58](https://history.state.gov/historicaldocuments/frus1964-68v33/d58). [[w.herring-lbj-and-vietnam]], 12–13 (Taylor''s design, worked out with U. Alexis Johnson; the SIG and its members; the regional groups); [[w.taylor-swords-and-plowshares]], 203, 360–61 (Taylor''s report of mid-January, its recommendations as NSAM 341 adopted them; the Special Group merged in 1966; the launch at a White House press conference, undated). To check: [[w.johnson-right-hand-of-power]]; Bromley Smith''s oral history, LBJ Library (cited by [[w.herring-lbj-and-vietnam]], 13 n.35). Names: Taylor.'
     src:
       c: a66628bb
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v33/d56: all'
         - 'w.herring-lbj-and-vietnam 12–13: A-C, E'
         - 'via w.herring-lbj-and-vietnam 13 n.35: A-C, E'
+        - 'w.taylor-swords-and-plowshares 203, 360–61: A-E'
     tags: [name:taylor-maxwell, name:johnson-lyndon-b]
     short: NSAM 341
   - id: cal.1966-03-02.press-and-broadcasting-ca
@@ -323,10 +339,13 @@ entries:
   - id: cal.1966-03-02.vietnam-congress-2
     when: Mar. 2
     date: '1966-03-02'
+    time: 1966-03-02T23:05Z
     thread: vietnam-congress-foreign-relations
     also: [vietnam-humphrey]
+    follows:
+      - cal.1966-03-02.vietnam-congress
     c: '6:05 p.m., Johnson and Humphrey by telephone, on Fulbright: Johnson has heard he is "going through a menopause," "off his rocker because of Mrs. Fulbright being sick." Humphrey: Fulbright, angry, demanded he find a way out of Vietnam, "That''s what we pay you for"; "he''s lost his sense of judgment, Mr. President."'
-    n: '[[w.branch-at-canaans-edge]], 451. To check: [Johnson and Hubert Humphrey, 6:05 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-hubert-humphrey-and-office-noise-march-2-1966), Conversation WH6603-01-9812 (Miller Center) (cited by [[w.branch-at-canaans-edge]], 451). See [[cal.1966-03-01.vietnam]]. Names: Johnson, Humphrey, Fulbright.'
+    n: '[[w.branch-at-canaans-edge]], 451. To check: [Johnson and Hubert Humphrey, 6:05 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-hubert-humphrey-and-office-noise-march-2-1966), Conversation WH6603-01-9812 (Miller Center) (cited by [[w.branch-at-canaans-edge]], 451). After [[cal.1966-03-02.vietnam-congress]] (the sources above). See [[cal.1966-03-01.vietnam]]. Names: Johnson, Humphrey, Fulbright.'
     src:
       c: c9025ea5
       rows:
@@ -350,8 +369,8 @@ entries:
     when: Mar. 2
     date: '1966-03-02'
     thread: economy
-    c: 'The Senate Banking and Currency, United State Senate Committee hears nominees: Andrew F. Brimmer, a member of the Board of Governors of the Federal Reserve System; William W. Sherrill, a member of the Board of Directors of the Federal Deposit Insurance Corporation.'
-    n: '[*Nominations of Dr. Andrew F. Brimmer and William W. Sherrill: Hearing Before the S. Comm. on Banking and Currency*, 89th Cong. (1966)](https://www.govinfo.gov/app/details/CHRG-89shrg59943), 3 (Sherrill), 4 (Brimmer). Check: GPO''s catalogue dates the hearing Mar. 3; its heading, Mar. 2. Names: Brimmer, Sherrill.'
+    c: 'The Senate Banking and Currency Committee hears nominees: Andrew F. Brimmer, a member of the Board of Governors of the Federal Reserve System; William W. Sherrill, a member of the Board of Directors of the Federal Deposit Insurance Corporation.'
+    n: '*Nominations of Dr. Andrew F. Brimmer and William W. Sherrill: Hearing Before the S. Comm. on Banking and Currency*, 89th Cong. (1966) ([online](https://www.govinfo.gov/app/details/CHRG-89shrg59943)), 3 (Sherrill), 4 (Brimmer). Check: GPO''s catalogue dates the hearing Mar. 3; its heading, Mar. 2. Names: Brimmer, Sherrill.'
     tags: [name:brimmer-andrew-f, name:sherrill-william-w]
   - id: cal.1966-03-02.vietnam-struggle
     when: Mar. 2
@@ -369,6 +388,7 @@ entries:
   - id: cal.1966-03-03.school-aid
     when: Mar. 3
     date: '1966-03-03'
+    time: 1966-03-03T16:10Z
     thread: school-aid
     also: [vietnam]
     c: 'Veterans'' Readjustment Benefits Act signed in the East Room, [80 Stat. 12](https://www.govinfo.gov/content/pkg/STATUTE-80/pdf/STATUTE-80-Pg12.pdf), the "Cold War GI Bill": for service after Jan. 31, 1955, schooling at $100 a month, $125 with one dependent, $150 with more; home loans; medical care. Yarborough its author in the Senate; Teague''s committee reported it in the House.'
@@ -497,6 +517,16 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 187 n: all'
         - 'via x.1966-03-04.saigon-to-washington-telegram-3202-mar: all'
     tags: [name:lodge-henry-cabot, name:nguyen-van-thieu, name:tran-van-do]
+  - id: cal.1966-03-04.war-opposition
+    when: Mar. 4
+    date: '1966-03-04'
+    thread: war-opposition
+    c: Rochester, N.Y. A Catholic Worker beaten to death outside a tavern by two youths angered by his views on the war.
+    n: '[[w.debenedetti-american-ordeal]], 152.'
+    src:
+      c: e35e27e7
+      rows:
+        - 'w.debenedetti-american-ordeal 152: all'
   - id: cal.1966-03-05.vietnam
     when: Mar. 5
     date: '1966-03-05'
@@ -542,6 +572,17 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 262: all'
         - 'via w.gibbons-u-s-government-and IV, 262 n.134: all'
     tags: [name:rusk-dean, name:fulbright-j-william]
+  - id: cal.1966-03-06.war-opposition
+    when: Mar. 6
+    date: '1966-03-06'
+    thread: war-opposition
+    c: San Francisco. The Du Bois Clubs' headquarters destroyed by at least ten sticks of dynamite.
+    n: '[[w.debenedetti-american-ordeal]], 152.'
+    src:
+      c: 17fea349
+      rows:
+        - 'w.debenedetti-american-ordeal 152: all'
+    tags: [state:ca, city:san-francisco]
   - id: cal.1966-03-07.court
     when: Mar. 7
     date: '1966-03-07'
@@ -577,7 +618,7 @@ entries:
     date: '1966-03-07'
     thread: vietnam-supplemental
     c: 'Foreign Relations, executive session, orders the supplemental aid bill reported, 18–1, Morse against. Fulbright''s amendment, that aid is no commitment to defend with American forces, fails 6–13: Fulbright, Morse, Gore, Church, Clark and Pell for it. McGovern''s, offered by Church, that the bill ratifies no decision on Vietnam, fails 5–14. McCarthy, by the press account, red-faced over Rusk''s letter.'
-    n: 'Daily Digest, [112 Cong. Rec. D91](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=89). S. Rep. No. 89-1060 (1966). *New York Times*, Mar. 8, 1966. [[w.gibbons-u-s-government-and]], IV, 260–62. To check: Senate Comm. on Foreign Relations, *Executive Sessions (Historical Series)*, XVIII: 1966, 609–41 (1993). See [[cal.1966-03-06.vietnam-congress]]. Names: Morse, Fulbright, Gore, Church, Clark, Pell, McGovern, McCarthy, Rusk.'
+    n: 'Daily Digest, [112 Cong. Rec. D91](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=89). S. Rep. No. 89-1060 (1966). [*New York Times*, Mar. 8, 1966](https://timesmachine.nytimes.com/timesmachine/1966/03/08/issue.html). [[w.gibbons-u-s-government-and]], IV, 260–62. To check: Senate Comm. on Foreign Relations, *Executive Sessions (Historical Series)*, XVIII: 1966, 609–41 (1993). See [[cal.1966-03-06.vietnam-congress]]. Names: Morse, Fulbright, Gore, Church, Clark, Pell, McGovern, McCarthy, Rusk.'
     src:
       c: 5c606754
       rows:
@@ -772,6 +813,7 @@ entries:
   - id: cal.1966-03-09.economy
     when: Mar. 9
     date: '1966-03-09'
+    time: 1966-03-09T15:40Z
     thread: economy
     c: Brimmer sworn as a member of the Federal Reserve Board, the first Negro, Martin administering the oath at Johnson's suggestion.
     n: 'Remarks at the Swearing In of Andrew F. Brimmer as a Member, Federal Reserve Board, [1966 Pub. Papers 289](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=365) (Mar. 9, 1966). [[w.califano-triumph-and-tragedy-of]], 109, 111. See [[cal.1966-02.economy]]. Names: Brimmer, Martin, Johnson.'
@@ -810,7 +852,7 @@ entries:
     date: '1966-03-10'
     thread: vietnam-struggle
     c: The Directorate relieves Thi of the I Corps command; Kỳ had told Lodge Mar. 9 of Thi's insubordination, Lodge answering that it was an internal affair.
-    n: '[FRUS 1964–68, IV, doc. 91](https://history.state.gov/historicaldocuments/frus1964-68v04/d91). [[w.gibbons-u-s-government-and]], IV, 268–71; [[w.staaveren-gradual-failure]], 250 (Thi dismissed, Mar. 10). To check: [[w.topmiller-lotus-unleashed]]; [[w.minh-vietnamese-engaged-buddhism]]; [[w.luu-buddhist-crises-in-vietnam]]; [[w.moyar-political-monks]]; [[w.kahin-intervention]]; [[w.fitzgerald-fire-in-the-lake]]; [[w.ky-twenty-years-and-twenty]]; [[w.blair-lodge-in-vietnam]]; Lodge, "Vietnam Memoir," pt. IV, ch. III, 5, Lodge Papers, Massachusetts Historical Society (cited by [[w.gibbons-u-s-government-and]], IV, 269 n.7). Names: Nguyễn Chánh Thi, Nguyễn Cao Kỳ, Lodge.'
+    n: '[FRUS 1964–68, IV, doc. 91](https://history.state.gov/historicaldocuments/frus1964-68v04/d91). [[w.gibbons-u-s-government-and]], IV, 268–71; [[w.staaveren-gradual-failure]], 250 (Thi dismissed, Mar. 10); [[w.taylor-swords-and-plowshares]], 367. To check: [[w.topmiller-lotus-unleashed]]; [[w.minh-vietnamese-engaged-buddhism]]; [[w.luu-buddhist-crises-in-vietnam]]; [[w.moyar-political-monks]]; [[w.kahin-intervention]]; [[w.fitzgerald-fire-in-the-lake]]; [[w.ky-twenty-years-and-twenty]]; [[w.blair-lodge-in-vietnam]]; Lodge, "Vietnam Memoir," pt. IV, ch. III, 5, Lodge Papers, Massachusetts Historical Society (cited by [[w.gibbons-u-s-government-and]], IV, 269 n.7). Names: Nguyễn Chánh Thi, Nguyễn Cao Kỳ, Lodge.'
     src:
       c: bda77256
       rows:
@@ -819,6 +861,7 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 269 n.8: B'
         - 'via w.gibbons-u-s-government-and IV, 269 n.7: B'
         - 'w.staaveren-gradual-failure 250: A'
+        - 'w.taylor-swords-and-plowshares 367: A'
     tags: [name:nguyen-chanh-thi, name:nguyen-cao-ky, name:lodge-henry-cabot]
     short: the Buddhist Uprising
   - id: cal.1966-03-10.india-and-china
@@ -861,11 +904,12 @@ entries:
     thread: elections-1966
     also: [mayors]
     c: Chicago, the Sherman Hotel. Daley's Cook County Democratic organization makes its slate for the 1966 elections.
-    n: '[[w.branch-at-canaans-edge]], 443. To check: [[w.cohen-american-pharaoh]], 367 (cited by [[w.branch-at-canaans-edge]], 443). Names: Daley.'
+    n: '[[w.branch-at-canaans-edge]], 443; [[w.cohen-american-pharaoh]], 367–68 (the slate-making at the Sherman Hotel; Simon, the Cook County board''s president, refused renomination, Horwitz against him). Names: Daley.'
     src:
       c: 5281e464
       rows:
         - 'w.branch-at-canaans-edge 443: all'
+        - 'w.cohen-american-pharaoh 367–68: A-B'
     tags: [name:daley-richard-j, state:il, city:chicago]
   - id: cal.1966-03-10.jobs-and-wages
     when: Mar. 10
@@ -932,6 +976,7 @@ entries:
   - id: cal.1966-03-11.europe-and-the-alliance-france
     when: Mar. 11
     date: '1966-03-11'
+    time: 1966-03-11T16:30Z
     thread: europe-and-the-alliance-france
     c: 'The French aide-mémoire to the United States: the alliance''s organization no longer answers, as far as France is concerned, to conditions "fundamentally different from those of 1949."'
     n: FRUS 1964–68, XIII, docs. [141](https://history.state.gov/historicaldocuments/frus1964-68v13/d141), [142](https://history.state.gov/historicaldocuments/frus1964-68v13/d142). [[w.current-documents-1966]], 317–323 (Check the page). See [[cal.1966-03-07.europe-and-the-alliance]].
@@ -945,6 +990,7 @@ entries:
   - id: cal.1966-03-11.vietnam-struggle-2
     when: Mar. 11
     date: '1966-03-11'
+    time: 1966-03-11T17:35Z
     thread: vietnam-struggle
     c: 'Johnson with his advisers, 12:35 to 1:30 p.m. McNamara: Thi removed, "Under control"; "I believe he will come out." Johnson: "Do our people want him to leave?" McNamara: "I do." Taylor: "He''s a bad character and good riddance." Wheeler: "a conniver."'
     n: '[FRUS 1964–68, IV, doc. 93](https://history.state.gov/historicaldocuments/frus1964-68v04/d93) (Valenti''s notes). [[w.gibbons-u-s-government-and]], IV, 271. Made public: FRUS 1964–68, IV (1998). See [[cal.1966-03-10.vietnam]]. Names: Johnson, McNamara, Nguyễn Chánh Thi, Taylor, Wheeler.'
@@ -1032,7 +1078,7 @@ entries:
     thread: open-housing
     also: [king]
     c: 'Chicago, the International Amphitheater. Belafonte''s Freedom Festival for the Chicago movement, 12,000. King: the city''s sixty thousand chronically unemployed Negroes would be "a staggering depression" among whites; "Never before in the history of the civil rights movement has an action campaign been launched in such splendor." Net $80,000.'
-    n: '[[w.branch-at-canaans-edge]], 443–44. To check: Ralph, Northern, pias "even unto the third and fourth generation": Chicago Sun-Times, March 13, 1966, pp. 2-3) (cited by [[w.branch-at-canaans-edge]], 443); Ralph, Northern, pias "even unto the third and fourth generation": Chicago Sun-Times, March 13, 1966, pp. 2-3) (cited by [[w.branch-at-canaans-edge]], 444); Wiretap transcript of telephone conversation between Stanley Levison and [name deleted], 12:43 p.m., March 14, 1966, FLNY-9-NS (cited by [[w.branch-at-canaans-edge]], 444). Names: King.'
+    n: '[[w.branch-at-canaans-edge]], 443–44; [[w.ralph-northern-protest]], 75; [[w.anderson-confronting-the-color-line]], 190 (the Freedom Festival at the International Amphitheater); [[w.cohen-american-pharaoh]], 368. Check: Ralph gives the festival''s gross, more than $100,000 (75). Check: Anderson gives a capacity crowd of thirteen thousand, Belafonte, Gregory, Mahalia Jackson and Poitier (190), and $40,000 received by the treasurer''s report of Apr. 9 (192). To check: Ralph, Northern, pias "even unto the third and fourth generation": Chicago Sun-Times, March 13, 1966, pp. 2–3) (cited by [[w.branch-at-canaans-edge]], 443); Ralph, Northern, pias "even unto the third and fourth generation": Chicago Sun-Times, March 13, 1966, pp. 2–3) (cited by [[w.branch-at-canaans-edge]], 444); Wiretap transcript of telephone conversation between Stanley Levison and [name deleted], 12:43 p.m., March 14, 1966, FLNY-9-NS (cited by [[w.branch-at-canaans-edge]], 444). Names: King.'
     src:
       c: 44c47dcc
       rows:
@@ -1040,6 +1086,9 @@ entries:
         - 'via x.1966-03-13.ralph-northern-pias-even-unto-the: all'
         - 'via x.1966-03-13.ralph-northern-pias-even-unto-the-2: all'
         - 'via x.1966-03-14.wiretap-transcript-of-telephone-conversation-between: all'
+        - 'w.ralph-northern-protest 75: A-B'
+        - 'w.anderson-confronting-the-color-line 190: A-B'
+        - 'w.cohen-american-pharaoh 368: A-B, D-E'
     tags: [name:king-martin-luther-jr, state:il, city:chicago]
   - id: cal.1966-03-12.open-housing-2
     when: Mar. 12
@@ -1161,6 +1210,7 @@ entries:
   - id: cal.1966-03-15.vietnam-supplemental
     when: Mar. 15
     date: '1966-03-15'
+    time: 1966-03-15T14:05Z
     thread: vietnam-supplemental
     also: [defense]
     c: Supplemental military authorization signed, [80 Stat. 36](https://www.govinfo.gov/content/pkg/STATUTE-80/pdf/STATUTE-80-Pg36.pdf). The appropriation, some $13 billion, before Congress later the same day.
@@ -1171,8 +1221,10 @@ entries:
     date: '1966-03-15'
     thread: congress
     also: [vietnam-supplemental]
+    follows:
+      - cal.1966-03-15.vietnam-supplemental
     c: The House passes the supplemental defense appropriation, H.R. 13546, [389–3](https://voteview.com/rollcall/RH0890222), Burton, Conyers and Ryan against.
-    n: '[112 Cong. Rec. 5802–23](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt5/pdf/GPO-CRECB-1966-pt5-3-1.pdf) (1966). [[w.gibbons-u-s-government-and]], IV, 263. Names: Burton, Conyers, Ryan.'
+    n: '[112 Cong. Rec. 5802–23](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt5/pdf/GPO-CRECB-1966-pt5-3-1.pdf) (1966). [[w.gibbons-u-s-government-and]], IV, 263. After the authorization''s signing that morning, 9:05 a.m. by the Public Papers: the appropriation before the House later the same day. Names: Burton, Conyers, Ryan.'
     src:
       c: 2133e50a
       rows:
@@ -1216,14 +1268,16 @@ entries:
   - id: cal.1966-03-16.space
     when: Mar. 16
     date: '1966-03-16'
+    time: 1966-03-16T16:41Z
     thread: space
     c: 'Gemini 8: Armstrong and Scott dock with an Agena target some six and a half hours after launch, the first docking in orbit. A thruster sticks open; the joined craft tumble; Armstrong casts off the Agena and steadies the capsule with the reentry thrusters. Down in the western Pacific after some ten and a half hours, the flight cut short.'
-    n: 'Statement by the President Following the Safe Return of the Gemini 8 Astronauts, [1966 Pub. Papers 331](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=407) (Mar. 16, 1966). To check: [[w.hacker-on-the-shoulders-of]]. See [[cal.1965-12-15.space]]. Names: Armstrong, Scott.'
+    n: 'Statement by the President Following the Safe Return of the Gemini 8 Astronauts, [1966 Pub. Papers 331](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=407) (Mar. 16, 1966). [Kennedy Space Center, *Summary of Major NASA Launchings, October 1, 1958–September 30, 1973* (1973), PDF p. 115](https://ntrs.nasa.gov/api/citations/19740015280/downloads/19740015280.pdf#page=115) (the launch, 11:41 a.m. EST). To check: [[w.hacker-on-the-shoulders-of]]. See [[cal.1965-12-15.space]]. Names: Armstrong, Scott.'
     tags: [name:armstrong-neil-a, name:scott-david-r]
     short: Gemini 8
   - id: cal.1966-03-16.foreign-aid
     when: Mar. 16
     date: '1966-03-16'
+    time: 1966-03-16T14:40Z
     thread: foreign-aid
     c: 'Asian Development Bank Act signed, [80 Stat. 71](https://www.govinfo.gov/content/pkg/STATUTE-80/pdf/STATUTE-80-Pg71.pdf): American membership, and $200 million for 20,000 shares of the bank''s capital. Johnson: "This billion dollar bank."'
     n: 'Remarks at the Signing of the Asian Development Bank Act, [1966 Pub. Papers 327](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=403) (Mar. 16, 1966). See [[cal.1965-04-07.vietnam]]. Names: Johnson.'
@@ -1247,6 +1301,7 @@ entries:
   - id: cal.1966-03-16.vietnam-struggle
     when: Mar. 16
     date: '1966-03-16'
+    time: 1966-03-16T21:13Z
     thread: vietnam-struggle
     c: 'Johnson''s view, by cable to Lodge for Trí Quang and the other Buddhist leaders: "this is not the time to overturn everything"; if they persist in their "irresponsible and destructive course," they lose American sympathy and may bring "chaos and anarchy," in which American support could no longer be effective.'
     n: 'FRUS 1964–68, IV, docs. [96](https://history.state.gov/historicaldocuments/frus1964-68v04/d96), [97](https://history.state.gov/historicaldocuments/frus1964-68v04/d97) (Smith''s note to Johnson). [[w.gibbons-u-s-government-and]], IV, 271–72. See [[cal.1966-03-10.vietnam]]. Names: Johnson, Lodge, Thích Trí Quang.'
@@ -1288,12 +1343,14 @@ entries:
     thread: mayors
     also: [open-housing]
     c: 'Daley: his teams have visited 96,761 poor families and killed 1,675,941 rats; the slums to be gone by Dec. 31, 1967. He invites King to see him Mar. 18; King declines, called to the White House in secret.'
-    n: '[[w.branch-at-canaans-edge]], 444. Check: the days. To check: [[w.cohen-american-pharaoh]], 368–69 (cited by [[w.branch-at-canaans-edge]], 444); New York Times, March 17, 1966, p. 31 (cited by [[w.branch-at-canaans-edge]], 444). Names: Daley, King.'
+    n: '[[w.branch-at-canaans-edge]], 444; [[w.cohen-american-pharaoh]], 369 (the meeting at City Hall; the figures; the slums gone by Dec. 31, 1967); [[w.cohen-american-pharaoh]], 371 (King invited to Daley''s meeting of the clergy; he declines). Check: the days. Check: Cohen and Taylor give King''s reason as a "long standing prior engagement" in Texas (371). To check: New York Times, March 17, 1966, p. 31 (cited by [[w.branch-at-canaans-edge]], 444). Names: Daley, King.'
     src:
       c: 5295bf16
       rows:
         - 'w.branch-at-canaans-edge 444: all'
         - 'via x.1966-03-17.new-york-times-march-17-1966: all'
+        - 'w.cohen-american-pharaoh 369: A-B'
+        - 'w.cohen-american-pharaoh 371: C'
     tags: [name:daley-richard-j, name:king-martin-luther-jr, state:il, city:chicago]
   - id: cal.1966-03-16.vietnam-struggle-3
     when: Mar. 16
@@ -1391,6 +1448,7 @@ entries:
   - id: cal.1966-03-17.robert-kennedy
     when: Mar. 17
     date: '1966-03-17'
+    time: 1966-03-18T03:02Z
     thread: robert-kennedy
     also: [vietnam-congress]
     c: '10:02 p.m., Johnson to Katzenbach by telephone: "Bobby is behind this revolt up there on Vietnam." His loyalty to Kennedy since the Bay of Pigs, "I didn''t run or shimmy or bellyache or cry"; "I''ve done every damn thing they asked." Katzenbach to seek a truce.'
@@ -1452,7 +1510,7 @@ entries:
     thread: robert-kennedy
     also: [mississippi]
     c: 'University of Mississippi, the Coliseum, some five thousand: Robert Kennedy: "We must create a society in which Negroes will be as free as other Americans." His account of Barnett in 1962 draws laughter.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 779–80; [[w.palermo-in-his-own-right]], 163–64 (the visit, the student forum, the audience integrated; not the place or the crowd); [[w.branch-at-canaans-edge]], 449 (the Rebel Dome; "like putting a chicken in a fox house"; thirteen Negroes at the university; three standing ovations). Check: Branch gives a crowd of 8,500. To check: Mary McGrory, *Washington Star*; Robert E. Baker, *Washington Post*; Jack Nelson, *Los Angeles Times*, Mar. 19, 1966; Oscar Carr, oral history interview by D. J. O''Brien, May 6–7, 1969, 14, RFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 780, the footnote); WLBT news film 0173/D39, March 18, 1966, MDAH (cited by [[w.branch-at-canaans-edge]], 449); RFK address, University of Mississippi Law School forum, 2:30 p.m., March 18, 1966, and RFK address, University of Alabama, 8:30 p.m., March 18, 1966, RFK Papers, Senate Speeches and Press Releases, March 11-20, 1966, Box 2, JFK (cited by [[w.branch-at-canaans-edge]], 449); Jack Nelson, "Ole Miss Students Laugh at Kennedy''s Quips on Barnett," LAT, March 19, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 449). Check: the day. Names: Robert Kennedy, Barnett. Check: Palermo, 164, quotes, from both campuses, "Negroes must be as free as other Americans ... free to vote and to learn and to earn their way, and to share in the decisions of government which shape their lives."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 779–80; [[w.palermo-in-his-own-right]], 163–64 (the visit, the student forum, the audience integrated; not the place or the crowd); [[w.branch-at-canaans-edge]], 449 (the Rebel Dome; "like putting a chicken in a fox house"; thirteen Negroes at the university; three standing ovations). Check: Branch gives a crowd of 8,500. To check: Mary McGrory, *Washington Star*; Robert E. Baker, *Washington Post*; Jack Nelson, *Los Angeles Times*, Mar. 19, 1966; Oscar Carr, oral history interview by D. J. O''Brien, May 6–7, 1969, 14, RFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 780, the footnote); WLBT news film 0173/D39, March 18, 1966, MDAH (cited by [[w.branch-at-canaans-edge]], 449); RFK address, University of Mississippi Law School forum, 2:30 p.m., March 18, 1966, and RFK address, University of Alabama, 8:30 p.m., March 18, 1966, RFK Papers, Senate Speeches and Press Releases, March 11–20, 1966, Box 2, JFK (cited by [[w.branch-at-canaans-edge]], 449); Jack Nelson, "Ole Miss Students Laugh at Kennedy''s Quips on Barnett," LAT, March 19, 1966, p. 1 (cited by [[w.branch-at-canaans-edge]], 449). Check: the day. Names: Robert Kennedy, Barnett. Check: Palermo, 164, quotes, from both campuses, "Negroes must be as free as other Americans ... free to vote and to learn and to earn their way, and to share in the decisions of government which shape their lives."'
     src:
       c: 52647b86
       rows:
@@ -1502,6 +1560,40 @@ entries:
         - 'via x.1966-03-18.baumgardner-to-sullivan-march-18-1966: all'
         - 'via x.1966-03-18.junius-griffin-telegram-to-mlk-at: all'
     tags: [name:king-martin-luther-jr, name:williams-hosea, name:king-martin-luther-sr]
+  - id: cal.1966-03-18.cities-and-housing
+    when: Mar. 18
+    date: '1966-03-18'
+    thread: cities-and-housing
+    c: 'Chicago. Daley and Chief Judge John Boyle of the Cook County Circuit Court: the Housing Court from four judges to six, for the West Side''s inspections.'
+    n: '[[w.cohen-american-pharaoh]], 369. Names: Daley.'
+    src:
+      c: 6f943bd1
+      rows:
+        - 'w.cohen-american-pharaoh 369: all'
+    tags: [state:il, city:chicago, name:daley-richard-j]
+  - id: cal.1966-03-18.open-housing-2
+    when: Mar. 18
+    date: '1966-03-18'
+    thread: open-housing
+    c: Chicago, City Hall. Daley's first meeting with the city's clergy on the slums, Archbishop Cody, Bishop Burrill and J. H. Jackson among them; King away. Daley asks them back in a week with recommendations.
+    n: '[[w.cohen-american-pharaoh]], 371. Check: the day. Names: Daley.'
+    src:
+      c: '69297055'
+      rows:
+        - 'w.cohen-american-pharaoh 371: all'
+    tags: [state:il, city:chicago, name:daley-richard-j]
+  - id: cal.1966-03-18.school-aid
+    when: Mar. 18
+    date: '1966-03-18'
+    thread: school-aid
+    c: 'LaNoue before Perkins''s subcommittee: Title I''s low standard spreads the money thin and helps the suburbs; his own New Jersey system''s $44,600 for "a few more than 100" of 7,000 children, ten teachers hired; Title II''s guidelines leave *Everson*''s aid to the child for aid to the institution.'
+    n: '[[w.graham-uncertain-triumph]], 122–23. To check: Hearings before the General Subcommittee on Education of the House Committee on Education and Labor on the Elementary and Secondary Education Amendments of 1966, 89th Cong., 2d sess., pt. 2 at 814 (Mar. 18, 1966) (cited by [[w.graham-uncertain-triumph]], 123 n.25). Names: Perkins.'
+    src:
+      c: ee80a8fe
+      rows:
+        - 'w.graham-uncertain-triumph 122–23: all'
+        - 'via w.graham-uncertain-triumph 123 n.25: all'
+    tags: [name:perkins-carl-d]
   - id: cal.1966-03-19.vietnam-struggle
     when: Mar. 19
     date: '1966-03-19'
@@ -1628,6 +1720,29 @@ entries:
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 72: all'
     tags: [name:mcnamara-robert-s, name:wheeler-earle]
+  - id: cal.1966-03-21.desegregation-schools
+    when: Mar. 21
+    date: '1966-03-21'
+    thread: desegregation-schools
+    c: 'Chicago. Daley names his School Board Nominating Commission, a man of the Urban League added and one of the Teamsters'' Joint Council: "a cross-section of our city."'
+    n: '[[w.cohen-american-pharaoh]], 377. Names: Daley.'
+    src:
+      c: a3ef8f37
+      rows:
+        - 'w.cohen-american-pharaoh 377: all'
+    tags: [state:il, city:chicago, name:daley-richard-j]
+  - id: cal.1966-03-21.school-aid
+    when: Mar. 21
+    date: '1966-03-21'
+    thread: school-aid
+    c: 'Halperin to Cohen and Keppel: "LaNoue''s argument is brilliant and I am now convinced that we will soon be in serious trouble over the administration of Title II."'
+    n: '[[w.graham-uncertain-triumph]], 123. To check: Memorandum, Halperin to Cohen and Keppel, Mar. 21, 1966, EX LE/FA 2, WHCF, LBJ Library (cited by [[w.graham-uncertain-triumph]], 123 n.26). Names: Cohen, Keppel.'
+    src:
+      c: 54dc30ed
+      rows:
+        - 'w.graham-uncertain-triumph 123: all'
+        - 'via w.graham-uncertain-triumph 123 n.26: all'
+    tags: [name:cohen-wilbur-j, name:keppel-francis]
   - id: cal.1966-03-22.transportation
     when: Mar. 22
     date: '1966-03-22'
@@ -1639,9 +1754,12 @@ entries:
   - id: cal.1966-03-22.economy
     when: Mar. 22
     date: '1966-03-22'
+    time: 1966-03-22T21:15Z
     thread: economy
+    follows:
+      - cal.1966-03-22.vietnam-supplemental
     c: 'Inflation. News conference: economists urge a tax increase; Johnson cites slowing signs (retail sales, durable orders, housing starts at a three-year low) and watches.'
-    n: 'The President''s News Conference, [1966 Pub. Papers 343](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=419) (Mar. 22, 1966). To check: [[w.okun-political-economy-of-prosperity]]; [[w.helsing-johnsons-war-johnsons-great]]. See [[cal.1966-03-15.economy]]. Names: Johnson.'
+    n: 'The President''s News Conference, [1966 Pub. Papers 343](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=419) (Mar. 22, 1966). To check: [[w.okun-political-economy-of-prosperity]]; [[w.helsing-johnsons-war-johnsons-great]]. After [[cal.1966-03-22.vietnam-supplemental]]: the Senate''s vote at 4:01, the news conference at 4:15 (the sources above). See [[cal.1966-03-15.economy]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
   - id: cal.1966-03-22.legislatures-ny
     when: Mar. 22
@@ -1720,6 +1838,7 @@ entries:
   - id: cal.1966-03-23.europe-and-the-alliance-france
     when: Mar. 23
     date: '1966-03-23'
+    time: 1966-03-23T14:33Z
     thread: europe-and-the-alliance-france
     c: Johnson on NATO to the Foreign Service Institute.
     n: 'Remarks on the North Atlantic Treaty Organization to the Foreign Service Institute, [1966 Pub. Papers 351](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=427) (Mar. 23, 1966). See [[cal.1966-03-07.europe-and-the-alliance]]. Names: Johnson.'
@@ -1802,6 +1921,7 @@ entries:
   - id: cal.1966-03-24.vietnam-struggle-2
     when: Mar. 24
     date: '1966-03-24'
+    time: 1966-03-24T05:00Z
     thread: vietnam-struggle
     c: Johnson calls the White House Situation Room at midnight and again at 6:30 a.m. on the news from Vietnam.
     n: '[[w.gibbons-u-s-government-and]], IV, 275. To check: Art McCafferty to Komer, memorandum, Mar. 24, 1966, NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 275 n.30). Names: Johnson.'
@@ -1816,14 +1936,20 @@ entries:
     when: Mar. 25–26
     date: '1966-03-25'
     thread: students
-    also: [vietnam]
-    c: 'The second International Days of Protest against the war, called by the National Coordinating Committee to End the War in Vietnam: marches and rallies in many cities. New York, Mar. 26: a march down Fifth Avenue, the largest (Check the numbers).'
-    n: '[[w.gibbons-u-s-government-and]], IV, 340–41 (the marches; New York 20,000–25,000, Mar. 26). To check: [[w.debenedetti-american-ordeal]]; [[w.zaroulis-who-spoke-up]]; [[w.wells-war-within]]; *New York Times*, Mar. 27, 1966 (cited by [[w.gibbons-u-s-government-and]], IV, 341 n.85). See [[cal.1965-10-15.students]].'
+    also: [vietnam, war-opposition]
+    c: 'The second International Days of Protest against the war, called by the National Coordinating Committee to End the War in Vietnam: marches and rallies in many cities. New York, Mar. 26: a march down Fifth Avenue, the largest (Check the numbers). Fairly large turnouts in San Francisco and Chicago; smaller elsewhere and abroad.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 340–41 (the marches; New York 20,000–25,000, Mar. 26); [[w.wells-war-within]], 60, 70 (called at the NCC''s convention; the turnout: Boston 700, San Francisco 3,500; New York''s march down Fifth Avenue the largest); [[w.zaroulis-who-spoke-up]], 79–80 (the Days the National Coordinating Committee''s last; Fifth Avenue, over twenty thousand, Mar. 26; Rome; Boston 700; San Francisco 3,500; Washington 200); [[w.bernstein-guns-or-butter]], 412 (New York said to be 50,000; San Francisco and Chicago; elsewhere and abroad); [[w.debenedetti-american-ordeal]], 149–50 (the Days nominally the National Coordinating Committee''s, the work local; well over 100,000 in eighty to a hundred cities); [[w.debenedetti-american-ordeal]], 149–50 (perhaps fifty thousand on the East Coast; some five thousand in Chicago; Boston''s SDS fighting back at the Arlington Street Church). Check: [[w.wells-war-within]] gives fifty thousand down Fifth Avenue (70), [[w.bernstein-guns-or-butter]] 50,000 in New York (412). Check: DeBenedetti, 150, gives perhaps fifty thousand for the East Coast demonstration of Mar. 26. To check: [*New York Times*, Mar. 27, 1966](https://timesmachine.nytimes.com/timesmachine/1966/03/27/issue.html) (cited by [[w.gibbons-u-s-government-and]], IV, 341 n.85); Zaroulis and Sullivan, *Who Spoke Up?* (1984), 76 (cited by [[w.bernstein-guns-or-butter]], 412 n.9). See [[cal.1965-10-15.students]].'
     src:
-      c: b669dc58
+      c: a810c254
       rows:
-        - 'w.gibbons-u-s-government-and IV, 340–41: all'
+        - 'w.gibbons-u-s-government-and IV, 340–41: A-B'
         - 'via w.gibbons-u-s-government-and IV, 341 n.85: B'
+        - 'w.wells-war-within 60, 70: A-B'
+        - 'w.zaroulis-who-spoke-up 79–80: all'
+        - 'w.bernstein-guns-or-butter 412: all'
+        - 'via x.1984.zaroulis-and-sullivan-who-spoke-up: A, C-D'
+        - 'w.debenedetti-american-ordeal 149–50: A-B'
+    aliases: [cal.1966-03-26.war-opposition]
     short: the second Days of Protest
   - id: cal.1966-03-25.opinion
     when: Mar. 25
@@ -1874,6 +2000,30 @@ entries:
       rows:
         - 'w.staaveren-gradual-failure 252: all'
     tags: [name:mcconnell-john-p]
+  - id: cal.1966-03-25.draft
+    when: Mar. 25
+    date: '1966-03-25'
+    thread: draft
+    also: [war-opposition]
+    c: Boston. Eleven arrested outside the induction center at the Boston Army Base, South Boston; onlookers try to attack them; longshoremen spit on them and offer gasoline "so you can burn yourself."
+    n: '[[w.zaroulis-who-spoke-up]], 79. Check: the day; the day before the march of 700, by Zaroulis and Sullivan, 79.'
+    src:
+      c: 75b86822
+      rows:
+        - 'w.zaroulis-who-spoke-up 79: all'
+        - 'via x.1966-03-26.new-york-times-march-26-1966: all'
+    tags: [state:ma, city:boston]
+  - id: cal.1966-03-25.open-housing-2
+    when: Mar. 25
+    date: '1966-03-25'
+    thread: open-housing
+    c: 'Chicago, the Conrad Hilton. Daley opens the First International Conference on Freedom of Residence: "opportunity for freedom of residence for everyone can only be achieved if thousands of people become greatly concerned."'
+    n: '[[w.cohen-american-pharaoh]], 372. Names: Daley.'
+    src:
+      c: da527763
+      rows:
+        - 'w.cohen-american-pharaoh 372: all'
+    tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1966-03-26.specials
     when: Mar. 26
     date: '1966-03-26'
@@ -1896,24 +2046,37 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 363 n.38: all'
         - 'w.drea-mcnamara-clifford-and-the-2011 72: A'
     tags: [name:mcnamara-robert-s, name:wheeler-earle]
-  - id: cal.1966-03-26.war-opposition
+  - id: cal.1966-03-26.antisubversion
     when: Mar. 26
     date: '1966-03-26'
-    thread: war-opposition
-    c: The International Days of Protest. Said to be 50,000 in New York; fairly large turnouts in San Francisco and Chicago; smaller elsewhere and abroad.
-    n: '[[w.bernstein-guns-or-butter]], 412. To check: Zaroulis and Sullivan, *Who Spoke Up?* (1984), 76 (cited by [[w.bernstein-guns-or-butter]], 412 n.9).'
+    thread: antisubversion
+    also: [vietnam-congress]
+    c: 'An FBI memorandum: the "only reason" for Morse''s opposition to the war to ensure that "his services as a speaker would be in large demand."'
+    n: '[[w.wells-war-within]], 69. Check: Wells notes an FBI letter on Morse, approved by DeLoach Mar. 3, its contents censored (69). Names: Morse.'
     src:
-      c: 5c2f4af0
+      c: e2499cb5
       rows:
-        - 'w.bernstein-guns-or-butter 412: all'
-        - 'via x.1984.zaroulis-and-sullivan-who-spoke-up: all'
-    short: the International Days of Protest
+        - 'w.wells-war-within 69: all'
+    tags: [name:morse-wayne]
+  - id: cal.1966-03-26.king
+    when: Mar. 26
+    date: '1966-03-26'
+    thread: king
+    also: [open-housing]
+    c: 'Chicago. King to a reporter: "I''m not leading any campaign against Mayor Daley. I''m leading a campaign against slums."'
+    n: '[[w.cohen-american-pharaoh]], 372; [[w.ralph-northern-protest]], 99. Names: Martin Luther King, Daley.'
+    src:
+      c: 9b4c99b8
+      rows:
+        - 'w.cohen-american-pharaoh 372: all'
+        - 'w.ralph-northern-protest 99: all'
+    tags: [state:il, city:chicago, name:king-martin-luther-jr, name:daley-richard-j]
   - id: cal.1966-03-27.alabama
     when: Mar. 27
     date: '1966-03-27'
     thread: alabama
     c: 'Lowndes County, Mount Moriah Church. Five hundred citizens and nearly a hundred SNCC workers mark the movement''s first year, "No More Chains and Sorrow": Hulett, Rosa Parks, Bond. Carmichael: the "White Supremacy" slogan''s repeal cosmetic; new voters to choose their own slate on primary day, May 3.'
-    n: '[[w.branch-at-canaans-edge]], 455–56. To check: Program, "No More Chains and Sorrow," Mount Moriah Number | Church in Beechwood, Lowndes County, 2:30 p.m., March 27, 1966, Reel 18, SNCC (cited by [[w.branch-at-canaans-edge]], 455); "Lowndes Marks a Year Full of Historic Change," SC, April 2-3, 1966, p. 3 (cited by [[w.branch-at-canaans-edge]], 455). See [[cal.1966-01-22.alabama]]. Names: Bond, Carmichael.'
+    n: '[[w.branch-at-canaans-edge]], 455–56. To check: Program, "No More Chains and Sorrow," Mount Moriah Number | Church in Beechwood, Lowndes County, 2:30 p.m., March 27, 1966, Reel 18, SNCC (cited by [[w.branch-at-canaans-edge]], 455); "Lowndes Marks a Year Full of Historic Change," SC, April 2–3, 1966, p. 3 (cited by [[w.branch-at-canaans-edge]], 455). See [[cal.1966-01-22.alabama]]. Names: Bond, Carmichael.'
     src:
       c: a4267d0d
       rows:
@@ -1921,6 +2084,17 @@ entries:
         - 'via x.1966-03-27.program-no-more-chains-and-sorrow: all'
         - 'via x.1966.lowndes-marks-a-year-full-of: all'
     tags: [name:bond-julian, name:carmichael-stokely]
+  - id: cal.1966-03-27.jobs-and-wages
+    when: Mar. 27
+    date: '1966-03-27'
+    thread: jobs-and-wages
+    c: 'Chicago, the City Council''s chamber. Daley to a hundred business leaders: more jobs for minorities. DeButts of Illinois Bell: 312 companies pledged not to discriminate.'
+    n: '[[w.cohen-american-pharaoh]], 372. Names: Daley.'
+    src:
+      c: fa8d0eaa
+      rows:
+        - 'w.cohen-american-pharaoh 372: all'
+    tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1966-03-28.court
     when: Mar. 28
     date: '1966-03-28'
@@ -1940,6 +2114,7 @@ entries:
   - id: cal.1966-03-28.india-and-china
     when: Mar. 28–29
     date: '1966-03-28'
+    time: 1966-03-28T16:10Z
     thread: india-and-china-food
     also: [foreign-aid, farm]
     c: 'Indira Gandhi in Washington, her first visit as Prime Minister. Joint statement: India''s drought; the food deficit a worldwide problem.'
@@ -1967,7 +2142,7 @@ entries:
     thread: king
     also: [europe-and-the-alliance-france]
     c: Paris. King and Belafonte at a festival of music and speech, sold out, Montand and Signoret the hosts, after the first church sponsors cancel. Rusk instructs Bohlen not to attend.
-    n: '[[w.branch-at-canaans-edge]], 456–57. To check: Jet, April 7, 1966, p. 58 (cited by [[w.branch-at-canaans-edge]], 456); Jet, April 14, 1966, pp. 62-63 (cited by [[w.branch-at-canaans-edge]], 456); Int. Harry Belafonte, April 7, 2004 (Branch) (cited by [[w.branch-at-canaans-edge]], 457); New York Times, March 29, 1966, p. 15 (cited by [[w.branch-at-canaans-edge]], 457). Names: King, Rusk, Bohlen.'
+    n: '[[w.branch-at-canaans-edge]], 456–57. To check: Jet, April 7, 1966, p. 58 (cited by [[w.branch-at-canaans-edge]], 456); Jet, April 14, 1966, pp. 62–63 (cited by [[w.branch-at-canaans-edge]], 456); Int. Harry Belafonte, April 7, 2004 (Branch) (cited by [[w.branch-at-canaans-edge]], 457); New York Times, March 29, 1966, p. 15 (cited by [[w.branch-at-canaans-edge]], 457). Names: King, Rusk, Bohlen.'
     src:
       c: 4984b841
       rows:
@@ -2054,6 +2229,19 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 430: all'
     tags: [name:burton-phillip]
+  - id: cal.1966-03-29.school-aid
+    when: Mar. 29
+    date: '1966-03-29'
+    thread: school-aid
+    c: 'Huitt to Cater and Wilson, with Halperin''s reading of the committees: "scarcely a Democratic Member who is interested in ''holding the line''"; "not a single member believes we have the votes to pass the cuts" in impacted-areas aid; 1966 "the year of the big push" for the handicapped; a fight over Title I''s formula.'
+    n: '[[w.graham-uncertain-triumph]], 126–27. To check: Memorandum, Huitt to Cater and Wilson, Mar. 29, 1966, EX LE/FA 2, WHCF, LBJ Library (cited by [[w.graham-uncertain-triumph]], 126 n.30); Memorandum, Halperin to Huitt, Mar. 22, 1966, EX LE/FA 2, WHCF, LBJ Library (cited by [[w.graham-uncertain-triumph]], 127 n.31). Names: Huitt, Cater, Wilson.'
+    src:
+      c: bea8ef64
+      rows:
+        - 'w.graham-uncertain-triumph 126–27: all'
+        - 'via w.graham-uncertain-triumph 126 n.30: all'
+        - 'via w.graham-uncertain-triumph 127 n.31: all'
+    tags: [name:huitt-ralph-k, name:cater-s-douglass, name:wilson-henry-hall]
   - id: cal.1966-03-30.state-and-city-finance-md
     when: Mar. 30
     date: '1966-03-30'
@@ -2064,6 +2252,7 @@ entries:
   - id: cal.1966-03-30.vietnam-struggle
     when: Mar. 30
     date: '1966-03-30'
+    time: 1966-03-30T22:21Z
     thread: vietnam-struggle
     c: 'Rusk to Lodge: Huế radio''s attacks on the Americans "increasingly difficult" to explain to Congress.'
     n: 'FRUS 1964–68, IV, docs. [105](https://history.state.gov/historicaldocuments/frus1964-68v04/d105), [107](https://history.state.gov/historicaldocuments/frus1964-68v04/d107). [[w.gibbons-u-s-government-and]], IV, 275–76 (Rusk''s cable, 2884). See [[cal.1966-03-10.vietnam]]. Names: Rusk, Lodge.'
@@ -2188,15 +2377,19 @@ entries:
   - id: cal.1966-03-31.transition-and-staff
     when: Mar. 31
     date: '1966-03-31'
+    time: 1966-03-31T17:50Z
     thread: transition-and-staff
-    c: News conference. Rostow, chairman of State's Policy Planning Council, named Special Assistant, "principally, but not necessarily exclusively, in the field of foreign policy"; Bundy had left Feb. 28, Komer acting since. Kintner, of NBC, Special Assistant and Secretary to the Cabinet.
-    n: 'The President''s News Conference, [1966 Pub. Papers 384](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=460) (Mar. 31, 1966). [[w.berman-lyndon-johnsons-war]], 21 (on Valenti''s recommendation, over Moyers and Komer; "special assistant to the president"). To check: [[w.milne-americas-rasputin]]; [[w.preston-war-council]]. Names: Rostow, Bundy, Komer, Kintner, Johnson.'
+    also: [civil-rights-the-executive]
+    c: 'News conference. Rostow, chairman of State''s Policy Planning Council, named Special Assistant, "principally, but not necessarily exclusively, in the field of foreign policy"; Bundy had left Feb. 28, Komer acting since. Kintner, of NBC, Special Assistant and Secretary to the Cabinet. Asked whether Mexican Americans feel they should have more attention: they "are entitled to more consideration"; discriminated against in housing, education, jobs. Califano sent to find Mexican Americans for federal posts and to organize a conference in Texas.'
+    n: 'The President''s News Conference, [1966 Pub. Papers 384](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=460) (Mar. 31, 1966), at 388 (Mexican Americans). [[w.berman-lyndon-johnsons-war]], 21 (on Valenti''s recommendation, over Moyers and Komer; "special assistant to the president"). [[w.califano-triumph-and-tragedy-of]], 135–36 (Mexican Americans; Califano sent). To check: [[w.milne-americas-rasputin]]; [[w.preston-war-council]]. Names: Rostow, Bundy, Komer, Kintner, Califano, Johnson.'
     src:
-      c: fddb16ee
+      c: 85bf5752
       rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=460: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=460: A-E'
         - 'w.berman-lyndon-johnsons-war 21: B'
-    tags: [name:rostow-walt-w, name:bundy-mcgeorge, name:komer-robert-w, name:kintner-robert-e, name:johnson-lyndon-b]
+        - 'w.califano-triumph-and-tragedy-of 135–36: F, G'
+    tags: [name:rostow-walt-w, name:bundy-mcgeorge, name:komer-robert-w, name:kintner-robert-e, name:johnson-lyndon-b, name:califano-joseph-a-jr]
+    aliases: [cal.1966-03-31.civil-rights-the-executive]
     short: Rostow
   - id: cal.1966-03-31.desegregation-schools-seattle
     when: Mar. 31–Apr. 1
@@ -2219,6 +2412,7 @@ entries:
   - id: cal.1966-03-31.health-us
     when: Mar. 31
     date: '1966-03-31'
+    time: 1966-03-31T17:45Z
     thread: health
     also: [welfare]
     c: 'Medicaid''s first States. North Dakota, Oklahoma, Illinois, Minnesota, Hawaii, Pennsylvania and Puerto Rico, their programs under Title XIX from Jan. 1, conclude their agreements at the White House; the federal share 50 to 80 percent of the cost. Winston, the Commissioner of Welfare: 24 more States at work on plans.'
@@ -2240,6 +2434,7 @@ entries:
   - id: cal.1966-03-31.economy
     when: Mar. 31
     date: '1966-03-31'
+    time: 1966-03-31T15:50Z
     thread: economy
     c: 'Johnson to the National League of Cities: the economy "managed with restraint"; if more is needed, "because civilian demand is too large." A news conference the same day.'
     n: 'Remarks Before the National Legislative Conference of the National League of Cities, [1966 Pub. Papers 373](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=449) (Mar. 31, 1966); The President''s News Conference, [1966 Pub. Papers 384](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=460) (Mar. 31, 1966). See [[cal.1966-03-22.economy]]. Names: Johnson.'
@@ -2391,18 +2586,6 @@ entries:
         - 'via x.1966-03-08.washington-post-on-cubela: all'
         - 'via x.1966-03-08.reuters-castro-letter-on-cubela: B'
     tags: [name:castro-fidel]
-  - id: cal.1966-03-31.civil-rights-the-executive
-    when: Mar. 31
-    date: '1966-03-31'
-    thread: civil-rights-the-executive
-    c: 'News conference. Asked whether Mexican Americans feel they should have more attention: they "are entitled to more consideration"; discriminated against in housing, education, jobs. Califano sent to find Mexican Americans for federal posts and to organize a conference in Texas.'
-    n: 'The President''s News Conference of March 31, 1966, [1966 Pub. Papers 384](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=460) (Mar. 31, 1966). [[w.califano-triumph-and-tragedy-of]], 135–36. Names: Johnson, Califano.'
-    src:
-      c: 526a9250
-      rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=460: A-B'
-        - 'w.califano-triumph-and-tragedy-of 135–36: C'
-    tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr]
   - id: cal.1966-03-31.king
     when: Mar. 31
     date: '1966-03-31'
@@ -2710,3 +2893,122 @@ entries:
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 122: all'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1966-03.desegregation-schools
+    when: Mar., mid
+    date: 1966-03
+    thread: desegregation-schools
+    c: Chicago. Some 150 march on the Board of Education behind Raby and the president of the Concerned Parents of Jenner School.
+    n: '[[w.ralph-northern-protest]], 66. Check: the day. See [[cal.1966-02.desegregation-schools]]. Names: Raby.'
+    tags: [state:il, city:chicago, name:raby-albert]
+  - id: cal.1966-03.open-housing
+    when: Mar., late
+    date: 1966-03
+    thread: open-housing
+    also: [king]
+    c: Chicago, East Garfield Park. Six hundred tenants testify against their landlords, John Condor and Louis Costalis, King presiding. "We have a power that nobody in Chicago can stop."
+    n: '[[w.ralph-northern-protest]], 63. Check: the day. Names: King.'
+    tags: [state:il, city:chicago, name:king-martin-luther-jr]
+  - id: cal.1966-03.labor
+    when: Mar., late
+    date: 1966-03
+    thread: labor
+    also: [open-housing]
+    c: 'Chicago. Ralph Helstein and Charles Hayes of the Packinghouse Workers, Jack Conway and Norman Hill of the AFL-CIO''s Industrial Union Department, Brendan Sexton of the UAW with King, Bevel, Young, Raby, Rustin and Richard Boone: labor organizers for the ghettos.'
+    n: '[[w.ralph-northern-protest]], 71–72. Check: the day. Names: King, Young, Raby, Rustin.'
+    tags: [state:il, city:chicago, name:king-martin-luther-jr, name:young-andrew-j-jr, name:raby-albert, name:rustin-bayard]
+  - id: cal.1966-03.open-housing-2
+    when: Mar., late
+    date: 1966-03
+    thread: open-housing
+    also: [mayors]
+    c: 'Chicago, City Hall. King and some forty ministers with Daley and his officials nearly four hours. King: "very meaningful, frank and exhaustive."'
+    n: '[[w.ralph-northern-protest]], 88; [[w.cohen-american-pharaoh]], 371–72 (Mar. 25, City Hall, Daley''s second meeting with the clergy, King there, three hours; Daley: "these problems were created thousands of miles away from here in Georgia, Mississippi, and Alabama"; King after: "I believe the mayor is concerned"). Check: the day (the notes cite the papers of Mar. 25). Check: Cohen and Taylor date the meeting Mar. 25 (371). To check: Daley to King, Mar. 25, 1966, MLK papers, box 5–29, MLK Library (cited by [[w.ralph-northern-protest]], 88 n.127). Names: King, Daley.'
+    src:
+      c: 7485c4a7
+      rows:
+        - 'w.ralph-northern-protest 88: all'
+        - 'w.cohen-american-pharaoh 371–72: all'
+    tags: [state:il, city:chicago, name:king-martin-luther-jr, name:daley-richard-j]
+  - id: cal.1966-03-31.draft
+    when: Mar. 31
+    date: '1966-03-31'
+    thread: draft
+    also: [war-opposition]
+    c: Boston, the South Boston courthouse. Several of the eleven try to burn their draft cards on its steps; South Boston high school students beat them, "Kill them! Shoot them! Commie!," the police looking on.
+    n: '[[w.zaroulis-who-spoke-up]], 79; [[w.debenedetti-american-ordeal]], 152 (a mob of 150 high school students attacks four trying to burn their cards at the federal courthouse; the police captain''s words). Check: the day; Zaroulis and Sullivan, 79, give two days after the arrests.'
+    src:
+      c: a8a4afd7
+      rows:
+        - 'w.zaroulis-who-spoke-up 79: all'
+        - 'via x.1966-04-08.time-april-8-1966-p-27: all'
+        - 'w.debenedetti-american-ordeal 152: ?'
+    tags: [state:ma, city:boston]
+  - id: cal.1966-03.mayors-2
+    when: Mar., late
+    date: 1966-03
+    thread: mayors
+    also: [open-housing]
+    c: 'Chicago. Daley meets religious, business and labor leaders on the city''s progress against the slums. His promise: the slums ended by 1968.'
+    n: '[[w.anderson-confronting-the-color-line]], 191. Check: the days. Check: perhaps the meeting a week after Daley''s first with the clergy. See [[cal.1966-02-24.mayors]], [[cal.1966-03-18.open-housing-2]]. Names: Daley.'
+    src:
+      c: 50bc6a2b
+      rows:
+        - 'w.anderson-confronting-the-color-line 191: all'
+    tags: [name:daley-richard-j, state:il, city:chicago]
+  - id: cal.1966-03.open-housing-3
+    when: Mar.
+    date: 1966-03
+    thread: open-housing
+    also: [elections-1966]
+    c: 'Chicago. Raby: the Coordinating Council is building organizations in the ghetto that can take on Daley if its demands are not met. Dick Gregory has announced he will run for mayor in 1967.'
+    n: '[[w.cohen-american-pharaoh]], 366–67. Check: the day; Cohen and Taylor: early March. Names: Raby, Daley, Gregory.'
+    src:
+      c: f0557908
+      rows:
+        - 'w.cohen-american-pharaoh 366–67: all'
+    tags: [state:il, city:chicago, name:raby-albert, name:daley-richard-j, name:gregory-dick]
+  - id: cal.1966-03-31.state-and-city-finance
+    when: Mar. 31
+    date: '1966-03-31'
+    thread: state-and-city-finance
+    c: Chicago. Daley proposes $200 million in bonds, transit lines on the Kennedy and Dan Ryan expressways and sewers among them, "urban renewal" nowhere in the text; David Kennedy of Continental Illinois and William Lee of the Chicago Federation of Labor beside him.
+    n: '[[w.cohen-american-pharaoh]], 375. He testified for them before the City Council''s Finance Committee, his first time in eleven years (375–76). Names: Daley.'
+    src:
+      c: 2859848e
+      rows:
+        - 'w.cohen-american-pharaoh 375: all'
+    tags: [state:il, city:chicago, name:daley-richard-j]
+  - id: cal.1966-03.war-opposition
+    when: Mar.
+    date: 1966-03
+    thread: war-opposition
+    c: Greenwood, Miss. A church burned to the ground after an antiwar prayer service, three weeks after the bombing of the Du Bois Clubs.
+    n: '[[w.debenedetti-american-ordeal]], 152. Check: the day.'
+    src:
+      c: e342c623
+      rows:
+        - 'w.debenedetti-american-ordeal 152: all'
+  - id: cal.1966-03.open-housing-4
+    when: Mar.
+    date: 1966-03
+    thread: open-housing
+    also: [king]
+    c: 'Chicago, the West Side. King and Abernathy take reporters to a rat-infested flat near King''s, its hot water lines and heating broken. King: "We''ve got to do more in terms of organizing people into permanent units, rather than on a temporary basis just for demonstrations"; rent strikes proposed.'
+    n: '[[w.kotz-judgment-days]], 363–64. Check: the day; Kotz: "In early March 1966." See [[cal.1966-01-26.open-housing]]. Names: Martin Luther King, Abernathy.'
+    src:
+      c: 6414510c
+      rows:
+        - 'w.kotz-judgment-days 363–64: all'
+    tags: [name:king-martin-luther-jr, name:abernathy-ralph-david, city:chicago]
+  - id: cal.1966-03.cities-and-housing
+    when: Mar.
+    date: 1966-03
+    thread: cities-and-housing
+    c: 'Rockefeller on Johnson''s rent subsidies for families of low income in middle-income housing: "They picked it up 100 percent. It''s our program."'
+    n: '[[w.smith-on-his-own-terms]], 466. To check: *New York Herald Tribune*, Mar. 27, 1966 (cited by [[w.smith-on-his-own-terms]], 466). Check: the day. Names: Rockefeller, Johnson.'
+    src:
+      c: fffc79e9
+      rows:
+        - 'w.smith-on-his-own-terms 466: all'
+        - 'via x.1966-03-27.new-york-herald-tribune-mar-27-1966: all'
+    tags: [name:rockefeller-nelson, name:johnson-lyndon-b, state:ny]

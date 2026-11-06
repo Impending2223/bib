@@ -27,7 +27,7 @@ WORKS = None
 WORKS_FULL = None          # card id -> its full citation (markup), for a first citation (works.py, FIRST CITE)
 WORKS_PAGE = "works.html"
 WORKS_ID = lambda cid: cid     # an alias -> the card's own id (set by store.Series)
-FULL_MARKS = ("\x01full", "full")
+FULL_MARKS = ("\x01full", "full", "\x01head")
 
 
 def work_label(eid):
@@ -51,6 +51,9 @@ def to_html(text, resolve=None):
             eid = WORKS_ID(eid)
         if sf is not None and shown in FULL_MARKS and WORKS_FULL:
             full = WORKS_FULL(eid)           # the full citation, its author and title the link
+            if shown == "\x01head":           # its head alone, the pinpoint and year after (works.py, BLUEBOOK FIRST CITE)
+                from . import works
+                full = works.split_full(full)[0]
             m2 = re.match(r"^[^*\[]*\*[^*]+\*", full)
             if not m2:
                 return hold(to_html(full))
