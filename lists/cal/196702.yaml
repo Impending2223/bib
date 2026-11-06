@@ -275,6 +275,8 @@ entries:
     date: '1967-02-04'
     thread: robert-kennedy
     also: [vietnam]
+    follows:
+      - cal.1967-02-04.robert-kennedy
     c: 'Kennedy International. Robert Kennedy, back from Europe, on a chair before reporters asking whether his talks upset the balance: "All I was interested in was in doing all I can toward a peaceful solution in Southeast Asia." That night Mankiewicz tells him of *Newsweek*''s story of a peace feeler; the *Times* to lead with it Monday.'
     n: '[[w.shesol-mutual-contempt]], 364. To check: [[w.kraslow-secret-search-for-peace]], 201 (cited by [[w.shesol-mutual-contempt]], 364). See [[cal.1967-02-06.robert-kennedy]]. Names: Robert Kennedy, Mankiewicz.'
     src:
@@ -531,6 +533,7 @@ entries:
   - id: cal.1967-02-08.vietnam-2
     when: Feb. 8
     date: '1967-02-08'
+    time: 1967-02-07T23:00Z
     thread: vietnam
     c: The allies begin a four-day cease-fire for Tet at 7 a.m.; 183 minor and 89 significant violations. Lam Sơn II ends, a combined security operation in Bình Dương from May 23, 1966.
     n: '[[w.macv-command-history-1967]], 1258. See [[cal.1967-02-09.vietnam]].'
@@ -836,6 +839,7 @@ entries:
   - id: cal.1967-02-13.vietnam
     when: Feb. 13
     date: '1967-02-13'
+    time: 1967-02-13T13:29Z
     thread: vietnam-sunflower
     c: 'Johnson with Humphrey, McNamara, Katzenbach, Vance, Rostow, William Bundy, Kohler, Taylor and Wheeler, 8:29 to 10:45 a.m., on Bruce''s plea for more time before the bombing resumes. Humphrey for it; Wheeler: "a political decision"; McNamara alone against: should Hanoi send a "moderated no ... and we haven''t bombed, we''re in a hell of a fix." Johnson grants three hours more.'
     n: 'Editorial Note, [FRUS 1964–68, V: Vietnam, 1967, doc. 76](https://history.state.gov/historicaldocuments/frus1964-68v05/d76) (the meeting, its hours and those present, by the Daily Diary; Humphrey and Wheeler, by Tom Johnson''s notes). [[w.gibbons-u-s-government-and]], IV, 517–18. To check: Tom Johnson''s notes of the meeting, Feb. 13, 1967, LBJ Library, in full (cited by [[w.gibbons-u-s-government-and]], IV, 517 n.107). Check: the notes as FRUS prints them have Johnson "Add another 7 hours on bombing," the bombing to start at 7 p.m.; McNamara''s words are not in them. See [[cal.1967-02-06.vietnam]]. Names: Johnson, Humphrey, McNamara, Katzenbach, Vance, Rostow, William Bundy, Kohler, Taylor, Wheeler, Bruce.'
@@ -923,9 +927,10 @@ entries:
   - id: cal.1967-02-13.vietnam-air-war
     when: Feb. 13
     date: '1967-02-13'
+    time: 1967-02-14T02:00Z
     thread: vietnam-air-war
     c: Rolling Thunder resumes at 4 p.m. after the Tet stand-down, first set for 0700 Feb. 8 to 0700 Feb. 12, extended by the international political situation. Pacific Air Forces had urged Route Package 1 opened to strikes and left out of future truces.
-    n: '[[w.macv-command-history-1967]], 429; [[w.cosmas-joint-chiefs-of-staff]], 17 (the resumption, a day after the Tet stand-down); [[w.drea-mcnamara-clifford-and-the-2011]], 204 (Feb. 11, Johnson approves McNamara''s proposal to resume as far north as the 20th parallel; strikes resumed Feb. 14). Check: the hour, the History''s "131600W." Check: Drea dates the strikes'' resumption Feb. 14 (204).'
+    n: '[[w.macv-command-history-1967]], 429; [[w.cosmas-joint-chiefs-of-staff]], 17 (the resumption, a day after the Tet stand-down); [[w.drea-mcnamara-clifford-and-the-2011]], 204 (Feb. 11, Johnson approves McNamara''s proposal to resume as far north as the 20th parallel; strikes resumed Feb. 14). Check: the hour, the History''s "131600W." Check: Drea dates the strikes'' resumption Feb. 14 (204). The time: 131600W, zone W (UTC−10), 10 a.m. Feb. 14 in Saigon.'
     src:
       c: 85d128ab
       rows:
@@ -1150,7 +1155,10 @@ entries:
   - id: cal.1967-02-17.vietnam
     when: Feb. 17
     date: '1967-02-17'
+    time: 1967-02-17T17:25Z
     thread: vietnam-air-war
+    follows:
+      - cal.1967-02-17.vietnam-air-war-3
     c: 'Johnson with McNamara, Wheeler, Taylor and Rostow, 12:25 to 2:04 p.m., no one from State. Wheeler for bombing the steel and cement plants and the North''s power grid, 138,000 kilowatts: pressure on the economy and on Hanoi''s will, no major direct military effect. Johnson wants courses of action for Feb. 22.'
     n: 'FRUS 1964–68, V, doc. [84](https://history.state.gov/historicaldocuments/frus1964-68v05/d84). [[w.gibbons-u-s-government-and]], IV, 558–60 (the hour; Wheeler''s cables to Sharp and Westmoreland, JCS 1284-67, Feb. 17, and of Feb. 18: "a new sense of urgency in the atmosphere"); [[w.cosmas-joint-chiefs-of-staff]], 18 (Wheeler for striking the power net, "even to the point of destroying the entire system"); [[w.drea-mcnamara-clifford-and-the-2011]], 135 (recommendations in five days; "operating on borrowed time"). To check: Wheeler to Sharp and Westmoreland, JCS 1337-67, Feb. 18, 1967, Westmoreland Papers, Message Files, CMH (cited by [[w.gibbons-u-s-government-and]], IV, 560 n.7). Made public: FRUS 1964–68, V (2002). Names: Johnson, McNamara, Wheeler, Taylor, Rostow.'
     src:
@@ -1220,6 +1228,8 @@ entries:
     date: '1967-02-17'
     thread: vietnam-air-war
     also: [vietnam-force-levels]
+    follows:
+      - cal.1967-02-17.vietnam-air-war
     c: 'Sharp and Westmoreland answer Wheeler. Sharp, CINCPAC 170820Z: "most encouraging"; a "good hard offensive push might start the ball rolling down hill"; a "good time to try for more freedom to operate in Laos." Westmoreland, MAC 1658: the ground war cannot be "significantly" speeded, its pace set by "intelligence, troop availability, and helicopter support"; 550,000 for 1967 still valid against the 470,000 approved; "if Pandora''s Box is to be opened and the ceiling set by Program IV is to be voided," he will restudy and ask more.'
     n: '[[w.gibbons-u-s-government-and]], IV, 559. To check: Sharp to Wheeler, CINCPAC 170820Z, Feb. 17, 1967, Westmoreland Papers, Message Files, CMH (cited by [[w.gibbons-u-s-government-and]], IV, 559 n.4); Westmoreland to Sharp and Wheeler, MAC 1658, Feb. 17, 1967, Westmoreland Papers, Message Files, CMH (cited by [[w.gibbons-u-s-government-and]], IV, 559 n.5). Names: Sharp, Westmoreland, Wheeler.'
     src:
@@ -1278,6 +1288,7 @@ entries:
   - id: cal.1967-02-18.assassination
     when: Feb. 18
     date: '1967-02-18'
+    time: 1967-02-18T15:39Z
     thread: assassination
     also: [cuba]
     c: 'Johnson to Ramsey Clark by telephone, 10:39 a.m.: "this story going around about the CIA sendin'' in the folks to try and get Castro?" Pearson''s man, instructed by the CIA and the Attorney General "to assassinate Castro after the Bay of Pigs." "I don''t believe there''s a thing in the world to it." Clark: "I''ve heard that much."'
@@ -1542,6 +1553,7 @@ entries:
   - id: cal.1967-02-22.vietnam-2
     when: Feb. 22
     date: '1967-02-22'
+    time: 1967-02-22T18:15Z
     thread: vietnam
     c: 'Johnson with McNamara, Eugene Rostow, Taylor and Wheeler, 1:15 to 3:25 p.m.; no notes found. On the Joint Chiefs'' three programs, by Walt Rostow''s notations and Wheeler''s cable the next day: Rolling Thunder 54, the steel plant and the power plant at Thái Nguyên and the power plants at Việt Trì, Bắc Giang and Hòn Gai added; inland waterways and estuaries south of the 20th parallel mined; naval gunfire at shipping and shore targets to the 20th; artillery from the South into the DMZ, the North and Laos; Shining Brass widened; Popeye, the seeding of clouds over the trail, approved. Not announced.'
     n: 'FRUS 1964–68, V, docs. [84](https://history.state.gov/historicaldocuments/frus1964-68v05/d84), [88](https://history.state.gov/historicaldocuments/frus1964-68v05/d88). [[w.gibbons-u-s-government-and]], IV, 562–68 (the hour, not those present; no notes; the decisions: Walt Rostow''s notations on his agenda and Wheeler''s cable to Sharp and Westmoreland, JCS 1422-67, Feb. 23; not announced); [[w.drea-mcnamara-clifford-and-the-2011]], 135 (the meeting on the Joint Chiefs'' three programs; operations in Laos approved); [[w.drea-mcnamara-clifford-and-the-2011]], 205 (the power plants and mining of waterways south of the 20th parallel presented as continuation). To check: Wheeler to Sharp and Westmoreland, JCS 1422-67, Feb. 22, 1967, Gibbons Papers, LBJ Library (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 135 n.69); Rostow''s agenda for the lunch, with his notations, NSF, Files of Walt W. Rostow, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 562 n.11, 566 n.13); the same cable, dated Feb. 23, Westmoreland Papers, Message Files, CMH (cited by [[w.gibbons-u-s-government-and]], IV, 566 n.13). See [[cal.1967-02-06.vietnam]]. Drea, 135, has Rusk at the meeting; FRUS 1964–68, V, doc. 88, n. 2, from the Daily Diary, lists Eugene Rostow, not Rusk. Check: Gibbons gives Rusk, McNamara, Wheeler and Taylor, Bromley Smith and Christian also present (IV, 562). Names: McNamara, Eugene Rostow, Taylor, Wheeler, Johnson, Walt Rostow.'
@@ -1621,6 +1633,7 @@ entries:
   - id: cal.1967-02-23.succession
     when: Feb. 23
     date: '1967-02-23'
+    time: 1967-02-23T18:18Z
     thread: succession
     also: [amendments]
     c: The Administrator of General Services certifies the Twenty-fifth Amendment, [32 Fed. Reg. 3287](https://www.govinfo.gov/content/pkg/FR-1967-02-25/pdf/FR-1967-02-25.pdf#page=4), [81 Stat. 983](https://www.govinfo.gov/content/pkg/STATUTE-81/pdf/STATUTE-81-Pg983.pdf). Johnson in the East Room with Bayh and Celler, who brought it through Congress.
@@ -1983,6 +1996,7 @@ entries:
   - id: cal.1967-02-27.robert-kennedy-3
     when: Feb. 27
     date: '1967-02-27'
+    time: 1967-02-27T23:00Z
     thread: robert-kennedy
     also: [vietnam]
     c: 'Harriman, at Johnson''s bidding, to Robert Kennedy by telephone, 6 p.m.: "I hope you are postponing your speech on the famous subject." "Why?" Negotiations increasingly possible: "I think you are going to regret it. ... You would do yourself more good to keep quiet at the moment."'
@@ -2049,6 +2063,7 @@ entries:
   - id: cal.1967-02-28.court
     when: Feb. 28
     date: '1967-02-28'
+    time: 1967-02-28T20:40Z
     thread: court
     also: [transition-and-staff]
     c: Johnson names Ramsey Clark, acting since October, Attorney General. Justice Tom Clark, his father, says he will retire from the Court to avoid any appearance of a conflict.
@@ -2355,6 +2370,7 @@ entries:
   - id: cal.1967-02-28.vietnam-operations
     when: Feb. 28
     date: '1967-02-28'
+    time: 1967-02-28T04:00Z
     thread: vietnam-operations
     c: Junction City. The 1st Battalion, 16th Infantry, engages an enemy battalion from noon to near midnight; 167 of the enemy left dead, 21 Americans killed, 29 wounded.
     n: '[[w.macv-command-history-1967]], 388; [[w.cosmas-joint-chiefs-of-staff]], 33 (an enemy battalion against a company of the 3rd Brigade, 1st Division; 167 dead left). See [[cal.1967-02-22.vietnam]].'
