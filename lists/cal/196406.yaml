@@ -6,6 +6,7 @@ entries:
   - id: cal.1964-06-01.vietnam
     when: June 1–2
     date: '1964-06-01'
+    time: 1964-06-01T18:30Z
     thread: vietnam
     also: [laos]
     c: 'Honolulu. Rusk, McNamara, Taylor and McCone with Lodge, Westmoreland, Felt and Sharp on Vietnam and Laos. A joint resolution of Congress and strikes on the North discussed, and the preparation each would need. Johnson, June 2: "bound by solemn commitments to help defend this area against Communist encroachment."'
@@ -58,17 +59,22 @@ entries:
   - id: cal.1964-06-01.vietnam-congress
     when: June 1
     date: '1964-06-01'
+    time: 1964-06-01T18:48Z
     thread: vietnam-congress
-    c: '2:48 p.m., Smathers to Johnson by telephone: no one he talks to in Congress thinks "we ought to fight a war in that area of the world"; committing more "has got everybody really worried."'
-    n: '[Johnson and Smathers, 2:48 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-smathers-june-1-1964), Tape WH6406.01, Citations #3602–3604 (Miller Center; not heard here: millercenter.org fails TLS verification from this environment). [[w.dallek-flawed-giant]], 145; [[w.branch-pillar-of-fire]], 326. Names: Smathers, Johnson.'
+    also: [desegregation-public-places]
+    c: '2:48 p.m., Smathers to Johnson by telephone: no one he talks to in Congress thinks "we ought to fight a war in that area of the world"; committing more "has got everybody really worried." On St. Augustine, Johnson: "They''re giving me unshirted hell on [St. Augustine]. ... He''s demanding we go in." Smathers: the shots into King''s house "a damn plant"; St. Augustine "a typically rural place"; no marshals or troops. Johnson then asks Governor Bryant for assurances of order.'
+    n: '[Johnson and Smathers, 2:48 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-smathers-june-1-1964), Tape WH6406.01, Citations #3602–3604 (Miller Center; not heard here: millercenter.org fails TLS verification from this environment). [[w.dallek-flawed-giant]], 145; [[w.branch-pillar-of-fire]], 326; [[w.kotz-judgment-days]], 147 (St. Augustine; Bryant). To check: Tape WH6406.01, PNO 3–4 (cited by [[w.kotz-judgment-days]], 147 n.111). See [[cal.1964-05-29.desegregation-public-places]]. Names: Smathers, Johnson, Martin Luther King.'
     src:
-      c: 887c78ed
+      c: d4135a7a
       rows:
-        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-smathers-june-1-1964: all'
-        - 'w.dallek-flawed-giant 145: all'
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-smathers-june-1-1964: A-B'
+        - 'w.dallek-flawed-giant 145: A-B'
         - 'w.branch-pillar-of-fire 326: A'
         - 'via w.branch-pillar-of-fire 326 n.unshirted-hell: A'
-    tags: [name:smathers-george-a, name:johnson-lyndon-b]
+        - 'w.kotz-judgment-days 147: C-G'
+        - 'via w.kotz-judgment-days 147 n.111: C-G'
+    tags: [name:smathers-george-a, name:johnson-lyndon-b, name:king-martin-luther-jr, state:fl]
+    aliases: [cal.1964-06-01.desegregation-public-places]
   - id: cal.1964-06-01.elections-1964
     when: June 1
     date: '1964-06-01'
@@ -132,18 +138,6 @@ entries:
         - 'w.bernstein-guns-or-butter 72–73: B'
         - 'w.whalen-longest-debate 190: C'
     tags: [name:mansfield-mike, name:dirksen-everett]
-  - id: cal.1964-06-01.desegregation-public-places
-    when: June 1
-    date: '1964-06-01'
-    thread: desegregation-public-places
-    c: 'Johnson to Smathers by telephone, 2:48 p.m.: "They''re giving me unshirted hell on [St. Augustine]. ... He''s demanding we go in." Smathers: the shots into King''s house "a damn plant"; St. Augustine "a typically rural place"; no marshals or troops. Johnson then asks Governor Bryant for assurances of order.'
-    n: '[[w.kotz-judgment-days]], 147. To check: [Johnson and George Smathers, 2:48 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-smathers-june-1-1964), Tape WH6406.01, PNO 3–4 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 147 n.111). See [[cal.1964-05-29.desegregation-public-places]]. Names: Johnson, Smathers, Martin Luther King.'
-    src:
-      c: db6ac106
-      rows:
-        - 'w.kotz-judgment-days 147: all'
-        - 'via w.kotz-judgment-days 147 n.111: all'
-    tags: [name:johnson-lyndon-b, name:smathers-george-a, name:king-martin-luther-jr, state:fl]
   - id: cal.1964-06-01.king
     when: June 1
     date: '1964-06-01'
@@ -194,6 +188,7 @@ entries:
   - id: cal.1964-06-01.goldwater
     when: June 1
     date: '1964-06-01'
+    time: 1964-06-01T12:00Z
     thread: goldwater
     also: [elections-1964]
     c: Washington, Goldwater's hideaway in the Capitol, 8 a.m. Goldwater and Milton Eisenhower at breakfast, on the Critical Issues Council; Goldwater's men give the meeting to the press.
@@ -1000,6 +995,7 @@ entries:
   - id: cal.1964-06-08.laos
     when: June 8
     date: '1964-06-08'
+    time: 1964-06-08T19:00Z
     thread: laos
     c: Johnson approves a strike on the antiaircraft guns of the Plain of Jars, "with grave reservations"; Unger opposed from Vientiane.
     n: '[Johnson and Richard Russell, 4:35 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-june-8-1964), Conversation WH6406-03-3639 (Miller Center). [FRUS 1964–68, XXVIII, doc. 83](https://history.state.gov/historicaldocuments/frus1964-68v28/d83). [[w.taking-charge]], 386–387. Check: [[w.taking-charge]], 387 n.2, takes the Ambassador opposed for Lodge. See [[cal.1964-06-06.laos]]. Names: Johnson, Unger.'
@@ -1188,6 +1184,7 @@ entries:
   - id: cal.1964-06-09.medicare
     when: June 9
     date: '1964-06-09'
+    time: 1964-06-09T13:55Z
     thread: medicare
     c: 'Johnson to Mills, 9:55 a.m.: the hospital bill "will mean more than all the bills we passed put together"; "grind something out of there." Mills, wary of working people''s reaction to the payroll tax: "we are making every effort to do something."'
     n: '[Johnson and Mills, 9:55 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-wilbur-mills-june-9-1964), Conversation WH6406-03-3642 (Miller Center). [[w.zelizer-taxing-america]], 225–26. See [[cal.1964-02-10.medicare]]. Names: Johnson, Mills.'
@@ -1239,6 +1236,7 @@ entries:
   - id: cal.1964-06-09.laos-3
     when: June 9
     date: '1964-06-09'
+    time: 1964-06-09T16:50Z
     thread: laos
     also: [vietnam-congress]
     c: 'Johnson to McCormack, 12:50 p.m., on the strikes in Laos: "If we didn''t, why, we''d just destroy ourselves." To Mansfield, 12:56: "We sure don''t want to give any indications that we''re getting involved in a war." Mansfield: "So far as I''m concerned, I think you''ve done everything right."'
@@ -1320,6 +1318,7 @@ entries:
   - id: cal.1964-06-09.civil-rights-bill-2
     when: June 9
     date: '1964-06-09'
+    time: 1964-06-09T20:55Z
     thread: civil-rights-bill
     c: 'Mundt to Johnson by telephone, 4:55 p.m.: civil rights "a very ticklish issue" in South Dakota, but "I''m going to vote for your doggone cloture motion. I appreciate the fact that you didn''t call me up and give me the old Texas twist." Johnson: "I haven''t called a human, Karl."'
     n: '[[w.kotz-judgment-days]], 150. To check: [Johnson and Karl Mundt, 4:55 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-karl-mundt-june-9-1964), Tape WH6406.04, PNO 13 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 150 n.122). Check: the day; Kotz''s note gives June 5, his text the day before the vote. Names: Mundt, Johnson.'
@@ -1332,6 +1331,7 @@ entries:
   - id: cal.1964-06-09.civil-rights-bill-3
     when: June 9
     date: '1964-06-09'
+    time: 1964-06-09T16:25Z
     thread: civil-rights-bill
     c: 'Robert Kennedy to Johnson by telephone, 12:25 p.m.: it looks as though they have the votes. "It''s just a miracle." Johnson: "It''s wonderful"; Kennedy and the Cabinet to ask influential Americans to help carry out the law.'
     n: '[[w.kotz-judgment-days]], 150–51; [[w.taking-charge]], 388–392. Check: [[w.taking-charge]], 388–92, prints "it''d be just a miracle.". To check: [Johnson and Robert Kennedy, 12:25 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-and-office-conversation-june-9-1964), Tape WH6406.03, PNO 16 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 150 n.122b). Names: Robert Kennedy, Johnson.'
@@ -1477,6 +1477,7 @@ entries:
   - id: cal.1964-06-10.vietnam
     when: June 10
     date: '1964-06-10'
+    time: 1964-06-10T21:30Z
     thread: vietnam
     c: 'The White House, 5:30 p.m.: Rusk, McNamara, McGeorge Bundy and the others on a congressional resolution. No early resolution, "unless and until we have a firm decision to take more drastic action," Bundy reports to Johnson.'
     n: 'FRUS 1964–68, I, docs. [210](https://history.state.gov/historicaldocuments/frus1964-68v01/d210), [211](https://history.state.gov/historicaldocuments/frus1964-68v01/d211) (Bundy''s paper), [212](https://history.state.gov/historicaldocuments/frus1964-68v01/d212). [[w.gibbons-u-s-government-and]], II, 266–68 (the paper and the meeting of June 10; Bundy''s words; not the hour or who came). [[w.mann-grand-delusion]], 333–34 (Rusk''s and McNamara''s views). [[w.preston-war-council]], 149–50 (Bundy''s paper: the position "as clear and strong as possible in the next five months"; a resolution to "give additional freedom to the Administration"). See [[cal.1964-05-24.vietnam]]. Names: Rusk, McNamara, McGeorge Bundy, Johnson.'
@@ -1558,8 +1559,10 @@ entries:
     when: June 10
     date: '1964-06-10'
     thread: civil-rights-bill
+    follows:
+      - cal.1964-06-10.civil-rights-bill
     c: 'After cloture, Clarence Mitchell of the NAACP walks Russell to his office. Russell, by Humphrey''s account of it: without the South''s fight the law would never be enforceable there; beaten in a proper legislative battle, the South will accept it.'
-    n: '[[w.humphrey-education-of-a-public-1976]], 284, 479 n.12; [[w.mann-walls-of-jericho]], 429–30 (Russell to Mitchell: the bill not enforceable in the South without the fight); [[w.whalen-longest-debate]], 204–05. See [[cal.1964-06-10.civil-rights-bill]]. Names: Mitchell, Russell, Humphrey.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 284, 479 n.12; [[w.mann-walls-of-jericho]], 429–30 (Russell to Mitchell: the bill not enforceable in the South without the fight); [[w.whalen-longest-debate]], 204–05. After cloture (the sources above). See [[cal.1964-06-10.civil-rights-bill]]. Names: Mitchell, Russell, Humphrey.'
     src:
       c: 5700366a
       rows:
@@ -1571,8 +1574,10 @@ entries:
     when: June 10
     date: '1964-06-10'
     thread: civil-rights-bill
+    follows:
+      - cal.1964-06-10.civil-rights-bill
     c: 'Russell in the Senate after cloture: he will press the Southerners'' amendments to a vote; "We are confronted with the spirit of not only the mob but of a lynch mob in the Senate of the United States."'
-    n: '[110 Cong. Rec. 13,329](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt10/pdf/GPO-CRECB-1964-pt10-6-2.pdf#page=24) (1964) (June 10, 1964). [[w.mann-walls-of-jericho]], 427–28. See [[cal.1964-06-10.civil-rights-bill]]. Check: Mann has "lynch mob in the United States." Names: Russell.'
+    n: '[110 Cong. Rec. 13,329](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt10/pdf/GPO-CRECB-1964-pt10-6-2.pdf#page=24) (1964) (June 10, 1964). [[w.mann-walls-of-jericho]], 427–28. After cloture (the sources above). See [[cal.1964-06-10.civil-rights-bill]]. Check: Mann has "lynch mob in the United States." Names: Russell.'
     src:
       c: 4fa1dfd1
       rows:
@@ -1632,8 +1637,10 @@ entries:
     date: '1964-06-10'
     thread: elections-1964-scranton
     also: [civil-rights-bill]
+    follows:
+      - cal.1964-06-10.civil-rights-bill
     c: 'Eisenhower to Scranton by telephone, Goldwater having just voted against cloture: "Now, how do you feel?" Scranton: "I''m sick." Eisenhower: "So am I." By Scranton''s account.'
-    n: '[[w.goldberg-barry-goldwater]], 198; [[w.novak-agony-of-the-g]], 436–37 (Loftus in the *Times*, June 17: Scranton, Tuesday night, "Why don''t I run?"; Mrs. Scranton: "Bill, I think you better run"; two more calls from Eisenhower). To check: telephone conversations between Eisenhower and Scranton, June 10 and 11, 1964, Appointment Book Series, Box 2, Eisenhower Post-Presidential Papers, Eisenhower Library (cited by [[w.goldberg-barry-goldwater]], 198 n.114). See [[cal.1964-06-10.civil-rights-bill]]. Names: Eisenhower, Scranton, Goldwater.'
+    n: '[[w.goldberg-barry-goldwater]], 198; [[w.novak-agony-of-the-g]], 436–37 (Loftus in the *Times*, June 17: Scranton, Tuesday night, "Why don''t I run?"; Mrs. Scranton: "Bill, I think you better run"; two more calls from Eisenhower). After the cloture vote (the sources above). To check: telephone conversations between Eisenhower and Scranton, June 10 and 11, 1964, Appointment Book Series, Box 2, Eisenhower Post-Presidential Papers, Eisenhower Library (cited by [[w.goldberg-barry-goldwater]], 198 n.114). See [[cal.1964-06-10.civil-rights-bill]]. Names: Eisenhower, Scranton, Goldwater.'
     src:
       c: 4633b0c6
       rows:
@@ -1645,8 +1652,10 @@ entries:
     when: June 10
     date: '1964-06-10'
     thread: civil-rights-bill
+    follows:
+      - cal.1964-06-10.civil-rights-bill
     c: 'Johnson''s commencement address at Holy Cross, Worcester, told of the vote on the platform: "In the last 10 minutes we have made considerable progress when we voted cloture in the Senate today by a vote of 71 to 29."'
-    n: 'Commencement Address at Holy Cross College, [1963–64 Pub. Papers 762](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=846) (June 10, 1964). [[w.zelizer-fierce-urgency-of-now]], 127–28. See [[cal.1964-06-10.civil-rights-bill]]. Names: Johnson.'
+    n: 'Commencement Address at Holy Cross College, [1963–64 Pub. Papers 762](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=846) (June 10, 1964). [[w.zelizer-fierce-urgency-of-now]], 127–28. After the vote (the sources above). See [[cal.1964-06-10.civil-rights-bill]]. Names: Johnson.'
     src:
       c: 519b42fb
       rows:
@@ -1742,6 +1751,7 @@ entries:
   - id: cal.1964-06-11.medicare
     when: June 11
     date: '1964-06-11'
+    time: 1964-06-11T19:55Z
     thread: medicare
     also: [economy]
     c: 'Johnson, O''Brien and Mills, 3:55 p.m. Mills wants a bill he "could say" differs from King–Anderson, and Republican votes; Celebrezze''s "three-pronged approach," hospital insurance, cash benefits and Kerr–Mills. Johnson: cash benefits and Kerr–Mills alone would "murder" Medicare. The tax cut, Johnson says, is helping his campaign.'
@@ -1775,6 +1785,7 @@ entries:
   - id: cal.1964-06-11.vietnam
     when: June 11
     date: '1964-06-11'
+    time: 1964-06-11T16:26Z
     thread: vietnam
     also: [vietnam-congress]
     c: 'Johnson and Russell by telephone, 12:26 p.m. Johnson: Mansfield''s "four-page memorandum that I''m getting ourselves involved and I''m gonna get in another war if I do any more." Russell: "In a way, I share some of his fears"; "I didn''t ever want to get messed up down there"; but to tell the people "you''re coming out ... It''d be disastrous." Johnson: "I don''t want to commit us to a war. And I''m in a hell of a shape." Bundy not to go to Saigon as ambassador: too valuable in Washington.'
@@ -1969,6 +1980,7 @@ entries:
   - id: cal.1964-06-12.europe-and-the-alliance
     when: June 12
     date: '1964-06-12'
+    time: 1964-06-12T15:30Z
     thread: europe-and-the-alliance
     also: [berlin-and-vienna]
     c: 'Erhard in Washington, with Schröder. Joint statement: the multilateral force "a significant addition" to the alliance''s strength, an agreement to be readied for signature by the end of the year; the Kennedy Round''s tariff cuts in the interest of all; more German aid to South Vietnam. The Soviet treaty with East Germany, signed the same day, does not touch Western rights in Berlin.'
@@ -2235,6 +2247,7 @@ entries:
   - id: cal.1964-06-15.vietnam
     when: June 15
     date: '1964-06-15'
+    time: 1964-06-15T22:00Z
     thread: vietnam
     c: 'The principals at State, 6 p.m., on whether to seek the resolution now. Agreed: not now. The steps open without one, and a campaign of public information.'
     n: FRUS 1964–68, I, docs. [214](https://history.state.gov/historicaldocuments/frus1964-68v01/d214), [215](https://history.state.gov/historicaldocuments/frus1964-68v01/d215). [[w.gibbons-u-s-government-and]], II, 273–74, III, 9 (the meeting, its papers, the decision; not the place or the hour). [[w.preston-war-council]], 150 (the steps without a resolution, among them a "shift of U.S. role from advice toward direction" and "still more limited ground troop movements"). See [[cal.1964-06-10.vietnam]].
@@ -2290,6 +2303,7 @@ entries:
   - id: cal.1964-06-15.vietnam-3
     when: June 15
     date: '1964-06-15'
+    time: 1964-06-15T23:56Z
     thread: vietnam
     c: 'Johnson and Bundy by telephone, 7:56 p.m., on Taylor for Saigon. Bundy: "I myself do not believe that in fact [Taylor has] ever understood that war."'
     n: '[[w.preston-war-council]], 151; [[w.taking-charge]], 408–9. To check: [Johnson and Bundy, 7:56 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-mcgeorge-bundy-june-15-1964), Conversation WH6406-09-3748 (Miller Center). Names: Johnson, Bundy, Taylor.'
@@ -2382,6 +2396,7 @@ entries:
   - id: cal.1964-06-16.desegregation-public-places
     when: June 16
     date: '1964-06-16'
+    time: 1964-06-16T14:13Z
     thread: desegregation-public-places
     c: 'Johnson to Lee White by telephone, 10:13 a.m.: "How is St. Augustine?" White: Bryant will keep order. Johnson, from memory, of his visit of 1963: the town''s leaders "didn''t agree to integrate the town," only to let Negroes come to his dinner and to talk.'
     n: '[[w.branch-pillar-of-fire]], 351. To check: [Johnson and White, 10:13 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-lee-white-june-16-1964), Tape WH6406.09 (Miller Center). See [[cal.1963-03-11.civil-rights-the-executive]]. Names: Johnson, White, Bryant.'
@@ -2478,6 +2493,7 @@ entries:
   - id: cal.1964-06-17.robert-kennedy
     when: June 17
     date: '1964-06-17'
+    time: 1964-06-17T22:38Z
     thread: robert-kennedy
     also: [vietnam]
     c: 'Bundy reads Johnson a draft of Reston''s column on Robert Kennedy and Saigon, 6:38 p.m. Johnson: "No, no. ... I don''t want to say that I consider him the best qualified man for the post, ''cause I frankly don''t." Bundy: "I''m the source of that."'
@@ -2656,6 +2672,7 @@ entries:
   - id: cal.1964-06-18.robert-kennedy
     when: June 18
     date: '1964-06-18'
+    time: 1964-06-19T00:58Z
     thread: robert-kennedy
     also: [berlin-and-vienna]
     c: 'Robert Kennedy to Johnson by telephone, 8:58 p.m., on his trip to Berlin: a day at Cracow or Warsaw, to speak at the university, only if the President thinks it right. Johnson to Bundy after, 9:02 p.m.: "I don''t want him sayin''" the President stopped it.'
@@ -2842,9 +2859,12 @@ entries:
   - id: cal.1964-06-19.civil-rights-bill-2
     when: June 19
     date: '1964-06-19'
+    time: 1964-06-20T00:20Z
     thread: civil-rights-bill
+    follows:
+      - cal.1964-06-19.civil-rights-bill
     c: 'Johnson, from California, to Wilkins by telephone, after the Senate vote: help bring the House along; names for appointments; "I''m just afraid of what''s gonna happen this summer, like [what] I saw yesterday at St. Augustine." Compliance the goal: "If they''ll observe the law, then we won''t have to take pistols and enforce it."'
-    n: '[[w.branch-pillar-of-fire]], 358–59; [[w.taking-charge]], 420–421. To check: [Johnson and Wilkins, 5:20 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-roy-wilkins-june-19-1964), Tape WH6406.11 (Miller Center). See [[cal.1964-06-19.civil-rights-bill]]. Names: Johnson, Wilkins.'
+    n: '[[w.branch-pillar-of-fire]], 358–59; [[w.taking-charge]], 420–421. The hour San Francisco''s: PRDE places the call at the Fairmont Hotel. After the Senate''s vote (the sources above). To check: [Johnson and Wilkins, 5:20 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-roy-wilkins-june-19-1964), Tape WH6406.11 (Miller Center). See [[cal.1964-06-19.civil-rights-bill]]. Names: Johnson, Wilkins.'
     src:
       c: 4711dfd5
       rows:
@@ -3084,6 +3104,7 @@ entries:
   - id: cal.1964-06-22.europe-and-the-alliance
     when: June 22–23
     date: '1964-06-22'
+    time: 1964-06-22T15:00Z
     thread: cyprus
     c: 'Cyprus. Inonu at the White House: talks "proceeding from the present binding effects of existing treaties."'
     n: 'Joint Statement Following Discussions With the Prime Minister of Turkey, [1963–64 Pub. Papers 811](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=895) (June 23, 1964). FRUS 1964–68, XVI, docs. [72](https://history.state.gov/historicaldocuments/frus1964-68v16/d72), [73](https://history.state.gov/historicaldocuments/frus1964-68v16/d73). [[w.ball-past-has-another-pattern]], 355 (the invitation, June 11; the communiqué, June 23). See [[cal.1964-06-05.europe-and-the-alliance]]. Names: Johnson, İnönü.'
@@ -3169,6 +3190,7 @@ entries:
   - id: cal.1964-06-22.medicare
     when: June 22
     date: '1964-06-22'
+    time: 1964-06-22T21:10Z
     thread: medicare
     c: 'O''Brien to Johnson, 5:10 p.m.: "the Wilbur Mills situation is deteriorated, I would say at this moment totally." Watts and Herlong lost; Mills for a rise in cash benefits, hospital insurance to wait or to be added in the Senate. They choose to keep it from a vote in committee and attach King–Anderson in the Senate.'
     n: '[Johnson and O''Brien, 5:10 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-larry-obrien-and-office-conversation-june-22), Conversation WH6406-12-3804 (Miller Center). [[w.zelizer-taxing-america]], 227–28. See [[cal.1964-02-10.medicare]]. Names: O''Brien, Johnson, Mills, Watts, Herlong.'
@@ -3183,6 +3205,7 @@ entries:
   - id: cal.1964-06-22.civil-rights-bill
     when: June 22
     date: '1964-06-22'
+    time: 1964-06-22T22:24Z
     thread: civil-rights-bill
     also: [republican-party-congress, poverty]
     c: 'Johnson to Halleck by telephone, on the civil rights bill as the Senate passed it, to be signed by July 4. Halleck: "We''re going to get your civil rights bill"; the House to recess for the Republican convention after it. Johnson wants his other bills, the poverty bill among them, brought to a vote. Halleck: "you''re going to get all the political advantage."'
@@ -3275,6 +3298,7 @@ entries:
   - id: cal.1964-06-23.mississippi
     when: June 23–24
     date: '1964-06-23'
+    time: 1964-06-23T19:59Z
     thread: mississippi
     c: 'Johnson and Eastland, 3:59 p.m., on the missing three: Eastland takes it for a publicity stunt; should the President call Paul Johnson? 4:25: Eastland, having called the governor, reports his doubts too and asks that an impartial observer be sent; Johnson tells him the burned car has been found. 8:21 p.m., Johnson and Paul Johnson. June 24, to Stennis: Dulles to go as an observer.'
     n: '[Johnson and Eastland, 3:59 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-james-eastland-june-23-1964), Tape WH6406.14, Citation #3836 (Miller Center); [4:25 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-james-eastland-june-23-1964-0), Tape WH6406.14, Citation #3845 (Miller Center); [Johnson and Paul Johnson, 8:21 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-paul-johnson-june-24-1964), Tape WH6406.16, Citation #3878 (Miller Center); [Johnson and Stennis, June 24, 5:32 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-stennis-june-24-1964), Tape WH6406.16, Citation #3892 (Miller Center). The catalogue''s words: "Eastland''s view of situation as publicity stunt." [President''s Daily Diary, June 23, 1964](https://catalog.archives.gov/id/192440), images 3, 5 (LBJ Library; National Archives Catalog). *Taking Charge* (K–J Adm. II.J). [[w.branch-pillar-of-fire]], 365–68; [[w.kotz-judgment-days]], 168–69 (Eastland and the governor; the impartial observer); [[w.taking-charge]], 432–433; [[w.taking-charge]], 435. See [[cal.1964-06-21.mississippi]]. Made public: the recordings, opened by the LBJ Library. Check the year. Names: Johnson, Eastland, Stennis, Paul Johnson, Dulles.'
@@ -3354,6 +3378,7 @@ entries:
   - id: cal.1964-06-23.mississippi-2
     when: June 23
     date: '1964-06-23'
+    time: 1964-06-23T16:35Z
     thread: mississippi
     c: 'Johnson to Lee White by telephone, 12:35 p.m., on the calls from Farmer and from Ryan, coming with the Goodmans and Schwerner''s father: "I''m shoving in as much [FBI] as I can. ... I didn''t ask [them] to go, and I can''t control the actions of Mississippi people."'
     n: '[[w.kotz-judgment-days]], 162–63; [[w.taking-charge]], 425–426. To check: [Johnson and Lee White, 12:35 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-lee-white-june-23-1964), Tape WH6406.13, PNO 5 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 162 n.10). See [[cal.1964-06-21.mississippi]]. Names: Johnson, White, Farmer.'
@@ -3368,6 +3393,7 @@ entries:
   - id: cal.1964-06-23.mississippi-3
     when: June 23
     date: '1964-06-23'
+    time: 1964-06-23T16:45Z
     thread: mississippi
     c: 'Johnson to McCormack by telephone, 12:45 p.m.: assure Representatives Ryan and Reid that he is doing "everything humanly possible" to find the missing men; to ward off their visit with the parents.'
     n: '[[w.kotz-judgment-days]], 163; [[w.taking-charge]], 426–427. To check: [Johnson and John McCormack, 12:45 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-mccormack-june-23-1964), Tape WH6406.13, PNO 7–8 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 163 n.11). Names: Johnson, McCormack.'
@@ -3382,6 +3408,7 @@ entries:
   - id: cal.1964-06-23.mississippi-4
     when: June 23
     date: '1964-06-23'
+    time: 1964-06-23T19:11Z
     thread: mississippi
     c: 'Robert Kennedy to the White House by telephone, after seeing Robert and Carolyn Goodman and Nathan Schwerner: Johnson should speak on television "about his concern on this thing. It''s the human element that''s damn important — for everything."'
     n: '[[w.kotz-judgment-days]], 163; [[w.taking-charge]], 430–431. Check: [[w.taking-charge]], 431, prints "it''s the human equation that''s damn important.". To check: [Johnson, Jack Valenti and Robert Kennedy, 3:11 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-june-23-1964), Tape WH6406.13, PNO 18 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 163 n.12). Check: the hour; Kotz''s text gives 3:23 p.m., his note 3:11. Names: Robert Kennedy, Valenti.'
@@ -3396,6 +3423,7 @@ entries:
   - id: cal.1964-06-23.mississippi-5
     when: June 23
     date: '1964-06-23'
+    time: 1964-06-23T20:16Z
     thread: mississippi
     c: 'Johnson to Katzenbach by telephone, 4:16 p.m.: "if I start house-mothering each kid that''s gone down there and didn''t show up, that we''ll have this White House filled with people every day." Katzenbach: the three probably taken by the Klan and murdered. Johnson: send the parents to Lee White; "I just may drop in."'
     n: '[Johnson and Nicholas Katzenbach, 3:35 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-nicholas-katzenbach-telephone-operator-and), Conversation WH6406-13-3832 (Miller Center). [[w.kotz-judgment-days]], 163–64; [[w.taking-charge]], 431. Check: [[w.taking-charge]], 431, has the call at 3:35 p.m. To check: Johnson and Nicholas Katzenbach, telephone conversation, June 23, 1964, 4:16 p.m., Tape WH6406.14, PNO 7, LBJ Library (cited by [[w.kotz-judgment-days]], 163 n.13). Names: Johnson, Katzenbach.'
@@ -3411,6 +3439,7 @@ entries:
   - id: cal.1964-06-23.mississippi-6
     when: June 23
     date: '1964-06-23'
+    time: 1964-06-23T20:05Z
     thread: mississippi
     c: 'Hoover to Johnson by telephone, 4:05 p.m.: agents have found the missing men''s car burning in a swamp outside Philadelphia, Miss.; whether bodies are inside not yet known. Hoover sure they are dead. Johnson: "Why won''t an agent be able to look at a car and see if any bones are in it?"'
     n: '[Johnson and J. Edgar Hoover, 4:05 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-office-secretary-and-telephone), Conversation WH6406-14-3837 (Miller Center). [[w.kotz-judgment-days]], 164; [[w.taking-charge]], 433–434; [[w.taking-charge]], 434. Check: [[w.taking-charge]], 434, prints "Why wouldn''t an agent be able to look at a car and see if there''s any bones in it?". To check: [Johnson and J. Edgar Hoover, 4:05 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-june-23-1964), Tape WH6406.14, PNO 4 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 164 n.14). See [[cal.1964-06-23.mississippi]]. Names: Hoover, Johnson.'
@@ -3440,6 +3469,7 @@ entries:
   - id: cal.1964-06-23.mississippi-8
     when: June 23
     date: '1964-06-23'
+    time: 1964-06-23T22:15Z
     thread: mississippi
     c: 'Johnson to Hoover by telephone, 6:15 p.m., still no word whether bodies are in the car: "Why in the hell can''t they take a crowbar and break into the car?"'
     n: '[[w.kotz-judgment-days]], 164. To check: [Johnson and J. Edgar Hoover, 6:15 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-june-23-1964-0), Tape WH6406.14, PNO 24 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 164 n.15). Names: Johnson, Hoover.'
@@ -3452,6 +3482,7 @@ entries:
   - id: cal.1964-06-23.mississippi-9
     when: June 23
     date: '1964-06-23'
+    time: 1964-06-23T23:05Z
     thread: mississippi
     c: 'Johnson to Dulles by telephone, 7:05 p.m.: "We got the ox in the ditch and we need help"; the observer Governor Johnson asked for. Dulles demurs, the Warren Commission''s work. Robert Kennedy on the line: "The situation is explosive in Mississippi ... It would give us some breathing room." Tom Finney to go with him.'
     n: '[[w.kotz-judgment-days]], 168–69. To check: [Johnson, Allen Dulles and Robert Kennedy, 7:05 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-allen-dulles-and-robert-kennedy-june-23-1964), Tape WH6406.15, PNO 11 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 168 n.26). See [[cal.1964-06-23.mississippi]]. Names: Johnson, Dulles, Robert Kennedy.'
@@ -3620,6 +3651,7 @@ entries:
   - id: cal.1964-06-24.europe-and-the-alliance-cyprus
     when: June 24–25
     date: '1964-06-24'
+    time: 1964-06-24T14:30Z
     thread: cyprus
     c: 'Cyprus. Papandreou at the White House, apart from Inonu: a solution "based upon the principles of democracy and justice."'
     n: 'Joint Statement Following Discussions With the Prime Minister of Greece, [1963–64 Pub. Papers 818](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=902) (June 25, 1964). FRUS 1964–68, XVI, docs. [74](https://history.state.gov/historicaldocuments/frus1964-68v16/d74), [75](https://history.state.gov/historicaldocuments/frus1964-68v16/d75). [President''s Daily Diary, June 24, 1964](https://catalog.archives.gov/id/192441), image 1 (LBJ Library; National Archives Catalog). [[w.ball-past-has-another-pattern]], 355 (the *Sequoia*; Papandreou''s press conference). See [[cal.1964-06-05.europe-and-the-alliance]]. Names: Johnson, Papandreou.'
@@ -3707,6 +3739,7 @@ entries:
   - id: cal.1964-06-24.mississippi-3
     when: June 24
     date: '1964-06-24'
+    time: 1964-06-24T21:30Z
     thread: mississippi
     c: 'DeLoach having complained to Walter Jenkins, Johnson to Hoover by telephone, 5:30 p.m.: Dulles is not to be "an FBI inspector"; "I haven''t got a better friend in the government than you." Hoover, of Sheriff Rainey: "That sheriff is a pretty bad fellow."'
     n: '[[w.kotz-judgment-days]], 170; [[w.kotz-judgment-days]], 167 (Hoover on Rainey, "a telephone call on Wednesday"); [[w.taking-charge]], 438–439. To check: [Johnson and J. Edgar Hoover, 5:30 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-june-24-1964-0), Tape WH6406.16, PNO 14–16 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 170 n.28). See [[cal.1964-06-24.mississippi-2]]. Names: Johnson, Hoover, DeLoach, Jenkins, Dulles.'
@@ -3908,6 +3941,7 @@ entries:
   - id: cal.1964-06-26.mississippi
     when: June 26
     date: '1964-06-26'
+    time: 1964-06-26T17:17Z
     thread: mississippi
     c: 'The Oval Office, midday. Dulles, back, calls Hoover with the President, Katzenbach and Marshall there, by a script: Mississippi''s leaders speak well of the FBI. Johnson takes the phone: "we want to ... avoid the marshal thing and the troops thing"; Hoover agrees to send more agents.'
     n: '[[w.branch-pillar-of-fire]], 372–73; [[w.kotz-judgment-days]], 171–72 ("we want to avoid the marshals thing and the troops thing"; "another fifteen people or twenty people"); [[w.taking-charge]], 441. To check: [Johnson, Dulles and Hoover, 1:17 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-and-allen-dulles-june-26-1964), Tape WH6406.17 (Miller Center); Hoover memorandum of 1:15 p.m., June 26, 1964, regarding telephone call from Dulles and LBJ, FNCC-NR (cited by [[w.branch-pillar-of-fire]], 372). See [[cal.1964-06-24.mississippi-2]]. Names: Dulles, Hoover, Johnson, Katzenbach, Marshall.'
@@ -3935,6 +3969,7 @@ entries:
   - id: cal.1964-06-26.mississippi-3
     when: June 26
     date: '1964-06-26'
+    time: 1964-06-26T17:05Z
     thread: mississippi
     c: 'The Oval Office, 1:05 p.m. Dulles to Governor Johnson by telephone, the President, Katzenbach and Finney with him: the two to work together "to control and punish terroristic activities"; more FBI men; the National Council of Churches to warn the students. The President: more agents so that he can resist those "telling me ... I got to have marshals and troops."'
     n: '[[w.kotz-judgment-days]], 170–71. To check: [Johnson, Allen Dulles and Paul Johnson, 1:05 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-paul-johnson-and-allen-dulles-june-26-1964), Tape WH6406.17, PNO 20 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 170 n.31). See [[cal.1964-06-26.mississippi]]. Names: Dulles, Johnson, Katzenbach.'
@@ -4491,6 +4526,7 @@ entries:
   - id: cal.1964-06-30.civil-rights-bill
     when: June 30
     date: '1964-06-30'
+    time: 1964-06-30T14:30Z
     thread: civil-rights-bill
     c: 'Rules, on the resolution, at 10:30 a.m., the last day Smith could set. Madden: the hearing to close at 5. Celler and McCulloch in the morning, four Southerners after. At 5, Bolling''s motion to report at once, 10 to 5; Madden, not Smith, to report it, 8 to 7.'
     n: '[[w.bernstein-guns-or-butter]], 78; [[w.whalen-longest-debate]], 220–23 (Willis, Cramer, Poff and Dorn the Southerners; 10–5 for the rule). Check: Whalen, 223, has Madden named to report the rule 8–5, Brown and Anderson with six Democrats, the same five against. See [[cal.1964-06-22.civil-rights-bill-2]]. Names: Smith, Madden, Celler, McCulloch, Bolling.'
