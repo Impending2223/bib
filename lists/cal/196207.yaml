@@ -23,13 +23,15 @@ entries:
     thread: berlin-and-vienna
     also: [soviet-union, missile-crisis]
     c: 'The Presidium, Mikoyan absent, before Raúl Castro''s visit. Khrushchev renews the push on West Berlin: on a peace treaty the Western garrisons halved, under the UN flag; in two years replaced by non-Western UN troops; in six, all out; "An international organ is unacceptable"; even by "aggravating things." Against McNamara''s Ann Arbor speech: "Not targeting cities—how aggressive! . . . To get the population used to the idea that nuclear war will take place." The UN to take up Germany in a crisis once the missiles are in Cuba in November. The Soviet–Cuban defense agreement approved; Anadyr shipped by Nov. 1.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 440–43. To check: Protocol 39, July 1, 1962, [[w.prezidium-tsk-kpss-1954]], I (cited by [[w.fursenko-khrushchevs-cold-war]], 441 nn.6–9, 442 n.12). See [[cal.1962-06-10.missile-crisis]]. Names: Mikoyan, Khrushchev, McNamara, Raúl Castro.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 440–43; [[w.prezidium-tsk-kpss-1954]], I, 569–70 (Protocol 39). Check: the protocol (I, 569) lists Mikoyan present; it has nothing of the UN taking up Germany once the missiles are in Cuba. To check: Protocol 39, July 1, 1962, [[w.prezidium-tsk-kpss-1954]], I (cited by [[w.fursenko-khrushchevs-cold-war]], 441 nn.6–9, 442 n.12). See [[cal.1962-06-10.missile-crisis]]. Names: Mikoyan, Khrushchev, McNamara, Raúl Castro.'
     src:
       c: f23606d8
       rows:
         - 'w.fursenko-khrushchevs-cold-war 440–43: all'
         - 'via w.fursenko-khrushchevs-cold-war 441 n.6: A-B'
         - 'via w.fursenko-khrushchevs-cold-war 442 n.12: C'
+        - 'w.prezidium-tsk-kpss-1954 I, 569–70: B-G, I-J'
+        - 'via x.1962-07-01.presidium-protocol-39: B-G, I-J'
     tags: [name:mikoyan-anastas, name:khrushchev-nikita-s, name:mcnamara-robert-s, name:castro-raul]
   - id: cal.1962-07-01.vietnam
     when: July 1
@@ -57,11 +59,13 @@ entries:
     thread: soviet-union
     also: [defense]
     c: 'The Presidium. Khrushchev on McNamara''s Ann Arbor speech: "Not targeting cities — how aggressive! What is their aim?"'
-    n: '[[w.poole-joint-chiefs-of-staff]], 31–32. To check: [[w.fursenko-khrushchevs-cold-war]], 442 (cited by [[w.poole-joint-chiefs-of-staff]], 31 n.49). See [[cal.1962-06-16.defense]]. Names: Khrushchev, McNamara.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 31–32; [[w.prezidium-tsk-kpss-1954]], I, 569 (Protocol 39). To check: [[w.fursenko-khrushchevs-cold-war]], 442 (cited by [[w.poole-joint-chiefs-of-staff]], 31 n.49). See [[cal.1962-06-16.defense]]. Names: Khrushchev, McNamara.'
     src:
       c: 707bd4f2
       rows:
         - 'w.poole-joint-chiefs-of-staff 31–32: all'
+        - 'w.prezidium-tsk-kpss-1954 I, 569: all'
+        - 'via x.1962-07-01.presidium-protocol-39: all'
     tags: [name:khrushchev-nikita-s, name:mcnamara-robert-s]
   - id: cal.1962-07-02.republican-party
     when: July 2
@@ -214,12 +218,14 @@ entries:
     thread: missile-crisis-anadyr
     also: [soviet-union, cuba]
     c: 'The Presidium, after Khrushchev''s first meeting with Raúl Castro, July 3: at the Cubans'' and General Dementyev''s urging, the "defensive" weapons, the SAMs, to go first, all in July; the strategic missiles after, their shipments delayed for want of ships. All still to be done by Nov. 1.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 444–45. To check: Protocol 40, July 6, 1962, [[w.prezidium-tsk-kpss-1954]], I (cited by [[w.fursenko-khrushchevs-cold-war]], 444 n.18). See [[cal.1962-07.missile-crisis]]. Names: Khrushchev, Raúl Castro.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 444–45; [[w.prezidium-tsk-kpss-1954]], I, 571 (Protocol 40). Check: the protocol (I, 571) has Pliev to command, the defensive means first, then the others, and Kennedy''s and Rusk''s Independence Day speeches to be answered; nothing of the Cubans'' or Dementyev''s urging, or of the ships. To check: Protocol 40, July 6, 1962, [[w.prezidium-tsk-kpss-1954]], I (cited by [[w.fursenko-khrushchevs-cold-war]], 444 n.18). See [[cal.1962-07.missile-crisis]]. Names: Khrushchev, Raúl Castro.'
     src:
       c: d4fbaf1d
       rows:
         - 'w.fursenko-khrushchevs-cold-war 444–45: all'
         - 'via w.fursenko-khrushchevs-cold-war 444 n.18: A'
+        - 'w.prezidium-tsk-kpss-1954 I, 571: A-B'
+        - 'via x.1962-07-06.presidium-protocol-40: A-B'
     tags: [name:khrushchev-nikita-s, name:castro-raul]
   - id: cal.1962-07-06.congo
     when: July 6–12
@@ -614,6 +620,19 @@ entries:
       c: 5244fe43
       rows:
         - 'w.poole-joint-chiefs-of-staff 238: all'
+  - id: cal.1962-07-12.cuba
+    when: July 12
+    date: '1962-07-12'
+    thread: cuba
+    also: [soviet-union]
+    c: 'The Presidium sends Cuba a group of economic advisers, not under the ambassador, from Central Asia. Khrushchev: "Outrageous" to give the Cubans a tractor and no farm machines; more advisers; perhaps a hundred or two of the best ships for fishing, five sent. Mikoyan, Rashidov and Shelepin to prepare it.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 572 (Protocol 41, item II, Malin''s notes). Made public: 2003. See [[cal.1962-07-06.missile-crisis]]. Names: Khrushchev, Mikoyan, Shelepin.'
+    src:
+      c: 66d6b2b7
+      rows:
+        - 'w.prezidium-tsk-kpss-1954 I, 572: all'
+        - 'via x.1962-07-12.presidium-protocol-41: all'
+    tags: [name:khrushchev-nikita-s, name:mikoyan-anastas, name:shelepin-alexandr-n]
   - id: cal.1962-07-13.laos
     when: July 13
     date: '1962-07-13'
