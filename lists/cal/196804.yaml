@@ -6,6 +6,7 @@ entries:
   - id: cal.1968-04-01.vietnam
     when: Apr. 1
     date: '1968-04-01'
+    time: 1968-04-01T21:03Z
     thread: vietnam
     also: [congress, vietnam-congress]
     c: 'A strike near Thanh Hóa, 205 nautical miles north of the zone by Wheeler''s count, Apr. 2. Fulbright, Lee Williams urging him, to Johnson by telephone: "a very great and unselfish act of statesmanship"; he offers to help start the peace talks, and Johnson accepts. Johnson: Dobrynin told, Mar. 31, of the limitation.'
@@ -538,6 +539,7 @@ entries:
   - id: cal.1968-04-03.robert-kennedy
     when: Apr. 3
     date: '1968-04-03'
+    time: 1968-04-03T15:00Z
     thread: robert-kennedy-campaign
     also: [elections-1968]
     c: 'Robert Kennedy and Sorensen with Johnson at the White House, at Kennedy''s asking. Would Johnson oppose his candidacy, or mobilize forces against him? Johnson: but for a few fund-raising dinners he plans to keep out of campaign politics; he "does not wish to forego his options."'
@@ -630,8 +632,10 @@ entries:
     date: '1968-04-03'
     thread: elections-1968-humphrey
     also: [democratic-party]
+    follows:
+      - cal.1968-04-03.robert-kennedy
     c: 'After Robert Kennedy, Humphrey with Johnson: Johnson withdrew because he "simply could not function on these great issues if he were subjected every day to attacks from Nixon, McCarthy, and Robert Kennedy." Humphrey has been in touch with Daley and Governor Richard Hughes; Johnson thinks they may go with Kennedy. By Rostow''s memorandum. Johnson urges Humphrey to announce at once: the heart of the matter not the South but New Jersey, Pennsylvania, Illinois, Michigan, Ohio and Indiana.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 869; [[w.palermo-in-his-own-right]], 158 (Daley and Hughes; E; not Johnson''s reasons); [[w.branch-at-canaans-edge]], 750 (no mandate for Humphrey); [[w.shesol-mutual-contempt]], 437 (he could not function if attacked every day by Nixon, McCarthy and Kennedy); [[w.thomas-robert-kennedy]], 365, 471 (after Kennedy, Johnson with Humphrey: he would not help, then advises him how to campaign, "at the Vice President''s disposal at any time of the day or night"). [[w.solberg-hubert-humphrey]], 325–26 (after Kennedy, Humphrey with Johnson; Johnson''s reasons; Daley and Hughes; the six Northern States; Johnson''s grades, Humphrey an A plus Vice President, himself a B plus). To check: W. W. Rostow, memorandum of conversation with the President, the Vice President and Charles Murphy, Apr. 3, 1968, Johnson Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 869 n.58); Humphrey, *The Education of aPublic Man* (1976), 360–61 (cited by [[w.branch-at-canaans-edge]], 750); Walt Rostow notes of LBJ, HHH meeting, 12:29-1:29 p.m., April 3, 1968, Diary Back-up, Box 94, LBJ (cited by [[w.branch-at-canaans-edge]], 750). See [[cal.1968-04-03.robert-kennedy]]. Names: Humphrey, Johnson, Nixon, Eugene McCarthy, Robert Kennedy, Daley, Richard Hughes. Check: Solberg, 326, from Rostow''s memorandum: on announcing, Johnson said only that it was up to Humphrey.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 869; [[w.palermo-in-his-own-right]], 158 (Daley and Hughes; E; not Johnson''s reasons); [[w.branch-at-canaans-edge]], 750 (no mandate for Humphrey); [[w.shesol-mutual-contempt]], 437 (he could not function if attacked every day by Nixon, McCarthy and Kennedy); [[w.thomas-robert-kennedy]], 365, 471 (after Kennedy, Johnson with Humphrey: he would not help, then advises him how to campaign, "at the Vice President''s disposal at any time of the day or night"). [[w.solberg-hubert-humphrey]], 325–26 (after Kennedy, Humphrey with Johnson; Johnson''s reasons; Daley and Hughes; the six Northern States; Johnson''s grades, Humphrey an A plus Vice President, himself a B plus). Order: after Kennedy''s meeting. To check: W. W. Rostow, memorandum of conversation with the President, the Vice President and Charles Murphy, Apr. 3, 1968, Johnson Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 869 n.58); Humphrey, *The Education of aPublic Man* (1976), 360–61 (cited by [[w.branch-at-canaans-edge]], 750); Walt Rostow notes of LBJ, HHH meeting, 12:29-1:29 p.m., April 3, 1968, Diary Back-up, Box 94, LBJ (cited by [[w.branch-at-canaans-edge]], 750). See [[cal.1968-04-03.robert-kennedy]]. Names: Humphrey, Johnson, Nixon, Eugene McCarthy, Robert Kennedy, Daley, Richard Hughes. Check: Solberg, 326, from Rostow''s memorandum: on announcing, Johnson said only that it was up to Humphrey.'
     src:
       c: 39ea1f76
       rows:
@@ -832,8 +836,11 @@ entries:
     date: '1968-04-03'
     thread: elections-1968
     also: [robert-kennedy, press-and-broadcasting]
+    follows:
+      - cal.1968-04-03.robert-kennedy
+      - cal.1968-04-03.elections-1968
     c: 'Johnson with Drew Pearson, after Kennedy and Humphrey: a history of the Bay of Pigs that blames Robert Kennedy.'
-    n: '[[w.thomas-robert-kennedy]], 365–66. To check: [[w.schlesinger-robert-kennedy-and-his]], 869 (cited by [[w.thomas-robert-kennedy]], 471). See [[cal.1968-04-03.robert-kennedy]]. Names: Johnson, Pearson, Robert Kennedy.'
+    n: '[[w.thomas-robert-kennedy]], 365–66. Order: after Kennedy and Humphrey, [[cal.1968-04-03.elections-1968]]. To check: [[w.schlesinger-robert-kennedy-and-his]], 869 (cited by [[w.thomas-robert-kennedy]], 471). See [[cal.1968-04-03.robert-kennedy]]. Names: Johnson, Pearson, Robert Kennedy.'
     src:
       c: c839ed35
       rows:
@@ -866,6 +873,7 @@ entries:
   - id: cal.1968-04-04.vietnam-paris
     when: Apr. 4
     date: '1968-04-04'
+    time: 1968-04-04T20:47Z
     thread: vietnam-paris
     c: New York. Johnson with U Thant at the United Nations.
     n: 'FRUS 1964–68, VI, doc. [181](https://history.state.gov/historicaldocuments/frus1964-68v06/d181). [President''s Daily Diary, Apr. 4, 1968](https://catalog.archives.gov/id/192476), image 8 (LBJ Library; National Archives Catalog). [[w.longley-lbjs-1968]], 105–07 (Cooke''s installation; Johnson with U Thant). See [[cal.1968-04-03.vietnam]]. Names: Johnson, U Thant.'
@@ -880,6 +888,7 @@ entries:
   - id: cal.1968-04-04.king
     when: Apr. 4
     date: '1968-04-04'
+    time: 1968-04-05T00:01Z
     thread: king
     c: 'Memphis. King, on the balcony of the Lorraine Motel, shot at 6:01 p.m. by a rifleman from a rooming house on South Main Street; dead at St. Joseph''s Hospital, 7:05 p.m. Johnson, 9:07 p.m.: "I ask every citizen to reject the blind violence that has struck Dr. King, who lived by nonviolence"; his trip to Hawaii put off. Apr. 19, the FBI: the man sought, "Eric Starvo Galt," is James Earl Ray, escaped from the Missouri State Penitentiary in 1967 (Check).'
     n: 'Statement by the President on the Assassination of Dr. Martin Luther King, Jr., [1968–69 Pub. Papers 493](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=571) (Apr. 4, 1968). [Johnson, Ivan Allen and Lady Bird Johnson, 11 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ivan-allen-and-lady-bird-johnson-april-5-1968), Conversation WH6804-01-12908 (Miller Center). [*New York Times*, Apr. 5, 1968](https://timesmachine.nytimes.com/timesmachine/1968/04/05/issue.html); [Apr. 20, 1968](https://timesmachine.nytimes.com/timesmachine/1968/04/20/issue.html). [President''s Daily Diary, Apr. 4, 1968](https://catalog.archives.gov/id/192476), images 11, 12, 13, 15 (LBJ Library; National Archives Catalog). [[w.garrow-bearing-the-cross]], 623–24 (the shot on the balcony); [[w.califano-triumph-and-tragedy-of]], 273–74 (word of his death at 8:20 p.m.; the Hawaii trip put off; Johnson''s statement edited in the barber''s chair; Clark, Roger Wilkins and Alexander sent to Memphis; "Everything we''ve gained in the last few days we''re going to lose tonight"); [[w.branch-at-canaans-edge]], 763–67 (Redditt taken off the post at 4 p.m.; the room at Bessie Brewer''s; the balcony, "Ben, make sure you play ''Precious Lord''"); [[w.kotz-judgment-days]], 414–15 (the balcony of room 306, about 6 p.m.; a rifle shot; dead at St. Joseph''s, 7:05 p.m.; Christian confirms the death to Johnson, 8:20 p.m.; the Hilton dinner and the Hawaii trip given up); [[w.bernstein-guns-or-butter]], 494–95 (Ray, as John Willard, Room 5B at Mrs. Brewer''s rooming house; the shot from the bathroom; Ray''s stipulation No. 37: "approximately 6:01 p.m."); [[w.young-easy-burden]], 464–66 (Young in the parking lot below; to St. Joseph''s Hospital behind the ambulance). [[w.longley-lbjs-1968]], 108–10 (word of the shooting, 7:30 p.m., and of the death, 8:20; the statement; Hawaii put off). [[w.mcpherson-political-education]], 364 (the night in Califano''s office; the Negro leaders called). To check: [[w.honey-going-down-jericho-road]]; [[w.beifuss-at-the-river-i]]; [[w.posner-killing-the-dream]]; [[w.sides-hellhound-on-his-trail]]; [[w.garrow-fbi-and-martin-luther]]; Int. Bernard Lafayette, Aug. 10, 2005 (Branch) (cited by [[w.branch-at-canaans-edge]], 759, 760); [[w.fairclough-to-redeem-the-soul]], 381 (cited by [[w.branch-at-canaans-edge]], 760); Stokes, *Report* (n.d.), 364 (cited by [[w.branch-at-canaans-edge]], 760); Frank, *An American Death* (1972), 56 (cited by [[w.branch-at-canaans-edge]], 760); Hearings, *House Select Committee on Assassinations* (n.d.), 416 (cited by [[w.branch-at-canaans-edge]], 760); U.S. Department ofJustice, Report of the Department of Justice Task Force to Review the FBI Martin Luther King, Jr. Security and Assass1nation Investigations, pp. 30–32 (cited by [[w.branch-at-canaans-edge]], 763); Stokes, *Report* (n.d.), 549–55 (cited by [[w.branch-at-canaans-edge]], 763); [[w.mcknight-last-crusade]], 77–78 (cited by [[w.branch-at-canaans-edge]], 763); Frank, *An American Death* (1972), 64–65 (cited by [[w.branch-at-canaans-edge]], 763); Melanson, *The Murkin Conspiracy* (1989), 68–71 (cited by [[w.branch-at-canaans-edge]], 763); Stokes, *Report* (n.d.), 378–87 (cited by [[w.branch-at-canaans-edge]], 763); Frank, *An American Death* (1972), 58—64 (cited by [[w.branch-at-canaans-edge]], 763); McMillan, *The Making of an Assassin* (1976), 290–93, 297–302 (cited by [[w.branch-at-canaans-edge]], 763); Frank, *An American Death* (1972), 58, 65. 764 — long–scheduled spring revival (cited by [[w.branch-at-canaans-edge]], 764); Raines, *My Soul Is Rested* (1977), 523 (cited by [[w.branch-at-canaans-edge]], 764); Stokes, *Report* (n.d.), 365 (cited by [[w.branch-at-canaans-edge]], 764); [[w.abernathy-and-the-walls-came]], 438–39 (cited by [[w.branch-at-canaans-edge]], 764); Hearings, *House Select Committee on Assassinations* (n.d.), 466–67, 520–21 (cited by [[w.branch-at-canaans-edge]], 765); Pepper, *An Act of State* (2003), 193–94 (cited by [[w.branch-at-canaans-edge]], 765); Samuel B. (Billy) Kyles oral history, June 12, 1968, pp. 8–15, MVC (cited by [[w.branch-at-canaans-edge]], 765); Stokes, *Report* (n.d.), 366 (cited by [[w.branch-at-canaans-edge]], 765); Frank, *An American Death* (1972), 67–70 (cited by [[w.branch-at-canaans-edge]], 765); Baldwin, Balm, p306 (cited by [[w.branch-at-canaans-edge]], 765); U.S. Department ofJustice, Report of the Department of Justice Task Force to Review the FBI Martin Luther King, Jr. Security and Assassination Investigations, p. 25 (cited by [[w.branch-at-canaans-edge]], 766); Hearings, *House Select Committee on Assassinations* (n.d.), 418–19 (cited by [[w.branch-at-canaans-edge]], 766); Frady, *Jesse* (1996), 226–27 (cited by [[w.branch-at-canaans-edge]], 766); Stokes, *Report* (n.d.), 367 (cited by [[w.branch-at-canaans-edge]], 766); Frank, *An American Death* (1972), 73–75 (cited by [[w.branch-at-canaans-edge]], 766); Raines, *My Soul Is Rested* (1977), 522–23 (cited by [[w.branch-at-canaans-edge]], 766); Stokes, *Report* (n.d.), 368–69 (cited by [[w.branch-at-canaans-edge]], 767). See [[cal.1967-12-04.king]]. Names: King, Johnson, Ray.'
@@ -1207,6 +1216,8 @@ entries:
   - id: cal.1968-04-05.civil-disorders-king
     when: Apr. 5
     date: '1968-04-05'
+    time: 1968-04-06T05:00Z
+    time_approx: true
     thread: civil-disorders-king
     also: [mayors]
     c: 'Shortly before midnight, at dinner with Higginbotham, Busby, Tom Johnson and Califano: Johnson has word that Daley is "marked for assassination"; the FBI to tell Daley''s police. To Busby, of the address to Congress: "can make or break us."'
@@ -1597,6 +1608,7 @@ entries:
   - id: cal.1968-04-09.vietnam-paris
     when: Apr. 9
     date: '1968-04-09'
+    time: 1968-04-09T13:00Z
     thread: vietnam-paris
     c: 'Camp David: Johnson with Bunker, Rusk, Wheeler and others, then Harriman and William Bundy.'
     n: 'FRUS 1964–68, VI, doc. [189](https://history.state.gov/historicaldocuments/frus1964-68v06/d189). Remarks to the Press at Camp David With Ambassador Bunker, [1968–69 Pub. Papers 501](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=579) (Apr. 9, 1968). [[w.clifford-counsel-to-the-president-2]], 532–33 (Bunker: "we go into the negotiations from a position of strength"; "Saigon is not at all ready"; Clifford: "some choice targets in the North"); [[w.rusk-as-i-saw-it-1990]], 484. See [[cal.1968-04-03.vietnam]]. Names: Johnson, Bunker, Rusk, Wheeler, Harriman, Bundy. Check: Rusk puts Camp David four days after Hanoi''s statement, which he dates Apr. 4, and names Harriman, Vance and William Bundy ([[w.rusk-as-i-saw-it-1990]], 484).'
@@ -1781,6 +1793,7 @@ entries:
   - id: cal.1968-04-10.transition-and-staff
     when: Apr. 10
     date: '1968-04-10'
+    time: 1968-04-10T21:43Z
     thread: transition-and-staff
     also: [vietnam-abrams, defense]
     c: 'News conference: O''Brien''s resignation as Postmaster General accepted; Watson, the Appointments Secretary, named to succeed him; Jim Jones and Larry Temple to take Watson''s work. Abrams to succeed Westmoreland; Goodpaster his deputy; McCain to succeed Sharp in the Pacific Command.'
@@ -1890,6 +1903,7 @@ entries:
   - id: cal.1968-04-11.open-housing
     when: Apr. 11
     date: '1968-04-11'
+    time: 1968-04-11T22:00Z
     thread: open-housing
     also: [civil-disorders]
     c: 'The Civil Rights Act of 1968 signed, [82 Stat. 73](https://www.govinfo.gov/content/pkg/STATUTE-82/pdf/STATUTE-82-Pg73.pdf). Title VIII: discrimination in the sale or rental of housing barred by stages to 1970; exempt, the owner selling his own house without a broker, and the owner-occupied house of four units or fewer. Title I: federal crimes of interference with civil rights, and interstate travel to incite a riot. Titles II–VII: the rights of American Indians. Title X: teaching or carrying firearms and explosives for a civil disorder.'
@@ -1973,6 +1987,7 @@ entries:
   - id: cal.1968-04-11.vietnam-force-levels
     when: Apr. 11
     date: '1968-04-11'
+    time: 1968-04-11T15:00Z
     thread: vietnam-force-levels
     also: [defense-clifford]
     c: 'Clifford''s first press conference, 10 a.m.: 24,500 reservists called; a ceiling of 549,500 in Vietnam "at this time." Repeated Apr. 22, June 20 and Aug. 15; never exceeded.'
@@ -2459,6 +2474,7 @@ entries:
   - id: cal.1968-04-22.states-and-cities
     when: Apr. 22
     date: '1968-04-22'
+    time: 1968-04-22T22:32Z
     thread: states-and-cities
     also: [school-aid]
     c: 'District of Columbia Elected Board of Education Act signed, [82 Stat. 101](https://www.govinfo.gov/content/pkg/STATUTE-82/pdf/STATUTE-82-Pg101.pdf): the board, appointed by the District''s judges, to be elected (Check the number of members and the first election). Through the House, Sept. 25, 1967, [326–3](https://voteview.com/rollcall/RH0900141). Mar. 13, Johnson''s message on the District, "The Nation''s First City."'
@@ -2682,6 +2698,7 @@ entries:
   - id: cal.1968-04-25.transition-and-staff
     when: Apr. 25
     date: '1968-04-25'
+    time: 1968-04-25T21:15Z
     thread: transition-and-staff
     c: 'News conference: Goldberg resigns as Representative to the United Nations, to stay until June; Ball named.'
     n: 'The President''s News Conference, [1968–69 Pub. Papers 537](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=615) (Apr. 25, 1968). [[w.ball-past-has-another-pattern]], 436–37. See [[cal.1968-04-10.transition-and-staff]]. Names: Goldberg, Ball, Johnson.'
@@ -2782,6 +2799,7 @@ entries:
   - id: cal.1968-04-26.transition-and-staff
     when: Apr. 26
     date: '1968-04-26'
+    time: 1968-04-26T18:00Z
     thread: transition-and-staff
     c: Watson sworn in as Postmaster General.
     n: 'Remarks at the Swearing In of W. Marvin Watson as Postmaster General, [1968–69 Pub. Papers 543](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=621) (Apr. 26, 1968). See [[cal.1968-04-10.transition-and-staff]]. Names: Watson, Johnson.'
@@ -3072,6 +3090,8 @@ entries:
   - id: cal.1968-04-30.students-columbia
     when: Apr. 30
     date: '1968-04-30'
+    time: 1968-04-30T06:30Z
+    time_approx: true
     thread: students-columbia
     c: 'New York. Columbia. From about 2:30 a.m., the city''s police clear the five buildings: some 700 arrested, nearly 150 hurt (Check the counts).'
     n: '[*New York Times*, May 1, 1968](https://timesmachine.nytimes.com/timesmachine/1968/05/01/issue.html). [[w.white-making-of-the-president-1969]], 220 (711 arrested, 148 hurt, 20 of them police). Check: White puts the police on the campus the night of Apr. 29. See [[cal.1968-04-23.students]].'
@@ -3120,6 +3140,7 @@ entries:
   - id: cal.1968-04-30.vietnam-paris
     when: Apr. 30
     date: '1968-04-30'
+    time: 1968-04-30T14:50Z
     thread: vietnam-paris
     c: 'The site. Johnson to Rusk: "can''t we do something on Bucharest before we get another proposal from them?"'
     n: 'FRUS 1964–68, VI, docs. [215](https://history.state.gov/historicaldocuments/frus1964-68v06/d215), [216](https://history.state.gov/historicaldocuments/frus1964-68v06/d216). Made public: FRUS 1964–68, VI (2002). See [[cal.1968-04-08.vietnam]]. Names: Johnson, Rusk.'

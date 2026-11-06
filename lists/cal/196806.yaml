@@ -402,6 +402,7 @@ entries:
   - id: cal.1968-06-04.soviet-union
     when: June 4
     date: '1968-06-04'
+    time: 1968-06-04T13:30Z
     thread: soviet-union
     also: [testing]
     c: 'Johnson at Glassboro State College''s commencement, a year after the summit: no agreement yet "which would avoid a costly anti-ballistic missile race between the United States and the Soviets"; the United States ready, the Soviets urged to join.'
@@ -544,6 +545,8 @@ entries:
   - id: cal.1968-06-04.robert-kennedy-campaign-3
     when: June 4
     date: '1968-06-04'
+    time: 1968-06-05T07:00Z
+    time_approx: true
     thread: robert-kennedy-campaign-california
     also: [elections-1968]
     c: 'The Ambassador, the Royal Suite, toward midnight. Robert Kennedy to Goodwin in the bathroom: "I''ve got to get free of McCarthy"; Humphrey the man to beat, to be chased "all over the country." "I think we should tell him if he withdraws now and supports me, I''ll make him secretary of state."'
@@ -693,6 +696,7 @@ entries:
   - id: cal.1968-06-05.civil-disorders-2
     when: June 5
     date: '1968-06-05'
+    time: 1968-06-06T02:07Z
     thread: civil-disorders
     also: [robert-kennedy-campaign]
     c: 'Address to the nation after the shooting of Robert Kennedy: "Two hundred million Americans did not strike down Robert Kennedy last night"; a commission on the causes and control of violence, Milton Eisenhower its chairman; the "insane traffic in guns" to be halted.'
@@ -724,8 +728,10 @@ entries:
     date: '1968-06-05'
     thread: robert-kennedy-campaign
     also: [elections-1968]
+    follows:
+      - cal.1968-06-05.robert-kennedy
     c: Colorado Springs, the Air Force Academy, after midnight. Humphrey, by telephone to Salinger at the hospital, has a military plane fly a neurosurgeon from Massachusetts to Los Angeles. He will not give the morning's commencement address, against Harold Brown and McConnell; his campaign stopped for a month. By Humphrey's account.
-    n: '[[w.humphrey-education-of-a-public-1976]], 372–73; [[w.solberg-hubert-humphrey]], 341 (Colorado; a plane for Kennedy''s doctor; the Academy speech off). See [[cal.1968-06-05.robert-kennedy-2]]. Names: Humphrey, Salinger, Robert Kennedy, Harold Brown, McConnell.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 372–73; [[w.solberg-hubert-humphrey]], 341 (Colorado; a plane for Kennedy''s doctor; the Academy speech off). Order: after the shooting, Salinger at the hospital, [[cal.1968-06-05.robert-kennedy]]. See [[cal.1968-06-05.robert-kennedy-2]]. Names: Humphrey, Salinger, Robert Kennedy, Harold Brown, McConnell.'
     src:
       c: 1c1afdbf
       rows:
@@ -735,10 +741,13 @@ entries:
   - id: cal.1968-06-05.assassination-3
     when: June 5
     date: '1968-06-05'
+    time: 1968-06-05T07:31Z
     thread: assassination
     also: [robert-kennedy-campaign]
+    follows:
+      - cal.1968-06-05.robert-kennedy
     c: 'Rostow wakes Johnson at 3:31 a.m. with word of the shooting. Through the night Johnson talks with Ramsey Clark, Rowley of the Secret Service, Clifford and Hoover, and asks a Secret Service detail for each candidate, without a law for it. At 6:45 a.m., his statement, given out by Christian: "There are no words equal to the horror of this tragedy. ... We also pray that divisiveness and violence be driven from the hearts of men everywhere."'
-    n: 'Statement by the President Following the Shooting of Senator Robert F. Kennedy, [1968–69 Pub. Papers 691](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=769) (June 5, 1968). [[w.shesol-mutual-contempt]], 451–53. To check: Pierson''s and Christian''s oral histories, LBJ Library (cited by [[w.shesol-mutual-contempt]], 452, 453). Names: Rostow, Johnson, Clark, Rowley, Clifford, Hoover, Christian.'
+    n: 'Statement by the President Following the Shooting of Senator Robert F. Kennedy, [1968–69 Pub. Papers 691](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=769) (June 5, 1968). [[w.shesol-mutual-contempt]], 451–53. Order: word of the shooting, [[cal.1968-06-05.robert-kennedy]]. To check: Pierson''s and Christian''s oral histories, LBJ Library (cited by [[w.shesol-mutual-contempt]], 452, 453). Names: Rostow, Johnson, Clark, Rowley, Clifford, Hoover, Christian.'
     src:
       c: 958a5ed6
       rows:
@@ -759,6 +768,7 @@ entries:
   - id: cal.1968-06-05.civil-disorders-3
     when: June 5
     date: '1968-06-05'
+    time: 1968-06-05T14:15Z
     thread: civil-disorders
     also: [assassination]
     c: 'Califano to Johnson, 10:15 a.m., troops on alert in Los Angeles and Washington: "[Washington] is quiet now," but the city''s leaders fear "enough people will get stirred up over the Kennedy slaying ... that there could be trouble later in the day." None comes.'
@@ -865,6 +875,7 @@ entries:
   - id: cal.1968-06-06.elections-1968-2
     when: June 6
     date: '1968-06-06'
+    time: 1968-06-06T11:20Z
     thread: elections-1968-humphrey
     c: 'The White House, the second floor, 7:20 to 10:45 a.m. Humphrey with Johnson after Robert Kennedy''s death: the nomination Humphrey''s, Johnson "1 million percent" for him. Of the running mate: "Don''t let people talk you into any vice-presidential candidate, and remember how I chose you." At the convention three memorials, John Kennedy, Robert Kennedy and King.'
     n: '[[w.solberg-hubert-humphrey]], 341. To check: the Daily Diary, June 6, 1968; Edgar Berman, diary, June 6, 1968 (cited by [[w.solberg-hubert-humphrey]], 341, its note). Names: Humphrey, Johnson, Robert Kennedy, John Kennedy, Martin Luther King.'
@@ -915,6 +926,7 @@ entries:
   - id: cal.1968-06-06.robert-kennedy-campaign-2
     when: June 6
     date: '1968-06-06'
+    time: 1968-06-07T00:00Z
     thread: robert-kennedy-campaign
     also: [assassination]
     c: 'Robert Kennedy''s aides, 8 p.m., on the funeral and the train to Washington. On the agenda: "Should President Johnson, Mrs. Johnson, Vice President Humphrey be invited?" They are.'
@@ -1144,6 +1156,7 @@ entries:
   - id: cal.1968-06-10.civil-disorders
     when: June 10
     date: '1968-06-10'
+    time: 1968-06-10T18:24Z
     thread: civil-disorders
     also: [assassination, crime-and-hijacking]
     c: 'Executive Order 11412: the National Commission on the Causes and Prevention of Violence, Milton Eisenhower its chairman. Johnson''s questions: what in American society causes "disrespect for the law"; whether "permissiveness toward extreme behavior" has encouraged violence; whether its seeds are nurtured through "the public''s airwaves."'
@@ -1428,6 +1441,7 @@ entries:
   - id: cal.1968-06-13.soviet-union
     when: June 13
     date: '1968-06-13'
+    time: 1968-06-13T15:50Z
     thread: soviet-union-consular
     c: 'The White House. The Consular Convention with the Soviet Union, [19 U.S.T. 5018](https://tile.loc.gov/storage-services/service/ll/lltreaties//lltreaties-19-4/lltreaties-19-4.pdf#page=940), [655 U.N.T.S. 214](https://treaties.un.org/doc/Publication/UNTS/Volume%20655/volume-655-I-9383-English.pdf), proclaimed, Dobrynin and Rusk present. Johnson: "the first bilateral treaty between the Soviet Union and the United States." In force July 13.'
     n: 'Remarks at the Ratification Ceremony for the Consular Convention Between the United States and the Soviet Union, [1968–69 Pub. Papers 715](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=793) (June 13, 1968). See [[cal.1967-03-16.soviet-union]]. Names: Dobrynin, Rusk, Johnson.'
@@ -1581,6 +1595,7 @@ entries:
   - id: cal.1968-06-14.crime-and-hijacking-safe-streets
     when: June 14
     date: '1968-06-14'
+    time: 1968-06-14T22:50Z
     thread: crime-and-hijacking-safe-streets
     c: 'McPherson to Johnson, 6:50 p.m.: "I recognize that you must sign this bill. But it is the worst bill you will have signed since you took office." Title III, wiretapping, "extremely dangerous"; Title II manageable. Blast the obnoxious provisions in signing and seek their repeal; attack the gun provision''s weakness.'
     n: '[[w.mcpherson-political-education]], 280 (the memorandum, quoted). Names: McPherson, Johnson.'
@@ -1982,6 +1997,8 @@ entries:
   - id: cal.1968-06-18.vietnam-may-offensive
     when: June 18
     date: '1968-06-18'
+    time: 1968-06-18T04:00Z
+    time_approx: true
     thread: vietnam-may-offensive
     c: 'Gia Định and Gò Vấp, suburban Saigon. From about noon, men of the Quyết Thắng Regiment and the 273d Regiment rally, answering the broadcast appeals of their former executive officer, Capt. Phan Văn Kương, who rallied the day before: 119 confirmed, 148 reported, 96 weapons; the largest mass defection to date. The 1st and 6th Vietnamese Marine Battalions take 113 of the Quyết Thắng Regiment.'
     n: '[[w.macv-command-history-1968]], 83; About half North Vietnamese of Infiltration Group 273, aged 14 to 33, without food, ammunition or medicine (83). Check: the History''s pacification chapter dates the largest single-unit defection, some 140 of the Quyết Thắng Regiment to Vietnamese Marines near Saigon, June 4 (550). To check: AMEMB SAIGON to SECSTATE, 18 Jun 68, "Not Stated" (cited by [[w.macv-command-history-1968]], 83 n.88).'
@@ -2448,6 +2465,7 @@ entries:
   - id: cal.1968-06-24.transition-and-staff
     when: June 24
     date: '1968-06-24'
+    time: 1968-06-24T21:40Z
     thread: transition-and-staff
     c: 'George Ball sworn Representative to the United Nations, Goldberg''s successor. Johnson: one of those "gifted amateurs."'
     n: 'Remarks at the Swearing In of George Ball as U.S. Representative to the United Nations, [1968–69 Pub. Papers 743](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=821) (June 24, 1968). [[w.ball-past-has-another-pattern]], 438 (in office from June, Goldberg staying through his month as the Council''s President). To check: [[w.bill-george-ball]]; [[w.dileo-george-ball-vietnam-and]]. Names: Ball, Goldberg, Johnson.'
@@ -2603,6 +2621,7 @@ entries:
   - id: cal.1968-06-26.court
     when: June 26
     date: '1968-06-26'
+    time: 1968-06-26T15:38Z
     thread: court
     also: [confirmations]
     c: 'Warren''s letters of June 13: he will retire as Chief Justice "effective at your pleasure," because of age alone. Johnson accepts, June 26, the retirement to take effect when a successor is qualified, and names Fortas Chief Justice and Thornberry, of the Fifth Circuit, once Representative from Austin, to Fortas''s seat. Johnson and Fortas by telephone, June 21. Griffin and other Republican Senators oppose confirming nominees of a President not standing again (Check the day and the number).'
