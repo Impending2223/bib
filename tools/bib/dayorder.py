@@ -27,7 +27,13 @@ STYLE
    with `time_approx`. A clock in doubt (a place whose 1960s daylight time is not settled) is a range of the two
    readings, an hour wide. `time_band:` beside it, optional, names the band the range was drawn from (BANDS: the owner's
    list, Nov. 5, 2026), in the place's zone (`time_zone:`, IANA), so a page can say "evening, Saigon" or "workday
-   afternoon ET"; band_range() turns a date, a band and a zone into the range.
+   afternoon ET"; band_range() turns a date, a band and a zone into the range. `range_basis:` beside it says what
+   placed it: `record` (the default: a record or work gives the span, its basis in the note: the Digest's hours, the
+   source's "that evening") or `kind` (no record gives it; the event's kind places it, the owner's "where their contents
+   or placement suggests so", Nov. 5, 2026: an office act, a meeting, a signing, a hearing or a paper written in an
+   office, the workday daytime of its place; a breakfast, the pre-work morning; a lunch, midday; a dinner or a toast,
+   the evening; KINDS_PLACE). A `kind` range carries its band and zone, adds nothing to the note, and gives way to any
+   record found later.
 6. The order, from Nov. 5, 2026 (the owner: "sort by time first"): a day's entries by their place in the day (a `time`,
    or the middle of a `time_range`, in UTC), then by the key of 1; the entries with neither after the placed ones, by
    the key of 1; `follows` honored over both (2). A month's undated block keeps 1. check adds: a `time_range` not two
@@ -47,6 +53,18 @@ BANDS = {
     "predawn": (0, 6), "pre-work morning": (6, 9), "workday morning": (9, 12), "workday midday": (12, 14),
     "workday afternoon": (14, 17), "workday daytime": (9, 17), "after-workday daytime": (17, 19), "evening": (19, 22),
     "night": (22, 24), "morning": (6, 12), "afternoon": (12, 18), "daytime": (6, 19), "day": (0, 24),
+}
+
+
+# The kinds of event that place an entry with no record of its hour (STYLE 5, range_basis: kind): kind -> band.
+KINDS_PLACE = {
+    "office act": "workday daytime",      # a meeting, a call, a signing, a swearing-in, a briefing, in an office
+    "paper": "workday daytime",           # a memorandum, letter, cable or report written in an office
+    "hearing": "workday daytime",         # a committee's hearing or session
+    "floor": "workday afternoon",         # a chamber's floor act where the Digest gives no hours (both met at noon)
+    "breakfast": "pre-work morning",
+    "lunch": "workday midday",
+    "dinner": "evening",                  # a dinner, a reception, a toast, a gala
 }
 
 
@@ -176,6 +194,11 @@ def problems(series):
                     out.append((eid, f"time_range {r!r} is more than a day from the entry's date {d}"))
             if t is not None:
                 out.append((eid, "time and time_range both: an exact hour is a time, a span a time_range"))
+        if e.get("range_basis") is not None:
+            if e["range_basis"] not in ("record", "kind"):
+                out.append((eid, "range_basis: record or kind"))
+            if r is None or (e["range_basis"] == "kind" and not (e.get("time_band") and e.get("time_zone"))):
+                out.append((eid, "range_basis without its range (a kind range: with its time_band and time_zone)"))
         if e.get("time_band") is not None:
             if e["time_band"] not in BANDS:
                 out.append((eid, f"time_band {e['time_band']!r}: one of {', '.join(BANDS)}"))
