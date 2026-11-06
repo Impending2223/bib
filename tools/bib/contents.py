@@ -61,7 +61,8 @@ STYLE (the owner's rules, Oct. 21, 2026):
     the reader, in its block). The tables and maps: a year's page lists its own only, the index every part's (the
     owner, Nov. 4, 2026: "Drop other-year tables from the year-calendar view"). Another part's year in the year column is
     a link to its page's top, muted; the page's own, in the text's color, unlinked. The threads line is the page's
-    own threads (the index's: its list of threads).
+    own threads (the index's: its list of threads). On the index a bill whose course runs into a second year is listed
+    once, under its first (the owner's ruling, Nov. 5, 2026); each year's page lists it as before.
 """
 import calendar
 import html
@@ -347,11 +348,15 @@ def fill(page, lst, half):
     index the whole calendar's (STYLE 6), each linked to its anchor on its page."""
     if SLOT not in page:
         return page
-    items = []
+    items, bills_seen = [], set()
     for h in sorted(FOUND):
         if half and h != half:                  # a year's page: its own tables and maps only (STYLE 6)
             continue
         for aid, lab, d in FOUND[h]:
+            if not half and aid.startswith("tb-bill-"):   # the index: a bill once, under its first year (the owner,
+                if aid in bills_seen:                     # Nov. 5, 2026; STYLE 6)
+                    continue
+                bills_seen.add(aid)
             items.append((calsplit.href(lst, h, aid), lab, d))
     return style(page.replace(SLOT, _list(items), 1))
 
