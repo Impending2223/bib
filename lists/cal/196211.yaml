@@ -1023,6 +1023,7 @@ entries:
   - id: cal.1962-11-07.elections-1962-2
     when: Nov. 7
     date: '1962-11-07'
+    time: 1962-11-07T05:45Z
     thread: elections-1962
     c: 'New York, the Roosevelt Hotel, 12:45 a.m. Rockefeller, from his own victory party, at the suite of Lomenzo, a Rochester judge beaten by Levitt for comptroller: his thanks; "after two weeks I want you to call me."'
     n: '[[w.smith-on-his-own-terms]], 385. Names: Rockefeller, Levitt.'
@@ -1094,7 +1095,7 @@ entries:
     thread: missile-crisis-settlement
     also: [robert-kennedy]
     c: 'At his home, Robert Kennedy to Bolshakov, by Dobrynin''s report, as his "personal opinion": the Il-28s to go "as soon as possible," no date named, or to be flown only by Soviet pilots. An hour later, after telling the President at the dinner for Gavin, he calls to take it back: "the rapid removal of the Il-28s from Cuba."'
-    n: '[[w.fursenko-one-hell-of-a]], 299–300; [[w.fursenko-khrushchevs-cold-war]], 499. To check: Dobrynin to the Foreign Ministry, Nov. 9, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 300 n.45, n.47); Robert Kennedy''s desk diary, 1962, JFK Library (cited by [[w.fursenko-one-hell-of-a]], 300 n.46, the dinner). See [[cal.1962-11-06.missile-crisis]]. Names: Robert Kennedy, Bolshakov, Dobrynin, Gavin.'
+    n: '[[w.fursenko-one-hell-of-a]], 299–300; [[w.fursenko-khrushchevs-cold-war]], 499. An hour before his call from the dinner for Gavin, in the evening: [[w.fursenko-one-hell-of-a]], 300. To check: Dobrynin to the Foreign Ministry, Nov. 9, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 300 n.45, n.47); Robert Kennedy''s desk diary, 1962, JFK Library (cited by [[w.fursenko-one-hell-of-a]], 300 n.46, the dinner). See [[cal.1962-11-06.missile-crisis]]. Names: Robert Kennedy, Bolshakov, Dobrynin, Gavin.'
     src:
       c: ef5d159e
       rows:
@@ -1105,11 +1106,10 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 499: all'
     tags: [name:kennedy-robert-f, name:bolshakov-georgi, name:dobrynin-anatoly, name:gavin-james-m]
     time_range:
-      - 1962-11-09T14:00Z
       - 1962-11-09T22:00Z
-    time_band: workday daytime
+      - 1962-11-10T03:00Z
     time_zone: America/New_York
-    range_basis: kind
+    range_basis: record
   - id: cal.1962-11-09.middle-east-yemen
     when: Nov. 9
     date: '1962-11-09'
@@ -1609,6 +1609,7 @@ entries:
   - id: cal.1962-11-16.economy
     when: Nov. 16
     date: '1962-11-16'
+    time: 1962-11-16T15:08Z
     thread: economy
     c: 'Meeting on the economy and the tax program for 1963, recorded: Kennedy with Dillon, Fowler, Bell, Wirtz, Heller, Gordon, Gudeman, Schultze, Samuelson, Solow, Tobin and Ackley. Bell: a case "of the kind that Mills is after" can be made "at the expense of deferring a number of things that really are needed."'
     n: '[Meeting on the Economy, 10:08 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-economy), Tape 58 (Miller Center). [[w.zelizer-taxing-america]], 196. See [[cal.1962-08-13.economy]]. Names: Kennedy, Dillon, Fowler, Bell, Wirtz, Heller, Gordon, Gudeman, Schultze, Samuelson, Tobin, Ackley, Mills.'
@@ -1619,12 +1620,6 @@ entries:
         - 'w.zelizer-taxing-america 196: all'
         - 'via w.zelizer-taxing-america 196 n.66: all'
     tags: [name:kennedy-john-f, name:dillon-c-douglas, name:fowler-henry-h, name:bell-david-e, name:wirtz-w-willard, name:heller-walter-w, name:gordon-kermit, name:gudeman-edward, name:schultze-charles-l, name:samuelson-paul-a, name:tobin-james, name:ackley-gardner, name:mills-wilbur-d]
-    time_range:
-      - 1962-11-16T14:00Z
-      - 1962-11-16T22:00Z
-    time_band: workday daytime
-    time_zone: America/New_York
-    range_basis: kind
   - id: cal.1962-11-16.soviet-union
     when: Nov. 16
     date: '1962-11-16'
@@ -1965,6 +1960,7 @@ entries:
   - id: cal.1962-11-20.missile-crisis
     when: Nov. 20
     date: '1962-11-20'
+    time: 1962-11-20T23:00Z
     thread: missile-crisis
     also: [press-and-broadcasting]
     follows:
@@ -1982,18 +1978,15 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 217: A'
     tags: [name:kennedy-john-f, name:collins-leroy]
     aliases: [cal.1962-11-20.press-and-broadcasting]
-    time_range:
-      - 1962-11-20T14:00Z
-      - 1962-11-20T22:00Z
-    time_band: workday daytime
-    time_zone: America/New_York
-    range_basis: kind
   - id: cal.1962-11-20.civil-rights-the-executive
     when: Nov. 20
     date: '1962-11-20'
+    time: 1962-11-20T23:00Z
     thread: civil-rights-the-executive
+    follows:
+      - cal.1962-11-20.missile-crisis
     c: 'Same press conference: the housing order. No discrimination in federally aided housing, prospectively.'
-    n: '[Exec. Order No. 11,063](https://www.presidency.ucsb.edu/documents/executive-order-11063-equal-opportunity-housing) (K–J Adm. II.H.2). [[w.sorensen-kennedy]], 482; [[w.mann-walls-of-jericho]], 334–36 (the delay and its reasons; the order''s reach); [[w.branch-parting-the-waters]], 679. To check: [[w.graham-civil-rights-era]]; [[w.brauer-john-f-kennedy-and]]; [[w.pritchett-robert-clifton-weaver-and]]. See [[cal.1961-03-06.civil-rights-the-executive]]. Names: Weaver.'
+    n: '[Exec. Order No. 11,063](https://www.presidency.ucsb.edu/documents/executive-order-11063-equal-opportunity-housing) (K–J Adm. II.H.2). [[w.sorensen-kennedy]], 482; [[w.mann-walls-of-jericho]], 334–36 (the delay and its reasons; the order''s reach); [[w.branch-parting-the-waters]], 679. At the news conference, 6 p.m.: [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962). To check: [[w.graham-civil-rights-era]]; [[w.brauer-john-f-kennedy-and]]; [[w.pritchett-robert-clifton-weaver-and]]. See [[cal.1961-03-06.civil-rights-the-executive]]. Names: Weaver.'
     src:
       c: 670b394e
       rows:
@@ -2002,15 +1995,11 @@ entries:
         - 'w.mann-walls-of-jericho 335: all'
         - 'w.branch-parting-the-waters 679: B'
     tags: [name:kennedy-john-f, name:weaver-robert-c]
-    time_range:
-      - 1962-11-20T14:00Z
-      - 1962-11-20T22:00Z
-    time_band: workday daytime
-    time_zone: America/New_York
-    range_basis: kind
   - id: cal.1962-11-20.missile-crisis-3
     when: Nov. 20
     date: '1962-11-20'
+    time: 1962-11-20T19:00Z
+    time_approx: true
     thread: missile-crisis-settlement
     also: [robert-kennedy]
     c: 'Four hours before the press conference, Robert Kennedy to Dobrynin: "according to our reports not all of the warheads had left Cuba." Dobrynin, on his instructions, denies it. The tactical warheads and the six bombs still in Cuba.'
@@ -2021,12 +2010,6 @@ entries:
         - 'w.fursenko-one-hell-of-a 311: all'
         - 'via w.fursenko-one-hell-of-a 311 n.93: A-B'
     tags: [name:kennedy-robert-f, name:dobrynin-anatoly]
-    time_range:
-      - 1962-11-20T14:00Z
-      - 1962-11-20T22:00Z
-    time_band: workday daytime
-    time_zone: America/New_York
-    range_basis: kind
   - id: cal.1962-11-20.mississippi-ole-miss
     when: Nov. 20
     date: '1962-11-20'

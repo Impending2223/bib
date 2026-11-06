@@ -23,8 +23,10 @@ entries:
     time: 1962-08-01T20:00Z
     thread: georgia-albany
     also: [economy]
+    follows:
+      - cal.1962-08-01.opinion
     c: 'Press conference. Albany''s refusal to negotiate "wholly inexplicable." Gallup''s 72 percent against a tax cut that adds to the debt: "we are going to wait until we get the July figures."'
-    n: 'News Conference, [1962 Pub. Papers 590](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=650) (Aug. 1, 1962). [[w.garrow-bearing-the-cross]], 212–13; [[w.branch-parting-the-waters]], 624. [[w.reeves-president-kennedy]], 331 (the tax cut). To check: New York Times, Aug. 2, 1962, 1; Atlanta Constitution, Aug. 2, 1962, 1; Albany Herald, Aug. 2, 1962, 1 (cited by [[w.garrow-bearing-the-cross]], 212 n.39). See [[cal.1961-11-17.albany]]. Names: Kennedy.'
+    n: 'News Conference, [1962 Pub. Papers 590](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=650) (Aug. 1, 1962). [[w.garrow-bearing-the-cross]], 212–13; [[w.branch-parting-the-waters]], 624. [[w.reeves-president-kennedy]], 331 (the tax cut). After the Gallup release whose figure it answers: [[w.gallup-poll]], III, 1777. To check: New York Times, Aug. 2, 1962, 1; Atlanta Constitution, Aug. 2, 1962, 1; Albany Herald, Aug. 2, 1962, 1 (cited by [[w.garrow-bearing-the-cross]], 212 n.39). See [[cal.1961-11-17.albany]]. Names: Kennedy.'
     src:
       c: 9e7189f4
       rows:
@@ -300,6 +302,7 @@ entries:
   - id: cal.1962-08-06.economy
     when: Aug. 6
     date: '1962-08-06'
+    time: 1962-08-06T22:00Z
     thread: economy
     c: 'Kennedy and Mills on a tax cut, recorded. Mills against a quick, temporary cut: business and labor each want a different one; "Even if we made up our minds that we wanted a tax cut, we can''t win." Reform of oil depletion: "never happen."'
     n: '[Meeting with Wilbur Mills on the Tax Cut Proposal, 6:00 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-wilbur-mills-tax-cut-proposal), Tape 7 (Miller Center). [[w.zelizer-taxing-america]], 191, 195. [[w.reeves-president-kennedy]], 333–34 (the recorded talk). See [[cal.1962-05-28.economy]]. Names: Kennedy, Mills.'
@@ -315,12 +318,6 @@ entries:
         - 'w.reeves-president-kennedy 333–34: A-C'
         - 'via w.reeves-president-kennedy 333 n.in-other-words-were-too-restrained: A-C'
     tags: [name:kennedy-john-f, name:mills-wilbur-d]
-    time_range:
-      - 1962-08-06T13:00Z
-      - 1962-08-06T21:00Z
-    time_band: workday daytime
-    time_zone: America/New_York
-    range_basis: kind
   - id: cal.1962-08-06.vietnam
     when: Aug. 6
     date: '1962-08-06'

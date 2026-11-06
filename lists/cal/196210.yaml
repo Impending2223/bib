@@ -39,6 +39,11 @@ entries:
         - 'w.taylor-swords-and-plowshares 252, 261: A-B'
     tags: [name:taylor-maxwell, name:lemnitzer-lyman-l]
     short: Taylor to the Joint Chiefs
+    time_range:
+      - 1962-10-01T15:00Z
+      - 1962-10-01T16:00Z
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1962-10-01.elections-1962
     when: Oct. 1
     date: '1962-10-01'
@@ -1777,8 +1782,10 @@ entries:
     date: '1962-10-20'
     thread: missile-crisis-excomm
     also: [press-and-broadcasting]
+    follows:
+      - cal.1962-10-20.missile-crisis
     c: Night. Reston of the *New York Times*, who has most of the facts, by telephone to Ball; Ball asks him to hold off, and to call Bundy. Kennedy telephones Dryfoos, the publisher, who agrees to make the story harmless.
-    n: '[[w.ball-past-has-another-pattern]], 296–97. See [[cal.1962-10-14.missile-crisis]]. Names: Reston, Ball, McGeorge Bundy, Kennedy.'
+    n: '[[w.ball-past-has-another-pattern]], 296–97. After the afternoon''s meeting that chose the quarantine: [[w.ball-past-has-another-pattern]], 294–97. See [[cal.1962-10-14.missile-crisis]]. Names: Reston, Ball, McGeorge Bundy, Kennedy.'
     src:
       c: f0e73cbc
       rows:
@@ -1863,6 +1870,8 @@ entries:
     date: '1962-10-20'
     thread: missile-crisis-excomm
     also: [missile-crisis-diplomacy]
+    follows:
+      - cal.1962-10-20.missile-crisis
     c: 'Saturday night, after the ExComm: the President tells Robert Kennedy and Sorensen to look into a deal with the Kremlin. Sorensen drafts, then drops, a paragraph on a negotiated trade for the address: "It just wouldn''t write."'
     n: '[[w.thomas-robert-kennedy]], 221. Check: the day of the draft. To check: Sorensen''s draft, Sorensen Papers, box 49, JFK Library (cited by [[w.thomas-robert-kennedy]], 435). See [[cal.1962-10-20.missile-crisis-2]]. Names: Kennedy, Robert Kennedy, Sorensen.'
     src:
@@ -2317,12 +2326,17 @@ entries:
     thread: intelligence
     also: [missile-crisis, soviet-union]
     c: Moscow, just before the Presidium meets. The KGB arrests Penkovsky of the GRU, the CIA's and MI6's agent.
-    n: '[[w.fursenko-khrushchevs-cold-war]], 476 (the next day he signs a letter promising full cooperation, and offers to work against the Western services). To check: interrogations of Oleg Penkovsky, Central Archive, FSB (cited by [[w.fursenko-khrushchevs-cold-war]], 476 n.43). See [[cal.1961-06-25.intelligence]].'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 476 (the next day he signs a letter promising full cooperation, and offers to work against the Western services). Before the Presidium, which met at 10 p.m. Moscow time: [[w.fursenko-khrushchevs-cold-war]], 467. To check: interrogations of Oleg Penkovsky, Central Archive, FSB (cited by [[w.fursenko-khrushchevs-cold-war]], 476 n.43). See [[cal.1961-06-25.intelligence]].'
     src:
       c: 392d0579
       rows:
         - 'w.fursenko-khrushchevs-cold-war 476: all'
         - 'via x.2006.kcw-p476-penkovsky: all'
+    time_range:
+      - 1962-10-21T21:00Z
+      - 1962-10-22T19:00Z
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1962-10-22.missile-crisis-12
     when: Oct. 22–23
     date: '1962-10-22'
@@ -2514,8 +2528,12 @@ entries:
   - id: cal.1962-10-22.missile-crisis-24
     when: Oct. 22
     date: '1962-10-22'
+    time: 1962-10-22T23:00Z
+    time_approx: true
     thread: missile-crisis-quarantine
     also: [defense]
+    follows:
+      - cal.1962-10-22.missile-crisis
     c: As the President begins speaking, Strategic Air Command and North American Air Defense units on maximum ground and air alert.
     n: '[[w.sorensen-kennedy]], 704; [[w.taylor-swords-and-plowshares]], 273 (Power puts an eighth of SAC''s bombers in the air and keeps them there; Polaris submarines on alert). Check: the order and its hour (the Joint Chiefs'' records). See [[cal.1962-10-22.missile-crisis]].'
     src:
@@ -3019,7 +3037,7 @@ entries:
     date: '1962-10-24'
     thread: missile-crisis
     c: 'Soviet ships stop or turn back. Rusk: "the other fellow just blinked."'
-    n: '[FRUS 1961–63, XI, doc. 55](https://history.state.gov/historicaldocuments/frus1961-63v11/d55). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 210–11, 213 (the ships turned back, by Oct. 25); [[w.poole-joint-chiefs-of-staff]], 177; [[w.schlesinger-robert-kennedy-and-his]], 514–15 (the ships stopped, at the morning''s ExComm); [[w.rusk-as-i-saw-it-1990]], 237; [[w.sorensen-kennedy]], 709–10 (the ships); [[w.fursenko-khrushchevs-cold-war]], 481–82 (McCone: "they either stopped them or reversed direction"; Rusk to Bundy); [[w.thomas-robert-kennedy]], 224–25 (10 a.m.; the submarine; Robert Kennedy on his brother''s face; McCone: the ships stopped; Rusk''s "eyeball to eyeball"); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 210 (the OAS, 19 to 0, Oct. 24). [[w.reeves-president-kennedy]], 400–401. [[w.ball-past-has-another-pattern]], 300 (a dozen of the twenty-five ships, word reaching the Cabinet Room). To check: [[w.dobbs-one-minute-to-midnight]]. See [[cal.1962-10-16.missile-crisis]]. Names: Rusk. Check: Rusk puts the ships'' stopping on the Thursday (237).'
+    n: '[FRUS 1961–63, XI, doc. 55](https://history.state.gov/historicaldocuments/frus1961-63v11/d55). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 210–11, 213 (the ships turned back, by Oct. 25); [[w.poole-joint-chiefs-of-staff]], 177; [[w.schlesinger-robert-kennedy-and-his]], 514–15 (the ships stopped, at the morning''s ExComm); [[w.rusk-as-i-saw-it-1990]], 237; [[w.sorensen-kennedy]], 709–10 (the ships); [[w.fursenko-khrushchevs-cold-war]], 481–82 (McCone: "they either stopped them or reversed direction"; Rusk to Bundy); [[w.thomas-robert-kennedy]], 224–25 (10 a.m.; the submarine; Robert Kennedy on his brother''s face; McCone: the ships stopped; Rusk''s "eyeball to eyeball"); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 210 (the OAS, 19 to 0, Oct. 24). [[w.reeves-president-kennedy]], 400–401. [[w.ball-past-has-another-pattern]], 300 (a dozen of the twenty-five ships, word reaching the Cabinet Room). Word reached the ExComm at its 10 a.m. meeting: [[w.thomas-robert-kennedy]], 224–25. To check: [[w.dobbs-one-minute-to-midnight]]. See [[cal.1962-10-16.missile-crisis]]. Names: Rusk. Check: Rusk puts the ships'' stopping on the Thursday (237).'
     src:
       c: 65977b68
       rows:
@@ -3038,6 +3056,11 @@ entries:
         - 'w.thomas-robert-kennedy 224–25: A-B'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 210: A'
     tags: [name:rusk-dean]
+    time_range:
+      - 1962-10-24T14:00Z
+      - 1962-10-24T16:00Z
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1962-10-24.missile-crisis-2
     when: Oct. 24
     date: '1962-10-24'
@@ -3785,6 +3808,8 @@ entries:
   - id: cal.1962-10-27.missile-crisis-2
     when: Oct. 27
     date: '1962-10-27'
+    time: 1962-10-27T14:00Z
+    time_approx: true
     thread: missile-crisis
     c: 'Khrushchev''s second letter, broadcast over Moscow radio: the means the United States calls offensive out of Cuba, the American means out of Turkey; the Security Council to inspect.'
     n: 'FRUS 1961–63, VI, doc. [66](https://history.state.gov/historicaldocuments/frus1961-63v06/d66). [[w.ball-past-has-another-pattern]], 305; [[w.fursenko-one-hell-of-a]], 274–76, 278 (dictated before the Presidium; broadcast to save time); [[w.fursenko-khrushchevs-cold-war]], 488 (the Presidium; broadcast by Radio Moscow); [[w.sorensen-kennedy]], 712; [[w.sorensen-kennedy]], 712 (the Jupiters in Turkey in exchange); [[w.prezidium-tsk-kpss-1954]], I, 623 (Protocol 62: the letter dictated, approved, to be broadcast at 5 p.m.). See [[cal.1962-10-16.missile-crisis]]. Names: Khrushchev.'
@@ -4120,8 +4145,10 @@ entries:
     when: Oct. 28
     date: '1962-10-28'
     thread: missile-crisis
+    follows:
+      - cal.1962-10-28.soviet-union
     c: 'Radio Moscow: the missiles to be dismantled and returned. Castro refuses inspection.'
-    n: '[FRUS 1961–63, XI, doc. 102](https://history.state.gov/historicaldocuments/frus1961-63v11/d102). Statement by the President Following the Soviet Decision To Withdraw Missiles From Cuba, [1962 Pub. Papers 815](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=875) (Oct. 28, 1962). [[w.reeves-president-kennedy]], 423–24 (the broadcast); [[w.fursenko-one-hell-of-a]], 284–87 (the Presidium at Novo-Ogarevo; Dobrynin''s report read to it; the letter dictated there); [[w.rusk-as-i-saw-it-1990]], 241; [[w.sorensen-kennedy]], 716–17 (the broadcast); [[w.fursenko-khrushchevs-cold-war]], 490, 494 (the broadcast; Castro''s five points: the sanctions, subversion, "piratical attacks," the overflights, Guantánamo; no UN inspectors); [[w.thomas-robert-kennedy]], 230 (Rusk calls Robert Kennedy at the horse show before 10 a.m.; Khrushchev''s retreat broadcast); [[w.sorensen-kennedy]], 720 (Castro, "whoever tries to inspect Cuba must come in battle array," insists on five conditions). [[w.ball-past-has-another-pattern]], 307 (the broadcast). See [[cal.1962-10-16.missile-crisis]]. Names: Khrushchev, Castro.'
+    n: '[FRUS 1961–63, XI, doc. 102](https://history.state.gov/historicaldocuments/frus1961-63v11/d102). Statement by the President Following the Soviet Decision To Withdraw Missiles From Cuba, [1962 Pub. Papers 815](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=875) (Oct. 28, 1962). [[w.reeves-president-kennedy]], 423–24 (the broadcast); [[w.fursenko-one-hell-of-a]], 284–87 (the Presidium at Novo-Ogarevo; Dobrynin''s report read to it; the letter dictated there); [[w.rusk-as-i-saw-it-1990]], 241; [[w.sorensen-kennedy]], 716–17 (the broadcast); [[w.fursenko-khrushchevs-cold-war]], 490, 494 (the broadcast; Castro''s five points: the sanctions, subversion, "piratical attacks," the overflights, Guantánamo; no UN inspectors); [[w.thomas-robert-kennedy]], 230 (Rusk calls Robert Kennedy at the horse show before 10 a.m.; Khrushchev''s retreat broadcast); [[w.sorensen-kennedy]], 720 (Castro, "whoever tries to inspect Cuba must come in battle array," insists on five conditions). [[w.ball-past-has-another-pattern]], 307 (the broadcast). After the Presidium of about noon at the dacha; before 10 a.m. in Washington, when Rusk calls Robert Kennedy: [[w.thomas-robert-kennedy]], 230. See [[cal.1962-10-16.missile-crisis]]. Names: Khrushchev, Castro.'
     src:
       c: affedac6
       rows:
@@ -4138,6 +4165,11 @@ entries:
         - 'w.thomas-robert-kennedy 230: A'
         - 'w.sorensen-kennedy 720: B'
     tags: [name:castro-fidel, name:khrushchev-nikita-s]
+    time_range:
+      - 1962-10-28T09:00Z
+      - 1962-10-28T15:00Z
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1962-10-28.missile-crisis-2
     when: Oct. 28
     date: '1962-10-28'

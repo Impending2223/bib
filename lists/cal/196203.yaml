@@ -113,6 +113,7 @@ entries:
   - id: cal.1962-03-02.testing
     when: Mar. 2
     date: '1962-03-02'
+    time: 1962-03-03T00:00Z
     thread: testing
     follows:
       - cal.1962-03-02.robert-kennedy
@@ -550,6 +551,7 @@ entries:
   - id: cal.1962-03-07.soviet-union-3
     when: Mar. 7
     date: '1962-03-07'
+    time: 1962-03-07T20:30Z
     thread: soviet-union
     c: 'News conference. Asked whether he will eat his words and go to a summit without agreement at a lower level: "I''m going to have a dinner for all of the people who''ve written it, and we''ll see who eats what."'
     n: 'The President''s News Conference, [1962 Pub. Papers 196](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=256) (Mar. 7, 1962), at 198. [[w.sorensen-kennedy]], 551–52. Names: Kennedy.'
@@ -559,12 +561,6 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=256: all'
         - 'w.sorensen-kennedy 551–52: all'
     tags: [name:kennedy-john-f]
-    time_range:
-      - 1962-03-07T14:00Z
-      - 1962-03-07T22:00Z
-    time_band: workday daytime
-    time_zone: America/New_York
-    range_basis: kind
   - id: cal.1962-03-08.soviet-union
     when: Mar. 8
     date: '1962-03-08'

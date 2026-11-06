@@ -194,8 +194,10 @@ entries:
     date: '1962-06-04'
     thread: georgia
     also: [republican-party, governors]
+    follows:
+      - cal.1962-06-04.republican-party
     c: Atlanta. Rockefeller at a Republican dinner for Edward Smith, the party's candidate for governor of Georgia, urging him on for a two-party Georgia. Smith killed in a car crash on the way home.
-    n: '[[w.branch-parting-the-waters]], 591. To check: Atlanta Daily World, June 6, 1962, 1 (cited by [[w.branch-parting-the-waters]], 591 n.3). Check: the day of the crash. See [[cal.1962-06-04.republican-party]]. Names: Rockefeller.'
+    n: '[[w.branch-parting-the-waters]], 591. After the commencement and its luncheon: [[w.branch-parting-the-waters]], 591. To check: Atlanta Daily World, June 6, 1962, 1 (cited by [[w.branch-parting-the-waters]], 591 n.3). Check: the day of the crash. See [[cal.1962-06-04.republican-party]]. Names: Rockefeller.'
     src:
       c: af62ed9e
       rows:
@@ -1417,6 +1419,7 @@ entries:
   - id: cal.1962-06-27.court
     when: June 27
     date: '1962-06-27'
+    time: 1962-06-27T20:00Z
     thread: court
     also: [elections-1962, china]
     c: 'News conference. The school prayer decision: "we support the Supreme Court decisions even when we may not agree with them"; "a very easy remedy and that is to pray ourselves." Too many Kennedys? The people of Massachusetts to judge "as to whether there are too many Kennedys." The opening statement on the Formosa Strait: very large movements of Chinese Communist forces into the area; the policy since 1955 unchanged, the United States speaking with one voice; "the purposes of the United States in this area are peaceful and defensive."'
@@ -1430,12 +1433,6 @@ entries:
         - 'w.sorensen-kennedy 661–62: F-H'
     tags: [name:kennedy-edward-m, name:kennedy-john-f]
     aliases: [cal.1962-06-27.china]
-    time_range:
-      - 1962-06-27T13:00Z
-      - 1962-06-27T21:00Z
-    time_band: workday daytime
-    time_zone: America/New_York
-    range_basis: kind
   - id: cal.1962-06-27.congress
     when: June 27
     date: '1962-06-27'
