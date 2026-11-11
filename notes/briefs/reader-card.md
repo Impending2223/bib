@@ -29,6 +29,6 @@ Judge by who, arranged by whom, before whom, and about what. Never by the name o
 
 ## Mechanics
 
-Your patch in `inbox/<date>-<batch>-<short>.yaml`; witnesses in `inbox/witnesses/` under the same name (write to a scratch copy, move it in when it checks: a broken file in `inbox/` stops everyone's merges). `./bib patch-check` once at the end of each file, not after every op. Never run `./bib merge`, not even in a copy. Never commit. Keep your scripts and copies in your own scratch directory; delete the copies when done. Stop at a clean point at the time your brief gives.
+Work outside the repository until you are done: write your patch, your witnesses and any by-work edges in your own scratch directory, and move the patch into `inbox/<date>-<batch>-<short>.yaml` and the witnesses into `inbox/witnesses/` under the same name only at the end, once they check (a half-written file in the tree stops everyone's merges and keeps the tree from being committed). Claim new ids in the ledger as you go (`./bib ledger add`). `./bib patch-check` once at the end of each file, not after every op. Never run `./bib merge`, not even in a copy. Never commit. Keep your scripts and copies in your own scratch directory; delete the copies when done. Stop at a clean point at the time your brief gives.
 
 Last message: per work, the patch and its size; each row's ruling in a table (row, ruling, entry or ground); the rows you could not settle and why; any rule you had to look up.
