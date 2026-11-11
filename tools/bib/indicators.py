@@ -17,9 +17,9 @@ build/indicators.html, which also holds every series' full table.
 STYLE (settled; keep it, and fix anything that drifts from it):
  1. Columns: Indicator | As first reported | Released | Revised, today (the Released cell in its figure's tint:
     tools/bib/indchart.py, STYLE 1). Gallup's approval (kind: poll) in a table
-    of its own under it (and under Money and credit, 13), set off by a double gray rule, centered, three-quarters of the table's width (the last row above a rule has none)
+    of its own under it (and under Money and credit, Exchange rates and gold and Oil: 19), set off by a double gray rule, centered, three-quarters of the table's width (the last row above a rule has none)
     and its own caption ("Presidential approval, Gallup"; the first table's
-    "Economic indicators"; the set's caption centered, the owner, Nov. 4, 2026; its divisions' headings, Oil, Exchange rates and gold, Money and credit, Presidential approval, left-aligned, Nov. 5, 2026: .ind-div), on the same plan: Reading (with the field dates) | As published | Released | Today. "Released" is the date the
+    "Economic indicators"; the set's caption centered, the owner, Nov. 4, 2026; its divisions' headings, Money and credit, Exchange rates and gold, Oil, Presidential approval, left-aligned, Nov. 5, 2026: .ind-div), on the same plan: Reading (with the field dates) | As published | Released | Today. "Released" is the date the
     first-reported figure was published (or the Economic Report transmitted); its source shows on
     hover.
  2. Periods: "Mar. 1961", "Q1 1961", "FY1962" (July 1961-June 1962), "1961".
@@ -60,8 +60,8 @@ STYLE (settled; keep it, and fix anything that drifts from it):
     pointers, in the brief's register: compact, plain, no judgment of the figures. Written once, in the master, each
     piece tagged with the periods it concerns; the calendar's servants and the Indicators page are made from it
     (tools/bib/concepts.py, its STYLE). Never write a definition into a module or a page.
-13. Money and credit: a table of its own, between the indicators and the approval table, set off by the same
-    rule, with its own caption and two columns, Rate | Percent: rates are not revised, so each has one figure.
+13. Money and credit: a division of its own, right after the indicators table (19), set off by the same rule, with its
+    own caption; the rates first, in two columns, Rate | Percent: rates are not revised, so each has one figure.
     Interest rates in percent to two decimals, as the Bulletin and H.15 print them, "3.85%"; changes in
     points, "+0.33 pt". Market rates as FRED gives them (the source on hover). The discount rate is set, not
     measured: the rate in effect at the month's end; in a month it changed, the change and, in grey, the
@@ -70,26 +70,38 @@ STYLE (settled; keep it, and fix anything that drifts from it):
     only in a month it changed.
 14. A release known only by its issue (the Treasury Bulletin, monthly) has its month for a date ("released:
     1962-02"), shown "Feb. 1962".
-15. Oil (oil-*): a table of its own under the indicators, before Money and credit, without vacant columns; its cells
-    in millions of barrels a day, with changes; STYLE in tools/bib/oil.py.
+15. Oil (oil-*): a table of its own, after Exchange rates and gold and before the approval table (19), without vacant
+    columns; its cells in millions of barrels a day, with changes; STYLE in tools/bib/oil.py.
 16. Southeast Asia (war-*, kind: war): not in the month's tables. A table of its own, "Southeast Asia, Jan. 1966", under
     the first Monday of the month its figures refer to, in the day layout, its caption and background these tables'
     (the owner's requests, Oct. 22 and Nov. 4, 2026; tools/bib/wartable.py, its STYLE); its cells in tools/bib/war.py.
 17. Money, the foreign accounts and the debt's terms (tools/bib/finance.py, its STYLE; written by
-    tools/indicators/make_finance.py): the money stock and free reserves in a group "Money and credit" of the indicators
-    table, the yields and mortgage rates in the Money and credit table (13); reserve assets and the trade balances under
-    International; the debt's holders and length under "Federal debt" (the public debt and its ratios with them), $bn in
-    its header as Federal finance; the exchange rates (and the gold price, when read) in a table of their own (one figure).
+    tools/indicators/make_finance.py): the yields and mortgage rates with the rates of Money and credit (13), the money
+    stock and free reserves in its second block, "Money stock and reserves", after the real rates (19); reserve assets
+    and the trade balances under International; the debt's holders and length under "Federal debt" (the public debt and
+    its ratios with them), $bn in its header as Federal finance; the exchange rates (and the gold price, when read) in a
+    table of their own (one figure), "Exchange rates and gold", after Money and credit (19).
 18. The chevrons (the owner's requests and corrections, Nov. 4, 2026): the tables that recur, each a whole, its title
     between "〈〈 " and " 〉〉", links to the same kind's before and after in the calendar, on whatever page (a bare "#"
     link, routed by calsplit.route), in the thread line's style (build.thread_nav: .tnb, muted, not underlined), the
     target's date on hover, the year added where it differs; none at the first or the last. They are: the month's set
-    (one pair, on its first caption, Economic indicators: tbl-ind-<section>; Oil, Exchange rates and gold, Money and
-    credit and Presidential approval are its divisions, under ruled lines, and take none), the Southeast Asia table
+    (one pair, on its first caption, Economic indicators: tbl-ind-<section>; Money and credit, Exchange rates and gold,
+    Oil and Presidential approval are its divisions, in that order (19), under ruled lines, and take none), the Southeast Asia table
     (tools/bib/wartable.py, STYLE 2), the budget (tools/bib/budgets.py, STYLE 7) and Armed Forces Day
     (tools/bib/afday.py, STYLE 5); not the one-off blocks (an election, a bill's course). A column headed "As first
     reported" only where another column holds a later figure: where none does (the exchange rates; Oil's one-figure
     rows, all first reported; a master table), the figure's column goes unheaded, or "Figure".
+19. The month's set, in order (the owner's ruling, Nov. 10, 2026: "The real rates and yield spread block should follow
+    the nominal rates block in the 'money and credit' subdivision of the economic indicators table. The 'money and
+    credit' subdivision should come immediately after the headline prices, employment, and output indicator
+    subdivision. Then 'Exchange rates and gold'. Then 'oil'."): the indicators table (Prices, Employment, Output,
+    Federal finance, Federal debt, International); Money and credit, in two blocks: the nominal rates (13), then, in
+    the indicators' four columns, as each has a figure then and today, "Real rates" (the real rates, the Taylor and r*
+    gaps and the yield spread: tools/indicators/make_derived.py) and "Money stock and reserves" (the money stock and
+    free reserves: tools/bib/finance.py, STYLE 1), each under its group's line (MC_BLOCK); Exchange rates and gold
+    (17); Oil (15); Presidential approval (1). ORDER and GROUP follow it, so the servants of the concepts
+    (tools/bib/concepts.py) and the master page take their groups in the same order; the tints and charts
+    (tools/bib/indchart.py) go with the rows wherever they stand.
 """
 import calendar
 import datetime
@@ -110,14 +122,16 @@ ORDER = ["cpi", "wpi", "deflator", "unemployment", "payrolls", "industrial-produ
          "gap-cea", "gap-cbo", "administrative-budget", "cash-budget", "unified-budget", "federal-national-accounts",
          "federal-primary-balance", "interest-gnp", "public-debt", "debt-gnp", "debt-gdp-omb",
          "balance-of-payments", "balance-of-payments-regular", "balance-of-payments-liquidity",
-         "balance-of-payments-official", "gold-stock", "oil-production", "oil-supplied", "oil-trade", "oil-trade-year",
-         "oil-reserves",
+         "balance-of-payments-official", "gold-stock",
+         # the month's divisions in the owner's order (Nov. 10, 2026; STYLE 19): Money and credit (the nominal rates,
+         # then the real rates, then the money stock and reserves: _place below), Exchange rates and gold, Oil
+         "discount-rate", "federal-funds", "prime-rate", "treasury-bill", "treasury-10-year",
+         "oil-production", "oil-supplied", "oil-trade", "oil-trade-year", "oil-reserves",
          # Southeast Asia, forces above casualties (tools/bib/wartable.py, STYLE 5)
          "war-strength", "war-enemy-ob", "war-enemy-ob-old", "war-enemy-snie", "war-enemy-strength-q", "war-infiltration",
          "war-rvnaf-strength", "war-fwmaf-strength", "war-air-attack", "war-air-nvn-rp",
          "war-deaths", "war-enemy-kia", "war-rvnaf-kia",
-         "discount-rate", "federal-funds",
-         "prime-rate", "treasury-bill", "treasury-10-year", "approval"]
+         "approval"]
 DERIVED = ["real-bill-cpi", "real-10-cpi", "real-bill", "real-10", "taylor-gap", "rstar-gap", "spread"]
 # real rates (tools/indicators/make_derived.py): computed from the series above; percent or points
 GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
@@ -147,14 +161,17 @@ def _place(after, ids):
 # Money, the foreign accounts, the debt's terms, unit labor costs (tools/bib/finance.py; tools/indicators/make_finance.py)
 _place("payrolls", finance.COSTS)
 _place("debt-gdp-omb", finance.DEBT)
-_place("gold-stock", finance.INTL + finance.FX + finance.MONEY)
-_place("treasury-10-year", finance.RATES)
+_place("gold-stock", finance.INTL)
+_place("treasury-10-year", finance.RATES + tuple(DERIVED) + finance.MONEY + finance.FX)
 GROUP.update({x: "Employment" for x in finance.COSTS})
 GROUP.update({x: "Federal debt" for x in ("interest-gnp", "public-debt", "debt-gnp", "debt-gdp-omb") + finance.DEBT})
-GROUP.update({x: "International" for x in finance.INTL + finance.FX})
-GROUP.update({x: "Money and credit" for x in finance.MONEY + finance.RATES})
-_place(finance.MONEY[-1], DERIVED)
+GROUP.update({x: "International" for x in finance.INTL})
+GROUP.update({x: "Exchange rates and gold" for x in finance.FX})
+GROUP.update({x: "Money and credit" for x in finance.RATES})
 GROUP.update({x: "Real rates" for x in DERIVED})
+GROUP.update({x: "Money stock and reserves" for x in finance.MONEY})
+# Money and credit's second block (STYLE 19): the series with a figure then and today, in the indicators' columns
+MC_BLOCK = set(DERIVED) | set(finance.MONEY)
 FIELD_LABEL = {"receipts": "Receipts", "expenditures": "Expenditures", "payments": "Payments", "outlays": "Outlays",
                "balance": "Balance", "interest": "Net interest", "primary": "Primary"}
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
@@ -506,21 +523,40 @@ def cells(sid, s, r, year):
 
 
 # The standard tables (STYLE 18): the month's tables, each kind with its caption, in the order block sets them.
-TABLES = {"econ": "Economic indicators", "oil": "Oil", "fx": "Exchange rates and gold", "rates": "Money and credit",
+TABLES = {"econ": "Economic indicators", "rates": "Money and credit", "fx": "Exchange rates and gold", "oil": "Oil",
           "approval": "Presidential approval, Gallup"}
 
 
 def table_of(sid, s):
-    """The month table a series' rows go in (a key of TABLES)."""
+    """The month table (division) a series' rows go in (a key of TABLES): Money and credit holds the rates (kind:
+    rate) and, after them, the real rates and the money stock and reserves (MC_BLOCK; STYLE 19)."""
     if sid in oil.SERIES:
         return "oil"
     if sid in finance.FX:
         return "fx"
     if s.get("kind") == "poll":
         return "approval"
-    if s.get("kind") == "rate":
+    if s.get("kind") == "rate" or sid in MC_BLOCK:
         return "rates"
     return "econ"
+
+
+def econ_row(sid, s, r, year, href):
+    """A row in the indicators' four columns, tinted, its chart's button (tools/bib/indchart.py): the indicators table's,
+    and Money and credit's second block (STYLE 19)."""
+    name = name_cell(sid, s, r, href)
+    first, rel, nowv = cells(sid, s, r, year)
+    btn = indchart.button(sid) if indchart.chartable(sid, s) else ""
+    ta, tb = indchart.tint(sid, s, r, "first"), indchart.tint(sid, s, r, "now")
+    rel_t = ta if rel != "—" else ("", "")          # Released shares its figure's tint (indchart STYLE 1)
+    return (f'<tr><td class="{indchart.CELL if btn else "iname"}">{btn}{name}</td><td{_tattr(ta)}>{first}</td>'
+            f'<td{_tattr(rel_t, "rel")}>{rel}</td><td{_tattr(tb)}>{nowv}</td></tr>')
+
+
+def group_row(g):
+    """A group's line across the four columns, "$bn" after the dollar groups (STYLE 10)."""
+    unit_note = " $bn" if g in ("Federal finance", "Federal debt", "International") else ""
+    return f'<tr class="g"><th colspan="4">{esc(g)}{grey(unit_note)}</th></tr>'
 
 
 def anchor(sec_id):
@@ -561,7 +597,7 @@ def block(data, sec_from, sec_to, prev_to, year, next_from=None, href=None, sec_
 
     def aid(kind):
         return f' id="{anchor(sec_id)}"' if sec_id and capped == [kind] else ""
-    trs, shown, polls, rates, oils, fxs = [], set(), [], [], [], []
+    trs, shown, polls, rates, mcs, oils, fxs = [], set(), [], [], [], [], []
     for sid, s, r in rows:
         kind = table_of(sid, s)
         if kind == "oil":                # Oil apart, in a table of its own (STYLE 15; tools/bib/oil.py)
@@ -570,44 +606,42 @@ def block(data, sec_from, sec_to, prev_to, year, next_from=None, href=None, sec_
         if kind == "fx":                 # exchange rates and gold apart, one figure (STYLE 17; tools/bib/finance.py)
             fxs.append((sid, s, r))
             continue
-        g = GROUP.get(sid)
-        if s.get("kind") in ("poll", "rate"):
-            g = None
-        if g and g not in shown:
-            shown.add(g)
-            unit_note = " $bn" if g in ("Federal finance", "Federal debt", "International") else ""
-            trs.append(f'<tr class="g"><th colspan="4">{esc(g)}{grey(unit_note)}</th></tr>')
         if kind == "approval":
             pname, per, first, rel, now = poll_row(sid, s, r, year)
             polls.append(f'<tr><td class="iname"><a href="{esc(href(sid))}">{esc(pname)}</a> '
                          f'<span class="per">{esc(per)}</span></td><td>{first}</td><td class="rel">{rel}</td><td>{now}</td></tr>')
             continue
-        if kind == "rates":
+        if kind == "rates" and s.get("kind") == "rate":
             rates.append(rate_row(sid, s, r, year, href, chart=True))
             continue
-        name = name_cell(sid, s, r, href)
-        first, rel, nowv = cells(sid, s, r, year)
-        btn = indchart.button(sid) if indchart.chartable(sid, s) else ""
-        ta, tb = indchart.tint(sid, s, r, "first"), indchart.tint(sid, s, r, "now")
-        rel_t = ta if rel != "—" else ("", "")          # Released shares its figure's tint (indchart STYLE 1)
-        trs.append(f'<tr><td class="{indchart.CELL if btn else "iname"}">{btn}{name}</td><td{_tattr(ta)}>{first}</td><td{_tattr(rel_t, "rel")}>{rel}</td>'
-                   f'<td{_tattr(tb)}>{nowv}</td></tr>')
+        out_ = mcs if kind == "rates" else trs           # Money and credit's second block (STYLE 19), or the table
+        g = GROUP.get(sid)
+        if g and g not in shown:
+            shown.add(g)
+            out_.append(group_row(g))
+        out_.append(econ_row(sid, s, r, year, href))
     out = ""
     if trs:
         c = cap("econ")
         out += (f'<div class="ind"{aid("econ")}>{c}<table><thead><tr><th>Indicator</th><th>As first reported</th>'
                 '<th>Released</th><th>Revised, today</th></tr></thead><tbody>'
                 + "".join(trs) + "</tbody></table>" + indchart.KEY + "</div>")
-    if oils:                             # Oil apart: no vacant columns (STYLE 15; tools/bib/oil.py)
-        c = cap("oil")
-        out += oil.table(oils, year, lambda sid, s, r: name_cell(sid, s, r, href), cells, aid("oil"), c)
+    if rates or mcs:                     # Money and credit: the rates, one figure (STYLE 13), then the real rates and
+        c = cap("rates")                 # the money stock and reserves in the indicators' columns (STYLE 19)
+        out += f'<div class="ind ind-sep ind-rt"{aid("rates")}>{c}'
+        if rates:
+            out += ('<table><thead><tr><th>Rate</th><th>Percent</th></tr></thead><tbody>' + "".join(rates)
+                    + "</tbody></table>")
+        if mcs:
+            out += ('<table class="ind-mc"><thead><tr><th>Indicator</th><th>As first reported</th><th>Released</th>'
+                    '<th>Revised, today</th></tr></thead><tbody>' + "".join(mcs) + "</tbody></table>")
+        out += "</div>"
     if fxs:                              # exchange rates and gold: not revised, one figure (STYLE 17)
         c = cap("fx")
         out += finance.fx_table(fxs, year, lambda sid, s, r: name_cell(sid, s, r, href), cells, aid("fx"), c)
-    if rates:                            # rates apart: not revised, so one figure (STYLE 13)
-        c = cap("rates")
-        out += (f'<div class="ind ind-sep ind-rt"{aid("rates")}>{c}<table><thead><tr><th>Rate</th>'
-                '<th>Percent</th></tr></thead><tbody>' + "".join(rates) + "</tbody></table></div>")
+    if oils:                             # Oil apart: no vacant columns (STYLE 15; tools/bib/oil.py)
+        c = cap("oil")
+        out += oil.table(oils, year, lambda sid, s, r: name_cell(sid, s, r, href), cells, aid("oil"), c)
     if polls:                            # opinion apart: a reading has its field dates and no revision
         c = cap("approval")
         out += (f'<div class="ind ind-sep ind-op"{aid("approval")}>{c}<table><thead><tr><th>Reading</th><th>As published</th>'
@@ -649,6 +683,7 @@ div.ind:has(+ div.ind) tbody tr:last-child td{border-bottom:0}
 div.ind.ind-sep{margin-top:1.1rem}
 div.ind.ind-sep::before{content:"";display:block;width:75%;margin:0 auto .7rem;border-top:3px double var(--muted)}
 div.ind.ind-rt td.iname{width:42%}
+div.ind.ind-rt table + table{margin-top:.6rem}
 div.ind.ind-op td.rel,div.ind.ind-op .per{white-space:nowrap}
 div.ind-defs{font-family:var(--sans);font-size:.85rem;line-height:1.45;margin:1rem 0 1.5rem}
 div.ind-defs dt{font-weight:600;margin-top:.6rem}

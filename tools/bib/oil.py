@@ -24,7 +24,8 @@ STYLE (settled; keep it):
  4. A corrected misprint or a change of what a row counts shows in grey after the figure, as printed (NOTE in the
     script): Survey figures stand as first printed.
  5. The Oil table (the owner's ruling, Oct. 21, 2026: no vacant columns): a table of its own under the month's
-    indicators, before Money and credit, set off by the same double rule, caption "Oil". The rows with both figures in
+    indicators, after Money and credit and Exchange rates and gold (indicators STYLE 19), set off by the same double
+    rule, caption "Oil". The rows with both figures in
     Indicator | As first reported | Released | Revised, today; under it, the rows with one figure (trade by month and
     products supplied before 1963, first reported only; trade by year, today only) in Indicator | Figure | Reported,
     "As first reported, <issue>" or "Revised, today", the source on hover; where all are first reported, Indicator |

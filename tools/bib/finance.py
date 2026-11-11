@@ -7,13 +7,14 @@ the table of exchange rates and gold, and their checks.
     tools/bib/concepts.py).
 
 STYLE (settled; keep it, and the indicators' STYLE in tools/bib/indicators.py):
- 1. Money and credit, in the indicators table (the money stock, free reserves): "$153.3bn, +0.4%" (the money stock, the
+ 1. Money stock and reserves, the second block of Money and credit after the real rates, in the indicators' four
+    columns (indicators STYLE 19; the money stock, free reserves): "$153.3bn, +0.4%" (the money stock, the
     change from the month before in percent, not annualized, as the CPI's); "$84m, −$78m" (free reserves: excess
     reserves less borrowings, in millions, the change in millions; net borrowed reserves are negative). Each column
     in its own figures: the first's change from the month before as printed in the same table (the December before
     from the same Report, for January).
  2. Yields and mortgage rates are rates (kind: rate): one figure each, in the Money and credit table (indicators STYLE
-    13): "4.41%, +0.02 pt". Moody's as FRED gives them (not revised); the mortgage rates as first printed.
+    13, 19): "4.41%, +0.02 pt". Moody's as FRED gives them (not revised); the mortgage rates as first printed.
  3. International, in $bn, bare (indicators STYLE 10): reserve assets stacked, Gold, Currency, IMF, Total, Change,
     two decimals as the gold stock (their monthly changes run to tens of millions); today's, the IMF's reserves less
     gold (then the currencies and the IMF position together), "Excl. gold" and its change. Liquid liabilities to foreign official holders, Liabilities and Change, one decimal.
@@ -21,8 +22,8 @@ STYLE (settled; keep it, and the indicators' STYLE in tools/bib/indicators.py):
     quarterly, seasonally adjusted annual rates as the Reports print them (today's quarterly figures times four), the
     change from the quarter before in $bn.
  4. Exchange rates and the London gold price: not revised, so one figure each, in a table of their own under the
-    indicators (and under Oil), before Money and credit, set off by the same double rule, caption "Exchange rates and
-    gold": Rate | (the figure, unheaded) | Released: no "As first reported" where nothing else is (the owner's request,
+    indicators and Money and credit, before Oil (indicators STYLE 19), set off by the same double rule, caption
+    "Exchange rates and gold": Rate | (the figure, unheaded) | Released: no "As first reported" where nothing else is (the owner's request,
     Nov. 4, 2026). The noon buying rate in New York, monthly average, in cents a unit of
     the currency as the Bulletin printed it, the pound to two decimals, the mark and the franc to three: "280.17¢ per pound", its
     change from the month before in cents; the gold

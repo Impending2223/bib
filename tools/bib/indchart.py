@@ -4,7 +4,8 @@ in brown"; the FRED-alike, "just the level and year-over-year, and default every
 rate and the instrument rates"; both to fit a phone). The prototype: claude.ai artifact "Month Indicators Prototype".
 
 STYLE (settled; keep it):
- 1. The tint. A value cell of the economic indicators table and of Money and credit is tinted by its period's move:
+ 1. The tint. A value cell of the economic indicators table and of Money and credit (both its blocks: the rates, and the real
+    rates and money stock after them, indicators STYLE 19) is tinted by its period's move:
     green on the hot side (prices, output, jobs, money, debt or nominal interest rates rising, unemployment falling;
     a real rate falling; a gap below zero), brown on the cold. HOT gives each series' sign; a series not in it is not
     tinted. The move: the change from the period before (chg, chg_now: each column its own); for the gaps (LEVEL),
