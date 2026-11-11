@@ -7,6 +7,14 @@ For a fresh orchestrating session. Read CLAUDE.md (the core), then this. The own
 - Models: readers on Sonnet with the card; mechanical work (merging, duplicate flags, scripts) on Sonnet or Haiku; Opus audits a sample of each reader's rulings and every disagreement. At most 4-6 agents at once (the machine has 4 processors).
 - Pilot first: `inbox/2026-11-10-pilot-humphrey.yaml` (Sonnet, the card) is to be audited row by row before anything scales.
 
+## Batch 8, the night of Nov. 10–11 (results)
+- Twelve works read by Sonnet readers on the card, each audited blind by Opus, the audit's fixes applied (by Sonnet, from the auditor's exact list) and checked before merging: Barrett, Logevall, Reeves, Caro, Selverstone, Zaroulis, Schwartz, Wofford, Clifford, Ball, Rusk, Whalen. 349 rows; all merged; `./bib check` 0 errors.
+- Error rate by op in the audited samples: 9–38% (Ball 9, Reeves 10, Logevall 11, Clifford 11, Whalen 16, Caro 19, Schwartz 21, Rusk 29, Wofford 32, Barrett 34, Selverstone 38; Zaroulis cites 10, variants 25). The kinds, commonest first: unit maps claiming more than the page (cured by the card's line of Nov. 11: `'?'` unless the page states the whole unit); Checks and variants that record no disagreement; cites on a neighbouring entry; new entries the calendar held already; days the work does not give; bundles. The card now carries a line for each.
+- The audits also found errors already in the tree from earlier batches (over-claiming maps, an exchange turned round, a conflict on Rusk's whereabouts Mar. 30–Apr. 1, 1968): fixed in the same patches where an edit was allowed.
+- Tokens (the agents' own counts): readers about 2.9M (Sonnet); audits about 2.5M (Opus); fix-appliers and the duplicate pass about 1.1M (Sonnet).
+- Open rows left: about 365 (`python3 -I tools/works/alreadyin_rows.py OUT.json`), most in Dallek, Schlesinger's *Robert Kennedy*, Mann (two), Solberg and Watson (no text layer: OCR).
+- Leads raised by the audits, not entered (no day or month on the page): in each work's book-check file.
+
 ## Since then (Nov. 10, late evening)
 - Pilot audited, corrected and merged with the b7 Humphrey patch (e2f5feb); p. 285 entered at the owner's word ("Agreed on Humphrey's son's cancer").
 - Every b6 and b7 patch, the Presidium and sit-ins patches and the Caro `also` op merged (34 runs, commits from c282c02 on); the two old sit-ins Checks struck. Left in the inbox: the two held patches, and `inbox/deferred.yaml` (one Nixon RN cite waiting on bundle-splits).
