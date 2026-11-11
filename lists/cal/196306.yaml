@@ -118,6 +118,22 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-06-01.civil-rights-bill-2
+    when: June 1
+    date: '1963-06-01'
+    thread: civil-rights-bill
+    c: Saturday. Johnson, put off in his requests to see the President on the civil rights legislation, tells O'Donnell, in an Administration official's words, "he thought he should have fifteen minutes alone with the President."
+    n: '[[w.caro-passage-of-power]], 258. The meeting: [[cal.1963-06-03.civil-rights-bill]]. Names: Johnson, O''Donnell.'
+    src:
+      rows:
+        - 'w.caro-passage-of-power 258: all'
+      c: 7af9ba91
+    tags: [name:johnson-lyndon-b, name:odonnell-kenneth-p]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-06-01.civil-rights-bill
+        from: 2026-11-06-b6-caro-passage
   - id: cal.1963-06-03.court
     when: June 3
     date: '1963-06-03'

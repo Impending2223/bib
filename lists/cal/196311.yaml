@@ -1386,6 +1386,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-11-15.assassination
+    when: Nov. 15
+    date: '1963-11-15'
+    thread: assassination
+    c: Friday. Johnson flies to the ranch, a week ahead of the Kennedys' visit after the Austin dinner of Nov. 22; the house cleaned, eight of Wesley West's thoroughbreds brought over, a horse trailer sent to Tennessee for Lady Bird Johnson's walking horse.
+    n: '[[w.caro-passage-of-power]], 299. Names: Johnson, Lady Bird Johnson.'
+    src:
+      rows:
+        - 'w.caro-passage-of-power 299: all'
+      c: 3afe31bd
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, state:tx]
   - id: cal.1963-11-16.elections-1964
     when: Nov. 16
     date: '1963-11-16'
@@ -4163,6 +4174,23 @@ entries:
         - 'w.taking-charge 41–42: all'
         - 'via x.1963-11-26.johnson-hubert-humphrey-telephone-1311: all'
     tags: [name:johnson-lyndon-b, name:humphrey-hubert-h]
+  - id: cal.1963-11-26.succession-3
+    when: Nov. 26
+    date: '1963-11-26'
+    thread: succession
+    c: 'The Elms, the day after the funeral. Lady Bird Johnson asks the chief usher, J. B. West, to plan the move: only her own and her daughters'' bedroom furniture to come, the rooms Jacqueline Kennedy restored left as they are; "I want you to run the White House."'
+    n: '[[w.caro-passage-of-power]], 500. To check: [[w.west-upstairs-at-the-white]], 283–87 (cited by [[w.caro-passage-of-power]], 500 n.there-was-nothing-tentative). Names: Lady Bird Johnson, Jacqueline Kennedy.'
+    src:
+      rows:
+        - 'w.caro-passage-of-power 500: all'
+      c: 381205f4
+    tags: [name:johnson-lady-bird, name:kennedy-jacqueline]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-11-26.succession-2
+          - cal.1963-11-26.succession
+        from: 2026-11-06-b6-caro-passage
   - id: cal.1963-11-27.succession
     when: Nov. 27
     date: '1963-11-27'

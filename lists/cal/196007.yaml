@@ -293,12 +293,13 @@ entries:
     date: '1960-07-08'
     thread: elections-1960-los-angeles
     c: 'Johnson, en route to Los Angeles, on Robert Kennedy''s prediction in the *Times* that the nomination would be settled by Monday noon: "Is this convention open or has the outcome been determined somewhere in a back room?" "There are countries in the world where such pure arrogance is customary in politics."'
-    n: '[[w.shesol-mutual-contempt]], 37. To check: [*New York Times*, July 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/08/issue.html), 11 (cited by [[w.shesol-mutual-contempt]], 37). Names: Johnson, Robert Kennedy.'
+    n: '[[w.shesol-mutual-contempt]], 37; [[w.caro-passage-of-power]], 98 (Johnson flies to Los Angeles, Friday, July 8). To check: [*New York Times*, July 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/08/issue.html), 11 (cited by [[w.shesol-mutual-contempt]], 37). Names: Johnson, Robert Kennedy.'
     src:
       c: d75be0e7
       rows:
         - 'w.shesol-mutual-contempt 37: all'
         - 'via w.shesol-mutual-contempt 37 n.specter: all'
+        - 'w.caro-passage-of-power 98: A'
     tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
   - id: cal.1960-07-08.elections-1960-3
     when: July 8
@@ -333,6 +334,26 @@ entries:
       - 1960-07-08T22:00Z
       - 1960-07-09T07:00Z
     time_zone: America/New_York
+  - id: cal.1960-07-08.elections-1960-los-angeles
+    when: July 8
+    date: '1960-07-08'
+    thread: elections-1960-los-angeles
+    c: 'Los Angeles, Johnson arrived, by Herring''s account. Johnson to his chief campaign workers: they have not done enough with the delegates, "If you''d done the job you were supposed to have done, I wouldn''t be in this situation"; he will win all the same, the States he names switching after the first ballot.'
+    n: '[[w.caro-passage-of-power]], 98. Check: the day (Caro: after the flight of Friday, July 8). See [[cal.1960-07-08.elections-1960-2]]. Names: Johnson.'
+    src:
+      rows:
+        - 'w.caro-passage-of-power 98: all'
+        - 'via w.caro-passage-of-power 98 n.he-got-mad: all'
+      c: 2e7b1590
+    tags: [name:johnson-lyndon-b, city:los-angeles, state:ca]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-08.elections-1960
+          - cal.1960-07-08.elections-1960-2
+          - cal.1960-07-08.elections-1960-3
+          - cal.1960-07-08.elections-1960-4
+        from: 2026-11-06-b6-caro-passage
   - id: cal.1960-07-09.cuba
     when: July 9
     date: '1960-07-09'
