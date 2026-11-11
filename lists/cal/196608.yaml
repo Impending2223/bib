@@ -842,6 +842,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1966-08-05.poverty
+    when: Aug. 5
+    date: '1966-08-05'
+    thread: poverty
+    c: 'Paul Cotter, the Senate Appropriations Committee''s investigator, to Hayden, Stennis and Pastore: a report sharply critical of the Child Development Group of Mississippi''s leadership and administration. "A few ... both white and colored, who clearly fall into the category of extremists"; the schoolteachers attest to Head Start''s children''s improvement, but he wonders "whether these children are not being used as pawns to serve other purposes."'
+    n: '[[w.dittmer-local-people]], 377. To check: Paul J. Cotter to Senators Hayden, Stennis, Pastore, Aug. 5, 1966, OEO Archives, box 108 (cited by [[w.dittmer-local-people]], 377 n.35). See [[cal.1965-06-29.poverty]]. Names: Hayden, Stennis, Pastore.'
+    src:
+      c: 5d647caf
+      rows:
+        - 'w.dittmer-local-people 377: all'
+        - 'via w.dittmer-local-people 377 n.35: all'
+    tags: [name:hayden-carl, name:stennis-john-c, name:pastore-john-o]
   - id: cal.1966-08-06.soviet-union
     when: Aug. 6
     date: '1966-08-06'
@@ -3951,3 +3963,19 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 398: all'
     tags: [name:king-martin-luther-jr, city:chicago, state:il]
+  - id: cal.1966-08.poverty-2
+    when: Aug.
+    date: 1966-08
+    thread: poverty
+    c: Stennis, after Cotter's report, again demands that OEO cut off the Child Development Group of Mississippi's funds; this time Shriver complies.
+    n: '[[w.dittmer-local-people]], 377. Check: the day of each; Dittmer names no source for them. See [[cal.1966-08-05.poverty]]. Names: Stennis, Shriver.'
+    src:
+      c: c41795d5
+      rows:
+        - 'w.dittmer-local-people 377: all'
+    tags: [name:stennis-john-c, name:shriver-r-sargent]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-08.poverty
+        from: 2026-11-10-b7-dittmer

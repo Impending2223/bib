@@ -2990,6 +2990,23 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1965-05-26.voting-rights-2
+    when: May 26
+    date: '1965-05-26'
+    thread: voting-rights
+    c: Senate passes the voting rights bill, S. 1564, [77–19](https://voteview.com/rollcall/RS0890078).
+    n: '[[w.dallek-flawed-giant]], 220 (77 to 19, by May 26, the filibuster broken). To check: [111 Cong. Rec. 11,752](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt9/pdf/GPO-CRECB-1965-pt9-2-2.pdf) (1965); [[w.graham-civil-rights-era]], 171–73 (cited by [[w.dallek-flawed-giant]], 220 n.97). See [[cal.1965-03-15.voting-rights]].'
+    src:
+      c: e5a33ba5
+      rows:
+        - 'w.dallek-flawed-giant 220: all'
+        - 'via w.dallek-flawed-giant 220 n.97a: all'
+        - 'via w.dallek-flawed-giant 220 n.97c: all'
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-05-26.voting-rights
+        from: 2026-11-10-b7-dallek
   - id: cal.1965-05-27.desegregation-schools
     when: May 27
     date: '1965-05-27'

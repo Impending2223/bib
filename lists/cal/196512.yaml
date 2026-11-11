@@ -236,12 +236,13 @@ entries:
     thread: alabama
     also: [civil-rights-the-executive]
     c: Montgomery. A federal jury, all white, convicts Wilkins and two other Klansmen from the car from which Viola Liuzzo was shot of conspiracy against the rights of citizens, 18 U.S.C. § 241; each sentenced to ten years, the maximum. Judge Johnson presiding (Check). Wilkins twice tried for murder in Lowndes County without conviction.
-    n: '*Wilkins v. United States*, [376 F.2d 552](https://static.case.law/f2d/376/case-pdfs/0552-01.pdf) (5th Cir. 1967) (affirmed). [[w.branch-at-canaans-edge]], 390–91. To check: [[w.may-informant]]. See [[cal.1965-03-25.alabama]]; [[cal.1965-05-07.alabama]]. Names: Wilkins, Liuzzo, Johnson.'
+    n: '*Wilkins v. United States*, [376 F.2d 552](https://static.case.law/f2d/376/case-pdfs/0552-01.pdf) (5th Cir. 1967) (affirmed). [[w.branch-at-canaans-edge]], 390–91; [[w.garrow-bearing-the-cross]], 454 (Dec. 3, the federal convictions; the maximum ten-year sentences). To check: [[w.may-informant]]. See [[cal.1965-03-25.alabama]]; [[cal.1965-05-07.alabama]]. Names: Wilkins, Liuzzo, Johnson.'
     src:
       c: 639b37ac
       rows:
         - 'https://static.case.law/f2d/376/case-pdfs/0552-01.pdf: all'
         - 'w.branch-at-canaans-edge 390–91: A-E'
+        - 'w.garrow-bearing-the-cross 454: B-C'
     tags: [name:wilkins-collie-leroy-jr, name:liuzzo-viola, name:johnson-frank-m-jr]
   - id: cal.1965-12-03.mississippi
     when: Dec. 3
@@ -678,6 +679,26 @@ entries:
       rows:
         - 'w.debenedetti-american-ordeal 137: all'
         - 'via w.debenedetti-american-ordeal 137 n.157: all'
+  - id: cal.1965-12-06.king-2
+    when: Dec. 6–7
+    date: '1965-12-06'
+    thread: king
+    also: [alabama]
+    c: 'The Black Belt, Butler, Sumter, Clarke and Greene Counties: King''s two-day tour, SCLC''s first step toward new protests in Alabama. He calls for federal legislation to protect civil rights workers and assure justice in southern courts. To reporters: the Liuzzo verdicts and the maximum sentences "have made it more difficult for us to dramatize the need for changes in the structure of courts and law enforcement agencies in the South."'
+    n: '[[w.garrow-bearing-the-cross]], 453–54. To check: New York Times, Dec. 7, 1965, 33; Dec. 8, 1965, 33; King, in the Southern Courier, Dec. 11–12, 1965, 1 (cited by [[w.garrow-bearing-the-cross]], 454 n.26). See [[cal.1965-12-03.alabama]]. Names: King, Liuzzo.'
+    src:
+      c: cb8a2727
+      rows:
+        - 'w.garrow-bearing-the-cross 453–54: all'
+        - 'via x.1965-12-07.new-york-times-dec-7-1965-33: all'
+        - 'via x.1965-12-08.new-york-times-dec-8-1965-33: all'
+        - 'via x.1965-12-11.king-southern-courier-dec-11-12-1965: all'
+    tags: [name:king-martin-luther-jr, name:liuzzo-viola]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-12-06.king
+        from: 2026-11-10-b7-garrow-bearing-the
   - id: cal.1965-12-07.vietnam
     when: Dec. 7
     date: '1965-12-07'

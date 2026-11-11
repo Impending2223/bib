@@ -3763,12 +3763,13 @@ entries:
     time: 1963-11-24T17:21Z
     thread: assassination
     c: Ruby, a Dallas nightclub owner, shoots Oswald in the basement of police headquarters, 11:21 a.m., before live television; Oswald dead at Parkland, 1:07 p.m. Kennedy lies in state in the Capitol Rotunda.
-    n: '[*Report of the President''s Commission on the Assassination of President Kennedy*, ch. V](https://www.archives.gov/research/jfk/warren-commission-report/chapter-5.html) (1964). [[w.humphrey-education-of-a-public-1976]], 263–64 (the Rotunda at 1:30 p.m.; Mansfield, Warren and McCormack speak; the line twenty blocks long). See [[cal.1963-11-22.assassination]]. Names: Ruby, Lee Harvey Oswald.'
+    n: '[*Report of the President''s Commission on the Assassination of President Kennedy*, ch. V](https://www.archives.gov/research/jfk/warren-commission-report/chapter-5.html) (1964). [[w.humphrey-education-of-a-public-1976]], 263–64 (the Rotunda at 1:30 p.m.; Mansfield, Warren and McCormack speak; the line twenty blocks long); [[w.dallek-flawed-giant]], 50–51 (Ruby, a Dallas nightclub operator, shoots Oswald on his way to a court hearing). To check: [[w.johnson-vantage-point]], 25–27 (cited by [[w.dallek-flawed-giant]], 51 n.107). See [[cal.1963-11-22.assassination]]. Names: Ruby, Lee Harvey Oswald.'
     src:
       c: 17227af8
       rows:
         - 'https://www.archives.gov/research/jfk/warren-commission-report/chapter-5.html: all'
         - 'w.humphrey-education-of-a-public-1976 263–64: C'
+        - 'w.dallek-flawed-giant 50–51: A'
     tags: [name:ruby-jack, name:oswald-lee-harvey, name:kennedy-john-f]
   - id: cal.1963-11-24.vietnam
     when: Nov. 24
@@ -4384,7 +4385,7 @@ entries:
     thread: trade
     also: [succession]
     c: Senate tables Mundt's bill to bar government guarantees of credit for sales to Communist countries, [57–35](https://voteview.com/rollcall/RS0880203). Johnson's first test in the Senate.
-    n: 'The Senate sat from noon to 9:19 p.m.: [Daily Digest, D574](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=572). [109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt17/pdf/GPO-CRECB-1963-pt17-7-1.pdf) (1963). [[w.caro-passage-of-power]], 397–99, 414–15, 424–25 (the bill tabled, Johnson''s first test; Caro''s count, 57 to 36, is not the roll call''s); [[w.johnson-vantage-point]], 39 (the tabling, which he gives as 57 to 36; O''Brien''s head count; the test of his authority); [[w.solberg-hubert-humphrey]], 241 (the vote on Mundt''s amendment). [[w.humphrey-education-of-a-public-1976]], 264–65 (Humphrey''s count that morning, 56 to 37; the vote, 57 to 35, about 9:15 p.m.; reported to Johnson). To check: [Johnson and Humphrey, 1:11 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-hubert-humphrey-november-26-1963) (Miller Center). See [[cal.1963-10-09.trade]]. Names: Mundt, Johnson. Check: the page.'
+    n: 'The Senate sat from noon to 9:19 p.m.: [Daily Digest, D574](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=572). [109 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt17/pdf/GPO-CRECB-1963-pt17-7-1.pdf) (1963). [[w.caro-passage-of-power]], 397–99, 414–15, 424–25 (the bill tabled, Johnson''s first test; Caro''s count, 57 to 36, is not the roll call''s); [[w.johnson-vantage-point]], 39 (the tabling, which he gives as 57 to 36; O''Brien''s head count; the test of his authority); [[w.solberg-hubert-humphrey]], 241 (the vote on Mundt''s amendment); [[w.dallek-flawed-giant]], 70 (Johnson''s first test: "We could not afford to lose a vote like that, after only four days in office"). [[w.humphrey-education-of-a-public-1976]], 264–65 (Humphrey''s count that morning, 56 to 37; the vote, 57 to 35, about 9:15 p.m.; reported to Johnson). To check: [Johnson and Humphrey, 1:11 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-hubert-humphrey-november-26-1963) (Miller Center). See [[cal.1963-10-09.trade]]. Names: Mundt, Johnson. Check: the page.'
     src:
       c: f68e7b61
       rows:
@@ -4394,6 +4395,7 @@ entries:
         - 'w.caro-passage-of-power 424–25: A-B'
         - 'w.humphrey-education-of-a-public-1976 264–65: A-B'
         - 'w.solberg-hubert-humphrey 241: A'
+        - 'w.dallek-flawed-giant 70: B'
     tags: [name:mundt-karl-e, name:johnson-lyndon-b]
     short: Mundt's bill tabled
     time_range:
@@ -4401,6 +4403,11 @@ entries:
       - 1963-11-27T02:19Z
     time_zone: America/New_York
     range_basis: record
+    variants:
+      - unit: A
+        witness: w.dallek-flawed-giant
+        reads: a twenty-one-vote margin of victory in the Senate
+        at: '70'
   - id: cal.1963-11-26.economy-debt-limit
     when: Nov. 26
     date: '1963-11-26'
