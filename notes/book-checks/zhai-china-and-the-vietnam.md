@@ -53,6 +53,8 @@ Sixteen, in `sources/cited-records/zhai-china-and-the-vietnam.yaml`: found and r
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, b6-zhai-china; done Nov. 10, 2026). The rows ruled "minor" other than repetitions were read again off the owner's copy (Drive `1kLDlW8PnT5w1cL-FnOSXCQcX_VXd0DTD`; printed page = PDF page − 17; p. 165 checked on the page image). Patch `inbox/2026-11-06-b6-zhai-china.yaml` (5 entries, 2 cites); witnesses `inbox/witnesses/2026-11-06-b6-zhai-china.yaml` (Chen Yi's speech of July 10, 1966); edges to the cards made for the notes' works (Ronning, Brown and Zasloff, Hall, Lawson, Zagoria; Smith's vol. 2 and the *Bulletin* held) in the by-work file. The rows ruled "minor (repetitions)" stand, the same ground under the amended rule; the rows ruled "out of the brief" (Peking's or Hanoi's own act) are not this batch's ground: R10 (Oct. 30) makes them entries, for a later run.
+
 Made by reading pp. 82–186 and their notes page by page and listing every event dated within Jan. 6, 1960–Jan. 20, 1969 that touches Peking, Hanoi, Moscow or Washington, each judged against `./bib find -l cal` (by day, thread and words). "Out of the brief": Peking's or Hanoi's own act or talk, no trace in Washington found. Not listed: the chapters' pre-1960 background; the Chinese domestic campaigns (the Third Front, the Cultural Revolution) where they do not touch the war; issues of *Renmin ribao* and *Shijie zhishi* cited for wording.
 
 | Page | Date | Event | Why |
@@ -68,7 +70,7 @@ Made by reading pp. 82–186 and their notes page by page and listing every even
 | 83 | Dec. 1960 | the NLF founded; Peking's recognition | in as `cal.1960-12-20.vietnam` (the founding) |
 | 91 | Oct. 12, 1961 | Hồ and Lê Duẩn with Zhou in Peking | out of the brief |
 | 91 | Oct. 23, 1961 | Zhou leaves the Twenty-second Congress early | to leads (`cal.1961-10-31.soviet-union` does not name it) |
-| 91 | Mar. 10, 1962 | Hanoi enlarges both friendship associations | minor |
+| 91 | Mar. 10, 1962 | Hanoi enlarges both friendship associations | re-ruled: entered as cal.1962-03-10.vietnam-hanoi (a counterpart's act, R10; no repetition) |
 | 95 | Aug. 9, 1960 | Kong Le's coup | in as `cal.1960-08-09.laos` |
 | 95 | Sept. 5, 1960 | *Shijie zhishi* on Kong Le | out of the brief |
 | 96 | Dec. 3–16, 1960 | the Soviet airlift; Zhou with the Soviet chargé (Dec. 9) and Trần Tử Bình (Dec. 12, 16) | the airlift in under `cal.1960-12-08.laos`; the talks out of the brief |
@@ -79,7 +81,7 @@ Made by reading pp. 82–186 and their notes page by page and listing every even
 | 100 | Apr. 16, 1961 | Souphanouvong in Moscow | out of the brief |
 | 100 | Apr. 22–25, 1961 | Souvanna Phouma in Peking; the joint statement | to leads (public; Washington's reading not found) |
 | 100 | Apr. 25, May 2, 1961 | the Pathet Lao accept a cease-fire; Hanoi radio's order | to leads (the cease-fire is in the calendar's Laos entries of late April and May 3; Zhai's days not checked against them) |
-| 101 | May 10, 1961 | Chen Yi arrives at Geneva | minor |
+| 101 | May 10, 1961 | Chen Yi arrives at Geneva | re-ruled: entered as cal.1961-05-10.laos (a trip, R15) |
 | 102 | May 24, June 26, 1961 | Chen Yi's five principles; his answer to the Franco-American draft | to leads (positions at the conference; FRUS XXIV) |
 | 103 | June 22, 1961 | the three princes at Zurich | to leads (no calendar entry) |
 | 103 | July 10, Oct. 21, 1961 | Zhou to Leng Ngeth; to Quinim and Phoumi Vongvichit | out of the brief |
@@ -88,7 +90,7 @@ Made by reading pp. 82–186 and their notes page by page and listing every even
 | 104 | Mar. 1962 | the Kunming Military Region supplies the Pathet Lao for Nam Tha | out of the brief (noted under `cal.1962-05-06.laos` in this file) |
 | 104 | May 12–15, 1962 | American forces to Thailand | in as `cal.1962-05-12.laos` and after |
 | 104–5 | June 12, 1962 | the princes' agreement on the portfolios | to leads (the calendar has the government formed, `cal.1962-06-23.laos`) |
-| 105 | July 2, 9, 1962 | the Lao delegation at Geneva; the neutrality statement | minor (the declaration in as `cal.1962-07-23.laos`) |
+| 105 | July 2, 9, 1962 | the Lao delegation at Geneva; the neutrality statement | re-ruled: already in; cited under cal.1962-07-02.laos (105, A-B) and cal.1962-07-09.laos (105, B), n.58's works behind To check |
 | 108 | Aug. 1962 | Chen Yi's report on the conference | out of the brief |
 | 110 | Sept. 3, 1962 | Kuznetsov's note on the Soviet airlift | out of the brief |
 | 112 | June 1961 | Phạm Văn Đồng in Peking | out of the brief |
@@ -131,7 +133,7 @@ Made by reading pp. 82–186 and their notes page by page and listing every even
 | 153 | Apr. 3, July 10, 1965 | the Soviet proposal of a summit; the CCP's reply | out of the brief |
 | 154 | Feb.–Mar. 28, 1966 | the Miyamoto mission | out of the brief |
 | 154 | Mar. 29–Apr. 8, 1966 | the CPSU's Twenty-third Congress, Hanoi there, Peking not | to leads |
-| 154 | Feb. 1967 | Hanoi denies the missiles hijacked | minor |
+| 154 | Feb. 1967 | Hanoi denies the missiles hijacked | re-ruled: entered as cal.1967-02.vietnam-hanoi (Check: the day) |
 | 158 | Mar. 25, 1965 | Johnson: "go anywhere at any time" | to leads (not found by those words) |
 | 158–59 | Mar. 28–Apr. 29, 1965 | Gordon Walker's mission; Peking's refusals (Apr. 12); Zhou to Ben Bella (Mar. 30) and Botsio (Apr. 29); Sihanouk at Jakarta | to leads (the conference on Cambodia; FRUS II, XXVII) |
 | 159 | Apr. 7, 8, 1965 | Johns Hopkins; Hanoi's Four Points | Johns Hopkins in as `cal.1965-04-07.vietnam`; the Four Points to leads |
@@ -145,7 +147,7 @@ Made by reading pp. 82–186 and their notes page by page and listing every even
 | 163 | Sept. 22–Oct. 1965 | Sihanouk in China | out of the brief |
 | 164 | Jan. 1966 | Michalowski's mission: Peking (Wang Bingnan), Nanning, Hanoi | to leads (FRUS XXVIII, doc. 219) |
 | 164–65 | Jan. 1966 | Shelepin in Hanoi and Peking | to leads (FRUS IV, docs. 13, 29–31) |
-| 165 | Mar. 1966; July 10, 1966 | Liu, Deng and Peng to the JCP; Chen Yi at a rally | out of the brief; minor |
+| 165 | Mar. 1966; July 10, 1966 | Liu, Deng and Peng to the JCP; Chen Yi at a rally | the JCP talks: out of the brief, as ruled (not this batch's ground: R10 admits them, for another run); Chen Yi at the rally re-ruled: entered as cal.1966-07-10.china |
 | 165–66 | 1966 | Marigold | in (thread Marigold) |
 | 166 | June 4, 1965 | Zhou to Nyerere | out of the brief |
 | 167 | Feb. 11, Apr. 30, 1966 | *Hongqi*'s commentary; Zhou's rally speech | minor (repetitions) |
@@ -164,7 +166,7 @@ Made by reading pp. 82–186 and their notes page by page and listing every even
 | 242 n.77 | Feb. 5, 1962 | Burris to Vice President Johnson: some 9,000 North Vietnamese combat troops in Laos | to leads (the record unread) |
 | 249 n.47 | June 1966 | Rostow to Dobrynin on the tacit understanding with Peking (Dobrynin's account) | to leads |
 | 255 n.44 | July 24, 1966 | Lodge: Lewandowski "terribly worried about China" (FRUS IV) | to leads (Marigold) |
-| 255 n.46 | Jan. 17, 1966 | Goldberg: Peiping's voice "can be dismissed" | minor |
+| 255 n.46 | Jan. 17, 1966 | Goldberg: Peiping's voice "can be dismissed" | re-ruled: entered as cal.1966-01-17.vietnam-pause-2, on the address in the *Bulletin*, Feb. 7, 1966, 197–200, read on archive.org (a member of the Cabinet's public word, R6; the note is on p. 255, its call at 166 n.46) |
 | 256–57 n.85 | Jan. 28, 1966 | Rusk: Peking "has actively intruded" on any talks | in as `cal.1966-01-28.vietnam-pause` (FRUS IV, doc. 52; the words not in `c`) |
 | 248 n.33 | Nov. 25, 1965 | Lon Nol and Luo Ruiqing's military agreement (Martin's account) | to leads |
 

@@ -134,6 +134,8 @@ The merger: patch-check flags as "one event?" several pairs that are distinct ev
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, Nov. 10, 2026): no row below is ruled private, social, personal, family, trivia or a draft; the one ruled "minor here: a repetition" (81–82, Apr. 1966) stands, a repetition of events in the calendar. Nothing re-entered; no patch; the copy not downloaded again.
+
 Made from the dated-sentence pass over pp. 1–210 and the pages read in full; a row for each dated event treated and not entered.
 
 | page | date | event | why |

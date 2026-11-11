@@ -56,6 +56,8 @@ Dated meetings, memoranda and messages Drea gives that the calendar lacked, each
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, run Nov. 10, 2026; here and in "Passed over (the fourth run)"): the copy as before, archive.org's `DTIC_ADA552481`, its hOCR search text by leaf (folio = leaf − 17 to p. 216, − 45 from p. 441), checked by the running heads of pp. 173 and 497. The rows ruled private remarks or private, each marked in its last cell; patch `inbox/2026-11-06-b6-drea-mcnamara-clifford-and-the-2011.yaml` (1 entry, 2 cites); witnesses `inbox/witnesses/2026-11-06-b6-drea-mcnamara-clifford-and-the-2011.yaml` (2 new), 2 edges (497 n.44c, n.44d).
+
 Dated events of Jan. 6, 1960–Jan. 20, 1969 on the pages read for this pass that the calendar does not take, a row each, for the owner to rule on. The first pass read the pages the calendar cites; the military re-read of Nov. 5, 2026 (below) read chapters XI, XVI (pp. 437–49) and XVIII whole and entered their operations, and lists here row by row what it did not enter. The chapters not yet re-read are named below. "To leads": in the brief, worth an entry, its record not read in this pass.
 
 | Page | Date | Event | Why |
@@ -139,7 +141,7 @@ Dated events of Jan. 6, 1960–Jan. 20, 1969 on the pages read for this pass tha
 | 492 | Jan. 23, Feb. 7, 1968 | State's instructions at Panmunjom; Johnson's letter to Park | lead (FRUS 1964–68, XXIX, pt. 1) |
 | 494–95 | Dec. 1967–Mar. 1968 | Park's light division for Vietnam; the offer of more troops by Mar. 1 | lead (the National Assembly's vote) |
 | 495 | Mar. 22, 1968 | Novotný resigns | lead (R10: the Czechoslovak record; cal.1968-03 under Soviet Union) |
-| 497 | Aug. 5, 1968 | Clifford thinks the Czechoslovak crisis past | a passed-over paper (private remarks) |
+| 497 | Aug. 5, 1968 | Clifford thinks the Czechoslovak crisis past | a passed-over paper (private remarks) — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1968-08-05.soviet-union-czechoslovakia (a private remark on public business; with Wheeler's view, n.44's Elsey and Nitze notes) |
 | 497 | Aug. 19, 1968 | Dobrynin to Rusk: the Soviets ready to talk on missiles, a summit to be announced Aug. 21 | already in (cal.1968-08-15.testing-missile-talks; the talks' thread) |
 | 498 | Aug. 22–23, 1968 | the Cabinet on Czechoslovakia; Clifford in the Cabinet Room | already in (cal.1968-08-23.soviet-union-czechoslovakia) |
 | 499 | Aug. 31, 1968 | Dobrynin at Rusk's home: no Soviet move on Romania | in cal.1968-09-04.soviet-union-czechoslovakia |
@@ -185,6 +187,8 @@ Witnesses: `inbox/witnesses/2026-11-05-mil4-drea.yaml`, 10 new rows and an amend
 
 ### Passed over (the fourth run)
 
+Re-ruled Nov. 6, 2026, under R18 as amended: see the note at the head of the first Passed over.
+
 | Page | Date | Event | Why |
 |---|---|---|---|
 | 22–49 | Feb.–Sept. 1965 | the meetings and decisions already in (Feb. 7, 13, 17, 26; Mar. 6, 10, 11, 15; Apr. 1, 6, 7, 20, 21; May 4–7; June 5–24; July 1–28; Aug. 23; Sept. 1, 22, 29) | already in, cited |
@@ -193,7 +197,7 @@ Witnesses: `inbox/witnesses/2026-11-05-mil4-drea.yaml`, 10 new rows and an amend
 | 71 | Feb.–Mar. 1966 | a poll; Reston's "imprecision" column | lead: neither dated on the page |
 | 79 | Aug. 1966 | Wheeler with Johnson at the Ranch on bombing the panhandle | not entered in this run: for the next (R50) |
 | 172 | Aug. 1967 | Johnson counts fifteen crises in two months | minor: a count, no event |
-| 173 | July 1967 | McNamara's wife in hospital | minor: private |
+| 173 | July 1967 | McNamara's wife in hospital | minor: private — **re-ruled Nov. 6, 2026 (R18 as amended):** Drea cited (173) under cal.1967-07.defense-2, the entry the Bernstein re-ruling makes (Bernstein 355: the operations under an assumed name, kept from the press; the trip to Vietnam): the Secretary's wife's illness bears on his work and on the press; and 173 cited under cal.1967-07-19.transition-and-staff (McNaughton's crash, in North Carolina, the Assistant Secretary for ISA) |
 | 179 | Jan. 18, 1968 | an American action near Khe Sanh (the sentence runs over p. 179) | not read whole in this run: for the next |
 | 191 | May 7, 23, 1968 | Clifford's speech and his testimony | not checked against the calendar in this run: for the next |
 | 205, 213 | Feb. 17, July 1967, mid | Rostow's funnel; Johnson on the bombing and public opinion | already in (cal.1967-02-17.vietnam); the July discussion undated to the day, for the next |

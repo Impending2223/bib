@@ -126,6 +126,8 @@ The book has no notes. Registered for the units cited: *Life*'s article (Lambert
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the same Drive copy, fetched again by the direct route; pp. 270 and 290 read in the text layer, the offset as above). Two rows were private or minor; neither is entered: no patch for this book in batch 6. The copy deleted when done.
+
 Made from the full reading and the scan above, each dated act held against `./bib find`, the ledger and the November election blocks. "The election block": a race the calendar carries in the day's tables, not an entry; Peirce's figure is not entered. "A lead": Peirce gives the year only, or less (R15, R50).
 
 | Page | Date | Event | Why |
@@ -205,11 +207,11 @@ Made from the full reading and the scan above, each dated act held against `./bi
 | 261 | 1967–69 | Sneed's court plan by initiative; the legislature's own, approved by the voters; new courts Jan. 1969 | a lead: the days |
 | 263 | 1967 | Pontesso Oklahoma's director of corrections | a lead: the day |
 | 264 | 1965 | the sales tax for schools voted down; the NEA's sanctions | a lead: the days |
-| 270 | 1962 | a carpet mill at Anadarko | minor (a business's plant, no public act) |
+| 270 | 1962 | a carpet mill at Anadarko | re-ruled (b6): within the brief under R18 as amended (Don Greve's Sequoyah Carpet Mills, $390,000 of federal funds and $60,000 from a State industrial-loan agency in its package: a policy matter), but dated only to the year ("decided in 1962"): a lead (R15), below |
 | 275 | 1966 | Mrs. Latting's apportionment plan adopted by the legislature | a lead: the session law |
 | 276–77 | 1968 | the *Oklahoman* for Bellmon over Monroney; the FCC's Johnson and Cox on Oklahoma broadcasting | a lead: the days (R13) |
 | 282 | 1962 | Billie Sol Estes arrested | a lead: the day (the calendar has his affair in May 1962) |
-| 290 | 1965 | Connally buys the Tortuga Ranch | minor (private) |
+| 290 | 1965 | Connally buys the Tortuga Ranch | passed over (R18 as amended): personal, the Governor's purchase of land (14,500 acres, about $300,000, with borrowed money), no act of public business; and dated only to the year |
 | 293 | 1964, 1966 | Connally re-elected | the election blocks |
 | 293 | 1968 | Connally at Chicago: the war plank, the threat of Johnson's re-entry; his anger at the unit rule's end | a lead: undated |
 | 300 | 1961 | the meeting at Briscoe's ranch on Connally's candidacy; Strauss on Barnes | a lead: the day |
@@ -249,6 +251,7 @@ None by day: the book gives no day's coverage. Its press events (*Life* on Long,
 - National: Johnson's pardon of Lawrence Callanan, 1964 (Peirce 64): the Pardon Attorney's register.
 - National: Albert as permanent chairman at Chicago, 1968; Albert's heart attack, 1966; Case's death, 1962: entries wanted, on a dated source.
 - National: Ronald Edwards, Daniel Cohen, Bill Dougherty, Robert McCarney (has a tag), Erik Jonsson (has a tag) and Ben Barnes: name entries wanted for Dougherty, Edwards and Barnes (named in the new entries or the cites, none held).
+- States and cities (b6): Sequoyah Carpet Mills at Anadarko, Okla., 1962 (Peirce 270): Don Greve's plant, $390,000 of federal funds (Peirce does not name the agency) and $60,000 from a State industrial-loan agency; the month and the grant's record: the ARA's announcements, the *Daily Oklahoman*.
 - The press (R13): the *Omaha World-Herald* under Kiewit, 1964; the *Daily Oklahoman* (Gaylord) for Bellmon, 1968; the FCC commissioners Nicholas Johnson and Kenneth Cox's Oklahoma study, 1968: entries when a dated source is in hand.
 
 ## Notes for the merger

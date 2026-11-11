@@ -233,6 +233,8 @@ The breakfast of June 23, 1960 was to be a sixteenth; Kallina's run entered it t
 
 ### Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled minor or private, in "Re-ruled under R18 as amended (b6)" after the table (read Nov. 10, 2026).
+
 How the list was made: every date the text gives, pp. 127–624 (432 mentions, the years supplied from the chapter and read again where the chapter's run of years misled), set against the calendar's entries of the day; 193 with no entry of the day in a related thread were read. Passed without rows, as classes: King's speeches, sermons, tours, rallies, trips and rests; the internal meetings, retreats, staff decisions and money of SCLC, SNCC, CORE, CCCO, the Albany Movement and the Chicago Freedom Movement; local mass meetings, marches, sit-ins and arrests below the calendar's level (Albany, Nov. 1961–Mar. 1962; Birmingham before April 1963; St. Augustine, Mar.–May 1964; Chicago and Louisville, 1965–67); King's private life. Rows for the rest:
 
 | Page | Date | Event | Why |
@@ -270,6 +272,22 @@ How the list was made: every date the text gives, pp. 127–624 (432 mentions, t
 | 592 | Jan. 12, 1968 | King denounces the Spock indictment | minor (the indictment in `cal.1968-01-05.war-opposition`) |
 | 595 | Feb. 2, 1968 | Johnson's news conference: civil rights energies to more productive ends | the conference in `cal.1968-02-02.vietnam-tet`; the answer not in its `c`: lead |
 | 618 | Mar. 31, 1968 | King with Conyers and Hatcher | already in (`cal.1968-03-31.king`) |
+
+### Re-ruled under R18 as amended (b6, Nov. 10, 2026)
+
+Read again from the owner's copy in Drive (file id 1HV-qXp4kWOA-mMd0lLDx1trKWl25pwz7, 808 PDF pages with a text layer, downloaded into the scratchpad and deleted after; printed folio = PDF page − 4, checked on the page image of p. 136, PDF 140). The notes read for each passage (ch. 3 nn. 7, 11; ch. 5 n. 6; ch. 7 n. 70; ch. 10 nn. 13, 18; ch. 11 n. 19), each note's items lettered by their order, semicolon by semicolon, and only those that bear on the passage registered. Patch: `inbox/2026-11-06-b6-garrow-bearing-the.yaml` (b6-garrow-bearing-the: 7 entries added, 2 cites, 2 map rows). Witnesses: `inbox/witnesses/2026-11-06-b6-garrow-bearing-the.yaml` (13), edges in the by-work file (19). New cards: `w.lewis-king` (Lewis, *King: A Critical Biography*, 1970), `w.harrington-fragments-of-the-century` (Harrington, *Fragments of the Century*, 1973), both behind "To check:".
+
+| Page | Date | Event | Ruling under R18 as amended |
+|---|---|---|---|
+| 135–36 | May 4, 1960 | King stopped in DeKalb County | entered, `cal.1960-05-04.king` (a police stop and citation: the occasion of the October sentence) |
+| 140 | July 10–11, 1960 | the Los Angeles kick-off rally; the picketing; King with Harrington | entered, `cal.1960-07-10.elections-1960-los-angeles-3` |
+| 235 | Mar. 19, 1963 | Levison's lunch with Lem Harris, overheard | entered, `cal.1963-03-19.king` (Made public: Check) |
+| 425–27 | May 18–24, 1965 | SCLC at the Alabama legislature | entered, `cal.1965-05-24.alabama` |
+| 536 | Nov. 10, 1966 | King and Hoffa | entered, `cal.1966-11-10.king`; the page also cited under `cal.1966-10-28.king`, units A, B |
+| 541–42 | Jan. 1967 | Levison: black leaders puzzled King had not spoken for Powell | entered, `cal.1967-01.congress-powell`: January, not February as the row had it (Garrow puts it before King's flight to Jamaica, Jan. 14); Check: the day. The call before it, on a third-party candidacy (on the page, not listed before): entered, `cal.1967-01-03.king` |
+| 592 | Jan. 12, 1968 | King against the Spock indictment | already in (`cal.1968-01-12.war-opposition`): cited, 592, unit A; the *Times* of Jan. 13 (592 n.19k) mapped |
+
+The sentence above the table that passes over classes of event ("King's speeches, sermons, tours ..."; "local mass meetings, marches ...") is a blanket exclusion under R48 and stands to be ruled by the next reading of the book; this run re-ruled the rows only.
 
 ### Leads
 

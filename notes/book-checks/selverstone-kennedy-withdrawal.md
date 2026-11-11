@@ -42,6 +42,8 @@ Each was compared with every entry of its day. Three share day and thread with a
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; the rulings in "Batch 6" below).
+
 How the list was made: the date scan above. Each dated mention not cited by an entry was read in its paragraph and set against the entries of its day (±3 days). "Already in as" names the entry that has it: cited where Selverstone adds something, otherwise left. "Minor" means only what the brief's rule says. Page | date | event | why.
 
 | page | date | event | why |
@@ -114,6 +116,23 @@ How the list was made: the date scan above. Each dated mention not cited by an e
 | 219 | 1964-02-21 | Johnson at Los Angeles | already in as cal.1964-02-21.vietnam |
 | 221 | 1964-02-15 | Felt: the planning assumption "no longer valid" | lead: Felt's message (JCS files; Selverstone 221 n.85) |
 | 236–241 | 2001–2009 | Sept. 11; Iraq; Obama's Afghanistan decision | out of the brief |
+
+## Batch 6: the rows re-ruled (Nov. 10–11, 2026)
+
+The owner's copy again (Drive 1knBIhZOfZe3OXNlKBtBKn-CXqFoKXt4C, the publisher's PDF, by the direct route into the scratchpad; deleted after): printed page = PDF page − 10 held (pp. 64, 69, 105, 191–193 and the note pages 264, 266, 275, 293 read on their images as well as the text). Patch `inbox/2026-11-06-b6-selverstone.yaml` (7 entries added, their claim-map rows); witnesses `inbox/witnesses/2026-11-06-b6-selverstone.yaml` (7 rows and one amendment: the memorandum of Oct. 7, 1963, read); 8 edges appended to `sources/witnesses/by-work/selverstone-kennedy-withdrawal.yaml`. Three records read in FRUS and cited first: 1961–63, III, doc. 23; IV, docs. 187, 201. Re-ruled: the rows ruled minor for staff, a draft, a magazine's story, or "an operation below the level" (R18 as amended: "below the level" means only a unit's routine; the planning of communications is R7's).
+
+| Page | Date | Event | Ruling now |
+|---|---|---|---|
+| 64 | Mar. 29, 1962 | Clifton to Bundy: prod McNamara on the plan (the note's date) | entered, `cal.1962-03-29.vietnam-force-levels` (Check: whose words) |
+| 69 | Mar. 16, 1962 | *Life*'s "Story of the Week" | entered, `cal.1962-03-16.press-and-broadcasting` (R13: *Life*) |
+| 69 | Apr. 26, 1962 | Ball and Bundy by telephone on the speech; Kennedy's guidance (not logged before) | entered, `cal.1962-04-26.vietnam` |
+| 69 | Apr. 30, 1962 | Higgins on Ball's speech | already in: `cal.1962-05-01.vietnam` carries the *Herald Tribune*'s reading |
+| 105 | Jan. 21, 1963 | press and liaison officials plan "favorable accounts" | entered, `cal.1963-01-21.vietnam` (FRUS 1961–63, III, doc. 23) |
+| 191 | Oct. 7, 1963 | Bundy at the staff meeting: "pollyana-ish" | entered, `cal.1963-10-07.vietnam-force-levels` (FRUS IV, doc. 187) |
+| 192 | Oct. 18, 1963 | the draft press release, 16,730 | entered, `cal.1963-10-18.vietnam-force-levels` (FRUS IV, doc. 201: Kattenburg to Hilsman on the proposed release) |
+| 193 | Oct. 19–21, 1963 | the 16,500 figure to be leaked | entered, `cal.1963-10-19.vietnam-force-levels` (the telegram's day; the leak set for Oct. 21) |
+| 126, 139, 188 | June 5, Oct. 20, Nov. 15, 1963 | the deadlines (the cost study, the Chiefs' decision, the CPSVN's revision) | still passed over: a deadline set is no event; the papers that set them are the entries already cited |
+| 136 | Oct. 1, 1963 | "not before Oct. 1" | still passed over: a planning date, no event |
 
 ## Leads
 

@@ -118,6 +118,8 @@ Mills, the committee and the administration's dealings with them, by day or mont
 
 ### Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10–11, 2026): the rows below ruled "below the calendar's level" are ruled again in "Batch 6: the rows below the level re-ruled", at the end.
+
 How the list was made: a script over the text layer of chs. 6–9 (pp. 179–311) listed every mention of a month and day, and of a month and year, 899 in all; the footnotes' (archival dates, the press) were set aside by their words (box, file, papers, interview, the newspapers' names), leaving 144, each with its page, an inferred year and the calendar's entries of that day (±1); each was read in context and judged against the calendar; the footnotes were then read for dated meetings, calls and statements the text gives without a date. Classes passed over without a row: dates outside the span (1969 and after, the 1950s); the footnotes' dates of staff memoranda and estimates (the JCIRT's, the SSA's, Cohen's and Myers's), "below the calendar's level" unless the text gives their matter; the dates of the entries Zelizer is already cited for.
 
 | Page | Date | Event | Why |
@@ -175,3 +177,21 @@ National:
 - The Ways and Means Republicans' paper of Oct. 1, 1962, "Reasons for a Vote Against: The Medicare Program" (JMIC); their statement against the investment credit, 1961 (JFK Library, POF, Box 107).
 - Mills's speeches whose words Zelizer does not give: Pulaski County Bar, Oct. 30, 1964; Chamber of Commerce, Aug. 27, 1968; National Association of Accountants, Dec. 10, 1968 (Mills Papers); his *Issues and Answers* of Feb. 11, 1968 (transcript, LBJ Library); his *U.S. News* interview of Oct. 9, 1967.
 - Zelizer's dates that differ from the record: the depreciation guidelines (July 1961 for July 1962); Dillon's warning (Nov. 24 in the text, Nov. 25 in the note); the conference vote of June 20, 1968 (268–159; Voteview 268–150).
+
+## Batch 6: the rows below the level re-ruled (Nov. 10–11, 2026)
+
+R18 now has "below the level" mean only a unit's routine, and the staff paper is an entry (R8); private talk of public business is the informal record (R7). Patch `inbox/2026-11-06-b6-zelizer-taxing-america.yaml` (5 ops: 3 new entries, claimed in the ledger; a `to-check` and a `src` on `cal.1968-04-23.economy-surcharge`). Witnesses: 14 new rows, `inbox/witnesses/2026-11-06-b6-zelizer-taxing-america.yaml`; 17 edges added to `sources/witnesses/by-work/zelizer-taxing-america.yaml` (201 n.87; 201 n.90a–k, lettered in the note's order, the repeated items g, h, j edges to the same witnesses as c, f, d; 249 n.171; 274 n.84b–e). The copy: the owner's PDF in Drive (1BCvZSJpgN7arSqP6GfJX4JQnQQ944VD3), downloaded again; printed page = PDF page − 20, as above, checked on the image of p. 201 (the notes' numbers read off it); deleted when done.
+
+| page | date | event | ruling |
+|---|---|---|---|
+| 200–201 | Feb. 25, 1963 | Barr to Desautels on the committee and its staff | entered, `cal.1963-02-25.economy-2` (n.87) |
+| 201 | May 1963 | Surrey's memoranda: Mills presses for rates of 15 to 65 percent | entered, `cal.1963-05.economy` (n.90; Check: the days) |
+| 241–42 | Mar. 2 and 5, 1965 | Cohen to the President; Cohen to O'Brien | the first in already, `cal.1965-03-02.medicare-2`; the second (n.127) a report of the session of Mar. 2 that gives no matter of its own: still passed over, a repetition, its record in `cal.1965-03-02.medicare`'s To check |
+| 249 | Mar. 31, 1965 | Mills asks Myers for the actuarial assumptions | entered, `cal.1965-03-31.medicare` (n.171) |
+| 274 | Apr. 24–May 3, 1968 | Fowler's, Zwick's and Sanders's memoranda on Mills's terms | in already: Mills's terms are `cal.1968-04-23.economy-surcharge` and `cal.1968-04-24.economy-surcharge`; the page gives the four memoranda's matter together, not one by one, so they join the To check of `cal.1968-04-23.economy-surcharge` with `via` rows (n.84b–e), and an entry each waits on their texts (lead) |
+
+Not borne out: none. Noted: the edge `274 n.84a` (an earlier run) names the *Wall Street Journal* of Apr. 24, which is the sixth item of n.84, not the first; the new letters b–e follow it rather than rename it (R35). The rows ruled "out of the brief (press reports, no act)" (198, 269) and the class passed over without a row ("the footnotes' dates of staff memoranda and estimates") were not ruled again here: the first is R13's question, the second a blanket exclusion (R48) for a later reading.
+
+### Leads (batch 6)
+
+- National: Fowler to Johnson, Apr. 24 and 26, 1968; Zwick to Johnson, Apr. 24, 1968; Sanders to Johnson, May 3, 1968 (LBJ Library; Zelizer, 274 n.84): each memorandum's matter, for an entry each.

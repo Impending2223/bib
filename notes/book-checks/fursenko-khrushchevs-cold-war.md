@@ -25,6 +25,8 @@ In the new entries, the days the work gives loosely ("four days after," "the nex
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; the rulings in "The fifth run" at the foot).
+
 Chapters 11–13 (pp. 241–337), row by row:
 
 | page | date | event | why |
@@ -252,3 +254,27 @@ The Passed over tables above carry each row's new ruling, marked "(b5)". In sum:
 
 - 1960-02-07 | *New York Times* | "The Great Debate over the Adequacy of Our Defense" (Gates on Power's estimate) | 254
 - 1961-09-25 | *New York Times* | Gruson, "Spaak Says Soviet Backs Wide Talks with No Deadline" | 394
+
+# The fifth run: the private and minor rows re-ruled (batch 6, Nov. 10–11, 2026)
+
+The owner's ruling of Nov. 5–6, 2026 (`notes/briefs/batch6.md`; R18 as amended). The same copy, fetched again from Drive (15i7_Os1UTxm4-EzLRK8JcR0Dp6R_oCXW, the sharing untouched): printed page = PDF page − 6 to p. 318, − 22 from p. 319 and through the notes (held at pp. 288, 306, 347, 367, 387, 400, 411, 421, 539 and notes pp. 585, 598, 602, 607–08, 623, read on their images as well as the text). Deleted after. Patch `inbox/2026-11-06-b6-fursenko.yaml` (10 entries added, each claimed in the ledger; 1 cite; their claim-map rows); witnesses `inbox/witnesses/2026-11-06-b6-fursenko.yaml` (6 rows, two of them passages of studies: Horne, II, 228; Harrison, 240); 9 edges appended to `sources/witnesses/by-work/fursenko-khrushchevs-cold-war.yaml`; a card made, `w.horne-macmillan-1957-1986`. `./bib patch-check`: 0 errors; 10 warnings, each a "one event?" or duplicate flag on a day or month the thread already holds, each pair read: distinct.
+
+| Page | Date | Event | Ruling now |
+|---|---|---|---|
+| 288 | May 17, 1960 | Eisenhower's "this man" | entered, `cal.1960-05-17.soviet-union-u2-3`: the Western heads of government at 3 p.m., the Soviets absent, FRUS 1958–60, IX, doc. 178 read and cited first (the meeting was cited only for Khrushchev's message, under `cal.1960-05-17.soviet-union-u2-2`) |
+| 288 | May 17, 1960 | Macmillan's diary: "has blown up, like a volcano!" | entered, `cal.1960-05-17.soviet-union-u2-4` (Check: the day) |
+| 306 | Aug. 1960 | the KGB renames its Cuba file AVANPOST | entered, `cal.1960-08.cuba-2`: the book treats it as a sign of Moscow's confidence in Castro, not a unit's routine |
+| 347 | Apr. 1961 | Alekseyev allowed to leave Cuba for Brazil | already in, `cal.1961-04.cuba-2` (from *One Hell of a Gamble*): cited, 347 |
+| 367 | June 1961 | Kennedy back on crutches | entered, `cal.1961-06.transition-and-staff` (the President's health on the eve of the Berlin summer; Check: the book's "March" for Ottawa) |
+| 367 | June 1961 | Kennedy reads the Vienna transcripts to Alsop and Graham (not logged before) | entered, `cal.1961-06.berlin-and-vienna` (R7, R13) |
+| 387 | Aug. 1961 | Schlesinger to a friend: gloomier than since 1939 | entered, `cal.1961-08.berlin-and-vienna-4` |
+| 400 | Oct. 1961 | the Indonesians (and the Laotian, Vietnamese and Chinese Communists) decline to back Khrushchev against Albania | entered, `cal.1961-10.soviet-union` (R10: the counterparts' acts; "minor" now means only R18's three) |
+| 411 | Dec. 1, 1961 | the East German ambassador in Peking on the Chinese view | entered, `cal.1961-12-01.china` (the note's memcon of Dec. 1, 1961) |
+| 421 | Jan. 20, 1962 | the East German protest at the autobahn let slide | entered, `cal.1962-01-20.berlin-and-vienna` (the note's Foreign Ministry record of Jan. 20) |
+| 539 | Feb. 1964 | Khrushchev to an Italian visitor: memoirs "when they send me away" | entered, `cal.1964-02.soviet-union-2` |
+| 280 | May 9–13, 1960 | the Soviet proposals handed to the French; the telcon | still passed over: a transmittal (R18, the passed-over papers) |
+| 375 | July 1961 | Gromyko's agenda and invitations | still passed over: a meeting's preparation (R18) |
+| 424 | Mar. 1962 | Soviet fighters in the corridors again | still passed over: a repetition (entered Feb. 7–15) |
+| 451 | June–July 1962 | the Anadyr crews' beards; the KGB's ship reports | not re-ruled: a unit's routine (R18), not this batch's ground |
+| 338 | Nov.–Dec. 1960 | Menshikov's hints | still passed over: a repetition |
+

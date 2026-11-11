@@ -69,6 +69,8 @@ Primary records cited first: the Public Papers for the special message of Mar. 1
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled minor (private remarks, social, routine) are ruled again in "Re-ruled under R18 as amended (b6)" below the table (read Nov. 10, 2026).
+
 Made from the reading notes, page by page: every dated event the book treats within the span, not entered and not already in the calendar.
 
 | Page | Date | Event | Why |
@@ -153,6 +155,23 @@ Made from the reading notes, page by page: every dated event the book treats wit
 | 427–52 | 1968-08 | Chicago: Hayden, Lincoln Park, the cells | already in the calendar but for Wofford's night in jail (442–43), minor |
 | 461–84 | 1957–60 | The appendix: the Commission's hearings and reports | out of the brief: before Jan. 6, 1960, but for its 1960 passages, already in the calendar |
 
+### Re-ruled under R18 as amended (b6, Nov. 10, 2026)
+
+Read again from the owner's copy (the same Drive file, 520 PDF pages with a text layer, downloaded into the scratchpad and deleted after; offset unchanged, printed page = PDF page − 12; p. 442 checked against its page image, PDF 454). Patch: `inbox/2026-11-06-b6-wofford-of-kennedys.yaml` (b6-wofford-of-kennedys: 7 entries added). A by-work file made for the one work the text quotes as its ground for a re-ruled passage: `sources/witnesses/by-work/wofford-of-kennedys-and-kings.yaml` (26, Nixon's *Six Crises*, the chauffeur).
+
+| Page | Date | Event | Ruling under R18 as amended |
+|---|---|---|---|
+| 26 | 1960-11-10 | Nixon's chauffeur; Nixon: "it was mine" | entered, `cal.1960-11-10.elections-1960-nixon` (Nixon's account, quoted; *Six Crises* to check) |
+| 43–44 | 1960-05 | Sorensen to Wofford at lunch: Goodwin; Shriver "the house Communist"; good and bad | entered, `cal.1960-05.elections-1960-kennedy` (Check: the day) |
+| 65 | 1960-11-08 | Raymond Jones to Wofford on election day | entered, `cal.1960-11-08.elections-1960-king` |
+| 65–66 | 1960-11-09 | "I'm hungry" | passed over: a remark with no bearing on public business |
+| 74 | 1960-11/12 | Kennedy's call to the talent search on the leaks | entered, `cal.1960-12.transition-and-staff-5` (Check: the month) |
+| 79–80 | 1960-11 | Wofford with Stevenson on the Field Foundation's Georgia tour | entered, `cal.1960-11.transition-and-staff-cabinet-3` (a party figure's tour and his talk of the State Department; Check: the day) |
+| 95 | 1961-01-19 | the talent search's files to the White House | entered, `cal.1961-01-19.transition-and-staff` |
+| 441–43 | 1968-08-30 | Wofford's night in jail; the night court, about 3 a.m. | entered, `cal.1968-08-30.elections-1968-chicago-streets-2` (the arrest itself already in, `cal.1968-08-29.elections-1968-chicago-5`) |
+
+Not ruled again: p. 20 (Justice's draft statement for Eisenhower, already in the calendar) and p. 51 (Bowles's draft of the platform, a lead for the day). Seen on the pages read and not listed before, for the next reading: p. 74, Kennedy to Neustadt, "I don't want you to relate to Clark Clifford" (the transition, undated: lead). (Kempton's columns of 1968, p. 442, are already in: `cal.1968-03.press-and-broadcasting-2`, `cal.1968-06.press-and-broadcasting`.)
+
 ## The press
 
 | Date | Outlet | Item | Page |
@@ -173,3 +192,4 @@ National:
 - Wofford's memorandums and letters to the President, 1960–62: Wofford Papers, JFK Library, not read.
 - Louis Martin, Mildred Jeffrey, Warren Wiggins, William Josephson, Franklin Williams, Thomas Farmer: no name entries; each acts in the new entries.
 - The Senate Foreign Relations hearing on the Peace Corps Act, 1961, Shriver's testimony on his return (274): govinfo.
+- (b6) Kennedy to Neustadt, "I don't want you to relate to Clark Clifford," the transition (74): the day.

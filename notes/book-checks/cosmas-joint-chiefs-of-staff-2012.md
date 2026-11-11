@@ -64,6 +64,8 @@ Entries mapped: 51; records logged: 88 (found and read 45, found and not read or
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled minor, here and in the military re-read's list, in "Re-ruled under R18 as amended (b6)" before the Leads (read Nov. 10, 2026).
+
 Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and the calendar does not take, a row each, for the owner to rule on. Method: every dated mention on the pages read for the entries (not the whole volume) was found by pattern; a mention on a day the calendar holds an entry of a related thread (Vietnam, Laos, Defense, Cuba, Berlin, Korea, the alliance, the Middle East and the like) was taken as already in and is not listed; the rest were read and ruled here, the calendar checked by day where the ruling says "already in". The military re-read of Nov. 5, 2026 (below) read the whole volume for operations, actions, incidents, orders and deployments and re-ruled the rows of that kind; its own rows follow the first pass's.
 
 | Page | Date | Event | Why |
@@ -174,6 +176,24 @@ Every dated military event of the volume not entered and not already in, a row e
 | 485–90 | Apr.–Dec. 1966 | the barrier: Starbird's task force, the plans | lead: the Barrier thread not checked against these pages |
 | 518 | Dec. 2, 4, 13–14, 1966 | Yên Viên and Văn Điển struck | already in under cal.1966-12-02.vietnam-marigold and cal.1966-12-13.vietnam-air-war |
 | 520 | Jan. 24, 1967 | Rolling Thunder 53 approved | lead |
+
+## Re-ruled under R18 as amended (b6, Nov. 10, 2026)
+
+The copy: DTIC's scan on archive.org, DTIC_ADA557393, its OCR text (`_djvu.txt`), split into pages by the printed folios at each page's foot, the endnotes looked up by chapter and number; downloaded into the scratchpad and deleted after. The FRUS documents the notes name read in `sources/frus-text/` (1964–68, I, docs. 409, 411, 412). Patch: `inbox/2026-11-06-b6-cosmas-joint-chiefs.yaml` (b6-cosmas-joint-chiefs: 9 entries added, 1 cite, 1 map row). Witnesses: `inbox/witnesses/2026-11-06-b6-cosmas-joint-chiefs.yaml` (9), edges in the by-work file (10). "Minor" no longer covers a commander's, an ambassador's or a staff's paper (R8) or a trip (R15): each row below is now an entry or in one.
+
+| Page | Date | Event | Ruling under R18 as amended |
+|---|---|---|---|
+| 11 | Dec. 23, 1963 | "decelerated greatly" | entered, `cal.1963-12-21.vietnam-3`; not Lodge's, as the row had it, but Krulak's report as the Chiefs' special assistant, dated Dec. 23 in the text and Dec. 21 in the note's memorandum (n.15): the entry takes the paper's date, a Check giving the text's |
+| 11 | Jan. 23, 1964 | Lodge and Harkins tour provinces with Minh | entered, `cal.1964-01-23.vietnam` (the tour and Lodge's report, Saigon 1374) |
+| 32 | Mar. 6, 1964 | the Joint Staff's study of a blockade | entered, `cal.1964-03-06.vietnam` |
+| 46 | May 20, 1964 | VNAF mine-laying training to resume; A-1s on schedule | entered within the memorandum that gives it, JCSM-445-64 of May 23: `cal.1964-05-23.vietnam` |
+| 157 | Oct. 27, Nov. 14, 1964 | the Chiefs on the enemy's reactions | Oct. 27 already in (`cal.1964-10-27.vietnam`, JCSM-902-64); Nov. 14 entered, `cal.1964-11-14.vietnam-2` (FRUS 1964–68, I, doc. 411, read) |
+| 161 | Nov. 10, 1964 | Taylor's Mission Council on the minimum government | entered, `cal.1964-11-10.vietnam-2` (FRUS 1964–68, I, doc. 409, read) |
+| 162 | Nov. 16, 1964 | Rostow to McNamara on the signal | entered, `cal.1964-11-16.vietnam-2` (FRUS 1964–68, I, doc. 412, read) |
+| 198 | Jan. 6, 1965 | Taylor on the number of advisers | already in (`cal.1965-01-06.vietnam`): cited, 198–99, unit F, its record (198 n.40) mapped |
+| 365 | May 22, 1965 | the Chiefs for CINCPAC's concept | entered, `cal.1965-05-22.vietnam-air-war-3`; McNamara's disapproval of June 22 (on the page, not listed before) entered, `cal.1965-06-22.vietnam-air-war` |
+
+Seen on the pages read and not listed before, for the next reading: 365–66, Taylor's proposal of May 13, 1965 to vary the pattern of strikes, and Sharp's objection (365 n.15).
 
 ## Leads
 

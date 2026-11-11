@@ -110,6 +110,8 @@ Dates the notes give that the entries do not (Checks written): William Bundy to 
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026): the two rows ruled private (Harvey Bundy's death; the Fifth Avenue apartment) were read again and stand, below, "Batch 6".
+
 Made from the 440 dated sentences, pp. 140-409; an event the calendar holds took its cite or none and is not here.
 
 | page | date | event | why |
@@ -141,3 +143,14 @@ National
 - I. F. Stone's "Reply to the White Paper": *I. F. Stone's Weekly*, Mar. 8, 1965 (the issue to confirm).
 - Kraft and I. F. Stone have no name entries: propose Part III entries (R13). Foreign
 - Indonesia, 1965-66 (Bird 351-354): the CIA's assessment of Jan. 3, 1966, and Komer's report to Johnson of Feb. 10, 1966 ("some 100,000 Communists have been killed"): to set against the Indonesia thread.
+
+## Batch 6: the private rows re-ruled (Nov. 10, 2026)
+
+No patch: nothing entered. The copy: the owner's PDF in Drive (10jrYYg-uRuQJSsACk9oQVTyBQGa5IlWF), downloaded again; the offsets as above (− 3 to p. 224, − 19 from p. 225); pp. 265 and 376–393 read again off the text layer; deleted when done.
+
+| page | date | event | ruling |
+|---|---|---|---|
+| 265 | Oct. 7, 1963 | Harvey Bundy's death at Boston; the funeral while his sons are "intensely preoccupied with the question of Diem" | still passed over: a family matter, no bearing on public business |
+| 376 | spring 1966 | the Bundys buy an apartment on Fifth Avenue | still passed over: personal, no bearing on public business |
+
+Not borne out: none.

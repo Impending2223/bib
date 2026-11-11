@@ -61,6 +61,8 @@ The merge flags as possible duplicates the new entries that share a day and thre
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; Nov. 10, 2026): no row here is ruled private, social, personal, family, trivia, a draft or "minor", so none is re-ruled; the copy was not fetched. The rows ruled "below the calendar's level" (staff memoranda, routine cables and conversations), "undated" for an event the page dates to a month ("in July", "late October"), and "a journalist's column, no act" are other grounds that R8, R15 and R13 (Oct. 29–Nov. 1) have since made entries: for a later run, not this batch.
+
 How the list was made: the book read through in twelve-page passages, pp. 1–413, every dated event (a day or a month) noted with its page and note as it came; each then looked for in the calendar on its day (the calendar's dated entries, all threads, dumped Oct. 28 and again Oct. 29) and, where in, named by its id. Not listed: events before Aug. 1963 that the opening chapters recount in passing (the Kennedy years, 1961–63, as background), the British, French, Canadian, Soviet, Chinese and North Vietnamese governments' internal deliberations, which are out of the brief unless an American act or a meeting with Americans is dated, and newspaper editorials and columns that carried no act. "Below the calendar's level": staff and interagency memoranda that set no decision, an ambassador's or adviser's routine cable or conversation. "A lead": a dated event whose record the page does not give enough of to enter, or whose record was not read; the leads are in `notes/leads.md` (National; Foreign).
 
 | Page | Date | Event | Why |

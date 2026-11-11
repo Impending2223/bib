@@ -71,6 +71,8 @@ None: no pending patch touched these days when the patch was written.
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, b6-nixon-six-crises; done Nov. 10, 2026). The rows ruled family, social, private, personal, an office's routine or a lead for the folio were read again off the owner's copy (the same Drive file and offset, printed = PDF − 22; p. 415 checked on the page image). Patch `inbox/2026-11-06-b6-nixon-six-crises.yaml`: 7 entries, 1 edit (Sept. 26, 1960), 3 cites (two on entries other batch-6 readers have claimed, cal.1960-11-10.elections-1960-nixon and cal.1961-01-20.transition-and-staff-2, which wait in the deferred ops until they land). No witnesses: the pages cited name none but Nixon's own recollection. The rows ruled repetitions, "no act", already in or out of the span stand.
+
 Made from the whole chapter, page by page, against the calendar's entries for 1960–62 (`./bib find -l cal --since 1960-01 --until 1961-01`) and the reading notes; every dated event within the span not entered. Revised Oct. 29, 2026, under the owner's ruling of Oct. 28 (late), and again Nov. 3–4, 2026, under the reader's brief (R5, R13, R15, R18): the rows now entered are in "Entered" below; the front matter and the passages outside the campaign chapter, read this time, add their rows.
 
 | Page | Date | Event | Why |
@@ -81,29 +83,29 @@ Made from the whole chapter, page by page, against the calendar's entries for 19
 | 311 | May 1960 | the U-2, the summit's collapse | already in (Soviet Union: U-2) |
 | 316–17 | July 26–27 | Eisenhower's address; Hatfield nominates Nixon, "by acclamation" | already in as `cal.1960-07-26.elections-1960` (see Disagreements) |
 | 318 | July 28 | Goldwater's and Rockefeller's speeches; the acceptance | already in (`cal.1960-07-27.conservative-movement`, `cal.1960-07-28.elections-1960`) |
-| 327 | Aug. 29–Sept. 9 | the girls' evening visits to the hospital | minor: family |
-| 341 | Sept. 26 | his mother's call | minor: family |
+| 327 | Aug. 29–Sept. 9 | the girls' evening visits to the hospital | re-ruled, still passed over: family and social matters with no bearing on public business |
+| 341 | Sept. 26 | his mother's call | re-ruled: entered in cal.1960-09-26.elections-1960-3 (an edit: her call after the broadcast, asking whether he was "feeling all right," added to `c`, the debate's reception; 340–41 already cited) |
 | 360–61, 363–64, 370 | Oct. 24–Nov. 5 | the last weeks' attacks on Kennedy's "rash" statements | minor: repetitions of positions entered (the places in the swing entries) |
 | 371 | Nov. 6 | the taped half hour from Los Angeles | already in as `cal.1960-11-06.elections-1960` |
 | 379–92 | Nov. 8–9 | the returns through the night | already in as `cal.1960-11-08` and `-11-09` entries |
-| 395 | Nov. 9, about 9 a.m. | a Los Angeles law firm's offer of a partnership | minor: private, an offer of employment (his choice of the law is entered, Feb. 1961) |
+| 395 | Nov. 9, about 9 a.m. | a Los Angeles law firm's offer of a partnership | re-ruled: entered as cal.1960-11-09.republican-party-2 (done in private about a career in politics) |
 | 396 | after the election | *Newsweek*'s informal poll of the reporters who covered the campaign: Kennedy 37, Nixon 13 | lead: no date (Leads) |
-| 402 | Nov. 9 | Bob Reynolds's handwritten letter of consolation | minor: private |
-| 403 | Nov. 10 | Wardlaw, his driver, on the Negro vote | minor: a private remark of a man with no public role |
-| 403 | Nov. 10 | Nixon at his Capitol office, the wires and letters | minor: an office's routine |
-| 411, 413–14 | Nov. 20, 1960–Jan. 20, 1961 | the office's 160,000 letters and 500,000 cards to workers and contributors | minor: an office's routine |
-| 414–15 | Christmas 1960 | New York with his daughters; *Fiorello!*, the audience's ovation | minor: family |
-| 415 | Dec. 1960–Jan. 1961 | two White House dinners, Eisenhower's toasts; Byrnes's dinner and toast | minor: social |
-| 417 | Jan. 20, 1961 | Strauss's luncheon at the F Street Club; the last drive to the Capitol | minor: social |
+| 402 | Nov. 9 | Bob Reynolds's handwritten letter of consolation | re-ruled, still passed over: remarks with no bearing on public business (a college professor's advice on defeat, passed on) |
+| 403 | Nov. 10 | Wardlaw, his driver, on the Negro vote | re-ruled: cited under cal.1960-11-10.elections-1960-nixon, the entry the Wofford reader claimed in the ledger (402–03, with Nixon's answer) |
+| 403 | Nov. 10 | Nixon at his Capitol office, the wires and letters | re-ruled, still passed over: a unit's routine the work does not treat as an event |
+| 411, 413–14 | Nov. 20, 1960–Jan. 20, 1961 | the office's 160,000 letters and 500,000 cards to workers and contributors | re-ruled: entered as cal.1960-11-20.republican-party (the candidate's communication with the party's workers, R9) |
+| 414–15 | Christmas 1960 | New York with his daughters; *Fiorello!*, the audience's ovation | re-ruled: entered as cal.1960-12.republican-party (the public's ovation for the defeated candidate; Check: the day) |
+| 415 | Dec. 1960–Jan. 1961 | two White House dinners, Eisenhower's toasts; Byrnes's dinner and toast | re-ruled: entered as cal.1960-12.republican-party-2 (the dinners, with Mrs. Eisenhower's urging of a book, xi) and cal.1960-12.republican-party-3 (Byrnes); social occasions among the principals |
+| 417 | Jan. 20, 1961 | Strauss's luncheon at the F Street Club; the last drive to the Capitol | re-ruled: the luncheon cited under cal.1961-01-20.transition-and-staff-2, the entry the *RN* reader claimed in the ledger; the evening's drive to the Capitol still passed over (personal, no bearing on public business) |
 | 418–19 | after Christmas 1960 | the second-guessing of the campaign, a list of claims | minor: Nixon's summary, no one's claim dated |
 | 419–20 | after the election | Willard Edwards's letter on the press's coverage | lead: no date (Leads) |
 | 423 n.15 | after the election | Dewey's counsel: no decisions for sixty days | lead: no date (Leads) |
 | 424 | Nov. 1961 | "just a year after November 8": Nixon's income, California | minor: no act |
-| 127 | Dec. 1960 | Nixon's Christmas reception for the press, on his finances | minor: social |
-| 127 | 1961 | the rumors on the price of his Beverly Hills house | minor: personal; no month |
-| xi | after the election | Mrs. Eisenhower, at a White House dinner, on a book of his | minor: social |
-| xi–xii | Apr. 1961 | Adela Rogers St. Johns's call; Ken McCormick of Doubleday flies out the next day; the six crises chosen; the book undertaken | lead: the folio (Leads) |
-| xiii | 1961–62 | Robinson and Milburn of Northwestern, by letter, their questions on crisis behavior | minor: private, questions on the book |
+| 127 | Dec. 1960 | Nixon's Christmas reception for the press, on his finances | re-ruled: entered as cal.1960-12.press-and-broadcasting (127–28; an exchange with the press on his finances, R13; Check: the day) |
+| 127 | 1961 | the rumors on the price of his Beverly Hills house | re-ruled: a lead (no month; no act dated: Leads) |
+| xi | after the election | Mrs. Eisenhower, at a White House dinner, on a book of his | re-ruled: entered in cal.1960-12.republican-party-2 (unit C) |
+| xi–xii | Apr. 1961 | Adela Rogers St. Johns's call; Ken McCormick of Doubleday flies out the next day; the six crises chosen; the book undertaken | re-ruled: entered as cal.1961-04.republican-party (a principal's publication undertaken; the roman folio is now a pinpoint, `claims.ROMAN_PIN`); Kennedy on writing a book, the April visit (xi), cited under cal.1961-04-20.cuba-bay-of-pigs |
+| xiii | 1961–62 | Robinson and Milburn of Northwestern, by letter, their questions on crisis behavior | re-ruled, still passed over: remarks with no bearing on public business (two scholars' questions for the book), no month |
 | 248 | 1961 | the Kennedy administration keeps Thompson at Moscow | lead: no date; Thompson's tenure is the Executive roster's |
 | 273 | 1961 | "we bluffed" in Laos and Cuba | minor: Nixon's comment, no act |
 
