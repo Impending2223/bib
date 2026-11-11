@@ -21,7 +21,7 @@ ops:
 - cite:
     id: cal.1961-10-11.vietnam
     item: '[[w.selverstone-kennedy-withdrawal]], 36 (the press conference, Oct. 11: Taylor to visit Vietnam; troops to await his return)'
-    units: B
+    units: B, C
 - cite:
     id: cal.1961-10-18.vietnam
     item: '[[w.selverstone-kennedy-withdrawal]], 38 (Taylor''s trip begins Oct. 18; the Mekong flood, over 200,000 homes destroyed)'
@@ -41,7 +41,7 @@ ops:
 - cite:
     id: cal.1962-02-14.vietnam
     item: '[[w.selverstone-kennedy-withdrawal]], 57 (the news conference: "not sent combat troops in the generally understood sense of the word"; members of both parties briefed on the advisers)'
-    units: A, B, C
+    units: A, C
 - cite:
     id: cal.1962-02-20.vietnam-congress
     item: '[[w.selverstone-kennedy-withdrawal]], 58 (Harriman before Foreign Relations in executive session, Feb. 20: no combat troops in Vietnam; Morse and Gore uncomfortable)'
@@ -58,7 +58,7 @@ ops:
 - cite:
     id: cal.1963-05-08.vietnam
     item: '[[w.selverstone-kennedy-withdrawal]], 118 (the Huế radio station crowd, the Buddhist flag against the decree on flags, troops, Diệm blames the Communists; 126, 133 refer back to the May 8 incident)'
-    units: A, B, D
+    units: A, B, F
 - cite:
     id: cal.1963-05-12.vietnam
     item: '[[w.selverstone-kennedy-withdrawal]], 126 (May 12: the *Washington Post*''s front-page story on Nhu''s wish that the United States halve its 12,000 to 13,000 advisers)'
@@ -70,11 +70,11 @@ ops:
 - cite:
     id: cal.1963-08-21.vietnam
     item: '[[w.selverstone-kennedy-withdrawal]], 142 (the GVN declares martial law, ransacks the pagodas, arrests Buddhist and student protesters; Lodge arrives after)'
-    units: B, C, D
+    units: D
 - cite:
     id: cal.1963-08-28.vietnam
     item: '[[w.selverstone-kennedy-withdrawal]], 143 (Aug. 28: Ball and Harriman "already beyond the point of no return," the question "how do we make this coup successful")'
-    units: B
+    units: B, C
 - cite:
     id: cal.1963-08-29.vietnam
     item: '[[w.selverstone-kennedy-withdrawal]], 143–44 (Kennedy''s letter to Lodge the next day: "When we go, we must go to win, but it will be better to change our minds than to fail")'
@@ -90,7 +90,7 @@ ops:
 - cite:
     id: cal.1963-09-09.vietnam-saigon
     item: '[[w.selverstone-kennedy-withdrawal]], 152 (Lodge with Diệm, Sept. 9, on Senate statements about suspending aid)'
-    units: A
+    units: B
 - cite:
     id: cal.1963-09-10.vietnam
     item: '[[w.selverstone-kennedy-withdrawal]], 154 (Krulak and Mendenhall brief Kennedy, Sept. 10: the war going well in the countryside, politics scathing in the cities; Kennedy wonders whether they
@@ -128,13 +128,13 @@ ops:
     units: A
 - variant:
     id: cal.1963-05-08.vietnam
-    unit: C
+    unit: E
     witness: w.selverstone-kennedy-withdrawal
     reads: killed and injured over twenty Vietnamese citizens
     at: '118'
 - check:
     id: cal.1963-05-08.vietnam
-    text: 'Check: Selverstone, 118, gives "killed and injured over twenty," not eight killed.'
+    text: 'Check: Selverstone, 118, gives "killed and injured over twenty"; the entry counts eight killed.'
 - variant:
     id: cal.1963-08-21.vietnam
     unit: A
@@ -144,3 +144,63 @@ ops:
 - check:
     id: cal.1963-08-21.vietnam
     text: 'Check: Selverstone, 142, puts the raids and martial law on the night of Aug. 21, not Aug. 20–21.'
+- cite:
+    id: cal.1961-04-29.vietnam
+    item: '[[w.selverstone-kennedy-withdrawal]], 24 (the NSC, Apr. 29, reviews Gilpatric''s draft recommendations; Kennedy authorizes 78 Army communications men, some 40 CIA, 100 more MAAG)'
+    units: A, D
+- primary:
+    id: cal.1961-04-29.vietnam
+    text: '[FRUS 1961–63, I, doc. 40](https://history.state.gov/historicaldocuments/frus1961-63v01/d40) (editorial note: the NSC, 10 a.m., on the Program of Action; paragraphs 3a–3e approved; NSC Action No. 2416).'
+    units: A, D
+- cite:
+    id: cal.1961-04-21.cuba
+    item: '[[w.selverstone-kennedy-withdrawal]], 23 (Kennedy tells journalists, Apr. 21, he is the responsible officer of the government)'
+    units: A
+- add:
+    entry:
+      id: cal.1963-11-22.foreign-aid
+      when: Nov. 22
+      date: '1963-11-22'
+      thread: foreign-aid
+      also: [vietnam]
+      c: 'Remarks prepared for delivery at the Dallas Trade Mart, not delivered. Military and economic assistance a "key role in enabling those who live on the periphery of the Communist world to maintain their independence of choice"; "painful, risky and costly, as is true in Southeast Asia today. But we dare not weary of the task."'
+      n: 'Remarks Prepared for Delivery at the Trade Mart in Dallas, [1963 Pub. Papers 890](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=948) (Nov. 22, 1963). [[w.selverstone-kennedy-withdrawal]], 203. See [[cal.1963-11-22.assassination]]. Names: Kennedy.'
+      tags: [name:kennedy-john-f, city:dallas, state:tx]
+- cite:
+    id: cal.1963-08.vietnam-diplomacy
+    item: '[[w.selverstone-kennedy-withdrawal]], 146–47 (de Gaulle, Aug. 29, public: help for the Vietnamese to unify their country, "independence from exterior influences"; not the inclusive government)'
+    units: '?'
+- check:
+    id: cal.1963-08.vietnam-diplomacy
+    text: 'Check: Selverstone, 146, gives the day, Aug. 29 (citing Grose, *New York Times*, Aug. 30, 1963, 1).'
+- add:
+    entry:
+      id: cal.1963-08-30.vietnam-diplomacy
+      when: Aug. 30
+      date: '1963-08-30'
+      thread: vietnam-diplomacy
+      also: [europe-and-the-alliance-france]
+      c: 'Alphand calls on Rusk, 5 p.m., after de Gaulle''s statement. Rusk: no indication yet "that a truly neutral Vietnam was possible"; "A false neutrality would be most dangerous." Alphand: the statement "a long term proposition."'
+      n: '[FRUS 1961–63, IV, doc. 28](https://history.state.gov/historicaldocuments/frus1961-63v04/d28). [[w.selverstone-kennedy-withdrawal]], 147 (Rusk to the French: a "truly neutral" Vietnam not yet possible, a "false neutrality" a great danger). See [[cal.1963-08.vietnam-diplomacy]]. Names: Alphand, Rusk.'
+      tags: [name:alphand-herve, name:rusk-dean]
+- add:
+    entry:
+      id: cal.1963-09-17.vietnam-3
+      when: Sept. 17
+      date: '1963-09-17'
+      thread: vietnam
+      c: 'Kennedy, at a recorded meeting, asks McNamara and Taylor to see Lodge and "get his whole feeling about this thing"; they are to form "their best judgment of how the war is going." Taylor''s part "would look well here."'
+      n: '[[w.selverstone-kennedy-withdrawal]], 158–59. To check: Meeting Tape 111, Sept. 17, 1963, POF, Presidential Recordings, JFKL (cited by [[w.selverstone-kennedy-withdrawal]], 159 n.59). See [[cal.1963-09-17.vietnam]]. Names: Kennedy, McNamara, Taylor, Lodge.'
+      tags: [name:kennedy-john-f, name:mcnamara-robert-s, name:taylor-maxwell, name:lodge-henry-cabot]
+- variant:
+    id: cal.1963-03-24.foreign-aid
+    unit: A
+    witness: w.selverstone-kennedy-withdrawal
+    reads: 'the report "trying to do too much for too many too soon" (by way of *Time*, Mar. 29)'
+    at: '112'
+- edit:
+    id: cal.1963-08.vietnam-diplomacy
+    base: d649d481
+    set:
+      when: Aug. 29
+      date: '1963-08-29'
