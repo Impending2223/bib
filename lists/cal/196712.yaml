@@ -1625,6 +1625,22 @@ entries:
     time_band: workday daytime
     time_zone: Pacific/Honolulu
     range_basis: kind
+  - id: cal.1967-12-17.vietnam-3
+    when: Dec. 17
+    date: '1967-12-17'
+    thread: vietnam
+    c: '11:35 a.m., Johnson to Cross, his pilot, on word of Holt''s death: he may fly to Australia the next day. The big 707 under repair in New York; Johnson takes a backup 707.'
+    n: '[[w.longley-lbjs-1968]], 1–2 (by Cross''s account). To check: [[w.cross-around-the-world-with]], 134–35 (cited by [[w.longley-lbjs-1968]], 2 n.1). See [[cal.1967-12-17.vietnam-2]]. Names: Johnson.'
+    src:
+      c: 8b15d1a6
+      rows:
+        - 'w.longley-lbjs-1968 1–2: all'
+    tags: [name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-12-17.vietnam-2
+        from: b6-longley
   - id: cal.1967-12-18.court
     when: Dec. 18
     date: '1967-12-18'
@@ -1888,6 +1904,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-12-19.program
+    when: Dec. 19
+    date: '1967-12-19'
+    thread: program
+    c: 'Acheson to Rostow on a draft of the State of the Union: abandon it, start fresh; the Vietnam sections "tired clichés."'
+    n: '[[w.longley-lbjs-1968]], 15. To check: Acheson to Rostow, Dec. 19, 1967, Statements of Lyndon Baines Johnson, Jan. 7–17, 1968, box 260, LBJ Library (cited by [[w.longley-lbjs-1968]], 15 n.17). Names: Acheson, Rostow.'
+    src:
+      c: 523cbb5e
+      rows:
+        - 'w.longley-lbjs-1968 15: all'
+        - 'via w.longley-lbjs-1968 15 n.17: all'
+    tags: [name:acheson-dean-g, name:rostow-walt-w]
   - id: cal.1967-12-20.opinion
     when: Dec. 20
     date: '1967-12-20'
@@ -2962,3 +2990,14 @@ entries:
         - 'w.smith-on-his-own-terms 546: all'
         - 'via x.1967-12.rockefeller-strike-a-balance: all'
     tags: [name:rockefeller-nelson, state:ny]
+  - id: cal.1967-12.vietnam-congress-3
+    when: Dec.
+    date: 1967-12
+    thread: vietnam-congress
+    c: 'McGovern, leaving a White House dinner: Johnson "a tortured and confused man" over Vietnam, by Fry''s report.'
+    n: '[[w.longley-lbjs-1968]], 3. To check: [[w.fry-debating-vietnam]], 139 (cited by [[w.longley-lbjs-1968]], 3 n.8). Check: the day; Longley dates it "in late 1967." Names: McGovern, Johnson.'
+    src:
+      c: f55f702a
+      rows:
+        - 'w.longley-lbjs-1968 3: all'
+    tags: [name:mcgovern-george, name:johnson-lyndon-b]

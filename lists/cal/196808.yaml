@@ -4298,6 +4298,17 @@ entries:
       rows:
         - 'w.macv-command-history-1968 388: all'
     tags: [province:quang-duc]
+  - id: cal.1968-08-23.elections-1968-chicago-10
+    when: Aug. 23
+    date: '1968-08-23'
+    thread: elections-1968-chicago
+    c: 'Hardesty and Middleton to Johnson: their draft of a speech for the convention on his birthday, opening on Atlantic City.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 320. To check: Hardesty and Middleton memo for LBJ, Aug. 23, 1968, Califano''s Personal Papers (cited by [[w.califano-triumph-and-tragedy-of]], 320 n.7). See [[cal.1968-08-09.democratic-party]]. Names: Hardesty, Johnson.'
+    src:
+      c: ef8e2e6a
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 320: all'
+    tags: [name:hardesty-robert, name:johnson-lyndon-b]
   - id: cal.1968-08-24.specials
     when: Aug. 24
     date: '1968-08-24'
@@ -4707,11 +4718,13 @@ entries:
     thread: elections-1968-chicago
     also: [elections-1968-johnson]
     c: The White House, Sunday afternoon to after midnight, by Clifford's account. Clifford, Califano and McPherson draft the speech Johnson insists be ready for him to deliver at the convention in Chicago, none of them believing it should be given.
-    n: '[[w.clifford-counsel-to-the-president-2]], 565. To check: [[w.califano-triumph-and-tragedy-of]]. Names: Clifford, Califano, McPherson, Johnson.'
+    n: '[[w.clifford-counsel-to-the-president-2]], 565; [[w.califano-triumph-and-tragedy-of]], 320 (Busby''s draft to the Ranch Aug. 25; the working draft, McPherson''s, Clifford''s and Califano''s, Aug. 26; Johnson''s changes by Jones, Temple and Levinson); [[w.longley-lbjs-1968]], 218 (the draft at the Ranch by Aug. 25; two days'' editing; its closing pledge, by Califano to Johnson, Aug. 26, 218 n.45). Names: Clifford, Califano, McPherson, Johnson.'
     src:
+      c: fe597f9f
       rows:
         - 'w.clifford-counsel-to-the-president-2 565: all'
-      c: fe597f9f
+        - 'w.califano-triumph-and-tragedy-of 320: ?'
+        - 'w.longley-lbjs-1968 218: ?'
     tags: [name:clifford-clark, name:califano-joseph-a-jr, name:mcpherson-harry, name:johnson-lyndon-b]
   - id: cal.1968-08-26.soviet-union-czechoslovakia
     when: Aug. 26
@@ -5351,6 +5364,45 @@ entries:
     time_band: workday daytime
     time_zone: America/Chicago
     range_basis: kind
+  - id: cal.1968-08-27.elections-1968-chicago-19
+    when: Aug. 27
+    date: '1968-08-27'
+    thread: elections-1968-chicago
+    c: 'Austin, about 5 p.m. Johnson''s birthday party at Luci Nugent''s house: the press sing "Happy Birthday"; he answers their questions at length. By Mrs. Johnson''s diary.'
+    n: '[[w.longley-lbjs-1968]], 222. To check: [[w.johnson-white-house-diary]], 706 (cited by [[w.longley-lbjs-1968]], 222 nn.61–63). See [[cal.1968-08-27.elections-1968-chicago-2]]. Names: Johnson, Luci Baines Johnson Nugent, Lady Bird Johnson.'
+    src:
+      c: 763ed18f
+      rows:
+        - 'w.longley-lbjs-1968 222: all'
+    tags: [name:johnson-lyndon-b, name:nugent-luci-baines-johnson, name:johnson-lady-bird]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-08-27.elections-1968-chicago-2
+          - cal.1968-08-27.elections-1968-chicago-15
+          - cal.1968-08-27.elections-1968-chicago-16
+          - cal.1968-08-27.elections-1968-chicago-17
+        from: b6-longley
+  - id: cal.1968-08-27.elections-1968-chicago-20
+    when: Aug. 27
+    date: '1968-08-27'
+    thread: elections-1968-chicago
+    c: The Ranch, from about 9 p.m. Johnson, back from a drive with Tom Johnson and Pickle, brings in the Thornberrys from their plane; some twenty, Jones and Temple among them, watch the convention through dinner.
+    n: '[[w.longley-lbjs-1968]], 222. To check: [[w.johnson-white-house-diary]], 706 (cited by [[w.longley-lbjs-1968]], 222 n.64). See [[cal.1968-08-27.elections-1968-chicago-2]]. Names: Johnson, Tom Johnson, Pickle, Thornberry, James R. Jones, Temple.'
+    src:
+      c: 774d637d
+      rows:
+        - 'w.longley-lbjs-1968 222: all'
+    tags: [name:johnson-lyndon-b, name:johnson-tom, name:pickle-james-j, name:thornberry-william-h, name:jones-james-r, name:temple-larry]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-08-27.elections-1968-chicago-2
+          - cal.1968-08-27.elections-1968-chicago-15
+          - cal.1968-08-27.elections-1968-chicago-16
+          - cal.1968-08-27.elections-1968-chicago-17
+          - cal.1968-08-27.elections-1968-chicago-19
+        from: b6-longley
   - id: cal.1968-08-28.elections-1968
     when: Aug. 28
     date: '1968-08-28'
@@ -5464,12 +5516,13 @@ entries:
     thread: elections-1968-chicago-platform
     also: [vietnam]
     c: 'The convention, 1:04 a.m. Commotion over the rules for the platform''s debate. 1:13, Burton recognized to open the debate on Vietnam; clapping in unison. Albert: "Will the Convention be in order?" The delegates: "No." 1:17, Daley draws a finger across his throat; Albert takes his motion to adjourn.'
-    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2283, 2338 (Albert had refused a McCarthy delegate''s motion to adjourn; CQ''s convention story gives 1:03 a.m. and prints "Aug. 23," 2285). [[w.cohen-american-pharaoh]], 475 (Daley''s finger across his throat after 1 a.m.; Albert calls on "the great mayor of Chicago"; Daley''s motion to recess till noon). See [[cal.1968-08-26.elections-1968]]. Names: Burton, Albert, Daley.'
+    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2283, 2338 (Albert had refused a McCarthy delegate''s motion to adjourn; CQ''s convention story gives 1:03 a.m. and prints "Aug. 23," 2285). [[w.cohen-american-pharaoh]], 475 (Daley''s finger across his throat after 1 a.m.; Albert calls on "the great mayor of Chicago"; Daley''s motion to recess till noon); [[w.longley-lbjs-1968]], 223 (the quick vote sought after midnight; Daley''s signal; Albert''s recess). See [[cal.1968-08-26.elections-1968]]. Names: Burton, Albert, Daley.'
     src:
       c: 7e0685ef
       rows:
         - 'w.cq-weekly-report Aug. 30, 1968, 2283, 2338: all'
         - 'w.cohen-american-pharaoh 475: G-H'
+        - 'w.longley-lbjs-1968 223: ?'
     tags: [name:burton-phillip, name:albert-carl, name:daley-richard-j, state:il, city:chicago]
   - id: cal.1968-08-28.elections-1968-chicago-7
     when: Aug. 28
@@ -5708,6 +5761,50 @@ entries:
       - 1968-08-28T17:00Z
     time_band: morning
     time_zone: America/Chicago
+  - id: cal.1968-08-28.elections-1968-chicago-19
+    when: Aug. 28
+    date: '1968-08-28'
+    thread: elections-1968-chicago
+    c: 2:02 a.m., Johnson to Watson at his Chicago hotel, nearly half an hour.
+    n: '[[w.longley-lbjs-1968]], 223. See [[cal.1968-08-27.elections-1968-chicago-2]]. Names: Johnson, Watson.'
+    src:
+      c: d1053fc4
+      rows:
+        - 'w.longley-lbjs-1968 223: all'
+    tags: [name:johnson-lyndon-b, name:watson-w-marvin]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-08-28.elections-1968
+          - cal.1968-08-28.elections-1968-chicago-8
+          - cal.1968-08-28.elections-1968-chicago-9
+          - cal.1968-08-28.elections-1968-chicago-11
+          - cal.1968-08-28.elections-1968-chicago-12
+          - cal.1968-08-28.elections-1968-chicago-13
+          - cal.1968-08-28.elections-1968-chicago-14
+          - cal.1968-08-28.elections-1968-chicago-15
+          - cal.1968-08-28.elections-1968-chicago-16
+          - cal.1968-08-28.elections-1968-chicago-17
+          - cal.1968-08-28.elections-1968-chicago-18
+          - cal.1968-08-28.elections-1968-chicago-18-2
+        from: b6-longley
+  - id: cal.1968-08-28.elections-1968-chicago-platform
+    when: Aug. 28
+    date: '1968-08-28'
+    thread: elections-1968-chicago-platform
+    c: From 7:29 a.m., Johnson by telephone to Rostow, then Rusk, on Vietnam; the morning spent marshalling his forces in Chicago on the Vietnam plank. In the afternoon he watches the convention.
+    n: '[[w.longley-lbjs-1968]], 224. To check: President''s Daily Diary, Aug. 28, 1968, LBJ Library (cited by [[w.longley-lbjs-1968]], 224 n.70). See [[cal.1968-08-28.elections-1968]]. Names: Johnson, Rostow, Rusk.'
+    src:
+      c: cf84b035
+      rows:
+        - 'w.longley-lbjs-1968 224: all'
+        - 'via w.longley-lbjs-1968 224 n.70: all'
+    tags: [name:johnson-lyndon-b, name:rostow-walt-w, name:rusk-dean]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-08-28.elections-1968-chicago-5
+        from: b6-longley
   - id: cal.1968-08-29.elections-1968
     when: Aug. 29
     date: '1968-08-29'

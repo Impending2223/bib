@@ -362,6 +362,24 @@ entries:
     c: Mexico City. Humphrey, the United States' representative, signs a nuclear nonproliferation treaty for the Western Hemisphere. By Humphrey's account.
     n: '[[w.humphrey-education-of-a-public-1976]], 358, 360 (the trip, from Mar. 31 to Andrews on "Monday evening," Apr. 1). Check: the day; the memoir does not date the signing. See [[cal.1968-02-14.testing-npt]]. Names: Humphrey.'
     tags: [name:humphrey-hubert-h]
+  - id: cal.1968-04-01.elections-1968-johnson-3
+    when: Apr. 1
+    date: '1968-04-01'
+    thread: elections-1968-johnson
+    c: '12:12 a.m., after the news conference, Johnson to Arthur Krim: "I never was any surer of any decision I ever made in my life"; 525,000 men depend on him, and he "can''t worry about the primaries."'
+    n: 'FRUS 1964–68, VI, doc. [169](https://history.state.gov/historicaldocuments/frus1964-68v06/d169) (editorial note, by the Daily Diary). [[w.longley-lbjs-1968]], 103. See [[cal.1968-03-31.elections-1968]]. Names: Johnson.'
+    src:
+      c: b249b700
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d169: all'
+        - 'w.longley-lbjs-1968 103: all'
+    tags: [name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-04-01.elections-1968-johnson
+          - cal.1968-04-01.elections-1968-johnson-2
+        from: b6-longley
   - id: cal.1968-04-02.vietnam
     when: Apr. 2
     date: '1968-04-02'
@@ -1874,11 +1892,13 @@ entries:
     date: '1968-04-07'
     thread: civil-disorders-king
     c: Clifford with Johnson on a helicopter survey of the riot damage in Washington, federal troops patrolling below, by Clifford's account.
-    n: '[[w.clifford-counsel-to-the-president-2]], 531. Names: Clifford, Johnson.'
+    n: '[[w.clifford-counsel-to-the-president-2]], 531; [[w.califano-triumph-and-tragedy-of]], 281 (after leaving Westmoreland at Andrews; along 7th and 14th Streets Northwest); [[w.longley-lbjs-1968]], 127 (low over 7th and 14th Streets). Names: Clifford, Johnson.'
     src:
       c: d731f0a1
       rows:
         - 'w.clifford-counsel-to-the-president-2 531: all'
+        - 'w.califano-triumph-and-tragedy-of 281: A'
+        - 'w.longley-lbjs-1968 127: A'
     tags: [name:clifford-clark, name:johnson-lyndon-b]
     time_range:
       - 1968-04-07T14:00Z
@@ -1909,6 +1929,25 @@ entries:
       rows:
         - 'w.cohen-american-pharaoh 454: all'
     tags: [state:il, city:chicago, name:daley-richard-j]
+  - id: cal.1968-04-07.civil-disorders-king-4
+    when: Apr. 7
+    date: '1968-04-07'
+    thread: civil-disorders-king
+    c: 'Palm Sunday, St. Dominic''s, the 12:15 p.m. Mass: Johnson with Luci Nugent, Fehmer, Jones and Califano. The priest prays for the President''s wisdom and on King''s death; the congregation rises and stays in place as he leaves.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 281 (the hour; those with him; the congregation); [[w.longley-lbjs-1968]], 127 (the homily, by Risen). To check: [[w.risen-nation-on-fire]], 186 (cited by [[w.longley-lbjs-1968]], 127 n.74). Check: Longley has Patrick Nugent there, Califano Fehmer and Jones. See [[cal.1968-04-07.civil-disorders-king-2]]. Names: Johnson, Luci Baines Johnson Nugent, James R. Jones, Califano, Martin Luther King.'
+    src:
+      c: 9d273706
+      rows:
+        - 'w.califano-triumph-and-tragedy-of 281: A, C'
+        - 'w.longley-lbjs-1968 127: B-C'
+    tags: [name:johnson-lyndon-b, name:nugent-luci-baines-johnson, name:jones-james-r, name:califano-joseph-a-jr, name:king-martin-luther-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-04-07.civil-disorders-king
+          - cal.1968-04-07.civil-disorders-king-2
+          - cal.1968-04-07.civil-disorders-king-3
+        from: b6-longley
   - id: cal.1968-04-08.vietnam
     when: Apr. 8
     date: '1968-04-08'
@@ -4349,3 +4388,14 @@ entries:
         - 'w.graham-uncertain-triumph 259 n.19: B'
         - 'via w.graham-uncertain-triumph 189 n.19: B'
     tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr, name:levinson-lawrence-e, name:neustadt-richard-e, name:price-don-k-jr]
+  - id: cal.1968-04.japan-and-korea-pueblo
+    when: Apr.
+    date: 1968-04
+    thread: japan-and-korea-pueblo
+    c: The crew's families, led by Rose Bucher, lobby the press and Congress; one family pickets Rusk's office. A National Remember the *Pueblo* Committee, its bumper stickers, presses the White House and State to act.
+    n: '[[w.longley-lbjs-1968]], 50 (by Lerner). To check: [[w.lerner-pueblo-incident]], 199–200 (cited by [[w.longley-lbjs-1968]], 50 n.50). Check: the days; Longley gives "throughout the spring." See [[cal.1968-01-23.japan-and-korea]]. Names: Rusk.'
+    src:
+      c: b094099c
+      rows:
+        - 'w.longley-lbjs-1968 50: all'
+    tags: [name:rusk-dean]

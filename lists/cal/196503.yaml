@@ -3441,6 +3441,30 @@ entries:
         - 'w.kotz-judgment-days 312: all'
         - 'via w.kotz-judgment-days 312 n.69b: all'
     tags: [name:forman-james, name:johnson-lyndon-b]
+  - id: cal.1965-03-15.voting-rights-8
+    when: Mar. 15
+    date: '1965-03-15'
+    thread: voting-rights
+    follows:
+      - cal.1965-03-15.voting-rights-5
+    c: 'The family quarters, after King''s call. Johnson to Goodwin: "You know Dick, I understand why he''s surprised, why a lot of folks are surprised, but I''m going to do it. Hell, we''re just halfway up the mountain. Not even half."'
+    n: '[[w.kotz-judgment-days]], 314. To check: [[w.goodwin-remembering-america]], 310 (cited by [[w.kotz-judgment-days]], 314 n.71). See [[cal.1965-03-15.voting-rights-5]]. Names: Johnson, Goodwin.'
+    src:
+      c: 6f6215b0
+      rows:
+        - 'w.kotz-judgment-days 314: all'
+    tags: [name:johnson-lyndon-b, name:goodwin-richard-n]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-03-15.voting-rights
+          - cal.1965-03-15.voting-rights-2
+          - cal.1965-03-15.voting-rights-3
+          - cal.1965-03-15.voting-rights-4
+          - cal.1965-03-15.voting-rights-5
+          - cal.1965-03-15.voting-rights-6
+          - cal.1965-03-15.voting-rights-7
+        from: 2026-11-06-b6-kotz-judgment-days
   - id: cal.1965-03-16.vietnam
     when: Mar. 16
     date: '1965-03-16'

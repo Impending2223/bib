@@ -940,12 +940,13 @@ entries:
     thread: civil-disorders
     also: [assassination]
     c: 'Califano to Johnson, 10:15 a.m., troops on alert in Los Angeles and Washington: "[Washington] is quiet now," but the city''s leaders fear "enough people will get stirred up over the Kennedy slaying ... that there could be trouble later in the day." None comes.'
-    n: '[[w.shesol-mutual-contempt]], 452. To check: Califano to Johnson, June 5, 1968, 10:15 a.m., WHFN-RFK, box 6, LBJ Library (cited by [[w.shesol-mutual-contempt]], 452). Names: Califano, Johnson, Robert Kennedy.'
+    n: '[[w.shesol-mutual-contempt]], 452; [[w.longley-lbjs-1968]], 141 ("enough people will get stirred up"). To check: Califano to Johnson, June 5, 1968, 10:15 a.m., WHFN-RFK, box 6, LBJ Library (cited by [[w.shesol-mutual-contempt]], 452). Names: Califano, Johnson, Robert Kennedy.'
     src:
       c: ed857690
       rows:
         - 'w.shesol-mutual-contempt 452: all'
         - 'via x.1968-06-05.califano-to-johnson-washington-quiet: all'
+        - 'w.longley-lbjs-1968 141: A'
     tags: [name:califano-joseph-a-jr, name:johnson-lyndon-b, name:kennedy-robert-f]
   - id: cal.1968-06-05.assassination-5
     when: June 5
@@ -976,6 +977,95 @@ entries:
       rows:
         - 'w.mcpherson-political-education 381–82: all'
     tags: [name:johnson-lyndon-b, name:mcpherson-harry, name:mankiewicz-frank, name:kennedy-robert-f]
+  - id: cal.1968-06-05.assassination-7
+    when: June 5
+    date: '1968-06-05'
+    thread: assassination
+    c: 'About 6 p.m., Manatos to Johnson: Chuck Roche, at Good Samaritan Hospital, finds the Kennedy people "gloomy"; the family knows of the President''s willingness to do what he can.'
+    n: '[[w.longley-lbjs-1968]], 141. To check: Manatos to Johnson, June 5, 1968, WHCF, Name File, Kennedy, Robert F., box 98, LBJ Library (cited by [[w.longley-lbjs-1968]], 141 n.18). See [[cal.1968-06-05.assassination-3]]. Names: Manatos, Johnson.'
+    src:
+      c: 7a9c5120
+      rows:
+        - 'w.longley-lbjs-1968 141: all'
+        - 'via w.longley-lbjs-1968 141 n.18: all'
+    tags: [name:manatos-mike-n, name:johnson-lyndon-b, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-06-05.assassination
+          - cal.1968-06-05.assassination-2
+          - cal.1968-06-05.assassination-3
+          - cal.1968-06-05.assassination-4
+          - cal.1968-06-05.assassination-5
+          - cal.1968-06-05.assassination-6
+        from: b6-longley
+  - id: cal.1968-06-05.assassination-8
+    when: June 5
+    date: '1968-06-05'
+    thread: assassination
+    c: 'Reedy to Johnson, before the evening address: take no action "to feed the flames"; Evers wrong that speaking for the poor risks one''s life; no steps but protecting the candidates until the situation is clear.'
+    n: '[[w.longley-lbjs-1968]], 141. To check: Reedy to Johnson, June 5, 1968, White House Famous Names, box 8, LBJ Library (cited by [[w.longley-lbjs-1968]], 141 n.19). See [[cal.1968-06-05.civil-disorders-2]]. Names: Reedy, Johnson, Charles Evers.'
+    src:
+      c: 5b7b5d40
+      rows:
+        - 'w.longley-lbjs-1968 141: all'
+        - 'via w.longley-lbjs-1968 141 n.19: all'
+    tags: [name:reedy-george-e, name:johnson-lyndon-b, name:evers-charles]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-06-05.assassination
+          - cal.1968-06-05.assassination-2
+          - cal.1968-06-05.assassination-3
+          - cal.1968-06-05.assassination-4
+          - cal.1968-06-05.assassination-5
+          - cal.1968-06-05.assassination-6
+          - cal.1968-06-05.assassination-7
+        from: b6-longley
+  - id: cal.1968-06-05.civil-disorders-4
+    when: June 5
+    date: '1968-06-05'
+    thread: civil-disorders
+    c: 'Washington''s precautions: Califano, Christopher and others on 600 Guardsmen in the capital, 600 police at least on the streets, plans for the Poor People''s march of June 19. Walter Washington asks for Army officers in the precincts and troops on thirty minutes'' alert.'
+    n: '[[w.longley-lbjs-1968]], 141. To check: Califano to Johnson, June 5, 1968, White House Famous Names, box 8, LBJ Library (cited by [[w.longley-lbjs-1968]], 141 nn.20–21). See [[cal.1968-06-05.civil-disorders-3]]. Names: Califano, Christopher, Walter Washington.'
+    src:
+      c: 5b6460b9
+      rows:
+        - 'w.longley-lbjs-1968 141: all'
+        - 'via w.longley-lbjs-1968 141 n.20: A'
+        - 'via w.longley-lbjs-1968 141 n.21: B'
+    tags: [name:califano-joseph-a-jr, name:christopher-warren, name:washington-walter-e, city:washington]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-06-05.civil-disorders
+          - cal.1968-06-05.civil-disorders-2
+          - cal.1968-06-05.civil-disorders-3
+        from: b6-longley
+  - id: cal.1968-06-05.assassination-9
+    when: June 5
+    date: '1968-06-05'
+    thread: assassination
+    c: 'Gaither to Califano: only Presidents and Vice Presidents have state funerals, lying in the Capitol''s rotunda; others, by the President''s designation, an "official" funeral.'
+    n: '[[w.longley-lbjs-1968]], 145. To check: Gaither to Califano, June 5, 1968, Office Files of White House Aides, Gaither, box 17, LBJ Library (cited by [[w.longley-lbjs-1968]], 145 n.30). Names: Califano.'
+    src:
+      c: 2230ef9c
+      rows:
+        - 'w.longley-lbjs-1968 145: all'
+        - 'via w.longley-lbjs-1968 145 n.30: all'
+    tags: [name:califano-joseph-a-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-06-05.assassination
+          - cal.1968-06-05.assassination-2
+          - cal.1968-06-05.assassination-3
+          - cal.1968-06-05.assassination-4
+          - cal.1968-06-05.assassination-5
+          - cal.1968-06-05.assassination-6
+          - cal.1968-06-05.assassination-7
+          - cal.1968-06-05.assassination-8
+        from: b6-longley
   - id: cal.1968-06-06.europe-and-the-alliance-france
     when: June 6
     date: '1968-06-06'
@@ -1177,6 +1267,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-06-06.assassination-2
+    when: June 6
+    date: '1968-06-06'
+    thread: assassination
+    c: 'The FBI to Ramsey Clark on Sirhan: his schooling; writings at his family''s home calling for Robert Kennedy''s assassination; witnesses at the Ambassador; .22 shells in his car. No sign of others.'
+    n: '[[w.longley-lbjs-1968]], 145–46. To check: FBI to Clark, Personal Papers of Ramsey Clark, box 123, LBJ Library (cited by [[w.longley-lbjs-1968]], 146 n.32). Check: the day; Longley gives "Within a day." See [[cal.1968-06-05.assassination-2]]. Names: Clark, Sirhan, Robert Kennedy.'
+    src:
+      c: 68dcc410
+      rows:
+        - 'w.longley-lbjs-1968 145–46: all'
+        - 'via w.longley-lbjs-1968 146 n.32: all'
+    tags: [name:clark-ramsey, name:sirhan-sirhan-bishara, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-06-06.assassination
+        from: b6-longley
   - id: cal.1968-06-07.republican-party
     when: June 7
     date: '1968-06-07'
@@ -1262,6 +1369,18 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1968-06-07.robert-kennedy
+    when: June 7
+    date: '1968-06-07'
+    thread: robert-kennedy
+    c: 'Califano to Johnson on the burial: in the plot reserved for John Kennedy at Arlington, McNamara making the plans; Katzenbach in charge from Union Station to the cemetery; the family wants no military honors, no taps.'
+    n: '[[w.longley-lbjs-1968]], 145. To check: Califano to Johnson, June 7, 1968, White House Famous Names, box 8, LBJ Library (cited by [[w.longley-lbjs-1968]], 145 n.31). Check: Longley places it late in the morning of June 6. See [[cal.1968-06-06.robert-kennedy-campaign-2]]. Names: Califano, Johnson, John Kennedy, McNamara, Katzenbach, Robert Kennedy.'
+    src:
+      c: 41e2284e
+      rows:
+        - 'w.longley-lbjs-1968 145: all'
+        - 'via w.longley-lbjs-1968 145 n.31: all'
+    tags: [name:califano-joseph-a-jr, name:johnson-lyndon-b, name:kennedy-john-f, name:mcnamara-robert-s, name:katzenbach-nicholas, name:kennedy-robert-f]
   - id: cal.1968-06-08.robert-kennedy
     when: June 8
     date: '1968-06-08'
@@ -1345,6 +1464,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-06-08.robert-kennedy-2
+    when: June 8
+    date: '1968-06-08'
+    thread: robert-kennedy
+    c: 'Union Station, before 9 p.m., waiting in the limousine for the funeral train: the Johnsons with McCormack and the Humphreys. Humphrey: whoever is nominated, "a tarnished shield," as Sevareid said; Mrs. Johnson: the tragedy turns the nation toward the Republicans. By her diary.'
+    n: '[[w.longley-lbjs-1968]], 152. To check: [[w.johnson-white-house-diary]], 685 (cited by [[w.longley-lbjs-1968]], 152 n.59). Names: Johnson, Lady Bird Johnson, McCormack, Humphrey, Sevareid.'
+    src:
+      c: af767065
+      rows:
+        - 'w.longley-lbjs-1968 152: all'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:mccormack-john-w, name:humphrey-hubert-h, name:sevareid-eric]
   - id: cal.1968-06-09.opinion
     when: June 9
     date: '1968-06-09'
@@ -2623,6 +2753,18 @@ entries:
     time_band: workday daytime
     time_zone: America/Chicago
     range_basis: kind
+  - id: cal.1968-06-19.robert-kennedy
+    when: June 19
+    date: '1968-06-19'
+    thread: robert-kennedy
+    c: 'Johnson to Ethel Kennedy, answering her letter of thanks: anything he can do for her or hers, "So long as I have the power to help."'
+    n: '[[w.longley-lbjs-1968]], 155. To check: Johnson to Ethel Kennedy, June 19 and 22, 1968, WHCF, GEN FE, box 5, LBJ Library (cited by [[w.longley-lbjs-1968]], 155 n.69). Names: Johnson.'
+    src:
+      c: c95a44b1
+      rows:
+        - 'w.longley-lbjs-1968 155: all'
+        - 'via w.longley-lbjs-1968 155 n.69: all'
+    tags: [name:johnson-lyndon-b]
   - id: cal.1968-06-20.economy
     when: June 20
     date: '1968-06-20'
@@ -2769,6 +2911,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-06-20.japan-and-korea-pueblo
+    when: June 20
+    date: '1968-06-20'
+    thread: japan-and-korea-pueblo
+    c: 'The House. Reid (R-Ill.), extending her remarks: 150 days on, the *Pueblo*''s 83 crewmen still captive; the incident has "seriously injured America''s prestige." She inserts the Aurora *Beacon-News* editorial of June 9, "Listen, Washington."'
+    n: '[114 Cong. Rec. 18,098](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt14/pdf/GPO-CRECB-1968-pt14-2-1.pdf#page=140) (1968) (June 20, 1968). See [[cal.1968-01-23.japan-and-korea]]. Names: Reid.'
+    src:
+      c: a0f60d19
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt14/pdf/GPO-CRECB-1968-pt14-2-1.pdf#page=140: all'
+    tags: [name:reid-charlotte-t]
   - id: cal.1968-06-21.testing
     when: June 21
     date: '1968-06-21'
@@ -2987,6 +3140,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-06-22.robert-kennedy
+    when: June 22
+    date: '1968-06-22'
+    thread: robert-kennedy
+    c: 'Jacqueline Kennedy to the Johnsons: thanks for all they did to lay Robert Kennedy to rest.'
+    n: '[[w.longley-lbjs-1968]], 154. To check: Jacqueline Kennedy to Lyndon and Lady Bird Johnson, June 22, 1968, WHCF, GEN FE, box 5, LBJ Library (cited by [[w.longley-lbjs-1968]], 154 n.68). Names: Jacqueline Kennedy, Johnson, Lady Bird Johnson, Robert Kennedy.'
+    src:
+      c: 9c33ca0d
+      rows:
+        - 'w.longley-lbjs-1968 154: all'
+        - 'via w.longley-lbjs-1968 154 n.68: all'
+    tags: [name:kennedy-jacqueline, name:johnson-lyndon-b, name:johnson-lady-bird, name:kennedy-robert-f]
   - id: cal.1968-06-23.opinion
     when: June 23
     date: '1968-06-23'

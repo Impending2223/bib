@@ -3303,6 +3303,22 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 487–88: all'
     tags: [name:johnson-lady-bird, name:johnson-lyndon-b]
+  - id: cal.1968-03-17.elections-1968-johnson
+    when: Mar. 17
+    date: '1968-03-17'
+    thread: elections-1968-johnson
+    c: 'Sunday, the Ranch. Mrs. Johnson, watching Humphrey defend the administration: he and Rusk "about the only two" speaking for it now, by her diary.'
+    n: '[[w.longley-lbjs-1968]], 78. To check: [[w.johnson-white-house-diary]], 641 (cited by [[w.longley-lbjs-1968]], 78 n.93). Names: Lady Bird Johnson, Humphrey, Rusk.'
+    src:
+      c: df8868bd
+      rows:
+        - 'w.longley-lbjs-1968 78: all'
+    tags: [name:johnson-lady-bird, name:humphrey-hubert-h, name:rusk-dean]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-03-17.elections-1968-johnson-2
+        from: b6-longley
   - id: cal.1968-03-18.vietnam
     when: Mar. 18
     date: '1968-03-18'
@@ -6011,6 +6027,27 @@ entries:
           - cal.1968-03-29.vietnam-205000-2
           - cal.1968-03-29.vietnam-205000-3
         from: 2026-11-06-b6-johnson-vantage
+  - id: cal.1968-03-29.king-memphis-5
+    when: Mar. 29
+    date: '1968-03-29'
+    thread: king-memphis
+    also: [king]
+    c: 'Atlanta, Friday evening, home from Memphis. King and Coretta King to supper with Ralph and Juanita Abernathy. King: "They''re saying I led a violent march." Juanita Abernathy: "Anyone with any intelligence knows it was a plant." King: "Who''s going to know those weren''t our people?"'
+    n: '[[w.kotz-judgment-days]], 405. To check: Juanita Abernathy, interview by Kotz; [[w.abernathy-and-the-walls-came]], 423–424 (cited by [[w.kotz-judgment-days]], 405 n.54). See [[cal.1968-03-29.king-memphis-3]]. Names: Martin Luther King, Coretta King, Abernathy.'
+    src:
+      c: a750c5bf
+      rows:
+        - 'w.kotz-judgment-days 405: all'
+        - 'via w.kotz-judgment-days 405 n.54a: all'
+    tags: [name:king-martin-luther-jr, name:king-coretta-scott, name:abernathy-ralph-david]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-03-29.king-memphis
+          - cal.1968-03-29.king-memphis-2
+          - cal.1968-03-29.king-memphis-3
+          - cal.1968-03-29.king-memphis-4
+        from: 2026-11-06-b6-kotz-judgment-days
   - id: cal.1968-03-30.vietnam-205000
     when: Mar. 30
     date: '1968-03-30'
@@ -6990,11 +7027,13 @@ entries:
     date: '1968-03-31'
     thread: elections-1968-johnson
     c: 'Chicago, Daley''s home. Marvin Watson tells him in advance of Johnson''s withdrawal. Daley''s the first call Johnson takes after: an offer to draft him at the convention; Johnson does not want it.'
-    n: '[[w.cohen-american-pharaoh]], 451. Names: Daley, Watson, Johnson.'
+    n: '[[w.cohen-american-pharaoh]], 451; [[w.longley-lbjs-1968]], 99 (Daley on Watson''s list); [[w.longley-lbjs-1968]], 102 (among the first calls after the address: "We''re going to draft you"). Check: Longley, 102, has Daley''s call "one of the first," by the Daily Diary as FRUS cites it (102 n.97). Names: Daley, Watson, Johnson.'
     src:
       c: 7ec6ddb5
       rows:
         - 'w.cohen-american-pharaoh 451: all'
+        - 'w.longley-lbjs-1968 99: B'
+        - 'w.longley-lbjs-1968 102: C'
     tags: [state:il, city:chicago, name:daley-richard-j, name:watson-w-marvin, name:johnson-lyndon-b]
     time_range:
       - 1968-03-31T12:00Z
@@ -7146,3 +7185,82 @@ entries:
           - cal.1968-03.robert-kennedy-campaign-3
           - cal.1968-03.robert-kennedy-campaign-4
         from: 2026-11-06-b6-bernstein-guns-or-butter
+  - id: cal.1968-03.japan-and-korea-pueblo
+    when: Mar.
+    date: 1968-03
+    thread: japan-and-korea-pueblo
+    c: 'Sam Houston Johnson sounds opinion on the *Pueblo* for his brother. A Louisiana Democratic leader: tell North Korea to return the ship or be "blown off the map."'
+    n: '[[w.longley-lbjs-1968]], 50. Check: the day; Longley dates it "In March." See [[cal.1968-01-23.japan-and-korea]].'
+    src:
+      c: 687a2582
+      rows:
+        - 'w.longley-lbjs-1968 50: all'
+  - id: cal.1968-03-31.elections-1968-johnson-3
+    when: Mar. 31
+    date: '1968-03-31'
+    thread: elections-1968-johnson
+    c: About 7 a.m., the Diplomatic Reception Room. Lynda Robb, back from seeing her husband off to Vietnam, asks her father why he must fight for people who do not want to be protected. Johnson, by his account, cannot comfort her.
+    n: '[[w.longley-lbjs-1968]], 84. To check: [[w.johnson-vantage-point]], 431; [[w.russell-lady-bird]], 300 (cited by [[w.longley-lbjs-1968]], 84 nn.3–4). See [[cal.1968-03-31.elections-1968-10]]. Names: Lynda Bird Johnson, Johnson.'
+    src:
+      c: c419f54f
+      rows:
+        - 'w.longley-lbjs-1968 84: all'
+    tags: [name:johnson-lynda-bird, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-03-31.elections-1968-3
+          - cal.1968-03-31.elections-1968-4
+          - cal.1968-03-31.elections-1968-5
+          - cal.1968-03-31.elections-1968-7
+          - cal.1968-03-31.elections-1968-10
+          - cal.1968-03-31.elections-1968-johnson
+          - cal.1968-03-31.elections-1968-johnson-2
+        from: b6-longley
+  - id: cal.1968-03-31.elections-1968-johnson-4
+    when: Mar. 31
+    date: '1968-03-31'
+    thread: elections-1968-johnson
+    c: 'In the car after Mass, the partition up, Johnson reads Luci and Patrick Nugent the statement to close his address. Luci in tears: "It is more complicated." By his account.'
+    n: '[[w.longley-lbjs-1968]], 89. To check: [[w.johnson-vantage-point]], 432 (cited by [[w.longley-lbjs-1968]], 89 n.29). See [[cal.1968-03-31.elections-1968-4]]. Names: Johnson, Luci Baines Johnson Nugent, Patrick Nugent.'
+    src:
+      c: 9dc908df
+      rows:
+        - 'w.longley-lbjs-1968 89: all'
+    tags: [name:johnson-lyndon-b, name:nugent-luci-baines-johnson, name:nugent-patrick]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-03-31.elections-1968-3
+          - cal.1968-03-31.elections-1968-4
+          - cal.1968-03-31.elections-1968-5
+          - cal.1968-03-31.elections-1968-7
+          - cal.1968-03-31.elections-1968-10
+          - cal.1968-03-31.elections-1968-johnson
+          - cal.1968-03-31.elections-1968-johnson-2
+          - cal.1968-03-31.elections-1968-johnson-3
+        from: b6-longley
+  - id: cal.1968-03-31.elections-1968-johnson-5
+    when: Mar. 31
+    date: '1968-03-31'
+    thread: elections-1968-johnson
+    c: 'Minutes before the address, at Johnson''s order, the calls: Watson''s list, McNamara, Rowe, Daley and Meany among the Cabinet members; Rostow to Wheeler and Westmoreland.'
+    n: '[[w.longley-lbjs-1968]], 99. To check: [[w.watson-chief-of-staff]], 284; [[w.johnson-vantage-point]], 434 (cited by [[w.longley-lbjs-1968]], 99 nn.80–81). See [[cal.1968-03-31.elections-1968]]. Names: Johnson, Watson, McNamara, Rowe, Daley, Meany, Rostow, Wheeler, Westmoreland.'
+    src:
+      c: 3e88ad76
+      rows:
+        - 'w.longley-lbjs-1968 99: all'
+    tags: [name:johnson-lyndon-b, name:watson-w-marvin, name:mcnamara-robert-s, name:rowe-james-h-jr, name:daley-richard-j, name:meany-george, name:rostow-walt-w, name:wheeler-earle, name:westmoreland-william]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-03-31.elections-1968-3
+          - cal.1968-03-31.elections-1968-4
+          - cal.1968-03-31.elections-1968-5
+          - cal.1968-03-31.elections-1968-7
+          - cal.1968-03-31.elections-1968-10
+          - cal.1968-03-31.elections-1968-johnson
+          - cal.1968-03-31.elections-1968-johnson-2
+          - cal.1968-03-31.elections-1968-johnson-3
+          - cal.1968-03-31.elections-1968-johnson-4
+        from: b6-longley

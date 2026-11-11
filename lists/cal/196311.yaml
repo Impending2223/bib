@@ -1962,6 +1962,22 @@ entries:
         of:
           - cal.1963-11-20.democratic-party
         from: 2026-11-06-b6-dallek-flawed-giant
+  - id: cal.1963-11-20.robert-kennedy
+    when: Nov. 20
+    date: '1963-11-20'
+    thread: robert-kennedy
+    also: [civil-rights-bill]
+    c: 'Justice, Robert Kennedy''s thirty-eighth birthday, an office party. Standing on his desk, he jokes that his work on civil rights has made the President more popular in the South: "the administration would have floundered without him — he''d captured the South, labor would be committed to Democrats forever"; the Democrats the "law-and-order party." Ramsey Clark, leaving, judges the civil rights bill dead until after the 1964 election, the Attorney General about to resign to run his brother''s campaign.'
+    n: '[[w.kotz-judgment-days]], 8; [[w.branch-parting-the-waters]], 917 (the party at Justice; on his desk). Check: Branch, 917, gives no age and no jokes: standing on his desk amid joking friends, "a chipper little talk about how the fight would go on even if his own days on the job were numbered" (interview with Ramsey Clark, cited by [[w.branch-parting-the-waters]], 917 n.2, dated "Oct. 28, 1963" as printed). To check: Ramsey Clark and John Douglas, interviews by Kotz (cited by [[w.kotz-judgment-days]], 8 n.27). Names: Robert Kennedy, Ramsey Clark.'
+    src:
+      c: e863e0e1
+      rows:
+        - 'w.kotz-judgment-days 8: all'
+        - 'via w.kotz-judgment-days 8 n.27a: all'
+        - 'via w.kotz-judgment-days 8 n.27b: all'
+        - 'w.branch-parting-the-waters 917: A'
+        - 'via w.branch-parting-the-waters 917 n.2: A'
+    tags: [name:kennedy-robert-f, name:clark-ramsey]
   - id: cal.1963-11-21.economy-debt-limit
     when: Nov. 21
     date: '1963-11-21'
@@ -2951,11 +2967,12 @@ entries:
     date: '1963-11-22'
     thread: assassination
     c: The Chilean Embassy, Ambassador Tomic's luncheon for the Australian Ambassador, about 1:30 p.m. Edward P. Morgan of ABC, called to the telephone, tells Humphrey the President has been shot; Dungan, of the White House staff, confirms it with the Secret Service and leaves; he telephones that the President is dead. Humphrey tells the guests; Tomic eulogizes Kennedy. By Humphrey's account.
-    n: '[[w.humphrey-education-of-a-public-1976]], 257–59. See [[cal.1963-11-22.assassination]]. Names: Humphrey, Dungan, Kennedy.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 257–59; [[w.kotz-judgment-days]], 6 (Humphrey, at the Chilean embassy luncheon, weeps, then tells the guests; that evening Johnson, his arm round him, asks his help). See [[cal.1963-11-22.assassination]]. Names: Humphrey, Dungan, Kennedy.'
     src:
       c: b43a3f5e
       rows:
         - 'w.humphrey-education-of-a-public-1976 257–59: all'
+        - 'w.kotz-judgment-days 6: ?'
     tags: [name:humphrey-hubert-h, name:dungan-ralph-a, name:kennedy-john-f]
   - id: cal.1963-11-22.succession-12
     when: Nov. 22
@@ -3078,6 +3095,33 @@ entries:
           - cal.1963-11-22.succession-14
           - cal.1963-11-22.succession-15
         from: 2026-11-06-b6-johnson-vantage
+  - id: cal.1963-11-22.assassination-12
+    when: Nov. 22
+    date: '1963-11-22'
+    thread: assassination
+    c: 'Boggs, the House''s deputy majority leader, hurrying from the Cannon Building to the Capitol at the news, nearly runs into Colmer (D-Miss.) and shouts at him: "Your people killed that man! Your Ross Barnetts!"'
+    n: '[[w.kotz-judgment-days]], 6. To check: William Colmer, oral history, LBJ Library (cited by [[w.kotz-judgment-days]], 6 n.21). Names: Boggs, Colmer.'
+    src:
+      c: 5761f754
+      rows:
+        - 'w.kotz-judgment-days 6: all'
+        - 'via w.kotz-judgment-days 6 n.21: all'
+    tags: [name:boggs-hale, name:colmer-william-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-11-22.assassination
+          - cal.1963-11-22.assassination-2
+          - cal.1963-11-22.assassination-4
+          - cal.1963-11-22.assassination-3
+          - cal.1963-11-22.assassination-5
+          - cal.1963-11-22.assassination-6
+          - cal.1963-11-22.assassination-7
+          - cal.1963-11-22.assassination-8
+          - cal.1963-11-22.assassination-9
+          - cal.1963-11-22.assassination-10
+          - cal.1963-11-22.assassination-11
+        from: 2026-11-06-b6-kotz-judgment-days
   - id: cal.1963-11-23.succession
     when: Nov. 23
     date: '1963-11-23'
@@ -4576,6 +4620,18 @@ entries:
         - 'w.taking-charge 46–47: all'
         - 'via x.1963-11-28.johnson-james-eastland-recording-1521: all'
     tags: [name:johnson-lyndon-b, name:eastland-james-o]
+  - id: cal.1963-11-28.king
+    when: Nov. 28
+    date: '1963-11-28'
+    thread: king
+    also: [assassination]
+    c: Thanksgiving. King's sermon mentions the assassination only in passing; he preaches on the black experience of slavery in America.
+    n: '[[w.kotz-judgment-days]], 20. To check: [[w.branch-pillar-of-fire]], 182 (cited by [[w.kotz-judgment-days]], 20 n.12). See [[cal.1963-11-29.king]]. Names: Martin Luther King.'
+    src:
+      c: 44a932a3
+      rows:
+        - 'w.kotz-judgment-days 20: all'
+    tags: [name:king-martin-luther-jr]
   - id: cal.1963-11-29.assassination
     when: Nov. 29
     date: '1963-11-29'
