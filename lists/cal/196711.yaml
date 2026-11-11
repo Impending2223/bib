@@ -2701,6 +2701,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-11-21.vietnam-support
+    when: Nov. 21
+    date: '1967-11-21'
+    thread: vietnam-support
+    also: [vietnam]
+    c: A discussion of battle casualties. Johnson asks why the figures are still released, when they make American losses look larger than the South Vietnamese, and proposes ending them.
+    n: '[[w.dallek-flawed-giant]], 499. Names: Johnson.'
+    src:
+      c: a8780176
+      rows:
+        - 'w.dallek-flawed-giant 499: all'
+    tags: [name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-11-21.vietnam-2
+        from: 2026-11-06-b6-dallek-flawed-giant
   - id: cal.1967-11-22.middle-east
     when: Nov. 22
     date: '1967-11-22'
@@ -4012,3 +4029,20 @@ entries:
         - 'w.thomas-robert-kennedy 350: all'
         - 'via x.1970-07-16.john-p-roche-oral-history-interview: all'
     tags: [name:johnson-lyndon-b, name:mcnamara-robert-s]
+  - id: cal.1967-11.war-opposition-2
+    when: Nov.
+    date: 1967-11
+    thread: war-opposition
+    also: [republican-party-congress]
+    c: Johnson tells Ford and other House Republicans that the march of Oct. 21 was organized by international Communism. He will not release the CIA's findings when Ford asks on the floor.
+    n: '[[w.dallek-flawed-giant]], 490. Check: the day; Dallek sets it before Ford''s statement of Nov. 22. See [[cal.1967-11-22.war-opposition]]. Names: Johnson, Ford.'
+    src:
+      c: 2fd85848
+      rows:
+        - 'w.dallek-flawed-giant 490: all'
+    tags: [name:johnson-lyndon-b, name:ford-gerald-r]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-11.war-opposition
+        from: 2026-11-06-b6-dallek-flawed-giant

@@ -180,6 +180,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-05-01.vietnam-support
+    when: May 1
+    date: '1967-05-01'
+    thread: vietnam-support
+    c: 'Moyers to Johnson: an uneasiness in the land that a reassuring, informal talk from him could arrest; a clear majority behind him on Vietnam and the bombing, but an erosion of their certainty after hearing King, Carmichael, Lippmann and others.'
+    n: '[[w.dallek-flawed-giant]], 468. Names: Moyers, Johnson.'
+    src:
+      c: 71009dee
+      rows:
+        - 'w.dallek-flawed-giant 468: all'
+    tags: [name:moyers-bill, name:johnson-lyndon-b]
   - id: cal.1967-05-02.mayors-gary
     when: May 2
     date: '1967-05-02'
@@ -1338,6 +1349,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-05-12.opinion
+    when: May 12
+    date: '1967-05-12'
+    thread: opinion
+    also: [elections-1968]
+    c: 'Panzer to Johnson: by Harris, were the election held that day and decided on the war alone, he would be re-elected.'
+    n: '[[w.dallek-flawed-giant]], 468. Names: Johnson.'
+    src:
+      c: f3c83fdb
+      rows:
+        - 'w.dallek-flawed-giant 468: all'
+    tags: [name:johnson-lyndon-b]
   - id: cal.1967-05-13.vietnam-congress
     when: May 13
     date: '1967-05-13'
@@ -1372,6 +1395,17 @@ entries:
       rows:
         - 'w.wells-war-within 144: all'
     tags: [name:mcpherson-harry, name:roche-john-p, state:ny, city:nyc]
+  - id: cal.1967-05-13.vietnam
+    when: May 13
+    date: '1967-05-13'
+    thread: vietnam
+    c: Johnson told of a "rapid erosion" of Viet Cong and North Vietnamese strength since September 1966, a drop of 10 percent.
+    n: '[[w.dallek-flawed-giant]], 465. Names: Johnson.'
+    src:
+      c: f879cb1c
+      rows:
+        - 'w.dallek-flawed-giant 465: all'
+    tags: [name:johnson-lyndon-b]
   - id: cal.1967-05-14.opinion
     when: May 14
     date: '1967-05-14'
@@ -1665,6 +1699,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-05-16.press-and-broadcasting
+    when: May 16
+    date: '1967-05-16'
+    thread: press-and-broadcasting
+    c: 'Johnson to Hugh Sidey of *Time*, of the support he hears: if he is so unpopular, why has he won so many elections?'
+    n: '[[w.dallek-flawed-giant]], 468. Names: Johnson, Sidey.'
+    src:
+      c: 615a87b9
+      rows:
+        - 'w.dallek-flawed-giant 468: all'
+    tags: [name:johnson-lyndon-b, name:sidey-hugh]
   - id: cal.1967-05-17.cities-and-housing
     when: May 17
     date: '1967-05-17'
@@ -3871,3 +3916,33 @@ entries:
       c: 5ca622b5
       rows:
         - 'w.bernstein-guns-or-butter 368–69: all'
+  - id: cal.1967-05.vietnam-pacification
+    when: May
+    date: 1967-05
+    thread: vietnam-pacification
+    also: [intelligence]
+    c: 'Rostow to Johnson, on a CIA program to draw non-Communist members of the NLF into a coalition government to come out of the September elections: the program has moved; next steps under active consideration.'
+    n: '[[w.dallek-flawed-giant]], 465. Check: the day; Dallek gives "In May." Names: Rostow, Johnson.'
+    src:
+      c: 41f9fc06
+      rows:
+        - 'w.dallek-flawed-giant 465: all'
+    tags: [name:rostow-walt-w, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-05.vietnam
+          - cal.1967-05.vietnam-2
+        from: 2026-11-06-b6-dallek-flawed-giant
+  - id: cal.1967-05.press-and-broadcasting
+    when: May
+    date: 1967-05
+    thread: press-and-broadcasting
+    also: [vietnam-support]
+    c: 'Johnson to Keyes Beech of the *Chicago Daily News*: optimistic about the war; criticism at home abating; Moscow eager to help end the fighting.'
+    n: '[[w.dallek-flawed-giant]], 465. Check: the day; Dallek sets it after May 13. Names: Johnson.'
+    src:
+      c: cbce2099
+      rows:
+        - 'w.dallek-flawed-giant 465: all'
+    tags: [name:johnson-lyndon-b]

@@ -658,6 +658,24 @@ entries:
       rows:
         - 'w.macv-command-history-1964 157: all'
         - 'via w.macv-command-history-1964 157 n.8: all'
+  - id: cal.1964-09-05.elections-1964-johnson
+    when: Sept. 5
+    date: '1964-09-05'
+    thread: elections-1964-johnson
+    also: [press-and-broadcasting]
+    c: After Goldwater and Miller call Johnson and Humphrey misfits, and Humphrey a draft dodger, Moyers and Walter Jenkins talk to Drew Pearson, Katharine Graham and Alfred Friendly of the *Washington Post*, William S. White and James Reston of the *Times*, and Walter Lippmann about answering the Republicans. Most promise to take Goldwater to task.
+    n: '[[w.dallek-flawed-giant]], 173. Names: Moyers, Jenkins, Pearson, Katharine Graham, Reston, Lippmann, Goldwater, Humphrey.'
+    src:
+      c: a5369391
+      rows:
+        - 'w.dallek-flawed-giant 173: all'
+    tags: [name:moyers-bill, name:jenkins-walter-w, name:pearson-drew, name:graham-katharine, name:reston-james, name:lippmann-walter, name:goldwater-barry-m, name:humphrey-hubert-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-09-05.elections-1964
+          - cal.1964-09-05.elections-1964-2
+        from: 2026-11-06-b6-dallek-flawed-giant
   - id: cal.1964-09-06.vietnam
     when: Sept. 6
     date: '1964-09-06'
@@ -740,13 +758,15 @@ entries:
     date: '1964-09-07'
     thread: elections-1964-johnson
     c: 'Valenti to Johnson: "Our main strength lies not so much in the FOR Johnson but in the AGAINST Goldwater"; treat him as "a radical," with "humor, barbs, jokes, ridicule," and Miller "as some April Fool''s gag." "President stays above the battle."'
-    n: '[[w.young-two-suns-of-the]], 163–64; [[w.zelizer-fierce-urgency-of-now]], 157 ("Keep fear of Goldwater as unstable, impulsive, reckless in public''s mind"). To check: Valenti to Johnson, Sept. 7, 1964, PL 2 Elections and Campaigns, Sept. 6–14, 1964, box 84, WHCF, LBJ Library (cited by [[w.young-two-suns-of-the]], 164 n.57b). See [[cal.1964-09-07.elections-1964]]. Names: Valenti, Johnson, Goldwater, Miller.'
+    n: '[[w.young-two-suns-of-the]], 163–64; [[w.zelizer-fierce-urgency-of-now]], 157 ("Keep fear of Goldwater as unstable, impulsive, reckless in public''s mind"); [[w.dallek-flawed-giant]], 169. To check: Valenti to Johnson, Sept. 7, 1964, PL 2 Elections and Campaigns, Sept. 6–14, 1964, box 84, WHCF, LBJ Library (cited by [[w.young-two-suns-of-the]], 164 n.57b). See [[cal.1964-09-07.elections-1964]]. Names: Valenti, Johnson, Goldwater, Miller.'
     src:
       c: beee19a0
       rows:
         - 'w.young-two-suns-of-the 163–64: all'
         - 'via w.young-two-suns-of-the 164 n.57b: all'
         - 'w.zelizer-fierce-urgency-of-now 157: ?'
+        - 'w.dallek-flawed-giant 169: all'
+        - 'via w.dallek-flawed-giant 169 n.119: all'
     tags: [name:valenti-jack, name:johnson-lyndon-b, name:goldwater-barry-m, name:miller-william-e]
     time_range:
       - 1964-09-07T13:00Z
@@ -3893,3 +3913,28 @@ entries:
         - 'w.bernstein-guns-or-butter 403–04: all'
         - 'w.perlstein-before-the-storm 448: ?'
     tags: [name:savio-mario, city:berkeley, state:ca]
+  - id: cal.1964-09.elections-1964-johnson-7
+    when: Sept.
+    date: 1964-09
+    thread: elections-1964-johnson
+    also: [press-and-broadcasting]
+    c: The week after, Heller gets Sylvia Porter, the syndicated columnist, to write against a Goldwater tax-cut plan; Lippmann agrees to consider a column; the *Washington Post* prepares an editorial against Goldwater.
+    n: '[[w.dallek-flawed-giant]], 173. Check: the days; Dallek: "The following week." Names: Heller, Lippmann, Goldwater.'
+    src:
+      c: 5803aaba
+      rows:
+        - 'w.dallek-flawed-giant 173: all'
+    tags: [name:heller-walter-w, name:lippmann-walter, name:goldwater-barry-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-09.elections-1964-3
+          - cal.1964-09.elections-1964-4
+          - cal.1964-09.elections-1964-5
+          - cal.1964-09.elections-1964-johnson-5
+          - cal.1964-09.elections-1964-johnson-6
+          - cal.1964-09.elections-1964-johnson-4
+          - cal.1964-09.elections-1964-johnson
+          - cal.1964-09.elections-1964-johnson-2
+          - cal.1964-09.elections-1964-johnson-3
+        from: 2026-11-06-b6-dallek-flawed-giant

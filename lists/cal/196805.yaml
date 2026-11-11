@@ -797,6 +797,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-05-09.elections-1968-johnson
+    when: May 9
+    date: '1968-05-09'
+    thread: elections-1968-johnson
+    also: [robert-kennedy-campaign]
+    c: 'A memorandum to Johnson: Robert Kennedy will try to seize "law and order"; the President and the Vice President should occupy it so as to leave him no void.'
+    n: '[[w.dallek-flawed-giant]], 547. To check: unsigned memorandum, May 9, 1968, in the PL file on Robert F. Kennedy, LBJ Library (cited by [[w.dallek-flawed-giant]], 547 n.147). Names: Johnson, Robert Kennedy.'
+    src:
+      c: 132a700c
+      rows:
+        - 'w.dallek-flawed-giant 547: all'
+        - 'via w.dallek-flawed-giant 547 n.147: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
   - id: cal.1968-05-10.vietnam-operations
     when: May 10
     date: '1968-05-10'
@@ -2013,6 +2026,25 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-05-21.economy-surcharge-5
+    when: May 21
+    date: '1968-05-21'
+    thread: economy-surcharge
+    c: 'The Council of Economic Advisers to Johnson: a "possible world financial crisis"; defeat of the surcharge a major world political defeat for the United States, a paralysis of trade, a severe downturn.'
+    n: '[[w.dallek-flawed-giant]], 536. Names: Johnson.'
+    src:
+      c: a0783d1b
+      rows:
+        - 'w.dallek-flawed-giant 536: all'
+    tags: [name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-05-21.economy-surcharge
+          - cal.1968-05-21.economy-surcharge-2
+          - cal.1968-05-21.economy-surcharge-3
+          - cal.1968-05-21.economy-surcharge-4
+        from: 2026-11-06-b6-dallek-flawed-giant
   - id: cal.1968-05-22.europe-and-the-alliance
     when: May 22
     date: '1968-05-22'

@@ -2649,6 +2649,35 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-08-23.cities-and-housing
+    when: Aug. 23
+    date: '1967-08-23'
+    thread: cities-and-housing
+    c: Humphrey's committee on the cities, set up to work on a large new jobs program, issues its final report. Califano, with Schultze, had urged that the Vice President's group be tactfully disbanded; Johnson puts it "on ice."
+    n: '[[w.dallek-flawed-giant]], 403. To check: Humphrey to Johnson, July 27, Aug. 12 and 23, 1967; Johnson to Humphrey, Aug. 23, 1967, Humphrey Papers; Califano to Johnson, Aug. 16, 1967, WHCF, LBJ Library (cited by [[w.dallek-flawed-giant]], 403 n.40). Names: Humphrey, Califano, Schultze, Johnson.'
+    src:
+      c: 6c0ace86
+      rows:
+        - 'w.dallek-flawed-giant 403: all'
+        - 'via w.dallek-flawed-giant 403 n.40: all'
+    tags: [name:humphrey-hubert-h, name:califano-joseph-a-jr, name:schultze-charles-l, name:johnson-lyndon-b]
+  - id: cal.1967-08-23.cities-and-housing-2
+    when: Aug. 23
+    date: '1967-08-23'
+    thread: cities-and-housing
+    c: 'Johnson to Humphrey: the programs for the cities pending before the Congress to be enacted with the funding requested.'
+    n: '[[w.dallek-flawed-giant]], 418. To check: Johnson to Humphrey, Aug. 23, 1967, Humphrey Papers (cited by [[w.dallek-flawed-giant]], 418 n.78). Names: Johnson, Humphrey.'
+    src:
+      c: cf18f304
+      rows:
+        - 'w.dallek-flawed-giant 418: all'
+        - 'via w.dallek-flawed-giant 418 n.78: all'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-08-23.cities-and-housing
+        from: 2026-11-06-b6-dallek-flawed-giant
   - id: cal.1967-08-24.testing
     when: Aug. 24
     date: '1967-08-24'

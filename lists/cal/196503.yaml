@@ -1136,6 +1136,25 @@ entries:
       - 1965-03-06T17:00Z
     time_band: workday morning
     time_zone: America/New_York
+  - id: cal.1965-03-06.voting-rights-selma-4
+    when: Mar. 6
+    date: '1965-03-06'
+    thread: voting-rights-selma
+    also: [alabama]
+    c: Wallace bans the march from Selma set for Mar. 7, as a danger to public safety.
+    n: '[[w.dallek-flawed-giant]], 214–215. Check: the order''s words. See [[cal.1965-03-06.voting-rights-selma-2]]. Names: Wallace.'
+    src:
+      c: e513b7a4
+      rows:
+        - 'w.dallek-flawed-giant 214–215: all'
+    tags: [name:wallace-george-c]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-03-06.voting-rights-selma
+          - cal.1965-03-06.voting-rights-selma-2
+          - cal.1965-03-06.voting-rights-selma-3
+        from: 2026-11-06-b6-dallek-flawed-giant
   - id: cal.1965-03-07.voting-rights
     when: Mar. 7
     date: '1965-03-07'

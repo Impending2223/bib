@@ -480,12 +480,13 @@ entries:
     time: 1966-01-12T09:00Z
     thread: program
     c: The State of the Union in draft. Johnson rejects the final draft at 4 a.m. Goodwin, recalled for the work, starts over at dawn; through the day, in the Oval Office, sections reshuffled, Fortas and Clifford among the revisers.
-    n: '[[w.branch-at-canaans-edge]], 416. To check: [[w.califano-triumph-and-tragedy-of]], 117–18; [[w.goodwin-remembering-america]], 423–24; President''s Daily Diary, Jan. 12, 1966, 1–4, LBJ Library: Goodwin in the Oval Office nine minutes in the afternoon, Clifford and Fortas three hours after (cited by [[w.branch-at-canaans-edge]], 416, 884). The call with Ball on the passage on direct contact: [[cal.1966-01-12.vietnam-congress]]. The address: [[cal.1966-01-12.program]]. Names: Johnson, Goodwin, Fortas, Clifford.'
+    n: '[[w.branch-at-canaans-edge]], 416; [[w.dallek-flawed-giant]], 302 (the final draft from Goodwin, Califano and Valenti to his bedroom at 4 a.m.; at 7:15 five aides summoned, not Goodwin; the draft reorganized and cut by a third). To check: [[w.califano-triumph-and-tragedy-of]], 117–18; [[w.goodwin-remembering-america]], 423–24; President''s Daily Diary, Jan. 12, 1966, 1–4, LBJ Library: Goodwin in the Oval Office nine minutes in the afternoon, Clifford and Fortas three hours after (cited by [[w.branch-at-canaans-edge]], 416, 884). The call with Ball on the passage on direct contact: [[cal.1966-01-12.vietnam-congress]]. The address: [[cal.1966-01-12.program]]. Names: Johnson, Goodwin, Fortas, Clifford.'
     src:
       c: 2b731703
       rows:
         - 'w.branch-at-canaans-edge 416: all'
         - 'via x.1966-01-12.presidents-daily-diary-jan-12-1966: C'
+        - 'w.dallek-flawed-giant 302: ?'
     tags: [name:johnson-lyndon-b, name:goodwin-richard-n, name:fortas-abe, name:clifford-clark]
     conflict:
       - kind: duplicate
@@ -2428,6 +2429,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1966-01-25.vietnam-support-3
+    when: Jan. 25
+    date: '1966-01-25'
+    thread: vietnam-support
+    c: 'Moyers to Johnson: no one has had greater success going directly to the people; explain the war in person, not by statements from Washington. Johnson, on the memorandum: "Let''s go somewhere every Fri & Sat."'
+    n: '[[w.dallek-flawed-giant]], 353. Names: Moyers, Johnson.'
+    src:
+      c: 5b6fe520
+      rows:
+        - 'w.dallek-flawed-giant 353: all'
+    tags: [name:moyers-bill, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-01-25.vietnam-support
+          - cal.1966-01-25.vietnam-support-2
+        from: 2026-11-06-b6-dallek-flawed-giant
   - id: cal.1966-01-26.cities-and-housing
     when: Jan. 26
     date: '1966-01-26'

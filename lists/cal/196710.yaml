@@ -1070,6 +1070,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-10-10.war-opposition
+    when: Oct. 10
+    date: '1967-10-10'
+    thread: war-opposition
+    c: 'Califano to Johnson on the task force for the march on the Pentagon: unlawful demonstrators to be arrested efficiently and quietly; the marchers got out of town quickly.'
+    n: '[[w.dallek-flawed-giant]], 488. See [[cal.1967-10-04.war-opposition]]. Names: Califano, Johnson.'
+    src:
+      c: 5b8647e9
+      rows:
+        - 'w.dallek-flawed-giant 488: all'
+    tags: [name:califano-joseph-a-jr, name:johnson-lyndon-b]
   - id: cal.1967-10-11.opinion
     when: Oct. 11
     date: '1967-10-11'
@@ -1519,12 +1530,13 @@ entries:
     date: '1967-10-16'
     thread: war-opposition
     c: 'Califano to Johnson: the preparations for the march on course; the leaks to the press on Communist influence "should discourage many less extreme antiwar sympathizers from attending."'
-    n: '[[w.gibbons-u-s-government-and]], IV, 862. To check: the memorandum, WHCF, HU 4, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 862 n.43). See [[cal.1967-10-04.war-opposition]]. Names: Califano, Johnson.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 862; [[w.dallek-flawed-giant]], 488 (planners to cut attendance by leaking FBI material on Communist involvement). To check: the memorandum, WHCF, HU 4, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 862 n.43). See [[cal.1967-10-04.war-opposition]]. Names: Califano, Johnson.'
     src:
       c: f921091f
       rows:
         - 'w.gibbons-u-s-government-and IV, 862: all'
         - 'via w.gibbons-u-s-government-and IV, 862 n.43: all'
+        - 'w.dallek-flawed-giant 488: ?'
     tags: [name:califano-joseph-a-jr, name:johnson-lyndon-b]
     time_range:
       - 1967-10-16T13:00Z
@@ -2183,6 +2195,24 @@ entries:
       rows:
         - 'w.debenedetti-american-ordeal 193: all'
         - 'via w.debenedetti-american-ordeal 193 n.101: all'
+  - id: cal.1967-10-19.press-and-broadcasting-3
+    when: Oct. 19
+    date: '1967-10-19'
+    thread: press-and-broadcasting
+    also: [vietnam-support]
+    c: 'Johnson to Robert Manning of the *Atlantic*: he never thought there should not have been intervention or bombing; if history indicts them for Vietnam it will be for fighting a war without stirring up patriotism.'
+    n: '[[w.dallek-flawed-giant]], 486. Names: Johnson, Manning.'
+    src:
+      c: f9d07400
+      rows:
+        - 'w.dallek-flawed-giant 486: all'
+    tags: [name:johnson-lyndon-b, name:manning-robert-j]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-10-19.press-and-broadcasting
+          - cal.1967-10-19.press-and-broadcasting-2
+        from: 2026-11-06-b6-dallek-flawed-giant
   - id: cal.1967-10-20.mississippi
     when: Oct. 20
     date: '1967-10-20'
@@ -3196,6 +3226,23 @@ entries:
         - 'w.wells-war-within 213: B'
         - 'w.debenedetti-american-ordeal 199: A-C'
     tags: [name:berrigan-philip, city:baltimore]
+  - id: cal.1967-10-27.vietnam-air-war-2
+    when: Oct. 27
+    date: '1967-10-27'
+    thread: vietnam-air-war
+    also: [vietnam-support]
+    c: 'McPherson to Johnson, a letter: the air war has about become the war to the press and the public; middle-road Democrats edgy about the bombing; time to say what is hoped from it.'
+    n: '[[w.dallek-flawed-giant]], 492. Names: McPherson, Johnson.'
+    src:
+      c: 9be83d4a
+      rows:
+        - 'w.dallek-flawed-giant 492: all'
+    tags: [name:mcpherson-harry, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-10-27.vietnam-air-war
+        from: 2026-11-06-b6-dallek-flawed-giant
   - id: cal.1967-10-28.black-nationalism-oakland
     when: Oct. 28
     date: '1967-10-28'

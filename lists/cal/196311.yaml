@@ -1700,6 +1700,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-11-19.assassination
+    when: Nov. 19
+    date: '1963-11-19'
+    thread: assassination
+    c: Johnson to the ranch to prepare for the Kennedys, to be his guests the night of Nov. 22 and the next morning; Lady Bird Johnson home a week before.
+    n: '[[w.dallek-flawed-giant]], 46–47. To check: [[w.manchester-death-of-a-president]], 6–7 (cited by [[w.dallek-flawed-giant]], 47 n.98). Names: Johnson, Lady Bird Johnson.'
+    src:
+      c: 7e44571c
+      rows:
+        - 'w.dallek-flawed-giant 46–47: all'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird]
   - id: cal.1963-11-20.vietnam
     when: Nov. 20
     date: '1963-11-20'
@@ -1934,6 +1945,23 @@ entries:
       - 1963-11-20T22:14Z
     time_zone: America/New_York
     range_basis: record
+  - id: cal.1963-11-20.democratic-party-2
+    when: Nov. 20
+    date: '1963-11-20'
+    thread: democratic-party
+    also: [robert-kennedy]
+    c: 'Kennedy to his brother, the day before the trip to Texas: irritated with Johnson, who would not help with the party''s problems in his own State.'
+    n: '[[w.dallek-flawed-giant]], 43–44. Robert Kennedy''s recollection. To check: [[w.schlesinger-robert-kennedy-and-his]], 607 (cited by [[w.dallek-flawed-giant]], 44 n.90). Names: Kennedy, Robert Kennedy, Johnson.'
+    src:
+      c: b0c25464
+      rows:
+        - 'w.dallek-flawed-giant 43–44: all'
+    tags: [name:kennedy-john-f, name:kennedy-robert-f, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-11-20.democratic-party
+        from: 2026-11-06-b6-dallek-flawed-giant
   - id: cal.1963-11-21.economy-debt-limit
     when: Nov. 21
     date: '1963-11-21'
@@ -3328,13 +3356,14 @@ entries:
     date: '1963-11-23'
     thread: succession
     c: 'The Elms, the second night running, to 3 a.m., by Busby''s account. Johnson to Busby on what he means to do: strong civil rights legislation; immigration laws that do not discriminate against those not from England and western Europe; Social Security built up; health care for the elderly; federal support so that none is denied an education for lack of funds.'
-    n: '[[w.kotz-judgment-days]], 26; [[w.zelizer-fierce-urgency-of-now]], 64 (Busby; then Valenti, Moyers and Carter). To check: Busby, interview by Kotz (cited by [[w.kotz-judgment-days]], 26 nn.30–32). Names: Johnson, Busby.'
+    n: '[[w.kotz-judgment-days]], 26; [[w.zelizer-fierce-urgency-of-now]], 64 (Busby; then Valenti, Moyers and Carter); [[w.dallek-flawed-giant]], 55 (Busby in an armchair through the night; twice called back; gone only toward morning). To check: Busby, interview by Kotz (cited by [[w.kotz-judgment-days]], 26 nn.30–32). Names: Johnson, Busby.'
     src:
       c: 535bbed4
       rows:
         - 'w.kotz-judgment-days 26: all'
         - 'via w.kotz-judgment-days 26 n.30: all'
         - 'w.zelizer-fierce-urgency-of-now 64: ?'
+        - 'w.dallek-flawed-giant 55: ?'
     tags: [name:johnson-lyndon-b, name:busby-horace]
     time_range:
       - 1963-11-24T03:00Z
