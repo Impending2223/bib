@@ -500,39 +500,20 @@ entries:
     also: [goldwater]
     follows:
       - cal.1963-05-04.elections-1964
-    c: The afternoon of the wedding, before the press is told, some three hours after it. Rockefeller telephones Goldwater at the Westchester Apartments; David Rockefeller, Javits; Hinman, Representatives Morse, Sibal and Mathias among others, to sound and reassure them.
-    n: '[[w.novak-agony-of-the-g]], 140–41 & n.1. Some three hours after the wedding: [[w.novak-agony-of-the-g]], 140–41. See [[cal.1963-05-04.elections-1964]]. Names: Rockefeller, Goldwater, David Rockefeller, Javits, Hinman, Morse, Sibal, Mathias.'
+    c: 'The afternoon of the wedding, some three hours after it, before the press is told. Rockefeller telephones Goldwater at the Westchester Apartments: sorry to miss a coming dinner at which he was to pay him tribute. Goldwater to his wife: "Rockefeller just got married." Peggy Goldwater: "Bully for him!" David Rockefeller calls Javits; Hinman, Representatives Morse, Sibal and Mathias among others, to sound and reassure them.'
+    n: '[[w.novak-agony-of-the-g]], 140–41 & n.1 (the calls; some three hours after the wedding); [[w.smith-on-his-own-terms]], 407 (the call to Goldwater after the wedding and lunch; the dinner; Peggy Goldwater). See [[cal.1963-05-04.elections-1964]]. Names: Rockefeller, Goldwater, David Rockefeller, Javits, Hinman, Morse, Sibal, Mathias.'
     src:
       c: cf8cf950
       rows:
         - 'w.novak-agony-of-the-g 140–41 & n.1: all'
     tags: [name:rockefeller-nelson, name:goldwater-barry-m, name:rockefeller-david, name:javits-jacob-k, name:hinman-george-l, name:morse-frank-b, name:sibal-abner-w, name:mathias-charles-mcc-jr]
+    aliases: [cal.1963-05-04.elections-1964-3]
     time_range:
       - 1963-05-04T16:00Z
       - 1963-05-04T22:00Z
     time_band: afternoon
     time_zone: America/New_York
     range_basis: record
-  - id: cal.1963-05-04.elections-1964-3
-    when: May 4
-    date: '1963-05-04'
-    thread: elections-1964
-    also: [goldwater]
-    follows:
-      - cal.1963-05-04.elections-1964
-    c: 'After the wedding and lunch, Rockefeller telephones Goldwater: sorry to miss an upcoming dinner at which he was to pay him tribute. Goldwater to his wife: "Rockefeller just got married." Peggy Goldwater: "Bully for him!"'
-    n: '[[w.smith-on-his-own-terms]], 407. See [[cal.1963-05-04.elections-1964]]. Names: Rockefeller, Goldwater.'
-    src:
-      c: c0b3356e
-      rows:
-        - 'w.smith-on-his-own-terms 407: all'
-    tags: [name:rockefeller-nelson, name:goldwater-barry-m]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-05-04.elections-1964
-          - cal.1963-05-04.elections-1964-2
-        from: 2026-11-06-b6-smith-on-his-own-terms
   - id: cal.1963-05-05.alabama-birmingham
     when: May 5
     date: '1963-05-05'
@@ -3759,13 +3740,15 @@ entries:
     thread: civil-rights-the-executive
     also: [robert-kennedy]
     c: 'Robert Kennedy to Guthman, days after the Baldwin meeting: perhaps he would feel that strongly against his country had he grown up a Negro.'
-    n: '[[w.branch-parting-the-waters]], 812. To check: interview with Edwin Guthman, June 25, 1984 (cited by [[w.branch-parting-the-waters]], 812 n.5). Check: the day; Branch: "only days after" the meeting of May 24. See [[cal.1963-05-24.civil-rights-the-executive]]. Names: Robert Kennedy, Guthman.'
+    n: '[[w.branch-parting-the-waters]], 812; [[w.thomas-robert-kennedy]], 245 ("A few days after" the meeting). To check: interview with Edwin Guthman, June 25, 1984 (cited by [[w.branch-parting-the-waters]], 812 n.5). Check: the day; Branch: "only days after" the meeting of May 24. See [[cal.1963-05-24.civil-rights-the-executive]]. Names: Robert Kennedy, Guthman.'
     src:
       c: ee9a1eb8
       rows:
         - 'w.branch-parting-the-waters 812: all'
         - 'via w.branch-parting-the-waters 812 n.5: all'
+        - 'w.thomas-robert-kennedy 245: all'
     tags: [name:kennedy-robert-f, name:guthman-edwin-o]
+    aliases: [cal.1963-05.civil-rights-the-executive-6]
   - id: cal.1963-05-31.mississippi-2
     when: May 31
     date: '1963-05-31'
@@ -3791,28 +3774,6 @@ entries:
         - 'w.reeves-president-kennedy 500: all'
         - 'via w.reeves-president-kennedy 500 n.how-the-hell-did-this-happen: all'
     tags: [name:white-lee-c, name:kennedy-john-f]
-  - id: cal.1963-05.civil-rights-the-executive-6
-    when: May, late
-    date: 1963-05
-    thread: civil-rights-the-executive
-    also: [robert-kennedy]
-    c: A few days after the meeting with Baldwin's group, Robert Kennedy tells Guthman that if he had grown up a Negro he would feel as strongly as they do.
-    n: '[[w.thomas-robert-kennedy]], 245. To check: [[w.branch-parting-the-waters]], 812 (cited by Thomas, 441). Check: the day; Thomas: "A few days after" May 24. See [[cal.1963-05-24.civil-rights-the-executive]]. Names: Robert Kennedy, Guthman.'
-    src:
-      c: 31b2ace2
-      rows:
-        - 'w.thomas-robert-kennedy 245: all'
-    tags: [name:kennedy-robert-f, name:guthman-edwin-o]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-05.civil-rights-the-executive
-          - cal.1963-05.civil-rights-the-executive-2
-          - cal.1963-05.civil-rights-the-executive-3
-          - cal.1963-05.civil-rights-the-executive-4
-          - cal.1963-05.civil-rights-the-executive-5
-          - cal.1963-05.civil-rights-the-executive-7
-        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1963-05.economy
     when: May
     date: 1963-05

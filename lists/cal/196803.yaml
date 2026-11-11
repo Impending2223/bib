@@ -7057,13 +7057,14 @@ entries:
     date: 1968-03
     thread: robert-kennedy
     also: [robert-kennedy-campaign]
-    c: 'A dinner party, a few days after the announcement. Jacqueline Kennedy to Schlesinger: "Do you know what I think will happen to Bobby? The same thing that happened to Jack. ... There is so much hatred in this country, and more people hate Bobby than hated Jack."'
-    n: '[[w.thomas-robert-kennedy]], 361. To check: [[w.schlesinger-robert-kennedy-and-his]], 857 (cited by [[w.thomas-robert-kennedy]], 469). See [[cal.1968-03-16.robert-kennedy]]. Names: Jacqueline Kennedy, Schlesinger. Check: the day.'
+    c: 'New York, a dinner party, a few days after the announcement. Jacqueline Kennedy to Schlesinger: "Do you know what I think will happen to Bobby? The same thing that happened to Jack. ... There is so much hatred in this country, and more people hate Bobby than hated Jack." By Schlesinger''s journal.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 857; [[w.thomas-robert-kennedy]], 361; [[w.bernstein-guns-or-butter]], 501. To check: Schlesinger, journal, Apr. 2, 1968, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 857 n.54). See [[cal.1968-03-16.robert-kennedy]]. Names: Jacqueline Kennedy, Schlesinger, Robert Kennedy. Check: the day.'
     src:
       c: 89b65b91
       rows:
         - 'w.thomas-robert-kennedy 361: all'
-    tags: [name:kennedy-jacqueline, name:schlesinger-arthur-m-jr]
+    tags: [name:kennedy-jacqueline, name:schlesinger-arthur-m-jr, name:kennedy-robert-f]
+    aliases: [cal.1968-03.robert-kennedy-campaign-6, cal.1968-03.robert-kennedy-campaign-7]
   - id: cal.1968-03.robert-kennedy-campaign-2
     when: Mar.
     date: 1968-03
@@ -7269,26 +7270,6 @@ entries:
     c: Mexico City, Ambassador Fulton Freeman's residence. Humphrey hosts a dinner for President Díaz Ordaz. For Johnson's address, the two and their wives in the library, the guests in other rooms, the press outside. By Humphrey's account.
     n: '[[w.humphrey-education-of-a-public-1976]], 358–59, 359 n. (by his note, the first time a Mexican President set foot in the American Embassy since the Revolution). See [[cal.1968-03-31.elections-1968-4]]; [[cal.1968-03-31.elections-1968-6]]. Names: Humphrey, Díaz Ordaz, Johnson.'
     tags: [name:humphrey-hubert-h, name:diaz-ordaz-gustavo, name:johnson-lyndon-b]
-  - id: cal.1968-03.robert-kennedy-campaign-6
-    when: Mar.
-    date: 1968-03
-    thread: robert-kennedy-campaign
-    c: 'New York, a dinner party a few days after Robert Kennedy''s announcement. Jacqueline Kennedy to Schlesinger: "Do you know what I think will happen to Bobby? ... The same thing that happened to Jack. ... There is so much hatred in this country, and more people hate Bobby than hated Jack."'
-    n: '[[w.bernstein-guns-or-butter]], 501. To check: [[w.schlesinger-robert-kennedy-and-his]], 857 (cited by [[w.bernstein-guns-or-butter]], 501 n.7). Check: the day. See [[cal.1968-03-16.robert-kennedy-campaign]]. Names: Jacqueline Kennedy, Schlesinger, Robert Kennedy.'
-    src:
-      c: 66c07f85
-      rows:
-        - 'w.bernstein-guns-or-butter 501: all'
-    tags: [name:kennedy-jacqueline, name:schlesinger-arthur-m-jr, name:kennedy-robert-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1968-03.robert-kennedy-campaign
-          - cal.1968-03.robert-kennedy-2
-          - cal.1968-03.robert-kennedy-campaign-2
-          - cal.1968-03.robert-kennedy-campaign-3
-          - cal.1968-03.robert-kennedy-campaign-4
-        from: 2026-11-06-b6-bernstein-guns-or-butter
   - id: cal.1968-03.japan-and-korea-pueblo
     when: Mar.
     date: 1968-03
@@ -7344,28 +7325,6 @@ entries:
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 846: all'
     tags: [name:kennedy-robert-f, name:johnson-lyndon-b]
-  - id: cal.1968-03.robert-kennedy-campaign-7
-    when: Mar., late
-    date: 1968-03
-    thread: robert-kennedy-campaign
-    c: 'New York, a dinner party, a few days after the announcement. Jacqueline Kennedy to Schlesinger: "Do you know what I think will happen to Bobby? ... The same thing that happened to Jack. ... There is so much hatred in this country, and more people hate Bobby than hated Jack." She has told him so. By Schlesinger''s journal.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 857. Check: the day; the journal cited is of Apr. 2. To check: Schlesinger, journal, Apr. 2, 1968, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 857 n.54). See [[cal.1968-03-15.robert-kennedy-campaign-2]]. Names: Jacqueline Kennedy, Schlesinger, Robert Kennedy.'
-    src:
-      c: 0801bb61
-      rows:
-        - 'w.schlesinger-robert-kennedy-and-his 857: all'
-        - 'via w.schlesinger-robert-kennedy-and-his 857 n.54: all'
-    tags: [name:kennedy-jacqueline, name:schlesinger-arthur-m-jr, name:kennedy-robert-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1968-03.robert-kennedy-campaign
-          - cal.1968-03.robert-kennedy-2
-          - cal.1968-03.robert-kennedy-campaign-2
-          - cal.1968-03.robert-kennedy-campaign-3
-          - cal.1968-03.robert-kennedy-campaign-4
-          - cal.1968-03.robert-kennedy-campaign-6
-        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1968-03.elections-1968-nixon
     when: Mar.
     date: 1968-03
