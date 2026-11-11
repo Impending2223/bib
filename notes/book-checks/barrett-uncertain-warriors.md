@@ -38,6 +38,8 @@ The book's 1967–68 meetings with members are almost all in the calendar alread
 
 ## Passed over
 
+
+The 'already in' rows read against the calendar, Nov. 10, 2026 (batch 7); the rows still open read again Nov. 11, 2026 (batch 8, patch `inbox/2026-11-11-b8-barrett.yaml`): the rulings in "Batch 8" below.
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; the rulings in "Batch 6" below).
 
 How the list was made: the book read through in twelve-page passages, pp. 1–196, and the notes, pp. 197–260, every dated event noted with its page and note; each looked for in the calendar on its day (all threads) and, where in, named by its id. Not listed: the Kennedy years and the Nixon years, which the book names only for comparison; the scholarly argument of chs. 5–6. "Below the calendar's level": staff memoranda and an aide's notes that set nothing; "a lead": a dated event whose record was not read or whose content the book does not give; the leads are in `notes/leads.md`.
@@ -154,6 +156,61 @@ The owner's copy again (Drive 1bVNMJ-rtEYxrM_O7XZREp8GjYGr3hdjB, 19.6 MB, by the
 | 151 | Mar. 27, 1968 | Carver's briefing | cited under `cal.1968-03-27.vietnam-205000-3` |
 
 Still passed over: none of the rows above. The rows ruled "undated" and the leads stand as they were (not this batch's).
+
+## Batch 8: the "already in" rows read by the card (Nov. 11, 2026)
+
+The owner's copy (Drive 1bVNMJ-rtEYxrM_O7XZREp8GjYGr3hdjB), pdftotext; printed page = PDF page − 15 held (text only; no page images this pass). Patch `inbox/2026-11-11-b8-barrett.yaml`: 48 cites, 12 Checks, 3 variants, 1 to-check, 15 entries (13 of them the ids the stopped batch 7 had claimed in the ledger; the claims moved to this patch).
+
+| Page | Date | Ruling |
+|---|---|---|
+| 1–3, 102 | July 25, 1967 | cited under `cal.1967-07-25.vietnam`, all units |
+| 17–18 | Feb. 6, 1965 | cited under `cal.1965-02-07.vietnam` (E, in part; Check: Mansfield at the NSC meetings) |
+| 19–20 | Feb. 17, 1965 | cited under `cal.1965-02-17.vietnam-4` (B) |
+| 30 | July 1, 1965 | cited under `cal.1965-07-01.vietnam` (A, B) |
+| 36 | July 27, 1965 | cited under `cal.1965-07-27.vietnam-congress-3` (C, E, F); not borne out under `cal.1965-07-27.vietnam` |
+| 39–40 | July 8, 1965 | cited under `cal.1965-07-08.vietnam-july-decision` (B, C) |
+| 41 | June 16, 1965 | cited under `cal.1965-06-16.vietnam-2` (A, B) |
+| 45 | June 15, 1965 | cited under `cal.1965-06-15.vietnam` (A, in part) |
+| 46–51 | May 5, 1965 | cited under `cal.1965-05-05.vietnam-2` (A; variant 418–7, Check: mid-May); the Senate's 88–3 cited under `cal.1965-05-06.vietnam` (A, B, E); not borne out under `cal.1965-05-05.vietnam-congress` (Clark voted aye; nothing of the breakfast) |
+| 51–53 | July 21, 1965 | cited under `cal.1965-07-21.vietnam` (A); Busby's memorandum entered as `cal.1965-07-21.vietnam-july-decision-2` |
+| 54–55 | July 22, 1965 | cited under `cal.1965-07-22.vietnam` (A) |
+| 56 | July 23, 1965 | cited under `cal.1965-07-23.vietnam-congress` (A–C); Valenti's memorandum entered as `cal.1965-07-22.vietnam-july-decision-4` |
+| 57 | July 25, 1965 | cited under `cal.1965-07-25.vietnam` (A, B) |
+| 57–58 | July 27, 1965 | cited under `cal.1965-07-27.vietnam` (B, C) |
+| 60 | July 31, 1965 | cited under `cal.1965-08-01.vietnam-congress` (B; Check: the day, July 31, in Georgia) |
+| 64–65 | Mar. 16, 1967 | not borne out under the named ids (H.R. 6950, the investment credit); the House's vote on H.R. 7123, 385–11, entered as `cal.1967-03-16.vietnam-supplemental-2` |
+| 65–67 | Mar. 1, 1967 | cited under `cal.1967-03-01.vietnam` (B, in part; Check: Clark's amendment withdrawn, 77–3) |
+| 67 | Jan. 17, 1967 | cited under `cal.1967-01-17.vietnam-congress` (A, C; early 1967, no day) |
+| 68 | Mar. 2, 1967 | cited under `cal.1967-03-02.robert-kennedy` (A, C, F) |
+| 74–79 | Mar. 20, 1967 | cited under `cal.1967-03-20.vietnam` (A, B, F); entered `cal.1967-03-22.vietnam` (McNamara's briefing), `cal.1967-03-29.vietnam-diplomacy`, `cal.1967-03-31.vietnam-support` |
+| 80–81 | Apr. 28, 1967 | cited under `cal.1967-04-28.vietnam` (A); not borne out under `cal.1967-04-28.vietnam-congress`; McGovern cited under `cal.1967-04-25.vietnam-congress` (B, other words; Check) |
+| 81–82 | Apr. 27, 1967 | cited under `cal.1967-04-27.vietnam-program-5` (D); not borne out under `cal.1967-04-27.vietnam-congress` |
+| 83 | Oct. 3, 1966 | cited under `cal.1966-10-03.vietnam` (C; no day in the book) |
+| 83 | Apr. 15, 1967 | cited under `cal.1967-04-15.war-opposition` (C, D, F) |
+| 86 | May 19, 1967 | already cited under `cal.1967-05-19.vietnam`; not borne out under `cal.1967-05-19.vietnam-2` |
+| 97 | May 12, 1967 | not borne out (the battleship evening, summer; no May 12 dinner) |
+| 102 | Jan. 9, 1967 | cited under `cal.1967-01-09.vietnam-congress-2` (units `?`: a January meeting, no day); not borne out under `cal.1967-01-09.vietnam-congress` |
+| 104 | July 13, 1967 | cited under `cal.1967-07-13.vietnam-program-5` (A) |
+| 105 | Aug. 8, 1967 | cited under `cal.1967-08-08.vietnam` (A: the infiltration dispute added) |
+| 109 | Jan. 30, 1968 | not borne out under `cal.1968-01-30.vietnam`; the Tuesday lunch entered as `cal.1968-01-30.vietnam-tet-2`, Thurmond as `cal.1968-01-30.vietnam-congress-2` |
+| 115 | Feb. 8, 1968 | cited under `cal.1968-02-09.vietnam` (A; Check: Feb. 8), `cal.1968-02-09.vietnam-tet` (A), `cal.1968-02-12.vietnam-tet` (B, C) |
+| 119 | Jan. 18, 1968 | cited under `cal.1968-01-18.war-opposition` (A, B; Check: the words) |
+| 125–27 | Feb. 27, 1968 | cited under `cal.1968-02-27.vietnam` (C, D, F, G) and `cal.1968-02-28.vietnam-205000` (A–C) |
+| 129–31 | Mar. 4, 1968 | cited under `cal.1968-03-04.vietnam` (A; G, H at 133; variants B, C: 23,000, 245,000) |
+| 134 | Mar. 6, 1968 | cited under `cal.1968-03-06.vietnam` (A; Check: three other senators); Rusk's statement of Mar. 5 entered as `cal.1968-03-05.vietnam-205000-2` |
+| 135 | Mar. 10, 1968 | cited under `cal.1968-03-10.vietnam` (A); not borne out under `cal.1968-03-10.robert-kennedy`; Russell's statement left (no day) |
+| 136 | Mar. 14, 1968 | cited under `cal.1968-03-14.vietnam-205000` (B; no day in the book) |
+| 138 | Mar. 14, 1968 | cited under `cal.1968-03-14.robert-kennedy` (A, B); not borne out under `cal.1968-03-14.democratic-party` |
+| 139 | Mar. 18, 1968 | Check on `cal.1968-03-18.vietnam` (the speech not named); Rowe's memorandum entered as `cal.1968-03-19.vietnam-205000-3` |
+| 140–41 | Mar. 15, 1968 | cited under `cal.1968-03-15.vietnam-205000-2` (B, C); entered `cal.1968-03-15.vietnam-diplomacy` (Cousins), `cal.1968-03-16.vietnam-205000-3` (Rostow), `cal.1968-03-07.vietnam-205000-2` (State's compilation) |
+| 142–43 | Mar. 20, 1968 | cited under `cal.1968-03-20.vietnam-205000` (D, E; Check: the night); Goldberg alone entered as `cal.1968-03-20.vietnam-205000-5`; not borne out under `cal.1968-03-20.vietnam-205000-3` |
+| 145 | Mar. 22, 1968 | cited under `cal.1968-03-22.vietnam-205000` (A) and `cal.1968-03-23.vietnam-205000` (A, D, E); not borne out under `cal.1968-03-22.elections-1968` |
+| 147–48 | Mar. 26, 1968 | cited under `cal.1968-03-25.vietnam` (C) |
+| 152 | Mar. 27, 1968 | cited under `cal.1968-03-27.vietnam-205000` (A, B) |
+| 152 | Mar. 29, 1968 | cited under `cal.1968-03-29.vietnam-205000` (A, in part) |
+| 153–54 | Mar. 28, 1968 | cited under `cal.1968-03-28.vietnam` (B; Check: who produced the language); Rusk's cable to Bunker entered as `cal.1968-03-28.vietnam-205000` |
+
+Where batch 8 stopped: all 46 rows read; none left open.
 
 ## Leads
 

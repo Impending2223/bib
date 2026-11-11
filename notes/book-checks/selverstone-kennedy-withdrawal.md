@@ -46,6 +46,17 @@ Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; the rulings in "Batch 6" b
 
 How the list was made: the date scan above. Each dated mention not cited by an entry was read in its paragraph and set against the entries of its day (±3 days). "Already in as" names the entry that has it: cited where Selverstone adds something, otherwise left. "Minor" means only what the brief's rule says. Page | date | event | why.
 
+The "already in" rows read against the calendar, Nov. 10, 2026 (batch 7), and again by the reader's card, Nov. 11, 2026 (batch 8; patch `inbox/2026-11-11-b8-selverstone.yaml`). Rulings, page by entry:
+
+- Cited under the entry: p. 20 (Jan. 6, 1961, berlin-and-vienna); 21 (Jan. 30, program); 29 (May 25, space); 31 (Aug. 13, berlin-and-vienna); 36 (Oct. 11, vietnam); 38 (Oct. 18, vietnam); 48 (Dec. 8, vietnam); 52 (Jan. 11, 1962, program); 55 (Feb. 8, vietnam); 57 (Feb. 14, vietnam); 58 (Feb. 20, vietnam-congress); 63-64 (Feb. 27, vietnam); 98 (Jan. 2, 1963, vietnam); 118 (May 8, vietnam); 126 (May 12, vietnam); 133 (June 11, vietnam); 142 (Aug. 21, vietnam); 143 (Aug. 28, vietnam); 143-44 (Aug. 29, vietnam; the row's p. 146 is de Gaulle's Aug. 29 statement, not Kennedy); 150 (Sept. 5, vietnam-congress); 147-48, 152 (Sept. 9, vietnam; and 152 under vietnam-saigon, Lodge with Diem); 154 (Sept. 10, vietnam); 158 (Sept. 15, alabama); 158-59 (Sept. 17, vietnam; the row's p. 158 is the sending of McNamara and Taylor); 163 (Sept. 26, vietnam-congress); 196 (Nov. 1, vietnam); 217 (Jan. 30, 1964, vietnam); 218 (Jan. 16, 1964, vietnam, the approval; 34A from Feb. 1); 219 (Feb. 21, 1964, vietnam).
+- Variant and Check on: Aug. 21, 1963 (p. 142 puts the raids and martial law on the night of Aug. 21); May 8, 1963 (p. 118: "over twenty" killed and injured, against eight killed). Variant already on Mar. 24, 1963, foreign-aid (p. 111: the Clay report "Released on March 22"): no cite, the page disputes the unit.
+- Not borne out (no cite): Apr. 29, 1961, laos (p. 24 treats the NSC meeting of that day, entered as cal.1961-04-29.vietnam by the batch 8 Reeves patch; the entry is Rusk's meeting at State); Oct. 1, 1963, vietnam-saigon (p. 136: Oct. 1 is Felt's earliest date for the decision, a planning date; the entry is Taylor's call on Minh); Oct. 30, 1963, vietnam (p. 153: the troop peak of 16,732 by Oct. 30; the entry is Lodge's cable).
+- Background rows, no single entry and nothing on the page the series rests on: Bay of Pigs (p. 23, two sentences); the missile crisis (p. 96); Dallas (pp. 203, 233). On p. 203 Kennedy's remarks prepared for the Trade Mart, Nov. 22 ("key role," "we dare not weary of the task"): not in `c` of the assassination entry, which cites the Public Papers text; a possible entry for the owner.
+- Notes not read: the cited records behind these pages are not added under "To check:" in this patch.
+
+Where batch 8 stopped: all 36 rows ruled; none left open.
+
+
 | page | date | event | why |
 |---|---|---|---|
 | 20 | 1961-01-06 | Khrushchev's wars of national liberation speech | already in as cal.1961-01-06.berlin-and-vienna (background) |
