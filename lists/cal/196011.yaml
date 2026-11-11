@@ -1193,6 +1193,17 @@ entries:
           - cal.1960-11-08.elections-1960-count
           - cal.1960-11-08.elections-1960-count-2
         from: 2026-11-06-b6-kallina-kennedy-v-nixon
+  - id: cal.1960-11-08.elections-1960-king
+    when: Nov. 8
+    date: '1960-11-08'
+    thread: elections-1960-king
+    c: 'Election day. Raymond Jones, the Harlem Democratic leader, telephones Wofford: the Constitutional Rights Conference and the King call "one-two knockout blows," a massive turnout of Negroes for Kennedy throughout New York; "It was like a symphony ... working up to a great last movement." By Wofford''s account.'
+    n: '[[w.wofford-of-kennedys-and-kings]], 65. See [[cal.1960-10-25.king]]. Names: Wofford.'
+    src:
+      c: cbc20058
+      rows:
+        - 'w.wofford-of-kennedys-and-kings 65: all'
+    tags: [name:wofford-harris]
   - id: cal.1960-11-09.transition-and-staff
     when: Nov. 9–10
     date: '1960-11-09'
@@ -1589,6 +1600,19 @@ entries:
       rows:
         - 'w.sorensen-kennedy 230–31: all'
     tags: [name:kennedy-john-f, name:de-gaulle-charles, name:kennedy-jacqueline]
+  - id: cal.1960-11-10.elections-1960-nixon
+    when: Nov. 10
+    date: '1960-11-10'
+    thread: elections-1960-nixon
+    also: [elections-1960-king]
+    c: 'Two days after the election. Nixon''s chauffeur: his people were for Nixon until Robert Kennedy called the judge to get King out of jail. Nixon: "If there was any fault involved it was not with your people: it was mine, in failing to get my point of view across to them." By Nixon''s account.'
+    n: '[[w.wofford-of-kennedys-and-kings]], 26 (quoting Nixon); [[w.nixon-six-crises]], 402–03 (Wardlaw, driving Nixon to the Capitol: Robert Kennedy''s call to the judge turned his friends; Nixon: no one can say what lost an election this close). See [[cal.1960-10-25.king]]. Names: Nixon, Robert Kennedy, Martin Luther King.'
+    src:
+      c: 5dcd589d
+      rows:
+        - 'w.wofford-of-kennedys-and-kings 26: all'
+        - 'w.nixon-six-crises 402–03: ?'
+    tags: [name:nixon-richard-m, name:kennedy-robert-f, name:king-martin-luther-jr]
   - id: cal.1960-11-11.vietnam
     when: Nov. 11–12
     date: '1960-11-11'
@@ -3167,3 +3191,21 @@ entries:
           - cal.1960-11.elections-1960-6
           - cal.1960-11.elections-1960-kennedy-2
         from: 2026-11-06-b6-thomas-robert-kennedy
+  - id: cal.1960-11.transition-and-staff-cabinet-3
+    when: Nov.
+    date: 1960-11
+    thread: transition-and-staff-cabinet
+    also: [georgia]
+    c: Atlanta and towns of Georgia, the Field Foundation's trustees on tour, Southern economic development and race relations. Stevenson, on a long bus ride with Wofford, on the Kennedys and his foreign policy report; plainly hoping to be Secretary of State. Crowds greet Stevenson at each stop. By Wofford's account.
+    n: '[[w.wofford-of-kennedys-and-kings]], 79–80. Check: the day; Wofford: "During this period," after Sharon took the report to Palm Beach in mid-November. Names: Stevenson, Wofford.'
+    src:
+      c: 8ef4ba0f
+      rows:
+        - 'w.wofford-of-kennedys-and-kings 79–80: all'
+    tags: [name:stevenson-adlai-e, name:wofford-harris]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-11.transition-and-staff-cabinet
+          - cal.1960-11.transition-and-staff-cabinet-2
+        from: 2026-11-06-b6-wofford-of-kennedys

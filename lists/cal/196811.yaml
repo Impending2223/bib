@@ -830,6 +830,67 @@ entries:
         - 'w.peirce-mountain-states-of-america 204: all'
         - 'via x.undated.peirce-interview-ezra-taft-benson: all'
     tags: [name:benson-ezra-taft, name:eisenhower-dwight-d, name:wallace-george-c, state:ut]
+  - id: cal.1968-11-05.elections-1968-nixon
+    when: Nov. 5
+    date: '1968-11-05'
+    thread: elections-1968-nixon
+    c: 'Los Angeles, the Century Plaza, election day. Nixon up at 7:20 by his log, after bed at 1:25. Nearly an hour on the telephone: Mitchell in New York, Norman Chandler of the *Los Angeles Times*, Mrs. Eisenhower, Chotiner, his brother Edward, Stans; Haldeman, Ehrlichman and Garment at intervals.'
+    n: '[[w.white-making-of-the-president-1969]], 388. Names: Nixon, Mitchell, Chotiner, Stans, Haldeman, Garment.'
+    src:
+      rows:
+        - 'w.white-making-of-the-president-1969 388: all'
+        - 'via x.1968-11-05.nixon-log-election-day: B'
+      c: 7bc6c92f
+    tags: [name:nixon-richard-m, name:mitchell-john-n, name:chotiner-murray-m, name:stans-maurice-h, name:haldeman-h-r, name:garment-leonard]
+  - id: cal.1968-11-05.elections-1968-nixon-2
+    when: Nov. 5
+    date: '1968-11-05'
+    thread: elections-1968-nixon
+    follows:
+      - cal.1968-11-05.elections-1968-nixon
+    c: 'Aboard the campaign plane, from Los Angeles at 9:45, Pacific time. Nixon calls his family forward: if the voters still care most about peace, a big win; if they have been reassured on peace and turn to their pocketbooks, a loss. The bombing halt could cost three to five million votes, in the East more than the South or Midwest. No one to turn on television before nine in New York. By Nixon''s account to White.'
+    n: '[[w.white-making-of-the-president-1969]], 388–89. Names: Nixon.'
+    src:
+      rows:
+        - 'w.white-making-of-the-president-1969 388–89: all'
+        - 'via x.undated.nixon-recollection-to-white-election-day: B-E'
+      c: 5ff89c49
+    tags: [name:nixon-richard-m, name:nixon-pat]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-11-05.elections-1968-nixon
+        from: 2026-11-06-b6-white-making-of-the-president-1969
+  - id: cal.1968-11-05.elections-1968-nixon-3
+    when: Nov. 5
+    date: '1968-11-05'
+    thread: elections-1968-nixon
+    follows:
+      - cal.1968-11-05.elections-1968-nixon-2
+    c: 'The flight east. Nixon thanks his writers, Price, Buchanan, Safire, Keogh, and asks whether the radio speeches did any good; then the media group, the political staff, the wives. Ellsworth: Philadelphia voting heavily. Newark at 6:15 p.m.; the Waldorf Towers, Suite 35H, at 7:05.'
+    n: '[[w.white-making-of-the-president-1969]], 389–90. Names: Nixon, Price, Buchanan, Safire, Keogh, Ellsworth.'
+    src:
+      rows:
+        - 'w.white-making-of-the-president-1969 389–90: all'
+      c: 2ad727d3
+    tags: [name:nixon-richard-m, name:price-raymond-k-jr, name:buchanan-patrick-j, name:safire-william, name:ellsworth-robert]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-11-05.elections-1968-nixon
+          - cal.1968-11-05.elections-1968-nixon-2
+        from: 2026-11-06-b6-white-making-of-the-president-1969
+  - id: cal.1968-11-05.elections-1968-humphrey
+    when: Nov. 5
+    date: '1968-11-05'
+    thread: elections-1968-humphrey
+    c: Humphrey, after his telethon and a party at a friend's in Beverly Hills, flies through the night to Minnesota and votes at the Marysville township hall; out of sight until shortly before midnight, then the Leamington Hotel, Minneapolis.
+    n: '[[w.white-making-of-the-president-1969]], 395. Names: Humphrey.'
+    src:
+      rows:
+        - 'w.white-making-of-the-president-1969 395: all'
+      c: 50b75be9
+    tags: [name:humphrey-hubert-h, state:mn]
   - id: cal.1968-11-06.elections-1968
     when: Nov. 6
     date: '1968-11-06'
@@ -1000,6 +1061,17 @@ entries:
           - cal.1968-11-06.elections-1968-4
           - cal.1968-11-06.elections-1968-5
         from: 2026-11-06-b6-nixon-rn
+  - id: cal.1968-11-06.elections-1968-humphrey
+    when: Nov. 6
+    date: '1968-11-06'
+    thread: elections-1968-humphrey
+    c: Minneapolis, the Leamington, by 1 a.m. Humphrey's staff knows he cannot win in the electoral college; their hope, that Wallace deny Nixon a majority and the election go to the House. A fight there, they think, only if Humphrey wins the popular vote. Fading by four, when he goes to sleep.
+    n: '[[w.white-making-of-the-president-1969]], 395. See [[cal.1968-11-05.elections-1968-humphrey]]. Names: Humphrey, Wallace, Nixon.'
+    src:
+      rows:
+        - 'w.white-making-of-the-president-1969 395: all'
+      c: 3ed27cfc
+    tags: [name:humphrey-hubert-h, name:wallace-george-c, name:nixon-richard-m]
   - id: cal.1968-11-07.vietnam-paris
     when: Nov. 7
     date: '1968-11-07'

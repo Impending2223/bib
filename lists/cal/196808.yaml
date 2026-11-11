@@ -4151,6 +4151,17 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1968-08-22.elections-1968-nixon
+    when: Aug. 22–24
+    date: '1968-08-22'
+    thread: elections-1968-nixon
+    c: Nixon, from Key Biscayne, sails to Walker Cay to fish, the Thursday before the Democratic convention; back to the mainland Saturday night.
+    n: '[[w.white-making-of-the-president-1969]], 320 (the days by the convention''s opening, Monday, Aug. 26). Names: Nixon.'
+    src:
+      rows:
+        - 'w.white-making-of-the-president-1969 320: all'
+      c: 10e9e7b1
+    tags: [name:nixon-richard-m]
   - id: cal.1968-08-23.soviet-union-czechoslovakia
     when: Aug. 23
     date: '1968-08-23'
@@ -4577,6 +4588,18 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=220: all'
         - 'w.cohen-american-pharaoh 470: A'
     tags: [name:johnson-lyndon-b, state:tx]
+  - id: cal.1968-08-24.elections-1968-nixon
+    when: Aug. 24
+    date: '1968-08-24'
+    thread: elections-1968-nixon
+    also: [elections-1968-chicago]
+    c: Key Biscayne, Saturday night. Nixon hears what is happening in Chicago from Haldeman and Chapin, manning the telephones for word from the campaign's observation post in Illinois.
+    n: '[[w.white-making-of-the-president-1969]], 320. Names: Nixon, Haldeman, Chapin.'
+    src:
+      rows:
+        - 'w.white-making-of-the-president-1969 320: all'
+      c: 7a1d723e
+    tags: [name:nixon-richard-m, name:haldeman-h-r, name:chapin-dwight-l]
   - id: cal.1968-08-25.opinion
     when: Aug. 25
     date: '1968-08-25'
@@ -4773,6 +4796,17 @@ entries:
         - 'w.califano-triumph-and-tragedy-of 320: ?'
         - 'w.longley-lbjs-1968 218: ?'
     tags: [name:clifford-clark, name:califano-joseph-a-jr, name:mcpherson-harry, name:johnson-lyndon-b]
+  - id: cal.1968-08-25.elections-1968-nixon
+    when: Aug. 25–27
+    date: '1968-08-25'
+    thread: elections-1968-nixon
+    c: Nixon on a houseboat with Rebozo, Sunday; Monday and Tuesday at sea, to another offshore cay. Back at Key Biscayne Wednesday, having seen nothing of the convention.
+    n: '[[w.white-making-of-the-president-1969]], 320. Names: Nixon, Rebozo.'
+    src:
+      rows:
+        - 'w.white-making-of-the-president-1969 320: all'
+      c: 8fee8ba4
+    tags: [name:nixon-richard-m, name:rebozo-charles-g]
   - id: cal.1968-08-26.soviet-union-czechoslovakia
     when: Aug. 26
     date: '1968-08-26'
@@ -5100,6 +5134,31 @@ entries:
       rows:
         - 'w.cohen-american-pharaoh 473: all'
     tags: [state:il, city:chicago, name:daley-richard-j]
+  - id: cal.1968-08-26.elections-1968-chicago-22
+    when: Aug. 26–29
+    date: '1968-08-26'
+    thread: elections-1968-chicago
+    also: [elections-1968-humphrey]
+    c: Chicago, the convention week. The tickets in the hands of Criswell, the party's treasurer, Johnson's man. Each morning Humphrey's son-in-law, Bruce Solomonson, lines up with the favor-seekers outside Criswell's office for extra gallery tickets for the Vice President's family.
+    n: '[[w.white-making-of-the-president-1969]], 271. Check: the days; White: "every morning." Names: Criswell, Humphrey.'
+    src:
+      rows:
+        - 'w.white-making-of-the-president-1969 271: all'
+      c: 9bd65537
+    tags: [name:criswell-john, name:humphrey-hubert-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-08-26.elections-1968
+          - cal.1968-08-26.elections-1968-chicago
+          - cal.1968-08-26.elections-1968-chicago-7
+          - cal.1968-08-26.elections-1968-chicago-9
+          - cal.1968-08-26.elections-1968-chicago-12
+          - cal.1968-08-26.elections-1968-chicago-14
+          - cal.1968-08-26.elections-1968-chicago-18
+          - cal.1968-08-26.elections-1968-chicago-20
+          - cal.1968-08-26.elections-1968-chicago-21
+        from: 2026-11-06-b6-white-making-of-the-president-1969
   - id: cal.1968-08-27.elections-1968-chicago
     when: Aug. 27
     date: '1968-08-27'
@@ -5450,6 +5509,40 @@ entries:
           - cal.1968-08-27.elections-1968-chicago-17
           - cal.1968-08-27.elections-1968-chicago-19
         from: b6-longley
+  - id: cal.1968-08-27.elections-1968-chicago-18
+    when: Aug. 27
+    date: '1968-08-27'
+    thread: elections-1968-chicago
+    c: Schlesinger, at the convention two days in a McGovern button, flies to Japan the morning after the opening.
+    n: '[[w.white-making-of-the-president-1969]], 266. White: he sensed disaster coming. Names: Schlesinger, McGovern.'
+    src:
+      rows:
+        - 'w.white-making-of-the-president-1969 266: all'
+      c: 32ffe52f
+    tags: [name:schlesinger-arthur-m-jr, name:mcgovern-george]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-08-27.elections-1968-chicago-2
+          - cal.1968-08-27.elections-1968-chicago-15
+          - cal.1968-08-27.elections-1968-chicago-16
+          - cal.1968-08-27.elections-1968-chicago-17
+          - cal.1968-08-27.elections-1968-chicago-19
+          - cal.1968-08-27.elections-1968-chicago-20
+        from: 2026-11-06-b6-white-making-of-the-president-1969
+  - id: cal.1968-08-27.elections-1968-humphrey
+    when: Aug. 27
+    date: '1968-08-27'
+    thread: elections-1968-humphrey
+    also: [elections-1968-chicago]
+    c: 'Chicago, late Tuesday. Humphrey, back from his son Robert''s wedding-anniversary party, with a few aides in his suite on his two questions left: who should nominate him, and whom to choose for Vice President. Asleep after one.'
+    n: '[[w.white-making-of-the-president-1969]], 290; [[w.solberg-hubert-humphrey]], 235 (the party for his son Bob''s second wedding anniversary, at his headquarters, his meetings with delegates broken off). Names: Humphrey.'
+    src:
+      c: a010ff2e
+      rows:
+        - 'w.white-making-of-the-president-1969 290: all'
+        - 'w.solberg-hubert-humphrey 235: B'
+    tags: [name:humphrey-hubert-h]
   - id: cal.1968-08-28.elections-1968
     when: Aug. 28
     date: '1968-08-28'
@@ -6337,6 +6430,23 @@ entries:
     time_band: workday daytime
     time_zone: America/Chicago
     range_basis: kind
+  - id: cal.1968-08-30.elections-1968-chicago-streets-2
+    when: Aug. 30
+    date: '1968-08-30'
+    thread: elections-1968-chicago-streets
+    c: 'Chicago, about 3 a.m. Wofford, arrested at Eighteenth Street the evening before, before a night court: disorderly conduct, having "failed to obey a lawful order of dispersal"; bail $500. In the lockup with him Murray Kempton, a New York McCarthy delegate, and Tom Buckley of the *New York Times*, back from Vietnam. By Wofford''s account.'
+    n: '[[w.wofford-of-kennedys-and-kings]], 441–43. See [[cal.1968-08-29.elections-1968-chicago-5]]. Names: Wofford.'
+    src:
+      c: 9e39b840
+      rows:
+        - 'w.wofford-of-kennedys-and-kings 441–43: all'
+    tags: [name:wofford-harris]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-08-30.elections-1968-chicago
+          - cal.1968-08-30.elections-1968-chicago-streets
+        from: 2026-11-06-b6-wofford-of-kennedys
   - id: cal.1968-08-31.elections-1968
     when: Aug. 31
     date: '1968-08-31'
