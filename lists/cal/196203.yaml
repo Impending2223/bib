@@ -1851,6 +1851,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-03-29.soviet-union-2
+    when: Mar. 29
+    date: '1962-03-29'
+    thread: soviet-union
+    c: 'The Presidium on the plan of a many-volume History of the Communist Party. Mikoyan: from which congress does it begin? Khrushchev: the direction right; to Pospelov, can he manage it, with complete objectivity? Full trust in him. Shatalin to be released; the composition to the Secretariat; not approved yet.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 552 (Protocol 23, item XL, Malin''s notes). Made public: 2003. Names: Mikoyan, Khrushchev.'
+    src:
+      c: d6062bd0
+      rows:
+        - 'w.prezidium-tsk-kpss-1954 I, 552: all'
+        - 'via x.1962-03-29.presidium-protocol-23: all'
+    tags: [name:mikoyan-anastas, name:khrushchev-nikita-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-03-29.soviet-union
+        from: 2026-11-06-b6-prezidium-tsk-kpss-1954
   - id: cal.1962-03-30.court
     when: Mar. 30
     date: '1962-03-30'

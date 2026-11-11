@@ -638,6 +638,35 @@ entries:
         - 'w.goldberg-barry-goldwater 158: all'
         - 'via w.goldberg-barry-goldwater 158 n.52: all'
     tags: [name:goldwater-barry-m, name:welch-robert]
+  - id: cal.1961-04-06.soviet-union
+    when: Apr. 6
+    date: '1961-04-06'
+    thread: soviet-union
+    c: 'The Presidium, outside the protocol, on the press at the Kuibyshev works. Khrushchev: will it not be fully loaded? Gosplan is swallowed by current business.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 497 (Protocol 323, Malin''s notes). Made public: 2003. Names: Khrushchev.'
+    src:
+      c: adb7c8b8
+      rows:
+        - 'w.prezidium-tsk-kpss-1954 I, 497: all'
+        - 'via x.1961-04-06.presidium-protocol-323: all'
+    tags: [name:khrushchev-nikita-s]
+  - id: cal.1961-04-06.soviet-union-2
+    when: Apr. 6
+    date: '1961-04-06'
+    thread: soviet-union
+    c: 'The Presidium on the cadres of the Party Control Committee. Khrushchev: Boitsov disagrees with the Twentieth Congress''s decisions on the cult of personality, Bogoyavlensky too; Kozlov and Shvernik to look into it, Boitsov perhaps to State Control or retirement, told that his views are known. Also: a model charter for the collective farms to be drafted, a congress of collective farmers for the winter of 1961–62, the new Constitution, elections to the Supreme Soviet in the spring of 1962.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 497 (Protocol 323, item V, Malin''s notes). Made public: 2003. Names: Khrushchev, Kozlov.'
+    src:
+      c: cd78c8e5
+      rows:
+        - 'w.prezidium-tsk-kpss-1954 I, 497: all'
+        - 'via x.1961-04-06.presidium-protocol-323: all'
+    tags: [name:khrushchev-nikita-s, name:kozlov-frol-r]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-04-06.soviet-union
+        from: 2026-11-06-b6-prezidium-tsk-kpss-1954
   - id: cal.1961-04-07.cuba
     when: Apr. 7
     date: '1961-04-07'

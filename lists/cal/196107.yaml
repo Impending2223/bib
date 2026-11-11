@@ -1716,6 +1716,45 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
+  - id: cal.1961-07-29.berlin-and-vienna-3
+    when: July 29
+    date: '1961-07-29'
+    thread: berlin-and-vienna
+    also: [defense]
+    c: 'The Joint Chiefs to McNamara on the Berlin planning: more weight to how nuclear and non-nuclear forces bear on each other, and to Berlin among actions world-wide. Even by mid-1962, conventional forces could not reopen the ground access against Soviet forces in strength. They set out again the sequences of July 12 and 18.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 147–48. Poole cites JCSM-508-61, July 29, 1961 (148 n.34); the brief paper of planning guidance the Chiefs also sent is JCSM-515-61, Aug. 3, by the same note. See [[cal.1961-07-12.berlin-and-vienna]]. Names: McNamara.'
+    src:
+      c: df416f98
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 147–48: all'
+        - 'via x.1961-07-29.jcsm-508-61-berlin-planning: all'
+    tags: [name:mcnamara-robert-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-07-29.berlin-and-vienna
+          - cal.1961-07-29.berlin-and-vienna-2
+        from: 2026-11-06-b6-poole-joint-chiefs-of-staff
+  - id: cal.1961-07-29.berlin-and-vienna-4
+    when: July 29
+    date: '1961-07-29'
+    thread: berlin-and-vienna
+    also: [defense]
+    c: 'The Joint Chiefs answer McNamara''s question of May on supporting guerrillas should uprisings follow American action at Berlin: fourteen Special Forces detachments in West Germany, six in West Berlin, 23 at home; European Command could supply 82,500 rebels for thirty days. A guerrilla campaign could grow into general war; conventional operations probably needed too; decide first to do whatever success requires.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 148. Poole cites JCSM-502-61, July 29, 1961 (148 n.36). Names: McNamara.'
+    src:
+      c: 46c555c2
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 148: all'
+        - 'via x.1961-07-29.jcsm-502-61-guerrillas: all'
+    tags: [name:mcnamara-robert-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-07-29.berlin-and-vienna
+          - cal.1961-07-29.berlin-and-vienna-2
+          - cal.1961-07-29.berlin-and-vienna-3
+        from: 2026-11-06-b6-poole-joint-chiefs-of-staff
   - id: cal.1961-07-30.berlin-and-vienna
     when: July 30
     date: '1961-07-30'

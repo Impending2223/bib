@@ -877,6 +877,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-08-10.berlin-and-vienna-2
+    when: Aug. 10
+    date: '1961-08-10'
+    thread: berlin-and-vienna
+    c: 'Admiral Anderson, Chief of Naval Operations, to the Joint Chiefs: East German uprisings like those of 1953 may come; the Chiefs have not yet weighed what follows; delay in choosing a course could be "disastrous."'
+    n: '[[w.poole-joint-chiefs-of-staff]], 148. Poole cites the CNO''s memorandum of Aug. 10, 1961, JCS 1907/350 (148 n.37). Names: Anderson.'
+    src:
+      c: df4c1db0
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 148: all'
+        - 'via x.1961-08-10.cno-to-jcs-east-german-uprisings: all'
+    tags: [name:anderson-george-w-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-08-10.berlin-and-vienna
+        from: 2026-11-06-b6-poole-joint-chiefs-of-staff
   - id: cal.1961-08-11.japan-and-korea
     when: Aug. 11
     date: '1961-08-11'

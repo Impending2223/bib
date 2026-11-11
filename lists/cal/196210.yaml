@@ -179,6 +179,19 @@ entries:
         - 'w.smith-on-his-own-terms 381: all'
         - 'via x.1962-10-02.new-york-times-oct-2-1962-conservatives: all'
     tags: [name:rockefeller-nelson, name:morhouse-l-judson, state:ny]
+  - id: cal.1962-10-01.missile-crisis-warnings
+    when: Oct. 1
+    date: '1962-10-01'
+    thread: missile-crisis-warnings
+    also: [defense]
+    c: 'The Joint Strategic Survey Council''s revised report on Cuba: the task is to supplant Castro''s regime with an acceptable successor; a blockade will not do it; an invasion is required.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 163. Poole cites the N/H of JCS 3204/58, Oct. 3, 1962, and the revised pages in JCS 2304/58, Sept. 19, 1962, as the scan''s text reads them (163 n.21). Check: the paper''s number. Names: Castro.'
+    src:
+      c: 1a5e3b54
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 163: all'
+        - 'via x.1962-10-01.jssc-revised-report-cuba: all'
+    tags: [name:castro-fidel]
   - id: cal.1962-10-02.mayors-cleveland
     when: Oct. 2
     date: '1962-10-02'
@@ -959,6 +972,19 @@ entries:
       rows:
         - 'w.ball-past-has-another-pattern 326: all'
     tags: [name:ball-george-w]
+  - id: cal.1962-10-12.soviet-union
+    when: Oct. 12
+    date: '1962-10-12'
+    thread: soviet-union
+    c: 'The Presidium on a letter from the poet Yevtushenko. Khrushchev: allow publication.'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 596 (Protocol 58, item 19, Malin''s notes); [[w.prezidium-tsk-kpss-1954]], I, 1107 n.7 (the editors: the poem "The Heirs of Stalin," printed in *Pravda*, Oct. 21, 1962). Made public: 2003. Names: Khrushchev.'
+    src:
+      c: 6a2b6a37
+      rows:
+        - 'w.prezidium-tsk-kpss-1954 I, 596: all'
+        - 'w.prezidium-tsk-kpss-1954 I, 1107: all'
+        - 'via x.1962-10-12.presidium-protocol-58-continued: all'
+    tags: [name:khrushchev-nikita-s]
   - id: cal.1962-10-13.congress
     when: Oct. 13
     date: '1962-10-13'
@@ -2078,6 +2104,16 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-10-21.soviet-union
+    when: Oct. 21
+    date: '1962-10-21'
+    thread: soviet-union
+    c: '*Pravda* prints Yevtushenko''s poem "The Heirs of Stalin."'
+    n: '[[w.prezidium-tsk-kpss-1954]], I, 1107 n.7 (the editors). See [[cal.1962-10-12.soviet-union]].'
+    src:
+      c: 95db07cc
+      rows:
+        - 'w.prezidium-tsk-kpss-1954 I, 1107: all'
   - id: cal.1962-10-22.missile-crisis-2
     when: Oct. 22
     date: '1962-10-22'
@@ -4232,6 +4268,27 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Bangkok
     range_basis: kind
+  - id: cal.1962-10-27.missile-crisis-excomm-2
+    when: Oct. 27
+    date: '1962-10-27'
+    time: 1962-10-27T20:00Z
+    thread: missile-crisis-excomm
+    c: 'The ExComm from 4 p.m. About 5:40 McNamara reports a U-2''s wreckage and the pilot''s body found near a Soviet-manned SAM site. McNamara: to allow time with the NATO allies, no air attack before Wednesday, Oct. 31, or Thursday, Nov. 1, but only with surveillance kept up and fire returned on anything firing at it; an air strike would have to be all-out, almost certainly leading to an invasion.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 180. To check: [[w.kennedy-tapes]], 356, 358, 364 (cited by [[w.poole-joint-chiefs-of-staff]], 180 n.87). See [[cal.1962-10-27.missile-crisis]]. Names: McNamara.'
+    src:
+      c: 7b73eedb
+      rows:
+        - 'w.poole-joint-chiefs-of-staff 180: all'
+        - 'via x.1962-10-27.recording-excomm-meeting-oct-27-1962: B-D'
+    tags: [name:mcnamara-robert-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-10-27.missile-crisis-4
+          - cal.1962-10-27.missile-crisis-5
+          - cal.1962-10-27.missile-crisis-8
+          - cal.1962-10-27.missile-crisis-9
+        from: 2026-11-06-b6-poole-joint-chiefs-of-staff
   - id: cal.1962-10-28.missile-crisis
     when: Oct. 28
     date: '1962-10-28'
