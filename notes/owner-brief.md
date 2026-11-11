@@ -464,3 +464,7 @@ Copied Oct. 30, 2026, from the session's transcript, for the provenance table of
 > Public at the time, with a pin date to override it.
 
 > I'd have you write it now and get started on the operations work and the readers in the evening.
+
+> International organizations are "inter-national". The provenance and address of the interested state-parties should be filleted out.
+> The USSR delegate in a colloquy with the US delegate is "USSR: public-PA" and "US: public-PA".
+> A conference of NATO or the EEC takes the provenance and address of the relevant state parties unless and until there's an "EEC:nonpublic-P" that's not also nonpublic P to any state party.

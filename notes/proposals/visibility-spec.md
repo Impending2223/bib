@@ -8,7 +8,8 @@ The calendar today is one country's: the United States'. It is to take in the hi
 
 ## 2. Terms
 
-- **Polity**: a state (or a group of them, below). The top level: the US, the USSR, China (the PRC), France, Germany (the Federal Republic), the UK. Under **Other**, folded: every other state the calendar meets (the DRV, the RVN, the GDR, Cuba, Laos, Cambodia, Poland, Israel, the UAR, India, Pakistan, Japan, the ROK, Canada, Italy, ...), each with its own toggles, added as entries need them. **(ruling wanted: organizations — the UN, NATO, the OAS, the EEC — as polities under Other, or not at all; default: under Other.)**
+- **Polity**: a state (or a group of them, below). The top level: the US, the USSR, China (the PRC), France, Germany (the Federal Republic), the UK. Under **Other**, folded: every other state the calendar meets (the DRV, the RVN, the GDR, Cuba, Laos, Cambodia, Poland, Israel, the UAR, India, Pakistan, Japan, the ROK, Canada, Italy, ...), each with its own toggles, added as entries need them.
+- **International organizations** (the owner, Nov. 11: "International organizations are 'inter-national.' The provenance and address of the interested state-parties should be filleted out."): the UN, NATO, the OAS, the EEC and the rest are not polities by default. A claim from or about one takes the P and A of the state parties concerned: the Soviet delegate in a colloquy with the American at the UN is `USSR:public-PA` and `US:public-PA`; a NATO or EEC conference takes the provenance and address of its relevant member states. An organization becomes a polity of its own (under Other) only for a claim nonpublic-P to it and to none of its state parties (`EEC:nonpublic-P`: the Commission's own deliberations, unknown to the Six).
 - **Claim**: a unit of an entry's `c`, as its claim map divides it (`./bib claims show ID`). Where an entry has no map, or its rows map to `?`, the whole entry is one claim, marked unmapped (§7).
 - **Witness**: a source a claim rests on (a work card, a primary record, a "via" record behind a work).
 - **P (provenance or privity) for X**: the claim was published in X, or known within X's government in private.
@@ -91,4 +92,4 @@ Stored:
 1. "At the time": the day alone, the day and the next morning, or a week (§5; default the day and the next morning).
 2. The territory rule: as stated, or narrowed (§3; default as stated).
 3. Entries dated after the pin: hidden or greyed (§5; default greyed).
-4. Organizations as polities under Other (§2; default yes).
+4. ~~Organizations~~: ruled Nov. 11 (§2): state parties' P and A; an organization a polity only where a claim is nonpublic-P to it and to no state party.
