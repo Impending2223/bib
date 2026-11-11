@@ -73,6 +73,8 @@ The book cites nothing. Registered: King to Horton, Apr. 25, 1961, quoted from Y
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the same Drive copy, fetched again by the direct route; every page cited read off its image as well as the text: pp. 249, 271, 351, 393–95, 410–11, 436–37). Patch `inbox/2026-11-06-b6-young-easy-burden.yaml`: 7 new entries; no witnesses (the book has no notes, and the passages name no record). The copy deleted when done.
+
 Made from the dated-sentence scan and the full reading; a row an event the book dates and treats that is neither entered nor cited.
 
 | Page | Date | Event | Why |
@@ -80,28 +82,28 @@ Made from the dated-sentence scan and the full reading; a row an event the book 
 | 102 | July 19, 1957 | Lisa Young born | Out of the brief: before the span |
 | 108 | 1957 | Young with the Little Rock Council of Churches after the troops | Out of the brief: before the span |
 | 121 | summer 1958 | International Youth meeting, Lausanne | Out of the brief: before the span |
-| 109 | June 6, 1961 | Paula Young born | Minor: family |
-| 161–62 | Thanksgiving 1961 | The Youngs move into the Atlanta house | Minor: family |
+| 109 | June 6, 1961 | Paula Young born | Passed over (R18 as amended): family, no bearing on public business |
+| 161–62 | Thanksgiving 1961 | The Youngs move into the Atlanta house | Passed over (R18 as amended): family, no bearing on public business |
 | 175 | 1960 | King jailed in DeKalb County on the license charge | In the calendar (the 1960 arrest); a sentence in the book, not cited |
 | 165 | spring 1961 | The Freedom Rides | In the calendar; a paragraph of background, not cited |
 | 174 | spring 1962 | King and Abernathy's trial at Albany scheduled around Easter | A lead: the book gives no day (below) |
-| 197 | 1962 | The Youngs at the Holiday Inn's restaurant | Minor: family |
-| 249 | May 11, 1963 | Young home in Atlanta | Minor: family |
-| 271–74 | Aug. 28, 1963 | Young and his wife at the March; to Switzerland after | Minor: private (the March cited) |
-| 294 | June 1964 | Jean Young marches at St. Augustine | Minor: private |
+| 197 | 1962 | The Youngs at the Holiday Inn's restaurant | Passed over (R18 as amended): a family's dinner refused, no act of SCLC's or of an official (197) |
+| 249 | May 11, 1963 | Young home in Atlanta; King's call the next morning | Entered (b6): King's call, back to Birmingham, as cal.1963-05-12.alabama-birmingham-3 (249); the dinner at home passed over, family |
+| 271–74 | Aug. 28, 1963 | Young and his wife at the March; to Switzerland after | Entered (b6): King's call to Young and Bevel to come to Washington, as cal.1963-08-26.march-on-washington (271); the trip to the WCC consultation at Bossey passed over, a church meeting with no bearing on public business here (274) |
+| 294 | June 1964 | Jean Young marches at St. Augustine | Passed over (R18 as amended): family, a marcher's day, no act beyond the marches entered |
 | 312 | 1964 | The Georgia Republicans at Macon: Williamson and Calhoun walk out, C. A. Scott stays | A lead: dated only to the year |
-| 322–24 | Dec. 1964 | The champagne at Oslo; Mercouri at Paris; the night out | Minor: social |
+| 322–24 | Dec. 1964 | The champagne at Oslo; Mercouri at Paris; the night out | Passed over (R18 as amended): social, no bearing on public business (322–24) |
 | 323 | Dec. 1964 | Belafonte's concerts for SCLC in Sweden and Paris; no word from the ambassador at Paris | A lead: no day given |
-| 351 | Feb. 1965 | Malcolm X's funeral, Young outside | In the calendar (the death); Young's attendance minor |
-| 386 | Mar. 1965 | Jesse Jackson keeps watch at Brown Chapel | Minor |
-| 394 | June 6, 1966 | SCLC's staff meeting in Atlanta at the news of Meredith; Hosea Williams against Young | Minor: a staff quarrel (the shooting cited) |
-| 410–11 | summer 1966 | Young at the World Council of Churches' board at Bossey; meets Sam Nujoma and José Chipenda | Minor: a church board, the trip private; for the owner to rule (SWAPO's leader, R10) |
-| 416–17 | Nov. 1966 | Young faints at the Savannah airport | Minor: private |
+| 351 | Feb. 1965 | Malcolm X's funeral, Young outside | Entered (b6): cal.1965-02.black-nationalism (351; Check: the day) |
+| 386 | Mar. 1965 | Jesse Jackson keeps watch at Brown Chapel | Passed over (R18 as amended): a night's watch at the barricades, a unit's routine the book tells as an anecdote of Jackson |
+| 394 | June 6, 1966 | SCLC's staff meeting in Atlanta at the news of Meredith; Hosea Williams against Young | Entered (b6): cal.1966-06-06.civil-rights-organizations (393–94); King's call to Young to come to Mississippi, cal.1966-06-07.mississippi-meredith-2 (395) |
+| 410–11 | summer 1966 | Young at the World Council of Churches' board at Bossey; meets Sam Nujoma and José Chipenda | Entered (b6): cal.1966-07.africa (410–11; Check: the month, and the board's name); the Paris scarf passed over, family |
+| 416–17 | Nov. 1966 | Young faints at the Savannah airport | Passed over (R18 as amended): personal, his health, no bearing on public business (the Frogmore meeting is in, cal.1966-11-13.civil-rights-organizations) |
 | 418 | Nov. 1966 | Egyptian jets shot down over Gaza the day the Youngs leave Tel Aviv | In the calendar (Samu, the air battles); a sentence, not cited |
 | 418 | June 1967 | The Six-Day War ends the pilgrimage | In the calendar; a sentence, not cited |
-| 436–37 | summer 1967 | SCLC's staff in Cleveland for Stokes; King and the women on the corner | Entered as part of cal.1967-11-08.mayors; the corner meeting minor |
-| 485–86 | June 5, 1968 | Young and Coretta King at the Willard watching the news of Robert Kennedy | Minor: private (the shooting in the calendar) |
-| 487–88 | June 1968 | Jean Young and the girls at Resurrection City | Minor: family |
+| 436–37 | summer 1967 | SCLC's staff in Cleveland for Stokes; King and the women on the corner | Entered as part of cal.1967-11-08.mayors; the corner meeting entered (b6), cal.1967-07.mayors (436–37; Check: the month) |
+| 485–86 | June 5, 1968 | Young and Coretta King at the Willard watching the news of Robert Kennedy | Passed over (R18 as amended): private, no act or word on public business (the shooting in the calendar) |
+| 487–88 | June 1968 | Jean Young and the girls at Resurrection City | Passed over (R18 as amended): family |
 | 490 | 1968 | Young and Hosea Williams fight at a staff meeting; Price Cobb and Betty Brandon taken on | A lead: dated only to the year |
 | 491–92 | fall 1968 | SCLC's work for Humphrey | A lead: no month or day |
 | 492 | Nov. 1968 | Nixon elected | In the calendar; a sentence, not cited |

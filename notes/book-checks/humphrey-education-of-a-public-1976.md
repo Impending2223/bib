@@ -62,6 +62,8 @@ Five: the memorandum of Feb. 15, 1965 (found and read: FRUS II, 134, the later v
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, social, a private paper or below the level, in the table "Re-ruled under R18 as amended" at the end of "Resumed" below (b6, read Nov. 10, 2026).
+
 How the list was made: every dated event of 1960–Jan. 20, 1969 in chapters 25–38 and their notes, page by page, from the reading notes; checked against the calendar with `./bib find` and the day's entries.
 
 | Page | Date | Event | Why |
@@ -278,6 +280,23 @@ Read again from the owner's copy (the same Drive file, downloaded into the scrat
 | 493 n.1 | the Selma address urged | entered from Solberg, `cal.1965-03-12.voting-rights-2`, this note cited |
 | 494 n.1 | the Wilson Center's chairmanship | out of the brief (after Jan. 20, 1969) |
 
+### Re-ruled under R18 as amended (b6, Nov. 10, 2026)
+
+Read again from the owner's copy (the same Drive file, downloaded into the scratchpad and deleted after; the offsets above hold; p. 257 checked against its page image, PDF 287: "Sir Howard Veale" as printed). Patch: `inbox/2026-11-06-b6-humphrey-education-of.yaml` (b6-humphrey-education-of: 7 entries added, 1 cite). Witness: the memorandum for his files (262–63), `inbox/witnesses/2026-11-06-b6-humphrey-education-of.yaml`, its edge in the by-work file.
+
+| Page | Event | Ruling under R18 as amended |
+|---|---|---|
+| 216–18 | Cushing to Humphrey, Peabody and McCormack, Boston, the 1966 campaign: Teddy's help; the 1960 money for West Virginia's ministers | entered, `cal.1966-09.elections-1966` (Check: the month; "During the 1966 Congressional campaign") |
+| 257–59 | the Chilean Embassy luncheon, Nov. 22, 1963: the news, Dungan, Tomic's eulogy | entered, `cal.1963-11-22.assassination-10` |
+| 261 | Smathers in his office, Nov. 22, 1963: Johnson's needs, what they might do | entered, `cal.1963-11-22.succession-12` |
+| 262–63 | his memorandum for his files on Johnson, "That weekend" | entered, `cal.1963-11-23.succession-11` (Nov. 23–24; Check: the day) |
+| 285 | his son's cancer, June 17, 1964; Rauh and Mitchell in the whip's office | passed over: a family matter with no bearing on public business; the visit, as told, holds no talk of the bill |
+| 305 | Johnson lifts Katharine Graham onto the plane for the Ranch | entered, `cal.1964-08-28.press-and-broadcasting-2` (a publisher with the President, R13) |
+| 307–08 | the deer at the Ranch, "the previous year" (Johnson: Robert Kennedy got two, McCarthy one fewer); the ride after the 1964 convention; the campaign talked of | the deer: lead, 1963, no month; the ride: passed over, a social matter with no bearing on public business; the campaign talk (308) cited under `cal.1964-08-29.elections-1964`, unit B |
+| 342 | the birthday gifts, May 27, 1966, before the press; dinners and movies in May | entered, `cal.1966-05-27.transition-and-staff` |
+| 398–99 | Cranston at the airport: "just please mention our names" | entered, `cal.1968-09.elections-1968-humphrey-2` (Check: the day) |
+| 418 | Casals at ninety, Puerto Rico | lead: the Vice President's trip (R15), no date in the memoir |
+
 ## The press
 
 | Date | Outlet | Item | Page |
@@ -294,6 +313,8 @@ Read again from the owner's copy (the same Drive file, downloaded into the scrat
 - The signing at Mexico City, Apr. 1, 1968? (359 and its note): the Protocol to the Treaty of Tlatelolco; the Bulletin.
 - Nixon's offer of the UN to Humphrey at Opa-locka, Nov.–Dec. 1968 (432–33): the day.
 - Detroit Economic Club and the black ministers, 1968 (397–98); San Francisco and Alioto (492 n.8): the days.
+- (b6) Johnson and Humphrey at the Ranch, the deer, "the previous year" (1963?), Johnson on Robert Kennedy's and McCarthy's tallies (307): the month.
+- (b6) Humphrey in Puerto Rico for Casals's ninetieth birthday (418): the day.
 
 ## Not read
 

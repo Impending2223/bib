@@ -38,6 +38,8 @@ The book's 1967–68 meetings with members are almost all in the calendar alread
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; the rulings in "Batch 6" below).
+
 How the list was made: the book read through in twelve-page passages, pp. 1–196, and the notes, pp. 197–260, every dated event noted with its page and note; each looked for in the calendar on its day (all threads) and, where in, named by its id. Not listed: the Kennedy years and the Nixon years, which the book names only for comparison; the scholarly argument of chs. 5–6. "Below the calendar's level": staff memoranda and an aide's notes that set nothing; "a lead": a dated event whose record was not read or whose content the book does not give; the leads are in `notes/leads.md`.
 
 | Page | Date | Event | Why |
@@ -128,6 +130,30 @@ How the list was made: the book read through in twelve-page passages, pp. 1–19
 | 153-54 | Mar. 28, 1968 | the advisers on the speech; Rusk to Bunker | already in as cal.1968-03-28.vietnam |
 | 156 | Apr. 1, 1968 | Fulbright on the Senate floor: "not significant inducement" | a lead: the Record, Apr. 2, 1968, 8569 |
 | 156 | Apr. 2, 1968 | the congressional leaders at breakfast | a lead |
+
+## Batch 6: the rows re-ruled (Nov. 10–11, 2026)
+
+The owner's copy again (Drive 1bVNMJ-rtEYxrM_O7XZREp8GjYGr3hdjB, 19.6 MB, by the direct route into the scratchpad; deleted after): printed page = PDF page − 15 held (pp. 24, 35, 40, 69, 72, 96, 151 and the note page 221 read on their images as well as the text). Patch `inbox/2026-11-06-b6-barrett.yaml` (10 entries added, 6 cites, 1 Check, their claim-map rows); witnesses `inbox/witnesses/2026-11-06-b6-barrett.yaml` (13 rows); 20 edges appended to `sources/witnesses/by-work/barrett-uncertain-warriors.yaml`. Re-ruled: the rows ruled minor, private or "below the calendar's level" (R18 as amended: "below the level" means only a unit's routine). Rows found on the same pages and not logged before are entered too (Acheson to Boheman, Gilpatric to Bundy; the May 2 breakfast and Ogden Reid in note 26).
+
+| Page | Date | Event | Ruling now |
+|---|---|---|---|
+| 24 | Mar. 24, 1965 | McNaughton's memorandum | entered, `cal.1965-03-24.vietnam-4` |
+| 24 | Apr. 1, 1965 | Bundy to Johnson, "in favor of the VC" | cited under `cal.1965-04-01.vietnam-3` (FRUS 1964–68, II, doc. 228, the same paper) |
+| 35 | June 1965 | Russell's letter to a constituent | entered, `cal.1965-06-22.vietnam-congress-2` (the note's June 22; Check: the day) |
+| 40 | July 7, 1965 | Acheson to Boheman (not logged before) | entered, `cal.1965-07-07.vietnam-july-decision-2` (Check: which of the two letters) |
+| 40 | July 9, 1965 | Gilpatric to McGeorge Bundy (not logged before) | entered, `cal.1965-07-09.vietnam-july-decision-2` |
+| 40 | July 10, 1965 | Acheson to Truman on the meeting | entered, `cal.1965-07-10.vietnam-july-decision-2` |
+| 68 | Mar. 10, 1967 | Rusk's memorandum on Kennedy's proposals | cited under `cal.1967-03-10.vietnam-2` |
+| 68–69 | Mar. 9, 1967 | McNamara's memorandum | cited under `cal.1967-03-09.vietnam-diplomacy` |
+| 69 | Mar. 11, 1967 | Wilson to Watson: the President willing to listen | entered, `cal.1967-03-11.vietnam-congress` |
+| 69, 221 | Mar. 14, 1967 | Whitten's notes found in the President's pocket | entered, `cal.1967-03-14.vietnam-congress` |
+| 221 | May 2, 1967 | Johnson at breakfast with Morse and Mansfield (note 26) | entered, `cal.1967-05-02.vietnam-congress-mansfield` |
+| 221 | June 20, 1967 | Johnson declines to see Ogden Reid (note 26) | entered, `cal.1967-06-20.vietnam-congress-3` (Check: the day) |
+| 72 | Mar. 15, 1967 | the protesters at Nashville | entered, `cal.1967-03-15.war-opposition` |
+| 96 | May 1967 | McPherson's trip; Kỳ on corruption | cited under `cal.1967-05.vietnam` (Check: "late May") and `cal.1967-06-13.vietnam-2` |
+| 151 | Mar. 27, 1968 | Carver's briefing | cited under `cal.1968-03-27.vietnam-205000-3` |
+
+Still passed over: none of the rows above. The rows ruled "undated" and the leads stand as they were (not this batch's).
 
 ## Leads
 

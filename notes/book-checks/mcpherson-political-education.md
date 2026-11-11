@@ -75,6 +75,8 @@ Rows of the first Passed over list that the ruling (brief-batch3.md rule 5: an e
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10–11, 2026): the rows below ruled family, social, a staff prank, an office's routine, a private person, a transmittal or authorship only are ruled again in "Batch 6: the private, social and draft rows re-ruled", at the end.
+
 What remains, by the ruling's terms: the events already entered under another id, the matters no source dates even to the month (leads), and the family, social and office routine. Pages are printed pages.
 
 | page | date | event | why |
@@ -162,3 +164,26 @@ Witnesses (R35-R43), `inbox/witnesses/2026-11-03-b3-mcpherson-2.yaml`: McPherson
 - Foreign: Panama, Jan. 1964: Fleming's call on the flags, the day; the International Commission of Jurists' hearing of the Army's case (McPherson 216–17, 221–22).
 - National: Johnson and Luce on the press (McPherson 266–67) and Evans's talk with McPherson, 1967 (401–02): the days (the Daily Diary; Evans and Novak's columns of 1967).
 - National: McPherson's memoranda, the LBJ Library's files (McPherson's office files), to read the witnesses now registered unread.
+
+## Batch 6: the private, social and draft rows re-ruled (Nov. 10–11, 2026)
+
+Patch `inbox/2026-11-06-b6-mcpherson-political-education.yaml` (9 ops: 5 new entries, claimed in the ledger; 4 cites). `./bib patch-check`: 0 errors; its warnings the "one event?" and possible-duplicate notices, each pair read: distinct events. The copy: the owner's PDF in Drive (1BTxAg1STLYFPfTPknnzikmHhcD5sGx9K), downloaded again into the scratchpad; printed page = PDF page − 12, as above, checked again at pp. 214 and 439 against the page images; every page cited read off the text layer; deleted when done. The book has no notes: no witnesses for these units (each entry says whose account it is).
+
+| page | date | event | ruling |
+|---|---|---|---|
+| 214–15 | Nov. 24, 1963 | the Johnsons at St. Mark's; Baxter's sermon; Johnson with McPherson in the parish hall | entered, `cal.1963-11-24.succession-6` (the new President in public; the sermon on the country's unity; Check: the day, "two days later") |
+| 254–55 | 1965 | Redmon's prank on Califano as "Chairman Whitten" | still passed over: remarks with no bearing on public business (a prank; no member spoke) |
+| 313–15 | Nov. 1, 1966 | the last night in Seoul, Bundy, Rostow and McPherson guests of Korean cabinet ministers | entered, `cal.1966-11-01.vietnam-asian-trip` (a social occasion among the principals of the visit) |
+| 315 | Nov. 2, 1966 | the flight home, Symington's songs | entered, `cal.1966-11-02.vietnam-asian-trip` (the trip's last leg, R15; a Senator aboard) |
+| 330 | 1965–67 | McPherson's lines: "hooded band of bigots," the "white backlash" statement, "wooden soldiers of the status quo" | the drafting of a principal's statements: cited under the statements, `cal.1965-03-26.civil-rights-the-executive` (already), `cal.1966-11-06.transportation` (D), `cal.1967-12-12.labor` (B); the drafts themselves the book does not date (lead) |
+| 381–82 | June 5, 1968 | the Oval Office's three television sets that night, Mankiewicz's bulletin | entered, `cal.1968-06-05.assassination-6`; the address of that evening, written with Fortas, already cites 380–81 (`cal.1968-06-05.civil-disorders-2`) |
+| 408 | May 1967 | a political scientist at Mỹ Tho on the Delta's loyalties | in already: `cal.1967-05.vietnam`, McPherson's trip, cites 404–10 |
+| 433 | Mar. 27, 1968 | McPherson sends the President Carroll's editorial | still passed over: a covering note |
+| 439 | Mar. 31, 1968 | Cater's call at ten: Cater has drafted the Chicago speech; the President wants McPherson on it | entered, `cal.1968-03-31.elections-1968-johnson-2` (the drafting of a principal's speech) |
+| 451–52 | Jan. 19–20, 1969 | the last night's party in the Mansion; Johnson seen off at an air base | cited under `cal.1969-01-19.transition-and-staff` (F, the staff's buffet) and `cal.1969-01-20.transition-and-staff-2` (C, Andrews) |
+
+Not borne out: none. Not settled: none.
+
+### Leads (batch 6)
+
+- National: the days McPherson drafted the "white backlash" statement (Nov. 1966) and the AFL-CIO speech (Dec. 1967), and the Liuzzo statement (Mar. 26, 1965) (330): the drafts' days, from the LBJ Library's speech files.

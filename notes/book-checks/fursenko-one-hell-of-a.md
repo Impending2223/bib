@@ -32,12 +32,14 @@ Disagreements within the new entries, each a Check in its note: the Presidium's 
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, run Nov. 10, 2026: the owner's copy in Drive again, 17DBFzR13FQP4qRmxOtYcw_rf32mKqG9v, PDF page = printed + 16 to p. 180, + 32 from p. 181, checked on the page images of pp. 55 and 248; deleted when done). The rows ruled private, social, a draft or minor where the amended rule now admits them, each marked in its last cell; patch `inbox/2026-11-06-b6-fursenko-one-hell-of-a.yaml` (5 entries); witnesses `inbox/witnesses/2026-11-06-b6-fursenko-one-hell-of-a.yaml` (2 new, 1 amended: Khrushchev's memoir now its card, `w.khrushchev-khrushchev-remembers`); 3 edges added to the by-work file.
+
 How made: as above, "What was read." Every dated event within the span that the book treats and the patch neither entered nor cited, a row each; an event in the calendar already says so (R44: not passed over, but named so the owner can see where it went). Rows for pp. 38–353 that the first run's entries or cites already cover are not repeated.
 
 | page | date | event | why |
 |---|---|---|---|
 | 1–34 | 1958–59 | chapters 1–2 and the opening of 3: the Soviet contacts with the July 26 movement and the PSP, Alekseyev's arrival, Mikoyan in Mexico City, Matos, the Catholic Congress of Nov. 28, 1959, the postponed visit, the warning of Dec. 15–16, 1959 | out of the brief (before Jan. 6, 1960) |
-| 37 | Jan. 1960 | Leonov chosen as Mikoyan's interpreter, by his photographs of Raúl Castro | minor: an interpreter chosen |
+| 37 | Jan. 1960 | Leonov chosen as Mikoyan's interpreter, by his photographs of Raúl Castro | minor: an interpreter chosen — **re-ruled Nov. 6, 2026 (R18 as amended):** stays passed over: the choice of an interpreter, no bearing on public business |
 | 39–40 | Feb. 1960 | Burke's views of Castro; the Navy's case against him | in the calendar (cal.1960-02-26.cuba, cal.1960-03-02.cuba); no cite added: the pages recount, citing FRUS |
 | 43 | Mar. 1960 | the CIA's Cuban Task Force sends men to Central America for camps and airfields | lead: the day ("First Meeting of the Green Study Group," Apr. 23, 1961, CMC/NSA, n.32) |
 | 47 | June, early, 1960 | Alekseyev reports Raúl Castro means to visit Moscow after Prague | a passed-over paper: a visit's preparation |
@@ -46,7 +48,7 @@ How made: as above, "What was read." Every dated event within the span that the 
 | 49 | Apr. 1960 | Peking's articles for Lenin's ninetieth birthday: Khrushchev "revising, emasculating and betraying" Leninism | lead: the day (Zagoria, *Sino-Soviet Conflict*, 299, n.53) |
 | 49 | June, early, 1960 | the Chinese attack on Khrushchev at the World Federation of Trade Unions in Peking | in the calendar (cal.1960-06.soviet-union) |
 | 53 | July 13–15, 1960 | Luis Mas Martín to the Soviet Embassy; the KGB in Prague cables July 14; Ponomarev's itinerary and note to the Presidium, July 15 | a passed-over paper: a visit's preparation |
-| 55 | July 31, 1960 | Alekseyev: Castro's "deep gratitude" to Khrushchev for the arms | minor: thanks, a repetition |
+| 55 | July 31, 1960 | Alekseyev: Castro's "deep gratitude" to Khrushchev for the arms | minor: thanks, a repetition — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1960-07-31.cuba (a private remark on the arms, by Alekseyev's telegram) |
 | 55 | Aug. 1960 | the KGB renames its Cuba file AVANPOST | minor: an office's file name |
 | 57 | Aug. 1960 | Herter at San José | in the calendar (cal.1960-08-22.cuba, cal.1960-08-28.cuba) |
 | 57–58 | June–July 1960 | the FRD formed; the camp in Guatemala; the first thirty Cubans | in the calendar (cal.1960-06-22.cuba, cal.1960-07.cuba-bay-of-pigs) |
@@ -120,7 +122,7 @@ How made: as above, "What was read." Every dated event within the span that the 
 | 163 | 1961, summer | the ORI formed; PSP men placed in authority; Roca's loyalists meet in September on Escalante | lead: the days |
 | 166 | Apr. 9, 1962 | the *New York Times*: Kennedy and the Shah to watch LANTPHIBEX at Norfolk | press: "## The press"; the exercise a lead |
 | 166 | Mar. 1962 | 300 Soviet specialists on the island; the Cubans trained in the Soviet Union | lead: a figure without its day |
-| 168 | Nov. 1961 | Alekseyev: Valdés's party will need warm clothes for Moscow | minor |
+| 168 | Nov. 1961 | Alekseyev: Valdés's party will need warm clothes for Moscow | minor — **re-ruled Nov. 6, 2026 (R18 as amended):** stays passed over: remarks with no bearing on public business (the delegation's clothes) |
 | 168 | Feb. 1962 | Castro: "the duty of every revolutionary ... to make the revolution" (the Second Declaration of Havana) | lead: to enter (Feb. 4, 1962, to check) |
 | 171 | Apr. 1962 | Khrushchev begins to consider dramatic approaches | in the calendar (the decision of May 1962) |
 | 175–77 | May 11–14, 1962 | the letter to Castro; Salinger with Khrushchev; Khrushchev to Bulgaria | in the calendar (cal.1962-05-11.cuba, cal.1962-05-11.soviet-union) |
@@ -156,8 +158,8 @@ How made: as above, "What was read." Every dated event within the span that the 
 | 229–30 | Oct. 17, 1962 | Ben Bella's report of his meeting with Kennedy at dinner with Castro (Alekseyev to the MFA, Oct. 18, n.29) | in the calendar (cal.1962-10-16, Africa); no cite added |
 | 230–37 | Oct. 18–21, 1962 | the ExComm; Gromyko with Kennedy; the Chiefs; the decision for a blockade; Ormsby-Gore; Bartlett | in the calendar |
 | 244 | Oct. 21, 1962 | a Marine battalion leaves El Toro for Guantanamo | lead: to enter (the calendar has the reinforcement of Oct. 22) |
-| 245 | Oct. 18, 1962 | Sorensen's speech for an air strike | in the calendar (the ExComm's drafts, Oct. 18–21) |
-| 247–48 | Oct. 22–23, 1962 | thirty ships bound for Cuba; Khrushchev sleeps in his office | in the calendar (cal.1962-10-23); the night minor |
+| 245 | Oct. 18, 1962 | Sorensen's speech for an air strike | in the calendar (the ExComm's drafts, Oct. 18–21) — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1962-10-18.missile-crisis-excomm-2 (a principal's drafting of the President's address); the calendar had only the letter Sorensen began that day (cal.1962-10-18.missile-crisis-6) |
+| 247–48 | Oct. 22–23, 1962 | thirty ships bound for Cuba; Khrushchev sleeps in his office | in the calendar (cal.1962-10-23); the night minor — **re-ruled Nov. 6, 2026 (R18 as amended):** the night entered as cal.1962-10-22.soviet-union-2 (Khrushchev, by his memoir; the day Fursenko and Naftali's, 248 n.16) |
 | 249–52 | Oct. 23, 1962 | Holeman and Bartlett with Bolshakov; Robert Kennedy with Dobrynin | in the calendar (cal.1962-10-23, missile-crisis) |
 | 250 | Oct. 23, 1962 | Alphand's summary of the American pundits for de Gaulle | lead: the record |
 | 250 | Oct. 23, 1962 | Kennedy authorizes six low-level reconnaissance flights | lead: to enter, by the record (n.21) |
@@ -176,7 +178,7 @@ How made: as above, "What was read." Every dated event within the span that the 
 | 297 | Nov. 10, 1962 | the Kremlin's instructions to Mikoyan: interview the military contingent | in the calendar (cal.1962-11-10.soviet-union) |
 | 298 | Nov. 8, 1962 | the *Okinawa* leaves the Panama Canal; Assault Group East off Mayport | lead: the records |
 | 303 | Nov. 12–13, 1962 | Kennedy's meeting on the bombers; Mikoyan and Castro, Nov. 13 | in the calendar (Nov. 12–13) |
-| 304 | Nov. 14, 1962 | no meetings for Mikoyan | minor |
+| 304 | Nov. 14, 1962 | no meetings for Mikoyan | minor — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1962-11-14.cuba (Mikoyan frozen out; Alekseyev to Dorticós; the dinner of Nov. 15 arranged) |
 | 306–7 | Nov. 16–18, 1962 | Moscow's cable; Robert Kennedy's breakfast; McCloy and Kuznetsov | in the calendar |
 | 309–13 | Nov. 19–22, 1962 | Khrushchev's promise; Mikoyan with Castro; Robert Kennedy to Dobrynin on the warheads | in the calendar |
 | 312 | Nov. 20, 1962 | Malinovsky perhaps orders the tactical missiles packed | lead: "some evidence" (n.98) |
@@ -189,7 +191,7 @@ How made: as above, "What was read." Every dated event within the span that the 
 | 329 | Mar.–Apr. 1963 | the White House's middle course on Cuba; the CIA's radio and letters | in the calendar (Cuba, spring 1963) |
 | 331–35 | May 1963 | Castro with Khrushchev; the guarantee renewed | in the calendar (cal.1963-05-05.cuba, cal.1963-05-20) |
 | 336–38 | June–July 1963 | the American University speech; the test ban; the hot line | in the calendar |
-| 339 | Nov. 22, 1963 | Gromyko tells Khrushchev Kennedy is dead | minor: how the news reached him |
+| 339 | Nov. 22, 1963 | Gromyko tells Khrushchev Kennedy is dead | minor: how the news reached him — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1963-11-22.soviet-union-2 |
 | 342 | Nov. 24, 1963 | Mikoyan at Andrews, late | in the calendar (cal.1963-11-26) |
 | 344–47 | Nov. 19–Dec. 1963 | Walton with Kennedy Nov. 19; Barghoorn picked up Oct. 31; Walton in Moscow; Salinger and Karpovich, Dec. 21 | in the calendar (cal.1963-12, cal.1963-12-21); Barghoorn's arrest a lead |
 | 348 | Nov., late, 1963 | a Polish intelligence source on the Hunts | lead: the day |

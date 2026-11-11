@@ -10,26 +10,28 @@ Recorded in the entries as Checks: Rusk's testimony "Jan. 27" against the entry'
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (run of Nov. 10-11, 2026, patch `inbox/2026-11-06-b6-branch-at-canaans-edge.yaml`; witnesses `inbox/witnesses/2026-11-06-b6-branch-at-canaans-edge.yaml`): every row below ruled private, social, personal, family, trivia, a draft or minor was read again on its page (the text layer and the page image, the copy above, offset unchanged) and ruled again; each such row ends "Re-ruled: ...". The rows ruled out of the brief, leads, the press, or incidents and items the work does not treat as events are not this batch's and stand as they were.
+
 | Page | Date | Event | Why |
 |---|---|---|---|
-| 416 | 1966-01-07 | Steinbeck to Valenti, weapons and bombing advice for the State of the Union | minor: a private correspondent's suggestions, not taken up |
-| 416 | 1966-01-12 | Johnson rejects the State of the Union draft at 4 a.m.; Goodwin, Fortas and Clifford revise | a passed-over paper: the address's preparation |
-| 422 | 1966-01-22 | Hosea Williams arrested for drunk driving, Birmingham | minor: private; its dismissal Jan. 24 is in cal.1966-01-24.voting-rights |
-| 422 | 1966-01-21 | SCLC executive staff meeting on Hosea Williams; Young's letter to Williams, Dec. 31, 1965 | minor: SCLC's internal staff matters |
-| 424 | 1965-11-04 | Johnson to Wilkins, the "airplane ticket" quip (the call Branch cites) | minor: private remarks |
-| 424 | 1966-01-22 | Johnson and McNamara watch *Thunderball* | minor: social |
-| 429 | 1966-01-28 | Junius Griffin memo urging King to visit Father Morrisroe | minor: a staff suggestion |
+| 416 | 1966-01-07 | Steinbeck to Valenti, weapons and bombing advice for the State of the Union | minor: a private correspondent's suggestions, not taken up Re-ruled: entered as cal.1966-01-07.vietnam-5 (a letter to the White House on public business, the informal record). |
+| 416 | 1966-01-12 | Johnson rejects the State of the Union draft at 4 a.m.; Goodwin, Fortas and Clifford revise | a passed-over paper: the address's preparation Re-ruled: entered as cal.1966-01-12.program-2 (a principal's drafting of his address, dated to the draft). |
+| 422 | 1966-01-22 | Hosea Williams arrested for drunk driving, Birmingham | minor: private; its dismissal Jan. 24 is in cal.1966-01-24.voting-rights Re-ruled: entered as cal.1966-01-22.voting-rights (an SCLC officer's arrest, R11). |
+| 422 | 1966-01-21 | SCLC executive staff meeting on Hosea Williams; Young's letter to Williams, Dec. 31, 1965 | minor: SCLC's internal staff matters Re-ruled: passed over: an organization's internal staff discipline, with no bearing on public business. |
+| 424 | 1965-11-04 | Johnson to Wilkins, the "airplane ticket" quip (the call Branch cites) | minor: private remarks Re-ruled: entered as cal.1965-11-04.civil-rights-the-executive (said in private about public business: Negroes in government, Weaver). |
+| 424 | 1966-01-22 | Johnson and McNamara watch *Thunderball* | minor: social Re-ruled: entered as cal.1966-01-22.vietnam-pause-2 (a social occasion of the principals of a pending matter, the bombing pause). |
+| 429 | 1966-01-28 | Junius Griffin memo urging King to visit Father Morrisroe | minor: a staff suggestion Re-ruled: passed over: a staff suggestion of a hospital visit, with no bearing on public business. |
 | 432 | 1966-01-29 | Alabama weekend meetings: Calhoun's hint of a run against Jenkins; Selma's independents and pragmatists; a Macon County caucus called for Feb. 6 | lead: no day for the meetings, the caucus not shown held (notes/leads, States) |
-| 435 | 1966 | Johnson gives up alcohol and curtails his recording system after Jan. 31 | minor: private; undated |
-| 439 | 1966-02 | Moses's "roots" discussion groups; Tina Harris's paper | minor: SNCC's internal study |
-| 440 | 1966-02-19 | Forman's taped interview with Carmichael and George Greene, for fund-raising | minor: an organization's fund-raising material |
+| 435 | 1966 | Johnson gives up alcohol and curtails his recording system after Jan. 31 | minor: private; undated Re-ruled: the recording system entered as cal.1966-02.transition-and-staff (Check: the day); the alcohol passed over: a personal matter with no bearing on public business. |
+| 439 | 1966-02 | Moses's "roots" discussion groups; Tina Harris's paper | minor: SNCC's internal study Re-ruled: passed over: an organization's internal study, no act or word on public business dated. |
+| 440 | 1966-02-19 | Forman's taped interview with Carmichael and George Greene, for fund-raising | minor: an organization's fund-raising material Re-ruled: entered as cal.1966-02-19.alabama (an organization's communications, its leaders' words on the Lowndes project, R11). |
 | 442 | 1966-02/03 | The landlords Condor and Costalis at the Warren Avenue mass meeting; Hoover's agents warn Archbishop Cody; testing teams in the suburbs | lead: no day (notes/leads, States) |
 | 443 | 1966-02 | Clay Evans's Operation Breadbasket chapter; his church's permits cancelled; Jesse Jackson | lead: no day |
-| 444 | 1966-03-14 | Levison's call home on the Freedom Festival | minor: private remarks |
-| 444 | 1966-03-16 | Califano to Johnson, the civil rights leaders' meeting to be secret | a passed-over paper: a meeting's preparation |
+| 444 | 1966-03-14 | Levison's call home on the Freedom Festival | minor: private remarks Re-ruled: entered as cal.1966-03-14.open-housing (said in private about the Chicago campaign). |
+| 444 | 1966-03-16 | Califano to Johnson, the civil rights leaders' meeting to be secret | a passed-over paper: a meeting's preparation Re-ruled: passed over: a meeting's preparation. |
 | 449 | 1966-03-19 | Texas Western over Kentucky, 72–65, the NCAA final; the SEC's color line | out of the brief: a sports result |
 | 452 | 1965-11/12 | Sheriff Fisher's exhumation over coffin arms rumors (Jet, Dec. 2, 1965); three white women beat an Italian violinist in Bogalusa (NYT, Dec. 5, 1965) | minor: incidents the work does not treat as events |
-| 452 | 1966-04 | Hank Thomas wounded near Bồng Sơn | minor: a soldier's wound |
+| 452 | 1966-04 | Hank Thomas wounded near Bồng Sơn | minor: a soldier's wound Re-ruled: passed over: a personal matter (a soldier's wound) with no bearing on public business or politics. |
 | 453 | 1966 | The arts items of the spring of 1966 (books, music, film) | out of the brief: no bearing on politics or policy |
 | 459 | 1966-03 | Lennon's remark on Jesus and the Beatles, and its echo in the South | minor: no policy record in the span read |
 | 501 | 1966-07-13 | Speck's murders in Chicago | out of the brief: a crime with no political or policy trace on the page |
@@ -38,31 +40,31 @@ Recorded in the entries as Checks: Rusk's testimony "Jan. 27" against the entry'
 | 663 | 1967-12-15 | The Theatre for Ideas forum on violence, Arendt, Chomsky, Sontag, Hayden | minor: a forum of writers, no act of government |
 | 666 | 1968-01-07 | First-class postage from 5 to 6 cents | lead: the act and the day, not read (Branch's source is a 1990 newspaper) |
 | 675 | 1967-68 | Patman against New York's lottery sold through banks; his bill of Feb. 1968 | lead: the bill, the hearing (Branch cites a Senate hearing of Aug. 19, 1967) and the days not settled |
-| 677 | 1968-01 | Rutherford's fines and dismissals of SCLC staff | minor: SCLC's internal staff matters |
-| 678 | 1968-01-18 | Abernathy to King from Saigon | minor: a private letter |
-| 678 | 1968-01-24 | Coretta King's surgery; King's disclosure to her | private, no bearing on politics or policy |
+| 677 | 1968-01 | Rutherford's fines and dismissals of SCLC staff | minor: SCLC's internal staff matters Re-ruled: passed over: an organization's internal staff discipline, with no bearing on public business. |
+| 678 | 1968-01-18 | Abernathy to King from Saigon | minor: a private letter Re-ruled: entered as cal.1968-01-18.king (the trip to India and South Vietnam, R15, and the letter on the movement). |
+| 678 | 1968-01-24 | Coretta King's surgery; King's disclosure to her | private, no bearing on politics or policy Re-ruled: passed over: family matters with no bearing on public business or politics. |
 | 683 | 1968-02-01 | Lisa Marie Presley's birth | out of the brief |
 | 689 | 1967-12/1968-02 | The intelligence digests on Carmichael's travels (Watson to Johnson, Dec. 28, 1967) | lead: a passed-over paper, the dates to fix from the Stegall files |
 | 692 | 1968-03 | Cleveland Sellers sentenced for refusing induction | lead: the day and the court not given |
-| 696 | 1968-02-18 | King's sermon "Who Is My Neighbor?" at Ebenezer | minor: a sermon with nothing new on the campaign |
-| 697 | 1968-02 | Loeb's banquet of the National Conference of Christians and Jews with Wurf | minor: social |
-| 701 | 1968-02-24 | Aldridge's letters at Idlewild Presbyterian | minor: a congregation's letters |
-| 707 | 1968-03-05 | King's days in Acapulco | private |
+| 696 | 1968-02-18 | King's sermon "Who Is My Neighbor?" at Ebenezer | minor: a sermon with nothing new on the campaign Re-ruled: passed over: a repetition (the amendment exempts a principal's speech from the no-draft rule; this one is passed over as a repetition, not as a draft). |
+| 697 | 1968-02 | Loeb's banquet of the National Conference of Christians and Jews with Wurf | minor: social Re-ruled: entered as cal.1968-02.king-memphis (a social occasion of the principals of the strike; Check: the day). |
+| 701 | 1968-02-24 | Aldridge's letters at Idlewild Presbyterian | minor: a congregation's letters Re-ruled: passed over: a congregation's letters, with no bearing on public business. |
+| 707 | 1968-03-05 | King's days in Acapulco | private Re-ruled: cited under cal.1968-03.king (707-08; Check: Branch's Tuesday, Mar. 5). |
 | 708 | 1968-02-25 | Harwood in the *Washington Post* on the FBI's offers of tapes on King | press: The press |
 | 708 | 1968-02-29 | The FBI refuses *Parade* an item on its King file (Bishop to DeLoach) | lead: a passed-over paper of the FBI |
 | 711 | 1968-03 | The EEOC on airline rules for stewardesses; Memphis State's football team | lead: the days not given |
 | 712 | 1968-03 | Tuskegee students pelt four State Department visitors; South Africa's measures; the Grand Central be-in | minor or out of the brief: no day, or no American policy |
 | 713 | 1967-68 | Tiger Force, 101st Airborne | lead: Branch places it early in March 1968; the operations' dates and the Army's investigation (Toledo *Blade*, Oct. 19–22, 2003) to settle |
-| 725 | 1968-03-25 | King's night at the Logans' over Marian Logan's memorandum | private; the memorandum itself is cal.1968-03-08.king-poor-peoples |
-| 727 | 1968-03-26 | King's lunch with the Fowler family in Harlem | minor |
+| 725 | 1968-03-25 | King's night at the Logans' over Marian Logan's memorandum | private; the memorandum itself is cal.1968-03-08.king-poor-peoples Re-ruled: cited under cal.1968-03-26.king-poor-peoples (725-26; Check: Branch's night of Mar. 25-26). |
+| 727 | 1968-03-26 | King's lunch with the Fowler family in Harlem | minor Re-ruled: entered as cal.1968-03-26.king-poor-peoples-2 (the recruiting tour, R16). |
 | 735 | 1968-03 | The FBI's propaganda schemes: the fictitious leak on SCLC's appeal, Julia Brown's tour, Chicago's plan on Muhammad Ali | lead: passed-over papers of the FBI, dated by the notes |
 | 735 | 1968-04-04 | SAC Jackson's COINTELPRO proposal on King's tours | lead: not acted on |
-| 751 | 1968-03-30 | The Missouri Athletic Club drops "white" from its bylaws | minor: a private club |
+| 751 | 1968-03-30 | The Missouri Athletic Club drops "white" from its bylaws | minor: a private club Re-ruled: passed over: a private club's rule, with no bearing on public business. |
 | 751 | 1968-03-31 | The drive to raise Negro enlistment in the National Guard | lead: the order and the day |
-| 758 | 1968-04-03/04 | King's night with Georgia Davis | private |
-| 761 | 1968-04-04 | King, A.D. King and their mother by telephone; the Kyles dinner | private |
+| 758 | 1968-04-03/04 | King's night with Georgia Davis | private Re-ruled: passed over: a personal matter with no bearing on public business. |
+| 761 | 1968-04-04 | King, A.D. King and their mother by telephone; the Kyles dinner | private Re-ruled: King's words in Room 201 on the federal injunction entered as cal.1968-04-04.king-memphis-2 (said in private about public business); the call to his mother and the Kyles dinner passed over: family and social matters with no bearing on public business. |
 | 764 | 1968-04-04 | Johnson at St. Patrick's for Cooke's installation | lead: the Public Papers and the day's record not read |
-| 769 | 1968-04-19 | Levison, "their plaster saint" | private remark |
+| 769 | 1968-04-19 | Levison, "their plaster saint" | private remark Re-ruled: entered as cal.1968-04-19.king (said in private about King's place in public opinion). |
 | 767–71 | 1970–2001 | The epilogue: Hulett, the LBJ Library, the Christmas bombing, Murray's ordination, Ray, Reagan | out of the span |
 
 ## The press

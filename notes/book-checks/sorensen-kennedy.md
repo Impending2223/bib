@@ -112,6 +112,8 @@ Sorensen's page added, with its claim row and, where it bears part of `c`, its p
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, social, minor, a draft or a meeting's preparation, in this section and in the third and fourth runs' lists, in "Re-ruled under R18 as amended (b6)" at the end of this file (read Nov. 10, 2026).
+
 How the list was made: the candidate list above. For each dated event not entered, the entries of its day (±3 days) were read in the dump and the pending patches. "Minor" means only what the brief's rule says: a repetition, private or social trivia, or an operation below the calendar's level. Page | date | event | why.
 
 | page | date | event | why |
@@ -475,3 +477,48 @@ National: the Senate resolution of thirty-four for an atmospheric ban, May 1963 
 ### What remains
 
 The fourth run sets every "not checked" row of the third run (pp. 593-746) against the calendar; with it the book is read and set whole. Left for a reader: the leads above, chiefly the undated events Sorensen gives without a day, which FRUS VII, XI, XIV, XIX, XXII and XXIV and the Record may date; and the Executive Committee's meetings of Oct. 24 and Oct. 27 (morning) and Oct. 29-Nov. 20, 1962 (FRUS XI), which the calendar still lacks as entries of their own.
+
+## Re-ruled under R18 as amended (b6, Nov. 10, 2026)
+
+Read again from the owner's copy (the same Drive file, 810 PDF pages with its text layer, downloaded into the scratchpad and deleted after; offset unchanged, printed page = PDF page − 16). Patch: `inbox/2026-11-06-b6-sorensen-kennedy.yaml` (b6-sorensen-kennedy: 18 entries added, 4 cites). The book has no source notes; no witnesses beyond the card (the Republican's note, p. 688, and the doodles, p. 705, are printed in the text and stand on Sorensen's page; neither is found elsewhere). Every row of the three lists ruled private, social, minor, a draft or a meeting's preparation, in page order:
+
+| Page | Date | Event | Ruling under R18 as amended |
+|---|---|---|---|
+| 165 | 1960-06 | Baker cautions Sorensen | already in (`cal.1960-06.elections-1960-2`): cited, 165, unit A |
+| 179 | 1960-11-03 | "I am going to last about five more days" | passed over: a remark with no bearing on public business (a quip on his fatigue to an audience; the stop not named) |
+| 210 | 1960-11-06 | Waterbury, 3 a.m. | already in (`cal.1960-11-06.elections-1960-4`): cited, 210, unit A |
+| 230–31 | 1960-11-10 | de Gaulle's "Welcome, Dear Partner"; the reply drafted with Mrs. Kennedy | entered, `cal.1960-11-10.europe-and-the-alliance-france` (Check: the day) |
+| 233 | 1960-11-24 | Thanksgiving; John Jr. born; Kennedy flies back | passed over: a family matter with no bearing on public business |
+| 261 | 1960-12 | "Turn them all down" | entered, `cal.1960-12.transition-and-staff-4` |
+| 277 | 1961-01-15 | the Cabinet's brunch at Goldberg's | entered, `cal.1961-01-15.transition-and-staff-cabinet` |
+| 292 | 1961-01-28 | the State of the Union's last drafts, Jan. 28–29 | entered, `cal.1961-01-28.program` (a principal's drafting) |
+| 308 | 1961-04-20 | the walk on the South Lawn; the private remark on Castro's critics | entered, `cal.1961-04-20.cuba-bay-of-pigs-2` |
+| 355 | 1962 | the Gridiron quip, "I'd rather be Ted than Ed" | lead: the 1962 dinner's day (the book gives the year only, before the September primary) |
+| 363 | 1961, 1963 | the Gridiron quips, "Pack!" and "hasn't got a prayer" | 1961: already in (`cal.1961-03.press-and-broadcasting`), cited, 363, unit A; 1963: lead, the dinner's day |
+| 409–10 | 1963, fall | Heller's "See America First" for Mrs. Kennedy | entered, `cal.1963-09.economy` (Check: the month) |
+| 430 | 1962-12 | Galbraith's "most Republican speech since McKinley"; Kerr's, Mills's, Dillon's and Heller's part in the draft | entered, `cal.1962-12.economy-2` (Check: the day); the final draft in the New York hotel cited under `cal.1962-12-14.economy`, unit A |
+| 332–33 | 1962-05-23 | news conference: the mail no true indicator | entered, `cal.1962-05-23.medicare` (the Public Papers read, 432) |
+| 333 | 1963 | his private guess that his rating could fall below 50 percent | lead: no month ("At the peak of the 1963 civil rights furor") |
+| 336 | 1963 | the pre-press-conference breakfast on the week's critics | lead: no month |
+| 510 | 1961 | the private remark on the Hill's speeches after a hijacking to Cuba | lead: the book dates neither the hijacking nor the remark |
+| 512 n.1 | 1961-11 | two columnists' drafts blended for the Seattle address | entered, `cal.1961-11.right-and-the-military-2` (Check: the day) |
+| 579 | 1961–63 | Indonesian students take the tie clasp | passed over: a social matter with no bearing on public business; undated |
+| 685 | 1962-10-18 | Sorensen's draft letter to Khrushchev by envoy | already in (`cal.1962-10-18.missile-crisis-6`, 685–86 cited): the drafting of a principal's message |
+| 688 | 1962-10-18 | a Republican's note to Sorensen on the House | entered, `cal.1962-10-18.missile-crisis-excomm-3` (Check: the day) |
+| 597 | 1961 | the Adenauer government "deeply neurotic," by an American admirer | passed over: no act or occasion, a description by an unnamed writer; undated |
+| 601 | 1963-06-26 | Air Force One from Berlin: "Go to Germany"; "We'll never have another day like this" | entered, `cal.1963-06-26.europe-and-the-alliance-kennedy-in` |
+| 640 | 1960-12 | Palm Beach: "I wish it would happen before we take over" | entered, `cal.1960-12.laos` (Check: the month) |
+| 644 | 1961-09-24 | New York, the eve of the UN address: "Thank God the Bay of Pigs happened" | entered, `cal.1961-09-24.laos` (the address's day from the Public Papers) |
+| 659 | 1963 | Kennedy on Madame Nhu: she "resented getting her power through men" | lead: no month |
+| 665–66 | 1962–63 | "These Chinese are tough"; grain to the Chinese weighed, "a subject for the second term" | lead: no month |
+| 698 | 1962-10 | the entry book, the side entrances | passed over: a unit's routine |
+| 701 | 1962-10-22 | Sorensen's two calls (a Congressman; Edward Kennedy) | entered, `cal.1962-10-22.missile-crisis-30` |
+| 702 | 1962-10-22 | the missions to tape their windows; the watch | passed over: a unit's routine |
+| 704 | 1962-10-22 | a congressional leader's call of support after the address | entered, `cal.1962-10-22.missile-crisis-excomm` |
+| 705 | 1962-10 | the doodles; the odds | the doodles: entered, `cal.1962-10-23.missile-crisis-excomm` (Check: the day, "shortly after his speech"); the odds, said later: lead, no date; the back porch, Oct. 20 (on the page, not listed before): entered, `cal.1962-10-20.missile-crisis-excomm-2` |
+| 710 n.4 | 1962-10 | the PT-109 replica commandeered | lead: the incident with the Cuban exiles, its day not given; the coincidence the President remarked, trivia |
+| 720 | 1962-11 | "we seem to be spending as much time negotiating with you" | entered, `cal.1962-11.missile-crisis-settlement` (Check: the day) |
+| 607 | 1962–63 | the *Seven Days in May* remark | lead: undated (the hearing) |
+| 629 | 1963 | large armies in Europe, "in more than one meeting" | lead: no month |
+
+Leads (b6): the Gridiron dinners of 1962 and 1963, their days (355, 363); Kennedy's private guess at his rating, 1963 (333); the pre-press-conference breakfast on Wallace, Madame Nhu, Lasky and Mao (336); the hijacking to Cuba and Kennedy's remark (510); Madame Nhu (659); the Chinese, grain (665–66); the odds (705); the PT-109 replica and the Cuban exiles (710 n.4); large armies in Europe (629).

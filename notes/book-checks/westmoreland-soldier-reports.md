@@ -67,6 +67,8 @@ None: no calendar entry cited the book before this reading (the card was listed 
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10–11, 2026): the rows of this table, of "Passed over, ruled again" and of "Passed over (third reading)" ruled private, social, personal, family or minor, and the blanket row for pp. 1–62, are ruled again below, "Batch 6: the private and social rows re-ruled".
+
 | page | date | event | why |
 |---|---|---|---|
 | 1-62 | 1914-1963 | the life before Vietnam | out of the brief: before the calendar's events, or private |
@@ -250,3 +252,50 @@ For the merger: three witnesses are one record, Johnson's news conference of Jul
 ### Where this run stopped
 
 The witnesses are done for every page cited by the 205 entries that cite the book. Not done: the FRUS prints the first two runs registered and did not read (MAC 1190, MAC 3240, MAC 3320: FRUS II, doc. 182; III, docs. 17, 31), the `?` row of cal.1964-12-24.vietnam (89: A; 113: B-E, as the first run's table had it), a fresh page-by-page reading of pp. 1-451 beyond the cited pages and the rows above, and Berman, *Lyndon Johnson's War*.
+
+## Batch 6: the private and social rows re-ruled (Nov. 10–11, 2026)
+
+Patch `inbox/2026-11-06-b6-westmoreland-soldier-reports.yaml` (13 ops: 8 new entries, claimed in the ledger; 3 cites; 2 checks). `./bib patch-check`: 0 errors; its warnings the "one event?" and possible-duplicate notices, each pair read: distinct events (`./bib resolve ID --take keep` at the merge). The copy: the owner's PDF in Drive (1iR4zCqiS6W2N1cetqS-oL5qFJLFghypo), downloaded again into the scratchpad, the offsets as above (printed page = PDF page less 16 to p. 110, less 24 from p. 111, less 32 from p. 183, less 40 from p. 255, less 48 from p. 327), checked again at pp. 86, 112/120, 188, 210, 366; each page cited read off the text layer, pp. 33 and 188 checked against the page images; deleted when done. The book has no notes (above): no witnesses for these units; each entry is Westmoreland's account and says so.
+
+| page | date | event | ruling |
+|---|---|---|---|
+| 1–62 | 1960–63 | the life before Vietnam (the blanket row) | read again for 1960–63, pp. 32–40: entered `cal.1961-06.defense-2` (Johnson at the West Point commencement, June 1961, asks whether to put his writers' text aside, 33), `cal.1962-12.defense-2` (Kennedy at the Army-Navy game, Dec. 1962: support for enlarging the Academy, 36–37), `cal.1964-01.vietnam-macv` (MacArthur's advice at the Waldorf-Astoria, before Saigon, 39–40); cited under `cal.1962-06-06.defense` (37–38); the rest below |
+| 32 | 1960 | Eisenhower's talk with Westmoreland before West Point ("buck up that football team") | lead: the year only |
+| 33 | 1961 | Eisenhower at West Point for the Thayer Award; "the sublimest word" | lead: the year only |
+| 34 | spring 1962 | Faulkner at West Point | passed over: out of the brief (no bearing on politics or policy) |
+| 34 | n.d. | Rockefeller rallies the New York delegation behind enlarging the Academy | lead: undated |
+| 34 | 1962 | Westmoreland's talk with Eleanor Roosevelt aboard her son's boat | passed over: a social occasion, its matter not given (no bearing on public business shown) |
+| 35–36 | 1962 | MacArthur's Thayer Award address, "Duty, Honor, Country" | lead: the year only |
+| 36 | spring 1963 | MacArthur at the Academy's cemetery | passed over: no bearing on public business |
+| 36 | 1961–62 | Westmoreland wins MacArthur's and Eisenhower's support for the expansion (the Waldorf-Astoria; Palm Springs) | lead: undated |
+| 37 | 1963 | Kennedy approves the expansion bill | lead: the year only; the act and its day to find |
+| 39 | 1963 | the counterinsurgency conference at West Point, Rostow the keynote speaker | lead: "my last months at the Academy in 1963", no month |
+| 86, 89 | Dec. 1964 | LeMay upbraids Westmoreland | cited already under `cal.1964-12.vietnam-2` (C); LeMay's tongue-lashing of Moore at Hong Kong "a few weeks later" (86–87) entered, `cal.1965-01.vietnam-macv` |
+| 89 | Dec. 1964 | his father's last letter | still passed over: family, a private citizen's opinion |
+| 103 | 1964 | O'Sullivan's father's letter; the letter to Truong's widow | still passed over: family and condolence |
+| 120 | n.d. | Johnson to Westmoreland, later: not firing "the Kennedy gang" his greatest mistake | lead: the book does not date it ("subsequently told me") |
+| 121 | Oct. 1966 | Harriman at lunch at Manila on the Russians | entered, `cal.1966-10-24.vietnam-asian-trip-2` |
+| 125 | Mar. 1965 | Johnson to Harold Johnson in the elevator | cited already under `cal.1965-03-02.vietnam-2` (the earlier run's parenthetical) |
+| 133–34 | n.d. | Park: "proud to have my troops under your command" | lead: undated |
+| 159 | Feb. 1966 | Johnson at Honolulu: "a lot riding on you"; "pull a MacArthur" | entered, `cal.1966-02-06.vietnam-honolulu` (Check: the days) |
+| 188 | Nov. 1, 1966 | the National Day parade | entered, `cal.1966-11-01.vietnam-saigon`: the Viet Cong's fourteen recoilless-rifle rounds during it (R14) |
+| 198 | Sept. 1966 | the war game; Khe Sanh to Walt | in (the second reading: `cal.1966-09.vietnam-3`) |
+| 210–12 | Oct.–Nov. 1966 | McNamara and Kissinger on pacification; Johnson's ninety days for Lodge | cited already under `cal.1966-10-10.vietnam` and `cal.1966-10.vietnam`; 212 cited now under `cal.1966-11.vietnam` (B, D), with a Check (a two-week delay; Lathram later) |
+| 230 | July 12, 1967 | his mother's funeral at Columbia, the governor and both Senators there | still passed over: family |
+| 230 | July 1967 | Johnson's message of condolence, "Should be pleased to see you before your return to Saigon" | still passed over: a condolence; the meeting it led to cited under `cal.1967-07-12.vietnam-force-levels` (E), with a Check (whether Westmoreland's meeting with the NSC is this one; the 47,000 and the ceiling of 525,000) |
+| 231 | Nov. 16, 1967 | the Medal of Honor to Morris; the dinner with the House Democrats | cited already under `cal.1967-11-16.vietnam-2`, `cal.1967-11-16.vietnam-congress-2` |
+| 231 | Nov. 16, 1967 | Lynda Robb's question to Westmoreland on her husband as a hostage | still passed over: family |
+| 232 | Nov. 17, 1967 | breakfast in Johnson's bedroom | in already, `cal.1967-11-17.vietnam-2` (a ledger claim made in error, `cal.1967-11-17.vietnam-support`, taken out again) |
+| 232–33 | Nov. 18–20, 1967 | Pittsburgh; the missed meeting; Camp David; *Meet the Press*; the dinner with Russell | in already (`cal.1967-11-18.vietnam`, `cal.1967-11-19.vietnam`, `cal.1967-11-20.elections-1968`) |
+| 235 | Nov. 1967 | Johnson telephones from the ranch: enthusiastic about upgrading the Vietnamese forces | lead: the day ("as I prepared to depart Washington") and the entry, `cal.1967-11-26.vietnam-2` or another, to be settled |
+| 236 | Sept.–Oct. 1967 | Forsythe to Thiệu | in already, `cal.1967-11.vietnam-2` |
+| 366 | Nov. 11, 1968 | the parade at Spartanburg | in already, `cal.1968-11-11.vietnam` |
+| 383 | Oct. 8, 1968 | dinner at Quarters 1 with the Johnsons and the Wheelers | entered, `cal.1968-10-08.defense` (a social occasion among the principals) |
+| 383 | late summer 1968 | Nixon to Johnson by car telephone at Detroit | in already, `cal.1968-08-19.elections-1968` |
+
+Not borne out: none. Not settled: the 1960–63 leads above (the book gives the year only).
+
+### Leads (batch 6)
+
+- National: Eisenhower's talk with Westmoreland before he took West Point, 1960 (32), and Eisenhower's Thayer Award at West Point, 1961 (33): the days. MacArthur's Thayer Award address, 1962 (35): the day. The act enlarging the Military Academy, approved by Kennedy "in 1963" (37): the statute and its day. The counterinsurgency conference at West Point, Rostow the keynote speaker, 1963 (39): the day. Rockefeller and the New York delegation on the expansion (34): the day.
+- Foreign: Johnson's "Kennedy gang" remark to Westmoreland (120) and Park's "proud to have my troops under your command" (134): the days. Johnson's call from the ranch after the Press Club speech, Nov. 1967 (235): the day.

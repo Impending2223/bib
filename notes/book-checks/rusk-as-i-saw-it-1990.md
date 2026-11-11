@@ -73,20 +73,22 @@ The merge's dry run flags nine of them as possible duplicates of entries of the 
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, run Nov. 10, 2026: the owner's copy in Drive again, 1e3uZQw864xl7h_GpNTpHSO30W-Gg33Aq, 680 PDF pages, printed page = PDF page − 4, checked on the page images of pp. 223 and 267, the folio on every page read; deleted when done). The rows ruled private, social or trivia, each marked in its last cell; patch `inbox/2026-11-06-b6-rusk-as-i-saw-it-1990.yaml` (6 entries). The book has no notes: each entry's map runs through the taped interviews (`x.1984.rusk-interviews-with-richard-rusk`), but p. 596, Richard Rusk's own narrative. No new witnesses.
+
 Made by reading every page of the book within the span (Oct. 29, 2026), each dated event set against the calendar; re-ruled Nov. 4, 2026 under R5, R7, R13, R15 and R18 (the first run's "undated" and "private remark" reasons gone over row by row: an event dated to a month or a season is entered; one dated only to a year, or not at all, is a lead). Rows that became entries or cites now say so.
 
 | Page | Date | Event | Ruling |
 |---|---|---|---|
 | 205 | Jan. 1961 | Rusk confirmed by voice vote | already in, `cal.1961-01-20.transition-and-staff` |
 | 212–13, 296 | summer 1963 | Rusk offers Kennedy his resignation; "I like your guts" | entered, `cal.1963-06.transition-and-staff` (Nov. 4) |
-| 213 | 1962 | Macmillan at Chequers to Rusk on the Bay of Pigs | minor: a private remark, no public business (and no month) |
+| 213 | 1962 | Macmillan at Chequers to Rusk on the Bay of Pigs | minor: a private remark, no public business (and no month) — **re-ruled Nov. 6, 2026 (R18 as amended):** a private remark on public business, so an entry once dated; Rusk gives the year only, "a 1962 trip to Great Britain with President Kennedy," and the calendar holds no Kennedy visit to Britain that year: a lead (below, R15) |
 | 213 | 1961 | the Taylor–Robert Kennedy inquiry | already in |
 | 216 | after Apr. 1961 | the CIA's plan to contaminate Cuban sugar, vetoed by Rusk | lead: no year or month given |
 | 216 | 1961–63 | Thompson's report of a junior's remark on assassination at the 303 Committee | lead: no date given |
 | 220 | mid-May 1961 | the Vienna meeting arranged | already in (Vienna) |
 | 221 | June 1961 | Acheson's, Stevenson's and Rusk's positions on Berlin | minor: repetition of entries of June–July 1961 |
 | 222 | June–July 1961 | the draft reply lost at the White House, redrafted by Sorensen | already cited, `cal.1961-07-17.berlin-and-vienna` |
-| 223 | Aug. 13, 1961 | Rusk at a baseball game when the wall went up | minor: private trivia |
+| 223 | Aug. 13, 1961 | Rusk at a baseball game when the wall went up | minor: private trivia — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1961-08-13.berlin-and-vienna-2 (how the news reached the Secretary) |
 | 225 | late Sept.–Oct. 1961 | Rusk to Gromyko: "if you want war, you can have it in five minutes" | already cited, `cal.1961-09-21.berlin-and-vienna` (225) |
 | 227 | June 26, 1963 | Adenauer to Rusk in Berlin: "could Germany have another Hitler?" | cited, `cal.1963-06-26.berlin-and-vienna` (Nov. 4) |
 | 229 | summer 1962 | Keating's charges | already in |
@@ -95,9 +97,9 @@ Made by reading every page of the book within the span (Oct. 29, 2026), each dat
 | 253 | Sept. 20, 1961 | the McCloy–Zorin statement of principles | entered, `cal.1961-09-20.testing` (Nov. 4), the *Bulletin* read |
 | 255 | summer 1962 | Rusk proposes an atmospheric ban to the Committee of Principals | entered, `cal.1962-06.testing` (Nov. 4) |
 | 256 | June 1963 | Rusk and Dobrynin on the Potomac | entered, `cal.1963-06.testing` (Nov. 4) |
-| 258 | Aug. 1963 | Leningrad | minor: social |
+| 258 | Aug. 1963 | Leningrad | minor: social — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1963-08-09.soviet-union-2 (a social occasion among the principals of the test ban and the German talks; dated by the Pitsunda meeting, with a Check) |
 | 263 | Dec. 1960 | Herter's MLF proposal to NATO | cited, `cal.1960-12-16.europe-and-the-alliance` (Nov. 4) |
-| 265–67 | Dec. 1962 | Nassau: Rusk stays for a diplomatic dinner, Ball goes | minor: social |
+| 265–67 | Dec. 1962 | Nassau: Rusk stays for a diplomatic dinner, Ball goes | minor: social — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1962-12-18.europe-and-the-alliance-3 (Rusk's choice to stay; Ball in his place; his advice on Polaris) |
 | 267 | Apr. 1961 | Macmillan tells Kennedy Britain will seek to join the EEC | cited, `cal.1961-04-05.european-community` (Nov. 4) |
 | 269 | July 1961 | de Gaulle angry when Rusk raises Bizerte | lead: the meeting's day (Rusk in Paris, Aug. 1961?) |
 | 271 | 1966 | Rusk asks de Gaulle, for Johnson, about the American cemeteries | lead: the year only |
@@ -124,7 +126,7 @@ Made by reading every page of the book within the span (Oct. 29, 2026), each dat
 | 351 | Oct.–Nov. 1968 | Johnson tries to restart the missile talks | already in (`cal.1968-10-02.testing-missile-talks`, `cal.1968-11-26.testing-missile-talks`) |
 | 353 | Feb. 1967; 1968 | Tlatelolco; the civil air agreement | leads: the days |
 | 358 | May 1965 | Rusk and Gromyko at Vienna, the treaty's tenth year | lead: the meeting's record (FRUS 1964–68, XIV) |
-| 360 | Jan. 1969 | Gromyko at a party before the inauguration | minor: social |
+| 360 | Jan. 1969 | Gromyko at a party before the inauguration | minor: social — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1969-01.soviet-union (a principal's remark on Rusk's leaving office; Check: the day and the place) |
 | 361 | July 1968 | Rusk to Dobrynin: the war of words a pretext; Dobrynin denies an invasion | cited, `cal.1968-07-22.soviet-union-czechoslovakia` (Nov. 4) |
 | 361–62 | fall 1968 | Rusk at the General Assembly: questions for Gromyko on the Brezhnev doctrine | lead: the day (the *Bulletin* vol. 59 has no open copy) |
 | 369 | Dec. 1962–Jan. 1963 | Bosch elected; brought to Washington | already in |
@@ -160,13 +162,13 @@ Made by reading every page of the book within the span (Oct. 29, 2026), each dat
 | 488 | Nov. 1968 | Rusk advises Johnson not to make the Chennault affair public | Check added to `cal.1968-11-04.elections-1968-chennault` (Nov. 4) |
 | 490 | summer 1968 | Harriman's proposal of a phased withdrawal | already in (`cal.1968-07-29.vietnam`) |
 | 501, 546 | 1966 | Rusk to Case at a hearing: "put your views in a resolution" | lead: the hearing's day |
-| 535 | 1965 | Rusk's ten days' rest | minor: private |
+| 535 | 1965 | Rusk's ten days' rest | minor: private — **re-ruled Nov. 6, 2026 (R18 as amended):** a lead (below): the ten days dated to the year only (R15); an officeholder's illness off duty bears on public business |
 | 569 | 1961 | Lippmann and Reston on Rusk | lead: the columns' days |
 | 571–72 | Nov. 1965 | Montevideo: a man runs at Rusk to spit; the photographer's negative | entered, `cal.1965-11.latin-america` (Nov. 4) |
 | 576 | 1967 | McNamara asks Rusk to let his staff use State's files (the Pentagon Papers) | lead: the year only |
 | 581 | Sept. 1967 | Peggy Rusk's marriage; Rusk tells Johnson, who asks Russell | entered, `cal.1967-09.transition-and-staff` (Nov. 4) |
 | 586 | Aug. 1963 | Kennedy decides not to speak at the March | lead: the day |
-| 588, 596, 605 | 1961, 1968 | Atlanta's bar; the University of Georgia; Wallace's campaign in Georgia | out of the brief (Rusk's private life) or no date |
+| 588, 596, 605 | 1961, 1968 | Atlanta's bar; the University of Georgia; Wallace's campaign in Georgia | out of the brief (Rusk's private life) or no date — **re-ruled Nov. 6, 2026 (R18 as amended):** the Atlanta Bar Association's dinner of 1961 (588: the Kennedy cabinet's informal agreement against speaking to segregated gatherings, Gambrell's answer): a lead, the year only; Rusk at the University of Georgia's law school, May 1968 (596): entered as cal.1968-05.war-opposition; the offer of the law chair, late 1968, Roy Harris's objection and the regents' override (605, 596): entered as cal.1968-12.georgia; the bill to cut the university's appropriation, defeated 113 to 12 (605): a lead, its day (the Georgia House's Journal, 1969 session; likely after the span) |
 
 ## Nov. 4, 2026: batch 3 resumed
 
@@ -190,3 +192,4 @@ Read again from the owner's copy (Drive, the same file; downloaded through Drive
 - National: (the McCloy–Zorin statement entered Nov. 4); the Rusk–Dobrynin evening on the Potomac, June 1963, entered (Rusk 256; its day: FRUS 1961–63, VII?); Bundy to Johnson on Rusk's rest, 1964 (Rusk 418; a staff memorandum: date it); the 1965 draft NPT and the 1967 safeguards offer (Rusk 341–44; dates); Peggy Rusk's wedding, Sept. 1967 (Rusk 581; the day, the press).
 - Foreign: Herter's MRBM offer, Dec. 1960 (Rusk 263); the Angola vote, Mar. 1961 (Rusk 274); Zhou's statement, May 10, 1966 (Rusk 289); Rusk to Dobrynin before the invasion, July 1968 (Rusk 361; FRUS 1964–68, XVII); Rusk at the General Assembly, Oct. 1968 (Rusk 361–62); Rusk's eyes-only cable, mid-Dec. 1966 (Rusk 468); Rusk at Montevideo, Nov. 1965 (Rusk 571); Johnson's recognition of the Dominican junta, Dec. 1963 (Rusk 370).
 - Added Nov. 4. National: the Dean Rusk Collection's taped interviews (University of Georgia, Russell Library): whether open online, and the tape for each passage the calendar cites (Rusk, 12, 639); the General Assembly resolution on weapons in orbit, Oct. 1963 (Rusk 345: the day and number); the draft NPT tabled, Aug. 1965 (Rusk 341: the day; FRUS 1964–68, XI); Rusk's address to the General Assembly on the Brezhnev doctrine, fall 1968 (Rusk 361–62); Peggy Rusk's wedding (*Time*, Sept. 1967: the issue). Foreign: Rusk and Gromyko at Vienna, May 1965 (Rusk 358; FRUS 1964–68, XIV); Zhou Enlai's statement of May 10, 1966 (Rusk 289; its text); the Montevideo incident, Nov. 1965 (Rusk 571; the day, the photograph).
+- Added Nov. 10 (batch 6). National: Macmillan's remark to Rusk at Chequers on the Bay of Pigs (Rusk 213): Rusk gives "a 1962 trip to Great Britain with President Kennedy"; the occasion and its day (the calendar holds no Kennedy visit to Britain in 1962; the Daily Diary and Macmillan's diaries); Rusk's ten days off with the flu, 1965 (Rusk 535): the days (the Secretary's appointment books, the Times); the Atlanta Bar Association's dinner, 1961, its first integrated, and the Kennedy cabinet's informal agreement against speaking to segregated gatherings (Rusk 588): the day (the Atlanta papers; the Bulletin's index of 1961 holds no such address). States and cities: the bill in the Georgia General Assembly to cut the University of Georgia's appropriation by Rusk's salary, defeated 113 to 12 (Rusk 605): its day (the House Journal, 1969 session; likely after Jan. 20, 1969); the regents' special meeting on Rusk's appointment (Rusk 605): its day (the Board of Regents' minutes).
