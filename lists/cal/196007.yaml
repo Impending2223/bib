@@ -549,6 +549,31 @@ entries:
     time_band: workday daytime
     time_zone: America/Los_Angeles
     range_basis: kind
+  - id: cal.1960-07-10.elections-1960-los-angeles-3
+    when: July 10–11
+    date: '1960-07-10'
+    thread: elections-1960-los-angeles
+    also: [civil-rights-organizations]
+    c: Los Angeles, the March on the Conventions. King speaks at the Sunday kick-off rally; Monday's picketing of the Democratic convention draws sixty-five and little notice. King keeps to a hotel room, talking politics with Michael Harrington, who organized the picketing.
+    n: '[[w.garrow-bearing-the-cross]], 140. To check: King, "Remarks ...," July 10, 1960, King Papers (cited by [[w.garrow-bearing-the-cross]], 140 n.11); Los Angeles Herald-Express, July 12, 1960 (cited by [[w.garrow-bearing-the-cross]], 140 n.11); Harrington, interview by Garrow (cited by [[w.garrow-bearing-the-cross]], 140 n.11); [[w.harrington-fragments-of-the-century]], 108–15 (cited by [[w.garrow-bearing-the-cross]], 140 n.11). See [[cal.1960-06-09.elections-1960]]. Names: Martin Luther King.'
+    src:
+      c: 8632b2a2
+      rows:
+        - 'w.garrow-bearing-the-cross 140: all'
+        - 'via w.garrow-bearing-the-cross 140 n.11a: all'
+        - 'via w.garrow-bearing-the-cross 140 n.11b: all'
+        - 'via w.garrow-bearing-the-cross 140 n.11c: all'
+    tags: [name:king-martin-luther-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-10.elections-1960-2
+          - cal.1960-07-10.elections-1960-3
+          - cal.1960-07-10.elections-1960
+          - cal.1960-07-10.elections-1960-5
+          - cal.1960-07-10.elections-1960-los-angeles
+          - cal.1960-07-10.elections-1960-los-angeles-2
+        from: 2026-11-06-b6-garrow-bearing-the
   - id: cal.1960-07-11.congo
     when: July 11
     date: '1960-07-11'

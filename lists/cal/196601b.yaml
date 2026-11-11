@@ -1170,6 +1170,24 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1966-01-18.vietnam-air-war
+    when: Jan. 18
+    date: '1966-01-18'
+    thread: vietnam-air-war
+    also: [vietnam-barrier]
+    c: 'McNaughton''s paper for McNamara, "Some Observations about Bombing North Vietnam": despite interdiction, the North can infiltrate 4,500 men a month and 50 to 300 tons of supplies a day, against needs of 20 tons a day for the 1964 level of activity, 80 for "light combat." Heavier bombing might cut supplies to 50 tons a day ("without convincing back-up"), some 90 short of the 140 needed by 155 battalions at year''s end. So: expand the bombing as the military propose, POL and power plants among it; mine the ports; consider barriers across Vietnam and Laos south of the 17th parallel and to Cambodia.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 148–49 & n.104 (the second draft). To check: McNaughton, "Some Observations about Bombing North Vietnam," Jan. 18, 1966, 2nd draft, McNaughton Files, Warnke Papers, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 149 n.104); [[w.pentagon-papers]], IV, 48 (cited by [[w.gibbons-u-s-government-and]], IV, 149 n.105). Names: McNaughton, McNamara.'
+    src:
+      c: 949e3e1b
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 148–49: all'
+        - 'via x.1966-01-18.mcnaughton-some-observations-about-bombing: all'
+    tags: [name:mcnaughton-john-t, name:mcnamara-robert-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-01-18.vietnam
+        from: 2026-11-06-b6-gibbons-u-s-government-and
   - id: cal.1966-01-19.india-and-china
     when: Jan. 19
     date: '1966-01-19'

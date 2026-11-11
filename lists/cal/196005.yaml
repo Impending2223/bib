@@ -286,6 +286,20 @@ entries:
       rows:
         - 'w.asselin-hanois-road-to-the 75–76: all'
         - 'via x.1960-05-04.nghi-quyet-lien-khu-uy-v: all'
+  - id: cal.1960-05-04.king
+    when: May 4
+    date: '1960-05-04'
+    thread: king
+    c: 'Atlanta, near Emory University Hospital, at night. DeKalb County police stop King, driving the writer Lillian Smith back to the hospital after dinner: the borrowed car''s plates expired; only an Alabama license, Georgia''s ninety days for new residents past. A citation; they go on.'
+    n: '[[w.garrow-bearing-the-cross]], 135–36. To check: Atlanta Journal, Oct. 24, 1960 (cited by [[w.garrow-bearing-the-cross]], 136 n.7); Coretta King, interview by Charlotte Mayerson, XIII, 38 (cited by [[w.garrow-bearing-the-cross]], 136 n.7); [[w.lewis-king]], 121 (cited by [[w.garrow-bearing-the-cross]], 136 n.7). The probation for it revoked: [[cal.1960-10-25.king]]. Names: Martin Luther King.'
+    src:
+      c: 1857dbff
+      rows:
+        - 'w.garrow-bearing-the-cross 135–36: all'
+        - 'via w.garrow-bearing-the-cross 136 n.7j: all'
+        - 'via w.garrow-bearing-the-cross 136 n.7k: all'
+        - 'via w.garrow-bearing-the-cross 136 n.7l: all'
+    tags: [name:king-martin-luther-jr]
   - id: cal.1960-05-05.soviet-union
     when: May 5–7
     date: '1960-05-05'
@@ -1160,6 +1174,47 @@ entries:
         - 'via w.fursenko-khrushchevs-cold-war 288 n.81: A-B'
         - 'via w.fursenko-khrushchevs-cold-war 288 n.82: C'
     tags: [name:khrushchev-nikita-s]
+  - id: cal.1960-05-17.soviet-union-u2-3
+    when: May 17
+    date: '1960-05-17'
+    time: 1960-05-17T14:00Z
+    thread: soviet-union-u2
+    also: [europe-and-the-alliance]
+    c: 'Paris, 3 p.m. Eisenhower, Macmillan and de Gaulle with their ministers, the Soviets absent. Khrushchev''s word by telephone: a meeting only to resume the day before''s debate. De Gaulle: the summit cannot convene; it has not even started. Macmillan for holding the declaration until Khrushchev answers in writing. Eisenhower: if de Gaulle wants to see "this man" he will not object.'
+    n: '[FRUS 1958–60, IX, doc. 178](https://history.state.gov/historicaldocuments/frus1958-60v09/d178) (May 17, 1960, 3 p.m.). [[w.fursenko-khrushchevs-cold-war]], 288 (Eisenhower''s "this man"). Made public: FRUS 1958–60, IX. See [[cal.1960-05-17.soviet-union-u2-2]]. Names: Eisenhower, Macmillan, de Gaulle, Khrushchev.'
+    src:
+      c: a8dba780
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v09/d178: all'
+        - 'w.fursenko-khrushchevs-cold-war 288: G'
+        - 'via w.fursenko-khrushchevs-cold-war 288 n.82: all'
+    tags: [name:eisenhower-dwight-d, name:macmillan-harold, name:de-gaulle-charles, name:khrushchev-nikita-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-05-17.soviet-union-u2
+          - cal.1960-05-17.soviet-union-u2-2
+        from: 2026-11-06-b6-fursenko
+  - id: cal.1960-05-17.soviet-union-u2-4
+    when: May 17
+    date: '1960-05-17'
+    thread: soviet-union-u2
+    also: [europe-and-the-alliance]
+    c: 'Macmillan, by his diary: "The Summit—on which I had set high hopes and for which I worked for over 2 years—has blown up, like a volcano! It is ignominious; it is tragic; it is almost incredible."'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 288. Check: the day: the work sets the words on the day of Khrushchev''s brushoff. To check: Macmillan''s diary, quoted in [[w.horne-macmillan-1957-1986]], II, 228 (cited by [[w.fursenko-khrushchevs-cold-war]], 288 n.83). See [[cal.1960-05-17.soviet-union-u2-3]]. Names: Macmillan.'
+    src:
+      c: c16afbe9
+      rows:
+        - 'w.fursenko-khrushchevs-cold-war 288: all'
+        - 'via w.fursenko-khrushchevs-cold-war 288 n.83: all'
+    tags: [name:macmillan-harold]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-05-17.soviet-union-u2
+          - cal.1960-05-17.soviet-union-u2-2
+          - cal.1960-05-17.soviet-union-u2-3
+        from: 2026-11-06-b6-fursenko
   - id: cal.1960-05-18.soviet-union-u2
     when: May 18
     date: '1960-05-18'

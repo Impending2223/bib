@@ -1746,6 +1746,26 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-12-18.vietnam-pause-3
+    when: Dec. 18
+    date: '1965-12-18'
+    thread: vietnam-pause
+    follows:
+      - cal.1965-12-18.vietnam-pause
+    c: 'When Clifford has finished his statement against the pause, Johnson hands him a note: "Magnificent. To sum up—as Abraham Lincoln said—''You can''t fertilize a field by farting thru the fence.''"'
+    n: '[[w.gibbons-u-s-government-and]], IV, 123 n.32. To check: [[w.clifford-counsel-to-the-president-2]], 436; Johnson''s note to Clifford, Clifford Papers, Handwritten Notes, LBJ Library (both cited by [[w.gibbons-u-s-government-and]], IV, 123 n.32). See [[cal.1965-12-18.vietnam-pause]]. Names: Johnson, Clifford.'
+    src:
+      c: c8c8aacf
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 123: all'
+        - 'via x.1965-12-18.johnson-note-to-clifford-magnificent: all'
+    tags: [name:johnson-lyndon-b, name:clifford-clark]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-12-18.vietnam-pause
+          - cal.1965-12-18.vietnam-pause-2
+        from: 2026-11-06-b6-gibbons-u-s-government-and
   - id: cal.1965-12-19.vietnam-pause
     when: Dec. 19
     date: '1965-12-19'
