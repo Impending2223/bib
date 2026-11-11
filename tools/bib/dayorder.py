@@ -32,7 +32,9 @@ STYLE
    source's "that evening") or `kind` (no record gives it; the event's kind places it, the owner's "where their contents
    or placement suggests so", Nov. 5, 2026: an office act, a meeting, a signing, a hearing or a paper written in an
    office, the workday daytime of its place; a breakfast, the pre-work morning; a lunch, midday; a dinner or a toast,
-   the evening; KINDS_PLACE). A `kind` range carries its band and zone, adds nothing to the note, and gives way to any
+   the evening; a newspaper's story, column or editorial, the early morning of its place of
+   publication; an election's returns, election night in the constituency, from the polls' closing by law where found
+   (the owner, Nov. 6, 2026); KINDS_PLACE). A `kind` range carries its band and zone, adds nothing to the note, and gives way to any
    record found later.
 6. The order, from Nov. 5, 2026 (the owner: "sort by time first"): a day's entries by their place in the day (a `time`,
    or the middle of a `time_range`, in UTC), then by the key of 1; the entries with neither after the placed ones, by
@@ -55,6 +57,7 @@ BANDS = {
     "predawn": (0, 6), "pre-work morning": (6, 9), "workday morning": (9, 12), "workday midday": (12, 14),
     "workday afternoon": (14, 17), "workday daytime": (9, 17), "after-workday daytime": (17, 19), "evening": (19, 22),
     "night": (22, 24), "morning": (6, 12), "afternoon": (12, 18), "daytime": (6, 19), "day": (0, 24),
+    "early morning": (5, 8), "election night": (20, 26),   # the owner, Nov. 6, 2026 (KINDS_PLACE: newspaper, election)
 }
 
 
@@ -67,6 +70,9 @@ KINDS_PLACE = {
     "breakfast": "pre-work morning",
     "lunch": "workday midday",
     "dinner": "evening",                  # a dinner, a reception, a toast, a gala
+    "newspaper": "early morning",         # a story, column or editorial, in the place of publication (the owner, Nov. 6, 2026)
+    "election": "election night",         # the returns, late evening into the night, in the constituency; from the polls'
+                                          # closing hour by law where it is found (the owner, Nov. 6, 2026)
 }
 
 
