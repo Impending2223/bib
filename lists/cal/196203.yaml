@@ -371,11 +371,13 @@ entries:
     date: '1962-03-05'
     thread: cuba
     c: 'Lansdale asks Craig of the Joint Staff for "a brief but precise description of pretexts which the JCS believes is desirable for direct military intervention." The Joint Staff''s list: attacks and sabotage at Guantánamo, an unmanned ship blown up, faked assassination attempts and bombings in Florida and Washington, a drone airliner "downed" over Cuba; no actual killing.'
-    n: '[[w.poole-joint-chiefs-of-staff]], 160. See [[cal.1962-03-13.cuba]]. Names: Lansdale.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 160; [[w.jones-bay-of-pigs]], 159 (Lansdale asks for "pretexts," a proposal by Mar. 13). To check: Lansdale to Craig, Mar. 5, 1962, in "Justification for U.S. Military Intervention in Cuba," JCS 1969/303, JCS Central Files 1962, box 29, National Archives (cited by [[w.jones-bay-of-pigs]], 159 n.15). See [[cal.1962-03-13.cuba]]. Names: Lansdale.'
     src:
       c: d7636962
       rows:
         - 'w.poole-joint-chiefs-of-staff 160: all'
+        - 'w.jones-bay-of-pigs 159: A'
+        - 'via w.jones-bay-of-pigs 159 n.15h: A'
     tags: [name:lansdale-edward-g]
     time_range:
       - 1962-03-05T14:00Z
@@ -775,12 +777,14 @@ entries:
     date: '1962-03-13'
     thread: cuba
     c: 'The Joint Chiefs send McNamara Operation Northwoods: pretexts for invasion, staged attacks among them. Lemnitzer signs. Not adopted.'
-    n: '[Lemnitzer to McNamara, "Justification for US Military Intervention in Cuba," Mar. 13, 1962](https://nsarchive2.gwu.edu/news/20010430/northwoods.pdf) (National Security Archive). Released 1997 by the Assassination Records Review Board (K–J Adm. II.H.3). [[w.poole-joint-chiefs-of-staff]], 160. See [[cal.1961-11-30.cuba]]. Names: McNamara, Lemnitzer.'
+    n: '[Lemnitzer to McNamara, "Justification for US Military Intervention in Cuba," Mar. 13, 1962](https://nsarchive2.gwu.edu/news/20010430/northwoods.pdf) (National Security Archive). Released 1997 by the Assassination Records Review Board (K–J Adm. II.H.3). [[w.poole-joint-chiefs-of-staff]], 160; [[w.jones-bay-of-pigs]], 159 (Northwoods sent to McNamara). See [[cal.1961-11-30.cuba]]. Names: McNamara, Lemnitzer.'
     src:
       c: 40d8269d
       rows:
         - 'https://nsarchive2.gwu.edu/news/20010430/northwoods.pdf: all'
         - 'w.poole-joint-chiefs-of-staff 160: A-B'
+        - 'w.jones-bay-of-pigs 159: A'
+        - 'via w.jones-bay-of-pigs 159 n.15j: A-B'
     tags: [name:mcnamara-robert-s, name:lemnitzer-lyman-l]
     time_range:
       - 1962-03-13T14:00Z
@@ -1076,11 +1080,13 @@ entries:
     date: '1962-03-16'
     thread: cuba
     c: 'Kennedy to the Special Group: no circumstances in the near future "that would justify and make desirable the use of American forces for overt military action"; to Lemnitzer, the four divisions for Cuba perhaps not to be spared from Berlin. Robert Kennedy to Lansdale''s staff days later: "The President is prepared to do whatever has to be done."'
-    n: '[[w.poole-joint-chiefs-of-staff]], 160. Names: Kennedy, Lemnitzer, Robert Kennedy, Lansdale.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 160; [[w.jones-bay-of-pigs]], 159 (the White House meeting, Mar. 16). Check: Jones (159) has the President give Mongoose''s aim "tacit authorization" at the meeting, no limit put on the means. To check: Taylor memo, Mar. 16, 1962, Exhibit No. 3, Taylor testimony, July 9, 1975, Church Committee (cited by [[w.jones-bay-of-pigs]], 159 n.16). Names: Kennedy, Lemnitzer, Robert Kennedy, Lansdale.'
     src:
       c: 5f0ca512
       rows:
         - 'w.poole-joint-chiefs-of-staff 160: all'
+        - 'w.jones-bay-of-pigs 159: A'
+        - 'via w.jones-bay-of-pigs 159 n.16a: A'
     tags: [name:kennedy-john-f, name:lemnitzer-lyman-l, name:kennedy-robert-f, name:lansdale-edward-g]
     time_range:
       - 1962-03-16T14:00Z
@@ -2492,3 +2498,23 @@ entries:
         of:
           - cal.1962-03.robert-kennedy
         from: 2026-11-06-b6-thomas-robert-kennedy
+  - id: cal.1962-03.cuba-5
+    when: Mar.
+    date: 1962-03
+    thread: cuba
+    c: 'Miami. Shackley, the CIA''s station chief, by his later account: directives from Harvey to do whatever is necessary to bring about a change of regime in Cuba.'
+    n: '[[w.jones-bay-of-pigs]], 157. Check: the month; Jones has "the spring of 1962." To check: Halley (alias for Shackley) testimony, Aug. 19, 1975, Church Committee, 25–26; [[w.shackley-spymaster]], x, 50–51, 53, 55–56, 68–72 (cited by [[w.jones-bay-of-pigs]], 157 n.10). Names: Harvey.'
+    src:
+      c: 96c97ed1
+      rows:
+        - 'w.jones-bay-of-pigs 157: all'
+        - 'via w.jones-bay-of-pigs 157 n.10c: all'
+    tags: [name:harvey-william-k]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-03.cuba
+          - cal.1962-03.cuba-2
+          - cal.1962-03.cuba-3
+          - cal.1962-03.cuba-4
+        from: 2026-11-10-b7-jones

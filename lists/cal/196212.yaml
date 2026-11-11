@@ -1690,7 +1690,7 @@ entries:
     thread: cuba
     also: [robert-kennedy]
     c: 'Bay of Pigs prisoners flown to Homestead, Fla. Ransom: about $53 million in drugs and food. Donovan''s deal.'
-    n: '[FRUS 1961–63, XI, doc. 255](https://history.state.gov/historicaldocuments/frus1961-63v11/d255). [[w.schlesinger-robert-kennedy-and-his]], 534–37 (the release; Donovan''s deal); [[w.navasky-kennedy-justice]], 328–29, 346 (the release; the ransom, $53 million in drugs, food and milk; 1,113 prisoners; the Justice Department''s part, Oberdorfer and Katzenbach); [[w.sorensen-kennedy]], 308 n.4 (the release; the $53 million; Donovan); [[w.guthman-we-band-of-brothers]], 135–36 (the *African Pilot* unloading, late afternoon; the first plane, 108 prisoners). Donovan (see [[cal.1962-02-10.berlin-and-vienna]]). [[w.fursenko-one-hell-of-a]], 320. See [[cal.1962-04-08.cuba]]. Names: Donovan, Robert F. Kennedy.'
+    n: '[FRUS 1961–63, XI, doc. 255](https://history.state.gov/historicaldocuments/frus1961-63v11/d255). [[w.schlesinger-robert-kennedy-and-his]], 534–37 (the release; Donovan''s deal); [[w.navasky-kennedy-justice]], 328–29, 346 (the release; the ransom, $53 million in drugs, food and milk; 1,113 prisoners; the Justice Department''s part, Oberdorfer and Katzenbach); [[w.sorensen-kennedy]], 308 n.4 (the release; the $53 million; Donovan); [[w.guthman-we-band-of-brothers]], 135–36 (the *African Pilot* unloading, late afternoon; the first plane, 108 prisoners); [[w.jones-bay-of-pigs]], 162 (the agreement of late December 1962: the captives for a ransom in food and drugs). Donovan (see [[cal.1962-02-10.berlin-and-vienna]]). [[w.fursenko-one-hell-of-a]], 320. See [[cal.1962-04-08.cuba]]. Names: Donovan, Robert F. Kennedy.'
     src:
       c: 2b19d24e
       rows:
@@ -1701,6 +1701,8 @@ entries:
         - 'w.navasky-kennedy-justice 328–29, 346: all'
         - 'w.sorensen-kennedy 308 n.4: B-C'
         - 'w.guthman-we-band-of-brothers 135–36: ?'
+        - 'w.jones-bay-of-pigs 162: B-C'
+        - 'via w.jones-bay-of-pigs 162 n.22a: B-C'
     tags: [name:donovan-james-b, name:kennedy-robert-f]
   - id: cal.1962-12-23.goldwater
     when: Dec. 23
@@ -2411,3 +2413,23 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 392–93: all'
     tags: [name:rockefeller-nelson, name:brownell-herbert-jr, state:ny]
+  - id: cal.1962-12.cuba-5
+    when: Dec.
+    date: 1962-12
+    thread: cuba
+    c: 'During the talks on the prisoners'' release, the CIA sends Castro a diving suit infected with a deadly poison by way of the American lawyer entrusted with it; not told, he switches it for one he has bought. Later, the lawyer: a "nice big germ bag."'
+    n: '[[w.jones-bay-of-pigs]], 163. Check: the day, and the lawyer''s name; Jones does not name him. To check: the CIA Inspector General''s report, 1967, 75–77; [[w.prados-safe-for-democracy]], 312–13 (cited by [[w.jones-bay-of-pigs]], 163 n.25). See [[cal.1962-04-08.cuba]]. Names: Castro.'
+    src:
+      c: b77e4ccb
+      rows:
+        - 'w.jones-bay-of-pigs 163: all'
+        - 'via w.jones-bay-of-pigs 163 n.25a: all'
+    tags: [name:castro-fidel]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-12.cuba-3
+          - cal.1962-12.cuba
+          - cal.1962-12.cuba-2
+          - cal.1962-12.cuba-4
+        from: 2026-11-10-b7-jones
