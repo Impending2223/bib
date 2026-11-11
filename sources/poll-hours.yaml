@@ -642,12 +642,14 @@
     clock: '"some standard of time" the judges agree upon before the polls open (subd. 2)'
     law: 'Minn. Stat. § 204.03 (1961)'
     history: '1959 c 675 art 5 s 3; amended Laws 1965, c. 325 (approved May 4, 1965), the local option narrowed'
-    span: '1960..1966'
-    span_basis: 'the election code of 1959, read in the Statutes of 1961 and Laws 1965, c. 325; printed as in force (PPH)'
+    span: '1960..1968'
+    span_basis: 'the election code of 1959, read in the Statutes of 1961, Laws 1965, c. 325 and the Statutes of 1969 (the same hours; a small municipality''s primary opening as late as 5 p.m. added); printed as in force (PPH)'
     sources:
     - {ref: 'Minnesota Statutes 1961, § 204.03', page: '1988', url: 'https://www.revisor.mn.gov/statutes/1961/cite/204/pdf', ground: seen}
     - {ref: 'Session Laws of Minnesota 1965, c. 325', page: '461', url: 'https://www.revisor.mn.gov/laws/1965/0/Session+Law/Chapter/325/pdf/', ground: seen}
     - {ref: PPH, page: '14 (Table A), 52-53', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56', ground: seen}
+    - {ref: 'Minnesota Statutes 1969, § 204.03', page: '2357', url: 'https://www.revisor.mn.gov/statutes/1969/cite/204/pdf', ground: seen}
+    check: 'the act of 1967 or 1969 that let a small municipality open its primary as late as 5 p.m. not read: whether it governed the primary of Sept. 10, 1968'
   compiled_only: false
 - st: MO
   name: Missouri
@@ -749,20 +751,30 @@
   name: North Dakota
   rows:
   - elections: [primary, general, special]
+    applies: 'statewide; opened at 09:00 or earlier, not before 07:00, as the governing body of the city, village or township designates for a precinct; closed at 19:00'
+    open: '07:00-09:00'
+    close: '19:00'
+    law: 'N.D. Rev. Code § 16-0102 (1943), as amended by S.L. 1955, ch. 157, and S.L. 1957, ch. 152, § 1 (N.D. Cent. Code § 16-01-02 from 1960)'
+    history: 'S.L. 1957, ch. 152 (H.B. 589, "Polling Hours"), approved Mar. 12, 1957 (check: the approval read is the first in the chapter''s pages)'
+    span: '1960..1961'
+    span_basis: 'the act of 1957, read; the 1959 session''s election acts searched, no change; the act of 1961 (below) added the later closing'
+    sources:
+    - {ref: 'Laws of North Dakota 1957, ch. 152', page: '304', url: 'https://ndlegis.gov/assembly/sessionlaws/1957/pdf/ELECT.pdf#page=1', ground: seen}
+    check: 'the 1961 act''s effective date (July 1, 1961, by the State''s rule for acts without an emergency clause?): the primary of June 28, 1960 and the election of Nov. 8, 1960 under the 1957 act'
+  - elections: [primary, general, special]
     applies: 'statewide; opened at 09:00 or earlier, not before 07:00, and closed at 19:00 or later, not after 20:00, as the governing body of the city, village or township designates for a precinct'
     open: '07:00-09:00'
     close: '19:00-20:00'
     law: 'N.D. Cent. Code § 16-01-02 (1965 Supp.)'
     history: 'S.L. 1961, ch. 172, § 1 (S.B. 284), approved Mar. 11, 1961'
-    span: '1962..1966'
-    span_basis: 'the act of 1961, read; printed as in force (PPH 62)'
+    span: '1962..1968'
+    span_basis: 'the act of 1961, read; printed as in force (PPH 62); reenacted with the same hours by the election law revision of 1967 (S.L. 1967, ch. 158, § 7, "village" dropped)'
     sources:
     - {ref: 'Laws of North Dakota 1961, ch. 172', page: '259', url: 'https://ndlegis.gov/assembly/sessionlaws/1961/pdf/ELECT.pdf#page=1', ground: seen}
     - {ref: PPH, page: '15 (Table A), 62', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=66', ground: seen}
+    - {ref: 'Laws of North Dakota 1967, ch. 158, § 7 (H.B. 533, election law revision)', page: '268', url: 'https://ndlegis.gov/assembly/sessionlaws/1967/pdf/ELECT.pdf#page=4', ground: seen}
   compiled_only: false
   notes: 'Southwestern North Dakota kept mountain time, most of it in the central zone by law (sources/daylight-time.yaml).'
-  leads:
-  - 'the hours of 1960, before the 1961 act (N.D. Cent. Code 1960, § 16-01-02): the act does not mark the words it changed'
 - st: NE
   name: Nebraska
   rows:
