@@ -7,8 +7,8 @@ ops:
       when: June 26
       date: '1966-06-26'
       thread: vietnam-air-war
-      c: 'Ball on "Meet the Press": "There is no decision on the part of the United States Government to bomb Haiphong or to bomb the fuel installations in Haiphong-Hanoi." The first strikes on the oil storage follow June 29.'
-      n: '[[w.zaroulis-who-spoke-up]], 88 (three days before the first attack; the quotation). Check: the day; Zaroulis and Sullivan give none. To check: *Meet the Press*, the broadcast and its transcript. See [[cal.1966-06-29.vietnam]]. Names: Ball.'
+      c: 'Ball on "Meet the Press": "There is no decision on the part of the United States Government to bomb Haiphong or to bomb the fuel installations in Haiphong-Hanoi."'
+      n: '[[w.zaroulis-who-spoke-up]], 88 (the quotation; "three days before the first attack"). To check: *Meet the Press*, the broadcast and its transcript. Names: Ball. Check: the day; Zaroulis and Sullivan give only "three days before the first attack" (the strikes of June 29, 86).'
       tags:
       - name:ball-george-w
 - cite:
@@ -96,6 +96,7 @@ ops:
 - cite:
     id: cal.1965-05-05.vietnam-2
     item: '[[w.zaroulis-who-spoke-up]], 42 (the House 408–7, within forty-eight hours; the day not given)'
+    units: A
 - cite:
     id: cal.1965-05-06.vietnam
     item: '[[w.zaroulis-who-spoke-up]], 42–43 (the Senate 88–3, Morse, Gruening and Nelson against; Javits: not an endorsement of ground combat)'
@@ -117,29 +118,27 @@ ops:
 - cite:
     id: cal.1965-06-27.vietnam-operations
     item: '[[w.zaroulis-who-spoke-up]], 46–47 (June 27: the 173rd Airborne Brigade''s foray into War Zone D, northwest of Saigon near Bien Hoa; results "inconclusive")'
+    units: A
 - cite:
     id: cal.1965-07-28.vietnam
     item: '[[w.zaroulis-who-spoke-up]], 47 (July 28: U.S. troop strength in Vietnam raised to 125,000)'
+    units: B
 - cite:
     id: cal.1965-11-14.vietnam
     item: '[[w.zaroulis-who-spoke-up]], 62 (mid-November, the battle in the Ia Drang Valley between North Vietnamese and American troops)'
     units: A
-- variant:
-    id: cal.1965-11-14.vietnam
-    unit: B
-    witness: w.zaroulis-who-spoke-up
-    reads: In one week, 240 U.S. soldiers were killed—triple the highest weekly number to that time
-    at: '62'
 - cite:
     id: cal.1965-11-30.vietnam
     item: '[[w.zaroulis-who-spoke-up]], 67 (McNamara''s memorandum of Nov. 30: a three- or four-week pause in the bombing before greatly increasing troop deployments or intensifying the strikes; quoted)'
     units: D
 - cite:
-    id: cal.1965-12-18.vietnam-congress
-    item: '[[w.zaroulis-who-spoke-up]], 66 (Mansfield and four fellow senators conclude a thirty-five-day tour of sixteen capitals, in Saigon in December: pursue negotiations)'
+    id: cal.1965-12.vietnam-congress-mansfield
+    item: '[[w.zaroulis-who-spoke-up]], 66 (Mansfield and four senators in Saigon in December, ending a thirty-five-day tour of sixteen capitals; not the meeting)'
+    units: A
 - cite:
     id: cal.1965-12-24.vietnam
     item: '[[w.zaroulis-who-spoke-up]], 66 (a thirty-hour truce including a pause in the bombing of the North; the page has the Administration announce it on Christmas Day)'
+    units: C
 - variant:
     id: cal.1965-12-24.vietnam
     unit: A
@@ -149,6 +148,7 @@ ops:
 - cite:
     id: cal.1965-12-27.vietnam
     item: '[[w.zaroulis-who-spoke-up]], 66 (Johnson, at the Ranch, telephones his decision on the "peace offensive" to Washington late at night on Dec. 27; the Bundy brothers caught at a debutante ball)'
+    units: A
 - cite:
     id: cal.1966-01-03.alabama
     item: '[[w.zaroulis-who-spoke-up]], 69 (Jan. 3: Younge shot and killed in Tuskegee for trying to use a whites-only rest room at a gas station)'
@@ -206,9 +206,11 @@ ops:
 - cite:
     id: cal.1966-06-29.vietnam
     item: '[[w.zaroulis-who-spoke-up]], 86 (the first bombing run takes off the night of June 29; the page has Washington announce the first strikes June 30; Wilson dissociates Britain)'
+    units: 'A, E'
 - cite:
     id: cal.1966-06-29.vietnam-air-war
     item: '[[w.zaroulis-who-spoke-up]], 86 (the night of June 29, Johnson to Luci)'
+    units: A
 - check:
     id: cal.1966-06-29.vietnam-air-war
     text: 'Check: Zaroulis and Sullivan, 86, have Johnson tell Luci, the night the first run took off, "Your daddy may go down in history as having started World War III."'
@@ -234,21 +236,11 @@ ops:
 - cite:
     id: cal.1967-02-13.vietnam-sunflower
     item: '[[w.zaroulis-who-spoke-up]], 104 (Wilson on British television: peace "almost within our grasp"; Feb. 14, bombing resumed after a week''s suspension for Tet)'
-- variant:
-    id: cal.1967-02-13.vietnam-sunflower
-    unit: A
-    witness: w.zaroulis-who-spoke-up
-    reads: On February 14 the United States resumed bombing North Vietnam after a week's suspension for Tet
-    at: '104'
+    units: A
 - cite:
     id: cal.1967-02-13.vietnam-air-war
     item: '[[w.zaroulis-who-spoke-up]], 104 (the resumption after the Tet suspension, Feb. 14 there)'
-- variant:
-    id: cal.1967-02-13.vietnam-air-war
-    unit: A
-    witness: w.zaroulis-who-spoke-up
-    reads: On February 14 the United States resumed bombing North Vietnam after a week's suspension for Tet
-    at: '104'
+    units: A
 - cite:
     id: cal.1967-03-06.draft
     item: '[[w.zaroulis-who-spoke-up]], 105–06 (early March: the National Advisory Commission on Selective Service, Burke Marshall chairman, proposes in *In Pursuit of Equity* to eliminate most deferments and draft the youngest men first, by lot)'
@@ -292,19 +284,22 @@ ops:
 - cite:
     id: cal.1967-08-17.vietnam-commitments
     item: '[[w.zaroulis-who-spoke-up]], 126 (mid-August: Katzenbach on the Tonkin Gulf Resolution before Foreign Relations; McCarthy, leaving the hearing)'
-    units: C
+    units: 'B, D'
 - cite:
     id: cal.1967-11-30.elections-1968
     item: '[[w.zaroulis-who-spoke-up]], 126–27 (McCarthy''s announcement speech of Nov. 30 links the war to the other issues; told Lowenstein in late October that he would enter)'
 - cite:
     id: cal.1967-08-25.vietnam-air-war
     item: '[[w.zaroulis-who-spoke-up]], 144 (August, the Senate Preparedness Investigations Subcommittee, closed; "no reason to believe that North Vietnam can be bombed to the negotiating table"; the day not given)'
+    units: A
 - cite:
     id: cal.1967-09-29.vietnam
     item: '[[w.zaroulis-who-spoke-up]], 144 (Sept. 29, San Antonio: a halt in the bombing if it leads to "prompt, productive" talks; Hanoi "would not take advantage of the cessation"; Fulbright: "nothing new")'
+    units: A
 - cite:
     id: cal.1967-11-01.vietnam
     item: '[[w.zaroulis-who-spoke-up]], 144–45 (Nov. 1: McNamara''s memorandum to the President: halt the bombing, announce no additional troops, review operations to reduce casualties)'
+    units: 'B, C, D'
 - cite:
     id: cal.1967-11-29.defense
     item: '[[w.zaroulis-who-spoke-up]], 144–45 (McNamara to leave at the end of February for the World Bank; Clifford his successor)'
@@ -317,9 +312,17 @@ ops:
 - cite:
     id: cal.1968-01-23.japan-and-korea
     item: '[[w.zaroulis-who-spoke-up]], 150 (Jan. 23: the *Pueblo* captured off North Korea; Bucher and eighty-two men prisoners; North Korea says the twelve-mile limit was violated)'
+    units: A
+- variant:
+    id: cal.1968-01-23.japan-and-korea
+    unit: B
+    witness: w.zaroulis-who-spoke-up
+    reads: its commander, Lloyd M. Bucher, and his eighty-two men were taken prisoner
+    at: '150'
 - cite:
     id: cal.1968-01-25.japan-and-korea
     item: '[[w.zaroulis-who-spoke-up]], 150 (Jan. 25: Johnson calls up 14,787 air force and navy reservists; Congress not notified in advance)'
+    units: A
 - variant:
     id: cal.1968-01-25.japan-and-korea
     unit: A
@@ -327,15 +330,12 @@ ops:
     reads: President Johnson called up 14,787 air force and navy reservists
     at: '150'
 - cite:
-    id: cal.1968-01-30.vietnam
-    item: '[[w.zaroulis-who-spoke-up]], 150–51 (the night of Jan. 30–31; the thirty-six cities attacked)'
-    units: A
-- cite:
-    id: cal.1968-01-31.vietnam-tet-5
-    item: '[[w.zaroulis-who-spoke-up]], 150 (the embassy in Saigon, Jan. 30–31)'
+    id: cal.1968-01-31.vietnam-tet
+    item: '[[w.zaroulis-who-spoke-up]], 150–51 (the night of Jan. 30–31: the embassy overrun, retaken the next day; thirty-six cities attacked)'
+    units: 'A, C'
 - variant:
-    id: cal.1968-01-31.vietnam-tet-5
-    unit: B
+    id: cal.1968-01-31.vietnam-tet
+    unit: A
     witness: w.zaroulis-who-spoke-up
     reads: the United States Embassy in Saigon was overrun by Viet Cong guerrillas; it was not reclaimed until the next day
     at: '150'
@@ -360,7 +360,7 @@ ops:
 - cite:
     id: cal.1968-02-14.opinion
     item: '[[w.zaroulis-who-spoke-up]], 155 (Gallup, Feb. 13: 61 percent hawks, wanting to "step up" the effort; 70 percent for continuing the bombing; the war to end in compromise 61, victory 20, defeat 5)'
-    units: D
+    units: 'B, C, D'
 - cite:
     id: cal.1968-03-10.opinion
     item: '[[w.zaroulis-who-spoke-up]], 156 (Gallup, early March: 49 percent say it was an error to become involved in Vietnam, against 24 percent in August 1965)'
@@ -381,7 +381,7 @@ ops:
     item: '[[w.zaroulis-who-spoke-up]], 158 (the announcement of Mar. 16 for the "disastrous, divisive policies"; the St. Patrick''s Day parade the following day, catcalls of "coward" and "opportunist")'
 - variant:
     id: cal.1968-03-16.robert-kennedy
-    unit: A
+    unit: B
     witness: w.zaroulis-who-spoke-up
     reads: The following day, as he marched in New York's St. Patrick's Day parade, he was greeted not only by cheers but by catcalls of "coward" and "opportunist."
     at: '158'
@@ -427,7 +427,7 @@ ops:
 - cite:
     id: cal.1968-04-30.students-columbia
     item: '[[w.zaroulis-who-spoke-up]], 166–67 (2:30 a.m., Apr. 30: one thousand police; 711 arrested, 148 injured, 120 charges of brutality)'
-    units: A
+    units: C
 - cite:
     id: cal.1968-04-23.elections-1968
     item: '[[w.zaroulis-who-spoke-up]], 170 (Pennsylvania, nonbinding: McCarthy 428,000, 73,000 write-ins for Johnson or Humphrey, 65,000 for Kennedy)'
@@ -454,9 +454,11 @@ ops:
 - cite:
     id: cal.1968-09-09.elections-1968
     item: '[[w.zaroulis-who-spoke-up]], 202 (early September: Humphrey suggests some troops might come home in late 1968 or early 1969; Johnson corrects him)'
+    units: A
 - cite:
     id: cal.1968-09-30.elections-1968
     item: '[[w.zaroulis-who-spoke-up]], 202 (Sept. 30, Salt Lake City, taped: a halt to the bombing if Hanoi gave "some sign" of "serious" negotiations; an "acceptable risk for peace"; Humphrey introduced as the candidate, not the Vice President)'
+    units: A
 - cite:
     id: cal.1968-10-12.vietnam
     item: '[[w.zaroulis-who-spoke-up]], 205 (mid-October: McGeorge Bundy says the United States should withdraw; "escalation will not work")'
