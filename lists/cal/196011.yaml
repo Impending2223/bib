@@ -467,6 +467,22 @@ entries:
       rows:
         - 'w.cohen-american-pharaoh 235–36: all'
     tags: [state:il, city:chicago, name:daley-richard-j]
+  - id: cal.1960-11-05.elections-1960-kennedy
+    when: Nov. 5
+    date: '1960-11-05'
+    thread: elections-1960-kennedy
+    c: New York, Saturday. Kennedy's motorcade lost, driving round the Bronx all afternoon looking for crowds. Kennedy, sure of New York and wanting to be in California, blames DeSapio, Prendergast, O'Donnell and the driver.
+    n: '[[w.kallina-kennedy-v-nixon]], 159. To check: [[w.schlesinger-thousand-days-1965]], 74 (cited by [[w.kallina-kennedy-v-nixon]], 159 n.4). Names: Kennedy, DeSapio, O''Donnell.'
+    src:
+      c: 12888d24
+      rows:
+        - 'w.kallina-kennedy-v-nixon 159: all'
+    tags: [name:kennedy-john-f, name:desapio-carmine, name:odonnell-kenneth-p]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-11-05.elections-1960-2
+        from: 2026-11-06-b6-kallina-kennedy-v-nixon
   - id: cal.1960-11-06.elections-1960
     when: Nov. 6
     date: '1960-11-06'
@@ -1011,11 +1027,12 @@ entries:
     follows:
       - cal.1960-11-08.elections-1960-6
     c: 'Election day. Nixon slips the press with Don Hughes, Jack Sherwood and John DiBetta of the Los Angeles police, and drives down the Coast Highway: Oceanside; Tijuana, lunch at one at the Old Heidelberg, the mayor, Tía Xicoténcatl, joining them; San Juan Capistrano, Cal., the Mission. Back at the Ambassador just before five.'
-    n: '[[w.nixon-six-crises]], 377–79. After the Nixons voted, by Nixon''s account ([[w.nixon-six-crises]], 376–79). Names: Nixon.'
+    n: '[[w.nixon-six-crises]], 377–79; [[w.kallina-kennedy-v-nixon]], 177–78. After the Nixons voted, by Nixon''s account ([[w.nixon-six-crises]], 376–79). Names: Nixon.'
     src:
       c: 359b3c03
       rows:
         - 'w.nixon-six-crises 377–79: all'
+        - 'w.kallina-kennedy-v-nixon 177–78: all'
     tags: [name:nixon-richard-m, state:ca]
     time_range:
       - 1960-11-08T14:00Z
@@ -1102,6 +1119,79 @@ entries:
         - 'https://clerk.house.gov/member_info/electionInfo/1960election.pdf: all'
         - 'w.humphrey-education-of-a-public-1976 233–34: B-C'
     tags: [state:mn, name:humphrey-hubert-h, name:peterson-p-kenneth, name:kennedy-john-f, name:nixon-richard-m]
+  - id: cal.1960-11-08.elections-1960-count
+    when: Nov. 8
+    date: '1960-11-08'
+    time: 1960-11-09T03:30Z
+    thread: elections-1960-count
+    c: 'Hyannis Port, 10:30 p.m. Jacqueline Kennedy to her husband: he is President now. Kennedy: too early yet.'
+    n: '[[w.kallina-kennedy-v-nixon]], 179. To check: [[w.white-making-of-the-president]], 18–25; [[w.sorensen-kennedy]], 212 (cited by [[w.kallina-kennedy-v-nixon]], 179 n.7). See [[cal.1960-11-08.elections-1960-9]]. Names: Jacqueline Kennedy, Kennedy.'
+    src:
+      c: 343c135d
+      rows:
+        - 'w.kallina-kennedy-v-nixon 179: all'
+    tags: [name:kennedy-jacqueline, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-11-08.elections-1960-3
+          - cal.1960-11-08.elections-1960-4
+          - cal.1960-11-08.elections-1960-6
+          - cal.1960-11-08.elections-1960-7
+          - cal.1960-11-08.elections-1960-8
+          - cal.1960-11-08.elections-1960-9
+        from: 2026-11-06-b6-kallina-kennedy-v-nixon
+  - id: cal.1960-11-08.elections-1960-count-2
+    when: Nov. 8
+    date: '1960-11-08'
+    thread: elections-1960-count
+    also: [elections-1960-nixon]
+    c: Los Angeles, by 11:30 p.m. Nixon knows New York and Texas lost; Pennsylvania too, for Scott had told him he could win it if Kennedy's plurality in Philadelphia were 200,000 or less, and it is over 300,000.
+    n: '[[w.kallina-kennedy-v-nixon]], 179–80. To check: [[w.nixon-six-crises]], 411–12 (cited by [[w.kallina-kennedy-v-nixon]], 180 n.8). Names: Nixon, Scott, Kennedy.'
+    src:
+      c: d2579841
+      rows:
+        - 'w.kallina-kennedy-v-nixon 179–80: all'
+    tags: [name:nixon-richard-m, name:scott-hugh-d-jr, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-11-08.elections-1960-3
+          - cal.1960-11-08.elections-1960-4
+          - cal.1960-11-08.elections-1960-6
+          - cal.1960-11-08.elections-1960-7
+          - cal.1960-11-08.elections-1960-8
+          - cal.1960-11-08.elections-1960-9
+          - cal.1960-11-08.elections-1960-count
+        from: 2026-11-06-b6-kallina-kennedy-v-nixon
+  - id: cal.1960-11-08.elections-1960-count-3
+    when: Nov. 8
+    date: '1960-11-08'
+    thread: elections-1960-count
+    also: [elections-1960-nixon]
+    follows:
+      - cal.1960-11-08.elections-1960-count-2
+    c: 'Los Angeles, the night. John Dreiske of the *Chicago Sun-Times* telephones Nixon: he will not carry Illinois. Nixon confers with Hall, Folger, Finch, Seaton and Klein on a statement conceding; Klein for it, Seaton against; Morton and Dirksen still arguing against.'
+    n: '[[w.kallina-kennedy-v-nixon]], 180. To check: [[w.nixon-six-crises]], 415–17 (cited by [[w.kallina-kennedy-v-nixon]], 180 n.9). See [[cal.1960-11-09.elections-1960]]. Names: Nixon, Finch, Morton, Dirksen.'
+    src:
+      c: edcb1793
+      rows:
+        - 'w.kallina-kennedy-v-nixon 180: all'
+        - 'via w.kallina-kennedy-v-nixon 180 n.9a: C-E'
+        - 'via w.kallina-kennedy-v-nixon 180 n.9b: C-E'
+    tags: [name:nixon-richard-m, name:finch-robert-h, name:morton-thruston-b, name:dirksen-everett]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-11-08.elections-1960-3
+          - cal.1960-11-08.elections-1960-4
+          - cal.1960-11-08.elections-1960-6
+          - cal.1960-11-08.elections-1960-7
+          - cal.1960-11-08.elections-1960-8
+          - cal.1960-11-08.elections-1960-9
+          - cal.1960-11-08.elections-1960-count
+          - cal.1960-11-08.elections-1960-count-2
+        from: 2026-11-06-b6-kallina-kennedy-v-nixon
   - id: cal.1960-11-09.transition-and-staff
     when: Nov. 9–10
     date: '1960-11-09'
@@ -1971,6 +2061,19 @@ entries:
       - 1960-11-16T10:00Z
       - 1960-11-16T14:00Z
     time_zone: Etc/GMT+6
+  - id: cal.1960-11-16.republican-party
+    when: Nov. 16
+    date: '1960-11-16'
+    thread: republican-party
+    also: [elections-1960-count]
+    c: 'Harlow to Victor Emanuel, by letter, after the defeat: not discouraged, but "eviscerated, lacerated and obliterated."'
+    n: '[[w.kallina-kennedy-v-nixon]], 182. Names: Harlow.'
+    src:
+      c: c5d01d5c
+      rows:
+        - 'w.kallina-kennedy-v-nixon 182: all'
+        - 'via x.1960-11-16.harlow-to-emanuel: all'
+    tags: [name:harlow-bryce-n]
   - id: cal.1960-11-17.latin-america
     when: Nov. 17
     date: '1960-11-17'
@@ -2952,3 +3055,19 @@ entries:
       rows:
         - 'w.gifford-center-cannot-hold 166: all'
         - 'via w.gifford-center-cannot-hold 166 n.91: all'
+  - id: cal.1960-11.elections-1960-kennedy-2
+    when: Nov., early
+    date: 1960-11
+    thread: elections-1960-kennedy
+    c: 'Kennedy''s aides'' pool on the election: 53 to 57 percent of the popular vote; Sorensen 408 electoral votes, lower than some.'
+    n: '[[w.kallina-kennedy-v-nixon]], 160. Check: the day. Names: Sorensen.'
+    src:
+      c: 8be4fa54
+      rows:
+        - 'w.kallina-kennedy-v-nixon 160: all'
+    tags: [name:sorensen-theodore-c]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-11.elections-1960-6
+        from: 2026-11-06-b6-kallina-kennedy-v-nixon

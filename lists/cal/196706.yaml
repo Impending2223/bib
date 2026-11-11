@@ -307,6 +307,21 @@ entries:
         - 'w.macv-command-history-1967 395, 483: all'
         - 'w.cosmas-joint-chiefs-of-staff 89: A'
     tags: [province:dinh-tuong, place:mekong-delta]
+  - id: cal.1967-06-04.middle-east-six-day-war
+    when: June 4
+    date: '1967-06-04'
+    thread: middle-east-six-day-war
+    c: 'The declaration on innocent passage through the Gulf of Aqaba, sought with the British: eight countries agreed by June 4, the United States, Britain, Israel, the Netherlands, Australia, Iceland, Belgium and New Zealand; West Germany, Argentina, Portugal, Canada and Panama still studying it, by Johnson''s account.'
+    n: '[[w.johnson-vantage-point]], 296.'
+    src:
+      rows:
+        - 'w.johnson-vantage-point 296: all'
+      c: 4e6a06f2
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-06-04.middle-east
+        from: 2026-11-06-b6-johnson-vantage
   - id: cal.1967-06-05.middle-east
     when: June 5
     date: '1967-06-05'
@@ -2591,6 +2606,18 @@ entries:
       - 1967-06-30T04:00Z
     time_zone: America/New_York
     range_basis: record
+  - id: cal.1967-06-29.poverty
+    when: June 29
+    date: '1967-06-29'
+    thread: poverty
+    c: 'Philadelphia, 10:12 a.m. Johnson at Leon Sullivan''s Opportunities Industrialization Center, Sullivan his guide: "I believe we are going to make it." He signs there the bill enlarging the Teacher Corps.'
+    n: 'Remarks in Philadelphia at the Opportunities Industrialization Center, [1967 Pub. Papers 664](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=732) (June 29, 1967). [[w.johnson-vantage-point]], 85 (the visit; 1,500 enrolled, 10,000 waiting). Names: Johnson.'
+    src:
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=732: all'
+        - 'w.johnson-vantage-point 85: A'
+      c: 5e24c7b2
+    tags: [name:johnson-lyndon-b, state:pa, city:philadelphia]
   - id: cal.1967-06-30.draft
     when: June 30
     date: '1967-06-30'

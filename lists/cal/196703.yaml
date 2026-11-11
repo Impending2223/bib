@@ -3547,11 +3547,12 @@ entries:
     thread: robert-kennedy
     also: [press-and-broadcasting]
     c: 'The Gridiron Club. Robert Kennedy: "[President Johnson and I] had a long serious talk about the possibilities of a ceasefire, the dangers of escalation and the prospects for negotiations. And he promised me the next time we are going to talk about Vietnam." "We started out during the Kennedy Administration on the best of terms ... but then, as we were leaving the inaugural stands ..."'
-    n: '[[w.shesol-mutual-contempt]], 396–97. Check: the day. To check: [[w.guthman-we-band-of-brothers]], 315 (cited by [[w.shesol-mutual-contempt]], 396). Names: Robert Kennedy, Johnson.'
+    n: '[[w.shesol-mutual-contempt]], 396–97; [[w.hess-republican-establishment]], 279 (late March; Reagan the Republicans'' speaker against Kennedy: "I blew it"). Check: the day. Check: Hess and Broder, 279, put the dinner in late March, Reagan speaking for the Republicans against Kennedy. To check: [[w.guthman-we-band-of-brothers]], 315 (cited by [[w.shesol-mutual-contempt]], 396). Names: Robert Kennedy, Johnson.'
     src:
       c: d15049d1
       rows:
         - 'w.shesol-mutual-contempt 396–97: all'
+        - 'w.hess-republican-establishment 279: A'
     tags: [name:kennedy-robert-f, name:johnson-lyndon-b]
   - id: cal.1967-03.conservation
     when: Mar.
@@ -3687,3 +3688,33 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 433: all'
     tags: [name:mills-wilbur-d, name:long-russell-b, name:cohen-wilbur-j, name:meany-george]
+  - id: cal.1967-03.press-and-broadcasting
+    when: Mar.
+    date: 1967-03
+    thread: press-and-broadcasting
+    c: 'The Gridiron Club''s show: an actor as Dirksen sings of Percy as a freshman acting the leader.'
+    n: '[[w.hess-republican-establishment]], 228. Check: the day; Hess and Broder give "the 1967 Gridiron Club show." See [[cal.1967-03.robert-kennedy]]. Names: Dirksen, Percy.'
+    src:
+      c: 649642fe
+      rows:
+        - 'w.hess-republican-establishment 228: all'
+    tags: [name:dirksen-everett, name:percy-charles-h]
+  - id: cal.1967-03.republican-party-5
+    when: Mar.
+    date: 1967-03
+    thread: republican-party
+    c: Hastings, Neb. Percy, to a Republican audience, tells as his own the jokes on himself Robert Kennedy told at the Gridiron dinner the week before.
+    n: '[[w.hess-republican-establishment]], 231. Check: the day; Hess and Broder give "early 1967," the week after the Gridiron dinner (late March, 279). See [[cal.1967-03.robert-kennedy]]. Names: Percy, Robert Kennedy.'
+    src:
+      c: bba2091d
+      rows:
+        - 'w.hess-republican-establishment 231: all'
+    tags: [name:percy-charles-h, name:kennedy-robert-f, state:ne]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-03.republican-party
+          - cal.1967-03.republican-party-2
+          - cal.1967-03.republican-party-3
+          - cal.1967-03.republican-party-4
+        from: b6-hess-republican-establishment

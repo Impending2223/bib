@@ -1799,3 +1799,22 @@ entries:
         of:
           - cal.1960-08.cuba
         from: 2026-11-06-b6-fursenko
+  - id: cal.1960-08.elections-1960-nixon-2
+    when: Aug., mid-month
+    date: 1960-08
+    thread: elections-1960-nixon
+    c: 'Eisenhower, ending a meeting with the Republican legislative leaders: he is "getting darned political" around here.'
+    n: '[[w.kallina-kennedy-v-nixon]], 161–62. Check: the day. Names: Eisenhower.'
+    src:
+      c: 98bbe0e1
+      rows:
+        - 'w.kallina-kennedy-v-nixon 161–62: all'
+    tags: [name:eisenhower-dwight-d]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-08.elections-1960-2
+          - cal.1960-08.elections-1960-3
+          - cal.1960-08.elections-1960-4
+          - cal.1960-08.elections-1960-5
+        from: 2026-11-06-b6-kallina-kennedy-v-nixon

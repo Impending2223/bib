@@ -2997,12 +2997,13 @@ entries:
     date: '1963-11-22'
     thread: succession
     c: 'From Air Force One, Mrs. Johnson and Liz Carpenter by car to the Elms. Carpenter: "It''s a terrible thing to say, but the salvation of Texas is that the governor was hit." Mrs. Johnson: "Don''t think I haven''t thought of that. I only wish it could have been me."'
-    n: '[[w.bernstein-guns-or-butter]], 18. To check: Carpenter, tape recording of the events of Nov. 22, 1963, Dec. 1963, Assassination of John F. Kennedy File, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 18 n.1). Names: Lady Bird Johnson, Carpenter.'
+    n: '[[w.bernstein-guns-or-butter]], 18; [[w.johnson-vantage-point]], 26 (Carpenter: "the salvation of Texas is that the Governor was hit"; Lady Bird Johnson: "I only wish it could have been me"; told Johnson at home that night). To check: Carpenter, tape recording of the events of Nov. 22, 1963, Dec. 1963, Assassination of John F. Kennedy File, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 18 n.1). Names: Lady Bird Johnson, Carpenter.'
     src:
       c: a38c539a
       rows:
         - 'w.bernstein-guns-or-butter 18: all'
         - 'via x.1963-12.carpenter-tape-recording-of-the-events-of: all'
+        - 'w.johnson-vantage-point 26: ?'
     tags: [name:johnson-lady-bird, name:carpenter-liz]
     conflict:
       - kind: duplicate
@@ -3048,6 +3049,35 @@ entries:
           - cal.1963-11-22.succession-12
           - cal.1963-11-22.succession-14
         from: 2026-11-06-b6-bernstein-guns-or-butter
+  - id: cal.1963-11-22.succession-16
+    when: Nov. 22
+    date: '1963-11-22'
+    thread: succession
+    c: 'The Executive Office Building, at night, by Johnson''s account. Johnson to McNamara: if he ever tries to quit, Johnson will send the White House police after him.'
+    n: '[[w.johnson-vantage-point]], 20. Names: Johnson, McNamara.'
+    src:
+      rows:
+        - 'w.johnson-vantage-point 20: all'
+      c: 7a119627
+    tags: [name:johnson-lyndon-b, name:mcnamara-robert-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-11-22.succession
+          - cal.1963-11-22.succession-3
+          - cal.1963-11-22.succession-2
+          - cal.1963-11-22.succession-4
+          - cal.1963-11-22.succession-5
+          - cal.1963-11-22.succession-6
+          - cal.1963-11-22.succession-7
+          - cal.1963-11-22.succession-8
+          - cal.1963-11-22.succession-9
+          - cal.1963-11-22.succession-10
+          - cal.1963-11-22.succession-11
+          - cal.1963-11-22.succession-12
+          - cal.1963-11-22.succession-14
+          - cal.1963-11-22.succession-15
+        from: 2026-11-06-b6-johnson-vantage
   - id: cal.1963-11-23.succession
     when: Nov. 23
     date: '1963-11-23'
@@ -4317,6 +4347,25 @@ entries:
         - 'via w.branch-parting-the-waters 917 n.6: A'
         - 'via w.branch-parting-the-waters 918 n.1: B'
     tags: [name:levison-stanley-d, name:oswald-lee-harvey, name:johnson-lyndon-b]
+  - id: cal.1963-11-26.succession-4
+    when: Nov. 26
+    date: '1963-11-26'
+    thread: succession
+    c: 'Jacqueline Kennedy to Johnson, by letter: thanks for walking behind the President''s coffin to the church, "You did not have to do that—I am sure many people forbid you to take such a risk—but you did it anyway."'
+    n: '[[w.johnson-vantage-point]], 33 n. Names: Jacqueline Kennedy, Johnson.'
+    src:
+      rows:
+        - 'w.johnson-vantage-point 33: all'
+        - 'via w.johnson-vantage-point 33 n.star: all'
+      c: 3c396fae
+    tags: [name:kennedy-jacqueline, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-11-26.succession-2
+          - cal.1963-11-26.succession
+          - cal.1963-11-26.succession-3
+        from: 2026-11-06-b6-johnson-vantage
   - id: cal.1963-11-27.succession
     when: Nov. 27
     date: '1963-11-27'

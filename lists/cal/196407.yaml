@@ -5974,3 +5974,22 @@ entries:
         - 'w.branch-pillar-of-fire 420: all'
         - 'via x.1964-07-31.wiretap-transcript-of-july-31-1964-fmxny: all'
     tags: [name:malcolm-x]
+  - id: cal.1964-07.elections-1964-san-francisco-4
+    when: July
+    date: 1964-07
+    thread: elections-1964-san-francisco
+    c: San Francisco, the Republican convention. Ford, on Goldwater's list for the Vice Presidency, again carries a lawyer's opinion that he may take the nomination and keep his candidacy for the House. He has no cause to use it.
+    n: '[[w.hess-republican-establishment]], 29. Check: the day. Names: Ford, Goldwater.'
+    src:
+      c: f9172071
+      rows:
+        - 'w.hess-republican-establishment 29: all'
+    tags: [name:ford-gerald-r, name:goldwater-barry-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-07.elections-1964-2
+          - cal.1964-07.elections-1964-san-francisco
+          - cal.1964-07.elections-1964-san-francisco-2
+          - cal.1964-07.elections-1964-san-francisco-3
+        from: b6-hess-republican-establishment

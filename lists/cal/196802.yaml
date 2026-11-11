@@ -668,6 +668,18 @@ entries:
         - 'w.drea-mcnamara-clifford-and-the-2011 491: A'
         - 'via x.1968-02-05.johnson-to-kosygin-pueblo: A'
     tags: [name:johnson-lyndon-b, name:kosygin-aleksei]
+  - id: cal.1968-02-05.press-and-broadcasting
+    when: Feb. 5
+    date: '1968-02-05'
+    thread: press-and-broadcasting
+    also: [elections-1968-johnson]
+    c: '*U.S. News & World Report*: "just one near certainty about the ''68 elections ... Lyndon Johnson, health permitting, will be the Democratic nominee for a new term as President."'
+    n: '[[w.johnson-vantage-point]], 433. Check: the issue''s date. Names: Johnson.'
+    src:
+      rows:
+        - 'w.johnson-vantage-point 433: all'
+      c: 7ee85d80
+    tags: [name:johnson-lyndon-b]
   - id: cal.1968-02-06.consumers
     when: Feb. 6
     date: '1968-02-06'
@@ -2465,6 +2477,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-02-17.press-and-broadcasting-2
+    when: Feb. 17
+    date: '1968-02-17'
+    thread: press-and-broadcasting
+    also: [elections-1968-johnson]
+    c: 'Carl Rowan, in his column in the *Chicago Daily News*: the odds that Johnson will not run again "can''t be better than a million to one."'
+    n: '[[w.johnson-vantage-point]], 433. Names: Rowan, Johnson.'
+    src:
+      rows:
+        - 'w.johnson-vantage-point 433: all'
+      c: 1474c7f0
+    tags: [name:rowan-carl-t, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-02-17.press-and-broadcasting
+        from: 2026-11-06-b6-johnson-vantage
   - id: cal.1968-02-18.consumers
     when: Feb. 18
     date: '1968-02-18'

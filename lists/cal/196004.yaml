@@ -79,6 +79,18 @@ entries:
       rows:
         - 'w.watson-into-the-missile-age 577: all'
         - 'via x.1960-04-02.new-york-times-french-test: all'
+  - id: cal.1960-04-01.elections-1960-nixon
+    when: Apr. 1
+    date: '1960-04-01'
+    thread: elections-1960-nixon
+    c: 'Tex McCrary to Eisenhower, by letter, promoting an article on Eisenhower and Nixon for *Look*: good photographs of the two working or laughing together hard to find; could he let a candid photograph show the relationship?'
+    n: '[[w.kallina-kennedy-v-nixon]], 86. Names: Eisenhower, Nixon.'
+    src:
+      c: b387aa55
+      rows:
+        - 'w.kallina-kennedy-v-nixon 86: all'
+        - 'via x.1960-04-01.mccrary-to-eisenhower: all'
+    tags: [name:eisenhower-dwight-d, name:nixon-richard-m]
   - id: cal.1960-04-04.voting-rights
     when: Apr. 4
     date: '1960-04-04'
@@ -208,6 +220,18 @@ entries:
       - 1960-04-05T17:00Z
       - 1960-04-06T05:00Z
     time_zone: America/New_York
+  - id: cal.1960-04-05.elections-1960-kennedy
+    when: Apr. 5
+    date: '1960-04-05'
+    thread: elections-1960-kennedy
+    also: [elections-1960-primaries]
+    c: 'Wisconsin''s primary night. One of his sisters asks Kennedy what the returns mean. Kennedy: they will have to go through every primary again and win every one.'
+    n: '[[w.kallina-kennedy-v-nixon]], 61. To check: [[w.white-making-of-the-president]], 96 (cited by [[w.kallina-kennedy-v-nixon]], 61 n.35). See [[cal.1960-04-05.elections-1960]]. Names: Kennedy.'
+    src:
+      c: 60ce3e80
+      rows:
+        - 'w.kallina-kennedy-v-nixon 61: all'
+    tags: [name:kennedy-john-f]
   - id: cal.1960-04-06.elections-1960
     when: Apr. 6
     date: '1960-04-06'
@@ -1145,3 +1169,15 @@ entries:
         - 'w.gifford-center-cannot-hold 70: all'
         - 'via w.gifford-center-cannot-hold 70 n.40b: all'
     tags: [name:nixon-richard-m]
+  - id: cal.1960-04.elections-1960-nixon
+    when: Apr.
+    date: 1960-04
+    thread: elections-1960-nixon
+    also: [press-and-broadcasting]
+    c: Illinois. Harlow, travelling with Nixon, at a press conference where the reporters shout at and interrupt him, by Harlow's account a "snake pit." Afterward Nixon tells him it was the least contentious he had had in a long time.
+    n: '[[w.kallina-kennedy-v-nixon]], 111. Check: the month; Harlow puts it in the spring of 1960. Harlow''s account, in Thompson, ed., *The Nixon Presidency*, 10–11 (Kallina, 111 n.31). Names: Harlow, Nixon.'
+    src:
+      c: 80935f27
+      rows:
+        - 'w.kallina-kennedy-v-nixon 111: all'
+    tags: [name:harlow-bryce-n, name:nixon-richard-m]

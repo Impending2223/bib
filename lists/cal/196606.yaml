@@ -918,6 +918,16 @@ entries:
       rows:
         - 'w.young-easy-burden 395: all'
     tags: [name:king-martin-luther-jr, name:young-andrew-j-jr]
+  - id: cal.1966-06-07.vietnam-elections
+    when: June 7
+    date: '1966-06-07'
+    thread: vietnam-elections
+    c: Saigon. The Election Law Drafting Committee, meeting since May, submits to the government its proposed rules for electing a constituent assembly.
+    n: '[[w.johnson-vantage-point]], 247. Check: the day the rules were submitted.'
+    src:
+      rows:
+        - 'w.johnson-vantage-point 247: all'
+      c: a172d040
   - id: cal.1966-06-08.vietnam
     when: June 8
     date: '1966-06-08'
@@ -3755,3 +3765,20 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 491–92: all'
     tags: [name:lindsay-john-v, state:ny, city:nyc]
+  - id: cal.1966-06.republican-party-3
+    when: June
+    date: 1966-06
+    thread: republican-party
+    c: 'Bliss, at a press conference, declines a question on one of his forbidden subjects (Vietnam, the budget, Johnson): "You must be new here."'
+    n: '[[w.hess-republican-establishment]], 51. Check: the day; Hess and Broder give "a mid-1966 press conference." Names: Bliss.'
+    src:
+      c: a41c4aaa
+      rows:
+        - 'w.hess-republican-establishment 51: all'
+    tags: [name:bliss-ray-c]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-06.republican-party
+          - cal.1966-06.republican-party-2
+        from: b6-hess-republican-establishment

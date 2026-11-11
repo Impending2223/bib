@@ -1682,6 +1682,63 @@ entries:
         - 'w.gifford-center-cannot-hold 54: all'
         - 'via w.gifford-center-cannot-hold 54 n.88: all'
     tags: [name:hinman-george-l, name:rockefeller-nelson]
+  - id: cal.1960-09-27.elections-1960-debates
+    when: Sept. 27
+    date: '1960-09-27'
+    thread: elections-1960-debates
+    also: [elections-1960-nixon]
+    c: 'After the first debate. Eisenhower, Robert Montgomery, his television consultant, and Hagerty watch a tape and do not like it: Nixon looked bad, his collar hanging loose. Eisenhower and Hagerty: Nixon''s opening agreement with Kennedy a mistake.'
+    n: '[[w.kallina-kennedy-v-nixon]], 123–24. Check: the day. To check: [[w.nixon-six-crises]], 366–67; the Reminiscences of James Hagerty, Jan. 31, 1968, Columbia, 124 (cited by [[w.kallina-kennedy-v-nixon]], 124 nn.20–21). See [[cal.1960-09-26.elections-1960]]. Names: Eisenhower, Hagerty, Nixon, Kennedy.'
+    src:
+      c: 6f772ea3
+      rows:
+        - 'w.kallina-kennedy-v-nixon 123–24: all'
+        - 'via x.1968-01-31.hagerty-reminiscences-columbia: all'
+    tags: [name:eisenhower-dwight-d, name:hagerty-james-c, name:nixon-richard-m, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-09-27.elections-1960
+        from: 2026-11-06-b6-kallina-kennedy-v-nixon
+  - id: cal.1960-09-27.elections-1960-debates-2
+    when: Sept. 27
+    date: '1960-09-27'
+    thread: elections-1960-debates
+    also: [elections-1960-nixon]
+    c: 'Julius Klein to Nixon, by letter: he and his associates disappointed; the tough, plain-spoken campaigner did not show up in the debate the night before.'
+    n: '[[w.kallina-kennedy-v-nixon]], 124. See [[cal.1960-09-26.elections-1960]]. Names: Klein, Nixon.'
+    src:
+      c: 9f910afc
+      rows:
+        - 'w.kallina-kennedy-v-nixon 124: all'
+        - 'via x.1960-09-27.julius-klein-to-nixon: all'
+    tags: [name:klein-julius, name:nixon-richard-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-09-27.elections-1960
+          - cal.1960-09-27.elections-1960-debates
+        from: 2026-11-06-b6-kallina-kennedy-v-nixon
+  - id: cal.1960-09-27.elections-1960-debates-3
+    when: Sept. 27
+    date: '1960-09-27'
+    thread: elections-1960-debates
+    also: [elections-1960-nixon]
+    c: 'A memorandum on Lodge''s reaction to the first debate: Nixon let Kennedy take the initiative and seemed on the defensive.'
+    n: '[[w.kallina-kennedy-v-nixon]], 124. See [[cal.1960-09-26.elections-1960]]. Names: Lodge, Nixon, Kennedy.'
+    src:
+      c: e8607302
+      rows:
+        - 'w.kallina-kennedy-v-nixon 124: all'
+        - 'via x.1960-09-27.memo-lodge-reaction-first-debate: all'
+    tags: [name:lodge-henry-cabot, name:nixon-richard-m, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-09-27.elections-1960
+          - cal.1960-09-27.elections-1960-debates
+          - cal.1960-09-27.elections-1960-debates-2
+        from: 2026-11-06-b6-kallina-kennedy-v-nixon
   - id: cal.1960-09-28.governors-ri
     when: Sept. 28
     date: '1960-09-28'
@@ -2150,3 +2207,23 @@ entries:
         - 'w.gifford-center-cannot-hold 85: all'
         - 'via w.gifford-center-cannot-hold 85 n.97: all'
     tags: [name:hillings-patrick-j, name:nixon-richard-m, name:lodge-henry-cabot]
+  - id: cal.1960-09.elections-1960-kennedy-4
+    when: Sept.
+    date: 1960-09
+    thread: elections-1960-kennedy
+    c: Kennedy, his delivery still poor in the campaign's first weeks, hires speech coaches to take the strain off his voice.
+    n: '[[w.kallina-kennedy-v-nixon]], 102–03. Check: the month; Kallina: after the hoarseness of August, into the first month of the campaign. To check: [[w.white-making-of-the-president]], 255, 258–59 (cited by [[w.kallina-kennedy-v-nixon]], 103 n.16). Names: Kennedy.'
+    src:
+      c: '54849774'
+      rows:
+        - 'w.kallina-kennedy-v-nixon 102–03: all'
+    tags: [name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-09.elections-1960-2
+          - cal.1960-09.elections-1960-6
+          - cal.1960-09.elections-1960-7
+          - cal.1960-09.elections-1960-kennedy
+          - cal.1960-09.elections-1960-kennedy-2
+        from: 2026-11-06-b6-kallina-kennedy-v-nixon

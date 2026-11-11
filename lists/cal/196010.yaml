@@ -493,6 +493,19 @@ entries:
         of:
           - cal.1960-10-11.elections-1960
         from: 2026-11-06-b6-gifford-center-cannot
+  - id: cal.1960-10-11.elections-1960-debates
+    when: Oct. 11
+    date: '1960-10-11'
+    thread: elections-1960-debates
+    also: [elections-1960-kennedy]
+    c: 'Harris''s analysis of the second debate, for Kennedy: Kennedy won.'
+    n: '[[w.kallina-kennedy-v-nixon]], 126. Kallina cites "An Analysis of the Second Kennedy-Nixon Debate," Oct. 11, 1960, RSP, Box 2, JFKL (126 n.25). See [[cal.1960-10-07.elections-1960]]. Names: Harris, Kennedy.'
+    src:
+      c: 3442c027
+      rows:
+        - 'w.kallina-kennedy-v-nixon 126: all'
+        - 'via x.1960-10-11.harris-analysis-second-debate: all'
+    tags: [name:harris-louis, name:kennedy-john-f]
   - id: cal.1960-10-12.soviet-union
     when: Oct. 12–13
     date: '1960-10-12'
@@ -678,6 +691,24 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 329–30: all'
         - 'via w.fursenko-khrushchevs-cold-war 330 n.23: B'
     tags: [name:abramov-aleksandr-n, name:kong-le, name:souvanna-phouma, place:vientiane]
+  - id: cal.1960-10-13.elections-1960-debates
+    when: Oct. 13
+    date: '1960-10-13'
+    thread: elections-1960-debates
+    also: [elections-1960-nixon]
+    c: 'Claude Robinson to Nixon, Hall and Finch, his campaign evaluation as of Oct. 7: Nixon won the second debate.'
+    n: '[[w.kallina-kennedy-v-nixon]], 126. Kallina cites "Campaign Evaluation as of October 7, 1960 (Second Debate)," RMN PPP, Box 61, RMNL (126 n.25). See [[cal.1960-10-07.elections-1960]]. Names: Nixon, Finch.'
+    src:
+      c: '50360060'
+      rows:
+        - 'w.kallina-kennedy-v-nixon 126: all'
+        - 'via x.1960-10-13.robinson-evaluation-second-debate: all'
+    tags: [name:nixon-richard-m, name:finch-robert-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-10-13.elections-1960
+        from: 2026-11-06-b6-kallina-kennedy-v-nixon
   - id: cal.1960-10-14.peace-corps
     when: Oct. 14
     date: '1960-10-14'
