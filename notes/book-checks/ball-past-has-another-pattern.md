@@ -35,6 +35,24 @@ New rows in `inbox/witnesses/2026-11-03-b3-ball-2.yaml` (20); the edges in `sour
 
 ## Passed over
 
+The "already in" rows read against the calendar, Nov. 10, 2026 (batch 7), the eleven still open read again Nov. 11, 2026 (batch 8, patch `2026-11-11-b8-ball`; the page images read for the dates, numbers and quotations cited):
+
+| p. | Row | Ruling |
+|---|---|---|
+| 159 | the convention, McCarthy's speech, the demonstration | cited under `cal.1960-07-13.elections-1960` |
+| 170 | Bowles lets it be known | entered as `cal.1961-04.cuba-3` (month, "Check: the day") |
+| 172 | Rusk telephones Ball at Geneva | already cited (172, `cal.1961-11-26.transition-and-staff`) |
+| 180 | the inaugural address from the steps | cited under `cal.1961-01-20.transition-and-staff` |
+| 197 | Ikeda's dinner; the soundings | already cited (197, `cal.1961-07-11.japan`; 195-97, `cal.1961-07-11.foreign-aid`) |
+| 225-28 | the Congo | cited under `cal.1960-06-30.congo`, `-07-10`, `-07-11`, `-07-13`, `-08-01` (Check: Ball's Aug. 3 and 8), `-08-12`, `-09-05`, `-09-14`, `cal.1961-02-13.congo`; Check on `cal.1961-02-15.congo` (Ball's Feb. 25); Sept. 18 already cited. Not entered: Gizenga's Stanleyville government, Lumumba's repulse in Katanga (no day) |
+| 275 | Kennedy asks Ball to see Salazar and Ayub | cited under `cal.1963-08-28.africa`, with a Check ("early fall"; Ball left Aug. 28) |
+| 327-29 | the Dominican Republic | cited under `cal.1962-12-20.latin-america`, `cal.1965-04-24`, `-04-25`, `-04-28` (the junta, the "critic" message), `-04-28` Cabinet Room meeting, `-04-30` (Martin), `-05-15` (Fortas), `-05-16`, `cal.1965-06-01`, `cal.1966-06-01`; Sept. 25, 1963 already cited. Lead: Ball's lunch with Bosch in Washington "just before he took office" (undated even to the month) |
+| 361-64 | Laos to 1961 | cited under `cal.1961-01-19.laos`, `cal.1960-08-09.laos`, `-09-10`, `cal.1960-12-13.laos`, `cal.1961-03-23.laos`; Kennedy's 1956 speech before the span. Leads: Rostow's twenty-five thousand troops, Kennedy's urging the British to an International Control Commission (spring 1961, no day) |
+| 370 | the Buddhist crisis | cited under `cal.1963-05-08.vietnam` (Check: nine killed against eight), `cal.1963-06-11.vietnam`, `cal.1963-08-21.vietnam`; Mme Nhu's "bonze barbecue" and the seven suicides undated (leads) |
+| 432 | Ball's resignation | cited under `cal.1966-09-21.transition-and-staff` (432, beside 425) |
+
+Where batch 8 stopped: all eleven rows read; none left.
+
 Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled minor (private, social, no public business, a routine), in "Batch 6" at the end of this file.
 
 Every dated event within the span on the pages read this run (step 1 above) that is not entered and not already in the calendar; the first run's passes over the cited pages were not logged and are not repeated here.

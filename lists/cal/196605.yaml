@@ -1820,9 +1820,14 @@ entries:
         - 'w.drea-mcnamara-clifford-and-the-2011 272: A'
         - 'via w.drea-mcnamara-clifford-and-the-2011 272 n.38b: A'
         - 'w.drea-mcnamara-clifford-and-the-2011 272: ?'
-        - 'w.wofford-of-kennedys-and-kings 314: A, D'
+        - 'w.wofford-of-kennedys-and-kings 314: A'
     tags: [name:mcnamara-robert-s]
     short: McNamara at Montreal
+    variants:
+      - unit: D
+        witness: w.wofford-of-kennedys-and-kings
+        reads: '"one or two years"'
+        at: '314'
   - id: cal.1966-05-18.opinion
     when: May 18
     date: '1966-05-18'
@@ -3632,3 +3637,10 @@ entries:
         - 'w.schwartz-lyndon-johnson-and-europe 114–15: all'
         - 'via x.1966-05-11.stewart-to-maclehose: all'
     tags: [name:wilson-harold, name:bruce-david-k-e, name:erhard-ludwig, name:johnson-lyndon-b, name:adenauer-konrad]
+  - id: cal.1966-05.draft
+    when: May, after the 18th
+    date: 1966-05
+    thread: draft
+    c: Johnson cancels his flight to the United Automobile Workers convention in California, where he was to announce his new approach toward draft equity. Moyers tells the informal task force on national service that McNamara's speech of May 18 has set back, perhaps permanently, Johnson's plans to go forward with a commission on the draft.
+    n: '[[w.wofford-of-kennedys-and-kings]], 314–15. See [[cal.1966-05-18.defense]]. Names: Johnson, Moyers, McNamara. Check: the day.'
+    tags: [name:johnson-lyndon-b, name:moyers-bill, name:mcnamara-robert-s]

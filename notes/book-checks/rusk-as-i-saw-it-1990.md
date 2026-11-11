@@ -73,6 +73,27 @@ The merge's dry run flags nine of them as possible duplicates of entries of the 
 
 ## Passed over
 
+The "already in" rows read against the calendar, Nov. 10, 2026 (batch 7: stopped before this book); read again Nov. 11, 2026 (batch 8, patch `inbox/2026-11-11-b8-rusk.yaml`: the owner's copy in Drive, printed page = PDF page − 4, pp. 245, 369, 431, 442, 463, 483 read off the page image too; the copy deleted when done). Each of the 13 rows ruled (the rows below keep their first rulings):
+
+| Row | Ruling | Entry or ground |
+|---|---|---|
+| 205 Rusk confirmed by voice vote | cited under | `cal.1961-01-20.transition-and-staff` (?) |
+| 213 the Taylor–Robert Kennedy inquiry | already cited | `cal.1961-04-22.cuba`, 213–14 |
+| 220 the Vienna meeting arranged | cited under | `cal.1961-05-16.soviet-union` (?) |
+| 229 Keating's charges | already cited | `cal.1962-08-31.missile-crisis`, 229–30 |
+| 245 Mikoyan in Cuba | entered as `cal.1962-11-29.cuba` (the remark in Washington); variants and Checks on `cal.1962-11-02.missile-crisis` (almost two weeks) and `cal.1962-11-03.cuba` (ten days' wait); cited under both | |
+| 279–80 Katanga's end; Mobutu's coup | cited under | `cal.1963-01-14.congo`, `cal.1965-11-25.congo` (?) |
+| 351 Johnson tries to restart the missile talks | not borne out | the page gives the effort "in October and November" and the Soviets' wish to wait, no day, meeting or words of either entry |
+| 369 Bosch elected; brought to Washington | cited under `cal.1962-12-20.latin-america` (Check: Rusk dates the election Dec. 19); the visit to Washington is a lead (Rusk gives no day) | |
+| 375–76 the OAS commission; the peace force | cited under | `cal.1965-05-06.latin-america` (B), `cal.1965-06-01.latin-america` (?); the election of June 1, 1966 already cited at 376 |
+| 431 500 Special Forces | cited under | `cal.1961-05-11.vietnam` (?) |
+| 442 Kennedy's television interviews | not the interviews: the page quotes the Sept. 12 news conference; cited under | `cal.1963-09-12.vietnam-2` (B) |
+| 462–63 U Thant's Rangoon initiative; his press conference | cited under `cal.1965-01-30.vietnam` (?; variant on A: Rusk has Stevenson tell Thant Hanoi was not interested; Check) and `cal.1965-02-24.vietnam-2` (?) | |
+| 482–83 the cable to the embassies; Rusk to Wellington; Katzenbach's change | entered as `cal.1968-03-30.vietnam` (the cable), `cal.1968-03-30.vietnam-2` (Rusk leaves), `cal.1968-03-30.elections-1968-johnson` (the White House call in flight); cited under `cal.1968-04-03.vietnam-2` (Check), `cal.1968-03-28.vietnam-205000` (Check), `cal.1968-03-31.vietnam-205000` (Katzenbach's wording), `cal.1968-03-31.elections-1968` | |
+
+Where batch 8 stopped: all 13 rows of this book ruled and the patch checked (0 errors); nothing merged.
+
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, run Nov. 10, 2026: the owner's copy in Drive again, 1e3uZQw864xl7h_GpNTpHSO30W-Gg33Aq, 680 PDF pages, printed page = PDF page − 4, checked on the page images of pp. 223 and 267, the folio on every page read; deleted when done). The rows ruled private, social or trivia, each marked in its last cell; patch `inbox/2026-11-06-b6-rusk-as-i-saw-it-1990.yaml` (6 entries). The book has no notes: each entry's map runs through the taped interviews (`x.1984.rusk-interviews-with-richard-rusk`), but p. 596, Richard Rusk's own narrative. No new witnesses.
 
 Made by reading every page of the book within the span (Oct. 29, 2026), each dated event set against the calendar; re-ruled Nov. 4, 2026 under R5, R7, R13, R15 and R18 (the first run's "undated" and "private remark" reasons gone over row by row: an event dated to a month or a season is entered; one dated only to a year, or not at all, is a lead). Rows that became entries or cites now say so.
@@ -193,3 +214,4 @@ Read again from the owner's copy (Drive, the same file; downloaded through Drive
 - Foreign: Herter's MRBM offer, Dec. 1960 (Rusk 263); the Angola vote, Mar. 1961 (Rusk 274); Zhou's statement, May 10, 1966 (Rusk 289); Rusk to Dobrynin before the invasion, July 1968 (Rusk 361; FRUS 1964–68, XVII); Rusk at the General Assembly, Oct. 1968 (Rusk 361–62); Rusk's eyes-only cable, mid-Dec. 1966 (Rusk 468); Rusk at Montevideo, Nov. 1965 (Rusk 571); Johnson's recognition of the Dominican junta, Dec. 1963 (Rusk 370).
 - Added Nov. 4. National: the Dean Rusk Collection's taped interviews (University of Georgia, Russell Library): whether open online, and the tape for each passage the calendar cites (Rusk, 12, 639); the General Assembly resolution on weapons in orbit, Oct. 1963 (Rusk 345: the day and number); the draft NPT tabled, Aug. 1965 (Rusk 341: the day; FRUS 1964–68, XI); Rusk's address to the General Assembly on the Brezhnev doctrine, fall 1968 (Rusk 361–62); Peggy Rusk's wedding (*Time*, Sept. 1967: the issue). Foreign: Rusk and Gromyko at Vienna, May 1965 (Rusk 358; FRUS 1964–68, XIV); Zhou Enlai's statement of May 10, 1966 (Rusk 289; its text); the Montevideo incident, Nov. 1965 (Rusk 571; the day, the photograph).
 - Added Nov. 10 (batch 6). National: Macmillan's remark to Rusk at Chequers on the Bay of Pigs (Rusk 213): Rusk gives "a 1962 trip to Great Britain with President Kennedy"; the occasion and its day (the calendar holds no Kennedy visit to Britain in 1962; the Daily Diary and Macmillan's diaries); Rusk's ten days off with the flu, 1965 (Rusk 535): the days (the Secretary's appointment books, the Times); the Atlanta Bar Association's dinner, 1961, its first integrated, and the Kennedy cabinet's informal agreement against speaking to segregated gatherings (Rusk 588): the day (the Atlanta papers; the Bulletin's index of 1961 holds no such address). States and cities: the bill in the Georgia General Assembly to cut the University of Georgia's appropriation by Rusk's salary, defeated 113 to 12 (Rusk 605): its day (the House Journal, 1969 session; likely after Jan. 20, 1969); the regents' special meeting on Rusk's appointment (Rusk 605): its day (the Board of Regents' minutes).
+- Added Nov. 11 (batch 8). National: Bosch brought to Washington (Rusk 369): Rusk gives no day, "wined and dined him" after the Dec. 19, 1962 election; the Daily Diary and the Public Papers for Jan. 1963. The Mexican ambassador's private word to Rusk, spring 1965, that the landing was necessary but not to be endorsed publicly (Rusk 376): no day.
