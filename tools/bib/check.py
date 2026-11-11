@@ -411,6 +411,10 @@ def run(series, only=None):
     from . import state_law
     for where, msg in state_law.problems():
         add(ERROR, where, msg, "state-law")
+    # the polls' hours and daylight time (sources/poll-hours.yaml, sources/daylight-time.yaml; tools/bib/pollhours.py)
+    from . import pollhours
+    for where, msg in pollhours.problems():
+        add(ERROR, where, msg, "poll-hours")
     # the witnesses: what each claim rests on, to its roots (sources/witnesses/; tools/bib/witnesses.py)
     from . import witnesses
     werrs, wwarns = witnesses.problems(series)

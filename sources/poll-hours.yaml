@@ -1,0 +1,1311 @@
+# The hours of the polls: the register (kept by hand). For each State and D.C., the hours the polls opened and closed
+# at general elections, 1960-68, and at primaries where the law differs; the statute as then in force (its code section
+# and the session law that set or changed it, with its effective date where read); the local options as the law states
+# them. Begun Nov. 10, 2026, at the owner's request (Nov. 6, 2026: "Elections are late evening or night events in the
+# constituency where they're held. (If poll closing times are fixed by law, we should set an agent or agents on the State
+# law and the relevant session laws to find them, and to find the State and Federal adoption of daylight time.)").
+# The clock each law names, and the State's daylight time, are in sources/daylight-time.yaml. How the election-night
+# range uses them: notes/extensions/memos/poll-hours.md. Checks: tools/bib/pollhours.py ([poll-hours]).
+#
+# The ground for every State: a compilation of the period, read off its pages,
+#   PPH  *Projections—Predictions of Election Results and Political Broadcasting (Sec. 315, Communications Act):
+#        Hearings Before the Subcomm. on Communications of the S. Comm. on Commerce*, 90th Cong. (1967), July 18-20,
+#        1967 (govinfo, CHRG-90shrg82635; the PDF's page is the printed page plus 4). Two compilations in it, both the
+#        Library of Congress's Legislative Reference Service's (American Law Division):
+#        Table A  "General elections: opening and closing of polls (local time)", a State a row, the code section, the
+#                 hours, remarks; pp. 14-16, printed with the Service's memorandum of Dec. 2, 1966 (pp. 6-17). Check:
+#                 the table's date and compiler (it follows the memorandum and precedes Table B, the Record's
+#                 references of 1964-65).
+#        Appendix "State laws", to Elizabeth Yadlosky, "Premature Release of Election Results and Election
+#                 Predictions" (Apr. 6, 1967), pp. 17-75: each State's provisions quoted from its code and latest
+#                 supplement and session laws (named in each State's heading), with the code's history notes; "The
+#                 opening and closing times is given for all states" (p. 31). D.C. is not in it.
+#        Where the two differ, both are given and the row carries a Check. Pastore's opening statement (p. 1) and
+#        the report's text are quoted where they date a closing.
+# Then, for the States the compilation leaves unclear or where the law changed in the span, the States' own codes,
+# session laws and election-law compilations, where sources/state-law.yaml or a search found them open.
+#
+# Per State: st, name, rows, compiled_only, notes (optional), leads (optional).
+#   rows       one per rule (a class of election and of place), each:
+#     elections  a list: general | primary | special | municipal | all (every election the section governs)
+#     applies    where: 'statewide', or the class of place as the law names it ("counties of 400,000 or more")
+#     open       the opening hour, local, 24-hour 'HH:MM'; a range 'HH:MM-HH:MM' where the law lets an officer fix it
+#                between; null where the law fixes none
+#     close      the closing hour, the same way. Voters in line at the hour may vote in most States (the sections say
+#                so); the hour is the law's, not the last ballot's.
+#     clock      optional: the time the law names ("eastern standard", "standard", "standard or daylight as in
+#                effect"); absent where it names none (then the local civil time: sources/daylight-time.yaml)
+#     law        the code section as the source prints it, with the code's edition
+#     history    optional: the session laws the code's history note gives, as printed (or read in the volume)
+#     effective  optional: the date the governing act took effect, where read
+#     span       the years of 1960-68 for which the row is the law read: 'YYYY..YYYY' (one year 'YYYY..YYYY' too)
+#     span_basis why: the history note's last change, the act's date, the editions read
+#     sources    a list, each {ref, page, url, ground}: ref the work (PPH, or the volume), page the printed page or
+#                pages, url the copy at that page, ground as in sources/states.yaml (seen: read off the page here;
+#                catalog; law; cited; assumed)
+#     check      optional: what is not settled
+#   compiled_only  true where PPH alone grounds the State's rows (no State volume read)
+#   leads      what remains, each a lead (notes/leads.md, State and cities)
+# Hours are as the law states them; nothing here is a reckoning. The years 1967-68 rest on PPH (mid-1967) and, where
+# named, a later volume; a session of 1967 or 1968 not read is a lead.
+- st: AL
+  name: Alabama
+  rows:
+  - elections: [all]
+    applies: 'precincts voting by paper ballot; cities and towns over 5,000 inhabitants close at 18:00; elsewhere at 17:00, or 18:00 where the county governing body directs'
+    open: '08:00-09:00'
+    close: '17:00'
+    law: 'Ala. Code tit. 17, § 172 (1940, Recomp. 1958, 1965 Supp.)'
+    history: '1961, Ex. Sess., p. 1942, appvd. Sept. 15, 1961 (Act No. 66, H. 213)'
+    effective: '1961-09-15'
+    span: '1961..1966'
+    span_basis: 'the 1961 act, read, "effective immediately upon its passage and approval"; printed as in force in 1967 (PPH)'
+    sources:
+    - {ref: PPH, page: '31', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=35', ground: seen}
+    - {ref: 'Alabama Legislative Acts 1961, vol. 2, Act No. 66', page: '1942-43', url: 'https://archive.org/details/alabama-acts-1961_v2/page/1942/mode/1up', ground: seen}
+    check: 'the text before the 1961 act (Code 1940, tit. 17, § 172, as in force in 1960) not read: what the act changed'
+  - elections: [all]
+    applies: 'places voting by machine; counties of 400,000 or more (the last or any later federal census) close at 19:00'
+    open: '08:00'
+    close: '18:00'
+    law: 'Ala. Code tit. 17, § 111 (1940, Recomp. 1958, 1965 Supp.)'
+    span: '1966..1966'
+    span_basis: 'printed as in force (PPH); no history note printed'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 31', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=18', ground: seen}
+  - elections: [all]
+    applies: 'local acts: counties of 110,000 to 160,000 using voting machines (1962), 08:00 to 18:30; counties of 300,000 to 500,000 using them (1965), 08:00 to 18:00; Blount County (Act No. 280 of 1963, approved Aug. 27, 1963), opening between 08:00 and 09:00, closing 18:00'
+    open: '08:00-09:00'
+    close: '18:00-18:30'
+    law: 'Alabama local acts of 1962, 1963 and 1965 (population acts and a county act)'
+    span: '1962..1966'
+    span_basis: 'the acts, read in the volumes; the Acts of 1962-67 searched for the polls'' hours, not exhaustively (the OCR''s misreadings)'
+    sources:
+    - {ref: 'Alabama Legislative Acts, special session of 1962 (counties of 110,000 to 160,000), § 9', page: '313', url: 'https://archive.org/details/alabama-acts-1962/page/n311/mode/1up', ground: seen}
+    - {ref: 'Alabama Legislative Acts 1963, vol. 2, Act No. 280 (Blount County)', page: '726', url: 'https://archive.org/details/alabama-acts-1963_v2', ground: seen}
+    - {ref: 'Alabama Legislative Acts 1965, vol. 2 (counties of 300,000 to 500,000), § 9', page: '1520', url: 'https://archive.org/details/alabama-acts-1965-v2/page/n495/mode/1up', ground: seen}
+    check: 'which counties the population acts fit (the census of 1960); a 1965 vol. 1 act with 8 a.m. to 6:30 p.m. not identified'
+  compiled_only: false
+  notes: 'Table A gives only § 111 (8 a.m. to 6 p.m., 7 p.m. in counties of 400,000 or more), "if voting machines are not used" as printed: a misprint for "are used" by § 111''s own words. Alabama''s hours were also set county by county by local and population acts (the last row).'
+  leads:
+  - '§ 111''s history and § 172 before 1961: the Code of Alabama 1940, Recompiled 1958, and its supplements (HathiTrust bot-checked; not found open)'
+  - 'the 1963-67 sessions (alabama-acts-1963 to 1967 on archive.org) searched by their OCR for the polls'' hours: no amendment of §§ 111 or 172 found; the local acts not collected county by county'
+- st: AK
+  name: Alaska
+  rows:
+  - elections: [all]
+    applies: statewide
+    open: '08:00'
+    close: '20:00'
+    clock: 'standard or daylight time "applicable to the polling place"'
+    law: 'Alaska Stat. § 15.15.080 (1962, 1964 Sess. Laws)'
+    history: '§ 3.08 ch 83 SLA 1960'
+    span: '1960..1966'
+    span_basis: 'the election code of 1960 (ch. 83 SLA 1960), printed as in force (PPH); its effective date not read'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 33', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=37', ground: seen}
+    check: 'whether ch. 83 SLA 1960 governed the primary and general elections of 1960 (its effective date)'
+  compiled_only: true
+  notes: 'Four standard time zones in Alaska (sources/daylight-time.yaml): the hour is the polling place''s, so the closing ran from 20:00 Pacific (the Panhandle) to 20:00 Bering time.'
+  leads:
+  - 'ch. 83 SLA 1960, its effective date, and the law it replaced for the 1960 primary (Aug. 9, 1960): Session Laws of Alaska 1960 (HathiTrust record 006228852, bot-checked)'
+- st: AZ
+  name: Arizona
+  rows:
+  - elections: [all]
+    applies: statewide
+    open: '06:00'
+    close: '19:00'
+    law: 'Ariz. Rev. Stat. Ann. § 16-864 (1956, 1965 Supp.)'
+    history: 'As amended Laws 1958, Ch. 54, § 5'
+    span: '1960..1966'
+    span_basis: 'the history note''s last change 1958; printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 34', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=38', ground: seen}
+  compiled_only: true
+- st: AR
+  name: Arkansas
+  rows:
+  - elections: [all]
+    applies: statewide
+    open: '08:00'
+    close: '18:30'
+    law: 'Ark. Stat. Ann. § 3-908 (1947, 1956 Replacement, 1963 Supp.)'
+    history: 'Act of Mar. 4, 1891, No. 30, § 5, p. 32; C. & M. Dig., § 3798; Pope''s Dig., § 4768'
+    span: '1960..1966'
+    span_basis: 'the history note''s last change 1891; printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 36', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=40', ground: seen}
+  compiled_only: true
+- st: CA
+  name: California
+  rows:
+  - elections: [all]
+    applies: 'statewide, any election including any primary, where no later section applies'
+    open: '07:00'
+    close: '19:00'
+    law: 'Cal. Elec. Code § 14206 (West, 1965 Supp.)'
+    history: 'Stats. 1961, c. 23, § 14206 (the Elections Code of 1961)'
+    span: '1961..1966'
+    span_basis: 'the code of 1961, printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 37', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41', ground: seen}
+  - elections: [general]
+    applies: 'counties of 400,000 or more (the last federal census), at a general election at which candidates for partisan offices are elected'
+    open: '07:00'
+    close: '20:00'
+    law: 'Cal. Elec. Code § 14206.5 (West, 1965 Supp.)'
+    history: 'Added Stats. 1963, c. 940, p. 2193, § 1, as amended Stats. 1964, 1st Ex. Sess., c. 45, § 1'
+    effective: '1964-04-30'
+    span: '1964..1966'
+    span_basis: 'the 1964 amendment''s effective date as printed (PPH)'
+    sources:
+    - {ref: PPH, page: '37', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41', ground: seen}
+    check: 'Table A (p. 14) gives 300,000 or more; the appendix prints "* * * 400,000", the amended words. Read Stats. 1963, c. 940 and 1964, 1st Ex. Sess., c. 45: which threshold governed Nov. 1964 and 1966'
+  - elections: [all]
+    applies: 'counties installing electronic tabulating devices'
+    open: '07:00'
+    close: '20:00'
+    law: 'Cal. Elec. Code § 14207 (West, 1965 Supp.)'
+    history: 'Stats. 1961, c. 23, § 14207'
+    span: '1961..1966'
+    span_basis: 'the code of 1961, printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '37', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41', ground: seen}
+  - elections: [all]
+    applies: 'counties using voting machines in all precincts; where in some, the board of supervisors may keep every polling place open to 20:00'
+    open: '07:00'
+    close: '20:00'
+    law: 'Cal. Elec. Code § 14207.5 (West, 1965 Supp.)'
+    history: 'Added Stats. 1963, c. 723, p. 1730, § 1'
+    span: '1963..1966'
+    span_basis: 'added 1963, printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '37-38', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41', ground: seen}
+  - elections: [all]
+    applies: 'any city (its election board) or county (its board of supervisors), by resolution before the notice of election'
+    open: '07:00'
+    close: '20:00'
+    law: 'Cal. Elec. Code § 14208 (West, 1965 Supp.)'
+    history: 'As amended Stats. 1963, c. 507, p. 1361, § 1'
+    span: '1963..1966'
+    span_basis: 'amended 1963, printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '38', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42', ground: seen}
+  compiled_only: true
+  notes: 'From 1965 no county clerk or precinct board might release a count before 8 p.m. or the closing of every polling place in California, whichever earlier (Cal. Elec. Code § 17021, added Stats. 1965, c. 446; PPH 38). Pastore (PPH 1): in the primary of June 2, 1964, CBS called Goldwater "only 22 minutes after the polls closed in southern California".'
+  leads:
+  - 'the hours of 1960 (the Elections Code of 1939, before the code of 1961): the Clerk''s archive of the Statutes (clerk.assembly.ca.gov) is open but its 1960s PDFs carry no text layer'
+  - 'Stats. 1963, c. 940 and c. 723; Stats. 1964, 1st Ex. Sess., c. 45: the threshold and the dates'
+- st: CO
+  name: Colorado
+  rows:
+  - elections: [general, primary, special]
+    applies: statewide
+    open: '07:00'
+    close: '19:00'
+    law: 'Colo. Rev. Stat. § 49-12-1 (1963, 1964 Sess. Laws)'
+    history: 'Source: L. 63, p. 414, § 115 (the Election Code of 1963)'
+    span: '1963..1966'
+    span_basis: 'the code of 1963, printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 39', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=43', ground: seen}
+  compiled_only: true
+  notes: 'No count of precinct or absent voters'' ballots to be released before 7 p.m. (§ 49-21-44, L. 63, p. 472, § 257; PPH 39).'
+  leads:
+  - 'the hours of 1960 and 1962, before the code of 1963 (Colo. Rev. Stat. 1953, ch. 49): the General Assembly''s session-laws archive lists no 1960s volume'
+- st: CT
+  name: Connecticut
+  rows:
+  - elections: [general, special]
+    applies: 'statewide, at regular and special State elections and municipal elections held the same day'
+    open: '06:00'
+    close: '19:00'
+    law: 'Conn. Gen. Stat. § 9-174 (Rev. 1958, 1965 Supp.)'
+    span: '1963..1966'
+    span_basis: 'printed as in force (PPH), no history note; Table A cites the revision of 1963'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 39', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=43', ground: seen}
+  - elections: [municipal]
+    applies: 'municipal elections on another day; a municipality may vote, under § 7-148, other hours, not past 20:00 and at least eight consecutive hours between 06:00 and 18:00'
+    open: '06:00'
+    close: '18:00'
+    law: 'Conn. Gen. Stat. § 9-174 (Rev. 1958, 1965 Supp.)'
+    span: '1963..1966'
+    span_basis: 'printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '39', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=43', ground: seen}
+  - elections: [primary]
+    applies: 'statewide; a party in a municipality may by its rules open earlier, not before 06:00'
+    open: '12:00'
+    close: '20:00'
+    law: 'Conn. Gen. Stat. § 9-438 (Rev. 1958, 1965 Supp.)'
+    history: '1963, P.A. 17, Sec. 64, P.A. 297'
+    span: '1963..1966'
+    span_basis: 'the history note, 1963; printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '39', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=43', ground: seen}
+  compiled_only: true
+  notes: 'Table A''s remark (the municipality''s option) belongs to the municipal elections held on another day, by § 9-174''s words.'
+  leads:
+  - 'the hours of 1960 and 1962 (Gen. Stat. Rev. 1958, § 9-174, and its history): the Register and Manual (archive.org, registe71conn and kin) may print the election calendar'
+- st: DE
+  name: Delaware
+  rows:
+  - elections: [general]
+    applies: statewide
+    open: '07:00'
+    close: '20:00'
+    law: 'Del. Code Ann. tit. 15, §§ 4931, 4954 (1953, 1964 Supp.)'
+    history: '§ 4931 as amended 50 Del. Laws, Ch. 22, § 1, eff. Apr. 13, 1955; 50 Del. Laws, Ch. 172, § 1, eff. May 31, 1955'
+    span: '1960..1966'
+    span_basis: 'the history note''s last change 1955; printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 40', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=44', ground: seen}
+  - elections: [primary]
+    applies: statewide
+    open: '07:00'
+    close: '20:00'
+    law: 'Del. Code Ann. tit. 15, § 3105 (1953, 1964 Supp.)'
+    history: 'As amended 50 Del. Laws, Ch. 426, § 8, eff. July 11, 1955'
+    span: '1960..1966'
+    span_basis: 'the history note''s last change 1955; printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '41', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=45', ground: seen}
+  compiled_only: true
+- st: DC
+  name: District of Columbia
+  rows:
+  - elections: [general]
+    applies: 'the election of electors for President and Vice President (from 1964)'
+    open: '08:00'
+    close: '20:00'
+    law: 'D.C. Code § 1-1110(a)(1) (1961 ed.)'
+    span: '1964..1966'
+    span_basis: 'Table A (PPH); the District first chose electors in 1964 (U.S. Const. amend. XXIII)'
+    sources:
+    - {ref: PPH, page: '14 (Table A)', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=18', ground: seen}
+    check: 'the amendment that extended the 1955 act to the presidential election (1961) not read'
+  - elections: [primary]
+    applies: 'the elections of national committeemen and delegates, the first Tuesday in May of each presidential election year'
+    open: '08:00'
+    close: '20:00'
+    law: 'District of Columbia Election Act, § 10(a), ch. 862, 69 Stat. 699, 702 (1955)'
+    effective: '1955-08-12'
+    span: '1960..1968'
+    span_basis: 'the act as enacted, read; Table A gives the same hours in 1966'
+    sources:
+    - {ref: '69 Stat. 702 (Aug. 12, 1955)', page: '702', url: 'https://www.govinfo.gov/content/pkg/STATUTE-69/pdf/STATUTE-69-Pg699.pdf#page=4', ground: seen}
+  compiled_only: false
+  notes: 'Not in the appendix of PPH, which covers the fifty States.'
+  leads:
+  - 'the 1961 amendment of the 1955 act for presidential elections (Pub. L. 87-389, 75 Stat. 817, by the Code''s history; not read) and any later change before Nov. 1968'
+- st: FL
+  name: Florida
+  rows:
+  - elections: [all]
+    applies: 'statewide, all elections including municipal and school; contrary hours in any general, special or local law or charter repealed'
+    open: '07:00'
+    close: '19:00'
+    clock: 'the customary time in standard use in the locality'
+    law: 'Fla. Stat. Ann. § 100.011 (1960, 1964 Supp., 1965 Sess. Laws)'
+    span: '1960..1966'
+    span_basis: 'Table A cites Fla. Stat. Ann. 1960, § 100.011, the same hours; printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 41', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=45', ground: seen}
+    check: 'no history note printed; the 1960 volume Table A cites not read'
+  compiled_only: true
+  notes: 'Two inspection boards a precinct, the second counting from 7 p.m. (§ 102.012, PPH 42). The Panhandle west of the Apalachicola is in the central zone (sources/daylight-time.yaml).'
+- st: GA
+  name: Georgia
+  rows:
+  - elections: [primary, general]
+    applies: statewide
+    open: '07:00'
+    close: '19:00'
+    clock: 'Eastern Standard Time'
+    law: 'Ga. Code Ann. § 34-1304 (1965 Supp.)'
+    history: 'Acts 1964, Extra. Sess., pp. 26, 129 (the Georgia Election Code of 1964)'
+    span: '1964..1966'
+    span_basis: 'the code of 1964, printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 44', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=48', ground: seen}
+  compiled_only: true
+  leads:
+  - 'the hours of 1960 and 1962, before the code of 1964 (Ga. Code Ann. tit. 34), and of the party primaries, which the parties ran before the code: not found open'
+- st: HI
+  name: Hawaii
+  rows:
+  - elections: [general]
+    applies: statewide; the polls may close earlier where every registered voter has voted
+    open: '07:00'
+    close: '17:30'
+    law: 'Haw. Rev. Laws § 11-46 (Election Laws 1964 Rev.)'
+    history: 'C.L. p. 813, s. 80; R.L. 1925, s. 106; R.L. 1935, s. 7681; am. L. 1935, c. 168, s. 9; R.L. 1945, s. 213; am. L. 1955, c. 4, s. 1'
+    span: '1960..1966'
+    span_basis: 'the history note''s last change 1955; printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 45', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=49', ground: seen}
+  - elections: [primary]
+    applies: statewide
+    open: '07:00'
+    close: '17:30'
+    law: 'Haw. Rev. Laws § 11-102 (Election Laws 1964 Rev.)'
+    span: '1960..1966'
+    span_basis: 'printed as in force (PPH); § 11-191 holds machine precincts to the same hours ("at the times fixed by the laws of the State"; R.L. 1945, s. 251.16; add. L. 1949; am. L. 1955, c. 191)'
+    sources:
+    - {ref: PPH, page: '45', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=49', ground: seen}
+  compiled_only: true
+- st: IA
+  name: Iowa
+  rows:
+  - elections: [all]
+    applies: 'cities where registration is required'
+    open: '07:00'
+    close: '20:00'
+    law: 'Iowa Code Ann. §§ 43.37, 49.73 (1966 Supp.)'
+    history: '§ 49.73: C51, § 251; R60, § 486; C73, § 611; C97, § 1096; S13, § 1096; C24-C39, § 791; C46, 50, 54, 58, 62, § 49.73'
+    span: '1960..1966'
+    span_basis: 'the Code''s editions 1946-62 carry the section unchanged by the note; printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 48', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=52', ground: seen}
+  - elections: [all]
+    applies: 'all other precincts'
+    open: '08:00'
+    close: '20:00'
+    law: 'Iowa Code Ann. §§ 43.37, 49.73 (1966 Supp.)'
+    span: '1960..1966'
+    span_basis: 'as above'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 48', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=52', ground: seen}
+  compiled_only: true
+  notes: '§ 43.37 governs the primary, § 49.73 every election; the hours are the same. Table A cites "49.37", a misprint for 49.73.'
+- st: ID
+  name: Idaho
+  rows:
+  - elections: [general, special]
+    applies: 'statewide; opened at 09:00 where the regularly appointed judges are absent and a majority of them is not present'
+    open: '08:00'
+    close: '20:00'
+    law: 'Idaho Code § 34-1002 (1947, 1965 Supp.)'
+    history: '1890-1891, p. 57, § 68; reen. 1899, p. 33, § 59; reen. R.C. & C.L. § 415; C.S. § 583; I.C.A. § 33-902; am. 1951, ch. 10, § 1, p. 19'
+    span: '1960..1966'
+    span_basis: 'the history note''s last change 1951; printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 46', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50', ground: seen}
+  - elections: [primary]
+    applies: statewide
+    open: '12:00'
+    close: '20:00'
+    law: 'Idaho Code § 34-616 (1947, 1965 Supp.)'
+    history: '1931, ch. 18, § 15, p. 29; I.C.A. § 33-615; am. 1933, ch. 185, § 5, p. 341'
+    span: '1960..1966'
+    span_basis: 'the history note''s last change 1933; printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '46', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50', ground: seen}
+  compiled_only: true
+  notes: 'Northern Idaho (north of the Salmon River) is in the Pacific zone, the rest in the mountain (sources/daylight-time.yaml).'
+- st: IL
+  name: Illinois
+  rows:
+  - elections: [all]
+    applies: statewide
+    open: '06:00'
+    close: '18:00'
+    law: 'Ill. Rev. Stat. ch. 46, § 17-1 (Smith-Hurd Ann., 1966 Supp.)'
+    history: '1943, May 11, Laws 1943, vol. 2, p. 1, § 17-1; 1957, July 10, Laws 1957, p. 2397, § 1'
+    span: '1960..1966'
+    span_basis: 'the history note''s last change 1957; printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 46', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50', ground: seen}
+  - elections: [all]
+    applies: 'municipalities under article 6 (boards of election commissioners: Chicago among them)'
+    open: '06:00'
+    close: '18:00'
+    law: 'Ill. Rev. Stat. ch. 46, § 18-2 (Smith-Hurd Ann., 1966 Supp.)'
+    history: '1943, May 11, Laws 1943, vol. 2, p. 1, § 18-2; 1957, July 6, Laws 1957, p. 1452, § 1; 1957, July 10, Laws 1957, p. 2397, § 1; 1959, July 15, Laws 1959, p. 1116, § 1; 1963, Aug. 7, Laws 1963, p. 2532, § 1'
+    span: '1960..1966'
+    span_basis: 'printed as in force (PPH); the 1963 amendment''s change not shown'
+    sources:
+    - {ref: PPH, page: '46', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=50', ground: seen}
+    check: 'whether the 1963 amendment (Laws 1963, p. 2532) changed the hours'
+  compiled_only: true
+- st: IN
+  name: Indiana
+  rows:
+  - elections: [all]
+    applies: 'statewide; after 16:00 the board may close, by unanimous consent, when all have voted or twenty minutes pass without a ballot; never open after 18:00'
+    open: '06:00'
+    close: '16:00-18:00'
+    law: 'Ind. Ann. Stat. § 29-5030 (Burns 1949 Replacement, 1963 Supp.)'
+    history: 'Acts 1945, ch. 208, § 269, p. 680'
+    span: '1960..1966'
+    span_basis: 'the history note, 1945; printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 47', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=51', ground: seen}
+  compiled_only: true
+  notes: 'Table A gives 6 a.m. to 6 p.m.; the section lets the board close from 4 p.m. Indiana had no official State time (PPH; sources/daylight-time.yaml): the hour is each place''s clock.'
+- st: KS
+  name: Kansas
+  rows:
+  - elections: [general, primary, special, municipal]
+    applies: 'all places but cities of the first and second class; county commissioners may fix, for a precinct outside such a city on the township board''s written application, an opening not before 06:00 and a closing not after 19:00'
+    open: '08:00'
+    close: '18:00'
+    law: 'Kan. Gen. Stat. Ann. § 25-106 (1949, 1965 Supp.)'
+    history: 'L. 1917, ch. 182, § 1; R.S. 1923, 25-106; L. 1941, ch. 224, § 1; L. 1949, ch. 252, § 1; June 30'
+    span: '1960..1966'
+    span_basis: 'the history note''s last change 1949; printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 48-49', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=52', ground: seen}
+  - elections: [general, primary, special, municipal]
+    applies: 'cities of the first class, and of the second class whose governing body so provides by ordinance; a first-class city may by ordinance fix 07:00 to 19:00'
+    open: '06:00'
+    close: '19:00'
+    law: 'Kan. Gen. Stat. Ann. § 25-106 (1949, 1965 Supp.)'
+    span: '1960..1966'
+    span_basis: 'as above'
+    sources:
+    - {ref: PPH, page: '48-49', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=52', ground: seen}
+  compiled_only: true
+  notes: 'Western Kansas lies partly in the mountain zone (sources/daylight-time.yaml). A separate first-class cities provision (§ 13-302) was repealed by L. 1965, ch. 127, § 1 (PPH 49).'
+- st: KY
+  name: Kentucky
+  rows:
+  - elections: [general]
+    applies: statewide
+    open: '06:00'
+    close: '17:00'
+    clock: 'Standard Time'
+    law: 'Ky. Rev. Stat. § 118.040 (1962)'
+    span: '1960..1963'
+    span_basis: 'Table A (PPH 14) gives 6 a.m. to 5 p.m. from KRS 1962; Pastore (PPH 1): "In 1962, in western Kentucky, the polls closed at 6 o''clock, New York time", 5 p.m. central standard'
+    sources:
+    - {ref: PPH, page: '1, 14 (Table A)', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=5', ground: seen}
+  - elections: [general]
+    applies: statewide
+    open: '06:00'
+    close: '18:00'
+    clock: 'Standard Time'
+    law: 'Ky. Rev. Stat. § 118.040 (Baldwin''s, 1964, 1966 Sess. Laws)'
+    history: 'As amended L. 1964, ch. 53'
+    span: '1964..1966'
+    span_basis: 'the appendix prints "6 [5] pm.", the new hour and the old in brackets, as amended 1964 (PPH 49)'
+    sources:
+    - {ref: PPH, page: '49', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=53', ground: seen}
+    - {ref: 'Journal of the Senate of Kentucky, 1964 (H.B. 198, "AN ACT relating to voting hours", printed: "until 6 [5] p.m., Standard Time", the bracket the words struck)', page: '571', url: 'https://archive.org/details/jsencoky1964/page/n576/mode/1up', ground: seen}
+    check: 'Table A (Dec. 1966) still gives 5 p.m.; the bill''s text read in the Journal, the act (L. 1964, ch. 53) and its effective date not read'
+  - elections: [primary]
+    applies: 'statewide; the primary on the first Tuesday after the fourth Monday in May'
+    open: '06:00'
+    close: '17:00'
+    law: 'Ky. Rev. Stat. § 119.040 (1962), before L. 1966, ch. 102'
+    span: '1960..1965'
+    span_basis: 'the bracketed words of H.B. 7 of 1966 (the hour struck, 5:00 P.M.) and PPH 50'
+    sources:
+    - {ref: 'Journal of the House of Representatives of Kentucky, 1966 (H.B. 7)', page: '675', url: 'https://archive.org/details/jhouseky1966v1/page/n680/mode/1up', ground: seen}
+    - {ref: PPH, page: '49-50', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=53', ground: seen}
+  - elections: [primary]
+    applies: 'statewide; the primary on the first Tuesday after the fourth Monday in May'
+    open: '06:00'
+    close: '18:00'
+    law: 'Ky. Rev. Stat. § 119.040 (Baldwin''s, 1966 Sess. Laws)'
+    history: 'As amended L. 1966, ch. 102 ("6:00 [5:00] P.M.")'
+    span: '1966..1966'
+    span_basis: 'as amended 1966 (PPH 49-50); before it, 5 p.m. by the bracket (the Journals print struck words in brackets)'
+    sources:
+    - {ref: PPH, page: '49-50', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=53', ground: seen}
+    - {ref: 'Journal of the House of Representatives of Kentucky, 1966 (H.B. 7, "AN ACT relating to primary elections": "6:00 [5:00] P.M.")', page: '675', url: 'https://archive.org/details/jhouseky1966v1/page/n680/mode/1up', ground: seen}
+    check: 'the Journal of 1968 prints H.B. 23 moving the primary to the third Saturday in August, 6 a.m. to 6 p.m.; whether enacted, and from when, not read (the primary of 1968 was held in May)'
+  compiled_only: false
+  leads:
+  - 'Kentucky Acts 1964, ch. 53, and 1966, ch. 102 (not found open; the bills'' texts read in the Journals, jsencoky1964 and jhouseky1966v1); H.B. 23 of 1968 (the August primary)'
+- st: LA
+  name: Louisiana
+  rows:
+  - elections: [all]
+    applies: statewide; all elections completed in one day
+    open: '06:00'
+    close: '19:00'
+    law: 'La. Rev. Stat. § 18:551 (1950, 1965 Supp.)'
+    span: '1966..1966'
+    span_basis: 'printed as in force (PPH 50)'
+    sources:
+    - {ref: PPH, page: '50', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=54', ground: seen}
+    check: 'Table A (PPH 14) gives 6 a.m. to 8 p.m. under § 18:1181 (West''s 1950); the appendix 6 a.m. to 7 p.m. under § 18:551. Which governed the general election and which the primaries'
+  compiled_only: true
+  leads:
+  - 'La. Rev. Stat. §§ 18:551 and 18:1181 as in force 1960-68, and the primary law (the Democratic primaries and runoffs, which the State ran)'
+- st: MA
+  name: Massachusetts
+  rows:
+  - elections: [general]
+    applies: 'cities: opened as early as 05:45 and by 10:00, open at least ten hours, never after 20:00; the warrant states the hours'
+    open: '05:45-10:00'
+    close: '20:00'
+    law: 'Mass. Gen. Laws ch. 54, § 64 (1965 Supp.)'
+    history: 'As amended St. 1934, c. 39, § 5; St. 1949, c. 109, § 2'
+    span: '1960..1966'
+    span_basis: 'the history note''s last change 1949; printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 52', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56', ground: seen}
+  - elections: [general]
+    applies: 'towns: opened as early as 05:45 and by noon, open at least four hours and until the time in the warrant; never after 20:00'
+    open: '05:45-12:00'
+    close: '20:00'
+    law: 'Mass. Gen. Laws ch. 54, § 64 (1965 Supp.)'
+    span: '1960..1966'
+    span_basis: 'as above'
+    sources:
+    - {ref: PPH, page: '52', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56', ground: seen}
+    check: 'the closing hour is the warrant''s, 20:00 at the latest; "close at 8 p.m." in Table A is the limit'
+  compiled_only: true
+- st: MD
+  name: Maryland
+  rows:
+  - elections: [all]
+    applies: 'counties: opened between 06:00 and 08:00 as the county board of supervisors of elections determines'
+    open: '06:00-08:00'
+    close: '19:00'
+    law: 'Md. Ann. Code art. 33, § 102 (1957, 1966 Supp.)'
+    history: '1957, ch. 739, § 1'
+    span: '1960..1966'
+    span_basis: 'the history note, 1957; printed as in force (PPH)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 51', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55', ground: seen}
+  - elections: [all]
+    applies: Baltimore City
+    open: '06:00'
+    close: '19:00'
+    law: 'Md. Ann. Code art. 33, § 102 (1957, 1966 Supp.)'
+    span: '1960..1966'
+    span_basis: 'as above'
+    sources:
+    - {ref: PPH, page: '51', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55', ground: seen}
+  compiled_only: true
+  notes: 'Table A gives the counties 7 a.m.; § 102 lets the county boards open from 6 to 8 a.m.'
+- st: ME
+  name: Maine
+  rows:
+  - elections: [all]
+    applies: 'each municipality, its officers fixing the opening between 06:00 and 10:00; a municipality of 300 or less may close between 17:00 and 19:00; a voting place using machines alone may stay open to 21:00'
+    open: '06:00-10:00'
+    close: '19:00'
+    law: 'Me. Rev. Stat. tit. 21, § 741 (1964); enacted as § 78 of the election law of 1961'
+    history: 'P.L. 1961, c. 360, § 78 ("An Act Revising the Election Laws")'
+    effective: '1961-09-16'
+    span: '1962..1964'
+    span_basis: 'the act of 1961, read; changed by P.L. 1965, c. 108 (below). Table A (PPH 14) prints this rule, from the Revised Statutes of 1964, with 8 p.m. for machines'
+    sources:
+    - {ref: 'Public Laws of Maine 1961, c. 360, § 78', page: '600', url: 'https://lldc.mainelegislature.org/Open/Laws/1961/1961_PL_c360.pdf#page=32', ground: seen}
+    - {ref: PPH, page: '14 (Table A)', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=18', ground: seen}
+    check: 'Table A gives 8 p.m. for machine places; the 1961 act 9 p.m.'
+  - elections: [all]
+    applies: 'each municipality, its officers fixing the opening between 06:00 and 10:00; the polls close at 20:00 unless every registered voter has voted; a voting place using machines alone may stay open to 21:00'
+    open: '06:00-10:00'
+    close: '20:00'
+    law: 'Me. Rev. Stat. tit. 21, § 741 (1964, 1965 Supp.)'
+    history: 'P.L. 1965, c. 108 ("An Act Relating to Time Polls Must Remain Open on Election Day"): 7 p.m. struck, 8 p.m. put in; the small towns'' option struck'
+    effective: '1965-09-03'
+    span: '1966..1966'
+    span_basis: 'the act of 1965, read; printed as in force (PPH 51)'
+    sources:
+    - {ref: 'Public Laws of Maine 1965, c. 108', page: '192', url: 'https://lldc.mainelegislature.org/Open/Laws/1965/1965_PL_c108.pdf', ground: seen}
+    - {ref: PPH, page: '51', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=55', ground: seen}
+  compiled_only: false
+  leads:
+  - 'the hours of Nov. 8, 1960, under the Revised Statutes of 1954 before the 1961 act (the Law and Legislative Digital Library''s 1957-59 laws, a PDF a chapter)'
+- st: MI
+  name: Michigan
+  rows:
+  - elections: [all]
+    applies: statewide
+    open: '07:00'
+    close: '20:00'
+    clock: 'eastern standard time, unless otherwise specified; a county observing central standard time may by its board of supervisors'' resolution use it'
+    law: 'Mich. Stat. Ann. §§ 6.1720, 6.1721 (1956 Rev., 1965 Supp.) (Mich. Comp. Laws §§ 168.720, 168.721)'
+    history: 'C.L. ''48, §§ 168.720, 168.721 (the Michigan Election Law, Act 116, P.A. 1954, §§ 720, 721)'
+    span: '1960..1966'
+    span_basis: 'printed as in force (PPH); the same section 720 in a legal notice of 1963 (below)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 52', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56', ground: seen}
+    - {ref: 'Escanaba Daily Press, Mar. 30, 1963, "Notice Relative to Opening and Closing of the Polls, Election Law Act 116, P.A. 1954, Section 720" (the OCR read)', page: 'leaf 4', url: 'https://archive.org/details/escanaba-daily-press-1963-03-30/page/n4/mode/1up', ground: seen}
+  compiled_only: false
+  notes: 'Michigan law fixed eastern standard time for the hours; the four western counties of the Upper Peninsula kept central time (sources/daylight-time.yaml). Pastore (PPH 1) on the network''s call of Romney''s election, 1962.'
+- st: MN
+  name: Minnesota
+  rows:
+  - elections: [general, primary]
+    applies: 'statewide; a municipality of less than 1,000 may by resolution open between 07:00 and 09:00 (from 1965 only one entirely outside the metropolitan area)'
+    open: '07:00'
+    close: '20:00'
+    clock: '"some standard of time" the judges agree upon before the polls open (subd. 2)'
+    law: 'Minn. Stat. § 204.03 (1961)'
+    history: '1959 c 675 art 5 s 3; amended Laws 1965, c. 325 (approved May 4, 1965), the local option narrowed'
+    span: '1960..1966'
+    span_basis: 'the election code of 1959, read in the Statutes of 1961 and Laws 1965, c. 325; printed as in force (PPH)'
+    sources:
+    - {ref: 'Minnesota Statutes 1961, § 204.03', page: '1988', url: 'https://www.revisor.mn.gov/statutes/1961/cite/204/pdf', ground: seen}
+    - {ref: 'Session Laws of Minnesota 1965, c. 325', page: '461', url: 'https://www.revisor.mn.gov/laws/1965/0/Session+Law/Chapter/325/pdf/', ground: seen}
+    - {ref: PPH, page: '14 (Table A), 52-53', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56', ground: seen}
+  compiled_only: false
+- st: MO
+  name: Missouri
+  rows:
+  - elections: [general, municipal]
+    applies: 'statewide, but the places below; open until sunset where the sun sets after 19:00'
+    open: '06:00'
+    close: '19:00'
+    law: 'Mo. Rev. Stat. § 111.370 (Vernon''s 1966 Rev.)'
+    span: '1966..1966'
+    span_basis: 'printed as in force (PPH 53); no history note printed'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 53', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=57', ground: seen}
+    check: 'the sunset clause: sunset in Missouri falls before 7 p.m. at every November election, after it at the August primaries'
+  - elections: [general, municipal]
+    applies: 'first-class counties with charter government, second-class counties holding part of a city over 400,000, cities of 25,000 or more; and Clay County (§ 119.455), cities of 300,000 to 700,000 (§ 117.520)'
+    open: '06:00'
+    close: '19:00'
+    law: 'Mo. Rev. Stat. §§ 111.370, 117.520, 119.455 (Vernon''s 1966 Rev.)'
+    span: '1966..1966'
+    span_basis: 'printed as in force (PPH 53-54)'
+    sources:
+    - {ref: PPH, page: '53-54', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=57', ground: seen}
+  compiled_only: true
+  leads:
+  - 'the history of § 111.370 (Missouri Digital Heritage''s CONTENTdm, molaws, full text): whether the hours held 1960-66'
+- st: MS
+  name: Mississippi
+  rows:
+  - elections: [general]
+    applies: statewide
+    open: '07:00'
+    close: '18:00'
+    law: 'Miss. Code Ann. § 3267 (1942, 1964 Supp.)'
+    span: '1964..1966'
+    span_basis: 'printed as in force from the 1964 supplement (PPH 53); no history note printed'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 53', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=57', ground: seen}
+  compiled_only: true
+  leads:
+  - 'the history of § 3267 (in the 1964 Supplement: an amendment of the period?) and the primary law (§ 3109 and kin): not found open'
+- st: MT
+  name: Montana
+  rows:
+  - elections: [all]
+    applies: 'precincts of 100 registered electors or more; closed at once where every registered elector has voted'
+    open: '08:00'
+    close: '20:00'
+    law: 'Mont. Rev. Codes § 23-1202 (1947)'
+    history: 'amd. Sec. 1, Ch. 207, L. 1955 (the history note in each edition read)'
+    span: '1960..1968'
+    span_basis: 'the same text in the Election Laws of 1956, 1962 and 1968, read; printed as in force (PPH)'
+    sources:
+    - {ref: 'Election Laws of the State of Montana, 1956', page: '214', url: 'https://archive.org/details/electionlawsofst1956montrich/page/n223/mode/1up', ground: seen}
+    - {ref: 'Election Laws of the State of Montana, 1962', page: '236-37', url: 'https://archive.org/details/electionlawsofst1962montrich/page/n244/mode/1up', ground: seen}
+    - {ref: 'Election Laws of the State of Montana, 1968', page: '251', url: 'https://archive.org/details/electionlawsofst1968montrich/page/n258/mode/1up', ground: seen}
+    - {ref: PPH, page: '14 (Table A), 54', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=58', ground: seen}
+  - elections: [all]
+    applies: 'precincts of fewer than 100 registered electors'
+    open: '13:00'
+    close: '20:00'
+    law: 'Mont. Rev. Codes § 23-1202 (1947)'
+    span: '1960..1968'
+    span_basis: 'as above'
+    sources:
+    - {ref: 'Election Laws of the State of Montana, 1962', page: '236-37', url: 'https://archive.org/details/electionlawsofst1962montrich/page/n244/mode/1up', ground: seen}
+    - {ref: PPH, page: '54', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=58', ground: seen}
+  compiled_only: false
+  notes: 'Table A: "Not later than 1 p.m."; the section: "must be opened at one o''clock in the afternoon".'
+- st: NC
+  name: North Carolina
+  rows:
+  - elections: [all]
+    applies: 'statewide, all primaries and elections, local and municipal included; where voting machines are used the county board may let the polls close at 19:30'
+    open: '06:30'
+    close: '18:30'
+    clock: 'Eastern Standard Time'
+    law: 'N.C. Gen. Stat. § 163-179 (1952 Recomp., 1964 Replacement, 1965 Supp.)'
+    history: '1929, c. 164, s. 33; 1937, cc. 258, 457; 1941, c. 222; 1955, c. 1064'
+    span: '1960..1967'
+    span_basis: 'the same text and history in the State Board of Elections'' Election Laws of 1959 and 1966, read; printed as in force (PPH)'
+    sources:
+    - {ref: 'Election Laws of the State of North Carolina, 1959', page: '91', url: 'https://archive.org/details/electionlawsofst00nort/page/n90/mode/1up', ground: seen}
+    - {ref: 'Election Laws of the State of North Carolina, 1966', page: '96-97', url: 'https://archive.org/details/electionlawsofst00nort_2/page/n97/mode/1up', ground: seen}
+    - {ref: PPH, page: '15 (Table A), 61', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=65', ground: seen}
+  - elections: [all]
+    applies: 'statewide, all primaries, elections and referenda, municipal included; at voting places using machines the county board may let the polls close at 19:30'
+    open: '06:30'
+    close: '18:30'
+    law: 'N.C. Gen. Stat. § 163-2 (as recodified by ch. 775, Session Laws 1967)'
+    history: '1967, c. 775'
+    span: '1968..1968'
+    span_basis: 'the State Board''s Election Laws 1967-1968, "As Recodified by Chapter 775 Session Laws 1967", read: the same hours, "Eastern Standard Time" dropped'
+    sources:
+    - {ref: 'Election Laws of the State of North Carolina, 1967-1968', page: '14', url: 'https://archive.org/details/electionlawsofst00nort_3/page/14/mode/1up', ground: seen}
+    check: 'the recodification''s effective date (Jan. 1, 1968?) and whether the primary of May 4, 1968 ran under it'
+  compiled_only: false
+- st: ND
+  name: North Dakota
+  rows:
+  - elections: [primary, general, special]
+    applies: 'statewide; opened at 09:00 or earlier, not before 07:00, and closed at 19:00 or later, not after 20:00, as the governing body of the city, village or township designates for a precinct'
+    open: '07:00-09:00'
+    close: '19:00-20:00'
+    law: 'N.D. Cent. Code § 16-01-02 (1965 Supp.)'
+    history: 'S.L. 1961, ch. 172, § 1 (S.B. 284), approved Mar. 11, 1961'
+    span: '1962..1966'
+    span_basis: 'the act of 1961, read; printed as in force (PPH 62)'
+    sources:
+    - {ref: 'Laws of North Dakota 1961, ch. 172', page: '259', url: 'https://ndlegis.gov/assembly/sessionlaws/1961/pdf/ELECT.pdf#page=1', ground: seen}
+    - {ref: PPH, page: '15 (Table A), 62', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=66', ground: seen}
+  compiled_only: false
+  notes: 'Southwestern North Dakota kept mountain time, most of it in the central zone by law (sources/daylight-time.yaml).'
+  leads:
+  - 'the hours of 1960, before the 1961 act (N.D. Cent. Code 1960, § 16-01-02): the act does not mark the words it changed'
+- st: NE
+  name: Nebraska
+  rows:
+  - elections: [all]
+    applies: statewide
+    open: '08:00'
+    close: '20:00'
+    law: 'Neb. Rev. Stat. § 32-445 (Reissue 1952, 1963, 1965 Sess. Laws)'
+    span: '1966..1966'
+    span_basis: 'printed as in force (PPH 55); no history note printed'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 55', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=59', ground: seen}
+  compiled_only: true
+  leads:
+  - 'the history of § 32-445 (whether the hours held 1960-66): the session laws are by subscription only'
+- st: NH
+  name: New Hampshire
+  rows:
+  - elections: [general]
+    applies: 'towns of less than 700: open at least five consecutive hours, longer as needed for every voter present; kept open to 18:00 on the written request of seven registered voters; a town under 100 may close when all on the checklist have voted'
+    open: null
+    close: null
+    law: 'N.H. Rev. Stat. Ann. § 59:41'
+    span: '1966..1966'
+    span_basis: 'Table A''s remarks (PPH 15); the section is not quoted in the appendix'
+    sources:
+    - {ref: PPH, page: '15 (Table A)', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19', ground: seen}
+  - elections: [general]
+    applies: 'other towns: open not later than 10:00, close not earlier than 18:00; kept open to 19:00 on the written request of ten registered voters'
+    open: '10:00'
+    close: '18:00-19:00'
+    law: 'N.H. Rev. Stat. Ann. § 59:41'
+    span: '1966..1966'
+    span_basis: 'Table A''s remarks (PPH 15)'
+    sources:
+    - {ref: PPH, page: '15 (Table A)', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19', ground: seen}
+    check: '"open not later than 10 a.m." read as the latest opening'
+  - elections: [general]
+    applies: 'cities: open not less than four hours, not earlier than 06:00 nor later than 20:00'
+    open: '06:00'
+    close: '20:00'
+    law: 'N.H. Rev. Stat. Ann. § 59:42'
+    span: '1966..1966'
+    span_basis: 'Table A''s remarks (PPH 15)'
+    sources:
+    - {ref: PPH, page: '15 (Table A)', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19', ground: seen}
+    check: 'the earliest opening and the latest closing; the hours each city''s council fixes'
+  - elections: [primary]
+    applies: 'towns: open not less than four hours and until the voters present vote to close; cities: not less than four hours, between 06:00 and 20:00 as the city council determines thirty days before'
+    open: '06:00'
+    close: '20:00'
+    law: 'N.H. Rev. Stat. Ann. § 57:3 (Primary and Election Laws, 1966)'
+    span: '1966..1966'
+    span_basis: 'printed as in force (PPH 57)'
+    sources:
+    - {ref: PPH, page: '57', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=61', ground: seen}
+  compiled_only: true
+  notes: 'The hours are each town''s and city''s; the latest closing the law allows, 20:00 in the cities, is the bound of the election-night range.'
+  leads:
+  - 'RSA 59:41-42 and 57:3 as in force 1960-64, and each town''s hours: the Laws of the State of New Hampshire 1955-71 (archive.org, lawsofstateofnewYYYYnewh) and the towns'' annual reports (their warrants state the hours)'
+- st: NJ
+  name: New Jersey
+  rows:
+  - elections: [general]
+    applies: statewide
+    open: '07:00'
+    close: '20:00'
+    law: 'N.J. Stat. Ann. § 19:15-2 (1964 Rev.)'
+    span: '1964..1966'
+    span_basis: 'printed as in force (PPH 57); no history note printed'
+    sources:
+    - {ref: PPH, page: '15 (Table A), 57', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=61', ground: seen}
+  compiled_only: true
+  leads:
+  - 'the history of § 19:15-2 and the primary''s hours (§ 19:23-?), 1960-68, and the odd-year elections (governor, 1961, 1965)'
+- st: NM
+  name: New Mexico
+  rows:
+  - elections: [general]
+    applies: 'statewide; no voter admitted after 19:00, those inside with names in the poll book may vote'
+    open: '08:00'
+    close: '19:00'
+    law: 'N.M. Stat. Ann. § 3-3-27 (1953, 1965 Supp.)'
+    span: '1966..1966'
+    span_basis: 'printed as in force (PPH 58); no history note printed'
+    sources:
+    - {ref: PPH, page: '15 (Table A), 58', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=62', ground: seen}
+  compiled_only: true
+- st: NV
+  name: Nevada
+  rows:
+  - elections: [all]
+    applies: 'statewide, but counties of more than 25,000 registered voters; closed when every voter on the roster has voted'
+    open: '08:00'
+    close: '18:00'
+    law: 'Nev. Rev. Stat. § 293.273 (1966 Election Law)'
+    history: 'Added to NRS by 1960, 252'
+    span: '1960..1966'
+    span_basis: 'added by the Statutes of 1960 (p. 252); printed as in force (PPH 56)'
+    sources:
+    - {ref: PPH, page: '14 (Table A), 56', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=60', ground: seen}
+    check: 'whether the 1960 act governed the primary and general elections of 1960 (Statutes of Nevada 1960, p. 252)'
+  - elections: [all]
+    applies: 'counties of more than 25,000 registered voters (Clark, Washoe)'
+    open: '07:00'
+    close: '19:00'
+    law: 'Nev. Rev. Stat. § 293.273(2) (1966 Election Law)'
+    span: '1960..1966'
+    span_basis: 'as above'
+    sources:
+    - {ref: PPH, page: '56', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=60', ground: seen}
+    check: 'Table A sets 8 a.m.-6 p.m. against the large counties and 7 a.m.-7 p.m. against the rest, the reverse of the section''s words'
+  compiled_only: true
+  leads:
+  - 'Statutes of Nevada 1960, p. 252, and any change 1961-67 (leg.state.nv.us/Statutes)'
+- st: NY
+  name: New York
+  rows:
+  - elections: [general]
+    applies: 'statewide, the presidential elections of 1960 and 1964'
+    open: '06:00'
+    close: '21:00'
+    law: 'N.Y. Election Law § 191(2) (McKinney''s), before L. 1965, c. 1070: not read'
+    span: '1960..1960'
+    span_basis: 'the Kingston Daily Freeman (Ulster County), Nov. 7, 1960: "Polls Open 6 A. M., Close 9 P. M. November 8" (the Democratic State Committee''s advertisement) and "POLLS OPEN 6 A. M. to 9 P. M."'
+    sources:
+    - {ref: 'Kingston Daily Freeman, Nov. 7, 1960', page: '7, 15', url: 'https://archive.org/details/kingston-daily-freeman-1960-11-07/page/n23/mode/1up', ground: seen}
+    check: 'the law (§ 191 as in force 1960-64, a presidential year''s longer hours?) not read: the newspapers read are the ground'
+  - elections: [general]
+    applies: 'statewide, the election of 1962'
+    open: '06:00'
+    close: '19:00'
+    law: 'N.Y. Election Law § 191(2) (McKinney''s), before L. 1965, c. 1070: not read'
+    span: '1962..1962'
+    span_basis: 'the Kingston Daily Freeman, Nov. 5, 1962, front page: "Polls for Voting Open Tuesday 6 A.M.-7 P.M." (also Nov. 2, 1959: "Election Day, polls open 6 a. m. to 7 p. m.")'
+    sources:
+    - {ref: 'Kingston Daily Freeman, Nov. 5, 1962', page: '1', url: 'https://archive.org/details/kingston-daily-freeman-1962-11-05/page/n0/mode/1up', ground: seen}
+    - {ref: 'Kingston Daily Freeman, Nov. 2, 1959', page: 'the week''s calendar', url: 'https://archive.org/details/kingston-daily-freeman-1959-11-02/page/n46/mode/1up', ground: seen}
+    check: 'Pastore (PPH 1-2), "New York polls close 4 hours earlier than do those of California", fits a 7 p.m. closing'
+  - elections: [general]
+    applies: 'statewide, the presidential election of 1964'
+    open: '06:00'
+    close: '21:00'
+    law: 'N.Y. Election Law § 191(2) (McKinney''s), before L. 1965, c. 1070: not read'
+    span: '1964..1964'
+    span_basis: 'the Kingston Daily Freeman, Nov. 2, 1964, front page: "Polls Are Open on Tuesday 6 A. M. to 9 P. M."; Nov. 3: Keating "would campaign until the polls close at 9 p.m. in New York"'
+    sources:
+    - {ref: 'Kingston Daily Freeman, Nov. 2, 1964', page: '1', url: 'https://archive.org/details/kingston-daily-freeman-1964-11-02/page/n0/mode/1up', ground: seen}
+    - {ref: 'Kingston Daily Freeman, Nov. 3, 1964', page: '1', url: 'https://archive.org/details/kingston-daily-freeman-1964-11-03', ground: seen}
+  - elections: [general]
+    applies: statewide
+    open: '06:00'
+    close: '21:00'
+    law: 'N.Y. Election Law § 191(2) (McKinney''s 1964 Rev., 1966 Supp.)'
+    history: 'As amended, L. 1965, c. 1070, eff. Jan. 1, 1966; L. 1966, c. 4, eff. Feb. 1, 1966'
+    effective: '1966-01-01'
+    span: '1966..1968'
+    span_basis: 'printed as in force (PPH 59); Table A 6 a.m. to 9 p.m.; the Kingston Daily Freeman, Nov. 7, 1966 ("ALL POLLS OPEN from 6 a. m. to 9 p. m.") and Nov. 4, 1968 ("6 a. m.--Election polls open, continue until 9 p. m.")'
+    sources:
+    - {ref: PPH, page: '15 (Table A), 59', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=63', ground: seen}
+    - {ref: 'Kingston Daily Freeman, Nov. 7, 1966', page: 'an advertisement', url: 'https://archive.org/details/kingston-daily-freeman-1966-11-07', ground: seen}
+    - {ref: 'Kingston Daily Freeman, Nov. 4, 1968', page: 'the day''s calendar', url: 'https://archive.org/details/kingston-daily-freeman-1968-11-04/page/n8/mode/1up', ground: seen}
+  - elections: [primary]
+    applies: 'statewide but New York City'
+    open: '12:00'
+    close: '21:00'
+    law: 'N.Y. Election Law § 191(2) (1966 Supp.)'
+    span: '1966..1966'
+    span_basis: 'printed as in force (PPH 59)'
+    sources:
+    - {ref: PPH, page: '59', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=63', ground: seen}
+  - elections: [primary]
+    applies: 'New York City'
+    open: '15:00'
+    close: '22:00'
+    law: 'N.Y. Election Law § 191(2) (1966 Supp.)'
+    span: '1966..1966'
+    span_basis: 'printed as in force (PPH 59)'
+    sources:
+    - {ref: PPH, page: '59', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=63', ground: seen}
+  - elections: [special]
+    applies: 'special elections the governor calls, and every other election unless law provides otherwise; in 1966 the governor''s specials 06:00 to 21:00 (subd. 2-a)'
+    open: '06:00'
+    close: '19:00'
+    law: 'N.Y. Election Law § 191(2), (2-a) (1966 Supp.)'
+    span: '1966..1966'
+    span_basis: 'printed as in force (PPH 59)'
+    sources:
+    - {ref: PPH, page: '59', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=63', ground: seen}
+  compiled_only: false
+  leads:
+  - 'N.Y. Election Law § 191 as in force 1960-65 (the newspapers give 6 a.m. to 9 p.m. in 1960 and 1964, 6 a.m. to 7 p.m. in 1959 and 1962: a presidential year''s longer hours by law?), the primary hours of 1960-64 and the act of 1965 (L. 1965, c. 1070): the Laws of New York not found open'
+- st: OH
+  name: Ohio
+  rows:
+  - elections: [all]
+    applies: 'statewide; kept open past the hour for voters waiting in line'
+    open: '06:30'
+    close: '18:30'
+    law: 'Ohio Rev. Code Ann. § 3501.32 (Page''s 1960 Replacement)'
+    history: 'GC § 4785-123'
+    span: '1960..1966'
+    span_basis: 'Table A (PPH 15) from the 1960 replacement volume; the appendix (PPH 62-63) prints the closing, "at six-thirty p.m.", its opening lost in the OCR'
+    sources:
+    - {ref: PPH, page: '15 (Table A), 62-63', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=19', ground: seen}
+    check: 'the opening hour is Table A''s; the appendix''s line is cut'
+  compiled_only: true
+- st: OK
+  name: Oklahoma
+  rows:
+  - elections: [all]
+    applies: 'statewide, but the cities of the first class; the county election board may open a precinct at 06:00 on the written demand of three electors'
+    open: '08:00'
+    close: '18:00'
+    law: 'Okla. Stat. tit. 26, § 251 (1961; Election Law Ann. 1965)'
+    span: '1961..1966'
+    span_basis: 'printed as in force from O.S. 1961 (PPH 63)'
+    sources:
+    - {ref: PPH, page: '15 (Table A), 63', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67', ground: seen}
+  - elections: [all]
+    applies: 'cities of the first class and the precincts surrounding, bounding or adjoining them'
+    open: '07:00'
+    close: '19:00'
+    law: 'Okla. Stat. tit. 26, § 251 (1961)'
+    span: '1961..1966'
+    span_basis: 'as above'
+    sources:
+    - {ref: PPH, page: '63', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=67', ground: seen}
+  compiled_only: true
+- st: OR
+  name: Oregon
+  rows:
+  - elections: [all]
+    applies: statewide
+    open: '08:00'
+    close: '20:00'
+    law: 'Or. Rev. Stat. § 250.340 (Election Laws 1965-67)'
+    history: 'Amended by 1957 c. 608 § 139'
+    span: '1960..1966'
+    span_basis: 'the history note''s last change 1957; printed as in force (PPH 64)'
+    sources:
+    - {ref: PPH, page: '15 (Table A), 64', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=68', ground: seen}
+  compiled_only: true
+  notes: 'Most of Malheur County is in the mountain zone (sources/daylight-time.yaml).'
+- st: PA
+  name: Pennsylvania
+  rows:
+  - elections: [primary, general]
+    applies: statewide
+    open: '07:00'
+    close: '20:00'
+    clock: 'Eastern Standard Time'
+    law: 'Pa. Stat. Ann. tit. 25, § 3045 (Purdon''s, 1964 Supp.) (the Election Code, art. XII, § 1205)'
+    history: '1937 June 3, P.L. 1333, art. XII, § 1205'
+    span: '1960..1966'
+    span_basis: 'the history note: the code of 1937, no later change; printed as in force (PPH 65)'
+    sources:
+    - {ref: PPH, page: '15 (Table A), 65', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=69', ground: seen}
+  compiled_only: true
+  notes: 'Eastern standard time by the election law while some 600 communities kept daylight time (the uniform time hearings, sources/daylight-time.yaml): a May primary closed at 8 p.m. EST, 9 p.m. where the town kept daylight time.'
+- st: RI
+  name: Rhode Island
+  rows:
+  - elections: [general]
+    applies: 'each city and town at the hour the statute names for it: opening 06:30 (Newport, Warwick) to 10:00 (West Greenwich); closing 19:00 (Charlestown, Richmond), 19:30 (East Greenwich), 20:00 (most towns), 20:30 (Warwick), 21:00 (Bristol, Central Falls, Cranston, Cumberland, East Providence, Jamestown, Johnston, Lincoln, North Providence, North Smithfield, Pawtucket, Providence, Scituate, Smithfield, Woonsocket)'
+    open: '06:30-10:00'
+    close: '19:00-21:00'
+    law: 'R.I. Gen. Laws §§ 17-18-8, 17-18-10, 17-18-11 (1956, 1965 Supp.)'
+    span: '1966..1966'
+    span_basis: 'the town-by-town schedule printed as in force (PPH 66-68); no history note printed'
+    sources:
+    - {ref: PPH, page: '15 (Table A), 66-68', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=70', ground: seen}
+  compiled_only: true
+  notes: 'Table A gives the closing range 7 to 9 p.m.; the schedule has Warwick at 8:30 p.m. The State board began its count of absentee and shut-in ballots at 9 p.m. (§ 17-22-1, PPH 68).'
+  leads:
+  - 'the schedule as in force 1960-64 (each town''s hours are amended by its own acts): the Public Laws of Rhode Island not found open for the period'
+- st: SC
+  name: South Carolina
+  rows:
+  - elections: [all]
+    applies: 'statewide; in a primary the county committee may close any or all polls earlier'
+    open: '08:00'
+    close: '18:00'
+    law: 'S.C. Code § 23-342 (1952; 1962)'
+    history: '1950 (46) 2059'
+    span: '1960..1965'
+    span_basis: 'the Code of 1952, read; the same in the Code of 1962 as PPH prints it (p. 68; the OCR has "28-342"); to May 6, 1965'
+    sources:
+    - {ref: 'Code of Laws of South Carolina 1952, vol. 3, § 23-342', page: '473', url: 'https://archive.org/details/codeoflawsofsout03sout/page/n486/mode/1up', ground: seen}
+    - {ref: PPH, page: '15 (Table A), 68', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=72', ground: seen}
+  - elections: [all]
+    applies: 'statewide; in a primary the county committee may close any or all polls earlier'
+    open: '08:00'
+    close: '19:00'
+    law: 'S.C. Code § 23-342 (1962), as amended 1965'
+    history: 'Act No. 260 of 1965 (R372, S24): "six" struck, "seven" put in; §§ 23-342.1 (Aiken) and 23-342.3 (Union) repealed; approved May 6, 1965'
+    effective: '1965-05-06'
+    span: '1965..1968'
+    span_basis: 'the act, read, "effective upon approval by the Governor"; the Acts of 1966-68, searched, change it no further. PPH (1967) prints the section before the act'
+    sources:
+    - {ref: 'Acts and Joint Resolutions of South Carolina 1965, No. 260', page: '466-67', url: 'https://archive.org/details/actsjoints1965/page/n533/mode/1up', ground: seen}
+    check: 'PPH and Table A give 6 p.m. from the 1962 Code and its 1964 supplement: superseded by this act'
+  - elections: [all]
+    applies: 'Aiken County: open until 19:00'
+    open: '08:00'
+    close: '19:00'
+    law: 'S.C. Code § 23-342.1'
+    history: '1956 (49) 1799; repealed by Act No. 260 of 1965'
+    span: '1960..1965'
+    span_basis: 'the act of 1956 (PPH 68) to its repeal on May 6, 1965'
+    sources:
+    - {ref: PPH, page: '68', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=72', ground: seen}
+  - elections: [all]
+    applies: 'Lancaster County: any precinct may stay open as late as 20:00 where the precinct''s executive committeeman (from 1966, its managing body) judges it necessary, on two weeks'' notice'
+    open: '08:00'
+    close: '18:00-20:00'
+    law: 'S.C. Code § 23-342.2'
+    history: '1961 (52) 660, approved May 23, 1961 (R575, H1576)'
+    effective: '1961-05-23'
+    span: '1961..1968'
+    span_basis: 'the act of 1961, read; restated in the Acts of 1966 ("managing body")'
+    sources:
+    - {ref: 'Acts and Joint Resolutions of South Carolina 1961 (the Lancaster County act)', page: '660-61', url: 'https://archive.org/details/actsjoints1961/page/n724/mode/1up', ground: seen}
+    - {ref: PPH, page: '68', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=72', ground: seen}
+    check: 'the closing before the 20:00 option is the statewide hour (18:00 to May 1965, 19:00 after)'
+  - elections: [all]
+    applies: 'Oconee County: 07:00 to 19:00'
+    open: '07:00'
+    close: '19:00'
+    law: 'S.C. Code § 23-342.4'
+    history: 'Act No. 249 of 1965 (R355, H1537), approved May 5, 1965'
+    effective: '1965-05-05'
+    span: '1965..1968'
+    span_basis: 'the act, read'
+    sources:
+    - {ref: 'Acts and Joint Resolutions of South Carolina 1965, No. 249', page: '459', url: 'https://archive.org/details/actsjoints1965/page/n526/mode/1up', ground: seen}
+  - elections: [municipal]
+    applies: 'the city of Union: municipal elections may stay open until 19:00'
+    open: '08:00'
+    close: '19:00'
+    law: 'S.C. Code § 23-342.3'
+    history: '1956 (49) 1775; repealed by Act No. 260 of 1965'
+    span: '1960..1965'
+    span_basis: 'printed as in force (PPH 68) to its repeal'
+    sources:
+    - {ref: PPH, page: '68', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=72', ground: seen}
+  compiled_only: false
+  notes: 'County referendums and special elections set their own hours by local act (8 a.m. to 6 p.m. in Kershaw, Oconee and Pickens acts of 1960-61; a school trustee nominating election 8 a.m. to 7 p.m. from 1967): the Acts of 1959-68 searched.'
+  leads:
+  - 'the hours of the party primaries, which the parties ran under §§ 23-300 ff.: the county committee might close early'
+- st: SD
+  name: South Dakota
+  rows:
+  - elections: [all]
+    applies: statewide
+    open: '08:00'
+    close: '19:00'
+    law: 'S.D. Code § 16.1201 (1939; Primary and General Election Laws 1966)'
+    span: '1966..1966'
+    span_basis: 'printed as in force (PPH 69); no history note printed'
+    sources:
+    - {ref: PPH, page: '15 (Table A), 69', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=73', ground: seen}
+  compiled_only: true
+  notes: 'No public disclosure of returns until every precinct polling place in the State has closed (§ 16.2220; PPH 31, 69). Western South Dakota is in the mountain zone (sources/daylight-time.yaml).'
+- st: TN
+  name: Tennessee
+  rows:
+  - elections: [general]
+    applies: 'statewide but the cities below; the county commissioners of election, with the county court''s approval, may set other hours, not fewer than at the last general election before Apr. 10, 1953, at least seven, between 08:00 and 21:00, fixed fifteen days before'
+    open: '09:00'
+    close: '16:00'
+    law: 'Tenn. Code Ann. § 2-1301 (Election Laws 1965-66)'
+    history: 'Acts 1859-1860, ch. 75; 1909, ch. 156, § 1; Shan., § 1282; mod. Code 1932, § 2090; mod. C. Supp. 1950, § 2090; Acts 1953, ch. 266, § 1; 1959, ch. 46, § 1'
+    span: '1960..1966'
+    span_basis: 'the history note''s last change 1959; printed as in force (PPH 69)'
+    sources:
+    - {ref: PPH, page: '15 (Table A), 69', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=73', ground: seen}
+  - elections: [general]
+    applies: 'cities of 15,000 and over (the census of 1950 or later), and heavily populated suburban precincts the commissioners so order'
+    open: '09:00'
+    close: '19:00'
+    law: 'Tenn. Code Ann. § 2-1301 (Election Laws 1965-66)'
+    span: '1960..1966'
+    span_basis: 'as above'
+    sources:
+    - {ref: PPH, page: '69', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=73', ground: seen}
+  compiled_only: true
+  notes: 'The county''s hours, between 8 a.m. and 9 p.m., are the law''s outer bound; East Tennessee is in the eastern zone (sources/daylight-time.yaml).'
+- st: TX
+  name: Texas
+  rows:
+  - elections: [general, special, primary]
+    applies: 'statewide; a county under 100,000 may by order of its commissioners court open at 08:00, a county of 1,000,000 or more at 06:00'
+    open: '07:00'
+    close: '19:00'
+    law: 'Tex. Election Code art. 2.01 (Vernon''s Ann. Civ. Stat.; Election Laws 1965-66)'
+    span: '1964..1966'
+    span_basis: 'printed as in force (PPH 70); its text names the general election of 1964; no history note printed'
+    sources:
+    - {ref: PPH, page: '15 (Table A), 70', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=74', ground: seen}
+  compiled_only: true
+  notes: 'El Paso and Hudspeth Counties kept mountain time, in the central zone by law until 1970 (sources/daylight-time.yaml).'
+  leads:
+  - 'art. 2.01 as in force 1960-62 and its amendments (the Texas Legislative Reference Library gives each chapter by session and bill)'
+- st: UT
+  name: Utah
+  rows:
+  - elections: [all]
+    applies: statewide
+    open: '07:00'
+    close: '20:00'
+    law: 'Utah Code Ann. § 20-1-13 (General Election Laws 1966 Rev.)'
+    span: '1966..1966'
+    span_basis: 'printed as in force (PPH 71); no history note printed'
+    sources:
+    - {ref: PPH, page: '15 (Table A), 71', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=75', ground: seen}
+  compiled_only: true
+- st: VA
+  name: Virginia
+  rows:
+  - elections: [all]
+    applies: statewide
+    open: '06:00'
+    close: '19:00'
+    clock: 'eastern standard or daylight saving time, as in effect at the poll on election day under § 1-15'
+    law: 'Va. Code Ann. § 24-182 (Michie; Election Laws 1966 Rev.)'
+    history: 'Code 1919, § 152; 1946, p. 313; 1950, p. 452; 1958, ch. 160; 1962, ch. 536; 1966, ch. 116'
+    span: '1966..1966'
+    span_basis: 'printed as in force (PPH 72); amended in 1962 and 1966, the changes not shown'
+    sources:
+    - {ref: PPH, page: '15 (Table A), 72', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=76', ground: seen}
+    check: 'what the acts of 1962 (ch. 536) and 1966 (ch. 116) changed: the hours, or the clock clause (Virginia''s daylight time law of 1962)'
+  compiled_only: true
+  leads:
+  - 'Acts of Assembly 1962, ch. 536, and 1966, ch. 116; § 24-182 as in force 1960-61: not found open'
+- st: VT
+  name: Vermont
+  rows:
+  - elections: [primary, general]
+    applies: 'each municipality, at the time its legislative branch designates: not before 06:00, open at least nine consecutive hours, closed not after 19:00'
+    open: '06:00-10:00'
+    close: '15:00-19:00'
+    law: 'Vt. Stat. Ann. tit. 17, § 1048 (1963 Supp.)'
+    history: '1961, No. 198, § 2, eff. July 5, 1961'
+    effective: '1961-07-05'
+    span: '1962..1966'
+    span_basis: 'the act of 1961; printed as in force (PPH 72)'
+    sources:
+    - {ref: PPH, page: '15 (Table A), 72', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=76', ground: seen}
+    check: 'the ranges are worked from the section''s words (06:00 at the earliest, nine hours, 19:00 at the latest): the latest opening 10:00, the earliest closing 15:00'
+  compiled_only: true
+  notes: 'The board of civil authority began counting the State and congressional votes at 6 p.m. on the day of a general election (§ 1221, PPH 72): read beside the 7 p.m. closing, a check.'
+  leads:
+  - 'the hours of 1960, before Act No. 198 of 1961: the Acts and Resolves of Vermont not found open'
+- st: WA
+  name: Washington
+  rows:
+  - elections: [primary, general, special]
+    applies: 'statewide, the State primary and the State election, general or special'
+    open: '07:00'
+    close: '20:00'
+    law: 'Wash. Rev. Code § 29.13.080 (1964 Rev., 1965 Supp.)'
+    span: '1966..1966'
+    span_basis: 'printed as in force (PPH 73); no history note printed'
+    check: 'the reenactment of Title 29 in Laws 1965, ch. 9 (p. 803, read) gives 8 a.m. to 8 p.m. for every election and primary, without the 7 a.m. proviso; the act adding it (the 1965 extraordinary session?) not found'
+    sources:
+    - {ref: 'Session Laws of Washington 1965, ch. 9 (Title 29 reenacted), § 29.13.080', page: '803', url: 'https://archive.org/details/walaw-session-laws-1965/page/n802/mode/1up', ground: seen}
+    - {ref: PPH, page: '15 (Table A), 73', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=77', ground: seen}
+  - elections: [municipal]
+    applies: 'every other election and primary'
+    open: '08:00'
+    close: '20:00'
+    law: 'Wash. Rev. Code § 29.13.080 (1964 Rev., 1965 Supp.)'
+    span: '1966..1966'
+    span_basis: 'printed as in force (PPH 73)'
+    sources:
+    - {ref: PPH, page: '73', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=77', ground: seen}
+  compiled_only: false
+  notes: 'Table A gives 8 a.m. to 8 p.m., the section''s first rule; its proviso sets 7 a.m. for the State primary and election.'
+  leads:
+  - 'the history of § 29.13.080 (when the 7 a.m. proviso came in): the session laws of 1955-72 are on archive.org (walaw-session-laws-YYYY)'
+- st: WI
+  name: Wisconsin
+  rows:
+  - elections: [general]
+    applies: 'cities of 10,000 and over but the first class; a second- or third-class city may by ordinance open between 06:00 and 07:00 and close between 19:00 and 20:00'
+    open: '06:00'
+    close: '20:00'
+    law: 'Wis. Stat. § 6.35 (Election Laws 1963)'
+    span: '1963..1966'
+    span_basis: 'printed as in force (PPH 74); no history note printed'
+    sources:
+    - {ref: PPH, page: '16 (Table A), 74', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=78', ground: seen}
+  - elections: [general]
+    applies: 'cities of the first class (Milwaukee)'
+    open: '07:00'
+    close: '20:00'
+    law: 'Wis. Stat. § 6.35 (Election Laws 1963)'
+    span: '1963..1966'
+    span_basis: 'as above'
+    sources:
+    - {ref: PPH, page: '74', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=78', ground: seen}
+  - elections: [general]
+    applies: 'cities of the fourth class, villages and towns; the council or board may extend the hours to 06:00 and 20:00, on thirty days'' notice'
+    open: '09:00'
+    close: '17:30'
+    law: 'Wis. Stat. § 6.35(1)-(3) (Election Laws 1963)'
+    span: '1963..1966'
+    span_basis: 'as above'
+    sources:
+    - {ref: PPH, page: '74', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=78', ground: seen}
+    check: 'the latest closing in these places is 20:00 where extended; the range takes 20:00'
+  compiled_only: true
+  leads:
+  - 'Wis. Stat. § 6.35 as in force 1960-62 (the election code of 1965? the chapter''s renumbering): the history not printed'
+- st: WV
+  name: West Virginia
+  rows:
+  - elections: [primary, general, special]
+    applies: statewide
+    open: '06:30'
+    close: '19:30'
+    law: 'W. Va. Code § 65 (Election Code of 1963; Michie 1961, 1963 Supp.)'
+    span: '1963..1966'
+    span_basis: 'the election code of 1963, printed as in force (PPH 74)'
+    sources:
+    - {ref: PPH, page: '15 (Table A), 74', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=78', ground: seen}
+  compiled_only: true
+  leads:
+  - 'the hours of 1960 and 1962, before the election code of 1963 (W. Va. Code 1961, ch. 3)'
+- st: WY
+  name: Wyoming
+  rows:
+  - elections: [primary, general, special]
+    applies: statewide
+    open: '09:00'
+    close: '19:00'
+    law: 'Wyo. Stat. § 22-118.92 (Election Laws of Wyoming 1964)'
+    history: 'Laws 1961, ch. 235, § 90'
+    span: '1962..1966'
+    span_basis: 'the election code of 1961, printed as in force (PPH 75)'
+    sources:
+    - {ref: PPH, page: '16 (Table A), 75', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=79', ground: seen}
+  compiled_only: true
+  leads:
+  - 'the hours of 1960, before Laws 1961, ch. 235'
