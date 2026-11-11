@@ -419,11 +419,6 @@ entries:
         - 'w.schlesinger-thousand-days-1965 292: A-C'
         - 'w.schlesinger-thousand-days-1965 339: D'
     tags: [name:kennedy-john-f, name:schlesinger-arthur-m-jr, name:lincoln-evelyn, name:eisenhower-dwight-d, name:lemnitzer-lyman-l]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-05-03.cuba
-        from: 2026-11-06-b6-schlesinger-thousand-days
   - id: cal.1961-05-04.freedom-rides
     when: May 4
     date: '1961-05-04'
@@ -2526,11 +2521,6 @@ entries:
       rows:
         - 'w.reeves-president-kennedy 131–132: all'
     tags: [name:wofford-harris, name:kennedy-john-f, name:rostow-eugene]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-05-19.freedom-rides
-        from: 2026-11-06-b6-reeves-president-kennedy
   - id: cal.1961-05-20.freedom-rides
     when: May 20
     date: '1961-05-20'
@@ -3077,11 +3067,6 @@ entries:
       rows:
         - 'w.reeves-president-kennedy 121: all'
     tags: [name:kennedy-john-f, name:krock-arthur]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-05-23.berlin-and-vienna
-        from: 2026-11-06-b6-reeves-president-kennedy
   - id: cal.1961-05-24.freedom-rides
     when: May 24
     date: '1961-05-24'
@@ -4509,13 +4494,6 @@ entries:
         - 'w.reeves-president-kennedy 121: all'
         - 'via w.reeves-president-kennedy 121 n.mao-tse-tung: all'
     tags: [name:kennedy-john-f, name:white-theodore-h, name:mao-zedong]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-05.china
-          - cal.1961-05.china-2
-          - cal.1961-05.china-3
-        from: 2026-11-06-b6-reeves-president-kennedy
   - id: cal.1961-05.elections-1964
     when: May
     date: 1961-05
@@ -4538,11 +4516,6 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 359: all'
     tags: [name:rockefeller-nelson]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-05.elections-1964
-        from: 2026-11-06-b6-smith-on-his-own-terms
   - id: cal.1961-05.cuba-bay-of-pigs-3
     when: May, late
     date: 1961-05
@@ -4555,9 +4528,3 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 178: all'
     tags: [name:kennedy-robert-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-05.cuba-bay-of-pigs
-          - cal.1961-05.cuba-bay-of-pigs-2
-        from: 2026-11-06-b6-thomas-robert-kennedy

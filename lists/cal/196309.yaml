@@ -2070,11 +2070,6 @@ entries:
         - 'w.reeves-president-kennedy 602: all'
         - 'via w.reeves-president-kennedy 602 n.i-know-all-this-roger: all'
     tags: [name:harriman-w-averell, name:hilsman-roger, name:mcnamara-robert-s, name:sullivan-william-h]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-09-21.vietnam
-        from: 2026-11-06-b6-reeves-president-kennedy
   - id: cal.1963-09-22.press-and-broadcasting
     when: Sept. 22
     date: '1963-09-22'
@@ -3285,11 +3280,6 @@ entries:
         - 'via w.branch-parting-the-waters 911 n.1c: all'
         - 'via w.branch-parting-the-waters 911 n.1d: all'
     tags: [name:levison-stanley-d, name:king-martin-luther-jr]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-09.king
-        from: b6-branch-ptw
   - id: cal.1963-09.goldwater-6
     when: Sept., early fall
     date: 1963-09
@@ -3301,15 +3291,6 @@ entries:
       rows:
         - 'w.white-suite-3505 200: all'
     tags: [name:kitchel-denison, name:goldwater-barry-m]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-09.goldwater
-          - cal.1963-09.goldwater-2
-          - cal.1963-09.goldwater-3
-          - cal.1963-09.goldwater-4
-          - cal.1963-09.goldwater-5
-        from: 2026-11-06-b6-white-suite-3505
   - id: cal.1963-09-30.vietnam-saigon
     when: Sept. 30
     date: '1963-09-30'
@@ -3323,8 +3304,3 @@ entries:
         - 'w.miller-misalliance 300: D'
         - 'via w.miller-misalliance 300 n.70c: all'
     tags: [name:mcnamara-robert-s, name:taylor-maxwell, name:lodge-henry-cabot, name:nguyen-ngoc-tho, place:saigon]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-09-30.vietnam
-        from: 2026-11-10-b7-miller

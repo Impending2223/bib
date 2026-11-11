@@ -3159,11 +3159,6 @@ entries:
         - 'w.branch-parting-the-waters 742: all'
         - 'via w.branch-parting-the-waters 742 n.6: all'
     tags: [name:king-martin-luther-jr, name:williams-hosea]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-04.alabama-birmingham
-        from: b6-branch-ptw
   - id: cal.1963-04.alabama-birmingham-3
     when: Apr.
     date: 1963-04
@@ -3176,12 +3171,6 @@ entries:
         - 'w.branch-parting-the-waters 745: all'
         - 'via w.branch-parting-the-waters 745 n.1: all'
     tags: [name:king-martin-luther-jr]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-04.alabama-birmingham
-          - cal.1963-04.alabama-birmingham-2
-        from: b6-branch-ptw
   - id: cal.1963-04.jobs-and-wages
     when: Apr.
     date: 1963-04
@@ -3205,13 +3194,6 @@ entries:
       rows:
         - 'w.mann-walls-of-jericho 345–46: all'
     tags: [name:king-martin-luther-jr]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-04.alabama-birmingham
-          - cal.1963-04.alabama-birmingham-2
-          - cal.1963-04.alabama-birmingham-3
-        from: 2026-11-10-b7-mann
   - id: cal.1963-04.alabama-birmingham-4
     when: Apr., the first week
     date: 1963-04
@@ -3223,11 +3205,3 @@ entries:
       rows:
         - 'w.mann-walls-of-jericho 346: all'
     tags: [name:king-martin-luther-jr]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-04.alabama-birmingham
-          - cal.1963-04.alabama-birmingham-2
-          - cal.1963-04.alabama-birmingham-3
-          - cal.1963-04.alabama-birmingham-5
-        from: 2026-11-10-b7-mann

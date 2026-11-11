@@ -164,11 +164,6 @@ entries:
         - 'w.reeves-president-kennedy 180: all'
         - 'via w.reeves-president-kennedy 180 n.i-think-we-should-ask: all'
     tags: [name:kennedy-john-f, name:bundy-mcgeorge]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-07-05.defense
-        from: 2026-11-06-b6-reeves-president-kennedy
   - id: cal.1961-07-06.berlin-and-vienna
     when: July 6
     date: '1961-07-06'
@@ -1303,11 +1298,6 @@ entries:
         - 'w.reeves-president-kennedy 198: all'
         - 'via w.reeves-president-kennedy 198 n.our-central-problem: all'
     tags: [name:kennedy-john-f, name:macmillan-harold]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-07-20.berlin-and-vienna
-        from: 2026-11-06-b6-reeves-president-kennedy
   - id: cal.1961-07-21.space
     when: July 21
     date: '1961-07-21'
@@ -1782,12 +1772,6 @@ entries:
         - 'w.poole-joint-chiefs-of-staff 147–48: all'
         - 'via x.1961-07-29.jcsm-508-61-berlin-planning: all'
     tags: [name:mcnamara-robert-s]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-07-29.berlin-and-vienna
-          - cal.1961-07-29.berlin-and-vienna-2
-        from: 2026-11-06-b6-poole-joint-chiefs-of-staff
   - id: cal.1961-07-29.berlin-and-vienna-4
     when: July 29
     date: '1961-07-29'
@@ -1801,13 +1785,6 @@ entries:
         - 'w.poole-joint-chiefs-of-staff 148: all'
         - 'via x.1961-07-29.jcsm-502-61-guerrillas: all'
     tags: [name:mcnamara-robert-s]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-07-29.berlin-and-vienna
-          - cal.1961-07-29.berlin-and-vienna-2
-          - cal.1961-07-29.berlin-and-vienna-3
-        from: 2026-11-06-b6-poole-joint-chiefs-of-staff
   - id: cal.1961-07-30.berlin-and-vienna
     when: July 30
     date: '1961-07-30'

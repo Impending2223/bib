@@ -965,12 +965,6 @@ entries:
         - 'via w.caro-passage-of-power 574 n.perhaps: all'
       c: 98717b24
     tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-12-05.assassination
-          - cal.1963-12-05.assassination-2
-        from: 2026-11-06-b6-caro-passage
   - id: cal.1963-12-05.robert-kennedy-2
     when: Dec. 5
     date: '1963-12-05'
@@ -984,11 +978,6 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 629: all'
         - 'via w.schlesinger-robert-kennedy-and-his 629 n.43: all'
     tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-12-05.robert-kennedy
-        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1963-12-06.opinion
     when: Dec. 6
     date: '1963-12-06'
@@ -2682,12 +2671,6 @@ entries:
         - 'w.cosmas-joint-chiefs-of-staff-2012 11: all'
         - 'via w.cosmas-joint-chiefs-of-staff-2012 11 n.15: all'
     tags: [name:krulak-victor-h, name:taylor-maxwell]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-12-21.vietnam
-          - cal.1963-12-21.vietnam-2
-        from: 2026-11-06-b6-cosmas-joint-chiefs
   - id: cal.1963-12-23.foreign-aid
     when: Dec. 23
     date: '1963-12-23'
@@ -4280,11 +4263,6 @@ entries:
         - 'w.nixon-rn 254–55: all'
         - 'via x.1963-12.jacqueline-kennedy-to-nixon: all'
     tags: [name:kennedy-jacqueline, name:nixon-richard-m]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-12.republican-party
-        from: 2026-11-06-b6-nixon-rn
   - id: cal.1963-12.robert-kennedy-3
     when: Dec., early
     date: 1963-12
@@ -4298,12 +4276,6 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 613: all'
         - 'via w.schlesinger-robert-kennedy-and-his 613 n.40: B'
     tags: [name:kennedy-robert-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-12.robert-kennedy
-          - cal.1963-12.robert-kennedy-2
-        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1963-12.robert-kennedy-4
     when: Dec.
     date: 1963-12
@@ -4316,13 +4288,6 @@ entries:
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 613: all'
     tags: [name:kennedy-robert-f, name:mcgrory-mary]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-12.robert-kennedy
-          - cal.1963-12.robert-kennedy-2
-          - cal.1963-12.robert-kennedy-3
-        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1963-12.elections-1964-10
     when: Dec., late in the year
     date: 1963-12
@@ -4334,19 +4299,6 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 429: all'
     tags: [name:brownell-herbert-jr, name:dewey-thomas-e, name:johnson-lyndon-b, name:hinman-george-l, name:rockefeller-nelson]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-12.elections-1964
-          - cal.1963-12.elections-1964-2
-          - cal.1963-12.elections-1964-6
-          - cal.1963-12.elections-1964-3
-          - cal.1963-12.elections-1964-4
-          - cal.1963-12.elections-1964-5
-          - cal.1963-12.elections-1964-7
-          - cal.1963-12.elections-1964-8
-          - cal.1963-12.elections-1964-9
-        from: 2026-11-06-b6-smith-on-his-own-terms
   - id: cal.1963-12.congress-2
     when: Dec.
     date: 1963-12
@@ -4369,11 +4321,6 @@ entries:
       rows:
         - 'w.whalen-longest-debate 87: all'
     tags: [name:johnson-lyndon-b, name:mansfield-mike]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-12.congress-2
-        from: 2026-11-06-b6-whalen-longest
   - id: cal.1963-12.congress-4
     when: Dec.
     date: 1963-12
@@ -4386,12 +4333,6 @@ entries:
         - 'w.whalen-longest-debate 87: all'
         - 'via x.1963-12-16.newsweek: all'
     tags: [name:johnson-lyndon-b, name:rayburn-sam, name:truman-harry-s, state:tx]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-12.congress-2
-          - cal.1963-12.congress-3
-        from: 2026-11-06-b6-whalen-longest
   - id: cal.1963-12.transition-and-staff-2
     when: Dec.
     date: 1963-12
@@ -4403,11 +4344,6 @@ entries:
       rows:
         - 'w.white-making-of-the-president-1965 358: all'
     tags: [name:johnson-lyndon-b]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-12.transition-and-staff
-        from: 2026-11-06-b6-white-making-of-the-president-1965
   - id: cal.1963-12.congress
     when: Dec., late
     date: 1963-12
@@ -4419,10 +4355,3 @@ entries:
       rows:
         - 'w.woods-fulbright 325: all'
     tags: [name:johnson-lyndon-b, name:fulbright-j-william]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-12.congress-2
-          - cal.1963-12.congress-3
-          - cal.1963-12.congress-4
-        from: 2026-11-06-b6-woods-fulbright

@@ -317,11 +317,6 @@ entries:
       rows:
         - 'w.johnson-vantage-point 296: all'
       c: 4e6a06f2
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1967-06-04.middle-east
-        from: 2026-11-06-b6-johnson-vantage
   - id: cal.1967-06-05.middle-east
     when: June 5
     date: '1967-06-05'
@@ -3145,15 +3140,6 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 519–20: all'
     tags: [name:rockefeller-margaretta-fitler, name:rockefeller-nelson, name:kennedy-robert-f, name:javits-jacob-k, name:spellman-francis, name:cushing-richard-g, name:dewey-thomas-e, name:cronkite-walter, name:graham-katharine, name:mcnamara-robert-s]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1967-06.elections-1968
-          - cal.1967-06.elections-1968-2
-          - cal.1967-06.elections-1968-3
-          - cal.1967-06.elections-1968-4
-          - cal.1967-06.elections-1968-5
-        from: 2026-11-06-b6-smith-on-his-own-terms
   - id: cal.1967-06.assassination-2
     when: June
     date: 1967-06
@@ -3167,8 +3153,3 @@ entries:
         - 'w.thomas-robert-kennedy 338: all'
         - 'via x.undated.confidential-kennedy-family-interview-thomas: all'
     tags: [name:kennedy-robert-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1967-06.assassination
-        from: 2026-11-06-b6-thomas-robert-kennedy

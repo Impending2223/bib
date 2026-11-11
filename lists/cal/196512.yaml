@@ -694,11 +694,6 @@ entries:
         - 'via x.1965-12-08.new-york-times-dec-8-1965-33: all'
         - 'via x.1965-12-11.king-southern-courier-dec-11-12-1965: all'
     tags: [name:king-martin-luther-jr, name:liuzzo-viola]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1965-12-06.king
-        from: 2026-11-10-b7-garrow-bearing-the
   - id: cal.1965-12-07.vietnam
     when: Dec. 7
     date: '1965-12-07'
@@ -1805,12 +1800,6 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 123: all'
         - 'via x.1965-12-18.johnson-note-to-clifford-magnificent: all'
     tags: [name:johnson-lyndon-b, name:clifford-clark]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1965-12-18.vietnam-pause
-          - cal.1965-12-18.vietnam-pause-2
-        from: 2026-11-06-b6-gibbons-u-s-government-and
   - id: cal.1965-12-19.vietnam-pause
     when: Dec. 19
     date: '1965-12-19'
@@ -2010,11 +1999,6 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 685: all'
         - 'via w.schlesinger-robert-kennedy-and-his 685 n.101c: all'
     tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1965-12-20.robert-kennedy
-        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1965-12-21.vietnam-pause
     when: Dec. 21
     date: '1965-12-21'
@@ -3262,12 +3246,6 @@ entries:
         - 'via w.solberg-hubert-humphrey 284 n.gallup: all'
         - 'via w.solberg-hubert-humphrey 284 n.press-release: all'
     tags: [name:johnson-lyndon-b, name:humphrey-hubert-h]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1965-12.transition-and-staff
-          - cal.1965-12.transition-and-staff-2
-        from: 2026-11-06-b6-solberg
   - id: cal.1965-12.congress
     when: Dec.
     date: 1965-12
@@ -3292,8 +3270,3 @@ entries:
       rows:
         - 'w.woods-fulbright 396: all'
     tags: [name:fulbright-j-william]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1965-12.congress
-        from: 2026-11-06-b6-woods-fulbright

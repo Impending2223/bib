@@ -3214,12 +3214,6 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 114: all'
         - 'via x.1965-11-30.william-bundy-a-pause-draft: all'
     tags: [name:bundy-william]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1965-11-30.vietnam-pause
-          - cal.1965-11-30.vietnam-pause-2
-        from: 2026-11-06-b6-gibbons-u-s-government-and
   - id: cal.1965-11.king-2
     when: Nov., mid
     date: 1965-11
@@ -3231,11 +3225,6 @@ entries:
       rows:
         - 'w.ralph-northern-protest 54: all'
     tags: [state:il, city:chicago]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1965-11.king
-        from: 2026-11-06-b6-ralph-northern
   - id: cal.1965-11.civil-rights-organizations
     when: Nov.
     date: 1965-11
@@ -3261,12 +3250,6 @@ entries:
         - 'w.smith-on-his-own-terms 473: all'
         - 'via x.1965-11-21.herald-tribune-rockefeller-county-leaders: A'
     tags: [name:rockefeller-nelson, state:ny]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1965-11.republican-party
-          - cal.1965-11.republican-party-2
-        from: 2026-11-06-b6-smith-on-his-own-terms
   - id: cal.1965-11.robert-kennedy-4
     when: Nov.
     date: 1965-11
@@ -3279,10 +3262,3 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 310: all'
     tags: [name:kennedy-robert-f, name:goodwin-richard-n, name:smith-stephen-e]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1965-11.robert-kennedy
-          - cal.1965-11.robert-kennedy-2
-          - cal.1965-11.robert-kennedy-3
-        from: 2026-11-06-b6-thomas-robert-kennedy

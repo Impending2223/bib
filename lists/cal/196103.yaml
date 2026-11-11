@@ -872,11 +872,6 @@ entries:
       rows:
         - 'w.white-making-of-the-president 375: all'
     tags: [name:kennedy-john-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-03-09.program
-        from: b6-white-1960
   - id: cal.1961-03-09.transition-and-staff
     when: Mar. 9
     date: '1961-03-09'
@@ -888,11 +883,6 @@ entries:
       rows:
         - 'w.white-making-of-the-president 375: all'
     tags: [name:kennedy-john-f, name:smith-elizabeth-rudel]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-03-09.program-2
-        from: b6-white-1960
   - id: cal.1961-03-10.latin-america
     when: Mar. 10
     date: '1961-03-10'
@@ -2946,11 +2936,6 @@ entries:
       rows:
         - 'w.ball-past-has-another-pattern 169: all'
     tags: [name:ball-george-w, name:rusk-dean, name:battle-lucius-d]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-03.transition-and-staff
-        from: b6-ball-past
   - id: cal.1961-03.robert-kennedy-3
     when: Mar.
     date: 1961-03
@@ -2964,12 +2949,6 @@ entries:
         - 'via w.schlesinger-robert-kennedy-and-his 293 n.33a: all'
         - 'via w.schlesinger-robert-kennedy-and-his 293 n.33b: all'
     tags: [name:kennedy-robert-f, name:black-hugo-l]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-03.robert-kennedy
-          - cal.1961-03.robert-kennedy-2
-        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1961-03.jobs-and-wages
     when: Mar., before the Senate's vote
     date: 1961-03

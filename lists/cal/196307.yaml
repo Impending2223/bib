@@ -830,11 +830,6 @@ entries:
       rows:
         - 'w.schlesinger-thousand-days-1965 989: all'
     tags: [name:nolting-frederick-e-jr, name:ngo-dinh-diem, place:saigon]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-07-11.vietnam
-        from: 2026-11-06-b6-schlesinger-thousand-days
   - id: cal.1963-07-12.civil-rights-bill
     when: July 12
     date: '1963-07-12'
@@ -2224,11 +2219,6 @@ entries:
         - 'w.branch-parting-the-waters 857: all'
         - 'via w.branch-parting-the-waters 857 n.3: all'
     tags: [name:levison-stanley-d, name:kennedy-john-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-07-24.king
-        from: b6-branch-ptw
   - id: cal.1963-07-25.testing
     when: July 25
     date: '1963-07-25'
@@ -3349,8 +3339,3 @@ entries:
       rows:
         - 'w.branch-parting-the-waters 849: all'
     tags: [name:wilkins-roy, name:king-martin-luther-jr]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-07.civil-rights-organizations
-        from: b6-branch-ptw

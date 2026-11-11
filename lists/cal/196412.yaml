@@ -1350,13 +1350,6 @@ entries:
         - 'via x.1990-12-31.int-dora-mcdonald-dec-31-1990: all'
         - 'w.bernstein-guns-or-butter 216: B'
     tags: [name:abernathy-ralph-david, name:king-martin-luther-jr, name:young-andrew-j-jr]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1964-12-10.voting-rights
-          - cal.1964-12-10.king
-          - cal.1964-12-10.king-2
-        from: 2026-11-06-b6-branch-pillar-of-fire
   - id: cal.1964-12-10.king-4
     when: Dec. 10
     date: '1964-12-10'
@@ -1369,14 +1362,6 @@ entries:
         - 'w.branch-pillar-of-fire 542: all'
         - 'via x.1983-10-27.int-harry-wachtel-oct-27-1983: B'
     tags: [name:king-martin-luther-jr]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1964-12-10.voting-rights
-          - cal.1964-12-10.king
-          - cal.1964-12-10.king-2
-          - cal.1964-12-10.king-3
-        from: 2026-11-06-b6-branch-pillar-of-fire
   - id: cal.1964-12-11.king
     when: Dec. 11
     date: '1964-12-11'
@@ -3472,8 +3457,3 @@ entries:
         - 'w.branch-pillar-of-fire 550: all'
         - 'via x.1991-10-26.int-andrew-young-oct-26-1991-2: B'
     tags: [name:king-martin-luther-jr, name:abernathy-ralph-david]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1964-12.king
-        from: 2026-11-06-b6-branch-pillar-of-fire

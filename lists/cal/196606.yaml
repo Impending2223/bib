@@ -1077,11 +1077,6 @@ entries:
         - 'w.thomas-robert-kennedy 323: all'
         - 'via x.undated.irene-mennell-interview-thomas: all'
     tags: [name:kennedy-robert-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1966-06-08.africa
-        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1966-06-09.testing
     when: June 9–10
     date: '1966-06-09'
@@ -3338,11 +3333,6 @@ entries:
         - 'w.anderson-confronting-the-color-line 200: all'
         - 'via w.anderson-confronting-the-color-line 200 n.81: all'
     tags: [state:il, city:chicago]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1966-06-29.open-housing
-        from: 2026-11-06-b6-anderson-confronting
   - id: cal.1966-06-30.medicare
     when: June 30
     date: '1966-06-30'
@@ -3798,12 +3788,6 @@ entries:
       rows:
         - 'w.hess-republican-establishment 51: all'
     tags: [name:bliss-ray-c]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1966-06.republican-party
-          - cal.1966-06.republican-party-2
-        from: b6-hess-republican-establishment
   - id: cal.1966-06.robert-kennedy-5
     when: June
     date: 1966-06
@@ -3816,13 +3800,6 @@ entries:
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 750: all'
     tags: [name:kennedy-robert-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1966-06.robert-kennedy
-          - cal.1966-06.robert-kennedy-2
-          - cal.1966-06.robert-kennedy-3
-        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1966-06.robert-kennedy-4
     when: June, after South Africa
     date: 1966-06
@@ -3835,11 +3812,3 @@ entries:
         - 'w.thomas-robert-kennedy 324: all'
         - 'via x.undated.adam-walinsky-oral-history-jfk-library: all'
     tags: [name:walinsky-adam, name:kennedy-robert-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1966-06.robert-kennedy
-          - cal.1966-06.robert-kennedy-2
-          - cal.1966-06.robert-kennedy-3
-          - cal.1966-06.robert-kennedy-5
-        from: 2026-11-06-b6-thomas-robert-kennedy

@@ -512,12 +512,6 @@ entries:
       rows:
         - 'w.kallina-kennedy-v-nixon 66: all'
     tags: [name:sorensen-theodore-c]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-05-07.elections-1960
-          - cal.1960-05-07.elections-1960-3
-        from: 2026-11-06-b6-kallina-kennedy-v-nixon
   - id: cal.1960-05-09.soviet-union
     when: May 9–11
     date: '1960-05-09'
@@ -735,13 +729,6 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 95: all'
     tags: [name:kennedy-john-f, name:bradlee-benjamin-c, name:kennedy-robert-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-05-10.elections-1960
-          - cal.1960-05-10.elections-1960-3
-          - cal.1960-05-10.elections-1960-4
-        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1960-05-11.elections-1960
     when: May 11
     date: '1960-05-11'
@@ -1276,12 +1263,6 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 288: G'
         - 'via w.fursenko-khrushchevs-cold-war 288 n.82: all'
     tags: [name:eisenhower-dwight-d, name:macmillan-harold, name:de-gaulle-charles, name:khrushchev-nikita-s]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-05-17.soviet-union-u2
-          - cal.1960-05-17.soviet-union-u2-2
-        from: 2026-11-06-b6-fursenko
   - id: cal.1960-05-17.soviet-union-u2-4
     when: May 17
     date: '1960-05-17'
@@ -1295,13 +1276,6 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 288: all'
         - 'via w.fursenko-khrushchevs-cold-war 288 n.83: all'
     tags: [name:macmillan-harold]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-05-17.soviet-union-u2
-          - cal.1960-05-17.soviet-union-u2-2
-          - cal.1960-05-17.soviet-union-u2-3
-        from: 2026-11-06-b6-fursenko
   - id: cal.1960-05-18.soviet-union-u2
     when: May 18
     date: '1960-05-18'
@@ -2276,16 +2250,6 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 95: all'
     tags: [name:humphrey-hubert-h, name:kennedy-john-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-05.elections-1960-3
-          - cal.1960-05.elections-1960-8
-          - cal.1960-05.elections-1960-13
-          - cal.1960-05.elections-1960-7
-          - cal.1960-05.elections-1960-11
-          - cal.1960-05.elections-1960-16
-        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1960-05.elections-1960-kennedy
     when: May
     date: 1960-05
@@ -2308,17 +2272,6 @@ entries:
       rows:
         - 'w.mann-walls-of-jericho 267: all'
     tags: [name:humphrey-hubert-h, name:roosevelt-franklin-d-jr]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-05.elections-1960-3
-          - cal.1960-05.elections-1960-8
-          - cal.1960-05.elections-1960-13
-          - cal.1960-05.elections-1960-7
-          - cal.1960-05.elections-1960-11
-          - cal.1960-05.elections-1960-16
-          - cal.1960-05.elections-1960-primaries
-        from: 2026-11-10-b7-mann
   - id: cal.1960-05.elections-1960-primaries-3
     when: May, before the primary
     date: 1960-05
@@ -2330,18 +2283,6 @@ entries:
       rows:
         - 'w.mann-walls-of-jericho 267: all'
     tags: [name:humphrey-hubert-h, name:kennedy-john-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-05.elections-1960-3
-          - cal.1960-05.elections-1960-8
-          - cal.1960-05.elections-1960-13
-          - cal.1960-05.elections-1960-7
-          - cal.1960-05.elections-1960-11
-          - cal.1960-05.elections-1960-16
-          - cal.1960-05.elections-1960-primaries
-          - cal.1960-05.elections-1960-primaries-2
-        from: 2026-11-10-b7-mann
   - id: cal.1960-05.elections-1960-religion
     when: May, before the primary
     date: 1960-05
@@ -2355,8 +2296,3 @@ entries:
         - 'w.mann-walls-of-jericho 266–67: all'
         - 'via w.mann-walls-of-jericho 266 n.is-anyone-going-to-tell-me.w1: all'
     tags: [name:kennedy-john-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-05.elections-1960-10
-        from: 2026-11-10-b7-mann

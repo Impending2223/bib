@@ -2019,11 +2019,6 @@ entries:
       rows:
         - 'w.cq-weekly-report July 26, 1968, 1939: all'
     tags: [name:dingell-john-d]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1968-07-19.crime-and-hijacking-guns
-        from: b6-cq-weekly-report-1968-07-26
   - id: cal.1968-07-19.crime-and-hijacking-guns-3
     when: July 19–24
     date: '1968-07-19'
@@ -2035,12 +2030,6 @@ entries:
       rows:
         - 'w.cq-weekly-report July 26, 1968, 1939: all'
     tags: [name:latta-delbert-l]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1968-07-19.crime-and-hijacking-guns
-          - cal.1968-07-19.crime-and-hijacking-guns-2
-        from: b6-cq-weekly-report-1968-07-26
   - id: cal.1968-07-19.crime-and-hijacking-guns-4
     when: July 19–24
     date: '1968-07-19'
@@ -2052,13 +2041,6 @@ entries:
       rows:
         - 'w.cq-weekly-report July 26, 1968, 1940: all'
     tags: [name:macgregor-clark, name:kennedy-robert-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1968-07-19.crime-and-hijacking-guns
-          - cal.1968-07-19.crime-and-hijacking-guns-2
-          - cal.1968-07-19.crime-and-hijacking-guns-3
-        from: b6-cq-weekly-report-1968-07-26
   - id: cal.1968-07-20.conservation
     when: July 20
     date: '1968-07-20'
@@ -3514,11 +3496,6 @@ entries:
       rows:
         - 'w.cq-weekly-report Aug. 2, 1968, 2069: all'
     tags: [name:mcgovern-george, state:sd]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1968-07-26.elections-1968
-        from: 2026-11-06-b6-cq-weekly-report-1968-08-02
   - id: cal.1968-07-27.elections-1968
     when: July 27
     date: '1968-07-27'
@@ -5065,11 +5042,6 @@ entries:
         - 'w.smith-on-his-own-terms 535: all'
         - 'via x.undated.cargo-interview-by-smith: all'
     tags: [name:rockefeller-nelson, name:cargo-david-f, name:wallace-george-c]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1968-07.states-and-cities-nyc
-        from: 2026-11-06-b6-smith-on-his-own-terms
   - id: cal.1968-07.elections-1968-congress
     when: July
     date: 1968-07
@@ -5082,8 +5054,3 @@ entries:
         - 'w.woods-fulbright 492: all'
         - 'via w.woods-fulbright 492 n.30: B-C'
     tags: [name:fulbright-j-william, name:mcclellan-john-l, state:ar]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1968-07.elections-1968-5
-        from: 2026-11-06-b6-woods-fulbright

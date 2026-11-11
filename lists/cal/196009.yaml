@@ -173,11 +173,6 @@ entries:
         - 'w.branch-pillar-of-fire 534: all'
         - 'via x.1960-09-01.carey-to-hoover-sept-1-1960-fac: all'
     tags: [name:hoover-j-edgar]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-01.civil-rights-the-executive
-        from: 2026-11-06-b6-branch-pillar-of-fire
   - id: cal.1960-09-01.elections-1960-nixon
     when: Sept. 1
     date: '1960-09-01'
@@ -190,11 +185,6 @@ entries:
         - 'w.gifford-center-cannot-hold 181: all'
         - 'via w.gifford-center-cannot-hold 181 n.36: all'
     tags: [name:rockefeller-nelson]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-01.elections-1960
-        from: 2026-11-06-b6-gifford-center-cannot
   - id: cal.1960-09-02.elections-1960-2
     when: Sept. 2
     date: '1960-09-02'
@@ -710,11 +700,6 @@ entries:
         - 'w.gifford-center-cannot-hold 183: all'
         - 'via w.gifford-center-cannot-hold 183 n.42: all'
     tags: [name:richardson-john-jr]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-12.elections-1960-2
-        from: 2026-11-06-b6-gifford-center-cannot
   - id: cal.1960-09-13.medicare
     when: Sept. 13
     date: '1960-09-13'
@@ -1320,11 +1305,6 @@ entries:
       rows:
         - 'w.gifford-center-cannot-hold 186: all'
         - 'via w.gifford-center-cannot-hold 186 n.49: all'
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-23.elections-1960
-        from: 2026-11-06-b6-gifford-center-cannot
   - id: cal.1960-09-24.elections-1960
     when: Sept. 24
     date: '1960-09-24'
@@ -1647,12 +1627,6 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 106: all'
     tags: [name:kennedy-robert-f, name:kennedy-john-f, name:harris-louis, name:sorensen-theodore-c]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-26.elections-1960-3
-          - cal.1960-09-26.elections-1960-6
-        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1960-09-27.japan-and-korea
     when: Sept. 27
     date: '1960-09-27'
@@ -1739,11 +1713,6 @@ entries:
         - 'w.kallina-kennedy-v-nixon 123–24: all'
         - 'via x.1968-01-31.hagerty-reminiscences-columbia: all'
     tags: [name:eisenhower-dwight-d, name:hagerty-james-c, name:nixon-richard-m, name:kennedy-john-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-27.elections-1960
-        from: 2026-11-06-b6-kallina-kennedy-v-nixon
   - id: cal.1960-09-27.elections-1960-debates-2
     when: Sept. 27
     date: '1960-09-27'
@@ -1757,12 +1726,6 @@ entries:
         - 'w.kallina-kennedy-v-nixon 124: all'
         - 'via x.1960-09-27.julius-klein-to-nixon: all'
     tags: [name:klein-julius, name:nixon-richard-m]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-27.elections-1960
-          - cal.1960-09-27.elections-1960-debates
-        from: 2026-11-06-b6-kallina-kennedy-v-nixon
   - id: cal.1960-09-27.elections-1960-debates-3
     when: Sept. 27
     date: '1960-09-27'
@@ -1776,13 +1739,6 @@ entries:
         - 'w.kallina-kennedy-v-nixon 124: all'
         - 'via x.1960-09-27.memo-lodge-reaction-first-debate: all'
     tags: [name:lodge-henry-cabot, name:nixon-richard-m, name:kennedy-john-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-27.elections-1960
-          - cal.1960-09-27.elections-1960-debates
-          - cal.1960-09-27.elections-1960-debates-2
-        from: 2026-11-06-b6-kallina-kennedy-v-nixon
   - id: cal.1960-09-28.governors-ri
     when: Sept. 28
     date: '1960-09-28'
@@ -2234,11 +2190,6 @@ entries:
         - 'w.gifford-center-cannot-hold 85: all'
         - 'via w.gifford-center-cannot-hold 85 n.96b: all'
     tags: [name:lodge-henry-cabot]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09.elections-1960
-        from: 2026-11-06-b6-gifford-center-cannot
   - id: cal.1960-09-30.elections-1960-nixon
     when: Sept. 30
     date: '1960-09-30'
@@ -2262,15 +2213,6 @@ entries:
       rows:
         - 'w.kallina-kennedy-v-nixon 102–03: all'
     tags: [name:kennedy-john-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09.elections-1960-2
-          - cal.1960-09.elections-1960-6
-          - cal.1960-09.elections-1960-7
-          - cal.1960-09.elections-1960-kennedy
-          - cal.1960-09.elections-1960-kennedy-2
-        from: 2026-11-06-b6-kallina-kennedy-v-nixon
   - id: cal.1960-09.elections-1960-kennedy-3
     when: Sept.
     date: 1960-09
@@ -2284,13 +2226,3 @@ entries:
         - 'w.thomas-robert-kennedy 160: all'
         - 'via x.undated.joan-braden-interview-thomas: all'
     tags: [name:kennedy-robert-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09.elections-1960-2
-          - cal.1960-09.elections-1960-6
-          - cal.1960-09.elections-1960-7
-          - cal.1960-09.elections-1960-kennedy
-          - cal.1960-09.elections-1960-kennedy-2
-          - cal.1960-09.elections-1960-kennedy-4
-        from: 2026-11-06-b6-thomas-robert-kennedy

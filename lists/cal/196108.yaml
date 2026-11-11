@@ -903,11 +903,6 @@ entries:
         - 'w.poole-joint-chiefs-of-staff 148: all'
         - 'via x.1961-08-10.cno-to-jcs-east-german-uprisings: all'
     tags: [name:anderson-george-w-jr]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-08-10.berlin-and-vienna
-        from: 2026-11-06-b6-poole-joint-chiefs-of-staff
   - id: cal.1961-08-11.japan-and-korea
     when: Aug. 11
     date: '1961-08-11'
@@ -2762,13 +2757,6 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 387: all'
     tags: [name:schlesinger-arthur-m-jr]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-08.berlin-and-vienna
-          - cal.1961-08.berlin-and-vienna-2
-          - cal.1961-08.berlin-and-vienna-3
-        from: 2026-11-06-b6-fursenko
   - id: cal.1961-08.berlin-and-vienna-5
     when: Aug.
     date: 1961-08
@@ -2781,14 +2769,6 @@ entries:
         - 'w.reeves-president-kennedy 208: all'
         - 'via w.reeves-president-kennedy 208 n.perhaps-a-wall.b: all'
     tags: [name:kennedy-john-f, name:rostow-walt-w]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-08.berlin-and-vienna
-          - cal.1961-08.berlin-and-vienna-2
-          - cal.1961-08.berlin-and-vienna-3
-          - cal.1961-08.berlin-and-vienna-4
-        from: 2026-11-06-b6-reeves-president-kennedy
   - id: cal.1961-08-31.defense-3
     when: Aug. 31
     date: '1961-08-31'
@@ -2802,12 +2782,6 @@ entries:
         - 'w.reeves-president-kennedy 221: all'
         - 'via w.reeves-president-kennedy 221 n.i-would-like-to-have-you-present: all'
     tags: [name:kennedy-john-f, name:mcnamara-robert-s]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-08-31.defense
-          - cal.1961-08-31.defense-2
-        from: 2026-11-06-b6-reeves-president-kennedy
   - id: cal.1961-08-31.testing-2
     when: Aug. 31
     date: '1961-08-31'
@@ -2820,8 +2794,3 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 136: all'
     tags: [name:kennedy-robert-f, name:kennedy-john-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1961-08-31.testing
-        from: 2026-11-06-b6-thomas-robert-kennedy

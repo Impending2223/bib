@@ -880,11 +880,6 @@ entries:
         - 'w.bissell-reflections-of-a-cold 143–44: A-B'
         - 'via w.bissell-reflections-of-a-cold 144 n.3a: A-B'
     tags: [name:lumumba-patrice]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-08-18.congo-2
-        from: 2026-11-10-b7-bissell
   - id: cal.1960-08-19.latin-america
     when: Aug. 19
     date: '1960-08-19'
@@ -1018,11 +1013,6 @@ entries:
         - 'w.gifford-center-cannot-hold 180–81: all'
         - 'via w.gifford-center-cannot-hold 180 n.33: all'
     tags: [name:nixon-richard-m, name:rockefeller-nelson, name:lodge-henry-cabot, name:kennedy-john-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-08-22.elections-1960-nixon
-        from: 2026-11-06-b6-gifford-center-cannot
   - id: cal.1960-08-23.medicare
     when: Aug. 23
     date: '1960-08-23'
@@ -1409,11 +1399,6 @@ entries:
         - 'w.gifford-center-cannot-hold 181: all'
         - 'via w.gifford-center-cannot-hold 181 n.35: all'
     tags: [name:nixon-richard-m, name:lodge-henry-cabot, name:rockefeller-nelson]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-08-27.elections-1960
-        from: 2026-11-06-b6-gifford-center-cannot
   - id: cal.1960-08-28.cuba
     when: Aug. 28–29
     date: '1960-08-28'
@@ -1847,11 +1832,6 @@ entries:
       c: 8b2378cf
       rows:
         - 'w.fursenko-khrushchevs-cold-war 306: all'
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-08.cuba
-        from: 2026-11-06-b6-fursenko
   - id: cal.1960-08.elections-1960-nixon-2
     when: Aug., mid-month
     date: 1960-08
@@ -1863,14 +1843,6 @@ entries:
       rows:
         - 'w.kallina-kennedy-v-nixon 161–62: all'
     tags: [name:eisenhower-dwight-d]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-08.elections-1960-2
-          - cal.1960-08.elections-1960-3
-          - cal.1960-08.elections-1960-4
-          - cal.1960-08.elections-1960-5
-        from: 2026-11-06-b6-kallina-kennedy-v-nixon
   - id: cal.1960-08.elections-1960-kennedy-2
     when: Aug.
     date: 1960-08
@@ -1882,18 +1854,6 @@ entries:
       rows:
         - 'w.white-making-of-the-president 251: all'
     tags: [name:salinger-pierre, name:white-theodore-h]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-08.elections-1960
-          - cal.1960-08.elections-1960-6
-          - cal.1960-08.elections-1960-11
-          - cal.1960-08.elections-1960-12
-          - cal.1960-08.elections-1960-8
-          - cal.1960-08.elections-1960-10
-          - cal.1960-08.elections-1960-13
-          - cal.1960-08.elections-1960-kennedy
-        from: b6-white-1960
   - id: cal.1960-08.elections-1960-nixon
     when: Aug.–Sept.
     date: 1960-08
@@ -1905,12 +1865,3 @@ entries:
       rows:
         - 'w.white-making-of-the-president 309: all'
     tags: [name:nixon-richard-m, name:eisenhower-dwight-d, name:white-theodore-h]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-08.elections-1960-2
-          - cal.1960-08.elections-1960-3
-          - cal.1960-08.elections-1960-4
-          - cal.1960-08.elections-1960-5
-          - cal.1960-08.elections-1960-nixon-2
-        from: b6-white-1960

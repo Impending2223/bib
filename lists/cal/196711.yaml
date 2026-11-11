@@ -2750,11 +2750,6 @@ entries:
       rows:
         - 'w.dallek-flawed-giant 499: all'
     tags: [name:johnson-lyndon-b]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1967-11-21.vietnam-2
-        from: 2026-11-06-b6-dallek-flawed-giant
   - id: cal.1967-11-21.elections-1968-3
     when: Nov. 21
     date: '1967-11-21'
@@ -2768,12 +2763,6 @@ entries:
         - 'w.solberg-hubert-humphrey 313: all'
         - 'via w.solberg-hubert-humphrey 313 n.grocer: all'
     tags: [name:humphrey-hubert-h, name:nixon-richard-m]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1967-11-21.elections-1968
-          - cal.1967-11-21.elections-1968-2
-        from: 2026-11-06-b6-solberg
   - id: cal.1967-11-22.middle-east
     when: Nov. 22
     date: '1967-11-22'
@@ -2929,13 +2918,6 @@ entries:
         - 'w.solberg-hubert-humphrey 313: all'
         - 'via w.solberg-hubert-humphrey 313 n.bennet: all'
     tags: [name:johnson-lyndon-b]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1967-11-22.war-opposition
-          - cal.1967-11-22.war-opposition-2
-          - cal.1967-11-22.war-opposition-3
-        from: 2026-11-06-b6-solberg
   - id: cal.1967-11-23.vietnam-operations
     when: Nov. 23
     date: '1967-11-23'
@@ -4141,11 +4123,6 @@ entries:
       rows:
         - 'w.dallek-flawed-giant 490: all'
     tags: [name:johnson-lyndon-b, name:ford-gerald-r]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1967-11.war-opposition
-        from: 2026-11-06-b6-dallek-flawed-giant
   - id: cal.1967-11.robert-kennedy-campaign-3
     when: Nov.
     date: 1967-11
@@ -4159,10 +4136,3 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 831: all'
         - 'via w.schlesinger-robert-kennedy-and-his 831 n.42a: all'
     tags: [name:mccarthy-eugene-j, name:kennedy-robert-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1967-11.robert-kennedy
-          - cal.1967-11.robert-kennedy-campaign
-          - cal.1967-11.robert-kennedy-campaign-2
-        from: 2026-11-06-b6-schlesinger-rfk

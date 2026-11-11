@@ -129,11 +129,6 @@ entries:
         - 'w.caro-passage-of-power 258: all'
       c: 7af9ba91
     tags: [name:johnson-lyndon-b, name:odonnell-kenneth-p]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-06-01.civil-rights-bill
-        from: 2026-11-06-b6-caro-passage
   - id: cal.1963-06-02.march-on-washington
     when: June 2–3
     date: '1963-06-02'
@@ -1834,11 +1829,6 @@ entries:
         - 'w.branch-parting-the-waters 830–31: all'
         - 'via w.branch-parting-the-waters 831 n.1: all'
     tags: [name:wilkins-roy, name:wilkins-roger-w, name:evers-medgar, name:king-martin-luther-jr]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-06-16.civil-rights-organizations
-        from: b6-branch-ptw
   - id: cal.1963-06-17.court
     when: June 17
     date: '1963-06-17'
@@ -2250,12 +2240,6 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 249: all'
     tags: [name:kennedy-robert-f, name:evers-charles]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-06-19.civil-rights-the-executive
-          - cal.1963-06-19.civil-rights-the-executive-2
-        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1963-06-20.civil-rights-bill-2
     when: June 20
     date: '1963-06-20'
@@ -3476,8 +3460,3 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 250: all'
     tags: [name:kennedy-john-f, name:king-martin-luther-jr]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1963-06.march-on-washington
-        from: 2026-11-06-b6-thomas-robert-kennedy
