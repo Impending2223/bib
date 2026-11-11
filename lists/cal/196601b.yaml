@@ -174,6 +174,25 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1966-01-10.mississippi-3
+    when: Jan. 10
+    date: '1966-01-10'
+    thread: mississippi
+    c: 'Hattiesburg, Forrest General Hospital, the morning after the attack. Dahmer to J. C. Fairley: "They finally got me." To the Reverend Robert Beech: "I think I made a mistake," reminding him that he had always said it was unwise to be too far out front. Dead at 3:45 p.m.'
+    n: '[[w.branch-pillar-of-fire]], 607. To check: Int. J. C. Fairley, June 20, 1992; Int. Robert Beech, Dec. 8, 1991 (both cited by [[w.branch-pillar-of-fire]], 607). See [[cal.1966-01-10.mississippi]]. Names: Dahmer.'
+    src:
+      c: 63d62eb9
+      rows:
+        - 'w.branch-pillar-of-fire 607: all'
+        - 'via x.1992-06-20.int-j-c-fairley-june-20-1992: B'
+        - 'via x.1991-12-08.int-robert-beech-dec-8-1991: C'
+    tags: [name:dahmer-vernon, city:hattiesburg, state:ms]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-01-10.mississippi
+          - cal.1966-01-10.mississippi-2
+        from: 2026-11-06-b6-branch-pillar-of-fire
   - id: cal.1966-01-11.legislatures-ca
     when: Jan. 11
     date: '1966-01-11'
@@ -455,6 +474,24 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1966-01-12.program-2
+    when: Jan. 12
+    date: '1966-01-12'
+    time: 1966-01-12T09:00Z
+    thread: program
+    c: The State of the Union in draft. Johnson rejects the final draft at 4 a.m. Goodwin, recalled for the work, starts over at dawn; through the day, in the Oval Office, sections reshuffled, Fortas and Clifford among the revisers.
+    n: '[[w.branch-at-canaans-edge]], 416. To check: [[w.califano-triumph-and-tragedy-of]], 117–18; [[w.goodwin-remembering-america]], 423–24; President''s Daily Diary, Jan. 12, 1966, 1–4, LBJ Library: Goodwin in the Oval Office nine minutes in the afternoon, Clifford and Fortas three hours after (cited by [[w.branch-at-canaans-edge]], 416, 884). The call with Ball on the passage on direct contact: [[cal.1966-01-12.vietnam-congress]]. The address: [[cal.1966-01-12.program]]. Names: Johnson, Goodwin, Fortas, Clifford.'
+    src:
+      c: 2b731703
+      rows:
+        - 'w.branch-at-canaans-edge 416: all'
+        - 'via x.1966-01-12.presidents-daily-diary-jan-12-1966: C'
+    tags: [name:johnson-lyndon-b, name:goodwin-richard-n, name:fortas-abe, name:clifford-clark]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-01-12.program
+        from: 2026-11-06-b6-branch-at-canaans-edge
   - id: cal.1966-01-13.cities-and-housing
     when: Jan. 13
     date: '1966-01-13'
@@ -1836,6 +1873,39 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 191 n: all'
         - 'via x.1966-01-22.cincpac-to-comusmacv-220233z-jan-1966: all'
     tags: [name:westmoreland-william, name:sharp-u-s-grant]
+  - id: cal.1966-01-22.voting-rights
+    when: Jan. 22
+    date: '1966-01-22'
+    thread: voting-rights
+    also: [alabama]
+    c: Birmingham, late Saturday night. Hosea Williams of SCLC arrested for drunk driving.
+    n: '[[w.branch-at-canaans-edge]], 422. To check: *Montgomery Advertiser*, Jan. 24, 1966, 1; [*New York Times*, Jan. 24, 1966](https://timesmachine.nytimes.com/timesmachine/1966/01/24/issue.html), 16 (cited by [[w.branch-at-canaans-edge]], 422). The charge dismissed: [[cal.1966-01-24.voting-rights]]. Names: Hosea Williams.'
+    src:
+      c: 54ebecf8
+      rows:
+        - 'w.branch-at-canaans-edge 422: all'
+        - 'via x.1966-01-24.montgomery-advertiser-jan-24-1966-p: all'
+        - 'via x.1966-01-24.new-york-times-jan-24-1966: all'
+    tags: [name:williams-hosea, state:al, city:birmingham]
+  - id: cal.1966-01-22.vietnam-pause-2
+    when: Jan. 22
+    date: '1966-01-22'
+    thread: vietnam-pause
+    follows:
+      - cal.1966-01-22.vietnam-pause
+    c: Saturday night, the White House theater. Johnson and McNamara, with their wives, watch *Thunderball*.
+    n: '[[w.branch-at-canaans-edge]], 424. To check: President''s Daily Diary, Jan. 22, 1966, LBJ Library (cited by [[w.branch-at-canaans-edge]], 424). See [[cal.1966-01-22.vietnam-pause]]. Names: Johnson, McNamara.'
+    src:
+      c: 91270d64
+      rows:
+        - 'w.branch-at-canaans-edge 424: all'
+        - 'via x.1966-01-22.presidents-daily-diary-jan-22-1966: all'
+    tags: [name:johnson-lyndon-b, name:mcnamara-robert-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-01-22.vietnam-pause
+        from: 2026-11-06-b6-branch-at-canaans-edge
   - id: cal.1966-01-23.opinion
     when: Jan. 23
     date: '1966-01-23'

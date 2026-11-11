@@ -2407,6 +2407,23 @@ entries:
       - 1963-09-24T20:52Z
     time_zone: America/New_York
     range_basis: record
+  - id: cal.1963-09-24.civil-rights-organizations
+    when: Sept. 24–27
+    date: '1963-09-24'
+    thread: civil-rights-organizations
+    also: [king]
+    c: Richmond, SCLC's convention. Walker demands nearly three times his salary. He dismisses four top employees for "irresponsibility and insubordination"; King later talks him into docking their pay instead. Asked to make amends with Bevel too, Walker resigns, "This is intolerable. I'm gone"; King calms him.
+    n: '[[w.branch-parting-the-waters]], 898, 900. To check: Wyatt Walker, oral history, Civil Rights Documentation Project, Howard University; interview with Walker, Aug. 20, 1984 (cited by [[w.branch-parting-the-waters]], 898 n.3); Walker to King, "Staff Discipline," undated, King Papers, KP36, folder 4 (cited by [[w.branch-parting-the-waters]], 900 n.4); Walker to King, Oct. 3, 1963, King Papers, KP36, folder 1 (cited by [[w.branch-parting-the-waters]], 900 n.5). Check: the days; Branch tells these with the convention of Sept. 24–27. See [[cal.1963-09-24.civil-rights-bill]]. Names: Martin Luther King.'
+    src:
+      c: 5f404116
+      rows:
+        - 'w.branch-parting-the-waters 898, 900: all'
+        - 'via w.branch-parting-the-waters 898 n.3a: B'
+        - 'via w.branch-parting-the-waters 898 n.3b: B'
+        - 'via w.branch-parting-the-waters 900 n.4: C'
+        - 'via w.branch-parting-the-waters 900 n.5a: E'
+        - 'via w.branch-parting-the-waters 900 n.5b: E'
+    tags: [name:king-martin-luther-jr]
   - id: cal.1963-09-25.economy
     when: Sept. 25
     date: '1963-09-25'
@@ -3194,3 +3211,36 @@ entries:
       rows:
         - 'w.sorensen-kennedy 409–10: all'
     tags: [name:heller-walter-w, name:kennedy-jacqueline, name:kennedy-john-f]
+  - id: cal.1963-09-30.king
+    when: Sept. 30
+    date: '1963-09-30'
+    thread: king
+    also: [antisubversion]
+    c: 'King''s aides, overheard by the FBI: O''Dell has left SCLC "high and dry," taking the mailing lists and files; SCLC''s direct-mail fund-raising stops. The Bureau does not report the talk.'
+    n: '[[w.branch-parting-the-waters]], 904. To check: FBI intercept, Sept. 30, 1963, FLNY-7-560a (cited by [[w.branch-parting-the-waters]], 904 n.6). Names: O''Dell.'
+    src:
+      c: 967aa2a0
+      rows:
+        - 'w.branch-parting-the-waters 904: all'
+        - 'via w.branch-parting-the-waters 904 n.6: all'
+    tags: [name:odell-jack-h]
+  - id: cal.1963-09.king-2
+    when: Sept.
+    date: 1963-09
+    thread: king
+    c: 'Levison, overheard by the FBI, back at work on King''s Birmingham book: Al Duckett''s revisions found wanting, a second writer found, then a third; Joan Daves, King''s agent: Clarence Jones ineffective as go-between. Through Jones, to King: if he leaves Birmingham for Danville, readers will not care for the spring''s events, and King will come off "like a child who can''t finish something and moves on to some other game."'
+    n: '[[w.branch-parting-the-waters]], 910–11. To check: FBI intercepts, Sept. 16, 1963, FLNY-9-292a; Sept. 21, FLNY-9-297a; Sept. 23, FLNY-7-553a; Sept. 24, FLNY-7-554b (cited by [[w.branch-parting-the-waters]], 911 n.1). Check: the days; Branch tells the book''s course from September into October and gives the intercepts together. See [[cal.1963-08-21.king-2]]. Names: Levison, Martin Luther King.'
+    src:
+      c: aca9ed9f
+      rows:
+        - 'w.branch-parting-the-waters 910–11: all'
+        - 'via w.branch-parting-the-waters 911 n.1a: all'
+        - 'via w.branch-parting-the-waters 911 n.1b: all'
+        - 'via w.branch-parting-the-waters 911 n.1c: all'
+        - 'via w.branch-parting-the-waters 911 n.1d: all'
+    tags: [name:levison-stanley-d, name:king-martin-luther-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-09.king
+        from: b6-branch-ptw

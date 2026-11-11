@@ -4758,6 +4758,22 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-08-22.elections-1964-freedom-democrats
+    when: Aug. 22
+    date: '1964-08-22'
+    thread: elections-1964-freedom-democrats
+    c: Atlantic City, the Gem Motel, after her testimony. Hamer, told that Johnson had cut into her airtime, denounces a plot, until voices call out that television is showing film of the end of her testimony.
+    n: '[[w.branch-pillar-of-fire]], 461. To check: [[w.mills-this-little-light-of]], 123 (cited by [[w.branch-pillar-of-fire]], 461). Names: Hamer, Johnson.'
+    src:
+      c: 97cc3075
+      rows:
+        - 'w.branch-pillar-of-fire 461: all'
+    tags: [name:hamer-fannie-lou]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-08-22.elections-1964
+        from: 2026-11-06-b6-branch-pillar-of-fire
   - id: cal.1964-08-23.opinion
     when: Aug. 23
     date: '1964-08-23'
@@ -5209,6 +5225,29 @@ entries:
         - 'w.kotz-judgment-days 217: all'
         - 'via w.kotz-judgment-days 217 n.70: all'
     tags: [name:brown-edmund-g, name:unruh-jesse-m]
+  - id: cal.1964-08-24.elections-1964-freedom-democrats-4
+    when: Aug. 24
+    date: '1964-08-24'
+    thread: elections-1964-freedom-democrats
+    c: 'Atlantic City, a hotel lobby. Told by Bill Minor of the New Orleans Times-Picayune that E. W. Steptoe sends regards from the MFDP delegation, a regular from Amite County: Steptoe alive only because "he owes me $400 and I wouldn''t let anybody kill him."'
+    n: '[[w.branch-pillar-of-fire]], 466. To check: comments of Bill Minor at a symposium (cited by [[w.branch-pillar-of-fire]], 466).'
+    src:
+      c: 9b1860f6
+      rows:
+        - 'w.branch-pillar-of-fire 466: all'
+        - 'via x.undated.comments-of-bill-minor-reporter-for-the: all'
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-08-24.elections-1964-2
+          - cal.1964-08-24.elections-1964-3
+          - cal.1964-08-24.elections-1964-4
+          - cal.1964-08-24.elections-1964-5
+          - cal.1964-08-24.elections-1964-6
+          - cal.1964-08-24.elections-1964-freedom-democrats
+          - cal.1964-08-24.elections-1964-freedom-democrats-2
+          - cal.1964-08-24.elections-1964-freedom-democrats-3
+        from: 2026-11-06-b6-branch-pillar-of-fire
   - id: cal.1964-08-25.mississippi
     when: Aug. 25
     date: '1964-08-25'
@@ -6151,11 +6190,12 @@ entries:
     thread: press-and-broadcasting
     also: [elections-1964-johnson]
     c: 'At the airport, leaving for the Ranch after the convention, Johnson lifts Katharine Graham of the *Washington Post* over the fence: "On the plane, Katie; we''re going to Texas and we want you with us." She flies with him and the Humphreys to the Ranch. By Humphrey''s account.'
-    n: '[[w.humphrey-education-of-a-public-1976]], 305. Check: the day; the memoir puts it after the convention closed. See [[cal.1964-08-29.elections-1964]]. Names: Johnson, Katharine Graham, Humphrey.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 305; [[w.branch-pillar-of-fire]], 476 (Johnson lifts Graham off the ground at the security fence: "We''re going to Texas and we want you with us"; the Ranch, Friday, among the six guests at Cousin Oriole Bailey''s). Check: the day; the memoir puts it after the convention closed. See [[cal.1964-08-29.elections-1964]]. Names: Johnson, Katharine Graham, Humphrey.'
     src:
       c: 64cba965
       rows:
         - 'w.humphrey-education-of-a-public-1976 305: all'
+        - 'w.branch-pillar-of-fire 476: A-B'
     tags: [name:johnson-lyndon-b, name:graham-katharine, name:humphrey-hubert-h]
   - id: cal.1964-08-29.vietnam-saigon
     when: Aug. 29

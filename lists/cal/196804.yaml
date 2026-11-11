@@ -1450,6 +1450,24 @@ entries:
       - 1968-04-05T00:01Z
       - 1968-04-05T08:00Z
     time_zone: America/New_York
+  - id: cal.1968-04-04.king-memphis-2
+    when: Apr. 4
+    date: '1968-04-04'
+    thread: king-memphis
+    c: 'Memphis, the Lorraine Motel, Room 201, the afternoon. King, after a series of business calls, with A. D. King and two visitors from Kentucky: anxious he may have to defy a federal injunction on Monday, which would tarnish the movement''s hope in the national compact; no word all day from Young on how he fares in court.'
+    n: '[[w.branch-at-canaans-edge]], 761. See [[cal.1968-04-04.king-memphis]]. Names: Martin Luther King, Young.'
+    src:
+      c: 95ebb1e1
+      rows:
+        - 'w.branch-at-canaans-edge 761: all'
+        - 'via x.undated.doj-task-force-report-king-p-22: all'
+        - 'via x.undated.powers-j-shared: all'
+    tags: [name:king-martin-luther-jr, name:young-andrew-j-jr, city:memphis, state:tn]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-04-04.king-memphis
+        from: 2026-11-06-b6-branch-at-canaans-edge
   - id: cal.1968-04-05.civil-disorders
     when: Apr. 5
     date: '1968-04-05'
@@ -3036,6 +3054,19 @@ entries:
       rows:
         - 'w.young-easy-burden 480: all'
     tags: [name:abernathy-ralph-david]
+  - id: cal.1968-04-19.king
+    when: Apr. 19
+    date: '1968-04-19'
+    time: 1968-04-19T05:43Z
+    thread: king
+    c: 'Levison to Offenburger by telephone, 12:43 a.m.: most Americans already distort King''s loss, "their plaster saint who was going to protect them from angry Negroes."'
+    n: '[[w.branch-at-canaans-edge]], 769. To check: FBI wiretap transcript, Levison and Tom Offenburger, 12:43 a.m., Apr. 19, 1968, FLNY-9-1645 (cited by [[w.branch-at-canaans-edge]], 769). Names: Levison, Martin Luther King.'
+    src:
+      c: d262b993
+      rows:
+        - 'w.branch-at-canaans-edge 769: all'
+        - 'via x.1968-04-19.wiretap-levison-offenburger: all'
+    tags: [name:levison-stanley-d, name:king-martin-luther-jr]
   - id: cal.1968-04-20.vietnam
     when: Apr. 20–21
     date: '1968-04-20'

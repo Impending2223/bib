@@ -3147,6 +3147,19 @@ entries:
         - 'w.taking-charge 459: all'
         - 'via x.1964-07-20.johnson-george-reedy-telephone-1940: all'
     tags: [name:johnson-lyndon-b, name:reedy-george-e, name:goldwater-barry-m, city:nyc]
+  - id: cal.1964-07-20.civil-rights-organizations
+    when: July 20
+    date: '1964-07-20'
+    thread: civil-rights-organizations
+    c: 'Andrew Young to Septima Clark, by letter, answering her reminders that he has neglected the citizenship classes: "There were many days when I thought I might be on the verge of cracking up. I know I had too much on me, but there seemed to be no way of getting around it." His new chart for SCLC: thirty-five boxes.'
+    n: '[[w.branch-pillar-of-fire]], 407. To check: Young to Clark, July 20, 1964; Clark to Young, July 12, 1964, A/SC154f4 (both cited by [[w.branch-pillar-of-fire]], 407). Names: Young.'
+    src:
+      c: dfe2bed1
+      rows:
+        - 'w.branch-pillar-of-fire 407: all'
+        - 'via x.1964-07-20.young-to-clark-july-20-1964: A'
+        - 'via x.1964-07-12.clark-to-young-july-12-1964: A'
+    tags: [name:young-andrew-j-jr]
   - id: cal.1964-07-21.robert-kennedy
     when: July 21
     date: '1964-07-21'
@@ -3406,6 +3419,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-07-21.king-2
+    when: July 21
+    date: '1964-07-21'
+    thread: king
+    also: [elections-1964-goldwater]
+    c: 'On the flight from Atlanta to Jackson, a young passenger to King: "I happen to be a Christian"; King''s methods "causing more harm than good," the new civil rights law a step "toward federal dictatorship"; he leans to Goldwater. King to Bernard Lee: "These are the people who are rallying to Goldwater."'
+    n: '[[w.branch-pillar-of-fire]], 410. To check: [[w.trillin-letter-from-jackson]] (cited by [[w.branch-pillar-of-fire]], 410). Names: King, Goldwater.'
+    src:
+      c: 3fa21f7a
+      rows:
+        - 'w.branch-pillar-of-fire 410: all'
+    tags: [name:king-martin-luther-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-07-21.king
+        from: 2026-11-06-b6-branch-pillar-of-fire
   - id: cal.1964-07-22.amendments
     when: July 22
     date: '1964-07-22'
@@ -5932,3 +5962,15 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 136: all'
     tags: [name:rowe-james-h-jr, name:stevenson-adlai-e, name:humphrey-hubert-h]
+  - id: cal.1964-07-31.black-nationalism
+    when: July 31
+    date: '1964-07-31'
+    thread: black-nationalism
+    c: 'Malcolm X, by telephone from Cairo, on the FBI''s tap: "Has there been anything in the papers about me being in Cairo?" "Have things cooled down yet?" The answer: they have simmered down; King meeting the mayor, the leaders angry at him.'
+    n: '[[w.branch-pillar-of-fire]], 420. To check: wiretap transcript of July 31, 1964, FMXNY-sub1-59a (cited by [[w.branch-pillar-of-fire]], 420). Names: Malcolm X, King.'
+    src:
+      c: c8cd2927
+      rows:
+        - 'w.branch-pillar-of-fire 420: all'
+        - 'via x.1964-07-31.wiretap-transcript-of-july-31-1964-fmxny: all'
+    tags: [name:malcolm-x]

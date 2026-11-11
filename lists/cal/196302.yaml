@@ -1100,6 +1100,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-02-21.mississippi
+    when: Feb. 21
+    date: '1963-02-21'
+    thread: mississippi
+    also: [civil-rights-organizations]
+    c: 'Andrew Young to James Bevel and Diane Nash Bevel, by letter, against another SCLC citizenship training center, in Mississippi: "It is quite possible that there will never be anything to show for your stay in Mississippi, not in a material sense anyway."'
+    n: '[[w.branch-parting-the-waters]], 717. To check: Young to James and Diane Bevel, Feb. 21, 1963, SCLC Papers, SC41, folder 5 (cited by [[w.branch-parting-the-waters]], 717 n.1). Check: Branch, 717, tells Young''s refusal with the days after Travis''s shooting of Feb. 28; the letter is dated Feb. 21. Names: Andrew Young, Nash.'
+    src:
+      c: 39e3a47d
+      rows:
+        - 'w.branch-parting-the-waters 717: all'
+        - 'via w.branch-parting-the-waters 717 n.1: all'
+    tags: [name:young-andrew-j-jr, name:nash-diane]
   - id: cal.1963-02-23.middle-east
     when: Feb. 23
     date: '1963-02-23'
@@ -1777,3 +1790,21 @@ entries:
       rows:
         - 'w.cohen-american-pharaoh 299: all'
     tags: [state:il, city:chicago, name:adamowski-benjamin-s]
+  - id: cal.1963-02.king-2
+    when: Feb.
+    date: 1963-02
+    thread: king
+    c: New York. King preaches for Powell and speaks at several fund-raisers; then a vacation in Jamaica.
+    n: '[[w.branch-parting-the-waters]], 695. To check: King''s log, SCLC Papers, SC29; King to Powell, Feb. 15, 1963, King Papers, Boston University, box 5, folder 7 (cited by [[w.branch-parting-the-waters]], 695 n.3). Check: the days; Branch gives none. Check: Branch, 695: the speech "out of the country" given in King''s regrets to the White House''s Lincoln''s Birthday reception "merely the pretext for his escape." See [[cal.1963-02-05.king]]. Names: Martin Luther King, Powell.'
+    src:
+      c: 3fc97dd1
+      rows:
+        - 'w.branch-parting-the-waters 695: all'
+        - 'via w.branch-parting-the-waters 695 n.3a: all'
+        - 'via w.branch-parting-the-waters 695 n.3b: all'
+    tags: [name:king-martin-luther-jr, name:powell-adam-clayton-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-02.king
+        from: b6-branch-ptw

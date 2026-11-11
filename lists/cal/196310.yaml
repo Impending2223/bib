@@ -3379,6 +3379,19 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 289: C'
         - 'via x.1963-10-30.mac-2028-harkins-to-taylor: all'
     tags: [name:harkins-paul-d, name:taylor-maxwell, name:lodge-henry-cabot, name:tran-van-don]
+  - id: cal.1963-10-30.king
+    when: Oct. 30
+    date: '1963-10-30'
+    thread: king
+    also: [elections-1964]
+    c: 'The FBI, a letterhead memorandum from its taps: King to Clarence Jones, privately, "the Goldwater surge pushes Kennedy more and more to the right."'
+    n: '[[w.branch-parting-the-waters]], 863. To check: FBI letterhead memorandum, Oct. 30, 1963, Clarence Jones file, 100-407018 (cited by [[w.branch-parting-the-waters]], 863 n.2). Check: the day of the talk; Branch gives the memorandum''s. Names: Martin Luther King, Goldwater, John F. Kennedy.'
+    src:
+      c: 3d89c7f8
+      rows:
+        - 'w.branch-parting-the-waters 863: all'
+        - 'via w.branch-parting-the-waters 863 n.2: all'
+    tags: [name:king-martin-luther-jr, name:goldwater-barry-m, name:kennedy-john-f]
   - id: cal.1963-10-31.program
     when: Oct. 31
     date: '1963-10-31'
@@ -3935,3 +3948,25 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 268: all'
     tags: [name:kennedy-john-f, name:bradlee-benjamin-c, name:hoover-j-edgar]
+  - id: cal.1963-10.king-3
+    when: Oct.
+    date: 1963-10
+    thread: king
+    c: Levison, overheard by the FBI, in more than one direct talk with King on the manuscript; to friends, he has to "finish off this book thing that was started."
+    n: '[[w.branch-parting-the-waters]], 911. To check: FBI intercepts, Oct. 10, 1963, FLNY-9-316; Oct. 26, FLNY-9-332a; Oct. 8, FLNY-7-610a; Oct. 28, FLNY-7-558a; FBI New York letterhead memorandum, Nov. 8, 1963 (cited by [[w.branch-parting-the-waters]], 911 n.1). Check: the days. See [[cal.1963-09.king-2]]. Names: Levison, Martin Luther King.'
+    src:
+      c: 3bdc5ee7
+      rows:
+        - 'w.branch-parting-the-waters 911: all'
+        - 'via w.branch-parting-the-waters 911 n.1e: all'
+        - 'via w.branch-parting-the-waters 911 n.1f: all'
+        - 'via w.branch-parting-the-waters 911 n.1g: all'
+        - 'via w.branch-parting-the-waters 911 n.1h: all'
+        - 'via w.branch-parting-the-waters 911 n.1i: all'
+    tags: [name:levison-stanley-d, name:king-martin-luther-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-10.king
+          - cal.1963-10.king-2
+        from: b6-branch-ptw

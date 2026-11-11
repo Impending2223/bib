@@ -2119,6 +2119,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-04-24.civil-rights-organizations
+    when: Apr. 24
+    date: '1963-04-24'
+    thread: civil-rights-organizations
+    also: [alabama]
+    c: 'Atlanta. Forman of SNCC telephones William Moore''s widow in Binghamton: would her husband have wanted students to take up his walk?'
+    n: '[[w.branch-parting-the-waters]], 750. To check: [[w.forman-making-of-black-revolutionaries]], 308 (cited by [[w.branch-parting-the-waters]], 750 n.4). Check: the day; Branch tells the call with the responses to the shooting of Apr. 23. See [[cal.1963-04-23.alabama]]. Names: Forman, William Moore.'
+    src:
+      c: b77fa006
+      rows:
+        - 'w.branch-parting-the-waters 750: all'
+    tags: [name:forman-james, name:moore-william-l]
   - id: cal.1963-04-25.economy
     when: Apr. 25
     date: '1963-04-25'
@@ -3095,3 +3107,53 @@ entries:
         - 'w.smith-on-his-own-terms 395: all'
         - 'via x.1963-04-14.new-york-times-apr-14-1963-csa: all'
     tags: [name:rockefeller-nelson, name:king-martin-luther-jr]
+  - id: cal.1963-04.voting-rights
+    when: Apr.
+    date: 1963-04
+    thread: voting-rights
+    also: [king]
+    c: 'Atlanta. Wiley Branton of the Voter Education Project, complaining to his colleagues, blames King for the collapse of the Greenwood movement: by Branch''s account, an envious King had launched "a quick diversion" in Birmingham.'
+    n: '[[w.branch-parting-the-waters]], 725. To check: Branton, oral history, Civil Rights Documentation Project, Howard University; interview with Leslie Dunbar, May 12, 1986 (cited by [[w.branch-parting-the-waters]], 725 n.5). Check: the day; Branch tells it after the Greenwood settlement of Apr. 3. Check: "a quick diversion" is Branch''s phrase, not a quotation of Branton. See [[cal.1963-04-03.mississippi]]. Names: Martin Luther King.'
+    src:
+      c: a7e86281
+      rows:
+        - 'w.branch-parting-the-waters 725: all'
+        - 'via w.branch-parting-the-waters 725 n.5a: all'
+        - 'via w.branch-parting-the-waters 725 n.5b: all'
+    tags: [name:king-martin-luther-jr]
+  - id: cal.1963-04.alabama-birmingham-2
+    when: Apr.
+    date: 1963-04
+    thread: alabama-birmingham
+    also: [king]
+    c: 'King, in the Birmingham jail, at Walker''s urging and through Clarence Jones, orders Hosea Williams and the aides he has brought from Savannah out of the Gaston Motel: the outside staff on SCLC''s bill outnumber the local volunteers going to jail.'
+    n: '[[w.branch-parting-the-waters]], 742. To check: interview with Edwin Gardner, Jan. 21, 1986 (cited by [[w.branch-parting-the-waters]], 742 n.6). Check: the day; Branch tells it with King''s writing of his letter in the jail. See [[cal.1963-04-16.alabama-birmingham]]. Names: Martin Luther King, Hosea Williams.'
+    src:
+      c: a609aaf9
+      rows:
+        - 'w.branch-parting-the-waters 742: all'
+        - 'via w.branch-parting-the-waters 742 n.6: all'
+    tags: [name:king-martin-luther-jr, name:williams-hosea]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-04.alabama-birmingham
+        from: b6-branch-ptw
+  - id: cal.1963-04.alabama-birmingham-3
+    when: Apr.
+    date: 1963-04
+    thread: alabama-birmingham
+    c: 'Bishop Carpenter, having read King''s letter from the Birmingham jail, to his coadjutor, George Murray, by Murray''s account: "This is what you get when you try to do something. You get it from both sides. George, you just have to live with that."'
+    n: '[[w.branch-parting-the-waters]], 745. To check: interview with Bishop George Murray, July 16, 1987 (cited by [[w.branch-parting-the-waters]], 745 n.1). Check: the day; Branch gives none. See [[cal.1963-04-16.alabama-birmingham]]. Names: Martin Luther King.'
+    src:
+      c: fadf22b2
+      rows:
+        - 'w.branch-parting-the-waters 745: all'
+        - 'via w.branch-parting-the-waters 745 n.1: all'
+    tags: [name:king-martin-luther-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-04.alabama-birmingham
+          - cal.1963-04.alabama-birmingham-2
+        from: b6-branch-ptw

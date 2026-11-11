@@ -108,6 +108,19 @@ entries:
     time_band: workday daytime
     time_zone: America/Los_Angeles
     range_basis: kind
+  - id: cal.1965-01-02.king
+    when: Jan. 2
+    date: '1965-01-02'
+    thread: king
+    also: [civil-rights-organizations]
+    c: 'The Saturday morning drive from Atlanta to Selma. King to Abernathy: Johnson has worried aloud about dying in office before Humphrey becomes Vice President, the presidency falling to McCormack and then Hayden. "If he had sense enough to do it, I should have sense enough to do it": King wants formal arrangements for Abernathy to succeed him as SCLC''s president. Abernathy scoffs, then promises to accept.'
+    n: '[[w.branch-pillar-of-fire]], 552. To check: Int. Ralph Abernathy, Nov. 19, 1984; [[w.garrow-bearing-the-cross]], 372 (both cited by [[w.branch-pillar-of-fire]], 552). See [[cal.1965-01-02.voting-rights]]. Names: King, Abernathy, Johnson, Humphrey, McCormack, Hayden.'
+    src:
+      c: 88bcc499
+      rows:
+        - 'w.branch-pillar-of-fire 552: all'
+        - 'via x.1984-11-19.int-ralph-abernathy-nov-19-1984: all'
+    tags: [name:king-martin-luther-jr, name:abernathy-ralph-david, name:johnson-lyndon-b, name:humphrey-hubert-h, name:mccormack-john-w, name:hayden-carl]
   - id: cal.1965-01-03.opinion
     when: Jan. 3
     date: '1965-01-03'
@@ -915,6 +928,17 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1965-01-09.voting-rights-selma
+    when: Jan. 9
+    date: '1965-01-09'
+    thread: voting-rights-selma
+    c: 'Frank Soracco, of SNCC in Selma, to his parents: "Things are starting to move here organization wise. It has been calm because the city wants it that way.... Two guys tear gassed our house. No one was home. They got 6 mos.—unheard of 6 mos. ago."'
+    n: '[[w.branch-pillar-of-fire]], 559. To check: Soracco to "Dad and Ann," Jan. 9, 1965 (cited by [[w.branch-pillar-of-fire]], 559).'
+    src:
+      c: 8e6fcaea
+      rows:
+        - 'w.branch-pillar-of-fire 559: all'
+        - 'via x.1965-01-09.soracco-to-dad-and-ann-jan-9: all'
   - id: cal.1965-01-10.opinion
     when: Jan. 10
     date: '1965-01-10'
@@ -2489,6 +2513,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-01-26.succession
+    when: Jan. 26
+    date: '1965-01-26'
+    thread: succession
+    c: 'Tuesday, Johnson''s first night home from the hospital, recovering from fever and chills: by Mrs. Johnson''s diary, he "sweated down two or three pair of pajamas."'
+    n: '[[w.branch-pillar-of-fire]], 571. To check: [[w.johnson-white-house-diary]], 232 (cited by [[w.branch-pillar-of-fire]], 571). See [[cal.1965-01-23.succession]]. Names: Johnson, Lady Bird Johnson.'
+    src:
+      c: a64a23b6
+      rows:
+        - 'w.branch-pillar-of-fire 571: all'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird]
   - id: cal.1965-01-27.vietnam
     when: Jan. 27
     date: '1965-01-27'
@@ -2847,6 +2882,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-01-28.king-2
+    when: Jan. 28
+    date: '1965-01-28'
+    thread: king
+    also: [georgia]
+    c: 'After the dinner for King, Mayor Allen to Robert Woodruff of Coca-Cola: "Dear Boss," with a favorable editorial from Philadelphia, "the type of comment that I think we received over most of the country."'
+    n: '[[w.branch-pillar-of-fire]], 570. To check: [[w.pomerantz-where-peachtree-meets-sweet]], 340 (cited by [[w.branch-pillar-of-fire]], 570). Check: the day. See [[cal.1965-01-27.king]]. Names: Allen.'
+    src:
+      c: 7dbf59c6
+      rows:
+        - 'w.branch-pillar-of-fire 570: all'
+    tags: [name:allen-ivan-jr, city:atlanta, state:ga]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-01-28.king
+        from: 2026-11-06-b6-branch-pillar-of-fire
   - id: cal.1965-01-29.succession
     when: Jan. 29
     date: '1965-01-29'
@@ -3381,3 +3433,15 @@ entries:
       rows:
         - 'w.westmoreland-soldier-reports 86–87: all'
     tags: [name:lemay-curtis-e, name:moore-joseph-h, name:westmoreland-william]
+  - id: cal.1965-01.king
+    when: Jan.
+    date: 1965-01
+    thread: king
+    c: King, keeping the FBI's "suicide package" from Wachtel, seeks legal advice from Chauncey Eskridge, his Chicago lawyer, schooled in such matters by his work for Elijah Muhammad.
+    n: '[[w.branch-pillar-of-fire]], 557. To check: Int. Chauncey Eskridge, Feb. 20 and 22, 1985 (cited by [[w.branch-pillar-of-fire]], 557). Check: the day; Branch places it by the weekend of Jan. 8. See [[cal.1965-01-08.king]]. Names: King, Wachtel, Elijah Muhammad.'
+    src:
+      c: 173b8251
+      rows:
+        - 'w.branch-pillar-of-fire 557: all'
+        - 'via x.1985-02-20.int-chauncey-eskridge-feb-20-1985-feb: all'
+    tags: [name:king-martin-luther-jr, name:muhammad-elijah]

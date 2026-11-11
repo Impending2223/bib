@@ -5067,11 +5067,14 @@ entries:
     thread: king-poor-peoples
     also: [king, civil-rights-organizations]
     c: 'New York, the Logans'' apartment. King, until almost daybreak, tries to bring Marian Logan, SCLC''s assistant board secretary, off her objections: she has warned the board the campaign is a disastrous miscalculation, likely to bring another summer of riots and a more repressive Congress.'
-    n: '[[w.kotz-judgment-days]], 400. Check: the night (Mar. 24–26). See [[cal.1968-03-25.king]]. Names: Martin Luther King.'
+    n: '[[w.kotz-judgment-days]], 400; [[w.branch-at-canaans-edge]], 725–26 (the Logans'' brownstone, until near dawn; her six-page memorandum against the mobilization, circulated to SCLC''s board; not her office or her words). Check: the night (Mar. 24–26). Check: Branch puts the night at the Logans'' after the Rabbinical Assembly of Mar. 25, King cancelling his recruiting the next morning, Tuesday, Mar. 26 ([[w.branch-at-canaans-edge]], 725–27). See [[cal.1968-03-25.king]]. Names: Martin Luther King.'
     src:
       c: da2ff424
       rows:
         - 'w.kotz-judgment-days 400: all'
+        - 'w.branch-at-canaans-edge 725–26: A'
+        - 'via x.1984-04-24.int-marian-logan: A'
+        - 'via x.1968-03-08.marian-logan-to-mlk-march-8: A'
     tags: [name:king-martin-luther-jr]
     time_range:
       - 1968-03-27T01:00Z
@@ -5095,6 +5098,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-03-26.king-poor-peoples-2
+    when: Mar. 26
+    date: '1968-03-26'
+    thread: king-poor-peoples
+    c: Harlem. King, after cancelling the morning's recruiting, visits a tenement family; Mrs. Bennie Fowler, mother of eight, serves him a home-cooked lunch.
+    n: '[[w.branch-at-canaans-edge]], 726–27. To check: [*New York Times*, Mar. 27, 1968](https://timesmachine.nytimes.com/timesmachine/1968/03/27/issue.html), 24 (cited by [[w.branch-at-canaans-edge]], 727). See [[cal.1968-03-26.king-poor-peoples]]. Names: Martin Luther King.'
+    src:
+      c: 570df803
+      rows:
+        - 'w.branch-at-canaans-edge 726–27: all'
+        - 'via x.1968-03-27.new-york-times-march-27-1968: all'
+    tags: [name:king-martin-luther-jr, city:nyc, state:ny]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-03-26.king-poor-peoples
+        from: 2026-11-06-b6-branch-at-canaans-edge
   - id: cal.1968-03-27.court
     when: Mar. 27
     date: '1968-03-27'
@@ -6965,11 +6985,12 @@ entries:
     date: 1968-03
     thread: king
     c: King to Acapulco with Abernathy, for a rest his doctor ordered; he cannot sleep.
-    n: '[[w.kotz-judgment-days]], 400. To check: Marian Logan, interview by Kotz; [[w.garrow-bearing-the-cross]], 609 (cited by [[w.kotz-judgment-days]], 400 n.44). Check: the day; Kotz: "Earlier in the month" than the New York stay of Mar. 24–27. Names: Martin Luther King, Abernathy.'
+    n: '[[w.kotz-judgment-days]], 400; [[w.branch-at-canaans-edge]], 707–08 (Tuesday, Mar. 5, to Mexico for a rest, Abernathy with him; King sleeps little; not the doctor''s order). Check: Branch dates the flight Tuesday, Mar. 5 ([[w.branch-at-canaans-edge]], 707, from [[w.garrow-bearing-the-cross]], 600). To check: Marian Logan, interview by Kotz; [[w.garrow-bearing-the-cross]], 609 (cited by [[w.kotz-judgment-days]], 400 n.44). Check: the day; Kotz: "Earlier in the month" than the New York stay of Mar. 24–27. Names: Martin Luther King, Abernathy.'
     src:
       c: 68ee8512
       rows:
         - 'w.kotz-judgment-days 400: all'
+        - 'w.branch-at-canaans-edge 707–08: A, B'
     tags: [name:king-martin-luther-jr, name:abernathy-ralph-david]
   - id: cal.1968-03.robert-kennedy-campaign-3
     when: Mar., late

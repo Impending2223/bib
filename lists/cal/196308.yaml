@@ -1390,6 +1390,23 @@ entries:
         - 'via w.branch-parting-the-waters 870 n.2a: all'
         - 'via w.branch-parting-the-waters 870 n.2b: all'
     tags: [name:king-martin-luther-jr, name:shores-arthur-d, state:il, city:chicago]
+  - id: cal.1963-08-21.king-2
+    when: Aug. 21
+    date: '1963-08-21'
+    thread: king
+    c: 'Clarence Jones to Levison from a pay telephone, overheard on the FBI''s tap on Levison, on the Birmingham book: "I would like to get what you have, and start getting it transcribed." Levison, drafting passages for King and Al Duckett at the Riverdale Motor Inn, promises "something" by that night. The FBI identifies Jones''s voice.'
+    n: '[[w.branch-parting-the-waters]], 870. To check: FBI intercept, Aug. 21, 1963, FLNY-9-266 (cited by [[w.branch-parting-the-waters]], 870 n.1). See [[cal.1963-08-05.king]]. Names: Levison, Martin Luther King.'
+    src:
+      c: 48ae4545
+      rows:
+        - 'w.branch-parting-the-waters 870: all'
+        - 'via w.branch-parting-the-waters 870 n.1: all'
+    tags: [name:levison-stanley-d, name:king-martin-luther-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-08-21.king
+        from: b6-branch-ptw
   - id: cal.1963-08-22.open-housing
     when: Aug. 22
     date: '1963-08-22'
@@ -2206,6 +2223,27 @@ entries:
         - 'w.whalen-longest-debate 26–27: A, C-D, F'
         - 'via x.1963-08-28.audiotape-108-2-presidential-recordings: A, C-D, F'
     tags: [name:kennedy-john-f, name:king-martin-luther-jr, name:randolph-a-philip, name:wilkins-roy, name:young-whitney-m-jr, name:reuther-walter]
+  - id: cal.1963-08-28.march-on-washington-4
+    when: Aug. 28
+    date: '1963-08-28'
+    time: 1963-08-28T20:30Z
+    thread: march-on-washington
+    also: [king]
+    c: 'Levison, overheard by the FBI, 4:30 p.m., of King''s speech: "it was marvelous in Martin''s speech the way he handled the white and Negro question, completely repudiating this kind of nonsense of Adam Powell and the Muslims and everybody else in a way that was so positive"; King "the man of the hour for everybody"; Levison "bowled over" by Wilkins''s generosity.'
+    n: '[[w.branch-parting-the-waters]], 886–87. To check: FBI intercept, 4:30 p.m., Aug. 28, 1963, FLNY-9-273a (cited by [[w.branch-parting-the-waters]], 886 n.4). See [[cal.1963-08-28.march-on-washington]]. Names: Levison, Martin Luther King, Powell, Wilkins.'
+    src:
+      c: 8d733de2
+      rows:
+        - 'w.branch-parting-the-waters 886–87: all'
+        - 'via w.branch-parting-the-waters 886 n.4: all'
+    tags: [name:levison-stanley-d, name:king-martin-luther-jr, name:powell-adam-clayton-jr, name:wilkins-roy]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-08-28.march-on-washington
+          - cal.1963-08-28.march-on-washington-2
+          - cal.1963-08-28.march-on-washington-3
+        from: b6-branch-ptw
   - id: cal.1963-08-29.testing
     when: Aug. 29
     date: '1963-08-29'
@@ -3008,3 +3046,19 @@ entries:
     c: Kennedy asks Humphrey to tell him whatever he learns of the March; others reporting to him too. Washington's fears of disorder in the weeks before. By Humphrey's account.
     n: '[[w.humphrey-education-of-a-public-1976]], 271. Check: the day; the memoir: "During the weeks preceding the March." See [[cal.1963-08-27.march-on-washington]]. Names: Kennedy, Humphrey.'
     tags: [name:kennedy-john-f, name:humphrey-hubert-h]
+  - id: cal.1963-08.king-2
+    when: Aug., early
+    date: 1963-08
+    thread: king
+    c: 'New York, at work on the Birmingham book. King, more than once, asks Clarence Jones whether Levison understands why he does not call him. Jones: "In fact, he would be rather upset if you did."'
+    n: '[[w.branch-parting-the-waters]], 859. To check: [[w.garrow-fbi-and-martin-luther]], 70 (cited by [[w.branch-parting-the-waters]], 859 n.2). Check: the day; Branch: "In early August." See [[cal.1963-08-05.king]]. Names: Martin Luther King, Levison.'
+    src:
+      c: 4972f525
+      rows:
+        - 'w.branch-parting-the-waters 859: all'
+    tags: [name:king-martin-luther-jr, name:levison-stanley-d]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-08.king
+        from: b6-branch-ptw

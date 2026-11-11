@@ -2174,6 +2174,24 @@ entries:
     time_band: morning
     time_zone: America/New_York
     range_basis: record
+  - id: cal.1963-07-24.king-2
+    when: July 24
+    date: '1963-07-24'
+    thread: king
+    also: [march-on-washington]
+    c: Levison, overheard by the FBI, chuckles at the irony that the President should see him as such a danger, when he has been arguing to King that Kennedy's civil rights record is improving and the March should not be aimed at him.
+    n: '[[w.branch-parting-the-waters]], 857. To check: FBI intercept, July 24, 1963, FLNY-9-238a (cited by [[w.branch-parting-the-waters]], 857 n.3). See [[cal.1963-07-24.king]]. Names: Levison, John F. Kennedy.'
+    src:
+      c: c5a2e3e5
+      rows:
+        - 'w.branch-parting-the-waters 857: all'
+        - 'via w.branch-parting-the-waters 857 n.3: all'
+    tags: [name:levison-stanley-d, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-07-24.king
+        from: b6-branch-ptw
   - id: cal.1963-07-25.testing
     when: July 25
     date: '1963-07-25'
@@ -3271,3 +3289,20 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 412–13: all'
     tags: [name:rockefeller-nelson]
+  - id: cal.1963-07.civil-rights-organizations-2
+    when: July
+    date: 1963-07
+    thread: civil-rights-organizations
+    also: [king]
+    c: 'Wilkins and King, in private, partners on television for the March: Wilkins, "In fact, Martin, if you have desegregated anything by your efforts, kindly enlighten me"; King, "I guess about the only thing I''ve desegregated so far is a few human hearts."'
+    n: '[[w.branch-parting-the-waters]], 849. To check: [[w.farmer-lay-bare-the-heart]], 216 (cited by [[w.branch-parting-the-waters]], 849 n.2). Check: the day; Branch gives none. Names: Wilkins, Martin Luther King.'
+    src:
+      c: ee996658
+      rows:
+        - 'w.branch-parting-the-waters 849: all'
+    tags: [name:wilkins-roy, name:king-martin-luther-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-07.civil-rights-organizations
+        from: b6-branch-ptw

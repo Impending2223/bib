@@ -1335,6 +1335,48 @@ entries:
       c: 5f8f8b35
       rows:
         - 'w.futrell-united-states-air-force 259–60: all'
+  - id: cal.1964-12-10.king-3
+    when: Dec. 10
+    date: '1964-12-10'
+    thread: king
+    c: Oslo, outside the Grand Hotel, before the ceremony. Ralph and Juanita Abernathy demand to ride with the Kings in the first car, against the Norwegian protocol chief's list; Abernathy appeals to King, who stands frozen, then tries to push past the security officers, until led to his assigned car. Young and Bernard Lee, refusing to ride with them, walk.
+    n: '[[w.branch-pillar-of-fire]], 541; 543 (Young: "Ralph''s estrangement," the jealousy behind King''s gloom on the trip). [[w.bernstein-guns-or-butter]], 216 (Abernathy, backed by his wife, jealous of King''s acclaim, demanding equal recognition). To check: Int. Bernard Lee, June 19, 1985; Int. Andrew Young, Oct. 26, 1991; Int. Dora McDonald, Dec. 31, 1990 (cited by [[w.branch-pillar-of-fire]], 541); [[w.young-easy-burden]], 320 (cited by [[w.branch-pillar-of-fire]], 543). See [[cal.1964-12-10.voting-rights]]. Names: Abernathy, King, Young.'
+    src:
+      c: a3bf5154
+      rows:
+        - 'w.branch-pillar-of-fire 541: all'
+        - 'via x.1985-06-19.int-bernard-lee-june-19-1985: all'
+        - 'via x.1991-10-26.int-andrew-young-oct-26-1991-2: all'
+        - 'via x.1990-12-31.int-dora-mcdonald-dec-31-1990: all'
+        - 'w.bernstein-guns-or-butter 216: B'
+    tags: [name:abernathy-ralph-david, name:king-martin-luther-jr, name:young-andrew-j-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-12-10.voting-rights
+          - cal.1964-12-10.king
+          - cal.1964-12-10.king-2
+        from: 2026-11-06-b6-branch-pillar-of-fire
+  - id: cal.1964-12-10.king-4
+    when: Dec. 10
+    date: '1964-12-10'
+    thread: king
+    c: Oslo, the night of the prize, a case of champagne in toasts. King confides to Eskridge a gnawing worry that his agents in Birmingham still hold some $240,000 in SCLC-guaranteed cash bonds from the children's arrests of 1963; complains to Wachtel of the large phone bills run up from Oslo on SCLC's account, but will absorb them quietly.
+    n: '[[w.branch-pillar-of-fire]], 542 & n. To check: Int. Harry Wachtel, Oct. 27, 1983; Eskridge to Greenberg, Dec. 28, 1964, A/SC9f37 (both cited by [[w.branch-pillar-of-fire]], 542). See [[cal.1964-12-10.voting-rights]]. Names: King, Wachtel.'
+    src:
+      c: 8216b9dc
+      rows:
+        - 'w.branch-pillar-of-fire 542: all'
+        - 'via x.1983-10-27.int-harry-wachtel-oct-27-1983: B'
+    tags: [name:king-martin-luther-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-12-10.voting-rights
+          - cal.1964-12-10.king
+          - cal.1964-12-10.king-2
+          - cal.1964-12-10.king-3
+        from: 2026-11-06-b6-branch-pillar-of-fire
   - id: cal.1964-12-11.king
     when: Dec. 11
     date: '1964-12-11'
@@ -2795,6 +2837,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-12-29.king
+    when: Dec. 29
+    date: '1964-12-29'
+    thread: king
+    c: 'After the New York Times''s story of the Atlanta dinner, the FBI''s taps: Coretta King worried over King''s depressed state and the quarrel with Abernathy, asking Andrew Young how to relieve the pressure on him.'
+    n: '[[w.branch-pillar-of-fire]], 550. To check: [[w.garrow-fbi-and-martin-luther]], 133 (cited by [[w.branch-pillar-of-fire]], 550). Check: the day. Names: Coretta Scott King, King, Abernathy, Young.'
+    src:
+      c: 9e469118
+      rows:
+        - 'w.branch-pillar-of-fire 550: all'
+    tags: [name:king-coretta-scott, name:king-martin-luther-jr, name:abernathy-ralph-david, name:young-andrew-j-jr]
   - id: cal.1964-12-30.legislatures-mo
     when: Dec. 30
     date: '1964-12-30'
@@ -3384,3 +3437,21 @@ entries:
       rows:
         - 'w.bernstein-guns-or-butter 218: all'
     tags: [name:king-martin-luther-jr]
+  - id: cal.1964-12.king-2
+    when: Dec.
+    date: 1964-12
+    thread: king
+    also: [voting-rights-selma]
+    c: 'After Oslo, by the FBI''s taps on King''s home: King depressed. Abernathy refuses to go to Selma, seeing no need for a new movement there, and tells the SCLC staff not to disturb his many relatives in the Alabama counties near it.'
+    n: '[[w.branch-pillar-of-fire]], 550. To check: Int. Andrew Young, Oct. 26, 1991; [[w.garrow-bearing-the-cross]], 366 (both cited by [[w.branch-pillar-of-fire]], 550). Check: the day. Names: King, Abernathy.'
+    src:
+      c: ea47b1e3
+      rows:
+        - 'w.branch-pillar-of-fire 550: all'
+        - 'via x.1991-10-26.int-andrew-young-oct-26-1991-2: B'
+    tags: [name:king-martin-luther-jr, name:abernathy-ralph-david]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-12.king
+        from: 2026-11-06-b6-branch-pillar-of-fire

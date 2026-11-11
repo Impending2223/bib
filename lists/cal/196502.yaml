@@ -2372,6 +2372,24 @@ entries:
         - 'w.wells-war-within 20: all'
         - 'w.zaroulis-who-spoke-up 34: ?'
     tags: [city:washington]
+  - id: cal.1965-02-11.voting-rights-selma-2
+    when: Feb. 11
+    date: '1965-02-11'
+    thread: voting-rights-selma
+    c: Wilson Baker, who had smuggled SNCC workers past the creek barrier to bring back injured students ("I'm human, too"), threatens to arrest Sheriff Clark himself if he loses his temper again; and warns he will kill any students who disturb Mrs. Baker by picketing near his home.
+    n: '[[w.branch-pillar-of-fire]], 588. To check: remarks of Charles Quinn at the University of Mississippi''s symposium "Covering the South," Apr. 3–5, 1987; Int. Sheriff Robert "Cotton" Nichols, May 28, 1990 (both cited by [[w.branch-pillar-of-fire]], 588). Check: the day. Names: Baker, Clark.'
+    src:
+      c: ac6859f3
+      rows:
+        - 'w.branch-pillar-of-fire 588: all'
+        - 'via x.1987-04-03.remarks-of-charles-quinn-at-the-university: A'
+        - 'via x.1990-05-28.int-sheriff-robert-cotton-nichols-may-28: B'
+    tags: [name:baker-wilson, name:clark-james-g-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-02-11.voting-rights-selma
+        from: 2026-11-06-b6-branch-pillar-of-fire
   - id: cal.1965-02-12.legislatures-ia
     when: Feb. 12
     date: '1965-02-12'
@@ -3194,6 +3212,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-02-17.king
+    when: Feb. 17
+    date: '1965-02-17'
+    thread: king
+    c: 'King ill with fever. By the FBI''s tap, Abernathy borrows $500 from Wachtel, through Rustin: King sick and "completely broke."'
+    n: '[[w.branch-pillar-of-fire]], 592 & n. To check: New York LHM dated Feb. 18, 1965, FK-NR (cited by [[w.branch-pillar-of-fire]], 592). Check: the day. Names: King, Abernathy, Rustin.'
+    src:
+      c: 048df234
+      rows:
+        - 'w.branch-pillar-of-fire 592: all'
+        - 'via x.1965-02-18.new-york-lhm-dated-feb-18-1965: B'
+    tags: [name:king-martin-luther-jr, name:abernathy-ralph-david, name:rustin-bayard]
   - id: cal.1965-02-18.voting-rights
     when: Feb. 18
     date: '1965-02-18'
@@ -4001,6 +4031,18 @@ entries:
         - 'w.shesol-mutual-contempt 338: all'
         - 'via x.1965-02-22.nation-wagner-rocky-and-the-kennedy-act: all'
     tags: [name:wagner-robert-f-jr, name:rockefeller-nelson, name:kennedy-robert-f, state:ny]
+  - id: cal.1965-02-22.press-and-broadcasting
+    when: Feb. 22
+    date: '1965-02-22'
+    thread: press-and-broadcasting
+    c: 'Johnson dictates aboard the White House helicopter a candid draft answer to the Christian Science Monitor''s questions about his spiritual life: "Now I pray several times a day, but I don''t seem to get any answer."'
+    n: '[[w.branch-pillar-of-fire]], 596. To check: Marie Fehmer to Busby, with Johnson''s dictation and the Monitor''s inquiry, Feb. 22, 1965, box 52, Busby Papers, LBJ Library (cited by [[w.branch-pillar-of-fire]], 596). Names: Johnson, Busby.'
+    src:
+      c: 18ea1962
+      rows:
+        - 'w.branch-pillar-of-fire 596: all'
+        - 'via x.1965-02-22.mf-marie-fehmer-to-buzz-horace-busby: all'
+    tags: [name:johnson-lyndon-b, name:busby-horace]
   - id: cal.1965-02-23.states-and-cities-nyc
     when: Feb. 23
     date: '1965-02-23'

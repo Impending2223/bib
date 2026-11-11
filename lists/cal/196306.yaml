@@ -134,6 +134,20 @@ entries:
         of:
           - cal.1963-06-01.civil-rights-bill
         from: 2026-11-06-b6-caro-passage
+  - id: cal.1963-06-02.march-on-washington
+    when: June 2–3
+    date: '1963-06-02'
+    thread: march-on-washington
+    also: [king]
+    c: 'Levison to Ann Jones, overheard by the FBI, of King''s call of June 1: "you tingled"; his own ideas "a step behind Martin." Clarence Jones: "We both know that Martin is a very cautious and thoughtful person, and he is saying the hour is now."'
+    n: '[[w.branch-parting-the-waters]], 817. To check: FBI intercepts, Levison with Ann and Clarence Jones, June 2, 1963, FLNY-9-186a; with Jones and "Alice" [Loewi?], June 3, 1963, FLNY-7-441 (cited by [[w.branch-parting-the-waters]], 817 n.1). See [[cal.1963-06-01.march-on-washington]]. Names: Levison.'
+    src:
+      c: 7e7e905b
+      rows:
+        - 'w.branch-parting-the-waters 817: all'
+        - 'via w.branch-parting-the-waters 817 n.1a: all'
+        - 'via w.branch-parting-the-waters 817 n.1b: all'
+    tags: [name:levison-stanley-d]
   - id: cal.1963-06-03.court
     when: June 3
     date: '1963-06-03'
@@ -1689,6 +1703,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-06-14.civil-rights-organizations
+    when: June 14
+    date: '1963-06-14'
+    thread: civil-rights-organizations
+    also: [king]
+    c: 'Levison to Frank Montero, overheard by the FBI, of the quarrel over the Evers fund: "The antagonism towards Martin at NAA[CP] has been a disgrace for a long time"; the malice "all on one side"; "Roy and every single member of his staff except John Morsell ... have carried on against Martin."'
+    n: '[[w.branch-parting-the-waters]], 829. To check: FBI intercept, Levison and Frank Montero, June 14, 1963, FLNY-7-452a (cited by [[w.branch-parting-the-waters]], 829 n.6). See [[cal.1963-06-13.civil-rights-organizations]]. Names: Levison, Wilkins.'
+    src:
+      c: 6a299a37
+      rows:
+        - 'w.branch-parting-the-waters 829: all'
+        - 'via w.branch-parting-the-waters 829 n.6: all'
+    tags: [name:levison-stanley-d, name:wilkins-roy]
   - id: cal.1963-06-15.mississippi
     when: June 15
     date: '1963-06-15'
@@ -1777,6 +1804,23 @@ entries:
         - 'via w.branch-parting-the-waters 831 n.2a: all'
         - 'via w.branch-parting-the-waters 831 n.2b: all'
     tags: [name:wilkins-roy]
+  - id: cal.1963-06-16.civil-rights-organizations-2
+    when: June 16
+    date: '1963-06-16'
+    thread: civil-rights-organizations
+    c: 'Washington, the day after the Evers funeral. Roy Wilkins to his nephew Roger, of the State Department: "Can you imagine it? Medgar was an NAACP man all the way, and King comes in and tries to take the money."'
+    n: '[[w.branch-parting-the-waters]], 830–31. To check: [[w.wilkins-mans-life]], 123 (cited by [[w.branch-parting-the-waters]], 831 n.1). Check: the day; Branch: the national officers left Jackson "the day after the Evers funeral" of June 15. See [[cal.1963-06-16.civil-rights-organizations]]. Names: Roy Wilkins, Roger Wilkins, Evers, Martin Luther King.'
+    src:
+      c: 7e8c40e5
+      rows:
+        - 'w.branch-parting-the-waters 830–31: all'
+        - 'via w.branch-parting-the-waters 831 n.1: all'
+    tags: [name:wilkins-roy, name:wilkins-roger-w, name:evers-medgar, name:king-martin-luther-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-06-16.civil-rights-organizations
+        from: b6-branch-ptw
   - id: cal.1963-06-17.court
     when: June 17
     date: '1963-06-17'
