@@ -458,3 +458,9 @@ Copied Oct. 30, 2026, from the session's transcript, for the provenance table of
 > Every cite, everywhere.
 
 > Put the outstanding work, the work that's left, on the queue.
+
+2026-11-11 (morning, Pacific; the owner's exception), session "1968 series", on visibility (the spec: notes/proposals/visibility-spec.md):
+
+> Public at the time, with a pin date to override it.
+
+> I'd have you write it now and get started on the operations work and the readers in the evening.

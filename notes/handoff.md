@@ -17,7 +17,8 @@ For a fresh orchestrating session. Read CLAUDE.md (the core), then this. The own
 7. The owner items in the round-4 list (possible duplicates, overlaps, doubtful dates) and the batch-6 questions (Gifford's private letters; Garrow's class exclusions; Dobrynin's month-dated leads; Mann's undated rows): to the owner.
 8. The Church Committee reports: cards and a reading plan; the Pike hearings to procure.
 9. The shared folder's new material (notes/drive-additions-2026-11.md): a reading plan.
-10. The leads the batch-8 audits raised (in each book-check file) and two bundles the Ball audit found (cal.1960-08-01.congo unit C; cal.1965-06-01.latin-america).
+10. Visibility (notes/proposals/visibility-spec.md): phase 1 (the provenance registry, polities on names, places and threads, the compute, `./bib show` and a `vis` check) and the October 1962 prototype; the Western Alliance re-potting proposal; the year's Southeast Asia map moved to the year's first Monday (vnmap STYLE 8; the owner, Nov. 11).
+11. The leads the batch-8 audits raised (in each book-check file) and two bundles the Ball audit found (cal.1960-08-01.congo unit C; cal.1965-06-01.latin-america).
 
 ## Batch 8, the night of Nov. 10–11 (results)
 - Twelve works read by Sonnet readers on the card, each audited blind by Opus, the audit's fixes applied (by Sonnet, from the auditor's exact list) and checked before merging: Barrett, Logevall, Reeves, Caro, Selverstone, Zaroulis, Schwartz, Wofford, Clifford, Ball, Rusk, Whalen. 349 rows; all merged; `./bib check` 0 errors.
