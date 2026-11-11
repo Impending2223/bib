@@ -314,3 +314,5 @@ Not borne out: none. Not settled: the message of 357 (Wheeler "unable to fulfill
 ### Leads (batch 7)
 
 - Foreign: the battalion put into Long An and Weyand's briefing of the Mission Council, 1966 (208): the days. The Rome plows in the Iron Triangle, "later in 1967" (205–6): the months. Hanoi's decree moving Tết to Jan. 29, 1968 (312): its day. The airfield near Huế given up at Lodge's asking, 1966 (176): the day. Trần Ngọc Tám to Westmoreland at a party, late 1967 (314): the day. Giáp's article of Sept. 1967 (313): the journal, the title, the day (`cal.1967-09.vietnam-hanoi`). Where and when COSVN's order of Feb. 1, 1968, was made public (`cal.1968-02-01.vietnam-tet`).
+
+Where this run stopped (batch 7): complete; every row read and ruled, Nov. 11, 2026.

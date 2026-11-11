@@ -233,6 +233,8 @@ The breakfast of June 23, 1960 was to be a sixteenth; Kallina's run entered it t
 
 ### Passed over
 
+The "already in" rows read against the calendar, Nov. 10, 2026 (batch 7): the three rows ruled "already in" without a cite (175, 454, 458) are now ruled in "Already in, read against the calendar (batch 7, Nov. 10, 2026)" at the end of this file, and moved out of this list.
+
 Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled minor or private, in "Re-ruled under R18 as amended (b6)" after the table (read Nov. 10, 2026).
 
 How the list was made: every date the text gives, pp. 127–624 (432 mentions, the years supplied from the chapter and read again where the chapter's run of years misled), set against the calendar's entries of the day; 193 with no entry of the day in a related thread were read. Passed without rows, as classes: King's speeches, sermons, tours, rallies, trips and rests; the internal meetings, retreats, staff decisions and money of SCLC, SNCC, CORE, CCCO, the Albany Movement and the Chicago Freedom Movement; local mass meetings, marches, sit-ins and arrests below the calendar's level (Albany, Nov. 1961–Mar. 1962; Birmingham before April 1963; St. Augustine, Mar.–May 1964; Chicago and Louisville, 1965–67); King's private life. Rows for the rest:
@@ -244,7 +246,6 @@ How the list was made: every date the text gives, pp. 127–624 (432 mentions, t
 | 140 | July 10–11, 1960 | King at the Los Angeles kick-off rally; sixty-five picket the Democratic convention | minor, little notice |
 | 140 | late July 1960 | rally at the Republican convention, King, Randolph and Wilkins, for a civil rights plank | undated: lead |
 | 148 | Nov. 1, 1960 | King's statement, "deeply grateful" to Kennedy, short of an endorsement | lead: the statement not read (King Papers) |
-| 175 | Nov. 1, 1961 | the ICC's order on terminals takes effect; SNCC's tests at Albany | already in (`cal.1961-11-01.freedom-rides`) |
 | 197 | Apr. 9, 1962 | King with Robert Kennedy and Johnson | already in (`cal.1962-04-09.king`) |
 | 216 | late Aug. 1962 | seven Senators see Burke Marshall for action in Albany | undated: lead (Marshall to Robert Kennedy, Sept. 4, 1962, BM) |
 | 235 | Mar. 19, 1963 | Levison's lunch with Lem Harris, his break with the Communist party, overheard | private; the Bureau's knowledge of it: lead |
@@ -262,8 +263,6 @@ How the list was made: every date the text gives, pp. 127–624 (432 mentions, t
 | 425–26 | May 18–24, 1965 | SCLC at the Alabama legislature | minor |
 | 432 | June 1965 | the Community Relations Service's attempt at talks in Chicago; Daley's audience | undated; city: lead |
 | 448 | Oct. 1–6, 1965 | the freeze on Chicago's school funds, overridden | already in (`cal.1965-10-01.desegregation-schools-chicago`) |
-| 454 | Dec. 3, 1965 | the federal verdict in the Liuzzo case | already in (`cal.1965-12-03.alabama`) |
-| 458 | Jan. 1966 | Bond | already in (`cal.1966-01-10.georgia-bond`) |
 | 503 | Aug. 17, 1966 | the Chicago summit's first session, Daley present | the agreement in `cal.1966-08-26.open-housing`: lead |
 | 536 | Nov. 10, 1966 | King and Hoffa | private, minor |
 | 542 | Feb. 1967 | Levison: black leaders puzzled King had not spoken up for Powell | private: lead (Powell's exclusion is in the calendar) |
@@ -297,3 +296,14 @@ The sentence above the table that passes over classes of event ("King's speeches
 - Reedy on a "strong recommendation" for voting legislation, Feb. 6, 1965 (Garrow 387; *New York Times*, Feb. 7, 1965): undated in the text.
 - Judge Simpson's orders at St. Augustine, June 9 and Aug. 5, 1964 (Garrow cites *Young v. Davis*, 9 Race Rel. L. Rep. 1515, June 22, 1964), and the records of *Kelley v. Page* and *Williams v. Wallace*: not read.
 - Johnson's Daily Diary beyond the National Archives Catalog's fifty days (discoverlbj.org refuses this environment): the dates Garrow gives for King's meetings at the White House to be set against it.
+
+
+## Already in, read against the calendar (batch 7, Nov. 10, 2026)
+
+The three rows the backfill (Oct. 29) passed over as "already in" without citing the book, read again under R44 (an event already in takes its cite) from the owner's copy in Drive (the same file, 808 PDF pages with a text layer, downloaded into the scratchpad and deleted after; printed folio = PDF page − 4; p. 458 and the notes page 699 checked against their page images, PDF 462 and 703, note 29's line the text layer garbles read off the image). Patch: `inbox/2026-11-10-b7-garrow-bearing-the.yaml` (b7-garrow-bearing-the: 4 cites, 4 entries added, 3 map ops, 3 To checks). Witnesses: `inbox/witnesses/2026-11-10-b7-garrow-bearing-the.yaml` (17), edges in the by-work file (18): ch. 4 n.4 (176), ch. 8 nn. 26 (454) and 29 (459), each note's items lettered in order, each date of a paper an item; only those bearing on the claims cited registered.
+
+| Page | Date | Event | Ruling |
+|---|---|---|---|
+| 175 | Nov. 1, 1961 | the ICC's order on terminals takes effect; SNCC's tests at Albany | cited under `cal.1961-11-01.freedom-rides` (A-B: the 6:30 a.m. bus met by Pritchett's officers; the nine at 3 p.m.), the note's records (McCollum's survey, Bigbie to Mills, Sherrod's essay, Garrow's interviews) by `via` rows and To check |
+| 453–54 | Dec. 3, 1965 | the federal verdict in the Liuzzo case | cited under `cal.1965-12-03.alabama` (B-C: the convictions, the ten-year maximum; the decision on appeal the record). The page treats King's Black Belt tour of Dec. 6–7 and his words on the verdicts, in no entry: entered as `cal.1965-12-06.king-2` |
+| 458–59 | Jan. 1966 | Bond | cited under `cal.1966-01-08.georgia-bond` (A: King to newsmen from Los Angeles) and `cal.1966-01-10.georgia-bond` (A: the exclusion); the pages treat three more events in no entry: entered as `cal.1966-01-12.georgia-bond` (King back, the march and a voter drive announced, the draft), `cal.1966-01-14.georgia-bond` (the march at the capitol, 1,500; SNCC's clash; Check: the day of Griffin's statement) and `cal.1966-01-16.war-opposition` (the Ebenezer sermon, "Our hands are dirty"; the day from note 29's "Non-Conformist," Jan. 16, 1966) |

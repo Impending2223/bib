@@ -206,3 +206,5 @@ Patch `inbox/2026-11-10-b7-zelizer.yaml` (12 ops: 3 cites, 2 variants, 2 checks,
 | 263 | Mills: choose guns or butter on television | cited under `cal.1967-09-13.economy-surcharge` (A), with a variant and Check: Zelizer has Mills tell the President himself, the entry Treasury's liaison by Sanders's memorandum; Matusow and the Ways and Means hearings to check (263 n.36) |
 
 Not borne out: none. Not settled: whom Mills told (263), Johnson or Treasury's liaison.
+
+Where this run stopped (batch 7): complete; every row read and ruled, Nov. 11, 2026.

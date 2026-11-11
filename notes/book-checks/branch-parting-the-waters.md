@@ -99,6 +99,8 @@ Every cite to Branch the calendar held for Dec. 1961–Jan. 1963 was read agains
 
 ## Passed over
 
+The 'already in' rows read against the calendar, Nov. 10, 2026 (batch 7): each ruled, and moved from this table to the section "Batch 7: the 'already in' rows read against the calendar" below.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (run of Nov. 10–11, 2026, b6-branch-ptw): every row ruled private, social, personal, family, trivia, a private remark or letter, or the book's business, read again on the page and its image; the ruling stands in the row's last cell, "re-ruled:". Rows ruled on other grounds (a lead, no day given, out of the brief, a repetition) are left as they were.
 
 Made page by page as the text was read: each dated event within the span Branch treats that was not entered or cited, with the reason. The events of 1960–61 (pp. 271–555) the first run read are not listed here. The run of Nov. 4 added its rows for pp. 729–922 the same way, page by page, after the rows of pp. 556–729.
@@ -114,7 +116,6 @@ Made page by page as the text was read: each dated event within the span Branch 
 | 569 | 1941 | Hoover's warning on motels | out of the brief (before the span) |
 | 583 | Mar.–Apr. 1962 | Levison's talk overheard: real estate, donor lists, test mailings, the Atlanta office's failings | minor (no dated event beyond those entered) |
 | 587 | 1962 | the "Ink for Jack" pens mailed to the White House; the surplus given to a home | lead (no month given) |
-| 590 | May 18, 1962 | Jones and Levison, overheard, on the unions' gifts to the Gandhi Society | minor (repetition of the purpose already entered) |
 | 591 | Nov. 1961 | Michael Rockefeller's drowning off New Guinea | re-ruled: passed over, family (a son's death; no bearing on public business as Branch gives it) |
 | 591 | 1962 | Mrs. Rockefeller's divorce in Nevada | lead (no date given) |
 | 591 | June 3, 1962 | the Air France crash near Paris, more than a hundred Atlantans killed | out of the brief (no bearing on politics or policy) |
@@ -141,7 +142,6 @@ Made page by page as the text was read: each dated event within the span Branch 
 | 674 | Oct. 22, 1962 | Vaughn Meader's *The First Family* recorded | out of the brief (no bearing as Branch gives it) |
 | 675–76 | July 30, 1958 | O'Dell before the House Un-American Activities Committee | out of the brief (before the span) |
 | 683 | Dec. 9, 1962 | King's installation sermon for the Reverend John Porter in Birmingham | minor (named in the entry of Dec. 11) |
-| 685 | Dec. 3, 1962 | Ishmael Flory of the African-American Heritage Association to the President for an emancipation proclamation | minor (a repetition of the request already entered) |
 | 689 | Jan. 1, 1961 | King's "The Negro and the American Dream" at First African Baptist, Savannah | lead (the first run's span; check the calendar for Jan. 1, 1961) |
 | 695 | Dec. 27, 1962 | King at Nashville, "An Analysis of the Ethical Demands of Integration" | minor (a repetition of positions entered) |
 | 695 | Feb. 1963 | King preaches for Powell in New York; a vacation in Jamaica | re-ruled: entered, cal.1963-02.king-2 (a principal with a member; the vacation the pretext for declining the White House's reception) |
@@ -341,3 +341,16 @@ Made page by page as the text was read: each dated event within the span Branch 
 ### Foreign
 - Ecuador: the military coup against President Carlos Arosemena, July 1963 (New York Times, July 12, 1963, 1, cited by Branch, 851 n.2); no thread for Ecuador found.
 - Rallies for Birmingham in Birmingham, England, and Havana, May 1963 (Chicago Defender, May 11, 1963, 4, cited by Branch, 806 n.9).
+
+## Batch 7: the 'already in' rows read against the calendar (Nov. 10–11, 2026)
+
+Patch `inbox/2026-11-10-b7-branch-ptw.yaml` (2 new entries, claimed in the ledger). No new witnesses: both records were registered by the run of Nov. 5 (`x.1962-05-18.handwritten-microphone-notes-jones-levison-discussion`, the edge 590 n.3; `x.1962-12-03.ishmael-flory-to-kennedy-dec-3`, 685 n.3); the new entries' maps carry `via` rows to them. `./bib patch-check`: 0 errors, 0 warnings. The copy: the owner's PDF in Drive (1l7D-yekFQPD_jSriaoHbXlRgA44Co0tD), downloaded again; PDF 624 = p. 590 and PDF 719 = p. 685 (offset 34 on both, checked on the running heads); both pages read off the text layer and the page images, and their notes (PDF 990–1060) off the text layer; deleted when done.
+
+| page | row | ruling |
+|---|---|---|
+| 590 | May 18, 1962: Jones and Levison, overheard, on the unions' gifts to the Gandhi Society | not a repetition: the entry of May 17 (`cal.1962-05-17.civil-rights-the-executive`) holds the founding and the proclamation, not the talk nor the unions' money. The informal record (R7) of an organization's funding (R11): entered, `cal.1962-05-18.king` (Check: where and when the microphone notes were made public) |
+| 685 | Dec. 3, 1962: Ishmael Flory of the African-American Heritage Association to the President for an emancipation proclamation | not a repetition: another organization's letter to the President (R11); entered, `cal.1962-12-03.civil-rights-the-executive` |
+
+Not borne out: none. Not settled: none.
+
+Where this run stopped (batch 7): complete; every row read and ruled, Nov. 11, 2026.

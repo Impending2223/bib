@@ -202,3 +202,5 @@ Not borne out: none. Not settled: none.
 ### Leads (batch 7)
 
 - National: Kennedy's agreement that the flags of the United States and Panama fly side by side in the Canal Zone (210): the day and the record (FRUS 1961–63, XII). Christian's appointment as press secretary, after Moyers (265): the day. McNamara's public announcement of the program to take 100,000 men who had failed the mental test (337): the day and the text. Ramsey Clark's antitrust suits and Wirtz's moves on the manpower program in the last weeks of the administration (450–51): the days.
+
+Where this run stopped (batch 7): complete; every row read and ruled, Nov. 11, 2026.

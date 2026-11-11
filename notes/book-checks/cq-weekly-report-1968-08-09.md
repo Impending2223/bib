@@ -189,31 +189,33 @@ Other things CQ gets wrong, not in any entry: Wisconsin's "50" votes (2096; 30 o
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the owner's scan on the Drive, fetched again by the direct route; the pages read off their images, pp. 2102, 2103, 2105, 2140, 2141; the offset as above). The rows ruled minor were read again: the platform's drafting, the campaign on the floor, a party figure's and the nominee's word and the convention's close are entered; introductions, procedure and a repetition stay passed over; the networks' and wires' counts go to the daily list. Patch `inbox/2026-11-06-b6-cq-weekly-report-1968-08-09.yaml`: 6 new entries. The copy deleted when done.
+
 Made by reading every page but the three texts (platform, keynote, acceptance) and the transcript sentence by sentence for dated events, and the chronology hour by hour; each dated event not entered is a row. Events already in the calendar took their cites above, or are listed under "For the orchestrator" where an op waits on a pending entry.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
-| 2102 | Aug. 1, 9:33 p.m. | The ceiling of ABC's booth at Convention Hall collapses; no one hurt | out of the brief |
-| 2102 | Aug. 2, 9 a.m. | The Platform Committee resumes its executive sessions | minor: the drafting's daily sessions; its end entered, Aug. 4 |
+| 2102 | Aug. 1, 9:33 p.m. | The ceiling of ABC's booth at Convention Hall collapses; no one hurt | out of the brief (no bearing on politics or policy): unchanged |
+| 2102 | Aug. 2, 9 a.m. | The Platform Committee resumes its executive sessions | entered (b6): cal.1968-08-02.elections-1968-miami-6 (2102): the drafting of the party's platform, R18 as amended |
 | 2097 | Aug. 2 | The Platform Committee, in executive session, adopts "a relentless attack on economic and social injustices in every form," with personal responsibility for breaking the law | lead: to enter (the plank's day; read the page image of 2097, left column, first) |
-| 2103 | Aug. 3, 9 a.m., 1:30 p.m. | The Platform Committee's executive sessions | minor: as above |
+| 2103 | Aug. 3, 9 a.m., 1:30 p.m. | The Platform Committee's executive sessions | entered (b6): cal.1968-08-03.elections-1968-miami-6 (2103) |
 | 2104 | Aug. 5, 10:12–12:02 | The first session's program: Burke, Dermer, Cramer, Kirk ("capital of the New South"), the Call read by Consuelo Bailey, Brooke named temporary chairman, McDonald, John Wayne | in the calendar: the opening, cal.1968-08-05.elections-1968, which takes the cite (2104); lead: Kirk's and Wayne's words for its note |
 | 2104 | Aug. 5, 4 p.m. | Nixon's headquarters: Reagan's candidacy "changes nothing"; Rockefeller: "always considered Reagan a candidate" | lead: reactions to cal.1968-08-05.elections-1968-2, for its note |
-| 2105 | Aug. 5, 9:16 p.m. | Dominick introduces Brooke | minor: an introduction |
+| 2105 | Aug. 5, 9:16 p.m. | Dominick introduces Brooke | passed over (R18 as amended): the convention's routine, an introduction; no word on policy given |
 | 2105 | Aug. 5, 9:53 p.m., 10 p.m. | George Hansen introduces Goldwater; Goldwater's speech | pending: Chester's cal.1968-08-05.elections-1968-miami (ops above) |
-| 2105 | Aug. 5, 10:31 p.m. | Murphy introduces Gurney, who introduces the party's candidates for the Senate | minor: an introduction |
+| 2105 | Aug. 5, 10:31 p.m. | Murphy introduces Gurney, who introduces the party's candidates for the Senate | passed over (R18 as amended): the convention's routine, introductions |
 | 2105 | Aug. 6, 10:30 a.m. | Nixon's fourth regional meeting, the Southern delegations | pending: Chester's cal.1968-08-06.elections-1968-miami-2 (ops above) |
-| 2105 | Aug. 6, 6:55 p.m. | UPI's count: Rockefeller up 10 votes since 4:48 p.m. | minor: a wire service's count, no act of a party |
-| 2105 | Aug. 6, 9:15 p.m. | A demonstration for Rockefeller on the floor; Brooke gavels it down, the aisles cleared | minor: the floor's routine (owner to rule) |
-| 2140 | Aug. 7, 12:24 a.m. | Samuelson moves to adjourn | minor: procedure |
-| 2141 | Aug. 7, 5:32 p.m. | CBS: Nixon over 667 in its count | minor: a network's count |
-| 2141 | Aug. 8, 12:03 a.m. | Leonard Hall denies plans to stall or adjourn | minor: a denial of a rumor, nothing done |
+| 2105 | Aug. 6, 6:55 p.m. | UPI's count: Rockefeller up 10 votes since 4:48 p.m. | the press's routine coverage: a line of "## The press" (R13), below |
+| 2105 | Aug. 6, 9:15 p.m. | A demonstration for Rockefeller on the floor; Brooke gavels it down, the aisles cleared | entered (b6): cal.1968-08-06.elections-1968-miami-20 (2105): the campaign on the floor (R16) |
+| 2140 | Aug. 7, 12:24 a.m. | Samuelson moves to adjourn | passed over (R18 as amended): procedure, a motion with no word on policy |
+| 2141 | Aug. 7, 5:32 p.m. | CBS: Nixon over 667 in its count | the press's routine coverage: a line of "## The press" (R13), below |
+| 2141 | Aug. 8, 12:03 a.m. | Leonard Hall denies plans to stall or adjourn | entered (b6): cal.1968-08-08.elections-1968-miami-11 (2140; the page is 2140, not 2141): a party figure's public word (R9) |
 | 2141 | Aug. 8, 1:17–1:52 a.m. | The roll call's course: New Jersey polled, 22 Case, 18 Nixon; Virginia polled, 22 Nixon, 2 Rockefeller; the Virgin Islands polled, 2 and 1; Wisconsin's 30 votes put Nixon over, 1:50 a.m. | in the calendar: cal.1968-08-07.elections-1968 and its roll-call table (the Proceedings); lead: hold the table to CQ's polled States |
-| 2141 | Aug. 8, 2:26 a.m. | Nixon thanks the "great team," in his suite | minor: thanks, nothing done |
+| 2141 | Aug. 8, 2:26 a.m. | Nixon thanks the "great team," in his suite | entered (b6): cal.1968-08-08.elections-1968-miami-12 (2141): the nominee's word (R9) |
 | 2141 | Aug. 8, 8–4 a.m., 9 a.m., the morning | Nixon's four meetings on a running mate | pending: Chester's cal.1968-08-08.elections-1968-miami-2 (ops above) |
-| 2141 | Aug. 8, 8:14 p.m. | Rockefeller at the fifth session congratulates Nixon | minor: a repetition of 2:15 a.m., entered |
+| 2141 | Aug. 8, 8:14 p.m. | Rockefeller at the fifth session congratulates Nixon | passed over (R18 as amended): a repetition of the congratulations of 2:15 a.m., entered |
 | 2141 | Aug. 8, 8:33–10:07 p.m. | Goodell's caucus with governors, Chafee among them: an insurgent nominee; Abbott nominates Romney, "an individual move"; New York 84–8; Romney's motion, Agnew unanimous | in the calendar: cal.1968-08-08.elections-1968-miami, cited (2141) |
-| 2141 | Aug. 8, 11:39–11:42 p.m. | Graham's benediction; adjourned sine die on Maine's motion | minor: the close |
+| 2141 | Aug. 8, 11:39–11:42 p.m. | Graham's benediction; adjourned sine die on Maine's motion | entered (b6): cal.1968-08-08.elections-1968-miami-13 (2141): the convention's close, an act of the convention |
 | 2096 | Feb. 1, Feb. 28, Mar. 21, Apr. 30, 1968 | Nixon's announcement; Romney's withdrawal; Rockefeller out, then in | in the calendar (retold background); lead: cite 2096 where it bears out |
 | 2096 | mid-July 1968 | Reagan steps up his search for delegates, mostly Southern | lead: no day given |
 | 2097 | July 22, 1968 | The Platform Committee's executive session in Washington | lead: compare cal.1968-07-22.elections-1968-miami-2 |
@@ -237,6 +239,11 @@ Made by reading every page but the three texts (platform, keynote, acceptance) a
 | 2125 | July 30, 1968 | Remarks inaugurating the Veterans in Public Service program | lead: a Public Papers item (1968–69 Pub. Papers 850?), in the day's Documents; an entry where the calendar lacks the act |
 | 2125 | July 30, 1968 | Proclamation 3860, Fire Prevention Week | lead: in the day's Documents (APP); an entry where the calendar lacks the act |
 | 2124–25 | Aug. 1, 1968 | Remarks on signing the housing act | in the calendar (cal.1968-08-01.cities-and-housing) |
+
+## The press
+
+- Aug. 6, 1968 | UPI | wire | 6:55 p.m.: a new delegate count, Rockefeller up 10 votes since 4:48 p.m. | 2105
+- Aug. 7, 1968 | CBS | broadcast | 5:32 p.m.: Nixon over the 667 needed, by its count | 2141
 
 ## Leads
 
