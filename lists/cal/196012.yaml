@@ -1840,3 +1840,61 @@ entries:
       rows:
         - 'w.sorensen-kennedy 640: all'
     tags: [name:kennedy-john-f, name:sorensen-theodore-c]
+  - id: cal.1960-12.press-and-broadcasting
+    when: Dec.
+    date: 1960-12
+    thread: press-and-broadcasting
+    also: [republican-party]
+    c: Washington, Nixon's house, a Christmas reception for reporters, by Nixon's account. Nixon asks them whether a complete statement of his assets and liabilities on leaving office would be worth putting out. They doubt the story would have the news value to be written.
+    n: '[[w.nixon-six-crises]], 127–28. Check: the day. Names: Nixon.'
+    src:
+      rows:
+        - 'w.nixon-six-crises 127–28: all'
+      c: fc0139df
+    tags: [name:nixon-richard-m]
+  - id: cal.1960-12.republican-party
+    when: Dec.
+    date: 1960-12
+    thread: republican-party
+    c: New York, the Christmas holidays, by Nixon's account. Nixon, his wife and daughters, guests of Walter and Jeanne Thayer at *Fiorello!*; recognized entering the Broadhurst Theatre, they are applauded, and the whole audience rises.
+    n: '[[w.nixon-six-crises]], 414–15. Check: the day. Names: Nixon, Pat Nixon.'
+    src:
+      rows:
+        - 'w.nixon-six-crises 414–15: all'
+      c: 66467b89
+    tags: [name:nixon-richard-m, name:nixon-pat, state:ny, city:nyc]
+  - id: cal.1960-12.republican-party-2
+    when: Dec.–Jan.
+    date: 1960-12
+    thread: republican-party
+    also: [transition-and-staff]
+    c: 'Two White House dinners, Mrs. Eisenhower presiding, by Nixon''s account. At each Eisenhower toasts Nixon and his wife for their part in his Administration and the campaign. At one, by Nixon''s account elsewhere, Nixon beside Mrs. Eisenhower: she urges him to write the story of his trips to South America and Russia.'
+    n: '[[w.nixon-six-crises]], 415; xi (Mrs. Eisenhower, "shortly after the election"). Check: the days. Names: Eisenhower, Nixon, Pat Nixon.'
+    src:
+      rows:
+        - 'w.nixon-six-crises 415: A-B'
+        - 'w.nixon-six-crises xi: C'
+      c: 3f5e0924
+    tags: [name:eisenhower-dwight-d, name:nixon-richard-m, name:nixon-pat]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-12.republican-party
+        from: 2026-11-06-b6-nixon-six-crises
+  - id: cal.1960-12.republican-party-3
+    when: Dec.–Jan.
+    date: 1960-12
+    thread: republican-party
+    c: 'Washington, a dinner given by Nixon and his wife, by Nixon''s account. James Byrnes and his wife come from South Carolina; Byrnes''s toast: "If the Vice President had won this election, I would not be here tonight." Afterward, to Nixon, on his own first defeat: "Only a man who has suffered a close defeat can possibly know how someone else feels."'
+    n: '[[w.nixon-six-crises]], 415. Check: the day (after Christmas, before Jan. 6). Names: Byrnes, Nixon, Pat Nixon.'
+    src:
+      rows:
+        - 'w.nixon-six-crises 415: all'
+      c: d17302b0
+    tags: [name:byrnes-james-f, name:nixon-richard-m, name:nixon-pat]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-12.republican-party
+          - cal.1960-12.republican-party-2
+        from: 2026-11-06-b6-nixon-six-crises

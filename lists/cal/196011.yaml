@@ -1522,6 +1522,22 @@ entries:
     time_band: workday daytime
     time_zone: America/Detroit
     range_basis: kind
+  - id: cal.1960-11-09.republican-party-2
+    when: Nov. 9
+    date: '1960-11-09'
+    thread: republican-party
+    c: 'Los Angeles, about 9 a.m., by Nixon''s account. A partner in one of the city''s largest law firms telephones Nixon: a full partnership, his partners agreed by telephone, at about three times the Vice President''s salary, should he return to Los Angeles. The first of scores of offers.'
+    n: '[[w.nixon-six-crises]], 395. Names: Nixon.'
+    src:
+      rows:
+        - 'w.nixon-six-crises 395: all'
+      c: bbd6bd56
+    tags: [name:nixon-richard-m, state:ca, city:los-angeles]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-11-09.republican-party
+        from: 2026-11-06-b6-nixon-six-crises
   - id: cal.1960-11-10.elections-1960
     when: Nov. 10–11
     date: '1960-11-10'
@@ -2299,6 +2315,18 @@ entries:
       rows:
         - 'w.moyar-triumph-forsaken 114: all'
     tags: [name:carver-george-a-jr, name:colby-william-e, name:ngo-dinh-nhu, place:saigon]
+  - id: cal.1960-11-20.republican-party
+    when: Nov. 20, 1960–Jan. 20, 1961
+    date: '1960-11-20'
+    thread: republican-party
+    also: [elections-1960]
+    c: 'Nixon''s vice presidential office, by Nixon''s account: more than 160,000 letters, each typed and signed, acknowledging messages and thanking the campaign''s key workers; over 500,000 cards from Nixon and his wife to the volunteers and contributors.'
+    n: '[[w.nixon-six-crises]], 413–14. Names: Nixon, Pat Nixon.'
+    src:
+      rows:
+        - 'w.nixon-six-crises 413–14: all'
+      c: 7640aaf8
+    tags: [name:nixon-richard-m, name:nixon-pat]
   - id: cal.1960-11-21.transition-and-staff
     when: Nov. 21
     date: '1960-11-21'

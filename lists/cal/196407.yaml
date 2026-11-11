@@ -1691,6 +1691,22 @@ entries:
         - 'w.anderson-confronting-the-color-line 139: all'
         - 'via x.1964-07-11.ccco-minutes: all'
     tags: [name:willis-benjamin-c, state:il, city:chicago]
+  - id: cal.1964-07-11.elections-1964-san-francisco
+    when: July 11
+    date: '1964-07-11'
+    thread: elections-1964-san-francisco
+    c: 'San Francisco, Goldwater''s quarters on the seventeenth floor. Goldwater, Baroody, Karl Hess and the rest of the brain trust on the acceptance speech: Hess''s conciliatory draft rejected; Goldwater gives Jaffa the new draft.'
+    n: '[[w.perlstein-before-the-storm]], 390. To check: [[w.edwards-goldwater]], 266–69; [[w.goldwater-goldwater]], 185; [[w.shadegg-what-happened-to-goldwater]], 166 (cited by [[w.perlstein-before-the-storm]], 390 n.1). Check: the day; Perlstein gives "the previous Saturday." Names: Goldwater, Baroody, Karl Hess, Jaffa.'
+    src:
+      c: e5c75f65
+      rows:
+        - 'w.perlstein-before-the-storm 390: all'
+    tags: [name:goldwater-barry-m, name:baroody-william-j-jr, name:hess-karl, name:jaffa-harry-v]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-07-11.elections-1964
+        from: b6-perlstein-before-the-storm
   - id: cal.1964-07-12.elections-1964
     when: July 12
     date: '1964-07-12'
@@ -2600,6 +2616,24 @@ entries:
         - 'w.taking-charge 456–457: all'
         - 'via x.1964-07-16.johnson-george-reedy-telephone-1104: all'
     tags: [name:johnson-lyndon-b, name:reedy-george-e, name:busby-horace, name:goldwater-barry-m, name:galbraith-john-kenneth]
+  - id: cal.1964-07-16.elections-1964-san-francisco
+    when: July 16
+    date: '1964-07-16'
+    thread: elections-1964-san-francisco
+    c: 'Before dawn, the acceptance speech''s final text approved, after days of work in Baroody''s room. Jaffa''s line on extremism, from his memorandum to the platform committee, kept against half the group: Goldwater orders it underlined twice.'
+    n: '[[w.perlstein-before-the-storm]], 390. To check: [[w.edwards-goldwater]], 266–69; [[w.goldwater-goldwater]], 185; [[w.shadegg-what-happened-to-goldwater]], 166 (cited by [[w.perlstein-before-the-storm]], 390 n.1). See [[cal.1964-07-11.elections-1964-san-francisco]]. Names: Baroody, Jaffa, Goldwater.'
+    src:
+      c: 14dc5fa4
+      rows:
+        - 'w.perlstein-before-the-storm 390: all'
+    tags: [name:baroody-william-j-jr, name:jaffa-harry-v, name:goldwater-barry-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-07-16.elections-1964
+          - cal.1964-07-16.elections-1964-2
+          - cal.1964-07-16.elections-1964-3
+        from: b6-perlstein-before-the-storm
   - id: cal.1964-07-17.legislatures-ne
     when: July 17
     date: '1964-07-17'
@@ -5993,3 +6027,23 @@ entries:
           - cal.1964-07.elections-1964-san-francisco-2
           - cal.1964-07.elections-1964-san-francisco-3
         from: b6-hess-republican-establishment
+  - id: cal.1964-07.elections-1964-san-francisco-5
+    when: July
+    date: 1964-07
+    thread: elections-1964-san-francisco
+    c: Laird's draft of the Republican platform, written to Goldwater's views, ready before the platform committee's debate the week before the convention.
+    n: '[[w.perlstein-before-the-storm]], 367. To check: [[w.kessel-goldwater-coalition]], 107 (cited by [[w.perlstein-before-the-storm]], 367 n.1). Check: the day; Perlstein gives none. Names: Laird, Goldwater.'
+    src:
+      c: 196bf56f
+      rows:
+        - 'w.perlstein-before-the-storm 367: all'
+    tags: [name:laird-melvin-r, name:goldwater-barry-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-07.elections-1964-2
+          - cal.1964-07.elections-1964-san-francisco
+          - cal.1964-07.elections-1964-san-francisco-2
+          - cal.1964-07.elections-1964-san-francisco-3
+          - cal.1964-07.elections-1964-san-francisco-4
+        from: b6-perlstein-before-the-storm
