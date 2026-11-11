@@ -1245,11 +1245,12 @@ entries:
     date: '1963-04-14'
     thread: alabama-birmingham
     c: 'King in the Birmingham jail. Coretta King calls Robert Kennedy for help; he will look into it. To a friend of King''s: "I''m not sure we can get into prison reform right at this moment."'
-    n: '[[w.thomas-robert-kennedy]], 242. See [[cal.1963-04-12.alabama]]. Names: Coretta Scott King, Robert Kennedy. Check: the day; Thomas does not date the call; Garrow, 243–44, as [[cal.1963-04-15.alabama-birmingham]]''s note cites it, gives Robert Kennedy''s call of Sunday, Apr. 14. Check: Thomas gives no source for the remark.'
+    n: '[[w.thomas-robert-kennedy]], 242; [[w.schlesinger-robert-kennedy-and-his]], 328 (Coretta King, unable to reach her husband, telephones the President; Robert Kennedy returns the call: "I promise you I will look into the situation"; the FBI in Birmingham checks that night; the day not given). Check: Schlesinger has Coretta King call the President, and Robert Kennedy return the call (328). See [[cal.1963-04-12.alabama]]. Names: Coretta Scott King, Robert Kennedy. Check: the day; Thomas does not date the call; Garrow, 243–44, as [[cal.1963-04-15.alabama-birmingham]]''s note cites it, gives Robert Kennedy''s call of Sunday, Apr. 14. Check: Thomas gives no source for the remark.'
     src:
       c: 1018bdee
       rows:
         - 'w.thomas-robert-kennedy 242: all'
+        - 'w.schlesinger-robert-kennedy-and-his 328: A, C'
     tags: [name:king-coretta-scott, name:kennedy-robert-f, name:king-martin-luther-jr, state:al, city:birmingham]
     time_range:
       - 1963-04-14T14:00Z
@@ -1257,6 +1258,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: B
+        witness: w.schlesinger-robert-kennedy-and-his
+        reads: His wife, unable to reach him, telephoned John Kennedy. She could not reach him either. Then Robert Kennedy returned her call
+        at: '328'
   - id: cal.1963-04-14.war-opposition
     when: Apr. 14
     date: '1963-04-14'
@@ -1275,7 +1281,7 @@ entries:
     thread: alabama-birmingham
     also: [king]
     c: Kennedy calls Coretta King, her husband in the Birmingham jail.
-    n: '[[w.sorensen-kennedy]], 489; [[w.mann-walls-of-jericho]], 347; [[w.branch-parting-the-waters]], 735–36. Check: the record of the call. [[w.garrow-bearing-the-cross]], 244–45 (the President''s call, Monday, Apr. 15; Robert Kennedy''s of Sunday, Apr. 14, 243–44). Check: Branch, 735–36: Kennedy returns Coretta King''s calls to the White House switchboard, after two calls from Robert Kennedy; the jailers then let King call her, the police wiretap on the line; the Birmingham police deny the FBI saw King; the Washington Star''s lead editorial, "Just a Bit Phony.". See [[cal.1963-04-12.alabama]]. Names: Kennedy, Coretta King, Martin Luther King.'
+    n: '[[w.sorensen-kennedy]], 489; [[w.mann-walls-of-jericho]], 347; [[w.branch-parting-the-waters]], 735–36; [[w.schlesinger-robert-kennedy-and-his]], 328 ("The next day John Kennedy told Mrs. King that her husband was well"; King on the telephone to her fifteen minutes later). Check: the record of the call. [[w.garrow-bearing-the-cross]], 244–45 (the President''s call, Monday, Apr. 15; Robert Kennedy''s of Sunday, Apr. 14, 243–44). Check: Branch, 735–36: Kennedy returns Coretta King''s calls to the White House switchboard, after two calls from Robert Kennedy; the jailers then let King call her, the police wiretap on the line; the Birmingham police deny the FBI saw King; the Washington Star''s lead editorial, "Just a Bit Phony.". See [[cal.1963-04-12.alabama]]. Names: Kennedy, Coretta King, Martin Luther King.'
     src:
       c: f848f570
       rows:
@@ -1288,6 +1294,7 @@ entries:
         - 'w.mann-walls-of-jericho 347: all'
         - 'w.branch-parting-the-waters 735-36: A'
         - 'via w.branch-parting-the-waters 736 n.1: A'
+        - 'w.schlesinger-robert-kennedy-and-his 328: A'
     tags: [name:kennedy-john-f, name:king-coretta-scott, name:king-martin-luther-jr]
     time_range:
       - 1963-04-15T14:00Z

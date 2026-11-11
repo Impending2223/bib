@@ -172,7 +172,7 @@ entries:
     date: '1968-01-02'
     thread: japan-and-korea-pueblo
     c: Off Wonsan, late afternoon. A North Korean subchaser, Soviet-built, watches the *Pueblo* from 300 yards.
-    n: '[[w.bernstein-guns-or-butter]], 473. To check: [[w.bucher-bucher-my-story]]; [[w.armbrister-matter-of-accountability]]. See [[cal.1967-11-06.japan-and-korea-pueblo]].'
+    n: '[[w.bernstein-guns-or-butter]], 473. Check: Poole (237) has the *Pueblo* leave Japan Jan. 8, its first message sent when a North Korean subchaser appears Jan. 22. To check: [[w.bucher-bucher-my-story]]; [[w.armbrister-matter-of-accountability]]. See [[cal.1967-11-06.japan-and-korea-pueblo]].'
     src:
       c: 19ea1db2
       rows:
@@ -181,6 +181,11 @@ entries:
       - 1968-01-02T06:00Z
       - 1968-01-02T10:00Z
     time_zone: Asia/Pyongyang
+    variants:
+      - unit: A
+        witness: w.poole-joint-chiefs-of-staff-2012
+        reads: The USS Pueblo left Japan on 8 January ... a North Korean subchaser appeared on 22 January
+        at: '237'
   - id: cal.1968-01-02.economy
     when: Jan. 2–6
     date: '1968-01-02'
@@ -665,6 +670,18 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d175: all'
     tags: [name:rostow-eugene, name:rusk-dean]
+  - id: cal.1968-01-08.japan-and-korea-pueblo
+    when: Jan. 8
+    date: '1968-01-08'
+    thread: japan-and-korea-pueblo
+    c: The *Pueblo* leaves Japan, under radio silence until it is taken under surveillance.
+    n: '[[w.poole-joint-chiefs-of-staff-2012]], 237–38. Check: the day; Bernstein has the *Pueblo* off Wonsan Jan. 2 ([[cal.1968-01-02.japan-and-korea-pueblo]]). To check: Henry Millington, the *Pueblo* monograph for the National Security Agency; Statement by the Secretary of Defense, "The Pueblo Incident," Tab 3 to "Ball Committee Briefing Book," Joint History Office (cited by [[w.poole-joint-chiefs-of-staff-2012]], 238 n.54). See [[cal.1967-12-29.japan-and-korea-pueblo]].'
+    src:
+      c: 55d63e35
+      rows:
+        - 'w.poole-joint-chiefs-of-staff-2012 237–38: all'
+        - 'via w.poole-joint-chiefs-of-staff-2012 238 n.54a: all'
+        - 'via w.poole-joint-chiefs-of-staff-2012 238 n.54b: all'
   - id: cal.1968-01-09.robert-kennedy
     when: Jan. 9
     date: '1968-01-09'
@@ -1725,11 +1742,12 @@ entries:
     date: '1968-01-21'
     thread: japan-and-korea-blue-house
     c: Seoul, the night of Jan. 21. Thirty-one North Korean commandos, sent to kill Park, stopped by police within a few hundred yards of the Blue House; police and civilians killed in the fighting (Check the dead); one raider captured.
-    n: 'Editorial Note, [FRUS 1964–68, XXIX, pt. 1: Korea, doc. 144](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d144) (the night of Jan. 21; some thirty raiders, sent to kill Park; South Korean civilians and police killed). To check: [[w.bolger-scenes-from-an-unfinished]]; [[w.oberdorfer-two-koreas]]; [[w.cha-alignment-despite-antagonism]]; [[w.lerner-pueblo-incident]]. See [[cal.1967-11-14.japan-and-korea]]. Names: Park. Check: FRUS, doc. 144, has at least two raiders captured and at least five killed.'
+    n: 'Editorial Note, [FRUS 1964–68, XXIX, pt. 1: Korea, doc. 144](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d144) (the night of Jan. 21; some thirty raiders, sent to kill Park; South Korean civilians and police killed). [[w.poole-joint-chiefs-of-staff-2012]], 237 (a team of 31, under orders "to chop off President Park Chung Hee''s head," within 800 meters of the Blue House; nearly all killed or captured). To check: [[w.bolger-scenes-from-an-unfinished]]; [[w.oberdorfer-two-koreas]]; [[w.cha-alignment-despite-antagonism]]; [[w.lerner-pueblo-incident]]. See [[cal.1967-11-14.japan-and-korea]]. Names: Park. Check: FRUS, doc. 144, has at least two raiders captured and at least five killed.'
     src:
       c: 67656b10
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v29p1/d144: A-C'
+        - 'w.poole-joint-chiefs-of-staff-2012 237: A-B'
     tags: [name:park-chung-hee]
     short: the raid on the Blue House
     time_range:
