@@ -22,7 +22,10 @@ Judge by who, arranged by whom, before whom, and about what. Never by the name o
 
 ## Writing it
 
-- `c`: who, what, the number, in one to three clipped sentences; the source's words in quotation marks where it quotes.
+- One event, one entry. Never two in one: a flight and the briefings at its end, an announcement and the act, a toast and the talks, dinners on several days. Split them, each with its own day.
+- Cite only what the page bears. A cite, and each unit of a claim map, stands for what the page itself says; where it bears out part of `c`, say which part ("(the vote)") and put "Check:" on the rest. Never map a unit the page does not state, however likely.
+- `c`: who, what, the number, in one to three clipped sentences; the source's words in quotation marks where it quotes. Say only what the page says (a hat is not a whole outfit); name in `c` everyone `Names:` lists, and list everyone `c` names.
+- `when`: a date as the work gives it, never with a question mark; a loose date takes "Check: the day" (or "the month") in `n`.
 - `n`: the primary record if the page names one you can link; the work by its card and the page you read (`[[w.card]], 307–08`), read off the page image as well as the text; "To check:" for what the page cites and you did not read ("(cited by [[w.card]], 308 n.4)"); `Names:` the persons with name entries; "Check: the day" where the date is loose. `name:` tags for them.
 - Already in the calendar (`./bib ledger find DATE`, `./bib find WORDS -l cal --since ... --until ...`): cite the work under it (the `cite` op). If the page says otherwise (a day, a number, a speaker, the words): a `variant` op or a `check` op, and the cite for what it bears out.
 - A work with no card: `./bib works new` first. A new entry: `./bib new-id`, then `./bib ledger add` before you write it.

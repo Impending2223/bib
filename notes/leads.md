@@ -1107,7 +1107,8 @@ CQ Weekly Report, 1968-03-01:
 - The test-ban resolution with Dodd: its day in the Record, 1963 (memoir 253; Solberg 218).
 - Russell's closing speech on the clergy, June 1964: the Record's day (282).
 - A cabinet meeting June 16 and a leaders' meeting June 20, 1966, Humphrey present (343): the Daily Diary.
-- The signing at Mexico City, Apr. 1, 1968? (359 and its note): the Protocol to the Treaty of Tlatelolco; the *Bulletin*.
+- The signing at Mexico City, Apr. 1, 1968? (359 and its note): the Protocol to the Treaty of Tlatelolco; the *Bulletin*. Entered with a Check, `cal.1968-04-01.testing-npt` (Nov. 11, 2026).
+- From the blind audit of the pilot (Nov. 11, 2026): McNamara floated for the vice presidency, 1964, "a ploy aimed entirely at Robert Kennedy" (289–90): the days. Vermont among the State convention fights with Kennedy's people Humphrey says he won, 1968 (375): the convention's day and division. The deer at the Ranch, "the previous year" (307): a year only. Rome, the opera, a demonstrator's bag of yellow paint (415): the year and day. Windsor, dinner with the Queen and Prince Philip, the Wilsons there, a night at the castle (416): the day.
 - Nixon's offer of the UN to Humphrey at Opa-locka, Nov.–Dec. 1968 (432–33): the day.
 - Detroit Economic Club and the black ministers, 1968 (397–98); San Francisco and Alioto (492 n.8): the days.
 
