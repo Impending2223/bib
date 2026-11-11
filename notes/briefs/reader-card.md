@@ -18,7 +18,8 @@ Judge by who, arranged by whom, before whom, and about what. Never by the name o
 - Rodino asks Kennedy to see his son; Robert Kennedy: "How did Libonati vote?"; Libonati: "my political career is over": **entries** (a favour asked of an officeholder; private talk of votes and careers).
 - Busby's draft of the address to Congress: **an entry** (a principal's speech, drafted), dated to the draft.
 - Johnson at Dirksen's Christmas party, at Mansfield's surprise party, at the Texas delegation's lunch: **entries** (social occasions among the principals of pending business).
-- A son's surgery, with nothing said of public business: **passed over** ("family matter, no bearing on public business").
+- Humphrey, called off the Senate floor on June 17, 1964: his son has cancer and faces surgery; he stays for the civil rights debate: **an entry**. A family matter met by a principal's choice in public business bears on it. (The pilot and the audit split; the owner, Nov. 11, 2026.)
+- A family illness, a wedding, a holiday, with nothing done or said of public business: **passed over** ("family matter, no bearing on public business").
 
 ## Writing it
 
