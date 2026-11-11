@@ -468,3 +468,6 @@ Copied Oct. 30, 2026, from the session's transcript, for the provenance table of
 > International organizations are "inter-national". The provenance and address of the interested state-parties should be filleted out.
 > The USSR delegate in a colloquy with the US delegate is "USSR: public-PA" and "US: public-PA".
 > A conference of NATO or the EEC takes the provenance and address of the relevant state parties unless and until there's an "EEC:nonpublic-P" that's not also nonpublic P to any state party.
+
+> Defaults on the other three.
+> Shouldn't we put this ahead of the readers yet-to-be started? Or were they not on the queue at all?

@@ -23,7 +23,7 @@ A claim carries, for each polity, P or A or both (shown PA), each public or nonp
 **P, public.** A witness published in polity X makes the claim `X:public-P` from its date of publication. Provenance is the country of the newspaper, the publisher, the official series (the *New York Times*, US; *Pravda*, USSR; *Học Tập*, DRV; Hansard, UK; the *Journal officiel*, France; a memoir's first edition, its publisher's country).
 
 **P, nonpublic (privity).** Before it is public in X, a claim is `X:nonpublic-P` from the event's date where:
-- *territory*: the act took place within X's territory **(ruling wanted: as stated, every act there; or narrowed to acts in public and acts by or with X's own officials; default: as stated, with rulings for the exceptions)**;
+- *territory*: the act took place within X's territory (as stated, every act there, with rulings for the exceptions; ruled Nov. 11);
 - *agency*: the act was X's, or its agents' (so a claim resting only on the memoir or diary of an X official is `X:nonpublic-P` from the event, `X:public-P` from the book's first publication: a Humphrey claim resting only on Solberg, 1984, or Humphrey's memoir, 1976, is `US:nonpublic-P` to 1976 or 1984, whichever is the earliest publication that is authority for it);
 - *parties*: the claim is a private communication, visible to its parties only (a FRUS document: its sender's and recipients' polities; the DDF; the AAPD).
 
@@ -46,10 +46,10 @@ The namespace is `polity:` (`polity:us`, `polity:ussr`), not `state:`, which is 
 ## 5. The reference date: at the time, unless pinned
 
 The owner, Nov. 11: "Public at the time, with a pin date to override it."
-- **Default**: each claim is judged at its own date (the entry's `date`, the first day of a loose one). A memorandum of Oct. 22, 1962 is `US:nonpublic-P` there, though FRUS printed it in 1996. **(ruling wanted: "at the time" as the event's day alone, so a speech at 9 p.m. reported the next morning is nonpublic at the time; or the day and the next morning's papers; or a week; default: the day and the next morning, the newspaper band of `tools/bib/dayorder.py`.)**
+- **Default**: each claim is judged at its own date (the entry's `date`, the first day of a loose one). A memorandum of Oct. 22, 1962 is `US:nonpublic-P` there, though FRUS printed it in 1996. "At the time" is the event's day and the next morning's papers (the newspaper band of `tools/bib/dayorder.py`; ruled Nov. 11).
 - **Pin**: the reader picks one date for the whole page; every claim is judged at it. A pin of Jan. 1, 1964 shows what was public or privately known by then.
 - **Loose dates** resolve to the first day of their window (a memoir of "1976" is public from Jan. 1, 1976).
-- **Before the event.** At a pin earlier than a claim's date, nothing is known of it. **(ruling wanted: such entries hidden, or shown greyed as not yet known; default: greyed.)**
+- **Before the event.** At a pin earlier than a claim's date, nothing is known of it. Such entries are shown greyed, as not yet known (ruled Nov. 11).
 
 ## 6. The toggles
 
@@ -89,7 +89,8 @@ Stored:
 
 ## 10. Rulings wanted
 
-1. "At the time": the day alone, the day and the next morning, or a week (§5; default the day and the next morning).
-2. The territory rule: as stated, or narrowed (§3; default as stated).
-3. Entries dated after the pin: hidden or greyed (§5; default greyed).
+Ruled Nov. 11 (the owner: "Defaults on the other three"):
+1. "At the time": the event's day and the next morning's papers (§5).
+2. The territory rule: as stated, every act within the territory, rulings for the exceptions (§3).
+3. Entries dated after the pin: greyed, as not yet known (§5).
 4. ~~Organizations~~: ruled Nov. 11 (§2): state parties' P and A; an organization a polity only where a claim is nonpublic-P to it and to no state party.
