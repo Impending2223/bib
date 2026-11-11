@@ -118,6 +118,35 @@ Re-ruled Nov. 6, 2026, under R18 as amended.
 
 Batch 6 (Nov. 10–11, 2026): the owner's copy again (Drive id 1drwM1lGxNulxbdj6OnBdrjbdyZt-GAlO, 357 PDF pages, text layer; printed = PDF − 14), pp. 114–15, 171, 199–200 and 212 and their notes read, pp. 171 and 199 against the page images; deleted after. Four rows re-ruled, all entered: patch `inbox/2026-11-06-b6-schwartz-lyndon-johnson.yaml`, four new entries claimed in the ledger. Witnesses: `inbox/witnesses/2026-11-06-b6-schwartz-lyndon-johnson.yaml` (Stewart to MacLehose, May 11, 1966; Johnson to Roth, May 15, 1967, FRUS's print read; Wilson to Johnson, Mar. 15, 1968; McDonald's IIASA case study of 1997), four edges added to the by-work file. The rows ruled out of the brief as another country's politics (Krone, 16; Macmillan's resignation, 12; Erhard's defeat, 109) are not of this batch's grounds and stand for the owner, though R18 now takes another country's domestic politics in.
 
+Batch 8 (Nov. 11, 2026): the "already in" rows read against the calendar, 20 rows, from the owner's copy again (printed = PDF − 14; pp. 41 and 209 against the page images). Patch `inbox/2026-11-11-b8-schwartz.yaml`: 21 cites, 2 checks, no new entries. Every cite is partial (`units: '?'` with what the page bears and what it does not) except p. 9 (June 1963, unit A), p. 52 (Athens, unit A) and p. 198 (unit L). Only `cal.1968-03-14.economy` (the gold row) was cited before.
+
+| Row | Ruling |
+|---|---|
+| 9, July 4, 1962 | cited under `cal.1962-07-04.europe-and-the-alliance` (9; the speech and its name, not Independence Hall) |
+| 9, June 1963 | cited under `cal.1963-06-23.europe-and-the-alliance` (9, unit A) |
+| 11, Dec. 1962 | cited under `cal.1962-12-18.europe-and-the-alliance` (11, n.12; not Nassau or Skybolt) |
+| 19, Sept. 7, 1964 | cited under `cal.1964-09-07.elections-1964` (19, n.44, Pub. Papers 1049–52; a different passage from the entry's quotation; 43 the "Daisy" ad) |
+| 21, Feb. 1964 | cited under `cal.1964-02-12.europe-and-the-alliance` (21; not Zanzibar) |
+| 26, Oct. 1964 | cited under `cal.1964-10-15.soviet-union` (26; Brezhnev "party chairman" for First Secretary, noted in the cite) |
+| 41, Apr. 20, 1964 | cited under `cal.1964-04-20.testing` (41, the multilateral force; the entry has the uranium cuts, not the force) and Check on it: the entry omits the force |
+| 43, Oct. 1964 | cited under `cal.1964-10-16.testing` (43; the test only) and Check: n.149 cites *Time*, Sept. 25, 1964, before the test |
+| 52, May 1962 | cited under `cal.1962-05-04.europe-and-the-alliance` (52, unit A; "little response," not the guidelines agreed) |
+| 55, June 23, 1965 | cited under `cal.1965-06-23.robert-kennedy` (55; not the quotation, the gallery or the Senators) |
+| 88, Apr. 1965 | cited under `cal.1965-04-07.vietnam` (88; the development program as the speech's heart) |
+| 95, Jan. 1966 | cited under `cal.1966-01-28.european-community` (95–96) |
+| 137, Oct. 1966 | cited under `cal.1966-10-10.soviet-union` (137–38, n.153, FRUS XI, 387) |
+| 141, Sept. 1966 | cited under `cal.1966-09-01.vietnam` (141, n.3; a different passage from the entry's) |
+| 198, Jan. 17, 1968 | cited under `cal.1968-01-17.program` (198, unit L) |
+| 201, Mar. 1968 | `cal.1968-03-14.economy` already cited (201–02, A–C); cited under `cal.1968-03-16.economy-gold` (202–03, the Washington meeting, the two-tier market). The page's $769 million lost in the first four days of the week of Mar. 11 and $300 million in the first week are not in the entry |
+| 207, Sept. 1967 | cited under `cal.1967-09-18.defense` (207; not San Francisco or the Minuteman sites) |
+| 209, July 1, 1968 | cited under `cal.1968-07-01.testing` (209; Kosygin's agreement to a joint announcement; wording of the quoted talks differs slightly) |
+| 223, Jan. 1969 | cited under `cal.1969-01-14.program` (223; the closing "I believe it will be said that we tried," not the entry's "At least" line) |
+| 233, Jan. 1968 | cited under `cal.1968-01-16.europe-and-the-alliance` (233; month only) |
+
+Seen on the pages, not entered: Johnson to Bundy on Robert Kennedy's speech ("wants to do a little needling"; "helpful to us") and his words on the UN anniversary draft ("I don't want one word in there that looks like I'm copying Bobby Kennedy"), 56, nn.36–37, undated (a lead); Erhard's pledge of $30 million against the $75 million sought for the Southeast Asia program, 88; Schwartz, 223, says no president had delivered a State of the Union in person since John Adams (Wilson did).
+
+Where batch 8 stopped: all 20 rows ruled; nothing left open.
+
 How the list was made: a script over the text layer (pp. 1–239) listed every mention of a month and day, and of a month and year, 203 in all, each with its page, an inferred year and the calendar's entries of that day (±1) in the foreign-policy and economic threads; each was read in context, its note resolved, and judged against the calendar. Classes passed over without a row: dates outside the span (1933–45, 1969–71); retrospective dates the text names to place another event; the photographs' captions, unless they date a meeting the text does not; the dates of the entries Schwartz is already cited for.
 
 | Page | Date | Event | Why |
