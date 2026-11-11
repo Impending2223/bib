@@ -56,6 +56,28 @@ The merge's dry run flags 23 of them as "possible duplicate" of an entry on the 
 
 ## Passed over
 
+The "already in" rows read against the calendar, Nov. 11, 2026 (batch 8, b8-clifford; patch `inbox/2026-11-11-b8-clifford.yaml`: 3 entries, 25 cites (one narrowing an existing map row), 3 variants, 4 checks; read off the owner's copy, pp. 316, 344, 375–78, 397–402, 411–22, 436–37, 453, 456–59, 468, 472–73, 476, 479, 486–89, 501–02, 547, 574 and note 7 on 687 checked on the page images where a number, date or quotation is cited). Each row's ruling:
+
+| page | rows | ruling |
+|---|---|---|
+| 316 | Kennedy nominated | cited under cal.1960-07-13.elections-1960 (the first ballot, 806, 409, 86; not Wyoming, Stevenson's total or 761) |
+| 344 | Kennedy's press conference on Laos | cited under cal.1961-03-23.laos (A) |
+| 375–78 | White; Blough; the press conference; the Carlyle | White (cal.1962-03-30.court) and Blough (cal.1962-04-10.steel) already cited; cited under cal.1962-04-11.steel (the press conference, not the words), cal.1962-04-13.steel and cal.1962-04-13.steel-4 (the Carlyle; Check on -4: no luncheon, no Worthington) |
+| 397–402 | The correspondents; Jenkins | the vice-presidential statement (cal.1964-07-30.elections-1964) and the Jenkins entry (cal.1964-10-14.elections-1964) already cited; cited under cal.1964-07-31.robert-kennedy (Check: the day, July 30, and a telephone protest), cal.1964-10-14.elections-1964-5, -4 (variant on B: "had reached") and cal.1964-10-14.republican-party (variant on A: Burch at 6 p.m., the words); entered as cal.1964-10-14.elections-1964-jenkins (the editors asked to hold the story) |
+| 411–22 | The July meetings | already cited (cal.1965-07-21 to -25 and -28.vietnam, pinned); cited under cal.1965-07-26.vietnam-july-decision (421) |
+| 421 | Clifford repeats his case; the SAM sites | already cited under cal.1965-07-25.vietnam (418–22); the evening council of July 26 entered as cal.1965-07-26.vietnam-air-war-2; not borne out for cal.1965-07-27.vietnam-2 (the page gives the discussion, not the strike) |
+| 436–37 | The pause decided; the resumption | variant on cal.1965-12-18.vietnam-pause (H: "the next day," Dec. 19; the Check there already notes FRUS has no meeting); cited under cal.1966-01-29.vietnam-pause and cal.1966-01-31.vietnam |
+| 453 | San Antonio | cited under cal.1967-09-29.vietnam; Check: Clifford dates the speech Sept. 27 |
+| 456–59 | McNamara before Stennis; Katzenbach's memorandum; the World Bank | cited under cal.1967-08-25.vietnam-air-war, cal.1967-09-01.vietnam (D), cal.1967-11-16.vietnam, cal.1967-11-13.defense-clifford (C), cal.1967-11-27.defense-clifford; the nomination (cal.1967-11-29.defense) and the memorandum of Nov. 1 already cited |
+| 468 | Rostow's memorandum | cited under cal.1967-11-15.vietnam-order-of-battle (the memorandum of November 1967 on the intelligence debate; not the day or the findings) |
+| 469, 472–73, 476, 486–89 | the Chiefs on Khe Sanh; the lunch; Lang Vei; McNamara's medal and departure; Clifford sworn | already cited (cal.1968-01-29.vietnam-khe-sanh, cal.1968-01-30.vietnam, cal.1968-02-28.defense, cal.1968-03-01.transition-and-staff); cited under cal.1968-02-07.vietnam (Lang Vei, 476) |
+| 479 | The Marines clear the Citadel | cited under cal.1968-02-24.vietnam; Check: Clifford has it the afternoon of Feb. 25 (the Check in cal.1968-02-25.vietnam-205000 stands) |
+| 501–02 | The *Times*' story; Johnson's anger; Rusk's testimony; New Hampshire | the story (cal.1968-03-10.vietnam) already cited; Johnson's call entered as cal.1968-03-11.vietnam-205000-2; cited under cal.1968-03-11.vietnam (Rusk) and cal.1968-03-12.elections-1968 (49 to 42 percent) |
+| 547 | The reply to Kosygin | already cited under cal.1968-06-11.vietnam-paris (A-B); the map row narrowed to "?" (the page has the noncommittal message asking what would happen if the bombing stopped; not Dobrynin, Rusk, June 9 or the words) |
+| 574 | Kissinger to Mitchell | cited under cal.1968-10-12.elections-1968 (Oct. 12, a strong probability the bombing would stop; n.7 from Nixon's and Kissinger's memoirs; not Oct. 23 or the words) |
+
+Where batch 8 stopped: all 15 rows read; nothing left over.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, b6-clifford-counsel; done Nov. 10–11). The rows ruled social, family, private, out of the brief (the restoration), a draft or an office's routine were read again off the owner's copy (Drive `1d7lxKGFK6pm_Z4EdbKV645yd3Yyyszvw`, the same offsets; pp. 364 and 565 checked on the page images); each row's ruling below. Patch `inbox/2026-11-06-b6-clifford-counsel.yaml` (12 entries, a new thread `white-house`, 1 cite); witnesses `inbox/witnesses/2026-11-06-b6-clifford-counsel.yaml` (Mrs. Kennedy's three letters as the memoir quotes them), edges in the by-work file. The rows ruled already in, out of the span, a lead, a news story or a repetition stand as they were.
 
 How the list was made: every dated event chs. 18–31 treat, listed page by page while reading (pp. 313–610), against the calendar's entries of the day and the pending patches; what was not entered is here. Revised after the owner's ruling of Oct. 28, late: the rows it calls entries are now entered (the next section); these remain.
