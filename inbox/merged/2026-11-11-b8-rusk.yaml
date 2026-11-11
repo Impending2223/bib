@@ -3,13 +3,13 @@ by: 'Claude (batch 8: Rusk, As I Saw It, the "already in" rows read against the 
 ops:
 - add:
     entry:
-      id: cal.1962-11-29.cuba
-      when: Nov. 29
-      date: '1962-11-29'
+      id: cal.1962-11.cuba
+      when: Nov.
+      date: '1962-11'
       thread: cuba
       also: [soviet-union]
-      c: 'Late Nov. Mikoyan, on his way home through Washington, to an American official: Castro "is crazy"; he kept Mikoyan "waiting for ten days without seeing me." Cuba: "We have been waiting all our lives for a country to go Communist without the Red Army, and it happened in Cuba. It makes us feel like boys again!"'
-      n: '[[w.rusk-as-i-saw-it-1990]], 245 (told "one of our people"; Rusk''s account). See [[cal.1962-11-29.missile-crisis]]; [[cal.1962-11-03.cuba]]. Names: Mikoyan, Castro. Check: the day and the hearer; Rusk gives neither, only "on his way home"; Mikoyan was with Kennedy in Washington Nov. 29. Check: Rusk has Castro keep Mikoyan waiting ten days; the first meeting is dated Nov. 3.'
+      c: 'Mikoyan, on his way home through Washington, to an American official: Castro "is crazy"; he kept Mikoyan "waiting for ten days without seeing me." Cuba: "We have been waiting all our lives for a country to go Communist without the Red Army, and it happened in Cuba. It makes us feel like boys again!"'
+      n: '[[w.rusk-as-i-saw-it-1990]], 245 (told "one of our people"; Rusk''s account). See [[cal.1962-11-29.missile-crisis]]; [[cal.1962-11-03.cuba]]. Names: Mikoyan, Castro. Check: the day and the hearer; Rusk gives only "just after the missile crisis," almost two weeks in Cuba, and "on his way home"; Mikoyan was with Kennedy in Washington Nov. 29.'
       tags: [name:mikoyan-anastas, name:castro-fidel]
 - add:
     entry:
@@ -39,6 +39,15 @@ ops:
       c: 'Rusk, flying to Wellington, is called from the White House about a "final paragraph" added to the address of Mar. 31: Johnson''s withdrawal. It comes as "no surprise."'
       n: '[[w.rusk-as-i-saw-it-1990]], 483. See [[cal.1968-03-31.elections-1968]]. Names: Rusk, Johnson. Check: the day, the hour and the caller; Rusk gives none.'
       tags: [name:rusk-dean, name:johnson-lyndon-b]
+- add:
+    entry:
+      id: cal.1968-03-30.vietnam-3
+      when: Mar. 30–31
+      date: '1968-03-30'
+      thread: vietnam
+      c: 'Katzenbach, acting for Rusk, recommends changing the address''s "north of the twentieth parallel" to "except in the area north of the demilitarized zone, where the continuing enemy buildup directly threatens allied forward positions." Rusk, gone to New Zealand, approves.'
+      n: '[[w.rusk-as-i-saw-it-1990]], 483. See [[cal.1968-03-30.vietnam-205000]]. Names: Katzenbach, Rusk. Check: the day; Rusk gives "the final speech draft," after he had left; McPherson (437–39) has Katzenbach''s language in the last drafting, Mar. 30.'
+      tags: [name:katzenbach-nicholas, name:rusk-dean]
 - cite:
     id: cal.1961-01-20.transition-and-staff
     item: '[[w.rusk-as-i-saw-it-1990]], 205 (Rusk''s confirmation "by voice vote"; not the day, the others or the swearing-in)'
@@ -61,22 +70,9 @@ ops:
     id: cal.1962-11-02.missile-crisis
     text: 'Check: Rusk, 245, has Mikoyan stay in Cuba almost two weeks.'
 - cite:
-    id: cal.1962-11-03.cuba
-    item: '[[w.rusk-as-i-saw-it-1990]], 245 (Castro keeps Mikoyan waiting ten days before seeing him, by Mikoyan''s account to an American; not the inspection)'
-    units: '?'
-- variant:
-    id: cal.1962-11-03.cuba
-    unit: B
-    witness: w.rusk-as-i-saw-it-1990
-    reads: Castro kept Mikoyan waiting ten days without seeing him
-    at: '245'
-- check:
-    id: cal.1962-11-03.cuba
-    text: 'Check: Rusk, 245, has Castro keep Mikoyan waiting ten days before the first meeting.'
-- cite:
-    id: cal.1963-01-14.congo
-    item: '[[w.rusk-as-i-saw-it-1990]], 279 (Katanga integrated into the Congo in January 1963, after more fighting between UN troops and Tshombe''s forces; not Tshombe''s letter or the day)'
-    units: '?'
+    id: cal.1962-12-28.congo
+    item: '[[w.rusk-as-i-saw-it-1990]], 279 (Katanga integrated into the Congo in January 1963, after more fighting between UN troops and Tshombe''s forces)'
+    units: B
 - cite:
     id: cal.1965-11-25.congo
     item: '[[w.rusk-as-i-saw-it-1990]], 280 (Kasavubu deposed in November 1965 by Mobutu, who sets up a military dictatorship; not the day, the hour, Kimba or the embassy)'
@@ -119,35 +115,36 @@ ops:
     text: 'Check: Rusk, 463, has Stevenson tell Thant, after five months, that Washington had learned Hanoi was not interested in talks.'
 - cite:
     id: cal.1965-02-24.vietnam-2
-    item: '[[w.rusk-as-i-saw-it-1990]], 463 (Thant''s press conference, Feb. 24, 1965; the two quotations, the first abridged with ellipses and without "great" and "As you know"; not "for some time" or "concrete ideas")'
+    item: '[[w.rusk-as-i-saw-it-1990]], 463 (Thant''s press conference, Feb. 24, 1965; "In times of war and hostilities, the first casualty is truth"; the first quotation read otherwise, see the variant; not "for some time" or "concrete ideas")'
     units: '?'
+- variant:
+    id: cal.1965-02-24.vietnam-2
+    unit: B
+    witness: w.rusk-as-i-saw-it-1990
+    reads: '"I am sure . . . the American people, if only they knew the true facts . . . , would agree with me that further bloodshed is unnecessary"'
+    at: '463'
+- check:
+    id: cal.1965-02-24.vietnam-2
+    text: 'Check: Rusk, 463, has "would agree."'
 - cite:
     id: cal.1968-03-28.vietnam-205000
     item: '[[w.rusk-as-i-saw-it-1990]], 482 (Rusk with the President alone that evening, William Bundy having drafted the cable to Bunker; Johnson: send it, announcing a partial halt; not the cable''s text)'
-    units: '?'
+    units: B
 - check:
     id: cal.1968-03-28.vietnam-205000
     text: 'Check: Rusk, 482, has William Bundy draft the cable to Bunker at the Mar. 28 session.'
-- cite:
-    id: cal.1968-03-31.vietnam-205000
-    item: '[[w.rusk-as-i-saw-it-1990]], 483 (Katzenbach, acting for Rusk, in the final draft changes "north of the twentieth parallel" to "except in the area north of the demilitarized zone, where the continuing enemy buildup directly threatens allied forward positions"; Rusk, gone to New Zealand, approves; not McPherson''s call or the request to hold raids)'
-    units: '?'
-- names:
-    id: cal.1968-03-31.vietnam-205000
-    add:
-    - Katzenbach
-    - Rusk
-    tags:
-    - name:katzenbach-nicholas
-    - name:rusk-dean
 - cite:
     id: cal.1968-03-31.elections-1968
     item: '[[w.rusk-as-i-saw-it-1990]], 483 (the address: the bombing sharply curtailed; a 13,500-man increase against Westmoreland''s 206,000; peace talks proposed; the withdrawal at the end; not the hour, Harriman, the cost or the surcharge)'
     units: '?'
 - cite:
     id: cal.1968-04-03.vietnam-2
-    item: '[[w.rusk-as-i-saw-it-1990]], 483 (planes strike just south of the 20th parallel Apr. 1; never again north of the 19th, the limit never announced; not the day of the hold)'
+    item: '[[w.rusk-as-i-saw-it-1990]], 483 (never again north of the 19th parallel, the limit never announced; not the day of the hold)'
+    units: '?'
+- cite:
+    id: cal.1968-04-01.vietnam
+    item: '[[w.rusk-as-i-saw-it-1990]], 483 (American planes strike just south of the twentieth parallel, Apr. 1, "prompting charges that we had misled the public"; not Thanh Hóa, the distance or Fulbright)'
     units: '?'
 - check:
-    id: cal.1968-04-03.vietnam-2
-    text: 'Check: Rusk, 483, has planes strike just south of the 20th parallel on Apr. 1, then none north of the 19th.'
+    id: cal.1968-04-01.elections-1968-2
+    text: 'Check: Rusk (482–83) left Mar. 30 for Wellington, New Zealand, for a SEATO meeting, and was there Mar. 31.'

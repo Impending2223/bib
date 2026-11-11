@@ -83,7 +83,7 @@ entries:
     time: 1962-11-02T22:30Z
     thread: missile-crisis
     c: 'Kennedy reports the bases being dismantled. Mikoyan in Havana three weeks: inspection, the IL-28s.'
-    n: 'Radio and Television Remarks on the Dismantling of Soviet Missile Bases in Cuba, [1962 Pub. Papers 821](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=881) (Nov. 2, 1962). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 215–17 (Mikoyan''s November visit; inspection; the IL-28s); [[w.fursenko-khrushchevs-cold-war]], 495 (Mikoyan to Havana Nov. 2; the same day Stevenson names the Il-28s); [[w.sorensen-kennedy]], 720 (the bases dismantled, the crates counted at sea; Mikoyan with Castro, a week of argument, ten days ignored). [[w.fursenko-one-hell-of-a]], 290–315 (Mikoyan''s mission). To check: [[w.mikoyan-anatomiya-karibskogo-krizisa]]; Senate Foreign Relations Committee, *Executive Sessions* (Historical Series), XV, Jan. 11, 1963, 15–16 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 215 n.86). See [[cal.1962-05-24.missile-crisis]]. Names: Mikoyan.'
+    n: 'Radio and Television Remarks on the Dismantling of Soviet Missile Bases in Cuba, [1962 Pub. Papers 821](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=881) (Nov. 2, 1962). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 215–17 (Mikoyan''s November visit; inspection; the IL-28s); [[w.fursenko-khrushchevs-cold-war]], 495 (Mikoyan to Havana Nov. 2; the same day Stevenson names the Il-28s); [[w.sorensen-kennedy]], 720 (the bases dismantled, the crates counted at sea; Mikoyan with Castro, a week of argument, ten days ignored); [[w.rusk-as-i-saw-it-1990]], 245 (Mikoyan sent to Cuba just after the crisis to pacify Castro; not the inspection or the Il-28s). [[w.fursenko-one-hell-of-a]], 290–315 (Mikoyan''s mission). Check: Rusk, 245, has Mikoyan stay in Cuba almost two weeks. To check: [[w.mikoyan-anatomiya-karibskogo-krizisa]]; Senate Foreign Relations Committee, *Executive Sessions* (Historical Series), XV, Jan. 11, 1963, 15–16 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 215 n.86). See [[cal.1962-05-24.missile-crisis]]. Names: Mikoyan.'
     src:
       c: 7e49123a
       rows:
@@ -93,7 +93,13 @@ entries:
         - 'w.fursenko-one-hell-of-a 290–315: B'
         - 'w.fursenko-khrushchevs-cold-war 495: B'
         - 'w.sorensen-kennedy 720: A-B'
+        - 'w.rusk-as-i-saw-it-1990 245: ?'
     tags: [name:kennedy-john-f, name:mikoyan-anastas]
+    variants:
+      - unit: B
+        witness: w.rusk-as-i-saw-it-1990
+        reads: Mikoyan stayed almost two weeks
+        at: '245'
   - id: cal.1962-11-02.middle-east
     when: Nov. 2
     date: '1962-11-02'
@@ -3127,3 +3133,11 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 384: all'
     tags: [name:rockefeller-nelson, state:ny]
+  - id: cal.1962-11.cuba
+    when: Nov.
+    date: 1962-11
+    thread: cuba
+    also: [soviet-union]
+    c: 'Mikoyan, on his way home through Washington, to an American official: Castro "is crazy"; he kept Mikoyan "waiting for ten days without seeing me." Cuba: "We have been waiting all our lives for a country to go Communist without the Red Army, and it happened in Cuba. It makes us feel like boys again!"'
+    n: '[[w.rusk-as-i-saw-it-1990]], 245 (told "one of our people"; Rusk''s account). See [[cal.1962-11-29.missile-crisis]]; [[cal.1962-11-03.cuba]]. Names: Mikoyan, Castro. Check: the day and the hearer; Rusk gives only "just after the missile crisis," almost two weeks in Cuba, and "on his way home"; Mikoyan was with Kennedy in Washington Nov. 29.'
+    tags: [name:mikoyan-anastas, name:castro-fidel]
