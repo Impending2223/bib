@@ -1083,7 +1083,7 @@ entries:
     date: '1966-03-10'
     thread: vietnam-struggle
     c: The Directorate relieves Thi of the I Corps command; Kỳ had told Lodge Mar. 9 of Thi's insubordination, Lodge answering that it was an internal affair.
-    n: '[FRUS 1964–68, IV, doc. 91](https://history.state.gov/historicaldocuments/frus1964-68v04/d91). [[w.gibbons-u-s-government-and]], IV, 268–71; [[w.staaveren-gradual-failure]], 250 (Thi dismissed, Mar. 10); [[w.taylor-swords-and-plowshares]], 367. To check: [[w.topmiller-lotus-unleashed]]; [[w.minh-vietnamese-engaged-buddhism]]; [[w.luu-buddhist-crises-in-vietnam]]; [[w.moyar-political-monks]]; [[w.kahin-intervention]]; [[w.fitzgerald-fire-in-the-lake]]; [[w.ky-twenty-years-and-twenty]]; [[w.blair-lodge-in-vietnam]]; Lodge, "Vietnam Memoir," pt. IV, ch. III, 5, Lodge Papers, Massachusetts Historical Society (cited by [[w.gibbons-u-s-government-and]], IV, 269 n.7). Names: Nguyễn Chánh Thi, Nguyễn Cao Kỳ, Lodge.'
+    n: '[FRUS 1964–68, IV, doc. 91](https://history.state.gov/historicaldocuments/frus1964-68v04/d91). [[w.gibbons-u-s-government-and]], IV, 268–71; [[w.staaveren-gradual-failure]], 250 (Thi dismissed, Mar. 10); [[w.taylor-swords-and-plowshares]], 367; [[w.westmoreland-soldier-reports]], 169 (the military council headed by Thiệu and Kỳ removes Thi from I Corps). To check: [[w.topmiller-lotus-unleashed]]; [[w.minh-vietnamese-engaged-buddhism]]; [[w.luu-buddhist-crises-in-vietnam]]; [[w.moyar-political-monks]]; [[w.kahin-intervention]]; [[w.fitzgerald-fire-in-the-lake]]; [[w.ky-twenty-years-and-twenty]]; [[w.blair-lodge-in-vietnam]]; Lodge, "Vietnam Memoir," pt. IV, ch. III, 5, Lodge Papers, Massachusetts Historical Society (cited by [[w.gibbons-u-s-government-and]], IV, 269 n.7). Names: Nguyễn Chánh Thi, Nguyễn Cao Kỳ, Lodge.'
     src:
       c: bda77256
       rows:
@@ -1093,6 +1093,7 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 269 n.7: B'
         - 'w.staaveren-gradual-failure 250: A'
         - 'w.taylor-swords-and-plowshares 367: A'
+        - 'w.westmoreland-soldier-reports 169: A'
     tags: [name:nguyen-chanh-thi, name:nguyen-cao-ky, name:lodge-henry-cabot]
     short: the Buddhist Uprising
     time_range:
@@ -1268,7 +1269,12 @@ entries:
     date: '1966-03-11'
     thread: vietnam-struggle
     c: Rallies for Thi at Đà Nẵng; strikes and closed schools spread to Huế.
-    n: '[*New York Times*, Mar. 12, 1966](https://timesmachine.nytimes.com/timesmachine/1966/03/12/issue.html). See [[cal.1966-03-10.vietnam]]. Names: Nguyễn Chánh Thi.'
+    n: '[*New York Times*, Mar. 12, 1966](https://timesmachine.nytimes.com/timesmachine/1966/03/12/issue.html). [[w.westmoreland-soldier-reports]], 169 (within a day of Thi''s relief thousands of students in Đà Nẵng demand his reinstatement; the Buddhists'' rally a few days later; at Huế students seize the radio station). See [[cal.1966-03-10.vietnam]]. Names: Nguyễn Chánh Thi.'
+    src:
+      c: e75fb90a
+      rows:
+        - 'https://timesmachine.nytimes.com/timesmachine/1966/03/12/issue.html: all'
+        - 'w.westmoreland-soldier-reports 169: A'
     tags: [name:nguyen-chanh-thi, place:da-nang, place:hue]
   - id: cal.1966-03-11.vietnam-struggle-2
     when: Mar. 11
@@ -2504,12 +2510,13 @@ entries:
     date: '1966-03-24'
     thread: vietnam-struggle
     c: 'Lodge, on Westmoreland''s advice, telephones Kỳ the American casualties of Mar. 1–23, 228 killed and 850 wounded, not made public: "we were paying this price in blood, while all this disorder was going on in Hue and Danang."'
-    n: '[[w.gibbons-u-s-government-and]], IV, 275. To check: Saigon to Washington 3483, Mar. 24, 1966, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 275 n.29). Names: Lodge, Westmoreland, Nguyễn Cao Kỳ.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 275; [[w.westmoreland-soldier-reports]], 170 (at Westmoreland''s suggestion Lodge tells Kỳ that 228 Americans had died in I Corps in the three weeks of "this ''foolishness''"). Check: Westmoreland gives the 228 as the American dead in I Corps (170). To check: Saigon to Washington 3483, Mar. 24, 1966, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 275 n.29). Names: Lodge, Westmoreland, Nguyễn Cao Kỳ.'
     src:
       c: 07064a8b
       rows:
         - 'w.gibbons-u-s-government-and IV, 275: all'
         - 'via w.gibbons-u-s-government-and IV, 275 n.29: all'
+        - 'w.westmoreland-soldier-reports 170: A'
     tags: [name:lodge-henry-cabot, name:westmoreland-william, name:nguyen-cao-ky]
     time_range:
       - 1966-03-24T01:00Z
@@ -2517,6 +2524,11 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.westmoreland-soldier-reports
+        reads: 228 Americans in the I Corps region had died fighting for South Vietnam during the three weeks
+        at: '170'
   - id: cal.1966-03-24.vietnam-struggle-2
     when: Mar. 24
     date: '1966-03-24'
@@ -2576,11 +2588,12 @@ entries:
     date: '1966-03-25'
     thread: vietnam-struggle
     c: Kỳ announces a Constituent Assembly, renamed the Constitutional Preparatory Commission, to finish in two months, and elections by the end of the year. The protests grow.
-    n: '[[w.gibbons-u-s-government-and]], IV, 275. See [[cal.1966-03-22.vietnam-struggle-2]]. Names: Nguyễn Cao Kỳ.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 275; [[w.westmoreland-soldier-reports]], 170 (a committee to draft a constitution within two months, a referendum, elections perhaps before the end of 1966; "if anything, that appeared to feed the dissidence"). See [[cal.1966-03-22.vietnam-struggle-2]]. Names: Nguyễn Cao Kỳ.'
     src:
       c: eeef7b84
       rows:
         - 'w.gibbons-u-s-government-and IV, 275: all'
+        - 'w.westmoreland-soldier-reports 170: A-B'
     tags: [name:nguyen-cao-ky]
     time_range:
       - 1966-03-25T01:00Z

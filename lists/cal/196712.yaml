@@ -2060,7 +2060,13 @@ entries:
     date: '1967-12-21'
     thread: vietnam
     c: 'Canberra, the cabinet room. Johnson briefs Australia''s cabinet: dark days ahead, "kamikaze" tactics in the coming offensive, American troops being flown out, a new division promised from Korea, a greater Australian effort wanted.'
-    n: '[[w.white-making-of-the-president-1969]], 9–10; [[w.berman-lyndon-johnsons-war]], 124 ("The enemy is building his forces in the south. We must try very hard to be ready. We may face dark days ahead"). Check: FRUS for a memorandum of the meeting. Names: Johnson.'
+    n: '[[w.white-making-of-the-president-1969]], 9–10; [[w.berman-lyndon-johnsons-war]], 124 ("The enemy is building his forces in the south. We must try very hard to be ready. We may face dark days ahead"); [[w.westmoreland-soldier-reports]], 239, 314 (Johnson to members of the Australian Cabinet in late December, reflecting Westmoreland''s advice and his cable of Dec. 20: "The enemy is building his forces in the South ... We face dark days ahead."). Check: FRUS for a memorandum of the meeting. Names: Johnson.'
+    src:
+      c: 017b092d
+      rows:
+        - 'w.white-making-of-the-president-1969 9–10: all'
+        - 'w.berman-lyndon-johnsons-war 124: ?'
+        - 'w.westmoreland-soldier-reports 239, 314: B'
     tags: [name:johnson-lyndon-b]
     time_range:
       - 1967-12-20T23:00Z
@@ -2509,12 +2515,13 @@ entries:
     date: '1967-12-29'
     thread: vietnam-diplomacy
     c: 'Nguyễn Duy Trinh at a reception for a Mongolian delegation, broadcast by Radio Hanoi Jan. 1: after the United States unconditionally ends the bombing and other acts of war, "the DRV will talk" with it; before, talks "could" follow.'
-    n: 'FRUS 1964–68, V, doc. [451](https://history.state.gov/historicaldocuments/frus1964-68v05/d451). [[w.zhai-china-and-the-vietnam]], 168 (the statement, Dec. 29, at the Mongolian embassy; Hanoi radio''s English broadcast). To check: [[w.herring-secret-diplomacy-of-the]]. See [[cal.1967-01-28.vietnam]]. Names: Nguyễn Duy Trinh.'
+    n: 'FRUS 1964–68, V, doc. [451](https://history.state.gov/historicaldocuments/frus1964-68v05/d451). [[w.zhai-china-and-the-vietnam]], 168 (the statement, Dec. 29, at the Mongolian embassy; Hanoi radio''s English broadcast); [[w.westmoreland-soldier-reports]], 312 (word dropped at a diplomatic reception in Hanoi and at diplomatic posts elsewhere: if the bombing stopped, North Vietnam would "hold talks"; the reception dated Dec. 30). Check: Westmoreland dates the reception Dec. 30 (312). To check: [[w.herring-secret-diplomacy-of-the]]. See [[cal.1967-01-28.vietnam]]. Names: Nguyễn Duy Trinh.'
     src:
       c: 0b172570
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d451: all'
         - 'w.zhai-china-and-the-vietnam 168: A'
+        - 'w.westmoreland-soldier-reports 312: A'
     tags: [name:nguyen-duy-trinh]
     time_range:
       - 1967-12-29T12:00Z
@@ -2522,6 +2529,11 @@ entries:
     time_band: evening
     time_zone: Asia/Bangkok
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.westmoreland-soldier-reports
+        reads: at a diplomatic reception in Hanoi on December 30, 1967
+        at: '312'
   - id: cal.1967-12-29.legislatures
     when: Dec. 29
     date: '1967-12-29'

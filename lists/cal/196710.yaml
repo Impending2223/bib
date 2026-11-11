@@ -1653,9 +1653,20 @@ entries:
     date: '1967-10-17'
     thread: vietnam-operations
     c: Ông Thành, a stream near the Bình Dương–Bình Long line. The 2d Battalion, 28th Infantry, of the 1st Infantry Division, ambushed in the jungle; its commander killed. American losses 56 killed, 75 wounded, 2 missing.
-    n: '[[w.macgarrigle-united-states-army-in]], 353–361; [[w.villard-united-states-army-in]], 50, 101–102.'
+    n: '[[w.macgarrigle-united-states-army-in]], 353–361; [[w.villard-united-states-army-in]], 50, 101–102; [[w.westmoreland-soldier-reports]], 237 (a battalion of the 1st Division ambushed south of Lộc Ninh, its commander, Lieutenant Colonel Terry Allen Jr., and its operations officer, Holleder, killed; 103 of the Viet Cong killed; not dated). Check: Westmoreland gives 55 Americans killed and 66 wounded (237).'
+    src:
+      c: 4d7eda95
+      rows:
+        - 'w.macgarrigle-united-states-army-in 353–361: all'
+        - 'w.villard-united-states-army-in 50, 101–102: all'
+        - 'w.westmoreland-soldier-reports 237: B-C'
     tags: [place:ong-thanh]
     short: Ông Thành
+    variants:
+      - unit: D
+        witness: w.westmoreland-soldier-reports
+        reads: 'they took a heavy toll of the American battalion: 55 killed, 66 wounded'
+        at: '237'
   - id: cal.1967-10-17.vietnam
     when: Oct. 17
     date: '1967-10-17'
@@ -3311,13 +3322,14 @@ entries:
     time: 1967-10-28T17:15Z
     thread: vietnam-operations
     c: Lộc Ninh, Bình Long Province, near the Cambodian border. At about 1 a.m., the Viet Cong 9th Division's rockets and mortars on the Special Forces camp and the district headquarters; two battalions of the 273d Regiment break into the compound and are driven out by 4 a.m. Further attacks Oct. 31 and Nov. 1–2; the 273d's losses estimated at 600, Oct. 29–Nov. 2.
-    n: '[[w.villard-united-states-army-in]], 48–60; [[w.vietnam-victory-in-vietnam]], 212 (the Lộc Ninh–Route 13 campaign); [[w.macv-command-history-1967]], 393–94 (the 273d Viet Cong Regiment''s mortar attack at 0115; the main ground attack by about 1,500 at 0407 Oct. 31 on the subsector compound and the CIDG camp; 371 of the enemy killed by the South Vietnamese in the first three days, 369 by the Americans to Nov. 4). Check: *Victory in Vietnam* makes it the Lộc Ninh–Route 13 campaign, Oct. 26–Dec. 5: 60 battles; 4,700 of the enemy put out of action, 3,000 Americans among them (212).'
+    n: '[[w.villard-united-states-army-in]], 48–60; [[w.vietnam-victory-in-vietnam]], 212 (the Lộc Ninh–Route 13 campaign); [[w.macv-command-history-1967]], 393–94 (the 273d Viet Cong Regiment''s mortar attack at 0115; the main ground attack by about 1,500 at 0407 Oct. 31 on the subsector compound and the CIDG camp; 371 of the enemy killed by the South Vietnamese in the first three days, 369 by the Americans to Nov. 4); [[w.westmoreland-soldier-reports]], 237 (Oct. 29, a heavy mortar barrage, then a Viet Cong regiment against three CIDG companies, a Regional Forces company and a Popular Forces platoon; into the headquarters compound''s outer perimeter before two ARVN companies help drive it out; again two days later). Check: *Victory in Vietnam* makes it the Lộc Ninh–Route 13 campaign, Oct. 26–Dec. 5: 60 battles; 4,700 of the enemy put out of action, 3,000 Americans among them (212). Check: Westmoreland gives at least 852 of the Viet Cong killed against 50 American and South Vietnamese dead, the town calm eleven days after the first attack, a brigade of the 1st Division sweeping the plantations (237).'
     src:
       c: f7f490f5
       rows:
         - 'w.villard-united-states-army-in 48–60: all'
         - 'w.vietnam-victory-in-vietnam 212: A'
         - 'w.macv-command-history-1967 393–94: B, D'
+        - 'w.westmoreland-soldier-reports 237: A-D'
     tags: [place:loc-ninh]
     short: Lộc Ninh
   - id: cal.1967-10-29.elections-1968
@@ -4177,3 +4189,20 @@ entries:
         of:
           - cal.1967-10.robert-kennedy
         from: 2026-11-06-b6-schlesinger-rfk
+  - id: cal.1967-10.vietnam-operations-2
+    when: Oct.
+    date: 1967-10
+    thread: vietnam-operations
+    c: 'American troops capture an enemy document on an offensive in western Kon Tum: annihilate a major American unit, draw more American troops to the Highlands, destroy much of the South Vietnamese army, "make a concentrated offensive effort in co-ordination with other units in various battle areas throughout South Vietnam"; supplies for attacks far from the bases, "in preparation for a prolonged battle." By Westmoreland''s account.'
+    n: '[[w.westmoreland-soldier-reports]], 239, 313 (Abrams cables its contents to Westmoreland in Washington in November). To check: the document (quoted by [[w.westmoreland-soldier-reports]], 239). Check: the day; the book gives "a fortnight before the Dak To fight began." See [[cal.1967-11-03.vietnam]]. Names: Westmoreland.'
+    src:
+      c: de4cad37
+      rows:
+        - 'w.westmoreland-soldier-reports 239, 313: all'
+        - 'via x.1967.enemy-document-offensive-western-kontum: all'
+    tags: [name:westmoreland-william, place:kontum]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-10.vietnam-operations
+        from: 2026-11-10-b7-westmoreland

@@ -441,7 +441,7 @@ entries:
     time_approx: true
     thread: vietnam-may-offensive
     c: 'The second offensive: rockets, mortars and ground attacks, from midnight May 4–5, on Saigon, airfields and Kon Tum, some 119 places (Check). Fighting in Saigon''s outskirts and Cholon for a week. Wheeler to Johnson, May 4: "Hit 18 places"; Rusk: "pretty heavy fighting as we move into talks."'
-    n: 'FRUS 1964–68, VI, doc. [222](https://history.state.gov/historicaldocuments/frus1964-68v06/d222). [[w.vietnam-victory-in-vietnam]], 227–28 (artillery on eight targets in Saigon at 3:10 a.m., May 5; the 9th Division''s attack shifted to the southwest); [[w.cosmas-joint-chiefs-of-staff]], 206–207 (the night of May 4–5; Saigon); [[w.bernstein-guns-or-butter]], 492 (May 5–18: 1,800 Americans killed, 18,000 seriously wounded; the enemy''s dead, by the American count, over 43,000). To check: [[w.spector-after-tet]]; [[w.nolan-house-to-house]]; [[w.schmitz-tet-offensive]]; [[w.sorley-better-war]]. See [[cal.1968-01-30.vietnam]]. Names: Wheeler, Rusk, Johnson.'
+    n: 'FRUS 1964–68, VI, doc. [222](https://history.state.gov/historicaldocuments/frus1964-68v06/d222). [[w.vietnam-victory-in-vietnam]], 227–28 (artillery on eight targets in Saigon at 3:10 a.m., May 5; the 9th Division''s attack shifted to the southwest); [[w.cosmas-joint-chiefs-of-staff]], 206–207 (the night of May 4–5; Saigon); [[w.bernstein-guns-or-butter]], 492 (May 5–18: 1,800 Americans killed, 18,000 seriously wounded; the enemy''s dead, by the American count, over 43,000); [[w.westmoreland-soldier-reports]], 360 (from May 5, "a sharply reduced version of the Tet offensive," mostly rockets and mortars on towns, cities and American installations; Saigon the most visible, guerrilla bands holding out in Cholon, fires set in the shanty towns). To check: [[w.spector-after-tet]]; [[w.nolan-house-to-house]]; [[w.schmitz-tet-offensive]]; [[w.sorley-better-war]]. See [[cal.1968-01-30.vietnam]]. Names: Wheeler, Rusk, Johnson.'
     src:
       c: 56d9098e
       rows:
@@ -450,6 +450,7 @@ entries:
         - 'w.cosmas-joint-chiefs-of-staff 206–207: A-B'
         - 'via w.cosmas-joint-chiefs-of-staff 207 n.14: B'
         - 'w.bernstein-guns-or-butter 492: A'
+        - 'w.westmoreland-soldier-reports 360: B'
     tags: [name:wheeler-earle, name:rusk-dean, name:johnson-lyndon-b, place:saigon, place:cholon, place:kontum]
   - id: cal.1968-05-05.laos
     when: May 5–13
@@ -1048,7 +1049,13 @@ entries:
     time: 1968-05-11T18:30Z
     thread: vietnam-operations
     c: 'Khâm Đức evacuated under fire. At 2:30 a.m. the North Vietnamese overrun three of its five hilltop observation posts; the evacuation by Army and Marine helicopters and Air Force transports from about 8 a.m. Lost: 6 helicopters, 2 C-130s, an O-2 and an A-1E. Allied losses 25 killed, 120 wounded, 13 missing.'
-    n: 'Remarks Upon Presenting the Medal of Honor to a Member of Each of the Armed Services, [1968–69 Pub. Papers 1329](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=639) (Jan. 16, 1969). [[w.villard-united-states-army-in]], 544–547. To check: [[w.gropman-airpower-and-the-airlift]]. See [[cal.1968-05-10.vietnam-operations]].'
+    n: 'Remarks Upon Presenting the Medal of Honor to a Member of Each of the Armed Services, [1968–69 Pub. Papers 1329](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=639) (Jan. 16, 1969). [[w.villard-united-states-army-in]], 544–547; [[w.westmoreland-soldier-reports]], 360 (Khâm Đức: a thrust from Laos; Cushman at first reinforces the camp; Westmoreland orders it evacuated, the Air Force pilots under the single manager flying it out). To check: [[w.gropman-airpower-and-the-airlift]]. See [[cal.1968-05-10.vietnam-operations]].'
+    src:
+      c: 1662b84a
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=639: all'
+        - 'w.villard-united-states-army-in 544–547: all'
+        - 'w.westmoreland-soldier-reports 360: A, C'
     tags: [place:kham-duc]
   - id: cal.1968-05-12.elections-1968-state-conventions
     when: May 12
@@ -4224,3 +4231,30 @@ entries:
           - cal.1968-05.robert-kennedy-campaign-primaries
           - cal.1968-05.robert-kennedy-campaign-primaries-2
         from: 2026-11-06-b6-thomas-robert-kennedy
+  - id: cal.1968-05.vietnam-may-offensive
+    when: May
+    date: 1968-05
+    thread: vietnam-may-offensive
+    c: 'Saigon, the Y Bridge over the Kinh Đôi canal on the city''s southern edge: a Viet Cong force near a battalion''s size reaches the outskirts; the South Vietnamese, reinforced by a brigade of the 9th Division under Benson, rout it, with destruction. By Westmoreland''s account.'
+    n: '[[w.westmoreland-soldier-reports]], 360. Check: the days; the book gives none. See [[cal.1968-05-05.vietnam]]. Names: Westmoreland.'
+    src:
+      c: 48de12cd
+      rows:
+        - 'w.westmoreland-soldier-reports 360: all'
+    tags: [name:westmoreland-william, place:saigon]
+  - id: cal.1968-05.vietnam-may-offensive-2
+    when: May
+    date: 1968-05
+    thread: vietnam-may-offensive
+    c: Saigon. An enemy battalion works its way by night near Tân Sơn Nhứt and is destroyed by South Vietnamese units in a French military cemetery nearby. By Westmoreland's account.
+    n: '[[w.westmoreland-soldier-reports]], 360. Check: the day; the book gives none. See [[cal.1968-05-05.vietnam]]. Names: Westmoreland.'
+    src:
+      c: db12de54
+      rows:
+        - 'w.westmoreland-soldier-reports 360: all'
+    tags: [name:westmoreland-william, place:tan-son-nhut]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-05.vietnam-may-offensive
+        from: 2026-11-10-b7-westmoreland

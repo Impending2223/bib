@@ -1468,6 +1468,41 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-06-08.elections-1964-scranton
+    when: June 8
+    date: '1964-06-08'
+    thread: elections-1964-scranton
+    also: [republican-party]
+    c: 'Cleveland, the Sheraton, the evening. The Republican governors'' private reception for Eisenhower before the Governors'' Conference banquet: some of them, by Fannin''s report to F. Clifton White, give Eisenhower "a good going-over" on Goldwater. Eisenhower then in Scranton''s suite with Scranton and George Humphrey; Humphrey to White: "Ike''s all right." By White''s account.'
+    n: '[[w.white-suite-3505]], 366–67. See [[cal.1964-06-07.states-and-cities-us]]. Names: Eisenhower, Fannin, F. Clifton White, Goldwater, Scranton, George Humphrey.'
+    src:
+      c: c54b6174
+      rows:
+        - 'w.white-suite-3505 366–67: all'
+    tags: [name:eisenhower-dwight-d, name:fannin-paul-j, name:white-f-clifton, name:goldwater-barry-m, name:scranton-william-w, name:humphrey-george-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-06-08.elections-1964
+          - cal.1964-06-08.elections-1964-2
+        from: 2026-11-10-b7-white-suite-3505
+  - id: cal.1964-06-08.goldwater-2
+    when: June 8
+    date: '1964-06-08'
+    thread: goldwater
+    also: [elections-1964]
+    c: 'Cleveland, the Sheraton. Goldwater to the Governors'' Conference banquet, greeted by many who had sought another candidate. Asked whether he will answer the Republican governors'' questions, as Romney and Scranton had proposed: all Republicans know his views. At the banquet with Eisenhower and the governors, Scranton and Rockefeller among them. By White''s account.'
+    n: '[[w.white-suite-3505]], 367. See [[cal.1964-06-07.states-and-cities-us]]. Names: Goldwater, Romney, Scranton, Eisenhower, Rockefeller.'
+    src:
+      c: 73b06918
+      rows:
+        - 'w.white-suite-3505 367: all'
+    tags: [name:goldwater-barry-m, name:romney-george-w, name:scranton-william-w, name:eisenhower-dwight-d, name:rockefeller-nelson]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-06-08.goldwater
+        from: 2026-11-10-b7-white-suite-3505
   - id: cal.1964-06-09.governors-in
     when: June 9
     date: '1964-06-09'

@@ -9,13 +9,14 @@ entries:
     thread: vietnam-tet
     also: [press-and-broadcasting]
     c: Saigon. General Nguyễn Ngọc Loan, the national police chief, shoots a bound Viet Cong prisoner in the street; photographed by Adams of the Associated Press, filmed by an NBC crew. The photograph on front pages Feb. 2; the film on NBC's evening news (Check the day).
-    n: '[[w.branch-at-canaans-edge]], 682 (outside the An Quang temple); [[w.bernstein-guns-or-butter]], 475 (NBC in color; Adams''s photograph on "virtually every" front page). To check: [[w.karnow-vietnam]], 462, 542 (cited by [[w.branch-at-canaans-edge]], 682); [[w.braestrup-big-story]], 347–49 (cited by [[w.branch-at-canaans-edge]], 682); [[w.langguth-our-vietnam]], 475 (cited by [[w.branch-at-canaans-edge]], 682); [[w.oberdorfer-tet]], 161–71 (cited by [[w.branch-at-canaans-edge]], 682); McPherson, *A Political Education* (1988), 424–25 (cited by [[w.branch-at-canaans-edge]], 682); [[w.dallek-flawed-giant]], 505–6 (cited by [[w.branch-at-canaans-edge]], 682). See [[cal.1968-01-30.vietnam]]. Names: Nguyễn Ngọc Loan, Adams.'
+    n: '[[w.branch-at-canaans-edge]], 682 (outside the An Quang temple); [[w.bernstein-guns-or-butter]], 475 (NBC in color; Adams''s photograph on "virtually every" front page); [[w.westmoreland-soldier-reports]], 328 ("on the second day of the fighting," near the An Quang pagoda; Adams''s photograph; NBC''s film). To check: [[w.karnow-vietnam]], 462, 542 (cited by [[w.branch-at-canaans-edge]], 682); [[w.braestrup-big-story]], 347–49 (cited by [[w.branch-at-canaans-edge]], 682); [[w.langguth-our-vietnam]], 475 (cited by [[w.branch-at-canaans-edge]], 682); [[w.oberdorfer-tet]], 161–71 (cited by [[w.branch-at-canaans-edge]], 682); McPherson, *A Political Education* (1988), 424–25 (cited by [[w.branch-at-canaans-edge]], 682); [[w.dallek-flawed-giant]], 505–6 (cited by [[w.branch-at-canaans-edge]], 682). See [[cal.1968-01-30.vietnam]]. Names: Nguyễn Ngọc Loan, Adams.'
     src:
       c: 570602dd
       rows:
         - 'w.branch-at-canaans-edge 682: ?'
         - 'via x.1988.mcpherson-harry-a-political-education-1988: all'
         - 'w.bernstein-guns-or-butter 475: B-E'
+        - 'w.westmoreland-soldier-reports 328: A-C'
     tags: [name:nguyen-ngoc-loan, name:adams-eddie, place:saigon]
   - id: cal.1968-02-01.elections-1968
     when: Feb. 1–2
@@ -200,6 +201,22 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1968-02-01.vietnam-tet
+    when: Feb. 1
+    date: '1968-02-01'
+    thread: vietnam-tet
+    c: 'COSVN orders the offensive continued: "We failed to seize a number of primary objectives and to completely destroy mobile and defensive units of the enemy. We also failed to hold the occupied areas. In the political field we failed to motivate the people to stage uprisings and break the enemy''s oppressive control."'
+    n: '[[w.westmoreland-soldier-reports]], 332. To check: COSVN''s order of Feb. 1, 1968 (quoted by [[w.westmoreland-soldier-reports]], 332). Check: where and when the order was made public. See [[cal.1968-01-31.vietnam-tet]].'
+    src:
+      c: 4ee42444
+      rows:
+        - 'w.westmoreland-soldier-reports 332: all'
+        - 'via x.1968-02-01.cosvn-order-offensive-to-continue: all'
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-02-01.vietnam
+        from: 2026-11-10-b7-westmoreland
   - id: cal.1968-02-02.vietnam-tet
     when: Feb. 2
     date: '1968-02-02'
@@ -624,11 +641,12 @@ entries:
     date: '1968-02-05'
     thread: vietnam-tet
     c: Trần Hưng Đạo begins in the Saigon area under the Joint General Staff's direct control, six Vietnamese Marine, five airborne and four Ranger battalions; Feb. 1–5 the turn from the Viet Cong's attacks to the allies' initiative.
-    n: '[[w.macv-command-history-1968]], 390.'
+    n: '[[w.macv-command-history-1968]], 390; [[w.westmoreland-soldier-reports]], 328 (seven American battalions moved into the city or its outskirts over two days; "By February 5 ... Saigon was free of all but small enemy groups").'
     src:
       c: 1b0720ff
       rows:
         - 'w.macv-command-history-1968 390: all'
+        - 'w.westmoreland-soldier-reports 328: B'
     tags: [place:saigon]
   - id: cal.1968-02-05.vietnam-tet-3
     when: Feb. 5
@@ -900,17 +918,23 @@ entries:
     date: '1968-02-07'
     thread: vietnam-khe-sanh
     c: Lang Vei, the Special Forces camp west of Khe Sanh, overrun before dawn by North Vietnamese infantry with PT-76 tanks, their first armor in the South (Check the losses).
-    n: 'Wheeler to the National Security Council, Feb. 7: FRUS 1964–68, VI, doc. [60](https://history.state.gov/historicaldocuments/frus1964-68v06/d60). [[w.macv-command-history-1968]], 114 (the camp overrun; the first armor). See [[cal.1968-01-21.vietnam]]. Check: *Victory in Vietnam* dates the attack Feb. 6: the 24th Regiment and a battalion of the 101st, with two companies of PT-76s; 400 killed, three American advisers among them, 253 captured (222, 467 n.19).'
+    n: 'Wheeler to the National Security Council, Feb. 7: FRUS 1964–68, VI, doc. [60](https://history.state.gov/historicaldocuments/frus1964-68v06/d60). [[w.macv-command-history-1968]], 114 (the camp overrun; the first armor); [[w.westmoreland-soldier-reports]], 341 (nine Soviet-built PT-76 tanks with infantry; the CIDG troops and their advisers under Willoughby driven out; of twenty-four Americans, fourteen out, all but three of them wounded, ten killed; dated "just after midnight on February 6"). Check: Westmoreland dates the attack just after midnight Feb. 6, and his conference at Đà Nẵng "the next day, February 7" (341). See [[cal.1968-01-21.vietnam]]. Check: *Victory in Vietnam* dates the attack Feb. 6: the 24th Regiment and a battalion of the 101st, with two companies of PT-76s; 400 killed, three American advisers among them, 253 captured (222, 467 n.19).'
     src:
       c: 907de279
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d60: all'
         - 'w.macv-command-history-1968 114: A'
+        - 'w.westmoreland-soldier-reports 341: A'
     tags: [place:lang-vei]
     time_range:
       - 1968-02-06T16:00Z
       - 1968-02-06T23:00Z
     time_zone: Asia/Ho_Chi_Minh
+    variants:
+      - unit: A
+        witness: w.westmoreland-soldier-reports
+        reads: Out of the darkness just after midnight on February 6 trundled nine Soviet-built PT-76 tanks
+        at: '341'
   - id: cal.1968-02-07.press-and-broadcasting
     when: Feb. 7
     date: '1968-02-07'
@@ -1075,6 +1099,23 @@ entries:
       rows:
         - 'w.graham-uncertain-triumph 258 n.4: all'
         - 'via w.graham-uncertain-triumph 258 n.4: all'
+  - id: cal.1968-02-07.vietnam-khe-sanh-2
+    when: Feb. 7
+    date: '1968-02-07'
+    thread: vietnam-khe-sanh
+    c: 'Đà Nẵng, soon after daylight. Westmoreland''s conference of the Marine and Army commanders in I Corps: Cushman to give helicopters for a relief force of CIDG troops and Special Forces advisers to bring out Làng Vây''s survivors. Seven enemy divisions in the north; after almost two hours of reports Westmoreland gives orders to Cushman''s subordinate units himself, and sends Koster and Robertson out to plan coordinated offensive action against the threat to the Đà Nẵng airfield. By Westmoreland''s account.'
+    n: '[[w.westmoreland-soldier-reports]], 341–42. See [[cal.1968-02-07.vietnam]]. Names: Westmoreland, Cushman.'
+    src:
+      c: '72981058'
+      rows:
+        - 'w.westmoreland-soldier-reports 341–42: all'
+    tags: [name:westmoreland-william, name:cushman-robert-e-jr, place:da-nang]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-02-07.vietnam
+          - cal.1968-02-07.vietnam-khe-sanh
+        from: 2026-11-10-b7-westmoreland
   - id: cal.1968-02-08.south-carolina
     when: Feb. 8
     date: '1968-02-08'
@@ -2540,13 +2581,14 @@ entries:
     date: '1968-02-18'
     thread: vietnam-tet
     c: 'The Pentagon''s week: 543 Americans killed, 2,547 wounded, the most yet; American losses for the first time proportionally higher than the ARVN''s. A new wave of attacks on forty-five cities and installations; 122-mm rockets on Saigon.'
-    n: '[[w.clifford-counsel-to-the-president-2]], 479; [[w.branch-at-canaans-edge]], 694 (543 killed, 2,547 wounded). To check: New York Times, Feb. 23, 1968, p. 1 (cited by [[w.branch-at-canaans-edge]], 694); [[w.langguth-our-vietnam]], 480 (cited by [[w.branch-at-canaans-edge]], 694). See [[cal.1968-01-31.vietnam-tet]]. Check: the figures, by Clifford''s account.'
+    n: '[[w.clifford-counsel-to-the-president-2]], 479; [[w.branch-at-canaans-edge]], 694 (543 killed, 2,547 wounded); [[w.westmoreland-soldier-reports]], 332 ("a sharp flurry of local attacks, mostly with mortars and rockets, on February 18"). To check: New York Times, Feb. 23, 1968, p. 1 (cited by [[w.branch-at-canaans-edge]], 694); [[w.langguth-our-vietnam]], 480 (cited by [[w.branch-at-canaans-edge]], 694). See [[cal.1968-01-31.vietnam-tet]]. Check: the figures, by Clifford''s account.'
     src:
       c: e780f6b9
       rows:
         - 'w.clifford-counsel-to-the-president-2 479: all'
         - 'w.branch-at-canaans-edge 694: ?'
         - 'via x.1968-02-23.new-york-times-feb-23-1968: all'
+        - 'w.westmoreland-soldier-reports 332: C'
     tags: [place:saigon]
   - id: cal.1968-02-19.open-housing
     when: Feb. 19
@@ -3599,12 +3641,14 @@ entries:
     date: '1968-02-24'
     thread: vietnam-tet
     c: Huế retaken. South Vietnamese troops of Trưởng's 1st Division raise the Republic's flag over the Citadel, Feb. 24, after Marines and South Vietnamese had fought for the city from Feb. 1. Graves of civilians killed during the occupation found in the weeks after (Check the count).
-    n: 'The flag-raising at the Citadel, Lansdale to Bunker, Feb. 27: FRUS 1964–68, VI, doc. [88](https://history.state.gov/historicaldocuments/frus1964-68v06/d88). [[w.bernstein-guns-or-butter]], 475 (the Citadel held till Feb. 25; 80 percent of the city destroyed; about 3,000 bodies found; 140 Marines, 400 South Vietnamese, 5,000 of the enemy killed). Check: MACV''s History: the enemy finally ejected from the Citadel Feb. 25 (157). See [[cal.1968-01-30.vietnam]]. Names: Ngô Quang Trưởng. Check: *Victory in Vietnam*: its troops ordered out of the city Feb. 23, after 25 days (219, 467 n.18).'
+    n: 'The flag-raising at the Citadel, Lansdale to Bunker, Feb. 27: FRUS 1964–68, VI, doc. [88](https://history.state.gov/historicaldocuments/frus1964-68v06/d88). [[w.bernstein-guns-or-butter]], 475 (the Citadel held till Feb. 25; 80 percent of the city destroyed; about 3,000 bodies found; 140 Marines, 400 South Vietnamese, 5,000 of the enemy killed); [[w.westmoreland-soldier-reports]], 330 (the Tiger Force of Trưởng''s division pulls down the enemy''s flag over the Citadel twenty-five days after the fighting began and runs up the Republic''s; resistance over the next day; eleven South Vietnamese and three Marine battalions, the 1st Cavalry outside the city; sixteen enemy battalions; over 5,000 of the enemy killed in the city, 3,000 nearby; 142 Marines and 384 South Vietnamese killed); [[w.westmoreland-soldier-reports]], 330–31 (the graves found over the weeks and months after; more than 2,800 residents executed or buried alive; Miller of USIA and Niles of NBC International among the Americans killed; Manhard taken prisoner). Check: MACV''s History: the enemy finally ejected from the Citadel Feb. 25 (157). See [[cal.1968-01-30.vietnam]]. Names: Ngô Quang Trưởng. Check: *Victory in Vietnam*: its troops ordered out of the city Feb. 23, after 25 days (219, 467 n.18).'
     src:
       c: c9d0dacf
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d88: all'
         - 'w.bernstein-guns-or-butter 475: A'
+        - 'w.westmoreland-soldier-reports 330: A-B'
+        - 'w.westmoreland-soldier-reports 330–31: C'
     tags: [name:ngo-quang-truong, place:hue]
   - id: cal.1968-02-24.elections-1968
     when: Feb. 24
@@ -5073,11 +5117,16 @@ entries:
     date: '1968-02-29'
     thread: vietnam-tet
     c: 'MACV''s count of the Tet offensive, 6 p.m. Jan. 29 to midnight Feb. 29: enemy 45,005 killed, 7,417 detained; friendly 5,474 killed, 1,825 American, 3,557 South Vietnamese, 92 allied; 23,009 wounded. Refugees 599,858; 68,099 homes destroyed. Saigon begins drafting 19-year-olds.'
-    n: '[[w.macv-command-history-1968]], 1036. Check: the refugees'' figure, the OCR''s "$99, 858".'
+    n: '[[w.macv-command-history-1968]], 1036. Check: the refugees'' figure, the OCR''s "$99, 858". Check: Westmoreland gives, Jan. 29–Feb. 11, 32,000 of the enemy killed and 5,800 captured, 1,001 Americans and 2,082 South Vietnamese and allied troops killed; 37,000 of the enemy killed by the end of February; 600,000 new refugees (332).'
     src:
       c: e2a1121f
       rows:
         - 'w.macv-command-history-1968 1036: all'
+    variants:
+      - unit: B
+        witness: w.westmoreland-soldier-reports
+        reads: By the end of February ... the enemy toll rose to 37,000 killed
+        at: '332'
   - id: cal.1968-02.vietnam
     when: Feb.
     date: 1968-02

@@ -228,7 +228,12 @@ entries:
     date: '1968-01-03'
     thread: vietnam
     c: 'Mai Văn Bộ in Paris to Westinghouse Broadcasting: talks at once if the bombing stops (Check). Restrikes near Hanoi held off, for the Cambodian and Romanian channels.'
-    n: 'FRUS 1964–68, VI, docs. [3](https://history.state.gov/historicaldocuments/frus1964-68v06/d3), [4](https://history.state.gov/historicaldocuments/frus1964-68v06/d4). See [[cal.1967-12-29.vietnam]]. Names: Mai Văn Bộ.'
+    n: 'FRUS 1964–68, VI, docs. [3](https://history.state.gov/historicaldocuments/frus1964-68v06/d3), [4](https://history.state.gov/historicaldocuments/frus1964-68v06/d4). [[w.westmoreland-soldier-reports]], 312 (the bombing in and around Hanoi halted during a Romanian representative''s visit there). Check: Westmoreland places the Romanian''s visit to Hanoi in mid-January (312). See [[cal.1967-12-29.vietnam]]. Names: Mai Văn Bộ.'
+    src:
+      c: 03ce87aa
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d3: all'
+        - 'w.westmoreland-soldier-reports 312: B'
     tags: [name:mai-van-bo, name:johnson-lyndon-b]
   - id: cal.1968-01-03.king-poor-peoples
     when: Jan. 3
@@ -3897,3 +3902,44 @@ entries:
           - cal.1968-01.robert-kennedy-campaign-decision
           - cal.1968-01.robert-kennedy-campaign-decision-2
         from: 2026-11-06-b6-thomas-robert-kennedy
+  - id: cal.1968-01-31.vietnam-tet-6
+    when: Jan. 31
+    date: '1968-01-31'
+    thread: vietnam-tet
+    c: Quảng Trị City. Forsythe, Komer's military deputy, after a night as a rifleman in the MACV advisory compound, learns of an enemy force coming from the southeast, where the defenses have a gap. At his asking Rattan's brigade of the 1st Cavalry Division sends a battalion, less than an hour before the North Vietnamese; more than 400 of them killed. By Westmoreland's account.
+    n: '[[w.westmoreland-soldier-reports]], 331. Check: the day; the book gives none. See [[cal.1968-01-31.vietnam-tet]]. Names: Forsythe, Komer, Westmoreland.'
+    src:
+      c: f4952419
+      rows:
+        - 'w.westmoreland-soldier-reports 331: all'
+    tags: [name:forsythe-george-i, name:komer-robert-w, name:westmoreland-william, place:quang-tri]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-01-31.vietnam-tet
+          - cal.1968-01-31.vietnam-tet-2
+          - cal.1968-01-31.vietnam-tet-3
+          - cal.1968-01-31.vietnam-tet-5
+          - cal.1968-01-31.vietnam-tet-4
+        from: 2026-11-10-b7-westmoreland
+  - id: cal.1968-01-31.vietnam-tet-7
+    when: Jan. 31
+    date: '1968-01-31'
+    thread: vietnam-tet
+    c: Long Bình. A Viet Cong regiment strikes the base's perimeter, the offensive's one major attack on an American base but the shared airfields; Davison's 199th Infantry Brigade intercepts part of it and surrounds the rest. By Westmoreland's account.
+    n: '[[w.westmoreland-soldier-reports]], 331. Check: the day; the book gives none. See [[cal.1968-01-31.vietnam-tet]]. Names: Westmoreland.'
+    src:
+      c: 181aa476
+      rows:
+        - 'w.westmoreland-soldier-reports 331: all'
+    tags: [name:westmoreland-william, place:long-binh]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-01-31.vietnam-tet
+          - cal.1968-01-31.vietnam-tet-2
+          - cal.1968-01-31.vietnam-tet-3
+          - cal.1968-01-31.vietnam-tet-5
+          - cal.1968-01-31.vietnam-tet-4
+          - cal.1968-01-31.vietnam-tet-6
+        from: 2026-11-10-b7-westmoreland

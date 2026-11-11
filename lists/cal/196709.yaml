@@ -428,7 +428,11 @@ entries:
     thread: vietnam-barrier
     also: [defense]
     c: McNamara, at a news conference, announces an anti-infiltration system below the DMZ.
-    n: 'To check: [[w.drea-mcnamara-clifford-and-the-2011]]; [[w.prados-blood-road]]; [[w.shapley-promise-and-power]]. See [[cal.1966-10-10.vietnam]]. Check: the transcript. Names: McNamara.'
+    n: '[[w.westmoreland-soldier-reports]], 200 (McNamara at a press conference in Washington, not dated, announces "grandiose plans for the barrier"; the reporters'' "McNamara Line"). To check: [[w.drea-mcnamara-clifford-and-the-2011]]; [[w.prados-blood-road]]; [[w.shapley-promise-and-power]]. See [[cal.1966-10-10.vietnam]]. Check: the transcript. Names: McNamara.'
+    src:
+      c: b8cef8be
+      rows:
+        - 'w.westmoreland-soldier-reports 200: A'
     tags: [name:mcnamara-robert-s]
     time_range:
       - 1967-09-07T13:00Z
@@ -1789,13 +1793,14 @@ entries:
     date: '1967-09-22'
     thread: vietnam-force-levels
     c: Task Force Oregon designated the Americal Division.
-    n: '[[w.macv-command-history-1967]], 142, 2; [[w.cosmas-joint-chiefs-of-staff]], 93. See [[cal.1967-04-12.vietnam-force-levels]].'
+    n: '[[w.macv-command-history-1967]], 142, 2; [[w.cosmas-joint-chiefs-of-staff]], 93; [[w.westmoreland-soldier-reports]], 201 (redesignated the "Americal Division"; not dated). See [[cal.1967-04-12.vietnam-force-levels]].'
     src:
       c: 09131fc1
       rows:
         - 'w.macv-command-history-1967 142: all'
         - 'w.macv-command-history-1967 2: all'
         - 'w.cosmas-joint-chiefs-of-staff 93: A'
+        - 'w.westmoreland-soldier-reports 201: A'
   - id: cal.1967-09-22.vietnam
     when: Sept. 22
     date: '1967-09-22'
@@ -2845,3 +2850,15 @@ entries:
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 804: all'
     tags: [name:kennedy-robert-f, name:moynihan-daniel-patrick]
+  - id: cal.1967-09.vietnam-hanoi
+    when: Sept.
+    date: 1967-09
+    thread: vietnam-hanoi
+    c: 'Giáp, an article in an official North Vietnamese journal: a protracted war of attrition, the forces to be conserved. By Westmoreland''s account, which calls it "camouflage, planned deception."'
+    n: '[[w.westmoreland-soldier-reports]], 313. Check: the journal, the title and the day. Names: Võ Nguyên Giáp, Westmoreland.'
+    src:
+      c: '33076817'
+      rows:
+        - 'w.westmoreland-soldier-reports 313: all'
+        - 'via x.1967-09.vo-nguyen-giap-article-protracted-war: A'
+    tags: [name:vo-nguyen-giap, name:westmoreland-william]

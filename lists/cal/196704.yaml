@@ -543,7 +543,7 @@ entries:
     date: '1967-04-06'
     thread: vietnam-macv
     c: The White House announces General Creighton W. Abrams as Westmoreland's deputy. He arrives in Saigon May 5 with Komer, and takes up the post May 19.
-    n: '[[w.macv-command-history-1967]], 1264, 1266, 1268. Names: Abrams, Westmoreland, Komer.'
+    n: '[[w.macv-command-history-1967]], 1264, 1266, 1268. Check: Westmoreland has Komer and Abrams join his staff in Saigon May 4 (215). Names: Abrams, Westmoreland, Komer.'
     src:
       c: '90720779'
       rows:
@@ -555,6 +555,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: B
+        witness: w.westmoreland-soldier-reports
+        reads: Not until May 9, five days after Komer and General Abrams had joined the staff in Saigon
+        at: '215'
   - id: cal.1967-04-06.defense
     when: Apr. 6
     date: '1967-04-06'
@@ -1311,13 +1316,14 @@ entries:
     thread: vietnam-force-levels
     also: [vietnam-operations]
     c: 'Westmoreland directs Task Force Oregon activated and moved to southern I Corps, to free Marines for the north: the 3d Brigade, 25th Infantry Division, from Bình Định and the 196th Light Infantry Brigade from Tây Ninh to Chu Lai, the move completed by Apr. 20.'
-    n: '[[w.macv-command-history-1967]], 336 (the order of Apr. 12; the moves); [[w.macv-command-history-1967]], 142 (the 196th from the Junction City area; a battalion of the 3d Brigade to Chu Lai Apr. 15, the rest within a week; the 1st Brigade, 101st Airborne, alerted for May 1). To check: COMUSMACV to CG I FFORCEV et al., 061800Z Apr 67, "Deployment of Units"; COMUSMACV (MACCOC 12) to CG USARV et al., 141215Z Apr 67, "Operation OREGON" (cited by [[w.macv-command-history-1967]], 142 n.15). Names: Westmoreland.'
+    n: '[[w.macv-command-history-1967]], 336 (the order of Apr. 12; the moves); [[w.macv-command-history-1967]], 142 (the 196th from the Junction City area; a battalion of the 3d Brigade to Chu Lai Apr. 15, the rest within a week; the 1st Brigade, 101st Airborne, alerted for May 1); [[w.westmoreland-soldier-reports]], 201 (the plan put into effect "sooner than I had anticipated"). To check: COMUSMACV to CG I FFORCEV et al., 061800Z Apr 67, "Deployment of Units"; COMUSMACV (MACCOC 12) to CG USARV et al., 141215Z Apr 67, "Operation OREGON" (cited by [[w.macv-command-history-1967]], 142 n.15). Names: Westmoreland.'
     src:
       c: 64eacf94
       rows:
         - 'w.macv-command-history-1967 336: all'
         - 'w.macv-command-history-1967 142: all'
         - 'via w.macv-command-history-1967 142 n.15: all'
+        - 'w.westmoreland-soldier-reports 201: A'
     tags: [name:westmoreland-william, place:chu-lai, province:binh-dinh, province:tay-ninh]
     time_range:
       - 1967-04-12T01:00Z
@@ -2486,7 +2492,7 @@ entries:
     date: '1967-04-24'
     thread: vietnam-operations
     c: 'The hill fights at Khe Sanh begin: a Marine patrol sent to set up an observation post on Hill 861 meets North Vietnamese troops; one man of the post escapes. Hill 861 taken Apr. 28, Hill 881 South May 2.'
-    n: '[[w.telfer-u-s-marines-in]], 34–45; [[w.cosmas-joint-chiefs-of-staff]], 37 (a Marine patrol meets the enemy in strength northwest of the base, Apr. 24; three battalions flown in; Hills 881, 881S, 881N secured by May 3). To check: [[w.andrew-hill-fights]]; JCS 4549 to CINCPAC, 5 May 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 38 n.17); FMFPAC, Operations of US Marine Forces, Vietnam, May 1967, pp. 11–20, OCJCS File 091 Vietnam, Jun 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 38 n.17).'
+    n: '[[w.telfer-u-s-marines-in]], 34–45; [[w.cosmas-joint-chiefs-of-staff]], 37 (a Marine patrol meets the enemy in strength northwest of the base, Apr. 24; three battalions flown in; Hills 881, 881S, 881N secured by May 3); [[w.westmoreland-soldier-reports]], 201–2 (the morning of Apr. 24, a Marine patrol meets the enemy near Khe Sanh, the start of the "hill fights"; Hill 861 "fell fairly readily"). Check: Westmoreland gives a platoon-size patrol and a second sent to relieve it, attacked by at least a company; thirteen Marines killed, the bulk of both patrols getting away (202). To check: [[w.andrew-hill-fights]]; JCS 4549 to CINCPAC, 5 May 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 38 n.17); FMFPAC, Operations of US Marine Forces, Vietnam, May 1967, pp. 11–20, OCJCS File 091 Vietnam, Jun 67 (cited by [[w.cosmas-joint-chiefs-of-staff]], 38 n.17).'
     src:
       c: b40f32d4
       rows:
@@ -2494,6 +2500,7 @@ entries:
         - 'w.cosmas-joint-chiefs-of-staff 37: A'
         - 'via x.1967-05-05.jcs-4549-to-cincpac-5-may-67: A'
         - 'via x.1967.fmfpac-operations-of-us-marine-forces-vietnam: A'
+        - 'w.westmoreland-soldier-reports 201–2: A'
     tags: [place:khe-sanh]
     short: the hill fights at Khe Sanh
   - id: cal.1967-04-24.vietnam-2

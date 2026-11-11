@@ -540,7 +540,12 @@ entries:
     time: 1967-05-05T06:45Z
     thread: vietnam-operations
     c: 'The Marines take Hill 881 North, 2:45 p.m. The first battle for Khe Sanh, Apr. 24–May 11: reported, 940 of the enemy killed; 155 Marines dead, 425 wounded. The 26th Marines take over the base and the hills, May 11–13.'
-    n: '[[w.telfer-u-s-marines-in]], 44–46. See [[cal.1967-04-24.vietnam-operations]].'
+    n: '[[w.telfer-u-s-marines-in]], 44–46; [[w.westmoreland-soldier-reports]], 202 ("the next day," after the attack on Làng Vây of May 4, the Marines secure the last of the three hills). See [[cal.1967-04-24.vietnam-operations]].'
+    src:
+      c: 7f305494
+      rows:
+        - 'w.telfer-u-s-marines-in 44–46: all'
+        - 'w.westmoreland-soldier-reports 202: A'
     tags: [place:khe-sanh]
   - id: cal.1967-05-05.vietnam-air-war-2
     when: May 5
@@ -862,7 +867,7 @@ entries:
     date: '1967-05-09'
     thread: vietnam-pacification
     c: 'NSAM 362: American support of pacification ("Revolutionary Development") put under one manager, Westmoreland, "under the overall authority of the Ambassador." The Office of Civil Operations becomes part of MACV; Komer to be Westmoreland''s Deputy for Pacification, with the personal rank of ambassador. Bunker announces it in Saigon May 11. Civil Operations and Revolutionary Development Support (CORDS).'
-    n: 'FRUS 1964–68, V, doc. [167](https://history.state.gov/historicaldocuments/frus1964-68v05/d167) (NSAM 362). [[w.cosmas-joint-chiefs-of-staff]], 108 (the decision; Komer; CORDS); [[w.herring-lbj-and-vietnam]], 80–82 (through Bunker; the Office of Civil Operations into MACV whole; Komer the civilian deputy, an ambassador with a four-star general''s rank). To check: [[w.scoville-reorganizing-for-pacification-support]]; [[w.jones-blowtorch]]; [[w.hunt-pacification]]; [[w.komer-bureaucracy-at-war]]; [[w.schaffer-ellsworth-bunker]]. Names: Westmoreland, Komer, Bunker, Johnson.'
+    n: 'FRUS 1964–68, V, doc. [167](https://history.state.gov/historicaldocuments/frus1964-68v05/d167) (NSAM 362). [[w.cosmas-joint-chiefs-of-staff]], 108 (the decision; Komer; CORDS); [[w.herring-lbj-and-vietnam]], 80–82 (through Bunker; the Office of Civil Operations into MACV whole; Komer the civilian deputy, an ambassador with a four-star general''s rank); [[w.westmoreland-soldier-reports]], 214–15 (the President''s formal approval May 9, "five days after Komer and General Abrams had joined the staff in Saigon"; Komer his deputy for pacification alone, with the personal rank of ambassador; CORDS). To check: [[w.scoville-reorganizing-for-pacification-support]]; [[w.jones-blowtorch]]; [[w.hunt-pacification]]; [[w.komer-bureaucracy-at-war]]; [[w.schaffer-ellsworth-bunker]]. Names: Westmoreland, Komer, Bunker, Johnson.'
     src:
       c: 1fe6eb49
       rows:
@@ -872,6 +877,7 @@ entries:
         - 'via w.cosmas-joint-chiefs-of-staff 108 n.11b: A-C, E'
         - 'w.herring-lbj-and-vietnam 80–82: A-C, E'
         - 'via w.herring-lbj-and-vietnam 80 n.59: A'
+        - 'w.westmoreland-soldier-reports 214–15: A-C, E'
     tags: [name:johnson-lyndon-b, name:westmoreland-william, name:komer-robert-w, name:bunker-ellsworth, place:saigon]
   - id: cal.1967-05-09.vietnam-congress
     when: May 9
@@ -1424,13 +1430,18 @@ entries:
     time: 1967-05-14T16:00Z
     thread: vietnam-operations
     c: 'Junction City ends at midnight, the largest offensive operation of the war to that time. Its final totals: 2,728 of the enemy killed, 34 prisoners, 139 ralliers; 100 crew-served and 491 individual weapons, over 810 tons of rice. American losses 282 killed, 1,576 wounded.'
-    n: '[[w.rogers-cedar-falls-junction-city]], 149–151; [[w.macv-command-history-1967]], 389–90 (Phase III from mid-April; ended at 2400 May 14; 2,728 of the enemy killed, 282 friendly troops from Feb. 22; 4,161 tactical air sorties; the largest airmobile operation of the war to date). Check: Cosmas, 34, has the campaign in War Zone C ended Apr. 15: more than 2,700 of the enemy counted dead, 282 allied killed. See [[cal.1967-02-22.vietnam]].'
+    n: '[[w.rogers-cedar-falls-junction-city]], 149–151; [[w.macv-command-history-1967]], 389–90 (Phase III from mid-April; ended at 2400 May 14; 2,728 of the enemy killed, 282 friendly troops from Feb. 22; 4,161 tactical air sorties; the largest airmobile operation of the war to date). Check: Cosmas, 34, has the campaign in War Zone C ended Apr. 15: more than 2,700 of the enemy counted dead, 282 allied killed. Check: Westmoreland gives the 282 as the American and South Vietnamese dead, against Hanoi''s 13,500; close to 3,000 of the enemy killed; lost, twenty-one armored personnel carriers, three tanks and five guns, against Hanoi''s 800 armored vehicles and 119 guns (206). See [[cal.1967-02-22.vietnam]].'
     src:
       c: 471041af
       rows:
         - 'w.rogers-cedar-falls-junction-city 149–151: all'
         - 'w.macv-command-history-1967 389–90: B-D'
     tags: [place:junction-city, place:war-zone-c]
+    variants:
+      - unit: D
+        witness: w.westmoreland-soldier-reports
+        reads: According to official North Vietnamese accounts, 13,500 American and South Vietnamese troops were killed; the actual total was 282
+        at: '206'
   - id: cal.1967-05-14.civil-rights-organizations
     when: May 14
     date: '1967-05-14'

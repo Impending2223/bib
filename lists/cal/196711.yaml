@@ -2280,7 +2280,7 @@ entries:
     thread: vietnam-support
     also: [press-and-broadcasting]
     c: Bunker and Westmoreland on *Meet the Press*.
-    n: 'Check: the transcript. [[w.gibbons-u-s-government-and]], IV, 896–97 (Westmoreland: a phasing down "in two years or less," confirmed there); [[w.berman-lyndon-johnsons-war]], 116 (Bunker: "steady not spectacular, progress"; Westmoreland: "winning a war of attrition now," and "within 2 years or less" some troops withdrawn). To check: *New York Times*, Nov. 15–22, 1967 (cited by [[w.gibbons-u-s-government-and]], IV, 896 n.117). See [[cal.1967-11-13.vietnam]]. Names: Bunker, Westmoreland.'
+    n: 'Check: the transcript. [[w.gibbons-u-s-government-and]], IV, 896–97 (Westmoreland: a phasing down "in two years or less," confirmed there); [[w.berman-lyndon-johnsons-war]], 116 (Bunker: "steady not spectacular, progress"; Westmoreland: "winning a war of attrition now," and "within 2 years or less" some troops withdrawn); [[w.westmoreland-soldier-reports]], 233–34 (from Camp David to Washington the next morning, with Bunker on *Meet the Press*; there he elaborates his estimate of when the American withdrawals might begin). To check: *New York Times*, Nov. 15–22, 1967 (cited by [[w.gibbons-u-s-government-and]], IV, 896 n.117). See [[cal.1967-11-13.vietnam]]. Names: Bunker, Westmoreland.'
     src:
       c: df55eb1e
       rows:
@@ -2288,6 +2288,7 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 897: A'
         - 'via w.gibbons-u-s-government-and IV, 896 n.117: A'
         - 'w.berman-lyndon-johnsons-war 116: A'
+        - 'w.westmoreland-soldier-reports 233–34: A'
     tags: [name:bunker-ellsworth, name:westmoreland-william]
   - id: cal.1967-11-19.economy
     when: Nov. 19
@@ -2306,8 +2307,13 @@ entries:
     date: '1967-11-19'
     thread: vietnam-operations
     c: 'Đắk Tô: Hill 875. The 2d Battalion, 503d Infantry, of the 173d Airborne Brigade, starts up the hill against the North Vietnamese 174th Regiment. That evening a misplaced bomb kills 42 paratroopers and wounds 45.'
-    n: '[[w.villard-united-states-army-in]], 170–174. To check: [[w.eggleston-dak-to-and-the]]. See [[cal.1967-11-03.vietnam]].'
+    n: '[[w.villard-united-states-army-in]], 170–174. Check: Westmoreland dates the battalion''s fight for Hill 875 from Nov. 17, five days to secure the hill (238). To check: [[w.eggleston-dak-to-and-the]]. See [[cal.1967-11-03.vietnam]].'
     tags: [place:hill-875, place:dak-to]
+    variants:
+      - unit: B
+        witness: w.westmoreland-soldier-reports
+        reads: The fiercest ground engagement developed on November 17 southwest of Dak To when a battalion of the 173d Airborne Brigade found a large enemy force entrenched on the slopes and atop a peak known as Hill 875
+        at: '238'
   - id: cal.1967-11-19.vietnam-2
     when: Nov. 19
     date: '1967-11-19'
@@ -2350,6 +2356,18 @@ entries:
       rows:
         - 'w.macv-command-history-1967 1282: all'
     tags: [name:norodom-sihanouk]
+  - id: cal.1967-11-19.vietnam-tet
+    when: Nov. 19
+    date: '1967-11-19'
+    thread: vietnam-tet
+    c: 'Men of the 101st Airborne capture a document, an outline for a major offensive: "Central Headquarters concludes that the time has come for a direct revolution and that the opportunity for a general offensive and general uprising is within reach." By Westmoreland''s account.'
+    n: '[[w.westmoreland-soldier-reports]], 313–14. To check: the document (quoted by [[w.westmoreland-soldier-reports]], 313–14). Made public: by the Mission at Saigon, [[cal.1968-01-05.vietnam-tet]]. Names: Westmoreland.'
+    src:
+      c: 22757c85
+      rows:
+        - 'w.westmoreland-soldier-reports 313–14: all'
+        - 'via x.1967.document-captured-101st-airborne-general-offensive: all'
+    tags: [name:westmoreland-william]
   - id: cal.1967-11-20.consumers
     when: Nov. 20
     date: '1967-11-20'
@@ -2925,8 +2943,13 @@ entries:
     time_approx: true
     thread: vietnam-operations
     c: 'Thanksgiving Day. The 2d and 4th Battalions, 503d Infantry, and the 1st Battalion, 12th Infantry, take the top of Hill 875 about 11:30 a.m.: 298 North Vietnamese dead found. The 2d Battalion''s dead Nov. 19–23, 95; the 4th''s, 18. The battles around Đắk Tô, by the Army''s count: 283 Americans killed, 1,188 wounded; 61 South Vietnamese killed.'
-    n: '[[w.villard-united-states-army-in]], 176–179. See [[cal.1967-11-03.vietnam]].'
+    n: '[[w.villard-united-states-army-in]], 176–179. Check: Westmoreland gives the fighting round Đắk Tô sixteen South Vietnamese and American battalions, 1,400 North Vietnamese dead, 289 Americans and 73 South Vietnamese killed (238–39). See [[cal.1967-11-03.vietnam]].'
     tags: [place:hill-875, place:dak-to]
+    variants:
+      - unit: E
+        witness: w.westmoreland-soldier-reports
+        reads: The ARVN lost 73 men killed, the Americans, 289
+        at: 238–39
   - id: cal.1967-11-23.vietnam-operations-2
     when: Nov. 23
     date: '1967-11-23'
