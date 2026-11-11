@@ -193,6 +193,16 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-04-02.civil-rights-bill
+    when: Apr. 2–3
+    date: '1964-04-02'
+    thread: civil-rights-bill
+    c: The bill explained title by title to a near-empty chamber; the Southerners suggest the absence of a quorum. Apr. 2, twenty-two minutes before a majority answers; Apr. 3, more than an hour.
+    n: '[[w.whalen-longest-debate]], 157. See [[cal.1964-03-30.civil-rights-bill]].'
+    src:
+      c: 1d13ac23
+      rows:
+        - 'w.whalen-longest-debate 157: all'
   - id: cal.1964-04-03.latin-america
     when: Apr. 3
     date: '1964-04-03'
@@ -504,6 +514,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-04-06.republican-party-congress
+    when: Apr. 6
+    date: '1964-04-06'
+    thread: republican-party-congress
+    also: [civil-rights-bill]
+    c: 'Dirksens notebook, the factors favoring cloture: "log-jam legislation"; "1964 an election year. Members will want some time to campaign"; the Republican convention, July 13, "Hope it not necessary to dispose of unfinished business after convention"; "Factor of weariness"; "Group pressures—emotionalism."'
+    n: '[[w.whalen-longest-debate]], 158–59. To check: Dirksen, notebook entry for Apr. 6, 1964, Notebooks, 1932–1969, folder 207, Dirksen Congressional Center (cited by [[w.whalen-longest-debate]], 261). Names: Dirksen.'
+    src:
+      c: 051a6b08
+      rows:
+        - 'w.whalen-longest-debate 158–59: all'
+        - 'via x.1964-04-06.dirksen-notebook-entry: all'
+    tags: [name:dirksen-everett]
   - id: cal.1964-04-07.elections-1964
     when: Apr. 7
     date: '1964-04-07'
@@ -1109,6 +1132,23 @@ entries:
         - 'via w.mann-walls-of-jericho 398 n.humphrey-addressed-the-quorum-problem.a: all'
         - 'via w.mann-walls-of-jericho 398 n.humphrey-addressed-the-quorum-problem.b: B'
     tags: [name:humphrey-hubert-h, name:kuchel-thomas-h]
+  - id: cal.1964-04-10.civil-rights-bill-2
+    when: Apr. 10
+    date: '1964-04-10'
+    thread: civil-rights-bill
+    c: 'Senate. The Southerners speeches broken off for the Cherry Blossom Festival: a quorum call set for 10 a.m. Saturday, so that senators may go to the parade; Johnston: Ervin to have the floor after it. Humphrey will be present, "adding the factor of duty." Dirksen: "Do I take prunes or South Carolina peaches?"'
+    n: '[[w.whalen-longest-debate]], 161–62. To check: 110 Cong. Rec. 7589 (Apr. 10, 1964) (cited by [[w.whalen-longest-debate]], 262). Names: Johnston, Ervin, Humphrey, Dirksen.'
+    src:
+      c: b7019adb
+      rows:
+        - 'w.whalen-longest-debate 161–62: all'
+        - 'via x.1964-04-10.congressional-record-7589: all'
+    tags: [name:johnston-olin-d, name:ervin-sam-j-jr, name:humphrey-hubert-h, name:dirksen-everett]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-04-10.civil-rights-bill
+        from: 2026-11-06-b6-whalen-longest
   - id: cal.1964-04-11.farm
     when: Apr. 11
     date: '1964-04-11'

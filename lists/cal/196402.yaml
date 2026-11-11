@@ -1830,6 +1830,18 @@ entries:
         - 'w.taking-charge 237–238: all'
         - 'via x.1964-02-11.johnson-richard-maguire-recording-1727: all'
     tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
+  - id: cal.1964-02-11.civil-rights-organizations
+    when: Feb. 11
+    date: '1964-02-11'
+    thread: civil-rights-organizations
+    also: [civil-rights-bill]
+    c: 'The day after the Houses vote, Jane OGradys Equality Cookies, sugar cookies stamped with an equal sign, to every congressional staff: "We had imposed on so many people and had been so naggy, I just wanted to show our appreciation."'
+    n: '[[w.whalen-longest-debate]], 122–23. See [[cal.1964-02-10.civil-rights-bill]].'
+    src:
+      c: 8f4a5a65
+      rows:
+        - 'w.whalen-longest-debate 122–23: all'
+        - 'via x.undated.whalen-interviews-1981-84: all'
   - id: cal.1964-02-12.opinion
     when: Feb. 12
     date: '1964-02-12'
@@ -2416,6 +2428,21 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-02-17.civil-rights-organizations
+    when: Feb. 17
+    date: '1964-02-17'
+    thread: civil-rights-organizations
+    also: [civil-rights-bill]
+    follows:
+      - cal.1964-02-17.civil-rights-bill
+    c: 'After the Senate recesses, Clarence Mitchell to the NAACPs New York office by telephone: "Mansfield made a good speech"; Farmers talk of picketing Dirksen "hanging over our heads"; "nevertheless, we are off to a good start."'
+    n: '[[w.whalen-longest-debate]], 133. To check: M. Jackson Smith, memorandum, Feb. 17, 1964, NAACP Papers, Library of Congress (cited by [[w.whalen-longest-debate]], 257). See [[cal.1964-02-17.civil-rights-bill]]. Names: Mitchell, Mansfield, Farmer, Dirksen.'
+    src:
+      c: 3a5ea5fa
+      rows:
+        - 'w.whalen-longest-debate 133: all'
+        - 'via x.1964-02-17.m-jackson-smith-memo-mitchell-report: all'
+    tags: [name:mitchell-clarence-jr, name:mansfield-mike, name:farmer-james, name:dirksen-everett]
   - id: cal.1964-02-18.specials
     when: Feb. 18
     date: '1964-02-18'
@@ -3230,6 +3257,39 @@ entries:
         - 'w.taking-charge 252: all'
         - 'via x.1964-02-26.johnson-j-william-fulbright-telephone-1506: all'
     tags: [name:johnson-lyndon-b, name:fulbright-j-william, name:stevenson-adlai-e]
+  - id: cal.1964-02-26.civil-rights-bill-2
+    when: Feb. 26
+    date: '1964-02-26'
+    thread: civil-rights-bill
+    also: [republican-party-congress]
+    follows:
+      - cal.1964-02-26.civil-rights-bill
+    c: 'Leaving the chamber at the sessions end, Valeo, secretary for the majority, asks Aiken why twenty of twenty-eight Republicans voted with Mansfield, against their leader, to put the bill on the calendar. Aiken: "Because thats what Mike wanted."'
+    n: '[[w.whalen-longest-debate]], 135–36. To check: Manatos to O''Brien, Feb. 27, 1964, files of Mike Manatos, LBJ Library (cited by [[w.whalen-longest-debate]], 258). See [[cal.1964-02-26.civil-rights-bill]]. Names: Valeo, Aiken, Mansfield.'
+    src:
+      c: 76d4afee
+      rows:
+        - 'w.whalen-longest-debate 135–36: all'
+        - 'via x.1964-02-27.manatos-to-obrien-feb-27-1964: all'
+    tags: [name:valeo-francis-r, name:aiken-george-d, name:mansfield-mike]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-02-26.civil-rights-bill
+        from: 2026-11-06-b6-whalen-longest
+  - id: cal.1964-02-26.republican-party-congress
+    when: Feb. 26
+    date: '1964-02-26'
+    thread: republican-party-congress
+    also: [civil-rights-bill]
+    c: 'Dirksens notebook on H.R. 7152: "not salvage [sic] or garbage but can be improved"; a substitute for Title II to come. Under "Impatience": "is it not time to show patience and do a workmanlike job?" Under "Threats": "How worthy can we be as a deliberative body if threats of demonstrations and taking to the streets moves us to hurried and careless craftsmanship?"'
+    n: '[[w.whalen-longest-debate]], 154–55. Names: Dirksen.'
+    src:
+      c: dc22f90b
+      rows:
+        - 'w.whalen-longest-debate 154–55: all'
+        - 'via x.1964-02-26.dirksen-notebook-entry: all'
+    tags: [name:dirksen-everett]
   - id: cal.1964-02-27.republican-party-congress
     when: Feb. 27
     date: '1964-02-27'

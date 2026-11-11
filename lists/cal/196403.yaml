@@ -2463,6 +2463,44 @@ entries:
         - 'w.taking-charge 288–289: all'
         - 'via x.1964-03-17.johnson-george-reedy-telephone-1249: all'
     tags: [name:johnson-lyndon-b, name:reedy-george-e, name:alsop-stewart, name:kennedy-robert-f]
+  - id: cal.1964-03-17.civil-rights-bill-3
+    when: Mar. 17
+    date: '1964-03-17'
+    thread: civil-rights-bill
+    also: [press-and-broadcasting]
+    c: 'Horn, Kuchels aide, to Jack Steele of the Scripps-Howard bureau: Kuchels civil rights mail four to one against the bill, mostly from the Coordinating Committees advertisement.'
+    n: '[[w.whalen-longest-debate]], 145. Check: the day, by Horn''s log of Mar. 17 (Whalen, 259). Names: Horn, Kuchel.'
+    src:
+      c: 3db40d45
+      rows:
+        - 'w.whalen-longest-debate 145: all'
+        - 'via x.1964.horn-periodic-log: all'
+    tags: [name:horn-stephen, name:kuchel-thomas-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-03-17.civil-rights-bill
+          - cal.1964-03-17.civil-rights-bill-2
+        from: 2026-11-06-b6-whalen-longest
+  - id: cal.1964-03-17.civil-rights-bill-4
+    when: Mar. 17
+    date: '1964-03-17'
+    thread: civil-rights-bill
+    c: 'McCulloch, worried, to Kimball of Lindsays staff: a House vote now would lose a quarter of those who voted for H.R. 7152 on Feb. 10.'
+    n: '[[w.whalen-longest-debate]], 145–46. Check: the day, by Horn''s log of Mar. 17 (Whalen, 259). See [[cal.1964-02-10.civil-rights-bill]]. Names: McCulloch, Lindsay.'
+    src:
+      c: f3147410
+      rows:
+        - 'w.whalen-longest-debate 145–46: all'
+        - 'via x.1964.horn-periodic-log: all'
+    tags: [name:mcculloch-william-m, name:lindsay-john-v]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-03-17.civil-rights-bill
+          - cal.1964-03-17.civil-rights-bill-2
+          - cal.1964-03-17.civil-rights-bill-3
+        from: 2026-11-06-b6-whalen-longest
   - id: cal.1964-03-18.goldwater
     when: Mar. 18
     date: '1964-03-18'
@@ -2813,6 +2851,25 @@ entries:
       rows:
         - 'w.whalen-longest-debate 146: all'
     tags: [name:humphrey-hubert-h, name:russell-richard-b]
+  - id: cal.1964-03-19.civil-rights-bill-2
+    when: Mar. 19
+    date: '1964-03-19'
+    thread: civil-rights-bill
+    follows:
+      - cal.1964-03-19.civil-rights-bill
+    c: 'The afternoons bipartisan staff meeting, after Humphreys hint of compromise on *Today*. Horn, Kuchels aide, to Stewart, Humphreys: he may take Kuchels name off the memorandum the Humphrey–Kuchel forces issue that day. "Our friends would never understand why we were associated with such a conservative."'
+    n: '[[w.whalen-longest-debate]], 146. See [[cal.1964-03-19.civil-rights-bill]]. Names: Humphrey, Horn, Kuchel.'
+    src:
+      c: e6f797ac
+      rows:
+        - 'w.whalen-longest-debate 146: all'
+        - 'via x.1964.horn-periodic-log: all'
+    tags: [name:humphrey-hubert-h, name:horn-stephen, name:kuchel-thomas-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-03-19.civil-rights-bill
+        from: 2026-11-06-b6-whalen-longest
   - id: cal.1964-03-20.africa-wheelus
     when: Mar. 20
     date: '1964-03-20'
@@ -3298,6 +3355,18 @@ entries:
         - 'w.taking-charge 296: all'
         - 'via x.1964-03-23.johnson-lady-bird-johnson-telephone-2115: all'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird]
+  - id: cal.1964-03-23.civil-rights-bill
+    when: Mar. 23
+    date: '1964-03-23'
+    thread: civil-rights-bill
+    c: Monday, still the legislative day of Mar. 9, the Southerners talking on the motion to take up the bill. Humphrey holds the Senate in session until 10:15 p.m., his plan of sessions "long enough to be disagreeable."
+    n: '[[w.whalen-longest-debate]], 136, 146–47. See [[cal.1964-03-19.civil-rights-bill]]. Names: Humphrey.'
+    src:
+      c: c0c4039a
+      rows:
+        - 'w.whalen-longest-debate 136, 146–47: all'
+        - 'via x.undated.humphrey-memorandum-on-hr-7152: B'
+    tags: [name:humphrey-hubert-h]
   - id: cal.1964-03-24.japan-and-korea
     when: Mar. 24
     date: '1964-03-24'

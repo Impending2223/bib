@@ -860,6 +860,38 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-03-09.program-2
+    when: Mar. 9
+    date: '1961-03-09'
+    thread: program
+    c: The White House, the afternoon, by White's account. Kennedy receives the National Commander of the Veterans of World War I, a ceremonial appointment.
+    n: '[[w.white-making-of-the-president]], 375. Check: the day; White gives "a typical Thursday" of "early winter of 1961," fixed at Mar. 9 by the records (see [[cal.1961-03-09.laos]]); the Commander not named. Names: Kennedy.'
+    src:
+      c: 0bf72c85
+      rows:
+        - 'w.white-making-of-the-president 375: all'
+    tags: [name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-03-09.program
+        from: b6-white-1960
+  - id: cal.1961-03-09.transition-and-staff
+    when: Mar. 9
+    date: '1961-03-09'
+    thread: transition-and-staff
+    c: The White House, the afternoon, by White's account. Kennedy receives the new Treasurer of the United States, Elizabeth Smith of California, a ceremonial appointment.
+    n: '[[w.white-making-of-the-president]], 375. Check: the day; White gives "a typical Thursday" of "early winter of 1961," fixed at Mar. 9 by the records (see [[cal.1961-03-09.laos]]). Names: Kennedy, Elizabeth Smith.'
+    src:
+      c: d9e0d2a7
+      rows:
+        - 'w.white-making-of-the-president 375: all'
+    tags: [name:kennedy-john-f, name:smith-elizabeth-rudel]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-03-09.program-2
+        from: b6-white-1960
   - id: cal.1961-03-10.latin-america
     when: Mar. 10
     date: '1961-03-10'

@@ -938,6 +938,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-10-16.elections-1960-kennedy
+    when: Oct. 16
+    date: '1960-10-16'
+    thread: elections-1960-kennedy
+    c: Washington, Sunday afternoon. Goodwin prepares questions and briefs Kennedy for *Meet the Press* at six; Sorensen drafts "Ethics in Government" for Wittenberg College the next day. After the program both fly with the campaign to Ohio.
+    n: '[[w.white-making-of-the-president]], 324–25. See [[cal.1960-10-17.elections-1960-5]]. Names: Goodwin, Kennedy, Sorensen.'
+    src:
+      c: 0711ebf3
+      rows:
+        - 'w.white-making-of-the-president 324–25: all'
+    tags: [name:goodwin-richard-n, name:kennedy-john-f, name:sorensen-theodore-c]
   - id: cal.1960-10-17.laos
     when: Oct. 17
     date: '1960-10-17'
@@ -1095,6 +1106,22 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-10-17.elections-1960-kennedy
+    when: Oct. 17
+    date: '1960-10-17'
+    thread: elections-1960-kennedy
+    c: Middletown, Ohio, the Manchester Hotel. Goodwin, with the campaign's portable library, drafts the Latin American speech for Tampa; Sorensen, at Columbus, has begun the national-defense speech from the Cox office's material. On the night flight to Miami Kennedy reads and revises Goodwin's draft.
+    n: '[[w.white-making-of-the-president]], 325. See [[cal.1960-10-16.elections-1960-kennedy]]. Names: Goodwin, Sorensen, Kennedy.'
+    src:
+      c: 77d1b47d
+      rows:
+        - 'w.white-making-of-the-president 325: all'
+    tags: [name:goodwin-richard-n, name:sorensen-theodore-c, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-10-17.elections-1960-5
+        from: b6-white-1960
   - id: cal.1960-10-18.court
     when: Oct. 18–19
     date: '1960-10-18'
@@ -1206,6 +1233,25 @@ entries:
         - 'https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-tampa-fl-hillsborough-county-courthouse: A'
         - 'w.white-making-of-the-president 325–26: all'
     tags: [name:kennedy-john-f, name:goodwin-richard-n]
+  - id: cal.1960-10-18.elections-1960-kennedy
+    when: Oct. 18
+    date: '1960-10-18'
+    thread: elections-1960-kennedy
+    also: [latin-america]
+    c: Tampa, the Hillsborough County Courthouse. Kennedy on Latin America, Goodwin's draft. That afternoon Goodwin and Sorensen at work on quips for the Al Smith dinner.
+    n: 'Speech of Senator John F. Kennedy, Tampa, FL, Hillsborough County Courthouse, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-tampa-fl-hillsborough-county-courthouse) (Oct. 18, 1960). [[w.white-making-of-the-president]], 325–26. See [[cal.1960-10-17.elections-1960-kennedy]]. Names: Kennedy, Goodwin, Sorensen.'
+    src:
+      c: 6ea82c77
+      rows:
+        - 'w.white-making-of-the-president 325–26: all'
+    tags: [name:kennedy-john-f, name:goodwin-richard-n, name:sorensen-theodore-c]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-10-18.elections-1960
+          - cal.1960-10-18.elections-1960-3
+          - cal.1960-10-18.latin-america
+        from: b6-white-1960
   - id: cal.1960-10-19.cuba
     when: Oct. 19
     date: '1960-10-19'
@@ -2345,6 +2391,23 @@ entries:
     time_band: workday daytime
     time_zone: America/Havana
     range_basis: kind
+  - id: cal.1960-10-29.elections-1960-nixon
+    when: Oct. 29
+    date: '1960-10-29'
+    thread: elections-1960-nixon
+    c: 'Chicago, Saturday. A White House aide, there for a Republican Congressman, hears by chance from a Nixon aide that Nixon means to call heavily on the President in the last week. The White House aide: Eisenhower eager to help, but he must be informed and asked, not commandeered.'
+    n: '[[w.white-making-of-the-president]], 309. Reply: [[cal.1960-10-31.elections-1960]]. Names: Nixon, Eisenhower.'
+    src:
+      c: ec399b5c
+      rows:
+        - 'w.white-making-of-the-president 309: all'
+        - 'via w.white-making-of-the-president 309 n.text: all'
+    tags: [name:nixon-richard-m, name:eisenhower-dwight-d]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-10-29.elections-1960
+        from: b6-white-1960
   - id: cal.1960-10-30.cuba
     when: Oct. 30
     date: '1960-10-30'
@@ -2985,3 +3048,21 @@ entries:
         - 'w.gifford-center-cannot-hold 86: all'
         - 'via w.gifford-center-cannot-hold 86 n.101: all'
     tags: [name:kennedy-john-f, name:nixon-richard-m]
+  - id: cal.1960-10.elections-1960-nixon
+    when: Oct., the last week
+    date: 1960-10
+    thread: elections-1960-nixon
+    c: Nixon's campaign train, Pittsburgh to West Virginia and Ohio, an evening. Two of his personal aides discuss whom Kennedy will choose for State and the Treasury; a Nixon speech writer asks a correspondent whether Kennedy, elected, will name Galbraith Secretary of the Treasury.
+    n: '[[w.white-making-of-the-president]], 319. Check: the day. See [[cal.1960-10-24.elections-1960-2]]. Names: Kennedy, Galbraith.'
+    src:
+      c: 8937d9b5
+      rows:
+        - 'w.white-making-of-the-president 319: all'
+        - 'via w.white-making-of-the-president 319 n.text: all'
+    tags: [name:kennedy-john-f, name:galbraith-john-kenneth]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-10.elections-1960-3
+          - cal.1960-10.elections-1960-7
+        from: b6-white-1960

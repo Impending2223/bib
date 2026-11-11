@@ -3147,6 +3147,24 @@ entries:
         - 'w.taking-charge 561: all'
         - 'via x.1964-09-28.johnson-mike-mansfield-telephone-0722: all'
     tags: [name:johnson-lyndon-b, name:mansfield-mike, name:oswald-lee-harvey, name:hoover-j-edgar]
+  - id: cal.1964-09-28.elections-1964-johnson
+    when: Sept. 28
+    date: '1964-09-28'
+    thread: elections-1964-johnson
+    follows:
+      - cal.1964-09-28.elections-1964
+    c: 'New England, at one of the stops, by White''s account. Johnson urges one of New England''s most distinguished Senators, unnamed, to join the press bus and tell the correspondents the crowds are bigger than Kennedy''s: "If you tell them, they''ll believe you—they won''t believe Jack [Valenti]." The Senator demurs.'
+    n: '[[w.white-making-of-the-president-1965]], 367. Check: the day; White places it on the New England tour. See [[cal.1964-09-28.elections-1964]]. Names: Johnson, Kennedy, Valenti.'
+    src:
+      c: 2ee69a2f
+      rows:
+        - 'w.white-making-of-the-president-1965 367: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-john-f, name:valenti-jack]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-09-28.elections-1964
+        from: 2026-11-06-b6-white-making-of-the-president-1965
   - id: cal.1964-09-29.legislatures-pa
     when: Sept. 29
     date: '1964-09-29'

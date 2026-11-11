@@ -1831,3 +1831,46 @@ entries:
           - cal.1960-08.elections-1960-4
           - cal.1960-08.elections-1960-5
         from: 2026-11-06-b6-kallina-kennedy-v-nixon
+  - id: cal.1960-08.elections-1960-kennedy-2
+    when: Aug.
+    date: 1960-08
+    thread: elections-1960-kennedy
+    c: 'Salinger to White, an evening at home: "You know what''s happened to ''our smooth well-oiled machine''? It''s diffusing. This country is just too big, there''s too much of it."'
+    n: '[[w.white-making-of-the-president]], 251. Check: the day. See [[cal.1960-08.elections-1960-12]]. Names: Salinger, White.'
+    src:
+      c: 51f07fe9
+      rows:
+        - 'w.white-making-of-the-president 251: all'
+    tags: [name:salinger-pierre, name:white-theodore-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-08.elections-1960
+          - cal.1960-08.elections-1960-6
+          - cal.1960-08.elections-1960-11
+          - cal.1960-08.elections-1960-12
+          - cal.1960-08.elections-1960-8
+          - cal.1960-08.elections-1960-10
+          - cal.1960-08.elections-1960-13
+          - cal.1960-08.elections-1960-kennedy
+        from: b6-white-1960
+  - id: cal.1960-08.elections-1960-nixon
+    when: Aug.–Sept.
+    date: 1960-08
+    thread: elections-1960-nixon
+    c: 'One of Nixon''s inner group to White, of Eisenhower: "All we want out of Ike is for him to handle Khrushchev at the UN and not let things blow up there. That''s all."'
+    n: '[[w.white-making-of-the-president]], 309. Check: the day; White: "in the early euphoric stages of Round One." Names: Nixon, Eisenhower, Khrushchev, White.'
+    src:
+      c: a9f566cc
+      rows:
+        - 'w.white-making-of-the-president 309: all'
+    tags: [name:nixon-richard-m, name:eisenhower-dwight-d, name:white-theodore-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-08.elections-1960-2
+          - cal.1960-08.elections-1960-3
+          - cal.1960-08.elections-1960-4
+          - cal.1960-08.elections-1960-5
+          - cal.1960-08.elections-1960-nixon-2
+        from: b6-white-1960

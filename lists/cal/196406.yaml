@@ -1082,6 +1082,18 @@ entries:
     time_band: workday daytime
     time_zone: America/Detroit
     range_basis: kind
+  - id: cal.1964-06-06.civil-rights-bill
+    when: June 6
+    date: '1964-06-06'
+    thread: civil-rights-bill
+    c: 'Saturday morning. Russell chides Humphrey: unfair, Hickenloopers votes granted, his own refused earlier in the week. Humphrey: "Well, Dick, you havent any votes to give us for cloture and these fellows do."'
+    n: '[[w.whalen-longest-debate]], 193. To check: Humphrey, memorandum on H.R. 7152, undated, 21 pp., Legislative Files, 1961–1964, Senatorial Files, Humphrey Papers, Minnesota Historical Society (cited by [[w.whalen-longest-debate]], 267). See [[cal.1964-06-05.republican-party-congress]]. Names: Russell, Humphrey, Hickenlooper.'
+    src:
+      c: 6f655164
+      rows:
+        - 'w.whalen-longest-debate 193: all'
+        - 'via x.undated.humphrey-memorandum-on-hr-7152: all'
+    tags: [name:russell-richard-b, name:humphrey-hubert-h, name:hickenlooper-bourke-b]
   - id: cal.1964-06-07.opinion
     when: June 7
     date: '1964-06-07'
@@ -1794,6 +1806,41 @@ entries:
         - 'w.taking-charge 397–399: all'
         - 'via x.1964-06-09.johnson-robert-mcnamara-telephone-1820: all'
     tags: [name:mcnamara-robert-s, name:johnson-lyndon-b, name:saltonstall-leverett, name:mansfield-mike]
+  - id: cal.1964-06-09.civil-rights-bill-5
+    when: June 9
+    date: '1964-06-09'
+    thread: civil-rights-bill
+    also: [press-and-broadcasting]
+    follows:
+      - cal.1964-06-09.civil-rights-bill-4
+    c: 'Byrd talking through the night, Humphrey at dinner at the Monocle with Andrew Glass of the *New York Herald Tribune*: one vote to spare for cloture, Engle counted.'
+    n: '[[w.whalen-longest-debate]], 196. See [[cal.1964-06-09.civil-rights-bill]]. Names: Humphrey, Byrd, Engle.'
+    src:
+      c: 69c5b4a4
+      rows:
+        - 'w.whalen-longest-debate 196: all'
+        - 'via x.undated.whalen-interviews-1981-84: all'
+    tags: [name:humphrey-hubert-h, name:byrd-robert-c, name:engle-clair]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-06-09.civil-rights-bill
+          - cal.1964-06-09.civil-rights-bill-2
+          - cal.1964-06-09.civil-rights-bill-3
+          - cal.1964-06-09.civil-rights-bill-4
+        from: 2026-11-06-b6-whalen-longest
+  - id: cal.1964-06-09.democratic-party
+    when: June 9
+    date: '1964-06-09'
+    thread: democratic-party
+    also: [governors]
+    c: 'Cleveland, the Governors'' Ball. John Bailey, the Democratic National Chairman, asked whether the Democrats too could make news of the conference: "I hope not." Romney, Scranton and his wife stay for the ball.'
+    n: '[[w.white-making-of-the-president-1965]], 153. See [[cal.1964-06-09.elections-1964]]. Names: Romney, Scranton.'
+    src:
+      c: 30354c30
+      rows:
+        - 'w.white-making-of-the-president-1965 153: all'
+    tags: [name:romney-george-w, name:scranton-william-w, city:cleveland, state:oh]
   - id: cal.1964-06-10.civil-rights-bill
     when: June 10
     date: '1964-06-10'
@@ -2121,6 +2168,31 @@ entries:
       - 1964-06-10T16:00Z
     time_zone: America/New_York
     time_band: morning
+  - id: cal.1964-06-10.civil-rights-bill-7
+    when: June 10
+    date: '1964-06-10'
+    thread: civil-rights-bill
+    follows:
+      - cal.1964-06-10.civil-rights-bill
+    c: 'After the vote, Humphrey hands his tally sheets to a staff member: "Since I am sure that cloture will be of historic importance, here are the key amendment roll calls prior to cloture and the cloture roll call. Keep for history. HH."'
+    n: '[[w.whalen-longest-debate]], 206. See [[cal.1964-06-10.civil-rights-bill]]. Names: Humphrey.'
+    src:
+      c: 8a1753ba
+      rows:
+        - 'w.whalen-longest-debate 206: all'
+        - 'via x.1964-06-10.humphrey-note-on-tally-sheets: all'
+        - 'via x.1964.stewart-diary: all'
+    tags: [name:humphrey-hubert-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-06-10.civil-rights-bill
+          - cal.1964-06-10.civil-rights-bill-2
+          - cal.1964-06-10.civil-rights-bill-3
+          - cal.1964-06-10.civil-rights-bill-4
+          - cal.1964-06-10.civil-rights-bill-5
+          - cal.1964-06-10.civil-rights-bill-6
+        from: 2026-11-06-b6-whalen-longest
   - id: cal.1964-06-11.robert-kennedy
     when: June 11
     date: '1964-06-11'
@@ -2928,6 +3000,26 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-06-15.civil-rights-bill-3
+    when: June 15
+    date: '1964-06-15'
+    time: 1964-06-15T15:30Z
+    thread: civil-rights-bill
+    c: '11:30 a.m. Johnson keeps Kennedys promise of Oct. 28 to Rodino: Rodino, his wife and Peter Jr. in the Cabinet Room, then the Oval Office for pictures. Johnson sends the parents out, "this is Peter juniors meeting," and hears the boy on his "little people to little people" peace campaign.'
+    n: '[[w.whalen-longest-debate]], 208. To check: President''s Appointment File (Diary Backup), Box 6, June 15, 1964, LBJ Library (cited by [[w.whalen-longest-debate]], 270). See [[cal.1963-10-28.civil-rights-bill-4]]. Names: Johnson, Kennedy, Rodino.'
+    src:
+      c: 35c02a17
+      rows:
+        - 'w.whalen-longest-debate 208: all'
+        - 'via x.1964-06-15.lbj-diary-backup-box-6: all'
+        - 'via x.undated.whalen-interviews-1981-84: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-john-f, name:rodino-peter-w-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-06-15.civil-rights-bill
+          - cal.1964-06-15.civil-rights-bill-2
+        from: 2026-11-06-b6-whalen-longest
   - id: cal.1964-06-16.congo
     when: June 16
     date: '1964-06-16'
@@ -3266,6 +3358,26 @@ entries:
           - cal.1964-06-17.civil-rights-bill-6
           - cal.1964-06-17.civil-rights-bill-3
         from: b6-walls-of-jericho
+  - id: cal.1964-06-17.civil-rights-bill-5
+    when: June 17
+    date: '1964-06-17'
+    thread: civil-rights-bill
+    c: 'Mid-afternoon, word from Muriel Humphrey: the biopsy on their son Robert, 20, shows a malignant tumor in a lymph node of his neck; the operation June 23 in Minneapolis. Humphrey stays in Washington until the bill clears the Senate.'
+    n: '[[w.whalen-longest-debate]], 210. To check: [[w.humphrey-beyond-civil-rights]], 96; [[w.humphrey-education-of-a-public-1976]], 285 (cited by [[w.whalen-longest-debate]], 271). Names: Humphrey.'
+    src:
+      c: af545847
+      rows:
+        - 'w.whalen-longest-debate 210: all'
+    tags: [name:humphrey-hubert-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-06-17.civil-rights-bill
+          - cal.1964-06-17.civil-rights-bill-2
+          - cal.1964-06-17.civil-rights-bill-6
+          - cal.1964-06-17.civil-rights-bill-3
+          - cal.1964-06-17.civil-rights-bill-4
+        from: 2026-11-06-b6-whalen-longest
   - id: cal.1964-06-18.vietnam
     when: June 18
     date: '1964-06-18'
@@ -3490,6 +3602,27 @@ entries:
         - 'w.taking-charge 416: all'
         - 'via x.1964-06-18.johnson-mcgeorge-bundy-telephone-1722: all'
     tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:mccloy-john-j]
+  - id: cal.1964-06-18.goldwater-3
+    when: June 18
+    date: '1964-06-18'
+    thread: goldwater
+    also: [civil-rights-bill, republican-party-congress]
+    follows:
+      - cal.1964-06-18.goldwater-2
+    c: 'Goldwaters speech against the bill done, Javits, seated next to him: "Barry, this is a dreadful mistake."'
+    n: '[[w.whalen-longest-debate]], 213. To check: *Newsweek*, June 29, 1964, 17 (cited by [[w.whalen-longest-debate]], 271). See [[cal.1964-06-18.goldwater-2]]. Names: Goldwater, Javits.'
+    src:
+      c: 44bc4993
+      rows:
+        - 'w.whalen-longest-debate 213: all'
+        - 'via x.1964-06-29.newsweek-june-29-1964: all'
+    tags: [name:goldwater-barry-m, name:javits-jacob-k]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-06-18.goldwater
+          - cal.1964-06-18.goldwater-2
+        from: 2026-11-06-b6-whalen-longest
   - id: cal.1964-06-19.civil-rights-bill
     when: June 19
     date: '1964-06-19'
@@ -3688,6 +3821,48 @@ entries:
         - 'w.taking-charge 418–420: all'
         - 'via x.1964-06-19.johnson-hubert-humphrey-telephone-1600: all'
     tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:goldwater-barry-m]
+  - id: cal.1964-06-19.civil-rights-bill-5
+    when: June 19
+    date: '1964-06-19'
+    thread: civil-rights-bill
+    follows:
+      - cal.1964-06-19.civil-rights-bill
+    c: 'After the vote, Humphrey on the Capitols east front steps to the cheers of a crowd. An hour later several thousand still round the Senate wing; three hours later several hundred see him off. Humphrey: "Never in my 15 years in the Senate ... had there been anything like it."'
+    n: '[[w.whalen-longest-debate]], 216. To check: *Minneapolis Morning Tribune*, June 20, 1964; [[w.humphrey-beyond-civil-rights]], 97 (cited by [[w.whalen-longest-debate]], 271). See [[cal.1964-06-19.civil-rights-bill]]. Names: Humphrey.'
+    src:
+      c: 54194f80
+      rows:
+        - 'w.whalen-longest-debate 216: all'
+        - 'via x.1964-06-20.minneapolis-morning-tribune: A'
+    tags: [name:humphrey-hubert-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-06-19.civil-rights-bill
+          - cal.1964-06-19.civil-rights-bill-2
+          - cal.1964-06-19.civil-rights-bill-3
+          - cal.1964-06-19.civil-rights-bill-4
+        from: 2026-11-06-b6-whalen-longest
+  - id: cal.1964-06-19.civil-rights-bill-6
+    when: June 19
+    date: '1964-06-19'
+    thread: civil-rights-bill
+    c: 'The 76th and last number of the leaderships "Bipartisan Civil Rights Newsletter": "Suffice it to say here that the job was done. We have a good bill. We still have a Senate, and we have miles to go before we sleep, and miles to go before we sleep."'
+    n: '[[w.whalen-longest-debate]], 217. To check: "Bipartisan Civil Rights Newsletter," no. 76, June 19, 1964 (cited by [[w.whalen-longest-debate]], 271). See [[cal.1964-06-19.civil-rights-bill]].'
+    src:
+      c: cc31be00
+      rows:
+        - 'w.whalen-longest-debate 217: all'
+        - 'via x.1964-06-19.bipartisan-civil-rights-newsletter-76: all'
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-06-19.civil-rights-bill
+          - cal.1964-06-19.civil-rights-bill-2
+          - cal.1964-06-19.civil-rights-bill-3
+          - cal.1964-06-19.civil-rights-bill-4
+          - cal.1964-06-19.civil-rights-bill-5
+        from: 2026-11-06-b6-whalen-longest
   - id: cal.1964-06-20.desegregation-public-places
     when: June 20
     date: '1964-06-20'
@@ -4146,6 +4321,17 @@ entries:
     time_band: workday daytime
     time_zone: America/Chicago
     range_basis: kind
+  - id: cal.1964-06-22.elections-1964-scranton
+    when: June 22
+    date: '1964-06-22'
+    thread: elections-1964-scranton
+    c: Harrisburg. Robert Douglass, the ablest of Rockefeller's delegate managers, brought in to explain to Scranton's Pennsylvanians how different from a State contest a national one is.
+    n: '[[w.white-making-of-the-president-1965]], 157. Check: the day; White: "ten days" after the announcement of June 12, the Rockefeller machinery turned over to Scranton within two days of it. Names: Rockefeller, Scranton.'
+    src:
+      c: ad97d7db
+      rows:
+        - 'w.white-making-of-the-president-1965 157: all'
+    tags: [name:rockefeller-nelson, name:scranton-william-w, state:pa]
   - id: cal.1964-06-23.vietnam
     when: June 23
     date: '1964-06-23'
@@ -5906,3 +6092,15 @@ entries:
           - cal.1964-06.elections-1964-4
           - cal.1964-06.elections-1964-scranton
         from: 2026-11-06-b6-smith-on-his-own-terms
+  - id: cal.1964-06.elections-1964-2
+    when: June
+    date: 1964-06
+    thread: elections-1964
+    also: [vietnam]
+    c: 'Rockefeller, riding home to Tarrytown, N.Y., from New York a few days after his defeat in California, by White''s account, talks of the worsening situation in Vietnam: "Sometimes with a defeat there''s a gain—there are things you don''t have to worry about any more, like do you have to take the country into war over Vietnam."'
+    n: '[[w.white-making-of-the-president-1965]], 139. Check: the day. See [[cal.1964-06-02.elections-1964]]. Names: Rockefeller.'
+    src:
+      c: a4af4612
+      rows:
+        - 'w.white-making-of-the-president-1965 139: all'
+    tags: [name:rockefeller-nelson]

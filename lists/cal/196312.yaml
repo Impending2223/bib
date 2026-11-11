@@ -1292,6 +1292,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-12-07.succession
+    when: Dec. 7
+    date: '1963-12-07'
+    thread: succession
+    c: The Johnsons move into the White House.
+    n: '[[w.whalen-longest-debate]], 86; [[w.caro-passage-of-power]], 500 (the move: Jacqueline Kennedy and her children out that morning, to a house in Georgetown lent by Harriman; the Johnsons in, Lady Bird Johnson arriving about 3 p.m. with Rayburn''s photograph; Jacqueline Kennedy''s note, "you will be happy here"). Check: Caro gives Jacqueline Kennedy''s leaving as Dec. 6 at 388, the morning of Dec. 7 at 500. To check: [[w.johnson-white-house-diary]], 14 (cited by [[w.caro-passage-of-power]], 500 n.i-had-our-favorite); [[w.west-upstairs-at-the-white]], 288–90 (cited by [[w.caro-passage-of-power]], 500 n.i-think-well-probably). Names: Johnson, Lady Bird Johnson.'
+    src:
+      c: 1338b199
+      rows:
+        - 'w.whalen-longest-debate 86: all'
+        - 'w.caro-passage-of-power 500: ?'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird]
   - id: cal.1963-12-08.opinion
     when: Dec. 8
     date: '1963-12-08'
@@ -4326,3 +4338,64 @@ entries:
           - cal.1963-12.elections-1964-8
           - cal.1963-12.elections-1964-9
         from: 2026-11-06-b6-smith-on-his-own-terms
+  - id: cal.1963-12.congress-2
+    when: Dec.
+    date: 1963-12
+    thread: congress
+    c: Johnson on the Hill, unannounced, at a Christmas party with Dirksen, by Senate staffs account.
+    n: '[[w.whalen-longest-debate]], 87. Check: the day; Whalen, 87: "by mid-December". Names: Johnson, Dirksen.'
+    src:
+      c: d905e170
+      rows:
+        - 'w.whalen-longest-debate 87: all'
+    tags: [name:johnson-lyndon-b, name:dirksen-everett]
+  - id: cal.1963-12.congress-3
+    when: Dec.
+    date: 1963-12
+    thread: congress
+    c: Johnson at a surprise party for Mansfield on the Hill.
+    n: '[[w.whalen-longest-debate]], 87. Check: the day; Whalen, 87: "by mid-December". Names: Johnson, Mansfield.'
+    src:
+      c: 4cf12984
+      rows:
+        - 'w.whalen-longest-debate 87: all'
+    tags: [name:johnson-lyndon-b, name:mansfield-mike]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-12.congress-2
+        from: 2026-11-06-b6-whalen-longest
+  - id: cal.1963-12.congress-4
+    when: Dec.
+    date: 1963-12
+    thread: congress
+    c: 'Johnson, on impulse, to the Speakers dining room for the Texas Democrats weekly lunch, his old place beside the head of the table. Rayburns story to Truman: "theyll try to make you think that the president is the smartest man in the world. And, Harry, you know he aint and I know he aint." Johnson: "you all know he aint."'
+    n: '[[w.whalen-longest-debate]], 87. Check: the day; before the *Newsweek* of Dec. 16 (Whalen, 254). To check: *Newsweek*, Dec. 16, 1963, 22 (cited by [[w.whalen-longest-debate]], 254). Names: Johnson, Rayburn, Truman.'
+    src:
+      c: 1cd00f82
+      rows:
+        - 'w.whalen-longest-debate 87: all'
+        - 'via x.1963-12-16.newsweek: all'
+    tags: [name:johnson-lyndon-b, name:rayburn-sam, name:truman-harry-s, state:tx]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-12.congress-2
+          - cal.1963-12.congress-3
+        from: 2026-11-06-b6-whalen-longest
+  - id: cal.1963-12.transition-and-staff-2
+    when: Dec.
+    date: 1963-12
+    thread: transition-and-staff
+    c: Johnson, within the first two weeks of his presidency, rushes off to a Washington hospital to visit Aubrey Williams, ailing, his first chief at the National Youth Administration.
+    n: '[[w.white-making-of-the-president-1965]], 358. Check: the day; White: "in the first two weeks of his turbulent take-over" (Nov. 22-Dec. 6, 1963). Names: Johnson.'
+    src:
+      c: ff85e796
+      rows:
+        - 'w.white-making-of-the-president-1965 358: all'
+    tags: [name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-12.transition-and-staff
+        from: 2026-11-06-b6-white-making-of-the-president-1965

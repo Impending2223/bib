@@ -3067,6 +3067,49 @@ entries:
         - 'w.whalen-longest-debate 56–57: all'
         - 'via x.1963-10-28.lewis-new-york-times: all'
     tags: [name:lewis-anthony, name:halleck-charles-a, name:mcculloch-william-m]
+  - id: cal.1963-10-28.civil-rights-bill-4
+    when: Oct. 28
+    date: '1963-10-28'
+    thread: civil-rights-bill
+    follows:
+      - cal.1963-10-28.civil-rights-bill-3
+    c: 'After the Cabinet Room meeting Rodino stays behind to ask a favor: will Kennedy see his son, Peter Jr., on his "little people to little people" letters to world leaders for peace and against atomic weapons? Kennedy: delighted; call Mrs. Lincoln for a day after the Texas trip.'
+    n: '[[w.whalen-longest-debate]], 61. Names: Rodino, Kennedy, Lincoln.'
+    src:
+      c: e8624b48
+      rows:
+        - 'w.whalen-longest-debate 61: all'
+        - 'via x.undated.whalen-interviews-1981-84: all'
+    tags: [name:rodino-peter-w-jr, name:kennedy-john-f, name:lincoln-evelyn]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-10-28.civil-rights-bill
+          - cal.1963-10-28.civil-rights-bill-2
+          - cal.1963-10-28.civil-rights-bill-3
+        from: 2026-11-06-b6-whalen-longest
+  - id: cal.1963-10-28.civil-rights-bill-5
+    when: Oct. 28
+    date: '1963-10-28'
+    thread: civil-rights-bill
+    follows:
+      - cal.1963-10-28.civil-rights-bill-3
+    c: 'The night before the committee votes, Higgs, Kastenmeiers civil rights adviser, to Kimball of Lindsays staff by telephone: "It could go either way, by one or two votes."'
+    n: '[[w.whalen-longest-debate]], 62. Names: Kastenmeier, Lindsay.'
+    src:
+      c: 207c3db9
+      rows:
+        - 'w.whalen-longest-debate 62: all'
+        - 'via x.undated.whalen-interviews-1981-84: all'
+    tags: [name:kastenmeier-robert-w, name:lindsay-john-v]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-10-28.civil-rights-bill
+          - cal.1963-10-28.civil-rights-bill-2
+          - cal.1963-10-28.civil-rights-bill-3
+          - cal.1963-10-28.civil-rights-bill-4
+        from: 2026-11-06-b6-whalen-longest
   - id: cal.1963-10-29.civil-rights-bill
     when: Oct. 29
     date: '1963-10-29'
@@ -3314,6 +3357,27 @@ entries:
         - 'w.whalen-longest-debate 66: all'
         - 'via x.1963-11-01.naacp-press-release: all'
     tags: [name:wilkins-roy]
+  - id: cal.1963-10-29.civil-rights-bill-3
+    when: Oct. 29
+    date: '1963-10-29'
+    thread: civil-rights-bill
+    also: [robert-kennedy]
+    follows:
+      - cal.1963-10-29.civil-rights-bill
+    c: 'Copenhaver and Zelenko, the Judiciary Committees counsel, to the Justice Department with the news of the compromises adoption. Robert Kennedys first question: "How did Libonati vote?"'
+    n: '[[w.whalen-longest-debate]], 66. See [[cal.1963-10-29.civil-rights-bill]]. Names: Robert Kennedy, Libonati.'
+    src:
+      c: 1178ec40
+      rows:
+        - 'w.whalen-longest-debate 66: all'
+        - 'via x.undated.whalen-interviews-1981-84: all'
+    tags: [name:kennedy-robert-f, name:libonati-roland-v]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-10-29.civil-rights-bill
+          - cal.1963-10-29.civil-rights-bill-2
+        from: 2026-11-06-b6-whalen-longest
   - id: cal.1963-10-30.opinion
     when: Oct. 30
     date: '1963-10-30'
