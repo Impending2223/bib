@@ -446,3 +446,15 @@ Copied Oct. 30, 2026, from the session's transcript, for the provenance table of
 2026-11-10 (evening, Pacific), session "1968 series", on Humphrey's memoir, p. 285 (June 17, 1964: the call about his son's cancer during the civil rights debate; the pilot entered it, the audit would pass it over, the lead's view an entry):
 
 > Agreed on Humphrey's son's cancer.
+
+2026-11-11 (morning, Pacific, during the weekday pause, the owner's exception), session "1968 series":
+
+> I approve all requested splits.
+
+> I approve all the press list, with the exception of the holds, which are passed over, and accept the check likes.
+
+> Pick up the pace with 1–4, as suggested.
+
+> Every cite, everywhere.
+
+> Put the outstanding work, the work that's left, on the queue.

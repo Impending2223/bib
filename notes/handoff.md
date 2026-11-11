@@ -7,6 +7,18 @@ For a fresh orchestrating session. Read CLAUDE.md (the core), then this. The own
 - Models: readers on Sonnet with the card; mechanical work (merging, duplicate flags, scripts) on Sonnet or Haiku; Opus audits a sample of each reader's rulings and every disagreement. At most 4-6 agents at once (the machine has 4 processors).
 - Pilot first: `inbox/2026-11-10-pilot-humphrey.yaml` (Sonnet, the card) is to be audited row by row before anything scales.
 
+## The queue for the evening of Wed. Nov. 11, 2026 (from 5 p.m. Pacific), in order
+1. The owner's rulings of Nov. 11 (notes/owner-brief.md): rebuild `inbox/2026-11-05-bundle-splits.yaml` against the tree (fresh bases; the Rusk cite on the Apr. 1, 1968 strike moves with the split; the deferred Nixon RN cite lands on the new Mar. 16 entry) and merge all eight splits. Rebuild and merge `inbox/2026-11-05-press-part-iii.yaml`: all 27 figures; Kilpatrick, Frank, Fleming and Sarnoff passed over; the "(Check)" role lines as written; the people-apart row for the two David Lawrences.
+2. A PR to main, on the owner's word (the full test passes).
+3. The open "already in" rows (~365), at the new pace (the owner: "Pick up the pace with 1–4"): five or six readers at once; the auditor hands back the corrected patch itself (trial on one book first); the small books grouped (one reader, one audit of every row, per four or five books); the waves overlapped. Audits read every cite, everywhere (the owner: "Every cite, everywhere"): the long books (Dallek, Schlesinger RFK) split among two or three auditors of 25–30 rows each. Watson needs OCR first.
+4. Batch 6, group 14 (Young *Easy Burden*, Reeves, Dallek, McNamara, Kotz, CQ Aug. 9, Peirce *Great Plains*), stopped Nov. 10: the private, social and draft rows re-ruled by the card, with the same audit.
+5. `python3 -I tools/works/newspaper_cites.py --write` (newspaper titles in italics, the serial Times form; dry run 1,388 notes), then check and build.
+6. The kind bands (newspapers early morning, elections election night): finish the poll-hours and daylight-time research (sources/poll-hours.yaml, sources/daylight-time.yaml), then apply.
+7. The owner items in the round-4 list (possible duplicates, overlaps, doubtful dates) and the batch-6 questions (Gifford's private letters; Garrow's class exclusions; Dobrynin's month-dated leads; Mann's undated rows): to the owner.
+8. The Church Committee reports: cards and a reading plan; the Pike hearings to procure.
+9. The shared folder's new material (notes/drive-additions-2026-11.md): a reading plan.
+10. The leads the batch-8 audits raised (in each book-check file) and two bundles the Ball audit found (cal.1960-08-01.congo unit C; cal.1965-06-01.latin-america).
+
 ## Batch 8, the night of Nov. 10–11 (results)
 - Twelve works read by Sonnet readers on the card, each audited blind by Opus, the audit's fixes applied (by Sonnet, from the auditor's exact list) and checked before merging: Barrett, Logevall, Reeves, Caro, Selverstone, Zaroulis, Schwartz, Wofford, Clifford, Ball, Rusk, Whalen. 349 rows; all merged; `./bib check` 0 errors.
 - Error rate by op in the audited samples: 9–38% (Ball 9, Reeves 10, Logevall 11, Clifford 11, Whalen 16, Caro 19, Schwartz 21, Rusk 29, Wofford 32, Barrett 34, Selverstone 38; Zaroulis cites 10, variants 25). The kinds, commonest first: unit maps claiming more than the page (cured by the card's line of Nov. 11: `'?'` unless the page states the whole unit); Checks and variants that record no disagreement; cites on a neighbouring entry; new entries the calendar held already; days the work does not give; bundles. The card now carries a line for each.
