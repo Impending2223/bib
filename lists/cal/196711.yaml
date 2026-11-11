@@ -2719,6 +2719,25 @@ entries:
         of:
           - cal.1967-11-21.vietnam-2
         from: 2026-11-06-b6-dallek-flawed-giant
+  - id: cal.1967-11-21.elections-1968-3
+    when: Nov. 21
+    date: '1967-11-21'
+    thread: elections-1968
+    also: [vietnam-support]
+    c: 'New York. Humphrey to the grocery manufacturers: no choice but to hang on in Vietnam. Nixon, by telephone, congratulates him: "My dad was a grocer. You came up the pharmacy way."'
+    n: '[[w.solberg-hubert-humphrey]], 313. Check: the day: the work gives "One day"; the note cites Humphrey''s memorandum for the record of Nov. 21, 1967. To check: Humphrey, memorandum for the record, Nov. 21, 1967, Humphrey Papers, Minnesota Historical Society (cited by [[w.solberg-hubert-humphrey]], 313, its note). Names: Humphrey, Nixon.'
+    src:
+      c: 9d42d0d0
+      rows:
+        - 'w.solberg-hubert-humphrey 313: all'
+        - 'via w.solberg-hubert-humphrey 313 n.grocer: all'
+    tags: [name:humphrey-hubert-h, name:nixon-richard-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-11-21.elections-1968
+          - cal.1967-11-21.elections-1968-2
+        from: 2026-11-06-b6-solberg
   - id: cal.1967-11-22.middle-east
     when: Nov. 22
     date: '1967-11-22'
@@ -2862,6 +2881,25 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-11-22.war-opposition-4
+    when: Nov. 22
+    date: '1967-11-22'
+    thread: war-opposition
+    c: Evening. Johnson leaves the White House by helicopter in a blackout, the security so tight; seen from the Vice President's office across the street.
+    n: '[[w.solberg-hubert-humphrey]], 313. To check: Douglas Bennet, interview with Solberg, Nov. 21, 1980 (cited by [[w.solberg-hubert-humphrey]], 313, its note). Names: Johnson.'
+    src:
+      c: 962ed8b2
+      rows:
+        - 'w.solberg-hubert-humphrey 313: all'
+        - 'via w.solberg-hubert-humphrey 313 n.bennet: all'
+    tags: [name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-11-22.war-opposition
+          - cal.1967-11-22.war-opposition-2
+          - cal.1967-11-22.war-opposition-3
+        from: 2026-11-06-b6-solberg
   - id: cal.1967-11-23.vietnam-operations
     when: Nov. 23
     date: '1967-11-23'

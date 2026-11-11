@@ -155,6 +155,20 @@ entries:
         - 'w.drea-mcnamara-clifford-and-the-2011 499: all'
         - 'via x.1968-09-04.summary-notes-590th-nsc: all'
     tags: [name:rusk-dean, name:dobrynin-anatoly]
+  - id: cal.1968-09-04.elections-1968-humphrey
+    when: Sept. 4
+    date: '1968-09-04'
+    thread: elections-1968-humphrey
+    follows:
+      - cal.1968-09-04.soviet-union-czechoslovakia
+    c: 'After the evening NSC meeting, Humphrey, missing his chance to talk with Johnson, stays on to tell White House aides: "I''ll take an auto across the country and raise funds myself. I''m not going to let this chance go just because the Administration doesn''t want it."'
+    n: '[FRUS 1964–68, VII, doc. 4](https://history.state.gov/historicaldocuments/frus1964-68v07/d4) (the NSC, 5:07–7:29 p.m.). [[w.solberg-hubert-humphrey]], 374–75. To check: Edgar Berman, diary, Sept. 4, 1968, Berman files (cited by [[w.solberg-hubert-humphrey]], 375, its note). See [[cal.1968-09-03.elections-1968]]. Names: Humphrey, Johnson.'
+    src:
+      c: a44c5943
+      rows:
+        - 'w.solberg-hubert-humphrey 374–75: all'
+        - 'via w.solberg-hubert-humphrey 375 n.auto: all'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h]
   - id: cal.1968-09-05.elections-1968
     when: Sept. 5
     date: '1968-09-05'
@@ -2141,3 +2155,29 @@ entries:
       rows:
         - 'w.longley-lbjs-1968 182–83: all'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:fortas-abe]
+  - id: cal.1968-09.elections-1968-humphrey-3
+    when: Sept.–Oct.
+    date: 1968-09
+    thread: elections-1968-humphrey
+    c: 'The fall campaign. Humphrey''s sons Bob and Skip, with their wives, crisscross the country in a Dodge camper, speaking for their father in small towns and at small colleges. Bob: his own schedule and advance man, 100,000 miles, in California "twice the publicity he did."'
+    n: '[[w.solberg-hubert-humphrey]], 235. Check: the days. To check: Robert Humphrey, interview with Solberg (cited by [[w.solberg-hubert-humphrey]], 235, its note). Names: Humphrey.'
+    src:
+      c: 9a66182a
+      rows:
+        - 'w.solberg-hubert-humphrey 235: all'
+        - 'via w.solberg-hubert-humphrey 235 n.own-schedule: all'
+    tags: [name:humphrey-hubert-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-09.elections-1968-3
+          - cal.1968-09.elections-1968-4
+          - cal.1968-09.elections-1968-5
+          - cal.1968-09.elections-1968-13
+          - cal.1968-09.elections-1968-14
+          - cal.1968-09.elections-1968-16
+          - cal.1968-09.elections-1968-8
+          - cal.1968-09.elections-1968-19
+          - cal.1968-09.elections-1968-humphrey
+          - cal.1968-09.elections-1968-humphrey-2
+        from: 2026-11-06-b6-solberg

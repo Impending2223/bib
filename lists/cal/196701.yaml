@@ -1118,6 +1118,19 @@ entries:
     time_band: workday daytime
     time_zone: America/Chicago
     range_basis: kind
+  - id: cal.1967-01-10.transition-and-staff
+    when: Jan. 10
+    date: '1967-01-10'
+    thread: transition-and-staff
+    c: 'The State of the Union. By Johnson''s order, carried out by Califano, Humphrey has no advance word of its contents and no copy until after the press''s briefing. Humphrey to a White House aide: "If I could only find a way to convince this man of my loyalty." To Johnson: "This message was the most impressive of any of the State of the Union messages."'
+    n: '[[w.solberg-hubert-humphrey]], 302–03. Check: the days of the confidence and the letter. To check: Douglas Kiker, *Atlantic Monthly*, June 1967; Humphrey to Johnson, WHCF, Exec FG 440, Box 348, LBJ Library (cited by [[w.solberg-hubert-humphrey]], 303, its note). Names: Johnson, Califano, Humphrey.'
+    src:
+      c: d3c7bc38
+      rows:
+        - 'w.solberg-hubert-humphrey 302–03: all'
+        - 'via w.solberg-hubert-humphrey 303 n.kiker: B-C'
+        - 'via w.solberg-hubert-humphrey 303 n.most-impressive: D'
+    tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr, name:humphrey-hubert-h]
   - id: cal.1967-01-11.opinion
     when: Jan. 11
     date: '1967-01-11'
@@ -3487,3 +3500,33 @@ entries:
         - 'w.johnson-vantage-point 271: all'
       c: 1b28f2f3
     tags: [name:grissom-virgil-i, name:chaffee-roger-b, name:white-edward-h-ii, name:johnson-lyndon-b, name:johnson-lady-bird]
+  - id: cal.1967-01.transition-and-staff
+    when: Jan.
+    date: 1967-01
+    thread: transition-and-staff
+    also: [vietnam-support]
+    c: 'The Johnsons to dinner at the Humphreys'' new apartment. Johnson, on the sofa: Humphrey the "greatest national resource" for explaining Vietnam; "Now, Hubert, I''d like to hear one of your speeches." Humphrey, on his feet, begins; Johnson goes to the bathroom: "Keep talkin'', Hubert. I''m listenin''." By Humphrey''s account to Hughes next morning.'
+    n: '[[w.solberg-hubert-humphrey]], 302. Check: the day. To check: Thomas L. Hughes, interview with Solberg (cited by [[w.solberg-hubert-humphrey]], 302, its note). See [[cal.1967-01.transition-and-staff-2]]. Names: Johnson, Humphrey, Hughes.'
+    src:
+      c: 8d59684a
+      rows:
+        - 'w.solberg-hubert-humphrey 302: all'
+        - 'via w.solberg-hubert-humphrey 302 n.hear-you-make: all'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:hughes-thomas-l]
+  - id: cal.1967-01.transition-and-staff-2
+    when: Jan.
+    date: 1967-01
+    thread: transition-and-staff
+    c: 'A January morning, after the decision to send more troops: Humphrey with Hughes, of State''s intelligence, on a fast walk in Rock Creek Park. "This is the only place I feel free to talk." Johnson after him about "the wild people" on his staff, and knows of Rielly''s lunch with a KGB man from the Soviet embassy; Humphrey thinks it eavesdropping, his residence perhaps bugged. By Hughes''s account.'
+    n: '[[w.solberg-hubert-humphrey]], 301–02. Check: the day. To check: Thomas L. Hughes, interview with Solberg (cited by [[w.solberg-hubert-humphrey]], 301, its note). Names: Humphrey, Hughes, Johnson, Rielly.'
+    src:
+      c: c9a78022
+      rows:
+        - 'w.solberg-hubert-humphrey 301–02: all'
+        - 'via w.solberg-hubert-humphrey 301 n.run: all'
+    tags: [name:humphrey-hubert-h, name:hughes-thomas-l, name:johnson-lyndon-b, name:rielly-john]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-01.transition-and-staff
+        from: 2026-11-06-b6-solberg

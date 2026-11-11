@@ -3342,7 +3342,7 @@ entries:
     date: '1965-07-27'
     thread: vietnam-humphrey
     c: 'Evening, Minneapolis, the Governors'' Conference. Humphrey''s speech, cleared at State and the White House: an appeal to patriotism, the suffering ahead. At the leaders'' meeting Johnson reads from the wire''s advance and rebukes him, by Evans and Novak''s account; a call from the White House, and the offending lines are cut.'
-    n: '[[w.gibbons-u-s-government-and]], III, 431 (from Evans and Novak). To check: [[w.evans-lyndon-b-johnson]], 551 (cited by [[w.gibbons-u-s-government-and]], III, 431 n.131). See [[cal.1965-07-27.vietnam]]. Names: Humphrey, Johnson.'
+    n: '[[w.gibbons-u-s-government-and]], III, 431 (from Evans and Novak). Check: Solberg puts the governors'' conference speech at Detroit (282), his note "Humphrey Detroit speech, July 26, 1965," and Johnson''s "Hubert better damn sight not use it" July 26 (the White House Daily Diary). To check: [[w.evans-lyndon-b-johnson]], 551 (cited by [[w.gibbons-u-s-government-and]], III, 431 n.131). See [[cal.1965-07-27.vietnam]]. Names: Humphrey, Johnson.'
     src:
       c: 9aa488b5
       rows:
@@ -3707,6 +3707,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-07-28.vietnam-july-decision
+    when: July 28
+    date: '1965-07-28'
+    thread: vietnam-july-decision
+    c: 'Humphrey to Johnson, after the rebuke for his speech: "I have a roomful of senators over here at the Capitol, and we thought that the [announcement] was tremendous. I was personally inspired, moved, and I just couldn''t be happier if they had Christmas every day and every dream I ever wanted came true."'
+    n: '[[w.solberg-hubert-humphrey]], 282. To check: Humphrey to Johnson, July 28, 1965, WHCF, LBJ Library (cited by [[w.solberg-hubert-humphrey]], 282, its note). See [[cal.1965-07-27.vietnam-humphrey]]. Names: Humphrey, Johnson.'
+    src:
+      c: 31e52c7e
+      rows:
+        - 'w.solberg-hubert-humphrey 282: all'
+        - 'via w.solberg-hubert-humphrey 282 n.roomful: all'
+    tags: [name:humphrey-hubert-h, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-07-28.vietnam
+        from: 2026-11-06-b6-solberg
   - id: cal.1965-07-29.medicare
     when: July 29
     date: '1965-07-29'

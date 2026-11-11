@@ -869,6 +869,18 @@ entries:
         - 'w.macv-command-history-1965 13: A'
         - 'via w.macv-command-history-1965 13 n.42: A'
     tags: [name:westmoreland-william]
+  - id: cal.1965-12-09.farm
+    when: Dec. 9
+    date: '1965-12-09'
+    thread: farm
+    c: 'Freeman to Johnson, a report on his production-control policies, against Dwayne Andreas by name: "someone who has benefited from the actions of this administration and then turns on the administration [with] a vicious attack."'
+    n: '[[w.solberg-hubert-humphrey]], 232. To check: Freeman to Johnson, Dec. 9, 1965, WHCF, LBJ Library (cited by [[w.solberg-hubert-humphrey]], 232, its note). Names: Freeman, Johnson.'
+    src:
+      c: 6b620c64
+      rows:
+        - 'w.solberg-hubert-humphrey 232: all'
+        - 'via w.solberg-hubert-humphrey 232 n.benefited: all'
+    tags: [name:freeman-orville-l, name:johnson-lyndon-b]
   - id: cal.1965-12-10.oil
     when: Dec. 10
     date: '1965-12-10'
@@ -1387,6 +1399,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-12-15.farm
+    when: Dec. 15
+    date: '1965-12-15'
+    thread: farm
+    c: 'Humphrey to Freeman, "worried" to see two good friends "hurling brickbats at each other": "Andreas, right or wrong, has been too helpful to too many of us to deserve a dressing-down in a memo to the President." He has helped McGovern, Gaylord Nelson, Proxmire, McGee, Metcalf and Moss, "all good Administration votes."'
+    n: '[[w.solberg-hubert-humphrey]], 232–33. To check: Humphrey to Freeman, Dec. 15, 1965, Humphrey Papers, Minnesota Historical Society (cited by [[w.solberg-hubert-humphrey]], 232, its note). See [[cal.1965-12-09.farm]]. Names: Humphrey, Freeman, McGovern, Nelson, Proxmire, McGee, Metcalf, Moss.'
+    src:
+      c: 6033798a
+      rows:
+        - 'w.solberg-hubert-humphrey 232–33: all'
+        - 'via w.solberg-hubert-humphrey 232 n.right-or-wrong: all'
+    tags: [name:humphrey-hubert-h, name:freeman-orville-l, name:mcgovern-george, name:nelson-gaylord-a, name:proxmire-william, name:mcgee-gale-w, name:metcalf-lee-w, name:moss-frank-e]
   - id: cal.1965-12-16.robert-kennedy
     when: Dec. 16
     date: '1965-12-16'
@@ -3204,3 +3228,22 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 469: all'
     tags: [state:ny]
+  - id: cal.1965-12.transition-and-staff-3
+    when: Dec.
+    date: 1965-12
+    thread: transition-and-staff
+    c: 'After Gallup''s poll on the Vice President, 56 percent preferring he never be President: Johnson, an arm round Humphrey''s shoulder, has never had a press secretary as Vice President, and Humphrey needs none; be a good, loyal Vice President, never mind the image. Humphrey goes home and fires his press secretary.'
+    n: '[[w.solberg-hubert-humphrey]], 284. Check: the day. To check: Gallup, "Humphrey, His Public Image," *Washington Post*, Dec. 12, 1965; Humphrey press release, Dec. 23, 1965, Humphrey Papers, Minnesota Historical Society (cited by [[w.solberg-hubert-humphrey]], 284, its note). Names: Johnson, Humphrey.'
+    src:
+      c: 3f9709b7
+      rows:
+        - 'w.solberg-hubert-humphrey 284: all'
+        - 'via w.solberg-hubert-humphrey 284 n.gallup: all'
+        - 'via w.solberg-hubert-humphrey 284 n.press-release: all'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-12.transition-and-staff
+          - cal.1965-12.transition-and-staff-2
+        from: 2026-11-06-b6-solberg

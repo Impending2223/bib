@@ -3248,3 +3248,22 @@ entries:
       rows:
         - 'w.ralph-northern-protest 54: all'
     tags: [state:il, city:chicago]
+  - id: cal.1965-11.republican-party-3
+    when: Nov.
+    date: 1965-11
+    thread: republican-party
+    also: [states-and-cities]
+    c: 'Rockefeller, in public, on talk of a revolt by the county leaders: "Where are they going to go? They need patronage, don''t they?"'
+    n: '[[w.smith-on-his-own-terms]], 473. To check: the *New York Herald Tribune*, Nov. 21, 1965 (cited by [[w.smith-on-his-own-terms]], 473 n.). See [[cal.1965-05-14.republican-party-2]]. Check: the day. Names: Rockefeller.'
+    src:
+      c: 07b43da6
+      rows:
+        - 'w.smith-on-his-own-terms 473: all'
+        - 'via x.1965-11-21.herald-tribune-rockefeller-county-leaders: A'
+    tags: [name:rockefeller-nelson, state:ny]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-11.republican-party
+          - cal.1965-11.republican-party-2
+        from: 2026-11-06-b6-smith-on-his-own-terms

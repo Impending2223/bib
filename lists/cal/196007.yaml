@@ -1864,6 +1864,24 @@ entries:
         - 'via x.1960-08-01.time-aug-1-1960: C'
         - 'via x.1960-07-25.new-york-times-july-25-1960-dewey: F'
     tags: [name:cooper-john-sherman, name:dewey-thomas-e]
+  - id: cal.1960-07-23.elections-1960-rockefeller
+    when: July 23
+    date: '1960-07-23'
+    thread: elections-1960-rockefeller
+    c: Chicago, Saturday, the day after the Fifth Avenue compact. Rockefeller flies in, met by Al Peters and his Windy City Marching Band and some 250 partisans, most too young to vote.
+    n: '[[w.smith-on-his-own-terms]], 346. See [[cal.1960-07-23.republican-party-3]]. Names: Rockefeller.'
+    src:
+      c: 8c821845
+      rows:
+        - 'w.smith-on-his-own-terms 346: all'
+    tags: [name:rockefeller-nelson, city:chicago]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-23.elections-1960-2
+          - cal.1960-07-23.elections-1960-3
+          - cal.1960-07-23.elections-1960-4
+        from: 2026-11-06-b6-smith-on-his-own-terms
   - id: cal.1960-07-24.elections-1960
     when: July 24
     date: '1960-07-24'
@@ -2159,6 +2177,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-07-25.elections-1960-rockefeller
+    when: July 25
+    date: '1960-07-25'
+    thread: elections-1960-rockefeller
+    c: 'Rockefeller''s wife, to a friend: "Nelson has just come into the room wearing a big Nixon button, and I could throw up."'
+    n: '[[w.smith-on-his-own-terms]], 348 n. (from Drew Pearson''s diary). To check: Drew Pearson diary, July 25, 1960 (cited by [[w.smith-on-his-own-terms]], 348 n.). See [[cal.1960-07-26.republican-party]]. Check: the day; the endorsement before the New York delegation was July 26. Names: Rockefeller, Nixon, Pearson.'
+    src:
+      c: 33f3bb21
+      rows:
+        - 'w.smith-on-his-own-terms 348: all'
+        - 'via x.1960-07-25.pearson-diary-july-25-1960: all'
+    tags: [name:rockefeller-nelson, name:nixon-richard-m, name:pearson-drew]
   - id: cal.1960-07-26.elections-1960
     when: July 26–27
     date: '1960-07-26'

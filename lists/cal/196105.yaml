@@ -4431,3 +4431,30 @@ entries:
           - cal.1961-05.china-2
           - cal.1961-05.china-3
         from: 2026-11-06-b6-reeves-president-kennedy
+  - id: cal.1961-05.elections-1964
+    when: May
+    date: 1961-05
+    thread: elections-1964
+    c: Happy Murphy quietly leaves her place as the governor's confidential secretary, two months after the mansion fire.
+    n: '[[w.smith-on-his-own-terms]], 359, 405 ("in the spring of 1961"). Check: the day. Names: Margaretta Rockefeller, Rockefeller.'
+    src:
+      c: 2ea8fda9
+      rows:
+        - 'w.smith-on-his-own-terms 359, 405: all'
+    tags: [name:rockefeller-margaretta-fitler, name:rockefeller-nelson]
+  - id: cal.1961-05.elections-1964-2
+    when: May
+    date: 1961-05
+    thread: elections-1964
+    c: 'Rockefeller to James Desmond of the *Daily News*, who plans a campaign biography for 1964: "Something may happen to take me out of the picture."'
+    n: '[[w.smith-on-his-own-terms]], 359. To check: [[w.desmond-nelson-rockefeller]], 289 (cited by [[w.smith-on-his-own-terms]], 359 n.). Check: the day; Smith: "About this time." Names: Rockefeller.'
+    src:
+      c: b3c69506
+      rows:
+        - 'w.smith-on-his-own-terms 359: all'
+    tags: [name:rockefeller-nelson]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-05.elections-1964
+        from: 2026-11-06-b6-smith-on-his-own-terms

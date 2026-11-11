@@ -1349,6 +1349,23 @@ entries:
         of:
           - cal.1968-06-06.assassination
         from: b6-longley
+  - id: cal.1968-06-06.elections-1968-republican-nomination
+    when: June 6
+    date: '1968-06-06'
+    thread: elections-1968-republican-nomination
+    c: 'Pocantico, the day after Robert Kennedy was shot. Rockefeller with his son Steven in the Kykuit garden: the coalition he hopes to lead, the young, the minorities, progressive business. Steven agrees to join the campaign.'
+    n: '[[w.smith-on-his-own-terms]], 533–34. To check: Steven Rockefeller, interview by Hugh Morrow, 12–13 (cited by [[w.smith-on-his-own-terms]], 533 n.). Names: Rockefeller, Robert Kennedy.'
+    src:
+      c: a091aa06
+      rows:
+        - 'w.smith-on-his-own-terms 533–34: all'
+        - 'via x.undated.steven-rockefeller-interview-by-morrow: all'
+    tags: [name:rockefeller-nelson, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-06-06.elections-1968-3
+        from: 2026-11-06-b6-smith-on-his-own-terms
   - id: cal.1968-06-07.republican-party
     when: June 7
     date: '1968-06-07'
@@ -2342,6 +2359,18 @@ entries:
     time_band: workday daytime
     time_zone: America/Chicago
     range_basis: kind
+  - id: cal.1968-06-16.governors
+    when: June 16–17
+    date: '1968-06-16'
+    thread: governors
+    c: 'Nelson Rockefeller and his brothers and sister to Winthrop Rockefeller, Governor of Arkansas, on his drinking, a danger to his marriage and his re-election: "We write you as a brother and friend because we love you and need you ... as do the people of Arkansas."'
+    n: '[[w.smith-on-his-own-terms]], 535. To check: John D. Rockefeller 3rd diary, June 16, 1968; Nelson Rockefeller to Winthrop Rockefeller, June 17, 1968, Rockefeller Archive Center (cited by [[w.smith-on-his-own-terms]], 535 n.). Names: Nelson Rockefeller, Winthrop Rockefeller.'
+    src:
+      c: 75e3971e
+      rows:
+        - 'w.smith-on-his-own-terms 535: all'
+        - 'via x.1968-06-17.rockefeller-siblings-to-winthrop-rockefeller: all'
+    tags: [name:rockefeller-nelson, name:rockefeller-winthrop, state:ar]
   - id: cal.1968-06-17.berlin-and-vienna
     when: June 17
     date: '1968-06-17'
@@ -2830,6 +2859,23 @@ entries:
         - 'w.longley-lbjs-1968 155: all'
         - 'via w.longley-lbjs-1968 155 n.69: all'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1968-06-19.elections-1968-humphrey
+    when: June 19
+    date: '1968-06-19'
+    thread: elections-1968-humphrey
+    c: 'Humphrey to his aides, resuming the race: "The President didn''t run because he knew he couldn''t make it. And he clothed me with nothing. ... I''m going to break out of this cocoon without repudiating my father." By Berman''s diary.'
+    n: '[[w.solberg-hubert-humphrey]], 343. To check: Edgar Berman, diary, June 19, 1968, Berman files (cited by [[w.solberg-hubert-humphrey]], 343, its note). Names: Humphrey, Johnson.'
+    src:
+      c: f64e54e4
+      rows:
+        - 'w.solberg-hubert-humphrey 343: all'
+        - 'via w.solberg-hubert-humphrey 343 n.clothed: all'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-06-19.elections-1968
+        from: 2026-11-06-b6-solberg
   - id: cal.1968-06-20.economy
     when: June 20
     date: '1968-06-20'

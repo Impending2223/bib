@@ -511,6 +511,26 @@ entries:
     time_band: afternoon
     time_zone: America/New_York
     range_basis: record
+  - id: cal.1963-05-04.elections-1964-3
+    when: May 4
+    date: '1963-05-04'
+    thread: elections-1964
+    also: [goldwater]
+    follows:
+      - cal.1963-05-04.elections-1964
+    c: 'After the wedding and lunch, Rockefeller telephones Goldwater: sorry to miss an upcoming dinner at which he was to pay him tribute. Goldwater to his wife: "Rockefeller just got married." Peggy Goldwater: "Bully for him!"'
+    n: '[[w.smith-on-his-own-terms]], 407. See [[cal.1963-05-04.elections-1964]]. Names: Rockefeller, Goldwater.'
+    src:
+      c: c0b3356e
+      rows:
+        - 'w.smith-on-his-own-terms 407: all'
+    tags: [name:rockefeller-nelson, name:goldwater-barry-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-05-04.elections-1964
+          - cal.1963-05-04.elections-1964-2
+        from: 2026-11-06-b6-smith-on-his-own-terms
   - id: cal.1963-05-05.alabama-birmingham
     when: May 5
     date: '1963-05-05'

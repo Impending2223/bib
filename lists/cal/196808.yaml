@@ -3986,6 +3986,18 @@ entries:
       rows:
         - 'w.cohen-american-pharaoh 469–70: all'
     tags: [state:il, city:chicago, name:daley-richard-j]
+  - id: cal.1968-08-21.elections-1968-humphrey
+    when: Aug. 21
+    date: '1968-08-21'
+    thread: elections-1968-humphrey
+    c: 'McClosky to Humphrey, the plan worked out with the Kirkpatricks, Kampelman, Robert Nathan and Welsh: resign the vice presidency in the acceptance speech. His draft: "I therefore offer my resignation, and today have handed it to the President. Under the new 21st amendment we can now have a new Vice President in a few days."'
+    n: '[[w.solberg-hubert-humphrey]], 361–62 (the amendment so numbered in the draft as the work quotes it). To check: McClosky to Humphrey, Aug. 21, 1968, Box 1075, Humphrey Papers, Minnesota Historical Society; Carl Kaysen to Nathan, Aug. 21, 1968, Nathan files (cited by [[w.solberg-hubert-humphrey]], 361, its note). See [[cal.1968-08-28.elections-1968-chicago-13]]. Names: Humphrey, Kampelman.'
+    src:
+      c: b93bed61
+      rows:
+        - 'w.solberg-hubert-humphrey 361–62: all'
+        - 'via w.solberg-hubert-humphrey 361 n.handyman-a: all'
+    tags: [name:humphrey-hubert-h, name:kampelman-max-m]
   - id: cal.1968-08-22.soviet-union
     when: Aug. 22
     date: '1968-08-22'
@@ -6508,3 +6520,54 @@ entries:
           - cal.1968-08.elections-1968-2
           - cal.1968-08.elections-1968-nixon-2
         from: 2026-11-06-b6-nixon-rn
+  - id: cal.1968-08.elections-1968-miami-3
+    when: Aug., convention week
+    date: 1968-08
+    thread: elections-1968-miami
+    also: [press-and-broadcasting]
+    c: 'Miami Beach. Gene Spagnoli of the *Daily News* puts in a word to Buchanan for Hatfield or, better, Lindsay as Nixon''s running mate. Buchanan: "If we had Nixon and Lindsay, it would be like following *Death of a Salesman* with *Guys and Dolls*."'
+    n: '[[w.smith-on-his-own-terms]], 538 n. To check: Gene Spagnoli, interview by Hugh Morrow, 22 (cited by [[w.smith-on-his-own-terms]], 538 n.). Check: the day. Names: Buchanan, Hatfield, Lindsay, Nixon.'
+    src:
+      c: 0f72cdba
+      rows:
+        - 'w.smith-on-his-own-terms 538: all'
+        - 'via x.undated.spagnoli-interview-by-morrow: all'
+    tags: [name:buchanan-patrick-j, name:hatfield-mark-o, name:lindsay-john-v, name:nixon-richard-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-08.elections-1968-miami
+          - cal.1968-08.elections-1968-miami-2
+        from: 2026-11-06-b6-smith-on-his-own-terms
+  - id: cal.1968-08.elections-1968-republican-nomination
+    when: Aug., after the 9th
+    date: 1968-08
+    thread: elections-1968-republican-nomination
+    c: Seal Harbor, the vacation put off by the convention. Rockefeller to Ann Whitman, a long letter in his own hand, thanking her for all she had given to his political career, now concluded.
+    n: '[[w.smith-on-his-own-terms]], 539. To check: Albright, interview by Smith (cited by [[w.smith-on-his-own-terms]], 539 n.). Check: the day. Names: Rockefeller, Whitman.'
+    src:
+      c: e02f192d
+      rows:
+        - 'w.smith-on-his-own-terms 539: all'
+    tags: [name:rockefeller-nelson, name:whitman-ann-c]
+  - id: cal.1968-08.elections-1968-humphrey-3
+    when: Aug., mid
+    date: 1968-08
+    thread: elections-1968-humphrey
+    c: 'Humphrey to Berman, over a beer, a few nights after the Ranch: "What would you think if the President should nominate me? ... He asked me—if I wanted him to nominate me—and I said no." By Berman''s diary.'
+    n: '[[w.solberg-hubert-humphrey]], 350. Check: the day: the note cites Berman''s diary of Aug. 9 for the visit and the remark. To check: Edgar Berman, diary, Aug. 9, 1968, Berman files (cited by [[w.solberg-hubert-humphrey]], 350, its note). See [[cal.1968-08-09.elections-1968]]. Names: Humphrey, Johnson.'
+    src:
+      c: f18e08c2
+      rows:
+        - 'w.solberg-hubert-humphrey 350: all'
+        - 'via w.solberg-hubert-humphrey 350 n.nominate-me: all'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-08.elections-1968-3
+          - cal.1968-08.elections-1968
+          - cal.1968-08.elections-1968-4
+          - cal.1968-08.elections-1968-humphrey
+          - cal.1968-08.elections-1968-humphrey-2
+        from: 2026-11-06-b6-solberg

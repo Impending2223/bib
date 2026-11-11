@@ -964,6 +964,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-06-09.transition-and-staff
+    when: June 9
+    date: '1967-06-09'
+    thread: transition-and-staff
+    c: 'Bethesda. Humphrey, anaesthetized, a probe of his bladder: multiple small polyps removed, one malignant. Of eleven consultants Dr. Berman asks, one recommends removing the bladder; Humphrey chooses examinations twice a year. Out that afternoon, as he tells Johnson, and back at the office in three days.'
+    n: '[[w.solberg-hubert-humphrey]], 308. To check: Edgar Berman, interview with Solberg; *New York Times*, June 10–14, 1967 (cited by [[w.solberg-hubert-humphrey]], 308, its note). Names: Humphrey, Johnson.'
+    src:
+      c: 5f6da39d
+      rows:
+        - 'w.solberg-hubert-humphrey 308: all'
+        - 'via w.solberg-hubert-humphrey 308 n.weight: all'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h]
   - id: cal.1967-06-10.oil
     when: June 10
     date: '1967-06-10'
@@ -3121,3 +3133,23 @@ entries:
         - 'w.debenedetti-american-ordeal 189: all'
         - 'via w.debenedetti-american-ordeal 189 n.87a: all'
     tags: [name:dellinger-david]
+  - id: cal.1967-06.elections-1968-6
+    when: June
+    date: 1967-06
+    thread: elections-1968
+    c: Pocantico, Kykuit's gardens. A dinner dance for Happy Rockefeller's forty-first birthday. Among the guests the Robert Kennedys, the Javitses, Whitney Young, Jackie Robinson, Cardinals Spellman and Cushing, Dewey, Cronkite, Katharine Graham, Arthur Sulzberger, McNamara, William Paley, Harry Van Arsdale.
+    n: '[[w.smith-on-his-own-terms]], 519–20. To check: the *New York Times*, Jan. 10, 1967 (cited by [[w.smith-on-his-own-terms]], 519 n.). Check: the day; Smith''s note gives a *Times* of Jan. 10, 1967, for Rockefeller''s words at the party. Names: Margaretta Rockefeller, Nelson Rockefeller, Robert Kennedy, Javits, Spellman, Cushing, Dewey, Cronkite, Graham, McNamara.'
+    src:
+      c: e260dac0
+      rows:
+        - 'w.smith-on-his-own-terms 519–20: all'
+    tags: [name:rockefeller-margaretta-fitler, name:rockefeller-nelson, name:kennedy-robert-f, name:javits-jacob-k, name:spellman-francis, name:cushing-richard-g, name:dewey-thomas-e, name:cronkite-walter, name:graham-katharine, name:mcnamara-robert-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-06.elections-1968
+          - cal.1967-06.elections-1968-2
+          - cal.1967-06.elections-1968-3
+          - cal.1967-06.elections-1968-4
+          - cal.1967-06.elections-1968-5
+        from: 2026-11-06-b6-smith-on-his-own-terms
