@@ -534,6 +534,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-04-05.transition-and-staff-nsc
+    when: Apr. 5
+    date: '1961-04-05'
+    thread: transition-and-staff-nsc
+    also: [laos, cuba-bay-of-pigs]
+    c: 'Bundy to Kennedy, "Crisis Commanders in Washington": in the most important crises no one is in charge; the task forces with responsible leaders, talked of since Jan. 20, not working.'
+    n: '[[w.reeves-president-kennedy]], 84. To check: Bundy to Kennedy, "Crisis Commanders in Washington," Apr. 4, 1961, POF Box 62, JFK Library (cited by [[w.reeves-president-kennedy]], 84). Check: the day; Reeves''s text gives Apr. 5, his note Apr. 4. Names: Bundy, Kennedy.'
+    src:
+      c: a5f51aef
+      rows:
+        - 'w.reeves-president-kennedy 84: all'
+        - 'via w.reeves-president-kennedy 84 n.crisis-commanders-in-washington: all'
+    tags: [name:bundy-mcgeorge, name:kennedy-john-f]
   - id: cal.1961-04-06.opinion
     when: Apr. 6–11
     date: '1961-04-06'
@@ -3533,7 +3546,7 @@ entries:
     thread: laos
     also: [cuba-bay-of-pigs]
     c: 'The 479th NSC, 10 a.m. to 12:02 p.m., Kennedy presiding, thirty-three present: Laos, and Cuba after the landing. The congressional leaders to be told of Laos that morning. By Rostow''s account, the worst White House meeting he attended: the Chiefs would not guarantee success even with the 60,000 men they had asked a month before; Johnson proposes they put their views in writing; seven memoranda, it is said, from the four Chiefs and the three service secretaries.'
-    n: '[FRUS 1961–63, XXIV, doc. 63](https://history.state.gov/historicaldocuments/frus1961-63v24/d63) (the editorial note: the time, those present, NSC Action No. 2410); [FRUS 1961–63, X, doc. 184](https://history.state.gov/historicaldocuments/frus1961-63v10/d184) (Bowles''s notes: Cuba). [[w.schlesinger-thousand-days-1965]], 337 (Rostow''s account, as Schlesinger gives it). [[w.reeves-president-kennedy]], 107, 108 (the NSC, three hours, on Laos; the congressional leaders after). To check: [*New York Times*, Apr. 27, 1961](https://timesmachine.nytimes.com/timesmachine/1961/04/27/issue.html) (cited by [[w.reeves-president-kennedy]], 108). Made public: FRUS 1961–63, XXIV; X (1997). See [[cal.1961-03-09.laos]]. Names: Kennedy, Rostow, Johnson.'
+    n: '[FRUS 1961–63, XXIV, doc. 63](https://history.state.gov/historicaldocuments/frus1961-63v24/d63) (the editorial note: the time, those present, NSC Action No. 2410); [FRUS 1961–63, X, doc. 184](https://history.state.gov/historicaldocuments/frus1961-63v10/d184) (Bowles''s notes: Cuba). [[w.schlesinger-thousand-days-1965]], 337 (Rostow''s account, as Schlesinger gives it); [[w.reeves-president-kennedy]], 111–112 (Lemnitzer on making soldiers of the Laotians; Kennedy''s questions on the two airfields, a thousand men a day, the Communists'' three thousand). [[w.reeves-president-kennedy]], 107, 108 (the NSC, three hours, on Laos; the congressional leaders after). To check: [*New York Times*, Apr. 27, 1961](https://timesmachine.nytimes.com/timesmachine/1961/04/27/issue.html) (cited by [[w.reeves-president-kennedy]], 108). Made public: FRUS 1961–63, XXIV; X (1997). See [[cal.1961-03-09.laos]]. Names: Kennedy, Rostow, Johnson.'
     src:
       c: f7acbc20
       rows:
@@ -3542,6 +3555,7 @@ entries:
         - 'w.schlesinger-thousand-days-1965 337: C-E'
         - 'w.reeves-president-kennedy 107, 108: A-B'
         - 'via w.reeves-president-kennedy 108 n.discussions-revolved: A-B'
+        - 'w.reeves-president-kennedy 111–112: ?'
     tags: [name:kennedy-john-f, name:rostow-walt-w, name:johnson-lyndon-b]
   - id: cal.1961-04-27.laos-2
     when: Apr. 27
@@ -3580,6 +3594,27 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Bangkok
     range_basis: kind
+  - id: cal.1961-04-27.laos-4
+    when: Apr. 27
+    date: '1961-04-27'
+    thread: laos
+    follows:
+      - cal.1961-04-27.laos
+    c: 'After the session with the generals, Kennedy to Sorensen: there would be American troops in Laos now but for the Bay of Pigs.'
+    n: '[[w.reeves-president-kennedy]], 111–112. Check: the day; Reeves puts it after "a late April meeting," his note citing the notes of the NSC of Apr. 27. To check: Notes on NSC meeting, Apr. 27, 1961, NSF Box 313, JFK Library (cited by [[w.reeves-president-kennedy]], 111). See [[cal.1961-04-27.laos]]. Names: Kennedy, Sorensen.'
+    src:
+      c: 7916b923
+      rows:
+        - 'w.reeves-president-kennedy 111–112: all'
+        - 'via w.reeves-president-kennedy 111 n.kennedy-had-also-had-some.a: all'
+    tags: [name:kennedy-john-f, name:sorensen-theodore-c]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-04-27.laos
+          - cal.1961-04-27.laos-2
+          - cal.1961-04-27.laos-3
+        from: 2026-11-06-b6-reeves-president-kennedy
   - id: cal.1961-04-28.opinion
     when: Apr. 28–May 3
     date: '1961-04-28'
@@ -4230,3 +4265,16 @@ entries:
         - 'w.nixon-six-crises xi–xii: all'
       c: 67281ee5
     tags: [name:nixon-richard-m, state:ca]
+  - id: cal.1961-04.transition-and-staff-nsc
+    when: Apr.
+    date: 1961-04
+    thread: transition-and-staff-nsc
+    also: [cuba-bay-of-pigs]
+    c: After the Bay of Pigs, Bundy gives Kennedy a letter of resignation. Kennedy refuses it and tells him to take control of the flow of information to the President; Bundy moves from the Executive Office Building to the White House basement.
+    n: '[[w.reeves-president-kennedy]], 113. To check: McGeorge Bundy, interview by Reeves (cited by [[w.reeves-president-kennedy]], 113). Check: the day. Names: Bundy, Kennedy.'
+    src:
+      c: 57e3a947
+      rows:
+        - 'w.reeves-president-kennedy 113: all'
+        - 'via w.reeves-president-kennedy 113 n.kennedy-rejected-it: all'
+    tags: [name:bundy-mcgeorge, name:kennedy-john-f]

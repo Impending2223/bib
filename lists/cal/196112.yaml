@@ -1920,3 +1920,33 @@ entries:
         - 'w.smith-on-his-own-terms 370: all'
         - 'via x.1961-12-13.new-york-times-dec-13-1961-rockefeller: A'
     tags: [name:rockefeller-nelson, name:wagner-robert-f-jr, state:ny]
+  - id: cal.1961-12.vietnam
+    when: Dec.
+    date: 1961-12
+    thread: vietnam
+    also: [europe-and-the-alliance]
+    c: 'Brussels. Rusk, briefing the NATO foreign ministers in secret on Southeast Asia: "We will honor our commitments."'
+    n: '[[w.reeves-president-kennedy]], 261. To check: Dean Rusk, interview by Reeves (cited by [[w.reeves-president-kennedy]], 261). Check: the day; Reeves puts it after Kennedy''s decision to exceed the Geneva limit of 685 advisers. Names: Rusk.'
+    src:
+      c: d81013ef
+      rows:
+        - 'w.reeves-president-kennedy 261: all'
+        - 'via w.reeves-president-kennedy 261 n.rusk-agreed: all'
+    tags: [name:rusk-dean]
+  - id: cal.1961-12.transition-and-staff-2
+    when: Dec.
+    date: 1961-12
+    thread: transition-and-staff
+    c: Kennedy opens an address to historians meeting in Washington with Churchill's prediction that history would be kind to him, "Because I intend to write it!"
+    n: '[[w.reeves-president-kennedy]], 278. To check: Arthur Schlesinger, interview by Reeves (cited by [[w.reeves-president-kennedy]], 278). Check: the day; Reeves: "As 1961 ended"; the address not found among the Public Papers'' items of December 1961 by title. Names: Kennedy.'
+    src:
+      c: e8bfcc82
+      rows:
+        - 'w.reeves-president-kennedy 278: all'
+        - 'via w.reeves-president-kennedy 278 n.because-i-intend: all'
+    tags: [name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-12.transition-and-staff
+        from: 2026-11-06-b6-reeves-president-kennedy

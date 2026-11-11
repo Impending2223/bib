@@ -122,6 +122,18 @@ entries:
       - 1961-09-02T21:00Z
       - 1961-09-03T01:00Z
     time_zone: America/New_York
+  - id: cal.1961-09-02.press-and-broadcasting
+    when: Sept. 2
+    date: '1961-09-02'
+    thread: press-and-broadcasting
+    c: 'Hyannis Port. Kennedy''s interview with James Reston of the *New York Times*; walking on the beach after, asked what kind of world he would like to help make: "I haven''t had time to think about that yet."'
+    n: '[[w.reeves-president-kennedy]], 225. To check: James Reston, interview by Reeves (cited by [[w.reeves-president-kennedy]], 225). Check: the day; Reeves: "That weekend." Names: Kennedy, Reston.'
+    src:
+      c: 80322a0d
+      rows:
+        - 'w.reeves-president-kennedy 225: all'
+        - 'via w.reeves-president-kennedy 225 n.i-havent-had-time: all'
+    tags: [name:kennedy-john-f, name:reston-james]
   - id: cal.1961-09-03.economy
     when: Sept. 3
     date: '1961-09-03'
@@ -2463,3 +2475,20 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 394: all'
         - 'via w.fursenko-khrushchevs-cold-war 394 n.29: all'
     tags: [name:spaak-paul-henri, name:khrushchev-nikita-s]
+  - id: cal.1961-09.transition-and-staff-3
+    when: Sept.
+    date: 1961-09
+    thread: transition-and-staff
+    c: 'Late September. Dr. Hans Kraus, called in by Dr. Travell after weeks of argument with Admiral Burkley over her injections, examines the President''s back: without exercise he will be a cripple; three hour-long sessions a week. Kennedy fears reporters will notice Kraus coming and going.'
+    n: '[[w.reeves-president-kennedy]], 243. Check: the day; Reeves gives "late September." To check: Hans Kraus, interview by Reeves (cited by [[w.reeves-president-kennedy]], 178, 181). Names: Burkley, Kennedy.'
+    src:
+      c: f43cc38d
+      rows:
+        - 'w.reeves-president-kennedy 243: all'
+    tags: [name:burkley-george-g, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-09.transition-and-staff-2
+          - cal.1961-09.transition-and-staff
+        from: 2026-11-06-b6-reeves-president-kennedy

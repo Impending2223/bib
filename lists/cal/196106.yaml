@@ -37,6 +37,29 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-06-01.laos-2
+    when: June 1
+    date: '1961-06-01'
+    thread: laos
+    also: [berlin-and-vienna]
+    c: 'Paris, the American embassy, Kennedy''s second day. Harriman, waiting in the doorway, takes his elbow: does he want a settlement on Laos or not? Kennedy: yes, "Get us out of there any way you can."'
+    n: '[[w.reeves-president-kennedy]], 152. To check: [[w.halberstam-best-and-the-brightest]], 94–95 (cited by [[w.reeves-president-kennedy]], 152). Names: Harriman, Kennedy.'
+    src:
+      c: 0ee2b9e1
+      rows:
+        - 'w.reeves-president-kennedy 152: all'
+    tags: [name:harriman-w-averell, name:kennedy-john-f]
+  - id: cal.1961-06-01.berlin-and-vienna
+    when: June 1
+    date: '1961-06-01'
+    thread: berlin-and-vienna
+    c: 'Versailles, the dinner in the Hall of Mirrors. Harriman, placed three seats from Kennedy through Eunice Shriver, on Khrushchev: do not let him rattle you; laugh, don''t fight.'
+    n: '[[w.reeves-president-kennedy]], 152–153. Check: the day; Reeves: "That night," after the embassy. See [[cal.1961-06-03.berlin-and-vienna]]. Names: Harriman, Kennedy, Khrushchev.'
+    src:
+      c: 4fb86f52
+      rows:
+        - 'w.reeves-president-kennedy 152–153: all'
+    tags: [name:harriman-w-averell, name:kennedy-john-f]
   - id: cal.1961-06-02.opinion
     when: June 2
     date: '1961-06-02'
@@ -194,6 +217,24 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-06-05.berlin-and-vienna-2
+    when: June 5
+    date: '1961-06-05'
+    thread: berlin-and-vienna
+    c: 'London, a party after the christening of the Radziwills'' child, at the house of Frank Wisner, the CIA''s station chief. Nitze on Vienna: "just a disaster"; Khrushchev frightening.'
+    n: '[[w.reeves-president-kennedy]], 173. To check: Susan Mary Alsop and Paul Nitze, interviews by Reeves (cited by [[w.reeves-president-kennedy]], 173). Names: Nitze, Khrushchev.'
+    src:
+      c: b17b0330
+      rows:
+        - 'w.reeves-president-kennedy 173: all'
+        - 'via w.reeves-president-kennedy 173 n.it-was-just-a-disaster.a: all'
+        - 'via w.reeves-president-kennedy 173 n.it-was-just-a-disaster.b: all'
+    tags: [name:nitze-paul]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-06-05.berlin-and-vienna
+        from: 2026-11-06-b6-reeves-president-kennedy
   - id: cal.1961-06-06.berlin-and-vienna
     when: June 6
     date: '1961-06-06'
@@ -365,6 +406,20 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-06-08.transition-and-staff
+    when: June 8
+    date: '1961-06-08'
+    thread: transition-and-staff
+    also: [press-and-broadcasting]
+    c: 'Salinger tells reporters of the President''s back trouble, kept secret since the middle of May: on crutches, as before his operation of 1954; to Palm Beach to rest.'
+    n: '[[w.reeves-president-kennedy]], 178. To check: Hans Kraus and Hugh Sidey, interviews by Reeves; *Time*, July 14, 1961; *U.S. News & World Report*, June 19, 1961; [[w.parmet-jfk]], 118–120 (cited by [[w.reeves-president-kennedy]], 178). See [[cal.1961-05-16.transition-and-staff]]. Names: Salinger, Kennedy.'
+    src:
+      c: 4cc60d99
+      rows:
+        - 'w.reeves-president-kennedy 178: all'
+        - 'via w.reeves-president-kennedy 178 n.kennedy-only-stayed.a: all'
+        - 'via w.reeves-president-kennedy 178 n.kennedy-only-stayed.b: all'
+    tags: [name:salinger-pierre, name:kennedy-john-f]
   - id: cal.1961-06-09.opinion
     when: June 9
     date: '1961-06-09'
@@ -1045,6 +1100,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-06-22.transition-and-staff
+    when: June 22
+    date: '1961-06-22'
+    thread: transition-and-staff
+    c: 'After two days of a sore throat, the President in a high fever, 105 degrees; penicillin and cold sponge baths through the night. In the morning, at 101, he hands his crutches to a Secret Service man and walks into the meeting with Ikeda. Dr. Travell''s statement: no serious concern about his health.'
+    n: '[[w.reeves-president-kennedy]], 181. To check: Herbert Parmet and Hans Kraus, interviews by Reeves; Andrew Hatcher, press briefing, June 16, 1961, Salinger papers, Box 46, JFK Library (cited by [[w.reeves-president-kennedy]], 181). Check: the day of the meeting with Ikeda, and of Travell''s statement; Reeves gives none for the statement. See [[cal.1961-06-20.transition-and-staff]]. Names: Kennedy, Ikeda.'
+    src:
+      c: 7fcf688d
+      rows:
+        - 'w.reeves-president-kennedy 181: all'
+        - 'via w.reeves-president-kennedy 181 n.on-june-22.a: all'
+        - 'via w.reeves-president-kennedy 181 n.on-june-22.b: all'
+    tags: [name:kennedy-john-f, name:ikeda-hayato]
   - id: cal.1961-06-23.opinion
     when: June 23
     date: '1961-06-23'
@@ -1613,6 +1681,31 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-06-29.jobs-and-wages
+    when: June 29
+    date: '1961-06-29'
+    thread: jobs-and-wages
+    also: [civil-rights-the-executive]
+    c: 'Kennedy''s morning memoranda, to Evelyn Lincoln: to Dutton, "Speak to me about the Negro unemployment"; something should be done about it.'
+    n: '[[w.reeves-president-kennedy]], 189. To check: the Lincoln Dictation File, POF Box 62, JFK Library (cited by [[w.reeves-president-kennedy]], 189). Names: Kennedy, Dutton.'
+    src:
+      c: cad46a5d
+      rows:
+        - 'w.reeves-president-kennedy 189: all'
+        - 'via w.reeves-president-kennedy 189 n.his-usual-run-of-morning-memos: all'
+    tags: [name:kennedy-john-f, name:dutton-frederick-g]
+  - id: cal.1961-06-29.middle-east
+    when: June 29
+    date: '1961-06-29'
+    thread: middle-east
+    c: 'Kennedy to Bundy, a memorandum: whose idea were his letters to the Arab leaders of the Middle East; the reaction so sour he wants to know what it was meant to accomplish.'
+    n: '[[w.reeves-president-kennedy]], 189. To check: the Lincoln Dictation File, POF Box 62, JFK Library (cited by [[w.reeves-president-kennedy]], 189). Names: Kennedy, Bundy.'
+    src:
+      c: cfc75d94
+      rows:
+        - 'w.reeves-president-kennedy 189: all'
+        - 'via w.reeves-president-kennedy 189 n.his-usual-run-of-morning-memos: all'
+    tags: [name:kennedy-john-f, name:bundy-mcgeorge]
   - id: cal.1961-06-30.program
     when: June 30
     date: '1961-06-30'

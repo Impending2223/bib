@@ -1997,6 +1997,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-05-16.transition-and-staff-nsc
+    when: May 16
+    date: '1961-05-16'
+    thread: transition-and-staff-nsc
+    c: 'Bundy to Kennedy, a long memorandum on management: Cuba a bad mistake but no disgrace; the problem his use of time; the NSC cannot work without schedules that hold; half the papers he asks for never shown him.'
+    n: '[[w.reeves-president-kennedy]], 113–114. To check: Bundy to Kennedy, May 16, 1961, NSF Box 287–290, JFK Library (cited by [[w.reeves-president-kennedy]], 113). Names: Bundy, Kennedy.'
+    src:
+      c: 789f129a
+      rows:
+        - 'w.reeves-president-kennedy 113–114: all'
+        - 'via w.reeves-president-kennedy 113 n.i-hope-youll-be-in-a-good-mood: all'
+    tags: [name:bundy-mcgeorge, name:kennedy-john-f]
   - id: cal.1961-05-17.europe-and-the-alliance
     when: May 17
     date: '1961-05-17'
@@ -2424,6 +2436,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-05-19.freedom-rides-2
+    when: May 19
+    date: '1961-05-19'
+    thread: freedom-rides
+    also: [civil-rights-the-executive]
+    c: 'The Cabinet Room. Wofford brings in the Peace Corps'' National Advisory Council. Harry Belafonte asks Kennedy to say something more about the Freedom Riders; Eugene Rostow: "a need now for moral leadership." Kennedy, angry, asks if they have read his statement; afterward, to Wofford, he has done more for civil rights than any President.'
+    n: '[[w.reeves-president-kennedy]], 131–132. To check: [[w.wofford-of-kennedys-and-kings]], 125–126 (cited by [[w.reeves-president-kennedy]], 132). Names: Wofford, Kennedy, Eugene Rostow.'
+    src:
+      c: e71e83e4
+      rows:
+        - 'w.reeves-president-kennedy 131–132: all'
+    tags: [name:wofford-harris, name:kennedy-john-f, name:rostow-eugene]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-05-19.freedom-rides
+        from: 2026-11-06-b6-reeves-president-kennedy
   - id: cal.1961-05-20.freedom-rides
     when: May 20
     date: '1961-05-20'
@@ -2941,6 +2970,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-05-23.berlin-and-vienna-2
+    when: May 23
+    date: '1961-05-23'
+    thread: berlin-and-vienna
+    also: [press-and-broadcasting, testing]
+    c: 'Evening. Kennedy, over a drink, a long talk with Arthur Krock: a possible meeting with Khrushchev; blame for the deadlock on a test ban to be put on Khrushchev.'
+    n: '[[w.reeves-president-kennedy]], 121. To check: [[w.krock-memoirs]], 343–345 (cited by [[w.reeves-president-kennedy]], 121). Names: Kennedy, Krock, Khrushchev.'
+    src:
+      c: 60134d29
+      rows:
+        - 'w.reeves-president-kennedy 121: all'
+    tags: [name:kennedy-john-f, name:krock-arthur]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-05-23.berlin-and-vienna
+        from: 2026-11-06-b6-reeves-president-kennedy
   - id: cal.1961-05-24.freedom-rides
     when: May 24
     date: '1961-05-24'
@@ -4334,3 +4380,23 @@ entries:
         - 'w.smith-on-his-own-terms 360: all'
         - 'via x.1961-05-19.time-searching-party: all'
     tags: [name:javits-jacob-k, state:ny, city:nyc]
+  - id: cal.1961-05.china-4
+    when: May
+    date: 1961-05
+    thread: china
+    also: [press-and-broadcasting]
+    c: Kennedy asks Theodore White what might come of a face-to-face meeting on Southeast Asia with Mao Zedong.
+    n: '[[w.reeves-president-kennedy]], 121. To check: Schlesinger, handwritten notes of a conversation with Theodore White, Schlesinger papers, Box W-14, JFK Library (cited by [[w.reeves-president-kennedy]], 121). Check: the day; Reeves: "That same week" as May 23. Names: Kennedy, Theodore White, Mao Zedong.'
+    src:
+      c: ad6eba88
+      rows:
+        - 'w.reeves-president-kennedy 121: all'
+        - 'via w.reeves-president-kennedy 121 n.mao-tse-tung: all'
+    tags: [name:kennedy-john-f, name:white-theodore-h, name:mao-zedong]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-05.china
+          - cal.1961-05.china-2
+          - cal.1961-05.china-3
+        from: 2026-11-06-b6-reeves-president-kennedy

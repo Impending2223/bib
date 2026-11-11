@@ -152,6 +152,23 @@ entries:
         - 'w.fursenko-khrushchevs-cold-war 394: all'
         - 'via w.fursenko-khrushchevs-cold-war 394 n.32: all'
     tags: [name:chen-yi, name:gromyko-andrei]
+  - id: cal.1961-07-05.defense-2
+    when: July 5
+    date: '1961-07-05'
+    thread: defense
+    c: 'Kennedy to Bundy: have the civil defense people come in next week with an emergency plan; what could be done in six months to improve the population''s chance of surviving a war; what citizens should be asked to do.'
+    n: '[[w.reeves-president-kennedy]], 180. To check: Kennedy to Bundy, July 5, 1961, POF Box 62, JFK Library (cited by [[w.reeves-president-kennedy]], 180). Names: Kennedy, Bundy.'
+    src:
+      c: 7a6d4646
+      rows:
+        - 'w.reeves-president-kennedy 180: all'
+        - 'via w.reeves-president-kennedy 180 n.i-think-we-should-ask: all'
+    tags: [name:kennedy-john-f, name:bundy-mcgeorge]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-07-05.defense
+        from: 2026-11-06-b6-reeves-president-kennedy
   - id: cal.1961-07-06.berlin-and-vienna
     when: July 6
     date: '1961-07-06'
@@ -1266,6 +1283,24 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-07-20.berlin-and-vienna-2
+    when: July 20
+    date: '1961-07-20'
+    thread: berlin-and-vienna
+    also: [europe-and-the-alliance]
+    c: 'Kennedy to Macmillan on Berlin: the central problem to protect the allies'' vital interests without war if possible, and to be in the best position if war is forced on them.'
+    n: '[[w.reeves-president-kennedy]], 198. To check: Kennedy to Macmillan, July 20, 1961, Berlin papers, National Security Archive (cited by [[w.reeves-president-kennedy]], 198). Check: the day; Reeves''s text gives the day before the address of July 25, his note July 20. Names: Kennedy, Macmillan.'
+    src:
+      c: '65794717'
+      rows:
+        - 'w.reeves-president-kennedy 198: all'
+        - 'via w.reeves-president-kennedy 198 n.our-central-problem: all'
+    tags: [name:kennedy-john-f, name:macmillan-harold]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-07-20.berlin-and-vienna
+        from: 2026-11-06-b6-reeves-president-kennedy
   - id: cal.1961-07-21.space
     when: July 21
     date: '1961-07-21'
@@ -1335,6 +1370,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-07-22.berlin-and-vienna
+    when: July 22
+    date: '1961-07-22'
+    thread: berlin-and-vienna
+    c: 'Rusk to Dowling at Bonn, copies to London, Paris and Moscow: the Soviets the ones with a problem in Berlin; two contingencies, East German controls on travel to stop the refugees, or disorder in the zone.'
+    n: '[[w.reeves-president-kennedy]], 198. To check: Rusk to Dowling, July 22, 1961, as reprinted in [[w.catudal-kennedy-and-the-berlin]], app. V, 305 (cited by [[w.reeves-president-kennedy]], 198). Names: Rusk, Dowling.'
+    src:
+      c: 3421541a
+      rows:
+        - 'w.reeves-president-kennedy 198: all'
+    tags: [name:rusk-dean, name:dowling-walter-c]
   - id: cal.1961-07-23.berlin-and-vienna
     when: July 23
     date: '1961-07-23'

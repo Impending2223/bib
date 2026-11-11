@@ -318,6 +318,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-08-02.defense
+    when: Aug. 2
+    date: '1961-08-02'
+    thread: defense
+    also: [press-and-broadcasting]
+    c: 'At Kennedy''s direction McNamara has the Pentagon correspondents in for drinks, off the record, to tell them the missile gap favors the United States: "Our means of delivery and our nuclear power exceeds theirs."'
+    n: '[[w.reeves-president-kennedy]], 229. To check: Rinehart, dispatch to Parker, Aug. 2, 1961, Time Inc. archives (cited by [[w.reeves-president-kennedy]], 229). Check: the day; Reeves''s text sets it before Sept. 13, his note cites the dispatch of Aug. 2. Names: Kennedy, McNamara.'
+    src:
+      c: e152482e
+      rows:
+        - 'w.reeves-president-kennedy 229: all'
+        - 'via w.reeves-president-kennedy 229 n.our-means-of-delivery: all'
+    tags: [name:kennedy-john-f, name:mcnamara-robert-s]
   - id: cal.1961-08-03.crime-and-hijacking
     when: Aug. 3
     date: '1961-08-03'
@@ -2735,3 +2748,42 @@ entries:
           - cal.1961-08.berlin-and-vienna-2
           - cal.1961-08.berlin-and-vienna-3
         from: 2026-11-06-b6-fursenko
+  - id: cal.1961-08.berlin-and-vienna-5
+    when: Aug.
+    date: 1961-08
+    thread: berlin-and-vienna
+    c: 'Kennedy to Walt Rostow on the refugees: East Germany is bleeding; Khrushchev must do something; "Perhaps a wall," and nothing the United States can do.'
+    n: '[[w.reeves-president-kennedy]], 208. To check: [[w.rostow-diffusion-of-power]], 231; Rostow oral history, 60, JFK Library; [[w.schlesinger-thousand-days-1965]], 394 (cited by [[w.reeves-president-kennedy]], 208, which notes the accounts differ). Check: the day; Reeves sets it in the days before Aug. 13. Names: Kennedy, Walt Rostow, Khrushchev.'
+    src:
+      c: 0c8449cc
+      rows:
+        - 'w.reeves-president-kennedy 208: all'
+        - 'via w.reeves-president-kennedy 208 n.perhaps-a-wall.b: all'
+    tags: [name:kennedy-john-f, name:rostow-walt-w]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-08.berlin-and-vienna
+          - cal.1961-08.berlin-and-vienna-2
+          - cal.1961-08.berlin-and-vienna-3
+          - cal.1961-08.berlin-and-vienna-4
+        from: 2026-11-06-b6-reeves-president-kennedy
+  - id: cal.1961-08-31.defense-3
+    when: Aug. 31
+    date: '1961-08-31'
+    thread: defense
+    also: [berlin-and-vienna, vietnam]
+    c: 'Kennedy to McNamara: an analysis of the military situation, with recommendations on any further expansion of the forces after the events of recent weeks. More men than his three build-up speeches foresaw may be needed.'
+    n: '[[w.reeves-president-kennedy]], 221. To check: Kennedy to McNamara, Aug. 31, 1961, Berlin papers, National Security Archive (cited by [[w.reeves-president-kennedy]], 221). Names: Kennedy, McNamara.'
+    src:
+      c: ac971aee
+      rows:
+        - 'w.reeves-president-kennedy 221: all'
+        - 'via w.reeves-president-kennedy 221 n.i-would-like-to-have-you-present: all'
+    tags: [name:kennedy-john-f, name:mcnamara-robert-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-08-31.defense
+          - cal.1961-08-31.defense-2
+        from: 2026-11-06-b6-reeves-president-kennedy

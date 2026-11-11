@@ -1372,6 +1372,19 @@ entries:
       - 1963-05-10T04:00Z
     time_zone: America/New_York
     range_basis: record
+  - id: cal.1963-05-09.vietnam
+    when: May 9
+    date: '1963-05-09'
+    time: 1963-05-09T19:24Z
+    thread: vietnam
+    c: 'State to Saigon, Rusk''s telegram, after he confers with Kennedy: at the embassy''s discretion, urge the government to take no repressive measures against the Buddhists and to offer sympathy and funeral expenses to the families of the dead.'
+    n: '[FRUS 1961–63, III, doc. 115](https://history.state.gov/historicaldocuments/frus1961-63v03/d115) (3:24 p.m.). [[w.reeves-president-kennedy]], 491 (after Rusk confers with Kennedy). Names: Rusk, Kennedy.'
+    src:
+      c: 4a69394d
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v03/d115: all'
+        - 'w.reeves-president-kennedy 491: all'
+    tags: [name:rusk-dean, name:kennedy-john-f]
   - id: cal.1963-05-10.alabama
     when: May 10
     date: '1963-05-10'
@@ -3742,3 +3755,25 @@ entries:
         of:
           - cal.1963-05-31.mississippi
         from: b6-branch-ptw
+  - id: cal.1963-05.civil-rights-the-executive-7
+    when: May
+    date: 1963-05
+    thread: civil-rights-the-executive
+    also: [defense]
+    c: Air Force officers at a missile base outside Rapid City, S.D., ask Washington what to do about Negro airmen who want to join civil rights meetings and demonstrations in town. Lee White rules that off duty and out of uniform they may. Kennedy, reading it in the *Times*, calls White and orders every agency to do nothing on such matters until cleared.
+    n: '[[w.reeves-president-kennedy]], 500. To check: Lee White oral history, JFK Library (cited by [[w.reeves-president-kennedy]], 500). Check: the day. Names: White, Kennedy.'
+    src:
+      c: 2337da2c
+      rows:
+        - 'w.reeves-president-kennedy 500: all'
+        - 'via w.reeves-president-kennedy 500 n.how-the-hell-did-this-happen: all'
+    tags: [name:white-lee-c, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-05.civil-rights-the-executive
+          - cal.1963-05.civil-rights-the-executive-2
+          - cal.1963-05.civil-rights-the-executive-3
+          - cal.1963-05.civil-rights-the-executive-4
+          - cal.1963-05.civil-rights-the-executive-5
+        from: 2026-11-06-b6-reeves-president-kennedy
