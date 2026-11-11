@@ -1317,6 +1317,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-02-25.economy-2
+    when: Feb. 25
+    date: '1963-02-25'
+    thread: economy
+    c: 'Joseph Barr to Desautels, one of Kennedy''s legislative liaisons, by letter, on the tax hearings: the committee under Mills "has developed a protective and rather fraternal instinct"; "very well staffed"; the administration cooperating with its staff; the members "determined to plow through the witnesses and get down to work in executive sessions."'
+    n: '[[w.zelizer-taxing-america]], 200–201. To check: Joseph Barr to Claude Desautels, Feb. 25, 1963, Surrey Papers, Box 177, File 2 (cited by [[w.zelizer-taxing-america]], 201 n.87). See [[cal.1963-02-06.economy]]. Names: Barr, Mills.'
+    src:
+      c: 686d57df
+      rows:
+        - 'w.zelizer-taxing-america 200–201: all'
+        - 'via w.zelizer-taxing-america 201 n.87: all'
+    tags: [name:barr-joseph-w, name:mills-wilbur-d]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-02-25.economy
+        from: 2026-11-06-b6-zelizer-taxing-america
   - id: cal.1963-02-26.defense
     when: Feb. 26
     date: '1963-02-26'

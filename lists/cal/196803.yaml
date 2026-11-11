@@ -1431,7 +1431,12 @@ entries:
     thread: opinion
     also: [vietnam]
     c: 'Gallup, Feb. 22–27: the United States made a mistake in sending troops: yes 49 percent, no 41. The fighting to last under two years 35, over two years 30. The United States and its allies losing ground 23, standing still 38, making progress 33.'
-    n: '[[w.gallup-poll]], III, 2109.'
+    n: '[[w.gallup-poll]], III, 2109; [[w.berman-lyndon-johnsons-war]], 185, 202 (released Mar. 10: 49 percent, wrong to have become involved; 33 percent, making progress).'
+    src:
+      c: d8714b90
+      rows:
+        - 'w.gallup-poll III, 2109: all'
+        - 'w.berman-lyndon-johnsons-war 185, 202: A, C'
   - id: cal.1968-03-10.vietnam-205000
     when: Mar. 10
     date: '1968-03-10'
@@ -1900,13 +1905,21 @@ entries:
         witness: w.white-making-of-the-president-1969
         reads: Nixon 80,667
         at: '131'
+      - unit: A
+        witness: w.berman-lyndon-johnsons-war
+        reads: When New Hampshire voted on March 13
+        at: '186'
+      - unit: C
+        witness: w.berman-lyndon-johnsons-war
+        reads: Johnson received 49.5 percent (27,243 votes) to McCarthy's 42.4 percent (23,280 votes)
+        at: '186'
   - id: cal.1968-03-12.elections-1968-2
     when: Mar. 12–13
     date: '1968-03-12'
     thread: elections-1968-mccarthy
     also: [robert-kennedy-campaign]
     c: 'New Hampshire. McCarthy wins twenty of the State''s twenty-four delegates to the convention; Johnson, not on the ballot, his name written in. Mar. 13, Robert Kennedy: he is "reassessing" whether to run (Check the word).'
-    n: '[*New York Times*, Mar. 13, 1968](https://timesmachine.nytimes.com/timesmachine/1968/03/13/issue.html); [Mar. 14, 1968](https://timesmachine.nytimes.com/timesmachine/1968/03/14/issue.html). FRUS 1964–68, VI, doc. [123](https://history.state.gov/historicaldocuments/frus1964-68v06/d123). [[w.chester-american-melodrama]], 94 (twenty of the twenty-four delegates; McCarthy''s slate of twenty-four, Johnson''s of more than forty). To check: [[w.herzog-mccarthy-for-president]]; [[w.larner-nobody-knows]]; [[w.mccarthy-year-of-the-people]]. See [[cal.1968-03-12.elections-1968]]; [[cal.1967-11-30.elections-1968]]. Names: McCarthy, Johnson, Kennedy.'
+    n: '[*New York Times*, Mar. 13, 1968](https://timesmachine.nytimes.com/timesmachine/1968/03/13/issue.html); [Mar. 14, 1968](https://timesmachine.nytimes.com/timesmachine/1968/03/14/issue.html). FRUS 1964–68, VI, doc. [123](https://history.state.gov/historicaldocuments/frus1964-68v06/d123). [[w.chester-american-melodrama]], 94 (twenty of the twenty-four delegates; McCarthy''s slate of twenty-four, Johnson''s of more than forty); [[w.berman-lyndon-johnsons-war]], 186 (Johnson not on the ballot, a write-in campaign). Check: Berman, 186, gives twenty of twenty-six delegate votes. To check: [[w.herzog-mccarthy-for-president]]; [[w.larner-nobody-knows]]; [[w.mccarthy-year-of-the-people]]. See [[cal.1968-03-12.elections-1968]]; [[cal.1967-11-30.elections-1968]]. Names: McCarthy, Johnson, Kennedy.'
     src:
       c: 33f87e62
       rows:
@@ -1914,7 +1927,13 @@ entries:
         - 'https://timesmachine.nytimes.com/timesmachine/1968/03/14/issue.html: all'
         - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d123: all'
         - 'w.chester-american-melodrama 94: A-C'
+        - 'w.berman-lyndon-johnsons-war 186: A, C'
     tags: [name:mccarthy-eugene-j, name:johnson-lyndon-b, name:kennedy-robert-f, state:nh]
+    variants:
+      - unit: B
+        witness: w.berman-lyndon-johnsons-war
+        reads: McCarthy had captured twenty of twenty-six delegate votes
+        at: '186'
   - id: cal.1968-03-12.specials
     when: Mar. 12
     date: '1968-03-12'
@@ -2419,7 +2438,7 @@ entries:
     thread: robert-kennedy-campaign
     also: [elections-1968]
     c: 'Mar. 14, Robert Kennedy and Sorensen with Clifford at the Pentagon: Kennedy would stay out of the race if Johnson named a commission to review the war''s policy, Kennedy and nine others its members; Johnson refuses. Mar. 11, Sorensen had seen Johnson. Mar. 16, the Senate Caucus Room, where his brother had announced in 1960: Kennedy a candidate for the Democratic nomination. "I do not run for the Presidency merely to oppose any man but to propose new policies."'
-    n: '[*New York Times*, Mar. 17, 1968](https://timesmachine.nytimes.com/timesmachine/1968/03/17/issue.html). FRUS 1964–68, VI, doc. [123](https://history.state.gov/historicaldocuments/frus1964-68v06/d123). [Johnson and Daley, 5:00 p.m., Mar. 13](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-daley-and-office-conversation-march-13), Conversation WH6803-02-12810 (Miller Center). [[w.schlesinger-robert-kennedy-and-his]], 851–57 (the meeting with Clifford, by Clifford''s memorandum; Johnson''s refusal; Sorensen with Johnson, Mar. 11; the Caucus Room; not the quotation); [[w.dallek-flawed-giant]], 527–28 (Kennedy to Clifford, Mar. 14; Johnson''s refusal; the announcement); [[w.clifford-counsel-to-the-president-2]], 502–05 (Edward Kennedy''s call before midnight, Mar. 13; Johnson and Fortas in the bedroom, Mar. 14; the meeting at 11 a.m., the ten names; Clifford''s three comments; Johnson, Humphrey and Fortas at 3:30 p.m.; Clifford''s call to Sorensen and Kennedy, Johnson listening; Sorensen with Johnson, Mar. 11; the announcement, Mar. 16); [[w.white-making-of-the-president-1969]], 163–64, 166 (Mar. 13, Kennedy to Daley, Daley to Johnson; Mar. 14, nearly two hours with Clifford; Johnson''s no at five; the Caucus Room); [[w.shesol-mutual-contempt]], 420 (from Clifford''s memorandum of the meeting; it and his memoirs differ); [[w.thomas-robert-kennedy]], 359–60 (the peace commission, from Clifford''s memorandum; the Senate Caucus Room reserved); [[w.branch-at-canaans-edge]], 710 (Johnson listening on an extension); [[w.shesol-mutual-contempt]], 422–23 (the announcement: "I do not run for the Presidency merely to oppose any man but to propose new policies"; "My decision reflects no personal animosity or disrespect toward President Johnson"; at the press conference after: "it''s been put in the context of a personal struggle between myself and President Johnson"); [[w.bernstein-guns-or-butter]], 501 (the Caucus Room; "I do not run for the Presidency merely to oppose any man"); [[w.thomas-robert-kennedy]], 360 ("I do not run for the presidency merely to oppose any man, but to propose new policies"); [[w.humphrey-education-of-a-public-1976]], 363–64 (a Kennedy commission to examine the war, the price of staying out of the primaries; Clifford sent by the President to hear it and refuse it). [[w.longley-lbjs-1968]], 76–78 (Sorensen with Johnson, Mar. 11, by Shesol''s account; Kennedy and Sorensen with Clifford; Johnson''s refusal; the announcement); [[w.palermo-in-his-own-right]], 135–37, 143–44 (the meeting at the Pentagon at eleven, by Clifford''s memorandum, and its list; Johnson''s refusal, with Fortas and Humphrey; the Caucus Room and the quotation). [[w.chester-american-melodrama]], 120–24 (Daley''s idea of Feb. 8; Sorensen and Johnson, Mar. 11; the meeting of Mar. 14, both accounts; the refusal by telephone that night). Check: Bernstein dates the announcement Mar. 15 (501) and Mar. 16 (480, 505). To check: [[w.witcover-85-days]]; [[w.newfield-robert-kennedy]]; [[w.clarke-last-campaign]]; New York Times, March 18, 1968, p. 1 (cited by [[w.branch-at-canaans-edge]], 710); "Statement of Senator Robert F. Kennedy, Washington, DC, March 16, 1968," Edelman Papers, box 11, JFK Library; "Transcript, 3/16 RFK Announcement, Senate Caucus," 1968 Presidential Campaign Files, Media Division, box 3, JFK Library (cited by [[w.shesol-mutual-contempt]], 422); The White House account of the Clifford meeting of Mar. 14, 1968 (cited by [[w.chester-american-melodrama]], 121); Robert Kennedy''s office''s account of the Sorensen and Clifford meetings, Mar. 1968 (cited by [[w.chester-american-melodrama]], 121). Names: Kennedy, Sorensen, Clifford, Johnson. Check: Palermo, 136, has Edward Kennedy telephoning Clifford at home on the evening of Mar. 13, and the commission Daley''s idea of early February.'
+    n: '[*New York Times*, Mar. 17, 1968](https://timesmachine.nytimes.com/timesmachine/1968/03/17/issue.html). FRUS 1964–68, VI, doc. [123](https://history.state.gov/historicaldocuments/frus1964-68v06/d123). [Johnson and Daley, 5:00 p.m., Mar. 13](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-daley-and-office-conversation-march-13), Conversation WH6803-02-12810 (Miller Center). [[w.schlesinger-robert-kennedy-and-his]], 851–57 (the meeting with Clifford, by Clifford''s memorandum; Johnson''s refusal; Sorensen with Johnson, Mar. 11; the Caucus Room; not the quotation); [[w.dallek-flawed-giant]], 527–28 (Kennedy to Clifford, Mar. 14; Johnson''s refusal; the announcement); [[w.clifford-counsel-to-the-president-2]], 502–05 (Edward Kennedy''s call before midnight, Mar. 13; Johnson and Fortas in the bedroom, Mar. 14; the meeting at 11 a.m., the ten names; Clifford''s three comments; Johnson, Humphrey and Fortas at 3:30 p.m.; Clifford''s call to Sorensen and Kennedy, Johnson listening; Sorensen with Johnson, Mar. 11; the announcement, Mar. 16); [[w.white-making-of-the-president-1969]], 163–64, 166 (Mar. 13, Kennedy to Daley, Daley to Johnson; Mar. 14, nearly two hours with Clifford; Johnson''s no at five; the Caucus Room); [[w.shesol-mutual-contempt]], 420 (from Clifford''s memorandum of the meeting; it and his memoirs differ); [[w.thomas-robert-kennedy]], 359–60 (the peace commission, from Clifford''s memorandum; the Senate Caucus Room reserved); [[w.branch-at-canaans-edge]], 710 (Johnson listening on an extension); [[w.shesol-mutual-contempt]], 422–23 (the announcement: "I do not run for the Presidency merely to oppose any man but to propose new policies"; "My decision reflects no personal animosity or disrespect toward President Johnson"; at the press conference after: "it''s been put in the context of a personal struggle between myself and President Johnson"); [[w.bernstein-guns-or-butter]], 501 (the Caucus Room; "I do not run for the Presidency merely to oppose any man"); [[w.thomas-robert-kennedy]], 360 ("I do not run for the presidency merely to oppose any man, but to propose new policies"); [[w.humphrey-education-of-a-public-1976]], 363–64 (a Kennedy commission to examine the war, the price of staying out of the primaries; Clifford sent by the President to hear it and refuse it); [[w.berman-lyndon-johnsons-war]], 187 (the announcement, Mar. 16). [[w.longley-lbjs-1968]], 76–78 (Sorensen with Johnson, Mar. 11, by Shesol''s account; Kennedy and Sorensen with Clifford; Johnson''s refusal; the announcement); [[w.palermo-in-his-own-right]], 135–37, 143–44 (the meeting at the Pentagon at eleven, by Clifford''s memorandum, and its list; Johnson''s refusal, with Fortas and Humphrey; the Caucus Room and the quotation). [[w.chester-american-melodrama]], 120–24 (Daley''s idea of Feb. 8; Sorensen and Johnson, Mar. 11; the meeting of Mar. 14, both accounts; the refusal by telephone that night). Check: Bernstein dates the announcement Mar. 15 (501) and Mar. 16 (480, 505). To check: [[w.witcover-85-days]]; [[w.newfield-robert-kennedy]]; [[w.clarke-last-campaign]]; New York Times, March 18, 1968, p. 1 (cited by [[w.branch-at-canaans-edge]], 710); "Statement of Senator Robert F. Kennedy, Washington, DC, March 16, 1968," Edelman Papers, box 11, JFK Library; "Transcript, 3/16 RFK Announcement, Senate Caucus," 1968 Presidential Campaign Files, Media Division, box 3, JFK Library (cited by [[w.shesol-mutual-contempt]], 422); The White House account of the Clifford meeting of Mar. 14, 1968 (cited by [[w.chester-american-melodrama]], 121); Robert Kennedy''s office''s account of the Sorensen and Clifford meetings, Mar. 1968 (cited by [[w.chester-american-melodrama]], 121). Names: Kennedy, Sorensen, Clifford, Johnson. Check: Palermo, 136, has Edward Kennedy telephoning Clifford at home on the evening of Mar. 13, and the commission Daley''s idea of early February.'
     src:
       c: 7a481b38
       rows:
@@ -2453,6 +2472,7 @@ entries:
         - 'via x.1968-03.robert-kennedys-offices-account-of-the-sorensen: A-C'
         - 'via x.undated.a-white-house-aide-present-when-clifford-to-chester-hodgson-and-page: A-B'
         - 'w.humphrey-education-of-a-public-1976 363–64: A-B'
+        - 'w.berman-lyndon-johnsons-war 187: D'
     tags: [name:kennedy-robert-f, name:sorensen-theodore-c, name:clifford-clark, name:johnson-lyndon-b, name:daley-richard-j]
     short: the commission offer refused
   - id: cal.1968-03-14.democratic-party
