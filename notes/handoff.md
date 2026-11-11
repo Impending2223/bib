@@ -16,7 +16,7 @@ For a fresh orchestrating session. Read CLAUDE.md (the core), then this. The own
 
 ## Unfinished work
 - Batch 6 (`notes/briefs/batch6.md`): group 14 (young-easy-burden, reeves, dallek, mcnamara, kotz, cq-08-09, peirce-great-plains) stopped mid-work; its Reeves witness file had bad values.
-- Batch 7 (`notes/briefs/batch7.md`; the rows in a scratch file of the old session: regenerate by the script in this note's history, "already in" rows whose work is not cited under the entry): done for Westmoreland, McPherson, Zelizer, Branch (Parting); stopped mid-work for the rest.
+- Batch 7 (`notes/briefs/batch7.md`; the rows: `python3 -I tools/works/alreadyin_rows.py OUT.json`, those not `cited`): done for Westmoreland, McPherson, Zelizer, Branch (Parting); stopped mid-work for the rest.
 - To redo with the card: the rows still passed over as private, social or personal, where the page puts the press, cameras, a crowd or a principal's staff in the scene (the owner's example: Humphrey's ride at the Ranch, pp. 307-08).
 - Poll hours and daylight time registers (`sources/poll-hours.yaml`, `sources/daylight-time.yaml`; memo `notes/extensions/memos/poll-hours.md`): partial.
 - To apply once the inbox is merged: `python3 -I tools/works/newspaper_cites.py --write` (dry run checked: 1,388 notes).
