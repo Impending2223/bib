@@ -2291,7 +2291,7 @@ def app_list(name, sur):
         pp = ppp.match(r["url"])
         by_year.setdefault(d[:4], []).append(
             f'{esc(r["title"].rstrip("."))} ({who + ", " if who else ""}{fmt(d)}), '
-            + f'<span class="lvc">{ppp.link_html(pp) if pp else a(r["url"], "APP")}</span>.'
+            + f'<span class="lvc">{ppp.link_html(pp, app=r["url"]) if pp else a(r["url"], "APP")}</span>.'
             + (f' <span class="lvc">{esc(r["check"])}</span>' if r.get("check") else ""))
     return [f'<b>{y}</b>' + "".join(f'<span class="lvad">{x}</span>' for x in v) for y, v in by_year.items()]
 

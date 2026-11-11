@@ -29,8 +29,8 @@ STYLE:
     document's page) and "Calendar" (the day); then the text and its footnotes (tools/ebooks/make_frus_text.py,
     STYLE). A document the extract lacks: its heading and links, and "Text not in this book".
  5. A Public Papers item: its heading as the volume prints it, the number first ("1. Inaugural Address"); under
-    it, muted, its date, the cite ("1961 Pub. Papers 1") linked to its first page in GPO's PDF on govinfo, the
-    volume's title and the item's pages, and "Calendar" (the day); then the text, paragraph by paragraph, each
+    it, muted, its date, the cite ("1961 Pub. Papers 1") linked to its first page in GPO's PDF on govinfo, then " (APP)",
+    linked to the APP document the item matches, where one does (ppp.py, STYLE 5), the volume's title and the item's pages, and "Calendar" (the day); then the text, paragraph by paragraph, each
     printed page's beginning marked "p. 123" (small, muted, linked to that page of the PDF); a line set off (a
     signature, a close) to the right; the editors' bracketed notes in italics; the editors' note ("NOTE: ...") and the
     footnotes in small type after the text. The text: the volume's OCR, cleaned by rule (tools/ppp/make_ppp_text.py,
@@ -237,7 +237,8 @@ def ppp_block(pkg, it, cal_url):
     else:
         bits.append("undated in its heading; filed by its place in the volume")
     if pi:
-        bits.append(f'<a href="{esc(pi["url"])}">{esc(pi["cite"])}</a>')
+        bits.append(f'<a href="{esc(pi["url"])}">{esc(pi["cite"])}</a>'                # then its APP document
+                    + ppp.app_paren(ppp.app_of(pkg, it["n"])))
         pp = f"p. {it['page']}" if it["page"] == it["page_to"] else f"pp. {it['page']}–{it['page_to']}"
         bits.append(esc(f"{v.get('title', '')}, item {it['n']}, {pp}"))
     if cal_url:

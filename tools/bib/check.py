@@ -453,6 +453,8 @@ def run(series, only=None):
         add(ERROR, where, msg, "ppp")
     for where, msg in warns:
         add(WARN, where, msg, "ppp")
+    for where, msg in ppp.app_problems():  # a Papers link's item, for its APP document (ppp.py, STYLE 5)
+        add(WARN, where, msg, "ppp-app")
     # the President's Daily Diary (daybook/diary.yaml, tools/daybook/make_daily_diary.py; tools/bib/diary.py)
     from . import diary
     for where, msg in diary.problems(series):
