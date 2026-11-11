@@ -1543,6 +1543,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-07-21.elections-1960-chicago
+    when: July 21
+    date: '1960-07-21'
+    thread: elections-1960-chicago
+    also: [south-carolina]
+    c: 'Wannamaker, of South Carolina''s delegation, to Workman: hopes of an acceptable plank on civil rights.'
+    n: '[[w.gifford-center-cannot-hold]], 155. To check: Wannamaker to Workman, July 21, 1960, Workman Papers, South Caroliniana Library (cited by [[w.gifford-center-cannot-hold]], 155 n.42). See [[cal.1960-03-26.elections-1960]]. Names: Workman.'
+    src:
+      c: dad5f5de
+      rows:
+        - 'w.gifford-center-cannot-hold 155: all'
+        - 'via w.gifford-center-cannot-hold 155 n.42: all'
+    tags: [name:workman-william-d-jr]
   - id: cal.1960-07-22.elections-1960
     when: July 22–23
     date: '1960-07-22'
@@ -1882,6 +1895,19 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 347: all'
     tags: [name:nixon-richard-m]
+  - id: cal.1960-07-24.elections-1960-chicago
+    when: July 24
+    date: '1960-07-24'
+    thread: elections-1960-chicago
+    also: [south-carolina]
+    c: 'Wannamaker to Workman, after the Compact of Fifth Avenue: "The Platform situation may not be as bad as it appears ... resentment helps us"; Milliken and Pat Barnes at work on the platform committee; "Greg," Shorey, coordinating the Goldwater groups.'
+    n: '[[w.gifford-center-cannot-hold]], 155 (quoting it). To check: Wannamaker to Workman, July 24, 1960, Workman Papers, South Caroliniana Library (cited by [[w.gifford-center-cannot-hold]], 155 n.43). See [[cal.1960-07-21.elections-1960-2]]. Names: Workman.'
+    src:
+      c: 8ae0cd56
+      rows:
+        - 'w.gifford-center-cannot-hold 155: all'
+        - 'via w.gifford-center-cannot-hold 155 n.43: all'
+    tags: [name:workman-william-d-jr]
   - id: cal.1960-07-25.elections-1960
     when: July 25
     date: '1960-07-25'
@@ -2198,6 +2224,20 @@ entries:
       - 1960-07-28T02:00Z
       - 1960-07-28T08:00Z
     time_zone: America/Chicago
+  - id: cal.1960-07-27.goldwater
+    when: July 27
+    date: '1960-07-27'
+    thread: goldwater
+    follows:
+      - cal.1960-07-27.conservative-movement
+    c: 'Chicago, the convention, after his speech. Goldwater''s daughter Peggy, in the family''s box: "Daddy, next time will it be for real?" He nods yes.'
+    n: '[[w.goldberg-barry-goldwater]], 146. To check: Harry Jeffrey to Goldberg, Sept. 28, 1991 (cited by [[w.goldberg-barry-goldwater]], 146 n.158). See [[cal.1960-07-27.conservative-movement]]. Names: Goldwater.'
+    src:
+      c: 1b2808c2
+      rows:
+        - 'w.goldberg-barry-goldwater 146: all'
+        - 'via x.1991-09-28.harry-jeffrey-to-goldberg: all'
+    tags: [name:goldwater-barry-m, city:chicago, state:il]
   - id: cal.1960-07-28.elections-1960
     when: July 28
     date: '1960-07-28'
@@ -2682,3 +2722,34 @@ entries:
         - 'w.fursenko-one-hell-of-a 55: all'
         - 'via x.1960-07-31.alekseyev-to-moscow-castro-gratitude: all'
     tags: [name:castro-fidel, name:khrushchev-nikita-s]
+  - id: cal.1960-07.conservative-movement-2
+    when: July
+    date: 1960-07
+    thread: conservative-movement
+    also: [goldwater]
+    c: Youth for Goldwater claims representation at 65 schools in 32 States.
+    n: '[[w.gifford-center-cannot-hold]], 134. Check: the day; Gifford: "by the middle of July." To check: Sunnyslope News (Phoenix), July 21, 1960, Scrapbook 90, Barry Goldwater Papers, AHF (cited by [[w.gifford-center-cannot-hold]], 134 n.33). Names: Goldwater.'
+    src:
+      c: ec5650f3
+      rows:
+        - 'w.gifford-center-cannot-hold 134: all'
+        - 'via w.gifford-center-cannot-hold 134 n.33b: all'
+    tags: [name:goldwater-barry-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07.conservative-movement
+        from: 2026-11-06-b6-gifford-center-cannot
+  - id: cal.1960-07.opinion
+    when: July
+    date: 1960-07
+    thread: opinion
+    also: [goldwater]
+    c: 'The Young Republican National Federation''s poll: 37 percent of young Republicans for Goldwater for Vice President, 11 for Lodge.'
+    n: '[[w.gifford-center-cannot-hold]], 134. Check: the day; the count of those polled not given. To check: Yuma Daily Sun, July 17, 1960, Scrapbook 90, Barry Goldwater Papers, AHF (cited by [[w.gifford-center-cannot-hold]], 134 n.34). Names: Goldwater, Lodge.'
+    src:
+      c: f948ffc6
+      rows:
+        - 'w.gifford-center-cannot-hold 134: all'
+        - 'via w.gifford-center-cannot-hold 134 n.34: all'
+    tags: [name:goldwater-barry-m, name:lodge-henry-cabot]

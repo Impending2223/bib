@@ -1167,6 +1167,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-04-12.school-aid
+    when: Apr. 12
+    date: '1961-04-12'
+    thread: school-aid
+    c: 'Sorensen to Kennedy, "administratively confidential," on the strategy: in public, a bill for public schools only; Ribicoff and Sorensen in secret with Bishop Hannan and Monsignors Tanner and Hurley of the NCWC. The administration to send uncontroversial revisions of the NDEA; in markup Clark and Morse to amend Title IV, section 305, private schools'' loans to reach classrooms for science, mathematics, foreign languages, English, physical fitness and school lunches. "There was to be no mention or indication that the Administration had played any role or taken any position on this amendment or course of strategy."'
+    n: '[[w.graham-uncertain-triumph]], 21. To check: Sorensen to Kennedy, Apr. 12, 1961, "Education and Religion" folder, Sorensen file, container 33, JFK Library (cited by [[w.graham-uncertain-triumph]], 21 n.55). See [[cal.1961-02-20.school-aid]]. Names: Sorensen, Kennedy, Ribicoff, Clark, Morse.'
+    src:
+      c: 93fe3662
+      rows:
+        - 'w.graham-uncertain-triumph 21: all'
+        - 'via w.graham-uncertain-triumph 21 n.55: all'
+    tags: [name:sorensen-theodore-c, name:kennedy-john-f, name:ribicoff-abraham, name:clark-joseph-s, name:morse-wayne]
   - id: cal.1961-04-13.european-community
     when: Apr. 13
     date: '1961-04-13'
@@ -2211,6 +2223,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-04-18.republican-party
+    when: Apr. 18
+    date: '1961-04-18'
+    thread: republican-party
+    c: 'E. Frederic Morrow to Nixon: "The election was a traumatic experience for me. ... I could see the election being lost, but could not reach your ear to let you know."'
+    n: '[[w.gifford-center-cannot-hold]], 89 (quoting it). To check: Morrow to Nixon, Apr. 18, 1961, Series 320, Box 532, "Morrow," Nixon Papers, NALN (cited by [[w.gifford-center-cannot-hold]], 89 n.111). Names: Morrow, Nixon.'
+    src:
+      c: d1148ec8
+      rows:
+        - 'w.gifford-center-cannot-hold 89: all'
+        - 'via w.gifford-center-cannot-hold 89 n.111: all'
+    tags: [name:morrow-e-frederic, name:nixon-richard-m]
   - id: cal.1961-04-19.court
     when: Apr. 19–20
     date: '1961-04-19'
@@ -2779,6 +2803,17 @@ entries:
       rows:
         - 'w.sorensen-kennedy 308: all'
     tags: [name:kennedy-john-f, name:sorensen-theodore-c, name:castro-fidel]
+  - id: cal.1961-04-20.school-aid
+    when: Apr. 20
+    date: '1961-04-20'
+    thread: school-aid
+    c: Ribicoff sends Kennedy his proposed uncontroversial amendments to the NDEA.
+    n: '[[w.graham-uncertain-triumph]], 21. The message: [[cal.1961-04-25.school-aid]]. See [[cal.1961-04-12.school-aid]]. Names: Ribicoff, Kennedy.'
+    src:
+      c: 99f9cadd
+      rows:
+        - 'w.graham-uncertain-triumph 21: all'
+    tags: [name:ribicoff-abraham, name:kennedy-john-f]
   - id: cal.1961-04-21.cuba
     when: Apr. 21
     date: '1961-04-21'
@@ -4130,3 +4165,27 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 398: all'
     tags: [name:rockefeller-nelson, name:corning-erastus, state:ny]
+  - id: cal.1961-04.cuba-bay-of-pigs-8
+    when: Apr.
+    date: 1961-04
+    thread: cuba-bay-of-pigs
+    also: [goldwater]
+    c: After the Bay of Pigs, Goldwater privately urges Kennedy to have the United States invade Cuba "to rid the hemisphere of the threat of extended Communism." Kennedy rejects the counsel.
+    n: '[[w.goldberg-barry-goldwater]], 156. To check: [*New York Times*, Aug. 2, 1971](https://timesmachine.nytimes.com/timesmachine/1971/08/02/issue.html), 1 (cited by [[w.goldberg-barry-goldwater]], 156 n.37). Check: the day; Goldberg: "in the wake of the Bay of Pigs fiasco"; perhaps the visit of [[cal.1961-04.cuba-bay-of-pigs-4]]. Names: Goldwater, Kennedy.'
+    src:
+      c: 758fd7d0
+      rows:
+        - 'w.goldberg-barry-goldwater 156: all'
+        - 'via x.1971-08-02.new-york-times: all'
+    tags: [name:goldwater-barry-m, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-04.cuba-bay-of-pigs
+          - cal.1961-04.cuba-bay-of-pigs-2
+          - cal.1961-04.cuba-bay-of-pigs-3
+          - cal.1961-04.cuba-bay-of-pigs-5
+          - cal.1961-04.cuba-bay-of-pigs-4
+          - cal.1961-04.cuba-bay-of-pigs-6
+          - cal.1961-04.cuba-bay-of-pigs-7
+        from: 2026-11-06-b6-goldberg-barry-goldwater

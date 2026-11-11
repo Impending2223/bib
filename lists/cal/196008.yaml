@@ -571,6 +571,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-08-15.conservative-movement
+    when: Aug. 15
+    date: '1960-08-15'
+    thread: conservative-movement
+    also: [elections-1960-chicago]
+    c: 'James Kolbe of Youth for Goldwater, in a letter printed in many papers: fewer than half the 250 with Goldwater demonstrators'' passes let on the convention floor, Nixon''s let in with or without; the band''s eighteen minutes for Nixon, little for Goldwater.'
+    n: '[[w.gifford-center-cannot-hold]], 136. To check: Baltimore Sun, Aug. 15, 1960, Series 320, Box 424, "Kolbe, James," Nixon Papers, NALN (cited by [[w.gifford-center-cannot-hold]], 136 n.44). Names: Goldwater, Nixon.'
+    src:
+      c: abd48cc3
+      rows:
+        - 'w.gifford-center-cannot-hold 136: all'
+        - 'via w.gifford-center-cannot-hold 136 n.44: all'
+    tags: [name:goldwater-barry-m, name:nixon-richard-m]
   - id: cal.1960-08-16.latin-america
     when: Aug. 16–21
     date: '1960-08-16'
@@ -655,6 +668,18 @@ entries:
     time_band: workday afternoon
     time_zone: Asia/Vientiane
     range_basis: kind
+  - id: cal.1960-08-16.elections-1960-nixon
+    when: Aug. 16
+    date: '1960-08-16'
+    thread: elections-1960-nixon
+    c: 'Carol Dawson, executive secretary of College Youth for Nixon, to Finch: little activity among California''s students; Finch to press the State''s Nixon leaders to help; "one third of the students ... are eligible to vote for the first time this year."'
+    n: '[[w.gifford-center-cannot-hold]], 141 (quoting it). To check: Carol Dawson to Bob Finch, Aug. 16, 1960, Series 320, Box 597, Nixon Papers, NALN (cited by [[w.gifford-center-cannot-hold]], 141 n.65). Names: Finch, Nixon.'
+    src:
+      c: bf5fc841
+      rows:
+        - 'w.gifford-center-cannot-hold 141: all'
+        - 'via w.gifford-center-cannot-hold 141 n.65: all'
+    tags: [name:finch-robert-h, name:nixon-richard-m]
   - id: cal.1960-08-17.soviet-union
     when: Aug. 17–19
     date: '1960-08-17'
@@ -806,6 +831,20 @@ entries:
       rows:
         - 'w.marolda-united-states-navy-and 46: all'
     tags: [name:souvanna-phouma]
+  - id: cal.1960-08-18.elections-1960-nixon
+    when: Aug. 18
+    date: '1960-08-18'
+    thread: elections-1960-nixon
+    c: Nixon, by letter, asks S. B. Fuller of the Fuller Products Company, George Sevelle of Los Angeles and the publisher William O. Walker for their help, for their "special insight and knowledge" of their communities.
+    n: '[[w.gifford-center-cannot-hold]], 83. To check: Nixon to S. B. Fuller, Aug. 18, 1960, Series 320, Box 277, Nixon Papers, NALN (cited by [[w.gifford-center-cannot-hold]], 83 n.86); Nixon to George Sevelle, Aug. 18, 1960, Series 320, Box 686, Nixon Papers, NALN (cited by [[w.gifford-center-cannot-hold]], 83 n.86); Nixon to William O. Walker, Aug. 18, 1960, Series 320, Box 794, Nixon Papers, NALN (cited by [[w.gifford-center-cannot-hold]], 83 n.86). Names: Nixon.'
+    src:
+      c: 1bce2b66
+      rows:
+        - 'w.gifford-center-cannot-hold 83: all'
+        - 'via w.gifford-center-cannot-hold 83 n.86a: all'
+        - 'via w.gifford-center-cannot-hold 83 n.86b: all'
+        - 'via w.gifford-center-cannot-hold 83 n.86c: all'
+    tags: [name:nixon-richard-m]
   - id: cal.1960-08-19.latin-america
     when: Aug. 19
     date: '1960-08-19'
@@ -903,6 +942,35 @@ entries:
     time_band: workday daytime
     time_zone: America/Costa_Rica
     range_basis: kind
+  - id: cal.1960-08-22.elections-1960-nixon
+    when: Aug. 22
+    date: '1960-08-22'
+    thread: elections-1960-nixon
+    c: 'Bill Stricklin, a former student body president at Berkeley, to McCaffrey of Nixon''s staff: students for "the light-hearted aspects of the campaign," and their money, early in the fall semester "while [they] still feel solvent."'
+    n: '[[w.gifford-center-cannot-hold]], 141 (quoting it). To check: Bill Stricklin to Stan McCaffrey, Aug. 22, 1960, Series 320, Box 162, "College Youth for Nixon," Nixon Papers, NALN (cited by [[w.gifford-center-cannot-hold]], 141 n.64). Names: Nixon.'
+    src:
+      c: f72e2813
+      rows:
+        - 'w.gifford-center-cannot-hold 141: all'
+        - 'via w.gifford-center-cannot-hold 141 n.64: all'
+    tags: [name:nixon-richard-m]
+  - id: cal.1960-08-22.elections-1960-nixon-2
+    when: Aug. 22
+    date: '1960-08-22'
+    thread: elections-1960-nixon
+    c: 'McCaffrey to Nixon: a Labor Day rally in New York for nationality groups, Rockefeller as host, Nixon and Lodge to speak on freedom; Labor Secretary Mitchell sees it as a counter to Kennedy at Cadillac Square.'
+    n: '[[w.gifford-center-cannot-hold]], 180–81. Check: the day; Gifford: "On August 27"; her note, McCaffrey''s memoranda of Aug. 22 and 27. To check: Stan McCaffrey to Nixon, Aug. 22, 1960, Series 320, Box 37, "ANNL," Nixon Papers, NALN (cited by [[w.gifford-center-cannot-hold]], 180 n.33). Names: Nixon, Rockefeller, Lodge, Kennedy.'
+    src:
+      c: 56ad2b66
+      rows:
+        - 'w.gifford-center-cannot-hold 180–81: all'
+        - 'via w.gifford-center-cannot-hold 180 n.33: all'
+    tags: [name:nixon-richard-m, name:rockefeller-nelson, name:lodge-henry-cabot, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-08-22.elections-1960-nixon
+        from: 2026-11-06-b6-gifford-center-cannot
   - id: cal.1960-08-23.medicare
     when: Aug. 23
     date: '1960-08-23'
@@ -1276,6 +1344,23 @@ entries:
       rows:
         - 'w.nixon-six-crises 326: all'
     tags: [name:nixon-richard-m]
+  - id: cal.1960-08-27.elections-1960-nixon
+    when: Aug. 27
+    date: '1960-08-27'
+    thread: elections-1960-nixon
+    c: 'McCaffrey to Nixon, with Nixon''s approval: the Labor Day plan, a breakfast with the New York Board of Rabbis, a lunch with Lodge and Rockefeller, meetings with nationality leaders by groups, a press conference with the foreign-language press. No record the meetings took place.'
+    n: '[[w.gifford-center-cannot-hold]], 181. To check: Stan McCaffrey to Nixon, Aug. 27, 1960, Series 320, Box 37, "ANNL," Nixon Papers, NALN (cited by [[w.gifford-center-cannot-hold]], 181 n.35). See [[cal.1960-08-27.elections-1960]]. Names: Nixon, Lodge, Rockefeller.'
+    src:
+      c: 06b0899f
+      rows:
+        - 'w.gifford-center-cannot-hold 181: all'
+        - 'via w.gifford-center-cannot-hold 181 n.35: all'
+    tags: [name:nixon-richard-m, name:lodge-henry-cabot, name:rockefeller-nelson]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-08-27.elections-1960
+        from: 2026-11-06-b6-gifford-center-cannot
   - id: cal.1960-08-28.cuba
     when: Aug. 28–29
     date: '1960-08-28'

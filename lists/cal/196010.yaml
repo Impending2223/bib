@@ -62,6 +62,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-10-02.elections-1960-nixon
+    when: Oct. 2
+    date: '1960-10-02'
+    thread: elections-1960-nixon
+    c: 'Leonard Valiukas of the Nixon for President Lithuanian-American National Committee, vice president of the Los Angeles County Republican Assembly, to Nixon: a meeting of twenty minutes with nationality groups during his visit of Oct. 13–14; the California Republican Assembly''s nationality groups helped by one of its leaders only.'
+    n: '[[w.gifford-center-cannot-hold]], 189. To check: Leonard Valiukas to Nixon, Oct. 2, 1960, Series 320, Box 778, "Valiukas, Leonard," Nixon Papers, NALN (cited by [[w.gifford-center-cannot-hold]], 189 n.58). Names: Nixon.'
+    src:
+      c: 119bbee9
+      rows:
+        - 'w.gifford-center-cannot-hold 189: all'
+        - 'via w.gifford-center-cannot-hold 189 n.58: all'
+    tags: [name:nixon-richard-m]
   - id: cal.1960-10-03.court
     when: Oct. 3
     date: '1960-10-03'
@@ -96,6 +108,19 @@ entries:
         - 'https://www.presidency.ucsb.edu/documents/partial-transcript-speech-the-vice-president-armory-west-orange-nj: all'
         - 'https://www.presidency.ucsb.edu/documents/excerpts-remarks-the-vice-president-war-memorial-square-nashville-tn: all'
         - 'w.nixon-six-crises 342–43: all'
+    tags: [name:nixon-richard-m]
+  - id: cal.1960-10-03.south-carolina
+    when: Oct. 3
+    date: '1960-10-03'
+    thread: south-carolina
+    also: [elections-1960-nixon]
+    c: 'Shorey, the State Republican chairman, to Bassett of the national committee: Nixon''s missed visit to be rescheduled; "South Carolina Democrats for Nixon and Lodge" not cooperating with the party, the ongoing organization.'
+    n: '[[w.gifford-center-cannot-hold]], 161 (quoting it). To check: Shorey to James Bassett, Oct. 3, 1960, Series 320, Box 693, "Shorey," Nixon Papers, NALN (cited by [[w.gifford-center-cannot-hold]], 161 n.69). Names: Nixon.'
+    src:
+      c: 54e43c4d
+      rows:
+        - 'w.gifford-center-cannot-hold 161: all'
+        - 'via w.gifford-center-cannot-hold 161 n.69: all'
     tags: [name:nixon-richard-m]
   - id: cal.1960-10-05.soviet-union-un
     when: Oct. 5
@@ -194,6 +219,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-10-06.elections-1960-rockefeller
+    when: Oct. 6
+    date: '1960-10-06'
+    thread: elections-1960-rockefeller
+    c: 'Emmet Hughes to Rockefeller: a short book, "What I Believe" or "This is Where I Stand," of use whether Nixon loses or wins.'
+    n: '[[w.gifford-center-cannot-hold]], 54. To check: Hughes to Rockefeller, Oct. 6, 1960, RG 4, Series J.1, Subseries 2, Box 11, Folder 97, Rockefeller Archives (cited by [[w.gifford-center-cannot-hold]], 54 n.89). Names: Hughes, Rockefeller, Nixon.'
+    src:
+      c: d91d3196
+      rows:
+        - 'w.gifford-center-cannot-hold 54: all'
+        - 'via w.gifford-center-cannot-hold 54 n.89: all'
+    tags: [name:hughes-emmet-john, name:rockefeller-nelson, name:nixon-richard-m]
   - id: cal.1960-10-07.elections-1960
     when: Oct. 7
     date: '1960-10-07'
@@ -439,6 +476,23 @@ entries:
       rows:
         - 'w.watson-into-the-missile-age 389: all'
         - 'via x.1960-10-12.new-york-times-samos: all'
+  - id: cal.1960-10-11.elections-1960-nixon
+    when: Oct. 11
+    date: '1960-10-11'
+    thread: elections-1960-nixon
+    c: 'Valiukas to Nixon''s campaign again, his letter of Oct. 2 unanswered: ten minutes for photographs. A campaign memorandum of Oct. 24: Hillings to tell him the letter reached headquarters Oct. 15, after the Los Angeles visit.'
+    n: '[[w.gifford-center-cannot-hold]], 189. To check: Valiukas to Nixon, Oct. 11, 1960; memorandum, "gp," Oct. 24, 1960, Series 320, Box 778, "Valiukas," Nixon Papers, NALN (cited by [[w.gifford-center-cannot-hold]], 189 n.59). Names: Nixon, Hillings.'
+    src:
+      c: 2ee79cd4
+      rows:
+        - 'w.gifford-center-cannot-hold 189: all'
+        - 'via w.gifford-center-cannot-hold 189 n.59: all'
+    tags: [name:nixon-richard-m, name:hillings-patrick-j]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-10-11.elections-1960
+        from: 2026-11-06-b6-gifford-center-cannot
   - id: cal.1960-10-12.soviet-union
     when: Oct. 12–13
     date: '1960-10-12'
@@ -1838,6 +1892,18 @@ entries:
         - 'https://www.presidency.ucsb.edu/documents/speech-the-vice-president-the-united-states-prepared-for-delivery-before-meeting-sigma: A'
         - 'w.nixon-six-crises 361: all'
     tags: [name:nixon-richard-m, name:eisenhower-dwight-d, name:lodge-henry-cabot]
+  - id: cal.1960-10-26.elections-1960-rockefeller
+    when: Oct. 26
+    date: '1960-10-26'
+    thread: elections-1960-rockefeller
+    c: 'Roswell Perkins to Rockefeller: call attention in his speeches to his work for the ticket, "This is my 210th (?) speech for Dick Nixon in this campaign."'
+    n: '[[w.gifford-center-cannot-hold]], 54. To check: Perkins to Rockefeller, Oct. 26, 1960, RG 15, Series 22, Subseries 4, Box 49, Folder 1188, Rockefeller Archives (cited by [[w.gifford-center-cannot-hold]], 54 n.91). Names: Rockefeller, Nixon.'
+    src:
+      c: f220b26d
+      rows:
+        - 'w.gifford-center-cannot-hold 54: all'
+        - 'via w.gifford-center-cannot-hold 54 n.91: all'
+    tags: [name:rockefeller-nelson, name:nixon-richard-m]
   - id: cal.1960-10-27.laos
     when: Oct. 27
     date: '1960-10-27'
@@ -2079,6 +2145,23 @@ entries:
       - 1960-10-28T16:00Z
       - 1960-10-28T21:00Z
     time_zone: America/Chicago
+  - id: cal.1960-10-28.elections-1960-nixon
+    when: Oct. 28–Nov. 3
+    date: '1960-10-28'
+    thread: elections-1960-nixon
+    c: 'American Nationalities for Nixon-Lodge''s standard advertisement in the nationality press, in the papers'' languages: Nixon''s finger at Khrushchev''s chest from the kitchen debate, the lines of his acceptance on Khrushchev''s grandchildren; "Vote for Peace With Freedom and Justice." The *Pacific Citizen* of Los Angeles, Oct. 28; *Draugas*, Chicago, Oct. 29; *Ameriska Domovina*, Cleveland, Nov. 3.'
+    n: '[[w.gifford-center-cannot-hold]], 188 (quoting it). To check: the *Pacific Citizen*, Oct. 28, 1960; *Draugas*, Oct. 29, 1960; *Ameriska Domovina*, Nov. 3, 1960 (cited by [[w.gifford-center-cannot-hold]], 188 n.56). Names: Nixon, Khrushchev.'
+    src:
+      c: 96ffe564
+      rows:
+        - 'w.gifford-center-cannot-hold 188: all'
+        - 'via w.gifford-center-cannot-hold 188 n.56b: all'
+    tags: [name:nixon-richard-m, name:khrushchev-nikita-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-10-28.elections-1960
+        from: 2026-11-06-b6-gifford-center-cannot
   - id: cal.1960-10-29.elections-1960
     when: Oct. 29
     date: '1960-10-29'
@@ -2215,6 +2298,23 @@ entries:
         - 'w.white-making-of-the-president 326–27: B'
         - 'w.perlstein-before-the-storm 135: G'
     tags: [name:kennedy-john-f, name:nixon-richard-m, name:goldwater-barry-m]
+  - id: cal.1960-10-30.elections-1960-nixon
+    when: Oct. 30
+    date: '1960-10-30'
+    thread: elections-1960-nixon
+    also: [democratic-party]
+    c: 'The *New York Times*: Mario C. Remo, formerly chairman of the Italian division and finance committee of the Democratic National Committee''s Nationalities Division, has gone over to the Republicans.'
+    n: '[[w.gifford-center-cannot-hold]], 190–91. To check: New York Times, Oct. 30, 1960, 58 (cited by [[w.gifford-center-cannot-hold]], 191 n.66).'
+    src:
+      c: db3cc748
+      rows:
+        - 'w.gifford-center-cannot-hold 190–91: all'
+        - 'via w.gifford-center-cannot-hold 191 n.66: all'
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-10-30.elections-1960-3
+        from: 2026-11-06-b6-gifford-center-cannot
   - id: cal.1960-10-31.economy
     when: Oct. 31
     date: '1960-10-31'
@@ -2737,3 +2837,16 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 349–50: all'
     tags: [name:goldwater-barry-m, name:novak-robert-d, name:nixon-richard-m]
+  - id: cal.1960-10.opinion
+    when: Oct.
+    date: 1960-10
+    thread: opinion
+    also: [elections-1960]
+    c: 'Cleveland and Cuyahoga County, a poll of black voters: Kennedy 72.2 percent, Nixon 17.8.'
+    n: '[[w.gifford-center-cannot-hold]], 86. Check: the day; Gifford: "mid-October." To check: "State and National Polls," PPS 71/1, Nixon Library (cited by [[w.gifford-center-cannot-hold]], 86 n.101). Names: Kennedy, Nixon.'
+    src:
+      c: e9de3f78
+      rows:
+        - 'w.gifford-center-cannot-hold 86: all'
+        - 'via w.gifford-center-cannot-hold 86 n.101: all'
+    tags: [name:kennedy-john-f, name:nixon-richard-m]

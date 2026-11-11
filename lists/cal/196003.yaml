@@ -363,6 +363,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-03-08.elections-1960-nixon
+    when: Mar. 8
+    date: '1960-03-08'
+    thread: elections-1960-nixon
+    c: 'McWhorter of Nixon''s staff to Nixon, from a dinner with Clarence Mitchell of the NAACP: Mitchell bitter at Kennedy''s votes of 1957, sending the civil rights bill to Eastland''s committee and for the jury trial amendment; "there are a lot of Negroes that can''t be bought." Finch on the memorandum: "why don''t they do something about it."'
+    n: '[[w.gifford-center-cannot-hold]], 71 (quoting it). To check: McWhorter to Nixon, Mar. 8, 1960, Series 320, Box 520, "Mitchell, Clarence," Nixon Papers, NALN (cited by [[w.gifford-center-cannot-hold]], 71 n.45). Names: Nixon, Clarence Mitchell, Kennedy, Finch.'
+    src:
+      c: 938321ab
+      rows:
+        - 'w.gifford-center-cannot-hold 71: all'
+        - 'via w.gifford-center-cannot-hold 71 n.45: all'
+    tags: [name:nixon-richard-m, name:mitchell-clarence-jr, name:kennedy-john-f, name:finch-robert-h]
   - id: cal.1960-03-09.sit-ins
     when: Mar. 9
     date: '1960-03-09'
@@ -1231,6 +1243,19 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 160: all'
     tags: [name:kennedy-john-f]
+  - id: cal.1960-03-29.elections-1960-nixon
+    when: Mar. 29
+    date: '1960-03-29'
+    thread: elections-1960-nixon
+    also: [press-and-broadcasting]
+    c: 'John Temple Graves, editor of the Birmingham *Post-Herald* and columnist, to Nixon: "The South is the wave of your future since you''ll never win the Negro or labor votes."'
+    n: '[[w.gifford-center-cannot-hold]], 73 (quoting it). To check: John Temple Graves to Nixon, Mar. 29, 1960, Series 320, Box 301, "Graves, John Temple," Nixon Papers, NALN (cited by [[w.gifford-center-cannot-hold]], 73 n.48). Names: Nixon.'
+    src:
+      c: 87470b3c
+      rows:
+        - 'w.gifford-center-cannot-hold 73: all'
+        - 'via w.gifford-center-cannot-hold 73 n.48: all'
+    tags: [name:nixon-richard-m]
   - id: cal.1960-03-30.africa
     when: Mar. 30
     date: '1960-03-30'
@@ -1538,3 +1563,32 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 336: all'
     tags: [name:rockefeller-nelson, name:eisenhower-dwight-d, name:nixon-richard-m]
+  - id: cal.1960-03.opinion
+    when: Mar.
+    date: 1960-03
+    thread: opinion
+    also: [elections-1960-nixon]
+    c: 'Tuskegee Institute, a poll of students and faculty: Nixon wins among both.'
+    n: '[[w.gifford-center-cannot-hold]], 70. Check: the day; the count not given. To check: Nixon''s News Summary, Mar. 12–14, 1960, PPS 69/42, Nixon Library (cited by [[w.gifford-center-cannot-hold]], 70 n.40).'
+    src:
+      c: 06949d19
+      rows:
+        - 'w.gifford-center-cannot-hold 70: all'
+        - 'via w.gifford-center-cannot-hold 70 n.40a: all'
+    tags: [name:nixon-richard-m]
+  - id: cal.1960-03.elections-1960-rockefeller-2
+    when: Mar.
+    date: 1960-03
+    thread: elections-1960-rockefeller
+    c: Arthur Goldsmith of New York sends personal letters against Nixon to East Coast society figures and telephones for money for the "not-altogether-dormant Rockefeller Presidential campaign." By *National Review*'s report.
+    n: '[[w.gifford-center-cannot-hold]], 114. Check: the day; Gifford: *National Review*, March (114 nn.62–63, the issues of Mar. 12 and 26). Names: Nixon.'
+    src:
+      c: 37d3d953
+      rows:
+        - 'w.gifford-center-cannot-hold 114: all'
+    tags: [name:nixon-richard-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-03.elections-1960-rockefeller
+        from: 2026-11-06-b6-gifford-center-cannot

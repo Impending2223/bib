@@ -68,6 +68,18 @@ entries:
         - 'w.sundquist-politics-and-policy 307: all'
         - 'via w.sundquist-politics-and-policy 307 n.58: all'
     tags: [name:kennedy-john-f, city:los-angeles]
+  - id: cal.1960-11-01.republican-party
+    when: Nov. 1
+    date: '1960-11-01'
+    thread: republican-party
+    also: [south-carolina]
+    c: 'Judy Fernald, cochairman of the Young Republican National Federation, to Mrs. James Duffy of Anderson County, S.C.: material for organizing a local Young Republican club after the campaign.'
+    n: '[[w.gifford-center-cannot-hold]], 166. To check: Fernald to Duffy, Nov. 1, 1960, Duffy Papers, Clemson (cited by [[w.gifford-center-cannot-hold]], 166 n.90).'
+    src:
+      c: 1340308d
+      rows:
+        - 'w.gifford-center-cannot-hold 166: all'
+        - 'via w.gifford-center-cannot-hold 166 n.90: all'
   - id: cal.1960-11-02.peace-corps
     when: Nov. 2
     date: '1960-11-02'
@@ -222,6 +234,19 @@ entries:
       rows:
         - 'w.nixon-six-crises 370: all'
     tags: [name:hobby-oveta-culp, name:nixon-richard-m, state:tx]
+  - id: cal.1960-11-03.south-carolina
+    when: Nov. 3
+    date: '1960-11-03'
+    thread: south-carolina
+    also: [elections-1960]
+    c: 'Thurmond, answering a constituent who asks his position: "whichever candidate wins, the South will ultimately be the loser."'
+    n: '[[w.gifford-center-cannot-hold]], 164 (quoting it). To check: Thurmond to a constituent, Nov. 3, 1960, Thurmond Collection, Clemson (cited by [[w.gifford-center-cannot-hold]], 164 n.80). See [[cal.1960-07-24.democratic-party]]. Names: Thurmond.'
+    src:
+      c: 0050e3b6
+      rows:
+        - 'w.gifford-center-cannot-hold 164: all'
+        - 'via w.gifford-center-cannot-hold 164 n.80: all'
+    tags: [name:thurmond-strom]
   - id: cal.1960-11-04.desegregation-schools-la
     when: Nov. 4
     date: '1960-11-04'
@@ -355,6 +380,24 @@ entries:
       - 1960-11-05T00:00Z
       - 1960-11-05T09:00Z
     time_zone: America/Chicago
+  - id: cal.1960-11-04.elections-1960-nixon
+    when: Nov. 4–6
+    date: '1960-11-04'
+    thread: elections-1960-nixon
+    c: 'New York. The State Republican committee''s advertisements in the Russian-language *Novoe Russkoe Slovo*: "What happens to America if Kennedy wins?"; "Russian voters will not fall in the trap—they will vote for Nixon and Lodge!" The Republican Central Campaign Committee''s too, on the Republican record.'
+    n: '[[w.gifford-center-cannot-hold]], 187–88 (quoting them). To check: *Novoe Russkoe Slovo*, Nov. 4, 5, 6, 1960 (cited by [[w.gifford-center-cannot-hold]], 188 n.55). Names: Kennedy, Nixon, Lodge.'
+    src:
+      c: 93bbd065
+      rows:
+        - 'w.gifford-center-cannot-hold 187–88: all'
+        - 'via w.gifford-center-cannot-hold 188 n.55: all'
+    tags: [name:kennedy-john-f, name:nixon-richard-m, name:lodge-henry-cabot]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-11-04.elections-1960-3
+          - cal.1960-11-04.elections-1960-4
+        from: 2026-11-06-b6-gifford-center-cannot
   - id: cal.1960-11-05.elections-1960
     when: Nov. 5
     date: '1960-11-05'
@@ -2110,6 +2153,18 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 230: all'
         - 'w.thomas-robert-kennedy 109: B-C'
     tags: [name:kennedy-robert-f, name:kennedy-john-f, state:fl]
+  - id: cal.1960-11-19.republican-party
+    when: Nov. 19
+    date: '1960-11-19'
+    thread: republican-party
+    c: 'Col. Leon Nicolai, of the Russian community in San Francisco, to Nixon: take control of the party machinery in 1961 and reorganize; Eisenhower, at the nationality leaders'' meeting in September, never mentioned Nixon''s candidacy, "much too late."'
+    n: '[[w.gifford-center-cannot-hold]], 194–95. To check: Col. Leon Nicolai to Nixon, Nov. 19, 1960, Series 320, Box 561, "Nicolai, Col. Leon," Nixon Papers, NALN (cited by [[w.gifford-center-cannot-hold]], 195 n.82). Names: Nixon, Eisenhower.'
+    src:
+      c: e7e6a487
+      rows:
+        - 'w.gifford-center-cannot-hold 194–95: all'
+        - 'via w.gifford-center-cannot-hold 195 n.82: all'
+    tags: [name:nixon-richard-m, name:eisenhower-dwight-d]
   - id: cal.1960-11-20.japan-and-korea
     when: Nov. 20
     date: '1960-11-20'
@@ -2885,3 +2940,15 @@ entries:
         - 'w.smith-on-his-own-terms 350: all'
         - 'via x.1960-10-28.wall-street-journal-nixons-lonely-battle: all'
     tags: [name:rockefeller-nelson, name:nixon-richard-m]
+  - id: cal.1960-11.south-carolina
+    when: Nov.
+    date: 1960-11
+    thread: south-carolina
+    also: [republican-party]
+    c: 'Greenville County''s Republican "G.O.P. News," after the election: "it is hoped that efforts will be increased toward the establishment of a real two-party system."'
+    n: '[[w.gifford-center-cannot-hold]], 166 (quoting it). Check: the day. To check: "G.O.P. News," Nov. 1960, Gregory D. Shorey, Jr. Papers, South Caroliniana Library (cited by [[w.gifford-center-cannot-hold]], 166 n.91).'
+    src:
+      c: 10273fd4
+      rows:
+        - 'w.gifford-center-cannot-hold 166: all'
+        - 'via w.gifford-center-cannot-hold 166 n.91: all'
