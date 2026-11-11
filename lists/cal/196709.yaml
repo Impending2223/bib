@@ -1113,12 +1113,14 @@ entries:
     date: '1967-09-13'
     thread: economy-surcharge
     c: 'Sanders to Johnson: Mills tells Treasury''s liaison the administration must choose between "guns and butter," go on television and choose guns, cut domestic spending and pass the tax; then he will go "all the way." Sanders: "We have just got to have it both ways."'
-    n: '[[w.gibbons-u-s-government-and]], IV, 759. To check: Sanders to Johnson, Sept. 13, 1967, Ex FG 1, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 759 n.138). Names: Sanders, Johnson, Mills.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 759; [[w.zelizer-taxing-america]], 263 (Mills, in September 1967, "privately told the president to announce on television that the nation had to choose between guns and butter, and that Johnson was choosing guns"). Check: Zelizer has Mills tell the President himself (263); Sanders''s memorandum, Treasury''s liaison. To check: Sanders to Johnson, Sept. 13, 1967, Ex FG 1, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 759 n.138); [[w.matusow-unraveling-of-america]], 171 (cited by [[w.zelizer-taxing-america]], 263 n.36a); *President''s 1967 Tax Proposals: Hearings Before the H. Comm. on Ways and Means*, 90th Cong. (1967), 580 (cited by [[w.zelizer-taxing-america]], 263 n.36b). Names: Sanders, Johnson, Mills.'
     src:
       c: af68eaf8
       rows:
         - 'w.gibbons-u-s-government-and IV, 759: all'
         - 'via w.gibbons-u-s-government-and IV, 759 n.138: all'
+        - 'w.zelizer-taxing-america 263: A'
+        - 'via w.zelizer-taxing-america 263 n.36b: A'
     tags: [name:sanders-h-barefoot-jr, name:johnson-lyndon-b, name:mills-wilbur-d]
     time_range:
       - 1967-09-13T13:00Z
@@ -1126,6 +1128,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.zelizer-taxing-america
+        reads: he privately told the president
+        at: '263'
   - id: cal.1967-09-13.vietnam
     when: Sept. 13
     date: '1967-09-13'
