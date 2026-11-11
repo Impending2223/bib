@@ -809,8 +809,10 @@ def cmd_works_find(series, a):
 def cmd_new_id(series, a):
     l = resolve_list(series, a.list)
     base = f"{l.key}." + ".".join(store.slug(x, 6) for x in a.words)
+    from . import ledger                 # an id another reader has claimed in the ledger is taken too
+    claimed = {r["id"] for r in ledger.rows()}
     eid, n = base, 2
-    while series.get(eid):
+    while series.get(eid) or eid in claimed:
         eid, n = f"{base}-{n}", n + 1
     print(eid)
 
