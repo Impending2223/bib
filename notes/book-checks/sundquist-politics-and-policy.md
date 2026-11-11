@@ -46,6 +46,8 @@ Primary records read for them: 31 pages of the bound Record (1961–66), eleven 
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the list has no row ruled private, social, personal, family or a draft; the rows nearest the amendment (a private word to the President ruled undated, a transmittal, a column ruled no act) are re-ruled in "Batch 6" at the end of this file.
+
 | Page | Date | Event | Why |
 | --- | --- | --- | --- |
 | 36 n.70 | Mar. 5, 1961 | Samuelson on *Meet the Press*: a $5 billion deficit "needed now" | out of the brief (an economist out of office); the Sunday line shows the program |
@@ -160,3 +162,16 @@ The patch of the "Entered" table above, `b3-sundquist-more`, never reached the t
 Rows of the Passed over list the reader's brief of Oct. 30 (R5, R18: the organized interests, the press, the counterparts) now makes entries: Samuelson on *Meet the Press* (`cal.1961-03-05.economy`); Logan of the AVA (`cal.1961-06-05.jobs-and-wages`); the American Public Welfare Association (`cal.1961-08-11.welfare`); Keyserling's *Poverty and Deprivation* (`cal.1962-04.poverty`); Bigart in the *Times* (`cal.1963-10-20.poverty`); Spellman, the National Council of Churches, the land-grant circular, the bishops, Knoff (`cal.1961-01-17`, `-02-22`, `-02-24`, `-03-01`, `-03-16.school-aid`); the five school organizations (`cal.1962-06-16.school-aid`); the AMA's strategy meeting (`cal.1961-04.medicare`); and Rayburn to Mills on Medicare (`cal.1960-04.medicare`). Also new: the bishops and the White House through an intermediary (`cal.1961-04.school-aid`) and Ribicoff of Apr. 8, 1965 (`cal.1965-04-08.school-aid`). A citation to `cal.1963-10.poverty`, b3-sorensen-2's claim, waits for it.
 
 Stray ledger lines of this patch, claimed and not used: `cal.1960-04.youth` (claimed under the wrong thread; the entry is `cal.1960-04.jobs-and-wages`) and `cal.1963-10.poverty-2` (b3-sorensen-2's `cal.1963-10.poverty` is the same event).
+
+## Batch 6 (Nov. 10–11, 2026): the rows nearest the amended R18 re-ruled (b6-sundquist)
+
+The same copy fetched again from Drive (the direct download, 24 MB, 584 PDF pages: the same printing, blank leaves after the index; printed = PDF − 16 holds, checked on pp. 128 and 308); pp. 127–28, 276 and 308 and their notes read off the text, p. 308 (PDF 324) off the page image; deleted when done. Patch `inbox/2026-11-06-b6-sundquist.yaml` (b6-sundquist: 2 entries added; patch-check 0 errors, 0 warnings). Witness `inbox/witnesses/2026-11-06-b6-sundquist.yaml` (1 new); 2 edges added to `sources/witnesses/by-work/sundquist-politics-and-policy.yaml`.
+
+| Page | Date | Row | Ruling |
+|---|---|---|---|
+| 308 | 1961 | Mills to Kennedy, "something can be worked out" (Sorensen) | entered, `cal.1961-02.medicare` (said in private to the President about the bill; dated loosely, after the bill's introduction and before April: Check: the day) |
+| 276 | May 14, 1965 | Evans and Novak on a resignation threat over housing | entered, `cal.1965-05-14.open-housing` (a column of Part III's columnists on public business, R13; ruled "no act" before the rule of Nov. 1) |
+| 127 n.40 | July 20, 1961 | Javits puts the Newburgh documents in the Record | passed over still: a transmittal (others' documents inserted, nothing of his own); the matter in under `cal.1961-06-19.welfare-ny`, Keating's floor speech of Aug. 4 under `cal.1961-08-04.welfare` |
+
+Rows not re-ruled here: the undated rows, the leads and the rows ruled out of the brief as organized interests (several since entered, "Second run"), as written above. The balanced-budget amendment of Bridges, Cotton, Carl Curtis and Byrd (41–42) read again: Sundquist gives it no date (the note, 42 n.86, dates the Texas legislature's memorial, Jan. 26, 1961, 107 Cong. Rec. 1292), so it stays a lead.
+

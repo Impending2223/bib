@@ -198,6 +198,8 @@ Corrected (33): the pages of 31 cites, most of them a page off where the OCR had
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6): the rows ruled "minor" read again off the page images of the owner's scan of Part 2 (Drive 1u6ptfq-cRzp7TwdTg0238_3cgNw72rH6, the "a" file; printed = PDF + 1936 held at pp. 1939, 1940, 1975–78 on the running feet). Patch `inbox/2026-11-06-b6-cq-weekly-report-1968-07-26.yaml` (b6-cq-weekly-report-1968-07-26: 5 entries). The *Weekly Report* has no notes: no witnesses.
+
 Made by reading Part 2 page by page (the floor action pp. 1939–62 by its sections and dated sentences), and Part 1 by its dated sentences only; each dated event not entered is a row.
 
 | Page | Date | Event | Why |
@@ -256,7 +258,7 @@ Made by reading Part 2 page by page (the floor action pp. 1939–62 by its secti
 | 2008 | July 17, 1968 | Remarks recorded for radio and television on foreign aid bill | lead: a Public Papers item, in the day's Documents (daybook); an entry where the calendar lacks the act |
 | 2008 | July 17, 1968 | Letter to Secretary of Health, Education and Welfare on the appointment of Dr. Robert Quarles Marston as Director, National Institutes of Health | lead: a Public Papers item, in the day's Documents (daybook); an entry where the calendar lacks the act |
 | 2008 | July 18, 1968 | Remarks upon arrival of President Nguyen Van Thieu at Hickam Air Force Base, Honolulu | lead: a Public Papers item, in the day's Documents (daybook); an entry where the calendar lacks the act |
-| 1939 | July 24 | Dingell's collectors' licenses (99–56) and Latta's replacement guns (111–69), teller votes | minor: amendments of the day, beside the entry's roll calls; in the cite's page |
+| 1939 | July 24 | Dingell's collectors' licenses (99–56) and Latta's replacement guns (111–69), teller votes | Re-ruled Nov. 6: votes are entries (R6): entered as `cal.1968-07-19.crime-and-hijacking-guns-2` (Dingell) and `-3` (Latta); CQ gives no day within the four days of debate: Check |
 | 1942 | July 8 | House Education and Labor reports H.R. 18366 unanimously | lead: committee report; enter with the vocational education bill if wanted |
 | 1942 | July 11 | Senate Labor and Public Welfare reports S. 3770 unanimously | lead: committee report, as above |
 | 1942 | July 15 | The Senate passes the Higher Education Amendments (Upward Bound transferred) | lead: check the calendar's higher education entries (cal.1968-07-25.students names the Senate's bill) |
@@ -271,11 +273,11 @@ Made by reading Part 2 page by page (the floor action pp. 1939–62 by its secti
 | 1958 | June 17-18 | S.J. Res. 160 reported and passed by the Senate | lead: steps of the bill whose clearance is entered |
 | 1962 | 1967 | The Senate's redwoods bill, 77–6 | out of the brief here: 1967 step, check the calendar |
 | 1969-74 | Oct. 3, 1967-June 28, 1968 | The surcharge's course retold (Ways and Means 20–5, Oct. 3; Mills, Oct. 6; Nov. 29–30; Apr. 2, 53–35; Apr. 30; May 1, 20–0; May 3; May 6, 17–6; May 8; May 29, 137–259; June 20, 268–150; June 21, 64–16; June 28) | lead: the calendar holds these (thread Economy: Surcharge); cites not yet added. New to it, perhaps: the nosecount of Aug. 22, 1967; Johnson's "live to rue the day," Nov. 17, 1967; Jan. 22–23 hearings; the excise bill reported Feb. 23 and passed Feb. 29 (the Mar. 1 reader's span); Mills's denial, May 2; Fowler, May 13 and May 24 (ABA) |
-| 1975 | July 1 | J. Edward Day becomes director for the Associated Third Class Mail Users | minor: a lobby's hiring |
+| 1975 | July 1 | J. Edward Day becomes director for the Associated Third Class Mail Users | Re-ruled Nov. 6: a lobby's act with a former Cabinet officer (R11): entered as `cal.1968-07-01.congress` |
 | 1975 | undated | Jack R. Cole's drive for Bellmon against Monroney | lead: no date |
-| 1976 | July 22 | Proxmire: Joint Economic Committee hearings on the Fed's discount proposal | minor: an announcement of hearings |
-| 1977 | undated | Kennedy's .22 bullet, MacGregor's reply | minor: debate |
-| 1978 | undated | The Washington Post's count of 1964's delegates returning (176) | minor: a count, not an event |
+| 1976 | July 22 | Proxmire: Joint Economic Committee hearings on the Fed's discount proposal | Re-ruled Nov. 6: a member's announcement (R9, R17): entered as `cal.1968-07-22.economy` |
+| 1977 | undated | Kennedy's .22 bullet, MacGregor's reply | Re-ruled Nov. 6: the passage is on p. 1940, not 1977: MacGregor's reply in the debate on his ammunition amendment, entered as `cal.1968-07-19.crime-and-hijacking-guns-4` (Check: the day) |
+| 1978 | undated | The Washington Post's count of 1964's delegates returning (176) | Re-ruled Nov. 6: no longer minor (a paper's computation on the delegates, R13), but CQ gives no day for the *Post*'s count: a lead |
 | 1980 | Mar. 28, Mar. 25 | D.C. Republicans split their delegation; Murfin resigns from Kirk's slate | lead: Feb.-Mar. 1968, the other reader's span |
 | 1986 | Mar. 1-2 | North Carolina's Republican convention completes its 26 | lead: the other reader's span |
 | 1987 | Feb. 3; Mar. 30 | Pennsylvania's State committee for Shafer; South Carolina's convention for Thurmond | lead: the other reader's span |
@@ -312,6 +314,8 @@ National
 - The Commission on Executive, Legislative and Judicial Salaries, named June 3, 1968 (p. 1945).
 - Columnists: none named.
 - The Missouri act of Aug. 22, 1967 (Laws of Missouri, Missouri Digital Heritage) and the Supreme Court's order of Mar. 4, 1968 (U.S. Reports), for the entries' primary records.
+
+- (batch 6) The *Washington Post*'s count of the 1968 Republican delegates who were 1964's (176 of 44 delegations; CQ, July 26, 1968, 1978): its day.
 
 States and cities
 - Iowa, Apr. 17: CQ calls the body that chose the delegation the State committee, then the State convention (p. 1980).

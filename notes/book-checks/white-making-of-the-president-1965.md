@@ -37,7 +37,7 @@ Made from the running notes kept chapter by chapter, for the pages read (above);
 
 | page | date | event | why |
 |---|---|---|---|
-| 45 | Dec. 1963 | the second week's tally: 90 visitors, 250 calls, 10 meetings, 10 statements | minor (a count; no act of its own) |
+| 45 | Dec. 1963 | the second week's tally: 90 visitors, 250 calls, 10 meetings, 10 statements | minor (a count; no act of its own) Re-ruled: stands: a count over a week, no act of its own; the amendment does not reach it. |
 | 6 | Nov. 22, 1963 | Scranton told at a lunch in Harrisburg; to church | minor (a reaction) Re-ruled: entered as cal.1963-11-22.elections-1964-scranton (a governor's public word and act on the day). |
 | 71 | 1964 | Robert Anderson supports Johnson | lead (no date) |
 | 72 | Nov. 22, 1963 | Eisenhower at a UN lunch at the Chatham when he hears | minor (where he heard) Re-ruled: passed over: where he heard the news, no act or word of his on public business. |

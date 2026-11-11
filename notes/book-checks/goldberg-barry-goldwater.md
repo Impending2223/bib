@@ -133,6 +133,7 @@ Made by reading pp. 136-257 page by page and listing every dated event; those al
 
 National:
 - The items of the Passed over table marked "a lead," each with Goldberg's page and note.
+- Batch 6 (Nov. 10-11, 2026): the Goldwaters' trip to Asia, Taiwan, Vietnam, Japan and Thailand, Goldwater with Chiang Kai-shek, "1967 and 1968" (248): no year or month; and his tours of Southern Rhodesia and South Africa (248). Met on p. 252 and cited: Nixon's calls on Goldwater, Tower and Thurmond at Miami Beach, under cal.1968-08-07.elections-1968.
 - Eisenhower's telephone log, June-July 1964 (Appointment Book Series, Eisenhower Library; Goldberg 200 n.127): an entry a call.
 - Goldberg's notes rest heavily on the Barker History Center's Goldwater Collection, the Arizona Historical Foundation's Goldwater Papers (the Alpha File), the Hoover Institution's Kitchel, Brown and Free Society Association collections: none open here.
 

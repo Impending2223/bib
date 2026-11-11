@@ -30,14 +30,14 @@ Re-ruled Nov. 6, 2026, under R18 as amended (run of Nov. 10-11, 2026, patch `inb
 | 444 | 1966-03-14 | Levison's call home on the Freedom Festival | minor: private remarks Re-ruled: entered as cal.1966-03-14.open-housing (said in private about the Chicago campaign). |
 | 444 | 1966-03-16 | Califano to Johnson, the civil rights leaders' meeting to be secret | a passed-over paper: a meeting's preparation Re-ruled: passed over: a meeting's preparation. |
 | 449 | 1966-03-19 | Texas Western over Kentucky, 72–65, the NCAA final; the SEC's color line | out of the brief: a sports result |
-| 452 | 1965-11/12 | Sheriff Fisher's exhumation over coffin arms rumors (Jet, Dec. 2, 1965); three white women beat an Italian violinist in Bogalusa (NYT, Dec. 5, 1965) | minor: incidents the work does not treat as events |
+| 452 | 1965-11/12 | Sheriff Fisher's exhumation over coffin arms rumors (Jet, Dec. 2, 1965); three white women beat an Italian violinist in Bogalusa (NYT, Dec. 5, 1965) | minor: incidents the work does not treat as events Re-ruled: stands: incidents the work reports from the press and does not treat as events; the amendment does not reach them. |
 | 452 | 1966-04 | Hank Thomas wounded near Bồng Sơn | minor: a soldier's wound Re-ruled: passed over: a personal matter (a soldier's wound) with no bearing on public business or politics. |
 | 453 | 1966 | The arts items of the spring of 1966 (books, music, film) | out of the brief: no bearing on politics or policy |
-| 459 | 1966-03 | Lennon's remark on Jesus and the Beatles, and its echo in the South | minor: no policy record in the span read |
+| 459 | 1966-03 | Lennon's remark on Jesus and the Beatles, and its echo in the South | minor: no policy record in the span read Re-ruled: stands: no act or word of a principal on public business; the amendment does not reach it. |
 | 501 | 1966-07-13 | Speck's murders in Chicago | out of the brief: a crime with no political or policy trace on the page |
 | 511 | 1966-08-01 | Whitman's shootings at the University of Texas | out of the brief: the page gives no political or policy act |
 | 563 | 1967 | *MacBird!* | out of the brief: a play, no policy trace |
-| 663 | 1967-12-15 | The Theatre for Ideas forum on violence, Arendt, Chomsky, Sontag, Hayden | minor: a forum of writers, no act of government |
+| 663 | 1967-12-15 | The Theatre for Ideas forum on violence, Arendt, Chomsky, Sontag, Hayden | minor: a forum of writers, no act of government Re-ruled: stands: a writers' forum, no party, member, organized interest or government; the amendment does not reach it. |
 | 666 | 1968-01-07 | First-class postage from 5 to 6 cents | lead: the act and the day, not read (Branch's source is a 1990 newspaper) |
 | 675 | 1967-68 | Patman against New York's lottery sold through banks; his bill of Feb. 1968 | lead: the bill, the hearing (Branch cites a Senate hearing of Aug. 19, 1967) and the days not settled |
 | 677 | 1968-01 | Rutherford's fines and dismissals of SCLC staff | minor: SCLC's internal staff matters Re-ruled: passed over: an organization's internal staff discipline, with no bearing on public business. |
