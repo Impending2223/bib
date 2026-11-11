@@ -217,6 +217,8 @@ The chronology's items on: the New Hampshire primary (Mar. 12), Robert Kennedy's
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the owner's scan on Drive, 1ZkigVYR8xAEs0b2XFj-RIP15OTnquRhD, printed = PDF + 2172; pp. 2190 and 2224 read off their page images, PDF 18 and 52). Patch `inbox/2026-11-06-b6-cq-weekly-report-1968-08-16.yaml` (2 entries). No witnesses: CQ names no source for either item.
+
 Made by reading every page's text and its image where an event was used; each dated event not entered and not in the calendar is a row.
 
 | Page | Date | Event | Why |
@@ -230,7 +232,7 @@ Made by reading every page's text and its image where an event was used; each da
 | 2183 | — | credentials challenges to 18 delegations | lead: no date |
 | 2184–85 | Aug. 27 | the Oklahoma and Alaska primary outlooks; Marshall's and Beasley's words | forecast; undated |
 | 2185 | — | the Arkansas runoff for governor's campaign | lead: no date |
-| 2190 | Aug. 9 | Roudebush hurt in a plane crash near La Grange, Ga. | minor (private), for the owner to rule |
+| 2190 | Aug. 9 | Roudebush hurt in a plane crash near La Grange, Ga. | re-ruled Nov. 6: entered as `cal.1968-08-09.congress-2` (a member hurt on his way home from the convention; in doubt, entered) |
 | 2190 | Aug. 8 | the vice-presidential ballot by State | a roll-call table by State: lead (cited on the nomination's entry) |
 | 2193–99 | — | CQ's study of fiscal 1967's grants-in-aid, from the Treasury's figures | lead: the Treasury's release not dated |
 | 2198 | 1968 | House hearings on the Joint Funding Simplification Act and the Intergovernmental Cooperation Act | lead: no date |
@@ -252,7 +254,7 @@ Made by reading every page's text and its image where an event was used; each da
 | 2217 | Feb. 13 | New Mexico's legislature creates two districts for 1968 | lead (time): to enter, thread Legislatures |
 | 2221–24 | 1966; June 26; July 26, 31 | the pipeline bill's hearings, Johnson's call of June 26, the conference report's adoptions | lead: to check against the cleared entry of July 31 and June |
 | 2221–24 | — | Boyd, Davidson (INGAA), Rodgers (NARUC), Walter Rodgers on the bill | lead: no date |
-| 2224 | Aug. 14 | Tanksley to CQ: never a member of the John Birch Society | minor (a correction) |
+| 2224 | Aug. 14 | Tanksley to CQ: never a member of the John Birch Society | re-ruled Nov. 6: entered as `cal.1968-08-14.elections-1968-congress` (a candidate's word on his politics) |
 | 2225–27 | Aug. 1 | the members' votes on roll calls 222–223 (Senate) and 168–170 (House) | a roll-call table by State: lead |
 
 ## Leads

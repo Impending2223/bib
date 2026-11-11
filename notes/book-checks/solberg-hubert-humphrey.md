@@ -71,6 +71,8 @@ The papers of government (the owner's ruling, Oct. 28, 2026) are in bold; none w
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; the rulings in "Batch 6" below).
+
 | Page | Date | Event | Why |
 |---|---|---|---|
 | 204–05 | 1960 | Kennedy refuses a debate in Wisconsin; Robert Kennedy on Hoffa money | undated |
@@ -423,6 +425,44 @@ Read again from the owner's copy (the same Drive file, downloaded into the scrat
 | 402 | Los Angeles; the telethon | already in |
 | 403–07 | election day; the concession | already in |
 
+## Batch 6: the private, social and draft rows re-ruled (Nov. 10–11, 2026)
+
+The owner's ruling of Nov. 5–6, 2026 (`notes/briefs/batch6.md`; R18 as amended). The same copy, fetched again from Drive (1rv7Q65c0Jia-lDppii4qe-QoW5Pn6EOJ, the sharing untouched): printed page = PDF page − 4 held, the notes too (pp. 231–35, 266, 271, 282, 284, 286, 296, 299, 301–03, 308, 313, 318, 332, 342–43, 350, 361–62, 374–75 read in the text layer and on their images; the note pages 501, 510 read on their images where the text layer was doubtful: Humphrey to Freeman is Dec. 15, 1965, not 1968; Kiker's *Atlantic* is June 1967). Deleted after. Patch `inbox/2026-11-06-b6-solberg.yaml` (27 entries added, each claimed in the ledger; 2 cites, one to a pending entry; 1 Check; their claim-map rows); witnesses `inbox/witnesses/2026-11-06-b6-solberg.yaml` (26 rows); 32 edges appended to `sources/witnesses/by-work/solberg-hubert-humphrey.yaml` (the notes keyed by a catch-word, as before: `231 n.trip-to-germany`, `282 n.roomful` ...). Also entered where found on the pages re-read: the Mayflower chart of jobs (1961), the Bonn trip (1963, by the note's memorandum), Freeman's report and Humphrey's answer on Andreas (1965), Johnson's freeze before Luci Johnson's wedding (1966), the Johnsons at the Humphreys' apartment (1967), the announcement's drafts (1968), the sons' campaign (1968).
+
+| Page | Date | Event | Ruling now |
+|---|---|---|---|
+| 228–34 | 1961–66 | Gates, Lord, Andreas | the dated acts entered: the jobs chart and McGovern, `cal.1961-01.transition-and-staff-5`; the Bonn trip, `cal.1963-10-24.european-community`; Freeman to Johnson, `cal.1965-12-09.farm`; Humphrey to Freeman, `cal.1965-12-15.farm`. Still passed over: Gates's and Lord's errands and jokes (no day, no bearing the book shows); the blind trust and Andreas's A-D-M stock, 1965–66 (a private business, no day for the trust) |
+| 235 | June 17, 1964; Aug. 27, 1966 | Bob Humphrey's surgery; his wedding | still passed over: family matters with no bearing on public business (the Hilton's honeymoon a gift to the son) |
+| 235 | fall 1968 | the sons and their wives campaign (not logged before) | entered, `cal.1968-09.elections-1968-humphrey-3` (Check: the days) |
+| 235 | Aug. 27, 1968 | the anniversary party at the Chicago headquarters | another reader's pending entry has it (`cal.1968-08-27.elections-1968-humphrey`, White's): cited there, 235, for the party (an additive op, applied when it lands) |
+| 239 | Nov. 23, 1963 | the eighteen-page recital | still a witness, not an event |
+| 265–66 | 1965 | Muriel Humphrey's question at dinner on Churchill's funeral | the informal record now, but undated ("sometime later"): a lead (Leads below) |
+| 271 | Feb. 11, 1965 | "keep a good file on Vietnam" | entered, `cal.1965-02-11.vietnam-3` |
+| 282 | July 28, 1965 | "a roomful of senators" | entered, `cal.1965-07-28.vietnam-july-decision`; a Check added at `cal.1965-07-27.vietnam-humphrey` (Solberg's Detroit, July 26) |
+| 282 | Aug. 28, 1965 | the birthday note | entered, `cal.1965-08-28.vietnam-support` (the note's Aug. 28; Paulsen's letter enclosed) |
+| 284 | Dec. 1965 | no press secretary; Humphrey fires his | entered, `cal.1965-12.transition-and-staff-3` (Check: the day) |
+| 286 | Jan. 16 and 23, 1966 | Sunday dinners; "keep your bags packed" | entered, `cal.1966-01-16.vietnam-humphrey` (the note's Daily Diary days) |
+| 296 | July 1966 | Johnson's freeze (not logged before) | entered, `cal.1966-07.transition-and-staff-2` |
+| 296 | Aug. 6, 1966 | Luci Johnson's wedding, the wink | entered, `cal.1966-08-06.transition-and-staff` |
+| 296 | July 2, 1966 | the memorandum for the files | still a witness, not an event |
+| 299 | Oct. 17, 1966 | Nixon's letter | entered, `cal.1966-10-17.republican-party` |
+| 301–02 | Jan. 1967 | Rock Creek Park with Hughes; Johnson at the apartment | entered, `cal.1967-01.transition-and-staff-2`, `cal.1967-01.transition-and-staff` |
+| 303 | Jan. 10, 1967 | the State of the Union kept from Humphrey; his praise after | entered, `cal.1967-01-10.transition-and-staff` |
+| 308 | June 9, 1967 | the bladder examination | entered, `cal.1967-06-09.transition-and-staff`: the Vice President's malignant polyp, kept to examinations, bears on his fitness and his candidacy |
+| 313 | Nov. 22, 1967 | the blackout departure | entered, `cal.1967-11-22.war-opposition-4` |
+| 313 | Dec. 1967 | Spellman's funeral, the pickets | entered, `cal.1967-12-07.war-opposition` (Check: the day; the *Times* of Dec. 8) |
+| 313 | Nov. 21, 1967 | Nixon's call after the grocers | entered, `cal.1967-11-21.elections-1968-3` (the note's memorandum of Nov. 21) |
+| 318 | Sept. 1966 | Johnson to Valenti on leaving | entered, `cal.1966-09.elections-1968-johnson` |
+| 318 | Oct. 1967 | the draft resignation letter | already in, `cal.1967-10.elections-1968-3`: cited, 318 |
+| 332 | Apr. 26, 1968 | dinner at the White House | entered, `cal.1968-04-26.elections-1968-humphrey` |
+| 332 | Apr. 4–22, 1968 | the announcement's drafts (not logged before) | entered, `cal.1968-04-22.elections-1968-humphrey` (R18: a principal's speech in draft) |
+| 342–43 | June 19, 1968 | "He clothed me with nothing" | entered, `cal.1968-06-19.elections-1968-humphrey` (the note's Berman diary, June 19) |
+| 350 | Aug. 1968 | "What would you think if the President should nominate me?" | entered, `cal.1968-08.elections-1968-humphrey-3` |
+| 361 | Aug. 21, 1968 | McClosky's draft speech of resignation | entered, `cal.1968-08-21.elections-1968-humphrey` (R18: a principal's speech in draft; the proposal to Humphrey, Aug. 28, already in) |
+| 374–75 | Sept. 4, 1968 | "I'll take an auto across the country" | entered, `cal.1968-09-04.elections-1968-humphrey`, after the NSC (FRUS 1964–68, VII, doc. 4) |
+
+Rows of other grounds (month only, leads, already in) stand as the Nov. 3–4 table rules them; not this batch's.
+
 ## The press
 
 | Date | Outlet | Item | Page |
@@ -441,3 +481,4 @@ Read again from the owner's copy (the same Drive file, downloaded into the scrat
 - McGrory's column on "Lyndon Johnson's Eleanor Roosevelt" (the *New York Post*, July 1966) and the remark's day (the *Times*, July 26 and 29, 1966).
 - The writers' press conference against Humphrey, 1966 (*Esquire*, Nov. 1966, 106).
 - The rows above marked "to enter" and "month only": 23 events the next run should enter.
+- Muriel Humphrey's question at a White House dinner with the Johnsons, the O'Briens and the Valentis, "Mr. President, why didn't you send Hubert to Churchill's funeral?" (Solberg, 266): the day. Humphrey's "book tapes," n.d., Box 8, Autobiography files, Humphrey Papers. Batch 6.

@@ -50,43 +50,45 @@ Entries mapped: 37; records logged: 34 (found and read 16, found and not read or
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, Nov. 10, 2026): the rows ruled "minor" (papers of government, R8; military matters, R14). Read again from archive.org's DTIC_ADA551509, its OCR text, and the page images of pp. 147, 148, 163, 164 and 180 (leaf = printed page + 9 there). Ten were entered by other runs since and carry Poole's cite; six new entries in `inbox/2026-11-06-b6-poole-joint-chiefs-of-staff.yaml`, witnesses `inbox/witnesses/2026-11-06-b6-poole-joint-chiefs-of-staff.yaml` (4; the ExComm's recording already registered), edges in the by-work file. The leads are left as they were.
+
 Dated events of 1960–Jan. 20, 1969 that the pages read for this pass treat and the calendar does not take, a row each, for the owner to rule on. Method: every dated mention on the pages read for the entries (not the whole volume) was found by pattern; a mention on a day the calendar holds an entry of a related thread (Vietnam, Laos, Defense, Cuba, Berlin, Korea, the alliance, the Middle East and the like) was taken as already in and is not listed; the rest were read and ruled here, the calendar checked by day where the ruling says "already in". (The sentence that stood here, passing over operational detail as a class, is struck: the military re-read below, R14 and R48.)
 
 | Page | Date | Event | Why |
 |---|---|---|---|
 | 31 | June 18–19, 1962 | the Joint Chiefs at Omaha approve SIOP-63, effective Aug. 1 | lead |
-| 31 | Jan. 1, 1964 | SIOP-64 takes effect | minor |
+| 31 | Jan. 1, 1964 | SIOP-64 takes effect | re-ruled Nov. 6: already in since, `cal.1964-01-01.defense-2`, Poole cited at 31; the guidance of Nov. 1962 in too, `cal.1962-11.defense` |
 | 31 | July 1, 1962 | Khrushchev at the Presidium on McNamara's Ann Arbor doctrine | out of the brief |
-| 37 | Feb. 16–17, 1961 | the Joint Chiefs with McNamara on the strategic review | minor |
-| 37 | Aug. 3 and 15, 1961 | the Joint Chiefs' split memorandum; their positions reaffirmed | minor |
-| 82 | June 10, 1961 | the Joint Chiefs on a disarmament proposal | minor |
+| 37 | Feb. 16–17, 1961 | the Joint Chiefs with McNamara on the strategic review | re-ruled Nov. 6: already in since, `cal.1961-02-16.defense`, Poole cited at 37 |
+| 37 | Aug. 3 and 15, 1961 | the Joint Chiefs' split memorandum; their positions reaffirmed | re-ruled Nov. 6: already in since, `cal.1961-08-03.defense-2` and `cal.1961-08-15.defense`, Poole cited at 37 |
+| 82 | June 10, 1961 | the Joint Chiefs on a disarmament proposal | re-ruled Nov. 6: already in since, `cal.1961-06-10.testing`, Poole cited at 82–83 |
 | 85 | Mar. 9, 1962 | Kennedy approves the approach to Geneva | lead |
 | 85 | Apr. 12, 1962 | Kennedy at the White House: reduction by types | lead |
-| 88 | Sept. 15, Oct. 2, 1963 (the page's year) | the Committee of Principals on orbiting weapons; Gromyko's draft declaration | minor |
+| 88 | Sept. 15, 1962; Oct. 2, 1963 | the Committee of Principals on orbiting weapons; Gromyko's draft declaration | re-ruled Nov. 6: both already in since, `cal.1962-09-15.space` (the page's Sept. 15 is 1962: it follows the JCS's advice of Sept. 14, 1962, p. 87) and `cal.1963-10-02.space`, Poole cited at 88 |
 | 88 | Oct. 17, 1963 (the page's year) | the General Assembly, unanimous, against nuclear weapons in orbit | lead |
 | 89 | Jan. 14, 1964 | the White House draft proposing a freeze | lead |
-| 90 | Mar. 12, 1964 | ACDA's freeze proposal circulated | minor |
+| 90 | Mar. 12, 1964 | ACDA's freeze proposal circulated | re-ruled Nov. 6: already in since, `cal.1964-03-12.testing`, Poole cited at 90–91 |
 | 108 | Mar. 17, 1960 | Eisenhower approves the CIA's program against Castro | already in under cal.1960-03-17.cuba |
 | 108 | Nov. 4, 1960 | the CIA changes the exiles' mission | already in under cal.1960-11-04.cuba |
-| 116 | Apr. 26, 1961 | warships off the coast until Apr. 26 | minor |
+| 116 | Apr. 26, 1961 | warships off the coast until Apr. 26 | re-ruled Nov. 6: already in since, `cal.1961-04-26.cuba-bay-of-pigs`, Poole cited at 116 |
 | 118 | May 27, 1961 | Kennedy with the Joint Chiefs after the Bay of Pigs | lead |
 | 126 | Mar. 3–18, 1961 | the Plain of Jars plan; the White House meeting of Mar. 9; Boyle on Phoumi | lead: Laos thread not checked for Mar. 9 |
 | 135 | Apr. 19, May 7, 1962 | Kennedy orders the training teams back from forward positions | lead |
 | 135 | May 12, 1962 | McNamara and Lemnitzer brief the NSC | already in under cal.1962-05-09.vietnam? not checked: lead |
 | 136 | May 22–June 4, 1962 | troops in Thailand; the Mekong plans | lead |
-| 148 | July 12–Aug. 10, 1961 | the Joint Chiefs' Berlin planning | minor |
+| 147–48 | July 12–Aug. 10, 1961 | the Joint Chiefs' Berlin planning | re-ruled Nov. 6: entered as `cal.1961-07-29.berlin-and-vienna-3` (JCSM-508-61), `cal.1961-07-29.berlin-and-vienna-4` (JCSM-502-61, the guerrillas) and `cal.1961-08-10.berlin-and-vienna-2` (Anderson's memorandum); July 12 already in, `cal.1961-07-12.berlin-and-vienna`; July 18's sequence not separately dated on the page (a lead) |
 | 161 | Apr. 5 and 11, 1962 | Mongoose and the Special Group | lead |
 | 161 | May 21–24, June 10, 1962 | the Presidium approves Anadyr; the plan ready | out of the brief (Moscow's decisions); the calendar's Cuba thread not checked for them |
-| 163 | Sept. 5, Oct. 1, 1962 | U-2 coverage; the JSSC's revised report on a blockade | minor |
-| 180 | Oct. 31–Nov. 1, 1962 | the earliest day for an air attack, by the Chiefs' advice | minor |
+| 163–64 | Sept. 5, Oct. 1, 1962 | U-2 coverage; the JSSC's revised report on a blockade | re-ruled Nov. 6: entered as `cal.1962-09-05.missile-crisis-warnings` (Check: the day of the decision) and `cal.1962-10-01.missile-crisis-warnings` |
+| 180 | Oct. 27, 1962 | the earliest day for an air attack | re-ruled Nov. 6: entered as `cal.1962-10-27.missile-crisis-excomm-2`; the page gives it as McNamara's argument at the ExComm of 4 p.m., Oct. 27, not the Chiefs' advice |
 | 198 | Apr. 16, 1962 | Kennedy approves State's program on NATO's nuclear role | lead |
 | 199 | June 13, Oct. 17, 1962 | Finletter told MRBMs not urgent; Norstad to the North Atlantic Council | lead |
 | 201 | Dec. 16 and 21, 1962 | Kennedy's meeting on Skybolt; the Nassau statement | lead: Nassau may be in under another id |
-| 202 | Jan. 2, 1963 (the page prints 1962) | Norstad's change of command | minor |
+| 202 | Jan. 2, 1963 (the page prints 1962) | Norstad's change of command | re-ruled Nov. 6: already in since, `cal.1963-01-02.europe-and-the-alliance`, Poole cited at 202 |
 | 206–207 | Dec. 5–6 and 15–17, 1964 | Johnson's review of the MLF; the North Atlantic Council on the ANF | lead |
 | 242 | Sept. 17 and 26–27, 1962 | Imam Ahmad dies; the Yemeni revolution | lead: the Middle East thread not checked |
-| 242 | Nov. 9, Dec. 30, 1962 | the Joint Chiefs on Saudi Arabia; Egyptian bombing of Nejran | minor |
-| 246 | Oct. 7, 1963 | Gilpatric asks the Joint Chiefs on a limited war in the Middle East | minor |
+| 242 | Nov. 9, Dec. 30, 1962 | the Joint Chiefs on Saudi Arabia; Egyptian bombing of Nejran | re-ruled Nov. 6: already in since, `cal.1962-11-09.middle-east-yemen` and `cal.1962-12-30.middle-east-yemen`, Poole cited at 242 |
+| 246 | Oct. 7, 1961 | Gilpatric asks the Joint Chiefs on a limited war in Iran | re-ruled Nov. 6: the year is 1961 (the page: "During the autumn of 1961"; 246 n.41, DepSecDef to CJCS, 7 Oct 61); already in since, `cal.1961-10-07.middle-east`, Poole cited at 246 |
 
 ## The military re-read (Nov. 5, 2026): chapters 10–11 only
 

@@ -49,6 +49,8 @@ The Miller Center's recordings (Feb. 7, Feb. 8, June 22) are named by their cata
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
+
 Within Jan. 6, 1960–Jan. 20, 1969 and pp. 1–151 only (chapter 1's 1950s are before the brief's span).
 
 | page | date | event | why |
@@ -185,6 +187,8 @@ Patch: `inbox/2026-10-29-republicans-finish.yaml` (republicans-finish, with the 
 
 ## Passed over (pp. 152–207)
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
+
 How made: every dated event in the pages, listed as read; the summaries of polls and returns after the election and the historiography of the Conclusion not listed.
 
 | page | date | event | why |
@@ -205,3 +209,28 @@ How made: every dated event in the pages, listed as read; the summaries of polls
 ## Leads (in notes/leads.md, under Young)
 
 Kitchel on *Meet the Press*, June 14, 1964 (Spivak Papers, cited 247 n.33); the Democratic Study Group's campaign work from 1963; Rockefeller's note of Nov. 13, 1964; the first run's notes, to be logged.
+
+## Batch 6 (Nov. 6, 2026, run Nov. 10–11; 2026-11-06-b6-young-two-suns)
+
+The rows passed over as private, social, minor or a private poll, ruled again under R18 as amended Nov. 6. Patch `inbox/2026-11-06-b6-young-two-suns.yaml`: 10 new entries (claimed in the ledger), 3 cites, 1 src row. Witnesses `inbox/witnesses/2026-11-06-b6-young-two-suns.yaml` (6 rows: Coleman to Goldwater; the Rockefeller paper "John Birch Society"; Louchheim's "Dear Gerry" of June 10 and July 24, 1964; SHR to Jenkins; Rockefeller's note from Madrid); the work's edges appended to `sources/witnesses/by-work/young-two-suns-of-the.yaml` under "# b6" (nine, two of them to cards: Dallek, *Unfinished Life*, 578–79; Goldwater with Casserly, 185–86).
+
+The copy: the same Drive file (1kHiV9VyIYNv836xZHo8ZmDd4bDSaVp3H), by the direct route, 312 PDF pages; printed page = PDF page − 18, as before; the notes of chs. 4 and 5 (pp. 239–40) read off the page image for their numbers, which the text layer drops. Deleted at the end.
+
+| page | date | event | ruling |
+|---|---|---|---|
+| 38 | Aug. 1962 | a poll of thirty-five marginal Democratic seats | entered: cal.1962-08.elections-1962-2 (the poll unnamed; Check) |
+| 41 | 1962 | Johnson silences a critic of Kennedy at the Ranch (Valenti: "in 1962, I guess") | a lead: no month (R15, R50) |
+| 60–61 | Nov. 17, 1962 | Coleman to Goldwater (the note's date) | entered: cal.1962-11-17.goldwater |
+| 71 | Feb. 1964 | Goldwater at the University of Nevada on the Birch Society | entered: cal.1964-02.goldwater-6 (new words, not a repetition) and the paper that quotes them, Mar. 3: cal.1964-03-03.elections-1964-primaries |
+| 78 | Mar. 11, 1964 | Rockefeller to Oregon; Goldwater will sit out Oregon | already in: cited under cal.1964-03-11.elections-1964 (78, A, B) |
+| 104–05 | July 15–16, 1964 | Opinion Research's poll, 80–20; Goldwater's "rejection speech" | entered: cal.1964-07-15.goldwater-3 (a principal's drafting, the remark in private) |
+| 112 | Nov. 27, 1963 | Powell to Johnson after the address | already in: cited under cal.1963-11-27.civil-rights-bill-2 (112, A), with the recording's witness |
+| 122 | late July 1964 | Louchheim's dinner party | entered: cal.1964-07-24.elections-1964-3 (dated to the month by the letter of July 24) |
+| 124 | June 1964 | the Mahons' potluck with the Johnsons | entered: cal.1964-06-10.elections-1964-vice-presidency (dated to the month by the letter of June 10) |
+| 146 | late June 1964 | Carpenter to Johnson on the *Detroit News* | entered: cal.1964-06.elections-1964-johnson (a staff paper, R8; the record not named) |
+| 182 | Oct. 27–28, 1964 | Johnson at Albuquerque | already in: cited under cal.1964-10-28.elections-1964 (182, A); and the memorandum the note gives, SHR to Jenkins, Oct. 12: cal.1964-10-12.elections-1964-johnson |
+| 198 | Nov. 13, 1964 | Rockefeller's note from Madrid | entered: cal.1964-11-13.republican-party (the row's page was 203; the passage is 198, its note 60b) |
+
+The ids of the two entries dated to the month (cal.1964-06-10…, cal.1964-07-24…) keep the letters' days, claimed before the dates were set back to the month.
+
+Leads (National): Johnson silencing a critic of Kennedy at the Ranch, 1962, by Valenti's oral history (Valenti interview, May 25, 1982, pp. 6–7, JFK Library; Young 41, n.27): no month. Katie Louchheim has no name entry: a Part III entry proposed ("Democratic insider and Johnson associate," Young 122; her "Dear Gerry" letters, Library of Congress, cited by Young 122, 124).

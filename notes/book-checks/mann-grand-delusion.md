@@ -55,6 +55,8 @@ An entry dated to the month carries "Check: the day." The Checks the second patc
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled undated for a draft, and the rows "out of the brief" for a journalist's private word to the White House or a press report, in "Re-ruled under R18 as amended (b6)" after "How the list was made" (read Nov. 10, 2026).
+
 Dated events of 1960–Jan. 20, 1969 that the book treats and neither patch enters, for the owner to rule on.
 
 | Page | Date | Event | Why |
@@ -108,6 +110,24 @@ Dated events of 1960–Jan. 20, 1969 that the book treats and neither patch ente
 ## How the list was made
 
 Each chapter's dated events were logged as read (the page, the date, the event, the note and its source), then each was looked for in the calendar on its day in every thread (`./bib find` by date, and a script listing the live entries of the day). The table above is that log less what the two patches enter or edit.
+
+## Re-ruled under R18 as amended (b6, Nov. 10, 2026)
+
+Read again from the owner's copy (the same Drive file, 852 PDF pages with an OCR layer, downloaded into the scratchpad and deleted after; offsets as above, + 20 for pp. 247–502 and + 28 from p. 503; pp. 535 and 777, the notes to ch. 37, checked against their page images, PDF 563 and 805). Patch: `inbox/2026-11-06-b6-mann-grand-delusion.yaml` (b6-mann-grand-delusion: 4 entries added, 2 cites, 1 Check). Witness: Pearson's letter, `inbox/witnesses/2026-11-06-b6-mann-grand-delusion.yaml`; four edges in the by-work file (535 n.44, 547 n.21, 594 n.19, 612 n.8).
+
+| Page | Date | Event | Ruling under R18 as amended |
+|---|---|---|---|
+| 611–12 | July–Aug. 1968 | Humphrey's draft plank; Johnson's hint; the softened version and Johnson's promise of news from Paris | the draft shown July 25 already in (`cal.1968-07-25.elections-1968`, 611 cited there); the softened version and the promise entered, `cal.1968-08.elections-1968-humphrey-2` (a principal's drafting; Check: the day); "within days," no breakthrough: cited under `cal.1968-08-18.vietnam`, unit A; the VFW speech and Boggs already in |
+| 535 | Mar. 15, 1967 | Sidey to the White House on Robert Kennedy | entered, `cal.1967-03-15.robert-kennedy-2` (a correspondent's word to the White House on politics, R13) |
+| 594 | Mar. 11, 1968 | Drew Pearson to Johnson | entered, `cal.1968-03-11.press-and-broadcasting` (a columnist's letter to the President on the war, R13) |
+| 547 | Aug. 6, 1967 | Apple's "stalemate" | already in (`cal.1967-08-07.vietnam`): cited, 547, unit B, with a Check on the day (Mann: Aug. 6); Johnson's reaction ("a Communist"), on the page, entered, `cal.1967-08-07.press-and-broadcasting` (Check: the day) |
+| 452 | July 21, 1965 | the *New York Times* on McNamara's report | the press's routine coverage (R13): a line under "The press" below, no entry |
+
+## The press
+
+| Date | Outlet | Item | Page |
+|---|---|---|---|
+| 1965-07-21 | *New York Times* | McNamara's trip: American forces in Vietnam expected to reach 100,000 by year's end "and possibly considerably more" | 452 (n.41) |
 
 ## Leads
 

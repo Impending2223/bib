@@ -36,6 +36,8 @@ Near matches for a reader: Heller's "Case" (GEN-CEA File) and `x.1963-11-25.walt
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, private remarks, social or a draft, marked in their last cells (batch 6; see the section of that name at the end).
+
 | Page | Date | Event | Why |
 | --- | --- | --- | --- |
 | 360 | Sept. 9, 1965 | Ackley's speech on the war's cost, checked with McNamara | settled (b5): entered, Sept. 9, 1965 |
@@ -93,6 +95,8 @@ Stray ledger line of this run, claimed and not used: `cal.1963-12-08.democratic-
 
 ### Passed over (third run)
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, private remarks, social or a draft, marked in their last cells (batch 6; see the section of that name at the end).
+
 | Page | Date | Event | Why |
 | --- | --- | --- | --- |
 | 3–4 | 1787–1945 | the vice presidency's history | out of the brief (before the span) |
@@ -100,9 +104,9 @@ Stray ledger line of this run, claimed and not used: `cal.1963-12-08.democratic-
 | 9 | 1961–63 | Johnson at the Space Council, the CEEO, the NSC, the leaders' breakfasts; Heller's memoranda to him | a lead (the days) |
 | 10 | 1961 | Karachi: Bashir the camel driver invited; his visit to the U.S., the ranch, Dallas | a lead (the days) |
 | 10 | 1963 | Scandinavia: the Danes' furniture, Norway's banquet, Rovaniemi | a lead (the days) |
-| 11 | 1961–63 | Johnson unhappy; McPherson and the zoo; Edwards the chauffeur | private |
+| 11 | 1961–63 | Johnson unhappy; McPherson and the zoo; Edwards the chauffeur | private — **re-ruled Nov. 6, 2026 (R18 as amended):** Johnson's talk of quitting in 1964 for Southwest Texas State, and his fear that Kennedy would turn to Robert Kennedy in 1968 (private remarks on a career in politics): undated in the vice presidency, a lead (below); McPherson and the zoo, Edwards the chauffeur: stay passed over, remarks with no bearing on public business |
 | 17 | Nov. 22, 1963 | Johnson's calls from the plane to Rose Kennedy and Nellie Connally | minor (condolences) |
-| 18 | Nov. 22, 1963 | Mrs. Johnson and Carpenter in the car; Rayburn's photograph | private remarks |
+| 18 | Nov. 22, 1963 | Mrs. Johnson and Carpenter in the car; Rayburn's photograph | private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1963-11-22.succession-14 (Carpenter and Mrs. Johnson on Texas, a private remark on politics) and cal.1963-11-22.succession-15 (Johnson's toast to Rayburn's photograph) |
 | 21 | Nov.–Dec. 1963 | O'Brien asked to stay; Fortas, Clifford, Rowe consulted; the apology to Rowe | settled (b5): entered, Nov. 1963 (O'Brien asked to stay); cited, Dec. 1, 1963 (Rowe); the consultations with Fortas and Clifford no act dated |
 | 22 | Nov. 25–28, 1963 | Johnson and Fortas approve Katzenbach's commission; Fortas and Katzenbach agree on seven names | settled (b5): entered, Nov. 25–28, 1963 (Check: the days) |
 | 24 | Nov. 1963 | the debate over the address's forum; Humphrey for the Hill | settled (b5): entered, Nov. 1963 |
@@ -161,6 +165,8 @@ Ch. 3: Oct. 1963 (Dirksen and Katzenbach on Air Force One); Dec. 31, 1963, and J
 `x.1964-01-06.obrien-to-johnson-assassination-file` (ch. 3 n.2) and the third run's `x.1964-01-06.obrien-to-johnson-jan-6-1964` (Reports on Legislation): perhaps one memorandum in two files. Kermit Gordon's oral history: the registry's row names other parts (II, III); Bernstein cites IV-1-2 and IV-13, edged to it.
 
 ### Passed over (fourth run)
+
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, private remarks, social or a draft, marked in their last cells (batch 6; see the section of that name at the end).
 
 | Page | Date | Event | Why |
 | --- | --- | --- | --- |
@@ -231,6 +237,8 @@ New, nearly all LBJ Library holdings, unread (`closed archive`): the staff memor
 Near matches for a reader: `x.undated.sargent-shriver-oral-history-interview-lbj` (Bernstein's parts I–IV) and `x.1980-08-20.sargent-shriver-oh-aug-20-1980`, perhaps one series; `x.undated.adam-yarmolinsky-oral-history-interview-lbj` and `x.1970-07-13.adam-yarmolinsky-oral-history-july-13-1970` (pp. 17–19 in both): perhaps one; the Keppel oral histories already registered (`x.1968-07-18.francis-keppel-oral-history-by-john`, `x.undated.francis-keppel-oral-history-by-david`) beside the new `x.undated.francis-keppel-oral-history-interview-lbj`.
 
 ### Passed over (fifth run)
+
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, private remarks, social or a draft, marked in their last cells (batch 6; see the section of that name at the end).
 
 | Page | Date | Event | Why |
 | --- | --- | --- | --- |
@@ -351,16 +359,18 @@ Near matches for a reader: `x.1965-03-22.califano-to-mcnamara-et-al-reports-nos-
 
 ### Passed over (sixth run)
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, private remarks, social or a draft, marked in their last cells (batch 6; see the section of that name at the end).
+
 | Page | Date | Event | Why |
 | --- | --- | --- | --- |
 | 214–15 | 1817–1960 | Selma's history; Clark, Hare, Smitherman, Baker; Smeltzer; Ouellet; the Lewises | out of the brief (b5, R18): before the span; the sketches of the persons no events |
 | 215 | 1961 | Dallas County: 15,115 Negroes of voting age, 156 registered | figures: a lead (the Commission's report) |
-| 216 | Dec. 1964 | Abernathy's jealousy; the party in the Oslo hotel lobby | private |
+| 216 | Dec. 1964 | Abernathy's jealousy; the party in the Oslo hotel lobby | private — **re-ruled Nov. 6, 2026 (R18 as amended):** Abernathy's jealousy: Bernstein cited (216) under cal.1964-12-10.king-3, the limousine at Oslo, entered from Branch (541); the naked chase in the hotel lobby: stays passed over, family and social matters with no bearing on public business on the page |
 | 218 | 1964 | Judge Hare's injunction on 15 organizations and 50 persons | a lead (the day) |
 | 218 | 1964 | the Holiday Inn's rooms; Smeltzer to Smitherman in October | a lead (the days) |
 | 218 | late 1964 | SCLC's Montgomery meeting of about 100: Selma the start | settled (b5): entered, Dec. 1964 |
 | 220 | Feb. 3, 1965 | Hammermill's plant announced for Selma | settled (b5): entered, Feb. 3, 1965 |
-| 222 | Mar. 1965 | Clark in hospital, "The niggers are givin' me a heart attack"; Baker to Louisiana; King in bed | settled (b5): entered, Mar. 1965 (Clark); Baker's respite and King in bed: private |
+| 222 | Mar. 1965 | Clark in hospital, "The niggers are givin' me a heart attack"; Baker to Louisiana; King in bed | settled (b5): entered, Mar. 1965 (Clark); Baker's respite and King in bed: private — **re-ruled Nov. 6, 2026 (R18 as amended):** King in bed and Baker's respite entered as cal.1965-03.voting-rights-selma-5 (the leaders' absences between Jackson's funeral and the march) |
 | 228 | Mar. 8–9, 1965 | Reeb's journey from Boston | minor (his travel; the attack entered) |
 | 230 | Mar. 1965 | sympathy marches in Boston, New York, Chicago, Los Angeles | settled (b5): entered, Mar. 1965; a Check on Mar. 9, 1965 (Detroit) |
 | 234 | Mar. 21–25, 1965 | the march's incidents: a guardsman relieved for spitting on a priest; a driver punched | settled (b5): entered, Mar. 21–25, 1965 |
@@ -383,7 +393,7 @@ Near matches for a reader: `x.1965-03-22.califano-to-mcnamara-et-al-reports-nos-
 | 256 | 1965 | Celler's public fight with Feighan over the joint committee | a lead (the days) |
 | 559 n.5 | 1964 | Schwartz campaigns for Robert Kennedy without clearance | a lead (the days) |
 | 559 n.5 | 1965 | Brody to Califano; Wilson's instructions to Schwartz | a lead (the days) |
-| 559 n.5 | May 3, 1966 | Schwartz to Mace: "Daddy Bird," "Deano" | private remarks |
+| 559 n.5 | May 3, 1966 | Schwartz to Mace: "Daddy Bird," "Deano" | private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1966-05-03.immigration (private remarks on his superiors, the witness registered) |
 | 261–63 | 1907–62 | Carson's life and books | out of the brief (before the span) |
 | 263–64 | 1962–63 | the chemical industry's campaign; Mumford's election of Carson | a lead (the days) |
 | 265 | 1963 | Ribicoff's hearings, Carson a witness | a lead (the day) |
@@ -416,7 +426,7 @@ Near matches for a reader: `x.1965-03-22.califano-to-mcnamara-et-al-reports-nos-
 | 307–09 | 1935–1964 | union security, Taft-Hartley, the right-to-work States | out of the brief (before the span) |
 | 309 | 1965 | Meany asks Johnson's support; "willing to wait" | a lead (the days) |
 | 310 | July 1965 | the farm-labor coalition | settled (b5): entered, July 1965 |
-| 311 | Aug.–Sept. 1965 | Dirksen to Johnson, "I'm committed"; Meany to Dirksen; Mansfield, "no pajama sessions"; Johnson, "a saint" | settled (b5): entered, Aug. 1965 (Dirksen with Johnson), Sept. 1965 (Meany and Dirksen; Mansfield); Johnson's "a saint": private remarks |
+| 311 | Aug.–Sept. 1965 | Dirksen to Johnson, "I'm committed"; Meany to Dirksen; Mansfield, "no pajama sessions"; Johnson, "a saint" | settled (b5): entered, Aug. 1965 (Dirksen with Johnson), Sept. 1965 (Meany and Dirksen; Mansfield); Johnson's "a saint": private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** Johnson's "a saint" entered as cal.1965-09.jobs-and-wages-14b-3 (a private remark on the Majority Leader's conduct of the filibuster) |
 | 312 | Jan.–Feb. 1966 | Lindsay: the strike the "death warrant"; Meany's anger; Johnson's 61 Senators | settled (b5): entered, Feb. 1966 (Lindsay; Meany and Johnson) |
 | 312–13 | later | O'Brien's and Mansfield's reflections | later accounts |
 | 314 | Sept. 29, 1965 | Dirksen, Morse and Albert on the House's home rule bill | settled (b5): entered, Sept. 1965 |
@@ -473,6 +483,8 @@ Not registered (the next reader's): the records of chs. 13 and 15 behind passage
 
 ### Passed over (seventh run)
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, private remarks, social or a draft, marked in their last cells (batch 6; see the section of that name at the end).
+
 | Page | Date | Event | Why |
 | --- | --- | --- | --- |
 | 324–26 | 1887–1959 | Indochina under the French; Hồ Chí Minh; Geneva; Diệm's return; the Trail made a highway | out of the brief (before the span) |
@@ -480,7 +492,7 @@ Not registered (the next reader's): the records of chs. 13 and 15 behind passage
 | 335 | 1961 | McNamara and Webb back Johnson's recommendation of the moon program, "national prestige" | a lead (the memorandum's day; Logsdon and Dupas, n.3) |
 | 335 | early 1964; June 1964 | State drafts a joint resolution at Rostow's urging; Johnson interested, then drops it | settled (b5): cited, Feb. 1964 and June 10, 1964 |
 | 335 | late 1963 | OPLAN 34-A revived and enlarged | settled (b5): cited, Dec. 20, 1963 |
-| 337 | Aug. 4, 1964 | Chayes works over the resolution, Ball approving | passed-over paper (a draft) |
+| 337 | Aug. 4, 1964 | Chayes works over the resolution, Ball approving | passed-over paper (a draft) — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1964-08-04.vietnam-tonkin-8 (the drafting of the administration's resolution for Congress) |
 | 339–40 | Aug.–Nov. 1964 | the triumvirate; Khánh restored; Hương | settled (b5): cited, Aug. 27 and Oct. 24, 1964, each with a Check |
 | 341 | 1964–65 | Mansfield's four letters | a lead (the days; the tree's Dec. 9, 1964, and 1965 letters may be they) |
 | 343 | June 1965, early | the military ask to bomb Hanoi–Haiphong; Mansfield opposes | settled (b5): cited, June 5, 1965 |
@@ -492,9 +504,9 @@ Not registered (the next reader's): the records of chs. 13 and 15 behind passage
 | 351 | 1965; 1967 | Hanoi's debate on the American build-up; Giáp's change to small units | a lead (the days) |
 | 351–52 | 1965–73 | Thayer's and the Pentagon Papers' bombing figures: sorties, tons, losses, costs | figures without a day: a lead (the war table) |
 | 354 | spring 1967 | McNaughton's memoranda: victory no longer an option | settled (b5): entered, Apr.–May 1967 |
-| 355 | July 1967 | Margaret McNamara at Johns Hopkins | private |
+| 355 | July 1967 | Margaret McNamara at Johns Hopkins | private — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1967-07.defense-2 (the assumed name, kept from the press and the President's trip, gives it its bearing); Drea, 173, cited there too |
 | 355 | Feb. 16, 1967 | a close-up photograph of McNamara | minor |
-| 355–56 | 1967 | Allen's briefing of McNamara; Brehm sees him weep | private (undated) |
+| 355–56 | 1967 | Allen's briefing of McNamara; Brehm sees him weep | private (undated) — **re-ruled Nov. 6, 2026 (R18 as amended):** private remarks on the war (McNamara to Allen, "What would you do if you were sitting here?"; his tears before Forrestal's portrait): undated, a lead (below) |
 | 356 | 1968–69 | Gelb carries a set to McNamara at the World Bank; refused | a lead (the day) |
 | 357 | Nov. 1967 | Fowler told to clear McNamara's name; Robert Kennedy urges him to resign with a blast | settled (b5): cited, Nov. 13 and Nov. 28, 1967 |
 | 379 | 1964 | Lippmann and Reston uneasy at the drift to war | a lead (the columns) |
@@ -520,7 +532,7 @@ Not registered (the next reader's): the records of chs. 13 and 15 behind passage
 | 405 | Nov. 9, Dec. 4, Dec. 7, 1964; Jan. 2, 1965 | the talks broken off; the strike; the Greek Theatre; Strong replaced by Meyerson | settled (b5): entered, Nov. 9, Dec. 4, Dec. 7, 1964, Jan. 2, 1965 |
 | 407 | 1966–67 | Reagan's campaign on Berkeley; Kerr dismissed | a lead (the days) |
 | 407 | 1966 | Heller's memorandum on the war's end; McPherson's comment | a lead (the day) |
-| 408 | 1966 | McNamara's and Rusk's children against the war; Rusk at an Army hospital in Saigon | Rusk's son and McNamara's children: private (b5, R18); Rusk at the Army hospital (1966, a year only): a lead |
+| 408 | 1966 | McNamara's and Rusk's children against the war; Rusk at an Army hospital in Saigon | Rusk's son and McNamara's children: private (b5, R18); Rusk at the Army hospital (1966, a year only): a lead — **re-ruled Nov. 6, 2026 (R18 as amended):** the children's and Richard Rusk's opposition to the war: undated, a lead (below); Rusk at the Army hospital, 1966: a lead, as ruled |
 | 408 | 1966 | McPherson's two weeks in Vietnam; his memorandum on the bombing | a lead (the days) |
 | 409 | Oct. 1966 | Mansfield's formula: the bombing ended, a cease-fire, 30,000 out | settled (b5): cited, Oct. 13, 1966 |
 | 409 | 1966 | Cater on the college loan fund; Mayor Lee to Cater | a lead (the days) |
@@ -537,7 +549,7 @@ Not registered (the next reader's): the records of chs. 13 and 15 behind passage
 | 418 | Dec. 4, 1967 | the rat extermination bill passes | settled (b5): entered, Dec. 4, 1967 (Check: the bill and the vote) |
 | 419 | July 28–Aug. 1, 1967 | Detroit: the paratroopers out, the Guard gone, the curfew lifted | settled (b5): entered, July 29 and Aug. 1, 1967 |
 | 422 | Oct. 1967 | Johnson orders the intelligence agencies to track the Mobilization | settled (b5): entered, Oct. 1967 |
-| 424 | Oct. 22, 1967 | the Johnsons drive round the Lincoln Memorial | private |
+| 424 | Oct. 22, 1967 | the Johnsons drive round the Lincoln Memorial | private — **re-ruled Nov. 6, 2026 (R18 as amended):** already in: cal.1967-10-22.war-opposition (by Califano); Bernstein cited there (424), its added details in the parenthetical |
 | 424 | Nov. 22, 1967 | Pollak to Clark: the marshals' force | settled (b5): entered, Nov. 22, 1967 |
 | 531 | Oct. 1965 | Califano to the universities for ideas; the task forces | settled (b5): entered, Oct. 1965 |
 | 532–35 | 1965–76 | the war's costs (deaths, wounds, PTSD, Stevens's $882 billion) | figures, later accounts |
@@ -585,6 +597,8 @@ New, nearly all LBJ Library holdings, unread (`closed archive`): the Legislative
 
 ### Passed over (eighth run)
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, private remarks, social or a draft, marked in their last cells (batch 6; see the section of that name at the end).
+
 How the list was made: as above; each row an event the pages date and treat that took no entry and is not in the tree.
 
 | Page | Date | Event | Why |
@@ -595,8 +609,8 @@ How the list was made: as above; each row an event the pages date and treat that
 | 431 | 1966 | Cohen's 10 percent proposal; Johnson: "Come on, Wilbur, you can do better than that" | a lead (the day; Derthick, 342) |
 | 433 | Jan.–June 1967 | Budget, the Council and the Treasury for a split bill, 12–13 percent, retroactive, as a stimulus; Cohen for 15; dropped | settled (b5): entered, Mar.–June 1967 |
 | 434 | Aug. 1967 | Gardner's attack on the House's welfare amendments, "the real or supposed sins of their parents" | settled (b5): entered, Aug. 1967 |
-| 434 | Sept. 2–14, 1967 | Cohen in Bolivia: the embassy's dinner; his son, a Peace Corps volunteer, at Cochabamba | private |
-| 434–35 | Oct. 25, 1967 | Cohen to Wickenden: "I have never experienced frustration as I am now" | private remarks (registered) |
+| 434 | Sept. 2–14, 1967 | Cohen in Bolivia: the embassy's dinner; his son, a Peace Corps volunteer, at Cochabamba | private — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1967-09-02.welfare (a trip, R15; the embassy's dinner in his honor) |
+| 434–35 | Oct. 25, 1967 | Cohen to Wickenden: "I have never experienced frustration as I am now" | private remarks (registered) — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1967-10-25.welfare (a private remark on public business) |
 | 437 | Dec. 1967 | Meany and Reuther urge Johnson not to sign | in the Jan. 2, 1968 entry's cite; the day a lead |
 | 570 n.3 | Dec. 7, 1966 | Duesenberry to Califano (the Council on the benefits' cost in inflation) | a lead (b5): the note does not state the memorandum's matter |
 | 570 n.4 | Aug. 11, Dec. 19, 1967 | Levine to Califano et al.; Cohen to Cater et al. | registered; their matter not stated |
@@ -635,15 +649,15 @@ How the list was made: as above; each row an event the pages date and treat that
 | 482 | summer 1967 | Johnson asks O'Brien for a campaign plan | in the Sept. 29, 1967 entry |
 | 484 | Jan.–Mar. 1968 | McCarthy's New Hampshire campaign; the students; McGrory's column | settled (b5): cited, Feb. 12, 1968 (the students); entered, Mar. 1968 (McGrory) |
 | 484–85 | Mar. 1968 | Boutin to O'Brien: "I'm under instruction not to be involved with you" | settled (b5): entered, Mar. 1968 |
-| 486 | Mar. 30, 1968 | O'Brien, Breslin and Unruh at Toots Shor's; Unruh's apology the next day | private |
+| 486 | Mar. 30, 1968 | O'Brien, Breslin and Unruh at Toots Shor's; Unruh's apology the next day | private — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1968-03-30.elections-1968-3 (a political exchange at a dinner; Unruh's apology the next day) |
 | 487 | 1964–67 | Lady Bird Johnson's view, spring 1964; Connally, early 1967; Westmoreland, Nov. 1967; Clifford's memorandum on Truman, fall 1967 | a lead (the days) |
-| 487–89 | Mar. 1968 | Johnson's health; Mrs. Johnson's diary of Mar. 10, 14, 17; Kearns on his nights | private |
+| 487–89 | Mar. 1968 | Johnson's health; Mrs. Johnson's diary of Mar. 10, 14, 17; Kearns on his nights | private — **re-ruled Nov. 6, 2026 (R18 as amended):** Mrs. Johnson's diary entered by its days: cal.1968-03-10.elections-1968-johnson, cal.1968-03-14.elections-1968-johnson, cal.1968-03-17.elections-1968-johnson-2 (the President's health bears on his decision); Kearns on his nights, undated ("especially early in 1968"), and the remark to Fulbright of 1965: leads (below) |
 | 490 | Mar. 31, 1968 | Lynda back from California; St. Dominic's; the Humphreys; the Krims | in the Mar. 31 entries (cited) |
 | 492 | May 5–18, 1968 | 1,800 Americans killed, 18,000 wounded | settled (b5): cited, May 5, 1968 |
 | 494 | Apr. 1967 | Ray's escape | in the Mar. 17, 1968 entry |
 | 496 | Apr. 1968 | Carmichael on Radio Havana; Dohrn in Times Square; Johnson's trip to Hawaii and Saigon canceled | settled (b5): entered, Apr. 1968 (Carmichael) and Apr. 4, 1968 (Dohrn); cited, Apr. 6–7, 1968 (the trip put off) |
 | 496 | Mar. 1968 | the cities' and the Army's plans for summer riots; H. K. Johnson to Congress | settled (b5): entered, Mar. 1968 |
-| 501 | Mar. 1968 | Jacqueline Kennedy to Schlesinger; Gary to Salinger | private remarks |
+| 501 | Mar. 1968 | Jacqueline Kennedy to Schlesinger; Gary to Salinger | private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** Jacqueline Kennedy to Schlesinger entered as cal.1968-03.robert-kennedy-campaign-6 (a private remark on a candidacy; Check: the day); Romain Gary to Salinger: undated on the page, a lead (Schlesinger, RFK, 900) |
 | 504–05 | June 1968 | Sirhan's practice, June 2; the funeral; Edward Kennedy's letter to Younger (1969) | settled (b5): entered, June 2, 1968 (Sirhan); the funeral in the tree (June 8, 1968); the letter after the span (out of the brief) |
 | 509 | Apr. 1968 | Humphrey's calls to the governors and mayors; Johnson to stay neutral | in the Apr. 1–3 entries |
 | 512–13 | Aug. 1968 | the Mobilization's and the Yippies' permits refused; Lincoln Park | the Chicago thread's entries (not cited here) |
@@ -701,3 +715,20 @@ May 26, 1963 (Bernstein's Goldwater 40, Rockefeller 29); Mar. 10, 1964 (the Vice
 ### Leads (ninth run)
 
 National: the Hirshhorn act's Statutes cite (Nov. 7, 1966); Reuss's guidepost hearings, Aug. 1966 (no Digest row found by the word); the rat extermination bill's day and vote (Dec. 1967); the Commerce Department's highway beauty regulations (Jan. 28, July 1, 1966; Jan. 16, 1967: the Federal Register); the Cape Cod slicks and the York River spill (the days); Finance's report on H.R. 15414 (Mar. 15, 1968: the report's number). Foreign: none.
+
+## Batch 6 (2026-11-06-b6-bernstein-guns-or-butter), run Nov. 10, 2026: the private, social and draft rows re-ruled under R18 as amended
+
+**The copy.** The owner's Drive PDF (12qiEzZniU-FNF4O8HocS9TpLHFn6xQfT, R54's curl route), 649 PDF pages, text layer; printed page = PDF page − 11 to p. 244, − 27 to p. 404, − 43 after; p. 487 read off the page image, the folio checked on every page read. Deleted when done.
+
+**What was done.** Sixteen rows ruled again (each marked in its last cell): thirteen rows entered (sixteen entries, one of them, Margaret McNamara, cited by Drea too), two cited in entries already in or claimed (the Lincoln Memorial drive; Abernathy's jealousy, under the Branch re-ruling's Oslo entry), leads where the page gives no date. Patch `inbox/2026-11-06-b6-bernstein-guns-or-butter.yaml`: 14 entries claimed in the ledger, 1 more (cal.1967-07.defense-2) claimed for Drea's cite, 2 cites. No new witness rows: the records the notes give for these pages were registered by earlier runs (Carpenter's tape, Schwartz to Mace, Cohen to Wickenden); 3 edges added (18 n.1c; 487 n.4c, Lady Bird Johnson's *White House Diary*; 501 n.7a, Schlesinger's *Robert Kennedy and His Times*).
+
+**For the merger.** cal.1968-03-17.elections-1968-johnson-2 (Mrs. Johnson's diary, "Prometheus Bound") sits beside the ledger's cal.1968-03-17.elections-1968-johnson (b6-longley: "Mrs. Johnson: Humphrey and Rusk the only two speaking out"), perhaps the same day's diary: two units of one record, or one entry; read them together.
+
+### Leads (batch 6)
+
+- National: Johnson's talk as Vice President of quitting in 1964 to head Southwest Texas State, and his fear that Kennedy would turn to Robert Kennedy in 1968 (Bernstein 11): the days (Evans and Novak, *Exercise of Power*, ch. 15; Baker, *Johnson Eclipse*; Kearns, 167–68).
+- National: McNamara with George Allen of the CIA in Carver's place ("What would you do if you were sitting here?"), and before Forrestal's portrait with Brehm, 1967 (Bernstein 355–56): the days (Shapley, *Promise and Power*, chs. 19–20).
+- National: McNamara's children and Richard Rusk against the war (Bernstein 408): the occasions and days (Shapley; Rusk, *As I Saw It*).
+- National: Johnson's nights, "especially early in 1968," and his remark to Fulbright in 1965, "what have you been doing today to damage the Republic?" (Bernstein 488–89): the days (Kearns, *Lyndon Johnson and the American Dream*).
+- National: Romain Gary to Salinger, "your guy will be killed," spring 1968 (Bernstein 501): the day (Schlesinger, *Robert Kennedy and His Times*, 900).
+

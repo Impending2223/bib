@@ -58,6 +58,8 @@ Every entry cited or edited carries a reader's `src` (109): 45 of them map *RN* 
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
+
 Made by reading the span page by page and listing every dated event; "already in" checked with `./bib find -l cal` by day.
 
 | Page | Date | Event | Why |
@@ -130,3 +132,50 @@ Made by reading the span page by page and listing every dated event; "already in
 | 355 | Dec. 1968 | Klein and Ziegler named | undated |
 | 358–61 | Dec. 22, 1968 | Julie Nixon's wedding | out of the brief (private) |
 | 362 | Jan. 19, 1969 | Eisenhower's call | minor (social) |
+
+# Batch 6 (Nov. 6, 2026, run Nov. 10–11; 2026-11-06-b6-nixon-rn)
+
+The rows above passed over as private, social, personal, family, a draft or minor, ruled again under R18 as amended Nov. 6 (the owner: the informal record takes social occasions among principals, favours, private talk of public business or a career in politics, and a principal's drafts). Patch `inbox/2026-11-06-b6-nixon-rn.yaml`: 23 new entries (claimed in the ledger), 12 cites, 1 check, 1 src row. Witnesses `inbox/witnesses/2026-11-06-b6-nixon-rn.yaml` (5 rows: Nixon to Jacqueline Kennedy, her reply, Eisenhower's letter on the ASNE speech, Romney's note of Aug. 9 and his letter after the convention); the work's edges appended to `sources/witnesses/by-work/nixon-rn.yaml` under "# b6" (with Chambers's letter, registered before).
+
+The copy: the same Drive file (1cSYO3uxBPW3hJnQlueDMCJn6m_LXjVij), by the direct route, 1,192 PDF pages; offset as above (printed page = PDF page − 32 for pp. 213–532), confirmed by the folios on pp. 218, 238, 262, 309, 333, 362; pp. 254–55 (the handwritten reply, which the text layer cannot read) and 362 read off the page images. The PDF deleted at the end.
+
+| page | date | event | ruling |
+|---|---|---|---|
+| 218 | Sept. 25, 1960 | Chicago, the airport and ward rallies | already in: cited under cal.1960-09-25.elections-1960-3 (218, B) |
+| 219 | Sept. 26, 1960 | the carpenters' convention | already in: cited under cal.1960-09-26.elections-1960-4 (218–19, B) |
+| 223 | Nov. 8, 1960 | the drive to Tijuana | already in: cited under cal.1960-11-08.elections-1960-7 (223, A-C) |
+| 227 | Jan. 20, 1961 | Strauss's farewell luncheon for the Eisenhowers | entered: cal.1961-01-20.transition-and-staff-2 |
+| 231 | Jan. 21, 1961 | Eleuthera; the law firm | already in: cited under cal.1961-01-21.republican-party (231, B) and cal.1961-02.republican-party-2 (231, D) |
+| 238 | Feb. 1961 | Chambers's last letter (named in the copy note) | already in: cited under cal.1961-02.elections-1962 (238, A, C), with its witness |
+| 238 | July 11, 1961 | Chambers's death | already in: cited under cal.1961-07-09.conservative-movement (238: Woods tells Nixon July 11) |
+| 239–40 | Sept. 25, 1961 | the family's discussion of running | entered: cal.1961-09-25.elections-1962 |
+| 247–48 | Nov. 1962 | Nassau; Bobst urges New York | entered: cal.1962-11.republican-party-4; the move cited under cal.1963-05.republican-party-2 (247–48, A) |
+| 250 | July 1–2, 1963 | Kennedy's call in Rome | entered: cal.1963-07-01.republican-party (a contact of the President with the opposition's leader; Check: the day) |
+| 253 | Nov. 23, 1963 | Nixon's letter to Jacqueline Kennedy | entered: cal.1963-11-23.assassination-5 |
+| 254–55 | Dec. 1963 | her reply, in facsimile | entered: cal.1963-12.republican-party-2 (on his political future; read off the page images) |
+| 262 | Aug. 12, 1964 | Eisenhower on Goldwater, "just plain dumb" | entered: cal.1964-08-12.elections-1964-goldwater (at second hand) |
+| 265 | Jan. 9, 1965 | the resolutions for 1965 | entered: cal.1965-01-09.republican-party (thinking seriously of running again) |
+| 277 | Nov. 8–9, 1966 | El Morocco | entered: cal.1966-11-08.elections-1966-4 (with his forecast against the night's figures) |
+| 278 | Nov. 1966 | Key Biscayne | passed over: a family holiday, by his account "talking about everything except politics" |
+| 279 | Jan. 1, 1967 | the merger with Mitchell's firm | entered: cal.1967-01-01.elections-1968-nixon |
+| 280–81 | Mar. 1967 | Saragat, Fanfani, Brosio, a Belgian | entered: cal.1967-03.europe-and-the-alliance-2 |
+| 281 | Mar. 1967 | the Polish visa refused | entered: cal.1967-03.europe-and-the-alliance-3 |
+| 282 | Apr. 1967 | Satō, Kishi | entered: cal.1967-04.japan |
+| 285 | June 24, 1967 | home to New York | entered: cal.1967-06-24.elections-1968-nixon |
+| 287–88 | Sept. 30, 1967 | Hannah Nixon's death and funeral | passed over: a family matter with no bearing on public business or politics |
+| 302 | Apr. 1968 | Eisenhower's letter on the ASNE speech | entered: cal.1968-04.elections-1968-nixon-2 |
+| 309 | Aug. 1–4, 1968 | Montauk: the acceptance speech drafted | entered: cal.1968-08-01.elections-1968-nixon (a principal's drafting) |
+| 311 | Aug. 8, 1968 | Rockefeller's call of congratulation | already in: cited under cal.1968-08-08.elections-1968-miami-3 (311, B) |
+| 311–12 | late July 1968 | the tentative choice of Agnew | already in: cited under cal.1968-07.elections-1968-nixon (A, B), with a Check (two weeks, with Mitchell, against Sears's ten days) |
+| 312–13 | Aug. 8, 1968 | Finch and Morton asked | already in: cited under cal.1968-08-08.elections-1968-miami-2 (312–13, J) |
+| 314 | Aug. 9, 1968; Aug. 1968 | Romney's note; his letter after the convention | entered: cal.1968-08-09.elections-1968-nixon, cal.1968-08.elections-1968-nixon |
+| 333 | Nov. 6, 1968 | Harlow to O'Brien, the early hours | entered: cal.1968-11-06.elections-1968-4 |
+| 333 | Nov. 6, 1968 | before 3 a.m.: the totals reviewed; calls to Agnew and Rockefeller | entered: cal.1968-11-06.elections-1968-5 |
+| 333–34 | Nov. 6, 1968 | 8:30 a.m.: Nixon and Mitchell | entered: cal.1968-11-06.elections-1968-6 |
+| 335 | Nov. 6, 1968 | the visit to Eisenhower at Walter Reed | already in: cited under cal.1968-11-06.transition-and-staff (335, B) |
+| 358–61 | Dec. 22, 1968 | Julie Nixon's wedding | passed over: a family matter, "as personal and non-political as it possibly could" be, with no bearing on public business |
+| 362 | Jan. 19, 1969 | the inaugural address's last touches; Eisenhower's call | entered: cal.1969-01-19.transition-and-staff-2 (a principal's drafting), cal.1969-01-19.transition-and-staff-3 |
+
+The same-day warnings patch-check prints ("one event?", "a duplicate of") are the series' other entries of those days in the same threads; each new entry is a distinct act, to be kept at the merge.
+
+Not taken here (not this batch's grounds, for a later run under R15): the trip of June 12–July 1963 (Franco, de Gaulle, the Wall, Nasser at Cairo, 248–49), dated to the trip only; Reagan's Southern tour three weeks before the convention (309).

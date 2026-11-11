@@ -216,7 +216,8 @@ National:
 - (Entered with a Check, cal.1960-10-31.elections-1960-2.) Nixon's nightly telecasts of the last week, at Dewey's suggestion (364): the days, from APP's list.
 - Which Toledo text of Oct. 26, 1960 carries the testing pledge (APP lists two).
 - *Six Crises*: the day of publication (March 1962) and the first printing's p. 354, set before the White House's statement of Mar. 20, 1962.
-- (Nov. 3–4.) *Six Crises*, xi–xii: April 1961, Adela Rogers St. Johns's call, Ken McCormick of Doubleday in California the next day, the six crises chosen, the book undertaken. Not entered: the pinpoint test (`is_pin` in `tools/bib/claims.py`) takes no roman folio, so "xi–xii" fails [claims]; a ruling or a fix would let the front matter of any book be cited (*Rights in Conflict*'s "xiii–xiv" is in the same case). The entry would go under Republican Party.
+- (Nov. 3–4; settled Nov. 10 by batch 6: entered as cal.1961-04.republican-party, the roman folio now taken by `claims.ROMAN_PIN`.) *Six Crises*, xi–xii: April 1961, the book undertaken.
+- (Batch 6, Nov. 10.) The rumors of 1961 on the price of Nixon's Beverly Hills house (127): no month; the press of 1961.
 - (Nov. 3–4.) *Newsweek*'s informal poll of the reporters who covered the campaign, Kennedy 37, Nixon 13 (396): the issue.
 - (Nov. 3–4.) Willard Edwards's letter to Nixon on the coverage (419–20), and Dewey's counsel against decisions for sixty days (423 n.15): the dates.
 - (Nov. 3–4.) Press figures for Part III (R13), with the work that treats them (*Six Crises*, 359): David Lawrence, the columnist; Sam Lubell; Ernest K. Lindley of *Newsweek*; Leon Pearson and Elmer Peterson of NBC. And Whittaker Chambers, who has no name entry (cal.1961-02.elections-1962, cal.1961-07-09.conservative-movement).

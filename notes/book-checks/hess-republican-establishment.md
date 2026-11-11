@@ -32,6 +32,8 @@ The Bowling Green speech: Hess and Broder put it "a week before" the House's vot
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6), both tables below: the rows ruled private, social, trivia or "minor" read again from the owner's copy (Drive 1irnV_Id8SqRP-JSXe1U1TkRGmDnYIL7t, fetched whole; printed page = PDF page - 10, checked at pp. 29, 51, 173 and 279 on the running heads). The book has no endnotes: no witnesses. Patch `inbox/2026-11-06-b6-hess-republican-establishment.yaml` (b6-hess-republican-establishment: 8 entries, 1 cite, 1 check). The repetition (p. 20) stands.
+
 Pages 1–70 only. Not listed: the background before 1960 (the convention of 1952, Dewey at Houston, Taft's memorandum, Bliss's Ohio years, the 1958 right-to-work fight), portraits and figures that are not events (the 1966 returns by city, Ford's speech counts, the finance committee's yearly totals beyond the entry, Ripon's budgets).
 
 | Page | Date | Event | Why |
@@ -52,7 +54,7 @@ Pages 1–70 only. Not listed: the background before 1960 (the convention of 195
 | 25–27 | Jan. 1965 | Rhodes to the Policy Committee's chair; Goodell's Planning and Research Committee made for him; Ford fails to replace Arends as whip | undated; to leads |
 | 28 | 1965–66 | Goodell's task forces, Prendergast research director, in the 89th Congress | undated; to leads |
 | 28 | Jan. 1967 | Ford's speech at the session's start: "Republicans will make no such deals" | undated; to leads |
-| 29 | May 1967 | the Democratic National Committee's release on the rent supplements vote, "who voted to let our cities drown" | undated (the day); to leads |
+| 29 | May 1967 | the Democratic National Committee's release on the rent supplements vote, "who voted to let our cities drown" | Re-ruled Nov. 6: entered as `cal.1960-07.elections-1960-nixon` and `cal.1964-07.elections-1964-san-francisco-4` (Check: the days) |
 | 29 | 1960, 1964 | Ford at the conventions, seeking the vice presidency, a lawyer's opinion in his wallet | undated; minor (private) |
 | 30 | July 1960 | Laird vice chairman of the platform committee at Nixon's request; the Compact of Fifth Avenue | in `inbox/2026-10-29-republicans-perlstein-johns.yaml` (`cal.1960-07-26.elections-1960-2`) and `cal.1960-07-22.elections-1960`; Hess and Broder, 30, bear on both |
 | 30 | 1962 | Laird chairs the members' "statement of Republican principles" | in the Perlstein–Johns patch (`cal.1962-06-07.republican-party-congress`); 30 bears on it |
@@ -72,14 +74,14 @@ Pages 1–70 only. Not listed: the background before 1960 (the convention of 195
 | 49–50 | 1965–66 | Bliss's workshops (some twenty thousand workers); the minorities division under Townes | undated; to leads |
 | 50 | fall 1966 | "Opportunities Unlimited", the campus program; Hunger hired mid-1966 | undated; to leads |
 | 50 | 1965–66 | Bliss urges Lindsay to run for mayor; passes word in Massachusetts to clear Brooke's primary | undated; to leads |
-| 51 | mid-1966 | Bliss at a news conference: "You must be new here" | minor (trivia) |
+| 51 | mid-1966 | Bliss at a news conference: "You must be new here" | Re-ruled Nov. 6: entered as `cal.1966-06.republican-party-3` (a party chairman's public word, R9; "mid-1966": Check) |
 | 51–52 | 1965–66 | the Coordinating Committee's papers on civil rights and on extremism; its endorsement of Bliss's statement on Welch | undated; to leads |
 | 52–53 | 1966 | the Coordinating Committee and Bliss on inflation | undated; to leads |
 | 60 | 1961 | Miller and Warner find $750,000 in debts and $25,000 in the bank | undated; to leads with the Feb. 1962 entry |
 | 63 | Jan. 1966 | Campaign Consultants Incorporated founded (Goldberg, Bailey); Deardourff joins, Jan. 1967 | to leads (a firm's founding; the owner to rule) |
 | 63 | Oct. 1966 | Brooke attacks "the extremists of black power and white power" | undated; to leads |
 | 63–64 | Oct. 1966 | Agnew's campaign turns to attack Mahoney, on C.C.I.'s advice | undated; to leads |
-| 64 | Jan. 3, 1966 | Michigan's Fifth District committee (Ford's) presents a thirty-nine-page budget | minor (a local committee's operation) |
+| 64 | Jan. 3, 1966 | Michigan's Fifth District committee (Ford's) presents a thirty-nine-page budget | Re-ruled Nov. 6: entered as `cal.1966-01-03.republican-party` (a party committee's decision, R9: never minor) |
 | 66 | Jan. 1967 | the national committee's meeting at New Orleans | no act given; to leads (its day and decisions) |
 | 69–70 | 1966–67 | Ashbrook, chairman of the ACU, in the House: the ACU staff's twenty-six-page "exposé" of the Ripon Society | undated; to leads (find it in the Record) |
 
@@ -117,8 +119,8 @@ How made: every dated event the pages treat within the brief and its span, liste
 | 151 | 1964 | Nixon's address to the American Society of Newspaper Editors | undated in the book; to leads |
 | 157 | 1966 | Nixon's endorsement of Percy's All-Asian Peace Conference, at a press conference | undated |
 | 171 | Aug. 1964 | Nixon's letter to Goldwater on "extremism in defense of liberty," and Goldwater's reply | undated; to leads |
-| 173 | Sept. 1966 | Nixon at Casper, Wyo., the local stories | minor (an operation below the calendar's level: one campaign stop of many) |
-| 185, 195, 228, 231, 279 | 1965–67 | the Gridiron dinners | minor (social) |
+| 173 | Sept. 1966 | Nixon at Casper, Wyo., the local stories | Re-ruled Nov. 6: entered as `cal.1966-09-22.elections-1966` (R9 and R15: a campaign stop is an entry; the day from the local headlines Hess and Broder print, 173–74) |
+| 185, 195, 228, 231, 279 | 1965–67 | the Gridiron dinners | Re-ruled Nov. 6: no longer social (the parties' spokesmen before the press, R9, R13): 185 entered as `cal.1966-03-12.press-and-broadcasting` (Check: the day, by Nixon's account of the morning after); 228 as `cal.1967-03.press-and-broadcasting`; 231 as `cal.1967-03.republican-party-5` (Percy at Hastings); 279 cited under `cal.1967-03.robert-kennedy`, with a Check (late March, Reagan the Republicans' speaker); 195, Nixon's humorous Gridiron speech, undated: a lead |
 | 202 | Jan. 1967 | Percy's housing plan unveiled in the session's first week | entered at its introduction (`cal.1967-04.republican-party-congress-3`) |
 | 254 | Jan. 4, 1966 | Reagan's announcement | already in (`cal.1966-01-04.states-and-cities`) |
 | 267 | 1966 | Reagan on *Meet the Press* on the Rumford Act | undated: the programs of Jan. 9 and Sept. 11, 1966 both list him; to leads |
@@ -130,10 +132,12 @@ How made: every dated event the pages treat within the brief and its span, liste
 | 352 | Apr. 1967 | Florida's court-ordered special election of the legislature: Republicans 20 of 48 Senators, 39 of 119 Representatives | to leads (the day and the canvass) |
 | 357 | Apr. 1967 | Wallace to Ted Knap: $1 million raised toward $10 million | a journalist's interview; to leads (the column) |
 | 357 | spring 1967 | Wallace's northern speeches | undated |
-| 366 | 1967 | Rhodes's toast to Johnson at a White House dinner | minor (social) |
+| 366 | 1967 | Rhodes's toast to Johnson at a White House dinner | Re-ruled Nov. 6: no longer social (a Governor's toast on the war at a White House dinner after a Vietnam briefing, R7, R9); the book gives the year alone (1967): a lead |
 | 388 | autumn 1966 | Hatfield's "Prelude to Manila," a half hour on statewide television | undated (the day); to leads |
 | 389 | 1966–67 | Hatfield to the Harvard Young Republican Club on Vietnam | undated; to leads |
 
 ## Leads (in notes/leads.md, National, the Hess and Broder line)
 
 The Wednesday Group's founding; Scott's California speech; the House Republicans' "State of the Union" of Jan. 1967; Nixon's letter on extremism, Aug. 1964; Reagan on *Meet the Press* on Rumford; Florida's special legislative election, Apr. 1967; Wallace to Knap; Hatfield's "Prelude to Manila" and Harvard speech; Reagan's 1967 budget and tuition acts.
+
+Batch 6 (Nov. 6, 2026), National: Nixon's humorous speech to the Gridiron Club (Hess and Broder 195), undated; Rhodes's toast to Johnson at a White House dinner after the Governors' Vietnam briefing of 1967 and Johnson's note on his place card (366), the day not given; the Gridiron Club's spring dinners of 1966 and 1967, their days (the Club's records; the *Post*'s and *Star*'s society pages).

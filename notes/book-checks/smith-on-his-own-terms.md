@@ -34,6 +34,8 @@ New York, 1960: Rockefeller's veto of the one-year residence bar to welfare (Mar
 
 ## Passed over (pp. 333-45)
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
+
 | page | date | event | why |
 |---|---|---|---|
 | 333 | Mar. 30-31, 1960 | the judgeships deal; Mahoney's and Rockefeller's words at 3 a.m. | minor: the words; a lead for the thirteenth judgeship's message of necessity; b5: entered (see "Batch 5") |
@@ -98,6 +100,8 @@ Cites added to other entries the pages bear on: cal.1963-09-07.republican-party 
 Aug. 5, 1963 (no pledge to Goldwater "if he were a captive of the radical right"); Sept. 1963, Roanoke and the Illinois and Virginia visits; Sept. 1963, the European tour (de Gaulle, Adenauer, Berlin, Paul VI, Macmillan at Chequers); Sept. 25, 1964, Goldwater and Rockefeller at Albany; Sept. 3-5, 1966, the beaches, "the big blooper"; mid-Oct. 1966, Quayle's poll for NBC; Oct. 21, 1966, the *Daily News* straw poll; Oct. 28, 1966, "to mug, to purse-snatch"; Mar. 23, 1968, Nixon to Safire, "It was the polls"; Apr. 10, 1968, the legislators' pension plan; Oct. 28, 1968, Nixon and Rockefeller at Albany; Nov. 5, 1968, the Pierre.
 
 ## Passed over (the pages read this run)
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
 
 Made by reading each page read this run (405-7, 413-19, 446-47, 451-53, 487-94, 502-3, 506, 516-17, 523-26, 541) for every dated event and setting each against the calendar and the ledger.
 
@@ -176,6 +180,8 @@ The July 1960 convention (07-22, 07-23-2, 07-24, 07-26.republican-party); Javits
 - The Oregon count: Smith, 438, ninety-three thousand to seventy-eight thousand; the entry, 94,190 to 79,169 (no Check: Smith rounds; the entry's figures stand).
 
 ## Passed over (pp. 346-447, 452)
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
 
 Made by reading each page for every dated event and setting each against the calendar and the ledger (`./bib ledger find`, and a grep of the calendar's `c` for names and words).
 
@@ -365,6 +371,8 @@ Pp. 454-86, 495-501, 504-5, 507-22, 523-24 (Logue), 526 (Singletary), 527-40, 54
 - Smith's note to 462 dates the *Times* on Spad and Young Feb. 5, 1968, for 1965 (a misprint; the edge goes to Feb. 5, 1965).
 
 ## Passed over (the pages read this run)
+
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
 
 Made by reading each page above for every dated event, then setting each against the calendar and the ledger; what follows is each event the pages treat and the run did not enter or cite.
 
@@ -626,6 +634,8 @@ cal.1960-07-22.elections-1960 (346, C); cal.1960-07-26.republican-party (348, C)
 
 ## Passed over (batch 5)
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
+
 Made by reading each page of the rows above for every dated event the rows name, and setting each against the calendar and the ledger.
 
 | page | date | event | why |
@@ -663,3 +673,80 @@ Made by reading each page of the rows above for every dated event the rows name,
 ## leads.md items settled by this run
 
 459 (in part: the Office of Collective Bargaining; the primary law and the Historic Trust stay), 461, 463, 464, 468 (in part: the loan of Sept. 1960; the rest stays), 471, 1781, 1782, 1783, 1785, 1789, 1790, 1799.
+
+# Batch 6 (Nov. 6, 2026, run Nov. 10–11; 2026-11-06-b6-smith-on-his-own-terms)
+
+Every row of the five runs' Passed over (and batch 5's) whose ground was private, social, personal, family, a remark, a repetition or minor, ruled again under R18 as amended Nov. 6 (the informal record takes social occasions among principals, favours asked of or granted by an officeholder, anything said or done in private about public business or a career in politics, a principal's drafts). Patch `inbox/2026-11-06-b6-smith-on-his-own-terms.yaml`: 40 new entries (claimed in the ledger), 1 cite. Witnesses `inbox/witnesses/2026-11-06-b6-smith-on-his-own-terms.yaml` (15 rows: the Pearson diaries of July 25, 1960, Dec. 28, 1961, Dec. 19, 1967; Rockefeller to Perkins; the cable to Boyer; Tod Rockefeller to Blanchette Rockefeller; the *Times* of May 12, 1960 and Mar. 21, 1964; the *Herald Tribune* of Nov. 21, 1965; JDR 3rd's diary and the letter to Winthrop Rockefeller, June 1968; the Steven Rockefeller and Spagnoli interviews by Morrow; the Cargo and Albright interviews by Smith); Smith's edges appended to `sources/witnesses/by-work/smith-on-his-own-terms.yaml` under "# b6" (24). Cards made first (R53): `w.buckley-flying-high`, `w.desmond-nelson-rockefeller`, `w.root-persons-and-persuasions`; Schlesinger's *Journals* is `w.journals-1952-2000` (the card `works new` found).
+
+The copy: the same Drive file (1Y572A1k7PdvXl8CFInR9gS7gphe84TET), by the direct route, 920 PDF pages; printed page = PDF page − 54 (the running heads on pp. 337, 346, 356, 365, 376, 386, 407, 417, 429, 443, 453, 498, 519, 533, 539, 542), the notes by page and catchword. Deleted at the end.
+
+| page | date | event | ruling |
+|---|---|---|---|
+| 337–38 | May 11, 1960 | John D. Rockefeller Jr. dies at Tucson | entered: cal.1960-05-11.elections-1960-rockefeller (Smith: his passing, it was said, freed Nelson of restraint) |
+| 346 | July 23, 1960 | Rockefeller met at Chicago by Peters's band | entered: cal.1960-07-23.elections-1960-rockefeller (a trip, R15) |
+| 348 | July 25–26, 1960 | Riland meets Happy Murphy | passed over: personal, with no bearing on public business |
+| 348 n. | July 25, 1960 | Tod Rockefeller on the Nixon button (Pearson diary) | entered: cal.1960-07-25.elections-1960-rockefeller |
+| 349 | Aug. 1960 | Kissinger finds Rockefeller low at Seal Harbor | entered: cal.1960-08-14.elections-1960-rockefeller |
+| 356 | Feb. 13, 1961 | Bartlett asks that Kennedy may walk the grounds at Foxhall Road | entered: cal.1961-02-13.elections-1964 (a favour asked of and granted by an officeholder) |
+| 358 | Mar. 2, 1961 | the Executive Mansion fire | entered: cal.1961-03-02.states-and-cities |
+| 359, 405 | May 1961 | Happy Murphy leaves the governor's staff | entered: cal.1961-05.elections-1964 |
+| 359 | May 1961 | Rockefeller to Desmond: "Something may happen to take me out of the picture" | entered: cal.1961-05.elections-1964-2 |
+| 359 | summer 1961 | the separation statement given Hughes | already in: cal.1961-06.elections-1964 (359 cited) |
+| 405–06 | 1961–62 | the courtship | passed over: personal, without a day; its public acts (the separation, the divorces, the marriage) are in |
+| 365 | Dec. 1961 | Kennedy to Katharine Graham: "No man would ever love love more than he loves politics" (Pearson diary, Dec. 28) | entered: cal.1961-12.elections-1964 |
+| 365–68 | Nov. 18–29, 1961 | Michael lost; the search; the Seventh Fleet's carrier declined; home Nov. 29 | entered: cal.1961-11-19.elections-1964 (the news, the departure), cal.1961-11-22.elections-1964 (the cable to Boyer, Gilpatric asked for helicopters, the carrier declined), cal.1961-11-29.elections-1964 (Idlewild) |
+| 368–69 | Sept. 1962; Jan. 1964 | the Asmat exhibition; Michael declared dead | passed over: family, with no bearing on public business |
+| 376 | Feb. 1, 1962 | Tod Rockefeller to Reno | entered: cal.1962-02-01.elections-1964 (the divorce's first step; Check: her letter's date) |
+| 376 | Feb. 1962 | Pearson's column on the Murphys | entered: cal.1962-02.press-and-broadcasting |
+| 376–77 | Feb.–Apr. 1962 | Joan Crawford, the gossip columns | passed over: gossip, with no bearing on public business |
+| 377 n. | Dec. 20, 1961 | Lady Jeanne Campbell, *Evening Standard*, names Happy Murphy | entered: cal.1961-12-20.press-and-broadcasting |
+| 384 | Nov. 1962 | the press conference after the election | entered: cal.1962-11.elections-1962-2 (the day not given; not in the calendar, so not a repetition) |
+| 386–89 | 1961–63 | the staff's stories (the painting, the Ming ashtray, the gifts, the soldier's fare) | passed over: an office's anecdotes, without a day, with no bearing on public business |
+| 387 n. | Sept. 1961 | Laurance Rockefeller's $30,000 loan to Miller, arranged by Nelson | entered: cal.1961-09.republican-party (a favour to an officeholder) |
+| 392–93 | Dec. 31, 1962 | the New Year's Eve dinner | entered: cal.1962-12-31.states-and-cities |
+| 403–04 | 1960–63 | Kykuit's contents divided; the Eyrie razed | passed over: family property |
+| 407 | May 4, 1963 | Rockefeller telephones Goldwater after the wedding | entered: cal.1963-05-04.elections-1964-3 |
+| 417 | Nov. 21–22, 1963 | Eisenhower honored at Columbia; at the luncheon for the UN with U Thant | Columbia already in: cited under cal.1963-11-21.elections-1964-2 (417, A); the luncheon entered: cal.1963-11-22.republican-party |
+| 423 n. | Jan. 1964 | Cotton to Kleindienst on Doloris Bridges | entered: cal.1964-01.elections-1964-goldwater-3 |
+| 429 | Dec. 1963 | Price at dinner at 812 Fifth Avenue | entered: cal.1963-12.elections-1964-10 (Hinman and Brownell on Johnson) |
+| 434 | Mar. 20, 1964 | "This is my primary responsibility" | entered: cal.1964-03-20.elections-1964-primaries (not in the calendar; new words); and, on the page, the Albany mall's plans on the plane from Portland: cal.1964-04.states-and-cities |
+| 442–43 | May 1964 | Grindle's envelopes; the bag handed over at Denver | entered: cal.1964-05.elections-1964-primaries-7 |
+| 443 | June 1964 | Grindle and Rockefeller at Margate | entered: cal.1964-06.elections-1964-scranton-2 |
+| 453–54 | July 17–Oct. 1, 1964 | the Murphy custody case at White Plains | passed over: a family suit, with no bearing on public business |
+| 455 n. | early 1965 | King on SNCC: "just like Rockefeller's wife" | entered: cal.1965-01.civil-rights-organizations (Check: the day; Branch, 130) |
+| 456 | Nov. 1964 | two weeks in Spain | entered: cal.1964-11.republican-party-8 (his note to Goldwater from Madrid is Young's, cal.1964-11-13.republican-party, pending) |
+| 457 | Jan. 20, 1965 | the inaugural parade; the governors' reception | entered: cal.1965-01-20.republican-party |
+| 461 | 1964–65 | Joan Braden's crossed letters | passed over: personal, without a day, no bearing on public business |
+| 473 | Nov. 1965 | "Where are they going to go?" | entered: cal.1965-11.republican-party-3 (new words on the county leaders, not a repetition) |
+| 479 | 1966 | the Plaza: "Why do you think he hates me so?" | a lead: no month |
+| 480–81 | 1966 | "They're going right after the State University" | a lead: no month |
+| 495 n. | 1960s | the Legislative Correspondents' dinner, the Lockport item | passed over: a dinner's joke, without a year, no bearing on public business |
+| 498 | May 1967 | an informant on Reagan: "a presence, not a Governor" | entered: cal.1967-05.elections-1968-4 |
+| 500 | 1966–67 | Rockefeller on Lindsay to Shalala and Rosenbaum; Allen's remark | a lead: no month |
+| 501 | 1966–67 | Lindsay and Rockefeller argue architecture | a lead: no month |
+| 518 | 1960s | the rumors of Rockefeller's women | passed over: gossip, without a day or an act |
+| 519 | Dec. 19, 1967 | the pre-Christmas dinner, Pearson, Bradlee, Kraft | entered: cal.1967-12-19.press-and-broadcasting |
+| 519–20 | June 1967 | Happy Rockefeller's birthday dinner dance | entered: cal.1967-06.elections-1968-6 (Check: Smith's note gives the *Times* of Jan. 10, 1967) |
+| 519 | 1968 | the Westchester Republicans' dinner, Excalibur | a lead: a party dinner, no month |
+| 521 | late 1967 | *Good Housekeeping*'s photographs at Pocantico | passed over: a family picture story, with no bearing on public business |
+| 529 | May 1968 | "In 1960 they say I dropped out too soon" | entered: cal.1968-05.elections-1968-republican-nomination-5 (a stump line, not a position repeated) |
+| 533–34 | June 6, 1968 | Rockefeller and Steven in the Kykuit garden | entered: cal.1968-06-06.elections-1968-republican-nomination (his son joins the campaign) |
+| 535 | June 16–17, 1968 | the family's letter to Winthrop Rockefeller | entered: cal.1968-06-16.governors (his drinking a danger to his re-election, by the letter) |
+| 535 | July 1968 | lunch at Wallace's table, the cigar | entered: cal.1968-07.states-and-cities (Check: the conference and the day) |
+| 536 | Aug. 1968 | Breslin at the Americana | passed over: a columnist's aside, to no one named, no act |
+| 538 n. | Aug. 1968 | Spagnoli and Buchanan on a running mate | entered: cal.1968-08.elections-1968-miami-3 |
+| 538 | Aug. 7–8, 1968 | Breslin: "What's the use?" (batch 5's row) | passed over: as above |
+| 539 | Aug. 1968 | Seal Harbor; the letter to Ann Whitman | entered: cal.1968-08.elections-1968-republican-nomination |
+| 539 | Aug. 13, 15, 1968 | d'Harnoncourt killed; the eulogy | passed over: a friend's death, with no bearing on public business |
+| 542 | Jan. 11–12, 1969 | Camp David with the Johnsons | entered: cal.1969-01-11.transition-and-staff |
+| 542 | Jan. 12, 1969 | the telegram to Agnew on the Super Bowl | passed over: a joke on a game, with no bearing on public business (Smith's note dates it Jan. 19) |
+
+Not this batch's grounds, and standing: 490 (Johnson in Manhattan not meeting O'Connor: no act); 542 (Callaway's later judgment).
+
+Same-day warnings in patch-check ("one event?", "a duplicate of") name the threads' other entries of those days; each new entry is a distinct act, to be kept at the merge.
+
+## Leads (batch 6)
+
+- States and cities: Rockefeller's remarks on Lindsay, 1966–67, to Shalala ("If New York City was dumb enough to become a state ..."), to Rosenbaum, and Allen's (Smith 500, no month); the argument over architecture at Rockefeller's apartment (501, no month); "Why do you think he hates me so?" at the Plaza (479, no month).
+- States and cities: "They're going right after the State University" (480, no month; the decision on a third term).
+- National: the Westchester County Republicans' annual dinner at the Commodore, the Excalibur sword (519, O'Shaughnessy's interview; no month).

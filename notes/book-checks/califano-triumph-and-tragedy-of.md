@@ -59,17 +59,19 @@ Entered: McGrory's column in the *Evening Star*, Jan. 16, 1966 (170–71: `cal.1
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6): the rows ruled private, social, personal, family, trivia or "minor" read again from the owner's copy (the same Drive file; the offsets above held, checked again at pp. 168, 223, 336 against the running heads and at 223 and the note page 368 against the images); patch `inbox/2026-11-06-b6-califano.yaml` (b6-califano: 5 entries, 1 cite, 1 check), witnesses `inbox/witnesses/2026-11-06-b6-califano.yaml` (6), edges in the work's by-work file (7). Each re-ruled row says so in its last cell.
+
 Pages are printed pages. How the list was made: each dated event the text treats, page by page, noted as read and compared with the calendar's entries of its day and thread (`./bib find`, `./bib ledger find`); then a second pass, a script listing every date the text prints that no op of the two patches touches, each ruled by hand. Those the calendar holds took their cite (the third patch). What remains:
 
 | page | date | event | why |
 |---|---|---|---|
-| 12 | Feb. 1960 | Califano for Kennedy after reading Burns's book; doorbells on the Lower East Side | minor: the author's own campaigning, no public role then |
+| 12 | Feb. 1960 | Califano for Kennedy after reading Burns's book; doorbells on the Lower East Side | Re-ruled Nov. 6: passed over still: a volunteer's months of campaigning, no public role then (R7 reaches a person with a public role) and no dated act |
 | 23–24 | 1934, 1937 | Rebekah Johnson's letters to her son | out of the brief: before the span |
 | 32 | Mar. 1965 | Westmoreland's further requests | not dated past the month in the book; the calendar's force-level entries hold them |
 | 55 | Feb. 26, 1965 | "a young Selma black ... shot and clubbed to death" | already in (Jimmie Lee Jackson shot at Marion, `cal.1965-02-18.voting-rights`; his funeral, Mar. 3); the book's place and manner differ: not cited |
 | 55 | Mar. 9, 1965 | the Boston minister beaten at Selma | already in (`cal.1965-03-10.voting-rights`, Reeb); one clause, not cited |
-| 168 | early July 1965 | Johnson's order that every aide carry a portable radio tuned to the news | minor: office routine |
-| 26 | n.d. | Johnson orders Connor off the golf courses on weekends | minor: a private order on a Cabinet officer's weekends, undated |
+| 168 | early July 1965 | Johnson's order that every aide carry a portable radio tuned to the news | Re-ruled Nov. 6: entered as `cal.1965-07-14.press-and-broadcasting-2` (the order, by Valenti's call, and Califano's memoranda of July 14–15, 168 n.4) |
+| 26 | n.d. | Johnson orders Connor off the golf courses on weekends | Re-ruled Nov. 6: no longer minor (an order on a Cabinet officer's public image, R7); the book gives no year or month: a lead (R15, R50) |
 | 95 | n.d. | the 120 days' notice to the Armed Services committees for base closings | a statutory rule, not an event; lead (the act) |
 | 106 | mid-1965 | Martin's hints that he might raise rates | not dated to a month; lead |
 | 108 | Nov. 30, 1965 | the White House says the President will meet the Quadriad | in `cal.1965-12.economy` and the discount rate's entries |
@@ -89,10 +91,10 @@ Pages are printed pages. How the list was made: each dated event the text treats
 | 195 | Oct. 1967 | the railroad shopcraft settlement imposed | lead: the arbitration board's award and its day |
 | 197 | Dec. 1966 | Johnson's order that Hershey put Negroes and Mexican Americans on the draft boards | lead: the order's day |
 | 202 | Dec. 24–25, 1967 | Johnson to Califano on Brewster's letter | in `cal.1967-12-21.draft` (the letter) and `cal.1967-12.draft` |
-| 219 | Nov. 9, 1960 | Johnson's belief that Kerner helped carry Illinois | minor: a suspicion, no act |
+| 219 | Nov. 9, 1960 | Johnson's belief that Kerner helped carry Illinois | Re-ruled Nov. 6: cited already under `cal.1967-07-27.civil-disorders` (219–20, Kerner chosen); the belief is Johnson's motive there, no act of Nov. 9, 1960 |
 | 220 | Mar. 1968 | Kerner nominated to the Seventh Circuit | lead: the nomination's day (the Record) |
 | 220 | Feb. 19, 1973 | Kerner convicted | out of the brief: after the span |
-| 223 | Sept. 7–8, 1967 | Johnson reads the governors' statements on Romney at the Ranch | minor: no act |
+| 223 | Sept. 7–8, 1967 | Johnson reads the governors' statements on Romney at the Ranch | Re-ruled Nov. 6: entered as `cal.1967-09-07.elections-1968` (the Daily Diary, 223 n.32); 222 cited under `cal.1967-09-06.elections-1968`, with a Check |
 | 226 | Dec. 1, 1968 | JOBS: 100,000 hard-core unemployed trained and hired | lead: the report's day |
 | 243 | June 17, 1967 | the advisers agree on asking a tax increase after the recess | in `cal.1967-06-12.economy-surcharge` |
 | 244 | 1967 | Boyd's telegram to the governors on highway funds | lead: its day |
@@ -102,17 +104,17 @@ Pages are printed pages. How the list was made: each dated event the text treats
 | 277 | May 1965 | Johnson orders the wiretap on King stopped | lead: the day and record |
 | 277 | Apr. 19, 1967 | the FBI's report on King to the President | lead: the document (LBJ Library) |
 | 282 | Apr. 8, 1968 | threats against the President reported | in `cal.1968-04-09.king` (cited) |
-| 294 | Oct. 1968 | Johnson on Mrs. Kennedy's marriage to Onassis | minor: a private remark |
+| 294 | Oct. 1968 | Johnson on Mrs. Kennedy's marriage to Onassis | Re-ruled Nov. 6: passed over still: a remark on a family matter (Mrs. Kennedy's marriage), no bearing on public business |
 | 304 | Dec. 1969 | the violence commission's report | out of the brief: after the span |
 | 326 | Apr. 30, 1968 | the Pope's invitation delivered by Raimondi | in `cal.1968-04-27.vietnam-paris-2` |
 | 328–29 | 1976 | Humphrey's memoir; Califano's letter | out of the brief: after the span |
 | 332 | Dec. 1968 | Fowler leaves the Treasury | the Executive roster's |
-| 336 | Sept. 19, 1967 | the state dinner for Saragat; Califano's parents | minor: social |
+| 336 | Sept. 19, 1967 | the state dinner for Saragat; Califano's parents | Re-ruled Nov. 6: the state dinner entered as `cal.1967-09-19.europe-and-the-alliance` (the toasts, 1967 Pub. Papers 846; the Daily Diary, 336 n.18); Califano's parents in the receiving line passed over: family, no bearing on public business |
 | 337–38 | Jan. 20, 1969 | the inauguration, the flight to Texas | already in |
 | 243 | 1967 | Johnson's word to the Greek junta on Andreas Papandreou, on Califano's note | not dated in the book past the year; lead |
-| 249 | fall 1967 | Johnson to Jim Jones on McNamara's health | minor: a private remark, one evening, undated |
+| 249 | fall 1967 | Johnson to Jim Jones on McNamara's health | Re-ruled Nov. 6: entered as `cal.1967-10.defense-clifford` (by Jones's interview with the author, 249 n.18; "the fall of 1967": Check: the day) |
 | 260 | late 1967 | Lindsay tells reporters of an interim report to sway the budget; Johnson's reply through Califano | not dated in the book; lead |
-| 171 | n.d. | the White House dinner: Joan Crawford and Cathy Douglas | minor: social |
+| 171 | n.d. | the White House dinner: Joan Crawford and Cathy Douglas | Re-ruled Nov. 6: entered as `cal.1967-01-17.press-and-broadcasting` (the dinner of Jan. 17, 1967, by the toast, 1967 Pub. Papers 26, and the Daily Diary, 171 n.11; the columns and the blame for the leak) |
 
 ## Leads (for notes/leads.md)
 
@@ -126,4 +128,5 @@ Pages are printed pages. How the list was made: each dated event the text treats
 - National: Califano's own records (DG, TL, SP, 69N) at the LBJ Library (345), the witnesses' roots for some 150 entries: their finding aid, to read the dates where the book and the Daily Diary differ.
 - National: the *Times*'s editorial on Demonstration Cities, May 15, 1966 (131), to enter it read.
 - Foreign: Andreas Papandreou's arrest, Apr. 1967, and Johnson's word to the junta (243).
+- National (batch 6): Johnson's order keeping Connor off the Chevy Chase and Burning Tree golf courses on weekends (Califano 26): no date in the book; Connor's tenure (Jan. 1965–Jan. 1967) bounds it.
 - Executive roster: Lee White to the Federal Power Commission, Mar. 1966 (140); Kerner to the Seventh Circuit, Mar. 1968 (220); Fowler's departure, Dec. 1968 (332).

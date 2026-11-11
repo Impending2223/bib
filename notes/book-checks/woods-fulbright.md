@@ -62,6 +62,8 @@ Cites (141) on entries the calendar holds, among them the 1998 runs' entries of 
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the same Drive copy, printed page = PDF page − 26; the pages cited read off their images at 60 dpi as well as the text: 256, 257, 262, 293, 294, 300, 305, 317, 325, 357, 370, 386–90, 396, 404, 423, 424, 440, 449, 479, 491, 492, 501). Patch `inbox/2026-11-06-b6-woods-fulbright.yaml` (30 entries); witnesses `inbox/witnesses/2026-11-06-b6-woods-fulbright.yaml` (19), edges in the by-work file. The rows that were leads only are left as they were.
+
 Made from every page of 250-502, after the entries and cites above. Events already in the calendar and not cited (the book's sentence too thin for the entry's units) are listed as such.
 
 | page | date | event | why |
@@ -69,11 +71,11 @@ Made from every page of 250-502, after the entries and cites above. Events alrea
 | 250 | fall 1959 | Fulbright's speeches against Eisenhower | out of the brief: before the span |
 | 251-52 | May 1960 | the Senate authorizes the U-2 inquiry; Eisenhower promises cooperation | lead: the days (*Arkansas Democrat*, May 26, 1960) |
 | 255 | Nov. 1960 | *Time*'s lead article: Fulbright sure for State | lead: the issue |
-| 256-57 | Dec. 1960 | Gene Farmer of *Life* calls Fulbright in Fayetteville | minor: a reporter's inquiry |
+| 256-57 | Dec. 1960 | Gene Farmer of *Life* calls Fulbright in Fayetteville | re-ruled Nov. 6: entered as `cal.1960-12.transition-and-staff-cabinet-10` (the call and the family conference; Check: the day) |
 | 257-58 | Dec. 1960 | L. C. Bates to Kennedy; Acheson to Kennedy against Fulbright | lead: the days |
 | 258-59 | Dec. 1960 | Zionists' and the Israeli embassy's entreaties (letters of Dec. 4, 7, 9) | lead: the papers |
 | 261 | Jan. 14, 1961 | Fulbright to Kennedy | lead: the letter's matter (Reischauer?) |
-| 262 | Dec. 13, 1960 | Marcy to Rusk | minor: congratulations |
+| 261-62 | Dec. 13, 1960 | Marcy to Rusk | re-ruled Nov. 6: entered as `cal.1960-12-13.transition-and-staff-cabinet-2` (a letter on public business: the committee and the Department) |
 | 265 | early 1961 | Holt tells Fulbright of the exiles' invasion | lead: the day |
 | 274 | June 29, 1962 | Fulbright: missile bases in Cuba would not alter the balance | lead: the record (Woods cites an interview) |
 | 277-78 | 1959; 1963 | *The Ugly American*: the Senate speech (May 19, 1959), the film; Brando (May 1963) | out of the brief (1959); lead: Brando's day |
@@ -82,66 +84,66 @@ Made from every page of 250-502, after the entries and cites above. Events alrea
 | 286 | July 20, 1961 | Defense directives on officers in public programs | lead: the directive (Woods cites the Record of Aug. 11 and McNamara's of Oct. 5) |
 | 288 | 1961 | Alford's committee for Walker; Thurmond and Tower to the Army | lead: the days |
 | 289 | Sept. 1961 | Russell's dinner in Georgia, McNamara its sponsor | lead: the day |
-| 289 | fall 1961 | *The Advance*; the Religious Freedom Committee; a threatening letter | lead: the days; minor (the letter) |
+| 289 | fall 1961 | *The Advance*; the Religious Freedom Committee; a threatening letter | lead: the days; the letter re-ruled Nov. 6: passed over, one anonymous citizen's threat, no act of a body or officeholder (Sept. 1961) |
 | 289 | Oct. 1961 | Dealy to Kennedy: "Caroline's bicycle" | lead: Schlesinger, 752 |
 | 291 | 1961 | Holmes Alexander's column; Paul Harvey | lead: the days |
 | 292 | 1959-61 | Faubus's polls | no day: a summary |
 | 292 | Mar. 1960 | Lomax in *Harper's* | lead: R13 |
-| 292-93 | 1960 | Betsy Fulbright's wedding; Cohn's death; Erickson to Ford | minor: family and staff |
-| 293 | May 27, 1960 | Lee Williams made administrative assistant | lead: the day (*Gazette*) |
-| 293-94 | Mar. 14, 16, 1960 | Truman and Fulbright on 1946 | minor: a private reconciliation |
+| 292-93 | 1960 | Betsy Fulbright's wedding; Cohn's death; Erickson to Ford | re-ruled Nov. 6: the wedding passed over (family, no public business); Cohn's death passed over (a staff member's death, no act; undated); Erickson's leaving entered as `cal.1960-05-21.congress` (dated by the *Gazette*, 293 n.66), and with it the row's neighbor, Lee Williams made administrative assistant, `cal.1960-05-27.congress` (293 n.67) |
+| 293 | May 27, 1960 | Lee Williams made administrative assistant | entered Nov. 6 as `cal.1960-05-27.congress`, dated by the *Gazette* (293 n.67) |
+| 293-94 | Mar. 14, 16, 1960 | Truman and Fulbright on 1946 | re-ruled Nov. 6: entered as `cal.1960-03-14.democratic-party` and `cal.1960-03-16.democratic-party` (letters on a quarrel in politics, before the McMath appeal) |
 | 297 | fall 1961 | Lippmann's "Nation's Eyes Swing to Fulbright"; the *Economist* | lead: the days |
-| 298-99 | 1962 | the BBC's crew; the doll jokes | minor |
-| 300 | Nov. 6, Dec. 4, 1962 | the general election; Fulbright's cable to Kennedy | in the calendar's election block; minor (thanks) |
+| 298-99 | 1962 | the BBC's crew; the doll jokes | re-ruled Nov. 6: passed over, anecdotes with no act or bearing on public business (the BBC's mistaking Chandler for Faubus, Apr. 1962; the jokes undated) |
+| 300 | Nov. 6, Dec. 4, 1962 | the general election; Fulbright's cable to Kennedy | the election in the calendar's block; the cable re-ruled Nov. 6: entered as `cal.1962-12-04.elections-1962` (a remark on his race to the President) |
 | 303 | Apr. 8, 1960 | the Senate passes the act (Woods: 82-18) | in the calendar (71-18); Woods's figure not used |
-| 305 | 1961 | Marcy recruits Pincus | minor: a hire |
+| 305-06 | 1961 | Marcy recruits Pincus | re-ruled Nov. 6: entered as `cal.1961-06.congress` (an appointment settled; Check: the month, "mid-1961") |
 | 309 | 1963 | Wayne Hays to Fulbright: "a chicken farmer"; Humphrey's lobbying | lead: the days (Marcy's memorandum of Apr. 23) |
 | 310-11 | 1961; 1963 | the New York fund-raiser; Johnson's appeal against reading the testimony | lead: the days |
 | 312 | 1962 | Morse's motion to recommit the aid bill, 21 Democrats | lead: the day |
 | 312 | May 2, 1961 | an Iranian American's report on aid to the Shah | lead: a private report |
-| 313 | June 9, 1961 | Marcy to Fulbright on aid | minor: repeated in June 26 |
+| 313 | June 9, 1961 | Marcy to Fulbright on aid | re-ruled Nov. 6: still passed over, a repetition (the same advice in the entry of June 26) |
 | 313-14 | 1961 | the OECD's approval; Clayton to Fulbright | lead: set against the calendar |
 | 314 | Aug. 2, 1961 | Todt's column | lead: R13 |
 | 316 | 1961 | German correspondents to Salinger's assistant; the White House's word to the press | lead: the days |
-| 317 | Sept. 13, 1960 | Jerome Frank to Fulbright | minor: correspondence |
+| 317 | Sept. 13, 1960 | Jerome Frank to Fulbright | re-ruled Nov. 6: entered as `cal.1960-09-13.testing` (advice to the chairman on the test ban) |
 | 318 | Aug. 1963 | Fulbright at the Moscow signing | in the calendar; not cited |
-| 319-20 | 1963 | *Fulbright of Arkansas* a bestseller; the polls on the treaty | minor; lead: the poll |
+| 319-20 | 1963 | *Fulbright of Arkansas* a bestseller; the polls on the treaty | re-ruled Nov. 6: the bestseller still passed over (a book about him, not his own; no act; the page is 319, March 1963); lead: the poll |
 | 322 | Nov. 23-24, 1963 | Fulbright's radio tribute to Kennedy | lead: the day |
-| 325-27 | 1963-65 | Johnson's inscribed photograph; Gilstrap's stories; the Public Works act of 1965 | minor; lead (the act) |
+| 325-27 | 1963-65 | Johnson's inscribed photograph; Gilstrap's stories; the Public Works act of 1965 | re-ruled Nov. 6: the photograph entered as `cal.1963-12.congress`; Gilstrap's Yellville family passed over (no act); her Marianna grant refused by the city, undated: a lead (below); lead (the act) |
 | 330-31 | 1964 | Fulbright against cloture and the act; the staff's hopes; May's rumors | in the calendar; lead |
 | 337-38 | 1964 | the *Times* of London, the *New Statesman*, the UN diplomats; McCormack | lead: the days |
 | 339, 343 | 1963-64 | the advance copy of an address (Apr. 18); a college speech (Mar. 1963) | lead: the occasions |
 | 346-48 | 1964 | the NSC of May 15; Bundy's memoranda; Ball's talks with Fulbright | in the calendar, or lead: the days |
-| 356-58 | 1964 | Faubus on the sidelines; Russell at the ranch; the Fulbrights' cable; their private life | minor |
+| 356-58 | 1964 | Faubus on the sidelines; Russell at the ranch; the Fulbrights' cable; their private life | re-ruled Nov. 6: Russell at the Ranch entered as `cal.1964-11.congress`; the cable as `cal.1964-11-06.elections-1964`; Faubus's standing aside passed over (no act, undated); the private life and Christmas 1964 passed over (family, no public business) |
 | 359 | 1958-63 | the Cultural Center's site and money | out of the brief (1958); lead |
 | 363 | Dec. 1964 | Mansfield to Johnson; Church's call for debate; the AP's survey | lead: the days (Berman, 33) |
 | 366 | Feb. 14, 1965 | Johnson to Fulbright: the raids to bring negotiation | lead: Berman, 35 |
-| 370 | Mar. 1965 | Lowenstein hired; Johnson's inscribed pictures | lead (the hire); minor |
+| 370 | Mar. 1965 | Lowenstein hired; Johnson's inscribed pictures | re-ruled Nov. 6: the hire entered as `cal.1965-03.congress` (Check: the day); the pictures no longer minor but undated (1965): a lead (below) |
 | 379-80 | May 1965 | Johnson to the union convention; Kuralt from the neutral zone | lead: the days |
 | 381-82 | 1965 | "gone soft on Goldwaterism" (Record Oct. 7); Johnson to Hoover: "Find me some Communists" | lead |
-| 386-90 | fall 1965 | Harriman's note; Mann; Russell's "good Georgia boy"; Kraft; Betty's illness; Morse at the White House; Kenworthy on the jet | minor or lead: the days |
-| 396 | Dec. 1965 | the Fulbrights in Puerto Rico; Helen's death | minor |
+| 386-90 | fall 1965 | Harriman's note; Mann; Russell's "good Georgia boy"; Kraft; Betty's illness; Morse at the White House; Kenworthy on the jet | re-ruled Nov. 6: Harriman's note entered as `cal.1965-09-15.latin-america-dominican-republic`; Mann to Johnson as `cal.1965-09.latin-america-dominican-republic-3`; Fulbright's remark during Betty's illness as `cal.1965-10.congress` (the illness itself passed over: family); Morse and Johnson as `cal.1965-10.vietnam-congress-2`; Kenworthy's article and Bundy's complaint as `cal.1965-12.congress`; Russell's word (the Record, Oct. 7?) and Kraft's column stay leads |
+| 396 | Dec. 1965 | the Fulbrights in Puerto Rico; Helen's death | re-ruled Nov. 6: Puerto Rico entered as `cal.1965-12.congress-2` (a trip, R15); Helen's death passed over (family, no public business; summer 1965) |
 | 400-01 | Jan. 1966 | the meetings of Jan. 3, 10, 20, 22; Lodge; Connally; Valenti | in the calendar, or lead |
-| 404-05 | Feb. 1966 | Fulbright to Oakes; Ridgway's letter on enclaves | minor; lead |
+| 404-05 | Feb. 1966 | Fulbright to Oakes; Ridgway's letter on enclaves | re-ruled Nov. 6: Fulbright to Oakes entered as `cal.1966-02-05.vietnam-congress` (Check: the letter's words); lead: Ridgway's letter |
 | 409-11 | 1966 | State's mail counts; the Harris poll; Ball; Johnson's joke in May; Connally on Kennedy | lead: the days |
 | 413 | 1966 | the CBS seminar on China | lead: the day |
-| 423-24 | May 1966 | Douglas, McGovern, others to Fulbright | minor: private letters |
+| 423-24 | May 1966 | Douglas, McGovern, others to Fulbright | re-ruled Nov. 6: entered as `cal.1966-05-16.vietnam-congress-3` (Douglas), `cal.1966-05-16.vietnam-congress-4` (McGovern), `cal.1966-05-18.vietnam-congress` (Fulbright to Douglas); a letter of personal support from an Interior employee (Franks, May 23) passed over, no act |
 | 427 | May 10, 1966 | Panzer to Redmon on Fulbright's motives | lead: the paper |
 | 429 | 1966 | the aid bill's multiyear authorizations cut | lead: the days |
 | 432-35 | 1966 | Ashmore and Baggs; Reedy (Jan. 27); Alexis Johnson's dossier (Feb. 11) | lead |
 | 437-38 | 1966 | Murphy Neal Jones; Katzenbach on Thailand; Fromm's book at the press session | lead: the days (*Washington Post*, Dec. 5, 1966) |
-| 440-42 | 1966-67 | Greenberg; the Gandhi introduction; *The Arrogance of Power*'s sales and reviews | minor; lead (1998) |
+| 440-42 | 1966-67 | Greenberg; the Gandhi introduction; *The Arrogance of Power*'s sales and reviews | re-ruled Nov. 6: the Gandhi introduction, a principal's publication, entered as `cal.1967-07.vietnam-congress-2` (Check: the month); Greenberg's remark passed over (undated, no act); the sales, a cumulative figure with no act or day, passed over; lead (1998) |
 | 444-45 | 1966-67 | Illia's proposal; Frei; Rusk with the Latin ministers; the leaders of Mar. 10, 1967 | lead: the days |
 | 447 | 1967 | the Bennett College speech; CBS after Westmoreland | lead: the days |
-| 449 | May 1967 | Walter Reed | minor: health |
+| 449 | May 1967 | Walter Reed | re-ruled Nov. 6: entered as `cal.1967-05.congress` (the chairman a week in hospital; in doubt, entered) |
 | 459-60 | 1967 | Humphrey's 52 cities; WSP; the polls | lead |
 | 466 | 1967 | Rockefeller to Jennings; the State party's machinery; Files | lead |
 | 469 | Feb. 6, 1968 | the *Wall Street Journal*'s editorial | lead: R13 |
-| 479-80 | 1968 | Fulbright's vote against the civil rights bill; Clarke to Ramsey Clark; Jack Fulbright's death | in the calendar; minor |
-| 486-92 | 1968 | Lewis Clark's sermon; McDougal; Driftwood; Texarkana | minor |
+| 479-80 | 1968 | Fulbright's vote against the civil rights bill; Clarke to Ramsey Clark; Jack Fulbright's death | the vote in the calendar; re-ruled Nov. 6: Clarke to Ramsey Clark entered as `cal.1968-04-17.civil-disorders-king`; Jack Fulbright's death passed over (family) |
+| 486-92 | 1968 | Lewis Clark's sermon; McDougal; Driftwood; Texarkana | re-ruled Nov. 6: McDougal's and Williams's instructions to Grinage entered as `cal.1968-06.elections-1968-congress` (Grinage's naming already in, `cal.1968-06.elections-1968-10`); Driftwood's send-off as `cal.1968-07-01.elections-1968-congress`; the July tour and Texarkana as `cal.1968-07.elections-1968-congress`; the Rev. Lewis Clark's sermon of May 21 passed over (a local minister's sermon, no officeholder or body) |
 | 490 | 1968 | the aid bill's continuing resolution; Johnson at TCU | lead: the days |
 | 493-97 | 1968 | Bernard; MacLeish; the money; Penix's leaflets; the general election, 64 percent | lead; in the election block |
-| 501 | Jan. 20, 1969 | Hunt shown out of the Arkansas box | minor: social |
+| 501 | Jan. 20, 1969 | Hunt shown out of the Arkansas box | re-ruled Nov. 6: entered as `cal.1969-01-20.transition-and-staff-4` (Made public: the *Gazette*, Apr. 8, 1969) |
 
 ## The press (R13)
 
@@ -162,3 +164,8 @@ Foreign
 
 States and cities
 - Arkansas: the State Democratic Committee's minutes, June 27 and Aug. 10, 1968; the 1960 primary's candidates' filings; the AFL-CIO convention of June 1968; the *Arkansas Gazette* run of 1960-68 (Woods's chief newspaper source).
+
+## Leads (batch 6)
+
+- States and cities: Marianna, Ark., refuses a $100,000 job-training grant Margueritte Gilstrap wrote, asking instead $7,000 to landscape the town center (Woods, *Fulbright*, 327; her interview, 326 n.13): undated; OEO's grant files.
+- National: Johnson's inscribed pictures of himself and Fulbright in the Oval Office, "To Bill, I can see I haven't been very persuasive" (Woods, 370): undated, 1965; the LBJ Library's photograph files.

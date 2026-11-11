@@ -76,6 +76,8 @@ The book has no notes. Registered (inbox/witnesses): Garrison, *Howard Hughes in
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; the rulings in "Batch 6" below).
+
 Made by reading each State's political, economic and governmental sections in full (the regional chapter, 15–28; Colorado, 33–64; Wyoming, 66–89; Montana, 90–119; Idaho, 120–152; Nevada, 154–182; Utah, 183–213; Arizona, 214–253; New Mexico, 254–292), with a search of every page for 1959–1969 and for months and seasons; the travel and scenery passages read at speed. A row a dated event not entered. Year-dated events with no month are leads (R50, R15), listed under Leads below, not here.
 
 | Page | Date | Event | Why |
@@ -111,10 +113,27 @@ Already in the calendar's tables (the November election blocks), not entered as 
 
 The book gives no day's coverage (no front page, broadcast or cover by date). Its press figures (Cervi of *Cervi's Rocky Mountain Journal*, the *Denver Post* after Hoyt, KTWO-TV of Casper, the *Intermountain Observer* under Sam Day from 1964, Pulliam's Phoenix papers and J. Edward Murray, Greenspun of the *Las Vegas Sun*) are regional, outside R13's national list; their dated acts are in the leads.
 
+## Batch 6: the rows re-ruled (Nov. 10–11, 2026)
+
+The owner's copy again (Drive 1-FPhvqcuZahJv3r0s1Ic_IEjcYICMYTU, by the direct route into the scratchpad; deleted after): PDF page = printed page + 4 held (pp. 35, 103, 163, 204, 237 and the list of interviews, 294, read again; 204 on its image). Patch `inbox/2026-11-06-b6-peirce-mountain.yaml` (1 entry added); witnesses `inbox/witnesses/2026-11-06-b6-peirce-mountain.yaml` (Peirce's interview with Benson, the book's list naming him, 294); 1 edge appended to the by-work file. Re-ruled: the rows ruled social, private, a remark, a local scandal, or a private vote. A row the work dates to the year only is a lead (R15, R50), listed under Leads below.
+
+| Page | Date | Event | Ruling now |
+|---|---|---|---|
+| 204 | Nov. 5, 1968 | Benson votes for Wallace | entered, `cal.1968-11-05.elections-1968-wallace` (his account to Peirce; Check: the day) |
+| 35 | 1962 | John King's party, Eisenhower guest of honor | a lead: the year only (Leads, Colorado) |
+| 35 | 1968 | King's reported $250,000 to Nixon's campaign (not logged before) | a lead: the year only (Leads, Colorado) |
+| 103 | 1968 | Butte: the madam's revelations of police payoffs; the chief's denial; Mayor Powers on gambling and prostitution | a lead: the year only (Leads, Montana) |
+| 163 | 1968 | Laxalt: "You're never going to eliminate the girls" | a lead: the year only (Leads, Nevada) |
+| 237 | 1962 | Goldwater's store sold by the family | still passed over: a family's business, no bearing the book shows on politics; the year only |
+| 52–54, 197, 225, 250, 279 | 1960s, 1963, 1966, 1968 | Aspen's local affairs; *Fortune*'s estimate of the church's income; the Arizona State hospital accredited; Dedera's report; New Mexico's capitol completed | not this batch's ground (not private, social or a draft); each the year only or less, so leads by R15 should the owner rule them in |
+
 ## Leads
 
 ### States and cities
 
+- Colorado. John King's party with Eisenhower as guest of honor, 1962; King's reported $250,000 to Nixon's 1968 campaign (35): the days. Batch 6.
+- Montana. Butte, 1968: Beverly Snodgrass's revelations of police payoffs; the police chief's denial of gambling and prostitution; Mayor Tom Powers to John Kuglin of the *Great Falls Tribune* on the punch boards, "They help the economy" (103): the days. The *Great Falls Tribune*, 1968. Batch 6.
+- Nevada. Laxalt, Governor, 1968, on prostitution in Las Vegas: "You're never going to eliminate the girls" (163): the day and the occasion. Batch 6.
 - Colorado. The legislature's income tax cut of January 1963 (`cal.1963-01.state-and-city-finance-co`): the day and the act. Colo. Sess. Laws 1963.
 - Colorado. Love's tax increase of 1965 (58); Colorado's first air pollution law, 1966 (56): the acts and days. Session laws.
 - Colorado. The Rocky Mountain Arsenal's deep-well injection of wastes, from 1962, and the Denver earthquakes (57); the Army's plan, late 1960s, to dump its nerve gas at sea (57): no dates.

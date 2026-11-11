@@ -56,6 +56,8 @@ Note numbers repeat by chapter; an edge is the text page and the note (`35 n.25`
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, a passed-over paper or a meeting's preparation, in "Batch 6" at the end of this file.
+
 How the list was made: every dated event in the pages read, held against the calendar by date (`./bib ledger find`, and a scan of the tree by day and by names); those entered or cited are not listed.
 
 | Page | Date | Event | Why |
@@ -102,3 +104,22 @@ National
 The Executive roster
 
 - Part III entries proposed (persons the book names often, with no name entry): William B. Cannon (Budget Bureau, chief of the Division of Education, Manpower, and Sciences); Samuel Halperin (HEW, deputy assistant secretary for legislation); James C. Gaither (White House staff, 1966–68); Frederick L. Hovde (Purdue; the task force of 1960–61); Emerson J. Elliott (Budget Bureau); Edgar Fuller (Council of Chief State School Officers); William G. Carr (NEA); Monsignor Frederick G. Hochwalt (NCWC); Charles Lee (Morse's subcommittee staff); William C. Friday (University of North Carolina; the task force of 1966–67); Marjorie Hunter (*New York Times*), and Fred M. Hechinger (*New York Times*, education), press figures under R13, the *Times*'s education coverage being treated by this book as a voice.
+
+## Batch 6 (Nov. 10–11, 2026): the private and passed-over-paper rows re-ruled (b6-graham-uncertain)
+
+The same copy fetched again from Drive (the direct download, 14 MB), printed = PDF − 28; pp. 21, 98, 178, 189 and the notes 234 n.55, 245 n.27, 257–59 read off the text, p. 189 (PDF 217) off the page image; deleted when done. Patch `inbox/2026-11-06-b6-graham-uncertain.yaml` (b6-graham-uncertain: 7 entries added; patch-check 0 errors, 0 warnings). Witnesses `inbox/witnesses/2026-11-06-b6-graham-uncertain.yaml` (5 new); 5 edges added to `sources/witnesses/by-work/graham-uncertain-triumph.yaml` (178 n.39's records lettered after the December notes already there, 39a–b: Carlson 39c, Plehn 39d).
+
+| Page | Date | Row | Ruling |
+|---|---|---|---|
+| 21 | Apr. 20, 1961 | Ribicoff sends Kennedy his draft NDEA amendments | entered, `cal.1961-04-20.school-aid` (a Cabinet officer's draft legislation for the President, the planning of policy, not a transmittal); the strategy it carried out, Sorensen's memorandum of Apr. 12 (21 n.55), not in the calendar, entered, `cal.1961-04-12.school-aid` |
+| 98 | Apr. 15, 1965 | Cater tells Celebrezze of the Ink task force | entered, `cal.1965-04-15.school-aid` (the White House's notice to the Secretary of the President's decision, quoting it: a staff memorandum, R8, not a covering note) |
+| 189 | Apr. 1968 | Califano's staff ask the deans' advice on the LBJ School | entered, `cal.1968-04.transition-and-staff` (the President's staff at work on a public institution; the advice, 259 n.19) |
+| 189 | May 1968 | Johnson declines Southwest Texas State, accepts the University of Texas's lectureship | entered, `cal.1968-05.transition-and-staff` (Check: the days; the letters of May 18 and 27, 189 n.20) |
+| 241 n.44 | undated | Daly calls Green "a psychotic female," overheard | not private trivia (an O'Brien aide on a member at work on the bill) but undated: a lead (below) |
+| 257–58 n.39 | Oct. 5–6, 1967 | Carlson and Plehn to Carey on HEW's proposals | entered, `cal.1967-10-05.school-aid`, `cal.1967-10-06.school-aid` (Budget Bureau staff memoranda on the program, R8, not a meeting's preparation) |
+
+Rows not re-ruled here (out of the brief by date, or a study's finding): as written above.
+
+Leads (National), batch 6:
+- Daly of O'Brien's staff calling Edith Green "a psychotic female," overheard by a member of her staff; his apology (Graham, 241 n.44, "the archival evidence," no document or date named): the day and the file.
+

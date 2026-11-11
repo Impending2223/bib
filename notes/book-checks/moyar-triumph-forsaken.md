@@ -36,6 +36,8 @@ The merge flags seven of the new entries as possible duplicates of another entry
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (batch 6): the rows ruled "minor" read again from the owner's copy (Drive 16B_NV3kZyxl-D-XI8_KwcXX06pIKz4tI; printed page = PDF page - 34 held, checked at pp. 114, 233, 238). The "repeated in the entries" row was not borne out: the calendar held neither Lodge's arrival nor Halberstam's dispatches. Patch `inbox/2026-11-06-b6-moyar-triumph-forsaken.yaml` (b6-moyar-triumph-forsaken: 8 entries), witnesses `inbox/witnesses/2026-11-06-b6-moyar-triumph-forsaken.yaml` (7, the *Times* of Aug. 22–31, 1963), edges in the by-work file (9). The rows ruled "below the level" for operations, and "undated" for a month, are not taken up here (R14, R15 enter them); they wait for their own run.
+
 Made from the log of the reading, chapter by chapter (every paragraph with a date, then the full pages around each); the background of 1954–59 and the book's surveys of Asia's "dominoes" (pp. 138–42, 375–91) are left out.
 
 | page | date | event | why |
@@ -47,7 +49,7 @@ Made from the log of the reading, chapter by chapter (every paragraph with a dat
 | 106 | May 1960 | Durbrow scolds Diệm over the Cambodian raid | undated |
 | 107 | Aug. 30, 1960 | Durbrow praises Diệm (FRUS I, doc. 187) | a lead |
 | 108 | Sept. 20, 1960 | Lansdale to O'Donnell against Durbrow's demands (I, doc. 198) | a lead |
-| 114 | Nov. 20, 1960 | the death warrant against Carver; his removal | minor (an incident below the level) |
+| 114 | Nov. 20, 1960 | the death warrant against Carver; his removal | Re-ruled Nov. 6: entered as `cal.1960-11-20.vietnam` (Colby with Nhu; by Rust, 114 n.70) |
 | 115 | Dec. 31, 1960 | Parsons to Durbrow: no more exhortation | a lead (RG 59) |
 | 118 | Dec. 28, 1960 | Nong Het taken | already in as cal.1960-12-31.laos (the columns) |
 | 134 | Sept. 1, 1961 | outposts north of Kontum overrun | an operation below the level |
@@ -72,7 +74,7 @@ Made from the log of the reading, chapter by chapter (every paragraph with a dat
 | 227–28 | July 1, 18, 23, 1963 | Nolting back; Diệm's broadcast; Hilsman's cable (III, doc. 234) | leads |
 | 229–30 | Aug. 1963 | Higgins's interview with Diệm; Madame Nhu on CBS, Aug. 1 | undated; a lead |
 | 231–32 | Aug. 20, 1963 | the generals ask Diệm for martial law | in the Check of Aug. 21 and the Aug. 18 entry |
-| 233–34, 238 | Aug. 22–31, 1963 | Lodge's arrival with the press; Halberstam's dispatches | minor (repeated in the entries) |
+| 233–34, 238 | Aug. 22–31, 1963 | Lodge's arrival with the press; Halberstam's dispatches | Re-ruled Nov. 6: not in the calendar (no repetition): the dispatches entered as `cal.1963-08-22.press-and-broadcasting`, `cal.1963-08-23.press-and-broadcasting`, `cal.1963-08-24.press-and-broadcasting`, `cal.1963-08-25.press-and-broadcasting`, `cal.1963-08-27.press-and-broadcasting-2` (R13; Moyar's dispute noted in each); Lodge's arrival as `cal.1963-08-22.vietnam`, his dinners with the three correspondents as `cal.1963-08.press-and-broadcasting` (Check: the days) |
 | 252–53 | Sept. 26, 1963 | the CIA's study of Halberstam's reporting | a lead (JFKL) |
 | 253 | Oct. 1963 | Kennedy asks Sulzberger to bring Halberstam home | undated; to leads |
 | 265 | Oct. 31, 1963 | Nhu and Đính; Đôn at the palace | a lead (Đôn's memoir) |

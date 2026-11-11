@@ -55,6 +55,30 @@ entries:
       - 1966-11-02T04:00Z
       - 1966-11-02T13:00Z
     time_zone: America/Anchorage
+  - id: cal.1966-11-01.vietnam-saigon
+    when: Nov. 1
+    date: '1966-11-01'
+    thread: vietnam-saigon
+    also: [vietnam-operations]
+    c: Saigon, the National Day parade, Westmoreland in the reviewing stand. The Viet Cong fire fourteen rounds from recoilless rifles during it.
+    n: '[[w.westmoreland-soldier-reports]], 188. Names: Westmoreland.'
+    src:
+      c: 1e5ea9f8
+      rows:
+        - 'w.westmoreland-soldier-reports 188: all'
+    tags: [name:westmoreland-william, place:saigon]
+  - id: cal.1966-11-01.vietnam-asian-trip
+    when: Nov. 1
+    date: '1966-11-01'
+    thread: vietnam-asian-trip
+    also: [korea]
+    c: Seoul, the last night of the stay. William Bundy, Rostow and McPherson out on the town as guests of several Korean cabinet ministers. By McPherson's account.
+    n: '[[w.mcpherson-political-education]], 314–15. Check: the day. See [[cal.1966-11-01.vietnam]]. Names: William Bundy, Rostow, McPherson.'
+    src:
+      c: b03f7dfe
+      rows:
+        - 'w.mcpherson-political-education 314–15: all'
+    tags: [name:bundy-william, name:rostow-walt-w, name:mcpherson-harry]
   - id: cal.1966-11-02.cuba
     when: Nov. 2
     date: '1966-11-02'
@@ -124,6 +148,17 @@ entries:
         - 'w.staaveren-u-s-air-force 217: all'
         - 'via x.1966-10-01.msgs-cincpac-to-comusmacv-012012z-oct-66: ?'
         - 'via x.1966-11-11.msgs-7th-af-to-cincpac-nmcc-pacaf: ?'
+  - id: cal.1966-11-02.vietnam-asian-trip
+    when: Nov. 2
+    date: '1966-11-02'
+    thread: vietnam-asian-trip
+    c: Air Force One home from Anchorage through a storm. Symington, aboard, sings a reprise of the trip. By McPherson's account.
+    n: '[[w.mcpherson-political-education]], 315. Check: the day; the book gives the flight after the President''s speech in Anchorage. See [[cal.1966-11-01.elections-1966]]. Names: Symington, McPherson.'
+    src:
+      c: dd95b0eb
+      rows:
+        - 'w.mcpherson-political-education 315: all'
+    tags: [name:symington-william-s, name:mcpherson-harry]
   - id: cal.1966-11-03.cities-and-housing
     when: Nov. 3
     date: '1966-11-03'
@@ -513,13 +548,14 @@ entries:
     thread: transportation
     also: [elections-1966]
     c: 'News conference at Fredericksburg, Tex. Boyd, Under Secretary of Commerce for Transportation, to be the first Secretary of Transportation, his nomination to go to the Senate in January. The department: 31 agencies and bureaus, nearly 100,000 employees, almost $6 billion. At its end, a statement: "I can think of nothing more dangerous, more divisive, or more self-destructive than the effort to prey on what is called ''white backlash.''" The voters to ask themselves: "Do I want to cast my vote on the basis of fear? Do I want to follow the merchants of bigotry?"'
-    n: 'The hearing: *Nomination of Alan S. Boyd to Be Secretary of Transportation: Hearing Before the S. Comm. on Commerce*, 90th Cong. (1967) ([online](https://www.govinfo.gov/app/details/CHRG-90shrg75440)), 6 (Boyd, Jan. 11). [The President''s News Conference](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1183) (Nov. 6, 1966); [The President''s News Conference of November 6, 1966, 1966 Pub. Papers 1332](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=706) (the statement on the "white backlash"). [[w.zelizer-fierce-urgency-of-now]], 256 (the statement, "two nights before the election"). See [[cal.1966-03-02.transportation]]. Names: Boyd, Johnson.'
+    n: 'The hearing: *Nomination of Alan S. Boyd to Be Secretary of Transportation: Hearing Before the S. Comm. on Commerce*, 90th Cong. (1967) ([online](https://www.govinfo.gov/app/details/CHRG-90shrg75440)), 6 (Boyd, Jan. 11). [The President''s News Conference](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1183) (Nov. 6, 1966); [The President''s News Conference of November 6, 1966, 1966 Pub. Papers 1332](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=706) (the statement on the "white backlash"). [[w.zelizer-fierce-urgency-of-now]], 256 (the statement, "two nights before the election"); [[w.mcpherson-political-education]], 330 (McPherson''s line in the election-eve statement: "White backlash is dangerous because it threatens to vest power in the hands of second-rate men whose only qualification is their ability to pander to other men''s fears"). See [[cal.1966-03-02.transportation]]. Names: Boyd, Johnson.'
     src:
       c: 1a5e8639
       rows:
         - 'https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1183: A-C'
         - 'https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=706: D'
         - 'w.zelizer-fierce-urgency-of-now 256: D'
+        - 'w.mcpherson-political-education 330: D'
     tags: [name:johnson-lyndon-b, name:boyd-alan-s]
     short: Boyd the first Secretary
   - id: cal.1966-11-06.elections-1966
@@ -2900,11 +2936,12 @@ entries:
     date: 1966-11
     thread: vietnam-pacification
     c: 'Saigon. Lodge announces the Office of Civil Operations under Porter, after a month''s delay: the civilian agencies'' field offices taken into it, the civilians of each province and region under one man; Lathram its director. Westmoreland names a brigadier general his assistant for pacification.'
-    n: '[[w.herring-lbj-and-vietnam]], 77–78 (the order to Lodge; his objections; the announcement in late November, after a month''s stalling; the office, its form and staff; Vann in III Corps). Check: the day. To check: [[w.pentagon-papers]], Gravel ed., II, 601–602. See [[cal.1966-10-14.vietnam]]. Names: Lodge, Porter, Lathram, Westmoreland.'
+    n: '[[w.herring-lbj-and-vietnam]], 77–78 (the order to Lodge; his objections; the announcement in late November, after a month''s stalling; the office, its form and staff; Vann in III Corps); [[w.westmoreland-soldier-reports]], 212 (Johnson''s order to Lodge in November to reorganize the mission and put one man in charge, ninety days for the civilian agencies; the Office of Civil Operations under Porter; Knowlton at the head of MACV''s Revolutionary Development Support Directorate). Check: the day. Check: Westmoreland gives a two-week delay, ended by a prod from Washington, and Lathram chosen later, when Porter gave the office up (212). To check: [[w.pentagon-papers]], Gravel ed., II, 601–602. See [[cal.1966-10-14.vietnam]]. Names: Lodge, Porter, Lathram, Westmoreland.'
     src:
       c: 77e7f26c
       rows:
         - 'w.herring-lbj-and-vietnam 77–78: all'
+        - 'w.westmoreland-soldier-reports 212: B, D'
     tags: [name:lodge-henry-cabot, name:porter-william-j, name:lathram-l-wade, name:westmoreland-william]
   - id: cal.1966-11.republican-party
     when: Nov., the week after the election

@@ -31,16 +31,18 @@ Pinned besides (no cite before): some sixty entries, the patch's `cite` ops, amo
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended (run of Nov. 10-11, 2026, patch `inbox/2026-11-06-b6-white-making-of-the-president-1965.yaml`): the rows ruled minor (a reaction, a quip, staff, where he heard, a book's writing, an unpublished file) or a passed-over paper (private remarks) were read again in the same copy (Drive id 1heqak_1ped-w7tPu0oOA1xWyZfw3O7sK; printed page = PDF page less 20), the text layer and the page images of pp. 6, 139, 153 and 157, and ruled again; each ends "Re-ruled: ...". The book has no source notes for these passages (White's reporting): no witnesses. The counts and the leads stand.
+
 Made from the running notes kept chapter by chapter, for the pages read (above); the pages not yet read are not passed over, and are listed above for the next run.
 
 | page | date | event | why |
 |---|---|---|---|
 | 45 | Dec. 1963 | the second week's tally: 90 visitors, 250 calls, 10 meetings, 10 statements | minor (a count; no act of its own) |
-| 6 | Nov. 22, 1963 | Scranton told at a lunch in Harrisburg; to church | minor (a reaction) |
+| 6 | Nov. 22, 1963 | Scranton told at a lunch in Harrisburg; to church | minor (a reaction) Re-ruled: entered as cal.1963-11-22.elections-1964-scranton (a governor's public word and act on the day). |
 | 71 | 1964 | Robert Anderson supports Johnson | lead (no date) |
-| 72 | Nov. 22, 1963 | Eisenhower at a UN lunch at the Chatham when he hears | minor (where he heard) |
+| 72 | Nov. 22, 1963 | Eisenhower at a UN lunch at the Chatham when he hears | minor (where he heard) Re-ruled: passed over: where he heard the news, no act or word of his on public business. |
 | 72 | Dec. 1963–Jan. 1964 | friends sound out Milton Eisenhower's chances | entered in cal.1963-10-15.republican-party |
-| 73 | spring 1963 | Gervasi's campaign biography of Rockefeller | minor (a book's writing) |
+| 73 | spring 1963 | Gervasi's campaign biography of Rockefeller | minor (a book's writing) Re-ruled: passed over: a writer's book in the making, not a principal's publication, and undated. |
 | 77 | Nov. 1961 | Rockefeller's divorce announced | lead: not in the calendar; White gives the month only (77) |
 | 84 | spring 1963 | Hall and Folger try to launch Romney | lead (no month) |
 | 89 | 1963 | Wyoming's legislature for supplanting the Supreme Court | lead: the Court of the Union resolution; check the State's session laws |
@@ -50,14 +52,14 @@ Made from the running notes kept chapter by chapter, for the pages read (above);
 | 104 | Jan. 1964 | Goldwater to the Economic Club of New York: the unskilled lack education from "low intelligence or ambition"; Red China in the UN, we get out | lead: the day (White gives none; ch. 10 may) |
 | 103 | Jan. 1964 | Goldwater's first week: the missiles "undependable" | lead: the day |
 | 104 | Feb. 1964 | Goldwater on Guantanamo's water: "Turn it on or the Marines are going to turn it on" | lead: the day |
-| 107 | Jan. 1964 | Loye Miller's unpublished file for *Time* on Goldwater's first week | minor (an unpublished file, quoted as evidence) |
-| 139 | June 1964 | Rockefeller in his car, days after California, on Vietnam | passed-over paper: private remarks to White |
+| 107 | Jan. 1964 | Loye Miller's unpublished file for *Time* on Goldwater's first week | minor (an unpublished file, quoted as evidence) Re-ruled: passed over: a correspondent's file, not published and no principal's; quoted by White as evidence for the week's entries. |
+| 139 | June 1964 | Rockefeller in his car, days after California, on Vietnam | passed-over paper: private remarks to White Re-ruled: entered as cal.1964-06.elections-1964-2 (said in private about public business; Check: the day). |
 | 122 | May 1964 | Harris's last California poll before Oregon (Goldwater 48, Rockefeller 39) | entered within cal.1964-05-25.opinion |
 | 137 | June 7, 1964 | the *Times*'s headlines of delegates | the press list below |
 | 145 | June 1964 | sixteen Republican governors, three for Goldwater (Babcock, Fannin, Bellmon) | a count, in cal.1964-06-07.states-and-cities-us's matter; not entered |
-| 153 | June 9, 1964 | Bailey, asked if the Democrats could make news at Cleveland: "I hope not." | minor (a quip) |
+| 153 | June 9, 1964 | Bailey, asked if the Democrats could make news at Cleveland: "I hope not." | minor (a quip) Re-ruled: entered as cal.1964-06-09.democratic-party (a party chairman's word on the Republicans' conference, R9). |
 | 154 | June 1964 | the newspaper cartoon of Eisenhower crying in indecision | lead: the paper and day |
-| 157 | June 1964 | Douglass to Harrisburg ten days after the announcement | minor (staff) |
+| 157 | June 1964 | Douglass to Harrisburg ten days after the announcement | minor (staff) Re-ruled: entered as cal.1964-06-22.elections-1964-scranton (the campaign's staffing, the informal record; Check: the day). |
 | 235 | 1964 | Reuther for Johnson | lead: the day (not given, 255) |
 | 257 | June 1964 | Quayle's poll in Maine, Johnson 77 percent | lead: the day (not given) |
 | 258 | 1964 | Reese's registration office, two million new voters | lead: no date (a year's work) |
@@ -97,41 +99,43 @@ National: Rockefeller's divorce announced, Nov. 1961 (77; not in the calendar). 
 
 ### Passed over (this run)
 
+Re-ruled Nov. 6, 2026, under R18 as amended (the same run and patch as the table above; the page images of pp. 358, 367 and 372 read with the text): the rows below ruled minor, private remarks or a passed-over paper end "Re-ruled: ..."; the leads stand.
+
 Made from notes kept page by page for the pages read in full this run.
 
 | page | date | event | why |
 |---|---|---|---|
-| 69–70 | 1964, after the convention | Eisenhower to White: "I was never trained in politics" | passed-over paper: private remarks to White |
+| 69–70 | 1964, after the convention | Eisenhower to White: "I was never trained in politics" | passed-over paper: private remarks to White Re-ruled: now the informal record, but dated to no month ("after the San Francisco convention"): a lead, the month (White's note 2). |
 | 74 | 1963 | Rockefeller's gifts to SCLC ($5,000, $10,000) and the $20,000 loan to SNCC through the Chase | lead (no month) |
-| 79 | summer 1964 | Mrs. Rockefeller goes to court again on custody | minor (family) |
+| 79 | summer 1964 | Mrs. Rockefeller goes to court again on custody | minor (family) Re-ruled: passed over: a family matter (the children's custody), with no bearing on public business or politics. |
 | 80 | spring 1963 | Hinman and Hughes, then McManus and Ronan, warn Rockefeller against remarrying | lead (no month) |
 | 81 | spring 1963 | Hinman's survey of the Rockefeller machinery, State by State | lead (no month) |
 | 171 | May–Aug. 1963 | the Department of Justice's count: 758 demonstrations in ten weeks; 13,786 arrests in seventy-five Southern cities | lead (a count; the Department's release, its day) |
 | 171 | 1963 | Gardner Taylor's "crimson carnage" | lead (no date) |
-| 219 | 1964 | Smylie to White on the Western revolt | passed-over paper: private remarks to White, no date |
+| 219 | 1964 | Smylie to White on the Western revolt | passed-over paper: private remarks to White, no date Re-ruled: now the informal record, but dated to no month (as he resigned himself to Goldwater): a lead, the month. |
 | 230 n.1 | end of 1964 | HARYOU taken over by Powell | lead (the day) |
 | 230 n.2 | 1963–64 | Wilkins on the "teen-age Negro hoodlums" | lead (the day) |
 | 240 n.7 | 1954 | the early survey of New York's schools | out of the brief (before the span) |
-| 241 | July 1964 | a Wagner aide on the "undermuck of Harlem" | passed-over paper: private remarks, no date |
+| 241 | July 1964 | a Wagner aide on the "undermuck of Harlem" | passed-over paper: private remarks, no date Re-ruled: passed over: an unnamed aide's later reflection to White, no act or word of the span dated. |
 | 296 n.1 | Sept. 1964 | the Goldwater managers' gloss, "commanders in chief" | lead (the day) |
 | 296 | Jan. 1964 | the Rockefeller research staff takes up the "bomb" | lead (the day) |
 | 300 | 1964 | "In your heart, you know he might," a North Carolinian's suggestion | lead (no date) |
 | 302 | 1964 | Goldwater's campaign statement on Social Security | lead (the day) |
 | 305 | 1965 | Calvin Gross dismissed as New York's superintendent | lead (no date) |
 | 306 | fall 1964 | the auto workers' settlement, retirement at sixty at $100 a week | lead (the day) |
-| 315 | Nov. 1964 | Goldwater: "If I had had a pint of brains" | passed-over paper: private remarks, recollection |
+| 315 | Nov. 1964 | Goldwater: "If I had had a pint of brains" | passed-over paper: private remarks, recollection Re-ruled: now the informal record (said of his own campaign), but dated only "after the election": a lead, the month. |
 | 316 | June 1964 | at Cleveland a Goldwater man tells a Scranton lieutenant Pennsylvania is written off | lead (the day) |
 | 318–19 | Sept.–Oct. 1964 | the strategy board's Sunday meetings; Cordiner cancels the last ten days' television time | lead (the days) |
 | 322 | Sept. 1964 | Moyers's directive to Doyle Dane Bernbach: "Attack" | lead (the day) |
-| 323 n.3 | fall 1964 | Paul Wagner and Vic Gold with the press | minor (staff) |
+| 323 n.3 | fall 1964 | Paul Wagner and Vic Gold with the press | minor (staff) Re-ruled: passed over: the press staff's routine over the fall, no event dated. |
 | 334 | fall 1964 | Romney and Milton Young decline to appear with Goldwater; Keating's run ahead | lead (the days) |
 | 339 n.11 | fall 1964 | the Democrats' spots by State: Texas 1,345, California 823, New York 410 | minor (a count; no act of its own) |
 | 343 | spring 1964 | Goldwater talks of withdrawing with Kitchel during the civil rights struggle | lead (no month) |
 | 350 | fall 1964 | Team E's 9:30 meetings; Hayes to review the television | lead (no date) |
 | 351–53 | fall 1964 | the National Independent Committee (Fowler); Scientists and Engineers; Spock; Inez Robb's column | lead (the days) |
-| 358 | Dec. 1963 | Johnson visits Aubrey Williams in the hospital | minor (personal) |
-| 367 | Sept. 28, 1964 | a New England Senator asked to tell the press the crowds beat Kennedy's | minor (an aside; unnamed) |
-| 371–72 | Oct. 16, 1964 | the tree-planting on the South Lawn, 1963–64 Pub. Papers 1355 | minor (a ceremony) |
+| 358 | Dec. 1963 | Johnson visits Aubrey Williams in the hospital | minor (personal) Re-ruled: entered as cal.1963-12.transition-and-staff-2 (a President's visit, R15; Check: the day). |
+| 367 | Sept. 28, 1964 | a New England Senator asked to tell the press the crowds beat Kennedy's | minor (an aside; unnamed) Re-ruled: entered as cal.1964-09-28.elections-1964-johnson (the campaign's handling of the press, said in private; Check: the day). |
+| 371–72 | Oct. 16, 1964 | the tree-planting on the South Lawn, 1963–64 Pub. Papers 1355 | minor (a ceremony) Re-ruled: entered as cal.1964-10-16.conservation (the President's remarks, in the Public Papers: the public record, R6). |
 | 380 n.3 | 1965 | the Ripon Society's *Election '64* | lead (the day) |
 | 390 | spring 1964 | Johnson in the White House pool with Moyers, Busby and Goodwin | lead (no date) |
 | 410 | July 12, 1960 | Rowe and Connally put the Stevenson question to Johnson the night before | entered within `cal.1960-07-12.elections-1960-2`'s cite |

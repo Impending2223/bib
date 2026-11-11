@@ -50,6 +50,8 @@ For the merger: patch-check warns "one event?" on six of these beside an entry o
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the two rows ruled private and social, in "Batch 6" at the end of this file.
+
 Made by reading pp. 1–66 (1965) through, page by page, and, for pp. 67–292, the pages each ruling above needed and every sentence the text layer dates (a month, or a month and day), listed by script and read in context.
 
 | Page | Date | Event | Why |
@@ -89,3 +91,13 @@ National:
 - Notes not followed: the records Wells cites for the units entered and not registered here (ch. 1, nn. 52–100; ch. 4, nn. 63–67) are in the book's notes, pp. 596–598, 612–613.
 
 Press (R13): propose Part III entries, where none is held, for Sander Vanocur (NBC) and John Chancellor (Voice of America, 1965–67; NBC), with Wells, 35, 192.
+
+## Batch 6 (Nov. 10–11, 2026): the private and social rows re-ruled (b6-wells-war)
+
+The same copy fetched again from Drive (the direct download, 45 MB), printed = PDF − 20 for pp. 1–286; pp. 25–26 and 42 and the note 26 n.61 read off the text; deleted when done. Patch `inbox/2026-11-06-b6-wells-war.yaml` (b6-wells-war: 1 entry added; patch-check 0 errors, 0 warnings of its own; the run's other errors are another reader's witness file). Witness `inbox/witnesses/2026-11-06-b6-wells-war.yaml` (1 new); 1 edge added to `sources/witnesses/by-work/wells-war-within.yaml`.
+
+| Page | Date | Row | Ruling |
+|---|---|---|---|
+| 25–26 | 1965-04-17 | Ellsberg at the SDS march on a first date with Patricia Marx | entered, `cal.1965-04-17.war-opposition` (a Defense Department official, who had helped produce the White Paper, at the march; his own account, 26 n.61) |
+| 42 | 1961 | Nugent, called up in the Berlin crisis, idle at the White House | passed over: a family matter with no bearing on public business, given undated by Westmoreland's later account; what bears, Johnson's decision of July 1965 against calling up the reserves, is the page's matter (not re-read here: "Not reached," above) |
+
