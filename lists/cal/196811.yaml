@@ -263,6 +263,22 @@ entries:
       rows:
         - 'w.humphrey-education-of-a-public-1976 404: all'
     tags: [name:humphrey-hubert-h, state:ny]
+  - id: cal.1968-11-02.elections-1968-chennault
+    when: Nov. 2
+    date: '1968-11-02'
+    thread: elections-1968-chennault
+    c: 'The FBI''s tap on the South Vietnamese embassy: Chennault to Bùi Diễm, Saigon will get a better deal from Nixon if it holds out. Does Nixon know she is calling? "No, but our friend in New Mexico does": Agnew, that day in Albuquerque.'
+    n: '[[w.solberg-hubert-humphrey]], 401. To check: Seymour Hersh, *New York Times*, June 27, 1973 (cited by [[w.solberg-hubert-humphrey]], 401, its note). Check: the day; Solberg: "the previous day," before Humphrey at Los Angeles, Nov. 3. Made public: the *New York Times*, June 27, 1973. See [[cal.1968-10-30.elections-1968-chennault]]. Names: Chennault, Bùi Diễm, Nixon, Agnew.'
+    src:
+      rows:
+        - 'w.solberg-hubert-humphrey 401: all'
+        - 'via x.1973-06-27.new-york-times-june-27-1973-hersh: all'
+    tags: [name:chennault-anna, name:bui-diem, name:nixon-richard-m, name:agnew-spiro-t]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-11-02.elections-1968
+        from: 2026-11-10-b7-solberg
   - id: cal.1968-11-03.elections-1968-chennault
     when: Nov. 3
     date: '1968-11-03'
@@ -887,11 +903,12 @@ entries:
     date: '1968-11-05'
     thread: elections-1968-humphrey
     c: Humphrey, after his telethon and a party at a friend's in Beverly Hills, flies through the night to Minnesota and votes at the Marysville township hall; out of sight until shortly before midnight, then the Leamington Hotel, Minneapolis.
-    n: '[[w.white-making-of-the-president-1969]], 395. Names: Humphrey.'
+    n: '[[w.white-making-of-the-president-1969]], 395; [[w.solberg-hubert-humphrey]], 403–04 (Minneapolis at 7:55 a.m.; the vote at the "Maryville" Township Hall at nine; dinner at Andreas''s on Lake Minnetonka; the Leamington a little after eleven). Names: Humphrey.'
     src:
+      c: 50b75be9
       rows:
         - 'w.white-making-of-the-president-1969 395: all'
-      c: 50b75be9
+        - 'w.solberg-hubert-humphrey 403–04: A'
     tags: [name:humphrey-hubert-h, state:mn]
   - id: cal.1968-11-06.elections-1968
     when: Nov. 6
@@ -1068,12 +1085,18 @@ entries:
     date: '1968-11-06'
     thread: elections-1968-humphrey
     c: Minneapolis, the Leamington, by 1 a.m. Humphrey's staff knows he cannot win in the electoral college; their hope, that Wallace deny Nixon a majority and the election go to the House. A fight there, they think, only if Humphrey wins the popular vote. Fading by four, when he goes to sleep.
-    n: '[[w.white-making-of-the-president-1969]], 395. See [[cal.1968-11-05.elections-1968-humphrey]]. Names: Humphrey, Wallace, Nixon.'
+    n: '[[w.white-making-of-the-president-1969]], 395; [[w.solberg-hubert-humphrey]], 405 (at midnight McCandless counts 294 electoral votes, Connell 313 to 340; by 2 a.m., Humphrey says, "it looked as if we had lost it"; at 2:15 to the Hall of States, then to bed). See [[cal.1968-11-05.elections-1968-humphrey]]. Names: Humphrey, Wallace, Nixon.'
     src:
+      c: 3ed27cfc
       rows:
         - 'w.white-making-of-the-president-1969 395: all'
-      c: 3ed27cfc
+        - 'w.solberg-hubert-humphrey 405: A'
     tags: [name:humphrey-hubert-h, name:wallace-george-c, name:nixon-richard-m]
+    variants:
+      - unit: D
+        witness: w.solberg-hubert-humphrey
+        reads: By 2:00 a.m., he said later, "it looked as if we had lost it." ... at 2:15 a.m. he went down to the yelling mob ... he told his friends he was going upstairs to bed
+        at: '405'
   - id: cal.1968-11-06.elections-1968-humphrey-4
     when: Nov. 6
     date: '1968-11-06'
@@ -1091,6 +1114,40 @@ entries:
         of:
           - cal.1968-11-06.elections-1968-humphrey
         from: 2026-11-10-b7-mann
+  - id: cal.1968-11-06.elections-1968-humphrey-2
+    when: Nov. 6
+    date: '1968-11-06'
+    thread: elections-1968-humphrey
+    c: 'Minneapolis, the Leamington, after the concession. Johnson telephones Humphrey: "Well, Mr. President, it looks like I didn''t make it. I''m sorry I couldn''t do it for you. I just want to thank you for all the help." Lady Bird Johnson and Muriel Humphrey talk.'
+    n: '[[w.solberg-hubert-humphrey]], 406. To check: Edgar Berman, diary, Nov. 6, 1968, Berman files (cited by [[w.solberg-hubert-humphrey]], 406, its note). See [[cal.1968-11-06.elections-1968]]. Names: Johnson, Humphrey, Lady Bird Johnson.'
+    src:
+      rows:
+        - 'w.solberg-hubert-humphrey 406: all'
+        - 'via x.1968-11-06.berman-diary-nov-6-1968-solberg: all'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:johnson-lady-bird, state:mn]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-11-06.elections-1968-humphrey
+          - cal.1968-11-06.elections-1968-humphrey-4
+        from: 2026-11-10-b7-solberg
+  - id: cal.1968-11-06.elections-1968-humphrey-3
+    when: Nov. 6
+    date: '1968-11-06'
+    thread: elections-1968-humphrey
+    c: 'Minneapolis, the morning. Daley telephones Humphrey: he is still fighting in Illinois, holding some votes back.'
+    n: '[[w.solberg-hubert-humphrey]], 406. Check: the hour; Solberg: before the concession. See [[cal.1968-11-06.elections-1968]]. Names: Daley, Humphrey.'
+    src:
+      rows:
+        - 'w.solberg-hubert-humphrey 406: all'
+    tags: [name:daley-richard-j, name:humphrey-hubert-h, state:mn]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-11-06.elections-1968-humphrey
+          - cal.1968-11-06.elections-1968-humphrey-4
+          - cal.1968-11-06.elections-1968-humphrey-2
+        from: 2026-11-10-b7-solberg
   - id: cal.1968-11-07.vietnam-paris
     when: Nov. 7
     date: '1968-11-07'

@@ -727,11 +727,12 @@ entries:
     date: '1960-07-11'
     thread: elections-1960-los-angeles
     c: Los Angeles, as the convention opens. Humphrey, never formally committed, announces he is "switching" from Kennedy to Stevenson out of "concern for my country."
-    n: '[[w.sorensen-kennedy]], 155. See [[cal.1960-07-11.elections-1960]]. Names: Humphrey, Kennedy, Stevenson. Check: the day; Sorensen: "as the convention opened on Monday, July 11."'
+    n: '[[w.sorensen-kennedy]], 155; [[w.solberg-hubert-humphrey]], 213 (Humphrey for Stevenson as the convention meets, after Rowe and O''Connor bring him together with Johnson; not the words). See [[cal.1960-07-11.elections-1960]]. Names: Humphrey, Kennedy, Stevenson. Check: the day; Sorensen: "as the convention opened on Monday, July 11."'
     src:
       c: 4c429e78
       rows:
         - 'w.sorensen-kennedy 155: all'
+        - 'w.solberg-hubert-humphrey 213: A-B'
     tags: [name:humphrey-hubert-h, name:kennedy-john-f, name:stevenson-adlai-e]
     time_range:
       - 1960-07-11T16:00Z
@@ -756,6 +757,29 @@ entries:
     time_band: workday daytime
     time_zone: America/Los_Angeles
     range_basis: kind
+  - id: cal.1960-07-11.elections-1960-los-angeles
+    when: July 11
+    date: '1960-07-11'
+    thread: elections-1960-los-angeles
+    c: Los Angeles, as the convention meets. Rowe, seconded by Pat O'Connor, a Minneapolis corporation lawyer, brings Humphrey together with Johnson.
+    n: '[[w.solberg-hubert-humphrey]], 213. To check: Patrick O''Connor, interviews, Sept. 20 and 22, 1982; James Rowe, interview; [[w.martin-adlai-stevenson-and-the]], 513; [[w.white-making-of-the-president]], 36 (cited by [[w.solberg-hubert-humphrey]], 213, its note). Check: the day; Solberg: "as the convention met." See [[cal.1960-07-11.elections-1960]]. Names: Rowe, Humphrey, Johnson.'
+    src:
+      rows:
+        - 'w.solberg-hubert-humphrey 213: all'
+        - 'via x.1982-09-20.patrick-oconnor-interviews-solberg: all'
+        - 'via x.undated.james-rowe-interview: all'
+    tags: [name:rowe-james-h-jr, name:humphrey-hubert-h, name:johnson-lyndon-b, state:ca, city:los-angeles]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-11.elections-1960
+          - cal.1960-07-11.elections-1960-2
+          - cal.1960-07-11.elections-1960-3
+          - cal.1960-07-11.elections-1960-8
+          - cal.1960-07-11.elections-1960-5
+          - cal.1960-07-11.elections-1960-6
+          - cal.1960-07-11.elections-1960-7
+        from: 2026-11-10-b7-solberg
   - id: cal.1960-07-12.congo
     when: July 12
     date: '1960-07-12'
@@ -823,11 +847,12 @@ entries:
     date: '1960-07-12'
     thread: elections-1960-los-angeles
     c: Los Angeles, the night before the nominations, by Humphrey's account. Freeman and the Minnesota delegation's Kennedy men in Humphrey's suite past midnight, for his endorsement of Kennedy. After they go, with Muriel Humphrey and Waters, he decides for Stevenson. McCarthy to nominate Stevenson, at Humphrey's suggestion.
-    n: '[[w.humphrey-education-of-a-public-1976]], 231–32. See [[cal.1960-07-12.elections-1960-2]]. Names: Freeman, Kennedy, Humphrey, Stevenson, McCarthy.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 231–32; [[w.solberg-hubert-humphrey]], 213 (asked to nominate Stevenson, Humphrey declines and suggests McCarthy). See [[cal.1960-07-12.elections-1960-2]]. Names: Freeman, Kennedy, Humphrey, Stevenson, McCarthy.'
     src:
       c: fa7821c4
       rows:
         - 'w.humphrey-education-of-a-public-1976 231–32: all'
+        - 'w.solberg-hubert-humphrey 213: D'
     tags: [name:freeman-orville-l, name:kennedy-john-f, name:humphrey-hubert-h, name:stevenson-adlai-e, name:mccarthy-eugene-j]
     time_range:
       - 1960-07-13T01:00Z

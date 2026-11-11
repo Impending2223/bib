@@ -224,12 +224,13 @@ entries:
     thread: elections-1960-primaries
     also: [economy]
     c: 'Humphrey, campaigning in West Virginia, for raising the income tax exemption from $600 to $800 a person. Kennedy: he cannot urge new spending programs and a cut in income taxes at once; "until the economy is moved up," no cut.'
-    n: '[[w.stein-fiscal-revolution-in-america]], 376 (by the *New York Times*). To check: [*New York Times*, May 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/05/05/issue.html) (cited by [[w.stein-fiscal-revolution-in-america]], 376 n.4). Check: the day of Kennedy''s answer. See [[cal.1960-04.elections-1960]]. Names: Humphrey, Kennedy.'
+    n: '[[w.stein-fiscal-revolution-in-america]], 376 (by the *New York Times*); [[w.solberg-hubert-humphrey]], 209 (a staff of four hands out Humphrey''s releases on how his vote and Kennedy''s differed on raising the personal exemptions). To check: [*New York Times*, May 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/05/05/issue.html) (cited by [[w.stein-fiscal-revolution-in-america]], 376 n.4). Check: the day of Kennedy''s answer. See [[cal.1960-04.elections-1960]]. Names: Humphrey, Kennedy.'
     src:
       c: 32446a58
       rows:
         - 'w.stein-fiscal-revolution-in-america 376: all'
         - 'via w.stein-fiscal-revolution-in-america 376 n.4: all'
+        - 'w.solberg-hubert-humphrey 209: A'
     tags: [name:humphrey-hubert-h, name:kennedy-john-f]
   - id: cal.1960-05-04.medicare
     when: May 4
@@ -378,6 +379,17 @@ entries:
       - 1960-05-05T06:00Z
       - 1960-05-05T16:00Z
     time_zone: Europe/Moscow
+  - id: cal.1960-05-05.elections-1960-primaries
+    when: May 5
+    date: '1960-05-05'
+    thread: elections-1960-primaries
+    c: 'Morgantown, W. Va. Humphrey''s ten points for West Virginia''s revival: food stamps for the poorest counties, health care for the old, a Youth Conservation Corps, a higher minimum wage, research on new markets and uses for coal.'
+    n: '[[w.solberg-hubert-humphrey]], 209. To check: Humphrey, speech at Morgantown, May 5, 1960, MSF, Humphrey Papers (cited by [[w.solberg-hubert-humphrey]], 208, its note). Check: the day; Solberg''s text gives none, its note the speech of May 5. See [[cal.1960-04.elections-1960]]. Names: Humphrey.'
+    src:
+      rows:
+        - 'w.solberg-hubert-humphrey 209: all'
+        - 'via x.1960-05-05.humphrey-speech-morgantown: all'
+    tags: [name:humphrey-hubert-h, state:wv]
   - id: cal.1960-05-06.voting-rights
     when: May 6
     date: '1960-05-06'
@@ -2024,11 +2036,13 @@ entries:
     date: 1960-05
     thread: elections-1960-primaries
     c: West Virginia. Kennedy and Humphrey debate on television, Kennedy behind and hoping for a breakthrough; he would not debate Humphrey in Wisconsin. One sharp exchange, on the "stop-Kennedy gang-up." Kennedy holds up a surplus food package. By Sorensen's account, local papers in the next days show votes switching to Kennedy.
-    n: '[[w.sorensen-kennedy]], 140–41. See [[cal.1960-04-21.elections-1960]]. Names: Kennedy, Humphrey. Check: the day, before the primary of May 10.'
+    n: '[[w.sorensen-kennedy]], 140–41; [[w.solberg-hubert-humphrey]], 209–10 (the debate on television, Kennedy, as the underdog, agreeing as he would not in Wisconsin; he wins the toss, lets Humphrey speak first, then says only he can win the nomination and bring West Virginia the aid Humphrey calls for). Check: Solberg''s note cites the *New York Times* of May 5, 1960, for the debate (209). To check: [*New York Times*, May 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/05/05/issue.html) (cited by [[w.solberg-hubert-humphrey]], 209, its note). See [[cal.1960-04-21.elections-1960]]. Names: Kennedy, Humphrey. Check: the day, before the primary of May 10.'
     src:
       c: 0925ee0b
       rows:
         - 'w.sorensen-kennedy 140–41: all'
+        - 'w.solberg-hubert-humphrey 209–10: A-C'
+        - 'via x.1960-05-05.new-york-times-may-5-1960: A-C'
     tags: [name:kennedy-john-f, name:humphrey-hubert-h, state:wv]
   - id: cal.1960-05.elections-1960-7
     when: May
@@ -2046,7 +2060,7 @@ entries:
     date: 1960-05
     thread: elections-1960-primaries
     c: 'West Virginia. Franklin D. Roosevelt Jr., driving through the State, to an interviewer: Humphrey "a good Democrat, but I don''t know where he was in World War II." Headlined. Kennedy and Roosevelt later apologize to Humphrey.'
-    n: '[[w.sorensen-kennedy]], 141–42; [[w.thomas-robert-kennedy]], 95 (Roosevelt insinuates that Humphrey dodged the draft; his records mailed anonymously to the Kennedy staff; Roosevelt says Robert Kennedy goaded him); [[w.mann-walls-of-jericho]], 267 (Roosevelt charges that Humphrey avoided service in the war). See [[cal.1960-04-21.elections-1960]]. Names: Franklin D. Roosevelt Jr., Humphrey, Kennedy. Check: the day, before the primary of May 10.'
+    n: '[[w.sorensen-kennedy]], 141–42; [[w.thomas-robert-kennedy]], 95 (Roosevelt insinuates that Humphrey dodged the draft; his records mailed anonymously to the Kennedy staff; Roosevelt says Robert Kennedy goaded him); [[w.mann-walls-of-jericho]], 267 (Roosevelt charges that Humphrey avoided service in the war); [[w.solberg-hubert-humphrey]], 209 (Roosevelt at Kennedy''s side: "I don''t know where he was in World War II"; papers from Robert Kennedy charging Humphrey a draft dodger; much later, Roosevelt''s written apology and retraction). Check: Solberg''s note cites the *Washington Post* of Apr. 27, 1960, for Roosevelt''s words (209): so April. To check: *Washington Post*, Apr. 27, 1960 (cited by [[w.solberg-hubert-humphrey]], 209, its note). See [[cal.1960-04-21.elections-1960]]. Names: Franklin D. Roosevelt Jr., Humphrey, Kennedy. Check: the day, before the primary of May 10.'
     src:
       c: 1e5ff8ef
       rows:
@@ -2054,7 +2068,14 @@ entries:
         - 'w.thomas-robert-kennedy 95: B'
         - 'via w.thomas-robert-kennedy 95 n.fdr-jr: B'
         - 'w.mann-walls-of-jericho 267: A, B'
+        - 'w.solberg-hubert-humphrey 209: A-B'
+        - 'via x.1960-04-27.washington-post-apr-27-1960: B'
     tags: [name:roosevelt-franklin-d-jr, name:humphrey-hubert-h, name:kennedy-john-f, state:wv]
+    variants:
+      - unit: D
+        witness: w.solberg-hubert-humphrey
+        reads: Much later, Roosevelt gave Humphrey a written apology and retraction
+        at: '209'
   - id: cal.1960-05.elections-1960-12
     when: May
     date: 1960-05

@@ -2120,6 +2120,22 @@ entries:
           - cal.1968-08-08.elections-1968-miami-11
           - cal.1968-08-08.elections-1968-miami-12
         from: 2026-11-06-b6-cq-weekly-report-1968-08-09
+  - id: cal.1968-08-08.elections-1968-humphrey
+    when: Aug. 8
+    date: '1968-08-08'
+    thread: elections-1968-humphrey
+    c: 'Johnson telephones Humphrey: Nixon and Agnew are coming to the Ranch Aug. 10; Humphrey invited for Aug. 9.'
+    n: '[[w.solberg-hubert-humphrey]], 349. Check: Solberg''s note gives no record of the call. See [[cal.1968-07-25.elections-1968]]. Names: Johnson, Humphrey, Nixon, Agnew.'
+    src:
+      rows:
+        - 'w.solberg-hubert-humphrey 349: all'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:nixon-richard-m, name:agnew-spiro-t]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-08-08.elections-1968
+          - cal.1968-08-08.elections-1968-4
+        from: 2026-11-10-b7-solberg
   - id: cal.1968-08-09.court-fortas
     when: Aug. 9
     date: '1968-08-09'
@@ -2198,7 +2214,13 @@ entries:
     date: '1968-08-09'
     thread: elections-1968-humphrey
     c: Johnson City, Tex. Humphrey with Johnson nearly five hours.
-    n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2177, 2178. Names: Humphrey, Johnson.'
+    n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2177, 2178. [[w.solberg-hubert-humphrey]], 349 (the Ranch, with Muriel Humphrey, Douglas Humphrey and Connell; at lunch, Kearns a guest). To check: "VP at ranch, Aug. 9, 1968, 10:30-3 P.M.," White House Daily Diary, LBJ Library (cited by [[w.solberg-hubert-humphrey]], 349, its note). Names: Humphrey, Johnson.'
+    src:
+      c: c4121920
+      rows:
+        - 'w.cq-weekly-report Aug. 16, 1968, 2177, 2178: all'
+        - 'w.solberg-hubert-humphrey 349: A'
+        - 'via x.1968-08-09.white-house-daily-diary-vp-at-ranch: A-B'
     tags: [name:humphrey-hubert-h, name:johnson-lyndon-b, state:tx]
     time_range:
       - 1968-08-09T14:00Z
@@ -2317,7 +2339,7 @@ entries:
     thread: elections-1968-humphrey
     also: [vietnam]
     c: The LBJ Ranch. Humphrey brings Johnson his tenth draft of the statement on Vietnam; Johnson, unruffled, as good as says he could not have done better himself. The draft much weakened.
-    n: '[[w.chester-american-melodrama]], 423 (by one who saw the draft); [[w.solberg-hubert-humphrey]], 349–50 (draft eleven, "restraint and reasonable response"; "I think I can pull it off"; the Daily Diary, 10:30 a.m. to 3 p.m.); [[w.bernstein-guns-or-butter]], 510 (draft No. 11, "when reciprocity is obtained"; Johnson: "if you just let me work for peace, you''ll have a better chance"). To check: Humphrey''s statement on Vietnam, draft number ten, August 1968 (cited by [[w.chester-american-melodrama]], 423). See [[cal.1968-07-25.elections-1968]]. Names: Humphrey, Johnson.'
+    n: '[[w.chester-american-melodrama]], 423 (by one who saw the draft); [[w.solberg-hubert-humphrey]], 349–50 (draft eleven, "restraint and reasonable response"; "I think I can pull it off"; the Daily Diary, 10:30 a.m. to 3 p.m.); [[w.bernstein-guns-or-butter]], 510 (draft No. 11, "when reciprocity is obtained"; Johnson: "if you just let me work for peace, you''ll have a better chance"). Check: Solberg, 349, has draft eleven (its note: "Draft XI," Aug. 8, 1968) and Johnson again advising against its release: "if you''ll let me work for peace, you''ll have a better chance for election.". To check: Humphrey''s statement on Vietnam, draft number ten, August 1968 (cited by [[w.chester-american-melodrama]], 423); "Vietnam, Toward a Political Settlement and Peace in Southeast Asia, Draft XI," Aug. 8, 1968, Vietnam box 1965–71, Humphrey Papers (cited by [[w.solberg-hubert-humphrey]], 349, its note). See [[cal.1968-07-25.elections-1968]]. Names: Humphrey, Johnson.'
     src:
       c: d90a10fe
       rows:
@@ -2331,6 +2353,11 @@ entries:
       - 1968-08-09T15:30Z
       - 1968-08-09T20:00Z
     range_basis: record
+    variants:
+      - unit: B
+        witness: w.solberg-hubert-humphrey
+        reads: With draft eleven of his Vietnam statement in his briefcase, Humphrey flew down
+        at: '349'
   - id: cal.1968-08-09.congress-2
     when: Aug. 9
     date: '1968-08-09'
@@ -4467,6 +4494,11 @@ entries:
       - 1968-08-24T05:00Z
       - 1968-08-24T09:00Z
     time_zone: America/Chicago
+    variants:
+      - unit: C
+        witness: w.solberg-hubert-humphrey
+        reads: Ginsburg paid particular attention to a speech that Senator Edward Kennedy had delivered the night before ... "There's not ten cents worth of difference from the Vice President's policy," he said
+        at: '352'
   - id: cal.1968-08-24.elections-1968-chicago-4
     when: Aug. 24
     date: '1968-08-24'
@@ -4521,7 +4553,7 @@ entries:
     thread: elections-1968-chicago
     also: [vietnam-paris]
     c: Chicago and Washington, by Humphrey's account. Ginsburg, Humphrey's man on the platform, agrees language on Vietnam with Charles Murphy for Johnson; Sorensen sounds the McCarthy people. Humphrey, at his office, takes the text down by telephone and reads it to Rusk ("We can live with this"), Rostow and Meany; none objects. "Go ahead."
-    n: '[[w.humphrey-education-of-a-public-1976]], 387–88, 491 n.4; [[w.chester-american-melodrama]], 536 (Murphy collects Ginsburg''s final draft that evening); [[w.solberg-hubert-humphrey]], 352 (the text by telephone; Rusk: "We can live with it, Hubert"; Rostow). See [[cal.1968-08-23.elections-1968-chicago]]. Names: Murphy, Sorensen, Humphrey, Rusk, Rostow, Meany, Johnson.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 387–88, 491 n.4; [[w.chester-american-melodrama]], 536 (Murphy collects Ginsburg''s final draft that evening); [[w.solberg-hubert-humphrey]], 352 (the text by telephone; Rusk: "We can live with it, Hubert"; Rostow). Check: Solberg, 352, has Ginsburg settle the text with Sorensen, Murphy only asking for it. See [[cal.1968-08-23.elections-1968-chicago]]. Names: Murphy, Sorensen, Humphrey, Rusk, Rostow, Meany, Johnson.'
     src:
       c: b0628f74
       rows:
@@ -4529,6 +4561,11 @@ entries:
         - 'w.chester-american-melodrama 536: B'
         - 'w.solberg-hubert-humphrey 352: all'
     tags: [name:murphy-charles-s, name:sorensen-theodore-c, name:humphrey-hubert-h, name:rusk-dean, name:rostow-walt-w, name:meany-george, name:johnson-lyndon-b]
+    variants:
+      - unit: B
+        witness: w.solberg-hubert-humphrey
+        reads: set out to close the remaining distance in negotiations with Theodore Sorensen ... On the Saturday night Humphrey was clearing it in Washington, Murphy asked, without comment, for the agreed text
+        at: '352'
   - id: cal.1968-08-24.elections-1968-chicago-6
     when: Aug. 24
     date: '1968-08-24'
@@ -4717,7 +4754,12 @@ entries:
     time: 1968-08-25T19:00Z
     thread: elections-1968-chicago
     c: Chicago, 2 p.m. Humphrey at O'Hare, to supporters and a bagpipe band.
-    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2293. Names: Humphrey.'
+    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2293. [[w.solberg-hubert-humphrey]], 357 (Daley''s bagpipe band, Daley not there; almost no crowd; McCarthy met by five thousand, Humphrey says). Names: Humphrey.'
+    src:
+      c: 52d17889
+      rows:
+        - 'w.cq-weekly-report Aug. 30, 1968, 2293: all'
+        - 'w.solberg-hubert-humphrey 357: B'
     tags: [name:humphrey-hubert-h, state:il, city:chicago]
   - id: cal.1968-08-25.elections-1968-chicago-7
     when: Aug. 25
@@ -4725,12 +4767,14 @@ entries:
     time: 1968-08-25T20:00Z
     thread: elections-1968-chicago
     c: Chicago, 3 p.m. The Illinois delegation, 118, largely uncommitted, hears Humphrey, Maddox, McCarthy and McGovern; endorses no one for the time being.
-    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2293. [[w.cohen-american-pharaoh]], 470–71 (Humphrey thirty-seven minutes, McCarthy and McGovern seventeen, Maddox twenty-five). Names: Humphrey, Maddox, McCarthy, McGovern.'
+    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2293. [[w.cohen-american-pharaoh]], 470–71 (Humphrey thirty-seven minutes, McCarthy and McGovern seventeen, Maddox twenty-five); [[w.solberg-hubert-humphrey]], 357–58 (at the Sherman, Daley expected to announce for Humphrey; Humphrey "not hawkish, not dovish, just Daleyish," by Berman''s diary; Daley reserves Illinois''s decision). Names: Humphrey, Maddox, McCarthy, McGovern.'
     src:
       c: '12983232'
       rows:
         - 'w.cq-weekly-report Aug. 30, 1968, 2293: all'
         - 'w.cohen-american-pharaoh 470–71: A-C'
+        - 'w.solberg-hubert-humphrey 357–58: B-C'
+        - 'via x.1968-08-25.berman-diary-aug-25-1968-solberg: B-C'
     tags: [name:humphrey-hubert-h, name:maddox-lester, name:mccarthy-eugene-j, name:mcgovern-george, state:il, city:chicago]
   - id: cal.1968-08-25.elections-1968-chicago-8
     when: Aug. 25
@@ -4764,7 +4808,7 @@ entries:
     date: '1968-08-25'
     thread: elections-1968-chicago
     c: Humphrey to Chicago, Sunday night. Ginsburg telephones the Ranch on the two or three points Murphy cannot accept; Jim Jones on the line, Johnson heard behind him, louder and angrier. By Humphrey's account.
-    n: '[[w.humphrey-education-of-a-public-1976]], 388; [[w.chester-american-melodrama]], 536 (Sunday evening; Murphy with Boggs, Ginsburg and Welsh; "Stop the bombing of North Vietnam" unacceptable to Johnson); [[w.solberg-hubert-humphrey]], 352–53, 357 (to Chicago; the call to the Ranch). See [[cal.1968-08-24.elections-1968-chicago]]. Names: Humphrey, Murphy, Jones, Johnson.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 388; [[w.chester-american-melodrama]], 536 (Sunday evening; Murphy with Boggs, Ginsburg and Welsh; "Stop the bombing of North Vietnam" unacceptable to Johnson); [[w.solberg-hubert-humphrey]], 352–53, 357 (to Chicago; the call to the Ranch). Check: Solberg, 352–53, has the call from Boggs''s room at the Congress Hotel, Tom Johnson on the line, by Ginsburg''s interview. See [[cal.1968-08-24.elections-1968-chicago]]. Names: Humphrey, Murphy, Jones, Johnson.'
     src:
       c: d203676d
       rows:
@@ -4776,6 +4820,11 @@ entries:
       - 1968-08-25T23:00Z
       - 1968-08-26T08:00Z
     time_zone: America/Chicago
+    variants:
+      - unit: C
+        witness: w.solberg-hubert-humphrey
+        reads: Murphy and Ginsburg took turns at the telephone, speaking directly with Tom Johnson ... "I could hear the President's voice in the background instructing Tom Johnson what to say."
+        at: '353'
   - id: cal.1968-08-25.elections-1968-chicago-10
     when: Aug. 25–26
     date: '1968-08-25'
@@ -4812,6 +4861,28 @@ entries:
         - 'w.white-making-of-the-president-1969 320: all'
       c: 8fee8ba4
     tags: [name:nixon-richard-m, name:rebozo-charles-g]
+  - id: cal.1968-08-25.elections-1968-chicago-12
+    when: Aug. 25
+    date: '1968-08-25'
+    thread: elections-1968-chicago
+    c: 'Chicago, after the Illinois caucus. Humphrey through a lobby of young people shouting "We Want Gene," up to his suite on the Conrad Hilton''s twenty-fifth floor. With O''Brien, Fred Harris, Mondale, Rowe, Connell and Andreas: O''Brien sure Edward Kennedy will not run. Humphrey: Kennedy''s views on Vietnam and his own draft plank "practically agree—hell, it''s a matter of semantics"; his draft "won''t get us into trouble in high places, and it''s progressive."'
+    n: '[[w.solberg-hubert-humphrey]], 358. To check: Edgar Berman, diary, Aug. 25, 1968, Berman files (cited by [[w.solberg-hubert-humphrey]], 358, its note). See [[cal.1968-08-25.elections-1968-chicago-6]]. Names: Humphrey, O''Brien, Fred Harris, Mondale, Rowe, Edward Kennedy.'
+    src:
+      rows:
+        - 'w.solberg-hubert-humphrey 358: all'
+        - 'via x.1968-08-25.berman-diary-aug-25-1968-solberg: all'
+    tags: [name:humphrey-hubert-h, name:obrien-lawrence-f, name:harris-fred-r, name:mondale-walter-f, name:rowe-james-h-jr, name:kennedy-edward-m, state:il, city:chicago]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-08-25.elections-1968-chicago-5
+          - cal.1968-08-25.elections-1968-chicago-6
+          - cal.1968-08-25.elections-1968-chicago-7
+          - cal.1968-08-25.elections-1968-chicago-8
+          - cal.1968-08-25.elections-1968-chicago-9
+          - cal.1968-08-25.elections-1968-chicago-10
+          - cal.1968-08-25.elections-1968-chicago-11
+        from: 2026-11-10-b7-solberg
   - id: cal.1968-08-26.soviet-union-czechoslovakia
     when: Aug. 26
     date: '1968-08-26'
@@ -5164,6 +5235,31 @@ entries:
           - cal.1968-08-26.elections-1968-chicago-20
           - cal.1968-08-26.elections-1968-chicago-21
         from: 2026-11-06-b6-white-making-of-the-president-1969
+  - id: cal.1968-08-26.elections-1968-chicago-23
+    when: Aug. 26
+    date: '1968-08-26'
+    thread: elections-1968-chicago
+    c: 'Chicago, Humphrey''s headquarters at the Hilton. Connally to Connell: "We''ve been playing games. Let''s forget all this nonsense; we''re with you." The Southern governors release their delegations to Humphrey.'
+    n: '[[w.solberg-hubert-humphrey]], 360. To check: Edgar Berman, diary, Aug. 26, 1968, Berman files (cited by [[w.solberg-hubert-humphrey]], 360, its note). Check: the day; Solberg''s text puts it after the California caucus of Aug. 27, his note Berman''s diary of Aug. 26. See [[cal.1968-08-25.elections-1968-chicago-6]]. Names: Connally, Humphrey.'
+    src:
+      rows:
+        - 'w.solberg-hubert-humphrey 360: all'
+        - 'via x.1968-08-26.berman-diary-aug-26-1968-solberg: A-B'
+    tags: [name:connally-john, name:humphrey-hubert-h, state:il, city:chicago]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-08-26.elections-1968
+          - cal.1968-08-26.elections-1968-chicago
+          - cal.1968-08-26.elections-1968-chicago-7
+          - cal.1968-08-26.elections-1968-chicago-9
+          - cal.1968-08-26.elections-1968-chicago-12
+          - cal.1968-08-26.elections-1968-chicago-14
+          - cal.1968-08-26.elections-1968-chicago-18
+          - cal.1968-08-26.elections-1968-chicago-20
+          - cal.1968-08-26.elections-1968-chicago-21
+          - cal.1968-08-26.elections-1968-chicago-22
+        from: 2026-11-10-b7-solberg
   - id: cal.1968-08-27.elections-1968-chicago
     when: Aug. 27
     date: '1968-08-27'
@@ -5196,7 +5292,7 @@ entries:
     date: '1968-08-27'
     thread: elections-1968-chicago
     c: 'Johnson''s sixtieth birthday, at the Ranch. Dirksen, by telephone, 11:15 a.m.: "Are you any closer to going out there to that convention?" Johnson: "I haven''t made any plans to go and rather doubt that I will." Calls to Daley, Criswell and others in the afternoon; at 4:40 to Humphrey: he will not come to Chicago. Christian tells the press. Connally had found the Southern governors against a draft, by his account.'
-    n: 'FRUS 1964–68, VI, doc. [341](https://history.state.gov/historicaldocuments/frus1964-68v06/d341) (the call to Dirksen). [Johnson and Dirksen, 11:15 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-everett-dirksen-office-noise-and-office), Conversation WH6808-03-13323; [Johnson and Daley, 4:08 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-daley-august-27-1968), Conversation WH6808-03-13327; [Johnson, Criswell and Jones, 4:15 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-criswell-and-jim-jones-august-27-1968), Conversation WH6808-03-13328; [Johnson, Humphrey and Jones, 4:40 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-hubert-humphrey-jim-jones-telephone-operators), Conversation WH6808-03-13329 (Miller Center). [[w.longley-lbjs-1968]], 219–21 (the day; Longley gives 4:45 for the call to Humphrey); [[w.califano-triumph-and-tragedy-of]], 320–22 (the speech drafts, Hardesty and Middleton, Busby, McPherson, Clifford and Califano, the changes telephoned through Jones, Temple and Levinson; Johnson listening on another line to Daley, Humphrey, Watson, Criswell; the press conference: "I have not decided yet"; that night, not going). [[w.solberg-hubert-humphrey]], 360–61 (the call to Humphrey, Jones first; the trip off on Watson''s, Murphy''s and Criswell''s advice). To check: [[w.connally-in-historys-shadow]], 203. See [[cal.1968-08-26.elections-1968]]. Names: Dirksen, Daley, Criswell, Humphrey, Christian, Connally, Johnson.'
+    n: 'FRUS 1964–68, VI, doc. [341](https://history.state.gov/historicaldocuments/frus1964-68v06/d341) (the call to Dirksen). [Johnson and Dirksen, 11:15 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-everett-dirksen-office-noise-and-office), Conversation WH6808-03-13323; [Johnson and Daley, 4:08 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-daley-august-27-1968), Conversation WH6808-03-13327; [Johnson, Criswell and Jones, 4:15 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-criswell-and-jim-jones-august-27-1968), Conversation WH6808-03-13328; [Johnson, Humphrey and Jones, 4:40 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-hubert-humphrey-jim-jones-telephone-operators), Conversation WH6808-03-13329 (Miller Center). [[w.longley-lbjs-1968]], 219–21 (the day; Longley gives 4:45 for the call to Humphrey); [[w.califano-triumph-and-tragedy-of]], 320–22 (the speech drafts, Hardesty and Middleton, Busby, McPherson, Clifford and Califano, the changes telephoned through Jones, Temple and Levinson; Johnson listening on another line to Daley, Humphrey, Watson, Criswell; the press conference: "I have not decided yet"; that night, not going); [[w.solberg-hubert-humphrey]], 360 (the call from the Ranch that afternoon, Jim Jones first; Johnson ready to go, his speech written; Watson, Murphy and Criswell against the trip). [[w.solberg-hubert-humphrey]], 360–61 (the call to Humphrey, Jones first; the trip off on Watson''s, Murphy''s and Criswell''s advice). To check: [[w.connally-in-historys-shadow]], 203. See [[cal.1968-08-26.elections-1968]]. Names: Dirksen, Daley, Criswell, Humphrey, Christian, Connally, Johnson.'
     src:
       c: ca7c4a4e
       rows:
@@ -5211,6 +5307,7 @@ entries:
         - 'w.solberg-hubert-humphrey 360–61: E'
         - 'via w.solberg-hubert-humphrey 360 n.birthday: E'
         - 'w.califano-triumph-and-tragedy-of 320–22: ?'
+        - 'w.solberg-hubert-humphrey 360: E'
     tags: [name:dirksen-everett, name:daley-richard-j, name:criswell-john, name:humphrey-hubert-h, name:christian-george, name:connally-john, name:johnson-lyndon-b]
     time_range:
       - 1968-08-27T15:15Z
@@ -6056,7 +6153,13 @@ entries:
     thread: elections-1968-chicago-streets
     also: [war-opposition]
     c: 'Chicago, Grant Park. McCarthy crosses the police and Guard lines in front of the Hilton to more than 2,000: "the government of the people in exile"; work within the system, take the party in 1972. After, some 500 march south behind ex-Peace Corps volunteers, Hoffman with them; turned back at 16th Street by police and Guardsmen with fixed bayonets.'
-    n: '[[w.rights-in-conflict-convention-week]], 341. See [[cal.1968-08-22.elections-1968]]. Names: McCarthy, Hoffman.'
+    n: '[[w.rights-in-conflict-convention-week]], 341; [[w.solberg-hubert-humphrey]], 370 (McCarthy, after the television film of the Hilton, among the young in Grant Park: a "government in exile"). See [[cal.1968-08-22.elections-1968]]. Names: McCarthy, Hoffman.'
+    src:
+      c: 13b1294a
+      rows:
+        - 'w.rights-in-conflict-convention-week 341: all'
+        - 'w.solberg-hubert-humphrey 370: A-B'
+        - 'via x.1968-08-30.new-york-times-aug-30-1968: B'
     tags: [name:mccarthy-eugene-j, name:hoffman-abbie, state:il, city:chicago]
   - id: cal.1968-08-29.elections-1968-chicago-5
     when: Aug. 29
@@ -6461,7 +6564,13 @@ entries:
     date: '1968-08-31'
     thread: elections-1968-humphrey
     c: 'Waverly, Minn. Humphrey''s first statement of the campaign: the Chicago riots "planned" and "premeditated"; time to "quit pretending that Mayor Daley did something that was wrong."'
-    n: '[[w.white-making-of-the-president-1969]], 334. Check: the day. Names: Humphrey, Daley.'
+    n: '[[w.white-making-of-the-president-1969]], 334; [[w.solberg-hubert-humphrey]], 370 (Humphrey to Roger Mudd of CBS: the demonstrations "planned, premeditated"; "I think we ought to quit pretending that Mayor Daley did anything wrong. He didn''t"; his note, the interview of Aug. 31, 1968). Check: the day. To check: Humphrey, interview, Roger Mudd, CBS News, Aug. 31, 1968, Wechsler files (cited by [[w.solberg-hubert-humphrey]], 370, its note). Names: Humphrey, Daley.'
+    src:
+      c: c0c43f39
+      rows:
+        - 'w.white-making-of-the-president-1969 334: all'
+        - 'w.solberg-hubert-humphrey 370: B-C'
+        - 'via x.1968-08-31.humphrey-interview-roger-mudd-cbs: B-C'
     tags: [name:humphrey-hubert-h, name:daley-richard-j, state:mn]
     time_range:
       - 1968-08-31T14:00Z
@@ -6469,6 +6578,15 @@ entries:
     time_band: workday daytime
     time_zone: America/Chicago
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.solberg-hubert-humphrey
+        reads: Humphrey, as the convention adjourned, gave an interview with CBS's Roger Mudd
+        at: '370'
+      - unit: C
+        witness: w.solberg-hubert-humphrey
+        reads: I think we ought to quit pretending that Mayor Daley did anything wrong. He didn't.
+        at: '370'
   - id: cal.1968-08.elections-1968-miami-2
     when: Aug., early
     date: 1968-08

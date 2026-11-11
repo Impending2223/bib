@@ -267,12 +267,22 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-09-06.elections-1968-humphrey
+    when: Sept. 6
+    date: '1968-09-06'
+    thread: elections-1968-humphrey
+    c: 'Krim, Johnson''s fund-raiser, telephones Humphrey at Waverly, Minn.: he has been in touch with Andreas, and offers help, as a consultant. The President''s Club''s $600,000 not freed for Humphrey.'
+    n: '[[w.solberg-hubert-humphrey]], 375. Check: the day; Solberg: "the following day," after the leaders'' breakfast of Sept. 5. See [[cal.1968-09-03.elections-1968]]. Names: Humphrey.'
+    src:
+      rows:
+        - 'w.solberg-hubert-humphrey 375: all'
+    tags: [name:humphrey-hubert-h, state:mn]
   - id: cal.1968-09-07.vietnam
     when: Sept. 7
     date: '1968-09-07'
     thread: vietnam-paris
     c: Paris. Harriman and Vance meet Lê Đức Thọ and Xuân Thủy in private, the first of such meetings; what is said to stay secret. Most of the three hours Thọ's "endless harangue" on the war.
-    n: 'FRUS 1964–68, VII, doc. [7](https://history.state.gov/historicaldocuments/frus1964-68v07/d7). [[w.nguyen-hanois-war]], 122 (this meeting; Hanoi''s side of the private talks to the halt, 121–29). To check: Hanoi''s record of the meeting, "Private Meeting between Us and the Americans, Sept. 8, 1968," the Foreign Ministry''s chronology, IV, 162 (cited by [[w.nguyen-hanois-war]], 122 n.48). Made public: FRUS 1964–68, VII (2003). Nguyen, 122, dates the meeting Sept. 8, by Hanoi''s record, and gives Thọ''s lecture "nearly an hour"; Harriman and Vance''s telegram, sent Sept. 7: "this morning September 7," three hours. See [[cal.1968-05-13.vietnam]]. Names: Harriman, Vance, Lê Đức Thọ, Xuân Thủy.'
+    n: 'FRUS 1964–68, VII, doc. [7](https://history.state.gov/historicaldocuments/frus1964-68v07/d7). [[w.nguyen-hanois-war]], 122 (this meeting; Hanoi''s side of the private talks to the halt, 121–29); [[w.solberg-hubert-humphrey]], 390 (Johnson authorizes Harriman and Vance to probe privately for Hanoi''s terms). To check: Hanoi''s record of the meeting, "Private Meeting between Us and the Americans, Sept. 8, 1968," the Foreign Ministry''s chronology, IV, 162 (cited by [[w.nguyen-hanois-war]], 122 n.48). Made public: FRUS 1964–68, VII (2003). Nguyen, 122, dates the meeting Sept. 8, by Hanoi''s record, and gives Thọ''s lecture "nearly an hour"; Harriman and Vance''s telegram, sent Sept. 7: "this morning September 7," three hours. See [[cal.1968-05-13.vietnam]]. Names: Harriman, Vance, Lê Đức Thọ, Xuân Thủy.'
     src:
       c: f362fea8
       rows:
@@ -280,6 +290,8 @@ entries:
         - 'w.nguyen-hanois-war 122: A-B, D'
         - 'via w.nguyen-hanois-war 122 n.48a: A-B, D'
         - 'via w.nguyen-hanois-war 122 n.48b: all'
+        - 'w.solberg-hubert-humphrey 390: B'
+        - 'via x.1969-05-26.william-p-bundy-oral-history-by-paige: B'
     tags: [name:harriman-w-averell, name:vance-cyrus, name:le-duc-tho, name:xuan-thuy]
     short: the private meetings with Lê Đức Thọ
     time_range:
@@ -774,6 +786,24 @@ entries:
         - 'w.macv-command-history-1968 983: all'
         - 'via w.macv-command-history-1968 983 n.37: all'
     tags: [name:deepe-beverley]
+  - id: cal.1968-09-13.elections-1968-humphrey
+    when: Sept. 13
+    date: '1968-09-13'
+    thread: elections-1968-humphrey
+    also: [vietnam-paris]
+    c: 'Ball, about to resign at the United Nations to help Humphrey, to Humphrey: the Paris talks "sterile"; it would not hurt, and might help, for him to say his piece on Vietnam.'
+    n: '[[w.solberg-hubert-humphrey]], 377. To check: Edgar Berman, diary, Sept. 13, 1968, Berman files; Welsh to Humphrey, Sept. 13, 1968, Welsh files (cited by [[w.solberg-hubert-humphrey]], 377, its note). See [[cal.1968-09.elections-1968-4]]. Names: Ball, Humphrey.'
+    src:
+      rows:
+        - 'w.solberg-hubert-humphrey 377: all'
+        - 'via x.1968-09-13.berman-diary-sept-13-1968-solberg: all'
+        - 'via x.1968-09-13.welsh-to-humphrey-welsh-files: all'
+    tags: [name:ball-george-w, name:humphrey-hubert-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-09-13.elections-1968-2
+        from: 2026-11-10-b7-solberg
   - id: cal.1968-09-14.vietnam-paris
     when: Sept. 14
     date: '1968-09-14'
@@ -1571,7 +1601,7 @@ entries:
     date: '1968-09-28'
     thread: elections-1968-humphrey
     c: 'Seattle, the civic auditorium, some fifteen thousand: about a hundred protesters in the balcony with a bullhorn keep Humphrey from speaking until the police remove them. At 2 a.m., to his staff, by his account: "I''m probably going to lose this election ... but win or lose, I''m going to speak my mind."'
-    n: '[[w.humphrey-education-of-a-public-1976]], 399–400; [[w.chester-american-melodrama]], 647 (the hecklers; "I shall not be driven from this platform by a handful who believe in nothing"); [[w.solberg-hubert-humphrey]], 381 (the Seattle heckling: "shut up and let the decent people listen"); [[w.white-making-of-the-president-1969]], 353–54. See [[cal.1968-09-02.elections-1968]]. Names: Humphrey. Check the day: Humphrey puts it two nights before Salt Lake City.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 399–400; [[w.chester-american-melodrama]], 647 (the hecklers; "I shall not be driven from this platform by a handful who believe in nothing"); [[w.solberg-hubert-humphrey]], 381 (the Seattle heckling: "shut up and let the decent people listen"); [[w.white-making-of-the-president-1969]], 353–54. Check: Solberg, 381, has Seattle on "Saturday, September 29" (Saturday was Sept. 28), four thousand in the Civic Arena, some two hundred protesters in a balcony. See [[cal.1968-09-02.elections-1968]]. Names: Humphrey. Check the day: Humphrey puts it two nights before Salt Lake City.'
     src:
       c: f5351e32
       rows:
@@ -1580,6 +1610,11 @@ entries:
         - 'w.solberg-hubert-humphrey 381: all'
         - 'w.white-making-of-the-president-1969 353–54: all'
     tags: [name:humphrey-hubert-h, state:wa]
+    variants:
+      - unit: A
+        witness: w.solberg-hubert-humphrey
+        reads: Saturday, September 29 ... Four thousand Humphrey supporters filled the Civic Arena ... some two hundred well-organized protesters
+        at: '381'
   - id: cal.1968-09-28.war-opposition
     when: Sept. 28
     date: '1968-09-28'
@@ -1604,13 +1639,18 @@ entries:
     date: '1968-09-29'
     thread: elections-1968-humphrey
     c: 'Ball on CBS''s *Face the Nation*: Agnew a "preposterous" choice, "a fourth-rate political hack."'
-    n: '[[w.mann-grand-delusion]], 617 (the words). [[w.ball-past-has-another-pattern]], 445. Check: the day; Mann has it "several days" after the press conference, and the daybook''s *Face the Nation* line has Ball Sept. 29. See [[cal.1968-09.elections-1968-3]]. Names: Ball, Agnew.'
+    n: '[[w.mann-grand-delusion]], 617 (the words). [[w.ball-past-has-another-pattern]], 445. Check: the day; Mann has it "several days" after the press conference, and the daybook''s *Face the Nation* line has Ball Sept. 29. Check: Solberg, 380, has Ball''s Sunday date on *Meet the Press*. See [[cal.1968-09.elections-1968-3]]. Names: Ball, Agnew.'
     src:
       c: d514d5ba
       rows:
         - 'w.mann-grand-delusion 617: all'
         - 'w.ball-past-has-another-pattern 445: all'
     tags: [name:ball-george-w, name:agnew-spiro-t]
+    variants:
+      - unit: A
+        witness: w.solberg-hubert-humphrey
+        reads: Ball himself ... would fly back to the East Coast [to] keep a Sunday "Meet the Press" date
+        at: '380'
   - id: cal.1968-09-29.elections-1968-2
     when: Sept. 29
     date: '1968-09-29'
@@ -2210,3 +2250,57 @@ entries:
           - cal.1968-09.elections-1968-7
           - cal.1968-09.elections-1968-9
         from: b6-walls-of-jericho
+  - id: cal.1968-09.elections-1968-humphrey-4
+    when: Sept., early
+    date: 1968-09
+    thread: elections-1968-humphrey
+    c: 'Waverly, Minn. Short, Humphrey''s treasurer, to the staff: he will borrow $2 million, twenty people signing for $100,000 apiece, so Humphrey can start campaigning.'
+    n: '[[w.solberg-hubert-humphrey]], 375. To check: Robert Short, interview, Oct. 7, 1980; Edgar Berman, diary, Sept. 3, 1968, Berman files (cited by [[w.solberg-hubert-humphrey]], 375, its note). Check: the day; Solberg''s text puts it after Krim''s call, his note Berman''s diary of Sept. 3. See [[cal.1968-09-03.elections-1968]]. Names: Humphrey.'
+    src:
+      rows:
+        - 'w.solberg-hubert-humphrey 375: all'
+        - 'via x.1980-10-07.robert-short-interview-solberg: all'
+        - 'via x.1968-09-03.berman-diary-sept-3-1968: all'
+    tags: [name:humphrey-hubert-h, state:mn]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-09.elections-1968-3
+          - cal.1968-09.elections-1968-4
+          - cal.1968-09.elections-1968-5
+          - cal.1968-09.elections-1968-13
+          - cal.1968-09.elections-1968-14
+          - cal.1968-09.elections-1968-16
+          - cal.1968-09.elections-1968-8
+          - cal.1968-09.elections-1968-19
+          - cal.1968-09.elections-1968-humphrey
+          - cal.1968-09.elections-1968-humphrey-2
+          - cal.1968-09.elections-1968-humphrey-3
+        from: 2026-11-10-b7-solberg
+  - id: cal.1968-09.elections-1968-humphrey-5
+    when: Sept., mid-month
+    date: 1968-09
+    thread: elections-1968-humphrey
+    also: [vietnam-paris]
+    c: 'Harriman, home briefly from Paris, sees Humphrey: the talks have gone nowhere.'
+    n: '[[w.solberg-hubert-humphrey]], 377. Check: the day; Solberg: "at this time," after Ball''s word of Sept. 13. See [[cal.1968-09.elections-1968-4]]. Names: Harriman, Humphrey.'
+    src:
+      rows:
+        - 'w.solberg-hubert-humphrey 377: all'
+    tags: [name:harriman-w-averell, name:humphrey-hubert-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-09.elections-1968-3
+          - cal.1968-09.elections-1968-4
+          - cal.1968-09.elections-1968-5
+          - cal.1968-09.elections-1968-13
+          - cal.1968-09.elections-1968-14
+          - cal.1968-09.elections-1968-16
+          - cal.1968-09.elections-1968-8
+          - cal.1968-09.elections-1968-19
+          - cal.1968-09.elections-1968-humphrey
+          - cal.1968-09.elections-1968-humphrey-2
+          - cal.1968-09.elections-1968-humphrey-3
+          - cal.1968-09.elections-1968-humphrey-4
+        from: 2026-11-10-b7-solberg
