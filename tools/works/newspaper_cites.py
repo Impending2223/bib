@@ -37,13 +37,13 @@ STYLE
 4. A run: cites to one paper one after another, joined by "; ", ", ", ", and " or " and ", each the title and a date,
    or a date alone after the first (the paper understood), each date with or without its pinpoint. Written once:
    "*Atlanta Constitution*, Feb. 18 at 1 and Feb. 19, 1960, at 9"; the *Times* each date linked, the pinpoint inside
-   the link ("[Feb. 18 at 14](issue)"). Two dates joined by " and ", three or more by commas and ", and". The year at
-   the last date of each stretch of one year, ", at X" after it; without the year " at X". A "(cited by ...)" after
-   the run stays after it. A run is broken by another paper, a parenthetical, an article's title or a byline. Not
-   joined (left as single cites, each in the form of 2 and 3): a run whose first cite follows an article's title or a
-   byline (',"', ', ' before the title: the next cite may be another article); a cite linked elsewhere than its
-   issue, or with its page linked ("at [E1](page)"); a run of another paper whose pinpoints hold a comma ("1, 3"),
-   which would read as two dates.
+   the link ("[Feb. 18 at 14](issue)"). Two dates joined by " and " (", and " after a year), three or more by commas
+   and ", and". The year at the last date of each stretch of one year, ", at X" after it; without the year " at X".
+   A "(cited by ...)" after the run stays after it. A run is broken by another paper, a parenthetical, an article's
+   title or a byline. Not joined (left as single cites, each in the form of 2 and 3): a run whose first cite follows
+   an article's title or a byline (',"', ', ' before the title: the next cite may be another article); a cite linked
+   elsewhere than its issue, or with its page linked ("at [E1](page)"); a run of another paper whose pinpoints hold a
+   comma ("1, 3"), which would read as two dates.
 5. Dates. One day ("Feb. 18, 1960", "March 8, 1966") or a range ("Feb. 24–25, 1968", unlinked) as written; several
    days of one month ("Oct. 2 and 3, 1968", "May 13, 14, 17, 24, 1966"): for the *Times* each day linked, as a run
    ("[Oct. 2](issue) and [Oct. 3, 1968](issue)"), for another paper left as written; with a pinpoint after them,
@@ -423,7 +423,9 @@ def serial(days, is_nyt, log):
                 log.append(("ambiguous", f"New York Times, {d.text(True)}: no single issue to link "
                                          f"({'the strike' if d.day else 'not a single day'})"))
         texts.append(t)
-    return " and ".join(texts) if len(texts) == 2 else ", ".join(texts[:-1]) + ", and " + texts[-1]
+    if len(texts) == 2:            # a year is followed by a comma: "Apr. 3, 1966, and Mar. 19, 1967"
+        return texts[0] + (", and " if days[0][0].y != days[1][0].y else " and ") + texts[1]
+    return ", ".join(texts[:-1]) + ", and " + texts[-1]
 
 
 def single(it, is_nyt, log):
