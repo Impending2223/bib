@@ -1610,6 +1610,43 @@ entries:
       rows:
         - 'w.gibbons-u-s-government-and IV, 319: all'
     tags: [name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s, name:ball-george-w, name:bundy-william, name:rostow-walt-w, name:mcnaughton-john-t, name:raborn-william-f-jr, name:helms-richard, name:bell-david-e, name:komer-robert-w, name:moyers-bill, name:lodge-henry-cabot]
+  - id: cal.1966-05-16.vietnam-congress-3
+    when: May 16
+    date: '1966-05-16'
+    thread: vietnam-congress
+    c: 'Helen Gahagan Douglas to Fulbright, by letter: grateful for his willingness to confront the administration in public.'
+    n: '[[w.woods-fulbright]], 423. Names: Fulbright.'
+    src:
+      c: ec4e144a
+      rows:
+        - 'w.woods-fulbright 423: all'
+        - 'via x.1966-05-16.douglas-to-fulbright: all'
+    tags: [name:fulbright-j-william]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-05-16.vietnam-congress
+          - cal.1966-05-16.vietnam-congress-2
+        from: 2026-11-06-b6-woods-fulbright
+  - id: cal.1966-05-16.vietnam-congress-5
+    when: May 16
+    date: '1966-05-16'
+    thread: vietnam-congress
+    c: 'McGovern to Fulbright, by letter, quoting Alfred Marshall: hard to be a true patriot and be reputed one at the same time.'
+    n: '[[w.woods-fulbright]], 423–24. Names: McGovern, Fulbright.'
+    src:
+      c: 87164ba4
+      rows:
+        - 'w.woods-fulbright 423–24: all'
+        - 'via x.1966-05-16.mcgovern-to-fulbright: all'
+    tags: [name:mcgovern-george, name:fulbright-j-william]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-05-16.vietnam-congress
+          - cal.1966-05-16.vietnam-congress-2
+          - cal.1966-05-16.vietnam-congress-3
+        from: 2026-11-06-b6-woods-fulbright
   - id: cal.1966-05-17.testing
     when: May 17
     date: '1966-05-17'
@@ -1852,6 +1889,18 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Vientiane
     range_basis: kind
+  - id: cal.1966-05-18.vietnam-congress
+    when: May 18
+    date: '1966-05-18'
+    thread: vietnam-congress
+    c: 'Fulbright to Helen Gahagan Douglas, by letter: opposition to escalation widespread, but the President "tends to think I am the only one not supporting him."'
+    n: '[[w.woods-fulbright]], 423. Names: Fulbright.'
+    src:
+      c: e19e7145
+      rows:
+        - 'w.woods-fulbright 423: all'
+        - 'via x.1966-05-18.fulbright-to-douglas: all'
+    tags: [name:fulbright-j-william]
   - id: cal.1966-05-19.europe-and-the-alliance-france
     when: May 19
     date: '1966-05-19'

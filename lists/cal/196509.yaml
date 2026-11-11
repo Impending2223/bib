@@ -1670,6 +1670,25 @@ entries:
         - 'w.thomas-robert-kennedy 304: all'
         - 'via x.1965-09-15.joe-dolan-to-robert-kennedy-engagements: all'
     tags: [name:dolan-joseph-f, name:kennedy-robert-f]
+  - id: cal.1965-09-15.latin-america-dominican-republic
+    when: Sept. 15
+    date: '1965-09-15'
+    thread: latin-america-dominican-republic
+    also: [congress]
+    c: 'Harriman, on the copy of Fulbright''s speech on the Dominican Republic the White House sent him: "This speech cheered in Moscow."'
+    n: '[[w.woods-fulbright]], 386. Check: the day; Woods cites the annotated statement, Sept. 15, 1965, Harriman Papers (386 n.40). Names: Harriman, Fulbright.'
+    src:
+      c: f5516cb9
+      rows:
+        - 'w.woods-fulbright 386: all'
+        - 'via x.1965-09-15.harriman-note-on-fulbright-statement: all'
+    tags: [name:harriman-w-averell, name:fulbright-j-william]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-09-15.latin-america
+          - cal.1965-09-15.latin-america-2
+        from: 2026-11-06-b6-woods-fulbright
   - id: cal.1965-09-16.jobs-and-wages-ca
     when: Sept. 16
     date: '1965-09-16'
@@ -3448,3 +3467,22 @@ entries:
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 741: all'
     tags: [name:goodwin-richard-n]
+  - id: cal.1965-09.latin-america-dominican-republic-3
+    when: Sept.
+    date: 1965-09
+    thread: latin-america-dominican-republic
+    also: [congress]
+    c: 'Mann to Johnson: Fulbright, like Schlesinger, a champion of violent social revolution, for unqualified support of all revolutions in Latin America, Marxist-Leninist or not. Mann''s account.'
+    n: '[[w.woods-fulbright]], 386–87. Check: the month; Woods: "in the fall of 1965." Names: Mann, Johnson, Fulbright, Schlesinger.'
+    src:
+      c: 782144ee
+      rows:
+        - 'w.woods-fulbright 386–87: all'
+        - 'via x.undated.mann-be-there-yesterday: all'
+    tags: [name:mann-thomas-c, name:johnson-lyndon-b, name:fulbright-j-william, name:schlesinger-arthur-m-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-09.latin-america-dominican-republic
+          - cal.1965-09.latin-america-dominican-republic-2
+        from: 2026-11-06-b6-woods-fulbright

@@ -3247,3 +3247,32 @@ entries:
           - cal.1965-12.transition-and-staff
           - cal.1965-12.transition-and-staff-2
         from: 2026-11-06-b6-solberg
+  - id: cal.1965-12.congress
+    when: Dec.
+    date: 1965-12
+    thread: congress
+    also: [press-and-broadcasting]
+    c: 'Marcy, after Johnson sends Mansfield abroad on Air Force One while Fulbright crosses the South Pacific, prompts E. W. Kenworthy''s article in the *New York Times* on the White House''s pettiness. Bundy to Marcy: such cases not to be "tried in the newspaper."'
+    n: '[[w.woods-fulbright]], 390. Check: the day; Woods cites Bundy to Johnson, Dec. 21, 1965 (390 n.53). Names: Marcy, Johnson, Mansfield, Fulbright, Bundy.'
+    src:
+      c: 95c0927b
+      rows:
+        - 'w.woods-fulbright 390: all'
+        - 'via x.1965-12-21.bundy-to-johnson-fulbright-press: all'
+    tags: [name:marcy-carl, name:johnson-lyndon-b, name:mansfield-mike, name:fulbright-j-william, name:bundy-mcgeorge]
+  - id: cal.1965-12.congress-3
+    when: Dec., late
+    date: 1965-12
+    thread: congress
+    c: The Fulbrights to Puerto Rico for a week after Christmas, Hal Douglas with them.
+    n: '[[w.woods-fulbright]], 396. Check: the days. Names: Fulbright.'
+    src:
+      c: 7749f231
+      rows:
+        - 'w.woods-fulbright 396: all'
+    tags: [name:fulbright-j-william]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-12.congress
+        from: 2026-11-06-b6-woods-fulbright

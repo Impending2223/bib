@@ -2732,3 +2732,31 @@ entries:
         of:
           - cal.1965-10.vietnam-congress-foreign-relations
         from: 2026-11-06-b6-gibbons-u-s-government-and
+  - id: cal.1965-10.congress
+    when: Oct.
+    date: 1965-10
+    thread: congress
+    also: [latin-america-dominican-republic]
+    c: 'Fulbright to a friend, his wife ill with a heart attack, after the attacks on his Dominican speech: in this country one is not supposed to speak out.'
+    n: '[[w.woods-fulbright]], 388. Check: the day; Woods: "at the height of the Dominican controversy," quoting Johnson and Gwertzman (388 n.49). To check: [[w.johnson-fulbright-the-dissenter]], 260. Names: Fulbright.'
+    src:
+      c: f76db5f9
+      rows:
+        - 'w.woods-fulbright 388: all'
+    tags: [name:fulbright-j-william]
+  - id: cal.1965-10.vietnam-congress-2
+    when: Oct.
+    date: 1965-10
+    thread: vietnam-congress
+    c: 'Morse at the White House for a ceremony. Johnson: he has never seen him so fit. Morse: reading of Johnson''s doings in Vietnam makes his blood boil and keeps him fit. By Morse''s account.'
+    n: '[[w.woods-fulbright]], 389. Check: the day; Woods: "in the fall of 1965," from Johnson and Gwertzman (389 n.50). To check: [[w.johnson-fulbright-the-dissenter]], 260. Names: Morse, Johnson.'
+    src:
+      c: 089767fe
+      rows:
+        - 'w.woods-fulbright 389: all'
+    tags: [name:morse-wayne, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-10.vietnam-congress
+        from: 2026-11-06-b6-woods-fulbright

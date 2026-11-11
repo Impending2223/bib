@@ -2407,6 +2407,24 @@ entries:
       - 1964-07-15T19:00Z
     time_zone: America/Los_Angeles
     time_band: morning
+  - id: cal.1964-07-15.goldwater-3
+    when: July 15–16
+    date: '1964-07-15'
+    thread: goldwater
+    also: [elections-1964-san-francisco]
+    c: 'San Francisco, after the nomination. Goldwater with his speechwriters on the acceptance; Opinion Research of Princeton: Johnson 80 percent, Goldwater 20. Goldwater: "Instead of writing an acceptance speech, we should be putting together a rejection speech and tell them all to go to hell."'
+    n: '[[w.young-two-suns-of-the]], 104–05. To check: [[w.goldwater-goldwater]], 185–86 (cited by [[w.young-two-suns-of-the]], 105 n.68). See [[cal.1964-07-15.elections-1964]]. Check: the day. Names: Goldwater, Johnson.'
+    src:
+      c: d41c3445
+      rows:
+        - 'w.young-two-suns-of-the 104–05: all'
+    tags: [name:goldwater-barry-m, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-07-15.goldwater
+          - cal.1964-07-15.goldwater-2
+        from: 2026-11-06-b6-young-two-suns
   - id: cal.1964-07-16.elections-1964
     when: July 16
     date: '1964-07-16'
@@ -6068,3 +6086,16 @@ entries:
           - cal.1964-07.elections-1964-san-francisco-3
           - cal.1964-07.elections-1964-san-francisco-4
         from: b6-perlstein-before-the-storm
+  - id: cal.1964-07-24.elections-1964-3
+    when: July, late, by the 24th
+    date: 1964-07
+    thread: elections-1964
+    also: [civil-disorders]
+    c: 'Washington, a dinner party, by Katie Louchheim''s journal letter of July 24. A guest on New York after Harlem: "In N.Y. no one ventures out." Louchheim on a middle-class Cleveland neighborhood, "previously dem fifty to one," now "11 to 1 Goldwater."'
+    n: '[[w.young-two-suns-of-the]], 122. To check: Katie Louchheim, "Dear Gerry," 88, July 24, 1964, Louchheim Papers, Library of Congress (cited by [[w.young-two-suns-of-the]], 122 n.27b). See [[cal.1964-07-18.states-and-cities]]. Check: the day of the dinner. Names: Goldwater.'
+    src:
+      c: ce087710
+      rows:
+        - 'w.young-two-suns-of-the 122: all'
+        - 'via x.1964-07-24.louchheim-dear-gerry-88: all'
+    tags: [name:goldwater-barry-m]

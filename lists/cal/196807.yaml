@@ -203,6 +203,18 @@ entries:
       rows:
         - 'w.dallek-flawed-giant 558: all'
     tags: [name:johnson-lyndon-b, name:fortas-abe]
+  - id: cal.1968-07-01.elections-1968-congress
+    when: July 1
+    date: '1968-07-01'
+    thread: elections-1968-congress
+    c: Fulbright, with Miss Arkansas, at the airport to see off Jimmy Driftwood, the folk singer, on a seven-week world tour for peace.
+    n: '[[w.woods-fulbright]], 492. Check: the day; dated by the *Arkansas Democrat*, July 1, 1968 (492 n.29). Names: Fulbright.'
+    src:
+      c: 1841e7ee
+      rows:
+        - 'w.woods-fulbright 492: all'
+        - 'via x.1968-07-01.arkansas-democrat-driftwood: all'
+    tags: [name:fulbright-j-william, state:ar]
   - id: cal.1968-07-02.defense
     when: July 2
     date: '1968-07-02'
@@ -5052,3 +5064,20 @@ entries:
         of:
           - cal.1968-07.states-and-cities-nyc
         from: 2026-11-06-b6-smith-on-his-own-terms
+  - id: cal.1968-07.elections-1968-congress
+    when: July
+    date: 1968-07
+    thread: elections-1968-congress
+    c: Fulbright, Betty Fulbright and Lee Williams tour the State through July; at Texarkana, Ark., a truck driver in a beer joint takes him for McClellan. By Williams's account.
+    n: '[[w.woods-fulbright]], 492. Check: the day. Names: Fulbright, McClellan.'
+    src:
+      c: 728fe0a2
+      rows:
+        - 'w.woods-fulbright 492: all'
+        - 'via w.woods-fulbright 492 n.30: B-C'
+    tags: [name:fulbright-j-william, name:mcclellan-john-l, state:ar]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-07.elections-1968-5
+        from: 2026-11-06-b6-woods-fulbright

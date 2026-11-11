@@ -353,6 +353,23 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-03-03.elections-1964-primaries
+    when: Mar. 3
+    date: '1964-03-03'
+    thread: elections-1964-primaries
+    c: 'A paper for Rockefeller''s campaign, "John Birch Society": Goldwater''s words at the University of Nevada; such words to be used to "bait" him into saying which issues of the right he endorses.'
+    n: '[[w.young-two-suns-of-the]], 71. To check: "John Birch Society," Mar. 3, 1964, Morrow Files, Rockefeller Family Collection, Rockefeller Archive Center (cited by [[w.young-two-suns-of-the]], 71 n.51b). See [[cal.1964-02.goldwater-6]]. Names: Rockefeller, Goldwater.'
+    src:
+      c: 29a19bbb
+      rows:
+        - 'w.young-two-suns-of-the 71: all'
+        - 'via x.1964-03-03.john-birch-society-rockefeller-staff-paper: all'
+    tags: [name:rockefeller-nelson, name:goldwater-barry-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-03-03.elections-1964
+        from: 2026-11-06-b6-young-two-suns
   - id: cal.1964-03-04.crime-and-hijacking
     when: Mar. 4
     date: '1964-03-04'
@@ -1763,12 +1780,13 @@ entries:
     time: 1964-03-11T12:00Z
     thread: elections-1964-primaries
     c: Rockefeller, having had the New Hampshire returns at his Fifth Avenue apartment, leaves at 7 a.m. by jet for the West Coast, to show his men in Oregon and California he will fight on. Goldwater to skip Oregon for California; he weighs quitting, his advisers against it.
-    n: '[[w.white-making-of-the-president-1965]], 111–12; [[w.smith-on-his-own-terms]], 426 (7 a.m., Wednesday, a family plane to California). See [[cal.1964-03-10.elections-1964]]. Names: Rockefeller, Goldwater. Check: the day of Goldwater''s decision.'
+    n: '[[w.white-making-of-the-president-1965]], 111–12; [[w.smith-on-his-own-terms]], 426 (7 a.m., Wednesday, a family plane to California); [[w.young-two-suns-of-the]], 78 (Rockefeller to Oregon the day after the voting; Goldwater to sit out Oregon: "why get bloodied by Rockefeller again for eighteen delegates"). See [[cal.1964-03-10.elections-1964]]. Names: Rockefeller, Goldwater. Check: the day of Goldwater''s decision.'
     src:
       c: 9ea7e7e7
       rows:
         - 'w.white-making-of-the-president-1965 111–12: all'
         - 'w.smith-on-his-own-terms 426: A'
+        - 'w.young-two-suns-of-the 78: A, B'
     tags: [name:rockefeller-nelson, name:goldwater-barry-m]
   - id: cal.1964-03-11.press-and-broadcasting
     when: Mar. 11

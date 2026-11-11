@@ -1204,6 +1204,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-11-06.elections-1964
+    when: Nov. 6
+    date: '1964-11-06'
+    thread: elections-1964
+    c: 'The Fulbrights to the Johnsons, by wire: "What a team you are!!" Congratulations and good wishes.'
+    n: '[[w.woods-fulbright]], 357. Names: Fulbright, Johnson.'
+    src:
+      c: d1df0f84
+      rows:
+        - 'w.woods-fulbright 357: all'
+        - 'via x.1964-11-06.fulbrights-to-johnsons: all'
+    tags: [name:fulbright-j-william, name:johnson-lyndon-b]
   - id: cal.1964-11-07.vietnam-2
     when: Nov. 7
     date: '1964-11-07'
@@ -1570,6 +1582,19 @@ entries:
     also: [civil-rights-bill]
     c: 'Gallup, Oct. 8–13: the Civil Rights Act enforced strictly from the beginning, 23 percent; a gradual, persuasive approach at first, 62; depends on the circumstances, 9.'
     n: '[[w.gallup-poll]], III, 1908.'
+  - id: cal.1964-11-13.republican-party
+    when: Nov. 13, mailed
+    date: '1964-11-13'
+    thread: republican-party
+    also: [goldwater]
+    c: 'Rockefeller to Goldwater, in his hand, on the Hotel Ritz''s paper, Madrid: "A line to tell you that I am sorry that after your tremendous personal effort the campaign result was disappointing. ... I know that you are glad and relieved that it is over."'
+    n: '[[w.young-two-suns-of-the]], 198. To check: Nelson to Barry, n.d., mailed Nov. 13, 1964, Hinman Politics files, RG 4, Nelson A. Rockefeller Personal Papers, Rockefeller Archive Center (cited by [[w.young-two-suns-of-the]], 198 n.60b). Names: Rockefeller, Goldwater.'
+    src:
+      c: d2e50c80
+      rows:
+        - 'w.young-two-suns-of-the 198: all'
+        - 'via x.1964-11-13.rockefeller-to-goldwater-from-madrid: all'
+    tags: [name:rockefeller-nelson, name:goldwater-barry-m]
   - id: cal.1964-11-14.vietnam-force-levels
     when: Nov. 14
     date: '1964-11-14'
@@ -3384,3 +3409,14 @@ entries:
           - cal.1964-11.republican-party-6
           - cal.1964-11.republican-party-7
         from: 2026-11-06-b6-smith-on-his-own-terms
+  - id: cal.1964-11.congress
+    when: Nov.
+    date: 1964-11
+    thread: congress
+    c: After the election Johnson has Russell three days at the Ranch; Fulbright, not asked, is hurt.
+    n: '[[w.woods-fulbright]], 357. Check: the days. See [[cal.1964-11-26.vietnam-congress]]. Names: Johnson, Russell, Fulbright.'
+    src:
+      c: 6e56bc45
+      rows:
+        - 'w.woods-fulbright 357: all'
+    tags: [name:johnson-lyndon-b, name:russell-richard-b, name:fulbright-j-william]

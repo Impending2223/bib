@@ -6104,3 +6104,33 @@ entries:
       rows:
         - 'w.white-making-of-the-president-1965 139: all'
     tags: [name:rockefeller-nelson]
+  - id: cal.1964-06-10.elections-1964-vice-presidency
+    when: June, early, by the 10th
+    date: 1964-06
+    thread: elections-1964-vice-presidency
+    c: 'A potluck dinner with the Johnsons, by Katie Louchheim''s journal letter of June 10. Helen Mahon, wife of George Mahon: against Goldwater in Texas "It will be murder," but "LBJ will win." Asked by a woman close to the Kennedys whether Johnson would choose Robert Kennedy: "If it''s Bob K. we''ll lose."'
+    n: '[[w.young-two-suns-of-the]], 124. To check: Katie Louchheim, "Dear Gerry," 75–76, June 10, 1964, Louchheim Papers, Library of Congress (cited by [[w.young-two-suns-of-the]], 124 n.35b). Check: the day of the dinner. Names: Johnson, Lady Bird Johnson, George Mahon, Robert Kennedy.'
+    src:
+      c: 3f04154d
+      rows:
+        - 'w.young-two-suns-of-the 124: all'
+        - 'via x.1964-06-10.louchheim-dear-gerry-75-76: all'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:mahon-george-h, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-06.elections-1964-vice-presidency
+          - cal.1964-06.elections-1964-vice-presidency-2
+        from: 2026-11-06-b6-young-two-suns
+  - id: cal.1964-06.elections-1964-johnson
+    when: June, late
+    date: 1964-06
+    thread: elections-1964-johnson
+    also: [press-and-broadcasting]
+    c: 'Liz Carpenter, Mrs. Johnson''s press secretary, to Johnson: the *Detroit News*, a Republican paper, likely to endorse him; a luncheon with its leaders advised.'
+    n: '[[w.young-two-suns-of-the]], 146. Check: the day; the record (the note does not name it). Names: Carpenter, Johnson.'
+    src:
+      c: 30a76e46
+      rows:
+        - 'w.young-two-suns-of-the 146: all'
+    tags: [name:carpenter-liz, name:johnson-lyndon-b]

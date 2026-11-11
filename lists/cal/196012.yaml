@@ -793,6 +793,24 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-12-13.transition-and-staff-cabinet-2
+    when: Dec. 13
+    date: '1960-12-13'
+    thread: transition-and-staff-cabinet
+    also: [congress]
+    c: 'Marcy, chief of staff of Foreign Relations, to Rusk, after his appointment: delighted he will take over. A Republican friend at State has said they are getting out "just in time."'
+    n: '[[w.woods-fulbright]], 261–62. Woods: Marcy had urged Rusk on the transition team (his interview, 262 n.5). See [[cal.1960-12-08.transition-and-staff]]. Names: Marcy, Rusk.'
+    src:
+      c: 0aa7fc28
+      rows:
+        - 'w.woods-fulbright 261–62: all'
+        - 'via x.1960-12-13.marcy-to-rusk: all'
+    tags: [name:marcy-carl, name:rusk-dean]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-12-13.transition-and-staff-cabinet
+        from: 2026-11-06-b6-woods-fulbright
   - id: cal.1960-12-14.africa
     when: Dec. 14
     date: '1960-12-14'
@@ -2013,3 +2031,27 @@ entries:
           - cal.1960-12.transition-and-staff-3
           - cal.1960-12.transition-and-staff-4
         from: 2026-11-06-b6-wofford-of-kennedys
+  - id: cal.1960-12.transition-and-staff-cabinet-10
+    when: Dec.
+    date: 1960-12
+    thread: transition-and-staff-cabinet
+    c: 'Gene Farmer of *Life* to Fulbright at Fayetteville, by telephone: he has it from the Kennedy camp that Fulbright will be Secretary of State, and wants to begin a profile. Fulbright puts him off. A family conference follows; Fulbright does not want the job, but if offered it would have to accept.'
+    n: '[[w.woods-fulbright]], 256–57. Check: the day; Woods puts the call later in the month than Fulbright''s call to Russell. Hal Douglas''s account (257 n.34). See [[cal.1960-12.transition-and-staff-cabinet-7]]. Names: Fulbright.'
+    src:
+      c: 6d8b65bf
+      rows:
+        - 'w.woods-fulbright 256–57: all'
+    tags: [name:fulbright-j-william]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-12.transition-and-staff-cabinet
+          - cal.1960-12.transition-and-staff-cabinet-3
+          - cal.1960-12.transition-and-staff-cabinet-4
+          - cal.1960-12.transition-and-staff-cabinet-2
+          - cal.1960-12.transition-and-staff-cabinet-5
+          - cal.1960-12.transition-and-staff-cabinet-6
+          - cal.1960-12.transition-and-staff-cabinet-7
+          - cal.1960-12.transition-and-staff-cabinet-8
+          - cal.1960-12.transition-and-staff-cabinet-9
+        from: 2026-11-06-b6-woods-fulbright

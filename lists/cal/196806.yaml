@@ -1833,6 +1833,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-06-10.elections-1968-mccarthy
+    when: June 10
+    date: '1968-06-10'
+    thread: elections-1968-mccarthy
+    c: Marcy to Jean D. Andres, by letter, on McCarthy's candidacy, by Woods's reading of it the culmination of Marcy's crusade to bring the executive to heel and restore Congress's influence on foreign policy.
+    n: '[[w.woods-j-william-fulbright-vietnam]], 176. To check: Marcy to Andres, June 10, 1968, Marcy Papers, RG 46, National Archives (cited by [[w.woods-j-william-fulbright-vietnam]], 176 n.64). See [[cal.1968-06-07.elections-1968-2]]. Names: Marcy, McCarthy.'
+    src:
+      c: d84b828e
+      rows:
+        - 'w.woods-j-william-fulbright-vietnam 176: all'
+        - 'via x.1968-06-10.marcy-to-andres: all'
+    tags: [name:marcy-carl, name:mccarthy-eugene-j]
   - id: cal.1968-06-11.vietnam-paris
     when: June 11
     date: '1968-06-11'
@@ -4380,3 +4392,21 @@ entries:
         - 'w.thomas-robert-kennedy 384: all'
         - 'via x.undated.helen-odonnell-a-common-good: all'
     tags: [name:kennedy-robert-f, name:mcgovern-george, name:kennedy-john-f]
+  - id: cal.1968-06.elections-1968-congress
+    when: June
+    date: 1968-06
+    thread: elections-1968-congress
+    c: 'Lee Williams and Jim McDougal, Fulbright''s man in Arkansas, to Ben Grinage: organize the black vote, but keep it from the State''s white politicians; McDougal would have him work by mail and telephone from the Little Rock office. Williams keeps Grinage''s reports in his safe.'
+    n: '[[w.woods-fulbright]], 491. Check: the days; after Grinage''s naming in mid-June. See [[cal.1968-06.elections-1968-10]]. Names: Fulbright.'
+    src:
+      c: c902262b
+      rows:
+        - 'w.woods-fulbright 491: all'
+        - 'via x.1969-02-28.williams-to-fulbright: B-C'
+        - 'via x.1969-02-28.grinage-to-fulbright: B-C'
+    tags: [name:fulbright-j-william, state:ar]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-06.elections-1968-10
+        from: 2026-11-06-b6-woods-fulbright
