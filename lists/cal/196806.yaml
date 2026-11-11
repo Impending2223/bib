@@ -745,6 +745,30 @@ entries:
           - cal.1968-06-04.robert-kennedy-campaign-california
           - cal.1968-06-04.robert-kennedy-campaign-california-3
         from: 2026-11-06-b6-schlesinger-rfk
+  - id: cal.1968-06-04.robert-kennedy-campaign-california-2
+    when: June 4
+    date: '1968-06-04'
+    thread: robert-kennedy-campaign-california
+    c: 'Los Angeles, the night of the primary. Robert Kennedy, upbeat, telephones O''Donnell in Washington: "You know, Kenny, I feel now for the first time that I''ve shaken off the shadow of my brother. I feel I made it on my own."'
+    n: '[[w.thomas-robert-kennedy]], 388–89 (by O''Donnell''s account). Thomas cites Lester and Irene David, 316 (477), not read. See [[cal.1968-06-04.robert-kennedy]]. Names: Robert Kennedy, O''Donnell.'
+    src:
+      c: d199a89e
+      rows:
+        - 'w.thomas-robert-kennedy 388–89: all'
+        - 'via x.undated.david-and-david-bobby-kennedy: all'
+    tags: [name:kennedy-robert-f, name:odonnell-kenneth-p]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-06-04.robert-kennedy
+          - cal.1968-06-04.robert-kennedy-2
+          - cal.1968-06-04.robert-kennedy-campaign
+          - cal.1968-06-04.robert-kennedy-campaign-2
+          - cal.1968-06-04.robert-kennedy-campaign-3
+          - cal.1968-06-04.robert-kennedy-campaign-california
+          - cal.1968-06-04.robert-kennedy-campaign-california-3
+          - cal.1968-06-04.robert-kennedy-campaign-california-4
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1968-06-05.robert-kennedy
     when: June 5–6
     date: '1968-06-05'
@@ -4344,3 +4368,15 @@ entries:
         - 'w.schwartz-lyndon-johnson-and-europe 212: all'
         - 'via x.1997-03-13.mcdonald-iiasa-case-study: all'
     tags: [name:wilson-harold]
+  - id: cal.1968-06.robert-kennedy-campaign-primaries
+    when: June, South Dakota
+    date: 1968-06
+    thread: robert-kennedy-campaign-primaries
+    c: 'South Dakota, a night when Robert Kennedy has lost his audience with a flat, rambling speech. To McGovern: "I just am not Jack."'
+    n: '[[w.thomas-robert-kennedy]], 384. Thomas cites Helen O''Donnell''s book on her father, 415 (476), not read. Check: the day; before the primary of June 4. Names: Robert Kennedy, McGovern, Kennedy.'
+    src:
+      c: 2ec883b8
+      rows:
+        - 'w.thomas-robert-kennedy 384: all'
+        - 'via x.undated.helen-odonnell-a-common-good: all'
+    tags: [name:kennedy-robert-f, name:mcgovern-george, name:kennedy-john-f]

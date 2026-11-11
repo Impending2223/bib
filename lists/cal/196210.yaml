@@ -2022,6 +2022,28 @@ entries:
         - 'via w.schlesinger-robert-kennedy-and-his 516 n.79: A'
         - 'via w.schlesinger-robert-kennedy-and-his 516 n.81: B-C'
     tags: [name:stevenson-adlai-e, name:kennedy-robert-f, name:kennedy-john-f, name:odonnell-kenneth-p]
+  - id: cal.1962-10-20.missile-crisis-excomm-3
+    when: Oct. 20
+    date: '1962-10-20'
+    thread: missile-crisis-excomm
+    also: [robert-kennedy]
+    c: 'Saturday evening, the Truman Balcony, after Stevenson has made his case to the ExComm. The President to Robert Kennedy and O''Donnell: "I wouldn''t think a guy who''s as smart a politician would expose himself. There are a lot of bastards in there who hate his guts and think he''s an appeaser. To set yourself up to those guys is a pretty risky operation." And: "We are very, very close to war. And there''s not room in the White House bomb shelter for all of us."'
+    n: '[[w.thomas-robert-kennedy]], 224, 232. To check: Theodore Sorensen OH, JFK Library (cited by Thomas, 436, for the shelter). Names: Kennedy, Robert Kennedy, O''Donnell, Stevenson.'
+    src:
+      c: 78b6a958
+      rows:
+        - 'w.thomas-robert-kennedy 232: A-B'
+        - 'w.thomas-robert-kennedy 224: C'
+        - 'via x.undated.kenneth-odonnell-recorded-reminiscences-vanocur: A-B'
+    tags: [name:kennedy-john-f, name:kennedy-robert-f, name:odonnell-kenneth-p, name:stevenson-adlai-e]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-10-20.missile-crisis-2
+          - cal.1962-10-20.missile-crisis-3
+          - cal.1962-10-20.missile-crisis-excomm
+          - cal.1962-10-20.missile-crisis-excomm-2
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1962-10-21.missile-crisis
     when: Oct. 21
     date: '1962-10-21'
@@ -2831,6 +2853,29 @@ entries:
           - cal.1962-10-22.missile-crisis-23
           - cal.1962-10-22.missile-crisis-26
         from: 2026-11-06-b6-schlesinger-rfk
+  - id: cal.1962-10-22.missile-crisis-32
+    when: Oct. 22
+    date: '1962-10-22'
+    thread: missile-crisis
+    follows:
+      - cal.1962-10-22.missile-crisis
+    c: 'The night after the President''s address, Taylor sleeps in his Pentagon office, the only time in the crisis: Khrushchev may hold "some card up his sleeve"; a move to hide the missiles feared.'
+    n: '[[w.taylor-swords-and-plowshares]], 274 (Taylor''s account). See [[cal.1962-10-22.missile-crisis]]. Names: Taylor, Khrushchev.'
+    src:
+      c: 6a19d4cf
+      rows:
+        - 'w.taylor-swords-and-plowshares 274: all'
+    tags: [name:taylor-maxwell, name:khrushchev-nikita-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-10-22.missile-crisis
+          - cal.1962-10-22.missile-crisis-11
+          - cal.1962-10-22.missile-crisis-27
+          - cal.1962-10-22.missile-crisis-28
+          - cal.1962-10-22.missile-crisis-29
+          - cal.1962-10-22.missile-crisis-30
+        from: 2026-11-06-b6-taylor-swords-and-plowshares
   - id: cal.1962-10-23.missile-crisis
     when: Oct. 23
     date: '1962-10-23'
@@ -3252,6 +3297,44 @@ entries:
       rows:
         - 'w.sorensen-kennedy 705: all'
     tags: [name:kennedy-john-f, name:mccone-john-a]
+  - id: cal.1962-10-23.missile-crisis-19
+    when: Oct. 23
+    date: '1962-10-23'
+    thread: missile-crisis
+    c: 'The morning after the address. Rusk greets Ball, from a night on his office couch: "George, we''ve won a great victory. You and I are still alive." At home, Ball''s wife lays in canned goods, water, some books.'
+    n: '[[w.thomas-robert-kennedy]], 223 (by Ball''s account). To check: [[w.ball-past-has-another-pattern]], 299, 304 (cited by Thomas, 436). Names: Rusk, Ball.'
+    src:
+      c: 09d44c60
+      rows:
+        - 'w.thomas-robert-kennedy 223: all'
+    tags: [name:rusk-dean, name:ball-george-w]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-10-23.missile-crisis-9
+          - cal.1962-10-23.missile-crisis-18
+        from: 2026-11-06-b6-thomas-robert-kennedy
+  - id: cal.1962-10-23.missile-crisis-20
+    when: Oct. 23
+    date: '1962-10-23'
+    thread: missile-crisis
+    also: [robert-kennedy]
+    c: 'Robert Kennedy sends his aides at the Justice Department home to their families. Symington buys a tent and knapsacks. The top White House officials handed envelopes, to be opened in case of attack: directions to the landing sites for the helicopters to a mountain shelter in Virginia. Kennedy to Guthman: "I''m not going. If it comes to that, there''ll be sixty million Americans killed and as many Russians or more. I''ll be at Hickory Hill."'
+    n: '[[w.thomas-robert-kennedy]], 223–24. To check: [[w.guthman-we-band-of-brothers]], 126 (cited by Thomas, 436). Check: the day; Thomas puts it in the week after the address. Names: Robert Kennedy, James Symington, Guthman.'
+    src:
+      c: 6fe39f8f
+      rows:
+        - 'w.thomas-robert-kennedy 223–24: all'
+        - 'via x.undated.joe-dolan-interview-thomas: A'
+        - 'via x.undated.james-symington-interview-thomas: B'
+    tags: [name:kennedy-robert-f, name:symington-james-w, name:guthman-edwin-o]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-10-23.missile-crisis-9
+          - cal.1962-10-23.missile-crisis-18
+          - cal.1962-10-23.missile-crisis-19
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1962-10-24.missile-crisis
     when: Oct. 24
     date: '1962-10-24'
@@ -4394,6 +4477,45 @@ entries:
           - cal.1962-10-27.missile-crisis-8
           - cal.1962-10-27.missile-crisis-9
         from: 2026-11-06-b6-poole-joint-chiefs-of-staff
+  - id: cal.1962-10-27.missile-crisis-diplomacy
+    when: Oct. 27
+    date: '1962-10-27'
+    thread: missile-crisis-diplomacy
+    c: Dobrynin writes up his meeting with Robert Kennedy for Moscow at once and sends it by Western Union, there being no faster means; a boy comes on a bicycle to pick it up.
+    n: '[[w.thomas-robert-kennedy]], 228. To check: [[w.reeves-president-kennedy]], 420–21 (cited by Thomas, 437). See [[cal.1962-10-27.missile-crisis]]. Names: Dobrynin, Robert Kennedy.'
+    src:
+      c: 6970b6d4
+      rows:
+        - 'w.thomas-robert-kennedy 228: all'
+    tags: [name:dobrynin-anatoly, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-10-27.missile-crisis-3
+          - cal.1962-10-27.missile-crisis-6
+          - cal.1962-10-27.missile-crisis-11
+        from: 2026-11-06-b6-thomas-robert-kennedy
+  - id: cal.1962-10-27.missile-crisis-excomm
+    when: Oct. 27
+    date: '1962-10-27'
+    thread: missile-crisis-excomm
+    also: [robert-kennedy]
+    c: 'The family quarters, after the meeting with Dobrynin. Robert Kennedy reports to the President, with Powers eating chicken; he holds out little hope the Russians will back down. The President: "God, Dave, the way you''re eating up all that chicken and drinking up all my wine, anybody would think it was your last meal." After the ExComm breaks up at midnight, the President and Powers watch *Roman Holiday*.'
+    n: '[[w.thomas-robert-kennedy]], 228–29. To check: [[w.reeves-president-kennedy]], 420–21; [[w.odonnell-johnny-we-hardly-knew]], 386 (cited by Thomas, 437). See [[cal.1962-10-27.missile-crisis]]. Names: Robert Kennedy, Kennedy, Powers.'
+    src:
+      c: 4c6b1c9e
+      rows:
+        - 'w.thomas-robert-kennedy 228–29: all'
+    tags: [name:kennedy-robert-f, name:kennedy-john-f, name:powers-david-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-10-27.missile-crisis-4
+          - cal.1962-10-27.missile-crisis-5
+          - cal.1962-10-27.missile-crisis-8
+          - cal.1962-10-27.missile-crisis-9
+          - cal.1962-10-27.missile-crisis-excomm-2
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1962-10-28.missile-crisis
     when: Oct. 28
     date: '1962-10-28'
@@ -4674,6 +4796,25 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 525 & n.*: all'
         - 'via w.schlesinger-robert-kennedy-and-his 525 n.*: all'
     tags: [name:kennedy-john-f, name:kennedy-robert-f, name:johnson-lyndon-b]
+  - id: cal.1962-10-28.missile-crisis-settlement-2
+    when: Oct. 28
+    date: '1962-10-28'
+    thread: missile-crisis-settlement
+    also: [robert-kennedy]
+    c: 'That night, the President, remembering Lincoln shot at Ford''s Theatre after Appomattox, to his brother: "This is the night I should go to the theater." Robert Kennedy: "If you go, I want to go with you." To Powers: "Thank God for Bobby."'
+    n: '[[w.thomas-robert-kennedy]], 231, 233. To check: [[w.kennedy-thirteen-days]], 110 (cited by Thomas, 438). Check: the night of "Thank God for Bobby"; Thomas: "on the last night of the Cuban Missile Crisis." Names: Kennedy, Robert Kennedy, Powers.'
+    src:
+      c: 4bba3ea5
+      rows:
+        - 'w.thomas-robert-kennedy 231: A-B'
+        - 'w.thomas-robert-kennedy 233: C'
+        - 'via x.undated.patricia-lawford-that-shining-hour: C'
+    tags: [name:kennedy-john-f, name:kennedy-robert-f, name:powers-david-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-10-28.missile-crisis-settlement
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1962-10-29.japan-and-korea
     when: Oct. 29
     date: '1962-10-29'
@@ -5532,3 +5673,23 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 530: all'
         - 'via w.schlesinger-robert-kennedy-and-his 530 n.139: all'
     tags: [name:kennedy-john-f, name:ormsby-gore-david]
+  - id: cal.1962-10.missile-crisis-4
+    when: Oct., the crisis's first week
+    date: 1962-10
+    thread: missile-crisis
+    also: [robert-kennedy]
+    c: 'The Justice Department, a morning. Dolan, who does not know of the crisis, brings papers to sign: "Something is different in here." Robert Kennedy: "I''m older."'
+    n: '[[w.thomas-robert-kennedy]], 214 (by Dolan''s account). Check: the day; Thomas: "One morning during the first week of the crisis." Names: Dolan, Robert Kennedy.'
+    src:
+      c: 45a771db
+      rows:
+        - 'w.thomas-robert-kennedy 214: all'
+        - 'via x.undated.joe-dolan-interview-thomas: all'
+    tags: [name:dolan-joseph-f, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-10.missile-crisis
+          - cal.1962-10.missile-crisis-2
+          - cal.1962-10.missile-crisis-3
+        from: 2026-11-06-b6-thomas-robert-kennedy

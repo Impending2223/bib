@@ -1227,6 +1227,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-04-11.poverty
+    when: Apr. 11
+    date: '1967-04-11'
+    thread: poverty
+    also: [robert-kennedy]
+    c: 'Hickory Hill, the night of his return from the Delta. Robert Kennedy to his children at dinner: "In Mississippi a whole family lives in a shack the size of this room. The children are covered with sores and their tummies stick out because they have no food. Do you know how lucky you are? ... Do something for your country."'
+    n: '[[w.thomas-robert-kennedy]], 339 (by Kathleen Kennedy Townsend''s account). See [[cal.1967-04-10.poverty]]. Names: Robert Kennedy.'
+    src:
+      c: 0e20f937
+      rows:
+        - 'w.thomas-robert-kennedy 339: all'
+        - 'via x.undated.kathleen-kennedy-townsend-interview-thomas: all'
+    tags: [name:kennedy-robert-f]
   - id: cal.1967-04-12.crime-and-hijacking-ca
     when: Apr. 12
     date: '1967-04-12'
@@ -1361,6 +1374,24 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-04-12.poverty-2
+    when: Apr. 12
+    date: '1967-04-12'
+    thread: poverty
+    also: [robert-kennedy]
+    c: 'New York, the night after the meeting with Freeman. Robert Kennedy to Amanda Burden: "You don''t know what I saw! I have done nothing in my life! Everything I have done was a waste!" By her account, he needed to dedicate his life to this.'
+    n: '[[w.thomas-robert-kennedy]], 339 (by Amanda Burden''s account). See [[cal.1967-04-12.poverty]]. Names: Robert Kennedy.'
+    src:
+      c: f2ed5ecf
+      rows:
+        - 'w.thomas-robert-kennedy 339: all'
+        - 'via x.undated.amanda-burden-interview-thomas: all'
+    tags: [name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-04-12.poverty
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1967-04-13.congress
     when: Apr. 13
     date: '1967-04-13'

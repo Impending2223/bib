@@ -1611,6 +1611,23 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 105–06: all'
     tags: [name:kennedy-john-f, name:nixon-richard-m, name:kennedy-robert-f]
+  - id: cal.1960-09-26.elections-1960-debates
+    when: Sept. 26
+    date: '1960-09-26'
+    thread: elections-1960-debates
+    c: 'Chicago, before the first debate. Robert Kennedy tells his brother to take a nap. Whether he does is unclear: Harris finds him playing Peggy Lee records; Sorensen recalls him dozing under the briefing papers.'
+    n: '[[w.thomas-robert-kennedy]], 106. See [[cal.1960-09-26.elections-1960]]. Names: Robert Kennedy, Kennedy, Harris, Sorensen.'
+    src:
+      c: 919f52ee
+      rows:
+        - 'w.thomas-robert-kennedy 106: all'
+    tags: [name:kennedy-robert-f, name:kennedy-john-f, name:harris-louis, name:sorensen-theodore-c]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-09-26.elections-1960-3
+          - cal.1960-09-26.elections-1960-6
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1960-09-27.japan-and-korea
     when: Sept. 27
     date: '1960-09-27'
@@ -2229,3 +2246,26 @@ entries:
           - cal.1960-09.elections-1960-kennedy
           - cal.1960-09.elections-1960-kennedy-2
         from: 2026-11-06-b6-kallina-kennedy-v-nixon
+  - id: cal.1960-09.elections-1960-kennedy-3
+    when: Sept.
+    date: 1960-09
+    thread: elections-1960-kennedy
+    also: [robert-kennedy]
+    c: Sinatra at the piano, singing, in the Robert Kennedys' living room, by Joan Braden's account.
+    n: '[[w.thomas-robert-kennedy]], 160. Check: the day. Names: Robert Kennedy.'
+    src:
+      c: '94828490'
+      rows:
+        - 'w.thomas-robert-kennedy 160: all'
+        - 'via x.undated.joan-braden-interview-thomas: all'
+    tags: [name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-09.elections-1960-2
+          - cal.1960-09.elections-1960-6
+          - cal.1960-09.elections-1960-7
+          - cal.1960-09.elections-1960-kennedy
+          - cal.1960-09.elections-1960-kennedy-2
+          - cal.1960-09.elections-1960-kennedy-4
+        from: 2026-11-06-b6-thomas-robert-kennedy

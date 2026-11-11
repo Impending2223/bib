@@ -1181,3 +1181,31 @@ entries:
       rows:
         - 'w.kallina-kennedy-v-nixon 111: all'
     tags: [name:harlow-bryce-n, name:nixon-richard-m]
+  - id: cal.1960-04.elections-1960-kennedy
+    when: Apr.
+    date: 1960-04
+    thread: elections-1960-kennedy
+    c: 'Palm Beach, after the Wisconsin primary. Joseph Kennedy, told of Robert Kennedy''s hardball with Rivkin, gestures at Kennedy in the pool: "I don''t understand it. He''s not like me at all. ... But Bobby is like me."'
+    n: '[[w.thomas-robert-kennedy]], 93 (by Spalding''s account). Check: the day; Thomas puts it after the primary of Apr. 5. See [[cal.1960-04-05.elections-1960]]. Names: Joseph Kennedy, Robert Kennedy, Kennedy.'
+    src:
+      c: bf5fec28
+      rows:
+        - 'w.thomas-robert-kennedy 93: all'
+        - 'via x.undated.charles-spalding-interview-schlesinger-papers: all'
+    tags: [name:kennedy-joseph-p, name:kennedy-robert-f, name:kennedy-john-f]
+  - id: cal.1960-04.elections-1960-kennedy-2
+    when: Apr.
+    date: 1960-04
+    thread: elections-1960-kennedy
+    c: After the Wisconsin primary, Kennedy and Spalding to the Caribbean for a few days' rest; Robert Kennedy to West Virginia.
+    n: '[[w.thomas-robert-kennedy]], 93. Check: the days. See [[cal.1960-04-06.elections-1960]]. Names: Kennedy, Robert Kennedy.'
+    src:
+      c: 3a4d5c33
+      rows:
+        - 'w.thomas-robert-kennedy 93: all'
+    tags: [name:kennedy-john-f, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-04.elections-1960-kennedy
+        from: 2026-11-06-b6-thomas-robert-kennedy

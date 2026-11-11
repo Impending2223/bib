@@ -3069,6 +3069,24 @@ entries:
       - 1961-04-21T16:00Z
       - 1961-04-21T21:00Z
     time_zone: America/New_York
+  - id: cal.1961-04-21.cuba-bay-of-pigs-2
+    when: Apr. 21
+    date: '1961-04-21'
+    thread: cuba-bay-of-pigs
+    also: [robert-kennedy]
+    c: 'Robert Kennedy, in his office with Oberdorfer, watches the President take responsibility at his press conference. By Oberdorfer''s account: "Bobby put his fist in his palm, as if to say, that''s right, this is the way to do it."'
+    n: '[[w.thomas-robert-kennedy]], 122 (by Oberdorfer''s account). Check: the day; Thomas names the press conference, not its day. See [[cal.1961-04-21.cuba]]. Names: Robert Kennedy, Oberdorfer, Kennedy.'
+    src:
+      c: 572b667c
+      rows:
+        - 'w.thomas-robert-kennedy 122: all'
+        - 'via x.undated.louis-oberdorfer-interview-thomas: all'
+    tags: [name:kennedy-robert-f, name:oberdorfer-louis-f, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-04-21.cuba-bay-of-pigs
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1961-04-22.cuba
     when: Apr. 22
     date: '1961-04-22'

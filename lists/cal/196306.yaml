@@ -2238,6 +2238,24 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-06-19.civil-rights-the-executive-3
+    when: June 19
+    date: '1963-06-19'
+    thread: civil-rights-the-executive
+    also: [robert-kennedy]
+    c: 'Robert Kennedy, sitting with Charles Evers at the funeral, gives him his personal telephone numbers: call any time, night or day. Evers, later: "Whenever I had the need to call him, I never found it too late or too early."'
+    n: '[[w.thomas-robert-kennedy]], 249. See [[cal.1963-06-19.civil-rights-the-executive]]. Names: Robert Kennedy, Charles Evers.'
+    src:
+      c: 59a27181
+      rows:
+        - 'w.thomas-robert-kennedy 249: all'
+    tags: [name:kennedy-robert-f, name:evers-charles]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-06-19.civil-rights-the-executive
+          - cal.1963-06-19.civil-rights-the-executive-2
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1963-06-20.civil-rights-bill-2
     when: June 20
     date: '1963-06-20'
@@ -3438,3 +3456,19 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 389: all'
     tags: [name:rockefeller-nelson, name:hughes-emmet-john]
+  - id: cal.1963-06.march-on-washington-2
+    when: June, early
+    date: 1963-06
+    thread: march-on-washington
+    c: 'The Kennedys learn of King''s plan for a march on Washington. The President: "What if they pee on the Washington Monument?"'
+    n: '[[w.thomas-robert-kennedy]], 250. Check: the day; Thomas: "In early June." Names: Kennedy, Martin Luther King.'
+    src:
+      c: d60e5fe3
+      rows:
+        - 'w.thomas-robert-kennedy 250: all'
+    tags: [name:kennedy-john-f, name:king-martin-luther-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-06.march-on-washington
+        from: 2026-11-06-b6-thomas-robert-kennedy

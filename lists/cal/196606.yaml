@@ -1062,6 +1062,24 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1966-06-08.africa-2
+    when: June 8
+    date: '1966-06-08'
+    thread: africa
+    also: [robert-kennedy]
+    c: Johannesburg, the next-to-last night of the visit. Robert Kennedy at a mixed-race party at the home of his hosts, Irene and Clive Mennell, until 4 a.m.
+    n: '[[w.thomas-robert-kennedy]], 323 (by Irene Mennell''s account). Check: the day; Thomas: "the next-to-last night" of June 4-9. See [[cal.1966-06-04.africa]]. Names: Robert Kennedy.'
+    src:
+      c: bdc2ff09
+      rows:
+        - 'w.thomas-robert-kennedy 323: all'
+        - 'via x.undated.irene-mennell-interview-thomas: all'
+    tags: [name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-06-08.africa
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1966-06-09.testing
     when: June 9–10
     date: '1966-06-09'
@@ -3801,3 +3819,23 @@ entries:
           - cal.1966-06.robert-kennedy-2
           - cal.1966-06.robert-kennedy-3
         from: 2026-11-06-b6-schlesinger-rfk
+  - id: cal.1966-06.robert-kennedy-4
+    when: June, after South Africa
+    date: 1966-06
+    thread: robert-kennedy
+    c: 'Walinsky protests that Kennedy has too much to do at home to travel again, to India or Eastern Europe. Kennedy writes back: "Adam, I''m not going anywhere this fall. I shall be hand in hand with you while we walk through the ghettoes of New York."'
+    n: '[[w.thomas-robert-kennedy]], 324. Check: the day; Thomas puts it after the return from South Africa. See [[cal.1966-06-04.africa]]. Names: Walinsky, Robert Kennedy.'
+    src:
+      c: 19cb2df5
+      rows:
+        - 'w.thomas-robert-kennedy 324: all'
+        - 'via x.undated.adam-walinsky-oral-history-jfk-library: all'
+    tags: [name:walinsky-adam, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-06.robert-kennedy
+          - cal.1966-06.robert-kennedy-2
+          - cal.1966-06.robert-kennedy-3
+          - cal.1966-06.robert-kennedy-5
+        from: 2026-11-06-b6-thomas-robert-kennedy

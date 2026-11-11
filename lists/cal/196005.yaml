@@ -710,6 +710,25 @@ entries:
         - 'w.gifford-center-cannot-hold 120: all'
         - 'via w.gifford-center-cannot-hold 120 n.79: all'
     tags: [name:goldwater-barry-m, name:nixon-richard-m]
+  - id: cal.1960-05-10.elections-1960-primaries
+    when: May 10
+    date: '1960-05-10'
+    thread: elections-1960-primaries
+    also: [elections-1960-kennedy]
+    c: West Virginia's primary night. Kennedy in Washington, at a film a few blocks from the White House with Bradlee of *Newsweek*; every twenty minutes he gets up to call Robert Kennedy at the headquarters in West Virginia for the returns.
+    n: '[[w.thomas-robert-kennedy]], 95 (by Bradlee''s account). See [[cal.1960-05-10.elections-1960]]. Names: Kennedy, Bradlee, Robert Kennedy.'
+    src:
+      c: b68b5320
+      rows:
+        - 'w.thomas-robert-kennedy 95: all'
+    tags: [name:kennedy-john-f, name:bradlee-benjamin-c, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-05-10.elections-1960
+          - cal.1960-05-10.elections-1960-3
+          - cal.1960-05-10.elections-1960-4
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1960-05-11.elections-1960
     when: May 11
     date: '1960-05-11'
@@ -2199,3 +2218,24 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 304: all'
     tags: [name:castro-fidel]
+  - id: cal.1960-05.elections-1960-primaries
+    when: May
+    date: 1960-05
+    thread: elections-1960-primaries
+    c: 'West Virginia. Humphrey, sleeping in his campaign bus at night, hears a plane overhead and pretends it is the *Caroline*, Kennedy''s plane: "Come down here, Jack, and play fair!"'
+    n: '[[w.thomas-robert-kennedy]], 95. To check: [[w.humphrey-education-of-a-public-1976]], 207 (cited by Thomas, 409). Check: the day; Thomas dates it only to the campaign before the primary of May 10. Names: Humphrey, Kennedy.'
+    src:
+      c: 6f6a98e4
+      rows:
+        - 'w.thomas-robert-kennedy 95: all'
+    tags: [name:humphrey-hubert-h, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-05.elections-1960-3
+          - cal.1960-05.elections-1960-8
+          - cal.1960-05.elections-1960-13
+          - cal.1960-05.elections-1960-7
+          - cal.1960-05.elections-1960-11
+          - cal.1960-05.elections-1960-16
+        from: 2026-11-06-b6-thomas-robert-kennedy

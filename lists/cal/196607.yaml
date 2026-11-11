@@ -3143,3 +3143,43 @@ entries:
         of:
           - cal.1966-07.transition-and-staff
         from: 2026-11-06-b6-solberg
+  - id: cal.1966-07.robert-kennedy-4
+    when: July
+    date: 1966-07
+    thread: robert-kennedy
+    also: [mayors]
+    c: 'Mayor Lindsay walks Harlem on hot summer nights to keep the peace. Robert Kennedy, by Walton''s account, "sourly": "He really ought to stay in his office and do his work there."'
+    n: '[[w.thomas-robert-kennedy]], 324 (by Walton''s account). Check: the day; Thomas: "hot summer nights," 1966. Names: Lindsay, Robert Kennedy, Walton.'
+    src:
+      c: 50a6ea34
+      rows:
+        - 'w.thomas-robert-kennedy 324: all'
+        - 'via x.undated.william-walton-oral-history-jfk-library: all'
+    tags: [name:lindsay-john-v, name:kennedy-robert-f, name:walton-william, city:nyc, state:ny]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-07.robert-kennedy
+          - cal.1966-07.robert-kennedy-2
+          - cal.1966-07.robert-kennedy-3
+        from: 2026-11-06-b6-thomas-robert-kennedy
+  - id: cal.1966-07.robert-kennedy-5
+    when: July
+    date: 1966-07
+    thread: robert-kennedy
+    c: 'Outside San Francisco, the Bohemian Grove''s encampment. Robert Kennedy, William Orrick''s guest, makes no effort to hide his disdain for the tycoons; Orrick: "He was very difficult."'
+    n: '[[w.thomas-robert-kennedy]], 340 (by Orrick''s account). Check: the day; Thomas: "the summer of 1966." Names: Robert Kennedy, Orrick.'
+    src:
+      c: 9977c9c1
+      rows:
+        - 'w.thomas-robert-kennedy 340: all'
+        - 'via x.undated.william-orrick-oral-history-jfk-library: all'
+    tags: [name:kennedy-robert-f, name:orrick-william-h-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-07.robert-kennedy
+          - cal.1966-07.robert-kennedy-2
+          - cal.1966-07.robert-kennedy-3
+          - cal.1966-07.robert-kennedy-4
+        from: 2026-11-06-b6-thomas-robert-kennedy

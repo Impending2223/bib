@@ -809,6 +809,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-04-12.robert-kennedy
+    when: Apr. 12
+    date: '1962-04-12'
+    thread: robert-kennedy
+    c: 'The Attorney General complains that the television set in his office has poor reception; can the FBI''s technicians fix it? Hoover, on Callahan''s memorandum passing on the request: "I don''t like getting into this. If the set breaks down, henceforth the FBI will be completely to blame."'
+    n: '[[w.thomas-robert-kennedy]], 170. To check: Callahan to Mohr, Apr. 12, 1962, RFK files, FBI (cited by [[w.thomas-robert-kennedy]], 424). Names: Robert Kennedy, Hoover.'
+    src:
+      c: cde6c66c
+      rows:
+        - 'w.thomas-robert-kennedy 170: all'
+        - 'via x.1962-04-12.callahan-to-mohr-rfk-television: all'
+    tags: [name:kennedy-robert-f, name:hoover-j-edgar]
   - id: cal.1962-04-13.steel
     when: Apr. 13
     date: '1962-04-13'
@@ -1917,3 +1929,16 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 406: all'
     tags: [name:rockefeller-nelson, name:rockefeller-margaretta-fitler]
+  - id: cal.1962-04.robert-kennedy
+    when: Apr.
+    date: 1962-04
+    thread: robert-kennedy
+    also: [steel]
+    c: 'The steel crisis; the papers call the Attorney General "ruthless." Driving Roberto San Roman out to Hickory Hill one evening, Kennedy shows him one such attack and asks if he agrees. San Roman: "Yes. I thought it was a compliment that a great leader should be ruthless. But he hated it."'
+    n: '[[w.thomas-robert-kennedy]], 178 (by San Roman''s account). Check: the day. Names: Robert Kennedy.'
+    src:
+      c: 2271afba
+      rows:
+        - 'w.thomas-robert-kennedy 178: all'
+        - 'via x.undated.roberto-san-roman-interview-thomas: all'
+    tags: [name:kennedy-robert-f]

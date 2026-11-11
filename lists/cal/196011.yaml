@@ -3111,3 +3111,32 @@ entries:
         of:
           - cal.1960-11.elections-1960-6
         from: 2026-11-06-b6-kallina-kennedy-v-nixon
+  - id: cal.1960-11.elections-1960-king
+    when: Nov.
+    date: 1960-11
+    thread: elections-1960-king
+    c: 'After the election, Nixon''s chauffeur to Nixon: "you know I had been talking to my friends. They had been all for you. But when Mr. Robert Kennedy called the judge to get Dr. King out of jail — well, they just all turned to him."'
+    n: '[[w.thomas-robert-kennedy]], 102. To check: [[w.wofford-of-kennedys-and-kings]], 25–26 (cited by Thomas, 409). Check: the day. Names: Nixon, Robert Kennedy, Martin Luther King.'
+    src:
+      c: 47ac2f03
+      rows:
+        - 'w.thomas-robert-kennedy 102: all'
+    tags: [name:nixon-richard-m, name:kennedy-robert-f, name:king-martin-luther-jr]
+  - id: cal.1960-11.elections-1960-kennedy
+    when: Nov., early
+    date: 1960-11
+    thread: elections-1960-kennedy
+    also: [robert-kennedy]
+    c: 'The campaign''s last days. The brothers pass in a remote airport, each to another stop. Robert Kennedy: "Hi, Johnny. How are you?" Kennedy: "Man, I''m tired." Robert Kennedy: "What the hell are you tired for? I''m doing all the work."'
+    n: '[[w.thomas-robert-kennedy]], 107. To check: [[w.schlesinger-robert-kennedy-and-his]], 219 (cited by Thomas, 410). Check: the day and the place; Thomas puts it in the last hours before Nov. 8. Names: Robert Kennedy, Kennedy.'
+    src:
+      c: e98491b2
+      rows:
+        - 'w.thomas-robert-kennedy 107: all'
+    tags: [name:kennedy-robert-f, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-11.elections-1960-6
+          - cal.1960-11.elections-1960-kennedy-2
+        from: 2026-11-06-b6-thomas-robert-kennedy

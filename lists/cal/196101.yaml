@@ -1592,6 +1592,18 @@ entries:
         of:
           - cal.1961-01-20.transition-and-staff
         from: 2026-11-06-b6-nixon-rn
+  - id: cal.1961-01-20.robert-kennedy
+    when: Jan. 20
+    date: '1961-01-20'
+    thread: robert-kennedy
+    c: 'Inauguration night, at dinner with friends. The President: "I don''t know why people are so mad at me for making Bobby Attorney General. I just wanted to give him some legal experience before he practiced." Afterward Robert Kennedy, fists clenched: "Jack, you shouldn''t have said that about me." The President: "you''ve got to make fun of yourself in politics." Robert Kennedy: "You were making fun of me."'
+    n: '[[w.thomas-robert-kennedy]], 110–11 (by Bartlett''s account). Names: Kennedy, Robert Kennedy.'
+    src:
+      c: 560257b8
+      rows:
+        - 'w.thomas-robert-kennedy 110–11: all'
+        - 'via x.undated.charles-bartlett-interview-thomas: all'
+    tags: [name:kennedy-john-f, name:kennedy-robert-f, name:bartlett-charles]
   - id: cal.1961-01-21.governors-ct
     when: Jan. 21
     date: '1961-01-21'
@@ -3067,3 +3079,21 @@ entries:
           - cal.1961-01.transition-and-staff-3
           - cal.1961-01.transition-and-staff-4
         from: 2026-11-06-b6-solberg
+  - id: cal.1961-01.robert-kennedy-3
+    when: Jan., before the inauguration
+    date: 1961-01
+    thread: robert-kennedy
+    c: 'The preinaugural gala; Sinatra sings for the President-elect. Robert Kennedy, in a low voice to Fay: he hopes Sinatra will "live up" to the respectability the Kennedys have bestowed on him.'
+    n: '[[w.thomas-robert-kennedy]], 161. Thomas: when Fay told it in the manuscript of his White House memoir, Kennedy had it deleted (Fay''s manuscript, Myrick Land Papers, Boston University; cited by Thomas, 422). Check: the day; Thomas: "a preinaugural gala in January." Names: Robert Kennedy, Fay.'
+    src:
+      c: b659bce2
+      rows:
+        - 'w.thomas-robert-kennedy 161: all'
+        - 'via x.undated.paul-fay-manuscript-pleasure-of-his-company: all'
+    tags: [name:kennedy-robert-f, name:fay-paul-b-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-01.robert-kennedy
+          - cal.1961-01.robert-kennedy-2
+        from: 2026-11-06-b6-thomas-robert-kennedy

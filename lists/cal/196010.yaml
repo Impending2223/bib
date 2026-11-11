@@ -1538,6 +1538,23 @@ entries:
         - 'w.shesol-mutual-contempt 60: all'
         - 'via w.shesol-mutual-contempt 60 n.outstanding: all'
     tags: [name:kennedy-robert-f, name:johnson-lyndon-b]
+  - id: cal.1960-10-21.elections-1960-debates
+    when: Oct. 21
+    date: '1960-10-21'
+    thread: elections-1960-debates
+    c: 'New York, the fourth debate. Nixon''s limousine parked ahead of Kennedy''s in the alley outside the studio. Robert Kennedy asks John Warner, Nixon''s advance man, to let Kennedy''s car go first: Mrs. Kennedy, eight months pregnant, might need to leave quickly.'
+    n: '[[w.thomas-robert-kennedy]], 106. See [[cal.1960-10-21.elections-1960]]. Names: Nixon, Kennedy, Robert Kennedy, Jacqueline Kennedy.'
+    src:
+      c: b8c7f78d
+      rows:
+        - 'w.thomas-robert-kennedy 106: all'
+    tags: [name:nixon-richard-m, name:kennedy-john-f, name:kennedy-robert-f, name:kennedy-jacqueline]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-10-21.elections-1960
+          - cal.1960-10-21.elections-1960-3
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1960-10-22.elections-1960
     when: Oct. 22
     date: '1960-10-22'

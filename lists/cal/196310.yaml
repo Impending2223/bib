@@ -802,6 +802,24 @@ entries:
         - 'w.selverstone-kennedy-withdrawal 191: all'
         - 'via w.selverstone-kennedy-withdrawal 191 n.48: all'
     tags: [name:bundy-mcgeorge, name:forrestal-michael-v, name:kennedy-john-f]
+  - id: cal.1963-10-07.baker-2
+    when: Oct. 7
+    date: '1963-10-07'
+    thread: baker
+    also: [press-and-broadcasting]
+    c: 'Mollenhoff of the *Des Moines Register*, on the trail of Ellen Rometsch, notes in his calendar: "RFK/Bobby Baker. Baker—German girl in Embassy. Baker Resigns."'
+    n: '[[w.thomas-robert-kennedy]], 265. To check: Mollenhoff''s diary, Mollenhoff Papers, Herbert Hoover Library (cited by [[w.thomas-robert-kennedy]], 447). Made public: with Mollenhoff''s papers, after his death in 1991. See [[cal.1963-10-07.baker]]. Names: Mollenhoff, Robert Kennedy, Baker.'
+    src:
+      c: 32e775cc
+      rows:
+        - 'w.thomas-robert-kennedy 265: all'
+        - 'via x.undated.mollenhoff-diary: all'
+    tags: [name:mollenhoff-clark-r, name:kennedy-robert-f, name:baker-robert-g]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-10-07.baker
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1963-10-08.africa
     when: Oct. 8
     date: '1963-10-08'
@@ -1842,6 +1860,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-10-17.baker
+    when: Oct. 17
+    date: '1963-10-17'
+    thread: baker
+    also: [press-and-broadcasting]
+    c: 'Mollenhoff''s diary: "Mrs. Rolf Rometsch. East German girl." Then the names of two top White House aides, then "Smathers, JFK."'
+    n: '[[w.thomas-robert-kennedy]], 265. To check: Mollenhoff''s diary, Mollenhoff Papers, Herbert Hoover Library (cited by [[w.thomas-robert-kennedy]], 447). Made public: with Mollenhoff''s papers, after his death in 1991. See [[cal.1963-10-07.baker-2]]. Names: Mollenhoff, Smathers, Kennedy.'
+    src:
+      c: 578d4d04
+      rows:
+        - 'w.thomas-robert-kennedy 265: all'
+        - 'via x.undated.mollenhoff-diary: all'
+    tags: [name:mollenhoff-clark-r, name:smathers-george-a, name:kennedy-john-f]
   - id: cal.1963-10-18.defense-soviet-forces
     when: Oct. 18
     date: '1963-10-18'
@@ -4047,3 +4078,19 @@ entries:
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 721: all'
     tags: [name:kennedy-john-f, name:gavin-james-m, name:de-gaulle-charles]
+  - id: cal.1963-10.robert-kennedy-2
+    when: Oct.
+    date: 1963-10
+    thread: robert-kennedy
+    c: 'Hickory Hill, a party. Robert Kennedy presented with an LBJ voodoo doll; the guests: "Whatever happened to Lyndon?"'
+    n: '[[w.thomas-robert-kennedy]], 290. To check: [[w.shesol-mutual-contempt]], 104–06 (cited by Thomas, 454). Check: the day. Names: Robert Kennedy, Johnson.'
+    src:
+      c: 43f2630e
+      rows:
+        - 'w.thomas-robert-kennedy 290: all'
+    tags: [name:kennedy-robert-f, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-10.robert-kennedy
+        from: 2026-11-06-b6-thomas-robert-kennedy

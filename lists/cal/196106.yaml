@@ -253,6 +253,21 @@ entries:
         of:
           - cal.1961-06-05.berlin-and-vienna
         from: 2026-11-06-b6-reeves-president-kennedy
+  - id: cal.1961-06-05.latin-america
+    when: June 5
+    date: '1961-06-05'
+    thread: latin-america
+    also: [robert-kennedy]
+    c: 'London, after the summit. The President to Joseph Alsop: he has had "frantic" cables from his brother on the Dominican Republic. They were "boring."'
+    n: '[[w.thomas-robert-kennedy]], 139 (by Susan Mary Alsop''s account); [[w.reeves-president-kennedy]], 173 (in the Radziwills'' garden; Kennedy to Alsop that he will not give way or back down). Check: the day; Thomas: "in London after the summit." See [[cal.1961-05-31.latin-america]]. Names: Kennedy, Alsop, Robert Kennedy.'
+    src:
+      c: 465d5b3c
+      rows:
+        - 'w.thomas-robert-kennedy 139: all'
+        - 'via x.undated.susan-mary-alsop-interview-thomas: all'
+        - 'w.reeves-president-kennedy 173: ?'
+        - 'via w.reeves-president-kennedy 173 n.i-just-want-you-to-know: all'
+    tags: [name:kennedy-john-f, name:alsop-joseph, name:kennedy-robert-f]
   - id: cal.1961-06-06.berlin-and-vienna
     when: June 6
     date: '1961-06-06'
@@ -2207,3 +2222,20 @@ entries:
       rows:
         - 'w.fursenko-khrushchevs-cold-war 367: all'
     tags: [name:kennedy-john-f, name:khrushchev-nikita-s, name:alsop-joseph]
+  - id: cal.1961-06.berlin-and-vienna-2
+    when: June, after Vienna
+    date: 1961-06
+    thread: berlin-and-vienna
+    also: [robert-kennedy]
+    c: 'Washington, back from Vienna. The President to his brother: the talks with Khrushchev like "dealing with Dad: all give and no take." On nuclear war: "We''ve had a good life, we''re adults. We bring these things on ourselves. ... The thought, though, of the women and children perishing in a nuclear exchange. I can''t adjust to that."'
+    n: '[[w.thomas-robert-kennedy]], 136. To check: [[w.hersh-dark-side-of-camelot]], 254 (cited by Thomas, 417). Check: the day; Thomas puts it after the President''s return. See [[cal.1961-06-06.congress]]. Names: Kennedy, Robert Kennedy, Khrushchev.'
+    src:
+      c: 872d4e26
+      rows:
+        - 'w.thomas-robert-kennedy 136: all'
+    tags: [name:kennedy-john-f, name:kennedy-robert-f, name:khrushchev-nikita-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-06.berlin-and-vienna
+        from: 2026-11-06-b6-thomas-robert-kennedy

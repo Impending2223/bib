@@ -531,6 +531,25 @@ entries:
       rows:
         - 'w.zaroulis-who-spoke-up 112: all'
         - 'via x.1967-03-02.a-call-to-burn-draft-cards: all'
+  - id: cal.1967-03-02.robert-kennedy-3
+    when: Mar. 2
+    date: '1967-03-02'
+    thread: robert-kennedy
+    also: [press-and-broadcasting]
+    c: 'Robert Kennedy to Katharine Graham: he is about to "give a speech that will compound my difficulties."'
+    n: '[[w.thomas-robert-kennedy]], 334. See [[cal.1967-03-02.robert-kennedy]]. Names: Robert Kennedy, Katharine Graham.'
+    src:
+      c: 1b5b6a25
+      rows:
+        - 'w.thomas-robert-kennedy 334: all'
+        - 'via x.1967-03-02.robert-kennedy-to-katharine-graham: all'
+    tags: [name:kennedy-robert-f, name:graham-katharine]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-03-02.robert-kennedy
+          - cal.1967-03-02.robert-kennedy-2
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1967-03-03.vietnam
     when: Mar. 3
     date: '1967-03-03'

@@ -2348,6 +2348,28 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-03-13.robert-kennedy-campaign-decision
+    when: Mar. 13
+    date: '1968-03-13'
+    thread: robert-kennedy-campaign-decision
+    also: [elections-1968-mccarthy]
+    c: 'Robert Kennedy''s staff drafts a statement congratulating McCarthy on New Hampshire. Kennedy balks: "I''m not going to make a national figure out of McCarthy." An aide: McCarthy "already is a national figure."'
+    n: '[[w.thomas-robert-kennedy]], 360. To check: Jeff Greenfield OH, JFK Library (cited by [[w.thomas-robert-kennedy]], 469). See [[cal.1968-03-13.robert-kennedy]]. Names: Robert Kennedy, McCarthy.'
+    src:
+      c: 26d6de3e
+      rows:
+        - 'w.thomas-robert-kennedy 360: all'
+        - 'via x.undated.jeff-greenfield-oral-history-jfk-library: all'
+    tags: [name:kennedy-robert-f, name:mccarthy-eugene-j]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-03-13.robert-kennedy
+          - cal.1968-03-13.robert-kennedy-2
+          - cal.1968-03-13.robert-kennedy-campaign
+          - cal.1968-03-13.robert-kennedy-campaign-2
+          - cal.1968-03-13.robert-kennedy-campaign-3
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1968-03-14.economy
     when: Mar. 14
     date: '1968-03-14'
@@ -7445,3 +7467,26 @@ entries:
           - cal.1968-03.robert-kennedy-campaign-6
           - cal.1968-03.robert-kennedy-campaign-7
         from: 2026-11-06-b6-schlesinger-rfk
+  - id: cal.1968-03.robert-kennedy-campaign-5
+    when: Mar.
+    date: 1968-03
+    thread: robert-kennedy-campaign
+    c: '"Businessmen distrust me," Robert Kennedy tells Barrett Prettyman. Prettyman brings Alan Livingston, president of Capitol Records, to Kennedy''s apartment at UN Plaza. The two shake hands and sit in "absolutely dead silence." Livingston, afterward: "What the hell was that all about?"'
+    n: '[[w.thomas-robert-kennedy]], 363 (by Prettyman''s account). Check: the day. Names: Robert Kennedy.'
+    src:
+      c: 28765cf5
+      rows:
+        - 'w.thomas-robert-kennedy 363: all'
+        - 'via x.undated.e-barrett-prettyman-interview-thomas: all'
+    tags: [name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-03.robert-kennedy-campaign
+          - cal.1968-03.robert-kennedy-campaign-2
+          - cal.1968-03.robert-kennedy-campaign-3
+          - cal.1968-03.robert-kennedy-campaign-4
+          - cal.1968-03.robert-kennedy-campaign-6
+          - cal.1968-03.robert-kennedy-campaign-7
+          - cal.1968-03.robert-kennedy-campaign-8
+        from: 2026-11-06-b6-thomas-robert-kennedy

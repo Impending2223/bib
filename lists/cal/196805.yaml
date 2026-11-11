@@ -653,6 +653,20 @@ entries:
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 883: all'
     tags: [name:kennedy-robert-f, name:mccarthy-eugene-j]
+  - id: cal.1968-05-07.press-and-broadcasting
+    when: May 7
+    date: '1968-05-07'
+    thread: press-and-broadcasting
+    also: [robert-kennedy-campaign-primaries]
+    c: 'Indiana''s primary day. Richard Harwood of the *Washington Post*, who has accused Kennedy of demagoguery, plays touch football against him and catches the winning touchdown; Kennedy claws at his face on the play; Harwood calls him "a lousy player and a dirty one, too." That afternoon Ethel Kennedy invites Harwood to drinks and the returns. At the suite that night Theodore White opens the door to Harwood and Hays Gorey of *Time*: "No press." They push past him.'
+    n: '[[w.thomas-robert-kennedy]], 377 (by Harwood''s account). See [[cal.1968-05-07.elections-1968-2]]. Names: Robert Kennedy, White.'
+    src:
+      c: 95b23977
+      rows:
+        - 'w.thomas-robert-kennedy 377: all'
+        - 'via x.undated.richard-harwood-interview-thomas: all'
+        - 'via x.undated.fred-dutton-interview-thomas: all'
+    tags: [name:kennedy-robert-f, name:white-theodore-h]
   - id: cal.1968-05-08.vietnam-paris
     when: May 8
     date: '1968-05-08'
@@ -3125,6 +3139,23 @@ entries:
       rows:
         - 'w.macv-command-history-1968 171: all'
     tags: [place:dalat]
+  - id: cal.1968-05-28.robert-kennedy-campaign-primaries
+    when: May 28
+    date: '1968-05-28'
+    thread: robert-kennedy-campaign-primaries
+    c: 'Oregon''s primary day. Robert Kennedy, from his car, crooks a finger at Dolan, the campaign''s scheduler: "You think I''m going to lose." Dolan: "I know you are. We don''t have blacks and Chicanos and we do have gun nuts."'
+    n: '[[w.thomas-robert-kennedy]], 381 (by Dolan''s account). See [[cal.1968-05-28.elections-1968-2]]. Names: Robert Kennedy, Dolan.'
+    src:
+      c: fc4fca0f
+      rows:
+        - 'w.thomas-robert-kennedy 381: all'
+        - 'via x.undated.joe-dolan-interview-thomas: all'
+    tags: [name:kennedy-robert-f, name:dolan-joseph-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-05-28.robert-kennedy
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1968-05-29.consumers
     when: May 29
     date: '1968-05-29'
@@ -4106,3 +4137,85 @@ entries:
           - cal.1968-05.elections-1968-republican-nomination-3
           - cal.1968-05.elections-1968-republican-nomination-4
         from: 2026-11-06-b6-smith-on-his-own-terms
+  - id: cal.1968-05.press-and-broadcasting-2
+    when: May
+    date: 1968-05
+    thread: press-and-broadcasting
+    also: [robert-kennedy-campaign-primaries]
+    c: 'Robert Kennedy demands a strict off-the-record rule on his campaign plane. A reporter breaks it, telling of Kennedy''s sign language to save his hoarse voice: an S drawn with the finger for a Scotch. Kennedy furious.'
+    n: '[[w.thomas-robert-kennedy]], 376 (by Mankiewicz''s account). Check: the day and the reporter; Thomas names neither. Names: Robert Kennedy.'
+    src:
+      c: 02ccc875
+      rows:
+        - 'w.thomas-robert-kennedy 376: all'
+        - 'via x.undated.frank-mankiewicz-interview-thomas: B-C'
+    tags: [name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-05.press-and-broadcasting
+        from: 2026-11-06-b6-thomas-robert-kennedy
+  - id: cal.1968-05.robert-kennedy-campaign-8
+    when: May, late
+    date: 1968-05
+    thread: robert-kennedy-campaign
+    also: [king]
+    c: 'John Lewis, Kennedy''s organizer among Negroes, on Pearson''s column of the King wiretap, to Mankiewicz: "It''s like someone telling you that your wife is sleeping with someone else. You love her so much you don''t want to hear about it."'
+    n: '[[w.thomas-robert-kennedy]], 380. Check: the day; after the column of May 24. Names: John Lewis, Mankiewicz.'
+    src:
+      c: e5ff88f0
+      rows:
+        - 'w.thomas-robert-kennedy 380: all'
+        - 'via x.undated.john-lewis-interview-thomas: all'
+        - 'via x.undated.frank-mankiewicz-interview-thomas: all'
+    tags: [name:lewis-john, name:mankiewicz-frank]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-05.robert-kennedy-campaign
+          - cal.1968-05.robert-kennedy-campaign-2
+          - cal.1968-05.robert-kennedy-campaign-3
+          - cal.1968-05.robert-kennedy-campaign-6
+          - cal.1968-05.robert-kennedy-campaign-7
+        from: 2026-11-06-b6-thomas-robert-kennedy
+  - id: cal.1968-05.robert-kennedy-campaign-california-6
+    when: May, late
+    date: 1968-05
+    thread: robert-kennedy-campaign-california
+    c: 'Malibu, John Frankenheimer''s beach house, Robert Kennedy with Shirley MacLaine, Warren Beatty, Jean Seberg and her husband, Romain Gary. Gary: "You know, don''t you, that somebody is going to kill you?" Kennedy: "That''s the chance I have to take."'
+    n: '[[w.thomas-robert-kennedy]], 384. Thomas cites Pierre Salinger''s memoir (476), not read. Check: the day. Names: Robert Kennedy.'
+    src:
+      c: 3d9c326b
+      rows:
+        - 'w.thomas-robert-kennedy 384: all'
+        - 'via x.undated.pierre-salinger-p-s-a-memoir: B-C'
+    tags: [name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-05.robert-kennedy-campaign-california
+          - cal.1968-05.robert-kennedy-campaign-california-2
+          - cal.1968-05.robert-kennedy-campaign-california-3
+          - cal.1968-05.robert-kennedy-campaign-california-4
+          - cal.1968-05.robert-kennedy-campaign-california-5
+        from: 2026-11-06-b6-thomas-robert-kennedy
+  - id: cal.1968-05.robert-kennedy-campaign-primaries-3
+    when: May, Indiana
+    date: 1968-05
+    thread: robert-kennedy-campaign-primaries
+    c: 'Indiana, after a long day''s campaigning. Robert Kennedy to Goodwin: "If I get to be president what can I do anyway? With Congress and the press, what chance do I have to make basic changes?"'
+    n: '[[w.thomas-robert-kennedy]], 384. To check: Richard Goodwin, interviewed by Schlesinger, June 11, 1977, Schlesinger Papers, JFK Library (cited by [[w.thomas-robert-kennedy]], 476). Check: the day; before the primary of May 7. Names: Robert Kennedy, Goodwin.'
+    src:
+      c: 334f0c92
+      rows:
+        - 'w.thomas-robert-kennedy 384: all'
+        - 'via x.1977-06-11.goodwin-interviewed-by-schlesinger: all'
+    tags: [name:kennedy-robert-f, name:goodwin-richard-n]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-05.robert-kennedy-campaign-4
+          - cal.1968-05.robert-kennedy-campaign-5
+          - cal.1968-05.robert-kennedy-campaign-primaries
+          - cal.1968-05.robert-kennedy-campaign-primaries-2
+        from: 2026-11-06-b6-thomas-robert-kennedy

@@ -1369,6 +1369,59 @@ entries:
           - cal.1960-07-14.elections-1960-los-angeles-8
           - cal.1960-07-14.elections-1960-los-angeles-3
         from: 2026-11-06-b6-schlesinger-rfk
+  - id: cal.1960-07-14.elections-1960-los-angeles-5
+    when: July 14
+    date: '1960-07-14'
+    thread: elections-1960-los-angeles
+    also: [robert-kennedy]
+    c: 'Evening, Beverly Hills, the house Joseph Kennedy has rented, after Johnson''s nomination. Robert Kennedy to Bartlett: "Yesterday was the best day of my life. Today is the worst day." Joseph Kennedy to his son: "Don''t worry, Jack. In two weeks they''ll be saying it''s the smartest thing you ever did."'
+    n: '[[w.thomas-robert-kennedy]], 98 (by Bartlett''s account). See [[cal.1960-07-14.elections-1960]]. Names: Robert Kennedy, Bartlett, Joseph Kennedy, Kennedy.'
+    src:
+      c: 7c4b802d
+      rows:
+        - 'w.thomas-robert-kennedy 98: all'
+        - 'via x.undated.charles-bartlett-interview-thomas: all'
+    tags: [name:kennedy-robert-f, name:bartlett-charles, name:kennedy-joseph-p, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-14.elections-1960
+          - cal.1960-07-14.elections-1960-3
+          - cal.1960-07-14.elections-1960-2
+          - cal.1960-07-14.elections-1960-4
+          - cal.1960-07-14.elections-1960-los-angeles-2
+          - cal.1960-07-14.elections-1960-los-angeles
+          - cal.1960-07-14.elections-1960-los-angeles-7
+          - cal.1960-07-14.elections-1960-los-angeles-8
+          - cal.1960-07-14.elections-1960-los-angeles-3
+          - cal.1960-07-14.elections-1960-los-angeles-4
+        from: 2026-11-06-b6-thomas-robert-kennedy
+  - id: cal.1960-07-14.elections-1960-los-angeles-6
+    when: July 14
+    date: '1960-07-14'
+    thread: elections-1960-los-angeles
+    c: Johnson, back at his hotel suite after the nomination, rants about "that little shitass" Robert Kennedy.
+    n: '[[w.thomas-robert-kennedy]], 99. Thomas gives no source. See [[cal.1960-07-14.elections-1960]]. Names: Johnson, Robert Kennedy.'
+    src:
+      c: 584a9617
+      rows:
+        - 'w.thomas-robert-kennedy 99: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-14.elections-1960
+          - cal.1960-07-14.elections-1960-3
+          - cal.1960-07-14.elections-1960-2
+          - cal.1960-07-14.elections-1960-4
+          - cal.1960-07-14.elections-1960-los-angeles-2
+          - cal.1960-07-14.elections-1960-los-angeles
+          - cal.1960-07-14.elections-1960-los-angeles-7
+          - cal.1960-07-14.elections-1960-los-angeles-8
+          - cal.1960-07-14.elections-1960-los-angeles-3
+          - cal.1960-07-14.elections-1960-los-angeles-4
+          - cal.1960-07-14.elections-1960-los-angeles-5
+        from: 2026-11-06-b6-thomas-robert-kennedy
   - id: cal.1960-07-15.elections-1960
     when: July 15
     date: '1960-07-15'
@@ -2924,3 +2977,20 @@ entries:
       rows:
         - 'w.kallina-kennedy-v-nixon 140: all'
     tags: [name:kennedy-robert-f, name:wofford-harris, name:johnson-lyndon-b]
+  - id: cal.1960-07.elections-1960-kennedy
+    when: July, late
+    date: 1960-07
+    thread: elections-1960-kennedy
+    c: 'Washington, Kennedy headquarters, after the convention. Robert Kennedy, the campaign manager, to the staff: "You can rest in November." He bursts in on White and some aides: "What are we all doing? Let''s get on the road. ... I want us all on the road tomorrow!"'
+    n: '[[w.thomas-robert-kennedy]], 99 (by White''s account). To check: [[w.white-making-of-the-president]], 250 (cited by Thomas, 409). Check: the day. Names: Robert Kennedy, White.'
+    src:
+      c: 731cfa85
+      rows:
+        - 'w.thomas-robert-kennedy 99: all'
+    tags: [name:kennedy-robert-f, name:white-theodore-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07.elections-1960
+          - cal.1960-07.elections-1960-4
+        from: 2026-11-06-b6-thomas-robert-kennedy
