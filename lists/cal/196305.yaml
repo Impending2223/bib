@@ -352,13 +352,14 @@ entries:
     follows:
       - cal.1963-05-03.alabama-birmingham
     c: 'The night''s mass meeting, Sixteenth Street, packed; an hour to pass the plates. Young: "We have a nonviolent movement, but it''s not nonviolent enough"; "We must not boo the police when they bring up the dogs." King: "not only did they stand up in the water, they went UNDER the water!"; Birmingham on NBC''s Huntley-Brinkley; "Now yesterday was D-Day, and tomorrow will be Double-D Day!"; the four demands; of the jailed children, "Don''t worry about them."'
-    n: '[[w.branch-parting-the-waters]], 762–64. After the hoses and the dogs: [[w.branch-parting-the-waters]], 758–64. To check: Birmingham police notes on mass meeting, May 3, 1963, Bull Connor Papers; tape recording of King''s speech, May 3, 1963, Birmingham Public Library (cited by [[w.branch-parting-the-waters]], 763 nn.1-2). See [[cal.1963-05-03.alabama-birmingham]]. Names: Young, Martin Luther King.'
+    n: '[[w.branch-parting-the-waters]], 762–64; [[w.mann-walls-of-jericho]], 349 (the rally that night; King: "Don''t worry about your children who are in jail"). After the hoses and the dogs: [[w.branch-parting-the-waters]], 758–64. To check: Birmingham police notes on mass meeting, May 3, 1963, Bull Connor Papers; tape recording of King''s speech, May 3, 1963, Birmingham Public Library (cited by [[w.branch-parting-the-waters]], 763 nn.1-2); *Time*, May 10, 1963; *New York Times*, May 4, 1963 (cited by [[w.mann-walls-of-jericho]], 349). See [[cal.1963-05-03.alabama-birmingham]]. Names: Young, Martin Luther King.'
     src:
       c: 2be00171
       rows:
         - 'w.branch-parting-the-waters 762-64: all'
         - 'via w.branch-parting-the-waters 763 n.1: all'
         - 'via w.branch-parting-the-waters 763 n.2: C-F'
+        - 'w.mann-walls-of-jericho 349: A, I'
     tags: [name:young-andrew-j-jr, name:king-martin-luther-jr, state:al, city:birmingham]
     time_range:
       - 1963-05-03T23:00Z
@@ -959,6 +960,24 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-05-07.alabama-birmingham-3
+    when: May 7
+    date: '1963-05-07'
+    thread: alabama-birmingham
+    c: 'Birmingham, outside the Sixteenth Street Baptist Church. Firemen turn their hoses on Shuttlesworth; slammed against the building, he is carried off in an ambulance. Connor: "I waited a week down here to see that, and then I missed it. I wish it had been a hearse."'
+    n: '[[w.mann-walls-of-jericho]], 349. To check: *Time*, May 17, 1963 (cited by [[w.mann-walls-of-jericho]], 349). See [[cal.1963-04-03.alabama]]. Names: Shuttlesworth, Connor.'
+    src:
+      c: '10227909'
+      rows:
+        - 'w.mann-walls-of-jericho 349: all'
+        - 'via w.mann-walls-of-jericho 349 n.some-of-the-worst-violence.w1: all'
+    tags: [name:shuttlesworth-fred, name:connor-eugene]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-05-07.alabama-birmingham
+          - cal.1963-05-07.alabama-birmingham-2
+        from: 2026-11-10-b7-mann
   - id: cal.1963-05-08.vietnam
     when: May 8
     date: '1963-05-08'
@@ -1302,12 +1321,18 @@ entries:
     thread: soviet-union
     also: [alabama-birmingham, press-and-broadcasting]
     c: '*Pravda* on Birmingham: "Monstrous Crimes Among Racists in the United States." The *New York Times*: Birmingham competing with Haiti''s insurrection for top billing across non-Communist Asia.'
-    n: '[[w.branch-parting-the-waters]], 786. Check: Branch gives no source. See [[cal.1963-05-03.alabama-birmingham]].'
+    n: '[[w.branch-parting-the-waters]], 786; [[w.mann-walls-of-jericho]], 350 (*Pravda*''s headline). Check: Branch gives no source. See [[cal.1963-05-03.alabama-birmingham]].'
     src:
       c: b0434e52
       rows:
         - 'w.branch-parting-the-waters 786: all'
+        - 'w.mann-walls-of-jericho 350: A'
     tags: [state:al, city:birmingham]
+    variants:
+      - unit: A
+        witness: w.mann-walls-of-jericho
+        reads: 'Moscow''s Pravda: "MONSTROUS CRIMES OF THE RACISTS IN THE UNITED STATES."'
+        at: '350'
   - id: cal.1963-05-09.civil-rights-the-executive
     when: May 9
     date: '1963-05-09'
@@ -3836,3 +3861,27 @@ entries:
         - 'via w.zelizer-taxing-america 201 n.90e: all'
         - 'via w.zelizer-taxing-america 201 n.90f: all'
     tags: [name:mills-wilbur-d, name:surrey-stanley-s]
+  - id: cal.1963-05.civil-rights-the-executive-8
+    when: May, before the 30th
+    date: 1963-05
+    thread: civil-rights-the-executive
+    c: 'Juanita Roberts, Johnson''s personal secretary, to Johnson, by memorandum, against declining the invitation to speak at Gettysburg: "I can''t [decline] this one, yet." "The distinguished grandson of distinguished Confederates giving, on the 100th anniversary of the Gettysburg battle, a speech that could be HIS Gettysburg address."'
+    n: '[[w.mann-walls-of-jericho]], 357–58. Check: the day; before the speech of May 30. To check: Roberts to Johnson, memorandum, with the speech of May 30, 1963, LBJ Library; CBS Interviews, The Last Interview, box 1, LBJ Library (cited by [[w.mann-walls-of-jericho]], 358). See [[cal.1963-05-30.civil-rights-the-executive]]. Names: Roberts, Johnson.'
+    src:
+      c: 183c2fe5
+      rows:
+        - 'w.mann-walls-of-jericho 357–58: all'
+        - 'via w.mann-walls-of-jericho 358 n.at-first-johnson-had-wanted-to-decline.a: all'
+        - 'via w.mann-walls-of-jericho 358 n.at-first-johnson-had-wanted-to-decline.b: all'
+    tags: [name:roberts-juanita-duggan, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-05.civil-rights-the-executive
+          - cal.1963-05.civil-rights-the-executive-2
+          - cal.1963-05.civil-rights-the-executive-3
+          - cal.1963-05.civil-rights-the-executive-4
+          - cal.1963-05.civil-rights-the-executive-5
+          - cal.1963-05.civil-rights-the-executive-7
+          - cal.1963-05.civil-rights-the-executive-6
+        from: 2026-11-10-b7-mann

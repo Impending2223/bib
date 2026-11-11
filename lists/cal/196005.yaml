@@ -580,7 +580,7 @@ entries:
     date: '1960-05-10'
     thread: elections-1960-primaries
     c: 'Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska; unpledged delegates in West Virginia. Democratic: Kennedy in Nebraska and West Virginia.'
-    n: 'Neb. *Official Report of the Board of State Canvassers*, Primary Election, May 10, 1960, pp. [3](https://govdocs.nebraska.gov/epubs/S1200/S001-1960prim_gen.pdf#page=4), [24](https://govdocs.nebraska.gov/epubs/S1200/S001-1960prim_gen.pdf#page=25); W. Va. *Blue Book*, 1960, pp. [723](https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_1960.pdf#page=732), [747](https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_1960.pdf#page=756). CQ Guide 6th (2010) 404–405. [[w.sorensen-kennedy]], 146, 147 (West Virginia, 61 to 39; Nebraska); [[w.white-making-of-the-president]], 112–14. See [[cal.1960-03-08.elections-1960]]. Names: Kennedy, Nixon.'
+    n: 'Neb. *Official Report of the Board of State Canvassers*, Primary Election, May 10, 1960, pp. [3](https://govdocs.nebraska.gov/epubs/S1200/S001-1960prim_gen.pdf#page=4), [24](https://govdocs.nebraska.gov/epubs/S1200/S001-1960prim_gen.pdf#page=25); W. Va. *Blue Book*, 1960, pp. [723](https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_1960.pdf#page=732), [747](https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_1960.pdf#page=756). CQ Guide 6th (2010) 404–405. [[w.sorensen-kennedy]], 146, 147 (West Virginia, 61 to 39; Nebraska); [[w.white-making-of-the-president]], 112–14; [[w.mann-walls-of-jericho]], 267 (Kennedy carries West Virginia). See [[cal.1960-03-08.elections-1960]]. Names: Kennedy, Nixon.'
     src:
       c: 8848f44e
       rows:
@@ -588,6 +588,7 @@ entries:
         - 'https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_1960.pdf#page=732: all'
         - 'w.sorensen-kennedy 146, 147: A, D'
         - 'w.white-making-of-the-president 112–14: A, D'
+        - 'w.mann-walls-of-jericho 267: D'
     tags: [primary:1960-05-10, name:kennedy-john-f, name:nixon-richard-m]
   - id: cal.1960-05-10.elections-1960-2
     when: May 10
@@ -2045,13 +2046,14 @@ entries:
     date: 1960-05
     thread: elections-1960-primaries
     c: 'West Virginia. Franklin D. Roosevelt Jr., driving through the State, to an interviewer: Humphrey "a good Democrat, but I don''t know where he was in World War II." Headlined. Kennedy and Roosevelt later apologize to Humphrey.'
-    n: '[[w.sorensen-kennedy]], 141–42; [[w.thomas-robert-kennedy]], 95 (Roosevelt insinuates that Humphrey dodged the draft; his records mailed anonymously to the Kennedy staff; Roosevelt says Robert Kennedy goaded him). See [[cal.1960-04-21.elections-1960]]. Names: Franklin D. Roosevelt Jr., Humphrey, Kennedy. Check: the day, before the primary of May 10.'
+    n: '[[w.sorensen-kennedy]], 141–42; [[w.thomas-robert-kennedy]], 95 (Roosevelt insinuates that Humphrey dodged the draft; his records mailed anonymously to the Kennedy staff; Roosevelt says Robert Kennedy goaded him); [[w.mann-walls-of-jericho]], 267 (Roosevelt charges that Humphrey avoided service in the war). See [[cal.1960-04-21.elections-1960]]. Names: Franklin D. Roosevelt Jr., Humphrey, Kennedy. Check: the day, before the primary of May 10.'
     src:
       c: 1e5ff8ef
       rows:
         - 'w.sorensen-kennedy 141–42: all'
         - 'w.thomas-robert-kennedy 95: B'
         - 'via w.thomas-robert-kennedy 95 n.fdr-jr: B'
+        - 'w.mann-walls-of-jericho 267: A, B'
     tags: [name:roosevelt-franklin-d-jr, name:humphrey-hubert-h, name:kennedy-john-f, state:wv]
   - id: cal.1960-05.elections-1960-12
     when: May
@@ -2274,3 +2276,66 @@ entries:
       rows:
         - 'w.wofford-of-kennedys-and-kings 43–44: all'
     tags: [name:wofford-harris, name:sorensen-theodore-c, name:goodwin-richard-n, name:shriver-r-sargent, name:kennedy-john-f]
+  - id: cal.1960-05.elections-1960-primaries-2
+    when: May, before the primary
+    date: 1960-05
+    thread: elections-1960-primaries
+    c: 'West Virginia. Humphrey on Franklin D. Roosevelt Jr.''s charge that he avoided service in the war: "I didn''t expect it to become so bitter. This is just cheap, low-down, gutter politics."'
+    n: '[[w.mann-walls-of-jericho]], 267. Check: the day; Mann places it in the West Virginia campaign, before the primary of May 10. To check: [[w.eisele-almost-to-the-presidency]], 145 (cited by [[w.mann-walls-of-jericho]], 267). See [[cal.1960-04.elections-1960]]. Names: Humphrey, Franklin D. Roosevelt Jr.'
+    src:
+      c: 063b7fa9
+      rows:
+        - 'w.mann-walls-of-jericho 267: all'
+    tags: [name:humphrey-hubert-h, name:roosevelt-franklin-d-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-05.elections-1960-3
+          - cal.1960-05.elections-1960-8
+          - cal.1960-05.elections-1960-13
+          - cal.1960-05.elections-1960-7
+          - cal.1960-05.elections-1960-11
+          - cal.1960-05.elections-1960-16
+          - cal.1960-05.elections-1960-primaries
+        from: 2026-11-10-b7-mann
+  - id: cal.1960-05.elections-1960-primaries-3
+    when: May, before the primary
+    date: 1960-05
+    thread: elections-1960-primaries
+    c: 'West Virginia. Humphrey on Kennedy''s spending: "I can''t afford to run throughout this state with a black suitcase and a checkbook." Kennedy incensed.'
+    n: '[[w.mann-walls-of-jericho]], 267. Mann gives no source. Check: the day; Mann places it in the West Virginia campaign, before the primary of May 10. See [[cal.1960-04.elections-1960]]. Names: Humphrey, Kennedy.'
+    src:
+      c: 1f933cbc
+      rows:
+        - 'w.mann-walls-of-jericho 267: all'
+    tags: [name:humphrey-hubert-h, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-05.elections-1960-3
+          - cal.1960-05.elections-1960-8
+          - cal.1960-05.elections-1960-13
+          - cal.1960-05.elections-1960-7
+          - cal.1960-05.elections-1960-11
+          - cal.1960-05.elections-1960-16
+          - cal.1960-05.elections-1960-primaries
+          - cal.1960-05.elections-1960-primaries-2
+        from: 2026-11-10-b7-mann
+  - id: cal.1960-05.elections-1960-religion
+    when: May, before the primary
+    date: 1960-05
+    thread: elections-1960-religion
+    also: [elections-1960-primaries]
+    c: 'West Virginia, a large rally. Kennedy on his religion: "Is anyone going to tell me that I lost this primary forty-two years ago when I was baptized?"'
+    n: '[[w.mann-walls-of-jericho]], 266–67. Check: the day; Mann places it in the West Virginia campaign, before the primary of May 10. To check: [[w.fleming-kennedy-vs-humphrey-west]], 37 (cited by [[w.mann-walls-of-jericho]], 266). See [[cal.1960-04-21.elections-1960]]. Names: Kennedy.'
+    src:
+      c: e77ed782
+      rows:
+        - 'w.mann-walls-of-jericho 266–67: all'
+        - 'via w.mann-walls-of-jericho 266 n.is-anyone-going-to-tell-me.w1: all'
+    tags: [name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-05.elections-1960-10
+        from: 2026-11-10-b7-mann

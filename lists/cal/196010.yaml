@@ -1902,7 +1902,7 @@ entries:
     follows:
       - cal.1960-10-25.king
     c: 'Wofford drafts a statement of protest on King''s sentence for Kennedy; it goes no further. Word through the campaign: Vandiver will get King out if Kennedy makes no statement. Kennedy to Wofford that night: "What we want most is to get King out, isn''t it?" By Wofford''s account.'
-    n: '[[w.branch-parting-the-waters]], 359; [[w.wofford-of-kennedys-and-kings]], 16. After the sentence, the protest drafted on it: [[w.branch-parting-the-waters]], 359. To check: [[w.schlesinger-robert-kennedy-and-his]], 233 (cited by [[w.branch-parting-the-waters]], 359 n.3). See [[cal.1960-10-25.king]]. Names: Wofford, Kennedy, Vandiver, Martin Luther King.'
+    n: '[[w.branch-parting-the-waters]], 359; [[w.wofford-of-kennedys-and-kings]], 16; [[w.mann-walls-of-jericho]], 283 (Vandiver''s promise: King out of jail if Kennedy makes no more public statements). After the sentence, the protest drafted on it: [[w.branch-parting-the-waters]], 359. To check: [[w.schlesinger-robert-kennedy-and-his]], 233 (cited by [[w.branch-parting-the-waters]], 359 n.3). See [[cal.1960-10-25.king]]. Names: Wofford, Kennedy, Vandiver, Martin Luther King.'
     src:
       c: 40949dea
       rows:
@@ -1911,6 +1911,7 @@ entries:
         - 'via w.branch-parting-the-waters 359 n.3b: all'
         - 'via w.branch-parting-the-waters 359 n.4: all'
         - 'w.wofford-of-kennedys-and-kings 16: A-E'
+        - 'w.mann-walls-of-jericho 283: C'
     tags: [name:wofford-harris, name:kennedy-john-f, name:vandiver-s-ernest-jr, name:king-martin-luther-jr]
     time_range:
       - 1960-10-25T13:00Z
@@ -1942,17 +1943,23 @@ entries:
     follows:
       - cal.1960-10-25.king
     c: The afternoon of King's sentence. At the suggestion of Walsh, the Deputy Attorney General, the Justice Department drafts a statement in support of King's application for release; a copy to the White House, a copy to Nixon's traveling headquarters, in Ohio that day. It is never issued; by White's account, nobody has said who stopped it.
-    n: '[[w.white-making-of-the-president]], 315. The afternoon of the sentence: [[w.white-making-of-the-president]], 315. See [[cal.1960-10-25.king]]. Names: Walsh, Martin Luther King, Nixon.'
+    n: '[[w.white-making-of-the-president]], 315; [[w.mann-walls-of-jericho]], 283 (Justice considers court action; Walsh drafts a sympathetic statement). The afternoon of the sentence: [[w.white-making-of-the-president]], 315. Check: Mann, 283, has Eisenhower decline to use the statement. See [[cal.1960-10-25.king]]. Names: Walsh, Martin Luther King, Nixon.'
     src:
       c: 9910995f
       rows:
         - 'w.white-making-of-the-president 315: all'
+        - 'w.mann-walls-of-jericho 283: B, D'
     tags: [name:walsh-lawrence-e, name:king-martin-luther-jr, name:nixon-richard-m]
     time_range:
       - 1960-10-25T16:00Z
       - 1960-10-25T22:00Z
     time_band: afternoon
     time_zone: America/New_York
+    variants:
+      - unit: E
+        witness: w.mann-walls-of-jericho
+        reads: Deputy Attorney General Lawrence Walsh merely drafted a sympathetic statement that Eisenhower declined to use.
+        at: '283'
   - id: cal.1960-10-25.elections-1960-6
     when: Oct. 25–Nov. 7
     date: '1960-10-25'
@@ -2046,7 +2053,7 @@ entries:
     thread: robert-kennedy
     also: [elections-1960, king]
     c: Robert Kennedy, hearing that reporters have the story of his brother's call to Mrs. King, berates Shriver by telephone, "You bomb-throwers have lost the whole campaign," then Louis Martin and Wofford in his office. The civil rights section to do nothing controversial to the end. By Shriver's, Martin's and Wofford's accounts.
-    n: '[[w.branch-parting-the-waters]], 364–65; [[w.thomas-robert-kennedy]], 101 (Robert Kennedy turns on Wofford and Martin at headquarters: the section "isn''t going to do another damn thing in this campaign"); [[w.wofford-of-kennedys-and-kings]], 19–20 (Seigenthaler''s summons, "Bob wants to see you bomb throwers right away"; Robert Kennedy at his headquarters to Wofford and Martin: "three Southern governors told us that if Jack supported Jimmy Hoffa, Nikita Khrushchev, or Martin Luther King, they would throw their states to Nixon"; nothing more controversial; not the call to Shriver). See [[cal.1960-10-25.king]]. Names: Robert Kennedy, Shriver, Wofford.'
+    n: '[[w.branch-parting-the-waters]], 364–65; [[w.thomas-robert-kennedy]], 101 (Robert Kennedy turns on Wofford and Martin at headquarters: the section "isn''t going to do another damn thing in this campaign"); [[w.wofford-of-kennedys-and-kings]], 19–20 (Seigenthaler''s summons, "Bob wants to see you bomb throwers right away"; Robert Kennedy at his headquarters to Wofford and Martin: "three Southern governors told us that if Jack supported Jimmy Hoffa, Nikita Khrushchev, or Martin Luther King, they would throw their states to Nixon"; nothing more controversial; not the call to Shriver); [[w.mann-walls-of-jericho]], 285 (Robert Kennedy, told of the call, berates Shriver, Martin and Wofford: "You bomb-throwers have lost the whole campaign," to Shriver). See [[cal.1960-10-25.king]]. Names: Robert Kennedy, Shriver, Wofford.'
     src:
       c: c7b746c0
       rows:
@@ -2058,6 +2065,7 @@ entries:
         - 'w.thomas-robert-kennedy 101: B-C'
         - 'via w.branch-parting-the-waters 365 n.2: all'
         - 'w.wofford-of-kennedys-and-kings 19–20: A, C'
+        - 'w.mann-walls-of-jericho 285: A, B'
     tags: [name:kennedy-robert-f, name:shriver-r-sargent, name:wofford-harris]
   - id: cal.1960-10-26.testing
     when: Oct. 26
@@ -2177,6 +2185,20 @@ entries:
     time_band: workday daytime
     time_zone: America/Chicago
     range_basis: kind
+  - id: cal.1960-10-27.king
+    when: Oct. 27
+    date: '1960-10-27'
+    thread: king
+    also: [elections-1960-king]
+    c: 'King, released on $2,000 bond, to reporters: "deeply indebted to Senator Kennedy." He stops short of an endorsement.'
+    n: '[[w.mann-walls-of-jericho]], 285. To check: [[w.garrow-bearing-the-cross]], 148; *Time*, Nov. 7, 1960; [[w.wofford-of-kennedys-and-kings]], 23; *Atlanta Constitution*, Oct. 28, 1960 (cited by [[w.mann-walls-of-jericho]], 285). See [[cal.1960-10-25.king]]. Names: Martin Luther King, Kennedy.'
+    src:
+      c: a4b963aa
+      rows:
+        - 'w.mann-walls-of-jericho 285: all'
+        - 'via w.mann-walls-of-jericho 285 n.deeply-indebted-to-senator-kennedy.w2: all'
+        - 'via w.mann-walls-of-jericho 285 n.deeply-indebted-to-senator-kennedy.w4: all'
+    tags: [name:king-martin-luther-jr, name:kennedy-john-f]
   - id: cal.1960-10-28.elections-1960
     when: Oct. 28
     date: '1960-10-28'
@@ -2283,11 +2305,12 @@ entries:
     thread: king
     also: [elections-1960-king]
     c: 'Atlanta, Ebenezer Baptist, Friday evening, some eight hundred to welcome King home. King: "We must master the art of creative suffering"; "I never intend to reject a man running for President of the United States just because he is a Catholic." His father: "I had expected to vote against Senator Kennedy because of his religion. But now he can be my President, Catholic or whatever he is."'
-    n: '[[w.wofford-of-kennedys-and-kings]], 22–23 (the *Atlanta Journal*: King "did just about everything short of" an endorsement). See [[cal.1960-10-25.king]]. Names: Martin Luther King, Martin Luther King Sr., Kennedy.'
+    n: '[[w.wofford-of-kennedys-and-kings]], 22–23 (the *Atlanta Journal*: King "did just about everything short of" an endorsement); [[w.mann-walls-of-jericho]], 285 (the gathering at Ebenezer; King Sr.''s words). Check: Mann, 285, puts the gathering at Ebenezer the night of King''s release, and has King Sr.''s words "in a statement.". See [[cal.1960-10-25.king]]. Names: Martin Luther King, Martin Luther King Sr., Kennedy.'
     src:
       c: 21fd83fc
       rows:
         - 'w.wofford-of-kennedys-and-kings 22–23: all'
+        - 'w.mann-walls-of-jericho 285: A, D'
     tags: [name:king-martin-luther-jr, name:king-martin-luther-sr, name:kennedy-john-f, state:ga, city:atlanta]
     time_range:
       - 1960-10-28T23:00Z
@@ -2699,7 +2722,7 @@ entries:
     thread: elections-1960-king
     also: [king, civil-rights-the-executive]
     c: 'The last week of October, the campaign train, by Nixon''s account. Klein asks his comment on Robert Kennedy''s call to King''s judge; Nixon: King is "getting a bum rap," but no lawyer should call the judge. Klein tells the press "no comment." Rogers proposes a statement by Hagerty that Justice has been told to look into King''s rights; the White House will not approve it.'
-    n: '[[w.nixon-six-crises]], 362–63. See [[cal.1960-10-25.king]]. Names: Klein, Robert Kennedy, King, Nixon, Rogers, Hagerty.'
+    n: '[[w.nixon-six-crises]], 362–63. Check: Mann, 283, has Nixon''s advisers consider urging him to express concern for King and his wife, and conclude that it might alienate white voters. See [[cal.1960-10-25.king]]. Names: Klein, Robert Kennedy, King, Nixon, Rogers, Hagerty.'
     src:
       c: ff3c75d1
       rows:
@@ -2835,12 +2858,17 @@ entries:
     thread: elections-1960-king
     also: [king]
     c: 'Robert Kennedy calls Johnson: he will urge King''s release from the Georgia jail. Johnson: "Tell Jack that we''ll ride it through down here some way, and at least he''s on the side of right."'
-    n: '[[w.shesol-mutual-contempt]], 59. To check: [[w.schlesinger-thousand-days-1965]], 74 (cited by [[w.shesol-mutual-contempt]], 59). See [[cal.1960-10-26.robert-kennedy]]. Names: Robert Kennedy, Johnson, Martin Luther King. Check: the day.'
+    n: '[[w.shesol-mutual-contempt]], 59. Check: Mann, 285, from Wofford and Garrow, has Johnson tell Kennedy: "Well, we''ll sweat it out—but you''ll have the privilege of knowing that you did the right thing.". To check: [[w.schlesinger-thousand-days-1965]], 74 (cited by [[w.shesol-mutual-contempt]], 59); [[w.wofford-of-kennedys-and-kings]], 21, 24; [[w.garrow-bearing-the-cross]], 149 (cited by [[w.mann-walls-of-jericho]], 285). See [[cal.1960-10-26.robert-kennedy]]. Names: Robert Kennedy, Johnson, Martin Luther King. Check: the day.'
     src:
       c: 399d1c44
       rows:
         - 'w.shesol-mutual-contempt 59: all'
     tags: [name:kennedy-robert-f, name:johnson-lyndon-b, name:king-martin-luther-jr]
+    variants:
+      - unit: B
+        witness: w.mann-walls-of-jericho
+        reads: He told Kennedy, "Well, we'll sweat it out—but you'll have the privilege of knowing that you did the right thing."
+        at: '285'
   - id: cal.1960-10.goldwater-3
     when: Oct.
     date: 1960-10

@@ -3511,11 +3511,12 @@ entries:
     date: 1964-09
     thread: elections-1964-johnson
     c: 'Lady Bird Johnson canvasses the Southern Democrats for her whistle-stop train. Byrd of Virginia, asked to meet the train: "an invisible silken curtain fell across his voice." Russell sends aides to guide it through Georgia; Thurmond faces "a really basic decision."'
-    n: '[[w.branch-pillar-of-fire]], 492. Check: the days. To check: [[w.johnson-white-house-diary]], 195–96 (cited by [[w.branch-pillar-of-fire]], 492). Names: Lady Bird Johnson, Byrd, Russell, Thurmond.'
+    n: '[[w.branch-pillar-of-fire]], 492; [[w.mann-walls-of-jericho]], 443 (Russell declines Lady Bird Johnson''s requests, three times, to join her in Georgia). Check: the days. To check: [[w.johnson-white-house-diary]], 195–96 (cited by [[w.branch-pillar-of-fire]], 492). Names: Lady Bird Johnson, Byrd, Russell, Thurmond.'
     src:
       c: 8c02274d
       rows:
         - 'w.branch-pillar-of-fire 492: all'
+        - 'w.mann-walls-of-jericho 443: A, C'
     tags: [name:johnson-lady-bird, name:byrd-harry-f, name:russell-richard-b, name:thurmond-strom]
   - id: cal.1964-09.mississippi
     when: Sept.
@@ -3990,3 +3991,29 @@ entries:
         - 'w.cosmas-joint-chiefs-of-staff-2012 134–35: all'
         - 'via x.1964-09-30.jcsm-835-64-to-secretary-of-defense: all'
     tags: [name:mcnamara-robert-s]
+  - id: cal.1964-09.elections-1964-johnson-8
+    when: Sept.–Oct., the campaign
+    date: 1964-09
+    thread: elections-1964-johnson
+    also: [georgia]
+    c: 'Russell to his constituents, against the pressure of some of Georgia''s Democratic leaders: "I do not intend to take any part in the national campaign."'
+    n: '[[w.mann-walls-of-jericho]], 442–43. Check: the day; Mann places it in the campaign. To check: [[w.fite-richard-b-russell-jr]], 419 (cited by [[w.mann-walls-of-jericho]], 443). See [[cal.1964-09-01.elections-1964]]. Names: Russell.'
+    src:
+      c: da6189d4
+      rows:
+        - 'w.mann-walls-of-jericho 442–43: all'
+    tags: [name:russell-richard-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-09.elections-1964-3
+          - cal.1964-09.elections-1964-4
+          - cal.1964-09.elections-1964-5
+          - cal.1964-09.elections-1964-johnson-5
+          - cal.1964-09.elections-1964-johnson-6
+          - cal.1964-09.elections-1964-johnson-4
+          - cal.1964-09.elections-1964-johnson
+          - cal.1964-09.elections-1964-johnson-2
+          - cal.1964-09.elections-1964-johnson-3
+          - cal.1964-09.elections-1964-johnson-7
+        from: 2026-11-10-b7-mann
