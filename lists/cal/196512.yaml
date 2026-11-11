@@ -1798,6 +1798,19 @@ entries:
         - 'via x.1966-01-21.memo-carroll-to-secdef-21-jan-66: ?'
         - 'via x.undated.new-york-times-dec-16-65-2: ?'
         - 'via x.undated.washington-post-dec-17-65: ?'
+  - id: cal.1965-12-19.vietnam-diplomacy
+    when: Dec. 19
+    date: '1965-12-19'
+    thread: vietnam-diplomacy
+    also: [robert-kennedy]
+    c: 'Hickory Hill, a party. Robert Kennedy on the Fanfani message: "Why didn''t we accept the Fanfani message positively ... Then the onus would be on Hanoi to refuse." He does not believe in pulling out the troops; Johnson, Ball, Harriman, McNamara want negotiations, Rusk against: "We''re in a stalemate." "If I broke with the administration it might be disastrous for the country." By Stephen Schlesinger''s notes.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 733–34. To check: Stephen Schlesinger, "RFK-Hickory Hill," Dec. 19, 1965 (cited by [[w.schlesinger-robert-kennedy-and-his]], 734 n.46). See [[cal.1965-12-15.vietnam]]. Names: Robert Kennedy, Fanfani, Johnson, Ball, Harriman, McNamara, Rusk.'
+    src:
+      c: 9ad4bc08
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 733–34: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 734 n.46: all'
+    tags: [name:kennedy-robert-f, name:fanfani-amintore, name:johnson-lyndon-b, name:ball-george-w, name:harriman-w-averell, name:mcnamara-robert-s, name:rusk-dean]
   - id: cal.1965-12-20.europe-and-the-alliance
     when: Dec. 20–21
     date: '1965-12-20'
@@ -1940,6 +1953,23 @@ entries:
       c: 7341e00f
       rows:
         - 'w.staaveren-gradual-failure 197: all'
+  - id: cal.1965-12-20.robert-kennedy-2
+    when: Dec. 20
+    date: '1965-12-20'
+    thread: robert-kennedy
+    c: 'Johnson to Robert Kennedy, a Christmas letter: "Mrs. Johnson, my daughters, and I ask God''s blessings on you and yours."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 685. To check: Johnson Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 685 n.101). See [[cal.1965-11-20.robert-kennedy]]. Names: Johnson, Robert Kennedy.'
+    src:
+      c: 8241ca28
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 685: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 685 n.101c: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-12-20.robert-kennedy
+        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1965-12-21.vietnam-pause
     when: Dec. 21
     date: '1965-12-21'

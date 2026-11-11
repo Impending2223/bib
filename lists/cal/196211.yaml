@@ -331,6 +331,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-11-05.press-and-broadcasting
+    when: Nov. 5
+    date: '1962-11-05'
+    thread: press-and-broadcasting
+    also: [soviet-union]
+    c: Joseph Alsop's column in the *Washington Post* exposes Bolshakov's role with Robert Kennedy. The Kremlin, by Schlesinger's account, decides his usefulness in Washington is over and recalls him.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 527 & n.130. Check: the day of the recall; and the column, against Dobrynin''s account of the article by Bartlett and Stewart Alsop: see [[cal.1962-12.robert-kennedy]]. To check: *Washington Post*, Nov. 5, 1962 (cited by [[w.schlesinger-robert-kennedy-and-his]], 527 n.130). Names: Joseph Alsop, Bolshakov, Robert Kennedy.'
+    src:
+      c: bf8bde47
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 527 & n.130: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 527 n.130b: A'
+    tags: [name:alsop-joseph, name:bolshakov-georgi, name:kennedy-robert-f]
   - id: cal.1962-11-06.elections-1962
     when: Nov. 6
     date: '1962-11-06'
@@ -814,6 +827,17 @@ entries:
       rows:
         - 'w.cohen-american-pharaoh 291: all'
     tags: [state:il, name:dirksen-everett, name:yates-sidney-r, name:daley-richard-j]
+  - id: cal.1962-11-06.europe-and-the-alliance
+    when: Nov. 6
+    date: '1962-11-06'
+    thread: europe-and-the-alliance
+    c: 'Election night, Schlesinger''s house. William R. Hawthorne of Cambridge, a close associate of Zuckerman''s, takes Schlesinger aside on Skybolt: deep concern over difficulties between the two countries; the importance of the United States taking the initiative in devising a substitute.'
+    n: '[[w.schlesinger-thousand-days-1965]], 858–59 (Schlesinger''s account). The decision: [[cal.1962-11-07.europe-and-the-alliance]]. Names: Schlesinger.'
+    src:
+      c: c76d3b1c
+      rows:
+        - 'w.schlesinger-thousand-days-1965 858–59: all'
+    tags: [name:schlesinger-arthur-m-jr]
   - id: cal.1962-11-07.middle-east-yemen
     when: Nov. 7
     date: '1962-11-07'
@@ -3070,3 +3094,20 @@ entries:
           - cal.1962-11.republican-party-2
           - cal.1962-11.republican-party-3
         from: 2026-11-06-b6-nixon-rn
+  - id: cal.1962-11.missile-crisis-settlement-2
+    when: Nov.
+    date: 1962-11
+    thread: missile-crisis-settlement
+    c: 'After the crisis, Rusk to Robert Kennedy: his part in the Executive Committee was to keep it from moving too far or too fast; he had played "the ''dumb dodo''" for that reason. Robert Kennedy: "a strange way of putting it." By Robert Kennedy''s memorandum of Nov. 30.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 507. Check: the day; the memorandum is dictated Nov. 30. To check: Robert Kennedy, memorandum dictated Nov. 30, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 507 n.37). Names: Rusk, Robert Kennedy.'
+    src:
+      c: 96ee0ecf
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 507: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 507 n.37: all'
+    tags: [name:rusk-dean, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-11.missile-crisis-settlement
+        from: 2026-11-06-b6-schlesinger-rfk

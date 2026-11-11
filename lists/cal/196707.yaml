@@ -2252,6 +2252,26 @@ entries:
     time_band: workday afternoon
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-07-25.civil-disorders-4
+    when: July 25
+    date: '1967-07-25'
+    thread: civil-disorders
+    also: [robert-kennedy]
+    c: New York, violence in Spanish Harlem since July 23. After dinner with Schlesinger, Pete Hamill and José Torres, Robert and Ethel Kennedy drive with them through the streets of East Harlem, shuttered, police on each corner.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 797. To check: José Torres, interview by Jean Stein, Aug. 6, 1968, 2–4 (cited by [[w.schlesinger-robert-kennedy-and-his]], 797 n.93). Names: Robert Kennedy, Schlesinger.'
+    src:
+      c: b006a2bd
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 797: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 797 n.93: all'
+    tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-07-25.civil-disorders
+          - cal.1967-07-25.civil-disorders-2
+          - cal.1967-07-25.civil-disorders-3
+        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1967-07-26.civil-rights-organizations
     when: July 26
     date: '1967-07-26'
@@ -3216,3 +3236,16 @@ entries:
         of:
           - cal.1967-07.defense
         from: 2026-11-06-b6-bernstein-guns-or-butter
+  - id: cal.1967-07.civil-disorders
+    when: July
+    date: 1967-07
+    thread: civil-disorders
+    also: [robert-kennedy]
+    c: 'After Johnson''s statement on Detroit, Robert Kennedy to Mankiewicz: "It''s over. The President is just not going to do anything more." As President he would have the networks run a two-hour documentary on the ghetto in prime time, and call each endangered city''s mayor, bankers, contractors, union men and ministers to the White House, one a day. "When I do, it''s a political speech."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 797–98. Check: the day; after July 24. To check: Frank Mankiewicz, interview by L. J. Hackman, Aug. 12, 1969, 87; Mankiewicz and Tom Braden, *Washington Post*, Feb. 24, 1970 (cited by [[w.schlesinger-robert-kennedy-and-his]], 798 n.96). See [[cal.1967-07-24.civil-disorders-detroit]]. Names: Johnson, Robert Kennedy, Mankiewicz.'
+    src:
+      c: a8582bc0
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 797–98: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 798 n.96: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f, name:mankiewicz-frank]

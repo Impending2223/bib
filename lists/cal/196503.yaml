@@ -6194,13 +6194,19 @@ entries:
     date: 1965-03
     thread: robert-kennedy
     c: Yukon. Robert Kennedy, with Jim Whittaker, climbs Mount Kennedy, 13,900 feet, named by Canada for the President, the highest unclimbed peak in North America, on the National Geographic Society's expedition. At the summit he plants the family's flag and an American flag, and leaves PT-109 tie clips and the inaugural address.
-    n: '[[w.thomas-robert-kennedy]], 306–07. To check: [[w.schlesinger-robert-kennedy-and-his]], 811; *New York Times*, Mar. 24, 25, 26, 1965; Robert Kennedy, "Our Climb Up Mt. Kennedy," *Life*, Apr. 9, 1965 (cited by [[w.thomas-robert-kennedy]], 458). Names: Robert Kennedy, Kennedy. Check: the day.'
+    n: '[[w.thomas-robert-kennedy]], 306–07; [[w.schlesinger-robert-kennedy-and-his]], 811–12 (Mount Kennedy, the National Geographic''s proposal; with Whittaker and Prather; Kennedy memorabilia left at the top). To check: *New York Times*, Mar. 24, 25, 26, 1965; Robert Kennedy, "Our Climb Up Mt. Kennedy," *Life*, Apr. 9, 1965 (cited by [[w.thomas-robert-kennedy]], 458). Names: Robert Kennedy, Kennedy. Check: the day.'
     src:
       c: 3d6aa3e9
       rows:
         - 'w.thomas-robert-kennedy 306–07: all'
         - 'via w.thomas-robert-kennedy 307 n.rfk-assault-on-mount-kennedy: all'
+        - 'w.schlesinger-robert-kennedy-and-his 811–12: A-C'
     tags: [name:kennedy-robert-f, name:kennedy-john-f]
+    variants:
+      - unit: B
+        witness: w.schlesinger-robert-kennedy-and-his
+        reads: 14,000 feet high
+        at: '811'
   - id: cal.1965-03.laos
     when: Mar.
     date: 1965-03
@@ -6389,3 +6395,22 @@ entries:
           - cal.1965-03.voting-rights-selma-2
           - cal.1965-03.voting-rights-selma-3
         from: 2026-11-06-b6-bernstein-guns-or-butter
+  - id: cal.1965-03.robert-kennedy-3
+    when: Mar.
+    date: 1965-03
+    thread: robert-kennedy
+    also: [voting-rights]
+    c: 'Robert Kennedy to Seigenthaler, of Johnson''s "We Shall Overcome" address asking Congress for a voting rights bill: "He''s got some guts."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 779. Check: the day. To check: John Seigenthaler, interview by L. J. Hackman, June 5, 1970, RFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 779 n.6). See [[cal.1965-03-15.voting-rights]]. Names: Robert Kennedy, Seigenthaler, Johnson.'
+    src:
+      c: fd8f24a7
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 779: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 779 n.6: all'
+    tags: [name:kennedy-robert-f, name:seigenthaler-john, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-03.robert-kennedy
+          - cal.1965-03.robert-kennedy-2
+        from: 2026-11-06-b6-schlesinger-rfk

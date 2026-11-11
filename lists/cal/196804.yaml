@@ -688,6 +688,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-04-02.elections-1968-johnson
+    when: Apr. 2
+    date: '1968-04-02'
+    thread: elections-1968-johnson
+    also: [press-and-broadcasting]
+    c: 'Wisconsin''s primary, McCarthy 56 percent, Johnson hardly more than a third. Johnson, angry, to reporters: "You fellows won''t have me to pick on any more. You can find someone else to flog and insult."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 868. To check: [[w.johnson-my-brother-lyndon]], 251–52 (cited by [[w.schlesinger-robert-kennedy-and-his]], 868 n.54). See [[cal.1968-04-02.elections-1968]]. Names: Johnson, Eugene McCarthy.'
+    src:
+      c: 6961ffa2
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 868: all'
+    tags: [name:johnson-lyndon-b, name:mccarthy-eugene-j]
   - id: cal.1968-04-03.vietnam
     when: Apr. 3
     date: '1968-04-03'
@@ -1081,11 +1093,13 @@ entries:
       - cal.1968-04-03.robert-kennedy
       - cal.1968-04-03.elections-1968
     c: 'Johnson with Drew Pearson, after Kennedy and Humphrey: a history of the Bay of Pigs that blames Robert Kennedy.'
-    n: '[[w.thomas-robert-kennedy]], 365–66. Order: after Kennedy and Humphrey, [[cal.1968-04-03.elections-1968]]. To check: [[w.schlesinger-robert-kennedy-and-his]], 869 (cited by [[w.thomas-robert-kennedy]], 471). See [[cal.1968-04-03.robert-kennedy]]. Names: Johnson, Pearson, Robert Kennedy.'
+    n: '[[w.thomas-robert-kennedy]], 365–66; [[w.schlesinger-robert-kennedy-and-his]], 869 (later that day, with Pearson and David Karr: the "partnership" with John Kennedy; bitter about Robert Kennedy, blaming him for the Bay of Pigs, where the credibility gap began; Karr found it "terrifying"). Order: after Kennedy and Humphrey, [[cal.1968-04-03.elections-1968]]. See [[cal.1968-04-03.robert-kennedy]]. Names: Johnson, Pearson, Robert Kennedy.'
     src:
       c: c839ed35
       rows:
         - 'w.thomas-robert-kennedy 365-66: all'
+        - 'w.schlesinger-robert-kennedy-and-his 869: A'
+        - 'via w.schlesinger-robert-kennedy-and-his 869 n.59: A'
     tags: [name:johnson-lyndon-b, name:pearson-drew, name:kennedy-robert-f]
     time_range:
       - 1968-04-03T14:00Z
@@ -1124,6 +1138,24 @@ entries:
         - 'w.wells-war-within 263: all'
         - 'w.zaroulis-who-spoke-up 163: ?'
         - 'w.debenedetti-american-ordeal 215: ?'
+  - id: cal.1968-04-03.elections-1968-mccarthy
+    when: Apr. 3
+    date: '1968-04-03'
+    thread: elections-1968-mccarthy
+    c: 'The day after Wisconsin. McCarthy to Jeremy Larner and Jonathan Schell: "It''s narrowed down to Bobby and me. So far he''s run with the ghost of his brother. Now we''re going to make him run against it. ... We''ll make him run against Jack. ... And I''m Jack." Schell declines to join his staff.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 870. To check: [[w.larner-nobody-knows]], 63–64 (cited by [[w.schlesinger-robert-kennedy-and-his]], 870 n.60). Names: Eugene McCarthy, Larner, Robert Kennedy.'
+    src:
+      c: 2a9817df
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 870: all'
+    tags: [name:mccarthy-eugene-j, name:larner-jeremy, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-04-03.elections-1968-3
+          - cal.1968-04-03.elections-1968-4
+          - cal.1968-04-03.elections-1968-8
+        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1968-04-04.vietnam-paris
     when: Apr. 4
     date: '1968-04-04'
@@ -1486,6 +1518,42 @@ entries:
         of:
           - cal.1968-04-04.king-memphis
         from: 2026-11-06-b6-branch-at-canaans-edge
+  - id: cal.1968-04-04.robert-kennedy-campaign-2
+    when: Apr. 4
+    date: '1968-04-04'
+    thread: robert-kennedy-campaign
+    also: [king-memphis]
+    c: 'Indianapolis, back at the hotel. Robert Kennedy telephones Coretta King: "I''ll help in any way I can." She will go to Memphis in the morning for her husband''s body; Kennedy: "Let me fly you there. I''ll get a plane down." SCLC officials tell her it is a mistake, Kennedy running for President; she is not bothered.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 876. To check: [[w.king-my-life-with-martin]], 333–34 (London ed., 1970); Coretta Scott King, interview by Jean Stein, Nov. 18, 1969, 1–2, Stein Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 876 nn.1–2). See [[cal.1968-04-04.robert-kennedy]]. Names: Robert Kennedy, Coretta King.'
+    src:
+      c: fc257385
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 876: all'
+    tags: [name:kennedy-robert-f, name:king-coretta-scott]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-04-04.robert-kennedy
+        from: 2026-11-06-b6-schlesinger-rfk
+  - id: cal.1968-04-04.robert-kennedy-campaign-3
+    when: Apr. 4
+    date: '1968-04-04'
+    thread: robert-kennedy-campaign
+    also: [civil-disorders-king]
+    c: 'Indianapolis, after the rally. Robert Kennedy with black militants John Lewis has brought together, hostile: "Our leader is dead tonight, and when we need you we can''t find you." Kennedy: "Yes, you lost a friend, I lost a brother. ... Big business is trying to defeat me because they think I am a friend of the Negro." Departing, they pledge their support. By Lewis''s account.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 876. To check: John Lewis, interview by Jean Stein, Sept. 9, 1968, 7, Stein Papers; [[w.vanden-heuvel-on-his-own]], 338 (cited by [[w.schlesinger-robert-kennedy-and-his]], 876 n.3). See [[cal.1968-04-04.robert-kennedy]]. Names: Robert Kennedy, John Lewis.'
+    src:
+      c: 414d733f
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 876: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 876 n.3a: all'
+    tags: [name:kennedy-robert-f, name:lewis-john]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-04-04.robert-kennedy
+          - cal.1968-04-04.robert-kennedy-campaign-2
+        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1968-04-05.civil-disorders
     when: Apr. 5
     date: '1968-04-05'
@@ -2246,6 +2314,24 @@ entries:
         - 'w.thomas-robert-kennedy 368: all'
         - 'via w.thomas-robert-kennedy 368 n.viewed-kings-body: all'
     tags: [name:lewis-john, name:kennedy-robert-f, name:king-martin-luther-jr, city:atlanta, state:ga]
+  - id: cal.1968-04-09.robert-kennedy-campaign
+    when: Apr. 9
+    date: '1968-04-09'
+    thread: robert-kennedy-campaign
+    c: 'On the plane back to Washington from King''s funeral, Robert Kennedy sits with Katzenbach, touches his knee: "Forget about what happened and just erase the whole thing. Nothing more will be said." By Katzenbach''s account.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 879. Check: the day; the book puts the funeral on Apr. 7 (878), the calendar on Apr. 9. To check: Nicholas Katzenbach, interview by Jean Stein, Sept. 27, 1968, 20, Stein Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 879 n.17). See [[cal.1968-04-09.king]]. Names: Robert Kennedy, Katzenbach.'
+    src:
+      c: 8331277d
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 879: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 879 n.17: all'
+    tags: [name:kennedy-robert-f, name:katzenbach-nicholas]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-04-09.robert-kennedy
+          - cal.1968-04-09.robert-kennedy-2
+        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1968-04-10.open-housing
     when: Apr. 10
     date: '1968-04-10'
@@ -3135,6 +3221,18 @@ entries:
         - 'via w.macv-command-history-1968 75 n.57: all'
         - 'via w.macv-command-history-1968 75 n.58: all'
     tags: [name:truong-chinh, place:cholon]
+  - id: cal.1968-04-20.robert-kennedy-campaign
+    when: Apr. 20
+    date: '1968-04-20'
+    thread: robert-kennedy-campaign
+    c: 'Thomas Johnston to Robert Kennedy: "The classical political wisdom which is shaping this campaign is similar in all important essentials to the advice which said you should not run this year." "You are at your strongest when you are most yourself."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 871. To check: Johnston to Robert Kennedy, Apr. 20, 1968, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 871 n.65). Names: Robert Kennedy.'
+    src:
+      c: 5a0c4617
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 871: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 871 n.65: all'
+    tags: [name:kennedy-robert-f]
   - id: cal.1968-04-21.opinion
     when: Apr. 21
     date: '1968-04-21'
@@ -3902,6 +4000,18 @@ entries:
         - 'w.palermo-in-his-own-right 202–03: all'
         - 'via w.palermo-in-his-own-right 202 n.64: all'
     tags: [name:kennedy-edward-m, name:douglas-john-w, name:goodwin-richard-n, name:wallace-george-c, name:kennedy-robert-f, name:mccarthy-eugene-j, state:in]
+  - id: cal.1968-04-28.press-and-broadcasting
+    when: Apr. 28
+    date: '1968-04-28'
+    thread: press-and-broadcasting
+    also: [robert-kennedy-campaign-primaries]
+    c: 'The *New York Times*, "Kennedy: Meet the Conservative": under Martin''s and Goodwin''s influence, Kennedy beginning to sound like Romney on law and order.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 880 (the piece; Schlesinger: Goodwin "innocent"). To check: [*New York Times*, Apr. 28, 1968](https://timesmachine.nytimes.com/timesmachine/1968/04/28/issue.html) (cited by [[w.schlesinger-robert-kennedy-and-his]], 880 n.22). Names: Robert Kennedy, Martin, Goodwin, Romney.'
+    src:
+      c: 1463fa82
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 880: all'
+    tags: [name:kennedy-robert-f, name:martin-john-bartlow, name:goodwin-richard-n, name:romney-george-w]
   - id: cal.1968-04-29.king
     when: Apr. 29–May 1
     date: '1968-04-29'
@@ -4416,3 +4526,72 @@ entries:
         of:
           - cal.1968-04.elections-1968-nixon
         from: 2026-11-06-b6-nixon-rn
+  - id: cal.1968-04.robert-kennedy-campaign-5
+    when: Apr.
+    date: 1968-04
+    thread: robert-kennedy-campaign
+    c: 'Tolson of the FBI, of Robert Kennedy, in William Sullivan''s hearing: "I hope that someone shoots and kills the son of a bitch." By Sullivan''s account.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 808 & n.*. Check: the month; Sullivan put it "a month or two before Kennedy was shot." Made public: [[w.schlesinger-robert-kennedy-and-his]], 808 (1978). To check: William C. Sullivan, interview by Schlesinger, July 26, 1976; Sullivan to Schlesinger, Oct. 1, 1977 (cited by [[w.schlesinger-robert-kennedy-and-his]], 808 n.*). Names: Tolson, Robert Kennedy, William C. Sullivan.'
+    src:
+      c: 945007f2
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 808 & n.*: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 808 n.*a: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 808 n.*b: all'
+    tags: [name:tolson-clyde-a, name:kennedy-robert-f, name:sullivan-william-c]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-04.robert-kennedy
+          - cal.1968-04.robert-kennedy-2
+          - cal.1968-04.robert-kennedy-campaign-2
+          - cal.1968-04.robert-kennedy-campaign-3
+          - cal.1968-04.robert-kennedy-campaign-4
+        from: 2026-11-06-b6-schlesinger-rfk
+  - id: cal.1968-04.elections-1968-johnson
+    when: Apr., early
+    date: 1968-04
+    thread: elections-1968-johnson
+    also: [robert-kennedy-campaign]
+    c: 'Johnson, told of Robert Kennedy''s telegram asking a meeting: "I won''t bother answering that grand-standing little runt." By Sam Houston Johnson''s account.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 868. Check: the day; after Mar. 31, before the meeting of Apr. 3. To check: [[w.johnson-my-brother-lyndon]], 251–52 (cited by [[w.schlesinger-robert-kennedy-and-his]], 868 n.55). See [[cal.1968-04-03.robert-kennedy]]. Names: Johnson, Robert Kennedy.'
+    src:
+      c: b13a47f2
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 868: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
+  - id: cal.1968-04.king
+    when: Apr., early
+    date: 1968-04
+    thread: king
+    also: [robert-kennedy-campaign]
+    c: 'After Johnson''s withdrawal, King to Walter Fauntroy: "He''s just doing like a Baptist preacher ... trying to get a vote of confidence"; "We''ve got to get behind Bobby now that he''s in." By Levison''s account, he had decided to support Kennedy, not yet publicly.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 873. Check: the day; between Mar. 31 and Apr. 4. To check: Walter Fauntroy, interview by Jean Stein, Nov. 11, 1969, 25; Stanley Levison, interview by Jean Stein, 2 (the note prints Nov. 21, 1962), Stein Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 873 nn.74, 76). See [[cal.1968-03-31.elections-1968]]. Names: Martin Luther King, Johnson, Robert Kennedy, Levison.'
+    src:
+      c: 867b1c07
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 873: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 873 n.74: A-B'
+        - 'via w.schlesinger-robert-kennedy-and-his 873 n.76: C'
+    tags: [name:king-martin-luther-jr, name:johnson-lyndon-b, name:kennedy-robert-f, name:levison-stanley-d]
+  - id: cal.1968-04.robert-kennedy-campaign-primaries-5
+    when: Apr.
+    date: 1968-04
+    thread: robert-kennedy-campaign-primaries
+    c: 'After King''s murder, Martin urges Robert Kennedy to say "that violence and rioting cannot be tolerated, and emphasize it; then follow by saying neither can injustice be tolerated." Kennedy: "I can go pretty far in that direction. That doesn''t bother me." By Martin''s notes.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 880. Check: the day. To check: Martin, "RFK Notes [on the 1968 campaign]," June 28, 1968, 11–12, Martin Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 880 n.20). Names: Martin, Robert Kennedy.'
+    src:
+      c: b57f3c4d
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 880: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 880 n.20: all'
+    tags: [name:martin-john-bartlow, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-04.robert-kennedy-campaign
+          - cal.1968-04.robert-kennedy-campaign-primaries
+          - cal.1968-04.robert-kennedy-campaign-primaries-2
+          - cal.1968-04.robert-kennedy-campaign-primaries-3
+          - cal.1968-04.robert-kennedy-campaign-primaries-4
+        from: 2026-11-06-b6-schlesinger-rfk

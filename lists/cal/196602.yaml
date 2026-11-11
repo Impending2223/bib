@@ -3068,6 +3068,24 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1966-02-24.robert-kennedy-3
+    when: Feb. 24
+    date: '1966-02-24'
+    thread: robert-kennedy
+    c: 'Robert Kennedy to Humphrey, back from the Pacific, by handwritten note: "Welcome home. I was taking care of everything back here while you were away. ... I felt a little like the fox in the chicken house myself."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 738. To check: Robert Kennedy to Humphrey, Feb. 24, 1966, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 738 n.66). See [[cal.1966-01-27.robert-kennedy-2]]. Names: Robert Kennedy, Humphrey.'
+    src:
+      c: 4e199a04
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 738: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 738 n.66: all'
+    tags: [name:kennedy-robert-f, name:humphrey-hubert-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-02-24.robert-kennedy
+          - cal.1966-02-24.robert-kennedy-2
+        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1966-02-25.legislatures-fl
     when: Feb. 25
     date: '1966-02-25'
@@ -3839,3 +3857,19 @@ entries:
       rows:
         - 'w.branch-at-canaans-edge 435: all'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1966-02.transition-and-staff-3
+    when: Feb.
+    date: 1966-02
+    thread: transition-and-staff
+    c: McGeorge Bundy leaves the White House.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 741. Check: the day. Names: Bundy.'
+    src:
+      c: 9cd1e59c
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 741: all'
+    tags: [name:bundy-mcgeorge]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-02.transition-and-staff
+        from: 2026-11-06-b6-schlesinger-rfk

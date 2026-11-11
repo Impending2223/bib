@@ -955,6 +955,19 @@ entries:
         - 'w.smith-on-his-own-terms 474: all'
         - 'via x.undated.underhill-interview-by-smith: all'
     tags: [name:rockefeller-nelson, state:ny]
+  - id: cal.1965-08-08.robert-kennedy
+    when: Aug. 8
+    date: '1965-08-08'
+    thread: robert-kennedy
+    also: [congress]
+    c: 'Robert Kennedy to Harry Byrd, ill, by handwritten note: "We need you back here to keep a check on us young liberals who will get away with everything without you to keep an eye on us."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 681–82. To check: Robert Kennedy to Byrd, Aug. 8, 1965, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 681 n.85). Names: Robert Kennedy, Harry F. Byrd.'
+    src:
+      c: 4255ab67
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 681–82: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 681 n.85: all'
+    tags: [name:kennedy-robert-f, name:byrd-harry-f]
   - id: cal.1965-08-09.voting-rights
     when: Aug. 9
     date: '1965-08-09'
@@ -2115,6 +2128,24 @@ entries:
       - 1965-08-18T01:00Z
     time_band: afternoon
     time_zone: America/Los_Angeles
+  - id: cal.1965-08-17.robert-kennedy-2
+    when: Aug. 17
+    date: '1965-08-17'
+    thread: robert-kennedy
+    also: [voting-rights]
+    c: 'Robert Kennedy to Johnson: "You were most courteous to me today at the signing of the Voting Bill — I wanted you to know how much I appreciate your thoughtfulness."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 685. Check: the day; the letter says "today at the signing," the book dates it Aug. 17 in brackets. To check: Johnson Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 685 n.101). See [[cal.1965-08-06.voting-rights]]. Names: Robert Kennedy, Johnson.'
+    src:
+      c: 7498f5f8
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 685: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 685 n.101a: all'
+    tags: [name:kennedy-robert-f, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-08-17.robert-kennedy
+        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1965-08-18.vietnam
     when: Aug. 18–24
     date: '1965-08-18'

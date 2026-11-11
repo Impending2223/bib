@@ -2007,6 +2007,21 @@ entries:
       rows:
         - 'w.sorensen-kennedy 705: all'
     tags: [name:kennedy-john-f, name:sorensen-theodore-c]
+  - id: cal.1962-10-20.missile-crisis-diplomacy
+    when: Oct. 20
+    date: '1962-10-20'
+    thread: missile-crisis-diplomacy
+    also: [robert-kennedy]
+    c: 'Stevenson argues at the NSC for offering to give up the missile bases in Turkey and Italy to get the Soviet missiles out of Cuba. Robert Kennedy, by his notes: "a rather strong argument with him"; he suggests privately to the President that someone else replace Stevenson at the UN, "such a weak man in these kinds of negotiations." The President to O''Donnell: "I admire [Stevenson] for saying what he did."'
+    n: 'Minutes of the 505th Meeting of the National Security Council, [FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 34](https://history.state.gov/historicaldocuments/frus1961-63v11/d34) (Oct. 20, 1962) (Stevenson''s argument). [[w.schlesinger-robert-kennedy-and-his]], 516. Check: the day of the suggestion. To check: Robert Kennedy, memorandum, Nov. 15, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 516 n.81); [[w.odonnell-johnny-we-hardly-knew]], 323 (cited by [[w.schlesinger-robert-kennedy-and-his]], 516 n.80). See [[cal.1962-10-20.missile-crisis]]. Names: Stevenson, Robert Kennedy, Kennedy, O''Donnell.'
+    src:
+      c: 02cb1fd2
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d34: A'
+        - 'w.schlesinger-robert-kennedy-and-his 516: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 516 n.79: A'
+        - 'via w.schlesinger-robert-kennedy-and-his 516 n.81: B-C'
+    tags: [name:stevenson-adlai-e, name:kennedy-robert-f, name:kennedy-john-f, name:odonnell-kenneth-p]
   - id: cal.1962-10-21.missile-crisis
     when: Oct. 21
     date: '1962-10-21'
@@ -2789,6 +2804,33 @@ entries:
       rows:
         - 'w.sorensen-kennedy 704: all'
     tags: [name:kennedy-john-f]
+  - id: cal.1962-10-22.missile-crisis-diplomacy
+    when: Oct. 22
+    date: '1962-10-22'
+    thread: missile-crisis-diplomacy
+    c: 'McCloy summoned to sit at Stevenson''s right hand at the UN; the President sends Schlesinger to New York too. Robert Kennedy to Schlesinger, at the plane: "That fellow is ready to give everything away. We will have to make a deal in the end; but we must stand firm now." By Schlesinger''s journal.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 516. To check: Schlesinger, journal, Oct. 22, 1962, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 516 n.82). See [[cal.1962-10-20.missile-crisis-diplomacy]]. Names: McCloy, Stevenson, Kennedy, Schlesinger, Robert Kennedy.'
+    src:
+      c: 4f07cdb1
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 516: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 516 n.82: C'
+    tags: [name:mccloy-john-j, name:stevenson-adlai-e, name:kennedy-john-f, name:schlesinger-arthur-m-jr, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-10-22.missile-crisis-2
+          - cal.1962-10-22.missile-crisis-8
+          - cal.1962-10-22.missile-crisis-9
+          - cal.1962-10-22.missile-crisis-6
+          - cal.1962-10-22.missile-crisis-7
+          - cal.1962-10-22.missile-crisis-13
+          - cal.1962-10-22.missile-crisis-14
+          - cal.1962-10-22.missile-crisis-16
+          - cal.1962-10-22.missile-crisis-22
+          - cal.1962-10-22.missile-crisis-23
+          - cal.1962-10-22.missile-crisis-26
+        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1962-10-23.missile-crisis
     when: Oct. 23
     date: '1962-10-23'
@@ -4619,6 +4661,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-10-28.missile-crisis-settlement
+    when: Oct. 28
+    date: '1962-10-28'
+    thread: missile-crisis-settlement
+    also: [robert-kennedy]
+    c: 'Kennedy to his brother: this is the night to go to the theater, like Lincoln. Robert Kennedy: then he would go too, having seen Johnson make no contribution in all the meetings; after them he would "whine and complain about our being weak," and on Saturday night said people felt they were backing down, with no specifics. By Robert Kennedy''s memorandum of Nov. 15.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 525 & n.*. To check: Robert Kennedy, memorandum, Nov. 15, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 525 n.*). Names: Kennedy, Robert Kennedy, Johnson.'
+    src:
+      c: 03f4f6ac
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 525 & n.*: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 525 n.*: all'
+    tags: [name:kennedy-john-f, name:kennedy-robert-f, name:johnson-lyndon-b]
   - id: cal.1962-10-29.japan-and-korea
     when: Oct. 29
     date: '1962-10-29'
@@ -4761,6 +4816,24 @@ entries:
         - 'w.smith-on-his-own-terms 383: all'
         - 'via x.1962-10-29.rockefeller-agronsky-today: all'
     tags: [name:rockefeller-nelson]
+  - id: cal.1962-10-29.missile-crisis-settlement
+    when: Oct. 29
+    date: '1962-10-29'
+    thread: missile-crisis-settlement
+    also: [defense]
+    c: 'Kennedy to Schlesinger, the morning after Khrushchev''s retreat: "The military are mad. They wanted to do this. It''s lucky for us that we have McNamara over there." By Schlesinger''s journal.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 524. To check: Schlesinger, journal, Oct. 29, 1962, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 524 n.116). See [[cal.1962-10-28.defense]]. Names: Kennedy, Schlesinger, McNamara.'
+    src:
+      c: e96a1279
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 524: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 524 n.116: all'
+    tags: [name:kennedy-john-f, name:schlesinger-arthur-m-jr, name:mcnamara-robert-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-10-29.missile-crisis
+        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1962-10-30.missile-crisis
     when: Oct. 30
     date: '1962-10-30'
@@ -5428,3 +5501,34 @@ entries:
         witness: x.1962-10-14.presidium-protocol-59
         reads: Задержать отправку в Индию самолетов МИГ-21 (hold back the dispatch of the MiG-21s to India)
         at: I, 616
+  - id: cal.1962-10.missile-crisis-3
+    when: Oct.
+    date: 1962-10
+    thread: missile-crisis
+    also: [robert-kennedy]
+    c: 'Plans circulated for evacuating the top officials to shelters outside Washington. Robert Kennedy to Guthman: "I''m not going. If it comes to that, there''ll be sixty million Americans killed and as many Russians or more. I''ll be at Hickory Hill."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 514. Check: the day; the book sets it after the talk with Dobrynin of Oct. 23. To check: [[w.guthman-we-band-of-brothers]], 126 (cited by [[w.schlesinger-robert-kennedy-and-his]], 514 n.70). See [[cal.1962-10-16.missile-crisis]]. Names: Robert Kennedy, Guthman.'
+    src:
+      c: 5146a697
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 514: all'
+    tags: [name:kennedy-robert-f, name:guthman-edwin-o]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-10.missile-crisis
+          - cal.1962-10.missile-crisis-2
+        from: 2026-11-06-b6-schlesinger-rfk
+  - id: cal.1962-10.missile-crisis-diplomacy
+    when: Oct.
+    date: 1962-10
+    thread: missile-crisis-diplomacy
+    also: [testing]
+    c: 'During the crisis, Kennedy to Ormsby-Gore: "it really is an intolerable state of affairs when nations can threaten each other with nuclear weapons"; "We really must try to get on with disarmament if we get through this crisis." By Ormsby-Gore''s account.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 530. Check: the day. To check: Lord Harlech, interview by Jean Stein, Apr. 30, 1970, 11, Stein Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 530 n.139). See [[cal.1962-10-21.missile-crisis-6]]. Names: Kennedy, Ormsby-Gore.'
+    src:
+      c: 2bcd10dc
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 530: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 530 n.139: all'
+    tags: [name:kennedy-john-f, name:ormsby-gore-david]

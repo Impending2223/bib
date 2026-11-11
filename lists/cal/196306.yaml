@@ -518,6 +518,17 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Bangkok
     range_basis: kind
+  - id: cal.1963-06-05.robert-kennedy
+    when: June 5
+    date: '1963-06-05'
+    thread: robert-kennedy
+    c: 'Hoover to Robert Kennedy, a memorandum: Robert Kennedy settled out of court in 1960, for $500,000, a breach-of-promise suit against his brother going back to 1951. The woman named, Alicia Darr Purdom Clark, on its disclosure, denies it.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 259 n.*. Made public: *New York Times*, Dec. 15, 1977 (by [[w.schlesinger-robert-kennedy-and-his]], 259 n.*). To check: *New York Times*, Dec. 15, 1977; *Washington Post*, Dec. 16, 1977; *New York Post*, Dec. 17, 1977 (cited by [[w.schlesinger-robert-kennedy-and-his]], 259 n.*). Names: Hoover, Robert Kennedy, Kennedy.'
+    src:
+      c: 09d211bf
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 259 n.*: all'
+    tags: [name:hoover-j-edgar, name:kennedy-robert-f, name:kennedy-john-f]
   - id: cal.1963-06-06.desegregation-public-places
     when: June 6
     date: '1963-06-06'
@@ -555,12 +566,14 @@ entries:
     thread: robert-kennedy
     also: [press-and-broadcasting]
     c: 'Clarence Jones defends himself in a letter to the *New York Times*. Robert Kennedy across his copy, to Burke Marshall: "He is a nice fellow & you have swell friends."'
-    n: '[[w.branch-parting-the-waters]], 812. To check: Robert Kennedy''s note on Jones''s letter to the editor of the New York Times of June 7, 1963, Burke Marshall Papers, box 8, JFK Library (cited by [[w.branch-parting-the-waters]], 812 n.2). Check: the day of Kennedy''s note. See [[cal.1963-05-25.press-and-broadcasting]]. Names: Robert Kennedy, Burke Marshall.'
+    n: '[[w.branch-parting-the-waters]], 812; [[w.schlesinger-robert-kennedy-and-his]], 334 n.* (the letter, June 7, quoted; the note to Marshall, June 12). Check: Schlesinger gives June 12 for Kennedy''s note (334 n.*). To check: Robert Kennedy''s note on Jones''s letter to the editor of the New York Times of June 7, 1963, Burke Marshall Papers, box 8, JFK Library (cited by [[w.branch-parting-the-waters]], 812 n.2). Check: the day of Kennedy''s note. See [[cal.1963-05-25.press-and-broadcasting]]. Names: Robert Kennedy, Burke Marshall.'
     src:
       c: 32e4cc28
       rows:
         - 'w.branch-parting-the-waters 812: all'
         - 'via w.branch-parting-the-waters 812 n.2: all'
+        - 'w.schlesinger-robert-kennedy-and-his 334 n.*: A-B'
+        - 'via w.schlesinger-robert-kennedy-and-his 334 n.*: B'
     tags: [name:kennedy-robert-f, name:marshall-burke]
     time_range:
       - 1963-06-07T13:00Z
@@ -568,6 +581,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: B
+        witness: w.schlesinger-robert-kennedy-and-his
+        reads: June 12 (the day Kennedy sent the letter on to Marshall)
+        at: 334 n.*
   - id: cal.1963-06-07.defense
     when: June 7
     date: '1963-06-07'
@@ -2153,7 +2171,7 @@ entries:
     thread: civil-rights-the-executive
     also: [mississippi]
     c: Arlington. Evers buried with full military honors, the largest burial service there since Dulles's; 25,000 had viewed the body. The President, not there, sends a limousine for Myrlie Evers and her two older children and receives them at the White House.
-    n: '[[w.branch-parting-the-waters]], 833; [[w.thomas-robert-kennedy]], 249 (Robert Kennedy sits with Charles Evers at the funeral). To check: New York Times, June 15, 1, June 16, 1, June 21, 1963, 14; Chicago Defender, June 15–21, 1963, 1; [[w.evers-for-us-the-living]], 322–28; Jet, July 4, 1963, 6–10 (cited by [[w.branch-parting-the-waters]], 833 n.4). See [[cal.1963-06-12.mississippi]]. Names: Evers, Kennedy.'
+    n: '[[w.branch-parting-the-waters]], 833; [[w.thomas-robert-kennedy]], 249 (Robert Kennedy sits with Charles Evers at the funeral); [[w.schlesinger-robert-kennedy-and-his]], 344–45 (buried at Arlington; by Charles Evers''s account, Robert Kennedy sat with him at the funeral, and the President took Myrlie Evers, the children and him to the White House). To check: New York Times, June 15, 1, June 16, 1, June 21, 1963, 14; Chicago Defender, June 15–21, 1963, 1; [[w.evers-for-us-the-living]], 322–28; Jet, July 4, 1963, 6–10 (cited by [[w.branch-parting-the-waters]], 833 n.4). See [[cal.1963-06-12.mississippi]]. Names: Evers, Kennedy.'
     src:
       c: 0e70400f
       rows:
@@ -2161,6 +2179,8 @@ entries:
         - 'via w.branch-parting-the-waters 833 n.4a: all'
         - 'via w.branch-parting-the-waters 833 n.4c: all'
         - 'w.thomas-robert-kennedy 249: B'
+        - 'w.schlesinger-robert-kennedy-and-his 344–45: A-B, D'
+        - 'via w.schlesinger-robert-kennedy-and-his 345 n.5: B, D'
     tags: [name:evers-medgar, name:kennedy-john-f]
   - id: cal.1963-06-19.civil-rights-the-executive-2
     when: June 19
@@ -2328,6 +2348,18 @@ entries:
       rows:
         - 'w.cohen-american-pharaoh 292: all'
     tags: [state:il, city:chicago, name:daley-richard-j]
+  - id: cal.1963-06-20.civil-rights-the-executive
+    when: June 20
+    date: '1963-06-20'
+    thread: civil-rights-the-executive
+    c: 'After Medgar Evers''s murder, Kennedy to Schlesinger: "I don''t understand the South. I''m coming to believe that Thaddeus Stevens was right." He had been taught to regard Stevens as "a man of vicious bias." By Schlesinger''s journal.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 326 & n.*. To check: Schlesinger, journal, June 20, 1963, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 326 n.*). See [[cal.1963-06-12.mississippi]]. Names: Medgar Evers, Kennedy, Schlesinger.'
+    src:
+      c: fc78714d
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 326 & n.*: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 326 n.*: all'
+    tags: [name:evers-medgar, name:kennedy-john-f, name:schlesinger-arthur-m-jr]
   - id: cal.1963-06-21.opinion
     when: June 21
     date: '1963-06-21'

@@ -2313,6 +2313,19 @@ entries:
         - 'w.kabaservice-rule-and-ruin 192: all'
         - 'via w.kabaservice-rule-and-ruin 192 n.150: all'
     tags: [name:nixon-richard-m, name:wallace-george-c, name:carmichael-stokely]
+  - id: cal.1966-10-30.robert-kennedy
+    when: Oct. 30
+    date: '1966-10-30'
+    thread: robert-kennedy
+    also: [assassination]
+    c: 'New York, P. J. Clarke''s, talk with Schlesinger till 2:30 a.m. Robert Kennedy wonders how long he can avoid comment on the Warren report: he thinks it a poor job and will not endorse it, but will not criticize it and reopen the whole business. On Johnson: the voters probably agree with him 80 percent on the issues between them, but no longer believe him. Rueful about his own vogue. By Schlesinger''s journal.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 616, 759. To check: Schlesinger, journal, Oct. 30, 1966, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 616 n.51). Names: Robert Kennedy, Schlesinger, Johnson.'
+    src:
+      c: 7d192b6e
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 616, 759: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 616 n.51: all'
+    tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr, name:johnson-lyndon-b]
   - id: cal.1966-10-31.vietnam-air-war
     when: Oct. 31
     date: '1966-10-31'
@@ -2734,3 +2747,21 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 492: all'
     tags: [name:rockefeller-nelson, name:javits-jacob-k, name:lindsay-john-v, state:ny, city:nyc]
+  - id: cal.1966-10.robert-kennedy-3
+    when: Oct., late
+    date: 1966-10
+    thread: robert-kennedy
+    also: [elections-1966]
+    c: 'New York, back from speaking for Democrats across the country: Robert Kennedy campaigns on the sidewalks with Hugh Carey of Brooklyn, Newfield along. To Newfield: Carey "works very hard and he''s very bright," not like Scheuer, who "only asks me about patronage"; Carey has trouble in his district with the Church. That night, O''Connor tired after three rallies in Manhattan, Kennedy finishes his schedule.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 757. Check: the day. To check: [[w.newfield-robert-kennedy]], 24–25 (cited by [[w.schlesinger-robert-kennedy-and-his]], 757 n.80). Names: Robert Kennedy, Carey, Scheuer, O''Connor.'
+    src:
+      c: c9e4153f
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 757: all'
+    tags: [name:kennedy-robert-f, name:carey-hugh-l, name:scheuer-james-h, name:oconnor-frank-d]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-10.robert-kennedy
+          - cal.1966-10.robert-kennedy-2
+        from: 2026-11-06-b6-schlesinger-rfk

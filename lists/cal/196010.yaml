@@ -506,6 +506,22 @@ entries:
         - 'w.kallina-kennedy-v-nixon 126: all'
         - 'via x.1960-10-11.harris-analysis-second-debate: all'
     tags: [name:harris-louis, name:kennedy-john-f]
+  - id: cal.1960-10-11.elections-1960-kennedy
+    when: Oct. 11
+    date: '1960-10-11'
+    thread: elections-1960-kennedy
+    c: 'New York, the Carlyle, lunch, by Schlesinger''s account. Kennedy to Schlesinger on his staff: the senatorial group resists expansion and suspects every new face; the friction between Sorensen and Cox regretted; "Ted is indispensable to me." Galbraith and Schlesinger might be sent for later, with Nixon''s "party of Galbraith and Schlesinger and Bowles" to be weighed. Anything for him to go through Jacqueline Kennedy.'
+    n: '[[w.schlesinger-thousand-days-1965]], 70. Names: John F. Kennedy, Schlesinger, Sorensen, Cox, Galbraith, Nixon, Bowles, Jacqueline Kennedy.'
+    src:
+      c: d96e7387
+      rows:
+        - 'w.schlesinger-thousand-days-1965 70: all'
+    tags: [name:kennedy-john-f, name:schlesinger-arthur-m-jr, name:sorensen-theodore-c, name:cox-archibald, name:galbraith-john-kenneth, name:nixon-richard-m, name:bowles-chester, name:kennedy-jacqueline, city:nyc, state:ny]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-10-11.elections-1960-2
+        from: 2026-11-06-b6-schlesinger-thousand-days
   - id: cal.1960-10-12.soviet-union
     when: Oct. 12–13
     date: '1960-10-12'
@@ -709,6 +725,35 @@ entries:
         of:
           - cal.1960-10-13.elections-1960
         from: 2026-11-06-b6-kallina-kennedy-v-nixon
+  - id: cal.1960-10-13.elections-1960-kennedy
+    when: Oct. 13
+    date: '1960-10-13'
+    thread: elections-1960-kennedy
+    c: New York, noon. Kennedy at the launching of the Committee of Arts, Letters and Sciences for Kennedy; an impromptu press conference.
+    n: '[[w.schlesinger-thousand-days-1965]], 71. Names: Kennedy.'
+    src:
+      c: af35c937
+      rows:
+        - 'w.schlesinger-thousand-days-1965 71: all'
+    tags: [name:kennedy-john-f, city:nyc, state:ny]
+  - id: cal.1960-10-13.elections-1960-kennedy-2
+    when: Oct. 13
+    date: '1960-10-13'
+    thread: elections-1960-kennedy
+    follows:
+      - cal.1960-10-13.elections-1960-kennedy
+    c: 'The Carlyle, lunch, by Schlesinger''s account: Kennedy with Sorensen, Galbraith and Schlesinger, a little nervous about Quemoy and Matsu, the talk mostly on that. In the elevator: "Do you realize the responsibility I carry? I''m the only person standing between Nixon and the White House."'
+    n: '[[w.schlesinger-thousand-days-1965]], 71–72. See [[cal.1960-10-12.elections-1960-3]]. Names: Kennedy, Sorensen, Galbraith, Schlesinger, Nixon.'
+    src:
+      c: 8afcfef5
+      rows:
+        - 'w.schlesinger-thousand-days-1965 71–72: all'
+    tags: [name:kennedy-john-f, name:sorensen-theodore-c, name:galbraith-john-kenneth, name:schlesinger-arthur-m-jr, name:nixon-richard-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-10-13.elections-1960-kennedy
+        from: 2026-11-06-b6-schlesinger-thousand-days
   - id: cal.1960-10-14.peace-corps
     when: Oct. 14
     date: '1960-10-14'
@@ -1281,13 +1326,30 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-10-19.elections-1960-kennedy
+    when: Oct. 19
+    date: '1960-10-19'
+    thread: elections-1960-kennedy
+    also: [cuba]
+    c: 'The evening. Goodwin writes a statement on Cuba for Kennedy and shows it to Sorensen and Salinger: an answer to Nixon on Kennedy''s "softness." Kennedy gone to bed; they release it without his seeing it, by Schlesinger''s account the only time in the campaign. Kennedy later: he would have changed "fighters for freedom" to "forces of freedom."'
+    n: '[[w.schlesinger-thousand-days-1965]], 72–73. To check: [[w.goodwin-remembering-america]]. The statement: [[cal.1960-10-20.cuba]]. Names: Goodwin, Kennedy, Sorensen, Salinger, Nixon.'
+    src:
+      c: b1530597
+      rows:
+        - 'w.schlesinger-thousand-days-1965 72–73: all'
+    tags: [name:goodwin-richard-n, name:kennedy-john-f, name:sorensen-theodore-c, name:salinger-pierre, name:nixon-richard-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-10-19.elections-1960-2
+        from: 2026-11-06-b6-schlesinger-thousand-days
   - id: cal.1960-10-20.cuba
     when: Oct. 20
     date: '1960-10-20'
     thread: cuba
     also: [elections-1960]
     c: Kennedy's statement on Cuba. The embargo too little and too late. "We must attempt to strengthen the non-Batista democratic anti-Castro forces in exile, and in Cuba itself, who offer eventual hope of overthrowing Castro."
-    n: '[Statement on Cuba by Senator John F. Kennedy](https://www.presidency.ucsb.edu/documents/statement-cuba-senator-john-f-kennedy) (Oct. 20, 1960). [[w.kallina-kennedy-v-nixon]], 128–29 (the statement and its words); [[w.nixon-rn]], 220 (the statement, in the papers the day before the fourth debate); [[w.nixon-six-crises]], 353–54 (the statement and its words, in the afternoon papers the day before the fourth debate); [[w.sorensen-kennedy]], 205. To check: [[w.goodwin-remembering-america]] (who drafted it); [[w.rasenberger-brilliant-disaster]]. Names: Kennedy, Castro.'
+    n: '[Statement on Cuba by Senator John F. Kennedy](https://www.presidency.ucsb.edu/documents/statement-cuba-senator-john-f-kennedy) (Oct. 20, 1960). [[w.kallina-kennedy-v-nixon]], 128–29 (the statement and its words); [[w.nixon-rn]], 220 (the statement, in the papers the day before the fourth debate); [[w.nixon-six-crises]], 353–54 (the statement and its words, in the afternoon papers the day before the fourth debate); [[w.sorensen-kennedy]], 205; [[w.schlesinger-thousand-days-1965]], 72 (the statement and its words, in the afternoon papers). To check: [[w.goodwin-remembering-america]] (who drafted it); [[w.rasenberger-brilliant-disaster]]. Names: Kennedy, Castro.'
     src:
       c: a33cd75c
       rows:
@@ -1298,6 +1360,7 @@ entries:
         - 'w.nixon-six-crises 353–54: A, C'
         - 'via w.nixon-six-crises 353 n.text-b: C'
         - 'w.sorensen-kennedy 205: all'
+        - 'w.schlesinger-thousand-days-1965 72: A, C'
     tags: [name:kennedy-john-f, name:castro-fidel]
     time_range:
       - 1960-10-20T13:00Z
@@ -1397,6 +1460,18 @@ entries:
         - 'w.nixon-six-crises 359: all'
         - 'via w.nixon-six-crises 359 n.text-a: all'
     tags: [name:kennedy-john-f, name:nixon-richard-m]
+  - id: cal.1960-10-20.elections-1960-kennedy
+    when: Oct. 20
+    date: '1960-10-20'
+    thread: elections-1960-kennedy
+    also: [cuba]
+    c: 'New York, by Schlesinger''s account. Kennedy to Schlesinger: things going well, "everything made" except the religious issue; concern about Cuba, Nixon making inroads among suburban Catholics; any measures against Castro to be taken with the other American republics. Of the Al Smith dinner, later: "when the chips are down, money counts more than religion."'
+    n: '[[w.schlesinger-thousand-days-1965]], 72. See [[cal.1960-10-19.elections-1960]]. Names: Kennedy, Schlesinger, Nixon, Castro.'
+    src:
+      c: 5c3b71d0
+      rows:
+        - 'w.schlesinger-thousand-days-1965 72: all'
+    tags: [name:kennedy-john-f, name:schlesinger-arthur-m-jr, name:nixon-richard-m, name:castro-fidel, city:nyc, state:ny]
   - id: cal.1960-10-21.elections-1960
     when: Oct. 21
     date: '1960-10-21'
@@ -1603,6 +1678,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-10-23.elections-1960-kennedy
+    when: Oct. 23
+    date: '1960-10-23'
+    thread: elections-1960-kennedy
+    also: [cuba]
+    c: 'Kennedy, by telephone from Wisconsin, asks Schlesinger, leaving Boston for Chicago, to call Reston and Lippmann: by "support from our Government" he meant moral and psychological support, not military, within the OAS. Reston, on Nixon''s train, not reached. Lippmann: the Kennedy people are trying to play the issue both ways and deserve to be called on it.'
+    n: '[[w.schlesinger-thousand-days-1965]], 73 (Schlesinger''s account). See [[cal.1960-10-20.cuba]]. Names: Kennedy, Schlesinger, Reston, Lippmann, Nixon.'
+    src:
+      c: f28b583e
+      rows:
+        - 'w.schlesinger-thousand-days-1965 73: all'
+    tags: [name:kennedy-john-f, name:schlesinger-arthur-m-jr, name:reston-james, name:lippmann-walter, name:nixon-richard-m]
   - id: cal.1960-10-24.cuba
     when: Oct. 24
     date: '1960-10-24'

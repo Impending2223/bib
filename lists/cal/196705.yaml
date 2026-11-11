@@ -1606,6 +1606,27 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 635: all'
         - 'via x.1967-05-15.rostow-to-johnson-may-15-1967: all'
     tags: [name:rostow-walt-w, name:johnson-lyndon-b, name:mcnamara-robert-s]
+  - id: cal.1967-05-15.trade-2
+    when: May 15
+    date: '1967-05-15'
+    time: 1967-05-15T23:03Z
+    thread: trade
+    follows:
+      - cal.1967-05-15.trade
+    c: 'Johnson to Roth at Geneva, a flash telegram through the State Department, 7:03 p.m., on word of a Kennedy Round bargain: "I want you to know what a first-rate job you, Mike and your team have done, and how much I appreciate it. Congratulations."'
+    n: '[FRUS 1964–68, VIII, doc. 358](https://history.state.gov/historicaldocuments/frus1964-68v08/d358). [[w.schwartz-lyndon-johnson-and-europe]], 171 (the telegram of thanks for "a first-rate job"). See [[cal.1967-05-15.trade]]. Names: Johnson, Roth.'
+    src:
+      c: 676f71b1
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d358: all'
+        - 'w.schwartz-lyndon-johnson-and-europe 171: all'
+        - 'via x.1967-05-15.johnson-to-roth-kennedy-round: all'
+    tags: [name:johnson-lyndon-b, name:roth-william-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-05-15.trade
+        from: 2026-11-06-b6-schwartz-lyndon-johnson
   - id: cal.1967-05-16.middle-east
     when: May 16
     date: '1967-05-16'
@@ -2417,6 +2438,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-05-20.robert-kennedy
+    when: May 20
+    date: '1967-05-20'
+    thread: robert-kennedy
+    c: 'Hickory Hill, dinner. Robert Kennedy to Schlesinger at the door: "How can we possibly survive five more years of Lyndon Johnson? Five more years of a crazy man?" By Schlesinger''s journal.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 777. To check: Schlesinger, journal, May 20, 1967, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 777 n.85). Names: Robert Kennedy, Schlesinger, Johnson.'
+    src:
+      c: dddeee0e
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 777: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 777 n.85: all'
+    tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr, name:johnson-lyndon-b]
   - id: cal.1967-05-21.opinion
     when: May 21
     date: '1967-05-21'

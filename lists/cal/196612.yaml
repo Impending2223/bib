@@ -994,6 +994,18 @@ entries:
       c: 9aac23cc
       rows:
         - 'w.gibbons-u-s-government-and IV, 496: all'
+  - id: cal.1966-12-14.transition-and-staff
+    when: Dec. 14
+    date: '1966-12-14'
+    thread: transition-and-staff
+    c: 'Moyers, leaving the White House, to Schlesinger: "You know, Arthur, I would not be leaving if I thought I could do any good by staying." By Schlesinger''s journal.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 742. To check: Schlesinger, journal, Dec. 14, 1966, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 742 n.83). See [[cal.1966-12-14.robert-kennedy]]. Names: Moyers, Schlesinger.'
+    src:
+      c: bf2fbceb
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 742: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 742 n.83: all'
+    tags: [name:moyers-bill, name:schlesinger-arthur-m-jr]
   - id: cal.1966-12-15.king
     when: Dec. 15
     date: '1966-12-15'
@@ -2286,3 +2298,23 @@ entries:
       rows:
         - 'w.debenedetti-american-ordeal 164–65: all'
     tags: [state:ny, city:nyc]
+  - id: cal.1966-12.robert-kennedy-5
+    when: Dec., mid
+    date: 1966-12
+    thread: robert-kennedy
+    also: [vietnam]
+    c: 'Jack Newfield pleads with Robert Kennedy to speak out on the war. Kennedy: "the last time I spoke I didn''t have any influence on policy, and I was hurt politically. ... He hates me so much that if I asked for snow, he would make rain." But "The bombing is getting worse all the time now."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 764. Check: the day. To check: [[w.newfield-robert-kennedy]], 128 (cited by [[w.schlesinger-robert-kennedy-and-his]], 764 n.29). Names: Robert Kennedy, Johnson.'
+    src:
+      c: 958b4bca
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 764: all'
+    tags: [name:kennedy-robert-f, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-12.robert-kennedy
+          - cal.1966-12.robert-kennedy-2
+          - cal.1966-12.robert-kennedy-3
+          - cal.1966-12.robert-kennedy-4
+        from: 2026-11-06-b6-schlesinger-rfk

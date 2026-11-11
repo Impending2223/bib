@@ -99,6 +99,26 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-12-01.transition-and-staff-cabinet-3
+    when: Dec. 1
+    date: '1960-12-01'
+    thread: transition-and-staff-cabinet
+    c: Schlesinger names Harriman to Kennedy for Secretary of State. Kennedy dismisses him as "old hat." By Schlesinger's journal.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 224. To check: Schlesinger, journal, Dec. 1, 1960, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 224 n.7). Names: Schlesinger, Harriman, Kennedy.'
+    src:
+      c: 60189b07
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 224: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 224 n.7: all'
+    tags: [name:schlesinger-arthur-m-jr, name:harriman-w-averell, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-12-01.transition-and-staff
+          - cal.1960-12-01.transition-and-staff-2
+          - cal.1960-12-01.transition-and-staff-cabinet
+          - cal.1960-12-01.transition-and-staff-cabinet-2
+        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1960-12-02.laos
     when: Dec. 2
     date: '1960-12-02'
@@ -352,6 +372,22 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
+  - id: cal.1960-12-07.transition-and-staff-cabinet-2
+    when: Dec. 7
+    date: '1960-12-07'
+    thread: transition-and-staff-cabinet
+    c: Georgetown, the night. Rusk dines at Bowles's house and asks him in detail about Kennedy.
+    n: '[[w.schlesinger-thousand-days-1965]], 141. They meet the next morning: [[cal.1960-12-08.transition-and-staff]]. Names: Rusk, Bowles, Kennedy.'
+    src:
+      c: 9641ce47
+      rows:
+        - 'w.schlesinger-thousand-days-1965 141: all'
+    tags: [name:rusk-dean, name:bowles-chester, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-12-07.transition-and-staff-cabinet
+        from: 2026-11-06-b6-schlesinger-thousand-days
   - id: cal.1960-12-08.laos
     when: Dec. 8–9
     date: '1960-12-08'

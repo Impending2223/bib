@@ -146,6 +146,23 @@ entries:
       - 1968-06-02T02:00Z
     time_zone: America/Los_Angeles
     time_band: daytime
+  - id: cal.1968-06-01.robert-kennedy-campaign-california-2
+    when: June 1
+    date: '1968-06-01'
+    thread: robert-kennedy-campaign-california
+    also: [elections-1968-mccarthy]
+    c: 'The Fairmont, San Francisco, the morning of the debate. Robert Lowell, McCarthy''s friend, for each side backing the other if it loses, calls on Kennedy: a fairly unsatisfactory talk, Kennedy "making debater''s points." Afterward to McCarthy: "I felt like Rudolf Hess parachuting into Scotland."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 910–11. To check: [[w.stein-american-journey]], 309–10 (cited by [[w.schlesinger-robert-kennedy-and-his]], 911 n.47). See [[cal.1968-06-01.elections-1968]]. Names: Lowell, Robert Kennedy, Eugene McCarthy.'
+    src:
+      c: ad7691ee
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 910–11: all'
+    tags: [name:lowell-robert, name:kennedy-robert-f, name:mccarthy-eugene-j]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-06-01.robert-kennedy-campaign-california
+        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1968-06-02.opinion
     when: June 2
     date: '1968-06-02'
@@ -643,11 +660,12 @@ entries:
     thread: robert-kennedy-campaign-california
     also: [elections-1968]
     c: 'The Ambassador, the Royal Suite, toward midnight. Robert Kennedy to Goodwin in the bathroom: "I''ve got to get free of McCarthy"; Humphrey the man to beat, to be chased "all over the country." "I think we should tell him if he withdraws now and supports me, I''ll make him secretary of state."'
-    n: '[[w.thomas-robert-kennedy]], 387–88. To check: [[w.goodwin-remembering-america]], 536–37 (cited by [[w.thomas-robert-kennedy]], 477). See [[cal.1968-06-04.robert-kennedy]]. Names: Robert Kennedy, Goodwin, McCarthy, Humphrey.'
+    n: '[[w.thomas-robert-kennedy]], 387–88; [[w.schlesinger-robert-kennedy-and-his]], 913 ("I''ve got to get free of McCarthy"; "My only chance is to chase Hubert''s ass all over the country"). To check: [[w.goodwin-remembering-america]], 536–37 (cited by [[w.thomas-robert-kennedy]], 477). See [[cal.1968-06-04.robert-kennedy]]. Names: Robert Kennedy, Goodwin, McCarthy, Humphrey.'
     src:
       c: 6a327147
       rows:
         - 'w.thomas-robert-kennedy 387-88: all'
+        - 'w.schlesinger-robert-kennedy-and-his 913: A-B'
     tags: [name:kennedy-robert-f, name:goodwin-richard-n, name:mccarthy-eugene-j, name:humphrey-hubert-h, city:los-angeles, state:ca]
   - id: cal.1968-06-04.cuba
     when: June 4
@@ -680,6 +698,53 @@ entries:
       - 1968-06-05T06:30Z
       - 1968-06-05T07:15Z
     time_zone: America/Los_Angeles
+  - id: cal.1968-06-04.robert-kennedy-campaign-california-3
+    when: June 4
+    date: '1968-06-04'
+    thread: robert-kennedy-campaign-california
+    c: 'The Ambassador, mid-evening. McGovern by telephone from South Dakota: Kennedy has more votes than Humphrey and McCarthy together, the farmers and the Indians. In the suite, the next steps: Stephen Smith schedules meetings on reorganizing the campaign; Hackett''s count, Humphrey 944 delegates, Kennedy 524½, McCarthy 204, undecided 872; the goal by the convention, Kennedy 1,432½.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 913. To check: George McGovern, interview by Jean Stein, Sept. 25, 1968, 12, Stein Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 913 n.58); [[w.vanden-heuvel-on-his-own]], 390–92 (Hackett''s estimate, misdated, cited by [[w.schlesinger-robert-kennedy-and-his]], 913 n.59). Names: McGovern, Robert Kennedy, Humphrey, Eugene McCarthy.'
+    src:
+      c: f921d684
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 913: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 913 n.58: A'
+    tags: [name:mcgovern-george, name:kennedy-robert-f, name:humphrey-hubert-h, name:mccarthy-eugene-j]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-06-04.robert-kennedy
+          - cal.1968-06-04.robert-kennedy-2
+          - cal.1968-06-04.robert-kennedy-campaign
+          - cal.1968-06-04.robert-kennedy-campaign-2
+          - cal.1968-06-04.robert-kennedy-campaign-3
+          - cal.1968-06-04.robert-kennedy-campaign-california
+        from: 2026-11-06-b6-schlesinger-rfk
+  - id: cal.1968-06-04.robert-kennedy-campaign-california-4
+    when: June 4
+    date: '1968-06-04'
+    thread: robert-kennedy-campaign-california
+    also: [elections-1968-mccarthy]
+    c: 'Goodwin, from the Ambassador, calls the pro-Kennedy wing of McCarthy''s movement to come over. Galbraith: "I rather [think] this might be so. But I shouldn''t do it without going and seeing Gene McCarthy first." Lowenstein will come if Galbraith does.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 913. To check: J. K. Galbraith, interview by Jean Stein, July 30, 1968, 14, Stein Papers; Justin Feldman, interview by Roberta Greene, Feb. 4, 1970, 160–62, RFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 913 nn.61–62). See [[cal.1968-06-04.robert-kennedy-campaign-3]]. Names: Goodwin, Galbraith, Eugene McCarthy, Lowenstein.'
+    src:
+      c: 0fde86ac
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 913: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 913 n.61: B'
+        - 'via w.schlesinger-robert-kennedy-and-his 913 n.62: C'
+    tags: [name:goodwin-richard-n, name:galbraith-john-kenneth, name:mccarthy-eugene-j, name:lowenstein-allard]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-06-04.robert-kennedy
+          - cal.1968-06-04.robert-kennedy-2
+          - cal.1968-06-04.robert-kennedy-campaign
+          - cal.1968-06-04.robert-kennedy-campaign-2
+          - cal.1968-06-04.robert-kennedy-campaign-3
+          - cal.1968-06-04.robert-kennedy-campaign-california
+          - cal.1968-06-04.robert-kennedy-campaign-california-3
+        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1968-06-05.robert-kennedy
     when: June 5–6
     date: '1968-06-05'
@@ -4220,3 +4285,16 @@ entries:
         - 'w.smith-on-his-own-terms 540–41: all'
         - 'via x.undated.mcgrath-interview-by-smith: all'
     tags: [name:rockefeller-nelson, name:lindsay-john-v, state:ny]
+  - id: cal.1968-06.soviet-union
+    when: June
+    date: 1968-06
+    thread: soviet-union
+    also: [europe-and-the-alliance]
+    c: Sussex, England, the first meeting on an East–West institute of applied systems analysis. The Soviets, at the last minute, stay away, citing new tensions over Berlin. West Germany, France, Italy, Britain and the United States meet; a small planning group under Zuckerman, Wilsons chief scientific adviser.
+    n: '[[w.schwartz-lyndon-johnson-and-europe]], 212. Check: the day. To check: Alan McDonald, "The International Institute for Applied Systems Analysis," unpublished case study, Harvard University, Mar. 13, 1997 (cited by [[w.schwartz-lyndon-johnson-and-europe]], 300 n.118). Names: Wilson.'
+    src:
+      c: 9b354abc
+      rows:
+        - 'w.schwartz-lyndon-johnson-and-europe 212: all'
+        - 'via x.1997-03-13.mcdonald-iiasa-case-study: all'
+    tags: [name:wilson-harold]

@@ -1545,29 +1545,45 @@ entries:
     thread: robert-kennedy-campaign-decision
     also: [elections-1968]
     c: 'New York, the day Johnson names Clifford for McNamara. Robert Kennedy, in the car to Westchester County with Newfield and Ronnie Eldridge: "He might just as well have appointed Attila the Hun!" Before he would run, Johnson shown psychotic, or the Senate''s doves asking him, or "one more politician of the national stature of Unruh." At dinner with Stephen Smith and Carter Burden, to Smith: "I think I''m going to cost you a lot of money this year!"'
-    n: '[[w.chester-american-melodrama]], 107–8; [[w.shesol-mutual-contempt]], 412 ("He might just as well have appointed Attila the Hun!"). See [[cal.1968-01-19.defense]]. Names: Robert Kennedy, Clifford, McNamara, Unruh, Stephen Smith, Johnson.'
+    n: '[[w.chester-american-melodrama]], 107–8; [[w.shesol-mutual-contempt]], 412 ("He might just as well have appointed Attila the Hun!"); [[w.schlesinger-robert-kennedy-and-his]], 838 ("if one more politician, on the level of Unruh, asks me to run, I''ll do it"; none of the Senate doves wants it). See [[cal.1968-01-19.defense]]. Names: Robert Kennedy, Clifford, McNamara, Unruh, Stephen Smith, Johnson.'
     src:
       c: 1472d9ed
       rows:
         - 'w.chester-american-melodrama 107–8: all'
         - 'w.shesol-mutual-contempt 412: ?'
+        - 'w.schlesinger-robert-kennedy-and-his 838: C'
     tags: [name:kennedy-robert-f, name:clifford-clark, name:mcnamara-robert-s, name:unruh-jesse-m, name:smith-stephen-e, name:johnson-lyndon-b]
+    variants:
+      - unit: C
+        witness: w.schlesinger-robert-kennedy-and-his
+        reads: if one more politician, on the level of Unruh, asks me to run, I'll do it
+        at: '838'
+      - unit: D
+        witness: w.schlesinger-robert-kennedy-and-his
+        reads: He warned Jean Smith and Patricia Lawford at dinner, "This is going to cost you a lot of money."
+        at: '838'
   - id: cal.1968-01-19.robert-kennedy-campaign-2
     when: Jan. 19
     date: '1968-01-19'
     thread: robert-kennedy-campaign-decision
     c: 'New York, a cocktail party, the evening. Melina Mercouri to Robert Kennedy: "You don''t want to be the man of whom history will say, ''He waited too long!''"'
-    n: '[[w.chester-american-melodrama]], 107–8; [[w.thomas-robert-kennedy]], 355, 468 (within forty-eight hours of Lippmann; whether he wanted to be the senator who waited for a safer day). Check: Thomas''s note puts the New York Film Critics Awards and Mercouri before the early hours of Jan. 19 (468). See [[cal.1968-01-19.robert-kennedy-campaign-3]]. Names: Mercouri, Robert Kennedy.'
+    n: '[[w.chester-american-melodrama]], 107–8; [[w.thomas-robert-kennedy]], 355, 468 (within forty-eight hours of Lippmann; whether he wanted to be the senator who waited for a safer day); [[w.schlesinger-robert-kennedy-and-his]], 838 (Mercouri at the cocktail party, after a political day in Westchester: the senator who waited for a safer day). Check: Thomas''s note puts the New York Film Critics Awards and Mercouri before the early hours of Jan. 19 (468). See [[cal.1968-01-19.robert-kennedy-campaign-3]]. Names: Mercouri, Robert Kennedy.'
     src:
       c: c16e976f
       rows:
         - 'w.chester-american-melodrama 107–8: all'
         - 'w.thomas-robert-kennedy 355, 468: B'
+        - 'w.schlesinger-robert-kennedy-and-his 838: A-B'
     tags: [name:mercouri-melina, name:kennedy-robert-f, state:ny]
     time_range:
       - 1968-01-19T22:00Z
       - 1968-01-20T05:00Z
     time_zone: America/New_York
+    variants:
+      - unit: B
+        witness: w.schlesinger-robert-kennedy-and-his
+        reads: whether he wanted to go down in history as the senator who waited for a safer day (the book's paraphrase of Mercouri)
+        at: '838'
   - id: cal.1968-01-19.vietnam-operations
     when: Jan. 19
     date: '1968-01-19'
@@ -2423,6 +2439,18 @@ entries:
       c: b4a3a392
       rows:
         - 'w.staaveren-u-s-air-force 291: all'
+  - id: cal.1968-01-25.robert-kennedy-campaign-decision
+    when: Jan. 25
+    date: '1968-01-25'
+    thread: robert-kennedy-campaign-decision
+    c: 'New York, dinner at the Caravelle with Ethel Kennedy, the Benno Schmidts and Schlesinger, the day Johnson calls up 14,000 reserves after the *Pueblo*. Robert Kennedy: his brother "the strongest opponent" of his running; "if I run I will go a long way toward proving everything that everybody who doesn''t like me has said about me." Ethel and Schlesinger for running, Schmidt against. To Schmidt, driving back: "I''m convinced that what you say is right." By Schmidt''s and Schlesinger''s accounts.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 839–40. To check: Benno Schmidt, interview by Roberta Greene, 33–36; Schlesinger, journal, Jan. 25, 1968, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 840 n.76b) (cited by [[w.schlesinger-robert-kennedy-and-his]], 840 n.76). Names: Robert Kennedy, Schlesinger, Edward Kennedy.'
+    src:
+      c: 700bfcb0
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 839–40: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 840 n.76b: all'
+    tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr, name:kennedy-edward-m]
   - id: cal.1968-01-26.japan-and-korea-pueblo
     when: Jan. 26
     date: '1968-01-26'
@@ -2696,6 +2724,22 @@ entries:
       rows:
         - 'w.poole-joint-chiefs-of-staff-2012 241: all'
         - 'w.drea-mcnamara-clifford-and-the-2011 490: A'
+  - id: cal.1968-01-28.robert-kennedy-campaign-decision
+    when: Jan. 28
+    date: '1968-01-28'
+    thread: robert-kennedy-campaign-decision
+    c: 'Robert Kennedy asks Goodwin and Schlesinger to dinner: "We have to settle this thing one way or another." They find him among guests, John Glenn, Mike Nichols, Rod Steiger, the George Stevenses. Nothing settled.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 840. See [[cal.1968-01-25.robert-kennedy-campaign-decision]]. Names: Robert Kennedy, Goodwin, Schlesinger, Glenn.'
+    src:
+      c: 13fcd27e
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 840: all'
+    tags: [name:kennedy-robert-f, name:goodwin-richard-n, name:schlesinger-arthur-m-jr, name:glenn-john-h-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-01-28.robert-kennedy-campaign
+        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1968-01-29.vietnam-khe-sanh
     when: Jan. 29
     date: '1968-01-29'
@@ -3686,3 +3730,69 @@ entries:
       c: d4d775d7
       rows:
         - 'w.longley-lbjs-1968 45: all'
+  - id: cal.1968-01.robert-kennedy-campaign-decision-4
+    when: Jan.
+    date: 1968-01
+    thread: robert-kennedy-campaign-decision
+    also: [congress]
+    c: 'Robert Kennedy to Joseph Clark, a dove up for reelection: "Joe, would it murder you if I got into this thing?" Clark: "Of course not; even if it did, I would urge you to do it." But he will not commit himself to support him.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 837. Check: the day. To check: Congressional Record, July 30, 1968, 39717 (cited by [[w.schlesinger-robert-kennedy-and-his]], 837 n.62). Names: Robert Kennedy, Clark.'
+    src:
+      c: d1f7e121
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 837: all'
+    tags: [name:kennedy-robert-f, name:clark-joseph-s]
+  - id: cal.1968-01.robert-kennedy-campaign-decision-5
+    when: Jan.
+    date: 1968-01
+    thread: robert-kennedy-campaign-decision
+    c: 'Robert Kennedy to Justin Feldman in New York: "I''ve talked to some of my colleagues in the Senate, and I can''t find any support." He could be responsible for the loss of six Senate seats; he cannot make the doves choose between him and the President: "I can''t do that."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 837. Check: the day. To check: Justin Feldman, interview by Roberta Greene, Feb. 4, 1970, 147, RFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 837 n.64). Names: Robert Kennedy.'
+    src:
+      c: 756b5319
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 837: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 837 n.64: all'
+    tags: [name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-01.robert-kennedy-campaign-decision-4
+        from: 2026-11-06-b6-schlesinger-rfk
+  - id: cal.1968-01.robert-kennedy-campaign-decision-6
+    when: Jan., late
+    date: 1968-01
+    thread: robert-kennedy-campaign-decision
+    also: [opinion]
+    c: Louis Harris advises Robert Kennedy, in person, against running.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 839. Check: the day. To check: [[w.harris-anguish-of-change]], 207 (cited by [[w.schlesinger-robert-kennedy-and-his]], 839 n.70). Names: Louis Harris, Robert Kennedy.'
+    src:
+      c: 1342cf87
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 839: all'
+    tags: [name:harris-louis, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-01.robert-kennedy-campaign-decision-4
+          - cal.1968-01.robert-kennedy-campaign-decision-5
+        from: 2026-11-06-b6-schlesinger-rfk
+  - id: cal.1968-01.robert-kennedy-campaign-decision-7
+    when: Jan.
+    date: 1968-01
+    thread: robert-kennedy-campaign-decision
+    also: [elections-1968-mccarthy]
+    c: 'Mitterrand to Robert Kennedy: "I came here thinking that Senator McCarthy was a stalking horse for you, but now I think he is a stalking horse for President Johnson."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 844. Check: the day; the book sets it while McCarthy''s campaign was "desultory," before Tet. To check: Murray Kempton, "The Emperor''s Kid Brother," *Esquire*, July 1968 (cited by [[w.schlesinger-robert-kennedy-and-his]], 844 n.12). Names: Mitterrand, Robert Kennedy, Eugene McCarthy, Johnson.'
+    src:
+      c: b22f4747
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 844: all'
+    tags: [name:kennedy-robert-f, name:mccarthy-eugene-j, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-01.robert-kennedy-campaign-decision-4
+          - cal.1968-01.robert-kennedy-campaign-decision-5
+          - cal.1968-01.robert-kennedy-campaign-decision-6
+        from: 2026-11-06-b6-schlesinger-rfk

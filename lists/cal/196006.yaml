@@ -1499,3 +1499,30 @@ entries:
       rows:
         - 'w.debenedetti-american-ordeal 44: all'
     tags: [name:farmer-james, state:ny, city:nyc]
+  - id: cal.1960-06.elections-1960-nomination
+    when: June, early
+    date: 1960-06
+    thread: elections-1960-nomination
+    c: 'Hyannis Port. Kennedy to Schlesinger on Johnson, "with a mixture of admiration and despair": compares him to Peel and others "omnipotent in Parliament but had no popularity in the country"; Johnson a "riverboat gambler." By Schlesinger''s journal.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 203. Check: the day; the text has "Early in June", the journal cited is of June 16. To check: Schlesinger, journal, June 16, 1960, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 203 n.55). Names: Kennedy, Johnson, Schlesinger.'
+    src:
+      c: b6cf3e02
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 203: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 203 n.55: all'
+    tags: [name:kennedy-john-f, name:johnson-lyndon-b, name:schlesinger-arthur-m-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-06.elections-1960
+          - cal.1960-06.elections-1960-2
+          - cal.1960-06.elections-1960-9
+          - cal.1960-06.elections-1960-5
+          - cal.1960-06.elections-1960-7
+          - cal.1960-06.elections-1960-8
+          - cal.1960-06.elections-1960-6
+          - cal.1960-06.elections-1960-10
+          - cal.1960-06.elections-1960-11
+          - cal.1960-06.elections-1960-12
+          - cal.1960-06.elections-1960-13
+        from: 2026-11-06-b6-schlesinger-rfk

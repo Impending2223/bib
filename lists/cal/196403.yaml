@@ -3602,11 +3602,12 @@ entries:
     thread: assassination
     also: [robert-kennedy]
     c: 'The Attorney General''s office. Manchester signs seven copies of a memorandum of understanding for his history of the assassination, Robert Kennedy having struck its clause for a clause of his own: "The final text shall not be published unless and until approved by" Mrs. Kennedy and himself. Without their consent, not before Nov. 22, 1968. The Kennedys'' statement: "in the interest of historical accuracy and to prevent distortion and sensationalism."'
-    n: '[[w.shesol-mutual-contempt]], 354. To check: [[w.corry-manchester-affair]], 21–23, 29–32 (cited by [[w.shesol-mutual-contempt]], 354). Names: Manchester, Robert Kennedy, Jacqueline Kennedy.'
+    n: '[[w.shesol-mutual-contempt]], 354; [[w.schlesinger-robert-kennedy-and-his]], 760 (the contract''s clause quoted; signed Mar. 28, 1964, by the book). Check: Schlesinger dates the contract Mar. 28, 1964 (760). To check: [[w.corry-manchester-affair]], 21–23, 29–32 (cited by [[w.shesol-mutual-contempt]], 354). Names: Manchester, Robert Kennedy, Jacqueline Kennedy.'
     src:
       c: 648c0a26
       rows:
         - 'w.shesol-mutual-contempt 354: all'
+        - 'w.schlesinger-robert-kennedy-and-his 760: B'
     tags: [name:manchester-william, name:kennedy-robert-f, name:kennedy-jacqueline]
     time_range:
       - 1964-03-26T14:00Z
@@ -3614,6 +3615,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: B
+        witness: w.schlesinger-robert-kennedy-and-his
+        reads: On March 28, 1964, Manchester signed a contract
+        at: '760'
   - id: cal.1964-03-27.states-and-cities
     when: Mar. 27
     date: '1964-03-27'
@@ -4706,3 +4712,21 @@ entries:
         - 'w.smith-on-his-own-terms 442: all'
         - 'via x.undated.spencer-interview-by-smith: all'
     tags: [name:rockefeller-nelson, name:spencer-stuart-k]
+  - id: cal.1964-03.robert-kennedy-2
+    when: Mar.
+    date: 1964-03
+    thread: robert-kennedy
+    also: [transition-and-staff]
+    c: 'Robert Kennedy to Goodwin, on staying with Johnson: "If any one of us is in a position to keep him from blowing up Costa Rica or something, I guess he had better do it." By Goodwin''s notes.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 648. Check: the day. To check: Richard Goodwin, notes, March 1964, Goodwin Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 648 n.11). Names: Robert Kennedy, Goodwin, Johnson.'
+    src:
+      c: fd69222d
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 648: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 648 n.11: all'
+    tags: [name:kennedy-robert-f, name:goodwin-richard-n, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-03.robert-kennedy
+        from: 2026-11-06-b6-schlesinger-rfk

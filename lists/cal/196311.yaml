@@ -2213,6 +2213,18 @@ entries:
           - cal.1963-11-21.elections-1964
           - cal.1963-11-21.elections-1964-2
         from: 2026-11-06-b6-robert-kennedy-in-his
+  - id: cal.1963-11-21.democratic-party
+    when: Nov. 21
+    date: '1963-11-21'
+    thread: democratic-party
+    c: 'Texas, Thursday night. Kennedy on Johnson, probably on Texas politics: he is "incapable of telling the truth." By Jacqueline Kennedy''s account to Robert Kennedy.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 626. Check: Schlesinger has it from Robert Kennedy, told by Jacqueline Kennedy "then or later". To check: Robert Kennedy, interview by John Bartlow Martin, Feb. 29, 1964, 30, JFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 626 n.32). Names: Kennedy, Johnson, Jacqueline Kennedy, Robert Kennedy.'
+    src:
+      c: 442e7f91
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 626: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 626 n.32: all'
+    tags: [name:kennedy-john-f, name:johnson-lyndon-b, name:kennedy-jacqueline, name:kennedy-robert-f]
   - id: cal.1963-11-22.assassination
     when: Nov. 22
     date: '1963-11-22'
@@ -2577,12 +2589,14 @@ entries:
     thread: cuba
     also: [press-and-broadcasting]
     c: 'Havana. Jean Daniel with Castro, on the chances of an understanding, when the news of the President''s assassination reaches them. Castro, again and again: "Es una mala noticia."'
-    n: '[[w.paterson-contesting-castro]], 261 n.50. To check: Jean Daniel, "When Castro Heard the News," *New Republic*, Dec. 7, 1963, 7 (cited by [[w.paterson-contesting-castro]], 261 n.50). See [[cal.1963-10-24.cuba]]. Names: Castro.'
+    n: '[[w.paterson-contesting-castro]], 261 n.50; [[w.schlesinger-robert-kennedy-and-his]], 556 (lunch at Castro''s villa at the beach; "Es una mala noticia"; later, questions on Johnson: "What authority does he exercise over the CIA?"). To check: Jean Daniel, "When Castro Heard the News," *New Republic*, Dec. 7, 1963, 7 (cited by [[w.paterson-contesting-castro]], 261 n.50). See [[cal.1963-10-24.cuba]]. Names: Castro.'
     src:
       c: 1b0a162e
       rows:
         - 'w.paterson-contesting-castro 261 n.50: all'
         - 'via x.1963-12-07.daniel-when-castro-heard-the-news: all'
+        - 'w.schlesinger-robert-kennedy-and-his 556: B-C'
+        - 'via w.schlesinger-robert-kennedy-and-his 556 n.89: B-C'
     tags: [name:castro-fidel]
   - id: cal.1963-11-22.soviet-union
     when: Nov. 22
@@ -3142,6 +3156,38 @@ entries:
           - cal.1963-11-22.assassination-10
           - cal.1963-11-22.assassination-11
         from: 2026-11-06-b6-kotz-judgment-days
+  - id: cal.1963-11-22.succession-13
+    when: Nov. 22
+    date: '1963-11-22'
+    thread: succession
+    also: [robert-kennedy]
+    c: 'Driving from Andrews to Bethesda, McHugh, the President''s Air Force aide, to Robert Kennedy on the delay before the plane left Dallas and the confusion aboard: Johnson "obscene," "the worst performance he''d ever witnessed." By Robert Kennedy''s account to Manchester.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 626. To check: Robert Kennedy, interview by William Manchester, May 16, 1964, 26, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 626 n.31). Names: McHugh, Robert Kennedy, Johnson.'
+    src:
+      c: bcac6efa
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 626: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 626 n.31: all'
+    tags: [name:mchugh-godfrey-t, name:kennedy-robert-f, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-11-22.succession
+          - cal.1963-11-22.succession-3
+          - cal.1963-11-22.succession-2
+          - cal.1963-11-22.succession-4
+          - cal.1963-11-22.succession-5
+          - cal.1963-11-22.succession-6
+          - cal.1963-11-22.succession-7
+          - cal.1963-11-22.succession-8
+          - cal.1963-11-22.succession-9
+          - cal.1963-11-22.succession-10
+          - cal.1963-11-22.succession-11
+          - cal.1963-11-22.succession-12
+          - cal.1963-11-22.succession-14
+          - cal.1963-11-22.succession-15
+          - cal.1963-11-22.succession-16
+        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1963-11-23.succession
     when: Nov. 23
     date: '1963-11-23'
@@ -3612,6 +3658,27 @@ entries:
           - cal.1963-11-23.assassination-3
           - cal.1963-11-23.assassination-4
         from: 2026-11-06-b6-nixon-rn
+  - id: cal.1963-11-23.assassination-6
+    when: Nov. 23
+    date: '1963-11-23'
+    thread: assassination
+    also: [robert-kennedy]
+    c: The White House, early morning, the casket in the East Room after a brief service. Robert Kennedy has it opened, then asks Schlesinger and Nancy Tuckerman to look and say whether it should be open or shut; they, and Walton, vote to keep it closed, and he gives the order.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 610–11. To check: Schlesinger, journal, Nov. 23, 1963, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 611 n.26). Names: Robert Kennedy, Schlesinger, Walton.'
+    src:
+      c: e5d9a7b7
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 610–11: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 611 n.26: all'
+    tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr, name:walton-william]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-11-23.assassination-2
+          - cal.1963-11-23.assassination-3
+          - cal.1963-11-23.assassination-4
+          - cal.1963-11-23.assassination-5
+        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1963-11-24.assassination
     when: Nov. 24
     date: '1963-11-24'
@@ -4468,6 +4535,23 @@ entries:
           - cal.1963-11-26.soviet-union
           - cal.1963-11-26.soviet-union-2
         from: 2026-11-06-b6-prezidium-tsk-kpss-1954
+  - id: cal.1963-11-26.vietnam-2
+    when: Nov. 26
+    date: '1963-11-26'
+    thread: vietnam
+    also: [succession]
+    c: 'The day after the funeral. Johnson, showing Humphrey a portrait of Diệm in the hallway of his house: "We had a hand in killing him. Now it''s happening here." By Humphrey''s account.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 726. Check: the day; the book has "the day after Kennedy''s funeral." To check: [[w.humphrey-education-of-a-public-1976]], 265 (cited by [[w.schlesinger-robert-kennedy-and-his]], 726 n.3). Names: Johnson, Humphrey, Ngô Đình Diệm.'
+    src:
+      c: 5fd59baf
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 726: all'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:ngo-dinh-diem]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-11-26.vietnam
+        from: 2026-11-06-b6-schlesinger-rfk
   - id: cal.1963-11-27.succession
     when: Nov. 27
     date: '1963-11-27'

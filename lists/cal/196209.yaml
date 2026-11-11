@@ -743,6 +743,22 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-09-13.cuba-2
+    when: Sept. 13
+    date: '1962-09-13'
+    thread: cuba
+    c: 'Schlesinger to Kennedy, by his own account, on the Soviet arms in Cuba: relatively a hard-liner; the State Department should tell the Soviet Ambassador, coldly and toughly, that persistence in arming Cuba would bring a larger defense budget and a surge of national indignation coloring every other issue between the two countries.'
+    n: '[[w.schlesinger-thousand-days-1965]], 799–800 (and, at Bundy''s staff meeting, undated, the question put to him: "OK, but how far would you carry it if they keep on doing what you object to?"). Names: Schlesinger, Kennedy.'
+    src:
+      c: 5aaafdbe
+      rows:
+        - 'w.schlesinger-thousand-days-1965 799–800: all'
+    tags: [name:schlesinger-arthur-m-jr, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1962-09-13.cuba
+        from: 2026-11-06-b6-schlesinger-thousand-days
   - id: cal.1962-09-14.soviet-union
     when: Sept. 14
     date: '1962-09-14'

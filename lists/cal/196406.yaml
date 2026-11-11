@@ -5799,3 +5799,50 @@ entries:
         - 'w.taking-charge 445: all'
         - 'via x.1964-06-30.johnson-edward-kennedy-telephone-1735: all'
     tags: [name:johnson-lyndon-b, name:kennedy-edward-m, name:vance-cyrus]
+  - id: cal.1964-06.elections-1964-vice-presidency
+    when: June
+    date: 1964-06
+    thread: elections-1964-vice-presidency
+    c: Johnson assures Salinger and Galbraith that Robert Kennedy is very much under consideration for the Vice Presidency. By Schlesinger's journal.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 658. Check: the days; the journal cited is of June 9 and July 23. To check: Schlesinger, journal, June 9, 1964, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 658 n.67a); Schlesinger, journal, July 23, 1964, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 658 n.67b). Names: Johnson, Salinger, Galbraith, Robert Kennedy.'
+    src:
+      c: 34af90f0
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 658: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 658 n.67a: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 658 n.67b: all'
+    tags: [name:johnson-lyndon-b, name:salinger-pierre, name:galbraith-john-kenneth, name:kennedy-robert-f]
+  - id: cal.1964-06.elections-1964-vice-presidency-2
+    when: June
+    date: 1964-06
+    thread: elections-1964-vice-presidency
+    also: [opinion]
+    c: 'Johnson''s polls: no running mate, Kennedy included, worth more than 2 percent of his vote. Waving a poll at dinner, to his brother Sam Houston Johnson: "I don''t need that little runt to win. I can take anybody I damn please."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 658. Check: the day; the book has "one night," "By June." To check: [[w.johnson-my-brother-lyndon]], 165 (cited by [[w.schlesinger-robert-kennedy-and-his]], 658 n.69). Names: Johnson, Robert Kennedy.'
+    src:
+      c: a274035b
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 658: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-06.elections-1964-vice-presidency
+        from: 2026-11-06-b6-schlesinger-rfk
+  - id: cal.1964-06.robert-kennedy-2
+    when: June
+    date: 1964-06
+    thread: robert-kennedy
+    also: [vietnam]
+    c: 'Johnson to Valenti, declining Robert Kennedy''s offer to go to Vietnam: "He could do the job ... but I can''t trust the security there and someone or some group might want to do him in. I couldn''t live with that."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 728. Check: the day; after the letter of June 11. To check: [[w.valenti-very-human-president]], 141 (cited by [[w.schlesinger-robert-kennedy-and-his]], 728 n.19). See [[cal.1964-06-11.robert-kennedy]]. Names: Johnson, Valenti, Robert Kennedy.'
+    src:
+      c: 9685fbae
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 728: all'
+    tags: [name:johnson-lyndon-b, name:valenti-jack, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-06.robert-kennedy
+        from: 2026-11-06-b6-schlesinger-rfk

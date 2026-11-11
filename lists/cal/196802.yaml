@@ -406,7 +406,12 @@ entries:
     thread: opinion
     also: [elections-1968-polls, robert-kennedy-campaign]
     c: 'Gallup, Jan. 4–9, Democrats, the convention''s choice narrowed to two: Johnson 71 percent, McCarthy 18, no opinion 11. Johnson 52, Robert Kennedy 40, no opinion 8.'
-    n: '[[w.gallup-poll]], III, 2104. Names: McCarthy, Johnson, Kennedy.'
+    n: '[[w.gallup-poll]], III, 2104; [[w.schlesinger-robert-kennedy-and-his]], 839 (Gallup''s January sounding: Democrats for Johnson over McCarthy, 71 to 18; Johnson over Kennedy, 52 to 40). Names: McCarthy, Johnson, Kennedy.'
+    src:
+      c: d9f8df1a
+      rows:
+        - 'w.gallup-poll III, 2104: all'
+        - 'w.schlesinger-robert-kennedy-and-his 839: A-B'
     tags: [name:mccarthy-eugene-j, name:johnson-lyndon-b, name:kennedy-robert-f]
   - id: cal.1968-02-04.japan-and-korea-pueblo
     when: Feb. 4
@@ -1933,6 +1938,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-02-12.robert-kennedy-campaign-decision
+    when: Feb. 12
+    date: '1968-02-12'
+    thread: robert-kennedy-campaign-decision
+    c: 'Robert Kennedy to Katzenbach, Under Secretary of State, who had questioned a Vietnam quotation in *To Seek a Newer World*: the quotation vindicated; has Katzenbach noticed how "very kind and helpful" Ramsey Clark has been "in the renewed dispute with Hoover regarding the Department of Justice wiretapping. Such courage and integrity were appreciated."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 879. To check: Robert Kennedy to Katzenbach, Feb. 12, 1968, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 879 n.16). Names: Robert Kennedy, Katzenbach, Ramsey Clark, Hoover.'
+    src:
+      c: 4030ef41
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 879: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 879 n.16a: all'
+    tags: [name:kennedy-robert-f, name:katzenbach-nicholas, name:clark-ramsey, name:hoover-j-edgar]
   - id: cal.1968-02-13.state-and-city-finance-seattle
     when: Feb. 13
     date: '1968-02-13'
@@ -2376,6 +2393,18 @@ entries:
       c: 43dd399f
       rows:
         - 'w.macv-command-history-1968 842: all'
+  - id: cal.1968-02-16.robert-kennedy-campaign-decision
+    when: Feb. 16
+    date: '1968-02-16'
+    thread: robert-kennedy-campaign-decision
+    c: 'Katzenbach to Robert Kennedy: "our intelligence people were guilty of inexcusably bad research" on the quotation; he takes strong exception to Kennedy''s closing lines, "a crack you would resent as deeply as I do."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 879. To check: Katzenbach to Robert Kennedy, Feb. 16, 1968, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 879 n.16). See [[cal.1968-02-12.robert-kennedy-campaign-decision]]. Names: Katzenbach, Robert Kennedy.'
+    src:
+      c: 038ddb04
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 879: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 879 n.16b: all'
+    tags: [name:katzenbach-nicholas, name:kennedy-robert-f]
   - id: cal.1968-02-17.vietnam-tet
     when: Feb. 17–18
     date: '1968-02-17'
@@ -5348,3 +5377,93 @@ entries:
         - 'w.branch-at-canaans-edge 697: all'
         - 'via x.undated.goulden-joseph-c-jerry-wurf-labors: B'
     tags: [name:loeb-henry, city:memphis, state:tn]
+  - id: cal.1968-02.robert-kennedy-campaign-decision-7
+    when: Feb.
+    date: 1968-02
+    thread: robert-kennedy-campaign-decision
+    also: [press-and-broadcasting]
+    c: 'Joseph Alsop, after Robert Kennedy''s Chicago speech on the war, leaves a message with Angie Novello: three friends of Kennedy''s, "none of them particular friends of Lyndon Johnson," say they must "regard Bobby Kennedy as a traitor to the United States." Kennedy to Schlesinger: "It''s just like Hitler — not a very good comparison — but I mean the way people who think themselves good and decent become accomplices."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 843. Check: the day; "a day or so" after the speech; the journal cited is of Feb. 12. To check: Schlesinger, journal, Feb. 12, 1968, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 843 n.6). See [[cal.1968-02-08.robert-kennedy]]. Names: Joseph Alsop, Robert Kennedy, Johnson, Schlesinger.'
+    src:
+      c: 01ffa800
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 843: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 843 n.6: B'
+    tags: [name:alsop-joseph, name:kennedy-robert-f, name:schlesinger-arthur-m-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-02.robert-kennedy
+          - cal.1968-02.robert-kennedy-campaign
+          - cal.1968-02.robert-kennedy-campaign-2
+          - cal.1968-02.robert-kennedy-campaign-3
+          - cal.1968-02.robert-kennedy-campaign-4
+          - cal.1968-02.robert-kennedy-campaign-decision
+          - cal.1968-02.robert-kennedy-campaign-decision-2
+          - cal.1968-02.robert-kennedy-campaign-decision-3
+        from: 2026-11-06-b6-schlesinger-rfk
+  - id: cal.1968-02.robert-kennedy-campaign-decision-8
+    when: Feb.
+    date: 1968-02
+    thread: robert-kennedy-campaign-decision
+    also: [vietnam]
+    c: 'Robert Kennedy, in private, for getting out of Vietnam. Told by Walton that Harriman thinks him not for "cut-and-run": "Little does he know." To Rowland Evans: "We''ve got to get out of that war. It''s destroying this country." To Thomas Watson of IBM: "I''d get out of there in six months with all the troops the United States has."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 844. Check: the days; the book sets them after the speech of Feb. 8. To check: William Walton, interview by Roberta Greene, May 14, 1970, 45–46; Rowland Evans, interview by Roberta Greene, July 30, 1970, 61; Thomas J. Watson Jr., interview by Roberta Greene, Jan. 6, 1970, 21, RFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 844 nn.9–11). Names: Robert Kennedy, Walton, Harriman, Evans.'
+    src:
+      c: 076b7a05
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 844: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 844 n.9: B'
+        - 'via w.schlesinger-robert-kennedy-and-his 844 n.10: C'
+        - 'via w.schlesinger-robert-kennedy-and-his 844 n.11: D'
+    tags: [name:kennedy-robert-f, name:walton-william, name:harriman-w-averell, name:evans-rowland-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-02.robert-kennedy
+          - cal.1968-02.robert-kennedy-campaign
+          - cal.1968-02.robert-kennedy-campaign-2
+          - cal.1968-02.robert-kennedy-campaign-3
+          - cal.1968-02.robert-kennedy-campaign-4
+          - cal.1968-02.robert-kennedy-campaign-decision
+          - cal.1968-02.robert-kennedy-campaign-decision-2
+          - cal.1968-02.robert-kennedy-campaign-decision-3
+          - cal.1968-02.robert-kennedy-campaign-decision-7
+        from: 2026-11-06-b6-schlesinger-rfk
+  - id: cal.1968-02-29.robert-kennedy-campaign-decision
+    when: Feb. 29
+    date: '1968-02-29'
+    thread: robert-kennedy-campaign-decision
+    c: 'Jacqueline Kennedy writes out for Robert Kennedy excerpts from William Graham Sumner''s anti-imperialist "The Conquest of the United States by Spain": "There is not a civilized nation in the world which does not talk about its civilizing mission just as grandly as we do."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 845 & n.*. Check: the day; the book dates the letter "n.d. [February 29, 1968]." To check: Jacqueline Kennedy to Robert Kennedy, n.d. [Feb. 29, 1968], RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 845 n.*). Names: Jacqueline Kennedy, Robert Kennedy.'
+    src:
+      c: 5fa92c41
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 845 & n.*: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 845 n.*: all'
+    tags: [name:kennedy-jacqueline, name:kennedy-robert-f]
+  - id: cal.1968-02.robert-kennedy-campaign-decision-9
+    when: Feb.
+    date: 1968-02
+    thread: robert-kennedy-campaign-decision
+    c: 'Pete Hamill, finishing a novel in Ireland, to Robert Kennedy: "In Watts I didn''t see pictures of Malcolm X or Ron Karenga on the walls. I saw pictures of JFK. That is your obligation."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 845. Check: the day. To check: [[w.newfield-robert-kennedy]], 208 (cited by [[w.schlesinger-robert-kennedy-and-his]], 845 n.17). Names: Robert Kennedy.'
+    src:
+      c: ba30963b
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 845: all'
+    tags: [name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-02.robert-kennedy
+          - cal.1968-02.robert-kennedy-campaign
+          - cal.1968-02.robert-kennedy-campaign-2
+          - cal.1968-02.robert-kennedy-campaign-3
+          - cal.1968-02.robert-kennedy-campaign-4
+          - cal.1968-02.robert-kennedy-campaign-decision
+          - cal.1968-02.robert-kennedy-campaign-decision-2
+          - cal.1968-02.robert-kennedy-campaign-decision-3
+          - cal.1968-02.robert-kennedy-campaign-decision-7
+          - cal.1968-02.robert-kennedy-campaign-decision-8
+        from: 2026-11-06-b6-schlesinger-rfk

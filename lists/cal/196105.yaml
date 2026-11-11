@@ -396,6 +396,24 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-05-03.cuba-bay-of-pigs
+    when: May 3
+    date: '1961-05-03'
+    thread: cuba-bay-of-pigs
+    also: [laos, opinion]
+    c: 'Kennedy to Schlesinger, back from Europe, by Schlesinger''s account: as a British prime minister he would have been thrown out; here failure has increased his charm. Evelyn Lincoln brings an advance on the Gallup poll, 82 percent behind the administration: "It''s just like Eisenhower. The worse I do, the more popular I get." Waving Lemnitzer''s cables from Laos: "If it hadn''t been for Cuba, we might be about to intervene in Laos. I might have taken this advice seriously."'
+    n: '[[w.schlesinger-thousand-days-1965]], 292, 339. Names: Kennedy, Schlesinger, Lincoln, Eisenhower, Lemnitzer.'
+    src:
+      c: bb2cc52a
+      rows:
+        - 'w.schlesinger-thousand-days-1965 292: A-C'
+        - 'w.schlesinger-thousand-days-1965 339: D'
+    tags: [name:kennedy-john-f, name:schlesinger-arthur-m-jr, name:lincoln-evelyn, name:eisenhower-dwight-d, name:lemnitzer-lyman-l]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-05-03.cuba
+        from: 2026-11-06-b6-schlesinger-thousand-days
   - id: cal.1961-05-04.freedom-rides
     when: May 4
     date: '1961-05-04'
@@ -1396,6 +1414,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-05-10.press-and-broadcasting
+    when: May 10
+    date: '1961-05-10'
+    thread: press-and-broadcasting
+    also: [berlin-and-vienna]
+    c: 'Kennedy to Bundy and Schlesinger, on the columnists Alsop and Lippmann: "I like them both, but I agree more with Lippmann than I do with Alsop." Bundy: "That''s exactly what Joe is afraid of." By Schlesinger''s journal.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 428. Check: the day; the text has "in May 1961", the journal cited is of May 10. To check: Schlesinger, journal, May 10, 1961, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 428 n.45). Names: Kennedy, Bundy, Schlesinger, Joseph Alsop, Lippmann.'
+    src:
+      c: 5f1da516
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 428: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 428 n.45: all'
+    tags: [name:kennedy-john-f, name:bundy-mcgeorge, name:schlesinger-arthur-m-jr, name:alsop-joseph, name:lippmann-walter]
   - id: cal.1961-05-11.vietnam
     when: May 11
     date: '1961-05-11'

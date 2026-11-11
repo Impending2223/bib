@@ -814,6 +814,22 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-07-11.vietnam-saigon
+    when: July 11
+    date: '1963-07-11'
+    thread: vietnam-saigon
+    c: 'Nolting back in Saigon, for a last try at the policy of support for Diệm. By Schlesinger''s account: the Buddhists unappeasable; American pressure, above all a public disavowal, would only incite Diệm to repression or his opponents to a coup; separating Diệm from the Nhus "would be like separating Siamese twins."'
+    n: '[[w.schlesinger-thousand-days-1965]], 989. Names: Nolting, Ngô Đình Diệm.'
+    src:
+      c: 1f09b16f
+      rows:
+        - 'w.schlesinger-thousand-days-1965 989: all'
+    tags: [name:nolting-frederick-e-jr, name:ngo-dinh-diem, place:saigon]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-07-11.vietnam
+        from: 2026-11-06-b6-schlesinger-thousand-days
   - id: cal.1963-07-12.civil-rights-bill
     when: July 12
     date: '1963-07-12'
@@ -2516,6 +2532,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-07-28.testing
+    when: July 28
+    date: '1963-07-28'
+    thread: testing
+    c: 'Harriman, back from Moscow, goes straight to Hyannis Port. Kennedy: "Well, this is a good job." In Washington his Georgetown neighbors march with torches and candles to his house on P Street, singing; he thanks them from the steps.'
+    n: '[[w.schlesinger-thousand-days-1965]], 909. Check: the day of Hyannis Port (Schlesinger: "On his return"; in Washington July 28). Names: Harriman, Kennedy.'
+    src:
+      c: cec11e83
+      rows:
+        - 'w.schlesinger-thousand-days-1965 909: all'
+    tags: [name:harriman-w-averell, name:kennedy-john-f]
   - id: cal.1963-07-29.economy
     when: July 29
     date: '1963-07-29'
