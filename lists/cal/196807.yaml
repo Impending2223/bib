@@ -180,6 +180,17 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1968-07-01.congress
+    when: July 1
+    date: '1968-07-01'
+    thread: congress
+    c: J. Edward Day, Kennedy's Postmaster General, becomes director of legislative and Post Office activities for the Associated Third Class Mail Users, in place of Harry Maginnis, in a bitter dispute with Monroney over third-class rates in 1967.
+    n: '[[w.cq-weekly-report]], July 26, 1968, 1975. Names: Day, Monroney.'
+    src:
+      c: 77d1e247
+      rows:
+        - 'w.cq-weekly-report July 26, 1968, 1975: all'
+    tags: [name:day-j-edward, name:monroney-almer-s]
   - id: cal.1968-07-02.defense
     when: July 2
     date: '1968-07-02'
@@ -1955,6 +1966,57 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1968-07-19.crime-and-hijacking-guns-2
+    when: July 19–24
+    date: '1968-07-19'
+    thread: crime-and-hijacking-guns
+    c: The House on the gun bill, H.R. 17735, in committee of the whole. Dingell's amendment, a $10 license for "collectors" to buy from and sell to one another across State lines, adopted by teller vote, 99–56.
+    n: '[[w.cq-weekly-report]], July 26, 1968, 1939. Check: the day; CQ gives the four days of debate. See [[cal.1968-07-24.crime-and-hijacking]]. Names: Dingell.'
+    src:
+      c: ab3d225f
+      rows:
+        - 'w.cq-weekly-report July 26, 1968, 1939: all'
+    tags: [name:dingell-john-d]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-07-19.crime-and-hijacking-guns
+        from: b6-cq-weekly-report-1968-07-26
+  - id: cal.1968-07-19.crime-and-hijacking-guns-3
+    when: July 19–24
+    date: '1968-07-19'
+    thread: crime-and-hijacking-guns
+    c: The House on the gun bill, in committee of the whole. Latta's amendment, a buyer whose gun is lost, stolen or broken in another State may buy another there on affidavit, adopted by teller vote, 111–69.
+    n: '[[w.cq-weekly-report]], July 26, 1968, 1939. Check: the day; CQ gives the four days of debate. See [[cal.1968-07-24.crime-and-hijacking]]. Names: Latta.'
+    src:
+      c: 8104228b
+      rows:
+        - 'w.cq-weekly-report July 26, 1968, 1939: all'
+    tags: [name:latta-delbert-l]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-07-19.crime-and-hijacking-guns
+          - cal.1968-07-19.crime-and-hijacking-guns-2
+        from: b6-cq-weekly-report-1968-07-26
+  - id: cal.1968-07-19.crime-and-hijacking-guns-4
+    when: July 19–24
+    date: '1968-07-19'
+    thread: crime-and-hijacking-guns
+    c: 'The House on the gun bill, in committee of the whole, on MacGregor''s amendment for unlimited sales of rifle, shotgun and .22 rimfire ammunition, offered after his first was beaten by teller vote, 90–99. Told that Robert Kennedy was killed with a .22 rimfire bullet, MacGregor: legislation cannot "eliminate the tragic incidents of homicide."'
+    n: '[[w.cq-weekly-report]], July 26, 1968, 1940. Check: the day; CQ gives the four days of debate. See [[cal.1968-07-24.crime-and-hijacking]]. Names: MacGregor, Robert Kennedy.'
+    src:
+      c: 702d7a62
+      rows:
+        - 'w.cq-weekly-report July 26, 1968, 1940: all'
+    tags: [name:macgregor-clark, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-07-19.crime-and-hijacking-guns
+          - cal.1968-07-19.crime-and-hijacking-guns-2
+          - cal.1968-07-19.crime-and-hijacking-guns-3
+        from: b6-cq-weekly-report-1968-07-26
   - id: cal.1968-07-20.conservation
     when: July 20
     date: '1968-07-20'
@@ -2474,6 +2536,17 @@ entries:
       c: 1b68eb35
       rows:
         - 'w.macv-command-history-1968 393: all'
+  - id: cal.1968-07-22.economy
+    when: July 22
+    date: '1968-07-22'
+    thread: economy
+    c: 'Proxmire, chairman of the Joint Economic Committee: hearings on the Federal Reserve study group''s proposals for the discount window.'
+    n: '[[w.cq-weekly-report]], July 26, 1968, 1976. See [[cal.1968-07-21.economy-2]]. Names: Proxmire.'
+    src:
+      c: d2eab0e2
+      rows:
+        - 'w.cq-weekly-report July 26, 1968, 1976: all'
+    tags: [name:proxmire-william]
   - id: cal.1968-07-23.civil-disorders
     when: July 23–27
     date: '1968-07-23'
@@ -3388,6 +3461,22 @@ entries:
         - 'w.macv-command-history-1968 54–55: all'
         - 'via w.macv-command-history-1968 55 n.40: all'
     tags: [name:mao-zedong]
+  - id: cal.1968-07-26.elections-1968-6
+    when: July 26–27
+    date: '1968-07-26'
+    thread: elections-1968
+    c: Rapid City, S.D. Teresa McGovern, 19, Senator McGoverns daughter, arrested and charged with illegal possession of narcotics; marijuana and "other narcotic paraphernalia" found in the motel room, by the authorities. July 27, she and two others arrested with her released on $2,500 bond after arraignment.
+    n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2069. See [[cal.1968-07-27.elections-1968]]. Names: McGovern.'
+    src:
+      c: 169d1359
+      rows:
+        - 'w.cq-weekly-report Aug. 2, 1968, 2069: all'
+    tags: [name:mcgovern-george, state:sd]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-07-26.elections-1968
+        from: 2026-11-06-b6-cq-weekly-report-1968-08-02
   - id: cal.1968-07-27.elections-1968
     when: July 27
     date: '1968-07-27'
