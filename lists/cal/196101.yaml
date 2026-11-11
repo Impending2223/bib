@@ -1575,6 +1575,22 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 350: all'
     tags: [name:rockefeller-nelson, name:kennedy-john-f, state:ny, city:nyc]
+  - id: cal.1961-01-20.transition-and-staff-2
+    when: Jan. 20
+    date: '1961-01-20'
+    thread: transition-and-staff
+    c: 'The F Street Club, after the inauguration. Admiral and Mrs. Lewis Strauss give a farewell luncheon for the Eisenhowers, the Nixons among the guests. Eisenhower to Nixon at parting: come up to Gettysburg "very soon."'
+    n: '[[w.nixon-rn]], 227. Names: Strauss, Eisenhower, Nixon.'
+    src:
+      c: ab2b7bf1
+      rows:
+        - 'w.nixon-rn 227: all'
+    tags: [name:strauss-lewis-l, name:eisenhower-dwight-d, name:nixon-richard-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-01-20.transition-and-staff
+        from: 2026-11-06-b6-nixon-rn
   - id: cal.1961-01-21.governors-ct
     when: Jan. 21
     date: '1961-01-21'
@@ -1635,11 +1651,12 @@ entries:
     date: '1961-01-21'
     thread: republican-party
     c: 'Nixon and his wife leave Washington for a month''s holiday: to Florida in the AVCO company''s plane, at Earl Blaik''s offer; then the Bahamas: Lindsey Hopkins''s house at Coral Harbour, Perkins McGuire''s at Eleuthera, Elmer Bobst''s yacht *Elisa V*; Rebozo with them. Restless, by his account, after about two weeks.'
-    n: '[[w.nixon-six-crises]], 417–18, 423. Names: Nixon, Blaik, Rebozo. Check: the length of the stay.'
+    n: '[[w.nixon-six-crises]], 417–18, 423; [[w.nixon-rn]], 231 (the day after the inauguration, to Eleuthera, a few days with friends, their plans discussed). Names: Nixon, Blaik, Rebozo. Check: the length of the stay.'
     src:
       c: dc76fa09
       rows:
         - 'w.nixon-six-crises 417–18, 423: all'
+        - 'w.nixon-rn 231: B'
     tags: [name:nixon-richard-m, name:blaik-earl-h, name:rebozo-charles-g]
   - id: cal.1961-01-21.peace-corps
     when: Jan. 21

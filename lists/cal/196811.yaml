@@ -863,11 +863,12 @@ entries:
     thread: transition-and-staff
     also: [elections-1968]
     c: Evening. Nixon flies from New York to Key Biscayne, stopping in Washington to call on Eisenhower at Walter Reed; to Smathers's house, rented.
-    n: '[[w.chester-american-melodrama]], 765. Names: Nixon, Eisenhower, Smathers.'
+    n: '[[w.chester-american-melodrama]], 765; [[w.nixon-rn]], 335 (by Air Force jet; Eisenhower: "Congratulations, Mr. President!"). Names: Nixon, Eisenhower, Smathers.'
     src:
       c: 17683cdb
       rows:
         - 'w.chester-american-melodrama 765: all'
+        - 'w.nixon-rn 335: B'
     tags: [name:nixon-richard-m, name:eisenhower-dwight-d, name:smathers-george-a]
     time_range:
       - 1968-11-06T22:00Z
@@ -925,6 +926,67 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-11-06.elections-1968-4
+    when: Nov. 6, the early hours
+    date: '1968-11-06'
+    thread: elections-1968
+    c: 'New York, the Waldorf-Astoria, by Nixon''s account. Nixon, sure of Illinois, to Harlow: get O''Brien on the telephone: "Tell O''Brien to tell Hubert to quit playing games. We''ve won Illinois." Harlow reaches O''Brien''s suite; O''Brien not there, or will not take the call.'
+    n: '[[w.nixon-rn]], 333. See [[cal.1968-11-05.elections-1968]]. Names: Nixon, Harlow, O''Brien, Humphrey.'
+    src:
+      c: cc91d71b
+      rows:
+        - 'w.nixon-rn 333: all'
+    tags: [name:nixon-richard-m, name:harlow-bryce-n, name:obrien-lawrence-f, name:humphrey-hubert-h]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-11-06.elections-1968
+          - cal.1968-11-06.elections-1968-2
+          - cal.1968-11-06.elections-1968-3
+        from: 2026-11-06-b6-nixon-rn
+  - id: cal.1968-11-06.elections-1968-5
+    when: Nov. 6, just before 3 a.m.
+    date: '1968-11-06'
+    time: 1968-11-06T08:00Z
+    time_approx: true
+    thread: elections-1968
+    c: 'New York, the Waldorf-Astoria, by Nixon''s account. Nixon, sure of California, Illinois, Ohio and Missouri, reviews the totals with Finch, Chotiner, Mitchell and Haldeman: "Any objections?" None. He telephones Agnew and Rockefeller: victory a matter of time.'
+    n: '[[w.nixon-rn]], 333 ("Just before 3 A.M."). See [[cal.1968-11-05.elections-1968]]. Check: the hours of the calls; White''s are given in [[cal.1968-11-06.elections-1968]]. Names: Nixon, Finch, Chotiner, Mitchell, Haldeman, Agnew, Rockefeller.'
+    src:
+      c: e3d719e5
+      rows:
+        - 'w.nixon-rn 333: all'
+    tags: [name:nixon-richard-m, name:finch-robert-h, name:chotiner-murray-m, name:mitchell-john-n, name:haldeman-h-r, name:agnew-spiro-t, name:rockefeller-nelson]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-11-06.elections-1968
+          - cal.1968-11-06.elections-1968-2
+          - cal.1968-11-06.elections-1968-3
+          - cal.1968-11-06.elections-1968-4
+        from: 2026-11-06-b6-nixon-rn
+  - id: cal.1968-11-06.elections-1968-6
+    when: Nov. 6, 8:30 a.m.
+    date: '1968-11-06'
+    time: 1968-11-06T13:30Z
+    thread: elections-1968
+    also: [transition-and-staff]
+    c: 'New York, the Waldorf-Astoria, by Nixon''s account. Chapin: ABC has projected Illinois for Nixon. Nixon to Mitchell: "we had better get down to Florida and get this thing planned out." Mitchell: "Mr. President, I think I''d better go up to be with Martha."'
+    n: '[[w.nixon-rn]], 333–34. See [[cal.1968-11-05.elections-1968]]. Names: Nixon, Chapin, Mitchell.'
+    src:
+      c: ff64afd1
+      rows:
+        - 'w.nixon-rn 333–34: all'
+    tags: [name:nixon-richard-m, name:chapin-dwight-l, name:mitchell-john-n]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-11-06.elections-1968
+          - cal.1968-11-06.elections-1968-2
+          - cal.1968-11-06.elections-1968-3
+          - cal.1968-11-06.elections-1968-4
+          - cal.1968-11-06.elections-1968-5
+        from: 2026-11-06-b6-nixon-rn
   - id: cal.1968-11-07.vietnam-paris
     when: Nov. 7
     date: '1968-11-07'

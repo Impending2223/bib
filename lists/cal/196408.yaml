@@ -3042,6 +3042,24 @@ entries:
         - 'w.taking-charge 512–513: all'
         - 'via x.1964-08-12.johnson-robert-kennedy-telephone-0900: all'
     tags: [name:johnson-lyndon-b, name:kennedy-robert-f, state:ny]
+  - id: cal.1964-08-12.elections-1964-goldwater
+    when: Aug. 12
+    date: '1964-08-12'
+    thread: elections-1964-goldwater
+    follows:
+      - cal.1964-08-12.elections-1964
+    c: 'The drive back from Hershey to Gettysburg, after the meeting, as Nixon heard later. Eisenhower: "before we had this meeting I thought that Goldwater was just stubborn. Now I am convinced that he is just plain dumb."'
+    n: '[[w.nixon-rn]], 262 ("I learned later"; at second hand). See [[cal.1964-08-12.elections-1964]]. Names: Eisenhower, Goldwater.'
+    src:
+      c: 6f2f4338
+      rows:
+        - 'w.nixon-rn 262: all'
+    tags: [name:eisenhower-dwight-d, name:goldwater-barry-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-08-12.elections-1964
+        from: 2026-11-06-b6-nixon-rn
   - id: cal.1964-08-13.transportation
     when: Aug. 13
     date: '1964-08-13'

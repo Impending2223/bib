@@ -1804,6 +1804,24 @@ entries:
       rows:
         - 'w.barrett-uncertain-warriors 72: all'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, state:tn, city:nashville]
+  - id: cal.1967-03-15.robert-kennedy-2
+    when: Mar. 15
+    date: '1967-03-15'
+    thread: robert-kennedy
+    also: [press-and-broadcasting]
+    c: Sidey of *Time* tells the White House that Robert Kennedy, by their recent conversation, has all but "decided to get into the race" for President in 1968.
+    n: '[[w.mann-grand-delusion]], 535 (quoting it); [[w.dallek-flawed-giant]], 454 (Sidey: Robert Kennedy all but decided to run; Johnson takes it as confirmation). See [[cal.1967-03-02.vietnam-congress]]. Names: Sidey, Robert Kennedy.'
+    src:
+      c: 17ce6f07
+      rows:
+        - 'w.mann-grand-delusion 535: all'
+        - 'w.dallek-flawed-giant 454: ?'
+    tags: [name:sidey-hugh, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-03-15.robert-kennedy
+        from: 2026-11-06-b6-mann-grand-delusion
   - id: cal.1967-03-16.soviet-union
     when: Mar. 16
     date: '1967-03-16'
@@ -3718,3 +3736,37 @@ entries:
           - cal.1967-03.republican-party-3
           - cal.1967-03.republican-party-4
         from: b6-hess-republican-establishment
+  - id: cal.1967-03.europe-and-the-alliance-2
+    when: Mar.
+    date: 1967-03
+    thread: europe-and-the-alliance
+    also: [elections-1968-nixon]
+    c: 'Rome, on Nixon''s trip from Mar. 5, by Nixon''s account. Saragat and Fanfani: the Soviets determined to keep the war in Vietnam going; the chief Communist threat in Europe. Fanfani: "NATO is what really counts." Brosio, NATO''s Secretary General: the Russians "cannot be trusted." A Belgian on détente: "It is like the Virgin Birth. I accept it, but I don''t believe it."'
+    n: '[[w.nixon-rn]], 280–81. See [[cal.1967-03.europe-and-the-alliance]]. Check: the days. Names: Nixon, Saragat, Fanfani, Brosio.'
+    src:
+      c: b6913b12
+      rows:
+        - 'w.nixon-rn 280–81: all'
+    tags: [name:nixon-richard-m, name:saragat-giuseppe, name:fanfani-amintore, name:brosio-manlio-g]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-03.europe-and-the-alliance
+        from: 2026-11-06-b6-nixon-rn
+  - id: cal.1967-03.europe-and-the-alliance-3
+    when: Mar.
+    date: 1967-03
+    thread: europe-and-the-alliance
+    c: Poland refuses Nixon a visa for his trip; Romania grants one, to Nixon's surprise.
+    n: '[[w.nixon-rn]], 281. See [[cal.1967-03.europe-and-the-alliance]]. Check: the day. Names: Nixon.'
+    src:
+      c: 55c8b44e
+      rows:
+        - 'w.nixon-rn 281: all'
+    tags: [name:nixon-richard-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-03.europe-and-the-alliance
+          - cal.1967-03.europe-and-the-alliance-2
+        from: 2026-11-06-b6-nixon-rn

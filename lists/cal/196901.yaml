@@ -765,6 +765,41 @@ entries:
         - 'w.wells-war-within 292: all'
         - 'w.zaroulis-who-spoke-up 209–10: ?'
     tags: [city:washington]
+  - id: cal.1969-01-19.transition-and-staff-2
+    when: Jan. 19, the evening
+    date: '1969-01-19'
+    thread: transition-and-staff
+    c: Washington, the eve of the inauguration, by Nixon's account. Flown down from New York in the plane the President sent, Nixon spends the evening on the last touches to his inaugural address.
+    n: '[[w.nixon-rn]], 362. Names: Nixon.'
+    src:
+      c: 69b5627a
+      rows:
+        - 'w.nixon-rn 362: all'
+    tags: [name:nixon-richard-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1969-01-19.transition-and-staff
+        from: 2026-11-06-b6-nixon-rn
+  - id: cal.1969-01-19.transition-and-staff-3
+    when: Jan. 19, about 8 p.m.
+    date: '1969-01-19'
+    time: 1969-01-20T01:00Z
+    time_approx: true
+    thread: transition-and-staff
+    c: 'Eisenhower telephones Nixon from Walter Reed: "I want to wish you the best on what I am sure will be a great day tomorrow ... This is the last time that I can call you Dick. From now on it will always be Mr. President."'
+    n: '[[w.nixon-rn]], 362 ("about eight o''clock"). See [[cal.1969-01-19.transition-and-staff-2]]. Names: Eisenhower, Nixon.'
+    src:
+      c: f659e8f3
+      rows:
+        - 'w.nixon-rn 362: all'
+    tags: [name:eisenhower-dwight-d, name:nixon-richard-m]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1969-01-19.transition-and-staff
+          - cal.1969-01-19.transition-and-staff-2
+        from: 2026-11-06-b6-nixon-rn
   - id: cal.1969-01-20.conservation
     when: Jan. 20
     date: '1969-01-20'
