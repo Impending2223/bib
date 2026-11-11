@@ -1,4 +1,4 @@
-# Hand-off, Nov. 10, 2026 (evening): where the work stands
+# Hand-off, Nov. 10, 2026 (evening; updated late evening): where the work stands
 
 For a fresh orchestrating session. Read CLAUDE.md (the core), then this. The owner's standing rules: working hours (CLAUDE.md); ask before deleting anything of theirs; never change a Drive file's sharing; no model ids in commits.
 
@@ -6,6 +6,13 @@ For a fresh orchestrating session. Read CLAUDE.md (the core), then this. The own
 - CLAUDE.md is the core; topics in `notes/guide/`. Row readers work from `notes/briefs/reader-card.md`.
 - Models: readers on Sonnet with the card; mechanical work (merging, duplicate flags, scripts) on Sonnet or Haiku; Opus audits a sample of each reader's rulings and every disagreement. At most 4-6 agents at once (the machine has 4 processors).
 - Pilot first: `inbox/2026-11-10-pilot-humphrey.yaml` (Sonnet, the card) is to be audited row by row before anything scales.
+
+## Since then (Nov. 10, late evening)
+- Pilot audited, corrected and merged with the b7 Humphrey patch (e2f5feb); p. 285 entered at the owner's word ("Agreed on Humphrey's son's cancer").
+- Every b6 and b7 patch, the Presidium and sit-ins patches and the Caro `also` op merged (34 runs, commits from c282c02 on); the two old sit-ins Checks struck. Left in the inbox: the two held patches, and `inbox/deferred.yaml` (one Nixon RN cite waiting on bundle-splits).
+- 516 duplicate flags open from those merges: `./bib check` and `./bib build` fail until settled. A Sonnet pass is writing proposals to `scratchpad/merge/dup-rulings.tsv` (keep / combine / doubt); the lead reviews every combine and doubt before applying. Then check, build, links.
+- Batch 8 (`notes/briefs/batch8.md`): the 715 rows still open (`scratchpad/alreadyin/b8-rows.json`). First wave, Sonnet: Reeves, Logevall, Barrett; each to be audited by Opus before merging.
+- The shared folder's new material: `notes/drive-additions-2026-11.md`.
 
 ## The inbox (not merged)
 - 63 batch-6 patches (`inbox/2026-11-06-b6-*.yaml`) and 28 batch-7 (`inbox/2026-11-10-b7-*.yaml`), their witnesses in `inbox/witnesses/` by the same names; `inbox/2026-11-10-presidium-records.yaml`; `inbox/2026-11-10-sit-ins-feb-1960.yaml` (witnesses `inbox/witnesses/2026-11-10-sit-ins.yaml`).
