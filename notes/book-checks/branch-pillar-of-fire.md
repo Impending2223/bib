@@ -46,19 +46,21 @@ The notes give each passage's sources; for every page cited in either patch, eac
 
 ## Passed over (R44)
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, private remarks, social, personal or family, marked in their last cells (batch 6; see the section of that name at the end).
+
 Made page by page while reading, each dated event the book treats and the run did not enter:
 
 | page | date | event | why |
 |---|---|---|---|
-| 386, 420 | July 31 | Malcolm X's call home from Cairo, on the FBI's tap | passed-over paper: private remarks |
+| 386, 420 | July 31 | Malcolm X's call home from Cairo, on the FBI's tap | passed-over paper: private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1964-07-31.black-nationalism (private remarks on public business, by the FBI's tap; the transcript registered) |
 | 393 | July | Freedom School classes and teachers' stories | minor: a unit's routine |
 | 394 | July 15 | Carmichael's mass meeting before Freedom Day | passed-over paper: the meeting's preparation |
-| 396 | July | Willie Galimore's stay at the Ponce de León | minor: social |
+| 396 | July | Willie Galimore's stay at the Ponce de León | minor: social — **re-ruled Nov. 6, 2026 (R18 as amended):** stays passed over: a private guest's unpublicized stay, no public act or principal on the page (family and social matters with no bearing on public business) |
 | 396 n. | late July | Galimore's death | out of the brief |
 | 403 | July 9–23 | the Negro press's headlines on the convention | entered under "## The press" |
-| 407 | July 20 | Young to Septima Clark, "on the verge of cracking up" | passed-over paper: private remarks |
-| 410 | July 21 | King and a passenger on the flight to Jackson | minor: private |
-| 413 | July 24 | the stop for pickled pigs' feet | minor: social |
+| 407 | July 20 | Young to Septima Clark, "on the verge of cracking up" | passed-over paper: private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1964-07-20.civil-rights-organizations (a private letter on SCLC's work) |
+| 410 | July 21 | King and a passenger on the flight to Jackson | minor: private — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1964-07-21.king-2 (a political exchange; King's remark on Goldwater's following) |
+| 413 | July 24 | the stop for pickled pigs' feet | minor: social — **re-ruled Nov. 6, 2026 (R18 as amended):** stays passed over: social trivia, no bearing on public business (the stop for pickled pigs' feet) |
 | 416 | late July | Greenwood's mass meeting on nonviolence, Clarence McGhee | lead: no day |
 | 419 | 1964–65 | Theodore White's CBS documentary | lead: the broadcast's date |
 | 423 | 1965 | Roy Cohn's slander suit against King | lead (below) |
@@ -72,15 +74,15 @@ Made page by page while reading, each dated event the book treats and the run di
 | 446 | Aug.–Sept. | Mayor Shelley's campaign to impeach Judge Simpson | lead: no date |
 | 447 | Aug. 10 | King at Amherst | lead: the speech not read |
 | 455 | Aug. 20 | Carmichael's interview on WHWH, Princeton | minor: no reach (R13) |
-| 461 | Aug. 22 | Hamer at the Gem Motel, *Jet*'s account | minor: private remarks |
+| 461 | Aug. 22 | Hamer at the Gem Motel, *Jet*'s account | minor: private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1964-08-22.elections-1964-freedom-democrats (Hamer's private remarks on Johnson's preemption of her testimony) |
 | 461 | Aug. 23–24 | Rustin to King on the sprained ankle, by wiretap | lead: the day |
-| 463 | Aug. 24 | the delegates' parties, Perle Mesta's | minor: social |
-| 466 | Aug. 24 | an Amite County regular to Bill Minor | passed-over paper: private remarks |
+| 463 | Aug. 24 | the delegates' parties, Perle Mesta's | minor: social — **re-ruled Nov. 6, 2026 (R18 as amended):** stays passed over: the convention's parties, no principal or public business on the page |
+| 466 | Aug. 24 | an Amite County regular to Bill Minor | passed-over paper: private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1964-08-24.elections-1964-freedom-democrats-4 (a regular's remark on an MFDP delegate, to a reporter) |
 | 467 n. | July 10–Aug. 21 | Steinbeck's notes and letters to Valenti; Johnson–Steinbeck call | lead (below) |
 | 475 | Aug. 27 | Moses and six others' vigil with JFK placards | minor: in the convention's entries |
-| 476 | Aug. 27–28 | Katharine Graham aboard Air Force One; the ranch, Cousin Oriole | minor: social |
+| 476 | Aug. 27–28 | Katharine Graham aboard Air Force One; the ranch, Cousin Oriole | minor: social — **re-ruled Nov. 6, 2026 (R18 as amended):** Branch cited (476) under cal.1964-08-28.press-and-broadcasting-2, claimed by the Humphrey reader (a social occasion of the President, the Vice-Presidential nominee and the Post's publisher) |
 | 479 | 1969 | Hoover against Rowan; Nichols sent to Oklahoma City | out of the brief: after the span |
-| 481–82 | Sept. | the stay in Guinea, its dinners | minor: social |
+| 481–82 | Sept. | the stay in Guinea, its dinners | minor: social — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1964-09-12.africa (Touré's call on the SNCC delegation, a head of state with a movement's leaders; the palace dinner; the early return) |
 | 486 | Sept. 27 | King preaches for Shuttlesworth in Cincinnati | minor |
 | 490 | Aug.–Sept. | films, the Beatles, Chagall, McDonald's | out of the brief |
 | 491 | Sept.–Oct. | Goldwater's television spending, his half hour on "nuclear destruction" | lead: no date |
@@ -90,7 +92,7 @@ Made page by page while reading, each dated event the book treats and the run di
 | 496 | Sept. | the Oakland meeting of the Friends of SNCC on Savio | lead: the day |
 | 500 | Aug. 28–30 | the Philadelphia riot, Abyssinia Hayes arrested | lead: the calendar's Philadelphia entry not cited |
 | 500 | Aug.–Sept. | the Los Angeles paper firebombed | lead: the day |
-| 501 | Sept. 8 | Elijah Muhammad on Malcolm, by the FBI's tap | passed-over paper: private remarks |
+| 501 | Sept. 8 | Elijah Muhammad on Malcolm, by the FBI's tap | passed-over paper: private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1964-09-08.black-nationalism (private remarks on the Nation's politics, by the FBI's tap) |
 | 504 n. | 1969 | Burger's WLBT decision | out of the brief: after the span |
 | 507–08 | Nov. | Moses at Stanford, "the cities are our jungles" | lead: the day |
 
@@ -174,65 +176,67 @@ Every item of the notes of every page cited is a witness (377 new rows; the rest
 
 ## Passed over (R44)
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, private remarks, social, personal or family, marked in their last cells (batch 6; see the section of that name at the end).
+
 Made page by page while reading, each dated event the book treats and the run did not enter:
 
 | page | date | event | why |
 |---|---|---|---|
 | 513 | Oct. 7 | the World Series' first game, St. Louis | out of the brief |
 | 516 | Oct. | Powell bargaining for help against the Esther James judgment | lead: no date (Hamilton, *Adam Clayton Powell*, 438-39) |
-| 517 | Oct. 14 | Lady Bird Johnson's statement of sympathy for Jenkins | minor: a personal statement |
+| 517 | Oct. 14 | Lady Bird Johnson's statement of sympathy for Jenkins | minor: a personal statement — **re-ruled Nov. 6, 2026 (R18 as amended):** already in: cal.1964-10-14.elections-1964-4; Branch cited there (517) |
 | 517 | Oct. 15 | Johnson in New York, "if Lincoln abolished slavery, let us abolish poverty" | lead: the Papers, 1343; the calendar's Oct. 15 entries not checked against it |
 | 517 | Oct. | Johnson has DeLoach run down a Goldwater plot in the Jenkins case | lead: no date |
 | 517-18 | Oct. | Hoover's flowers to Jenkins; Loeb and Kilpatrick object | lead: no day (NYT, Oct. 28, 1964, 34) |
 | 518 | Oct. 15 | South Vietnam's execution of McNamara's would-be assassin | lead: the Vietnam thread not checked (NYT, Oct. 11-15, 1964) |
 | 519 | Oct. | the Catholic Interracial Council's award to King; white evangelicals against him | lead: no day |
-| 522 | Nov. 3-4 | Johnson's election night at Austin, "God, I hate for it to be over"; the flight to the Ranch before dawn | passed-over paper: private remarks; the Daily Diary of both days is open (daybook/diary.yaml), a lead for a Diary run |
+| 522 | Nov. 3-4 | Johnson's election night at Austin, "God, I hate for it to be over"; the flight to the Ranch before dawn | passed-over paper: private remarks; the Daily Diary of both days is open (daybook/diary.yaml), a lead for a Diary run — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1964-11-03.elections-1964-johnson (a private remark on politics; the flight to the Ranch); the Daily Diary of both days behind To check, its pages Branch's |
 | 523 | Nov. | Lippmann, "indisputable proof that the voters are in the center"; Donovan | lead: the columns' days (Edwards, *Goldwater*, 344) |
-| 524 | Nov. 10-13 | Andrew Young at the retreat, "We change history ..." | passed-over paper: private remarks (in cal.1964-11-10.voting-rights-selma's meeting) |
-| 525 | Nov. 24 | Levison to Clarence Jones on Rustin and Muste, by the FBI's tap | passed-over paper: private remarks |
-| 528 | Nov. 19-20 | King to Vivian, Hoover "old and getting senile," by the tap | passed-over paper: private remarks |
+| 524 | Nov. 10-13 | Andrew Young at the retreat, "We change history ..." | passed-over paper: private remarks (in cal.1964-11-10.voting-rights-selma's meeting) — **re-ruled Nov. 6, 2026 (R18 as amended):** Young's remark added to cal.1964-11-10.voting-rights-selma by an edit (the meeting's entry; its map re-lettered, Young named) |
+| 525 | Nov. 24 | Levison to Clarence Jones on Rustin and Muste, by the FBI's tap | passed-over paper: private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1964-11-24.civil-rights-organizations (private remarks on SCLC's money, by the tap) |
+| 528 | Nov. 19-20 | King to Vivian, Hoover "old and getting senile," by the tap | passed-over paper: private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** already in: cal.1964-11-19.king-3; Branch cited there (528) |
 | 529 | Nov. | Greenwood's prosecutors decline for the last time to try the Travis shooting | lead: the day (Commission on Civil Rights, *Law Enforcement*, 54-) |
 | 529 | Oct. 18-Nov. 2 | the Freedom Vote's intimidations; a Stanford student beaten at Marks | lead: the days ("Running Summary of Incidents," A/KP7f26) |
-| 532 | Nov.-Dec. | Johnson, "I'd rather have him inside the tent ..." | passed-over paper: private remarks, undated |
+| 532 | Nov.-Dec. | Johnson, "I'd rather have him inside the tent ..." | passed-over paper: private remarks, undated — **re-ruled Nov. 6, 2026 (R18 as amended):** a private remark on public business (Johnson on keeping Hoover), undated on the page: a lead (below; Powers, Secrecy and Power, 393) |
 | 533 | 1976 | McCartney on exposing the FBI | out of the brief: after the span |
-| 533-34 | 1953-61 | Carey's FBI file and his cultivation of Hoover (DeLoach to Mohr, June 2, 1960; Hoover to Tolson, Mar. 21, 1961) | minor: social; before the span in part |
+| 533-34 | 1953-61 | Carey's FBI file and his cultivation of Hoover (DeLoach to Mohr, June 2, 1960; Hoover to Tolson, Mar. 21, 1961) | minor: social; before the span in part — **re-ruled Nov. 6, 2026 (R18 as amended):** within the span, entered: cal.1960-06-02.civil-rights-the-executive (DeLoach to Mohr), cal.1960-09-01.civil-rights-the-executive-2 (Carey to Hoover), cal.1961-03-21.civil-rights-the-executive (Hoover to Tolson): a favour asked of and granted by an officeholder; the file of 1953 and Carey's letters of 1957-59 before the span |
 | 539 | Nov. | Captain Joseph's press conference on Malcolm | lead: the day (NYT, Nov. 8, 1964, 48; *New Crusader*, Nov. 28) |
 | 539 | early Nov. | Kenneth X Morton beaten to death by men of Temple No. 7 | lead: the day (Clegg, *Original Man*, 226) |
-| 539 | Nov. | Louise Little released from Kalamazoo; Malcolm visits her in Detroit | minor: family |
-| 539 | Nov. 18 | Elijah Muhammad against Malcolm and Wallace, by the Chicago tap | passed-over paper: private remarks |
-| 541 | Dec. 10 | the Abernathys and the limousine | minor: social |
-| 542 | Dec. 10 | Juanita Abernathy taken to the hospital; the toasts, Daddy King's "to God" | minor: social |
+| 539 | Nov. | Louise Little released from Kalamazoo; Malcolm visits her in Detroit | minor: family — **re-ruled Nov. 6, 2026 (R18 as amended):** stays passed over: family (Louise Little's release; Malcolm's visit), no bearing on public business |
+| 539 | Nov. 18 | Elijah Muhammad against Malcolm and Wallace, by the Chicago tap | passed-over paper: private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1964-11-18.black-nationalism (private remarks on the Nation's politics) |
+| 541 | Dec. 10 | the Abernathys and the limousine | minor: social — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1964-12-10.king-3 (a quarrel of SCLC's leaders over precedence; Bernstein, 216, cited there) |
+| 542 | Dec. 10 | Juanita Abernathy taken to the hospital; the toasts, Daddy King's "to God" | minor: social — **re-ruled Nov. 6, 2026 (R18 as amended):** King's worries to Eskridge and Wachtel at the dinner entered as cal.1964-12-10.king-4; Juanita Abernathy's collapse and the toasts (Daddy King's "to God") stay passed over: social, no bearing on public business |
 | 542 | Dec. | King's worry over $240,000 in Birmingham bonds; Eskridge to Greenberg, Dec. 28 | lead: the reply not read (A/SC9f37) |
-| 543 | Dec. 10-11, 1964 | the Grand Hotel, Oslo, at night | minor: private |
-| 543 | Dec. | Coretta King and Young on King's depression | passed-over paper: private remarks |
+| 543 | Dec. 10-11, 1964 | the Grand Hotel, Oslo, at night | minor: private — **re-ruled Nov. 6, 2026 (R18 as amended):** stays passed over: the entourage's conduct at the hotel, no public business on the page |
+| 543 | Dec. | Coretta King and Young on King's depression | passed-over paper: private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** Young's account of the estrangement, given later (Easy Burden, 320), set in the note of cal.1964-12-10.king-3; Coretta King's, years later: no event of the span |
 | 544-45 | Dec. 10-11 | Sam Cooke's death | out of the brief |
-| 545 | Dec. 15 | Jones and Levison on the tap, Ann Jones | passed-over paper: private remarks |
-| 550 | Dec. | Abernathy will not go to Selma; Coretta King's worries, by the tap | passed-over paper: private remarks |
-| 552 | Jan. 2, 1965 | King and Abernathy on the succession, in the car | passed-over paper: private remarks |
+| 545 | Dec. 15 | Jones and Levison on the tap, Ann Jones | passed-over paper: private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** stays passed over: a family matter (Ann Jones's distress at the Oslo stories), no bearing on public business |
+| 550 | Dec. | Abernathy will not go to Selma; Coretta King's worries, by the tap | passed-over paper: private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1964-12.king-2 (Abernathy's refusal of Selma) and cal.1964-12-29.king (Coretta King's worries, by the tap) |
+| 552 | Jan. 2, 1965 | King and Abernathy on the succession, in the car | passed-over paper: private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1965-01-02.king (the succession in SCLC; Johnson's worry over his own) |
 | 553 | 1963-64 | Dunn's Rest Home's fired attendants; Boynton to King, Nov. 30, 1963 | lead: the sewing project's days |
-| 557 | Jan. 8-9 | King's counsel from Eskridge | passed-over paper: private remarks |
+| 557 | Jan. 8-9 | King's counsel from Eskridge | passed-over paper: private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1965-01.king (counsel on the FBI's package; Check: the day) |
 | 558 | Jan. | the paternity hearing in Los Angeles fails; Benjamin Brown shot in New York | lead: the days (Clegg, 227; Goldman, 250) |
 | 558 | Jan. 15 | the FBI: Malcolm's alias "M. Khalil" | minor |
-| 559 | Jan. 9 | Soracco's letter home; Fager and Bellamy join | minor: private |
+| 559 | Jan. 9 | Soracco's letter home; Fager and Bellamy join | minor: private — **re-ruled Nov. 6, 2026 (R18 as amended):** Soracco's letter entered as cal.1965-01-09.voting-rights-selma (a staff member's report of the campaign; the six months' sentences); Fager's and Bellamy's joining: stays passed over, a unit's routine (staff assignments) |
 | 560 | Jan. 15-16 | ward captains, the Ward V teenagers; Baker and Young's talks | minor: a unit's routine (in the Freedom Day entries) |
 | 564 | Jan. | the morticians and the barbers plan marches | lead: the days |
 | 568-69 | Jan. | Atlanta's men and the dinner: Austin at the Piedmont Driving Club, Hansell, NBC's preview | lead: the days |
-| 570 | Jan. 28 | Allen to Woodruff, "Dear Boss" | passed-over paper: private letter |
-| 571 | Jan. 26 | Lady Bird Johnson's diary of Johnson's fever | minor: private |
+| 570 | Jan. 28 | Allen to Woodruff, "Dear Boss" | passed-over paper: private letter — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1965-01-28.king-2 (the Mayor's private letter on the dinner's reception; Check: the day) |
+| 571 | Jan. 26 | Lady Bird Johnson's diary of Johnson's fever | minor: private — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1965-01-26.succession (the President's illness) |
 | 572 | Feb. | Taylor's moves against Khánh; Bundy's cable of Feb. 4, "a civil war within a civil war" | lead: the calendar's Feb. 4 entries not checked against it (McNamara, *In Retrospect*, 170) |
 | 575 | Feb. 22 | *Cooper v. Pate*'s trial; the Court's order | lead: the days |
 | 577 | Feb. 1-3 | Soracco and Fager in the jail | minor |
 | 580 | Feb. | the IRS's audit of King (Covington to Abernathy, Feb. 6); Rustin and the Philadelphia teachers' election (King's statement, Jan. 28) | lead: the days |
 | 584 | Feb. 9 | Moyers to Johnson on a speech on terrorism | lead: not entered for want of its text |
-| 587 | Feb. | Bevel's private life | minor: private |
-| 588 | Feb. 11 | Baker's threats against Clark and the pickets | passed-over paper: private remarks |
-| 592 | Feb. 16-18 | the Citizens Council's advertisement; Abernathy borrows $500, by the tap | press list; private |
+| 587 | Feb. | Bevel's private life | minor: private — **re-ruled Nov. 6, 2026 (R18 as amended):** stays passed over: private conduct, no bearing on public business |
+| 588 | Feb. 11 | Baker's threats against Clark and the pickets | passed-over paper: private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1965-02-11.voting-rights-selma-2 (the public safety director's private threats) |
+| 592 | Feb. 16-18 | the Citizens Council's advertisement; Abernathy borrows $500, by the tap | press list; private — **re-ruled Nov. 6, 2026 (R18 as amended):** Abernathy's loan entered as cal.1965-02-17.king (by the tap: King "completely broke"); the Citizens Council's advertisement: the press list, as ruled |
 | 592 | Feb. 18 | Marion's white meeting; James Orange arrested in the morning | in cal.1965-02-18.voting-rights's event (lead: Orange's arrest, an entry) |
 | 593 | Feb. 18 | NBC's Valeriani clubbed at Marion; UPI's cameras smashed | in cal.1965-02-18.voting-rights's event; the press list |
-| 596 | Feb. 22 | Johnson's dictated answer on prayer | passed-over paper: private remarks |
+| 596 | Feb. 22 | Johnson's dictated answer on prayer | passed-over paper: private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1965-02-22.press-and-broadcasting (a principal's drafting of an answer to a newspaper) |
 | 598 | Feb. 25 | King on television: he would defend his family; the *Herald-Dispatch*, Mar. 13 | lead: the day |
 | 598 | Feb. 28 | Lorenzo Harrison run out of Lowndes County | lead: the day (NYT, Mar. 1, 17) |
-| 599 | Feb. 26 | Bevel strikes Diane Nash | minor: private |
+| 599 | Feb. 26 | Bevel strikes Diane Nash | minor: private — **re-ruled Nov. 6, 2026 (R18 as amended):** stays passed over: a family matter, no bearing on public business |
 | 599 | Feb. 27 | Malcolm X's funeral | lead: the calendar's entry not checked |
 
 ## The press (R13)
@@ -310,26 +314,28 @@ Every item of the notes of the pages cited is an edge (94); 47 new rows, the res
 
 ## Passed over (R44)
 
+Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, private remarks, social, personal or family, marked in their last cells (batch 6; see the section of that name at the end).
+
 Made page by page while reading, each dated event the Epilogue treats and the run did not enter:
 
 | page | date | event | why |
 |---|---|---|---|
 | 601 | Feb.-Mar. 1965 | Malcolm's brothers made to justify his death in public | lead: the days (Perry, *Malcolm*, 375-77) |
-| 601 | after Feb. 26, 1965 | Wallace Muhammad left without pay or post; his jobs | minor: private |
+| 601 | after Feb. 26, 1965 | Wallace Muhammad left without pay or post; his jobs | minor: private — **re-ruled Nov. 6, 2026 (R18 as amended):** stays passed over: family (Wallace Muhammad's work), undated |
 | 602 | Feb.-Mar. 1965 | the police seize two New York Muslims as Hayer's accomplices | lead: the days (Goldman, *Death and Life*) |
 | 602 | 1966 | Hayer's testimony at the trial | lead: the day (Goldman, 318-59); in cal.1966-04-14.black-nationalism's note |
 | 602 | 1965-66 | the Newark police wreck Temple No. 25 after a chase | lead: the day (*Jet*, Jan. 13, 1966, 24-27) |
 | 602 | 1968 | the FBI's anonymous mailings: Temple No. 7's members "swindled" of $800,000 | lead: the month (Magida, 105) |
 | 602-5 | 1971-97 | Sharrieff wounded, Jamal killed, the Hanafi murders, Farrakhan's broadcasts, Elijah Muhammad's death, Wallace Muhammad's succession and reforms, Farrakhan's Nation, Qubilah Shabazz, Betty Shabazz's death | out of the brief: after the span |
 | 604 | 1977 | Hayer's affidavits | out of the brief |
-| 606 | fall 1965 | Hollis Watkins visits the Dahmers; Dahmer registers | minor: private |
+| 606 | fall 1965 | Hollis Watkins visits the Dahmers; Dahmer registers | minor: private — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1965-09.mississippi (Dahmer's registration under the new act; Check: the month) |
 | 606 | Jan. 9, 1966 | the preachers repeat Dahmer's notice | minor: a repetition (in cal.1966-01-08.mississippi's note) |
-| 607 | Jan. 10, 1966 | Fairley and Beech at the hospital: "They finally got me"; "I think I made a mistake" | passed-over paper: private remarks |
+| 607 | Jan. 10, 1966 | Fairley and Beech at the hospital: "They finally got me"; "I think I made a mistake" | passed-over paper: private remarks — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1966-01-10.mississippi-3 (a dying leader's remarks on the attack and his work) |
 | 607 | Jan. 1966 | Hattiesburg's Negroes near a riot at the courthouse | lead: the day (*Hattiesburg American*, Jan. 15, 1966, 1) |
 | 607 | Jan. 1966 | white citizens rebuild the Dahmer properties | lead: the day (*Hattiesburg American*, Jan. 22, 1966, 1) |
-| 607 | Jan. 1966 | the funeral; Dahmer's white siblings | minor: family |
+| 607 | Jan. 1966 | the funeral; Dahmer's white siblings | minor: family — **re-ruled Nov. 6, 2026 (R18 as amended):** stays passed over: family (the funeral; Dahmer's siblings), no bearing on public business |
 | 607 | 1966 | Wilkins's fund drive in Dahmer's name | lead: the day |
-| 607 | Feb. 4-Apr. 1, 1966 | Current and Beech, letters on the NAACP and the Dahmers | minor: private letters (A/AT, box 3) |
+| 607 | Feb. 4-Apr. 1, 1966 | Current and Beech, letters on the NAACP and the Dahmers | minor: private letters (A/AT, box 3) — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1966-02-04.civil-rights-organizations (the NAACP's dispute over the Dahmer fund, by letter) |
 | 608 | Feb. 1966 | the suspects threaten one another as informers | lead: no day |
 | 608 | Mar. 1966 | the second confession, withdrawn; the third | lead: the days |
 | 608 | spring 1966 | Lackey and Guest acquitted at Athens | lead: the day (Rosen to DeLoach, June 16, 1966, FLP-475) |
@@ -343,14 +349,14 @@ Made page by page while reading, each dated event the Epilogue treats and the ru
 | 610 | Jan. 1969 | Bowers's second mistrial, 10-2 | lead: the day (NYT, Jan. 26, 1969, 1): within the span only if before Jan. 20 |
 | 610 | 1969 | a federal jury deadlocks on ten Dahmer defendants | lead: the day; likely after the span |
 | 610-11 | 1970-94 | Wilson's leaves, release and commutation; the paroles; Bowers's interview; Beckwith's conviction; Ellie Dahmer's petition | out of the brief |
-| 611 | Mar. 1965 | Heschel, Bevel and Forman at Sully Jackson's house in Selma | minor: private (the march cited) |
-| 611 | spring 1965 | Moses on the farms | minor: private |
+| 611 | Mar. 1965 | Heschel, Bevel and Forman at Sully Jackson's house in Selma | minor: private (the march cited) — **re-ruled Nov. 6, 2026 (R18 as amended):** entered as cal.1965-03-21.voting-rights-selma-5 (the march's leaders lodged together; Heschel's word; Check: the day) |
+| 611 | spring 1965 | Moses on the farms | minor: private — **re-ruled Nov. 6, 2026 (R18 as amended):** stays passed over: private habits, undated, no public business |
 | 611 | summer 1965 | Moses and Lowenstein; the conference of antiwar activists in New York | lead: the day (Chafe, *Never Stop Running*, 218-20) |
 | 611-12 | summer 1965 | Moses and the religious leaders on Vietnam | lead: the days |
 | 612 | autumn 1965 | Moses at a conference of African nations in Ghana | lead: the day |
 | 612 | spring 1966 | the "Roots" conference, New Orleans | lead: the day (int. Moses, July 30, 1984) |
-| 612 | 1966 | Moses with Amzie Moore; Moses's marriage | minor: private |
-| 612 | winter 1966-67; early 1968 | Moses in Canada as Robinson; his Canadian passport | minor: private |
+| 612 | 1966 | Moses with Amzie Moore; Moses's marriage | minor: private — **re-ruled Nov. 6, 2026 (R18 as amended):** stays passed over: family (the marriage) and a social visit, no public business on the page |
+| 612 | winter 1966-67; early 1968 | Moses in Canada as Robinson; his Canadian passport | minor: private — **re-ruled Nov. 6, 2026 (R18 as amended):** the Canadian passport and the panic of spring 1968 entered as cal.1968-01.draft (a draft resister's flight; Check: the month); the winter of 1966-67 as Robinson: personal, as ruled (the flight itself is cal.1966-08.draft) |
 | 612 | summer 1968 | Tanzania grants Moses tacit asylum | lead: the day |
 | 612-13 | 1970-93 | Moses's later life; Rauh's letter; Nash at Trinity College; the Algebra Project | out of the brief, or undated (Rauh's letter: lead, no date) |
 
@@ -381,3 +387,16 @@ Foreign
 
 Each page read off the text layer, its folio checked; pinpoints against the page images of pp. 601, 606, 609, 611 and
 708. Every new entry compared with its day's (or month's) entries in the tree and the ledger before it was claimed (`./bib ledger find`); the Dahmer, Neshoba and Malcolm X matters claimed by *At Canaan's Edge* (b3-branch-ace-2 to -4: Mar. 28, 1966; Feb. 27, 1967; Mar. 15, 1968; June 1966) take additive ops, not duplicates. `./bib patch-check`: 0 errors (ten "one event?" warnings: distinct events). The patch merged into a scratch copy of the repo (`./bib merge --auto`), the flags resolved as kept, `./bib check` and `./bib audit-cal` run there: no error or warning from the new entries (the footnote pinpoints written "604 (the footnote)", not "n.*", which the italics check reads as markup).
+
+# Batch 6 (2026-11-06-b6-branch-pillar-of-fire), run Nov. 10, 2026: the private, social and family rows re-ruled under R18 as amended
+
+**The copy.** The owner's PDF (Drive id 1Qy6Ia5k69ZoiMuq5sBszzwVvFRc3Ji4Q), fetched again through Drive's public download address, sharing unchanged; printed page = PDF page less 44 (pp. 386–613) as before, the folio checked on every page read; pp. 541 and 607 read off the page images. The notes (pp. 621–713) read for every page cited. Deleted when done.
+
+**What was done.** The 45 rows of the three Passed-over tables whose ground was private, private remarks, social, personal or family ruled again, each marked in its last cell: 29 new entries (claimed in the ledger), 1 edit (Young's remark into the SCLC retreat, cal.1964-11-10.voting-rights-selma, its map re-lettered), 3 cites to entries already in or claimed (Graham at the Ranch, the Humphrey reader's; Mrs. Johnson's statement on Jenkins; King to Vivian on Hoover), a lead (Johnson on keeping Hoover, undated), and 14 left passed over in the amended rule's words (family; social with no bearing on public business; private conduct; a unit's routine). Patch `inbox/2026-11-06-b6-branch-pillar-of-fire.yaml` (34 ops). Witnesses `inbox/witnesses/2026-11-06-b6-branch-pillar-of-fire.yaml` (23 new: the FBI's records, letters, the Daily Diary's pages, interviews); 38 edges added to the by-work file, by page and phrase as before. Two cards made for the To check lines: `w.pomerantz-where-peachtree-meets-sweet`, `w.trillin-letter-from-jackson` (verbatim).
+
+**For the merger.** cal.1964-12-10.king-3 (the limousine) is claimed by this patch and cited by the Bernstein patch; cal.1964-08-28.press-and-broadcasting-2 is the Humphrey reader's, cited here.
+
+## Leads (batch 6)
+
+- National: Johnson on Hoover, "I'd rather have him inside the tent pissing out than outside pissing in" (Branch 532): the day (Powers, *Secrecy and Power*, 393).
+

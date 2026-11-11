@@ -114,6 +114,10 @@ From the notes and the dated mentions: `cal.1963-10-24.europe-and-the-alliance` 
 
 ### Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended.
+
+Batch 6 (Nov. 10–11, 2026): the owner's copy again (Drive id 1drwM1lGxNulxbdj6OnBdrjbdyZt-GAlO, 357 PDF pages, text layer; printed = PDF − 14), pp. 114–15, 171, 199–200 and 212 and their notes read, pp. 171 and 199 against the page images; deleted after. Four rows re-ruled, all entered: patch `inbox/2026-11-06-b6-schwartz-lyndon-johnson.yaml`, four new entries claimed in the ledger. Witnesses: `inbox/witnesses/2026-11-06-b6-schwartz-lyndon-johnson.yaml` (Stewart to MacLehose, May 11, 1966; Johnson to Roth, May 15, 1967, FRUS's print read; Wilson to Johnson, Mar. 15, 1968; McDonald's IIASA case study of 1997), four edges added to the by-work file. The rows ruled out of the brief as another country's politics (Krone, 16; Macmillan's resignation, 12; Erhard's defeat, 109) are not of this batch's grounds and stand for the owner, though R18 now takes another country's domestic politics in.
+
 How the list was made: a script over the text layer (pp. 1–239) listed every mention of a month and day, and of a month and year, 203 in all, each with its page, an inferred year and the calendar's entries of that day (±1) in the foreign-policy and economic threads; each was read in context, its note resolved, and judged against the calendar. Classes passed over without a row: dates outside the span (1933–45, 1969–71); retrospective dates the text names to place another event; the photographs' captions, unless they date a meeting the text does not; the dates of the entries Schwartz is already cited for.
 
 | Page | Date | Event | Why |
@@ -154,7 +158,7 @@ How the list was made: a script over the text layer (pp. 1–239) listed every m
 | 99 | June 1966 | de Gaulle in Moscow | out of the brief |
 | 101, 111 | May 19, 1966 | Acheson's outburst | already in as cal.1966-05-19.europe-and-the-alliance-france |
 | 109, 115 | July 1966 | Erhard's defeat in North Rhine-Westphalia | out of the brief |
-| 114 | May 1966 | Wilson to Bruce on Erhard | below the calendar's level (a remark) |
+| 114 | May 1966 | Wilson to Bruce on Erhard | re-ruled: entered as cal.1966-05.europe-and-the-alliance (said in private about public business; month only, "Check: the day") |
 | 117 | June 1966 | McNamara and von Hassel: "McNamara's Heavy Hand" | undated |
 | 117 | July 5, 1966 | Erhard's letter | already in as cal.1966-07-05.europe-and-the-alliance |
 | 118–20 | Mar.–July 1966 | the British election, the seamen's strike, the bank rate (July 14), the freeze (July 20) | out of the brief (British acts; Washington's part in as cal.1966-07-29.europe-and-the-alliance) |
@@ -163,7 +167,7 @@ How the list was made: a script over the text layer (pp. 1–239) listed every m
 | 137 | Oct. 1966 | Gromyko with Johnson | already in as cal.1966-10-10.soviet-union |
 | 141 | Sept. 1966 | de Gaulle at Phnom Penh | already in as cal.1966-09-01.vietnam |
 | 148 | Feb. 1967 | Kosygin to Wilson in London | out of the brief |
-| 171 | May 16, 1967 | Johnson's telegram of thanks to Roth | minor (thanks) |
+| 171 | May 16, 1967 | Johnson's telegram of thanks to Roth | re-ruled: entered as cal.1967-05-15.trade-2, its record FRUS 1964–68, VIII, doc. 358, read (sent May 15, 7:03 p.m., Washington; Schwartz's note 96 cites its page, 933) |
 | 176 | Apr. 1967 | the Common Market's finance ministers at Munich | out of the brief |
 | 178 | June 1967 | McCloy with Emminger and Kiesinger | a lead: the talks' days (FRUS 1964–68, VIII, docs. 128–29 and the notes) |
 | 179 | July 12, 1967 | de Gaulle with Kiesinger and Brandt | out of the brief |
@@ -174,7 +178,7 @@ How the list was made: a script over the text layer (pp. 1–239) listed every m
 | 196–98 | Dec. 29, 1967–Jan. 6, 1968 | the balance of payments program; the missions abroad (Katzenbach with Wilson, Jan. 6) | already in, in sum, as cal.1968-01-01.economy |
 | 198 | Jan. 8, 1968 | Eugene Rostow to Johnson against a border tax | a lead: FRUS 1964–68, VIII, doc. 175, not read |
 | 198 | Jan. 17, 1968 | the State of the Union: the gold cover | already in as cal.1968-01-17.program |
-| 199 | Mar. 15, 1968 | Wilson to Johnson on Barbara Ward's paper | minor (a private aside) |
+| 199 | Mar. 15, 1968 | Wilson to Johnson on Barbara Ward's paper | re-ruled: entered as cal.1968-03-15.economy-gold (a head of government's message on the gold crisis) |
 | 201 | Mar. 1968 | the gold pool's losses | already in as cal.1968-03-14.economy, cal.1968-03-16.economy-gold |
 | 204 | May–June 1968 | France's crisis; its loan from the IMF | out of the brief |
 | 207 | Sept. 1967 | the light ABM system | already in as cal.1967-09-18.defense |
@@ -182,7 +186,7 @@ How the list was made: a script over the text layer (pp. 1–239) listed every m
 | 209 | July 1, 1968 | the treaty signed; strategic talks announced | already in as cal.1968-07-01.testing |
 | 210 | Aug. 21, 1968 | the visit to Moscow to have been announced | already in as cal.1968-08-20.soviet-union |
 | 211–12 | June, Dec. 1966 | the Acheson committee's report; Bundy's appointment announced | a lead: their days |
-| 212 | June 1968 | the Soviets absent from the Sussex meeting | below the calendar's level |
+| 212 | June 1968 | the Soviets absent from the Sussex meeting | re-ruled: entered as cal.1968-06.soviet-union ("below the level" means only a unit's routine; month only, "Check: the day") |
 | 213 | Jan. 5, 1968 | Dubček first secretary | a lead: not in the calendar |
 | 216 | Aug. 20, 1968 | the invasion | already in as cal.1968-08-20.soviet-union |
 | 221 | Sept. 1968 | Johnson with Birrenbach | a lead: a caption only |

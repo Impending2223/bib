@@ -67,18 +67,17 @@ None: no calendar entry cited the book before this reading (the card was listed 
 
 ## Passed over
 
+The 'already in' rows read against the calendar, Nov. 10, 2026 (batch 7): each ruled, and moved from this table to the section "Batch 7: the 'already in' rows read against the calendar" below.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10–11, 2026): the rows of this table, of "Passed over, ruled again" and of "Passed over (third reading)" ruled private, social, personal, family or minor, and the blanket row for pp. 1–62, are ruled again below, "Batch 6: the private and social rows re-ruled".
 
 | page | date | event | why |
 |---|---|---|---|
 | 1-62 | 1914-1963 | the life before Vietnam | out of the brief: before the calendar's events, or private |
-| 64 | Mar. 1964 | McNamara embraces Khánh at Huế | already in under cal.1964-03-08.vietnam |
-| 82, 85 | Sept. 1964 | Hop Tac begins | already in under cal.1964-08-12.vietnam-2 (pending, MACV) |
 | 86, 89 | Dec. 1964 | LeMay upbraids Westmoreland | private remarks; the visit in under cal.1964-12.vietnam-2 |
 | 87-88 | late 1964-early 1965 | Westmoreland recommends the dependents go home by stages | undated; already in under the evacuation of February (cal.1965-02-07.vietnam) |
 | 103 | July 6, 1964 | Nam Đồng; Donlon's Medal of Honor | an operation below the level the calendar records |
 | 109 | spring 1964 | CINCPAC's OPLAN 37 | undated; a lead (the plan's date) |
-| 110 | Dec. 14, 1964 | BARREL ROLL begins | already in under cal.1964-12-12.laos (pending, MACV), which dates it Dec. 12 |
 | 112 | Nov. 1964 | Westmoreland against the Joint Chiefs' proposal to send the dependents home and land Marines at Đà Nẵng | undated; a lead (the message) |
 | 114 | Dec. 1964 | Johnson raises an international force again; "more flags" | undated; a lead |
 | 115 | late Jan. 1965 | authority for joint planning of reprisals with the South Vietnamese | undated; a lead (the cable) |
@@ -90,37 +89,23 @@ Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10–11, 2026): 
 | 133-34 | Dec. 1964-Apr. 1965 | troops of other countries; Park's "proud to have my troops under your command" | undated; private remarks |
 | 135 | June 1965 | Rusk on television, "hypnotized rabbits"; the White House's "no change in the mission" | a lead: the statement's day and record |
 | 136 | May-June 1965 | Sông Bé, Ba Gia, Đức Cơ, Đồng Xoài | operations below the level; Đồng Xoài in under cal.1965-06-09.vietnam-operations |
-| 137 | 1965 | Clifford, for the PFIAB, asks Westmoreland about another commander | already in under cal.1965-10-26.vietnam-3 (pending, Clifford) |
 | 144 | July 1965 | Sharp and Greene against the airmobile division inland | undated |
 | 154 | mid-Dec. 1965 | Westmoreland with Sharp at Honolulu; Wheeler and Harold Johnson in Saigon | undated; a lead |
 | 158 | Nov. 1965 | Westmoreland asks McNamara to equip all forces with the M-16 | undated; a lead |
 | 158 | mid-June 1967 | a congressional committee in Saigon on the M-16 | a lead (Ichord's subcommittee; its dates) |
 | 161 | Sept. 1965 | State's cable to Lodge on a plan for pacification | undated; a lead |
-| 169-75 | Mar.-June 1966 | the struggle in I Corps: the advisers withdrawn, Apr. 3 parade at Huế, Westmoreland to Honolulu May 12, the bridge at Đà Nẵng May 18, Wheeler's question on aid, Thi at Chu Lai, the airborne into Huế June 15 | already in under the thread "Vietnam: struggle" where dated; operations below the level; the rest undated |
 | 188 | Nov. 1, 1966 | National Day parade; the palace opened | minor |
-| 194 | Oct. 1966 | Westmoreland's requirements for 1967 | already in under cal.1966-10-20.vietnam-force-levels |
 | 196 | 1966-Feb. 1967 | TIGER HOUND, TALLY HO; fire into the DMZ approved | operations below the level; undated |
 | 198 | Sept. 1966 | the war game; Khe Sanh a likely target | undated; private remarks to Walt |
-| 200 | Sept. 7, 1967 | McNamara's press conference on the barrier | already in (Sept. 7, 1967, the news conference) |
-| 201-09 | 1966-67 | Con Thiện, Task Force Oregon, the hill fights, Lang Vei, CEDAR FALLS, JUNCTION CITY, the Riverine Force | operations below the level, or already in |
 | 202 | May 1967 | Mayborn and Bruce Clarke to investigate the M-16 for Johnson | undated; a lead |
-| 210-12 | Oct.-Nov. 1966 | McNamara and Kissinger tell Westmoreland he will get pacification; Johnson's 90 days for Lodge | private remarks; already in under cal.1966-11.vietnam |
-| 215 | May 4, 1967 | Komer and Abrams join the staff | already in under cal.1967-05-09.vietnam (NSAM 362) |
 | 220-21 | Sept. 1967 | Bunker asks Westmoreland to look into a coup report; the observers; the inauguration Oct. 31 | undated; already in under cal.1967-09-03.vietnam and the inauguration |
 | 222-23 | July-Nov. 1967 | 3,000 more advisers; the militia; the mobilization decree | undated |
 | 230 | July 12, 1967 | his mother's funeral at Columbia | private |
-| 231-35 | Nov. 15-29, 1967 | the Medal of Honor to Morris; the breakfast in Johnson's bedroom; Pittsburgh; Camp David; *Meet the Press* with Bunker (the daybook's line) | private, minor, or already in under the visit's entries |
 | 236 | late 1967 | Forsythe to Thiệu: "the Franklin D. Roosevelt hundred-day speech" | undated; private remarks |
-| 237-39 | Aug.-Dec. 1967 | the border battles; the off-record briefing of August, "momentous decision"; the late-December interview | operations already in; the briefing and the interview undated, leads |
-| 312-13 | Dec. 30, 1967-Jan. 1968 | Trinh's reception; the Romanian channel; Abrams's cable on the Dak To document | already in |
 | 317, 320 | Jan. 20-28, 1968 | the defector at Khe Sanh; the strategy conference of Jan. 27; the 4th Cavalry squadron to Hóc Môn | operations below the level |
 | 322 | Jan. 12, 1968 | Oberdorfer in the *Miami Herald* | a journalist's report: no act |
-| 326-32 | Jan. 31-Feb. 1968 | the fighting in Saigon and Huế; the casualties to Feb. 11 | already in under the Tet thread |
 | 335 | Mar. 22, 1968 | Schlesinger's letter to the *Washington Post* | a lead, for the owner's ruling (a private person's letter) |
-| 339-41 | Feb.-Apr. 1968 | NIAGARA; Lang Vei; the Đà Nẵng conference of Feb. 7 | already in, or operations below the level |
 | 348 | Apr. 1968 | Cushman and Rosson for evacuating Khe Sanh | undated; a lead |
-| 357 | early Mar. 1968 | Clifford's questions through Wheeler; Sharp's "crossroads" cable; Wheeler unable to fulfill the "request" | undated; the questions already in under Wheeler's CM-3098-68 of Mar. 8 (pending, Clifford); Sharp's cable a lead |
-| 360 | May 5-12, 1968 | the May offensive; Khâm Đức evacuated | already in under "Vietnam: May offensive" |
 | 366 | Nov. 11, 1968 | the parade at Spartanburg | minor |
 | 382 | summer 1968 | Eisenhower at Walter Reed asks a copy of the Press Club speech for Nixon | undated; a lead |
 | 383 | Oct. 8, 1968 | dinner at Quarters 1 with the Johnsons | private |
@@ -299,3 +284,33 @@ Not borne out: none. Not settled: the 1960–63 leads above (the book gives the 
 
 - National: Eisenhower's talk with Westmoreland before he took West Point, 1960 (32), and Eisenhower's Thayer Award at West Point, 1961 (33): the days. MacArthur's Thayer Award address, 1962 (35): the day. The act enlarging the Military Academy, approved by Kennedy "in 1963" (37): the statute and its day. The counterinsurgency conference at West Point, Rostow the keynote speaker, 1963 (39): the day. Rockefeller and the New York delegation on the expansion (34): the day.
 - Foreign: Johnson's "Kennedy gang" remark to Westmoreland (120) and Park's "proud to have my troops under your command" (134): the days. Johnson's call from the ranch after the Press Club speech, Nov. 1967 (235): the day.
+
+## Batch 7: the 'already in' rows read against the calendar (Nov. 10–11, 2026)
+
+Patch `inbox/2026-11-10-b7-westmoreland.yaml` (83 ops: 44 cites, 11 variants, 16 checks, 12 new entries, claimed in the ledger). Witnesses: 4 new rows, `inbox/witnesses/2026-11-10-b7-westmoreland.yaml` (Giáp's article of Sept. 1967, reported at 313; the enemy documents quoted at 239 and 313–14; COSVN's order of Feb. 1, 1968, quoted at 332: each `open: not found`); 4 edges appended to `sources/witnesses/by-work/westmoreland-soldier-reports.yaml` (`n.text`, the book having no notes). `./bib patch-check`: 0 errors; its 15 warnings the "one event?" and possible-duplicate notices on the new entries, each pair read against the day's or month's entries: distinct events (`--take keep` at the merge). The copy: the owner's PDF in Drive (1iR4zCqiS6W2N1cetqS-oL5qFJLFghypo), downloaded again; the offsets as above (less 16 to p. 110, 24 from 111, 32 from 183, 40 from 255, 48 from 327), held on the running heads of every page read; each page read off the text layer, and pp. 110, 170, 206, 215, 237, 238, 312, 332 and 341 against the page images (the dates and figures cited); the PDF and images deleted when done. How it was done: each row's pages read whole; the entries the row names, and the calendar's entries of the days and months the pages treat (every thread), searched for each event the pages date; each entry's units (`./bib claims show`) held to the page.
+
+| page | row | ruling |
+|---|---|---|
+| 64 | McNamara embraces Khánh at Huế | cited under `cal.1964-03-08.vietnam` (B) |
+| 82, 85 | Hop Tac begins | cited under `cal.1964-08-12.vietnam-2` (A, C; "a slow start in September 1964") |
+| 110 | Barrel Roll begins | cited under `cal.1964-12-12.laos` (A); variant and Check: Westmoreland dates the first flights Dec. 14, as Anthony does |
+| 137 | Clifford, for the PFIAB, asked about another commander | cited under `cal.1965-10-26.vietnam-3` (B, D) |
+| 169–75 | the struggle in I Corps | cited under `cal.1966-03-10.vietnam`, `cal.1966-03-11.vietnam-struggle`, `cal.1966-03-24.vietnam-struggle` (variant and Check: the 228 dead are I Corps's, by Westmoreland), `cal.1966-03-25.vietnam-struggle`, `cal.1966-04-12.vietnam-struggle`, `cal.1966-05-17.vietnam-struggle`, `cal.1966-05-21.vietnam-struggle` ("By May 23 Danang was calm": the Check there borne out), `cal.1966-05-21.vietnam-struggle-4` (Wheeler's question on aid), `cal.1966-05-22.vietnam-struggle`, `cal.1966-05-26.vietnam`, `cal.1966-06-01.vietnam-struggle`, `cal.1966-06-08.vietnam`, `cal.1966-06-15.vietnam-struggle` (June 15); the rest already cited (169–75 under `cal.1966-03.vietnam-struggle`, `cal.1966-04-03.vietnam-struggle`, `cal.1966-04-05.vietnam-struggle-4`, `cal.1966-05-15.vietnam`, `cal.1966-05-18.vietnam-struggle` and `-2`, `cal.1966-05-27.vietnam-struggle`, `cal.1966-05.vietnam-struggle` and `-2`). Entered: `cal.1966-05-12.vietnam-macv` (to Honolulu May 12, 171), `cal.1966-05-20.vietnam-macv` (back in Saigon May 20 at McNamara's order, 171–72) |
+| 194 | the requirements for 1967 | cited under `cal.1966-10-20.vietnam-force-levels` (the request, about 500,000 and a corps in reserve), with a Check: the book does not date the request |
+| 200 | McNamara's press conference on the barrier | cited under `cal.1967-09-07.vietnam` (the book does not date it) |
+| 201–09 | Cồn Tiên, Task Force Oregon, the hill fights, Làng Vây, Cedar Falls, Junction City, the Riverine Force | cited under `cal.1967-02-19.vietnam-force-levels`, `cal.1967-04-12.vietnam-force-levels`, `cal.1967-09-22.vietnam-force-levels-2` (201), `cal.1967-04-24.vietnam-operations` (201–2; Check: a platoon-size patrol and its relief, thirteen killed), `cal.1967-05-05.vietnam-operations` (202), `cal.1967-01-08.vietnam` (205), `cal.1967-02-22.vietnam` (206), `cal.1967-02-13.vietnam-operations` (207), `cal.1966-12-19.vietnam-force-levels` (208), `cal.1967-01-09.vietnam-operations-2` (209); variant and Check on `cal.1967-01-26.vietnam-operations` (seventeen days, some 700 killed) and on `cal.1967-05-14.vietnam-operations` (282 the American and South Vietnamese dead together); already cited: `cal.1967-03-20.vietnam-operations-2`, `cal.1967-03-21.vietnam-operations-2`, `cal.1967-04-20.vietnam-operations`, `cal.1967-05-04.vietnam-operations`, `cal.1967-05.vietnam-operations` and `-2`, `cal.1967-09.vietnam`, `cal.1967-10.vietnam-operations`, `cal.1967-12.vietnam-operations` |
+| 210–12 | McNamara and Kissinger on pacification; the ninety days for Lodge | already cited (batch 6): `cal.1966-10-10.vietnam`, `cal.1966-10.vietnam`, `cal.1966-11.vietnam`; nothing more |
+| 215 | Komer and Abrams join the staff, May 4, 1967 | cited under `cal.1967-05-09.vietnam` (214–15; A–C, E); variant and Check on `cal.1967-04-06.vietnam` (the entry has Abrams in Saigon May 5; the book, May 4) |
+| 231–35 | Nov. 15–29, 1967: the Medal of Honor, the breakfast, Pittsburgh, Camp David, *Meet the Press* | cited under `cal.1967-11-19.vietnam` (*Meet the Press*, 233–34); the rest already cited (batch 6). Westmoreland's call on the Eisenhowers at Walter Reed, Nov. 20 (233): passed over, a social call, its matter not given |
+| 237–39 | the border battles; the August briefing; the December interview | cited under `cal.1967-10-17.vietnam-operations` (237; variant and Check: 55 killed, 66 wounded), `cal.1967-10-29.vietnam-operations` (237; Check: 852 of the enemy killed against 50 allied dead), `cal.1967-12-21.vietnam` (239, 314); variant and Check on `cal.1967-11-19.vietnam-operations` (Hill 875 from Nov. 17) and `cal.1967-11-23.vietnam-operations` (289 Americans and 73 South Vietnamese killed); already cited: `cal.1967-10-27.vietnam-operations`, `cal.1967-11-03.vietnam`, `cal.1967-08.vietnam`, `cal.1967-12.vietnam-tet`. Entered: `cal.1967-10.vietnam-operations-2` (the document on an offensive in western Kon Tum, "a fortnight before the Dak To fight began") |
+| 312–13 | Trịnh's reception; the Romanian channel; Abrams's cable on the Dak To document | cited under `cal.1967-12-29.vietnam` (variant and Check: Westmoreland dates the reception Dec. 30) and `cal.1968-01-03.vietnam` (the bombing round Hanoi halted; Check: he places the Romanian's visit in mid-January); Abrams's cable already cited under `cal.1967-11-22.vietnam-order-of-battle`. Entered from the same pages: `cal.1967-09.vietnam-hanoi` (Giáp's article, 313), `cal.1967-11-19.vietnam-tet` (the 101st's captured document, 313–14) |
+| 326–32 | the fighting in Saigon and Huế; the casualties to Feb. 11 | cited under `cal.1968-02-01.vietnam` (Loan, 328), `cal.1968-02-05.vietnam-tet-2` (328), `cal.1968-02-24.vietnam` (330; 330–31, the graves), `cal.1968-02-18.vietnam-tet` (332); variant and Check on `cal.1968-02-29.vietnam-tet` (37,000 killed by the end of February); already cited: `cal.1968-01-31.vietnam-tet` (323–25, 328–29). Entered: `cal.1968-01-31.vietnam-tet-6` (Quảng Trị City, Forsythe and Rattan's battalion, 331), `cal.1968-01-31.vietnam-tet-7` (Long Bình, 331), `cal.1968-02-01.vietnam-tet` (COSVN's order, 332) |
+| 339–41 | Niagara; Làng Vây; the Đà Nẵng conference of Feb. 7 | cited under `cal.1968-02-07.vietnam` (Làng Vây, 341; variant and Check: "just after midnight on February 6"); Niagara and the siege already cited (`cal.1968-01-21.vietnam`, `cal.1968-01.vietnam-khe-sanh`, `cal.1968-02-07.vietnam-khe-sanh`, `cal.1968-02.vietnam-khe-sanh`). Entered: `cal.1968-02-07.vietnam-khe-sanh-2` (the conference, 341–42) |
+| 357 | Clifford's questions through Wheeler; Sharp's "crossroads"; Wheeler unable to fill the "request" | entered: `cal.1968-03.vietnam-205000-6` (the questions); Sharp's cable already in (`cal.1968-03.vietnam-205000-5`); a Check on `cal.1968-03-08.vietnam-205000-4` for Wheeler's message (which message it is not settled) |
+| 360 | the May offensive; Khâm Đức | cited under `cal.1968-05-05.vietnam` (B) and `cal.1968-05-12.vietnam-operations` (A, C). Entered: `cal.1968-05.vietnam-may-offensive` (the Y Bridge), `cal.1968-05.vietnam-may-offensive-2` (the battalion destroyed in the cemetery near Tân Sơn Nhứt) |
+
+Not borne out: none. Not settled: the message of 357 (Wheeler "unable to fulfill my 'request'"), which Wheeler cable it is; the request of 194, whether the one CINCPAC sent Oct. 20, 1966.
+
+### Leads (batch 7)
+
+- Foreign: the battalion put into Long An and Weyand's briefing of the Mission Council, 1966 (208): the days. The Rome plows in the Iron Triangle, "later in 1967" (205–6): the months. Hanoi's decree moving Tết to Jan. 29, 1968 (312): its day. The airfield near Huế given up at Lodge's asking, 1966 (176): the day. Trần Ngọc Tám to Westmoreland at a party, late 1967 (314): the day. Giáp's article of Sept. 1967 (313): the journal, the title, the day (`cal.1967-09.vietnam-hanoi`). Where and when COSVN's order of Feb. 1, 1968, was made public (`cal.1968-02-01.vietnam-tet`).

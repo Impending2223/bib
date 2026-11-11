@@ -62,6 +62,8 @@ Five: the memorandum of Feb. 15, 1965 (found and read: FRUS II, 134, the later v
 
 ## Passed over
 
+The "already in" rows read against the calendar, Nov. 10, 2026 (batch 7): the thirteen rows ruled "already in" without a cite are now ruled in "Already in, read against the calendar (batch 7, Nov. 10, 2026)" below, and moved out of this list.
+
 Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, social, a private paper or below the level, in the table "Re-ruled under R18 as amended" at the end of "Resumed" below (b6, read Nov. 10, 2026).
 
 How the list was made: every dated event of 1960–Jan. 20, 1969 in chapters 25–38 and their notes, page by page, from the reading notes; checked against the calendar with `./bib find` and the day's entries.
@@ -79,31 +81,24 @@ How the list was made: every dated event of 1960–Jan. 20, 1969 in chapters 25�
 | 220 | May 1960 | the Charleston debate | undated in the book; lead |
 | 229 | 1960 | the Peace Corps proposed in the primaries | undated |
 | 233 | Oct. 1960 | Thief River Falls, Kennedy "one of us" | undated; below the level |
-| 234 | Nov. 8, 1960 | Minnesota's returns (Kennedy by 22,000; Freeman beaten) | already in as `cal.1960-11-08.governors-mn` and the election entry |
 | 237–38 | 1961 | Andolsek's appointment urged after a leaders' breakfast | undated; lead |
-| 248 | June 1961 | Vienna | already in (the Vienna summit) |
 | 251–52 | summer 1961 | the White House pool, the disarmament agency agreed | undated (the reserves called up: July 1961); lead |
 | 253 | 1963 | the test-ban resolution with Dodd | undated (misplaced after a speech dated "June 1961"); lead |
 | 253–55 | Aug. 1963 | Moscow and Gorky Park with Stevenson; NBC's film taken | private; below the level |
 | 257–59 | Nov. 22, 1963 | the Chilean embassy luncheon, the news | private |
 | 261 | Nov. 22, 1963 | Smathers in Humphrey's office | private remarks |
 | 262–63 | Nov. 23–24, 1963 | Humphrey's memorandum for his files on Johnson | a private paper; no entry |
-| 263–65 | Nov. 24–25, 1963 | the rotunda; the funeral | already in |
-| 271–72 | Aug. 28, 1963 | breakfast with United Church of Christ ministers; the Minnesota delegation marches | below the level; the March already in |
-| 273 | Nov. 20, 1963 | Judiciary reports the bill | already in the thread |
 | 275 | Feb. 1964 | Mansfield: no round-the-clock sessions | undated |
 | 278 | 1964 | the newsletter; Stennis asks who writes it | undated (the Record would date it); lead |
 | 279 | 1964 | Katzenbach and Marshall assigned to the bill | undated |
 | 282 | June 1964 | Russell's closing speech on the clergy | undated (the Record); lead |
 | 285 | June 17, 1964 | Humphrey learns of his son's cancer | private |
-| 289–90 | 1964 | McNamara floated; Robert Kennedy told; the Cabinet ruled out | already in (`cal.1964-07-30.elections-1964`) |
 | 290–93 | "spring 1964" | the Gridiron dinner; Byrd brought to the White House and promises to report the tax bill | the date conflicts with the record (the bill reported in January 1964); lead |
 | 297 | 1964 | Hughes lobbies at the White House; Mansfield's name dropped | undated |
 | 298 | 1964 | Rowe's questions on his porch; the call from Humphrey's office, "I will be loyal" | undated; lead (the recordings may date the call) |
 | 299 | July 1964 | Humphrey warns Johnson on Mississippi | undated |
 | 305 | Aug. 28, 1964 | to the Ranch with Katharine Graham | social |
 | 307–08 | 1963–64 | deer and horses at the Ranch | private |
-| 309 | Nov. 3, 1964 | election night in Minneapolis | already in |
 | 317 | Nov. 1964–Jan. 1965 | Humphrey Lansdale's conduit; Hughes reports Rusk's view of the vice presidency | undated |
 | 318–19 | early 1965 | a lunch: Humphrey alone against bombing | undated |
 | 319 | Feb. 6–7, 1965 | Humphrey, Ball and Stevenson against bombing in a Cabinet Room meeting | not borne out: FRUS's participants (II, docs. 76–78, 80–81) do not include him; lead |
@@ -119,7 +114,6 @@ How the list was made: every dated event of 1960–Jan. 20, 1969 in chapters 25�
 | 339 | 1966 | the tax increase put aside | undated |
 | 342 | May 27, 1966 | birthday gifts | social |
 | 343 | June 16, 20, 22, 1966 | meetings attended | attendance only |
-| 344 | 1966 | Komer to Saigon | already in |
 | 347 | 1967 | McNaughton and Warnke on McNamara; the columns | undated |
 | 348 | Oct. 1967 | Karrick's briefing aboard Air Force Two; Beckington | undated within the trip |
 | 349 | Nov. 1967 | the report to Johnson; the New York speech | undated; leads |
@@ -127,16 +121,13 @@ How the list was made: every dated event of 1960–Jan. 20, 1969 in chapters 25�
 | 357 | Feb.–Mar. 1968 | Johnson's bedroom: the nineteenth parallel | undated; lead |
 | 359 | Mar. 31–Apr. 1, 1968 | Mexico City: the dinner for Díaz Ordaz; the treaty to be signed | below the level; lead (the signing) |
 | 361 | Jan. 1968; Nov. 4, 1964 | Rusk's aside; Johnson at the Ranch, the day after the 1964 election: he will not run again | private remarks |
-| 363–64 | Mar. 1968 | Robert Kennedy's commission | already in (`cal.1968-03-14.robert-kennedy`) |
 | 372 | 1968 | Gates on the money | undated |
-| 375 | 1968 | the State conventions | already in |
 | 376 | late 1967 | McCarthy tells Humphrey he will run | undated; lead |
 | 379 | Sept.–Oct. 1968 | the Flint plant; labor's polls | undated |
 | 383–84 | 1968 | Chicago kept as the site | undated |
 | 384–85 | Aug. 1968 | the Secret Service's reports | undated |
 | 389 | Aug. 26, 1968 | the plank cleared with Connally and McKeithen | already in as `cal.1968-08-26.elections-1968-chicago` (Humphrey's account cited there) |
 | 395 | 1968 | Stanford; Kent State, Pickett | undated |
-| 396 | Sept. 9, 1968 | Philadelphia | already in |
 | 397–98 | 1968 | the Detroit Economic Club, the ministers | undated; lead |
 | 398–99 | Oct. 1968 | downstate Illinois; Cranston | undated |
 | 400 | 1968 | the oil men at Waverly | undated; lead |
@@ -149,7 +140,6 @@ How the list was made: every dated event of 1960–Jan. 20, 1969 in chapters 25�
 | 415–16 | 1967 | Rome; de Gaulle; Windsor | undated; below the level |
 | 417 | June 1967 | the NSC; aid to Israel; State's contrary message, put right | undated; lead |
 | 418 | Dec. 1966 | Casals at ninety | social |
-| 419 | Jan. 1965 | Churchill's funeral, Warren sent | already in |
 | 421–22 | July 1965 | Stevenson's body brought home | ceremonial |
 | 428 | 1966–67 | the "Marshall Plan" for the cities, to the county officials at Detroit | undated; lead |
 | 432–33 | Nov.–Dec. 1968 | Nixon at Opa-locka offers the UN | undated; lead |
@@ -158,7 +148,6 @@ How the list was made: every dated event of 1960–Jan. 20, 1969 in chapters 25�
 | 490–91 n.2 | 1968 | Rockefeller sounded for second place | undated; lead |
 | 491 n.5 | Aug. 29, 1968 | Shriver ruled out by the Kennedys | already in as the choice of Muskie (`cal.1968-08-29.elections-1968`) |
 | 492 n.8 | 1968 | San Francisco, Alioto's cable car | undated |
-| 493 n.1 | Mar. 1965 | Humphrey urges the joint-session address on Selma | undated; already in (the address) |
 | 494 n.1 | Jan. 1969 | the Wilson Center's chairmanship | undated |
 
 By reason (92 rows): undated 56; already in 13; private, social, ceremonial or a private paper 11; below the level 5; out of the span 2; not placed or not found in the record 2; the date in conflict with the record 1; not borne out by the record 1; attendance only 1. Of them, 28 are also leads (`notes/leads.md`).
@@ -297,6 +286,28 @@ Read again from the owner's copy (the same Drive file, downloaded into the scrat
 | 398–99 | Cranston at the airport: "just please mention our names" | entered, `cal.1968-09.elections-1968-humphrey-2` (Check: the day) |
 | 418 | Casals at ninety, Puerto Rico | lead: the Vice President's trip (R15), no date in the memoir |
 
+## Already in, read against the calendar (batch 7, Nov. 10, 2026)
+
+The thirteen rows the first reading (Oct. 29) passed over as "already in" without citing the memoir under the entry, read again under R44 (an event already in takes its cite) from the owner's copy (the same Drive file, 560 PDF pages with its text layer, downloaded into the scratchpad and deleted after; the offsets above hold; pp. 344 and 375 checked against their page images, PDF 378 and 413). Patch: `inbox/2026-11-10-b7-humphrey-education-of.yaml` (b7-humphrey-education-of: 15 cites, 1 variant, 2 Checks, 3 entries added). No witnesses: the passages are Humphrey's own account; their notes (Chapter 32, notes 14-16; Chapter 34, note 2; Chapter 36, note 1) are asides, the polls of May 1968 and the Komer note among them, and name no record for these claims. The rulings below supersede "already in" for the same rows in the table "Passed over, ruled again" (b3-humphrey-2).
+
+| Page | Date | Event | Ruling |
+|---|---|---|---|
+| 233–34 | Nov. 8, 1960 | Minnesota's returns (Kennedy by 22,000; Freeman beaten) | cited under `cal.1960-11-08.governors-mn` (B: Freeman beaten, by about twenty-two thousand); Humphrey's own re-election and Kennedy's carrying the State were in no entry: entered as `cal.1960-11-08.elections-1960-10`, the Clerk's figures (Humphrey gives his plurality as 240,000; the Clerk's give 235,582) |
+| 248 | June 1961 | Vienna | cited under `cal.1961-06-03.berlin-and-vienna` (A: the summit; Humphrey's view of the briefing in the parenthetical) |
+| 263–65 | Nov. 24–25, 1963 | the Rotunda; the funeral | cited under `cal.1963-11-24.assassination` (C: the Rotunda, 1:30 p.m., Mansfield, Warren, McCormack) and `cal.1963-11-25.assassination` (A-C; de Gaulle and Haile Selassie of D's four) |
+| 271–72 | Aug. 28, 1963 | the UCC breakfast; the Minnesota delegation marches; the March | the breakfast and the march entered in b3 (`cal.1963-08-28.march-on-washington-2`); the March cited under `cal.1963-08-28.march-on-washington` (B, D, F-G) |
+| 273 | Nov. 20, 1963 | Judiciary reports the bill | cited under `cal.1963-11-20.civil-rights-bill` (A: two days before the assassination); also under `cal.1963-10-29.civil-rights-bill` (C: McCulloch's compromise, the commission enforcing through the courts) and `cal.1963-11-27.succession` (B: the appeal for the bill, quoted) |
+| 289–90 | 1964 | McNamara floated; Robert Kennedy told; the Cabinet ruled out | cited under `cal.1964-07-29.robert-kennedy` (B) and `cal.1964-07-30.elections-1964` (A); McNamara's name floated by Johnson "early," no month: a lead |
+| 309 | Nov. 3, 1964 | election night in Minneapolis | the "already in" was wrong (the national entries hold Johnson's night, not Humphrey's): entered as `cal.1964-11-03.elections-1964-5` |
+| 344 | June 1966 | Komer to Saigon | the trip itself was in no entry (only Komer's report, July 1): entered as `cal.1966-06-23.vietnam-pacification`, June 23–29, the days from Komer's report (FRUS 1964–68, IV, doc. 171, read); Humphrey's account of why he was sent in the parenthetical |
+| 363–64 | Mar. 1968 | Robert Kennedy's commission | cited under `cal.1968-03-14.robert-kennedy` (A-B) |
+| 375 | 1968 | the State conventions (Pennsylvania, Vermont, Idaho, Iowa: "I won") | cited under `cal.1968-05-27.elections-1968-state-conventions` (Pennsylvania); variant and Check on `cal.1968-05-25.elections-1968-state-conventions` (Iowa: the entry gives Kennedy 25, Humphrey 9½); Check on `cal.1968-06-14.elections-1968-2` (Idaho: the entry gives no division, and the convention met after Kennedy's death); Vermont's Democratic convention in no entry, the memoir giving no month: a lead |
+| 396 | Sept. 9, 1968 | Philadelphia | cited under `cal.1968-09-09.elections-1968` (A, the place: the campaign's start, thin crowds, Rizzo's estimate) |
+| 419 | Jan. 30, 1965 | Churchill's funeral, Warren sent | cited under `cal.1965-01-30.europe-and-the-alliance` (A, C) |
+| 493–94 n.1 | Mar. 1965 | Humphrey urges the joint-session address | entered in b3 from Solberg (`cal.1965-03-12.voting-rights-2`, this note cited); now cited under the address too, `cal.1965-03-15.voting-rights` (A, D) |
+
+Leads (to `notes/leads.md`, National): Johnson's floating of McNamara for Vice President, early 1964 (289–90): the month; Vermont's Democratic State convention of 1968, Humphrey against Kennedy's people (375): its day and its division (*CQ Weekly Report*).
+
 ## The press
 
 | Date | Outlet | Item | Page |
@@ -315,6 +326,8 @@ Read again from the owner's copy (the same Drive file, downloaded into the scrat
 - Detroit Economic Club and the black ministers, 1968 (397–98); San Francisco and Alioto (492 n.8): the days.
 - (b6) Johnson and Humphrey at the Ranch, the deer, "the previous year" (1963?), Johnson on Robert Kennedy's and McCarthy's tallies (307): the month.
 - (b6) Humphrey in Puerto Rico for Casals's ninetieth birthday (418): the day.
+- (b7) Johnson floats McNamara for Vice President, early 1964, "one of the early names" (289–90): the month.
+- (b7) Vermont's Democratic State convention, 1968, Humphrey against Kennedy's people, "I won" (375): the day and the division (*CQ Weekly Report*).
 
 ## Not read
 

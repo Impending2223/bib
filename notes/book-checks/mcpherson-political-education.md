@@ -75,48 +75,36 @@ Rows of the first Passed over list that the ruling (brief-batch3.md rule 5: an e
 
 ## Passed over
 
+The 'already in' rows read against the calendar, Nov. 10, 2026 (batch 7): each ruled, and moved from this table to the section "Batch 7: the 'already in' rows read against the calendar" below.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10–11, 2026): the rows below ruled family, social, a staff prank, an office's routine, a private person, a transmittal or authorship only are ruled again in "Batch 6: the private, social and draft rows re-ruled", at the end.
 
 What remains, by the ruling's terms: the events already entered under another id, the matters no source dates even to the month (leads), and the family, social and office routine. Pages are printed pages.
 
 | page | date | event | why |
 |---|---|---|---|
-| 179 | Aug. 1960 | school aid and medical care for the aged fail in the post-convention session | already in the calendar's 1960 session entries (Medicare, school aid) |
-| 184 | Jan. 1961 | the proposal that Johnson chair the Democratic caucus | already in as `cal.1961-01-03.congress` |
-| 185 | Jan. 1961 | Nixon's last ruling on Rule XXII; the fight put off | already in (`cal.1961-01-11.rules`) |
 | 191 | 1962–63 | Johnson's complaints, at the rostrum, of the Kennedys' handling of Congress | not dated to a month; lead |
-| 195–96 | 1961 | Spellman and Delaney: school aid killed in the Rules Committee | already in the school-aid thread (1961) |
 | 197 | 1962 | Kennedy and Kerr: the tax bill and the Arkansas River project | a story McPherson heard, not dated to a month; lead |
 | 199 | 1961 | McPherson's university speech on McCarthy and Muskie | the year only; lead |
-| 210 | 1962–63 | Kennedy's agreement to fly both flags in the Canal Zone | already in the Panama thread (`cal.1963-03-18.latin-america` and after) |
 | 214 | Nov. 24, 1963 | the Johnsons at St. Mark's; Baxter's sermon | a church service: family and religious observance |
 | 223 | 1964 | lunch with Vaughn and Eleta | "later that year," not dated to a month; lead |
 | 223 | 1964 | Califano to McNamara's office; McPherson takes the civil functions | not dated; the roster's (lead) |
 | 254–55 | 1965 | Whitten's "talk cotton," Redmon's prank on Califano | a staff prank; no business done |
-| 262 | summer 1966 | the airline strike | already in (jobs-and-wages-airlines) |
-| 265 | 1966 | Moyers leaves, Christian press secretary | already in the transition-and-staff thread |
 | 266–67 | n.d. | Johnson and Luce: "good news is no news" | undated; lead |
 | 273 | 1967 | Roche's memorandum to the President on the M-16 and the ARVN | the year only; lead |
-| 279 | Dec. 1967 | the District crime bill of 1967 signed | already in the crime thread |
 | 290 | 1965–67 | McPherson on the cabinet-level textile committee | undated; lead |
 | 292–93 | 1967 | the dinners with faculties at Harvard, Yale and the Bay Area (Califano, Cater, McPherson) | "several times in 1967": the year only; lead |
 | 291–92 | 1967 | Johnson rolls back the window glass and watch tariffs | the year only in the book; the Papers' Oct. 12 statement differs; lead |
 | 296–98 | fall 1965 | the urban task force; McPherson drafts the cities message | in the cities message's entry (pinned) |
 | 313–15 | Oct. 31–Nov. 2, 1966 | Seoul's crowds; the last night out with Korean ministers; Anchorage | already in (`cal.1966-11-01.vietnam`); the night out social |
 | 315 | Nov. 2, 1966 | the flight home, Symington's songs | social |
-| 320 | Apr. 1967 | Adenauer's funeral, McPherson with Johnson | already in (`cal.1967-04-24.europe-and-the-alliance`) |
 | 326 | Dec. 24, 1967 | the radio address McPherson wrote on the return | in the Holt trip's entry (pinned) |
-| 330 | Nov. 6, 1966; Dec. 12, 1967 | McPherson's lines on white backlash and the "wooden soldiers of the status quo" | the statements already in the 1966 and 1967 entries; authorship only (lead) |
-| 337 | 1966 | McNamara's program of 100,000 men | already in the defense thread |
-| 344 | Aug. 20, 1965 | Johnson to the equal employment conference after Watts | already in the Watts entries |
-| 350–52 | 1966 | the committee on the conference's recommendations at work; Roger Wilkins's paper at its first meetings | the committee already in (`cal.1966-08-25.civil-rights-the-executive`); the paper not dated to a month (lead) |
 | 353–55 | 1966 | the Child Development Group of Mississippi; Shriver's threat, the compromise | the year only in the book; lead |
 | 358–59 | n.d. | Johnson and a Negro leader: the Annapolis midshipmen | undated; lead |
 | 364 | 1968 | a friend's letter to King against disruption in Washington | not dated to a month; lead |
 | 370–74 | 1968 | McPherson's memorandum on a weekend in Harlem and Bedford-Stuyvesant with Martin and Alexander | undated; lead |
 | 377–78 | 1967 | Scammon: "get him photographed with a man in blue" | the year only; lead |
 | 381–82 | June 5, 1968 | the Oval Office's three television sets that night | an office's routine |
-| 391 | Apr. 7, 1965 | Goodwin the author of the Johns Hopkins speech | already in the speech's entry (authorship) |
 | 399 | n.d. | Johnson to McPherson: "more and more pressure on them" | undated; lead |
 | 399–400 | 1967 | Roche's memorandum on air power and the ARVN | the year only; lead |
 | 401–02 | 1967 | Rowland Evans's talk with McPherson | the year only; lead |
@@ -128,7 +116,6 @@ What remains, by the ruling's terms: the events already entered under another id
 | 430 | Mar. 1968 | Phil Carter of *Newsweek* on Arkansas and the war | a correspondent's report to McPherson, no act |
 | 433 | Mar. 27, 1968 | McPherson sends the President Carroll's editorial | a transmittal |
 | 439 | Mar. 31, 1968 | Cater's call at ten: the Chicago speech | an office's routine (the speech of Apr. 1 is in) |
-| 450–51 | Dec. 1968–Jan. 1969 | Clark's, Udall's and Wirtz's last acts | already in in part (Udall's lands); the rest not dated in the book (lead) |
 | 452 | Jan. 19–20, 1969 | the last night's party; Johnson seen off | social |
 
 How the list was made: every page of chs. 6–12 and the epilogue (156–455) read in order, each dated event noted, then each compared with the calendar's entries of its day and thread (`./bib find`); the chapters before 1960 (1–5) read for the background, not listed.
@@ -187,3 +174,31 @@ Not borne out: none. Not settled: none.
 ### Leads (batch 6)
 
 - National: the days McPherson drafted the "white backlash" statement (Nov. 1966) and the AFL-CIO speech (Dec. 1967), and the Liuzzo statement (Mar. 26, 1965) (330): the drafts' days, from the LBJ Library's speech files.
+
+## Batch 7: the 'already in' rows read against the calendar (Nov. 10–11, 2026)
+
+Patch `inbox/2026-11-10-b7-mcpherson.yaml` (24 ops: 17 cites, a Names op, 6 new entries, claimed in the ledger). Witnesses: 2 new rows, `inbox/witnesses/2026-11-10-b7-mcpherson.yaml` (Roger Wilkins's paper for the committee, quoted at 352, `open: not found`; the passage of p. 352, `part_of` the card, as the earlier run's passages are). The book has no notes: no by-work file. `./bib patch-check`: 0 errors; its warning the possible-duplicate notice on `cal.1961-01.rules-2` against `cal.1961-01.rules` (Rayburn and Kennedy on the Rules Committee): distinct. The copy: the owner's PDF in Drive (1BTxAg1STLYFPfTPknnzikmHhcD5sGx9K), downloaded again; printed page = PDF page − 12, as above, held on the running heads of every page read; pp. 178–80, 184–86, 194–97, 207–12, 261–66, 278–80, 319–21, 329–31, 336–38, 343–45, 349–53, 390–92, 449–52 read off the text layer, pp. 185, 196, 210 and 350 against the page images; deleted when done. The roll calls of `cal.1961-05-17.school-aid` and `cal.1961-05-24.school-aid` from Voteview's table of the 87th Senate's roll calls (S087, rolls 38 and 49), read Nov. 11, 2026.
+
+| page | row | ruling |
+|---|---|---|
+| 179 | school aid and medical care for the aged fail in the post-convention session, Aug. 1960 | cited under `cal.1960-08-08.congress` (A–B, the session as Johnson and Rayburn designed it), `cal.1960-08-23.medicare` (A), `cal.1960-09-01.congress` (C–D) |
+| 184 | the proposal that Johnson chair the Democratic caucus, Jan. 1961 | cited under `cal.1961-01-03.congress` (B–C) |
+| 185 | Nixon's last ruling on Rule XXII; the fight put off | cited under `cal.1961-01-11.rules` (A); Nixon's ruling not in the calendar after all: entered, `cal.1961-01.rules-2` (Check: the day) |
+| 195–96 | Spellman and Delaney: school aid killed in Rules, 1961 | cited under `cal.1961-05-25.school-aid` and `cal.1961-07-18.school-aid`; entered, the Senate's votes the page treats and the calendar lacked: `cal.1961-05-17.school-aid` (Thurmond's amendment, 25–70), `cal.1961-05-24.school-aid` (Goldwater's loans to private schools, tabled 66–25) |
+| 210 | Kennedy's agreement to fly both flags in the Canal Zone | not in the calendar after all (`cal.1963-03-18.latin-america` is the San José conference): entered, `cal.1963-10.latin-america-panama` (McPherson's tour of the Zone and the argument over the flags, 207–10), and from the same page `cal.1963-11.japan` (Okinawa, mid-November, 210–12); Kennedy's agreement itself is undated in the book: a lead |
+| 262 | the airline strike, summer 1966 | cited under `cal.1966-07-29.jobs-and-wages-airlines` (A) |
+| 265 | Moyers leaves, Christian press secretary | cited under `cal.1966-12-14.robert-kennedy` (A); Christian's appointment not in the calendar and not dated in the book: a lead |
+| 279 | the District crime bill of 1967 signed | cited under `cal.1967-12-27.crime-and-hijacking` (A); the pocket veto of 1966 already cited (`cal.1966-11-13.crime-and-hijacking`) |
+| 320 | Adenauer's funeral, McPherson with Johnson | cited under `cal.1967-04-24.europe-and-the-alliance` (A), McPherson added to its Names |
+| 330 | the lines on white backlash and the "wooden soldiers of the status quo" | already cited at 330 under `cal.1966-11-06.transportation` and `cal.1967-12-12.labor` (and the "hooded band of bigots" under `cal.1965-03-26.civil-rights-the-executive`); nothing more |
+| 337 | McNamara's program of 100,000 men | cited under `cal.1966-08-22.draft` (B); the public announcement not in the calendar and not dated in the book: a lead |
+| 344 | Johnson to the equal employment conference after Watts | cited under `cal.1965-08-20.jobs-and-wages` (A, C) and `cal.1965-08-26.states-and-cities` (A) |
+| 350–52 | the committee on the conference's recommendations; Roger Wilkins's paper | cited under `cal.1966-08-25.civil-rights-the-executive` (C); the paper entered, `cal.1966-09.civil-rights-the-executive` ("at the beginning of our meetings"; Check: the month); the order on federal buildings of Dec. 1968 already cited (`cal.1968-12.civil-rights-the-executive`) |
+| 391 | Goodwin the author of the Johns Hopkins speech | cited under `cal.1965-04-07.vietnam` (A, D) |
+| 450–51 | Clark's, Udall's and Wirtz's last acts | cited under `cal.1968-12-19.conservation` (A); the Cabinet sessions and the State of the Union already cited (`cal.1968-12.transition-and-staff`, `cal.1969-01-14.program`); Clark's antitrust suits and Wirtz's manpower acts not in the calendar and not dated in the book: leads |
+
+Not borne out: none. Not settled: none.
+
+### Leads (batch 7)
+
+- National: Kennedy's agreement that the flags of the United States and Panama fly side by side in the Canal Zone (210): the day and the record (FRUS 1961–63, XII). Christian's appointment as press secretary, after Moyers (265): the day. McNamara's public announcement of the program to take 100,000 men who had failed the mental test (337): the day and the text. Ramsey Clark's antitrust suits and Wirtz's moves on the manpower program in the last weeks of the administration (450–51): the days.

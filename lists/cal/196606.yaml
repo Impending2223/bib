@@ -764,6 +764,20 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1966-06-06.civil-rights-organizations
+    when: June 6
+    date: '1966-06-06'
+    thread: civil-rights-organizations
+    also: [mississippi-meredith]
+    follows:
+      - cal.1966-06-06.mississippi
+    c: 'Atlanta, SCLC''s staff meeting, at the radio''s report that Meredith is shot and the first word that he is dead. Hosea Williams: "If they killed James Meredith we gotta do something," and for flying to Memphis at once; Young for deciding first; the two nearly come to blows. Most of the staff go, King with them; Young and Bevel stay in Atlanta.'
+    n: '[[w.young-easy-burden]], 393–94. Young''s account. See [[cal.1966-06-06.mississippi]]. Names: Hosea Williams, Young, Martin Luther King.'
+    src:
+      c: 7d455649
+      rows:
+        - 'w.young-easy-burden 393–94: all'
+    tags: [name:williams-hosea, name:young-andrew-j-jr, name:king-martin-luther-jr]
   - id: cal.1966-06-07.elections-1966
     when: June 7
     date: '1966-06-07'
@@ -880,6 +894,18 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 445 n: all'
         - 'w.zaroulis-who-spoke-up 84: all'
     tags: [ok:result-form]
+  - id: cal.1966-06-07.mississippi-meredith-2
+    when: June 7
+    date: '1966-06-07'
+    thread: mississippi-meredith
+    also: [civil-rights-organizations]
+    c: 'King, by telephone, to Young in Atlanta: SCLC is taking major responsibility for the march; come to Mississippi at once. Young goes.'
+    n: '[[w.young-easy-burden]], 395. Young''s account. Check: the day; Young places the call after the leaders'' vow at Meredith''s bedside in Memphis. See [[cal.1966-06-07.mississippi-meredith]]. Names: Martin Luther King, Young.'
+    src:
+      c: 267dcd11
+      rows:
+        - 'w.young-easy-burden 395: all'
+    tags: [name:king-martin-luther-jr, name:young-andrew-j-jr]
   - id: cal.1966-06-08.vietnam
     when: June 8
     date: '1966-06-08'

@@ -112,6 +112,8 @@ Sorensen's page added, with its claim row and, where it bears part of `c`, its p
 
 ## Passed over
 
+The "already in" rows read against the calendar, Nov. 10, 2026 (batch 7): the two rows ruled "already in" without a cite (292–93, 308) are now ruled in "Already in, read against the calendar (batch 7, Nov. 10, 2026)" at the end of this file, and moved out of this list.
+
 Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, social, minor, a draft or a meeting's preparation, in this section and in the third and fourth runs' lists, in "Re-ruled under R18 as amended (b6)" at the end of this file (read Nov. 10, 2026).
 
 How the list was made: the candidate list above. For each dated event not entered, the entries of its day (±3 days) were read in the dump and the pending patches. "Minor" means only what the brief's rule says: a repetition, private or social trivia, or an operation below the calendar's level. Page | date | event | why.
@@ -160,9 +162,7 @@ How the list was made: the candidate list above. For each dated event not entere
 | 278 | 1961 | directive on ambassadors' authority, "early in 1961" | undated ("early in 1961"); lead: the letter to the ambassadors, May 29, 1961, in the daybook |
 | 286 | 1961-01 | Burke's speech toned down, RB-47 fliers | entered Nov. 4 (R15): cal.1961-01.right-and-the-military ("Kennedy's first week"; id as claimed in the ledger) |
 | 292 | 1961-01-28 | SOTU drafting, Jan 28-29 | a meeting's preparation (the drafting of the State of the Union; pinned on cal.1961-01-30.program) |
-| 292-93 | 1961 | litany: Feb 13 Congo threat, Mar 18 Angola, Mar 21 troika, Apr 12 Gagarin, May 1 NLF, May 15 Korea coup, May 30 Trujillo, July 19 Bizerte, Aug 25 Quadros, Sept 18 Hammarskjold | already in under their own ids; a list in the text, nothing new, not pinned |
 | 296 | 1961-04 | TV interview, week before the landing: "If we don't move now, Mr. Castro may become a much greater danger" | entered Nov. 4 (R15): cal.1961-04.cuba-bay-of-pigs-6 |
-| 308 | 1961-04-20 | Thursday morning walk; talks planned with every Republican leader | private remarks; the talks with Nixon (Apr. 20) and Eisenhower (Apr. 22) already in |
 | 345 | 1961/62 | Kennedy's helicopter visit to Byrd's birthday picnic | undated; lead |
 | 345 | 1962 | Hayden–Cannon feud delays the budget three months | undated span |
 | 355 | 1962-03 | Gridiron quip "I'd rather be Ted than Ed" | minor (off the record; a joke) |
@@ -522,3 +522,13 @@ Read again from the owner's copy (the same Drive file, 810 PDF pages with its te
 | 629 | 1963 | large armies in Europe, "in more than one meeting" | lead: no month |
 
 Leads (b6): the Gridiron dinners of 1962 and 1963, their days (355, 363); Kennedy's private guess at his rating, 1963 (333); the pre-press-conference breakfast on Wallace, Madame Nhu, Lasky and Mao (336); the hijacking to Cuba and Kennedy's remark (510); Madame Nhu (659); the Chinese, grain (665–66); the odds (705); the PT-109 replica and the Cuban exiles (710 n.4); large armies in Europe (629).
+
+
+## Already in, read against the calendar (batch 7, Nov. 10, 2026)
+
+The two rows the first reading (Oct. 29) passed over as "already in" without citing the book, read again under R44 (an event already in takes its cite) from the owner's copy (the same Drive file, 810 PDF pages with its text layer, downloaded into the scratchpad and deleted after; offset unchanged, printed page = PDF page − 16; p. 293 checked against its page image, PDF 309). Patch: `inbox/2026-11-10-b7-sorensen-kennedy.yaml` (b7-sorensen-kennedy: 14 cites, 4 entries added). The book has no notes; no witnesses beyond the card. FRUS read for the new entries: 1961–63, VII–IX, microfiche supp., docs. 7 and 9.
+
+| Page | Date | Event | Ruling |
+|---|---|---|---|
+| 292–93 | 1961 | the litany of the first eight months: Feb. 13 the Soviet threat in the Congo, Mar. 9 Laos, Mar. 18 Angola, Mar. 21 the troika at Geneva, Apr. 12 Gagarin, Apr. 19 the Bay of Pigs, May 1 the NLF and Hanoi's paper, May 15 the Korean coup, May 30 Trujillo, June 4 Vienna, July 19 Bizerte, Aug. 13 Berlin, Aug. 25 Quadros, Aug. 30 the Soviet tests, Sept. 18 Hammarskjöld | each cited under its entry by page: `cal.1961-02-13.congo` (292, A), `cal.1961-03-09.laos` (292, B), `cal.1961-04-12.space`, `cal.1961-04-19.cuba-2`, `cal.1961-05-16.japan-and-korea` (A-C; Sorensen dates the coup May 15, Washington's day, the entry's sources May 16 before dawn in Seoul: said in the parenthetical), `cal.1961-05-30.latin-america`, `cal.1961-06-03.berlin-and-vienna` (B), `cal.1961-07-19.africa` (A-C), `cal.1961-08-13.berlin-and-vienna`, `cal.1961-08-25.latin-america`, `cal.1961-08-30.berlin-and-vienna` (B), `cal.1961-09-18.congo` (all 293). Three were in no entry after all: entered as `cal.1961-03-18.africa` (Portugal's troops to Angola; Check: the day, Sorensen naming no source), `cal.1961-03-21.testing` (the Geneva conference resumes; the troika demanded, from FRUS VII–IX supp., docs. 7 and 9, read), and `cal.1961-05-01.vietnam-hanoi` (the NLF and the party's paper: the country by the end of the year; Check: the statements and their day). Dean's cable of Mar. 24 on the troika (doc. 9), a paper of government (R8), entered as `cal.1961-03-24.testing` |
+| 308 | 1961-04-20 | the Thursday walk; talks planned with every Republican leader | the walk entered in b6 (`cal.1961-04-20.cuba-bay-of-pigs-2`); the talks planned cited under Nixon's meeting, `cal.1961-04-20.cuba-bay-of-pigs` (A), and Eisenhower's at Camp David, `cal.1961-04-22.cuba` (A) |

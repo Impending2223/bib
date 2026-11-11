@@ -22,6 +22,10 @@ The rest hold for the units their maps give; where the page bears out only part 
 
 ## Passed over
 
+Re-ruled Nov. 6, 2026, under R18 as amended.
+
+Batch 6 (Nov. 10–11, 2026): the scan on archive.org again (DTIC_ADA328596, no text layer; leaf = PDF page; folio 731 = PDF 770, by archive.org's page-number file and the page images of 730 and 731), p. 731 and its note 2 (Notes to Pages 731–, PDF 991) OCR'd afresh from the page images (tesseract) and deleted after. The one row of the grounds re-ruled: the event already in the calendar, cited. Patch `inbox/2026-11-06-b6-watson-into-the-missile.yaml`: one cite (unit A) and its `via` row; one edge added to the by-work file (731 n.2, Goodpaster's memorandum, a registered witness). The other rows are not private, social or draft rows and stand as they were.
+
 Dated events of Jan. 6, 1960–Jan. 20, 1961 in the volume that the calendar does not take, a row each, for the owner to rule on. Every dated mention of the period was listed by script (about 500) and set against the calendar's entries of the day and the days around it; the rows below are the events. The military re-read of Nov. 5, 2026 (below) took the operations, deployments, orders and program decisions the first pass had left out, and listed the rest row by row: the hearings, the services' proposals, the Planning Board's and the Council's papers, the AFPC, NATO's staff papers. A row "lead" names an event the calendar should take once its record is read (R6, R8); the record is named. The volume's mentions of earlier years carried forward (the 1958 reorganization, Khrushchev's visit of 1959) are out of the span.
 
 | Page | Date | Event | Why |
@@ -51,7 +55,7 @@ Dated events of Jan. 6, 1960–Jan. 20, 1961 in the volume that the calendar doe
 | 645 | July 21, 1960 | the NSC approves the revised Far East policy | lead (R8: NSC 6012; the NSC's record of action) |
 | 375 | July 25, 1960 | the NSC: Burke on 40 Polaris submarines as the goal | lead (the 453d NSC's memorandum of discussion; the calendar has the meeting's Cuba matter, cal.1960-07-25.cuba) |
 | 678 | Aug. 1, 1960 | Dillon's report on military aid to the NSC, the President's decision | to leads (the aid policy's turn, FRUS 1958–60, IV) |
-| 731 | Aug. 1, 1960 | Eisenhower to the NSC: the world in "a kind of ferment" | a passed-over paper (private remarks, with nothing new) |
+| 731 | Aug. 1, 1960 | Eisenhower to the NSC: the world in "a kind of ferment" | re-ruled: already in the calendar as cal.1960-08-01.africa (Eisenhower to his foreign policy advisers, Goodpaster's memorandum, FRUS 1958–60, XIV, doc. 157: the record Watson's note 2 cites, not an NSC meeting); Watson, 731, cited under it for unit A |
 | 552 | Aug. 2, 1960 | State-Defense meeting: Twining proposes five Polaris submarines for NATO | lead (R7: the meeting's memorandum; the proposal's course in cal.1960-12-16.europe-and-the-alliance) |
 | 744 | Aug. 3, 1960 | the interdepartmental study of limited war reports | to leads (the study's record and the meeting of Oct. 4, p. 748) |
 | 377 | Aug. 8, 1960 | Eisenhower informs Congress five Polaris submarines to be begun in fiscal 1961 | to leads (the document: not the message of cal.1960-08-08.congress) |
