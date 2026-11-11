@@ -1315,7 +1315,7 @@ entries:
     thread: republican-party
     also: [elections-1964]
     c: 'The Republican National Committee, 8:02 p.m., on Jenkins: "The White House is desperately trying to suppress a major news story affecting the national security." United Press runs the story.'
-    n: '[[w.perlstein-before-the-storm]], 490; [[w.branch-pillar-of-fire]], 517; [[w.bernstein-guns-or-butter]], 152. Check: Branch puts the story on the UPI wire at 8:09 p.m. (517). To check: NYT, Oct. 15, 1964, pp. 1, 31 (cited by [[w.branch-pillar-of-fire]], 517); NYT, Oct. 16, 1964, pp. 1, 20 (cited by [[w.branch-pillar-of-fire]], 517); [[w.kearns-lyndon-johnson-and-the]], 207–9 (cited by [[w.branch-pillar-of-fire]], 517); [[w.goldman-tragedy-of-lyndon-johnson]], 295–98 (cited by [[w.branch-pillar-of-fire]], 517); [[w.clifford-counsel-to-the-president-2]], 401–2 (cited by [[w.branch-pillar-of-fire]], 517); [[w.miller-lyndon]], 486–87 (cited by [[w.branch-pillar-of-fire]], 517); [[w.deloach-hoovers-fbi]], 384–87 (cited by [[w.branch-pillar-of-fire]], 517). See [[cal.1964-10-14.elections-1964]]. Names: Jenkins.'
+    n: '[[w.perlstein-before-the-storm]], 490; [[w.branch-pillar-of-fire]], 517; [[w.bernstein-guns-or-butter]], 152; [[w.clifford-counsel-to-the-president-2]], 401–02 (Burch''s statement at 6 p.m.; carried by the two wire services shortly after 6 p.m.; not United Press by name or the hour 8:02). Check: Branch puts the story on the UPI wire at 8:09 p.m. (517). To check: NYT, Oct. 15, 1964, pp. 1, 31 (cited by [[w.branch-pillar-of-fire]], 517); NYT, Oct. 16, 1964, pp. 1, 20 (cited by [[w.branch-pillar-of-fire]], 517); [[w.kearns-lyndon-johnson-and-the]], 207–9 (cited by [[w.branch-pillar-of-fire]], 517); [[w.goldman-tragedy-of-lyndon-johnson]], 295–98 (cited by [[w.branch-pillar-of-fire]], 517); [[w.miller-lyndon]], 486–87 (cited by [[w.branch-pillar-of-fire]], 517); [[w.deloach-hoovers-fbi]], 384–87 (cited by [[w.branch-pillar-of-fire]], 517). See [[cal.1964-10-14.elections-1964]]. Names: Jenkins.'
     src:
       c: 49704e05
       rows:
@@ -1324,7 +1324,13 @@ entries:
         - 'via w.branch-pillar-of-fire 517 n.hysteria-over-walter-jenkins.a: all'
         - 'via w.branch-pillar-of-fire 517 n.hysteria-over-walter-jenkins.b: all'
         - 'w.bernstein-guns-or-butter 152: A'
+        - 'w.clifford-counsel-to-the-president-2 401–02: ?'
     tags: [name:jenkins-walter-w]
+    variants:
+      - unit: A
+        witness: w.clifford-counsel-to-the-president-2
+        reads: 'At 6 P.M. ... Dean Burch, issued a cruel and cryptic statement: "There is a report sweeping Washington that the White House is desperately trying to suppress a major news story affecting the national security."'
+        at: '401'
   - id: cal.1964-10-14.elections-1964-2
     when: Oct. 14–15
     date: '1964-10-14'
@@ -1399,13 +1405,14 @@ entries:
     date: '1964-10-14'
     thread: elections-1964
     c: 'Mrs. Johnson, from the White House, on Jenkins: "My heart is aching today for someone who has reached the end point of exhaustion in dedicated service to his country."'
-    n: '[[w.white-making-of-the-president-1965]], 368–69; [[w.branch-pillar-of-fire]], 517 (from Washington, that night: "My heart is aching...."). See [[cal.1964-10-14.elections-1964]]. Names: Lady Bird Johnson, Jenkins.'
+    n: '[[w.white-making-of-the-president-1965]], 368–69; [[w.branch-pillar-of-fire]], 517 (from Washington, that night: "My heart is aching...."); [[w.clifford-counsel-to-the-president-2]], 402 (the statement, quoted in part, "had reached"; not where it was made). See [[cal.1964-10-14.elections-1964]]. Names: Lady Bird Johnson, Jenkins.'
     src:
       c: 07b591c0
       rows:
         - 'w.white-making-of-the-president-1965 368–69: all'
         - 'via x.1964-10-14.lady-bird-johnson-statement-on-jenkins: A'
         - 'w.branch-pillar-of-fire 517: all'
+        - 'w.clifford-counsel-to-the-president-2 402: ?'
     tags: [name:johnson-lady-bird, name:jenkins-walter-w]
     time_range:
       - 1964-10-14T13:00Z
@@ -1413,17 +1420,35 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: B
+        witness: w.clifford-counsel-to-the-president-2
+        reads: My heart is aching today for someone who had reached the end point of exhaustion in dedicated service to his country
+        at: '402'
   - id: cal.1964-10-14.elections-1964-5
     when: Oct. 14
     date: '1964-10-14'
     thread: elections-1964
     c: New York, the Waldorf-Astoria. Johnson, told the full story of Jenkins by Clifford, calls on Jacqueline Kennedy, then speaks briefly at the Alfred E. Smith Memorial Foundation's dinner, Cardinal Spellman's, as the story moves on the wires.
-    n: 'Remarks in New York City at the Annual Dinner of the Alfred E. Smith Memorial Foundation, [1963–64 Pub. Papers 1329](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=569) (Oct. 14, 1964). [[w.white-making-of-the-president-1965]], 369. See [[cal.1964-10-14.elections-1964]]. Names: Johnson, Clifford, Jacqueline Kennedy, Spellman.'
+    n: 'Remarks in New York City at the Annual Dinner of the Alfred E. Smith Memorial Foundation, [1963–64 Pub. Papers 1329](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=569) (Oct. 14, 1964). [[w.white-making-of-the-president-1965]], 369; [[w.clifford-counsel-to-the-president-2]], 401 (Fortas and Clifford reach the President by telephone about 4 p.m., as he is about to call on Jacqueline Kennedy before a major speech that evening, and tell him the news; not the Waldorf, the Smith dinner or "the full story"). See [[cal.1964-10-14.elections-1964]]. Names: Johnson, Clifford, Jacqueline Kennedy, Spellman.'
+    src:
+      c: ad25b0a7
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=569: all'
+        - 'w.white-making-of-the-president-1965 369: all'
+        - 'w.clifford-counsel-to-the-president-2 401: ?'
     tags: [name:johnson-lyndon-b, name:clifford-clark, name:kennedy-jacqueline, name:spellman-francis, city:nyc, state:ny]
     time_range:
       - 1964-10-14T21:00Z
       - 1964-10-15T04:00Z
     time_zone: America/New_York
+  - id: cal.1964-10-14.elections-1964-jenkins
+    when: Oct. 14
+    date: '1964-10-14'
+    thread: elections-1964-jenkins
+    c: 'Fortas and Clifford ask three newspapers to hold the story of Jenkins''s arrest of Oct. 7: Noyes of the *Washington Star*, who will hold it if no one else prints it; the *Daily News*, which agrees to withhold it; Wiggins of the *Post*, who gives no commitment until he can assess the matter. They decide to tell no one in the White House, the President included. By Clifford''s account.'
+    n: '[[w.clifford-counsel-to-the-president-2]], 399–401 (Fortas''s call shortly before 10 a.m.; the *Star*, the *News*, the *Post*; no one in the White House told). See [[cal.1964-10-14.elections-1964]]. Names: Fortas, Clifford, Wiggins, Jenkins. Check: the hours; Clifford gives none but "shortly before 10 a.m." for Fortas''s call.'
+    tags: [name:fortas-abe, name:clifford-clark, name:wiggins-james-r, name:jenkins-walter-w]
   - id: cal.1964-10-15.soviet-union
     when: Oct. 15
     date: '1964-10-15'
