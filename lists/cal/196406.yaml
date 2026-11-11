@@ -3226,6 +3226,46 @@ entries:
     c: 'Humphrey, called off the Senate floor in mid-afternoon: his son Robert, in the hospital for a swelling in his neck, has a malignant growth and faces major surgery. Humphrey stays for the debate. Rauh and Mitchell come to the whip''s office, pleased with the bill''s progress, and stay with him. By Humphrey''s account.'
     n: '[[w.humphrey-education-of-a-public-1976]], 285, 479–80 n.13 (the call; the surgery; he stays on the floor; Rauh and Mitchell; by the note no flight to Minneapolis on the Friday, at his son''s side Saturday morning). Check: the day; the memoir puts the call on June 17 and the final passage "the next day," and its note puts the Friday, June 19, the day of the final vote ([[cal.1964-06-19.civil-rights-bill]]), as the day he could not fly. See [[cal.1964-06-17.civil-rights-bill]]; [[cal.1964-06-19.civil-rights-bill]]. Names: Humphrey, Rauh, Mitchell.'
     tags: [name:humphrey-hubert-h, name:rauh-joseph-l-jr, name:mitchell-clarence-jr]
+  - id: cal.1964-06-17.civil-rights-bill-3
+    when: June 17
+    date: '1964-06-17'
+    thread: civil-rights-bill
+    c: Senate adopts the amended Mansfield–Dirksen substitute for the House's bill, [76–18](https://voteview.com/rollcall/RS0880407).
+    n: '[Voteview, roll call 407](https://voteview.com/rollcall/RS0880407) (June 17, 1964). [[w.mann-walls-of-jericho]], 427. See [[cal.1964-06-10.civil-rights-bill]]. Names: Mansfield, Dirksen.'
+    src:
+      c: 396b8d4c
+      rows:
+        - 'https://voteview.com/rollcall/RS0880407: all'
+        - 'w.mann-walls-of-jericho 427: all'
+    tags: [name:mansfield-mike, name:dirksen-everett]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-06-17.civil-rights-bill
+          - cal.1964-06-17.civil-rights-bill-2
+          - cal.1964-06-17.civil-rights-bill-6
+        from: b6-walls-of-jericho
+  - id: cal.1964-06-17.civil-rights-bill-4
+    when: June 17
+    date: '1964-06-17'
+    thread: civil-rights-bill
+    follows:
+      - cal.1964-06-17.civil-rights-bill-3
+    c: 'Afternoon, just after the vote on the substitute. Humphrey leaves the floor for a call from his wife: their son Robert''s growth malignant, surgery at once. Rauh and Mitchell come into the whip''s office over the vote and find him in tears.'
+    n: '[[w.mann-walls-of-jericho]], 427. To check: [[w.humphrey-education-of-a-public-1976]], 211–12; *Life*, Sept. 27, 1968 (cited by [[w.mann-walls-of-jericho]], 427). See [[cal.1964-06-17.civil-rights-bill-3]]. Names: Humphrey, Rauh, Clarence Mitchell.'
+    src:
+      c: 1559cb1a
+      rows:
+        - 'w.mann-walls-of-jericho 427: all'
+    tags: [name:humphrey-hubert-h, name:rauh-joseph-l-jr, name:mitchell-clarence-jr]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-06-17.civil-rights-bill
+          - cal.1964-06-17.civil-rights-bill-2
+          - cal.1964-06-17.civil-rights-bill-6
+          - cal.1964-06-17.civil-rights-bill-3
+        from: b6-walls-of-jericho
   - id: cal.1964-06-18.vietnam
     when: June 18
     date: '1964-06-18'

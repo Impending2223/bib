@@ -110,6 +110,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-03-02.voting-rights
+    when: Mar. 2
+    date: '1960-03-02'
+    thread: voting-rights
+    c: 'Senate tables Long''s amendment to the bill''s first section, on Johnson''s motion, [64–8](https://voteview.com/rollcall/RS0860241): the Dirksen amendment on obstructing school desegregation orders not to bar speech advocating separation. The one substantive vote of the round-the-clock sessions.'
+    n: '[Voteview, roll call 241](https://voteview.com/rollcall/RS0860241) (Mar. 2, 1960) (the motion, the amendment, the vote). [[w.mann-walls-of-jericho]], 256–57 (the one substantive vote; Long''s amendment to the first section). To check: CQ Almanac, 1960, 198 (cited by [[w.mann-walls-of-jericho]], 256). See [[cal.1960-02-29.voting-rights]]. Names: Long, Johnson, Dirksen.'
+    src:
+      c: 5c7c5721
+      rows:
+        - 'https://voteview.com/rollcall/RS0860241: A'
+        - 'w.mann-walls-of-jericho 256–57: B'
+    tags: [name:long-russell-b, name:johnson-lyndon-b, name:dirksen-everett]
   - id: cal.1960-03-03.voting-rights
     when: Mar. 3
     date: '1960-03-03'
@@ -219,6 +231,25 @@ entries:
         - 'w.woods-fulbright 302: all'
         - 'via x.1960-03-06.carpenter-filibusters-wee-hours-gazette: all'
     tags: [name:fulbright-j-william]
+  - id: cal.1960-03-05.voting-rights-2
+    when: Mar. 5
+    date: '1960-03-05'
+    thread: voting-rights
+    c: 'Saturday. Johnson recesses the Senate for the evening: "Every man has the right to a Saturday-night bath." The Southerners'' filibuster at 125 hours and 31 minutes, the Senate''s longest continuous session, one fifteen-minute recess; the committees'' hearings suspended. Russell to the press: his men in splendid condition, "no area of compromise."'
+    n: '[[w.mann-walls-of-jericho]], 256–57. To check: Sam J. Ervin Jr., oral history, Russell Library; New York Times, Mar. 6, 1960; CQ Almanac, 1960, 198 (cited by [[w.mann-walls-of-jericho]], 256–57). See [[cal.1960-02-29.voting-rights]]. Names: Johnson, Russell.'
+    src:
+      c: 232b698a
+      rows:
+        - 'w.mann-walls-of-jericho 256–57: all'
+        - 'via w.mann-walls-of-jericho 256 n.by-march-5: B'
+        - 'via w.mann-walls-of-jericho 257 n.saturday-night-bath.a: A'
+        - 'via w.mann-walls-of-jericho 257 n.saturday-night-bath.b: A'
+    tags: [name:johnson-lyndon-b, name:russell-richard-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-03-05.voting-rights
+        from: b6-walls-of-jericho
   - id: cal.1960-03-06.cuba
     when: Mar. 6
     date: '1960-03-06'
