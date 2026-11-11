@@ -1014,6 +1014,33 @@ entries:
         - 'w.taking-charge 503: all'
         - 'via x.1964-08-04.johnson-robert-mcnamara-telephone-2115: all'
     tags: [name:mcnamara-robert-s, name:johnson-lyndon-b]
+  - id: cal.1964-08-04.vietnam-tonkin-8
+    when: Aug. 4
+    date: '1964-08-04'
+    thread: vietnam-tonkin
+    also: [vietnam-congress]
+    c: Chayes, State's legal adviser, works over the resolution for Congress; Ball approves it.
+    n: '[[w.bernstein-guns-or-butter]], 337. To check: [[w.austin-presidents-war]], 30 (cited by [[w.bernstein-guns-or-butter]], 337 n.4). Names: Chayes, Ball.'
+    src:
+      c: f9125dfe
+      rows:
+        - 'w.bernstein-guns-or-butter 337: all'
+    tags: [name:chayes-abram, name:ball-george-w]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-08-04.vietnam
+          - cal.1964-08-04.vietnam-2
+          - cal.1964-08-04.vietnam-3
+          - cal.1964-08-04.vietnam-4
+          - cal.1964-08-04.vietnam-tonkin
+          - cal.1964-08-04.vietnam-tonkin-2
+          - cal.1964-08-04.vietnam-tonkin-3
+          - cal.1964-08-04.vietnam-tonkin-4
+          - cal.1964-08-04.vietnam-tonkin-5
+          - cal.1964-08-04.vietnam-tonkin-6
+          - cal.1964-08-04.vietnam-tonkin-7
+        from: 2026-11-06-b6-bernstein-guns-or-butter
   - id: cal.1964-08-05.vietnam-7
     when: Aug. 5
     date: '1964-08-05'
@@ -6736,3 +6763,19 @@ entries:
       rows:
         - 'w.thomas-robert-kennedy 296: all'
     tags: [name:kennedy-robert-f, name:alsop-joseph, name:johnson-lyndon-b]
+  - id: cal.1964-08.desegregation-schools-2
+    when: Aug.
+    date: 1964-08
+    thread: desegregation-schools
+    c: 'Chicago. Willis, by mid-August, adds to the Willis–Whiston permissive transfer plan a proviso that the board may consider paid transportation for transfer students under special conditions, and a study of clustering schools: the most of the Hauser report that can be done without new funds. Whiston to the Friends of the Chicago Schools Committee, asking the board to reconsider its transportation policy: support the board "or be dissolved."'
+    n: '[[w.anderson-confronting-the-color-line]], 142. To check: Chicago Daily News, 21 August 1964; Chicago Defender, 22–28 August 1964; Chicago Daily Defender, 8, 9 September 1964 (cited by [[w.anderson-confronting-the-color-line]], 142 n.30). Check: the day. Names: Willis.'
+    src:
+      c: ac970c5c
+      rows:
+        - 'w.anderson-confronting-the-color-line 142: all'
+    tags: [name:willis-benjamin-c, state:il, city:chicago]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-08.desegregation-schools
+        from: 2026-11-06-b6-anderson-confronting

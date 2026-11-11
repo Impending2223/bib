@@ -1077,6 +1077,18 @@ entries:
       rows:
         - 'w.schlight-united-states-air-force 209: all'
     tags: [name:westmoreland-william]
+  - id: cal.1966-09-15.open-housing
+    when: Sept. 15
+    date: '1966-09-15'
+    thread: open-housing
+    c: 'Chicago, the agenda committee, before the delegates meeting: the mayors injunction on marches; bail and defense for the summers marchers; the civil rights bill of 1966, a telegram to Percy proposed. It approves William Moyers proposal that the Commission on Human Relations test two hundred realtors a week.'
+    n: '[[w.anderson-confronting-the-color-line]], 278–79. Names: Percy.'
+    src:
+      c: e5a998d7
+      rows:
+        - 'w.anderson-confronting-the-color-line 278–79: all'
+        - 'via x.1966-09-15.agenda-committee-minutes: all'
+    tags: [name:percy-charles-h, state:il, city:chicago]
   - id: cal.1966-09-16.opinion
     when: Sept. 16
     date: '1966-09-16'
@@ -2170,6 +2182,24 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1966-09-29.open-housing-2
+    when: Sept. 29
+    date: '1966-09-29'
+    thread: open-housing
+    also: [civil-rights-organizations]
+    c: 'Chicago, the agenda committee. The Coordinating Councils account: $7,400 spent in July, $2,200 in August, $1,200 in September, a balance of $2,400 on Oct. 1; a drive for $100,000 before Christmas proposed, nothing coming of it. McDermott: "The movement has not operated in a truly democratic fashion." A committee on electing the agenda committee and the Coordinating Councils future.'
+    n: '[[w.anderson-confronting-the-color-line]], 281.'
+    src:
+      c: bf74651f
+      rows:
+        - 'w.anderson-confronting-the-color-line 281: all'
+        - 'via x.1966-09-29.agenda-committee-minutes: all'
+    tags: [state:il, city:chicago]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-09-29.open-housing
+        from: 2026-11-06-b6-anderson-confronting
   - id: cal.1966-09-30.economy
     when: Sept. 30
     date: '1966-09-30'

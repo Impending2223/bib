@@ -350,6 +350,19 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-09-02.civil-rights-organizations
+    when: Sept. 2
+    date: '1965-09-02'
+    thread: civil-rights-organizations
+    also: [desegregation-schools, open-housing]
+    c: 'Chicago, the Coordinating Councils delegates, on the conference of Aug. 31. They support the Englewood residents suit under Title VI against urban renewal. The education panels Fall Freedom Program: the movement to give the schools standardized tests itself; Hal Baron of the Urban League on Operation Spotlights failure.'
+    n: '[[w.anderson-confronting-the-color-line]], 175.'
+    src:
+      c: b94c9534
+      rows:
+        - 'w.anderson-confronting-the-color-line 175: all'
+        - 'via x.1965-09-02.ccco-minutes: all'
+    tags: [state:il, city:chicago]
   - id: cal.1965-09-03.latin-america
     when: Sept. 3–4
     date: '1965-09-03'
@@ -513,6 +526,19 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1965-09-06.civil-rights-organizations
+    when: Sept. 6
+    date: '1965-09-06'
+    thread: civil-rights-organizations
+    also: [desegregation-schools, king]
+    c: Chicago, the Coordinating Councils steering committee, Bevel and Bernard Lafayette of the American Friends Service Committee present, on organizing parents around the test scores. Lafayette for a "reverse boycott," students refusing to leave their classrooms; Bevel for slide shows on the jobs not waiting for the ghetto schools graduates.
+    n: '[[w.anderson-confronting-the-color-line]], 177. To check: CCCO meeting, 20 June 1965 [as the note gives it, for the steering committee of Sept. 6] (cited by [[w.anderson-confronting-the-color-line]], 177 n.20).'
+    src:
+      c: 3f40f371
+      rows:
+        - 'w.anderson-confronting-the-color-line 177: all'
+        - 'via w.anderson-confronting-the-color-line 177 n.20: all'
+    tags: [state:il, city:chicago]
   - id: cal.1965-09-07.state-constitutions-tx
     when: Sept. 7
     date: '1965-09-07'
@@ -3344,3 +3370,21 @@ entries:
       c: a79e5945
       rows:
         - 'w.bernstein-guns-or-butter 444: all'
+  - id: cal.1965-09.jobs-and-wages-14b-3
+    when: Sept.
+    date: 1965-09
+    thread: jobs-and-wages-14b
+    also: [congress]
+    c: 'Johnson, of Mansfield''s refusal of round-the-clock sessions against the filibuster: "Why do I have to have a saint for Majority Leader? Why can''t I have a politician?"'
+    n: '[[w.bernstein-guns-or-butter]], 311. To check: [[w.califano-triumph-and-tragedy-of]], 44 (cited by [[w.bernstein-guns-or-butter]], 311 n.2). Check: the day. See [[cal.1965-09.jobs-and-wages-14b-2]]. Names: Johnson, Mansfield.'
+    src:
+      c: 5caf3ea8
+      rows:
+        - 'w.bernstein-guns-or-butter 311: all'
+    tags: [name:johnson-lyndon-b, name:mansfield-mike]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1965-09.jobs-and-wages-14b
+          - cal.1965-09.jobs-and-wages-14b-2
+        from: 2026-11-06-b6-bernstein-guns-or-butter

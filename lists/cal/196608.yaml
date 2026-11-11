@@ -1357,6 +1357,26 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1966-08-09.open-housing-4
+    when: Aug. 9
+    date: '1966-08-09'
+    thread: open-housing
+    also: [labor]
+    c: Chicago, late Tuesday night. The action committee, members of the agenda committee with it, four hours on the UAWs request to suspend the demonstrations while talks are explored. Raby leaves thinking it agreed to divert the next days march from Bogan to the Real Estate Boards offices; Bevel, Jackson and Lafayette think the decision theirs.
+    n: '[[w.anderson-confronting-the-color-line]], 230. Names: Raby.'
+    src:
+      c: 7341efe8
+      rows:
+        - 'w.anderson-confronting-the-color-line 230: all'
+        - 'via x.1966-08-09.agenda-committee-minutes: all'
+    tags: [name:raby-albert, state:il, city:chicago]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-08-09.open-housing
+          - cal.1966-08-09.open-housing-2
+          - cal.1966-08-09.open-housing-3
+        from: 2026-11-06-b6-anderson-confronting
   - id: cal.1966-08-10.space
     when: Aug. 10
     date: '1966-08-10'
@@ -1682,6 +1702,23 @@ entries:
         - 'w.anderson-confronting-the-color-line 232: all'
         - 'via w.anderson-confronting-the-color-line 232 n.66: all'
     tags: [name:kerner-otto, state:il]
+  - id: cal.1966-08-11.open-housing
+    when: Aug. 11
+    date: '1966-08-11'
+    thread: open-housing
+    also: [king]
+    c: The march to Bogan put off to Friday. Raby and Berry fly to Jackson, Miss., to confer with King on the prospects for negotiation.
+    n: '[[w.anderson-confronting-the-color-line]], 232. To check: Chicago Sun-Times, 12 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 232 n.67). Names: Raby, King.'
+    src:
+      c: 7444d134
+      rows:
+        - 'w.anderson-confronting-the-color-line 232: all'
+    tags: [name:raby-albert, name:king-martin-luther-jr, state:ms, state:il, city:chicago]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-08-11.open-housing-2
+        from: 2026-11-06-b6-anderson-confronting
   - id: cal.1966-08-12.opinion
     when: Aug. 12
     date: '1966-08-12'
@@ -3395,6 +3432,18 @@ entries:
         - 'w.woods-fulbright 429: all'
         - 'via x.1966-08-30.upi-13-food-for-peace: all'
     tags: [name:fulbright-j-william, name:johnson-lyndon-b, name:ellender-allen-j]
+  - id: cal.1966-08-30.open-housing
+    when: Aug. 30
+    date: '1966-08-30'
+    thread: open-housing
+    c: 'Chicago, the Chicago Freedom Movements action committee, which ran the summers demonstrations: the summit agreement "very bad"; the task "to show that the various agencies will not abide by the implications of the agreement." The agenda committee criticized for taking the decisions without consulting; the march on Cicero given up too easily.'
+    n: '[[w.anderson-confronting-the-color-line]], 274. To check: Chicago Freedom Movement, Action Committee minutes, 30 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 274 n.10).'
+    src:
+      c: 7690733e
+      rows:
+        - 'w.anderson-confronting-the-color-line 274: all'
+        - 'via w.anderson-confronting-the-color-line 274 n.10: all'
+    tags: [state:il, city:chicago]
   - id: cal.1966-08-31.opinion
     when: Aug. 31
     date: '1966-08-31'

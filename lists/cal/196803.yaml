@@ -1580,6 +1580,17 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Zurich
     range_basis: kind
+  - id: cal.1968-03-10.elections-1968-johnson
+    when: Mar. 10
+    date: '1968-03-10'
+    thread: elections-1968-johnson
+    c: 'Mrs. Johnson''s diary, of Johnson''s condition: "a day of deep gloom."'
+    n: '[[w.bernstein-guns-or-butter]], 487. To check: [[w.johnson-white-house-diary]], 633–47 (cited by [[w.bernstein-guns-or-butter]], 487 n.4). Names: Lady Bird Johnson, Johnson.'
+    src:
+      c: ad98d71c
+      rows:
+        - 'w.bernstein-guns-or-butter 487: all'
+    tags: [name:johnson-lady-bird, name:johnson-lyndon-b]
   - id: cal.1968-03-11.vietnam
     when: Mar. 11–12
     date: '1968-03-11'
@@ -2631,6 +2642,24 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1968-03-14.elections-1968-johnson
+    when: Mar. 14
+    date: '1968-03-14'
+    thread: elections-1968-johnson
+    c: 'Mrs. Johnson''s diary: "one of those terrific, pummeling White House days that can stretch and grind and use you."'
+    n: '[[w.bernstein-guns-or-butter]], 487. To check: [[w.johnson-white-house-diary]], 633–47 (cited by [[w.bernstein-guns-or-butter]], 487 n.4). See [[cal.1968-03-10.elections-1968-johnson]]. Names: Lady Bird Johnson.'
+    src:
+      c: c912f2d1
+      rows:
+        - 'w.bernstein-guns-or-butter 487: all'
+    tags: [name:johnson-lady-bird, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-03-14.elections-1968-2
+          - cal.1968-03-14.elections-1968-3
+          - cal.1968-03-14.elections-1968-4
+        from: 2026-11-06-b6-bernstein-guns-or-butter
   - id: cal.1968-03-15.open-housing-ky
     when: Mar. 15
     date: '1968-03-15'
@@ -3252,6 +3281,17 @@ entries:
         - 'w.bernstein-guns-or-butter 494: all'
         - 'via x.1972.frank-an-american-death: all'
     tags: [name:king-martin-luther-jr]
+  - id: cal.1968-03-17.elections-1968-johnson-2
+    when: Mar. 17
+    date: '1968-03-17'
+    thread: elections-1968-johnson
+    c: 'Mrs. Johnson''s diary: a "growing feeling of Prometheus Bound, just as though we were lying there on the rock, exposed to the vultures, and restrained from fighting back." Johnson "bone weary," "dead tired," unable to sleep; the sties back on his eyes.'
+    n: '[[w.bernstein-guns-or-butter]], 487–88. To check: [[w.johnson-white-house-diary]], 633–47 (cited by [[w.bernstein-guns-or-butter]], 487 n.4). Check: the day of the sties and the sleeplessness; Bernstein runs the diary''s March passages together. See [[cal.1968-03-10.elections-1968-johnson]]. Names: Lady Bird Johnson, Johnson.'
+    src:
+      c: ab5cb026
+      rows:
+        - 'w.bernstein-guns-or-butter 487–88: all'
+    tags: [name:johnson-lady-bird, name:johnson-lyndon-b]
   - id: cal.1968-03-18.vietnam
     when: Mar. 18
     date: '1968-03-18'
@@ -6132,6 +6172,18 @@ entries:
       - 1968-03-30T22:00Z
       - 1968-03-31T05:00Z
     time_zone: America/New_York
+  - id: cal.1968-03-30.elections-1968-3
+    when: Mar. 30–31
+    date: '1968-03-30'
+    thread: elections-1968
+    also: [robert-kennedy-campaign]
+    c: 'Saturday evening, New York, Toots Shor''s: the O''Briens'' farewell dinner for their son, bound for Vietnam, Breslin with them. Unruh, for peace and Robert Kennedy, against Johnson; to O''Brien: "If you feel that strongly, why isn''t your son in Vietnam?" O''Brien: "As a matter of fact, this is a goodbye dinner we''re having; he''s on his way." The next day Unruh telephones to apologize.'
+    n: '[[w.bernstein-guns-or-butter]], 486. To check: O''Brien, oral history, XXI, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 486 n.3). Names: O''Brien, Unruh, Robert Kennedy, Johnson.'
+    src:
+      c: 10441c31
+      rows:
+        - 'w.bernstein-guns-or-butter 486: all'
+    tags: [name:obrien-lawrence-f, name:unruh-jesse-m, name:kennedy-robert-f, name:johnson-lyndon-b]
   - id: cal.1968-03-31.elections-1968
     when: Mar. 31
     date: '1968-03-31'
@@ -7010,3 +7062,23 @@ entries:
     c: Mexico City, Ambassador Fulton Freeman's residence. Humphrey hosts a dinner for President Díaz Ordaz. For Johnson's address, the two and their wives in the library, the guests in other rooms, the press outside. By Humphrey's account.
     n: '[[w.humphrey-education-of-a-public-1976]], 358–59, 359 n. (by his note, the first time a Mexican President set foot in the American Embassy since the Revolution). See [[cal.1968-03-31.elections-1968-4]]; [[cal.1968-03-31.elections-1968-6]]. Names: Humphrey, Díaz Ordaz, Johnson.'
     tags: [name:humphrey-hubert-h, name:diaz-ordaz-gustavo, name:johnson-lyndon-b]
+  - id: cal.1968-03.robert-kennedy-campaign-6
+    when: Mar.
+    date: 1968-03
+    thread: robert-kennedy-campaign
+    c: 'New York, a dinner party a few days after Robert Kennedy''s announcement. Jacqueline Kennedy to Schlesinger: "Do you know what I think will happen to Bobby? ... The same thing that happened to Jack. ... There is so much hatred in this country, and more people hate Bobby than hated Jack."'
+    n: '[[w.bernstein-guns-or-butter]], 501. To check: [[w.schlesinger-robert-kennedy-and-his]], 857 (cited by [[w.bernstein-guns-or-butter]], 501 n.7). Check: the day. See [[cal.1968-03-16.robert-kennedy-campaign]]. Names: Jacqueline Kennedy, Schlesinger, Robert Kennedy.'
+    src:
+      c: 66c07f85
+      rows:
+        - 'w.bernstein-guns-or-butter 501: all'
+    tags: [name:kennedy-jacqueline, name:schlesinger-arthur-m-jr, name:kennedy-robert-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1968-03.robert-kennedy-campaign
+          - cal.1968-03.robert-kennedy-2
+          - cal.1968-03.robert-kennedy-campaign-2
+          - cal.1968-03.robert-kennedy-campaign-3
+          - cal.1968-03.robert-kennedy-campaign-4
+        from: 2026-11-06-b6-bernstein-guns-or-butter

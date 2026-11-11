@@ -3281,6 +3281,24 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1966-06-29.open-housing-2
+    when: June 29
+    date: '1966-06-29'
+    thread: open-housing
+    also: [king]
+    c: 'Chicago, the committee planning the rally of July 10, completing the program, no strategy yet for the demands. Bevel: housing first, "go for broke on this issue"; McDermott for housing on desegregationist grounds.'
+    n: '[[w.anderson-confronting-the-color-line]], 200. To check: "Chicago Freedom Movement Steering Committee Meeting," 29 June 1966 (cited by [[w.anderson-confronting-the-color-line]], 200 n.81).'
+    src:
+      c: fb1d2858
+      rows:
+        - 'w.anderson-confronting-the-color-line 200: all'
+        - 'via w.anderson-confronting-the-color-line 200 n.81: all'
+    tags: [state:il, city:chicago]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1966-06-29.open-housing
+        from: 2026-11-06-b6-anderson-confronting
   - id: cal.1966-06-30.medicare
     when: June 30
     date: '1966-06-30'
