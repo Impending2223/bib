@@ -1169,11 +1169,13 @@ entries:
     date: '1967-03-09'
     thread: vietnam-diplomacy
     c: 'McNamara to Johnson: two factions in Hanoi''s leadership, one for negotiations.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 496 n.47. Names: McNamara, Johnson.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 496 n.47; [[w.barrett-uncertain-warriors]], 68–69 (McNamara on Robert Kennedy''s proposals: the bombing has weakened Hanoi''s "moderates"; a unilateral suspension over most of the North). Names: McNamara, Johnson.'
     src:
       c: 0a21099f
       rows:
         - 'w.gibbons-u-s-government-and IV, 496 n: all'
+        - 'w.barrett-uncertain-warriors 68–69: A'
+        - 'via w.barrett-uncertain-warriors 69 n.25b: A'
     tags: [name:mcnamara-robert-s, name:johnson-lyndon-b]
     time_range:
       - 1967-03-09T14:00Z
@@ -1215,13 +1217,15 @@ entries:
     thread: vietnam
     also: [robert-kennedy]
     c: 'Rusk to Johnson on Robert Kennedy''s proposals: "The main difficulty with the Kennedy proposals is that Hanoi has made it clear that they would strongly oppose every essential point in them. The Senator''s problem, therefore, is not with us but with Hanoi." A suspension of the bombing "quite different from a permanent cessation."'
-    n: '[[w.palermo-in-his-own-right]], 51; [[w.shesol-mutual-contempt]], 376 (Rusk: "The main difficulty"; Taylor''s and Rostow''s papers beside it). To check: Rusk to Johnson, Mar. 10, 1967, NSF Country File, Vietnam, LBJ Library (cited by [[w.palermo-in-his-own-right]], 51 n.101). See [[cal.1967-03-02.robert-kennedy]]. Names: Rusk, Johnson, Robert Kennedy.'
+    n: '[[w.palermo-in-his-own-right]], 51; [[w.shesol-mutual-contempt]], 376 (Rusk: "The main difficulty"; Taylor''s and Rostow''s papers beside it); [[w.barrett-uncertain-warriors]], 68. To check: Rusk to Johnson, Mar. 10, 1967, NSF Country File, Vietnam, LBJ Library (cited by [[w.palermo-in-his-own-right]], 51 n.101). See [[cal.1967-03-02.robert-kennedy]]. Names: Rusk, Johnson, Robert Kennedy.'
     src:
       c: 1d2dc93d
       rows:
         - 'w.palermo-in-his-own-right 51: all'
         - 'via w.palermo-in-his-own-right 51 n.101: all'
         - 'w.shesol-mutual-contempt 376: ?'
+        - 'w.barrett-uncertain-warriors 68: A'
+        - 'via w.barrett-uncertain-warriors 68 n.25a: A'
     tags: [name:rusk-dean, name:johnson-lyndon-b, name:kennedy-robert-f]
     time_range:
       - 1967-03-10T14:00Z
@@ -1388,6 +1392,18 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+  - id: cal.1967-03-11.vietnam-congress
+    when: Mar. 11
+    date: '1967-03-11'
+    thread: vietnam-congress
+    c: 'Henry Wilson to Watson, on the members of Congress who see the President against the war: they should "be impressed with the fact that the President is willing to listen to arguments from all sides."'
+    n: '[[w.barrett-uncertain-warriors]], 69 ("as one staffer wrote to another"). Check: the text names neither staffer; the note gives Wilson to Watson, Mar. 11, 1967 (69 n.27a). To check: Henry Wilson to Marvin Watson, Mar. 11, 1967, Diary backup, box 57, LBJ Library (cited by [[w.barrett-uncertain-warriors]], 69 n.27a). Names: Henry Wilson, Watson.'
+    src:
+      c: 4f4e2dc3
+      rows:
+        - 'w.barrett-uncertain-warriors 69: all'
+        - 'via w.barrett-uncertain-warriors 69 n.27a: all'
+    tags: [name:wilson-henry-hall, name:watson-w-marvin]
   - id: cal.1967-03-12.india-and-china
     when: Mar. 12
     date: '1967-03-12'
@@ -1656,6 +1672,18 @@ entries:
     time_band: workday daytime
     time_zone: America/Chicago
     range_basis: kind
+  - id: cal.1967-03-14.vietnam-congress
+    when: Mar. 14
+    date: '1967-03-14'
+    thread: vietnam-congress
+    c: 'Whitten with Johnson. His proposal, in notes found in the President''s pocket: announce "We expect to pursue present policies for [unspecified number of] days without letup"; if Hanoi has then taken no official action toward a just settlement, the Joint Chiefs "shall be directed to ''win the war,'' after which we can discuss an honorable relationship."'
+    n: '[[w.barrett-uncertain-warriors]], 69, 221 n.27. To check: notes by Whitten found in the President''s pocket, Mar. 14, 1967, Diary backup, box 57, LBJ Library (cited by [[w.barrett-uncertain-warriors]], 69 n.27b). Names: Whitten, Johnson.'
+    src:
+      c: 8017c59a
+      rows:
+        - 'w.barrett-uncertain-warriors 69, 221 n.27: all'
+        - 'via w.barrett-uncertain-warriors 69 n.27b: all'
+    tags: [name:whitten-jamie-l, name:johnson-lyndon-b]
   - id: cal.1967-03-15.vietnam
     when: Mar. 15
     date: '1967-03-15'
@@ -1765,6 +1793,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1967-03-15.war-opposition
+    when: Mar. 15
+    date: '1967-03-15'
+    thread: war-opposition
+    c: 'Nashville, after the President''s address: two young protesters throw themselves in front of his car, a youth, then a girl "practically under the wheels." Officers lift them away. By Lady Bird Johnson''s diary.'
+    n: '[[w.barrett-uncertain-warriors]], 72. Check: the day: the work gives "In March," after a speech on Vietnam in Tennessee. To check: [[w.johnson-white-house-diary]], 501–02 (cited by [[w.barrett-uncertain-warriors]], 72 n.32). See [[cal.1967-03-15.vietnam]]. Names: Johnson, Lady Bird Johnson.'
+    src:
+      c: 4dfd9173
+      rows:
+        - 'w.barrett-uncertain-warriors 72: all'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, state:tn, city:nashville]
   - id: cal.1967-03-16.soviet-union
     when: Mar. 16
     date: '1967-03-16'
