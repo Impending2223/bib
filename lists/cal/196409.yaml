@@ -2092,13 +2092,22 @@ entries:
     time_approx: true
     thread: vietnam-macv
     c: 'Rhade tribesmen in four CIDG camps near Ban Mê Thuột revolt at midnight, Sept. 19: they disarm their American Special Forces advisers, kill seventy-three South Vietnamese soldiers, take hostages, and some 2,000 march on the town and take its radio station. The 23d Division blocks the roads. Y Bham, of the new FULRO, disappears, by Westmoreland''s account toward Cambodia.'
-    n: '[FRUS 1964–68, I, doc. 358](https://history.state.gov/historicaldocuments/frus1964-68v01/d358), Saigon 937, Sept. 24, 1964 (the Rhade uprising in Darlac; the aims: better treatment, Montagnards in office, aid, autonomy). [[w.westmoreland-soldier-reports]], 78–79; [[w.macv-command-history-1964]], 122–24, 192 (the rising of Sept. 19–20 at four camps; Ban Mê Thuột and Gia Nghĩa the objectives; Ban Mê Thuột''s garrison warned by American advisers; the stand-off and Khánh''s acceptance of the surrender, with amnesty; Bon Sar Pa, 192).'
+    n: '[FRUS 1964–68, I, doc. 358](https://history.state.gov/historicaldocuments/frus1964-68v01/d358), Saigon 937, Sept. 24, 1964 (the Rhade uprising in Darlac; the aims: better treatment, Montagnards in office, aid, autonomy). [[w.westmoreland-soldier-reports]], 78–79; [[w.macv-command-history-1964]], 122–24, 192 (the rising of Sept. 19–20 at four camps; Ban Mê Thuột and Gia Nghĩa the objectives; Ban Mê Thuột''s garrison warned by American advisers; the stand-off and Khánh''s acceptance of the surrender, with amnesty; Bon Sar Pa, 192); [[w.cosmas-joint-chiefs-of-staff-2012]], 121 (the CIDG''s revolt at four camps the night of Sept. 19–20; the Darlac province capital the objective; ARVN blocks the roads; the stand-off ended without more bloodshed). Check: Cosmas, 121, gives about forty Vietnamese killed at the outset. To check: Saigon 921 to State, Sept. 22, 1964; 952, Sept. 25; 985, Sept. 29 (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 121 n.5).'
     src:
       c: fb728b50
       rows:
         - 'w.westmoreland-soldier-reports 78–79: all'
         - 'w.macv-command-history-1964 122–24, 192: ?'
+        - 'w.cosmas-joint-chiefs-of-staff-2012 121: B'
+        - 'via x.1964-09-22.saigon-921-to-state-sept-22-1964: B'
+        - 'via x.1964-09-25.saigon-952-to-state-sept-25-1964: B'
+        - 'via x.1964-09-29.saigon-985-to-state-sept-29-1964: B'
     tags: [place:ban-me-thuot]
+    variants:
+      - unit: A
+        witness: w.cosmas-joint-chiefs-of-staff-2012
+        reads: At the outset of the revolt, the mutineers killed about 40 Vietnamese personnel.
+        at: '121'
   - id: cal.1964-09-20.mississippi
     when: Sept. 20
     date: '1964-09-20'
@@ -3968,3 +3977,16 @@ entries:
           - cal.1964-09.elections-1964-johnson-2
           - cal.1964-09.elections-1964-johnson-3
         from: 2026-11-06-b6-dallek-flawed-giant
+  - id: cal.1964-09-30.laos
+    when: Sept. 30
+    date: '1964-09-30'
+    thread: laos
+    also: [vietnam-air-war]
+    c: 'The Joint Chiefs to McNamara, JCSM-835-64, on operations in the Laos corridor under NSAM 314. An air strike plan at once, without the South Vietnamese: of 22 targets, 17 for the Royal Laotian Air Force''s T-28s, 5 bridges for American Yankee Team aircraft, which are also to suppress flak and fly high cover. Ground incursions by South Vietnamese troops no deeper than 20 kilometers, two company equivalents at most in each of three areas; possible only with American advisers along.'
+    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 134–35. To check: JCSM-835-64 to the Secretary of Defense, Sept. 30, 1964, JMF 9155.3 (25 Sep 64) (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 135 n.27). See [[cal.1964-09-10.vietnam]]. Names: McNamara.'
+    src:
+      c: 4af54996
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff-2012 134–35: all'
+        - 'via x.1964-09-30.jcsm-835-64-to-secretary-of-defense: all'
+    tags: [name:mcnamara-robert-s]

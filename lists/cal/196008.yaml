@@ -858,6 +858,26 @@ entries:
         - 'via w.gifford-center-cannot-hold 83 n.86b: all'
         - 'via w.gifford-center-cannot-hold 83 n.86c: all'
     tags: [name:nixon-richard-m]
+  - id: cal.1960-08-18.congo-lumumba
+    when: Aug. 18
+    date: '1960-08-18'
+    thread: congo-lumumba
+    c: 'The CIA''s station at Léopoldville to headquarters, telegram 0772: "Embassy and Station believe Congo experiencing classic Communist effort take over government"; "there may be little time left in which take action to avoid another Cuba or Guinea." Its plan: help the Congolese organize an opposition and replace Lumumba with a pro-Western government. Ambassador Timberlake approves it (0775).'
+    n: '[FRUS 1964–68, XXIII, doc. 10](https://history.state.gov/historicaldocuments/frus1964-68v23/d10) (the editorial note, quoting telegram 0772). [S. Rep. No. 94-465, 14–15 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=25) (the telegram, "another Cuba"; the plan "replacing Lumumba with pro Western Group"). [[w.bissell-reflections-of-a-cold]], 143–44 (the telegram, "In August"). Made public: the Church Committee''s interim report, Nov. 20, 1975. See [[cal.1960-08-18.congo-2]]. Names: Lumumba.'
+    src:
+      c: e25ca45c
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v23/d10: all'
+        - 'via x.1960-08-18.leopoldville-station-telegram-0772: all'
+        - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=25: A-C'
+        - 'w.bissell-reflections-of-a-cold 143–44: A-B'
+        - 'via w.bissell-reflections-of-a-cold 144 n.3a: A-B'
+    tags: [name:lumumba-patrice]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-08-18.congo-2
+        from: 2026-11-10-b7-bissell
   - id: cal.1960-08-19.latin-america
     when: Aug. 19
     date: '1960-08-19'
@@ -905,6 +925,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1960-08-19.congo-lumumba
+    when: Aug. 19
+    date: '1960-08-19'
+    thread: congo-lumumba
+    c: 'CIA headquarters to the station at Léopoldville, telegram 46115: "You are authorized proceed with operation," that of telegram 0772, provided the ambassador still agrees. Bissell signs it.'
+    n: '[FRUS 1964–68, XXIII, doc. 10](https://history.state.gov/historicaldocuments/frus1964-68v23/d10) (the editorial note). [S. Rep. No. 94-465, 15 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=26) (the words; Bissell''s signature). Made public: the Church Committee''s interim report, Nov. 20, 1975. See [[cal.1960-08-18.congo-lumumba]]. Names: Bissell.'
+    src:
+      c: 579e82cf
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v23/d10: A'
+        - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=26: all'
+    tags: [name:bissell-richard-m-jr]
   - id: cal.1960-08-20.elections-1960
     when: Aug. 20
     date: '1960-08-20'
