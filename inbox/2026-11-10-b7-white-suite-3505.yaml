@@ -1,0 +1,107 @@
+patch: 2026-11-10-b7-white-suite-3505
+by: 'Claude (batch 7 reader: White, Suite 3505; the ''already in'' rows)'
+ops:
+- cite:
+    id: cal.1964-07-16.elections-1964-2
+    item: '[[w.white-suite-3505]], 12–13 (Nixon introduces Goldwater, "the finest, and certainly the fightingest" of his speeches;
+      other words: "The only poll that counts ... is the one we all vote in"; "think victory, talk victory, act victory";
+      not the quotation)'
+    units: A-B
+- cite:
+    id: cal.1963-02-15.opinion-5
+    item: '[[w.white-suite-3505]], 145–46 (February: Rockefeller 49, Goldwater 17, Romney 13, Scranton 8)'
+    units: A
+- cite:
+    id: cal.1963-04-28.opinion-5
+    item: '[[w.white-suite-3505]], 145–46 (April: Rockefeller 43, Goldwater 26, Romney 13, Scranton 7, Hatfield 2)'
+    units: A
+- cite:
+    id: cal.1963-05-26.opinion-5
+    item: '[[w.white-suite-3505]], 148–49 (after the remarriage, Goldwater in "the commanding lead"; Gallup''s analysis quoted
+      from the *Herald Tribune*, May 26)'
+    units: D
+- variant:
+    id: cal.1963-05-26.opinion-5
+    unit: A
+    witness: w.white-suite-3505
+    reads: 'Rockefeller''s stock had already plummeted 14 points to 29 per cent while Goldwater''s zoomed from 26 to 40 per
+      cent. Romney reaped a slight gain too, moving up from 13 to 16 per cent in the period between Gallup''s April survey
+      and the one ending May 7'
+    at: '148'
+- check:
+    id: cal.1963-05-26.opinion-5
+    text: 'Check: White, 148, gives Goldwater 40, Rockefeller 29, Romney 16, from a survey ending May 7, and quotes Gallup''s
+      analysis from the *Herald Tribune*, May 26 (149 n.2).'
+- src:
+    id: cal.1963-05-26.opinion-5
+    rows:
+    - 'via w.white-suite-3505 149 n.2: D'
+- cite:
+    id: cal.1963-10-30.democratic-party
+    item: '[[w.white-suite-3505]], 243 (no cheering along "strangely deserted streets" for the dozen miles from the airport;
+      half-filled galleries, 10,000 free tickets given out)'
+    units: A-B
+- variant:
+    id: cal.1963-10-30.democratic-party
+    unit: D
+    witness: w.white-suite-3505
+    reads: the dozen miles from the airport to Independence Hall for a speech. And inside that hallowed building he found
+      himself addressing half-filled galleries, although local Democrats had distributed 10,000 free tickets
+    at: '243'
+- check:
+    id: cal.1963-10-30.democratic-party
+    text: 'Check: White, 243, ends the drive at Independence Hall and has the half-filled galleries there.'
+- cite:
+    id: cal.1963-11-27.succession
+    item: '[[w.white-suite-3505]], 258 (Nov. 27, two days after the funeral; the "earliest possible passage" of civil rights
+      and the tax cut; the dollar; a military "second to none")'
+    units: A-B
+- add:
+    entry:
+      id: cal.1964-06-08.elections-1964-scranton
+      when: June 8
+      date: '1964-06-08'
+      thread: elections-1964-scranton
+      also:
+      - republican-party
+      c: 'Cleveland, the Sheraton, the evening. The Republican governors'' private reception for Eisenhower before the Governors''
+        Conference banquet: some of them, by Fannin''s report to F. Clifton White, give Eisenhower "a good going-over" on
+        Goldwater. Eisenhower then in Scranton''s suite with Scranton and George Humphrey; Humphrey to White: "Ike''s all
+        right." By White''s account.'
+      n: '[[w.white-suite-3505]], 366–67. See [[cal.1964-06-07.states-and-cities-us]]. Names: Eisenhower, Fannin, F. Clifton
+        White, Goldwater, Scranton, George Humphrey.'
+      tags:
+      - 'name:eisenhower-dwight-d'
+      - 'name:fannin-paul-j'
+      - 'name:white-f-clifton'
+      - 'name:goldwater-barry-m'
+      - 'name:scranton-william-w'
+      - 'name:humphrey-george-m'
+      src:
+        c: c54b6174
+        rows:
+        - 'w.white-suite-3505 366–67: all'
+- add:
+    entry:
+      id: cal.1964-06-08.goldwater-2
+      when: June 8
+      date: '1964-06-08'
+      thread: goldwater
+      also:
+      - elections-1964
+      c: 'Cleveland, the Sheraton. Goldwater to the Governors'' Conference banquet, greeted by many who had sought another
+        candidate. Asked whether he will answer the Republican governors'' questions, as Romney and Scranton had proposed:
+        all Republicans know his views. At the banquet with Eisenhower and the governors, Scranton and Rockefeller among them.
+        By White''s account.'
+      n: '[[w.white-suite-3505]], 367. See [[cal.1964-06-07.states-and-cities-us]]. Names: Goldwater, Romney, Scranton, Eisenhower,
+        Rockefeller.'
+      tags:
+      - 'name:goldwater-barry-m'
+      - 'name:romney-george-w'
+      - 'name:scranton-william-w'
+      - 'name:eisenhower-dwight-d'
+      - 'name:rockefeller-nelson'
+      src:
+        c: 73b06918
+        rows:
+        - 'w.white-suite-3505 367: all'

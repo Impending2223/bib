@@ -132,11 +132,25 @@
     close: '18:30'
     law: 'Ark. Stat. Ann. § 3-908 (1947, 1956 Replacement, 1963 Supp.)'
     history: 'Act of Mar. 4, 1891, No. 30, § 5, p. 32; C. & M. Dig., § 3798; Pope''s Dig., § 4768'
-    span: '1960..1966'
-    span_basis: 'the history note''s last change 1891; printed as in force (PPH)'
+    span: '1960..1964'
+    span_basis: 'the history note''s last change 1891; printed as in force (PPH); the Hope Star (AP), Nov. 3, 1964: "The polls opened at 8 a.m., close at 6:30 p.m."'
     sources:
     - {ref: PPH, page: '14 (Table A), 36', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=40', ground: seen}
-  compiled_only: true
+    - {ref: 'Hope Star, Nov. 3, 1964', page: '1', url: 'https://archive.org/details/hope-star-1964-11-03/page/n2/mode/1up', ground: seen}
+  - elections: [general]
+    applies: statewide
+    open: '07:30-08:00'
+    close: '19:30'
+    law: 'not read: an act of 1965-67 changing Ark. Stat. Ann. § 3-908 (PPH, mid-1967, still prints the act of 1891)'
+    span: '1968..1968'
+    span_basis: 'the Hope Star, Nov. 4, 1968 (AP): "The polls open at 7:30 a.m. and close at 7:30 p.m."; the parties'' and Arkansans for Constitutional Revision''s advertisement the same day: "Polls Open at 8 a.m. and Close 7:30 p.m."; Nov. 5: "The polls close at 7:30 p.m."'
+    sources:
+    - {ref: 'Hope Star, Nov. 4, 1968', page: 'the AP''s story; an advertisement', url: 'https://archive.org/details/hope-star-1968-11-04/page/n9/mode/1up', ground: seen}
+    - {ref: 'Hope Star, Nov. 5, 1968', page: 'the AP''s story', url: 'https://archive.org/details/hope-star-1968-11-05/page/n9/mode/1up', ground: seen}
+    check: 'the act, its date and the opening hour (7:30 or 8 a.m.); whether the primaries of 1966 and 1968 ran under it'
+  compiled_only: false
+  leads:
+  - 'the Arkansas act of 1965-67 setting the 7:30 p.m. closing (the Acts of the General Assembly: HathiTrust bot-checked)'
 - st: CA
   name: California
   rows:
@@ -192,7 +206,27 @@
     span_basis: 'amended 1963, printed as in force (PPH)'
     sources:
     - {ref: PPH, page: '38', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42', ground: seen}
-  compiled_only: true
+  - elections: [general]
+    applies: 'Marin County (under 400,000): the hours as the county''s paper reports them'
+    open: '07:00'
+    close: '19:00'
+    law: 'the Elections Code of 1939 to 1961 (its section not read); § 14206 from the code of 1961'
+    span: '1960..1962'
+    span_basis: 'the San Rafael Daily Independent Journal, Nov. 7, 1960 ("Election Day—Polls open 7 a.m. to 7 p.m."), Nov. 8, 1960 ("the polls close at 7 p.m."), Nov. 6, 1962 ("as soon as the polls close at 7 p.m.")'
+    sources:
+    - {ref: 'San Rafael Daily Independent Journal, Nov. 7, 1960', page: 'the day''s calendar', url: 'https://archive.org/details/san-rafael-daily-independent-journal-1960-11-07/page/n5/mode/1up', ground: seen}
+    - {ref: 'San Rafael Daily Independent Journal, Nov. 6, 1962', page: '1', url: 'https://archive.org/details/san-rafael-daily-independent-journal-1962-11-06/page/n3/mode/1up', ground: seen}
+  - elections: [general]
+    applies: 'Marin County: until 20:00 in 1966 and 1968 (an extension under § 14208 or the machines of § 14207.5?)'
+    open: '07:00'
+    close: '20:00'
+    law: 'Cal. Elec. Code §§ 14207.5, 14208 (1963): which governed Marin not read'
+    span: '1966..1968'
+    span_basis: 'the San Rafael Daily Independent Journal, Nov. 8, 1966 ("Polls Open Until 8 P.M."), Nov. 4, 1968 ("Vote Tomorrow—Polls Are Open Until 8 P.M."; "open ... from 7 a.m.")'
+    sources:
+    - {ref: 'San Rafael Daily Independent Journal, Nov. 8, 1966', page: '1', url: 'https://archive.org/details/san-rafael-daily-independent-journal-1966-11-08/page/n0/mode/1up', ground: seen}
+    - {ref: 'San Rafael Daily Independent Journal, Nov. 4, 1968', page: '1', url: 'https://archive.org/details/san-rafael-daily-independent-journal-1968-11-04/page/n72/mode/1up', ground: seen}
+  compiled_only: false
   notes: 'From 1965 no county clerk or precinct board might release a count before 8 p.m. or the closing of every polling place in California, whichever earlier (Cal. Elec. Code § 17021, added Stats. 1965, c. 446; PPH 38). Pastore (PPH 1): in the primary of June 2, 1964, CBS called Goldwater "only 22 minutes after the polls closed in southern California".'
   leads:
   - 'the hours of 1960 (the Elections Code of 1939, before the code of 1961): the Clerk''s archive of the Statutes (clerk.assembly.ca.gov) is open but its 1960s PDFs carry no text layer'
@@ -625,11 +659,12 @@
     clock: 'eastern standard time, unless otherwise specified; a county observing central standard time may by its board of supervisors'' resolution use it'
     law: 'Mich. Stat. Ann. §§ 6.1720, 6.1721 (1956 Rev., 1965 Supp.) (Mich. Comp. Laws §§ 168.720, 168.721)'
     history: 'C.L. ''48, §§ 168.720, 168.721 (the Michigan Election Law, Act 116, P.A. 1954, §§ 720, 721)'
-    span: '1960..1966'
-    span_basis: 'printed as in force (PPH); the same section 720 in a legal notice of 1963 (below)'
+    span: '1960..1968'
+    span_basis: 'printed as in force (PPH); the same section 720 in a legal notice of 1963; the Escanaba Daily Press, Nov. 4, 1968 (7 a.m.; the closing at 8 and 9 p.m. eastern)'
     sources:
     - {ref: PPH, page: '14 (Table A), 52', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=56', ground: seen}
     - {ref: 'Escanaba Daily Press, Mar. 30, 1963, "Notice Relative to Opening and Closing of the Polls, Election Law Act 116, P.A. 1954, Section 720" (the OCR read)', page: 'leaf 4', url: 'https://archive.org/details/escanaba-daily-press-1963-03-30/page/n4/mode/1up', ground: seen}
+    - {ref: 'Escanaba Daily Press, Nov. 4, 1968 ("Polls close in Michigan at 8:00 and 9:00 p.m.", eastern time: the central-time counties'' 8 p.m.)', page: 'leaf 9', url: 'https://archive.org/details/escanaba-daily-press-1968-11-04/page/n9/mode/1up', ground: seen}
   compiled_only: false
   notes: 'Michigan law fixed eastern standard time for the hours; the four western counties of the Upper Peninsula kept central time (sources/daylight-time.yaml). Pastore (PPH 1) on the network''s call of Romney''s election, 1962.'
 - st: MN
@@ -659,10 +694,12 @@
     open: '06:00'
     close: '19:00'
     law: 'Mo. Rev. Stat. § 111.370 (Vernon''s 1966 Rev.)'
-    span: '1966..1966'
-    span_basis: 'printed as in force (PPH 53); no history note printed'
+    span: '1964..1966'
+    span_basis: 'printed as in force (PPH 53), no history note printed; the Sedalia Democrat (Pettis County), Nov. 3, 1964 ("Polls are open until 7 p.m.") and Nov. 8, 1966 ("The polls will close at 7 p.m.")'
     sources:
     - {ref: PPH, page: '14 (Table A), 53', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=57', ground: seen}
+    - {ref: 'Sedalia Democrat, Nov. 3, 1964', page: '1', url: 'https://archive.org/details/sedalia-democrat-1964-11-03/page/n0/mode/1up', ground: seen}
+    - {ref: 'Sedalia Democrat, Nov. 8, 1966', page: '1', url: 'https://archive.org/details/sedalia-democrat-1966-11-08/page/n0/mode/1up', ground: seen}
     check: 'the sunset clause: sunset in Missouri falls before 7 p.m. at every November election, after it at the August primaries'
   - elections: [general, municipal]
     applies: 'first-class counties with charter government, second-class counties holding part of a city over 400,000, cities of 25,000 or more; and Clay County (§ 119.455), cities of 300,000 to 700,000 (§ 117.520)'
@@ -673,7 +710,7 @@
     span_basis: 'printed as in force (PPH 53-54)'
     sources:
     - {ref: PPH, page: '53-54', url: 'https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=57', ground: seen}
-  compiled_only: true
+  compiled_only: false
   leads:
   - 'the history of § 111.370 (Missouri Digital Heritage''s CONTENTdm, molaws, full text): whether the hours held 1960-66'
 - st: MS

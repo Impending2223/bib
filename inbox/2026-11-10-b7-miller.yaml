@@ -1,0 +1,57 @@
+patch: 2026-11-10-b7-miller
+by: 'Claude (batch 7: Miller, Misalliance, the "already in" rows read against the calendar), Nov. 10, 2026'
+ops:
+- add:
+    entry:
+      id: cal.1963-09-27.vietnam-saigon
+      when: Sept. 27
+      date: '1963-09-27'
+      thread: vietnam-saigon
+      c: 'Saigon. McNamara with "R," in his report''s title "Richardson," by the editors'' note Nguyễn Đình Thuần, Secretary of State at the Presidency, two hours: the mass arrests of students, the children of officers and officials among them; the night arrests and the Sûreté''s kidnappings, "like Kadar in Hungary." "Don''t cut off aid; suspend the aid"; press Diệm to stop the repression and force Nhu out, or a coup.'
+      n: '[FRUS 1961–63, IV, doc. 154](https://history.state.gov/historicaldocuments/frus1961-63v04/d154) (McNamara''s report of the interview, undated). [[w.miller-misalliance]], 300 (the night arrests and kidnappings). Check: Miller (300) takes "Richardson, the CIA station chief," for the speaker; FRUS''s note identifies "R" as Thuần. See [[cal.1963-09-26.vietnam]]. Names: McNamara, Nguyễn Đình Thuần, Ngô Đình Diệm, Ngô Đình Nhu.'
+      src:
+        c: '61179163'
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d154: all'
+        - 'w.miller-misalliance 300: C'
+        - 'via w.miller-misalliance 300 n.70b: all'
+      tags:
+      - name:mcnamara-robert-s
+      - name:nguyen-dinh-thuan
+      - name:ngo-dinh-diem
+      - name:ngo-dinh-nhu
+      - place:saigon
+- add:
+    entry:
+      id: cal.1963-09-30.vietnam-saigon
+      when: Sept. 30
+      date: '1963-09-30'
+      thread: vietnam-saigon
+      c: 'Saigon. McNamara, Taylor and Lodge with Vice President Nguyễn Ngọc Thơ: police-state methods breeding deep discontent; the villager taxed by the government''s agent and by the Viet Cong; "there are not more than 20 to 30 properly defended hamlets in the whole country"; the Viet Cong larger than two years before, a thousand killed a month.'
+      n: '[FRUS 1961–63, IV, doc. 159](https://history.state.gov/historicaldocuments/frus1961-63v04/d159) (Lodge''s telegram 613, Sept. 30, 7 p.m.). [[w.miller-misalliance]], 300 (Thơ: the Viet Cong broadly popular in the countryside; the 20 to 30 hamlets). Check: the day of the conversation; the telegram is of Sept. 30. See [[cal.1963-09-29.vietnam]]. Names: McNamara, Taylor, Lodge, Nguyễn Ngọc Thơ.'
+      src:
+        c: '7367a244'
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d159: all'
+        - 'w.miller-misalliance 300: D'
+        - 'via w.miller-misalliance 300 n.70c: all'
+      tags:
+      - name:mcnamara-robert-s
+      - name:taylor-maxwell
+      - name:lodge-henry-cabot
+      - name:nguyen-ngoc-tho
+      - place:saigon
+- variant:
+    id: cal.1963-09-27.vietnam-saigon
+    unit: B
+    witness: w.miller-misalliance
+    reads: Richardson, the CIA station chief, reported that the regime's security forces were spreading terror throughout Saigon with a wave of nighttime arrests and kidnappings
+    at: '300'
+- cite:
+    id: cal.1963-09-26.vietnam
+    item: '[[w.miller-misalliance]], 300 (Honey to McNamara: Diệm could not win the war and would soon be overthrown)'
+    units: B, D
+- src:
+    id: cal.1963-09-26.vietnam
+    rows:
+    - 'via w.miller-misalliance 300 n.70a: B, D'

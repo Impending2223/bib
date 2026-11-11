@@ -1,0 +1,48 @@
+patch: 2026-11-10-b7-marolda
+by: 'Claude (batch 7: Marolda and Fitzgerald, The United States Navy and the Vietnam Conflict, II, the "already in" rows read against the calendar), Nov. 10, 2026'
+ops:
+- add:
+    entry:
+      id: cal.1961-01-02.vietnam
+      when: Jan. 2–14
+      date: '1961-01-02'
+      thread: vietnam
+      c: Lansdale in Vietnam.
+      n: '[FRUS 1961–63, I, doc. 2](https://history.state.gov/historicaldocuments/frus1961-63v01/d2) (editorial note). [[w.marolda-united-states-navy-and]], 98. Names: Lansdale.'
+      src:
+        c: '3635e7e8'
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v01/d2: all'
+        - 'w.marolda-united-states-navy-and 98: all'
+      tags:
+      - name:lansdale-edward-g
+- add:
+    entry:
+      id: cal.1961-01-17.vietnam
+      when: Jan. 17
+      date: '1961-01-17'
+      thread: vietnam
+      c: 'Lansdale to Gates, on his trip: Vietnam "in a critical condition," to be treated "as a combat area of the cold war, as an area requiring emergency treatment." Unless the Vietnamese mobilize and Washington reorients its support, "the free Vietnamese and their government probably will be able to do no more than postpone eventual defeat."'
+      n: '[FRUS 1961–63, I, doc. 2](https://history.state.gov/historicaldocuments/frus1961-63v01/d2) (editorial note, quoting the first). [[w.marolda-united-states-navy-and]], 98–99 (the second, "postpone eventual defeat"). To check: [[w.united-states-vietnam-relations]], bk. 11, 1–12 (the memorandum, as FRUS cites it). See [[cal.1961-01-02.vietnam]]. Names: Lansdale, Gates.'
+      src:
+        c: '450be825'
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v01/d2: A'
+        - 'w.marolda-united-states-navy-and 98–99: A-B'
+        - 'via w.marolda-united-states-navy-and 99 n.29: A-B'
+      tags:
+      - name:lansdale-edward-g
+      - name:gates-thomas-s-jr
+- cite:
+    id: cal.1962-10-06.laos
+    item: '[[w.marolda-united-states-navy-and]], 84 (the last of the MAAG out of Laos, Oct. 6, within the seventy-five days)'
+    units: A
+- check:
+    id: cal.1962-10-06.laos
+    text: 'Check: Marolda (84) calls it "the last elements of General Boyle''s MAAG."'
+- variant:
+    id: cal.1961-01-28.vietnam
+    unit: A
+    witness: w.marolda-united-states-navy-and
+    reads: a report read by the new president on 2 February
+    at: '98'

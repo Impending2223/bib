@@ -625,7 +625,7 @@ states:
 - st: MI
   name: Michigan
   zones: [America/Detroit, America/Menominee]
-  law: 'the election law''s "eastern standard time" (sources/poll-hours.yaml); a law of 1967 exempting the State, suspended by referendum petition; the referendum of Nov. 5, 1968 (the calendar: cal.1968-11-05.state-constitutions-mi)'
+  law: 'the election law''s "eastern standard time" (sources/poll-hours.yaml); "this State voted exemption from Daylight Saving Time" in 1967, then "after a long battle" adopted it June 14, 1967 (DOANE, Supplement); the referendum of Nov. 5, 1968 on the daylight time law (the calendar: cal.1968-11-05.state-constitutions-mi)'
   years:
   - span: '1960..1966'
     observed: local
@@ -942,7 +942,7 @@ states:
 - st: PA
   name: Pennsylvania
   zones: [America/New_York]
-  law: '"State law requires that all official business be conducted on eastern standard time" (S-1965 29), and the election law''s "Eastern Standard Time" (sources/poll-hours.yaml); a statewide daylight time law of 1965 (Redding, the 1966 House hearing, 85)'
+  law: '"State law requires that all official business be conducted on eastern standard time" (S-1965 29), and the election law''s "Eastern Standard Time" (sources/poll-hours.yaml); "a bill, later signed by the Governor, which provided for statewide daylight-saving time", enacted "only a few months" before Feb. 1966 (Redding, CTU-1965''s volume, 85: PDF page 91)'
   years:
   - span: '1960..1964'
     observed: local
@@ -1298,6 +1298,12 @@ tz:
   read: 'none statewide 1946-65 (DOANE); 1967 from June 14 (DOANE, Supplement); 1968 observed'
   agrees: 'yes'
   note: 'CTU-1963-S and DOANE''s 1966 list put Michigan''s observance in the Upper Peninsula'
+- zone: America/Menominee
+  places: 'the Upper Peninsula''s central-time counties (Dickinson, Gogebic, Iron, Menominee)'
+  years: '1960..1968'
+  tz: 'no daylight time but 1966 (Apr. 24-Oct. 30); none 1967-68'
+  read: 'Dickinson County on daylight time 1960-65 (DOANE); 1967 "the Upper Peninsula rebelled and kept to Standard Time, except the county of Chippewa" (DOANE, Supplement)'
+  agrees: 'partly'
 - zone: America/Kentucky/Louisville
   places: 'Louisville and Jefferson County'
   years: '1960..1968'

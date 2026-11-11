@@ -1,0 +1,93 @@
+patch: 2026-11-06-b6-mann-grand-delusion
+by: 'Claude (batch 6: the private, social, draft and press rows re-ruled; Mann, A Grand Delusion, 2001), Nov. 10, 2026'
+ops:
+- add:
+    entry:
+      id: cal.1967-03-15.robert-kennedy-2
+      when: Mar. 15
+      date: '1967-03-15'
+      thread: robert-kennedy
+      also:
+      - press-and-broadcasting
+      c: 'Sidey of *Time* tells the White House that Robert Kennedy, by their recent conversation, has all but "decided to
+        get into the race" for President in 1968.'
+      n: '[[w.mann-grand-delusion]], 535 (quoting it). To check: [[w.dallek-flawed-giant]], 454 (cited by [[w.mann-grand-delusion]],
+        535 n.44). See [[cal.1967-03-02.vietnam-congress]]. Names: Sidey, Robert Kennedy.'
+      src:
+        c: 17ce6f07
+        rows:
+        - 'w.mann-grand-delusion 535: all'
+      tags:
+      - 'name:sidey-hugh'
+      - 'name:kennedy-robert-f'
+- add:
+    entry:
+      id: cal.1967-08-07.press-and-broadcasting
+      when: Aug. 7
+      date: '1967-08-07'
+      thread: press-and-broadcasting
+      also:
+      - vietnam
+      c: 'Johnson, having read Apple''s story on the stalemate, tells his aides Apple is "a Communist" and "a threat to national
+        security."'
+      n: '[[w.mann-grand-delusion]], 547 (quoting it). Check: the day; Mann: after Johnson read the story. To check: [[w.dallek-flawed-giant]],
+        475 (cited by [[w.mann-grand-delusion]], 547 n.21). See [[cal.1967-08-07.vietnam]]. Names: Johnson.'
+      src:
+        c: f71a8da1
+        rows:
+        - 'w.mann-grand-delusion 547: all'
+      tags:
+      - 'name:johnson-lyndon-b'
+- add:
+    entry:
+      id: cal.1968-03-11.press-and-broadcasting
+      when: Mar. 11
+      date: '1968-03-11'
+      thread: press-and-broadcasting
+      also:
+      - war-opposition
+      c: 'Drew Pearson to Johnson, by letter: in his travels around the country "increasing resentment, even bitterness, over
+        the war, with much of it being personally directed against you"; "we cannot continue tearing the country asunder over
+        an issue so distant and so unrelated to the mainstream of our lives."'
+      n: '[[w.mann-grand-delusion]], 594 (quoting it). To check: Pearson to Johnson, Mar. 11, 1968, in [[w.lyndon-b-johnsons-vietnam]],
+        663–64 (cited by [[w.mann-grand-delusion]], 594 n.19). See [[cal.1968-03-07.democratic-party]]. Names: Pearson, Johnson.'
+      src:
+        c: 1754e889
+        rows:
+        - 'w.mann-grand-delusion 594: all'
+        - 'via w.mann-grand-delusion 594 n.19: all'
+      tags:
+      - 'name:pearson-drew'
+      - 'name:johnson-lyndon-b'
+- add:
+    entry:
+      id: cal.1968-08.elections-1968-humphrey-2
+      when: Aug.
+      date: 1968-08
+      thread: elections-1968-humphrey
+      also:
+      - vietnam-paris
+      c: 'Humphrey brings Johnson a softened version of his plank on Vietnam. Johnson again urges him to reconsider: within
+        the week, without details, an important development in Paris. Humphrey drops the idea.'
+      n: '[[w.mann-grand-delusion]], 611–12. Check: the day; Mann: "Later" than the showing of July 25, and days before Johnson
+        told him there would be no breakthrough (Aug. 18). To check: [[w.solberg-hubert-humphrey]], 350 (cited by [[w.mann-grand-delusion]],
+        612 n.8). See [[cal.1968-07-25.elections-1968]]. Names: Humphrey, Johnson.'
+      src:
+        c: 361d3f14
+        rows:
+        - 'w.mann-grand-delusion 611–12: all'
+      tags:
+      - 'name:humphrey-hubert-h'
+      - 'name:johnson-lyndon-b'
+- cite:
+    id: cal.1968-08-18.vietnam
+    item: '[[w.mann-grand-delusion]], 612 (within days of the promise, Johnson tells Humphrey there will be no breakthrough;
+      the VFW speech, Aug. 19)'
+    units: A
+- cite:
+    id: cal.1967-08-07.vietnam
+    item: '[[w.mann-grand-delusion]], 547 (Apple''s story; "stalemate," a fighting word in Washington)'
+    units: B
+- check:
+    id: cal.1967-08-07.vietnam
+    text: 'Check: Mann, 547, dates the story Aug. 6, the day of its dateline; his note gives the *Times* of Aug. 7.'
