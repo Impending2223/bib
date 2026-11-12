@@ -1,0 +1,338 @@
+# Press items at their first public distribution (the owner, Nov. 11, 2026: "Press items should be placed at
+# the time of their first public distribution or release. If that's afternoon, afternoon. If that's evening,
+# then evening."). Evening papers to the afternoon band of their date, weeklies to the daytime of theirs; the
+# Sunday editions and morning papers as they were. range_basis: kind; nothing added to n. Each paper's cycle:
+# papers.CYCLE in the kind-bands scratch directory; built by press-times/build.py.
+patch: press-times
+by: Claude (press items at first distribution; dayorder STYLE 5, KINDS_PLACE)
+ops:
+- edit:
+    id: cal.1961-05-11.voting-rights
+    base: 1e440d0e
+    set:
+      time_range:
+      - 1961-05-11T16:00Z
+      - 1961-05-11T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-09-22.berlin-and-vienna
+    base: 8ac3710e
+    set:
+      time_range:
+      - 1961-09-22T16:00Z
+      - 1961-09-22T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1961-12-19.press-and-broadcasting
+    base: da3218cb
+    set:
+      time_range:
+      - 1961-12-19T18:00Z
+      - 1961-12-20T00:00Z
+      time_band: afternoon
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1963-04-10.republican-party
+    base: 47d0a24d
+    set:
+      time_range:
+      - 1963-04-10T17:00Z
+      - 1963-04-10T23:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1963-04-13.alabama-birmingham-2
+    base: 977c93d8
+    set:
+      time_range:
+      - 1963-04-13T18:00Z
+      - 1963-04-14T00:00Z
+      time_band: afternoon
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1963-04-17.press-and-broadcasting
+    base: 18f0323e
+    set:
+      time_range:
+      - 1963-04-17T17:00Z
+      - 1963-04-17T23:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1963-05-03.elections-1964
+    base: 4984f749
+    set:
+      time_range:
+      - 1963-05-03T16:00Z
+      - 1963-05-03T23:00Z
+      time_band: afternoon
+      time_zone: America/Detroit
+      range_basis: kind
+- edit:
+    id: cal.1963-05-10.press-and-broadcasting
+    base: '55156784'
+    set:
+      time_range:
+      - 1963-05-10T17:00Z
+      - 1963-05-10T23:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1963-06-29.press-and-broadcasting
+    base: a2903365
+    set:
+      time_range:
+      - 1963-06-29T16:00Z
+      - 1963-06-29T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1963-08-14.press-and-broadcasting
+    base: 0d723e3a
+    set:
+      time_range:
+      - 1963-08-14T16:00Z
+      - 1963-08-14T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1963-10-02.press-and-broadcasting
+    base: c49aef1b
+    set:
+      time_range:
+      - 1963-10-02T16:00Z
+      - 1963-10-02T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1963-11-22.opinion
+    base: 14bd1567
+    set:
+      time_range:
+      - 1963-11-22T18:00Z
+      - 1963-11-23T00:00Z
+      time_band: afternoon
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1963-12-05.republican-party
+    base: 630918f6
+    set:
+      time_range:
+      - 1963-12-05T17:00Z
+      - 1963-12-05T23:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-01-07.press-and-broadcasting
+    base: f7f92677
+    set:
+      time_range:
+      - 1964-01-07T17:00Z
+      - 1964-01-07T23:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-03-05.press-and-broadcasting
+    base: d13b2e98
+    set:
+      time_range:
+      - 1964-03-05T17:00Z
+      - 1964-03-05T23:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-04-25.draft
+    base: 8125657a
+    set:
+      time_range:
+      - 1964-04-25T11:00Z
+      - 1964-04-26T00:00Z
+      time_band: daytime
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1964-06-11.civil-rights-bill-3
+    base: 8b503aa7
+    set:
+      time_range:
+      - 1964-06-11T18:00Z
+      - 1964-06-12T00:00Z
+      time_band: afternoon
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1964-07-19.elections-1964-2
+    base: 517b8038
+    set:
+      time_range:
+      - 1964-07-19T10:00Z
+      - 1964-07-19T23:00Z
+      time_band: daytime
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1965-09-20.press-and-broadcasting
+    base: 7cb9cd28
+    set:
+      time_range:
+      - 1965-09-20T16:00Z
+      - 1965-09-20T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1965-11-05.press-and-broadcasting
+    base: '61805019'
+    set:
+      time_range:
+      - 1965-11-05T17:00Z
+      - 1965-11-05T23:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1965-12-03.press-and-broadcasting
+    base: 7985e3a3
+    set:
+      time_range:
+      - 1965-12-03T17:00Z
+      - 1965-12-03T23:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1965-12-17.vietnam-2
+    base: 3117bd10
+    set:
+      time_range:
+      - 1965-12-17T18:00Z
+      - 1965-12-18T00:00Z
+      time_band: afternoon
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1966-06-16.press-and-broadcasting
+    base: a9ca64b0
+    set:
+      time_range:
+      - 1966-06-16T16:00Z
+      - 1966-06-16T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1966-07-01.robert-kennedy
+    base: a8785576
+    set:
+      time_range:
+      - 1966-07-01T16:00Z
+      - 1966-07-01T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1966-08-10.press-and-broadcasting
+    base: b943d688
+    set:
+      time_range:
+      - 1966-08-10T17:00Z
+      - 1966-08-10T23:00Z
+      time_band: afternoon
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1966-12-08.press-and-broadcasting
+    base: a2cba22a
+    set:
+      time_range:
+      - 1966-12-08T18:00Z
+      - 1966-12-09T00:00Z
+      time_band: afternoon
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1967-03-23.robert-kennedy
+    base: 130e0b96
+    set:
+      time_range:
+      - 1967-03-23T17:00Z
+      - 1967-03-23T23:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1967-05-04.vietnam-congress-2
+    base: 9922c946
+    set:
+      time_range:
+      - 1967-05-04T16:00Z
+      - 1967-05-04T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1968-02-09.press-and-broadcasting
+    base: 27c80455
+    set:
+      time_range:
+      - 1968-02-09T17:00Z
+      - 1968-02-09T23:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1968-02-17.press-and-broadcasting-2
+    base: a34e51a2
+    set:
+      time_range:
+      - 1968-02-17T18:00Z
+      - 1968-02-18T00:00Z
+      time_band: afternoon
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1968-05-27.elections-1968-3
+    base: 9a7bb569
+    set:
+      time_range:
+      - 1968-05-27T17:00Z
+      - 1968-05-27T23:00Z
+      time_band: afternoon
+      time_zone: America/Chicago
+      range_basis: kind
+- edit:
+    id: cal.1968-06-18.elections-1968-4
+    base: aaf9ed91
+    set:
+      time_range:
+      - 1968-06-18T16:00Z
+      - 1968-06-18T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
+- edit:
+    id: cal.1968-09-05.press-and-broadcasting
+    base: f8716efd
+    set:
+      time_range:
+      - 1968-09-05T16:00Z
+      - 1968-09-05T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: kind
