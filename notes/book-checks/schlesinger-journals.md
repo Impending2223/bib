@@ -156,3 +156,69 @@ Claimed in the ledger and not used (the ids stay in `inbox/new-entries.tsv`): `c
 ## Where batch 11 stopped
 
 The share was read to its end, Dec. 1964 (printed p. 232); the patch covers what could be searched and written by 4:15 a.m. Pacific, Nov. 12, 2026. The unsettled list above is the remainder, in the order of the book. The entry of Jan. 20, 1965 (p. 235) and after belong to the next share.
+
+## Share 2: Jan. 1965 through Dec. 1966 (patch `2026-11-12-b11-sjournals-2`)
+
+Read the night of Nov. 11–12, 2026, from the same copy: PDF 253–272, printed pp. 235–254 (the entries of Jan. 20, May 25 and July 16, 1965, and of Jan. 21, Mar. 11, Mar. 13, July 28, Aug. 1, Aug. 14, Oct. 30 and Nov. 16, 1966), in full; PDF 258–260 (the chapter opening, 1966) carry only the year; PDF 273 opens 1967 (the next share). The Journals take only these twelve entries for the two years. Quotations checked against the text layer of the PDF pages; no entry rests on a page not seen. Patch: 13 new entries, 11 citations, 1 variant, no Check; as audited (`2026-11-12-b11-sjournals-2-audited.yaml`), 9 new entries, 17 citations, 1 Check, 1 variant (see "Audit" below).
+
+### Entered (new entries)
+
+| id | day | what |
+|---|---|---|
+| `cal.1965-01-19.transition-and-staff-2` | Jan. 19 | Goodwin shows Schlesinger the inaugural address in draft; Stevenson's draft by Goodwin's account, day not given (p. 237) |
+| `cal.1965-01-19.robert-kennedy` | Jan. 19 | Robert Kennedy to Schlesinger, after Galbraith's luncheon: thanks heaven the vice presidency fell through (pp. 236–37) |
+| `cal.1965-05-22.latin-america` | May 22 | Schlesinger urges Betancourt be seen; Bundy calls Johnson, "cold to the idea" (pp. 237–38; "Saturday morning," the entry headed Tuesday, May 25) |
+| `cal.1966-02-27.vietnam-rfk-front` | Feb. 27 | Hickory Hill: Dutton and Schlesinger run through possible questions before Robert Kennedy's *Face the Nation* (p. 245) |
+| `cal.1966-03-12.war-opposition-2` | Mar. 12 | The Cowles party: Johnson to Schlesinger on the chair, to Chalmers Roberts "Don't print anything about that" (p. 247) |
+| `cal.1966-06-14.vietnam-3` | June 14 | Dinner at Jane McBaine's: Rostow's Lincoln analogy (pp. 250–51) |
+| `cal.1966-07-22.war-opposition-2` | July 22 | Dinner at George Stevens's: Harriman, "Fear always runs the State Department"; "Count me in" (pp. 249–50) |
+| `cal.1966-08-13.robert-kennedy` | Aug. 13–14 | Hyannis Port weekend: Kennedy on North Korea's declaration (pp. 252–53; day loose, "Check: the day") |
+| `cal.1966-08.korea` | Aug. | North Korea's "declaration of independence against both Russia and China," the news at Hyannis Port (p. 252; "Check: the day"; added by the audit) |
+
+The patch-check warns "one event?" on the claimed ids left unused and on three entries already in the calendar (Feb. 27, Humphrey's broadcast; June 14, Thomson's Cambodia paper; July 22, the Cleveland peace meeting); each is a distinct event (`./bib resolve ID --take keep` if the merge flags them).
+
+### Cited under an existing entry
+
+| id | pages | units |
+|---|---|---|
+| `cal.1965-01-20.transition-and-staff` | 235, 237 | A (the address heard; credit to Goodwin and Stevenson; not the oath or the quoted phrases) |
+| `cal.1965-07-14.transition-and-staff` | 238 | ? (Goodwin's call; the collapse on Grosvenor Street) |
+| `cal.1965-07-15.transition-and-staff` | 238 | ? (Air Force One with the casket at Andrews, July 15; Humphrey not named) |
+| `cal.1965-07-16.transition-and-staff` | 239 | ? (McGowan's remarks at the Cathedral; the day not given) |
+| `cal.1965-04-07.vietnam` | 248 | ? (the drafting: negotiation the theme, Rusk's complaint, McNamara's word; undated) |
+| `cal.1966-01-06.vietnam` | 243–44 | B, C (not who asked for the dinner, Johnson's knowledge or "Georgetown"; the page has Schlesinger assemble the guests) |
+| `cal.1966-01-31.vietnam` | 245 | ? ("toward the end of January"; not the day) |
+| `cal.1966-02-19.vietnam` | 245 | ? (Kennedy's "first statement," undated) |
+| `cal.1966-02-22.vietnam-2` | 245–46 | ? (Moyers on an interim government, undated) |
+| `cal.1966-02-27.robert-kennedy` | 245 | ? (Face the Nation, Feb. 27; the Viet Cong's seat; not the quoted words) |
+| `cal.1966-02-27.vietnam` | 246 | ? ("An hour after Bobby"; watched at Hickory Hill, Kennedy goes away; not the quoted words) |
+| `cal.1966-03-12.press-and-broadcasting` | 247 | A ("Last night the Gridiron," so Mar. 12; Long, Lindsay, the attack on Fulbright, the ovation for Rusk, Schlesinger seated; not the Nixon skit) |
+| `cal.1966-07-20.robert-kennedy` | 249 | B, C, D, E (not A: Galbraith is not named at the dinner) |
+| `cal.1966-07-23.democratic-party` | 249–50 | B, C (not A: Harris also there; Galbraith's own words not given) |
+| `cal.1966-10-30.robert-kennedy` | 253–54 | A, B, C, D, E (Goodwin a few moments before Kennedy, not with him) |
+| `cal.1966-10.assassination` | 253–54 | A; gives the day, Oct. 30 |
+
+### Variants and Checks
+
+- Variant on `cal.1966-10.assassination`, unit B: the entry quotes the Commission as having "done a poor job"; the page has Schlesinger's own words, "believes that it was a poor job and will not endorse it, but ... is unwilling to criticize it and thereby reopen the whole tragic business."
+- Check on `cal.1966-10.assassination` (the audit): the day is Oct. 30, the night of `cal.1966-10-30.robert-kennedy`; the two are one event, to combine.
+
+### Passed over
+
+The Jockey Club luncheon of Jan. 19, 1965 (Galbraith with Robert and Edward Kennedy: Edward Kennedy on the list of books Jack Kennedy favored; no public business, Q5); Robert Kennedy's reading of Edith Hamilton and *The Trojan Women* at Hyannis Port, Aug. 1966 (no business); the reflections of the entries of July 28 and Aug. 1, 1966 (Johnson's turn to the war, the Rostow "Pangloss" portrait, Kennedy's 1968 prospects: opinion, no event); the entry of Nov. 16, 1966 on Humphrey and Robert Kennedy "quite like each other" (opinion); by the audit, the Lasker–Fortas dance of Jan. 19, 1965 and Harriman's birthday party at Hickory Hill, Nov. 14, 1966 (social; the page shows no public business done, Q5).
+
+### Leads (undated)
+
+1965: Stevenson's disappointment at his role under Johnson, "about six weeks ago" (late May); Ed Day's report that Stevenson asked him to call businessmen to recommend him for Vice President (p. 238). 1966: Rusk, Moyers and others on Viet Cong participation, "by this time" (before Feb. 27); Ball on the March 1965 decision (p. 244); Goodwin and Schlesinger on a committee against the widening of the war, before July 20 (p. 249); McNamara's private views (p. 250); Robert Kennedy's account of a day campaigning with Johnson in New York, "Of all the things in life, this is what I most enjoy doing" (p. 254, in the entry of Oct. 30); Goodwin's remark that Johnson may have "a streak of personal cowardice" (p. 248).
+
+### Not settled
+
+None in the span: every entry of Jan. 1965 through Dec. 1966 was read, searched and written or ruled.
+
+### Where share 2 stopped
+
+At the end of 1966 (printed p. 254, the entry of Nov. 16); nothing lies unread in the span. Entries of 1967 (PDF 273 on) belong to the next share.
+
+### Audit (Nov. 12, 2026)
+
+Read blind, PDF 253–272 whole (pp. 247, 253, 254 against the image), then every op. Of 25 ops, 11 wrong. Adds, 8 of 13: three dropped as already in (Andrews, July 15, 1965: `cal.1965-07-15.transition-and-staff`; watching Humphrey: `cal.1966-02-27.vietnam`; the Gridiron dinner: `cal.1966-03-12.press-and-broadcasting`; each now a cite there), two dropped as social with no public business on the page (the Lasker–Fortas dance; Harriman's birthday), one with Robert Kennedy missing from `c`, names and tags (Feb. 27, the questions before *Face the Nation*), one without `polity:drv` though `c` names North Vietnam (Aug. 13), one with the luncheon's page, 236, left out (Jan. 19, Kennedy). Cites, 3 of 11: the inaugural's unit A borne but mapped `?`; Goodwin "with" Kennedy at the Dillons' (he came a few moments before); `cal.1966-10.assassination` cited without noting that it is `cal.1966-10-30.robert-kennedy` over again (a Check added). The variant stands: the words and the speaker differ. Added by the audit: `cal.1966-08.korea` and cites on `cal.1965-07-15.transition-and-staff`, `cal.1965-04-07.vietnam`, `cal.1966-01-31.vietnam`, `cal.1966-02-19.vietnam` and `cal.1966-02-22.vietnam-2`. Also: Harriman's State Department remark added to his July 22 entry (from the leads). Dropped ids are kept in the ledger as "(not used: ...)".
