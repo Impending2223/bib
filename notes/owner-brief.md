@@ -485,3 +485,17 @@ I don't have the April 14 entries in front of me. Enlighten me.
 The visibility setup looks good to go.
 
 Question re: the NLF, though. Does it make sense to consider it anything besides "agents of the DRV operating inside SVN"? Was there anything "nonpublic" to the NLF? Did the NLF ever exercise sovereignty, in the sense that they made decisions that the DRV/VWP would have countermanded but did not and could not? I'm skeptical."
+
+## Nov. 11, 2026 (evening, later)
+
+"No, no, keep the range, report the poll closing. "Polls close XYZ." But leave the pin one minute before midnight. We can hammer down "when the results were known" for at least some of these races.
+
+Can we put the Percy nomination speech as a "follows"? That should trump the range time, right?
+
+Please do fold the NLF into the DRV, with the reservation that nearly all(?) NLF events are going to be located in SVN, so by our territorial rule they're RVN:public-P by default. Should we reverse that presumption here? Or should we ask every reader to sort every NLF entry into either "public in SVN (and hence DRV:nonpublic-P and RVN:public-PA)" or "nonpublic in SVN (and hence only DRV:nonpublic-P)"?
+
+The early morning rule for newspapers was because they come in the... morning mail, right? Once we know the release dates of the National Guardian and the Amsterdam News, they'll be early morning too, no?
+
+Default to morning editions where the edition isn't known.
+
+The NYT thing is striking, but... when was the NYT first distributed in D.C.? (We're treating the NYT as a national paper, most interesting for what it says on national politics, so its distribution in its home isn't as interesting to us as its distribution in the District.) Does that push us over the midnight line?"
