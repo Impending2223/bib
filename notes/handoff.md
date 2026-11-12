@@ -14,7 +14,7 @@ Done this evening: the splits and the press list; visibility phase 1 and the Oct
 3. Visibility phase 3, the roll-out, once the owner has tried the prototype; the Western Alliance re-potting proposal (threads with polity lists); the year's Southeast Asia map moved to the year's first Monday (vnmap STYLE 8; the owner, Nov. 11).
 4. The leftovers of batch 9 (its section below): one-event questions, two bundles, the Dallek 553 "thirty" against fifty, Chester and Ginsburg; and the leads with no day in each book-check file.
 5. The owner items in the round-4 list and the batch-6 questions.
-6. The shared folder's new material (notes/drive-additions-2026-11.md), and the foreign leadership works (the owner's question of Nov. 11: USSR, PRC, UK, France, FRG, DRV, RVN): a reading and procurement plan.
+6. The foreign leadership works: the plan is written (`notes/proposals/foreign-leadership-reading.md`; held / open / to procure per polity; October 1962 the pilot). For the owner: the Mao nianpu's text is not on the Drive (only its month index), the Zhou nianpu only its middle volume, the *wansui* two short extracts: to procure first; whether the foreign periodicals (*Pravda*, *Renmin ribao*, *Nhân Dân*, Keesing's, the Công-báo) get cards as the *Bulletin* does. Then the cards the plan lists.
 7. The Church Committee: read by the plan (`notes/proposals/church-pike-reading.md`), the plots report first; point the two kja entries at the cards.
 8. The leads the batch-8 audits raised and two bundles the Ball audit found (cal.1960-08-01.congo unit C; cal.1965-06-01.latin-america).
 9. `./bib works new --c` fails on an organization author: fix.
