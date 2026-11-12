@@ -634,3 +634,145 @@ Rules looked up: the card's test and examples (the Humphrey ride, Libonati, the 
 ## Where batch 11 stopped (1966)
 
 The share is finished: Book Three read whole, Jan. 1 through Dec. 24, 1966 (printed pp. 345–465, PDF 375–503). Not done: the image check of every quoted word and number outside pp. 347, 354, 369, 392 and 459 (the text layer, matched by script, above); the Public Papers volumes for the speeches and news conferences, left as "To check" on each entry.
+
+
+---
+
+# Part three: Book Four, 1967 (Jan. 5 to Dec. 24, 1967; the 1967 reader)
+
+Card `w.johnson-white-house-diary`. Read Nov. 12, 2026 (batch 11, the 1967 share): Book Four, "1967", printed pp. 467–608 (the text begins p. 469, PDF 507), from the Drive copy `1yDhieBtd5zcvoMYqrteT6Yg3a-R6sOie` (864 PDF pages, 40 MB; a text layer, read with `pdftotext -layout`). The copy, its page images and the OCR were deleted when the reading was done.
+
+**The offset.** Printed page = PDF page less 38 through p. 518 (p. 469 = PDF 507; p. 518 = PDF 556), checked on the folios of the text layer and by image at p. 518. Eight plate pages and a title page follow (PDF 557-564: "1967 / A grandchild comes to the White House", the captions of the photographs, Jan. 17, Camp David, Mar. 13-15, Dec. 9); the text of p. 519 is PDF 565 (the end of May 13); then printed page = PDF page less 46 (p. 520 = PDF 566, checked by image; p. 522 = PDF 568; p. 566 = PDF 612; p. 608 = PDF 654). The folio is printed at the foot; the book runs by seasons ("Winter 1967" p. 469, "Spring 1967" p. 490, "Summer 1967" p. 520, "Fall 1967" p. 565) and Book Four ends with Christmas Eve, Dec. 24 (p. 607). The diary's entries for 1967 fall on these days only: Jan. 5, 10, 17, 23, 26, 27, 31; Feb. 22; Mar. 2, 9, 14, 15, 18; Apr. 22, 23, 25; May 10, 13; June 5, 9, 11, 21, 25; July 7, 31; Aug. 1, 3, 10, 13, 16, 22, 26; Sept. 8, 12, 25, 30; Oct. 4, 8, 9, 20, 26; Nov. 12, 23, 29; Dec. 4, 5, 9, 10, 24.
+
+**What was checked against the image.** Every quotation entered was matched by script to the text layer within the pages it is cited to (footers and hyphen joins taken out). The 119 printed pages cited (pp. 469-597, 605-06) were then run through tesseract from page images at 150 dpi and the same script run on the OCR; the disagreements were read on the image. The OCR found two errors of the text layer, both corrected in the patch: the printed word is "résumé" (p. 554; the layer has "resume") and the pickets' sign at Williams is in capitals (p. 575). The other disagreements are the OCR's own ("600,c00", a stray mark, a hyphenated line end). Pages 518, 520, 549 and 592 were also read by eye off the image (the quotations there agree).
+
+**The patch:** `inbox/2026-11-12-b11-ladybird-1967.yaml` (patch `2026-11-12-b11-ladybird-1967`): 69 new entries (ids claimed in the ledger first), 23 `cite` ops, 1 `variant` op, 0 `check` ops. `./bib patch-check`: 0 errors, 42 warnings, all "one event?": entries of one day and thread that are distinct events (three places of the Mar. 14 Appalachian trip, the Mar. 15 day in Tennessee, the four events of the Glassboro day, the Shah's arrival and dinner, the Oct. 4 night and morning talks, and so on); `./bib resolve ID --take keep` settles each if the merge flags it. The diary is Mrs. Johnson's account throughout: every `n` says so where it matters (what she saw, what she was told, her gist of a remark), and a private act carries "Made public: 1970." The threads are the events', not chosen to avoid the duplicate check. The new thread `elections-1968-johnson` is used for the talks on whether Johnson should run.
+
+## Entered (new)
+
+| Day | Entry | Page |
+|---|---|---|
+| Jan. 5 | `cal.1967-01-05.congress` | 470 |
+| Jan. 5 | `cal.1967-01-05.press-and-broadcasting` | 469–70 |
+| Jan. 10 | `cal.1967-01-10.congress-2` | 471 |
+| Jan. 10 | `cal.1967-01-10.congress-3` | 472 |
+| Jan. 17 | `cal.1967-01-17.congress` | 474 |
+| Jan. 23 | `cal.1967-01-23.congress` | 477–79 |
+| Jan. 26 | `cal.1967-01-26.states-and-cities` | 479–81 |
+| Jan. 27 | `cal.1967-01-27.transition-and-staff` | 482–83 |
+| Jan. 31 | `cal.1967-01-31.white-house` | 484–87 |
+| Mar. 2 | `cal.1967-03-02.congress` | 490–92 |
+| Mar. 9 | `cal.1967-03-09.elections-1968-johnson` | 492–93 |
+| Mar. 14 | `cal.1967-03-14.school-aid` | 493–97 |
+| Mar. 14 | `cal.1967-03-14.school-aid-2` | 497–98 |
+| Mar. 14 | `cal.1967-03-14.school-aid-3` | 498–99 |
+| Mar. 15 | `cal.1967-03-15.assassination` | 499 |
+| Mar. 15 | `cal.1967-03-15.school-aid` | 499–501 |
+| Mar. 15 | `cal.1967-03-15.school-aid-2` | 502 |
+| Mar. 15 | `cal.1967-03-15.school-aid-3` | 502–03 |
+| Mar. 18 | `cal.1967-03-18.students` | 503–04 |
+| Mar. 18 | `cal.1967-03-18.states-and-cities` | 504–05 |
+| Mar. 18 | `cal.1967-03-18.states-and-cities-2` | 505–06 |
+| Apr. 22 | `cal.1967-04-22.program` | 506–08 |
+| Apr. 23 | `cal.1967-04-23.farm` | 510 |
+| Apr. 25 | `cal.1967-04-25.court` | 513–14 |
+| Apr. 25 | `cal.1967-04-25.white-house` | 510–12 |
+| May 10 | `cal.1967-05-10.labor` | 515–16 |
+| May 10 | `cal.1967-05-10.war-opposition-2` | 516–17 |
+| May 13 | `cal.1967-05-13.elections-1968-johnson` | 518–19 |
+| June 9 | `cal.1967-06-09.conservation` | 522–25 |
+| June 9 | `cal.1967-06-09.states-and-cities` | 526–27 |
+| June 11 | `cal.1967-06-11.conservation` | 527–29 |
+| June 11 | `cal.1967-06-11.conservation-2` | 530–31 |
+| June 25 | `cal.1967-06-25.soviet-union` | 534–40 |
+| June 25 | `cal.1967-06-25.soviet-union-2` | 541 |
+| June 25 | `cal.1967-06-25.soviet-union-3` | 541–42 |
+| June 25 | `cal.1967-06-25.soviet-union-4` | 541–42 |
+| July 7 | `cal.1967-07-07.conservation` | 543–48 |
+| July 31 | `cal.1967-07-31.civil-disorders-detroit` | 549 |
+| July 31 | `cal.1967-07-31.elections-1968-johnson` | 549–50 |
+| Aug. 1 | `cal.1967-08-01.program` | 550 |
+| Aug. 3 | `cal.1967-08-03.crime-and-hijacking` | 551–52 |
+| Aug. 13 | `cal.1967-08-13.vietnam-clifford-taylor` | 554 |
+| Aug. 13 | `cal.1967-08-13.program` | 554 |
+| Aug. 13 | `cal.1967-08-13.state-and-city-finance` | 557 |
+| Aug. 16 | `cal.1967-08-16.vietnam-support` | 559 |
+| Aug. 16 | `cal.1967-08-16.conservation` | 556–57 |
+| Aug. 22 | `cal.1967-08-22.middle-east-2` | 559–60 |
+| Aug. 22 | `cal.1967-08-22.middle-east-3` | 560–63 |
+| Sept. 12 | `cal.1967-09-12.congress-2` | 569 |
+| Sept. 25 | `cal.1967-09-25.elections-1968-johnson` | 570 |
+| Sept. 25 | `cal.1967-09-25.vietnam-support` | 570–71 |
+| Sept. 30 | `cal.1967-09-30.court` | 571–72 |
+| Oct. 4 | `cal.1967-10-04.elections-1968-johnson` | 573–74 |
+| Oct. 4 | `cal.1967-10-04.elections-1968-johnson-2` | 574 |
+| Oct. 4 | `cal.1967-10-04.states-and-cities` | 574 |
+| Oct. 8 | `cal.1967-10-08.students` | 575–78 |
+| Oct. 9 | `cal.1967-10-09.students` | 579–82 |
+| Oct. 20 | `cal.1967-10-20.conservation` | 582 |
+| Oct. 20 | `cal.1967-10-20.elections-1968-johnson` | 583–84 |
+| Oct. 20 | `cal.1967-10-20.congress` | 584 |
+| Oct. 26 | `cal.1967-10-26.latin-america-2` | 585–87 |
+| Oct. 26 | `cal.1967-10-26.vietnam-air-war` | 587 |
+| Nov. 29 | `cal.1967-11-29.defense-clifford` | 592–93 |
+| Dec. 4 | `cal.1967-12-04.health` | 593 |
+| Dec. 4 | `cal.1967-12-04.vietnam-support` | 594–95 |
+| Dec. 5 | `cal.1967-12-05.congress` | 595–96 |
+| Dec. 5 | `cal.1967-12-05.conservation` | 596–97 |
+| Dec. 24 | `cal.1967-12-24.vietnam-johnson-asia` | 605–06 |
+| Dec. 24 | `cal.1967-12-24.program` | 606 |
+
+## Cited (the card) and what the page bears
+
+| Entry | Page | Ruling |
+|---|---|---|
+| `cal.1967-01-10.program` | 471–73 | pinned in part (the cite says what and what not) |
+| `cal.1967-01-10.congress` | 471–72 | pinned in part (the cite says what and what not) |
+| `cal.1967-01-17.vietnam-congress` | 474 | pinned in part (the cite says what and what not) |
+| `cal.1967-01-17.press-and-broadcasting` | 474–77 | pinned in part (the cite says what and what not) |
+| `cal.1967-01-27.space` | 481–82 | pinned in part (the cite says what and what not) |
+| `cal.1967-01-27.space-2` | 482 | pinned in part (the cite says what and what not) |
+| `cal.1967-01-31.space-apollo` | 483–84 | pinned in part (the cite says what and what not) |
+| `cal.1967-03-09.economy` | 493 | pinned in part (the cite says what and what not) |
+| `cal.1967-03-15.vietnam` | 501 | pinned in part (the cite says what and what not) |
+| `cal.1967-03-15.war-opposition` | 501–02 | pinned in part (the cite says what and what not) |
+| `cal.1967-03-18.states-and-cities-us` | 505 | pinned in part (the cite says what and what not) |
+| `cal.1967-04-24.europe-and-the-alliance` | 508, 510 | pinned in part (the cite says what and what not) |
+| `cal.1967-06-05.middle-east` | 520–22 | pinned in part (the cite says what and what not) |
+| `cal.1967-06-23.soviet-union` | 535–41 | pinned in part (the cite says what and what not) |
+| `cal.1967-08-16.republican-party-congress` | 556 | pinned in part (the cite says what and what not) |
+| `cal.1967-08-22.states-and-cities` | 559 | pinned in part (the cite says what and what not) |
+| `cal.1967-09-08.elections-1968` | 565–67 | pinned in part (the cite says what and what not) |
+| `cal.1967-10-02.court` | 572 | pinned in part (the cite says what and what not) |
+| `cal.1967-10-04.vietnam-congress` | 574 | pinned in part (the cite says what and what not) |
+| `cal.1967-10-26.latin-america` | 584–87 | pinned in part (the cite says what and what not) |
+| `cal.1967-11-12.vietnam` | 588–89 | pinned in part (the cite says what and what not) |
+| `cal.1967-11-29.defense` | 591–92 | pinned in part (the cite says what and what not) |
+| `cal.1967-12-19.vietnam` | 605–06 | pinned in part (the cite says what and what not) |
+
+## Variants and Checks
+
+- `cal.1967-11-12.vietnam`, unit C: the page (588) reads the sermon as "we wonder if some logical, straightforward explanation might be given?" and, at its end, "we ask humbly: 'Why?'"; the entry has "we ask respectfully, why?" (a variant, not a Check: the diary quotes the sermon from memory or the copies handed out; the Washington Post's text, Nov. 13, is the record).
+- `cal.1967-03-15.war-opposition`: its Check ("the day") is answered by the diary: Mar. 15, leaving the Capitol after the address; the cite says so.
+- Two new entries carry a Check: `cal.1967-08-13.state-and-city-finance` (the diary says "Sunday night" in its entry of Aug. 16; the family's visit ran July 30 to Aug. 16) and `cal.1967-10-04.states-and-cities` (the day of the Rose Garden program she watched).
+
+## Passed over (with the card's ground)
+
+Family matter, no bearing on public business (Q5): Jan. 5 (Lynda in from Acapulco, the bowling); Jan. 10 (the china patterns); Feb. 22 (New York: fittings; Mary Lasker's dinner for the Chagalls, the Rodgerses and John Gunther, toasts and talk of the theater); Mar. 9 morning (Spanish class, fittings); Apr. 22 (Watts Branch; bridge); Apr. 23 (Mrs. Morris's house; Fredericksburg and the hope of a Madison portrait for the White House: a furnishing; the play); Apr. 25 (the Senate Ladies Luncheon, a vermeil frame for Luci's child); May 13 evening (Camp David with the McNamaras, the Pickles, the Valentis: no business said); June 21 (Patrick Lyndon Nugent born; the reporters' questions to Mrs. Johnson, "I like the status better than the title"); July 31 (the tea for the Texas delegation's wives, family day); Aug. 1 evening (chili at the Bill Whites'); Aug. 10 (Lynda tells her parents she is in love with Chuck Robb); Aug. 13 afternoon and evening (church; Luci and Pat home from Nassau); Aug. 16 afternoon (Lynda and Chuck ask Johnson's consent; the plans for Dec. 9); Aug. 26 (Kerrville: the dedication of the Butt-Holdsworth Library is named in a clause only; the Ranch house; Mount Vernon at 4:30 a.m. for Johnson's birthday); Sept. 12 afternoon (the "Country Fair" for the children of Congressmen and officials: a children's party, Johnson there with Yuki); Sept. 25 morning (the Tiffany china design: a furnishing); Sept. 30 (the family picture); Oct. 20 (the Jockey Club lunch with Lynda: a stranger's letter, a woman's "Tell the President to have courage," no act of a principal); Nov. 23 (Thanksgiving at the Ranch); Nov. 29 (autographing Christmas pictures); Dec. 4 (the Harrimans' party to introduce Lynda and Chuck to the Diplomatic Corps, Johnson there twenty minutes; the Savings Bond for the wedding); Dec. 5 (Lynda's gifts; the Boggs dinner for Lynda and Chuck, "the progress of legislation, the state of affairs on the Hill" heard in passing, no act); Dec. 9-10 (Lynda's wedding to Charles Robb in the East Room, 640 guests, the Chief Justice, the Vice President, the Rusks, Dirksen, the generals among them: a family matter, nothing of public business done or said; the letters of 1934); Dec. 24 evening (the Christmas tree and presents).
+
+Named only, nothing said (Q5): Jan. 5 (Bill Moyers' departure "giving the press a picnic"; Charlie Schultze's remark in December); Jan. 17 afternoon (Joan Crawford's visit on beautification, cited under the dinner entry); Mar. 15 (the Hermitage's breakfast menu); Nov. 11-12 (a Gridiron dinner, "a great evening," p. 589).
+
+## Leads
+
+- Jan. 5 (469): Charlie Schultze to Johnson in December: "You will go down in history as the man who kept this nation together fighting a limited war"; undated (December 1966); not searched.
+- Aug. 13 (556): "Today's poll has Lyndon down to thirty-nine percent—the lowest he has ever been" (the diary's day, Aug. 13?); Mrs. Johnson reads "a speech that Senator Fulbright made" that the country is damned by spending in Vietnam instead of at home (undated); not searched against the calendar's opinion and Vietnam-Congress threads.
+- Dec. 4 (594): Johnson's "important appointment with William Randolph Hearst" before the National Foreign Policy Conference; not entered (an expectation of hers, not a recorded meeting).
+- Sept. 25 (570): the date of the Democratic dinner, Oct. 7, as a possible day for the announcement: the calendar's Oct. entries on the draft statement (`cal.1967-10.elections-1968-3`) were not read against it.
+- Oct. 8 (577): Professor James MacGregor Burns takes her through Mt. Hope Farm, "the site for the environmental planning center": not entered.
+- The plate captions (PDF 557-564) date three scenes: Hello, Dolly! at the White House, Jan. 17 (see the dinner entry's cite); the Appalachia trip, Mar. 13-15; the White House wedding, Dec. 9. The first day of the Appalachian trip, Mar. 13, is not in the text (the entry for Mar. 14 begins on the second day).
+
+Rules looked up: the card's test and examples for the social occasions, the dinners, the wedding and the Fortas, Cain and Hurst talks (the Humphrey ride, the pilot and the audit); R54 for the copy; R30 (a pinpoint names a number) for the cites' pages; the addops STYLE for `variant`. No other.
+
+## Where batch 11 stopped (1967)
+
+The share is finished: Book Four read whole, every page, Jan. 5 to Dec. 24, 1967 (printed pp. 469-607, PDF 507-653); the diary has nothing for the rest of the year (it resumes with Book Five, 1968-1969, p. 609, another reader's). Every dated event with a bearing on public business is in the patch, cited under the entry the calendar held, or on the lists above. Not done: a reading by eye of every quotation on the image (script on the text layer and on the OCR, with the disagreements read by eye, and four pages read directly); the auditor's blind pass is still to come.
