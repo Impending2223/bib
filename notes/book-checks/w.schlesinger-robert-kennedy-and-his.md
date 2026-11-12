@@ -80,6 +80,42 @@ The merge's check for duplicates flags 32 new entries as possible duplicates of 
 
 ## Passed over (second reading)
 
+### Batch 9 (pp. 205–586), Nov. 12, 2026
+
+The "already in" rows of pp. 205–586 read against the calendar from the owner's copy (text and page image), by `2026-11-12-b9-schlesinger-a.yaml` (32 cites, 4 variants or Checks, 7 new entries). Rows (page | ruling):
+
+- 205 | cited under cal.1960-07-12.elections-1960-2 (the debate challenge).
+- 208 | not in after all (the July 14 entry has no Rauh): entered as cal.1960-07-12.elections-1960-los-angeles (Rauh to Robert Kennedy; the day a Check); 207–08 cited under cal.1960-07-12.press-and-broadcasting.
+- 219–20 | cited under cal.1960-11-08.elections-1960-9, cal.1960-11-09.elections-1960-9, cal.1960-11-09.elections-1960-2; the concession by Klein and Kennedy's "no class" not in: entered as cal.1960-11-09.elections-1960-count-2.
+- 226–27, 231–32, 236 | already cited (Dec. 1960 cabinet entries, cal.1960-12-16.robert-kennedy, cal.1961-01-20.transition-and-staff).
+- 254 | cited under cal.1960-11-09.transition-and-staff.
+- 294 | cited under cal.1961-08-30.states-and-cities (Atlanta; the book puts New Orleans, Atlanta and Memphis in September: Check; New Orleans and Memphis no day, no entry).
+- 295, 296–98, 300, 302 (both), 327, 328, 329, 345, 349, 359, 363, 365 | already cited (batch 7 and before; 327 carries a variant on cal.1963-02-28.voting-rights).
+- 372 | cited under cal.1961-05-19.civil-rights-the-executive; variant (seventy-one judgeships, the entry's seventy-three).
+- 384 | cited under cal.1963-10-14.defense (Korth).
+- 397 | cited under cal.1962-03-26.court; Robert Kennedy's statement entered as cal.1962-03-27.court (the day a Check). JFK's remark at his next news conference (1962 Pub. Papers 274, n.29) not entered: its day not reached.
+- 400 | cited under cal.1964-06-15.court (Reynolds v. Sims).
+- 413–14 | cited under cal.1963-02-14.program (the national service corps); Robert Kennedy's testimony to a House committee and the three Saturday cabinet meetings undated: leads, not entered.
+- 422–23 | cited under cal.1961-01-06.berlin-and-vienna (the speech; not that the President had the NSC read it).
+- 432 | cited under cal.1961-11-16.right-and-the-military (the negotiation passages, by n.68).
+- 446–48 | cited under cal.1961-06-13.cuba (the report's conclusion; the Study Group meetings of Apr. 26, May 4, May 18 are not dated in the text).
+- 451 | cited under cal.1961-11-16.right-and-the-military (the west coast speeches, n.21); Reuther's talk with Kennedy entered as cal.1961-11.right-and-the-military-3 (the day a Check).
+- 458–59 | cited under cal.1961-06-28.cuba (NSAMs 55 and 57, no day in the text).
+- 471 | cited under cal.1962-09-17.governors-ny (Donovan's candidacy); Donovan and Castro's shopping list entered as cal.1962-10-20.cuba.
+- 481 | cited under cal.1960-09-26.congo-lumumba; 485 under cal.1960-08-18.congo-2 (Eisenhower at the NSC).
+- 481–85 | cited under cal.1960-09.cuba, cal.1960-09.cuba-4, cal.1961-03.cuba, cal.1961-01-25.cuba-3, cal.1962-04.cuba-2. No entry for the cigars (ready October 1960, delivered the following February: no day) or for the plot's end (February 1963, Harvey): leads.
+- 491–92 | Dulles's calls to Robert Kennedy of May 31 not in: entered as cal.1961-05-31.latin-america-4; the Seattle speech's "tactics of terror" cited under cal.1961-11-16.right-and-the-military (492, n.89); the Szulc talk already cited (cal.1961-11-09.cuba, 492).
+- 501 | cited under cal.1961-09-29.soviet-union.
+- 525 | cited under cal.1962-11-02.missile-crisis (Mikoyan).
+- 526 | Robert Kennedy and Dobrynin, "the most unpleasant conversation," not in: entered as cal.1962-11-15.missile-crisis-settlement (the day, three days after Nov. 12, a Check; whether it is the talk of cal.1962-11-15.missile-crisis, a Check).
+- 537, 552 | already cited (cal.1962-12-23.cuba; cal.1963-09-18.cuba, cal.1963-09-19.cuba).
+- 560 | cited under cal.1961-12-05.africa (A); variant on F (the book has the President resolve at the NSC of Dec. 5 to go ahead; FRUS defers).
+- 579–80 | cited under cal.1962-04-03.latin-america (Goulart's visit); 580 n. cited under cal.1961-10-25.latin-america (Jagan; Check: the note dates the journal Oct. 25, 1962).
+- 586–87 | cited under cal.1961-12-19.transition-and-staff (Dec. 19, 1961 confirmed).
+
+Where batch 9 stopped: pp. 205–586 done (all 45 rows); pp. 630–915 are the other reader's.
+
+
 Re-ruled Nov. 6, 2026, under R18 as amended. The 137 rows below ruled private, social, personal, family, trivia or a draft (and the minor rows of that kind) were read again, Nov. 10-11, 2026, page and note, from the owner's copy (the first edition; the offsets above), each against the page image as well as the text, and ruled again; each such row ends "re-ruled Nov. 6 (R18 as amended):" and the ruling. The entries and cites: `inbox/2026-11-06-b6-schlesinger-rfk.yaml` (patch `2026-11-06-b6-schlesinger-rfk`); the witnesses, `inbox/witnesses/2026-11-06-b6-schlesinger-rfk.yaml`; the edges, at the end of `sources/witnesses/by-work/schlesinger-robert-kennedy-and-his.yaml`.
 
 How the list was made: every dated event, meeting, letter or statement the book gives from p. 186 on was logged as it was read, page by page, and ruled against the calendar (`./bib find -l cal --since ... --until ...`). Rows entered are among the new entries and are not repeated here. "Already in" names the entry where it was found; "a lead" means the book gives the event and a source or day the series could not reach; "minor" means private or social matter with no act, or a repetition of a position already entered with nothing new (under the rule of Oct. 29, no party maneuver or member's position is passed as minor). Classes passed without a row of their own: the family's private life (the children, Hickory Hill's parties, the river and mountain trips), the campaign's crowds and color, and the author's own views. Rows give page | date | event | ruling.
