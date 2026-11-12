@@ -41,6 +41,9 @@ def _days():
         out.setdefault(d, []).append("war")
     for d in afday.dates():
         out.setdefault(d, []).append("afd")
+    from . import vnmap
+    for d in vnmap.first_mondays(held_on_disk()).values():   # the year's Southeast Asia map (vnmap STYLE 8)
+        out.setdefault(d, []).append("vnmap")
     return out
 
 
