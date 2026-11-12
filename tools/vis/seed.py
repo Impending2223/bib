@@ -381,9 +381,10 @@ def write(path, header, blocks, dry):
 
 def merged(old, new, refresh):
     """old rows kept (a hand edit wins), new keys added; --refresh: the seed's rows over the old, a `hand: true` row kept."""
-    out = dict(old or {})
+    hand = lambda v: isinstance(v, dict) and v.get("hand")
+    out = {k: v for k, v in (old or {}).items() if not refresh or hand(v)}
     for k, v in new.items():
-        if k not in out or (refresh and not (isinstance(out[k], dict) and out[k].get("hand"))):
+        if k not in out:
             out[k] = v
     return out
 
@@ -548,7 +549,7 @@ def parties(docs, names_pol, surnames):
             p = vis_words.role_polity(part, None)
             if p and p != "us":
                 ps.add(p)
-            for w in re.findall(r"\b([A-Z][a-zà-ỹ'-]{2,}(?: [A-Z][a-zà-ỹ'-]+)?)\b", vis_words.US_POSTS.sub(" ", part)):
+            for w in re.findall(r"\b([A-ZÀ-Ỹ][\w'-]{2,})\b", vis_words.US_POSTS.sub(" ", part)):
                 sp = surnames.get(store.fold(w).lower())
                 if sp:
                     ps.add(sp)
@@ -561,17 +562,25 @@ def parties(docs, names_pol, surnames):
             x = by_key[k]
             title = x.get("title") or ""
             ps = set()
-            m = re.search(r"\bFrom (.+?) to (.+)$", title)
+            head = vis_words.US_POSTS.sub(" # ", title)        # the American posts first: "Ambassador to Vietnam"
+            head = re.sub(r",? in (?:the )?[A-Z][\w'.-]+(?: [A-Z][\w'.-]+)?(?=\s*$| to |,)", " ", head)   # a traveller
+            m = re.search(r"\bFrom (.+?) to (.+)$", head)
             if m:
                 ps |= side_polities(m.group(1)) | side_polities(m.group(2))
             body = texts.get("frus:" + k) or ""
             pm = re.search(r"(?i)participants?\s*:?\s*</?\w[^>]*>?(.{0,1500})", body)
             if pm and re.search(r"(?i)memorandum of conversation|conversation|meeting|summary record|minutes", title):
-                seg = re.sub(r"<[^>]+>", "\n", pm.group(1))
-                seg = re.split(r"\n\s*(?:Subject|SUBJECT|Date|DATE)\b", seg)[0]
-                for line in re.split(r"[;\n]", seg):
-                    if line.strip():
-                        ps |= side_polities(line)
+                lines = []                    # the list's short lines, to the first that reads as the text
+                for ch in re.split(r"<[^>]+>|;", pm.group(1)):
+                    ch = ch.strip()
+                    if not ch:
+                        continue
+                    if len(ch) > 100 or re.match(r"(?i)subject|date|place|time\b", ch) or re.search(
+                            r"\b(?:said|called|expressed|thought|noted|discussed|began|opened|asked|was|were|had|is)\b", ch):
+                        break
+                    lines.append(ch)
+                for line in lines:
+                    ps |= side_polities(line)
             ps = {p for p in ps if not POLITIES.get(p, {}).get("org")}
             if ps:
                 out[k] = ["us"] + sorted(ps)

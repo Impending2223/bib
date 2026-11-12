@@ -366,7 +366,9 @@ def from_witness(series, wid, event, addressed):
     d = iso(w.get("date")) or event
     if k in ("press", "official"):
         public = d
-        pub = next(iter(sorted(privity)), "?") if privity else "?"
+        s = series_for_text(f"{w.get('what') or ''} {w.get('where') or ''}")
+        pub = (s.get("polity") if s and s.get("polity") not in (None, "parties") else None) or \
+            (next(iter(sorted(privity, key=order_key))) if privity else "?")
     else:
         public = None
         for c in store.as_list(w.get("copies")):
@@ -429,7 +431,10 @@ def witness_for_row(series, e, row, event, addressed):
         s = series_for_url(key)
         if s is None:
             return W(key, "?", "?", "?", basis="no series for the address")
-        return from_series(s, key, (item or "") + " " + key, event, addressed)
+        tail = re.sub(r"^https?://(?:www\.)?", "", key)
+        m = re.search(r"(frus[\w-]+/d\d+)", key)
+        label = f"{s.get('key')}: {m.group(1) if m else tail[:48]}"
+        return from_series(s, label, (item or "") + " " + key, event, addressed)
     if kind == "text":
         s = series_for_text(item or key)
         if s is None:
@@ -529,8 +534,11 @@ def compute(series, lst, e):
                             tags=["US:all"], computed=False))
             continue
         addr, terr, agency, basis = address(lst, e, cl["text"] if cl["unit"] != "all" else None, date)
-        ws = [witness_for_row(series, e, r, date, addr) for r in cl["rows"] if r[1]]
-        ws += made_public(e, date, addr)
+        ws, seen = [], set()
+        for w in [witness_for_row(series, e, r, date, addr) for r in cl["rows"] if r[1]] + made_public(e, date, addr):
+            if w["label"] not in seen:
+                seen.add(w["label"])
+                ws.append(w)
         known = [w for w in ws if w["kind"] not in ("?", "reference")]
         ref = plus_days(date, REF_DAYS)
         res = dict(cl, date=date, ref=ref, witnesses=ws, address_basis=basis)
