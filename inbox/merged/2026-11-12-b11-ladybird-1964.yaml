@@ -1,29 +1,18 @@
 patch: 2026-11-12-b11-ladybird-1964
-by: 'Claude (batch 11: Lady Bird Johnson, A White House Diary, Nov. 22, 1963 to Dec. 31, 1964), Nov. 12, 2026'
+by: 'Claude (batch 11 reader, Lady Bird Johnson, A White House Diary, Nov. 1963-Nov. 1964; audited in two halves)'
 ops:
-- add:
-    entry:
-      id: cal.1963-11-22.assassination-13
-      when: Nov. 22
-      date: '1963-11-22'
-      thread: assassination
-      c: Dallas. The Johnsons ride third in the motorcade, behind the Kennedys and the Connallys, with Yarborough. Three shots; Youngblood of the Secret Service throws Johnson to the floor. The car goes at speed to Parkland Hospital.
-      n: '[[w.johnson-white-house-diary]], 3–4 (Lady Bird Johnson''s account; her times are not given). Names: Johnson, Lady Bird Johnson, Kennedy, Jacqueline Kennedy, Connally, Yarborough, Youngblood.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:johnson-lady-bird
-      - name:kennedy-john-f
-      - name:kennedy-jacqueline
-      - name:connally-john
-      - name:yarborough-ralph
+- cite:
+    id: cal.1963-11-22.assassination
+    item: '[[w.johnson-white-house-diary]], 3–5 (Lady Bird Johnson''s account from the third car, with Yarborough: a report, then two more shots; Youngblood of the Secret Service throws Johnson to the floor; the car to Parkland; O''Donnell: "The President is dead"; not the times, Tippit or Oswald''s arrest)'
+    units: '?'
 - add:
     entry:
       id: cal.1963-11-22.succession-18
       when: Nov. 22
       date: '1963-11-22'
       thread: succession
-      c: Parkland Hospital, a small room lined with sheets. Johnson with Thornberry, Brooks, O'Donnell and Secret Service agents; he proposes that Air Force One be moved and that Mrs. Johnson see Mrs. Kennedy and Mrs. Connally. Kilduff comes in and says "Mr. President." The party leaves for Love Field.
-      n: '[[w.johnson-white-house-diary]], 4–5 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Kenneth O''Donnell, Thornberry, Brooks, Jacqueline Kennedy, Connally, Kilduff.'
+      c: Parkland Hospital, a small room lined with sheets. Johnson with Thornberry, Brooks, O'Donnell and Secret Service agents; he proposes that Air Force One be moved and that Mrs. Johnson see Mrs. Kennedy and Nellie Connally. Kilduff comes in and says "Mr. President." The party leaves for Love Field.
+      n: '[[w.johnson-white-house-diary]], 4–5 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Kenneth O''Donnell, Thornberry, Brooks, Jacqueline Kennedy, Kilduff.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -31,22 +20,13 @@ ops:
       - name:thornberry-william-h
       - name:brooks-jack-b
       - name:kennedy-jacqueline
-      - name:connally-john
-- add:
-    entry:
-      id: cal.1963-11-22.succession-19
-      when: Nov. 22
-      date: '1963-11-22'
-      thread: succession
-      c: 'Air Force One, Love Field. Word to Washington, "I believe to the Attorney General": Johnson to be sworn in at once, in Dallas. Judge Sarah Hughes is called to administer the oath.'
-      n: '[[w.johnson-white-house-diary]], 5 (Lady Bird Johnson''s account; she does not know who spoke). See [[cal.1963-11-22.succession]]. Names: Johnson, Robert Kennedy, Sarah Hughes.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:kennedy-robert-f
-      - name:hughes-sarah-t
+- cite:
+    id: cal.1963-11-22.robert-kennedy
+    item: '[[w.johnson-white-house-diary]], 5 (on Air Force One "a telephone call to Washington—I believe to the Attorney General"; it is decided Johnson be sworn in at once, and Judge Sarah Hughes is called; Lady Bird Johnson''s account, not who spoke or Katzenbach)'
+    units: '?'
 - cite:
     id: cal.1963-11-22.succession
-    item: '[[w.johnson-white-house-diary]], 5–6, 7 (the oath at Mrs. Kennedy''s side, Mrs. Johnson beside him, Judge Hughes before him; the brief statement at Andrews; not the time or the words of the oath)'
+    item: '[[w.johnson-white-house-diary]], 5–6, 7 (the oath at Mrs. Kennedy''s side, Mrs. Johnson beside him, Judge Hughes before him; the brief statement at Andrews; not the time, the words of the oath or of the statement: "Only about four sentences")'
     units: '?'
 - cite:
     id: cal.1963-11-22.succession-14
@@ -71,22 +51,10 @@ ops:
     id: cal.1963-11-24.succession-6
     item: '[[w.johnson-white-house-diary]], 8 (church at St. Mark''s with Luci and Thornberry; Baxter''s sermon: whoever fostered an atmosphere of hate had his hand on the gun barrel)'
     units: '?'
-- add:
-    entry:
-      id: cal.1963-11-24.assassination-6
-      when: Nov. 24
-      date: '1963-11-24'
-      thread: assassination
-      c: 'Washington. Johnson and Mrs. Johnson ride with Mrs. Kennedy and Robert Kennedy behind the caisson to the Capitol. In the Rotunda, eulogies by Warren, McCormack and Mansfield; Johnson lays a wreath at the foot of the casket. Robert Kennedy, passing a building: "That was where it all began. That was where he ran for the Presidency."'
-      n: '[[w.johnson-white-house-diary]], 8–10 (Lady Bird Johnson''s account; she places Shriver''s news of Oswald''s death in the Green Room before the ride). See [[cal.1963-11-24.assassination]]. Names: Johnson, Lady Bird Johnson, Jacqueline Kennedy, Robert Kennedy, Warren, McCormack, Mansfield.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:johnson-lady-bird
-      - name:kennedy-jacqueline
-      - name:kennedy-robert-f
-      - name:warren-earl
-      - name:mccormack-john-w
-      - name:mansfield-mike
+- cite:
+    id: cal.1963-11-24.assassination
+    item: '[[w.johnson-white-house-diary]], 8–10 (the ride behind the caisson with Mrs. Kennedy and Robert Kennedy, who says passing a building, "That was where it all began. That was where he ran for the Presidency"; the Rotunda, eulogies by Warren, McCormack and Mansfield, Johnson''s wreath; Mrs. Shriver''s word that Oswald has been killed, in the Green Room before; not Ruby or the times)'
+    units: C
 - cite:
     id: cal.1963-11-26.succession-3
     item: '[[w.johnson-white-house-diary]], 10 (J. B. West at The Elms in the morning on moving three suites of furniture; Mrs. Johnson''s and her daughters'' into Mrs. Kennedy''s, Caroline''s and John Jr.''s rooms)'
@@ -97,14 +65,14 @@ ops:
       when: Nov. 26
       date: '1963-11-26'
       thread: succession
-      c: 'The White House, 3 p.m. Mrs. Kennedy receives Mrs. Johnson to go over the housekeeping, by Mrs. Johnson''s account: West and the Curator, Ketchum, to depend on; the third-floor school to continue until after Christmas, which Mrs. Johnson grants.'
-      n: '[[w.johnson-white-house-diary]], 10–12 (Lady Bird Johnson''s account). See [[cal.1963-11-26.succession-3]]. Names: Lady Bird Johnson, Jacqueline Kennedy.'
+      c: 'The White House, 3 p.m. Mrs. Kennedy receives Mrs. Johnson to go over the housekeeping, by Mrs. Johnson''s account: West and the Curator, Ketchum, to depend on; the third-floor school to continue until after Christmas, which Mrs. Johnson grants. Mrs. Johnson asks her, by her later account, to serve on a committee for the house.'
+      n: '[[w.johnson-white-house-diary]], 10–12, 61 (Lady Bird Johnson''s account; the request to serve is in her entry of Jan. 24, 1964: "I had asked her the very first day ... Tuesday, November 26"). See [[cal.1963-11-26.succession-3]]. Names: Lady Bird Johnson, Jacqueline Kennedy.'
       tags:
       - name:johnson-lady-bird
       - name:kennedy-jacqueline
 - cite:
     id: cal.1963-11-26.latin-america
-    item: '[[w.johnson-white-house-diary]], 12 (the East Room, about 5 p.m.: Johnson to the Alliance for Progress representatives, "continued strength and interest"; Mrs. Johnson seated behind him; the diary does not mention Mrs. Kennedy at it)'
+    item: '[[w.johnson-white-house-diary]], 12 (the East Room, about 5 p.m.: Johnson to the Alliance for Progress members, by Mrs. Johnson to reassure them of "our country''s continued strength and interest in them"; Mrs. Johnson and Mrs. Kennedy take seats behind him; not his words)'
     units: '?'
 - add:
     entry:
@@ -112,7 +80,7 @@ ops:
       when: Dec. 2
       date: '1963-12-02'
       thread: program
-      c: 'The Cabinet Room, late afternoon. Johnson presents the Enrico Fermi Award to Oppenheimer, the citation signed by Kennedy before his death, with the $50,000 to Mrs. Oppenheimer. Present: the senior Democrats of the Atomic Energy Committee, Teller, Smyth; the ranking Republicans absent. Oppenheimer: "it has taken some charity and some courage for you to make this award today."'
+      c: 'The Cabinet Room, late afternoon. Johnson presents the Enrico Fermi Award to Oppenheimer, the citation signed by Kennedy before his death, with the $50,000 to Mrs. Oppenheimer. Present: the senior Democrats of the Atomic Energy Committee, Teller, Smyth; the ranking Republicans absent, "reportedly" by choice. Johnson, handing the check to Mrs. Oppenheimer: "The wives usually get hold of the money." Oppenheimer: "it has taken some charity and some courage for you to make this award today."'
       n: '[[w.johnson-white-house-diary]], 12–13 (Lady Bird Johnson''s account; she was present). To check: the Public Papers, remarks at the presentation, Dec. 2, 1963. Names: Johnson, Lady Bird Johnson, Oppenheimer, Kennedy, Teller.'
       tags:
       - name:johnson-lyndon-b
@@ -143,24 +111,12 @@ ops:
       when: Dec. 7
       date: '1963-12-07'
       thread: press-and-broadcasting
-      c: 'The White House. Liz Carpenter, Mrs. Johnson''s staff director and press secretary, meets groups of newswomen and boils their wishes down to two: "Be Available" and "Never Lie." Mrs. Johnson to the press, through Carpenter, on the move: she would serve Mrs. Kennedy''s convenience.'
-      n: '[[w.johnson-white-house-diary]], 14–15 (Lady Bird Johnson''s account; the remark on convenience is of "several days ago"; the day is the diary''s). Check: the day of the remark. Names: Lady Bird Johnson, Carpenter, Jacqueline Kennedy.'
+      c: 'Mrs. Johnson, impatient with the press''s question when the Johnsons will move in, to Liz Carpenter, her staff director and press secretary, who passes it on to the newswomen word for word: "I would to God I could serve Mrs. Kennedy''s comfort; I can at least serve her convenience." The question abates.'
+      n: '[[w.johnson-white-house-diary]], 14 (Lady Bird Johnson''s account, in her entry of Dec. 7: "Several days ago"). Check: the day. Names: Lady Bird Johnson, Carpenter, Jacqueline Kennedy.'
       tags:
       - name:johnson-lady-bird
       - name:carpenter-liz
       - name:kennedy-jacqueline
-- add:
-    entry:
-      id: cal.1963-12-07.succession-2
-      when: Dec. 7
-      date: '1963-12-07'
-      thread: succession
-      c: Evening, the house of Walter and Marjorie Jenkins. Johnson and Mrs. Johnson to dinner; reporters and cameras in front.
-      n: '[[w.johnson-white-house-diary]], 16 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Walter Jenkins.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:johnson-lady-bird
-      - name:jenkins-walter-w
 - add:
     entry:
       id: cal.1963-12-14.congress
@@ -206,7 +162,7 @@ ops:
       date: '1963-12-24'
       thread: succession
       c: Johnson leaves Washington about 9:30 a.m., after the House passes the foreign aid bill. At Philadelphia, the funeral of Representative William Green; then to Austin.
-      n: '[[w.johnson-white-house-diary]], 19 (Lady Bird Johnson''s account). See [[cal.1963-12-24.foreign-aid]]. Names: Johnson, Lady Bird Johnson, William Green.'
+      n: '[[w.johnson-white-house-diary]], 19 (Lady Bird Johnson''s account). See [[cal.1963-12-23.democratic-party]], [[cal.1963-12-24.foreign-aid]]. Names: Johnson, Lady Bird Johnson, William Green.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -234,55 +190,23 @@ ops:
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
-- add:
-    entry:
-      id: cal.1963-12-27.europe-and-the-alliance
-      when: Dec. 27
-      date: '1963-12-27'
-      thread: europe-and-the-alliance
-      c: The Ranch. Rusk, Freeman, Ball, McGhee (Ambassador to Germany) and McGeorge Bundy with Johnson in groups for the briefings before Erhard's visit.
-      n: '[[w.johnson-white-house-diary]], 21–22 (Lady Bird Johnson''s account; Rusk arrived that morning, Freeman and Ball before him). See [[cal.1963-12-28.europe-and-the-alliance]]. Names: Johnson, Rusk, Freeman, Ball, McGhee, Bundy.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:rusk-dean
-      - name:freeman-orville-l
-      - name:ball-george-w
-      - name:mcghee-george-c
-      - name:bundy-mcgeorge
-- add:
-    entry:
-      id: cal.1963-12-27.press-and-broadcasting-2
-      when: Dec. 27
-      date: '1963-12-27'
-      thread: press-and-broadcasting
-      c: The Ranch, about 200 reporters, White House, Texas and German, by five buses. Mrs. Johnson, on the bus microphone, tells them the ranch's history; Salinger runs the tour. Barbecue (Walter Jetton); Johnson on a bale of hay introduces Rusk, Freeman and Mann, "Number One coordinator of Latin American affairs." By Mrs. Johnson, "an all-around press conference, but most casual."
-      n: '[[w.johnson-white-house-diary]], 22 (Lady Bird Johnson''s account). See [[cal.1963-12-27.succession]]. Names: Lady Bird Johnson, Johnson, Salinger, Rusk, Freeman, Mann.'
-      tags:
-      - name:johnson-lady-bird
-      - name:johnson-lyndon-b
-      - name:salinger-pierre
-      - name:rusk-dean
-      - name:freeman-orville-l
-      - name:mann-thomas-c
 - cite:
     id: cal.1963-12-27.succession
-    item: '[[w.johnson-white-house-diary]], 22 (the press barbecue and Johnson''s remarks to the gathering; not the budget)'
-    units: '?'
+    item: '[[w.johnson-white-house-diary]], 21–22 (some two hundred reporters, White House, Texas and German, by bus round the Ranch, Mrs. Johnson on the microphone; the barbecue; Johnson on a bale of hay introduces Rusk, Freeman and Mann, "whose job as Number One coordinator of Latin American affairs had been announced"; by Mrs. Johnson "an all-around press conference, but most casual"; not the budget)'
+    units: A
 - add:
     entry:
       id: cal.1963-12-28.europe-and-the-alliance-2
       when: Dec. 28
       date: '1963-12-28'
       thread: europe-and-the-alliance
-      c: 'Bergstrom Air Force Base, Austin. Johnson and Mrs. Johnson, Connally and his wife meet Erhard: troops reviewed, anthems, brief speeches by Erhard and Johnson. By helicopter to the Ranch: a stag luncheon for fourteen of the Germans, and talks after. The German party includes Schroeder, Westrick and Carstens.'
-      n: '[[w.johnson-white-house-diary]], 23–24 (Lady Bird Johnson''s account; the guest numbers are hers). See [[cal.1963-12-28.europe-and-the-alliance]]. Names: Johnson, Lady Bird Johnson, Connally, Erhard, Schroeder, Carstens, Westrick.'
+      c: 'Bergstrom Air Force Base, Austin. Johnson and Mrs. Johnson, Connally and his wife meet Erhard: troops reviewed, both anthems, brief speeches by Erhard and Johnson. Then by helicopter to the Ranch.'
+      n: '[[w.johnson-white-house-diary]], 23 (Lady Bird Johnson''s account). To check: the Public Papers, remarks on Erhard''s arrival, Dec. 28, 1963. See [[cal.1963-12-28.europe-and-the-alliance]]. Names: Johnson, Lady Bird Johnson, Connally, Erhard.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
       - name:connally-john
       - name:erhard-ludwig
-      - name:carstens-karl
-      - name:westrick-ludger
 - add:
     entry:
       id: cal.1963-12-28.europe-and-the-alliance-3
@@ -320,10 +244,6 @@ ops:
       - name:erhard-ludwig
       - name:rusk-dean
 - cite:
-    id: cal.1963-12-29.europe-and-the-alliance
-    item: '[[w.johnson-white-house-diary]], 26–27 (the barbecue and toasts; Rusk''s introduction by Johnson; Mrs. Johnson does not give the breakfast on the terrace or Ball''s galaxy remark)'
-    units: '?'
-- cite:
     id: cal.1963-12-30.defense
     item: '[[w.johnson-white-house-diary]], 27 (the Joint Chiefs, led by Taylor and including LeMay and Shoup, at the Ranch in the morning; Heller and Gordon in and out of the meetings; not McNamara, Gilpatric or the reporters)'
     units: '?'
@@ -349,22 +269,10 @@ ops:
       date: '1963-12-30'
       thread: succession
       c: 'Austin, dedication of the Agudas Achim Synagogue, postponed from Nov. 24. Novy introduces Johnson: "all those Jews he got out of Germany during the days of Hitler." Johnson: his first unofficial speech in the office was in a place of worship in his home town.'
-      n: '[[w.johnson-white-house-diary]], 28 (Lady Bird Johnson''s account; the words are Novy''s as she gives them). Names: Johnson, Lady Bird Johnson.'
+      n: '[[w.johnson-white-house-diary]], 28 (Lady Bird Johnson''s account; the words are Novy''s as she gives them). To check: the Public Papers, remarks at the dedication, Dec. 30, 1963. Names: Johnson, Lady Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
-- add:
-    entry:
-      id: cal.1963-12-31.succession
-      when: Dec. 31
-      date: '1963-12-31'
-      thread: succession
-      c: The Ranch. Johnson goes deer hunting at dawn with Pickle and Don Thomas; later visitors flown in from Washington talk with him in the living room.
-      n: '[[w.johnson-white-house-diary]], 29 (Lady Bird Johnson''s account; she names no visitor). Names: Johnson, Lady Bird Johnson, Pickle.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:johnson-lady-bird
-      - name:pickle-james-j
 - add:
     entry:
       id: cal.1964-01-05.press-and-broadcasting
@@ -383,42 +291,19 @@ ops:
       when: Jan. 5
       date: '1964-01-05'
       thread: elections-1964-johnson
-      c: 'Austin. The Johnsons stop at the Governor''s Mansion for coffee with Connally and his wife; then Senator Yarborough''s New Year''s reception for his neighbors. Mrs. Johnson: "We''re going to need him, we''re going to need everybody."'
-      n: '[[w.johnson-white-house-diary]], 30 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Connally, Yarborough.'
+      c: 'Austin. Johnson and Mrs. Johnson at Senator Yarborough''s New Year''s reception for his neighbors, the street gathered to see them. Mrs. Johnson, in her diary: "We''re going to need him, we''re going to need everybody, we''re going to need to make peace all around."'
+      n: '[[w.johnson-white-house-diary]], 30 (Lady Bird Johnson''s account; before it, coffee with the Connallys at the Governor''s Mansion). Names: Johnson, Lady Bird Johnson, Yarborough.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
-      - name:connally-john
       - name:yarborough-ralph
-- add:
-    entry:
-      id: cal.1964-01-05.succession
-      when: Jan. 5
-      date: '1964-01-05'
-      thread: succession
-      c: Johnson and Mrs. Johnson fly from Austin to Washington with Mrs. Johnson's uncle and aunts, Huffman and Ovilee Baines and Josefa, as the President's guests at the White House.
-      n: '[[w.johnson-white-house-diary]], 30–31 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:johnson-lady-bird
-- add:
-    entry:
-      id: cal.1964-01-06.white-house
-      when: Jan. 6
-      date: '1964-01-06'
-      thread: white-house
-      c: The White House, 6 to 7:30 p.m. Reception for the household staff, from cooks to gardeners. Johnson arrives late; Luci stands in the line with Mrs. Johnson until he does.
-      n: '[[w.johnson-white-house-diary]], 31–32 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Johnson.'
-      tags:
-      - name:johnson-lady-bird
-      - name:johnson-lyndon-b
 - add:
     entry:
       id: cal.1964-01-07.labor
       when: Jan. 7
       date: '1964-01-07'
       thread: labor
-      c: 'The White House, 1 p.m. Johnson''s stag luncheon for labor leaders. Mrs. Johnson stands in line in the Red Room to greet them: Meany, Reuther, Dubinsky, James Carey, MacDonald, Suffridge and Biemiller; the Cabinet officers and staff receiving them are Rusk, Dillon, McNamara, Hodges, Wirtz, Gordon, Heller, O''Brien, Salinger and Sorensen.'
+      c: 'The White House, 1 p.m. Johnson''s stag luncheon for labor leaders. Mrs. Johnson stands in line in the Red Room to greet them: Meany, Reuther, Dubinsky, James Carey, David McDonald, Suffridge and Biemiller; the Cabinet officers and staff receiving them are Rusk, Dillon, McNamara, Hodges, Wirtz, Gordon, Heller, O''Brien, Salinger and Sorensen.'
       n: '[[w.johnson-white-house-diary]], 32 (Lady Bird Johnson''s account; she records no talk; the guests'' names are hers). Names: Johnson, Lady Bird Johnson, Meany, Reuther, Rusk, Dillon, McNamara, Hodges, Wirtz, Kermit Gordon, Heller, O''Brien, Salinger, Sorensen.'
       tags:
       - name:johnson-lyndon-b
@@ -466,18 +351,6 @@ ops:
     units: '?'
 - add:
     entry:
-      id: cal.1964-01-08.poverty
-      when: Jan. 8
-      date: '1964-01-08'
-      thread: poverty
-      c: The White House family sitting room, about 5:30 p.m. Batt of the Area Redevelopment Administration and two aides, with Liz Carpenter and Kilduff, brief Mrs. Johnson with maps on unemployment in the Pennsylvania coal areas, for her trip Saturday.
-      n: '[[w.johnson-white-house-diary]], 35 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Batt, Carpenter.'
-      tags:
-      - name:johnson-lady-bird
-      - name:batt-william-l-jr
-      - name:carpenter-liz
-- add:
-    entry:
       id: cal.1964-01-10.white-house
       when: Jan. 10
       date: '1964-01-10'
@@ -521,18 +394,6 @@ ops:
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
-- add:
-    entry:
-      id: cal.1964-01-11.succession
-      when: Jan. 11
-      date: '1964-01-11'
-      thread: succession
-      c: Johnson, in the receiving line, tells Mrs. Johnson to pack for Camp David in twenty minutes and sends for McNamara, his wife and their son Craig; they fly by helicopter from the South Lawn that night.
-      n: '[[w.johnson-white-house-diary]], 41 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, McNamara.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:johnson-lady-bird
-      - name:mcnamara-robert-s
 - cite:
     id: cal.1964-01-12.civil-rights-bill-2
     item: '[[w.johnson-white-house-diary]], 41–42 (Camp David: Johnson to church in Thurmont; Russell arrives about 11 and tells of Antietam, the lost Lee order and McClellan; McNamara''s staff, Vance among them, telephone about Panama; not Russell''s other meetings)'
@@ -543,8 +404,8 @@ ops:
       when: Jan. 13
       date: '1964-01-13'
       thread: latin-america-panama
-      c: The Cabinet Room, from about 9 p.m. Johnson with Rusk, McNamara, Bundy and about fourteen others on Panama; the meeting breaks up a little after midnight, Johnson talks with his staff, and reaches home at 2 a.m.
-      n: '[[w.johnson-white-house-diary]], 44–45 (Lady Bird Johnson''s account: she watched a television program on Panama while waiting, and learned the hours the next morning). Names: Johnson, Lady Bird Johnson, Rusk, McNamara, Bundy.'
+      c: The Cabinet Room, from about 9 p.m. Johnson with Rusk, McNamara, Bundy and others, about fourteen in all; the meeting breaks up a little after midnight, Johnson talks with his staff and reaches home at 2 a.m.
+      n: '[[w.johnson-white-house-diary]], 44–45 (Lady Bird Johnson''s account; she learned the hours next morning, and took the meeting for Panama, having watched a program on Panama). Check: the subject. Names: Johnson, Lady Bird Johnson, Rusk, McNamara, Bundy.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -558,7 +419,7 @@ ops:
       date: '1964-01-14'
       thread: europe-and-the-alliance
       c: Union Station, noon. Johnson and Mrs. Johnson greet President Segni of Italy and Signora Segni at 18 degrees, the fifty States' flags, a short ceremony, then a parade down Pennsylvania Avenue to Blair House.
-      n: '[[w.johnson-white-house-diary]], 45–46 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Segni.'
+      n: '[[w.johnson-white-house-diary]], 45–46 (Lady Bird Johnson''s account). To check: the Public Papers, remarks of welcome to Segni, Jan. 14, 1964. Names: Johnson, Lady Bird Johnson, Segni.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -590,8 +451,8 @@ ops:
       when: Jan. 15
       date: '1964-01-15'
       thread: europe-and-the-alliance
-      c: 'The Italian Embassy, 1:30 p.m. Luncheon for Johnson and Mrs. Johnson''s guests, the Segnis; Mrs. Johnson between Segni and Saragat, who tells her of the Pope: he does not kneel. Toasts "pro-Western." The diary has Johnson and Segni in "substantive talks" without their content.'
-      n: '[[w.johnson-white-house-diary]], 48–49 (Lady Bird Johnson''s account; she does not say Johnson was at the lunch). Names: Lady Bird Johnson, Segni, Saragat, Johnson.'
+      c: The Italian Embassy, 1:30 p.m. The Segnis' luncheon in the Johnsons' honor; Mrs. Johnson between Segni and Saragat, the Foreign Minister, who tells her that when he sees the Pope now he wears a business suit and does not kneel. The toasts "pro-Western," by her account.
+      n: '[[w.johnson-white-house-diary]], 48–49 (Lady Bird Johnson''s account: "the Segnis'' lunch in our honor"). Names: Lady Bird Johnson, Johnson, Segni, Saragat.'
       tags:
       - name:johnson-lady-bird
       - name:saragat-giuseppe
@@ -610,22 +471,12 @@ ops:
       - name:johnson-lyndon-b
 - add:
     entry:
-      id: cal.1964-01-16.white-house
-      when: Jan. 16
-      date: '1964-01-16'
-      thread: white-house
-      c: 'The White House, 1 p.m. Mrs. Johnson''s luncheon for Senate wives and others: Mary Ellen Monroney, Betty Fulbright, Abigail McCarthy, Mrs. Hoff, the actress Helen Hayes. Ellen Stoutenberg tells of the twenty-eight United Nations delegates she brought to the Ranch last April; Mrs. Johnson plans more such gatherings of "Women Do-ers."'
-      n: '[[w.johnson-white-house-diary]], 49–51 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
-      tags:
-      - name:johnson-lady-bird
-- add:
-    entry:
       id: cal.1964-01-16.congress
       when: Jan. 16
       date: '1964-01-16'
       thread: congress
-      c: The White House, 7 p.m. Dinner, about sixty-four guests, for the chairmen and ranking members of the Senate committees and the leaders of both parties with their wives. Johnson takes the men to the little theater for a briefing by McCone, McNamara, Rusk and Gordon, "the purpose really business"; Margaret Chase Smith goes with them. Mrs. Johnson shows the wives the second floor. Russell on her left at dinner, Hayden on her right.
-      n: '[[w.johnson-white-house-diary]], 51–52 (Lady Bird Johnson''s account; she was not at the briefing). Names: Johnson, Lady Bird Johnson, McCone, McNamara, Rusk, Kermit Gordon, Margaret Chase Smith, Russell, Hayden.'
+      c: The White House, 7 p.m. Dinner, about sixty-four guests, for the chairmen and ranking members of the Senate committees and the leaders of both parties with their wives. Johnson takes the men to the little theater for a briefing by McCone, McNamara, Rusk and Gordon, the purpose, by Mrs. Johnson, "really business"; Margaret Chase Smith goes with them. Mrs. Johnson shows the wives the second floor. Russell on her left at dinner, Hayden on her right. Humphrey, the Fulbrights and the O'Briens stay on upstairs.
+      n: '[[w.johnson-white-house-diary]], 51–52 (Lady Bird Johnson''s account; she was not at the briefing). Johnson then reads papers on Panama until 2 a.m. Names: Johnson, Lady Bird Johnson, McCone, McNamara, Rusk, Kermit Gordon, Margaret Chase Smith, Russell, Hayden, Humphrey, Fulbright, O''Brien.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -636,43 +487,20 @@ ops:
       - name:smith-margaret-chase
       - name:russell-richard-b
       - name:hayden-carl
-- add:
-    entry:
-      id: cal.1964-01-16.congress-2
-      when: Jan. 16
-      date: '1964-01-16'
-      thread: congress
-      c: The White House, after dinner. Humphrey, the Fulbrights and the O'Briens stay upstairs with the Johnsons until about 10; Johnson then reads a stack of papers on Panama and goes to bed after 2 a.m.
-      n: '[[w.johnson-white-house-diary]], 52 (Lady Bird Johnson''s account; Rusk had warned her of the papers as he came in). Names: Johnson, Lady Bird Johnson, Humphrey, Fulbright, O''Brien, Rusk.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:johnson-lady-bird
       - name:humphrey-hubert-h
       - name:fulbright-j-william
       - name:obrien-lawrence-f
-      - name:rusk-dean
 - add:
     entry:
       id: cal.1964-01-17.white-house
       when: Jan. 17
       date: '1964-01-17'
       thread: white-house
-      c: 'The White House, 11 a.m. Clifford with Mrs. Johnson on the committees Mrs. Kennedy set up for the White House''s art: to be replaced by an Executive Order making the Curator an official position and creating a Committee on the Preservation of the White House (Walker, Carmichael, Clifford, Walton and Hartzog, with public members); Mrs. Kennedy has made suggestions.'
-      n: '[[w.johnson-white-house-diary]], 53–54 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Clifford, Hartzog.'
+      c: 'The White House, 11 a.m. Clifford with Mrs. Johnson on the committees Mrs. Kennedy set up for the White House''s art: Clifford proposes an Executive Order making the Curator an official position and creating a Committee on the Preservation of the White House (Walker, Carmichael, Clifford, Walton and Hartzog, with public members); Mrs. Kennedy has made suggestions.'
+      n: '[[w.johnson-white-house-diary]], 53–54 (Lady Bird Johnson''s account). To check: Executive Order 11145 (Mar. 7, 1964). Names: Lady Bird Johnson, Clifford, Hartzog.'
       tags:
       - name:johnson-lady-bird
       - name:clifford-clark
-- add:
-    entry:
-      id: cal.1964-01-17.governors
-      when: Jan. 17
-      date: '1964-01-17'
-      thread: governors
-      c: The White House, afternoon. Mrs. Johnson has tea with Governor Breathitt of Kentucky, newly elected, and Mrs. Breathitt.
-      n: '[[w.johnson-white-house-diary]], 54 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Breathitt.'
-      tags:
-      - name:johnson-lady-bird
-      - name:breathitt-edward-t
 - add:
     entry:
       id: cal.1964-01-17.white-house-2
@@ -744,8 +572,8 @@ ops:
       when: Jan. 23
       date: '1964-01-23'
       thread: congress
-      c: The White House, dinner at round tables in the State Dining Room, the Senate briefing. Mrs. Johnson between Dodd and McGee. Johnson speaks of Hruska; Mrs. Johnson, of Magnuson, who came to Congress with them in 1937; Lynda Bird speaks, to be at George Washington University this semester.
-      n: '[[w.johnson-white-house-diary]], 59–60 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Dodd, McGee, Hruska, Magnuson.'
+      c: The White House, dinner at round tables in the State Dining Room, the Senate briefing. Mrs. Johnson between Dodd and McGee. Johnson speaks of Hruska; Mrs. Johnson, of Magnuson, who came to Congress with them in 1937; Lynda Bird, at her father's prodding, speaks.
+      n: '[[w.johnson-white-house-diary]], 59–60 (Lady Bird Johnson''s account). See [[cal.1964-01-17.congress]]. Names: Johnson, Lady Bird Johnson, Dodd, McGee, Hruska, Magnuson.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -759,7 +587,7 @@ ops:
       when: Jan. 24
       date: '1964-01-24'
       thread: white-house
-      c: The Queen's Sitting Room. Clifford, Fortas, Walton, Salinger, Carpenter and Mrs. Johnson go over the Executive Order for a permanent Curator and a Committee for the Preservation of the White House. Clifford brings word that Mrs. Kennedy will serve on it, with Henry duPont and James Fosburgh as public members.
+      c: 'The Queen''s Sitting Room. Clifford, Fortas, Walton, Salinger, Carpenter and Mrs. Johnson go over the Executive Order for a permanent Curator and a Committee for the Preservation of the White House. Clifford: Mrs. Kennedy has suggested Henry duPont and James Fosburgh as public members, and has agreed to serve herself. The draft, Clifford''s, gone over by Fortas and Walton, put to Salinger and Carpenter "from the news standpoint."'
       n: '[[w.johnson-white-house-diary]], 60–61 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Clifford, Fortas, Salinger, Carpenter, Jacqueline Kennedy.'
       tags:
       - name:johnson-lady-bird
@@ -774,7 +602,7 @@ ops:
       when: Jan. 12
       date: '1964-01-12'
       thread: white-house
-      c: 'Mrs. Johnson''s television interview with Nancy Dickerson, filmed the week before, shown on "The Week That Was" with film from her Pennsylvania trip. By her account "a catastrophe": she looked "old and frenetic and tired and unprepared."'
+      c: 'Mrs. Johnson''s television interview with Nancy Dickerson, filmed the week before, shown on "The Week That Was" with film from her Pennsylvania trip. By her account "a catastrophe": "I looked just as old and just as frenetic and just as tired and just as unprepared as I was."'
       n: '[[w.johnson-white-house-diary]], 42 (Lady Bird Johnson''s account of her own appearance; she saw it at Camp David). Names: Lady Bird Johnson.'
       tags:
       - name:johnson-lady-bird
@@ -802,8 +630,8 @@ ops:
       when: Jan. 30
       date: '1964-01-30'
       thread: congress
-      c: 'The White House, the last of the Senate dinners and briefings: cocktails, the briefing for the men by Rusk, McNamara and Gordon, the wives upstairs, then dinner. Johnson toasts Keating, the top Republican present; Mrs. Johnson toasts Monroney, who with Johnson alone of the oil States'' senators voted against raising the price of oil in the war. Dancing in the East Room, Thurmond and Smathers among Mrs. Johnson''s partners.'
-      n: '[[w.johnson-white-house-diary]], 66 (Lady Bird Johnson''s account; she was not at the briefing). Names: Johnson, Lady Bird Johnson, Rusk, McNamara, Kermit Gordon, Keating, Monroney, Thurmond, Smathers.'
+      c: 'The White House, the last of the Senate dinners and briefings: cocktails, the briefing for the men by Rusk, McNamara and Gordon, the wives upstairs, then dinner. Johnson toasts Keating, the top Republican present; Mrs. Johnson toasts Monroney, who with Johnson alone of the oil States'' senators voted to hold the price of crude oil, during the war or after (she is not sure). Dancing in the East Room, Thurmond and Smathers among Mrs. Johnson''s partners.'
+      n: '[[w.johnson-white-house-diary]], 66 (Lady Bird Johnson''s account; she was not at the briefing). See [[cal.1964-01-17.congress]]. Names: Johnson, Lady Bird Johnson, Rusk, McNamara, Kermit Gordon, Keating, Monroney, Thurmond, Smathers.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -821,21 +649,11 @@ ops:
       date: '1964-02-05'
       thread: white-house
       c: The Mayflower Hotel, 7:30 a.m. Congressional wives' prayer breakfast, Mrs. Langford presiding, Mrs. B. Everett Jordan introducing Mrs. Billy Graham, who speaks; Mrs. Johnson quotes a hymn learned in Greece; Mrs. Hodges reads. Johnson and a few Senators who began the Prayer Breakfast come in, and Billy Graham speaks briefly. Mrs. Johnson takes the Grahams to Johnson's office.
-      n: '[[w.johnson-white-house-diary]], 67–68 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Billy Graham.'
+      n: '[[w.johnson-white-house-diary]], 67–68 (Lady Bird Johnson''s account). To check: the Public Papers, remarks at the Presidential Prayer Breakfast, Feb. 5, 1964. Names: Johnson, Lady Bird Johnson, Billy Graham.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
       - name:graham-billy
-- add:
-    entry:
-      id: cal.1964-02-05.governors
-      when: Feb. 5
-      date: '1964-02-05'
-      thread: governors
-      c: The White House, 1:30 p.m. Mrs. Johnson has tea with Mrs. Carl Sanders, wife of the Governor of Georgia, and Mrs. Farris Bryant, wife of the Governor of Florida, after their tour of the house; Mrs. Sanders gives her a Georgia charm, with kind words for Johnson.
-      n: '[[w.johnson-white-house-diary]], 68 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
-      tags:
-      - name:johnson-lady-bird
 - cite:
     id: cal.1964-02-05.cuba
     item: '[[w.johnson-white-house-diary]], 68 (Johnson leaves in the middle of the afternoon for New York and the Joseph P. Kennedy Foundation dinner; Mrs. Johnson stays; not the Weizmann dinner or Cuba)'
@@ -935,60 +753,28 @@ ops:
       - name:rusk-dean
 - add:
     entry:
-      id: cal.1964-02-26.succession
-      when: Feb. 26
-      date: '1964-02-26'
-      thread: succession
-      c: Johnson and Mrs. Johnson call without notice on the Valentis in Georgetown and stay to supper.
-      n: '[[w.johnson-white-house-diary]], 76–77 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Valenti.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:johnson-lady-bird
-      - name:valenti-jack
-- add:
-    entry:
       id: cal.1964-02-28.succession
       when: Feb. 28
       date: '1964-02-28'
       thread: succession
       c: Palm Beach, Fla. Johnson and Mrs. Johnson pay a courtesy call on Joseph P. Kennedy, an invalid since his stroke in December 1961, and Mrs. Kennedy at their house; two of the Robert Kennedy children are there. Mrs. Kennedy talks of the house and the family, and is grateful for Johnson's kindnesses to the family.
-      n: '[[w.johnson-white-house-diary]], 77–78 (Lady Bird Johnson''s account; the visit was the night before, ending with her return to Washington at 8:30 a.m. on the 28th). Check: the day of the visit. Names: Johnson, Lady Bird Johnson, Joseph Kennedy, Robert Kennedy.'
+      n: '[[w.johnson-white-house-diary]], 77–78 (Lady Bird Johnson''s account; she is "returning from Florida" on the 28th, home about 8:30 a.m.). Check: the day of the visit. Names: Johnson, Lady Bird Johnson, Joseph Kennedy, Robert Kennedy.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
       - name:kennedy-joseph-p
       - name:kennedy-robert-f
-- add:
-    entry:
-      id: cal.1964-02-28.white-house-2
-      when: Feb. 28
-      date: '1964-02-28'
-      thread: white-house
-      c: 'Georgetown, 11 a.m. Mrs. Johnson with Mrs. Kennedy: the Committee for the Preservation of the White House to have as members the head of the Smithsonian, Park Service, Fine Arts Commission and National Gallery, the Curator and the Chief Usher, with public members; Mrs. Kennedy accepts to serve and Mrs. Johnson will ask duPont and Fosburgh. Mrs. Kennedy''s own Fine Arts Committee to be dissolved, with an advisory committee kept. Mrs. Johnson gives her four coins with President Kennedy''s head, the first minted.'
-      n: '[[w.johnson-white-house-diary]], 78–79 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Jacqueline Kennedy, Clifford.'
-      tags:
-      - name:johnson-lady-bird
-      - name:kennedy-jacqueline
-      - name:clifford-clark
-- add:
-    entry:
-      id: cal.1964-02-28.governors
-      when: Feb. 28
-      date: '1964-02-28'
-      thread: governors
-      c: The White House, about 4 p.m. Governor Connally and Mrs. Connally, in Washington, come for coffee with Johnson; snow cancels their plane and the Johnsons keep them for the night, with the Walter Jenkinses to dinner.
-      n: '[[w.johnson-white-house-diary]], 79–80 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Connally.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:johnson-lady-bird
-      - name:connally-john
+- cite:
+    id: cal.1964-02-28.white-house
+    item: '[[w.johnson-white-house-diary]], 78–79, 97–98 (Mrs. Johnson to Mrs. Kennedy''s house, 11 a.m., after "many conferences with Clark Clifford": the Committee for the Preservation of the White House, its members; Mrs. Kennedy accepts to serve, her Fine Arts Committee to be dissolved; not the Historical Association or Clifford present. The garden: Mrs. Kennedy declines by telephone Mar. 20)'
+    units: '?'
 - add:
     entry:
       id: cal.1964-03-10.succession
       when: Mar. 10
       date: '1964-03-10'
       thread: succession
-      c: Washington. Mrs. Johnson leaves for Athens for the funeral of King Paul, co-chief with Truman of the official delegation, which includes Brademas, Manatos of the White House staff, John Plumides of Ahepa, Judge John Pappas, Archbishop Iakovos, General Vaughan, Clifton Daniel, Angier Biddle Duke and Mrs. Duke. Truman meets the Greek party in the Diplomatic Reception Room about 3:45; Mrs. Johnson says good-by to Johnson on the lawn; helicopter to Andrews; Air Force One leaves about 5 p.m.
+      c: Washington. Mrs. Johnson leaves for Athens for the funeral of King Paul, co-chief with Truman of the official delegation, which includes Brademas, Manatos of the White House staff, John Plumides of Ahepa, Judge John Pappas, Archbishop Iakovos, General Vaughan, Clifton Daniel, Angier Biddle Duke and Mrs. Duke. Mrs. Johnson meets the delegation, Truman among them, in the Diplomatic Reception Room about 3:45; Mrs. Johnson says good-by to Johnson on the lawn; helicopter to Andrews; Air Force One leaves about 5 p.m.
       n: '[[w.johnson-white-house-diary]], 81–82 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Johnson, Truman, Brademas, Manatos, Duke.'
       tags:
       - name:johnson-lady-bird
@@ -1003,16 +789,11 @@ ops:
       when: Mar. 10
       date: '1964-03-10'
       thread: succession
-      c: 'Air Force One to Athens. Truman to Mrs. Johnson: the Truman Doctrine "was all the Marshall Plan"; on the Presidency, "Get all the information you can, make up your mind and go ahead—and tell them to go to Hell"; of a wife, "Protect him. Don''t let people use you"; his three lectures to students; Tyler''s answer to Webster, "I am the President." Reporters bring the New Hampshire result: Lodge''s write-in beat Rockefeller and Goldwater, with write-ins for Robert Kennedy for Vice President and more for Johnson.'
-      n: '[[w.johnson-white-house-diary]], 82–84 (Lady Bird Johnson''s account; she gives no count). See [[cal.1964-03-10.elections-1964]]. Names: Lady Bird Johnson, Truman, Lodge, Rockefeller, Goldwater, Robert Kennedy, Johnson.'
+      c: 'Air Force One to Athens. Truman to Mrs. Johnson: the Truman Doctrine "was all the Marshall Plan"; on the Presidency, "Get all the information you can, make up your mind and go ahead—and tell them to go to Hell"; of a wife, "Protect him. Don''t let people use you"; his three lectures to students; Tyler''s answer to Webster, "I am the President."'
+      n: '[[w.johnson-white-house-diary]], 82–84 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Truman.'
       tags:
       - name:johnson-lady-bird
       - name:truman-harry-s
-      - name:lodge-henry-cabot
-      - name:rockefeller-nelson
-      - name:goldwater-barry-m
-      - name:kennedy-robert-f
-      - name:johnson-lyndon-b
 - cite:
     id: cal.1964-03-10.elections-1964
     item: '[[w.johnson-white-house-diary]], 84 (on the plane that night, reporters bring word that Lodge, a write-in and away in Vietnam, beat Rockefeller and Goldwater, with write-ins for Robert Kennedy for Vice President and more for Johnson; no figures)'
@@ -1035,11 +816,10 @@ ops:
       when: Mar. 11
       date: '1964-03-11'
       thread: cyprus
-      c: 'Athens. Mrs. Labouisse, at lunch, tells Mrs. Johnson of Greek politics: Karamanlis out, George Papandreou, about seventy-five, Prime Minister by a sizable majority; his son Andreas, an American citizen teaching at Berkeley, has given up his citizenship to serve in his father''s government. Andreas''s American wife, with Mrs. Costopoulos, the Foreign Minister''s wife, takes Mrs. Johnson sightseeing and speaks of her husband''s plans for industrializing Greece. Mrs. Johnson sees tourism hurt by the stoning mobs and the threat to Cyprus.'
-      n: '[[w.johnson-white-house-diary]], 85–86 (Lady Bird Johnson''s account; the Papandreous'' plans are as the wife told them). Names: Lady Bird Johnson, George Papandreou, Andreas Papandreou.'
+      c: Athens, 4:30 p.m. Mrs. Andreas Papandreou, the Prime Minister's American daughter-in-law, and Mrs. Costopoulos, the Foreign Minister's wife, take Mrs. Johnson to a Byzantine monastery and to a hill facing the Parthenon, where the three are photographed. Mrs. Papandreou speaks of her husband's interest in industrializing Greece, on Israel's example.
+      n: '[[w.johnson-white-house-diary]], 85–86 (Lady Bird Johnson''s account; at lunch Mrs. Labouisse, the Ambassador''s wife, had told her of George Papandreou''s election and of Andreas Papandreou''s giving up his American citizenship to serve in his father''s government). Names: Lady Bird Johnson, Andreas Papandreou.'
       tags:
       - name:johnson-lady-bird
-      - name:papandreou-george
       - name:papandreou-andreas
 - add:
     entry:
@@ -1092,21 +872,6 @@ ops:
       - name:johnson-lady-bird
       - name:truman-harry-s
       - name:johnson-lyndon-b
-- add:
-    entry:
-      id: cal.1964-03-12.succession-4
-      when: Mar. 12
-      date: '1964-03-12'
-      thread: succession
-      c: 'Athens, evening. The Labouisses'' dinner for the American delegation and Embassy staff: Brademas, Manatos, Pappas, Plumides, Archbishop Iakovos, the Dukes, Vaughan, Daniel, Robert Dowling for the Mayor of New York, General Van Fleet and Karl Rankin. Truman plays the piano; toasts.'
-      n: '[[w.johnson-white-house-diary]], 94–95 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Truman, Labouisse, Brademas, Manatos, Duke.'
-      tags:
-      - name:johnson-lady-bird
-      - name:truman-harry-s
-      - name:labouisse-henry-r-jr
-      - name:brademas-john
-      - name:manatos-mike-n
-      - name:duke-angier-b
 - cite:
     id: cal.1964-03-19.transition-and-staff
     item: '[[w.johnson-white-house-diary]], 96 (Salinger tells Johnson in his office about 3 p.m. that he will resign to run for the Senate in California, and then tells the press; the diary has no lunch)'
@@ -1141,8 +906,8 @@ ops:
       when: Mar. 20
       date: '1964-03-20'
       thread: white-house
-      c: 'Mrs. Paul Mellon with Mrs. Johnson in the White House gardens. Mrs. Mellon proposes a plaque in the East Garden for Mrs. Kennedy. Johnson, Clifford, Hartzog and Walton all approve. Mrs. Kennedy: no; "scratch my initials on a tree, or put a plaque, ever so little, underneath some bench."'
-      n: '[[w.johnson-white-house-diary]], 97–98 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Jacqueline Kennedy, Johnson, Clifford, Walton.'
+      c: 'Mrs. Paul Mellon with Mrs. Johnson in the White House gardens: her plan for the East Garden, with a little plaque to Mrs. Kennedy. Johnson approves naming it the Jacqueline Kennedy Garden; so do Clifford, Hartzog of the Park Service and Walton of the Fine Arts Commission. Mrs. Kennedy, by telephone: "No"; "Well, if she wants to, scratch my initials on a tree, or put a plaque, ever so little, underneath some bench."'
+      n: '[[w.johnson-white-house-diary]], 97–98 (Lady Bird Johnson''s account). See [[cal.1964-02-28.white-house]]. Names: Lady Bird Johnson, Jacqueline Kennedy, Johnson, Clifford, Walton.'
       tags:
       - name:johnson-lady-bird
       - name:kennedy-jacqueline
@@ -1155,7 +920,7 @@ ops:
       when: Mar. 24
       date: '1964-03-24'
       thread: space
-      c: 'Huntsville, Ala. Mrs. Johnson, with Carpenter and about thirty reporters, lands at the Marshall Space Flight Center; Webb, Von Braun and Representative Robert Jones meet her. Her speech to about 300: she comes because Johnson wrote the Space Act in 1958, because women hold 20 percent of the payroll, and because the space program takes the South into the future. "The South has hitched its wagon to the stars."'
+      c: 'Huntsville, Ala. Mrs. Johnson, with Carpenter and twenty-five or thirty of the press, lands at the Marshall Space Flight Center; Webb, Von Braun and Representative Robert Jones meet her. Her speech to about 300: she comes because Johnson wrote the Space Act in 1958, because women hold 20 percent of the payroll, and because the space program takes the South into the future. "The South has hitched its wagon to the stars."'
       n: '[[w.johnson-white-house-diary]], 98–99 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Johnson, Webb, Von Braun, Carpenter.'
       tags:
       - name:johnson-lady-bird
@@ -1183,7 +948,7 @@ ops:
       when: Mar. 24
       date: '1964-03-24'
       thread: space
-      c: The Administration Building auditorium. Mrs. Johnson presents service, invention and achievement awards to NASA employees in the Administration Building auditorium, about 500 present; then a reception hosted by Mrs. Webb and Mrs. Von Braun for Alabama officials and organization leaders.
+      c: The Administration Building auditorium. Mrs. Johnson presents service, invention and achievement awards to NASA employees, about 500 present, and speaks; then a reception hosted by Mrs. Webb and Mrs. Von Braun for Alabama officials and organization leaders.
       n: '[[w.johnson-white-house-diary]], 101 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Webb, Von Braun.'
       tags:
       - name:johnson-lady-bird
@@ -1191,18 +956,15 @@ ops:
       - name:von-braun-wernher
 - cite:
     id: cal.1964-04-07.farm
-    item: '[[w.johnson-white-house-diary]], 101–02 (the night of the 7th, after the North Carolina reception: Johnson in the little room with staff, O''Brien going through a list of House members, committed, against, shaky, absent and pairable; Johnson making call after call; the bill had been nearly given up for lost, "the Food Stamp plan tied in with it")'
+    item: '[[w.johnson-white-house-diary]], 101–02 (her entry of Apr. 8, of "last night," after the North Carolina reception: Johnson in the little room with staff, O''Brien going through a list of House members, committed, against, shaky, absent and pairable; Johnson making call after call; "The Food Stamp plan was tied in with it"; she has "The bill passed" that night: the House''s votes, cal.1964-04-08.farm, are of Apr. 8)'
     units: '?'
-- check:
-    id: cal.1964-04-07.farm
-    text: 'Check: Lady Bird Johnson, 101–02, has the farm bill (with the food stamp plan) passing on the night of Apr. 7, writing on Apr. 8 of the night before; the votes in the House were on Apr. 8.'
 - add:
     entry:
       id: cal.1964-04-08.succession
       when: Apr. 8
       date: '1964-04-08'
       thread: succession
-      c: 'Union Station and the Capitol. Funeral of General Douglas MacArthur. Johnson and Mrs. Johnson board the train to greet Mrs. MacArthur and the family, among them Ambassador Douglas MacArthur and General Courtney Whitney. The casket goes by caisson to the Capitol; the Joint Chiefs walk behind; in the Rotunda, where Congress has adjourned, the House and Senate chaplains pray and Johnson places a wreath. Robert Kennedy, beside Mrs. Johnson: "We seem always to be meeting at funerals ... There''ve been a lot of them these last four months." And: "You''re doing a wonderful job. Everybody says so ... and so is your husband."'
+      c: 'Union Station and the Capitol. Funeral of General Douglas MacArthur. Johnson and Mrs. Johnson board the train to greet Mrs. MacArthur and the family, among them Ambassador Douglas MacArthur and General Courtney Whitney. The casket goes by caisson to the Capitol; the House and Senate adjourned, the Rotunda full of their members; the two chaplains pray and Johnson places a wreath. Robert Kennedy, beside Mrs. Johnson: "We seem always to be meeting at funerals ... There''ve been a lot of them these last four months." And: "You''re doing a wonderful job. Everybody says so ... and so is your husband."'
       n: '[[w.johnson-white-house-diary]], 102–03 (Lady Bird Johnson''s account; Johnson on the ride tells Lynda Bird of the Silver Star MacArthur gave him in New Guinea). Names: Johnson, Lady Bird Johnson, Robert Kennedy.'
       tags:
       - name:johnson-lyndon-b
@@ -1210,21 +972,11 @@ ops:
       - name:kennedy-robert-f
 - add:
     entry:
-      id: cal.1964-04-08.succession-2
-      when: Apr. 8
-      date: '1964-04-08'
-      thread: succession
-      c: The White House, Yellow Oval Room. Mrs. Johnson gives tea to Mrs. MacArthur, her son and the family after the Capitol service.
-      n: '[[w.johnson-white-house-diary]], 103–04 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
-      tags:
-      - name:johnson-lady-bird
-- add:
-    entry:
       id: cal.1964-04-08.press-and-broadcasting
       when: Apr. 8
       date: '1964-04-08'
       thread: press-and-broadcasting
-      c: 'Lippmann, on television for an hour: foreign aid will be hard to pass after what he says of it; of the Vice Presidency, Johnson need not look for help, and McNamara, once a registered Republican, is passed over. By Mrs. Johnson''s account, who watched.'
+      c: Lippmann on television, an hour. On foreign aid, by Mrs. Johnson's account, ammunition for those against it; of the Vice Presidency, it makes no difference whom Johnson asks, for he does not need the help; McNamara, once a registered Republican, put aside.
       n: '[[w.johnson-white-house-diary]], 104 (Lady Bird Johnson''s account). Names: Lippmann, Johnson, McNamara.'
       tags:
       - name:lippmann-walter
@@ -1236,7 +988,7 @@ ops:
       when: Apr. 9
       date: '1964-04-09'
       thread: succession
-      c: New York Hilton. The first anniversary luncheon of the Eleanor Roosevelt Memorial Foundation, 2,800 at $12.50, to raise $100,000; Jean Kintner's. Mrs. Johnson, Mrs. Kintner and Anna Rosenberg Hoffman receive donors of $1,000. Stevenson introduces Mrs. Johnson, who speaks of Mrs. Roosevelt at a benefit luncheon in 1939 and of her speaking out. Marian Anderson reads from Mrs. Roosevelt's book.
+      c: New York Hilton. The first anniversary luncheon of the Eleanor Roosevelt Memorial Foundation, 2,800 at $12.50, to raise $100,000, Jean Kintner its organizer. Mrs. Johnson, Mrs. Kintner and Anna Rosenberg Hoffman receive donors of $1,000. Stevenson introduces Mrs. Johnson, who speaks of Mrs. Roosevelt at a benefit luncheon in 1939 and of her speaking out. Marian Anderson reads from Mrs. Roosevelt's book.
       n: '[[w.johnson-white-house-diary]], 105–06 (Lady Bird Johnson''s account; she speaks from a draft she wrote with Hester Provenson). Names: Lady Bird Johnson, Stevenson.'
       tags:
       - name:johnson-lady-bird
@@ -1251,8 +1003,8 @@ ops:
       when: Apr. 10
       date: '1964-04-10'
       thread: program
-      c: The White House, 2:30 p.m. Mrs. Johnson receives Carl Sandburg, his wife and Edward Steichen and Mrs. Steichen, brought by Udall and Mrs. Udall. In the Lincoln Room Sandburg signs her books on Lincoln; Johnson joins; tea in the Yellow Room.
-      n: '[[w.johnson-white-house-diary]], 107–08 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Johnson, Udall.'
+      c: 'The White House, 2:30 p.m. Mrs. Johnson receives Carl Sandburg, his wife and Edward Steichen and Mrs. Steichen, brought by Udall and Mrs. Udall. In the Lincoln Room Sandburg signs her books on Lincoln; Johnson joins; Sandburg: "You look like you could take care of yourself." Tea in the Yellow Room. Then Johnson takes them into the Cabinet Room to see the railroad leaders: "some tough men operating . . . men who can throw several million people out of work."'
+      n: '[[w.johnson-white-house-diary]], 107–08 (Lady Bird Johnson''s account). See [[cal.1964-04-09.railroads]]. Names: Lady Bird Johnson, Johnson, Udall.'
       tags:
       - name:johnson-lady-bird
       - name:johnson-lyndon-b
@@ -1269,21 +1021,11 @@ ops:
       - name:johnson-lyndon-b
 - add:
     entry:
-      id: cal.1964-04-10.railroads-2
-      when: Apr. 10
-      date: '1964-04-10'
-      thread: railroads
-      c: The Cabinet Room. Johnson ushers Sandburg and Steichen in to see the railroad industry leaders, "some tough men operating ... who can throw several million people out of work," ready to spend fourteen or fifteen days in negotiations to prevent a strike.
-      n: '[[w.johnson-white-house-diary]], 108 (Lady Bird Johnson''s account). See [[cal.1964-04-10.railroads]]. Names: Johnson.'
-      tags:
-      - name:johnson-lyndon-b
-- add:
-    entry:
       id: cal.1964-04-10.transition-and-staff
       when: Apr. 10
       date: '1964-04-10'
       thread: transition-and-staff
-      c: The home of Mr. and Mrs. Dillon. Dinner in honor of Under Secretary Fowler and Mrs. Fowler, who is leaving government for the third time; toasts. Johnson and Mrs. Johnson attend.
+      c: 'The home of Mr. and Mrs. Dillon. Dinner in honor of Under Secretary Fowler and Mrs. Fowler, who is leaving government for the third time; toasts. Johnson''s toast: "Go off and get rich and have a good time—for about ninety days."'
       n: '[[w.johnson-white-house-diary]], 108–09 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Dillon, Fowler.'
       tags:
       - name:johnson-lyndon-b
@@ -1297,12 +1039,11 @@ ops:
       date: '1964-04-14'
       thread: middle-east
       c: The White House, 11:30 a.m. King Hussein of Jordan arrives by helicopter on the South Lawn, with his brother Prince Hassan; Johnson's welcome and the King's response on the North Portico. Johnson, to the surprise of the Secret Service, rides with him to Blair House and walks back, shaking hands and signing autographs.
-      n: '[[w.johnson-white-house-diary]], 109 (Lady Bird Johnson''s account; Johnson told her to appear). See [[cal.1964-04-14.middle-east]]. Names: Johnson, Lady Bird Johnson, Hussein, Duke.'
+      n: '[[w.johnson-white-house-diary]], 109 (Lady Bird Johnson''s account; Johnson told her to appear). See [[cal.1964-04-14.middle-east]]. Names: Johnson, Lady Bird Johnson, Hussein.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
       - name:hussein-ibn-talal
-      - name:duke-angier-b
 - add:
     entry:
       id: cal.1964-04-14.consumers
@@ -1315,17 +1056,6 @@ ops:
       - name:johnson-lady-bird
       - name:freeman-orville-l
       - name:peterson-esther
-- add:
-    entry:
-      id: cal.1964-04-14.white-house
-      when: Apr. 14
-      date: '1964-04-14'
-      thread: white-house
-      c: 'The Senate Ladies Red Cross Luncheon in Mrs. Johnson''s honor, her first as guest after fifteen years as a hostess; Mrs. Dominick of Colorado the Republican chairman, Betty Talmadge co-chairman; Louella Dirksen presents her a Senate-seal charm. Mrs. Johnson: the longest chapter in any book of her life would be "our love affair with the Senate."'
-      n: '[[w.johnson-white-house-diary]], 110 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Dirksen.'
-      tags:
-      - name:johnson-lady-bird
-      - name:dirksen-everett
 - add:
     entry:
       id: cal.1964-04-14.middle-east-3
@@ -1361,7 +1091,7 @@ ops:
       when: Apr. 16
       date: '1964-04-16'
       thread: program
-      c: 'The White House, dinner. Barbara Ward (Lady Jackson), staying on the third floor, and Dr. Willis Hurst with the Johnsons. Lady Jackson: the money saved and men put out of work by the base closings might serve a pilot program in urban renewal, a model city; automation can be a blessing. Johnson listens.'
+      c: 'The White House, dinner. Barbara Ward (Lady Jackson), staying on the third floor writing memoranda and speech material, and Dr. Willis Hurst with the Johnsons. Lady Jackson: the money saved and men put out of work by McNamara''s base closings might serve a pilot program in urban renewal, a model city; automation can be a blessing. Johnson listens.'
       n: '[[w.johnson-white-house-diary]], 112–13 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, McNamara.'
       tags:
       - name:johnson-lyndon-b
@@ -1374,7 +1104,7 @@ ops:
       date: '1964-04-17'
       thread: press-and-broadcasting
       c: 'The Rose Garden and South Lawn, 5:30 p.m. Reception for the American Society of Newspaper Editors, 1,200. Mrs. Johnson and Lynda Bird welcome them; Johnson speaks: the President''s duties, civil rights, the war on poverty, "turning tax eaters into tax payers," 49 percent of draftees unfit, Medicare, the pay bill, the railroad talks; and "we must either love each other or we must die." Food in the State Dining Room, dancing in the East Room; Miles Wolff and Herbert Brucker of the Society with them.'
-      n: '[[w.johnson-white-house-diary]], 113–14 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson.'
+      n: '[[w.johnson-white-house-diary]], 113–14 (Lady Bird Johnson''s account). To check: the Public Papers, remarks to the American Society of Newspaper Editors, Apr. 17, 1964. Names: Johnson, Lady Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -1402,111 +1132,28 @@ ops:
       n: '[[w.johnson-white-house-diary]], 115–16 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
       tags:
       - name:johnson-lady-bird
-- add:
-    entry:
-      id: cal.1964-04-22.white-house-2
-      when: Apr. 22
-      date: '1964-04-22'
-      thread: white-house
-      c: 'The White House. Mrs. Johnson with Boisfeuillet Jones of Health, Education and Welfare, Carpenter and Wendy Marcus, planning her trip to Atlanta on May 11: groundbreaking for the Communicable Disease Center, Emory''s honors convocation, lunch, the Governor and the legislature, a reception at the Mansion, the art museum.'
-      n: '[[w.johnson-white-house-diary]], 116 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Boisfeuillet Jones, Carpenter.'
-      tags:
-      - name:johnson-lady-bird
-      - name:jones-boisfeuillet
-      - name:carpenter-liz
 - cite:
     id: cal.1964-04-22.railroads
     item: '[[w.johnson-white-house-diary]], 116–17 (Johnson comes out of the elevator with the men for the Yellow Room, about twenty, among them Dr. William J. Taylor of the mediators; later, thumb and forefinger raised to Mrs. Johnson as a sign of success; the announcement on television on the David Brinkley show, with a word for Taylor, whose wife was in surgery; not the terms)'
     units: '?'
 - cite:
     id: cal.1964-04-24.poverty
-    item: '[[w.johnson-white-house-diary]], 117–23 (the five-State day: South Bend, Pittsburgh, Inez and Paintsville, Huntington; the Cabinet members with Johnson; the Governors'' conference and the television speech; see the entries below)'
-    units: '?'
-- add:
-    entry:
-      id: cal.1964-04-24.poverty-2
-      when: Apr. 24
-      date: '1964-04-24'
-      thread: poverty
-      c: 'South Bend, Ind., 8:45 a.m. Johnson and Mrs. Johnson land at the Cline School playground before about 15,000; Studebaker closed last Christmas Eve and threw 8,700 out of work. Three adult literacy classes, a computer class, a practical nursing class; Johnson speaks without notice from the athletic field. With them: Wirtz, Hodges, Franklin Roosevelt Jr., Celebrezze, six Congressmen, and Governors Welsh, Barron and Breathitt in and out.'
-      n: '[[w.johnson-white-house-diary]], 117–19 (Lady Bird Johnson''s account; she places the start at 5:30 a.m. in Chicago). See [[cal.1964-04-24.poverty]]. Names: Johnson, Lady Bird Johnson, Wirtz, Hodges, Franklin Roosevelt Jr., Celebrezze, Welsh, Barron, Breathitt.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:johnson-lady-bird
-      - name:wirtz-w-willard
-      - name:hodges-luther-h
-      - name:roosevelt-franklin-d-jr
-      - name:celebrezze-anthony-j
-      - name:welsh-matthew-e
-      - name:barron-w-w
-      - name:breathitt-edward-t
-- add:
-    entry:
-      id: cal.1964-04-24.poverty-3
-      when: Apr. 24
-      date: '1964-04-24'
-      thread: poverty
-      c: 'Pittsburgh, the League of Women Voters'' convention, 1,300 delegates; Wirtz was to speak and brought the President along on the evening before. Johnson: his program is to give work to a half-million young Americans; the women of America to be first to enlist. Mrs. Johnson thanks the League for bringing the issues to the people. Met at the airport by Mayor Barr, Governor David Lawrence, Senators Hugh Scott and Joseph Clark and David McDonald.'
-      n: '[[w.johnson-white-house-diary]], 119 (Lady Bird Johnson''s account). See [[cal.1964-04-24.poverty]]. Names: Johnson, Lady Bird Johnson, Wirtz, Barr, David Lawrence, Hugh Scott, Clark, David McDonald.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:johnson-lady-bird
-      - name:wirtz-w-willard
-      - name:barr-joseph-m
-      - name:lawrence-david-l
-      - name:scott-hugh-d-jr
-      - name:clark-joseph-s
-      - name:mcdonald-david-l
+    item: '[[w.johnson-white-house-diary]], 117–23 (the day from Chicago, 5:30 a.m.: South Bend, the Cline School, some 15,000, Studebaker''s 8,700 out of work since Christmas Eve, Johnson''s speech from the athletic field; Bunker Hill Air Force Base; Pittsburgh, the League of Women Voters'' convention, Wirtz having brought Johnson along, and the motorcade, a quarter of a million by the police; Inez, Ky., Tom Fletcher''s porch; Paintsville, the courthouse speech; Huntington, nearly two hours with Welsh, Breathitt, Barron and Scranton''s representative on the Appalachian plan, about $3 billion over five years, then the televised speech; with Wirtz, Hodges, Franklin Roosevelt Jr. and Celebrezze; all day, "We are going to have a Civil Rights Bill if it takes all summer"; not the bill of Apr. 28)'
+    units: A-D
 - add:
     entry:
       id: cal.1964-04-24.poverty-4
       when: Apr. 24
       date: '1964-04-24'
       thread: poverty
-      c: 'Pittsburgh. Motorcade to David McDonald Hall, the Steelworkers'' home local, a quarter of a million along the route by the Chief of Police''s estimate; Johnson in an open convertible stops three times to speak by bullhorn on the war on poverty and discrimination. McDonald, introducing him: "that the Union shall do all of the down-to-earth work that is possible to elect you this November." Mrs. Johnson speaks a minute.'
+      c: Pittsburgh, David McDonald Hall, the Steelworkers' home local. McDonald, introducing Johnson, pledges "that the Union shall do all of the down-to-earth work that is possible to elect you this November." Mrs. Johnson speaks a minute.
       n: '[[w.johnson-white-house-diary]], 119–20 (Lady Bird Johnson''s account: "the first really outspoken assumption that Lyndon is running"). See [[cal.1964-04-24.poverty]]. Names: Johnson, Lady Bird Johnson, David McDonald.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
       - name:mcdonald-david-l
-- add:
-    entry:
-      id: cal.1964-04-24.poverty-5
-      when: Apr. 24
-      date: '1964-04-24'
-      thread: poverty
-      c: 'Inez, Martin County, Ky. Johnson and Mrs. Johnson at the three-room tarpaper house of Tom Fletcher, a former miner with eight children who earned $400 in the last year; the New York *Herald Tribune*: "The President hunkered down on the porch with Mr. Fletcher for a talk." A storekeeper tells Mrs. Johnson the area needs jobs and a hospital. Martin County has the lowest per capita income in Kentucky.'
-      n: '[[w.johnson-white-house-diary]], 120–22 (Lady Bird Johnson''s account; the income rank is as she was told). See [[cal.1964-04-24.poverty]]. Names: Johnson, Lady Bird Johnson.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:johnson-lady-bird
-- add:
-    entry:
-      id: cal.1964-04-24.poverty-6
-      when: Apr. 24
-      date: '1964-04-24'
-      thread: poverty
-      c: Paintsville, Ky. The Mayo State Vocational School, then Johnson's speech at the courthouse, where he calls on Wirtz and Celebrezze to stand; each is across the street at the ice cream parlor, and each sprints back, Wirtz taking the bow for Celebrezze.
-      n: '[[w.johnson-white-house-diary]], 122 (Lady Bird Johnson''s account). See [[cal.1964-04-24.poverty]]. Names: Johnson, Lady Bird Johnson, Wirtz, Celebrezze.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:johnson-lady-bird
-      - name:wirtz-w-willard
-      - name:celebrezze-anthony-j
-- add:
-    entry:
-      id: cal.1964-04-24.poverty-7
-      when: Apr. 24
-      date: '1964-04-24'
-      thread: poverty
-      c: 'Huntington, W. Va., after 6 p.m. Johnson on the plane with the Governors of the Appalachian States, Welsh, Breathitt, Barron and a representative of Scranton, on the Appalachian recovery plan, about $3 billion over five years: planned for thirty minutes, it lasts nearly two hours. Then a short televised speech: poverty and unemployment unnecessary. All day Johnson: "We are going to have a Civil Rights Bill if it takes all summer."'
-      n: '[[w.johnson-white-house-diary]], 122–23 (Lady Bird Johnson''s account). See [[cal.1964-04-24.poverty]]. Names: Johnson, Welsh, Breathitt, Barron, Scranton.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:welsh-matthew-e
-      - name:breathitt-edward-t
-      - name:barron-w-w
-      - name:scranton-william-w
+      also:
+      - elections-1964-johnson
 - add:
     entry:
       id: cal.1964-04-25.succession
@@ -1514,7 +1161,7 @@ ops:
       date: '1964-04-25'
       thread: succession
       c: The White House, morning. Johnson holds a brief press conference in his office, 60 to 70 reporters in a half circle, with Truman on his right and J. Frank Dobie, the Texas folklorist, a guest at the White House, on his left.
-      n: '[[w.johnson-white-house-diary]], 123–24 (Lady Bird Johnson''s account, from Dobie''s description). Names: Johnson, Truman.'
+      n: 'The President''s News Conference, [1963–64 Pub. Papers 547](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=631) (Apr. 25, 1964). [[w.johnson-white-house-diary]], 123–24 (Lady Bird Johnson''s account, from Dobie''s description; she gives no subject). Names: Johnson, Truman.'
       tags:
       - name:johnson-lyndon-b
       - name:truman-harry-s
@@ -1581,7 +1228,7 @@ ops:
       when: Apr. 28
       date: '1964-04-28'
       thread: program
-      c: The White House, black-tie dinner for business leaders. Batten of J. C. Penney, Blough of U.S. Steel, Busch, Donald David and Henry Ford II of the Ford Foundation and Company, Greenewalt of du Pont, Kappel, McCabe of Scott Paper, David and James Rockefeller and Touhy of the C&O among them. Mrs. Johnson, at Johnson's note passed by Valenti, proposes a toast to the leaders of business; dancing in the East Room.
+      c: The White House, black-tie dinner for business leaders. Batten of J. C. Penney, Blough of U.S. Steel, Busch, Donald David of the Ford Foundation, Henry Ford II, Greenewalt of du Pont, Kappel, McCabe of Scott Paper, David and James Rockefeller and Touhy of the C&O among them. Mrs. Johnson, at Johnson's note passed by Valenti, proposes a toast "on behalf of a grateful nation to the leaders of business in this generous country, who have done so much for so many, and in the doing, have made us great"; dancing in the East Room.
       n: '[[w.johnson-white-house-diary]], 127–28 (Lady Bird Johnson''s account; she does not give the guests as a list of the whole). Names: Johnson, Lady Bird Johnson, Blough, Henry Ford II, Kappel, David Rockefeller, Valenti.'
       tags:
       - name:johnson-lyndon-b
@@ -1607,7 +1254,7 @@ ops:
       when: Apr. 30
       date: '1964-04-30'
       thread: program
-      c: 'Winchester, Va. Johnson drives to the Shenandoah Apple Blossom Festival, unannounced to Mrs. Johnson, for the crowning of Luci Johnson as queen by General LeMay on the steps of the high school: "She''s always been a Queen to me." His telegram to the festival''s officials warns the city of Winchester "is in danger of being taken over by a new monarch."'
+      c: 'Winchester, Va. Johnson drives to the Shenandoah Apple Blossom Festival for the crowning of Luci Johnson as queen by General LeMay on the steps of the high school: "She''s always been a Queen to me." His telegram to the festival''s officials warns the city of Winchester "is in danger of being taken over by a new monarch."'
       n: '[[w.johnson-white-house-diary]], 129–30 (Lady Bird Johnson''s account; she saw the photograph and read the telegram). Names: Johnson, Lady Bird Johnson, LeMay.'
       tags:
       - name:johnson-lyndon-b
@@ -1635,28 +1282,56 @@ ops:
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
+- cite:
+    id: cal.1964-01-17.congress
+    item: '[[w.johnson-white-house-diary]], 51–52, 59–60, 66, 89 (the evenings for the Senate, Thursdays, Jan. 16, 23 and 30, "our last dinner and briefing for the Senate": cocktails, a briefing for the men, the wives shown the second floor, dinner; for the House six groups, the last Mar. 11, Lynda Bird hostess; not twice a week, nor about fifty at a time)'
+    units: '?'
+- check:
+    id: cal.1964-01-17.congress
+    text: 'Check: Lady Bird Johnson, 51–52, has the first of these evenings on Thursday, Jan. 16, for the chairmen and ranking members of the Senate''s committees and the leaders of both parties; Kotz has Jan. 17.'
+- variant:
+    id: cal.1964-02-28.white-house
+    unit: C
+    witness: w.johnson-white-house-diary
+    reads: the garden is the East Garden, "the similar garden on the east side," which Mrs. Mellon would make over with a plaque to Mrs. Kennedy, to be named the Jacqueline Kennedy Garden; Mrs. Kennedy declines by telephone, Mar. 20, 1964
+    at: 97–98
+- cite:
+    id: cal.1964-04-22.civil-rights-organizations-nyc
+    item: '[[w.johnson-white-house-diary]], 115 (Johnson off by helicopter in the morning "to open the World''s Fair in New York"; not the speech, the hecklers or the stall-in)'
+    units: B
+
 - add:
     entry:
       id: cal.1964-05-06.white-house
       when: May 6
       date: '1964-05-06'
-      thread: white-house
-      c: The White House, 1 p.m. Mrs. Johnson's luncheon for the Senate Ladies Red Cross unit, 130 at tables set with the china of eighteen Administrations; the wives of sitting and former Senators, among them Mrs. Mansfield, Mrs. Kuchel, Mrs. Kefauver. Mrs. Johnson reads Abigail Adams's letter of 1800; Helen Hayes and company perform from Hotchner's play *The White House*. Johnson comes in and calls the Senate wives "the jewels" of the Senators.
+      thread: program
+      c: The White House, 1 p.m. Mrs. Johnson's luncheon for the Senate Ladies Red Cross unit, 130 at tables set with the
+        china of eighteen Administrations; the wives of sitting and former Senators, among them Mrs. Mansfield, Mrs. Kuchel,
+        Mrs. Kefauver. Mrs. Johnson reads Abigail Adams's letter of 1800; Helen Hayes and company perform from Hotchner's
+        play *The White House*. Johnson comes in and calls the Senate wives "the jewels" of the Senators.
       n: '[[w.johnson-white-house-diary]], 130–32 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Johnson.'
       tags:
       - name:johnson-lady-bird
       - name:johnson-lyndon-b
+      also:
+      - congress
+      - white-house
 - cite:
     id: cal.1964-05-06.press-and-broadcasting
-    item: '[[w.johnson-white-house-diary]], 132–33 (the South grounds, 4:30 p.m.: Johnson in the band shell answering questions on the gross national product, Vietnam and Republican nominees; the reporters'' children; photographs with them; Mary McGrory''s piece; not the statement)'
-    units: '?'
+    item: '[[w.johnson-white-house-diary]], 132–33 (the South grounds, 4:30 p.m., the press with their wives and children;
+      Johnson in the band shell answering questions on the gross national product, Vietnam and Republican nominees; his photographs
+      with the children; Mary McGrory''s piece; not the number, the refreshments, the statement or Congress)'
+    units: A, C
 - add:
     entry:
       id: cal.1964-05-06.white-house-2
       when: May 6
       date: '1964-05-06'
       thread: white-house
-      c: Alice Brown, wife of George Brown of Houston, arrives as a White House guest with a Winslow Homer watercolor, "The Surf at Prout's Neck," and a Sully portrait of Washington as gifts, the first important acquisition through Mrs. Johnson.
+      c: Alice Brown, wife of George Brown of Houston, arrives as a White House guest with a Winslow Homer watercolor, "The
+        Surf at Prout's Neck," and a Sully portrait of Washington for the house; Mrs. Johnson expects the Homer to be the
+        first important acquisition to come to the White House through her.
       n: '[[w.johnson-white-house-diary]], 133 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
       tags:
       - name:johnson-lady-bird
@@ -1666,42 +1341,54 @@ ops:
       when: May 7
       date: '1964-05-07'
       thread: white-house
-      c: 'The Yellow Oval Room, 10:30 a.m. First meeting under Mrs. Johnson of the Committee for the Preservation of the White House, with Clifford: the first panel of East Room damask, the Adams silver urn acquired, copies of the antique Green, Blue and Red Room rugs to be priced, the Historical Association''s finances. Johnson and Lynda Bird have left for Andrews on the poverty tour.'
-      n: '[[w.johnson-white-house-diary]], 134 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Clifford, Johnson.'
+      c: 'The Yellow Oval Room, 10:30 a.m. Meeting of the Committee for the Preservation of the White House, about an hour
+        and a half: the first panel of damask for the East Room''s draperies; John Adams''s silver coffee urn acquired; West
+        to price copies of the antique Green, Blue and Red Room rugs; Clifford on the finances of the White House Historical
+        Association.'
+      n: '[[w.johnson-white-house-diary]], 134 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Clifford.'
       tags:
       - name:johnson-lady-bird
       - name:clifford-clark
-      - name:johnson-lyndon-b
 - cite:
     id: cal.1964-05-07.poverty
-    item: '[[w.johnson-white-house-diary]], 134 (Johnson and Lynda Bird leave by helicopter for Andrews that morning for a five-State poverty tour of two days)'
-    units: '?'
+    item: '[[w.johnson-white-house-diary]], 134 (Johnson and Lynda Bird leave by helicopter for Andrews that morning on a
+      five-State poverty tour of two days; not the stops)'
+    units: A
 - add:
     entry:
       id: cal.1964-05-07.white-house-2
       when: May 7
       date: '1964-05-07'
       thread: white-house
-      c: 'The Green Room and Blue Room, 4 p.m. Mrs. Johnson''s tea for about fifty-five people of the art world: members of Mrs. Kennedy''s Fine Arts, Paintings and Library Committees and the Advisory Committee, curators and museum directors; a list of gifts to the collection since Mrs. Kennedy''s tea of Dec. 1, 1962. She makes a speech of welcome.'
+      c: 'The Green Room and Blue Room, 4 p.m. Mrs. Johnson''s tea for about fifty-five people of the art world: members of
+        Mrs. Kennedy''s Fine Arts, Paintings and Library Committees and the Advisory Committee, curators and museum directors;
+        a list of gifts to the collection since Mrs. Kennedy''s tea of Dec. 1, 1962. She makes a speech of welcome.'
       n: '[[w.johnson-white-house-diary]], 135–36 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Jacqueline Kennedy.'
       tags:
       - name:johnson-lady-bird
       - name:kennedy-jacqueline
-- check:
-    id: cal.1964-05-14.elections-1964
-    text: 'Check: Lady Bird Johnson, 138–40, writes of the memorandum that she wrote it at Huntland, Middleburg, Va., on May 14, nine pages, out of her "own feelings on what Lyndon should do this August," with a draft announcement that he would not run; she does not say he asked for it. Her conclusion, 139: run, and announce in "February or March 1968" that he will not be a candidate for reelection.'
 - cite:
     id: cal.1964-05-14.elections-1964
-    item: '[[w.johnson-white-house-diary]], 138–40 (the memorandum, nine pages, with a draft announcement of withdrawal, the alternatives, and her conclusion to run now and announce in February or March 1968; given to Dr. Hurst and Dr. Cain to pass to Johnson at the meeting next morning; not "at his asking", not the notebook)'
-    units: '?'
+    item: '[[w.johnson-white-house-diary]], 138–40 (Huntland, Middleburg, Va., May 14: her own "nine-page analysis" for Johnson,
+      with a draft announcement "that I will not be a candidate for reelection"; if he quits, "questionings and innuendos
+      as to his motives" and "You let us down, Lyndon"; if he runs, criticism, slander, and perhaps an earlier death; her
+      conclusion in other words: run, and announce in "February or March 1968" that he will not run again; sealed, marked
+      "Personal, please," and given to Dr. Hurst and Dr. Cain for Johnson next morning; she does not say he asked for it,
+      or a notebook, or "bad decisions" or "semi-idle")'
+    units: B, C
 - add:
     entry:
       id: cal.1964-05-14.elections-1964-johnson
       when: May 14
       date: '1964-05-14'
       thread: elections-1964-johnson
-      c: Huntland, Middleburg, Va. Mrs. Johnson has Dr. Hurst and Dr. James Cain of the Mayo Clinic to dinner, with Luci, to talk over Johnson's situation; she gives them her memorandum to take to Johnson the next morning. Both think from the psychological side that he should continue now, that idleness and loss of command would be harder on him than the work. She doubts either understands his pain at the thought of sending many thousands of American boys to Vietnam or elsewhere.
-      n: '[[w.johnson-white-house-diary]], 138–40 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Johnson, Hurst.'
+      c: Huntland, Middleburg, Va. Mrs. Johnson has Dr. Hurst and Dr. James Cain of the Mayo Clinic to dinner, with Luci,
+        to talk over Johnson's situation; she gives them her memorandum to take to Johnson the next morning. Both think from
+        the psychological side that he should continue now, that idleness and loss of command would be harder on him than
+        the work. She doubts either understands his pain at the thought of sending many thousands of American boys to Vietnam
+        or elsewhere.
+      n: '[[w.johnson-white-house-diary]], 138–40 (Lady Bird Johnson''s account). See [[cal.1964-05-14.elections-1964]]. Names:
+        Lady Bird Johnson, Johnson.'
       tags:
       - name:johnson-lady-bird
       - name:johnson-lyndon-b
@@ -1711,19 +1398,24 @@ ops:
       when: May 15
       date: '1964-05-15'
       thread: elections-1964-johnson
-      c: The White House. Dr. Hurst and Dr. James Cain meet with Dr. Larry Lamb of San Antonio and Dr. George Burkley and Dr. Janet Travell of the White House over Johnson's health, a thorough check-up planned for the morning; Mrs. Johnson's memorandum to be handed to Johnson.
-      n: '[[w.johnson-white-house-diary]], 138–40 (Lady Bird Johnson''s account of what was planned the evening before; she does not describe the meeting). Check: the day, the meeting and the check-up as planned, not as held. Names: Johnson, Hurst, Lady Bird Johnson.'
+      c: 'Planned for the morning, by Mrs. Johnson''s account the night before: Dr. Hurst and Dr. James Cain to confer with
+        Dr. Larry Lamb of San Antonio and Dr. George Burkley and Dr. Janet Travell of the White House over Johnson''s health,
+        with a thorough check-up; her memorandum to be handed to Johnson at the meeting.'
+      n: '[[w.johnson-white-house-diary]], 138–40 (Lady Bird Johnson''s account of what was planned; she does not describe
+        the meeting). Check: whether held. See [[cal.1964-05-14.elections-1964]]. Names: Johnson, Lady Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
 - add:
     entry:
       id: cal.1964-05-14.elections-1964-johnson-2
-      when: May 14
+      when: May 14–15
       date: '1964-05-14'
       thread: elections-1964-johnson
-      c: 'A little after midnight Johnson, back from a stag party, telephones Mrs. Johnson at Huntland: lonesome, by her account; "a sad-happy talk," his "restive desire to seek a way out of the burdens he carries."'
-      n: '[[w.johnson-white-house-diary]], 140 (Lady Bird Johnson''s account; the call falls after midnight, on the 15th). Check: the day, the 14th or the 15th. Names: Johnson, Lady Bird Johnson.'
+      c: 'Huntland, a little after midnight. Johnson, back from a stag party, telephones Mrs. Johnson: lonesome, by her account;
+        "a sad-happy talk," his "restive desire to seek a way out of the burdens he carries."'
+      n: '[[w.johnson-white-house-diary]], 140 (Lady Bird Johnson''s account). See [[cal.1964-05-14.elections-1964]]. Names:
+        Johnson, Lady Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -1733,8 +1425,12 @@ ops:
       when: May 21
       date: '1964-05-21'
       thread: poverty
-      c: Kentucky. Mrs. Johnson, with Carpenter, Bess Abell, Representative Perkins, Batt of the A.R.A. and aides of Agriculture and Commerce, lands at Lexington about 8 a.m., Governor and Mrs. Breathitt meeting her. Eight hours by motorcade, foot and helicopter through the Cumberland Plateau. On the road she stops the motorcade at a school of children on the last day of classes.
-      n: '[[w.johnson-white-house-diary]], 140–41 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Carpenter, Perkins, Batt, Breathitt.'
+      c: Kentucky. Mrs. Johnson, with Carpenter, Bess Abell, Representative Perkins, Batt of the A.R.A. and aides of Agriculture
+        and Commerce, lands at Lexington about 8 a.m., Governor and Mrs. Breathitt meeting her. Eight hours by motorcade,
+        foot and helicopter through the Cumberland Plateau. On the road she stops the motorcade at a school of children on
+        the last day of classes.
+      n: '[[w.johnson-white-house-diary]], 140–41 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Carpenter, Perkins,
+        Batt, Breathitt.'
       tags:
       - name:johnson-lady-bird
       - name:carpenter-liz
@@ -1747,8 +1443,11 @@ ops:
       when: May 21
       date: '1964-05-21'
       thread: poverty
-      c: 'Warshoal Branch, Breathitt County, Ky. Mrs. Johnson walks a mile up the creek to the three-room house of Arthur Robertson, his wife and seven children: a $700 federal grant for materials, siding, a well; three-fifths of an acre of tobacco; a part-time job on the Unemployed Parents program. Federal money in Kentucky, about $200 million a year since 1961. Mrs. Robertson: "It don''t hurt to dream!"'
-      n: '[[w.johnson-white-house-diary]], 141–42 (Lady Bird Johnson''s account; the federal total is as she gives it). Names: Lady Bird Johnson.'
+      c: 'Warshoal Branch, Breathitt County, Ky. Mrs. Johnson walks almost a mile up the creek to the three-room house of
+        Arthur Robertson, his wife and seven children: a $700 federal grant for materials, siding, insulation, a well; three-fifths
+        of an acre cleared for tobacco with the Agriculture Department''s help; a part-time job on the Unemployed Parents
+        program. Mrs. Robertson: "It don''t hurt to dream!"'
+      n: '[[w.johnson-white-house-diary]], 141–42, 144 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
       tags:
       - name:johnson-lady-bird
 - add:
@@ -1757,7 +1456,10 @@ ops:
       when: May 21
       date: '1964-05-21'
       thread: poverty
-      c: 'Lick Branch School, Breathitt County. Mrs. Johnson lunches with the 25 children of the one-room school, a hot lunch for ten cents; presents a flag that flew over the Capitol and a set of encyclopedias; she throws the switch on the school''s first electric lights. Marie Turner, the county superintendent: a year''s teacher turnover; school lunch lifts the children.'
+      c: 'Lick Branch School, Breathitt County. Mrs. Johnson lunches with the 25 children of the one-room school, a hot lunch
+        for ten cents; presents a flag that flew over the Capitol and a set of encyclopedias; throws the switch on the school''s
+        first electric lights. Marie Turner, the county superintendent: a teacher hardly ever stays longer than a year; a
+        meal a day lifts the children.'
       n: '[[w.johnson-white-house-diary]], 142–44 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
       tags:
       - name:johnson-lady-bird
@@ -1767,7 +1469,10 @@ ops:
       when: May 21
       date: '1964-05-21'
       thread: poverty
-      c: Breathitt High School, Jackson, Ky. Mrs. Johnson makes her first speech of the day to about 5,000, among them the Lieutenant Governor and Perkins, at the dedication of the new gymnasium, one of 188 accelerated public works projects in the Cumberland area; Mrs. Roosevelt dedicated the old one 26 years before. Mrs. Breathitt gives her a hooked rug and a quilt.
+      c: Breathitt High School, Jackson, Ky. Mrs. Johnson makes her first speech of the day to about 5,000, among them the
+        Lieutenant Governor and Perkins, at the dedication of the new gymnasium, one of 188 accelerated public works projects
+        in the Cumberland area; Mrs. Roosevelt dedicated the old one 26 years before. Mrs. Breathitt gives her a hooked rug
+        and a quilt.
       n: '[[w.johnson-white-house-diary]], 144 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Perkins, Breathitt.'
       tags:
       - name:johnson-lady-bird
@@ -1775,30 +1480,23 @@ ops:
       - name:breathitt-edward-t
 - cite:
     id: cal.1964-05-23.europe-and-the-alliance
-    item: '[[w.johnson-white-house-diary]], 144–46 (Lexington, Va.: Johnson and Mrs. Johnson with Acheson, Rusk and Byrd; the cadets; the visit to the library with Eisenhower, Mrs. Marshall and Governor Harrison; Bradley presiding, then Eisenhower''s speech and Johnson''s, "touching"; not the words of Johnson''s speech)'
+    item: '[[w.johnson-white-house-diary]], 144–46 (Lexington, Va.: Johnson and Mrs. Johnson with Acheson, Rusk and Byrd;
+      Johnson inspects the V.M.I. honor guard; the visit to the library with Eisenhower, Mrs. Marshall and Governor Harrison,
+      for the photographers; Bradley presiding, then Eisenhower''s speech and Johnson''s, "touching"; not the words of Johnson''s
+      speech)'
     units: '?'
-- add:
-    entry:
-      id: cal.1964-05-23.program
-      when: May 23
-      date: '1964-05-23'
-      thread: program
-      c: 'Lexington, Va. Johnson inspects the V.M.I. cadets; he and Mrs. Johnson visit the Marshall Library with Eisenhower, Mrs. Marshall and Governor Harrison. Bradley to Mrs. Johnson before the ceremony: "This is one of the twenty-two things I''m doing because I think they''re good to do."'
-      n: '[[w.johnson-white-house-diary]], 145 (Lady Bird Johnson''s account). See [[cal.1964-05-23.europe-and-the-alliance]]. Names: Johnson, Lady Bird Johnson, Eisenhower, Harrison, Bradley.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:johnson-lady-bird
-      - name:eisenhower-dwight-d
-      - name:harrison-albertis-s-jr
-      - name:bradley-omar-n
 - add:
     entry:
       id: cal.1964-05-25.white-house
       when: May 25
       date: '1964-05-25'
-      thread: white-house
-      c: New York, Museum of Modern Art, evening. Dinner for 400 at the opening of the new wing, at Frank Stanton's urging; Stevenson takes Mrs. Johnson; David Rockefeller speaks; Lipchitz, who designed the Presidential scholars' medal, at her table. Mrs. Johnson presses the switch that lights the garden and the wing and salutes "a war against the poverty of man's spirit."
-      n: '[[w.johnson-white-house-diary]], 146–48 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Stevenson, Stanton, David Rockefeller.'
+      thread: program
+      c: New York, Museum of Modern Art, evening. Dinner for 400 at the opening of the new wing, at Frank Stanton's urging;
+        Stevenson takes Mrs. Johnson; David Rockefeller speaks; Lipchitz, who designed the Presidential scholars' medal, at
+        her table. Mrs. Johnson presses the switch that lights the garden and the wing and salutes "a war against the poverty
+        of man's spirit."
+      n: '[[w.johnson-white-house-diary]], 146–48 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Stevenson, Stanton,
+        David Rockefeller.'
       tags:
       - name:johnson-lady-bird
       - name:stevenson-adlai-e
@@ -1809,9 +1507,12 @@ ops:
       id: cal.1964-05-25.white-house-2
       when: May 25
       date: '1964-05-25'
-      thread: white-house
-      c: 'New York, Waldorf Towers. Stevenson''s party after the opening: Richard Rodgers, Marc Connelly, Galbraith, Josh Logan, Fredric March, the Weisls, the Fortases. Galbraith with Mrs. Johnson on her Kentucky trip and the idea of a teachers training corps.'
-      n: '[[w.johnson-white-house-diary]], 148 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Stevenson, Galbraith, Fortas.'
+      thread: program
+      c: 'New York, Waldorf Towers. Stevenson''s party after the opening: Richard Rodgers, Marc Connelly, Galbraith, Josh
+        Logan, Fredric March, the Weisls, the Fortases. Galbraith with Mrs. Johnson on her Kentucky trip and the idea of a
+        teachers training corps.'
+      n: '[[w.johnson-white-house-diary]], 148 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Stevenson, Galbraith,
+        Fortas.'
       tags:
       - name:johnson-lady-bird
       - name:stevenson-adlai-e
@@ -1819,7 +1520,8 @@ ops:
       - name:fortas-abe
 - cite:
     id: cal.1964-05-27.india-and-china
-    item: '[[w.johnson-white-house-diary]], 148 (the news of Nehru''s death at about 6 a.m.; Rusk left at dawn for the funeral)'
+    item: '[[w.johnson-white-house-diary]], 148–49 (the news of Nehru''s death at about 6 a.m.; Rusk left at dawn for the
+      funeral; not the place)'
     units: '?'
 - add:
     entry:
@@ -1827,7 +1529,8 @@ ops:
       when: May 27
       date: '1964-05-27'
       thread: europe-and-the-alliance
-      c: 'The South Lawn. Johnson and Mrs. Johnson receive President de Valera of Ireland: the Diplomatic Corps, anthems, troops reviewed, speeches; they ride with him to Blair House.'
+      c: 'The South Lawn. Johnson and Mrs. Johnson receive President de Valera of Ireland: the Diplomatic Corps, anthems,
+        troops reviewed, speeches; they ride with him to Blair House.'
       n: '[[w.johnson-white-house-diary]], 148–49 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
@@ -1838,8 +1541,12 @@ ops:
       when: May 27
       date: '1964-05-27'
       thread: europe-and-the-alliance
-      c: 'The White House, State dinner for de Valera. Gifts: a vermeil cigar box, an antique ballot box, a copy of his baptismal certificate (St. Agnes, New York). Robert Kennedy, Mrs. Kennedy and Edward Kennedy and his wife decline; the Shrivers come for the family; Ball and Mrs. Ball for Rusk, away at Nehru''s funeral. Johnson''s toast: "there are more Irishmen in the White House than people."'
-      n: '[[w.johnson-white-house-diary]], 149–50 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Robert Kennedy, Ted Kennedy, Shriver, Ball, Rusk, Duke.'
+      c: 'The White House, State dinner for de Valera. Gifts: a vermeil cigar box, an antique ballot box, a copy of his baptismal
+        certificate (St. Agnes, New York). Robert Kennedy and Mrs. Kennedy and Edward Kennedy and his wife, invited, do not
+        come; the Shrivers come for the family; Ball and Mrs. Ball for Rusk, away at Nehru''s funeral. Johnson''s toast: "I
+        have heard it said that there are more Irishmen in the White House than people."'
+      n: '[[w.johnson-white-house-diary]], 149–50 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Robert
+        Kennedy, Ted Kennedy, Shriver, Ball, Rusk.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -1848,15 +1555,18 @@ ops:
       - name:shriver-r-sargent
       - name:ball-george-w
       - name:rusk-dean
-      - name:duke-angier-b
 - add:
     entry:
       id: cal.1964-06-04.white-house
       when: June 4
       date: '1964-06-04'
       thread: white-house
-      c: The East Room, 5 p.m. Mark Bortman of Boston, who headed the People-to-People program, presents John Adams's silver coffee urn to the White House, before 13 Adamses, the Massachusetts delegation led by Saltonstall, and about 80 guests. Mrs. Johnson accepts it; Thomas Boylston Adams of the Massachusetts Historical Society gives her two volumes of the Adams letters.
-      n: '[[w.johnson-white-house-diary]], 151–53 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Saltonstall, Thomas Boylston Adams.'
+      c: The East Room, 5 p.m. Mark Bortman of Boston, who headed the People-to-People program, presents John Adams's silver
+        coffee urn to the White House, before 13 Adamses, the Massachusetts delegation led by Saltonstall, and about 80 guests.
+        Mrs. Johnson accepts it; Thomas Boylston Adams of the Massachusetts Historical Society gives her two volumes of the
+        Adams letters.
+      n: '[[w.johnson-white-house-diary]], 151–53 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Saltonstall, Thomas
+        Boylston Adams.'
       tags:
       - name:johnson-lady-bird
       - name:saltonstall-leverett
@@ -1866,8 +1576,9 @@ ops:
       id: cal.1964-06-04.white-house-2
       when: June 4
       date: '1964-06-04'
-      thread: white-house
-      c: The home of Max Freedman, Washington. Johnson and Mrs. Johnson at a birthday supper for Bill Moyers, thirty, about twenty present.
+      thread: program
+      c: The home of Max Freedman, Washington. Johnson and Mrs. Johnson at a birthday supper for Bill Moyers, thirty, about
+        twenty present.
       n: '[[w.johnson-white-house-diary]], 153 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Moyers.'
       tags:
       - name:johnson-lyndon-b
@@ -1879,8 +1590,12 @@ ops:
       when: June 4
       date: '1964-06-04'
       thread: elections-1964-johnson
-      c: The Senate caucus room. Rally forming Young Citizens for Johnson, Bayh and Marvella Bayh the organizers; Charlotte Ford, daughter of Henry Ford II, who says she decided to vote for Johnson before her father, a Republican, declared for him; John Reuther, son of Victor Reuther, Bobby Mitchell of the Redskins, Peter Duchin and Mayor Wagner's son Bob Jr. among them. Lynda Bird and Luci attend.
-      n: '[[w.johnson-white-house-diary]], 154 (Lady Bird Johnson''s account of the *New York Times* report; the rally was "yesterday" in an entry dated June 5). Check: the day; the diary has June 4 by the entry date, June 5. Names: Johnson, Bayh, Lynda Bird Johnson.'
+      c: The Senate caucus room. Rally forming Young Citizens for Johnson, Bayh and Marvella Bayh the organizers; Charlotte
+        Ford, daughter of Henry Ford II, who says she decided to vote for Johnson before her father, a Republican, declared
+        for him; John Reuther, son of Victor Reuther, Bobby Mitchell of the Redskins, Peter Duchin and Mayor Wagner's son
+        Bob Jr. among them. Lynda Bird and Luci attend.
+      n: '[[w.johnson-white-house-diary]], 154 (Lady Bird Johnson''s account of the *New York Times* report; "yesterday" in
+        her entry of June 5). Names: Johnson, Bayh, Lynda Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
       - name:bayh-birch
@@ -1890,9 +1605,12 @@ ops:
       id: cal.1964-06-05.middle-east-2
       when: June 5
       date: '1964-06-05'
-      thread: middle-east
-      c: 'National Cathedral. Memorial service for Nehru, Johnson and Mrs. Johnson attending with Rusk and Mrs. Rusk and Mrs. B. K. Nehru; B. K. Nehru, India''s Ambassador, followed with Bunker, formerly Ambassador to India, and Dean Sayre. Present: Lord and Lady Harlech, Dobrynin, the Dean of the Corps. Bunker on Nehru: lines of Frost on a pad on his desk.'
-      n: '[[w.johnson-white-house-diary]], 154–55 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Nehru, Rusk, Bunker, Dobrynin.'
+      thread: south-asia
+      c: 'National Cathedral. Memorial service for Nehru, Johnson and Mrs. Johnson attending with Rusk and Mrs. Rusk and Mrs.
+        B. K. Nehru; B. K. Nehru, India''s Ambassador, followed with Bunker, formerly Ambassador to India, and Dean Sayre.
+        Present: Lord and Lady Harlech, Dobrynin, the Dean of the Corps. Bunker on Nehru: lines of Frost on a pad on his desk.'
+      n: '[[w.johnson-white-house-diary]], 154–55 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Nehru,
+        Rusk, Bunker, Dobrynin.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -1902,7 +1620,8 @@ ops:
       - name:dobrynin-anatoly
 - cite:
     id: cal.1964-06-05.middle-east
-    item: '[[w.johnson-white-house-diary]], 155 (the State luncheon at the White House for the Shah and the Empress Farah, Mrs. Johnson on the North Portico; Johnson late; the Shah on his dams, one a year; not the talks with Johnson)'
+    item: '[[w.johnson-white-house-diary]], 155 (the State luncheon at the White House for the Shah and the Empress Farah,
+      Mrs. Johnson on the North Portico; Johnson late; the Shah on his dams, one a year; not the talks with Johnson)'
     units: '?'
 - add:
     entry:
@@ -1910,15 +1629,23 @@ ops:
       when: June 5
       date: '1964-06-05'
       thread: program
-      c: 'The White House. Dinner for John and Elaine Steinbeck. Steinbeck on Russia: the Russians'' dislike of the Chinese, shown by Khrushchev''s daughter Rada; it is "blindness" not to have relations with the quarter of mankind in Red China; invite young Russian writers who object to their government to see the country as it is. Steinbeck has written a piece on Johnson that the Democratic Committee will distribute at the Convention; Mrs. Johnson asks for more such help. Johnson, the Steinbecks and Mrs. Johnson walk along Pennsylvania Avenue to see them off.'
+      c: 'The White House. Dinner for John and Elaine Steinbeck. Johnson''s troubles, by Mrs. Johnson''s account: the Turks
+        on the point of invading Cyprus; the coal industry wants Venezuelan oil imports stopped. Steinbeck on Russia: the
+        Russians'' dislike of the Chinese, shown by Khrushchev''s daughter Rada; "blindness" not to have relations with a
+        quarter of the people of the earth, Red China; invite young Russian writers who object to their government. Steinbeck
+        has written a piece on Johnson that the Democratic Committee will likely distribute at the Convention; Mrs. Johnson
+        asks for more such help. The Johnsons walk the Steinbecks across Pennsylvania Avenue.'
       n: '[[w.johnson-white-house-diary]], 155–57 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Khrushchev.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
       - name:khrushchev-nikita-s
+      also:
+      - cyprus
 - cite:
     id: cal.1964-06-06.laos
-    item: '[[w.johnson-white-house-diary]], 157–58 (the telephone call from McGeorge Bundy at 4:30 a.m. that one of the reconnaissance planes had been shot down over Laos; Johnson up early)'
+    item: '[[w.johnson-white-house-diary]], 157–58 (the telephone call from McGeorge Bundy at 4:30 a.m. that one of the reconnaissance
+      planes had been shot down over Laos; Johnson up early)'
     units: '?'
 - add:
     entry:
@@ -1926,8 +1653,10 @@ ops:
       when: June 6
       date: '1964-06-06'
       thread: laos
-      c: 'Johnson in the White House hall to Mrs. Johnson, after a morning of Laos and Vietnam: "We''ve got our planes ready to go in if absolutely necessary. Everybody''s in agreement that we can''t turn and run." He asks her to take something to Walter Jenkins.'
-      n: '[[w.johnson-white-house-diary]], 158 (Lady Bird Johnson''s account; she puts it about 1:45 p.m.). See [[cal.1964-06-06.laos]]. Names: Johnson, Lady Bird Johnson, Walter Jenkins.'
+      c: 'Johnson in the White House hall to Mrs. Johnson, about 1:45 p.m.: "We''ve got our planes ready to go in if absolutely
+        necessary. Everybody''s in agreement that we can''t turn and run." He asks her to take something to Walter Jenkins.'
+      n: '[[w.johnson-white-house-diary]], 158 (Lady Bird Johnson''s account; she puts it about 1:45 p.m.). See [[cal.1964-06-06.laos]].
+        Names: Johnson, Lady Bird Johnson, Walter Jenkins.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -1938,31 +1667,34 @@ ops:
       when: June 9
       date: '1964-06-09'
       thread: program
-      c: 'Cambridge, Mass. Mrs. Johnson gives the baccalaureate address at Radcliffe, in the Memorial Church of Harvard: education a loan to be repaid by a gift of self; the "natural woman"; better cities; "make your front line of freedom your front door"; women''s low voting rate. She notes Mary Bunting''s appointment to the Atomic Energy Commission by Johnson.'
-      n: '[[w.johnson-white-house-diary]], 158–60 (Lady Bird Johnson''s account; Johnson spoke at Swarthmore the day before). Names: Lady Bird Johnson, Johnson, Galbraith, Peabody.'
+      c: 'Cambridge, Mass. Mrs. Johnson gives the baccalaureate address at Radcliffe, in the Memorial Church of Harvard: education
+        a loan to be repaid by a gift of self; the "natural woman"; better cities; "make your front line of freedom your front
+        door"; women''s low voting rate. She notes Mary Bunting''s appointment to the Atomic Energy Commission by Johnson.'
+      n: '[[w.johnson-white-house-diary]], 158–60 (Lady Bird Johnson''s account; Johnson spoke at Swarthmore the day before).
+        Names: Lady Bird Johnson, Johnson.'
       tags:
       - name:johnson-lady-bird
       - name:johnson-lyndon-b
-      - name:galbraith-john-kenneth
-      - name:peabody-endicott
 - add:
     entry:
       id: cal.1964-06-09.program-2
       when: June 9
       date: '1964-06-09'
       thread: program
-      c: Cambridge. Mrs. Johnson, with Mrs. Peabody and Mrs. John Collins, walks the site on the Charles River given by Harvard for the Kennedy Library; flies back to Washington.
-      n: '[[w.johnson-white-house-diary]], 160 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Peabody.'
+      c: Cambridge. Mrs. Johnson, with Mrs. Peabody and Mrs. John Collins, walks the site on the Charles River given by Harvard
+        for the Kennedy Library; flies back to Washington.
+      n: '[[w.johnson-white-house-diary]], 160 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
       tags:
       - name:johnson-lady-bird
-      - name:peabody-endicott
 - add:
     entry:
       id: cal.1964-06-09.europe-and-the-alliance
       when: June 9
       date: '1964-06-09'
       thread: europe-and-the-alliance
-      c: 'The White House, State dinner-dance for Prime Minister Jens Otto Krag of Denmark and Mrs. Krag, Peter Duchin''s music. Gifts: for the Krags'' estate a barbecue wagon and a turquoise-and-silver Hopi necklace; Lynda Bird gives the children a talking doll and a hobby horse. Luci Johnson''s first State dinner.'
+      c: 'The White House, State dinner-dance for Prime Minister Jens Otto Krag of Denmark and Mrs. Krag, Peter Duchin''s
+        music. Gifts: for the Krags'' estate a barbecue wagon and a turquoise-and-silver Hopi necklace; Lynda Bird gives the
+        children a talking doll and a hobby horse. Luci Johnson''s first State dinner.'
       n: '[[w.johnson-white-house-diary]], 160–62 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
@@ -1973,8 +1705,13 @@ ops:
       when: June 10
       date: '1964-06-10'
       thread: program
-      c: 'The East Room, 5:30 p.m. Johnson presents the Presidential Scholars'' medals to 121 students, two from each State and others, chosen by a commission headed by Milton Eisenhower, with Fulbright among its members; they had been briefed by Rusk, shown the Capitol, lunched with their Congressmen, briefed by Alan Shepard at NASA and met Warren at the Supreme Court. Johnson: "You are younger than most of the earth''s quarrels, and you are older than most of the earth''s governments." His delivery below par; Southeast Asia has kept him at his desk.'
-      n: '[[w.johnson-white-house-diary]], 162–64 (Lady Bird Johnson''s account). Names: Johnson, Milton Eisenhower, Fulbright, Rusk, Shepard, Warren.'
+      c: 'The East Room, 5:30 p.m. Johnson presents the Presidential Scholars'' medals to 121 students, two from each State
+        and others, chosen by a commission headed by Milton Eisenhower, with Fulbright among its members; they had been briefed
+        by Rusk, shown the Capitol, lunched with their Congressmen, briefed by Alan Shepard at NASA and met Warren at the
+        Supreme Court. Johnson: "You are younger than most of the earth''s quarrels, and you are older than most of the earth''s
+        governments." His delivery below par; Southeast Asia has kept him at his desk.'
+      n: '[[w.johnson-white-house-diary]], 162–64 (Lady Bird Johnson''s account). Names: Johnson, Milton Eisenhower, Fulbright,
+        Rusk, Shepard, Warren.'
       tags:
       - name:johnson-lyndon-b
       - name:eisenhower-milton-s
@@ -1988,8 +1725,12 @@ ops:
       when: June 10
       date: '1964-06-10'
       thread: program
-      c: The White House. The Presidential Scholars' reception with invited artists and scientists, among them Balanchine, Herblock, Helen Hayes, de Kooning, Harper Lee, Lippmann, Oppenheimer, Seaborg, Shepard, Ben Shahn and John Walker; entertainment on the lawn, Poitier, the Gerry Mulligan Quartet, Jose Ferrer, Bernstein, the Kingston Trio. Lynda Bird host to the students.
-      n: '[[w.johnson-white-house-diary]], 164–65 (Lady Bird Johnson''s account; guests as she recognized them). Names: Lippmann, Oppenheimer, Seaborg, Shepard, Lady Bird Johnson.'
+      c: The White House. The Presidential Scholars' reception with invited artists and scientists, among them Balanchine,
+        Herblock, Helen Hayes, de Kooning, Harper Lee, Lippmann, Oppenheimer, Seaborg, Shepard, Ben Shahn and John Walker;
+        entertainment on the lawn, Poitier, the Gerry Mulligan Quartet, Jose Ferrer, Bernstein, the Kingston Trio. Lynda Bird
+        host to the students.
+      n: '[[w.johnson-white-house-diary]], 164–65 (Lady Bird Johnson''s account; guests as she recognized them). Names: Lippmann,
+        Oppenheimer, Seaborg, Shepard, Lady Bird Johnson.'
       tags:
       - name:lippmann-walter
       - name:oppenheimer-j-robert
@@ -2002,42 +1743,70 @@ ops:
       when: June 10
       date: '1964-06-10'
       thread: robert-kennedy
-      c: The South Lawn. Johnson, who has been in the West Wing in a Southeast Asia briefing with Cabinet members, goes out to mingle with the Presidential Scholars, goes back in and brings out Robert Kennedy to meet the young people.
-      n: '[[w.johnson-white-house-diary]], 164–65 (Lady Bird Johnson''s account, from the newspapers). Names: Johnson, Robert Kennedy.'
+      c: The South Lawn. Johnson, who has been in the West Wing in a Southeast Asia briefing with Cabinet members, goes out
+        to mingle with the Presidential Scholars, goes back in and brings out Robert Kennedy to meet the young people.
+      n: '[[w.johnson-white-house-diary]], 164–65 (Lady Bird Johnson''s account, from the newspapers). Names: Johnson, Robert
+        Kennedy.'
       tags:
       - name:johnson-lyndon-b
       - name:kennedy-robert-f
+- add:
+    entry:
+      id: cal.1964-06-11.program
+      when: June 11
+      date: '1964-06-11'
+      thread: program
+      c: Philadelphia. Mrs. Johnson at the Golden Slipper Dinner, for the Golden Slipper's summer camp for underprivileged
+        children; a three-hour drive back to Washington.
+      n: '[[w.johnson-white-house-diary]], 165 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
+      tags:
+      - name:johnson-lady-bird
 - add:
     entry:
       id: cal.1964-06-11.elections-1964-johnson
       when: June 11
       date: '1964-06-11'
       thread: elections-1964-johnson
-      c: Johnson, by Mrs. Johnson's account, wants her help to get out of the race; the cloture vote on the civil rights bill passed the day before, with about four votes to spare. She thinks he could announce at the bill's signing but fears "a wave of disillusion, resentment, even bitterness" and that no Democrat is ready to step in; she can only say, "Stay on for now."
-      n: '[[w.johnson-white-house-diary]], 165–66 (Lady Bird Johnson''s account, from a drive home from Philadelphia, where she attended the Golden Slipper Dinner). See [[cal.1964-05-14.elections-1964]]. Names: Johnson, Lady Bird Johnson.'
+      c: 'Johnson, by Mrs. Johnson''s account, wants out: "He wants me to help him get out but I think I can only say: ''Stay
+        on for now.''" She thinks the signing of the civil rights bill a high point for an announcement, but fears "a wave
+        of disillusion, resentment, even bitterness" and that no Democrat is ready to step into his shoes.'
+      n: '[[w.johnson-white-house-diary]], 165–66 (Lady Bird Johnson''s account, her thoughts on the drive home from Philadelphia).
+        See [[cal.1964-05-14.elections-1964]]. Names: Johnson, Lady Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
+- cite:
+    id: cal.1964-06-10.civil-rights-bill
+    item: '[[w.johnson-white-house-diary]], 165–66 (June 11: "Yesterday the Senate had cleared the way for a vote on the Civil
+      Rights Bill, by invoking cloture, with about four votes to spare"; not the count, Byrd or Dirksen)'
+    units: '?'
 - add:
     entry:
       id: cal.1964-06-14.succession
       when: June 14
       date: '1964-06-14'
-      thread: succession
-      c: Johnson and Mrs. Johnson to the National City Christian Church with Secretary Hodges, Mrs. Hodges and the Udalls; lunch with them, on the Interstate highways, 90 percent federal, and Hodges's ruling that routes across parks and shrines are decided case by case; Udall for preserving the wilderness.
-      n: '[[w.johnson-white-house-diary]], 166 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Hodges, Udall.'
+      thread: transportation
+      c: Johnson and Mrs. Johnson to the National City Christian Church with Secretary Hodges, Mrs. Hodges and the Udalls;
+        lunch with them, on the Interstate highways, 90 percent federal, and Hodges's ruling that routes across parks and
+        shrines are decided case by case; Udall for preserving the wilderness.
+      n: '[[w.johnson-white-house-diary]], 166 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Hodges,
+        Udall.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
       - name:hodges-luther-h
       - name:udall-stewart-l
+      also:
+      - conservation
 - add:
     entry:
       id: cal.1964-06-14.elections-1964-johnson
       when: June 14
       date: '1964-06-14'
       thread: elections-1964-johnson
-      c: 'Afternoon. Johnson to Mrs. Johnson: the next five months, with Vietnam, Laos and Cyprus, and a summer of turmoil if the civil rights bill passes, and worse if it fails; he wishes for an honorable way out. She: "What exit is there?"'
+      c: 'Afternoon. Another talk with Mrs. Johnson: Johnson faces the next five months wishing "there were some honorable
+        way out of it," by her account; Vietnam, Laos and Cyprus, and the turmoil if the civil rights bill passes, worse if
+        it fails. She: "caught on this pinpoint in history, what exit is there?"'
       n: '[[w.johnson-white-house-diary]], 166–67 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
@@ -2048,26 +1817,27 @@ ops:
       when: June 14
       date: '1964-06-14'
       thread: vietnam
-      c: About 8:30 p.m. Johnson telephones Rusk at his office; Rusk brings a wire from Lodge asking to resign as Ambassador to Vietnam and come home. Johnson has already asked Bundy, McNamara and Rusk whom they would recommend, and their lists contain men whose willingness to go has been checked.
-      n: '[[w.johnson-white-house-diary]], 167 (Lady Bird Johnson''s account). See [[cal.1964-06-16.vietnam-2]]. Names: Johnson, Rusk, Lodge, Bundy, McNamara.'
+      c: About 8:30 p.m. Johnson telephones Rusk at his office; Rusk brings a wire from Lodge, who wants to resign as Ambassador
+        to Vietnam and come home. Johnson has already asked Bundy, McNamara and Rusk whom they would recommend should Lodge
+        resign; the men they suggest, their willingness to go "in most instances" checked.
+      n: '[[w.johnson-white-house-diary]], 167 (Lady Bird Johnson''s account). See [[cal.1964-06-06.vietnam]]. Names: Johnson,
+        Rusk, Lodge, Bundy, McNamara.'
       tags:
       - name:johnson-lyndon-b
       - name:rusk-dean
       - name:lodge-henry-cabot
       - name:bundy-mcgeorge
       - name:mcnamara-robert-s
-- cite:
-    id: cal.1964-06-16.vietnam-2
-    item: '[[w.johnson-white-house-diary]], 167 (Johnson asking, if Lodge resigned, "Whom do you recommend?" of Bundy, McNamara and Rusk; the diary gives Sunday, June 14, evening, for Lodge''s wire and not the 16th)'
-    units: '?'
 - add:
     entry:
       id: cal.1964-06-15.succession
       when: June 15
       date: '1964-06-15'
-      thread: succession
-      c: The White House. Mrs. Johnson is interviewed for two hours by William Manchester, whom Mrs. Kennedy has chosen to write a book on the assassination; Manchester is interviewing everyone present in the five days.
-      n: '[[w.johnson-white-house-diary]], 167 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Manchester, Jacqueline Kennedy.'
+      thread: assassination
+      c: The White House. Mrs. Johnson is interviewed for two hours by William Manchester, whom Mrs. Kennedy has chosen to
+        write a book on the assassination; Manchester is interviewing everyone present in the five days.
+      n: '[[w.johnson-white-house-diary]], 167 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Manchester, Jacqueline
+        Kennedy.'
       tags:
       - name:johnson-lady-bird
       - name:manchester-william
@@ -2077,9 +1847,14 @@ ops:
       id: cal.1964-06-15.elections-1964-johnson
       when: June 15
       date: '1964-06-15'
-      thread: elections-1964-johnson
-      c: 'The White House, dinner with Joseph Alsop and Mrs. Alsop and Clifford and Mrs. Clifford. Wagers on the Republican nomination: Alsop five to two and Clifford four to one for Goldwater; one thinks Scranton is thinking of the future, to pick up the pieces. Alsop on the Turks and Greeks, with Inonu and Papandreou to come in a week. After they leave, Johnson says Alsop told him: "if you don''t commit troops you''re going to preside over the first real defeat of the United States in history."'
-      n: '[[w.johnson-white-house-diary]], 167–68 (Lady Bird Johnson''s account). Names: Johnson, Alsop, Clifford, Goldwater, Scranton, Inonu, George Papandreou.'
+      thread: elections-1964
+      c: 'The White House, dinner with Joseph Alsop and Mrs. Alsop and Clifford and Mrs. Clifford. Wagers on the Republican
+        nomination: Alsop five to two and Clifford four to one for Goldwater; one thinks Scranton is thinking of the future,
+        to pick up the pieces. Alsop on the Turks and Greeks, with Inonu and Papandreou to come in a week. After they leave,
+        Johnson says Alsop told him, "in effect": "if you don''t commit troops you''re going to preside over the first real
+        defeat of the United States in history."'
+      n: '[[w.johnson-white-house-diary]], 167–68 (Lady Bird Johnson''s account). Names: Johnson, Alsop, Clifford, Goldwater,
+        Scranton, Inonu, George Papandreou.'
       tags:
       - name:johnson-lyndon-b
       - name:alsop-joseph
@@ -2088,13 +1863,18 @@ ops:
       - name:scranton-william-w
       - name:inonu-ismet
       - name:papandreou-george
+      also:
+      - cyprus
+      - vietnam
 - add:
     entry:
       id: cal.1964-06-16.cities-and-housing
       when: June 16
       date: '1964-06-16'
       thread: cities-and-housing
-      c: The White House, Mrs. Johnson's Women Do-ers luncheon, with Jane Jacobs, author of *The Death and Life of Great American Cities*, as speaker; Mary Roebling the banker, Mrs. Clark Kerr and Marie Turner of Breathitt County among the guests. Jacobs on park upkeep and the mortgage blackout in changing neighborhoods. Johnson greets them after lunch.
+      c: The White House, Mrs. Johnson's Women Do-ers luncheon, with Jane Jacobs, author of *The Death and Life of Great American
+        Cities*, as speaker; Mary Roebling the banker, Mrs. Clark Kerr and Marie Turner of Breathitt County among the guests.
+        Jacobs on park upkeep and the mortgage blackout in changing neighborhoods. Johnson greets them after lunch.
       n: '[[w.johnson-white-house-diary]], 169–70 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Jane Jacobs, Johnson.'
       tags:
       - name:johnson-lady-bird
@@ -2106,8 +1886,13 @@ ops:
       when: June 16
       date: '1964-06-16'
       thread: robert-kennedy
-      c: 'New York, the St. Regis. Dinner for 300 given by Stephen Smith and the trustees of the Kennedy Library in honor of Mrs. Kennedy, her first public social appearance since the assassination; Johnson and Mrs. Johnson, with Warren, Goldberg, the Freemans, the McNamaras, the Celebrezzes and Edward Kennedy, fly from Washington. Mrs. Johnson sits between Robert Kennedy and Stephen Smith; Johnson at Mrs. Kennedy''s table. Robert Kennedy: the guests all gave $10,000 or more; the $10 million expected by September. Fredric March reads poems Mrs. Kennedy chose.'
-      n: '[[w.johnson-white-house-diary]], 170–71 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Jacqueline Kennedy, Stephen Smith, Warren, Goldberg, Freeman, McNamara, Celebrezze, Ted Kennedy, Robert Kennedy.'
+      c: 'New York, the St. Regis. Dinner for 300 given by Stephen Smith and the trustees of the Kennedy Library in honor
+        of Mrs. Kennedy, her first public social appearance since the assassination; Johnson and Mrs. Johnson, with Warren,
+        Goldberg, the Freemans, the McNamaras, the Celebrezzes and Edward Kennedy, fly from Washington. Mrs. Johnson sits
+        between Robert Kennedy and Stephen Smith; Johnson at Mrs. Kennedy''s table. Robert Kennedy: the guests all gave $10,000
+        or more; the $10 million expected by September. Fredric March reads poems Mrs. Kennedy chose.'
+      n: '[[w.johnson-white-house-diary]], 170–71 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Jacqueline
+        Kennedy, Stephen Smith, Warren, Goldberg, Freeman, McNamara, Celebrezze, Ted Kennedy, Robert Kennedy.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -2122,12 +1907,34 @@ ops:
       - name:kennedy-robert-f
 - add:
     entry:
+      id: cal.1964-06-16.defense
+      when: June 16
+      date: '1964-06-16'
+      thread: defense
+      also:
+      - congress
+      c: 'On the plane to New York, with Johnson, Warren, Goldberg, McNamara and others: Edward Kennedy argues the cause of
+        naval bases for Boston, more closed in Massachusetts than in Texas.'
+      n: '[[w.johnson-white-house-diary]], 170–71 (Lady Bird Johnson''s account). Names: Ted Kennedy, Johnson, Warren, Goldberg,
+        McNamara.'
+      tags:
+      - name:kennedy-edward-m
+      - name:johnson-lyndon-b
+      - name:warren-earl
+      - name:goldberg-arthur-j
+      - name:mcnamara-robert-s
+- add:
+    entry:
       id: cal.1964-06-16.civil-rights-the-executive
       when: June 16
       date: '1964-06-16'
       thread: civil-rights-the-executive
-      c: 'New York, the car in from the St. Regis, Johnson and Mrs. Johnson with Warren and Robert Kennedy. Johnson and Kennedy, in earnest, on the first acts after the civil rights bill passes: a meeting of the Governors of the nineteen States without public accommodations laws, not only Southern ones, to work out a peaceful transition; and a mediator, Johnson wanting a Southerner, for the complaints.'
-      n: '[[w.johnson-white-house-diary]], 171–72 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Warren, Robert Kennedy.'
+      c: 'New York, the car in from the St. Regis, Johnson and Mrs. Johnson with Warren and Robert Kennedy. Johnson and Kennedy,
+        in earnest, on the first acts after the civil rights bill passes: a meeting of the Governors of the nineteen States
+        without public accommodations laws, not only Southern ones, to work out a peaceful transition; and a mediator, Johnson
+        wanting a Southerner, for the complaints.'
+      n: '[[w.johnson-white-house-diary]], 171–72 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Warren,
+        Robert Kennedy.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -2139,8 +1946,11 @@ ops:
       when: June 20
       date: '1964-06-20'
       thread: congress
-      c: Mrs. Johnson telephones Rose Kennedy and the Northampton hospital about Edward Kennedy's plane crash; Dr. Corriden reports on Bayh and his wife, who escaped with minor injuries; Joan Kennedy says Kennedy can use his arms and legs but the broken back's condition is unknown. His executive assistant and the pilot died.
-      n: '[[w.johnson-white-house-diary]], 172 (Lady Bird Johnson''s account). See [[cal.1964-06-19.congress]]. Names: Lady Bird Johnson, Ted Kennedy, Bayh.'
+      c: Mrs. Johnson telephones Rose Kennedy and the Northampton hospital about Edward Kennedy's plane crash; Dr. Corriden
+        reports on Bayh and his wife, who escaped with minor injuries; Joan Kennedy says Kennedy can use his arms and legs
+        but the broken back's condition is unknown. His executive assistant and the pilot died.
+      n: '[[w.johnson-white-house-diary]], 172 (Lady Bird Johnson''s account). See [[cal.1964-06-19.congress]]. Names: Lady
+        Bird Johnson, Ted Kennedy, Bayh.'
       tags:
       - name:johnson-lady-bird
       - name:kennedy-edward-m
@@ -2151,23 +1961,30 @@ ops:
       when: June 20
       date: '1964-06-20'
       thread: civil-rights-bill
-      c: Boggs, who comes over to see Mrs. Johnson, says the House has set July 4 as the day for passing the civil rights bill and, barring accident, will meet it.
+      c: Boggs, who comes over to see Mrs. Johnson, says the House has set July 4 as the day for passing the civil rights
+        bill and, barring accident, will meet it.
       n: '[[w.johnson-white-house-diary]], 173 (Lady Bird Johnson''s account). Names: Boggs, Lady Bird Johnson.'
       tags:
       - name:boggs-hale
       - name:johnson-lady-bird
 - cite:
     id: cal.1964-07-02.civil-rights-bill
-    item: '[[w.johnson-white-house-diary]], 173–74 (the news of the House vote, 289 to 126, mid-afternoon; the signing in the East Room at 6:30 with television, the congressional leaders behind Johnson, Mansfield, Dirksen, Boggs and Robert Kennedy there; Humphrey asks for the copy of the statement and it has vanished; Mrs. Johnson to the newswomen on 1957 and the thirty-seven nights; not the hour of the House vote)'
-    units: '?'
+    item: '[[w.johnson-white-house-diary]], 173–74 (the news of the House vote, 289 to 126, mid-afternoon; the signing in
+      the East Room at 6:30 with television, the congressional leaders behind Johnson, Mansfield, Dirksen, Boggs and Robert
+      Kennedy there; Humphrey asks for the copy of the statement and it has vanished; Mrs. Johnson to the newswomen on 1957
+      and the thirty-seven nights; not the words)'
+    units: A
 - add:
     entry:
       id: cal.1964-07-02.succession
       when: July 2
       date: '1964-07-02'
-      thread: succession
-      c: 'Johnson telephones Mrs. Johnson, as though the thought had just come to him: "We might just get off to Texas tonight." At 10:30 p.m. they leave the South Lawn by helicopter with Moyers; Jetstar from Andrews to the Ranch, midnight Texas time.'
-      n: '[[w.johnson-white-house-diary]], 174–75 (Lady Bird Johnson''s account). See [[cal.1964-07-02.civil-rights-bill]]. Names: Johnson, Lady Bird Johnson, Moyers.'
+      thread: program
+      c: 'Johnson telephones Mrs. Johnson, as though the thought had just come to him: "We might just get off to Texas tonight."
+        At 10:30 p.m. they leave the South Lawn by helicopter with Moyers; Jetstar from Andrews to the Ranch, midnight Texas
+        time.'
+      n: '[[w.johnson-white-house-diary]], 174–75 (Lady Bird Johnson''s account). See [[cal.1964-07-02.civil-rights-bill]].
+        Names: Johnson, Lady Bird Johnson, Moyers.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -2178,8 +1995,12 @@ ops:
       when: July 6
       date: '1964-07-06'
       thread: elections-1964-johnson
-      c: 'Scharnhorst Ranch. Johnson with Mrs. Johnson, Jesse Kellam and A. W. Moursund on whether he will run. "Lyndon wants to get out." Ed Weisl: "I don''t know any honorable way for him not to run." Moursund: "you are the only man that can make up your mind." Kellam: run, and announce on election that he will not seek a second term.'
-      n: '[[w.johnson-white-house-diary]], 175 (Lady Bird Johnson''s account; Weisl spoke looking at her). Names: Johnson, Lady Bird Johnson.'
+      c: 'Scharnhorst Ranch. Johnson with Mrs. Johnson, Jesse Kellam and A. W. Moursund on whether he will run: "Lyndon wants
+        to get out. But there *is* no way out now." Ed Weisl to Mrs. Johnson: "Bird, I don''t know any honorable way for him
+        *not* to run." Moursund: "you are the only man that can make up your mind." Kellam: run, and announce right away after
+        election that he will hold the job four years and not seek reelection.'
+      n: '[[w.johnson-white-house-diary]], 175 (Lady Bird Johnson''s account; Weisl spoke looking at her). Names: Johnson,
+        Lady Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -2189,7 +2010,8 @@ ops:
       when: July 11
       date: '1964-07-11'
       thread: elections-1964-johnson
-      c: 'The White House, the weekend. Johnson "is going through the throes of what may be the last desperate turning away, the desire to escape being the Democratic candidate this fall"; Mrs. Johnson: "he can''t find any honorable escape."'
+      c: 'The White House, the weekend. Johnson "is going through the throes of what may be the last desperate turning away,
+        the desire to escape being the Democratic candidate this fall"; Mrs. Johnson: "he can''t find any honorable escape."'
       n: '[[w.johnson-white-house-diary]], 176 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
@@ -2200,8 +2022,11 @@ ops:
       when: July 13
       date: '1964-07-13'
       thread: elections-1964-johnson
-      c: 'The White House, small room off the Oval Office, until nearly 11 p.m. Johnson with O''Donnell, Valenti, Maguire, Cliff Carter and Jenkins, "at least eight of the chief political cogs" by Mrs. Johnson''s count, on the campaign. Johnson comes home with Jenkins and Maguire: "We are on the move."'
-      n: '[[w.johnson-white-house-diary]], 177 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, O''Donnell, Valenti, Walter Jenkins.'
+      c: 'The White House, Johnson''s small room, until nearly 11 p.m. Johnson meeting with O''Donnell, Valenti, Maguire,
+        "Cliff," Jenkins, "at least eight of the chief political cogs in the machine" by Mrs. Johnson''s count. He comes home
+        with Jenkins and Maguire: "We are on the move."'
+      n: '[[w.johnson-white-house-diary]], 177 (Lady Bird Johnson''s account). Check: who "Cliff" is (Cliff Carter?). Names:
+        Johnson, Lady Bird Johnson, O''Donnell, Valenti, Walter Jenkins.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -2211,36 +2036,41 @@ ops:
 - add:
     entry:
       id: cal.1964-07-15.elections-1964-johnson
-      when: July 15
+      when: July 15–16
       date: '1964-07-15'
       thread: elections-1964-johnson
-      c: 'The White House, after midnight. Johnson watches the Republican convention on television with Mrs. Johnson, who thinks it will nominate Goldwater any minute. About 3:30 a.m. he wakes and tells her, in detail, the pros and cons of every decision on the campaign: each sensitive job to be filled, every spot on the battlefield to be manned.'
-      n: '[[w.johnson-white-house-diary]], 178 (Lady Bird Johnson''s account; the hour is the night of the 15th to the 16th). Names: Johnson, Lady Bird Johnson, Goldwater.'
+      c: 'The White House, the night after watching the Republican convention, about 3:30 or 4 a.m. Johnson wakes and goes
+        over with Mrs. Johnson, in detail, the pros and cons of every decision before him in the campaign: "every sensitive
+        job to be filled, every spot on the battlefield that needs to be manned."'
+      n: '[[w.johnson-white-house-diary]], 178 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
-      - name:goldwater-barry-m
 - add:
     entry:
       id: cal.1964-07-16.elections-1964-johnson
       when: July 16
       date: '1964-07-16'
       thread: elections-1964-johnson
-      c: The White House, 9 a.m. Galbraith to breakfast with Johnson and Mrs. Johnson, two hours. He says he is first a friend of the Kennedy family but understands Johnson; friendly toward Humphrey. Johnson asks him to help with Congressmen to pass the poverty bill; Galbraith is willing, Mrs. Johnson believes, to write for the campaign. Mrs. Johnson hopes Johnson will not take Goldwater's tone ("Yes, I know the fellow").
-      n: '[[w.johnson-white-house-diary]], 178 (Lady Bird Johnson''s account). See [[cal.1964-07-16.elections-1964-4]]. Names: Galbraith, Johnson, Lady Bird Johnson, Humphrey, Goldwater.'
+      c: The White House, 9 a.m. Galbraith to breakfast with Johnson and Mrs. Johnson, two hours. He says he is first a friend
+        of the Kennedy family but understands Johnson; friendly toward Humphrey. Johnson asks him to help with any Congressmen
+        he can to pass the poverty bill; Galbraith willing, Mrs. Johnson believes, to write campaign material and speeches.
+      n: '[[w.johnson-white-house-diary]], 178 (Lady Bird Johnson''s account). Names: Galbraith, Johnson, Lady Bird Johnson,
+        Humphrey.'
       tags:
       - name:galbraith-john-kenneth
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
       - name:humphrey-hubert-h
-      - name:goldwater-barry-m
 - add:
     entry:
       id: cal.1964-07-16.program
       when: July 16
       date: '1964-07-16'
       thread: program
-      c: The Yellow Room, late afternoon. James Roosevelt and his daughter Anna with Mrs. Johnson. James Roosevelt says he will go before the Commission to prevent acceptance of the proposed Franklin Roosevelt memorial, the "Instant Stonehenge" of pillars, which none of the four sons likes; Mrs. Johnson dislikes it too.
+      c: The Yellow Room, late afternoon. Representative James Roosevelt and his daughter Anna with Mrs. Johnson. Roosevelt
+        says he will go before the Commission to prevent acceptance of the proposed Franklin Roosevelt memorial, the "Instant
+        Stonehenge" of pillars, which none of the four sons likes; Mrs. Johnson dislikes it too.
       n: '[[w.johnson-white-house-diary]], 179–80 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, James Roosevelt.'
       tags:
       - name:johnson-lady-bird
@@ -2251,7 +2081,8 @@ ops:
       when: July 17
       date: '1964-07-17'
       thread: white-house
-      c: The White House. Mrs. Johnson presents the one millionth copy of the White House guidebook to a tourist family at the entrance desk, before cameras and reporters; photographs in the Rose Garden.
+      c: The White House. Mrs. Johnson presents the one millionth copy of the White House guidebook to a tourist family at
+        the entrance desk, before cameras and reporters; photographs in the Rose Garden.
       n: '[[w.johnson-white-house-diary]], 180 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
       tags:
       - name:johnson-lady-bird
@@ -2261,8 +2092,13 @@ ops:
       when: July 17
       date: '1964-07-17'
       thread: program
-      c: 'Independence, Mo. Mrs. Johnson and Lynda Bird, on a trip promised her by Truman on the flight to Athens, are taken through the Truman Library by Truman, with Mrs. Truman: original documents of each President, the State Dining Room mantel with John Adams''s inscription, the Benton mural, a replica of the Oval Office. Truman talks with school children there for several hours a day, three or four days a week in summer. Mrs. Johnson gives him a flag from Blair House. They have a soft drink at the Trumans'' house.'
-      n: '[[w.johnson-white-house-diary]], 180–82 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Truman, Lynda Bird Johnson.'
+      c: 'Independence, Mo. Mrs. Johnson and Lynda Bird, on a trip promised her by Truman on the flight to Athens, are taken
+        through the Truman Library by Truman, with Mrs. Truman: original documents of each President, the State Dining Room
+        mantel with John Adams''s inscription, the Benton mural, a replica of the Oval Office. Truman talks with school children
+        there for several hours a day, three or four days a week in summer. Mrs. Johnson gives him a flag from Blair House.
+        They have a soft drink at the Trumans'' house.'
+      n: '[[w.johnson-white-house-diary]], 180–82 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Truman, Lynda
+        Bird Johnson.'
       tags:
       - name:johnson-lady-bird
       - name:truman-harry-s
@@ -2273,15 +2109,20 @@ ops:
       when: July 17
       date: '1964-07-17'
       thread: elections-1964-johnson
-      c: Kansas City, the Muehlebach Hotel, about 6:30 p.m. Truman and Mrs. Truman have drinks with Mrs. Johnson and Lynda Bird; Truman plays Chopin; he "reiterated that he wanted to do whatever he could to help Lyndon." Johnson, uncertain at noon, has gone to the Ranch by early afternoon and asks Mrs. Johnson to come on the courier plane.
-      n: '[[w.johnson-white-house-diary]], 182–83 (Lady Bird Johnson''s account). Names: Truman, Lady Bird Johnson, Johnson.'
+      c: Kansas City, the Muehlebach Hotel, about 6:30 p.m. Truman and Mrs. Truman have drinks with Mrs. Johnson and Lynda
+        Bird; Truman plays Chopin; he "reiterated that he wanted to do whatever he could to help Lyndon."
+      n: '[[w.johnson-white-house-diary]], 182–83 (Lady Bird Johnson''s account). Names: Truman, Lady Bird Johnson, Lynda
+        Bird Johnson.'
       tags:
       - name:truman-harry-s
       - name:johnson-lady-bird
-      - name:johnson-lyndon-b
+      - name:johnson-lynda-bird
 - cite:
     id: cal.1964-07-24.elections-1964
-    item: '[[w.johnson-white-house-diary]], 183–84 (the afternoon: Johnson''s televised press conference at 3:30, which Mrs. Johnson watched from her room, Bryson Rash on his "mouse-trapping" Goldwater by saying "we will talk about Civil Rights" before Goldwater''s appointment, and "All campaigns are rough"; Johnson to leave early for his 5:30 appointment with Goldwater; not the meeting itself)'
+    item: '[[w.johnson-white-house-diary]], 183–84 (the afternoon: Johnson''s televised press conference at 3:30, which Mrs.
+      Johnson watched from her room; Bryson Rash on his having "mouse-trapped" Goldwater by saying, "Of course we will talk
+      about Civil Rights"; "All campaigns are rough"; Johnson to leave early for his 5:30 appointment with Goldwater; not
+      the meeting itself or the words of B)'
     units: '?'
 - add:
     entry:
@@ -2289,7 +2130,9 @@ ops:
       when: July 24
       date: '1964-07-24'
       thread: labor
-      c: The Mansion, after the press conference. Johnson's reception for 250 to 300 labor leaders, invited for a report on the State of the Nation, like his stag luncheons for business leaders. Late from the press conference and gone early for the 5:30 appointment with Goldwater, he is in the receiving line less than an hour.
+      c: The Mansion, after the press conference. Johnson's reception for 250 to 300 labor leaders, invited for a report on
+        the State of the Nation, like his stag luncheons for business leaders. Late from the press conference and gone early
+        for the 5:30 appointment with Goldwater, he is in the receiving line less than an hour.
       n: '[[w.johnson-white-house-diary]], 183–84 (Lady Bird Johnson''s account, from an aide). Names: Johnson, Goldwater.'
       tags:
       - name:johnson-lyndon-b
@@ -2300,8 +2143,11 @@ ops:
       when: July 24
       date: '1964-07-24'
       thread: elections-1964-vice-presidency
-      c: The White House, the small room off the Oval Office, evening. Johnson with staff discussing Vice Presidential nominees, Rusk, McNamara, Kennedy, McCarthy, Humphrey and Muskie, "the favorite guessing game of the Capitol." Mrs. Johnson takes him home to dinner at 10.
-      n: '[[w.johnson-white-house-diary]], 184 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Rusk, McNamara, Robert Kennedy, Eugene McCarthy, Humphrey, Muskie.'
+      c: The White House, the little room at Johnson's office, evening. Johnson with staff discussing Vice Presidential nominees,
+        Rusk, McNamara, Kennedy, McCarthy, Humphrey and Muskie, "the favorite guessing game of the Capitol." Mrs. Johnson
+        takes him home to dinner at 10.
+      n: '[[w.johnson-white-house-diary]], 184 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Rusk, McNamara,
+        Robert Kennedy, Eugene McCarthy, Humphrey, Muskie.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -2313,30 +2159,33 @@ ops:
       - name:muskie-edmund-s
 - cite:
     id: cal.1964-07-26.vietnam-congress
-    item: '[[w.johnson-white-house-diary]], 185 (the evening dinner at the Fulbrights'', with the Restons, the Dillons and Russell; Mrs. Johnson mentions no talk of Vietnam; she and Johnson at the table)'
-    units: '?'
+    item: '[[w.johnson-white-house-diary]], 185–86 (the evening dinner at the Fulbrights'', the Johnsons with the Restons,
+      the Dillons and Russell; Reston, back from the Republican convention: "Just one thing. Work like Hell"; Mrs. Johnson
+      with Fulbright on his *Old Myths and New Realities*, De Gaulle, China, consular and student exchanges with the Iron
+      Curtain countries; no talk of Vietnam reported)'
+    units: A
 - add:
     entry:
-      id: cal.1964-07-26.elections-1964-2
+      id: cal.1964-07-26.elections-1964-vice-presidency
       when: July 26
       date: '1964-07-26'
-      thread: elections-1964
-      c: 'Washington. Johnson and Mrs. Johnson at the Fulbrights'' for dinner, with the Restons, the Dillons and Senator Russell. Reston, back from the Republican convention, asked what he saw: "Just one thing. Work like Hell." Fulbright''s book *Old Myths and New Realities* on De Gaulle, China, and consular and student exchanges with the Iron Curtain countries.'
-      n: '[[w.johnson-white-house-diary]], 185 (Lady Bird Johnson''s account). See [[cal.1964-07-26.vietnam-congress]]. Names: Johnson, Lady Bird Johnson, Fulbright, Reston, Dillon, Russell.'
+      thread: elections-1964-vice-presidency
+      c: 'Afternoon. Eugene McCarthy on television, the Johnsons watching. Mrs. Johnson: "Handsome, humorous, but a little
+        too verbose."'
+      n: '[[w.johnson-white-house-diary]], 185 (Lady Bird Johnson''s account). Check: the program. Names: Eugene McCarthy,
+        Johnson, Lady Bird Johnson.'
       tags:
+      - name:mccarthy-eugene-j
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
-      - name:fulbright-j-william
-      - name:reston-james
-      - name:dillon-c-douglas
-      - name:russell-richard-b
 - add:
     entry:
       id: cal.1964-07-26.elections-1964-3
       when: July 26
       date: '1964-07-26'
-      thread: elections-1964
-      c: Johnson and Mrs. Johnson walk the grounds after church; at the gates Johnson invites about a hundred tourists at each to walk around the block with him.
+      thread: program
+      c: Johnson and Mrs. Johnson walk the grounds after church; at the gates Johnson invites about a hundred tourists at
+        each to walk around the block with him.
       n: '[[w.johnson-white-house-diary]], 185 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
@@ -2346,33 +2195,26 @@ ops:
       id: cal.1964-08-01.succession
       when: Aug. 1
       date: '1964-08-01'
-      thread: succession
-      c: Fort Myer Chapel. Memorial service for Senator Clair Engle, the Senate Chaplain officiating; Johnson and Mrs. Johnson in the front row. Mrs. Johnson speaks to Mrs. Engle, who has lived "a tortured year," part of it the pressure from California leaders that the Senator get out of the race.
+      thread: congress
+      c: Fort Myer Chapel. Memorial service for Senator Clair Engle, the Senate Chaplain officiating; Johnson and Mrs. Johnson
+        in the front row. Mrs. Johnson speaks to Mrs. Engle, who has lived "a tortured year," part of it the pressure from
+        California leaders that the Senator get out of the race.
       n: '[[w.johnson-white-house-diary]], 186 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Clair Engle.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
       - name:engle-clair
-- add:
-    entry:
-      id: cal.1964-08-01.states-and-cities
-      when: Aug. 1
-      date: '1964-08-01'
-      thread: states-and-cities
-      c: 'The White House, dinner for Mayor Wagner, his sons and Celebrezze and Wirtz with their wives, on the Truman Balcony. Wagner, home from Majorca: King the only leader the Negro people will listen to, with a hold Wilkins and Young lack; heavy unemployment in Harlem; 1,300 jobs promised youth, a million dollars for rat eradication; deteriorating public housing.'
-      n: '[[w.johnson-white-house-diary]], 186–87 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Wagner, Celebrezze, Wirtz, King, Wilkins, Whitney Young.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:johnson-lady-bird
-      - name:wagner-robert-f-jr
-      - name:celebrezze-anthony-j
-      - name:wirtz-w-willard
-      - name:king-martin-luther-jr
-      - name:wilkins-roy
-      - name:young-whitney-m-jr
+- cite:
+    id: cal.1964-08.elections-1964-4
+    item: '[[w.johnson-white-house-diary]], 186–87 (Saturday, Aug. 1: dinner for Wagner on the Truman Balcony with Celebrezze
+      and Wirtz and their wives; King "the only leader the Negro people will listen to," with "an emotional hold over them";
+      Harlem''s unemployment, 1,300 jobs promised youth, a million dollars for rat eradication, public housing deteriorating;
+      a review board would make police morale "drop to zero overnight"; not that King was brought in)'
+    units: B
 - cite:
     id: cal.1964-08-04.vietnam-congress-2
-    item: '[[w.johnson-white-house-diary]], 187–88 (Tuesday evening, cars through the Southwest Gate; Johnson an hour and a half with congressional leaders, the Cabinet and the Joint Chiefs; not the hour or the speakers)'
+    item: '[[w.johnson-white-house-diary]], 187–88 (Tuesday evening, cars through the Southwest Gate; Johnson an hour and
+      a half with congressional leaders, the Cabinet and the Joint Chiefs; not the hour or the speakers)'
     units: '?'
 - add:
     entry:
@@ -2380,8 +2222,10 @@ ops:
       when: Aug. 4
       date: '1964-08-04'
       thread: vietnam-tonkin
-      c: The White House, the regular Tuesday lunch of Johnson with the Secretary of Defense, the Secretary of State and McGeorge Bundy, which runs long. Bundy in the hall afterward "extraordinarily grave"; to Mrs. Johnson a "portentous answer."
-      n: '[[w.johnson-white-house-diary]], 187–88 (Lady Bird Johnson''s account; she does not give what Bundy said). Names: Johnson, McNamara, Rusk, Bundy, Lady Bird Johnson.'
+      c: The White House, the regular Tuesday lunch of Johnson with the Secretary of Defense, the Secretary of State and McGeorge
+        Bundy, which runs long. Bundy in the hall afterward "extraordinarily grave"; to Mrs. Johnson a "portentous answer."
+      n: '[[w.johnson-white-house-diary]], 187–88 (Lady Bird Johnson''s account; she does not give what Bundy said). Names:
+        Johnson, McNamara, Rusk, Bundy, Lady Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
       - name:mcnamara-robert-s
@@ -2394,33 +2238,34 @@ ops:
       when: Aug. 4
       date: '1964-08-04'
       thread: vietnam-tonkin
-      c: Evening. Johnson delays his statement on the second attack on the destroyers in the Gulf of Tonkin, first set for 7, then 8, until he has an accurate fix on where his planes are; at 10:40 he comes up to dinner with Bundy and Valenti, Reedy dropping in for dessert. One destroyer was attacked Sunday and the United States did not respond; after the second attack he ordered air action against the gunboats and their bases.
-      n: '[[w.johnson-white-house-diary]], 188 (Lady Bird Johnson''s account). Names: Johnson, Bundy, Valenti, Reedy, Lady Bird Johnson.'
+      c: Evening. Johnson delays his statement on the second attack in the Gulf of Tonkin, first talked of for 7, then 8,
+        wanting accurate information on where his planes are before word goes out; at 10:40 Mrs. Johnson brings him, Bundy
+        and Valenti over to dinner, Reedy dropping in for dessert.
+      n: '[[w.johnson-white-house-diary]], 188 (Lady Bird Johnson''s account). Names: Johnson, Bundy, Valenti, Reedy, Lady
+        Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
       - name:bundy-mcgeorge
       - name:valenti-jack
       - name:reedy-george-e
       - name:johnson-lady-bird
-- add:
-    entry:
-      id: cal.1964-08-04.vietnam-tonkin-11
-      when: Aug. 4
-      date: '1964-08-04'
-      thread: vietnam-tonkin
-      c: 'After 11 p.m., after word from the Defense Department that the planes had been launched and Hanoi knew it, Johnson''s televised statement: "Yet our response, for the present, will be limited and fitting ... We still seek no wider war." Stevenson to take the matter to the Security Council; the congressional leaders asked for a resolution; "firmness in the right is indispensable today for peace." Mrs. Johnson: "an excellent statement."'
-      n: '[[w.johnson-white-house-diary]], 188–89 (Lady Bird Johnson''s account; the hour is hers, "after 11"). Check: the hour. Names: Johnson, Stevenson, Lady Bird Johnson.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:stevenson-adlai-e
-      - name:johnson-lady-bird
+- cite:
+    id: cal.1964-08-04.vietnam
+    item: '[[w.johnson-white-house-diary]], 187–89 (word that two destroyers were attacked by North Vietnamese PT boats, one
+      on Sunday unanswered; Johnson ordered air action against the gunboats and their bases; after 11 p.m. on the air: "limited
+      and fitting," "We still seek no wider war," Stevenson to the Security Council, a resolution asked of Congress; not the
+      hour, the ships'' names or the NSC)'
+    units: E, G
 - add:
     entry:
       id: cal.1964-08-06.civil-disorders
       when: Aug. 6
       date: '1964-08-06'
       thread: civil-disorders
-      c: 'The White House bedroom, morning. Mayor Daley of Chicago with Johnson in bed and Mrs. Johnson, over coffee, on how he would meet a race riot in Chicago: no steel helmets, caps only, so that each policeman looks "like the friend down the block"; year-round meetings with the press, television, Negro leaders, white businessmen and churches. Mrs. Johnson on television and newspapers egging on trouble.'
+      c: 'The White House bedroom, morning. Mayor Daley of Chicago with Johnson in bed and Mrs. Johnson, over coffee, on how
+        he would meet a race riot in Chicago: no steel helmets, caps only, so that each policeman looks "like the friend down
+        the block"; year-round meetings with the press, television, Negro leaders, white businessmen and churches. Mrs. Johnson
+        on television and newspapers egging on trouble.'
       n: '[[w.johnson-white-house-diary]], 189 (Lady Bird Johnson''s account). Names: Daley, Johnson, Lady Bird Johnson.'
       tags:
       - name:daley-richard-j
@@ -2428,27 +2273,25 @@ ops:
       - name:johnson-lady-bird
 - cite:
     id: cal.1964-08-06.vietnam-2
-    item: '[[w.johnson-white-house-diary]], 189–90 (the welcoming ceremony a little past 11 in the Rose Garden, without military pomp; U Thant an hour with Johnson, then a tour of the flower gardens with Mrs. Johnson, followed by Johnson and Stevenson; not the twenty minutes alone or the others present)'
+    item: '[[w.johnson-white-house-diary]], 189–91 (the welcome a little past 11 in the Rose Garden, without military pomp;
+      U Thant an hour in conference with Johnson; then a tour of the flower gardens with Mrs. Johnson, Johnson and Stevenson
+      following; the State dinner, the gifts, Ranger VII photographs and an 1829 letter of Andrew Jackson, and a Burmese silver
+      service; Johnson presents Fulbright, Dirksen, Stevenson and Lodge before his toast; not the twenty minutes alone, the
+      others present or the toast''s words)'
     units: '?'
 - add:
     entry:
-      id: cal.1964-08-06.europe-and-the-alliance
+      id: cal.1964-08-06.vietnam-4
       when: Aug. 6
       date: '1964-08-06'
-      thread: europe-and-the-alliance
-      c: 'The White House, State dinner for U Thant. Gifts: moon photographs from Ranger VII and an 1829 letter of Andrew Jackson; from U Thant a Burmese silver tea and coffee service. Stevenson, Rusk, McNamara, the Dukes, the Bunches and the Lodges in the Yellow Room. Johnson''s toast names two Republicans and two Democrats as outstanding: Fulbright, Dirksen, Stevenson and Lodge. He talks long and seriously with the Burmese ambassador and U Thant across the two wives; leaves early to talk with Rusk and Bundy.'
-      n: '[[w.johnson-white-house-diary]], 190–91 (Lady Bird Johnson''s account; she thinks it "probably the last one during our tenure"). Names: Johnson, Lady Bird Johnson, U Thant, Stevenson, Rusk, McNamara, Duke, Lodge, Fulbright, Dirksen, Bundy.'
+      thread: vietnam
+      c: After the State dinner for U Thant. Johnson leaves at the earliest respectable hour after his guest of honor to talk
+        over "the latest developments" with Rusk and Bundy.
+      n: '[[w.johnson-white-house-diary]], 191 (Lady Bird Johnson''s account). See [[cal.1964-08-06.vietnam-2]]. Names: Johnson,
+        Rusk, Bundy.'
       tags:
       - name:johnson-lyndon-b
-      - name:johnson-lady-bird
-      - name:u-thant
-      - name:stevenson-adlai-e
       - name:rusk-dean
-      - name:mcnamara-robert-s
-      - name:duke-angier-b
-      - name:lodge-henry-cabot
-      - name:fulbright-j-william
-      - name:dirksen-everett
       - name:bundy-mcgeorge
 - add:
     entry:
@@ -2456,47 +2299,69 @@ ops:
       when: Aug. 6
       date: '1964-08-06'
       thread: governors
-      c: Governor and Mrs. Pat Brown of California, the John Daltons of Missouri and the Matthew Welshes of Indiana arrive as the Johnsons' houseguests.
-      n: '[[w.johnson-white-house-diary]], 190 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Welsh.'
+      c: Governor and Mrs. Pat Brown of California, the John Daltons of Missouri and the Matthew Welshes of Indiana arrive
+        as the Johnsons' houseguests.
+      n: '[[w.johnson-white-house-diary]], 190 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Brown, Dalton, Welsh.'
       tags:
       - name:johnson-lady-bird
+      - name:brown-edmund-g
+      - name:dalton-john-m
       - name:welsh-matthew-e
+- add:
+    entry:
+      id: cal.1964-08-25.transition-and-staff-nsc
+      when: Aug. 25
+      date: '1964-08-25'
+      thread: transition-and-staff-nsc
+      c: The White House, about 1 p.m. Johnson lunches with Rusk, McNamara and Bundy.
+      n: '[[w.johnson-white-house-diary]], 192 (Lady Bird Johnson''s account; the subject not given). Names: Johnson, Rusk,
+        McNamara, Bundy.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:rusk-dean
+      - name:mcnamara-robert-s
+      - name:bundy-mcgeorge
 - add:
     entry:
       id: cal.1964-08-25.elections-1964-johnson
       when: Aug. 25
       date: '1964-08-25'
       thread: elections-1964-johnson
-      c: Johnson lunches with Rusk, McNamara and Bundy at about one, then sits alone in his room with the shades drawn, making many telephone calls. He does not believe he should accept the nomination or go to Atlantic City; he and Mrs. Johnson talk of it.
-      n: '[[w.johnson-white-house-diary]], 192 (Lady Bird Johnson''s account; Mrs. Johnson was working on remarks for a press brunch at the convention). See [[cal.1964-08-25.elections-1964-2]]. Names: Johnson, Lady Bird Johnson, Rusk, McNamara, Bundy.'
+      c: 'The White House, the afternoon. Johnson alone in his room with the shades drawn, not sleeping, making many telephone
+        calls; to Mrs. Johnson "the same old refrain": he does not believe he should accept the nomination; he does not want
+        to go to Atlantic City.'
+      n: '[[w.johnson-white-house-diary]], 192 (Lady Bird Johnson''s account). See [[cal.1964-08-25.elections-1964-2]]. Names:
+        Johnson, Lady Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
-      - name:rusk-dean
-      - name:mcnamara-robert-s
-      - name:bundy-mcgeorge
-- add:
-    entry:
-      id: cal.1964-08-25.elections-1964-johnson-2
-      when: Aug. 25
-      date: '1964-08-25'
-      thread: elections-1964-johnson
-      c: 'That afternoon Mrs. Johnson, after a long talk with Lynda Bird on the South grounds, writes Johnson a note: "You are as brave a man as Harry Truman—or FDR—or Lincoln ... To step out now would be wrong for your country, and I can see nothing but a lonely wasteland for your future." Signed "Bird."'
-      n: '[[w.johnson-white-house-diary]], 192 (Lady Bird Johnson''s account, quoting the letter in full; her answer, she writes, came on the night of Aug. 27 with his acceptance). See [[cal.1964-08-25.elections-1964-2]]. Names: Lady Bird Johnson, Johnson, Truman.'
-      tags:
-      - name:johnson-lady-bird
-      - name:johnson-lyndon-b
-      - name:truman-harry-s
+- cite:
+    id: cal.1964-08-25.elections-1964-2
+    item: '[[w.johnson-white-house-diary]], 192 (her letter of that afternoon, "Personal," in full: "You are as brave a man
+      as Harry Truman—or FDR—or Lincoln ... To step out now would be wrong for your country, and I can see nothing but a lonely
+      wasteland for your future ... I know it''s only *your* choice"; signed "Bird"; after a talk with Lynda Bird on the South
+      grounds; the answer, she writes, his acceptance on the night of Aug. 27; not the statement or its readers)'
+    units: C-D
+- cite:
+    id: cal.1964-08-27.elections-1964-2
+    item: '[[w.johnson-white-house-diary]], 192 (Johnson accepts the nomination before the convention on the night of Aug.
+      27, "the answer to my letter"; not the words)'
+    units: '?'
 - add:
     entry:
       id: cal.1964-09-04.elections-1964-vice-presidency
       when: Sept. 4
       date: '1964-09-04'
       thread: elections-1964-vice-presidency
-      c: The White House. Abigail McCarthy, wife of Senator Eugene McCarthy, comes for coffee with Mrs. Johnson to say that Johnson's choice of Humphrey for Vice President makes no difference to their friendship; Mrs. Johnson notes a week of strain among their friends and promoters, and resolves to remind both McCarthys how much they are valued.
-      n: '[[w.johnson-white-house-diary]], 193–94 (Lady Bird Johnson''s account). Check: the day, the diary heading having Sept. 4. Names: Lady Bird Johnson, Humphrey, Johnson.'
+      c: The White House. Abigail McCarthy, wife of Senator Eugene McCarthy, comes for coffee with Mrs. Johnson to say that
+        Johnson's choice of Humphrey for Vice President makes no difference to their friendship, or to hers with the Humphreys;
+        Mrs. Johnson notes a week of strain among their friends and promoters, and means to remind both McCarthys how much
+        they are valued.
+      n: '[[w.johnson-white-house-diary]], 193–94 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Eugene McCarthy,
+        Humphrey, Johnson.'
       tags:
       - name:johnson-lady-bird
+      - name:mccarthy-eugene-j
       - name:humphrey-hubert-h
       - name:johnson-lyndon-b
 - add:
@@ -2505,66 +2370,92 @@ ops:
       when: Sept. 4
       date: '1964-09-04'
       thread: elections-1964-johnson
-      c: The White House, 11:30 a.m., three hours. Mrs. Johnson with Carpenter, Bess Abell, Scooter Miller, Woodward, Joe Moran of the advance men, White House transportation men and Dewey Long, who arranged Truman's 1948 whistle-stop, plan her whistle-stop train trip. They cut a ten-day, fourteen-State plan to four days; end it in New Orleans, not Tallahassee, at Bill Brawley's urging as head of the Democratic National Committee's Southern campaign; more stops in North Carolina and Virginia, and Georgia.
-      n: '[[w.johnson-white-house-diary]], 194 (Lady Bird Johnson''s account). See [[cal.1964-09.elections-1964-5]]. Names: Lady Bird Johnson, Carpenter, Truman.'
+      c: The White House, 11:30 a.m., three hours. Mrs. Johnson with Carpenter, Bess Abell, Scooter Miller, Woodward, Joe
+        Moran of the advance men, White House transportation men and Dewey Long, who arranged Truman's 1948 whistle-stop,
+        plan her whistle-stop train trip. They cut a ten-day, fourteen-State plan to four days; end it in New Orleans, not
+        Tallahassee, at Bill Brawley's urging as head of the Democratic National Committee's Southern campaign; more stops
+        in North Carolina and Virginia, and Georgia.
+      n: '[[w.johnson-white-house-diary]], 194 (Lady Bird Johnson''s account). See [[cal.1964-09.elections-1964-5]]. Names:
+        Lady Bird Johnson, Carpenter, Truman.'
       tags:
       - name:johnson-lady-bird
       - name:carpenter-liz
       - name:truman-harry-s
 - cite:
     id: cal.1964-09.elections-1964-5
-    item: '[[w.johnson-white-house-diary]], 195–98 (Sept. 11: Mrs. Johnson''s telephone calls to the Governors and Senators of the States on the train route: Byrd, his "invisible silken curtain"; Thurmond, a decision to make within two weeks; Russell, no, but advance men; and the acceptances and refusals of Harrison, Sanford, Ervin, Jordan, Olin Johnston, Donald Russell, Talmadge, Sanders, Holland, Smathers, Bryant, Hill, Sparkman, Ellender; the refusals of Robertson, Stennis, McKeithen)'
-    units: '?'
-- check:
-    id: cal.1964-09.elections-1964-5
-    text: 'Check: Lady Bird Johnson, 195–98, dates the calls Friday, Sept. 11, 1964, and has Byrd say that because of Mrs. Byrd''s death he and his sons would take no part in public affairs for some time; the entry has Byrd''s "invisible silken curtain" without the day.'
+    item: '[[w.johnson-white-house-diary]], 195–98 (Friday, Sept. 11: her telephone calls to the Governors and Senators of
+      the States on the train''s route; Byrd, "an invisible silken curtain fell across his voice," no public affairs since
+      Mrs. Byrd''s death; Thurmond, "a really basic decision within the next two weeks"; Russell, no, but glad to lend one
+      or two advance men from his staff; the acceptances and refusals of Harrison, Sanford, Ervin, Jordan, Olin Johnston,
+      Donald Russell, Talmadge, Sanders, Holland, Smathers, Bryant, Hill, Sparkman, Ellender, Robertson, Stennis, McKeithen;
+      the Moores, Burns and Eastland not reached)'
+    units: A, B, D
 - add:
     entry:
       id: cal.1964-09-11.elections-1964-johnson
       when: Sept. 11
       date: '1964-09-11'
       thread: elections-1964-johnson
-      c: The Yellow Oval Room, afternoon. Mrs. Johnson has the Cabinet wives to tea, Mrs. Rusk, Mrs. McNamara, Mrs. Gronouski, Mrs. Udall, Mrs. Freeman, Mrs. Wirtz, Mrs. Celebrezze and Mrs. Katzenbach, with Muriel Humphrey's press secretary and Margaret Price, Carrie Davis and Scooter Miller of the Democratic National Committee, on what the wives can do in the seven weeks of the campaign and who shall fill the invitations she must refuse. Freeman and Celebrezze the most active.
+      c: The Yellow Oval Room, afternoon. Mrs. Johnson has the Cabinet wives to tea, Mrs. Rusk, Mrs. McNamara, Mrs. Gronouski,
+        Mrs. Udall, Mrs. Freeman, Mrs. Wirtz, Mrs. Celebrezze and Mrs. Katzenbach, with Muriel Humphrey's press secretary
+        and Margaret Price, Carrie Davis and Scooter Miller of the Democratic National Committee, on what the wives can do
+        in the seven weeks of the campaign and who shall fill the invitations she must refuse. Freeman and Celebrezze the
+        most active.
       n: '[[w.johnson-white-house-diary]], 197–98 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
       tags:
       - name:johnson-lady-bird
 - cite:
     id: cal.1964-10-06.elections-1964
-    item: '[[w.johnson-white-house-diary]], 198–99 (the whistle-stop through the South, "forty-seven stops in four days"; a woman at a North Carolina stop who milked twenty cows to be at the train; Mrs. Johnson kept no diary of the campaign; not the dates or the route)'
-    units: '?'
+    item: '[[w.johnson-white-house-diary]], 194, 198–99 (written later: "forty-seven stops in four days"; a woman at a North
+      Carolina stop, "was it Ahoskie?", milked twenty cows to be at the train; she kept no diary of the campaign; planned
+      Sept. 4 to begin in Washington and end in New Orleans, 194; the plate after 182: "''Lady Bird Special'' in Virginia
+      during the Whistlestop campaign through the South, October 6-9"; not Alexandria, the days'' stops or Johnson at New
+      Orleans)'
+    units: A
 - add:
     entry:
       id: cal.1964-11-14.poverty
       when: Nov. 14
       date: '1964-11-14'
-      thread: poverty
-      c: 'The LBJ Ranch. Celebrezze and Wirtz confer with Johnson in the morning, the fifth and sixth Cabinet members in eleven days after the campaign. Celebrezze, whom columns say will leave the Cabinet, would like a judgeship; Wirtz speaks of 3.5 million youths turning eighteen next year, a million more than this, of whom one in seven will meet a closed job or college door: "Operation Birthright." Both leave about noon for a press conference in Austin.'
-      n: '[[w.johnson-white-house-diary]], 199–200 (Lady Bird Johnson''s account; she talked with Wirtz while Johnson saw Celebrezze). Names: Johnson, Lady Bird Johnson, Celebrezze, Wirtz.'
+      thread: transition-and-staff-cabinet
+      c: 'The LBJ Ranch, the morning. Celebrezze confers with Johnson, with Wirtz the fifth and sixth Cabinet members there
+        in the eleven days since the campaign. To Mrs. Johnson: hurt by columns saying he is leaving the Cabinet; he wants
+        a judgeship when one opens; his department''s budget to rise next year, with Johnson''s blessing, for the new education
+        aid.'
+      n: '[[w.johnson-white-house-diary]], 199–200 (Lady Bird Johnson''s account). Names: Celebrezze, Johnson, Lady Bird Johnson.'
       tags:
+      - name:celebrezze-anthony-j
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
-      - name:celebrezze-anthony-j
+- add:
+    entry:
+      id: cal.1964-11-14.jobs-and-wages
+      when: Nov. 14
+      date: '1964-11-14'
+      thread: jobs-and-wages
+      also:
+      - poverty
+      c: 'The LBJ Ranch, the morning. Wirtz confers with Johnson. To Mrs. Johnson: 3.5 million turning eighteen next year,
+        a million more than this; one in seven to find "a door slammed in his face—a job door or a college door"; 200,000
+        without a college place, 300,000 without jobs for want of training. His program: "Operation Birthright."'
+      n: '[[w.johnson-white-house-diary]], 199–200 (Lady Bird Johnson''s account). See [[cal.1964-11-14.poverty]]. Names:
+        Wirtz, Johnson, Lady Bird Johnson.'
+      tags:
       - name:wirtz-w-willard
+      - name:johnson-lyndon-b
+      - name:johnson-lady-bird
 - add:
     entry:
       id: cal.1964-11-14.transition-and-staff-cabinet
-      when: Nov. 14
+      when: Nov. 14–15
       date: '1964-11-14'
       thread: transition-and-staff-cabinet
-      c: 'The Ranch, arrivals from New York: Frank Stanton of C.B.S., Donald Cook of American Electric Power Service, Thomas Watson of I.B.M. and Ed Weisl, with Eddie Weisl Jr., who stay overnight with Johnson.'
-      n: '[[w.johnson-white-house-diary]], 200 (Lady Bird Johnson''s account). Names: Johnson, Stanton, Don Cook.'
-      tags:
-      - name:johnson-lyndon-b
-      - name:stanton-frank
-      - name:cook-donald-c
-- add:
-    entry:
-      id: cal.1964-11-15.transition-and-staff-cabinet
-      when: Nov. 15
-      date: '1964-11-15'
-      thread: transition-and-staff-cabinet
-      c: 'The Ranch, breakfast. Johnson asks Watson to be Secretary of Commerce in place of Hodges; Cook he hopes will accept a Cabinet place; Stanton he would like to have in the Cabinet. Mrs. Johnson thinks Stanton will not leave his business. Cook to her at the airport: "We''ll find them. We''ll have to find a way." Johnson tells her his bet is that none of the three will accept.'
-      n: '[[w.johnson-white-house-diary]], 201–02 (Lady Bird Johnson''s account; she does not say Watson accepted or refused). Names: Johnson, Lady Bird Johnson, Stanton, Don Cook, Hodges.'
+      c: The LBJ Ranch, Weisl, Frank Stanton of C.B.S., Donald Cook of American Electric Power Service and Thomas Watson of
+        I.B.M. with Johnson for the weekend. Johnson is asking Watson to be Secretary of Commerce in Hodges's place, hopes
+        Cook will accept a place in the Cabinet, would love to have Stanton in it. Later he tells Mrs. Johnson his bet is
+        that none of the three will accept.
+      n: '[[w.johnson-white-house-diary]], 200–02 (Lady Bird Johnson''s account; she does not say what any of them answered).
+        Names: Johnson, Lady Bird Johnson, Stanton, Don Cook, Hodges.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -2573,11 +2464,28 @@ ops:
       - name:hodges-luther-h
 - add:
     entry:
+      id: cal.1964-11-15.transition-and-staff-cabinet
+      when: Nov. 15
+      date: '1964-11-15'
+      thread: transition-and-staff-cabinet
+      c: 'The Ranch airstrip, about 2 p.m. Mrs. Johnson to Cook, leaving: she hopes he will take the Cabinet post. Cook: "This
+        is the capstone of his career" (Johnson''s); she: "we can''t make the four years really first-class, unless we''ve
+        got some good troops"; Cook: "We''ll find them. We''ll have to find a way."'
+      n: '[[w.johnson-white-house-diary]], 202 (Lady Bird Johnson''s account). See [[cal.1964-11-14.transition-and-staff-cabinet]].
+        Names: Lady Bird Johnson, Don Cook, Johnson.'
+      tags:
+      - name:johnson-lady-bird
+      - name:cook-donald-c
+      - name:johnson-lyndon-b
+- add:
+    entry:
       id: cal.1964-11-15.succession
       when: Nov. 15
       date: '1964-11-15'
-      thread: succession
-      c: 'The White House lawn, 6:30 p.m. Johnson and Mrs. Johnson return from Texas, their first since the election, met by the Cabinet and their wives with Rusk at the foot of the steps, and 200 or 300 of the staff and families: "Congratulations! Welcome home!"'
+      thread: program
+      c: 'The White House lawn, 6:30 p.m. Johnson and Mrs. Johnson return from Texas, their first since the election, met
+        by the Cabinet and their wives with Rusk at the foot of the steps, and 200 or 300 of the staff and families: "Congratulations!
+        Welcome home!"'
       n: '[[w.johnson-white-house-diary]], 202–03 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Rusk.'
       tags:
       - name:johnson-lyndon-b
@@ -2589,7 +2497,9 @@ ops:
       when: Nov. 15
       date: '1964-11-15'
       thread: transition-and-staff
-      c: 'The State Department, evening. Party for Walter Heller, who leaves the Council of Economic Advisers for the University of Minnesota, given by the Cabinet and top officials. Heller: "We have had two perceptive and restless Presidents, who realize the economy''s potential"; "I have Potomac Fever."'
+      c: 'The State Department, evening. Party for Walter Heller, who leaves the Council of Economic Advisers for the University
+        of Minnesota, given by the Cabinet and top officials. Heller: "We have had two perceptive and restless Presidents,
+        who realize the economy''s potential"; "I have Potomac Fever."'
       n: '[[w.johnson-white-house-diary]], 203 (Lady Bird Johnson''s account). Names: Heller, Johnson, Lady Bird Johnson.'
       tags:
       - name:heller-walter-w
@@ -2610,8 +2520,10 @@ ops:
       id: cal.1964-11-17.transition-and-staff
       when: Nov. 17
       date: '1964-11-17'
-      thread: transition-and-staff
-      c: Mrs. Johnson calls on Walter Jenkins and Mrs. Jenkins, who are going home to Texas. Jenkins is, she writes, a casualty of exhaustion; a barrage of mail from the public has come to him, and friends offer jobs.
+      thread: elections-1964-jenkins
+      c: 'Mrs. Johnson calls on Walter Jenkins and Mrs. Jenkins, who are going home to Texas: to her, Jenkins "as much a casualty
+        of the incredible hours and burdens he has carried in government service as a soldier in action"; a barrage of mail
+        from the public; friends offering jobs.'
       n: '[[w.johnson-white-house-diary]], 204 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Walter Jenkins.'
       tags:
       - name:johnson-lady-bird
@@ -2622,7 +2534,9 @@ ops:
       when: Nov. 17
       date: '1964-11-17'
       thread: program
-      c: The White House second floor. Mary Lasker with Mrs. Johnson on giving the Inaugural ceremonies more style and flair, perhaps a march or a symphony written for the occasion; she suggests an entertainment at the White House for the committee of the Kennedy Cultural Center.
+      c: The White House second floor. Mary Lasker with Mrs. Johnson on giving the Inaugural ceremonies more style and flair,
+        perhaps a march or a symphony written for the occasion; she suggests an entertainment at the White House for the committee
+        of the Kennedy Cultural Center.
       n: '[[w.johnson-white-house-diary]], 205 (Lady Bird Johnson''s account). Names: Lady Bird Johnson.'
       tags:
       - name:johnson-lady-bird
@@ -2632,7 +2546,8 @@ ops:
       when: Nov. 17
       date: '1964-11-17'
       thread: transition-and-staff
-      c: The State Department, farewell reception for Ralph Dungan, leaving to be Ambassador to Chile. Johnson and Mrs. Johnson stay about thirty minutes, Johnson in no hurry to leave.
+      c: The State Department, farewell reception for Ralph Dungan, leaving to be Ambassador to Chile. Johnson and Mrs. Johnson
+        stay about thirty minutes, Johnson in no hurry to leave.
       n: '[[w.johnson-white-house-diary]], 205 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Dungan.'
       tags:
       - name:johnson-lyndon-b
@@ -2643,9 +2558,12 @@ ops:
       id: cal.1964-11-17.white-house
       when: Nov. 17
       date: '1964-11-17'
-      thread: white-house
-      c: 'The White House, 9 p.m. Johnson''s surprise party for Mrs. Johnson''s thirtieth wedding anniversary: the Fortases, the Alsops, the Carpenters, Justice Tom Clark and Mrs. Clark, Corcoran, Katharine Graham, the Valentis, the Tyler Abells. Gifts; a thirty-pound wedding cake; toasts. Mrs. Johnson''s toast to "happiness" and "pedestrian courage."'
-      n: '[[w.johnson-white-house-diary]], 205–07 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Fortas, Tom Clark, Valenti.'
+      thread: program
+      c: 'The White House, 9 p.m. Johnson''s surprise party for Mrs. Johnson''s thirtieth wedding anniversary: the Fortases,
+        the Alsops, the Carpenters, Justice Tom Clark and Mrs. Clark, Corcoran, Katharine Graham, the Valentis, the Tyler
+        Abells. Gifts; a thirty-pound wedding cake; toasts. Mrs. Johnson''s toast to "happiness" and "pedestrian courage."'
+      n: '[[w.johnson-white-house-diary]], 205–07 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Fortas,
+        Tom Clark, Valenti.'
       tags:
       - name:johnson-lyndon-b
       - name:johnson-lady-bird
@@ -2658,7 +2576,9 @@ ops:
       when: Nov. 21
       date: '1964-11-21'
       thread: farm
-      c: The LBJ Ranch. Richard Juhl and a party of eleven from Iowa, including the presidents of the National Swinegrowers' Association and the Iowa Farm Brokers' Association and two farm editors, drive 1,600 miles to present Johnson with a Yorkshire boar; photographs with Freeman, a house guest. Johnson takes them over the Ranch and keeps them to lunch.
+      c: The LBJ Ranch. Richard Juhl and a party of eleven from Iowa, including the presidents of the National Swinegrowers'
+        Association and the Iowa Farm Brokers' Association and two farm editors, drive 1,600 miles to present Johnson with
+        a Yorkshire boar; photographs with Freeman, a house guest. Johnson takes them over the Ranch and keeps them to lunch.
       n: '[[w.johnson-white-house-diary]], 206–08 (Lady Bird Johnson''s account). Names: Johnson, Freeman, Lady Bird Johnson.'
       tags:
       - name:johnson-lyndon-b
@@ -2670,7 +2590,8 @@ ops:
       when: Nov. 21
       date: '1964-11-21'
       thread: farm
-      c: 'The Ranch, lunch. Freeman to Mrs. Johnson on why the Department of Agriculture grows while farm population falls to 8 percent: consumer inspection and grading, research, and forestry.'
+      c: 'The Ranch, lunch. Freeman to Mrs. Johnson on why the Department of Agriculture grows while farm population falls
+        to 8 percent: consumer inspection and grading, research, and forestry.'
       n: '[[w.johnson-white-house-diary]], 208–09 (Lady Bird Johnson''s account). Names: Freeman, Lady Bird Johnson.'
       tags:
       - name:freeman-orville-l
