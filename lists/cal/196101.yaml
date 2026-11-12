@@ -1854,13 +1854,14 @@ entries:
     date: '1961-01-21'
     thread: farm
     c: 'Executive Order 10914, the first: the federal surplus food given some four million needy people doubled.'
-    n: '[Executive Order 10914](https://www.presidency.ucsb.edu/documents/executive-order-10914-providing-for-expanded-program-food-distribution-needy-families) (Jan. 21, 1961). [[w.schlesinger-thousand-days-1965]], 166. [[w.sorensen-kennedy]], 248. Names: Kennedy.'
+    n: '[Executive Order 10914](https://www.presidency.ucsb.edu/documents/executive-order-10914-providing-for-expanded-program-food-distribution-needy-families) (Jan. 21, 1961). [[w.schlesinger-thousand-days-1965]], 166; [[w.salinger-with-kennedy]], 124 (Kennedy''s first act as President an order doubling the surplus food ration and extending it to areas of high unemployment; four million beneficiaries by the Agriculture specialist''s count; not the order''s number). [[w.sorensen-kennedy]], 248. Names: Kennedy.'
     src:
       c: e1f77824
       rows:
         - 'https://www.presidency.ucsb.edu/documents/executive-order-10914-providing-for-expanded-program-food-distribution-needy-families: all'
         - 'w.schlesinger-thousand-days-1965 166: A'
         - 'w.sorensen-kennedy 248: all'
+        - 'w.salinger-with-kennedy 124: ?'
     tags: [name:kennedy-john-f]
     short: the surplus food doubled
     time_range:
@@ -1971,6 +1972,14 @@ entries:
     c: 'The White House, Saturday morning. Truman, the first visitor of Kennedy''s presidency, calls on him, his first visit since leaving the house eight years before. Truman to the photographers in the West Wing lobby: Kennedy would be a President who would allow them "the one more picture" they always ask; "I heard the other fellow wouldn''t stand for it."'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 283 (O''Donnell''s and Powers''s account). Names: Truman, Kennedy.'
     tags: [name:truman-harry-s, name:kennedy-john-f]
+  - id: cal.1961-01-21.press-and-broadcasting
+    when: Jan. 21
+    date: '1961-01-21'
+    thread: press-and-broadcasting
+    also: [farm]
+    c: Salinger's first briefing as Press Secretary, on the order doubling the surplus food ration. An Agriculture specialist gives the cost as $36 million a month, $9 for each of four million beneficiaries; two hours later he finds the $9 is for a family of four, and Salinger gives the press $9 million. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 124. See [[cal.1961-01-21.farm]]. Names: Salinger.'
+    tags: [name:salinger-pierre]
   - id: cal.1961-01-22.opinion
     when: Jan. 22
     date: '1961-01-22'
@@ -2110,6 +2119,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-01-23.press-and-broadcasting-2
+    when: Jan. 23
+    date: '1961-01-23'
+    thread: press-and-broadcasting
+    also: [defense, soviet-union]
+    c: An aide of Admiral Burke brings Salinger the Chief of Naval Operations' speech for that week, hostile to the Soviet Union. Salinger takes the draft to Sorensen and Bundy, who agree Burke should tone it down, the RB-47 fliers' release pending; the President is not told. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 136 (the day: "just three days after the Inaugural"; Burke later softens it, and a leak from his staff says the White House is muzzling the military). Names: Burke, Salinger, Sorensen, Bundy.'
+    tags: [name:salinger-pierre, name:burke-arleigh-a, name:sorensen-theodore-c, name:bundy-mcgeorge]
   - id: cal.1961-01-24.states-and-cities-us
     when: Jan. 24
     date: '1961-01-24'
@@ -2280,6 +2297,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-01-24.soviet-union
+    when: Jan. 24
+    date: '1961-01-24'
+    thread: soviet-union
+    also: [press-and-broadcasting]
+    c: 'David Wise of the *New York Herald Tribune* telephones Salinger: the Soviets will free Captains Olmstead and McKone. Salinger says the story is correct and its early publication could end the deal; Wise speaks to Jock Whitney, and the *Tribune* holds it. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 140–41 (the day: "the night before" the first press conference). See [[cal.1961-01-25.press-and-broadcasting]]. Names: Salinger, Whitney.'
+    tags: [name:salinger-pierre, name:whitney-john-h]
   - id: cal.1961-01-25.press-and-broadcasting
     when: Jan. 25
     date: '1961-01-25'
@@ -2287,7 +2312,7 @@ entries:
     thread: press-and-broadcasting
     also: [soviet-union, testing, congo, foreign-aid, cuba]
     c: 'First presidential press conference carried live, from the State Department auditorium. Announces the Soviet release of the two surviving RB-47 fliers. The Geneva test ban negotiations, due early in February, to be put off to late March for a clear American position; McCloy''s panel of experts under Fisk of the Bell Laboratories to recommend it. The American contribution to relieve the famine in the Congo much increased: more corn meal and dry milk, rice, and an airlift of a thousand tons of food, seeds and hospital supplies from African nations; the Congo''s emergency needs from surplus stocks to be met in full. Relations with Cuba: none being considered; the concern is with such movements "seized by external forces" and turned to an ideology "alien to this hemisphere."'
-    n: 'News Conference, [1961 Pub. Papers 8](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=66). The film is at the JFK Library (K–J Adm. II.K). [[w.sorensen-kennedy]], 541 (the RB-47 fliers'' release announced). [[w.sorensen-kennedy]], 617 (the special group to prepare a new bargaining position and a draft treaty). [[w.sorensen-kennedy]], 636 (the first move, in the first week: the emergency airlift). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 175 (Cuba). To check: [[w.kennedy-and-the-press]]; [[w.watson-expanding-vista]]. Check: Dobrynin has Washington''s official note of Jan. 24 confirming the President''s order that American planes not enter Soviet airspace (44). See [[cal.1961-01-20.soviet-union]]. Names: Kennedy, McCloy.'
+    n: 'News Conference, [1961 Pub. Papers 8](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=66). The film is at the JFK Library (K–J Adm. II.K). [[w.sorensen-kennedy]], 541 (the RB-47 fliers'' release announced); [[w.salinger-with-kennedy]], 138, 140–41 (the first press conference, the first on live television, in the State Department auditorium; the top story the release of Olmstead and McKone, free five hours; Kennedy afterward: "How many people do you think saw it?"; the audience 60 million; not the other business). [[w.sorensen-kennedy]], 617 (the special group to prepare a new bargaining position and a draft treaty). [[w.sorensen-kennedy]], 636 (the first move, in the first week: the emergency airlift). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 175 (Cuba). To check: [[w.kennedy-and-the-press]]; [[w.watson-expanding-vista]]. Check: Dobrynin has Washington''s official note of Jan. 24 confirming the President''s order that American planes not enter Soviet airspace (44). See [[cal.1961-01-20.soviet-union]]. Names: Kennedy, McCloy.'
     src:
       c: 3f9bf535
       rows:
@@ -2296,6 +2321,7 @@ entries:
         - 'w.sorensen-kennedy 617: C'
         - 'w.sorensen-kennedy 636: E-F'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 175: G-H'
+        - 'w.salinger-with-kennedy 138, 140–41: A, B'
     tags: [name:kennedy-john-f, name:mccloy-john-j]
     aliases: [cal.1961-01-25.testing, cal.1961-01-25.congo]
     short: the live press conference
@@ -2376,6 +2402,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1961-01-25.press-and-broadcasting-2
+    when: Jan. 25
+    date: '1961-01-25'
+    thread: press-and-broadcasting
+    c: 'National Press Club. Salinger: "we intend to have an open information policy within the confines of national security." Many correspondents read a forewarning of censorship; at the President''s first press conference, five hours later, a question quotes it. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 153. See [[cal.1961-01-25.press-and-broadcasting]]. Names: Salinger, Kennedy.'
+    tags: [name:salinger-pierre, name:kennedy-john-f]
   - id: cal.1961-01-26.economy
     when: Jan. 26
     date: '1961-01-26'
@@ -3375,3 +3408,17 @@ entries:
     c: 'The Oval Office, late in the month. Kennedy, holding a message from Betancourt, to Goodwin: "I''d like to get a major statement on our Latin policy soon. Next to Berlin it''s the most critical area, and will be for a long time." He will "make a big commitment"; asks if something can be ready in a month: "I don''t care if everyone agrees. You know what our thinking is." Of Cuba: "I don''t want this to be an anti-Cuban speech. Just throw Castro in with the other dictators." Goodwin to draft an answer to a telegram from Somoza saying democracy for Nicaragua is Kennedy''s hope too.'
     n: '[[w.goodwin-remembering-america]], 146–48 (Goodwin''s account). Names: Kennedy, Goodwin, Betancourt, Castro. Check: the day; "Sometime toward the end of January" (146).'
     tags: [name:kennedy-john-f, name:goodwin-richard-n, name:betancourt-romulo, name:castro-fidel]
+  - id: cal.1961-01.press-and-broadcasting-2
+    when: Jan.
+    date: 1961-01
+    thread: press-and-broadcasting
+    c: 'Washington, the Sheraton Park. Lunch of three hours with Merriman Smith, Folliard, Donovan and Brandt. Folliard: "You''re turning the presidential press conferences into a sideshow." Salinger refuses to tell them where the President goes or with whom, and to have reporters name their papers on television; agreement only on the Inaugural arrangements and the press pool. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 58–59. Check: the day (after the return to Washington the week after New Year''s). Names: Salinger.'
+    tags: [name:salinger-pierre]
+  - id: cal.1961-01.press-and-broadcasting-3
+    when: Jan.
+    date: 1961-01
+    thread: press-and-broadcasting
+    c: Lunch with Reston of the *Times*, after the Sheraton Park lunch. Reston holds the President should stop seeing his old friends in the press socially, and the press must be with him whenever he leaves the White House; Salinger will neither police the President's friends nor announce his private movements. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 59–60. Check: the day. See [[cal.1961-01.press-and-broadcasting-2]]. Names: Reston, Salinger.'
+    tags: [name:reston-james, name:salinger-pierre]

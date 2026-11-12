@@ -1746,6 +1746,14 @@ entries:
     c: 'The White House, Tuesday morning, at O''Donnell''s desk. Kennedy: "You still think that fuss about Cuba is unimportant?" O''Donnell: "Absolutely. The voters won''t give a damn about Cuba." In his office Kennedy shows him enlarged U-2 prints, a magnifying glass over one: "It''s the beginning of a launching site for a medium-range ballistic missile." "We''ve just elected Capehart in Indiana, and Ken Keating will probably be the next President of the United States. Rearrange the schedule so we can have a meeting on this in the Cabinet Room at eleven-forty-five, and not a word to anybody about what it''s all about." He is to keep all the day''s other appointments so that nothing seems unusual.'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 351–52 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Kennedy, O''Donnell, Capehart, Keating.'
     tags: [name:kennedy-john-f, name:odonnell-kenneth-p, name:capehart-homer-e, name:keating-kenneth-b, polity:cuba]
+  - id: cal.1962-10-16.missile-crisis-warnings
+    when: Oct. 16
+    date: '1962-10-16'
+    thread: missile-crisis-warnings
+    also: [press-and-broadcasting]
+    c: 'Morning. Kennedy to Salinger in his office: he will see Gromyko Thursday, who comes on his own initiative; there will be heavy traffic of Rusk, McNamara, Stevenson and the Chiefs this week, and if the press reads something into it Salinger is to deny that anything special is going on. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 249–50. Names: Kennedy, Salinger, Gromyko, Rusk, McNamara, Stevenson.'
+    tags: [name:salinger-pierre, name:kennedy-john-f, name:gromyko-andrei, name:rusk-dean, name:mcnamara-robert-s, name:stevenson-adlai-e]
   - id: cal.1962-10-17.opinion
     when: Oct. 17
     date: '1962-10-17'
@@ -2294,21 +2302,49 @@ entries:
     date: '1962-10-19'
     thread: missile-crisis-warnings
     c: 'Chicago, the Sheraton-Blackstone, evening. Salinger tells Kennedy that Robert Allen and Paul Scott are to run a column on an invasion of Cuba and that Carleton Kent of the Chicago Sun-Times asks about a parachute unit alerted for a jump on Cuba. Kennedy: "Call Kent and tell him that report is all wrong. We have no plan to invade Cuba." He has O''Donnell call McNamara to ask Allen and Scott not to print the column; O''Donnell does.'
-    n: '[[w.odonnell-johnny-we-hardly-knew]], 363 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Salinger, Kennedy, O''Donnell, McNamara.'
+    n: '[[w.odonnell-johnny-we-hardly-knew]], 363 (O''Donnell''s and Powers''s account); [[w.salinger-with-kennedy]], 250–51 (Phillips of State warns of the Allen and Scott story; Kent of the *Sun-Times* asks about the 18th Parachute Corps standing by for a jump on Cuba; Salinger goes to the President in his suite, O''Donnell with him; Kennedy has O''Donnell call McNamara "to straighten out Allen and Scott"; not that O''Donnell does). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Salinger, Kennedy, O''Donnell, McNamara.'
+    src:
+      c: 5863ea29
+      rows:
+        - 'w.odonnell-johnny-we-hardly-knew 363: ?'
+        - 'w.salinger-with-kennedy 250–51: A, B'
     tags: [name:salinger-pierre, name:kennedy-john-f, name:odonnell-kenneth-p, name:mcnamara-robert-s, polity:cuba, city:chicago]
+    variants:
+      - unit: C
+        witness: w.salinger-with-kennedy
+        reads: 'Salinger: "You call Kent right back," and "tell him he''s wrong. We are not planning to invade Cuba."'
+        at: '251'
   - id: cal.1962-10-19.missile-crisis-warnings-2
     when: Oct. 19
     date: '1962-10-19'
     thread: missile-crisis-warnings
     c: 'Chicago, the Sheraton-Blackstone, while Kennedy is at the Yates dinner at McCormick Place. Salinger presses O''Donnell to let him in on what is happening. O''Donnell: "All I can tell you now is that the President may have to develop a cold tomorrow. If he does, we''ll have to cancel the rest of the trip and go back to Washington." O''Donnell has arranged with Dick O''Hare in Washington to cancel the rest of the trip on five minutes'' notice.'
-    n: '[[w.odonnell-johnny-we-hardly-knew]], 363–64 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: O''Donnell, Salinger, Kennedy.'
+    n: '[[w.odonnell-johnny-we-hardly-knew]], 363–64 (O''Donnell''s and Powers''s account); [[w.salinger-with-kennedy]], 251 (Salinger finds O''Donnell alone in the suite after Kennedy has left for a $100-a-plate Democratic dinner at McCormick Place, Yates not named: "You''re going to have to cut me in pretty quick"). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: O''Donnell, Salinger, Kennedy.'
+    src:
+      c: 84f45374
+      rows:
+        - 'w.odonnell-johnny-we-hardly-knew 363–64: ?'
+        - 'w.salinger-with-kennedy 251: B'
     tags: [name:odonnell-kenneth-p, name:salinger-pierre, name:kennedy-john-f, polity:cuba, city:chicago]
+    variants:
+      - unit: C
+        witness: w.salinger-with-kennedy
+        reads: 'Salinger: O''Donnell: "The President may have to develop a cold somewhere along the line tomorrow. If he does, we''ll cancel out the rest of the trip and head back to Washington."'
+        at: '251'
+  - id: cal.1962-10-19.missile-crisis-warnings-3
+    when: Oct. 19
+    date: '1962-10-19'
+    thread: missile-crisis-warnings
+    also: [press-and-broadcasting]
+    c: 'Chicago, evening. Salinger cues Sylvester at the Pentagon on the President''s denial of an invasion. Sylvester: "Maybe we''re not going to invade, but something big is coming up." By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 251. See [[cal.1962-10-19.missile-crisis-warnings]]. Names: Salinger, Sylvester.'
+    tags: [name:salinger-pierre, name:sylvester-arthur, city:chicago, state:il]
   - id: cal.1962-10-20.missile-crisis
     when: Oct. 20
     date: '1962-10-20'
     thread: missile-crisis
     c: Kennedy leaves Chicago with a "cold." Quarantine chosen over air strike.
-    n: '[FRUS 1961–63, XI, doc. 34](https://history.state.gov/historicaldocuments/frus1961-63v11/d34). [[w.schlesinger-robert-kennedy-and-his]], 510–11 (the choice); [[w.fursenko-one-hell-of-a]], 234–35; [[w.rusk-as-i-saw-it-1990]], 234 (the decision; Rusk''s recommendation, McNamara''s and Johnson''s, by Rusk''s account); [[w.sorensen-kennedy]], 692–93; [[w.thomas-robert-kennedy]], 219–20 (Robert Kennedy telephones the President in Chicago; the President back, feigning a cold; the ExComm; Stevenson''s proposal; the blockade chosen); [[w.caro-passage-of-power]], 211 (Saturday, Oct. 20, the ExComm decides on the blockade, or "quarantine," over the Joint Chiefs'' call for immediate bombing; Robert Kennedy calls his brother in Chicago, who, "pleading a cold," comes home; at the White House pool the President accepts the recommendation); [[w.odonnell-johnny-we-hardly-knew]], 364–65 (Kennedy, Admiral Burkley at his bedside: "I have a temperature and a cold. Tell the press I am returning to Washington on the advice of Doctor Burkley"; his note for Salinger, "Slight upper respiratory ... Weather raw & rainy. Recommended return to Washington. Cancelled schedule"; Johnson, in Hawaii, also returned with "a cold"; 365: that afternoon in the Oval Room the President "announced and discussed his decision to put the blockade into effect during the following week"). [[w.reeves-president-kennedy]], 385–88. [[w.ball-past-has-another-pattern]], 294–95 (2:30 p.m., the Oval Office: Rusk''s handwritten summary; Kennedy for the blockade; Stevenson''s dissent). See [[cal.1962-10-16.missile-crisis]].'
+    n: '[FRUS 1961–63, XI, doc. 34](https://history.state.gov/historicaldocuments/frus1961-63v11/d34). [[w.schlesinger-robert-kennedy-and-his]], 510–11 (the choice); [[w.fursenko-one-hell-of-a]], 234–35; [[w.rusk-as-i-saw-it-1990]], 234 (the decision; Rusk''s recommendation, McNamara''s and Johnson''s, by Rusk''s account); [[w.sorensen-kennedy]], 692–93; [[w.thomas-robert-kennedy]], 219–20 (Robert Kennedy telephones the President in Chicago; the President back, feigning a cold; the ExComm; Stevenson''s proposal; the blockade chosen); [[w.caro-passage-of-power]], 211 (Saturday, Oct. 20, the ExComm decides on the blockade, or "quarantine," over the Joint Chiefs'' call for immediate bombing; Robert Kennedy calls his brother in Chicago, who, "pleading a cold," comes home; at the White House pool the President accepts the recommendation); [[w.odonnell-johnny-we-hardly-knew]], 364–65 (Kennedy, Admiral Burkley at his bedside: "I have a temperature and a cold. Tell the press I am returning to Washington on the advice of Doctor Burkley"; his note for Salinger, "Slight upper respiratory ... Weather raw & rainy. Recommended return to Washington. Cancelled schedule"; Johnson, in Hawaii, also returned with "a cold"; 365: that afternoon in the Oval Room the President "announced and discussed his decision to put the blockade into effect during the following week"); [[w.salinger-with-kennedy]], 252 (the "medical bulletin" of a temperature and cold; the flight from Chicago at 11 a.m., at the White House 1:30; not the choice of the quarantine). [[w.reeves-president-kennedy]], 385–88. [[w.ball-past-has-another-pattern]], 294–95 (2:30 p.m., the Oval Office: Rusk''s handwritten summary; Kennedy for the blockade; Stevenson''s dissent). See [[cal.1962-10-16.missile-crisis]].'
     src:
       c: b84f3456
       rows:
@@ -2326,6 +2362,7 @@ entries:
         - 'via w.thomas-robert-kennedy 220 n.stevenson-proposed-swapping: B'
         - 'w.caro-passage-of-power 211: A, B'
         - 'w.odonnell-johnny-we-hardly-knew 364–65: A, B'
+        - 'w.salinger-with-kennedy 252: A'
     tags: [name:kennedy-john-f]
   - id: cal.1962-10-20.india-and-china
     when: Oct. 20
@@ -2574,6 +2611,38 @@ entries:
     c: 'Washington, the Magnuson house, O Street, Saturday morning. Stevenson to Schlesinger, out of the chauffeur''s hearing: the secret discussions of the week are on Cuba; aerial reconnaissance has found offensive missile bases; the President learned it Tuesday morning and told him after lunch that day. The argument all week between a diplomatic and a military solution; pressure for an air strike put aside for a quarantine. He must speak early in the week in the Security Council, and asks Schlesinger to begin work on it. By Schlesinger''s journal.'
     n: '[[w.schlesinger-journals]], 172–73. Made public: [[w.schlesinger-journals]] (2007). See [[cal.1962-10-20.missile-crisis-diplomacy]]. Names: Stevenson, Schlesinger, Kennedy.'
     tags: [name:stevenson-adlai-e, name:schlesinger-arthur-m-jr, name:kennedy-john-f, city:washington]
+  - id: cal.1962-10-20.missile-crisis-9
+    when: Oct. 20
+    date: '1962-10-20'
+    thread: missile-crisis
+    also: [press-and-broadcasting]
+    c: 'Chicago, the Sheraton-Blackstone. At Salinger''s 9:15 briefing Western Union''s man calls him to the President''s suite: Kennedy, in pajamas, with O''Donnell, Powers and Dr. Burkley, says he has a temperature and a cold and writes the bulletin on hotel stationery: "99.2 degrees temperature. Upper respiratory infection. Doctor says he should return to Washington." Salinger reads it to the reporters; no one questions it. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 252. See [[cal.1962-10-20.missile-crisis]]. Names: Kennedy, Salinger, O''Donnell, Powers, Burkley.'
+    tags: [name:salinger-pierre, name:kennedy-john-f, name:odonnell-kenneth-p, name:powers-david-f, name:burkley-george-g, city:chicago, state:il]
+  - id: cal.1962-10-20.soviet-union
+    when: Oct. 20
+    date: '1962-10-20'
+    thread: soviet-union
+    also: [missile-crisis-warnings]
+    c: Bolshakov tells the columnists Stewart Alsop and Charles Bartlett that there are no offensive Soviet missiles in Cuba; they quote him by name. By Salinger's account, the cause of his recall to Moscow.
+    n: '[[w.salinger-with-kennedy]], 282. Check: the day (the book''s "Saturday, October 20"), and the column. Names: Bolshakov, Stewart Alsop, Bartlett.'
+    tags: [name:bolshakov-georgi, name:alsop-stewart, name:bartlett-charles]
+  - id: cal.1962-10-20.missile-crisis-10
+    when: Oct. 20
+    date: '1962-10-20'
+    thread: missile-crisis
+    also: [press-and-broadcasting]
+    c: '9:38 p.m. Kennedy telephones Salinger at home. Salinger reports the many questions on Cuba and that he is still in the dark. Kennedy: "You''re lucky." By Salinger''s account, from his date book.'
+    n: '[[w.salinger-with-kennedy]], 253. Names: Kennedy, Salinger.'
+    tags: [name:kennedy-john-f, name:salinger-pierre]
+  - id: cal.1962-10-20.missile-crisis-warnings-2
+    when: Oct. 20
+    date: '1962-10-20'
+    thread: missile-crisis-warnings
+    also: [press-and-broadcasting]
+    c: '10:08 p.m. Folliard of the *Washington Post* tells Salinger that Lippmann has told Friendly, the *Post*''s editor, at a party that we are on the brink of war. Salinger calls Kennedy back. Kennedy: "This town is a sieve." How long can it hold? Salinger: through tonight and maybe tomorrow. Bundy will fill Salinger in in the morning. By Salinger''s account, from his date book.'
+    n: '[[w.salinger-with-kennedy]], 253. Names: Folliard, Lippmann, Friendly, Salinger, Kennedy, Bundy.'
+    tags: [name:lippmann-walter, name:salinger-pierre, name:kennedy-john-f, name:bundy-mcgeorge]
   - id: cal.1962-10-21.missile-crisis
     when: Oct. 21
     date: '1962-10-21'
@@ -2627,13 +2696,19 @@ entries:
     time: 1962-10-21T18:30Z
     thread: missile-crisis-excomm
     c: 'The 506th NSC, 2:30 to 4:50 p.m. The third draft of the President''s speech read and revised: the numbers of missiles and sites out; "quarantine," not blockade, Rusk for it; the responsibility pinned on Khrushchev; no invitation to a summit. Anderson on the quarantine''s procedures. United Nations inspection of the missiles'' removal to be asked.'
-    n: '[FRUS 1961–63, XI, doc. 38](https://history.state.gov/historicaldocuments/frus1961-63v11/d38) (the minutes). [[w.sorensen-kennedy]], 698 (the meeting; the draft read; Anderson; the inspection). See [[cal.1962-10-16.missile-crisis]]. Names: Kennedy, Rusk, Khrushchev, Anderson.'
+    n: '[FRUS 1961–63, XI, doc. 38](https://history.state.gov/historicaldocuments/frus1961-63v11/d38) (the minutes). [[w.sorensen-kennedy]], 698 (the meeting; the draft read; Anderson; the inspection); [[w.salinger-with-kennedy]], 258–59 (the meeting Salinger attends at Kennedy''s order: the summit proposal deleted from the address; "quarantine" chosen over "blockade," with no speaker named; Acheson to brief de Gaulle and NATO, Bruce Macmillan, Dowling Adenauer; Stevenson''s case to the UN; Don Wilson''s plan for ten Atlantic radio stations broadcasting to Cuba by night approved; not the draft, Anderson or the inspection). See [[cal.1962-10-16.missile-crisis]]. Names: Kennedy, Rusk, Khrushchev, Anderson.'
     src:
       c: 174d91a4
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d38: all'
         - 'w.sorensen-kennedy 698: A, B, F, G'
+        - 'w.salinger-with-kennedy 258–59: E'
     tags: [name:kennedy-john-f, name:rusk-dean, name:khrushchev-nikita-s, name:anderson-george-w-jr]
+    variants:
+      - unit: A
+        witness: w.salinger-with-kennedy
+        reads: 'Salinger: an ExComm session in the Cabinet Room "that morning," Salinger present, "within the hour" of his talk with Kennedy about Mass; he is home by four that afternoon'
+        at: 258–60
   - id: cal.1962-10-21.missile-crisis-4
     when: Oct. 21
     date: '1962-10-21'
@@ -2773,6 +2848,46 @@ entries:
     c: 'Zhou Enlai, at a State Council meeting: "We are in favor of settling international disputes through negotiation. But Nehru refused to negotiate, called for the war, and launched the attack. ... We cannot make endless concessions, so we fight back. If Nehru remains stubborn and refuses to seek compromise with us, we have no other choice but teach him a bitter lesson."'
     n: '[[w.jian-zhou-enlai]], 481 (Chen''s translation). Made public: Check (1997 at the latest). To check: [[w.zhou-enlai-nianpu-1949]], II, 504 (cited by [[w.jian-zhou-enlai]], 763 n.80). See [[cal.1962-10-20.china-2]]. Names: Zhou Enlai, Nehru. Check: one State Council meeting or two (Chen, 481, 483).'
     tags: [name:zhou-enlai, name:nehru-jawaharlal, polity:prc, polity:india]
+  - id: cal.1962-10-21.missile-crisis-9
+    when: Oct. 21
+    date: '1962-10-21'
+    thread: missile-crisis
+    also: [press-and-broadcasting]
+    c: '9 a.m., the Situation Room. Bundy tells Salinger that the country is on the brink of nuclear war: offensive Soviet missiles in Cuba, not yet operational; a blockade the probable course; Kennedy to decide that day and announce it on television the next. He describes the aerial photographs and gives a chronology. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 253–54. Names: Bundy, Salinger, Kennedy.'
+    tags: [name:salinger-pierre, name:bundy-mcgeorge, name:kennedy-john-f]
+  - id: cal.1962-10-21.missile-crisis-10
+    when: Oct. 21
+    date: '1962-10-21'
+    thread: missile-crisis
+    also: [press-and-broadcasting]
+    c: 'Shortly before noon, Salinger''s office. Salinger with Colonel Justice Chambers of the Office of Emergency Planning sets the emergency information plan going: a standby alert of the nationwide communications system, the instructions for the pool of correspondents who would go with the President, and plans to call part of the fifteen-member Censorship Advisory Board to Washington. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 257. Names: Salinger, Chambers.'
+    tags: [name:salinger-pierre, name:chambers-justice-m]
+  - id: cal.1962-10-21.missile-crisis-12
+    when: Oct. 21
+    date: '1962-10-21'
+    thread: missile-crisis
+    also: [press-and-broadcasting]
+    c: 'Salinger to Kennedy: the press asks why he has not gone to Mass. Kennedy: "I''m going." Salinger is to attend the ExComm that day and all strategy conferences for the duration: "I''ll expect you to know what''s going on every minute." By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 258. Names: Salinger, Kennedy.'
+    tags: [name:salinger-pierre, name:kennedy-john-f]
+  - id: cal.1962-10-21.missile-crisis-13
+    when: Oct. 21
+    date: '1962-10-21'
+    thread: missile-crisis
+    also: [press-and-broadcasting]
+    c: 'After the meeting, Kennedy to Salinger: ask the networks for half an hour at 7 p.m. the next night, "but hold off as long as you can"; arrange briefings at the White House, State and the Pentagon right after the speech; with O''Brien, bring the congressional leaders back for 5 p.m. the next day. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 259. Check: the hour. See [[cal.1962-10-21.missile-crisis-3]]. Names: Kennedy, Salinger, O''Brien.'
+    tags: [name:kennedy-john-f, name:salinger-pierre, name:obrien-lawrence-f]
+  - id: cal.1962-10-21.missile-crisis-11
+    when: Oct. 21
+    date: '1962-10-21'
+    thread: missile-crisis
+    also: [press-and-broadcasting]
+    c: Afternoon, Salinger's house, Falls Church, Va. Salinger, Sylvester and Manning agree that Sylvester handles the military announcements and Manning the diplomatic ones, nothing from either without White House approval. A three-way telephone line bypassing the switchboards is put in that afternoon. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 260 (they then go over the cables in Manning''s office, where Don May of UPI finds them together). Names: Salinger, Sylvester, Manning.'
+    tags: [name:salinger-pierre, name:sylvester-arthur, name:manning-robert-j, city:falls-church, state:va]
   - id: cal.1962-10-22.missile-crisis-2
     when: Oct. 22
     date: '1962-10-22'
@@ -2861,7 +2976,7 @@ entries:
     time: 1962-10-22T21:30Z
     thread: missile-crisis-excomm
     c: 'Kennedy shows the congressional leaders the U-2 photographs and his course. Russell: the quarantine too slow and too risky, invade; Fulbright with him.'
-    n: '[Meeting with the Congressional Leadership on the Cuban Missile Crisis, 5:30 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-congressional-leadership-cuban-missile-crisis), Tapes 33 and 33A (Miller Center). [[w.schlesinger-thousand-days-1965]], 812; [[w.fursenko-one-hell-of-a]], 243–45 (Russell; "one hell of a gamble"); [[w.humphrey-education-of-a-public-1976]], 248–49 (the meeting; Humphrey flown in by a military plane, with Hickenlooper from Iowa, by his account); [[w.rusk-as-i-saw-it-1990]], 234–35; [[w.fursenko-khrushchevs-cold-war]], 474–75 (Russell: "these people have been warned"; Kennedy: "it may very well come to that before the end of the week"); [[w.woods-fulbright]], 271–72 (Russell and Fulbright: an air strike or an invasion); [[w.sorensen-kennedy]], 702–03; [[w.sorensen-kennedy]], 702 (some twenty leaders at 5 p.m.; Russell and Fulbright for an invasion; Halleck informed, not consulted); [[w.caro-passage-of-power]], 215 (twenty leaders in the Cabinet Room before the telecast, Johnson attending; Russell for invasion at once; Fulbright, a blockade "the worst of the alternatives"; not the photographs); [[w.odonnell-johnny-we-hardly-knew]], 370–72 (Hale Boggs brought from the Gulf by helicopter and jet; Kennedy to Dirksen: "tonight you''re going to get reelected"; McCone on the photographs, Rusk and McNamara on the blockade; Russell demanded a military attack, Fulbright backed him; Kennedy: "Last Tuesday, I was for an air strike or an invasion myself"); [[w.sorensen-counselor]], 297 (hours before the address, Russell calls for an invasion: "You should assemble as speedily as possible an adequate force and clean out that situation!"; Fulbright for an invasion "and an all-out one, as quickly as possible"; Kennedy: it "would be foolish" to expect the Russians not to regard it as far more offensive than a blockade; not the day''s hour). [[w.schlesinger-robert-kennedy-and-his]], 531 (Fulbright for invasion, a "wiser course"). Schlesinger, 812, gives five o''clock; PRDE catalogues the recording at 5:30 p.m. ([Tapes 33.2 and 33A.1](https://prde.upress.virginia.edu/conversations/8030006)). [[w.reeves-president-kennedy]], 392–93. [[w.ball-past-has-another-pattern]], 298 (the leaders for an air strike or stronger action). Check: Woods (271–72) dates the Russell Papers'' copy of the notes Oct. 23 and puts the meeting at five o''clock; Kennedy, by the notes, gives thirty medium-range missiles, forty MiG-21s and twenty Il-28s. See [[cal.1962-10-16.missile-crisis]]. Names: Kennedy, Russell, Fulbright. Check: Humphrey puts Kennedy in Minnesota the weekend before, at the State fairgrounds on the Saturday night (248–49); [[cal.1962-10-20.missile-crisis]] has him in Chicago.'
+    n: '[Meeting with the Congressional Leadership on the Cuban Missile Crisis, 5:30 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-congressional-leadership-cuban-missile-crisis), Tapes 33 and 33A (Miller Center). [[w.schlesinger-thousand-days-1965]], 812; [[w.fursenko-one-hell-of-a]], 243–45 (Russell; "one hell of a gamble"); [[w.humphrey-education-of-a-public-1976]], 248–49 (the meeting; Humphrey flown in by a military plane, with Hickenlooper from Iowa, by his account); [[w.rusk-as-i-saw-it-1990]], 234–35; [[w.fursenko-khrushchevs-cold-war]], 474–75 (Russell: "these people have been warned"; Kennedy: "it may very well come to that before the end of the week"); [[w.woods-fulbright]], 271–72 (Russell and Fulbright: an air strike or an invasion); [[w.sorensen-kennedy]], 702–03; [[w.sorensen-kennedy]], 702 (some twenty leaders at 5 p.m.; Russell and Fulbright for an invasion; Halleck informed, not consulted); [[w.caro-passage-of-power]], 215 (twenty leaders in the Cabinet Room before the telecast, Johnson attending; Russell for invasion at once; Fulbright, a blockade "the worst of the alternatives"; not the photographs); [[w.odonnell-johnny-we-hardly-knew]], 370–72 (Hale Boggs brought from the Gulf by helicopter and jet; Kennedy to Dirksen: "tonight you''re going to get reelected"; McCone on the photographs, Rusk and McNamara on the blockade; Russell demanded a military attack, Fulbright backed him; Kennedy: "Last Tuesday, I was for an air strike or an invasion myself"); [[w.sorensen-counselor]], 297 (hours before the address, Russell calls for an invasion: "You should assemble as speedily as possible an adequate force and clean out that situation!"; Fulbright for an invasion "and an all-out one, as quickly as possible"; Kennedy: it "would be foolish" to expect the Russians not to regard it as far more offensive than a blockade; not the day''s hour); [[w.salinger-with-kennedy]], 264 (at 5 p.m. the leaders shown the photographs and told of the quarantine; Russell argues for an invasion, Fulbright with him; Kennedy will not change; not "too slow and too risky"). [[w.schlesinger-robert-kennedy-and-his]], 531 (Fulbright for invasion, a "wiser course"). Schlesinger, 812, gives five o''clock; PRDE catalogues the recording at 5:30 p.m. ([Tapes 33.2 and 33A.1](https://prde.upress.virginia.edu/conversations/8030006)). [[w.reeves-president-kennedy]], 392–93. [[w.ball-past-has-another-pattern]], 298 (the leaders for an air strike or stronger action). Check: Woods (271–72) dates the Russell Papers'' copy of the notes Oct. 23 and puts the meeting at five o''clock; Kennedy, by the notes, gives thirty medium-range missiles, forty MiG-21s and twenty Il-28s. See [[cal.1962-10-16.missile-crisis]]. Names: Kennedy, Russell, Fulbright. Check: Humphrey puts Kennedy in Minnesota the weekend before, at the State fairgrounds on the Saturday night (248–49); [[cal.1962-10-20.missile-crisis]] has him in Chicago.'
     src:
       c: f9832989
       rows:
@@ -2887,6 +3002,7 @@ entries:
         - 'w.caro-passage-of-power 215: B, C'
         - 'w.odonnell-johnny-we-hardly-knew 370–72: ?'
         - 'w.sorensen-counselor 297: C'
+        - 'w.salinger-with-kennedy 264: A, C'
     tags: [name:kennedy-john-f, name:russell-richard-b, name:fulbright-j-william]
   - id: cal.1962-10-22.missile-crisis-5
     when: Oct. 22
@@ -3087,11 +3203,12 @@ entries:
     thread: missile-crisis-diplomacy
     also: [africa]
     c: 'Before the Cabinet, a long-scheduled appointment: Kennedy with Obote of Uganda, Rusk present. They debate American aid to schools in Rhodesia; the President sees him to the door.'
-    n: '[[w.sorensen-kennedy]], 701. See [[cal.1962-10-22.missile-crisis]]. Names: Obote, Rusk, Kennedy.'
+    n: '[[w.sorensen-kennedy]], 701; [[w.salinger-with-kennedy]], 263–64 (Kennedy''s long-standing appointment with Obote, forty-five minutes, from trade to American aid to African schools, the Cabinet kept waiting; he takes him to the door through the reporters: "It has been a very interesting day"; not Rusk or Rhodesia). See [[cal.1962-10-22.missile-crisis]]. Names: Obote, Rusk, Kennedy.'
     src:
       c: e90541ba
       rows:
         - 'w.sorensen-kennedy 701: all'
+        - 'w.salinger-with-kennedy 263–64: C'
     tags: [name:kennedy-john-f, name:obote-a-milton, name:rusk-dean]
     time_range:
       - 1962-10-22T13:00Z
@@ -3155,11 +3272,12 @@ entries:
     thread: missile-crisis-excomm
     also: [press-and-broadcasting]
     c: Noon. Salinger announces that the President has asked the networks for time at 7 p.m. for a speech of the "highest national urgency." Crowds and pickets at the White House.
-    n: '[[w.sorensen-kennedy]], 700. Check: the words, against the networks'' or the papers'' report. See [[cal.1962-10-22.missile-crisis]]. Names: Salinger.'
+    n: '[[w.sorensen-kennedy]], 700; [[w.salinger-with-kennedy]], 262 (at exactly noon Salinger asks Fleming of ABC, for the networks, for time at 7 p.m. on a subject of "the highest national urgency"; the announcement at the briefing just after; the answer "all networks, all live"). Check: the words, against the networks'' or the papers'' report. See [[cal.1962-10-22.missile-crisis]]. Names: Salinger.'
     src:
       c: 68097eee
       rows:
         - 'w.sorensen-kennedy 700: all'
+        - 'w.salinger-with-kennedy 262: B'
     tags: [name:salinger-pierre]
   - id: cal.1962-10-22.missile-crisis-18
     when: Oct. 22
@@ -3492,6 +3610,70 @@ entries:
     c: 'The White House, after the congressional leaders have left his office. Kennedy to O''Donnell and others: "Oh, sure, we support you, Mister President. But it''s your decision, not ours, and if it goes wrong, we''ll knock your block off."'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 372–73 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Kennedy, O''Donnell.'
     tags: [name:kennedy-john-f, name:odonnell-kenneth-p, polity:cuba]
+  - id: cal.1962-10-22.missile-crisis-quarantine
+    when: Oct. 22
+    date: '1962-10-22'
+    thread: missile-crisis-quarantine
+    also: [press-and-broadcasting]
+    c: Morning. Salinger asks Minow of the FCC to clear the way for the use of ten radio stations; Minow flies back from New York and telephones the managers to stand by for a White House call at 6 p.m. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 261. Names: Salinger, Minow.'
+    tags: [name:salinger-pierre, name:minow-newton-n]
+  - id: cal.1962-10-22.missile-crisis-quarantine-2
+    when: Oct. 22
+    date: '1962-10-22'
+    thread: missile-crisis-quarantine
+    also: [missile-crisis]
+    c: 'Afternoon. Kennedy gives Salinger a backgrounder for the questions after the address: a quarantine over an air strike because no strike is certain to hit every site; the missiles'' secrecy and the Russians'' denials; proof only since Tuesday; the Turkish bases not the same as Cuba''s missiles. "The next move is up to the Russians." By Salinger''s account, from his notes of the direct quotes.'
+    n: '[[w.salinger-with-kennedy]], 262–63. Names: Kennedy, Salinger.'
+    tags: [name:salinger-pierre, name:kennedy-john-f]
+  - id: cal.1962-10-22.missile-crisis-34
+    when: Oct. 22
+    date: '1962-10-22'
+    thread: missile-crisis
+    also: [press-and-broadcasting]
+    c: '4:10 p.m., Salinger''s briefing. Asked if the President''s cold was "a diplomatic illness," Salinger: "The President definitely had a degree of temperature in Chicago." Does he still have a cold? "No, he is fine." By Salinger''s account, met with incredulity.'
+    n: '[[w.salinger-with-kennedy]], 263. Names: Salinger, Kennedy.'
+    tags: [name:salinger-pierre, name:kennedy-john-f]
+  - id: cal.1962-10-22.missile-crisis-quarantine-3
+    when: Oct. 22
+    date: '1962-10-22'
+    thread: missile-crisis-quarantine
+    also: [cuba]
+    c: 6 p.m. Salinger telephones the managers of ten radio stations, Ralf Brent of WRUL first, with the President's request, worded with the FCC's lawyers, that they give their transmitters to the government from sunset to sunrise for Spanish broadcasts, voluntarily and with their costs paid. The cables are already at their doors. All agree. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 259, 264. See [[cal.1962-10-22.missile-crisis-25]]. Names: Salinger, Kennedy.'
+    tags: [name:salinger-pierre, name:kennedy-john-f]
+  - id: cal.1962-10-22.missile-crisis-35
+    when: Oct. 22
+    date: '1962-10-22'
+    thread: missile-crisis
+    also: [press-and-broadcasting, soviet-union]
+    c: 'Salinger puts Sagatelyan of Tass in the pool at the President''s office for the address: "I want to be sure that you read the President loud and clear." By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 264. Names: Salinger.'
+    tags: [name:salinger-pierre]
+  - id: cal.1962-10-22.missile-crisis-36
+    when: Oct. 22
+    date: '1962-10-22'
+    thread: missile-crisis
+    also: [press-and-broadcasting]
+    c: 'After the address, Salinger''s office, the largest press crowd of his tenure but for the assassination: a hundred questions in fifteen minutes. The President stays in Washington "at least for the foreseeable future"; Kennedy did not call Gromyko a liar; he and Johnson cancel their political tours. Next move if the blockade fails: "I am not in charge of speculation." By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 266–67. Names: Salinger, Kennedy, Gromyko, Johnson.'
+    tags: [name:salinger-pierre, name:kennedy-john-f, name:gromyko-andrei, name:johnson-lyndon-b]
+  - id: cal.1962-10-22.missile-crisis-37
+    when: Oct. 22
+    date: '1962-10-22'
+    thread: missile-crisis
+    also: [press-and-broadcasting]
+    c: 'Night, after the briefing. Salinger sends one by one for the White House correspondents who would go with the President if Washington were evacuated: never more than fifteen minutes away. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 267. Names: Salinger.'
+    tags: [name:salinger-pierre]
+  - id: cal.1962-10-22.missile-crisis-38
+    when: Oct. 22
+    date: '1962-10-22'
+    thread: missile-crisis
+    also: [press-and-broadcasting]
+    c: Night. Salinger telephones Bill Steven, editor of the *Houston Chronicle*, chosen executive officer of the Censorship Advisory Board, to fly to Washington; he does. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 267. See [[cal.1962-10-21.missile-crisis-10]]. Names: Salinger.'
+    tags: [name:salinger-pierre]
   - id: cal.1962-10-23.missile-crisis
     when: Oct. 23
     date: '1962-10-23'
@@ -3749,13 +3931,19 @@ entries:
     time: 1962-10-23T14:00Z
     thread: missile-crisis-excomm
     c: The Executive Committee, 10 a.m. The Proclamation of Interdiction approved, to issue at 6 p.m., in force at dawn Oct. 24; an order extending tours of duty. If a U-2 is shot down, retaliation on the likeliest SAM site, McNamara to decide if the President is unavailable. Quarantine to exclude POL at first. About six low-level reconnaissance flights approved.
-    n: '[FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 47](https://history.state.gov/historicaldocuments/frus1961-63v11/d47) (Bundy''s minutes). [[w.sorensen-kennedy]], 708–09 (the proclamation discussed at 10 a.m. and 6 p.m.; what to do if a U-2 were shot down; the Brazil trip canceled; the Southeast''s air defense, the planes dispersed; tours extended; low-level flights for the first time). See [[cal.1962-10-22.missile-crisis-20]]. Names: Kennedy, McNamara.'
+    n: '[FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 47](https://history.state.gov/historicaldocuments/frus1961-63v11/d47) (Bundy''s minutes). [[w.sorensen-kennedy]], 708–09 (the proclamation discussed at 10 a.m. and 6 p.m.; what to do if a U-2 were shot down; the Brazil trip canceled; the Southeast''s air defense, the planes dispersed; tours extended; low-level flights for the first time); [[w.salinger-with-kennedy]], 270 (Salinger''s notes, Tuesday morning: Kennedy approves the plans for the Proclamation of Interdiction; consents to retaliatory air strikes on Cuba if an American plane is shot down; not the hour, the tours, POL or the flights). See [[cal.1962-10-22.missile-crisis-20]]. Names: Kennedy, McNamara.'
     src:
       c: 21cd7775
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d47: all'
         - 'w.sorensen-kennedy 708–09: all'
+        - 'w.salinger-with-kennedy 270: ?'
     tags: [name:kennedy-john-f, name:mcnamara-robert-s, name:bundy-mcgeorge, name:mccone-john-a]
+    variants:
+      - unit: B
+        witness: w.salinger-with-kennedy
+        reads: 'Salinger: Tuesday afternoon the ExComm approves the proclamation''s language and decides to issue it that night, "to take effect at 10 A.M. the next morning"'
+        at: '270'
   - id: cal.1962-10-23.missile-crisis-14
     when: Oct. 23
     date: '1962-10-23'
@@ -3783,13 +3971,14 @@ entries:
     time: 1962-10-23T22:00Z
     thread: missile-crisis-excomm
     c: The Executive Committee, 6 p.m. A first report of the low-level reconnaissance. The Proclamation of Interdiction revised slightly and approved; a further message to Khrushchev agreed. McNamara to review the naval action under the quarantine; Pittman to plan civil defense for the Southeast. Nitze to chair a subcommittee on Berlin, Rostow one on advance planning.
-    n: '[FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 50](https://history.state.gov/historicaldocuments/frus1961-63v11/d50) (record of action). [[w.sorensen-kennedy]], 708–09 (the second meeting of the day; the pictures from the low-level flights); [[w.odonnell-johnny-we-hardly-knew]], 374–75 (a meeting Tuesday evening on how the Navy should stop a Soviet vessel that tried to run the barrier; McNamara for crippling it by shooting out its propellers and rudder and towing it to Charleston or Jacksonville; Kennedy: "And what happens after you shoot up the ship and tow it all the way to Florida, and then find out that it wasn''t carrying anything except baby food?"; Navy reports of at least twenty-five Soviet ships and some submarines on their way; not the hour, the reconnaissance, the Proclamation, the message or the subcommittees). See [[cal.1962-10-23.missile-crisis-13]]. Names: McNamara, Nitze, Rostow, Khrushchev.'
+    n: '[FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 50](https://history.state.gov/historicaldocuments/frus1961-63v11/d50) (record of action). [[w.sorensen-kennedy]], 708–09 (the second meeting of the day; the pictures from the low-level flights); [[w.odonnell-johnny-we-hardly-knew]], 374–75 (a meeting Tuesday evening on how the Navy should stop a Soviet vessel that tried to run the barrier; McNamara for crippling it by shooting out its propellers and rudder and towing it to Charleston or Jacksonville; Kennedy: "And what happens after you shoot up the ship and tow it all the way to Florida, and then find out that it wasn''t carrying anything except baby food?"; Navy reports of at least twenty-five Soviet ships and some submarines on their way; not the hour, the reconnaissance, the Proclamation, the message or the subcommittees); [[w.salinger-with-kennedy]], 270 (Salinger''s notes, Tuesday afternoon: the ExComm approves the proclamation''s language, to issue that night, the cargoes limited to missiles and bombers; McNamara: at least twenty-five Russian ships en route; not the hour or the rest). See [[cal.1962-10-23.missile-crisis-13]]. Names: McNamara, Nitze, Rostow, Khrushchev.'
     src:
       c: 76711be8
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d50: all'
         - 'w.sorensen-kennedy 708–09: A-B'
         - 'w.odonnell-johnny-we-hardly-knew 374–75: ?'
+        - 'w.salinger-with-kennedy 270: C'
     tags: [name:mcnamara-robert-s, name:nitze-paul, name:rostow-walt-w, name:khrushchev-nikita-s, name:kennedy-john-f]
   - id: cal.1962-10-23.missile-crisis-16
     when: Oct. 23
@@ -4016,6 +4205,30 @@ entries:
     c: 'The White House, after the evening meeting, in Kennedy''s office with Robert Kennedy, Sorensen and O''Donnell, on the rash actions that start wars. Kennedy, who had lately read Tuchman''s The Guns of August, quotes the German Chancellor asked how the war began: "Ah, if we only knew." "I wish we could send a copy of that book to every Navy officer on every Navy ship right now. But they probably wouldn''t read it."'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 375 (O''Donnell''s and Powers''s account). See [[cal.1962-10-23.missile-crisis-15]]. Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Kennedy, Robert Kennedy, Sorensen, O''Donnell.'
     tags: [name:kennedy-john-f, name:kennedy-robert-f, name:sorensen-theodore-c, name:odonnell-kenneth-p, polity:cuba]
+  - id: cal.1962-10-23.press-and-broadcasting
+    when: Oct. 23
+    date: '1962-10-23'
+    thread: press-and-broadcasting
+    also: [missile-crisis-quarantine]
+    c: '6 p.m. Salinger meets news-industry leaders: McKelway of the *Star* and AP, Gallagher, Thomason of UPI, Merriman Smith, Hagerty for ABC, Blair Clark, McAndrew, Sylvester and Manning. He asks them to withhold information that helps the enemy, and promises twelve points the next day and a twenty-four-hour Pentagon news desk. Gallagher and McAndrew resent any suggestion of censorship and the barring of reporters from blockade ships and Guantánamo. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 287–89. Names: Salinger, Hagerty, Sylvester, Manning.'
+    tags: [name:salinger-pierre, name:hagerty-james-c, name:sylvester-arthur, name:manning-robert-j]
+  - id: cal.1962-10-23.press-and-broadcasting-2
+    when: Oct. 23
+    date: '1962-10-23'
+    thread: press-and-broadcasting
+    also: [missile-crisis-quarantine]
+    c: After the news leaders leave, Salinger asks Hagerty to stay, lays out the censorship plans for full war and, with Kennedy's assent, asks him to head them. Hagerty, reluctant, agrees to head an advisory committee, and proposes Byron Price. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 289–90. See [[cal.1962-10-23.press-and-broadcasting]]. Names: Salinger, Hagerty, Kennedy, Price.'
+    tags: [name:salinger-pierre, name:hagerty-james-c, name:kennedy-john-f, name:price-byron]
+  - id: cal.1962-10-23.press-and-broadcasting-3
+    when: Oct. 23
+    date: '1962-10-23'
+    thread: press-and-broadcasting
+    also: [missile-crisis-quarantine]
+    c: Salinger takes Hagerty to Kennedy, who thanks him for agreeing to head the advisory committee; Price is to be called at once, on standby, and agrees to serve if full censorship comes. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 290. See [[cal.1962-10-23.press-and-broadcasting-2]]. Names: Salinger, Hagerty, Kennedy, Price.'
+    tags: [name:salinger-pierre, name:hagerty-james-c, name:kennedy-john-f, name:price-byron]
   - id: cal.1962-10-24.missile-crisis
     when: Oct. 24
     date: '1962-10-24'
@@ -4338,6 +4551,22 @@ entries:
     c: 'Kennedy, on the word that the Soviet ships are stopping, sends strict orders to the Essex and to Admiral Anderson, chief of naval operations: no Soviet ship or submarine outside the interception zone is to be stopped, boarded or harassed. By the authors, he assumed Khrushchev was "probably already taking enough criticism from his rivals in the Kremlin" and wanted "no incident that might cause a new flare-up."'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 377 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). See [[cal.1962-10-24.missile-crisis]]. Names: Kennedy, Anderson, Khrushchev.'
     tags: [name:kennedy-john-f, name:anderson-george-w-jr, name:khrushchev-nikita-s]
+  - id: cal.1962-10-24.press-and-broadcasting
+    when: Oct. 24
+    date: '1962-10-24'
+    thread: press-and-broadcasting
+    also: [missile-crisis-quarantine]
+    c: 'Salinger hands the press a memorandum of twelve categories of information "vital to our national security" that the Defense Department will not release: plans for forces, estimates of capability and targets, intelligence, movements, alert, dispersal, missile numbers, command posts, airlift. It asks "caution and discretion"; editors in doubt may call the Pentagon''s News Desk. Salinger: it binds no editor. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 290–92. Names: Salinger.'
+    tags: [name:salinger-pierre]
+  - id: cal.1962-10-24.missile-crisis-quarantine
+    when: Oct. 24
+    date: '1962-10-24'
+    thread: missile-crisis-quarantine
+    also: [press-and-broadcasting]
+    c: Shortly before 1 a.m. Salinger gives out the photographs of the missiles in Cuba, after ExComm had held them back and Ambassador Bruce had released them to British television in London; Salinger had told Kennedy it was untenable to show them in Britain and keep them classified at home. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 293–94. Names: Salinger, Bruce, Kennedy.'
+    tags: [name:salinger-pierre, name:bruce-david-k-e, name:kennedy-john-f]
   - id: cal.1962-10-25.missile-crisis
     when: Oct. 25
     date: '1962-10-25'
@@ -4374,12 +4603,13 @@ entries:
     thread: republican-party-congress
     also: [missile-crisis]
     c: 'Van Zandt (R-Pa.), leaving a State Department briefing, makes public what the Navy has done, or not done, at the quarantine line, which Kennedy wanted kept secret; on radio and television within the hour. Kennedy, angry, has Hughes, the deputy director of intelligence who gave the briefing, paged at Idlewild: "What the hell is going on?"'
-    n: '[[w.reeves-president-kennedy]], 404. To check: [*New York Times*, Oct. 26, 1962](https://timesmachine.nytimes.com/timesmachine/1962/10/26/issue.html) (cited by [[w.reeves-president-kennedy]], 404). Check: the day. Names: Van Zandt, Hughes, Kennedy.'
+    n: '[[w.reeves-president-kennedy]], 404; [[w.salinger-with-kennedy]], 292–93 (Van Zandt, after a briefing in New York, announces the Bucharest story at a press conference, on the wires at 11, forty-five minutes before Defense; Kennedy outraged that he was given it; not Hughes or Idlewild). To check: [*New York Times*, Oct. 26, 1962](https://timesmachine.nytimes.com/timesmachine/1962/10/26/issue.html) (cited by [[w.reeves-president-kennedy]], 404). Check: the day. Names: Van Zandt, Hughes, Kennedy.'
     src:
       c: a3e75b7b
       rows:
         - 'w.reeves-president-kennedy 404: all'
         - 'via w.reeves-president-kennedy 404 n.james-van-zandt: A'
+        - 'w.salinger-with-kennedy 292–93: ?'
     tags: [name:van-zandt-james-e, name:hughes-thomas-l, name:kennedy-john-f]
     short: Van Zandt on the quarantine
     time_range:
@@ -4388,6 +4618,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.salinger-with-kennedy
+        reads: 'Salinger: ExComm had ordered the Bucharest news released through Defense at the end of the morning, with the news that a dozen Soviet ships had turned back; Van Zandt announced it forty-five minutes early'
+        at: 292–93
   - id: cal.1962-10-25.missile-crisis-3
     when: Oct. 25
     date: '1962-10-25'
@@ -4511,12 +4746,13 @@ entries:
     date: '1962-10-25'
     thread: missile-crisis-excomm
     c: The Executive Committee, the fourth meeting. USIA to weigh dropping leaflets on Cuba. Non-bloc ships to be investigated and boarded, tankers excluded; the tanker *Bucharest* not to be intercepted, a bloc ship to be ready for interception Friday in daylight. Eight low-level reconnaissance aircraft over the sites at once. An answer to U Thant approved, revised with New York by 1:15 p.m.
-    n: '[FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 71](https://history.state.gov/historicaldocuments/frus1961-63v11/d71) (record of action). [[w.sorensen-kennedy]], 710–11 (the tanker passed on the President''s instructions; a nonbloc ship under Soviet charter to be boarded; the leaflet drop authorized and held). See [[cal.1962-10-24.missile-crisis]]. Names: Kennedy, McCone, McNamara, U Thant.'
+    n: '[FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 71](https://history.state.gov/historicaldocuments/frus1961-63v11/d71) (record of action). [[w.sorensen-kennedy]], 710–11 (the tanker passed on the President''s instructions; a nonbloc ship under Soviet charter to be boarded; the leaflet drop authorized and held); [[w.salinger-with-kennedy]], 271, 292 (Salinger''s notes, Thursday: Kennedy orders the Navy to pass the *Bucharest* without search, orders night reconnaissance flights over Cuba and approves missile fuel as contraband; the ExComm, hearing the report in the morning, orders the news released through Defense at the end of the morning; not USIA, the bloc ship or U Thant). See [[cal.1962-10-24.missile-crisis]]. Names: Kennedy, McCone, McNamara, U Thant.'
     src:
       c: bfed6355
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d71: all'
         - 'w.sorensen-kennedy 710–11: B-D'
+        - 'w.salinger-with-kennedy 271, 292: ?'
     tags: [name:kennedy-john-f, name:mccone-john-a, name:mcnamara-robert-s, name:u-thant]
     time_range:
       - 1962-10-25T13:00Z
@@ -4530,7 +4766,7 @@ entries:
     thread: missile-crisis-quarantine
     also: [defense]
     c: At dawn the Soviet tanker *Bucharest* is hailed at the quarantine line and, on the President's instructions, passes after identifying itself; as the East German passenger ship *Völkerfreundschaft* does later. The *Bucharest* is celebrated at Havana.
-    n: '[FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 71](https://history.state.gov/historicaldocuments/frus1961-63v11/d71) (the *Bucharest* not to be intercepted); [FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 73](https://history.state.gov/historicaldocuments/frus1961-63v11/d73) (5 p.m.: the *Völkerfreundschaft* at the barrier, a decision whether to stop it); [FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 79](https://history.state.gov/historicaldocuments/frus1961-63v11/d79) (Oct. 26: McCone on the celebration at Havana). [[w.sorensen-kennedy]], 710; [[w.odonnell-johnny-we-hardly-knew]], 378 (on Thursday Kennedy lets the Soviet oil tanker Bucharest through the blockade unboarded and unsearched, after the captain assures the Navy that he carries only petroleum; some members of the Ex Comm think it should have been searched anyway; not the dawn, the hailing, the Völkerfreundschaft or Havana). Check: the hour of the hailing, and the day the *Völkerfreundschaft* passed. See [[cal.1962-10-25.missile-crisis-7]]. Names: Kennedy.'
+    n: '[FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 71](https://history.state.gov/historicaldocuments/frus1961-63v11/d71) (the *Bucharest* not to be intercepted); [FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 73](https://history.state.gov/historicaldocuments/frus1961-63v11/d73) (5 p.m.: the *Völkerfreundschaft* at the barrier, a decision whether to stop it); [FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 79](https://history.state.gov/historicaldocuments/frus1961-63v11/d79) (Oct. 26: McCone on the celebration at Havana). [[w.sorensen-kennedy]], 710; [[w.odonnell-johnny-we-hardly-knew]], 378 (on Thursday Kennedy lets the Soviet oil tanker Bucharest through the blockade unboarded and unsearched, after the captain assures the Navy that he carries only petroleum; some members of the Ex Comm think it should have been searched anyway; not the dawn, the hailing, the Völkerfreundschaft or Havana); [[w.salinger-with-kennedy]], 271, 292 (the *Bucharest* intercepted at eight in the morning and, by the President''s order, let through without search, no contraband aboard; not at dawn, nor the passenger ship or Havana). Check: the hour of the hailing, and the day the *Völkerfreundschaft* passed. See [[cal.1962-10-25.missile-crisis-7]]. Names: Kennedy.'
     src:
       c: c74b5580
       rows:
@@ -4539,6 +4775,7 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d73: A'
         - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d79: B'
         - 'w.odonnell-johnny-we-hardly-knew 378: ?'
+        - 'w.salinger-with-kennedy 271, 292: ?'
     tags: [name:kennedy-john-f]
     time_range:
       - 1962-10-25T08:00Z
@@ -4682,7 +4919,7 @@ entries:
     date: '1962-10-26'
     thread: missile-crisis-diplomacy
     c: Feklisov puts like terms to Scali of ABC.
-    n: 'FRUS 1961–63, XI, doc. [80](https://history.state.gov/historicaldocuments/frus1961-63v11/d80). [[w.reeves-president-kennedy]], 407–408; [[w.fursenko-one-hell-of-a]], 264–65, 269–70; [[w.rusk-as-i-saw-it-1990]], 238 (the approach; Rusk''s note to Scali in reply, "from the highest levels," by Rusk''s account); [[w.dobrynin-in-confidence]], 97–98 (Fomin, really Feklisov, the KGB resident; Kennedy''s letter of Dec. 14 on links through journalists; by Dobrynin''s account); [[w.fursenko-khrushchevs-cold-war]], 485 (at the Occidental, by Scali''s version, which the Kremlin''s records bear out); [[w.sorensen-kennedy]], 712 (Fomin to Scali). [[w.ball-past-has-another-pattern]], 303 (Fomin; Rusk''s authority to answer, passed at 7:45 p.m.). See [[cal.1962-10-16.missile-crisis]]. Names: Feklisov, Scali. Check: Reeves names him Fomin, the name Feklisov went by in Washington (407–08). Check: Fursenko and Naftali give two versions, Feklisov''s that Scali put the terms, Scali''s that Feklisov did (265); a second meeting at the Statler, 7:30 p.m., Scali "by the highest authority" (270).'
+    n: 'FRUS 1961–63, XI, doc. [80](https://history.state.gov/historicaldocuments/frus1961-63v11/d80). [[w.reeves-president-kennedy]], 407–408; [[w.fursenko-one-hell-of-a]], 264–65, 269–70; [[w.rusk-as-i-saw-it-1990]], 238 (the approach; Rusk''s note to Scali in reply, "from the highest levels," by Rusk''s account); [[w.dobrynin-in-confidence]], 97–98 (Fomin, really Feklisov, the KGB resident; Kennedy''s letter of Dec. 14 on links through journalists; by Dobrynin''s account); [[w.fursenko-khrushchevs-cold-war]], 485 (at the Occidental, by Scali''s version, which the Kremlin''s records bear out); [[w.sorensen-kennedy]], 712 (Fomin to Scali); [[w.salinger-with-kennedy]], 271, 274 (Fomin, "known to be the chief Russian intelligence agent in Washington," at a lunch he sought urgently; Scali''s first memorandum to Hilsman: the bases dismantled under UN supervision and Castro''s pledge for an American pledge not to invade). [[w.ball-past-has-another-pattern]], 303 (Fomin; Rusk''s authority to answer, passed at 7:45 p.m.). See [[cal.1962-10-16.missile-crisis]]. Names: Feklisov, Scali. Check: Reeves names him Fomin, the name Feklisov went by in Washington (407–08). Check: Fursenko and Naftali give two versions, Feklisov''s that Scali put the terms, Scali''s that Feklisov did (265); a second meeting at the Statler, 7:30 p.m., Scali "by the highest authority" (270).'
     src:
       c: 0325f384
       rows:
@@ -4697,6 +4934,7 @@ entries:
         - 'w.dobrynin-in-confidence 97–98: A'
         - 'w.fursenko-khrushchevs-cold-war 485: A'
         - 'w.sorensen-kennedy 712: A'
+        - 'w.salinger-with-kennedy 271, 274: A'
     tags: [name:scali-john-a, name:feklisov-aleksandr]
     time_range:
       - 1962-10-26T13:00Z
@@ -4732,7 +4970,7 @@ entries:
     date: '1962-10-26'
     thread: missile-crisis-quarantine
     c: 'The Navy boards the *Marucla*, Panamanian-owned, under Soviet charter, chosen as the least provocative: no contraband. The tanker *Bucharest*, having named itself and its cargo, had been let through without boarding, and an East German passenger ship.'
-    n: '[[w.ball-past-has-another-pattern]], 302–03; [[w.sorensen-kennedy]], 710; [[w.sorensen-kennedy]], 710 (at dawn Friday, the President''s authorization; trucks and parts); [[w.thomas-robert-kennedy]], 225 (the *Marucla* boarded, under Soviet charter, mostly for show; the destroyer the *Joseph P. Kennedy, Jr.*); [[w.odonnell-johnny-we-hardly-knew]], 378 (on Friday the Marucla, a Soviet-chartered Liberty-ship freighter, is stopped at the blockade line by a destroyer, the Joseph P. Kennedy, Jr.; Kennedy: "I suppose everybody will say that I sent the Kennedy in there deliberately, to give our family some publicity"; the Bucharest let through unboarded the day before, the captain having assured the Navy of his cargo; not the boarding, the owner''s flag, the contraband or the East German ship). Check: the days, Ball giving the boarding as of Friday morning. Check: Thomas, 225, has the *Marucla* Lebanese-registered, carrying dry goods. See [[cal.1962-10-14.missile-crisis]].'
+    n: '[[w.ball-past-has-another-pattern]], 302–03; [[w.sorensen-kennedy]], 710; [[w.sorensen-kennedy]], 710 (at dawn Friday, the President''s authorization; trucks and parts); [[w.thomas-robert-kennedy]], 225 (the *Marucla* boarded, under Soviet charter, mostly for show; the destroyer the *Joseph P. Kennedy, Jr.*); [[w.odonnell-johnny-we-hardly-knew]], 378 (on Friday the Marucla, a Soviet-chartered Liberty-ship freighter, is stopped at the blockade line by a destroyer, the Joseph P. Kennedy, Jr.; Kennedy: "I suppose everybody will say that I sent the Kennedy in there deliberately, to give our family some publicity"; the Bucharest let through unboarded the day before, the captain having assured the Navy of his cargo; not the boarding, the owner''s flag, the contraband or the East German ship); [[w.salinger-with-kennedy]], 271 (Defense announces the first boarding and search, of the *Marucla*, of Panamanian registry under Soviet charter; no resistance; by the destroyer *Joseph P. Kennedy, Jr.*; not the reason for choosing her). Check: the days, Ball giving the boarding as of Friday morning. Check: Thomas, 225, has the *Marucla* Lebanese-registered, carrying dry goods. See [[cal.1962-10-14.missile-crisis]].'
     src:
       c: b8771df0
       rows:
@@ -4740,6 +4978,7 @@ entries:
         - 'w.sorensen-kennedy 710: A-B'
         - 'w.thomas-robert-kennedy 225: A'
         - 'w.odonnell-johnny-we-hardly-knew 378: ?'
+        - 'w.salinger-with-kennedy 271: ?'
   - id: cal.1962-10-26.missile-crisis-4
     when: Oct. 26
     date: '1962-10-26'
@@ -4977,8 +5216,37 @@ entries:
     date: '1962-10-26'
     thread: missile-crisis-diplomacy
     c: 'The White House, Friday, outside O''Donnell''s office. Rusk has brought John Scali of ABC, with the proposal Fomin made him: the removal of the missiles and a pledge of no more offensive weapons in Cuba for a pledge not to invade. Salinger, finding them there, shouts at Scali, "What the hell are you doing here?"; Rusk: "It''s all right, Pierre. I brought him here." Kennedy hears the proposal and tells Scali to take back that it is acceptable as a basis for a settlement. "But don''t use my name. ... Give them the impression that you talked to me, but don''t say so. Tell them you''ve gotten a favorable response from the highest authority in the government."'
-    n: '[[w.odonnell-johnny-we-hardly-knew]], 379–80 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). See [[cal.1962-10-26.missile-crisis-2]]. Names: Rusk, Scali, Salinger, Kennedy, O''Donnell.'
+    n: '[[w.odonnell-johnny-we-hardly-knew]], 379–80 (O''Donnell''s and Powers''s account); [[w.salinger-with-kennedy]], 274–75 (Rusk brings Scali, with Fomin''s proposal, to the White House; Salinger, in agitation, in the back corridor near the Cabinet Room: "What the hell are you doing here?"; Kennedy instructs Scali to convey that it is an acceptable basis, without attributing it to him; not the words to Scali). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). See [[cal.1962-10-26.missile-crisis-2]]. Names: Rusk, Scali, Salinger, Kennedy, O''Donnell.'
+    src:
+      c: caabe48b
+      rows:
+        - 'w.odonnell-johnny-we-hardly-knew 379–80: ?'
+        - 'w.salinger-with-kennedy 274–75: B, E'
     tags: [name:rusk-dean, name:scali-john-a, name:salinger-pierre, name:kennedy-john-f, name:odonnell-kenneth-p, polity:ussr, polity:cuba]
+    variants:
+      - unit: D
+        witness: w.salinger-with-kennedy
+        reads: 'Salinger: Rusk: "It''s OK, Pierre, I brought him."'
+        at: '275'
+      - unit: A
+        witness: w.salinger-with-kennedy
+        reads: 'Salinger: the back corridor near the Cabinet Room'
+        at: '274'
+  - id: cal.1962-10-26.missile-crisis-13
+    when: Oct. 26
+    date: '1962-10-26'
+    thread: missile-crisis
+    also: [press-and-broadcasting]
+    c: 'Kennedy to Salinger, on the destroyer *Joseph P. Kennedy, Jr.*, which stopped the *Marucla*: "The press will never believe we didn''t stick the Kennedy in the way of the Marucla just to give the family publicity." By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 271. Names: Kennedy, Salinger.'
+    tags: [name:kennedy-john-f, name:salinger-pierre]
+  - id: cal.1962-10-26.missile-crisis-diplomacy-3
+    when: Oct. 26
+    date: '1962-10-26'
+    thread: missile-crisis-diplomacy
+    c: '7:35 p.m., the Statler Hotel coffee shop. Scali to Fomin (Feklisov): the United States government "sees real possibilities in this," the word from "the highest sources." Fomin asks whether UN inspectors could also check the American bases in Florida and nearby countries; Scali: a terrible complication. Fomin will report at once to the highest Soviet sources and to Zorin. Twenty minutes. By Scali''s memorandum, printed by Salinger.'
+    n: '[[w.salinger-with-kennedy]], 275–76 (Scali''s second memorandum). See [[cal.1962-10-26.missile-crisis-diplomacy-2]]. Names: Scali, Feklisov, Zorin.'
+    tags: [name:scali-john-a, name:feklisov-aleksandr, name:zorin-valerian]
   - id: cal.1962-10-27.missile-crisis-2
     when: Oct. 27
     date: '1962-10-27'
@@ -5008,7 +5276,7 @@ entries:
     thread: missile-crisis
     also: [robert-kennedy]
     c: 'Black Saturday. Anderson''s U-2 shot down over Cuba; another strays over Siberia. That night Robert Kennedy to Dobrynin: the Jupiters to go, privately.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 520–23 (the U-2; Robert Kennedy and Dobrynin); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 213–14, 222; [[w.poole-joint-chiefs-of-staff]], 180–81; [[w.rusk-as-i-saw-it-1990]], 240–42 (the U-2s; the Oval Office meeting that sent Robert Kennedy to Dobrynin, by Rusk''s account); [[w.dobrynin-in-confidence]], 89–91 (the U-2 down; the generals "spoiling for a fight"; the Jupiters out in four to five months, nothing said publicly; an answer by Sunday; by Dobrynin''s report written that night); [[w.fursenko-khrushchevs-cold-war]], 489 (Anderson''s U-2; Robert Kennedy and Dobrynin, late Saturday); [[w.sorensen-kennedy]], 713; [[w.thomas-robert-kennedy]], 227–28 (Black Saturday; the U-2 shot down; Robert Kennedy to Dobrynin at 7:45 p.m. at the Justice Department: no quid pro quo, the Jupiters out in four or five months); [[w.sorensen-kennedy]], 713, 715 (the U-2 downed, Anderson; the U-2 over Soviet territory from Alaska; Robert Kennedy with the reply and a strong verbal message to Dobrynin, no word of the Jupiters); [[w.odonnell-johnny-we-hardly-knew]], 382 (the report that Major Rudolf Anderson''s U-2 had been shot down over Cuba, hit by a Soviet surface-to-air missile; not the Siberian flight or Robert Kennedy and Dobrynin); [[w.sorensen-counselor]], 300–01 (Saturday afternoon, Sorensen with Robert Kennedy and Thompson urges the President to answer the first letter and delay the reply to the second for twenty-four to forty-eight hours; the Joint Chiefs remind Kennedy of the understanding to retaliate against a SAM that downs a U-2 and he says, "Let''s wait and see how this exchange of letters plays out," cancelling next day''s low-level flights; of the Alaska U-2 over the Chukotski Peninsula, "There''s always one son-of-a-bitch who doesn''t get the message"). [[w.reeves-president-kennedy]], 410–23 (the U-2; Robert Kennedy and Dobrynin). [[w.fursenko-one-hell-of-a]], 277–78, 281–82. [FRUS 1961–63, XI, doc. 94](https://history.state.gov/historicaldocuments/frus1961-63v11/d94); [doc. 96](https://history.state.gov/historicaldocuments/frus1961-63v11/d96). To check: [[w.dobbs-one-minute-to-midnight]]; [[w.stern-averting-the-final-failure]]; [[w.sherwin-gambling-with-armageddon]]. See [[cal.1962-10-16.missile-crisis]]. Names: Dobrynin, Anderson, Robert F. Kennedy. Check: Fursenko and Naftali have the SA-2 fired at 10:22 a.m. on the order of Pliyev''s deputies, Grechko and Garbuz, Pliyev not reached (277–78).'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 520–23 (the U-2; Robert Kennedy and Dobrynin); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 213–14, 222; [[w.poole-joint-chiefs-of-staff]], 180–81; [[w.rusk-as-i-saw-it-1990]], 240–42 (the U-2s; the Oval Office meeting that sent Robert Kennedy to Dobrynin, by Rusk''s account); [[w.dobrynin-in-confidence]], 89–91 (the U-2 down; the generals "spoiling for a fight"; the Jupiters out in four to five months, nothing said publicly; an answer by Sunday; by Dobrynin''s report written that night); [[w.fursenko-khrushchevs-cold-war]], 489 (Anderson''s U-2; Robert Kennedy and Dobrynin, late Saturday); [[w.sorensen-kennedy]], 713; [[w.thomas-robert-kennedy]], 227–28 (Black Saturday; the U-2 shot down; Robert Kennedy to Dobrynin at 7:45 p.m. at the Justice Department: no quid pro quo, the Jupiters out in four or five months); [[w.sorensen-kennedy]], 713, 715 (the U-2 downed, Anderson; the U-2 over Soviet territory from Alaska; Robert Kennedy with the reply and a strong verbal message to Dobrynin, no word of the Jupiters); [[w.odonnell-johnny-we-hardly-knew]], 382 (the report that Major Rudolf Anderson''s U-2 had been shot down over Cuba, hit by a Soviet surface-to-air missile; not the Siberian flight or Robert Kennedy and Dobrynin); [[w.sorensen-counselor]], 300–01 (Saturday afternoon, Sorensen with Robert Kennedy and Thompson urges the President to answer the first letter and delay the reply to the second for twenty-four to forty-eight hours; the Joint Chiefs remind Kennedy of the understanding to retaliate against a SAM that downs a U-2 and he says, "Let''s wait and see how this exchange of letters plays out," cancelling next day''s low-level flights; of the Alaska U-2 over the Chukotski Peninsula, "There''s always one son-of-a-bitch who doesn''t get the message"); [[w.salinger-with-kennedy]], 272–73 (a U-2 missing over Cuba, shot down, the pilot Major Rudolf Anderson, Jr., certain only Sunday morning; Rusk announces Saturday evening that a U-2 from Alaska strayed over the Chukotski Peninsula, Soviet fighters rising; not "Black Saturday" or Robert Kennedy and Dobrynin). [[w.reeves-president-kennedy]], 410–23 (the U-2; Robert Kennedy and Dobrynin). [[w.fursenko-one-hell-of-a]], 277–78, 281–82. [FRUS 1961–63, XI, doc. 94](https://history.state.gov/historicaldocuments/frus1961-63v11/d94); [doc. 96](https://history.state.gov/historicaldocuments/frus1961-63v11/d96). To check: [[w.dobbs-one-minute-to-midnight]]; [[w.stern-averting-the-final-failure]]; [[w.sherwin-gambling-with-armageddon]]. See [[cal.1962-10-16.missile-crisis]]. Names: Dobrynin, Anderson, Robert F. Kennedy. Check: Fursenko and Naftali have the SA-2 fired at 10:22 a.m. on the order of Pliyev''s deputies, Grechko and Garbuz, Pliyev not reached (277–78).'
     src:
       c: d2f85022
       rows:
@@ -5038,6 +5306,7 @@ entries:
         - 'w.sorensen-kennedy 713, 715: B-D'
         - 'w.odonnell-johnny-we-hardly-knew 382: B'
         - 'w.sorensen-counselor 300–01: B, C'
+        - 'w.salinger-with-kennedy 272–73: B, C'
     tags: [name:kennedy-robert-f, name:dobrynin-anatoly, name:anderson-rudolf-jr]
   - id: cal.1962-10-27.missile-crisis-3
     when: Oct. 27
@@ -5047,13 +5316,14 @@ entries:
     follows:
       - cal.1962-10-27.missile-crisis-5
     c: 'Kennedy''s reply to the letter of Oct. 26, released to the press: the weapons out of Cuba under UN observation, no more brought in; then the quarantine lifted and assurances against an invasion. Work on the bases to stop first.'
-    n: 'Message to Chairman Khrushchev Calling for Removal of Soviet Missiles From Cuba, [1962 Pub. Papers 813](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=873) (Oct. 27, 1962). FRUS 1961–63, VI, doc. [67](https://history.state.gov/historicaldocuments/frus1961-63v06/d67). [[w.sorensen-kennedy]], 714. After [[cal.1962-10-27.missile-crisis-5|the afternoon''s drafting]]. See [[cal.1962-10-16.missile-crisis]]. Names: Kennedy, Khrushchev.'
+    n: 'Message to Chairman Khrushchev Calling for Removal of Soviet Missiles From Cuba, [1962 Pub. Papers 813](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=873) (Oct. 27, 1962). FRUS 1961–63, VI, doc. [67](https://history.state.gov/historicaldocuments/frus1961-63v06/d67). [[w.sorensen-kennedy]], 714; [[w.salinger-with-kennedy]], 272 (the reply released directly to the press at 8 p.m. to hasten its receipt in Moscow, the words quoted; on Robert Kennedy''s suggestion, the second letter ignored; not the work on the bases). After [[cal.1962-10-27.missile-crisis-5|the afternoon''s drafting]]. See [[cal.1962-10-16.missile-crisis]]. Names: Kennedy, Khrushchev.'
     src:
       c: f2c0beee
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=873: all'
         - 'https://history.state.gov/historicaldocuments/frus1961-63v06/d67: all'
         - 'w.sorensen-kennedy 714: all'
+        - 'w.salinger-with-kennedy 272: A, B'
     tags: [name:kennedy-john-f, name:khrushchev-nikita-s]
   - id: cal.1962-10-27.missile-crisis-4
     when: Oct. 27
@@ -5404,6 +5674,21 @@ entries:
     c: 'The White House, the mansion, lunch, after Kennedy''s swim. Robert Kennedy and O''Donnell tell him their talk at the Sans Souci against taking the missiles out of Turkey. Kennedy: "Relax. You fellows ought to know me better than that. I have no intention of taking those missiles out of Turkey. The only reason I asked McNamara to talk to the NATO people about it was because I was wondering what they would say."'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 384 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Robert Kennedy, O''Donnell, Kennedy, McNamara.'
     tags: [name:kennedy-robert-f, name:odonnell-kenneth-p, name:kennedy-john-f, name:mcnamara-robert-s, polity:cuba, polity:turkey]
+  - id: cal.1962-10-27.press-and-broadcasting
+    when: Oct. 27
+    date: '1962-10-27'
+    thread: press-and-broadcasting
+    also: [defense]
+    c: At Kennedy's order, angry that people at Defense and State put out what the press is asked not to print, Sylvester has all Defense officials report in memoranda their press contacts, the questions and their answers. The press protests it as censorship. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 294. Names: Kennedy, Salinger, Sylvester.'
+    tags: [name:salinger-pierre, name:kennedy-john-f, name:sylvester-arthur]
+  - id: cal.1962-10-27.missile-crisis-diplomacy-2
+    when: Oct. 27
+    date: '1962-10-27'
+    thread: missile-crisis-diplomacy
+    c: 'After the second letter, Scali telephones Fomin (Feklisov) at 4 p.m. and meets him a quarter hour later at the Statler. Scali: "a stinking double-cross"; the Turkish formula "completely, totally, utterly and perpetually unacceptable." Fomin: the cable traffic delayed Moscow''s answer; he and Ambassador Dobrynin await a reply. By Scali''s memorandum to Rusk, printed by Salinger.'
+    n: '[[w.salinger-with-kennedy]], 277–78. See [[cal.1962-10-27.missile-crisis-2]]. Names: Scali, Feklisov, Dobrynin, Rusk.'
+    tags: [name:scali-john-a, name:feklisov-aleksandr, name:dobrynin-anatoly, name:rusk-dean]
   - id: cal.1962-10-28.missile-crisis
     when: Oct. 28
     date: '1962-10-28'
@@ -5411,7 +5696,7 @@ entries:
     follows:
       - cal.1962-10-28.soviet-union
     c: 'Radio Moscow: the missiles to be dismantled and returned. Castro refuses inspection.'
-    n: '[FRUS 1961–63, XI, doc. 102](https://history.state.gov/historicaldocuments/frus1961-63v11/d102). Statement by the President Following the Soviet Decision To Withdraw Missiles From Cuba, [1962 Pub. Papers 815](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=875) (Oct. 28, 1962). [[w.reeves-president-kennedy]], 423–24 (the broadcast); [[w.fursenko-one-hell-of-a]], 284–87 (the Presidium at Novo-Ogarevo; Dobrynin''s report read to it; the letter dictated there); [[w.rusk-as-i-saw-it-1990]], 241; [[w.sorensen-kennedy]], 716–17 (the broadcast); [[w.fursenko-khrushchevs-cold-war]], 490, 494 (the broadcast; Castro''s five points: the sanctions, subversion, "piratical attacks," the overflights, Guantánamo; no UN inspectors); [[w.thomas-robert-kennedy]], 230 (Rusk calls Robert Kennedy at the horse show before 10 a.m.; Khrushchev''s retreat broadcast); [[w.sorensen-kennedy]], 720 (Castro, "whoever tries to inspect Cuba must come in battle array," insists on five conditions); [[w.prezidium-tsk-kpss-1954]], III, 374–78 (P 63/I and the text of the message: the arms called offensive to be dismantled, crated and returned to the Soviet Union; not the radio, nor Castro). [[w.ball-past-has-another-pattern]], 307 (the broadcast). After the Presidium of about noon at the dacha; before 10 a.m. in Washington, when Rusk calls Robert Kennedy: [[w.thomas-robert-kennedy]], 230. See [[cal.1962-10-16.missile-crisis]]. Names: Khrushchev, Castro.'
+    n: '[FRUS 1961–63, XI, doc. 102](https://history.state.gov/historicaldocuments/frus1961-63v11/d102). Statement by the President Following the Soviet Decision To Withdraw Missiles From Cuba, [1962 Pub. Papers 815](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=875) (Oct. 28, 1962). [[w.reeves-president-kennedy]], 423–24 (the broadcast); [[w.fursenko-one-hell-of-a]], 284–87 (the Presidium at Novo-Ogarevo; Dobrynin''s report read to it; the letter dictated there); [[w.rusk-as-i-saw-it-1990]], 241; [[w.sorensen-kennedy]], 716–17 (the broadcast); [[w.fursenko-khrushchevs-cold-war]], 490, 494 (the broadcast; Castro''s five points: the sanctions, subversion, "piratical attacks," the overflights, Guantánamo; no UN inspectors); [[w.thomas-robert-kennedy]], 230 (Rusk calls Robert Kennedy at the horse show before 10 a.m.; Khrushchev''s retreat broadcast); [[w.sorensen-kennedy]], 720 (Castro, "whoever tries to inspect Cuba must come in battle array," insists on five conditions); [[w.prezidium-tsk-kpss-1954]], III, 374–78 (P 63/I and the text of the message: the arms called offensive to be dismantled, crated and returned to the Soviet Union; not the radio, nor Castro); [[w.salinger-with-kennedy]], 273 (Salinger hears the radio flash driving to work: Khrushchev agrees to withdraw the missiles and tear down the sites for a guarantee against invasion; not Castro). [[w.ball-past-has-another-pattern]], 307 (the broadcast). After the Presidium of about noon at the dacha; before 10 a.m. in Washington, when Rusk calls Robert Kennedy: [[w.thomas-robert-kennedy]], 230. See [[cal.1962-10-16.missile-crisis]]. Names: Khrushchev, Castro.'
     src:
       c: affedac6
       rows:
@@ -5428,6 +5713,7 @@ entries:
         - 'w.thomas-robert-kennedy 230: A'
         - 'w.sorensen-kennedy 720: B'
         - 'w.prezidium-tsk-kpss-1954 III, 374–78: ?'
+        - 'w.salinger-with-kennedy 273: A'
     tags: [name:castro-fidel, name:khrushchev-nikita-s]
     time_range:
       - 1962-10-28T09:00Z
@@ -5603,7 +5889,7 @@ entries:
     follows:
       - cal.1962-10-28.missile-crisis
     c: 'The Executive Committee, 11:10 a.m., the tenth meeting, Khrushchev''s broadcast read by all beforehand. Bundy: "today was the doves'' day." No air reconnaissance today; the tanker *Graznyy* lying outside the zone, no bloc ship to halt; the UN to take on the surveillance if it will. No gloating, no claim of victory.'
-    n: '[FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 103](https://history.state.gov/historicaldocuments/frus1961-63v11/d103) (Bromley Smith''s summary record). [[w.sorensen-kennedy]], 716–17 (the meeting postponed from 10 to 11 a.m.; the Sunday overflights called off, no ship halted; precautions against the exiles'' raids; "no boasting, no gloating"); [[w.thomas-robert-kennedy]], 231 (the meeting at 11; Bundy on the doves); [[w.odonnell-johnny-we-hardly-knew]], 387–88 (the ExComm after Kennedy''s return from mass; to the suggestion that he appear on television to announce the victory: "There will be none of that. I want no crowing and not a word of gloating from anybody in this government"; not the hour or the business). After the broadcast: FRUS 1961–63, XI, doc. 103 ("had been read by"). See [[cal.1962-10-28.missile-crisis]]. Names: Bundy, McNamara, Rusk, Kennedy.'
+    n: '[FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 103](https://history.state.gov/historicaldocuments/frus1961-63v11/d103) (Bromley Smith''s summary record). [[w.sorensen-kennedy]], 716–17 (the meeting postponed from 10 to 11 a.m.; the Sunday overflights called off, no ship halted; precautions against the exiles'' raids; "no boasting, no gloating"); [[w.thomas-robert-kennedy]], 231 (the meeting at 11; Bundy on the doves); [[w.odonnell-johnny-we-hardly-knew]], 387–88 (the ExComm after Kennedy''s return from mass; to the suggestion that he appear on television to announce the victory: "There will be none of that. I want no crowing and not a word of gloating from anybody in this government"; not the hour or the business); [[w.salinger-with-kennedy]], 273 (the last meeting, drafting the reply hailing the "statesmanlike decision"; the President joins in no triumph; to an adviser who calls him "ten feet tall": "this will wear off in about a week"; not the hour, Bundy or the business). After the broadcast: FRUS 1961–63, XI, doc. 103 ("had been read by"). See [[cal.1962-10-28.missile-crisis]]. Names: Bundy, McNamara, Rusk, Kennedy.'
     src:
       c: b215b369
       rows:
@@ -5611,6 +5897,7 @@ entries:
         - 'w.sorensen-kennedy 716–17: A, C-D, F'
         - 'w.thomas-robert-kennedy 231: A-B'
         - 'w.odonnell-johnny-we-hardly-knew 387–88: F'
+        - 'w.salinger-with-kennedy 273: ?'
     tags: [name:bundy-mcgeorge, name:mcnamara-robert-s, name:rusk-dean, name:kennedy-john-f]
     variants:
       - unit: B
@@ -5727,6 +6014,13 @@ entries:
     c: Peking. Zhou Enlai chairs a rally of more than ten thousand in support of "the heroic Cuban comrades"; a telegram of solidarity to Fidel Castro.
     n: '[[w.jian-zhou-enlai]], 486. To check: *Renmin ribao*, Oct. 29, 1962 (cited by [[w.jian-zhou-enlai]], 764 n.99). Names: Zhou Enlai, Castro.'
     tags: [name:zhou-enlai, name:castro-fidel, polity:prc, polity:cuba]
+  - id: cal.1962-10-28.missile-crisis-diplomacy-4
+    when: Oct. 28
+    date: '1962-10-28'
+    thread: missile-crisis-diplomacy
+    c: '12:55 p.m. Fomin (Feklisov) to Scali: "I am instructed to say that the information you provided yesterday was very helpful to the Chairman in making up his mind quickly." By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 278. See [[cal.1962-10-28.missile-crisis]]. Names: Feklisov, Scali.'
+    tags: [name:feklisov-aleksandr, name:scali-john-a, name:khrushchev-nikita-s]
   - id: cal.1962-10-29.japan-and-korea
     when: Oct. 29
     date: '1962-10-29'
@@ -5900,6 +6194,28 @@ entries:
     c: Peking orders its troops to halt all operations.
     n: '[[w.jian-zhou-enlai]], 482. Made public: Check. See [[cal.1962-10-24.south-asia-2]].'
     tags: [polity:prc, polity:india]
+  - id: cal.1962-10-29.press-and-broadcasting
+    when: Oct. 29
+    date: '1962-10-29'
+    thread: press-and-broadcasting
+    c: 'Sylvester to Richard Fryklund of the *Washington Star*: covering the blockade was harder than covering World War II. "In the kind of world we live in the generation of news by the government becomes one weapon in a strained situation. The results, in my opinion, justify the means." By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 285, 295–96 (the newspaper societies'' resolutions after; "generation of news" becomes "management of the news"). Names: Sylvester.'
+    tags: [name:sylvester-arthur]
+  - id: cal.1962-10-29.missile-crisis-3
+    when: Oct. 29
+    date: '1962-10-29'
+    thread: missile-crisis
+    also: [soviet-union]
+    c: 'The ExComm, after a report that an American plane was fired on over a Cuban air base. Kennedy asks Thompson whether Zhukov is important; Thompson will see him Friday; Rusk has not been asked. Kennedy: "Pierre must outrank both of you. Zhukov is seeing him for lunch on Wednesday." By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 280. Names: Kennedy, Thompson, Zhukov, Rusk, Salinger.'
+    tags: [name:kennedy-john-f, name:thompson-llewellyn-e, name:rusk-dean, name:salinger-pierre]
+  - id: cal.1962-10-29.missile-crisis-diplomacy
+    when: Oct. 29
+    date: '1962-10-29'
+    thread: missile-crisis-diplomacy
+    c: 'Scali with Fomin (Feklisov) again, at Kennedy''s suggestion. Fomin: Castro "a very hard person to control"; is the time right for a summit? Rusk should talk with Dobrynin three times a day. Scali: the President is determined to try again on disarmament; no wish to humiliate Khrushchev. By Scali''s report, printed by Salinger.'
+    n: '[[w.salinger-with-kennedy]], 278–79. Names: Scali, Feklisov, Kennedy, Castro, Rusk, Dobrynin, Khrushchev.'
+    tags: [name:scali-john-a, name:feklisov-aleksandr, name:kennedy-john-f, name:castro-fidel, name:rusk-dean, name:dobrynin-anatoly, name:khrushchev-nikita-s]
   - id: cal.1962-10-30.missile-crisis
     when: Oct. 30
     date: '1962-10-30'
@@ -6689,3 +7005,18 @@ entries:
     c: 'At the White House''s request Goodwin works with Schlesinger on the draft of Stevenson''s speech for the United Nations: its subject, the Soviet missiles in Cuba. Goodwin is then to go with Dillon to Mexico City, to the meeting of the Latin American foreign ministers, to explain Kennedy''s naval quarantine before he announces it.'
     n: '[[w.goodwin-remembering-america]], 217 (Goodwin''s account; he did not take part in the secret deliberations). Names: Goodwin, Schlesinger, Stevenson, Dillon, Kennedy. Check: the day; "In mid-October of 1962" (217).'
     tags: [name:goodwin-richard-n, name:schlesinger-arthur-m-jr, name:stevenson-adlai-e, name:dillon-c-douglas, name:kennedy-john-f]
+  - id: cal.1962-10-31.press-and-broadcasting
+    when: Oct. 31
+    date: '1962-10-31'
+    thread: press-and-broadcasting
+    c: The State Department adopts the rule that its officials report their press contacts by memorandum, a mistake there, Salinger tells Kennedy, and Manning thinks so more strongly. Suspended within a month, by Manning's letter to the Department's officials. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 294–95. Check: the day ("four days later" than Oct. 27). See [[cal.1962-10-27.press-and-broadcasting]]. Names: Salinger, Kennedy, Manning.'
+    tags: [name:salinger-pierre, name:kennedy-john-f, name:manning-robert-j]
+  - id: cal.1962-10-31.missile-crisis-settlement
+    when: Oct. 31
+    date: '1962-10-31'
+    thread: missile-crisis-settlement
+    also: [soviet-union]
+    c: 'Washington, the Rive Gauche. Salinger lunches with Yuri Zhukov of *Pravda* and Bolshakov. Salinger: the secret missiles and the lies to Kennedy a harsh blow; Khrushchev must remove missiles and launchers. Zhukov: neither side must show weakness; he sounds out a summit, which Reston thought premature the day before, and complains of State''s report that Castro told Latin American Communists to sabotage, and of the film *We''ll Bury You*. No separate treaty with East Germany after the elections. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 281–82. Names: Salinger, Zhukov, Bolshakov, Kennedy, Khrushchev, Reston, Castro.'
+    tags: [name:salinger-pierre, name:bolshakov-georgi, name:kennedy-john-f, name:khrushchev-nikita-s, name:reston-james, name:castro-fidel]

@@ -308,7 +308,12 @@ entries:
     thread: elections-1964
     also: [states-and-cities]
     c: 'California''s Senate primaries. Democratic: Salinger, the President''s press secretary, over Cranston, State Controller, endorsed by the California Democratic Council, 1,177,517 to 1,037,748, 44.3 percent; Engle, who withdrew Apr. 28, 119,967. Republican: Murphy over Leland Kaiser, 1,121,591 to 689,323, 54.1 percent of the three.'
-    n: 'Votes: [Cal. *Statement of Vote*, June 2, 1964, p. 8](https://archive.org/details/castatem196264cali/page/n127). Check: Engle''s percentage. To check: [[w.hill-dancing-bear]]; [[w.schuparra-triumph-of-the-right]]. See [[cal.1964-06-02.elections-1964]]. Names: Salinger, Engle, Cranston, Kaiser, Murphy.'
+    n: 'Votes: [Cal. *Statement of Vote*, June 2, 1964, p. 8](https://archive.org/details/castatem196264cali/page/n127). [[w.salinger-with-kennedy]], 353 (the primary on June 2; Salinger''s margin; Murphy the Republican nominee over Kaiser "in a breeze"; not the votes). Check: Engle''s percentage. To check: [[w.hill-dancing-bear]]; [[w.schuparra-triumph-of-the-right]]. See [[cal.1964-06-02.elections-1964]]. Names: Salinger, Engle, Cranston, Kaiser, Murphy.'
+    src:
+      c: 41116cba
+      rows:
+        - 'https://archive.org/details/castatem196264cali/page/n127: all'
+        - 'w.salinger-with-kennedy 353: A'
     tags: [state:ca, name:salinger-pierre, name:cranston-alan, name:engle-clair, name:murphy-george, name:kaiser-leland]
     time_range:
       - 1964-06-03T03:00Z
@@ -317,6 +322,11 @@ entries:
     time_zone: America/Los_Angeles
     range_basis: kind
     polls_close: 'Polls close 7–8 p.m. PDT: *Projections—Predictions* Hearings, [14 (Table A), 37](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=41), [38](https://www.govinfo.gov/content/pkg/CHRG-90shrg82635/pdf/CHRG-90shrg82635.pdf#page=42) (1967).'
+    variants:
+      - unit: B
+        witness: w.salinger-with-kennedy
+        reads: 'Salinger: "My final margin on June 2, 1964, was 174,000."'
+        at: '353'
   - id: cal.1964-06-02.governors-sd
     when: June 2
     date: '1964-06-02'

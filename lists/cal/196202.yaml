@@ -667,7 +667,12 @@ entries:
     thread: berlin-and-vienna
     also: [soviet-union]
     c: Powers exchanged for Abel on the Glienicke Bridge; Pryor freed at Checkpoint Charlie. Donovan negotiated.
-    n: '[FRUS 1961–63, V, doc. 153](https://history.state.gov/historicaldocuments/frus1961-63v05/d153). To check: [[w.donovan-strangers-on-a-bridge]]. See [[cal.1961-06-03.berlin-and-vienna]]. Names: Powers, Abel, Pryor, Donovan.'
+    n: '[FRUS 1961–63, V, doc. 153](https://history.state.gov/historicaldocuments/frus1961-63v05/d153). [[w.salinger-with-kennedy]], 122 (the exchange of Abel for Powers on the Glienicker Bridge, 8:16 a.m. in Berlin; not Pryor or Donovan). To check: [[w.donovan-strangers-on-a-bridge]]. See [[cal.1961-06-03.berlin-and-vienna]]. Names: Powers, Abel, Pryor, Donovan.'
+    src:
+      c: 8c493531
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v05/d153: all'
+        - 'w.salinger-with-kennedy 122: A'
     tags: [name:powers-francis-gary, name:abel-rudolf, name:pryor-frederic-l, name:donovan-james-b]
   - id: cal.1962-02-10.governors-mi
     when: Feb. 10
@@ -698,6 +703,14 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Vientiane
     range_basis: kind
+  - id: cal.1962-02-10.berlin-and-vienna-2
+    when: Feb. 10
+    date: '1962-02-10'
+    thread: berlin-and-vienna
+    also: [press-and-broadcasting]
+    c: 3:16 a.m. Salinger's press conference, the White House regulars called in within forty minutes by his office's automatic dialing. He announces the exchange of Abel for Powers, made at 8:16 a.m. in Berlin on the Glienicker Bridge. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 122. See [[cal.1962-02-10.berlin-and-vienna]]. Names: Salinger, Abel, Powers.'
+    tags: [name:salinger-pierre, name:abel-rudolf, name:powers-francis-gary]
   - id: cal.1962-02-11.vietnam
     when: Feb. 11
     date: '1962-02-11'
@@ -870,6 +883,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-02-13.soviet-union
+    when: Feb. 13
+    date: '1962-02-13'
+    thread: soviet-union
+    c: 'Bolshakov tells Salinger that Khrushchev accepts all the arrangements for the television exchange but the date: May 25, not March 18. Salinger agrees. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 214. Names: Bolshakov, Salinger, Khrushchev.'
+    tags: [name:salinger-pierre, name:bolshakov-georgi, name:khrushchev-nikita-s]
   - id: cal.1962-02-14.robert-kennedy-trip
     when: Feb. 14–15
     date: '1962-02-14'
@@ -889,9 +909,18 @@ entries:
     date: '1962-02-14'
     thread: press-and-broadcasting
     c: Jacqueline Kennedy's tour of the White House, CBS and NBC. About fifty million viewers.
-    n: 'Recording (K–J Adm. II.I). See [[cal.1961-01-25.press-and-broadcasting]]. Names: Jacqueline Kennedy.'
+    n: 'Recording (K–J Adm. II.I). [[w.salinger-with-kennedy]], 116 (the hour-long tour; CBS''s proposal, NBC and ABC demand tapes; Kennedy overrules Salinger, so CBS shares it; not the audience). See [[cal.1961-01-25.press-and-broadcasting]]. Names: Jacqueline Kennedy.'
+    src:
+      c: 893fd52a
+      rows:
+        - 'w.salinger-with-kennedy 116: ?'
     tags: [name:kennedy-jacqueline]
     short: the White House tour
+    variants:
+      - unit: A
+        witness: w.salinger-with-kennedy
+        reads: 'Salinger: Mrs. Kennedy''s hour-long tour was CBS''s, and at Kennedy''s ruling shared with NBC and ABC, who had demanded it for simultaneous telecast on all three networks'
+        at: '116'
   - id: cal.1962-02-14.vietnam
     when: Feb. 14
     date: '1962-02-14'
@@ -1090,6 +1119,14 @@ entries:
       rows:
         - 'w.marolda-united-states-navy-and 172: all'
         - 'via x.1962-01-17.cpflt-170301z-patrol: all'
+  - id: cal.1962-02-17.vietnam
+    when: Feb. 17
+    date: '1962-02-17'
+    thread: vietnam
+    also: [press-and-broadcasting]
+    c: A cable to Tokyo orders Charles Davis, the USIS press officer there, to Saigon, to "work directly with the American press, particularly on military matters." By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 321. Names: Davis.'
+    tags: []
   - id: cal.1962-02-18.vietnam
     when: Feb. 18
     date: '1962-02-18'
@@ -1230,6 +1267,14 @@ entries:
     time_band: workday daytime
     time_zone: Pacific/Honolulu
     range_basis: kind
+  - id: cal.1962-02-19.vietnam-2
+    when: Feb. 19
+    date: '1962-02-19'
+    thread: vietnam
+    also: [press-and-broadcasting]
+    c: Honolulu. Davis with Nolting, Harkins, Sylvester and Rowan, who bring the draft of the new press policy for Vietnam, cabled also to Saigon. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 321–22. See [[cal.1962-02-17.vietnam]]. Names: Davis, Nolting, Harkins, Sylvester, Rowan.'
+    tags: [name:harkins-paul-d, name:sylvester-arthur, name:rowan-carl-t]
   - id: cal.1962-02-20.space
     when: Feb. 20
     date: '1962-02-20'
@@ -1412,7 +1457,7 @@ entries:
     thread: vietnam
     also: [press-and-broadcasting]
     c: 'State, Defense and USIA to Saigon, cable 1006, on the press: "maximum feasible cooperation, guidance and appeal to good faith of correspondents"; the Ambassador to decide when newsmen go on missions. "This is not a US war"; no stories of Americans leading combat; no numbers of Americans or details of matériel.'
-    n: '[FRUS 1961–63, II, doc. 75](https://history.state.gov/historicaldocuments/frus1961-63v02/d75). [[w.moyar-triumph-forsaken]], 149 (the directive, at Kennedy''s order by Moyar''s account; reporters kept off helicopter missions after it). [[w.selverstone-kennedy-withdrawal]], 58 (the guidance, by Rusk''s cable, drafted by Rowan). To check: [[w.salinger-with-kennedy]]. See [[cal.1962-01-03.vietnam]]. Check: Moyar, 149, quotes the cable against "frivolous, thoughtless criticism" of the Saigon government; read the whole text.'
+    n: '[FRUS 1961–63, II, doc. 75](https://history.state.gov/historicaldocuments/frus1961-63v02/d75). [[w.moyar-triumph-forsaken]], 149 (the directive, at Kennedy''s order by Moyar''s account; reporters kept off helicopter missions after it); [[w.salinger-with-kennedy]], 322–23 (the press guidance of Feb. 21, 1962, "Cable 1006," drafted by Rowan with Cottrell for State, Defense and USIA: cooperation with the press, an appeal to the correspondents'' good faith, the war "a Vietnamese one" with Americans only training, advising and supporting; not the text, the Ambassador''s decision on missions or the bans). [[w.selverstone-kennedy-withdrawal]], 58 (the guidance, by Rusk''s cable, drafted by Rowan). See [[cal.1962-01-03.vietnam]]. Check: Moyar, 149, quotes the cable against "frivolous, thoughtless criticism" of the Saigon government; read the whole text.'
     src:
       c: e8b7d390
       rows:
@@ -1421,6 +1466,7 @@ entries:
         - 'via w.moyar-triumph-forsaken 149 n.4: A-B'
         - 'w.selverstone-kennedy-withdrawal 58: C-D'
         - 'via w.selverstone-kennedy-withdrawal 58 n.31: C-D'
+        - 'w.salinger-with-kennedy 322–23: ?'
   - id: cal.1962-02-21.cuba
     when: Feb. 21
     date: '1962-02-21'
@@ -2308,3 +2354,19 @@ entries:
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 580 n.: all'
     tags: [name:kennedy-john-f]
+  - id: cal.1962-02-28.soviet-union
+    when: Feb. 28
+    date: '1962-02-28'
+    thread: soviet-union
+    also: [press-and-broadcasting, testing]
+    c: 'New York, the Carlyle. Salinger, privately, with Kintner and Goodman of NBC, Stanton of CBS and Hagerty for ABC. They grumble at not being told sooner, and agree to run the first exchange on May 25. As they leave, Bundy telephones: Kennedy will announce the resumption of atmospheric tests on March 2 if the networks give the time; all agree. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 214–15. Names: Salinger, Kintner, Stanton, Hagerty, Bundy, Kennedy.'
+    tags: [name:salinger-pierre, name:kintner-robert-e, name:stanton-frank, name:hagerty-james-c, name:bundy-mcgeorge, name:kennedy-john-f]
+  - id: cal.1962-02.vietnam
+    when: Feb., early
+    date: 1962-02
+    thread: vietnam
+    also: [press-and-broadcasting]
+    c: Kennedy with Rusk. Rowan argues for loosening the press policies in Vietnam. Kennedy approves a new press policy for the field, "maximum" cooperation between the mission and the press, and a change of the information officers in Saigon. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 321. Check: the day ("early in February"). Names: Kennedy, Rusk, Rowan.'
+    tags: [name:kennedy-john-f, name:rusk-dean, name:rowan-carl-t]

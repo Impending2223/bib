@@ -161,6 +161,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-05-01.soviet-union
+    when: May 1
+    date: '1962-05-01'
+    thread: soviet-union
+    c: 'The Soviet Embassy. Salinger lunches with the new ambassador, Dobrynin, four days before leaving for Moscow. Dobrynin: Khrushchev''s letters to Kennedy will now go through him, not Bolshakov and Salinger; he wants the widest relationship with Americans in and out of government. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 220–21. Check: the day ("four days before my departure" on May 5). Names: Dobrynin, Salinger, Khrushchev, Kennedy, Bolshakov.'
+    tags: [name:salinger-pierre, name:dobrynin-anatoly, name:khrushchev-nikita-s, name:kennedy-john-f, name:bolshakov-georgi]
   - id: cal.1962-05-02.court
     when: May 2
     date: '1962-05-02'
@@ -1747,11 +1754,12 @@ entries:
     date: 1962-05
     thread: press-and-broadcasting
     c: The White House cancels its *New York Herald Tribune* subscriptions. Check the month.
-    n: '[[w.sorensen-kennedy]], 317 (the cancellation, after the Estes stories). To check: [[w.salinger-with-kennedy]]. See [[cal.1961-01-25.press-and-broadcasting]].'
+    n: '[[w.sorensen-kennedy]], 317 (the cancellation, after the Estes stories); [[w.salinger-with-kennedy]], 118 (Kennedy tells Salinger several times to cancel the subscription, then orders McNally; the story hits the papers; for months copies bootlegged; after the Estes and stockpile stories; not the month). See [[cal.1961-01-25.press-and-broadcasting]].'
     src:
       c: '41649893'
       rows:
         - 'w.sorensen-kennedy 317: A'
+        - 'w.salinger-with-kennedy 118: A'
     tags: [name:kennedy-john-f]
     short: the *Herald Tribune* cancelled
   - id: cal.1962-05-29.legislatures-tn
@@ -2363,3 +2371,10 @@ entries:
     c: 'McNamara urges Prime Minister Sarit to raise an airborne regiment, a reserve to be moved quickly, as Lemnitzer advised. Sarit agrees if the United States furnishes the equipment and the money; McNamara: the Thais can pay for it themselves. No agreement.'
     n: '[[w.poole-joint-chiefs-of-staff]], 135 & n.49 (no day; on the same visit). Check: the day. To check: "Visit to SEA by the Secretary of Defense, 8–11 May 1962," JMF 9150/5420 (14 May 62) sec. 1 (cited by [[w.poole-joint-chiefs-of-staff]], 135 n.49). See [[cal.1962-05.laos-2]]. Names: McNamara, Sarit, Lemnitzer.'
     tags: [name:mcnamara-robert-s, name:sarit-thanarat, name:lemnitzer-lyman-l, polity:th]
+  - id: cal.1962-05.berlin-and-vienna
+    when: May
+    date: 1962-05
+    thread: berlin-and-vienna
+    c: 'Bonn. On Salinger''s visit to confer with American and West German information officers, Adenauer''s two press conferences read as against further American–Soviet talks on Berlin. Foreign Minister Schröder summons Salinger to the chancellery: Adenauer was misunderstood. Salinger thinks the press read him rightly and cables Schröder''s explanation to Kennedy. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 221–22. Check: the day (between the departure of May 5 and the arrival in Moscow on May 11). Names: Salinger, Adenauer, Schröder, Kennedy.'
+    tags: [name:salinger-pierre, name:schroder-gerhard, name:adenauer-konrad, name:kennedy-john-f]
