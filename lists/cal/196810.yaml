@@ -9,13 +9,14 @@ entries:
     thread: court-fortas
     also: [confirmations]
     c: Fortas. The Senate's debate on taking up the nomination, from Sept. 25; Griffin among its leaders. Cloture refused, [45–43](https://voteview.com/rollcall/RS0900570), two-thirds of those voting needed. Fortas asks Johnson the same day to withdraw his name.
-    n: '[[w.longley-lbjs-1968]], 181 (cloture refused, 45–43; Fortas''s letter); [[w.califano-triumph-and-tragedy-of]], 317 (45–43, the majority Johnson wanted for Fortas). The Senate sat from noon to 5:45 p.m.: [Daily Digest, D453](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=451). To check: [[w.shogan-question-of-judgment]]. See [[cal.1968-07-11.court]]. Names: Fortas, Griffin, Johnson.'
+    n: '[[w.longley-lbjs-1968]], 181 (cloture refused, 45–43; Fortas''s letter); [[w.califano-triumph-and-tragedy-of]], 317 (45–43, the majority Johnson wanted for Fortas); [[w.dallek-flawed-giant]], 564 (the cloture vote fails 45 to 43, "well short of the required two-thirds"; Fortas asks Johnson to withdraw his nomination; not "of those voting," the debate, Griffin or the day of Fortas''s request). The Senate sat from noon to 5:45 p.m.: [Daily Digest, D453](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=451). To check: [[w.shogan-question-of-judgment]]. See [[cal.1968-07-11.court]]. Names: Fortas, Griffin, Johnson.'
     src:
       c: e3906b45
       rows:
         - 'https://voteview.com/rollcall/RS0900570: D'
         - 'w.longley-lbjs-1968 181: D-E'
         - 'w.califano-triumph-and-tragedy-of 317: ?'
+        - 'w.dallek-flawed-giant 564: ?'
     tags: [name:fortas-abe, name:griffin-robert-p, name:johnson-lyndon-b]
     short: cloture on Fortas refused
     time_range:
@@ -133,6 +134,13 @@ entries:
       rows:
         - 'w.solberg-hubert-humphrey 385: all'
     tags: [name:humphrey-hubert-h, polity:us]
+  - id: cal.1968-10-01.court-2
+    when: Oct. 1
+    date: '1968-10-01'
+    thread: court
+    c: 'Johnson, privately to a journalist: if he had another four-year term, "the Fortas appointment would have been different."'
+    n: '[[w.dallek-flawed-giant]], 564. Check: the day, from Dallek''s note (564 n.41), which dates the meeting with David Wise. To check: LBJ meeting with David Wise, Oct. 1, 1968, WHCF: Aides: Christian (cited by [[w.dallek-flawed-giant]], 564 n.41). See [[cal.1968-10-01.court]]. Names: Johnson, Fortas.'
+    tags: [name:johnson-lyndon-b, name:fortas-abe]
   - id: cal.1968-10-02.conservation
     when: Oct. 2
     date: '1968-10-02'
@@ -177,7 +185,7 @@ entries:
     thread: court-fortas
     also: [confirmations]
     c: 'Johnson withdraws Fortas''s nomination, "with deep regret": the Senate''s action "historically and constitutionally tragic"; let it be "no precedent." Thornberry''s nomination falls with it.'
-    n: 'Statement by the President Upon Withdrawing the Nomination of Justice Abe Fortas as Chief Justice of the United States, [1968–69 Pub. Papers 1000](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=310) (Oct. 2, 1968). [[w.longley-lbjs-1968]], 181–82; [[w.califano-triumph-and-tragedy-of]], 317 (Fortas asks the withdrawal later on Oct. 1). [[w.clifford-counsel-to-the-president-2]], 557–58 (Johnson''s call to Clifford; Clifford urges each to call the other; the withdrawal asked that day). See [[cal.1968-07-11.court]]. Names: Fortas, Johnson, Thornberry.'
+    n: 'Statement by the President Upon Withdrawing the Nomination of Justice Abe Fortas as Chief Justice of the United States, [1968–69 Pub. Papers 1000](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=310) (Oct. 2, 1968). [[w.longley-lbjs-1968]], 181–82; [[w.califano-triumph-and-tragedy-of]], 317 (Fortas asks the withdrawal later on Oct. 1); [[w.dallek-flawed-giant]], 564 (Johnson withdraws the nomination; Dallek dates it Oct. 1; not the words of the statement). [[w.clifford-counsel-to-the-president-2]], 557–58 (Johnson''s call to Clifford; Clifford urges each to call the other; the withdrawal asked that day). See [[cal.1968-07-11.court]]. Names: Fortas, Johnson, Thornberry.'
     src:
       c: f6ab32d6
       rows:
@@ -185,14 +193,26 @@ entries:
         - 'w.longley-lbjs-1968 181–82: A'
         - 'w.clifford-counsel-to-the-president-2 557–58: A, C'
         - 'w.califano-triumph-and-tragedy-of 317: ?'
+        - 'w.dallek-flawed-giant 564: ?'
     tags: [name:fortas-abe, name:johnson-lyndon-b, name:thornberry-william-h]
+    variants:
+      - unit: A
+        witness: w.dallek-flawed-giant
+        reads: Fortas asked the President to withdraw his nomination, which he did on October 1
+        at: '564'
   - id: cal.1968-10-02.testing-missile-talks
     when: Oct. 2
     date: '1968-10-02'
     thread: testing-missile-talks
     also: [soviet-union, vietnam]
     c: 'New York. Gromyko hands Rusk Moscow''s answer: basic principles for limiting and then reducing strategic arms to be set at the meeting; on Vietnam, nothing new.'
-    n: 'FRUS 1964–68, XI, doc. [287](https://history.state.gov/historicaldocuments/frus1964-68v11/d287); XIV, doc. [307](https://history.state.gov/historicaldocuments/frus1964-68v14/d307). See [[cal.1968-09-09.soviet-union]]. Names: Gromyko, Rusk.'
+    n: 'FRUS 1964–68, XI, doc. [287](https://history.state.gov/historicaldocuments/frus1964-68v11/d287); XIV, doc. [307](https://history.state.gov/historicaldocuments/frus1964-68v14/d307). [[w.dallek-flawed-giant]], 581 (Oct. 2, Rusk discusses Vietnam with Gromyko, stressing the three conditions for a bombing halt; Rusk to Johnson: "Under no circumstances must Harriman know of these exchanges"; not the strategic arms answer). See [[cal.1968-09-09.soviet-union]]. Names: Gromyko, Rusk.'
+    src:
+      c: 8ccb01da
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v11/d287: all'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v14/d307: all'
+        - 'w.dallek-flawed-giant 581: ?'
     tags: [name:gromyko-andrei, name:rusk-dean]
     time_range:
       - 1968-10-02T13:00Z
@@ -545,7 +565,12 @@ entries:
     date: '1968-10-09'
     thread: vietnam-paris
     c: 'Paris. At the tea break, Harriman and Vance: Saigon''s place in the talks after a halt "utterly indispensable."'
-    n: 'FRUS 1964–68, VII, doc. [54](https://history.state.gov/historicaldocuments/frus1964-68v07/d54). Made public: FRUS 1964–68, VII (2003). See [[cal.1968-09-07.vietnam]]. Names: Harriman, Vance.'
+    n: 'FRUS 1964–68, VII, doc. [54](https://history.state.gov/historicaldocuments/frus1964-68v07/d54). [[w.dallek-flawed-giant]], 582 (Oct. 9, that afternoon, the North Vietnamese delegates say they are ready to discuss the presence of the GVN at the talks in a private conversation later that week; not the tea break or the words of B). Made public: FRUS 1964–68, VII (2003). See [[cal.1968-09-07.vietnam]]. Names: Harriman, Vance.'
+    src:
+      c: f98a0342
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v07/d54: all'
+        - 'w.dallek-flawed-giant 582: ?'
     tags: [name:harriman-w-averell, name:vance-cyrus]
     short: Saigon's place
     time_range:
@@ -743,7 +768,7 @@ entries:
     date: '1968-10-11'
     thread: vietnam-paris
     c: 'Paris, at Sceaux, in private: Lê Đức Thọ''s two questions: would the bombing stop once Hanoi answered on Saigon''s participation, and would that answer be counted a condition? Vance, by telephone: "Tho then said if the U.S. gave a positive response, the DRV would give a positive response."'
-    n: 'FRUS 1964–68, VII, doc. [58](https://history.state.gov/historicaldocuments/frus1964-68v07/d58). [[w.nguyen-hanois-war]], 124–25; [[w.white-making-of-the-president-1969]], 377–78; [[w.solberg-hubert-humphrey]], 390 (Hanoi''s offer: if the bombing stops, it will drop its resistance to Saigon''s part). Made public: FRUS 1964–68, VII (2003). [[w.clifford-counsel-to-the-president-2]], 574 (the question at the safe house; Clifford at Bonn). See [[cal.1968-09-07.vietnam]]. Names: Lê Đức Thọ, Vance.'
+    n: 'FRUS 1964–68, VII, doc. [58](https://history.state.gov/historicaldocuments/frus1964-68v07/d58). [[w.nguyen-hanois-war]], 124–25; [[w.white-making-of-the-president-1969]], 377–78; [[w.solberg-hubert-humphrey]], 390 (Hanoi''s offer: if the bombing stops, it will drop its resistance to Saigon''s part); [[w.dallek-flawed-giant]], 582 (Oct. 11, the North Vietnamese want to know whether the United States would stop bombing in return for including Saigon at the peace table; not Sceaux, Thọ or Vance''s words). Made public: FRUS 1964–68, VII (2003). [[w.clifford-counsel-to-the-president-2]], 574 (the question at the safe house; Clifford at Bonn). See [[cal.1968-09-07.vietnam]]. Names: Lê Đức Thọ, Vance.'
     src:
       c: 8ac1fe12
       rows:
@@ -753,6 +778,7 @@ entries:
         - 'w.clifford-counsel-to-the-president-2 574: A'
         - 'w.white-making-of-the-president-1969 377–78: all'
         - 'w.solberg-hubert-humphrey 390: A'
+        - 'w.dallek-flawed-giant 582: ?'
     tags: [name:le-duc-tho, name:vance-cyrus]
     time_range:
       - 1968-10-11T08:00Z
@@ -909,7 +935,7 @@ entries:
     date: '1968-10-14'
     thread: vietnam-paris
     c: 'Johnson with Rusk, Clifford, Wheeler, Taylor, Helms and Rostow: Wheeler agrees with Abrams, no military objection. Instructions to Harriman and Vance: the bombing to stop if Hanoi agrees "to begin serious talks the next day" with Saigon on the American side; the DMZ and the cities as before.'
-    n: 'FRUS 1964–68, VII, docs. [65](https://history.state.gov/historicaldocuments/frus1964-68v07/d65), [68](https://history.state.gov/historicaldocuments/frus1964-68v07/d68), [74](https://history.state.gov/historicaldocuments/frus1964-68v07/d74). [[w.johnson-vantage-point]], 515–16 (the meeting; the Joint Chiefs the same day); [[w.drea-mcnamara-clifford-and-the-2011]], 231 (Abrams and Bunker: no large enemy offensive possible). Made public: FRUS 1964–68, VII (2003). [[w.clifford-counsel-to-the-president-2]], 575–76 (Johnson with the Chiefs, Westmoreland and Russell; the evening meeting, all for the instructions; the condition of talks within a day added without Clifford). See [[cal.1968-09-07.vietnam]]. Names: Johnson, Rusk, Clifford, Wheeler, Taylor, Helms, Rostow, Abrams, Harriman, Vance.'
+    n: 'FRUS 1964–68, VII, docs. [65](https://history.state.gov/historicaldocuments/frus1964-68v07/d65), [68](https://history.state.gov/historicaldocuments/frus1964-68v07/d68), [74](https://history.state.gov/historicaldocuments/frus1964-68v07/d74). [[w.johnson-vantage-point]], 515–16 (the meeting; the Joint Chiefs the same day); [[w.drea-mcnamara-clifford-and-the-2011]], 231 (Abrams and Bunker: no large enemy offensive possible); [[w.dallek-flawed-giant]], 582–83 (Oct. 11–14, cables and White House discussions: Johnson asks Bunker, Abrams, Rusk, Clifford, Helms, Wheeler, Taylor, the Chiefs and Thiệu to review Hanoi''s proposal; at one meeting, "We resume bombing" if Hanoi violates the understandings; "Let''s try it"; not the day of each, Wheeler''s agreement or the instructions). Made public: FRUS 1964–68, VII (2003). [[w.clifford-counsel-to-the-president-2]], 575–76 (Johnson with the Chiefs, Westmoreland and Russell; the evening meeting, all for the instructions; the condition of talks within a day added without Clifford). See [[cal.1968-09-07.vietnam]]. Names: Johnson, Rusk, Clifford, Wheeler, Taylor, Helms, Rostow, Abrams, Harriman, Vance.'
     src:
       c: 9fbbfc39
       rows:
@@ -917,6 +943,7 @@ entries:
         - 'w.johnson-vantage-point 515–16: all'
         - 'w.clifford-counsel-to-the-president-2 575–76: A-B'
         - 'w.drea-mcnamara-clifford-and-the-2011 231: ?'
+        - 'w.dallek-flawed-giant 582–83: ?'
     tags: [name:johnson-lyndon-b, name:rusk-dean, name:clifford-clark, name:wheeler-earle, name:taylor-maxwell, name:helms-richard, name:rostow-walt-w, name:abrams-creighton, name:harriman-w-averell, name:vance-cyrus]
     time_range:
       - 1968-10-14T13:00Z
@@ -1986,7 +2013,7 @@ entries:
     time: 1968-10-27T14:30Z
     thread: vietnam-paris
     c: 'Paris: Hanoi agrees to a first meeting some three days after the halt; Vance: "We have now got everything we have asked for." Rusk, that evening: "I smell Vodka and Caviar in it."'
-    n: '[[w.nguyen-hanois-war]], 128; [[w.rusk-as-i-saw-it-1990]], 487 (Hanoi''s agreement); [[w.drea-mcnamara-clifford-and-the-2011]], 231–32 (talks within four days of the halt); [[w.solberg-hubert-humphrey]], 393 (Sunday, Oct. 27; Vance that night: "We''ve got everything we asked for"). Made public: FRUS 1964–68, VII (2003). [[w.clifford-counsel-to-the-president-2]], 579–81 (the meeting at 7:30 p.m.; Rusk: "I smell vodka and caviar in this proposal"; Clifford: "If ten steps once separated us, they have taken eight and we have taken two"; Taylor for it; Johnson: "I think we are being herded into this under pressure"; Abrams sent for). [FRUS 1964–68, VII, doc. 128](https://history.state.gov/historicaldocuments/frus1964-68v07/d128); [doc. 129](https://history.state.gov/historicaldocuments/frus1964-68v07/d129). See [[cal.1968-09-07.vietnam]]. Names: Vance, Rusk.'
+    n: '[[w.nguyen-hanois-war]], 128; [[w.rusk-as-i-saw-it-1990]], 487 (Hanoi''s agreement); [[w.drea-mcnamara-clifford-and-the-2011]], 231–32 (talks within four days of the halt); [[w.solberg-hubert-humphrey]], 393 (Sunday, Oct. 27; Vance that night: "We''ve got everything we asked for"); [[w.dallek-flawed-giant]], 584 (Oct. 27, both sides agree that the President will announce a halt on Oct. 31 and the talks start Nov. 2; not Vance''s or Rusk''s words). Made public: FRUS 1964–68, VII (2003). [[w.clifford-counsel-to-the-president-2]], 579–81 (the meeting at 7:30 p.m.; Rusk: "I smell vodka and caviar in this proposal"; Clifford: "If ten steps once separated us, they have taken eight and we have taken two"; Taylor for it; Johnson: "I think we are being herded into this under pressure"; Abrams sent for). [FRUS 1964–68, VII, doc. 128](https://history.state.gov/historicaldocuments/frus1964-68v07/d128); [doc. 129](https://history.state.gov/historicaldocuments/frus1964-68v07/d129). See [[cal.1968-09-07.vietnam]]. Names: Vance, Rusk.'
     src:
       c: 8dd6b29d
       rows:
@@ -1998,6 +2025,7 @@ entries:
         - 'w.drea-mcnamara-clifford-and-the-2011 231–32: ?'
         - 'w.solberg-hubert-humphrey 393: A-B'
         - 'via x.1983-05-03.cyrus-vance-interview-solberg: B'
+        - 'w.dallek-flawed-giant 584: ?'
     tags: [name:vance-cyrus, name:rusk-dean]
     variants:
       - unit: A
@@ -2010,13 +2038,14 @@ entries:
     thread: elections-1968-chennault
     also: [vietnam]
     c: Bùi Diễm cables Saigon again the advice of Nixon's campaign; the cable intercepted.
-    n: 'FRUS 1964–68, VII, doc. [145](https://history.state.gov/historicaldocuments/frus1964-68v07/d145), n. 2 (Rostow to Johnson, Oct. 29). Made public: FRUS 1964–68, VII (2003). [[w.clifford-counsel-to-the-president-2]], 582 (the cable quoted: "The longer the present situation continues, the more we are favored. ... I am regularly in touch with the Nixon entourage"); [[w.solberg-hubert-humphrey]], 394–95 (Bùi Diễm to Thiệu, Oct. 27: "The longer the present situation continues, the more we are favored"; "I am still in contact with the Nixon entourage"; if Nixon wins, an unofficial representative to Saigon; not the advice of Nixon''s campaign, nor this cable''s interception, which the page implies only). See [[cal.1968-10-23.elections-1968]]. Names: Bùi Diễm, Nixon.'
+    n: 'FRUS 1964–68, VII, doc. [145](https://history.state.gov/historicaldocuments/frus1964-68v07/d145), n. 2 (Rostow to Johnson, Oct. 29). Made public: FRUS 1964–68, VII (2003). [[w.clifford-counsel-to-the-president-2]], 582 (the cable quoted: "The longer the present situation continues, the more we are favored. ... I am regularly in touch with the Nixon entourage"); [[w.solberg-hubert-humphrey]], 394–95 (Bùi Diễm to Thiệu, Oct. 27: "The longer the present situation continues, the more we are favored"; "I am still in contact with the Nixon entourage"; if Nixon wins, an unofficial representative to Saigon; not the advice of Nixon''s campaign, nor this cable''s interception, which the page implies only); [[w.dallek-flawed-giant]], 587 (Oct. 27, Chennault conveys "via Bui Diem apparently authoritative Republican messages urging Mr. Thieu to abort or cripple the [Paris] deal by refusing to participate"; Johnson learns of them on the 29th from intercepted South Vietnamese Embassy cables; not the word "again"). See [[cal.1968-10-23.elections-1968]]. Names: Bùi Diễm, Nixon.'
     src:
       c: bd966834
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v07/d145: all'
         - 'w.clifford-counsel-to-the-president-2 582: A'
         - 'w.solberg-hubert-humphrey 394–95: ?'
+        - 'w.dallek-flawed-giant 587: ?'
     tags: [name:bui-diem, name:nixon-richard-m]
     time_range:
       - 1968-10-27T14:00Z
@@ -2129,7 +2158,7 @@ entries:
     time: 1968-10-29T07:30Z
     thread: vietnam-paris
     c: '2:30 a.m., the Cabinet Room: Abrams, called home from Saigon, with Johnson, Rusk, Clifford, Wheeler, Taylor, Helms and Rostow: the halt, in his judgment, no added danger to American forces. Saigon: Thiệu, with his National Security Council, will not go to the Nov. 2 meeting on the terms agreed; the halt held a day.'
-    n: 'FRUS 1964–68, VII, docs. [140](https://history.state.gov/historicaldocuments/frus1964-68v07/d140), [149](https://history.state.gov/historicaldocuments/frus1964-68v07/d149), [150](https://history.state.gov/historicaldocuments/frus1964-68v07/d150). [[w.johnson-vantage-point]], 520–22; [[w.herring-lbj-and-vietnam]], 18, 173 (Abrams called home in secret; his assurance); [[w.drea-mcnamara-clifford-and-the-2011]], 232 (Abrams unconditionally for a cessation); [[w.solberg-hubert-humphrey]], 393 (Abrams, traveling secretly as a sergeant; to Johnson: "You can stop the bombing of North Vietnam without hurt to our men"). [[w.longley-lbjs-1968]], 232–34 (the meeting with Abrams; its second sitting, 6:20 a.m.). Made public: FRUS 1964–68, VII (2003). [[w.clifford-counsel-to-the-president-2]], 585–90 (the meeting at 2:30 a.m., Abrams''s answers quoted; at 6 a.m., Rusk''s call: Thiệu has reneged; the Cabinet Room again; the Tuesday lunch; at 6:30 p.m., the delay to Nov. 4). See [[cal.1968-09-07.vietnam]]. Names: Abrams, Johnson, Rusk, Clifford, Wheeler, Taylor, Helms, Rostow, Nguyễn Văn Thiệu. Check: Herring gives the meeting at 2:30 a.m. (18) and at 2:45 a.m. (173).'
+    n: 'FRUS 1964–68, VII, docs. [140](https://history.state.gov/historicaldocuments/frus1964-68v07/d140), [149](https://history.state.gov/historicaldocuments/frus1964-68v07/d149), [150](https://history.state.gov/historicaldocuments/frus1964-68v07/d150). [[w.johnson-vantage-point]], 520–22; [[w.herring-lbj-and-vietnam]], 18, 173 (Abrams called home in secret; his assurance); [[w.drea-mcnamara-clifford-and-the-2011]], 232 (Abrams unconditionally for a cessation); [[w.solberg-hubert-humphrey]], 393 (Abrams, traveling secretly as a sergeant; to Johnson: "You can stop the bombing of North Vietnam without hurt to our men"); [[w.dallek-flawed-giant]], 586 (the early morning meeting of Oct. 29 with military and diplomatic advisers: Johnson confirms his intention to stop the bombing; at 6:04 a.m. Rusk: Thiệu sees three days as too short to get a delegation to Paris; Johnson: "We can''t walk out, quit, split"; not the hour of the meeting, Abrams or the day held). [[w.longley-lbjs-1968]], 232–34 (the meeting with Abrams; its second sitting, 6:20 a.m.). Made public: FRUS 1964–68, VII (2003). [[w.clifford-counsel-to-the-president-2]], 585–90 (the meeting at 2:30 a.m., Abrams''s answers quoted; at 6 a.m., Rusk''s call: Thiệu has reneged; the Cabinet Room again; the Tuesday lunch; at 6:30 p.m., the delay to Nov. 4). See [[cal.1968-09-07.vietnam]]. Names: Abrams, Johnson, Rusk, Clifford, Wheeler, Taylor, Helms, Rostow, Nguyễn Văn Thiệu. Check: Herring gives the meeting at 2:30 a.m. (18) and at 2:45 a.m. (173).'
     src:
       c: d26503d4
       rows:
@@ -2143,6 +2172,7 @@ entries:
         - 'via w.clifford-counsel-to-the-president-2 587 n.18: B'
         - 'w.drea-mcnamara-clifford-and-the-2011 232: ?'
         - 'w.solberg-hubert-humphrey 393: A'
+        - 'w.dallek-flawed-giant 586: ?'
     tags: [name:abrams-creighton, name:johnson-lyndon-b, name:rusk-dean, name:clifford-clark, name:wheeler-earle, name:taylor-maxwell, name:helms-richard, name:rostow-walt-w, name:nguyen-van-thieu, place:saigon]
     variants:
       - unit: A
@@ -2156,7 +2186,12 @@ entries:
     thread: elections-1968-chennault
     also: [vietnam]
     c: 'Walt Rostow to Johnson: "There is no hard evidence that Mr. Nixon himself is involved"; the materials "so explosive that they could gravely damage the country whether Mr. Nixon is elected or not."'
-    n: 'FRUS 1964–68, VII, doc. [145](https://history.state.gov/historicaldocuments/frus1964-68v07/d145). Made public: FRUS 1964–68, VII (2003). See [[cal.1968-10-23.elections-1968]]. Names: Walt Rostow, Johnson, Nixon.'
+    n: 'FRUS 1964–68, VII, doc. [145](https://history.state.gov/historicaldocuments/frus1964-68v07/d145). [[w.dallek-flawed-giant]], 585–86 (Oct. 29, Rostow tells Johnson of Eugene Rostow''s talk with Alexander Sachs; Walt Rostow sees "no hard evidence that Mr. Nixon himself is involved"; the Rostows think the information "explosive"). Made public: FRUS 1964–68, VII (2003). See [[cal.1968-10-23.elections-1968]]. Names: Walt Rostow, Johnson, Nixon.'
+    src:
+      c: 1c61fcf9
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v07/d145: all'
+        - 'w.dallek-flawed-giant 585–86: A'
     tags: [name:rostow-walt-w, name:johnson-lyndon-b, name:nixon-richard-m]
   - id: cal.1968-10-29.vietnam-paris
     when: Oct. 29
@@ -2192,12 +2227,13 @@ entries:
     date: '1968-10-30'
     thread: vietnam-paris
     c: 'Lâu: Hanoi will do without the agreed secret minute. Johnson with his advisers on the hour of the halt and of its announcement. Paris, 1:30 a.m., Oct. 31: Harriman and Vance tell Thủy and Lâu the President will order the halt that evening, the meeting Nov. 6.'
-    n: 'FRUS 1964–68, VII, docs. [153](https://history.state.gov/historicaldocuments/frus1964-68v07/d153), [156](https://history.state.gov/historicaldocuments/frus1964-68v07/d156), [158](https://history.state.gov/historicaldocuments/frus1964-68v07/d158). Made public: FRUS 1964–68, VII (2003). [[w.clifford-counsel-to-the-president-2]], 591–92 (Johnson''s call during the 8:30 meeting; Clifford in the Cabinet Room: "it is horseshit!"; Johnson: "Tell Bunker we are ready to go tonight"; the halt Oct. 31, the meeting Nov. 6; at 4 p.m., "the constant harassing, and persuasive and eloquent argument of a fellow named Clifford"). See [[cal.1968-09-07.vietnam]]. Names: Hà Văn Lâu, Harriman, Vance, Xuân Thủy, Johnson.'
+    n: 'FRUS 1964–68, VII, docs. [153](https://history.state.gov/historicaldocuments/frus1964-68v07/d153), [156](https://history.state.gov/historicaldocuments/frus1964-68v07/d156), [158](https://history.state.gov/historicaldocuments/frus1964-68v07/d158). Made public: FRUS 1964–68, VII (2003). [[w.clifford-counsel-to-the-president-2]], 591–92 (Johnson''s call during the 8:30 meeting; Clifford in the Cabinet Room: "it is horseshit!"; Johnson: "Tell Bunker we are ready to go tonight"; the halt Oct. 31, the meeting Nov. 6; at 4 p.m., "the constant harassing, and persuasive and eloquent argument of a fellow named Clifford"); [[w.dallek-flawed-giant]], 587 (the White House meeting of Oct. 30: Clifford on Thiệu''s reply, "calculated, planned program to delay, to get through November 5 ... This message is ''horseshit''"; Johnson has Rusk tell Bunker "we are ready to go tonight," the halt the following day and the first plenary meeting Nov. 6; not Lâu or the hour). See [[cal.1968-09-07.vietnam]]. Names: Hà Văn Lâu, Harriman, Vance, Xuân Thủy, Johnson.'
     src:
       c: 72a08d5c
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v07/d153: all'
         - 'w.clifford-counsel-to-the-president-2 591–92: B-C'
+        - 'w.dallek-flawed-giant 587: ?'
     tags: [name:ha-van-lau, name:harriman-w-averell, name:vance-cyrus, name:xuan-thuy, name:johnson-lyndon-b]
   - id: cal.1968-10-30.elections-1968-chennault
     when: Oct. 30
@@ -2268,7 +2304,7 @@ entries:
     thread: vietnam-paris
     also: [elections-1968]
     c: 'Address to the nation, 8 p.m.: "all air, naval, and artillery bombardment of North Vietnam" to cease at 8 a.m., Washington time, Nov. 1. The Paris meeting of Nov. 6 one "at which the representatives of the Government of South Vietnam are free to participate"; the NLF to be present, "in no way" recognized. "We cannot have productive talks in an atmosphere where the cities are being shelled and where the demilitarized zone is being abused." Johnson had told Humphrey, Nixon and Wallace by conference call, 6:05 p.m. Bunker to Thiệu: the President "had decided that he must go ahead."'
-    n: 'The President''s Address to the Nation Upon Announcing His Decision To Halt the Bombing of North Vietnam, [1968–69 Pub. Papers 1099](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=409) (Oct. 31, 1968). FRUS 1964–68, VII, docs. [164](https://history.state.gov/historicaldocuments/frus1964-68v07/d164) (Johnson to Kosygin), [166](https://history.state.gov/historicaldocuments/frus1964-68v07/d166), [167](https://history.state.gov/historicaldocuments/frus1964-68v07/d167), [169](https://history.state.gov/historicaldocuments/frus1964-68v07/d169), [170](https://history.state.gov/historicaldocuments/frus1964-68v07/d170). [[w.frankum-like-rolling-thunder]], 64 (the end of Rolling Thunder); [[w.cosmas-joint-chiefs-of-staff]], 234–35 (the address); [[w.drea-mcnamara-clifford-and-the-2011]], 199 (the address; the talks to open five days later); [[w.johnson-vantage-point]], 525–28; [[w.nixon-rn]], 322 (the conference call, by Nixon''s account); [[w.chester-american-melodrama]], 733–34 (the address; Clifford''s press conference); [[w.clifford-counsel-to-the-president-2]], 592–93 (the address taped Oct. 30, three sentences added Oct. 31, quoted; the call to the candidates at 6 p.m.; Bunker''s seven hours with Thiệu; the Chiefs'' letter: "a perfectly acceptable military risk"); [[w.rusk-as-i-saw-it-1990]], 489; [[w.califano-triumph-and-tragedy-of]], 327–28 (Johnson: "the most important decision" he had ever made; Thiệu''s refusal the next day; Finch: "hastily contrived"; Humphrey would not use the Chennault material); [[w.solberg-hubert-humphrey]], 395 (the conference call a few hours before the address: "by some of our folks, even including some of the old China lobbyists, that a better deal might be made with another president"; Wallace, Nixon, "We''ll back you," Humphrey last); [[w.zaroulis-who-spoke-up]], 202–03 (Oct. 31: Johnson on television halts all bombing of North Vietnam; Paris talks among four sides, the NLF included; the bombing of the Ho Chi Minh Trail in Laos to continue). [[w.longley-lbjs-1968]], 239–41 (the conference call; the address). [[w.mcpherson-political-education]], 441–43 (the struggle over a full halt; Bunker''s three days with the South Vietnamese). See [[cal.1968-05-13.vietnam]]. Names: Johnson, Humphrey, Nixon, Wallace, Bunker, Nguyễn Văn Thiệu.'
+    n: 'The President''s Address to the Nation Upon Announcing His Decision To Halt the Bombing of North Vietnam, [1968–69 Pub. Papers 1099](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=409) (Oct. 31, 1968). FRUS 1964–68, VII, docs. [164](https://history.state.gov/historicaldocuments/frus1964-68v07/d164) (Johnson to Kosygin), [166](https://history.state.gov/historicaldocuments/frus1964-68v07/d166), [167](https://history.state.gov/historicaldocuments/frus1964-68v07/d167), [169](https://history.state.gov/historicaldocuments/frus1964-68v07/d169), [170](https://history.state.gov/historicaldocuments/frus1964-68v07/d170). [[w.frankum-like-rolling-thunder]], 64 (the end of Rolling Thunder); [[w.cosmas-joint-chiefs-of-staff]], 234–35 (the address); [[w.drea-mcnamara-clifford-and-the-2011]], 199 (the address; the talks to open five days later); [[w.johnson-vantage-point]], 525–28; [[w.nixon-rn]], 322 (the conference call, by Nixon''s account); [[w.chester-american-melodrama]], 733–34 (the address; Clifford''s press conference); [[w.clifford-counsel-to-the-president-2]], 592–93 (the address taped Oct. 30, three sentences added Oct. 31, quoted; the call to the candidates at 6 p.m.; Bunker''s seven hours with Thiệu; the Chiefs'' letter: "a perfectly acceptable military risk"); [[w.rusk-as-i-saw-it-1990]], 489; [[w.califano-triumph-and-tragedy-of]], 327–28 (Johnson: "the most important decision" he had ever made; Thiệu''s refusal the next day; Finch: "hastily contrived"; Humphrey would not use the Chennault material); [[w.solberg-hubert-humphrey]], 395 (the conference call a few hours before the address: "by some of our folks, even including some of the old China lobbyists, that a better deal might be made with another president"; Wallace, Nixon, "We''ll back you," Humphrey last); [[w.zaroulis-who-spoke-up]], 202–03 (Oct. 31: Johnson on television halts all bombing of North Vietnam; Paris talks among four sides, the NLF included; the bombing of the Ho Chi Minh Trail in Laos to continue); [[w.dallek-flawed-giant]], 587–88 (Bunker''s final run at Thiệu, Oct. 30–31, nine hours in three meetings on the 31st: Thiệu refuses to go to Paris before the election; Johnson''s final meeting with his advisers, the address at 8 that evening, the bombing to stop at 8 the next morning; the conference call to Humphrey, Nixon and Wallace at 6:05 p.m.). [[w.longley-lbjs-1968]], 239–41 (the conference call; the address). [[w.mcpherson-political-education]], 441–43 (the struggle over a full halt; Bunker''s three days with the South Vietnamese). See [[cal.1968-05-13.vietnam]]. Names: Johnson, Humphrey, Nixon, Wallace, Bunker, Nguyễn Văn Thiệu.'
     src:
       c: 9191c2df
       rows:
@@ -2294,6 +2330,7 @@ entries:
         - 'w.solberg-hubert-humphrey 395: E'
         - 'via x.1968-10-31.harry-middleton-notes-meeting-in-cabinet-room: E'
         - 'w.zaroulis-who-spoke-up 202–03: ?'
+        - 'w.dallek-flawed-giant 587–88: E'
     tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:nixon-richard-m, name:wallace-george-c, name:bunker-ellsworth, name:nguyen-van-thieu]
     short: the bombing halt
   - id: cal.1968-10-31.japan-and-korea-pueblo
