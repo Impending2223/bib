@@ -199,6 +199,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-11-03.china-2
+    when: Nov. 3
+    date: '1962-11-03'
+    thread: china
+    c: 'Mao Zedong approves Luo Ruiqing''s proposal of a special committee under the Center for the atomic industry: it is to tackle its work "by going all out in coordination."'
+    n: '[[w.jian-zhou-enlai]], 515–16. Made public: Check (2013 at the latest). To check: [[w.zedong-mao-zedong-nianpu]], V, 167 (cited by [[w.jian-zhou-enlai]], 767 n.100). See [[cal.1962-10-30.china]]. Names: Mao Zedong, Luo Ruiqing.'
+    tags: [name:mao-zedong, name:luo-ruiqing, polity:prc]
   - id: cal.1962-11-04.missile-crisis
     when: Nov. 4
     date: '1962-11-04'
@@ -229,6 +236,14 @@ entries:
       rows:
         - 'w.smith-on-his-own-terms 384: all'
     tags: [name:rockefeller-nelson, name:morgenthau-robert-m, state:ny]
+  - id: cal.1962-11-04.south-asia
+    when: Nov. 4
+    date: '1962-11-04'
+    thread: south-asia
+    also: [china]
+    c: 'Zhou Enlai to Nehru, by letter, again: a call to reopen talks on the boundary.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 71 ("十一月四日，周恩来总理再次写信给尼赫鲁总理，呼吁重开谈判解决中印边界问题"). To check: the letter''s text. See [[cal.1962-10-24.south-asia-3]]. Names: Zhou Enlai, Nehru.'
+    tags: [name:zhou-enlai, name:nehru-jawaharlal, polity:prc, polity:india]
   - id: cal.1962-11-05.cuba
     when: Nov. 5
     date: '1962-11-05'
@@ -1498,6 +1513,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-11-09.japan
+    when: Nov. 9
+    date: '1962-11-09'
+    thread: japan
+    also: [china]
+    c: Liao Chengzhi and Tatsunosuke Takasaki sign a trade memorandum, the ground of what became the L-T trade agreement.
+    n: '[[w.jian-zhou-enlai]], 505. To check: [[w.zhonghua-renmin-gongheguo-jingji]], 432–33, 469–71 (cited by [[w.jian-zhou-enlai]], 766 n.50). See [[cal.1962-10.japan]].'
+    tags: [polity:prc, polity:japan]
   - id: cal.1962-11-10.middle-east-yemen
     when: Nov. 10
     date: '1962-11-10'
@@ -1841,6 +1864,14 @@ entries:
         - 'w.fursenko-one-hell-of-a 304: all'
         - 'via x.1962-11-17.mikoyan-to-khrushchev: all'
     tags: [name:mikoyan-anastas, name:dorticos-torrado-osvaldo, name:kuznetsov-vasily-v, name:stevenson-adlai-e, name:castro-fidel]
+  - id: cal.1962-11-14.china
+    when: Nov. 14
+    date: '1962-11-14'
+    thread: china
+    also: [south-asia]
+    c: 'The Central Committee''s notice on the border clashes and relations with India: the war has exposed "the true face of Indian reactionaries" and shown "the power and reputation of the Chinese military and the motherland."'
+    n: '[[w.jian-zhou-enlai]], 484. Made public: Check. To check: the Central Committee''s Notice on the Chinese-Indian Border Clashes and Questions Concerning Chinese-Indian Relations, Nov. 14, 1962, 855-6-2288-4, Hebei Provincial Archive (cited by [[w.jian-zhou-enlai]], 764 n.91).'
+    tags: [polity:prc, polity:india]
   - id: cal.1962-11-15.missile-crisis
     when: Nov. 15
     date: '1962-11-15'
@@ -2036,11 +2067,22 @@ entries:
     date: '1962-11-16'
     thread: south-asia
     c: The Chinese break the lull and drive the Indians back on both fronts; by Nov. 19 within thirty miles of the Assam plains.
-    n: '[[w.poole-joint-chiefs-of-staff]], 267. See [[cal.1962-11-19.india-and-china]].'
+    n: '[[w.poole-joint-chiefs-of-staff]], 267; [[w.mao-zedong-zhuan]], V, ch. 71 (India''s troops attack again, Nov. 14–16; China''s second phase, Nov. 16–21, on both fronts: in the east to near the traditional line south of the McMahon line, in the west every Indian post in Aksai Chin cleared; not the Assam plains). [[w.jian-zhou-enlai]], 482 (India''s offensive at Walong, Nov. 14; China''s counteroffensive two days later; not both fronts or the Assam plains). See [[cal.1962-11-19.india-and-china]].'
     src:
       c: 4dfbf60e
       rows:
         - 'w.poole-joint-chiefs-of-staff 267: all'
+        - 'w.mao-zedong-zhuan V, ch. 71: ?'
+        - 'w.jian-zhou-enlai 482: ?'
+    variants:
+      - unit: A
+        witness: w.mao-zedong-zhuan
+        reads: 十一月十四日至十六日，又一次向中国军队发起猛烈进攻。在这种情况下，中国边防军发起了第二阶段自卫反击战，从十一月十六日起
+        at: V, ch. 71
+      - unit: A
+        witness: w.jian-zhou-enlai
+        reads: Indian troops launched a major offensive in the Walong area on November 14. Two days later, the Chinese began a powerful counteroffensive
+        at: '482'
   - id: cal.1962-11-16.missile-crisis-settlement
     when: Nov. 16
     date: '1962-11-16'
@@ -2118,6 +2160,13 @@ entries:
         - 'w.young-two-suns-of-the 60–61: all'
         - 'via x.1962-11-17.coleman-to-goldwater: all'
     tags: [name:goldwater-barry-m, name:rockefeller-nelson]
+  - id: cal.1962-11-17.china
+    when: Nov. 17
+    date: '1962-11-17'
+    thread: china
+    c: The special committee on the atomic industry formally established, Zhou Enlai at its head.
+    n: '[[w.jian-zhou-enlai]], 516 (it meets three times before the month is out). Made public: Check (2013 at the latest). To check: [[w.zhonggong-zhongyang-wenjian-xuanji]], XLI, 426–27 (cited by [[w.jian-zhou-enlai]], 767 n.101). See [[cal.1962-11-03.china-2]]. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc]
   - id: cal.1962-11-18.missile-crisis
     when: Nov. 18
     date: '1962-11-18'
@@ -2173,7 +2222,7 @@ entries:
     thread: south-asia
     also: [china]
     c: 'Nehru asks for American air squadrons. Arms already flying; Harriman''s mission to New Delhi. Nov. 21: China''s cease-fire and withdrawal.'
-    n: 'FRUS 1961–63, XIX, docs. [203](https://history.state.gov/historicaldocuments/frus1961-63v19/d203), [205](https://history.state.gov/historicaldocuments/frus1961-63v19/d205). News Conference, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962). [[w.sorensen-kennedy]], 663; [[w.poole-joint-chiefs-of-staff]], 267–68 (Kennedy announces Harriman''s mission, Nov. 20; the Chinese announce at midnight Nov. 20–21 a cease-fire 24 hours later and a withdrawal from Dec. 1). To check: [[w.galbraith-ambassadors-journal]]; [[w.riedel-jfks-forgotten-crisis]]. See [[cal.1961-12-18.india-and-china]]. Names: Nehru, Harriman, Galbraith.'
+    n: 'FRUS 1961–63, XIX, docs. [203](https://history.state.gov/historicaldocuments/frus1961-63v19/d203), [205](https://history.state.gov/historicaldocuments/frus1961-63v19/d205). News Conference, [1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890) (Nov. 20, 1962). [[w.sorensen-kennedy]], 663; [[w.poole-joint-chiefs-of-staff]], 267–68 (Kennedy announces Harriman''s mission, Nov. 20; the Chinese announce at midnight Nov. 20–21 a cease-fire 24 hours later and a withdrawal from Dec. 1); [[w.mao-zedong-zhuan]], V, ch. 71, and n.4 (the government''s statement, 0:00, Nov. 21: a cease-fire along the whole line from 0:00, Nov. 22; from Dec. 1 a withdrawal twenty kilometers behind the line of actual control of Nov. 7, 1959; checkpoints with civil police on China''s side; the right of self-defense kept). [[w.jian-zhou-enlai]], 482 (announced Nov. 21: the fighting to stop from 12:00 a.m., Nov. 22; from Dec. 1 a withdrawal twenty kilometers behind the line of Nov. 7, 1959). To check: [[w.galbraith-ambassadors-journal]]; [[w.riedel-jfks-forgotten-crisis]]; *Renmin ribao*, Nov. 22, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 71 n.4). See [[cal.1961-12-18.india-and-china]]. Names: Nehru, Harriman, Galbraith.'
     src:
       c: 026a4da5
       rows:
@@ -2181,6 +2230,8 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890: all'
         - 'w.sorensen-kennedy 663: B, C'
         - 'w.poole-joint-chiefs-of-staff 267–68: ?'
+        - 'w.mao-zedong-zhuan V, ch. 71, and n.4: D'
+        - 'w.jian-zhou-enlai 482: D'
     tags: [name:harriman-w-averell, name:nehru-jawaharlal, name:galbraith-john-kenneth]
     short: Nehru's request, Harriman's mission, China's cease-fire
   - id: cal.1962-11-19.oil
@@ -2300,6 +2351,30 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-11-19.china
+    when: Nov. 19
+    date: '1962-11-19'
+    thread: china
+    also: [south-asia]
+    c: Zhongnanhai. Mao Zedong twice calls Zhou Enlai and others to meetings at his residence.
+    n: '[[w.mao-zedong-zhuan]], V, ch. 71; [[w.jian-zhou-enlai]], 482 (Nov. 18: Zhou "rushed to Mao''s residence half an hour" after Mao''s note, and told him this was something new). Made public: Check (2011 at the latest). To check: [[w.zedong-mao-zedong-nianpu]], V, 169; [[w.zhou-enlai-nianpu-1949]], II, 513–14 (cited by [[w.jian-zhou-enlai]], 764 n.85). Names: Mao Zedong, Zhou Enlai. Check: the day (Chen: Nov. 18).'
+    tags: [name:mao-zedong, name:zhou-enlai, polity:prc]
+  - id: cal.1962-11-19.south-asia
+    when: Nov. 19
+    date: '1962-11-19'
+    thread: south-asia
+    also: [china]
+    c: 'Afternoon. Mao Zedong reads in *Cankao ziliao* that India''s Prime Minister and President spoke on Nov. 18 of a peaceful settlement. His note: "突然大谈和平解决。送总理阅。请外交部研究一下，印度领导人过去几天，是否有过十八日这种论调" (suddenly a great deal of talk of a peaceful settlement. To the Premier to read. The Foreign Ministry to look into whether India''s leaders talked this way in the days before the 18th).'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 71 ("同一天下午"); [[w.jian-zhou-enlai]], 482 (Nov. 18; the President, Radhakrishnan, alone; Chen''s translation: "Why suddenly talk so loudly about a peaceful settlement? Please read this. The Foreign Ministry should study whether other Indian leaders have made similar comments in the past several days"). Made public: Check (2011 at the latest). To check: Mao''s note on *Cankao ziliao*, no. 5406, manuscript, Nov. 19, 1962 (cited by [[w.mao-zedong-zhuan]], V, ch. 71 n.3); [[w.zedong-mao-zedong-nianpu]], V, 169 (cited by [[w.jian-zhou-enlai]], 764 n.84). See [[cal.1962-11-19.china]]. Names: Mao Zedong. Check: the day: Chen has Nov. 18.'
+    tags: [name:mao-zedong, polity:prc, polity:india]
+  - id: cal.1962-11-19.south-asia-2
+    when: Nov. 19
+    date: '1962-11-19'
+    thread: south-asia
+    also: [china]
+    c: 'Zhou Enlai and Chen Yi see P. K. Banerjee, India''s chargé d''affaires: "中印两国应该友好下去。我们应该向远处看" (China and India should stay friends. We should look far ahead); Zhou ready to go to Delhi to settle the boundary by talks.'
+    n: '[[w.mao-zedong-zhuan]], V, ch. 71 ("随后", after Mao''s meetings); [[w.jian-zhou-enlai]], 482 (at midnight, after Mao''s note of Nov. 18; Zhou alone: he agrees with Radhakrishnan, talks to resume at once; "I have been to New Delhi four times. I am willing to go there a fifth time"; Banerjee to report to Nehru at once). Made public: Check (1990 at the latest). To check: [[w.zhou-enlai-nianpu-1949]], II, 513–14; [[w.zedong-mao-zedong-nianpu]], V, 169; [[w.banerjee-my-peking-memoire-of]], 72 (cited by [[w.jian-zhou-enlai]], 764 n.86). See [[cal.1962-11-19.south-asia]]. Names: Zhou Enlai, Chen Yi. Check: the day (Chen: midnight, after Nov. 18).'
+    tags: [name:zhou-enlai, name:chen-yi, polity:prc, polity:india]
   - id: cal.1962-11-20.missile-crisis-2
     when: Nov. 20
     date: '1962-11-20'
@@ -2496,6 +2571,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-11-20.south-asia
+    when: Nov. 20
+    date: '1962-11-20'
+    thread: south-asia
+    also: [china]
+    c: Mao Zedong, Liu Shaoqi, Zhou Enlai and others decide to move first and take the initiative to ease the tension on the border.
+    n: '[[w.mao-zedong-zhuan]], V, ch. 71 ("先走一步，主动采取积极的步骤"; the decision: a cease-fire along the whole line and a withdrawal, unasked). Made public: Check (2011 at the latest). See [[cal.1962-11-19.south-asia-2]]. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai.'
+    tags: [name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, polity:prc, polity:india]
   - id: cal.1962-11-21.space
     when: Nov. 21
     date: '1962-11-21'
@@ -2731,6 +2814,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-11-24.china
+    when: Nov. 24
+    date: '1962-11-24'
+    thread: china
+    also: [south-asia]
+    c: 'Zhou Enlai to the National People''s Congress Standing Committee: Nehru unwilling to let go of "his vision of a great Indian empire"; "we needed to fight the war and to fight a big war, as a small war would not work"; the troops pulled back because "we fought the war for justice, not to change the status quo, which can only be changed through negotiation."'
+    n: '[[w.jian-zhou-enlai]], 484 (Chen''s translation; "People''s Congress leaders"). Made public: Check. To check: Zhou''s speech at a meeting of the Standing Committee of the People''s Congress, Nov. 24, 1962, 1057-8-44, Hebei Provincial Archive (cited by [[w.jian-zhou-enlai]], 764 n.94). Names: Zhou Enlai, Nehru. Check: the day (Chen''s text dates none; his note dates the speech Nov. 24).'
+    tags: [name:zhou-enlai, name:nehru-jawaharlal, polity:prc, polity:india]
   - id: cal.1962-11-25.school-aid
     when: Nov. 25
     date: '1962-11-25'
@@ -2821,6 +2912,14 @@ entries:
         - 'via w.reeves-president-kennedy 435 n.kennedy-sat-with-roswell-gilpatric.a: all'
         - 'via w.reeves-president-kennedy 435 n.kennedy-sat-with-roswell-gilpatric.b: all'
     tags: [name:kennedy-john-f, name:gilpatric-roswell-l, name:rockefeller-nelson]
+  - id: cal.1962-11-26.china
+    when: Nov. 26
+    date: '1962-11-26'
+    thread: china
+    also: [south-asia]
+    c: 'Zhou Enlai, by letter, to the leaders of the "Colombo Six": Ceylon, Indonesia, Burma, Cambodia, the United Arab Republic and Ghana, on the war with India.'
+    n: '[[w.jian-zhou-enlai]], 485 (after the cease-fire and withdrawal; Zhou hopes they will support China or at least be neutral). Made public: Check. To check: Zhou''s letter to the leaders of the Colombo Six, Nov. 26, 1962, 105-01786-04, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 764 n.96, "for example"). See [[cal.1962-10-26.china-2]]. Names: Zhou Enlai. Check: the day (Chen''s text dates none; his note dates this letter Nov. 26).'
+    tags: [name:zhou-enlai, polity:prc, polity:india, polity:ceylon, polity:indonesia, polity:burma, polity:cambodia, polity:uar, polity:ghana]
   - id: cal.1962-11-27.states-and-cities
     when: Nov. 27
     date: '1962-11-27'
