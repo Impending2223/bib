@@ -451,14 +451,32 @@ entries:
         - 'w.anderson-confronting-the-color-line 185: all'
         - 'via x.1965-11-02.ccco-minutes: all'
     tags: [name:young-andrew-j-jr, state:il, city:chicago]
+  - id: cal.1965-11-02.elections-1965
+    when: Nov. 2
+    date: '1965-11-02'
+    thread: elections-1965
+    c: Johnson City, Tex. Johnson and Lady Bird Johnson vote first, 8 a.m., the Pedernales Electric Co-op Building, before the press and flashing cameras, Judge McNatt handing them the ballots. Then he leads about twenty cars of press home by country roads, past the Lewis place.
+    n: '[[w.johnson-white-house-diary]], 332–33 (Mrs. Johnson''s account). See [[cal.1965-11-02.state-constitutions-tx]]. Names: Johnson.'
+    tags: [name:johnson-lady-bird, name:johnson-lyndon-b, state:tx]
   - id: cal.1965-11-03.transition-and-staff
     when: Nov. 3
     date: '1965-11-03'
     time: 1965-11-03T17:13Z
     thread: transition-and-staff
     c: 'At the post office in Hye, Tex., near the Ranch: O''Brien, the President''s legislative liaison, sworn as Postmaster General; Gronouski, his predecessor, as Ambassador to Poland.'
-    n: 'Remarks at the Post Office, Hye, Texas, at the Swearing In of Lawrence F. O''Brien as Postmaster General, [1965 Pub. Papers 1093](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=567); Remarks at the LBJ Ranch at the Swearing In of John A. Gronouski as Ambassador to Poland, [1965 Pub. Papers 1091](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=565) (Nov. 3, 1965). To check: [[w.obrien-no-final-victories]]. See [[cal.1965-08-29.transition-and-staff]]. Names: O''Brien, Gronouski. Check: the Public Papers have Gronouski sworn at the LBJ Ranch, 11:13 a.m., and O''Brien at Hye, 11:54 a.m. (1965 Pub. Papers 1091, 1093).'
+    n: 'Remarks at the Post Office, Hye, Texas, at the Swearing In of Lawrence F. O''Brien as Postmaster General, [1965 Pub. Papers 1093](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=567); Remarks at the LBJ Ranch at the Swearing In of John A. Gronouski as Ambassador to Poland, [1965 Pub. Papers 1091](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=565) (Nov. 3, 1965). [[w.johnson-white-house-diary]], 334–35 (O''Brien sworn Postmaster General on the porch of the Hye post office, a country store; not his post before; Gronouski''s swearing-in, a variant). To check: [[w.obrien-no-final-victories]]. See [[cal.1965-08-29.transition-and-staff]]. Names: O''Brien, Gronouski. Check: the Public Papers have Gronouski sworn at the LBJ Ranch, 11:13 a.m., and O''Brien at Hye, 11:54 a.m. (1965 Pub. Papers 1091, 1093).'
+    src:
+      c: 413c25b9
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=567: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=565: all'
+        - 'w.johnson-white-house-diary 334–35: ?'
     tags: [name:johnson-lyndon-b, name:obrien-lawrence-f, name:gronouski-john-a]
+    variants:
+      - unit: B
+        witness: w.johnson-white-house-diary
+        reads: 'at the Ranch, before the drive to Hye: "John Gronouski was sworn in, standing in front of the fireplace," Homer Thornberry administering the oath'
+        at: '334'
   - id: cal.1965-11-03.farm
     when: Nov. 3
     date: '1965-11-03'
@@ -594,6 +612,13 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Vientiane
     range_basis: kind
+  - id: cal.1965-11-03.economy
+    when: Nov. 3
+    date: '1965-11-03'
+    thread: economy
+    c: 'The Ranch. Johnson, on a long drive and then at dinner with Moyers and the newspaper people, in discussing foreign affairs: "this country is in trouble because we cannot any longer make things bigger and better than other countries. We have put Germany and Japan back in business and they are selling their heads off."'
+    n: '[[w.johnson-white-house-diary]], 336. Names: Moyers, Johnson.'
+    tags: [name:johnson-lady-bird, name:johnson-lyndon-b, name:moyers-bill, polity:frg]
   - id: cal.1965-11-04.vietnam
     when: Nov. 4
     date: '1965-11-04'
@@ -2029,6 +2054,13 @@ entries:
       - 1965-11-17T21:00Z
       - 1965-11-18T04:00Z
     time_zone: America/Santiago
+  - id: cal.1965-11-17.europe-and-the-alliance
+    when: Nov. 17
+    date: '1965-11-17'
+    thread: europe-and-the-alliance
+    c: Princess Margaret of Great Britain at the White House, with Lady Bird Johnson in the Queen's Room.
+    n: '[[w.johnson-white-house-diary]], plates following 278 (the caption: "With Princess Margaret of Great Britain in the Queen''s Room, November 17"). To check: the President''s Daily Diary, Nov. 17, 1965. Names: Johnson.'
+    tags: [name:johnson-lady-bird]
   - id: cal.1965-11-18.economy
     when: Nov. 18
     date: '1965-11-18'

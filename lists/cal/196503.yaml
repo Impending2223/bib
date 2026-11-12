@@ -693,6 +693,19 @@ entries:
         - 'w.anderson-confronting-the-color-line pl. 6: B'
         - 'via w.anderson-confronting-the-color-line 152 n.7: all'
     tags: [state:il, city:chicago]
+  - id: cal.1965-03-03.poverty
+    when: Mar. 3
+    date: '1965-03-03'
+    thread: poverty
+    c: Ringling Brothers' circus for six thousand poor children chosen by the United Givers Fund; Lady Bird Johnson, their guest, seated among them, with the press and television in front of her.
+    n: '[[w.johnson-white-house-diary]], 246–47 (Mrs. Johnson''s account). Names: Johnson.'
+    tags: [name:johnson-lady-bird]
+  - id: cal.1965-03-03.soviet-union
+    when: Mar. 3
+    date: '1965-03-03'
+    thread: soviet-union
+    c: Moscow. Another attack on the American Embassy, stones and ink bottles hurled by "mobs of students and other dissidents."
+    n: '[[w.johnson-white-house-diary]], 246 (Mrs. Johnson, Mar. 3: "this week ... another in Moscow"). See [[cal.1965-02-09.soviet-union]]. Check: the day.'
   - id: cal.1965-03-04.transportation
     when: Mar. 4
     date: '1965-03-04'
@@ -1240,17 +1253,23 @@ entries:
     date: '1965-03-07'
     thread: vietnam
     c: 'The family quarters, a late dinner: Johnson with Lady Bird Johnson, Valenti, Clifford, William S. White, and Jack Brooks and Jake Pickle and their wives. "I can''t get out, and I can''t finish it with what I''ve got. And I don''t know what the hell to do." By Mrs. Johnson''s diary.'
-    n: '[[w.kotz-judgment-days]], 286. To check: "Diary of Lady Bird Johnson," Mar. 7, 1965, LBJ Library (cited by [[w.kotz-judgment-days]], 286 n.16). See [[cal.1965-03-06.vietnam-force-levels]]. Names: Johnson, Lady Bird Johnson, Valenti, Clifford, Brooks, Pickle.'
+    n: '[[w.kotz-judgment-days]], 286; [[w.johnson-white-house-diary]], 247–48 (the dinner of Mar. 7: the Bill Whites, the Jack Brookses, Pickle, Clifford, the Valentis; not the hour or the room; Johnson''s words, a variant). To check: "Diary of Lady Bird Johnson," Mar. 7, 1965, LBJ Library (cited by [[w.kotz-judgment-days]], 286 n.16). See [[cal.1965-03-06.vietnam-force-levels]]. Names: Johnson, Lady Bird Johnson, Valenti, Clifford, Brooks, Pickle.'
     src:
       c: 507293dd
       rows:
         - 'w.kotz-judgment-days 286: all'
         - 'via x.1965-03-07.diary-of-lady-bird-johnson: all'
+        - 'w.johnson-white-house-diary 247–48: ?'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:valenti-jack, name:clifford-clark, name:brooks-jack-b, name:pickle-james-j]
     time_range:
       - 1965-03-08T00:00Z
       - 1965-03-08T06:00Z
     time_zone: America/New_York
+    variants:
+      - unit: B
+        witness: w.johnson-white-house-diary
+        reads: I can't get out. I can't finish it with what I have got. So what the Hell can I do?
+        at: '248'
   - id: cal.1965-03-07.voting-rights-selma
     when: Mar. 7
     date: '1965-03-07'
@@ -1319,6 +1338,13 @@ entries:
       rows:
         - 'w.gibbons-u-s-government-and III, 123: all'
     tags: [name:rusk-dean]
+  - id: cal.1965-03-07.press-and-broadcasting-2
+    when: Mar. 7
+    date: '1965-03-07'
+    thread: press-and-broadcasting
+    c: 'The National City Christian Church: the Johnsons, Lynda and Paul Dresser. At the coffee hour, a receiving line; Johnson picks up, bounces and kisses a small girl in red velvet, Kimberley Fry, to the delight of the photographers.'
+    n: '[[w.johnson-white-house-diary]], 247 (Mrs. Johnson''s account). Names: Johnson.'
+    tags: [name:johnson-lady-bird, name:johnson-lyndon-b]
   - id: cal.1965-03-08.vietnam
     when: Mar. 8
     date: '1965-03-08'
@@ -2225,6 +2251,27 @@ entries:
       rows:
         - 'w.kotz-judgment-days 298: all'
         - 'via w.kotz-judgment-days 298 n.40: all'
+  - id: cal.1965-03-09.conservation
+    when: Mar. 9
+    date: '1965-03-09'
+    thread: conservation
+    c: 'Lady Bird Johnson''s Beautification Committee, second meeting, the Yellow Room: Owings shows the Mall''s history and his plan, a sculpture garden, no cars on the Mall, tunnels, a reflecting pool at the Capitol end. Then about thirty by minibus, the press along: Ripley''s plans at the Museum of History and Technology, pansies on the Mall, a park triangle at Maryland and Virginia Avenues, and Greenleaf Gardens, Walter Washington''s, where she speaks briefly.'
+    n: '[[w.johnson-white-house-diary]], 248–49 (Mrs. Johnson''s account; to Udall: all will fail unless the neighborhoods do the work themselves). See [[cal.1965-02-11.conservation]]. Names: Washington, Johnson.'
+    tags: [name:johnson-lady-bird, name:washington-walter-e]
+  - id: cal.1965-03-09.program
+    when: Mar. 9
+    date: '1965-03-09'
+    thread: program
+    c: Connally, in town, joins the Johnsons late at the ninth Congressional reception and, after the Congressional guests leave, talks long with Johnson in the bedroom.
+    n: '[[w.johnson-white-house-diary]], 250 (Mrs. Johnson''s account). See [[cal.1965-03-09.vietnam-congress]]. Made public: 1970. Names: Connally, Johnson.'
+    tags: [name:johnson-lady-bird, name:johnson-lyndon-b, name:connally-john]
+  - id: cal.1965-03-09.vietnam-congress
+    when: Mar. 9
+    date: '1965-03-09'
+    thread: vietnam-congress
+    c: 'The ninth of the ten Congressional receptions, 6:30 p.m.: "the usual working session," a long briefing that ends after 9, "the ladies starving for refreshments."'
+    n: '[[w.johnson-white-house-diary]], 250 (Mrs. Johnson''s account; not the speakers). See [[cal.1965-02-09.vietnam-congress-3]]. Names: Johnson.'
+    tags: [name:johnson-lady-bird, name:johnson-lyndon-b]
   - id: cal.1965-03-10.middle-east
     when: Mar. 10
     date: '1965-03-10'
@@ -2511,7 +2558,7 @@ entries:
     thread: civil-rights-the-executive
     also: [voting-rights-selma]
     c: Twelve demonstrators, six Negro and six white, in with the tourists, sit in in the East Wing corridor of the White House. Johnson forbids ejecting them by force; in the late afternoon integrated teams of police take the ten left to precinct stations in unmarked cars.
-    n: '[[w.branch-at-canaans-edge]], 87–89; [[w.kotz-judgment-days]], 300–301 (in at 11:20 a.m. by Youngblood''s word; Johnson against Lee White''s advice to eject and arrest them; "Let them eat and drink, but don''t let them go to the bathroom"; White, Moyers and Clifford Alexander sent to ask them to meet him; Youngblood''s five teams, a Negro and a white officer each, take the ten out five exits). To check: [President''s Daily Diary, Mar. 11, 1965](https://catalog.archives.gov/id/192450), LBJ Library; *Washington Post*, Mar. 12, 1965, at 1, 10; [*New York Times*, Mar. 12, 1965](https://timesmachine.nytimes.com/timesmachine/1965/03/12/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 87–88). Names: Johnson.'
+    n: '[[w.branch-at-canaans-edge]], 87–89; [[w.kotz-judgment-days]], 300–301 (in at 11:20 a.m. by Youngblood''s word; Johnson against Lee White''s advice to eject and arrest them; "Let them eat and drink, but don''t let them go to the bathroom"; White, Moyers and Clifford Alexander sent to ask them to meet him; Youngblood''s five teams, a Negro and a white officer each, take the ten out five exits); [[w.johnson-white-house-diary]], 250–51 (twelve, "mostly young people," sit in on the ground floor; Johnson decides to let the tourists keep coming, routed away from them; they "had departed, after some urging—very civilly done, I am told, by the police—around 6 o''clock"; not the six and six, the corridor or the arrests). To check: [President''s Daily Diary, Mar. 11, 1965](https://catalog.archives.gov/id/192450), LBJ Library; *Washington Post*, Mar. 12, 1965, at 1, 10; [*New York Times*, Mar. 12, 1965](https://timesmachine.nytimes.com/timesmachine/1965/03/12/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 87–88). Names: Johnson.'
     src:
       c: b77e9a51
       rows:
@@ -2520,6 +2567,7 @@ entries:
         - 'via w.branch-at-canaans-edge 88 n.only-two-of: B'
         - 'w.kotz-judgment-days 300–301: A-C'
         - 'via x.1965-03-11.presidents-daily-diary-mar-11-1965: A-C'
+        - 'w.johnson-white-house-diary 250–51: ?'
     tags: [name:johnson-lyndon-b]
     time_range:
       - 1965-03-11T16:20Z
@@ -2625,12 +2673,13 @@ entries:
     thread: voting-rights-selma
     also: [civil-rights-the-executive]
     c: At night, briefing members of Congress on the voting bill, Johnson learns that Reeb has died. With Lady Bird Johnson and Humphrey, in the family quarters, he telephones Reeb's wife and father.
-    n: '[[w.kotz-judgment-days]], 301; [[w.bernstein-guns-or-butter]], 230 (Mrs. Reeb flown to Birmingham). Check: Bernstein, 230, has Johnson told that Reeb had been clubbed, at a congressional reception, and telephone Mrs. Reeb then. To check: [[w.johnson-white-house-diary]], 251 (cited by [[w.kotz-judgment-days]], 301 n.48). See [[cal.1965-03-09.voting-rights]]. Names: Johnson, Reeb, Lady Bird Johnson, Humphrey.'
+    n: '[[w.kotz-judgment-days]], 301; [[w.bernstein-guns-or-butter]], 230 (Mrs. Reeb flown to Birmingham); [[w.johnson-white-house-diary]], 251 (at the Congressional reception, "when the news came that the Reverend Reeb had died, Lyndon and I excused ourselves for a helpless, painful talk with Mrs. Reeb"; not Humphrey, the father or the telephone). Check: Bernstein, 230, has Johnson told that Reeb had been clubbed, at a congressional reception, and telephone Mrs. Reeb then. See [[cal.1965-03-09.voting-rights]]. Names: Johnson, Reeb, Lady Bird Johnson, Humphrey.'
     src:
       c: 6fd4d39b
       rows:
         - 'w.kotz-judgment-days 301: all'
         - 'w.bernstein-guns-or-butter 230: B'
+        - 'w.johnson-white-house-diary 251: ?'
     tags: [name:johnson-lyndon-b, name:reeb-james-j, name:johnson-lady-bird, name:humphrey-hubert-h]
     time_range:
       - 1965-03-11T23:00Z
@@ -2708,6 +2757,13 @@ entries:
       rows:
         - 'w.kotz-judgment-days 297: all'
     tags: [name:forman-james, name:king-martin-luther-jr, name:johnson-frank-m-jr]
+  - id: cal.1965-03-11.latin-america
+    when: Mar. 11
+    date: '1965-03-11'
+    thread: latin-america
+    c: 'Lunch at the Venezuelan Embassy, Mrs. Tejera Paris hostess, for the wives of the Latin American Ambassadors; Lady Bird Johnson guest of honor, riding with Mrs. Sevilla-Sacasa, wife of the dean of the Corps. The State Department''s precedence difficulties: Venezuela has no relations with some neighbors.'
+    n: '[[w.johnson-white-house-diary]], 250–51 (Mrs. Johnson''s account). Names: Johnson.'
+    tags: [name:johnson-lady-bird]
   - id: cal.1965-03-12.opinion
     when: Mar. 12
     date: '1965-03-12'
@@ -3199,7 +3255,7 @@ entries:
     time: 1965-03-16T02:02Z
     thread: voting-rights
     c: 'Johnson to a joint session, at night, on television: "The American Promise." "So it was last week in Selma, Alabama." A voting bill to strike down the restrictions used to deny Negroes the vote, in all elections; "their cause must be our cause too. ... And we shall overcome." A written message the same day.'
-    n: 'Special Message to the Congress: The American Promise, [1965 Pub. Papers 281](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=357) (Mar. 15, 1965); Special Message to the Congress on the Right To Vote, [1965 Pub. Papers 287](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=363) (Mar. 15, 1965). [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-6-2.pdf) (1965). Recording (K–J Adm. II.I). [President''s Daily Diary, Mar. 15, 1965](https://catalog.archives.gov/id/192454), images 5, 6 (LBJ Library; National Archives Catalog). [[w.garrow-bearing-the-cross]], 408–09; [[w.branch-at-canaans-edge]], 101, 104, 110–15; [[w.sundquist-politics-and-policy]], 273–74; [[w.mann-walls-of-jericho]], 460–63 (the address); [[w.califano-triumph-and-tragedy-of]], 56 ("And we shall overcome"; a Southern member beside McPherson: "Goddamn!"); [[w.kotz-judgment-days]], 307 ("What happened in Selma was an American tragedy"); [[w.zelizer-fierce-urgency-of-now]], 213–14 (9 p.m.; thirty-nine ovations; "And, we shall overcome"); [[w.kotz-judgment-days]], 308–13 (through the northwest gate at 8:30 p.m.; a television audience of 70 million; "There is only an American problem"; "And — we — shall — overcome!"; Cotulla; forty interruptions for applause); [[w.bernstein-guns-or-butter]], 235–36 (Goodwin''s draft; Valenti feeding Johnson a page at a time by 6:00; an audience of 70 million; forty-two minutes, by Lady Bird Johnson''s diary); [[w.young-easy-burden]], 361–62; [[w.humphrey-education-of-a-public-1976]], 493–94 n.1 (the address urged by Humphrey; Johnson: "We shall overcome"); [[w.wofford-of-kennedys-and-kings]], 185–86 (the evening of March 15; "this time, on this issue, there must be no delay"; "So it was last week in Selma, Alabama"; "Their cause must be our cause, too ... And we shall—overcome!"; the first special domestic message in person since Truman in 1946, at night to be seen on television; King in Selma at Reeb''s memorial). See [[cal.1965-03-07.voting-rights]]. Names: Johnson. Check: the page.'
+    n: 'Special Message to the Congress: The American Promise, [1965 Pub. Papers 281](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=357) (Mar. 15, 1965); Special Message to the Congress on the Right To Vote, [1965 Pub. Papers 287](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=363) (Mar. 15, 1965). [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-6-2.pdf) (1965). Recording (K–J Adm. II.I). [President''s Daily Diary, Mar. 15, 1965](https://catalog.archives.gov/id/192454), images 5, 6 (LBJ Library; National Archives Catalog). [[w.garrow-bearing-the-cross]], 408–09; [[w.branch-at-canaans-edge]], 101, 104, 110–15; [[w.sundquist-politics-and-policy]], 273–74; [[w.mann-walls-of-jericho]], 460–63 (the address); [[w.califano-triumph-and-tragedy-of]], 56 ("And we shall overcome"; a Southern member beside McPherson: "Goddamn!"); [[w.kotz-judgment-days]], 307 ("What happened in Selma was an American tragedy"); [[w.zelizer-fierce-urgency-of-now]], 213–14 (9 p.m.; thirty-nine ovations; "And, we shall overcome"); [[w.kotz-judgment-days]], 308–13 (through the northwest gate at 8:30 p.m.; a television audience of 70 million; "There is only an American problem"; "And — we — shall — overcome!"; Cotulla; forty interruptions for applause); [[w.bernstein-guns-or-butter]], 235–36 (Goodwin''s draft; Valenti feeding Johnson a page at a time by 6:00; an audience of 70 million; forty-two minutes, by Lady Bird Johnson''s diary); [[w.young-easy-burden]], 361–62; [[w.humphrey-education-of-a-public-1976]], 493–94 n.1 (the address urged by Humphrey; Johnson: "We shall overcome"); [[w.wofford-of-kennedys-and-kings]], 185–86 (the evening of March 15; "this time, on this issue, there must be no delay"; "So it was last week in Selma, Alabama"; "Their cause must be our cause, too ... And we shall—overcome!"; the first special domestic message in person since Truman in 1946, at night to be seen on television; King in Selma at Reeb''s memorial); [[w.johnson-white-house-diary]], 252–54 (the address to Congress at 9 p.m., forty-two minutes, two rising ovations in it; the teleprompter not ready, her copy ending two thirds of the way; the Cotulla close; "open your polling places to all your people"; J. Edgar Hoover and four clergymen in her gallery; not the title). See [[cal.1965-03-07.voting-rights]]. Names: Johnson. Check: the page.'
     src:
       c: 0372ccd8
       rows:
@@ -3221,6 +3277,7 @@ entries:
         - 'w.young-easy-burden 361–62: A, D'
         - 'w.humphrey-education-of-a-public-1976 493–94 n.1: A, D'
         - 'w.wofford-of-kennedys-and-kings 185–86: B, D'
+        - 'w.johnson-white-house-diary 252–54: ?'
     tags: [name:johnson-lyndon-b]
     short: '"The American Promise"'
   - id: cal.1965-03-15.vietnam-operations
@@ -3273,12 +3330,13 @@ entries:
     thread: vietnam
     also: [press-and-broadcasting]
     c: 'Lippmann to lunch with the Johnsons, then alone with the President: a national debate to prepare for a compromise. "Your policy is all stick and no carrot, Mr. President." Johnson buzzes Bundy: "Mac, I''ve got Walter Lippmann over here, and he says we''re not doing the right thing. Maybe he''s right."'
-    n: '[[w.branch-at-canaans-edge]], 103–04. To check: [[w.steel-walter-lippmann-and-the]], 560–61 (cited by [[w.branch-at-canaans-edge]], 103); President''s Daily Diary, Mar. 15, 1965, LBJ Library (cited by [[w.branch-at-canaans-edge]], 103). See [[cal.1965-02-18.vietnam-congress]]. Names: Lippmann, Johnson, Bundy.'
+    n: '[[w.branch-at-canaans-edge]], 103–04; [[w.johnson-white-house-diary]], 251 (Mrs. Johnson "did sit down with Lyndon and Walter Lippmann, but for the conversation, not the food"). To check: [[w.steel-walter-lippmann-and-the]], 560–61 (cited by [[w.branch-at-canaans-edge]], 103); President''s Daily Diary, Mar. 15, 1965, LBJ Library (cited by [[w.branch-at-canaans-edge]], 103). See [[cal.1965-02-18.vietnam-congress]]. Names: Lippmann, Johnson, Bundy.'
     src:
       c: af6020b4
       rows:
         - 'w.branch-at-canaans-edge 103–04: all'
         - 'via w.branch-at-canaans-edge 103 n.appointment-with-columnist: A'
+        - 'w.johnson-white-house-diary 251: ?'
     tags: [name:lippmann-walter, name:johnson-lyndon-b, name:bundy-mcgeorge]
     time_range:
       - 1965-03-15T17:00Z
@@ -3490,6 +3548,20 @@ entries:
       rows:
         - 'w.kotz-judgment-days 314: all'
     tags: [name:johnson-lyndon-b, name:goodwin-richard-n]
+  - id: cal.1965-03-15.voting-rights-10
+    when: Mar. 15
+    date: '1965-03-15'
+    thread: voting-rights
+    c: 'From 6 p.m. the address is brought to Johnson a page at a time; he scratches out lines and writes in others, giving directions to Valenti. About 7: "Let''s close it up the way we closed the one [the State of the Union] where I talked about growing up in the Hill Country. Let''s talk about teaching the Mexicans in Cotulla, the first job I had after I left college."'
+    n: '[[w.johnson-white-house-diary]], 252 (Mrs. Johnson''s account; the bracket is hers). See [[cal.1965-03-15.voting-rights]]. Made public: 1970. Names: Valenti, Johnson.'
+    tags: [name:johnson-lady-bird, name:johnson-lyndon-b, name:valenti-jack]
+  - id: cal.1965-03-15.congress
+    when: Mar. 15
+    date: '1965-03-15'
+    thread: congress
+    c: 'After the address, Mrs. Johnson to the Speaker''s office with the leadership; then upstairs, Governor and Mrs. LeRoy Collins, Valenti, O''Brien, the Busbys and other staff with her over "the whole performance and the whole course of affairs": all think it a wonderful speech and delivery; one or two, as she, think it long.'
+    n: '[[w.johnson-white-house-diary]], 253–54 (Mrs. Johnson''s account). See [[cal.1965-03-15.voting-rights]]. Made public: 1970. Names: Collins, Valenti, O''Brien, Busby, Johnson.'
+    tags: [name:johnson-lady-bird, name:collins-leroy, name:valenti-jack, name:busby-horace, name:obrien-lawrence-f]
   - id: cal.1965-03-16.vietnam
     when: Mar. 16
     date: '1965-03-16'
@@ -5572,6 +5644,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-03-28.conservation
+    when: Mar. 28
+    date: '1965-03-28'
+    thread: conservation
+    c: 'The White House announces Mary Lasker''s gift: 9,300 azalea bushes, flowering dogwood and other plants for Pennsylvania Avenue.'
+    n: '[[w.johnson-white-house-diary]], 254 (Mrs. Johnson''s account, from Camp David: "We gave out the story"). To check: the White House release.'
+    tags: [name:johnson-lady-bird]
   - id: cal.1965-03-29.europe-and-the-alliance
     when: Mar. 29–Apr. 4
     date: '1965-03-29'

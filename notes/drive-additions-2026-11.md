@@ -521,3 +521,29 @@ Taken Nov. 12, 2026, at the owner's word that another batch was shared. A Drive 
 | 11-12 | 杨尚昆日记 下 2017年版.pdf | 20 MB | `1XG_EIYhaa9CZzC_tg78DS9zG5aap4ONk` |  |
 | 11-12 | 砸爛舊世界」  ——文化大革命的動亂與浩劫  (1966-1968)  卜偉華著.pdf | 25 MB | `10ZsEXUG5R2dKp99qLL8OahE7B6Qm_Lqx` |  |
 | 11-12 | 陈云年谱 修订本 上卷{中共中央文献研究室编；冷溶主审；朱佳木主编}.pdf | 153 MB | `1BAVpsqjs_xKBQvOqPOTHzl9AJv471NkI` |  |
+
+
+## What came in, Nov. 12 (night)
+
+Taken Nov. 11, 23:30 Pacific (Nov. 12, 07:30 UTC), at the owner's word of "a handful more books on China." A Drive search for files created after Nov. 12, 06:30 UTC: 7 files, all in the folder "1968 series: sources for Claude" (`1WsKov5Kiu0f3k7gukFeQzWMrvJdk0NOb`), created 06:58:21 to 07:03:42 UTC: one upload. An unrestricted search by creation date returned the same 7 and none from the shared drive `0AP5IxefiIRE3Uk9PVA` (Check by listing it). Metadata only; nothing opened or downloaded. Nothing in the series changed. None has a card or a book-check (`./bib works` on each title; `notes/book-checks`). Authors, titles and years are from the file names; years not in a name are from memory (Check).
+
+**In the order to read them for the PRC, 1960–68** (chronology and documents first, then the political histories).
+1. 毛泽东传 (共6册), Pang Xianzhi and Jin Chongji, eds., Zhonggong zhongyang wenxian yanjiushi (Zhongyang wenxian chubanshe, 2010), Chinese, epub: the party's official Mao biography, a chronicle in detail; the six volumes run to 1976. The nearest to a nianpu in the batch. No Chinese nianpu or documentary series otherwise (the Mao wengao, Zhou nianpu and *Jianguo yilai zhongyao wenxian xuanbian* came Nov. 12, 06:04).
+2. Roderick MacFarquhar, *The Origins of the Cultural Revolution*, vol. 3, *The Coming of the Cataclysm, 1961–1966* (1997), English: political history; leadership by month, 1961–66. The core for the skeleton.
+3. MacFarquhar, *The Origins of the Cultural Revolution*, vol. 2, *The Great Leap Forward, 1958–1960* (1983), English: political history; Lushan and the aftermath, to 1960.
+4. MacFarquhar and Michael Schoenhals, *Mao's Last Revolution* (2006), English: political history, 1966–76; the Cultural Revolution to 1968 in order.
+5. Frank Dikötter, *The Cultural Revolution: A People's History, 1962–1976* (2016), English: social and political history; from below.
+6. Alexander V. Pantsov with Steven I. Levine, *Mao: The Real Story* (2012), English: biography; Russian archives, the Sino-Soviet side.
+7. Jian Chen (Chen Jian), *Zhou Enlai* (file name "Zhou Enlai (Jian Chen).pdf"; presumably *Zhou Enlai: A Life*, Harvard, 2024), English: biography of the Premier; for foreign policy and the Cultural Revolution. Check that it is the 2024 book and not another.
+
+| Added | Title (as the file names it) | Size | Drive id | Card or book-check |
+|---|---|---|---|---|
+| 11-12 | 毛泽东传(共6册) (中央文献研究室编 主编：逄先知 金冲及（中央文献出版社2010).epub | 14 MB | `1pHwAzyo4Qq4w1iPDRKQvWtvZRr6D37N1` | none |
+| 11-12 | The Origins of the Cultural Revolution Volume III The Coming of the Cataclysm, 1961-1966 (Roderick MacFarquhar).pdf | 20 MB | `158VMAnmx38VMf6ltbnpQ0FZloy93Gldp` | none |
+| 11-12 | The Origins of the Cultural Revolution The Great Leap Forward, 1958-1960 (Roderick MacFarquhar).pdf | 10 MB | `1q2r11pnZUvkkjS9Av-7s6XlsnkDcKBLN` | none |
+| 11-12 | Maos Last Revolution (Roderick MacFarquhar, Michael Schoenhals).pdf | 3 MB | `1LuUvjyQm4xTy0gSXGWtG59BW7XjC1ojh` | none (title named in `cal.1966-07-28.india-and-china-cultural-revolution`, no card) |
+| 11-12 | The cultural revolution  a peoples history, 1962-1976 (Dikötter, Frank).pdf | 25 MB | `1P5pGqfJS4ilc2pKwEnjqSN7sQ35XZuiv` | none |
+| 11-12 | Mao The Real Story (Alexander V. Pantsov, Steven I. Levine).pdf | 33 MB | `1rEGXLqTvOJyCaxFrgkfmx98aHh8YKUwJ` | none |
+| 11-12 | Zhou Enlai (Jian Chen).pdf | 8 MB | `1-3o98-Rh-oFfxRIc7ZsvKooykY9CJdU_` | none (card `adm.zhou-enlai` is the nianpu, not this) |
+
+Chen Jian on Zhou Enlai: present (as "Jian Chen", 8 MB, probably the 2024 book). Pantsov's *Mao*: present. Chinese nianpu or documentary series: none new; the Mao biography above is the only Chinese item.
