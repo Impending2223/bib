@@ -348,6 +348,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-01-08.republican-party-congress
+    when: Jan. 8
+    date: '1963-01-08'
+    thread: republican-party-congress
+    c: 'Senate Republican conference organizes the 88th Congress, thirty-two present, 2:35 to 3:55 p.m.: Saltonstall chairman, Young secretary, Hickenlooper Policy Committee chairman, Dirksen floor leader, Kuchel whip, each by unanimous ballot; Mechem, Dominick and Simpson introduced. Aiken named the Republican candidate for president pro tempore. A resolution praising Goldwater, retiring as campaign committee chairman, unanimous. Dirksen on the session: fiscal bills, the U.N., Cuba, the Common Market, missiles; Tuesday–Thursday sessions from 9:30 considered.'
+    n: '[[w.wolff-minutes-of-the-senate]], 943–48 (the elections, 944–45; Goldwater''s resolution, 945–46; Dirksen''s report, 946–47). Names: Saltonstall, Young, Hickenlooper, Dirksen, Kuchel, Mechem, Dominick, Simpson, Aiken, Goldwater.'
+    tags: [name:saltonstall-leverett, name:young-milton-r, name:hickenlooper-bourke-b, name:dirksen-everett, name:kuchel-thomas-h, name:mechem-edwin-l, name:dominick-peter-h, name:simpson-milward-l, name:aiken-george-d, name:goldwater-barry-m]
   - id: cal.1963-01-09.congress
     when: Jan. 9
     date: '1963-01-09'
@@ -417,6 +424,14 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1963-01-09.congress-2
+    when: Jan. 9
+    date: '1963-01-09'
+    thread: congress
+    also: [democratic-party]
+    c: Senate Democrats organize the 88th Congress, Johnson presiding, 9:35 to 11:30 a.m., nine new Senators introduced. Hayden president pro tempore, Mansfield leader, Humphrey whip, Smathers secretary, each by acclamation. Morse moves that the Steering Committee report its committee assignments to the conference before they are final; lost, 50 to 8, Clark, Douglas, Gruening, McNamara, Morse, Nelson, Neuberger and Proxmire for. Russell, on Clark's remarks, objects that the South has been singled out. Mansfield asks that Rule 22 wait until after the State of the Union; agreed.
+    n: '[[w.ritchie-minutes-of-the-senate]], 607–13 (the elections, 607–08; Morse''s motion, 609; the tally, 611–13, read off the page: the yeas Clark, Douglas, Gruening, McNamara, Morse, Nelson, Neuberger, Proxmire); the recess proposals attached, 610–11. See [[cal.1963-01-09.congress]]. Names: Johnson, Hayden, Mansfield, Humphrey, Smathers, Morse, Clark, Douglas, Gruening, McNamara, Nelson, Neuberger, Proxmire, Russell.'
+    tags: [name:johnson-lyndon-b, name:hayden-carl, name:mansfield-mike, name:humphrey-hubert-h, name:smathers-george-a, name:morse-wayne, name:clark-joseph-s, name:douglas-paul-h, name:gruening-ernest, name:mcnamara-patrick-v, name:nelson-gaylord-a, name:neuberger-maurine-b, name:proxmire-william, name:russell-richard-b]
   - id: cal.1963-01-10.economy
     when: Jan. 10
     date: '1963-01-10'
@@ -797,12 +812,13 @@ entries:
     thread: republican-party-congress
     also: [goldwater]
     c: The Senate Republicans, organizing their Policy Committee for the session, leave Goldwater off it; a few days later they put him back. By White's account, Javits's doing.
-    n: '[[w.white-suite-3505]], 116–17; [[w.perlstein-before-the-storm]], 189 (the Senate Republicans vote Goldwater off the policy committee that morning). Names: Goldwater, Javits. Check: the conference''s record.'
+    n: '[[w.white-suite-3505]], 116–17; [[w.perlstein-before-the-storm]], 189 (the Senate Republicans vote Goldwater off the policy committee that morning); [[w.wolff-minutes-of-the-senate]], 949–52 (the Senate Republican Conference, Monday, Jan. 14, 1963, 9:55 a.m., thirty present; Saltonstall''s nominees for the conference committees confirmed on Allott''s motion with no voice in the negative; the list attached names Goldwater to the Policy Committee, 951; no word of leaving him off or of Javits). Check: the minutes (Wolff and Ritchie, 949–51) have the conference confirm the chairman''s nominees on Jan. 14, Goldwater among the Policy Committee''s members, with no negative voice. Names: Goldwater, Javits. Check: the conference''s record.'
     src:
       c: bf507793
       rows:
         - 'w.white-suite-3505 116–17: all'
         - 'w.perlstein-before-the-storm 189: A'
+        - 'w.wolff-minutes-of-the-senate 949–52: ?'
     tags: [name:goldwater-barry-m, name:javits-jacob-k]
     time_range:
       - 1963-01-14T14:00Z
@@ -810,6 +826,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: A
+        witness: w.wolff-minutes-of-the-senate
+        reads: Barry Goldwater a member of the Policy Committee in the nominees confirmed, no voice in the negative
+        at: 949–51
   - id: cal.1963-01-14.goldwater-2
     when: Jan. 14
     date: '1963-01-14'
@@ -1126,6 +1147,22 @@ entries:
     time_band: morning
     time_zone: Asia/Ho_Chi_Minh
     range_basis: record
+  - id: cal.1963-01-18.congress
+    when: Jan. 18
+    date: '1963-01-18'
+    thread: congress
+    also: [democratic-party]
+    c: 'Mansfield''s committee of six Senate Democrats on the session''s schedule, at lunch: Monroney elected chairman; a schedule of recesses proposed. By unanimous vote it recommends that debate for four hours after the morning hour be germane to the pending business, and that committees may sit during sessions by majority vote.'
+    n: '[[w.ritchie-minutes-of-the-senate]], 616–17 (Monroney''s report to the Senate Democratic Conference, Feb. 7, 1963, attached to its minutes). Names: Mansfield, Monroney.'
+    tags: [name:mansfield-mike, name:monroney-almer-s]
+  - id: cal.1963-01-18.congress-2
+    when: Jan. 18
+    date: '1963-01-18'
+    thread: congress
+    also: [republican-party-congress]
+    c: 'The Democrats'' committee on the schedule with the Republicans'', Mansfield''s office, from 3:10 p.m.; Monroney chosen chairman, Dirksen, Cotton and Cooper for the minority. Recesses agreed: Lincoln''s Birthday, Feb. 11–14; Easter, Apr. 11–19; Memorial Day; July 4. The summer recess put off until the House leaders are consulted. Dirksen "strongly opposed" the germaneness rule, Cotton too; Cotton and Cooper against committees sitting during sessions; the consensus approves neither.'
+    n: '[[w.ritchie-minutes-of-the-senate]], 616–18 (Monroney''s report and Baker''s version of it, attached to the minutes of the Senate Democratic Conference, Feb. 7, 1963). See [[cal.1963-01-18.congress]]. Names: Mansfield, Monroney, Dirksen, Cotton, Cooper.'
+    tags: [name:mansfield-mike, name:monroney-almer-s, name:dirksen-everett, name:cotton-norris-h, name:cooper-john-sherman]
   - id: cal.1963-01-19.poverty
     when: Jan. 19
     date: '1963-01-19'
