@@ -48,6 +48,12 @@ Entries already in the calendar that take Kotz's pinpoint: `cal.1963-11-22.succe
 
 ## Passed over
 
+Re-ruled Nov. 12, 2026, on the reader's card. Patch `inbox/2026-11-12-b6-group-14.yaml` (shared with six other works): 1 new entry for this book. Read Nov. 11–12 from the same Drive copy; pp. 198, 312 and 325 off their page images (PDF 224, 346, 359); the copy deleted.
+- 198 the polls two to one, the "frontlash" (Aug. 1964): passed over as an event: Kotz's summary names no poll and no day (the Opinion thread holds Gallup's); Johnson's coining of "the frontlash" is a lead, undated.
+- 312 Ellender slumped (Mar. 15, 1965): entered, `cal.1965-03-15.voting-rights-9`, the chamber's reaction in the joint session (the Justices and the Chiefs applauding; Ellender and the southerners).
+- 322 King's return to Atlanta and the news of Liuzzo (the passage is p. 325, Mar. 25, 1965): passed over, King's grief, no act or word on public business.
+- 82 Johnson and Hoover as neighbors: stays out of the brief (before the span).
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the same Drive copy, fetched again by the direct route; offsets as above; pp. 6, 8, 20, 314, 325, 405 and their notes read in the text layer, pp. 8 and 405 off the page image as well). Patch `inbox/2026-11-06-b6-kotz-judgment-days.yaml`: 5 new entries and a cite on a pending entry (Humphrey at the Chilean embassy, cal.1963-11-22.assassination-10, from the Humphrey reader's patch); witnesses `inbox/witnesses/2026-11-06-b6-kotz-judgment-days.yaml` (Colmer's oral history; Kotz's interview of John Douglas), 7 edges added to `sources/witnesses/by-work/kotz-judgment-days.yaml`. Still passed over: Ellender slumped (no act); the Thirtieth Place years (before the span). The copy deleted when done.
 
 Page | date | event | why. An event the calendar holds took its cite; these are the dated events Kotz treats that were not entered or cited this run.

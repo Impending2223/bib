@@ -169,6 +169,10 @@ The dry run flags many of these "one event?" against an entry of the same day an
 
 ## Passed over
 
+Re-ruled Nov. 12, 2026, on the reader's card. Patch `inbox/2026-11-12-b6-group-14.yaml` (shared with six other works): 1 new entry and 3 cites for this book; no witnesses. Read Nov. 11–12 from the same Drive copy (text layer; no folios, so chapters and notes); the copy deleted.
+- ch. 10, July 1967, Mrs. McNamara's operation and the Grand Teton climb with Resor and the Exums: passed over, family and a holiday. The same paragraph tells that the house they rented at Aspen was surrounded by chanting antiwar demonstrators (not a row before): entered, `cal.1967-07.war-opposition-3` (Check: the day). The arson attempts on the Snowmass house have no day: a lead.
+- ch. 6, 1964, "Asian boys" ("he repeated this formulation over and over during the campaign—in New Hampshire and Oklahoma, in Kentucky and Ohio"): cited under `cal.1964-09-25.elections-1964` (Oklahoma), `cal.1964-09-28.elections-1964` (New Hampshire) and `cal.1964-10-21.vietnam` (Ohio), each with `units: '?'` (no day on the page); Kentucky: a lead.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the same Drive copy, fetched again by the direct route; the Selma call read off its page image (PDF 189) as well as the text; the Bethesda (PDF 107) and Yevtushenko passages in the text layer only, the copy having no folios to hold). Patch `inbox/2026-11-06-b6-mcnamara-in-retrospect.yaml`: 3 new entries; no witnesses (the passages are McNamara's recollection, under no note). The "Asian boys" row stays: a repetition. Not a row before and not entered: Sam Brown at dinner with McNamara, "about the same time" (ch. 9), a lead for the next reader of the book. The copy deleted when done.
 
 How the list was made: every dated paragraph of chs. 1–10 and the appendix was read in order; each event not entered and not already in the calendar is a row here. Events already in the calendar took a cite and are not rows.

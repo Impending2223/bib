@@ -189,6 +189,12 @@ Other things CQ gets wrong, not in any entry: Wisconsin's "50" votes (2096; 30 o
 
 ## Passed over
 
+Re-ruled Nov. 12, 2026, on the reader's card. Patch `inbox/2026-11-12-b6-group-14.yaml` (shared with six other works): 3 new entries for this issue. Read Nov. 11–12 from the owner's scan on the Drive (PDF 10, 13, 48, 49 OCR'd again with tesseract, PDF 10 and 49 also read off the images); the copy deleted. The rows ruled minor:
+- 2102 the ABC booth's ceiling collapses, Aug. 1, 9:33 p.m. (no one hurt; lights, cameras damaged): passed over, trivia, no act or word of any figure.
+- 2105 Dominick introduces Brooke, 9:16 p.m.: part of Brooke's appearance, `cal.1968-08-05.elections-1968-miami-11`, already cited at 2105: nothing added. Murphy introduces Gurney, who introduces the party's other Senate candidates, 10:31 p.m.: entered, `cal.1968-08-05.elections-1968-miami-14`.
+- 2140 Samuelson moves adjournment, Aug. 7, 12:24 a.m.: entered, `cal.1968-08-07.elections-1968-miami-10`.
+- 2141 Rockefeller congratulates Nixon, Aug. 8, 8:14 p.m., after a two-minute ovation: entered, `cal.1968-08-08.elections-1968-miami-14` (a second act, before the convention; the 2:15 a.m. statement stands as it was).
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the owner's scan on the Drive, fetched again by the direct route; the pages read off their images, pp. 2102, 2103, 2105, 2140, 2141; the offset as above). The rows ruled minor were read again: the platform's drafting, the campaign on the floor, a party figure's and the nominee's word and the convention's close are entered; introductions, procedure and a repetition stay passed over; the networks' and wires' counts go to the daily list. Patch `inbox/2026-11-06-b6-cq-weekly-report-1968-08-09.yaml`: 6 new entries. The copy deleted when done.
 
 Made by reading every page but the three texts (platform, keynote, acceptance) and the transcript sentence by sentence for dated events, and the chronology hour by hour; each dated event not entered is a row. Events already in the calendar took their cites above, or are listed under "For the orchestrator" where an op waits on a pending entry.

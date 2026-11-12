@@ -126,6 +126,10 @@ The book has no notes. Registered for the units cited: *Life*'s article (Lambert
 
 ## Passed over
 
+Re-ruled Nov. 12, 2026, on the reader's card. Patch `inbox/2026-11-12-b6-group-14.yaml` (shared with six other works): no op for this book. Read Nov. 11–12 from the same Drive copy (pp. 137 and 290, text layer); the copy deleted.
+- 290 Connally buys the Tortuga Ranch, 1965 (14,500 acres, about $300,000, borrowed money): a lead, the year only (Q1); a governor's land purchase, no act of public business on the page.
+- 137 the Twins' first season, 1961: passed over, a ball club's season, no act or word of public business (a businessmen's group, Whitney quoted on civic image; undated).
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the same Drive copy, fetched again by the direct route; pp. 270 and 290 read in the text layer, the offset as above). Two rows were private or minor; neither is entered: no patch for this book in batch 6. The copy deleted when done.
 
 Made from the full reading and the scan above, each dated act held against `./bib find`, the ledger and the November election blocks. "The election block": a race the calendar carries in the day's tables, not an entry; Peirce's figure is not entered. "A lead": Peirce gives the year only, or less (R15, R50).

@@ -70,6 +70,12 @@ The coordinator's ruling (Oct. 29, 2026): a lead is only what cannot be placed o
 
 ## Passed over
 
+Re-ruled Nov. 12, 2026, on the reader's card. Patch `inbox/2026-11-12-b6-group-14.yaml` (shared with six other works): 3 new entries for this book; no witnesses. Read Nov. 11–12 from the same Drive copy (pp. 173, 181, 243–44 and 471–72 in the text layer; p. 472 off its page image); the copy deleted. The four part-rows still passed over in the table below:
+- 173 the Radziwill christening, June 5, 1961: passed over, a family occasion with nothing of public business on the page (the talk at the parties after it is entered: Nitze, Alsop).
+- 181 Judith Campbell, late June 1961: passed over, private, no public business on the page (Hoover's warning of 1962 is in the calendar).
+- 243–44 the White House gymnasium, Sept. 1961: passed over, the President's exercise, no act or word.
+- 471–72 the fifty-mile hikes, Feb. 1963: entered as three, the White House's craze before the public (Q3, Q4): the President's own hike at Palm Beach, `cal.1963-02.defense-2`; Kennedy's remark on Salinger and Salinger's announcement, `cal.1963-02.defense-3`; Robert Kennedy's fifty miles, `cal.1963-02.defense-4` (each Check: the day and month). The memorandum to Shoup stays `cal.1963-02.defense`.
+
 The "already in" rows read against the calendar, Nov. 11, 2026 (batch 8; the 64 rows still open after batch 7; the same Drive copy, offsets as above; patch `inbox/2026-11-11-b8-reeves.yaml`). Rulings: cited under ID = the page cited there, its units; Check = a `check` op as well; entered = a new entry; already cited = nothing to add.
 - 29–33: cited under cal.1961-01-19.laos (A, B, D; C and E not stated). 56: not borne out for cal.1961-01-29.economy (Heller takes office); the on-the-record briefing of Jan. 29 entered as cal.1961-01-29.economy-2.
 - 69: Peace Corps cited under cal.1961-03-01.peace-corps (A, B); the cable already cited under cal.1961-03-01.vietnam (69).

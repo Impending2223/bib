@@ -73,6 +73,17 @@ The book cites nothing. Registered: King to Horton, Apr. 25, 1961, quoted from Y
 
 ## Passed over
 
+Re-ruled Nov. 12, 2026, on the reader's card. Patch `inbox/2026-11-12-b6-group-14.yaml` (shared with six other works): 3 new entries and 1 cite for this book; no witnesses (a memoir; the passages name no record). Read Nov. 11–12 from the same Drive copy, fetched again by the direct route; pp. 109, 161–62, 197, 249, 274, 294, 322–24, 386, 410–11, 416–17, 485–88 read in the text layer, pp. 294, 322, 386 and 485–86 off their page images too; the copy deleted. Where these rulings differ from the table below, these stand.
+- 109 Paula Young born; 161–62 the move into the Atlanta house: passed over, a family matter with no bearing on public business.
+- 197 the Holiday Inn restaurant: a lead, "that year" (1962), no month; no act of an official on the page.
+- 249 the dinner at home, May 11–12, 1963: passed over, family (King's call of the next morning stays entered).
+- 274 the trip to Bossey, Sept. 1963: passed over, a church consultation and a sea voyage, nothing of public business on the page.
+- 294 Jean Young marches at St. Augustine, June 1964: entered, `cal.1964-06.desegregation-public-places` (a march before the public; Check: the day).
+- 322 the champagne and toasts at Oslo, Dec. 10, 1964: cited under `cal.1964-12-10.king-4` (A). 323–24 Belafonte's joke with Mercouri, the nightclub at Paris: passed over, social, no word of public business.
+- 386 Jesse Jackson keeps watch at Brown Chapel, Mar. 1965: entered, `cal.1965-03.voting-rights-selma-6` (a movement figure at the barricades in the campaign; Check: the night).
+- 410–11 the Paris scarf: passed over, family. 416–17 Young faints at the Savannah airport: passed over, personal health, nothing done or said of public business.
+- 485–86 Young and Coretta King at the Willard, June 5, 1968: entered, `cal.1968-06-05.king-poor-peoples` (their hope for a consensus around Kennedy). 487–88 Jean Young and the girls at Resurrection City: passed over, a family's visit (the camp and the rally are entered).
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the same Drive copy, fetched again by the direct route; every page cited read off its image as well as the text: pp. 249, 271, 351, 393–95, 410–11, 436–37). Patch `inbox/2026-11-06-b6-young-easy-burden.yaml`: 7 new entries; no witnesses (the book has no notes, and the passages name no record). The copy deleted when done.
 
 Made from the dated-sentence scan and the full reading; a row an event the book dates and treats that is neither entered nor cited.

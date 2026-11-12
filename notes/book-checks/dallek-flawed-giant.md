@@ -199,6 +199,8 @@ On `cal.1968-03-19.open-housing`, entered meanwhile by another run, Dallek's pag
 
 ### Passed over
 
+Re-ruled Nov. 12, 2026, on the reader's card. Patch `inbox/2026-11-12-b6-group-14.yaml` (shared with six other works): 1 new entry for this book. Read Nov. 11–12 from the same Drive copy; p. 148 read off its page image; the copy deleted. One row was still passed over on a personal ground: p. 148, William Bundy's vacation, Aug. 1, 1964: entered, `cal.1964-08-01.vietnam` (the understanding that Johnson would take no new major decision or expand the war before the election; Bundy's recollection). Same page: Mac Bundy's remark to a CIA official in 1964 ("We know we're not going to do a goddamn thing ... while this goddamn election is going on"), told in 1991: a lead, dated only to the year.
+
 #### Batch 9 (pp. 413–599), read Nov. 11–12, 2026
 
 Read from the owner's copy (printed page + 15 to p. 442, + 31 after the plates, held on the running heads; pp. 427, 446, 470, 479 and 599 read off their images too; endnotes at the back, "Notes (pages 410–623)"). Patch `inbox/2026-11-12-b9-dallek-b.yaml`: 115 cites, 18 variants, 5 Checks, 21 new entries. Rows ruled "cited under ID" took the unit letters the page states whole and `'?'` with a parenthetical for the rest. No row was "already cited" except the parts named. Witnesses and by-work edges not written.
