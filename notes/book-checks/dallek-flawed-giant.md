@@ -199,6 +199,57 @@ On `cal.1968-03-19.open-housing`, entered meanwhile by another run, Dallek's pag
 
 ### Passed over
 
+**Batch 9 (pp. 19–389), read Nov. 11, 2026, from the Drive copy (PDF page = printed + 15; numbers and quotations read off the page images for pp. 208, 249, 267, 321, 322, 339, 358, 390).** Patch `inbox/2026-11-12-b9-dallek-a.yaml`: 3 new entries (cal.1965-04-29.latin-america-dominican-republic-4, cal.1966-07-18.vietnam-congress, cal.1966-08-01.press-and-broadcasting-2), the rest cites (`units: '?'` where the page bears part of a unit, with the parenthetical), 5 variants, 2 to-checks from the endnotes, 81 cites. Rows 0–2 below were already cited by batch 7. The ledger lines of batch 7 for cal.1965-05-05 and cal.1965-05-07 (latin-america-dominican-republic) are left unused: the cease-fire and the Government of National Reconstruction are sentences of cal.1965-05-06.latin-america.
+
+| Row (page) | Event | Ruling |
+|---|---|---|
+| 19 | Oct. 27, 1962, the ExComm's afternoon without Kennedy | already cited (cal.1962-10-27.missile-crisis-4, 19) |
+| 126 | May 8, 1964, news conference: Hoover kept past seventy | already cited (cal.1964-05-08.transition-and-staff, 126; variant in place) |
+| 139 | July 27, 1964, Johnson calls Robert Kennedy to set the meeting of July 29 | already cited (cal.1964-07-27.robert-kennedy, 139) |
+| 208-09 | Apr. 8, July 28, 1965, the House passes Medicare; Congress's final passage | cited under cal.1965-04-08.medicare (? ; variant A: 110-vote margin) and cal.1965-07-27.medicare (? ; variant A: July 28) |
+| 247-49 | Feb. 6-10, 1965, Pleiku; the decision of Feb. 8; Qui Nhơn | cited under 02-06.vietnam-congress (?), 02-07.vietnam (already cited 247–48, not repeated), 02-07.vietnam-2 (D), 02-08.vietnam-congress-3 (B), 02-10.vietnam (A; variant B: twenty-one killed); cal.1965-02-08.vietnam (Mansfield memo) not borne out (Dallek has no Mansfield memorandum) |
+| 251 | Feb. 13-17, 1965, Ball and Thompson's memorandum; the meetings of Feb. 16 and 17 | cited under 02-13.vietnam-2, 02-13.vietnam-3, 02-16.vietnam-air-war, 02-16.vietnam-3, 02-17.vietnam-3 (all ?) |
+| 262-67 | Apr. 24-May 5, 1965, the Dominican revolt; the landing; the cease-fire of May 5 | cited under 04-24.latin-america (?), 04-28.latin-america-dominican-republic-2 (C), 04-30.latin-america (E), 04-30.latin-america-dominican-republic (?), 05-02.latin-america (A, B), 05-06.latin-america (?; the May 5 cease-fire and May 7 government are sentences of that entry, so no new entries; ledger lines 05-05 and 05-07 of b7-dallek left unused). cal.1965-04-28.latin-america already cited (263-64). Mohr talk (264): "next evening", Dallek's note a memorandum of Apr. 29-May 5: see entry below; Mohr talk entered as cal.1965-04-29.latin-america-dominican-republic-4 (day: Check); Martin's exchange with Johnson (264) undated, a lead |
+| 267 | Aug. 29, 1965; June 1, 1966, the Act of Reconciliation; Balaguer elected | cited under 08-31.latin-america (?) and 1966-06-01.latin-america (?) |
+| 268 | Apr. 20, 1965, Honolulu | cited under 04-20.vietnam (E) |
+| 269 | May 2, 1965, Johnson to the congressional leaders on the Dominican Republic | cited under 05-02.vietnam-congress (?) (265-66, 269) and 05-02.latin-america (A, B) |
+| 270 | June 7, 1965, Westmoreland's request | cited under 06-07.vietnam (?) |
+| 276 | July 27, 1965, the leaders told before the announcement | cited under 07-27.vietnam (A) and 07-27.vietnam-july-decision-3 (?, the leaders) |
+| 286 | Aug. 5, 1965, the NSC on the press | cited under 08-05.vietnam-congress (A: the NSC; Johnson on the press) and 08-05.vietnam (D: Safer, Stanton) |
+| 303 | Dec. 6 [3], 1965, the discount rate raised to 4.5 percent | cited under 12-05.economy (?; variant A: Dec. 6 for the announcement) |
+| 305 | Sept. 3, 1965, the steel settlement on television | cited under 09-03.steel (?) |
+| 306 | Jan. 27, 1966, the Economic Report | cited under 01-27.economy (F) |
+| 310 | Sept. 8, 1966, the special message on fiscal policy | cited under 09-08.economy (?) |
+| 311 | Jan. 24, 1967, the budget message | cited under 1967-01-24.economy (?; 311) |
+| 314 | Mar. 2, 1966, the transportation message | cited under 03-02.transportation (A) |
+| 316 | Oct. 15, 1966, the Department of Transportation Act signed | cited under 10-15.transportation (B) |
+| 321 | Aug. 19, Oct. 14, 1966, the Senate and House pass the demonstration cities bill | cited under 08-19.cities-and-housing (?), 10-14.cities-and-housing (?); also 10-06 (?), 10-18 (A), 10-20 (?) |
+| 326 | Aug. 9, 1966, the House passes the civil rights bill | cited under 08-09.open-housing (?) |
+| 327 | June 1-2, 1966, the White House conference | cited under 06-01.civil-rights-the-executive (?) |
+| 336 | June 9, 1966, Moyers on the polls | cited under 06-09.opinion (?) |
+| 338-39 | Oct. 17-Nov. 8, 1966, the Asian trip; the election | cited under 10-17.vietnam (A, 338; 383-85 already cited), 11-08.elections-1966 (G) and 11-08.governors (J) |
+| 343-47 | Dec. 7-28, 1965, the meetings on the pause; the pause; the peace offensive | cited under 12-07.vietnam-pause-2 (B), 12-17.vietnam (?), 12-18.vietnam-pause (F, G), 12-21.vietnam-pause (?), 12-27.vietnam (?), 12-28.vietnam (A, C), 12-28.vietnam-pause (?) and 12-30.vietnam-congress (?) |
+| 348-52 | Jan. 12-Feb. 4, 1966, Ball before Foreign Relations; the leaders; the resumption; the hearings | cited under 01-12.vietnam-congress (?), 01-24.vietnam-pause (?), 01-25.vietnam (D, G, H), 01-27.vietnam-pause (?), 01-28.vietnam-pause (B, D), 01-29.vietnam-pause-2 (?), 01-31.vietnam (?), 01-28.vietnam-congress (B), 02-04.vietnam (?) |
+| 353 | Jan. 31, 1966, Robert Kennedy on the resumption | cited under 01-31.robert-kennedy (?) |
+| 356, 360 | Feb. 24, 1966, Humphrey's report to the leaders | cited under 02-24.vietnam-congress (D) |
+| 358 | Mar. 10, 1966, Thi relieved | cited under 03-10.vietnam (?; variant A: Thi "Commander of the Central Highlands," not I Corps) |
+| 359 | Mar. 12, 1966, the governors at the White House | cited under 03-12.vietnam-us (?) |
+| 360-61 | Apr. 2, 1966, the meeting on the Struggle Movement | cited under 04-02.vietnam (A) and 04-04.vietnam-struggle-3 (E, F) |
+| 363 | Apr. 25, May 6-10, 1966, the meeting on Track B; Kỳ's announcement; the NSC | cited under 04-25.vietnam (B), 05-06.vietnam-struggle (?) and 05-10.vietnam (F); Ky's announcement is in as 05-06.vietnam-struggle |
+| 367 | May 12, 1966, the Armory speech | cited under 05-12.vietnam-congress-2 (B; the other remark in the parenthetical) |
+| 370 | May 9, May 27, 1966, Fulbright's note; Johnson's reply | cited under 05-09.vietnam-congress (?) and 05-27.vietnam-congress (?) |
+| 376 | Aug. 8, 1966, the *Times* on the Pentagon's study | cited under 08-08.vietnam (?) |
+| 377 | July 20, 23, 1966, news conference; the speeches in Indiana, Kentucky and Illinois | cited under 07-20.vietnam-prisoners (A); July 23 speeches in Indiana, Kentucky, Illinois: lead (cal.1966-07-23.civil-disorders is the Indianapolis speech on the cities; not entered as Vietnam); July 18 leaders entered as cal.1966-07-18.vietnam-congress |
+| 378 | Aug. 1, 1966, Krulak with Johnson; Sherrod's memorandum | Krulak with Johnson: page gives only Krulak on Sherrod in the outer office (no cite for 08-01.vietnam A-B); Sherrod's interview entered as cal.1966-08-01.press-and-broadcasting-2 |
+| 380 | Sept. 11, 1966, the Constituent Assembly elected | cited under 09-11.vietnam (?) |
+| 383 | Oct. 15, 1966, the NSC on pacification | cited under 10-15.vietnam (D) |
+| 387 | Nov. 11, Oct. 15, 1966, the force levels; the limits on bombing near Hanoi | cited under 11-11.vietnam (?) and 10-15.vietnam (D, 387) |
+| 389-90 | Nov. 11-Dec. 31, 1966, Warsaw; the raids near Hanoi | cited under 12-02.vietnam-marigold (B) and 12-13.vietnam (C) |
+
+Not borne out: cal.1965-02-08.vietnam (Mansfield's memorandum; Dallek has none); cal.1966-08-01.vietnam (Krulak with Johnson; Dallek has Sherrod with Krulak in the outer office, not Krulak's interview). Leads: Johnson to Martin, "the last thing we want ... is a communist takeover" (264, undated); the news conference of May 21, 1966 (363–64; PPP 1966, I, 531–35 by Dallek's notes); the speeches of July 23, 1966 (377); the Jim Lucas briefing, Sept. 6, 1966 (380).
+
+Where batch 9 stopped: p. 390 (the last row of pp. 19–389, the Marigold raids); every row of the share ruled.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, read Nov. 10, 2026, from the same Drive copy, fetched again by the direct route; offsets as above, held on the running heads; p. 575 read off its image too). The rows ruled minor, private, social or "below the calendar's level" (staff memoranda, estimates, background talks: R8 and R18 admit them) were read again on their pages with their notes. Patch `inbox/2026-11-06-b6-dallek-flawed-giant.yaml`: 51 new entries, cites on 14 entries (three pending), 2 Checks; witnesses `inbox/witnesses/2026-11-06-b6-dallek-flawed-giant.yaml` (7), edges appended to `sources/witnesses/by-work/dallek-flawed-giant.yaml`. Every row ruled minor, private or below the level is settled. The copy deleted when done.
 
 How the list was made: a script over the text layer (pp. 3–628) listed every mention of a month and day, 572 in all, with its page, a year inferred from the text and the calendar's entries of that month and day in every year; those on a page an entry already cites for that day (108) were set aside; the remaining 451 (page, date) pairs were read in context, their years put right by hand, and judged against the calendar (`./bib find`, the day's entries). Classes passed over without a row: dates outside the span (the 1970s, births); dates named only as deadlines or periods (fiscal years, a surcharge's dates); a day mentioned only to place another event. Months alone ("in March 1966") were not listed. "Minor" is used only as the owner's rule of Oct. 29 allows (private or social trivia; the same position again); "below the calendar's level" marks staff memoranda, estimates and the President's background talks; "a lead" a dated event whose record or matter the page does not give enough of to enter.
