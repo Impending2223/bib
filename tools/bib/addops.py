@@ -138,7 +138,10 @@ def to_check(e, body):
     parts = nm.parse(e.get("n") or "")
     have = nm.cards_of(parts)
     tc = next((p for p in parts if p[0] == "tc"), None)
-    for it in body.get("add") or []:
+    items = body.get("add") or []
+    if isinstance(items, str):          # one item given bare, not as a list: never split it letter by letter
+        items = [items]
+    for it in items:
         it = it.strip().rstrip(".")
         c = nm.card(it)
         if (c and c in have) or (tc and it in tc[1]):

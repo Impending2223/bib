@@ -867,6 +867,14 @@ entries:
     c: The White House, afternoon. Reception for the Democratic State Chairmen; Mrs. Johnson greets them.
     n: '[[w.johnson-white-house-diary]], 635–36 (Lady Bird Johnson''s account). The only mention of it; no host, hour or number given. Names: Lady Bird Johnson.'
     tags: [name:johnson-lady-bird, city:washington]
+  - id: cal.1968-03-06.robert-kennedy-campaign-decision
+    when: Mar. 6
+    date: '1968-03-06'
+    thread: robert-kennedy-campaign-decision
+    also: [elections-1968-mccarthy]
+    c: 'Wednesday. Robert Kennedy telephones Goodwin in New Hampshire from his New York apartment: "I''m still considering getting into this thing, and I''d like McCarthy to know this now, so he doesn''t think my decision has any relationship to whatever happens in New Hampshire." Goodwin: "I can''t act as your messenger. I''m working for McCarthy now." He will tell McCarthy that Kennedy called and what the message is. Kennedy: "How do you think you''re going to do?" "We''re going to get at least forty percent." "How would I have done?" "You would have won sixty-forty."'
+    n: '[[w.goodwin-remembering-america]], 506–8 (Goodwin''s account; "On Wednesday — six days before the election," 506; Kennedy had asked his brother Edward to pass the message, and he had not). Names: Robert Kennedy, Goodwin, McCarthy.'
+    tags: [name:kennedy-robert-f, name:goodwin-richard-n, name:mccarthy-eugene-j, state:nh]
   - id: cal.1968-03-07.testing
     when: Mar. 7
     date: '1968-03-07'
@@ -1477,6 +1485,13 @@ entries:
     time_band: workday daytime
     time_zone: Pacific/Honolulu
     range_basis: kind
+  - id: cal.1968-03-09.elections-1968-mccarthy
+    when: Mar. 9
+    date: '1968-03-09'
+    thread: elections-1968-mccarthy
+    c: 'New Hampshire, the Saturday evening before the primary. Arnold Hiatt of McCarthy''s finance committee to Goodwin: the radio stations will cancel all the spots unless paid in advance, "and we''ve run out of money"; $20,000 wanted. Goodwin takes out his checkbook; Hiatt takes his pen: "Don''t worry about it, Dick. We''ll take care of it." Within a few hours the money is "found" and the radio campaign goes on.'
+    n: '[[w.goodwin-remembering-america]], 509–10 (Goodwin''s account; he had six hundred dollars in the bank, and supposes Hiatt paid for the spots himself). Names: Goodwin, McCarthy.'
+    tags: [name:goodwin-richard-n, name:mccarthy-eugene-j, state:nh]
   - id: cal.1968-03-10.vietnam
     when: Mar. 10
     date: '1968-03-10'
@@ -1846,7 +1861,7 @@ entries:
     thread: elections-1968-mccarthy
     also: [robert-kennedy-campaign]
     c: 'Goodwin, with McCarthy in New Hampshire, gives him Robert Kennedy''s message that he means to run; Edward Kennedy had not passed it on. McCarthy: "Tell him to support me. I only want one term as President. After that, he can take it over."'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 847–48; [[w.white-making-of-the-president-1969]], 160. [[w.chester-american-melodrama]], 119 (Edward Kennedy never made the call; Goodwin asked to break the news). Check: White puts Goodwin''s message on the weekend before the primary. To check: [[w.vanden-heuvel-on-his-own]], 302–03 (cited by [[w.schlesinger-robert-kennedy-and-his]], 848 n.30). Names: Goodwin, Eugene McCarthy, Robert Kennedy, Edward Kennedy. Check: Chester, 119, gives the evening of Mar. 12, primary night, for McCarthy''s learning of it.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 847–48; [[w.white-making-of-the-president-1969]], 160; [[w.goodwin-remembering-america]], 507–9 (Goodwin''s account: Kennedy had asked "Teddy" to pass the message and he had not; Goodwin gives it to McCarthy alone in his suite; McCarthy''s answer otherwise worded; "The presidency should be a one-term office"; "They never appreciated me"; Goodwin telephones Kennedy, whose answer is "a groan of disbelief"; Kennedy "still considering getting into this thing," not that he means to run). [[w.chester-american-melodrama]], 119 (Edward Kennedy never made the call; Goodwin asked to break the news). Check: White puts Goodwin''s message on the weekend before the primary. Check: the day. [[w.goodwin-remembering-america]], 508–9, has Goodwin give McCarthy the message "after two more days" than Kennedy''s call of the Wednesday six days before the primary, with "That same evening, the Saturday before election" (509). To check: [[w.vanden-heuvel-on-his-own]], 302–03 (cited by [[w.schlesinger-robert-kennedy-and-his]], 848 n.30). Names: Goodwin, Eugene McCarthy, Robert Kennedy, Edward Kennedy. Check: Chester, 119, gives the evening of Mar. 12, primary night, for McCarthy''s learning of it.'
     src:
       c: 11083b88
       rows:
@@ -1854,6 +1869,7 @@ entries:
         - 'w.chester-american-melodrama 119: B'
         - 'w.white-making-of-the-president-1969 160: all'
         - 'via x.undated.edward-m-kennedy-later-account: B'
+        - 'w.goodwin-remembering-america 507–9: B'
     tags: [name:goodwin-richard-n, name:mccarthy-eugene-j, name:kennedy-robert-f, name:kennedy-edward-m, state:nh]
     time_range:
       - 1968-03-11T14:00Z
@@ -1861,6 +1877,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: C
+        witness: w.goodwin-remembering-america
+        reads: 'McCarthy: "Why don''t you tell him that I only want one term anyway. Let him support me now, and after that he can have it."'
+        at: '508'
   - id: cal.1968-03-11.economy-surcharge
     when: Mar. 11
     date: '1968-03-11'
@@ -2290,7 +2311,7 @@ entries:
     thread: robert-kennedy-campaign-decision
     also: [elections-1968]
     c: 'Robert Kennedy at the airport: "I am actively reassessing the possibility of whether I will run against President Johnson." In Washington he calls on McCarthy: they might work together; Kennedy offers to support him in Wisconsin; McCarthy will not get out, would serve one term. By Kennedy''s accounts.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 850; [[w.cq-weekly-report]], Aug. 16, 1968, 2187 (the day, Mar. 13). [[w.shesol-mutual-contempt]], 418 ("I am actively reassessing the possibility of whether I will run against President Johnson"); [[w.thomas-robert-kennedy]], 360 (at noon Wednesday Kennedy tells reporters he is "actively reconsidering"). Check: CQ has Kennedy "actively reconsidering" ([[w.cq-weekly-report]], Aug. 16, 1968, 2187). Check: Thomas gives "actively reconsidering" (360), from Witcover, *85 Days*, 66. To check: Schlesinger, journal, Mar. 13, 1968 (cited by [[w.schlesinger-robert-kennedy-and-his]], 850 n.35); [[w.newfield-robert-kennedy]], 218–19 (cited by [[w.schlesinger-robert-kennedy-and-his]], 850 n.36). Names: Robert Kennedy, Johnson, Eugene McCarthy.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 850; [[w.cq-weekly-report]], Aug. 16, 1968, 2187 (the day, Mar. 13). [[w.shesol-mutual-contempt]], 418 ("I am actively reassessing the possibility of whether I will run against President Johnson"); [[w.thomas-robert-kennedy]], 360 (at noon Wednesday Kennedy tells reporters he is "actively reconsidering"); [[w.goodwin-remembering-america]], 517 (by Blair Clark''s report to Goodwin around midday: Kennedy, seen by reporters at the Washington airport on his way to the New York shuttle; Kennedy''s words otherwise worded; nothing of his call on McCarthy). Check: CQ has Kennedy "actively reconsidering" ([[w.cq-weekly-report]], Aug. 16, 1968, 2187). Check: Thomas gives "actively reconsidering" (360), from Witcover, *85 Days*, 66. To check: Schlesinger, journal, Mar. 13, 1968 (cited by [[w.schlesinger-robert-kennedy-and-his]], 850 n.35); [[w.newfield-robert-kennedy]], 218–19 (cited by [[w.schlesinger-robert-kennedy-and-his]], 850 n.36). Names: Robert Kennedy, Johnson, Eugene McCarthy.'
     src:
       c: d1bf3167
       rows:
@@ -2299,7 +2320,13 @@ entries:
         - 'w.cq-weekly-report Aug. 16, 1968, 2187: ?'
         - 'w.shesol-mutual-contempt 418: ?'
         - 'w.thomas-robert-kennedy 360: A'
+        - 'w.goodwin-remembering-america 517: ?'
     tags: [name:kennedy-robert-f, name:johnson-lyndon-b, name:mccarthy-eugene-j]
+    variants:
+      - unit: A
+        witness: w.goodwin-remembering-america
+        reads: 'Kennedy, asked his plans by reporters at the Washington airport, on his way to the New York shuttle: "I''m reconsidering my decision" (by Blair Clark''s report to Goodwin)'
+        at: '517'
   - id: cal.1968-03-13.elections-1968
     when: Mar. 13
     date: '1968-03-13'
@@ -2464,12 +2491,13 @@ entries:
     thread: robert-kennedy-campaign-decision
     also: [elections-1968]
     c: 'After midnight, Robert Kennedy by telephone to McCarthy and Goodwin, to congratulate them. Hanging up: "I think I blew it."'
-    n: '[[w.thomas-robert-kennedy]], 359–60; [[w.schlesinger-robert-kennedy-and-his]], 849 (the conversation with McCarthy later that night, "friendly ... but not productive"). To check: [[w.vanden-heuvel-on-his-own]], 304 (cited by [[w.thomas-robert-kennedy]], 469). See [[cal.1968-03-12.elections-1968]]. Names: Robert Kennedy, McCarthy, Goodwin.'
+    n: '[[w.thomas-robert-kennedy]], 359–60; [[w.schlesinger-robert-kennedy-and-his]], 849 (the conversation with McCarthy later that night, "friendly ... but not productive"); [[w.goodwin-remembering-america]], 516–17 (primary night: Goodwin, called by Kennedy during the returns, calls him back "close to midnight": "Well, what do I do now?" "You can''t keep saying that you''re neutral ... Either you run or you support McCarthy." "What would happen if I support McCarthy?" "He''ll be president"; Kennedy, at home in Virginia, to a companion: "I think I blew it"). Check: who called, and when. [[w.goodwin-remembering-america]], 516, has Kennedy call during the returns and Goodwin call him back three hours later, "close to midnight.". To check: [[w.vanden-heuvel-on-his-own]], 304 (cited by [[w.thomas-robert-kennedy]], 469). See [[cal.1968-03-12.elections-1968]]. Names: Robert Kennedy, McCarthy, Goodwin.'
     src:
       c: 2a39361e
       rows:
         - 'w.thomas-robert-kennedy 359-60: all'
         - 'w.schlesinger-robert-kennedy-and-his 849: A'
+        - 'w.goodwin-remembering-america 516–17: B'
     tags: [name:kennedy-robert-f, name:mccarthy-eugene-j, name:goodwin-richard-n]
   - id: cal.1968-03-13.robert-kennedy-campaign-3
     when: Mar. 13
@@ -7173,7 +7201,7 @@ entries:
     date: '1968-03-31'
     thread: elections-1968-mccarthy
     c: 'Waukesha, Wis., the evening: McCarthy at a students'' meeting as Johnson withdraws. Abigail McCarthy telephones the President: the campaign never a matter of friendship. Johnson: "No one man can stand in the way of history." At the Schroeder in Milwaukee, McCarthy: perhaps Johnson decided he could not make peace and run at once; "five million college kids just shouting for peace."'
-    n: '[[w.white-making-of-the-president-1969]], 124–25 (Goodwin, watching: "It only took six weeks"). See [[cal.1968-03-31.elections-1968]]. Names: McCarthy, Johnson, Goodwin.'
+    n: '[[w.white-making-of-the-president-1969]], 124–25 (Goodwin, watching: "It only took six weeks"). Check: who spoke with whom. [[w.goodwin-remembering-america]], 524, has McCarthy, at Goodwin''s suggestion, call Johnson, and McCarthy''s wife speak with Lady Bird Johnson. See [[cal.1968-03-31.elections-1968]]. Names: McCarthy, Johnson, Goodwin.'
     tags: [name:mccarthy-eugene-j, name:johnson-lyndon-b, name:goodwin-richard-n, state:wi]
     time_range:
       - 1968-03-31T23:00Z
@@ -7826,3 +7854,34 @@ entries:
     c: 'The White House, the night of the address. Asked through Liz Carpenter by the reporters how she would sum it up, Mrs. Johnson: "We have done a lot; there''s a lot left to do in the remaining months; maybe this is the only way to get it done."'
     n: '[[w.johnson-white-house-diary]], 646 (Lady Bird Johnson''s account). The hour is not given. Names: Lady Bird Johnson, Carpenter.'
     tags: [name:johnson-lady-bird, name:carpenter-liz]
+  - id: cal.1968-03.elections-1968-mccarthy-3
+    when: Mar., early
+    date: 1968-03
+    thread: elections-1968-mccarthy
+    c: 'Manchester, N.H., an empty suite of the Sheraton-Wayfarer. Bill Dunfey, New Hampshire''s leading Democrat, to Goodwin: a White House plot to discredit McCarthy''s volunteers by planting marijuana in some of their rooms. And McCarthy "might go as high as thirty percent." Goodwin: "We''re going to do a hell of a lot better than that."'
+    n: '[[w.goodwin-remembering-america]], 506 (Goodwin''s account; the plan "evaporated after I leaked my knowledge of the intended trap to members of the press"). Check: the day; "About ten days before the election" (506). Names: Goodwin, McCarthy.'
+    tags: [name:goodwin-richard-n, name:mccarthy-eugene-j, state:nh, city:manchester]
+  - id: cal.1968-03.robert-kennedy-campaign-decision
+    when: Mar.
+    date: 1968-03
+    thread: robert-kennedy-campaign-decision
+    also: [elections-1968-mccarthy]
+    c: 'Goodwin, in bed with influenza at the Georgetown Inn, telephones Robert Kennedy that he is going to Wisconsin: "Look, Bobby, you''re not on the ballot in Wisconsin, and a defeat for Johnson is as important to you as to McCarthy." Kennedy: "If that''s your decision." Goodwin: "That''s it, good luck." The next day he flies to Milwaukee.'
+    n: '[[w.goodwin-remembering-america]], 518–20 (Goodwin''s account; over the next weeks Kennedy tells friends and staff that Goodwin was responsible for at least 10 percent of McCarthy''s New Hampshire vote, and calls him "His Nibs"). Check: the day; after Kennedy''s announcement of Mar. 16 (518–19), with the Wisconsin primary "little more than two weeks away" (519). Names: Goodwin, Robert Kennedy, Johnson, McCarthy.'
+    tags: [name:goodwin-richard-n, name:kennedy-robert-f, name:mccarthy-eugene-j, state:wi]
+  - id: cal.1968-03-31.elections-1968-mccarthy-3
+    when: Mar. 31
+    date: '1968-03-31'
+    thread: elections-1968-mccarthy
+    also: [elections-1968-johnson]
+    c: 'Milwaukee, a hotel suite, Sunday night. Goodwin, Blair Clark and Theodore White watch Johnson''s address. Goodwin: "Look at him, he looks terrible. You won''t believe this, but I feel sorry for him." At the announcement he leaps up, pointing at the set; by White''s account: "I thought it would take another six weeks." The corridors fill with volunteers chanting.'
+    n: '[[w.goodwin-remembering-america]], 522–23 (Goodwin''s account; the words at the set as White gives them, Goodwin not recalling). See [[cal.1968-03-31.elections-1968]]. Names: Goodwin, White, Johnson.'
+    tags: [name:goodwin-richard-n, name:white-theodore-h, name:johnson-lyndon-b, state:wi, city:milwaukee]
+  - id: cal.1968-03-31.elections-1968-mccarthy-4
+    when: Mar. 31
+    date: '1968-03-31'
+    thread: elections-1968-mccarthy
+    also: [elections-1968-johnson]
+    c: 'Milwaukee, after the address. Goodwin advises McCarthy to call Johnson, which he does (McCarthy''s wife speaks with Lady Bird Johnson), and to call Daley in Chicago, "Governor Lawrence in Pennsylvania" and Governor Hughes in New Jersey for their support, to ease the party leaders'' hostility. McCarthy, returning from a private room: "Indiana will be decisive."'
+    n: '[[w.goodwin-remembering-america]], 524 (Goodwin''s account). Check: "Governor Lawrence"; David L. Lawrence, Governor of Pennsylvania until 1963, died in 1966. See [[cal.1968-03-31.elections-1968-mccarthy-2]], [[cal.1968-03-31.elections-1968-9]]. Names: Goodwin, McCarthy, Johnson, Lady Bird Johnson, Daley, Hughes.'
+    tags: [name:goodwin-richard-n, name:mccarthy-eugene-j, name:johnson-lyndon-b, name:johnson-lady-bird, name:daley-richard-j, name:hughes-richard-j, state:wi, city:milwaukee]
