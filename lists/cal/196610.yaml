@@ -2445,12 +2445,13 @@ entries:
     thread: robert-kennedy
     also: [assassination]
     c: 'New York, P. J. Clarke''s, talk with Schlesinger till 2:30 a.m. Robert Kennedy wonders how long he can avoid comment on the Warren report: he thinks it a poor job and will not endorse it, but will not criticize it and reopen the whole business. On Johnson: the voters probably agree with him 80 percent on the issues between them, but no longer believe him. Rueful about his own vogue. By Schlesinger''s journal.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 616, 759. To check: Schlesinger, journal, Oct. 30, 1966, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 616 n.51). Names: Robert Kennedy, Schlesinger, Johnson.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 616, 759; [[w.schlesinger-journals]], 253–54 (the entry of Oct. 30: the Dillons'' dinner; Kennedy, from campaigning, "last stop: Connecticut," arrives about 10:30, Goodwin a few moments before; "we talked until 2:30" at P.J. Clarke''s; the 80 percent for Johnson and 20 for him; "rueful about his own vogue"; the Warren Report; also Johnson on their day of campaigning, undated, and the Manchester book, not in the entry). To check: Schlesinger, journal, Oct. 30, 1966, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 616 n.51). Names: Robert Kennedy, Schlesinger, Johnson.'
     src:
       c: 7d192b6e
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 616, 759: all'
         - 'via w.schlesinger-robert-kennedy-and-his 616 n.51: all'
+        - 'w.schlesinger-journals 253–54: A, B, C, D, E'
     tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr, name:johnson-lyndon-b]
   - id: cal.1966-10-30.vietnam-asian-trip-2
     when: Oct. 30
@@ -2591,12 +2592,18 @@ entries:
     thread: assassination
     also: [robert-kennedy]
     c: 'New York, P. J. Clarke''s, to 2:30 a.m. Robert Kennedy to Schlesinger, by Schlesinger''s diary: the Warren Commission had "done a poor job," but he will not criticize it in public and "reopen the whole tragic business."'
-    n: '[[w.thomas-robert-kennedy]], 333. To check: Schlesinger''s journal (Thomas gives no note). Names: Robert Kennedy, Schlesinger. Check: the day.'
+    n: '[[w.thomas-robert-kennedy]], 333; [[w.schlesinger-journals]], 253–54 (the entry of Oct. 30, the day: the night at the Dillons'' and P.J. Clarke''s, "until 2:30"; the Warren Report; Schlesinger''s words, not Kennedy''s: "poor job"; see the variant). Check: the day, and a duplicate: [[w.schlesinger-journals]], 253–54, the entry of Oct. 30, 1966, puts this night at P.J. Clarke''s on Oct. 30, the night of [[cal.1966-10-30.robert-kennedy]]; to combine. To check: Schlesinger''s journal (Thomas gives no note). Names: Robert Kennedy, Schlesinger. Check: the day.'
     src:
       c: 95a66012
       rows:
         - 'w.thomas-robert-kennedy 333: all'
+        - 'w.schlesinger-journals 253–54: A'
     tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr, city:nyc, state:ny]
+    variants:
+      - unit: B
+        witness: w.schlesinger-journals
+        reads: 'Schlesinger''s own words, not Kennedy''s: "It is evident that he believes that it was a poor job and will not endorse it, but that he is unwilling to criticize it and thereby reopen the whole tragic business"'
+        at: '254'
   - id: cal.1966-10.vietnam-air-war
     when: Oct., late
     date: 1966-10
