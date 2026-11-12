@@ -776,3 +776,212 @@ Rules looked up: the card's test and examples for the social occasions, the dinn
 ## Where batch 11 stopped (1967)
 
 The share is finished: Book Four read whole, every page, Jan. 5 to Dec. 24, 1967 (printed pp. 469-607, PDF 507-653); the diary has nothing for the rest of the year (it resumes with Book Five, 1968-1969, p. 609, another reader's). Every dated event with a bearing on public business is in the patch, cited under the entry the calendar held, or on the lists above. Not done: a reading by eye of every quotation on the image (script on the text layer and on the OCR, with the disagreements read by eye, and four pages read directly); the auditor's blind pass is still to come.
+
+
+---
+
+# Part five: Jan. 1968 to Jan. 20, 1969 (the 1968 reader)
+
+Lady Bird Johnson, *A White House Diary* (1970), card `w.johnson-white-house-diary`. Read Nov. 12, 2026 (batch 11, the 1968–69 share): Book Five, "1968–1969," printed pp. 611–782, from the owner's copy, Drive `1yDhieBtd5zcvoMYqrteT6Yg3a-R6sOie` (864 PDF pages, a text layer, no OCR; read with `pdftotext -layout`; the PDF and its images deleted when done). The book ends with the diary's entry of Jan. 20, 1969 (p. 782, the Ranch); the index follows.
+
+**Offset.** The folio is printed at the foot of the page. Printed page = PDF page less 46 from the half-title of Book Five through p. 614 (p. 611 = PDF 657; p. 614 = PDF 660); eight unnumbered plate pages follow (PDF 661–668, the photographs: the White House driveway, the Oval Office, the little office sitting room), then less 54 to the end (p. 615 = PDF 669; p. 680 = PDF 734; p. 699 = PDF 753; p. 782 = PDF 836). Checked on the folios in the text layer page by page (every printed folio matches the offset; PDF 733, 762 and 837 carry chapter heads with no folio) and against the page images at pp. 615, 680 and 782. The book has no entry between Jan. 18 and Jan. 25, Feb. 8 and Mar. 5, Mar. 31 and Apr. 4, Apr. 11 and Apr. 13, May 23 and June 5, and so on; the dates it gives are the ones used.
+
+**Share (batch 11).** Book Five, every page (pp. 611–782).
+
+**Patch.** `inbox/2026-11-12-b11-ladybird-1968.yaml` (patch `2026-11-12-b11-ladybird-1968`): 90 new entries (ids claimed in the ledger first), 56 `cite` ops, 3 `variant` ops, 5 `check` ops. `./bib patch-check`: 0 errors; the warnings are "one event?" and "a duplicate of ..." on new entries that share a day and thread with another and are distinct events (the busiest: Mar. 31, Aug. 27, Jan. 19 and 20); `./bib resolve ID --take keep` settles each if the merge flags it.
+
+**Form.** The diary is Mrs. Johnson's account: every `n` says so; a private act on a record nobody saw then carries "Made public: 1970." (not on a public event: the State of the Union, the signings, the dinners with press present). Her words, and what she gives as Johnson's or another's, are in quotation marks; her inferences are hers (the reading of Connally's letter, Jan. 17; her reading of Eastland, Aug. 9). The day is the diary's; where she writes "earlier" or "last night" the entry takes that day. Every quotation of an entry or cite was matched by script to the text layer (spaces, dashes and line-end hyphens normalized); the pages read by eye are 615, 680 and 782. 1968 is the calendar's densest year: the searches (`./bib find ... -l cal --since ... --until ...`, day by day) found the diary's event already entered for Jan. 7, 15, 17, 18, 25, Mar. 4, 6, 10, 14, 17, 31, Apr. 4, 5, 9, 11, June 5, 6, 8, July 1, 19, Aug. 1, 9, 10, 20, 26, Oct. 1, 2, 8, 29, 31, Nov. 6, 11, 21, Dec. 12 and Jan. 14, 17, 20; those are cites. Not in the calendar: the rest, entered.
+
+## Entered (new)
+
+| Day | Entry | Page |
+|---|---|---|
+| Jan. 4 | `cal.1968-01-04.economy` | 611 |
+| Jan. 4 | `cal.1968-01-04.elections-1968-johnson` | 611–12 |
+| Jan. 17 | `cal.1968-01-17.conservation` | 616–17 |
+| Jan. 17 | `cal.1968-01-17.elections-1968-johnson` | 616 |
+| Jan. 17 | `cal.1968-01-17.elections-1968-johnson-2` | 617–18 |
+| Jan. 17 | `cal.1968-01-17.press-and-broadcasting` | 619–20 |
+| Jan. 18 | `cal.1968-01-18.crime-and-hijacking` | 624 |
+| Jan. 25 | `cal.1968-01-25.white-house` | 625–27 |
+| Feb. 7 | `cal.1968-02-07.middle-east` | 628–29 |
+| Mar. 6 | `cal.1968-03-06.democratic-party` | 635–36 |
+| Mar. 10 | `cal.1968-03-10.elections-1968-humphrey` | 638 |
+| Mar. 10 | `cal.1968-03-10.elections-1968-johnson-2` | 638 |
+| Mar. 14 | `cal.1968-03-14.africa` | 638–41 |
+| Mar. 14 | `cal.1968-03-14.transition-and-staff` | 639 |
+| Mar. 14 | `cal.1968-03-14.women` | 639 |
+| Mar. 17 | `cal.1968-03-17.vietnam-2` | 641 |
+| Mar. 31 | `cal.1968-03-31.elections-1968-johnson-7` | 643 |
+| Mar. 31 | `cal.1968-03-31.elections-1968-johnson-8` | 646 |
+| Mar. 31 | `cal.1968-03-31.elections-1968-mccarthy-2` | 646 |
+| Apr. 5 | `cal.1968-04-05.civil-disorders-king-2` | 651–52 |
+| Apr. 5 | `cal.1968-04-05.king-5` | 647–49 |
+| Apr. 5 | `cal.1968-04-05.press-and-broadcasting` | 649–51 |
+| Apr. 8 | `cal.1968-04-08.conservation` | 653–55 |
+| Apr. 9 | `cal.1968-04-09.conservation` | 656–58 |
+| Apr. 9 | `cal.1968-04-09.elections-1968-2` | 660 |
+| Apr. 9 | `cal.1968-04-09.elections-1968-johnson` | 656 |
+| Apr. 9 | `cal.1968-04-09.vietnam-support` | 658–59 |
+| Apr. 11 | `cal.1968-04-11.transition-and-staff` | 662–63 |
+| Apr. 11 | `cal.1968-04-11.vietnam-paris-2` | 661 |
+| Apr. 17 | `cal.1968-04-17.conservation` | 665–67 |
+| Apr. 17 | `cal.1968-04-17.vietnam-honolulu` | 665 |
+| Apr. 30 | `cal.1968-04-30.congress` | 667–68 |
+| Apr. 30 | `cal.1968-04-30.white-house` | 667 |
+| Apr. 30 | `cal.1968-04-30.white-house-2` | 668–69 |
+| May 15 | `cal.1968-05-15.africa` | 670–72 |
+| May 18 | `cal.1968-05-18.conservation` | 672–75 |
+| May 18 | `cal.1968-05-18.elections-1968-republican-nomination` | 675–76 |
+| May 23 | `cal.1968-05-23.congress-2` | 676–78 |
+| June 5 | `cal.1968-06-05.crime-and-hijacking-guns` | 680 |
+| June 5 | `cal.1968-06-05.robert-kennedy-3` | 681 |
+| June 8 | `cal.1968-06-08.robert-kennedy-3` | 685–86 |
+| June 8 | `cal.1968-06-08.white-house` | 685 |
+| June 21 | `cal.1968-06-21.white-house` | 687 |
+| June 26 | `cal.1968-06-26.conservation` | 689–90 |
+| July 1 | `cal.1968-07-01.consumers` | 693 |
+| July 6–8 | `cal.1968-07-06.elections-1968-2` | 713–14 |
+| July 16 | `cal.1968-07-16.conservation` | 694 |
+| July 16 | `cal.1968-07-16.middle-east` | 695 |
+| July 20 | `cal.1968-07-20.conservation-3` | 696–97 |
+| Aug. 1 | `cal.1968-08-01.elections-1968-chicago` | 697–98 |
+| Aug. 2 | `cal.1968-08-02.white-house` | 699–700 |
+| Aug. 9 | `cal.1968-08-09.cities-and-housing-2` | 701–02 |
+| Aug. 9 | `cal.1968-08-09.elections-1968-8` | 700–01 |
+| Aug. 9 | `cal.1968-08-09.elections-1968-johnson` | 701–02 |
+| Aug. 20 | `cal.1968-08-20.soviet-union-3` | 703–04 |
+| Aug. 27 | `cal.1968-08-27.elections-1968-chicago-21` | 705–06 |
+| Aug. 27 | `cal.1968-08-27.elections-1968-chicago-22` | 706 |
+| Sept. 9 | `cal.1968-09-09.press-and-broadcasting` | 708–09 |
+| Sept. 24 | `cal.1968-09-24.conservation` | 710 |
+| Sept. 24 | `cal.1968-09-24.court-fortas` | 709–10 |
+| Sept. 28 | `cal.1968-09-28.court-fortas` | 712–13 |
+| Oct. 2 | `cal.1968-10-02.africa` | 714–15 |
+| Oct. 2 | `cal.1968-10-02.conservation-2` | 715 |
+| Oct. 5 | `cal.1968-10-05.elections-1968-humphrey` | 716–17 |
+| Oct. 8 | `cal.1968-10-08.elections-1968-humphrey` | 718 |
+| Oct. 9 | `cal.1968-10-09.vietnam-support` | 719–21 |
+| Oct. 15 | `cal.1968-10-15.conservation` | 721–23 |
+| Oct. 15 | `cal.1968-10-15.vietnam-paris-3` | 721, 723 |
+| Oct. 25 | `cal.1968-10-25.white-house` | 727–28 |
+| Oct. 29 | `cal.1968-10-29.transition-and-staff` | 729 |
+| Nov. 6 | `cal.1968-11-06.press-and-broadcasting` | 732 |
+| Nov. 11 | `cal.1968-11-11.transition-and-staff-2` | 733–34 |
+| Nov. 12 | `cal.1968-11-12.conservation` | 735–36 |
+| Nov. 12 | `cal.1968-11-12.conservation-2` | 736–37 |
+| Nov. 23 | `cal.1968-11-23.space` | 740–44 |
+| Dec. | `cal.1968-12.civil-rights-the-executive-2` | 758 |
+| Dec. 3 | `cal.1968-12-03.democratic-party` | 746–47 |
+| Dec. 3 | `cal.1968-12-03.transition-and-staff-2` | 747–48 |
+| Dec. 9 | `cal.1968-12-09.space` | 749–51 |
+| Dec. 9 | `cal.1968-12-09.transportation` | 748–49 |
+| Dec. 16 | `cal.1968-12-16.press-and-broadcasting` | 756 |
+| Dec. 18 | `cal.1968-12-18.transition-and-staff` | 757–59 |
+| Dec. 18 | `cal.1968-12-18.white-house` | 757 |
+| Jan. 10, 1969 | `cal.1969-01-10.transition-and-staff` | 762 |
+| Jan. 13, 1969 | `cal.1969-01-13.democratic-party` | 764 |
+| Jan. 17, 1969 | `cal.1969-01-17.program` | 768 |
+| Jan. 19, 1969 | `cal.1969-01-19.transition-and-staff-5` | 771 |
+| Jan. 19, 1969 | `cal.1969-01-19.transition-and-staff-6` | 773–74 |
+| Jan. 20, 1969 | `cal.1969-01-20.transition-and-staff-5` | 782 |
+| Jan. 20, 1969 | `cal.1969-01-20.transition-and-staff-6` | 782 |
+
+## Cited (the card) and what the page bears
+
+- `cal.1968-01-07.middle-east`: 613–15.
+- `cal.1968-01-17.program`: 618–20, 20.
+- `cal.1968-01-17.elections-1968`: 619.
+- `cal.1968-01-15.elections-1968-johnson`: 615.
+- `cal.1968-10-29.vietnam`: 728–29.
+- `cal.1968-10-31.vietnam`: 730–31.
+- `cal.1968-11-06.elections-1968`: 732.
+- `cal.1968-11-11.transition-and-staff`: 733–35.
+- `cal.1968-11-21.program`: 737–39.
+- `cal.1968-12-12.transition-and-staff`: 753–54, 754–55.
+- `cal.1969-01-14.program`: 764–68.
+- `cal.1969-01-17.voting-rights`: 768–69.
+- `cal.1969-01-20.conservation`: 771–72.
+- `cal.1969-01-20.transition-and-staff`: 775–79.
+- `cal.1969-01-20.transition-and-staff-2`: 779–81.
+- `cal.1968-01-18.war-opposition`: 620–24.
+- `cal.1968-01-25.japan-and-korea`: 625.
+- `cal.1968-01-25.transition-and-staff`: 625.
+- `cal.1968-02-08.europe-and-the-alliance`: 629–31.
+- `cal.1968-03-04.open-housing`: 634.
+- `cal.1968-03-06.transition-and-staff`: 634–35.
+- `cal.1968-03-10.elections-1968-johnson`: 637.
+- `cal.1968-03-10.vietnam-205000`: 637.
+- `cal.1968-03-14.elections-1968-johnson`: 638.
+- `cal.1968-03-17.elections-1968-johnson`: 641.
+- `cal.1968-03-17.elections-1968-johnson-2`: 641–42, 638.
+- `cal.1968-03-31.elections-1968-4`: 643.
+- `cal.1968-03-31.elections-1968-3`: 643–44.
+- `cal.1968-03-31.elections-1968-10`: 644.
+- `cal.1968-03-31.soviet-union`: 644.
+- `cal.1968-03-31.elections-1968`: 645–46, 646.
+- `cal.1968-04-04.king`: 648.
+- `cal.1968-04-04.democratic-party`: 647–48.
+- `cal.1968-04-05.civil-disorders`: 650–51.
+- `cal.1968-04-09.king`: 656.
+- `cal.1968-04-09.vietnam-paris`: 656.
+- `cal.1968-04-11.open-housing`: 661–62.
+- `cal.1968-06-05.assassination-3`: 680.
+- `cal.1968-06-05.civil-disorders-2`: 681–82.
+- `cal.1968-06-06.robert-kennedy-campaign`: 682.
+- `cal.1968-06-08.robert-kennedy`: 682–86.
+- `cal.1968-06-08.robert-kennedy-2`: 685.
+- `cal.1968-06-08.king`: 685.
+- `cal.1968-06-26.court`: 689, 692.
+- `cal.1968-07-01.testing`: 692–93.
+- `cal.1968-07-19.vietnam`: 696–97.
+- `cal.1968-08-01.civil-rights-the-executive`: 699.
+- `cal.1968-08-09.court-fortas`: 702.
+- `cal.1968-08-10.elections-1968`: 702–03.
+- `cal.1968-08-20.elections-1968-chicago-3`: 704.
+- `cal.1968-08-20.soviet-union`: 704.
+- `cal.1968-08-26.elections-1968-2`: 705.
+- `cal.1968-09-24.elections-1968`: 711–12.
+- `cal.1968-10-01.court`: 714.
+- `cal.1968-10-02.conservation`: 714–15.
+- `cal.1968-10-08.defense`: 718–19.
+
+## Variants and Checks
+
+- `cal.1968-10-31.vietnam`: variant, unit A: the diary reads "a little past 7" (for 8 p.m.), 731.
+- `cal.1968-04-04.king`: variant, unit D: the diary reads "struck down Dr. King" (for "struck Dr. King"), 648.
+- `cal.1968-06-05.civil-disorders-2`: variant, unit A: the diary reads "two hundred million people did not strike down Robert Kennedy" (for "Americans"), 682.
+- `cal.1969-01-20.transition-and-staff-2`: Check: the diary has Johnson conferring the Medal of Freedom "early this morning" on Clifford, Harriman and Bill White "and seventeen others," about twenty names, with citations for Mary Lasker and Laurance Rockefeller among them, not five ([[w.johnson-white-house-diary]], 776, 780).
+- `cal.1968-03-31.elections-1968-3`: Check: the diary puts the Krims' protests at Johnson's reading of the statement before lunch ([[w.johnson-white-house-diary]], 643) and records only tears at lunch.
+- `cal.1968-03-31.elections-1968-10`: Check: the diary puts the talk with Lynda and Luci "around 3 o'clock" (not "early afternoon"), says the time "is very hazy on this day," and does not say Mrs. Johnson told them; Westmoreland's opinion was asked "last year," by Johnson's words, which [[w.johnson-white-house-diary]], 644, gives.
+- `cal.1968-08-20.elections-1968-chicago-3`: Check: the diary has Rusk "making a statement on Vietnam" when someone handed him a note, not finished, and no Boggs reading a dispatch ([[w.johnson-white-house-diary]], 704).
+- `cal.1968-10-08.defense`: Check: the diary names Luci, not Lynda Robb, as Mrs. Johnson's companion at the Westmorelands' dinner ([[w.johnson-white-house-diary]], 718).
+
+## Passed over (with the card's ground)
+
+Family and social matters with nothing done or said of public business (Q5): Jan. 7, the evening, Luci, Pat and the baby, the Noah's Ark and Jimmy Symington's songs (614–15); Feb. 7, the party for wounded servicemen in the theater, kept out of the papers (627–28); Mar. 5, the portrait sittings with Madame Shoumatoff, Lynda's party, Mar. 6, Andre Meyer's lunch (the portrait; no business said), the Kreeger house, the Gonella house (633–36); Mar. 10, church, the South grounds, bowling (637–38); Mar. 14, the circus; Mar. 17, Luci and Pat's return, Lynda's birthday; Mar. 31, Lynda's return from Camp Pendleton, "they kept on pushing and shoving" (the press; 642), Pat's orders; Apr. 4, Mrs. Post's house; Apr. 5, 8 and 9, the tour's sights, food and wildflowers beyond the entries above (649–60); Apr. 13, the weekend and the talk of Lynda's pregnancy (664–65); May 15, the Moravian girls, Bishop McKinstry, the McGills' tea (670–71); May 18, Lyndhurst's and Brooke Astor's dinner (675–76); June 21, Lyn's family party and Houston Harte (688–89); June 26 and July 1, Timberline Lodge, the Mesta drop-in; Aug. 1, the new Ambassadors' wives, the college interns and the Monroneys' dinner (698–99); Aug. 20, Connie Freeman's tea; Sept. 9, the staff Country Fair; Sept. 24, the JANGO tea; Sept. 28, LeRoy Bates's funeral and the Wests; Oct. 5, Camp David; Oct. 9, the Urises, the children, Liz Carpenter's operation (720); Oct. 19, Jenkins's son, the talk of Mrs. Kennedy's marriage and "a gimmick" for Pat Nixon (723–25); Oct. 31, Lynda's homecoming and Helene's party; Nov. 28, Thanksgiving; Dec. 3, the party for hospitalized veterans (746); Dec. 24, Christmas Eve; Jan. 10, Berks's sitting; Jan. 13, the desk and the Pierre farewell (763–64); Jan. 14, Lyn in the gallery (765–67; cited under the State of the Union, not entered); Jan. 17, Mrs. Longworth's tea (769–70); Jan. 19, the Children's Garden, the Marine Band, the F Street Club (771–73); Jan. 20 morning, her last round of the rooms (775).
+
+The house, furnishings and art (the audits' commonest fault; Q5): Jan. 15, John Walker and the Walters interview (615); Mar. 6, the portrait; Nov. 11, Dec. 12 and Jan. 20, the tours of the house for Mrs. Nixon and Tricia and the Committee for the Preservation of the White House (734–35, 751–54); Oct. 8, Becker's gift to the Library; Oct. 19 and 24, the Library meetings on the exhibit (724–25).
+
+Preparations and covering matter: Jan. 4 and Mar. 5, the talk before or after the entries above; Apr. 4, her work on the Texas trip; Nov. 21, the Cape Kennedy briefing with Webb; Dec. 9, the Christmas list; Oct. 24, the American Association of Nurserymen luncheon (she "worked on my speech," nothing of it said; the lawn presentation of Sept. 24 is entered).
+
+Reflection with no event: Jan. 15 and 17, her wish for "words that have wings and fire" beyond the entries; Apr. 30, the month's reckoning and what Nellie Connally, Trudye Fowler and Neustadt said (669); July 16, her view that Johnson should have appointed more of his own men (694–95); Sept. 28, her view of the professors; Nov. 28, the year's thanks (745).
+
+## Leads
+
+- Apr. 8 (655): Bess "did not think we should go on with the State Dinner on Wednesday night" (Apr. 10); the curfew still on. The diary does not name the guest; not entered.
+- Apr. 9 (660): a reception for McNamara, Gardner and Trowbridge, which Udall asks about; "not sure what day it was." The diary dates it Apr. 11 (662); the calendar has no entry for the party.
+- Aug. 27 (706): the diary puts the favorite sons' release of delegates for Humphrey, "first Texas, then South Carolina, and then Tennessee," on the night of Johnson's birthday; the balloting was Aug. 28. Entered with Check: the day.
+- July 20 (696): Johnson "left for Honolulu at 11 Thursday morning" (July 18); the calendar's Honolulu entries run July 18–20.
+- Dec. 18 (758): the date of the reception for Johnson by the Negro officials (entered as `cal.1968-12.civil-rights-the-executive-2`, Check: the day).
+- Nov. 28 (745): the Rostows deciding on a house in Austin and the School of Public Affairs: not entered.
+
+## Rulings that took a Check
+
+`cal.1968-03-31.elections-1968-3` and `-10` (the Krims' protests before lunch, not at lunch, 643; the talk with Lynda and Luci "around 3," not "early afternoon," and the diary does not say Mrs. Johnson told them, 644); `cal.1968-08-20.elections-1968-chicago-3` (Rusk interrupted in the middle of his Vietnam statement by "someone," not finished and no Boggs, 704); `cal.1968-10-08.defense` (Luci, not Lynda Robb, at Fort Myer, 718); `cal.1969-01-20.transition-and-staff-2` (twenty Medals of Freedom, not five, 776, 780). Variants: `cal.1968-04-04.king` unit D ("struck down Dr. King"); `cal.1968-06-05.civil-disorders-2` unit A ("two hundred million people"); `cal.1968-10-31.vietnam` unit A (the broadcast "a little past 7," 731). Not a variant: the diary's "fifty-eight non-nuclear nations" at the July 1 signing (693) against the entry's fifty-six states at Washington, a different count.
+
+Rules looked up: the card's test and examples (the Humphrey ride, Libonati, the pilot and the audit) for the social occasions, the press-staged ones (Lyn's birthday, Apr. 5 tour, Dec. 16) and the farewell dinners; Q5 for the house and furnishings; R54 for the copy. No other.
+
+## Where batch 11 stopped (1968–69)
+
+The share is finished: Book Five read whole, Jan. 4, 1968 through Jan. 20, 1969 (printed pp. 611–782, PDF 657–836). Not done: the image check of every quoted word and number outside pp. 615, 680 and 782 (the text layer, matched by script, above); the Public Papers volumes for the speeches, toasts and arrival remarks, left as "To check" on each entry; the claim-map units of the cited entries (all `?`, with a parenthetical saying what the page bears), which the auditor may letter; the event of the Jan. 14, 1969 gallery scene, passed over as family. The auditor's blind pass is still to come.
