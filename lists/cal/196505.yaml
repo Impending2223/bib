@@ -554,20 +554,30 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-05-05.latin-america-dominican-republic-2
+    when: May 5
+    date: '1965-05-05'
+    thread: latin-america-dominican-republic
+    c: The Act of Santo Domingo, the cease-fire, signed by both sides before the OAS Commission; its preamble names Caamaño's group the "Constitutional Government."
+    n: '[FRUS 1964–68, XXXII, doc. 59](https://history.state.gov/historicaldocuments/frus1964-68v32/d59) (May 6: the Act signed by both sides; its preamble, "Constitutional Government" for Caamaño''s group, "Military Junta of Government" for Benoit''s; the cease-fire). [[w.dallek-flawed-giant]], 267 (the Dominican factions sign a cease-fire on May 5; not the Act''s name or the preamble). See [[cal.1965-04-28.latin-america]]. Names: Caamaño-Deno.'
+    src:
+      c: 98f1cf05
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v32/d59: all'
+        - 'w.dallek-flawed-giant 267: ?'
+    tags: [name:caamano-deno-francisco]
   - id: cal.1965-05-06.latin-america
     when: May 6
     date: '1965-05-06'
     time: 1965-05-06T06:00Z
     thread: latin-america-dominican-republic
-    c: 'OAS foreign ministers, after midnight, vote the inter-American force the United States asked: 14–5, Chile, Ecuador, Mexico, Peru, and Uruguay against, Venezuela abstaining. Two-thirds needed. The Act of Santo Domingo, the cease-fire, signed May 5. May 7, Imbert''s Government of National Reconstruction formed against Caamaño''s "Constitutional Government."'
-    n: '[FRUS 1964–68, XXXII, doc. 58](https://history.state.gov/historicaldocuments/frus1964-68v32/d58) (its note prints 15–5; a CIA situation report, 14–5: check), [doc. 59](https://history.state.gov/historicaldocuments/frus1964-68v32/d59). [[w.rusk-as-i-saw-it-1990]], 375–76 (a two-thirds vote required; the Mexican ambassador, for one of the holdouts, privately: a necessary action, but no public endorsement); [[w.dallek-flawed-giant]], 267 (the Dominican factions sign a cease-fire on May 5; two days later a Dominican general sets up a five-man "Government of National Reconstruction," which the rebels refuse to accept; not the Act''s name or the generals'' names). See [[cal.1965-04-28.latin-america]]. Names: Imbert-Barrera, Caamaño-Deno.'
+    c: 'OAS foreign ministers, after midnight, vote the inter-American force the United States asked: 14–5, Chile, Ecuador, Mexico, Peru, and Uruguay against, Venezuela abstaining. Two-thirds needed.'
+    n: '[FRUS 1964–68, XXXII, doc. 58](https://history.state.gov/historicaldocuments/frus1964-68v32/d58) (its note prints 15–5; a CIA situation report, 14–5: check), [doc. 59](https://history.state.gov/historicaldocuments/frus1964-68v32/d59) (the force approved). [[w.rusk-as-i-saw-it-1990]], 375–76 (a two-thirds vote required; the Mexican ambassador, for one of the holdouts, privately: a necessary action, but no public endorsement). See [[cal.1965-04-28.latin-america]], [[cal.1965-05-05.latin-america-dominican-republic-2]].'
     src:
-      c: 818a606a
+      c: 1ae8c148
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v32/d58: all'
         - 'w.rusk-as-i-saw-it-1990 375–76: B'
-        - 'w.dallek-flawed-giant 267: ?'
-    tags: [name:imbert-barrera-antonio, name:caamano-deno-francisco]
     short: the OAS force
   - id: cal.1965-05-06.robert-kennedy
     when: May 6
@@ -876,6 +886,18 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1965-05-07.latin-america-dominican-republic-2
+    when: May 7
+    date: '1965-05-07'
+    thread: latin-america-dominican-republic
+    c: Imbert's Government of National Reconstruction formed, five members, against Caamaño's "Constitutional Government."
+    n: '[FRUS 1964–68, XXXII, doc. 62](https://history.state.gov/historicaldocuments/frus1964-68v32/d62) (Martin, May 10: the GRN formed "to counter rebel Caamano ''government''"; no day). [[w.dallek-flawed-giant]], 267 (two days after the cease-fire, a Dominican general''s five-man "Government of National Reconstruction," which the rebels refuse to accept; not the generals'' names). See [[cal.1965-05-05.latin-america-dominican-republic-2]]. Names: Imbert-Barrera, Caamaño-Deno.'
+    src:
+      c: a908fd34
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v32/d62: ?'
+        - 'w.dallek-flawed-giant 267: ?'
+    tags: [name:imbert-barrera-antonio, name:caamano-deno-francisco]
   - id: cal.1965-05-08.transition-and-staff
     when: May 8
     date: '1965-05-08'
