@@ -1,5 +1,5 @@
 patch: 2026-11-12-b9-group-5
-by: 'Claude (batch 9, group 5: white, anderson, gavin, moyar, rfk-own-words, smith, cq; the "already in" rows), Nov. 11, 2026'
+by: 'Claude (batch 9, group 5, audited Nov. 11–12, 2026 by the auditor; reader: white, anderson, gavin, moyar, rfk-own-words, smith, cq; the "already in" rows), Nov. 11, 2026'
 ops:
 - cite:
     id: cal.1965-01-27.vietnam-2
@@ -10,7 +10,7 @@ ops:
     text: 'Check: the day: White, 19, has McNamara and Bundy deliver the "Fork-in-the-Y" memorandum "On January 25th, five days after his inaugural address"; the entry has Jan. 27, on FRUS 1964–68, II, doc. 42.'
 - cite:
     id: cal.1967-07-12.civil-disorders
-    item: '[[w.white-making-of-the-president-1969]], 202 (July 12: a Negro taxi driver arrested and dragged to a police station; a crowd; a Molotov cocktail; the next night, Thursday, July 13, looting on a larger scale, the mayor calling for the Guard by two in the morning; not the precinct or the traffic stop)'
+    item: '[[w.white-making-of-the-president-1969]], 202 (July 12: a Negro taxi driver arrested and dragged to a police station; a crowd; a Molotov cocktail; the next night, Thursday, July 13, looting on a larger scale; not the precinct or the traffic stop)'
     units: '?'
 - cite:
     id: cal.1967-07-17.civil-disorders-newark
@@ -70,6 +70,8 @@ ops:
       n: '[[w.white-making-of-the-president-1969]], 201 (the third day of "a five-day orgy"; no day of the month). Check: the day; the entry for the riot gives June 12–15. See [[cal.1967-06-12.civil-disorders]]. Names: Brown.'
       tags:
       - name:brown-h-rap
+      - state:oh
+      - city:cincinnati
 - add:
     entry:
       id: cal.1968-08-07.elections-1968-miami-9
@@ -80,6 +82,8 @@ ops:
       n: '[[w.white-making-of-the-president-1969]], 250 (the drive "At about eleven"; Wednesday evening, after the nominations began). Check: the hour, by White''s "about eleven." See [[cal.1968-08-07.elections-1968-miami-6]]. Names: Nixon.'
       tags:
       - name:nixon-richard-m
+      - state:fl
+      - city:miami
 - cite:
     id: cal.1963-08-28.march-on-washington
     item: '[[w.anderson-confronting-the-color-line]], 116 (more than two hundred thousand persons; Bayard Rustin managed the details; King "intoned his dream of an integrated America"; more than twenty-five hundred from Chicago boarded trains for the march; not the places, Randolph, the order of speakers or Lewis''s text)'
@@ -90,7 +94,7 @@ ops:
     units: B, D, G
 - cite:
     id: cal.1967-04-04.mayors-chicago
-    item: '[[w.anderson-confronting-the-color-line]], 322 (Daley reelected for a fourth term "by a landslide," by more than 500,000 votes, against 140,000 in 1963; not the figures or the wards)'
+    item: '[[w.anderson-confronting-the-color-line]], 323 (Daley reelected for a fourth term "by a landslide," by more than 500,000 votes, against 140,000 in 1963; not the figures or the wards)'
     units: '?'
 - add:
     entry:
@@ -99,7 +103,7 @@ ops:
       date: '1967-04-09'
       thread: king
       c: 'The Chicago Sun-Times, a political writer, on Daley''s reelection: Martin Luther King''s Chicago Freedom Movement "has been pretty much of a political bust." Daley''s majority more than 500,000, against 140,000 in 1963.'
-      n: '[[w.anderson-confronting-the-color-line]], 322. To check: *Chicago Sun-Times*, Apr. 9, 1967 (cited by [[w.anderson-confronting-the-color-line]], 488 nn.21–22). Check: the day, by the note''s date. See [[cal.1967-04-04.mayors-chicago]]. Names: King, Daley.'
+      n: '[[w.anderson-confronting-the-color-line]], 323. To check: *Chicago Sun-Times*, Apr. 9, 1967 (cited by [[w.anderson-confronting-the-color-line]], 488 nn.21–22). Check: the day, by the note''s date. See [[cal.1967-04-04.mayors-chicago]]. Names: King, Daley.'
       tags:
       - name:king-martin-luther-jr
       - name:daley-richard-j
@@ -125,10 +129,6 @@ ops:
       - name:bunche-ralph-j
       - name:king-martin-luther-jr
 - cite:
-    id: cal.1960-11-22.transition-and-staff
-    item: '[[w.gavin-gold-dollars-and-power]], 62–63 (Gore, a presumptive candidate for the Treasury, tells Kennedy that choosing Dillon signals "a continuation of the stagnant policies of the Republicans"; Kennedy''s answer; no day; not the Gore quotation the entry gives)'
-    units: '?'
-- cite:
     id: cal.1960-07-21.elections-1960
     item: '[[w.smith-on-his-own-terms]], 342 (Rockefeller-financed surveys showing Nixon losing to Kennedy in five of the largest swing States, 49 to 28 in New York alone; no day, no firm, States not named)'
     units: '?'
@@ -136,18 +136,10 @@ ops:
     id: cal.1961-11-26.transition-and-staff
     item: '[[w.moyar-triumph-forsaken]], 144 (the personnel shuffle "known as the ''Thanksgiving Day Massacre''"; Harriman installed as Assistant Secretary of State for Far Eastern Affairs; not the others or the day)'
     units: A, D
-- add:
-    entry:
-      id: cal.1961-11.vietnam-3
-      when: Nov.–Dec.
-      date: 1961-11
-      thread: vietnam
-      c: 'Kennedy approves a recommendation from Rusk and McNamara for limited defoliation operations in South Vietnam: first the clearance of key routes, then crop destruction in areas the Viet Cong hold.'
-      n: '[[w.moyar-triumph-forsaken]], 144 ("at year''s end"). Check: the day and the month. See [[cal.1961-11-03.vietnam-2]]. Names: Kennedy, Rusk, McNamara.'
-      tags:
-      - name:kennedy-john-f
-      - name:rusk-dean
-      - name:mcnamara-robert-s
+- cite:
+    id: cal.1961-11-30.vietnam
+    item: '[[w.moyar-triumph-forsaken]], 144 (Kennedy, "at year''s end," approves Rusk''s and McNamara''s recommendation of limited defoliation, first the clearance of key routes, then crop destruction in areas the Viet Cong hold; not NSAM 115 by name or the procedure)'
+    units: '?'
 - add:
     entry:
       id: cal.1962-03.laos
@@ -158,37 +150,80 @@ ops:
       n: '[[w.moyar-triumph-forsaken]], 162 ("in March"; not the day, the form or the signers). Check: the day. See [[cal.1962-02-27.laos]].'
       tags:
       - polity:us
-      - polity:thailand
-- add:
-    entry:
-      id: cal.1962-04.laos
-      when: Apr.
-      date: 1962-04
-      thread: laos
-      c: Kennedy, at Harriman's recommendation, cuts aid to the royal Laotian government.
-      n: '[[w.moyar-triumph-forsaken]], 162 ("In April"; not the day or the form). Check: the day. See [[cal.1962-03.laos]]. Names: Kennedy, Harriman.'
-      tags:
-      - name:kennedy-john-f
-      - name:harriman-w-averell
+      - polity:th
+- cite:
+    id: cal.1962-02.laos
+    item: '[[w.moyar-triumph-forsaken]], 162 (Kennedy, at Harriman''s recommendation, cuts aid to the royal Laotian government, and within a few weeks Phoumi agrees to a coalition under Souvanna; dated April; not Boun Oum, the payroll, the Chiefs or the CIA)'
+    units: '?'
+- check:
+    id: cal.1962-02.laos
+    text: 'Check: the month: [[w.moyar-triumph-forsaken]], 162, has Kennedy cut aid to the royal government "In April, at Harriman''s recommendation"; the entry has the money held back in February, by Kaplan; whether one act or two.'
+- cite:
+    id: cal.1962-05-06.laos
+    item: '[[w.moyar-triumph-forsaken]], 162 (the attack on Nam Tha by several of the best Pathet Lao battalions and six North Vietnamese battalions, four thousand Chinese logistical troops supplying them; the 4,500 royalist soldiers flee in disarray; no day; not the Mekong)'
+    units: '?'
 - cite:
     id: cal.1961-08-17.berlin-and-vienna-2
     item: '[[w.robert-kennedy-in-his]], 275 (Kennedy of a White House meeting at which sending Johnson to Berlin and sending a regiment into Berlin were discussed, the President ordering the troops; not Lemnitzer, the Chiefs'' proposal or the advisers'' objection)'
     units: '?'
 - check:
     id: cal.1961-08-17.berlin-and-vienna-2
-    text: 'Check: whether Kennedy''s meeting is this one: [[w.robert-kennedy-in-his]], 275, has it "on, I think, Sunday morning," with "no meeting" on the Wall before it; the entry has Aug. 17.'
+    text: 'Check: the day: [[w.robert-kennedy-in-his]], 275, has the meeting "on, I think, Sunday morning" ("There hadn''t been any meeting on the Wall ... prior to that time"; "I think the Wall went up on a Friday, as I remember"); the entry has Aug. 17, a Thursday.'
 - cite:
     id: cal.1961-08-19.berlin-and-vienna
     item: '[[w.robert-kennedy-in-his]], 276 (the troops reached Berlin "a Saturday or a Sunday"; the President "very relieved" when they got through; not Johnson, Clay or the 18th Infantry)'
     units: '?'
-- check:
-    id: cal.1961-08-13.berlin-and-vienna
-    text: 'Check: the day: [[w.robert-kennedy-in-his]], 275, Kennedy: "I think the Wall went up on a Friday, as I remember" (Martin''s question has Aug. 13); the entry has Aug. 13.'
 - cite:
     id: cal.1962-11-20.civil-rights-the-executive
     item: '[[w.robert-kennedy-in-his]], 368–69 (Martin dates the signing Nov. 20; Kennedy: the order "covered future housing," not all housing; the delay, and the northern Congressmen who did not want it; not the press conference)'
-    units: '?'
+    units: B
 - cite:
     id: cal.1967-08.democratic-party-2
     item: '[[w.cq-weekly-report]], June 21, 1968, 1537 (Gans, a former official of Americans for Democratic Action, "in 1967 helped found the Conference of Concerned Democrats"; not the money, Lowenstein, the staff or the day)'
     units: '?'
+# Added by the audit (missed on the reader's pages)
+- cite:
+    id: cal.1967-07-14.civil-disorders-newark
+    item: '[[w.white-making-of-the-president-1969]], 202 ("by two in the morning the mayor had called for New Jersey''s National Guard"; by Friday the Guard, the State Police and the City Police in place, and firing; not the hour''s half, Hughes, or the sniper reports)'
+    units: '?'
+- check:
+    id: cal.1967-06-12.civil-disorders
+    text: 'Check: the length: [[w.white-making-of-the-president-1969]], 201, has "a five-day orgy" at Cincinnati in June 1967; the entry has the night of June 12 to June 15.'
+- cite:
+    id: cal.1967-06-11.alabama
+    item: '[[w.white-making-of-the-president-1969]], 201 (Carmichael at Prattville: "We came here to tear this town up and we''re going to tear it up"; no day; not the arrest, the shooting, the Guard, Hulett or Brown)'
+    units: '?'
+- cite:
+    id: cal.1966-07-12.open-housing
+    item: '[[w.white-making-of-the-president-1969]], 201 (Chicago, July 1966, two killed; not the hydrant, the hurt, the arrests or the Guard)'
+    units: '?'
+- cite:
+    id: cal.1966-07-18.states-and-cities
+    item: '[[w.white-making-of-the-president-1969]], 201 (Cleveland again in July 1966, four killed; not Hough, the days, the hurt, the arrests or the Guard)'
+    units: '?'
+- cite:
+    id: cal.1967-04-12.king
+    item: '[[w.anderson-confronting-the-color-line]], 321 (King: "A myth credits me with advocating the fusion of the civil rights and peace movements. I hold no such view"; not Los Angeles, the press conference or the call to Levison)'
+    units: '?'
+- add:
+    entry:
+      id: cal.1966-03.civil-disorders
+      when: Mar.
+      date: 1966-03
+      thread: civil-disorders
+      c: Los Angeles. Black students stone a white teacher's car and beat other whites; looting follows. The police quick this time; two killed; put down overnight.
+      n: '[[w.white-making-of-the-president-1969]], 201 ("in March of 1966"). Check: the day.'
+      tags:
+      - state:ca
+      - city:los-angeles
+- add:
+    entry:
+      id: cal.1964-06-23.mississippi-15
+      when: June 23
+      date: '1964-06-23'
+      thread: mississippi
+      c: Meridian, Miss. FBI Inspector Joseph Sullivan arrives with five agents to take charge of the search for the three missing.
+      n: '[[w.dittmer-local-people]], 250 ("On Tuesday, June 23"). See [[cal.1964-06-21.mississippi]].'
+      tags:
+      - state:ms
+      - city:meridian

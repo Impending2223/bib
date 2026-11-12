@@ -26,6 +26,27 @@ Re-ruled Nov. 6, 2026, under R18 as amended.
 
 Batch 6 (Nov. 10–11, 2026): the scan on archive.org again (DTIC_ADA328596, no text layer; leaf = PDF page; folio 731 = PDF 770, by archive.org's page-number file and the page images of 730 and 731), p. 731 and its note 2 (Notes to Pages 731–, PDF 991) OCR'd afresh from the page images (tesseract) and deleted after. The one row of the grounds re-ruled: the event already in the calendar, cited. Patch `inbox/2026-11-06-b6-watson-into-the-missile.yaml`: one cite (unit A) and its `via` row; one edge added to the by-work file (731 n.2, Goodpaster's memorandum, a registered witness). The other rows are not private, social or draft rows and stand as they were.
 
+Batch 9 (Nov. 11, 2026, evening): the scan on archive.org again (DTIC_ADA328596, PDF; no text layer, OCR by tesseract of the pages needed, each read off the page image). Leaf minus folio: 28 at 396–97 (the page-number file is a leaf off there), 39 from 628 on (checked on 628, 638, 654, 719, 760, 762, 770); the notes, "Notes to Pages 650–54" at PDF 976 on. The "already in" rows, ruled:
+
+| Row | Ruling |
+|---|---|
+| 397, Jan. 14, 1960, the transfer to NASA | cited under `cal.1960-01-14.space` (A, in part: the announcement of the transfer of the Development Operations Division; not Huntsville, Saturn, B or C) |
+| 763, Jan. 25, 1960, Castro a "madman" | cited under `cal.1960-01-25.cuba` (B, in part: Watson's words, not Goodpaster's) |
+| 629, Apr. 27, 1960, Rhee resigns | cited under `cal.1960-04-26.japan-and-korea` (E) |
+| 720–24, May 1960, the U-2, Paris | cited under `cal.1960-05-15.soviet-union` (722: B, C in part; 723: D, E in part, F). The other May entries of the thread (May 1–17) not cited from these pages |
+| 639, June 1960, the treaty with Japan | cited under `cal.1960-06-22.japan-and-korea` (A, C in part); variant on B (Watson: the upper house "ratified the treaty," June 18–19; the entry: the upper house not having voted) |
+| 769, June 8, 1960, Rockefeller | cited under `cal.1960-06-08.elections-1960` (B, in part: "$3 billion") |
+| 761, July 12–14, 1960, the Congo | cited under `cal.1960-07-13.congo` (A, in part); variant on `cal.1960-07-12.congo-2` A (Watson: the units within 50 hours; the entry, 30; the entry's map row for 761 reads "all" and should be '?'). `cal.1960-07-12.congo` B already cites 761 |
+| 764, Aug. 18, 1960, the Cuba budget | cited under `cal.1960-08-18.cuba` (B, in part: "approximately $13 million"; no U.S. military personnel in a combat role) |
+| 749, Nov. 16, 1960, the balance of payments | cited under `cal.1960-11-16.economy` (B, C); entered as `cal.1960-11-09.economy` (the meeting of Nov. 9, FRUS 1958–60, IV, doc. 57) and `cal.1960-11-15.economy` (Augusta, doc. 58), neither in the calendar |
+| 771, Dec. 13, 1960, McNamara | cited under `cal.1960-12-13.transition-and-staff-cabinet` (A) |
+| 655, Jan. 2–7, 1961, Laos | cited under `cal.1961-01-02.laos` (A, D in part: the assembly's recognition Jan. 3, no vote); entered as `cal.1961-01-02.laos-2` (the Defense Department's announcement), `cal.1961-01-04.laos-2` (the SEATO Council), `cal.1961-01-07.laos-3` (the Chiefs' authority for the airlift and the armed T-6s). `cal.1961-01-12.laos` and `-13` already cite 655 |
+
+Patch `inbox/2026-11-12-b9-watson.yaml`: 14 cites, 2 variants, 5 new entries. Leads (not entered): Gates to the Cabinet, Nov. 9, 1960, "no mandate" (771 n.180); Gates and McNamara, Dec. 9 and 21, 1960 (771); Sarasin's statement after the SEATO Council of Jan. 4 (no day, 655 n.153); the U-2 pages' other days (May 3, 5, 7, 9, 24, 25: 721–24).
+
+Where batch 9 stopped: all 11 rows ruled.
+
+
 Dated events of Jan. 6, 1960–Jan. 20, 1961 in the volume that the calendar does not take, a row each, for the owner to rule on. Every dated mention of the period was listed by script (about 500) and set against the calendar's entries of the day and the days around it; the rows below are the events. The military re-read of Nov. 5, 2026 (below) took the operations, deployments, orders and program decisions the first pass had left out, and listed the rest row by row: the hearings, the services' proposals, the Planning Board's and the Council's papers, the AFPC, NATO's staff papers. A row "lead" names an event the calendar should take once its record is read (R6, R8); the record is named. The volume's mentions of earlier years carried forward (the 1958 reorganization, Khrushchev's visit of 1959) are out of the span.
 
 | Page | Date | Event | Why |
