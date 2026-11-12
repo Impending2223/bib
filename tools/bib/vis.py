@@ -188,6 +188,17 @@ def iso(d):
     return None
 
 
+def window_end(d):
+    """The last day of a loose date's window: '1962-10' -> '1962-10-31'; '1962' -> '1962-12-31'; a full date as it is."""
+    s = str(d or "")
+    if re.match(r"^\d{4}-\d\d$", s):
+        y, m = int(s[:4]), int(s[5:])
+        return (datetime.date(y + m // 12, m % 12 + 1, 1) - datetime.timedelta(days=1)).isoformat()
+    if re.match(r"^\d{4}$", s):
+        return s + "-12-31"
+    return iso(s)
+
+
 def plus_days(d, n):
     y, m, dd = (int(x) for x in d.split("-"))
     return (datetime.date(y, m, dd) + datetime.timedelta(days=n)).isoformat()
@@ -384,7 +395,10 @@ def from_witness(series, wid, event, addressed):
     for rx, p in ARCHIVES:
         if rx.search(str(w.get("where") or "")):
             privity.add(p)
-    d = iso(w.get("date")) or event
+    d = iso(w.get("date"))
+    if not d:                       # undated: a year the record prints ("*New Times*, no. 5, 1989"), never the event's day
+        ys = [y for y in re.findall(r"\b((?:19|20)\d\d)\b", f"{w.get('what') or ''} {wid}") if y >= (event or "")[:4]]
+        d = f"{min(ys)}-01-01" if ys else "?"
     if k in ("press", "official"):
         public = d
         s = series_for_text(f"{w.get('what') or ''} {w.get('where') or ''}")
@@ -509,14 +523,14 @@ def address(lst, e, unit_text, date):
     tags = [str(t) for t in e.get("tags") or []]
     tied = unit_ties(tags, unit_text) if unit_text is not None else []
     a, terr_all, ag_all = tag_polities(tags, date)
-    if tied:
-        ta, tt, tg = tag_polities(tied, date)
-        if ta:
-            return ta, terr_all, tg or ag_all, "unit"
-    if a:
-        return a, terr_all, ag_all, "entry"
-    th = [p for p in thread_polities(lst, e.get("thread")) if not is_org(p)]
-    return sorted(set(th), key=order_key), terr_all, ag_all, ("thread" if th else "none")
+    u = lambda xs: sorted(set(xs), key=order_key)
+    if a:                           # an entry is one event: its parties are addressed by every unit (the owner, Nov. 11:
+        ta = tag_polities(tied, date)[0] if tied else []          # the colloquy is USSR:public-PA and US:public-PA)
+        return u(a + ta), terr_all, ag_all, ("unit" if set(ta) - set(a) else "entry")
+    th = []
+    for slug in [e.get("thread")] + store.as_list(e.get("also")):
+        th += [p for p in thread_polities(lst, slug) if not is_org(p)]
+    return u(th), terr_all, ag_all, ("thread" if th else "none")
 
 
 # ---------------------------------------------------------------- the compute
@@ -569,7 +583,7 @@ def compute(series, lst, e):
                 seen.add(w["label"])
                 ws.append(w)
         known = [w for w in ws if w["kind"] not in ("?", "reference")]
-        ref = plus_days(date, REF_DAYS)
+        ref = plus_days(window_end(e.get("date")) or date, REF_DAYS)   # a loose date: the end of its window (§5)
         res = dict(cl, date=date, ref=ref, witnesses=ws, address_basis=basis)
         if not known:
             out.append(dict(res, polities={}, tags=["US:all"], computed=False))

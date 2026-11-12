@@ -76,7 +76,13 @@ none = {"id": "cal.test.none", "date": "1965-03-01", "thread": "economy", "tags"
         "n": "[Wikipedia](https://en.wikipedia.org/wiki/X)."}
 eq("nothing computable: the placeholder", tags(none), [["US:all"]])
 loose = dict(times, id="cal.test.loose", date="1961-01", n=times["n"])
-eq("a month's entry: judged at its first day, the Times of the 10th not yet out", tags(loose), [["US:nonpublic-A"]])
+eq("a month's entry: judged at the end of its window, the Times of the 10th out (the owner, Nov. 11)", tags(loose),
+   [["US:public-PA"]])
+bolsh = {"id": "cal.test.bolsh", "date": "1962-10-04", "thread": "soviet-union",
+         "tags": ["name:bolshakov-georgi", "name:kennedy-robert-f"], "c": "Bolshakov with Robert Kennedy.",
+         "n": "[FRUS 1961–63, VI, doc. 1](https://history.state.gov/historicaldocuments/frus1961-63v06/d1)."}
+eq("a private talk: both parties addressed and privy (the owner, Nov. 11)", tags(bolsh),
+   [["US:nonpublic-PA", "USSR:nonpublic-PA"]])
 
 print(f"{len(FAIL)} failed" if FAIL else "all ok")
 sys.exit(1 if FAIL else 0)

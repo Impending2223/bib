@@ -35,7 +35,7 @@ A claim carries, for each polity, P or A or both (shown PA), each public or nonp
 
 ## 4. Address: how it is inferred
 
-From, in order: the claim's own name and place tags, where the claim map ties them to the unit; else the entry's name, place and polity tags; else its thread's polities.
+An entry is one event, so every claim addresses the event's parties: the entry's name, place and polity tags, with any the claim map ties to the unit added; where the entry has none, its thread's polities and its `also` threads'. (The owner, Nov. 11, on the prototype: Robert Kennedy's "It's like this, Georgie" to Bolshakov and the *Post*'s "MiG Deal with India Appears Off" both address the USSR. The first build took a unit's own names in place of the entry's, so the remark addressed the US alone; and a thread's polities without its `also` threads', so the MiG entry missed the USSR.) A person present is an agent of his polity: the talk is privy to both (`USSR:nonpublic-PA` as well as `US:nonpublic-PA`).
 - **Persons**: one polity, with dates where allegiance or office changes (from the name entries' roles).
 - **Places**: usually one polity, several where contested or shared (Berlin, the Gulf of Tonkin, the Taiwan Strait, Jerusalem).
 - **Threads**: a list of polities; subthreads inherit it unless they set their own. Threads will need re-potting to keep their lists honest (the Western Alliance first: a proposal follows).
@@ -48,7 +48,7 @@ The namespace is `polity:` (`polity:us`, `polity:ussr`), not `state:`, which is 
 The owner, Nov. 11: "Public at the time, with a pin date to override it."
 - **Default**: each claim is judged at its own date (the entry's `date`, the first day of a loose one). A memorandum of Oct. 22, 1962 is `US:nonpublic-P` there, though FRUS printed it in 1996. "At the time" is the event's day and the next morning's papers (the newspaper band of `tools/bib/dayorder.py`; ruled Nov. 11).
 - **Pin**: the reader picks one date for the whole page; every claim is judged at it. A pin of Jan. 1, 1964 shows what was public or privately known by then.
-- **Loose dates** resolve to the first day of their window (a memoir of "1976" is public from Jan. 1, 1976).
+- **Loose dates.** A witness's loose date resolves to the first day of its window (a memoir of "1976" is public from Jan. 1, 1976). A claim of a loose date ("Oct.") is nonpublic from the window's first day and judged at its end, with the next morning's papers (Nov. 1 for October), so a paper of Oct. 30 counts (Nov. 11, on the prototype). An undated record takes a year it prints ("*New Times*, no. 5, 1989"), never the event's day.
 - **Before the event.** At a pin earlier than a claim's date, nothing is known of it. Such entries are shown greyed, as not yet known (ruled Nov. 11).
 
 ## 6. The toggles
