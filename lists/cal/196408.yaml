@@ -1606,6 +1606,13 @@ entries:
         - 'w.macv-command-history-1964 161: all'
         - 'via x.1964-08.contingency-defense-plan-pt-2-64: A'
     tags: [place:hue]
+  - id: cal.1964-08-05.elections-1964-johnson
+    when: Aug. 5
+    date: '1964-08-05'
+    thread: elections-1964-johnson
+    c: 'Valenti passes Johnson a staff memorandum: a senior Senator wants Johnson to see a county commissioner of his State, said to be a prime mover in the re-election campaign, so that he can go home having kept a promise. Johnson at the foot: "Why don''t you all try, please, to get this fellow to see Cliff Carter or Walter Jenkins or someone except poor old me all the time."'
+    n: '[[w.valenti-very-human-president]], 174 (Valenti''s account; the memorandum''s author and the Senator unnamed). Names: Valenti, Johnson, Jenkins.'
+    tags: [name:valenti-jack, name:johnson-lyndon-b, name:jenkins-walter-w]
   - id: cal.1964-08-06.mississippi
     when: Aug. 6
     date: '1964-08-06'
@@ -1868,11 +1875,12 @@ entries:
     thread: democratic-party
     also: [mississippi]
     c: 'The Oval Office: Johnson with Valenti, Jenkins, Moyers, O''Donnell, O''Brien, Bailey and Rowe on the Freedom Democrats'' challenge, the day of their State convention. Valenti: unless settled it would "surface like a ticking time bomb on the convention floor." Johnson: "Get those problems settled. ... Organize yourselves, get a sensible plan, and then come back and talk to me!" By Valenti''s account.'
-    n: '[[w.kotz-judgment-days]], 190. To check: [[w.valenti-very-human-president]], 201–03 (cited by [[w.kotz-judgment-days]], 190 n.5). See [[cal.1964-08-06.mississippi]]. Names: Johnson, Valenti, Jenkins, Moyers, O''Donnell, O''Brien, Rowe.'
+    n: '[[w.kotz-judgment-days]], 190; [[w.valenti-very-human-president]], 201–03 (the Freedom Democrats'' challenge: ten to thirteen Credentials Committee members counted for seating; the issue "sure to surface like a ticking time bomb on the convention floor unless it was defused"; after the meeting in Jenkins''s office the group sees Johnson, who dismisses them within the hour; Carter at the earlier meeting; not the Oval Office). Check: Valenti dates the campaign meeting "August 6, a Sunday" ([[w.valenti-very-human-president]], 201); Aug. 6, 1964, was a Thursday. See [[cal.1964-08-06.mississippi]]. Names: Johnson, Valenti, Jenkins, Moyers, O''Donnell, O''Brien, Rowe.'
     src:
       c: 85c51405
       rows:
         - 'w.kotz-judgment-days 190: all'
+        - 'w.valenti-very-human-president 201–03: ?'
     tags: [name:johnson-lyndon-b, name:valenti-jack, name:jenkins-walter-w, name:moyers-bill, name:odonnell-kenneth-p, name:obrien-lawrence-f, name:rowe-james-h-jr]
     time_range:
       - 1964-08-06T13:00Z
@@ -1880,6 +1888,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: C
+        witness: w.valenti-very-human-president
+        reads: Get these problems settled, organize yourself, get a sensible plan, and then come back to talk to me
+        at: '203'
   - id: cal.1964-08-06.medicare
     when: Aug. 6
     date: '1964-08-06'
@@ -1969,6 +1982,14 @@ entries:
     c: Governor and Mrs. Pat Brown of California, the John Daltons of Missouri and the Matthew Welshes of Indiana arrive as the Johnsons' houseguests.
     n: '[[w.johnson-white-house-diary]], 190 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Brown, Dalton, Welsh.'
     tags: [name:johnson-lady-bird, name:brown-edmund-g, name:dalton-john-m, name:welsh-matthew-e]
+  - id: cal.1964-08-06.elections-1964-johnson
+    when: Aug. 6
+    date: '1964-08-06'
+    thread: elections-1964-johnson
+    also: [democratic-party, mississippi]
+    c: 'Walter Jenkins''s office. The campaign leaders, Valenti by his notes among them (O''Donnell, Jenkins, Moyers, O''Brien, Cliff Carter, Rowe, Bailey), meet over an hour on the Freedom Democrats'' challenge at the convention; ten to thirteen Credentials Committee members are counted for seating them; no plan. Connally has told Valenti the South would take their seating as an affront. They set the roles: Bailey nominally in charge, O''Donnell his assistant, O''Brien organization, Valenti scheduling and liaison with Johnson, Moyers speeches, Moyers and Valenti advertising, Carter field coordinators, Rowe special groups.'
+    n: '[[w.valenti-very-human-president]], 201–03 (Valenti''s account). Check: the day; Valenti has "August 6, a Sunday"; Aug. 6, 1964, was a Thursday. See [[cal.1964-08-06.democratic-party]]. Names: Valenti, O''Donnell, Jenkins, Moyers, O''Brien, Rowe, Connally.'
+    tags: [name:valenti-jack, name:odonnell-kenneth-p, name:jenkins-walter-w, name:moyers-bill, name:obrien-lawrence-f, name:rowe-james-h-jr, name:connally-john]
   - id: cal.1964-08-07.vietnam
     when: Aug. 7
     date: '1964-08-07'
