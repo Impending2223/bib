@@ -517,3 +517,7 @@ Yes on the Post.
 The National Guardian should go on the press day. (What a bizarre strategy! Although I suppose newsmagazines do this all the time.)
 
 Thank you re Chang and Halliday. But I'll probably give you Pantsov or what have you first. Is Chen Jian on Zhou Enlai good? Chen Jian's good, and I've heard the book is good. Should I give you that?"
+
+## Nov. 11, 2026 (late night)
+
+"Alright, I've given you a handful more books on China. Night now."
