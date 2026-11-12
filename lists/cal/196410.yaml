@@ -2286,7 +2286,7 @@ entries:
       c: b89d6903
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v01/d385: all'
-        - 'w.macv-command-history-1964 192: A-B'
+        - 'w.macv-command-history-1964 192: ?'
         - 'w.westmoreland-soldier-reports 92: A-B, D'
         - 'w.taylor-swords-and-plowshares 322–23: B, D'
         - 'w.bernstein-guns-or-butter 340: D'
@@ -2297,6 +2297,11 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
+    variants:
+      - unit: D
+        witness: w.macv-command-history-1964
+        reads: Suu elected RVN President; Huong Prime Minister (both under Oct. 24)
+        at: '192'
   - id: cal.1964-10-24.vietnam-2
     when: Oct. 24
     date: '1964-10-24'
