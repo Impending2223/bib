@@ -55,6 +55,32 @@ An entry dated to the month carries "Check: the day." The Checks the second patc
 
 ## Passed over
 
+**The "already in" rows read against the calendar, Nov. 12, 2026 (batch 9; patch `2026-11-12-b9-mann-grand`).** The 26 rows below that were still open, read from the owner's Drive copy (printed pages as at the head; numbers and quotations set against the page image on pp. 291, 408, 448, 497). Mann's notes were not followed up and no witnesses or by-work edges are written; what he cites stays unread. Rulings: cited under ID (units in the patch; most `'?'` with what the page bears and does not); Check on ID; entered as ID; not borne out.
+
+| Rows (page) | Ruling |
+|---|---|
+| 218–20, 1960 | cited under `cal.1960-04-26.vietnam`, `cal.1960-09-16.vietnam`, `cal.1960-10-14.vietnam`, `cal.1960-11-11.vietnam`, `cal.1960-12-04.vietnam`, `cal.1960-12-20.vietnam` |
+| 228–29; 229; 233; 234–36 | cited under `cal.1961-01-19.laos`; `cal.1961-03-23.laos`; `cal.1961-05-11.vietnam`; `cal.1961-05-09.vietnam`, `cal.1961-05-12.vietnam` |
+| 243–52, Oct.–Nov. 1961 | cited under `cal.1961-11-03.vietnam`, `cal.1961-11-08.vietnam` (Check: Mann's Nov. 5), `cal.1961-11-15.vietnam`, `cal.1961-11-22.vietnam`; `cal.1961-10-31.vietnam` (Komer) not borne out: p. 243 has Komer of July 20 and p. 246–47 Robert H. Johnson of Oct. 31 |
+| 284; 288–94 | cited under `cal.1963-05-12.vietnam`; `cal.1963-09-02.vietnam`, `-09-09`, `-09-10`, `-09-11`, `-09-17` |
+| 305, Nov. 24, 1963 | cited under `cal.1963-11-24.vietnam`; Check (Mann: Nov. 25) |
+| 318 | cited under `cal.1964-03-17.vietnam` |
+| 342–43, July 1964 | entered `cal.1964-07.elections-1964-san-francisco-6` (the platform on Vietnam; month only, Check the day) and `cal.1964-07-16.elections-1964-san-francisco-2` (the acceptance); Goldwater's statements (the "blank check," "twin commanders of chaos") undated: a lead |
+| 370; 378–79 | cited under `cal.1964-08-10.vietnam-commitments`; `cal.1964-11-01.vietnam`; entered `cal.1964-11-01.vietnam-4` (Johnson has Moyers ask Harris, after Biên Hòa; Check the day) |
+| 403–08 | cited under `cal.1965-02-13.vietnam`, `cal.1965-03-02.vietnam` |
+| 440–42 | already cited: `cal.1965-06-05.vietnam` (440), `cal.1965-06-10.vietnam-july-decision` (442); cited under `cal.1965-06-07.vietnam` |
+| 447–54, July 1965 | cited under `cal.1965-07-01.vietnam`, `-07-16.vietnam-force-levels`, `-07-20.vietnam` (Check: Mann's July 21), `-07-21.vietnam`, `-07-21.vietnam-congress`, `-07-22.vietnam`, `-07-23.vietnam-congress` (Mann's n. 43 dates the memorandum July 23), `-07-23.vietnam-diplomacy`, `-07-24.vietnam-july-decision`, `-07-25.vietnam`; entered `cal.1965-07-25.vietnam-july-decision` (the evening cable) |
+| 476–77 | cited under `cal.1965-12-21.vietnam-pause`, `cal.1965-12-24.vietnam`, `cal.1966-01-12.program` |
+| 479; 497; 511 | cited under `cal.1966-01-19.vietnam`; `cal.1966-02-28.opinion` (units B–E, G); 511: `cal.1966-07-19.economy` not borne out, entered `cal.1966-07.economy` (Johnson tells the leaders of $5 to $10 billion more; month only) |
+| 516–17, Marigold | cited under `cal.1966-06-29.vietnam-2`, `cal.1966-12-02.vietnam-marigold`, `cal.1966-12-13.vietnam-air-war` |
+| 519–22, Jan. 1967 | cited under `cal.1967-01-06.vietnam-congress`, `cal.1967-01-09.vietnam-congress`, `cal.1967-01-10.vietnam-sunflower` (Check: Mann's "January 6 message"), `cal.1967-01-17.vietnam-sunflower`, `cal.1967-01-27.vietnam`, `cal.1967-01-10.program` |
+| 570 | `cal.1967-11-19.vietnam` not borne out (no *Meet the Press* in Mann); cited under `cal.1967-11-21.vietnam-2`, Check (Mann puts the Press Club on Nov. 19) |
+| 596–97 | already cited: `cal.1968-03-13.vietnam-congress` (596); cited under `cal.1968-03-15.vietnam-205000-2`, `cal.1968-03-19.vietnam-205000` |
+| 611–12, 1968 | cited under `cal.1968-08-19.vietnam-paris`, `cal.1968-08-26.elections-1968-chicago`; `cal.1968-08-24.elections-1968` (Boggs, Westmoreland) not borne out; Humphrey's draft and the Aug. 18 call already cited (`cal.1968-07-25.elections-1968`, 611; `cal.1968-08-18.vietnam`, 612); the softened draft and Johnson's promise of news from Paris stay undated |
+| 620–21 | cited under `cal.1968-11-03.elections-1968-chennault`, `cal.1968-10-26.elections-1968-2` (Check: Mann's Oct. 25), `cal.1968-10-27.elections-1968`; entered `cal.1968-10-27.elections-1968-2` (Nixon on CBS Radio) |
+
+Where batch 9 stopped: all 26 rows read; none left open.
+
 Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled undated for a draft, and the rows "out of the brief" for a journalist's private word to the White House or a press report, in "Re-ruled under R18 as amended (b6)" after "How the list was made" (read Nov. 10, 2026).
 
 Dated events of 1960–Jan. 20, 1969 that the book treats and neither patch enters, for the owner to rule on.
