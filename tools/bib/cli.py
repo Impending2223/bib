@@ -190,6 +190,13 @@ def cmd_show(series, a):
             print(f"# {cid}: {plain(series.works.render(cid)) if card else 'NO SUCH CARD'}")
             if card and card.get("n"):
                 print(f"#   card note: {plain(card['n'])}")
+        if l.kind == "calendar" and not e["id"].startswith(f"{l.key}.thread.") and isinstance(e.get("c"), str):
+            from . import vis                # each claim's visibility at the time (tools/bib/vis.py)
+            try:
+                for ln in vis.show_lines(series, l, e):
+                    print(ln)
+            except Exception as x:
+                print(f"# visibility: failed ({type(x).__name__}: {x})")
         print(store._emit([store.stored_form(e)], 0))
         print()
 

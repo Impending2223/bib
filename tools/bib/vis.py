@@ -33,7 +33,9 @@ STYLE
     P public: from the earliest date a witness published in X is public.
     P nonpublic, from the event's day, before then, where X knew in private: territory (the entry's place, state,
     city and province tags: every act within X's territory, as ruled), agency (the persons the claim names: tags do not
-    tell the actor from the object, so every tagged person's polity; and a memoir's, diary's or oral history's agent),
+    tell the actor from the object, so every tagged person's polity; and a memoir's, diary's or oral history's agent,
+    whose memoir, its publisher's country not yet known, is taken as published in his polity: §3's own example,
+    "US:nonpublic-P to 1976 ... US:public-P from the book's first publication"),
     parties (a FRUS document's sender and recipients, by its heading: frus_parties; a document series' or archive's
     agents).
     A: the polities the claim addresses (STYLE 5): nonpublic from the event's day, public from the earliest public
@@ -61,10 +63,11 @@ from . import store
 PROV = os.path.join(store.ROOT, "sources", "provenance.yaml")
 POL = os.path.join(store.ROOT, "sources", "polities.yaml")
 KINDS = ("press", "official", "document series", "memoir", "diary", "oral history", "scholarship", "archive",
-         "reference")
+         "reference", "made public")
 # what the spec's kinds (§8) are; two more the calendar's links need: an archive's file or recording, unpublished
 # (public only when "Made public" or a copy says so), and a reference work (an encyclopedia, a finding aid), which
-# dates nothing and makes nothing public
+# dates nothing and makes nothing public; and "made public", a date the note's "Made public:" gives for a record
+# the registry does not hold (public from then, its place not known)
 PUBLIC_KINDS = {"press", "official"}          # public from their own date, a record of the time (§3, "Public sources")
 LATER_KINDS = {"document series", "memoir", "diary", "oral history", "scholarship"}  # public when published
 PRIVY_KINDS = {"memoir", "diary", "oral history", "document series", "archive"}   # their agents knew from the event
@@ -93,6 +96,8 @@ def _mtime(p):
 def registry():
     """The provenance registry (sources/provenance.yaml), read once a run: {series: [...], frus_volumes, frus_parties,
     publishers, works}."""
+    if _cache.get("frozen") and "prov" in _cache:
+        return _cache["prov"]
     k = ("prov", _mtime(PROV))
     if _cache.get("prov_key") != k:
         d = (store.load_yaml(PROV) if os.path.exists(PROV) else None) or {}
@@ -104,6 +109,8 @@ def registry():
 
 def polities():
     """sources/polities.yaml: {polities, names, places, threads}."""
+    if _cache.get("frozen") and "pol" in _cache:
+        return _cache["pol"]
     k = ("pol", _mtime(POL))
     if _cache.get("pol_key") != k:
         d = (store.load_yaml(POL) if os.path.exists(POL) else None) or {}
@@ -324,7 +331,11 @@ def from_card(series, cid, event, addressed):
             p = person_polity(a, event) if not str(a) in polities()["polities"] else a
             if p and not is_org(p):
                 privity.add(p)
-    return W(cid, kind, country, public, privity, "works")
+    basis = "works"
+    if country == "?" and kind in ("memoir", "diary", "oral history") and len(privity) == 1:
+        country = next(iter(privity))         # the spec's rule (§3, agency): an X official's memoir is X:public-P
+        basis = "works"                       # from its first publication; its publisher's country not yet known
+    return W(cid, kind, country, public, privity, basis)
 
 
 WITNESS_KIND = {"press": "press", "speech": "official", "statement": "official", "hearing": "official",
@@ -347,9 +358,16 @@ def text_polity(text):
     return vis_words.polity_of(text)
 
 
+def _witness_rows(series):
+    """The registry's witnesses and the works' edges' register, once a run (witnesses.load globs its files on each call)."""
+    if _cache.get("wrows_for") is not series:
+        from . import witnesses
+        _cache.update(wrows=witnesses.load()[0], wreg=witnesses.register(series), wrows_for=series)
+    return _cache["wrows"], _cache["wreg"]
+
+
 def from_witness(series, wid, event, addressed):
-    from . import witnesses
-    rows = witnesses.load()[0]
+    rows = _witness_rows(series)[0]
     w = rows.get(wid)
     if w is None:
         return W(wid, "?", "?", "?", basis="no witness")
@@ -405,8 +423,8 @@ def made_public(e, event, addressed):
                 row = registry()["works"].get(card.group(1)) or {}
                 pub, kind = row.get("country") or "?", row.get("kind") or "scholarship"
             else:
-                pub, kind = "?", "?"
-            if public == "?" and kind == "?":
+                pub, kind = "?", "made public"
+            if public == "?" and kind == "made public":
                 continue
             out.append(W("Made public: " + it.strip()[:60], kind if kind != "archive" else "press", pub, public,
                          basis="made public"))
@@ -419,9 +437,7 @@ def witness_for_row(series, e, row, event, addressed):
     if kind == "card":
         return from_card(series, key, event, addressed)
     if kind == "via":
-        from . import claims
-        reg = claims.register(series)
-        w = reg.get((key, str(pin), str(note)))
+        w = _witness_rows(series)[1].get((key, str(pin), str(note)))
         if w:
             return from_witness(series, w["id"], event, addressed)
         return W(f"{key} {pin} n.{note}", "?", "?", "?", basis="no witness")
@@ -528,6 +544,7 @@ def compute(series, lst, e):
     address_basis, tags, computed}]."""
     date = iso(e.get("date"))
     out = []
+    wcache, mp = {}, None
     for cl in claims_of(series, lst, e):
         if date is None:
             out.append(dict(cl, date=None, ref=None, witnesses=[], polities={}, address_basis="none",
@@ -535,7 +552,16 @@ def compute(series, lst, e):
             continue
         addr, terr, agency, basis = address(lst, e, cl["text"] if cl["unit"] != "all" else None, date)
         ws, seen = [], set()
-        for w in [witness_for_row(series, e, r, date, addr) for r in cl["rows"] if r[1]] + made_public(e, date, addr):
+        if mp is None:
+            mp = made_public(e, date, addr)
+        rws = []
+        for r in cl["rows"]:
+            if r[1]:
+                k = (r[0], tuple(addr)) if r[1] == "url" else r[0]
+                if k not in wcache:
+                    wcache[k] = witness_for_row(series, e, r, date, addr)
+                rws.append(wcache[k])
+        for w in rws + mp:
             if w["label"] not in seen:
                 seen.add(w["label"])
                 ws.append(w)
@@ -558,13 +584,14 @@ def compute(series, lst, e):
                 if w["pub"] and w["pub"] != "?" and not is_org(w["pub"]):
                     pubs[w["pub"]] = min(pubs.get(w["pub"], d), d)
         unknown_public = any(w["public"] == "?" for w in known)
+        unknown_in = {w["pub"] for w in known if w["public"] == "?" and w["pub"]}   # where an undated one is published
         pol = {}
         for X in sorted(set(addr) | privy | set(pubs), key=order_key):
             rec = {}
             p_pub = pubs.get(X)
             if X in privy or p_pub:
                 np_from = date if X in privy and (p_pub is None or p_pub > date) else None
-                rec["P"] = [np_from, p_pub or ("?" if unknown_public and X in privy else None)]
+                rec["P"] = [np_from, p_pub or ("?" if X in privy and (X in unknown_in or "?" in unknown_in) else None)]
             if X in addr:
                 a_pub = any_public if any_public and any_public > date else (date if any_public else None)
                 rec["A"] = [date if not any_public or any_public > date else None,
@@ -606,16 +633,20 @@ def tags_at(pol, r, date=None):
 
 def entry_claims(series):
     """Every calendar entry's claims: [(list, entry, [claims])]."""
-    from . import claims as C
     out = []
-    for lst in series.lists.values():
-        if lst.kind != "calendar":
-            continue
-        for sec in lst.walk():
-            for e in sec.entries:
-                if e["id"].startswith(f"{lst.key}.thread.") or not isinstance(e.get("c"), str):
-                    continue
-                out.append((lst, e, compute(series, lst, e)))
+    registry(), polities()
+    _cache["frozen"] = True                   # the files read once for the whole pass
+    try:
+        for lst in series.lists.values():
+            if lst.kind != "calendar":
+                continue
+            for sec in lst.walk():
+                for e in sec.entries:
+                    if e["id"].startswith(f"{lst.key}.thread.") or not isinstance(e.get("c"), str):
+                        continue
+                    out.append((lst, e, compute(series, lst, e)))
+    finally:
+        _cache["frozen"] = False
     return out
 
 
@@ -661,50 +692,54 @@ def show_lines(series, lst, e):
 
 
 def problems(series):
-    """Warnings only (the spec §9.1; never an error, so the site still deploys): (where, message), one line each."""
-    warns = []
+    """Warnings only (the spec §9.1; never an error, so the site still deploys): (where, message). A claim with nothing
+    computable (a count, a line); a person tag with no row in sources/polities.yaml (a line each), and those whose
+    polity is `?` (a count); a thread with no polities (a line each); the cited works whose country is `?` (a count)."""
     try:
-        ec = entry_claims(series)
+        return _problems(series)
     except Exception as x:                    # a fault here must never stop a build
         return [("tools/bib/vis.py", f"the visibility pass failed: {type(x).__name__}: {x}")]
+
+
+def _problems(series):
+    warns = []
+    ec = entry_claims(series)
     n_cl = sum(len(c) for _, _, c in ec)
     none = [(e["id"], c["unit"]) for _, e, cs in ec for c in cs if not c["computed"]]
     if none:
         ents = sorted({i for i, _ in none})
         warns.append(("lists/cal/", f"{len(none):,} of {n_cl:,} claims ({len(ents):,} entries) with no computable "
-                                    f"tag: the placeholder US:all (e.g. {', '.join(ents[:3])}; `./bib show ID`)"))
+                                    f"tag, the placeholder US:all (e.g. {', '.join(ents[:3])}; `./bib show ID`)"))
     names = polities()["names"]
-    seen = set()
+    first, unknown = {}, set()
     for lst, e, _ in ec:
         for t in e.get("tags") or []:
             t = str(t)
-            if t.startswith("name:") and t not in seen:
-                seen.add(t)
+            if t.startswith("name:"):
                 k = t[5:]
                 if k not in names:
-                    warns.append((e["id"], f"{t}: no polity in sources/polities.yaml (names)"))
-                elif person_polity(k, iso(e.get("date")) or "1965-01-01") is None and names.get(k) not in ("?",) \
-                        and not (isinstance(names.get(k), dict) and names[k].get("polity") == "?"):
-                    pass
-    q = sum(1 for v in polities()["names"].values() if v == "?" or (isinstance(v, dict) and v.get("polity") == "?"))
-    if q:
-        warns.append(("sources/polities.yaml", f"{q:,} persons whose polity is `?` (names)"))
+                    first.setdefault(k, e["id"])
+                elif person_polity(k, iso(e.get("date")) or "1965-01-01") is None:
+                    unknown.add(k)
+    for k, eid in sorted(first.items()):
+        warns.append((eid, f"name:{k}: no polity in sources/polities.yaml (names; python3 -I tools/vis/seed.py adds it)"))
+    if unknown:
+        warns.append(("sources/polities.yaml", f"{len(unknown):,} tagged persons whose polity is `?` (e.g. "
+                                               f"{', '.join(sorted(unknown)[:3])})"))
+    done = set()
     for lst, e, _ in ec:
         th = e.get("thread")
-        if th and not thread_polities(lst, th):
-            warns.append((e["id"], f"thread {th!r}: no polities in sources/polities.yaml (threads)"))
-            break
+        if th and th not in done:
+            done.add(th)
+            if not thread_polities(lst, th):
+                warns.append((e["id"], f"thread {th!r}: no polities in sources/polities.yaml (threads)"))
     reg = registry()["works"]
-    cited = set()
-    for _, _, cs in ec:
-        for c in cs:
-            for w in c["witnesses"]:
-                if w["basis"] == "works" or w["basis"] == "no registry row":
-                    cited.add(w["label"])
-    unk = sorted(c for c in cited if (reg.get(c) or {}).get("country", "?") == "?")
+    cited = {w["label"] for _, _, cs in ec for c in cs for w in c["witnesses"]
+             if w["basis"] in ("works", "no registry row")}
+    unk = [c for c in cited if (reg.get(c) or {}).get("country", "?") == "?"]
     if unk:
         warns.append(("sources/provenance.yaml", f"{len(unk):,} of {len(cited):,} cited works with country `?` "
-                                                 "(the publisher not yet known)"))
+                                                 "(their publishers not yet known)"))
     missing = sorted(c for c in cited if c not in reg)
     if missing:
         warns.append(("sources/provenance.yaml", f"{len(missing):,} cited works with no registry row "
