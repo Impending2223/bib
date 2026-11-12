@@ -1,0 +1,30 @@
+# Mann, The Walls of Jericho (1996): batch 9, the 17 'already in' rows of the open list; book-check: notes/book-checks/mann-walls-of-jericho.md
+# Audited Nov. 12, 2026: the reader's two cites kept; a To check for Mann's source on Mexico City added; the old src row of cal.1960-05-10.elections-1960-2 corrected (Mann, 267, has the statement at his headquarters after the count, not Charleston).
+patch: 2026-11-12-b9-mann-walls
+by: batch-9 reader (Mann, The Walls of Jericho); audited
+ops:
+- cite:
+    id: cal.1968-03-16.robert-kennedy-campaign-2
+    item: '[[w.mann-walls-of-jericho]], 488 (Kennedy announces his candidacy "four days later" than the New Hampshire primary, which Mann puts in February; not the place nor the words)'
+    units: '?'
+- cite:
+    id: cal.1968-03-31.elections-1968-humphrey
+    item: '[[w.mann-walls-of-jericho]], 488 (Humphrey in Mexico City weeps as he hears Johnson''s closing words on a radio in the American Embassy; not the dinner nor the library)'
+    units: '?'
+- to-check:
+    id: cal.1968-03-31.elections-1968-humphrey
+    add:
+    - '[[w.miller-lyndon]], 511 (cited by [[w.mann-walls-of-jericho]], 488)'
+- edit:
+    id: cal.1960-05-10.elections-1960-2
+    base: ca70d695
+    set:
+      src:
+        c: 17119dff
+        rows:
+        - 'w.schlesinger-robert-kennedy-and-his 202: A'
+        - 'w.humphrey-education-of-a-public-1976 220–21: A'
+        - 'w.solberg-hubert-humphrey 211–12: A'
+        - 'w.sorensen-kennedy 146: all'
+        - 'w.mann-walls-of-jericho 267: ?'
+        - 'w.white-making-of-the-president 112–13: A'

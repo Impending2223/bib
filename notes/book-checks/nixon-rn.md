@@ -58,6 +58,22 @@ Every entry cited or edited carries a reader's `src` (109): 45 of them map *RN* 
 
 ## Passed over
 
+**Batch 9 (Nov. 12, 2026; `2026-11-12-b9-group-1`).** The same Drive copy (1,192 PDF pages; printed = PDF − 32 for pp. 213–532), the rows read against what batch 7 merged (`2026-11-10-b7-nixon-rn`).
+
+| page | row | ruling |
+|---|---|---|
+| 259 | the primaries | May 15 and June 2 already cited (cal.1964-05-15, -06-02); Mar. 10 already cited (256); May 12: cite added under cal.1964-05-12.elections-1964 (`'?'`: Nebraska, Nixon's 42,800 write-in, not West Virginia; the Check was already there; read off the page image) |
+| 263 | Reagan's broadcast; the election | already cited: cal.1964-10-27.elections-1964, cal.1964-11-03.elections-1964 |
+| 267, 271 | the Great Society speech; Pleiku | already cited: cal.1964-05-22.program, cal.1965-02-07.vietnam (with a variant) |
+| 277 | the election; El Morocco | already cited: cal.1966-11-08.elections-1966 (variant, Check); El Morocco entered in batch 6 |
+| 298-306 | 1968 | already cited: *Pueblo* cal.1968-01-23.japan-and-korea; Tet (variant on cal.1968-01-30.vietnam, February against Jan. 31); Romney's withdrawal cal.1968-02-28.elections-1968 (298-99); New Hampshire cal.1968-03-12.elections-1968 (299); Rockefeller, Mar. 21, cal.1968-03-21.elections-1968 (299-300); Kennedy's entry and Kempton; Johnson's withdrawal cal.1968-03-31.elections-1968 and -2 (300); King, the riots; Kennedy's death and funeral (305-06) |
+| 312-14 | Agnew's choice; Finch and Morton; Romney's note | already: batch 6 (cal.1968-07, cal.1968-08-08 -2, cal.1968-08-09) |
+| 316-18 | Gallup; the convention; Salt Lake City | already cited (316, 317, 318) in batch 7 |
+| 324, 328 | Oct. 9; Nov. 2 | already: cal.1968-10-09.vietnam-paris entered (324); cal.1968-11-02.vietnam cited (328) |
+| 338-42 | refusals; Agnew; Moynihan, Burns; the Cabinet | already entered (cal.1968-11.transition-and-staff-3 to -10) and cited (cal.1968-12-11, cal.1968-12-03) in batch 7 |
+
+Where batch 9 stopped: all ten rows of this work ruled.
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; below, "Batch 6").
 
 Made by reading the span page by page and listing every dated event; "already in" checked with `./bib find -l cal` by day.
