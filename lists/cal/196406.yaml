@@ -1124,13 +1124,14 @@ entries:
     thread: states-and-cities
     also: [civil-rights-bill, elections-1964]
     c: 'Governors'' Conference at Cleveland. Eisenhower speaks, June 8. June 9: civil rights in three workshops, on education, employment and public accommodations, reported to the full conference without a vote. Scranton, Rockefeller and Romney there; the Senate''s cloture vote on the civil rights bill June 10, the last day.'
-    n: '[*Proceedings of the Governors'' Conference, 1964*, 6, 49–69](https://www.nga.org/wp-content/uploads/2021/03/1964NGAAnnualMeeting.pdf#page=22). [[w.kabaservice-rule-and-ruin]], 98 (the conference, June 7–10; the cloture vote, June 10); [[w.novak-agony-of-the-g]], 432–33 & n.11 (Goldwater at the Monday banquet, with Eisenhower, Rockefeller and Scranton; Fannin had arranged his invitation with Rhodes, June 5). To check: [[w.white-making-of-the-president-1965]]. See [[cal.1963-07-21.states-and-cities-us]]. Names: Eisenhower, Scranton, Rockefeller, Romney.'
+    n: '[*Proceedings of the Governors'' Conference, 1964*, 6, 49–69](https://www.nga.org/wp-content/uploads/2021/03/1964NGAAnnualMeeting.pdf#page=22). [[w.kabaservice-rule-and-ruin]], 98 (the conference, June 7–10; the cloture vote, June 10); [[w.novak-agony-of-the-g]], 432–33 & n.11 (Goldwater at the Monday banquet, with Eisenhower, Rockefeller and Scranton; Fannin had arranged his invitation with Rhodes, June 5); [[w.hess-republican-establishment]], 31–32 (the Governors'' Conference at Cleveland, 1964: "an attempted power play by the Governors to block the nomination of Goldwater" collapses "in a tragicomedy of conflicting ambitions, inept communication and bad politics"; no day, no speakers). To check: [[w.white-making-of-the-president-1965]]. See [[cal.1963-07-21.states-and-cities-us]]. Names: Eisenhower, Scranton, Rockefeller, Romney.'
     src:
       c: 55ec2362
       rows:
         - 'https://www.nga.org/wp-content/uploads/2021/03/1964NGAAnnualMeeting.pdf#page=22: all'
         - 'w.kabaservice-rule-and-ruin 98: A, E'
         - 'w.novak-agony-of-the-g 432–33 & n.11: ?'
+        - 'w.hess-republican-establishment 31–32: A'
     tags: [name:eisenhower-dwight-d, name:scranton-william-w, name:rockefeller-nelson, name:romney-george-w]
     short: the Governors' Conference
   - id: cal.1964-06-07.republican-party
@@ -1224,12 +1225,13 @@ entries:
       - cal.1964-06-07.elections-1964
       - cal.1964-06-07.elections-1964-4
     c: Cleveland. Rockefeller's press conference after Scranton's broadcast. Would he support Scranton? "Governor Scranton said that he was waiting to see where Senator Goldwater stood. And after listening to his press conference, I think I've got to wait to see where he stands." Scranton's leadership? "Did you see him on television?"
-    n: '[[w.white-making-of-the-president-1965]], 147; [[w.novak-agony-of-the-g]], 431 ("More Romneys"). After the broadcast and the press conference: [[cal.1964-06-07.elections-1964]]; [[cal.1964-06-07.elections-1964-4]]. See [[cal.1964-06-07.elections-1964]]. Names: Rockefeller, Scranton, Goldwater.'
+    n: '[[w.white-making-of-the-president-1965]], 147; [[w.novak-agony-of-the-g]], 431 ("More Romneys"); [[w.white-suite-3505]], 366 (Rockefeller''s press conference at the Sheraton after Scranton "escaped from the television cameras"; asked whether he would support Scranton; "Did you see him on television?" later, to a reporter who cornered him; Rockefeller''s "More Romneys" is given at "a press conference," not said to be this one). After the broadcast and the press conference: [[cal.1964-06-07.elections-1964]]; [[cal.1964-06-07.elections-1964-4]]. Check: White, *Suite 3505*, 366, has "Did you see him on television?" said later, to a reporter who cornered Rockefeller, not at the press conference. See [[cal.1964-06-07.elections-1964]]. Names: Rockefeller, Scranton, Goldwater.'
     src:
       c: e9faf2e5
       rows:
         - 'w.white-making-of-the-president-1965 147: all'
         - 'w.novak-agony-of-the-g 431: ?'
+        - 'w.white-suite-3505 366: A-C'
     tags: [name:rockefeller-nelson, name:scranton-william-w, name:goldwater-barry-m, city:cleveland]
     time_range:
       - 1964-06-07T13:00Z
@@ -1237,6 +1239,11 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: D
+        witness: w.white-suite-3505
+        reads: Governor Scranton said that he was waiting to see where Senator Goldwater stood. And after listening to his press conference, I think I've got to wait and see where he stands.
+        at: '366'
   - id: cal.1964-06-07.elections-1964-4
     when: June 7
     date: '1964-06-07'
@@ -1268,6 +1275,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1964-06-07.elections-1964-scranton
+    when: June 7
+    date: '1964-06-07'
+    thread: elections-1964-scranton
+    c: 'Cleveland. Romney, watching Scranton on *Face the Nation*: "Where are his principles?"'
+    n: '[[w.white-suite-3505]], 366 (by White''s account; Romney "started taking pot shots at Scranton" as the Liberal-moderate "cabal" at the Governors'' Conference divided). Check: the hour and the place of the viewing. See [[cal.1964-06-07.elections-1964]]. Names: Romney, Scranton.'
+    tags: [name:romney-george-w, name:scranton-william-w, city:cleveland]
   - id: cal.1964-06-08.laos
     when: June 8
     date: '1964-06-08'
