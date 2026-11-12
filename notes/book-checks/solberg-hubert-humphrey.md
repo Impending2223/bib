@@ -73,6 +73,32 @@ The papers of government (the owner's ruling, Oct. 28, 2026) are in bold; none w
 
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6; the rulings in "Batch 6" below).
 
+**Batch 9 (Nov. 11–12, 2026): the 19 open "already in" rows, read against the owner's copy (printed page = PDF page − 4), patch `inbox/2026-11-12-b9-solberg.yaml`.** Most were already cited by batch 7's merged patch (the row's ids were Chester's or pending ones, not the entries); each row below names the entry that holds the page.
+
+| Row | Ruling |
+|---|---|
+| 209 | already cited: `cal.1960-05-04.elections-1960` (209), `cal.1960-05.elections-1960-13` (209–10, the debate), `-11` (Roosevelt), `cal.1960-05-05.elections-1960-primaries` (the ten points) |
+| 213 | already cited: `cal.1960-07-11.elections-1960-6`, `cal.1960-07-12.elections-1960-3` |
+| 214–15 | Freeman cited at `cal.1960-12.transition-and-staff-cabinet-2` (214); McGovern at `cal.1961-01-24.foreign-aid`; the whip's post at `cal.1960-12.transition-and-staff`. Heller and "Kennedy sought his advice" (214): undated, a lead |
+| 263 | already cited: `cal.1964-11-03.elections-1964-5` |
+| 276 | already cited: `cal.1965-03-12.voting-rights-2` (276); Reeb variant and Check on `cal.1965-03-09.voting-rights` |
+| 304 | already cited: `cal.1967-03-20.vietnam` |
+| 325 | return, Meany: cited `cal.1968-04-01.elections-1968-2`, `cal.1968-04-02.elections-1968-3` (its map now `?`: the page has Meany urge announcing, not the labor split); entered `cal.1968-04-02.elections-1968-humphrey` (Boggs and Long), `-humphrey-2` (Monroney, Harris); Apr. 3 (325–26) already cited at `cal.1968-04-03.elections-1968` |
+| 327 | already cited, variant and Check: `cal.1968-05.elections-1968-3` (O'Donnell) |
+| 352–54 | Rusk, Rostow cited at `cal.1968-08-24.elections-1968-chicago-5`; the Boggs's-room call at `cal.1968-08-25.elections-1968-chicago-9`; Watson, the call, the withdrawal at `cal.1968-08-26.elections-1968-chicago`; entered `cal.1968-08-25.elections-1968-chicago-13` (Ginsburg in Humphrey's suite), `cal.1968-08-26.elections-1968-chicago-24` (Ginsburg, Murphy, the "when clause"). Muskie's testimony (351–52): undated, a lead |
+| 357–58 | already cited: `cal.1968-08-25.elections-1968-chicago-6`, `-9`, `-7`, `-12`, `cal.1968-08-25.elections-1968-2` |
+| 360 | already cited: `cal.1968-08-27.elections-1968-chicago-16` (California caucus), `cal.1968-08-26.elections-1968-chicago-23` (Connally), `cal.1968-08-27.elections-1968-chicago-2` (the Ranch) |
+| 370 | already cited: `cal.1968-08-29.elections-1968-chicago-4`, `cal.1968-08-31.elections-1968` (the Mudd interview is entered) |
+| 375 | already cited: `cal.1968-09.elections-1968-humphrey-4` (Short), `cal.1968-09-06.elections-1968-humphrey` |
+| 377 | already cited: `cal.1968-09-13.elections-1968-humphrey` (Ball), `cal.1968-09.elections-1968-humphrey-5` (Harriman) |
+| 380–85 | cited: `cal.1968-09-27.elections-1968`, `cal.1968-09-28.elections-1968` and `-2` (the Check on Solberg's "Saturday, September 29" is there), `cal.1968-09-29.elections-1968-4` and `cal.1968-09-30.elections-1968` (their `all` maps were wrong: now `?`, a variant and Check on each: 4:30 a.m.; "by deed or word"). Entered: `cal.1968-09-28.elections-1968-humphrey` (breakfast), `-humphrey-2` (the dam), `cal.1968-09-29.elections-1968-humphrey` (Goldberg and Hughes), `-humphrey-3` (Harriman "fifty-fifty"), `cal.1968-09-30.elections-1968-humphrey` (Utah breakfast), `-2` (Tabernacle), `-3` (O'Brien), `-4` (the plane), `cal.1968-10-01.elections-1968-humphrey` (State Department) |
+| 390–93 | already cited: `cal.1968-09-07.vietnam`, `cal.1968-10-11.vietnam-paris`, `-10-12`, `-10-27`, `-10-29`, `cal.1968-10-16.vietnam-paris` (the conference call), `cal.1968-10-16.elections-1968-2`, `-10-19`, `-10-20`. Not entered: the $700,000 ad-book money Short wanted (391), against the President's Club's $600,000 (375), unlike in kind |
+| 394–95 | cited: `cal.1968-10-15.elections-1968-chennault`, `cal.1968-07-12.elections-1968`, `cal.1968-10-27.elections-1968-chennault` (map now `?`: the page quotes the cable, not "the advice of Nixon's campaign"); entered `cal.1968-10-30.elections-1968-chennault-3` (the intercept urging Thiệu to delay). Johnson's order of the FBI tap and the watch on Chennault (395): undated ("at this point"), a lead |
+| 401 | already cited: `cal.1968-11-02.elections-1968-chennault` |
+| 403–07 | already cited: `cal.1968-11-05.elections-1968-humphrey`, `cal.1968-11-06.elections-1968-humphrey`, `-2`, `-3`, `cal.1968-11-06.elections-1968` (concession), `cal.1968-11-05.elections-1968` (totals, Check); entered `cal.1968-11-05.elections-1968-humphrey-2` (Unruh) |
+
+Where batch 9 stopped: all 19 rows read; patch not merged. Not entered, as private or undated: Humphrey waking Gates (405); "I think I would have done a good job in the White House" to Berman (406); Muriel's and the family's presence; the Sept. 30 calls from Kennedy and Muskie on the plane (385).
+
 | Page | Date | Event | Why |
 |---|---|---|---|
 | 204–05 | 1960 | Kennedy refuses a debate in Wisconsin; Robert Kennedy on Hoffa money | undated |
