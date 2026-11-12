@@ -130,6 +130,13 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+  - id: cal.1962-01-03.congress
+    when: Jan. 3
+    date: '1962-01-03'
+    thread: congress
+    c: 'Bolling to the press: "I am withdrawing from the race for leadership of the House. Developments of the last few days have convinced me that I don''t have a chance to win." By Albert''s account.'
+    n: '[[w.albert-little-giant-1990]], 257 ("a week before the 1962 Congress convened"). Names: Bolling, Albert.'
+    tags: [name:bolling-richard, name:albert-carl]
   - id: cal.1962-01-04.vietnam-operations
     when: Jan. 4–27
     date: '1962-01-04'
@@ -298,7 +305,7 @@ entries:
     date: '1962-01-10'
     thread: congress
     c: Second session convenes. McCormack Speaker; Albert majority leader; Boggs whip.
-    n: '[108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt1/pdf/GPO-CRECB-1962-pt1-1-2.pdf) (1962); [108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt1/pdf/GPO-CRECB-1962-pt1-1-1.pdf) (1962). [[w.sorensen-kennedy]], 356 (McCormack, Albert, Boggs); [[w.peirce-great-plains-states-of]], 256 (Albert majority leader after Rayburn''s death). The House sat from noon to 1:40 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=2). To check: [[w.albert-little-giant-1990]]. See [[cal.1961-11-16.congress]]. Names: McCormack, Albert, Boggs. Check: the pages.'
+    n: '[108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt1/pdf/GPO-CRECB-1962-pt1-1-2.pdf) (1962); [108 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt1/pdf/GPO-CRECB-1962-pt1-1-1.pdf) (1962). [[w.sorensen-kennedy]], 356 (McCormack, Albert, Boggs); [[w.peirce-great-plains-states-of]], 256 (Albert majority leader after Rayburn''s death); [[w.albert-little-giant-1990]], 257–58 (the second session opens a week after Jan. 3; the House elects McCormack Speaker on party lines, 248 to 166; Albert''s selection as majority leader announced; Albert and McCormack name Boggs whip, Albert announcing it). The House sat from noon to 1:40 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=2). See [[cal.1961-11-16.congress]]. Names: McCormack, Albert, Boggs. Check: the pages.'
     src:
       c: fd9d183f
       rows:
@@ -306,6 +313,7 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt1/pdf/GPO-CRECB-1962-pt1-1-1.pdf: all'
         - 'w.sorensen-kennedy 356: B-D'
         - 'w.peirce-great-plains-states-of 256: C'
+        - 'w.albert-little-giant-1990 257–58: A, B, C, D'
     tags: [name:mccormack-john-w, name:albert-carl, name:boggs-hale]
     time_range:
       - 1962-01-10T17:00Z
@@ -2199,3 +2207,10 @@ entries:
     c: The Adzhubeis lunch with Robert Kennedy, then fly home. By Salinger's account.
     n: '[[w.salinger-with-kennedy]], 214. Check: the day ("the next day" after Jan. 30). See [[cal.1962-01-30.soviet-union]]. Names: Adzhubei, Robert Kennedy.'
     tags: [name:adzhubei-aleksei, name:kennedy-robert-f]
+  - id: cal.1962-01.congress
+    when: Jan.
+    date: 1962-01
+    thread: congress
+    c: House Democratic caucus names its leadership slate. McCormack and Albert draw no opponent; Bolling moves that Albert's selection be unanimous. Albert says he is the first majority leader of the century to win his party's first caucus election without opposition. By Albert's account.
+    n: '[[w.albert-little-giant-1990]], 257. Check: the day: the work gives none; after Bolling''s withdrawal ([[cal.1962-01-03.congress]]) and before the session opened Jan. 10. Names: McCormack, Albert, Bolling.'
+    tags: [name:mccormack-john-w, name:albert-carl, name:bolling-richard]
