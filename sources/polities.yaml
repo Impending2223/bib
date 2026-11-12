@@ -28,6 +28,8 @@ polities:
   nato: {name: 'NATO', tag: 'NATO', org: true}
   oas: {name: 'Organization of American States', tag: 'OAS', org: true}
   eec: {name: 'European Economic Community', tag: 'EEC', org: true}
+  oecd: {name: 'OEEC and OECD', tag: 'OECD', org: true}
+  imf: {name: 'the IMF and the World Bank', tag: 'IMF', org: true}
   algeria: {name: 'Algeria', tag: 'ALGERIA'}
   argentina: {name: 'Argentina', tag: 'ARGENTINA'}
   australia: {name: 'Australia', tag: 'AUSTRALIA'}
@@ -46,11 +48,13 @@ polities:
   denmark: {name: 'Denmark', tag: 'DENMARK'}
   dominican-republic: {name: 'Dominican Republic', tag: 'DOMINICAN-REPUBLIC'}
   ecuador: {name: 'Ecuador', tag: 'ECUADOR'}
+  el-salvador: {name: 'El Salvador', tag: 'EL-SALVADOR'}
   ethiopia: {name: 'Ethiopia', tag: 'ETHIOPIA'}
   ghana: {name: 'Ghana', tag: 'GHANA'}
   greece: {name: 'Greece', tag: 'GREECE'}
   guatemala: {name: 'Guatemala', tag: 'GUATEMALA'}
   guinea: {name: 'Guinea', tag: 'GUINEA'}
+  guyana: {name: 'Guyana', tag: 'GUYANA'}
   honduras: {name: 'Honduras', tag: 'HONDURAS'}
   india: {name: 'India', tag: 'INDIA'}
   indonesia: {name: 'Indonesia', tag: 'INDONESIA'}
@@ -59,13 +63,16 @@ polities:
   ireland: {name: 'Ireland', tag: 'IRELAND'}
   israel: {name: 'Israel', tag: 'ISRAEL'}
   italy: {name: 'Italy', tag: 'ITALY'}
+  ivory-coast: {name: 'Ivory Coast', tag: 'IVORY-COAST'}
   japan: {name: 'Japan', tag: 'JAPAN'}
   jordan: {name: 'Jordan', tag: 'JORDAN'}
   kuwait: {name: 'Kuwait', tag: 'KUWAIT'}
   lebanon: {name: 'Lebanon', tag: 'LEBANON'}
+  liberia: {name: 'Liberia', tag: 'LIBERIA'}
   libya: {name: 'Libya', tag: 'LIBYA'}
   luxembourg: {name: 'Luxembourg', tag: 'LUXEMBOURG'}
   malaysia: {name: 'Malaysia', tag: 'MALAYSIA'}
+  mali: {name: 'Mali', tag: 'MALI'}
   mexico: {name: 'Mexico', tag: 'MEXICO'}
   morocco: {name: 'Morocco', tag: 'MOROCCO'}
   netherlands: {name: 'Netherlands', tag: 'NETHERLANDS'}
@@ -82,11 +89,13 @@ polities:
   romania: {name: 'Romania', tag: 'ROMANIA'}
   saudi-arabia: {name: 'Saudi Arabia', tag: 'SAUDI-ARABIA'}
   senegal: {name: 'Senegal', tag: 'SENEGAL'}
+  singapore: {name: 'Singapore', tag: 'SINGAPORE'}
   south-africa: {name: 'South Africa', tag: 'SOUTH-AFRICA'}
   sweden: {name: 'Sweden', tag: 'SWEDEN'}
   syria: {name: 'Syria', tag: 'SYRIA'}
   tanzania: {name: 'Tanzania', tag: 'TANZANIA'}
   thailand: {name: 'Thailand', tag: 'THAILAND'}
+  togo: {name: 'Togo', tag: 'TOGO'}
   tunisia: {name: 'Tunisia', tag: 'TUNISIA'}
   turkey: {name: 'Turkey', tag: 'TURKEY'}
   uganda: {name: 'Uganda', tag: 'UGANDA'}
@@ -423,16 +432,16 @@ names:
   allen-louis: {polity: us, basis: 'kjc III.K'}
   allen-richard-v: {polity: us, basis: roster}
   allende-gossens-salvador: {polity: chile, basis: 'kja III.J: Popular Action Front''s candidate for President of Chile, 1958 and 1964'}
-  alliluyeva-svetlana: {polity: us, basis: 'frus frus1964-68v05: daughter of Josef Stalin'}
+  alliluyeva-svetlana: {polity: '?', basis: 'frus: no role'}
   allon-yigal: {polity: israel, basis: 'frus frus1964-68v20: Deputy Prime Minister of Israel and Minister for Immigrant A'}
   allott-gordon-l: {polity: us, basis: congress}
-  alphand-herve: {polity: fr, basis: 'frus: fr frus1951v03p1, uk frus1964-68v19', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  alphand-herve: {polity: fr, basis: 'frus frus1951v03p1: French Deputy Representative on the North Atlantic Council; '}
   alsop-joseph: {polity: us, basis: 'kjc III.J'}
   alsop-stewart: {polity: us, basis: 'opp III.J'}
   altorfer-john-henry: {polity: us, basis: 'kjc III.F'}
   altvater-h-g: {polity: us, basis: 'kjc III.K'}
-  alvarez-everett-jr: {polity: drv, basis: 'kjc III.K: Navy pilot from the Constellation, shot down over North Vietnam, Aug. ', doubtful: 'a foreign role in an American section'}
-  amer-abdel-hakim: {polity: uar, basis: 'frus: uar frus1952-54v09p1, us frus1961-63v17', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  alvarez-everett-jr: {polity: us, basis: 'kjc III.K'}
+  amer-abdel-hakim: {polity: uar, basis: 'frus frus1952-54v09p1: Commander in Chief of the Egyptian Armed Forces as of June 1'}
   amini-ali: {polity: iran, basis: 'kja III.J: Prime Minister of Iran, 1961–62'}
   amit-meir: {polity: israel, basis: 'frus frus1964-68v19: Chief of Israeli Intelligence'}
   amory-robert-jr: {polity: us, basis: roster}
@@ -458,7 +467,7 @@ names:
   andrews-lloyd-j: {polity: us, basis: 'kjc III.K'}
   andrews-mark: {polity: us, basis: 'kjc III.K'}
   andrews-t-coleman: {polity: us, basis: roster}
-  andropov-yuriy-vladimirovich: {polity: us, basis: 'frus frus1969-76v15: Chairman of the Committee for State Security (KGB)'}
+  andropov-yuriy-vladimirovich: {polity: ussr, basis: 'frus frus1969-76v15: Chairman of the Committee for State Security (KGB)'}
   andrus-cecil-d: {polity: us, basis: 'kjc III.K'}
   angelos-peter-g: {polity: us, basis: 'kjc III.K'}
   ankrah-joseph-a: {polity: ghana, basis: 'kja III.J: Chairman, National Liberation Council, Ghana, 1966–69'}
@@ -478,7 +487,7 @@ names:
   artime-manuel: {polity: cuba, basis: 'frus frus1964-68v32: autonomous Cuban exile group leader, 1964–1965'}
   ascoli-max: {polity: us, basis: 'kjc III.J'}
   ashbrook-john-m: {polity: us, basis: 'opp III.D'}
-  ashmore-harry: {polity: us, basis: 'frus frus1964-68v06: Executive Director, Center for the Study of Democratic Insti'}
+  ashmore-harry: {polity: '?', basis: 'frus: no role'}
   aspinall-wayne-n: {polity: us, basis: 'kjc III.D'}
   atkinson-w-p-bill: {polity: us, basis: 'kjc III.F'}
   attwood-william: {polity: us, basis: 'kja III.E'}
@@ -492,7 +501,7 @@ names:
   badeau-john-s: {polity: us, basis: 'kja III.E'}
   badillo-herman: {polity: us, basis: congress}
   bagge-carl-e: {polity: us, basis: roster}
-  baggs-william: {polity: us, basis: 'frus frus1964-68v06: Director, Center for the Study of Democratic Institutions'}
+  baggs-william: {polity: '?', basis: 'frus: no role'}
   bagwell-john-c: {polity: us, basis: roster}
   bailey-lloyd-w: {polity: us, basis: 'kjc III.K'}
   baird-charles-f: {polity: us, basis: roster}
@@ -515,7 +524,7 @@ names:
   bannerman-graeme-c: {polity: us, basis: roster}
   barbee-lloyd: {polity: us, basis: 'kjc III.K'}
   barbour-walworth: {polity: us, basis: roster}
-  barclay-roderick-e: {polity: us, basis: 'frus frus1951v03p1: Private Secretary of Foreign Secretary Bevin, until October '}
+  barclay-roderick-e: {polity: uk, basis: 'frus frus1951v03p1: Private Secretary of Foreign Secretary Bevin, until October '}
   barkan-al: {polity: us, basis: 'l68 III.D'}
   barlocker-william-a: {polity: us, basis: 'kjc III.K'}
   barnes-c-tracy: {polity: us, basis: 'kja III.I'}
@@ -537,7 +546,7 @@ names:
   bartlett-robert-g: {polity: us, basis: 'kjc III.K'}
   barton-john-j: {polity: us, basis: 'kjc III.F'}
   barzani-mustafa: {polity: iraq, basis: 'kja III.J: Leader of the Kurdish revolt in Iraq, from 1961'}
-  barzel-rainer: {polity: us, basis: 'frus: frg frus1964-68v15, us frus1969-76v14', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  barzel-rainer: {polity: frg, basis: 'frus frus1964-68v15: Deputy Chairman of the CDU/CSU Bundestag Fraction until Nove'}
   basinger-john-l: {polity: us, basis: 'kjc III.K'}
   bass-ross: {polity: us, basis: 'kjc III.B'}
   bassett-charles-a-ii: {polity: us, basis: 'kjc III.K'}
@@ -610,7 +619,7 @@ names:
   blankenship-g-t: {polity: us, basis: 'kjc III.K'}
   blanton-leonard-r: {polity: us, basis: congress}
   blatnik-john-a: {polity: us, basis: 'kjc III.D'}
-  blessing-karl: {polity: us, basis: 'frus frus1958-60v08: President of the Bundesbank'}
+  blessing-karl: {polity: frg, basis: 'frus frus1958-60v08: President of the Bundesbank'}
   bliss-ray-c: {polity: us, basis: 'opp III.E'}
   blough-roger-m: {polity: us, basis: 'kja III.H'}
   blount-winton-m: {polity: us, basis: roster}
@@ -685,7 +694,7 @@ names:
   brooks-jack-b: {polity: us, basis: congress}
   brooks-overton: {polity: us, basis: congress}
   broomfield-william-s: {polity: us, basis: congress}
-  brosio-manlio-g: {polity: italy, basis: 'frus: italy frus1952-54v05p1, nato frus1964-68v16, us frus1964-68v11', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  brosio-manlio-g: {polity: italy, basis: 'frus frus1952-54v05p1: Italian Ambassador in the United Kingdom after March 18, 195'}
   broughton-j-melville-jr: {polity: us, basis: 'kjc III.K'}
   brown-aaron-s: {polity: us, basis: roster}
   brown-ben: {polity: us, basis: 'kjc III.K'}
@@ -697,9 +706,8 @@ names:
   brown-h-rap: {polity: us, basis: 'kjc III.K'}
   brown-harold: {polity: us, basis: roster}
   brown-john-r: {polity: us, basis: 'kjc III.K'}
-  brown-sam: {polity: rvn, basis: 'cong III.K: Coordinator, Vietnam Moratorium Committee', doubtful: 'a foreign role in an American section'}
+  brown-sam: {polity: us, basis: 'cong III.K'}
   brown-winthrop-g: {polity: us, basis: 'kja III.E'}
-  browne-malcolm: {polity: '?', basis: 'no role found'}
   browne-malcolm-w: {polity: us, basis: 'vn III.F'}
   brownell-herbert-jr: {polity: us, basis: roster}
   brownstein-philip-n: {polity: us, basis: roster}
@@ -712,13 +720,13 @@ names:
   brzezinski-zbigniew: {polity: us, basis: roster}
   buchanan-john-h-jr: {polity: us, basis: 'opp III.D'}
   buchanan-patrick-j: {polity: us, basis: 'l68 III.M'}
-  bucher-lloyd-m: {polity: dprk, basis: 'kjc III.K: Commander of the USS Pueblo, seized by North Korea Jan. 23, 1968; rele', doubtful: 'a foreign role in an American section'}
+  bucher-lloyd-m: {polity: us, basis: 'kjc III.K'}
   buckley-charles-a: {polity: us, basis: congress}
   buckley-william-f-jr: {polity: us, basis: 'opp III.F'}
   buehner-carl-w: {polity: us, basis: 'kjc III.K'}
   bui-diem: {polity: rvn, basis: 'vn III.G: Ambassador to Washington, 1967–72'}
   bui-tin: {polity: drv, basis: 'vn III.H: Colonel; deputy editor of the army newspaper'}
-  bunche-ralph-j: {polity: us, basis: 'frus: us frus1951v05, un frus1952-54v09p1, congo frus1958-60v14', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  bunche-ralph-j: {polity: us, basis: 'frus: un frus1952-54v09p1, us frus1955-57v17, congo frus1958-60v14', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
   bundy-mcgeorge: {polity: us, basis: 'kja III.E'}
   bundy-william: {polity: us, basis: 'l68 III.F'}
   bunker-ellsworth: {polity: us, basis: 'l68 III.F'}
@@ -763,10 +771,10 @@ names:
   cabell-charles-p: {polity: us, basis: roster}
   cabell-earle: {polity: us, basis: 'kjc III.F'}
   cabot-john-m: {polity: us, basis: roster}
-  caccia-harold-a: {polity: uk, basis: 'frus: uk frus1950-55Intel, us frus1952-54v06p1', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  caccia-harold-a: {polity: uk, basis: 'frus frus1950-55Intel: British Ambassador to the United States from 1956 to 1961'}
   cahill-william-t: {polity: us, basis: congress}
   califano-joseph-a-jr: {polity: us, basis: 'kja III.C'}
-  callaghan-james: {polity: uk, basis: 'frus: uk frus1964-68v08, us frus1969-76ve11p1', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  callaghan-james: {polity: uk, basis: 'frus frus1964-68v08: British Chancellor of the Exchequer, October 16, 1964–Novemb'}
   callaway-howard-h: {polity: us, basis: 'opp III.D'}
   calley-william-l-jr: {polity: us, basis: 'vn III.D'}
   callison-preston-h: {polity: us, basis: 'kjc III.K'}
@@ -802,7 +810,7 @@ names:
   carr-waggoner: {polity: us, basis: 'kjc III.K'}
   carroll-joseph-f: {polity: us, basis: roster}
   carson-rachel: {polity: us, basis: 'kjc III.K'}
-  carstens-karl: {polity: frg, basis: 'frus: frg frus1958-60v08, us frus1961-63v14', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  carstens-karl: {polity: frg, basis: 'frus frus1958-60v08: Head of the Political Section, German Foreign Ministry, from'}
   carter-hodding-iii: {polity: us, basis: 'kjc III.K'}
   carter-jimmy: {polity: us, basis: 'cong III.H'}
   carter-marshall-s: {polity: us, basis: roster}
@@ -848,7 +856,7 @@ names:
   chayes-abram: {polity: us, basis: roster}
   chehab-fuad: {polity: lebanon, basis: 'kja III.J: President of Lebanon, 1958–64'}
   chelf-frank-l: {polity: us, basis: congress}
-  chen-yi: {polity: roc, basis: 'frus frus1958-60v19: Vice Premier of the State Council of the People’s Republic o'}
+  chen-yi: {polity: prc, basis: 'frus frus1958-60v19: Vice Premier of the State Council of the People’s Republic o'}
   chennault-anna: {polity: us, basis: 'l68 III.H'}
   cherberg-john-a: {polity: us, basis: 'kjc III.K'}
   cherne-leo: {polity: us, basis: roster}
@@ -887,7 +895,6 @@ names:
   clevenger-raymond-f: {polity: us, basis: congress}
   cliff-edward-p: {polity: us, basis: roster}
   clifford-clark: {polity: us, basis: 'l68 III.E'}
-  clifford-clark-m: {polity: us, basis: 'vn III.A'}
   clifton-chester-v-jr: {polity: us, basis: roster}
   clyde-george-d: {polity: us, basis: 'kjc III.F'}
   coffin-frank-m: {polity: us, basis: 'kja III.E'}
@@ -896,10 +903,9 @@ names:
   cohen-manuel-f: {polity: us, basis: roster}
   cohen-sheldon-s: {polity: us, basis: roster}
   cohen-wilbur-j: {polity: us, basis: 'kja III.G'}
-  colby-william: {polity: '?', basis: 'no role found'}
   colby-william-e: {polity: us, basis: 'vn III.C'}
   cole-david-l: {polity: us, basis: roster}
-  colegrove-albert-m: {polity: us, basis: 'frus frus1958-60v01: journalist of the Scripps-Howard newspapers'}
+  colegrove-albert-m: {polity: '?', basis: 'frus: no role'}
   coleman-j-p: {polity: us, basis: 'kjc III.K'}
   coleman-kevin-k: {polity: us, basis: 'kjc III.F'}
   coleman-thomas-l: {polity: us, basis: 'kjc III.K'}
@@ -910,7 +916,7 @@ names:
   collins-leroy: {polity: us, basis: 'kjc III.F'}
   collins-michael: {polity: us, basis: 'kjc III.K'}
   colmer-william-m: {polity: us, basis: 'kjc III.D'}
-  comay-michael-s: {polity: israel, basis: 'frus: israel frus1951v05, uk frus1952-54v09p1', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  comay-michael-s: {polity: israel, basis: 'frus frus1951v05: Israeli Ministry of Foreign Affairs'}
   combs-bert-t: {polity: us, basis: 'kjc III.F'}
   conant-james-b: {polity: us, basis: roster}
   conein-lucien: {polity: us, basis: 'vn III.C'}
@@ -934,8 +940,8 @@ names:
   cooper-l-gordon-jr: {polity: us, basis: 'kjc III.K'}
   cooper-owen: {polity: us, basis: 'kjc III.K'}
   cooper-r-conrad: {polity: us, basis: 'kjc III.K'}
-  corcoran-thomas-j: {polity: us, basis: 'frus frus1955-57v01: Consul in Hanoi to December 1955'}
-  cordier-andrew-w: {polity: un, basis: 'frus: un frus1951v05, us frus1952-54v03', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  corcoran-thomas-j: {polity: us, basis: 'frus: us frus1955-57v01, laos frus1958-60v16, rvn frus1964-68v02', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  cordier-andrew-w: {polity: un, basis: 'frus frus1951v05: Executive Secretary to the Secretary-General of the United N'}
   corman-james-c: {polity: us, basis: congress}
   corn-n-s: {polity: us, basis: 'kjc III.K'}
   cornejo-juan: {polity: us, basis: 'kjc III.F'}
@@ -943,11 +949,11 @@ names:
   costa-e-silva-arturo-da: {polity: brazil, basis: 'frus frus1964-68v31: Chief of the Brazilian Army Department of Production and Wor'}
   cote-armand-h: {polity: us, basis: 'kjc III.F'}
   cotton-norris-h: {polity: us, basis: congress}
-  cottrell-sterling-j: {polity: rvn, basis: 'kja III.E: Director, Vietnam Task Force, 1961–62; Coordinator of Cuban Affairs, D', doubtful: 'a foreign role in an American section'}
-  cousins-norman: {polity: us, basis: 'frus frus1961-63v05: Editor of the Saturday Review'}
+  cottrell-sterling-j: {polity: us, basis: 'kja III.E'}
+  cousins-norman: {polity: '?', basis: 'frus: no role'}
   couve-de-murville-maurice: {polity: fr, basis: 'kja III.J: Foreign Minister of France, 1958–68'}
   cowger-william-o: {polity: us, basis: 'kjc III.F'}
-  cowles-gardner: {polity: us, basis: 'frus frus1961-63v15: Editor of the Des Moines Register and Tribune'}
+  cowles-gardner: {polity: '?', basis: 'frus: no role'}
   cox-archibald: {polity: us, basis: 'kjc III.G'}
   cox-jack: {polity: us, basis: 'kjc III.F'}
   cox-w-harold: {polity: us, basis: 'kjc III.G'}
@@ -971,7 +977,7 @@ names:
   curtis-thomas-b: {polity: us, basis: 'opp III.D'}
   cushing-richard-g: {polity: us, basis: 'frus frus1958-60v06: Director, Office of Public Information, United States Inform'}
   cushman-robert-e-jr: {polity: us, basis: roster}
-  cutler-lloyd-n: {polity: us, basis: 'frus frus1964-68v02: Washington lawyer'}
+  cutler-lloyd-n: {polity: us, basis: 'frus frus1969-76v33: White House Counsel from 1977 until 1981; Special Counsel to'}
   cutler-robert: {polity: us, basis: roster}
   cutrer-lewis-w: {polity: us, basis: 'kjc III.F'}
   daane-j-dewey: {polity: us, basis: roster}
@@ -1003,7 +1009,7 @@ names:
   de-vries-walter: {polity: us, basis: 'opp III.G'}
   dean-arthur-h: {polity: us, basis: 'kja III.E'}
   dean-ernest-h: {polity: us, basis: 'kjc III.K'}
-  dean-patrick: {polity: uk, basis: 'frus: us frus1958-60v07p1, uk frus1961-63v07', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  dean-patrick: {polity: uk, basis: 'frus frus1958-60v07p1: Deputy Under Secretary of State, British Foreign Office, and'}
   debakey-michael-e: {polity: us, basis: 'kjc III.K'}
   debre-michel: {polity: fr, basis: 'frus frus1952-54v05p1: French Senator and member of the Rassemblement du Peuple Fra'}
   decker-george-h: {polity: us, basis: roster}
@@ -1017,11 +1023,10 @@ names:
   dellenback-john-r: {polity: us, basis: congress}
   dellinger-david: {polity: us, basis: 'vn III.E'}
   deloach-cartha: {polity: us, basis: 'l68 III.H'}
-  deloach-cartha-d: {polity: us, basis: 'kja III.I'}
   deming-frederick-l: {polity: us, basis: roster}
   demirel-suleyman: {polity: turkey, basis: 'kja III.J: Prime Minister of Turkey, 1965–71'}
   dempsey-john-n: {polity: us, basis: 'kjc III.F'}
-  deng-xiaoping: {polity: roc, basis: 'frus: roc frus1969-76v15, us frus1969-76v18', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  deng-xiaoping: {polity: prc, basis: 'frus frus1969-76v15: Vice Premier of the State Council of the People’s Republic o'}
   dennison-robert-l: {polity: us, basis: roster}
   dent-harry-s: {polity: us, basis: roster}
   depuy-william-e: {polity: us, basis: roster}
@@ -1080,7 +1085,7 @@ names:
   dryden-hugh-l: {polity: us, basis: 'kja III.G'}
   dubcek-alexander: {polity: czechoslovakia, basis: 'frus frus1964-68v14: First Secretary of the Czechoslovak Communist Party from Jan'}
   dubord-richard: {polity: us, basis: 'kjc III.F'}
-  duckwitz-georg-ferdinand: {polity: frg, basis: 'frus: frg frus1958-60v08, us frus1964-68v13', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  duckwitz-georg-ferdinand: {polity: frg, basis: 'frus frus1958-60v08: Head of the Eastern Department, German Foreign Ministry'}
   dudley-edward-r: {polity: us, basis: 'kjc III.F'}
   duesenberry-james-s: {polity: us, basis: roster}
   duke-angier-b: {polity: us, basis: roster}
@@ -1105,9 +1110,9 @@ names:
   earman-j-s: {polity: us, basis: roster}
   eastland-james-o: {polity: us, basis: 'kjc III.B'}
   eaton-frederick-m: {polity: us, basis: 'opp III.E'}
-  eban-abba-s: {polity: israel, basis: 'frus: israel frus1951v05, us frus1955-57v12', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  eban-abba-s: {polity: israel, basis: 'frus frus1951v05: Israeli Ambassador to the United States'}
   eckstein-otto: {polity: us, basis: roster}
-  eden-anthony: {polity: uk, basis: 'frus: uk frus1950-55Intel, us frus1952-54v03', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  eden-anthony: {polity: uk, basis: 'frus frus1950-55Intel: Foreign Secretary of the United Kingdom from 1951 to 1955; P'}
   edmondson-edmond-a: {polity: us, basis: congress}
   edmondson-james-h: {polity: us, basis: 'kjc III.F'}
   edwards-edwin-w: {polity: us, basis: 'kjc III.D'}
@@ -1131,7 +1136,7 @@ names:
   ellsworth-robert: {polity: us, basis: roster}
   elsey-george-m: {polity: us, basis: roster}
   elson-roy-l: {polity: us, basis: 'kjc III.K'}
-  emminger-otmar: {polity: us, basis: 'frus: frg frus1969-76v31, us frus1969-76v03', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  emminger-otmar: {polity: frg, basis: 'frus frus1969-76v03: Director, Bundesbank'}
   eney-h-vernon: {polity: us, basis: 'kjc III.K'}
   engle-clair: {polity: us, basis: 'kjc III.B'}
   enthoven-alain-c: {polity: us, basis: 'kja III.F'}
@@ -1146,7 +1151,7 @@ names:
   esterline-j-d: {polity: us, basis: roster}
   evans-courtney-a: {polity: us, basis: roster}
   evans-daniel-j: {polity: us, basis: 'opp III.H'}
-  evans-fred: {polity: libya, basis: 'kjc III.K: "Ahmed" Evans, leader of the Black Nationalists of New Libya, Clevelan', doubtful: 'a foreign role in an American section'}
+  evans-fred: {polity: us, basis: 'kjc III.K'}
   evans-rowland-jr: {polity: us, basis: 'opp III.J'}
   everett-robert-a: {polity: us, basis: congress}
   evers-charles: {polity: us, basis: 'kjc III.K'}
@@ -1169,12 +1174,12 @@ names:
   favulli-michael: {polity: us, basis: 'kjc III.K'}
   fawzi-mohammed: {polity: uar, basis: 'frus frus1964-68v19: Chief of Staff, United Arab Republic armed forces until June'}
   fay-paul-b-jr: {polity: us, basis: roster}
-  fechter-peter: {polity: '?', basis: 'kja III.J: East Berlin bricklayer; shot at the wall, Aug. 17, 1962'}
+  fechter-peter: {polity: gdr, basis: 'kja III.J: East Berlin bricklayer; shot at the wall, Aug. 17, 1962'}
   fedorenko-nikolai-t: {polity: ussr, basis: 'kja III.J: Soviet Permanent Representative to the United Nations, 1963–68'}
   feighan-michael-a: {polity: us, basis: congress}
   feinberg-abraham: {polity: us, basis: 'frus: israel frus1951v05, us frus1964-68v19', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
   fekini-mohieddine: {polity: libya, basis: 'kja III.J: Prime Minister of Libya, 1963–64'}
-  feklisov-aleksandr: {polity: '?', basis: 'kja III.J: KGB resident in Washington ("Fomin")'}
+  feklisov-aleksandr: {polity: ussr, basis: 'kja III.J: KGB resident in Washington ("Fomin")'}
   feldman-myer: {polity: us, basis: 'kja III.B'}
   felt-harry-d: {polity: us, basis: 'vn III.D'}
   ferber-michael: {polity: us, basis: 'kjc III.K'}
@@ -1211,7 +1216,7 @@ names:
   foreman-edgar-f: {polity: us, basis: congress}
   forman-james: {polity: us, basis: 'kjc III.H'}
   formby-marshall: {polity: us, basis: 'kjc III.F'}
-  forrestal-michael-v: {polity: rvn, basis: 'kja III.E: NSC staff, Vietnam', doubtful: 'a foreign role in an American section'}
+  forrestal-michael-v: {polity: us, basis: 'kja III.E'}
   forrester-elijah-l: {polity: us, basis: 'kjc III.D'}
   forsythe-george-i: {polity: us, basis: 'frus frus1964-68v05: USA, Assistant Deputy to the Commander, Military Assistance '}
   fort-jeff: {polity: us, basis: 'kjc III.K'}
@@ -1295,7 +1300,7 @@ names:
   ginzburg-ralph: {polity: us, basis: 'kjc III.K'}
   giordano-henry-l: {polity: us, basis: roster}
   giscard-destaing-valery: {polity: fr, basis: 'frus frus1961-63v07-09mSupp: French Finance Minister from January 18, 1962'}
-  gizenga-antoine: {polity: congo, basis: 'frus: congo frus1958-60v14, us frus1961-63v20', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  gizenga-antoine: {polity: congo, basis: 'frus frus1958-60v14: Deputy Prime Minister of the Republic of the Congo, June–Sep'}
   glenn-john-h-jr: {polity: us, basis: 'kja III.F'}
   glennan-thomas-k-jr: {polity: us, basis: roster}
   glickstein-howard-a: {polity: us, basis: roster}
@@ -1331,7 +1336,7 @@ names:
   gowon-yakubu: {polity: nigeria, basis: 'kja III.J: Head of the military government of Nigeria from Aug. 1966'}
   grader-william-f: {polity: us, basis: 'kjc III.K'}
   gragson-oran-k: {polity: us, basis: 'kjc III.F'}
-  graham-billy: {polity: us, basis: 'frus frus1969-76v13: Chairman of the Board, Billy Graham Evangelistic Association'}
+  graham-billy: {polity: '?', basis: 'frus: no role'}
   graham-katharine: {polity: us, basis: 'cong III.M'}
   granger-lester-b: {polity: us, basis: 'kjc III.H'}
   grant-george-m: {polity: us, basis: 'kjc III.D'}
@@ -1367,7 +1372,7 @@ names:
   grissom-virgil-i: {polity: us, basis: 'kja III.F'}
   griswold-erwin-n: {polity: us, basis: roster}
   griswold-estelle: {polity: us, basis: 'kjc III.K'}
-  grivas-george: {polity: cyprus, basis: 'frus: greece frus1958-60v10p1, cyprus frus1964-68v16, us frus1964-68v33', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  grivas-george: {polity: cyprus, basis: 'frus frus1964-68v16: Cyprus National Guard'}
   gromyko-andrei: {polity: ussr, basis: 'kja III.J: Soviet Foreign Minister'}
   gronchi-giovanni: {polity: italy, basis: 'frus frus1955-57v04: President of Italy from April 1955'}
   gronouski-john-a: {polity: us, basis: 'kja III.G'}
@@ -1393,7 +1398,7 @@ names:
   guy-william-l: {polity: us, basis: 'kjc III.F'}
   guyot-lawrence: {polity: us, basis: 'kjc III.K'}
   guzman-fernandez-silvestre-antonio: {polity: dominican-republic, basis: 'kja III.J: Bosch''s minister of agriculture; proposed as constitutional president,'}
-  ha-van-lau: {polity: us, basis: 'frus: us frus1952-54v16, drv frus1964-68v07', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  ha-van-lau: {polity: drv, basis: 'frus frus1952-54v16: Member of the Military Delegation of the Democratic Republic'}
   haar-charles-m: {polity: us, basis: roster}
   habib-philip-c: {polity: us, basis: roster}
   hagerty-james-c: {polity: us, basis: 'opp III.E'}
@@ -1524,7 +1529,7 @@ names:
   hittle-james-d: {polity: us, basis: roster}
   ho-chi-minh: {polity: drv, basis: 'vn III.H: President of the Democratic Republic of Vietnam to 1969'}
   hoang-minh-chinh: {polity: drv, basis: 'vn III.H: Director of the Institute of Philosophy; arrested 1967'}
-  hoang-minh-giam: {polity: us, basis: 'frus frus1955-57v01: Minister of Information of the Democratic Republic of Vietna'}
+  hoang-minh-giam: {polity: drv, basis: 'frus frus1955-57v01: Minister of Information of the Democratic Republic of Vietna'}
   hoang-van-thai: {polity: drv, basis: 'vn III.H: General; the People''s Army''s first chief of staff; the senior North Vi'}
   hobby-oveta-culp: {polity: us, basis: roster}
   hobson-julius-w: {polity: us, basis: 'kjc III.K'}
@@ -1561,7 +1566,7 @@ names:
   hornig-donald-f: {polity: us, basis: 'kja III.C'}
   horton-frank-j: {polity: us, basis: congress}
   horwin-leonard: {polity: us, basis: 'kjc III.K'}
-  houphouet-boigny-felix: {polity: us, basis: 'frus: fr frus1958-60v13, us frus1961-63v21', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  houphouet-boigny-felix: {polity: ivory-coast, basis: 'frus frus1961-63v21: President of Ivory Coast and Minister of Defense, the Interi'}
   houser-thomas-j: {polity: us, basis: roster}
   houston-lawrence: {polity: us, basis: 'kjc III.K'}
   hove-john: {polity: us, basis: 'kjc III.K'}
@@ -1576,7 +1581,7 @@ names:
   huggins-ira-a: {polity: us, basis: 'kjc III.K'}
   hughes-emmet-john: {polity: us, basis: 'opp III.G'}
   hughes-harold-e: {polity: us, basis: 'kjc III.F'}
-  hughes-howard-r-jr: {polity: us, basis: 'frus frus1969-76v35: industrialist'}
+  hughes-howard-r-jr: {polity: '?', basis: 'frus: no role'}
   hughes-john-h: {polity: us, basis: 'opp III.I'}
   hughes-richard-j: {polity: us, basis: 'kjc III.F'}
   hughes-sarah-t: {polity: us, basis: 'kjc III.K'}
@@ -1630,15 +1635,15 @@ names:
   jacobs-jane: {polity: us, basis: 'kjc III.K'}
   jacobsen-jake: {polity: us, basis: 'l68 III.C'}
   jaffa-harry-v: {polity: us, basis: 'opp III.F'}
-  jagan-cheddi-b: {polity: uk, basis: 'frus: uk frus1961-63v12, guyana frus1969-76ve10', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  jagan-cheddi-b: {polity: guyana, basis: 'frus frus1961-63v12: Prime Minister of British Guiana from September 5, 1961'}
   james-ted: {polity: us, basis: 'kjc III.K'}
   jamieson-ronald-b: {polity: us, basis: 'kjc III.K'}
   jaquith-david-h: {polity: us, basis: 'kjc III.K'}
   jarman-john: {polity: us, basis: congress}
-  jarring-gunnar-v: {polity: sweden, basis: 'frus: sweden frus1955-57v08, un frus1964-68v18, us frus1969-76v05', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  jarring-gunnar-v: {polity: sweden, basis: 'frus frus1955-57v08: Swedish Representative at the United Nations, 1956–1957'}
   javits-jacob-k: {polity: us, basis: 'kjc III.E'}
   jenkins-herbert: {polity: us, basis: 'kjc III.K'}
-  jenkins-roy-h: {polity: uk, basis: 'frus: uk frus1964-68v08, us frus1969-76v37', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  jenkins-roy-h: {polity: uk, basis: 'frus frus1964-68v08: British Home Secretary, December 22, 1965–November 29, 1967;'}
   jenkins-walter-w: {polity: us, basis: 'kja III.C'}
   jenkins-william-l: {polity: us, basis: roster}
   jenner-albert-e-jr: {polity: us, basis: 'wg III.G'}
@@ -1667,12 +1672,11 @@ names:
   johnson-roy-l: {polity: us, basis: roster}
   johnson-tom: {polity: us, basis: 'l68 III.A'}
   johnson-u-alexis: {polity: us, basis: 'vn III.C'}
-  johnson-ural-a: {polity: '?', basis: 'no role found'}
   johnson-virginia: {polity: us, basis: 'kjc III.K'}
   johnston-olin-d: {polity: us, basis: 'kjc III.B'}
   jones-boisfeuillet: {polity: us, basis: roster}
   jones-j-raymond: {polity: us, basis: 'kjc III.K'}
-  jones-james-r: {polity: us, basis: 'frus frus1964-68v06: Special Assistant to the President'}
+  jones-james-r: {polity: us, basis: 'l68 III.A'}
   jones-jim: {polity: us, basis: 'l68 III.A'}
   jones-norvill: {polity: us, basis: 'frus frus1969-76v05: staff member, Senate Committee on Foreign Relations'}
   jones-paul-c: {polity: us, basis: congress}
@@ -1692,22 +1696,21 @@ names:
   kalischer-peter: {polity: us, basis: 'frus frus1961-63v03: CBS News correspondent'}
   kampelman-max-m: {polity: us, basis: 'l68 III.I'}
   kanba-michiko: {polity: us, basis: 'kjc III.K'}
-  kanellopoulos-panayotis: {polity: greece, basis: 'frus: us frus1951v05, greece frus1952-54v05p1', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  kanellopoulos-panayotis: {polity: greece, basis: 'frus frus1951v05: joint leader of the Populist-Unionist (LEK) Party in Greece'}
   kaplan-harold: {polity: us, basis: 'frus frus1964-68v06: Member, U.S. Delegation to the Paris Peace Talks'}
   kappel-frederick-r: {polity: us, basis: roster}
   karth-joseph-e: {polity: us, basis: congress}
   karume-abeid: {polity: tanzania, basis: 'kja III.J: President of Zanzibar from Jan. 1964; First Vice President of Tanzania'}
   kasavubu-joseph: {polity: congo, basis: 'kja III.J: President of the Congo, 1960–65'}
   kastenmeier-robert-w: {polity: us, basis: congress}
-  kattenburg-paul-m: {polity: rvn, basis: 'vn III.A: Chairman, State''s Vietnam working group, 1963', doubtful: 'a foreign role in an American section'}
+  kattenburg-paul-m: {polity: us, basis: 'vn III.A'}
   katz-a-martin: {polity: us, basis: 'kjc III.F'}
   katzenbach-nicholas: {polity: us, basis: 'l68 III.F'}
-  katzenbach-nicholas-deb: {polity: us, basis: 'kja III.I'}
   kaysen-carl: {polity: us, basis: 'kja III.B'}
   kealoha-james-k: {polity: us, basis: 'kjc III.K'}
   keating-kenneth-b: {polity: us, basis: 'opp III.B'}
   kefauver-estes: {polity: us, basis: 'kjc III.B'}
-  keita-modibo: {polity: '?', basis: 'kja III.J: President of Mali'}
+  keita-modibo: {polity: mali, basis: 'kja III.J: President of Mali'}
   keith-alexander-m: {polity: us, basis: 'kjc III.K'}
   kelly-edna-f: {polity: us, basis: congress}
   kelly-francis-e: {polity: us, basis: 'kjc III.K'}
@@ -1767,7 +1770,7 @@ names:
   kizer-marshall-f: {polity: us, basis: 'kjc III.F'}
   klein-arthur-g: {polity: us, basis: 'kjc III.K'}
   klein-herbert-g: {polity: us, basis: 'adm III.B'}
-  klein-julius: {polity: frg, basis: 'kjc III.K: Chicago public relations man, agent of West German interests; Dodd''s d', doubtful: 'a foreign role in an American section'}
+  klein-julius: {polity: us, basis: 'kjc III.K'}
   kleindienst-richard-g: {polity: us, basis: 'adm III.H'}
   kleppe-thomas-s: {polity: us, basis: roster}
   kluczynski-john-c: {polity: us, basis: congress}
@@ -1782,20 +1785,20 @@ names:
   kollias-constantine: {polity: greece, basis: 'frus frus1964-68v16: Greek Prime Minister, April–December 1967'}
   komarov-nikolai-d: {polity: ussr, basis: 'frus frus1969-76v13: Deputy Soviet Minister of Foreign Trade'}
   komer-robert-w: {polity: us, basis: 'kja III.E'}
-  konev-ivan-stepanovich: {polity: us, basis: 'frus frus1955-57v24: Commander-in-Chief, Warsaw Pact Armed Forces'}
+  konev-ivan-stepanovich: {polity: '?', basis: 'frus: no role'}
   kong-le: {polity: laos, basis: 'vn III.I: Captain, then general; Laotian paratroop commander'}
-  kornienko-georgi-m: {polity: us, basis: 'frus: ussr frus1961-63v15, us frus1964-68v14', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  kornienko-georgi-m: {polity: ussr, basis: 'frus frus1961-63v15: Counselor of the Soviet Embassy in the United States'}
   korry-edward-m: {polity: us, basis: 'kja III.E'}
   korth-fred: {polity: us, basis: 'kja III.F'}
   kosygin-aleksei: {polity: ussr, basis: 'kja III.J: Soviet Premier from 1964'}
-  kouprasith-abhay: {polity: '?', basis: 'vn III.I: General; commander of the Vientiane military region'}
+  kouprasith-abhay: {polity: laos, basis: 'vn III.I: General; commander of the Vientiane military region'}
   kovac-frank: {polity: us, basis: 'opp III.F'}
   kowal-chester: {polity: us, basis: 'kjc III.F'}
   kozlov-frol-r: {polity: ussr, basis: 'frus frus1958-60v10p1: Soviet First Deputy Premier from March 1958'}
   kraft-joseph: {polity: us, basis: 'kjc III.J'}
   kramer-robert: {polity: us, basis: roster}
   kraslow-david: {polity: us, basis: 'frus frus1969-76v08: Washington Bureau Chief, Los Angeles Times'}
-  kreisky-bruno: {polity: austria, basis: 'frus: us frus1952-54v07p1, austria frus1955-57v05', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  kreisky-bruno: {polity: austria, basis: 'frus frus1952-54v07p1: Secretary of State in the Austrian Ministry of Foreign Affai'}
   krock-arthur: {polity: us, basis: 'kjc III.J'}
   kroll-hans-s: {polity: frg, basis: 'frus frus1958-60v08: German Ambassador to the Soviet Union from May 1958'}
   krulak-victor-h: {polity: us, basis: 'vn III.D'}
@@ -1844,7 +1847,7 @@ names:
   leddy-john-m: {polity: us, basis: roster}
   lee-frank: {polity: uk, basis: 'frus frus1952-54v06p1: Permanent Secretary of the British Board of Trade'}
   lee-herbert: {polity: us, basis: 'kjc III.H'}
-  lee-kuan-yew: {polity: us, basis: 'frus frus1961-63v23: Singapore Prime Minister'}
+  lee-kuan-yew: {polity: singapore, basis: 'frus frus1961-63v23: Singapore Prime Minister'}
   lee-richard-c: {polity: us, basis: 'kjc III.F'}
   lefkowitz-louis-j: {polity: us, basis: 'opp III.I'}
   leggett-robert-l: {polity: us, basis: congress}
@@ -1879,7 +1882,7 @@ names:
   lingo-albert-j: {polity: us, basis: 'kjc III.K'}
   lippmann-walter: {polity: us, basis: 'kjc III.J'}
   lipscomb-glenard-p: {polity: us, basis: congress}
-  liu-shao-chi: {polity: roc, basis: 'frus: roc frus1952-54v14p1, prc frus1969-76v17', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  liu-shao-chi: {polity: prc, basis: 'frus frus1952-54v14p1: Vice Chairman, Central People’s Government Council, People’s'}
   liuzzo-viola: {polity: us, basis: 'kjc III.K'}
   lleras-camargo-alberto: {polity: colombia, basis: 'frus frus1955-57v06: President of Colombia, 1945–1946; Secretary General of the O'}
   locher-ralph-s: {polity: us, basis: 'kjc III.K'}
@@ -1918,7 +1921,7 @@ names:
   lumumba-patrice: {polity: congo, basis: 'kja III.J: Prime Minister of the Congo, June–Sept. 1960'}
   lusk-gene: {polity: us, basis: 'kjc III.K'}
   luthuli-albert-john: {polity: south-africa, basis: 'kja III.J: President-general of the African National Congress, 1952–67; banned'}
-  lynd-staughton: {polity: us, basis: 'frus frus1964-68v04: history professor at Yale University'}
+  lynd-staughton: {polity: '?', basis: 'frus: no role'}
   lynd-theron-c: {polity: us, basis: 'kjc III.K'}
   lyons-charlton-h-sr: {polity: us, basis: 'kjc III.K'}
   macarthur-douglas-ii: {polity: us, basis: 'opp III.E'}
@@ -1942,7 +1945,7 @@ names:
   mahoney-george-p: {polity: us, basis: 'kjc III.K'}
   mahoney-j-daniel: {polity: us, basis: 'kjc III.K'}
   mahoney-william-p-jr: {polity: us, basis: 'kja III.E'}
-  mai-van-bo: {polity: us, basis: 'frus: us frus1964-68v02, drv frus1969-76v42', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  mai-van-bo: {polity: drv, basis: 'frus frus1964-68v02: Commercial Representative in Paris of the Democratic Republi'}
   maier-henry-w: {polity: us, basis: 'kjc III.F'}
   mailer-norman: {polity: us, basis: 'l68 III.O'}
   mailliard-william-s: {polity: us, basis: roster}
@@ -1959,8 +1962,7 @@ names:
   manatos-mike-n: {polity: us, basis: roster}
   manchester-william: {polity: us, basis: 'kjc III.K'}
   mandel-marvin: {polity: us, basis: 'cong III.H'}
-  mandela-nelson: {polity: '?', basis: 'kja III.J: Of the African National Congress; sentenced to life imprisonment, June'}
-  maneli-mieczys-aw: {polity: '?', basis: 'no role found'}
+  mandela-nelson: {polity: south-africa, basis: 'kja III.J: Of the African National Congress; sentenced to life imprisonment, June'}
   maneli-mieczyslaw: {polity: poland, basis: 'frus frus1961-63v04: Polish member of the International Control Commission'}
   manion-clarence: {polity: us, basis: 'opp III.F'}
   mankiewicz-frank: {polity: us, basis: 'l68 III.K'}
@@ -1974,7 +1976,7 @@ names:
   marcovich-hebert: {polity: fr, basis: 'frus frus1964-68v05: French professor and intermediary in Pennsylvania'}
   marcy-carl: {polity: us, basis: 'frus frus1958-60v01: Chief of Staff of the Senate Foreign Relations Committee'}
   mardian-robert-c: {polity: us, basis: 'wg III.B'}
-  marjolin-robert-e: {polity: us, basis: 'frus: us frus1951v03p1, eec frus1961-63v07-09mSupp', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  marjolin-robert-e: {polity: oecd, basis: 'frus: oecd frus1951v03p1, uk frus1955-57v04, eec frus1961-63v07-09mSupp', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
   marks-leonard-h: {polity: us, basis: roster}
   marland-sidney-p-jr: {polity: us, basis: roster}
   marshall-burke: {polity: us, basis: 'kja III.I'}
@@ -1993,7 +1995,7 @@ names:
   mason-gilbert-r: {polity: us, basis: 'kjc III.K'}
   matheson-mac-c: {polity: us, basis: 'kjc III.K'}
   mathias-charles-mcc-jr: {polity: us, basis: 'cong III.C'}
-  maudling-reginald: {polity: uk, basis: 'frus: uk frus1952-54v05p1, us frus1958-60v07p1', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  maudling-reginald: {polity: uk, basis: 'frus frus1952-54v05p1: Conservative member of the British House of Commons and Econ'}
   maurer-ion-gheorghe: {polity: romania, basis: 'frus frus1964-68v06: President of the Council of Ministers of Romania'}
   maybank-burnet-r-jr: {polity: us, basis: 'kjc III.K'}
   mazzilli-pascoal-ranieri: {polity: brazil, basis: 'kja III.J: President of the Brazilian Chamber of Deputies; acting President of Br'}
@@ -2067,7 +2069,6 @@ names:
   mecham-evan: {polity: us, basis: 'kjc III.K'}
   mechem-edwin-l: {polity: us, basis: 'opp III.H'}
   mecklin-john: {polity: us, basis: 'vn III.C'}
-  mecklin-john-m: {polity: '?', basis: 'no role found'}
   meeker-leonard-c: {polity: us, basis: roster}
   mehta-asoka: {polity: india, basis: 'kja III.J: Deputy Chairman of India''s Planning Commission, 1966'}
   mein-john-g: {polity: us, basis: roster}
@@ -2091,7 +2092,7 @@ names:
   michel-robert-h: {polity: us, basis: 'opp III.D'}
   micunovic-veljko: {polity: yugoslavia, basis: 'frus frus1955-57v24: Yugoslav Ambassador to the Soviet Union from March 1956'}
   middendorf-j-william-ii: {polity: us, basis: roster}
-  miki-takeo: {polity: japan, basis: 'frus: japan frus1958-60v18, us frus1964-68v29p2', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  miki-takeo: {polity: japan, basis: 'frus frus1958-60v18: Japanese politican and member of the Liberal Democratic Part'}
   mikoyan-anastas: {polity: ussr, basis: 'kja III.J: First Deputy Premier of the Soviet Union'}
   miller-clement-w: {polity: us, basis: 'kjc III.K'}
   miller-david-j: {polity: us, basis: 'kjc III.K'}
@@ -2111,7 +2112,7 @@ names:
   miro-cardona-jose: {polity: cuba, basis: 'frus frus1958-60v06: Prime Minister of Cuba, January–February 1959'}
   mitchell-aaron: {polity: us, basis: 'kjc III.K'}
   mitchell-clarence-jr: {polity: us, basis: 'kjc III.H'}
-  mitchell-derek: {polity: us, basis: 'frus frus1969-76v31: Second Permanent Secretary (Overseas Finance), British Treas'}
+  mitchell-derek: {polity: uk, basis: 'frus frus1969-76v31: Second Permanent Secretary (Overseas Finance), British Treas'}
   mitchell-george-w: {polity: us, basis: 'kja III.H'}
   mitchell-james-p: {polity: us, basis: 'opp III.E'}
   mitchell-john-n: {polity: us, basis: 'adm III.H'}
@@ -2125,7 +2126,7 @@ names:
   mock-vernon-p: {polity: us, basis: roster}
   mohamed-v: {polity: morocco, basis: 'kja III.J: King of Morocco, 1957–61'}
   mohieddin-zakaria: {polity: uar, basis: 'frus frus1964-68v19: Vice President of the United Arab Republic until June 1967; '}
-  molina-urena-jose-rafael: {polity: dominican-republic, basis: 'kjc III.K: Provisional President of the Dominican Republic for the rebels, Apr. 2', doubtful: 'a foreign role in an American section'}
+  molina-urena-jose-rafael: {polity: us, basis: 'kjc III.K'}
   mollenhoff-clark-r: {polity: us, basis: roster}
   momyer-william-w: {polity: us, basis: roster}
   monagan-john-s: {polity: us, basis: congress}
@@ -2136,7 +2137,7 @@ names:
   monroney-almer-s: {polity: us, basis: 'kjc III.B'}
   montague-robert-m: {polity: us, basis: roster}
   montgomery-gillespie-v: {polity: us, basis: congress}
-  montoya-joseph-m: {polity: mexico, basis: 'wg III.F: Member, New Mexico', doubtful: 'a foreign role in an American section'}
+  montoya-joseph-m: {polity: us, basis: 'wg III.F'}
   moore-arch-a-jr: {polity: us, basis: congress}
   moore-c-robert: {polity: us, basis: roster}
   moore-cecil-b: {polity: us, basis: 'kjc III.K'}
@@ -2228,16 +2229,16 @@ names:
   nguyen-cao-ky: {polity: rvn, basis: 'vn III.G: Air force commander; prime minister, 1965–67; vice president, 1967–71'}
   nguyen-chanh-thi: {polity: rvn, basis: 'vn III.G: Colonel; led the paratroops against Diệm, Nov. 11–12, 1960; general, I'}
   nguyen-chi-thanh: {polity: drv, basis: 'vn III.H: General; commander in the South, 1965–67'}
-  nguyen-dinh-thuan: {polity: us, basis: 'frus: us frus1958-60v01, rvn frus1961-63v01', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
-  nguyen-duy-trinh: {polity: us, basis: 'frus: drv frus1964-68v05, us frus1964-68v02', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  nguyen-dinh-thuan: {polity: rvn, basis: 'frus frus1958-60v01: Secretary of State for the Presidency of the Republic of Vie'}
+  nguyen-duy-trinh: {polity: drv, basis: 'frus frus1964-68v02: Foreign Minister and Deputy Prime Minister of the Democratic'}
   nguyen-huu-tho: {polity: nlf, basis: 'vn III.H: Chairman, National Liberation Front'}
   nguyen-khanh: {polity: rvn, basis: 'vn III.G: General; took power Jan. 30, 1964; forced out Feb. 1965'}
   nguyen-ngoc-loan: {polity: rvn, basis: 'vn III.G: National police chief'}
-  nguyen-ngoc-tho: {polity: rvn, basis: 'frus: us frus1955-57v01, rvn frus1958-60v01', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
-  nguyen-thanh-le: {polity: us, basis: 'frus frus1964-68v07: member and spokesman, Democratic Republic of Vietnam Delegat'}
+  nguyen-ngoc-tho: {polity: rvn, basis: 'frus frus1955-57v01: Minister of National Economy to December 1956; thereafter Vi'}
+  nguyen-thanh-le: {polity: drv, basis: 'frus frus1964-68v07: member and spokesman, Democratic Republic of Vietnam Delegat'}
   nguyen-thi-binh: {polity: nlf, basis: 'vn III.H: Foreign minister of the Provisional Revolutionary Government'}
   nguyen-van-hieu: {polity: nlf, basis: 'frus frus1969-76v42: General Secretary of the National Liberation Front and Minis'}
-  nguyen-van-loc: {polity: us, basis: 'frus: rvn frus1964-68v06, us frus1964-68v05', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  nguyen-van-loc: {polity: rvn, basis: 'frus frus1964-68v06: Republic of Vietnam Prime Minister to May 18, 1968'}
   nguyen-van-thieu: {polity: rvn, basis: 'adm III.J: President of South Vietnam'}
   nguyen-xuan-oanh: {polity: rvn, basis: 'vn III.G: Acting prime minister, Aug.–Sept. 1964 and Jan.–Feb. 1965'}
   nguyen-xuan-phong: {polity: rvn, basis: 'frus frus1964-68v07: member, South Vietnamese Delegation to the Paris Peace Talks'}
@@ -2297,12 +2298,12 @@ names:
   olmstead-freeman-b: {polity: us, basis: 'kjc III.K'}
   olsen-arnold: {polity: us, basis: congress}
   olson-alec-g: {polity: us, basis: congress}
-  olympio-sylvanus: {polity: fr, basis: 'kja III.J: President of Togo; killed Jan. 13, 1963'}
+  olympio-sylvanus: {polity: togo, basis: 'kja III.J: President of Togo; killed Jan. 13, 1963'}
   oneal-russell-d: {polity: us, basis: roster}
   oneill-thomas-p-jr: {polity: us, basis: 'cong III.D'}
   ongania-juan-carlos: {polity: argentina, basis: 'kja III.J: President of Argentina, 1966–70'}
   oppenheimer-j-robert: {polity: us, basis: 'frus frus1952-54v02p1: Director of the Institute for Advanced Study, Princeton, New'}
-  ormsby-gore-david: {polity: uk, basis: 'frus: uk frus1961-63v01, us frus1961-63v07', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  ormsby-gore-david: {polity: uk, basis: 'frus frus1961-63v01: British Ambassador to the United States from October 1961'}
   orrick-william-h-jr: {polity: us, basis: roster}
   oswald-lee-harvey: {polity: us, basis: 'kjc III.K'}
   oswald-marina: {polity: us, basis: 'kjc III.K'}
@@ -2325,7 +2326,7 @@ names:
   parker-marshall-j: {polity: us, basis: 'kjc III.K'}
   parker-william-h: {polity: us, basis: 'kjc III.K'}
   parsons-j-graham: {polity: us, basis: 'opp III.E'}
-  parthasarathi-gopalaswami: {polity: india, basis: 'frus: cambodia frus1955-57v21, india frus1955-57v01', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  parthasarathi-gopalaswami: {polity: india, basis: 'frus frus1955-57v01: Indian Chairman of the International Commission for Supervis'}
   partin-edward-grady: {polity: us, basis: 'kjc III.K'}
   passman-otto-e: {polity: us, basis: 'kjc III.D'}
   pastore-john-o: {polity: us, basis: 'kjc III.B'}
@@ -2374,7 +2375,6 @@ names:
   phillips-walter-m: {polity: us, basis: 'kjc III.K'}
   phoumi-nosavan: {polity: laos, basis: 'vn III.I: General; the American-backed strongman in Laos'}
   pickard-cyril-stanley: {polity: uk, basis: 'frus frus1964-68v25: Superintending Under-Secretary, Asia and Atlantic Division, '}
-  pickle-j-j: {polity: '?', basis: 'no role found'}
   pickle-james-j: {polity: us, basis: 'kjc III.K'}
   pickrell-robert: {polity: us, basis: 'kjc III.K'}
   piemonte-gabriel: {polity: us, basis: 'kjc III.F'}
@@ -2394,7 +2394,7 @@ names:
   ponomarev-boris-n: {polity: ussr, basis: 'frus frus1969-76v14: Member of the Secretariat of the Central Committee of the Co'}
   pool-elizabeth: {polity: us, basis: 'kjc III.K'}
   pool-joe-r: {polity: us, basis: 'kjc III.D'}
-  popple-paul-m: {polity: us, basis: 'frus frus1961-63v22: Officer in Charge, Government of the Republic of China Affai'}
+  popple-paul-m: {polity: roc, basis: 'frus: roc frus1961-63v22, us frus1969-76v19p1', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
   porter-albert-s: {polity: us, basis: 'kjc III.K'}
   porter-carley-v: {polity: us, basis: 'kjc III.K'}
   porter-charles-o: {polity: us, basis: 'frus frus1958-60v06: Democratic Representative from Oregon'}
@@ -2424,11 +2424,11 @@ names:
   pryor-frederic-l: {polity: us, basis: 'kja III.I'}
   pucinski-roman-c: {polity: us, basis: congress}
   purcell-graham-b-jr: {polity: us, basis: 'kjc III.K'}
-  pursley-robert-e: {polity: us, basis: 'frus: us frus1964-68v06, japan frus1969-76v09', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  pursley-robert-e: {polity: us, basis: 'frus frus1964-68v06: Military Assistant to the Secretary of Defense'}
   pushkin-georgiyi-maksimovich: {polity: ussr, basis: 'frus frus1952-54v07p1: Soviet High Commissioner for Germany and Ambassador in the G'}
   qassim-abdul-karim: {polity: iraq, basis: 'kja III.J: Prime Minister of Iraq, 1958–63'}
   quadros-janio: {polity: brazil, basis: 'kja III.J: President of Brazil, Jan.–Aug. 1961'}
-  quang-lien: {polity: us, basis: 'frus frus1964-68v02: Buddhist leader'}
+  quang-lien: {polity: '?', basis: 'frus: no role'}
   quie-albert-h: {polity: us, basis: 'opp III.D'}
   quigley-james-m: {polity: us, basis: roster}
   quill-michael-j: {polity: us, basis: 'kjc III.K'}
@@ -2500,7 +2500,7 @@ names:
   reuther-victor-g: {polity: us, basis: 'kjc III.K'}
   reuther-walter: {polity: us, basis: 'kjc III.I'}
   revercomb-chapman: {polity: us, basis: 'kjc III.K'}
-  rey-jean: {polity: eec, basis: 'frus: belgium frus1958-60v07p1, eec frus1961-63v07-09mSupp, us frus1969-76v03', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  rey-jean: {polity: eec, basis: 'frus frus1961-63v07-09mSupp: European Economic Community Commissioner for External Relati'}
   reynaud-paul: {polity: fr, basis: 'frus frus1951v04p1: former Prime Minister of France; Delegate to the Consultativ'}
   reynolds-don-b: {polity: us, basis: 'kjc III.K'}
   reynolds-james-j: {polity: us, basis: roster}
@@ -2531,7 +2531,7 @@ names:
   rives-richard-t: {polity: us, basis: 'kjc III.K'}
   rivlin-alice-m: {polity: us, basis: roster}
   rizzo-frank-l: {polity: us, basis: 'kjc III.K'}
-  roa-y-garcia-raul: {polity: oas, basis: 'frus: oas frus1958-60v05, cuba frus1969-76ve01', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  roa-y-garcia-raul: {polity: cuba, basis: 'frus frus1958-60v05: Cuban Representative to the Organization of American States '}
   robb-lynda-bird-johnson: {polity: us, basis: 'l68 III.Q'}
   roberts-alton-wayne: {polity: us, basis: 'kjc III.K'}
   roberts-chalmers-m: {polity: us, basis: 'kjc III.J'}
@@ -2552,8 +2552,8 @@ names:
   roche-james-m: {polity: us, basis: 'kjc III.K'}
   roche-john-p: {polity: us, basis: 'l68 III.A'}
   rock-robert-l: {polity: us, basis: 'kjc III.F'}
-  rockefeller-david: {polity: us, basis: 'frus frus1964-68v31: President and Chairman of the Executive Committee of Chase M'}
-  rockefeller-john-d: {polity: us, basis: 'frus frus1964-68v34: III, Chairman of the Rockefeller Foundation; Chairman of the'}
+  rockefeller-david: {polity: us, basis: 'frus frus1969-76v37: Chairman of Chase Manhattan Bank and Chairman of the Foreign'}
+  rockefeller-john-d: {polity: '?', basis: 'frus: no role'}
   rockefeller-john-d-iv: {polity: us, basis: 'kjc III.K'}
   rockefeller-laurance-s: {polity: us, basis: 'kjc III.K'}
   rockefeller-margaretta-fitler: {polity: us, basis: 'kjc III.K'}
@@ -2565,7 +2565,7 @@ names:
   rogers-paul-g: {polity: us, basis: congress}
   rogers-william-p: {polity: us, basis: 'opp III.E'}
   rolvaag-karl-f: {polity: us, basis: 'kjc III.F'}
-  rolz-bennett-jose: {polity: us, basis: 'frus: cyprus frus1964-68v16, us frus1964-68v02', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  rolz-bennett-jose: {polity: us, basis: 'frus frus1964-68v02: United Nations Under Secretary for Special Political Affairs'}
   romanovsky-s-k: {polity: ussr, basis: 'kja III.J: Deputy Chairman, Soviet Committee for Cultural Relations with Foreign '}
   romans-jack: {polity: us, basis: 'kjc III.K'}
   romney-george-w: {polity: us, basis: 'opp III.H'}
@@ -2629,7 +2629,7 @@ names:
   samuelson-don: {polity: us, basis: 'kjc III.F'}
   samuelson-paul-a: {polity: us, basis: 'kja III.H'}
   san-roman-jose-perez: {polity: cuba, basis: 'frus frus1961-63v10-12mSupp: Commander of the Cuban Expeditionary Force Brigade'}
-  sanchez-hernandez-fidel: {polity: us, basis: 'kjc III.K'}
+  sanchez-hernandez-fidel: {polity: el-salvador, basis: 'kjc III.K: President of El Salvador, 1967–72; host of the meeting of the Central ', doubtful: 'a foreign role in an American section'}
   sanders-carl-e: {polity: us, basis: 'kjc III.K'}
   sanders-h-barefoot-jr: {polity: us, basis: roster}
   sandman-charles-w-jr: {polity: us, basis: 'wg III.G'}
@@ -2651,7 +2651,7 @@ names:
   schaub-william-f: {polity: us, basis: roster}
   scherle-william-j: {polity: us, basis: congress}
   scheuer-james-h: {polity: us, basis: congress}
-  schiller-karl: {polity: frg, basis: 'frus: frg frus1964-68v08, us frus1969-76v40', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  schiller-karl: {polity: frg, basis: 'frus frus1964-68v08: West German Economic Minister from December 1, 1966'}
   schiro-victor-h: {polity: us, basis: 'kjc III.F'}
   schirra-walter-m-jr: {polity: us, basis: 'kja III.F'}
   schlafly-phyllis: {polity: us, basis: 'opp III.F'}
@@ -2671,7 +2671,7 @@ names:
   schwartz-abba-p: {polity: us, basis: roster}
   schwarz-fred: {polity: australia, basis: 'kjc III.K: Australian physician; Christian Anti-Communism Crusade', doubtful: 'a foreign role in an American section'}
   schweiker-richard-s: {polity: us, basis: congress}
-  schweitzer-pierre-paul: {polity: us, basis: 'frus frus1961-63v07-09mSupp: Managing Director of the International Monetary Fund from Se'}
+  schweitzer-pierre-paul: {polity: imf, basis: 'frus frus1961-63v07-09mSupp: Managing Director of the International Monetary Fund from Se'}
   schwengel-frederick-d: {polity: us, basis: congress}
   schwerner-michael: {polity: us, basis: 'kjc III.K'}
   scott-david-r: {polity: us, basis: 'kjc III.K'}
@@ -2691,7 +2691,7 @@ names:
   seawell-malcolm-b: {polity: us, basis: 'kjc III.K'}
   sebelius-keith-g: {polity: us, basis: congress}
   sedita-frank-a: {polity: us, basis: 'kjc III.F'}
-  sedov-boris: {polity: ussr, basis: 'frus frus1969-76v12: Second Secretary of the Embassy of the USSR'}
+  sedov-boris: {polity: us, basis: 'frus frus1969-76v12: Second Secretary of the Embassy of the USSR'}
   see-elliot-m-jr: {polity: us, basis: 'kjc III.K'}
   seidman-harold: {polity: us, basis: roster}
   seigenthaler-john: {polity: us, basis: 'kja III.I'}
@@ -2710,7 +2710,6 @@ names:
   sharif-emami-jafar: {polity: iran, basis: 'kja III.J: Prime Minister of Iran, 1960–61'}
   sharp-mitchell-w: {polity: canada, basis: 'frus frus1955-57v09: Canadian Assistant Deputy Minister for Trade and Commerce'}
   sharp-u-s-grant: {polity: us, basis: 'kja III.F'}
-  sharp-u-s-grant-jr: {polity: '?', basis: 'no role found'}
   shastri-lal-bahadur: {polity: india, basis: 'kja III.J: Prime Minister of India, 1964–66'}
   shaw-clay: {polity: us, basis: 'kjc III.K'}
   shaw-john: {polity: us, basis: 'kjc III.K'}
@@ -2781,7 +2780,7 @@ names:
   smylie-robert-e: {polity: us, basis: 'kjc III.F'}
   snelling-richard-a: {polity: us, basis: 'kjc III.F'}
   snyder-howard-mcc: {polity: us, basis: roster}
-  somoza-debayle-anastasio: {polity: nicaragua, basis: 'frus: us frus1958-60v05, nicaragua frus1961-63v10', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  somoza-debayle-anastasio: {polity: nicaragua, basis: 'frus frus1958-60v05: Director of the Nicaraguan National Guard and Chief of the A'}
   somsanith: {polity: laos, basis: 'vn III.I: Prince; Prime Minister of Laos, June–Aug. 1960'}
   son-sann: {polity: cambodia, basis: 'frus frus1952-54v16: former Deputy Prime Minister and Vice President of the Cambo'}
   sorensen-a-v: {polity: us, basis: 'kjc III.F'}
@@ -2836,7 +2835,7 @@ names:
   stratton-samuel-s: {polity: us, basis: 'kjc III.K'}
   stratton-william-g: {polity: us, basis: 'kjc III.F'}
   straub-robert-w: {polity: us, basis: 'kjc III.K'}
-  strauss-franz-josef: {polity: frg, basis: 'frus: frg frus1952-54v05p1, us frus1969-76v16', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  strauss-franz-josef: {polity: frg, basis: 'frus frus1952-54v05p1: Christian Socialist Union member of the Bundestag and, from '}
   strauss-lewis-l: {polity: us, basis: roster}
   strong-robert-c: {polity: us, basis: roster}
   studds-gerry-e: {polity: us, basis: congress}
@@ -2876,7 +2875,7 @@ names:
   talbot-phillips: {polity: us, basis: 'kja III.E'}
   talmadge-herman-e: {polity: us, basis: 'wg III.F'}
   tam-chau: {polity: rvn, basis: 'vn III.G: Thích Tâm Châu, Buddhist monk; a leader of the Unified Buddhist Church'}
-  tanaka-kakeui: {polity: japan, basis: 'frus: japan frus1964-68v29p2, us frus1969-76v19p2', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  tanaka-kakeui: {polity: japan, basis: 'frus frus1964-68v29p2: Japanese Minister of Finance from July 18, 1962 to June 3, 1'}
   tanzler-hans-g-jr: {polity: us, basis: 'kjc III.F'}
   tate-james-h-j: {polity: us, basis: 'kjc III.K'}
   tawes-j-millard: {polity: us, basis: 'kjc III.F'}
@@ -2884,7 +2883,6 @@ names:
   taylor-h-ralph: {polity: us, basis: roster}
   taylor-hobart-jr: {polity: us, basis: roster}
   taylor-maxwell: {polity: us, basis: 'l68 III.F'}
-  taylor-maxwell-d: {polity: us, basis: 'kja III.F'}
   taylor-roy-a: {polity: us, basis: 'kjc III.D'}
   teague-charles-m: {polity: us, basis: congress}
   teague-olin-e: {polity: us, basis: 'kjc III.D'}
@@ -2908,7 +2906,6 @@ names:
   thompson-hugh-jr: {polity: us, basis: 'vn III.D'}
   thompson-llewellyn-e: {polity: us, basis: 'kja III.E'}
   thompson-robert: {polity: uk, basis: 'vn III.I: Head of the British Advisory Mission to Vietnam, 1961–65'}
-  thompson-robert-g-k: {polity: '?', basis: 'no role found'}
   thompson-theo-a: {polity: us, basis: 'kjc III.D'}
   thomson-george-m: {polity: uk, basis: 'frus frus1964-68v13: British Minister and Representative to the trilateral offset'}
   thomson-james-c-jr: {polity: us, basis: 'vn III.A'}
@@ -2924,7 +2921,7 @@ names:
   tice-merton-b: {polity: us, basis: 'kjc III.K'}
   tiemann-norbert-t: {polity: us, basis: 'opp III.H'}
   tiernan-robert-o: {polity: us, basis: congress}
-  tijerina-reies-lopez: {polity: mexico, basis: 'kjc III.K: Founder of the Alianza Federal de Mercedes, New Mexico; the Tierra Ama', doubtful: 'a foreign role in an American section'}
+  tijerina-reies-lopez: {polity: us, basis: 'kjc III.K'}
   tippit-j-d: {polity: us, basis: 'kjc III.K'}
   tito-josip-broz: {polity: yugoslavia, basis: 'kja III.J: President of Yugoslavia'}
   titov-gherman: {polity: ussr, basis: 'kja III.J: Soviet cosmonaut; a day in orbit, Aug. 6–7, 1961'}
@@ -2939,15 +2936,15 @@ names:
   toure-ahmed-sekou: {polity: guinea, basis: 'kja III.J: President of Guinea'}
   tower-john-g: {polity: us, basis: 'kjc III.E'}
   tran-buu-kiem: {polity: nlf, basis: 'frus frus1964-68v06: Member, National Liberation Front delegation to the Paris pe'}
-  tran-chanh-thanh: {polity: rvn, basis: 'frus: us frus1958-60v01, rvn frus1964-68v06', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  tran-chanh-thanh: {polity: rvn, basis: 'frus frus1958-60v01: Secretary of State for Information, Republic of Vietnam'}
   tran-kim-tuyen: {polity: rvn, basis: 'vn III.G: Head of the Office of Political and Social Studies, Diệm''s intelligenc'}
   tran-le-xuan: {polity: rvn, basis: 'vn III.G: Nhu''s wife; official hostess for Diệm'}
   tran-thien-khiem: {polity: rvn, basis: 'vn III.G: General; in the triumvirate of Aug. 27, 1964; Ambassador to Washington'}
-  tran-van-chuong: {polity: rvn, basis: 'frus: rvn frus1952-54v16, us frus1961-63v01', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
-  tran-van-do: {polity: rvn, basis: 'frus: rvn frus1952-54v13p1, us frus1969-76v42', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  tran-van-chuong: {polity: rvn, basis: 'frus frus1952-54v16: Minister of State for the State of Vietnam after June 1954; '}
+  tran-van-do: {polity: rvn, basis: 'frus frus1952-54v13p1: Minister of Foreign Affairs of the State of Vietnam from Jun'}
   tran-van-don: {polity: rvn, basis: 'vn III.G: General; a leader of the November 1963 coup'}
   tran-van-huong: {polity: rvn, basis: 'vn III.G: Prime minister, 1964–65, 1968–69; President, Apr. 21–28, 1975'}
-  tran-van-tuyen: {polity: us, basis: 'frus: rvn frus1952-54v16, us frus1964-68v02', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  tran-van-tuyen: {polity: rvn, basis: 'frus frus1952-54v16: Counselor to the Delegation of the State of Vietnam at the G'}
   tran-van-van: {polity: rvn, basis: 'vn III.G: Signer of the Caravelle petition, 1960; assassinated in Saigon, Dec. 1'}
   travia-anthony-j: {polity: us, basis: 'kjc III.K'}
   travis-brenda: {polity: us, basis: 'kjc III.K'}
@@ -2961,7 +2958,7 @@ names:
   trowbridge-alexander-b: {polity: us, basis: roster}
   trued-merlyn-n: {polity: us, basis: roster}
   trueheart-william-c: {polity: us, basis: 'vn III.C'}
-  trujillo-arismendi: {polity: us, basis: 'frus frus1961-63v12: brother of Generalissimo Rafael Trujillo'}
+  trujillo-arismendi: {polity: '?', basis: 'frus: no role'}
   trujillo-molina-hector-b: {polity: dominican-republic, basis: 'frus frus1952-54v04: Generalissimo, President of the Dominican Republic after Aug'}
   trujillo-rafael: {polity: dominican-republic, basis: 'kja III.J: Dictator of the Dominican Republic'}
   truman-harry-s: {polity: us, basis: 'kjc III.K'}
@@ -2969,7 +2966,7 @@ names:
   truong-dinh-dzu: {polity: rvn, basis: 'frus frus1964-68v05: South Vietnamese presidential candidate'}
   tsarapkin-semen-k: {polity: ussr, basis: 'kja III.J: Soviet delegate to the Geneva conference on a test ban, 1958–62'}
   tshombe-moise: {polity: congo, basis: 'kja III.J: President of Katanga'}
-  tubman-william-v-s: {polity: us, basis: 'frus frus1951v05: President of Liberia'}
+  tubman-william-v-s: {polity: liberia, basis: 'frus frus1951v05: President of Liberia'}
   tuck-william-m: {polity: us, basis: 'kjc III.D'}
   tucker-raymond-r: {polity: us, basis: 'kjc III.F'}
   tunney-john-v: {polity: us, basis: 'cong III.B'}
@@ -2985,7 +2982,7 @@ names:
   u-thant: {polity: un, basis: 'kja III.J: UN Secretary-General, acting from Nov. 1961; 1962–71'}
   udall-morris-k: {polity: us, basis: 'kjc III.D'}
   udall-stewart-l: {polity: us, basis: 'kja III.G'}
-  ulbricht-walter: {polity: gdr, basis: 'frus: gdr frus1951v03p1, us frus1958-60v08', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  ulbricht-walter: {polity: gdr, basis: 'frus frus1951v03p1: Deputy Minister President of the German Democratic Republic;'}
   ullman-albert-c: {polity: us, basis: congress}
   underwood-cecil-h: {polity: us, basis: 'kjc III.F'}
   ung-van-khiem: {polity: drv, basis: 'vn III.H: Foreign Minister of the Democratic Republic of Vietnam, 1961–63'}
@@ -3008,9 +3005,9 @@ names:
   vang-pao: {polity: laos, basis: 'vn III.I: General; commander of the CIA''s Hmong army in Laos'}
   vanik-charles-a: {polity: us, basis: congress}
   vann-john-paul: {polity: us, basis: 'vn III.C'}
-  varona-manuel-antonio-de: {polity: us, basis: 'frus frus1958-60v06: Coordinator of Frente Revolucionario Democratico'}
+  varona-manuel-antonio-de: {polity: '?', basis: 'frus: no role'}
   vaughn-jack-h: {polity: us, basis: 'kja III.E'}
-  velasco-alvarado-juan: {polity: peru, basis: 'frus: peru frus1964-68v31, us frus1969-76v21', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  velasco-alvarado-juan: {polity: peru, basis: 'frus frus1964-68v31: Commanding General of the Army and Chief of the Armed Forces'}
   verreos-nick-a: {polity: us, basis: 'kjc III.K'}
   vettel-thelma-e: {polity: us, basis: roster}
   vidal-gore: {polity: us, basis: 'l68 III.O'}
@@ -3019,7 +3016,7 @@ names:
   vinson-carl: {polity: us, basis: 'kjc III.D'}
   vivian-weston-e: {polity: us, basis: congress}
   vo-nguyen-giap: {polity: drv, basis: 'vn III.H: Defense minister and commander of the People''s Army'}
-  vo-van-sung: {polity: us, basis: 'frus: us frus1964-68v04, drv frus1969-76v42', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  vo-van-sung: {polity: drv, basis: 'frus frus1969-76v07: Democratic Republic of Vietnam’s Delegate General in France '}
   volcker-paul-a: {polity: us, basis: 'adm III.G'}
   volpe-john-a: {polity: us, basis: 'opp III.H'}
   von-braun-wernher: {polity: us, basis: 'kjc III.K'}
@@ -3034,7 +3031,7 @@ names:
   walinsky-adam: {polity: us, basis: 'l68 III.K'}
   walker-daniel: {polity: us, basis: 'kjc III.K'}
   walker-e-s-johnny: {polity: us, basis: congress}
-  walker-edwin-a: {polity: frg, basis: 'kja III.F: Commander, 24th Infantry Division, Germany', doubtful: 'a foreign role in an American section'}
+  walker-edwin-a: {polity: us, basis: 'kja III.F'}
   walker-prentiss-l: {polity: us, basis: 'opp III.D'}
   wallace-george-c: {polity: us, basis: 'kjc III.F'}
   wallace-lurleen-b: {polity: us, basis: 'kjc III.K'}
@@ -3047,8 +3044,8 @@ names:
   walter-francis-e: {polity: us, basis: 'kjc III.D'}
   walton-william: {polity: us, basis: 'kjc III.K'}
   waner-john-l: {polity: us, basis: 'kjc III.K'}
-  wang-kuo-chuan: {polity: roc, basis: 'frus frus1964-68v30: Ambassador of the People’s Republic of China to Poland; repr'}
-  wang-ping-nan: {polity: roc, basis: 'frus frus1952-54v14p1: Director of the Foreign Ministry Staff Office, People’s Repu'}
+  wang-kuo-chuan: {polity: prc, basis: 'frus frus1964-68v30: Ambassador of the People’s Republic of China to Poland; repr'}
+  wang-ping-nan: {polity: prc, basis: 'frus frus1952-54v14p1: Director of the Foreign Ministry Staff Office, People’s Repu'}
   warburton-herbert-b: {polity: us, basis: roster}
   ward-daniel-p: {polity: us, basis: 'kjc III.K'}
   ward-henry: {polity: us, basis: 'kjc III.K'}
@@ -3082,8 +3079,7 @@ names:
   west-ben: {polity: us, basis: 'kjc III.K'}
   west-e-gordon: {polity: us, basis: 'kjc III.K'}
   westmoreland-william: {polity: us, basis: 'l68 III.G'}
-  westmoreland-william-c: {polity: us, basis: 'kja III.F'}
-  westrick-ludger: {polity: frg, basis: 'frus: frg frus1951v03p1, us frus1961-63v15', doubtful: 'the volumes'' descriptions differ: dated ranges wanted'}
+  westrick-ludger: {polity: frg, basis: 'frus frus1951v03p1: State Secretary, Ministry of Economics, Federal Republic of '}
   weyand-frederick-c: {polity: us, basis: 'vn III.D'}
   whalen-charles-w-jr: {polity: us, basis: congress}
   whalen-richard-j: {polity: us, basis: 'l68 III.M'}
@@ -3154,7 +3150,7 @@ names:
   wood-chalmers-b: {polity: us, basis: roster}
   wood-john-q: {polity: us, basis: 'kjc III.K'}
   wood-robert-c: {polity: us, basis: 'kja III.G'}
-  woods-george-d: {polity: '?', basis: 'kja III.J: President of the World Bank, 1963–68'}
+  woods-george-d: {polity: imf, basis: 'kja III.J: President of the World Bank, 1963–68'}
   woods-rose-mary: {polity: us, basis: 'adm III.A'}
   woods-stanley-c: {polity: us, basis: 'kjc III.F'}
   woodward-gilbert-h: {polity: us, basis: 'frus frus1964-68v29p1: USA, Senior Member of the Military Armistice Commission, Uni'}
@@ -3179,7 +3175,6 @@ names:
   york-herbert-f: {polity: us, basis: roster}
   yorty-sam: {polity: us, basis: 'kjc III.F'}
   yost-charles-w: {polity: us, basis: 'kja III.E'}
-  young-andrew: {polity: '?', basis: 'no role found'}
   young-andrew-j-jr: {polity: us, basis: 'cong III.E'}
   young-charles: {polity: us, basis: 'kjc III.K'}
   young-john-w: {polity: us, basis: 'kjc III.K'}
@@ -3194,7 +3189,7 @@ names:
   zakharov-matvei-vasileevich: {polity: ussr, basis: 'frus frus1958-60v09: Group of Soviet Forces in Germany'}
   zaretzki-joseph: {polity: us, basis: 'kjc III.K'}
   zellner-bob: {polity: us, basis: 'kjc III.K'}
-  zhou-enlai: {polity: roc, basis: 'adm III.J: Premier'}
+  zhou-enlai: {polity: prc, basis: 'adm III.J: Premier'}
   zhukov-georgi-a: {polity: ussr, basis: 'frus frus1958-60v10p1: Chairman of the Soviet State Committee for Cultural Relation'}
   zorin-valentin-a: {polity: ussr, basis: 'frus frus1955-57v11: Soviet Deputy Minister of Foreign Affairs until 1955 and fro'}
   zorin-valerian: {polity: ussr, basis: 'kja III.J: Soviet Permanent Representative to the UN'}

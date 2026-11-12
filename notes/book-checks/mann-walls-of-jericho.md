@@ -68,6 +68,32 @@ Events the book treats that another pending patch adds. The merger adds the pinp
 
 ## Passed over
 
+**Batch 9 (Nov. 11-12, 2026): the 'already in' rows read against the calendar** (`inbox/2026-11-12-b9-mann-walls.yaml`, 2 cites). Same copy, same offsets; pp. 260, 265-67, 281-83, 287-88, 297-307, 312-16, 320-37, 344-45, 478-91 read off the text, p. 488 off the page image. Batch 7's patch (`inbox/merged/2026-11-10-b7-mann.yaml`) and the older cites already hold nearly every event of these rows, so the rows are ruled "already cited":
+
+| Row | Ruling |
+|---|---|
+| 260 | already cited: `cal.1960-04-08.voting-rights`, `cal.1960-04-21.voting-rights`, `cal.1960-05-06.voting-rights` |
+| 265-67 | already cited: `cal.1960-04-05.elections-1960`, `cal.1960-05-10.elections-1960`, `-2`, b7's three adds |
+| 276-78 | already cited (b7): the `cal.1960-07-14` entries |
+| 281-87 | already cited: `cal.1960-10-10`, `-10-19.king`, `-10-25.king`, `-10-26`, `-10-27`, `-10-28`, `-11-04.elections-1960` (the Adolphus) and b7's adds |
+| 297-307 | already cited: `cal.1961-01-04.jobs-and-wages`, `-03-15`, `-03-29`, `-01-20`, `-03-06` (Order 10925), `-05.civil-rights-the-executive-2` (Lockheed, Marietta), `-05-06.robert-kennedy` (Georgia), `-02-10.democratic-party` (the ADA); the New Orleans suits (307) and the black appointees (305-06) are undated |
+| 312-15 | already cited: `cal.1961-05-21.freedom-rides`, `-05-25.space`, `cal.1961-09-19.rules`; the Commission's extension (315) is undated ("by year's end") |
+| 320-25 | already cited: `cal.1962-03-27`, `-08-27`, `-05-09` (Check: the day), `-05-14` |
+| 328-32 | already cited: the `cal.1962-09-20` to `-10-01` Mississippi entries |
+| 335-37 | already cited: `cal.1962-11-20.civil-rights-the-executive`, `cal.1963-02-12` |
+| 344-50 | already cited: `cal.1963-04-03.alabama` and b7's Birmingham cites and adds |
+| 357 | covering note to the speech (already in, `cal.1963-05-30.civil-rights-the-executive`, cited 356-58) |
+| 442 | already cited: `cal.1964-11-03.elections-1964` |
+| 478-80 | already cited: `cal.1965-06-04`, `-08-11`, `-08-13`, `-08-15`, `-08-18`, `-08-20` |
+| 481 | already cited: `cal.1966-08-09`, `-09-14`, `-09-19`, `-11-08` |
+| 482-85 | already cited: `cal.1966-03-07`, `-03-24`, `-06-13`, `cal.1967-06-13`, `cal.1965-02-05`, `-02-10.vietnam` (Check), `-09-22`; Roosevelt's EEOC chairmanship and resignation (485-86) undated |
+| 486 | already cited: `cal.1966-02-10.vietnam` |
+| 487-91 | already cited except two: cited here, `cal.1968-03-16.robert-kennedy-campaign-2` (Kennedy's announcement, "four days later", `?`) and `cal.1968-03-31.elections-1968-humphrey` (Humphrey weeps at the embassy radio, `?`); the rest by b7 |
+
+Left for the lead: `cal.1960-05-10.elections-1960-2` maps Mann 267 as `all`, though its parenthetical says "not the place" (Charleston): the row should read `?`. Leads: Jim Rowe, "the day Kennedy announced" (488, undated); Roosevelt Jr.'s resignation from the EEOC, spring 1966 (486).
+
+Where batch 9 stopped: all 17 rows ruled; nothing left.
+
 Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, social, a covering note or below the level, in "Batch 6" at the end of this file.
 
 Page | date | event | why. "Already in" names the entry that holds it (pinned in this patch unless said).

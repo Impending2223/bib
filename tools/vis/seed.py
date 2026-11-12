@@ -64,6 +64,8 @@ POLITIES = {
     "un": {"name": "United Nations", "tag": "UN", "org": True}, "nato": {"name": "NATO", "tag": "NATO", "org": True},
     "oas": {"name": "Organization of American States", "tag": "OAS", "org": True},
     "eec": {"name": "European Economic Community", "tag": "EEC", "org": True},
+    "oecd": {"name": "OEEC and OECD", "tag": "OECD", "org": True},
+    "imf": {"name": "the IMF and the World Bank", "tag": "IMF", "org": True},
 }
 OTHER_NAMES = {"israel": "Israel", "india": "India", "pakistan": "Pakistan", "japan": "Japan", "canada": "Canada",
                "italy": "Italy", "poland": "Poland"}
@@ -443,8 +445,8 @@ def person_row(key, p3, ranks, frus):
         return {"polity": p, "basis": f"{l} {c}: {r[:70]}" if r else f"{l} {c}"}
     if p3:
         for l, c, r, t in p3:
-            p = vis_words.role_polity(r, None)
-            if p and p != "us" and not re.search(r"\bAmerican\b|\bU\.S\.|United States", r):
+            p = vis_words.role_polity(r, "us", strict=True)
+            if p and p != "us":
                 return {"polity": p, "basis": f"{l} {c}: {r[:70]}", "doubtful": "a foreign role in an American section"}
         l, c, r, t = p3[0]
         return {"polity": "us", "basis": f"{l} {c}"}
@@ -453,14 +455,15 @@ def person_row(key, p3, ranks, frus):
     if frus:
         by = []
         for vol, r in frus:
-            p = vis_words.role_polity(r, "us" if r.strip() else None)
+            p = vis_words.role_polity(r, None)
             if p:
                 by.append((vol_years(vol) or (0, 0), p, vol, r))
         if not by:
             return {"polity": "?", "basis": "frus: no role"}
         ps = collections.Counter(p for _, p, _, _ in by)
-        if len(ps) == 1:
-            (_, p, vol, r) = by[0]
+        if len(ps) == 1 or ps.most_common(1)[0][1] >= 0.75 * len(by):
+            p = ps.most_common(1)[0][0]
+            (_, _, vol, r) = next(x for x in by if x[1] == p)
             return {"polity": p, "basis": f"frus {vol}: {r[:60]}"}
         # a change between volumes (STYLE 1): the ranges by the volumes' years, marked doubtful
         by.sort()
@@ -541,7 +544,7 @@ def parties(docs, names_pol, surnames):
 
     def side_polities(text):
         ps = set()
-        for part in re.split(r"\band\b|,", text):
+        for part in [text]:
             p = vis_words.role_polity(part, None)
             if p and p != "us":
                 ps.add(p)
@@ -569,7 +572,7 @@ def parties(docs, names_pol, surnames):
                 for line in re.split(r"[;\n]", seg):
                     if line.strip():
                         ps |= side_polities(line)
-            ps = {p for p in ps if p not in ("un", "nato", "oas", "eec")}
+            ps = {p for p in ps if not POLITIES.get(p, {}).get("org")}
             if ps:
                 out[k] = ["us"] + sorted(ps)
     return out
@@ -633,7 +636,7 @@ def work_row(series, cid, everyone_idx):
             basis.append("its title")
     if kind in ("memoir", "diary", "oral history") and not agent and f.get("author"):
         a = f["author"][0]
-        k = everyone_idx.get((store.fold(works.surname(a)), store.fold(a.split()[0])[:1]))
+        k = everyone_idx.get((store.fold(works.surname(a)).lower(), store.fold(a.split()[0]).lower()[:1]))
         if k:
             agent = k
     kind = kind or "scholarship"
@@ -693,10 +696,17 @@ def main(dry, refresh):
     # persons
     everyone = lives.everyone(series)
     by_key = {lives.key_of(p["name"]): p for p in everyone}
+    for p in everyone:                           # a tag may name a person by another of his forms ('colby-william')
+        for n in p["names"]:
+            by_key.setdefault(lives.key_of(n), p)
+    for fk, sk in lives._CACHE.get("frus-alias", {}).items():   # a FRUS list's key for a person the series holds
+        if sk in by_key:
+            by_key.setdefault(fk, by_key[sk])
     everyone_idx = {}
-    for k, p in by_key.items():
-        ki = (store.fold(p["sur"]), store.fold(p["given"])[:1])
-        everyone_idx[ki] = k if ki not in everyone_idx else None
+    for p in everyone:
+        k = lives.key_of(p["name"])
+        ki = (store.fold(p["sur"]).lower(), store.fold(p["given"]).lower()[:1])
+        everyone_idx[ki] = k if ki not in everyone_idx or everyone_idx[ki] == k else None
     everyone_idx = {k: v for k, v in everyone_idx.items() if v}
     p3 = part3(series)
     tagged = collections.Counter()
@@ -708,12 +718,23 @@ def main(dry, refresh):
                         tagged[str(t)[5:]] += 1
     cards = cited_cards(series)
     wrows = {cid: work_row(series, cid, everyone_idx) for cid in sorted(cards) if series.works.get(cid)}
+    for r in wrows.values():                     # a memoir's subject as its listing writes it: the person's own key
+        if r.get("agent"):
+            p = by_key.get(r["agent"])
+            if p is None:
+                parts = r["agent"].split("-")
+                p = by_key.get(everyone_idx.get((parts[0], parts[1][:1])) if len(parts) > 1 else None)
+            if p is not None:
+                r["agent"] = lives.key_of(p["name"])
     agents = {r["agent"] for r in wrows.values() if r.get("agent")}
     names = {}
     for k in sorted(set(tagged) | agents):
+        if k not in tagged and k not in by_key:
+            continue
         p = by_key.get(k)
         ranks = p["ranks"] if p else set()
-        names[k] = person_row(k, p3.get(k, []), ranks, frus_roles(k))
+        pk = lives.key_of(p["name"]) if p else k
+        names[k] = person_row(k, p3.get(k) or p3.get(pk, []), ranks, frus_roles(k) or frus_roles(pk))
     names = merged(old_pol.get("names"), names, refresh)
 
     # places: the gazetteer's countries, and the hand rows
