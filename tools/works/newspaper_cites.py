@@ -28,7 +28,7 @@ STYLE
    (NYT, WP, LAT, NYT Magazine, NY Herald Tribune) are written out. Branch's other keys (SC, STJ, MCA, MS, CST, DT-H)
    are left as they stand (reported): his key is not read here.
 2. The *New York Times* by a single day, not linked, is linked to TimesMachine's issue of that day (nyt_links.TM),
-   the title and date the link's text, as nyt_links.py does; not a day of the strike (daybook.NO_TIMES), a range of
+   the title and date the link's text, as nyt_links.py does; not a range of
    days, or a date that is not a day; not inside a link's text; never the *New York Times Magazine*.
 3. A pinpoint after a cite's date is written ", at X" (Bluebook 16.6: "N.Y. Times, Feb. 7, 1960, at E1"): "14",
    "p. 14", "pp. 1, 3", "A1", "B-1", "14A", "28ff" as written, "p." and "pp." dropped. One the pattern cannot read
@@ -76,7 +76,7 @@ from nyt_links import TM, MON  # noqa: E402
 from bib import claims  # noqa: E402
 
 REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
-NO_TIMES = (datetime.date(1962, 12, 8), datetime.date(1963, 3, 31))  # daybook.NO_TIMES
+# The strike of Dec. 8, 1962–Mar. 31, 1963: the Western Edition went on; its days are linked (the owner, Nov. 12, 2026).
 
 # Newspapers and magazines the notes cite, as they write them (STYLE 1). Built from `--titles`.
 TITLES = """
@@ -338,7 +338,7 @@ class Item:
 
 
 def nyt_url(day):
-    if day.day is None or NO_TIMES[0] <= day.day <= NO_TIMES[1]:
+    if day.day is None:
         return None
     return TM.format(y=day.day.year, m=day.day.month, d=day.day.day)
 

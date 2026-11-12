@@ -19,7 +19,8 @@ that open that day, and the day's materials in two lists that open and close, th
 
 STYLE:
  1. Day: "Monday, Apr. 17", bold sans; "New York Times" under it, muted, linked to that day's paper
-    (by date only); during the newspaper strike, "No New York Times (strike)".
+    (by date only); during the newspaper strike of Dec. 8, 1962–Mar. 31, 1963 too, the Western Edition having
+    gone on (the owner, Nov. 12, 2026).
  2. Entry: the thread as a rubric on its own line above the first line, muted small capitals in sans, each thread's
     name linked to its entry in the thread index at the top, in the rubric's own color, unmarked but on hover;
     other threads after a middle dot; a range or a month-only date after a comma ("Cuba, Apr.
@@ -105,8 +106,6 @@ MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "
 MON_RE = {m.rstrip("."): i + 1 for i, m in enumerate(MON)}
 MON_RE["Sept"] = 9
 TM = "https://timesmachine.nytimes.com/timesmachine/{y}/{m:02d}/{d:02d}/issue.html"
-# No New York Times was published during the New York newspaper strike.
-NO_TIMES = (datetime.date(1962, 12, 8), datetime.date(1963, 3, 31))
 
 _cache = {}
 
@@ -497,10 +496,7 @@ def section_days(lst, sec, entry_li, thread_name):
                        f'{f" of {y}" if y != d.year else ""}</{wtag}>')
         h = [f'<div class="day{" sun" if d.weekday() == 6 else ""}" id="d{iso}"><div class="dh" role="heading" aria-level="4">'
              f'<span class="dn">{calendar.day_name[d.weekday()]}, {esc(day_label(d, d.year != lo.year))}</span>']
-        if NO_TIMES[0] <= d <= NO_TIMES[1]:
-            h.append('<span class="tm">No <i>New York Times</i> (strike)</span>')
-        else:
-            h.append(f'<a class="tm" href="{TM.format(y=d.year, m=d.month, d=d.day)}"><i>New York Times</i></a>')
+        h.append(f'<a class="tm" href="{TM.format(y=d.year, m=d.month, d=d.day)}"><i>New York Times</i></a>')
         tv = sorted(programs().get(iso, []), key=lambda r: r["show"] != "Face the Nation")
         if tv:                               # the day's programs on one line, Face the Nation first
             h.append('<span class="tv">' + "; ".join(program_html(r) for r in tv) + "</span>")
