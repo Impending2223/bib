@@ -1017,18 +1017,17 @@ entries:
     when: June 6
     date: '1964-06-06'
     thread: elections-1964-scranton
-    also: [republican-party, goldwater]
+    also: [goldwater]
     follows:
       - cal.1964-06-06.republican-party
-    c: 'Cleveland. George Humphrey, Eisenhower''s host for the conference, telephones him at Gettysburg at night: not to deepen the party''s divisions. White argues with Truax, Keisling and Murphy in Scranton''s suite, the Sheraton-Cleveland, till near 6 a.m., by White''s account: too late to stop Goldwater; let Scranton not attack him on *Face the Nation*. White''s rumor that day: Rhodes for second place.'
-    n: '[[w.white-suite-3505]], 362–63 (Humphrey''s call; the argument in the suite); [[w.novak-agony-of-the-g]], 422–23 (the argument at the Sheraton-Cleveland: too late to stop Goldwater; *Face the Nation*; the Rhodes rumor); [[w.novak-agony-of-the-g]], 424–25 (at the asking of Goldwater''s men in Cleveland; Humphrey''s call Saturday night; Eisenhower to Scranton the next morning: no "cabal"). Check: the hour; Novak: Saturday night to three in the morning (422). That night, after Gettysburg: [[cal.1964-06-06.republican-party]]. See [[cal.1964-06-06.republican-party]]. Names: George Humphrey, Eisenhower, White, Scranton, Rhodes.'
+    c: 'Cleveland. White argues with Truax, Keisling and Murphy in Scranton''s suite, the Sheraton-Cleveland, till near 6 a.m., by White''s account: too late to stop Goldwater; let Scranton not attack him on *Face the Nation*. White''s rumor that day: Rhodes for second place.'
+    n: '[[w.white-suite-3505]], 362–63 (the argument in the suite); [[w.novak-agony-of-the-g]], 422–23 (the argument at the Sheraton-Cleveland: too late to stop Goldwater; *Face the Nation*; the Rhodes rumor). Check: the hour; Novak: Saturday night to three in the morning (422). That night, after Gettysburg: [[cal.1964-06-06.republican-party]]. See [[cal.1964-06-06.republican-party]]. Names: White, Scranton, Goldwater, Rhodes.'
     src:
-      c: b6a01b42
+      c: dace9d70
       rows:
-        - 'w.white-suite-3505 362–63: A-C'
-        - 'w.novak-agony-of-the-g 422–23: A, C-E'
-        - 'w.novak-agony-of-the-g 424–25: B'
-    tags: [name:humphrey-george-m, name:eisenhower-dwight-d, name:white-f-clifton, state:oh, name:scranton-william-w, name:rhodes-james-a]
+        - 'w.white-suite-3505 362–63: A-B'
+        - 'w.novak-agony-of-the-g 422–23: all'
+    tags: [name:white-f-clifton, state:oh, name:scranton-william-w, name:rhodes-james-a, name:goldwater-barry-m]
     aliases: [cal.1964-06-06.goldwater]
   - id: cal.1964-06-06.vietnam
     when: June 6
@@ -1097,6 +1096,21 @@ entries:
         - 'w.whalen-longest-debate 193: all'
         - 'via x.undated.humphrey-memorandum-on-hr-7152: all'
     tags: [name:russell-richard-b, name:humphrey-hubert-h, name:hickenlooper-bourke-b]
+  - id: cal.1964-06-06.elections-1964-3
+    when: June 6
+    date: '1964-06-06'
+    thread: elections-1964-scranton
+    also: [republican-party]
+    follows:
+      - cal.1964-06-06.republican-party
+    c: 'Cleveland. George Humphrey, Eisenhower''s host for the conference, telephones him at Gettysburg at night: not to deepen the party''s divisions.'
+    n: '[[w.white-suite-3505]], 362–63 (Humphrey''s call); [[w.novak-agony-of-the-g]], 424–25 (at the asking of Goldwater''s men in Cleveland; Humphrey''s call Saturday night; Eisenhower to Scranton the next morning: no "cabal"). That night, after Gettysburg: [[cal.1964-06-06.republican-party]]. See [[cal.1964-06-06.republican-party]]. Names: George Humphrey, Eisenhower.'
+    src:
+      c: bda7342d
+      rows:
+        - 'w.white-suite-3505 362–63: all'
+        - 'w.novak-agony-of-the-g 424–25: B'
+    tags: [name:humphrey-george-m, name:eisenhower-dwight-d, state:oh]
   - id: cal.1964-06-07.opinion
     when: June 7
     date: '1964-06-07'
