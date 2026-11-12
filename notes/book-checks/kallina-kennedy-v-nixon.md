@@ -59,6 +59,22 @@ Logged in `sources/cited-records/kallina-kennedy-v-nixon.yaml`, each tied to its
 
 ## Passed over
 
+**Batch 9: the "already in" rows read against the calendar, Nov. 12, 2026** (group 2 with Drea and Goldberg; patch `inbox/2026-11-12-b9-group-2.yaml`: 12 entries, 28 cites, 3 variants, 3 checks across the three works). The copy: the owner's Drive file, by the Drive connector's download (the public link answers with the sign-in page); printed page = PDF page − 15, checked on pp. 53, 55, 67, 89, 93, 100, 102–03, 128.
+
+| Page | Row | Ruling |
+|---|---|---|
+| 53 | Jan. 2, Kennedy announces | cited under `cal.1960-01-14.elections-1960` ('?': "formally announced his candidacy" Jan. 2, not the speech). The announcement itself, Jan. 2, 1960, is before the span (Jan. 6): not entered (a ledger line claimed and marked not used). |
+| 55 | Jan. 21, Wisconsin and Nebraska | cited under `cal.1960-01-21.elections-1960` ('?'). |
+| 67 | May 10, 17, 20 | cited under `cal.1960-05-10.elections-1960` (D, Nebraska at 89 percent), `cal.1960-05-17.elections-1960` (A, Maryland), `cal.1960-05-20.elections-1960` (A, Oregon); no figures on the page. |
+| 89 | spring, the foreign events | the Rhee overthrow cited under `cal.1960-04-26.japan-and-korea` ('?'); the U-2, Paris, Turkey and the Japan trip are named in a summary with no day or act told: not cited. |
+| 93 | *Conscience of a Conservative* | cited under `cal.1960-04-07.conservative-movement` ('?': "the spring of 1960"). |
+| 100 | Sept. 5, Detroit | cited under `cal.1960-09-05.elections-1960` ('?'). |
+| 102–03 | West Coast trip; speech coaches | speech coaches as before (`cal.1960-09.elections-1960-kennedy-4`); the trip cited under `cal.1960-09-06.elections-1960` ('?': the advance work "atrocious", California a "failure"; the Nov. 6 ruling "not cited" reversed: the page says the trip went badly, though it names no stop or day). |
+| 128 | invasion target dates; Eisenhower holds off | not borne out as "already in": the calendar holds no entry for the plan's target dates (September, then October 1960) or for Eisenhower's refusal to proceed before a government-in-exile. Lead (R50, no day): National, "Kallina": the decision's date, Eisenhower, fall 1960, to look in FRUS 1958–60, VI and Jones, *Bay of Pigs*. |
+
+Where batch 9 stopped: all eight rows done.
+
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, Nov. 10, 2026). The copy: the owner's Drive file (1gOKSo-mP-2XQZ2FU9W9kw5IGd1JVOOAR) is not in the shared folder, so the direct route answers with the sign-in page; fetched instead by the Drive connector's download (its output saved to a file and decoded into the scratchpad), the same publisher's PDF, printed page = PDF page − 15 (checked on pp. 61, 77, 124, 180); the pages cited read off their images at 45 dpi as well as the text. Patch `inbox/2026-11-06-b6-kallina-kennedy-v-nixon.yaml` (22 entries, 2 cites); witnesses `inbox/witnesses/2026-11-06-b6-kallina-kennedy-v-nixon.yaml` (9), edges in the by-work file. The rows that were leads or journalism only are left as they were.
 
 Page | date | event | why. (Not the background before 1960.)

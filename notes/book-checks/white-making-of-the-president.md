@@ -97,6 +97,10 @@ The West Virginia organization (Apr. 6, Apr. 11); Nixon's leak on Rockefeller (M
 
 ## Passed over
 
+Batch 9 (Nov. 11–12, 2026): the "already in" rows read again from the owner's copy (Drive 1kae4kYa_YxKPz_35HKfIYzQQk7B54XU1, the Atheneum 1961 PDF, 19 MB; printed = PDF − 16 held; p. 173 checked on its page image). Patch `inbox/2026-11-12-b9-group-3.yaml` (batch 9, group 3). Rulings: pp. 115–17 (cited under `cal.1960-05-01.soviet-union`, the shooting down, and `cal.1960-05-05.soviet-union`, Khrushchev's announcement; the summit's collapse and the list of May–June events undated, no cite); p. 173 (cited under `cal.1960-07-10.elections-1960-5`, unit B, which had White only as To check, 199; Johnson's answer entered as `cal.1960-07-11.elections-1960-los-angeles-2`); pp. 294–95 (Khrushchev's leaving cited under `cal.1960-10-12.soviet-union`; the third debate already cited; Mazeroski's home run, ruled out of the brief before, entered as `cal.1960-10-13.elections-1960-3` for the Democrats' rule of thumb about the campaign); p. 349 (the Khrushchev note already cited under `cal.1960-11-09.transition-and-staff-3`; now also under `cal.1960-11-09.soviet-union`); pp. 350–86 (the vote analyzed: already cited at 350 under `cal.1960-11-08.elections-1960`, with its Check; the rest analysis, no event); p. 377 (cited under `cal.1960-11-16.program`).
+
+Where batch 9 stopped: all six rows ruled.
+
 Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled private, social, ceremonial or a meeting's preparation, in "Batch 6" at the end of this file.
 
 Under the owner's rulings of Oct. 28 (the papers of government; and, late, the dated stretch, the trip, the private meeting and the event's incidents as entries), re-ruled Nov. 3–4, 2026, under the reader's brief (R5, R7, R13, R18): the rows now entered are in the tables after this one; chapter 15 (366–82), passed over whole before, is read and its rows added. Made page by page from the book against the calendar's entries for 1960–61 and the ledger.

@@ -72,6 +72,10 @@ Claim maps: 69 entries (53 new, 16 edited), 29 of them finer than the whole entr
 
 ## Passed over
 
+Batch 9 (Nov. 11–12, 2026): the "already in" rows read again from the owner's copy (Drive 1MNuABSuml4ne3RlmYmr7p3YukbJ6mpzV; printed = PDF − 14 held; p. 190 checked on its page image). Patch `inbox/2026-11-12-b9-group-3.yaml` (batch 9, group 3). Rulings: p. 43 (Mar. 8: already cited, the Check on 65,077 to 2,890; Apr. 5, May 20: cited under `cal.1960-04-05.elections-1960`, `cal.1960-05-20.elections-1960`); p. 47 (already cited, 46–48, under `cal.1960-06-08.elections-1960`; the row's id was the call of June 11, which Gifford does not treat); p. 76 (cited under `cal.1960-07-24.elections-1960`, the floor fight; the press release of July 23, n.58, to To check); p. 79 (cited under `cal.1960-08-02.elections-1960`); pp. 86–87 (cited under `cal.1960-10-19.king`, `cal.1960-10-25.king`; Check on Oct. 19: students freed Oct. 24); p. 190 (cited under `cal.1960-10-07.elections-1960` with a Check: Gifford calls the second debate the foreign-policy one; `cal.1960-10-13.elections-1960`; `cal.1960-10-21.elections-1960-2`, Robinson's polling data, n.62, to To check).
+
+Where batch 9 stopped: all six rows ruled.
+
 Re-ruled Nov. 6, 2026, under R18 as amended: the rows ruled below the level (and the letters among them), in "Re-ruled under R18 as amended (b6)" before the Leads (read Nov. 10, 2026). "Below the level" now means a unit's routine only; the papers of a candidate's staff, a party's officers and its allied groups are the informal record (R7, R9).
 
 Made by reading every page of the chapters and listing each event the book dates in Jan. 6, 1960–Jan. 20, 1969; the background before 1960 (the 1958 elections, Rockefeller's fall of 1959 and withdrawal of Dec. 26, 1959, *National Review* in 1958–59, the Young Republicans of 1959) is not listed. "Below the level the calendar records" is the definition of minor (CLAUDE.md, "The parties and the members").

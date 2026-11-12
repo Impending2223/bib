@@ -56,6 +56,24 @@ Dated meetings, memoranda and messages Drea gives that the calendar lacked, each
 
 ## Passed over
 
+**Batch 9: the "already in" rows read against the calendar, Nov. 12, 2026** (group 2 with Drea and Goldberg; patch `inbox/2026-11-12-b9-group-2.yaml`: 12 entries, 28 cites, 3 variants, 3 checks across the three works). The copy: archive.org `DTIC_ADA552481` (PDF, text layer; OCR errors noted). Offsets re-measured from the running heads: printed page = PDF page − 30 for pp. 305–439 and − 46 for pp. 484–498 (the earlier "leaf" figures are the same pages one leaf off). Read off the page image: pp. 489, 497.
+
+| Page | Row | Ruling |
+|---|---|---|
+| 308 | May 14, 1965, Vance and Bundy | cited under `cal.1965-05-15.latin-america` ('?'); entered as `cal.1965-05-14.latin-america-dominican-republic-2` (the selection, the Chiefs surprised) and `cal.1965-05-17.latin-america-dominican-republic` (Wheeler's "rump" remark: Drea's n.64 cites the Chiefs' meeting of May 17; Check: the day). |
+| 439 | June 2, 1967, the British | not borne out for the existing entry (`cal.1967-06-02.middle-east`, Wilson at the White House: Drea does not name Wilson). The calendar lacked the meeting: entered as `cal.1967-06-02.middle-east-six-day-war`, and Evron to Rostow, same page, as `cal.1967-06-02.middle-east-six-day-war-2`. |
+| 486 | Jan. 27, 1968, the Danish ambassador | cited under `cal.1968-01-27.defense-thule` ('?': State's statement of Jan. 27; the 1957 exchange). |
+| 488 | Jan. 24–25, show of force | not borne out for `cal.1968-01-24.japan-and-korea-pueblo-2` (the 1 p.m. NSC; Drea's n.11 cites that at FRUS 480, a different meeting). Entered: `...-pueblo-4` (the meeting without the President, n.13), `...-pueblo-5` (with the President, n.14), `...-pueblo-6` (McNamara's urging, n.12; Check: meeting and hour); Jan. 25: the breakfast (n.15) cited under `cal.1968-01-25.japan-and-korea-pueblo`; entered `cal.1968-01-25.japan-and-korea-pueblo-4` (the staffs), `-5` (the lunch, n.16), `-6` (the evening meeting, n.17), and Jan. 26 `cal.1968-01-26.japan-and-korea-pueblo-3` (the schedule, n.19). `cal.1968-01-25.japan-and-korea-pueblo-2` (the Kosygin cable) cited from the footnote. A claimed `...-pueblo-7` not used. |
+| 489 | the reserve call-up | `cal.1968-01-25.japan-and-korea` cited ('?') with a variant and a Check: Drea has 28 reserve units, 14,787 men and 372 aircraft approved the evening of Jan. 25; the entry some 14,600 men. Drea's own morning figure is 332 aircraft, the evening's 372 (not a disagreement of the entry's). |
+| 491 | Dec. 23, 1968, the apology | cited under `cal.1968-12-22.japan-and-korea` ('?'). |
+| 497 | Aug. 19, 1968, Dobrynin | the row's id (`cal.1968-08-15.testing-missile-talks`) is another day: the page tells `cal.1968-08-19.testing`. Cited ('?') with a variant and a Check: Drea has talks in Moscow Oct. 15 "or any other date close to that time"; the entry the first ten days of October. |
+| 498 | Aug. 22–23, the Cabinet | cited under `cal.1968-08-23.soviet-union-czechoslovakia` ('?': Clifford in the Cabinet Room, supporting the entry's Check on whose words) and `cal.1968-08-22.soviet-union` ('?'); entered `cal.1968-08-22.soviet-union-czechoslovakia` (Johnson's and Rusk's words, from FRUS XVII, 248–49 by n.48). |
+
+Not entered from the pages read: the JCS's port-call order and ISA's compromise suggestion of June 2 (439; minor); Wheeler's message to CINCPAC Jan. 25 (489; a message by the Chairman, left); the Security Council of Jan. 26 and Johnson's message of Feb. 5 (489–91; not searched).
+
+Where batch 9 stopped: all seven rows done.
+
+
 Re-ruled Nov. 6, 2026, under R18 as amended (batch 6, run Nov. 10, 2026; here and in "Passed over (the fourth run)"): the copy as before, archive.org's `DTIC_ADA552481`, its hOCR search text by leaf (folio = leaf − 17 to p. 216, − 45 from p. 441), checked by the running heads of pp. 173 and 497. The rows ruled private remarks or private, each marked in its last cell; patch `inbox/2026-11-06-b6-drea-mcnamara-clifford-and-the-2011.yaml` (1 entry, 2 cites); witnesses `inbox/witnesses/2026-11-06-b6-drea-mcnamara-clifford-and-the-2011.yaml` (2 new), 2 edges (497 n.44c, n.44d).
 
 Dated events of Jan. 6, 1960–Jan. 20, 1969 on the pages read for this pass that the calendar does not take, a row each, for the owner to rule on. The first pass read the pages the calendar cites; the military re-read of Nov. 5, 2026 (below) read chapters XI, XVI (pp. 437–49) and XVIII whole and entered their operations, and lists here row by row what it did not enter. The chapters not yet re-read are named below. "To leads": in the brief, worth an entry, its record not read in this pass.

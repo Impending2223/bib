@@ -53,6 +53,21 @@ Several entries are Goldwater's words dated by the newspaper Goldberg cites, the
 
 ## Passed over
 
+**Batch 9: the "already in" rows read against the calendar, Nov. 12, 2026** (group 2 with Drea and Goldberg; patch `inbox/2026-11-12-b9-group-2.yaml`: 12 entries, 28 cites, 3 variants, 3 checks across the three works). The copy: the owner's Drive file (1meBgl58QAEq3I6H4-Vn58GLs5XeScZck); printed page = PDF page − 26 to p. 178, − 42 after; checked on pp. 176, 188, 199, 211–14, 231, 253, 255 (image).
+
+| Page | Row | Ruling |
+|---|---|---|
+| 176 | Sept.–Oct. 1963, ten-State swing | not cited: the page says only that he "scheduled" the swing, naming six States and no stop or day; the calendar holds the stops. |
+| 188 | late Feb. 1964, Oklahoma, North Carolina | cited under `cal.1964-02-29.elections-1964-state-conventions` and `...-conventions-2` ('?'). |
+| 199 | June 16, 1964, Texas; Dirksen | Texas cited under `cal.1964-06-16.elections-1964-state-conventions` ('?'). Dirksen's "as tight as wallpaper" (Illinois delegates) has no day or month on the page: lead (R50), National, "Goldberg": date it from the *Chicago Tribune* or Dirksen's papers. |
+| 211–14 | the 1964 campaign | cited: Harlem (`cal.1964-07-18.states-and-cities`), Rochester (`cal.1964-07-24.states-and-cities`), Wallace's withdrawal (`cal.1964-07-19.elections-1964`), the bodies found (`cal.1964-08-04.mississippi`), each '?'. Not cited: the economy and the Heller–Porter column (no day), Operation Plan 34A (the entry of Jan. 24 is another record), the Tonkin Gulf (214 breaks off; p. 215 not read). |
+| 231 | Oct. 18, 1964 | cited under `cal.1964-10-18.soviet-union` ('?'). |
+| 253 | Aug. 8, 1968, the acceptance | cited under `cal.1968-08-08.elections-1968-miami` (D, the "forgotten Americans" words; no day). |
+| 255–56 | Nov. 1968 returns | cited under `cal.1968-11-05.elections-1968` ('?') with a variant and a Check: Goldberg's "301 to 197 electoral-college triumph" against Humphrey's 191. |
+
+Where batch 9 stopped: all seven rows done.
+
+
 Re-ruled Nov. 6, 2026, under R18 as amended (run of Nov. 10-11, 2026, patch `inbox/2026-11-06-b6-goldberg-barry-goldwater.yaml`; witnesses `inbox/witnesses/2026-11-06-b6-goldberg-barry-goldwater.yaml`): the rows ruled minor, family or a remark were read again in the same copy (Drive id 1meBgl58QAEq3I6H4-Vn58GLs5XeScZck; offsets unchanged, PDF less 26 to p. 178, less 42 after), the text layer and the page images of pp. 146, 156, 182, 193, 248 and 252, and ruled again; with them three rows marked "a lead" that are private words on politics the page dates (156, 193, 252). Each ends "Re-ruled: ...". The page image of p. 156 shows Goldwater's private urging on Cuba under note 37 (the *New York Times*, Aug. 2, 1971), not note 38; the O'Brien letter of May 9, 1961, is in note 38, with the boycott and the "do-nothing" policy of 1962. The other leads stand.
 
 Made by reading pp. 136-257 page by page and listing every dated event; those already in the calendar took a cite, those not entered are below.
