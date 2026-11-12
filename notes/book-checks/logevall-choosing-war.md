@@ -307,3 +307,9 @@ How the list was made: the book read through in twelve-page passages, pp. 1–41
 ## Leads
 
 Written into `notes/leads.md`: Nixon back from Saigon, early April 1964, calling the policy "soft" (135); the war game Sigma II-64, Sept. 8–17, 1964 (242); Hanoi's assent to Thant's talks, mid-September 1964, and the administration's silence (212–13); the White House meeting of Jan. 6, 1965 (FRUS 1964–68, II, doc. 17); Thant's news conference of Feb. 12, 1965; Johnson with the Joint Chiefs, Mar. 15, 1965 ("Kill more Vietcong"); Gromyko and Rusk, Dec. 9, 1964; Goldwater's charge, late August 1964, that the Matthias memorandum showed a secret plan to negotiate (228, undated).
+
+**Batch 10 (Nov. 12, 2026; `inbox/2026-11-12-b10-leads.yaml`): leads of batches 8 and 9 that give a day or month, read on the page.**
+- Lead: the principals without the President, Sept. 7, 1964 (233–34): entered as `cal.1964-09-07.vietnam-air-war`.
+- Lead: Rusk with de Gaulle, mid-December 1964 (280): entered as `cal.1964-12.europe-and-the-alliance-france` (month only; Check: the day, n.49 has Dec. 16 and 17); Lippmann's summons to the Oval Office on his return entered as `cal.1964-12.vietnam-diplomacy`.
+- Lead: Satō's remarks to reporters, mid-January 1965 (337): entered as `cal.1965-01.japan` (month only, Check: the day).
+- Lead: Fulbright's call for a bombing halt, Apr. 17, 1965 (372): entered as `cal.1965-04-17.vietnam-congress`; Cooper's memorandum of Apr. 21, which reports it, entered as `cal.1965-04-21.vietnam-4`.

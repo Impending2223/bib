@@ -508,3 +508,6 @@ Rows of other grounds (month only, leads, already in) stand as the Nov. 3–4 ta
 - The writers' press conference against Humphrey, 1966 (*Esquire*, Nov. 1966, 106).
 - The rows above marked "to enter" and "month only": 23 events the next run should enter.
 - Muriel Humphrey's question at a White House dinner with the Johnsons, the O'Briens and the Valentis, "Mr. President, why didn't you send Hubert to Churchill's funeral?" (Solberg, 266): the day. Humphrey's "book tapes," n.d., Box 8, Autobiography files, Humphrey Papers. Batch 6.
+
+**Batch 10 (Nov. 12, 2026; `inbox/2026-11-12-b10-leads.yaml`): leads of batches 8 and 9 that give a day or month, read on the page.**
+- Lead: the Sept. 30 calls from Kennedy and Muskie on the plane (385): entered as `cal.1968-09-30.elections-1968-humphrey-10` (Check: which Kennedy). Johnson's order of the FBI tap (395) and Muskie's testimony (351–52) undated: leads still.

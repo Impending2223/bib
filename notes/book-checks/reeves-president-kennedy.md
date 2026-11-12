@@ -339,3 +339,8 @@ How the list was made: the candidate list above, every dated or datable event pp
 - National (b6): Andrew Hatcher's press briefing of June 16, 1961 on the President's health (Salinger papers, Box 46, JFK Library; cited by Reeves, 181): an entry when read.
 
 Written into `notes/leads.md`, National, with the pages above: Prescott Bush's amendment to school aid (May 1961, 133); Capehart, Keating and Van Zandt on Cuba before Oct. 1962 (343–44, 367, 404); Griffiths's letter of Sept. 17, 1962 (353); Eisenhower's attacks on the administration's fiscal record and space program, 1963 (454, 457–58); the DNC's galas of May 19, 1962 and Jan. 1963 (314–15, 461); Goldwater on Tito and Madame Nhu, Oct. 1963 (633); Tito's visit, Oct. 1963 (631–34, no thread); the taping system's installation (304); the appointments log as the source for the many meetings dated only by it.
+
+**Batch 10 (Nov. 12, 2026; `inbox/2026-11-12-b10-leads.yaml`): leads of batches 8 and 9 that give a day or month, read on the page.**
+- Lead: the private 'bluff' remark after Mar. 23, 1961 (75): entered as `cal.1961-03.laos-3` (month only; the page's 'two days later' belongs to the public warning, Check: the day).
+- Lead: Steeves's paper, 'July' (220): passed over, already in (`cal.1961-07.vietnam`, citing 220).
+- Lead: Hilsman's report, January 1962 (281): passed over, no day and no month on the page (the 'Fantastic mobility' report; Hilsman's own book is the source); the mission already cited under `cal.1962-01-18.defense`.

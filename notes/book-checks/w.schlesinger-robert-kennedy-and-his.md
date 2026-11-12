@@ -800,3 +800,7 @@ National:
 - Johnson's request, as Vice President, for an office beside the President's, and his query about the private dinner list (the book, 622; Evelyn Lincoln, *Kennedy and Johnson*, 151, 153): no date.
 - Johnson to Eric Goldman on Robert Kennedy, "That upstart's come too far and too fast" (the book, 647; Goldman, *The Tragedy of Lyndon Johnson*, 78-79): no date.
 - Meany on Robert Kennedy, "that jitterbug" (the book, 806; Goulden, *Meany*, 361), and Robert Kennedy at the Bohemian Grove encampment at Orrick's invitation ("One year"; Orrick's oral history, Apr. 14, 1970, 264-65): no dates.
+
+**Batch 10 (Nov. 12, 2026; `inbox/2026-11-12-b10-leads.yaml`): leads of batches 8 and 9 that give a day or month, read on the page.**
+- Lead: Kennedy's remark at his next news conference (398 n.29): entered as `cal.1962-03-29.court` (the twenty-ninth news conference, Mar. 29, 1962, read in the APP text; PPP 274 from the note).
+- Lead: the cigars delivered in February 1961 (482) and the plot's end in February 1963 (485): passed over, already in (`cal.1961-02.cuba-2`, `cal.1963-02.cuba`, each citing the page).

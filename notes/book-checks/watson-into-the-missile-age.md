@@ -158,3 +158,8 @@ Foreign
 - Diệm's decree of Oct. 7, 1960, on an internal security council (Watson 648): FRUS 1958–60, I.
 - The airlift of the UN force to the Congo, July 1960: its first day (Watson 761 gives none).
 - Gates to Herter, Oct. 4, 1960, on Guantanamo: FRUS 1958–60, VI, doc. 586, not read.
+
+**Batch 10 (Nov. 12, 2026; `inbox/2026-11-12-b10-leads.yaml`): leads of batches 8 and 9 that give a day or month, read on the page.**
+- Lead: the U-2 pages' other days, May 1960 (721–24): the May 9 statement and NSC, the May 15–17 meetings and the May 25 broadcast already cited; Gates's alert of May 15 cited under `cal.1960-05-15.soviet-union` (722–23); the NSC of May 24 entered as `cal.1960-05-24.soviet-union-u2`.
+- Lead: Gates to the Cabinet, Nov. 9, 1960, 'no mandate' (771 n.180): entered as `cal.1960-11-09.elections-1960-count-3` (the note not read).
+- Lead: Gates and McNamara, Dec. 9 and 21, 1960 (771): passed over, already in and citing 771 (`cal.1960-12-09.transition-and-staff-2`, `cal.1960-12-21.transition-and-staff-2`).

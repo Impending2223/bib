@@ -235,3 +235,7 @@ National
 - The rows above marked "for the next".
 - Drea's columnist of June 20, 1965 (35 n.45), to be named from the note.
 - Reston's column on the "imprecision" of the administration's statements, early 1966 (Drea, 71 n.72): the day.
+
+**Batch 10 (Nov. 12, 2026; `inbox/2026-11-12-b10-leads.yaml`): leads of batches 8 and 9 that give a day or month, read on the page.**
+- Lead: the JCS's port-call order and ISA's suggestion of June 2, 1967 (439): ISA's suggestion entered as `cal.1967-06-02.middle-east-six-day-war-4`; the Chiefs' naval scenario of the same day (438) entered as `cal.1967-06-02.middle-east-six-day-war-3`; the port-call permission and the NMCC's shorter report passed over (an office's routine).
+- Lead: Wheeler's message to CINCPAC, Jan. 25, 1968 (489): passed over, already in (`cal.1968-01-25.japan-and-korea-pueblo-8`); the Security Council of Jan. 26 entered as `cal.1968-01-26.japan-and-korea-pueblo-4`; Johnson's message to Kosygin, Feb. 5 (491): already cited under `cal.1968-02-05.japan-and-korea-pueblo`.

@@ -244,3 +244,6 @@ Foreign:
 The Executive roster:
 - (Nov. 3–4.) The Kennedy administration's retention of Thompson at Moscow (248): the roster holds his tenure; no date given here.
 
+
+**Batch 10 (Nov. 12, 2026; `inbox/2026-11-12-b10-leads.yaml`): leads of batches 8 and 9 that give a day or month, read on the page.**
+- Lead: the newspapers' declarations for Kennedy, 383 (Herald Tribune 9:45, Sun-Times ten, Times 10:15, Pacific): entered as `cal.1960-11-08.elections-1960-count-9`, `-10`, `-11`. The commentators on the 12:20 statement (390–91) not read this run.

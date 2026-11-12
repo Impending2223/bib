@@ -283,3 +283,6 @@ National:
 - Kennedy's last news conference (Nov. 14, 1963) and statement on the tax bill (Nov. 16); Johnson's news conferences of Jan. 25 and Mar. 7, 1964: the Public Papers.
 - The agreement on Dirksen's amendments, May 12–13, 1964, and the Republican conference of May 19–20; the Leadership Conference's prayer services and the Interreligious Convocation of Apr. 28, 1964.
 - Montana's Democratic convention, June 27, 1960, and its delegation (Caro 91, 96).
+
+**Batch 10 (Nov. 12, 2026; `inbox/2026-11-12-b10-leads.yaml`): leads of batches 8 and 9 that give a day or month, read on the page.**
+- Lead: Johnson–McCormack, Nov. 29, 1963, on Smith (463): entered as `cal.1963-11-29.civil-rights-bill-3` (the hour, 12:04, from the transcript's heading in the note, Check).

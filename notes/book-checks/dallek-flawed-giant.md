@@ -566,3 +566,13 @@ National:
 - Johnson's background talk with two *Star* reporters, Oct. 13, 1967, on Ford and Laird (WHCF: Aides: Christian).
 - William Bundy's manuscript history of the war (LBJ Library), cited for the July decisions of 1965 and the pause of 1965–66: FRUS quotes parts; the whole not open here. Foreign:
 - Kỳ's words of July 27, 1966, and Feb. 1, 1967; the Dominican cease-fire of May 5, 1965; Thiệu and Kỳ's request of Nov. 5, 1968; the Saigon delegation's arrival, Dec. 8, 1968; the back channel to Moscow, Dec. 9, 1968; the warning to Thiệu, Jan. 7, 1969; the Soviet initiative of June 4, 1968, and Ball's swearing in at the UN.
+
+**Batch 10 (Nov. 12, 2026; `inbox/2026-11-12-b10-leads.yaml`): leads of batches 8 and 9 that give a day or month, read on the page.**
+- Lead: the news conference of May 21, 1966 (363–64): already cited under `cal.1966-05-21.vietnam-struggle` (the quotations, PPP 531); nothing to add.
+- Lead: the speeches of July 23, 1966 (377): entered as `cal.1966-07-23.vietnam-2` (Indianapolis, the 150th anniversary of Indiana; the Vietnam passage; the words read in the APP text; the page 760 from Dallek's n.119, not checked).
+- Lead: the Jim Lucas briefing, Sept. 6, 1966 (380): entered as `cal.1966-09-06.vietnam-congress` (the day from n.125; the page has 'the beginning of September').
+- Lead: Kintner on Kennedy in February (453): entered as `cal.1967-02-17.robert-kennedy-2` (the day from n.30, Check).
+- Lead: Howard K. Smith's talk (453, Mar. 31 by n.29): entered as `cal.1967-03-31.press-and-broadcasting` (Check: the day).
+- Lead: the Humphrey–Korea report and Rostow's 'not a stalemate' memo (471): the memo is already in `cal.1967-07-01.vietnam` (cited 471); Dallek's n.76 dates the memos July 7 and 8, not July 12: a Check added there; Humphrey's report entered as `cal.1967-07-06.vietnam-2` (the day from n.76, Check).
+- Lead: the news conference of Sept. 6, 1968 and the other Public Papers items (552–53): already cited under `cal.1968-09-06.court`, `cal.1968-09-11.jobs-and-wages`, `cal.1968-09-12.welfare`, `cal.1968-09-16.school-aid`, `cal.1968-09-24.health`, `cal.1968-09-26.program`, `cal.1968-08-16.health`; nothing to add.
+- Lead: Johnson to David Wise, Oct. 1, 1968, on Czechoslovakia (555): the meeting is `cal.1968-10-01.court-2` (Fortas); cited there under 555 (units '?', the other words).
